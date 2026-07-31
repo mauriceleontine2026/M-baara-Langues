@@ -58,6 +58,29 @@ docker compose -f backend/docker-compose.deploy.yml up --build
 
 After deployment, point `VITE_API_BASE_URL` to the public backend URL and rebuild/redeploy the frontend.
 
+## Deploy the backend on Replit
+
+This repo includes Replit configuration files so you can host the backend without Docker.
+
+1. Create a new Repl on Replit.
+2. Choose "Import from GitHub" and use this repository:
+   `https://github.com/mauriceleontine2026/M-baara-Langues`
+3. Replit will use the existing `.replit` and `replit.nix` files to install dependencies and start the backend.
+4. Set the following environment variables in the Replit Secrets / Environment panel:
+
+```bash
+DATABASE_URL=sqlite:///./mbaara.db
+JWT_SECRET=change-this-secret
+JWT_ALGORITHM=HS256
+OPENAI_API_KEY=<your_openai_api_key>
+FIREBASE_PROJECT_ID=m-baara-langues
+```
+
+5. Once the Repl is running, verify the backend is available at:
+   `/api/health`
+
+If you also want the frontend to use this hosted backend, set `VITE_API_BASE_URL` to the public Replit URL in your frontend environment configuration.
+
 ## Use The Hosted Backend
 
 For frontend-only development, create or update `.env.local` in the project root with your backend and Firebase values as needed.
