@@ -29,6 +29,10 @@ app.include_router(vocabulary, prefix="/api/vocabulary")
 app.include_router(contributions, prefix="/api/contributions")
 app.include_router(users, prefix="/api/users")
 
+@app.get("/", tags=["root"])
+def root():
+    return {"message": "M'baara API is running", "health": "/api/health"}
+
 # Serve static files (audio outputs, etc.)
 static_dir = os.path.join(os.path.dirname(__file__), '..', 'static')
 os.makedirs(static_dir, exist_ok=True)
