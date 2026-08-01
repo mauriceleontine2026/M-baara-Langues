@@ -1,8 +1,7 @@
 { pkgs }: {
   deps = [
-    pkgs.python310
-    pkgs.python310Packages.pip
-    pkgs.bash
+    pkgs.python310Full
+    pkgs.bashInteractive
     pkgs.ffmpeg
   ];
 }
