@@ -3,5 +3,6 @@
     pkgs.python310
     pkgs.python310Packages.pip
     pkgs.bash
+    pkgs.ffmpeg
   ];
 }
