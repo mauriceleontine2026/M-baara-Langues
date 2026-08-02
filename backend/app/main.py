@@ -3,11 +3,29 @@ from fastapi.middleware.cors import CORSMiddleware
 from .database import Base, engine
 from .routers import health, auth, lessons, progress, audio, ai, languages, vocabulary, contributions, users, leaderboard
 from fastapi.staticfiles import StaticFiles
+from pathlib import Path
 import os
 
 app = FastAPI(title="M'baara API", version="0.1.0")
 
 Base.metadata.create_all(bind=engine)
+
+from sqlalchemy import inspect
+from .database import SessionLocal
+
+
+def _ensure_user_role_column():
+    inspector = inspect(engine)
+    if 'users' not in inspector.get_table_names():
+        return
+    columns = [column['name'] for column in inspector.get_columns('users')]
+    if 'role' in columns:
+        return
+    with engine.connect() as conn:
+        conn.execute("ALTER TABLE users ADD COLUMN role VARCHAR(50) DEFAULT 'user'")
+
+
+_ensure_user_role_column()
 
 app.add_middleware(
     CORSMiddleware,
@@ -34,6 +52,9 @@ def root():
     return {"message": "M'baara API is running", "health": "/api/health"}
 
 # Serve static files (audio outputs, etc.)
-static_dir = os.path.join(os.path.dirname(__file__), '..', 'static')
-os.makedirs(static_dir, exist_ok=True)
-app.mount("/static", StaticFiles(directory=static_dir), name="static")
+ROOT_DIR = Path(__file__).resolve().parents[2]
+STATIC_DIR = Path(os.environ.get("MBAARA_STATIC_DIR", "/tmp/mbaara/static"))
+if os.access(ROOT_DIR, os.W_OK):
+    STATIC_DIR = ROOT_DIR / "backend" / "static"
+STATIC_DIR.mkdir(parents=True, exist_ok=True)
+app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")

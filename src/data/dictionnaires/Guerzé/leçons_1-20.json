@@ -1,0 +1,1508 @@
+[
+  {
+    "lecon": 1,
+    "titre": "Salutations de base",
+    "description": "Les premières expressions pour saluer et rencontrer quelqu'un en Kpelè.",
+    "vocabulaire": [
+      {
+        "id": 1,
+        "kpele": "lɛ̌nɛ",
+        "francais": "accolade de salutation (étreinte rituelle entre deux personnes qui se saluent)",
+        "exemple_kpele": "àúòo lɛ̌nɛ !",
+        "exemple_francais": "Auoo ! (salutation avec l'accolade !)",
+        "phonetique": "lɛ̌-nɛ (ton bas-haut sur la première syllabe, ton bas sur la seconde)",
+        "categorie": "salutations"
+      },
+      {
+        "id": 2,
+        "kpele": "àúòo",
+        "francais": "auoo (exclamation dite en même temps que l'accolade lors d'une salutation)",
+        "exemple_kpele": "àúòo ! lɛ̌nɛ káa mà !",
+        "exemple_francais": "Auoo ! Je te salue avec l'accolade !",
+        "phonetique": "à-ú-ò-o (suite de tons : bas, haut, bas, bas)",
+        "categorie": "salutations"
+      },
+      {
+        "id": 3,
+        "kpele": "é yíi ↓kpɛ́li",
+        "francais": "bonjour (litt. : as-tu bien dormi ?)",
+        "exemple_kpele": "é yíi ↓kpɛ́li máa̋ !",
+        "exemple_francais": "Bonjour ! (as-tu bien dormi ?)",
+        "phonetique": "é yíi kpɛ́-li (le ↓ indique un ton descendant / downstep sur kpɛ́li)",
+        "categorie": "salutations"
+      },
+      {
+        "id": 4,
+        "kpele": "hwáa",
+        "francais": "parler ; saluer quelqu'un",
+        "exemple_kpele": "ŋé hwáa nú kélee ɓâ.",
+        "exemple_francais": "Je salue tout le monde.",
+        "phonetique": "hwáa (h aspiré labialisé, ton haut)",
+        "categorie": "salutations"
+      },
+      {
+        "id": 5,
+        "kpele": "máma",
+        "francais": "merci",
+        "exemple_kpele": "é máma !",
+        "exemple_francais": "Merci à toi !",
+        "phonetique": "má-ma (deux syllabes, ton haut sur les deux)",
+        "categorie": "salutations"
+      },
+      {
+        "id": 6,
+        "kpele": "lúɠû",
+        "francais": "sois le bienvenu ! (dit à un étranger)",
+        "exemple_kpele": "é pá lúɠû !",
+        "exemple_francais": "Sois le bienvenu !",
+        "phonetique": "lú-ɠû (ɠ est une fricative vélaire voisée ; ton haut puis descendant)",
+        "categorie": "salutations"
+      },
+      {
+        "id": 7,
+        "kpele": "é kɔ́lɔŋ núɠû",
+        "francais": "je suis enchanté de faire ta connaissance",
+        "exemple_kpele": "é kɔ́lɔŋ núɠû !",
+        "exemple_francais": "Je suis enchanté de faire ta connaissance !",
+        "phonetique": "é kɔ́-lɔŋ nú-ɠû (kɔ́lɔŋ = connaître, núɠû = cendre = bonheur/bienvenue)",
+        "categorie": "salutations"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces expressions du français vers le Kpelè :",
+      "questions": [
+        { "question": "Merci à toi !", "reponse": "é máma !" },
+        { "question": "Sois le bienvenu !", "reponse": "é pá lúɠû !" },
+        { "question": "Bonjour (as-tu bien dormi ?)", "reponse": "é yíi ↓kpɛ́li" }
+      ]
+    }
+  },
+  {
+    "lecon": 2,
+    "titre": "Les personnes – Homme, Femme, Enfant",
+    "description": "Le vocabulaire de base pour désigner les êtres humains.",
+    "vocabulaire": [
+      {
+        "id": 8,
+        "kpele": "nú",
+        "francais": "homme, être humain (pluriel : núâ)",
+        "exemple_kpele": "nú ɓáa à ɲáa.",
+        "exemple_francais": "Je suis un homme.",
+        "phonetique": "nú (ton haut ; une syllabe courte)",
+        "categorie": "personnes"
+      },
+      {
+        "id": 9,
+        "kpele": "nɛ̀ɛnû",
+        "francais": "femme (opposée à l'homme) (pluriel : nɛ̀âa)",
+        "exemple_kpele": "nɛ̀ɛnú nɛ́lɛɛ ká tíi.",
+        "exemple_francais": "Voici une belle femme.",
+        "phonetique": "nɛ̀ɛ-nû (ton bas sur la première syllabe longue, ton descendant sur la finale)",
+        "categorie": "personnes"
+      },
+      {
+        "id": 10,
+        "kpele": "lókòlo",
+        "francais": "enfant (pluriel : lɛ́apɛ̀lɛɛ)",
+        "exemple_kpele": "lókòlo ká tíi.",
+        "exemple_francais": "Voici un enfant.",
+        "phonetique": "ló-kò-lo (ton haut, ton bas, ton bas)",
+        "categorie": "personnes"
+      },
+      {
+        "id": 11,
+        "kpele": "nóŋ",
+        "francais": "enfant (fils ou fille d'une personne, terme relationnel)",
+        "exemple_kpele": "gàá à nóŋ.",
+        "exemple_francais": "Il est mon enfant.",
+        "phonetique": "nóŋ (ton haut + consonne nasale vélaire finale)",
+        "categorie": "personnes"
+      },
+      {
+        "id": 12,
+        "kpele": "ɓɛ̀lâŋ",
+        "francais": "ami (pluriel : ɓɛ̀lâa)",
+        "exemple_kpele": "ɓɛ̀lâŋ ɓáa à yɛ́.",
+        "exemple_francais": "Tu es mon ami.",
+        "phonetique": "ɓɛ̀-lâŋ (ɓ est une consonne implosive ; ton bas-haut-bas = ton descendant sur la finale)",
+        "categorie": "personnes"
+      },
+      {
+        "id": 13,
+        "kpele": "nú kélee",
+        "francais": "tout le monde",
+        "exemple_kpele": "nú kélee káa làa.",
+        "exemple_francais": "Tout le monde est là-bas.",
+        "phonetique": "nú ké-lee (kélee = déterminatif signifiant 'tout')",
+        "categorie": "personnes"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces mots du français vers le Kpelè :",
+      "questions": [
+        { "question": "enfant", "reponse": "lókòlo" },
+        { "question": "femme", "reponse": "nɛ̀ɛnû" },
+        { "question": "ami", "reponse": "ɓɛ̀lâŋ" }
+      ]
+    }
+  },
+  {
+    "lecon": 3,
+    "titre": "L'eau, la nourriture, les besoins essentiels",
+    "description": "Vocabulaire de base pour les besoins quotidiens fondamentaux.",
+    "vocabulaire": [
+      {
+        "id": 14,
+        "kpele": "yá",
+        "francais": "eau",
+        "exemple_kpele": "pá à yá !",
+        "exemple_francais": "Apporte de l'eau !",
+        "phonetique": "yá (y est une sonante palatale ; ton haut)",
+        "categorie": "nourriture_et_boissons"
+      },
+      {
+        "id": 15,
+        "kpele": "ɓá",
+        "francais": "riz cuit (avec sauce) ; repas",
+        "exemple_kpele": "ɓá ká tíi.",
+        "exemple_francais": "Voici le repas.",
+        "phonetique": "ɓá (consonne implosive bilabiale ɓ ; ton haut)",
+        "categorie": "nourriture_et_boissons"
+      },
+      {
+        "id": 16,
+        "kpele": "kɔ́nɔŋ",
+        "francais": "nourriture, repas",
+        "exemple_kpele": "pá gù kɔ́nɔŋ míi !",
+        "exemple_francais": "Viens manger !",
+        "phonetique": "kɔ́-nɔŋ (ton haut sur la première syllabe, ton bas sur la seconde)",
+        "categorie": "nourriture_et_boissons"
+      },
+      {
+        "id": 17,
+        "kpele": "mǐi",
+        "francais": "manger",
+        "exemple_kpele": "ŋé kɔ́nɔŋ mɛ̀ɛ.",
+        "exemple_francais": "Je mange de la nourriture.",
+        "phonetique": "mǐi (le caron ̌ indique la mélodie /B(H)/ : ton bas plat)",
+        "categorie": "verbes_courants"
+      },
+      {
+        "id": 18,
+        "kpele": "pǔlu",
+        "francais": "faim",
+        "exemple_kpele": "pùlu káa mîi.",
+        "exemple_francais": "J'ai faim.",
+        "phonetique": "pǔ-lu (le caron ̌ sur la 1re voyelle indique mélodie /B(H)/ ; ton bas plat)",
+        "categorie": "expressions_du_quotidien"
+      },
+      {
+        "id": 19,
+        "kpele": "lɔ̌ɔ",
+        "francais": "vin de palme",
+        "exemple_kpele": "àa háa lɔ̀ɔ kpéle à mɔ̌lɔɔ.",
+        "exemple_francais": "Il a bu beaucoup de vin de palme aujourd'hui.",
+        "phonetique": "lɔ̌ɔ (voyelle longue ; mélodie ton bas plat /B(H)/)",
+        "categorie": "nourriture_et_boissons"
+      },
+      {
+        "id": 20,
+        "kpele": "tóu",
+        "francais": "noix de palme (Elaeis guineensis, on en extrait l'huile rouge)",
+        "exemple_kpele": "tóu àa wúlo.",
+        "exemple_francais": "La noix de palme produit beaucoup d'huile.",
+        "phonetique": "tóu (ton haut sur les deux unités de la syllabe longue)",
+        "categorie": "nourriture_et_boissons"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces expressions du français vers le Kpelè :",
+      "questions": [
+        { "question": "J'ai faim.", "reponse": "pùlu káa mîi." },
+        { "question": "Apporte de l'eau !", "reponse": "pá à yá !" },
+        { "question": "Viens manger !", "reponse": "pá gù kɔ́nɔŋ míi !" }
+      ]
+    }
+  },
+  {
+    "lecon": 4,
+    "titre": "Verbes fondamentaux (1) : venir, voir, parler, entrer",
+    "description": "Les premiers verbes d'action les plus fréquents en Kpelè.",
+    "vocabulaire": [
+      {
+        "id": 21,
+        "kpele": "pá",
+        "francais": "venir",
+        "exemple_kpele": "pá ɓɛ́ !",
+        "exemple_francais": "Viens ici !",
+        "phonetique": "pá (ton haut ; p est une occlusive bilabiale sourde)",
+        "categorie": "verbes_courants"
+      },
+      {
+        "id": 22,
+        "kpele": "káa",
+        "francais": "voir ; trouver",
+        "exemple_kpele": "yílê ↓káa !",
+        "exemple_francais": "Regarde un chien !",
+        "phonetique": "káa (ton haut ; voyelle longue)",
+        "categorie": "verbes_courants"
+      },
+      {
+        "id": 23,
+        "kpele": "hwáa",
+        "francais": "parler",
+        "exemple_kpele": "hwáa wɛ́li ↓káa mà.",
+        "exemple_francais": "Il aime parler.",
+        "phonetique": "hwáa (hw = fricative vélaire labialisée ; ton haut ; voyelle longue)",
+        "categorie": "verbes_courants"
+      },
+      {
+        "id": 24,
+        "kpele": "lɔ́",
+        "francais": "entrer, pénétrer",
+        "exemple_kpele": "lɔ́ bɛ̀lɛ̂ŋ !",
+        "exemple_francais": "Entre dans la maison !",
+        "phonetique": "lɔ́ (ton haut ; ɔ est une voyelle mi-ouverte postérieure)",
+        "categorie": "verbes_courants"
+      },
+      {
+        "id": 25,
+        "kpele": "kɛ́",
+        "francais": "faire",
+        "exemple_kpele": "kólô kɛ́ !",
+        "exemple_francais": "Travaille !",
+        "phonetique": "kɛ́ (ton haut ; ɛ est une voyelle mi-ouverte centrale/antérieure)",
+        "categorie": "verbes_courants"
+      },
+      {
+        "id": 26,
+        "kpele": "kɔ́lɔŋ",
+        "francais": "connaître, faire connaissance",
+        "exemple_kpele": "ŋé Pépèe kɔ́lɔŋ.",
+        "exemple_francais": "Je connais Pépé.",
+        "phonetique": "kɔ́-lɔŋ (ton haut puis ton bas + consonne nasale vélaire finale)",
+        "categorie": "verbes_courants"
+      },
+      {
+        "id": 27,
+        "kpele": "hěe",
+        "francais": "s'asseoir",
+        "exemple_kpele": "hěe ɓɛ́ !",
+        "exemple_francais": "Assieds-toi ici !",
+        "phonetique": "hěe (le caron ̌ indique la mélodie /B(H)/ : ton bas plat ; voyelle longue)",
+        "categorie": "verbes_courants"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces phrases du français vers le Kpelè :",
+      "questions": [
+        { "question": "Viens ici !", "reponse": "pá ɓɛ́ !" },
+        { "question": "Entre dans la maison !", "reponse": "lɔ́ bɛ̀lɛ̂ŋ !" },
+        { "question": "Je connais Pépé.", "reponse": "ŋé Pépèe kɔ́lɔŋ." }
+      ]
+    }
+  },
+  {
+    "lecon": 5,
+    "titre": "La maison et le village",
+    "description": "Vocabulaire pour parler des lieux de vie quotidienne.",
+    "vocabulaire": [
+      {
+        "id": 28,
+        "kpele": "pɛ́lɛ",
+        "francais": "maison",
+        "exemple_kpele": "lɔ́ bɛ̀lɛ̂ŋ.",
+        "exemple_francais": "Entre dans la maison.",
+        "phonetique": "pɛ́-lɛ (ton haut sur les deux syllabes) ; forme locative : pɛ́lɛ̂ŋ = pɛ́lɛ mù",
+        "categorie": "habitat"
+      },
+      {
+        "id": 29,
+        "kpele": "tǎa",
+        "francais": "village, ville",
+        "exemple_kpele": "dì pá tàâi.",
+        "exemple_francais": "Ils sont venus au village.",
+        "phonetique": "tǎa (caron sur la voyelle = mélodie /B(H)/ ; forme locative : tàâi = tǎa hù)",
+        "categorie": "habitat"
+      },
+      {
+        "id": 30,
+        "kpele": "lɔ́ɠɔkpalâŋ",
+        "francais": "marché",
+        "exemple_kpele": "ŋé lɔ́ɠɔkpalâŋ ɲá.",
+        "exemple_francais": "Je vais au marché.",
+        "phonetique": "lɔ́-ɠɔ-kpa-lâŋ (mot composé ; ɠ = fricative vélaire voisée)",
+        "categorie": "habitat"
+      },
+      {
+        "id": 31,
+        "kpele": "kpôŋ",
+        "francais": "porte",
+        "exemple_kpele": "kpôŋ láa-ɓó !",
+        "exemple_francais": "Ouvre la porte !",
+        "phonetique": "kpôŋ (kp = labio-vélaire bifocale sourde ; ton descendant sur la voyelle)",
+        "categorie": "habitat"
+      },
+      {
+        "id": 32,
+        "kpele": "màalâa",
+        "francais": "cour, domicile",
+        "exemple_kpele": "ŋé hěe màalâa hù.",
+        "exemple_francais": "Je m'assieds dans la cour.",
+        "phonetique": "mà-a-lâa (ton bas, ton bas, ton descendant)",
+        "categorie": "habitat"
+      },
+      {
+        "id": 33,
+        "kpele": "lɔ̌ɠɔ",
+        "francais": "forêt",
+        "exemple_kpele": "ŋé lɔ̌ɠɔ lí.",
+        "exemple_francais": "Je vais en forêt.",
+        "phonetique": "lɔ̌-ɠɔ (mélodie /B(H)/ ; ɠ = fricative vélaire voisée)",
+        "categorie": "environnement"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces mots du français vers le Kpelè :",
+      "questions": [
+        { "question": "maison", "reponse": "pɛ́lɛ" },
+        { "question": "village", "reponse": "tǎa" },
+        { "question": "marché", "reponse": "lɔ́ɠɔkpalâŋ" }
+      ]
+    }
+  },
+  {
+    "lecon": 6,
+    "titre": "Les animaux courants",
+    "description": "Les animaux que l'on rencontre dans la vie quotidienne en Guinée forestière.",
+    "vocabulaire": [
+      {
+        "id": 34,
+        "kpele": "yílê",
+        "francais": "chien",
+        "exemple_kpele": "yílê ká tíi.",
+        "exemple_francais": "Voici un chien.",
+        "phonetique": "yílê (mélodie /HB/ : ton descendant sur la syllabe finale ; yí-lê)",
+        "categorie": "animaux"
+      },
+      {
+        "id": 35,
+        "kpele": "ɲàalee",
+        "francais": "chat",
+        "exemple_kpele": "ɲàalee àá hwòlo ɲínɛ ɓâ.",
+        "exemple_francais": "Le chat a raté la souris.",
+        "phonetique": "ɲàa-lee (mélodie /B/ : ton bas descendant ; ɲ = nasale palatale)",
+        "categorie": "animaux"
+      },
+      {
+        "id": 36,
+        "kpele": "ɓǒlu",
+        "francais": "chèvre, bouc",
+        "exemple_kpele": "ŋàá ɓǒlu kpúloŋ ↓wúlu ɓâ.",
+        "exemple_francais": "J'ai attaché la chèvre à un arbre.",
+        "phonetique": "ɓǒ-lu (ɓ = implosive bilabiale ; caron = mélodie /B(H)/)",
+        "categorie": "animaux"
+      },
+      {
+        "id": 37,
+        "kpele": "hǒo",
+        "francais": "cheval",
+        "exemple_kpele": "hǒo nɛ́lɛɛ ká tíi.",
+        "exemple_francais": "Voici un beau cheval.",
+        "phonetique": "hǒo (mélodie /B(H)/ ; voyelle longue)",
+        "categorie": "animaux"
+      },
+      {
+        "id": 38,
+        "kpele": "yǎla",
+        "francais": "lion",
+        "exemple_kpele": "yǎla àá pá tàâi hù.",
+        "exemple_francais": "Un lion est venu au village.",
+        "phonetique": "yǎ-la (caron = mélodie /B(H)/ sur la première voyelle)",
+        "categorie": "animaux"
+      },
+      {
+        "id": 39,
+        "kpele": "gwîi",
+        "francais": "banane (fruit)",
+        "exemple_kpele": "gwíikpɔ̀lu ká tíi.",
+        "exemple_francais": "Voici une banane mûre.",
+        "phonetique": "gwîi (gw = vélaire labialisée voisée ; mélodie /HB/ : ton descendant)",
+        "categorie": "nourriture_et_boissons"
+      },
+      {
+        "id": 40,
+        "kpele": "ɲínɛ",
+        "francais": "souris (nom générique)",
+        "exemple_kpele": "ɲàalee àá hwòlo ɲínɛ ɓâ.",
+        "exemple_francais": "Le chat a raté la souris.",
+        "phonetique": "ɲí-nɛ (ɲ = nasale palatale ; ton haut sur les deux syllabes)",
+        "categorie": "animaux"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces mots du français vers le Kpelè :",
+      "questions": [
+        { "question": "chien", "reponse": "yílê" },
+        { "question": "chèvre", "reponse": "ɓǒlu" },
+        { "question": "lion", "reponse": "yǎla" }
+      ]
+    }
+  },
+  {
+    "lecon": 7,
+    "titre": "Le corps humain",
+    "description": "Les parties du corps en Kpelè.",
+    "vocabulaire": [
+      {
+        "id": 41,
+        "kpele": "ŋwùŋ",
+        "francais": "tête ; cheveux",
+        "exemple_kpele": "Pépèe ŋwùŋ gáa mɛ̀lâi.",
+        "exemple_francais": "Pépé a mal à la tête.",
+        "phonetique": "ŋwùŋ (ŋw = nasale vélaire labialisée ; ton bas)",
+        "categorie": "corps_humain"
+      },
+      {
+        "id": 42,
+        "kpele": "ɲɛ́i",
+        "francais": "visage ; yeux (aussi en fonction locative : devant)",
+        "exemple_kpele": "é ɲɛ́i wáa !",
+        "exemple_francais": "Lave ton visage !",
+        "phonetique": "ɲɛ́i (ɲ = nasale palatale ; ton haut)",
+        "categorie": "corps_humain"
+      },
+      {
+        "id": 43,
+        "kpele": "lá",
+        "francais": "bouche",
+        "exemple_kpele": "lí é láa wáa !",
+        "exemple_francais": "Va laver l'intérieur de ta bouche !",
+        "phonetique": "lá (ton haut ; forme locative : láa)",
+        "categorie": "corps_humain"
+      },
+      {
+        "id": 44,
+        "kpele": "kɔ́ɠɔ",
+        "francais": "jambe, pied, patte",
+        "exemple_kpele": "gbèlí gɔ̀ɠɔ́ àá ŋwàná.",
+        "exemple_francais": "Sa jambe lui a fait mal.",
+        "phonetique": "kɔ́-ɠɔ (ton haut puis ton bas ; ɠ = fricative vélaire voisée)",
+        "categorie": "corps_humain"
+      },
+      {
+        "id": 45,
+        "kpele": "ɲèe",
+        "francais": "main",
+        "exemple_kpele": "ŋàá ɲée hwɛ́ɛ kúlo mù.",
+        "exemple_francais": "J'ai fait sortir le pus de ma main enflée.",
+        "phonetique": "ɲèe (ɲ = nasale palatale ; ton bas ; voyelle longue)",
+        "categorie": "corps_humain"
+      },
+      {
+        "id": 46,
+        "kpele": "gɔ́lɔ",
+        "francais": "corps (aussi : corps humain en général)",
+        "exemple_kpele": "gɔ́lɔ kpɔ̀naâi mîi.",
+        "exemple_francais": "J'ai mal au corps, j'ai des courbatures.",
+        "phonetique": "gɔ́-lɔ (ton haut puis ton bas)",
+        "categorie": "corps_humain"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces mots du français vers le Kpelè :",
+      "questions": [
+        { "question": "tête", "reponse": "ŋwùŋ" },
+        { "question": "visage", "reponse": "ɲɛ́i" },
+        { "question": "bouche", "reponse": "lá" }
+      ]
+    }
+  },
+  {
+    "lecon": 8,
+    "titre": "Les nombres de 1 à 10",
+    "description": "Apprendre à compter en Kpelè.",
+    "vocabulaire": [
+      {
+        "id": 47,
+        "kpele": "táaŋ",
+        "francais": "un (pour compter)",
+        "exemple_kpele": "lókòlo táaŋ ká tíi.",
+        "exemple_francais": "Voici un seul enfant.",
+        "phonetique": "táaŋ (ton haut ; voyelle longue + consonne nasale vélaire finale)",
+        "categorie": "nombres"
+      },
+      {
+        "id": 48,
+        "kpele": "hwèelɛ",
+        "francais": "deux",
+        "exemple_kpele": "gwíi hwèelɛ gbéŋ ɓé ŋé ɲà.",
+        "exemple_francais": "J'ai seulement acheté deux bananes.",
+        "phonetique": "hwèe-lɛ (hw = fricative vélaire labialisée ; mélodie /B/ ton bas descendant)",
+        "categorie": "nombres"
+      },
+      {
+        "id": 49,
+        "kpele": "hǎaɓa",
+        "francais": "trois",
+        "exemple_kpele": "gwíikpɔ̀lu hàaɓa káa à wáa tɔ́nɔ̂.",
+        "exemple_francais": "Trois bananes coûtent mille francs.",
+        "phonetique": "hǎa-ɓa (caron sur première voyelle = mélodie /B(H)/ ; ɓ = implosive)",
+        "categorie": "nombres"
+      },
+      {
+        "id": 50,
+        "kpele": "náaŋ",
+        "francais": "quatre",
+        "exemple_kpele": "tɛ́ɛ náaŋ ká tíi.",
+        "exemple_francais": "Voici quatre poulets.",
+        "phonetique": "náaŋ (ton haut ; voyelle longue + nasale vélaire finale)",
+        "categorie": "nombres"
+      },
+      {
+        "id": 51,
+        "kpele": "lɔ́ɔli",
+        "francais": "cinq",
+        "exemple_kpele": "nú lɔ́ɔli pá.",
+        "exemple_francais": "Cinq personnes sont venues.",
+        "phonetique": "lɔ́ɔ-li (ton haut sur la syllabe longue, ton bas sur la finale)",
+        "categorie": "nombres"
+      },
+      {
+        "id": 52,
+        "kpele": "mɛ̀ídà",
+        "francais": "six",
+        "exemple_kpele": "lókòlo mɛ̀ídà ká.",
+        "exemple_francais": "Voici six enfants.",
+        "phonetique": "mɛ̀í-dà (ton bas puis ton haut sur première partie ; ton bas sur finale)",
+        "categorie": "nombres"
+      },
+      {
+        "id": 53,
+        "kpele": "mɛ̀ihwéelɛ̀",
+        "francais": "sept",
+        "exemple_kpele": "hwólo mɛ̀ihwéelɛ̀.",
+        "exemple_francais": "Sept jours.",
+        "phonetique": "mɛ̀i-hwée-lɛ̀ (composé de mɛ̀ídà 6 + hwèelɛ 2 modifié = 6+1 dans la structure tonale)",
+        "categorie": "nombres"
+      },
+      {
+        "id": 54,
+        "kpele": "mɛ̀iháaɓà",
+        "francais": "huit",
+        "exemple_kpele": "pɛ́lɛ mɛ̀iháaɓà.",
+        "exemple_francais": "Huit maisons.",
+        "phonetique": "mɛ̀i-háa-ɓà (composé : mɛ̀ídà + hǎaɓa modifié)",
+        "categorie": "nombres"
+      },
+      {
+        "id": 55,
+        "kpele": "mɛ̀ináaŋ",
+        "francais": "neuf",
+        "exemple_kpele": "yílê mɛ̀ináaŋ.",
+        "exemple_francais": "Neuf chiens.",
+        "phonetique": "mɛ̀i-náaŋ (composé de mɛ̀ídà + náaŋ modifié)",
+        "categorie": "nombres"
+      },
+      {
+        "id": 56,
+        "kpele": "pǒu",
+        "francais": "dix",
+        "exemple_kpele": "gáakwɛlaŋ ↓gáa pǒu.",
+        "exemple_francais": "J'ai dix ans.",
+        "phonetique": "pǒu (caron = mélodie /B(H)/ ; voyelle longue)",
+        "categorie": "nombres"
+      }
+    ],
+    "exercice": {
+      "consigne": "Écrivez ces chiffres en Kpelè :",
+      "questions": [
+        { "question": "3", "reponse": "hǎaɓa" },
+        { "question": "5", "reponse": "lɔ́ɔli" },
+        { "question": "10", "reponse": "pǒu" }
+      ]
+    }
+  },
+  {
+    "lecon": 9,
+    "titre": "Le temps et les moments de la journée",
+    "description": "Exprimer le temps, les moments de la journée et les jours.",
+    "vocabulaire": [
+      {
+        "id": 57,
+        "kpele": "hwólo",
+        "francais": "soleil ; jour ; temps, époque",
+        "exemple_kpele": "hwólo àá mìhéɠe.",
+        "exemple_francais": "Le soleil s'est levé.",
+        "phonetique": "hwó-lo (hw = fricative vélaire labialisée ; ton haut puis ton bas)",
+        "categorie": "temps"
+      },
+      {
+        "id": 58,
+        "kpele": "kwîi",
+        "francais": "nuit",
+        "exemple_kpele": "kwîi àa pú.",
+        "exemple_francais": "La nuit est tombée.",
+        "phonetique": "kwîi (kw = vélaire labialisée sourde ; mélodie /HB/ = ton descendant)",
+        "categorie": "temps"
+      },
+      {
+        "id": 59,
+        "kpele": "hwóloninîŋ",
+        "francais": "matin (les premières heures de la journée)",
+        "exemple_kpele": "hwóloninîŋ mà pá.",
+        "exemple_francais": "Viens le matin.",
+        "phonetique": "hwólo-ni-nîŋ (mot composé : hwólo = soleil + nìnîŋ = début)",
+        "categorie": "temps"
+      },
+      {
+        "id": 60,
+        "kpele": "hwólolâai",
+        "francais": "coucher du soleil",
+        "exemple_kpele": "hwólolâai mà ŋé pá.",
+        "exemple_francais": "Je viendrai au coucher du soleil.",
+        "phonetique": "hwólo-lâai (composé ; ton descendant sur lâai)",
+        "categorie": "temps"
+      },
+      {
+        "id": 61,
+        "kpele": "kèlěe",
+        "francais": "aujourd'hui",
+        "exemple_kpele": "kèlěe ŋé lɔ́ɠɔkpalâŋ ɲá.",
+        "exemple_francais": "Aujourd'hui je vais au marché.",
+        "phonetique": "kè-lě-e (mélodie /B(H)/ ; ton bas plat)",
+        "categorie": "temps"
+      },
+      {
+        "id": 62,
+        "kpele": "hwɛ̀lâaŋ",
+        "francais": "après-demain ; avant-hier",
+        "exemple_kpele": "hwɛ̀lâaŋ mà pá.",
+        "exemple_francais": "Viens après-demain.",
+        "phonetique": "hwɛ̀-lâaŋ (ton bas, ton descendant, nasale finale)",
+        "categorie": "temps"
+      },
+      {
+        "id": 63,
+        "kpele": "lɔ́ɠɔ",
+        "francais": "semaine ; commerce",
+        "exemple_kpele": "lɔ́ɠɔ hwèelɛ àa kpɛ̌ɛ.",
+        "exemple_francais": "Deux semaines se sont écoulées.",
+        "phonetique": "lɔ́-ɠɔ (ton haut puis ton bas ; ɠ = fricative vélaire voisée)",
+        "categorie": "temps"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces mots du français vers le Kpelè :",
+      "questions": [
+        { "question": "soleil / jour", "reponse": "hwólo" },
+        { "question": "nuit", "reponse": "kwîi" },
+        { "question": "aujourd'hui", "reponse": "kèlěe" }
+      ]
+    }
+  },
+  {
+    "lecon": 10,
+    "titre": "Les pronoms personnels et marqueurs prédicatifs",
+    "description": "Introduction aux pronoms et aux marqueurs verbaux en Kpelè.",
+    "vocabulaire": [
+      {
+        "id": 64,
+        "kpele": "ŋé",
+        "francais": "je (marqueur prédicatif de base 1SG)",
+        "exemple_kpele": "ŋé Pépèe kɔ́lɔŋ.",
+        "exemple_francais": "Je connais Pépé.",
+        "phonetique": "ŋé (ŋ = nasale vélaire ; ton haut)",
+        "categorie": "grammaire"
+      },
+      {
+        "id": 65,
+        "kpele": "é",
+        "francais": "tu (marqueur prédicatif de base 2SG)",
+        "exemple_kpele": "é wɛ́li káa mîi.",
+        "exemple_francais": "Je t'aime. (litt. : amour est sur moi de toi)",
+        "phonetique": "é (ton haut ; voyelle brève)",
+        "categorie": "grammaire"
+      },
+      {
+        "id": 66,
+        "kpele": "è",
+        "francais": "il, elle (marqueur prédicatif de base 3SG)",
+        "exemple_kpele": "è pá.",
+        "exemple_francais": "Il/Elle est venu(e).",
+        "phonetique": "è (ton bas ; voyelle brève)",
+        "categorie": "grammaire"
+      },
+      {
+        "id": 67,
+        "kpele": "ɲáa",
+        "francais": "moi (pronom autonome 1SG)",
+        "exemple_kpele": "ɲáa ɓé ŋé kɛ́ tíi.",
+        "exemple_francais": "C'est moi qui l'ai fait.",
+        "phonetique": "ɲáa (ɲ = nasale palatale ; ton haut ; voyelle longue)",
+        "categorie": "grammaire"
+      },
+      {
+        "id": 68,
+        "kpele": "yɛ́",
+        "francais": "toi (pronom autonome 2SG)",
+        "exemple_kpele": "yɛ́ ɓé é kɛ́ tíi.",
+        "exemple_francais": "C'est toi qui l'as fait.",
+        "phonetique": "yɛ́ (y = sonante palatale ; ton haut)",
+        "categorie": "grammaire"
+      },
+      {
+        "id": 69,
+        "kpele": "yǎ",
+        "francais": "lui, elle (pronom autonome 3SG)",
+        "exemple_kpele": "yǎ ɓé è kɛ́ tíi.",
+        "exemple_francais": "C'est lui/elle qui l'a fait.",
+        "phonetique": "yǎ (mélodie /B(H)/ = ton bas plat)",
+        "categorie": "grammaire"
+      },
+      {
+        "id": 70,
+        "kpele": "ŋwɔ́",
+        "francais": "mon, ma, mes (marqueur possessif 1SG)",
+        "exemple_kpele": "ŋwɔ́ ɓówa ká tíi.",
+        "exemple_francais": "Voici mon couteau.",
+        "phonetique": "ŋwɔ́ (ŋw = nasale vélaire labialisée ; ton haut)",
+        "categorie": "grammaire"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces expressions du français vers le Kpelè :",
+      "questions": [
+        { "question": "Je (marqueur prédicatif)", "reponse": "ŋé" },
+        { "question": "Mon couteau", "reponse": "ŋwɔ́ ɓówa" },
+        { "question": "Je t'aime.", "reponse": "é wɛ́li káa mîi." }
+      ]
+    }
+  },
+  {
+    "lecon": 11,
+    "titre": "Les objets de la vie quotidienne",
+    "description": "Les objets que l'on utilise au quotidien.",
+    "vocabulaire": [
+      {
+        "id": 71,
+        "kpele": "ɓówa",
+        "francais": "couteau",
+        "exemple_kpele": "ŋwɔ́ ɓówa ká tíi.",
+        "exemple_francais": "Voici mon couteau.",
+        "phonetique": "ɓó-wa (ɓ = implosive bilabiale ; ton haut puis ton bas)",
+        "categorie": "objets"
+      },
+      {
+        "id": 72,
+        "kpele": "hɛ́ɓɛ̂",
+        "francais": "papier, cahier, document",
+        "exemple_kpele": "zɛ̀ɓɛ́yìli ↓láaɓo !",
+        "exemple_francais": "Ouvre le livre !",
+        "phonetique": "hɛ́-ɓɛ̂ (ton haut, ton descendant)",
+        "categorie": "objets"
+      },
+      {
+        "id": 73,
+        "kpele": "hɛ́ɓɛyìli",
+        "francais": "livre",
+        "exemple_kpele": "ŋé hɛ́ɓɛyìli káa mɛ̀ŋzî.",
+        "exemple_francais": "Je lis un livre.",
+        "phonetique": "hɛ́-ɓɛ-yì-li (mot composé : hɛ́ɓɛ̂ = papier + yìli = contenant/chose)",
+        "categorie": "objets"
+      },
+      {
+        "id": 74,
+        "kpele": "wáli",
+        "francais": "argent",
+        "exemple_kpele": "ŋé wáli hwɛ̀li yɛ̂.",
+        "exemple_francais": "Je t'ai demandé de l'argent.",
+        "phonetique": "wá-li (w = sonante ; ton haut puis ton bas)",
+        "categorie": "objets"
+      },
+      {
+        "id": 75,
+        "kpele": "lǒu",
+        "francais": "cruche, canari, marmite",
+        "exemple_kpele": "lǒu ká tíi.",
+        "exemple_francais": "Voici la marmite.",
+        "phonetique": "lǒu (mélodie /B(H)/ = ton bas plat)",
+        "categorie": "objets"
+      },
+      {
+        "id": 76,
+        "kpele": "ɓǎla",
+        "francais": "tamtam (tambour)",
+        "exemple_kpele": "ɓǎla yɔ̌u !",
+        "exemple_francais": "Joue du tamtam !",
+        "phonetique": "ɓǎ-la (ɓ = implosive ; mélodie /B(H)/)",
+        "categorie": "culture_et_arts"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces mots du français vers le Kpelè :",
+      "questions": [
+        { "question": "couteau", "reponse": "ɓówa" },
+        { "question": "argent", "reponse": "wáli" },
+        { "question": "livre", "reponse": "hɛ́ɓɛyìli" }
+      ]
+    }
+  },
+  {
+    "lecon": 12,
+    "titre": "Verbes fondamentaux (2) : aimer, donner, savoir, aller",
+    "description": "Deuxième série de verbes essentiels en Kpelè.",
+    "vocabulaire": [
+      {
+        "id": 77,
+        "kpele": "wɛ́li",
+        "francais": "amour, envie ; aimer (dans l'expression : wɛ́li káa mà)",
+        "exemple_kpele": "é wɛ́li káa mîi.",
+        "exemple_francais": "Je t'aime.",
+        "phonetique": "wɛ́-li (ton haut sur la première syllabe, ton bas sur la seconde)",
+        "categorie": "verbes_courants"
+      },
+      {
+        "id": 78,
+        "kpele": "hwé",
+        "francais": "donner, offrir",
+        "exemple_kpele": "ŋé wáli ↓hwé.",
+        "exemple_francais": "Est-ce que je donne l'argent ?",
+        "phonetique": "hwé (hw = fricative vélaire labialisée ; ton haut)",
+        "categorie": "verbes_courants"
+      },
+      {
+        "id": 79,
+        "kpele": "mǎa-kwɛ́lî",
+        "francais": "apprendre ; enseigner",
+        "exemple_kpele": "gáa kpɛ̀lɛɛwoo màakwɛ́lîi.",
+        "exemple_francais": "J'apprends le kpele.",
+        "phonetique": "mǎa-kwɛ́lî (verbe à préverbe mǎa- + kwɛ́lî ; mélodie descendante finale)",
+        "categorie": "verbes_courants"
+      },
+      {
+        "id": 80,
+        "kpele": "lónoŋ",
+        "francais": "compter ; lire",
+        "exemple_kpele": "gáa zɛ̀ɓɛ́ ↓lónoŋzî.",
+        "exemple_francais": "Je suis en train de lire le livre.",
+        "phonetique": "ló-noŋ (ton haut puis ton bas + nasale vélaire finale)",
+        "categorie": "verbes_courants"
+      },
+      {
+        "id": 81,
+        "kpele": "hɔ̀lɔɓó",
+        "francais": "obtenir, gagner, recevoir",
+        "exemple_kpele": "Pépèe àa wáa tɔ́nɔ hɔ̀lɔɓó.",
+        "exemple_francais": "Pépé a reçu mille francs.",
+        "phonetique": "hɔ̀-lɔ-ɓó (tons : bas, bas, haut ; ɓ = implosive)",
+        "categorie": "verbes_courants"
+      },
+      {
+        "id": 82,
+        "kpele": "ɲáa-káa",
+        "francais": "comprendre, se rendre compte",
+        "exemple_kpele": "ŋàá ɲàakáa.",
+        "exemple_francais": "J'ai compris.",
+        "phonetique": "ɲáa-káa (verbe composé ; ɲ = nasale palatale ; tons hauts)",
+        "categorie": "verbes_courants"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces expressions du français vers le Kpelè :",
+      "questions": [
+        { "question": "J'ai compris.", "reponse": "ŋàá ɲàakáa." },
+        { "question": "J'apprends le kpele.", "reponse": "gáa kpɛ̀lɛɛwoo màakwɛ́lîi." },
+        { "question": "Je t'aime.", "reponse": "é wɛ́li káa mîi." }
+      ]
+    }
+  },
+  {
+    "lecon": 13,
+    "titre": "La famille",
+    "description": "Les membres de la famille en Kpelè.",
+    "vocabulaire": [
+      {
+        "id": 83,
+        "kpele": "nâŋ",
+        "francais": "père",
+        "exemple_kpele": "nâŋ ká tíi.",
+        "exemple_francais": "Voici le père.",
+        "phonetique": "nâŋ (mélodie /HB/ = ton descendant sur la voyelle ; nasale vélaire finale)",
+        "categorie": "famille"
+      },
+      {
+        "id": 84,
+        "kpele": "mǎa",
+        "francais": "grand-mère ; maman (forme de politesse pour les femmes âgées)",
+        "exemple_kpele": "mǎa ká tíi.",
+        "exemple_francais": "Voici la grand-mère.",
+        "phonetique": "mǎa (mélodie /B(H)/ = ton bas plat ; voyelle longue)",
+        "categorie": "famille"
+      },
+      {
+        "id": 85,
+        "kpele": "màahálâ",
+        "francais": "sœur, cousine (pour un garçon/homme)",
+        "exemple_kpele": "màahálâ ŋwɔ́ pá.",
+        "exemple_francais": "Ma sœur est venue.",
+        "phonetique": "màa-há-lâ (ton bas, haut, descendant)",
+        "categorie": "famille"
+      },
+      {
+        "id": 86,
+        "kpele": "màahílenù",
+        "francais": "frère, cousin (pour une femme)",
+        "exemple_kpele": "màahílenù ŋwɔ́ pá.",
+        "exemple_francais": "Mon frère est venu.",
+        "phonetique": "màa-hí-le-nù (mot composé de plusieurs éléments)",
+        "categorie": "famille"
+      },
+      {
+        "id": 87,
+        "kpele": "kálâ",
+        "francais": "oncle maternel ; oncle (forme de politesse pour les hommes âgés)",
+        "exemple_kpele": "kálâ ŋwɔ́ ká tíi.",
+        "exemple_francais": "Voici mon oncle.",
+        "phonetique": "ká-lâ (ton haut puis ton descendant)",
+        "categorie": "famille"
+      },
+      {
+        "id": 88,
+        "kpele": "zìlé",
+        "francais": "mari, époux",
+        "exemple_kpele": "zìlé ŋwɔ́ pá.",
+        "exemple_francais": "Mon mari est venu.",
+        "phonetique": "zì-lé (ton bas puis ton haut)",
+        "categorie": "famille"
+      },
+      {
+        "id": 89,
+        "kpele": "hwúlu",
+        "francais": "mariage",
+        "exemple_kpele": "kú káa lìí hwúlu lɔ̂i.",
+        "exemple_francais": "Nous allons au mariage.",
+        "phonetique": "hwú-lu (hw = fricative vélaire labialisée ; ton haut sur les deux syllabes)",
+        "categorie": "famille"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces mots du français vers le Kpelè :",
+      "questions": [
+        { "question": "père", "reponse": "nâŋ" },
+        { "question": "mariage", "reponse": "hwúlu" },
+        { "question": "oncle maternel", "reponse": "kálâ" }
+      ]
+    }
+  },
+  {
+    "lecon": 14,
+    "titre": "La nature et l'environnement",
+    "description": "Vocabulaire pour parler de la nature en Guinée forestière.",
+    "vocabulaire": [
+      {
+        "id": 90,
+        "kpele": "yá",
+        "francais": "eau",
+        "exemple_kpele": "yá ká tíi.",
+        "exemple_francais": "Voici de l'eau.",
+        "phonetique": "yá (ton haut)",
+        "categorie": "nature"
+      },
+      {
+        "id": 91,
+        "kpele": "ɲǎ",
+        "francais": "rivière, fleuve, cours d'eau",
+        "exemple_kpele": "ɲǎ ↓káa hwìlîi.",
+        "exemple_francais": "La rivière mousse.",
+        "phonetique": "ɲǎ (ɲ = nasale palatale ; mélodie /B(H)/)",
+        "categorie": "nature"
+      },
+      {
+        "id": 92,
+        "kpele": "wúlu",
+        "francais": "arbre",
+        "exemple_kpele": "wúlu kwéaa ↓ká.",
+        "exemple_francais": "C'est un grand arbre.",
+        "phonetique": "wú-lu (ton haut sur les deux syllabes)",
+        "categorie": "nature"
+      },
+      {
+        "id": 93,
+        "kpele": "hwǎŋa",
+        "francais": "vent ; force, pouvoir",
+        "exemple_kpele": "hwàŋa káa tɛ̀ɛì́.",
+        "exemple_francais": "Le vent souffle.",
+        "phonetique": "hwǎ-ŋa (hw = fricative vélaire labialisée ; mélodie /B(H)/)",
+        "categorie": "nature"
+      },
+      {
+        "id": 94,
+        "kpele": "yèle",
+        "francais": "ciel ; espace céleste",
+        "exemple_kpele": "yèlekɔ́lɔ̂ŋ ká tíi.",
+        "exemple_francais": "Voici le ciel.",
+        "phonetique": "yè-le (ton bas sur les deux syllabes)",
+        "categorie": "nature"
+      },
+      {
+        "id": 95,
+        "kpele": "ŋwòŋ́",
+        "francais": "feu",
+        "exemple_kpele": "ŋwòŋ́ àa lúɠuuŋ.",
+        "exemple_francais": "Le feu s'est éteint.",
+        "phonetique": "ŋwòŋ́ (ŋw = nasale vélaire labialisée ; tons : bas puis haut)",
+        "categorie": "nature"
+      },
+      {
+        "id": 96,
+        "kpele": "lɔ̌i",
+        "francais": "terre, sol ; pays, région",
+        "exemple_kpele": "hɛ̀ŋgɔ́u ↓káa kúwɔ lɔ̀i hû.",
+        "exemple_francais": "Notre pays est riche.",
+        "phonetique": "lɔ̌i (mélodie /B(H)/ = ton bas plat)",
+        "categorie": "nature"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces mots du français vers le Kpelè :",
+      "questions": [
+        { "question": "arbre", "reponse": "wúlu" },
+        { "question": "feu", "reponse": "ŋwòŋ́" },
+        { "question": "pays / terre", "reponse": "lɔ̌i" }
+      ]
+    }
+  },
+  {
+    "lecon": 15,
+    "titre": "Les adjectifs qualificatifs",
+    "description": "Décrire les personnes et les choses en Kpelè.",
+    "vocabulaire": [
+      {
+        "id": 97,
+        "kpele": "lɛ́lɛ",
+        "francais": "être bon, beau, joli",
+        "exemple_kpele": "é lɛ́lɛɛi ↓kɛ́nɛ.",
+        "exemple_francais": "Tu es très jolie.",
+        "phonetique": "lɛ́-lɛ (ton haut sur les deux syllabes)",
+        "categorie": "adjectifs"
+      },
+      {
+        "id": 98,
+        "kpele": "kɛ́nɛ̂",
+        "francais": "grand, gros",
+        "exemple_kpele": "gɛ̀nɛ́i ↓kpɔ́ kɛ́nɛ.",
+        "exemple_francais": "C'est très grand.",
+        "phonetique": "kɛ́-nɛ̂ (ton haut puis ton descendant)",
+        "categorie": "adjectifs"
+      },
+      {
+        "id": 99,
+        "kpele": "kpúo",
+        "francais": "être court",
+        "exemple_kpele": "nɛ̀ɛnúkpùo ká tíi.",
+        "exemple_francais": "Voici une femme de petite taille.",
+        "phonetique": "kpú-o (kp = labio-vélaire ; ton haut puis ton bas)",
+        "categorie": "adjectifs"
+      },
+      {
+        "id": 100,
+        "kpele": "hwóɠolo",
+        "francais": "vide",
+        "exemple_kpele": "mǐìhwòɠolo ká.",
+        "exemple_francais": "Voici un sac vide.",
+        "phonetique": "hwó-ɠo-lo (hw = fricative vélaire labialisée ; ɠ = fricative vélaire voisée)",
+        "categorie": "adjectifs"
+      },
+      {
+        "id": 101,
+        "kpele": "kpɔ̀kpɔɔ",
+        "francais": "vrai, véritable, gentil",
+        "exemple_kpele": "kpɛ̀lɛɛwoo kpɔ̀kpɔɔ.",
+        "exemple_francais": "La vraie langue kpele.",
+        "phonetique": "kpɔ̀-kpɔ-ɔ (kp = labio-vélaire ; mélodie tonale bas-bas)",
+        "categorie": "adjectifs"
+      },
+      {
+        "id": 102,
+        "kpele": "nɛ́lɛɛ",
+        "francais": "bon, bien (qualité positive)",
+        "exemple_kpele": "núkaŋ ↓nɛ́lɛɛ ká tíi.",
+        "exemple_francais": "C'est une bonne personne.",
+        "phonetique": "nɛ́-lɛ-ɛ (ton haut sur les syllabes longues)",
+        "categorie": "adjectifs"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces phrases du français vers le Kpelè :",
+      "questions": [
+        { "question": "C'est très grand.", "reponse": "gɛ̀nɛ́i ↓kpɔ́ kɛ́nɛ." },
+        { "question": "Voici un sac vide.", "reponse": "mǐìhwòɠolo ká." },
+        { "question": "C'est une bonne personne.", "reponse": "núkaŋ ↓nɛ́lɛɛ ká tíi." }
+      ]
+    }
+  },
+  {
+    "lecon": 16,
+    "titre": "Expressions essentielles du quotidien",
+    "description": "Phrases courtes indispensables pour la communication de base.",
+    "vocabulaire": [
+      {
+        "id": 103,
+        "kpele": "tɛ̀ân",
+        "francais": "vérité",
+        "exemple_kpele": "tɛ̀án ↓ká tíi.",
+        "exemple_francais": "C'est vrai.",
+        "phonetique": "tɛ̀-ân (mélodie /BHB/ : ton bas puis ton descendant)",
+        "categorie": "expressions_du_quotidien"
+      },
+      {
+        "id": 104,
+        "kpele": "váai mà",
+        "francais": "je suis d'accord",
+        "exemple_kpele": "váai mà !",
+        "exemple_francais": "Je suis d'accord !",
+        "phonetique": "váa-i mà (expression figée ; váai = haut, mà = sur lui)",
+        "categorie": "expressions_du_quotidien"
+      },
+      {
+        "id": 105,
+        "kpele": "à wàla kɛ́ tíi",
+        "francais": "sinon",
+        "exemple_kpele": "à wàla kɛ́ tíi, pá.",
+        "exemple_francais": "Sinon, viens.",
+        "phonetique": "à wà-la kɛ́ tíi (expression figée conditionnelle négative)",
+        "categorie": "expressions_du_quotidien"
+      },
+      {
+        "id": 106,
+        "kpele": "kpɔ́ɔlâa",
+        "francais": "générosité, largesse",
+        "exemple_kpele": "núkpɔɔlâa ká tíi.",
+        "exemple_francais": "Voici une personne généreuse.",
+        "phonetique": "kpɔ́ɔ-lâa (kp = labio-vélaire ; ton haut-descendant)",
+        "categorie": "valeurs_culturelles"
+      },
+      {
+        "id": 107,
+        "kpele": "ɓâa",
+        "francais": "honneur, respect",
+        "exemple_kpele": "ɓâa lɔ́ mà.",
+        "exemple_francais": "Donne-lui le respect.",
+        "phonetique": "ɓâa (ɓ = implosive bilabiale ; ton descendant ; voyelle longue)",
+        "categorie": "valeurs_culturelles"
+      },
+      {
+        "id": 108,
+        "kpele": "nùɠu ɓé !",
+        "francais": "félicitations !",
+        "exemple_kpele": "nùɠu ɓé !",
+        "exemple_francais": "Félicitations !",
+        "phonetique": "nù-ɠu ɓé (nùɠu = cendre / bonheur ; ɓé = focalisateur)",
+        "categorie": "salutations"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces expressions du français vers le Kpelè :",
+      "questions": [
+        { "question": "C'est vrai.", "reponse": "tɛ̀án ↓ká tíi." },
+        { "question": "Je suis d'accord !", "reponse": "váai mà !" },
+        { "question": "Félicitations !", "reponse": "nùɠu ɓé !" }
+      ]
+    }
+  },
+  {
+    "lecon": 17,
+    "titre": "Le travail et les activités",
+    "description": "Vocabulaire pour parler des activités et du travail.",
+    "vocabulaire": [
+      {
+        "id": 109,
+        "kpele": "kólô",
+        "francais": "travail",
+        "exemple_kpele": "kólô kɛ́ !",
+        "exemple_francais": "Travaille !",
+        "phonetique": "kó-lô (ton haut puis ton descendant)",
+        "categorie": "travail"
+      },
+      {
+        "id": 110,
+        "kpele": "hwɛ́lî",
+        "francais": "musique ; fête",
+        "exemple_kpele": "gáa hwɛ́liwòo mɛ̀ŋzî.",
+        "exemple_francais": "J'entends la musique.",
+        "phonetique": "hwɛ́-lî (hw = fricative vélaire labialisée ; ton descendant final)",
+        "categorie": "culture_et_arts"
+      },
+      {
+        "id": 111,
+        "kpele": "mǎna",
+        "francais": "danse",
+        "exemple_kpele": "mǎna káa kɛ́.",
+        "exemple_francais": "On danse.",
+        "phonetique": "mǎ-na (mélodie /B(H)/ = ton bas plat)",
+        "categorie": "culture_et_arts"
+      },
+      {
+        "id": 112,
+        "kpele": "wéleŋ",
+        "francais": "clochette, grelot",
+        "exemple_kpele": "wéleŋ yɔ̌u !",
+        "exemple_francais": "Sonne la clochette !",
+        "phonetique": "wé-leŋ (ton haut, ton bas + nasale vélaire finale)",
+        "categorie": "culture_et_arts"
+      },
+      {
+        "id": 113,
+        "kpele": "yɔ̌u",
+        "francais": "commerce ; faire le commerce",
+        "exemple_kpele": "yɔ̌u kɛ́ !",
+        "exemple_francais": "Fais du commerce !",
+        "phonetique": "yɔ̌u (mélodie /B(H)/ = ton bas plat)",
+        "categorie": "travail"
+      },
+      {
+        "id": 114,
+        "kpele": "háli",
+        "francais": "médicament ; amulette, talisman (nom générique)",
+        "exemple_kpele": "háli kɛ́ !",
+        "exemple_francais": "Soigne-le !",
+        "phonetique": "há-li (ton haut puis ton bas)",
+        "categorie": "sante"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces mots du français vers le Kpelè :",
+      "questions": [
+        { "question": "travail", "reponse": "kólô" },
+        { "question": "danse", "reponse": "mǎna" },
+        { "question": "médicament", "reponse": "háli" }
+      ]
+    }
+  },
+  {
+    "lecon": 18,
+    "titre": "Construction de phrases : amour, possession, existence",
+    "description": "Comment construire des phrases de base sur l'amour, la possession et l'existence.",
+    "vocabulaire": [
+      {
+        "id": 115,
+        "kpele": "é wɛ́li káa mîi",
+        "francais": "je t'aime (litt. : amour est sur moi de toi)",
+        "exemple_kpele": "é wɛ́li káa mîi.",
+        "exemple_francais": "Je t'aime.",
+        "phonetique": "é = tu | wɛ́li = amour | káa = être (progressif) | mîi = sur moi",
+        "categorie": "phrases_types"
+      },
+      {
+        "id": 116,
+        "kpele": "káa mà",
+        "francais": "il y a (expression d'existence)",
+        "exemple_kpele": "kìéŋ ↓gáa mà.",
+        "exemple_francais": "Il y a du piment dedans.",
+        "phonetique": "káa mà (káa = être / il y a ; mà = postposition de 3e personne singulier)",
+        "categorie": "grammaire"
+      },
+      {
+        "id": 117,
+        "kpele": "ɓáa à",
+        "francais": "je suis... / c'est... (copule d'identification)",
+        "exemple_kpele": "kpɛ̀lɛɛmuŋ ɓàa à ɲáa.",
+        "exemple_francais": "Je suis Kpele.",
+        "phonetique": "ɓáa à (ɓáa = copule d'identification ; à = premier personne singulier)",
+        "categorie": "grammaire"
+      },
+      {
+        "id": 118,
+        "kpele": "é láa ɓáa à gbɛ̀ɛ ̂ ?",
+        "francais": "comment tu t'appelles ?",
+        "exemple_kpele": "é láa ɓáa à gbɛ̀ɛ ̂ ?",
+        "exemple_francais": "Comment tu t'appelles ?",
+        "phonetique": "láa = prénom | ɓáa = être | gbɛ̀ɛ ̂ = comment / quoi",
+        "categorie": "phrases_types"
+      },
+      {
+        "id": 119,
+        "kpele": "ká tíi",
+        "francais": "voici (copule présentative)",
+        "exemple_kpele": "yílê ká tíi.",
+        "exemple_francais": "Voici un chien.",
+        "phonetique": "ká = copule présentative | tíi = ceci/ici",
+        "categorie": "grammaire"
+      },
+      {
+        "id": 120,
+        "kpele": "gáa ... je suis à...",
+        "francais": "je suis à (lieu) / je suis en train de (verbe)",
+        "exemple_kpele": "gáa Zálikwɛ̀lɛ.",
+        "exemple_francais": "Je suis à Nzérékoré.",
+        "phonetique": "gáa = marqueur progressif/locatif 1SG (forme de káa avec préfixe 1SG)",
+        "categorie": "grammaire"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces phrases du français vers le Kpelè :",
+      "questions": [
+        { "question": "Je suis Kpele.", "reponse": "kpɛ̀lɛɛmuŋ ɓàa à ɲáa." },
+        { "question": "Comment tu t'appelles ?", "reponse": "é láa ɓáa à gbɛ̀ɛ ̂ ?" },
+        { "question": "Voici un chien.", "reponse": "yílê ká tíi." }
+      ]
+    }
+  },
+  {
+    "lecon": 19,
+    "titre": "La santé et le bien-être",
+    "description": "Vocabulaire pour parler de la santé.",
+    "vocabulaire": [
+      {
+        "id": 121,
+        "kpele": "ɲɔ̌ŋ",
+        "francais": "maladie",
+        "exemple_kpele": "ɲɔ̌ŋ vìeɛ ká.",
+        "exemple_francais": "Son état s'est amélioré.",
+        "phonetique": "ɲɔ̌ŋ (ɲ = nasale palatale ; mélodie /B(H)/)",
+        "categorie": "sante"
+      },
+      {
+        "id": 122,
+        "kpele": "kélekeleŋ",
+        "francais": "bonne santé",
+        "exemple_kpele": "kélekeleŋ ↓káa yɛ́.",
+        "exemple_francais": "Tu es en bonne santé.",
+        "phonetique": "ké-le-ke-leŋ (redoublement expressif ; tons hauts)",
+        "categorie": "sante"
+      },
+      {
+        "id": 123,
+        "kpele": "hwíê",
+        "francais": "s'améliorer (pour une maladie ou une situation)",
+        "exemple_kpele": "ɲɔ̀ŋ́ vìeɛ ká.",
+        "exemple_francais": "Son état s'est beaucoup amélioré.",
+        "phonetique": "hwíê (hw = fricative vélaire labialisée ; mélodie /HB/)",
+        "categorie": "sante"
+      },
+      {
+        "id": 124,
+        "kpele": "kwíeŋ",
+        "francais": "être malade, présenter des signes de maladie",
+        "exemple_kpele": "ǹókòlo àa kíeŋ.",
+        "exemple_francais": "L'enfant est un peu malade.",
+        "phonetique": "kwíeŋ (kw = vélaire labialisée sourde ; ton descendant)",
+        "categorie": "sante"
+      },
+      {
+        "id": 125,
+        "kpele": "kwɛ́ɛlɛ",
+        "francais": "froid",
+        "exemple_kpele": "kwɛ́lɛ káa pái ↓mîi.",
+        "exemple_francais": "J'ai froid.",
+        "phonetique": "kwɛ́ɛ-lɛ (kw = vélaire labialisée ; ton haut sur la longue voyelle)",
+        "categorie": "sante"
+      },
+      {
+        "id": 126,
+        "kpele": "wéleeŋ",
+        "francais": "chaleur ; il fait chaud",
+        "exemple_kpele": "wéleeŋ gáa tɔ̀ɔî mîi.",
+        "exemple_francais": "J'ai chaud.",
+        "phonetique": "wé-lee-ŋ (ton haut sur la longue voyelle ; nasale vélaire finale)",
+        "categorie": "sante"
+      },
+      {
+        "id": 127,
+        "kpele": "hǔ-tɔ̌ɔ",
+        "francais": "être poli, bien éduqué",
+        "exemple_kpele": "nóŋ jǔtɔ̀ɔì́.",
+        "exemple_francais": "Mon enfant est bien éduqué.",
+        "phonetique": "hǔ-tɔ̌ɔ (verbe composé ; deux mélodie /B(H)/)",
+        "categorie": "valeurs_culturelles"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces expressions du français vers le Kpelè :",
+      "questions": [
+        { "question": "J'ai froid.", "reponse": "kwɛ́lɛ káa pái ↓mîi." },
+        { "question": "J'ai chaud.", "reponse": "wéleeŋ gáa tɔ̀ɔî mîi." },
+        { "question": "bonne santé", "reponse": "kélekeleŋ" }
+      ]
+    }
+  },
+  {
+    "lecon": 20,
+    "titre": "La langue Kpelè et l'identité culturelle",
+    "description": "Vocabulaire pour parler de la langue et de la culture kpele.",
+    "vocabulaire": [
+      {
+        "id": 128,
+        "kpele": "kpɛ̀lɛɛwoo",
+        "francais": "langue kpele (litt. : parole kpele)",
+        "exemple_kpele": "gáa kpɛ̀lɛɛwoo màakwɛ́lîi.",
+        "exemple_francais": "J'apprends la langue kpele.",
+        "phonetique": "kpɛ̀-lɛ-ɛ-woo (kp = labio-vélaire ; mélodie /B/ ton bas descendant)",
+        "categorie": "identite_culturelle"
+      },
+      {
+        "id": 129,
+        "kpele": "kpɛ̀lɛɛ",
+        "francais": "Kpele, Guerzé (le peuple)",
+        "exemple_kpele": "kpɛ̀lɛɛmuŋ ɓàa à ɲáa.",
+        "exemple_francais": "Je suis Kpele.",
+        "phonetique": "kpɛ̀-lɛ-ɛ (mélodie /B/ : ton bas descendant)",
+        "categorie": "identite_culturelle"
+      },
+      {
+        "id": 130,
+        "kpele": "tɛ̀ân",
+        "francais": "vérité",
+        "exemple_kpele": "mǒ à tɛ̀ân !",
+        "exemple_francais": "Dis la vérité !",
+        "phonetique": "tɛ̀-ân (mélodie /BHB/ : ton bas puis ton descendant)",
+        "categorie": "valeurs_culturelles"
+      },
+      {
+        "id": 131,
+        "kpele": "kwèlêŋ",
+        "francais": "conte, légende",
+        "exemple_kpele": "kwèlêŋ hɔ̌ɔ !",
+        "exemple_francais": "Raconte un conte !",
+        "phonetique": "kwè-lêŋ (ton bas puis ton descendant ; nasale finale)",
+        "categorie": "culture_et_arts"
+      },
+      {
+        "id": 132,
+        "kpele": "Yálâ",
+        "francais": "Dieu (aussi : Álâ)",
+        "exemple_kpele": "Yála à ɓó ↓nú ɓâ.",
+        "exemple_francais": "Dieu laisse l'homme faire.",
+        "phonetique": "Yá-lâ (ton haut puis ton descendant)",
+        "categorie": "spiritualite"
+      },
+      {
+        "id": 133,
+        "kpele": "árzana",
+        "francais": "paradis",
+        "exemple_kpele": "árzana ↓ká.",
+        "exemple_francais": "Voici le paradis.",
+        "phonetique": "ár-za-na (mot d'emprunt de l'arabe/français ; tons : haut, bas, bas)",
+        "categorie": "spiritualite"
+      },
+      {
+        "id": 134,
+        "kpele": "Àmíinà",
+        "francais": "Amen",
+        "exemple_kpele": "Àmíinà !",
+        "exemple_francais": "Amen !",
+        "phonetique": "À-mí-i-nà (mot d'emprunt religieux ; tons : bas, haut, haut, bas)",
+        "categorie": "spiritualite"
+      }
+    ],
+    "exercice": {
+      "consigne": "Traduisez ces expressions du français vers le Kpelè :",
+      "questions": [
+        { "question": "J'apprends la langue kpele.", "reponse": "gáa kpɛ̀lɛɛwoo màakwɛ́lîi." },
+        { "question": "Dis la vérité !", "reponse": "mǒ à tɛ̀ân !" },
+        { "question": "Je suis Kpele.", "reponse": "kpɛ̀lɛɛmuŋ ɓàa à ɲáa." }
+      ]
+    }
+  }
+]

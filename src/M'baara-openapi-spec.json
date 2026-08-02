@@ -1,0 +1,2803 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "M'baara API",
+    "description": "API documentation for the **M'baara** application.\n\n**Authentication:** Most endpoints require the `api_key` header. If using Swagger UI, click the **Authorize** button at the top of the page and enter your API key before trying any endpoint.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8000/api",
+      "description": "Local API server"
+    }
+  ],
+  "security": [
+    {
+      "ApiKeyAuth": []
+    }
+  ],
+  "paths": {
+    "/entities/Language": {
+      "get": {
+        "tags": [
+          "Entities - Language"
+        ],
+        "summary": "List Language records",
+        "operationId": "list_Language",
+        "description": "Retrieve a list of Language records with optional filtering, sorting, and pagination.",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "JSON query filter, e.g. {\"status\":\"active\"}"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 100
+            },
+            "description": "Maximum number of records to return"
+          },
+          {
+            "name": "skip",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 0
+            },
+            "description": "Number of records to skip (pagination)"
+          },
+          {
+            "name": "sort_by",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Field name to sort by. Prefix with '-' for descending order, e.g. -created_date"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Language"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Entities - Language"
+        ],
+        "summary": "Create a Language record",
+        "operationId": "create_Language",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Language"
+              },
+              "example": {
+                "code": "Example code",
+                "name": "Example name",
+                "name_fr": "Example name_fr"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Created record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Language"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Entities - Language"
+        ],
+        "summary": "Delete multiple Language records",
+        "operationId": "delete_many_Language",
+        "description": "**Warning:** Passing an empty `{}` query will delete ALL records in this entity.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "description": "Query filter to match records to delete"
+              },
+              "example": {
+                "code": "Example code"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Deletion result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    },
+                    "deleted": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/Language/bulk": {
+      "post": {
+        "tags": [
+          "Entities - Language"
+        ],
+        "summary": "Bulk create Language records",
+        "operationId": "bulk_create_Language",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Language"
+                }
+              },
+              "example": [
+                {
+                  "code": "Example code",
+                  "name": "Example name",
+                  "name_fr": "Example name_fr"
+                }
+              ]
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "List of created records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Language"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Entities - Language"
+        ],
+        "summary": "Bulk update Language records",
+        "operationId": "bulk_update_Language",
+        "description": "Each item must include an 'id' field along with the fields to update.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Language"
+                }
+              },
+              "example": [
+                {
+                  "id": "<record_id>",
+                  "code": "Example code",
+                  "name": "Example name",
+                  "name_fr": "Example name_fr"
+                }
+              ]
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "List of updated records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Language"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/Language/update-many": {
+      "patch": {
+        "tags": [
+          "Entities - Language"
+        ],
+        "summary": "Update many Language records by query",
+        "operationId": "update_many_Language",
+        "description": "Update multiple records matching a query filter. Supports MongoDB update operators ($set, $inc, $push, $pull).",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "query",
+                  "data"
+                ],
+                "properties": {
+                  "query": {
+                    "type": "object",
+                    "description": "Query filter to match records"
+                  },
+                  "data": {
+                    "type": "object",
+                    "description": "Update operations to apply"
+                  }
+                }
+              },
+              "example": {
+                "query": {
+                  "code": "Example code"
+                },
+                "data": {
+                  "$set": {
+                    "code": "Example code"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Update result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    },
+                    "updated": {
+                      "type": "integer"
+                    },
+                    "has_more": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/Language/{Language_id}": {
+      "get": {
+        "tags": [
+          "Entities - Language"
+        ],
+        "summary": "Get a Language record by ID",
+        "operationId": "get_Language",
+        "parameters": [
+          {
+            "name": "Language_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Language"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Entities - Language"
+        ],
+        "summary": "Update a Language record",
+        "operationId": "update_Language",
+        "parameters": [
+          {
+            "name": "Language_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Language"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Updated record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Language"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Entities - Language"
+        ],
+        "summary": "Delete a Language record",
+        "operationId": "delete_Language",
+        "description": "Soft-deletes the record. Use the restore endpoint to undo.",
+        "parameters": [
+          {
+            "name": "Language_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Deletion result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/Language/{Language_id}/restore": {
+      "put": {
+        "tags": [
+          "Entities - Language"
+        ],
+        "summary": "Restore a deleted Language record",
+        "operationId": "restore_Language",
+        "parameters": [
+          {
+            "name": "Language_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Restored record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Language"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/UserProgress": {
+      "get": {
+        "tags": [
+          "Entities - UserProgress"
+        ],
+        "summary": "List UserProgress records",
+        "operationId": "list_UserProgress",
+        "description": "Retrieve a list of UserProgress records with optional filtering, sorting, and pagination.",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "JSON query filter, e.g. {\"status\":\"active\"}"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 100
+            },
+            "description": "Maximum number of records to return"
+          },
+          {
+            "name": "skip",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 0
+            },
+            "description": "Number of records to skip (pagination)"
+          },
+          {
+            "name": "sort_by",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Field name to sort by. Prefix with '-' for descending order, e.g. -created_date"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserProgress"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Entities - UserProgress"
+        ],
+        "summary": "Create a UserProgress record",
+        "operationId": "create_UserProgress",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserProgress"
+              },
+              "example": {
+                "user_id": "Example user_id",
+                "language_code": "Example language_code"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Created record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserProgress"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Entities - UserProgress"
+        ],
+        "summary": "Delete multiple UserProgress records",
+        "operationId": "delete_many_UserProgress",
+        "description": "**Warning:** Passing an empty `{}` query will delete ALL records in this entity.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "description": "Query filter to match records to delete"
+              },
+              "example": {
+                "user_id": "Example user_id"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Deletion result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    },
+                    "deleted": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/UserProgress/bulk": {
+      "post": {
+        "tags": [
+          "Entities - UserProgress"
+        ],
+        "summary": "Bulk create UserProgress records",
+        "operationId": "bulk_create_UserProgress",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/UserProgress"
+                }
+              },
+              "example": [
+                {
+                  "user_id": "Example user_id",
+                  "language_code": "Example language_code"
+                }
+              ]
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "List of created records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserProgress"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Entities - UserProgress"
+        ],
+        "summary": "Bulk update UserProgress records",
+        "operationId": "bulk_update_UserProgress",
+        "description": "Each item must include an 'id' field along with the fields to update.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/UserProgress"
+                }
+              },
+              "example": [
+                {
+                  "id": "<record_id>",
+                  "user_id": "Example user_id",
+                  "language_code": "Example language_code"
+                }
+              ]
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "List of updated records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserProgress"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/UserProgress/update-many": {
+      "patch": {
+        "tags": [
+          "Entities - UserProgress"
+        ],
+        "summary": "Update many UserProgress records by query",
+        "operationId": "update_many_UserProgress",
+        "description": "Update multiple records matching a query filter. Supports MongoDB update operators ($set, $inc, $push, $pull).",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "query",
+                  "data"
+                ],
+                "properties": {
+                  "query": {
+                    "type": "object",
+                    "description": "Query filter to match records"
+                  },
+                  "data": {
+                    "type": "object",
+                    "description": "Update operations to apply"
+                  }
+                }
+              },
+              "example": {
+                "query": {
+                  "user_id": "Example user_id"
+                },
+                "data": {
+                  "$set": {
+                    "user_id": "Example user_id"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Update result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    },
+                    "updated": {
+                      "type": "integer"
+                    },
+                    "has_more": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/UserProgress/{UserProgress_id}": {
+      "get": {
+        "tags": [
+          "Entities - UserProgress"
+        ],
+        "summary": "Get a UserProgress record by ID",
+        "operationId": "get_UserProgress",
+        "parameters": [
+          {
+            "name": "UserProgress_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserProgress"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Entities - UserProgress"
+        ],
+        "summary": "Update a UserProgress record",
+        "operationId": "update_UserProgress",
+        "parameters": [
+          {
+            "name": "UserProgress_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserProgress"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Updated record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserProgress"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Entities - UserProgress"
+        ],
+        "summary": "Delete a UserProgress record",
+        "operationId": "delete_UserProgress",
+        "description": "Soft-deletes the record. Use the restore endpoint to undo.",
+        "parameters": [
+          {
+            "name": "UserProgress_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Deletion result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/UserProgress/{UserProgress_id}/restore": {
+      "put": {
+        "tags": [
+          "Entities - UserProgress"
+        ],
+        "summary": "Restore a deleted UserProgress record",
+        "operationId": "restore_UserProgress",
+        "parameters": [
+          {
+            "name": "UserProgress_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Restored record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserProgress"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/Contribution": {
+      "get": {
+        "tags": [
+          "Entities - Contribution"
+        ],
+        "summary": "List Contribution records",
+        "operationId": "list_Contribution",
+        "description": "Retrieve a list of Contribution records with optional filtering, sorting, and pagination.",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "JSON query filter, e.g. {\"status\":\"active\"}"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 100
+            },
+            "description": "Maximum number of records to return"
+          },
+          {
+            "name": "skip",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 0
+            },
+            "description": "Number of records to skip (pagination)"
+          },
+          {
+            "name": "sort_by",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Field name to sort by. Prefix with '-' for descending order, e.g. -created_date"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Contribution"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Entities - Contribution"
+        ],
+        "summary": "Create a Contribution record",
+        "operationId": "create_Contribution",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Contribution"
+              },
+              "example": {
+                "word": "Example word",
+                "translation_fr": "Example translation_fr",
+                "language_code": "Example language_code"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Created record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Contribution"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Entities - Contribution"
+        ],
+        "summary": "Delete multiple Contribution records",
+        "operationId": "delete_many_Contribution",
+        "description": "**Warning:** Passing an empty `{}` query will delete ALL records in this entity.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "description": "Query filter to match records to delete"
+              },
+              "example": {
+                "word": "Example word"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Deletion result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    },
+                    "deleted": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/Contribution/bulk": {
+      "post": {
+        "tags": [
+          "Entities - Contribution"
+        ],
+        "summary": "Bulk create Contribution records",
+        "operationId": "bulk_create_Contribution",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Contribution"
+                }
+              },
+              "example": [
+                {
+                  "word": "Example word",
+                  "translation_fr": "Example translation_fr",
+                  "language_code": "Example language_code"
+                }
+              ]
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "List of created records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Contribution"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Entities - Contribution"
+        ],
+        "summary": "Bulk update Contribution records",
+        "operationId": "bulk_update_Contribution",
+        "description": "Each item must include an 'id' field along with the fields to update.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Contribution"
+                }
+              },
+              "example": [
+                {
+                  "id": "<record_id>",
+                  "word": "Example word",
+                  "translation_fr": "Example translation_fr",
+                  "language_code": "Example language_code"
+                }
+              ]
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "List of updated records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Contribution"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/Contribution/update-many": {
+      "patch": {
+        "tags": [
+          "Entities - Contribution"
+        ],
+        "summary": "Update many Contribution records by query",
+        "operationId": "update_many_Contribution",
+        "description": "Update multiple records matching a query filter. Supports MongoDB update operators ($set, $inc, $push, $pull).",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "query",
+                  "data"
+                ],
+                "properties": {
+                  "query": {
+                    "type": "object",
+                    "description": "Query filter to match records"
+                  },
+                  "data": {
+                    "type": "object",
+                    "description": "Update operations to apply"
+                  }
+                }
+              },
+              "example": {
+                "query": {
+                  "word": "Example word"
+                },
+                "data": {
+                  "$set": {
+                    "word": "Example word"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Update result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    },
+                    "updated": {
+                      "type": "integer"
+                    },
+                    "has_more": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/Contribution/{Contribution_id}": {
+      "get": {
+        "tags": [
+          "Entities - Contribution"
+        ],
+        "summary": "Get a Contribution record by ID",
+        "operationId": "get_Contribution",
+        "parameters": [
+          {
+            "name": "Contribution_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Contribution"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Entities - Contribution"
+        ],
+        "summary": "Update a Contribution record",
+        "operationId": "update_Contribution",
+        "parameters": [
+          {
+            "name": "Contribution_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Contribution"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Updated record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Contribution"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Entities - Contribution"
+        ],
+        "summary": "Delete a Contribution record",
+        "operationId": "delete_Contribution",
+        "description": "Soft-deletes the record. Use the restore endpoint to undo.",
+        "parameters": [
+          {
+            "name": "Contribution_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Deletion result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/Contribution/{Contribution_id}/restore": {
+      "put": {
+        "tags": [
+          "Entities - Contribution"
+        ],
+        "summary": "Restore a deleted Contribution record",
+        "operationId": "restore_Contribution",
+        "parameters": [
+          {
+            "name": "Contribution_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Restored record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Contribution"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/VocabularyItem": {
+      "get": {
+        "tags": [
+          "Entities - VocabularyItem"
+        ],
+        "summary": "List VocabularyItem records",
+        "operationId": "list_VocabularyItem",
+        "description": "Retrieve a list of VocabularyItem records with optional filtering, sorting, and pagination.",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "JSON query filter, e.g. {\"status\":\"active\"}"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 100
+            },
+            "description": "Maximum number of records to return"
+          },
+          {
+            "name": "skip",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 0
+            },
+            "description": "Number of records to skip (pagination)"
+          },
+          {
+            "name": "sort_by",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Field name to sort by. Prefix with '-' for descending order, e.g. -created_date"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VocabularyItem"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Entities - VocabularyItem"
+        ],
+        "summary": "Create a VocabularyItem record",
+        "operationId": "create_VocabularyItem",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VocabularyItem"
+              },
+              "example": {
+                "language_code": "Example language_code",
+                "word": "Example word",
+                "translation_fr": "Example translation_fr"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Created record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VocabularyItem"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Entities - VocabularyItem"
+        ],
+        "summary": "Delete multiple VocabularyItem records",
+        "operationId": "delete_many_VocabularyItem",
+        "description": "**Warning:** Passing an empty `{}` query will delete ALL records in this entity.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "description": "Query filter to match records to delete"
+              },
+              "example": {
+                "language_code": "Example language_code"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Deletion result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    },
+                    "deleted": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/VocabularyItem/bulk": {
+      "post": {
+        "tags": [
+          "Entities - VocabularyItem"
+        ],
+        "summary": "Bulk create VocabularyItem records",
+        "operationId": "bulk_create_VocabularyItem",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/VocabularyItem"
+                }
+              },
+              "example": [
+                {
+                  "language_code": "Example language_code",
+                  "word": "Example word",
+                  "translation_fr": "Example translation_fr"
+                }
+              ]
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "List of created records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VocabularyItem"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Entities - VocabularyItem"
+        ],
+        "summary": "Bulk update VocabularyItem records",
+        "operationId": "bulk_update_VocabularyItem",
+        "description": "Each item must include an 'id' field along with the fields to update.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/VocabularyItem"
+                }
+              },
+              "example": [
+                {
+                  "id": "<record_id>",
+                  "language_code": "Example language_code",
+                  "word": "Example word",
+                  "translation_fr": "Example translation_fr"
+                }
+              ]
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "List of updated records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VocabularyItem"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/VocabularyItem/update-many": {
+      "patch": {
+        "tags": [
+          "Entities - VocabularyItem"
+        ],
+        "summary": "Update many VocabularyItem records by query",
+        "operationId": "update_many_VocabularyItem",
+        "description": "Update multiple records matching a query filter. Supports MongoDB update operators ($set, $inc, $push, $pull).",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "query",
+                  "data"
+                ],
+                "properties": {
+                  "query": {
+                    "type": "object",
+                    "description": "Query filter to match records"
+                  },
+                  "data": {
+                    "type": "object",
+                    "description": "Update operations to apply"
+                  }
+                }
+              },
+              "example": {
+                "query": {
+                  "language_code": "Example language_code"
+                },
+                "data": {
+                  "$set": {
+                    "language_code": "Example language_code"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Update result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    },
+                    "updated": {
+                      "type": "integer"
+                    },
+                    "has_more": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/VocabularyItem/{VocabularyItem_id}": {
+      "get": {
+        "tags": [
+          "Entities - VocabularyItem"
+        ],
+        "summary": "Get a VocabularyItem record by ID",
+        "operationId": "get_VocabularyItem",
+        "parameters": [
+          {
+            "name": "VocabularyItem_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VocabularyItem"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Entities - VocabularyItem"
+        ],
+        "summary": "Update a VocabularyItem record",
+        "operationId": "update_VocabularyItem",
+        "parameters": [
+          {
+            "name": "VocabularyItem_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VocabularyItem"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Updated record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VocabularyItem"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Entities - VocabularyItem"
+        ],
+        "summary": "Delete a VocabularyItem record",
+        "operationId": "delete_VocabularyItem",
+        "description": "Soft-deletes the record. Use the restore endpoint to undo.",
+        "parameters": [
+          {
+            "name": "VocabularyItem_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Deletion result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/VocabularyItem/{VocabularyItem_id}/restore": {
+      "put": {
+        "tags": [
+          "Entities - VocabularyItem"
+        ],
+        "summary": "Restore a deleted VocabularyItem record",
+        "operationId": "restore_VocabularyItem",
+        "parameters": [
+          {
+            "name": "VocabularyItem_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Restored record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VocabularyItem"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/Lesson": {
+      "get": {
+        "tags": [
+          "Entities - Lesson"
+        ],
+        "summary": "List Lesson records",
+        "operationId": "list_Lesson",
+        "description": "Retrieve a list of Lesson records with optional filtering, sorting, and pagination.",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "JSON query filter, e.g. {\"status\":\"active\"}"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 100
+            },
+            "description": "Maximum number of records to return"
+          },
+          {
+            "name": "skip",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 0
+            },
+            "description": "Number of records to skip (pagination)"
+          },
+          {
+            "name": "sort_by",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Field name to sort by. Prefix with '-' for descending order, e.g. -created_date"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Lesson"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Entities - Lesson"
+        ],
+        "summary": "Create a Lesson record",
+        "operationId": "create_Lesson",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Lesson"
+              },
+              "example": {
+                "language_code": "Example language_code",
+                "title": "Example title",
+                "order": 0
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Created record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Lesson"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Entities - Lesson"
+        ],
+        "summary": "Delete multiple Lesson records",
+        "operationId": "delete_many_Lesson",
+        "description": "**Warning:** Passing an empty `{}` query will delete ALL records in this entity.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "description": "Query filter to match records to delete"
+              },
+              "example": {
+                "language_code": "Example language_code"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Deletion result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    },
+                    "deleted": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/Lesson/bulk": {
+      "post": {
+        "tags": [
+          "Entities - Lesson"
+        ],
+        "summary": "Bulk create Lesson records",
+        "operationId": "bulk_create_Lesson",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Lesson"
+                }
+              },
+              "example": [
+                {
+                  "language_code": "Example language_code",
+                  "title": "Example title",
+                  "order": 0
+                }
+              ]
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "List of created records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Lesson"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Entities - Lesson"
+        ],
+        "summary": "Bulk update Lesson records",
+        "operationId": "bulk_update_Lesson",
+        "description": "Each item must include an 'id' field along with the fields to update.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Lesson"
+                }
+              },
+              "example": [
+                {
+                  "id": "<record_id>",
+                  "language_code": "Example language_code",
+                  "title": "Example title",
+                  "order": 0
+                }
+              ]
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "List of updated records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Lesson"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/Lesson/update-many": {
+      "patch": {
+        "tags": [
+          "Entities - Lesson"
+        ],
+        "summary": "Update many Lesson records by query",
+        "operationId": "update_many_Lesson",
+        "description": "Update multiple records matching a query filter. Supports MongoDB update operators ($set, $inc, $push, $pull).",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "query",
+                  "data"
+                ],
+                "properties": {
+                  "query": {
+                    "type": "object",
+                    "description": "Query filter to match records"
+                  },
+                  "data": {
+                    "type": "object",
+                    "description": "Update operations to apply"
+                  }
+                }
+              },
+              "example": {
+                "query": {
+                  "language_code": "Example language_code"
+                },
+                "data": {
+                  "$set": {
+                    "language_code": "Example language_code"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Update result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    },
+                    "updated": {
+                      "type": "integer"
+                    },
+                    "has_more": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/Lesson/{Lesson_id}": {
+      "get": {
+        "tags": [
+          "Entities - Lesson"
+        ],
+        "summary": "Get a Lesson record by ID",
+        "operationId": "get_Lesson",
+        "parameters": [
+          {
+            "name": "Lesson_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Lesson"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Entities - Lesson"
+        ],
+        "summary": "Update a Lesson record",
+        "operationId": "update_Lesson",
+        "parameters": [
+          {
+            "name": "Lesson_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Lesson"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Updated record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Lesson"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Entities - Lesson"
+        ],
+        "summary": "Delete a Lesson record",
+        "operationId": "delete_Lesson",
+        "description": "Soft-deletes the record. Use the restore endpoint to undo.",
+        "parameters": [
+          {
+            "name": "Lesson_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Deletion result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/Lesson/{Lesson_id}/restore": {
+      "put": {
+        "tags": [
+          "Entities - Lesson"
+        ],
+        "summary": "Restore a deleted Lesson record",
+        "operationId": "restore_Lesson",
+        "parameters": [
+          {
+            "name": "Lesson_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Restored record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Lesson"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/User": {
+      "get": {
+        "tags": [
+          "Entities - User"
+        ],
+        "summary": "List User records",
+        "operationId": "list_User",
+        "description": "Retrieve a list of User records with optional filtering, sorting, and pagination.",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "JSON query filter, e.g. {\"status\":\"active\"}"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 100
+            },
+            "description": "Maximum number of records to return"
+          },
+          {
+            "name": "skip",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 0
+            },
+            "description": "Number of records to skip (pagination)"
+          },
+          {
+            "name": "sort_by",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Field name to sort by. Prefix with '-' for descending order, e.g. -created_date"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Entities - User"
+        ],
+        "summary": "Create a User record",
+        "operationId": "create_User",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              },
+              "example": {
+                "email": "Example email",
+                "full_name": "Example full_name",
+                "role": "admin"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Created record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/entities/User/{User_id}": {
+      "get": {
+        "tags": [
+          "Entities - User"
+        ],
+        "summary": "Get a User record by ID",
+        "operationId": "get_User",
+        "parameters": [
+          {
+            "name": "User_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Entities - User"
+        ],
+        "summary": "Update a User record",
+        "operationId": "update_User",
+        "parameters": [
+          {
+            "name": "User_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Updated record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Entities - User"
+        ],
+        "summary": "Delete a User record",
+        "operationId": "delete_User",
+        "description": "Soft-deletes the record. Use the restore endpoint to undo.",
+        "parameters": [
+          {
+            "name": "User_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Record ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Deletion result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "api_key",
+        "description": "Your API key. Obtain it from your user profile or via `User.me()` in the app SDK."
+      }
+    },
+    "schemas": {
+      "Language": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "name_fr": {
+            "type": "string"
+          },
+          "family": {
+            "type": "string"
+          },
+          "region": {
+            "type": "string"
+          },
+          "flag_emoji": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "active",
+              "coming_soon",
+              "dictionary_only"
+            ],
+            "default": "active"
+          },
+          "total_lessons": {
+            "type": "number",
+            "default": 0
+          },
+          "writing_system": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string",
+            "description": "Unique record identifier"
+          },
+          "created_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Record creation timestamp"
+          },
+          "updated_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Record last update timestamp"
+          },
+          "created_by_id": {
+            "type": "string",
+            "description": "ID of the user who created the record"
+          }
+        },
+        "required": [
+          "code",
+          "name",
+          "name_fr"
+        ],
+        "description": "Language entity"
+      },
+      "UserProgress": {
+        "type": "object",
+        "properties": {
+          "user_id": {
+            "type": "string"
+          },
+          "language_code": {
+            "type": "string"
+          },
+          "current_lesson": {
+            "type": "number",
+            "default": 1
+          },
+          "completed_lessons": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "xp": {
+            "type": "number",
+            "default": 0
+          },
+          "streak": {
+            "type": "number",
+            "default": 0
+          },
+          "last_activity_date": {
+            "type": "string"
+          },
+          "hearts": {
+            "type": "number",
+            "default": 5
+          },
+          "id": {
+            "type": "string",
+            "description": "Unique record identifier"
+          },
+          "created_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Record creation timestamp"
+          },
+          "updated_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Record last update timestamp"
+          },
+          "created_by_id": {
+            "type": "string",
+            "description": "ID of the user who created the record"
+          }
+        },
+        "required": [
+          "user_id",
+          "language_code"
+        ],
+        "description": "UserProgress entity"
+      },
+      "Contribution": {
+        "type": "object",
+        "properties": {
+          "word": {
+            "type": "string"
+          },
+          "phonetic": {
+            "type": "string"
+          },
+          "translation_fr": {
+            "type": "string"
+          },
+          "language_code": {
+            "type": "string"
+          },
+          "contributor_name": {
+            "type": "string"
+          },
+          "region": {
+            "type": "string"
+          },
+          "context_notes": {
+            "type": "string"
+          },
+          "audio_url": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "pending",
+              "approved",
+              "rejected"
+            ],
+            "default": "pending"
+          },
+          "id": {
+            "type": "string",
+            "description": "Unique record identifier"
+          },
+          "created_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Record creation timestamp"
+          },
+          "updated_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Record last update timestamp"
+          },
+          "created_by_id": {
+            "type": "string",
+            "description": "ID of the user who created the record"
+          }
+        },
+        "required": [
+          "word",
+          "translation_fr",
+          "language_code"
+        ],
+        "description": "Contribution entity"
+      },
+      "VocabularyItem": {
+        "type": "object",
+        "properties": {
+          "language_code": {
+            "type": "string"
+          },
+          "lesson_id": {
+            "type": "string"
+          },
+          "lesson_number": {
+            "type": "number"
+          },
+          "word": {
+            "type": "string"
+          },
+          "translation_fr": {
+            "type": "string"
+          },
+          "translation_en": {
+            "type": "string"
+          },
+          "phonetic": {
+            "type": "string"
+          },
+          "phonetic_simple": {
+            "type": "string"
+          },
+          "example_target": {
+            "type": "string"
+          },
+          "example_fr": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "difficulty": {
+            "type": "number",
+            "default": 1
+          },
+          "audio_url": {
+            "type": "string"
+          },
+          "image_url": {
+            "type": "string"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "id": {
+            "type": "string",
+            "description": "Unique record identifier"
+          },
+          "created_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Record creation timestamp"
+          },
+          "updated_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Record last update timestamp"
+          },
+          "created_by_id": {
+            "type": "string",
+            "description": "ID of the user who created the record"
+          }
+        },
+        "required": [
+          "language_code",
+          "word",
+          "translation_fr"
+        ],
+        "description": "VocabularyItem entity"
+      },
+      "Lesson": {
+        "type": "object",
+        "properties": {
+          "language_code": {
+            "type": "string"
+          },
+          "lesson_number": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "title_fr": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "level": {
+            "type": "string",
+            "enum": [
+              "A1",
+              "A2",
+              "B1",
+              "B2"
+            ],
+            "default": "A1"
+          },
+          "order": {
+            "type": "number"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "vocabulary",
+              "phrases",
+              "letters",
+              "sounds"
+            ],
+            "default": "vocabulary"
+          },
+          "is_published": {
+            "type": "boolean",
+            "default": true
+          },
+          "id": {
+            "type": "string",
+            "description": "Unique record identifier"
+          },
+          "created_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Record creation timestamp"
+          },
+          "updated_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Record last update timestamp"
+          },
+          "created_by_id": {
+            "type": "string",
+            "description": "ID of the user who created the record"
+          }
+        },
+        "required": [
+          "language_code",
+          "title",
+          "order"
+        ],
+        "description": "Lesson entity"
+      },
+      "User": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "description": "The email of the user"
+          },
+          "full_name": {
+            "type": "string",
+            "description": "The full name of the user"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "admin",
+              "user"
+            ],
+            "description": "The role of the user in the app"
+          },
+          "id": {
+            "type": "string",
+            "description": "Unique record identifier"
+          },
+          "created_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Record creation timestamp"
+          },
+          "updated_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Record last update timestamp"
+          },
+          "created_by_id": {
+            "type": "string",
+            "description": "ID of the user who created the record"
+          }
+        },
+        "required": [
+          "email",
+          "role",
+          "full_name"
+        ],
+        "description": "User entity"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Entities - Language",
+      "description": "CRUD operations for Language records"
+    },
+    {
+      "name": "Entities - UserProgress",
+      "description": "CRUD operations for UserProgress records"
+    },
+    {
+      "name": "Entities - Contribution",
+      "description": "CRUD operations for Contribution records"
+    },
+    {
+      "name": "Entities - VocabularyItem",
+      "description": "CRUD operations for VocabularyItem records"
+    },
+    {
+      "name": "Entities - Lesson",
+      "description": "CRUD operations for Lesson records"
+    },
+    {
+      "name": "Entities - User",
+      "description": "CRUD operations for User records"
+    }
+  ]
+}

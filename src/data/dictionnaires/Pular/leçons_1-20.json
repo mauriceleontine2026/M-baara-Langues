@@ -1,0 +1,1842 @@
+[
+  {
+    "id": 1,
+    "pular": "Jaaraama",
+    "francais": "Salut / Bonjour / Merci / Au revoir",
+    "exemple_pular": "A jaaraama.",
+    "exemple_francais": "Salut. / Bonjour.",
+    "phonetique": "dja-ra-ma",
+    "categorie": "salutations"
+  },
+  {
+    "id": 2,
+    "pular": "Eyoo",
+    "francais": "Oui / Bonjour (réponse)",
+    "exemple_pular": "Eyoo, a jaaraama.",
+    "exemple_francais": "Oui, bonjour.",
+    "phonetique": "é-yo",
+    "categorie": "salutations"
+  },
+  {
+    "id": 3,
+    "pular": "Jam tun",
+    "francais": "Rien que la paix / Tout va bien",
+    "exemple_pular": "Tanaa alaa ton? — Jam tun.",
+    "exemple_francais": "Ça va là-bas ? — Tout va bien.",
+    "phonetique": "djam toun",
+    "categorie": "salutations"
+  },
+  {
+    "id": 4,
+    "pular": "Hiin-hi",
+    "francais": "Oui (affirmatif)",
+    "exemple_pular": "On finii e jam? — Hiin-hi.",
+    "exemple_francais": "Vous êtes-vous réveillé en paix ? — Oui.",
+    "phonetique": "hin-hi",
+    "categorie": "salutations"
+  },
+  {
+    "id": 5,
+    "pular": "Awa",
+    "francais": "D'accord / Bien / Oui (approbation)",
+    "exemple_pular": "Awa, mahin.",
+    "exemple_francais": "Bien, allons-y.",
+    "phonetique": "a-wa",
+    "categorie": "salutations"
+  },
+  {
+    "id": 6,
+    "pular": "En saa'i",
+    "francais": "À plus tard / Au revoir",
+    "exemple_pular": "Awa, en saa'i.",
+    "exemple_francais": "Bien, à plus tard.",
+    "phonetique": "en sa-i",
+    "categorie": "salutations"
+  },
+  {
+    "id": 7,
+    "pular": "Tanaa alaa ton?",
+    "francais": "Ça va là-bas ? / Tout va bien chez vous ?",
+    "exemple_pular": "A jaaraama. — Eyoo, tanaa alaa ton?",
+    "exemple_francais": "Salut. — Oui, ça va là-bas ?",
+    "phonetique": "ta-na a-la ton",
+    "categorie": "salutations"
+  },
+  {
+    "id": 8,
+    "pular": "On finii e jam?",
+    "francais": "Vous êtes-vous réveillé en paix ?",
+    "exemple_pular": "On finii e jam? — Hiin-hi, jam tun.",
+    "exemple_francais": "Vous êtes-vous réveillé en paix ? — Oui, tout va bien.",
+    "phonetique": "on fi-ni e djam",
+    "categorie": "salutations"
+  },
+  {
+    "id": 9,
+    "pular": "Aamiina",
+    "francais": "Amen",
+    "exemple_pular": "Yo Alla welnoy laawol. — Aamiina.",
+    "exemple_francais": "Que Dieu rende votre chemin agréable. — Amen.",
+    "phonetique": "a-mi-na",
+    "categorie": "expressions_culturelles"
+  },
+  {
+    "id": 10,
+    "pular": "Oo'o",
+    "francais": "Non",
+    "exemple_pular": "Oo'o', hawrataa sappo e ɗiɗi.",
+    "exemple_francais": "Non, ça ne fait pas douze.",
+    "phonetique": "o-o (avec coup de glotte)",
+    "categorie": "salutations"
+  },
+
+[
+  {
+    "id": 11,
+    "pular": "Ko honno inneteɗaa?",
+    "francais": "Comment tu t'appelles ?",
+    "exemple_pular": "Ko honno inneteɗaa? — Ko Umaru mi innetee.",
+    "exemple_francais": "Comment tu t'appelles ? — Je m'appelle Oumar.",
+    "phonetique": "ko hon-no in-ne-te-daa",
+    "categorie": "presentation"
+  },
+  {
+    "id": 12,
+    "pular": "Ko [nom] mi innetee",
+    "francais": "Je m'appelle [nom]",
+    "exemple_pular": "Ko Aamadu mi innetee.",
+    "exemple_francais": "Je m'appelle Amadou.",
+    "phonetique": "ko [nom] mi in-ne-tee",
+    "categorie": "presentation"
+  },
+  {
+    "id": 13,
+    "pular": "mi",
+    "francais": "je (pronom sujet 1ère personne singulier)",
+    "exemple_pular": "Mi janngay pular.",
+    "exemple_francais": "Je vais apprendre le Pular.",
+    "phonetique": "mi",
+    "categorie": "pronoms"
+  },
+  {
+    "id": 14,
+    "pular": "a",
+    "francais": "tu (pronom sujet 2ème personne singulier)",
+    "exemple_pular": "A janngay pular.",
+    "exemple_francais": "Tu vas apprendre le Pular.",
+    "phonetique": "a",
+    "categorie": "pronoms"
+  },
+  {
+    "id": 15,
+    "pular": "o",
+    "francais": "il / elle (pronom sujet 3ème personne singulier)",
+    "exemple_pular": "O janngay pular.",
+    "exemple_francais": "Il / Elle va apprendre le Pular.",
+    "phonetique": "o",
+    "categorie": "pronoms"
+  },
+  {
+    "id": 16,
+    "pular": "men / en",
+    "francais": "nous (men = exclusif, en = inclusif)",
+    "exemple_pular": "En janngay pular.",
+    "exemple_francais": "Nous allons apprendre le Pular.",
+    "phonetique": "men / en",
+    "categorie": "pronoms"
+  },
+  {
+    "id": 17,
+    "pular": "on",
+    "francais": "vous / forme de respect (2ème personne pluriel)",
+    "exemple_pular": "On jaaraama.",
+    "exemple_francais": "Bonjour (forme respectueuse).",
+    "phonetique": "on",
+    "categorie": "pronoms"
+  },
+  {
+    "id": 18,
+    "pular": "ɓe",
+    "francais": "ils / elles (pronom sujet 3ème personne pluriel humain)",
+    "exemple_pular": "Ɓe janngay pular.",
+    "exemple_francais": "Ils vont apprendre le Pular.",
+    "phonetique": "bé (implosive bilabiale)",
+    "categorie": "pronoms"
+  },
+  {
+    "id": 19,
+    "pular": "an kadi",
+    "francais": "et toi (aussi)",
+    "exemple_pular": "An kadi, ko honno inneteɗaa?",
+    "exemple_francais": "Et toi, comment tu t'appelles ?",
+    "phonetique": "an ka-di",
+    "categorie": "presentation"
+  },
+  {
+    "id": 20,
+    "pular": "ɓeynguure",
+    "francais": "famille",
+    "exemple_pular": "Ɓeynguure no e jam?",
+    "exemple_francais": "La famille va bien ?",
+    "phonetique": "bé-ngou-re",
+    "categorie": "famille"
+  }
+],
+
+[
+  {
+    "id": 21,
+    "pular": "Ko honto?",
+    "francais": "Où ?",
+    "exemple_pular": "Ko honto hoɗuɗaa?",
+    "exemple_francais": "Où est-ce que tu habites ?",
+    "phonetique": "ko hon-to",
+    "categorie": "interrogatifs"
+  },
+  {
+    "id": 22,
+    "pular": "hoɗugol",
+    "francais": "habiter / résider",
+    "exemple_pular": "Ko honto o hoɗi?",
+    "exemple_francais": "Où est-ce qu'il habite ?",
+    "phonetique": "ho-dou-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 23,
+    "pular": "ka",
+    "francais": "à / chez / de (locatif)",
+    "exemple_pular": "Miɗo yaade ka Maakiti.",
+    "exemple_francais": "Je vais au marché.",
+    "phonetique": "ka",
+    "categorie": "prepositions"
+  },
+  {
+    "id": 24,
+    "pular": "maakiti",
+    "francais": "marché",
+    "exemple_pular": "Ka maakiti, Sarah soodii paɗe.",
+    "exemple_francais": "Au marché, Sarah a acheté des chaussures.",
+    "phonetique": "ma-ki-ti",
+    "categorie": "lieux"
+  },
+  {
+    "id": 25,
+    "pular": "saare",
+    "francais": "ville / village / quartier",
+    "exemple_pular": "Himo yahi ka saare.",
+    "exemple_francais": "Il est allé en ville.",
+    "phonetique": "sa-re",
+    "categorie": "lieux"
+  },
+  {
+    "id": 26,
+    "pular": "suudu",
+    "francais": "maison / chambre",
+    "exemple_pular": "Hino ka ɓaawo suudu.",
+    "exemple_francais": "C'est derrière la maison.",
+    "phonetique": "sou-dou",
+    "categorie": "lieux"
+  },
+  {
+    "id": 27,
+    "pular": "laawol",
+    "francais": "chemin / route",
+    "exemple_pular": "Ko honto yaaton?",
+    "exemple_francais": "Où mène votre chemin ? (Où allez-vous ?)",
+    "phonetique": "la-wol",
+    "categorie": "lieux"
+  },
+  {
+    "id": 28,
+    "pular": "ɗoo",
+    "francais": "ici",
+    "exemple_pular": "Ko goonga Saaliw no ɗoo?",
+    "exemple_francais": "Est-il vrai que Saliou est là ?",
+    "phonetique": "ɗo (implosive dentale)",
+    "categorie": "adverbes_lieu"
+  },
+  {
+    "id": 29,
+    "pular": "ton",
+    "francais": "là-bas",
+    "exemple_pular": "Tanaa alaa ton?",
+    "exemple_francais": "Ça va là-bas ?",
+    "phonetique": "ton",
+    "categorie": "adverbes_lieu"
+  },
+  {
+    "id": 30,
+    "pular": "ɓaawo",
+    "francais": "derrière / après",
+    "exemple_pular": "Hino ka ɓaawo suudu.",
+    "exemple_francais": "C'est derrière la maison.",
+    "phonetique": "baawo (implosive bilabiale)",
+    "categorie": "adverbes_lieu"
+  }
+],
+[
+  {
+    "id": 31,
+    "pular": "hannde",
+    "francais": "aujourd'hui",
+    "exemple_pular": "Hannde mi maraa kaalisi.",
+    "exemple_francais": "Aujourd'hui je n'ai pas d'argent.",
+    "phonetique": "han-ndé",
+    "categorie": "temps"
+  },
+  {
+    "id": 32,
+    "pular": "janngo",
+    "francais": "demain",
+    "exemple_pular": "Awa mi aranay janngo.",
+    "exemple_francais": "Bien, alors je viens demain.",
+    "phonetique": "djan-ngo",
+    "categorie": "temps"
+  },
+  {
+    "id": 33,
+    "pular": "hanki",
+    "francais": "hier",
+    "exemple_pular": "Hanki mi arii, mi hettaali.",
+    "exemple_francais": "Hier je suis venu, je n'ai pas été remboursé.",
+    "phonetique": "han-ki",
+    "categorie": "temps"
+  },
+  {
+    "id": 34,
+    "pular": "bimbi",
+    "francais": "le matin",
+    "exemple_pular": "Waɗen bimbi.",
+    "exemple_francais": "Faisons le matin.",
+    "phonetique": "bim-bi",
+    "categorie": "temps"
+  },
+  {
+    "id": 35,
+    "pular": "kiikiiɗe",
+    "francais": "le soir / l'après-midi",
+    "exemple_pular": "Hiin-hi, telen kiikiiɗe.",
+    "exemple_francais": "Oui, vers l'après-midi.",
+    "phonetique": "ki-ki-ɗé",
+    "categorie": "temps"
+  },
+  {
+    "id": 36,
+    "pular": "jooni",
+    "francais": "maintenant / tout de suite",
+    "exemple_pular": "Miɗo faalaa yaade jooni.",
+    "exemple_francais": "Je veux partir maintenant.",
+    "phonetique": "djo-ni",
+    "categorie": "temps"
+  },
+  {
+    "id": 37,
+    "pular": "Honde tuma?",
+    "francais": "Quand ?",
+    "exemple_pular": "Honde tuma? — Jooni.",
+    "exemple_francais": "Quand ? — Maintenant.",
+    "phonetique": "hon-dé tou-ma",
+    "categorie": "interrogatifs"
+  },
+  {
+    "id": 38,
+    "pular": "lewru",
+    "francais": "lune / mois",
+    "exemple_pular": "Ko lewru honndu nii?",
+    "exemple_francais": "Quel est le mois en cours ?",
+    "phonetique": "lew-rou",
+    "categorie": "temps"
+  },
+  {
+    "id": 39,
+    "pular": "faɗɗi janngo",
+    "francais": "après-demain",
+    "exemple_pular": "Waɗen faɗɗi janngo.",
+    "exemple_francais": "Faisons après-demain.",
+    "phonetique": "fa-ɗɗi djan-ngo",
+    "categorie": "temps"
+  },
+  {
+    "id": 40,
+    "pular": "hecci hanki",
+    "francais": "avant-hier",
+    "exemple_pular": "Hecci hanki mi arii.",
+    "exemple_francais": "Avant-hier je suis venu.",
+    "phonetique": "hec-ci han-ki",
+    "categorie": "temps"
+  }
+],
+[
+  {
+    "id": 41,
+    "pular": "tenen",
+    "francais": "lundi",
+    "exemple_pular": "Ko e tenen lekkol janngetee.",
+    "exemple_francais": "C'est le lundi que l'école reprend.",
+    "phonetique": "té-nène",
+    "categorie": "jours_semaine"
+  },
+  {
+    "id": 42,
+    "pular": "talaata",
+    "francais": "mardi",
+    "exemple_pular": "Hanki hari ko talaata.",
+    "exemple_francais": "Hier c'était mardi.",
+    "phonetique": "ta-la-ta",
+    "categorie": "jours_semaine"
+  },
+  {
+    "id": 43,
+    "pular": "alarba",
+    "francais": "mercredi",
+    "exemple_pular": "Ko e alarba mi yahay Conakry.",
+    "exemple_francais": "C'est mercredi que j'irai à Conakry.",
+    "phonetique": "a-lar-ba",
+    "categorie": "jours_semaine"
+  },
+  {
+    "id": 44,
+    "pular": "alkamisa",
+    "francais": "jeudi",
+    "exemple_pular": "Hannde ko alkamisa.",
+    "exemple_francais": "Aujourd'hui c'est jeudi.",
+    "phonetique": "al-ka-mi-sa",
+    "categorie": "jours_semaine"
+  },
+  {
+    "id": 45,
+    "pular": "juma",
+    "francais": "vendredi",
+    "exemple_pular": "Ko e juma juulaama en hollitay jamaa on.",
+    "exemple_francais": "Après la prière du vendredi, nous informerons tout le monde.",
+    "phonetique": "dju-ma",
+    "categorie": "jours_semaine"
+  },
+  {
+    "id": 46,
+    "pular": "asewe",
+    "francais": "samedi",
+    "exemple_pular": "Ko e asewe peera on waɗetee.",
+    "exemple_francais": "C'est le samedi que le mariage aura lieu.",
+    "phonetique": "a-sé-wé",
+    "categorie": "jours_semaine"
+  },
+  {
+    "id": 47,
+    "pular": "alal",
+    "francais": "dimanche",
+    "exemple_pular": "Ko e alal lekkol janngetaake.",
+    "exemple_francais": "Le dimanche il n'y a pas d'école.",
+    "phonetique": "a-lal",
+    "categorie": "jours_semaine"
+  },
+  {
+    "id": 48,
+    "pular": "Ko e [jour] + action",
+    "francais": "C'est le [jour] que + action",
+    "exemple_pular": "Ko e juma mi yahay Conakry.",
+    "exemple_francais": "C'est vendredi que j'irai à Conakry.",
+    "phonetique": "ko e [jour]",
+    "categorie": "structures_grammaticales"
+  },
+  {
+    "id": 49,
+    "pular": "ɲalaande",
+    "francais": "jour (singulier)",
+    "exemple_pular": "Ko balɗe jelu hooretee hikka?",
+    "exemple_francais": "Combien de jours le jeûne va-t-il durer ?",
+    "phonetique": "ɲa-lan-dé",
+    "categorie": "temps"
+  },
+  {
+    "id": 50,
+    "pular": "balɗe",
+    "francais": "jours (pluriel)",
+    "exemple_pular": "Ko balɗe tati mi yahay.",
+    "exemple_francais": "C'est dans trois jours que je partirai.",
+    "phonetique": "bal-ɗé",
+    "categorie": "temps"
+  }
+],
+[
+  {
+    "id": 51,
+    "pular": "go'o",
+    "francais": "un (1)",
+    "exemple_pular": "Wootere go'o.",
+    "exemple_francais": "Un seul.",
+    "phonetique": "go-o",
+    "categorie": "nombres"
+  },
+  {
+    "id": 52,
+    "pular": "ɗiɗi",
+    "francais": "deux (2)",
+    "exemple_pular": "Miɗo mari ɓiɓɓe ɗiɗo.",
+    "exemple_francais": "J'ai deux enfants.",
+    "phonetique": "ɗi-ɗi (deux implosives dentales)",
+    "categorie": "nombres"
+  },
+  {
+    "id": 53,
+    "pular": "tati",
+    "francais": "trois (3)",
+    "exemple_pular": "Mi yoɓii wuluure e teemeɗɗe tati.",
+    "exemple_francais": "Je paye mille trois cents.",
+    "phonetique": "ta-ti",
+    "categorie": "nombres"
+  },
+  {
+    "id": 54,
+    "pular": "nay",
+    "francais": "quatre (4)",
+    "exemple_pular": "Ko cappanɗe nay.",
+    "exemple_francais": "C'est quarante.",
+    "phonetique": "nai",
+    "categorie": "nombres"
+  },
+  {
+    "id": 55,
+    "pular": "jowi",
+    "francais": "cinq (5)",
+    "exemple_pular": "Yimɓe jowi no ɗoo.",
+    "exemple_francais": "Il y a cinq personnes ici.",
+    "phonetique": "djo-wi",
+    "categorie": "nombres"
+  },
+  {
+    "id": 56,
+    "pular": "jeego'o",
+    "francais": "six (6)",
+    "exemple_pular": "Yimɓe njeego'o no ɗoo.",
+    "exemple_francais": "Il y a six personnes ici.",
+    "phonetique": "djé-go-o",
+    "categorie": "nombres"
+  },
+  {
+    "id": 57,
+    "pular": "jeeɗiɗi",
+    "francais": "sept (7)",
+    "exemple_pular": "Koodoy jeeɗiɗi no kammu.",
+    "exemple_francais": "Il y a sept étoiles dans le ciel.",
+    "phonetique": "djé-ɗi-ɗi",
+    "categorie": "nombres"
+  },
+  {
+    "id": 58,
+    "pular": "jeetati",
+    "francais": "huit (8)",
+    "exemple_pular": "Ɓe adduno kompuleeji sappo e jeetati.",
+    "exemple_francais": "Ils ont apporté dix-huit ensembles.",
+    "phonetique": "djé-ta-ti",
+    "categorie": "nombres"
+  },
+  {
+    "id": 59,
+    "pular": "jeenay",
+    "francais": "neuf (9)",
+    "exemple_pular": "Ɓe jonni yinɓe njeenayo.",
+    "exemple_francais": "Il l'a remis à neuf personnes.",
+    "phonetique": "djé-nai",
+    "categorie": "nombres"
+  },
+  {
+    "id": 60,
+    "pular": "sappo",
+    "francais": "dix (10)",
+    "exemple_pular": "Gorooje sappo.",
+    "exemple_francais": "Dix noix de colas.",
+    "phonetique": "sap-po",
+    "categorie": "nombres"
+  }
+],
+[
+  {
+    "id": 61,
+    "pular": "noogay",
+    "francais": "vingt (20)",
+    "exemple_pular": "Yimɓe noogay no ɗoo.",
+    "exemple_francais": "Il y a vingt personnes ici.",
+    "phonetique": "no-gai",
+    "categorie": "nombres"
+  },
+  {
+    "id": 62,
+    "pular": "cappanɗe tati",
+    "francais": "trente (30)",
+    "exemple_pular": "Ko cappanɗe tati Faran.",
+    "exemple_francais": "C'est trente francs.",
+    "phonetique": "cap-pan-ɗé ta-ti",
+    "categorie": "nombres"
+  },
+  {
+    "id": 63,
+    "pular": "cappanɗe nay",
+    "francais": "quarante (40)",
+    "exemple_pular": "Mi soodii ka cappanɗe nay.",
+    "exemple_francais": "J'ai acheté pour quarante (francs).",
+    "phonetique": "cap-pan-ɗé nai",
+    "categorie": "nombres"
+  },
+  {
+    "id": 64,
+    "pular": "teemedere",
+    "francais": "cent (100)",
+    "exemple_pular": "Mi ɓeydii teemedere.",
+    "exemple_francais": "J'augmente de cent.",
+    "phonetique": "té-mé-dé-ré",
+    "categorie": "nombres"
+  },
+  {
+    "id": 65,
+    "pular": "wuluure",
+    "francais": "mille (1000)",
+    "exemple_pular": "Mi yoɓii wuluure e teemeɗɗe tati.",
+    "exemple_francais": "Je paye mille trois cents.",
+    "phonetique": "wou-lou-ré",
+    "categorie": "nombres"
+  },
+  {
+    "id": 66,
+    "pular": "Ko jelu?",
+    "francais": "Combien ?",
+    "exemple_pular": "Paɗe ɗen ko jelu?",
+    "exemple_francais": "Combien coûtent les chaussures ?",
+    "phonetique": "ko djé-lou",
+    "categorie": "interrogatifs"
+  },
+  {
+    "id": 67,
+    "pular": "kaalisi",
+    "francais": "argent",
+    "exemple_pular": "Hannde mi maraa kaalisi.",
+    "exemple_francais": "Aujourd'hui je n'ai pas d'argent.",
+    "phonetique": "ka-li-si",
+    "categorie": "commerce"
+  },
+  {
+    "id": 68,
+    "pular": "soodugol",
+    "francais": "acheter",
+    "exemple_pular": "Miɗo faalaa soodugol paɗe.",
+    "exemple_francais": "Je veux acheter des chaussures.",
+    "phonetique": "so-dou-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 69,
+    "pular": "yoɓugol",
+    "francais": "payer",
+    "exemple_pular": "Ko jelu yoɓuɗon?",
+    "exemple_francais": "Vous payez combien ?",
+    "phonetique": "yo-bu-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 70,
+    "pular": "No satti",
+    "francais": "C'est trop cher",
+    "exemple_pular": "No satti, ko jelu woni fii soodugol?",
+    "exemple_francais": "C'est trop cher, quel est le dernier prix ?",
+    "phonetique": "no sat-ti",
+    "categorie": "commerce"
+  }
+],
+[
+  {
+    "id": 71,
+    "pular": "Miɗo faalaa",
+    "francais": "je veux / je voudrais",
+    "exemple_pular": "Miɗo faalaa soodugol paɗe.",
+    "exemple_francais": "Je veux acheter des chaussures.",
+    "phonetique": "mi-ɗo fa-la",
+    "categorie": "verbes"
+  },
+  {
+    "id": 72,
+    "pular": "Hiɗa faalaa / Ko honɗun faalaɗaa?",
+    "francais": "tu veux / qu'est-ce que tu veux ?",
+    "exemple_pular": "Ko honɗun faalaɗaa?",
+    "exemple_francais": "Qu'est-ce que tu veux ?",
+    "phonetique": "hi-ɗa fa-la / ko hon-ɗun fa-la-ɗaa",
+    "categorie": "verbes"
+  },
+  {
+    "id": 73,
+    "pular": "Himo faalaa",
+    "francais": "il / elle veut",
+    "exemple_pular": "Himo faalaa janngude pular.",
+    "exemple_francais": "Il veut apprendre le Pular.",
+    "phonetique": "hi-mo fa-la",
+    "categorie": "verbes"
+  },
+  {
+    "id": 74,
+    "pular": "yaadugol",
+    "francais": "aller / partir",
+    "exemple_pular": "Miɗo yaade ka Maakiti.",
+    "exemple_francais": "Je vais au marché.",
+    "phonetique": "ya-dou-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 75,
+    "pular": "arugol",
+    "francais": "venir",
+    "exemple_pular": "Awa mi aranay janngo.",
+    "exemple_francais": "Bien, alors je viens demain.",
+    "phonetique": "a-rou-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 76,
+    "pular": "janngugol",
+    "francais": "lire / apprendre / étudier",
+    "exemple_pular": "Mi janngay pular.",
+    "exemple_francais": "Je vais apprendre le Pular.",
+    "phonetique": "djang-gou-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 77,
+    "pular": "anndugol",
+    "francais": "savoir / connaître",
+    "exemple_pular": "Hiɗa anndi ko honto njula paɗe'en woni?",
+    "exemple_francais": "Sais-tu où sont les vendeurs de chaussures ?",
+    "phonetique": "and-dou-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 78,
+    "pular": "faalegol",
+    "francais": "vouloir / désirer / aimer",
+    "exemple_pular": "Miɗo faalaa hettude ɲamaande nden.",
+    "exemple_francais": "Je voudrais être remboursé.",
+    "phonetique": "fa-lé-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 79,
+    "pular": "wallugol",
+    "francais": "aider",
+    "exemple_pular": "Wallindiren no pon mahiree.",
+    "exemple_francais": "Aidons-nous mutuellement pour construire le pont.",
+    "phonetique": "wal-lou-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 80,
+    "pular": "waɗugol",
+    "francais": "faire",
+    "exemple_pular": "Ko honɗun waɗataa?",
+    "exemple_francais": "Qu'est-ce que tu fais ?",
+    "phonetique": "wa-ɗou-gol",
+    "categorie": "verbes"
+  }
+],
+[
+  {
+    "id": 81,
+    "pular": "ɓiɗɗo",
+    "francais": "enfant / fils / fille de (quelqu'un)",
+    "exemple_pular": "Ɓiɓɓe ɓen no e jam?",
+    "exemple_francais": "Les enfants vont bien ?",
+    "phonetique": "ɓiɗ-ɗo (pluriel: ɓiɓɓe)",
+    "categorie": "famille"
+  },
+  {
+    "id": 82,
+    "pular": "fayɓe",
+    "francais": "enfants / progéniture",
+    "exemple_pular": "Fayɓe ɓen no e jam?",
+    "exemple_francais": "Les enfants se portent-ils bien ?",
+    "phonetique": "fai-ɓé",
+    "categorie": "famille"
+  },
+  {
+    "id": 83,
+    "pular": "mawɓe",
+    "francais": "parents / anciens / adultes",
+    "exemple_pular": "Mawɓe ɓen no e jam?",
+    "exemple_francais": "Les parents se portent-ils bien ?",
+    "phonetique": "maw-ɓé (singulier: mawɗo)",
+    "categorie": "famille"
+  },
+  {
+    "id": 84,
+    "pular": "musiɗɗo",
+    "francais": "parent / proche / cousin",
+    "exemple_pular": "Musiɓɓe ɓen no e jam?",
+    "exemple_francais": "Les proches vont bien ?",
+    "phonetique": "mu-siɗ-ɗo (pluriel: musiɓɓe)",
+    "categorie": "famille"
+  },
+  {
+    "id": 85,
+    "pular": "kotoo",
+    "francais": "grand frère / frère aîné",
+    "exemple_pular": "Miɗo mari kotoo.",
+    "exemple_francais": "J'ai un grand frère.",
+    "phonetique": "ko-to",
+    "categorie": "famille"
+  },
+  {
+    "id": 86,
+    "pular": "jaaja",
+    "francais": "grande sœur / sœur aînée",
+    "exemple_pular": "Hiɗa mari jaaja.",
+    "exemple_francais": "Tu as une grande sœur.",
+    "phonetique": "dja-dja",
+    "categorie": "famille"
+  },
+  {
+    "id": 87,
+    "pular": "banndiraaɓe",
+    "francais": "frères et sœurs / membres de la famille",
+    "exemple_pular": "Kompuleeji sappo e jeetati banndiraaɓe addi.",
+    "exemple_francais": "Les frères et sœurs ont apporté dix-huit ensembles.",
+    "phonetique": "ban-di-ra-ɓé",
+    "categorie": "famille"
+  },
+  {
+    "id": 88,
+    "pular": "marugol",
+    "francais": "avoir / posséder",
+    "exemple_pular": "Miɗo mari ɓiɓɓe tato.",
+    "exemple_francais": "J'ai trois enfants.",
+    "phonetique": "ma-rou-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 89,
+    "pular": "alaa",
+    "francais": "il n'y a pas / il n'existe pas",
+    "exemple_pular": "Tanaa alaa ton.",
+    "exemple_francais": "Il n'y a pas de malheur là-bas.",
+    "phonetique": "a-la",
+    "categorie": "negation"
+  },
+  {
+    "id": 90,
+    "pular": "kawtaljo",
+    "francais": "voisin(e)",
+    "exemple_pular": "Kawtalɓe ɓen no e jam?",
+    "exemple_francais": "Les voisins vont bien ?",
+    "phonetique": "kaw-tal-jo (pluriel: kawtalɓe)",
+    "categorie": "famille"
+  }
+],
+[
+  {
+    "id": 91,
+    "pular": "jannoowo",
+    "francais": "enseignant(e)",
+    "exemple_pular": "Ko mi jannoowo, mi golla ka lekkol.",
+    "exemple_francais": "Je suis enseignant, je travaille à l'école.",
+    "phonetique": "djan-no-wo (pluriel: jannooɓe)",
+    "categorie": "professions"
+  },
+  {
+    "id": 92,
+    "pular": "njulaajo",
+    "francais": "commerçant(e)",
+    "exemple_pular": "Ko mi njulaajo, mi golla ka maakiti.",
+    "exemple_francais": "Je suis commerçant, je travaille au marché.",
+    "phonetique": "njou-la-jo (pluriel: njulaaɓe)",
+    "categorie": "professions"
+  },
+  {
+    "id": 93,
+    "pular": "remoowo",
+    "francais": "paysan / agriculteur",
+    "exemple_pular": "Ko o remoowo, himo golla ka leydi.",
+    "exemple_francais": "Il est paysan, il travaille à la terre.",
+    "phonetique": "ré-mo-wo (pluriel: remooɓe)",
+    "categorie": "professions"
+  },
+  {
+    "id": 94,
+    "pular": "soferjo",
+    "francais": "chauffeur",
+    "exemple_pular": "Hiɗon mari soferɓe ɗoo?",
+    "exemple_francais": "Avez-vous des chauffeurs ici ?",
+    "phonetique": "so-fèr-jo (pluriel: soferɓe)",
+    "categorie": "professions"
+  },
+  {
+    "id": 95,
+    "pular": "masonjo",
+    "francais": "maçon",
+    "exemple_pular": "Ko mi masonjo, mi golla ka mahirde.",
+    "exemple_francais": "Je suis maçon, je travaille sur le chantier.",
+    "phonetique": "ma-son-jo (pluriel: masonɓe)",
+    "categorie": "professions"
+  },
+  {
+    "id": 96,
+    "pular": "gollooɓe",
+    "francais": "travailleurs",
+    "exemple_pular": "Menen kadi men heɓay gollooɓe ɓen.",
+    "exemple_francais": "De notre côté, nous fournirons les travailleurs.",
+    "phonetique": "gol-lo-ɓé (singulier: golloowo)",
+    "categorie": "professions"
+  },
+  {
+    "id": 97,
+    "pular": "gollugol",
+    "francais": "travailler",
+    "exemple_pular": "Ko honto gollataa?",
+    "exemple_francais": "Où travailles-tu ?",
+    "phonetique": "gol-lou-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 98,
+    "pular": "lekkol",
+    "francais": "école",
+    "exemple_pular": "Himo golla ka lekkol.",
+    "exemple_francais": "Il travaille à l'école.",
+    "phonetique": "lek-kol (pluriel: lekkolji)",
+    "categorie": "lieux"
+  },
+  {
+    "id": 99,
+    "pular": "labutaani",
+    "francais": "hôpital",
+    "exemple_pular": "Ko ka labutaani mi gollata.",
+    "exemple_francais": "C'est à l'hôpital que je travaille.",
+    "phonetique": "la-bou-ta-ni",
+    "categorie": "lieux"
+  },
+  {
+    "id": 100,
+    "pular": "Ko honɗun woni golle maa?",
+    "francais": "C'est quoi ton travail ?",
+    "exemple_pular": "Ko honɗun woni golle maa? — Ko soferyaagal.",
+    "exemple_francais": "C'est quoi ton travail ? — C'est la conduite.",
+    "phonetique": "ko hon-ɗun wo-ni gol-lé ma",
+    "categorie": "expressions_courantes"
+  }
+],
+[
+  {
+    "id": 101,
+    "pular": "ɲawugol / nawni",
+    "francais": "être malade / tomber malade",
+    "exemple_pular": "Muttaaru no nawni.",
+    "exemple_francais": "Mouctar est malade.",
+    "phonetique": "ɲaw-gol / naw-ni",
+    "categorie": "sante"
+  },
+  {
+    "id": 102,
+    "pular": "sellude",
+    "francais": "être en bonne santé / guéri",
+    "exemple_pular": "Yo Alla sellina en.",
+    "exemple_francais": "Que Dieu nous garde en bonne santé.",
+    "phonetique": "sel-lou-dé",
+    "categorie": "sante"
+  },
+  {
+    "id": 103,
+    "pular": "fooyaagol",
+    "francais": "souffrir / ressentir de la douleur",
+    "exemple_pular": "Kori on fooyaali?",
+    "exemple_francais": "Ne souffrez-vous d'aucune douleur ?",
+    "phonetique": "fo-ya-gol",
+    "categorie": "sante"
+  },
+  {
+    "id": 104,
+    "pular": "ɲawndoowo",
+    "francais": "médecin / guérisseur",
+    "exemple_pular": "Ɲawndoowo on no golla ka labutaani.",
+    "exemple_francais": "Le médecin travaille à l'hôpital.",
+    "phonetique": "ɲaw-ndoo-wo (pluriel: ɲawndooɓe)",
+    "categorie": "sante"
+  },
+  {
+    "id": 105,
+    "pular": "ɗonɗaade",
+    "francais": "avoir soif",
+    "exemple_pular": "Muttaaru no ɗonɗaa.",
+    "exemple_francais": "Mouctar a soif.",
+    "phonetique": "ɗon-ɗa-dé",
+    "categorie": "sante"
+  },
+  {
+    "id": 106,
+    "pular": "ndiyan",
+    "francais": "eau",
+    "exemple_pular": "Miɗo faalaa ndiyan.",
+    "exemple_francais": "Je veux de l'eau.",
+    "phonetique": "n-dian",
+    "categorie": "nourriture_boissons"
+  },
+  {
+    "id": 107,
+    "pular": "ɲaamugol",
+    "francais": "manger",
+    "exemple_pular": "Miɗo faalaa ɲaamugol.",
+    "exemple_francais": "Je veux manger.",
+    "phonetique": "ɲa-mou-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 108,
+    "pular": "hawjugol / hawji",
+    "francais": "être pressé",
+    "exemple_pular": "Muttaaru no hawji.",
+    "exemple_francais": "Mouctar est pressé.",
+    "phonetique": "haw-jou-gol / haw-ji",
+    "categorie": "etats"
+  },
+  {
+    "id": 109,
+    "pular": "muɲal",
+    "francais": "patience",
+    "exemple_pular": "Muɲal ko moƴƴere.",
+    "exemple_francais": "La patience est une vertu.",
+    "phonetique": "mou-ɲal",
+    "categorie": "valeurs_culturelles"
+  },
+  {
+    "id": 110,
+    "pular": "no e jam",
+    "francais": "aller bien / être en paix",
+    "exemple_pular": "Ɓeynguure no e jam.",
+    "exemple_francais": "La famille va bien (est en paix).",
+    "phonetique": "no é djam",
+    "categorie": "expressions_courantes"
+  }
+],
+[
+  {
+    "id": 111,
+    "pular": "dane",
+    "francais": "blanc(he)",
+    "exemple_pular": "Tuubu danewal no moƴƴi.",
+    "exemple_francais": "La petite culotte blanche est jolie.",
+    "phonetique": "da-né",
+    "categorie": "couleurs"
+  },
+  {
+    "id": 112,
+    "pular": "boɗeere",
+    "francais": "rouge",
+    "exemple_pular": "Tikkawol jiwo on ko boɗewol.",
+    "exemple_francais": "L'écharpe de la jeune femme est rouge.",
+    "phonetique": "bo-ɗé-ré",
+    "categorie": "couleurs"
+  },
+  {
+    "id": 113,
+    "pular": "baleere",
+    "francais": "noir(e)",
+    "exemple_pular": "Paɗe baleeje ɗen ko moƴƴe.",
+    "exemple_francais": "Les chaussures noires sont jolies.",
+    "phonetique": "ba-lé-ré",
+    "categorie": "couleurs"
+  },
+  {
+    "id": 114,
+    "pular": "oloore",
+    "francais": "jaune",
+    "exemple_pular": "Suddaare oloore nden no moƴƴi.",
+    "exemple_francais": "La robe jaune est belle.",
+    "phonetique": "o-lo-ré",
+    "categorie": "couleurs"
+  },
+  {
+    "id": 115,
+    "pular": "moƴƴugol",
+    "francais": "être bon / être beau / être bien",
+    "exemple_pular": "Laawol ngol moƴƴi.",
+    "exemple_francais": "Le chemin est bon (agréable).",
+    "phonetique": "moƴ-ƴou-gol",
+    "categorie": "adjectifs"
+  },
+  {
+    "id": 116,
+    "pular": "bonnugol",
+    "francais": "être mauvais / être gâté / être abîmé",
+    "exemple_pular": "Pon kiɗɗo on follete.",
+    "exemple_francais": "Le vieux pont est démoli.",
+    "phonetique": "bon-nou-gol",
+    "categorie": "adjectifs"
+  },
+  {
+    "id": 117,
+    "pular": "keso",
+    "francais": "nouveau / neuf",
+    "exemple_pular": "Montor keso on no moƴƴi.",
+    "exemple_francais": "La nouvelle montre est belle.",
+    "phonetique": "ké-so",
+    "categorie": "adjectifs"
+  },
+  {
+    "id": 118,
+    "pular": "mawɗo",
+    "francais": "grand / vieux / âgé",
+    "exemple_pular": "Ko suudu mawndu.",
+    "exemple_francais": "C'est une grande maison.",
+    "phonetique": "maw-ɗo",
+    "categorie": "adjectifs"
+  },
+  {
+    "id": 119,
+    "pular": "ɓurugol",
+    "francais": "dépasser / surpasser / être plus (comparatif)",
+    "exemple_pular": "Ko honɓe ɓuri ɗuuɗude?",
+    "exemple_francais": "Qui sont les plus nombreux ?",
+    "phonetique": "ɓou-rou-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 120,
+    "pular": "ɗuuɗude",
+    "francais": "être nombreux / il y en a beaucoup",
+    "exemple_pular": "Leɗɗe no heewi ka ataliyee maɓɓe.",
+    "exemple_francais": "Il y a beaucoup d'arbres dans leur atelier.",
+    "phonetique": "ɗou-ɗou-dé",
+    "categorie": "adjectifs"
+  }
+],
+[
+  {
+    "id": 121,
+    "pular": "Gineyenjo",
+    "francais": "guinéen(ne)",
+    "exemple_pular": "Ko mi Gineyenjo.",
+    "exemple_francais": "Je suis Guinéen.",
+    "phonetique": "gi-né-yen-jo (pluriel: Gineyenɓe)",
+    "categorie": "nationalites"
+  },
+  {
+    "id": 122,
+    "pular": "Senegaleejo",
+    "francais": "sénégalais(e)",
+    "exemple_pular": "Ko o Senegaleejo.",
+    "exemple_francais": "Il est Sénégalais.",
+    "phonetique": "sé-né-ga-lé-jo",
+    "categorie": "nationalites"
+  },
+  {
+    "id": 123,
+    "pular": "Ko a honɗun?",
+    "francais": "Tu es quoi ? (identité / nationalité)",
+    "exemple_pular": "Ko a honɗun? — Ko mi julɗo.",
+    "exemple_francais": "Tu es quoi ? — Je suis musulman.",
+    "phonetique": "ko a hon-ɗun",
+    "categorie": "interrogatifs"
+  },
+  {
+    "id": 124,
+    "pular": "julɗo",
+    "francais": "musulman(e)",
+    "exemple_pular": "Ko mi julɗo.",
+    "exemple_francais": "Je suis musulman.",
+    "phonetique": "jul-ɗo (pluriel: julɓe)",
+    "categorie": "identite"
+  },
+  {
+    "id": 125,
+    "pular": "kretiyenjo",
+    "francais": "chrétien(ne)",
+    "exemple_pular": "Ko o kretiyenjo.",
+    "exemple_francais": "Il est chrétien.",
+    "phonetique": "kré-ti-yén-jo",
+    "categorie": "identite"
+  },
+  {
+    "id": 126,
+    "pular": "taakanjo",
+    "francais": "autochtone / originaire du lieu",
+    "exemple_pular": "Ko mi taakanjo.",
+    "exemple_francais": "Je suis autochtone (d'ici).",
+    "phonetique": "ta-kan-jo",
+    "categorie": "identite"
+  },
+  {
+    "id": 127,
+    "pular": "koɗo",
+    "francais": "étranger / visiteur",
+    "exemple_pular": "Ko o koɗo.",
+    "exemple_francais": "Il est étranger.",
+    "phonetique": "ko-ɗo",
+    "categorie": "identite"
+  },
+  {
+    "id": 128,
+    "pular": "Soosoojo",
+    "francais": "Soussou (de l'ethnie Soussou)",
+    "exemple_pular": "Ko mi Soosoojo.",
+    "exemple_francais": "Je suis de l'ethnie Soussou.",
+    "phonetique": "so-so-jo (pluriel: Soosooɓe)",
+    "categorie": "ethnies"
+  },
+  {
+    "id": 129,
+    "pular": "Ko mi + identité",
+    "francais": "Je suis + identité",
+    "exemple_pular": "Ko mi Gineyenjo. Ko mi julɗo.",
+    "exemple_francais": "Je suis Guinéen. Je suis musulman.",
+    "phonetique": "ko mi",
+    "categorie": "structures_grammaticales"
+  },
+  {
+    "id": 130,
+    "pular": "Lagine",
+    "francais": "Guinée (nom traditionnel en Pular)",
+    "exemple_pular": "Muttaaru no yehi Lagine.",
+    "exemple_francais": "Mouctar est allé en Guinée.",
+    "phonetique": "la-gi-né",
+    "categorie": "lieux"
+  }
+],
+[
+  {
+    "id": 131,
+    "pular": "Ko hombo?",
+    "francais": "Qui ?",
+    "exemple_pular": "Ko hombo nii?",
+    "exemple_francais": "Qui est celui-ci ?",
+    "phonetique": "ko hom-bo",
+    "categorie": "interrogatifs"
+  },
+  {
+    "id": 132,
+    "pular": "Ko honɗun?",
+    "francais": "Quoi ? / C'est quoi ?",
+    "exemple_pular": "Ko honɗun e mbabba nii?",
+    "exemple_francais": "Quel type d'âne est-ce ?",
+    "phonetique": "ko hon-ɗun",
+    "categorie": "interrogatifs"
+  },
+  {
+    "id": 133,
+    "pular": "Ko honno?",
+    "francais": "Comment ?",
+    "exemple_pular": "Ko honno inneteɗaa?",
+    "exemple_francais": "Comment tu t'appelles ?",
+    "phonetique": "ko hon-no",
+    "categorie": "interrogatifs"
+  },
+  {
+    "id": 134,
+    "pular": "Ko honnde tuma?",
+    "francais": "Quand ? (à quel moment ?)",
+    "exemple_pular": "Ko honnde tuma yahataa Conakry?",
+    "exemple_francais": "Quand iras-tu à Conakry ?",
+    "phonetique": "ko hon-ndé tou-ma",
+    "categorie": "interrogatifs"
+  },
+  {
+    "id": 135,
+    "pular": "Ko jelu?",
+    "francais": "Combien ?",
+    "exemple_pular": "Ko jelu yoɓuɗon?",
+    "exemple_francais": "Vous payez combien ?",
+    "phonetique": "ko djé-lou",
+    "categorie": "interrogatifs"
+  },
+  {
+    "id": 136,
+    "pular": "Ko goonga?",
+    "francais": "C'est vrai ? / Est-ce vrai ?",
+    "exemple_pular": "Ko goonga Saaliw no ɗoo?",
+    "exemple_francais": "Est-il vrai que Saliou est là ?",
+    "phonetique": "ko goon-ga",
+    "categorie": "expressions_courantes"
+  },
+  {
+    "id": 137,
+    "pular": "Wanaa",
+    "francais": "Ce n'est pas / Non pas",
+    "exemple_pular": "Wanaa fota.",
+    "exemple_francais": "Pas tout à fait.",
+    "phonetique": "wa-na",
+    "categorie": "negation"
+  },
+  {
+    "id": 138,
+    "pular": "si",
+    "francais": "si / quand (conditionnel)",
+    "exemple_pular": "Si jowi ɓeydaama e sappo hawray jelu?",
+    "exemple_francais": "Si on ajoute cinq à dix, ça fait combien ?",
+    "phonetique": "si",
+    "categorie": "conjonctions"
+  },
+  {
+    "id": 139,
+    "pular": "kono",
+    "francais": "mais",
+    "exemple_pular": "Ko jooporɗo kono kalanduryee no woodi.",
+    "exemple_francais": "C'est juste pour l'orientation, mais un calendrier existe.",
+    "phonetique": "ko-no",
+    "categorie": "conjonctions"
+  },
+  {
+    "id": 140,
+    "pular": "Ko + [focus]",
+    "francais": "C'est... que / C'est... qui (mise en relief)",
+    "exemple_pular": "Ko janngo Aamadu soodata moto.",
+    "exemple_francais": "C'est demain qu'Amadou achètera une moto.",
+    "phonetique": "ko",
+    "categorie": "structures_grammaticales"
+  }
+],
+[
+  {
+    "id": 141,
+    "pular": "paɗe",
+    "francais": "chaussures",
+    "exemple_pular": "Miɗo faalaa soodugol paɗe.",
+    "exemple_francais": "Je veux acheter des chaussures.",
+    "phonetique": "pa-ɗé (singulier: paɗal)",
+    "categorie": "vetements"
+  },
+  {
+    "id": 142,
+    "pular": "suddaare",
+    "francais": "vêtement / robe",
+    "exemple_pular": "Hanki mi soodii suddaare njannde.",
+    "exemple_francais": "Hier j'ai acheté un vêtement.",
+    "phonetique": "soud-da-ré",
+    "categorie": "vetements"
+  },
+  {
+    "id": 143,
+    "pular": "njula-paɗe",
+    "francais": "vendeur de chaussures",
+    "exemple_pular": "Ka njula paɗe.",
+    "exemple_francais": "Chez le vendeur de chaussures.",
+    "phonetique": "njou-la pa-ɗé",
+    "categorie": "commerce"
+  },
+  {
+    "id": 144,
+    "pular": "ɓeydugol",
+    "francais": "augmenter / ajouter",
+    "exemple_pular": "Ɓeydee teemeɗɗe ɗiɗi.",
+    "exemple_francais": "Augmentez de deux cents.",
+    "phonetique": "ɓéy-dou-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 145,
+    "pular": "ɗuytugol",
+    "francais": "diminuer / soustraire / baisser le prix",
+    "exemple_pular": "Ɗuytii teemedere.",
+    "exemple_francais": "Il a baissé de cent.",
+    "phonetique": "ɗouy-tou-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 146,
+    "pular": "addugol",
+    "francais": "apporter / donner",
+    "exemple_pular": "Awa, addee kaalisi.",
+    "exemple_francais": "Bien, donnez l'argent.",
+    "phonetique": "ad-dou-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 147,
+    "pular": "E hino ɗoo",
+    "francais": "voilà (en tendant quelque chose)",
+    "exemple_pular": "Addee kaalisi. — E hino ɗoo.",
+    "exemple_francais": "Donnez l'argent. — Voilà.",
+    "phonetique": "é hi-no ɗo",
+    "categorie": "expressions_courantes"
+  },
+  {
+    "id": 148,
+    "pular": "marsandiisi",
+    "francais": "marchandise(s)",
+    "exemple_pular": "Bitiki maɓɓe on no heewi marsandiisi.",
+    "exemple_francais": "Leur boutique regorge de marchandises.",
+    "phonetique": "mar-san-di-si",
+    "categorie": "commerce"
+  },
+  {
+    "id": 149,
+    "pular": "ɲamaande",
+    "francais": "crédit / dette",
+    "exemple_pular": "Miɗo faalaa hettude ɲamaande nden.",
+    "exemple_francais": "Je voudrais être remboursé.",
+    "phonetique": "ɲa-man-dé",
+    "categorie": "commerce"
+  },
+  {
+    "id": 150,
+    "pular": "hettugol",
+    "francais": "récupérer / recevoir ce qui est dû",
+    "exemple_pular": "Mi hettaali.",
+    "exemple_francais": "Je n'ai pas reçu ce qui m'était dû.",
+    "phonetique": "het-tou-gol",
+    "categorie": "verbes"
+  }
+],
+[
+  {
+    "id": 151,
+    "pular": "ɲaari",
+    "francais": "nourriture / repas",
+    "exemple_pular": "Ɲaari no defaa.",
+    "exemple_francais": "Le repas est préparé.",
+    "phonetique": "ɲa-ri",
+    "categorie": "nourriture_boissons"
+  },
+  {
+    "id": 152,
+    "pular": "ɓira / ɓiraaɗan",
+    "francais": "lait (de vache)",
+    "exemple_pular": "Ɲaari no yara ɓira.",
+    "exemple_francais": "Le chat boit du lait.",
+    "phonetique": "ɓi-ra / ɓi-ra-ɗan",
+    "categorie": "nourriture_boissons"
+  },
+  {
+    "id": 153,
+    "pular": "na'i",
+    "francais": "vache(s) / bœuf",
+    "exemple_pular": "Teŋe makko ko na'i tati.",
+    "exemple_francais": "Sa dot comprenait trois vaches.",
+    "phonetique": "na-i",
+    "categorie": "animaux"
+  },
+  {
+    "id": 154,
+    "pular": "goroore",
+    "francais": "noix de cola",
+    "exemple_pular": "Alahajji Bah jonnano gorooje sappo.",
+    "exemple_francais": "On avait donné dix noix de colas à Monsieur Bah.",
+    "phonetique": "go-ro-ré (pluriel: gorooje)",
+    "categorie": "nourriture_boissons"
+  },
+  {
+    "id": 155,
+    "pular": "defugol",
+    "francais": "cuisiner / préparer un repas",
+    "exemple_pular": "Ɲannde peera on ɲaari buy defano.",
+    "exemple_francais": "Pour le jour du mariage, beaucoup de nourriture avait été préparée.",
+    "phonetique": "dé-fou-gol",
+    "categorie": "verbes"
+  },
+  {
+    "id": 156,
+    "pular": "njaare",
+    "francais": "sable",
+    "exemple_pular": "Sousperefektiir on okkay njaare on.",
+    "exemple_francais": "La sous-préfecture offrira le sable.",
+    "phonetique": "nja-ré",
+    "categorie": "materiaux"
+  },
+  {
+    "id": 157,
+    "pular": "lanɗan",
+    "francais": "sel",
+    "exemple_pular": "Miɗo faalaa lanɗan seeɗa.",
+    "exemple_francais": "Je veux un peu de sel.",
+    "phonetique": "lan-ɗan",
+    "categorie": "nourriture_boissons"
+  },
+  {
+    "id": 158,
+    "pular": "seeɗa",
+    "francais": "un peu",
+    "exemple_pular": "Kiliyanɓe sooday seeɗa.",
+    "exemple_francais": "Les clients achètent un peu.",
+    "phonetique": "sé-ɗa",
+    "categorie": "quantificateurs"
+  },
+  {
+    "id": 159,
+    "pular": "buy",
+    "francais": "beaucoup / plein de",
+    "exemple_pular": "Kaŋŋe buy e kaalisi buy.",
+    "exemple_francais": "Beaucoup d'or et beaucoup d'argent.",
+    "phonetique": "buy",
+    "categorie": "quantificateurs"
+  },
+  {
+    "id": 160,
+    "pular": "fow",
+    "francais": "tout / tous",
+    "exemple_pular": "En hollitay jamaa on fow.",
+    "exemple_francais": "Nous informerons tout le monde.",
+    "phonetique": "fow",
+    "categorie": "quantificateurs"
+  }
+],
+[
+  {
+    "id": 161,
+    "pular": "sikkugol",
+    "francais": "croire / penser",
+    "exemple_pular": "Miɗo sikki o yaltii.",
+    "exemple_francais": "Je pense qu'il est sorti.",
+    "phonetique": "sik-kou-gol",
+    "categorie": "verbes_mental"
+  },
+  {
+    "id": 162,
+    "pular": "hoolagol",
+    "francais": "être sûr / faire confiance",
+    "exemple_pular": "Baalii hoolaaki saafaandu.",
+    "exemple_francais": "Le mouton ne fait pas confiance au loup.",
+    "phonetique": "ho-la-gol",
+    "categorie": "verbes_mental"
+  },
+  {
+    "id": 163,
+    "pular": "fellitugol",
+    "francais": "être tout à fait sûr / être convaincu",
+    "exemple_pular": "Miɗo fellitugol ko kanko winndugol leeter on.",
+    "exemple_francais": "Je suis absolument convaincu que c'est lui qui a écrit la lettre.",
+    "phonetique": "fel-li-tou-gol",
+    "categorie": "verbes_mental"
+  },
+  {
+    "id": 164,
+    "pular": "sikkitagol",
+    "francais": "douter / soupçonner",
+    "exemple_pular": "Ɲaawoowo on no sikkitii tooɲaaɗo on.",
+    "exemple_francais": "Le juge soupçonne l'accusé.",
+    "phonetique": "sik-ki-ta-gol",
+    "categorie": "verbes_mental"
+  },
+  {
+    "id": 165,
+    "pular": "tuumugol",
+    "francais": "suspecter / soupçonner (fortement)",
+    "exemple_pular": "Ko hombo porkileer on sikkitii?",
+    "exemple_francais": "Le procureur soupçonne qui ?",
+    "phonetique": "tou-mou-gol",
+    "categorie": "verbes_mental"
+  },
+  {
+    "id": 166,
+    "pular": "Ko goonga",
+    "francais": "c'est vrai / c'est la vérité",
+    "exemple_pular": "Ko goonga.",
+    "exemple_francais": "C'est vrai.",
+    "phonetique": "ko goon-ga",
+    "categorie": "expressions_courantes"
+  },
+  {
+    "id": 167,
+    "pular": "wi'ugol",
+    "francais": "dire",
+    "exemple_pular": "Woo ko nakkun horiikun o jonnaa teŋe?",
+    "exemple_francais": "On dit que c'est une vache maigre qu'on lui a donnée comme dot ?",
+    "phonetique": "wi-ou-gol",
+    "categorie": "verbes_communication"
+  },
+  {
+    "id": 168,
+    "pular": "jaabagol",
+    "francais": "répondre",
+    "exemple_pular": "Alahajji Bah jaabii : Hiin-hi!",
+    "exemple_francais": "Elhadj Bah répondit : Mais oui !",
+    "phonetique": "dja-ba-gol",
+    "categorie": "verbes_communication"
+  },
+  {
+    "id": 169,
+    "pular": "lanndagol",
+    "francais": "demander / poser une question",
+    "exemple_pular": "Goɗɗo lanndii : Alahajji Bah on senndirii nunɗal?",
+    "exemple_francais": "Quelqu'un demanda : avez-vous partagé équitablement ?",
+    "phonetique": "land-da-gol",
+    "categorie": "verbes_communication"
+  },
+  {
+    "id": 170,
+    "pular": "hollugol",
+    "francais": "montrer / informer / expliquer",
+    "exemple_pular": "En mooɓindiray yimɓe ɓen, holliten ɓe.",
+    "exemple_francais": "Nous allons convoquer les gens et les informer.",
+    "phonetique": "hol-lou-gol",
+    "categorie": "verbes_communication"
+  }
+],
+[
+  {
+    "id": 171,
+    "pular": "peera",
+    "francais": "mariage / fête de mariage",
+    "exemple_pular": "Ko e asewe peera on waɗetee.",
+    "exemple_francais": "C'est le samedi que le mariage aura lieu.",
+    "phonetique": "pé-ra",
+    "categorie": "ceremonies"
+  },
+  {
+    "id": 172,
+    "pular": "teŋe",
+    "francais": "dot / cadeau de mariage",
+    "exemple_pular": "Teŋe makko ko na'i tati e kaŋŋe buy.",
+    "exemple_francais": "Sa dot comprenait trois vaches et beaucoup d'or.",
+    "phonetique": "té-ŋé",
+    "categorie": "ceremonies"
+  },
+  {
+    "id": 173,
+    "pular": "kaŋŋe",
+    "francais": "or",
+    "exemple_pular": "Jawe labaaɓe kuliraaɗe kaŋŋe.",
+    "exemple_francais": "Des bracelets plaqués or.",
+    "phonetique": "kan-né",
+    "categorie": "materiaux_precieux"
+  },
+  {
+    "id": 174,
+    "pular": "suumayee",
+    "francais": "Ramadan (mois de jeûne)",
+    "exemple_pular": "Suumayee woɗɗaa hannde kadi.",
+    "exemple_francais": "Le Ramadan n'est plus du tout éloigné.",
+    "phonetique": "sou-ma-yé",
+    "categorie": "religion"
+  },
+  {
+    "id": 175,
+    "pular": "juldaandu",
+    "francais": "Aïd / fête de fin du Ramadan",
+    "exemple_pular": "Yo Alla tawnu en juldaandu e jam!",
+    "exemple_francais": "Que Dieu nous trouve à l'Aïd en paix !",
+    "phonetique": "jul-dan-dou",
+    "categorie": "religion"
+  },
+  {
+    "id": 176,
+    "pular": "Alla",
+    "francais": "Dieu (Allah)",
+    "exemple_pular": "Yo Alla welnoy laawol.",
+    "exemple_francais": "Que Dieu rende votre chemin agréable.",
+    "phonetique": "al-la",
+    "categorie": "religion"
+  },
+  {
+    "id": 177,
+    "pular": "juulugol",
+    "francais": "prier / faire la prière islamique",
+    "exemple_pular": "Si juma on juulaama en hollitay jamaa on.",
+    "exemple_francais": "Après la prière du vendredi, nous informerons tout le monde.",
+    "phonetique": "djou-lou-gol",
+    "categorie": "religion"
+  },
+  {
+    "id": 178,
+    "pular": "fanaa",
+    "francais": "prière de la mi-journée / repère temporel (~14h)",
+    "exemple_pular": "Ar ka fanaa.",
+    "exemple_francais": "Viens vers la prière de midi.",
+    "phonetique": "fa-na",
+    "categorie": "religion"
+  },
+  {
+    "id": 179,
+    "pular": "jamaa",
+    "francais": "communauté / assemblée / tout le monde",
+    "exemple_pular": "En hollitay jamaa on fow.",
+    "exemple_francais": "Nous informerons toute la communauté.",
+    "phonetique": "dja-ma",
+    "categorie": "vie_sociale"
+  },
+  {
+    "id": 180,
+    "pular": "senndangol",
+    "francais": "partager (entre plusieurs personnes)",
+    "exemple_pular": "Alahajji Bah on senndirii nunɗal?",
+    "exemple_francais": "Elhadj Bah, avez-vous partagé équitablement ?",
+    "phonetique": "sen-dan-gol",
+    "categorie": "valeurs_culturelles"
+  }
+],
+[
+  {
+    "id": 181,
+    "pular": "leydi",
+    "francais": "terre / sol / pays",
+    "exemple_pular": "Ko o remoowo, himo golla ka leydi.",
+    "exemple_francais": "Il est paysan, il travaille la terre.",
+    "phonetique": "léy-di",
+    "categorie": "nature"
+  },
+  {
+    "id": 182,
+    "pular": "caangol",
+    "francais": "fleuve / rivière",
+    "exemple_pular": "Wallindiren no pon mahiree ka Dombelewol.",
+    "exemple_francais": "Aidons-nous à construire un pont sur le fleuve Dombele.",
+    "phonetique": "can-gol",
+    "categorie": "nature"
+  },
+  {
+    "id": 183,
+    "pular": "lekki",
+    "francais": "arbre / bois",
+    "exemple_pular": "Leɗɗe no heewi ka ataliyee maɓɓe.",
+    "exemple_francais": "Il y a beaucoup d'arbres dans leur atelier.",
+    "phonetique": "lek-ki (pluriel: leɗɗe)",
+    "categorie": "nature"
+  },
+  {
+    "id": 184,
+    "pular": "kammu",
+    "francais": "ciel",
+    "exemple_pular": "Miɗo sutii koodoy jeeɗiɗi ka kammu.",
+    "exemple_francais": "Je vois sept étoiles dans le ciel.",
+    "phonetique": "kam-mou",
+    "categorie": "nature"
+  },
+  {
+    "id": 185,
+    "pular": "naange",
+    "francais": "soleil",
+    "exemple_pular": "Si naange ngen wulii.",
+    "exemple_francais": "Quand le soleil chauffe.",
+    "phonetique": "nan-gué",
+    "categorie": "nature"
+  },
+  {
+    "id": 186,
+    "pular": "henndu",
+    "francais": "vent / air",
+    "exemple_pular": "Henndu no weli.",
+    "exemple_francais": "Le vent est agréable.",
+    "phonetique": "hen-ndou",
+    "categorie": "nature"
+  },
+  {
+    "id": 187,
+    "pular": "ƴiiƴan",
+    "francais": "sang",
+    "exemple_pular": "Ƴiiƴan ko moƴƴal nguurndam.",
+    "exemple_francais": "Le sang est le fondement de la vie.",
+    "phonetique": "ƴi-ƴan",
+    "categorie": "corps_humain"
+  },
+  {
+    "id": 188,
+    "pular": "ɗaɗol",
+    "francais": "racine",
+    "exemple_pular": "Ɗaɗi lekki ngal no nduuɗi.",
+    "exemple_francais": "Les racines de cet arbre sont nombreuses.",
+    "phonetique": "ɗa-ɗol (pluriel: ɗaɗi)",
+    "categorie": "nature"
+  },
+  {
+    "id": 189,
+    "pular": "Leydi Lagine",
+    "francais": "le pays de Guinée / la Guinée",
+    "exemple_pular": "Muttaaru no yehi Lagine.",
+    "exemple_francais": "Mouctar est allé en Guinée.",
+    "phonetique": "léy-di la-gi-né",
+    "categorie": "lieux"
+  },
+  {
+    "id": 190,
+    "pular": "woɗɗugol",
+    "francais": "être loin / s'éloigner",
+    "exemple_pular": "Suumayee woɗɗaa hannde kadi.",
+    "exemple_francais": "Le Ramadan n'est plus loin du tout aujourd'hui.",
+    "phonetique": "woɗ-ɗou-gol",
+    "categorie": "adjectifs"
+  }
+],
+[
+  {
+    "id": 191,
+    "pular": "Ko mo Alla arsiki woo henndotoo",
+    "francais": "C'est Dieu qui donne la chance (proverbe)",
+    "exemple_pular": "Ko goonga. Kono ko mo Alla arsiki woo henndotoo.",
+    "exemple_francais": "C'est vrai. Mais la bonne chance s'attribue par la bénédiction divine.",
+    "phonetique": "ko mo al-la ar-si-ki wo hen-do-to",
+    "categorie": "proverbes"
+  },
+  {
+    "id": 192,
+    "pular": "Ɲalaande ko woɗɗunde woodi, nde hewtataa alaa",
+    "francais": "Il n'existe pas de jour si éloigné qu'il ne puisse arriver (proverbe)",
+    "exemple_pular": "Ɲalaande ko woɗɗunde woodi, nde hewtataa alaa.",
+    "exemple_francais": "Il n'existe pas de jour si éloigné qu'il ne puisse arriver.",
+    "phonetique": "ɲa-lan-dé ko woɗ-ɗun-dé wo-di ndé hew-ta-ta a-la",
+    "categorie": "proverbes"
+  },
+  {
+    "id": 193,
+    "pular": "No fota ter!",
+    "francais": "C'est tout à fait équitable ! / C'est parfaitement juste !",
+    "exemple_pular": "Senngo bee sappo. No fota ter!",
+    "exemple_francais": "Chaque côté dix. C'est tout à fait équitable !",
+    "phonetique": "no fo-ta tèr",
+    "categorie": "expressions_courantes"
+  },
+  {
+    "id": 194,
+    "pular": "Fowtere no gaɗa yanngi",
+    "francais": "Le repos vient après la fatigue (proverbe)",
+    "exemple_pular": "Fowtere no gaɗa yanngi.",
+    "exemple_francais": "Le repos vient après la fatigue.",
+    "phonetique": "fow-té-ré no ga-ɗa yan-ngi",
+    "categorie": "proverbes"
+  },
+  {
+    "id": 195,
+    "pular": "Miɗo faalaa + infinitif",
+    "francais": "Je veux / je voudrais + infinitif",
+    "exemple_pular": "Miɗo faalaa janngude pular, gollude ka Lagine, e hoɗude ka Conakry.",
+    "exemple_francais": "Je veux apprendre le Pular, travailler en Guinée et habiter à Conakry.",
+    "phonetique": "mi-ɗo fa-la",
+    "categorie": "structures_grammaticales"
+  },
+  {
+    "id": 196,
+    "pular": "Hecci... / Faɗɗi...",
+    "francais": "avant (passé) / après (futur) - références temporelles",
+    "exemple_pular": "Hecci hanki mi arii. Faɗɗi janngo mi aranay.",
+    "exemple_francais": "Avant-hier je suis venu. Après-demain je viendrai.",
+    "phonetique": "hec-ci / fa-ɗɗi",
+    "categorie": "structures_grammaticales"
+  },
+  {
+    "id": 197,
+    "pular": "Ko mi + profession + mi golla ka + lieu",
+    "francais": "Je suis + profession + je travaille à + lieu",
+    "exemple_pular": "Ko mi jannoowo, mi golla ka lekkol Conakry.",
+    "exemple_francais": "Je suis enseignant, je travaille à l'école de Conakry.",
+    "phonetique": "ko mi / mi gol-la ka",
+    "categorie": "structures_grammaticales"
+  },
+  {
+    "id": 198,
+    "pular": "Hiɗa anndi...?",
+    "francais": "Sais-tu... ?",
+    "exemple_pular": "Hiɗa anndi ko honto njula paɗe'en woni?",
+    "exemple_francais": "Sais-tu où sont les vendeurs de chaussures ?",
+    "phonetique": "hi-ɗa and-di",
+    "categorie": "interrogatifs"
+  },
+  {
+    "id": 199,
+    "pular": "Yo Alla + subjonctif",
+    "francais": "Que Dieu + souhait (formule de bénédiction)",
+    "exemple_pular": "Yo Alla sellina en fow. Yo Alla tawnu en e jam.",
+    "exemple_francais": "Que Dieu nous garde tous en bonne santé. Que Dieu nous trouve en paix.",
+    "phonetique": "yo al-la",
+    "categorie": "formules_benediction"
+  },
+  {
+    "id": 200,
+    "pular": "Maa mi + subjonctif",
+    "francais": "Je dois + infinitif (obligation)",
+    "exemple_pular": "Maa mi dawa immaade. Maa mi lootoo. Maa mi yaade ka lekkol.",
+    "exemple_francais": "Je dois me lever tôt. Je dois me doucher. Je dois aller à l'école.",
+    "phonetique": "ma mi",
+    "categorie": "structures_grammaticales"
+  }
+]
+]

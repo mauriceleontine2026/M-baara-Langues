@@ -1,0 +1,1710 @@
+{
+  "framework": {
+    "name": "Vite",
+    "slug": "vite"
+  },
+  "basePath": "C:\\Users\\mauri\\Desktop\\Mes Applications\\M'baara",
+  "fileCount": 239,
+  "totalSize": 159836534,
+  "ignoredCount": 23,
+  "ignored": [
+    ".env.local",
+    ".git",
+    ".gitignore",
+    ".venv",
+    ".vercel",
+    "android",
+    "backend\\__pycache__",
+    "backend\\app\\__pycache__",
+    "backend\\app\\models\\__pycache__",
+    "backend\\app\\routers\\__pycache__",
+    "backend\\app\\services\\__pycache__",
+    "backend\\backend-err.log",
+    "backend\\backend-out.log",
+    "firebase.json",
+    "ios",
+    "localtunnel.log",
+    "mobile",
+    "node_modules",
+    "render-cli",
+    "render-cli.zip",
+    "render.yaml",
+    "replit.md"
+  ],
+  "directories": [
+    {
+      "path": "src",
+      "fileCount": 156,
+      "size": 156993504
+    },
+    {
+      "path": "dist",
+      "fileCount": 5,
+      "size": 1718613
+    },
+    {
+      "path": "public",
+      "fileCount": 1,
+      "size": 405682
+    },
+    {
+      "path": "package-lock.json",
+      "fileCount": 1,
+      "size": 403843
+    },
+    {
+      "path": "vercel-backend-logs.json",
+      "fileCount": 1,
+      "size": 116196
+    },
+    {
+      "path": "mbaara.db",
+      "fileCount": 1,
+      "size": 94208
+    },
+    {
+      "path": "backend",
+      "fileCount": 38,
+      "size": 63418
+    },
+    {
+      "path": "scripts",
+      "fileCount": 5,
+      "size": 10634
+    },
+    {
+      "path": "response.json",
+      "fileCount": 1,
+      "size": 6428
+    },
+    {
+      "path": "README.md",
+      "fileCount": 1,
+      "size": 4273
+    },
+    {
+      "path": "package.json",
+      "fileCount": 1,
+      "size": 4013
+    },
+    {
+      "path": "trace.txt",
+      "fileCount": 1,
+      "size": 2952
+    },
+    {
+      "path": "tailwind.config.js",
+      "fileCount": 1,
+      "size": 2693
+    },
+    {
+      "path": "eslint.config.js",
+      "fileCount": 1,
+      "size": 1638
+    },
+    {
+      "path": "index.html",
+      "fileCount": 1,
+      "size": 1193
+    },
+    {
+      "path": "api",
+      "fileCount": 3,
+      "size": 1041
+    },
+    {
+      "path": ".env.example",
+      "fileCount": 1,
+      "size": 865
+    },
+    {
+      "path": "vite.config.js",
+      "fileCount": 1,
+      "size": 768
+    },
+    {
+      "path": ".env.local.example",
+      "fileCount": 1,
+      "size": 672
+    },
+    {
+      "path": "AGENTS.md",
+      "fileCount": 1,
+      "size": 659
+    },
+    {
+      "path": "jsconfig.json",
+      "fileCount": 1,
+      "size": 603
+    },
+    {
+      "path": ".firebase",
+      "fileCount": 1,
+      "size": 491
+    },
+    {
+      "path": "components.json",
+      "fileCount": 1,
+      "size": 464
+    },
+    {
+      "path": "vercel.json",
+      "fileCount": 1,
+      "size": 301
+    },
+    {
+      "path": "requirements.txt",
+      "fileCount": 1,
+      "size": 250
+    },
+    {
+      "path": ".env.production",
+      "fileCount": 1,
+      "size": 207
+    },
+    {
+      "path": "start.sh",
+      "fileCount": 1,
+      "size": 187
+    },
+    {
+      "path": ".vercelignore",
+      "fileCount": 1,
+      "size": 185
+    },
+    {
+      "path": "capacitor.config.ts",
+      "fileCount": 1,
+      "size": 182
+    },
+    {
+      "path": "dry.err",
+      "fileCount": 1,
+      "size": 121
+    },
+    {
+      "path": "postcss.config.js",
+      "fileCount": 1,
+      "size": 86
+    },
+    {
+      "path": ".firebaserc",
+      "fileCount": 1,
+      "size": 62
+    },
+    {
+      "path": "CLAUDE.md",
+      "fileCount": 1,
+      "size": 60
+    },
+    {
+      "path": ".replit",
+      "fileCount": 1,
+      "size": 42
+    },
+    {
+      "path": "assets",
+      "fileCount": 1,
+      "size": 0
+    },
+    {
+      "path": "dry.json",
+      "fileCount": 1,
+      "size": 0
+    },
+    {
+      "path": "vercel-version.txt",
+      "fileCount": 1,
+      "size": 0
+    }
+  ],
+  "largestFiles": [
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire-Mooré (Burkina Faso).pdf",
+      "size": 30561271,
+      "mode": 33206,
+      "sha": "fafc5a5c11d1277707388036f5d1599e1dea8014"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire-Fulfulde (Burkina Faso).pdf",
+      "size": 26002569,
+      "mode": 33206,
+      "sha": "a2ddcb802ae1488b4a2a8a717b7445b715d08138"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Wolof (Sénégal).pdf",
+      "size": 20291453,
+      "mode": 33206,
+      "sha": "f3911180ae22461fe3420ccf4a470e8ee878ede5"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Dioula (Burkina Faso).pdf",
+      "size": 18770654,
+      "mode": 33206,
+      "sha": "424cceb8c2d2212f8d0d29c26087d79e4b152785"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Toma (Loma) (Guinée).pdf",
+      "size": 14855564,
+      "mode": 33206,
+      "sha": "db14adad4f3701a24f4d692a0a1dec52e4c22703"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Malinké (Guinée).pdf",
+      "size": 13255402,
+      "mode": 33206,
+      "sha": "041f99fda6fbb1dd286dc484ab859c737a4e6763"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Kissi (Kisi) (Guinée).pdf",
+      "size": 12291725,
+      "mode": 33206,
+      "sha": "22c7ce40b8b7e560a946aff9811bd683d19de284"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Soso (Soussou) (Guinée).pdf",
+      "size": 7527483,
+      "mode": 33206,
+      "sha": "b42bb8fe37f9f71f6098312615a8b93104477a39"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Pulaar (Poular ou Pular) (Guinée).pdf",
+      "size": 5973102,
+      "mode": 33206,
+      "sha": "d248555014be89b5417e6a23019070bbcab978af"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Bissa (Burkina Faso).pdf",
+      "size": 3798549,
+      "mode": 33206,
+      "sha": "4ed8cb7db7c6c498a160979a5b4983b823acb6f4"
+    }
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "size": 865,
+      "mode": 33206,
+      "sha": "79157ff1b26b6d804659e619c19678a83e07f7a7"
+    },
+    {
+      "path": ".env.local.example",
+      "size": 672,
+      "mode": 33206,
+      "sha": "de3300b7dfb7db325b4835b2c1b4b8850cb14ceb"
+    },
+    {
+      "path": ".env.production",
+      "size": 207,
+      "mode": 33206,
+      "sha": "94a85dbd139de4f21d6f6505fd6be0f30813663f"
+    },
+    {
+      "path": ".firebase/hosting.ZGlzdA.cache",
+      "size": 491,
+      "mode": 33206,
+      "sha": "50a8e397332abed0a9257d6281b80557738b4e6f"
+    },
+    {
+      "path": ".firebaserc",
+      "size": 62,
+      "mode": 33206,
+      "sha": "cd4d6d27b1356791bdc4614bd54061bf488bd563"
+    },
+    {
+      "path": ".replit",
+      "size": 42,
+      "mode": 33206,
+      "sha": "cffd43b5d69704a58d01f9621fc174d37d5c43ed"
+    },
+    {
+      "path": ".vercelignore",
+      "size": 185,
+      "mode": 33206,
+      "sha": "5da43ec3dca9ab2cdfee5fcd9305efdfa8ee2a99"
+    },
+    {
+      "path": "AGENTS.md",
+      "size": 659,
+      "mode": 33206,
+      "sha": "83f149147f8f2b98dc4364032d8bc9254a78922f"
+    },
+    {
+      "path": "api/[...slug].py",
+      "size": 380,
+      "mode": 33206,
+      "sha": "05f8f1b9b86c62e741454321990af769e8be9d2d"
+    },
+    {
+      "path": "api/index.py",
+      "size": 411,
+      "mode": 33206,
+      "sha": "a3cc369457e6a63d3165addac07e75cf2dc98b59"
+    },
+    {
+      "path": "api/requirements.txt",
+      "size": 250,
+      "mode": 33206,
+      "sha": "f090b6d5f6943d7daa09e4f40a9d2f5718ddce46"
+    },
+    {
+      "path": "assets",
+      "size": 0,
+      "mode": 16822
+    },
+    {
+      "path": "backend/__init__.py",
+      "size": 44,
+      "mode": 33206,
+      "sha": "13856de8ffa4dce7f78402394e25d4d3b9694ee0"
+    },
+    {
+      "path": "backend/.env",
+      "size": 75,
+      "mode": 33206,
+      "sha": "bf4e035334536f578ce1f698e42fe86fd8505a56"
+    },
+    {
+      "path": "backend/app/__init__.py",
+      "size": 48,
+      "mode": 33206,
+      "sha": "4a5c978b195c07ea2a311142915499820285a65d"
+    },
+    {
+      "path": "backend/app/database.py",
+      "size": 2262,
+      "mode": 33206,
+      "sha": "c1a7249301c579b6613d74742f9a81784014655f"
+    },
+    {
+      "path": "backend/app/main.py",
+      "size": 1645,
+      "mode": 33206,
+      "sha": "0e9f5890dc5893e394cee7b46904c8b0c5ddb82a"
+    },
+    {
+      "path": "backend/app/models/__init__.py",
+      "size": 294,
+      "mode": 33206,
+      "sha": "e59fcd61dfcf4a00a1bdb7435ca4fdec039b8094"
+    },
+    {
+      "path": "backend/app/models/contribution.py",
+      "size": 852,
+      "mode": 33206,
+      "sha": "3c3901449c77e6e45f65921425d754399be02ce9"
+    },
+    {
+      "path": "backend/app/models/language.py",
+      "size": 824,
+      "mode": 33206,
+      "sha": "28e249bcc9c3a414d0ca5b84e3942430232f5156"
+    },
+    {
+      "path": "backend/app/models/lesson.py",
+      "size": 609,
+      "mode": 33206,
+      "sha": "453ed213b966ef3ddf920b26b5c1741ba4ffcb33"
+    },
+    {
+      "path": "backend/app/models/progress.py",
+      "size": 613,
+      "mode": 33206,
+      "sha": "43cc02d01f76847020fc916d177260222966029a"
+    },
+    {
+      "path": "backend/app/models/user.py",
+      "size": 573,
+      "mode": 33206,
+      "sha": "7e77d5b776e41934409cc7cd3b5f64226c25fe9a"
+    },
+    {
+      "path": "backend/app/models/vocabulary.py",
+      "size": 800,
+      "mode": 33206,
+      "sha": "788a8525c585160a445a2ce23954e4f1d2670e46"
+    },
+    {
+      "path": "backend/app/routers/__init__.py",
+      "size": 446,
+      "mode": 33206,
+      "sha": "403925b31687ffa985769ee8cb2f111ddb3cb5e7"
+    },
+    {
+      "path": "backend/app/routers/ai.py",
+      "size": 2147,
+      "mode": 33206,
+      "sha": "8aa67d49e54819c2e9d814f5b93526fdf015e6c2"
+    },
+    {
+      "path": "backend/app/routers/audio.py",
+      "size": 3964,
+      "mode": 33206,
+      "sha": "0adc7f9419456ba387a78d3a6d5827bcda3b558e"
+    },
+    {
+      "path": "backend/app/routers/auth.py",
+      "size": 7282,
+      "mode": 33206,
+      "sha": "60dd1bc96055359a22bfb1ea82fee183b387b5bd"
+    },
+    {
+      "path": "backend/app/routers/contributions.py",
+      "size": 4335,
+      "mode": 33206,
+      "sha": "f5e59e3c8c9381d104e3ff04da1bea978046e7e1"
+    },
+    {
+      "path": "backend/app/routers/health.py",
+      "size": 131,
+      "mode": 33206,
+      "sha": "afb45a0d9bf5308ce02c0e588d0b949ca3e2d2a4"
+    },
+    {
+      "path": "backend/app/routers/languages.py",
+      "size": 3288,
+      "mode": 33206,
+      "sha": "28c84911381ffdac4941bdd3b75e7cb01a276b40"
+    },
+    {
+      "path": "backend/app/routers/leaderboard.py",
+      "size": 1793,
+      "mode": 33206,
+      "sha": "864c766a091f98b9d784a6aff87e7db08312dbb8"
+    },
+    {
+      "path": "backend/app/routers/lessons.py",
+      "size": 5404,
+      "mode": 33206,
+      "sha": "6d3c7b8a350561bed862690d621b7e1787aca764"
+    },
+    {
+      "path": "backend/app/routers/progress.py",
+      "size": 2513,
+      "mode": 33206,
+      "sha": "e5e8d66c06382d92d332e3e23e170b3b61a810d4"
+    },
+    {
+      "path": "backend/app/routers/users.py",
+      "size": 1872,
+      "mode": 33206,
+      "sha": "c11a2fe5c32e107cf8e5a6ed72035b5b2f8249d0"
+    },
+    {
+      "path": "backend/app/routers/vocabulary.py",
+      "size": 4235,
+      "mode": 33206,
+      "sha": "73e04fcfce7cd06148e15c9439aee1566b73780d"
+    },
+    {
+      "path": "backend/app/services/security.py",
+      "size": 3858,
+      "mode": 33206,
+      "sha": "bee3452c85a7f3692634131b1f37f3c0ddb8cbcd"
+    },
+    {
+      "path": "backend/app/static/audio",
+      "size": 0,
+      "mode": 16822
+    },
+    {
+      "path": "backend/docker-compose.deploy.yml",
+      "size": 313,
+      "mode": 33206,
+      "sha": "0284907d776db44129af8f57c5bdf929d16ea4d5"
+    },
+    {
+      "path": "backend/docker-compose.yml",
+      "size": 311,
+      "mode": 33206,
+      "sha": "c488bc9ea883e37d2bdc3858b9061422970b1a7a"
+    },
+    {
+      "path": "backend/Dockerfile",
+      "size": 399,
+      "mode": 33206,
+      "sha": "4f65d0b37fb232a97e46645f1230cbe05a9c92e8"
+    },
+    {
+      "path": "backend/README_AUDIO.md",
+      "size": 2877,
+      "mode": 33206,
+      "sha": "5d185b91b871ecdc9986c8b5c557083bf14b6a0f"
+    },
+    {
+      "path": "backend/README_SETUP.md",
+      "size": 940,
+      "mode": 33206,
+      "sha": "22f68f81e90213e74cf205174d15751be8398a79"
+    },
+    {
+      "path": "backend/README.md",
+      "size": 1223,
+      "mode": 33206,
+      "sha": "4b80105896ac01d5cc1c9fef20ace5027f8dd591"
+    },
+    {
+      "path": "backend/requirements.txt",
+      "size": 250,
+      "mode": 33206,
+      "sha": "f090b6d5f6943d7daa09e4f40a9d2f5718ddce46"
+    },
+    {
+      "path": "backend/scripts/create_tables.py",
+      "size": 326,
+      "mode": 33206,
+      "sha": "2a9846a278e1bf59d6f420ea620c7b5e1d853038"
+    },
+    {
+      "path": "backend/scripts/install_audio_windows.ps1",
+      "size": 687,
+      "mode": 33206,
+      "sha": "c71bee8afbb3a2d084335e347a8722f99c6ccadf"
+    },
+    {
+      "path": "backend/start.sh",
+      "size": 151,
+      "mode": 33206,
+      "sha": "6007aa5975eb936126e0cc3fb30a7f5387379672"
+    },
+    {
+      "path": "backend/static",
+      "size": 0,
+      "mode": 16822
+    },
+    {
+      "path": "capacitor.config.ts",
+      "size": 182,
+      "mode": 33206,
+      "sha": "ebd27261392012e37074049423da5489512d4307"
+    },
+    {
+      "path": "CLAUDE.md",
+      "size": 60,
+      "mode": 33206,
+      "sha": "59d61776e49a6c24cf984ce8f6bbc6f47328d4fc"
+    },
+    {
+      "path": "components.json",
+      "size": 464,
+      "mode": 33206,
+      "sha": "cf3cf29ba01c265033cdee2ae5db2606c3dbb8aa"
+    },
+    {
+      "path": "dist/assets/index-DTuct7KG.js",
+      "size": 822208,
+      "mode": 33206,
+      "sha": "a28f724ffe452d39d91a4aa572e2a0335486366c"
+    },
+    {
+      "path": "dist/assets/index-Pk9-SpJS.css",
+      "size": 83736,
+      "mode": 33206,
+      "sha": "43658fa0f77609fcddedc638b4a0eb20ecaaec62"
+    },
+    {
+      "path": "dist/assets/logo-CkQ0Ukmc.png",
+      "size": 405682,
+      "mode": 33206,
+      "sha": "e0a4a13bc144371e84badeb9e641cd16046f0993"
+    },
+    {
+      "path": "dist/index.html",
+      "size": 1305,
+      "mode": 33206,
+      "sha": "2ffaad72581c6c681cfb4b50ee83dbef92fa0ccf"
+    },
+    {
+      "path": "dist/logo.png",
+      "size": 405682,
+      "mode": 33206,
+      "sha": "e0a4a13bc144371e84badeb9e641cd16046f0993"
+    },
+    {
+      "path": "dry.err",
+      "size": 121,
+      "mode": 33206,
+      "sha": "26e0617faf4985ca68b44574847af2b0e6574b97"
+    },
+    {
+      "path": "dry.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "eslint.config.js",
+      "size": 1638,
+      "mode": 33206,
+      "sha": "bab3efc270e1566a6f7acd0fccfdd86c9c879fa2"
+    },
+    {
+      "path": "index.html",
+      "size": 1193,
+      "mode": 33206,
+      "sha": "f2574f5ddd1e943501ea0a1076a5f5b53de06544"
+    },
+    {
+      "path": "jsconfig.json",
+      "size": 603,
+      "mode": 33206,
+      "sha": "8901761906cc3e8b1e27d641ac94fd4b1cc03b9d"
+    },
+    {
+      "path": "mbaara.db",
+      "size": 94208,
+      "mode": 33206,
+      "sha": "a59a2df4872065932c11d360d70dd1db0f434555"
+    },
+    {
+      "path": "package-lock.json",
+      "size": 403843,
+      "mode": 33206,
+      "sha": "176cdb3b8886a55b9ec943a439bdd2c2babbbd92"
+    },
+    {
+      "path": "package.json",
+      "size": 4013,
+      "mode": 33206,
+      "sha": "e7abdaded34841248bb3f3bfd48aa0a52575a221"
+    },
+    {
+      "path": "postcss.config.js",
+      "size": 86,
+      "mode": 33206,
+      "sha": "d81f6023fc07196029b1c879d8e04502d9b33f2f"
+    },
+    {
+      "path": "public/logo.png",
+      "size": 405682,
+      "mode": 33206,
+      "sha": "e0a4a13bc144371e84badeb9e641cd16046f0993"
+    },
+    {
+      "path": "README.md",
+      "size": 4273,
+      "mode": 33206,
+      "sha": "64038a1e731a7465b9b8ea08322f26a00876fb91"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 250,
+      "mode": 33206,
+      "sha": "f090b6d5f6943d7daa09e4f40a9d2f5718ddce46"
+    },
+    {
+      "path": "response.json",
+      "size": 6428,
+      "mode": 33206,
+      "sha": "7260229a6eb570e3b9d46464ab9ff6208a3a7287"
+    },
+    {
+      "path": "scripts/README.md",
+      "size": 706,
+      "mode": 33206,
+      "sha": "37cabf9971300a07a31f365d9746dfd008391d1d"
+    },
+    {
+      "path": "scripts/set-firebase-admin.cjs",
+      "size": 2968,
+      "mode": 33206,
+      "sha": "2748e4afc5bda095d4929f93d5744e10a6a31982"
+    },
+    {
+      "path": "scripts/set-firebase-admin.js",
+      "size": 2499,
+      "mode": 33206,
+      "sha": "e9cf24c032e3746ea8348e7bca008bf65701c99b"
+    },
+    {
+      "path": "scripts/tmp-create-firestore-collections.cjs",
+      "size": 2243,
+      "mode": 33206,
+      "sha": "890e005b1754c615fb281598bd278f8ad906a16c"
+    },
+    {
+      "path": "scripts/tmp-create-firestore-collections.mjs",
+      "size": 2218,
+      "mode": 33206,
+      "sha": "7ecc362bca5fc1ee7bfd1472eb740d2ec389d84d"
+    },
+    {
+      "path": "src/api/aiService.js",
+      "size": 272,
+      "mode": 33206,
+      "sha": "012ad6aab2ec65637f7a3a8a059b16ba937d8a87"
+    },
+    {
+      "path": "src/api/authService.js",
+      "size": 1460,
+      "mode": 33206,
+      "sha": "34332596a87ad735af60efb73454666a02805141"
+    },
+    {
+      "path": "src/api/backendClient.js",
+      "size": 2358,
+      "mode": 33206,
+      "sha": "afd7cc45084cd44b7f081fc5158147fb5713f44d"
+    },
+    {
+      "path": "src/api/contributionService.js",
+      "size": 419,
+      "mode": 33206,
+      "sha": "32dc7327ea05e96c1ccdef90dc4cf07d8b89fa64"
+    },
+    {
+      "path": "src/api/firebaseClient.js",
+      "size": 3306,
+      "mode": 33206,
+      "sha": "7c7a46f517e8438ebbdb279cec8667118f34c2f9"
+    },
+    {
+      "path": "src/api/firebaseFirestore.js",
+      "size": 4607,
+      "mode": 33206,
+      "sha": "8b4f12b7132eac74a43200b02240038e73077600"
+    },
+    {
+      "path": "src/api/languageService.js",
+      "size": 2971,
+      "mode": 33206,
+      "sha": "5a154548c38ff721dde2f1825b046ba2ee1e1042"
+    },
+    {
+      "path": "src/api/languageService.test.js",
+      "size": 1292,
+      "mode": 33206,
+      "sha": "21b4a19225d3c648957c074b163fdb3b550f425f"
+    },
+    {
+      "path": "src/api/leaderboardService.js",
+      "size": 143,
+      "mode": 33206,
+      "sha": "644998a3651634a10ff53b317c3f1ad50c4514ab"
+    },
+    {
+      "path": "src/api/progressService.js",
+      "size": 250,
+      "mode": 33206,
+      "sha": "8a32b6d3845bafbb13cc4cf37eac19edea97642c"
+    },
+    {
+      "path": "src/api/uploadService.js",
+      "size": 225,
+      "mode": 33206,
+      "sha": "b80e75dd23c2eb03d36303d4a8dddacd03100962"
+    },
+    {
+      "path": "src/api/userService.js",
+      "size": 245,
+      "mode": 33206,
+      "sha": "bcbb75991f83e7d089dba5f70becdaa64eb09eea"
+    },
+    {
+      "path": "src/App.jsx",
+      "size": 4444,
+      "mode": 33206,
+      "sha": "0ba5fc1b3f44db0df4f5a67b3a509e9533b8fb51"
+    },
+    {
+      "path": "src/components/admin/AdminAIGenerator.jsx",
+      "size": 14323,
+      "mode": 33206,
+      "sha": "7ba9b360dee1424abc19c872381798587d919a17"
+    },
+    {
+      "path": "src/components/admin/AdminContributions.jsx",
+      "size": 4762,
+      "mode": 33206,
+      "sha": "0d6210846bfed4b714aced3ea67c66c21794d883"
+    },
+    {
+      "path": "src/components/admin/AdminLessons.jsx",
+      "size": 6060,
+      "mode": 33206,
+      "sha": "49d2bcc4cf5cb69db8b4c5559bab03b7a7df2fa4"
+    },
+    {
+      "path": "src/components/admin/AdminUsers.jsx",
+      "size": 3857,
+      "mode": 33206,
+      "sha": "f49b5d3516701101728dc1d3934d9f9d0b8b1433"
+    },
+    {
+      "path": "src/components/admin/AdminVocabulary.jsx",
+      "size": 10506,
+      "mode": 33206,
+      "sha": "94ea4292587bbd6df13f7385ce4afdad3a654a9a"
+    },
+    {
+      "path": "src/components/AppLayout.jsx",
+      "size": 1835,
+      "mode": 33206,
+      "sha": "fd2fd49fd8abe4d71cb1cdfd1befa85e046a34e8"
+    },
+    {
+      "path": "src/components/AuthLayout.jsx",
+      "size": 978,
+      "mode": 33206,
+      "sha": "226925da575930a7e09aaa8c9bb10ecf45745ec5"
+    },
+    {
+      "path": "src/components/AuthSplitPanel.jsx",
+      "size": 12470,
+      "mode": 33206,
+      "sha": "868739c3b2669a5ab3133b4ef44461dc177d825f"
+    },
+    {
+      "path": "src/components/contribute/AudioVisualizer.jsx",
+      "size": 2135,
+      "mode": 33206,
+      "sha": "cb0df55e0097e937d69971237c26563b0074634f"
+    },
+    {
+      "path": "src/components/GoogleIcon.jsx",
+      "size": 845,
+      "mode": 33206,
+      "sha": "82b09af7c1199062a9f7297e4ea95dc7c325c19d"
+    },
+    {
+      "path": "src/components/ProtectedRoute.jsx",
+      "size": 1208,
+      "mode": 33206,
+      "sha": "89f3e9c4a8179dfd69b69ba786ad3cdb8b050133"
+    },
+    {
+      "path": "src/components/ScrollToTop.jsx",
+      "size": 838,
+      "mode": 33206,
+      "sha": "738d1a1ba138a6fab0afed9a7bf0529981f1f1e6"
+    },
+    {
+      "path": "src/components/Sidebar.jsx",
+      "size": 5119,
+      "mode": 33206,
+      "sha": "204c6725fa47a256db21cb3a96c391959a7c882a"
+    },
+    {
+      "path": "src/components/ui/accordion.jsx",
+      "size": 1656,
+      "mode": 33206,
+      "sha": "b739ae219f4cbca27c70cba1ff7a8f0a8d0b33ee"
+    },
+    {
+      "path": "src/components/ui/alert-dialog.jsx",
+      "size": 3558,
+      "mode": 33206,
+      "sha": "790d02a6a3b04d4c5e6745733eb4b7da282b338b"
+    },
+    {
+      "path": "src/components/ui/alert.jsx",
+      "size": 1382,
+      "mode": 33206,
+      "sha": "7449826e9f8fe69b430c613c7d45b168735c4c86"
+    },
+    {
+      "path": "src/components/ui/aspect-ratio.jsx",
+      "size": 145,
+      "mode": 33206,
+      "sha": "f21529a010100ec900e04fd692fdbde2be6d3e9c"
+    },
+    {
+      "path": "src/components/ui/avatar.jsx",
+      "size": 1078,
+      "mode": 33206,
+      "sha": "7daee9abc7ccc1dd6f864ede73bd3e7721c0806b"
+    },
+    {
+      "path": "src/components/ui/badge.jsx",
+      "size": 1024,
+      "mode": 33206,
+      "sha": "c9eefc142dd435631541c3137a5039a1bcd8828b"
+    },
+    {
+      "path": "src/components/ui/breadcrumb.jsx",
+      "size": 2363,
+      "mode": 33206,
+      "sha": "4a532ec589cc7e693ec678ae30ce4a79243bb206"
+    },
+    {
+      "path": "src/components/ui/button.jsx",
+      "size": 1727,
+      "mode": 33206,
+      "sha": "21d5e0367e6dcf0756bb35a4ad4fd0dd746a75e0"
+    },
+    {
+      "path": "src/components/ui/calendar.jsx",
+      "size": 2922,
+      "mode": 33206,
+      "sha": "9a46773c61efcae64fcddd1f0af4146bc7e44744"
+    },
+    {
+      "path": "src/components/ui/card.jsx",
+      "size": 1490,
+      "mode": 33206,
+      "sha": "347ebef7ca7ff9abf327ff60facc9b3cbc5f5667"
+    },
+    {
+      "path": "src/components/ui/carousel.jsx",
+      "size": 5014,
+      "mode": 33206,
+      "sha": "845265c0eaf636ba56ffeca153539ae8b0ec6b98"
+    },
+    {
+      "path": "src/components/ui/chart.jsx",
+      "size": 8948,
+      "mode": 33206,
+      "sha": "62df43dbe23ba2e5a9aa05d6e9e0e85ba64a80c3"
+    },
+    {
+      "path": "src/components/ui/checkbox.jsx",
+      "size": 902,
+      "mode": 33206,
+      "sha": "b99f8ad1dc6cd4265046a183461a51169af5ae28"
+    },
+    {
+      "path": "src/components/ui/collapsible.jsx",
+      "size": 340,
+      "mode": 33206,
+      "sha": "38bcc0fc1c12966547e372eb806729045bfc1b13"
+    },
+    {
+      "path": "src/components/ui/command.jsx",
+      "size": 4013,
+      "mode": 33206,
+      "sha": "1eced413af7b41dd7b8e4a2bf68b5e19363afc3d"
+    },
+    {
+      "path": "src/components/ui/context-menu.jsx",
+      "size": 6151,
+      "mode": 33206,
+      "sha": "6fe1165064fcc15bb798fd3230ecbb8b8e68dc1f"
+    },
+    {
+      "path": "src/components/ui/dialog.jsx",
+      "size": 3324,
+      "mode": 33206,
+      "sha": "0e8e4e6f154e19300a7def324b1fd39d351ade3a"
+    },
+    {
+      "path": "src/components/ui/drawer.jsx",
+      "size": 2451,
+      "mode": 33206,
+      "sha": "5774bdec8d1514f157610697a7b52f6ffaaa49c0"
+    },
+    {
+      "path": "src/components/ui/dropdown-menu.jsx",
+      "size": 6313,
+      "mode": 33206,
+      "sha": "e78a80131ae40d42e38418cf088b7ece669d1716"
+    },
+    {
+      "path": "src/components/ui/form.jsx",
+      "size": 3275,
+      "mode": 33206,
+      "sha": "d51ad16cf1f4b887334e9a39fd5d3373095f3627"
+    },
+    {
+      "path": "src/components/ui/hover-card.jsx",
+      "size": 1095,
+      "mode": 33206,
+      "sha": "831ccdadabb8780caeee9676fd9d26387467f360"
+    },
+    {
+      "path": "src/components/ui/image.jsx",
+      "size": 8813,
+      "mode": 33206,
+      "sha": "ebc3ef55ee41312b6877258664828b334e8f69ec"
+    },
+    {
+      "path": "src/components/ui/input-otp.jsx",
+      "size": 1864,
+      "mode": 33206,
+      "sha": "3aeac9e3b6a0b854f0af96f9486166b71479be0d"
+    },
+    {
+      "path": "src/components/ui/input.jsx",
+      "size": 709,
+      "mode": 33206,
+      "sha": "96b243dc9408d3ac3e1457f074bf6233f6b319c2"
+    },
+    {
+      "path": "src/components/ui/label.jsx",
+      "size": 541,
+      "mode": 33206,
+      "sha": "76a92a330bdab85919a43cd8f488924167f8c7dc"
+    },
+    {
+      "path": "src/components/ui/menubar.jsx",
+      "size": 6990,
+      "mode": 33206,
+      "sha": "e9ffdcfd2a023008c07a6c469be6262f7c87d1cb"
+    },
+    {
+      "path": "src/components/ui/navigation-menu.jsx",
+      "size": 4321,
+      "mode": 33206,
+      "sha": "d7e7b7d220f33ec8e0a2c06695acd98d2cc95a33"
+    },
+    {
+      "path": "src/components/ui/pagination.jsx",
+      "size": 2422,
+      "mode": 33206,
+      "sha": "4888397b463bcbf01cd15c84247b2d1416d6e570"
+    },
+    {
+      "path": "src/components/ui/popover.jsx",
+      "size": 1193,
+      "mode": 33206,
+      "sha": "7346d435deb5bb65a913963cc59df16f970e77a9"
+    },
+    {
+      "path": "src/components/ui/progress.jsx",
+      "size": 690,
+      "mode": 33206,
+      "sha": "dff53acd03e927e3224a4ae9cf8f234f9ca935f5"
+    },
+    {
+      "path": "src/components/ui/radio-group.jsx",
+      "size": 1164,
+      "mode": 33206,
+      "sha": "99b3b09d2878a507956d113cfed66bb596a3e28b"
+    },
+    {
+      "path": "src/components/ui/resizable.jsx",
+      "size": 1612,
+      "mode": 33206,
+      "sha": "360e35f26b459742b0fdd02efb638c99c59e496a"
+    },
+    {
+      "path": "src/components/ui/scroll-area.jsx",
+      "size": 1400,
+      "mode": 33206,
+      "sha": "d34bf4924de9a723574e91caa01490651ccdf31e"
+    },
+    {
+      "path": "src/components/ui/select.jsx",
+      "size": 4798,
+      "mode": 33206,
+      "sha": "3714a1e123fd2e39285c84d70363acdc64b8a8ec"
+    },
+    {
+      "path": "src/components/ui/separator.jsx",
+      "size": 623,
+      "mode": 33206,
+      "sha": "751da9d12f5ec5982553cb346dc121af736c9c66"
+    },
+    {
+      "path": "src/components/ui/sheet.jsx",
+      "size": 3658,
+      "mode": 33206,
+      "sha": "90b496a0a187e8162ea0d76b848eba00032a0f7a"
+    },
+    {
+      "path": "src/components/ui/sidebar.jsx",
+      "size": 21269,
+      "mode": 33206,
+      "sha": "ad5961dbf25055b6ab9cc97863b4f3d4bf77b88b"
+    },
+    {
+      "path": "src/components/ui/skeleton.jsx",
+      "size": 241,
+      "mode": 33206,
+      "sha": "7f3a20c9413d97a89b646a90f6afa35fa609d8e7"
+    },
+    {
+      "path": "src/components/ui/slider.jsx",
+      "size": 935,
+      "mode": 33206,
+      "sha": "d589edf230ab507d19e766a9b0f6f37bc0dded81"
+    },
+    {
+      "path": "src/components/ui/sonner.jsx",
+      "size": 828,
+      "mode": 33206,
+      "sha": "57eb5d8837ada19aaebb95f120930c90a3acafcd"
+    },
+    {
+      "path": "src/components/ui/switch.jsx",
+      "size": 1047,
+      "mode": 33206,
+      "sha": "f4b6741f0bfd30380f62654f3c38af2f4b9a1a84"
+    },
+    {
+      "path": "src/components/ui/table.jsx",
+      "size": 2317,
+      "mode": 33206,
+      "sha": "392b1b3b03391613d12b11a42dc8b61fad1d75b3"
+    },
+    {
+      "path": "src/components/ui/tabs.jsx",
+      "size": 1570,
+      "mode": 33206,
+      "sha": "ab4e2cd3517741f2a01209f0e51fcc439d1e5544"
+    },
+    {
+      "path": "src/components/ui/textarea.jsx",
+      "size": 605,
+      "mode": 33206,
+      "sha": "f8d1cfc711f6b149eb2c4a57325280c2368f97b1"
+    },
+    {
+      "path": "src/components/ui/toast.jsx",
+      "size": 3907,
+      "mode": 33206,
+      "sha": "f2a809e5771e8a45274dc971ede9fd2fc489cb59"
+    },
+    {
+      "path": "src/components/ui/toaster.jsx",
+      "size": 817,
+      "mode": 33206,
+      "sha": "953af04d7c06ea984f897a8f001635db6321e196"
+    },
+    {
+      "path": "src/components/ui/toggle-group.jsx",
+      "size": 1328,
+      "mode": 33206,
+      "sha": "2be2a60e2453955c20a51ca376f7d8eae329a3dc"
+    },
+    {
+      "path": "src/components/ui/toggle.jsx",
+      "size": 1348,
+      "mode": 33206,
+      "sha": "1698ab4ae904ea599c734f61edc2ccc7cf4e97b7"
+    },
+    {
+      "path": "src/components/ui/tooltip.jsx",
+      "size": 1119,
+      "mode": 33206,
+      "sha": "c95f75267e2d1386b1605fe81a184aa08a087579"
+    },
+    {
+      "path": "src/components/ui/use-toast.jsx",
+      "size": 3542,
+      "mode": 33206,
+      "sha": "b07181d38d27b6bf870487bbb37f85eaf53df46a"
+    },
+    {
+      "path": "src/components/UserNotRegisteredError.jsx",
+      "size": 1623,
+      "mode": 33206,
+      "sha": "8e91552da64420df895722355ca6d41c2f962cdf"
+    },
+    {
+      "path": "src/contexts/ThemeContext.jsx",
+      "size": 1052,
+      "mode": 33206,
+      "sha": "98e16cbc1bf7dc4f69b0b5ef8f22096145b20b0c"
+    },
+    {
+      "path": "src/data/dictionnaires/Allemand/leçon_1-20.json",
+      "size": 1540,
+      "mode": 33206,
+      "sha": "612108e9b77f899610542284d2f307d2e67e4bf5"
+    },
+    {
+      "path": "src/data/dictionnaires/Anglais/leçon_1-20.json",
+      "size": 1476,
+      "mode": 33206,
+      "sha": "70d0bf0559ea32cdd50a1a9404a36f16b1b9acb0"
+    },
+    {
+      "path": "src/data/dictionnaires/Arabe/leçon_1-20.json",
+      "size": 1541,
+      "mode": 33206,
+      "sha": "f64765092dea575ddf25b7f92339414670eef43f"
+    },
+    {
+      "path": "src/data/dictionnaires/ARCHIVE_METADATA.json",
+      "size": 814,
+      "mode": 33206,
+      "sha": "3640f7f363f9c86e46deab45b77dc451eb54a062"
+    },
+    {
+      "path": "src/data/dictionnaires/Bissa/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Chinois (mandarin)/leçon_1-20.json",
+      "size": 1478,
+      "mode": 33206,
+      "sha": "f152e4b270bf20905e658a6682278e1ba2f6972d"
+    },
+    {
+      "path": "src/data/dictionnaires/Dioula/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Espagnol/leçon_1-20.json",
+      "size": 1455,
+      "mode": 33206,
+      "sha": "69def7eeaf4f4a75485d9e9f171d2b9e56ba86b3"
+    },
+    {
+      "path": "src/data/dictionnaires/Français/leçon_1-20.json",
+      "size": 1472,
+      "mode": 33206,
+      "sha": "78c221e8c5ece04c8b702b76f12f64ad99d40929"
+    },
+    {
+      "path": "src/data/dictionnaires/Fulfulde/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Guerzé/leçons_1-20.json",
+      "size": 56283,
+      "mode": 33206,
+      "sha": "19d5f7a0484ecac1e0e200ab098e50214468acca"
+    },
+    {
+      "path": "src/data/dictionnaires/Hindi/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Igbo/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Italien/leçon_1-20.json",
+      "size": 1478,
+      "mode": 33206,
+      "sha": "d29c265cca2248504a3a55ac2187d0dfc2e26a4e"
+    },
+    {
+      "path": "src/data/dictionnaires/Japonais/leçon_1-20.json",
+      "size": 1605,
+      "mode": 33206,
+      "sha": "18d43e9707db8ebaacfd912ce09ad2124b7940c6"
+    },
+    {
+      "path": "src/data/dictionnaires/Kissi/leçons_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Kônôn/leçons_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Lingala/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Malinké/leçons_1-20.json",
+      "size": 37120,
+      "mode": 33206,
+      "sha": "77377fe76307df06fd0a2bf51c0564ac5bf79cfe"
+    },
+    {
+      "path": "src/data/dictionnaires/Mooré/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Nouchi/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Portugais/leçon_1-20.json",
+      "size": 1478,
+      "mode": 33206,
+      "sha": "8d96746419522ed3fda7042725c4269d8d97a8ff"
+    },
+    {
+      "path": "src/data/dictionnaires/Pular/leçons_1-20.json",
+      "size": 55058,
+      "mode": 33206,
+      "sha": "fd412a75f205f7f02c321622c05c87f6887efc21"
+    },
+    {
+      "path": "src/data/dictionnaires/Russe/leçon_1-20.json",
+      "size": 1603,
+      "mode": 33206,
+      "sha": "df0c12b33c2f1309775fa6d738734aa6a5013d68"
+    },
+    {
+      "path": "src/data/dictionnaires/Soussou/leçons_1-20.json",
+      "size": 51289,
+      "mode": 33206,
+      "sha": "fa7ed72095a64b30e5ca5943c46d15be30ef7c7e"
+    },
+    {
+      "path": "src/data/dictionnaires/Swahili/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Toma/leçons_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Wolof/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Yoruba/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Bissa (Burkina Faso).pdf",
+      "size": 3798549,
+      "mode": 33206,
+      "sha": "4ed8cb7db7c6c498a160979a5b4983b823acb6f4"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Dioula (Burkina Faso).pdf",
+      "size": 18770654,
+      "mode": 33206,
+      "sha": "424cceb8c2d2212f8d0d29c26087d79e4b152785"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Kissi (Kisi) (Guinée).pdf",
+      "size": 12291725,
+      "mode": 33206,
+      "sha": "22c7ce40b8b7e560a946aff9811bd683d19de284"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Kpele (Guerzé) (Guinée).pdf",
+      "size": 1206334,
+      "mode": 33206,
+      "sha": "65b27f98b207d0ab63d276cfa756686be5b2b75c"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Lingala (Congo).pdf",
+      "size": 866549,
+      "mode": 33206,
+      "sha": "b0e20f8657befbc094753d6df05e61206b94888f"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Malinké (Guinée).pdf",
+      "size": 13255402,
+      "mode": 33206,
+      "sha": "041f99fda6fbb1dd286dc484ab859c737a4e6763"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Nouchi (Cote d'Ivoire).pdf",
+      "size": 114662,
+      "mode": 33206,
+      "sha": "eb1ea39aa7bfe5cdd25fd3be8bb3512071f1cba1"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Nouchi (Ivoire).pdf",
+      "size": 365020,
+      "mode": 33206,
+      "sha": "d872e56f5feb1eb17a599e6a5b966a7cce8a6834"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Pulaar (Poular ou Pular) (Guinée).pdf",
+      "size": 5973102,
+      "mode": 33206,
+      "sha": "d248555014be89b5417e6a23019070bbcab978af"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Soso (Soussou) (Guinée).pdf",
+      "size": 7527483,
+      "mode": 33206,
+      "sha": "b42bb8fe37f9f71f6098312615a8b93104477a39"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Toma (Loma) (Guinée).pdf",
+      "size": 14855564,
+      "mode": 33206,
+      "sha": "db14adad4f3701a24f4d692a0a1dec52e4c22703"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Wolof (Sénégal).pdf",
+      "size": 20291453,
+      "mode": 33206,
+      "sha": "f3911180ae22461fe3420ccf4a470e8ee878ede5"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire-Fulfulde (Burkina Faso).pdf",
+      "size": 26002569,
+      "mode": 33206,
+      "sha": "a2ddcb802ae1488b4a2a8a717b7445b715d08138"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire-Mooré (Burkina Faso).pdf",
+      "size": 30561271,
+      "mode": 33206,
+      "sha": "fafc5a5c11d1277707388036f5d1599e1dea8014"
+    },
+    {
+      "path": "src/google-services.json",
+      "size": 660,
+      "mode": 33206,
+      "sha": "13ad9ab6bc66dfb6747f84b2018bf6a8b3733199"
+    },
+    {
+      "path": "src/GoogleService-Info.plist",
+      "size": 866,
+      "mode": 33206,
+      "sha": "81f4dc74839b2be194d8b3ada1fb45e9698047fd"
+    },
+    {
+      "path": "src/hooks/use-mobile.jsx",
+      "size": 564,
+      "mode": 33206,
+      "sha": "207e337be90d0e6a452f4514e3d4f354fa08b522"
+    },
+    {
+      "path": "src/hooks/use-size.jsx",
+      "size": 928,
+      "mode": 33206,
+      "sha": "0fe8d7f0e971c50d5544ca3b5e8ff379b3e76498"
+    },
+    {
+      "path": "src/hooks/useOnlineStatus.js",
+      "size": 535,
+      "mode": 33206,
+      "sha": "36dd77857b647d4fa75bdb555fdcebf042c1040b"
+    },
+    {
+      "path": "src/index.css",
+      "size": 2663,
+      "mode": 33206,
+      "sha": "ba030318939022c3b4d62e1381b80f89b46c27ac"
+    },
+    {
+      "path": "src/lib/AuthContext.jsx",
+      "size": 2316,
+      "mode": 33206,
+      "sha": "d34538321268708b278d4615e86924912c5c67cd"
+    },
+    {
+      "path": "src/lib/i18n.js",
+      "size": 5183,
+      "mode": 33206,
+      "sha": "c277f7346a7fb03e737549913ecb5d32e757893f"
+    },
+    {
+      "path": "src/lib/languagePhonology.js",
+      "size": 13077,
+      "mode": 33206,
+      "sha": "b684656752c00bb3bae983f3ddf4acaad2454034"
+    },
+    {
+      "path": "src/lib/moderation.js",
+      "size": 1137,
+      "mode": 33206,
+      "sha": "7823ee9b3e8fefd69446c473d10b548d6adcd0af"
+    },
+    {
+      "path": "src/lib/offlineStorage.js",
+      "size": 4926,
+      "mode": 33206,
+      "sha": "8c0f6a027d14d02a33bf252a70c78b619b86f586"
+    },
+    {
+      "path": "src/lib/PageNotFound.jsx",
+      "size": 4009,
+      "mode": 33206,
+      "sha": "34f9afe88e701a32546f18dc1f2b13f636b6f784"
+    },
+    {
+      "path": "src/lib/query-client.js",
+      "size": 207,
+      "mode": 33206,
+      "sha": "fb141c86c532905c16b03c8ae7a2b440debddcfe"
+    },
+    {
+      "path": "src/lib/utils.js",
+      "size": 199,
+      "mode": 33206,
+      "sha": "29eb58bf113e37186c88242722cb60170ef3e083"
+    },
+    {
+      "path": "src/logo/logo.png",
+      "size": 405682,
+      "mode": 33206,
+      "sha": "e0a4a13bc144371e84badeb9e641cd16046f0993"
+    },
+    {
+      "path": "src/M'baara-openapi-spec.json",
+      "size": 75829,
+      "mode": 33206,
+      "sha": "ebcfd6debff2a34881b347e124d2f8f891fb8cf9"
+    },
+    {
+      "path": "src/main.jsx",
+      "size": 197,
+      "mode": 33206,
+      "sha": "b80102b33f501dfbec440d28ae2c43a705a77ce7"
+    },
+    {
+      "path": "src/pages/Admin.jsx",
+      "size": 8131,
+      "mode": 33206,
+      "sha": "42bf1124b5caa58663982a394b50c7e677d37453"
+    },
+    {
+      "path": "src/pages/AITutor.jsx",
+      "size": 19164,
+      "mode": 33206,
+      "sha": "d37d048a0a523c4b9f69c9515a1934db5635a888"
+    },
+    {
+      "path": "src/pages/Contribute.jsx",
+      "size": 12690,
+      "mode": 33206,
+      "sha": "03f8a86b023f489278c3daa02a7b1efa874cc97e"
+    },
+    {
+      "path": "src/pages/ForgotPassword.jsx",
+      "size": 3010,
+      "mode": 33206,
+      "sha": "86589ca5b82f6c7ac63fd8f89d8110a81f6a3691"
+    },
+    {
+      "path": "src/pages/Home.jsx",
+      "size": 7679,
+      "mode": 33206,
+      "sha": "340882939205d8dac6c50c941d1e60167734abe9"
+    },
+    {
+      "path": "src/pages/Learn.jsx",
+      "size": 12479,
+      "mode": 33206,
+      "sha": "0a047c8527d7c67fdf4aed8d47f627a05fd81532"
+    },
+    {
+      "path": "src/pages/Lesson.jsx",
+      "size": 13898,
+      "mode": 33206,
+      "sha": "dbc37f68320d4f818e272f859e72210e49612a37"
+    },
+    {
+      "path": "src/pages/Login.jsx",
+      "size": 1651,
+      "mode": 33206,
+      "sha": "f64d51553221c79acad002f3befcec3bf3af7dcd"
+    },
+    {
+      "path": "src/pages/Profile.jsx",
+      "size": 11121,
+      "mode": 33206,
+      "sha": "b6139aafb5ba026ec2e5273e53665bdc6c9c1f4f"
+    },
+    {
+      "path": "src/pages/Progress.jsx",
+      "size": 6613,
+      "mode": 33206,
+      "sha": "c78202f6efc694ff0205b6010302398cedf53db4"
+    },
+    {
+      "path": "src/pages/Register.jsx",
+      "size": 1339,
+      "mode": 33206,
+      "sha": "c12cc8aebb2147f6683801d55785df043cb4ac05"
+    },
+    {
+      "path": "src/pages/ResetPassword.jsx",
+      "size": 2833,
+      "mode": 33206,
+      "sha": "1d8fe9e094b417962d062a934432e59944261a62"
+    },
+    {
+      "path": "src/pages/Review.jsx",
+      "size": 7895,
+      "mode": 33206,
+      "sha": "52511676027206cad5e475cf9f808027fc76a20e"
+    },
+    {
+      "path": "src/pages/Studio.jsx",
+      "size": 2407,
+      "mode": 33206,
+      "sha": "48d6d1b7ed575f6c138a669907d8f0bf13f7cf19"
+    },
+    {
+      "path": "src/pages/studio/AccentWorkshop.jsx",
+      "size": 14035,
+      "mode": 33206,
+      "sha": "95b51388078c22d7ee2dbab8e2bbf3220a458bdc"
+    },
+    {
+      "path": "src/pages/studio/Leagues.jsx",
+      "size": 13632,
+      "mode": 33206,
+      "sha": "37b2ba9c4b8cb9ee0651af0d5bee9e2d67da8f16"
+    },
+    {
+      "path": "src/pages/studio/ScanOCR.jsx",
+      "size": 9378,
+      "mode": 33206,
+      "sha": "adbddc05fb1f98a79528ccee45861929c9300c79"
+    },
+    {
+      "path": "src/utils/index.ts",
+      "size": 99,
+      "mode": 33206,
+      "sha": "58837d4a9154edcbcbdbc62eab9e8763e1ea5513"
+    },
+    {
+      "path": "start.sh",
+      "size": 187,
+      "mode": 33206,
+      "sha": "719943ab031ed701837f45ee29232565b42c6cce"
+    },
+    {
+      "path": "tailwind.config.js",
+      "size": 2693,
+      "mode": 33206,
+      "sha": "e8e401be444523bb406348b25b06dd49847fd435"
+    },
+    {
+      "path": "trace.txt",
+      "size": 2952,
+      "mode": 33206,
+      "sha": "f11d4f6c73db4d2d0e3a0bce0961e1b45bbf8b7d"
+    },
+    {
+      "path": "vercel-backend-logs.json",
+      "size": 116196,
+      "mode": 33206,
+      "sha": "4896ccd5ce7f865634b3d1551ed0e00473c83964"
+    },
+    {
+      "path": "vercel-version.txt",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "vercel.json",
+      "size": 301,
+      "mode": 33206,
+      "sha": "637b024d951638a389437f9693943b2aabb8f9b9"
+    },
+    {
+      "path": "vite.config.js",
+      "size": 768,
+      "mode": 33206,
+      "sha": "be624f856b07fba82b3e04e0d2bf5d57562c8dd3"
+    }
+  ]
+}

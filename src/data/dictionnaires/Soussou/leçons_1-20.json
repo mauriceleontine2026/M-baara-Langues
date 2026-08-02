@@ -1,0 +1,1856 @@
+[
+  {
+    "id": 1,
+    "soussou": "I marna",
+    "francais": "Bonjour / Je te salue",
+    "exemple_soussou": "I marna, Mamadi !",
+    "exemple_francais": "Bonjour, Mamadi !",
+    "phonetique": "i mar-na",
+    "categorie": "salutations"
+  },
+  {
+    "id": 2,
+    "soussou": "Wo marna",
+    "francais": "Bonjour / Je vous salue (pluriel)",
+    "exemple_soussou": "Wo marna, dimèdié !",
+    "exemple_francais": "Bonjour, les enfants !",
+    "phonetique": "wo mar-na",
+    "categorie": "salutations"
+  },
+  {
+    "id": 3,
+    "soussou": "I hèri ?",
+    "francais": "Es-tu heureux / en paix ?",
+    "exemple_soussou": "I marna. I hèri ?",
+    "exemple_francais": "Bonjour. Es-tu en paix ?",
+    "phonetique": "i hè-ri",
+    "categorie": "salutations"
+  },
+  {
+    "id": 4,
+    "soussou": "Iyo",
+    "francais": "Oui",
+    "exemple_soussou": "I hèri ? — Iyo !",
+    "exemple_francais": "Es-tu en paix ? — Oui !",
+    "phonetique": "i-yo",
+    "categorie": "salutations"
+  },
+  {
+    "id": 5,
+    "soussou": "Adé",
+    "francais": "Non",
+    "exemple_soussou": "I furakhi ? — Adé !",
+    "exemple_francais": "Tu es malade ? — Non !",
+    "phonetique": "a-dé",
+    "categorie": "salutations"
+  },
+  {
+    "id": 6,
+    "soussou": "I nusènè",
+    "francais": "Sois le bienvenu",
+    "exemple_soussou": "I nusènè, n khonyi ma !",
+    "exemple_francais": "Sois le bienvenu chez moi !",
+    "phonetique": "i nou-sè-nè",
+    "categorie": "salutations"
+  },
+  {
+    "id": 7,
+    "soussou": "I nimaré",
+    "francais": "Bonsoir",
+    "exemple_soussou": "I nimaré, n sigama.",
+    "exemple_francais": "Bonsoir, je m'en vais.",
+    "phonetique": "i ni-ma-ré",
+    "categorie": "salutations"
+  },
+  {
+    "id": 8,
+    "soussou": "I mayalan ?",
+    "francais": "Tu te portes bien ? / Ça va ?",
+    "exemple_soussou": "I marna. I mayalan ?",
+    "exemple_francais": "Bonjour. Tu te portes bien ?",
+    "phonetique": "i ma-ya-lan",
+    "categorie": "salutations"
+  },
+  {
+    "id": 9,
+    "soussou": "I nuwali",
+    "francais": "Merci",
+    "exemple_soussou": "Fa ra nbè. — I nuwali !",
+    "exemple_francais": "Apporte-le-moi. — Merci !",
+    "phonetique": "i nou-wa-li",
+    "categorie": "salutations"
+  },
+  {
+    "id": 10,
+    "soussou": "Awal won gèsègè",
+    "francais": "Allons ! Au revoir",
+    "exemple_soussou": "N batta siga. Awal won gèsègè !",
+    "exemple_francais": "Je m'en vais. Au revoir !",
+    "phonetique": "a-wal won gè-sè-gè",
+    "categorie": "salutations"
+  },
+
+  {
+    "id": 11,
+    "soussou": "I khili monki ?",
+    "francais": "Comment t'appelles-tu ?",
+    "exemple_soussou": "I marna. I khili monki ?",
+    "exemple_francais": "Bonjour. Comment t'appelles-tu ?",
+    "phonetique": "i khi-li mon-ki",
+    "categorie": "presentation"
+  },
+  {
+    "id": 12,
+    "soussou": "N khili...",
+    "francais": "Je m'appelle...",
+    "exemple_soussou": "N khili Fatoumata.",
+    "exemple_francais": "Je m'appelle Fatoumata.",
+    "phonetique": "n khi-li",
+    "categorie": "presentation"
+  },
+  {
+    "id": 13,
+    "soussou": "I kélikhi mindé ?",
+    "francais": "D'où viens-tu ?",
+    "exemple_soussou": "I kélikhi mindé ? — N kélikhi Konakri.",
+    "exemple_francais": "D'où viens-tu ? — Je viens de Conakry.",
+    "phonetique": "i ké-li-khi min-dé",
+    "categorie": "presentation"
+  },
+  {
+    "id": 14,
+    "soussou": "I bérikhi mindé ?",
+    "francais": "Où es-tu né ?",
+    "exemple_soussou": "I bérikhi mindé ? — N bérikhi Kindia.",
+    "exemple_francais": "Où es-tu né ? — Je suis né à Kindia.",
+    "phonetique": "i bé-ri-khi min-dé",
+    "categorie": "presentation"
+  },
+  {
+    "id": 15,
+    "soussou": "I sigama mindé ?",
+    "francais": "Où vas-tu ?",
+    "exemple_soussou": "I sigama mindé ? — N sigama khèma.",
+    "exemple_francais": "Où vas-tu ? — Je vais au champ.",
+    "phonetique": "i si-ga-ma min-dé",
+    "categorie": "presentation"
+  },
+  {
+    "id": 16,
+    "soussou": "N wama wèyenfé ibè",
+    "francais": "J'ai besoin de te parler",
+    "exemple_soussou": "I marna. N wama wèyenfé ibè.",
+    "exemple_francais": "Bonjour. J'ai besoin de te parler.",
+    "phonetique": "n wa-ma wè-yen-fé i-bè",
+    "categorie": "presentation"
+  },
+  {
+    "id": 17,
+    "soussou": "I n kolon ?",
+    "francais": "Me connais-tu ?",
+    "exemple_soussou": "I n kolon ? — Adé, n mu i kolon.",
+    "exemple_francais": "Me connais-tu ? — Non, je ne te connais pas.",
+    "phonetique": "i n ko-lon",
+    "categorie": "presentation"
+  },
+  {
+    "id": 18,
+    "soussou": "I soso khui falama ?",
+    "francais": "Parles-tu le soussou ?",
+    "exemple_soussou": "I soso khui falama ? — N soso khui kolon dondondi.",
+    "exemple_francais": "Parles-tu le soussou ? — Je connais un peu le soussou.",
+    "phonetique": "i so-so khui fa-la-ma",
+    "categorie": "presentation"
+  },
+  {
+    "id": 19,
+    "soussou": "Ndé i ra ?",
+    "francais": "Qui es-tu ?",
+    "exemple_soussou": "Ndé i ra ? — Soso na n na.",
+    "exemple_francais": "Qui es-tu ? — Je suis Soussou.",
+    "phonetique": "n-dé i ra",
+    "categorie": "presentation"
+  },
+  {
+    "id": 20,
+    "soussou": "I niyè yéri ?",
+    "francais": "Quel âge as-tu ?",
+    "exemple_soussou": "I niyè yéri ? — N niyè tongo-sakhan na nbè.",
+    "exemple_francais": "Quel âge as-tu ? — J'ai trente ans.",
+    "phonetique": "i ni-yè yé-ri",
+    "categorie": "presentation"
+  },
+  [
+  {
+    "id": 21,
+    "soussou": "Kéren",
+    "francais": "Un (1)",
+    "exemple_soussou": "Khamè kéren na bé.",
+    "exemple_francais": "Il y a un homme ici.",
+    "phonetique": "ké-ren",
+    "categorie": "chiffres"
+  },
+  {
+    "id": 22,
+    "soussou": "Firign",
+    "francais": "Deux (2)",
+    "exemple_soussou": "Firign nun firign nani.",
+    "exemple_francais": "Deux et deux font quatre.",
+    "phonetique": "fi-rign",
+    "categorie": "chiffres"
+  },
+  {
+    "id": 23,
+    "soussou": "Sakhan",
+    "francais": "Trois (3)",
+    "exemple_soussou": "Di sakhan na nbè.",
+    "exemple_francais": "J'ai trois enfants.",
+    "phonetique": "sa-khan",
+    "categorie": "chiffres"
+  },
+  {
+    "id": 24,
+    "soussou": "Nani",
+    "francais": "Quatre (4)",
+    "exemple_soussou": "Wakhati nani na bé.",
+    "exemple_francais": "Il est quatre heures.",
+    "phonetique": "na-ni",
+    "categorie": "chiffres"
+  },
+  {
+    "id": 25,
+    "soussou": "Suli",
+    "francais": "Cinq (5)",
+    "exemple_soussou": "N niyè tongo-suli na nbè.",
+    "exemple_francais": "J'ai cinquante ans.",
+    "phonetique": "sou-li",
+    "categorie": "chiffres"
+  },
+  {
+    "id": 26,
+    "soussou": "Séni",
+    "francais": "Six (6)",
+    "exemple_soussou": "Bankhi séni na yi ta-di.",
+    "exemple_francais": "Il y a six maisons dans ce village.",
+    "phonetique": "sé-ni",
+    "categorie": "chiffres"
+  },
+  {
+    "id": 27,
+    "soussou": "Solo-féré",
+    "francais": "Sept (7)",
+    "exemple_soussou": "Lokhè solo-féré na mbè wakhati ma.",
+    "exemple_francais": "Il y a sept jours dans la semaine.",
+    "phonetique": "so-lo-fé-ré",
+    "categorie": "chiffres"
+  },
+  {
+    "id": 28,
+    "soussou": "Solo-masakhan",
+    "francais": "Huit (8)",
+    "exemple_soussou": "Solo-masakhan na nbè sémè ma.",
+    "exemple_francais": "J'en ai huit dans le sac.",
+    "phonetique": "so-lo-ma-sa-khan",
+    "categorie": "chiffres"
+  },
+  {
+    "id": 29,
+    "soussou": "Solo-manani",
+    "francais": "Neuf (9)",
+    "exemple_soussou": "Niyè solo-manani batta gnon.",
+    "exemple_francais": "Neuf ans se sont écoulés.",
+    "phonetique": "so-lo-ma-na-ni",
+    "categorie": "chiffres"
+  },
+  {
+    "id": 30,
+    "soussou": "Fu",
+    "francais": "Dix (10)",
+    "exemple_soussou": "Tokhè fu na nbè.",
+    "exemple_francais": "J'ai dix poules.",
+    "phonetique": "fou",
+    "categorie": "chiffres"
+  }
+],
+
+[
+  {
+    "id": 31,
+    "soussou": "Fafé",
+    "francais": "Père",
+    "exemple_soussou": "N fafé na n khonyi.",
+    "exemple_francais": "Mon père est chez moi.",
+    "phonetique": "fa-fé",
+    "categorie": "famille"
+  },
+  {
+    "id": 32,
+    "soussou": "Nga",
+    "francais": "Mère",
+    "exemple_soussou": "Nga, i marna !",
+    "exemple_francais": "Mère, bonjour !",
+    "phonetique": "nga",
+    "categorie": "famille"
+  },
+  {
+    "id": 33,
+    "soussou": "Di",
+    "francais": "Enfant",
+    "exemple_soussou": "Di yéri na ibè ?",
+    "exemple_francais": "Combien d'enfants as-tu ?",
+    "phonetique": "di",
+    "categorie": "famille"
+  },
+  {
+    "id": 34,
+    "soussou": "Khamè",
+    "francais": "Homme / Mari / Fils",
+    "exemple_soussou": "Nma di khamè batta fa.",
+    "exemple_francais": "Mon fils est venu.",
+    "phonetique": "kha-mè",
+    "categorie": "famille"
+  },
+  {
+    "id": 35,
+    "soussou": "Ginè",
+    "francais": "Femme / Fille / Épouse",
+    "exemple_soussou": "Ikha ginè na ?",
+    "exemple_francais": "Ta femme est là ?",
+    "phonetique": "gi-nè",
+    "categorie": "famille"
+  },
+  {
+    "id": 36,
+    "soussou": "N tanun",
+    "francais": "Mon grand-père",
+    "exemple_soussou": "N tanun, i marna !",
+    "exemple_francais": "Grand-père, bonjour !",
+    "phonetique": "n ta-noun",
+    "categorie": "famille"
+  },
+  {
+    "id": 37,
+    "soussou": "N mama",
+    "francais": "Ma grand-mère",
+    "exemple_soussou": "N mama, i marna !",
+    "exemple_francais": "Grand-mère, bonjour !",
+    "phonetique": "n ma-ma",
+    "categorie": "famille"
+  },
+  {
+    "id": 38,
+    "soussou": "Won fugna n'ara",
+    "francais": "Nous sommes amis",
+    "exemple_soussou": "Won fugna n'ara, i nuwali !",
+    "exemple_francais": "Nous sommes amis, merci !",
+    "phonetique": "won foug-na n-a-ra",
+    "categorie": "famille"
+  },
+  {
+    "id": 39,
+    "soussou": "Dimèdi",
+    "francais": "Les enfants (pluriel)",
+    "exemple_soussou": "Dimèdié konnma.",
+    "exemple_francais": "Les enfants s'amusent.",
+    "phonetique": "di-mè-di",
+    "categorie": "famille"
+  },
+  {
+    "id": 40,
+    "soussou": "Futu",
+    "francais": "Mariage",
+    "exemple_soussou": "Futu fanyi na bé !",
+    "exemple_francais": "Il y a un beau mariage ici !",
+    "phonetique": "fou-tou",
+    "categorie": "famille"
+  }
+],
+
+[
+  {
+    "id": 41,
+    "soussou": "Faté",
+    "francais": "Corps",
+    "exemple_soussou": "Faté mu na Alla kha.",
+    "exemple_francais": "Le corps n'appartient pas.",
+    "phonetique": "fa-té",
+    "categorie": "corps_humain"
+  },
+  {
+    "id": 42,
+    "soussou": "Nioè",
+    "francais": "Nez / Narine",
+    "exemple_soussou": "A nioè a khonoma.",
+    "exemple_francais": "Il a mal au nez.",
+    "phonetique": "nio-è",
+    "categorie": "corps_humain"
+  },
+  {
+    "id": 43,
+    "soussou": "Bellakhè",
+    "francais": "Main",
+    "exemple_soussou": "Nma bellakhè mako.",
+    "exemple_francais": "Lave-moi les mains.",
+    "phonetique": "bel-la-khè",
+    "categorie": "corps_humain"
+  },
+  {
+    "id": 44,
+    "soussou": "Sanyi",
+    "francais": "Jambe / Pied",
+    "exemple_soussou": "A sanyi funtuma.",
+    "exemple_francais": "Sa jambe désenfle.",
+    "phonetique": "sa-nyi",
+    "categorie": "corps_humain"
+  },
+  {
+    "id": 45,
+    "soussou": "Kobé",
+    "francais": "Nuque",
+    "exemple_soussou": "A n bonmbo n kobé ma.",
+    "exemple_francais": "Il m'a frappé sur la nuque.",
+    "phonetique": "ko-bé",
+    "categorie": "corps_humain"
+  },
+  {
+    "id": 46,
+    "soussou": "Furi",
+    "francais": "Ventre / Abdomen",
+    "exemple_soussou": "N furi khonoma.",
+    "exemple_francais": "J'ai mal au ventre.",
+    "phonetique": "fou-ri",
+    "categorie": "corps_humain"
+  },
+  {
+    "id": 47,
+    "soussou": "Tangé",
+    "francais": "Nerf / Tendon",
+    "exemple_soussou": "N batta n tangé bolon.",
+    "exemple_francais": "Je me suis coupé un nerf.",
+    "phonetique": "tan-gé",
+    "categorie": "corps_humain"
+  },
+  {
+    "id": 48,
+    "soussou": "Sondonyi",
+    "francais": "Cœur",
+    "exemple_soussou": "I sondonyi kui.",
+    "exemple_francais": "Dans ton cœur.",
+    "phonetique": "son-do-nyi",
+    "categorie": "corps_humain"
+  },
+  {
+    "id": 49,
+    "soussou": "Dumbunyi",
+    "francais": "Aisselle",
+    "exemple_soussou": "N dumbunyi n khonoma.",
+    "exemple_francais": "J'ai mal à l'aisselle.",
+    "phonetique": "doum-bou-nyi",
+    "categorie": "corps_humain"
+  },
+  {
+    "id": 50,
+    "soussou": "Bognè bèkhè",
+    "francais": "Personne douce / bon caractère",
+    "exemple_soussou": "A bognè bèkhè.",
+    "exemple_francais": "C'est une personne douce.",
+    "phonetique": "bo-gnè bè-khè",
+    "categorie": "corps_humain"
+  }
+],
+
+[
+  {
+    "id": 51,
+    "soussou": "Yé",
+    "francais": "Eau",
+    "exemple_soussou": "Yé fi ama.",
+    "exemple_francais": "Donne-lui de l'eau.",
+    "phonetique": "yé",
+    "categorie": "nature"
+  },
+  {
+    "id": 52,
+    "soussou": "Gèsè",
+    "francais": "Feu",
+    "exemple_soussou": "Gèsè woli tandé.",
+    "exemple_francais": "Allume le feu dehors.",
+    "phonetique": "gè-sè",
+    "categorie": "nature"
+  },
+  {
+    "id": 53,
+    "soussou": "Sogè",
+    "francais": "Soleil",
+    "exemple_soussou": "Sanu sogè kha goro.",
+    "exemple_francais": "Avant que le soleil se couche.",
+    "phonetique": "so-gè",
+    "categorie": "nature"
+  },
+  {
+    "id": 54,
+    "soussou": "Kigé",
+    "francais": "Lune / Mois",
+    "exemple_soussou": "Kigé batta siga.",
+    "exemple_francais": "La lune a disparu.",
+    "phonetique": "ki-gé",
+    "categorie": "nature"
+  },
+  {
+    "id": 55,
+    "soussou": "Kuè",
+    "francais": "Nuit",
+    "exemple_soussou": "Kuè kîmè na.",
+    "exemple_francais": "La nuit est profonde.",
+    "phonetique": "kouè",
+    "categorie": "nature"
+  },
+  {
+    "id": 56,
+    "soussou": "Dunia",
+    "francais": "Terre / Monde",
+    "exemple_soussou": "Dunia ma.",
+    "exemple_francais": "Sur la terre.",
+    "phonetique": "dou-nia",
+    "categorie": "nature"
+  },
+  {
+    "id": 57,
+    "soussou": "Wula",
+    "francais": "Brousse / Forêt / Désert",
+    "exemple_soussou": "A kélikhi wula.",
+    "exemple_francais": "Il vient de la brousse.",
+    "phonetique": "wou-la",
+    "categorie": "nature"
+  },
+  {
+    "id": 58,
+    "soussou": "Kunda",
+    "francais": "Rosée / Brouillard / Brume",
+    "exemple_soussou": "Kunda batta so.",
+    "exemple_francais": "La rosée est tombée.",
+    "phonetique": "koun-da",
+    "categorie": "nature"
+  },
+  {
+    "id": 59,
+    "soussou": "Lukhui",
+    "francais": "Nuage",
+    "exemple_soussou": "Lukhui khungbé mato.",
+    "exemple_francais": "Regarde ce gros nuage.",
+    "phonetique": "lou-khoui",
+    "categorie": "nature"
+  },
+  {
+    "id": 60,
+    "soussou": "Tulé",
+    "francais": "Pluie",
+    "exemple_soussou": "Tulé fama Una.",
+    "exemple_francais": "Il pleuvra demain.",
+    "phonetique": "tou-lé",
+    "categorie": "nature"
+  }
+],
+
+[
+  {
+    "id": 61,
+    "soussou": "Bankhi",
+    "francais": "Maison",
+    "exemple_soussou": "Bankhi mako kî fanyi.",
+    "exemple_francais": "Balaie bien la maison.",
+    "phonetique": "ban-khi",
+    "categorie": "lieux"
+  },
+  {
+    "id": 62,
+    "soussou": "Ta-di",
+    "francais": "Village",
+    "exemple_soussou": "Yi ta-di na makuya.",
+    "exemple_francais": "Ce village est loin.",
+    "phonetique": "ta-di",
+    "categorie": "lieux"
+  },
+  {
+    "id": 63,
+    "soussou": "Kira",
+    "francais": "Chemin / Route",
+    "exemple_soussou": "Kira masen nbè.",
+    "exemple_francais": "Montre-moi le chemin.",
+    "phonetique": "ki-ra",
+    "categorie": "lieux"
+  },
+  {
+    "id": 64,
+    "soussou": "Sèli-bankhi",
+    "francais": "Église / Lieu de prière",
+    "exemple_soussou": "Siga sèli-bankhi.",
+    "exemple_francais": "Va à l'église.",
+    "phonetique": "sè-li-ban-khi",
+    "categorie": "lieux"
+  },
+  {
+    "id": 65,
+    "soussou": "Khèma",
+    "francais": "Champ / Plantation",
+    "exemple_soussou": "N sigama khèma.",
+    "exemple_francais": "Je vais au champ.",
+    "phonetique": "khè-ma",
+    "categorie": "lieux"
+  },
+  {
+    "id": 66,
+    "soussou": "Kuri",
+    "francais": "Cuisine (pièce)",
+    "exemple_soussou": "Kuri birign kharama.",
+    "exemple_francais": "Toute sa cuisine a brûlé.",
+    "phonetique": "kou-ri",
+    "categorie": "lieux"
+  },
+  {
+    "id": 67,
+    "soussou": "Tandé",
+    "francais": "Dehors / Extérieur",
+    "exemple_soussou": "Yogéé woli tandé.",
+    "exemple_francais": "Jette les balayures dehors.",
+    "phonetique": "tan-dé",
+    "categorie": "lieux"
+  },
+  {
+    "id": 68,
+    "soussou": "Duani",
+    "francais": "Douane",
+    "exemple_soussou": "N khani duani î.",
+    "exemple_francais": "Conduis-moi à la douane.",
+    "phonetique": "doua-ni",
+    "categorie": "lieux"
+  },
+  {
+    "id": 69,
+    "soussou": "Khonyi",
+    "francais": "Demeure / Chez soi",
+    "exemple_soussou": "N siga n khonyi.",
+    "exemple_francais": "Je vais chez moi.",
+    "phonetique": "kho-nyi",
+    "categorie": "lieux"
+  },
+  {
+    "id": 70,
+    "soussou": "Dègi",
+    "francais": "Natte",
+    "exemple_soussou": "È batta èkha dègié raloï.",
+    "exemple_francais": "Ils ont perdu leurs nattes.",
+    "phonetique": "dè-gi",
+    "categorie": "lieux"
+  }
+],
+
+[
+  {
+    "id": 71,
+    "soussou": "Malé",
+    "francais": "Riz",
+    "exemple_soussou": "Malé khori.",
+    "exemple_francais": "Du riz propre / du bon riz.",
+    "phonetique": "ma-lé",
+    "categorie": "nourriture"
+  },
+  {
+    "id": 72,
+    "soussou": "Tami",
+    "francais": "Pain / Manioc",
+    "exemple_soussou": "Tami rafalla.",
+    "exemple_francais": "Fais du pain.",
+    "phonetique": "ta-mi",
+    "categorie": "nourriture"
+  },
+  {
+    "id": 73,
+    "soussou": "Wèni",
+    "francais": "Vin de palme",
+    "exemple_soussou": "Wèni batta gnon.",
+    "exemple_francais": "Le vin est fini.",
+    "phonetique": "wè-ni",
+    "categorie": "nourriture"
+  },
+  {
+    "id": 74,
+    "soussou": "Tokhè",
+    "francais": "Poule / Poulet",
+    "exemple_soussou": "Tokhè kéren fakha.",
+    "exemple_francais": "Tue une poule.",
+    "phonetique": "to-khè",
+    "categorie": "nourriture"
+  },
+  {
+    "id": 75,
+    "soussou": "Tokhè-khèlè",
+    "francais": "Œuf",
+    "exemple_soussou": "Fa kofi nun tokhè-khèlèé ra.",
+    "exemple_francais": "Apporte du café et des œufs.",
+    "phonetique": "to-khè-khè-lè",
+    "categorie": "nourriture"
+  },
+  {
+    "id": 76,
+    "soussou": "Supu",
+    "francais": "Soupe / Bouillon",
+    "exemple_soussou": "Fa supu nun tokhè-khèlè gninkhi ra nbè.",
+    "exemple_francais": "Sers-moi de la soupe et des œufs à la coque.",
+    "phonetique": "sou-pou",
+    "categorie": "nourriture"
+  },
+  {
+    "id": 77,
+    "soussou": "Fokhè",
+    "francais": "Sel",
+    "exemple_soussou": "Fokhè na mindé ?",
+    "exemple_francais": "Où est le sel ?",
+    "phonetique": "fo-khè",
+    "categorie": "nourriture"
+  },
+  {
+    "id": 78,
+    "soussou": "Gbengbè",
+    "francais": "Piment",
+    "exemple_soussou": "Fa gbengbè ra nbè.",
+    "exemple_francais": "Donne-moi du piment.",
+    "phonetique": "gben-gbè",
+    "categorie": "nourriture"
+  },
+  {
+    "id": 79,
+    "soussou": "Kofi",
+    "francais": "Café",
+    "exemple_soussou": "Yé fura kofi dakhi.",
+    "exemple_francais": "Verse de l'eau chaude sur le café.",
+    "phonetique": "ko-fi",
+    "categorie": "nourriture"
+  },
+  {
+    "id": 80,
+    "soussou": "Turé",
+    "francais": "Huile",
+    "exemple_soussou": "Turé nun gèsè-tè sa lampu î.",
+    "exemple_francais": "Mets de l'huile et une mèche à la lampe.",
+    "phonetique": "tou-ré",
+    "categorie": "nourriture"
+  }
+],
+
+[
+  {
+    "id": 81,
+    "soussou": "Baré",
+    "francais": "Chien",
+    "exemple_soussou": "Yi baré gniakhi.",
+    "exemple_francais": "Ce chien est méchant.",
+    "phonetique": "ba-ré",
+    "categorie": "animaux"
+  },
+  {
+    "id": 82,
+    "soussou": "Ningé",
+    "francais": "Bœuf / Vache",
+    "exemple_soussou": "Ningé wâma.",
+    "exemple_francais": "Le bœuf mugit.",
+    "phonetique": "nin-gé",
+    "categorie": "animaux"
+  },
+  {
+    "id": 83,
+    "soussou": "Yakhè",
+    "francais": "Mouton / Brebis",
+    "exemple_soussou": "Yakhè kéren sara nma.",
+    "exemple_francais": "Vends-moi un mouton.",
+    "phonetique": "ya-khè",
+    "categorie": "animaux"
+  },
+  {
+    "id": 84,
+    "soussou": "Kulé",
+    "francais": "Singe",
+    "exemple_soussou": "Kulé di na wula.",
+    "exemple_francais": "Il y a un petit singe dans la forêt.",
+    "phonetique": "kou-lé",
+    "categorie": "animaux"
+  },
+  {
+    "id": 85,
+    "soussou": "Kumi",
+    "francais": "Abeille",
+    "exemple_soussou": "Kumi-turé na bé.",
+    "exemple_francais": "Il y a du miel ici.",
+    "phonetique": "kou-mi",
+    "categorie": "animaux"
+  },
+  {
+    "id": 86,
+    "soussou": "Kurè",
+    "francais": "Tortue",
+    "exemple_soussou": "Kurè siga doïdoï.",
+    "exemple_francais": "La tortue avance doucement.",
+    "phonetique": "kou-rè",
+    "categorie": "animaux"
+  },
+  {
+    "id": 87,
+    "soussou": "Tasi",
+    "francais": "Moustique",
+    "exemple_soussou": "Tasi batta n khin to kuèra.",
+    "exemple_francais": "Les moustiques m'ont mordu cette nuit.",
+    "phonetique": "ta-si",
+    "categorie": "animaux"
+  },
+  {
+    "id": 88,
+    "soussou": "Gniari",
+    "francais": "Chat",
+    "exemple_soussou": "Siga yi gniari radula.",
+    "exemple_francais": "Va noyer ce chat.",
+    "phonetique": "gnia-ri",
+    "categorie": "animaux"
+  },
+  {
+    "id": 89,
+    "soussou": "Worègé",
+    "francais": "Aigle",
+    "exemple_soussou": "Worègé a pissa khonié birign bè.",
+    "exemple_francais": "L'aigle est un des oiseaux les plus forts.",
+    "phonetique": "wo-rè-gé",
+    "categorie": "animaux"
+  },
+  {
+    "id": 90,
+    "soussou": "Sofalé",
+    "francais": "Âne",
+    "exemple_soussou": "Sofalé khiri bé.",
+    "exemple_francais": "Attache l'âne ici.",
+    "phonetique": "so-fa-lé",
+    "categorie": "animaux"
+  }
+],
+
+[
+  {
+    "id": 91,
+    "soussou": "Foro",
+    "francais": "Noir(e)",
+    "exemple_soussou": "Yi baré foro.",
+    "exemple_francais": "Ce chien est noir.",
+    "phonetique": "fo-ro",
+    "categorie": "adjectifs"
+  },
+  {
+    "id": 92,
+    "soussou": "Khori",
+    "francais": "Propre / Pur / Net",
+    "exemple_soussou": "Malé khori.",
+    "exemple_francais": "Du riz propre.",
+    "phonetique": "kho-ri",
+    "categorie": "adjectifs"
+  },
+  {
+    "id": 93,
+    "soussou": "Fanyi",
+    "francais": "Bon / Belle / Bien",
+    "exemple_soussou": "Kî fanyi.",
+    "exemple_francais": "Très bien.",
+    "phonetique": "fa-nyi",
+    "categorie": "adjectifs"
+  },
+  {
+    "id": 94,
+    "soussou": "Gniakhi",
+    "francais": "Mauvais(e) / Méchant(e)",
+    "exemple_soussou": "Sétani gniakhi na.",
+    "exemple_francais": "Le diable est méchant.",
+    "phonetique": "gnia-khi",
+    "categorie": "adjectifs"
+  },
+  {
+    "id": 95,
+    "soussou": "Khungbé",
+    "francais": "Grand(e) / Gros(se)",
+    "exemple_soussou": "Gèmè khungbé.",
+    "exemple_francais": "Une grosse pierre.",
+    "phonetique": "khoun-gbé",
+    "categorie": "adjectifs"
+  },
+  {
+    "id": 96,
+    "soussou": "Khurun",
+    "francais": "Petit(e)",
+    "exemple_soussou": "Di khurun na bé.",
+    "exemple_francais": "Il y a un petit enfant ici.",
+    "phonetique": "khou-roun",
+    "categorie": "adjectifs"
+  },
+  {
+    "id": 97,
+    "soussou": "Balan",
+    "francais": "Dur(e)",
+    "exemple_soussou": "Yi tami balan.",
+    "exemple_francais": "Ce pain est dur.",
+    "phonetique": "ba-lan",
+    "categorie": "adjectifs"
+  },
+  {
+    "id": 98,
+    "soussou": "Bèkhè",
+    "francais": "Doux / Douce / Sucré(e)",
+    "exemple_soussou": "Yé bèkhè.",
+    "exemple_francais": "De l'eau douce.",
+    "phonetique": "bè-khè",
+    "categorie": "adjectifs"
+  },
+  {
+    "id": 99,
+    "soussou": "Nènè",
+    "francais": "Nouveau / Neuve",
+    "exemple_soussou": "Bahkhi nènè na nbè.",
+    "exemple_francais": "J'ai une maison neuve.",
+    "phonetique": "nè-nè",
+    "categorie": "adjectifs"
+  },
+  {
+    "id": 100,
+    "soussou": "Makuya",
+    "francais": "Loin / Grand / Long",
+    "exemple_soussou": "Na mu makuya.",
+    "exemple_francais": "Ce n'est pas loin.",
+    "phonetique": "ma-kou-ya",
+    "categorie": "adjectifs"
+  }
+],
+
+[
+  {
+    "id": 101,
+    "soussou": "Fala",
+    "francais": "Dire / Parler",
+    "exemple_soussou": "A fala abè akha fa.",
+    "exemple_francais": "Dis-lui de venir.",
+    "phonetique": "fa-la",
+    "categorie": "verbes"
+  },
+  {
+    "id": 102,
+    "soussou": "Siga",
+    "francais": "Aller / Partir",
+    "exemple_soussou": "N sigama khèma.",
+    "exemple_francais": "Je vais au champ.",
+    "phonetique": "si-ga",
+    "categorie": "verbes"
+  },
+  {
+    "id": 103,
+    "soussou": "Fa",
+    "francais": "Venir / Apporter",
+    "exemple_soussou": "Wo fa bé.",
+    "exemple_francais": "Venez ici.",
+    "phonetique": "fa",
+    "categorie": "verbes"
+  },
+  {
+    "id": 104,
+    "soussou": "Don",
+    "francais": "Manger / Dévorer",
+    "exemple_soussou": "N sigama donsé.",
+    "exemple_francais": "Je vais manger.",
+    "phonetique": "don",
+    "categorie": "verbes"
+  },
+  {
+    "id": 105,
+    "soussou": "Fi",
+    "francais": "Donner",
+    "exemple_soussou": "Yé fi ama.",
+    "exemple_francais": "Donne-lui de l'eau.",
+    "phonetique": "fi",
+    "categorie": "verbes"
+  },
+  {
+    "id": 106,
+    "soussou": "Mako",
+    "francais": "Laver / Nettoyer / Balayer",
+    "exemple_soussou": "Bankhi mako kî fanyi.",
+    "exemple_francais": "Balaie bien la maison.",
+    "phonetique": "ma-ko",
+    "categorie": "verbes"
+  },
+  {
+    "id": 107,
+    "soussou": "Sara",
+    "francais": "Acheter / Vendre",
+    "exemple_soussou": "I tokhè sarama yéri ?",
+    "exemple_francais": "Combien vends-tu ta poule ?",
+    "phonetique": "sa-ra",
+    "categorie": "verbes"
+  },
+  {
+    "id": 108,
+    "soussou": "Fakha",
+    "francais": "Mourir / Tuer",
+    "exemple_soussou": "Tokhè kéren fakha.",
+    "exemple_francais": "Tue une poule.",
+    "phonetique": "fa-kha",
+    "categorie": "verbes"
+  },
+  {
+    "id": 109,
+    "soussou": "Rafah",
+    "francais": "Aimer",
+    "exemple_soussou": "N nah n fafé rafah.",
+    "exemple_francais": "J'aime mon père.",
+    "phonetique": "ra-fan",
+    "categorie": "verbes"
+  },
+  {
+    "id": 110,
+    "soussou": "Kolon",
+    "francais": "Connaître / Savoir",
+    "exemple_soussou": "N mu i kolon.",
+    "exemple_francais": "Je ne te connais pas.",
+    "phonetique": "ko-lon",
+    "categorie": "verbes"
+  }
+],
+
+[
+  {
+    "id": 111,
+    "soussou": "Sèli",
+    "francais": "Prier",
+    "exemple_soussou": "Sèli Alla khon.",
+    "exemple_francais": "Prie Dieu.",
+    "phonetique": "sè-li",
+    "categorie": "verbes"
+  },
+  {
+    "id": 112,
+    "soussou": "Wali",
+    "francais": "Travailler",
+    "exemple_soussou": "Wokha siga walidé.",
+    "exemple_francais": "Allez travailler.",
+    "phonetique": "wa-li",
+    "categorie": "verbes"
+  },
+  {
+    "id": 113,
+    "soussou": "Gnon",
+    "francais": "Finir / Être fini",
+    "exemple_soussou": "Wali gnon.",
+    "exemple_francais": "Le travail est fini.",
+    "phonetique": "gnon",
+    "categorie": "verbes"
+  },
+  {
+    "id": 114,
+    "soussou": "Bèri",
+    "francais": "Naître / Accoucher",
+    "exemple_soussou": "A di ginè bèri.",
+    "exemple_francais": "Elle a accouché d'une fille.",
+    "phonetique": "bè-ri",
+    "categorie": "verbes"
+  },
+  {
+    "id": 115,
+    "soussou": "Mali",
+    "francais": "Aider",
+    "exemple_soussou": "Alla mukhu malima.",
+    "exemple_francais": "Dieu nous aidera.",
+    "phonetique": "ma-li",
+    "categorie": "verbes"
+  },
+  {
+    "id": 116,
+    "soussou": "Mato",
+    "francais": "Regarder / Voir",
+    "exemple_soussou": "Lukhui khungbé mato.",
+    "exemple_francais": "Regarde ce gros nuage.",
+    "phonetique": "ma-to",
+    "categorie": "verbes"
+  },
+  {
+    "id": 117,
+    "soussou": "Khèbu",
+    "francais": "Saluer (formel / transmettre un salut)",
+    "exemple_soussou": "N i fafé khèbu.",
+    "exemple_francais": "Je salue ton père.",
+    "phonetique": "khè-bou",
+    "categorie": "verbes"
+  },
+  {
+    "id": 118,
+    "soussou": "Fata",
+    "francais": "Pouvoir / Savoir faire",
+    "exemple_soussou": "I fata sèlidé ?",
+    "exemple_francais": "Sais-tu prier ?",
+    "phonetique": "fa-ta",
+    "categorie": "verbes"
+  },
+  {
+    "id": 119,
+    "soussou": "Wama",
+    "francais": "Vouloir / Désirer",
+    "exemple_soussou": "I wama mun khon ?",
+    "exemple_francais": "Que désires-tu ?",
+    "phonetique": "wa-ma",
+    "categorie": "verbes"
+  },
+  {
+    "id": 120,
+    "soussou": "Tinkama",
+    "francais": "Apprendre / Enseigner",
+    "exemple_soussou": "N i tinkama Alla sèlifé.",
+    "exemple_francais": "Je t'apprendrai à prier Dieu.",
+    "phonetique": "tin-ka-ma",
+    "categorie": "verbes"
+  }
+],
+
+[
+  {
+    "id": 121,
+    "soussou": "Korè",
+    "francais": "Maintenant",
+    "exemple_soussou": "Dundu, dundu korè.",
+    "exemple_francais": "Tais-toi maintenant.",
+    "phonetique": "ko-rè",
+    "categorie": "temps"
+  },
+  {
+    "id": 122,
+    "soussou": "Una",
+    "francais": "Demain",
+    "exemple_soussou": "Tulé fama Una.",
+    "exemple_francais": "Il pleuvra demain.",
+    "phonetique": "ou-na",
+    "categorie": "temps"
+  },
+  {
+    "id": 123,
+    "soussou": "Khôrô",
+    "francais": "Hier",
+    "exemple_soussou": "Munfèra i mu fa tinkadé khôrô ?",
+    "exemple_francais": "Pourquoi n'es-tu pas venu apprendre hier ?",
+    "phonetique": "khô-rô",
+    "categorie": "temps"
+  },
+  {
+    "id": 124,
+    "soussou": "Gèsègè",
+    "francais": "Matin",
+    "exemple_soussou": "Tina gèsègè.",
+    "exemple_francais": "Demain matin.",
+    "phonetique": "gè-sè-gè",
+    "categorie": "temps"
+  },
+  {
+    "id": 125,
+    "soussou": "Nimaré",
+    "francais": "Soir",
+    "exemple_soussou": "Kabi gèsègè han nimaréra.",
+    "exemple_francais": "Depuis le matin jusqu'au soir.",
+    "phonetique": "ni-ma-ré",
+    "categorie": "temps"
+  },
+  {
+    "id": 126,
+    "soussou": "Wakhati",
+    "francais": "Heure / Moment / Temps",
+    "exemple_soussou": "Wakhati nani na bé.",
+    "exemple_francais": "Il est quatre heures.",
+    "phonetique": "wa-kha-ti",
+    "categorie": "temps"
+  },
+  {
+    "id": 127,
+    "soussou": "Lokhè",
+    "francais": "Jour",
+    "exemple_soussou": "Lokhè fanyi na.",
+    "exemple_francais": "C'est un beau jour.",
+    "phonetique": "lo-khè",
+    "categorie": "temps"
+  },
+  {
+    "id": 128,
+    "soussou": "Niyè",
+    "francais": "Année / An",
+    "exemple_soussou": "Niyè nènè na.",
+    "exemple_francais": "C'est une nouvelle année.",
+    "phonetique": "ni-yè",
+    "categorie": "temps"
+  },
+  {
+    "id": 129,
+    "soussou": "Béré ô béré",
+    "francais": "Toujours / Pour toujours",
+    "exemple_soussou": "Wo luma hèri abada, béré ô béré.",
+    "exemple_francais": "Vous serez toujours heureux.",
+    "phonetique": "bé-ré o bé-ré",
+    "categorie": "temps"
+  },
+  {
+    "id": 130,
+    "soussou": "Ya koss",
+    "francais": "Bientôt / Dans peu de temps",
+    "exemple_soussou": "A fama ya koss.",
+    "exemple_francais": "Il viendra bientôt.",
+    "phonetique": "ya koss",
+    "categorie": "temps"
+  }
+],
+
+[
+  {
+    "id": 131,
+    "soussou": "N",
+    "francais": "Je / Moi (1ère pers. sing.)",
+    "exemple_soussou": "N sigama khèma.",
+    "exemple_francais": "Je vais au champ.",
+    "phonetique": "n (nasale brève)",
+    "categorie": "grammaire"
+  },
+  {
+    "id": 132,
+    "soussou": "I",
+    "francais": "Tu / Toi (2ème pers. sing.)",
+    "exemple_soussou": "I sigama mindé ?",
+    "exemple_francais": "Où vas-tu ?",
+    "phonetique": "i (bref)",
+    "categorie": "grammaire"
+  },
+  {
+    "id": 133,
+    "soussou": "A",
+    "francais": "Il / Elle (3ème pers. sing.)",
+    "exemple_soussou": "A fama ya koss.",
+    "exemple_francais": "Il/Elle viendra bientôt.",
+    "phonetique": "a (bref)",
+    "categorie": "grammaire"
+  },
+  {
+    "id": 134,
+    "soussou": "Mukhu",
+    "francais": "Nous (1ère pers. plur.)",
+    "exemple_soussou": "Mukhu batta fa.",
+    "exemple_francais": "Nous sommes venus.",
+    "phonetique": "mou-khou",
+    "categorie": "grammaire"
+  },
+  {
+    "id": 135,
+    "soussou": "Wo",
+    "francais": "Vous (2ème pers. plur.)",
+    "exemple_soussou": "Wo fa bé.",
+    "exemple_francais": "Venez ici.",
+    "phonetique": "wo",
+    "categorie": "grammaire"
+  },
+  {
+    "id": 136,
+    "soussou": "È",
+    "francais": "Ils / Elles (3ème pers. plur.)",
+    "exemple_soussou": "È batta fa.",
+    "exemple_francais": "Ils sont venus.",
+    "phonetique": "è (ouvert)",
+    "categorie": "grammaire"
+  },
+  {
+    "id": 137,
+    "soussou": "Mu",
+    "francais": "Ne... pas (particule de négation)",
+    "exemple_soussou": "N mu i kolon.",
+    "exemple_francais": "Je ne te connais pas.",
+    "phonetique": "mou",
+    "categorie": "grammaire"
+  },
+  {
+    "id": 138,
+    "soussou": "Na",
+    "francais": "Est / Être (affirmatif)",
+    "exemple_soussou": "Mangé na bé.",
+    "exemple_francais": "Le roi est ici.",
+    "phonetique": "na",
+    "categorie": "grammaire"
+  },
+  {
+    "id": 139,
+    "soussou": "Mindé",
+    "francais": "Où ?",
+    "exemple_soussou": "I sigama mindé ?",
+    "exemple_francais": "Où vas-tu ?",
+    "phonetique": "min-dé",
+    "categorie": "grammaire"
+  },
+  {
+    "id": 140,
+    "soussou": "Munfèra",
+    "francais": "Pourquoi ?",
+    "exemple_soussou": "Munfèra i mu yabima ?",
+    "exemple_francais": "Pourquoi ne réponds-tu pas ?",
+    "phonetique": "moun-fè-ra",
+    "categorie": "grammaire"
+  }
+],
+
+[
+  {
+    "id": 141,
+    "soussou": "Kî fanyi",
+    "francais": "Très bien / Parfaitement",
+    "exemple_soussou": "A sèli kî fanyi.",
+    "exemple_francais": "Il prie très bien.",
+    "phonetique": "kî fa-nyi",
+    "categorie": "adverbes"
+  },
+  {
+    "id": 142,
+    "soussou": "Dondondi",
+    "francais": "Un peu / Légèrement",
+    "exemple_soussou": "N soso khui kolon dondondi.",
+    "exemple_francais": "Je connais un peu le soussou.",
+    "phonetique": "don-don-di",
+    "categorie": "adverbes"
+  },
+  {
+    "id": 143,
+    "soussou": "Birign",
+    "francais": "Tout / Tous / Entier",
+    "exemple_soussou": "Alla na yiré birign.",
+    "exemple_francais": "Dieu est partout.",
+    "phonetique": "bi-rign",
+    "categorie": "adverbes"
+  },
+  {
+    "id": 144,
+    "soussou": "Nun",
+    "francais": "Et / Avec (conjonction)",
+    "exemple_soussou": "Tomassi nun Pétri.",
+    "exemple_francais": "Thomas et Pierre.",
+    "phonetique": "noun",
+    "categorie": "adverbes"
+  },
+  {
+    "id": 145,
+    "soussou": "Kono kèrè",
+    "francais": "Mais",
+    "exemple_soussou": "N wama fa, kono kèrè n mu fata.",
+    "exemple_francais": "Je veux venir, mais je ne peux pas.",
+    "phonetique": "ko-no kè-rè",
+    "categorie": "adverbes"
+  },
+  {
+    "id": 146,
+    "soussou": "Sinden",
+    "francais": "D'abord / En premier",
+    "exemple_soussou": "Wo oté binyaé raté sinden.",
+    "exemple_francais": "Débarquez d'abord ce qui est lourd.",
+    "phonetique": "sin-den",
+    "categorie": "adverbes"
+  },
+  {
+    "id": 147,
+    "soussou": "Kabi",
+    "francais": "Depuis / Parce que / Comme",
+    "exemple_soussou": "Kabi gèsègè han nimaréra.",
+    "exemple_francais": "Depuis le matin jusqu'au soir.",
+    "phonetique": "ka-bi",
+    "categorie": "adverbes"
+  },
+  {
+    "id": 148,
+    "soussou": "Fokhira",
+    "francais": "Avec (accompagnement)",
+    "exemple_soussou": "Siga mangé fokhira.",
+    "exemple_francais": "Accompagne le roi.",
+    "phonetique": "fo-khi-ra",
+    "categorie": "adverbes"
+  },
+  {
+    "id": 149,
+    "soussou": "Nan'ara",
+    "francais": "C'est pourquoi / Voilà pourquoi",
+    "exemple_soussou": "Nan'ara a mu fama.",
+    "exemple_francais": "C'est pourquoi il ne viendra pas.",
+    "phonetique": "nan-a-ra",
+    "categorie": "adverbes"
+  },
+  {
+    "id": 150,
+    "soussou": "Gbé",
+    "francais": "Beaucoup / Très",
+    "exemple_soussou": "I toroma nbè gbé.",
+    "exemple_francais": "Tu te donnes beaucoup de peine pour moi.",
+    "phonetique": "gbé",
+    "categorie": "adverbes"
+  }
+],
+
+[
+  {
+    "id": 151,
+    "soussou": "Furakhi",
+    "francais": "Être malade",
+    "exemple_soussou": "Pè ! i furakhi ?",
+    "exemple_francais": "Quoi ! Tu es malade ?",
+    "phonetique": "fou-ra-khi",
+    "categorie": "sante"
+  },
+  {
+    "id": 152,
+    "soussou": "Khonoma",
+    "francais": "Avoir mal / Souffrir",
+    "exemple_soussou": "N furi khonoma.",
+    "exemple_francais": "J'ai mal au ventre.",
+    "phonetique": "kho-no-ma",
+    "categorie": "sante"
+  },
+  {
+    "id": 153,
+    "soussou": "Toro",
+    "francais": "Souffrance / Douleur",
+    "exemple_soussou": "I nu toro !",
+    "exemple_francais": "Tu souffres !",
+    "phonetique": "to-ro",
+    "categorie": "sante"
+  },
+  {
+    "id": 154,
+    "soussou": "Pissa",
+    "francais": "Mieux / Meilleur",
+    "exemple_soussou": "A batta pissa ?",
+    "exemple_francais": "Est-il mieux ?",
+    "phonetique": "pis-sa",
+    "categorie": "sante"
+  },
+  {
+    "id": 155,
+    "soussou": "Mayalan",
+    "francais": "Se porter bien / Être en bonne santé",
+    "exemple_soussou": "I mayalan ?",
+    "exemple_francais": "Tu te portes bien ?",
+    "phonetique": "ma-ya-lan",
+    "categorie": "sante"
+  },
+  {
+    "id": 156,
+    "soussou": "Furétoé",
+    "francais": "Médecin / Guérisseur",
+    "exemple_soussou": "N sigama furétoé khon.",
+    "exemple_francais": "Je vais chez le médecin.",
+    "phonetique": "fou-ré-toé",
+    "categorie": "sante"
+  },
+  {
+    "id": 157,
+    "soussou": "Funtu",
+    "francais": "Gonfler / Enfler",
+    "exemple_soussou": "A sanyi funta goroma.",
+    "exemple_francais": "Son pied désenfle.",
+    "phonetique": "foun-tou",
+    "categorie": "sante"
+  },
+  {
+    "id": 158,
+    "soussou": "Tenda",
+    "francais": "Moustiquaire",
+    "exemple_soussou": "Tenda ra sa kuèra.",
+    "exemple_francais": "Installe la moustiquaire pour la nuit.",
+    "phonetique": "ten-da",
+    "categorie": "sante"
+  },
+  {
+    "id": 159,
+    "soussou": "I nu toro !",
+    "francais": "Ah, tu souffres !",
+    "exemple_soussou": "I nu toro ! N i mali fé.",
+    "exemple_francais": "Ah, tu souffres ! Je vais t'aider.",
+    "phonetique": "i nou to-ro",
+    "categorie": "sante"
+  },
+  {
+    "id": 160,
+    "soussou": "Fakha",
+    "francais": "Mourir",
+    "exemple_soussou": "A fakha mun béré ?",
+    "exemple_francais": "Quand est-il mort ?",
+    "phonetique": "fa-kha",
+    "categorie": "sante"
+  }
+],
+
+[
+  {
+    "id": 161,
+    "soussou": "Yéri",
+    "francais": "Combien ?",
+    "exemple_soussou": "Yéri na ibè ?",
+    "exemple_francais": "Combien as-tu ? / C'est combien ?",
+    "phonetique": "yé-ri",
+    "categorie": "marche"
+  },
+  {
+    "id": 162,
+    "soussou": "Sara",
+    "francais": "Prix / Vente / Achat",
+    "exemple_soussou": "Nma dont fi nma sara.",
+    "exemple_francais": "Donne-moi le prix de ma vente.",
+    "phonetique": "sa-ra",
+    "categorie": "marche"
+  },
+  {
+    "id": 163,
+    "soussou": "Nafuli",
+    "francais": "Argent / Monnaie",
+    "exemple_soussou": "Nafuli gbé mu na nbè èmè atan.",
+    "exemple_francais": "Je n'ai pas autant d'argent que lui.",
+    "phonetique": "na-fou-li",
+    "categorie": "marche"
+  },
+  {
+    "id": 164,
+    "soussou": "Tongo",
+    "francais": "Prendre / Accepter",
+    "exemple_soussou": "Yi tongo.",
+    "exemple_francais": "Accepte ceci / Prends ceci.",
+    "phonetique": "ton-go",
+    "categorie": "marche"
+  },
+  {
+    "id": 165,
+    "soussou": "Khani",
+    "francais": "Emporter / Porter",
+    "exemple_soussou": "Nkha nma kotéé khani ?",
+    "exemple_francais": "Puis-je emporter mes bagages ?",
+    "phonetique": "kha-ni",
+    "categorie": "marche"
+  },
+  {
+    "id": 166,
+    "soussou": "Wuri",
+    "francais": "Arbre / Bois",
+    "exemple_soussou": "Siga wuri badé.",
+    "exemple_francais": "Va cueillir des fruits dans l'arbre.",
+    "phonetique": "wou-ri",
+    "categorie": "marche"
+  },
+  {
+    "id": 167,
+    "soussou": "Goro",
+    "francais": "Noix de cola",
+    "exemple_soussou": "Goro fanyi na bé.",
+    "exemple_francais": "Il y a de la bonne cola ici.",
+    "phonetique": "go-ro",
+    "categorie": "marche"
+  },
+  {
+    "id": 168,
+    "soussou": "Fugnè",
+    "francais": "Ananas",
+    "exemple_soussou": "Fugnèé mu rafan nma.",
+    "exemple_francais": "Je n'aime pas les ananas.",
+    "phonetique": "foug-nè",
+    "categorie": "marche"
+  },
+  {
+    "id": 169,
+    "soussou": "Mango",
+    "francais": "Mangue",
+    "exemple_soussou": "Yi mango mulukhun.",
+    "exemple_francais": "Cette mangue est aigre.",
+    "phonetique": "man-go",
+    "categorie": "marche"
+  },
+  {
+    "id": 170,
+    "soussou": "Saré",
+    "francais": "Payer",
+    "exemple_soussou": "Wo n saré fi sanu wokha goro.",
+    "exemple_francais": "Payez-moi d'abord avant de descendre.",
+    "phonetique": "sa-ré",
+    "categorie": "marche"
+  }
+],
+
+[
+  {
+    "id": 171,
+    "soussou": "Yahdi",
+    "francais": "S'il te plaît / Je t'en prie",
+    "exemple_soussou": "Yahdi, n tubi.",
+    "exemple_francais": "Je te demande pardon, s'il te plaît.",
+    "phonetique": "yah-di",
+    "categorie": "politesse"
+  },
+  {
+    "id": 172,
+    "soussou": "Khabari n ma",
+    "francais": "Excuse-moi / Pardonne-moi",
+    "exemple_soussou": "Khabari n ma, n mu fata fa.",
+    "exemple_francais": "Excuse-moi, je ne pouvais pas venir.",
+    "phonetique": "kha-ba-ri n ma",
+    "categorie": "politesse"
+  },
+  {
+    "id": 173,
+    "soussou": "Awa",
+    "francais": "Bien / D'accord / Bon",
+    "exemple_soussou": "Awa ! A fama mun lokhè ?",
+    "exemple_francais": "Bien ! Quand viendra-t-il ?",
+    "phonetique": "a-wa",
+    "categorie": "politesse"
+  },
+  {
+    "id": 174,
+    "soussou": "Alla iantu !",
+    "francais": "Que Dieu soit loué !",
+    "exemple_soussou": "Alla iantu ! I batta pissa.",
+    "exemple_francais": "Que Dieu soit loué ! Tu vas mieux.",
+    "phonetique": "al-la ian-tou",
+    "categorie": "politesse"
+  },
+  {
+    "id": 175,
+    "soussou": "N a fikhi ima bognè n fanyi ra",
+    "francais": "Je te l'offre de bon cœur",
+    "exemple_soussou": "N a fikhi ima bognè n fanyi ra.",
+    "exemple_francais": "Je te l'offre de bon cœur.",
+    "phonetique": "n a fi-khi i-ma bog-nè n fa-nyi ra",
+    "categorie": "politesse"
+  },
+  {
+    "id": 176,
+    "soussou": "Féfé m'ara",
+    "francais": "Ce n'est rien / Il n'y a pas de quoi",
+    "exemple_soussou": "I nuwali ! — Féfé m'ara.",
+    "exemple_francais": "Merci ! — Il n'y a pas de quoi.",
+    "phonetique": "fé-fé ma-ra",
+    "categorie": "politesse"
+  },
+  {
+    "id": 177,
+    "soussou": "Dundu",
+    "francais": "Tais-toi / Silence",
+    "exemple_soussou": "Dundu, dundu korè !",
+    "exemple_francais": "Tais-toi maintenant !",
+    "phonetique": "doun-dou",
+    "categorie": "politesse"
+  },
+  {
+    "id": 178,
+    "soussou": "N gniakhalinkhi",
+    "francais": "Je suis content(e) / heureux(se)",
+    "exemple_soussou": "N gniakhalinkhi walifé ibè.",
+    "exemple_francais": "Je suis content de t'avoir rendu service.",
+    "phonetique": "n gnia-kha-lin-khi",
+    "categorie": "politesse"
+  },
+  {
+    "id": 179,
+    "soussou": "I nama khono n ma",
+    "francais": "Ne m'en veux pas",
+    "exemple_soussou": "I nama khono n ma, n mu noma.",
+    "exemple_francais": "Ne m'en veux pas, je n'ai pas pu.",
+    "phonetique": "i na-ma kho-no n ma",
+    "categorie": "politesse"
+  },
+  {
+    "id": 180,
+    "soussou": "Alla batu",
+    "francais": "Adorez Dieu / Gloire à Dieu",
+    "exemple_soussou": "Alla batu.",
+    "exemple_francais": "Adorez Dieu.",
+    "phonetique": "al-la ba-tou",
+    "categorie": "politesse"
+  }
+],
+
+[
+  {
+    "id": 181,
+    "soussou": "Bé",
+    "francais": "Ici / Là (proximité)",
+    "exemple_soussou": "Wo fa bé.",
+    "exemple_francais": "Venez ici.",
+    "phonetique": "bé",
+    "categorie": "prepositions"
+  },
+  {
+    "id": 182,
+    "soussou": "Mènl",
+    "francais": "Là-bas",
+    "exemple_soussou": "N fafé na mènl.",
+    "exemple_francais": "Mon père est là-bas.",
+    "phonetique": "mènl",
+    "categorie": "prepositions"
+  },
+  {
+    "id": 183,
+    "soussou": "Kui",
+    "francais": "Dans / Dedans / À l'intérieur",
+    "exemple_soussou": "Sèli-bankhi kui.",
+    "exemple_francais": "Dans l'église.",
+    "phonetique": "koui",
+    "categorie": "prepositions"
+  },
+  {
+    "id": 184,
+    "soussou": "Ma",
+    "francais": "Sur / À la surface de",
+    "exemple_soussou": "Dunia ma.",
+    "exemple_francais": "Sur la terre.",
+    "phonetique": "ma",
+    "categorie": "prepositions"
+  },
+  {
+    "id": 185,
+    "soussou": "Niara",
+    "francais": "Devant / En face de",
+    "exemple_soussou": "Nièrè n niara.",
+    "exemple_francais": "Marche devant moi.",
+    "phonetique": "nia-ra",
+    "categorie": "prepositions"
+  },
+  {
+    "id": 186,
+    "soussou": "Khambi",
+    "francais": "Après / Derrière",
+    "exemple_soussou": "N siga n fafé khambi.",
+    "exemple_francais": "Je vais derrière mon père.",
+    "phonetique": "kham-bi",
+    "categorie": "prepositions"
+  },
+  {
+    "id": 187,
+    "soussou": "Sanu",
+    "francais": "Avant / Auparavant",
+    "exemple_soussou": "Sanu sogè kha goro.",
+    "exemple_francais": "Avant que le soleil se couche.",
+    "phonetique": "sa-nou",
+    "categorie": "prepositions"
+  },
+  {
+    "id": 188,
+    "soussou": "Tègi",
+    "francais": "Entre / Parmi",
+    "exemple_soussou": "Ndé è tègi nakha a fala.",
+    "exemple_francais": "Quelqu'un d'entre eux a dit.",
+    "phonetique": "tè-gi",
+    "categorie": "prepositions"
+  },
+  {
+    "id": 189,
+    "soussou": "Koréra",
+    "francais": "En haut / Au-dessus",
+    "exemple_soussou": "Koréra mato.",
+    "exemple_francais": "Regarde en haut.",
+    "phonetique": "ko-ré-ra",
+    "categorie": "prepositions"
+  },
+  {
+    "id": 190,
+    "soussou": "Khon",
+    "francais": "Chez / Auprès de",
+    "exemple_soussou": "N siga n khonyi.",
+    "exemple_francais": "Je vais chez moi.",
+    "phonetique": "khon",
+    "categorie": "prepositions"
+  }
+],
+
+[
+  {
+    "id": 191,
+    "soussou": "N batta n tangé bolon",
+    "francais": "Je me suis coupé un nerf / un tendon",
+    "exemple_soussou": "N batta n tangé bolon. N sigama furétoé khon.",
+    "exemple_francais": "Je me suis coupé un tendon. Je vais chez le médecin.",
+    "phonetique": "n bat-ta n tan-gé bo-lon",
+    "categorie": "phrases_avancees"
+  },
+  {
+    "id": 192,
+    "soussou": "Féé ndé na nbè falafé ibè",
+    "francais": "J'ai quelque chose à te dire",
+    "exemple_soussou": "Féé ndé na nbè falafé ibè. I khui ramèkhi ?",
+    "exemple_francais": "J'ai quelque chose à te dire. Tu m'écoutes ?",
+    "phonetique": "fé-é n-dé na n-bè fa-la-fé i-bè",
+    "categorie": "phrases_avancees"
+  },
+  {
+    "id": 193,
+    "soussou": "N khui ramèkhi",
+    "francais": "Je t'écoute",
+    "exemple_soussou": "Fala abè ! — N khui ramèkhi.",
+    "exemple_francais": "Dis-lui ! — Je t'écoute.",
+    "phonetique": "n khui ra-mè-khi",
+    "categorie": "phrases_avancees"
+  },
+  {
+    "id": 194,
+    "soussou": "Won fugna n'ara, i nuwali gbé !",
+    "francais": "Nous sommes amis, merci beaucoup !",
+    "exemple_soussou": "Won fugna n'ara, i nuwali gbé !",
+    "exemple_francais": "Nous sommes amis, merci beaucoup !",
+    "phonetique": "won foug-na na-ra i nou-wa-li gbé",
+    "categorie": "phrases_avancees"
+  },
+  {
+    "id": 195,
+    "soussou": "N mu nèmu i ma",
+    "francais": "Je ne t'oublierai pas",
+    "exemple_soussou": "N mu nèmu i ma. Won gèsègè !",
+    "exemple_francais": "Je ne t'oublierai pas. Au revoir !",
+    "phonetique": "n mou nè-mou i ma",
+    "categorie": "phrases_avancees"
+  },
+  {
+    "id": 196,
+    "soussou": "Kha i wama nkhon, a fala nama y agi",
+    "francais": "Si tu as besoin de moi, fais-le-moi savoir",
+    "exemple_soussou": "Kha i wama nkhon, a fala nama y agi.",
+    "exemple_francais": "Si tu as besoin de moi, fais-moi prévenir, ne te gêne pas.",
+    "phonetique": "kha i wa-ma n-khon a fa-la na-ma y a-gi",
+    "categorie": "phrases_avancees"
+  },
+  {
+    "id": 197,
+    "soussou": "N m'a kolon n nakhan nignama i n ravali safé",
+    "francais": "Je ne sais plus comment te remercier",
+    "exemple_soussou": "N m'a kolon n nakhan nignama i n ravali safé.",
+    "exemple_francais": "Je ne sais plus comment te remercier.",
+    "phonetique": "n ma ko-lon n na-khan ni-gna-ma",
+    "categorie": "phrases_avancees"
+  },
+  {
+    "id": 198,
+    "soussou": "I nama sésé sa a furunkummè ma",
+    "francais": "Ne mettez rien sur sa tombe",
+    "exemple_soussou": "A malukhunkhi foré, i nama sésé sa a furunkummè ma.",
+    "exemple_francais": "Il a été enterré chrétiennement, ne mettez rien sur sa tombe.",
+    "phonetique": "i na-ma sé-sé sa a fou-roun-kum-mè ma",
+    "categorie": "phrases_avancees"
+  },
+  {
+    "id": 199,
+    "soussou": "Wall ki fanyi n malé fima woma",
+    "francais": "Si vous travaillez bien, je vous donnerai du riz",
+    "exemple_soussou": "Wall ki fanyi n malé fima woma.",
+    "exemple_francais": "Si vous travaillez bien, je vous donnerai du riz.",
+    "phonetique": "wal ki fa-nyi n ma-lé fi-ma wo-ma",
+    "categorie": "phrases_avancees"
+  },
+  {
+    "id": 200,
+    "soussou": "Wo luma hèri abada",
+    "francais": "Vous serez toujours heureux",
+    "exemple_soussou": "Wo luma hèri abada, béré ô béré !",
+    "exemple_francais": "Vous serez toujours heureux, pour toujours !",
+    "phonetique": "wo lou-ma hè-ri a-ba-da",
+    "categorie": "phrases_avancees"
+  }
+]
+]

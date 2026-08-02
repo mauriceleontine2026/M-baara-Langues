@@ -9,11 +9,13 @@ from sqlalchemy.orm import sessionmaker
 
 logger = logging.getLogger(__name__)
 
-# Load root .env file first, then `.env.local`, then fallback to backend/.env if needed.
+# Load root .env file first, then `.env.production`, then `.env.local`, then fallback to backend/.env if needed.
 root_env = Path(__file__).resolve().parents[2] / ".env"
+root_env_production = Path(__file__).resolve().parents[2] / ".env.production"
 root_env_local = Path(__file__).resolve().parents[2] / ".env.local"
 backend_env = Path(__file__).resolve().parents[1] / ".env"
 load_dotenv(dotenv_path=root_env, override=False)
+load_dotenv(dotenv_path=root_env_production, override=False)
 load_dotenv(dotenv_path=root_env_local, override=False)
 load_dotenv(dotenv_path=backend_env, override=False)
 
@@ -27,7 +29,17 @@ def _build_engine(url: str):
     return create_engine(url, connect_args=connect_args, pool_pre_ping=True)
 
 
-DATABASE_URL = os.getenv("DATABASE_URL") or f"sqlite:///{Path(__file__).resolve().parents[2] / 'mbaara.db'}"
+ROOT_DIR = Path(__file__).resolve().parents[2]
+DEFAULT_DB_PATH = ROOT_DIR / "mbaara.db"
+if os.getenv("VERCEL") == "1":
+    DEFAULT_DB_PATH = Path("/tmp") / "mbaara.db"
+
+if os.getenv("DATABASE_URL"):
+    DATABASE_URL = os.getenv("DATABASE_URL")
+else:
+    write_dir = ROOT_DIR if os.access(ROOT_DIR, os.W_OK) else Path("/tmp")
+    DEFAULT_DB_PATH = write_dir / "mbaara.db"
+    DATABASE_URL = f"sqlite:///{DEFAULT_DB_PATH}"
 
 try:
     if _is_sqlite(DATABASE_URL):
@@ -37,7 +49,7 @@ try:
         with engine.connect() as conn:  # type: ignore[attr-defined]
             conn.execute(text("SELECT 1"))
 except Exception as exc:  # noqa: BLE001
-    fallback_path = Path(__file__).resolve().parents[2] / "mbaara.db"
+    fallback_path = Path("/tmp") / "mbaara.db"
     fallback_url = f"sqlite:///{fallback_path}"
     logger.warning(
         "Could not connect to DATABASE_URL %s; falling back to %s. Error: %s",

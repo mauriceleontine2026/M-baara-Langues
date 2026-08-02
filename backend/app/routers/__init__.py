@@ -1,0 +1,11 @@
+from .health import router as health
+from .auth import router as auth
+from .lessons import router as lessons
+from .progress import router as progress
+from .audio import router as audio
+from .ai import router as ai
+from .leaderboard import router as leaderboard
+from .languages import router as languages
+from .vocabulary import router as vocabulary
+from .contributions import router as contributions
+from .users import router as users
