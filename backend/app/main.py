@@ -77,7 +77,9 @@ def _seed_default_languages():
             {"title": "Se présenter", "language_code": "bissa", "lesson_number": 1, "difficulty": "beginner", "content": "Apprenez les premiers mots du bissa.", "published": True, "description": "Premiers mots en bissa", "title_fr": "Se présenter", "level": "A1", "type": "basic", "order": 1},
         ]
         for payload in lesson_seed:
-            db.add(Lesson(**payload))
+            existing = db.query(Lesson).filter(Lesson.language_code == payload["language_code"], Lesson.lesson_number == payload["lesson_number"]).first()
+            if existing is None:
+                db.add(Lesson(**payload))
         db.commit()
 
         vocabulary_seed = [

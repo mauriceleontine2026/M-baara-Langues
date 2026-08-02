@@ -60,7 +60,12 @@ export async function getLessonsForLanguage(languageCode) {
 
   try {
     const data = await request("GET", "/api/lessons");
-    return toArray(data).filter((lesson) => lesson.language_code === languageCode);
+    const lessons = toArray(data);
+    const normalizedCode = String(languageCode).toLowerCase();
+    return lessons.filter((lesson) => {
+      const lessonCode = String(lesson.language_code || "").toLowerCase();
+      return lessonCode === normalizedCode || lessonCode === normalizedCode.replace(/francais/g, "fr").replace(/anglais/g, "en");
+    });
   } catch (error) {
     console.error("Backend lessons fetch error:", error);
     return [];
