@@ -4,7 +4,10 @@ from .database import Base, engine
 from .routers import health, auth, lessons, progress, audio, ai, languages, vocabulary, contributions, users, leaderboard
 from fastapi.staticfiles import StaticFiles
 from pathlib import Path
+import json
 import os
+import re
+import unicodedata
 from .models.language import Language
 from .models.lesson import Lesson
 from .models.vocabulary import VocabularyItem
@@ -29,6 +32,175 @@ def _ensure_user_role_column():
 
 
 _ensure_user_role_column()
+
+
+def _normalize_language_slug(value):
+    text = str(value or "").lower()
+    text = unicodedata.normalize("NFD", text)
+    text = "".join(ch for ch in text if unicodedata.category(ch) != "Mn")
+    text = re.sub(r"[^a-z0-9]+", "", text)
+    return text
+
+
+def _seed_dictionary_content(db):
+    root = Path(__file__).resolve().parents[2] / "src" / "data" / "dictionnaires"
+    if not root.exists():
+        return
+
+    language_aliases = {
+        "francais": "francais",
+        "anglais": "anglais",
+        "english": "anglais",
+        "aleman": "allemand",
+        "allemand": "allemand",
+        "deutsch": "allemand",
+        "arabe": "arabe",
+        "arabic": "arabe",
+        "espagnol": "espagnol",
+        "espanol": "espagnol",
+        "italien": "italien",
+        "italiano": "italien",
+        "portugais": "portugais",
+        "portugues": "portugais",
+        "russe": "russe",
+        "russian": "russe",
+        "japonais": "japonais",
+        "japanese": "japonais",
+        "chinois": "chinois",
+        "mandarin": "chinois",
+        "pular": "pular",
+        "soussou": "soussou",
+        "malinke": "malinke",
+        "malinké": "malinke",
+        "guerze": "guerze",
+        "kpele": "guerze",
+        "bissa": "bissa",
+        "kissi": "kissi",
+        "lingala": "lingala",
+        "swahili": "swahili",
+        "yoruba": "yoruba",
+        "igbo": "igbo",
+        "nouchi": "nouchi",
+        "wolof": "wolof",
+        "dioula": "dioula",
+        "fulfulde": "fulfulde",
+        "toma": "toma",
+        "moore": "moore",
+        "mooré": "moore",
+        "kono": "kono",
+        "konnon": "kono",
+        "hindi": "hindi",
+    }
+
+    languages = db.query(Language).all()
+    known_codes = {_normalize_language_slug(lang.code): lang.code for lang in languages}
+    known_names = {_normalize_language_slug(lang.name): lang.code for lang in languages if lang.name}
+    known_name_fr = {_normalize_language_slug(lang.name_fr): lang.code for lang in languages if lang.name_fr}
+
+    for language_dir in sorted(root.iterdir()):
+        if not language_dir.is_dir():
+            continue
+
+        folder_slug = _normalize_language_slug(language_dir.name)
+        lang_code = language_aliases.get(folder_slug)
+        if not lang_code:
+            lang_code = known_codes.get(folder_slug) or known_names.get(folder_slug) or known_name_fr.get(folder_slug)
+        if not lang_code:
+            for candidate in known_codes:
+                if candidate in folder_slug or folder_slug in candidate:
+                    lang_code = known_codes[candidate]
+                    break
+        if not lang_code:
+            continue
+
+        language_row = db.query(Language).filter(Language.code == lang_code).first()
+        if language_row:
+            language_row.status = "active"
+            language_row.total_lessons = max(language_row.total_lessons or 0, 1)
+
+        processed_items = 0
+        for json_file in sorted(language_dir.glob("*.json")):
+            try:
+                with open(json_file, "r", encoding="utf-8") as fh:
+                    payload = json.load(fh)
+            except Exception:
+                continue
+            if not isinstance(payload, list):
+                continue
+
+            lesson_exists = db.query(Lesson).filter(Lesson.language_code == lang_code, Lesson.lesson_number == 1).first()
+            if not lesson_exists:
+                lesson = Lesson(
+                    title=f"Leçon 1 - {language_row.name_fr if language_row else lang_code}",
+                    language_code=lang_code,
+                    lesson_number=1,
+                    difficulty="beginner",
+                    content=f"Vocabulaire et expressions de base pour {language_row.name_fr if language_row else lang_code}.",
+                    published=True,
+                )
+                db.add(lesson)
+                db.commit()
+                db.refresh(lesson)
+
+            for item in payload:
+                if not isinstance(item, dict):
+                    continue
+
+                target_value = (
+                    item.get("langue_cible")
+                    or item.get("word")
+                    or item.get("target")
+                    or item.get("term")
+                    or item.get("phrase")
+                    or item.get("pular")
+                )
+                if not target_value:
+                    continue
+
+                translation_value = (
+                    item.get("francais")
+                    or item.get("translation_fr")
+                    or item.get("translation")
+                    or item.get("french")
+                    or item.get("fr")
+                )
+                example_target = (
+                    item.get("exemple_langue_cible")
+                    or item.get("example_target")
+                    or item.get("example")
+                    or item.get("exemple")
+                )
+                example_fr = (
+                    item.get("exemple_francais")
+                    or item.get("example_fr")
+                    or item.get("example_translation")
+                    or item.get("exemple_traduction")
+                    or translation_value
+                )
+                phonetic = item.get("phonetique") or item.get("phonetic")
+                category = item.get("categorie") or item.get("category")
+
+                existing = db.query(VocabularyItem).filter(
+                    VocabularyItem.language_code == lang_code,
+                    VocabularyItem.lesson_number == 1,
+                    VocabularyItem.word == str(target_value),
+                ).first()
+                if existing is None:
+                    db.add(VocabularyItem(
+                        language_code=lang_code,
+                        lesson_number=1,
+                        word=str(target_value),
+                        translation_fr=str(translation_value) if translation_value is not None else None,
+                        phonetic=str(phonetic) if phonetic is not None else None,
+                        example_target=str(example_target) if example_target is not None else None,
+                        example_fr=str(example_fr) if example_fr is not None else None,
+                        difficulty=str(category) if category else "beginner",
+                    ))
+                    processed_items += 1
+            db.commit()
+        if processed_items > 0 and language_row:
+            language_row.total_lessons = max(language_row.total_lessons or 0, 1)
+            db.commit()
 
 
 def _seed_default_languages():
@@ -102,6 +274,8 @@ def _seed_default_languages():
             if existing is None:
                 db.add(VocabularyItem(**payload))
         db.commit()
+
+        _seed_dictionary_content(db)
     finally:
         db.close()
 
