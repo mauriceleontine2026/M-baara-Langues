@@ -6,6 +6,8 @@ from fastapi.staticfiles import StaticFiles
 from pathlib import Path
 import os
 from .models.language import Language
+from .models.lesson import Lesson
+from .models.vocabulary import VocabularyItem
 from .database import SessionLocal
 
 app = FastAPI(title="M'baara API", version="0.1.0")
@@ -66,6 +68,30 @@ def _seed_default_languages():
         ]
         for payload in default_languages:
             db.add(Language(**payload))
+        db.commit()
+
+        lesson_seed = [
+            {"title": "Saluer", "language_code": "francais", "lesson_number": 1, "difficulty": "beginner", "content": "Commencez par saluer en français.", "published": True, "description": "Premiers mots de politesse", "title_fr": "Saluer", "level": "A1", "type": "basic", "order": 1},
+            {"title": "Se présenter", "language_code": "francais", "lesson_number": 2, "difficulty": "beginner", "content": "Apprenez à vous présenter.", "published": True, "description": "Présenter son prénom et son pays", "title_fr": "Se présenter", "level": "A1", "type": "basic", "order": 2},
+            {"title": "Les bases", "language_code": "anglais", "lesson_number": 1, "difficulty": "beginner", "content": "Start with everyday English words.", "published": True, "description": "Everyday greetings", "title_fr": "Les bases", "level": "A1", "type": "basic", "order": 1},
+            {"title": "Se présenter", "language_code": "bissa", "lesson_number": 1, "difficulty": "beginner", "content": "Apprenez les premiers mots du bissa.", "published": True, "description": "Premiers mots en bissa", "title_fr": "Se présenter", "level": "A1", "type": "basic", "order": 1},
+        ]
+        for payload in lesson_seed:
+            db.add(Lesson(**payload))
+        db.commit()
+
+        vocabulary_seed = [
+            {"language_code": "francais", "lesson_number": 1, "word": "bonjour", "translation_fr": "bonjour", "phonetic": "bɔ̃.ʒuʁ", "example_target": "Bonjour !", "example_fr": "Bonjour !", "difficulty": "beginner"},
+            {"language_code": "francais", "lesson_number": 1, "word": "merci", "translation_fr": "merci", "phonetic": "mɛʁ.si", "example_target": "Merci beaucoup", "example_fr": "Merci beaucoup", "difficulty": "beginner"},
+            {"language_code": "francais", "lesson_number": 2, "word": "je", "translation_fr": "je", "phonetic": "ʒə", "example_target": "Je m'appelle Mali", "example_fr": "Je m'appelle Mali", "difficulty": "beginner"},
+            {"language_code": "francais", "lesson_number": 2, "word": "m'appelle", "translation_fr": "m'appelle", "phonetic": "ma.pɛl", "example_target": "Je m'appelle Awa", "example_fr": "Je m'appelle Awa", "difficulty": "beginner"},
+            {"language_code": "anglais", "lesson_number": 1, "word": "hello", "translation_fr": "bonjour", "phonetic": "həˈloʊ", "example_target": "Hello there", "example_fr": "Bonjour à tous", "difficulty": "beginner"},
+            {"language_code": "anglais", "lesson_number": 1, "word": "thank you", "translation_fr": "merci", "phonetic": "θæŋk ju", "example_target": "Thank you very much", "example_fr": "Merci beaucoup", "difficulty": "beginner"},
+            {"language_code": "bissa", "lesson_number": 1, "word": "sanu", "translation_fr": "salut", "phonetic": "sa.nu", "example_target": "Sanu yé", "example_fr": "Salut à toi", "difficulty": "beginner"},
+            {"language_code": "bissa", "lesson_number": 1, "word": "mbo", "translation_fr": "viens", "phonetic": "mbo", "example_target": "Mbo wa", "example_fr": "Viens ici", "difficulty": "beginner"},
+        ]
+        for payload in vocabulary_seed:
+            db.add(VocabularyItem(**payload))
         db.commit()
     finally:
         db.close()
