@@ -5,13 +5,14 @@ from .routers import health, auth, lessons, progress, audio, ai, languages, voca
 from fastapi.staticfiles import StaticFiles
 from pathlib import Path
 import os
+from .models.language import Language
+from .database import SessionLocal
 
 app = FastAPI(title="M'baara API", version="0.1.0")
 
 Base.metadata.create_all(bind=engine)
 
 from sqlalchemy import inspect
-from .database import SessionLocal
 
 
 def _ensure_user_role_column():
@@ -26,6 +27,59 @@ def _ensure_user_role_column():
 
 
 _ensure_user_role_column()
+
+
+def _seed_default_languages():
+    db = SessionLocal()
+    try:
+        if db.query(Language).count() > 0:
+            return
+        default_languages = [
+            {
+                "code": "francais",
+                "name": "Français",
+                "name_fr": "Français",
+                "region": "Monde",
+                "family": "Langue mondiale",
+                "status": "active",
+                "color": "#2563eb",
+                "flag_emoji": "🇫🇷",
+                "total_lessons": 3,
+                "description": "Langue de communication internationale",
+            },
+            {
+                "code": "anglais",
+                "name": "English",
+                "name_fr": "Anglais",
+                "region": "Monde",
+                "family": "Langue mondiale",
+                "status": "active",
+                "color": "#7c3aed",
+                "flag_emoji": "🇬🇧",
+                "total_lessons": 3,
+                "description": "Langue internationale très utilisée",
+            },
+            {
+                "code": "bissa",
+                "name": "Bissa",
+                "name_fr": "Bissa",
+                "region": "Burkina Faso",
+                "family": "Langue africaine",
+                "status": "active",
+                "color": "#16a34a",
+                "flag_emoji": "🇧🇫",
+                "total_lessons": 3,
+                "description": "Langue africaine locale",
+            },
+        ]
+        for payload in default_languages:
+            db.add(Language(**payload))
+        db.commit()
+    finally:
+        db.close()
+
+
+_seed_default_languages()
 
 app.add_middleware(
     CORSMiddleware,
