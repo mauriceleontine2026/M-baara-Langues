@@ -30,9 +30,17 @@ export async function getVocabularyForLanguage(languageCode) {
     return [];
   }
 
+  const candidates = [String(languageCode).trim(), String(languageCode).trim().toLowerCase(), String(languageCode).trim().replace(/français/g, "francais").replace(/français/g, "francais")];
+  const uniqueCandidates = [...new Set(candidates.filter(Boolean))];
+
   try {
     const data = await request("GET", "/api/vocabulary", undefined, { language_code: languageCode });
-    return toArray(data);
+    const items = toArray(data);
+    if (items.length > 0) return items;
+
+    const fallbackData = await request("GET", "/api/vocabulary");
+    const allItems = toArray(fallbackData);
+    return allItems.filter((item) => uniqueCandidates.includes(String(item.language_code || "")) || uniqueCandidates.some((candidate) => String(item.language_code || "").toLowerCase() === candidate.toLowerCase()));
   } catch (error) {
     console.error("Backend vocabulary fetch error:", error);
     return [];
@@ -61,10 +69,12 @@ export async function getLessonsForLanguage(languageCode) {
   try {
     const data = await request("GET", "/api/lessons");
     const lessons = toArray(data);
-    const normalizedCode = String(languageCode).toLowerCase();
+    const normalizedCode = String(languageCode).trim().toLowerCase();
+    const aliases = [normalizedCode, normalizedCode.replace(/français/g, "francais").replace(/francais/g, "francais"), normalizedCode.replace(/francais/g, "fr"), normalizedCode.replace(/anglais/g, "en")];
+    const normalizedAliases = [...new Set(aliases.filter(Boolean))];
     return lessons.filter((lesson) => {
-      const lessonCode = String(lesson.language_code || "").toLowerCase();
-      return lessonCode === normalizedCode || lessonCode === normalizedCode.replace(/francais/g, "fr").replace(/anglais/g, "en");
+      const lessonCode = String(lesson.language_code || "").trim().toLowerCase();
+      return normalizedAliases.includes(lessonCode) || normalizedAliases.some((alias) => lessonCode === alias || lessonCode.startsWith(alias));
     });
   } catch (error) {
     console.error("Backend lessons fetch error:", error);

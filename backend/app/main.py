@@ -34,9 +34,9 @@ _ensure_user_role_column()
 def _seed_default_languages():
     db = SessionLocal()
     try:
-        if db.query(Language).count() > 0:
-            return
-        default_languages = [
+        existing_languages = {lang.code: lang for lang in db.query(Language).all()}
+        if not existing_languages:
+            default_languages = [
             {"code": "pular", "name": "Pular", "name_fr": "Pular (Fouta Djallon)", "region": "Guinée", "family": "Atlantique", "status": "active", "color": "#D4622A", "flag_emoji": "🇬🇳", "total_lessons": 20, "description": "Langue peule de Guinée"},
             {"code": "soussou", "name": "Soussou", "name_fr": "Soussou", "region": "Guinée", "family": "Atlantique", "status": "active", "color": "#E8A838", "flag_emoji": "🇬🇳", "total_lessons": 20, "description": "Langue côtière de Guinée"},
             {"code": "malinke", "name": "Malinké", "name_fr": "Malinké", "region": "Guinée", "family": "Mandé", "status": "active", "color": "#2E7D32", "flag_emoji": "🇬🇳", "total_lessons": 20, "description": "Langue mandingue de Guinée"},
@@ -66,15 +66,16 @@ def _seed_default_languages():
             {"code": "chinois", "name": "中文", "name_fr": "Chinois (Mandarin)", "region": "Chine", "family": "Sino-tibétain", "status": "active", "color": "#C62828", "flag_emoji": "🇨🇳", "total_lessons": 20, "description": "Langue la plus parlée au monde"},
             {"code": "japonais", "name": "日本語", "name_fr": "Japonais", "region": "Japon", "family": "Japono-ryukyu", "status": "active", "color": "#AD1457", "flag_emoji": "🇯🇵", "total_lessons": 20, "description": "Langue du Japon"},
         ]
-        for payload in default_languages:
-            db.add(Language(**payload))
-        db.commit()
+            for payload in default_languages:
+                db.add(Language(**payload))
+            db.commit()
+            existing_languages = {lang.code: lang for lang in db.query(Language).all()}
 
         lesson_seed = [
-            {"title": "Saluer", "language_code": "francais", "lesson_number": 1, "difficulty": "beginner", "content": "Commencez par saluer en français.", "published": True, "description": "Premiers mots de politesse", "title_fr": "Saluer", "level": "A1", "type": "basic", "order": 1},
-            {"title": "Se présenter", "language_code": "francais", "lesson_number": 2, "difficulty": "beginner", "content": "Apprenez à vous présenter.", "published": True, "description": "Présenter son prénom et son pays", "title_fr": "Se présenter", "level": "A1", "type": "basic", "order": 2},
-            {"title": "Les bases", "language_code": "anglais", "lesson_number": 1, "difficulty": "beginner", "content": "Start with everyday English words.", "published": True, "description": "Everyday greetings", "title_fr": "Les bases", "level": "A1", "type": "basic", "order": 1},
-            {"title": "Se présenter", "language_code": "bissa", "lesson_number": 1, "difficulty": "beginner", "content": "Apprenez les premiers mots du bissa.", "published": True, "description": "Premiers mots en bissa", "title_fr": "Se présenter", "level": "A1", "type": "basic", "order": 1},
+            {"title": "Saluer", "language_code": "francais", "lesson_number": 1, "difficulty": "beginner", "content": "Commencez par saluer en français.", "published": True},
+            {"title": "Se présenter", "language_code": "francais", "lesson_number": 2, "difficulty": "beginner", "content": "Apprenez à vous présenter.", "published": True},
+            {"title": "Les bases", "language_code": "anglais", "lesson_number": 1, "difficulty": "beginner", "content": "Start with everyday English words.", "published": True},
+            {"title": "Se présenter", "language_code": "bissa", "lesson_number": 1, "difficulty": "beginner", "content": "Apprenez les premiers mots du bissa.", "published": True},
         ]
         for payload in lesson_seed:
             existing = db.query(Lesson).filter(Lesson.language_code == payload["language_code"], Lesson.lesson_number == payload["lesson_number"]).first()
@@ -93,7 +94,13 @@ def _seed_default_languages():
             {"language_code": "bissa", "lesson_number": 1, "word": "mbo", "translation_fr": "viens", "phonetic": "mbo", "example_target": "Mbo wa", "example_fr": "Viens ici", "difficulty": "beginner"},
         ]
         for payload in vocabulary_seed:
-            db.add(VocabularyItem(**payload))
+            existing = db.query(VocabularyItem).filter(
+                VocabularyItem.language_code == payload["language_code"],
+                VocabularyItem.lesson_number == payload["lesson_number"],
+                VocabularyItem.word == payload["word"],
+            ).first()
+            if existing is None:
+                db.add(VocabularyItem(**payload))
         db.commit()
     finally:
         db.close()
