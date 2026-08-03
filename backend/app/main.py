@@ -31,7 +31,26 @@ def _ensure_user_role_column():
         conn.execute("ALTER TABLE users ADD COLUMN role VARCHAR(50) DEFAULT 'user'")
 
 
+def _ensure_lesson_columns():
+    inspector = inspect(engine)
+    if 'lessons' not in inspector.get_table_names():
+        return
+    columns = {column['name'] for column in inspector.get_columns('lessons')}
+    with engine.connect() as conn:
+        if 'title_fr' not in columns:
+            conn.execute(text('ALTER TABLE lessons ADD COLUMN title_fr VARCHAR(255)'))
+        if 'level' not in columns:
+            conn.execute(text('ALTER TABLE lessons ADD COLUMN level VARCHAR(50)'))
+        if 'type' not in columns:
+            conn.execute(text('ALTER TABLE lessons ADD COLUMN "type" VARCHAR(50)'))
+        if '"order"' not in columns and 'order' not in columns:
+            conn.execute(text('ALTER TABLE lessons ADD COLUMN "order" INTEGER DEFAULT 1'))
+        if 'description' not in columns:
+            conn.execute(text('ALTER TABLE lessons ADD COLUMN description TEXT'))
+
+
 _ensure_user_role_column()
+_ensure_lesson_columns()
 
 
 def _normalize_language_slug(value):

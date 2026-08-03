@@ -198,9 +198,11 @@ export default function Learn() {
                     {isDone ? <CheckCircle size={20} /> : isUnlocked ? <span className="font-bold text-sm">{num}</span> : <Lock size={14} />}
                   </div>
                   <div className="flex-1 min-w-0">
-                    <div className="font-semibold text-foreground text-sm">{lessonInfo[num]?.title_fr || lessonInfo[num]?.title || `Leçon ${num}`}</div>
+                    <div className="font-semibold text-foreground text-sm">{lessonInfo[num]?.module?.theme || lessonInfo[num]?.title_fr || lessonInfo[num]?.title || `Leçon ${num}`}</div>
                     <div className="text-xs text-muted-foreground">
-                      {lessonInfo[num]?.description
+                      {lessonInfo[num]?.module?.description
+                        ? lessonInfo[num]?.module?.description
+                        : lessonInfo[num]?.description
                         ? lessonInfo[num]?.description
                         : lessonInfo[num]?.content
                         ? lessonInfo[num]?.content

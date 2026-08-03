@@ -140,8 +140,9 @@ export default function Lesson() {
     await updateProgress({ type: "lesson_complete", language_code: langCode, lesson_number: num, xp: xpEarned });
   };
 
-  const lessonTitle = lessonMeta?.title_fr || lessonMeta?.title || `Leçon ${parseInt(lessonNum || "0", 10)}`;
-  const lessonDescription = lessonMeta?.description || lessonMeta?.content || `${items.length} mots à apprendre`;
+  const lessonTitle = lessonMeta?.module?.theme || lessonMeta?.title_fr || lessonMeta?.title || `Leçon ${parseInt(lessonNum || "0", 10)}`;
+  const lessonDescription = lessonMeta?.module?.description || lessonMeta?.description || lessonMeta?.content || `${items.length} mots à apprendre`;
+  const lessonNiveau = lessonMeta?.module?.niveau || lessonMeta?.level || null;
 
   if (loading) {
     return (
@@ -199,6 +200,7 @@ export default function Lesson() {
           <div className="flex items-center justify-between gap-3 mb-3">
             <div>
               <h1 className="text-xl font-semibold text-foreground">{lessonTitle}</h1>
+              {lessonNiveau && <p className="text-xs uppercase tracking-[0.18em] text-primary font-semibold mt-1">{lessonNiveau}</p>}
               <p className="text-sm text-muted-foreground mt-1">{lessonDescription}</p>
             </div>
             <span className="text-3xl">{language.flag_emoji}</span>
