@@ -439,6 +439,7 @@ def _seed_default_languages():
         lesson_seed = [
             {"title": "Saluer", "language_code": "francais", "lesson_number": 1, "difficulty": "beginner", "content": "Commencez par saluer en français.", "published": True},
             {"title": "Se présenter", "language_code": "francais", "lesson_number": 2, "difficulty": "beginner", "content": "Apprenez à vous présenter.", "published": True},
+            {"title": "Commander à manger", "language_code": "francais", "lesson_number": 3, "difficulty": "beginner", "content": "Apprenez à commander au restaurant avec des phrases simples.", "published": True},
             {"title": "Les bases", "language_code": "anglais", "lesson_number": 1, "difficulty": "beginner", "content": "Start with everyday English words.", "published": True},
             {"title": "Se présenter", "language_code": "bissa", "lesson_number": 1, "difficulty": "beginner", "content": "Apprenez les premiers mots du bissa.", "published": True},
         ]
@@ -453,6 +454,10 @@ def _seed_default_languages():
             {"language_code": "francais", "lesson_number": 1, "word": "merci", "translation_fr": "merci", "phonetic": "mɛʁ.si", "example_target": "Merci beaucoup", "example_fr": "Merci beaucoup", "difficulty": "beginner"},
             {"language_code": "francais", "lesson_number": 2, "word": "je", "translation_fr": "je", "phonetic": "ʒə", "example_target": "Je m'appelle Mali", "example_fr": "Je m'appelle Mali", "difficulty": "beginner"},
             {"language_code": "francais", "lesson_number": 2, "word": "m'appelle", "translation_fr": "m'appelle", "phonetic": "ma.pɛl", "example_target": "Je m'appelle Awa", "example_fr": "Je m'appelle Awa", "difficulty": "beginner"},
+            {"language_code": "francais", "lesson_number": 3, "word": "croissant", "translation_fr": "croissant", "phonetic": "kʁwa.sɑ̃", "example_target": "Je voudrais un croissant.", "example_fr": "Je voudrais un croissant.", "difficulty": "beginner"},
+            {"language_code": "francais", "lesson_number": 3, "word": "café", "translation_fr": "coffee", "phonetic": "ka.fe", "example_target": "Je voudrais un café.", "example_fr": "Je voudrais un café.", "difficulty": "beginner"},
+            {"language_code": "francais", "lesson_number": 3, "word": "s'il vous plaît", "translation_fr": "please", "phonetic": "sil vu plɛ", "example_target": "Un jus d'orange, s'il vous plaît.", "example_fr": "Un jus d'orange, s'il vous plaît.", "difficulty": "beginner"},
+            {"language_code": "francais", "lesson_number": 3, "word": "l'addition", "translation_fr": "the bill", "phonetic": "la.di.sjɔ̃", "example_target": "L'addition, s'il vous plaît.", "example_fr": "L'addition, s'il vous plaît.", "difficulty": "beginner"},
             {"language_code": "anglais", "lesson_number": 1, "word": "hello", "translation_fr": "bonjour", "phonetic": "həˈloʊ", "example_target": "Hello there", "example_fr": "Bonjour à tous", "difficulty": "beginner"},
             {"language_code": "anglais", "lesson_number": 1, "word": "thank you", "translation_fr": "merci", "phonetic": "θæŋk ju", "example_target": "Thank you very much", "example_fr": "Merci beaucoup", "difficulty": "beginner"},
             {"language_code": "bissa", "lesson_number": 1, "word": "sanu", "translation_fr": "salut", "phonetic": "sa.nu", "example_target": "Sanu yé", "example_fr": "Salut à toi", "difficulty": "beginner"},
