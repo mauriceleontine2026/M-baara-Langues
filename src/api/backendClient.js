@@ -12,12 +12,14 @@ const getAuthToken = () => {
 const setAuthToken = (token) => {
   if (typeof window !== "undefined") {
     window.localStorage.setItem(AUTH_TOKEN_KEY, token);
+    window.dispatchEvent(new Event("mbaara-auth-changed"));
   }
 };
 
 const clearAuthToken = () => {
   if (typeof window !== "undefined") {
     window.localStorage.removeItem(AUTH_TOKEN_KEY);
+    window.dispatchEvent(new Event("mbaara-auth-changed"));
   }
 };
 

@@ -198,11 +198,15 @@ export default function Learn() {
                     {isDone ? <CheckCircle size={20} /> : isUnlocked ? <span className="font-bold text-sm">{num}</span> : <Lock size={14} />}
                   </div>
                   <div className="flex-1 min-w-0">
-                    <div className="font-semibold text-foreground text-sm">{lessonInfo[num]?.title || `Leçon ${num}`}</div>
+                    <div className="font-semibold text-foreground text-sm">{lessonInfo[num]?.title_fr || lessonInfo[num]?.title || `Leçon ${num}`}</div>
                     <div className="text-xs text-muted-foreground">
-                      {lessonItems.length > 0
+                      {lessonInfo[num]?.description
+                        ? lessonInfo[num]?.description
+                        : lessonInfo[num]?.content
+                        ? lessonInfo[num]?.content
+                        : lessonItems.length > 0
                         ? `${lessonItems.length} mots · ${[...new Set(lessonItems.map(i => i.category))].slice(0, 3).join(", ")}`
-                        : lessonInfo[num]?.content || "Aucun vocabulaire disponible pour le moment"}
+                        : "Aucun vocabulaire disponible pour le moment"}
                     </div>
                   </div>
                   {isUnlocked && <ArrowRight size={18} className="text-muted-foreground" />}

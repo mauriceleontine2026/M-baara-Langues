@@ -3,9 +3,30 @@ import { getCurrentUser, logout as logoutService } from '@/api/authService';
 
 const AuthContext = createContext(null);
 
+const USER_STORAGE_KEY = "mbaara_user";
+
+const getStoredUser = () => {
+  if (typeof window === "undefined" || !window.localStorage) return null;
+  try {
+    const raw = window.localStorage.getItem(USER_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+};
+
+const persistUser = (user) => {
+  if (typeof window === "undefined" || !window.localStorage) return;
+  if (user) {
+    window.localStorage.setItem(USER_STORAGE_KEY, JSON.stringify(user));
+  } else {
+    window.localStorage.removeItem(USER_STORAGE_KEY);
+  }
+};
+
 export const AuthProvider = ({ children }) => {
-  const [user, setUser] = useState(null);
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [user, setUser] = useState(getStoredUser());
+  const [isAuthenticated, setIsAuthenticated] = useState(Boolean(getStoredUser()));
   const [isLoadingAuth, setIsLoadingAuth] = useState(true);
   const [isLoadingPublicSettings, setIsLoadingPublicSettings] = useState(false);
   const [authError, setAuthError] = useState(null);
@@ -13,6 +34,17 @@ export const AuthProvider = ({ children }) => {
 
   useEffect(() => {
     checkAppState();
+
+    if (typeof window !== "undefined") {
+      const onAuthChanged = () => {
+        checkUserAuth();
+      };
+      window.addEventListener("mbaara-auth-changed", onAuthChanged);
+      return () => {
+        window.removeEventListener("mbaara-auth-changed", onAuthChanged);
+      };
+    }
+    return undefined;
   }, []);
 
   const checkAppState = async () => {
@@ -27,10 +59,12 @@ export const AuthProvider = ({ children }) => {
     try {
       const currentUser = await getCurrentUser();
       setUser(currentUser);
-      setIsAuthenticated(true);
+      setIsAuthenticated(Boolean(currentUser));
+      persistUser(currentUser);
     } catch (error) {
       setUser(null);
       setIsAuthenticated(false);
+      persistUser(null);
       const status = error?.status ?? (error instanceof Error ? null : null);
       if (status === 401 || status === 403) {
         setAuthError({ type: 'auth_required', message: 'Authentication required' });
@@ -44,7 +78,11 @@ export const AuthProvider = ({ children }) => {
   };
 
   const updateUser = (updates) => {
-    setUser((currentUser) => (currentUser ? { ...currentUser, ...updates } : currentUser));
+    setUser((currentUser) => {
+      const nextUser = currentUser ? { ...currentUser, ...updates } : currentUser;
+      persistUser(nextUser);
+      return nextUser;
+    });
   };
 
   const logout = async () => {
@@ -53,6 +91,7 @@ export const AuthProvider = ({ children }) => {
     setIsAuthenticated(false);
     setAuthError(null);
     setAuthChecked(true);
+    persistUser(null);
   };
 
   const navigateToLogin = () => {

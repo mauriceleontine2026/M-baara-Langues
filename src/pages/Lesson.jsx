@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useAuth } from "@/lib/AuthContext";
-import { getLanguageByCode, getVocabularyForLanguage, getVocabularyForLesson } from "@/api/languageService";
+import { getLanguageByCode, getLessonsForLanguage, getVocabularyForLanguage, getVocabularyForLesson } from "@/api/languageService";
 import { updateProgress } from "@/api/progressService";
 import { ArrowLeft, Volume2, Heart, X, Check, WifiOff } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -13,6 +13,7 @@ export default function Lesson() {
   const navigate = useNavigate();
   const { user } = useAuth();
   const [language, setLanguage] = useState(/** @type {any | null} */ (null));
+  const [lessonMeta, setLessonMeta] = useState(/** @type {any | null} */ (null));
   const [items, setItems] = useState(/** @type {any[]} */ ([]));
   const [allItems, setAllItems] = useState(/** @type {any[]} */ ([]));
   const [phase, setPhase] = useState("learn");
@@ -49,8 +50,15 @@ export default function Lesson() {
     const allItemsPromise = online
       ? getVocabularyForLanguage(safeLangCode)
       : Promise.resolve(Array.isArray(getOfflineVocab(safeLangCode)) ? getOfflineVocab(safeLangCode) : []);
+    const lessonMetaPromise = online
+      ? getLessonsForLanguage(safeLangCode)
+      : Promise.resolve([]);
 
-    Promise.allSettled([languagePromise, lessonItemsPromise, allItemsPromise]).then(([langRes, itemsRes, allRes]) => {
+    Promise.allSettled([languagePromise, lessonItemsPromise, allItemsPromise, lessonMetaPromise]).then(([langRes, itemsRes, allRes, lessonsRes]) => {
+      const meta = lessonsRes.status === "fulfilled" && Array.isArray(lessonsRes.value)
+        ? lessonsRes.value.find((lesson) => lesson.lesson_number === safeLessonNum)
+        : null;
+      setLessonMeta(meta);
       if (langRes.status === "fulfilled") {
         setLanguage(langRes.value ?? null);
       } else {
@@ -132,6 +140,9 @@ export default function Lesson() {
     await updateProgress({ type: "lesson_complete", language_code: langCode, lesson_number: num, xp: xpEarned });
   };
 
+  const lessonTitle = lessonMeta?.title_fr || lessonMeta?.title || `Leçon ${parseInt(lessonNum || "0", 10)}`;
+  const lessonDescription = lessonMeta?.description || lessonMeta?.content || `${items.length} mots à apprendre`;
+
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -184,6 +195,15 @@ export default function Lesson() {
               animate={{ width: `${progress * 100}%` }} transition={{ duration: 0.4 }} />
           </div>
           <div className="flex items-center gap-0.5 text-red-500">
+        <div className="mb-6 rounded-3xl bg-card border border-border p-5">
+          <div className="flex items-center justify-between gap-3 mb-3">
+            <div>
+              <h1 className="text-xl font-semibold text-foreground">{lessonTitle}</h1>
+              <p className="text-sm text-muted-foreground mt-1">{lessonDescription}</p>
+            </div>
+            <span className="text-3xl">{language.flag_emoji}</span>
+          </div>
+        </div>
             {[...Array(5)].map((_, i) => (
               <Heart key={i} size={16} fill={i < hearts ? "currentColor" : "none"} className={i < hearts ? "" : "text-muted-foreground/30"} />
             ))}
