@@ -270,21 +270,62 @@ def _seed_dictionary_content(db):
                 db.commit()
 
 
-def _seed_missing_lessons(db):
+def _seed_missing_lessons(db, min_lessons: int = 20):
+    lesson_themes = [
+        "Salutations",
+        "Se présenter",
+        "Les nombres",
+        "Les couleurs",
+        "La famille",
+        "Le temps",
+        "Les directions",
+        "Les aliments",
+        "Au marché",
+        "La maison",
+        "Les animaux",
+        "Les émotions",
+        "La santé",
+        "Les vêtements",
+        "Les transports",
+        "Au restaurant",
+        "La météo",
+        "Les loisirs",
+        "Voyage et culture",
+        "Les traditions",
+    ]
+
     added = 0
     for language_row in db.query(Language).all():
-        lesson_exists = db.query(Lesson).filter(Lesson.language_code == language_row.code, Lesson.lesson_number == 1).first()
-        if lesson_exists is None:
+        existing_numbers = {
+            lesson.lesson_number
+            for lesson in db.query(Lesson).filter(Lesson.language_code == language_row.code).all()
+        }
+        for lesson_number in range(1, min_lessons + 1):
+            if lesson_number in existing_numbers:
+                continue
+            theme = lesson_themes[(lesson_number - 1) % len(lesson_themes)]
+            title = f"Leçon {lesson_number} - {theme}"
+            content = (
+                f"Contenu de la leçon {lesson_number} pour {language_row.name_fr or language_row.name or language_row.code}. "
+                "Apprenez de nouveaux mots, expressions et phrases utiles."
+            )
+            difficulty = (
+                "beginner"
+                if lesson_number <= 5
+                else "intermediate"
+                if lesson_number <= 15
+                else "advanced"
+            )
             db.add(Lesson(
-                title=f"Leçon 1 - {language_row.name_fr or language_row.name or language_row.code}",
+                title=title,
                 language_code=language_row.code,
-                lesson_number=1,
-                difficulty="beginner",
-                content=f"Vocabulaire et expressions de base pour {language_row.name_fr or language_row.name or language_row.code}.",
+                lesson_number=lesson_number,
+                difficulty=difficulty,
+                content=content,
                 published=True,
             ))
-            language_row.total_lessons = max(language_row.total_lessons or 0, 1)
             added += 1
+        language_row.total_lessons = max(language_row.total_lessons or 0, min_lessons)
     if added > 0:
         db.commit()
 
@@ -362,7 +403,7 @@ def _seed_default_languages():
         db.commit()
 
         _seed_dictionary_content(db)
-        _seed_missing_lessons(db)
+        _seed_missing_lessons(db, min_lessons=20)
     finally:
         db.close()
 
