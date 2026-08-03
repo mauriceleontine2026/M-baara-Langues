@@ -18,19 +18,25 @@ class ProgressUpdateRequest(BaseModel):
 @router.get("")
 def get_progress(current_user=Depends(get_current_user), db: Session = Depends(get_db)):
     user_id = str(current_user.id)
-    progress = db.query(UserProgress).filter(UserProgress.user_id == user_id).first()
-    if not progress:
+    progresses = db.query(UserProgress).filter(UserProgress.user_id == user_id).all()
+    if not progresses:
         progress = UserProgress(user_id=user_id, language_code="fr", xp=240, streak=6, completed_lessons=[1, 2], next_goal="Terminer 3 leçons cette semaine")
         db.add(progress)
         db.commit()
         db.refresh(progress)
-    return [{
-        "language_code": progress.language_code,
-        "xp": progress.xp,
-        "streak": progress.streak,
-        "completed_lessons": progress.completed_lessons,
-        "next_goal": progress.next_goal,
-    }]
+        progresses = [progress]
+
+    return [
+        {
+            "language_code": progress.language_code,
+            "xp": progress.xp,
+            "streak": progress.streak,
+            "completed_lessons": progress.completed_lessons,
+            "current_lesson": max(progress.completed_lessons or [0]) + 1,
+            "next_goal": progress.next_goal,
+        }
+        for progress in progresses
+    ]
 
 
 @router.post("")
@@ -56,10 +62,13 @@ def update_progress(payload: ProgressUpdateRequest, current_user=Depends(get_cur
 
     db.commit()
     db.refresh(progress)
+    completed_lessons = progress.completed_lessons or []
+    current_lesson = max(completed_lessons) + 1 if completed_lessons else 1
     return {
         "language_code": progress.language_code,
         "xp": progress.xp,
         "streak": progress.streak,
         "completed_lessons": progress.completed_lessons,
+        "current_lesson": current_lesson,
         "next_goal": progress.next_goal,
     }

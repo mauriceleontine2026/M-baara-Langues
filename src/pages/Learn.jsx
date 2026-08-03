@@ -128,8 +128,9 @@ export default function Learn() {
       ...safeLessons.map(l => l?.lesson_number || 1),
     ])).sort((a, b) => a - b);
     const prog = safeProgresses.find(p => p.language_code === langCode);
-    const currentLesson = prog?.current_lesson || 1;
     const completed = prog?.completed_lessons || [];
+    const maxCompleted = completed.length > 0 ? Math.max(...completed) : 0;
+    const currentLesson = prog?.current_lesson ?? (maxCompleted + 1 || 1);
 
     return (
       <div className="p-6 lg:p-10 max-w-3xl mx-auto">
