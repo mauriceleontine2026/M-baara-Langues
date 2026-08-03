@@ -88,6 +88,7 @@ def _seed_dictionary_content(db):
         "kpele": "guerze",
         "kponon": "kono",
         "konnon": "kono",
+        "konon": "kono",
         "kono": "kono",
         "bissa": "bissa",
         "kissi": "kissi",
@@ -269,6 +270,25 @@ def _seed_dictionary_content(db):
                 db.commit()
 
 
+def _seed_missing_lessons(db):
+    added = 0
+    for language_row in db.query(Language).all():
+        lesson_exists = db.query(Lesson).filter(Lesson.language_code == language_row.code, Lesson.lesson_number == 1).first()
+        if lesson_exists is None:
+            db.add(Lesson(
+                title=f"Leçon 1 - {language_row.name_fr or language_row.name or language_row.code}",
+                language_code=language_row.code,
+                lesson_number=1,
+                difficulty="beginner",
+                content=f"Vocabulaire et expressions de base pour {language_row.name_fr or language_row.name or language_row.code}.",
+                published=True,
+            ))
+            language_row.total_lessons = max(language_row.total_lessons or 0, 1)
+            added += 1
+    if added > 0:
+        db.commit()
+
+
 def _seed_default_languages():
     db = SessionLocal()
     try:
@@ -342,6 +362,7 @@ def _seed_default_languages():
         db.commit()
 
         _seed_dictionary_content(db)
+        _seed_missing_lessons(db)
     finally:
         db.close()
 

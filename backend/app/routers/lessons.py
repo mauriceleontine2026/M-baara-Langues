@@ -37,9 +37,14 @@ class LessonUpdateRequest(BaseModel):
 
 
 @router.get("")
-def list_lessons(db: Session = Depends(get_db)):
-    lessons = db.query(Lesson).filter(Lesson.published.is_(True)).order_by(Lesson.lesson_number.asc()).all()
-    if not lessons:
+def list_lessons(language_code: str | None = None, lesson_number: int | None = None, db: Session = Depends(get_db)):
+    query = db.query(Lesson).filter(Lesson.published.is_(True))
+    if language_code:
+        query = query.filter(Lesson.language_code == language_code)
+    if lesson_number is not None:
+        query = query.filter(Lesson.lesson_number == lesson_number)
+    lessons = query.order_by(Lesson.lesson_number.asc()).all()
+    if not lessons and not language_code:
         db.add_all([
             Lesson(title="Saluer", language_code="fr", lesson_number=1, difficulty="beginner", content="Commencez par saluer en français."),
             Lesson(title="Se présenter", language_code="fr", lesson_number=2, difficulty="beginner", content="Apprenez à vous présenter."),

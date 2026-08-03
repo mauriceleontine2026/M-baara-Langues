@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useAuth } from "@/lib/AuthContext";
-import { getLanguages, getVocabularyForLanguage } from "@/api/languageService";
+import { getLanguages, getVocabularyForLanguage, getLessonsForLanguage } from "@/api/languageService";
 import { getProgress } from "@/api/progressService";
 import { ArrowLeft, ArrowRight, Lock, CheckCircle, BookOpen, Download, Trash2, WifiOff, Loader2 } from "lucide-react";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
@@ -20,6 +20,7 @@ export default function Learn() {
   /** @type {[any[], import('react').Dispatch<import('react').SetStateAction<any[]>>]} */
   const itemsState = useState(/** @type {any[]} */ ([]));
   const [items, setItems] = itemsState;
+  const [lessons, setLessons] = useState([]);
   const [filter, setFilter] = useState("all");
   const online = useOnlineStatus();
   const [downloaded, setDownloaded] = useState(false);
@@ -48,15 +49,26 @@ export default function Learn() {
     if (langCode) {
       setDownloaded(isLanguageDownloaded(langCode));
       if (online) {
-        getVocabularyForLanguage(langCode)
-          .then((data) => setItems(Array.isArray(data) ? data : []))
-          .catch(() => setItems([]));
+        Promise.all([
+          getVocabularyForLanguage(langCode),
+          getLessonsForLanguage(langCode),
+        ])
+          .then(([vocabData, lessonsData]) => {
+            setItems(Array.isArray(vocabData) ? vocabData : []);
+            setLessons(Array.isArray(lessonsData) ? lessonsData : []);
+          })
+          .catch(() => {
+            setItems([]);
+            setLessons([]);
+          });
       } else {
         const offlineVocab = getOfflineVocab(langCode);
         setItems(Array.isArray(offlineVocab) ? offlineVocab : []);
+        setLessons([]);
       }
     } else {
       setItems([]);
+      setLessons([]);
     }
   }, [langCode, online]);
 
@@ -81,6 +93,7 @@ export default function Learn() {
   // Group by region
   const safeLanguages = Array.isArray(languages) ? languages : [];
   const safeItems = Array.isArray(items) ? items : [];
+  const safeLessons = Array.isArray(lessons) ? lessons : [];
   const safeProgresses = Array.isArray(progresses) ? progresses : [];
   /** @type {{ [region: string]: any[] }} */
   const regions = {};
@@ -96,6 +109,13 @@ export default function Learn() {
     const lang = safeLanguages.find(l => l.code === langCode);
     if (!lang) return <div className="p-10 text-center text-muted-foreground">Chargement...</div>;
 
+    const lessonInfo = {};
+    safeLessons.forEach((lesson) => {
+      if (lesson?.lesson_number != null) {
+        lessonInfo[lesson.lesson_number] = lesson;
+      }
+    });
+
     /** @type {{ [lesson: number]: any[] }} */
     const byLesson = {};
     safeItems.forEach(i => {
@@ -103,7 +123,10 @@ export default function Learn() {
       if (!byLesson[n]) byLesson[n] = [];
       byLesson[n].push(i);
     });
-    const lessonNums = Object.keys(byLesson).map(Number).sort((a, b) => a - b);
+    const lessonNums = Array.from(new Set([
+      ...safeItems.map(i => i?.lesson_number || 1),
+      ...safeLessons.map(l => l?.lesson_number || 1),
+    ])).sort((a, b) => a - b);
     const prog = safeProgresses.find(p => p.language_code === langCode);
     const currentLesson = prog?.current_lesson || 1;
     const completed = prog?.completed_lessons || [];
@@ -175,8 +198,12 @@ export default function Learn() {
                     {isDone ? <CheckCircle size={20} /> : isUnlocked ? <span className="font-bold text-sm">{num}</span> : <Lock size={14} />}
                   </div>
                   <div className="flex-1 min-w-0">
-                    <div className="font-semibold text-foreground text-sm">Leçon {num}</div>
-                    <div className="text-xs text-muted-foreground">{lessonItems.length} mots · {[...new Set(lessonItems.map(i => i.category))].slice(0, 3).join(", ")}</div>
+                    <div className="font-semibold text-foreground text-sm">{lessonInfo[num]?.title || `Leçon ${num}`}</div>
+                    <div className="text-xs text-muted-foreground">
+                      {lessonItems.length > 0
+                        ? `${lessonItems.length} mots · ${[...new Set(lessonItems.map(i => i.category))].slice(0, 3).join(", ")}`
+                        : lessonInfo[num]?.content || "Aucun vocabulaire disponible pour le moment"}
+                    </div>
                   </div>
                   {isUnlocked && <ArrowRight size={18} className="text-muted-foreground" />}
                 </Link>
