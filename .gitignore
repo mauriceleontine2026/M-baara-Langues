@@ -14,9 +14,13 @@ lerna-debug.log*
 node_modules
 .ded
 .dist
+dist/
 dist-ssr
 *.local
 .venv/
+.firebase/
+__pycache__/
+*.pyc
 mbaara.db
 
 # Editor directories and files
