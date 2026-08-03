@@ -43,9 +43,19 @@ def _normalize_language_slug(value):
 
 
 def _seed_dictionary_content(db):
-    root = Path(__file__).resolve().parents[2] / "src" / "data" / "dictionnaires"
-    if not root.exists():
+    root_candidates = [
+        Path(__file__).resolve().parents[2] / "src" / "data" / "dictionnaires",
+        Path(__file__).resolve().parents[2] / "src" / "Dictionnaires des langues de l'application M'Baara",
+    ]
+    root_candidates = [root for root in root_candidates if root.exists()]
+    if not root_candidates:
         return
+
+    def _mark_language_active(language_code: str):
+        language_row = db.query(Language).filter(Language.code == language_code).first()
+        if language_row:
+            language_row.status = "active"
+            language_row.total_lessons = max(language_row.total_lessons or 0, 1)
 
     language_aliases = {
         "francais": "francais",
@@ -69,13 +79,19 @@ def _seed_dictionary_content(db):
         "chinois": "chinois",
         "mandarin": "chinois",
         "pular": "pular",
+        "pulaar": "pular",
         "soussou": "soussou",
+        "soso": "soussou",
         "malinke": "malinke",
         "malinké": "malinke",
         "guerze": "guerze",
         "kpele": "guerze",
+        "kponon": "kono",
+        "konnon": "kono",
+        "kono": "kono",
         "bissa": "bissa",
         "kissi": "kissi",
+        "kisi": "kissi",
         "lingala": "lingala",
         "swahili": "swahili",
         "yoruba": "yoruba",
@@ -85,122 +101,172 @@ def _seed_dictionary_content(db):
         "dioula": "dioula",
         "fulfulde": "fulfulde",
         "toma": "toma",
+        "loma": "toma",
         "moore": "moore",
         "mooré": "moore",
-        "kono": "kono",
-        "konnon": "kono",
         "hindi": "hindi",
     }
+
+    def _iter_vocab_entries(payload):
+        if isinstance(payload, list):
+            for item in payload:
+                yield from _iter_vocab_entries(item)
+            return
+        if not isinstance(payload, dict):
+            return
+        if "vocabulaire" in payload and isinstance(payload["vocabulaire"], list):
+            for item in payload["vocabulaire"]:
+                yield from _iter_vocab_entries(item)
+            return
+        yield payload
+
+    def _extract_text(item, preferred_keys):
+        for key in preferred_keys:
+            value = item.get(key)
+            if value is not None and str(value).strip():
+                return str(value)
+        for key, value in item.items():
+            key_lower = key.lower()
+            if key_lower in {"id", "lecon", "titre", "description", "categorie", "category", "vocabulaire"}:
+                continue
+            if key_lower.endswith("_fr") or key_lower in {"francais", "translation_fr", "translation", "french", "fr"}:
+                continue
+            if key_lower.startswith("exemple") or key_lower.startswith("example") or key_lower in {"phonetique", "phonetic"}:
+                continue
+            if isinstance(value, str) and value.strip():
+                return value
+        return None
+
+    def _extract_translation(item):
+        for key in ["francais", "translation_fr", "translation", "french", "fr"]:
+            value = item.get(key)
+            if value is not None and str(value).strip():
+                return str(value)
+        for key, value in item.items():
+            key_lower = key.lower()
+            if key_lower.startswith("exemple") or key_lower.startswith("example"):
+                continue
+            if key_lower in {"id", "lecon", "titre", "description", "categorie", "category", "vocabulaire"}:
+                continue
+            if isinstance(value, str) and value.strip() and key_lower not in {"phonetique", "phonetic"}:
+                if key_lower not in {"pular", "malinke", "guerze", "kpele", "langue_cible", "word", "target", "term", "phrase", "swahili", "wolof", "yoruba", "igbo", "lingala", "dioula", "bissa", "kissi", "toma", "moore", "kono", "nouchi"}:
+                    return value
+        return None
+
+    def _extract_example_target(item):
+        for key in ["exemple_langue_cible", "example_target", "exemple", "example", "exemple_pular", "exemple_malinke", "exemple_kpele"]:
+            value = item.get(key)
+            if value is not None and str(value).strip():
+                return str(value)
+        for key, value in item.items():
+            key_lower = key.lower()
+            if key_lower.startswith("exemple") or key_lower.startswith("example"):
+                if isinstance(value, str) and value.strip():
+                    return value
+        return None
+
+    def _extract_example_fr(item):
+        for key in ["exemple_francais", "example_fr", "example_translation", "exemple_traduction"]:
+            value = item.get(key)
+            if value is not None and str(value).strip():
+                return str(value)
+        return None
 
     languages = db.query(Language).all()
     known_codes = {_normalize_language_slug(lang.code): lang.code for lang in languages}
     known_names = {_normalize_language_slug(lang.name): lang.code for lang in languages if lang.name}
     known_name_fr = {_normalize_language_slug(lang.name_fr): lang.code for lang in languages if lang.name_fr}
 
-    for language_dir in sorted(root.iterdir()):
-        if not language_dir.is_dir():
-            continue
-
-        folder_slug = _normalize_language_slug(language_dir.name)
-        lang_code = language_aliases.get(folder_slug)
-        if not lang_code:
-            lang_code = known_codes.get(folder_slug) or known_names.get(folder_slug) or known_name_fr.get(folder_slug)
-        if not lang_code:
-            for candidate in known_codes:
-                if candidate in folder_slug or folder_slug in candidate:
-                    lang_code = known_codes[candidate]
-                    break
-        if not lang_code:
-            continue
-
-        language_row = db.query(Language).filter(Language.code == lang_code).first()
-        if language_row:
-            language_row.status = "active"
-            language_row.total_lessons = max(language_row.total_lessons or 0, 1)
-
-        processed_items = 0
-        for json_file in sorted(language_dir.glob("*.json")):
-            try:
-                with open(json_file, "r", encoding="utf-8") as fh:
-                    payload = json.load(fh)
-            except Exception:
+    processed_roots = set()
+    for root in root_candidates:
+        for language_dir in sorted(root.iterdir()):
+            if not language_dir.is_dir():
                 continue
-            if not isinstance(payload, list):
+            if language_dir in processed_roots:
+                continue
+            processed_roots.add(language_dir)
+
+            folder_slug = _normalize_language_slug(language_dir.name)
+            lang_code = language_aliases.get(folder_slug)
+            if not lang_code:
+                lang_code = known_codes.get(folder_slug) or known_names.get(folder_slug) or known_name_fr.get(folder_slug)
+            if not lang_code:
+                for candidate in known_codes:
+                    if candidate in folder_slug or folder_slug in candidate:
+                        lang_code = known_codes[candidate]
+                        break
+            if not lang_code:
                 continue
 
-            lesson_exists = db.query(Lesson).filter(Lesson.language_code == lang_code, Lesson.lesson_number == 1).first()
-            if not lesson_exists:
-                lesson = Lesson(
-                    title=f"Leçon 1 - {language_row.name_fr if language_row else lang_code}",
-                    language_code=lang_code,
-                    lesson_number=1,
-                    difficulty="beginner",
-                    content=f"Vocabulaire et expressions de base pour {language_row.name_fr if language_row else lang_code}.",
-                    published=True,
-                )
-                db.add(lesson)
-                db.commit()
-                db.refresh(lesson)
+            language_row = db.query(Language).filter(Language.code == lang_code).first()
+            if language_row:
+                language_row.status = "active"
+                language_row.total_lessons = max(language_row.total_lessons or 0, 1)
 
-            for item in payload:
-                if not isinstance(item, dict):
+            processed_items = 0
+            has_content = False
+            for json_file in sorted(language_dir.glob("*.json")):
+                try:
+                    with open(json_file, "r", encoding="utf-8") as fh:
+                        payload = json.load(fh)
+                except Exception:
+                    continue
+                if not isinstance(payload, (list, dict)):
                     continue
 
-                target_value = (
-                    item.get("langue_cible")
-                    or item.get("word")
-                    or item.get("target")
-                    or item.get("term")
-                    or item.get("phrase")
-                    or item.get("pular")
-                )
-                if not target_value:
-                    continue
-
-                translation_value = (
-                    item.get("francais")
-                    or item.get("translation_fr")
-                    or item.get("translation")
-                    or item.get("french")
-                    or item.get("fr")
-                )
-                example_target = (
-                    item.get("exemple_langue_cible")
-                    or item.get("example_target")
-                    or item.get("example")
-                    or item.get("exemple")
-                )
-                example_fr = (
-                    item.get("exemple_francais")
-                    or item.get("example_fr")
-                    or item.get("example_translation")
-                    or item.get("exemple_traduction")
-                    or translation_value
-                )
-                phonetic = item.get("phonetique") or item.get("phonetic")
-                category = item.get("categorie") or item.get("category")
-
-                existing = db.query(VocabularyItem).filter(
-                    VocabularyItem.language_code == lang_code,
-                    VocabularyItem.lesson_number == 1,
-                    VocabularyItem.word == str(target_value),
-                ).first()
-                if existing is None:
-                    db.add(VocabularyItem(
+                has_content = True
+                lesson_exists = db.query(Lesson).filter(Lesson.language_code == lang_code, Lesson.lesson_number == 1).first()
+                if not lesson_exists:
+                    lesson = Lesson(
+                        title=f"Leçon 1 - {language_row.name_fr if language_row else lang_code}",
                         language_code=lang_code,
                         lesson_number=1,
-                        word=str(target_value),
-                        translation_fr=str(translation_value) if translation_value is not None else None,
-                        phonetic=str(phonetic) if phonetic is not None else None,
-                        example_target=str(example_target) if example_target is not None else None,
-                        example_fr=str(example_fr) if example_fr is not None else None,
-                        difficulty=str(category) if category else "beginner",
-                    ))
-                    processed_items += 1
-            db.commit()
-        if processed_items > 0 and language_row:
-            language_row.total_lessons = max(language_row.total_lessons or 0, 1)
-            db.commit()
+                        difficulty="beginner",
+                        content=f"Vocabulaire et expressions de base pour {language_row.name_fr if language_row else lang_code}.",
+                        published=True,
+                    )
+                    db.add(lesson)
+                    db.commit()
+                    db.refresh(lesson)
+
+                for item in _iter_vocab_entries(payload):
+                    if not isinstance(item, dict):
+                        continue
+                    target_value = _extract_text(item, [
+                        "langue_cible", "word", "target", "term", "phrase", "pular", "malinke", "guerze", "kpele", "swahili",
+                        "wolof", "yoruba", "igbo", "lingala", "dioula", "bissa", "kissi", "toma", "moore", "kono", "nouchi", "hindi"
+                    ])
+                    if not target_value:
+                        continue
+                    translation_value = _extract_translation(item) or _extract_text(item, ["francais", "translation_fr", "translation", "french", "fr"])
+                    example_target = _extract_example_target(item)
+                    example_fr = _extract_example_fr(item) or translation_value
+                    phonetic = item.get("phonetique") or item.get("phonetic")
+                    category = item.get("categorie") or item.get("category")
+
+                    existing = db.query(VocabularyItem).filter(
+                        VocabularyItem.language_code == lang_code,
+                        VocabularyItem.lesson_number == 1,
+                        VocabularyItem.word == str(target_value),
+                    ).first()
+                    if existing is None:
+                        db.add(VocabularyItem(
+                            language_code=lang_code,
+                            lesson_number=1,
+                            word=str(target_value),
+                            translation_fr=str(translation_value) if translation_value is not None else None,
+                            phonetic=str(phonetic) if phonetic is not None else None,
+                            example_target=str(example_target) if example_target is not None else None,
+                            example_fr=str(example_fr) if example_fr is not None else None,
+                            difficulty=str(category) if category else "beginner",
+                        ))
+                        processed_items += 1
+                db.commit()
+            if has_content or processed_items > 0:
+                _mark_language_active(lang_code)
+            if processed_items > 0 and language_row:
+                language_row.total_lessons = max(language_row.total_lessons or 0, 1)
+                db.commit()
 
 
 def _seed_default_languages():
@@ -212,19 +278,19 @@ def _seed_default_languages():
             {"code": "pular", "name": "Pular", "name_fr": "Pular (Fouta Djallon)", "region": "Guinée", "family": "Atlantique", "status": "active", "color": "#D4622A", "flag_emoji": "🇬🇳", "total_lessons": 20, "description": "Langue peule de Guinée"},
             {"code": "soussou", "name": "Soussou", "name_fr": "Soussou", "region": "Guinée", "family": "Atlantique", "status": "active", "color": "#E8A838", "flag_emoji": "🇬🇳", "total_lessons": 20, "description": "Langue côtière de Guinée"},
             {"code": "malinke", "name": "Malinké", "name_fr": "Malinké", "region": "Guinée", "family": "Mandé", "status": "active", "color": "#2E7D32", "flag_emoji": "🇬🇳", "total_lessons": 20, "description": "Langue mandingue de Guinée"},
-            {"code": "fulfulde", "name": "Fulfulde", "name_fr": "Fulfulde", "region": "Burkina Faso", "family": "Atlantique", "status": "coming_soon", "color": "#C62828", "flag_emoji": "🇧🇫", "total_lessons": 0, "description": "Langue peule du Burkina"},
+            {"code": "fulfulde", "name": "Fulfulde", "name_fr": "Fulfulde", "region": "Burkina Faso", "family": "Atlantique", "status": "active", "color": "#C62828", "flag_emoji": "🇧🇫", "total_lessons": 1, "description": "Langue peule du Burkina"},
             {"code": "guerze", "name": "Guerzé (Kpelé)", "name_fr": "Guerzé", "region": "Guinée Forestière", "family": "Kru", "status": "active", "color": "#5C3D91", "flag_emoji": "🇬🇳", "total_lessons": 20, "description": "Langue de la Guinée forestière"},
-            {"code": "dioula", "name": "Dioula", "name_fr": "Dioula", "region": "Burkina Faso / Côte d'Ivoire", "family": "Mandé", "status": "coming_soon", "color": "#00695C", "flag_emoji": "🇧🇫", "total_lessons": 0, "description": "Langue commerciale d'Afrique de l'Ouest"},
+            {"code": "dioula", "name": "Dioula", "name_fr": "Dioula", "region": "Burkina Faso / Côte d'Ivoire", "family": "Mandé", "status": "active", "color": "#00695C", "flag_emoji": "🇧🇫", "total_lessons": 1, "description": "Langue commerciale d'Afrique de l'Ouest"},
             {"code": "lingala", "name": "Lingala", "name_fr": "Lingala", "region": "Congo / RDC", "family": "Bantoue", "status": "active", "color": "#B71C1C", "flag_emoji": "🇨🇩", "total_lessons": 5, "description": "Langue nationale du Congo"},
-            {"code": "swahili", "name": "Swahili", "name_fr": "Swahili", "region": "Afrique de l'Est", "family": "Bantoue", "status": "coming_soon", "color": "#004D40", "flag_emoji": "🌍", "total_lessons": 0, "description": "Langue africaine la plus parlée"},
-            {"code": "bissa", "name": "Bissa", "name_fr": "Bissa", "region": "Burkina Faso", "family": "Gur", "status": "coming_soon", "color": "#558B2F", "flag_emoji": "🇧🇫", "total_lessons": 0, "description": "Langue du Burkina Faso"},
-            {"code": "kissi", "name": "Kissi", "name_fr": "Kissi", "region": "Guinée Forestière", "family": "Atlantique", "status": "coming_soon", "color": "#AD1457", "flag_emoji": "🇬🇳", "total_lessons": 0, "description": "Langue de Guinée forestière"},
-            {"code": "kono", "name": "Kono", "name_fr": "Kono", "region": "Guinée", "family": "Mandé", "status": "coming_soon", "color": "#6D4C41", "flag_emoji": "🇬🇳", "total_lessons": 0, "description": "Langue guinéenne"},
-            {"code": "toma", "name": "Toma", "name_fr": "Toma", "region": "Guinée Forestière", "family": "Mandé", "status": "coming_soon", "color": "#1565C0", "flag_emoji": "🇬🇳", "total_lessons": 0, "description": "Langue forestière guinéenne"},
-            {"code": "moore", "name": "Mooré", "name_fr": "Mooré", "region": "Burkina Faso", "family": "Gur", "status": "coming_soon", "color": "#EF6C00", "flag_emoji": "🇧🇫", "total_lessons": 0, "description": "Langue du Burkina Faso"},
-            {"code": "wolof", "name": "Wolof", "name_fr": "Wolof", "region": "Sénégal", "family": "Atlantique", "status": "coming_soon", "color": "#1B5E20", "flag_emoji": "🇸🇳", "total_lessons": 0, "description": "Langue nationale du Sénégal"},
-            {"code": "yoruba", "name": "Yoruba", "name_fr": "Yoruba", "region": "Nigeria", "family": "Niger-Congo", "status": "coming_soon", "color": "#4A148C", "flag_emoji": "🇳🇬", "total_lessons": 0, "description": "Langue du sud-ouest nigérian"},
-            {"code": "igbo", "name": "Igbo", "name_fr": "Igbo", "region": "Nigeria", "family": "Niger-Congo", "status": "coming_soon", "color": "#01579B", "flag_emoji": "🇳🇬", "total_lessons": 0, "description": "Langue du sud-est nigérian"},
+            {"code": "swahili", "name": "Swahili", "name_fr": "Swahili", "region": "Afrique de l'Est", "family": "Bantoue", "status": "active", "color": "#004D40", "flag_emoji": "🌍", "total_lessons": 1, "description": "Langue africaine la plus parlée"},
+            {"code": "bissa", "name": "Bissa", "name_fr": "Bissa", "region": "Burkina Faso", "family": "Gur", "status": "active", "color": "#558B2F", "flag_emoji": "🇧🇫", "total_lessons": 1, "description": "Langue du Burkina Faso"},
+            {"code": "kissi", "name": "Kissi", "name_fr": "Kissi", "region": "Guinée Forestière", "family": "Atlantique", "status": "active", "color": "#AD1457", "flag_emoji": "🇬🇳", "total_lessons": 1, "description": "Langue de Guinée forestière"},
+            {"code": "kono", "name": "Kono", "name_fr": "Kono", "region": "Guinée", "family": "Mandé", "status": "active", "color": "#6D4C41", "flag_emoji": "🇬🇳", "total_lessons": 1, "description": "Langue guinéenne"},
+            {"code": "toma", "name": "Toma", "name_fr": "Toma", "region": "Guinée Forestière", "family": "Mandé", "status": "active", "color": "#1565C0", "flag_emoji": "🇬🇳", "total_lessons": 1, "description": "Langue forestière guinéenne"},
+            {"code": "moore", "name": "Mooré", "name_fr": "Mooré", "region": "Burkina Faso", "family": "Gur", "status": "active", "color": "#EF6C00", "flag_emoji": "🇧🇫", "total_lessons": 1, "description": "Langue du Burkina Faso"},
+            {"code": "wolof", "name": "Wolof", "name_fr": "Wolof", "region": "Sénégal", "family": "Atlantique", "status": "active", "color": "#1B5E20", "flag_emoji": "🇸🇳", "total_lessons": 1, "description": "Langue nationale du Sénégal"},
+            {"code": "yoruba", "name": "Yoruba", "name_fr": "Yoruba", "region": "Nigeria", "family": "Niger-Congo", "status": "active", "color": "#4A148C", "flag_emoji": "🇳🇬", "total_lessons": 1, "description": "Langue du sud-ouest nigérian"},
+            {"code": "igbo", "name": "Igbo", "name_fr": "Igbo", "region": "Nigeria", "family": "Niger-Congo", "status": "active", "color": "#01579B", "flag_emoji": "🇳🇬", "total_lessons": 1, "description": "Langue du sud-est nigérian"},
             {"code": "nouchi", "name": "Nouchi", "name_fr": "Nouchi", "region": "Côte d'Ivoire", "family": "Argot franco-africain", "status": "active", "color": "#F57F17", "flag_emoji": "🇨🇮", "total_lessons": 5, "description": "Argot ivoirien"},
             {"code": "anglais", "name": "English", "name_fr": "Anglais", "region": "Monde", "family": "Germanique", "status": "active", "color": "#880E4F", "flag_emoji": "🇬🇧", "total_lessons": 20, "description": "Langue germanique internationale"},
             {"code": "francais", "name": "Français", "name_fr": "Français", "region": "Monde", "family": "Roman", "status": "active", "color": "#1565C0", "flag_emoji": "🇫🇷", "total_lessons": 20, "description": "Langue romane internationale"},
@@ -234,7 +300,7 @@ def _seed_default_languages():
             {"code": "portugais", "name": "Português", "name_fr": "Portugais", "region": "Monde", "family": "Roman", "status": "active", "color": "#1B5E20", "flag_emoji": "🇵🇹", "total_lessons": 20, "description": "Langue romane internationale"},
             {"code": "russe", "name": "Русский", "name_fr": "Russe", "region": "Monde", "family": "Slave", "status": "active", "color": "#B71C1C", "flag_emoji": "🇷🇺", "total_lessons": 20, "description": "Langue slave internationale"},
             {"code": "arabe", "name": "العربية", "name_fr": "Arabe", "region": "Monde arabe", "family": "Sémitique", "status": "active", "color": "#1A237E", "flag_emoji": "🇸🇦", "total_lessons": 20, "description": "Langue sémitique internationale"},
-            {"code": "hindi", "name": "हिन्दी", "name_fr": "Hindi", "region": "Inde", "family": "Indo-aryen", "status": "coming_soon", "color": "#FF6F00", "flag_emoji": "🇮🇳", "total_lessons": 0, "description": "Langue officielle de l'Inde"},
+            {"code": "hindi", "name": "हिन्दी", "name_fr": "Hindi", "region": "Inde", "family": "Indo-aryen", "status": "active", "color": "#FF6F00", "flag_emoji": "🇮🇳", "total_lessons": 1, "description": "Langue officielle de l'Inde"},
             {"code": "chinois", "name": "中文", "name_fr": "Chinois (Mandarin)", "region": "Chine", "family": "Sino-tibétain", "status": "active", "color": "#C62828", "flag_emoji": "🇨🇳", "total_lessons": 20, "description": "Langue la plus parlée au monde"},
             {"code": "japonais", "name": "日本語", "name_fr": "Japonais", "region": "Japon", "family": "Japono-ryukyu", "status": "active", "color": "#AD1457", "flag_emoji": "🇯🇵", "total_lessons": 20, "description": "Langue du Japon"},
         ]
@@ -301,6 +367,17 @@ app.include_router(languages, prefix="/api/languages")
 app.include_router(vocabulary, prefix="/api/vocabulary")
 app.include_router(contributions, prefix="/api/contributions")
 app.include_router(users, prefix="/api/users")
+
+# Admin endpoint to trigger dictionary seeding on demand
+@app.post("/api/admin/seed-dictionaries")
+def admin_seed_dictionaries():
+    db = SessionLocal()
+    try:
+        _seed_dictionary_content(db)
+        return {"status": "ok", "message": "Seeding triggered"}
+    finally:
+        db.close()
+
 
 @app.get("/", tags=["root"])
 def root():
