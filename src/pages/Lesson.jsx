@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useAuth } from "@/lib/AuthContext";
 import { getLanguageByCode, getLessonsForLanguage, getVocabularyForLanguage, getVocabularyForLesson } from "@/api/languageService";
-import { updateProgress } from "@/api/progressService";
+import { getProgress, updateProgress } from "@/api/progressService";
 import { ArrowLeft, Volume2, Heart, X, Check, WifiOff } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
@@ -137,7 +137,13 @@ export default function Lesson() {
       queueProgressUpdate({ type: "lesson_complete", user_id: user.id, language_code: langCode, lesson_number: num, xp: xpEarned });
       return;
     }
-    await updateProgress({ type: "lesson_complete", language_code: langCode, lesson_number: num, xp: xpEarned });
+    try {
+      await updateProgress({ type: "lesson_complete", language_code: langCode, lesson_number: num, xp: xpEarned });
+      await getProgress();
+      window.dispatchEvent(new Event("mbaara-progress-updated"));
+    } catch (error) {
+      console.error("Progress update failed", error);
+    }
   };
 
   const lessonTitle = lessonMeta?.module?.theme || lessonMeta?.title_fr || lessonMeta?.title || `Leçon ${parseInt(lessonNum || "0", 10)}`;
