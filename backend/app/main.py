@@ -272,27 +272,95 @@ def _seed_dictionary_content(db):
 
 def _seed_missing_lessons(db, min_lessons: int = 20):
     lesson_themes = [
-        "Salutations",
-        "Se présenter",
-        "Les nombres",
-        "Les couleurs",
-        "La famille",
-        "Le temps",
-        "Les directions",
-        "Les aliments",
-        "Au marché",
-        "La maison",
-        "Les animaux",
-        "Les émotions",
-        "La santé",
-        "Les vêtements",
-        "Les transports",
-        "Au restaurant",
-        "La météo",
-        "Les loisirs",
-        "Voyage et culture",
-        "Les traditions",
+        {
+            "title": "Salutations",
+            "summary": "Apprenez à dire bonjour, au revoir, merci et bienvenue dans cette langue.",
+        },
+        {
+            "title": "Se présenter",
+            "summary": "Présentez-vous, donnez votre nom, votre âge et votre pays d'origine.",
+        },
+        {
+            "title": "Les nombres",
+            "summary": "Comptez, dites les prix et exprimez des quantités simples.",
+        },
+        {
+            "title": "Les couleurs",
+            "summary": "Découvrez les noms des couleurs et décrivez des objets du quotidien.",
+        },
+        {
+            "title": "La famille",
+            "summary": "Parlez des membres de votre famille et de leurs relations.",
+        },
+        {
+            "title": "Le temps",
+            "summary": "Apprenez à parler du temps qu'il fait et des saisons.",
+        },
+        {
+            "title": "Les directions",
+            "summary": "Demandez et donnez des directions dans la ville ou au marché.",
+        },
+        {
+            "title": "Les aliments",
+            "summary": "Nommez les aliments de base et exprimez vos goûts.",
+        },
+        {
+            "title": "Au marché",
+            "summary": "Achetez des produits, négociez et demandez les prix.",
+        },
+        {
+            "title": "La maison",
+            "summary": "Parlez des pièces, des objets et de la vie quotidienne à la maison.",
+        },
+        {
+            "title": "Les animaux",
+            "summary": "Identifiez les animaux, leurs sons et leur habitat.",
+        },
+        {
+            "title": "Les émotions",
+            "summary": "Exprimez ce que vous ressentez : joie, tristesse, colère, surprise.",
+        },
+        {
+            "title": "La santé",
+            "summary": "Demandez de l'aide, expliquez vos symptômes et prenez soin de vous.",
+        },
+        {
+            "title": "Les vêtements",
+            "summary": "Nommez les vêtements, les couleurs et décrivez ce que vous portez.",
+        },
+        {
+            "title": "Les transports",
+            "summary": "Parlez des moyens de transport et achetez des billets.",
+        },
+        {
+            "title": "Au restaurant",
+            "summary": "Commandez un repas, demandez l'addition et exprimez vos préférences.",
+        },
+        {
+            "title": "La météo",
+            "summary": "Parlez du temps, des saisons et de vos activités météorologiques.",
+        },
+        {
+            "title": "Les loisirs",
+            "summary": "Discutez de vos passe-temps, sports et activités culturelles.",
+        },
+        {
+            "title": "Voyage et culture",
+            "summary": "Apprenez des phrases utiles pour voyager et découvrir la culture locale.",
+        },
+        {
+            "title": "Les traditions",
+            "summary": "Découvrez les coutumes, les fêtes et les expressions traditionnelles.",
+        },
     ]
+
+    def _lesson_content(language, lesson_number, theme):
+        return (
+            f"Leçon {lesson_number} - {theme['title']}\n"
+            f"{theme['summary']}\n"
+            f"Cette leçon présente des mots et expressions essentiels pour {language}. "
+            "Pratiquez des phrases courantes, enrichissez votre vocabulaire et améliorez votre aisance."
+        )
 
     added = 0
     for language_row in db.query(Language).all():
@@ -300,15 +368,13 @@ def _seed_missing_lessons(db, min_lessons: int = 20):
             lesson.lesson_number
             for lesson in db.query(Lesson).filter(Lesson.language_code == language_row.code).all()
         }
+        language_label = language_row.name_fr or language_row.name or language_row.code
         for lesson_number in range(1, min_lessons + 1):
             if lesson_number in existing_numbers:
                 continue
             theme = lesson_themes[(lesson_number - 1) % len(lesson_themes)]
-            title = f"Leçon {lesson_number} - {theme}"
-            content = (
-                f"Contenu de la leçon {lesson_number} pour {language_row.name_fr or language_row.name or language_row.code}. "
-                "Apprenez de nouveaux mots, expressions et phrases utiles."
-            )
+            title = f"Leçon {lesson_number} - {theme['title']}"
+            content = _lesson_content(language_label, lesson_number, theme)
             difficulty = (
                 "beginner"
                 if lesson_number <= 5
