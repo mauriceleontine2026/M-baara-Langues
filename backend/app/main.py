@@ -17,7 +17,7 @@ app = FastAPI(title="M'baara API", version="0.1.0")
 
 Base.metadata.create_all(bind=engine)
 
-from sqlalchemy import inspect
+from sqlalchemy import inspect, text
 
 
 def _ensure_user_role_column():
@@ -409,6 +409,17 @@ def _seed_missing_lessons(db, min_lessons: int = 20):
                 content=content,
                 published=True,
             ))
+            for idx in range(1, 4):
+                db.add(VocabularyItem(
+                    language_code=language_row.code,
+                    lesson_number=lesson_number,
+                    word=f"{theme['title']} {idx}",
+                    translation_fr=f"Mot {idx}",
+                    phonetic=None,
+                    example_target=f"{theme['summary']} {idx}",
+                    example_fr=f"Mot {idx}",
+                    difficulty=difficulty,
+                ))
             added += 1
         language_row.total_lessons = max(language_row.total_lessons or 0, min_lessons)
     if added > 0:

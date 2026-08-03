@@ -67,7 +67,34 @@ def build_exercises(lesson: Lesson, vocab_items: list[VocabularyItem]) -> list[d
     exercises = []
     items = [item for item in vocab_items if item.word and item.translation_fr]
     if not items:
-        return exercises
+        lesson_label = lesson.title or f"Leçon {lesson.lesson_number}"
+        fallback_text = lesson.content or lesson.description or f"Exercez-vous avec cette leçon de {get_language_label(lesson.language_code)}."
+        return [
+            {
+                "id": 1,
+                "type": "reading",
+                "instruction": "Lis attentivement le texte ci-dessous.",
+                "question": fallback_text,
+                "options": [],
+                "answer": fallback_text,
+                "explanation_on_error": "Lis le texte une seconde fois et concentre-toi sur le sens.",
+                "xp_reward": 5,
+            },
+            {
+                "id": 2,
+                "type": "multiple_choice",
+                "instruction": "Choisis l'énoncé qui décrit le mieux cette leçon.",
+                "question": "Quel est le thème principal de cette leçon ?",
+                "options": [
+                    lesson_label,
+                    f"Vocabulaire de base en {get_language_label(lesson.language_code)}",
+                    "Exercice de grammaire",
+                ],
+                "answer": lesson_label,
+                "explanation_on_error": "Le titre de la leçon est l'option la plus pertinente.",
+                "xp_reward": 5,
+            },
+        ]
 
     primary = items[0]
     sample_items = items if len(items) <= 4 else sample(items, 4)
