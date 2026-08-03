@@ -16,6 +16,24 @@ class ProgressUpdateRequest(BaseModel):
 
 
 @router.get("")
+def _next_unlocked_lesson(completed_lessons: list | None) -> int:
+    lessons = []
+    if completed_lessons:
+        for item in completed_lessons:
+            try:
+                lessons.append(int(item))
+            except (TypeError, ValueError):
+                continue
+    lessons = sorted(set(lessons))
+    next_lesson = 1
+    for lesson in lessons:
+        if lesson == next_lesson:
+            next_lesson += 1
+        elif lesson > next_lesson:
+            break
+    return next_lesson
+
+
 def get_progress(current_user=Depends(get_current_user), db: Session = Depends(get_db)):
     user_id = str(current_user.id)
     progresses = db.query(UserProgress).filter(UserProgress.user_id == user_id).all()
@@ -32,7 +50,7 @@ def get_progress(current_user=Depends(get_current_user), db: Session = Depends(g
             "xp": progress.xp,
             "streak": progress.streak,
             "completed_lessons": progress.completed_lessons,
-            "current_lesson": max(progress.completed_lessons or [0]) + 1,
+            "current_lesson": _next_unlocked_lesson(progress.completed_lessons),
             "next_goal": progress.next_goal,
         }
         for progress in progresses
@@ -63,7 +81,7 @@ def update_progress(payload: ProgressUpdateRequest, current_user=Depends(get_cur
     db.commit()
     db.refresh(progress)
     completed_lessons = progress.completed_lessons or []
-    current_lesson = max(completed_lessons) + 1 if completed_lessons else 1
+    current_lesson = _next_unlocked_lesson(completed_lessons)
     return {
         "language_code": progress.language_code,
         "xp": progress.xp,
