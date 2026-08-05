@@ -7,7 +7,7 @@ import { getProgress } from "@/api/progressService";
 import { ArrowLeft, ArrowRight, Lock, CheckCircle, BookOpen, Download, Trash2, WifiOff, Loader2 } from "lucide-react";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 import { downloadLanguageOffline, isLanguageDownloaded, removeLanguageOffline, getOfflineVocab, getOfflineLanguages } from "@/lib/offlineStorage";
-import { buildLessonProgressTree, getNextUnlockedLesson } from "@/lib/progressUtils";
+import lessonCurriculum from "@/data/lessonCurriculum";
 
 export default function Learn() {
   const { langCode } = useParams();
@@ -115,44 +115,72 @@ export default function Learn() {
   });
   const regionKeys = Object.keys(regions);
 
+  const readExerciseRecord = (moduleId) => {
+    if (typeof window === "undefined") return null;
+    try {
+      const raw = window.localStorage.getItem(`mbaara-exercise-${langCode}-${moduleId}`);
+      if (!raw) return null;
+      const parsed = JSON.parse(raw);
+      return parsed && typeof parsed === "object" ? parsed : null;
+    } catch (e) {
+      return null;
+    }
+  };
+
+  const getModuleCompletionState = (module, completedLessons) => {
+    const lessonNumbers = Array.isArray(module?.lessons)
+      ? module.lessons.map((lesson) => Number(lesson.lesson_number)).filter((n) => Number.isFinite(n) && n > 0)
+      : [];
+    const moduleLessonsDone = lessonNumbers.length > 0 && lessonNumbers.every((n) => completedLessons.includes(n));
+    const exerciseRecord = readExerciseRecord(module.id);
+    const exerciseScore = Number(exerciseRecord?.score || 0);
+    const exerciseCompleted = Boolean(exerciseRecord?.completed);
+    const exercisePass = exerciseCompleted && exerciseScore >= 70;
+
+    return {
+      moduleLessonsDone,
+      exerciseScore,
+      exerciseCompleted,
+      exercisePass,
+    };
+  };
+
+  const getUnlockedState = (levelIndex, moduleIndex, level, module, completedLessons) => {
+    const currentModuleState = getModuleCompletionState(module, completedLessons);
+
+    const previousLevelComplete = levelIndex === 0
+      ? true
+      : lessonCurriculum.levels.slice(0, levelIndex).every((previousLevel) => {
+          return previousLevel.modules.every((previousModule) => {
+            const previousModuleState = getModuleCompletionState(previousModule, completedLessons);
+            return previousModuleState.moduleLessonsDone && previousModuleState.exercisePass;
+          });
+        });
+
+    const previousModuleComplete = moduleIndex === 0
+      ? previousLevelComplete
+      : (() => {
+          const previousModule = level.modules[moduleIndex - 1];
+          const previousModuleState = getModuleCompletionState(previousModule, completedLessons);
+          return previousModuleState.moduleLessonsDone && previousModuleState.exercisePass;
+        })();
+
+    return {
+      ...currentModuleState,
+      unlocked: previousModuleComplete && currentModuleState.moduleLessonsDone && currentModuleState.exercisePass,
+      previousModuleComplete,
+    };
+  };
+
   // Detail view
   if (langCode) {
     const lang = safeLanguages.find(l => l.code === langCode);
     if (!lang) return <div className="p-10 text-center text-muted-foreground">Chargement...</div>;
 
-    const lessonInfo = {};
-    safeLessons.forEach((lesson) => {
-      if (lesson?.lesson_number != null) {
-        lessonInfo[lesson.lesson_number] = lesson;
-      }
-    });
-
-    /** @type {{ [lesson: number]: any[] }} */
-    const byLesson = {};
-    safeItems.forEach(i => {
-      const n = i?.lesson_number || 1;
-      if (!byLesson[n]) byLesson[n] = [];
-      byLesson[n].push(i);
-    });
-    const lessonNums = Array.from(new Set([
-      ...safeItems.map(i => i?.lesson_number || 1),
-      ...safeLessons.map(l => l?.lesson_number || 1),
-    ])).sort((a, b) => a - b);
     const prog = safeProgresses.find(p => p.language_code === langCode);
     const completed = Array.isArray(prog?.completed_lessons) ? prog.completed_lessons.map((n) => Number(n)).filter((n) => Number.isFinite(n) && n > 0) : [];
-    const sortedCompleted = [...new Set(completed)].sort((a, b) => a - b);
-    let currentLesson = prog?.current_lesson ?? getNextUnlockedLesson(sortedCompleted);
-    try {
-      if (!online && typeof window !== "undefined") {
-        const stored = Number(window.localStorage.getItem(`mbaara-next-lesson-${langCode}`));
-        if (Number.isFinite(stored) && stored > 0) {
-          currentLesson = Math.max(currentLesson || 1, stored);
-        }
-      }
-    } catch (e) {
-      // ignore localStorage errors
-    }
-    const lessonTree = buildLessonProgressTree(lessonNums, sortedCompleted);
+    const completedSet = new Set(completed);
+    const totalLessonCount = Math.max(1, Array.isArray(safeLessons) ? safeLessons.length : 0);
 
     return (
       <div className="p-6 lg:p-10 max-w-3xl mx-auto">
@@ -189,57 +217,135 @@ export default function Learn() {
           {prog && (
             <div className="mt-4">
               <div className="flex justify-between text-xs text-white/70 mb-1">
-                <span>Progression</span><span>{completed.length}/{lessonNums.length} leçons</span>
+                <span>Progression</span><span>{completed.length}/{totalLessonCount} leçons</span>
               </div>
               <div className="w-full bg-white/20 rounded-full h-2">
-                <div className="h-2 bg-white rounded-full" style={{ width: `${Math.min(100, (completed.length / Math.max(1, lessonNums.length)) * 100)}%` }} />
+                <div className="h-2 bg-white rounded-full" style={{ width: `${Math.min(100, (completed.length / Math.max(1, totalLessonCount)) * 100)}%` }} />
               </div>
             </div>
           )}
         </div>
 
-        {lessonNums.length === 0 ? (
-          <div className="text-center py-12 text-muted-foreground">
-            <BookOpen size={40} className="mx-auto mb-3 opacity-40" />
-            <p>Pas encore de leçons disponibles</p>
+        <div className="mb-6 rounded-[28px] border border-border/80 bg-gradient-to-br from-card via-card to-background/90 p-5 shadow-[0_18px_50px_-30px_rgba(0,0,0,0.45)]">
+          <div className="flex items-center justify-between gap-3 mb-5">
+            <div>
+              <h2 className="font-heading text-2xl font-bold text-foreground">Structure pédagogique</h2>
+              <p className="text-sm text-muted-foreground">Clique sur un module puis choisis la leçon à lancer</p>
+            </div>
+            <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-primary">Curriculum</span>
           </div>
-        ) : (
-          <div className="space-y-3">
-            {lessonTree.map((node) => {
-              const lessonItems = byLesson[node.lesson_number] || [];
-              const isDone = node.completed;
-              const isUnlocked = node.unlocked;
+          <div className="space-y-4">
+            {lessonCurriculum.levels.map((level, levelIndex) => {
+              const levelModulesState = level.modules.map((module, moduleIndex) => ({
+                ...getUnlockedState(levelIndex, moduleIndex, level, module, completed),
+                module,
+              }));
+              const levelUnlocked = levelIndex === 0 || levelModulesState.every((state) => state.moduleLessonsDone && state.exercisePass);
               return (
-                <Link key={node.lesson_number} to={isUnlocked ? `/lecon/${langCode}/${node.lesson_number}` : "#"}
-                  onClick={e => !isUnlocked && e.preventDefault()}
-                  className={`flex items-center gap-4 bg-card border rounded-2xl p-4 transition ${
-                    isUnlocked ? "border-border hover:border-primary/40 hover:shadow-md" : "border-border opacity-50 cursor-not-allowed"
-                  }`}>
-                  <div className={`w-10 h-10 rounded-full flex items-center justify-center shrink-0 ${
-                    isDone ? "bg-green-500 text-white" : isUnlocked ? "text-white" : "bg-secondary text-muted-foreground"
-                  }`} style={isUnlocked && !isDone ? { background: lang.color } : {}}>
-                    {isDone ? <CheckCircle size={20} /> : isUnlocked ? <span className="font-bold text-sm">{node.lesson_number}</span> : <Lock size={14} />}
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <div className="font-semibold text-foreground text-sm">{lessonInfo[node.lesson_number]?.module?.theme || lessonInfo[node.lesson_number]?.title_fr || lessonInfo[node.lesson_number]?.title || `Leçon ${node.lesson_number}`}</div>
-                    <div className="text-xs text-muted-foreground">
-                      {lessonInfo[node.lesson_number]?.module?.description
-                        ? lessonInfo[node.lesson_number]?.module?.description
-                        : lessonInfo[node.lesson_number]?.description
-                        ? lessonInfo[node.lesson_number]?.description
-                        : lessonInfo[node.lesson_number]?.content
-                        ? lessonInfo[node.lesson_number]?.content
-                        : lessonItems.length > 0
-                        ? `${lessonItems.length} mots · ${[...new Set(lessonItems.map(i => i.category))].slice(0, 3).join(", ")}`
-                        : "Aucun vocabulaire disponible pour le moment"}
+                <div key={level.id} className="rounded-[24px] border border-border/80 bg-[linear-gradient(180deg,rgba(255,255,255,0.03),rgba(255,255,255,0.02))] p-4 shadow-sm">
+                  <div className="mb-3 flex items-center justify-between gap-3">
+                    <div>
+                      <div className="text-lg font-semibold text-foreground">{level.label}</div>
+                      <div className="text-sm text-muted-foreground">{level.range}</div>
                     </div>
+                    <span className="rounded-full bg-primary/10 px-3 py-1 text-xs text-primary font-semibold">{level.modules.length} modules</span>
                   </div>
-                  {isUnlocked && <ArrowRight size={18} className="text-muted-foreground" />}
-                </Link>
+                  {level.globalReview && (
+                    <div className="mb-4 rounded-[20px] border border-primary/25 bg-primary/5 p-3.5">
+                      <div className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Exercice global</div>
+                      <div className="mt-1 text-base font-semibold text-foreground">{level.globalReview.title}</div>
+                      <div className="text-sm text-muted-foreground">{level.globalReview.description}</div>
+                      <ul className="mt-2 list-disc pl-4 text-sm text-muted-foreground space-y-1">
+                        {level.globalReview.tasks.map((task) => (
+                          <li key={task}>{task}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                  <div className="grid gap-3">
+                    {level.modules.map((module, moduleIndex) => {
+                      const state = levelModulesState[moduleIndex];
+                      const lessonLinksDisabled = !state.unlocked;
+                      const practiceDisabled = !state.unlocked;
+                      const onlyFirstLevelUnlock = levelIndex === 0 && moduleIndex === 0;
+                      return (
+                        <details key={module.id} className="rounded-[20px] bg-secondary/40 p-3.5 shadow-[0_10px_25px_-20px_rgba(0,0,0,0.55)]" open={module.id === "debutant-module-1"}>
+                          <summary className="cursor-pointer list-none text-base font-semibold text-foreground mb-2 flex items-center justify-between gap-2">
+                            <span>{module.label}</span>
+                            <span className="text-sm text-muted-foreground">{module.lessons.length} leçons</span>
+                          </summary>
+                          <div className="mt-2 flex flex-wrap gap-2">
+                            {module.lessons.map((lesson) => (
+                              <Link
+                                key={lesson.id}
+                                to={lessonLinksDisabled ? "#" : `/lecon/${langCode}/${lesson.lesson_number}`}
+                                onClick={(event) => {
+                                  if (lessonLinksDisabled) {
+                                    event.preventDefault();
+                                  }
+                                }}
+                                className={`rounded-full bg-card px-3 py-1.5 text-sm font-medium ring-1 ring-border transition ${
+                                  lessonLinksDisabled
+                                    ? "text-muted-foreground/50 cursor-not-allowed"
+                                    : "text-muted-foreground hover:text-foreground hover:ring-primary/40"
+                                }`}
+                              >
+                                {lesson.title}
+                              </Link>
+                            ))}
+                          </div>
+                          {Array.isArray(module.exerciseSeries) && module.exerciseSeries.length > 0 && (
+                            <div className="mt-3 rounded-[18px] border border-border/80 bg-card/75 p-3">
+                              <div className="flex items-center justify-between gap-3 mb-2">
+                                <div className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Série d’exercices</div>
+                                <Link
+                                  to={practiceDisabled ? "#" : `/exercice/${langCode}/${module.id}`}
+                                  onClick={(event) => {
+                                    if (practiceDisabled) {
+                                      event.preventDefault();
+                                    }
+                                  }}
+                                  className={`rounded-full px-3 py-1.5 text-xs font-semibold ${
+                                    practiceDisabled
+                                      ? "bg-muted text-muted-foreground/60 cursor-not-allowed"
+                                      : "bg-primary text-primary-foreground"
+                                  }`}
+                                >
+                                  Pratiquer
+                                </Link>
+                              </div>
+                              <div className="space-y-2">
+                                {module.exerciseSeries.map((exercise) => (
+                                  <div key={exercise.title} className="rounded-[14px] bg-background/70 px-3 py-2">
+                                    <div className="text-sm font-semibold text-foreground">{exercise.title}</div>
+                                    <div className="text-sm text-muted-foreground">{exercise.type} · {exercise.goal}</div>
+                                  </div>
+                                ))}
+                              </div>
+                              <div className="mt-2 text-sm text-muted-foreground">
+                                {state.exerciseCompleted
+                                  ? `Moyenne des exercices : ${state.exerciseScore}%`
+                                  : "Exercices non encore validés."}
+                              </div>
+                            </div>
+                          )}
+                          {!state.unlocked && (
+                            <div className="mt-2 rounded-[16px] border border-amber-300/40 bg-amber-500/10 px-3 py-2 text-sm text-amber-700 dark:text-amber-300">
+                              {onlyFirstLevelUnlock
+                                ? "Termine les leçons de ce module et valide la série d’exercices avec au moins 70% pour continuer."
+                                : "Débloquez ce module en terminant les leçons du module précédent, puis en validant la série d’exercices avec une moyenne d’au moins 70%."}
+                            </div>
+                          )}
+                        </details>
+                      );
+                    })}
+                  </div>
+                </div>
               );
             })}
           </div>
-        )}
+        </div>
+
       </div>
     );
   }

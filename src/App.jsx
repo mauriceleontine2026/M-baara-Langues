@@ -26,6 +26,7 @@ import AccentWorkshop from '@/pages/studio/AccentWorkshop';
 import ScanOCR from '@/pages/studio/ScanOCR';
 import Leagues from '@/pages/studio/Leagues';
 import Lesson from '@/pages/Lesson';
+import Exercise from '@/pages/Exercise';
 import Admin from '@/pages/Admin';
 import Profile from '@/pages/Profile';
 import Settings from '@/pages/Settings';
@@ -94,6 +95,7 @@ const AuthenticatedApp = () => {
           <Route path="/support" element={<Support />} />
         </Route>
         <Route path="/lecon/:langCode/:lessonNum" element={<Lesson />} />
+        <Route path="/exercice/:langCode/:moduleId" element={<Exercise />} />
       </Route>
 
       <Route path="*" element={<PageNotFound />} />
