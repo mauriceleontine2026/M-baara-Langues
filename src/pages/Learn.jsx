@@ -7,6 +7,7 @@ import { getProgress } from "@/api/progressService";
 import { ArrowLeft, ArrowRight, Lock, CheckCircle, BookOpen, Download, Trash2, WifiOff, Loader2 } from "lucide-react";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 import { downloadLanguageOffline, isLanguageDownloaded, removeLanguageOffline, getOfflineVocab, getOfflineLanguages } from "@/lib/offlineStorage";
+import { buildLessonProgressTree, getNextUnlockedLesson } from "@/lib/progressUtils";
 
 export default function Learn() {
   const { langCode } = useParams();
@@ -38,11 +39,21 @@ export default function Learn() {
   }, [online]);
 
   useEffect(() => {
-    if (user) {
+    const refreshProgress = () => {
+      if (!user) return;
       getProgress()
         .then((data) => setProgresses(Array.isArray(data) ? data : []))
         .catch(() => setProgresses([]));
-    }
+    };
+
+    refreshProgress();
+    window.addEventListener("mbaara-progress-updated", refreshProgress);
+    window.addEventListener("mbaara-lesson-completed", refreshProgress);
+
+    return () => {
+      window.removeEventListener("mbaara-progress-updated", refreshProgress);
+      window.removeEventListener("mbaara-lesson-completed", refreshProgress);
+    };
   }, [user]);
 
   useEffect(() => {
@@ -130,14 +141,18 @@ export default function Learn() {
     const prog = safeProgresses.find(p => p.language_code === langCode);
     const completed = Array.isArray(prog?.completed_lessons) ? prog.completed_lessons.map((n) => Number(n)).filter((n) => Number.isFinite(n) && n > 0) : [];
     const sortedCompleted = [...new Set(completed)].sort((a, b) => a - b);
-    let currentLesson = 1;
-    for (const lessonNumber of sortedCompleted) {
-      if (lessonNumber === currentLesson) {
-        currentLesson += 1;
-      } else if (lessonNumber > currentLesson) {
-        break;
+    let currentLesson = prog?.current_lesson ?? getNextUnlockedLesson(sortedCompleted);
+    try {
+      if (!online && typeof window !== "undefined") {
+        const stored = Number(window.localStorage.getItem(`mbaara-next-lesson-${langCode}`));
+        if (Number.isFinite(stored) && stored > 0) {
+          currentLesson = Math.max(currentLesson || 1, stored);
+        }
       }
+    } catch (e) {
+      // ignore localStorage errors
     }
+    const lessonTree = buildLessonProgressTree(lessonNums, sortedCompleted);
 
     return (
       <div className="p-6 lg:p-10 max-w-3xl mx-auto">
@@ -190,12 +205,12 @@ export default function Learn() {
           </div>
         ) : (
           <div className="space-y-3">
-            {lessonNums.map(num => {
-              const lessonItems = byLesson[num] || [];
-              const isDone = completed.includes(num);
-              const isUnlocked = num <= currentLesson;
+            {lessonTree.map((node) => {
+              const lessonItems = byLesson[node.lesson_number] || [];
+              const isDone = node.completed;
+              const isUnlocked = node.unlocked;
               return (
-                <Link key={num} to={isUnlocked ? `/lecon/${langCode}/${num}` : "#"}
+                <Link key={node.lesson_number} to={isUnlocked ? `/lecon/${langCode}/${node.lesson_number}` : "#"}
                   onClick={e => !isUnlocked && e.preventDefault()}
                   className={`flex items-center gap-4 bg-card border rounded-2xl p-4 transition ${
                     isUnlocked ? "border-border hover:border-primary/40 hover:shadow-md" : "border-border opacity-50 cursor-not-allowed"
@@ -203,17 +218,17 @@ export default function Learn() {
                   <div className={`w-10 h-10 rounded-full flex items-center justify-center shrink-0 ${
                     isDone ? "bg-green-500 text-white" : isUnlocked ? "text-white" : "bg-secondary text-muted-foreground"
                   }`} style={isUnlocked && !isDone ? { background: lang.color } : {}}>
-                    {isDone ? <CheckCircle size={20} /> : isUnlocked ? <span className="font-bold text-sm">{num}</span> : <Lock size={14} />}
+                    {isDone ? <CheckCircle size={20} /> : isUnlocked ? <span className="font-bold text-sm">{node.lesson_number}</span> : <Lock size={14} />}
                   </div>
                   <div className="flex-1 min-w-0">
-                    <div className="font-semibold text-foreground text-sm">{lessonInfo[num]?.module?.theme || lessonInfo[num]?.title_fr || lessonInfo[num]?.title || `Leçon ${num}`}</div>
+                    <div className="font-semibold text-foreground text-sm">{lessonInfo[node.lesson_number]?.module?.theme || lessonInfo[node.lesson_number]?.title_fr || lessonInfo[node.lesson_number]?.title || `Leçon ${node.lesson_number}`}</div>
                     <div className="text-xs text-muted-foreground">
-                      {lessonInfo[num]?.module?.description
-                        ? lessonInfo[num]?.module?.description
-                        : lessonInfo[num]?.description
-                        ? lessonInfo[num]?.description
-                        : lessonInfo[num]?.content
-                        ? lessonInfo[num]?.content
+                      {lessonInfo[node.lesson_number]?.module?.description
+                        ? lessonInfo[node.lesson_number]?.module?.description
+                        : lessonInfo[node.lesson_number]?.description
+                        ? lessonInfo[node.lesson_number]?.description
+                        : lessonInfo[node.lesson_number]?.content
+                        ? lessonInfo[node.lesson_number]?.content
                         : lessonItems.length > 0
                         ? `${lessonItems.length} mots · ${[...new Set(lessonItems.map(i => i.category))].slice(0, 3).join(", ")}`
                         : "Aucun vocabulaire disponible pour le moment"}

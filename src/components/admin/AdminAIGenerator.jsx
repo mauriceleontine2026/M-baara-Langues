@@ -228,8 +228,10 @@ Sois précis et culturellement correct. Si tu ne connais pas un mot, ne l'invent
           </div>
           <input value={lessonData.description || ""} onChange={e => setLessonData({ ...lessonData, description: e.target.value })} className={inputCls} placeholder="Description" />
           <div className="grid grid-cols-3 gap-2">
-            <select value={lessonData.level || "A1"} onChange={e => setLessonData({ ...lessonData, level: e.target.value })} className={inputCls}>
-              <option value="A1">A1</option><option value="A2">A2</option><option value="B1">B1</option><option value="B2">B2</option>
+            <select value={lessonData.level || "Débutant"} onChange={e => setLessonData({ ...lessonData, level: e.target.value })} className={inputCls}>
+              <option value="Débutant">Débutant</option>
+              <option value="Intermédiaire">Intermédiaire</option>
+              <option value="Avancé">Avancé</option>
             </select>
             <select value={lessonData.type || "vocabulary"} onChange={e => setLessonData({ ...lessonData, type: e.target.value })} className={inputCls}>
               <option value="vocabulary">Vocabulaire</option><option value="phrases">Phrases</option><option value="letters">Lettres</option><option value="sounds">Sons</option>

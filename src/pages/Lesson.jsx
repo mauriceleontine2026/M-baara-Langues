@@ -6,7 +6,8 @@ import { getProgress, updateProgress } from "@/api/progressService";
 import { ArrowLeft, Volume2, Heart, X, Check, WifiOff } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
-import { getOfflineVocab, getOfflineLang, queueProgressUpdate } from "@/lib/offlineStorage";
+import { getOfflineVocab, getOfflineLessons, getOfflineLang, queueProgressUpdate } from "@/lib/offlineStorage";
+import { getNextUnlockedLesson } from "@/lib/progressUtils";
 
 export default function Lesson() {
   const { langCode, lessonNum } = useParams();
@@ -26,6 +27,7 @@ export default function Lesson() {
   const [correct, setCorrect] = useState(0);
   const [loading, setLoading] = useState(true);
   const [fetchError, setFetchError] = useState(/** @type {string | null} */ (null));
+  const [progressError, setProgressError] = useState(/** @type {string | null} */ (null));
   const online = useOnlineStatus();
 
   useEffect(() => {
@@ -52,7 +54,7 @@ export default function Lesson() {
       : Promise.resolve(Array.isArray(getOfflineVocab(safeLangCode)) ? getOfflineVocab(safeLangCode) : []);
     const lessonMetaPromise = online
       ? getLessonsForLanguage(safeLangCode)
-      : Promise.resolve([]);
+      : Promise.resolve(getOfflineLessons(safeLangCode));
 
     Promise.allSettled([languagePromise, lessonItemsPromise, allItemsPromise, lessonMetaPromise]).then(([langRes, itemsRes, allRes, lessonsRes]) => {
       const meta = lessonsRes.status === "fulfilled" && Array.isArray(lessonsRes.value)
@@ -135,20 +137,81 @@ export default function Lesson() {
     const num = parseInt(lessonNum || "0", 10);
     if (!online) {
       queueProgressUpdate({ type: "lesson_complete", user_id: user.id, language_code: langCode, lesson_number: num, xp: xpEarned });
+      const offlineLessons = getOfflineLessons(langCode);
+      const lessonNumbers = offlineLessons
+        .map((lesson) => Number(lesson?.lesson_number))
+        .filter((n) => Number.isFinite(n) && n > 0)
+        .sort((a, b) => a - b);
+      const nextLessonOffline = getNextUnlockedLesson([num], lessonNumbers);
+      try {
+        if (typeof window !== "undefined") window.localStorage.setItem(`mbaara-next-lesson-${langCode}`, String(nextLessonOffline));
+      } catch (e) {}
+      window.dispatchEvent(new Event("mbaara-progress-updated"));
+      window.dispatchEvent(new CustomEvent("mbaara-lesson-completed", { detail: { lessonNumber: num, nextLesson: nextLessonOffline, completedLessons: [num] } }));
+      // navigate to next lesson when offline
+      try {
+        navigate(`/lecon/${langCode}/${nextLessonOffline}`);
+      } catch (e) {}
       return;
     }
     try {
-      await updateProgress({ type: "lesson_complete", language_code: langCode, lesson_number: num, xp: xpEarned });
-      await getProgress();
+      setProgressError(null);
+      const updated = await updateProgress({ type: "lesson_complete", language_code: langCode, lesson_number: num, xp: xpEarned });
+      if (updated?.error) {
+        if (updated.status === 401) {
+          setProgressError("Vous devez être connecté pour sauvegarder la progression.");
+        } else if (updated.status === 422) {
+          setProgressError("Impossible de sauvegarder la progression : requête invalide.");
+        } else {
+          setProgressError("Erreur lors de la sauvegarde de la progression. Réessayez plus tard.");
+        }
+        return;
+      }
+
+      const refreshed = await getProgress();
+      const completedLessons = updated?.completed_lessons || refreshed?.find?.((p) => p.language_code === langCode)?.completed_lessons || [];
+      const lessonMetaList = online ? await getLessonsForLanguage(langCode) : getOfflineLessons(langCode);
+      const lessonNumbers = lessonMetaList?.map((lesson) => lesson.lesson_number).filter((n) => Number.isFinite(Number(n)) && Number(n) > 0) || [];
+      const nextLesson = getNextUnlockedLesson(completedLessons, lessonNumbers);
       window.dispatchEvent(new Event("mbaara-progress-updated"));
+      window.dispatchEvent(new CustomEvent("mbaara-lesson-completed", { detail: { lessonNumber: num, nextLesson, completedLessons } }));
+      if (typeof window !== "undefined") {
+        window.localStorage.setItem(`mbaara-next-lesson-${langCode}`, String(nextLesson));
+      }
+      // navigate to the next lesson automatically when available
+      try {
+        if (nextLesson && nextLesson > num) {
+          navigate(`/lecon/${langCode}/${nextLesson}`);
+        } else {
+          navigate(`/apprendre/${langCode}`);
+        }
+      } catch (e) {}
     } catch (error) {
       console.error("Progress update failed", error);
+      if (error?.status === 401) {
+        setProgressError("Vous devez être connecté pour sauvegarder la progression.");
+      } else if (error?.status === 422) {
+        setProgressError("Impossible de sauvegarder la progression : requête invalide.");
+      } else {
+        setProgressError("Erreur lors de la sauvegarde de la progression. Réessayez plus tard.");
+      }
     }
+  };
+
+  const normalizeLessonLevel = (value) => {
+    const raw = String(value || "").trim().toUpperCase();
+    if (raw === "A1" || raw === "A2") return "Débutant";
+    if (raw === "B1") return "Intermédiaire";
+    if (raw === "B2" || raw === "C1" || raw === "C2") return "Avancé";
+    if (raw === "DEBUTANT" || raw === "DÉBUTANT") return "Débutant";
+    if (raw === "INTERMEDIAIRE" || raw === "INTERMÉDIAIRE") return "Intermédiaire";
+    if (raw === "AVANCE" || raw === "AVANCÉ") return "Avancé";
+    return value || null;
   };
 
   const lessonTitle = lessonMeta?.module?.theme || lessonMeta?.title_fr || lessonMeta?.title || `Leçon ${parseInt(lessonNum || "0", 10)}`;
   const lessonDescription = lessonMeta?.module?.description || lessonMeta?.description || lessonMeta?.content || `${items.length} mots à apprendre`;
-  const lessonNiveau = lessonMeta?.module?.niveau || lessonMeta?.level || null;
+  const lessonNiveau = normalizeLessonLevel(lessonMeta?.module?.niveau || lessonMeta?.level || null);
 
   if (loading) {
     return (
@@ -220,6 +283,11 @@ export default function Lesson() {
       </div>
 
       <div className="flex-1 max-w-xl mx-auto w-full px-4 py-6">
+        {progressError && (
+          <div className="mb-4 rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+            {progressError}
+          </div>
+        )}
         <AnimatePresence mode="wait">
           {phase === "learn" && currentItem && (
             <motion.div key={`learn-${cardIdx}`} initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -40 }} className="flex flex-col items-center gap-6">

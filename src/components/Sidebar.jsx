@@ -26,11 +26,24 @@ export default function Sidebar() {
   const online = useOnlineStatus();
 
   useEffect(() => {
-    if (user) {
-      getProgress()
-        .then((res) => setProgresses(Array.isArray(res) ? res : []))
-        .catch(() => setProgresses([]));
-    }
+    const refreshProgress = () => {
+      if (user) {
+        getProgress()
+          .then((res) => setProgresses(Array.isArray(res) ? res : []))
+          .catch(() => setProgresses([]));
+      } else {
+        setProgresses([]);
+      }
+    };
+
+    refreshProgress();
+    window.addEventListener("mbaara-progress-updated", refreshProgress);
+    window.addEventListener("mbaara-user-updated", refreshProgress);
+
+    return () => {
+      window.removeEventListener("mbaara-progress-updated", refreshProgress);
+      window.removeEventListener("mbaara-user-updated", refreshProgress);
+    };
   }, [user]);
 
   useEffect(() => {

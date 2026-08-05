@@ -28,6 +28,8 @@ import Leagues from '@/pages/studio/Leagues';
 import Lesson from '@/pages/Lesson';
 import Admin from '@/pages/Admin';
 import Profile from '@/pages/Profile';
+import Settings from '@/pages/Settings';
+import Support from '@/pages/Support';
 // public logo at /logo.png
 
 const AuthenticatedApp = () => {
@@ -67,13 +69,15 @@ const AuthenticatedApp = () => {
       <Route element={<AppLayout />}>
         <Route path="/" element={<Home />} />
       </Route>
-      
+
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/forgot-password" element={<ForgotPassword />} />
       <Route path="/reset-password" element={<ResetPassword />} />
+
       <Route element={<ProtectedRoute unauthenticatedElement={<Navigate to="/login" replace />} />}>
         <Route element={<AppLayout />}>
+          <Route path="/dashboard" element={<Home />} />
           <Route path="/apprendre" element={<Learn />} />
           <Route path="/apprendre/:langCode" element={<Learn />} />
           <Route path="/tuteur" element={<AITutor />} />
@@ -86,9 +90,12 @@ const AuthenticatedApp = () => {
           <Route path="/studio/ligues" element={<Leagues />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/profil" element={<Profile />} />
+          <Route path="/settings" element={<Settings />} />
+          <Route path="/support" element={<Support />} />
         </Route>
         <Route path="/lecon/:langCode/:lessonNum" element={<Lesson />} />
       </Route>
+
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );

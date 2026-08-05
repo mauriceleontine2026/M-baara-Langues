@@ -63,12 +63,130 @@ def get_language_label(language_code: str) -> str:
     return LANGUAGE_LABELS.get(language_code, language_code.title())
 
 
+def get_theme_context(lesson: Lesson) -> dict | None:
+    title_text = f"{lesson.title or ''} {lesson.content or ''} {lesson.description or ''}".lower()
+    if "couleur" in title_text or "couleurs" in title_text:
+        return {
+            "focus": "couleurs",
+            "description": "Apprenez à nommer les couleurs, à les associer à des objets du quotidien et à construire de courtes phrases utiles.",
+            "sample_sentence": "Le rouge est ma couleur préférée.",
+            "exercise_prompt": "Complète la phrase liée aux couleurs",
+        }
+    if "famille" in title_text:
+        return {
+            "focus": "famille",
+            "description": "Pratiquez les mots de la famille, les liens de parenté et les phrases simples pour se présenter auprès des proches.",
+            "sample_sentence": "Ma sœur aime chanter.",
+            "exercise_prompt": "Complète la phrase liée à la famille",
+        }
+    if "nombre" in title_text or "compter" in title_text or "prix" in title_text:
+        return {
+            "focus": "nombres",
+            "description": "Apprenez à compter, à dire des prix et à utiliser des quantités simples dans des situations concrètes.",
+            "sample_sentence": "Le prix est de trois euros.",
+            "exercise_prompt": "Complète la phrase liée aux nombres",
+        }
+    if "salut" in title_text or "bonjour" in title_text or "au revoir" in title_text or "merci" in title_text:
+        return {
+            "focus": "salutations",
+            "description": "Pratiquez les formules de politesse, les salutations de base et les échanges simples au quotidien.",
+            "sample_sentence": "Bonjour, comment ça va ?",
+            "exercise_prompt": "Complète la phrase liée aux salutations",
+        }
+    if "temps" in title_text or "météo" in title_text or "saison" in title_text:
+        return {
+            "focus": "temps",
+            "description": "Apprenez à parler du temps qu'il fait, des saisons et des activités liées à la météo.",
+            "sample_sentence": "Aujourd'hui il fait beau.",
+            "exercise_prompt": "Complète la phrase liée au temps",
+        }
+    if "direction" in title_text or "ville" in title_text or "marché" in title_text:
+        return {
+            "focus": "directions",
+            "description": "Maîtrisez les expressions utiles pour demander et donner des directions dans la ville ou au marché.",
+            "sample_sentence": "Tournez à gauche au carrefour.",
+            "exercise_prompt": "Complète la phrase liée aux directions",
+        }
+    if "aliment" in title_text or "nourriture" in title_text or "manger" in title_text or "restaurant" in title_text:
+        return {
+            "focus": "aliments",
+            "description": "Apprenez à nommer les aliments de base, à exprimer vos goûts et à commander dans un restaurant.",
+            "sample_sentence": "Je voudrais du pain et du lait.",
+            "exercise_prompt": "Complète la phrase liée aux aliments",
+        }
+    if "maison" in title_text or "pièce" in title_text or "objet" in title_text:
+        return {
+            "focus": "maison",
+            "description": "Parlez des pièces, des objets et des activités quotidiennes à la maison.",
+            "sample_sentence": "La cuisine est à gauche.",
+            "exercise_prompt": "Complète la phrase liée à la maison",
+        }
+    if "animal" in title_text:
+        return {
+            "focus": "animaux",
+            "description": "Découvrez les noms des animaux, leurs habitudes et les expressions utiles pour les identifier.",
+            "sample_sentence": "Le chien aboie fort.",
+            "exercise_prompt": "Complète la phrase liée aux animaux",
+        }
+    if "émotion" in title_text or "sentiment" in title_text:
+        return {
+            "focus": "émotions",
+            "description": "Exprimez vos émotions de base et utilisez des formules simples pour parler de ce que vous ressentez.",
+            "sample_sentence": "Je suis heureux aujourd'hui.",
+            "exercise_prompt": "Complète la phrase liée aux émotions",
+        }
+    if "santé" in title_text or "malade" in title_text or "symptôme" in title_text:
+        return {
+            "focus": "santé",
+            "description": "Apprenez à parler de votre santé, à décrire les symptômes et à demander de l'aide.",
+            "sample_sentence": "J'ai mal à la tête.",
+            "exercise_prompt": "Complète la phrase liée à la santé",
+        }
+    if "vêtement" in title_text or "vêtements" in title_text or "robe" in title_text or "chaussure" in title_text:
+        return {
+            "focus": "vêtements",
+            "description": "Apprenez à nommer les vêtements, les couleurs et à décrire ce que vous portez.",
+            "sample_sentence": "Je porte une robe bleue.",
+            "exercise_prompt": "Complète la phrase liée aux vêtements",
+        }
+    if "transport" in title_text or "train" in title_text or "bus" in title_text or "voiture" in title_text:
+        return {
+            "focus": "transports",
+            "description": "Pratiquez les moyens de transport, les trajets et les expressions utiles pour voyager.",
+            "sample_sentence": "Je prends le bus tous les matins.",
+            "exercise_prompt": "Complète la phrase liée aux transports",
+        }
+    if "loisir" in title_text or "sport" in title_text or "jeu" in title_text:
+        return {
+            "focus": "loisirs",
+            "description": "Parlez de vos hobbies, de vos activités préférées et des habitudes du quotidien.",
+            "sample_sentence": "J'aime jouer au football.",
+            "exercise_prompt": "Complète la phrase liée aux loisirs",
+        }
+    if "voyage" in title_text or "culture" in title_text:
+        return {
+            "focus": "voyage",
+            "description": "Utilisez des phrases utiles pour voyager, demander des informations et découvrir une culture nouvelle.",
+            "sample_sentence": "Où se trouve la gare ?",
+            "exercise_prompt": "Complète la phrase liée au voyage",
+        }
+    if "tradition" in title_text or "coutume" in title_text or "fête" in title_text:
+        return {
+            "focus": "traditions",
+            "description": "Découvrez les coutumes, les fêtes et les expressions associées aux traditions locales.",
+            "sample_sentence": "Nous célébrons cette fête ensemble.",
+            "exercise_prompt": "Complète la phrase liée aux traditions",
+        }
+    return None
+
+
 def build_exercises(lesson: Lesson, vocab_items: list[VocabularyItem]) -> list[dict]:
     exercises = []
     items = [item for item in vocab_items if item.word and item.translation_fr]
+    theme_context = get_theme_context(lesson)
     if not items:
         lesson_label = lesson.title or f"Leçon {lesson.lesson_number}"
-        fallback_text = lesson.content or lesson.description or f"Exercez-vous avec cette leçon de {get_language_label(lesson.language_code)}."
+        fallback_text = theme_context["description"] if theme_context else lesson.content or lesson.description or f"Exercez-vous avec cette leçon de {get_language_label(lesson.language_code)}."
         return [
             {
                 "id": 1,
@@ -84,7 +202,7 @@ def build_exercises(lesson: Lesson, vocab_items: list[VocabularyItem]) -> list[d
                 "id": 2,
                 "type": "multiple_choice",
                 "instruction": "Choisis l'énoncé qui décrit le mieux cette leçon.",
-                "question": "Quel est le thème principal de cette leçon ?",
+                "question": f"Quel est le thème principal de cette leçon ? {lesson_label}",
                 "options": [
                     lesson_label,
                     f"Vocabulaire de base en {get_language_label(lesson.language_code)}",
@@ -103,12 +221,15 @@ def build_exercises(lesson: Lesson, vocab_items: list[VocabularyItem]) -> list[d
     else:
         phrase = f"{primary.word}"
 
+    focus_label = theme_context["focus"] if theme_context else "thème"
+    focus_phrase = theme_context["exercise_prompt"] if theme_context else "phrase"
+
     # Word bank
     exercises.append({
         "id": 1,
         "type": "word_bank",
-        "instruction": f"Remets les mots dans le bon ordre pour traduire en {get_language_label(lesson.language_code)}.",
-        "question": f"Translate to {get_language_label(lesson.language_code)}: {primary.translation_fr}.",
+        "instruction": f"Remets les mots dans le bon ordre pour parler des {focus_label}.",
+        "question": f"Traduis en {get_language_label(lesson.language_code)} : {primary.translation_fr}.",
         "options": [word for word in primary.word.split(" ")],
         "answer": primary.word,
         "explanation_on_error": "C’est la traduction directe du français.",
@@ -122,7 +243,7 @@ def build_exercises(lesson: Lesson, vocab_items: list[VocabularyItem]) -> list[d
         "id": 2,
         "type": "fill_in_blank",
         "instruction": "Complète la phrase avec le bon mot.",
-        "question": blank_text,
+        "question": f"{focus_phrase}: {blank_text}",
         "options": [blank_word] + [item.word for item in sample(items[1:5], min(2, len(items) - 1))] if len(items) > 1 else [blank_word],
         "answer": blank_word,
         "explanation_on_error": "Le mot correspond à la phrase donnée.",
@@ -136,7 +257,7 @@ def build_exercises(lesson: Lesson, vocab_items: list[VocabularyItem]) -> list[d
     exercises.append({
         "id": 3,
         "type": "pair_matching",
-        "instruction": "Associe chaque mot à sa traduction.",
+        "instruction": f"Associe chaque mot à sa traduction liée aux {focus_label}.",
         "question": None,
         "options": [f"{item.word} - {item.translation_fr}" for item in sample_items],
         "answer": pairs,
@@ -146,13 +267,11 @@ def build_exercises(lesson: Lesson, vocab_items: list[VocabularyItem]) -> list[d
 
     # Interactive story
     story_item = sample_items[0]
-    prompt = story_item.example_target or story_item.word
-    choices = [story_item.word, "Merci", "Bonjour"]
     exercises.append({
         "id": 4,
         "type": "interactive_story",
         "instruction": "Choisis la meilleure réponse dans le mini-dialogue.",
-        "question": f"Client: 'Je voudrais {story_item.word}.' Vendeur: '____ ?' ",
+        "question": f"Client: 'Je voudrais {story_item.word}.' Vendeur: '____ ?' ({focus_label})",
         "options": ["Combien ça coûte", "Qui êtes-vous", "Où est le marché"],
         "answer": "Combien ça coûte",
         "explanation_on_error": "Le vendeur demande le prix.",
@@ -164,9 +283,9 @@ def build_exercises(lesson: Lesson, vocab_items: list[VocabularyItem]) -> list[d
         "id": 5,
         "type": "audio_listen",
         "instruction": "Écoute et écris la phrase entendue.",
-        "question": f"Audio: {phrase}",
+        "question": f"Audio: {theme_context['sample_sentence'] if theme_context else phrase}",
         "options": [],
-        "answer": phrase,
+        "answer": theme_context['sample_sentence'] if theme_context else phrase,
         "explanation_on_error": "Écoute bien la phrase entière.",
         "xp_reward": 10,
     })
@@ -175,12 +294,13 @@ def build_exercises(lesson: Lesson, vocab_items: list[VocabularyItem]) -> list[d
 
 
 def build_module(lesson: Lesson, vocab_items: list[VocabularyItem]) -> dict:
+    theme_context = get_theme_context(lesson)
     structured = {
         "theme": lesson.title or f"Leçon {lesson.lesson_number}",
         "niveau": difficulty_to_niveau(getattr(lesson, "level", None), lesson.difficulty),
         "langue_apprise": get_language_label(lesson.language_code),
         "langue_interface": QUESTION_INTERFACE,
-        "description": lesson.content or lesson.description or f"Exercez-vous avec la leçon {lesson.title}.",
+        "description": theme_context["description"] if theme_context else lesson.content or lesson.description or f"Exercez-vous avec la leçon {lesson.title}.",
         "exercices": build_exercises(lesson, vocab_items),
     }
     return {

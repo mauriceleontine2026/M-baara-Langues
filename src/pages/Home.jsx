@@ -18,9 +18,22 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    if (user) {
-      getProgress().then((data) => setProgresses(Array.isArray(data) ? data : [])).catch(() => setProgresses([]));
-    }
+    const refreshProgress = () => {
+      if (user) {
+        getProgress().then((data) => setProgresses(Array.isArray(data) ? data : [])).catch(() => setProgresses([]));
+      } else {
+        setProgresses([]);
+      }
+    };
+
+    refreshProgress();
+    window.addEventListener("mbaara-progress-updated", refreshProgress);
+    window.addEventListener("mbaara-user-updated", refreshProgress);
+
+    return () => {
+      window.removeEventListener("mbaara-progress-updated", refreshProgress);
+      window.removeEventListener("mbaara-user-updated", refreshProgress);
+    };
   }, [user]);
 
   const safeProgresses = /** @type {any[]} */ (Array.isArray(progresses) ? progresses : []);

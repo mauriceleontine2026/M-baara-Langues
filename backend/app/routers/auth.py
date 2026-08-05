@@ -1,8 +1,11 @@
+import hashlib
 import os
+import time
 import uuid
+from collections import defaultdict, deque
 
-from fastapi import APIRouter, HTTPException, Depends, status
-from pydantic import BaseModel, EmailStr
+from fastapi import APIRouter, HTTPException, Depends, Request, status
+from pydantic import BaseModel, EmailStr, Field
 from sqlalchemy.orm import Session
 import httpx
 from ..database import get_db
@@ -16,16 +19,34 @@ FIREBASE_LOOKUP_URL = "https://identitytoolkit.googleapis.com/v1/accounts:lookup
 
 router = APIRouter()
 
+RATE_LIMIT_WINDOW_SECONDS = 60
+RATE_LIMIT_MAX_ATTEMPTS = 5
+_rate_limit_buckets: dict[str, deque[float]] = defaultdict(deque)
+
+
+def _check_rate_limit(request: Request) -> None:
+    client_ip = request.client.host if request.client else "unknown"
+    now = time.monotonic()
+    bucket = _rate_limit_buckets[client_ip]
+    while bucket and now - bucket[0] > RATE_LIMIT_WINDOW_SECONDS:
+        bucket.popleft()
+    if len(bucket) >= RATE_LIMIT_MAX_ATTEMPTS:
+        raise HTTPException(
+            status_code=status.HTTP_429_TOO_MANY_REQUESTS,
+            detail="Too many requests. Please retry later.",
+        )
+    bucket.append(now)
+
 
 class RegisterRequest(BaseModel):
     email: EmailStr
-    password: str
+    password: str = Field(..., min_length=12, max_length=128)
     full_name: str | None = None
 
 
 class LoginRequest(BaseModel):
     email: EmailStr
-    password: str
+    password: str = Field(..., min_length=12, max_length=128)
 
 
 class ResetPasswordRequest(BaseModel):
@@ -42,7 +63,7 @@ class UpdateMeRequest(BaseModel):
     photo_url: str | None = None
 
 
-reset_tokens: dict[str, int] = {}
+reset_tokens: dict[str, tuple[int, float]] = {}
 
 
 def _verify_firebase_id_token(id_token_value: str) -> dict:
@@ -128,14 +149,18 @@ def firebase_auth(payload: FirebaseAuthRequest, db: Session = Depends(get_db)):
 
 
 @router.post("/register", status_code=status.HTTP_201_CREATED)
-def register(payload: RegisterRequest, db: Session = Depends(get_db)):
+def register(request: Request, payload: RegisterRequest, db: Session = Depends(get_db)):
+    _check_rate_limit(request)
     existing = db.query(User).filter(User.email == payload.email).first()
     if existing:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email already registered")
+
+    admin_email = is_admin_email(payload.email)
     user = User(
         email=payload.email,
         hashed_password=security.get_password_hash(payload.password),
         full_name=payload.full_name,
+        role="admin" if admin_email else "user",
     )
     db.add(user)
     db.commit()
@@ -145,10 +170,18 @@ def register(payload: RegisterRequest, db: Session = Depends(get_db)):
 
 
 @router.post("/login")
-def login(payload: LoginRequest, db: Session = Depends(get_db)):
+def login(request: Request, payload: LoginRequest, db: Session = Depends(get_db)):
+    _check_rate_limit(request)
     user = db.query(User).filter(User.email == payload.email).first()
     if not user or not security.verify_password(payload.password, user.hashed_password):
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
+
+    if is_admin_email(user.email) and user.role != "admin":
+        user.role = "admin"
+        db.add(user)
+        db.commit()
+        db.refresh(user)
+
     token = security.create_access_token({"sub": str(user.id), "email": user.email})
     return {"access_token": token, "token_type": "bearer", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
 
@@ -186,24 +219,34 @@ def update_me(payload: UpdateMeRequest, current_user=Depends(get_current_user), 
 
 
 @router.post("/reset-password-request")
-def reset_password_request(payload: ResetPasswordRequest, db: Session = Depends(get_db)):
+def reset_password_request(request: Request, payload: ResetPasswordRequest, db: Session = Depends(get_db)):
+    _check_rate_limit(request)
     user = db.query(User).filter(User.email == payload.email).first()
     if user:
         token = security.create_access_token({"sub": str(user.id), "email": user.email})
-        reset_tokens[token] = user.id
+        token_hash = hashlib.sha256(token.encode("utf-8")).hexdigest()
+        reset_tokens[token_hash] = (user.id, time.time() + (15 * 60))
     return {"status": "ok"}
 
 
 @router.post("/reset-password")
-def reset_password(payload: ResetPasswordConfirmRequest, db: Session = Depends(get_db)):
-    user_id = reset_tokens.get(payload.resetToken)
-    if not user_id:
+def reset_password(request: Request, payload: ResetPasswordConfirmRequest, db: Session = Depends(get_db)):
+    _check_rate_limit(request)
+    token_hash = hashlib.sha256(payload.resetToken.encode("utf-8")).hexdigest()
+    stored = reset_tokens.get(token_hash)
+    if not stored:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid reset token")
+
+    user_id, expires_at = stored
+    if time.time() > expires_at:
+        del reset_tokens[token_hash]
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Reset token expired")
+
     user = db.query(User).filter(User.id == user_id).first()
     if not user:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     user.hashed_password = security.get_password_hash(payload.newPassword)
     db.add(user)
     db.commit()
-    del reset_tokens[payload.resetToken]
+    del reset_tokens[token_hash]
     return {"status": "ok"}

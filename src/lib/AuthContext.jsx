@@ -6,9 +6,9 @@ const AuthContext = createContext(null);
 const USER_STORAGE_KEY = "mbaara_user";
 
 const getStoredUser = () => {
-  if (typeof window === "undefined" || !window.localStorage) return null;
+  if (typeof window === "undefined" || !window.sessionStorage) return null;
   try {
-    const raw = window.localStorage.getItem(USER_STORAGE_KEY);
+    const raw = window.sessionStorage.getItem(USER_STORAGE_KEY);
     return raw ? JSON.parse(raw) : null;
   } catch {
     return null;
@@ -16,11 +16,11 @@ const getStoredUser = () => {
 };
 
 const persistUser = (user) => {
-  if (typeof window === "undefined" || !window.localStorage) return;
+  if (typeof window === "undefined" || !window.sessionStorage) return;
   if (user) {
-    window.localStorage.setItem(USER_STORAGE_KEY, JSON.stringify(user));
+    window.sessionStorage.setItem(USER_STORAGE_KEY, JSON.stringify(user));
   } else {
-    window.localStorage.removeItem(USER_STORAGE_KEY);
+    window.sessionStorage.removeItem(USER_STORAGE_KEY);
   }
 };
 
@@ -61,10 +61,18 @@ export const AuthProvider = ({ children }) => {
       setUser(currentUser);
       setIsAuthenticated(Boolean(currentUser));
       persistUser(currentUser);
+      if (typeof window !== 'undefined') {
+        window.dispatchEvent(new Event('mbaara-user-updated'));
+        window.dispatchEvent(new Event('mbaara-progress-updated'));
+      }
     } catch (error) {
       setUser(null);
       setIsAuthenticated(false);
       persistUser(null);
+      if (typeof window !== 'undefined') {
+        window.dispatchEvent(new Event('mbaara-user-updated'));
+        window.dispatchEvent(new Event('mbaara-progress-updated'));
+      }
       const status = error?.status ?? (error instanceof Error ? null : null);
       if (status === 401 || status === 403) {
         setAuthError({ type: 'auth_required', message: 'Authentication required' });
@@ -81,6 +89,9 @@ export const AuthProvider = ({ children }) => {
     setUser((currentUser) => {
       const nextUser = currentUser ? { ...currentUser, ...updates } : currentUser;
       persistUser(nextUser);
+      if (typeof window !== "undefined") {
+        window.dispatchEvent(new Event("mbaara-user-updated"));
+      }
       return nextUser;
     });
   };

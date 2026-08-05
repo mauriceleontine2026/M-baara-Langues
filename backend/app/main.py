@@ -15,6 +15,14 @@ from .database import SessionLocal
 
 app = FastAPI(title="M'baara API", version="0.1.0")
 
+allowed_origins = [
+    origin.strip()
+    for origin in os.getenv(
+        "ALLOWED_ORIGINS",
+        "https://mbaara-web.vercel.app,https://m-baara-langues.web.app,http://localhost:5173,http://127.0.0.1:5173"
+    ).split(",") if origin.strip()
+]
+
 Base.metadata.create_all(bind=engine)
 
 from sqlalchemy import inspect, text
@@ -27,8 +35,8 @@ def _ensure_user_role_column():
     columns = [column['name'] for column in inspector.get_columns('users')]
     if 'role' in columns:
         return
-    with engine.connect() as conn:
-        conn.execute("ALTER TABLE users ADD COLUMN role VARCHAR(50) DEFAULT 'user'")
+    with engine.begin() as conn:
+        conn.execute(text("ALTER TABLE users ADD COLUMN role VARCHAR(50) DEFAULT 'user'"))
 
 
 def _ensure_lesson_columns():
@@ -36,7 +44,7 @@ def _ensure_lesson_columns():
     if 'lessons' not in inspector.get_table_names():
         return
     columns = {column['name'] for column in inspector.get_columns('lessons')}
-    with engine.connect() as conn:
+    with engine.begin() as conn:
         if 'title_fr' not in columns:
             conn.execute(text('ALTER TABLE lessons ADD COLUMN title_fr VARCHAR(255)'))
         if 'level' not in columns:
@@ -289,6 +297,112 @@ def _seed_dictionary_content(db):
                 db.commit()
 
 
+def _build_theme_vocab(theme_title: str, difficulty: str):
+    normalized = (theme_title or "").lower()
+    if "couleur" in normalized:
+        return [
+            ("rouge", "rouge", "Le rouge est ma couleur préférée."),
+            ("bleu", "bleu", "Le ciel est bleu aujourd'hui."),
+            ("vert", "vert", "J'aime le vert dans la nature."),
+        ]
+    if "famille" in normalized:
+        return [
+            ("mère", "mère", "Ma mère prépare le dîner."),
+            ("père", "père", "Mon père travaille beaucoup."),
+            ("frère", "frère", "Mon frère joue au football."),
+        ]
+    if "nombre" in normalized or "compter" in normalized or "prix" in normalized:
+        return [
+            ("un", "un", "Un livre sur la table."),
+            ("deux", "deux", "Deux amis attendent ici."),
+            ("trois", "trois", "Trois pommes dans le panier."),
+        ]
+    if "salut" in normalized or "bonjour" in normalized or "merci" in normalized:
+        return [
+            ("bonjour", "bonjour", "Bonjour, comment ça va ?"),
+            ("merci", "merci", "Merci beaucoup pour votre aide."),
+            ("au revoir", "au revoir", "Au revoir, à bientôt !"),
+        ]
+    if "temps" in normalized or "météo" in normalized or "saison" in normalized:
+        return [
+            ("soleil", "soleil", "Le soleil brille aujourd'hui."),
+            ("pluie", "pluie", "La pluie tombe doucement."),
+            ("hiver", "hiver", "L'hiver est très froid."),
+        ]
+    if "direction" in normalized or "ville" in normalized or "marché" in normalized:
+        return [
+            ("gauche", "gauche", "Tournez à gauche au carrefour."),
+            ("droite", "droite", "Continuez tout droit."),
+            ("marché", "marché", "Je vais au marché ce matin."),
+        ]
+    if "aliment" in normalized or "nourriture" in normalized or "restaurant" in normalized:
+        return [
+            ("pain", "pain", "Je mange du pain tous les jours."),
+            ("eau", "eau", "Je bois de l'eau fraîche."),
+            ("riz", "riz", "Le riz est un aliment de base."),
+        ]
+    if "maison" in normalized or "pièce" in normalized or "objet" in normalized:
+        return [
+            ("chambre", "chambre", "La chambre est propre."),
+            ("cuisine", "cuisine", "La cuisine est grande."),
+            ("table", "table", "La table est en bois."),
+        ]
+    if "animal" in normalized:
+        return [
+            ("chien", "chien", "Le chien aboie fort."),
+            ("chat", "chat", "Le chat dort sur le canapé."),
+            ("oiseau", "oiseau", "L'oiseau chante le matin."),
+        ]
+    if "émotion" in normalized or "sentiment" in normalized:
+        return [
+            ("heureux", "heureux", "Je suis heureux aujourd'hui."),
+            ("triste", "triste", "Je suis triste ce matin."),
+            ("calme", "calme", "Je me sens calme."),
+        ]
+    if "santé" in normalized or "malade" in normalized or "symptôme" in normalized:
+        return [
+            ("douleur", "douleur", "J'ai une douleur dans la tête."),
+            ("médicament", "médicament", "Je prends un médicament."),
+            ("repos", "repos", "Le repos aide à guérir."),
+        ]
+    if "vêtement" in normalized or "robe" in normalized or "chaussure" in normalized:
+        return [
+            ("robe", "robe", "Je porte une robe bleue."),
+            ("pantalon", "pantalon", "Mon pantalon est noir."),
+            ("chaussure", "chaussure", "Mes chaussures sont propres."),
+        ]
+    if "transport" in normalized or "train" in normalized or "bus" in normalized or "voiture" in normalized:
+        return [
+            ("bus", "bus", "Je prends le bus le matin."),
+            ("train", "train", "Le train part à l'heure."),
+            ("voiture", "voiture", "La voiture est garée dehors."),
+        ]
+    if "loisir" in normalized or "sport" in normalized or "jeu" in normalized:
+        return [
+            ("football", "football", "J'aime jouer au football."),
+            ("musique", "musique", "La musique me détend."),
+            ("lecture", "lecture", "La lecture est très agréable."),
+        ]
+    if "voyage" in normalized or "culture" in normalized:
+        return [
+            ("gare", "gare", "Où se trouve la gare ?"),
+            ("voyage", "voyage", "Le voyage est agréable."),
+            ("culture", "culture", "La culture locale est fascinante."),
+        ]
+    if "tradition" in normalized or "coutume" in normalized or "fête" in normalized:
+        return [
+            ("fête", "fête", "Nous célébrons cette fête ensemble."),
+            ("coutume", "coutume", "Cette coutume est ancienne."),
+            ("tradition", "tradition", "La tradition locale est importante."),
+        ]
+
+    return [
+        (f"{theme_title} 1", f"Mot 1", f"{theme_title} 1"),
+        (f"{theme_title} 2", f"Mot 2", f"{theme_title} 2"),
+        (f"{theme_title} 3", f"Mot 3", f"{theme_title} 3"),
+    ]
+
+
 def _seed_missing_lessons(db, min_lessons: int = 20):
     lesson_themes = [
         {
@@ -409,15 +523,16 @@ def _seed_missing_lessons(db, min_lessons: int = 20):
                 content=content,
                 published=True,
             ))
-            for idx in range(1, 4):
+            themed_vocab = _build_theme_vocab(theme['title'], difficulty)
+            for idx, (word, translation, example) in enumerate(themed_vocab[:3], start=1):
                 db.add(VocabularyItem(
                     language_code=language_row.code,
                     lesson_number=lesson_number,
-                    word=f"{theme['title']} {idx}",
-                    translation_fr=f"Mot {idx}",
+                    word=word,
+                    translation_fr=translation,
                     phonetic=None,
-                    example_target=f"{theme['summary']} {idx}",
-                    example_fr=f"Mot {idx}",
+                    example_target=example,
+                    example_fr=translation,
                     difficulty=difficulty,
                 ))
             added += 1
@@ -513,11 +628,27 @@ _seed_default_languages()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE"],
+    allow_headers=["Authorization", "Content-Type"],
 )
+
+@app.middleware("http")
+async def add_security_headers(request, call_next):
+    response = await call_next(request)
+    response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
+    response.headers["X-Content-Type-Options"] = "nosniff"
+    response.headers["X-Frame-Options"] = "DENY"
+    response.headers["Content-Security-Policy"] = (
+        "default-src 'self'; "
+        "img-src 'self' data: https:; "
+        "style-src 'self' 'unsafe-inline'; "
+        "script-src 'self'; "
+        "frame-ancestors 'none'; "
+        "base-uri 'self'"
+    )
+    return response
 
 app.include_router(health, prefix="/api")
 app.include_router(auth, prefix="/api/auth")

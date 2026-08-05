@@ -2,15 +2,26 @@ import { useEffect, useState } from "react";
 import { createLesson, getLessonsForLanguage, updateLesson } from "@/api/languageService";
 import { Plus, Eye, EyeOff, ChevronDown, ChevronUp } from "lucide-react";
 
+const normalizeLessonLevel = (value) => {
+  const raw = String(value || "").trim().toUpperCase();
+  if (raw === "A1" || raw === "A2") return "Débutant";
+  if (raw === "B1") return "Intermédiaire";
+  if (raw === "B2" || raw === "C1" || raw === "C2") return "Avancé";
+  if (raw === "DEBUTANT" || raw === "DÉBUTANT") return "Débutant";
+  if (raw === "INTERMEDIAIRE" || raw === "INTERMÉDIAIRE") return "Intermédiaire";
+  if (raw === "AVANCE" || raw === "AVANCÉ") return "Avancé";
+  return value || "Débutant";
+};
+
 export default function AdminLessons({ languages }) {
   const [lessons, setLessons] = useState([]);
   const [lang, setLang] = useState("");
-  const [newLesson, setNewLesson] = useState({ title: "", title_fr: "", level: "A1", order: 1, type: "vocabulary", description: "" });
+  const [newLesson, setNewLesson] = useState({ title: "", title_fr: "", level: "Débutant", order: 1, type: "vocabulary", description: "" });
   const [saving, setSaving] = useState(false);
   const [msg, setMsg] = useState("");
   const [expandedLessonId, setExpandedLessonId] = useState(null);
   const [editingLessonId, setEditingLessonId] = useState(null);
-  const [editLessonDraft, setEditLessonDraft] = useState({ theme: "", niveau: "A1", type: "vocabulary", order: 1, description: "", title_fr: "" });
+  const [editLessonDraft, setEditLessonDraft] = useState({ theme: "", niveau: "Débutant", type: "vocabulary", order: 1, description: "", title_fr: "" });
 
   useEffect(() => {
     if (languages.length > 0 && !lang) setLang(languages[0].code);
@@ -50,7 +61,7 @@ export default function AdminLessons({ languages }) {
     setEditingLessonId(lesson.id);
     setEditLessonDraft({
       theme: module.theme || lesson.title || "",
-      niveau: module.niveau || lesson.level || "A1",
+      niveau: normalizeLessonLevel(module.niveau || lesson.level || "Débutant"),
       type: lesson.type || "vocabulary",
       order: lesson.order || lesson.lesson_number || 1,
       description: module.description || lesson.description || lesson.content || "",
@@ -60,7 +71,7 @@ export default function AdminLessons({ languages }) {
 
   const cancelEditLesson = () => {
     setEditingLessonId(null);
-    setEditLessonDraft({ theme: "", niveau: "A1", type: "vocabulary", order: 1, description: "", title_fr: "" });
+    setEditLessonDraft({ theme: "", niveau: "Débutant", type: "vocabulary", order: 1, description: "", title_fr: "" });
   };
 
   const handleEditLessonChange = (field, value) => {
@@ -116,7 +127,9 @@ export default function AdminLessons({ languages }) {
           <div>
             <label className={labelCls}>Niveau</label>
             <select value={newLesson.level} onChange={e => setNewLesson({ ...newLesson, level: e.target.value })} className={inputCls}>
-              <option value="A1">A1</option><option value="A2">A2</option><option value="B1">B1</option><option value="B2">B2</option>
+              <option value="Débutant">Débutant</option>
+              <option value="Intermédiaire">Intermédiaire</option>
+              <option value="Avancé">Avancé</option>
             </select>
           </div>
           <div>
@@ -149,7 +162,7 @@ export default function AdminLessons({ languages }) {
         {lessons.sort((a, b) => (a.order || 0) - (b.order || 0)).map(l => {
           const module = l.module || {};
           const theme = module.theme || l.title;
-          const niveau = module.niveau || l.level;
+          const niveau = normalizeLessonLevel(module.niveau || l.level);
           const description = module.description || l.description || l.content || "Aucune description";
           const exercises = Array.isArray(module.exercices) ? module.exercices : [];
           const expanded = expandedLessonId === l.id;
@@ -203,10 +216,9 @@ export default function AdminLessons({ languages }) {
                             onChange={(e) => handleEditLessonChange("niveau", e.target.value)}
                             className={inputCls}
                           >
-                            <option value="A1">A1</option>
-                            <option value="A2">A2</option>
-                            <option value="B1">B1</option>
-                            <option value="B2">B2</option>
+                            <option value="Débutant">Débutant</option>
+                            <option value="Intermédiaire">Intermédiaire</option>
+                            <option value="Avancé">Avancé</option>
                           </select>
                         </div>
                         <div>

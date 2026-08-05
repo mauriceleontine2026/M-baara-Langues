@@ -1,51 +1,184 @@
-import { Outlet, useLocation } from "react-router-dom";
-import Sidebar from "@/components/Sidebar";
-import { Menu, X } from "lucide-react";
-import { useState, useEffect } from "react";
-// Use public logo at /logo.png
+import { Link, NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import {
+  BookOpen,
+  CircleHelp,
+  Clock,
+  GraduationCap,
+  Home,
+  LayoutDashboard,
+  LogOut,
+  Mic,
+  Moon,
+  Settings2,
+  Shield,
+  Sun,
+  TrendingUp,
+  UserRound,
+} from "lucide-react";
+import { useAuth } from "@/lib/AuthContext";
+import { useTheme } from "@/contexts/ThemeContext";
+
+const NAV_ITEMS = [
+  { to: "/", label: "Accueil", icon: Home },
+  { to: "/apprendre", label: "Apprendre", icon: BookOpen },
+  { to: "/tuteur", label: "Tuteur IA", icon: GraduationCap },
+  { to: "/contribuer", label: "Contribuer", icon: Mic },
+  { to: "/progres", label: "Progrès", icon: TrendingUp },
+  { to: "/revision", label: "Révision", icon: Clock },
+];
 
 export default function AppLayout() {
-  const [mobileOpen, setMobileOpen] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
+  const { user, logout } = useAuth();
+  const { theme, toggleTheme } = useTheme();
 
-  useEffect(() => {
-    setMobileOpen(false);
-  }, [location.pathname]);
+  const isActive = (to) => {
+    if (to === "/") return location.pathname === "/";
+    return location.pathname.startsWith(to);
+  };
+
+  const handleLogout = async () => {
+    await logout();
+    navigate("/login", { replace: true });
+  };
 
   return (
-    <div className="flex min-h-screen bg-background">
-      {/* Mobile top bar */}
-      <div className="lg:hidden fixed top-0 left-0 right-0 z-30 bg-sidebar border-b border-border flex items-center justify-between px-4 py-3">
-        <div className="flex items-center gap-2">
-          <img src="/logo.png" alt="M'baara" className="w-8 h-8 rounded-full object-cover" />
-          <span className="font-heading font-bold text-foreground">M'BAARA</span>
-        </div>
-        <button onClick={() => setMobileOpen(true)} className="text-foreground p-2">
-          <Menu size={22} />
-        </button>
-      </div>
-
-      {/* Desktop sidebar */}
-      <div className="hidden lg:block sticky top-0 h-screen shrink-0">
-        <Sidebar />
-      </div>
-
-      {/* Mobile drawer */}
-      {mobileOpen && (
-        <div className="lg:hidden fixed inset-0 z-40 flex">
-          <div className="fixed inset-0 bg-black/50" onClick={() => setMobileOpen(false)} />
-          <div className="relative">
-            <button onClick={() => setMobileOpen(false)} className="absolute top-3 right-3 z-50 text-muted-foreground hover:text-foreground">
-              <X size={22} />
-            </button>
-            <Sidebar />
+    <div className="min-h-screen bg-background text-foreground">
+      <header className="fixed inset-x-0 top-0 z-40 border-b border-border/70 bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/75">
+        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
+          <div className="flex items-center gap-3">
+            <img src="/logo.png" alt="M'baara" className="h-9 w-9 rounded-full object-cover ring-2 ring-primary/30" />
+            <div>
+              <div className="font-heading text-base font-bold leading-none text-foreground">M'BAARA</div>
+              <div className="text-[11px] font-semibold text-primary">Langues</div>
+            </div>
           </div>
-        </div>
-      )}
 
-      <main className="flex-1 min-w-0 pt-14 lg:pt-0">
+          <DropdownMenu>
+            <DropdownMenuTrigger className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-3 py-2 text-sm font-medium text-foreground shadow-sm transition hover:bg-secondary">
+              <div className="flex h-8 w-8 items-center justify-center overflow-hidden rounded-full bg-primary/15 text-primary ring-1 ring-border/80">
+                {user?.photo_url ? (
+                  <img
+                    src={user.photo_url}
+                    alt={user?.full_name || user?.email || "Profil"}
+                    className="h-full w-full object-cover"
+                    referrerPolicy="no-referrer"
+                  />
+                ) : (
+                  <UserRound size={16} />
+                )}
+              </div>
+              <span className="max-w-[140px] truncate hidden sm:inline">
+                {user?.full_name || user?.email || "Mon espace"}
+              </span>
+              {user?.role === "admin" ? (
+                <span className="inline-flex items-center gap-1 rounded-full bg-amber-500/15 px-2 py-0.5 text-[10px] font-semibold text-amber-700 ring-1 ring-amber-400/40">
+                  <Shield size={10} />
+                  Admin
+                </span>
+              ) : null}
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end" className="w-80">
+              <div className="px-3 py-2">
+                <div className="text-sm font-semibold text-foreground">Espace personnel</div>
+                <div className="text-xs text-muted-foreground">{user?.email || "Compte connecté"}</div>
+              </div>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem asChild>
+                <Link to="/dashboard" className="flex items-center gap-2">
+                  <LayoutDashboard size={16} />
+                  Tableau de bord / Dashboard
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/settings" className="flex items-center gap-2">
+                  <Settings2 size={16} />
+                  Réglages, Paramètres & Confidentialité
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/profil" className="flex items-center gap-2">
+                  <UserRound size={16} />
+                  Profil
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/support" className="flex items-center gap-2">
+                  <CircleHelp size={16} />
+                  Centre d'aide / Support
+                </Link>
+              </DropdownMenuItem>
+              {user?.role === "admin" ? (
+                <DropdownMenuItem asChild>
+                  <Link to="/admin" className="flex items-center gap-2">
+                    <Shield size={16} />
+                    Administration / Admin
+                  </Link>
+                </DropdownMenuItem>
+              ) : null}
+              <DropdownMenuItem
+                onSelect={(event) => {
+                  event.preventDefault();
+                  toggleTheme();
+                }}
+                className="flex items-center gap-2"
+              >
+                {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
+                {theme === "dark" ? "Mode clair" : "Mode sombre"}
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem onSelect={(event) => {
+                event.preventDefault();
+                handleLogout();
+              }} className="flex items-center gap-2 text-destructive focus:text-destructive">
+                <LogOut size={16} />
+                Déconnexion
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        </div>
+      </header>
+
+      <main className="mx-auto max-w-7xl pb-24 pt-20">
         <Outlet />
       </main>
+
+      <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-border/70 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/85">
+        <div className="mx-auto grid max-w-7xl grid-cols-6 gap-0.5 px-0.5 py-1">
+          {NAV_ITEMS.map(({ to, label, icon: Icon }) => (
+            <NavLink
+              key={to}
+              to={to}
+              className={({ isActive: navActive }) => {
+                const active = navActive || isActive(to);
+                return `flex min-w-0 flex-col items-center justify-center gap-0.5 rounded-lg px-0.5 py-1 text-[9px] font-medium transition sm:text-[11px] ${
+                  active
+                    ? "bg-primary/15 text-primary"
+                    : "text-muted-foreground hover:bg-secondary hover:text-foreground"
+                }`;
+              }}
+            >
+              {({ isActive: navActive }) => {
+                const active = navActive || isActive(to);
+                return (
+                  <>
+                    <Icon size={16} strokeWidth={active ? 2.25 : 2} />
+                    <span className="max-w-full truncate text-center leading-none">{label}</span>
+                  </>
+                );
+              }}
+            </NavLink>
+          ))}
+        </div>
+      </nav>
     </div>
   );
 }

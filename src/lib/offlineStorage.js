@@ -198,4 +198,8 @@ export const syncProgressQueue = async () => {
 
   if (remaining.length > 0) saveOffline("progress_queue", remaining);
   else clearProgressQueue();
+
+  if (typeof window !== "undefined" && queue.length > 0 && remaining.length < queue.length) {
+    window.dispatchEvent(new Event("mbaara-progress-updated"));
+  }
 };

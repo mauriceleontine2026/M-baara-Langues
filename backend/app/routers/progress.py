@@ -15,7 +15,6 @@ class ProgressUpdateRequest(BaseModel):
     xp: int | None = None
 
 
-@router.get("")
 def _next_unlocked_lesson(completed_lessons: list | None) -> int:
     lessons = []
     if completed_lessons:
@@ -34,6 +33,7 @@ def _next_unlocked_lesson(completed_lessons: list | None) -> int:
     return next_lesson
 
 
+@router.get("")
 def get_progress(current_user=Depends(get_current_user), db: Session = Depends(get_db)):
     user_id = str(current_user.id)
     progresses = db.query(UserProgress).filter(UserProgress.user_id == user_id).all()
