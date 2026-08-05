@@ -1,0 +1,128 @@
+{
+  "titre_cours": "Leçon 1 : L'utilisation des temps complexes et des modes avancés.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Cette leçon approfondit le système aspecto-modal du kpele (guerzé) au-delà du résultatif, du prétérit et du futur déjà vus au niveau intermédiaire, en s'appuyant sur la section 6 « Structure de la langue et tableaux grammaticaux » du Dictionnaire kpele de la Guinée de Maria Konoshenko (2019, Mandenkan n°62). Elle couvre les trois constructions verbales prédicatives fondamentales (dynamique transitive, dynamique intransitive, résultative-stative), le suffixe statif adnominal, l'aspect habituel et le progressif.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les trois constructions verbales prédicatives",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Dynamique transitive, intransitive et résultative-stative",
+          "contenu_detaille": "Le dictionnaire distingue deux types principaux de constructions verbales prédicatives : (a) une construction dynamique, transitive ou intransitive, et (b) une construction résultative-stative, toujours intransitive. Avec le même verbe kɛ́ 'faire, cultiver', ces trois constructions donnent trois nuances différentes : (8) Pépèe àá dìí kɛ́ 'Pépé a cultivé le champ' (dynamique transitive, sujet + résultatif + objet + verbe) ; (9) Dìí àa kɛ́ 'Le champ a été cultivé' (dynamique intransitive, à sens passif) ; (10) Dìí kɛ̂-ɛ-i 'Le champ est cultivé' (résultative-stative, verbe suffixé par -ɛ-i, insistant sur l'état résultant plutôt que sur l'action).",
+          "vocabulaire_cles": [
+            {"terme": "kɛ́", "traduction_ou_definition": "faire, cultiver — verbe illustrant les trois constructions prédicatives"},
+            {"terme": "-ɛ-i", "traduction_ou_definition": "suffixe résultatif-statif (STAT-PRED), insiste sur l'état résultant"}
+          ],
+          "exemples": [
+            {"phrase": "Pépèe àá dìí kɛ́.", "traduction": "'Pépé a cultivé le champ.' (construction dynamique transitive)"},
+            {"phrase": "Dìí àa kɛ́.", "traduction": "'Le champ a été cultivé.' (construction dynamique intransitive, sens passif)"},
+            {"phrase": "Dìí kɛ̂-ɛ-i.", "traduction": "'Le champ est cultivé.' (construction résultative-stative)"}
+          ],
+          "exercices": [
+            {
+              "question": "Quelle phrase illustre la construction résultative-stative (l'état résultant, plutôt que l'action) ?",
+              "type": "QCM",
+              "options": ["Pépèe àá dìí kɛ́.", "Dìí àa kɛ́.", "Dìí kɛ̂-ɛ-i.", "aucune des trois"],
+              "reponse_correcte": "Dìí kɛ̂-ɛ-i."
+            },
+            {
+              "question": "Combien de constructions verbales prédicatives principales le dictionnaire distingue-t-il ?",
+              "type": "QCM",
+              "options": ["une seule", "deux : dynamique et résultative-stative", "trois séries indépendantes", "quatre, selon la personne"],
+              "reponse_correcte": "deux : dynamique et résultative-stative"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le suffixe statif adnominal",
+          "contenu_detaille": "Tous les verbes du kpele, sans exception, peuvent être utilisés en position adnominale (pour qualifier un nom, comme un adjectif) grâce à un suffixe statif, combiné à la copule présentative ká. Le dictionnaire donne deux exemples : (11) Nɛ̀ɛnú ↓lɛ́lɛ-ɛ ká 'Voici une belle femme' (verbe lɛ́lɛ 'être joli' + suffixe statif + copule) ; (12) Lókòlo yɛ́lɛ-ɛ ká 'Voici un enfant souriant' (verbe yɛ́lɛ 'rire' + suffixe statif + copule).",
+          "vocabulaire_cles": [
+            {"terme": "ká", "traduction_ou_definition": "copule présentative ('voici')"},
+            {"terme": "-ɛ (suffixe statif)", "traduction_ou_definition": "transforme un verbe en qualificatif adnominal"}
+          ],
+          "exemples": [
+            {"phrase": "Nɛ̀ɛnú ↓lɛ́lɛ-ɛ ká.", "traduction": "'Voici une belle femme.'"},
+            {"phrase": "Lókòlo yɛ́lɛ-ɛ ká.", "traduction": "'Voici un enfant souriant.'"}
+          ],
+          "exercices": [
+            {
+              "question": "À quoi sert le suffixe statif adnominal, selon le dictionnaire ?",
+              "type": "QCM",
+              "options": ["à marquer le pluriel", "à permettre à n'importe quel verbe de qualifier un nom, comme un adjectif", "à marquer la négation", "à indiquer le futur"],
+              "reponse_correcte": "à permettre à n'importe quel verbe de qualifier un nom, comme un adjectif"
+            },
+            {
+              "question": "Lókòlo yɛ́lɛ-ɛ ___ signifie 'Voici un enfant souriant.'",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "ká"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_module": 2,
+      "titre_module": "L'habituel et le progressif",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "L'aspect habituel",
+          "contenu_detaille": "Selon le Tableau 10, la série IV des marqueurs prédicatifs exprime l'aspect habituel affirmatif (ŋǎ 1SG, yǎ 2SG, ǎ 3SG, gwǎ 1PL.INCL, kwǎ 1PL.EXCL, kǎ 2PL, dǎ 3PL), et la série VIII l'habituel négatif (vǎ, hwá, hwǎ, gǔhwǎ, kúhwǎ, káhwǎ, dǐhwǎ). On retrouve ce dernier dans le proverbe kwàlá hwǎ gàa hwó gùló wòlolóŋ mà, wòló hwǎ gàa hwó gùló kwàlalóŋ mà 'le petit singe ne met jamais au monde le petit du chimpanzé, et vice-versa' (tel père, tel fils), où hwǎ, marqueur habituel négatif de 3SG, exprime une vérité générale et permanente — exactement la nuance de l'aspect habituel.",
+          "vocabulaire_cles": [
+            {"terme": "ǎ", "traduction_ou_definition": "marqueur habituel affirmatif 3SG"},
+            {"terme": "hwǎ", "traduction_ou_definition": "marqueur habituel négatif 3SG"}
+          ],
+          "exemples": [
+            {"phrase": "kwàlá hwǎ gàa hwó gùló wòlolóŋ mà, wòló hwǎ gàa hwó gùló kwàlalóŋ mà", "traduction": "'le petit singe ne met jamais au monde le petit du chimpanzé, et vice-versa' (proverbe : tel père, tel fils)"}
+          ],
+          "exercices": [
+            {
+              "question": "Quel marqueur habituel négatif de 3SG apparaît dans le proverbe sur le singe et le chimpanzé ?",
+              "type": "QCM",
+              "options": ["ǎ", "hwǎ", "à", "ě"],
+              "reponse_correcte": "hwǎ"
+            },
+            {
+              "question": "Quelle nuance l'aspect habituel exprime-t-il dans ce proverbe ?",
+              "type": "QCM",
+              "options": ["une action ponctuelle passée", "une vérité générale et permanente", "un ordre", "un souhait"],
+              "reponse_correcte": "une vérité générale et permanente"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le progressif et l'alternance consonantique",
+          "contenu_detaille": "Selon le Tableau 11, le progressif se construit avec l'auxiliaire káa suivi du verbe à la forme infinitive en -ì (káa + V-ì). Le dictionnaire précise par ailleurs que tous les verbes subissent l'alternance de leur consonne initiale marquant les pronoms polyfonctionnels de 1SG (avec un ton haut préfixé) et de 3SG (avec un ton bas préfixé) — cette alternance n'étant pas notée explicitement dans les entrées. On observe ainsi que káa devient gáa à la première personne du singulier dans de nombreux exemples du dictionnaire (k→g, la même alternance que celle du système consonantique décrite en 2.3), comme dans gáa pâi 'j'arrive' ou gáa nɛ̀ɛ hú Jálikɔ̀lɛ 'je vis bien à Nzérékoré'.",
+          "vocabulaire_cles": [
+            {"terme": "káa + V-ì", "traduction_ou_definition": "construction du progressif ('être en train de faire')"},
+            {"terme": "gáa (< káa)", "traduction_ou_definition": "forme du progressif à la 1SG, résultant de l'alternance k→g"}
+          ],
+          "exemples": [
+            {"phrase": "gáa pâi", "traduction": "'j'arrive' (litt. 'je suis en train de venir')"},
+            {"phrase": "gáa nɛ̀ɛ hú !Jálikɔ̀lɛ", "traduction": "'je vis bien à Nzérékoré'"}
+          ],
+          "exercices": [
+            {
+              "question": "Comment se construit le progressif, selon le Tableau 11 ?",
+              "type": "QCM",
+              "options": ["Résultatif + V", "káa + V-ì", "Conditionnel + V\\{B}", "Impératif + V"],
+              "reponse_correcte": "káa + V-ì"
+            },
+            {
+              "question": "Pourquoi gáa remplace-t-il káa à la première personne du singulier dans les exemples du dictionnaire ?",
+              "type": "QCM",
+              "options": ["c'est une erreur d'impression", "à cause de l'alternance consonantique k→g qui marque le pronom 1SG", "gáa et káa sont deux mots différents sans lien", "c'est une variante dialectale du sud uniquement"],
+              "reponse_correcte": "à cause de l'alternance consonantique k→g qui marque le pronom 1SG"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les constructions verbales avancées du kpele : les trois constructions prédicatives (dynamique transitive, dynamique intransitive, résultative-stative), le suffixe statif adnominal qui transforme tout verbe en qualificatif, ainsi que l'aspect habituel et le progressif. Ces données, tirées de la section grammaticale du Dictionnaire kpele de la Guinée (Konoshenko, 2019), montrent la cohérence du système : la même alternance consonantique qui marque les pronoms dans le lexique se retrouve activement dans la conjugaison du progressif."
+}

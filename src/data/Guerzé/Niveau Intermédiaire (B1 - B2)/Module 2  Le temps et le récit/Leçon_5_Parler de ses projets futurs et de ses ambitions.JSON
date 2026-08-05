@@ -1,0 +1,102 @@
+{
+  "titre_cours": "Leçon 5 : Parler de ses projets futurs et de ses ambitions.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Cette leçon présente le système grammatical du futur et du conditionnel en kpele (guerzé), ainsi que la construction utilisée pour exprimer un souhait, telle qu'ils apparaissent dans la section 6 « Structure de la langue et tableaux grammaticaux » et dans les phrases d'exemple du Dictionnaire kpele de la Guinée de Maria Konoshenko (2019, Mandenkan n°62).",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le futur et le conditionnel",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "La construction du futur",
+          "contenu_detaille": "Selon le Tableau 11 (Les constructions prédicatives) du dictionnaire, le futur affirmatif se construit avec l'auxiliaire káa suivi de pâi puis du verbe à la forme infinitive en -ì (káa + pâi + V-ì). Cette construction apparaît dans plusieurs phrases d'exemple : tínaa gáa pái ↓kólo ↓kɛ̂i 'demain je vais travailler', ou dì káa pái màŋzî 'ils vont entendre'. Le verbe pá 'venir' sert lui-même d'auxiliaire employé au futur, comme le note le dictionnaire à son entrée.",
+          "vocabulaire_cles": [
+            {"terme": "káa + pâi + V-ì", "traduction_ou_definition": "construction du futur ('aller faire quelque chose')"},
+            {"terme": "pá", "traduction_ou_definition": "venir ; aussi auxiliaire du futur"}
+          ],
+          "exemples": [
+            {"phrase": "tínaa gáa pái ↓kólo ↓kɛ̂i", "traduction": "'demain je vais travailler'"},
+            {"phrase": "dì káa pái màŋzî", "traduction": "'ils vont entendre'"}
+          ],
+          "exercices": [
+            {
+              "question": "Comment se construit le futur affirmatif en kpele, selon le Tableau 11 ?",
+              "type": "QCM",
+              "options": ["Résultatif + V", "Affirmatif de base + V\\{B}", "káa + pâi + V-ì", "Impératif + V"],
+              "reponse_correcte": "káa + pâi + V-ì"
+            },
+            {
+              "question": "tínaa gáa pái ↓kólo ↓kɛ̂i signifie ___.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "demain je vais travailler"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le conditionnel et l'irréel",
+          "contenu_detaille": "Pour évoquer un projet hypothétique ou une ambition conditionnée à une circonstance, le kpele emploie la série des marqueurs 'Conditionnels' (Tableau 10, série IX) : ŋà (1SG), yà (2SG), à (3SG), gwà (1PL.INCL), kwà (1PL.EXCL), kà (2PL), dà (3PL), combinés au verbe avec un ton bas grammatical {B} (Tableau 11). Le dictionnaire illustre cette construction irréelle par la phrase à kɛ̀ Jean è wɛ́i wáli màáhɔ̀lɔɓóìí, è lí pà lǐì tàáì 'si Jean avait reçu de l'argent hier, il aurait pu aller au village'.",
+          "vocabulaire_cles": [
+            {"terme": "à", "traduction_ou_definition": "marqueur conditionnel 3SG ('si il/elle')"},
+            {"terme": "yà", "traduction_ou_definition": "marqueur conditionnel 2SG ('si tu')"}
+          ],
+          "exemples": [
+            {"phrase": "à kɛ̀ Jean è wɛ́i wáli màáhɔ̀lɔɓóìí, è lí pà lǐì tàáì", "traduction": "'si Jean avait reçu de l'argent hier, il aurait pu aller au village'"},
+            {"phrase": "tùló à pù kɛ̀ tínaai, gwè lí lɛ̀ɛ bɛ̀ɛláalèe", "traduction": "'s'il pleuvait demain, nous resterions à la maison'"}
+          ],
+          "exercices": [
+            {
+              "question": "Quel marqueur introduit une condition à la 3e personne du singulier ('si il/elle') ?",
+              "type": "QCM",
+              "options": ["ŋà", "yà", "à", "dà"],
+              "reponse_correcte": "à"
+            },
+            {
+              "question": "___ kɛ̀ Jean è wɛ́i wáli màáhɔ̀lɔɓóìí, è lí pà lǐì tàáì signifie 'si Jean avait reçu de l'argent hier, il aurait pu aller au village'.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "à"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_module": 2,
+      "titre_module": "Exprimer un souhait ou une ambition",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "La construction du souhait",
+          "contenu_detaille": "Pour exprimer un souhait ou une ambition ('je veux...'), plusieurs phrases d'exemple du dictionnaire emploient la construction gáa bɔ̀ ŋé + verbe, littéralement construite autour de bɔ̀ 'sur'. On la retrouve dans gáa bɔ̀ ŋé lɛ́ɛ nìníŋ mù 'je veux rester à l'ombre' et gáa bɔ̀ ŋé lí ŋé ɲɛ́i tɔ́ɔ yɛ̂ 'je veux aller te voir'. Une autre construction, avec le marqueur consécutif gɛ́, apparaît dans gɛ́ ↓ŋé gbéle 'je veux boire, j'ai soif'.",
+          "vocabulaire_cles": [
+            {"terme": "gáa bɔ̀ ŋé + V", "traduction_ou_definition": "construction pour exprimer un souhait ('je veux...')"},
+            {"terme": "gɛ́ ↓ŋé + V", "traduction_ou_definition": "autre construction pour exprimer un souhait ou un besoin immédiat"}
+          ],
+          "exemples": [
+            {"phrase": "gáa bɔ̀ ŋé lɛ́ɛ nìníŋ mù", "traduction": "'je veux rester à l'ombre'"},
+            {"phrase": "gáa bɔ̀ ŋé lí ŋé ɲɛ́i tɔ́ɔ yɛ̂", "traduction": "'je veux aller te voir'"},
+            {"phrase": "gɛ́ ↓ŋé gbéle", "traduction": "'je veux boire, j'ai soif'"}
+          ],
+          "exercices": [
+            {
+              "question": "Quelle construction exprime 'je veux rester à l'ombre' ?",
+              "type": "QCM",
+              "options": ["gáa bɔ̀ ŋé lɛ́ɛ nìníŋ mù", "tínaa gáa pái ↓kólo ↓kɛ̂i", "à kɛ̀ Jean è wɛ́i wáli", "dì mɛ̀nii tíi ɓó Pépèe ɓà"],
+              "reponse_correcte": "gáa bɔ̀ ŋé lɛ́ɛ nìníŋ mù"
+            },
+            {
+              "question": "gáa ___ ŋé lí ŋé ɲɛ́i tɔ́ɔ yɛ̂ signifie 'je veux aller te voir'.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "bɔ̀"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le futur (káa + pâi + V-ì), le conditionnel-irréel (marqueurs de la série IX combinés au ton bas grammatical) et la construction employée pour exprimer un souhait (gáa bɔ̀ ŋé + verbe). Ces données, tirées de la section grammaticale et des phrases d'exemple du Dictionnaire kpele de la Guinée (Konoshenko, 2019), permettent d'évoquer des projets futurs et des ambitions de façon grammaticalement fondée."
+}

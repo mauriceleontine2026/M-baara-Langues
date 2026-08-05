@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from sqlalchemy.orm import Session
 from ..database import get_db
 from ..models.language import Language
+from ..services.security import require_admin
 
 router = APIRouter()
 
@@ -64,7 +65,7 @@ def get_language(code: str, db: Session = Depends(get_db)):
 
 
 @router.post("", status_code=status.HTTP_201_CREATED)
-def create_language(payload: LanguageCreateRequest, db: Session = Depends(get_db)):
+def create_language(payload: LanguageCreateRequest, db: Session = Depends(get_db), _admin=Depends(require_admin)):
     existing = db.query(Language).filter(Language.code == payload.code).first()
     if existing:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Language code already exists")

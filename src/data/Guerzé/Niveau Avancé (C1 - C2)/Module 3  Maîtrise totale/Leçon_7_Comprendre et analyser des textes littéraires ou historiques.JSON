@@ -1,0 +1,94 @@
+{
+  "titre_cours": "Leçon 7 : Comprendre et analyser des textes littéraires ou historiques.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Cette leçon propose d'analyser, comme un texte à part entière, l'avant-propos et la section « Informations générales » du Dictionnaire kpele de la Guinée de Maria Konoshenko (2019, Mandenkan n°62) — un texte historique et documentaire sur la langue kpele elle-même, son terrain d'enquête et son histoire orthographique. Comprendre ce texte, c'est comprendre le contexte dans lequel tout le reste du dictionnaire a été produit.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le texte de l'avant-propos : contexte et enquête de terrain",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Situer la langue et le terrain d'enquête",
+          "contenu_detaille": "L'avant-propos situe la langue kpele (kpɛ̀lɛɛwoo), appelée aussi kpelle ou guerzé en Guinée, dans le groupe sud-ouest de la famille linguistique mandé. Les Kpele vivent en Guinée forestière (environ 460 000 personnes) et au Libéria (environ 760 000 personnes), les deux variantes étant suffisamment différentes pour être considérées comme des langues à part. Le dictionnaire se concentre sur le kpele de Guinée. Les données ont été recueillies au cours d'un travail de terrain mené en Guinée forestière entre 2008 et 2019, avec l'aide de nombreux assistants de langue kpele, notamment à Nzérékoré.",
+          "vocabulaire_cles": [
+            {"terme": "kpɛ̀lɛɛwoo", "traduction_ou_definition": "nom de la langue kpele en kpele lui-même"},
+            {"terme": "Guinée forestière", "traduction_ou_definition": "région de Guinée où vit la majorité des locuteurs kpele"}
+          ],
+          "exemples": [
+            {"phrase": "environ 460 000 personnes en Guinée forestière, environ 760 000 personnes au Libéria", "traduction": "les deux populations kpele, dont les variantes sont considérées comme des langues distinctes"},
+            {"phrase": "travail de terrain mené en Guinée forestière entre 2008 et 2019", "traduction": "la période de collecte des données du dictionnaire"}
+          ],
+          "exercices": [
+            {
+              "question": "À quel groupe de la famille mandé appartient le kpele, selon l'avant-propos ?",
+              "type": "QCM",
+              "options": ["le groupe nord-est", "le groupe sud-ouest", "le groupe central", "le groupe mandé septentrional"],
+              "reponse_correcte": "le groupe sud-ouest"
+            },
+            {
+              "question": "Sur combien d'années s'est étendu le travail de terrain ayant permis de constituer ce dictionnaire ?",
+              "type": "QCM",
+              "options": ["environ 2 ans", "environ 5 ans", "environ 11 ans (2008-2019)", "environ 20 ans"],
+              "reponse_correcte": "environ 11 ans (2008-2019)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "La transmission du savoir : les assistants de langue",
+          "contenu_detaille": "L'avant-propos rend hommage à plusieurs assistants de langue qui ont transmis leur connaissance du kpele à l'autrice : Davide Lamah, catéchiste de la mission catholique de Nzérékoré, qui a corrigé la représentation phonétique des entrées de 2008 à 2018 ; Prosper Pé Noramou, qui a ajouté des variantes phonétiques du dialecte du nord (gbálî) ; et Fassou Bienvenu Loua, prêtre catholique, musicien et entrepreneur rencontré en Californie en 2011, devenu le principal professeur de langue kpele de l'autrice.",
+          "vocabulaire_cles": [
+            {"terme": "gbálî", "traduction_ou_definition": "le dialecte kpele du nord, parlé à la sous-préfecture de Beyla"}
+          ],
+          "exemples": [
+            {"phrase": "Davide Lamah, catéchiste de la mission catholique de Nzérékoré", "traduction": "a corrigé la représentation phonétique des entrées de 2008 à 2018"},
+            {"phrase": "Fassou Bienvenu Loua", "traduction": "prêtre catholique, musicien et entrepreneur, devenu le principal professeur de kpele de l'autrice"}
+          ],
+          "exercices": [
+            {
+              "question": "Qui a corrigé la représentation phonétique des entrées du dictionnaire entre 2008 et 2018 ?",
+              "type": "QCM",
+              "options": ["Fassou Bienvenu Loua", "Davide Lamah", "Prosper Pé Noramou", "Gérard Dumestre"],
+              "reponse_correcte": "Davide Lamah"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_module": 2,
+      "titre_module": "L'histoire de l'écriture kpele",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Trois orthographes successives",
+          "contenu_detaille": "Le texte historique du dictionnaire retrace trois systèmes d'écriture successifs pour le kpele. L'ancienne orthographe officielle (1976) a été développée à l'époque de Sékou Touré et enseignée à l'école entre 1968 et 1984 ; elle est connue de l'ancienne génération. Une autre orthographe officielle a été adoptée le 10 mars 1989 pour les langues guinéennes, mais elle n'a jamais été enseignée à l'école ni largement utilisée pour la publication. À partir de 2000, l'Institut de recherche linguistique appliquée (IRLA) publie des guides d'alphabétisation utilisant une orthographe modernisée — celle-là même employée dans ce dictionnaire — mais elle reste peu connue de la population, le kpele fonctionnant encore aujourd'hui principalement comme une langue orale.",
+          "vocabulaire_cles": [
+            {"terme": "IRLA", "traduction_ou_definition": "Institut de recherche linguistique appliquée, à Conakry"}
+          ],
+          "exemples": [
+            {"phrase": "l'ancienne orthographe officielle (1976)", "traduction": "développée au temps de Sékou Touré, enseignée à l'école de 1968 à 1984"},
+            {"phrase": "l'orthographe officielle (10 mars 1989)", "traduction": "jamais enseignée à l'école ni largement utilisée pour la publication"},
+            {"phrase": "l'orthographe modernisée (à partir de 2000, IRLA)", "traduction": "celle utilisée dans ce dictionnaire, encore peu connue de la population"}
+          ],
+          "exercices": [
+            {
+              "question": "Quelle orthographe officielle a été enseignée à l'école entre 1968 et 1984 ?",
+              "type": "QCM",
+              "options": ["l'orthographe de 1989", "l'ancienne orthographe officielle de 1976", "l'orthographe modernisée de l'IRLA", "aucune, le kpele n'a jamais été enseigné"],
+              "reponse_correcte": "l'ancienne orthographe officielle de 1976"
+            },
+            {
+              "question": "Quelle institution publie, à partir de 2000, des guides d'alphabétisation utilisant l'orthographe modernisée ?",
+              "type": "QCM",
+              "options": ["l'Université d'État des études humaines de Russie", "l'IRLA (Institut de recherche linguistique appliquée)", "la mission catholique de Nzérékoré", "le Ministère de l'Éducation de 1976"],
+              "reponse_correcte": "l'IRLA (Institut de recherche linguistique appliquée)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a analysé l'avant-propos et la section « Informations générales » du Dictionnaire kpele de la Guinée (Konoshenko, 2019) comme un texte historique à part entière : la situation géolinguistique du kpele, la méthode de collecte des données sur onze années de terrain, le rôle des assistants de langue, et l'histoire mouvementée de l'écriture kpele à travers trois orthographes successives. Savoir lire ce type de texte méta-linguistique est une compétence clé du niveau avancé."
+}

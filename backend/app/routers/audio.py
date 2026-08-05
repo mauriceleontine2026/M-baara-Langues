@@ -1,9 +1,12 @@
-from fastapi import APIRouter, UploadFile, File, HTTPException, Request
-from pydantic import BaseModel
+import time
+from fastapi import APIRouter, Depends, UploadFile, File, HTTPException, Request
+from pydantic import BaseModel, Field
 import tempfile
 import os
 import uuid
 from pathlib import Path
+
+from ..services.security import RateLimiter, get_current_user
 
 router = APIRouter()
 
@@ -13,8 +16,30 @@ if os.access(Path(__file__).resolve().parents[2], os.W_OK):
 UPLOAD_DIR = STATIC_DIR / "audio"
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
+MAX_UPLOAD_BYTES = 10 * 1024 * 1024  # 10 MB
+ALLOWED_AUDIO_EXTENSIONS = {".mp3", ".wav", ".m4a", ".ogg", ".webm", ".aac", ".flac"}
+STALE_FILE_MAX_AGE_SECONDS = 24 * 60 * 60  # 24h
+
+_transcribe_rate_limiter = RateLimiter(max_attempts=5, window_seconds=60)
+_synthesize_rate_limiter = RateLimiter(max_attempts=10, window_seconds=60)
+_upload_rate_limiter = RateLimiter(max_attempts=10, window_seconds=60)
+
+
+def _purge_stale_audio_files(directory: Path) -> None:
+    now = time.time()
+    try:
+        for path in directory.iterdir():
+            try:
+                if path.is_file() and now - path.stat().st_mtime > STALE_FILE_MAX_AGE_SECONDS:
+                    path.unlink()
+            except OSError:
+                continue
+    except OSError:
+        pass
+
+
 class SynthesizeRequest(BaseModel):
-    text: str
+    text: str = Field(..., min_length=1, max_length=1000)
     language_code: str | None = None
 
 # Optional faster-whisper model (lazy-loaded)
@@ -38,9 +63,16 @@ def get_whisper_model():
 
 
 @router.post("/transcribe")
-async def transcribe_audio(file: UploadFile = File(...)):
+async def transcribe_audio(
+    file: UploadFile = File(...),
+    current_user=Depends(get_current_user),
+    _rate_limit=Depends(_transcribe_rate_limiter),
+):
     if not file.filename:
         raise HTTPException(status_code=400, detail="No file provided")
+    suffix = Path(file.filename).suffix.lower() or ".wav"
+    if suffix not in ALLOWED_AUDIO_EXTENSIONS:
+        raise HTTPException(status_code=400, detail="Unsupported audio file type")
     if not _whisper_available:
         raise HTTPException(status_code=501, detail="faster-whisper not installed on server. Install faster-whisper and models to enable local STT.")
 
@@ -49,10 +81,11 @@ async def transcribe_audio(file: UploadFile = File(...)):
         raise HTTPException(status_code=500, detail="Failed to initialize Whisper model")
 
     # save upload to a temp file
-    suffix = Path(file.filename).suffix or ".wav"
     tmp = tempfile.NamedTemporaryFile(delete=False, suffix=suffix)
     try:
         contents = await file.read()
+        if len(contents) > MAX_UPLOAD_BYTES:
+            raise HTTPException(status_code=413, detail="Audio file too large")
         tmp.write(contents)
         tmp.flush()
         tmp.close()
@@ -68,7 +101,11 @@ async def transcribe_audio(file: UploadFile = File(...)):
 
 
 @router.post("/synthesize")
-async def synthesize_audio(payload: SynthesizeRequest):
+async def synthesize_audio(
+    payload: SynthesizeRequest,
+    current_user=Depends(get_current_user),
+    _rate_limit=Depends(_synthesize_rate_limiter),
+):
     if not payload.text.strip():
         raise HTTPException(status_code=400, detail="No text provided")
 
@@ -77,6 +114,7 @@ async def synthesize_audio(payload: SynthesizeRequest):
         from gtts import gTTS
         out_dir = Path(__file__).resolve().parents[1] / "static" / "audio"
         out_dir.mkdir(parents=True, exist_ok=True)
+        _purge_stale_audio_files(out_dir)
         fname = f"tts_{uuid.uuid4().hex}.mp3"
         out_path = out_dir / fname
         tts = gTTS(text=payload.text, lang=(payload.language_code or "fr"))
@@ -89,18 +127,30 @@ async def synthesize_audio(payload: SynthesizeRequest):
 
 
 @router.post("/upload")
-async def upload_audio(request: Request, file: UploadFile = File(...)):
+async def upload_audio(
+    request: Request,
+    file: UploadFile = File(...),
+    current_user=Depends(get_current_user),
+    _rate_limit=Depends(_upload_rate_limiter),
+):
     if not file.filename:
         raise HTTPException(status_code=400, detail="No file provided")
 
-    suffix = Path(file.filename).suffix or ".bin"
+    suffix = Path(file.filename).suffix.lower()
+    if suffix not in ALLOWED_AUDIO_EXTENSIONS:
+        raise HTTPException(status_code=400, detail="Unsupported audio file type")
     filename = f"upload_{uuid.uuid4().hex}{suffix}"
     save_path = UPLOAD_DIR / filename
 
     try:
         contents = await file.read()
+        if len(contents) > MAX_UPLOAD_BYTES:
+            raise HTTPException(status_code=413, detail="Audio file too large")
+        _purge_stale_audio_files(UPLOAD_DIR)
         save_path.write_bytes(contents)
         base_url = request.url_for("static", path=f"audio/{filename}")
         return {"file_url": str(base_url)}
+    except HTTPException:
+        raise
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"Upload failed: {exc}")

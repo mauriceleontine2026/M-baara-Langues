@@ -3,46 +3,22 @@ const API_BASE_URL = (
   (import.meta.env.DEV ? "http://127.0.0.1:8000" : "https://mbaara-backend.vercel.app")
 ).replace(/\/$/, "");
 
-let inMemoryToken = null;
+// The access token itself now lives only in an httpOnly cookie the backend
+// sets on login (see backend/app/services/security.py:set_auth_cookies) —
+// JS never reads or stores it, so an XSS payload can't exfiltrate it from
+// storage. Every request is sent with credentials so the browser attaches
+// that cookie automatically; login/register calls still notify listeners so
+// the rest of the app (AuthContext) knows to re-check "who am I".
+const CSRF_COOKIE_NAME = "mbaara_csrf_token";
 
-const getSessionStorage = () => {
-  if (typeof window === "undefined" || !window.sessionStorage) return null;
-  return window.sessionStorage;
+const getCsrfToken = () => {
+  if (typeof document === "undefined") return null;
+  const match = document.cookie.match(new RegExp(`(?:^|; )${CSRF_COOKIE_NAME}=([^;]*)`));
+  return match ? decodeURIComponent(match[1]) : null;
 };
 
-const getAuthToken = () => {
+const notifyAuthChanged = () => {
   if (typeof window !== "undefined") {
-    const storedToken = window.sessionStorage.getItem("mbaara_auth_token");
-    if (storedToken) {
-      inMemoryToken = storedToken;
-      return storedToken;
-    }
-  }
-  return inMemoryToken;
-};
-
-const setAuthToken = (token) => {
-  inMemoryToken = token;
-  if (typeof window !== "undefined") {
-    const storage = getSessionStorage();
-    if (storage) {
-      if (token) {
-        storage.setItem("mbaara_auth_token", token);
-      } else {
-        storage.removeItem("mbaara_auth_token");
-      }
-    }
-    window.dispatchEvent(new Event("mbaara-auth-changed"));
-  }
-};
-
-const clearAuthToken = () => {
-  inMemoryToken = null;
-  if (typeof window !== "undefined") {
-    const storage = getSessionStorage();
-    if (storage) {
-      storage.removeItem("mbaara_auth_token");
-    }
     window.dispatchEvent(new Event("mbaara-auth-changed"));
   }
 };
@@ -79,6 +55,8 @@ const formatErrorMessage = (data, fallback) => {
   return fallback;
 };
 
+const MUTATING_METHODS = new Set(["POST", "PUT", "PATCH", "DELETE"]);
+
 const request = async (method, path, body, queryParams) => {
   const url = buildApiUrl(path);
   if (queryParams) {
@@ -91,9 +69,11 @@ const request = async (method, path, body, queryParams) => {
 
   /** @type {{ [key: string]: string }} */
   const headers = {};
-  const token = getAuthToken();
-  if (token) {
-    headers.Authorization = `Bearer ${token}`;
+  if (MUTATING_METHODS.has(method.toUpperCase())) {
+    const csrfToken = getCsrfToken();
+    if (csrfToken) {
+      headers["X-CSRF-Token"] = csrfToken;
+    }
   }
 
   let bodyValue;
@@ -108,6 +88,7 @@ const request = async (method, path, body, queryParams) => {
     method,
     headers,
     body: bodyValue,
+    credentials: "include",
   });
 
   const contentType = response.headers.get("content-type") || "";
@@ -130,4 +111,4 @@ const request = async (method, path, body, queryParams) => {
   return data;
 };
 
-export { getAuthToken, setAuthToken, clearAuthToken, request };
+export { notifyAuthChanged, request };

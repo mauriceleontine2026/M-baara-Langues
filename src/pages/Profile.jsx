@@ -5,6 +5,7 @@ import { getLanguages } from "@/api/languageService";
 import { getProgress } from "@/api/progressService";
 import { logout as logoutService, updateMe } from "@/api/authService";
 import { listContributions } from "@/api/contributionService";
+import { uploadFile } from "@/api/uploadService";
 import { useTheme } from "@/contexts/ThemeContext";
 import { Mail, Shield, Flame, Star, BookOpen, Globe, LogOut, Clock, CheckCircle, XCircle, Hourglass, Award, Settings, Camera, Loader2 } from "lucide-react";
 // public logo at /logo.png
@@ -72,11 +73,8 @@ export default function Profile() {
     if (!file) return;
     setUploading(true);
     try {
-      const formData = new FormData();
-      formData.append("file", file);
       const apiBase = (import.meta.env.VITE_API_BASE_URL || window.location.origin).replace(/\/$/, "");
-      const uploadRes = await fetch(`${apiBase}/api/audio/upload`, { method: "POST", body: formData });
-      const uploadData = await uploadRes.json();
+      const uploadData = await uploadFile(file);
       const file_url = uploadData?.file_url || uploadData?.url;
       if (!file_url) throw new Error("Aucun URL de fichier renvoyé.");
       const absolute_url = file_url.startsWith("/") ? `${apiBase}${file_url}` : file_url;

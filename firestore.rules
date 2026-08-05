@@ -1,0 +1,37 @@
+rules_version = '2';
+
+// M'baara Firestore rules.
+//
+// The web client (src/api/firebaseFirestore.js) only ever performs public,
+// read-only queries against `languages`, `vocabulary`, and `lessons` — these
+// collections mirror curriculum content that is authored and moderated
+// through the FastAPI backend (see backend/app/routers/*.py), not written
+// directly from client devices. No client code path writes to Firestore.
+// Writes are therefore denied for every collection; content updates must go
+// through the backend's admin-gated endpoints or the Firebase console/Admin
+// SDK. If a genuine client write path (e.g. per-user data) is added later,
+// scope it explicitly to `request.auth.uid == resource.id` (or similar) —
+// do not broaden this default-deny posture.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /languages/{languageId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /vocabulary/{itemId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /lessons/{lessonId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Default-deny everything else.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

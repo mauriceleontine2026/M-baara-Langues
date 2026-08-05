@@ -1,21 +1,23 @@
 from fastapi import APIRouter, Depends, HTTPException, status
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 from ..database import get_db
 from ..models.contribution import Contribution
-from ..services.security import get_current_user
+from ..services.security import RateLimiter, get_current_user
 
 router = APIRouter()
 
+_contribution_rate_limiter = RateLimiter(max_attempts=10, window_seconds=60)
+
 class ContributionCreateRequest(BaseModel):
-    language_code: str
-    word: str
-    translation_fr: str | None = None
-    phonetic: str | None = None
-    contributor_name: str | None = None
-    region: str | None = None
-    context_notes: str | None = None
-    audio_url: str | None = None
+    language_code: str = Field(..., max_length=50)
+    word: str = Field(..., max_length=200)
+    translation_fr: str | None = Field(default=None, max_length=200)
+    phonetic: str | None = Field(default=None, max_length=200)
+    contributor_name: str | None = Field(default=None, max_length=200)
+    region: str | None = Field(default=None, max_length=200)
+    context_notes: str | None = Field(default=None, max_length=2000)
+    audio_url: str | None = Field(default=None, max_length=1000)
 
 class ContributionUpdateRequest(BaseModel):
     status: str
@@ -49,7 +51,12 @@ def list_contributions(created_by_id: str | None = None, db: Session = Depends(g
 
 
 @router.post("", status_code=status.HTTP_201_CREATED)
-def create_contribution(payload: ContributionCreateRequest, db: Session = Depends(get_db), current_user=Depends(get_current_user)):
+def create_contribution(
+    payload: ContributionCreateRequest,
+    db: Session = Depends(get_db),
+    current_user=Depends(get_current_user),
+    _rate_limit=Depends(_contribution_rate_limiter),
+):
     contribution = Contribution(
         language_code=payload.language_code,
         word=payload.word,

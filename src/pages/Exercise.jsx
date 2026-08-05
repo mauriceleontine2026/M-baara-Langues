@@ -1,7 +1,15 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { CheckCircle2, ArrowLeft, RotateCcw } from "lucide-react";
-import lessonCurriculum from "@/data/lessonCurriculum";
+import { useAuth } from "@/lib/AuthContext";
+import { getProgress } from "@/api/progressService";
+import {
+  getModuleById,
+  getBeginnerCompletionStatus,
+  isModuleAccessible,
+  getLockMessageForModule,
+  getCurriculumForLanguageExport,
+} from "@/lib/curriculumGate";
 
 const STOP_WORDS = new Set([
   "et", "les", "des", "dans", "pour", "avec", "une", "un", "sur", "son", "sa", "ses", "de", "du", "la", "le", "au", "aux", "par", "plus", "sans", "être", "avoir", "faire", "comme", "que", "qui", "est", "ou", "à", "a", "de", "des", "et", "une", "un"
@@ -23,13 +31,19 @@ export default function Exercise() {
   const [responses, setResponses] = useState({});
   const [results, setResults] = useState({});
 
+  const { user } = useAuth();
+  const [completedLessons, setCompletedLessons] = useState([]);
+  const [moduleLocked, setModuleLocked] = useState(false);
+  const [lockMessage, setLockMessage] = useState("");
+
   const module = useMemo(() => {
-    for (const level of lessonCurriculum.levels) {
+    const curriculum = getCurriculumForLanguageExport(langCode);
+    for (const level of curriculum.levels) {
       const found = level.modules.find((item) => item.id === moduleId);
       if (found) return found;
     }
     return null;
-  }, [moduleId]);
+  }, [moduleId, langCode]);
 
   const exercises = Array.isArray(module?.exerciseSeries) ? module.exerciseSeries : [];
 
@@ -63,6 +77,26 @@ export default function Exercise() {
   const score = Object.values(results).filter((result) => result?.passed).length;
   const average = exercises.length > 0 ? Math.round((score / exercises.length) * 100) : 0;
 
+  const getExerciseRecords = () => {
+    if (typeof window === "undefined") return {};
+    const curriculum = getCurriculumForLanguageExport(langCode);
+    return curriculum.levels.reduce((acc, level) => {
+      level.modules.forEach((module) => {
+        const raw = window.localStorage.getItem(`mbaara-exercise-${langCode}-${module.id}`);
+        if (!raw) {
+          acc[module.id] = null;
+          return;
+        }
+        try {
+          acc[module.id] = JSON.parse(raw);
+        } catch (e) {
+          acc[module.id] = null;
+        }
+      });
+      return acc;
+    }, {});
+  };
+
   const persistExerciseResult = () => {
     if (typeof window === "undefined") return;
     try {
@@ -78,7 +112,53 @@ export default function Exercise() {
     }
   };
 
-  if (!module || exercises.length === 0) {
+  useEffect(() => {
+    if (!user || !module || !langCode) return;
+    getProgress()
+      .then((data) => {
+        const progress = Array.isArray(data) ? data.find((p) => p.language_code === langCode) : null;
+        const completed = Array.isArray(progress?.completed_lessons)
+          ? progress.completed_lessons.map((n) => Number(n)).filter((n) => Number.isFinite(n) && n > 0)
+          : [];
+        setCompletedLessons(completed);
+      })
+      .catch(() => setCompletedLessons([]));
+  }, [user, langCode, module]);
+
+  useEffect(() => {
+    if (!module || !moduleId) return;
+    const exerciseRecords = getExerciseRecords();
+    const moduleInfo = getModuleById(moduleId, langCode);
+    const beginnerStatus = getBeginnerCompletionStatus(completedLessons, exerciseRecords, 70, langCode);
+    const accessible = moduleInfo ? isModuleAccessible(moduleId, completedLessons, exerciseRecords, langCode) : true;
+    setModuleLocked(moduleInfo ? !accessible : false);
+    setLockMessage(moduleInfo ? getLockMessageForModule(moduleInfo.levelIndex, moduleInfo.moduleIndex, moduleInfo.level, beginnerStatus.complete) : "");
+  }, [module, moduleId, completedLessons, langCode]);
+
+  if (!module) {
+    return (
+      <div className="min-h-screen flex items-center justify-center px-6 text-center">
+        <div className="max-w-md space-y-3">
+          <p className="text-muted-foreground">Module introuvable.</p>
+          <button onClick={() => navigate(-1)} className="text-primary text-sm font-medium">← Retour</button>
+        </div>
+      </div>
+    );
+  }
+
+  if (moduleLocked) {
+    return (
+      <div className="min-h-screen flex items-center justify-center px-6 text-center">
+        <div className="max-w-lg rounded-3xl border border-amber-300/40 bg-amber-500/10 p-8">
+          <p className="text-base font-semibold text-amber-900 mb-3">Accès restreint</p>
+          <p className="text-sm text-amber-800 mb-6">{lockMessage || "Ce module est verrouillé tant que le niveau Débutant n'est pas achevé avec tous les exercices validés."}</p>
+          <button onClick={() => navigate(`/apprendre/${langCode}`)} className="rounded-full bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground">Retour au curriculum</button>
+        </div>
+      </div>
+    );
+  }
+
+  if (exercises.length === 0) {
     return (
       <div className="min-h-screen flex items-center justify-center px-6 text-center">
         <div className="max-w-md space-y-3">

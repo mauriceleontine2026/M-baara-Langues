@@ -1,5 +1,7 @@
+from datetime import datetime, timezone
+
 from fastapi import APIRouter, Depends
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 from ..database import get_db
 from ..models.progress import UserProgress
@@ -7,12 +9,14 @@ from ..services.security import get_current_user
 
 router = APIRouter()
 
+MAX_XP_PER_UPDATE = 100
+
 
 class ProgressUpdateRequest(BaseModel):
     type: str | None = None
     language_code: str | None = None
     lesson_number: int | None = None
-    xp: int | None = None
+    xp: int | None = Field(default=None, ge=0, le=MAX_XP_PER_UPDATE)
 
 
 def _next_unlocked_lesson(completed_lessons: list | None) -> int:
@@ -68,13 +72,25 @@ def update_progress(payload: ProgressUpdateRequest, current_user=Depends(get_cur
         db.add(progress)
 
     completed_lessons = list(progress.completed_lessons or [])
-    if payload.lesson_number is not None and payload.lesson_number not in completed_lessons:
+    is_new_lesson_completion = payload.lesson_number is not None and payload.lesson_number not in completed_lessons
+    if is_new_lesson_completion:
         completed_lessons.append(payload.lesson_number)
 
-    progress.xp = (progress.xp or 0) + (payload.xp or 0)
-    progress.streak = (progress.streak or 0) + 1
+    # Only award XP/streak for a genuinely new lesson completion, and cap XP
+    # per call (MAX_XP_PER_UPDATE) — otherwise a client could repeatedly call
+    # this endpoint with an untouched lesson_number to inflate its own
+    # ranking indefinitely. Streak is further limited to once per UTC
+    # calendar day so replaying the same completion can't fast-forward it.
+    now = datetime.now(timezone.utc)
+    already_counted_today = bool(progress.updated_at and progress.updated_at.date() == now.date())
+    if is_new_lesson_completion:
+        progress.xp = (progress.xp or 0) + (payload.xp or 0)
+        if not already_counted_today:
+            progress.streak = (progress.streak or 0) + 1
+
     progress.completed_lessons = completed_lessons
     progress.language_code = language_code
+    progress.updated_at = now
     if not progress.next_goal:
         progress.next_goal = "Terminer 3 leçons cette semaine"
 

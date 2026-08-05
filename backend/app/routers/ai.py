@@ -1,16 +1,20 @@
-from fastapi import APIRouter, HTTPException
-from pydantic import BaseModel
+from fastapi import APIRouter, Depends, HTTPException
+from pydantic import BaseModel, Field
 import os
 import json
 import httpx
 
+from ..services.security import RateLimiter, get_current_user
+
 router = APIRouter()
+
+_ai_rate_limiter = RateLimiter(max_attempts=10, window_seconds=60)
 
 
 class LLMRequest(BaseModel):
-    prompt: str
+    prompt: str = Field(..., min_length=1, max_length=4000)
     response_json_schema: dict | None = None
-    temperature: float | None = 0.7
+    temperature: float | None = Field(default=0.7, ge=0.0, le=2.0)
 
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -46,10 +50,16 @@ async def call_openai(prompt: str, temperature: float = 0.7) -> str:
 
 
 @router.post("/chat")
-async def chat(payload: LLMRequest):
+async def chat(
+    payload: LLMRequest,
+    current_user=Depends(get_current_user),
+    _rate_limit=Depends(_ai_rate_limiter),
+):
     prompt = payload.prompt
     if payload.response_json_schema:
         schema_text = json.dumps(payload.response_json_schema, ensure_ascii=False)
+        if len(schema_text) > 4000:
+            raise HTTPException(status_code=400, detail="response_json_schema is too large")
         prompt = (
             f"{prompt}\n\nRéponds uniquement en JSON valide qui correspond au schéma suivant :\n{schema_text}"
             + "\nNe renvoie que du JSON."

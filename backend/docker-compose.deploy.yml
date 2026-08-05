@@ -9,7 +9,9 @@ services:
       - "8000:8000"
     environment:
       DATABASE_URL: "sqlite:///./mbaara.db"
-      JWT_SECRET: "change-this-secret"
+      # Must be set in the host shell/CI secret store before running
+      # `docker compose`, e.g.: export JWT_SECRET=$(openssl rand -base64 32)
+      JWT_SECRET: "${JWT_SECRET:?JWT_SECRET must be set to a strong 32+ character secret, e.g. via: openssl rand -base64 32}"
       JWT_ALGORITHM: "HS256"
     volumes:
       - ./mbaara.db:/app/mbaara.db

@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from sqlalchemy.orm import Session
 from ..database import get_db
 from ..models.vocabulary import VocabularyItem
+from ..services.security import require_admin
 
 router = APIRouter()
 
@@ -54,7 +55,7 @@ def list_vocabulary(language_code: str | None = None, lesson_number: int | None 
 
 
 @router.post("", status_code=status.HTTP_201_CREATED)
-def create_vocabulary(payload: VocabularyCreateRequest, db: Session = Depends(get_db)):
+def create_vocabulary(payload: VocabularyCreateRequest, db: Session = Depends(get_db), _admin=Depends(require_admin)):
     item = VocabularyItem(
         language_code=payload.language_code,
         lesson_number=payload.lesson_number,
@@ -84,7 +85,7 @@ def create_vocabulary(payload: VocabularyCreateRequest, db: Session = Depends(ge
 
 
 @router.put("/{item_id}")
-def update_vocabulary(item_id: int, payload: VocabularyUpdateRequest, db: Session = Depends(get_db)):
+def update_vocabulary(item_id: int, payload: VocabularyUpdateRequest, db: Session = Depends(get_db), _admin=Depends(require_admin)):
     item = db.query(VocabularyItem).filter(VocabularyItem.id == item_id).first()
     if not item:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Vocabulary item not found")
@@ -108,7 +109,7 @@ def update_vocabulary(item_id: int, payload: VocabularyUpdateRequest, db: Sessio
 
 
 @router.delete("/{item_id}", status_code=status.HTTP_204_NO_CONTENT)
-def delete_vocabulary(item_id: int, db: Session = Depends(get_db)):
+def delete_vocabulary(item_id: int, db: Session = Depends(get_db), _admin=Depends(require_admin)):
     item = db.query(VocabularyItem).filter(VocabularyItem.id == item_id).first()
     if not item:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Vocabulary item not found")

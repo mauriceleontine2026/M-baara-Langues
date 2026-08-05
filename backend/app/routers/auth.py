@@ -1,10 +1,11 @@
 import hashlib
 import os
+import secrets
 import time
 import uuid
 from collections import defaultdict, deque
 
-from fastapi import APIRouter, HTTPException, Depends, Request, status
+from fastapi import APIRouter, HTTPException, Depends, Request, Response, status
 from pydantic import BaseModel, EmailStr, Field
 from sqlalchemy.orm import Session
 import httpx
@@ -99,7 +100,7 @@ class FirebaseAuthRequest(BaseModel):
 
 
 @router.post("/firebase")
-def firebase_auth(payload: FirebaseAuthRequest, db: Session = Depends(get_db)):
+def firebase_auth(payload: FirebaseAuthRequest, response: Response, db: Session = Depends(get_db)):
     token_payload = _verify_firebase_id_token(payload.id_token)
     email = token_payload.get("email")
     if not email:
@@ -135,6 +136,7 @@ def firebase_auth(payload: FirebaseAuthRequest, db: Session = Depends(get_db)):
             db.refresh(user)
 
     token = security.create_access_token({"sub": str(user.id), "email": user.email})
+    security.set_auth_cookies(response, token)
     return {
         "access_token": token,
         "token_type": "bearer",
@@ -149,7 +151,7 @@ def firebase_auth(payload: FirebaseAuthRequest, db: Session = Depends(get_db)):
 
 
 @router.post("/register", status_code=status.HTTP_201_CREATED)
-def register(request: Request, payload: RegisterRequest, db: Session = Depends(get_db)):
+def register(request: Request, response: Response, payload: RegisterRequest, db: Session = Depends(get_db)):
     _check_rate_limit(request)
     existing = db.query(User).filter(User.email == payload.email).first()
     if existing:
@@ -166,11 +168,12 @@ def register(request: Request, payload: RegisterRequest, db: Session = Depends(g
     db.commit()
     db.refresh(user)
     token = security.create_access_token({"sub": str(user.id), "email": user.email})
+    security.set_auth_cookies(response, token)
     return {"access_token": token, "token_type": "bearer", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
 
 
 @router.post("/login")
-def login(request: Request, payload: LoginRequest, db: Session = Depends(get_db)):
+def login(request: Request, response: Response, payload: LoginRequest, db: Session = Depends(get_db)):
     _check_rate_limit(request)
     user = db.query(User).filter(User.email == payload.email).first()
     if not user or not security.verify_password(payload.password, user.hashed_password):
@@ -183,7 +186,14 @@ def login(request: Request, payload: LoginRequest, db: Session = Depends(get_db)
         db.refresh(user)
 
     token = security.create_access_token({"sub": str(user.id), "email": user.email})
+    security.set_auth_cookies(response, token)
     return {"access_token": token, "token_type": "bearer", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
+
+
+@router.post("/logout")
+def logout(response: Response):
+    security.clear_auth_cookies(response)
+    return {"status": "ok"}
 
 
 @router.get("/me")
@@ -223,9 +233,15 @@ def reset_password_request(request: Request, payload: ResetPasswordRequest, db: 
     _check_rate_limit(request)
     user = db.query(User).filter(User.email == payload.email).first()
     if user:
-        token = security.create_access_token({"sub": str(user.id), "email": user.email})
+        # Opaque, single-purpose token: unlike a signed JWT, it carries no
+        # claims and is not accepted by get_current_user, so leaking it only
+        # exposes the password-reset action, not full account access.
+        token = secrets.token_urlsafe(32)
         token_hash = hashlib.sha256(token.encode("utf-8")).hexdigest()
         reset_tokens[token_hash] = (user.id, time.time() + (15 * 60))
+        # TODO: deliver `token` to the user out-of-band (email). No email
+        # provider is wired up yet, so nothing is sent today — this endpoint
+        # currently only issues a token without a delivery channel.
     return {"status": "ok"}
 
 

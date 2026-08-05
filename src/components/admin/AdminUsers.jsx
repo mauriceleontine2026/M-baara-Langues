@@ -17,8 +17,10 @@ export default function AdminUsers() {
     setMsg("");
     try {
       const response = await inviteUser(inviteEmail);
-      const passwordMessage = response?.temporary_password ? ` Mot de passe temporaire: ${response.temporary_password}` : "";
-      setMsg("✅ Invitation envoyée à " + inviteEmail + passwordMessage);
+      const tokenMessage = response?.invite_token
+        ? ` Lien d'activation (à transmettre en privé, valable 7 jours) : jeton ${response.invite_token}`
+        : "";
+      setMsg("✅ Invitation envoyée à " + inviteEmail + tokenMessage);
       setInviteEmail("");
       fetch();
     } catch (err) {

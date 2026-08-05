@@ -1,0 +1,96 @@
+{
+  "titre_cours": "Leçon 7 : Exprimer l'obligation, l'interdiction et la permission.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Cette leçon présente les expressions kpele (guerzé) de l'obligation, de l'interdiction et de la permission, telles qu'elles apparaissent dans les entrées et les phrases d'exemple du Dictionnaire kpele de la Guinée de Maria Konoshenko (2019, Mandenkan n°62). Le kpele distingue deux degrés d'obligation grammaticalisés dans deux mots différents, et possède un marqueur prédicatif propre au sens de la nécessité.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "L'obligation",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les deux degrés de l'obligation",
+          "contenu_detaille": "Le kpele distingue deux mots pour 'il faut que', selon la force de l'obligation. hwókɛli exprime un ordre, une obligation forte : hwókɛli yà kɔ́nɔŋ mîi 'tu dois manger', hwókɛli yà pà 'tu dois venir', hwókɛli è kúlo 'il doit sortir', hwókɛli yà é yéi wàa 'tu dois te laver les mains'. màánɛ̀ɛ ́ exprime une obligation plus faible : màánɛ̀ɛ ́ è kúlo 'il faut qu'il sorte'. Un troisième mot, hwɛ́ɛ (dans son troisième sens), est synonyme des deux précédents : hwɛ́ɛ yà màna kâa 'il faut que tu danses'.",
+          "vocabulaire_cles": [
+            {"terme": "hwókɛli", "traduction_ou_definition": "il faut que (obligation forte, un ordre)"},
+            {"terme": "màánɛ̀ɛ ́", "traduction_ou_definition": "il faut que (obligation plus faible)"},
+            {"terme": "hwɛ́ɛ", "traduction_ou_definition": "il faut que (synonyme des deux précédents)"}
+          ],
+          "exemples": [
+            {"phrase": "hwókɛli yà kɔ́nɔŋ mîi", "traduction": "'tu dois manger'"},
+            {"phrase": "hwókɛli è kúlo", "traduction": "'il doit sortir'"},
+            {"phrase": "màánɛ̀ɛ ́ è kúlo", "traduction": "'il faut qu'il sorte'"},
+            {"phrase": "hwɛ́ɛ yà màna kâa", "traduction": "'il faut que tu danses'"}
+          ],
+          "exercices": [
+            {
+              "question": "Lequel des deux mots exprime l'obligation la plus forte, un ordre ?",
+              "type": "QCM",
+              "options": ["hwókɛli", "màánɛ̀ɛ ́", "les deux sont d'égale intensité", "aucun des deux"],
+              "reponse_correcte": "hwókɛli"
+            },
+            {
+              "question": "___ yà kɔ́nɔŋ mîi signifie 'tu dois manger'.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "hwókɛli"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le marqueur grammatical de la nécessité",
+          "contenu_detaille": "Au-delà des mots d'obligation, le kpele possède un marqueur prédicatif grammaticalisé pour exprimer la nécessité : ě, marqueur de la 3e personne du singulier, employé 'dans les contextes modaux avec le sens de la nécessité', ainsi que dans les prédications non-initiales pour indiquer l'action suivante. C'est aussi la forme du subjonctif (série II du Tableau 10 des marqueurs prédicatifs), utilisée après des mots comme màánɛ̀ɛ ́ et hwókɛli.",
+          "vocabulaire_cles": [
+            {"terme": "ě", "traduction_ou_definition": "marqueur prédicatif 3SG du subjonctif, employé dans les contextes modaux de nécessité"}
+          ],
+          "exemples": [
+            {"phrase": "màánɛ̀ɛ ́ è kúlo", "traduction": "'il faut qu'il sorte' (construction subjonctive après màánɛ̀ɛ ́)"}
+          ],
+          "exercices": [
+            {
+              "question": "À quoi sert le marqueur prédicatif ě, selon le dictionnaire ?",
+              "type": "QCM",
+              "options": ["à marquer le passé accompli", "à exprimer la nécessité dans les contextes modaux", "à marquer le pluriel", "à poser une question"],
+              "reponse_correcte": "à exprimer la nécessité dans les contextes modaux"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_module": 2,
+      "titre_module": "L'interdiction et la permission",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "L'interdit et le pouvoir",
+          "contenu_detaille": "L'interdit se dit màatɛ́ɠâ, un nom relationnel illustré par máatɛɠa ↓lí 'c'est mon interdit', que le dictionnaire précise être employé si l'on est allergique à quelque chose ou si cela rend malade (mais pas dans le sens du totem de la famille). Pour exprimer la capacité ou la permission ('pouvoir faire quelque chose'), on emploie le verbe pɛ́li, comme dans à pɛ́li lóŋ dɛ̀ɠɛ́i ↓nú pɔ́ 'il peut donner les enfants aux gens'.",
+          "vocabulaire_cles": [
+            {"terme": "màatɛ́ɠâ", "traduction_ou_definition": "interdit (nom relationnel)"},
+            {"terme": "pɛ́li", "traduction_ou_definition": "pouvoir (capacité, permission)"}
+          ],
+          "exemples": [
+            {"phrase": "máatɛɠa ↓lí", "traduction": "'c'est mon interdit'"},
+            {"phrase": "à pɛ́li lóŋ dɛ̀ɠɛ́i ↓nú pɔ́", "traduction": "'il peut donner les enfants aux gens'"}
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'interdit' en kpele ?",
+              "type": "QCM",
+              "options": ["pɛ́li", "màatɛ́ɠâ", "hwókɛli", "ě"],
+              "reponse_correcte": "màatɛ́ɠâ"
+            },
+            {
+              "question": "à ___ lóŋ dɛ̀ɠɛ́i ↓nú pɔ́ signifie 'il peut donner les enfants aux gens'.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "pɛ́li"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les moyens kpele d'exprimer l'obligation (hwókɛli pour un ordre fort, màánɛ̀ɛ ́ pour une obligation plus faible), le marqueur grammatical de la nécessité (ě), l'interdiction (màatɛ́ɠâ) et la permission ou la capacité (pɛ́li). Ces données, tirées du Dictionnaire kpele de la Guinée (Konoshenko, 2019), montrent que le kpele grammaticalise finement les degrés d'obligation."
+}

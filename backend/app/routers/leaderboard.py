@@ -31,7 +31,10 @@ def get_leaderboard(db: Session):
     entries = []
     for uid, xp in user_xp.items():
         user = user_map.get(uid)
-        name = user.full_name or (user.email.split("@")[0] if user and user.email else f"Apprenant {uid[-4:]}")
+        # Never derive the public display name from the email address — it
+        # would leak part of another user's email to everyone on the
+        # leaderboard. Fall back to an anonymous label instead.
+        name = (user.full_name if user else None) or f"Apprenant {uid[-4:]}"
         entries.append({
             "userId": uid,
             "xp": xp,

@@ -1,9 +1,12 @@
 import logging
 import os
+import secrets
+import time
+from collections import defaultdict, deque
 from datetime import datetime, timedelta, timezone
 from typing import Optional
 
-from fastapi import Depends, HTTPException, status
+from fastapi import Depends, HTTPException, Request, Response, status
 from fastapi.security import OAuth2PasswordBearer
 from jose import JWTError, jwt
 from passlib.context import CryptContext
@@ -23,7 +26,55 @@ ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "15")
 REFRESH_TOKEN_EXPIRE_DAYS = int(os.getenv("REFRESH_TOKEN_EXPIRE_DAYS", "7"))
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/auth/login")
+# Kept so FastAPI's interactive docs still offer a bearer-token "Authorize"
+# button; actual token extraction below checks the cookie first (see
+# get_current_user) and does not require this scheme to be satisfied.
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/auth/login", auto_error=False)
+
+# The web frontend authenticates via an httpOnly cookie (immune to XSS-based
+# token theft, unlike sessionStorage/localStorage); the separate Expo/React
+# Native mobile app (mobile/src/services/auth.ts) has no reliable browser
+# cookie jar, so it keeps using a Bearer token in the Authorization header.
+# get_current_user below accepts either. Because the auth cookie crosses
+# origins (frontend and backend are deployed on different domains), it must
+# be SameSite=None, which means it IS sent on cross-site requests — the CSRF
+# double-submit check in main.py is what keeps that safe for cookie-based
+# requests specifically.
+ACCESS_TOKEN_COOKIE_NAME = "mbaara_access_token"
+CSRF_COOKIE_NAME = "mbaara_csrf_token"
+CSRF_HEADER_NAME = "x-csrf-token"
+
+
+def set_auth_cookies(response: Response, token: str) -> None:
+    max_age = ACCESS_TOKEN_EXPIRE_MINUTES * 60
+    response.set_cookie(
+        key=ACCESS_TOKEN_COOKIE_NAME,
+        value=token,
+        max_age=max_age,
+        httponly=True,
+        secure=True,
+        samesite="none",
+        path="/",
+    )
+    # Deliberately NOT httponly: the frontend reads this value and echoes it
+    # back as the X-CSRF-Token header on mutating requests (double-submit
+    # pattern). A cross-site attacker can make the browser send the auth
+    # cookie automatically, but cannot read this cookie's value to forge
+    # the matching header, since same-origin policy blocks that read.
+    response.set_cookie(
+        key=CSRF_COOKIE_NAME,
+        value=secrets.token_urlsafe(32),
+        max_age=max_age,
+        httponly=False,
+        secure=True,
+        samesite="none",
+        path="/",
+    )
+
+
+def clear_auth_cookies(response: Response) -> None:
+    response.delete_cookie(key=ACCESS_TOKEN_COOKIE_NAME, path="/", samesite="none", secure=True)
+    response.delete_cookie(key=CSRF_COOKIE_NAME, path="/", samesite="none", secure=True)
 
 
 def verify_password(plain_password: str, hashed_password: str) -> bool:
@@ -64,7 +115,17 @@ def is_admin_email(email: str | None) -> bool:
     return bool(email and email.strip().lower() in ADMIN_EMAILS)
 
 
-def get_current_user(token: str = Depends(oauth2_scheme)) -> User:
+def _extract_token(request: Request, header_token: str | None) -> str | None:
+    cookie_token = request.cookies.get(ACCESS_TOKEN_COOKIE_NAME)
+    if cookie_token:
+        return cookie_token
+    return header_token
+
+
+def get_current_user(request: Request, header_token: str | None = Depends(oauth2_scheme)) -> User:
+    token = _extract_token(request, header_token)
+    if not token:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Not authenticated")
     payload = decode_access_token(token)
     user_id = payload.get("sub")
     if not user_id:
@@ -84,3 +145,37 @@ def get_current_user(token: str = Depends(oauth2_scheme)) -> User:
     elif getattr(user, "role", None) is None:
         setattr(user, "role", "user")
     return user
+
+
+def require_admin(current_user: User = Depends(get_current_user)) -> User:
+    if current_user.role != "admin":
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Admin required")
+    return current_user
+
+
+class RateLimiter:
+    """Per-process, per-client-IP sliding-window rate limiter.
+
+    Note: state is in-memory, so limits reset on restart and are not shared
+    across multiple worker processes/instances. Acceptable for the current
+    single-instance deployment; move to a shared store (e.g. Redis) if the
+    backend is scaled horizontally.
+    """
+
+    def __init__(self, max_attempts: int, window_seconds: int):
+        self.max_attempts = max_attempts
+        self.window_seconds = window_seconds
+        self._buckets: dict[str, deque[float]] = defaultdict(deque)
+
+    def __call__(self, request: Request) -> None:
+        client_ip = request.client.host if request.client else "unknown"
+        now = time.monotonic()
+        bucket = self._buckets[client_ip]
+        while bucket and now - bucket[0] > self.window_seconds:
+            bucket.popleft()
+        if len(bucket) >= self.max_attempts:
+            raise HTTPException(
+                status_code=status.HTTP_429_TOO_MANY_REQUESTS,
+                detail="Too many requests. Please retry later.",
+            )
+        bucket.append(now)

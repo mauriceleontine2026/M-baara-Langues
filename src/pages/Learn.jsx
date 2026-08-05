@@ -7,7 +7,12 @@ import { getProgress } from "@/api/progressService";
 import { ArrowLeft, ArrowRight, Lock, CheckCircle, BookOpen, Download, Trash2, WifiOff, Loader2 } from "lucide-react";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 import { downloadLanguageOffline, isLanguageDownloaded, removeLanguageOffline, getOfflineVocab, getOfflineLanguages } from "@/lib/offlineStorage";
-import lessonCurriculum from "@/data/lessonCurriculum";
+import {
+  getBeginnerCompletionStatus,
+  getAvailableState,
+  getLockMessageForModule,
+  getCurriculumForLanguageExport,
+} from "@/lib/curriculumGate";
 
 export default function Learn() {
   const { langCode } = useParams();
@@ -127,49 +132,14 @@ export default function Learn() {
     }
   };
 
-  const getModuleCompletionState = (module, completedLessons) => {
-    const lessonNumbers = Array.isArray(module?.lessons)
-      ? module.lessons.map((lesson) => Number(lesson.lesson_number)).filter((n) => Number.isFinite(n) && n > 0)
-      : [];
-    const moduleLessonsDone = lessonNumbers.length > 0 && lessonNumbers.every((n) => completedLessons.includes(n));
-    const exerciseRecord = readExerciseRecord(module.id);
-    const exerciseScore = Number(exerciseRecord?.score || 0);
-    const exerciseCompleted = Boolean(exerciseRecord?.completed);
-    const exercisePass = exerciseCompleted && exerciseScore >= 70;
-
-    return {
-      moduleLessonsDone,
-      exerciseScore,
-      exerciseCompleted,
-      exercisePass,
-    };
-  };
-
-  const getUnlockedState = (levelIndex, moduleIndex, level, module, completedLessons) => {
-    const currentModuleState = getModuleCompletionState(module, completedLessons);
-
-    const previousLevelComplete = levelIndex === 0
-      ? true
-      : lessonCurriculum.levels.slice(0, levelIndex).every((previousLevel) => {
-          return previousLevel.modules.every((previousModule) => {
-            const previousModuleState = getModuleCompletionState(previousModule, completedLessons);
-            return previousModuleState.moduleLessonsDone && previousModuleState.exercisePass;
-          });
-        });
-
-    const previousModuleComplete = moduleIndex === 0
-      ? previousLevelComplete
-      : (() => {
-          const previousModule = level.modules[moduleIndex - 1];
-          const previousModuleState = getModuleCompletionState(previousModule, completedLessons);
-          return previousModuleState.moduleLessonsDone && previousModuleState.exercisePass;
-        })();
-
-    return {
-      ...currentModuleState,
-      unlocked: previousModuleComplete && currentModuleState.moduleLessonsDone && currentModuleState.exercisePass,
-      previousModuleComplete,
-    };
+  const getExerciseRecords = () => {
+    const curriculum = getCurriculumForLanguageExport(langCode);
+    return curriculum.levels.reduce((acc, level) => {
+      level.modules.forEach((module) => {
+        acc[module.id] = readExerciseRecord(module.id);
+      });
+      return acc;
+    }, {});
   };
 
   // Detail view
@@ -181,6 +151,8 @@ export default function Learn() {
     const completed = Array.isArray(prog?.completed_lessons) ? prog.completed_lessons.map((n) => Number(n)).filter((n) => Number.isFinite(n) && n > 0) : [];
     const completedSet = new Set(completed);
     const totalLessonCount = Math.max(1, Array.isArray(safeLessons) ? safeLessons.length : 0);
+    const exerciseRecords = getExerciseRecords();
+    const beginnerStatus = getBeginnerCompletionStatus(completed, exerciseRecords);
 
     return (
       <div className="p-6 lg:p-10 max-w-3xl mx-auto">
@@ -235,14 +207,18 @@ export default function Learn() {
             <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-primary">Curriculum</span>
           </div>
           <div className="space-y-4">
-            {lessonCurriculum.levels.map((level, levelIndex) => {
+            {getCurriculumForLanguageExport(langCode).levels.map((level, levelIndex) => {
+              const exerciseRecords = getExerciseRecords();
+              const beginnerStatus = getBeginnerCompletionStatus(completed, exerciseRecords, 70, langCode);
               const levelModulesState = level.modules.map((module, moduleIndex) => ({
-                ...getUnlockedState(levelIndex, moduleIndex, level, module, completed),
+                ...getAvailableState(levelIndex, moduleIndex, level, module, completed, exerciseRecords, langCode),
                 module,
               }));
-              const levelUnlocked = levelIndex === 0 || levelModulesState.every((state) => state.moduleLessonsDone && state.exercisePass);
+              const levelUnlocked = levelIndex === 0 || beginnerStatus.complete;
               return (
-                <div key={level.id} className="rounded-[24px] border border-border/80 bg-[linear-gradient(180deg,rgba(255,255,255,0.03),rgba(255,255,255,0.02))] p-4 shadow-sm">
+                <div key={level.id} className={`rounded-[24px] border border-border/80 p-4 shadow-sm ${
+                  levelIndex > 0 && !beginnerStatus.complete ? "bg-slate-950/20" : "bg-[linear-gradient(180deg,rgba(255,255,255,0.03),rgba(255,255,255,0.02))]"
+                }`}>
                   <div className="mb-3 flex items-center justify-between gap-3">
                     <div>
                       <div className="text-lg font-semibold text-foreground">{level.label}</div>
@@ -265,8 +241,8 @@ export default function Learn() {
                   <div className="grid gap-3">
                     {level.modules.map((module, moduleIndex) => {
                       const state = levelModulesState[moduleIndex];
-                      const lessonLinksDisabled = !state.unlocked;
-                      const practiceDisabled = !state.unlocked;
+                      const lessonLinksDisabled = !state.available || (levelIndex > 0 && !levelUnlocked);
+                      const practiceDisabled = !state.available || (levelIndex > 0 && !levelUnlocked);
                       const onlyFirstLevelUnlock = levelIndex === 0 && moduleIndex === 0;
                       return (
                         <details key={module.id} className="rounded-[20px] bg-secondary/40 p-3.5 shadow-[0_10px_25px_-20px_rgba(0,0,0,0.55)]" open={module.id === "debutant-module-1"}>
@@ -329,11 +305,9 @@ export default function Learn() {
                               </div>
                             </div>
                           )}
-                          {!state.unlocked && (
+                          {!state.available && (
                             <div className="mt-2 rounded-[16px] border border-amber-300/40 bg-amber-500/10 px-3 py-2 text-sm text-amber-700 dark:text-amber-300">
-                              {onlyFirstLevelUnlock
-                                ? "Termine les leçons de ce module et valide la série d’exercices avec au moins 70% pour continuer."
-                                : "Débloquez ce module en terminant les leçons du module précédent, puis en validant la série d’exercices avec une moyenne d’au moins 70%."}
+                              {getLockMessageForModule(levelIndex, moduleIndex, level, beginnerStatus.complete)}
                             </div>
                           )}
                         </details>

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useAuth } from "@/lib/AuthContext";
 import { getLanguageByCode, getLessonsForLanguage, getVocabularyForLanguage, getVocabularyForLesson } from "@/api/languageService";
@@ -8,6 +8,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 import { getOfflineVocab, getOfflineLessons, getOfflineLang, queueProgressUpdate } from "@/lib/offlineStorage";
 import { getNextUnlockedLesson } from "@/lib/progressUtils";
+import {
+  findModuleByLessonNumber,
+  getAvailableState,
+  getBeginnerCompletionStatus,
+  getLockMessageForModule,
+  getCurriculumForLanguageExport,
+} from "@/lib/curriculumGate";
 
 export default function Lesson() {
   const { langCode, lessonNum } = useParams();
@@ -28,7 +35,30 @@ export default function Lesson() {
   const [loading, setLoading] = useState(true);
   const [fetchError, setFetchError] = useState(/** @type {string | null} */ (null));
   const [progressError, setProgressError] = useState(/** @type {string | null} */ (null));
+  const [completedLessons, setCompletedLessons] = useState([]);
+  const [lessonLockedMessage, setLessonLockedMessage] = useState("");
+  const [lessonLocked, setLessonLocked] = useState(false);
   const online = useOnlineStatus();
+
+  const getExerciseRecords = () => {
+    if (typeof window === "undefined") return {};
+    const curriculum = getCurriculumForLanguageExport(langCode);
+    return curriculum.levels.reduce((acc, level) => {
+      level.modules.forEach((module) => {
+        const raw = window.localStorage.getItem(`mbaara-exercise-${langCode}-${module.id}`);
+        if (!raw) {
+          acc[module.id] = null;
+          return;
+        }
+        try {
+          acc[module.id] = JSON.parse(raw);
+        } catch (e) {
+          acc[module.id] = null;
+        }
+      });
+      return acc;
+    }, {});
+  };
 
   useEffect(() => {
     const safeLangCode = langCode || "";
@@ -88,6 +118,35 @@ export default function Lesson() {
       setLoading(false);
     });
   }, [langCode, lessonNum, online]);
+
+  useEffect(() => {
+    if (!user) return;
+    getProgress()
+      .then((data) => {
+        const progress = Array.isArray(data) ? data.find((p) => p.language_code === langCode) : null;
+        const completed = Array.isArray(progress?.completed_lessons)
+          ? progress.completed_lessons.map((n) => Number(n)).filter((n) => Number.isFinite(n) && n > 0)
+          : [];
+        setCompletedLessons(completed);
+      })
+      .catch(() => setCompletedLessons([]));
+  }, [user, langCode]);
+
+  useEffect(() => {
+    const moduleNumber = Number(lessonNum || "0");
+    if (!moduleNumber || !langCode) return;
+    const exerciseRecords = getExerciseRecords();
+    const moduleInfo = findModuleByLessonNumber(moduleNumber, lessonMeta?.module?.niveau || lessonMeta?.level || "", langCode);
+    if (moduleInfo) {
+      const beginnerStatus = getBeginnerCompletionStatus(completedLessons, exerciseRecords, 70, langCode);
+      const available = getAvailableState(moduleInfo.levelIndex, moduleInfo.moduleIndex, moduleInfo.level, moduleInfo.module, completedLessons, exerciseRecords, langCode).available;
+      setLessonLocked(!available);
+      setLessonLockedMessage(available ? "" : getLockMessageForModule(moduleInfo.levelIndex, moduleInfo.moduleIndex, moduleInfo.level, beginnerStatus.complete));
+    } else {
+      setLessonLocked(false);
+      setLessonLockedMessage("");
+    }
+  }, [lessonNum, langCode, completedLessons, lessonMeta]);
 
   useEffect(() => {
     if (phase === "quiz" && items[quizIdx]) {
@@ -212,6 +271,7 @@ export default function Lesson() {
   const lessonTitle = lessonMeta?.module?.theme || lessonMeta?.title_fr || lessonMeta?.title || `Leçon ${parseInt(lessonNum || "0", 10)}`;
   const lessonDescription = lessonMeta?.module?.description || lessonMeta?.description || lessonMeta?.content || `${items.length} mots à apprendre`;
   const lessonNiveau = normalizeLessonLevel(lessonMeta?.module?.niveau || lessonMeta?.level || null);
+  const lessonBlocked = lessonLocked && !loading;
 
   if (loading) {
     return (
@@ -235,6 +295,18 @@ export default function Lesson() {
       <div className="min-h-screen flex items-center justify-center flex-col gap-3 px-6 text-center">
         <p className="text-muted-foreground">Langue introuvable ou leçon invalide.</p>
         <button onClick={() => navigate(-1)} className="text-primary text-sm font-medium">← Retour</button>
+      </div>
+    );
+  }
+
+  if (lessonBlocked) {
+    return (
+      <div className="min-h-screen flex items-center justify-center px-6 text-center">
+        <div className="max-w-lg rounded-3xl border border-amber-300/40 bg-amber-500/10 p-8">
+          <p className="text-base font-semibold text-amber-900 mb-3">Accès restreint</p>
+          <p className="text-sm text-amber-800 mb-6">{lessonLockedMessage || "Cette leçon est verrouillée tant que le niveau Débutant n'est pas achevé avec tous les exercices validés."}</p>
+          <button onClick={() => navigate(`/apprendre/${langCode}`)} className="rounded-full bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground">Retour au curriculum</button>
+        </div>
       </div>
     );
   }

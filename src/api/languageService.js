@@ -1,20 +1,40 @@
 import { request } from "./backendClient";
+import {
+  isGuerzeLanguage,
+  getGuerzeLanguage,
+  getGuerzeVocabularyForLanguage,
+  getGuerzeVocabularyForLesson,
+  getGuerzeLessons,
+} from "@/lib/guerzeData";
 
 const toArray = (value) => (Array.isArray(value) ? value : []);
+
+const mergeUniqueLanguages = (languages) => {
+  const items = Array.isArray(languages) ? languages.slice() : [];
+  const hasGuerze = items.some((lang) => String(lang?.code || "").trim().toLowerCase() === "guerze");
+  if (!hasGuerze) {
+    items.push(getGuerzeLanguage());
+  }
+  return items;
+};
 
 export async function getLanguages() {
   try {
     const data = await request("GET", "/api/languages");
-    return toArray(data);
+    return mergeUniqueLanguages(toArray(data));
   } catch (error) {
     console.error("Backend language fetch error:", error);
-    return [];
+    return [getGuerzeLanguage()];
   }
 }
 
 export async function getLanguageByCode(code) {
   if (!code) {
     return null;
+  }
+
+  if (isGuerzeLanguage(code)) {
+    return getGuerzeLanguage();
   }
 
   try {
@@ -28,6 +48,10 @@ export async function getLanguageByCode(code) {
 export async function getVocabularyForLanguage(languageCode) {
   if (!languageCode) {
     return [];
+  }
+
+  if (isGuerzeLanguage(languageCode)) {
+    return getGuerzeVocabularyForLanguage();
   }
 
   const candidates = [String(languageCode).trim(), String(languageCode).trim().toLowerCase(), String(languageCode).trim().replace(/français/g, "francais").replace(/français/g, "francais")];
@@ -52,6 +76,10 @@ export async function getVocabularyForLesson(languageCode, lessonNumber) {
     return [];
   }
 
+  if (isGuerzeLanguage(languageCode)) {
+    return getGuerzeVocabularyForLesson(lessonNumber);
+  }
+
   try {
     const data = await request("GET", "/api/vocabulary", undefined, { language_code: languageCode, lesson_number: lessonNumber });
     return toArray(data);
@@ -64,6 +92,10 @@ export async function getVocabularyForLesson(languageCode, lessonNumber) {
 export async function getLessonsForLanguage(languageCode) {
   if (!languageCode) {
     return [];
+  }
+
+  if (isGuerzeLanguage(languageCode)) {
+    return getGuerzeLessons();
   }
 
   try {

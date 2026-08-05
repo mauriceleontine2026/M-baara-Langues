@@ -1,28 +1,22 @@
-import { request, setAuthToken, clearAuthToken } from "./backendClient";
+import { request, notifyAuthChanged } from "./backendClient";
 import { signInWithGoogle } from "./firebaseClient";
 
 export async function login(email, password) {
   const data = await request("POST", "/api/auth/login", { email, password });
-  if (data?.access_token) {
-    setAuthToken(data.access_token);
-  }
+  notifyAuthChanged();
   return data?.user || null;
 }
 
 export async function loginWithGoogle() {
   const { token } = await signInWithGoogle();
   const data = await request("POST", "/api/auth/firebase", { id_token: token });
-  if (data?.access_token) {
-    setAuthToken(data.access_token);
-  }
+  notifyAuthChanged();
   return data?.user || null;
 }
 
 export async function register(email, password, full_name) {
   const data = await request("POST", "/api/auth/register", { email, password, full_name });
-  if (data?.access_token) {
-    setAuthToken(data.access_token);
-  }
+  notifyAuthChanged();
   return data?.user || null;
 }
 
@@ -35,7 +29,11 @@ export async function updateMe(payload) {
 }
 
 export async function logout() {
-  clearAuthToken();
+  try {
+    await request("POST", "/api/auth/logout");
+  } finally {
+    notifyAuthChanged();
+  }
 }
 
 export async function resetPasswordRequest(email) {

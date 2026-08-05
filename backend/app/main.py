@@ -1,5 +1,6 @@
-from fastapi import FastAPI
+from fastapi import Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 from .database import Base, engine
 from .routers import health, auth, lessons, progress, audio, ai, languages, vocabulary, contributions, users, leaderboard
 from fastapi.staticfiles import StaticFiles
@@ -7,11 +8,14 @@ from pathlib import Path
 import json
 import os
 import re
+import secrets
 import unicodedata
 from .models.language import Language
 from .models.lesson import Lesson
 from .models.vocabulary import VocabularyItem
 from .database import SessionLocal
+from .services import security
+from .services.security import require_admin
 
 app = FastAPI(title="M'baara API", version="0.1.0")
 
@@ -631,8 +635,28 @@ app.add_middleware(
     allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE"],
-    allow_headers=["Authorization", "Content-Type"],
+    allow_headers=["Authorization", "Content-Type", security.CSRF_HEADER_NAME],
 )
+
+
+@app.middleware("http")
+async def csrf_protect(request, call_next):
+    # Only requests authenticated via the httpOnly cookie are exposed to
+    # CSRF (a malicious site can make the browser send that cookie
+    # automatically). Bearer-token requests (the Expo mobile app) require an
+    # explicit Authorization header an attacker's page cannot set, so they
+    # are not vulnerable and are exempt. See security.set_auth_cookies for
+    # why the cookie has to be SameSite=None in the first place.
+    if request.method in {"POST", "PUT", "PATCH", "DELETE"}:
+        cookie_token = request.cookies.get(security.ACCESS_TOKEN_COOKIE_NAME)
+        header_auth = request.headers.get("authorization")
+        if cookie_token and not header_auth:
+            csrf_cookie = request.cookies.get(security.CSRF_COOKIE_NAME)
+            csrf_header = request.headers.get(security.CSRF_HEADER_NAME)
+            if not csrf_cookie or not csrf_header or not secrets.compare_digest(csrf_cookie, csrf_header):
+                return JSONResponse(status_code=403, content={"detail": "CSRF token missing or invalid"})
+    return await call_next(request)
+
 
 @app.middleware("http")
 async def add_security_headers(request, call_next):
@@ -664,7 +688,7 @@ app.include_router(users, prefix="/api/users")
 
 # Admin endpoint to trigger dictionary seeding on demand
 @app.post("/api/admin/seed-dictionaries")
-def admin_seed_dictionaries():
+def admin_seed_dictionaries(_admin=Depends(require_admin)):
     db = SessionLocal()
     try:
         _seed_dictionary_content(db)
