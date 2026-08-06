@@ -44,7 +44,6 @@ export default function Home() {
 
   const actions = [
     { to: "/apprendre", label: "Commencer une leçon", icon: BookOpen, color: "text-orange-500" },
-    { to: "/tuteur", label: "Tuteur IA Kôrô", icon: GraduationCap, color: "text-purple-500" },
     { to: "/contribuer", label: "Contribuer", icon: Mic, color: "text-pink-500" },
     { to: "/revision", label: "Révision SRS", icon: Trophy, color: "text-yellow-500" },
   ];
@@ -83,7 +82,7 @@ export default function Home() {
       </div>
 
       {/* Action grid */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
         {actions.map(({ to, label, icon: Icon, color }) => (
           <Link key={to} to={to}
             className="group bg-card border border-border rounded-2xl p-5 hover:border-primary/40 hover:shadow-lg transition-all">

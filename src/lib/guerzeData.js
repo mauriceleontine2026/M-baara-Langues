@@ -18,7 +18,7 @@ const LEVEL_META = {
   "Avancé": { id: "niveau-avance", label: "Avancé", range: "C1 - C2" },
 };
 
-const files = import.meta.globEager("../data/Guerzé/**/*.{json,JSON}");
+const files = import.meta.glob("../data/Guerzé/**/*.json", { eager: true });
 const rawLessons = Object.entries(files)
   .map(([filePath, module]) => {
     const content = module?.default ?? module;
@@ -64,7 +64,24 @@ const parseLessonOrder = (filePath, title) => {
   return 1;
 };
 
+const getPathSegments = (filePath) => String(filePath || "").split(/[\\/]/).filter(Boolean);
+
+const getModuleInfoFromPath = (filePath) => {
+  const segments = getPathSegments(filePath);
+  const moduleSegment = segments[segments.length - 2] || "";
+  const levelSegment = segments[segments.length - 3] || "";
+
+  const moduleMatch = String(moduleSegment || "").match(/Module\s*([0-9]+)\s*(.*)$/i);
+  const moduleNumber = moduleMatch ? Number(moduleMatch[1]) : 0;
+  const moduleTitle = moduleMatch?.[2]?.trim() || "";
+  const levelTitle = String(levelSegment || "").replace(/^Niveau\s+/i, "").trim();
+
+  return { moduleNumber, moduleTitle, levelTitle };
+};
+
 const getModuleTitle = (moduleData, filePath) => {
+  const { moduleTitle } = getModuleInfoFromPath(filePath);
+  if (moduleTitle) return moduleTitle;
   if (moduleData?.titre_module) return String(moduleData.titre_module).trim();
   const match = String(filePath || "").match(/Module\s*([0-9]+)/i);
   if (match) return `Module ${match[1]}`;
@@ -75,12 +92,13 @@ const buildCurriculum = () => {
   const levelMap = new Map();
 
   rawLessons.forEach(({ filePath, content }) => {
-    const levelInfo = parseLevelMeta(content.niveau || content.level || "Débutant");
-    const levelKey = levelInfo.label;
     const moduleData = Array.isArray(content.modules) ? content.modules[0] : content.modules;
     if (!moduleData || typeof moduleData !== "object") return;
 
-    const moduleIdNumber = Number(moduleData.id_module) || 0;
+    const { moduleNumber, levelTitle } = getModuleInfoFromPath(filePath);
+    const levelInfo = parseLevelMeta(content.niveau || content.level || levelTitle || "Débutant");
+    const levelKey = levelInfo.label;
+    const moduleIdNumber = moduleNumber > 0 ? moduleNumber : Number(moduleData.id_module) || 0;
     const moduleLabel = getModuleTitle(moduleData, filePath);
     const lessonOrder = parseLessonOrder(filePath, content.titre_cours || content.titre_cour || content.title || "Leçon 1");
     const lessonTitle = String(content.titre_cours || content.titre_cour || content.title || `Leçon ${lessonOrder}`).trim();

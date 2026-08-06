@@ -1,20 +1,25 @@
 import { request } from "./backendClient";
 import {
-  isGuerzeLanguage,
-  getGuerzeLanguage,
-  getGuerzeVocabularyForLanguage,
-  getGuerzeVocabularyForLesson,
-  getGuerzeLessons,
-} from "@/lib/guerzeData";
+  isLocalLanguage,
+  getLocalLanguages,
+  getLocalLanguage,
+  getLocalLessons,
+  getVocabularyForLanguage as getLocalVocabularyForLanguage,
+  getVocabularyForLesson as getLocalVocabularyForLesson,
+} from "@/lib/localLanguageData";
 
 const toArray = (value) => (Array.isArray(value) ? value : []);
 
 const mergeUniqueLanguages = (languages) => {
   const items = Array.isArray(languages) ? languages.slice() : [];
-  const hasGuerze = items.some((lang) => String(lang?.code || "").trim().toLowerCase() === "guerze");
-  if (!hasGuerze) {
-    items.push(getGuerzeLanguage());
-  }
+  const existingCodes = new Set(items.map((lang) => String(lang?.code || "").trim().toLowerCase()));
+  getLocalLanguages().forEach((localLang) => {
+    const localCode = String(localLang?.code || "").trim().toLowerCase();
+    if (localCode && !existingCodes.has(localCode)) {
+      items.push(localLang);
+      existingCodes.add(localCode);
+    }
+  });
   return items;
 };
 
@@ -24,7 +29,7 @@ export async function getLanguages() {
     return mergeUniqueLanguages(toArray(data));
   } catch (error) {
     console.error("Backend language fetch error:", error);
-    return [getGuerzeLanguage()];
+    return getLocalLanguages();
   }
 }
 
@@ -33,8 +38,8 @@ export async function getLanguageByCode(code) {
     return null;
   }
 
-  if (isGuerzeLanguage(code)) {
-    return getGuerzeLanguage();
+  if (isLocalLanguage(code)) {
+    return getLocalLanguage(code);
   }
 
   try {
@@ -50,8 +55,8 @@ export async function getVocabularyForLanguage(languageCode) {
     return [];
   }
 
-  if (isGuerzeLanguage(languageCode)) {
-    return getGuerzeVocabularyForLanguage();
+  if (isLocalLanguage(languageCode)) {
+    return getLocalVocabularyForLanguage(languageCode);
   }
 
   const candidates = [String(languageCode).trim(), String(languageCode).trim().toLowerCase(), String(languageCode).trim().replace(/français/g, "francais").replace(/français/g, "francais")];
@@ -76,8 +81,8 @@ export async function getVocabularyForLesson(languageCode, lessonNumber) {
     return [];
   }
 
-  if (isGuerzeLanguage(languageCode)) {
-    return getGuerzeVocabularyForLesson(lessonNumber);
+  if (isLocalLanguage(languageCode)) {
+    return getLocalVocabularyForLesson(languageCode, lessonNumber);
   }
 
   try {
@@ -94,8 +99,8 @@ export async function getLessonsForLanguage(languageCode) {
     return [];
   }
 
-  if (isGuerzeLanguage(languageCode)) {
-    return getGuerzeLessons();
+  if (isLocalLanguage(languageCode)) {
+    return getLocalLessons(languageCode);
   }
 
   try {

@@ -1,4 +1,4 @@
-import { request, notifyAuthChanged } from "./backendClient";
+import { request, notifyAuthChanged, clearStoredAccessToken } from "./backendClient";
 import { signInWithGoogle } from "./firebaseClient";
 
 export async function login(email, password) {
@@ -9,6 +9,10 @@ export async function login(email, password) {
 
 export async function loginWithGoogle() {
   const { token } = await signInWithGoogle();
+  if (!token) {
+    throw new Error("Jeton Firebase introuvable après authentification Google.");
+  }
+
   const data = await request("POST", "/api/auth/firebase", { id_token: token });
   notifyAuthChanged();
   return data?.user || null;
@@ -32,6 +36,7 @@ export async function logout() {
   try {
     await request("POST", "/api/auth/logout");
   } finally {
+    clearStoredAccessToken();
     notifyAuthChanged();
   }
 }

@@ -4,13 +4,15 @@ import path from 'path'
 
 export default () => {
   return defineConfig({
-    plugins: [react()],
+    plugins: [
+      react(),
+    ],
     resolve: {
       alias: [
         { find: '@', replacement: path.resolve(__dirname, 'src') },
         { find: 'framer-motion', replacement: path.resolve(__dirname, 'node_modules/framer-motion/dist/cjs/index.js') }
       ],
-      extensions: ['.js', '.cjs', '.mjs', '.ts', '.jsx', '.tsx', '.json']
+      extensions: ['.js', '.cjs', '.mjs', '.ts', '.jsx', '.tsx', '.json', '.JSON']
     },
     server: {
       open: true,

@@ -19,13 +19,15 @@ from .services.security import require_admin
 
 app = FastAPI(title="M'baara API", version="0.1.0")
 
-allowed_origins = [
-    origin.strip()
-    for origin in os.getenv(
-        "ALLOWED_ORIGINS",
-        "https://mbaara-web.vercel.app,https://m-baara-langues.web.app,http://localhost:5173,http://127.0.0.1:5173"
-    ).split(",") if origin.strip()
-]
+raw_allowed_origins = os.getenv(
+    "ALLOWED_ORIGINS",
+    "https://mbaara-web.vercel.app,https://m-baara-langues.web.app,http://localhost:5173,http://127.0.0.1:5173"
+)
+allowed_origins = [origin.strip() for origin in raw_allowed_origins.split(",") if origin.strip()]
+for required_origin in ["https://m-baara-langues.web.app", "https://m-baara-langues.firebaseapp.com"]:
+    if required_origin not in allowed_origins:
+        allowed_origins.append(required_origin)
+
 
 Base.metadata.create_all(bind=engine)
 
@@ -634,8 +636,9 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
     allow_credentials=True,
-    allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE"],
-    allow_headers=["Authorization", "Content-Type", security.CSRF_HEADER_NAME],
+    allow_methods=["*"],
+    allow_headers=["*"],
+    expose_headers=["Content-Type", "Set-Cookie", "Authorization"],
 )
 
 

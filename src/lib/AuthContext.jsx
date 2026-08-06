@@ -1,5 +1,6 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import { getCurrentUser, logout as logoutService } from '@/api/authService';
+import { clearStoredAccessToken } from '@/api/backendClient';
 
 const AuthContext = createContext(null);
 
@@ -75,6 +76,7 @@ export const AuthProvider = ({ children }) => {
       }
       const status = error?.status ?? (error instanceof Error ? null : null);
       if (status === 401 || status === 403) {
+        clearStoredAccessToken();
         setAuthError({ type: 'auth_required', message: 'Authentication required' });
       } else {
         setAuthError({ type: 'unknown', message: error?.message || 'Failed to verify authentication' });

@@ -1,8 +1,8 @@
 import lessonCurriculum from "@/data/lessonCurriculum";
-import { isGuerzeLanguage, getGuerzeCurriculum } from "@/lib/guerzeData";
+import { getCurriculumForLanguage as getLocalCurriculum, isLocalLanguage } from "@/lib/localLanguageData";
 
 const normalizeText = (value) => String(value || "").trim().toLowerCase();
-const getCurriculumForLanguage = (langCode) => (isGuerzeLanguage(langCode) ? getGuerzeCurriculum() : lessonCurriculum);
+const getCurriculumForLanguage = (langCode) => (isLocalLanguage(langCode) ? getLocalCurriculum(langCode) : lessonCurriculum);
 export const getCurriculumForLanguageExport = (langCode) => getCurriculumForLanguage(langCode);
 
 export const getModuleLessonNumbers = (module) => {

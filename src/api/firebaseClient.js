@@ -96,7 +96,11 @@ export async function signInWithGoogle() {
       throw new Error("Impossible de récupérer l'utilisateur Google.");
     }
 
-    const idToken = await result.user.getIdToken();
+    const idToken = await result.user.getIdToken(true);
+    if (!idToken || typeof idToken !== "string") {
+      throw new Error("Impossible de récupérer le jeton Firebase.");
+    }
+
     return { user: result.user, token: idToken };
   } catch (error) {
     if (error?.code === "auth/unauthorized-domain") {

@@ -13,6 +13,7 @@
     "lint": "eslint . --quiet",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc -p ./jsconfig.json",
+    "test": "vitest run",
     "preview": "vite preview",
     "capacitor:copy": "npx cap copy",
     "capacitor:sync": "npx cap sync",

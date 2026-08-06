@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ShieldCheck, Bell, Lock, UserRound, ChevronRight, Save } from "lucide-react";
 import { useAuth } from "@/lib/AuthContext";
@@ -21,6 +21,28 @@ const settingsItems = [
   },
 ];
 
+const SETTINGS_STORAGE_KEY = "mbaara_user_settings";
+
+const loadSavedSettings = () => {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = window.localStorage.getItem(SETTINGS_STORAGE_KEY) || window.sessionStorage.getItem(SETTINGS_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+};
+
+const saveSettings = (snapshot) => {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.setItem(SETTINGS_STORAGE_KEY, JSON.stringify(snapshot));
+    window.sessionStorage.setItem(SETTINGS_STORAGE_KEY, JSON.stringify(snapshot));
+  } catch {
+    // Ignore storage failures when blocked or unavailable.
+  }
+};
+
 export default function Settings() {
   const navigate = useNavigate();
   const { user } = useAuth();
@@ -28,10 +50,23 @@ export default function Settings() {
   const [securityAlertsEnabled, setSecurityAlertsEnabled] = useState(true);
   const [privateModeEnabled, setPrivateModeEnabled] = useState(false);
   const [saved, setSaved] = useState(false);
+  const [savedAt, setSavedAt] = useState(null);
 
   const profileSummary = useMemo(() => {
     return user?.full_name || user?.email || "Mon espace";
   }, [user]);
+
+  useEffect(() => {
+    const loaded = loadSavedSettings();
+    if (loaded) {
+      setNotificationsEnabled(Boolean(loaded.notificationsEnabled));
+      setSecurityAlertsEnabled(Boolean(loaded.securityAlertsEnabled));
+      setPrivateModeEnabled(Boolean(loaded.privateModeEnabled));
+      if (loaded.updatedAt) {
+        setSavedAt(loaded.updatedAt);
+      }
+    }
+  }, []);
 
   const handleSave = () => {
     const snapshot = {
@@ -40,7 +75,8 @@ export default function Settings() {
       privateModeEnabled,
       updatedAt: new Date().toISOString(),
     };
-    window.sessionStorage.setItem("mbaara_user_settings", JSON.stringify(snapshot));
+    saveSettings(snapshot);
+    setSavedAt(snapshot.updatedAt);
     setSaved(true);
     window.setTimeout(() => setSaved(false), 2200);
   };
@@ -144,6 +180,17 @@ export default function Settings() {
         {saved ? (
           <div className="mt-4 rounded-xl bg-emerald-500/10 px-3 py-2 text-sm text-emerald-700">
             Préférences enregistrées avec succès.
+          </div>
+        ) : null}
+        {savedAt ? (
+          <div className="mt-3 text-xs text-muted-foreground">
+            Dernière sauvegarde : {new Date(savedAt).toLocaleString("fr-FR", {
+              year: "numeric",
+              month: "2-digit",
+              day: "2-digit",
+              hour: "2-digit",
+              minute: "2-digit",
+            })}
           </div>
         ) : null}
       </div>

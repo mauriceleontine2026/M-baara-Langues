@@ -16,13 +16,24 @@ describe('languageService backend integration', () => {
     vi.clearAllMocks();
   });
 
-  it('fetches languages from the backend', async () => {
+  it('fetches languages from the backend and preserves local languages', async () => {
     mockRequest.mockResolvedValue([{ code: 'fr', name: 'Français' }]);
 
     const result = await getLanguages();
 
     expect(mockRequest).toHaveBeenCalledWith('GET', '/api/languages');
-    expect(result).toEqual([{ code: 'fr', name: 'Français' }]);
+    expect(result).toEqual(expect.arrayContaining([{ code: 'fr', name: 'Français' }]));
+    expect(result.length).toBeGreaterThan(1);
+  });
+
+  it('falls back to local languages when backend fetch fails', async () => {
+    mockRequest.mockRejectedValue(new Error('Network failure'));
+
+    const result = await getLanguages();
+
+    expect(mockRequest).toHaveBeenCalledWith('GET', '/api/languages');
+    expect(Array.isArray(result)).toBe(true);
+    expect(result.length).toBeGreaterThan(0);
   });
 
   it('fetches vocabulary by lesson from the backend', async () => {
