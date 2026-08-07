@@ -5,6 +5,7 @@ import { useAuth } from "@/lib/AuthContext";
 import { getLanguages, getVocabularyForLanguage, getLessonsForLanguage } from "@/api/languageService";
 import { getProgress } from "@/api/progressService";
 import { ArrowLeft, ArrowRight, Lock, CheckCircle, BookOpen, Download, Trash2, WifiOff, Loader2 } from "lucide-react";
+import LanguageFlag from "@/components/ui/LanguageFlag";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 import { downloadLanguageOffline, isLanguageDownloaded, removeLanguageOffline, getOfflineVocab, getOfflineLanguages } from "@/lib/offlineStorage";
 import {
@@ -180,7 +181,7 @@ export default function Learn() {
         </div>
         <div className="rounded-3xl p-6 mb-6 text-white" style={{ background: `linear-gradient(135deg, ${lang.color}, ${lang.color}cc)` }}>
           <div className="flex items-center gap-4">
-            <span className="text-5xl">{lang.flag_emoji}</span>
+            <LanguageFlag language={lang} size="lg" />
             <div>
               <h1 className="font-heading text-2xl font-bold">{lang.name_fr}</h1>
               <p className="text-white/80 text-sm">{lang.description || lang.region}</p>
@@ -245,7 +246,7 @@ export default function Learn() {
                       const practiceDisabled = !state.available || (levelIndex > 0 && !levelUnlocked);
                       const onlyFirstLevelUnlock = levelIndex === 0 && moduleIndex === 0;
                       return (
-                        <details key={module.id} className="rounded-[20px] bg-secondary/40 p-3.5 shadow-[0_10px_25px_-20px_rgba(0,0,0,0.55)]" open={module.id === "debutant-module-1"}>
+                          <details key={module.id} className="rounded-[20px] bg-secondary/40 p-3.5 shadow-[0_10px_25px_-20px_rgba(0,0,0,0.55)]" open={levelIndex === 0 && moduleIndex === 0}>
                           <summary className="cursor-pointer list-none text-base font-semibold text-foreground mb-2 flex items-center justify-between gap-2">
                             <span>{module.label}</span>
                             <span className="text-sm text-muted-foreground">{module.lessons.length} leçons</span>
@@ -358,7 +359,7 @@ export default function Learn() {
               className="group bg-card border border-border rounded-2xl p-5 hover:border-primary/40 hover:shadow-lg transition-all">
               <div className="flex items-start justify-between mb-3">
                 <div className="flex items-center gap-3">
-                  <span className="text-3xl">{lang.flag_emoji}</span>
+                  <LanguageFlag language={lang} size="lg" />
                   <div>
                     <div className="font-heading font-bold text-foreground">{lang.name_fr}</div>
                     <div className="text-xs text-muted-foreground">{lang.region}</div>

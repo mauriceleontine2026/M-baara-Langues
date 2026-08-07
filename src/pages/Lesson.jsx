@@ -4,6 +4,7 @@ import { useAuth } from "@/lib/AuthContext";
 import { getLanguageByCode, getLessonsForLanguage, getVocabularyForLanguage, getVocabularyForLesson } from "@/api/languageService";
 import { getProgress, updateProgress } from "@/api/progressService";
 import { ArrowLeft, Volume2, Heart, X, Check, WifiOff } from "lucide-react";
+import LanguageFlag from "@/components/ui/LanguageFlag";
 import { motion, AnimatePresence } from "framer-motion";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 import { getOfflineVocab, getOfflineLessons, getOfflineLang, queueProgressUpdate } from "@/lib/offlineStorage";
@@ -344,7 +345,7 @@ export default function Lesson() {
               {lessonNiveau && <p className="text-xs uppercase tracking-[0.18em] text-primary font-semibold mt-1">{lessonNiveau}</p>}
               <p className="text-sm text-muted-foreground mt-1">{lessonDescription}</p>
             </div>
-            <span className="text-3xl">{language.flag_emoji}</span>
+            <LanguageFlag language={language} size="lg" />
           </div>
         </div>
             {[...Array(5)].map((_, i) => (
@@ -369,7 +370,7 @@ export default function Lesson() {
                   style={{ transformStyle: "preserve-3d", position: "relative", height: "200px" }}>
                   <div className="absolute inset-0 rounded-2xl shadow-xl flex flex-col items-center justify-center gap-3 p-6"
                     style={{ backfaceVisibility: "hidden", background: `linear-gradient(135deg, ${language.color}22, ${language.color}44)`, border: `2px solid ${language.color}33` }}>
-                    <span className="text-3xl">{language.flag_emoji}</span>
+                    <LanguageFlag language={language} size="lg" />
                     <h2 className="text-3xl font-heading font-bold text-foreground text-center">{currentItem.word}</h2>
                     {currentItem.phonetic && <p className="text-sm text-muted-foreground font-mono">/{currentItem.phonetic}/</p>}
                     <button onClick={e => { e.stopPropagation(); speak(currentItem.word); }} className="text-muted-foreground hover:text-foreground transition mt-1">
@@ -380,7 +381,7 @@ export default function Lesson() {
                   <div className="absolute inset-0 rounded-2xl shadow-xl flex flex-col items-center justify-center gap-3 p-6 bg-card"
                     style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)", border: `2px solid ${language.color}33` }}>
                     <p className="text-sm text-muted-foreground mb-1">Traduction</p>
-                    <h2 className="text-2xl font-heading font-bold text-foreground">{currentItem.translation_fr}</h2>
+                    <h2 className="text-2xl font-heading font-bold text-foreground break-words whitespace-normal text-center">{currentItem.translation_fr}</h2>
                     {currentItem.example_target && (
                       <div className="text-center mt-2 bg-secondary rounded-xl p-3 w-full">
                         <p className="text-sm text-foreground italic">"{currentItem.example_target}"</p>
@@ -402,7 +403,7 @@ export default function Lesson() {
               <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground text-center">Quiz · {quizIdx + 1}/{items.length}</p>
               <div className="bg-card rounded-2xl p-6 shadow-sm text-center border border-border">
                 <div className="flex items-center justify-center gap-3 mb-2">
-                  <span className="text-2xl">{language.flag_emoji}</span>
+                  <LanguageFlag language={language} size="md" />
                   <h2 className="text-3xl font-heading font-bold text-foreground">{currentItem.word}</h2>
                   <button onClick={() => speak(currentItem.word)} className="text-muted-foreground hover:text-foreground"><Volume2 size={18} /></button>
                 </div>
@@ -422,7 +423,7 @@ export default function Lesson() {
                   return (
                     <button key={i} onClick={() => handleChoice(choice)}
                       className={`w-full py-4 px-5 rounded-2xl border-2 font-medium text-left flex items-center justify-between transition ${bg} ${selected === null ? "hover:border-primary/40 cursor-pointer" : "cursor-default"}`}>
-                      <span>{choice}</span>
+                      <span className="break-words whitespace-normal max-w-[85%]">{choice}</span>
                       {selected !== null && isCorrect && <Check size={18} className="text-green-500" />}
                       {selected === choice && !isCorrect && <X size={18} className="text-red-500" />}
                     </button>
