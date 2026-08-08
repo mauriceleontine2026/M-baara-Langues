@@ -129,8 +129,70 @@ export async function updateMe(payload) {
 }
 
 export async function logout() {
-  await request("POST", "/api/auth/logout");
+  try {
+    await request("POST", "/api/auth/logout");
+  } catch (err) {
+    // If XHR fetch fails with "Failed to fetch", fallback to form-based logout
+    if (err?.message && err.message.includes("Failed to fetch")) {
+      console.warn("XHR CORS failed for logout, attempting form-based logout fallback...");
+      return logoutWithForm();
+    }
+    throw err;
+  }
   notifyAuthChanged();
+}
+
+/**
+ * Form-based logout: submits a hidden form to /api/auth/logout/form
+ * This bypasses XHR CORS restrictions.
+ */
+export async function logoutWithForm() {
+  return new Promise((resolve, reject) => {
+    const form = document.createElement("form");
+    form.method = "POST";
+    form.action = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/logout/form`;
+    form.style.display = "none";
+
+    form.onsubmit = async (e) => {
+      e.preventDefault();
+      try {
+        const response = await fetch(form.action, {
+          method: form.method,
+          credentials: "include",
+          mode: "cors",
+        });
+
+        if (!response.ok) {
+          const errorData = await response.json().catch(() => ({}));
+          reject(
+            new Error(
+              errorData.detail || `Form logout failed with status ${response.status}`
+            )
+          );
+          return;
+        }
+
+        notifyAuthChanged();
+        resolve({"status": "ok"});
+      } catch (err) {
+        reject(err);
+      }
+    };
+
+    document.body.appendChild(form);
+    form.submit();
+    document.body.removeChild(form);
+
+    // Fallback timeout
+    setTimeout(() => {
+      try {
+        notifyAuthChanged();
+        resolve({"status": "ok"});
+      } catch (err) {
+        reject(new Error("Form-based logout timed out. Please try again."));
+      }
+    }, 2000);
+  });
 }
 
 export async function resetPasswordRequest(email) {

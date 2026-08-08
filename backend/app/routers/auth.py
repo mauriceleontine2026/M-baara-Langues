@@ -406,6 +406,17 @@ def logout(response: Response):
     return {"status": "ok"}
 
 
+@router.post("/logout/form")
+def logout_form(response: Response):
+    """
+    Form-based logout endpoint: accepts application/x-www-form-urlencoded.
+    Useful as a fallback when XHR CORS fails.
+    """
+    security.clear_auth_cookies(response)
+    # Redirect to home page after logout (form submission)
+    return {"status": "ok", "redirect": "/"}
+
+
 @router.get("/me")
 def me(current_user=Depends(get_current_user)):
     return {
