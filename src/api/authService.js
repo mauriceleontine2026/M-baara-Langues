@@ -4,7 +4,53 @@ import { getRecaptchaToken } from "@/lib/recaptcha";
 
 export async function login(email, password) {
   const captchaToken = await getRecaptchaToken("login");
-  const data = await request("POST", "/api/auth/login", { email, password }, undefined, captchaToken);
+  try {
+    const data = await request("POST", "/api/auth/login", { email, password }, undefined, captchaToken);
+    notifyAuthChanged();
+    return data?.user || null;
+  } catch (err) {
+    const message = err?.message || "";
+    const status = err?.status;
+    // If network error or CORS issue, retry with form-based fallback
+    if (message.includes("Failed to fetch") || status === 0 || !status) {
+      console.warn("Login XHR failed, attempting form-based login fallback...");
+      return loginWithForm(email, password);
+    }
+    throw err;
+  }
+}
+
+/**
+ * Form-based login fallback: submits email/password using FormData to
+ * `/api/auth/login/form` and returns the authenticated user if successful.
+ */
+export async function loginWithForm(email, password) {
+  const url = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/login/form`;
+  const formData = new FormData();
+  formData.append("email", email);
+  formData.append("password", password);
+
+  // Try to include reCAPTCHA token if available
+  try {
+    const captcha = await getRecaptchaToken("login");
+    if (captcha) formData.append("captcha_token", captcha);
+  } catch (e) {
+    // ignore captcha token failures for fallback
+  }
+
+  const response = await fetch(url, {
+    method: "POST",
+    body: formData,
+    credentials: "include",
+    mode: "cors",
+  });
+
+  if (!response.ok) {
+    const err = await response.json().catch(() => ({}));
+    throw new Error(err.detail || `Form login failed with status ${response.status}`);
+  }
+
+  const data = await response.json();
   notifyAuthChanged();
   return data?.user || null;
 }

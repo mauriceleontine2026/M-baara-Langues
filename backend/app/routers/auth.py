@@ -400,6 +400,47 @@ def login(request: Request, response: Response, payload: LoginRequest, db: Sessi
     return {"access_token": token, "token_type": "bearer", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
 
 
+@router.post("/login/form")
+def login_form(
+    request: Request,
+    response: Response,
+    email: str = Form(...),
+    password: str = Form(...),
+    captcha_token: str | None = Form(None),
+    db: Session = Depends(get_db),
+):
+    """
+    Form-based login endpoint (application/x-www-form-urlencoded).
+    Useful as a fallback when XHR CORS fails or browsers block fetch.
+    """
+    _check_rate_limit(request)
+    normalized_email = _normalize_email(email)
+
+    # Accept captcha token from form body when present
+    if RECAPTCHA_SECRET_KEY and (not captcha_token or not str(captcha_token).strip()):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Le test anti-bot est requis.")
+    verify_recaptcha_token(captcha_token, "login")
+
+    user = db.query(User).filter(User.email == normalized_email).first()
+    if not user or not security.verify_password(password, user.hashed_password):
+        _record_login_failure(normalized_email)
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
+    if not getattr(user, "email_verified", False):
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Email not verified")
+
+    _clear_login_failures(normalized_email)
+
+    if is_admin_email(user.email) and user.role != "admin":
+        user.role = "admin"
+        db.add(user)
+        db.commit()
+        db.refresh(user)
+
+    token = security.create_access_token({"sub": str(user.id), "email": user.email})
+    security.set_auth_cookies(response, token)
+    return {"access_token": token, "token_type": "bearer", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
+
+
 @router.post("/logout")
 def logout(response: Response):
     security.clear_auth_cookies(response)
