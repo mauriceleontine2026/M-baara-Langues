@@ -91,6 +91,24 @@ export default function AuthSplitPanel(props) {
     onSubmit?.({ ...form, mode });
   };
 
+  useEffect(() => {
+    // render a visible v2 checkbox if v2 is used
+    const siteKey = getRecaptchaSiteKey();
+    try {
+      // container id is static per page instance
+      const containerId = "mbaara-recaptcha-container";
+      const el = document.getElementById(containerId);
+      if (el) {
+        // ignore promise result; rendering is idempotent
+        import("@/lib/recaptcha").then(({ renderRecaptcha }) => {
+          renderRecaptcha(containerId, siteKey).catch(() => {});
+        });
+      }
+    } catch (e) {
+      // no-op
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-background px-4 py-8 sm:px-6 lg:px-8 flex items-center justify-center">
       <div className="w-full max-w-6xl overflow-hidden rounded-[2rem] border border-border bg-card shadow-[0_20px_80px_-20px_rgba(0,0,0,0.25)]">
@@ -249,9 +267,11 @@ export default function AuthSplitPanel(props) {
                 </form>
               ) : null}
 
-                  <div className="mt-4 text-center text-xs text-muted-foreground">
-                    <RecaptchaStatus />
-                  </div>
+              <div className="mt-4 text-center text-xs text-muted-foreground">
+                <RecaptchaStatus />
+              </div>
+
+              <div id="mbaara-recaptcha-container" className="mt-2 flex justify-center" />
 
               {children ? <div className="mt-4">{children}</div> : null}
 
