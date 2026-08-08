@@ -62,75 +62,30 @@ function getCsrfTokenFromCookie() {
  * This bypasses XHR CORS restrictions and relies on browser cookie handling.
  */
 export async function loginWithGoogleForm(idToken) {
-  return new Promise((resolve, reject) => {
-    const form = document.createElement("form");
-    form.method = "POST";
-    form.action = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/firebase/form`;
-    form.style.display = "none";
+  const url = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/firebase/form`;
+  const formData = new FormData();
+  formData.append("id_token", idToken);
 
-    const input = document.createElement("input");
-    input.type = "hidden";
-    input.name = "id_token";
-    input.value = idToken;
-    form.appendChild(input);
+  const csrfCookie = getCsrfTokenFromCookie();
+  if (csrfCookie) {
+    formData.append("_csrf_token", csrfCookie);
+  }
 
-    // Include CSRF token from cookie for form submission
-    const csrfCookie = getCsrfTokenFromCookie();
-    if (csrfCookie) {
-      const csrfInput = document.createElement("input");
-      csrfInput.type = "hidden";
-      csrfInput.name = "_csrf_token";
-      csrfInput.value = csrfCookie;
-      form.appendChild(csrfInput);
-    }
-
-    // On successful form submission, the backend sets Set-Cookie headers.
-    // We listen for the response and refresh auth state.
-    form.onsubmit = async (e) => {
-      e.preventDefault();
-      try {
-        const response = await fetch(form.action, {
-          method: form.method,
-          body: new FormData(form),
-          credentials: "include",
-          mode: "cors",
-        });
-
-        if (!response.ok) {
-          const errorData = await response.json().catch(() => ({}));
-          reject(
-            new Error(
-              errorData.detail || `Form auth failed with status ${response.status}`
-            )
-          );
-          return;
-        }
-
-        const data = await response.json();
-        notifyAuthChanged();
-        resolve(data?.user || null);
-      } catch (err) {
-        reject(err);
-      }
-    };
-
-    document.body.appendChild(form);
-    form.submit();
-    document.body.removeChild(form);
-
-    // Fallback: if form submission seems stuck, check after a reasonable timeout
-    setTimeout(() => {
-      try {
-        const user = getCurrentUser ? getCurrentUser() : null;
-        if (user) {
-          resolve(user);
-        }
-      } catch {
-        // User still not authenticated; reject after timeout
-        reject(new Error("Form-based auth timed out. Please try again."));
-      }
-    }, 3000);
+  const response = await fetch(url, {
+    method: "POST",
+    body: formData,
+    credentials: "include",
+    mode: "cors",
   });
+
+  if (!response.ok) {
+    const errorData = await response.json().catch(() => ({}));
+    throw new Error(errorData.detail || `Form auth failed with status ${response.status}`);
+  }
+
+  const data = await response.json();
+  notifyAuthChanged();
+  return data?.user || null;
 }
 
 export async function register(email, password, full_name) {
@@ -175,63 +130,28 @@ export async function logout() {
  * This bypasses XHR CORS restrictions.
  */
 export async function logoutWithForm() {
-  return new Promise((resolve, reject) => {
-    const form = document.createElement("form");
-    form.method = "POST";
-    form.action = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/logout/form`;
-    form.style.display = "none";
+  const url = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/logout/form`;
+  const formData = new FormData();
 
-    // Include CSRF token from cookie for form submission
-    const csrfCookie = getCsrfTokenFromCookie();
-    if (csrfCookie) {
-      const csrfInput = document.createElement("input");
-      csrfInput.type = "hidden";
-      csrfInput.name = "_csrf_token";
-      csrfInput.value = csrfCookie;
-      form.appendChild(csrfInput);
-    }
+  const csrfCookie = getCsrfTokenFromCookie();
+  if (csrfCookie) {
+    formData.append("_csrf_token", csrfCookie);
+  }
 
-    form.onsubmit = async (e) => {
-      e.preventDefault();
-      try {
-        const response = await fetch(form.action, {
-          method: form.method,
-          body: new FormData(form),
-          credentials: "include",
-          mode: "cors",
-        });
-
-        if (!response.ok) {
-          const errorData = await response.json().catch(() => ({}));
-          reject(
-            new Error(
-              errorData.detail || `Form logout failed with status ${response.status}`
-            )
-          );
-          return;
-        }
-
-        notifyAuthChanged();
-        resolve({"status": "ok"});
-      } catch (err) {
-        reject(err);
-      }
-    };
-
-    document.body.appendChild(form);
-    form.submit();
-    document.body.removeChild(form);
-
-    // Fallback timeout
-    setTimeout(() => {
-      try {
-        notifyAuthChanged();
-        resolve({"status": "ok"});
-      } catch (err) {
-        reject(new Error("Form-based logout timed out. Please try again."));
-      }
-    }, 2000);
+  const response = await fetch(url, {
+    method: "POST",
+    body: formData,
+    credentials: "include",
+    mode: "cors",
   });
+
+  if (!response.ok) {
+    const errorData = await response.json().catch(() => ({}));
+    throw new Error(errorData.detail || `Form logout failed with status ${response.status}`);
+  }
+
+  notifyAuthChanged();
+  return { status: "ok" };
 }
 
 export async function resetPasswordRequest(email) {
