@@ -151,15 +151,23 @@ export async function updateMe(payload) {
 export async function logout() {
   try {
     await request("POST", "/api/auth/logout");
+    notifyAuthChanged();
+    return;
   } catch (err) {
-    // If XHR fetch fails with "Failed to fetch", fallback to form-based logout
-    if (err?.message && err.message.includes("Failed to fetch")) {
+    const message = err?.message || "";
+    const status = err?.status;
+    if (message.includes("Failed to fetch")) {
       console.warn("XHR CORS failed for logout, attempting form-based logout fallback...");
-      return logoutWithForm();
+      await logoutWithForm();
+      return;
+    }
+    if (status === 403 || message.includes("CSRF token missing or invalid")) {
+      console.warn("Logout CSRF failed, retrying with form-based logout fallback...");
+      await logoutWithForm();
+      return;
     }
     throw err;
   }
-  notifyAuthChanged();
 }
 
 /**
