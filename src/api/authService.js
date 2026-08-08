@@ -47,6 +47,16 @@ export async function loginWithGoogle() {
 }
 
 /**
+ * Helper: extract CSRF token from browser cookies
+ */
+function getCsrfTokenFromCookie() {
+  const CSRF_COOKIE_NAME = "mbaara_csrf_token";
+  if (typeof document === "undefined") return null;
+  const match = document.cookie.match(new RegExp(`(?:^|; )${CSRF_COOKIE_NAME}=([^;]*)`));
+  return match ? decodeURIComponent(match[1]) : null;
+}
+
+/**
  * Form-based Firebase auth: submits a hidden form to /api/auth/firebase/form
  * with id_token as application/x-www-form-urlencoded data.
  * This bypasses XHR CORS restrictions and relies on browser cookie handling.
@@ -63,6 +73,16 @@ export async function loginWithGoogleForm(idToken) {
     input.name = "id_token";
     input.value = idToken;
     form.appendChild(input);
+
+    // Include CSRF token from cookie for form submission
+    const csrfCookie = getCsrfTokenFromCookie();
+    if (csrfCookie) {
+      const csrfInput = document.createElement("input");
+      csrfInput.type = "hidden";
+      csrfInput.name = "_csrf_token";
+      csrfInput.value = csrfCookie;
+      form.appendChild(csrfInput);
+    }
 
     // On successful form submission, the backend sets Set-Cookie headers.
     // We listen for the response and refresh auth state.
@@ -153,11 +173,22 @@ export async function logoutWithForm() {
     form.action = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/logout/form`;
     form.style.display = "none";
 
+    // Include CSRF token from cookie for form submission
+    const csrfCookie = getCsrfTokenFromCookie();
+    if (csrfCookie) {
+      const csrfInput = document.createElement("input");
+      csrfInput.type = "hidden";
+      csrfInput.name = "_csrf_token";
+      csrfInput.value = csrfCookie;
+      form.appendChild(csrfInput);
+    }
+
     form.onsubmit = async (e) => {
       e.preventDefault();
       try {
         const response = await fetch(form.action, {
           method: form.method,
+          body: new FormData(form),
           credentials: "include",
           mode: "cors",
         });

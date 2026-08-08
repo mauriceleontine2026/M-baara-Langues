@@ -662,7 +662,24 @@ async def csrf_protect(request, call_next):
         if cookie_token and not header_auth:
             csrf_cookie = request.cookies.get(security.CSRF_COOKIE_NAME)
             csrf_header = request.headers.get(security.CSRF_HEADER_NAME)
-            if not csrf_cookie or not csrf_header or not secrets.compare_digest(csrf_cookie, csrf_header):
+            csrf_form = None
+            
+            # For form submissions, also check for CSRF token in the request body
+            content_type = request.headers.get("content-type", "")
+            if "application/x-www-form-urlencoded" in content_type or "multipart/form-data" in content_type:
+                try:
+                    # Read the body for form-based CSRF token
+                    body = await request.body()
+                    if body:
+                        from urllib.parse import parse_qs
+                        parsed = parse_qs(body.decode())
+                        csrf_form = parsed.get("_csrf_token", [None])[0]
+                except Exception:
+                    pass
+            
+            # Validate CSRF token from header or form
+            csrf_provided = csrf_header or csrf_form
+            if not csrf_cookie or not csrf_provided or not secrets.compare_digest(csrf_cookie, csrf_provided):
                 return JSONResponse(status_code=403, content={"detail": "CSRF token missing or invalid"})
     return await call_next(request)
 
