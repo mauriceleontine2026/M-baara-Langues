@@ -659,7 +659,19 @@ async def csrf_protect(request, call_next):
     if request.method in {"POST", "PUT", "PATCH", "DELETE"}:
         cookie_token = request.cookies.get(security.ACCESS_TOKEN_COOKIE_NAME)
         header_auth = request.headers.get("authorization")
-        if cookie_token and not header_auth:
+        # Certain auth-related endpoints (login/register/firebase) should be
+        # allowed without CSRF even when an access cookie exists because they
+        # are used to establish or refresh authentication rather than perform
+        # actions in the context of an existing session.
+        exempt_paths = {
+            "/api/auth/login",
+            "/api/auth/login/form",
+            "/api/auth/register",
+            "/api/auth/register/form",
+            "/api/auth/firebase",
+            "/api/auth/firebase/form",
+        }
+        if cookie_token and not header_auth and request.url.path not in exempt_paths:
             csrf_cookie = request.cookies.get(security.CSRF_COOKIE_NAME)
             csrf_header = request.headers.get(security.CSRF_HEADER_NAME)
             csrf_form = None

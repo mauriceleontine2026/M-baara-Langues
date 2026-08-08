@@ -146,7 +146,55 @@ export async function loginWithGoogleForm(idToken) {
 
 export async function register(email, password, full_name) {
   const captchaToken = await getRecaptchaToken("register");
-  const data = await request("POST", "/api/auth/register", { email, password, full_name }, undefined, captchaToken);
+  try {
+    const data = await request("POST", "/api/auth/register", { email, password, full_name }, undefined, captchaToken);
+    notifyAuthChanged();
+    return data?.user || null;
+  } catch (err) {
+    const message = err?.message || "";
+    const status = err?.status;
+    // Retry with form-based fallback on network/CORS/CSRF failures
+    if (message.includes("Failed to fetch") || status === 0 || !status || message.includes("CSRF token")) {
+      console.warn("Register XHR failed, attempting form-based register fallback...");
+      return registerWithForm(email, password, full_name);
+    }
+    throw err;
+  }
+}
+
+/**
+ * Form-based registration fallback: submits form to `/api/auth/register/form`.
+ */
+export async function registerWithForm(email, password, full_name) {
+  const url = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/register/form`;
+  const formData = new FormData();
+  formData.append("email", email);
+  formData.append("password", password);
+  if (full_name) formData.append("full_name", full_name);
+
+  try {
+    const captcha = await getRecaptchaToken("register");
+    if (captcha) formData.append("captcha_token", captcha);
+  } catch (e) {}
+
+  try {
+    const csrfCookie = getCsrfTokenFromCookie();
+    if (csrfCookie) formData.append("_csrf_token", csrfCookie);
+  } catch (e) {}
+
+  const response = await fetch(url, {
+    method: "POST",
+    body: formData,
+    credentials: "include",
+    mode: "cors",
+  });
+
+  if (!response.ok) {
+    const err = await response.json().catch(() => ({}));
+    throw new Error(err.detail || `Form register failed with status ${response.status}`);
+  }
+
+  const data = await response.json();
   notifyAuthChanged();
   return data?.user || null;
 }

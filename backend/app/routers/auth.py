@@ -370,6 +370,48 @@ def register(request: Request, response: Response, payload: RegisterRequest, db:
     return {"access_token": token, "token_type": "bearer", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
 
 
+@router.post("/register/form", status_code=status.HTTP_201_CREATED)
+def register_form(
+    request: Request,
+    response: Response,
+    email: str = Form(...),
+    password: str = Form(...),
+    full_name: str | None = Form(None),
+    captcha_token: str | None = Form(None),
+    db: Session = Depends(get_db),
+):
+    """
+    Form-based registration endpoint for application/x-www-form-urlencoded.
+    Useful as a fallback when XHR/CORS fails.
+    """
+    _check_rate_limit(request)
+    normalized_email = _normalize_email(email)
+    existing = db.query(User).filter(User.email == normalized_email).first()
+    if existing:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email already registered")
+    if not _is_valid_email_address(normalized_email):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Adresse e-mail invalide.")
+
+    if RECAPTCHA_SECRET_KEY and (not captcha_token or not str(captcha_token).strip()):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Le test anti-bot est requis.")
+    verify_recaptcha_token(captcha_token, "register")
+
+    admin_email = is_admin_email(normalized_email)
+    user = User(
+        email=normalized_email,
+        hashed_password=security.get_password_hash(password),
+        full_name=full_name,
+        role="admin" if admin_email else "user",
+        email_verified=False,
+    )
+    db.add(user)
+    db.commit()
+    db.refresh(user)
+    token = security.create_access_token({"sub": str(user.id), "email": user.email})
+    security.set_auth_cookies(response, token)
+    return {"access_token": token, "token_type": "bearer", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
+
+
 @router.post("/login")
 def login(request: Request, response: Response, payload: LoginRequest, db: Session = Depends(get_db)):
     _check_rate_limit(request)
