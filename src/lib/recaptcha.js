@@ -1,4 +1,4 @@
-const DEFAULT_SITE_KEY = "6LcA63stAAAAANNkV6_e-XfPSk7QtB4K_3KOVmKl";
+const DEFAULT_SITE_KEY = "6LcF7XstAAAAAOx7NTJcemisdJkDwT7Dgr7O7M36";
 
 let _scriptLoading = null;
 
