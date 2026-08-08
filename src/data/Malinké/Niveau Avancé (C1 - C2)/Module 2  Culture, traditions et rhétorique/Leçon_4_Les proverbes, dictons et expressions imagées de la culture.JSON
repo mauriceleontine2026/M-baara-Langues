@@ -1,0 +1,73 @@
+{
+  "titre_cours": "Leçon 4 : Les proverbes, dictons et expressions imagées de la culture.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir du document fourni. Note importante : ce document est en réalité le « Petit Dictionnaire Français-Bambara et Bambara-Français » de Moussa Travélé (Librairie Paul Geuthner, Paris, début du XXe siècle), consacré au bambara — une langue mandingue très proche du malinké, à laquelle le dictionnaire lui-même fait plusieurs fois référence explicite sous l'abréviation 'M.' (mot malinké). En l'absence d'un dictionnaire malinké dédié, ce cours utilise fidèlement ce contenu bambara/malinké, sans y ajouter aucune information extérieure. Ce dictionnaire est une liste alphabétique de mots (deux sens) et ne contient ni phrases dialoguées ni tableaux de conjugaison ; les leçons ci-dessous s'appuient donc sur le vocabulaire isolé qu'il fournit, complété quand cela existe par les 'Observations préliminaires' sur la prononciation. Ce dictionnaire, contrairement à d'autres sources utilisées dans ce projet, ne contient aucun proverbe complet ni exemple imagé développé ; il fournit seulement le mot désignant le proverbe lui-même. Cette leçon présente honnêtement cette limite plutôt que d'inventer des proverbes absents du texte.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le mot du proverbe",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "N'talé : le proverbe",
+          "contenu_detaille": "Le dictionnaire donne 'N'talé' pour 'proverbe', dans les deux directions (français-bambara et bambara-français). Il donne aussi, à part, 'N'talé' (avec un sens différent selon l'accent tonique, comme signalé dans les observations préliminaires) pour 'araignée' dans la section bambara-français — un exemple qui illustre bien l'importance des tons évoquée en Leçon 3, puisque deux mots à l'orthographe proche peuvent avoir des sens très différents.",
+          "vocabulaire_cles": [
+            {
+              "terme": "N'talé",
+              "traduction_ou_definition": "proverbe"
+            },
+            {
+              "terme": "Sagesse",
+              "traduction_ou_definition": "Mâ-gnoumagna"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "N'talé.",
+              "traduction": "Proverbe."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'proverbe' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "N'talé",
+                "Foli",
+                "Ladjili",
+                "Togo"
+              ],
+              "reponse_correcte": "N'talé"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "La sagesse",
+          "contenu_detaille": "Le dictionnaire donne 'Mâ-gnoumagna' pour 'sagesse'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Mâ-gnoumagna",
+              "traduction_ou_definition": "sagesse"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Mâ-gnoumagna.",
+              "traduction": "Sagesse."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Sagesse' se dit en bambara/malinké : Mâ-_____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "gnoumagna"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté, avec toute la transparence requise, les seules ressources du dictionnaire concernant les proverbes : le mot 'N'talé' (proverbe) et 'Mâ-gnoumagna' (sagesse), sans proverbe complet, ce document n'en fournissant aucun."
+}

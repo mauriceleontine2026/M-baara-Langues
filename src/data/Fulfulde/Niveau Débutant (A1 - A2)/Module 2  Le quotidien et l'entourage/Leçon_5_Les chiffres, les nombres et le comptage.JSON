@@ -1,0 +1,91 @@
+{
+  "titre_cours": "Leçon 5 : Les chiffres, les nombres et le comptage.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire fulfulde-français-anglais moderne (même format SIL que les dictionnaires dioula et mooré déjà utilisés dans ce projet), documentant le fulfulde du Burkina Faso (langue peule), complété par une recherche web. Cette langue appartient au même continuum que le pulaar du Fouta Djallon (Guinée) déjà étudié dans un autre cours de ce projet ([[pulaar-language-course]]) ; plusieurs mots se recoupent presque exactement d'un pays à l'autre (nyaamo=droite, nano=gauche, ɗiɗi=deux...), tandis que d'autres diffèrent, reflet naturel de la variation dialectale du fulfulde à travers l'Afrique de l'Ouest. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Compter en fulfulde",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les nombres de base",
+          "contenu_detaille": "Le dictionnaire donne 'go'o' pour « un » (aussi : premier), 'ɗiɗi' pour « deux » (avec l'exemple 'daage ɗiɗi', deux calebasses), et 'jeetati' pour « huit ». Il montre que les dizaines se construisent avec 'capanɗe' (dix, multiplié) : 'capanɗe tati' (trente, litt. dix fois trois) et 'capanɗe-jeegom' (soixante, litt. dix fois six, où 'jeegom' = six).",
+          "vocabulaire_cles": [
+            {
+              "terme": "go'o",
+              "traduction_ou_definition": "un (aussi : premier)"
+            },
+            {
+              "terme": "ɗiɗi",
+              "traduction_ou_definition": "deux"
+            },
+            {
+              "terme": "jeetati",
+              "traduction_ou_definition": "huit"
+            },
+            {
+              "terme": "capanɗe",
+              "traduction_ou_definition": "dix (base de construction des dizaines)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "daage ɗiɗi.",
+              "traduction": "Deux calebasses."
+            },
+            {
+              "phrase": "capanɗe tati.",
+              "traduction": "Trente (litt. dix fois trois)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'deux' en fulfulde d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "ɗiɗi",
+                "go'o",
+                "jeetati",
+                "sappo"
+              ],
+              "reponse_correcte": "ɗiɗi"
+            },
+            {
+              "question": "'Trente' se dit en fulfulde, litt. dix fois trois : capanɗe _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "tati"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Dix et les grands nombres",
+          "contenu_detaille": "Le dictionnaire donne 'sappo' pour « dix », avec l'exemple authentique 'Mi yeeyteke kulle sappo, adadu buuɗi majji wo ujunaaje capanɗe tati' (J'ai marchandé le prix de 10 animaux, leur coût est de 150 000 F CFA), qui illustre aussi le vocabulaire monétaire ('buuɗi', argent).",
+          "vocabulaire_cles": [
+            {
+              "terme": "sappo",
+              "traduction_ou_definition": "dix"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Mi yeeyteke kulle sappo, adadu buuɗi majji wo ujunaaje capanɗe tati.",
+              "traduction": "J'ai marchandé le prix de 10 animaux, leur coût est de 150 000 F CFA."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Dix' se dit en fulfulde : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "sappo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les nombres de base du fulfulde (go'o, ɗiɗi, jeetati, sappo) et la construction des dizaines avec 'capanɗe', issus du dictionnaire, avec un exemple authentique de transaction commerciale."
+}

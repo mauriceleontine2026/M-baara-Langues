@@ -1,0 +1,69 @@
+{
+  "titre_cours": "Leçon 3 : Les connecteurs logiques pour structurer un discours élaboré.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire mooré-français-anglais moderne (généré par SIL, même format que le dictionnaire dioula déjà utilisé dans ce projet), documentant le mooré, langue des Mossi et langue la plus parlée du Burkina Faso, complété par une recherche web (vocabulaire thématique de Targumi, ressources culturelles mossi). Les deux sources se recoupent largement (piiga=dix, tãabo=trois, naase=quatre, ligdi=argent, koom/Ko=eau, barka/Bark=merci confirmés indépendamment par les deux), ce qui renforce la fiabilité du vocabulaire présenté ici ; quelques variantes dialectales mineures entre les deux sources sont signalées. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les connecteurs du mooré",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "bi : ou",
+          "contenu_detaille": "Le dictionnaire donne 'bi' pour « ou, ou bien », avec l'exemple 'A wata beoogo bi ra-yɩta' (Il vient demain ou après-demain).",
+          "vocabulaire_cles": [
+            {
+              "terme": "bi",
+              "traduction_ou_definition": "ou, ou bien"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "A wata beoogo bi ra-yɩta.",
+              "traduction": "Il vient demain ou après-demain."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'ou' en mooré d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "bi",
+                "sã n",
+                "tɩ",
+                "la"
+              ],
+              "reponse_correcte": "bi"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "tɩ : que, pour que",
+          "contenu_detaille": "Le dictionnaire montre 'tɩ' comme conjonction de subordination très fréquente, introduisant à la fois une complétive et un but, comme dans 'Ra sak tɩ bendr wẽ a bal...' (N'accepte pas qu'un tam-tam joue n'importe comment...) et 'bɩ f wa ka' (il faut que tu viennes ici).",
+          "vocabulaire_cles": [
+            {
+              "terme": "tɩ",
+              "traduction_ou_definition": "que, pour que (subordination)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ra sak tɩ bendr wẽ a bal.",
+              "traduction": "N'accepte pas qu'un tam-tam joue n'importe comment."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "La conjonction de subordination très fréquente qui introduit « que » ou « pour que » est : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "tɩ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les connecteurs logiques du mooré pour la coordination (bi, ou) et la subordination (tɩ, que/pour que), tous deux illustrés par des exemples authentiques du dictionnaire."
+}

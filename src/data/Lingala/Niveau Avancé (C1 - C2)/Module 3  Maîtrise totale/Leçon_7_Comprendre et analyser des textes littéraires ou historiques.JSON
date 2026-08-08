@@ -1,0 +1,111 @@
+{
+  "titre_cours": "Leçon 7 : Comprendre et analyser des textes littéraires ou historiques.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir de la fiche « LE LINGALA » d'Alain Kihm (CNRS – Université Paris-Cité), publiée dans le cadre du projet Langues et Grammaires du Monde dans l'Espace Francophone (LGMEF, référence HAL-04102394, 2024). Cette leçon reprend intégralement la section « Présentation générale » de la fiche, un texte historique et sociolinguistique dense sur les origines du lingala.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "L'histoire du lingala",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Une langue née d'un contact colonial",
+          "contenu_detaille": "La fiche explique que le lingala tire son origine du bobangi, langue bantoue parlée le long de la partie occidentale du fleuve Congo. En 1881-1882, des militaires européens, à la tête de troupes recrutées dans toute l'Afrique, installèrent un poste sur ce territoire, embryon de la future colonie appartenant au roi des Belges Léopold II. Leur apprentissage imparfait du bobangi donna naissance à un pidgin appelé « bangala », du nom d'une population locale, qui se répandit et se complexifia au rythme de l'expansion coloniale.",
+          "vocabulaire_cles": [
+            {
+              "terme": "bobangi",
+              "traduction_ou_definition": "langue bantoue d'origine, parlée le long du fleuve Congo"
+            },
+            {
+              "terme": "bangala",
+              "traduction_ou_definition": "pidgin né de l'apprentissage imparfait du bobangi par les troupes coloniales, ancêtre du lingala"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(fait historique rapporté par la fiche)",
+              "traduction": "Le lingala tire son origine d'une variété simplifiée du bobangi, à travers le pidgin colonial appelé bangala."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "De quelle langue le lingala tire-t-il son origine, d'après la fiche ?",
+              "type": "QCM",
+              "options": [
+                "Le bobangi, langue bantoue du fleuve Congo",
+                "Le français colonial",
+                "L'arabe swahili",
+                "Le kikongo"
+              ],
+              "reponse_correcte": "Le bobangi, langue bantoue du fleuve Congo"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "De 'bangala' à 'lingala' : la normalisation missionnaire",
+          "contenu_detaille": "Comme vu en Leçon 6 du niveau avancé, la fiche rapporte qu'en 1901, des missionnaires scheutistes entreprirent de normaliser cette langue, rebaptisée « lingala », en la dotant d'une orthographe et d'une traduction de la Bible. Leurs efforts n'eurent cependant que peu de succès en dehors d'une région limitée : ailleurs, notamment à Kinshasa, le lingala continua d'évoluer librement au gré de ses locuteurs — c'est précisément cette variété de Kinshasa que décrit la fiche.",
+          "vocabulaire_cles": [
+            {
+              "terme": "lingala (nom)",
+              "traduction_ou_definition": "nouveau nom donné au bangala par les missionnaires scheutistes en 1901"
+            },
+            {
+              "terme": "variété de Kinshasa",
+              "traduction_ou_definition": "variété décrite par la fiche, issue de l'évolution libre du lingala hors du cadre missionnaire"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(fait historique rapporté par la fiche)",
+              "traduction": "La variété de lingala décrite dans cette fiche est celle de Kinshasa, issue d'une évolution libre hors du cadre missionnaire."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "La variété de lingala décrite par la fiche est celle de la ville de : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Kinshasa"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Le lingala aujourd'hui : statut et diffusion",
+          "contenu_detaille": "La fiche précise que le lingala compte aujourd'hui environ 20 millions de locuteurs primaires (L1) et 20 à 25 millions de locuteurs secondaires (L2), qu'il est parlé en République Démocratique du Congo (où il a le statut de langue nationale, notamment à Kinshasa), en République du Congo (Brazzaville) et au nord de l'Angola. Bien que peu écrit, il est très présent dans les médias et bénéficie du succès continental et planétaire de la musique dite « zaïroise », dont il constitue le support vocal exclusif.",
+          "vocabulaire_cles": [
+            {
+              "terme": "20 millions L1, 20-25 millions L2",
+              "traduction_ou_definition": "nombre de locuteurs primaires et secondaires du lingala selon la fiche"
+            },
+            {
+              "terme": "RDC, République du Congo, nord de l'Angola",
+              "traduction_ou_definition": "zone de diffusion du lingala"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(données sociolinguistiques rapportées par la fiche)",
+              "traduction": "Le lingala compte environ 20 millions de locuteurs primaires et 20 à 25 millions de locuteurs secondaires."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Dans quels pays le lingala est-il parlé, d'après la fiche ?",
+              "type": "QCM",
+              "options": [
+                "RDC, République du Congo et nord de l'Angola",
+                "Uniquement en RDC",
+                "RDC et Cameroun",
+                "Sénégal et Guinée"
+              ],
+              "reponse_correcte": "RDC, République du Congo et nord de l'Angola"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté l'histoire du lingala telle que la rapporte la fiche d'Alain Kihm : ses origines dans le bobangi et le pidgin colonial bangala, sa normalisation missionnaire en 1901, et sa diffusion actuelle en RDC, au Congo-Brazzaville et en Angola."
+}

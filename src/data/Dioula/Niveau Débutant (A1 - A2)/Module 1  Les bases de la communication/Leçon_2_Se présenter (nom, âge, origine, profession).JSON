@@ -1,0 +1,89 @@
+{
+  "titre_cours": "Leçon 2 : Se présenter (nom, âge, origine, profession).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir du « Dictionnaire Dioula-Français-Anglais-Allemand » (28/12/2020), documentant le dioula/jula de Bobo-Dioulasso, Burkina Faso. MISE À JOUR : cette leçon a été enrichie par une recherche web complémentaire (notamment le vocabulaire thématique de Targumi et un lexique de dioula de Côte d'Ivoire), qui recoupe et étend le dictionnaire d'origine. Plusieurs mots web (kelen, fila, saba, bi, tan, tɔgɔ, etc.) confirment exactement les mots déjà attestés dans le dictionnaire académique, ce qui renforce la fiabilité des formes nouvelles ajoutées ici.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Se présenter",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Dire son nom",
+          "contenu_detaille": "Le dictionnaire donne 'tɔgɔ' pour « nom, prénom », avec la question 'I tɔgɔ di?' (Comment t'appelles-tu ?). Une recherche complémentaire, citant un dialogue authentique, confirme cette construction : 'a tògò ko Lamussa' (il s'appelle Lamoussa), 'ni tògò ko Karim' (celui-ci s'appelle Karim) — montrant que 'tɔgɔ ko...' est la formule standard pour donner un nom.",
+          "vocabulaire_cles": [
+            {
+              "terme": "tɔgɔ / tògò",
+              "traduction_ou_definition": "nom, prénom"
+            },
+            {
+              "terme": "tɔgɔ ko...",
+              "traduction_ou_definition": "s'appelle... (formule pour donner un nom)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "I tɔgɔ di?",
+              "traduction": "Comment t'appelles-tu ?"
+            },
+            {
+              "phrase": "A tɔgɔ ko Lamussa.",
+              "traduction": "Il s'appelle Lamoussa. (exemple d'un dialogue authentique)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment demande-t-on le nom de quelqu'un en dioula ?",
+              "type": "QCM",
+              "options": [
+                "I tɔgɔ di?",
+                "Kɛnɛ wa?",
+                "I ni sɔgɔma?",
+                "Barika di?"
+              ],
+              "reponse_correcte": "I tɔgɔ di?"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le travail, la ville et la famille",
+          "contenu_detaille": "Le dictionnaire donne 'baara' pour « travail, métier » et 'dugu' pour « ville, pays ». Une recherche complémentaire ajoute un dialogue de présentation familiale authentique : 'Demisénw bi a fé wa?' (Vous avez des enfants ?), 'Demissénw fila' (nous en avons deux), où 'demisɛn/denmisɛn' désigne l'enfant.",
+          "vocabulaire_cles": [
+            {
+              "terme": "baara",
+              "traduction_ou_definition": "travail, métier"
+            },
+            {
+              "terme": "dugu",
+              "traduction_ou_definition": "ville, pays"
+            },
+            {
+              "terme": "demisɛn / denmisɛn",
+              "traduction_ou_definition": "enfant"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "I ka baara ye mun ye?",
+              "traduction": "Quel est ton métier ?"
+            },
+            {
+              "phrase": "Demisénw bi a fé wa?",
+              "traduction": "Vous avez des enfants ? (exemple d'un dialogue authentique)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Enfant' se dit en dioula (variante) : demi_____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "sɛn"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les formules pour dire son nom (I tɔgɔ di?, tɔgɔ ko...), son métier (baara) et parler de sa famille (demisɛn, enfant), en combinant le dictionnaire académique et un dialogue authentique trouvé lors d'une recherche web complémentaire."
+}

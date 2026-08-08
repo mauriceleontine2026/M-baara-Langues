@@ -1,5 +1,37 @@
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
+import { getRecaptchaSiteKey, loadRecaptcha } from "@/lib/recaptcha";
 import { ArrowRight, Chrome, Lock, Mail, Sparkles, UserRound } from "lucide-react";
+
+function RecaptchaStatus() {
+  const [status, setStatus] = useState("loading");
+
+  useEffect(() => {
+    let mounted = true;
+    const siteKey = getRecaptchaSiteKey();
+    if (!siteKey) {
+      if (mounted) setStatus("missing");
+      return;
+    }
+    loadRecaptcha(siteKey)
+      .then(() => {
+        if (!mounted) return;
+        const ready = !!(window.grecaptcha && (window.grecaptcha.enterprise || window.grecaptcha.render));
+        setStatus(ready ? "ready" : "failed");
+      })
+      .catch(() => {
+        if (!mounted) return;
+        setStatus("failed");
+      });
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
+  if (status === "loading") return <span>Chargement reCAPTCHA…</span>;
+  if (status === "ready") return <span className="inline-flex items-center gap-2"><span className="h-2 w-2 rounded-full bg-emerald-500" />reCAPTCHA actif</span>;
+  if (status === "missing") return <span>Clé reCAPTCHA manquante</span>;
+  return <span>reCAPTCHA indisponible — rechargez la page</span>;
+}
 
 /**
  * @param {{
@@ -152,10 +184,13 @@ export default function AuthSplitPanel(props) {
                       <input
                         type="email"
                         value={form.email}
-                        onChange={(event) => setForm((current) => ({ ...current, email: event.target.value }))}
+                        onChange={(event) => setForm((current) => ({ ...current, email: event.target.value.trimStart() }))}
                         placeholder="votre@email.com"
                         className="w-full border-none bg-transparent text-sm text-foreground outline-none"
+                        autoComplete="email"
+                        inputMode="email"
                         required
+                        spellCheck={false}
                       />
                     </div>
                   </label>
@@ -170,7 +205,9 @@ export default function AuthSplitPanel(props) {
                         onChange={(event) => setForm((current) => ({ ...current, password: event.target.value }))}
                         placeholder="••••••••"
                         className="w-full border-none bg-transparent text-sm text-foreground outline-none"
+                        autoComplete={isSignUp ? "new-password" : "current-password"}
                         required
+                        minLength={12}
                       />
                       <button
                         type="button"
@@ -201,7 +238,7 @@ export default function AuthSplitPanel(props) {
 
                   {error ? <p className="text-sm text-destructive">{error}</p> : null}
 
-                  <button
+                      <button
                     type="submit"
                     disabled={loading}
                     className="flex w-full items-center justify-center gap-2 rounded-2xl bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground transition-all duration-300 hover:-translate-y-0.5 hover:opacity-95 disabled:opacity-70"
@@ -211,6 +248,10 @@ export default function AuthSplitPanel(props) {
                   </button>
                 </form>
               ) : null}
+
+                  <div className="mt-4 text-center text-xs text-muted-foreground">
+                    <RecaptchaStatus />
+                  </div>
 
               {children ? <div className="mt-4">{children}</div> : null}
 

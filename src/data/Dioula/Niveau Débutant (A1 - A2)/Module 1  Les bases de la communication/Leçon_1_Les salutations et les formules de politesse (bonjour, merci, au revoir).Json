@@ -1,0 +1,145 @@
+{
+  "titre_cours": "Leçon 1 : Les salutations et les formules de politesse (bonjour, merci, au revoir).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir du « Dictionnaire Dioula-Français-Anglais-Allemand » (28/12/2020), documentant le dioula/jula de Bobo-Dioulasso, Burkina Faso. MISE À JOUR : cette leçon a été enrichie par une recherche web complémentaire (notamment le vocabulaire thématique de Targumi et un lexique de dioula de Côte d'Ivoire), qui recoupe et étend le dictionnaire d'origine. Plusieurs mots web (kelen, fila, saba, bi, tan, tɔgɔ, etc.) confirment exactement les mots déjà attestés dans le dictionnaire académique, ce qui renforce la fiabilité des formes nouvelles ajoutées ici.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Saluer en dioula",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Bonjour selon le moment de la journée",
+          "contenu_detaille": "Le dictionnaire donne 'i ni sɔgɔma' pour « bonjour » (le matin) et 'i ni suu' pour « bonsoir ». Une recherche complémentaire confirme et complète cette série : 'i ni tile' (bonjour, milieu de journée) et 'i ni wula' (bonsoir, variante). Au pluriel/forme polie, on dit 'aw ni ce' (bonjour) plutôt que 'i ni ce'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "i ni sɔgɔma",
+              "traduction_ou_definition": "bonjour (matin)"
+            },
+            {
+              "terme": "i ni tile",
+              "traduction_ou_definition": "bonjour (milieu de journée)"
+            },
+            {
+              "terme": "i ni suu / i ni wula",
+              "traduction_ou_definition": "bonsoir"
+            },
+            {
+              "terme": "aw ni ce",
+              "traduction_ou_definition": "bonjour (pluriel/poli)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "i ni sɔgɔma.",
+              "traduction": "Bonjour (matin)."
+            },
+            {
+              "phrase": "i ni tile.",
+              "traduction": "Bonjour (milieu de journée)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'bonjour' en milieu de journée en dioula, d'après cette source ?",
+              "type": "QCM",
+              "options": [
+                "i ni tile",
+                "i ni sɔgɔma",
+                "i ni suu",
+                "aw ni ce"
+              ],
+              "reponse_correcte": "i ni tile"
+            },
+            {
+              "question": "Au pluriel ou pour être poli, on dit : _____ ni ce (bonjour).",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "aw"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Merci et au revoir",
+          "contenu_detaille": "Le dictionnaire donne 'i ni ce' pour « merci » (au singulier) et 'barika' (emprunt arabe). Une recherche complémentaire confirme 'barika' sous la forme 'Abaraka', et donne 'Aní kɛnɛ' pour « au revoir », ainsi que 'Ntɛ' pour « pas de problème, rien » (réponse à un remerciement ou une excuse).",
+          "vocabulaire_cles": [
+            {
+              "terme": "i ni ce",
+              "traduction_ou_definition": "merci (singulier)"
+            },
+            {
+              "terme": "barika / Abaraka",
+              "traduction_ou_definition": "merci (emprunt arabe)"
+            },
+            {
+              "terme": "Aní kɛnɛ",
+              "traduction_ou_definition": "au revoir"
+            },
+            {
+              "terme": "Ntɛ",
+              "traduction_ou_definition": "pas de problème, rien"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Aní kɛnɛ.",
+              "traduction": "Au revoir."
+            },
+            {
+              "phrase": "Ntɛ.",
+              "traduction": "Pas de problème, rien."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'au revoir' en dioula, d'après une recherche complémentaire ?",
+              "type": "QCM",
+              "options": [
+                "Aní kɛnɛ",
+                "i ni ce",
+                "barika",
+                "Ntɛ"
+              ],
+              "reponse_correcte": "Aní kɛnɛ"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Demander si tout va bien",
+          "contenu_detaille": "Une recherche complémentaire donne 'Kɛnɛ wa?' pour « Tu vas bien ? », et 'Aw ni baara' pour « bon courage » (au travail), une formule d'encouragement fréquente dans la vie quotidienne dioula.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Kɛnɛ wa ?",
+              "traduction_ou_definition": "Tu vas bien ?"
+            },
+            {
+              "terme": "Aw ni baara",
+              "traduction_ou_definition": "bon courage (au travail)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Kɛnɛ wa?",
+              "traduction": "Tu vas bien ?"
+            },
+            {
+              "phrase": "Aw ni baara.",
+              "traduction": "Bon courage."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Tu vas bien ?' se dit en dioula : Kɛnɛ _____ ?",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "wa"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les formules de salutation selon le moment de la journée, le remerciement, l'au revoir (Aní kɛnɛ) et la formule de bon courage (Aw ni baara), en combinant le dictionnaire académique et une recherche web complémentaire qui confirme et enrichit ces formes."
+}

@@ -1,0 +1,127 @@
+{
+  "titre_cours": "Leçon 5 : Les chiffres, les nombres et le comptage.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Dioula-Français-Anglais-Allemand » (dernière mise à jour du 28/12/2020), un dictionnaire moderne et très complet (plus de 1200 pages) documentant le dioula (jula) parlé autour de Bobo-Dioulasso, Burkina Faso — une langue mandingue très proche du malinké et du bambara déjà utilisés dans ce projet. Ce dictionnaire est exceptionnellement riche : chaque entrée est classée par catégorie sémantique (Kinship, colour, Food, Mathematics, etc.), donnée avec tons, traduction quadrilingue et souvent un exemple de phrase authentique. Cette leçon reprend les numéraux, classés sous la catégorie « Mathematics » du dictionnaire.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Compter en dioula",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les nombres de 1 à 10",
+          "contenu_detaille": "Le dictionnaire donne : 1 kelen, 2 fila, 3 saba, 4 naani, 5 duuru, 6 wɔɔrɔ, 7 wolonfila (illustré par l'exemple 'Tile wolonfila bi lɔgɔkun kɔnɔ', il y a sept jours dans la semaine), 8 seegi, 9 kɔnɔntɔn, 10 tan.",
+          "vocabulaire_cles": [
+            {
+              "terme": "kelen",
+              "traduction_ou_definition": "1"
+            },
+            {
+              "terme": "fila",
+              "traduction_ou_definition": "2"
+            },
+            {
+              "terme": "saba",
+              "traduction_ou_definition": "3"
+            },
+            {
+              "terme": "naani",
+              "traduction_ou_definition": "4"
+            },
+            {
+              "terme": "duuru",
+              "traduction_ou_definition": "5"
+            },
+            {
+              "terme": "wɔɔrɔ",
+              "traduction_ou_definition": "6"
+            },
+            {
+              "terme": "wolonfila",
+              "traduction_ou_definition": "7"
+            },
+            {
+              "terme": "seegi",
+              "traduction_ou_definition": "8"
+            },
+            {
+              "terme": "kɔnɔntɔn",
+              "traduction_ou_definition": "9"
+            },
+            {
+              "terme": "tan",
+              "traduction_ou_definition": "10"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Tile wolonfila bi lɔgɔkun kɔnɔ.",
+              "traduction": "Il y a sept jours dans la semaine."
+            },
+            {
+              "phrase": "tan.",
+              "traduction": "Dix."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on '7' en dioula d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "wolonfila",
+                "seegi",
+                "kɔnɔntɔn",
+                "wɔɔrɔ"
+              ],
+              "reponse_correcte": "wolonfila"
+            },
+            {
+              "question": "'Dix' se dit en dioula : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "tan"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Onze à dix-neuf, et les dizaines",
+          "contenu_detaille": "Le dictionnaire montre que les nombres 11 à 19 se forment avec 'tan ni' (dix et) suivi de l'unité : 'tan ni kelen' (onze), 'tan ni saba' (treize), 'tan ni wɔɔrɔ' (seize), 'tan ni wolonwula' (dix-sept). Les dizaines se forment avec le préfixe 'bi-' : 'bisaba' (trente), 'binaani' (quarante), 'biduuru' (cinquante), 'biwɔɔrɔ' (soixante), 'biwolonfila/biwolonwula' (soixante-dix), 'biseegi' (quatre-vingts), 'bikɔnɔntɔn' (quatre-vingt-dix).",
+          "vocabulaire_cles": [
+            {
+              "terme": "tan ni + unité",
+              "traduction_ou_definition": "onze à dix-neuf (ex. tan ni kelen, onze)"
+            },
+            {
+              "terme": "bi- + unité",
+              "traduction_ou_definition": "dizaines (ex. bisaba, trente)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "tan ni kelen.",
+              "traduction": "Onze."
+            },
+            {
+              "phrase": "bisaba.",
+              "traduction": "Trente."
+            },
+            {
+              "phrase": "biseegi.",
+              "traduction": "Quatre-vingts."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Onze' se dit en dioula : tan ni _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "kelen"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les nombres de 1 à 10 (kelen à tan), la formation de 11 à 19 (tan ni + unité) et les dizaines (bi- + unité), issus du dictionnaire dioula."
+}

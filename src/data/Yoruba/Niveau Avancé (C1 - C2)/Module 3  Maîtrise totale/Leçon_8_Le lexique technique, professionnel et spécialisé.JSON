@@ -1,0 +1,73 @@
+{
+  "titre_cours": "Leçon 8 : Le lexique technique, professionnel et spécialisé.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Targumi, DiscoverYoruba, Africa.uga.edu, Ling-App, Lingalot, Nigerian Finder, Wikipédia, et articles universitaires sur la grammaire et les proverbes yoruba), le yoruba étant une langue majeure parlée par plus de 45 millions de personnes au Nigeria, au Bénin et au Togo, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le lexique religieux traditionnel",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "L'Odù Ifá : un vaste corpus religieux",
+          "contenu_detaille": "La religion traditionnelle yoruba, l'Ifá, repose sur un corpus immense appelé 'Odù Ifá' : 256 chapitres ('Odù') totalisant environ 204 800 versets, mêlant proverbes allégoriques ('Òwe'), vers poétiques ('Ẹsẹ̀') et récits ('Àlọ́'/'Pàtàkì'). Ce corpus, transmis oralement depuis des siècles, constitue l'écriture religieuse centrale de la religion traditionnelle Iṣẹṣe et un vocabulaire technique religieux spécialisé considérable.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Odù Ifá",
+              "traduction_ou_definition": "corpus religieux traditionnel yoruba (256 chapitres, ~204 800 versets)"
+            },
+            {
+              "terme": "Ẹsẹ̀",
+              "traduction_ou_definition": "vers poétique (dans l'Odù Ifá)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque technique)",
+              "traduction": "L'Odù Ifá compte 256 chapitres et environ 204 800 versets, transmis oralement."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Combien de chapitres (Odù) compte le corpus religieux Odù Ifá ?",
+              "type": "QCM",
+              "options": [
+                "256",
+                "10",
+                "1000",
+                "50"
+              ],
+              "reponse_correcte": "256"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le babalawo : spécialiste de la divination",
+          "contenu_detaille": "Le vocabulaire technique religieux yoruba inclut des titres spécialisés comme 'babalawo' (litt. père du mystère), le prêtre-devin spécialiste de l'interprétation de l'Odù Ifá, dont le rôle exige des années d'apprentissage de ce vaste corpus religieux et poétique.",
+          "vocabulaire_cles": [
+            {
+              "terme": "babalawo",
+              "traduction_ou_definition": "prêtre-devin, spécialiste de l'interprétation de l'Odù Ifá (litt. père du mystère)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "babalawo.",
+              "traduction": "Prêtre-devin spécialiste de l'Ifá."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le prêtre-devin spécialiste de l'interprétation de l'Odù Ifá se nomme : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "babalawo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le lexique technique religieux traditionnel yoruba (Odù Ifá, babalawo), issu de recherches web sur la religion Ifá."
+}

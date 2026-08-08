@@ -1,0 +1,115 @@
+{
+  "titre_cours": "Leçon 6 : Les jours de la semaine, les mois et dire l'heure.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire mooré-français-anglais moderne (généré par SIL, même format que le dictionnaire dioula déjà utilisé dans ce projet), documentant le mooré, langue des Mossi et langue la plus parlée du Burkina Faso, complété par une recherche web (vocabulaire thématique de Targumi, ressources culturelles mossi). Les deux sources se recoupent largement (piiga=dix, tãabo=trois, naase=quatre, ligdi=argent, koom/Ko=eau, barka/Bark=merci confirmés indépendamment par les deux), ce qui renforce la fiabilité du vocabulaire présenté ici ; quelques variantes dialectales mineures entre les deux sources sont signalées. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le temps qui passe",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les jours de la semaine",
+          "contenu_detaille": "Le dictionnaire donne les sept jours, la plupart empruntés à l'arabe : lundi 'tẽne', mardi 'talaato', mercredi 'arba', jeudi 'alkamisa' (ou 'lamusa'), vendredi 'arzũma', samedi 'sibri', dimanche 'hato' (ou 'rimaasa').",
+          "vocabulaire_cles": [
+            {
+              "terme": "tẽne",
+              "traduction_ou_definition": "lundi"
+            },
+            {
+              "terme": "talaato",
+              "traduction_ou_definition": "mardi"
+            },
+            {
+              "terme": "arba",
+              "traduction_ou_definition": "mercredi"
+            },
+            {
+              "terme": "alkamisa / lamusa",
+              "traduction_ou_definition": "jeudi"
+            },
+            {
+              "terme": "arzũma",
+              "traduction_ou_definition": "vendredi"
+            },
+            {
+              "terme": "sibri",
+              "traduction_ou_definition": "samedi"
+            },
+            {
+              "terme": "hato / rimaasa",
+              "traduction_ou_definition": "dimanche"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "tẽne.",
+              "traduction": "Lundi."
+            },
+            {
+              "phrase": "arzũma.",
+              "traduction": "Vendredi."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'vendredi' en mooré d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "arzũma",
+                "talaato",
+                "sibri",
+                "hato"
+              ],
+              "reponse_correcte": "arzũma"
+            },
+            {
+              "question": "'Mercredi' se dit en mooré : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "arba"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Aujourd'hui, hier, demain",
+          "contenu_detaille": "Le dictionnaire donne 'beoogo' pour « demain » (aussi : matin, avenir), avec l'exemple 'Kuil beoogo' (Pars demain). Une recherche complémentaire ajoute 'Kɩɩnga' (aujourd'hui) et 'Zabre' (hier) — ce dernier étant un proche parent formel de 'zaabre' (soir/bonsoir) déjà vu en Leçon 1, une ressemblance qui invite à la prudence sur l'orthographe exacte.",
+          "vocabulaire_cles": [
+            {
+              "terme": "beoogo",
+              "traduction_ou_definition": "demain (aussi : matin, avenir)"
+            },
+            {
+              "terme": "Kɩɩnga",
+              "traduction_ou_definition": "aujourd'hui"
+            },
+            {
+              "terme": "Zabre",
+              "traduction_ou_definition": "hier"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Kuil beoogo.",
+              "traduction": "Pars demain."
+            },
+            {
+              "phrase": "Kɩɩnga.",
+              "traduction": "Aujourd'hui."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Aujourd'hui' se dit en mooré, d'après une recherche complémentaire : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Kɩɩnga"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les sept jours de la semaine (tẽne à hato) et les repères aujourd'hui/hier/demain, en combinant le dictionnaire académique et une recherche web complémentaire."
+}

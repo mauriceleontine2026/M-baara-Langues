@@ -1,0 +1,77 @@
+{
+  "titre_cours": "Leçon 1 : Parler de sa maison, de son logement et de sa ville.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire fulfulde-français-anglais moderne (même format SIL que les dictionnaires dioula et mooré déjà utilisés dans ce projet), documentant le fulfulde du Burkina Faso (langue peule), complété par une recherche web. Cette langue appartient au même continuum que le pulaar du Fouta Djallon (Guinée) déjà étudié dans un autre cours de ce projet ([[pulaar-language-course]]) ; plusieurs mots se recoupent presque exactement d'un pays à l'autre (nyaamo=droite, nano=gauche, ɗiɗi=deux...), tandis que d'autres diffèrent, reflet naturel de la variation dialectale du fulfulde à travers l'Afrique de l'Ouest. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "La maison et la ville",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "La maison : suudu et garuwal",
+          "contenu_detaille": "Le dictionnaire donne 'cuuɗi' (pluriel de 'suudu') pour « maisons », et 'garuwal' pour « maison rectangulaire faite de briques », avec ses nombreux synonymes régionaux ('bokkuɗooru', 'buguuru', 'huɗooru', 'hukum', 'kunnguuru', 'loofeeru', 'sukkuuru', 'winndeeru', 'worwordu'), qui montrent la grande diversité des types d'habitations traditionnelles nommées en fulfulde.",
+          "vocabulaire_cles": [
+            {
+              "terme": "suudu / cuuɗi",
+              "traduction_ou_definition": "maison / maisons"
+            },
+            {
+              "terme": "garuwal",
+              "traduction_ou_definition": "maison rectangulaire en briques"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "cuuɗi.",
+              "traduction": "Maisons."
+            },
+            {
+              "phrase": "garuwal.",
+              "traduction": "Maison rectangulaire en briques."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'maisons' (pluriel) en fulfulde d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "cuuɗi",
+                "garuwal",
+                "gallu",
+                "luumo"
+              ],
+              "reponse_correcte": "cuuɗi"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "La ville : gallu",
+          "contenu_detaille": "Le dictionnaire donne 'gallu' pour « ville », mot simple mais fondamental pour parler de son lieu de résidence.",
+          "vocabulaire_cles": [
+            {
+              "terme": "gallu",
+              "traduction_ou_definition": "ville"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "gallu.",
+              "traduction": "Ville."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Ville' se dit en fulfulde : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "gallu"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire de la maison (suudu/cuuɗi, garuwal) et de la ville (gallu), issu du dictionnaire fulfulde du Burkina Faso."
+}

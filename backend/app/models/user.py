@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime
+from sqlalchemy import Boolean, Column, Integer, String, DateTime
 from ..database import Base
 from datetime import datetime
 
@@ -12,4 +12,5 @@ class User(Base):
     full_name = Column(String(255), nullable=True)
     photo_url = Column(String(1024), nullable=True)
     role = Column(String(50), default="user")
+    email_verified = Column(Boolean, default=False, nullable=False)
     created_at = Column(DateTime, default=datetime.utcnow)

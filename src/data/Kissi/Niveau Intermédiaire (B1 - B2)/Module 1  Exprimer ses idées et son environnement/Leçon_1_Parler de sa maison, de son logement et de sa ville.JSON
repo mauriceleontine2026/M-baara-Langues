@@ -1,0 +1,69 @@
+{
+  "titre_cours": "Leçon 1 : Parler de sa maison, de son logement et de sa ville.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir de « A Grammar of Kisi » (G. Tucker Childs, Mouton Grammar Library 16, Mouton de Gruyter, 1995), une grammaire universitaire du kisi (kissi), langue atlantique méridionale parlée en Guinée, au Liberia et en Sierra Leone. Ce document est entièrement rédigé en anglais et destiné aux linguistes ; il ne s'agit pas d'un manuel d'apprentissage. Les faits, exemples et gloses qu'il contient ont été traduits et reformulés en français pour ce cours, sans ajout d'information extérieure. Avertissement technique : le kisi est une langue à tons, et l'ouvrage transcrit systématiquement les tons et plusieurs voyelles/consonnes spécifiques (ɔ, ɛ, ŋ, voyelles nasales, marques tonales) au moyen de caractères phonétiques spéciaux ; l'extraction automatique du texte de ce PDF universitaire a pu déformer certains de ces caractères. Les formes kisi citées ci-dessous sont donc données sous toute réserve quant à leurs diacritiques exacts, et gagneraient à être vérifiées auprès d'un locuteur ou du PDF original avant tout usage pédagogique.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le logement et la ville",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "La ville",
+          "contenu_detaille": "Le lexique donne 'cioo' (pluriel 'cioŋ') pour « ville », et documente plusieurs noms propres de villes qui, comme vu en Leçon 6, sont associés à leur jour de marché (par exemple 'ndqgowää', une ville guinéenne dont le marché se tient le mardi).",
+          "vocabulaire_cles": [
+            {
+              "terme": "cioo / cioŋ",
+              "traduction_ou_definition": "ville / villes"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "cioo.",
+              "traduction": "Ville."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'ville' d'après le lexique ?",
+              "type": "QCM",
+              "options": [
+                "cioo",
+                "nέιγό",
+                "lóó",
+                "fipä"
+              ],
+              "reponse_correcte": "cioo"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "La maison des ancêtres",
+          "contenu_detaille": "Le lexique donne 'määqndäq' pour « maisons des ancêtres », une expression qui témoigne de l'importance du lien avec les ancêtres dans l'organisation traditionnelle de l'habitat kisi.",
+          "vocabulaire_cles": [
+            {
+              "terme": "määqndäq",
+              "traduction_ou_definition": "maisons des ancêtres"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "määqndäq.",
+              "traduction": "Maisons des ancêtres."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "L'expression 'maisons des ancêtres' se dit en kisi : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "määqndäq"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le mot pour ville (cioo) et l'expression pour les maisons des ancêtres (määqndäq), issus du lexique de l'ouvrage de Childs."
+}

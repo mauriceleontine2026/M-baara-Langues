@@ -1,0 +1,73 @@
+{
+  "titre_cours": "Leçon 2 : Exprimer l'hypothèse, le doute et la condition.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir de deux articles universitaires fournis : Séraphin Kouakou Konan, « L'intrusion de mots nouchi dans la langue française : création ou désordre ? », Sudlangues n°14 (2010) ; et Kouakou Kouakou Antoine & Koffi Kouamé Narcisse, « Le nouchi d'hier à aujourd'hui : quelles innovations lexicales ! », Ziglôbitha n°08 (2023). AVERTISSEMENT IMPORTANT : ces documents ne sont pas des dictionnaires organisés par thème, mais des articles de sociolinguistique analysant les mécanismes de formation lexicale du nouchi (argot urbain ivoirien né dans les années 1980 à Abidjan, mêlant français, dioula et autres langues locales et internationales). Le vocabulaire qu'ils fournissent est donc dispersé et non structuré par thème de la vie quotidienne (pas de mots pour les salutations, les chiffres, les jours, la nourriture, les couleurs) ; il porte en revanche fortement sur l'argent, les relations amoureuses, la tromperie, la fuite et l'apparence physique. Le nouchi est de plus, par nature, un registre familier et transgressif, ce qui rend certains thèmes de ce cours (registre soutenu, proverbes classiques) difficiles à traiter fidèlement sans trahir la nature même de cette langue. Les articles ne documentent pas de conjonction de condition propre au nouchi ; ils citent en revanche une phrase-exemple qui emploie la conjonction française 'si' de façon particulièrement frappante, dans un cadre religieux fataliste.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Un exemple hypothétique fataliste",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Si c'est Dieu qui t'a tué...",
+          "contenu_detaille": "L'article de 2010 cite comme exemple de phrase nouchi : « Si c'est dja qui t'a dja et puis tu dja, dja, mais si c'est pas dja qui t'a dja et puis tu a dja, ne dja pas », traduite par « Si c'est Dieu qui t'a tué et puis tu meurs, meurs, mais si ce n'est pas Dieu qui t'a tué et puis tu es mort, ne meurs pas ». Cette phrase, d'une construction fataliste caractéristique, utilise la conjonction française 'si' (non remplacée par un mot nouchi), tandis que le mot 'dja' change de sens selon sa position : nom (Dieu), verbe conjugué (tuer/mourir) ou impératif.",
+          "vocabulaire_cles": [
+            {
+              "terme": "si",
+              "traduction_ou_definition": "conjonction de condition, employée directement en français dans cet exemple nouchi"
+            },
+            {
+              "terme": "dja",
+              "traduction_ou_definition": "mot polysémique selon la position : Dieu (nom) / tuer, mourir (verbe conjugué)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Si c'est dja qui t'a dja et puis tu dja, dja.",
+              "traduction": "Si c'est Dieu qui t'a tué et puis tu meurs, meurs. (exemple cité par l'article de 2010)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quelle conjonction de condition est employée dans cet exemple nouchi cité par l'article de 2010 ?",
+              "type": "QCM",
+              "options": [
+                "si (directement en français)",
+                "kan",
+                "ndah",
+                "su"
+              ],
+              "reponse_correcte": "si (directement en français)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Confirmation : le français fournit les mots-outils",
+          "contenu_detaille": "Cet exemple confirme l'observation générale de l'article de 2010, selon laquelle les usagers du nouchi préfèrent utiliser directement les termes français pour les déterminants, les prépositions, les conjonctions et les interjections — catégories grammaticales où le nouchi n'a pas développé de vocabulaire propre, contrairement aux noms, verbes, adjectifs et adverbes.",
+          "vocabulaire_cles": [
+            {
+              "terme": "catégories sans vocabulaire nouchi propre",
+              "traduction_ou_definition": "déterminants, prépositions, conjonctions, interjections — empruntés directement au français"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque générale de l'article de 2010)",
+              "traduction": "Le nouchi emprunte directement au français ses conjonctions, dont 'si'."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "D'après l'article de 2010, en dehors des noms, verbes, adjectifs et adverbes, le nouchi utilise directement les mots-outils du _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "français"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté, en l'absence de conjonction de condition propre au nouchi, l'exemple fataliste 'Si c'est dja qui t'a dja...' cité par l'article de 2010, qui confirme que le nouchi emprunte directement au français ses conjonctions."
+}

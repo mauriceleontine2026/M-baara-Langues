@@ -28,6 +28,10 @@ for required_origin in ["https://m-baara-langues.web.app", "https://m-baara-lang
     if required_origin not in allowed_origins:
         allowed_origins.append(required_origin)
 
+if any(origin.strip() in {"*", "null"} for origin in allowed_origins):
+    raise RuntimeError(
+        "Insecure CORS configuration detected. allow_origins must contain only explicit trusted origins when credentials are enabled."
+    )
 
 Base.metadata.create_all(bind=engine)
 
@@ -39,10 +43,11 @@ def _ensure_user_role_column():
     if 'users' not in inspector.get_table_names():
         return
     columns = [column['name'] for column in inspector.get_columns('users')]
-    if 'role' in columns:
-        return
     with engine.begin() as conn:
-        conn.execute(text("ALTER TABLE users ADD COLUMN role VARCHAR(50) DEFAULT 'user'"))
+        if 'role' not in columns:
+            conn.execute(text("ALTER TABLE users ADD COLUMN role VARCHAR(50) DEFAULT 'user'"))
+        if 'email_verified' not in columns:
+            conn.execute(text("ALTER TABLE users ADD COLUMN email_verified BOOLEAN DEFAULT FALSE NOT NULL"))
 
 
 def _ensure_lesson_columns():
@@ -636,9 +641,10 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    allow_headers=["Authorization", "Content-Type", "X-CSRF-Token"],
     expose_headers=["Content-Type", "Set-Cookie", "Authorization"],
+    max_age=600,
 )
 
 
@@ -667,6 +673,11 @@ async def add_security_headers(request, call_next):
     response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
     response.headers["X-Content-Type-Options"] = "nosniff"
     response.headers["X-Frame-Options"] = "DENY"
+    response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
+    response.headers["Permissions-Policy"] = "geolocation=(), microphone=(), camera=(), payment=()"
+    response.headers["X-Permitted-Cross-Domain-Policies"] = "none"
+    response.headers["X-Download-Options"] = "noopen"
+    response.headers["X-DNS-Prefetch-Control"] = "off"
     response.headers["Content-Security-Policy"] = (
         "default-src 'self'; "
         "img-src 'self' data: https:; "

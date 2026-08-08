@@ -1,0 +1,189 @@
+{
+  "titre_cours": "Leçon 6 : Les jours de la semaine, les mois et dire l'heure.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir du « Précis de grammaire et de lexique du peul du Fouta Djallon » d'Abdourahmane Diallo (ILCAA, Tokyo University of Foreign Studies, 2015), qui documente le pular (variante du peul/fulfulde) parlé en Guinée. L'orthographe d'origine (ɓ, ɗ, ƴ, ɲ, ŋ, apostrophe glottale) est conservée telle quelle. Cette leçon reprend les Leçons 9 et 10 du manuel, consacrées aux jours de la semaine, aux mois et à l'heure.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le temps qui passe",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les jours de la semaine",
+          "contenu_detaille": "Le manuel donne les sept jours, tous empruntés à l'arabe : tenen (lundi), talaata (mardi), alarba (mercredi), alkamisa (jeudi), juma (vendredi), asewe (samedi), alal (dimanche). Pour se référer aux jours passés ou futurs sans les nommer, le pular utilise 'hecci' (avant) pour le passé et 'faɗɗi' (après) pour le futur, combinés à 'janngo' (demain) et 'hanki' (hier) : 'faɗɗi janngo' (après-demain), 'hecci hanki' (avant-hier).",
+          "vocabulaire_cles": [
+            {
+              "terme": "tenen",
+              "traduction_ou_definition": "lundi"
+            },
+            {
+              "terme": "talaata",
+              "traduction_ou_definition": "mardi"
+            },
+            {
+              "terme": "alarba",
+              "traduction_ou_definition": "mercredi"
+            },
+            {
+              "terme": "alkamisa",
+              "traduction_ou_definition": "jeudi"
+            },
+            {
+              "terme": "juma",
+              "traduction_ou_definition": "vendredi"
+            },
+            {
+              "terme": "asewe",
+              "traduction_ou_definition": "samedi"
+            },
+            {
+              "terme": "alal",
+              "traduction_ou_definition": "dimanche"
+            },
+            {
+              "terme": "hanki",
+              "traduction_ou_definition": "hier"
+            },
+            {
+              "terme": "janngo",
+              "traduction_ou_definition": "demain"
+            },
+            {
+              "terme": "faɗɗi janngo",
+              "traduction_ou_definition": "après-demain"
+            },
+            {
+              "terme": "hecci hanki",
+              "traduction_ou_definition": "avant-hier"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Hannde ko alkamisa.",
+              "traduction": "Aujourd'hui c'est jeudi."
+            },
+            {
+              "phrase": "Faɗɗi janngo.",
+              "traduction": "Après-demain."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'vendredi' en pular ?",
+              "type": "QCM",
+              "options": [
+                "juma",
+                "alkamisa",
+                "asewe",
+                "tenen"
+              ],
+              "reponse_correcte": "juma"
+            },
+            {
+              "question": "'Après-demain' se dit en pular : faɗɗi _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "janngo"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Les mois et les repères temporels",
+          "contenu_detaille": "Le manuel distingue deux calendriers : un calendrier civil, avec des noms de mois empruntés au français (sanwiyee, feeburyee, maarasi... jusqu'à deesaambur), et un calendrier islamique, avec des noms de mois en pular d'inspiration arabo-musulmane (suumayee pour le Ramadan, juldaandu pour le mois de la fête, donkin pour Tabaski). Le mot 'lewru' signifie à la fois 'mois' et 'lune'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "lewru",
+              "traduction_ou_definition": "mois, lune"
+            },
+            {
+              "terme": "sanwiyee",
+              "traduction_ou_definition": "janvier"
+            },
+            {
+              "terme": "suumayee",
+              "traduction_ou_definition": "Ramadan"
+            },
+            {
+              "terme": "juldaandu",
+              "traduction_ou_definition": "mois de la fête (après le Ramadan)"
+            },
+            {
+              "terme": "donkin",
+              "traduction_ou_definition": "Tabaski"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ko lewru honndu nii?",
+              "traduction": "Quel est le mois en cours ?"
+            },
+            {
+              "phrase": "Ko sabbordu Suumayee.",
+              "traduction": "C'est le mois avant le Ramadan."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel mot signifie à la fois 'mois' et 'lune' en pular ?",
+              "type": "QCM",
+              "options": [
+                "lewru",
+                "sappo",
+                "jaaraama",
+                "teewu"
+              ],
+              "reponse_correcte": "lewru"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Dire l'heure",
+          "contenu_detaille": "Le manuel donne la question 'Ko leer hombo nii?' (quelle heure est-il ?). Les heures portent des noms spécifiques en pular : par exemple 'witter' (8 heures) et 'neefer' (9 heures). Les minutes sont le plus souvent données en français, mais peuvent aussi s'exprimer en pular avec 'fawɗun' (minutes passées après l'heure) et 'mankuɗun' (minutes manquant avant l'heure) : 'witter fawɗun minitaaji sappo' (huit heures dix), 'neefer mankuɗun minitaaji jowi' (neuf heures moins cinq).",
+          "vocabulaire_cles": [
+            {
+              "terme": "Ko leer hombo nii ?",
+              "traduction_ou_definition": "Quelle heure est-il ?"
+            },
+            {
+              "terme": "witter",
+              "traduction_ou_definition": "huit heures"
+            },
+            {
+              "terme": "neefer",
+              "traduction_ou_definition": "neuf heures"
+            },
+            {
+              "terme": "fawɗun",
+              "traduction_ou_definition": "minutes passées après l'heure"
+            },
+            {
+              "terme": "mankuɗun",
+              "traduction_ou_definition": "minutes manquant avant l'heure"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ko leer hombo nii?",
+              "traduction": "Quelle heure est-il ?"
+            },
+            {
+              "phrase": "Ko e witter.",
+              "traduction": "C'est à huit heures."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Pour indiquer des minutes manquant avant l'heure, le pular utilise : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "mankuɗun"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les jours de la semaine, les deux calendriers (civil et islamique) et la façon de dire l'heure en pular, issus des Leçons 9 et 10 du manuel de 2015."
+}

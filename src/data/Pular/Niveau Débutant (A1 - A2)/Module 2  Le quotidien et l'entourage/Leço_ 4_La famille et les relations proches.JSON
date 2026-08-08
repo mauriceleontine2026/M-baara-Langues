@@ -1,0 +1,135 @@
+{
+  "titre_cours": "Leçon 4 : La famille et les relations proches.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir du « Précis de grammaire et de lexique du peul du Fouta Djallon » d'Abdourahmane Diallo (ILCAA, Tokyo University of Foreign Studies, 2015), qui documente le pular (variante du peul/fulfulde) parlé en Guinée. L'orthographe d'origine (ɓ, ɗ, ƴ, ɲ, ŋ, apostrophe glottale) est conservée telle quelle. Cette leçon reprend la Leçon 27 du manuel, consacrée à la dérivation des noms de parenté.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "La famille en pular",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les parents proches",
+          "contenu_detaille": "Le manuel donne 'neene' pour la mère (exemple : 'Neene maa artay jooni', ta maman arrivera bientôt) et utilise 'ɓeyngu' pour désigner le conjoint ou la famille (déjà rencontré en Leçon 1 avec 'ɓeynguure'). Le mot 'ɓiɗɗo' (pluriel 'ɓiɓɓe') désigne l'enfant, le fils ou la fille.",
+          "vocabulaire_cles": [
+            {
+              "terme": "neene",
+              "traduction_ou_definition": "mère"
+            },
+            {
+              "terme": "ɓeyngu",
+              "traduction_ou_definition": "conjoint, famille"
+            },
+            {
+              "terme": "ɓiɗɗo / ɓiɓɓe",
+              "traduction_ou_definition": "enfant / enfants, fils ou fille de"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Neene maa artay jooni.",
+              "traduction": "Ta maman arrivera bientôt."
+            },
+            {
+              "phrase": "Jiwo amen goo no ari ɗoo hanki.",
+              "traduction": "Notre autre petite fille est venue ici hier."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'mère' en pular ?",
+              "type": "QCM",
+              "options": [
+                "neene",
+                "ɓeyngu",
+                "kaawu",
+                "kotoo"
+              ],
+              "reponse_correcte": "neene"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Frères, sœurs et oncles",
+          "contenu_detaille": "Le manuel donne 'kotoo' pour le grand frère (exemple : 'Oo ɗaa ko kotoo an', celui-là est mon grand frère) et 'jaaja' pour la grande sœur/tante. 'kaawu' désigne l'oncle (maternel), et 'denɗan' (ou 'denɗiraawo') désigne le cousin ou la cousine.",
+          "vocabulaire_cles": [
+            {
+              "terme": "kotoo",
+              "traduction_ou_definition": "grand frère"
+            },
+            {
+              "terme": "jaaja",
+              "traduction_ou_definition": "grande sœur, tante"
+            },
+            {
+              "terme": "kaawu",
+              "traduction_ou_definition": "oncle"
+            },
+            {
+              "terme": "denɗan / denɗiraawo",
+              "traduction_ou_definition": "cousin, cousine"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Oo ɗaa ko kotoo an.",
+              "traduction": "Celui-là est mon grand frère."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Grand frère' se dit en pular : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "kotoo"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Le suffixe de parenté -iraawo / -iraaɓe",
+          "contenu_detaille": "Le manuel explique que certains noms de parenté existent avec ou sans le suffixe '-iraawo' (singulier) / '-iraaɓe' (pluriel) : ainsi 'kotoo' et 'kotiraawo' désignent tous deux 'mon grand frère'. D'autres noms de parenté, en revanche, exigent obligatoirement ce suffixe : 'baaɗiraawo' (neveu, nièce), 'esiraawo' (parents de l'époux ou de l'épouse), 'banndiraawo' (frère ou sœur, sans préciser le rang de naissance).",
+          "vocabulaire_cles": [
+            {
+              "terme": "-iraawo (sg.) / -iraaɓe (pl.)",
+              "traduction_ou_definition": "suffixe de parenté, facultatif ou obligatoire selon les mots"
+            },
+            {
+              "terme": "baaɗiraawo",
+              "traduction_ou_definition": "neveu, nièce (suffixe obligatoire)"
+            },
+            {
+              "terme": "banndiraawo",
+              "traduction_ou_definition": "frère ou sœur (suffixe obligatoire)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Oo ɗaa ko kotiraawo an.",
+              "traduction": "Celui-là est mon grand frère."
+            },
+            {
+              "phrase": "Ɓee ɗaa ko neeniraaɓe an.",
+              "traduction": "Celle-là c'est ma mère (au sens large)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Pour 'baaɗiraawo' (neveu/nièce), le suffixe de parenté est :",
+              "type": "QCM",
+              "options": [
+                "Obligatoire",
+                "Facultatif",
+                "Inexistant",
+                "Réservé aux femmes"
+              ],
+              "reponse_correcte": "Obligatoire"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire de la famille (neene, kotoo, jaaja, kaawu, denɗan) et le fonctionnement du suffixe de parenté -iraawo/-iraaɓe, issus de la Leçon 27 du manuel de 2015."
+}

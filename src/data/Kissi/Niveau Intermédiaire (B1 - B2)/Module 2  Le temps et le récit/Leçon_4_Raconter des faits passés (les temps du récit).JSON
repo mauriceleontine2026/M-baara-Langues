@@ -1,0 +1,81 @@
+{
+  "titre_cours": "Leçon 4 : Raconter des faits passés (les temps du récit).",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir de « A Grammar of Kisi » (G. Tucker Childs, Mouton Grammar Library 16, Mouton de Gruyter, 1995), une grammaire universitaire du kisi (kissi), langue atlantique méridionale parlée en Guinée, au Liberia et en Sierra Leone. Ce document est entièrement rédigé en anglais et destiné aux linguistes ; il ne s'agit pas d'un manuel d'apprentissage. Les faits, exemples et gloses qu'il contient ont été traduits et reformulés en français pour ce cours, sans ajout d'information extérieure. Avertissement technique : le kisi est une langue à tons, et l'ouvrage transcrit systématiquement les tons et plusieurs voyelles/consonnes spécifiques (ɔ, ɛ, ŋ, voyelles nasales, marques tonales) au moyen de caractères phonétiques spéciaux ; l'extraction automatique du texte de ce PDF universitaire a pu déformer certains de ces caractères. Les formes kisi citées ci-dessous sont donc données sous toute réserve quant à leurs diacritiques exacts, et gagneraient à être vérifiées auprès d'un locuteur ou du PDF original avant tout usage pédagogique. Cette leçon reprend la section 10.5.2 de l'ouvrage, consacrée au Perfectif.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le passé en kisi",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le Perfectif : une action ou un état accompli",
+          "contenu_detaille": "L'ouvrage explique que le sens du Perfectif kisi diffère selon que le verbe est statif ou actif. Pour un verbe statif, le Perfectif signifie que le sujet a atteint l'état en question et se trouve effectivement dans cet état au moment présent. Pour un verbe actif, le Perfectif indique que l'action a eu lieu dans le passé. Le Perfectif est en réalité ambigu quant au moment exact de l'action : il signale surtout que l'action ou l'état est achevé, plutôt que de renvoyer explicitement à un temps précis.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Perfectif (verbe statif)",
+              "traduction_ou_definition": "le sujet a atteint l'état, il s'y trouve au moment présent"
+            },
+            {
+              "terme": "Perfectif (verbe actif)",
+              "traduction_ou_definition": "l'action a eu lieu dans le passé"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ö cö",
+              "traduction": "« Elle a enterré. » (exemple de l'ouvrage, verbe actif au Perfectif)"
+            },
+            {
+              "phrase": "ö kälä",
+              "traduction": "« Elle a aimé. » (exemple de l'ouvrage)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "D'après l'ouvrage, à quoi renvoie principalement le Perfectif du kisi ?",
+              "type": "QCM",
+              "options": [
+                "Au fait que l'action ou l'état est achevé, plus qu'à un temps précis",
+                "Uniquement au passé",
+                "Uniquement au présent",
+                "Uniquement au futur"
+              ],
+              "reponse_correcte": "Au fait que l'action ou l'état est achevé, plus qu'à un temps précis"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le schéma tonal du Perfectif",
+          "contenu_detaille": "L'ouvrage précise que le schéma tonal du Perfectif est Bas-Haut (LH) : les verbes monosyllabiques reçoivent un ton montant, les verbes à deux syllabes un schéma bas-haut, et les verbes à trois syllabes un schéma bas-haut-haut. Un petit sous-ensemble de verbes ne suit pas ce schéma et reste bas sur toute sa longueur, comme 'ö biŋ' (« elle a tenu ») ou 'ö hiŋ' (« elle est venue »).",
+          "vocabulaire_cles": [
+            {
+              "terme": "schéma LH (Bas-Haut)",
+              "traduction_ou_definition": "ton du Perfectif régulier en kisi"
+            },
+            {
+              "terme": "ö hiŋ",
+              "traduction_ou_definition": "elle est venue (exemple d'un verbe irrégulier au Perfectif, resté totalement bas)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ö hiŋ.",
+              "traduction": "Elle est venue."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le schéma tonal régulier du Perfectif en kisi est noté : _____ (Bas-Haut).",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "LH"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le Perfectif du kisi, qui marque une action ou un état accompli (plutôt qu'un temps précis), avec son schéma tonal caractéristique Bas-Haut, d'après la section 10.5.2 de l'ouvrage de Childs."
+}

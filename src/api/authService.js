@@ -1,8 +1,10 @@
-import { request, notifyAuthChanged, clearStoredAccessToken } from "./backendClient";
+import { request, notifyAuthChanged } from "./backendClient";
 import { signInWithGoogle } from "./firebaseClient";
+import { getRecaptchaToken } from "@/lib/recaptcha";
 
 export async function login(email, password) {
-  const data = await request("POST", "/api/auth/login", { email, password });
+  const captchaToken = await getRecaptchaToken("login");
+  const data = await request("POST", "/api/auth/login", { email, password }, undefined, captchaToken);
   notifyAuthChanged();
   return data?.user || null;
 }
@@ -19,7 +21,8 @@ export async function loginWithGoogle() {
 }
 
 export async function register(email, password, full_name) {
-  const data = await request("POST", "/api/auth/register", { email, password, full_name });
+  const captchaToken = await getRecaptchaToken("register");
+  const data = await request("POST", "/api/auth/register", { email, password, full_name }, undefined, captchaToken);
   notifyAuthChanged();
   return data?.user || null;
 }
@@ -33,12 +36,8 @@ export async function updateMe(payload) {
 }
 
 export async function logout() {
-  try {
-    await request("POST", "/api/auth/logout");
-  } finally {
-    clearStoredAccessToken();
-    notifyAuthChanged();
-  }
+  await request("POST", "/api/auth/logout");
+  notifyAuthChanged();
 }
 
 export async function resetPasswordRequest(email) {

@@ -1,0 +1,158 @@
+[
+  {
+    "titre_cours": "Les salutations et les formules de politesse",
+    "niveau": "A1 - Débutant",
+    "introduction": "Cette leçon introduit les salutations de base en malinké (bambara/maninka), indispensables pour toute première interaction : dire bonjour, remercier, prendre congé.",
+    "modules": [
+      {
+        "id_module": 1,
+        "titre_module": "Les bases de la communication",
+        "chapitres": [
+          {
+            "id_chapitre": 1,
+            "titre": "Saluer et remercier",
+            "contenu_detaille": "En malinké, la salutation (foli) tient une place centrale dans les échanges sociaux : on ne commence jamais une conversation sans saluer, souvent en s'informant de la santé de l'interlocuteur et de sa famille. Le remerciement se dit barika-da, littéralement lié à l'idée de bénédiction (barika).",
+            "vocabulaire_cles": [
+              {"terme": "Foli", "traduction_ou_definition": "salutation"},
+              {"terme": "Barika-da / Abarika", "traduction_ou_definition": "merci"},
+              {"terme": "Kènè", "traduction_ou_definition": "en forme, en bonne santé (utilisé dans les salutations)"},
+              {"terme": "N'sé", "traduction_ou_definition": "de rien / il n'y a pas de quoi (réponse au merci)"}
+            ],
+            "exemples": [
+              {"phrase": "I ni sogoma.", "traduction": "Bonjour (le matin) — littéralement « toi et le matin »."},
+              {"phrase": "I ni wula.", "traduction": "Bonsoir — « toi et le soir »."},
+              {"phrase": "Barika-da!", "traduction": "Merci !"}
+            ],
+            "exercices": [
+              {
+                "question": "Comment dit-on « merci » en malinké ?",
+                "type": "QCM",
+                "options": ["Foli", "Barika-da", "Kènè", "Togo"],
+                "reponse_correcte": "Barika-da"
+              },
+              {
+                "question": "Complète : « I ni ___ » pour dire bonjour le matin.",
+                "type": "texte_a_trous",
+                "options": [],
+                "reponse_correcte": "sogoma"
+              }
+            ]
+          },
+          {
+            "id_chapitre": 2,
+            "titre": "Prendre congé",
+            "contenu_detaille": "Les formules d'adieu en malinké varient selon qui part et qui reste. Elles marquent le respect et le lien social maintenu même après la séparation.",
+            "vocabulaire_cles": [
+              {"terme": "K'an bèn", "traduction_ou_definition": "au revoir / à bientôt (littéralement « que nous nous retrouvions »)"},
+              {"terme": "I ka kènè", "traduction_ou_definition": "porte-toi bien"}
+            ],
+            "exemples": [
+              {"phrase": "K'an bèn sini.", "traduction": "À bientôt / à demain."},
+              {"phrase": "I ka kènè!", "traduction": "Porte-toi bien !"}
+            ],
+            "exercices": [
+              {
+                "question": "Quelle expression utilise-t-on pour dire au revoir ?",
+                "type": "QCM",
+                "options": ["Foli", "K'an bèn", "Fa", "Togo"],
+                "reponse_correcte": "K'an bèn"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "conclusion": "Tu sais désormais saluer, remercier et prendre congé en malinké — les bases indispensables pour amorcer tout échange."
+  },
+  {
+    "titre_cours": "Se présenter (nom, âge, origine, profession)",
+    "niveau": "A1 - Débutant",
+    "introduction": "Cette leçon permet d'apprendre à dire son nom, son âge, sa ville d'origine et son métier en malinké.",
+    "modules": [
+      {
+        "id_module": 1,
+        "titre_module": "Les bases de la communication",
+        "chapitres": [
+          {
+            "id_chapitre": 3,
+            "titre": "Dire son nom et son origine",
+            "contenu_detaille": "Le nom (togo) et le nom de famille jouent un rôle social important en malinké : les noms de famille comme Diara, Koulibali ou Keïta renvoient à des lignées précises et à des alliances traditionnelles (les fameux « cousinages à plaisanterie »).",
+            "vocabulaire_cles": [
+              {"terme": "Togo", "traduction_ou_definition": "nom"},
+              {"terme": "Diamani", "traduction_ou_definition": "pays"},
+              {"terme": "Bouroudiou", "traduction_ou_definition": "origine"},
+              {"terme": "Sigui", "traduction_ou_definition": "habiter, résider"}
+            ],
+            "exemples": [
+              {"phrase": "N togo ko Mamadou.", "traduction": "Je m'appelle Mamadou."},
+              {"phrase": "N bè sigui Kankan.", "traduction": "J'habite à Kankan."}
+            ],
+            "exercices": [
+              {
+                "question": "« Togo » signifie :",
+                "type": "QCM",
+                "options": ["Âge", "Nom", "Métier", "Pays"],
+                "reponse_correcte": "Nom"
+              }
+            ]
+          },
+          {
+            "id_chapitre": 4,
+            "titre": "Dire son métier",
+            "contenu_detaille": "Le métier (kévalé) se présente généralement après le nom et l'origine dans une présentation formelle.",
+            "vocabulaire_cles": [
+              {"terme": "Kévalé", "traduction_ou_definition": "métier"}
+            ],
+            "exemples": [
+              {"phrase": "N ka kévalé ye karamogo ye.", "traduction": "Mon métier est enseignant."}
+            ],
+            "exercices": [
+              {
+                "question": "Quel mot signifie « métier » ?",
+                "type": "QCM",
+                "options": ["Kévalé", "Togo", "Diamani", "Foli"],
+                "reponse_correcte": "Kévalé"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "conclusion": "Tu peux maintenant te présenter simplement : nom, lieu de résidence et métier."
+  },
+  {
+    "titre_cours": "L'alphabet et les sons spécifiques du malinké",
+    "niveau": "A1 - Débutant",
+    "introduction": "Cette leçon présente les sons particuliers du malinké (voyelles pures, voyelles nasales, consonnes mouillées) essentiels pour une bonne prononciation.",
+    "modules": [
+      {
+        "id_module": 1,
+        "titre_module": "Les bases de la communication",
+        "chapitres": [
+          {
+            "id_chapitre": 5,
+            "titre": "Les voyelles et sons nasaux",
+            "contenu_detaille": "Le malinké compte huit voyelles pures (a, è ouvert, é fermé, i, u, ô fermé, o, ô ouvert) et cinq voyelles nasales (an, en, in, oun, on). Ces nasales, en fin de mot, correspondent aux groupes « an » et « on » du français. Il existe aussi des consonnes mouillées et un « s chuinté » proche du « ch » français, plus rare.",
+            "vocabulaire_cles": [
+              {"terme": "an, en, in, oun, on", "traduction_ou_definition": "voyelles nasales"},
+              {"terme": "ch", "traduction_ou_definition": "s chuinté, proche du « ch » français"}
+            ],
+            "exemples": [
+              {"phrase": "san", "traduction": "année / ciel (selon le ton)"},
+              {"phrase": "chye / sye", "traduction": "poulet (variante régionale)"}
+            ],
+            "exercices": [
+              {
+                "question": "Combien de voyelles pures compte le malinké ?",
+                "type": "QCM",
+                "options": ["5", "6", "8", "10"],
+                "reponse_correcte": "8"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "conclusion": "Tu connais maintenant les grands traits phonétiques du malinké : voyelles pures, nasales et sons particuliers, base d'une bonne prononciation."
+  }
+]

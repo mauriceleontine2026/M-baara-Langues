@@ -1,0 +1,73 @@
+{
+  "titre_cours": "Leçon 3 : Exprimer ses goûts, ses préférences et ses sentiments.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir de la fiche « LE LINGALA » d'Alain Kihm (CNRS – Université Paris-Cité), publiée dans le cadre du projet Langues et Grammaires du Monde dans l'Espace Francophone (LGMEF, référence HAL-04102394, 2024). Cette leçon reprend un point de grammaire particulièrement riche de la fiche : le verbe 'kolinga' (aimer/vouloir), présenté à la fois comme verbe plein et comme auxiliaire.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Aimer et vouloir : un seul verbe, deux emplois",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "kolinga comme verbe plein : aimer, vouloir",
+          "contenu_detaille": "La fiche donne le verbe 'kolinga' (aimer/vouloir) à travers l'exemple 'Nalingí bangó' (Je les aime/veux), au parfait. Elle précise que ce verbe unique couvre en lingala les deux sens que le français distingue (aimer / vouloir) : avec les verbes d'état comme celui-ci, le parfait a valeur de présent, ce qui explique la traduction au présent malgré la forme au parfait.",
+          "vocabulaire_cles": [
+            {
+              "terme": "kolinga",
+              "traduction_ou_definition": "aimer, vouloir (un seul verbe pour les deux sens)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Nalingí bangó.",
+              "traduction": "Je les aime / je les veux."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Combien de verbes distincts le lingala utilise-t-il pour 'aimer' et 'vouloir', d'après la fiche ?",
+              "type": "QCM",
+              "options": [
+                "Un seul, 'kolinga', pour les deux sens",
+                "Deux verbes différents",
+                "Trois verbes selon le contexte",
+                "Aucun verbe spécifique"
+              ],
+              "reponse_correcte": "Un seul, 'kolinga', pour les deux sens"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "kolinga comme auxiliaire du futur imminent",
+          "contenu_detaille": "La fiche montre que 'kolinga' peut aussi devenir un simple auxiliaire, à l'instar du verbe 'aller' en français dans « je vais partir » : dans la périphrase du futur imminent, 'Mwána alingí ákenda' se traduit par « L'enfant va partir » (litt. l'enfant aime/veut qu'il parte), où le verbe principal 'kokenda' (partir) se met au subjonctif, marqué par le ton haut sur l'indice sujet.",
+          "vocabulaire_cles": [
+            {
+              "terme": "kolinga (auxiliaire)",
+              "traduction_ou_definition": "introduit un futur imminent, comme 'aller' en français"
+            },
+            {
+              "terme": "subjonctif marqué par ton haut",
+              "traduction_ou_definition": "forme du verbe principal après kolinga-auxiliaire"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Mwána alingí ákenda.",
+              "traduction": "L'enfant va partir (litt. l'enfant aime/veut qu'il parte)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Dans la périphrase du futur imminent, le verbe principal se met au mode : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "subjonctif"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le verbe 'kolinga' (aimer/vouloir), qui couvre en lingala les deux sens distingués en français, et son évolution en simple auxiliaire du futur imminent, d'après la fiche d'Alain Kihm."
+}

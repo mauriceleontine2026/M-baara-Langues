@@ -1,0 +1,73 @@
+{
+  "titre_cours": "Leçon 2 : Les loisirs, les passions et les activités sportives.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir du Dictionnaire Français-Soso et Soso-Français du R.P. Raimbault (2e édition, Mission Catholique de Conakry, 1921-1923) : chapitre grammatical 'Principes de la langue Soso', recueil de phrases usuelles, et entrées des dictionnaires français-soso et soso-français. L'orthographe d'origine (kh, gn, apostrophes, accents) est conservée telle quelle. Note : le document de 1923 ne contient pas de vocabulaire sportif moderne ; cette leçon se limite donc au jeu et au chant, seules activités de loisir attestées dans le texte.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Jouer et s'amuser",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Jouer",
+          "contenu_detaille": "Le verbe 'jouer, s'amuser' se traduit par 'konn' (également traduit 'jeu'). Le document donne l'exemple 'Wonsigakonndé' (allons jouer), et une phrase similaire adressée à des enfants : 'Wosigakonnyi' (allez jouer).",
+          "vocabulaire_cles": [
+            {
+              "terme": "konn",
+              "traduction_ou_definition": "jouer, jeu, s'amuser"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Wonsigakonndé.",
+              "traduction": "Allons jouer."
+            },
+            {
+              "phrase": "Wosigakonnyi.",
+              "traduction": "Allez jouer."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'jouer' en soso ?",
+              "type": "QCM",
+              "options": [
+                "konn",
+                "don",
+                "min",
+                "lu"
+              ],
+              "reponse_correcte": "konn"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Chanter et autres activités",
+          "contenu_detaille": "Le verbe 'chanter' se traduit par 'sigisa'. Le document donne l'exemple 'La-labaésigisama' (les rameurs chantent), qui montre le mot employé dans un contexte de vie quotidienne sur l'eau (le document contient plusieurs passages liés à la navigation en pirogue, activité fréquente dans la région du Rio-Pongo).",
+          "vocabulaire_cles": [
+            {
+              "terme": "sigisa",
+              "traduction_ou_definition": "chanter"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "La-labaésigisama.",
+              "traduction": "Les rameurs chantent."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Chanter' se dit en soso : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "sigisa"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire limité mais attesté des loisirs dans le dictionnaire de 1923 : jouer (konn) et chanter (sigisa)."
+}

@@ -1,0 +1,95 @@
+{
+  "titre_cours": "Leçon 4 : La famille et les relations proches.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir de « A Grammar of Kisi » (G. Tucker Childs, Mouton Grammar Library 16, Mouton de Gruyter, 1995), une grammaire universitaire du kisi (kissi), langue atlantique méridionale parlée en Guinée, au Liberia et en Sierra Leone. Ce document est entièrement rédigé en anglais et destiné aux linguistes ; il ne s'agit pas d'un manuel d'apprentissage. Les faits, exemples et gloses qu'il contient ont été traduits et reformulés en français pour ce cours, sans ajout d'information extérieure. Avertissement technique : le kisi est une langue à tons, et l'ouvrage transcrit systématiquement les tons et plusieurs voyelles/consonnes spécifiques (ɔ, ɛ, ŋ, voyelles nasales, marques tonales) au moyen de caractères phonétiques spéciaux ; l'extraction automatique du texte de ce PDF universitaire a pu déformer certains de ces caractères. Les formes kisi citées ci-dessous sont donc données sous toute réserve quant à leurs diacritiques exacts, et gagneraient à être vérifiées auprès d'un locuteur ou du PDF original avant tout usage pédagogique. Cette leçon reprend des entrées du Lexique final de l'ouvrage.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "La famille",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Père, mère et enfant",
+          "contenu_detaille": "Le lexique final donne 'fipä' pour « père », 'källkälä' pour « mère », et 'ciiää' (ou 'ciiäu') pour « enfant ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "fipä",
+              "traduction_ou_definition": "père"
+            },
+            {
+              "terme": "källkälä",
+              "traduction_ou_definition": "mère"
+            },
+            {
+              "terme": "ciiää / ciiäu",
+              "traduction_ou_definition": "enfant"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "fipä.",
+              "traduction": "Père."
+            },
+            {
+              "phrase": "källkälä.",
+              "traduction": "Mère."
+            },
+            {
+              "phrase": "ciiää.",
+              "traduction": "Enfant."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'mère' d'après le lexique de Childs ?",
+              "type": "QCM",
+              "options": [
+                "källkälä",
+                "fipä",
+                "ciiää",
+                "bindU"
+              ],
+              "reponse_correcte": "källkälä"
+            },
+            {
+              "question": "'Père' se dit en kisi : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "fipä"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Frère et sœur",
+          "contenu_detaille": "Le lexique donne 'bindU' pour « frère », et 'bdla' pour « belle-sœur » (littéralement, épouse du frère). Il ne fournit pas d'entrée séparée aussi claire pour « sœur » que pour « frère », ce qui reflète le caractère partiel d'un lexique universitaire par rapport à un dictionnaire pédagogique complet.",
+          "vocabulaire_cles": [
+            {
+              "terme": "bindU",
+              "traduction_ou_definition": "frère"
+            },
+            {
+              "terme": "bdla",
+              "traduction_ou_definition": "belle-sœur"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "bindU.",
+              "traduction": "Frère."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Frère' se dit en kisi : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "bindU"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les mots pour père (fipä), mère (källkälä), enfant (ciiää) et frère (bindU), issus du lexique final de l'ouvrage de Childs. Le lexique étant celui d'une grammaire savante et non d'un dictionnaire familial complet, certains termes de parenté (sœur, notamment) n'y apparaissent pas clairement."
+}

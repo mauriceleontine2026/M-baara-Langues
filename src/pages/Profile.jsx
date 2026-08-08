@@ -8,6 +8,7 @@ import { listContributions } from "@/api/contributionService";
 import { uploadFile } from "@/api/uploadService";
 import { useTheme } from "@/contexts/ThemeContext";
 import { Mail, Shield, Flame, Star, BookOpen, Globe, LogOut, Clock, CheckCircle, XCircle, Hourglass, Award, Settings, Camera, Loader2 } from "lucide-react";
+import LanguageFlag from "@/components/ui/LanguageFlag";
 // public logo at /logo.png
 
 export default function Profile() {
@@ -185,7 +186,7 @@ export default function Profile() {
               const lang = languages.find(l => l.code === c.language_code);
               return (
                 <div key={c.id} className="bg-card border border-border rounded-xl p-3 flex items-center gap-3">
-                  <span className="text-xl">{lang?.flag_emoji || "🌍"}</span>
+                  <LanguageFlag language={lang} size="md" />
                   <div className="flex-1 min-w-0">
                     <div className="font-medium text-foreground text-sm">{c.word} <span className="text-muted-foreground">→ {c.translation_fr}</span></div>
                     <div className="text-xs text-muted-foreground">{lang?.name_fr || c.language_code}</div>

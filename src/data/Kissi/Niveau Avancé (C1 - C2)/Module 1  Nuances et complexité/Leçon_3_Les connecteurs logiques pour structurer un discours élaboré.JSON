@@ -1,0 +1,81 @@
+{
+  "titre_cours": "Leçon 3 : Les connecteurs logiques pour structurer un discours élaboré.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir de « A Grammar of Kisi » (G. Tucker Childs, Mouton Grammar Library 16, Mouton de Gruyter, 1995), une grammaire universitaire du kisi (kissi), langue atlantique méridionale parlée en Guinée, au Liberia et en Sierra Leone. Ce document est entièrement rédigé en anglais et destiné aux linguistes ; il ne s'agit pas d'un manuel d'apprentissage. Les faits, exemples et gloses qu'il contient ont été traduits et reformulés en français pour ce cours, sans ajout d'information extérieure. Avertissement technique : le kisi est une langue à tons, et l'ouvrage transcrit systématiquement les tons et plusieurs voyelles/consonnes spécifiques (ɔ, ɛ, ŋ, voyelles nasales, marques tonales) au moyen de caractères phonétiques spéciaux ; l'extraction automatique du texte de ce PDF universitaire a pu déformer certains de ces caractères. Les formes kisi citées ci-dessous sont donc données sous toute réserve quant à leurs diacritiques exacts, et gagneraient à être vérifiées auprès d'un locuteur ou du PDF original avant tout usage pédagogique. Cette leçon reprend la section 12.5 de l'ouvrage, consacrée aux propositions subordonnées adverbiales.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les subordonnants du kisi",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Cause, temps et concession",
+          "contenu_detaille": "L'ouvrage liste les principales conjonctions de subordination adverbiale du kisi : 'fondöle' (parce que), 'kam' (depuis, puisque), 'mäläq' (avant, plus tôt que), 'yɔŋi' (avant, avec une nuance idéophonique, souvent utilisée à l'impératif), 'häŋ kpeŋ' (même si, juste si), et 'lɔŋ' (« pour que, si bien que »).",
+          "vocabulaire_cles": [
+            {
+              "terme": "fondöle",
+              "traduction_ou_definition": "parce que"
+            },
+            {
+              "terme": "mäläq / yɔŋi",
+              "traduction_ou_definition": "avant, plus tôt que"
+            },
+            {
+              "terme": "häŋ kpeŋ",
+              "traduction_ou_definition": "même si"
+            },
+            {
+              "terme": "lɔŋ",
+              "traduction_ou_definition": "pour que, si bien que"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "...fondöle ö tämbu ŋiŋ.",
+              "traduction": "« ...parce que c'est ruiné maintenant. » (exemple de l'ouvrage)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quelle conjonction du kisi signifie « même si, juste si » ?",
+              "type": "QCM",
+              "options": [
+                "häŋ kpeŋ",
+                "fondöle",
+                "mäläq",
+                "lɔŋ"
+              ],
+              "reponse_correcte": "häŋ kpeŋ"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "L'adverbe 'lɔŋ' pour introduire un but",
+          "contenu_detaille": "L'ouvrage montre que 'lɔŋ' (« si bien que, pour que ») introduit une proposition de but ou de conséquence dans des phrases comme 'ö hindiil yä ko lɔŋ ö keleŋä yoŋnög läŋgiind kälä' (« il devrait vraiment grandir pour moi, pour qu'il devienne vite grand »). Ce connecteur relie ainsi la volonté exprimée dans la principale (souvent à l'Hortatif, voir Leçon 7 du niveau intermédiaire) à son objectif dans la subordonnée.",
+          "vocabulaire_cles": [
+            {
+              "terme": "lɔŋ",
+              "traduction_ou_definition": "introduit une proposition de but liée à une volonté exprimée dans la principale"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ö hindiil yä ko lɔŋ ö keleŋä yoŋnög läŋgiind kälä.",
+              "traduction": "« Il devrait vraiment grandir pour moi, pour qu'il devienne vite grand. » (exemple de l'ouvrage)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "La conjonction qui introduit un but ou une conséquence liée à une volonté exprimée est : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "lɔŋ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les principaux connecteurs logiques adverbiaux du kisi (fondöle, mäläq, häŋ kpeŋ, lɔŋ), d'après la section 12.5 de l'ouvrage de Childs."
+}

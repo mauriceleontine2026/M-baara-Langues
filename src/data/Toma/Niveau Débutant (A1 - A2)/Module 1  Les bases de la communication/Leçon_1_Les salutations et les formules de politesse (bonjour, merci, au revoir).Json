@@ -1,0 +1,44 @@
+{
+  "titre_cours": "Leçon 1 : Les salutations et les formules de politesse (bonjour, merci, au revoir).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir de « A Complete Analysis of the Lýýma Language » de Wesley Sadler (thèse de 1949, village de Woozie, nord du Liberia), republiée et annotée par Valentin Vydrine (Mandenkan n°42, LLACAN/CNRS). C'est une grammaire de référence complète du looma/loma/toma (langue mandée parlée au Liberia et en Guinée forestière), avec un système de transcription phonétique propre à l'auteur (notamment le graphème ß pour une fricative labio-dentale sourde, et des marques toniques). Cette orthographe scientifique est conservée telle quelle ; elle diffère de l'alphabet pratique du loma utilisé en Guinée. La grammaire de Sadler ne comporte pas de section « phrases usuelles », mais elle donne, au fil des exemples illustrant la phonologie, le mot pour remercier.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Remercier",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "mama : remercier",
+          "contenu_detaille": "La grammaire donne 'maÉmaØ' pour « remercier », illustré par l'exemple 'e mama e mama', traduit littéralement « Merci (à toi), merci (à toi) », une répétition qui insiste sur la gratitude.",
+          "vocabulaire_cles": [
+            {
+              "terme": "mama",
+              "traduction_ou_definition": "remercier, merci"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "e mama e mama.",
+              "traduction": "Merci, merci."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'remercier, merci' en looma d'après la grammaire de Sadler ?",
+              "type": "QCM",
+              "options": [
+                "mama",
+                "liá",
+                "vaÉ",
+                "boÉ"
+              ],
+              "reponse_correcte": "mama"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le seul mot de politesse clairement attesté dans la grammaire de Sadler : 'mama' (remercier, merci). La grammaire ne contenant pas de recueil de phrases usuelles, les autres salutations (bonjour, au revoir) n'ont pu être documentées."
+}

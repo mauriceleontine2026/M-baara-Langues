@@ -1,0 +1,137 @@
+{
+  "titre_cours": "Leçon 4 : La famille et les relations proches.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire mooré-français-anglais moderne (généré par SIL, même format que le dictionnaire dioula déjà utilisé dans ce projet), documentant le mooré, langue des Mossi et langue la plus parlée du Burkina Faso, complété par une recherche web (vocabulaire thématique de Targumi, ressources culturelles mossi). Les deux sources se recoupent largement (piiga=dix, tãabo=trois, naase=quatre, ligdi=argent, koom/Ko=eau, barka/Bark=merci confirmés indépendamment par les deux), ce qui renforce la fiabilité du vocabulaire présenté ici ; quelques variantes dialectales mineures entre les deux sources sont signalées. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "La famille",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le père et la mère",
+          "contenu_detaille": "Le dictionnaire donne 'ba/baaba' (ou 'saamba') pour « père », et 'ma' pour « mère, maman ». Une recherche complémentaire confirme ces mots sous une forme simplifiée : 'Ba' (père), 'Ma' (mère), et ajoute 'Yabga' (grand-père) et 'Yabgo' (grand-mère).",
+          "vocabulaire_cles": [
+            {
+              "terme": "ba / baaba / saamba",
+              "traduction_ou_definition": "père"
+            },
+            {
+              "terme": "ma",
+              "traduction_ou_definition": "mère, maman"
+            },
+            {
+              "terme": "Yabga / Yabgo",
+              "traduction_ou_definition": "grand-père / grand-mère"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "A baaba waame.",
+              "traduction": "Son père est venu. (exemple authentique du dictionnaire)"
+            },
+            {
+              "phrase": "Yabga.",
+              "traduction": "Grand-père."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'mère' en mooré d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "ma",
+                "ba",
+                "Yabga",
+                "saam-biiga"
+              ],
+              "reponse_correcte": "ma"
+            },
+            {
+              "question": "'Père' se dit en mooré : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "ba"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Frères et sœurs",
+          "contenu_detaille": "Le dictionnaire donne 'saam-biiga' (ou 'ba-biiga') pour « frère ou sœur consanguin(e), du côté du père ». Une recherche complémentaire donne les formes générales 'Rãamba' (frère aîné) et 'Rãambo' (sœur aînée).",
+          "vocabulaire_cles": [
+            {
+              "terme": "saam-biiga / ba-biiga",
+              "traduction_ou_definition": "frère/sœur consanguin(e), côté du père"
+            },
+            {
+              "terme": "Rãamba / Rãambo",
+              "traduction_ou_definition": "frère aîné / sœur aînée"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "saam-biiga.",
+              "traduction": "Frère ou sœur consanguin(e)."
+            },
+            {
+              "phrase": "Rãamba.",
+              "traduction": "Frère aîné."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Frère aîné' se dit en mooré (forme générale) : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Rãamba"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Le mari, la femme et l'ami",
+          "contenu_detaille": "Une recherche complémentaire donne 'Sɩdga' pour « mari », 'Paga' pour « femme, épouse », et 'Zoa' pour « ami, camarade ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "Sɩdga",
+              "traduction_ou_definition": "mari"
+            },
+            {
+              "terme": "Paga",
+              "traduction_ou_definition": "femme, épouse"
+            },
+            {
+              "terme": "Zoa",
+              "traduction_ou_definition": "ami, camarade"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Sɩdga.",
+              "traduction": "Mari."
+            },
+            {
+              "phrase": "Paga.",
+              "traduction": "Femme, épouse."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'ami, camarade' en mooré ?",
+              "type": "QCM",
+              "options": [
+                "Zoa",
+                "Sɩdga",
+                "Paga",
+                "Yabga"
+              ],
+              "reponse_correcte": "Zoa"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire de la famille (ba, ma, Yabga, Yabgo, Rãamba, Sɩdga, Paga, Zoa), en combinant le dictionnaire académique et une recherche web complémentaire."
+}

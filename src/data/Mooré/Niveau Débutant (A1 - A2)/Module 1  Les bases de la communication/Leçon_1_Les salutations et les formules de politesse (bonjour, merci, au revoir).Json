@@ -1,0 +1,137 @@
+{
+  "titre_cours": "Leçon 1 : Les salutations et les formules de politesse (bonjour, merci, au revoir).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire mooré-français-anglais moderne (généré par SIL, même format que le dictionnaire dioula déjà utilisé dans ce projet), documentant le mooré, langue des Mossi et langue la plus parlée du Burkina Faso, complété par une recherche web (vocabulaire thématique de Targumi, ressources culturelles mossi). Les deux sources se recoupent largement (piiga=dix, tãabo=trois, naase=quatre, ligdi=argent, koom/Ko=eau, barka/Bark=merci confirmés indépendamment par les deux), ce qui renforce la fiabilité du vocabulaire présenté ici ; quelques variantes dialectales mineures entre les deux sources sont signalées. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Saluer en mooré",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Bonjour selon le moment",
+          "contenu_detaille": "Le dictionnaire donne 'ne y beoogo' pour « bonjour » (matin), 'ne y wĩndga' pour « bonjour » (midi), et 'ne y zaabre' pour « bonsoir ». Une recherche complémentaire confirme ces formes sous 'Y'eoogo' (bonjour matin) et 'Zaabr' (bon après-midi), et ajoute 'Laafi' (litt. paix), la salutation la plus fondamentale du mooré, qui signifie à la fois « bonjour » et s'enquiert de la santé.",
+          "vocabulaire_cles": [
+            {
+              "terme": "ne y beoogo / Y'eoogo",
+              "traduction_ou_definition": "bonjour (matin)"
+            },
+            {
+              "terme": "ne y wĩndga",
+              "traduction_ou_definition": "bonjour (midi)"
+            },
+            {
+              "terme": "ne y zaabre / Zaabr",
+              "traduction_ou_definition": "bonsoir, bon après-midi"
+            },
+            {
+              "terme": "Laafi",
+              "traduction_ou_definition": "paix ; salutation fondamentale (bonjour/comment ça va)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ne y beoogo.",
+              "traduction": "Bonjour (matin)."
+            },
+            {
+              "phrase": "Laafi.",
+              "traduction": "Paix (salutation)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quelle est la salutation la plus fondamentale du mooré, d'après une recherche complémentaire ?",
+              "type": "QCM",
+              "options": [
+                "Laafi (paix)",
+                "ne y wĩndga",
+                "barka",
+                "ne y kẽnd"
+              ],
+              "reponse_correcte": "Laafi (paix)"
+            },
+            {
+              "question": "'Bonsoir' se dit en mooré : ne y _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "zaabre"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Merci et je te salue dans ta marche",
+          "contenu_detaille": "Le dictionnaire donne 'barka' pour « merci », avec l'exemple 'Y barka. Wẽnd na kõ d nin daare' (Merci. Que Dieu nous donne un autre jour). Il donne aussi l'expression poétique 'ne y kẽnd' (je te salue dans ta marche), jugée plus raffinée que 'ne y zĩiga' (je te salue toi qui es assis).",
+          "vocabulaire_cles": [
+            {
+              "terme": "barka",
+              "traduction_ou_definition": "merci"
+            },
+            {
+              "terme": "ne y kẽnd",
+              "traduction_ou_definition": "je te salue dans ta marche (salutation à quelqu'un en mouvement)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Y barka. Wẽnd na kõ d nin daare.",
+              "traduction": "Merci. Que Dieu nous donne un autre jour."
+            },
+            {
+              "phrase": "ne y kẽnd.",
+              "traduction": "Je te salue dans ta marche."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'merci' en mooré d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "barka",
+                "Laafi",
+                "koom",
+                "ligdi"
+              ],
+              "reponse_correcte": "barka"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Comment vas-tu et au revoir",
+          "contenu_detaille": "Une recherche complémentaire donne 'Laafi bala?' pour « comment vas-tu ? » (litt. la paix seulement ?), avec la réponse 'Laafi bala' (je vais bien), et 'Yaa soore' pour « au revoir ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "Laafi bala ?",
+              "traduction_ou_definition": "comment vas-tu ? (litt. la paix seulement ?)"
+            },
+            {
+              "terme": "Yaa soore",
+              "traduction_ou_definition": "au revoir"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Laafi bala?",
+              "traduction": "Comment vas-tu ?"
+            },
+            {
+              "phrase": "Yaa soore.",
+              "traduction": "Au revoir."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Au revoir' se dit en mooré : Yaa _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "soore"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les salutations mooré selon le moment de la journée (ne y beoogo, ne y zaabre), le remerciement (barka), la salutation fondamentale Laafi (paix), et l'au revoir (Yaa soore), en combinant le dictionnaire et une recherche web complémentaire."
+}

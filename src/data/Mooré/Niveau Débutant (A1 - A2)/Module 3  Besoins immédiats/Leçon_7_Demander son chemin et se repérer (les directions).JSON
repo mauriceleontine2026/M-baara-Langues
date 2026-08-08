@@ -1,0 +1,69 @@
+{
+  "titre_cours": "Leçon 7 : Demander son chemin et se repérer (les directions).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire mooré-français-anglais moderne (généré par SIL, même format que le dictionnaire dioula déjà utilisé dans ce projet), documentant le mooré, langue des Mossi et langue la plus parlée du Burkina Faso, complété par une recherche web (vocabulaire thématique de Targumi, ressources culturelles mossi). Les deux sources se recoupent largement (piiga=dix, tãabo=trois, naase=quatre, ligdi=argent, koom/Ko=eau, barka/Bark=merci confirmés indépendamment par les deux), ce qui renforce la fiabilité du vocabulaire présenté ici ; quelques variantes dialectales mineures entre les deux sources sont signalées. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Se repérer",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "La droite, aussi le nord",
+          "contenu_detaille": "Le dictionnaire donne 'rɩtgo' (ou 'rɩʋtgo') pour « droite, côté droit », qui signifie aussi « nord » — une association entre la droite et le nord que l'on retrouve dans plusieurs langues d'Afrique de l'Ouest, sans doute liée à une orientation traditionnelle par rapport au soleil levant.",
+          "vocabulaire_cles": [
+            {
+              "terme": "rɩtgo / rɩʋtgo",
+              "traduction_ou_definition": "droite, côté droit ; aussi : nord"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "rɩtgo.",
+              "traduction": "Droite / nord."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que signifie 'rɩtgo' en plus de 'droite', d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "Nord",
+                "Sud",
+                "Est",
+                "Ouest"
+              ],
+              "reponse_correcte": "Nord"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le gaucher et la gauche",
+          "contenu_detaille": "Le dictionnaire donne 'gobre' pour « gaucher », avec un proverbe intéressant : 'Kabr gobr sɛgda ne a soaba' (Quand on s'excuse en tendant la main gauche à quelqu'un, c'est que la personne le mérite), qui souligne la connotation péjorative traditionnellement associée à la main gauche.",
+          "vocabulaire_cles": [
+            {
+              "terme": "gobre",
+              "traduction_ou_definition": "gaucher"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Kabr gobr sɛgda ne a soaba.",
+              "traduction": "Quand on s'excuse en tendant la main gauche à quelqu'un, c'est que la personne le mérite. (Proverbe)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Gaucher' se dit en mooré : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "gobre"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le mot pour la droite/nord (rɩtgo) et pour gaucher (gobre), avec un proverbe authentique sur la connotation de la main gauche, issus du dictionnaire mooré."
+}

@@ -1,0 +1,69 @@
+{
+  "titre_cours": "Leçon 3 : L'alphabet et les sons spécifiques de la langue.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire mooré-français-anglais moderne (généré par SIL, même format que le dictionnaire dioula déjà utilisé dans ce projet), documentant le mooré, langue des Mossi et langue la plus parlée du Burkina Faso, complété par une recherche web (vocabulaire thématique de Targumi, ressources culturelles mossi). Les deux sources se recoupent largement (piiga=dix, tãabo=trois, naase=quatre, ligdi=argent, koom/Ko=eau, barka/Bark=merci confirmés indépendamment par les deux), ce qui renforce la fiabilité du vocabulaire présenté ici ; quelques variantes dialectales mineures entre les deux sources sont signalées. Cette leçon reprend la notation tonale du dictionnaire et les remarques de Wikipédia sur l'alphabet mooré.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les sons du mooré",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Une notation tonale précise",
+          "contenu_detaille": "Le dictionnaire note systématiquement le patron tonal de chaque mot entre crochets, par exemple 'yaa[ò-ó]' ou 'bida[ì]', ce qui montre que le mooré, comme le dioula déjà étudié, distingue le sens des mots par la hauteur mélodique en plus des consonnes et voyelles.",
+          "vocabulaire_cles": [
+            {
+              "terme": "[ ]",
+              "traduction_ou_definition": "crochets notant le patron tonal de chaque entrée du dictionnaire"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "bida[ì].",
+              "traduction": "Noir (idée de), avec sa notation tonale."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment le dictionnaire note-t-il le ton de chaque mot mooré ?",
+              "type": "QCM",
+              "options": [
+                "Entre crochets, après le mot",
+                "Il ne les note pas",
+                "Par des majuscules",
+                "Par des chiffres"
+              ],
+              "reponse_correcte": "Entre crochets, après le mot"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Des voyelles nasales et un alphabet officiel",
+          "contenu_detaille": "Une recherche complémentaire (Wikipédia) confirme que l'alphabet mooré utilise les lettres codifiées dans l'Alphabet national burkinabè, où les voyelles nasales sont notées avec un tilde au-dessus (ã, ẽ, ĩ, õ, ũ) — des voyelles que l'on retrouve constamment dans le dictionnaire, par exemple dans 'Wẽnnaam' (Dieu) ou 'Wẽnd' (Dieu, forme courte).",
+          "vocabulaire_cles": [
+            {
+              "terme": "ã, ẽ, ĩ, õ, ũ",
+              "traduction_ou_definition": "voyelles nasales du mooré, notées avec un tilde"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Wẽnnaam.",
+              "traduction": "Dieu (illustre la voyelle nasale ẽ)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Les voyelles nasales du mooré sont notées avec un _____ au-dessus de la lettre.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "tilde"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le système tonal du mooré (noté systématiquement dans le dictionnaire) et ses voyelles nasales (confirmées par Wikipédia), traits phonologiques centraux de cette langue."
+}

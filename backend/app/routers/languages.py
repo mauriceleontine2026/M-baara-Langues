@@ -1,11 +1,22 @@
+import re
 from fastapi import APIRouter, Depends, HTTPException, status
-from pydantic import BaseModel
+from pydantic import BaseModel, field_validator
 from sqlalchemy.orm import Session
 from ..database import get_db
 from ..models.language import Language
 from ..services.security import require_admin
 
 router = APIRouter()
+
+def _sanitize_text(value: str | None, *, max_length: int) -> str | None:
+    if value is None:
+        return None
+    text = value.strip()
+    text = re.sub(r"[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]", "", text)
+    if len(text) > max_length:
+        raise ValueError(f"Text exceeds maximum length of {max_length} characters")
+    return text
+
 
 class LanguageCreateRequest(BaseModel):
     code: str
@@ -18,6 +29,36 @@ class LanguageCreateRequest(BaseModel):
     flag_emoji: str | None = None
     total_lessons: int | None = 0
     description: str | None = None
+
+    @field_validator("code", "name", "name_fr", "region", "family", "status", "color", "flag_emoji", "description")
+    @classmethod
+    def sanitize_fields(cls, value: str | None, info) -> str | None:
+        max_lengths = {
+            "code": 30,
+            "name": 120,
+            "name_fr": 120,
+            "region": 120,
+            "family": 120,
+            "status": 20,
+            "color": 20,
+            "flag_emoji": 4,
+            "description": 2000,
+        }
+        sanitized = _sanitize_text(value, max_length=max_lengths.get(info.field_name, 200))
+        if info.field_name == "code":
+            if sanitized and not re.fullmatch(r"[a-z0-9_-]+", sanitized.lower()):
+                raise ValueError("Language code contains invalid characters")
+            return sanitized.lower()
+        return sanitized
+
+    @field_validator("total_lessons")
+    @classmethod
+    def validate_total_lessons(cls, value: int | None) -> int | None:
+        if value is None:
+            return value
+        if value < 0 or value > 10000:
+            raise ValueError("total_lessons must be between 0 and 10000")
+        return value
 
 
 @router.get("")

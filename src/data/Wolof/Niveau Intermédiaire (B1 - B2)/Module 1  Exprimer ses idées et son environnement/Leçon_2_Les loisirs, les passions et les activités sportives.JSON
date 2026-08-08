@@ -1,0 +1,127 @@
+{
+  "titre_cours": "Leçon 2 : Les loisirs, les passions et les activités sportives.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Français-Wolof et Wolof-Français », compilant les dictionnaires de Dard, du baron Roger et de l'abbé Lambert, revu et considérablement augmenté par les missionnaires de la Congrégation du Saint-Esprit et du Saint-Cœur de Marie (édition ancienne, Dakar/Saint-Louis du Sénégal). Ce document est une liste alphabétique française-wolof (mots et locutions), sans phrases dialoguées suivies ; l'orthographe d'origine (accents, apostrophes) est conservée telle quelle. L'extraction automatique de ce document scanné a pu déformer certains diacritiques (accents, lettres ñ/à propres au wolof) ; les transcriptions ci-dessous sont données sous cette réserve. Ce dictionnaire ancien ne contient pas de vocabulaire sportif moderne ; cette leçon se limite honnêtement au vocabulaire de jeu, de musique et de voyage effectivement attesté.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Jeu, musique et voyage",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Jouer",
+          "contenu_detaille": "Le dictionnaire donne 'fo' pour « jouer », avec des précisions : jouer aux jeux propres au pays se dit 'uri' (ou 'yoté'), jouer de la harpe se dit 'halam', jouer de la flûte se dit 'tohoro' (ou 'silimbâ').",
+          "vocabulaire_cles": [
+            {
+              "terme": "fo",
+              "traduction_ou_definition": "jouer"
+            },
+            {
+              "terme": "halam",
+              "traduction_ou_definition": "jouer de la harpe"
+            },
+            {
+              "terme": "tohoro / silimbâ",
+              "traduction_ou_definition": "jouer de la flûte"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "fo.",
+              "traduction": "Jouer."
+            },
+            {
+              "phrase": "halam.",
+              "traduction": "Jouer de la harpe."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'jouer' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "fo",
+                "tuki",
+                "doh",
+                "voé"
+              ],
+              "reponse_correcte": "fo"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Chanter et danser",
+          "contenu_detaille": "Le dictionnaire donne 'voé' (ou 'santé') pour « chanter », avec des nuances : chanter à voix haute se dit 'doli', chanter bas se dit 'yètlu' (ou 'rëmal'). 'Danser' se dit 'fétâ' (ou 'gâdo'), et un danseur se dit 'fétâkat'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "voé / santé",
+              "traduction_ou_definition": "chanter"
+            },
+            {
+              "terme": "fétâ / gâdo",
+              "traduction_ou_definition": "danser"
+            },
+            {
+              "terme": "fétâkat",
+              "traduction_ou_definition": "danseur"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "voé.",
+              "traduction": "Chanter."
+            },
+            {
+              "phrase": "fétâ.",
+              "traduction": "Danser."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Danser' se dit en wolof : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "fétâ"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Voyager",
+          "contenu_detaille": "Le dictionnaire donne 'yon' (ou 'tuki') pour « voyage », et 'tuki' pour le verbe « voyager ». Un grand voyageur (« voyage très-long ») se dit avec 'tuki' suivi de 'rër'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "yon / tuki",
+              "traduction_ou_definition": "voyage"
+            },
+            {
+              "terme": "tuki",
+              "traduction_ou_definition": "voyager"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "tuki.",
+              "traduction": "Voyage / voyager."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'voyager' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "tuki",
+                "dekâ",
+                "ker",
+                "borom"
+              ],
+              "reponse_correcte": "tuki"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire du jeu (fo, halam), de la musique et de la danse (voé, fétâ), et du voyage (tuki), seuls champs lexicaux de loisir clairement documentés par ce dictionnaire ancien."
+}

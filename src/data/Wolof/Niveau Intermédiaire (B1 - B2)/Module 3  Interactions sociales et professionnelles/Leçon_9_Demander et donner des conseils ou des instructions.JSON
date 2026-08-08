@@ -1,0 +1,119 @@
+{
+  "titre_cours": "Leçon 9 : Demander et donner des conseils ou des instructions.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Français-Wolof et Wolof-Français », compilant les dictionnaires de Dard, du baron Roger et de l'abbé Lambert, revu et considérablement augmenté par les missionnaires de la Congrégation du Saint-Esprit et du Saint-Cœur de Marie (édition ancienne, Dakar/Saint-Louis du Sénégal). Ce document est une liste alphabétique française-wolof (mots et locutions), sans phrases dialoguées suivies ; l'orthographe d'origine (accents, apostrophes) est conservée telle quelle. L'extraction automatique de ce document scanné a pu déformer certains diacritiques (accents, lettres ñ/à propres au wolof) ; les transcriptions ci-dessous sont données sous cette réserve.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le conseil",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Conseil et conseiller",
+          "contenu_detaille": "Le dictionnaire donne 'ndigal' (ou 'diktat') pour « conseil », et 'digalé' (ou 'diktat') pour le verbe « conseiller ». Celui qui conseille se dit 'digalèkat'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "ndigal / diktat",
+              "traduction_ou_definition": "conseil"
+            },
+            {
+              "terme": "digalé",
+              "traduction_ou_definition": "conseiller (verbe)"
+            },
+            {
+              "terme": "digalèkat",
+              "traduction_ou_definition": "conseiller (personne)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ndigal.",
+              "traduction": "Conseil."
+            },
+            {
+              "phrase": "digalé.",
+              "traduction": "Conseiller."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'conseiller' (verbe) d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "digalé",
+                "ndigal",
+                "ligèy",
+                "war"
+              ],
+              "reponse_correcte": "digalé"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Consentir",
+          "contenu_detaille": "Le dictionnaire donne 'tagu' pour « consentir », un mot proche par la forme de 'tagub' (consentement), ce qui montre le lien entre donner un conseil et obtenir l'assentiment de son interlocuteur.",
+          "vocabulaire_cles": [
+            {
+              "terme": "tagu",
+              "traduction_ou_definition": "consentir"
+            },
+            {
+              "terme": "tagub",
+              "traduction_ou_definition": "consentement"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "tagu.",
+              "traduction": "Consentir."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Consentir' se dit en wolof : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "tagu"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "L'assemblée où l'on prend conseil",
+          "contenu_detaille": "Le dictionnaire précise que le lieu où l'on prend conseil, l'assemblée délibérative, se dit 'mbolo' (ou 'woté', 'ndadè'), et que le lieu physique de cette assemblée se dit 'mpéntâ'. Cela montre que le conseil, en wolof, n'est pas seulement un acte individuel mais aussi une institution collective.",
+          "vocabulaire_cles": [
+            {
+              "terme": "mbolo / woté",
+              "traduction_ou_definition": "assemblée (lieu du conseil)"
+            },
+            {
+              "terme": "mpéntâ",
+              "traduction_ou_definition": "lieu de l'assemblée"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "mbolo.",
+              "traduction": "Assemblée."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'assemblée' (lieu du conseil collectif) d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "mbolo",
+                "ndigal",
+                "tagu",
+                "digalé"
+              ],
+              "reponse_correcte": "mbolo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire du conseil individuel (ndigal, digalé, tagu) et de l'assemblée délibérative collective (mbolo, mpéntâ), issu du dictionnaire."
+}

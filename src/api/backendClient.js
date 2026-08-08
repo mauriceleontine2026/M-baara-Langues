@@ -21,38 +21,11 @@ const getApiBaseUrl = () => {
 // that cookie automatically; login/register calls still notify listeners so
 // the rest of the app (AuthContext) knows to re-check "who am I".
 const CSRF_COOKIE_NAME = "mbaara_csrf_token";
-const ACCESS_TOKEN_STORAGE_KEY = "mbaara_access_token";
 
 const getCsrfToken = () => {
   if (typeof document === "undefined") return null;
   const match = document.cookie.match(new RegExp(`(?:^|; )${CSRF_COOKIE_NAME}=([^;]*)`));
   return match ? decodeURIComponent(match[1]) : null;
-};
-
-const getStoredAccessToken = () => {
-  if (typeof window === "undefined" || !window.localStorage) return null;
-  try {
-    return window.localStorage.getItem(ACCESS_TOKEN_STORAGE_KEY);
-  } catch {
-    return null;
-  }
-};
-
-const persistAccessToken = (token) => {
-  if (typeof window === "undefined" || !window.localStorage) return;
-  try {
-    if (token) {
-      window.localStorage.setItem(ACCESS_TOKEN_STORAGE_KEY, token);
-    } else {
-      window.localStorage.removeItem(ACCESS_TOKEN_STORAGE_KEY);
-    }
-  } catch {
-    // Ignore localStorage failures on restricted browsers.
-  }
-};
-
-const clearStoredAccessToken = () => {
-  persistAccessToken(null);
 };
 
 const notifyAuthChanged = () => {
@@ -96,7 +69,7 @@ const formatErrorMessage = (data, fallback) => {
 
 const MUTATING_METHODS = new Set(["POST", "PUT", "PATCH", "DELETE"]);
 
-const request = async (method, path, body, queryParams) => {
+const request = async (method, path, body, queryParams, captchaToken) => {
   const url = buildApiUrl(path);
   if (queryParams) {
     Object.entries(queryParams).forEach(([key, value]) => {
@@ -115,11 +88,9 @@ const request = async (method, path, body, queryParams) => {
     if (csrfToken) {
       headers["X-CSRF-Token"] = csrfToken;
     }
-  }
-
-  const accessToken = getStoredAccessToken();
-  if (accessToken) {
-    headers["Authorization"] = `Bearer ${accessToken}`;
+    if (captchaToken) {
+      headers["X-Captcha-Token"] = captchaToken;
+    }
   }
 
   let bodyValue;
@@ -159,9 +130,6 @@ const request = async (method, path, body, queryParams) => {
   }
 
   if (!response.ok) {
-    if (response.status === 401 || response.status === 403) {
-      clearStoredAccessToken();
-    }
     const error = new Error(formatErrorMessage(data, response.statusText || "Request failed"));
     Object.assign(error, {
       status: response.status,
@@ -170,11 +138,7 @@ const request = async (method, path, body, queryParams) => {
     throw error;
   }
 
-  if (data?.access_token && typeof data.access_token === "string") {
-    persistAccessToken(data.access_token);
-  }
-
   return data;
 };
 
-export { notifyAuthChanged, request, clearStoredAccessToken };
+export { notifyAuthChanged, request };

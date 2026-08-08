@@ -1,0 +1,123 @@
+{
+  "titre_cours": "Leçon 1 : Les salutations et les formules de politesse (bonjour, merci, au revoir).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir du « Lexique bisa-français, suivi d'un index français-bisa » de Bettie Vanhoudt (Mandenkan n°34, 1999), documentant le dialecte lebir du bisa (Zabré, Burkina Faso). MISE À JOUR : cette leçon avait été signalée comme trop pauvre. Elle a été enrichie par une recherche web complémentaire, notamment un article culturel citant des phrases usuelles en bisa. Attention : plusieurs sources web classent le bissa comme langue gur plutôt que mandé, contrairement au lexique de Vanhoudt (source universitaire) et à Wikipédia, qui le classent tous deux comme langue mandée ; certaines formes web pourraient aussi refléter un dialecte différent (barka plutôt que lebir). Deux mots de cette source web (bɔ̀tím/Bouéti'm « demain » et bùsúː/bousso « argent») recoupent heureusement exactement le lexique de Vanhoudt, ce qui renforce la confiance dans les autres formes citées.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Saluer en bisa",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Bonjour et bonsoir",
+          "contenu_detaille": "Une recherche complémentaire donne 'Hi domerèki' pour « bonjour » et 'Hi yirbâki' pour « bonsoir », deux formules bâties sur l'élément commun 'Hi', qui semble jouer un rôle de salutation générale, précisé ensuite selon le moment de la journée.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Hi domerèki",
+              "traduction_ou_definition": "bonjour"
+            },
+            {
+              "terme": "Hi yirbâki",
+              "traduction_ou_definition": "bonsoir"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Hi domerèki.",
+              "traduction": "Bonjour."
+            },
+            {
+              "phrase": "Hi yirbâki.",
+              "traduction": "Bonsoir."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'bonjour' en bisa d'après cette source ?",
+              "type": "QCM",
+              "options": [
+                "Hi domerèki",
+                "Hi yirbâki",
+                "Môn lâfi",
+                "bárkà"
+              ],
+              "reponse_correcte": "Hi domerèki"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Merci (lexique) et comment ça va (web)",
+          "contenu_detaille": "Le lexique de Vanhoudt donne 'bárkà' (emprunt à l'arabe) pour « merci ». La recherche complémentaire donne 'Awô lâfi'ra' pour « comment allez-vous ? », et la réponse 'Môn lâfi' pour « je vais bien ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "bárkà",
+              "traduction_ou_definition": "merci (lexique de Vanhoudt)"
+            },
+            {
+              "terme": "Awô lâfi'ra ?",
+              "traduction_ou_definition": "Comment allez-vous ?"
+            },
+            {
+              "terme": "Môn lâfi",
+              "traduction_ou_definition": "je vais bien"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "bárkà.",
+              "traduction": "Merci."
+            },
+            {
+              "phrase": "Awô lâfi'ra? — Môn lâfi.",
+              "traduction": "Comment allez-vous ? — Je vais bien."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Comment allez-vous ?' se dit en bisa : Awô _____ ?",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "lâfi'ra"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Non et je suis d'accord",
+          "contenu_detaille": "Le lexique donne 'ăy' pour « non ». La recherche complémentaire donne 'Môn yè' pour « je suis d'accord », une formule utile pour clore poliment un échange ou confirmer une entente.",
+          "vocabulaire_cles": [
+            {
+              "terme": "ăy",
+              "traduction_ou_definition": "non (lexique de Vanhoudt)"
+            },
+            {
+              "terme": "Môn yè",
+              "traduction_ou_definition": "je suis d'accord"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Môn yè.",
+              "traduction": "Je suis d'accord."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'je suis d'accord' en bisa, d'après la recherche complémentaire ?",
+              "type": "QCM",
+              "options": [
+                "Môn yè",
+                "ăy",
+                "bárkà",
+                "Hi domerèki"
+              ],
+              "reponse_correcte": "Môn yè"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les formules de salutation en bisa (Hi domerèki, Hi yirbâki), le mot merci du lexique (bárkà), et des expressions de politesse courantes (Awô lâfi'ra, Môn lâfi, Môn yè) établies à partir d'une recherche web complémentaire."
+}

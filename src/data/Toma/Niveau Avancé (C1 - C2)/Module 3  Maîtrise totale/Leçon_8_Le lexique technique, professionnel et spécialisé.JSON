@@ -1,0 +1,77 @@
+{
+  "titre_cours": "Leçon 8 : Le lexique technique, professionnel et spécialisé.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit à partir de « A Complete Analysis of the Lýýma Language » de Wesley Sadler (thèse de 1949, village de Woozie, nord du Liberia), republiée et annotée par Valentin Vydrine (Mandenkan n°42, LLACAN/CNRS). C'est une grammaire de référence complète du looma/loma/toma (langue mandée parlée au Liberia et en Guinée forestière), avec un système de transcription phonétique propre à l'auteur (notamment le graphème ß pour une fricative labio-dentale sourde, et des marques toniques). Cette orthographe scientifique est conservée telle quelle ; elle diffère de l'alphabet pratique du loma utilisé en Guinée. Cette leçon présente le phénomène technique le plus caractéristique des langues mandé décrit par la grammaire : le changement consonantique initial (Initial Consonant Change, ICC).",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le changement consonantique initial (ICC)",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Un phénomène grammatical systématique",
+          "contenu_detaille": "La grammaire consacre tout un chapitre (III) au « changement consonantique initial » : certaines consonnes en début de mot changent systématiquement selon l'environnement phonologique, morphologique ou syntaxique. Par exemple, 'b' et 'p' deviennent 'v' devant certaines voyelles : 'biáli' (chèvre) devient 'viáli' dans certains contextes grammaticaux, et 'peÉle' (route) devient 'veÉle'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "changement consonantique initial (ICC)",
+              "traduction_ou_definition": "phénomène grammatical mandé : certaines consonnes initiales changent selon le contexte"
+            },
+            {
+              "terme": "b, p → v",
+              "traduction_ou_definition": "exemple de changement (ex. biáli → viáli, chèvre)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "biáli → viáli.",
+              "traduction": "Chèvre (forme changée selon le contexte grammatical)."
+            },
+            {
+              "phrase": "peÉle → veÉle.",
+              "traduction": "Route (forme changée)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que décrit le chapitre III de la grammaire de Sadler ?",
+              "type": "QCM",
+              "options": [
+                "Le changement consonantique initial (ICC)",
+                "La conjugaison du futur",
+                "Les couleurs",
+                "Les salutations"
+              ],
+              "reponse_correcte": "Le changement consonantique initial (ICC)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Les déclencheurs syntaxiques du changement",
+          "contenu_detaille": "La grammaire montre que l'ICC est déclenché par de nombreux environnements syntaxiques précis : après un objet défini (suffixé en '-i'), après un pronom possessif, avec la voix passive, ou lorsqu'un verbe transitif est employé de façon intransitive. Ce système, absent du français, constitue l'un des traits les plus techniques et les plus difficiles à maîtriser du looma, comparable par sa complexité aux systèmes de classes nominales d'autres langues africaines.",
+          "vocabulaire_cles": [
+            {
+              "terme": "déclencheurs de l'ICC",
+              "traduction_ou_definition": "objet défini, pronom possessif, voix passive, emploi intransitif d'un verbe transitif, etc."
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque générale de la grammaire)",
+              "traduction": "L'ICC est déclenché par de nombreux environnements syntaxiques précis, propres à la grammaire looma."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le phénomène par lequel certaines consonnes de début de mot changent selon le contexte grammatical s'appelle en looma le changement consonantique _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "initial"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le changement consonantique initial (ICC), phénomène grammatical technique caractéristique des langues mandé, décrit en détail dans le Chapitre III de la grammaire de Sadler."
+}

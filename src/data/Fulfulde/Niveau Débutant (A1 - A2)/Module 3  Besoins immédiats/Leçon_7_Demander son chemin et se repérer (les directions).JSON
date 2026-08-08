@@ -1,0 +1,77 @@
+{
+  "titre_cours": "Leçon 7 : Demander son chemin et se repérer (les directions).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire fulfulde-français-anglais moderne (même format SIL que les dictionnaires dioula et mooré déjà utilisés dans ce projet), documentant le fulfulde du Burkina Faso (langue peule), complété par une recherche web. Cette langue appartient au même continuum que le pulaar du Fouta Djallon (Guinée) déjà étudié dans un autre cours de ce projet ([[pulaar-language-course]]) ; plusieurs mots se recoupent presque exactement d'un pays à l'autre (nyaamo=droite, nano=gauche, ɗiɗi=deux...), tandis que d'autres diffèrent, reflet naturel de la variation dialectale du fulfulde à travers l'Afrique de l'Ouest. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Se repérer",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Droite et gauche : les mêmes mots qu'au Fouta Djallon",
+          "contenu_detaille": "Le dictionnaire donne 'nyaamo' pour « droite » et 'nano' pour « gauche » — exactement les mêmes mots que ceux déjà documentés dans le pulaar du Fouta Djallon (Guinée) étudié ailleurs dans ce projet, une preuve concrète de la parenté étroite entre les variétés de fulfulde parlées au Burkina Faso et en Guinée, malgré la distance géographique.",
+          "vocabulaire_cles": [
+            {
+              "terme": "nyaamo",
+              "traduction_ou_definition": "droite (identique au pulaar de Guinée)"
+            },
+            {
+              "terme": "nano",
+              "traduction_ou_definition": "gauche (identique au pulaar de Guinée)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "nyaamo.",
+              "traduction": "Droite."
+            },
+            {
+              "phrase": "nano.",
+              "traduction": "Gauche."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'droite' en fulfulde du Burkina Faso, identique au pulaar de Guinée ?",
+              "type": "QCM",
+              "options": [
+                "nyaamo",
+                "nano",
+                "sappo",
+                "go'o"
+              ],
+              "reponse_correcte": "nyaamo"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "En mathématiques aussi : peewngol",
+          "contenu_detaille": "Le dictionnaire donne aussi 'peewngol' pour « droite » au sens mathématique (une ligne droite), classé sous la catégorie « Mathématiques », distinct de 'nyaamo' qui désigne la droite comme direction relative au corps.",
+          "vocabulaire_cles": [
+            {
+              "terme": "peewngol",
+              "traduction_ou_definition": "droite (ligne, sens mathématique)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "peewngol (diidol).",
+              "traduction": "La droite (la ligne)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Droite' au sens d'une ligne mathématique se dit en fulfulde : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "peewngol"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les mots pour droite (nyaamo) et gauche (nano), identiques au pulaar du Fouta Djallon déjà étudié dans ce projet, ainsi que le mot mathématique pour une ligne droite (peewngol)."
+}

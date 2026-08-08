@@ -1,0 +1,184 @@
+{
+  "titre_cours": "Leçon 6 : Les jours de la semaine, les mois et dire l'heure.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir du Dictionnaire Français-Soso et Soso-Français du R.P. Raimbault (2e édition, Mission Catholique de Conakry, 1921-1923) : chapitre grammatical 'Principes de la langue Soso', recueil de phrases usuelles, et entrées des dictionnaires français-soso et soso-français. L'orthographe d'origine (kh, gn, apostrophes, accents) est conservée telle quelle. Cette leçon rassemble les entrées éparses du dictionnaire français-soso concernant les jours, le temps et l'heure.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le temps qui passe",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les jours de la semaine",
+          "contenu_detaille": "Le dictionnaire donne les sept jours de la semaine : lundi se dit 'tènen', mardi 'talatè', mercredi 'arabè', jeudi 'alakhamisé', vendredi 'ariummè', samedi 'simiti', et dimanche 'sandé' (le document précise qu'il existe aussi 'khati' pour dimanche, mais que ce mot est moins usité que 'sandé'). Le mot 'jour' se dit 'lokhè', et 'semaine' se dit 'lokhè-khun'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "tènen",
+              "traduction_ou_definition": "lundi"
+            },
+            {
+              "terme": "talatè",
+              "traduction_ou_definition": "mardi"
+            },
+            {
+              "terme": "arabè",
+              "traduction_ou_definition": "mercredi"
+            },
+            {
+              "terme": "alakhamisé",
+              "traduction_ou_definition": "jeudi"
+            },
+            {
+              "terme": "ariummè",
+              "traduction_ou_definition": "vendredi"
+            },
+            {
+              "terme": "simiti",
+              "traduction_ou_definition": "samedi"
+            },
+            {
+              "terme": "sandé",
+              "traduction_ou_definition": "dimanche"
+            },
+            {
+              "terme": "lokhè",
+              "traduction_ou_definition": "jour, journée"
+            },
+            {
+              "terme": "lokhè-khun",
+              "traduction_ou_definition": "semaine"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Sandé",
+              "traduction": "Dimanche"
+            },
+            {
+              "phrase": "Sandé, lokhè-khun.",
+              "traduction": "Dimanche, jour de la semaine."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'vendredi' en soso ?",
+              "type": "QCM",
+              "options": [
+                "ariummè",
+                "alakhamisé",
+                "simiti",
+                "tènen"
+              ],
+              "reponse_correcte": "ariummè"
+            },
+            {
+              "question": "Le mot pour 'semaine' est formé de 'lokhè' (jour) suivi de : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "khun"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Les mois et les repères temporels (hier, aujourd'hui, demain)",
+          "contenu_detaille": "Le dictionnaire donne le mot 'kigé' pour 'mois', en précisant que ce même mot signifie aussi 'lune' (kigé, qui signifie aussi mois). Pour les repères temporels, on trouve 'to' (aujourd'hui), 'Una' (demain), 'khôrô' (hier) et 'khôrô-bora' (avant-hier).",
+          "vocabulaire_cles": [
+            {
+              "terme": "kigé",
+              "traduction_ou_definition": "mois (et aussi : lune)"
+            },
+            {
+              "terme": "to",
+              "traduction_ou_definition": "aujourd'hui"
+            },
+            {
+              "terme": "Una",
+              "traduction_ou_definition": "demain"
+            },
+            {
+              "terme": "khôrô",
+              "traduction_ou_definition": "hier"
+            },
+            {
+              "terme": "khôrô-bora",
+              "traduction_ou_definition": "avant-hier"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Afamato.",
+              "traduction": "Il viendra aujourd'hui."
+            },
+            {
+              "phrase": "Tuléfama Una.",
+              "traduction": "Il pleuvra demain."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel mot signifie à la fois 'mois' et 'lune' d'après le document ?",
+              "type": "QCM",
+              "options": [
+                "kigé",
+                "lokhè",
+                "to",
+                "wakhati"
+              ],
+              "reponse_correcte": "kigé"
+            },
+            {
+              "question": "'Hier' se dit en soso : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "khôrô"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Dire l'heure",
+          "contenu_detaille": "Le document donne 'wakhati' pour 'heure', et la question 'quelle heure est-il ?' se dit 'Wakhatiyériara ?'. Un exemple précise les demi-heures : 'Wakhatinaninunatègin'ara' signifie 'il est quatre heures et demie' ('nani' = quatre, 'tègi' = demi).",
+          "vocabulaire_cles": [
+            {
+              "terme": "wakhati",
+              "traduction_ou_definition": "heure"
+            },
+            {
+              "terme": "Wakhatiyériara ?",
+              "traduction_ou_definition": "Quelle heure est-il ?"
+            },
+            {
+              "terme": "tègi",
+              "traduction_ou_definition": "demi"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Wakhatiyériara ?",
+              "traduction": "Quelle heure est-il ?"
+            },
+            {
+              "phrase": "Wakhatinaninunatègin'ara.",
+              "traduction": "Il est quatre heures et demie."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment demande-t-on l'heure en soso ?",
+              "type": "QCM",
+              "options": [
+                "Wakhatiyériara ?",
+                "Ikhilimonki ?",
+                "Iniyèyéri ?",
+                "Isigamamindé ?"
+              ],
+              "reponse_correcte": "Wakhatiyériara ?"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les jours de la semaine, les mots 'kigé' (mois/lune), les repères temporels courants (to, Una, khôrô) et la formule pour demander l'heure ('Wakhatiyériara ?'), tous issus du dictionnaire de 1923."
+}

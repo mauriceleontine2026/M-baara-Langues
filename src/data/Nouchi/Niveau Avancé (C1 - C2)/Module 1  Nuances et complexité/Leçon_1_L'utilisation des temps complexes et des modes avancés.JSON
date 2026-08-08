@@ -1,0 +1,107 @@
+{
+  "titre_cours": "Leçon 1 : L'utilisation des temps complexes et des modes avancés.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir de deux articles universitaires fournis : Séraphin Kouakou Konan, « L'intrusion de mots nouchi dans la langue française : création ou désordre ? », Sudlangues n°14 (2010) ; et Kouakou Kouakou Antoine & Koffi Kouamé Narcisse, « Le nouchi d'hier à aujourd'hui : quelles innovations lexicales ! », Ziglôbitha n°08 (2023). AVERTISSEMENT IMPORTANT : ces documents ne sont pas des dictionnaires organisés par thème, mais des articles de sociolinguistique analysant les mécanismes de formation lexicale du nouchi (argot urbain ivoirien né dans les années 1980 à Abidjan, mêlant français, dioula et autres langues locales et internationales). Le vocabulaire qu'ils fournissent est donc dispersé et non structuré par thème de la vie quotidienne (pas de mots pour les salutations, les chiffres, les jours, la nourriture, les couleurs) ; il porte en revanche fortement sur l'argent, les relations amoureuses, la tromperie, la fuite et l'apparence physique. Le nouchi est de plus, par nature, un registre familier et transgressif, ce qui rend certains thèmes de ce cours (registre soutenu, proverbes classiques) difficiles à traiter fidèlement sans trahir la nature même de cette langue. Cette leçon synthétise la section « Caractéristiques morphologiques » de l'article de 2010, qui analyse en détail le genre, le nombre, la personne et les temps/modes du nouchi.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "La morphologie verbale et nominale du nouchi",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le genre : un système emprunté aux articles français",
+          "contenu_detaille": "L'article de 2010 montre que le nouchi n'a pas de genre grammatical propre, mais l'emprunte à l'article français qui précède le mot : 'un gloglo' est ainsi considéré comme masculin, 'la go' comme féminin. L'article note aussi qu'un mot nouchi féminin comme 'go' peut n'avoir aucun équivalent masculin, contrairement au couple français fille/garçon, tandis que d'autres mots, comme 'dja' (Dieu), s'emploient sans déterminant du tout, comme en français standard.",
+          "vocabulaire_cles": [
+            {
+              "terme": "genre emprunté aux articles français",
+              "traduction_ou_definition": "le nouchi n'a pas de marque de genre propre, il l'emprunte au déterminant français qui précède le mot"
+            },
+            {
+              "terme": "dja",
+              "traduction_ou_definition": "Dieu (employé sans déterminant, comme en français)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "un gloglo.",
+              "traduction": "Un lieu caché (masculin, marqué par l'article français 'un')."
+            },
+            {
+              "phrase": "la go.",
+              "traduction": "La fille (féminin, marqué par l'article français 'la')."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment le nouchi marque-t-il le genre grammatical, d'après l'article de 2010 ?",
+              "type": "QCM",
+              "options": [
+                "En empruntant l'article français qui précède le mot",
+                "Par un système de classes nominales propre",
+                "Par des suffixes spécifiques au nouchi",
+                "Le nouchi n'a aucune notion de genre"
+              ],
+              "reponse_correcte": "En empruntant l'article français qui précède le mot"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "La personne : un système entièrement calqué sur le français",
+          "contenu_detaille": "L'article de 2010 précise que le nouchi ne dispose pas de système de personnes propre : il utilise directement les personnes de la grammaire française, de la première personne du singulier à la troisième personne du pluriel, comme le montre l'exemple de la conjugaison humoristique du verbe « fuir » (Je beou, tu fraya, il/elle met dedans, nous déchirons, vous borissez, ils/elles gagnent temps) — chaque personne recevant un synonyme différent du même verbe plutôt qu'une désinence propre.",
+          "vocabulaire_cles": [
+            {
+              "terme": "système de personnes calqué sur le français",
+              "traduction_ou_definition": "le nouchi utilise les six personnes du français, mais varie le mot employé plutôt que la désinence"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Je beou, tu fraya, il met dedan...",
+              "traduction": "Je fuis, tu fuis, il fuit... (conjugaison humoristique par synonymes, citée par l'article de 2010)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "D'après l'article de 2010, le nouchi utilise les personnes grammaticales du _____ , sans système propre.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "français"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Une difficulté relevée : les trois dernières personnes du pluriel",
+          "contenu_detaille": "L'article de 2010 signale une difficulté observée dans l'usage : il est très difficile pour les usagers du nouchi d'employer les trois dernières personnes du pluriel (nous, vous, ils/elles) selon les règles habituelles ; les locuteurs préfèrent souvent le pronom neutre « on » à la place de « nous » (« on beou » plutôt que « nous beoussons »). C'est ce qui explique, selon l'article, le recours à des synonymes et néologismes pour représenter artificiellement ces formes dans l'exemple de conjugaison du verbe « fuir ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "on (à la place de nous)",
+              "traduction_ou_definition": "pronom préféré par les usagers du nouchi pour la première personne du pluriel"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "on beou.",
+              "traduction": "On fuit (préféré à 'nous beoussons', d'après l'article de 2010)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel pronom les usagers du nouchi préfèrent-ils à 'nous', d'après l'article de 2010 ?",
+              "type": "QCM",
+              "options": [
+                "on",
+                "vous",
+                "ils",
+                "tu"
+              ],
+              "reponse_correcte": "on"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a synthétisé la morphologie verbale et nominale du nouchi telle que décrite par l'article de 2010 : un genre emprunté aux articles français, un système de personnes calqué sur le français mais réalisé par synonymie plutôt que par désinence, et une préférence marquée pour le pronom 'on'."
+}

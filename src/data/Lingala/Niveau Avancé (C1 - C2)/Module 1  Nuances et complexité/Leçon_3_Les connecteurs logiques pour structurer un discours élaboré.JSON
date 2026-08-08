@@ -1,0 +1,103 @@
+{
+  "titre_cours": "Leçon 3 : Les connecteurs logiques pour structurer un discours élaboré.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir de la fiche « LE LINGALA » d'Alain Kihm (CNRS – Université Paris-Cité), publiée dans le cadre du projet Langues et Grammaires du Monde dans l'Espace Francophone (LGMEF, référence HAL-04102394, 2024). Cette leçon reprend les connecteurs et relateurs effectivement documentés par la fiche : ya/na, óyo, et te/que.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les connecteurs du lingala",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le connecteur ya (ou na)",
+          "contenu_detaille": "La fiche montre que 'ya' (ou 'na') relie l'adjectif au nom qu'il qualifie, le possédé au possesseur ('mobáli ya mokambi', le mari de la patronne), ou un nom abstrait à ce qu'il qualifie ('mibáli ya lokutá', des hommes trompeurs). Précédé de 'na', un pronom fort devient déterminant possessif ('ndako na yé', sa maison) ; mais quand le syntagme possessif précède le nom pour l'emphase, c'est 'ya' qui s'impose ('ya yé ndako', sa maison à elle/lui).",
+          "vocabulaire_cles": [
+            {
+              "terme": "ya / na",
+              "traduction_ou_definition": "connecteur reliant adjectif-nom, possédé-possesseur, abstrait-qualifié"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "mobáli ya mokambi.",
+              "traduction": "Le mari de la patronne."
+            },
+            {
+              "phrase": "ndako na yé.",
+              "traduction": "Sa maison."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel connecteur relie un adjectif au nom qu'il qualifie en lingala ?",
+              "type": "QCM",
+              "options": [
+                "ya (ou na)",
+                "óyo",
+                "te",
+                "wápi"
+              ],
+              "reponse_correcte": "ya (ou na)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le relateur óyo dans les relatives",
+          "contenu_detaille": "La fiche explique que le relateur 'óyo' (tonalement distinct du démonstratif 'oyó') introduit les propositions relatives, mais qu'il est facultatif quand l'antécédent est l'objet du verbe ou un complément circonstanciel : 'mikandá (óyo) mwána akomaka' (les lettres que l'enfant écrit).",
+          "vocabulaire_cles": [
+            {
+              "terme": "óyo (relateur)",
+              "traduction_ou_definition": "introduit la relative, facultatif quand l'antécédent est objet ou circonstant"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "mikandá (óyo) mwána akomaka.",
+              "traduction": "Les lettres que l'enfant écrit."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le relateur qui introduit une proposition relative en lingala est : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "óyo"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "La complétive : te, que, ou rien",
+          "contenu_detaille": "La fiche donne trois façons d'introduire une proposition complétive en lingala : par 'te', par 'que' (emprunté au français), ou par rien du tout : 'Nayebisí yó té (te) mwána akendí' (Je ne t'ai pas fait savoir que l'enfant est parti). Cette absence possible de connecteur, comme en français familier, distingue le lingala d'un usage systématique de la conjonction complétive.",
+          "vocabulaire_cles": [
+            {
+              "terme": "te / que / (rien)",
+              "traduction_ou_definition": "trois façons d'introduire une complétive en lingala"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Nayebisí yó té mwána akendí.",
+              "traduction": "Je ne t'ai pas fait savoir que l'enfant est parti."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Combien de façons la fiche documente-t-elle pour introduire une complétive ?",
+              "type": "QCM",
+              "options": [
+                "Trois : te, que (emprunté au français), ou rien",
+                "Une seule, toujours obligatoire",
+                "Quatre",
+                "Deux seulement"
+              ],
+              "reponse_correcte": "Trois : te, que (emprunté au français), ou rien"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les connecteurs logiques documentés par la fiche : ya/na (adjectif, possession), óyo (relateur, facultatif selon la fonction de l'antécédent) et te/que (complétive), d'après la fiche d'Alain Kihm."
+}

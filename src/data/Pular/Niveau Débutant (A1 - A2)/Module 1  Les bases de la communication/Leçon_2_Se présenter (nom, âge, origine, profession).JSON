@@ -1,0 +1,135 @@
+{
+  "titre_cours": "Leçon 2 : Se présenter (nom, âge, origine, profession).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir du « Précis de grammaire et de lexique du peul du Fouta Djallon » d'Abdourahmane Diallo (ILCAA, Tokyo University of Foreign Studies, 2015), qui documente le pular (variante du peul/fulfulde) parlé en Guinée. L'orthographe d'origine (ɓ, ɗ, ƴ, ɲ, ŋ, apostrophe glottale) est conservée telle quelle. Cette leçon combine le dialogue de la Leçon 2 (nom) et les questions/réponses sur le métier de la Leçon 12 du manuel (pages 61-62).",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Se présenter",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Dire son nom",
+          "contenu_detaille": "Comme vu en Leçon 1, la question 'Ko honno inneteɗaa?' signifie 'comment tu t'appelles ?', et l'on répond par 'Ko' suivi du prénom, comme dans 'Ko Aamadu' (je m'appelle Amadou).",
+          "vocabulaire_cles": [
+            {
+              "terme": "Ko honno inneteɗaa ?",
+              "traduction_ou_definition": "Comment tu t'appelles ?"
+            },
+            {
+              "terme": "Ko + prénom",
+              "traduction_ou_definition": "je m'appelle + prénom"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ko Aamadu.",
+              "traduction": "Je m'appelle Amadou."
+            },
+            {
+              "phrase": "An kadi, ko honno inneteɗaa?",
+              "traduction": "Et toi, comment tu t'appelles ?"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment demande-t-on le nom de quelqu'un en pular ?",
+              "type": "QCM",
+              "options": [
+                "Ko honno inneteɗaa?",
+                "Ko honto gollataa?",
+                "Ko honɗun woni golle maa?",
+                "Tanaa alaa ton?"
+              ],
+              "reponse_correcte": "Ko honno inneteɗaa?"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Dire son origine",
+          "contenu_detaille": "Le manuel donne des noms de nationalité formés par des suffixes de classe humaine, comme 'Gineyenjo' (un Guinéen) et 'portoojo' (une personne à peau blanche, un Blanc). Le mot 'Gine' désigne la Guinée.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Gineyenjo",
+              "traduction_ou_definition": "un Guinéen"
+            },
+            {
+              "terme": "Gine",
+              "traduction_ou_definition": "la Guinée"
+            },
+            {
+              "terme": "portoojo",
+              "traduction_ou_definition": "personne à peau blanche, un Blanc"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Portoojo no lanndii fii laawol Labe.",
+              "traduction": "Un Blanc a demandé le chemin de Labé."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Un Guinéen' se dit en pular : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Gineyenjo"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Parler de sa profession",
+          "contenu_detaille": "Le manuel présente deux façons de demander le métier de quelqu'un : (i) une question portant sur le travail, 'Ko honɗun woni golle maa?' (c'est quoi ton travail ?), et (ii) une question portant sur la personne elle-même, 'Ko a honɗun(jo)?' (tu es quoi ?). On répond à la première par 'ko' suivi du nom du métier, par exemple 'ko soferyaagal' (c'est la conduite, le métier de chauffeur). On répond à la seconde par 'ko mi' suivi du nom du travailleur, par exemple 'ko mi masonjo' (je suis maçon), 'ko mi poliisiijo' (je suis policier), 'ko mi awokaajo' (je suis avocat).",
+          "vocabulaire_cles": [
+            {
+              "terme": "Ko honɗun woni golle maa ?",
+              "traduction_ou_definition": "C'est quoi ton travail ?"
+            },
+            {
+              "terme": "Ko a honɗun(jo) ?",
+              "traduction_ou_definition": "Tu es quoi (comme métier) ?"
+            },
+            {
+              "terme": "ko mi masonjo",
+              "traduction_ou_definition": "je suis maçon"
+            },
+            {
+              "terme": "ko mi poliisiijo",
+              "traduction_ou_definition": "je suis policier"
+            },
+            {
+              "terme": "ko mi awokaajo",
+              "traduction_ou_definition": "je suis avocat"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ko a honɗun(jo)?",
+              "traduction": "Tu es quoi ?"
+            },
+            {
+              "phrase": "Ko mi masonjo.",
+              "traduction": "Je suis maçon."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment répond-on 'je suis maçon' en pular ?",
+              "type": "QCM",
+              "options": [
+                "Ko mi masonjo",
+                "Ko mi poliisiijo",
+                "Ko mi awokaajo",
+                "Ko mi mekanisiyenjo"
+              ],
+              "reponse_correcte": "Ko mi masonjo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les formules pour dire son nom (Ko honno inneteɗaa?), son origine (Gineyenjo) et sa profession (Ko a honɗun(jo)?, ko mi + métier), issues du manuel de 2015."
+}

@@ -1,0 +1,99 @@
+{
+  "titre_cours": "Leçon 7 : Demander son chemin et se repérer (les directions).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir du document fourni. Note importante : ce document est en réalité le « Petit Dictionnaire Français-Bambara et Bambara-Français » de Moussa Travélé (Librairie Paul Geuthner, Paris, début du XXe siècle), consacré au bambara — une langue mandingue très proche du malinké, à laquelle le dictionnaire lui-même fait plusieurs fois référence explicite sous l'abréviation 'M.' (mot malinké). En l'absence d'un dictionnaire malinké dédié, ce cours utilise fidèlement ce contenu bambara/malinké, sans y ajouter aucune information extérieure. Ce dictionnaire est une liste alphabétique de mots (deux sens) et ne contient ni phrases dialoguées ni tableaux de conjugaison ; les leçons ci-dessous s'appuient donc sur le vocabulaire isolé qu'il fournit, complété quand cela existe par les 'Observations préliminaires' sur la prononciation.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Se repérer",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le chemin, la droite et la gauche",
+          "contenu_detaille": "Le dictionnaire donne 'Sira' pour 'chemin, sentier, voie, route', 'Kinin' pour 'droit(e)', et 'Nouman' pour 'gauche'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Sira",
+              "traduction_ou_definition": "chemin, sentier, voie, route"
+            },
+            {
+              "terme": "Kinin",
+              "traduction_ou_definition": "droit, droite"
+            },
+            {
+              "terme": "Nouman",
+              "traduction_ou_definition": "gauche"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Sira.",
+              "traduction": "Chemin."
+            },
+            {
+              "phrase": "Kinin.",
+              "traduction": "Droite."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'chemin' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "Sira",
+                "Kinin",
+                "Nouman",
+                "Dougou"
+              ],
+              "reponse_correcte": "Sira"
+            },
+            {
+              "question": "'Gauche' se dit en bambara/malinké : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Nouman"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Les points cardinaux",
+          "contenu_detaille": "Le dictionnaire donne 'Kuron' (ou 'koron') pour 'est', 'Sahili' (ou 'kagnaga', 'kogo-dougou') pour 'nord', et 'Ouoro' (ou 'ouorodougou', 'bâ') pour 'sud'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Kuron / koron",
+              "traduction_ou_definition": "est"
+            },
+            {
+              "terme": "Sahili / kogo-dougou",
+              "traduction_ou_definition": "nord"
+            },
+            {
+              "terme": "Ouoro / ouorodougou",
+              "traduction_ou_definition": "sud"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Kuron.",
+              "traduction": "Est."
+            },
+            {
+              "phrase": "Ouoro-dougou.",
+              "traduction": "Sud (région du sud)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Est' se dit en bambara/malinké : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Kuron"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire du chemin (Sira), de la droite et de la gauche (Kinin, Nouman), et des points cardinaux (Kuron, Sahili, Ouoro), issus des entrées du dictionnaire."
+}

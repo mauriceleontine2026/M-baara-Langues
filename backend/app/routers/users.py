@@ -1,8 +1,9 @@
 import hashlib
+import re
 import secrets
 import time
 from fastapi import APIRouter, Depends, HTTPException, status
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel, EmailStr, field_validator
 from ..database import get_db
 from ..services.security import get_current_user, get_password_hash
 from ..models.user import User
@@ -13,8 +14,21 @@ router = APIRouter()
 
 INVITE_TOKEN_EXPIRE_SECONDS = 7 * 24 * 60 * 60
 
+
+def _normalize_email(value: str) -> str:
+    return value.strip().lower()
+
+
 class UserInviteRequest(BaseModel):
     email: EmailStr
+
+    @field_validator("email")
+    @classmethod
+    def validate_email(cls, value: str) -> str:
+        normalized = _normalize_email(value)
+        if not re.fullmatch(r"^[A-Za-z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+$", normalized):
+            raise ValueError("Invalid email address")
+        return normalized
 
 @router.get("")
 def list_users(current_user=Depends(get_current_user), db: Session = Depends(get_db)):
@@ -37,7 +51,8 @@ def list_users(current_user=Depends(get_current_user), db: Session = Depends(get
 def invite_user(payload: UserInviteRequest, current_user=Depends(get_current_user), db: Session = Depends(get_db)):
     if current_user.role != 'admin':
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Admin required")
-    existing = db.query(User).filter(User.email == payload.email).first()
+    normalized_email = _normalize_email(payload.email)
+    existing = db.query(User).filter(User.email == normalized_email).first()
     if existing:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email already registered")
     # The account is created with an unusable random password hash; the
@@ -45,9 +60,10 @@ def invite_user(payload: UserInviteRequest, current_user=Depends(get_current_use
     # (reusing the same opaque-token flow as /reset-password), so no
     # credential ever needs to be transmitted in this response.
     user = User(
-        email=payload.email,
+        email=normalized_email,
         hashed_password=get_password_hash(secrets.token_urlsafe(32)),
         role="user",
+        email_verified=False,
     )
     db.add(user)
     db.commit()

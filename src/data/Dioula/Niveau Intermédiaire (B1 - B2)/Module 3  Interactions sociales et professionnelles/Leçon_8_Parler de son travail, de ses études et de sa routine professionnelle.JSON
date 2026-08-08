@@ -1,0 +1,73 @@
+{
+  "titre_cours": "Leçon 8 : Parler de son travail, de ses études et de sa routine professionnelle.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Dioula-Français-Anglais-Allemand » (dernière mise à jour du 28/12/2020), un dictionnaire moderne et très complet (plus de 1200 pages) documentant le dioula (jula) parlé autour de Bobo-Dioulasso, Burkina Faso — une langue mandingue très proche du malinké et du bambara déjà utilisés dans ce projet. Ce dictionnaire est exceptionnellement riche : chaque entrée est classée par catégorie sémantique (Kinship, colour, Food, Mathematics, etc.), donnée avec tons, traduction quadrilingue et souvent un exemple de phrase authentique. Cette leçon reprend le vocabulaire du travail et de la lecture, illustré d'exemples authentiques.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le travail et l'étude",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "baara : le travail",
+          "contenu_detaille": "Comme vu en Leçon 2 du niveau débutant, le dictionnaire donne 'baara' pour « travail, métier, profession », avec l'exemple 'I ka baara ye mun ye?' (Quel est ton métier ?). Le mot 'baaratan' désigne quant à lui le chômeur, la personne sans travail.",
+          "vocabulaire_cles": [
+            {
+              "terme": "baara",
+              "traduction_ou_definition": "travail, métier, profession"
+            },
+            {
+              "terme": "baaratan",
+              "traduction_ou_definition": "chômeur, personne sans travail"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "I ka baara ye mun ye?",
+              "traduction": "Quel est ton métier ?"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'chômeur' en dioula d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "baaratan",
+                "baara",
+                "kalan",
+                "dugu"
+              ],
+              "reponse_correcte": "baaratan"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "kalan : lire, étudier",
+          "contenu_detaille": "Le dictionnaire donne 'kalan' (emprunté à l'arabe) pour « lire », avec l'exemple 'Sɔgɔma o sɔgɔma, an bi Ala ka kuma kalan ɲɔgɔn fɛ' (chaque matin, nous lisons la parole de Dieu ensemble), qui illustre l'usage religieux fréquent de ce verbe dans le contexte de l'apprentissage scripturaire.",
+          "vocabulaire_cles": [
+            {
+              "terme": "kalan",
+              "traduction_ou_definition": "lire (emprunt à l'arabe)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Sɔgɔma o sɔgɔma, an bi Ala ka kuma kalan ɲɔgɔn fɛ.",
+              "traduction": "Chaque matin, nous lisons la parole de Dieu ensemble."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Lire' se dit en dioula (emprunt à l'arabe) : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "kalan"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire du travail (baara, baaratan) et de la lecture/étude (kalan), issu du dictionnaire dioula."
+}

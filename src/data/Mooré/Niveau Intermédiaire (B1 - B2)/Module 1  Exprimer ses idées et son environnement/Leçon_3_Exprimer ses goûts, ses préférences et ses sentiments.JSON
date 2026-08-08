@@ -1,0 +1,81 @@
+{
+  "titre_cours": "Leçon 3 : Exprimer ses goûts, ses préférences et ses sentiments.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire mooré-français-anglais moderne (généré par SIL, même format que le dictionnaire dioula déjà utilisé dans ce projet), documentant le mooré, langue des Mossi et langue la plus parlée du Burkina Faso, complété par une recherche web (vocabulaire thématique de Targumi, ressources culturelles mossi). Les deux sources se recoupent largement (piiga=dix, tãabo=trois, naase=quatre, ligdi=argent, koom/Ko=eau, barka/Bark=merci confirmés indépendamment par les deux), ce qui renforce la fiabilité du vocabulaire présenté ici ; quelques variantes dialectales mineures entre les deux sources sont signalées. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Aimer et vouloir",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "nonge : aimer",
+          "contenu_detaille": "Le dictionnaire donne 'nonge' pour « aimer », avec l'exemple 'Mam nonga foo' (Je t'aime), et 'nong-taaba' pour « s'aimer l'un l'autre, amour mutuel ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "nonge",
+              "traduction_ou_definition": "aimer"
+            },
+            {
+              "terme": "nong-taaba",
+              "traduction_ou_definition": "aimer l'un l'autre, amour mutuel"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Mam nonga foo.",
+              "traduction": "Je t'aime."
+            },
+            {
+              "phrase": "nong-taaba.",
+              "traduction": "Aimer l'un l'autre, amour mutuel."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'aimer' en mooré d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "nonge",
+                "date",
+                "koom",
+                "ligdi"
+              ],
+              "reponse_correcte": "nonge"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "vouloir : rata/date",
+          "contenu_detaille": "Le dictionnaire donne 'rat-' (variantes 'data', 'date', 'rate') pour « vouloir », avec les exemples 'M data koom' (Je veux de l'eau) et 'Biigã rata rɩɩbo' (L'enfant veut de la nourriture).",
+          "vocabulaire_cles": [
+            {
+              "terme": "rat- / data / date",
+              "traduction_ou_definition": "vouloir"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "M data koom.",
+              "traduction": "Je veux de l'eau."
+            },
+            {
+              "phrase": "Biigã rata rɩɩbo.",
+              "traduction": "L'enfant veut de la nourriture."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Je veux de l'eau' se dit en mooré : M _____ koom.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "data"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les verbes aimer (nonge) et vouloir (rata/data), tous deux illustrés par des exemples authentiques et personnels du dictionnaire mooré."
+}

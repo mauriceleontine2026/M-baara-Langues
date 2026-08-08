@@ -1,0 +1,69 @@
+{
+  "titre_cours": "Leçon 4 : Raconter des faits passés (les temps du récit).",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Targumi, DiscoverYoruba, Africa.uga.edu, Ling-App, Lingalot, Nigerian Finder, Wikipédia, et articles universitaires sur la grammaire et les proverbes yoruba), le yoruba étant une langue majeure parlée par plus de 45 millions de personnes au Nigeria, au Bénin et au Togo, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le passé en yoruba",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le radical verbal nu comme passé",
+          "contenu_detaille": "Le yoruba ne conjugue pas ses verbes pour le temps : ce sont des marqueurs auxiliaires, placés entre le sujet et le verbe, qui indiquent le passé, le présent ou le futur. Le radical verbal seul, sans marqueur, indique généralement une action complétée dans le passé pour les verbes d'action.",
+          "vocabulaire_cles": [
+            {
+              "terme": "radical verbal seul",
+              "traduction_ou_definition": "indique généralement une action complétée au passé, pour les verbes d'action"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque grammaticale)",
+              "traduction": "Contrairement au français, les verbes yoruba ne changent pas de forme pour le temps."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment le yoruba marque-t-il le temps sur ses verbes ?",
+              "type": "QCM",
+              "options": [
+                "Par des marqueurs auxiliaires, pas par la conjugaison du verbe",
+                "Par la conjugaison classique du verbe, comme en français",
+                "Il n'existe pas de passé en yoruba",
+                "Par un changement de ton uniquement"
+              ],
+              "reponse_correcte": "Par des marqueurs auxiliaires, pas par la conjugaison du verbe"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "ti : le marqueur de l'accompli",
+          "contenu_detaille": "Le yoruba donne 'ti' comme marqueur de l'accompli (équivalent du passé composé français), placé avant le verbe : « A ti jẹun » se traduit par « nous avons mangé ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "ti",
+              "traduction_ou_definition": "marqueur de l'accompli (équivalent du passé composé)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "A ti jẹun.",
+              "traduction": "Nous avons mangé."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le marqueur qui exprime l'accompli (équivalent du passé composé) en yoruba est : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "ti"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le principe des marqueurs temporels auxiliaires du yoruba (au lieu de la conjugaison verbale) et le marqueur de l'accompli 'ti', issus de recherches web sur la grammaire yoruba."
+}

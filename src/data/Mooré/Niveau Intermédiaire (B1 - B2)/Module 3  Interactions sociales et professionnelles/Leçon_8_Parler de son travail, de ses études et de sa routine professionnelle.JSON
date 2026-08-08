@@ -1,0 +1,77 @@
+{
+  "titre_cours": "Leçon 8 : Parler de son travail, de ses études et de sa routine professionnelle.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire mooré-français-anglais moderne (généré par SIL, même format que le dictionnaire dioula déjà utilisé dans ce projet), documentant le mooré, langue des Mossi et langue la plus parlée du Burkina Faso, complété par une recherche web (vocabulaire thématique de Targumi, ressources culturelles mossi). Les deux sources se recoupent largement (piiga=dix, tãabo=trois, naase=quatre, ligdi=argent, koom/Ko=eau, barka/Bark=merci confirmés indépendamment par les deux), ce qui renforce la fiabilité du vocabulaire présenté ici ; quelques variantes dialectales mineures entre les deux sources sont signalées. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Travail et salaire",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le salaire",
+          "contenu_detaille": "Le dictionnaire donne 'kiuug yaoodo' pour « salaire », qui associe le mot pour la quinzaine de jours ('kiuug') au paiement, indiquant que le rythme de paiement traditionnel se faisait par quinzaine plutôt que par mois.",
+          "vocabulaire_cles": [
+            {
+              "terme": "kiuug yaoodo",
+              "traduction_ou_definition": "salaire"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "kiuug yaoodo.",
+              "traduction": "Salaire."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que suggère la composition du mot 'kiuug yaoodo' (salaire) sur le rythme de paiement traditionnel ?",
+              "type": "QCM",
+              "options": [
+                "Un paiement par quinzaine",
+                "Un paiement journalier",
+                "Un paiement annuel",
+                "Aucun rythme particulier"
+              ],
+              "reponse_correcte": "Un paiement par quinzaine"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le travail et l'activité",
+          "contenu_detaille": "Une recherche complémentaire donne 'Laado' pour « travail » et 'Tũma' pour « activité, tâche », déjà vus en Leçon 2 du niveau débutant, utiles pour décrire sa routine professionnelle.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Laado",
+              "traduction_ou_definition": "travail"
+            },
+            {
+              "terme": "Tũma",
+              "traduction_ou_definition": "activité, tâche"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Laado.",
+              "traduction": "Travail."
+            },
+            {
+              "phrase": "Tũma.",
+              "traduction": "Activité, tâche."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Activité, tâche' se dit en mooré : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Tũma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le mot pour salaire (kiuug yaoodo, révélateur du rythme de paiement traditionnel par quinzaine) et le vocabulaire du travail (Laado, Tũma), en combinant le dictionnaire et une recherche web complémentaire."
+}

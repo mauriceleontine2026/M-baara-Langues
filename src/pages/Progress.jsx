@@ -4,6 +4,7 @@ import { useAuth } from "@/lib/AuthContext";
 import { getLanguages } from "@/api/languageService";
 import { getProgress } from "@/api/progressService";
 import { Award, BookOpen, Flame, Star, TrendingUp, ArrowRight } from "lucide-react";
+import LanguageFlag from "@/components/ui/LanguageFlag";
 
 export default function Progress() {
   const { user } = useAuth();
@@ -113,7 +114,7 @@ export default function Progress() {
             const completed = p.completed_lessons?.length || 0;
             return (
               <div key={p.id} className="bg-card border border-border rounded-2xl p-4 flex items-center gap-4">
-                <span className="text-2xl">{lang.flag_emoji}</span>
+                <LanguageFlag language={lang} size="md" />
                 <div className="flex-1">
                   <div className="font-semibold text-foreground text-sm">{lang.name_fr}</div>
                   <div className="w-full bg-secondary rounded-full h-1.5 mt-1.5">

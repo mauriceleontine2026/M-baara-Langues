@@ -4,6 +4,7 @@ import { useAuth } from "@/lib/AuthContext";
 import { getLanguages } from "@/api/languageService";
 import { getProgress } from "@/api/progressService";
 import { BookOpen, GraduationCap, Mic, Trophy, ArrowRight, Flame, Star, Sparkles } from "lucide-react";
+import LanguageFlag from "@/components/ui/LanguageFlag";
 
 // public logo at /logo.png
 
@@ -137,7 +138,7 @@ export default function Home() {
             <Link key={lang.id} to={`/apprendre/${lang.code}`}
               className="bg-card border border-border rounded-xl p-4 hover:border-primary/40 transition">
               <div className="flex items-center gap-3">
-                <span className="text-2xl">{lang.flag_emoji}</span>
+                <LanguageFlag language={lang} size="md" />
                 <div className="min-w-0">
                   <div className="font-semibold text-foreground text-sm truncate">{lang.name_fr}</div>
                   <div className="text-xs text-muted-foreground truncate">{lang.region}</div>

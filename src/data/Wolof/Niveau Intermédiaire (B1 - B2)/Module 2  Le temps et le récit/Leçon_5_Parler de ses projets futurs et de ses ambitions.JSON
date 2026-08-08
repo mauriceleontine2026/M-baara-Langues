@@ -1,0 +1,102 @@
+{
+  "titre_cours": "Leçon 5 : Parler de ses projets futurs et de ses ambitions.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Français-Wolof et Wolof-Français », compilant les dictionnaires de Dard, du baron Roger et de l'abbé Lambert, revu et considérablement augmenté par les missionnaires de la Congrégation du Saint-Esprit et du Saint-Cœur de Marie (édition ancienne, Dakar/Saint-Louis du Sénégal). Ce document est une liste alphabétique française-wolof (mots et locutions), sans phrases dialoguées suivies ; l'orthographe d'origine (accents, apostrophes) est conservée telle quelle. L'extraction automatique de ce document scanné a pu déformer certains diacritiques (accents, lettres ñ/à propres au wolof) ; les transcriptions ci-dessous sont données sous cette réserve. De même que pour le passé, ce dictionnaire ne fournit pas de conjugaison du futur ; cette leçon s'appuie sur les entrées 'Temps' et 'Quand/Lorsque'.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Parler de l'avenir",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le temps futur",
+          "contenu_detaille": "Le dictionnaire donne 'lu diikatil' (ou 'lu didikâl') pour « le [temps] futur », dans son entrée consacrée au mot 'Temps'. Il donne aussi 'elek' pour « demain » et 'génaw elek' pour « après-demain » (voir Leçon 6 du niveau débutant).",
+          "vocabulaire_cles": [
+            {
+              "terme": "lu diikatil / lu didikâl",
+              "traduction_ou_definition": "le [temps] futur"
+            },
+            {
+              "terme": "elek",
+              "traduction_ou_definition": "demain"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "lu diikatil.",
+              "traduction": "Le [temps] futur."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'le [temps] futur' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "lu diikatil",
+                "lu vèy",
+                "lu téw",
+                "damano"
+              ],
+              "reponse_correcte": "lu diikatil"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "La conjonction 'quand' pour le futur : bu/su",
+          "contenu_detaille": "Comme vu en Leçon 4, le wolof marque la conjonction « quand, lorsque » différemment selon le temps : pour le futur, elle se dit 'bu' (ou 'su'). Cette forme est donc la plus utile pour introduire une action à venir, un projet ou une ambition : « quand je partirai... », « lorsque j'aurai fini... ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "bu / su (futur)",
+              "traduction_ou_definition": "quand, lorsque (introduit une action future)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "bu.",
+              "traduction": "Quand, lorsque (au futur)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Pour introduire un fait futur, 'quand, lorsque' se dit en wolof : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "bu"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Vouloir et projeter",
+          "contenu_detaille": "Le verbe 'begâ' (vouloir, vu en Leçon 3 du niveau intermédiaire) permet aussi d'exprimer une intention ou une ambition future : le dictionnaire en donne plusieurs nuances, comme 'begé begé' (vouloir beaucoup) ou 'begâbegâlu' (faire semblant de vouloir), qui montrent la richesse des nuances de l'intention en wolof.",
+          "vocabulaire_cles": [
+            {
+              "terme": "begé begé",
+              "traduction_ou_definition": "vouloir beaucoup"
+            },
+            {
+              "terme": "begâbegâlu",
+              "traduction_ou_definition": "faire semblant de vouloir"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "begé begé.",
+              "traduction": "Vouloir beaucoup."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Faire semblant de vouloir' se dit en wolof : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "begâbegâlu"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le repère 'lu diikatil' pour le temps futur, la conjonction 'quand/lorsque' marquée pour le futur (bu/su), et les nuances du verbe 'vouloir' (begâ), issues du dictionnaire."
+}

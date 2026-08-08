@@ -1,0 +1,77 @@
+{
+  "titre_cours": "Leçon 4 : Raconter des faits passés (les temps du récit).",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir de « A Complete Analysis of the Lýýma Language » de Wesley Sadler (thèse de 1949, village de Woozie, nord du Liberia), republiée et annotée par Valentin Vydrine (Mandenkan n°42, LLACAN/CNRS). C'est une grammaire de référence complète du looma/loma/toma (langue mandée parlée au Liberia et en Guinée forestière), avec un système de transcription phonétique propre à l'auteur (notamment le graphème ß pour une fricative labio-dentale sourde, et des marques toniques). Cette orthographe scientifique est conservée telle quelle ; elle diffère de l'alphabet pratique du loma utilisé en Guinée. Cette leçon reprend la section « Formation of sentences » (4.3.3) de la grammaire, qui détaille les deux passés du looma.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le passé récent et le passé lointain",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le passé récent (Recent Past)",
+          "contenu_detaille": "La grammaire distingue le passé récent, formé par un suffixe (souvent '-ga' ou '-a' selon la classe du verbe), qui exprime une action récemment accomplie : 'eÉ laÉa mia' (il a mangé), 'teÉ soÉgaØ' (ils l'ont attrapé). La grammaire précise que, lorsque l'élément temporel n'est pas important, cette forme peut aussi être utilisée même après plusieurs heures.",
+          "vocabulaire_cles": [
+            {
+              "terme": "passé récent (RP)",
+              "traduction_ou_definition": "action récemment accomplie, marquée par un suffixe verbal"
+            },
+            {
+              "terme": "eÉ laÉa mia",
+              "traduction_ou_definition": "il a mangé"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "eÉ laÉa mia.",
+              "traduction": "Il a mangé."
+            },
+            {
+              "phrase": "teÉ soÉgaØ.",
+              "traduction": "Ils l'ont attrapé."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que marque le passé récent (RP) en looma, d'après la grammaire ?",
+              "type": "QCM",
+              "options": [
+                "Une action récemment accomplie",
+                "Une action habituelle",
+                "Une action future",
+                "Un ordre"
+              ],
+              "reponse_correcte": "Une action récemment accomplie"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le passé lointain (Far Past)",
+          "contenu_detaille": "Le passé lointain se forme en ajoutant le suffixe '-ni' à tous les verbes, et sert à exprimer une action accomplie dans un passé plus distant : 'teÉ doÉdoØni' (ils l'ont compté, il y a longtemps), 'wo gaÉlÿni°' (vous l'avez cassé, il y a longtemps). Ce suffixe sert aussi systématiquement aux négations passées, quelle que soit la distance temporelle réelle.",
+          "vocabulaire_cles": [
+            {
+              "terme": "-ni (suffixe du passé lointain)",
+              "traduction_ou_definition": "marque une action accomplie dans un passé plus distant, et toute négation passée"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "teÉ doÉdoØni.",
+              "traduction": "Ils l'ont compté (il y a longtemps)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le suffixe qui marque le passé lointain en looma est : -_____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "ni"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les deux passés du looma décrits par Sadler : le passé récent (suffixe variable selon la classe du verbe) et le passé lointain (suffixe -ni, également utilisé pour toute négation passée)."
+}

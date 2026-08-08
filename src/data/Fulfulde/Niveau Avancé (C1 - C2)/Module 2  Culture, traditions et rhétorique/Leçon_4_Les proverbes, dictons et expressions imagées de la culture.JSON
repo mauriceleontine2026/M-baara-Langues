@@ -1,0 +1,64 @@
+{
+  "titre_cours": "Leçon 4 : Les proverbes, dictons et expressions imagées de la culture.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire fulfulde-français-anglais moderne (même format SIL que les dictionnaires dioula et mooré déjà utilisés dans ce projet), documentant le fulfulde du Burkina Faso (langue peule), complété par une recherche web. Cette langue appartient au même continuum que le pulaar du Fouta Djallon (Guinée) déjà étudié dans un autre cours de ce projet ([[pulaar-language-course]]) ; plusieurs mots se recoupent presque exactement d'un pays à l'autre (nyaamo=droite, nano=gauche, ɗiɗi=deux...), tandis que d'autres diffèrent, reflet naturel de la variation dialectale du fulfulde à travers l'Afrique de l'Ouest. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Une sagesse imagée",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Si quelqu'un a un père...",
+          "contenu_detaille": "Le dictionnaire cite, à l'entrée 'baaba' (père), une phrase de sagesse : 'Si neɗɗo na woodi baabiiwo fu, o haalataa ley kawrital' (Si quelqu'un a un père, il ne parle pas [le premier / avant lui] dans une assemblée), qui illustre le respect traditionnel dû à l'aîné masculin de la famille dans les prises de parole publiques peules.",
+          "vocabulaire_cles": [
+            {
+              "terme": "kawrital",
+              "traduction_ou_definition": "assemblée, réunion"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Si neɗɗo na woodi baabiiwo fu, o haalataa ley kawrital.",
+              "traduction": "Si quelqu'un a un père, il ne parle pas (le premier) dans une assemblée. (sagesse traditionnelle citée par le dictionnaire)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que recommande cette sagesse traditionnelle sur la prise de parole en assemblée ?",
+              "type": "QCM",
+              "options": [
+                "Le respect de la préséance du père/de l'aîné pour parler en premier",
+                "Que tout le monde parle en même temps",
+                "Que seules les femmes parlent en assemblée",
+                "Qu'il ne faut jamais parler en public"
+              ],
+              "reponse_correcte": "Le respect de la préséance du père/de l'aîné pour parler en premier"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "L'image de la pluie noire",
+          "contenu_detaille": "Le dictionnaire donne, à propos du verbe 'noircir', un exemple à la limite du proverbe et de l'image poétique : 'Ƴuwonde ɓawlinii' (La pluie est noire), déjà vu en Leçon 9 du niveau débutant, qui évoque sans doute, dans la culture peule, l'annonce d'un orage violent ou d'une pluie particulièrement chargée.",
+          "vocabulaire_cles": [],
+          "exemples": [
+            {
+              "phrase": "Ƴuwonde ɓawlinii.",
+              "traduction": "La pluie est noire. (image poétique citée par le dictionnaire)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "L'image poétique 'la pluie est noire' se dit en fulfulde : Ƴuwonde _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "ɓawlinii"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté une sagesse traditionnelle sur la préséance du père en assemblée et une image poétique sur la pluie noire, toutes deux issues du dictionnaire fulfulde."
+}

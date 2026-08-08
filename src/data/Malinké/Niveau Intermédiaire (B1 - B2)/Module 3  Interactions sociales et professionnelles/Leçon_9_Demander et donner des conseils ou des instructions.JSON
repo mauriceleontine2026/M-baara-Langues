@@ -1,0 +1,52 @@
+{
+  "titre_cours": "Leçon 9 : Demander et donner des conseils ou des instructions.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir du document fourni. Note importante : ce document est en réalité le « Petit Dictionnaire Français-Bambara et Bambara-Français » de Moussa Travélé (Librairie Paul Geuthner, Paris, début du XXe siècle), consacré au bambara — une langue mandingue très proche du malinké, à laquelle le dictionnaire lui-même fait plusieurs fois référence explicite sous l'abréviation 'M.' (mot malinké). En l'absence d'un dictionnaire malinké dédié, ce cours utilise fidèlement ce contenu bambara/malinké, sans y ajouter aucune information extérieure. Ce dictionnaire est une liste alphabétique de mots (deux sens) et ne contient ni phrases dialoguées ni tableaux de conjugaison ; les leçons ci-dessous s'appuient donc sur le vocabulaire isolé qu'il fournit, complété quand cela existe par les 'Observations préliminaires' sur la prononciation.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le conseil",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le conseil et conseiller",
+          "contenu_detaille": "Le dictionnaire donne 'Ladjili' (ou 'ladili') pour le nom 'conseil', et 'Ladji' (ou 'ladi') pour le verbe 'conseiller'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Ladjili / ladili",
+              "traduction_ou_definition": "conseil"
+            },
+            {
+              "terme": "Ladji / ladi",
+              "traduction_ou_definition": "conseiller (verbe)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ladjili.",
+              "traduction": "Conseil."
+            },
+            {
+              "phrase": "Ladji.",
+              "traduction": "Conseiller."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'conseiller' (verbe) d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "Ladji",
+                "Ladjili",
+                "Kalan",
+                "Tjiya"
+              ],
+              "reponse_correcte": "Ladji"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les mots pour le conseil (Ladjili) et le verbe conseiller (Ladji), issus des entrées du dictionnaire."
+}

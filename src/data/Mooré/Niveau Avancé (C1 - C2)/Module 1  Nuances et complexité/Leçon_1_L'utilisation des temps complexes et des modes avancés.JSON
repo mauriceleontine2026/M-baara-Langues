@@ -1,0 +1,77 @@
+{
+  "titre_cours": "Leçon 1 : L'utilisation des temps complexes et des modes avancés.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire mooré-français-anglais moderne (généré par SIL, même format que le dictionnaire dioula déjà utilisé dans ce projet), documentant le mooré, langue des Mossi et langue la plus parlée du Burkina Faso, complété par une recherche web (vocabulaire thématique de Targumi, ressources culturelles mossi). Les deux sources se recoupent largement (piiga=dix, tãabo=trois, naase=quatre, ligdi=argent, koom/Ko=eau, barka/Bark=merci confirmés indépendamment par les deux), ce qui renforce la fiabilité du vocabulaire présenté ici ; quelques variantes dialectales mineures entre les deux sources sont signalées. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le système verbal du mooré",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le suffixe de l'accompli et l'impératif",
+          "contenu_detaille": "Le dictionnaire documente le suffixe de l'accompli ('-ame' et ses variantes, vu en Leçon 4 du niveau intermédiaire) ainsi qu'une particule spécifique de l'impératif à la deuxième personne (singulier et pluriel), '-y-yã', illustrée par l'exemple 'Yik-y-yã. Tʋʋm-y-yã' (Levez-vous. T[ravaillez]...).",
+          "vocabulaire_cles": [
+            {
+              "terme": "-ame (et variantes)",
+              "traduction_ou_definition": "suffixe de l'accompli"
+            },
+            {
+              "terme": "-y-yã",
+              "traduction_ou_definition": "particule de l'impératif (2e personne sg. et pl.)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Biigã yãbame.",
+              "traduction": "L'enfant a pleuré."
+            },
+            {
+              "phrase": "Yik-y-yã.",
+              "traduction": "Levez-vous."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quelle particule marque l'impératif à la deuxième personne en mooré, d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "-y-yã",
+                "-ame",
+                "a bal",
+                "barka"
+              ],
+              "reponse_correcte": "-y-yã"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "La particule de maintien de l'attention : yaa",
+          "contenu_detaille": "Le dictionnaire décrit une particule discursive remarquable, 'yaa', qui sert à « maintenir l'attention de l'interlocuteur », traduite par « oh » en français : 'M yeelame yaa, tɩ f sã n tʋm n sa yaa, bɩ f wa ka' (J'ai dit «oh», que quand tu as fini le travail «oh», il faut venir ici). Cette particule, répétée au fil du discours, structure l'attention de l'auditeur dans un récit oral.",
+          "vocabulaire_cles": [
+            {
+              "terme": "yaa (particule discursive)",
+              "traduction_ou_definition": "maintient l'attention de l'interlocuteur pendant un récit oral, proche de « oh »"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "M yeelame yaa, tɩ f sã n tʋm n sa yaa, bɩ f wa ka.",
+              "traduction": "J'ai dit «oh», que quand tu as fini le travail «oh», il faut venir ici."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "La particule discursive qui maintient l'attention de l'interlocuteur pendant un récit est : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "yaa"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le suffixe de l'accompli, la particule d'impératif '-y-yã', et la particule discursive 'yaa' qui structure l'attention dans le récit oral, tous issus du dictionnaire mooré."
+}

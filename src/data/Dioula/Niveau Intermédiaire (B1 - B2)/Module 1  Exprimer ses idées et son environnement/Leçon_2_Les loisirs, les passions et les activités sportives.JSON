@@ -1,0 +1,73 @@
+{
+  "titre_cours": "Leçon 2 : Les loisirs, les passions et les activités sportives.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir du « Dictionnaire Dioula-Français-Anglais-Allemand » (28/12/2020), documentant le dioula/jula de Bobo-Dioulasso, Burkina Faso. MISE À JOUR : cette leçon a été enrichie par une recherche web complémentaire (notamment le vocabulaire thématique de Targumi et un lexique de dioula de Côte d'Ivoire), qui recoupe et étend le dictionnaire d'origine. Plusieurs mots web (kelen, fila, saba, bi, tan, tɔgɔ, etc.) confirment exactement les mots déjà attestés dans le dictionnaire académique, ce qui renforce la fiabilité des formes nouvelles ajoutées ici. Le vocabulaire sportif reste peu documenté même après recherche complémentaire ; cette leçon combine le seul mot du dictionnaire académique (bisi, bus) avec un exemple de radio, activité de loisir courante.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Déplacement et loisirs quotidiens",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "bisi : le bus",
+          "contenu_detaille": "Le dictionnaire donne 'bisi', emprunté au français « bus », classé sous la catégorie « Travel ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "bisi",
+              "traduction_ou_definition": "bus (emprunt au français)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "bisi.",
+              "traduction": "Bus."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le mot 'bisi' (bus) en dioula est-il un emprunt ?",
+              "type": "QCM",
+              "options": [
+                "Oui, au français",
+                "Non, un mot mandingue ancien",
+                "Oui, à l'arabe",
+                "Oui, à l'anglais"
+              ],
+              "reponse_correcte": "Oui, au français"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Écouter la radio : un loisir quotidien",
+          "contenu_detaille": "Une recherche complémentaire donne un exemple authentique de loisir quotidien : 'Musa bɛ arajo lamɛn na' (Moussa est en train d'écouter la radio), où 'arajo' est un emprunt au français « radio », et 'lamɛn' signifie « écouter ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "arajo",
+              "traduction_ou_definition": "radio (emprunt au français)"
+            },
+            {
+              "terme": "lamɛn",
+              "traduction_ou_definition": "écouter"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Musa bɛ arajo lamɛn na.",
+              "traduction": "Moussa est en train d'écouter la radio. (exemple authentique)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Écouter' se dit en dioula : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "lamɛn"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le mot pour bus (bisi) et un exemple authentique d'écoute de la radio (arajo, lamɛn), trouvé via une recherche web complémentaire, seul loisir quotidien concret documenté au-delà du transport."
+}

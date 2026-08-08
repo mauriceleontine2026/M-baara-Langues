@@ -139,6 +139,8 @@ def get_current_user(request: Request, header_token: str | None = Depends(oauth2
 
     if not user:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="User not found")
+    if not getattr(user, "email_verified", False):
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Email not verified")
 
     if is_admin_email(user.email):
         setattr(user, "role", "admin")

@@ -1,0 +1,111 @@
+{
+  "titre_cours": "Leçon 3 : Les connecteurs logiques pour structurer un discours élaboré.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir de deux articles universitaires fournis : Séraphin Kouakou Konan, « L'intrusion de mots nouchi dans la langue française : création ou désordre ? », Sudlangues n°14 (2010) ; et Kouakou Kouakou Antoine & Koffi Kouamé Narcisse, « Le nouchi d'hier à aujourd'hui : quelles innovations lexicales ! », Ziglôbitha n°08 (2023). AVERTISSEMENT IMPORTANT : ces documents ne sont pas des dictionnaires organisés par thème, mais des articles de sociolinguistique analysant les mécanismes de formation lexicale du nouchi (argot urbain ivoirien né dans les années 1980 à Abidjan, mêlant français, dioula et autres langues locales et internationales). Le vocabulaire qu'ils fournissent est donc dispersé et non structuré par thème de la vie quotidienne (pas de mots pour les salutations, les chiffres, les jours, la nourriture, les couleurs) ; il porte en revanche fortement sur l'argent, les relations amoureuses, la tromperie, la fuite et l'apparence physique. Le nouchi est de plus, par nature, un registre familier et transgressif, ce qui rend certains thèmes de ce cours (registre soutenu, proverbes classiques) difficiles à traiter fidèlement sans trahir la nature même de cette langue. Cette leçon reprend la section « Phrases complexes » de l'article de 2010, qui analyse en détail plusieurs connecteurs logiques employés dans des phrases mêlant nouchi et français.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les connecteurs de la phrase complexe en nouchi",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "La subordonnée complétive : que",
+          "contenu_detaille": "L'article de 2010 analyse la phrase « Je te kouma que les mogonis s'intéresse en vrété à notre langue » (je te dis que les hommes s'intéressent en vérité à notre langue), où l'on trouve une proposition principale ('je te kouma', je te dis) et une complétive introduite par la conjonction française 'que', complément d'objet direct du verbe nouchi 'kouma' (dire, emprunté au dioula).",
+          "vocabulaire_cles": [
+            {
+              "terme": "kouma",
+              "traduction_ou_definition": "dire (emprunt au dioula, conservé avec le même sens)"
+            },
+            {
+              "terme": "que",
+              "traduction_ou_definition": "conjonction de subordination complétive, empruntée au français"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Je te kouma que les mogonis s'intéresse en vrété à notre langue.",
+              "traduction": "Je te dis que les hommes s'intéressent en vérité à notre langue. (exemple analysé par l'article de 2010)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel verbe nouchi signifie 'dire', d'après l'article de 2010 ?",
+              "type": "QCM",
+              "options": [
+                "kouma",
+                "dja",
+                "sciencer",
+                "bigo"
+              ],
+              "reponse_correcte": "kouma"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "La relative et la circonstancielle de temps",
+          "contenu_detaille": "L'article analyse aussi « Les mogonis qui se jouent les dangereux » (une relative introduite par le pronom relatif français 'qui', ayant pour antécédent 'les mogonis'), et « Kan tu as kouma sur Télé Sud, j'étais trop enjaillé » (une circonstancielle de temps introduite par la conjonction nouchi 'kan', qui signifie « quand »).",
+          "vocabulaire_cles": [
+            {
+              "terme": "qui",
+              "traduction_ou_definition": "pronom relatif, employé directement en français"
+            },
+            {
+              "terme": "kan",
+              "traduction_ou_definition": "quand (conjonction de temps, l'un des rares connecteurs nouchi non emprunté au français)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Kan tu as kouma sur Télé Sud, j'étais trop enjaillé.",
+              "traduction": "Quand tu as parlé sur Télé Sud, j'étais trop content. (exemple analysé par l'article de 2010)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Quand' se dit en nouchi, d'après l'article de 2010 : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "kan"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "La coordination : et",
+          "contenu_detaille": "L'article donne enfin un exemple de coordination entre deux propositions indépendantes : « Tu ne peux plus fata et puis fraya » (tu ne peux plus sortir avec une fille et puis fuir/rompre), où la conjonction de coordination française 'et' relie les deux verbes nouchi 'fata' (sortir avec une fille) et 'fraya' (fuir).",
+          "vocabulaire_cles": [
+            {
+              "terme": "et",
+              "traduction_ou_definition": "conjonction de coordination, empruntée au français"
+            },
+            {
+              "terme": "fata / fraya",
+              "traduction_ou_definition": "sortir avec une fille / fuir"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Tu ne peux plus fata et puis fraya.",
+              "traduction": "Tu ne peux plus sortir avec une fille et puis fuir. (exemple analysé par l'article de 2010)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "L'article de 2010 conclut-il que la grammaire des phrases nouchi diffère de celle du français standard ?",
+              "type": "QCM",
+              "options": [
+                "Non, il conclut à la même grammaire, structurellement, qu'en français standard",
+                "Oui, une grammaire totalement différente",
+                "Oui, mais seulement pour les phrases simples",
+                "La question reste sans réponse dans l'article"
+              ],
+              "reponse_correcte": "Non, il conclut à la même grammaire, structurellement, qu'en français standard"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les connecteurs logiques du nouchi analysés par l'article de 2010 : la complétive en 'que', la circonstancielle de temps en 'kan' (quand), la relative en 'qui' et la coordination en 'et' — l'article concluant que la syntaxe des phrases complexes nouchi suit la même grammaire, structurellement, que le français standard."
+}

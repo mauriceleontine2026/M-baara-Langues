@@ -1,0 +1,77 @@
+{
+  "titre_cours": "Leçon 1 : Parler de sa maison, de son logement et de sa ville.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir de « A Complete Analysis of the Lýýma Language » de Wesley Sadler (thèse de 1949, village de Woozie, nord du Liberia), republiée et annotée par Valentin Vydrine (Mandenkan n°42, LLACAN/CNRS). C'est une grammaire de référence complète du looma/loma/toma (langue mandée parlée au Liberia et en Guinée forestière), avec un système de transcription phonétique propre à l'auteur (notamment le graphème ß pour une fricative labio-dentale sourde, et des marques toniques). Cette orthographe scientifique est conservée telle quelle ; elle diffère de l'alphabet pratique du loma utilisé en Guinée. Cette leçon reprend le vocabulaire de la maison et de la ville attesté dans la grammaire.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "La maison et la ville",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "La maison : pÿÉlÿ",
+          "contenu_detaille": "La grammaire donne 'pÿÉlÿ' pour « maison », mot très fréquent dans les exemples ('na pÿlÿÉi', ma maison ; 'pÿÉlÿ laÉ', l'entrée de la maison). Elle donne aussi 'kwýÉti vÿÉlÿ' pour « bâtiment en pierre ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "pÿÉlÿ",
+              "traduction_ou_definition": "maison"
+            },
+            {
+              "terme": "kwýÉti vÿÉlÿ",
+              "traduction_ou_definition": "bâtiment en pierre"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "na pÿlÿÉi.",
+              "traduction": "Ma maison."
+            },
+            {
+              "phrase": "kwýÉti vÿÉlÿ.",
+              "traduction": "Bâtiment en pierre."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'maison' en looma d'après la grammaire ?",
+              "type": "QCM",
+              "options": [
+                "pÿÉlÿ",
+                "taÉa",
+                "kýÉlý",
+                "boÉa"
+              ],
+              "reponse_correcte": "pÿÉlÿ"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "La ville : taÉa",
+          "contenu_detaille": "Comme vu en Leçon 2 du niveau débutant, la grammaire donne 'taÉa' pour « ville, pays », mot que l'on retrouve dans de nombreux exemples de déplacement : 'liá taÉa zu' (aller en ville).",
+          "vocabulaire_cles": [
+            {
+              "terme": "taÉa",
+              "traduction_ou_definition": "ville, pays"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "liá taÉa zu.",
+              "traduction": "Aller en ville."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Ville, pays' se dit en looma : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "taÉa"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire de la maison (pÿÉlÿ, kwýÉti vÿÉlÿ) et de la ville (taÉa), issu de la grammaire de Sadler."
+}

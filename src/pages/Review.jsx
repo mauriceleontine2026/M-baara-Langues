@@ -3,6 +3,7 @@ import { getLanguages, getAllVocabulary, createVocabulary } from "@/api/language
 import { Calendar, Layers, RotateCcw, Plus, CheckCircle2, WifiOff } from "lucide-react";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 import { getOfflineLanguages, getAllOfflineVocab } from "@/lib/offlineStorage";
+import LanguageFlag from "@/components/ui/LanguageFlag";
 
 /** @type {any[]} */
 const initialList = [];
@@ -104,7 +105,7 @@ export default function Review() {
             const lang = languages.find(l => l.code === item.language_code);
             return (
               <div key={item.id} className="bg-card border border-border rounded-xl p-4 flex items-center gap-4">
-                <span className="text-xl">{lang?.flag_emoji}</span>
+                <LanguageFlag language={lang} size="md" />
                 <div className="flex-1">
                   <div className="font-semibold text-foreground">{item.word}</div>
                   <div className="text-xs text-muted-foreground">{item.translation_fr}</div>

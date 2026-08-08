@@ -1,0 +1,73 @@
+{
+  "titre_cours": "Leçon 6 : Le registre soutenu et le langage formel (cérémonies, contes, traditions).",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit à partir de « A Complete Analysis of the Lýýma Language » de Wesley Sadler (thèse de 1949, village de Woozie, nord du Liberia), republiée et annotée par Valentin Vydrine (Mandenkan n°42, LLACAN/CNRS). C'est une grammaire de référence complète du looma/loma/toma (langue mandée parlée au Liberia et en Guinée forestière), avec un système de transcription phonétique propre à l'auteur (notamment le graphème ß pour une fricative labio-dentale sourde, et des marques toniques). Cette orthographe scientifique est conservée telle quelle ; elle diffère de l'alphabet pratique du loma utilisé en Guinée. Cette leçon reprend le vocatif et le mot pour Dieu, seuls éléments de registre solennel attestés dans la grammaire.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "S'adresser et invoquer",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le vocatif marqué par le ton",
+          "contenu_detaille": "La grammaire explique que le vocatif (le fait de s'adresser directement à quelqu'un par son nom) se distingue en looma uniquement par un changement de ton sur le nom : 'Folomo liiniá taÉa zu' (Folomo est allé en ville) contre 'FolomoÉ, liá taÉa zu' (Folomo, va en ville !), où l'accent tonique du nom marque l'appel direct plutôt qu'une simple mention.",
+          "vocabulaire_cles": [
+            {
+              "terme": "vocatif (marqué par le ton)",
+              "traduction_ou_definition": "s'adresser directement à quelqu'un, distingué uniquement par un changement de ton sur le nom"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "FolomoÉ, liá taÉa zu!",
+              "traduction": "Folomo, va en ville !"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment le looma marque-t-il le vocatif (l'adresse directe), d'après la grammaire ?",
+              "type": "QCM",
+              "options": [
+                "Par un changement de ton sur le nom",
+                "Par un préfixe spécial",
+                "Par un mot séparé signifiant 'ô'",
+                "Il n'existe pas de vocatif en looma"
+              ],
+              "reponse_correcte": "Par un changement de ton sur le nom"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "gaÉla : Dieu",
+          "contenu_detaille": "La grammaire donne 'gaÉla' pour « Dieu », mot qui apparaît dans un exemple de foi religieuse : 'aÉ yeÉe la gaÉla maÉ' (ayez foi en Dieu, litt. mettez votre main sur Dieu), et dans l'expression 'gaÉla giálakpuØ' (le seul Dieu, litt. Dieu un-unique), qui illustre le suffixe d'unicité extrême '-kpuÉ'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "gaÉla",
+              "traduction_ou_definition": "Dieu"
+            },
+            {
+              "terme": "-kpuÉ (suffixe)",
+              "traduction_ou_definition": "marque l'unicité extrême, ajouté au nombre 'un' (giála)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "gaÉla giálakpuØ.",
+              "traduction": "Le seul Dieu (Dieu, l'unique)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Dieu' se dit en looma : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "gaÉla"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocatif looma (marqué par le seul changement de ton) et le mot pour Dieu (gaÉla), avec le suffixe d'unicité extrême '-kpuÉ', seuls éléments de registre solennel attestés dans la grammaire de Sadler."
+}

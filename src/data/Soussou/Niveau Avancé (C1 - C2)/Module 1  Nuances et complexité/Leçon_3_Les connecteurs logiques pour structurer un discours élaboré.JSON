@@ -1,0 +1,97 @@
+{
+  "titre_cours": "Leçon 3 : Les connecteurs logiques pour structurer un discours élaboré.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir du Dictionnaire Français-Soso et Soso-Français du R.P. Raimbault (2e édition, Mission Catholique de Conakry, 1921-1923) : chapitre grammatical 'Principes de la langue Soso', recueil de phrases usuelles, et entrées des dictionnaires français-soso et soso-français. L'orthographe d'origine (kh, gn, apostrophes, accents) est conservée telle quelle. Cette leçon reprend intégralement le Chapitre VIII 'De la conjonction' des 'Principes de la langue Soso' (page 31).",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les conjonctions du soso",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Conjonctions de coordination",
+          "contenu_detaille": "Le document donne 'nun' pour 'et' (exemple : 'Tomassinun Pétri', Thomas et Pierre), 'konokèrè' pour 'mais' (le premier, 'kono', étant le plus en usage), et 'nan'ara' pour 'c'est pourquoi' / 'par conséquent' (exemple : 'Nan'araamufama', c'est pourquoi il ne viendra pas).",
+          "vocabulaire_cles": [
+            {
+              "terme": "nun",
+              "traduction_ou_definition": "et"
+            },
+            {
+              "terme": "kono / kèrè",
+              "traduction_ou_definition": "mais"
+            },
+            {
+              "terme": "nan'ara",
+              "traduction_ou_definition": "c'est pourquoi, par conséquent"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Tomassinun Pétri.",
+              "traduction": "Thomas et Pierre."
+            },
+            {
+              "phrase": "Nan'araamufama.",
+              "traduction": "C'est pourquoi il ne viendra pas."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'mais' en soso, selon le document ?",
+              "type": "QCM",
+              "options": [
+                "kono",
+                "nun",
+                "kha",
+                "alako"
+              ],
+              "reponse_correcte": "kono"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Conjonctions de subordination",
+          "contenu_detaille": "Le document donne 'kabi' pour 'comme, parce que', 'to' ou 'ta' pour 'lorsque, tandis que, quand' (le document précise que 'to' et 'ta' se placent toujours après le sujet), 'kha' pour 'si', 'mène' pour 'sinon, à moins que', et 'alako' pour 'afin que'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "kabi",
+              "traduction_ou_definition": "comme, parce que"
+            },
+            {
+              "terme": "to / ta",
+              "traduction_ou_definition": "lorsque, tandis que, quand (se placent après le sujet)"
+            },
+            {
+              "terme": "kha",
+              "traduction_ou_definition": "si"
+            },
+            {
+              "terme": "mène",
+              "traduction_ou_definition": "sinon, à moins que"
+            },
+            {
+              "terme": "alako",
+              "traduction_ou_definition": "afin que"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ètonuna.",
+              "traduction": "Lorsqu'ils étaient."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Comme, parce que' se dit en soso : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "kabi"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les principales conjonctions de coordination (nun, kono, nan'ara) et de subordination (kabi, to/ta, kha, mène, alako) du soso, telles que listées dans le dictionnaire de 1923."
+}

@@ -1,0 +1,119 @@
+{
+  "titre_cours": "Leçon 1 : Les salutations et les formules de politesse (bonjour, merci, au revoir).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Cette leçon est construite exclusivement à partir du 'Recueil de phrases usuelles' (chapitres I, II et VI) du Dictionnaire Français-Soso et Soso-Français du R.P. Raimbault, missionnaire de la Congrégation du Saint-Esprit et du Saint-Cœur de Marie (2e édition, Mission Catholique de Conakry, 1921-1923). Ce document ancien note la langue soso avec l'orthographe et les conventions de transcription de l'époque (par exemple 'kh' pour un son guttural proche du 'kh' arabe, 'gn' pour un son mouillé, et le préfixe 'wo-' qui marque le pluriel ou le vouvoiement). Ces graphies d'origine sont conservées telles quelles dans cette leçon, par fidélité stricte à la source.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les salutations et les formules de politesse en soso",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Saluer quelqu'un (Bonjour)",
+          "contenu_detaille": "Le document précise qu'il existe deux verbes pour 'saluer' en soso. Le premier, 'marna', ne s'emploie que dans deux expressions figées : 'bonjour' ou 'je te salue' se dit 'N marna' (au tutoiement), et 'bonjour' ou 'je vous salue' se dit 'Womarna' (au vouvoiement ou pluriel, marqué par le préfixe 'wo-'). Le second verbe, 'khèbu', s'emploie dans toutes les autres circonstances, par exemple 'N khèbu, Mariama' (je vous salue, Marie) ou 'battafaikhèbudé' (nous sommes venus pour te dire bonjour). Dans le recueil de phrases usuelles, après le salut initial, on demande traditionnellement si la personne est en paix ('Ihèri ?' ou 'Inuhèri ?' = es-tu heureux, es-tu en paix ?) puis comment elle se porte ('Imayalan ?' = te portes-tu bien ?, ou 'Womayalan ?' au vouvoiement). Le document précise que l'on répond toujours 'oui' à la première question. Une réponse polie fréquente est 'Allaiantu !' (Que Dieu soit loué !). Pour accueillir quelqu'un, on dit 'Nusènè' (sois le bienvenu) ou 'Wonusènè' (soyez les bienvenus). Le document donne aussi des salutations adressées à des membres de la famille, où le mot désignant la personne précède la formule de salut 'imarna' : 'Nga, imarna' (Mère, bonjour), 'Nmama, imarna' (Grand'mère, bonjour) et 'Ntanun, imarna' (Grand-père, bonjour).",
+          "vocabulaire_cles": [
+            {"terme": "N marna", "traduction_ou_definition": "Bonjour / je te salue (tutoiement)"},
+            {"terme": "Womarna", "traduction_ou_definition": "Bonjour / je vous salue (vouvoiement ou pluriel)"},
+            {"terme": "khèbu", "traduction_ou_definition": "saluer (verbe général, employé hors des formules figées avec 'marna')"},
+            {"terme": "Ihèri ? / Inuhèri ?", "traduction_ou_definition": "Es-tu heureux, es-tu en paix ?"},
+            {"terme": "Imayalan ?", "traduction_ou_definition": "Te portes-tu bien ?"},
+            {"terme": "Womayalan ?", "traduction_ou_definition": "Vous portez-vous bien ? (vouvoiement)"},
+            {"terme": "Allaiantu !", "traduction_ou_definition": "Que Dieu soit loué !"},
+            {"terme": "Nusènè / Wonusènè", "traduction_ou_definition": "Sois le bienvenu / Soyez les bienvenus"},
+            {"terme": "nga", "traduction_ou_definition": "la mère"},
+            {"terme": "nmama", "traduction_ou_definition": "grand'mère"},
+            {"terme": "ntanun", "traduction_ou_definition": "grand-père"}
+          ],
+          "exemples": [
+            {"phrase": "N khèbu, Mariama.", "traduction": "Je vous salue, Marie."},
+            {"phrase": "Nga, imarna.", "traduction": "Mère, bonjour."},
+            {"phrase": "Nmama, imarna.", "traduction": "Grand'mère, bonjour."},
+            {"phrase": "Ntanun, imarna.", "traduction": "Grand-père, bonjour."},
+            {"phrase": "mangé, mukhu battafaikhèbudé", "traduction": "Roi, nous sommes venus pour te dire bonjour."}
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'bonjour, je vous salue' (vouvoiement) en soso, d'après le document ?",
+              "type": "QCM",
+              "options": ["N marna", "Womarna", "khèbu", "Ihèri"],
+              "reponse_correcte": "Womarna"
+            },
+            {
+              "question": "Pour accueillir quelqu'un et lui dire 'sois le bienvenu', on utilise le mot _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Nusènè"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Remercier (Merci)",
+          "contenu_detaille": "La section 'Pour remercier' du recueil de phrases usuelles fournit la formule de base : 'Merci, je te remercie' se dit 'Nuwali', et au vouvoiement/pluriel 'Merci, je vous remercie' se dit 'Wonuwali' (on retrouve ici le même préfixe 'wo-' déjà observé pour les salutations). Le document donne également des formules de politesse associées aux remerciements : pour répondre à un remerciement ou minimiser un service rendu, on dit 'Féfém'ara' ou 'féfémunaara' (Ce n'est rien), parfois répété deux fois pour insister ('Pé ! féfém'ara, féfém'ara' = Ce n'est rien, il n'y a pas de quoi). D'autres phrases usuelles combinent le remerciement avec une reconnaissance du service rendu, par exemple 'Itoromanbè, inuwali' (Tu te donnes beaucoup de peine pour moi, merci) ou 'Iwalinbè, inutoro' (Tu travailles pour moi, merci).",
+          "vocabulaire_cles": [
+            {"terme": "Nuwali", "traduction_ou_definition": "Merci, je te remercie (tutoiement)"},
+            {"terme": "Wonuwali", "traduction_ou_definition": "Merci, je vous remercie (vouvoiement ou pluriel)"},
+            {"terme": "Féfém'ara", "traduction_ou_definition": "Ce n'est rien"},
+            {"terme": "toro", "traduction_ou_definition": "se donner de la peine (élément du verbe dans 'Itoromanbè', tu te donnes de la peine pour moi)"},
+            {"terme": "wali", "traduction_ou_definition": "travailler (élément du verbe dans 'Iwalinbè', tu travailles pour moi)"}
+          ],
+          "exemples": [
+            {"phrase": "Nuwali.", "traduction": "Merci, je te remercie."},
+            {"phrase": "Wonuwali.", "traduction": "Merci, je vous remercie."},
+            {"phrase": "Pé ! féfém'ara, féfém'ara.", "traduction": "Ce n'est rien, il n'y a pas de quoi."},
+            {"phrase": "Itoromanbè, inuwali.", "traduction": "Tu te donnes beaucoup de peine pour moi, merci."},
+            {"phrase": "Iwalinbè, inutoro.", "traduction": "Tu travailles pour moi, merci."}
+          ],
+          "exercices": [
+            {
+              "question": "Quelle est la traduction soso de 'Merci, je te remercie' selon le document ?",
+              "type": "QCM",
+              "options": ["Wonuwali", "Nuwali", "Nusènè", "Womarna"],
+              "reponse_correcte": "Nuwali"
+            },
+            {
+              "question": "Pour répondre poliment à un remerciement ('Ce n'est rien'), le document donne l'expression _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Féfém'ara"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Prendre congé (Au revoir)",
+          "contenu_detaille": "Pour clore une visite ou une rencontre, le document propose la formule 'Allons ! au revoir', traduite par 'Awa ! wongèsègè !'. Cette expression de congé est souvent suivie de messages de salutation à transmettre à des proches absents, en utilisant à nouveau le verbe 'khèbu' (saluer) : 'Nifafékhèbu' (je salue ton père) et 'Ingakhèbunbè' (salue ta mère de ma part). Le recueil mentionne aussi des phrases annonçant un départ, comme 'Nbattasiga' (je m'en vais), 'Nsigamakhèma' (je vais au champ) et 'NsigamaFotémoria' (je vais chez les prêtres blancs), ce qui montre que le verbe 'siga' est associé à l'idée d'aller ou de partir.",
+          "vocabulaire_cles": [
+            {"terme": "Awa ! wongèsègè !", "traduction_ou_definition": "Allons ! au revoir !"},
+            {"terme": "Nifafékhèbu", "traduction_ou_definition": "Je salue ton père"},
+            {"terme": "Ingakhèbunbè", "traduction_ou_definition": "Salue ta mère de ma part"},
+            {"terme": "siga", "traduction_ou_definition": "aller, partir"},
+            {"terme": "Nbattasiga", "traduction_ou_definition": "Je m'en vais"}
+          ],
+          "exemples": [
+            {"phrase": "Awa ! wongèsègè !", "traduction": "Allons ! au revoir !"},
+            {"phrase": "Nifafékhèbu. Ingakhèbunbè.", "traduction": "Je salue ton père. Salue ta mère de ma part."},
+            {"phrase": "Nsigamakhèma.", "traduction": "Je vais au champ."},
+            {"phrase": "NsigamaFotémoria.", "traduction": "Je vais chez les prêtres blancs."},
+            {"phrase": "Nbattasiga.", "traduction": "Je m'en vais."}
+          ],
+          "exercices": [
+            {
+              "question": "Quelle expression signifie 'Allons ! au revoir !' dans le document ?",
+              "type": "QCM",
+              "options": ["Awa ! wongèsègè !", "Nuwali", "Womarna", "Ihèri"],
+              "reponse_correcte": "Awa ! wongèsègè !"
+            },
+            {
+              "question": "'Je salue ton père' se dit en soso : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Nifafékhèbu"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté, en s'appuyant strictement sur le recueil de phrases usuelles du Dictionnaire Français-Soso et Soso-Français du R.P. Raimbault (1923), les formules essentielles pour saluer ('N marna' / 'Womarna'), remercier ('Nuwali' / 'Wonuwali') et prendre congé ('Awa ! wongèsègè !') en soso, ainsi que les questions de politesse associées ('Ihèri ?', 'Imayalan ?') et les salutations adressées aux membres de la famille."
+}
