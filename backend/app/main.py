@@ -642,7 +642,7 @@ app.add_middleware(
     allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-    allow_headers=["Authorization", "Content-Type", "X-CSRF-Token"],
+    allow_headers=["Authorization", "Content-Type", "X-CSRF-Token", "X-Captcha-Token"],
     expose_headers=["Content-Type", "Set-Cookie", "Authorization"],
     max_age=600,
 )
@@ -682,7 +682,7 @@ async def add_security_headers(request, call_next):
         "default-src 'self'; "
         "img-src 'self' data: https:; "
         "style-src 'self' 'unsafe-inline'; "
-        "script-src 'self'; "
+        "script-src 'self' https://www.google.com https://www.gstatic.com; "
         "frame-ancestors 'none'; "
         "base-uri 'self'"
     )
