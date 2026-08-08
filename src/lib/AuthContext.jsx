@@ -97,7 +97,14 @@ export const AuthProvider = ({ children }) => {
   };
 
   const logout = async () => {
-    await logoutService();
+    try {
+      await logoutService();
+    } catch (err) {
+      // If the network/logout call fails, still clear client state so the
+      // user is logged out in the UI. The backend will eventually expire
+      // server-side cookies/tokens.
+      console.warn("Logout request failed:", err);
+    }
     setUser(null);
     setIsAuthenticated(false);
     setAuthError(null);
