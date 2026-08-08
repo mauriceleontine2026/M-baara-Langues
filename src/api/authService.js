@@ -15,7 +15,28 @@ export async function loginWithGoogle() {
     throw new Error("Jeton Firebase introuvable après authentification Google.");
   }
 
-  const data = await request("POST", "/api/auth/firebase", { id_token: token });
+  // Quick health check to provide a clearer error if the backend is unreachable
+  try {
+    await request("GET", "/api/health");
+  } catch (err) {
+    throw new Error(
+      `Impossible de contacter le backend avant l'échange du jeton Firebase. Vérifiez la configuration de \
+      VITE_API_BASE_URL et la connectivité réseau. Détails: ${err?.message || err}`
+    );
+  }
+
+  let data;
+  try {
+    data = await request("POST", "/api/auth/firebase", { id_token: token });
+  } catch (err) {
+    // Provide actionable guidance when the network request itself failed
+    if (err?.message && err.message.includes("Impossible de contacter le serveur")) {
+      throw new Error(
+        `Échec de l'appel à ${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/firebase — ${err.message}`
+      );
+    }
+    throw err;
+  }
   notifyAuthChanged();
   return data?.user || null;
 }
