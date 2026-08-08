@@ -38,6 +38,16 @@ export async function loginWithForm(email, password) {
     // ignore captcha token failures for fallback
   }
 
+  // Include CSRF token from cookie when available (double-submit cookie pattern)
+  try {
+    const csrfCookie = getCsrfTokenFromCookie();
+    if (csrfCookie) {
+      formData.append("_csrf_token", csrfCookie);
+    }
+  } catch (e) {
+    // ignore cookie read errors
+  }
+
   const response = await fetch(url, {
     method: "POST",
     body: formData,
