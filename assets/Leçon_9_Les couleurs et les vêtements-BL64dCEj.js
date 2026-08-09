@@ -1,0 +1,123 @@
+const n=`{
+  "titre_cours": "Leçon 9 : Les couleurs et les vêtements.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Français-Wolof et Wolof-Français », compilant les dictionnaires de Dard, du baron Roger et de l'abbé Lambert, revu et considérablement augmenté par les missionnaires de la Congrégation du Saint-Esprit et du Saint-Cœur de Marie (édition ancienne, Dakar/Saint-Louis du Sénégal). Ce document est une liste alphabétique française-wolof (mots et locutions), sans phrases dialoguées suivies ; l'orthographe d'origine (accents, apostrophes) est conservée telle quelle. L'extraction automatique de ce document scanné a pu déformer certains diacritiques (accents, lettres ñ/à propres au wolof) ; les transcriptions ci-dessous sont données sous cette réserve.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Couleurs et vêtements",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les couleurs principales",
+          "contenu_detaille": "Le dictionnaire donne 'honhâ' pour « rouge », 'véh' pour « blanc », 'gnul' pour « noir », 'bèh' (ou 'rom', 'ble') pour « bleu clair », 'mbasân' (ou 'hês') pour « jaune », et 'dômulàl' pour « gris ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "honhâ",
+              "traduction_ou_definition": "rouge"
+            },
+            {
+              "terme": "véh",
+              "traduction_ou_definition": "blanc"
+            },
+            {
+              "terme": "gnul",
+              "traduction_ou_definition": "noir"
+            },
+            {
+              "terme": "bèh / ble",
+              "traduction_ou_definition": "bleu (clair)"
+            },
+            {
+              "terme": "mbasân / hês",
+              "traduction_ou_definition": "jaune"
+            },
+            {
+              "terme": "dômulàl",
+              "traduction_ou_definition": "gris"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "honhâ.",
+              "traduction": "Rouge."
+            },
+            {
+              "phrase": "gnul.",
+              "traduction": "Noir."
+            },
+            {
+              "phrase": "dômulàl.",
+              "traduction": "Gris."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'noir' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "gnul",
+                "véh",
+                "honhâ",
+                "bèh"
+              ],
+              "reponse_correcte": "gnul"
+            },
+            {
+              "question": "'Rouge' se dit en wolof : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "honhâ"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Les vêtements",
+          "contenu_detaille": "Le dictionnaire donne 'ntangay' pour « vêtement, habit » en général, et des noms précis pour chaque pièce : 'mbubâ' (ou 'semîz') pour « chemise », 'tubèy' pour « pantalon », et 'mbubâ' également pour « robe, blouse ». Le chapeau se dit 'ndepmôka' (ou 'sapô').",
+          "vocabulaire_cles": [
+            {
+              "terme": "ntangay",
+              "traduction_ou_definition": "vêtement, habit"
+            },
+            {
+              "terme": "mbubâ / semîz",
+              "traduction_ou_definition": "chemise"
+            },
+            {
+              "terme": "tubèy",
+              "traduction_ou_definition": "pantalon"
+            },
+            {
+              "terme": "ndepmôka / sapô",
+              "traduction_ou_definition": "chapeau"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ntangay.",
+              "traduction": "Vêtement, habit."
+            },
+            {
+              "phrase": "tubèy.",
+              "traduction": "Pantalon."
+            },
+            {
+              "phrase": "ndepmôka.",
+              "traduction": "Chapeau."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Pantalon' se dit en wolof : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "tubèy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire des couleurs (honhâ, véh, gnul, bèh, mbasân, dômulàl) et des vêtements (ntangay, mbubâ, tubèy, ndepmôka), issu du dictionnaire."
+}`;export{n as default};

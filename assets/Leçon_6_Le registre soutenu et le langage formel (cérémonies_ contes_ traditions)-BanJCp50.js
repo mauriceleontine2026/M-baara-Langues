@@ -1,0 +1,68 @@
+const e=`{
+  "titre_cours": "Leçon 6 : Le registre soutenu et le langage formel (cérémonies, contes, traditions).",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit à partir de recherches web (Institut Fassaha, Institut Al Rayhan, Malac, Talkpal, Preply, LingoHut, Talqeeny, Wiktionnaire, Wikipédia, thèses universitaires, recueils de proverbes arabes). ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le fus'ha, registre classique unificateur",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "La diglossie arabe : fus'ha contre dialectes",
+          "contenu_detaille": "Une recherche complémentaire précise que le monde arabophone connaît une situation de « diglossie » (ou multiglossie) : à côté de la langue classique et cultivée, appelée 'الفصحى' (al-fus'ha, élocuente), servant de norme religieuse et littéraire depuis des siècles, coexistent des variétés dialectales quotidiennes et informelles, appelées 'عامية' ('ammiya), 'دارجة' (darija) ou 'لهجة' (lahja) selon les régions. Le fus'ha reste le registre soutenu de référence, utilisé dans les médias formels, les discours officiels et bien sûr le Coran.",
+          "vocabulaire_cles": [
+            {
+              "terme": "الفصحى (al-fus'ha)",
+              "traduction_ou_definition": "arabe classique/standard, registre soutenu, littéraire et religieux"
+            },
+            {
+              "terme": "عامية / دارجة / لهجة ('ammiya / darija / lahja)",
+              "traduction_ou_definition": "dialectes arabes régionaux, registre familier quotidien"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque sociolinguistique)",
+              "traduction": "Le monde arabophone connaît une diglossie entre le fus'ha (classique, soutenu) et les dialectes ('ammiya, darija) quotidiens."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment appelle-t-on l'arabe classique et soutenu, par opposition aux dialectes régionaux ?",
+              "type": "QCM",
+              "options": [
+                "الفصحى (al-fus'ha)",
+                "عامية ('ammiya)",
+                "دارجة (darija)",
+                "لهجة (lahja)"
+              ],
+              "reponse_correcte": "الفصحى (al-fus'ha)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "As-salamu alaykum, un registre à la fois quotidien et solennel",
+          "contenu_detaille": "Comme vu en Leçon 1 du niveau débutant, la salutation 'السلام عليكم' (as-salamu alaykum) illustre parfaitement ce double registre : formule d'usage quotidien et informel, elle reste en même temps une invocation religieuse solennelle, puisque le verset 86 de la sourate An-Nisa du Coran prescrit explicitement d'y répondre par une formule équivalente ou meilleure — brouillant ainsi la frontière entre langage courant et registre soutenu religieux.",
+          "vocabulaire_cles": [],
+          "exemples": [
+            {
+              "phrase": "(fait rapporté par une recherche complémentaire)",
+              "traduction": "Répondre à un salam est une obligation islamique prescrite par le verset 86 de la sourate An-Nisa du Coran."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "La sourate coranique qui prescrit de répondre à un salam par une formule équivalente ou meilleure est la sourate _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "An-Nisa"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté la diglossie arabe (fus'ha classique/soutenu contre dialectes 'ammiya/darija quotidiens) et le double registre, à la fois quotidien et religieux, de la salutation as-salamu alaykum, issues de recherches web."
+}`;export{e as default};

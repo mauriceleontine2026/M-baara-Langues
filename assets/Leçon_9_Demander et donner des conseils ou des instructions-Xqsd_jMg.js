@@ -1,0 +1,69 @@
+const e=`{
+  "titre_cours": "Leçon 9 : Demander et donner des conseils ou des instructions.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir de recherches web (Institut Fassaha, Institut Al Rayhan, Malac, Talkpal, Preply, LingoHut, Talqeeny, Wiktionnaire, Wikipédia, thèses universitaires, recueils de proverbes arabes). ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le conseil par le proverbe",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "As-sabr miftah al-faraj : la patience est la clé",
+          "contenu_detaille": "L'arabe donne le proverbe sans doute le plus universellement connu de la langue : 'الصبر مفتاح الفرج' (as-sabr miftah al-faraj), litt. « la patience est la clé de la délivrance », cité dans les Mille et Une Nuits, repris par les soufis, et calligraphié sur les murs de mosquées à travers tout le monde arabe — un conseil moral omniprésent dans la culture.",
+          "vocabulaire_cles": [
+            {
+              "terme": "الصبر مفتاح الفرج (as-sabr miftah al-faraj)",
+              "traduction_ou_definition": "la patience est la clé de la délivrance (proverbe)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "As-sabr miftah al-faraj.",
+              "traduction": "La patience est la clé de la délivrance. (Proverbe)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Où ce proverbe sur la patience est-il traditionnellement calligraphié, d'après une recherche complémentaire ?",
+              "type": "QCM",
+              "options": [
+                "Sur les murs de mosquées",
+                "Uniquement dans les livres scolaires",
+                "Sur les pièces de monnaie",
+                "Il n'est jamais écrit, seulement oral"
+              ],
+              "reponse_correcte": "Sur les murs de mosquées"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Man jadda wajada : qui cherche trouve",
+          "contenu_detaille": "L'arabe donne un second proverbe-conseil, célèbre pour sa rime parfaite en cinq syllabes : 'من جدّ وجد' (man jadda wajada), « qui a cherché a trouvé » — proverbe que, selon une recherche complémentaire, tout élève arabophone entend dès l'école primaire, conseil classique sur la persévérance dans l'effort.",
+          "vocabulaire_cles": [
+            {
+              "terme": "من جدّ وجد (man jadda wajada)",
+              "traduction_ou_definition": "qui a cherché a trouvé (proverbe sur la persévérance)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Man jadda wajada.",
+              "traduction": "Qui a cherché a trouvé. (Proverbe)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le proverbe 'Man jadda wajada' est un conseil classique sur la _____ dans l'effort.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "persévérance"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté deux proverbes-conseils arabes emblématiques (as-sabr miftah al-faraj, sur la patience ; man jadda wajada, sur la persévérance), issus de recueils de proverbes arabes consultés en ligne, avec écriture arabe et translittération."
+}`;export{e as default};

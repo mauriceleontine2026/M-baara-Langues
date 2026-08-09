@@ -1,0 +1,69 @@
+const e=`{
+  "titre_cours": "Leçon 2 : Exprimer l'hypothèse, le doute et la condition.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit à partir de « A Complete Analysis of the Lýýma Language » de Wesley Sadler (thèse de 1949, village de Woozie, nord du Liberia), republiée et annotée par Valentin Vydrine (Mandenkan n°42, LLACAN/CNRS). C'est une grammaire de référence complète du looma/loma/toma (langue mandée parlée au Liberia et en Guinée forestière), avec un système de transcription phonétique propre à l'auteur (notamment le graphème ß pour une fricative labio-dentale sourde, et des marques toniques). Cette orthographe scientifique est conservée telle quelle ; elle diffère de l'alphabet pratique du loma utilisé en Guinée. Cette leçon reprend la conjonction conditionnelle 'aniá' (si), bien attestée dans les exemples de la grammaire.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "La condition en looma",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "aniá : si",
+          "contenu_detaille": "La grammaire donne 'aniá' pour « si », conjonction de condition placée en tête de la subordonnée : 'aniá naÉšolo …ÿÉniá teÉ yaÉ ýÉ sýÉwýË wulo teÉ maÉ' se traduit par « S'ils avaient de l'argent, il le leur vendrait ». La grammaire précise que la conjonction 'aniá' a le patron syllabique rare V.CV (voyelle initiale suivie d'une syllabe consonne-voyelle), partagé par très peu de mots du looma.",
+          "vocabulaire_cles": [
+            {
+              "terme": "aniá",
+              "traduction_ou_definition": "si (conjonction de condition)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "aniá naÉšolo …ÿÉniá teÉ yaÉ ýÉ sýÉwýË wulo teÉ maÉ.",
+              "traduction": "S'ils avaient de l'argent, il le leur vendrait."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'si' (condition) en looma d'après la grammaire ?",
+              "type": "QCM",
+              "options": [
+                "aniá",
+                "§ýÉgaÉ",
+                "ýÉýØ",
+                "teÉi"
+              ],
+              "reponse_correcte": "aniá"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "agÿÉÿ : de peur que",
+          "contenu_detaille": "La grammaire donne aussi 'agÿÉÿ' pour « de peur que, lest », une conjonction qui introduit une crainte ou une conséquence à éviter, complétant ainsi le champ de l'hypothèse et de la condition en looma.",
+          "vocabulaire_cles": [
+            {
+              "terme": "agÿÉÿ",
+              "traduction_ou_definition": "de peur que, lest"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "agÿÉÿ.",
+              "traduction": "De peur que."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'De peur que' se dit en looma : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "agÿÉÿ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté la conjonction conditionnelle 'aniá' (si) et la conjonction de crainte 'agÿÉÿ' (de peur que), toutes deux attestées dans la grammaire de Sadler."
+}`;export{e as default};

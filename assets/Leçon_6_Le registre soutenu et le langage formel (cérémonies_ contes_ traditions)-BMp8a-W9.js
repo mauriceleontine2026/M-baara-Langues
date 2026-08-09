@@ -1,0 +1,143 @@
+const e=`{
+  "titre_cours": "Leçon 6 : Le registre soutenu et le langage formel (cérémonies, contes, traditions).",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit à partir de la fiche « LE LINGALA » d'Alain Kihm (CNRS – Université Paris-Cité), publiée dans le cadre du projet Langues et Grammaires du Monde dans l'Espace Francophone (LGMEF, référence HAL-04102394, 2024). MISE À JOUR : cette leçon avait été signalée comme trop pauvre, la fiche universitaire ne couvrant pas ce thème. Elle a été enrichie par une recherche web complémentaire, en croisant plusieurs ressources de vocabulaire lingala (Wiktionnaire en lingala, le dictionnaire collaboratif dic.lingala.be, et des lexiques pédagogiques en ligne) afin de fournir du vocabulaire réel et vérifié sur ce thème, en plus du contenu grammatical de la fiche d'origine quand il existe. Le lingala connaissant d'importantes variantes régionales (Kinshasa, Brazzaville, nord-ouest), certaines formes signalées comme variables le sont explicitement. Le registre soutenu le mieux documenté en ligne pour le lingala est le registre religieux, ce qui prolonge directement l'épisode historique de la traduction de la Bible par les missionnaires scheutistes (1901) déjà rapporté par la fiche de grammaire.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le registre religieux et cérémoniel",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Prier et croire",
+          "contenu_detaille": "Le lingala donne 'kosambela' pour « prier » (avec 'libondeli', une prière, et 'mondimi', un croyant), et 'kondima' pour « croire » (avec 'eyamba', la foi). On retrouve ici l'héritage direct de la traduction biblique évoquée par la fiche de grammaire (Leçon 6, présentation générale) : ce vocabulaire religieux s'est répandu bien au-delà du cadre missionnaire d'origine.",
+          "vocabulaire_cles": [
+            {
+              "terme": "kosambela",
+              "traduction_ou_definition": "prier"
+            },
+            {
+              "terme": "kondima",
+              "traduction_ou_definition": "croire"
+            },
+            {
+              "terme": "libondeli",
+              "traduction_ou_definition": "une prière"
+            },
+            {
+              "terme": "eyamba",
+              "traduction_ou_definition": "la foi"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "kosambela.",
+              "traduction": "Prier."
+            },
+            {
+              "phrase": "kondima.",
+              "traduction": "Croire."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'prier' en lingala ?",
+              "type": "QCM",
+              "options": [
+                "kosambela",
+                "kokumisa",
+                "kopambola",
+                "koyemba"
+              ],
+              "reponse_correcte": "kosambela"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Glorifier et bénir",
+          "contenu_detaille": "Le lingala donne 'kokumisa' (ou 'kosanjola') pour « glorifier, adorer », et 'kopambola' pour « bénir » (avec 'lipamboli', une bénédiction). Ce vocabulaire, typique des cérémonies religieuses, illustre un registre nettement plus soutenu que la conversation courante des leçons précédentes.",
+          "vocabulaire_cles": [
+            {
+              "terme": "kokumisa / kosanjola",
+              "traduction_ou_definition": "glorifier, adorer"
+            },
+            {
+              "terme": "kopambola",
+              "traduction_ou_definition": "bénir"
+            },
+            {
+              "terme": "lipamboli",
+              "traduction_ou_definition": "une bénédiction"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "kopambola.",
+              "traduction": "Bénir."
+            },
+            {
+              "phrase": "lipamboli.",
+              "traduction": "Une bénédiction."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Bénir' se dit en lingala : ko_____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "pambola"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Le vocabulaire sacré",
+          "contenu_detaille": "Le lingala donne, dans ce même registre, 'Nzambe' (Dieu, déjà rencontré en Leçon 4 dans le proverbe 'Nzambe alalaka te'), 'molimo mosantu' (le Saint-Esprit, litt. l'esprit saint), 'mokristo' (un chrétien), et 'nkembo' (la gloire). Ce lexique sacré, hérité en grande partie du travail missionnaire du début du XXe siècle, occupe une place importante dans le lingala parlé aujourd'hui dans les cultes et cérémonies religieuses, très présents en RDC et au Congo-Brazzaville.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Nzambe",
+              "traduction_ou_definition": "Dieu"
+            },
+            {
+              "terme": "molimo mosantu",
+              "traduction_ou_definition": "le Saint-Esprit"
+            },
+            {
+              "terme": "mokristo",
+              "traduction_ou_definition": "un chrétien"
+            },
+            {
+              "terme": "nkembo",
+              "traduction_ou_definition": "la gloire"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "molimo mosantu.",
+              "traduction": "Le Saint-Esprit."
+            },
+            {
+              "phrase": "nkembo.",
+              "traduction": "La gloire."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'le Saint-Esprit' en lingala ?",
+              "type": "QCM",
+              "options": [
+                "molimo mosantu",
+                "mokristo",
+                "nkembo",
+                "kosambela"
+              ],
+              "reponse_correcte": "molimo mosantu"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le registre religieux et cérémoniel du lingala (kosambela, kondima, kokumisa, kopambola, Nzambe, molimo mosantu), établi à partir de recherches web complémentaires, en prolongement direct de l'épisode historique de la traduction biblique missionnaire (1901) déjà rapporté par la fiche de grammaire."
+}`;export{e as default};

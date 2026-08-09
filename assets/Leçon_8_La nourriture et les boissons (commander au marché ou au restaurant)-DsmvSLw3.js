@@ -1,0 +1,95 @@
+const e=`{
+  "titre_cours": "Leçon 8 : La nourriture et les boissons (commander au marché ou au restaurant).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire fulfulde-français-anglais moderne (même format SIL que les dictionnaires dioula et mooré déjà utilisés dans ce projet), documentant le fulfulde du Burkina Faso (langue peule), complété par une recherche web. Cette langue appartient au même continuum que le pulaar du Fouta Djallon (Guinée) déjà étudié dans un autre cours de ce projet ([[pulaar-language-course]]) ; plusieurs mots se recoupent presque exactement d'un pays à l'autre (nyaamo=droite, nano=gauche, ɗiɗi=deux...), tandis que d'autres diffèrent, reflet naturel de la variation dialectale du fulfulde à travers l'Afrique de l'Ouest. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Nourriture et marché",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "L'eau, la viande et le riz",
+          "contenu_detaille": "Le dictionnaire donne 'ndiyam' pour « eau », 'teew/teewu' pour « viande, chair » (aussi : muscle), et 'maaro' (emprunt au bambara) pour « riz ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "ndiyam",
+              "traduction_ou_definition": "eau"
+            },
+            {
+              "terme": "teew / teewu",
+              "traduction_ou_definition": "viande, chair"
+            },
+            {
+              "terme": "maaro",
+              "traduction_ou_definition": "riz (emprunt au bambara)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ndiyam.",
+              "traduction": "Eau."
+            },
+            {
+              "phrase": "teewu.",
+              "traduction": "Viande, chair."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'eau' en fulfulde d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "ndiyam",
+                "teewu",
+                "maaro",
+                "luumo"
+              ],
+              "reponse_correcte": "ndiyam"
+            },
+            {
+              "question": "'Riz', emprunté au bambara, se dit en fulfulde : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "maaro"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le marché et l'argent",
+          "contenu_detaille": "Le dictionnaire donne 'luumo' (ou 'jehre') pour « marché », et 'buuɗi' pour « argent, monnaie » (avec l'exemple authentique déjà vu, 'buuɗi majji wo ujunaaje capanɗe tati', leur coût est de 150 000 F CFA).",
+          "vocabulaire_cles": [
+            {
+              "terme": "luumo / jehre",
+              "traduction_ou_definition": "marché"
+            },
+            {
+              "terme": "buuɗi",
+              "traduction_ou_definition": "argent, monnaie"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "luumo.",
+              "traduction": "Marché."
+            },
+            {
+              "phrase": "buuɗi.",
+              "traduction": "Argent, monnaie."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Marché' se dit en fulfulde : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "luumo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire de la nourriture (ndiyam, teewu, maaro) et du marché (luumo, buuɗi), issu du dictionnaire fulfulde."
+}`;export{e as default};

@@ -1,0 +1,115 @@
+const e=`{
+  "titre_cours": "Leçon 8 : La nourriture et les boissons (commander au marché ou au restaurant).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir de deux articles universitaires : Séraphin Kouakou Konan, « L'intrusion de mots nouchi dans la langue française » (Sudlangues n°14, 2010) ; et Kouakou Kouakou Antoine & Koffi Kouamé Narcisse, « Le nouchi d'hier à aujourd'hui : quelles innovations lexicales ! » (Ziglôbitha n°08, 2023). MISE À JOUR : cette leçon avait été signalée comme trop pauvre, les deux articles universitaires ne couvrant pas ce thème. Elle a été enrichie par une recherche web complémentaire, en croisant plusieurs ressources en ligne sur le nouchi (blogs spécialisés, guides culturels, reportages) pour fournir du vocabulaire réel, en plus du contenu des deux articles quand il existe. Le nouchi étant un argot oral en perpétuelle évolution, les graphies varient d'une source à l'autre.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Manger dans la rue à Abidjan",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le garba, plat emblématique",
+          "contenu_detaille": "Le 'garba' est un plat de rue emblématique d'Abidjan, composé d'attiéké (semoule de manioc fermentée, cuite à la vapeur) et de thon frit, assaisonné de tomates, d'oignons, de piment et d'huile. Le vendeur de garba se dit 'garbatigui'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "garba",
+              "traduction_ou_definition": "attiéké au thon frit, plat de rue emblématique d'Abidjan"
+            },
+            {
+              "terme": "attiéké",
+              "traduction_ou_definition": "semoule de manioc fermentée et cuite à la vapeur"
+            },
+            {
+              "terme": "garbatigui",
+              "traduction_ou_definition": "vendeur de garba"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "garba.",
+              "traduction": "Attiéké au thon frit."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Qu'est-ce que le 'garba' d'après une recherche complémentaire ?",
+              "type": "QCM",
+              "options": [
+                "De l'attiéké au thon frit",
+                "Un dessert sucré",
+                "Une boisson",
+                "Un plat de viande de bœuf"
+              ],
+              "reponse_correcte": "De l'attiéké au thon frit"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "APF et alloco",
+          "contenu_detaille": "Une recherche complémentaire donne 'APF' (Attiéké Poisson Fumé), autre plat très populaire à base d'attiéké, et 'alloco' pour la banane plantain frite, deux incontournables des « maquis » (petits restaurants populaires ivoiriens).",
+          "vocabulaire_cles": [
+            {
+              "terme": "APF",
+              "traduction_ou_definition": "Attiéké Poisson Fumé, plat populaire"
+            },
+            {
+              "terme": "alloco",
+              "traduction_ou_definition": "banane plantain frite"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "APF.",
+              "traduction": "Attiéké Poisson Fumé."
+            },
+            {
+              "phrase": "alloco.",
+              "traduction": "Banane plantain frite."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Banane plantain frite' se dit en Côte d'Ivoire : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "alloco"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Le pain-chien",
+          "contenu_detaille": "Une recherche complémentaire donne 'pain-chien' pour un sandwich bon marché composé de pain garni de viande, vendu dans la rue — un exemple de plus du vocabulaire nouchi lié à la restauration de rue populaire d'Abidjan.",
+          "vocabulaire_cles": [
+            {
+              "terme": "pain-chien",
+              "traduction_ou_definition": "pain garni de viande à bas prix, vendu dans la rue"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "pain-chien.",
+              "traduction": "Pain avec de la viande à bas prix."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que désigne 'pain-chien' d'après une recherche complémentaire ?",
+              "type": "QCM",
+              "options": [
+                "Un pain garni de viande bon marché",
+                "Un dessert",
+                "De la nourriture pour animaux",
+                "Un plat de fête uniquement"
+              ],
+              "reponse_correcte": "Un pain garni de viande bon marché"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire de la restauration de rue populaire à Abidjan (garba, attiéké, APF, alloco, pain-chien), établi à partir de recherches web complémentaires, ce thème n'étant pas couvert par les deux articles universitaires sources."
+}`;export{e as default};

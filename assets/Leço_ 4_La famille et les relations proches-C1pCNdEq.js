@@ -1,0 +1,145 @@
+const e=`{
+  "titre_cours": "Leçon 4 : La famille et les relations proches.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Targumi, DiscoverYoruba, Africa.uga.edu, Ling-App, Lingalot, Nigerian Finder, Wikipédia, et articles universitaires sur la grammaire et les proverbes yoruba), le yoruba étant une langue majeure parlée par plus de 45 millions de personnes au Nigeria, au Bénin et au Togo, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "La famille",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Père, mère, enfant",
+          "contenu_detaille": "Le yoruba donne 'Bàbá' (père), 'Ìyá' (mère), et 'Ọmọ' (enfant). Pour les grands-parents, on précise avec 'àgbà' (âgé) : 'Ìyá àgbà' (grand-mère) et 'Bàbá àgbà' (grand-père).",
+          "vocabulaire_cles": [
+            {
+              "terme": "Bàbá",
+              "traduction_ou_definition": "père"
+            },
+            {
+              "terme": "Ìyá",
+              "traduction_ou_definition": "mère"
+            },
+            {
+              "terme": "Ọmọ",
+              "traduction_ou_definition": "enfant"
+            },
+            {
+              "terme": "Ìyá àgbà / Bàbá àgbà",
+              "traduction_ou_definition": "grand-mère / grand-père"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Bàbá.",
+              "traduction": "Père."
+            },
+            {
+              "phrase": "Ìyá àgbà.",
+              "traduction": "Grand-mère."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'mère' en yoruba ?",
+              "type": "QCM",
+              "options": [
+                "Ìyá",
+                "Bàbá",
+                "Ọmọ",
+                "Ọ̀rẹ́"
+              ],
+              "reponse_correcte": "Ìyá"
+            },
+            {
+              "question": "'Enfant' se dit en yoruba : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Ọmọ"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Une langue sans genre grammatical, mais organisée par l'âge",
+          "contenu_detaille": "Le yoruba n'a ni pronoms genrés ni la plupart des noms genrés que possède le français (comme frère/sœur) : la distinction essentielle porte sur l'âge relatif plutôt que sur le sexe. On dit 'Ẹgbọ́n' pour un frère ou une sœur aîné(e), et 'Àbúrò' pour un frère ou une sœur cadet(te), sans préciser le sexe. Les seuls mots faisant référence au sexe biologique sont 'obinrin' (personne de sexe féminin) et 'okunrin' (personne de sexe masculin), que l'on ajoute si l'on veut préciser.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Ẹgbọ́n",
+              "traduction_ou_definition": "frère ou sœur aîné(e) (sans distinction de sexe)"
+            },
+            {
+              "terme": "Àbúrò",
+              "traduction_ou_definition": "frère ou sœur cadet(te) (sans distinction de sexe)"
+            },
+            {
+              "terme": "obinrin / okunrin",
+              "traduction_ou_definition": "de sexe féminin / masculin (précision optionnelle)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ẹgbọ́n.",
+              "traduction": "Aîné(e) (frère ou sœur)."
+            },
+            {
+              "phrase": "Àbúrò.",
+              "traduction": "Cadet(te) (frère ou sœur)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Sur quel critère porte la distinction essentielle entre 'Ẹgbọ́n' et 'Àbúrò' ?",
+              "type": "QCM",
+              "options": [
+                "L'âge relatif, pas le sexe",
+                "Le sexe uniquement",
+                "La distance géographique",
+                "La profession"
+              ],
+              "reponse_correcte": "L'âge relatif, pas le sexe"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Le mari, l'épouse et l'ami",
+          "contenu_detaille": "Le yoruba donne 'Ọkọ' pour « mari », 'Ìyàwó' pour « épouse », et 'Ọ̀rẹ́' pour « ami(e) ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "Ọkọ",
+              "traduction_ou_definition": "mari"
+            },
+            {
+              "terme": "Ìyàwó",
+              "traduction_ou_definition": "épouse"
+            },
+            {
+              "terme": "Ọ̀rẹ́",
+              "traduction_ou_definition": "ami(e)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ọkọ.",
+              "traduction": "Mari."
+            },
+            {
+              "phrase": "Ìyàwó.",
+              "traduction": "Épouse."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Ami(e)' se dit en yoruba : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Ọ̀rẹ́"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire de la famille (Bàbá, Ìyá, Ọmọ) et la particularité du yoruba, qui organise la fratrie par l'âge relatif (Ẹgbọ́n, Àbúrò) plutôt que par le sexe, contrairement au français."
+}`;export{e as default};

@@ -1,0 +1,81 @@
+const e=`{
+  "titre_cours": "Leçon 2 : Les loisirs, les passions et les activités sportives.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir du « Précis de grammaire et de lexique du peul du Fouta Djallon » d'Abdourahmane Diallo (ILCAA, Tokyo University of Foreign Studies, 2015), qui documente le pular (variante du peul/fulfulde) parlé en Guinée. L'orthographe d'origine (ɓ, ɗ, ƴ, ɲ, ŋ, apostrophe glottale) est conservée telle quelle. Note : le manuel de 2015 contient peu de vocabulaire sportif propre au pular (le football y apparaît surtout sous forme d'emprunts au français) ; cette leçon présente honnêtement ce qui est attesté plutôt que d'inventer un lexique sportif absent du texte.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Loisirs et jeux",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Danser et jouer",
+          "contenu_detaille": "Le Lexique donne le verbe 'amugol' pour 'danser' (exemple : 'Sukaaɓe ɓen no yahi amugol ka saare', les jeunes sont allés danser en ville). Il donne aussi 'taaroo-filloo', un jeu de cache-cache consistant à cacher quelque chose derrière une personne (exemple : 'Paykoy koy no fuɗɗii taaroo-filloo', les enfants pratiquent le jeu de taaroo-filloo).",
+          "vocabulaire_cles": [
+            {
+              "terme": "amugol",
+              "traduction_ou_definition": "danser"
+            },
+            {
+              "terme": "taaroo-filloo",
+              "traduction_ou_definition": "jeu de cache-cache"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Sukaaɓe ɓen no yahi amugol ka saare.",
+              "traduction": "Les jeunes sont allés danser en ville."
+            },
+            {
+              "phrase": "Paykoy koy no fuɗɗii taaroo-filloo.",
+              "traduction": "Les enfants pratiquent le jeu de cache-cache."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'danser' en pular ?",
+              "type": "QCM",
+              "options": [
+                "amugol",
+                "hoɗugol",
+                "soodugol",
+                "yiɗugol"
+              ],
+              "reponse_correcte": "amugol"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le football : des emprunts au français",
+          "contenu_detaille": "Le Lexique atteste plusieurs termes de football empruntés au français et adaptés à la morphologie du pular : 'defansiijo' (joueur de défense, exemple : 'Defansiijo ekip Labe on', le défenseur de l'équipe de Labé) et 'oorze' (hors-jeu, exemple : 'Arbiitir on siiflii oorze', l'arbitre a sifflé un hors-jeu).",
+          "vocabulaire_cles": [
+            {
+              "terme": "defansiijo",
+              "traduction_ou_definition": "joueur de défense (football)"
+            },
+            {
+              "terme": "oorze",
+              "traduction_ou_definition": "hors-jeu (football)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Arbiitir on siiflii oorze.",
+              "traduction": "L'arbitre a sifflé un hors-jeu."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le terme de football 'hors-jeu' emprunté au français se dit en pular : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "oorze"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire limité mais attesté des loisirs (amugol, taaroo-filloo) et quelques emprunts footballistiques (defansiijo, oorze), issus du Lexique du manuel de 2015."
+}`;export{e as default};

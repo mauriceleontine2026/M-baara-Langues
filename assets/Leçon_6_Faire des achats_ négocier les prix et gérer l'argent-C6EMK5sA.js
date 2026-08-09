@@ -1,0 +1,44 @@
+const e=`{
+  "titre_cours": "Leçon 6 : Faire des achats, négocier les prix et gérer l'argent.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir de « A Complete Analysis of the Lýýma Language » de Wesley Sadler (thèse de 1949, village de Woozie, nord du Liberia), republiée et annotée par Valentin Vydrine (Mandenkan n°42, LLACAN/CNRS). C'est une grammaire de référence complète du looma/loma/toma (langue mandée parlée au Liberia et en Guinée forestière), avec un système de transcription phonétique propre à l'auteur (notamment le graphème ß pour une fricative labio-dentale sourde, et des marques toniques). Cette orthographe scientifique est conservée telle quelle ; elle diffère de l'alphabet pratique du loma utilisé en Guinée. Ce thème n'est pas couvert par la grammaire de Sadler, qui décrit la structure de la langue à travers des exemples grammaticaux plutôt qu'un vocabulaire thématique complet. Par fidélité au principe de ne rien inventer, cette leçon reste volontairement courte. La grammaire donne néanmoins le verbe pour acheter, seul élément clairement attesté sur ce thème.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Acheter",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "geÉea : acheter",
+          "contenu_detaille": "La grammaire donne 'geÉea' pour « acheter », un verbe dont la forme reste inchangée au passé récent (contrairement à la plupart des verbes) : 'e geÉea' (tu as acheté).",
+          "vocabulaire_cles": [
+            {
+              "terme": "geÉea",
+              "traduction_ou_definition": "acheter"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "e geÉea.",
+              "traduction": "Tu as acheté."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'acheter' en looma d'après la grammaire ?",
+              "type": "QCM",
+              "options": [
+                "geÉea",
+                "miá",
+                "kpoÉale",
+                "boÉ"
+              ],
+              "reponse_correcte": "geÉea"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le verbe 'geÉea' (acheter), seul élément clairement lié aux achats que documente la grammaire de Sadler ; elle ne fournit pas de vocabulaire pour vendre, négocier ou le prix."
+}`;export{e as default};

@@ -1,0 +1,59 @@
+const e=`{
+  "titre_cours": "Leçon 9 : Demander et donner des conseils ou des instructions.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire fulfulde-français-anglais moderne (même format SIL que les dictionnaires dioula et mooré déjà utilisés dans ce projet), documentant le fulfulde du Burkina Faso (langue peule), complété par une recherche web. Cette langue appartient au même continuum que le pulaar du Fouta Djallon (Guinée) déjà étudié dans un autre cours de ce projet ([[pulaar-language-course]]) ; plusieurs mots se recoupent presque exactement d'un pays à l'autre (nyaamo=droite, nano=gauche, ɗiɗi=deux...), tandis que d'autres diffèrent, reflet naturel de la variation dialectale du fulfulde à travers l'Afrique de l'Ouest. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le conseil moral",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Un conseil contre la convoitise",
+          "contenu_detaille": "Comme vu en Leçon 7 du niveau intermédiaire, le dictionnaire donne l'exemple 'Taa ɗammita e ko a jeyaa' (Il ne faut pas convoiter ce qui appartient à autrui), formule impérative négative qui fonctionne comme un conseil moral traditionnel.",
+          "vocabulaire_cles": [],
+          "exemples": [
+            {
+              "phrase": "Taa ɗammita e ko a jeyaa.",
+              "traduction": "Il ne faut pas convoiter ce qui appartient à autrui. (conseil moral)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel type de conseil donne l'exemple 'Taa ɗammita e ko a jeyaa' ?",
+              "type": "QCM",
+              "options": [
+                "Ne pas convoiter le bien d'autrui",
+                "Toujours partager ses biens",
+                "Toujours acheter au marché",
+                "Ne jamais travailler seul"
+              ],
+              "reponse_correcte": "Ne pas convoiter le bien d'autrui"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Aider quelqu'un",
+          "contenu_detaille": "Le dictionnaire donne un exemple sur la demande d'aide : 'Mi fawii jikke am dow maa, mi heɓan mobel maa, mi waɗira ɓangal am' (Je compte sur toi, j'aurai ta voiture, je m'en servirai pour mon activité), qui illustre comment demander et obtenir l'aide de quelqu'un dans un contexte concret.",
+          "vocabulaire_cles": [],
+          "exemples": [
+            {
+              "phrase": "Mi fawii jikke am dow maa.",
+              "traduction": "Je compte sur toi (litt. j'appuie ma pensée sur toi)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "L'expression 'compter sur quelqu'un' se construit en fulfulde autour du mot 'jikke', qui signifie : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "pensée"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté un conseil moral contre la convoitise et un exemple authentique de demande d'aide, issus du dictionnaire fulfulde."
+}`;export{e as default};

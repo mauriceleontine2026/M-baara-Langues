@@ -1,0 +1,77 @@
+const e=`{
+  "titre_cours": "Leçon 6 : Le registre soutenu et le langage formel (cérémonies, contes, traditions).",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Targumi, DiscoverYoruba, Africa.uga.edu, Ling-App, Lingalot, Nigerian Finder, Wikipédia, et articles universitaires sur la grammaire et les proverbes yoruba), le yoruba étant une langue majeure parlée par plus de 45 millions de personnes au Nigeria, au Bénin et au Togo, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le respect des aînés, architecture sociale",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Ọlá : l'honneur",
+          "contenu_detaille": "Le respect des aînés en yoruba est lié au concept d''ọlá' (honneur) : mal saluer un aîné porte atteinte à son honneur et au sien propre. C'est pourquoi les enfants yoruba apprennent à saluer correctement avant même de savoir lire. Devant un chef traditionnel (un 'oba'), la prosternation complète ('ilẹkun') reste un signe de respect profond, encore pratiqué dans les zones rurales.",
+          "vocabulaire_cles": [
+            {
+              "terme": "ọlá",
+              "traduction_ou_definition": "honneur"
+            },
+            {
+              "terme": "oba",
+              "traduction_ou_definition": "chef, roi traditionnel"
+            },
+            {
+              "terme": "ilẹkun",
+              "traduction_ou_definition": "prosternation complète (devant un aîné ou un chef)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque culturelle)",
+              "traduction": "Le respect des aînés est lié au concept d'ọlá (honneur) ; la prosternation devant un oba (chef) reste pratiquée."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "À quel concept le respect des aînés est-il lié en yoruba ?",
+              "type": "QCM",
+              "options": [
+                "Ọlá (honneur)",
+                "Owó (argent)",
+                "Ilé (maison)",
+                "Iṣẹ́ (travail)"
+              ],
+              "reponse_correcte": "Ọlá (honneur)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Les salutations religieuses",
+          "contenu_detaille": "Le registre religieux traditionnel yoruba (l'Ifá) imprègne profondément le langage : 'Aboru Aboye' est une salutation rituelle signifiant « que les prières soient exaucées », employée dans le contexte de la religion traditionnelle yoruba et de ses divinités (les Orishas), un registre distinct des salutations neutres de la vie quotidienne.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Aboru Aboye",
+              "traduction_ou_definition": "que les prières soient exaucées (salutation rituelle de la religion traditionnelle Ifá)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Aboru Aboye.",
+              "traduction": "Que les prières soient exaucées."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "La salutation rituelle de la religion traditionnelle Ifá, signifiant 'que les prières soient exaucées', est : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Aboru Aboye"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le concept d'honneur (ọlá) qui structure le respect des aînés et la salutation religieuse traditionnelle (Aboru Aboye), issus de recherches web sur la culture yoruba."
+}`;export{e as default};

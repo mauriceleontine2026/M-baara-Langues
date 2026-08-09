@@ -1,0 +1,131 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Demander son chemin et se repérer (les directions).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Français-Wolof et Wolof-Français », compilant les dictionnaires de Dard, du baron Roger et de l'abbé Lambert, revu et considérablement augmenté par les missionnaires de la Congrégation du Saint-Esprit et du Saint-Cœur de Marie (édition ancienne, Dakar/Saint-Louis du Sénégal). Ce document est une liste alphabétique française-wolof (mots et locutions), sans phrases dialoguées suivies ; l'orthographe d'origine (accents, apostrophes) est conservée telle quelle. L'extraction automatique de ce document scanné a pu déformer certains diacritiques (accents, lettres ñ/à propres au wolof) ; les transcriptions ci-dessous sont données sous cette réserve. Note : les entrées 'droite' et 'gauche' du document comportent des caractères mal reconnus par l'extraction automatique ; elles sont données ici sous toute réserve.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Se repérer",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le chemin et les points cardinaux",
+          "contenu_detaille": "Le dictionnaire donne 'yon' (ou 'ngér') pour « chemin » en général. Pour les points cardinaux, il donne 'pènku' pour « est » (avec 'vent d'est' = 'mboyom'), 'harfu' (ou 'karfu') pour « ouest », 'goy' pour « nord », et 'ngélembu' pour « sud ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "yon / ngér",
+              "traduction_ou_definition": "chemin"
+            },
+            {
+              "terme": "pènku",
+              "traduction_ou_definition": "est"
+            },
+            {
+              "terme": "harfu / karfu",
+              "traduction_ou_definition": "ouest"
+            },
+            {
+              "terme": "goy",
+              "traduction_ou_definition": "nord"
+            },
+            {
+              "terme": "ngélembu",
+              "traduction_ou_definition": "sud"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "pènku.",
+              "traduction": "Est."
+            },
+            {
+              "phrase": "ngélembu.",
+              "traduction": "Sud."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'est' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "pènku",
+                "harfu",
+                "goy",
+                "ngélembu"
+              ],
+              "reponse_correcte": "pènku"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Droite et gauche",
+          "contenu_detaille": "Le dictionnaire consacre une entrée à « droite » et à « gauche », bien que la transcription exacte de ces mots soit rendue incertaine par la numérisation du document. Il précise en revanche clairement les adverbes 'budub' pour « droitement » (aller tout droit) et signale une entrée séparée pour la « gauche », maladroit se disant 'maifait'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "budub",
+              "traduction_ou_definition": "droitement (tout droit)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "budub.",
+              "traduction": "Droitement, tout droit."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Droitement, tout droit' se dit en wolof : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "budub"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Voyager et se déplacer",
+          "contenu_detaille": "Le dictionnaire distingue plusieurs manières précises de se déplacer, utiles pour décrire un itinéraire : 'doh' (marcher), 'ivâhu' (marcher vite), 'andâ' (aller ensemble), 'gnubi' (aller chez soi), 'tuki' (voyager), 'rongâ' (aller à pied en voyage), et 'téfé' (marcher sur le rivage). Cette richesse de vocabulaire pour le déplacement montre l'importance du chemin et du voyage dans le lexique décrit par le dictionnaire.",
+          "vocabulaire_cles": [
+            {
+              "terme": "doh",
+              "traduction_ou_definition": "marcher"
+            },
+            {
+              "terme": "tuki",
+              "traduction_ou_definition": "voyager"
+            },
+            {
+              "terme": "gnubi",
+              "traduction_ou_definition": "aller chez soi"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "tuki.",
+              "traduction": "Voyager."
+            },
+            {
+              "phrase": "gnubi.",
+              "traduction": "Aller chez soi."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'voyager' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "tuki",
+                "doh",
+                "yon",
+                "pènku"
+              ],
+              "reponse_correcte": "tuki"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le mot pour chemin (yon), les points cardinaux (pènku, harfu, goy, ngélembu), et le riche vocabulaire du déplacement (doh, tuki, andâ), issus du dictionnaire. Les mots précis pour 'droite' et 'gauche' n'ont pu être établis avec certitude en raison de la qualité de numérisation de cette partie du document."
+}`;export{e as default};

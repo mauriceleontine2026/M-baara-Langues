@@ -1,0 +1,111 @@
+const n=`{
+  "titre_cours": "Leçon 1 : Parler de sa maison, de son logement et de sa ville.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir de la fiche « LE LINGALA » d'Alain Kihm (CNRS – Université Paris-Cité), publiée dans le cadre du projet Langues et Grammaires du Monde dans l'Espace Francophone (LGMEF, référence HAL-04102394, 2024). La fiche fournit ici un vocabulaire modeste mais réel (ndako, mboka, zándo, mokonzi), tous cités comme exemples grammaticaux plutôt que dans une intention pédagogique lexicale, ce qui explique leur nombre limité.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "La maison et le village",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "La maison : ndako",
+          "contenu_detaille": "La fiche donne 'ndako' pour « maison », dans un exemple sur les pronoms possessifs : 'ndako na yé' signifie « sa maison », et 'ndako oyó ezalákí ya ngáí' signifie « Cette maison était la mienne/à moi ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "ndako",
+              "traduction_ou_definition": "maison"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ndako na yé.",
+              "traduction": "Sa maison."
+            },
+            {
+              "phrase": "ndako oyó ezalákí ya ngáí.",
+              "traduction": "Cette maison était la mienne."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'maison' en lingala d'après la fiche ?",
+              "type": "QCM",
+              "options": [
+                "ndako",
+                "mboka",
+                "zándo",
+                "monkanda"
+              ],
+              "reponse_correcte": "ndako"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le village et le marché",
+          "contenu_detaille": "La fiche donne 'mboka' pour « village » (dans l'exemple 'Náni azalí mokonzi ya mboka oyó?', Qui est le chef de ce village ?), et 'zándo' (classe flexionnelle VII, pluriel 'ba-zándo') pour « marché ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "mboka",
+              "traduction_ou_definition": "village"
+            },
+            {
+              "terme": "zándo",
+              "traduction_ou_definition": "marché"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "mboka.",
+              "traduction": "Village."
+            },
+            {
+              "phrase": "zándo / ba-zándo.",
+              "traduction": "Marché / marchés."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Village' se dit en lingala : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "mboka"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Le chef du village",
+          "contenu_detaille": "La fiche donne 'mokonzi' pour « chef » (classe flexionnelle I), dans l'exemple déjà cité : 'Náni azalí mokonzi ya mboka oyó?' (Qui est le chef de ce village ?), où l'on retrouve le connecteur 'ya' reliant le chef ('mokonzi') au village dont il est le chef ('mboka').",
+          "vocabulaire_cles": [
+            {
+              "terme": "mokonzi",
+              "traduction_ou_definition": "chef"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "mokonzi ya mboka.",
+              "traduction": "Le chef du village."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'chef' d'après la fiche ?",
+              "type": "QCM",
+              "options": [
+                "mokonzi",
+                "ndako",
+                "zándo",
+                "mwána"
+              ],
+              "reponse_correcte": "mokonzi"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les quelques mots de la maison et de la ville que documente la fiche : ndako (maison), mboka (village), zándo (marché) et mokonzi (chef), tous extraits d'exemples grammaticaux."
+}`;export{n as default};

@@ -1,0 +1,69 @@
+const e=`{
+  "titre_cours": "Leçon 6 : Le registre soutenu et le langage formel (cérémonies, contes, traditions).",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (fiche « LE HINDI » du projet LGMEF/CNRS-INALCO, Preply, Talkpal, OpenL, notes de cours de hindi de l'INRIA, et recueils de proverbes hindi), le hindi étant une langue majeure parlée par plus de 600 millions de personnes en Inde et dans sa diaspora, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le registre respectueux : आप",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "आप : le vouvoiement systématique",
+          "contenu_detaille": "Le hindi possède un système de degrés de politesse dans ses pronoms de deuxième personne, dont 'आप' (aap), forme la plus respectueuse (déjà rencontrée en Leçon 1 du niveau débutant dans 'आप कैसे हैं?', comment allez-vous ?), employée envers les aînés, les inconnus et dans tout contexte formel — un principe déjà illustré par la salutation 'प्रणाम' (Pranaam) vue en Leçon 1.",
+          "vocabulaire_cles": [
+            {
+              "terme": "आप (aap)",
+              "traduction_ou_definition": "vous, forme la plus respectueuse du pronom de 2e personne"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Aap kaise hain?",
+              "traduction": "Comment allez-vous ? (forme respectueuse)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quelle forme pronominale hindi marque le plus haut degré de respect ?",
+              "type": "QCM",
+              "options": [
+                "आप (aap)",
+                "तुम (tum)",
+                "तू (tū)",
+                "मैं (main)"
+              ],
+              "reponse_correcte": "आप (aap)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le sanskrit, source du registre soutenu",
+          "contenu_detaille": "Une recherche complémentaire précise que le hindi descend de l'ancien indo-aryen (sanskrit), via les Prakrits (notamment le Shauraseni) et l'Apabhramsha, une longue évolution qui explique la coexistence, dans le hindi moderne, d'un vocabulaire d'origine sanskrite (souvent réservé au registre soutenu, religieux ou littéraire) et d'emprunts persans et anglais, plus courants dans le registre familier.",
+          "vocabulaire_cles": [
+            {
+              "terme": "sanskrit / Prakrits (Shauraseni) / Apabhramsha",
+              "traduction_ou_definition": "lignée historique du hindi, source de son vocabulaire soutenu"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque historique)",
+              "traduction": "Le vocabulaire soutenu du hindi moderne provient largement du sanskrit, via les Prakrits et l'Apabhramsha."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le vocabulaire soutenu, religieux ou littéraire du hindi moderne provient largement du _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "sanskrit"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le registre respectueux du hindi (le pronom 'aap') et son origine historique dans le vocabulaire sanskrit transmis via les Prakrits, issus de recherches web."
+}`;export{e as default};

@@ -1,0 +1,77 @@
+const e=`{
+  "titre_cours": "Leçon 9 : Traduction et nuances stylistiques avancées.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir de deux articles universitaires fournis : Séraphin Kouakou Konan, « L'intrusion de mots nouchi dans la langue française : création ou désordre ? », Sudlangues n°14 (2010) ; et Kouakou Kouakou Antoine & Koffi Kouamé Narcisse, « Le nouchi d'hier à aujourd'hui : quelles innovations lexicales ! », Ziglôbitha n°08 (2023). AVERTISSEMENT IMPORTANT : ces documents ne sont pas des dictionnaires organisés par thème, mais des articles de sociolinguistique analysant les mécanismes de formation lexicale du nouchi (argot urbain ivoirien né dans les années 1980 à Abidjan, mêlant français, dioula et autres langues locales et internationales). Le vocabulaire qu'ils fournissent est donc dispersé et non structuré par thème de la vie quotidienne (pas de mots pour les salutations, les chiffres, les jours, la nourriture, les couleurs) ; il porte en revanche fortement sur l'argent, les relations amoureuses, la tromperie, la fuite et l'apparence physique. Le nouchi est de plus, par nature, un registre familier et transgressif, ce qui rend certains thèmes de ce cours (registre soutenu, proverbes classiques) difficiles à traiter fidèlement sans trahir la nature même de cette langue. Cette leçon reprend plusieurs nuances de traduction explicitement analysées par les deux articles, en particulier la polysémie contextuelle et les synonymies fines.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Nuances de traduction en nouchi",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "La polysémie du mot 'dja' selon sa fonction grammaticale",
+          "contenu_detaille": "Comme vu en Leçon 2 du niveau avancé, l'article de 2010 analyse en détail le mot 'dja', qui change radicalement de sens selon sa fonction dans la phrase : nom (« Dieu », sans déterminant), verbe conjugué à la 3e personne du singulier (« il t'a tué »), verbe à la 2e personne (« tu meurs »), ou verbe à l'impératif (« meurs »). Une traduction mécanique de 'dja' par un seul mot français, sans analyse de sa position syntaxique, produirait donc un contresens total.",
+          "vocabulaire_cles": [
+            {
+              "terme": "dja (nom)",
+              "traduction_ou_definition": "Dieu, sans déterminant"
+            },
+            {
+              "terme": "dja (verbe conjugué)",
+              "traduction_ou_definition": "tuer, mourir, selon la personne et le mode"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Si c'est dja qui t'a dja...",
+              "traduction": "Si c'est Dieu (nom) qui t'a tué (verbe)... — même mot, deux fonctions."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que risque une traduction du mot 'dja' qui ignorerait sa fonction syntaxique, d'après l'article de 2010 ?",
+              "type": "QCM",
+              "options": [
+                "Un contresens total entre 'Dieu' et 'tuer/mourir'",
+                "Aucun risque, le sens est toujours le même",
+                "Une simple erreur de genre",
+                "Une erreur de nombre uniquement"
+              ],
+              "reponse_correcte": "Un contresens total entre 'Dieu' et 'tuer/mourir'"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Les nuances fines entre synonymes composés : la famille de 'pan'",
+          "contenu_detaille": "L'article de 2023 distingue trois expressions composées avec le verbe 'pan' (fuir, s'en aller), qui ne sont pas de simples synonymes : 'mougou pan' signifie avoir des relations sexuelles avec quelqu'un puis disparaître sans donner de suite à la relation ; 'couper pan' signifie escroquer puis disparaître ; 'bécot pan' signifie embrasser puis disparaître sans donner signe de vie. Le second élément 'pan' est commun aux trois expressions et en détermine le sens général (fuir après l'acte), tandis que le premier élément (mougou, couper, bécot) précise la nature exacte de l'acte commis avant la fuite.",
+          "vocabulaire_cles": [
+            {
+              "terme": "pan",
+              "traduction_ou_definition": "fuir, s'en aller (élément commun aux trois expressions, détermine le sens général)"
+            },
+            {
+              "terme": "mougou pan / couper pan / bécot pan",
+              "traduction_ou_definition": "avoir des relations sexuelles et disparaître / escroquer et disparaître / embrasser et disparaître"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Abidjan seulement là, ya trop de mougou-pan même.",
+              "traduction": "À Abidjan, il y a beaucoup de ce comportement (avoir des relations puis disparaître). (exemple cité par l'article de 2023)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Dans les trois expressions 'mougou pan', 'couper pan' et 'bécot pan', l'élément commun qui signifie 'fuir' est : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "pan"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté deux nuances essentielles à une traduction précise du nouchi : la polysémie du mot 'dja' selon sa fonction syntaxique, et la famille de synonymes composés autour de 'pan' (mougou pan, couper pan, bécot pan), issues des deux articles sources."
+}`;export{e as default};

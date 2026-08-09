@@ -1,0 +1,73 @@
+const e=`{
+  "titre_cours": "Leçon 9 : Demander et donner des conseils ou des instructions.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir de « A Complete Analysis of the Lýýma Language » de Wesley Sadler (thèse de 1949, village de Woozie, nord du Liberia), republiée et annotée par Valentin Vydrine (Mandenkan n°42, LLACAN/CNRS). C'est une grammaire de référence complète du looma/loma/toma (langue mandée parlée au Liberia et en Guinée forestière), avec un système de transcription phonétique propre à l'auteur (notamment le graphème ß pour une fricative labio-dentale sourde, et des marques toniques). Cette orthographe scientifique est conservée telle quelle ; elle diffère de l'alphabet pratique du loma utilisé en Guinée. Cette leçon reprend la description de l'impératif dans la grammaire de Sadler.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Donner un ordre à l'impératif",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "La forme de base pour les ordres",
+          "contenu_detaille": "La grammaire indique que la forme de base du verbe sert aussi à donner des ordres : 'tiáli' (appelle-le !), 'nii zi…i' (prends ceci !). Aucun sujet n'est exprimé, le verbe seul (ou suivi de son complément) suffisant à former l'impératif.",
+          "vocabulaire_cles": [
+            {
+              "terme": "forme de base (impératif)",
+              "traduction_ou_definition": "sert à donner un ordre, sans pronom sujet exprimé"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "tiáli!",
+              "traduction": "Appelle-le !"
+            },
+            {
+              "phrase": "nii zi…i.",
+              "traduction": "Prends ceci."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment se forme l'impératif en looma, d'après la grammaire ?",
+              "type": "QCM",
+              "options": [
+                "Avec la forme de base du verbe, sans sujet exprimé",
+                "Avec un suffixe -ni",
+                "Avec l'auxiliaire kaÉ",
+                "Avec le pronom deÉ obligatoire"
+              ],
+              "reponse_correcte": "Avec la forme de base du verbe, sans sujet exprimé"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Les commandes en série",
+          "contenu_detaille": "La grammaire précise que, lorsque plusieurs commandes se suivent, seul le premier verbe de la série est à l'impératif proprement dit ; les commandes suivantes suivent la même forme de base, sans reprise du sujet, comme dans une chaîne d'instructions : 'wuÉ zi°…i e ya vebeÉi zi…i e liá ya vÿlÿÉi wu' (lève-toi, prends ton hamac et va dans ta maison).",
+          "vocabulaire_cles": [
+            {
+              "terme": "commandes en série",
+              "traduction_ou_definition": "chaîne d'instructions où seul le premier verbe reçoit l'accent de l'impératif"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "wuÉ zi°…i e ya vebeÉi zi…i e liá ya vÿlÿÉi wu.",
+              "traduction": "Lève-toi, prends ton hamac et va dans ta maison."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Dans une série de commandes en looma, seul le _____ verbe reçoit véritablement l'accent de l'impératif.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "premier"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté l'impératif du looma, formé avec la forme de base du verbe sans sujet exprimé, et son emploi dans les chaînes d'instructions, d'après la grammaire de Sadler."
+}`;export{e as default};

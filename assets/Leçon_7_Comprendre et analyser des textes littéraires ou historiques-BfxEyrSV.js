@@ -1,0 +1,107 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Comprendre et analyser des textes littéraires ou historiques.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit à partir du « Lexique bisa-français, suivi d'un index français-bisa » de Bettie Vanhoudt (Mandenkan n°34, 1999), documentant le dialecte lebir du bisa (Zabré, Burkina Faso). MISE À JOUR : cette leçon avait été signalée comme trop pauvre. Elle a été enrichie par une recherche web complémentaire, notamment un article culturel citant des phrases usuelles en bisa. Attention : plusieurs sources web classent le bissa comme langue gur plutôt que mandé, contrairement au lexique de Vanhoudt (source universitaire) et à Wikipédia, qui le classent tous deux comme langue mandée ; certaines formes web pourraient aussi refléter un dialecte différent (barka plutôt que lebir). Deux mots de cette source web (bɔ̀tím/Bouéti'm « demain » et bùsúː/bousso « argent») recoupent heureusement exactement le lexique de Vanhoudt, ce qui renforce la confiance dans les autres formes citées.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le pays bisa et son histoire",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Une enclave orientale de la famille mandé",
+          "contenu_detaille": "L'introduction du lexique de Vanhoudt explique que le pays bisa se situe dans le sud-ouest du Burkina Faso, sur environ 12 000 km² comptant quelque 300 000 habitants, et représente l'une des enclaves les plus orientales de la famille mandé. Trois entités dialectales le composent : le barka, le lebir (documenté par ce lexique, parlé à Zabré) et le san.",
+          "vocabulaire_cles": [
+            {
+              "terme": "famille mandé",
+              "traduction_ou_definition": "famille linguistique dont le bisa constitue l'une des enclaves les plus orientales"
+            },
+            {
+              "terme": "barka, lebir, san",
+              "traduction_ou_definition": "les trois dialectes du bisa"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(fait rapporté par l'introduction du lexique)",
+              "traduction": "Le bisa représente l'une des enclaves les plus orientales de la famille mandé."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "À quelle famille linguistique appartient le bisa, d'après le lexique de Vanhoudt et Wikipédia ?",
+              "type": "QCM",
+              "options": [
+                "La famille mandé",
+                "La famille gur",
+                "La famille bantoue",
+                "La famille atlantique"
+              ],
+              "reponse_correcte": "La famille mandé"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Deux vagues migratoires, d'après une linguiste",
+          "contenu_detaille": "Une recherche web complémentaire, rapportant les propos de spécialistes lors de la Semaine des Langues Africaines 2023 à Ouagadougou, précise que les populations de souche bisa seraient arrivées au Burkina Faso depuis le nord du Ghana en deux vagues migratoires : une première autour du 8e siècle, une seconde autour du 15e siècle. La linguiste Dr Aoua Bambara y confirme, comme le lexique de Vanhoudt, que le bisa appartient à la famille mandé, et précise que le territoire bisa se nomme 'bisaku'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "deux vagues migratoires",
+              "traduction_ou_definition": "8e siècle et 15e siècle, depuis le nord du Ghana, selon des chercheurs cités par une source web"
+            },
+            {
+              "terme": "bisaku",
+              "traduction_ou_definition": "nom du territoire bisa (« pays où village bissa »)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(fait rapporté par une source web citant des chercheurs lors d'un panel à Ouagadougou, 2023)",
+              "traduction": "Les Bisa seraient arrivés au Burkina Faso en deux vagues migratoires, au 8e et au 15e siècle."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "D'après les chercheurs cités par cette source web, les Bisa seraient arrivés en deux vagues, la première autour du _____ e siècle.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "8"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Une diaspora particulière : Béguédo et l'Italie",
+          "contenu_detaille": "Le même témoignage ethnographique note une particularité de la diaspora bisa : la plus importante communauté burkinabè d'Europe résiderait en Italie (environ 8000 personnes, dont un millier à Brescia), constituée en grande partie de Bisa originaires de Béguédo (le long du Nakambé), village aujourd'hui surnommé « Little Italy » du fait de sa relative prospérité comparée aux autres bourgades burkinabè de même taille.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Béguédo",
+              "traduction_ou_definition": "village d'origine de la principale diaspora bisa en Italie, surnommé « Little Italy »"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(fait rapporté par un témoignage ethnographique trouvé en ligne)",
+              "traduction": "La plus grosse diaspora burkinabè en Europe, originaire de Béguédo, réside en Italie et surnomme son village « Little Italy »."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel village bisa est surnommé « Little Italy » en raison de sa diaspora, d'après le témoignage cité ?",
+              "type": "QCM",
+              "options": [
+                "Béguédo",
+                "Zabré",
+                "Tenkodogo",
+                "Garango"
+              ],
+              "reponse_correcte": "Béguédo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté la localisation et la filiation mandé du bisa (lexique de Vanhoudt), enrichies par une recherche web complémentaire sur les deux vagues migratoires historiques et la diaspora bisa en Italie (Béguédo, « Little Italy »)."
+}`;export{e as default};

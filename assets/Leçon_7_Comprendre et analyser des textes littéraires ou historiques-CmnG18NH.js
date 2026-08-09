@@ -1,0 +1,73 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Comprendre et analyser des textes littéraires ou historiques.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir du Dictionnaire Français-Soso et Soso-Français du R.P. Raimbault (2e édition, Mission Catholique de Conakry, 1921-1923) : chapitre grammatical 'Principes de la langue Soso', recueil de phrases usuelles, et entrées des dictionnaires français-soso et soso-français. L'orthographe d'origine (kh, gn, apostrophes, accents) est conservée telle quelle. Le corpus soso proprement dit ne contient pas de long texte littéraire suivi ; cette leçon travaille donc, en toute fidélité au document, sur le texte historique français des pages liminaires (dédicace et avant-propos) et sur la parabole soso mentionnée à l'entrée 'tali'.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Analyse de textes du dictionnaire",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Comprendre un texte historique : la dédicace de 1885",
+          "contenu_detaille": "Le dictionnaire s'ouvre sur une dédicace datée du 7 novembre 1885, adressée au R.P. Raimbault par un dignitaire qui le remercie 'de l'honneur qu'il a bien voulu lui faire en lui dédiant son Dictionnaire français-soso et soso-français' et accepte cette dédicace. L'auteur y évoque le dévouement des missionnaires apostoliques à la côte occidentale d'Afrique et le zèle de la Mission du Rio-Pongo. Ce texte, entièrement en français, permet d'analyser le contexte historique et colonial dans lequel le dictionnaire a été composé.",
+          "vocabulaire_cles": [
+            {
+              "terme": "dédicace",
+              "traduction_ou_definition": "texte d'ouverture datée du 7 novembre 1885"
+            },
+            {
+              "terme": "Rio-Pongo",
+              "traduction_ou_definition": "région où fut fondée la Mission catholique ayant produit ce dictionnaire"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Paris, le 7 novembre 1885.",
+              "traduction": "Date de la dédicace figurant en tête du dictionnaire."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "À quelle date est datée la dédicace figurant en tête du dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "7 novembre 1885",
+                "4 juin 1921",
+                "2e édition 1923",
+                "1er janvier 1900"
+              ],
+              "reponse_correcte": "7 novembre 1885"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Une parabole traduite en soso",
+          "contenu_detaille": "Le document illustre l'entrée 'tali' (parabole, proverbe) par une phrase tirée d'un contexte religieux narratif : 'Yésunakhayltalisaèbè' (Jésus leur proposa cette parabole). Cette courte phrase montre comment le soso rend la structure narrative 'sujet + marque du passé narratif (nakha) + verbe + complément' pour introduire un récit ou un enseignement, structure déjà rencontrée dans la leçon sur les temps du récit.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Yésunakhayltalisaèbè",
+              "traduction_ou_definition": "Jésus leur proposa cette parabole"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Yésunakhayltalisaèbè.",
+              "traduction": "Jésus leur proposa cette parabole."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Dans 'Yésunakhayltalisaèbè', le mot qui signifie 'parabole' est : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "tali"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a proposé, dans les limites du corpus disponible, une lecture du texte historique liminaire du dictionnaire (dédicace de 1885) et l'analyse d'une courte phrase narrative en soso introduisant une parabole."
+}`;export{e as default};

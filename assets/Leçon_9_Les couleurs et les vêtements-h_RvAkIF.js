@@ -1,0 +1,77 @@
+const e=`{
+  "titre_cours": "Leçon 9 : Les couleurs et les vêtements.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire fulfulde-français-anglais moderne (même format SIL que les dictionnaires dioula et mooré déjà utilisés dans ce projet), documentant le fulfulde du Burkina Faso (langue peule), complété par une recherche web. Cette langue appartient au même continuum que le pulaar du Fouta Djallon (Guinée) déjà étudié dans un autre cours de ce projet ([[pulaar-language-course]]) ; plusieurs mots se recoupent presque exactement d'un pays à l'autre (nyaamo=droite, nano=gauche, ɗiɗi=deux...), tandis que d'autres diffèrent, reflet naturel de la variation dialectale du fulfulde à travers l'Afrique de l'Ouest. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Couleurs",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Noir et blanc",
+          "contenu_detaille": "Le dictionnaire donne 'ɓawli' pour « noir », avec l'exemple poétique (et scientifiquement inexact, mais culturellement révélateur) 'Ƴuwonde ɓawlinii' (La pluie est noire), et 'ndaneeri' pour « blanc » (dans 'ndaneeri yitere', le blanc de l'œil).",
+          "vocabulaire_cles": [
+            {
+              "terme": "ɓawli",
+              "traduction_ou_definition": "noir"
+            },
+            {
+              "terme": "ndaneeri",
+              "traduction_ou_definition": "blanc"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ƴuwonde ɓawlinii.",
+              "traduction": "La pluie est noire (exemple du dictionnaire)."
+            },
+            {
+              "phrase": "ndaneeri yitere.",
+              "traduction": "Le blanc de l'œil."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'noir' en fulfulde d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "ɓawli",
+                "ndaneeri",
+                "teewu",
+                "jam"
+              ],
+              "reponse_correcte": "ɓawli"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "L'argent-métal, matière de bijoux",
+          "contenu_detaille": "Le dictionnaire donne 'cardi' pour « argent » (le métal, non la monnaie), en précisant qu'il désigne souvent des pièces d'argent que les femmes tressent dans leurs cheveux — un usage traditionnel qui relie la couleur/matière argent à la parure plutôt qu'aux vêtements proprement dits, ce dernier thème n'étant pas clairement attesté dans les extraits consultés du dictionnaire.",
+          "vocabulaire_cles": [
+            {
+              "terme": "cardi",
+              "traduction_ou_definition": "argent (le métal), souvent tressé dans les cheveux des femmes"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "cardi.",
+              "traduction": "Argent (métal)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le mot 'cardi' (argent-métal) est traditionnellement tressé par les femmes dans leurs _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "cheveux"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les couleurs noir (ɓawli) et blanc (ndaneeri), ainsi que l'argent-métal comme parure traditionnelle (cardi), issus du dictionnaire fulfulde ; le vocabulaire des vêtements n'a pu être clairement établi dans les extraits consultés."
+}`;export{e as default};

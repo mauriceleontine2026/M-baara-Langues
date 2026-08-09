@@ -1,0 +1,73 @@
+const e=`{
+  "titre_cours": "Leçon 6 : Le registre soutenu et le langage formel (cérémonies, contes, traditions).",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Omniglot, Wikivoyage, Ezinaụlọ, Wikipédia, Latinum Institute, et articles universitaires sur la grammaire igbo), l'igbo étant une langue majeure parlée par environ 30 à 35 millions de personnes dans le sud-est du Nigeria, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le registre spirituel igbo",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Chi et Chukwu",
+          "contenu_detaille": "Comme vu en Leçon 3 du niveau débutant, l'igbo donne 'chi' pour le gardien spirituel personnel de chaque individu. Un registre plus solennel encore invoque 'Chukwu' (contraction de 'Chi' + 'ukwu', litt. le grand Chi), le dieu suprême dans la spiritualité igbo traditionnelle, également appelé 'Obasi' selon les régions — la source ultime de tous les bienfaits ('aku na uba').",
+          "vocabulaire_cles": [
+            {
+              "terme": "Chukwu",
+              "traduction_ou_definition": "dieu suprême, litt. « le grand Chi »"
+            },
+            {
+              "terme": "aku na uba",
+              "traduction_ou_definition": "abondance, tous les bienfaits (richesse matérielle et spirituelle)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Chukwu.",
+              "traduction": "Dieu suprême (litt. le grand Chi)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que signifie littéralement 'Chukwu' ?",
+              "type": "QCM",
+              "options": [
+                "Le grand Chi",
+                "La petite pluie",
+                "Le vieux village",
+                "Le nouveau jour"
+              ],
+              "reponse_correcte": "Le grand Chi"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Ndi ogo/Dibia : les prêtres traditionnels",
+          "contenu_detaille": "Le registre religieux igbo distingue des figures spirituelles spécialisées : le 'Dibia' (prêtre-devin, gardien traditionnel du temps et des rites) jouait un rôle central dans le calendrier traditionnel déjà étudié (Leçon 6 du niveau débutant), en calculant les intervalles lunaires et en déterminant les orientations lors des voyages rituels.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Dibia",
+              "traduction_ou_definition": "prêtre-devin, gardien traditionnel du temps et des rites"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque culturelle)",
+              "traduction": "Le Dibia, prêtre-devin, calculait traditionnellement les intervalles du calendrier lunaire igbo."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le prêtre-devin traditionnel, gardien du calendrier et des rites igbo, se nomme le _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Dibia"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le registre spirituel igbo (Chi, Chukwu, aku na uba) et la figure du Dibia (prêtre-devin traditionnel), issus de recherches web sur la spiritualité igbo."
+}`;export{e as default};

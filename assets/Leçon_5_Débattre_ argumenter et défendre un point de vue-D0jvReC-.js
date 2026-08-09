@@ -1,0 +1,73 @@
+const e=`{
+  "titre_cours": "Leçon 5 : Débattre, argumenter et défendre un point de vue.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit à partir de « A Complete Analysis of the Lýýma Language » de Wesley Sadler (thèse de 1949, village de Woozie, nord du Liberia), republiée et annotée par Valentin Vydrine (Mandenkan n°42, LLACAN/CNRS). C'est une grammaire de référence complète du looma/loma/toma (langue mandée parlée au Liberia et en Guinée forestière), avec un système de transcription phonétique propre à l'auteur (notamment le graphème ß pour une fricative labio-dentale sourde, et des marques toniques). Cette orthographe scientifique est conservée telle quelle ; elle diffère de l'alphabet pratique du loma utilisé en Guinée. Cette leçon reprend la section 4.2.3 de la grammaire, consacrée aux degrés de comparaison, outil central pour argumenter.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Comparer pour argumenter",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le comparatif avec la forme conditionnée",
+          "contenu_detaille": "La grammaire montre que le comparatif s'exprime par la forme conditionnée de l'adjectif suivie de l'objet de comparaison : 'suÉ §aÉavÿ Folomo va' se traduit par « Il est plus fort que Folomo ». Une seconde construction utilise 'eÉ leÉve' (litt. « passé ») : 'koÉozaØvÿ eÉ leÉve Folomo va' (il est plus grand, passé Folomo).",
+          "vocabulaire_cles": [
+            {
+              "terme": "forme conditionnée + objet",
+              "traduction_ou_definition": "construit le comparatif (ex. suÉ §aÉavÿ Folomo va, plus fort que Folomo)"
+            },
+            {
+              "terme": "eÉ leÉve",
+              "traduction_ou_definition": "« passé », renforce la comparaison"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "suÉ §aÉavÿ Folomo va.",
+              "traduction": "Il est plus fort que Folomo."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment se construit le comparatif en looma, d'après la grammaire ?",
+              "type": "QCM",
+              "options": [
+                "La forme conditionnée de l'adjectif suivie de l'objet de comparaison",
+                "Un suffixe -er comme en anglais",
+                "La répétition de l'adjectif",
+                "Un mot séparé signifiant 'plus'"
+              ],
+              "reponse_correcte": "La forme conditionnée de l'adjectif suivie de l'objet de comparaison"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le superlatif : « plus que tous »",
+          "contenu_detaille": "Le superlatif utilise un objet de comparaison illimité : 'suÉ §aÉavÿ teÉ pÿÉ baÉ' se traduit par « Il est le plus fort (plus fort que tous) ». Cette construction, qui explicite toujours l'ensemble de comparaison plutôt que d'employer un simple suffixe, est un outil rhétorique précis pour appuyer un argument en le comparant systématiquement à un ensemble donné.",
+          "vocabulaire_cles": [
+            {
+              "terme": "teÉ pÿÉ baÉ",
+              "traduction_ou_definition": "tous (eux), utilisé pour former le superlatif"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "suÉ §aÉavÿ teÉ pÿÉ baÉ.",
+              "traduction": "Il est le plus fort de tous."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le superlatif looma se construit en comparant à l'ensemble : teÉ _____ baÉ (tous).",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "pÿÉ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les constructions comparative et superlative du looma, outils grammaticaux précis pour appuyer un argument par comparaison, d'après la grammaire de Sadler."
+}`;export{e as default};

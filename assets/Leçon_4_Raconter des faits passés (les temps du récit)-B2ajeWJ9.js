@@ -1,0 +1,73 @@
+const e=`{
+  "titre_cours": "Leçon 4 : Raconter des faits passés (les temps du récit).",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire mooré-français-anglais moderne (généré par SIL, même format que le dictionnaire dioula déjà utilisé dans ce projet), documentant le mooré, langue des Mossi et langue la plus parlée du Burkina Faso, complété par une recherche web (vocabulaire thématique de Targumi, ressources culturelles mossi). Les deux sources se recoupent largement (piiga=dix, tãabo=trois, naase=quatre, ligdi=argent, koom/Ko=eau, barka/Bark=merci confirmés indépendamment par les deux), ce qui renforce la fiabilité du vocabulaire présenté ici ; quelques variantes dialectales mineures entre les deux sources sont signalées. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le passé en mooré",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le suffixe -ame/-me du passé",
+          "contenu_detaille": "Le dictionnaire montre, dans plusieurs exemples, un suffixe verbal marquant l'accompli/le passé, noté avec ses variantes '-ime, -ome, -ʋme, -ɩme', comme dans 'Biigã yãbame' (L'enfant a pleuré) et 'A waame' (Il/elle est venu(e)).",
+          "vocabulaire_cles": [
+            {
+              "terme": "-ame / -ime / -ome...",
+              "traduction_ou_definition": "suffixe marquant l'accompli/le passé, variable selon la voyelle du radical"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Biigã yãbame.",
+              "traduction": "L'enfant a pleuré."
+            },
+            {
+              "phrase": "A waame.",
+              "traduction": "Il/elle est venu(e)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel type de marque verbale exprime le passé/l'accompli en mooré, d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "Un suffixe (-ame et ses variantes)",
+                "Un préfixe uniquement",
+                "Un mot séparé",
+                "Le redoublement du verbe"
+              ],
+              "reponse_correcte": "Un suffixe (-ame et ses variantes)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le pronom 'a' pour la troisième personne",
+          "contenu_detaille": "Le dictionnaire précise que le pronom 'a' signifie « il, elle, lui » mais aussi, en contexte possessif, « son, sa, ses », comme dans 'A baaba waame' (Son père est venu). Ce pronom polyvalent est essentiel pour construire des phrases narratives à la troisième personne.",
+          "vocabulaire_cles": [
+            {
+              "terme": "a",
+              "traduction_ou_definition": "il/elle/lui ; aussi : son/sa/ses (selon le contexte)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "A baaba waame.",
+              "traduction": "Son père est venu."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Son père est venu' se dit en mooré : A _____ waame.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "baaba"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le suffixe verbal du passé/accompli (-ame et ses variantes) et le pronom polyvalent 'a' (il/elle, son/sa), tous deux illustrés par des exemples authentiques du dictionnaire mooré."
+}`;export{e as default};

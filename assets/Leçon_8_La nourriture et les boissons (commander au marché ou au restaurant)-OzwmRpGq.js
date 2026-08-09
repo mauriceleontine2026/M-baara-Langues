@@ -1,0 +1,176 @@
+const e=`{
+  "titre_cours": "Leçon 8 : La nourriture et les boissons (commander au marché ou au restaurant).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Cette leçon présente le vocabulaire kpele (guerzé) de la nourriture, des boissons et du marché, tel qu'il apparaît dans les entrées et les phrases d'exemple du Dictionnaire kpele de la Guinée de Maria Konoshenko (2019, Mandenkan n°62) : les aliments de base (riz, viande, poisson), les fruits et condiments courants, les verbes 'manger' et 'boire', et les expressions pour acheter et demander un prix au marché.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les aliments de base",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le riz, la viande et le poisson",
+          "contenu_detaille": "Le riz cuit, en particulier accompagné de sauce, se dit ɓá ; ce même mot désigne aussi le 'repas' de façon générale. Le riz non cuit se dit mɔ̀núŋ (variante mɔ̀níŋ), avec les expressions dérivées ~ téɠe 'récolter le riz' et ~ hǐɠe 'piler le riz pour le décortiquer'. La viande ou la chair se dit lúɠu ; hǔyo signifie aussi 'viande' en plus de 'animal', comme dans le composé nìŋɛhúyô 'viande de bœuf'. Le poisson (nom générique) se dit hɔ̀ŋɔlěe. Enfin, tɛ́ɛ désigne le poulet, tɛ́ɛwolo la poule, et tɛ́ɛɲanîŋ l'œuf.",
+          "vocabulaire_cles": [
+            {"terme": "ɓá", "traduction_ou_definition": "riz cuit (avec la sauce) ; aussi 'repas'"},
+            {"terme": "mɔ̀núŋ", "traduction_ou_definition": "riz non cuit"},
+            {"terme": "lúɠu", "traduction_ou_definition": "viande, chair"},
+            {"terme": "hɔ̀ŋɔlěe", "traduction_ou_definition": "poisson (nom générique)"},
+            {"terme": "tɛ́ɛ", "traduction_ou_definition": "poulet"},
+            {"terme": "tɛ́ɛwolo", "traduction_ou_definition": "poule"},
+            {"terme": "tɛ́ɛɲanîŋ", "traduction_ou_definition": "œuf"}
+          ],
+          "exemples": [
+            {"phrase": "nìŋɛhúyô", "traduction": "'viande de bœuf' (composé de nǐŋɛ 'bœuf' et hǔyo 'viande')"},
+            {"phrase": "mɔ̀núŋ ~ hǐɠe", "traduction": "'piler le riz pour le décortiquer'"},
+            {"phrase": "péneŋgɛmuŋ àa tɛ́ɛwolo màapéne à tɛ́ɛɲanîŋ", "traduction": "'le magicien a transformé la poule en œuf'"}
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'riz cuit' (qui signifie aussi 'repas') en kpele ?",
+              "type": "QCM",
+              "options": ["ɓá", "mɔ̀núŋ", "lúɠu", "hɔ̀ŋɔlěe"],
+              "reponse_correcte": "ɓá"
+            },
+            {
+              "question": "___ désigne le riz non cuit, qu'on peut piler pour le décortiquer.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "mɔ̀núŋ"
+            },
+            {
+              "question": "Quel mot signifie 'poisson' ?",
+              "type": "QCM",
+              "options": ["tɛ́ɛ", "lúɠu", "hɔ̀ŋɔlěe", "nìŋɛ"],
+              "reponse_correcte": "hɔ̀ŋɔlěe"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Fruits, légumes et condiments",
+          "contenu_detaille": "La banane se dit gwîi, comme dans gwíikpɔ̀lu 'banane mûre'. L'ananas se dit kwíitou, et la papaye yèletéâ. Le manioc se dit mànáŋ (synonyme tǒu), avec l'expression ~ hǐɠe 'piler le manioc'. Le maïs se dit kpǎi. Le sel se dit kpǒlo, et l'huile (ou la graisse) se dit wúlo, comme dans tóu àa wúlo 'les noix de palmier ont donné beaucoup d'huile'.",
+          "vocabulaire_cles": [
+            {"terme": "gwîi", "traduction_ou_definition": "banane"},
+            {"terme": "kwíitou", "traduction_ou_definition": "ananas"},
+            {"terme": "yèletéâ", "traduction_ou_definition": "papaye"},
+            {"terme": "mànáŋ", "traduction_ou_definition": "manioc"},
+            {"terme": "kpǎi", "traduction_ou_definition": "maïs"},
+            {"terme": "kpǒlo", "traduction_ou_definition": "sel"},
+            {"terme": "wúlo", "traduction_ou_definition": "huile, gras"}
+          ],
+          "exemples": [
+            {"phrase": "gwíikpɔ̀lu", "traduction": "'banane mûre'"},
+            {"phrase": "kwíitou ↓wɛ́li káa mîi", "traduction": "'j'aime les ananas'"},
+            {"phrase": "kwíitou ɓáa yèletéâ ?", "traduction": "'l'ananas ou la papaye ?'"},
+            {"phrase": "tóu àa wúlo", "traduction": "'les noix de palmier ont donné beaucoup d'huile'"}
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'ananas' en kpele ?",
+              "type": "QCM",
+              "options": ["gwîi", "kwíitou", "yèletéâ", "mànáŋ"],
+              "reponse_correcte": "kwíitou"
+            },
+            {
+              "question": "___ signifie 'sel' en kpele.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "kpǒlo"
+            },
+            {
+              "question": "Quel mot désigne l'huile ou la graisse ?",
+              "type": "QCM",
+              "options": ["wúlo", "kpǒlo", "mànáŋ", "kpǎi"],
+              "reponse_correcte": "wúlo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_module": 2,
+      "titre_module": "Boissons et repas",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Manger et boire",
+          "contenu_detaille": "'Manger' se dit mǐi (variante mɛ̌ɛ), comme dans pá gù kɔ́nɔŋ míi 'viens manger'. 'Boire' se dit kpěle, comme dans kú káa lɔ̀ɔ ́ kpèlêi 'nous sommes en train de boire du vin de palme'. Le 'repas' se dit kɔ́nɔŋ. Le café se dit káhwe, avec l'expression ~ kǔlo 'récolter le café'. Le vin de palme se dit lɔ̌ɔ, illustré par la phrase àa háa lɔ̀ɔ kpéle à mɔ̌lɔɔ, lɔ̀ɔ káa ní mà 'il a bu beaucoup de vin de palme aujourd'hui, il est encore soûl'.",
+          "vocabulaire_cles": [
+            {"terme": "mǐi", "traduction_ou_definition": "manger"},
+            {"terme": "kpěle", "traduction_ou_definition": "boire"},
+            {"terme": "kɔ́nɔŋ", "traduction_ou_definition": "repas"},
+            {"terme": "káhwe", "traduction_ou_definition": "café"},
+            {"terme": "lɔ̌ɔ", "traduction_ou_definition": "vin de palme"}
+          ],
+          "exemples": [
+            {"phrase": "pá gù kɔ́nɔŋ míi", "traduction": "'viens manger'"},
+            {"phrase": "kú kɔ́nɔŋ dà wólo mɛ̀ɛ", "traduction": "'nous avons mangé un peu'"},
+            {"phrase": "kú káa lɔ̀ɔ ́ kpèlêi", "traduction": "'nous sommes en train de boire du vin de palme'"},
+            {"phrase": "àa háa lɔ̀ɔ kpéle à mɔ̌lɔɔ, lɔ̀ɔ káa ní mà", "traduction": "'il a bu beaucoup de vin de palme aujourd'hui, il est encore soûl'"}
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'boire' en kpele ?",
+              "type": "QCM",
+              "options": ["mǐi", "kpěle", "kɔ́nɔŋ", "káhwe"],
+              "reponse_correcte": "kpěle"
+            },
+            {
+              "question": "pá gù kɔ́nɔŋ ___ signifie 'viens manger'.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "míi"
+            },
+            {
+              "question": "Que signifie lɔ̌ɔ ?",
+              "type": "QCM",
+              "options": ["café", "eau", "vin de palme", "riz cuit"],
+              "reponse_correcte": "vin de palme"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Commander et payer au marché",
+          "contenu_detaille": "Le marché se dit lɔ́ɠɔkpalâŋ, avec l'expression ~ ɲá 'au marché' (une variante phonétique nɔ̀ɠɔ́kpalaŋ apparaît dans plusieurs phrases d'exemple). 'Acheter' se dit yá, comme dans née àa dɔ́ɔ kwíitou ↓yâi 'ma maman m'a envoyé acheter de l'ananas'. L'argent se dit wálî (variante wálê), comme dans wáli tɛ̀ɠɛ bɔ́ 'donne-moi de l'argent'. Le prix se dit hɔ̌ŋɔ, et pour demander 'combien ?', on emploie yɛ̌li, comme dans gwíikpɔ̀lu hwèelɛ́ káa à wáli yɛ̌li ? 'deux bananes coûtent combien ?' ou gàá à wáli yɛ̌li ? 'c'est combien ?'.",
+          "vocabulaire_cles": [
+            {"terme": "lɔ́ɠɔkpalâŋ", "traduction_ou_definition": "marché"},
+            {"terme": "yá", "traduction_ou_definition": "acheter"},
+            {"terme": "wálî", "traduction_ou_definition": "argent"},
+            {"terme": "hɔ̌ŋɔ", "traduction_ou_definition": "prix"},
+            {"terme": "yɛ̌li", "traduction_ou_definition": "combien ?"}
+          ],
+          "exemples": [
+            {"phrase": "gáa lìí nɔ̀ɠɔ́kpalaŋ ↓ɲá", "traduction": "'je vais au marché'"},
+            {"phrase": "née àa dɔ́ɔ kwíitou ↓yâi", "traduction": "'ma maman m'a envoyé acheter de l'ananas'"},
+            {"phrase": "gwíikpɔ̀lu hwèelɛ́ káa à wáli yɛ̌li ?", "traduction": "'deux bananes coûtent combien ?'"},
+            {"phrase": "gàá à wáli yɛ̌li ?", "traduction": "'c'est combien ?'"},
+            {"phrase": "wáli tɛ̀ɠɛ bɔ́", "traduction": "'donne-moi de l'argent'"}
+          ],
+          "exercices": [
+            {
+              "question": "Comment demande-t-on « c'est combien ? » en kpele ?",
+              "type": "QCM",
+              "options": ["gàá à wáli yɛ̌li ?", "gáa lìí nɔ̀ɠɔ́kpalaŋ ↓ɲá", "pá gù kɔ́nɔŋ míi", "kú káa lɔ̀ɔ ́ kpèlêi"],
+              "reponse_correcte": "gàá à wáli yɛ̌li ?"
+            },
+            {
+              "question": "___ tɛ̀ɠɛ bɔ́ signifie 'donne-moi de l'argent'.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "wálî"
+            },
+            {
+              "question": "Où va-t-on pour acheter de la nourriture, selon le dictionnaire ?",
+              "type": "QCM",
+              "options": ["au lɔ́ɠɔkpalâŋ (marché)", "à la rivière", "au village", "à l'école"],
+              "reponse_correcte": "au lɔ́ɠɔkpalâŋ (marché)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire kpele des aliments de base (riz, viande, poisson, fruits et condiments), des repas et des boissons (manger, boire, café, vin de palme), ainsi que les expressions essentielles pour se rendre au marché, acheter et demander un prix. Ces données, tirées du Dictionnaire kpele de la Guinée (Konoshenko, 2019), s'appuient sur des phrases d'exemple authentiques de la vie quotidienne, comme les questions de prix au marché."
+}`;export{e as default};

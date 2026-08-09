@@ -1,0 +1,77 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Comprendre et analyser des textes littéraires ou historiques.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Omniglot, Wikivoyage, Ezinaụlọ, Wikipédia, Latinum Institute, et articles universitaires sur la grammaire igbo), l'igbo étant une langue majeure parlée par environ 30 à 35 millions de personnes dans le sud-est du Nigeria, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le royaume de Nri, berceau spirituel igbo",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Un royaume fondé au 9e siècle",
+          "contenu_detaille": "Le royaume de Nri (Ọ̀ràézè Ǹrì), fondé au 9e siècle et dont le règne documenté d'Eze Nri Ìfikuánim commence en 1043, exerçait une influence religieuse et politique sur une grande partie de l'Igboland, administré par un roi-prêtre appelé 'Eze Nri', doté d'une autorité divine en matière religieuse. Fait notable : Nri s'est étendu par la conversion et l'allégeance volontaire des communautés voisines, non par la force militaire, et servait de refuge pour les personnes rejetées ailleurs et un lieu où les esclaves étaient libérés de leur servitude.",
+          "vocabulaire_cles": [
+            {
+              "terme": "royaume de Nri",
+              "traduction_ou_definition": "royaume médiéval igbo, fondé au 9e siècle, influence religieuse et politique"
+            },
+            {
+              "terme": "Eze Nri",
+              "traduction_ou_definition": "titre du roi-prêtre de Nri, autorité divine en matière religieuse"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(fait historique)",
+              "traduction": "Le royaume de Nri s'est étendu par la conversion volontaire, pas par la force, et libérait les esclaves."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment le royaume de Nri s'est-il principalement étendu, d'après les recherches web ?",
+              "type": "QCM",
+              "options": [
+                "Par la conversion et l'allégeance volontaire des communautés voisines",
+                "Par la conquête militaire",
+                "Par des traités commerciaux uniquement",
+                "Il ne s'est jamais étendu"
+              ],
+              "reponse_correcte": "Par la conversion et l'allégeance volontaire des communautés voisines"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Eri, le roi divin fondateur",
+          "contenu_detaille": "La tradition igbo rapporte que le fondateur royal de Nri, Eri, était un « être céleste » descendu sur terre pour établir la civilisation, envoyé par Chukwu (déjà vu en Leçon 6 du niveau avancé) pour apaiser les conflits, purifier les souillures et fournir aux Igbo leur nourriture (igname et taro). Les artefacts d'Igbo-Ukwu, l'un des vestiges les mieux connus de la civilisation Nri, témoignent archéologiquement de cette influence historique durable, notamment sur les régions nord et ouest de l'Igboland.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Eri",
+              "traduction_ou_definition": "roi divin fondateur légendaire de Nri, envoyé par Chukwu"
+            },
+            {
+              "terme": "artefacts d'Igbo-Ukwu",
+              "traduction_ou_definition": "vestiges archéologiques de la civilisation Nri"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(fait historique/mythologique)",
+              "traduction": "Eri, roi divin fondateur de Nri, aurait été envoyé par Chukwu pour apaiser les conflits et fournir la nourriture aux Igbo."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le fondateur légendaire de Nri, envoyé par Chukwu pour apaiser les conflits, se nomme _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Eri"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté l'histoire du royaume de Nri (9e siècle, roi-prêtre Eze Nri) et son fondateur légendaire Eri, envoyé par Chukwu, issus de recherches web sur l'histoire igbo."
+}`;export{e as default};

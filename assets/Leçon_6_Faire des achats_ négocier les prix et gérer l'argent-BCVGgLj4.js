@@ -1,0 +1,73 @@
+const e=`{
+  "titre_cours": "Leçon 6 : Faire des achats, négocier les prix et gérer l'argent.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Dioula-Français-Anglais-Allemand » (dernière mise à jour du 28/12/2020), un dictionnaire moderne et très complet (plus de 1200 pages) documentant le dioula (jula) parlé autour de Bobo-Dioulasso, Burkina Faso — une langue mandingue très proche du malinké et du bambara déjà utilisés dans ce projet. Ce dictionnaire est exceptionnellement riche : chaque entrée est classée par catégorie sémantique (Kinship, colour, Food, Mathematics, etc.), donnée avec tons, traduction quadrilingue et souvent un exemple de phrase authentique. Cette leçon reprend le vocabulaire du marché et du prix, illustré d'exemples authentiques.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le marché",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Aller au marché : lɔgɔ",
+          "contenu_detaille": "Comme vu en Leçon 8 du niveau débutant, le dictionnaire donne 'lɔgɔ' pour « marché », avec l'exemple 'N b'a fɛ ka taga lɔgɔ la' (je veux aller au marché).",
+          "vocabulaire_cles": [
+            {
+              "terme": "lɔgɔ",
+              "traduction_ou_definition": "marché"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "N b'a fɛ ka taga lɔgɔ la.",
+              "traduction": "Je veux aller au marché."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'marché' en dioula d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "lɔgɔ",
+                "dugu",
+                "so",
+                "baara"
+              ],
+              "reponse_correcte": "lɔgɔ"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le prix : sɔngɔ",
+          "contenu_detaille": "Le dictionnaire donne l'expression 'a sɔngɔ ka gwɛlɛ' pour « c'est cher » (litt. son prix est difficile/dur), ce qui montre que 'sɔngɔ' désigne le prix, et 'gwɛlɛ' l'idée de difficulté ou de dureté, employée ici métaphoriquement pour un prix élevé.",
+          "vocabulaire_cles": [
+            {
+              "terme": "sɔngɔ",
+              "traduction_ou_definition": "prix"
+            },
+            {
+              "terme": "a sɔngɔ ka gwɛlɛ",
+              "traduction_ou_definition": "c'est cher (litt. son prix est difficile)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "A sɔngɔ ka gwɛlɛ.",
+              "traduction": "C'est cher."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'C'est cher' se dit en dioula, litt. « son prix est difficile » : a sɔngɔ ka _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "gwɛlɛ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire du marché (lɔgɔ) et du prix (sɔngɔ, avec l'expression 'a sɔngɔ ka gwɛlɛ', c'est cher), issu du dictionnaire dioula."
+}`;export{e as default};

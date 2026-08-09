@@ -1,0 +1,138 @@
+const e=`{
+  "titre_cours": "Leçon 1 : Parler de sa maison, de son logement et de sa ville.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Français-Wolof et Wolof-Français », compilant les dictionnaires de Dard, du baron Roger et de l'abbé Lambert, revu et considérablement augmenté par les missionnaires de la Congrégation du Saint-Esprit et du Saint-Cœur de Marie (édition ancienne, Dakar/Saint-Louis du Sénégal). Ce document est une liste alphabétique française-wolof (mots et locutions), sans phrases dialoguées suivies ; l'orthographe d'origine (accents, apostrophes) est conservée telle quelle. L'extraction automatique de ce document scanné a pu déformer certains diacritiques (accents, lettres ñ/à propres au wolof) ; les transcriptions ci-dessous sont données sous cette réserve.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le logement et la ville",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "La maison et ses parties",
+          "contenu_detaille": "Le dictionnaire donne 'ker' pour « maison », en précisant des variantes : maison de pierre se dit 'tkh', maison des Maures se dit 'gadâ'. Il donne aussi le détail des parties de la maison : 'nèg' pour « chambre », 'dènkâ' (ou 'takar') pour « toit », 'buntâ' pour « porte » (la petite porte de derrière se dit 'pôt'), et 'flanter' pour « fenêtre ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "ker",
+              "traduction_ou_definition": "maison"
+            },
+            {
+              "terme": "nèg",
+              "traduction_ou_definition": "chambre"
+            },
+            {
+              "terme": "dènkâ / takar",
+              "traduction_ou_definition": "toit"
+            },
+            {
+              "terme": "buntâ",
+              "traduction_ou_definition": "porte"
+            },
+            {
+              "terme": "flanter",
+              "traduction_ou_definition": "fenêtre"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ker.",
+              "traduction": "Maison."
+            },
+            {
+              "phrase": "nèg.",
+              "traduction": "Chambre."
+            },
+            {
+              "phrase": "buntâ.",
+              "traduction": "Porte."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'chambre' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "nèg",
+                "ker",
+                "buntâ",
+                "dekâ"
+              ],
+              "reponse_correcte": "nèg"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le maître de maison",
+          "contenu_detaille": "Le maître de maison ou chef se dit 'borom' (ou 'kélifa'), le même mot qui désigne aussi un chef en général, comme on le voit dans l'entrée « Chef » du dictionnaire.",
+          "vocabulaire_cles": [
+            {
+              "terme": "borom / kélifa",
+              "traduction_ou_definition": "maître, chef"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "borom.",
+              "traduction": "Maître, chef."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Maître de maison, chef' se dit en wolof : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "borom"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Le village et la ville",
+          "contenu_detaille": "Le dictionnaire donne 'dekâ' pour « village », et 'dekâ bu réy' (litt. grand village) ou 'dèndi' pour « ville ». La ville royale (capitale) se dit 'pèy' (ou 'rëum'). Un roi se dit 'bûr'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "dekâ",
+              "traduction_ou_definition": "village"
+            },
+            {
+              "terme": "dekâ bu réy / dèndi",
+              "traduction_ou_definition": "ville"
+            },
+            {
+              "terme": "pèy / rëum",
+              "traduction_ou_definition": "ville royale, capitale"
+            },
+            {
+              "terme": "bûr",
+              "traduction_ou_definition": "roi"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "dekâ.",
+              "traduction": "Village."
+            },
+            {
+              "phrase": "dekâ bu réy.",
+              "traduction": "Ville (litt. grand village)."
+            },
+            {
+              "phrase": "bûr.",
+              "traduction": "Roi."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Ville', littéralement 'grand village', se dit : dekâ bu _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "réy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire de la maison et de ses parties (ker, nèg, buntâ, flanter), du maître de maison (borom) et du village/ville (dekâ, dekâ bu réy, bûr), issu du dictionnaire."
+}`;export{e as default};

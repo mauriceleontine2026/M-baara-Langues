@@ -1,0 +1,81 @@
+const e=`{
+  "titre_cours": "Leçon 8 : Le lexique technique, professionnel et spécialisé.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire mooré-français-anglais moderne (généré par SIL, même format que le dictionnaire dioula déjà utilisé dans ce projet), documentant le mooré, langue des Mossi et langue la plus parlée du Burkina Faso, complété par une recherche web (vocabulaire thématique de Targumi, ressources culturelles mossi). Les deux sources se recoupent largement (piiga=dix, tãabo=trois, naase=quatre, ligdi=argent, koom/Ko=eau, barka/Bark=merci confirmés indépendamment par les deux), ce qui renforce la fiabilité du vocabulaire présenté ici ; quelques variantes dialectales mineures entre les deux sources sont signalées. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Lexique spécialisé",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "L'orpailleur, un métier attesté",
+          "contenu_detaille": "Le dictionnaire donne 'sãnem baooda' pour « orpailleur », classé sous la catégorie « Travailleur/Worker », mot composé associant 'sãnem' (or, objet de valeur) et une base signifiant chercher/quêter, reflet de l'importance historique de l'orpaillage artisanal au Burkina Faso.",
+          "vocabulaire_cles": [
+            {
+              "terme": "sãnem baooda",
+              "traduction_ou_definition": "orpailleur"
+            },
+            {
+              "terme": "sãnem",
+              "traduction_ou_definition": "or, objet de grande valeur"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "sãnem baooda.",
+              "traduction": "Orpailleur."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'orpailleur' en mooré d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "sãnem baooda",
+                "fu-paasda",
+                "naaba",
+                "gʋls-koom"
+              ],
+              "reponse_correcte": "sãnem baooda"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le blanchisseur et le vocabulaire administratif",
+          "contenu_detaille": "Le dictionnaire donne aussi 'fu-paasda' pour « blanchisseur, blanchisseuse » (litt. lié à 'fu', vêtement, et au lavage), et 'gʋls-koom' pour « encre » (litt. eau d'écriture), 'gʋls-moogo' pour « stylo, crayon », vocabulaire technique lié à l'écriture et à l'administration.",
+          "vocabulaire_cles": [
+            {
+              "terme": "fu-paasda",
+              "traduction_ou_definition": "blanchisseur, blanchisseuse"
+            },
+            {
+              "terme": "gʋls-koom",
+              "traduction_ou_definition": "encre (litt. eau d'écriture)"
+            },
+            {
+              "terme": "gʋls-moogo",
+              "traduction_ou_definition": "stylo, crayon"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "gʋls-koom.",
+              "traduction": "Encre (litt. eau d'écriture)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Encre', litt. « eau d'écriture », se dit en mooré : gʋls-_____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "koom"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le lexique technique des métiers (sãnem baooda, orpailleur ; fu-paasda, blanchisseur) et de l'écriture (gʋls-koom, encre), issu du dictionnaire mooré et de son système de classification par catégories."
+}`;export{e as default};

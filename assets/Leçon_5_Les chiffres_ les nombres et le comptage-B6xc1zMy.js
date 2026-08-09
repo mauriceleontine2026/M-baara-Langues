@@ -1,0 +1,127 @@
+const n=`{
+  "titre_cours": "Leçon 5 : Les chiffres, les nombres et le comptage.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Targumi, DiscoverYoruba, Africa.uga.edu, Ling-App, Lingalot, Nigerian Finder, Wikipédia, et articles universitaires sur la grammaire et les proverbes yoruba), le yoruba étant une langue majeure parlée par plus de 45 millions de personnes au Nigeria, au Bénin et au Togo, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Compter en yoruba",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les nombres de 1 à 10",
+          "contenu_detaille": "Le yoruba donne : 1 ọkan, 2 èjì, 3 ẹta, 4 ẹrin, 5 àrún, 6 ẹfà, 7 èje, 8 ẹjọ, 9 ẹsán, 10 ẹwá.",
+          "vocabulaire_cles": [
+            {
+              "terme": "ọkan",
+              "traduction_ou_definition": "1"
+            },
+            {
+              "terme": "èjì",
+              "traduction_ou_definition": "2"
+            },
+            {
+              "terme": "ẹta",
+              "traduction_ou_definition": "3"
+            },
+            {
+              "terme": "ẹrin",
+              "traduction_ou_definition": "4"
+            },
+            {
+              "terme": "àrún",
+              "traduction_ou_definition": "5"
+            },
+            {
+              "terme": "ẹfà",
+              "traduction_ou_definition": "6"
+            },
+            {
+              "terme": "èje",
+              "traduction_ou_definition": "7"
+            },
+            {
+              "terme": "ẹjọ",
+              "traduction_ou_definition": "8"
+            },
+            {
+              "terme": "ẹsán",
+              "traduction_ou_definition": "9"
+            },
+            {
+              "terme": "ẹwá",
+              "traduction_ou_definition": "10"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ọkan.",
+              "traduction": "Un."
+            },
+            {
+              "phrase": "ẹwá.",
+              "traduction": "Dix."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on '5' en yoruba ?",
+              "type": "QCM",
+              "options": [
+                "àrún",
+                "ẹfà",
+                "ẹta",
+                "ẹjọ"
+              ],
+              "reponse_correcte": "àrún"
+            },
+            {
+              "question": "'Dix' se dit en yoruba : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "ẹwá"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Onze à vingt : un système soustractif remarquable",
+          "contenu_detaille": "Le yoruba montre un système numéral célèbre pour sa complexité : au-delà de quinze, les nombres se forment souvent par soustraction à partir de vingt plutôt que par addition à partir de dix. On a ainsi 'ẹẹ́dógún' (15), mais 'ẹẹ́rìndínlógún' (16, litt. quatre-manque-à-vingt), 'ẹtàdínlógún' (17, trois-manque-à-vingt), 'ẹjìdínlógún' (18, deux-manque-à-vingt), 'ọkàndínlógún' (19, un-manque-à-vingt), et 'ogún' (20).",
+          "vocabulaire_cles": [
+            {
+              "terme": "ẹẹ́rìndínlógún",
+              "traduction_ou_definition": "16 (litt. quatre-manque-à-vingt)"
+            },
+            {
+              "terme": "ọkàndínlógún",
+              "traduction_ou_definition": "19 (litt. un-manque-à-vingt)"
+            },
+            {
+              "terme": "ogún",
+              "traduction_ou_definition": "20"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ẹẹ́rìndínlógún.",
+              "traduction": "Seize (litt. quatre-manque-à-vingt)."
+            },
+            {
+              "phrase": "ogún.",
+              "traduction": "Vingt."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le système numéral yoruba pour 16 à 19 fonctionne par _____ à partir de vingt plutôt que par addition.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "soustraction"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les nombres de 1 à 20 en yoruba, avec le système soustractif remarquable des nombres 16 à 19 (formés par « manque à vingt »), une caractéristique célèbre de cette langue."
+}`;export{n as default};

@@ -1,0 +1,81 @@
+const n=`{
+  "titre_cours": "Leçon 7 : Exprimer l'obligation, l'interdiction et la permission.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir du document fourni. Note importante : ce document est en réalité le « Petit Dictionnaire Français-Bambara et Bambara-Français » de Moussa Travélé (Librairie Paul Geuthner, Paris, début du XXe siècle), consacré au bambara — une langue mandingue très proche du malinké, à laquelle le dictionnaire lui-même fait plusieurs fois référence explicite sous l'abréviation 'M.' (mot malinké). En l'absence d'un dictionnaire malinké dédié, ce cours utilise fidèlement ce contenu bambara/malinké, sans y ajouter aucune information extérieure. Ce dictionnaire est une liste alphabétique de mots (deux sens) et ne contient ni phrases dialoguées ni tableaux de conjugaison ; les leçons ci-dessous s'appuient donc sur le vocabulaire isolé qu'il fournit, complété quand cela existe par les 'Observations préliminaires' sur la prononciation.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Obligation et interdiction",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Falloir et devoir",
+          "contenu_detaille": "Le dictionnaire donne 'Fo' pour le verbe 'falloir' (à ne pas confondre avec 'Fo' qui signifie aussi 'saluer' — le dictionnaire lui-même signale par l'accent tonique que des mots à l'orthographe identique peuvent avoir des sens différents). Il donne également 'Magogna-fén' pour 'nécessaire'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Fo",
+              "traduction_ou_definition": "falloir"
+            },
+            {
+              "terme": "Magogna-fén",
+              "traduction_ou_definition": "nécessaire"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Fo.",
+              "traduction": "Falloir."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'falloir' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "Fo",
+                "Ké",
+                "San",
+                "Dia"
+              ],
+              "reponse_correcte": "Fo"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Défendre et permettre",
+          "contenu_detaille": "Le dictionnaire donne 'Démén' pour 'défendre (quelqu'un)', et précise que 'défendu' se dit 'Ton' ou 'siguilé mina'. Pour 'permettre', il donne 'Labla', 'sou', 'dién'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Démén",
+              "traduction_ou_definition": "défendre (quelqu'un)"
+            },
+            {
+              "terme": "Ton / siguilé mina",
+              "traduction_ou_definition": "défendu"
+            },
+            {
+              "terme": "Labla / sou / dién",
+              "traduction_ou_definition": "permettre"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ton.",
+              "traduction": "Défendu."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Défendu' se dit en bambara/malinké : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Ton"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les mots pour falloir (Fo), défendre (Démén, Ton) et permettre (Labla), issus des entrées du dictionnaire."
+}`;export{n as default};

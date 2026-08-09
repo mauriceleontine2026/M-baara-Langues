@@ -1,0 +1,54 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Exprimer l'obligation, l'interdiction et la permission.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir du « Lexique bisa-français, suivi d'un index français-bisa » de Bettie Vanhoudt, publié dans Mandenkan n°34 (1999), bulletin d'études linguistiques mandé. Ce lexique documente le dialecte lebir du bisa (parlé autour de Zabré, Burkina Faso), une des langues mandé les plus orientales. La transcription phonologique (tons, voyelles ATR/-ATR) est conservée telle quelle ; l'autrice précise elle-même que ce travail reste provisoire et incomplet. Cette leçon reprend le verbe 'pouvoir, savoir', richement illustré d'exemples dans le lexique.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Pouvoir et savoir",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "dà má : pouvoir, savoir",
+          "contenu_detaille": "Le lexique donne 'dà má' pour « pouvoir, savoir », avec deux exemples précis : 'à na dá ma k a ta bòtîm' (il peut partir demain), et 'pí b a: dà má a nà: dá' (l'enfant sait nager). Ce même verbe couvre donc, comme en français familier, à la fois la capacité physique/circonstancielle (pouvoir) et la compétence acquise (savoir).",
+          "vocabulaire_cles": [
+            {
+              "terme": "dà má",
+              "traduction_ou_definition": "pouvoir, savoir"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "à na dá ma k a ta bòtîm.",
+              "traduction": "Il peut partir demain."
+            },
+            {
+              "phrase": "pí b a: dà má a nà: dá.",
+              "traduction": "L'enfant sait nager."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'pouvoir, savoir' en bisa d'après le lexique ?",
+              "type": "QCM",
+              "options": [
+                "dà má",
+                "dàbɔ:",
+                "dàm",
+                "dá"
+              ],
+              "reponse_correcte": "dà má"
+            },
+            {
+              "question": "'L'enfant sait nager' se dit en bisa : pí b a: _____ a nà: dá.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "dà má"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le verbe 'dà má' (pouvoir, savoir), qui couvre à la fois la capacité et la compétence acquise, avec ses exemples d'emploi, issus du lexique de Vanhoudt."
+}`;export{e as default};

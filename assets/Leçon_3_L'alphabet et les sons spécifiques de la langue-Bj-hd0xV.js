@@ -1,0 +1,73 @@
+const e=`{
+  "titre_cours": "Leçon 3 : L'alphabet et les sons spécifiques de la langue.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Omniglot, Wikivoyage, Ezinaụlọ, Wikipédia, Latinum Institute, et articles universitaires sur la grammaire igbo), l'igbo étant une langue majeure parlée par environ 30 à 35 millions de personnes dans le sud-est du Nigeria, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les sons de l'igbo",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "L'alphabet Ọnwụ et les points souscrits",
+          "contenu_detaille": "L'igbo s'écrit avec l'alphabet Ọnwụ, une adaptation de l'alphabet latin qui utilise des points souscrits (ex. ị, ọ, ụ) pour noter des voyelles distinctes de leurs équivalentes sans point, ainsi que des digraphes comme 'gb', 'gh', 'kp', 'nw', 'ny' pour noter des consonnes propres à l'igbo, absentes du français.",
+          "vocabulaire_cles": [
+            {
+              "terme": "ị, ọ, ụ (points souscrits)",
+              "traduction_ou_definition": "voyelles distinctes de i, o, u sans point"
+            },
+            {
+              "terme": "gb, gh, kp, nw, ny",
+              "traduction_ou_definition": "digraphes consonantiques propres à l'igbo"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ị bọọla chi.",
+              "traduction": "Comment as-tu passé la nuit ? (illustre le point souscrit sous i)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment l'alphabet igbo note-t-il certaines voyelles distinctes ?",
+              "type": "QCM",
+              "options": [
+                "Avec des points souscrits (ị, ọ, ụ)",
+                "Avec des accents circonflexes uniquement",
+                "Avec des lettres doublées",
+                "Il n'existe pas de voyelles spécifiques"
+              ],
+              "reponse_correcte": "Avec des points souscrits (ị, ọ, ụ)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Une langue à tons",
+          "contenu_detaille": "Comme le yoruba déjà étudié dans ce projet, l'igbo est une langue à tons, où la hauteur mélodique distingue le sens des mots. On retrouve ce trait dans l'exemple 'Ị bọọla chi?' (comment as-tu passé la nuit ?, litt. as-tu dépassé le destin/dieu ?), une salutation matinale traditionnelle qui montre le lien étroit entre la langue et la spiritualité igbo, où 'chi' désigne le gardien spirituel personnel de chacun.",
+          "vocabulaire_cles": [
+            {
+              "terme": "chi",
+              "traduction_ou_definition": "gardien spirituel personnel (concept central de la spiritualité igbo)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ị bọọla chi?",
+              "traduction": "Comment as-tu passé la nuit ? (litt. as-tu dépassé ton chi ?)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le gardien spirituel personnel de chaque individu, en spiritualité igbo, se nomme le _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "chi"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté l'alphabet Ọnwụ et ses points souscrits (ị, ọ, ụ), ainsi que le système tonal de l'igbo, illustré par une salutation matinale traditionnelle liée au concept spirituel du 'chi'."
+}`;export{e as default};

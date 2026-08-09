@@ -1,0 +1,268 @@
+const e=`{
+  "titre_cours": "Leçon 3 : L'alphabet et les sons spécifiques de la langue.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Cette leçon présente le système des sons (voyelles, consonnes, tons) et l'alphabet officiel modernisé de la langue kpele (guerzé), tels que décrits dans le Dictionnaire kpele de la Guinée de Maria Konoshenko (2019, Mandenkan n°62). Le kpele appartient au groupe sud-ouest de la famille mandé et compte environ 460 000 locuteurs en Guinée forestière. Comprendre les sons et les lettres du kpele est la base indispensable pour lire, écrire et prononcer correctement la langue.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le système phonologique du kpele",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les voyelles",
+          "contenu_detaille": "Le système vocalique du kpele comporte 8 voyelles orales, 5 voyelles nasales, auxquelles s'ajoute le phonème /ŋ/ (voyelle à aperture zéro, considérée comme une voyelle sur des motifs combinatoires), ce qui porte l'inventaire vocalique total à 14 unités. Les voyelles se distinguent selon le point d'articulation (antérieure, centrale, postérieure), l'aperture (fermée, mi-fermée, mi-ouverte, ouverte) et la nasalisation ; les voyelles postérieures sont arrondies. Les voyelles courtes orales non postérieures sont réalisées comme centrales, sauf /y/ : en l'absence de contraste entre antérieures et centrales, les voyelles /ɨ, ə, ɜ/ sont notées par les lettres i, e, ɛ. La voyelle antérieure arrondie /y/ est très rare et n'apparaît que dans quatre mots. Toutes les voyelles sauf /ŋ/ peuvent être brèves ou longues ; les voyelles longues sont notées par des lettres redoublées (ex. paires minimales : kàa pá 'vous êtes venu' vs kà pá 'venez'). Il existe deux types de nasalisation : une nasalisation automatique après consonnes nasales (non marquée à l'écrit), et une nasalisation phonologique après consonnes orales, marquée par un -n final.",
+          "vocabulaire_cles": [
+            {"terme": "a", "traduction_ou_definition": "voyelle ouverte /a/"},
+            {"terme": "e", "traduction_ou_definition": "voyelle mi-fermée centrale [ə] (courte) ou antérieure [e] (longue)"},
+            {"terme": "ɛ", "traduction_ou_definition": "voyelle mi-ouverte centrale [ɜ] (courte) ou antérieure [ɛ] (longue)"},
+            {"terme": "i", "traduction_ou_definition": "voyelle fermée centrale [ɪ] (courte) ou antérieure [i] (longue)"},
+            {"terme": "o", "traduction_ou_definition": "voyelle mi-fermée postérieure /o/"},
+            {"terme": "ɔ", "traduction_ou_definition": "voyelle mi-ouverte postérieure /ɔ/"},
+            {"terme": "u", "traduction_ou_definition": "voyelle fermée postérieure /u/"},
+            {"terme": "y", "traduction_ou_definition": "voyelle antérieure arrondie /y/, phonème périphérique très rare"},
+            {"terme": "ŋ", "traduction_ou_definition": "voyelle à aperture zéro (phonème vocalique particulier du kpele)"}
+          ],
+          "exemples": [
+            {"phrase": "à", "traduction": "'avec' — illustre la voyelle a"},
+            {"phrase": "hěe [hèè°]", "traduction": "'s'asseoir' — illustre la voyelle e"},
+            {"phrase": "tɛ́ɛ [tɛ́ɛ́]", "traduction": "'poulet' — illustre la voyelle ɛ longue"},
+            {"phrase": "pǐli", "traduction": "'jeter' — illustre la voyelle i"},
+            {"phrase": "kólô", "traduction": "'travail' — illustre la voyelle o"},
+            {"phrase": "kɔ́", "traduction": "'guerre' — illustre la voyelle ɔ"},
+            {"phrase": "pǔlu", "traduction": "'faim' — illustre la voyelle u"},
+            {"phrase": "gáin", "traduction": "'orange' — illustre une voyelle nasalisée marquée par -n final"},
+            {"phrase": "kàa pá / kà pá", "traduction": "'vous êtes venu' / 'venez' — paire minimale illustrant la longueur vocalique"}
+          ],
+          "exercices": [
+            {
+              "question": "Combien de voyelles orales existe-t-il en kpele, selon le dictionnaire ?",
+              "type": "QCM",
+              "options": ["6", "7", "8", "9"],
+              "reponse_correcte": "8"
+            },
+            {
+              "question": "Le mot ___ signifie 'avec' et illustre la voyelle a.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "à"
+            },
+            {
+              "question": "Quelle voyelle est décrite comme un phonème périphérique très rare, n'apparaissant que dans quatre mots kpele ?",
+              "type": "QCM",
+              "options": ["a", "o", "y", "u"],
+              "reponse_correcte": "y"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Les consonnes et l'alternance consonantique",
+          "contenu_detaille": "Le système consonantique du kpele s'organise selon les points d'articulation (labiale, apicale, palatale, vélaire, labio-vélaire, labialisée, glottale) et les modes d'articulation (occlusive sourde/voisée, fricative sourde/voisée, implosive/sonante orale, sonante nasale). Les consonnes [z]~[dz]~[ʤ], notées z et j, sont des variantes régionales. La consonne /ɣ/ est notée par la lettre ɠ dans l'orthographe moderne de Guinée ; elle est souvent labialisée entre voyelles arrondies. Les consonnes f et s n'apparaissent que dans les mots idéophoniques et les emprunts. L'arrêt glottal [Ɂ] n'apparaît que dans une seule particule expressive, dɛ́Ɂ 'vraiment'. Par ailleurs, la plupart des mots kpele subissent une alternance des consonnes initiales : les occlusives sourdes/voisées deviennent voisées, et les sonores deviennent nasales, selon le tableau : p→b, t→d, k→g, kw→gw, kp→gb, hw→v, h→z~j, ɓ→(disparaît), l→n, y→ɲ, w→ŋw. Cette alternance intervient après certains contextes phonétiques (mots en -ŋ), pour marquer la forme définie des noms, et pour distinguer les pronoms de 1ère et 3ème personne du singulier.",
+          "vocabulaire_cles": [
+            {"terme": "b", "traduction_ou_definition": "consonne occlusive labiale voisée /b/"},
+            {"terme": "ɓ", "traduction_ou_definition": "consonne implosive bilabiale /ɓ/"},
+            {"terme": "d", "traduction_ou_definition": "consonne occlusive apicale voisée /d/"},
+            {"terme": "g", "traduction_ou_definition": "consonne occlusive vélaire voisée /g/"},
+            {"terme": "gb", "traduction_ou_definition": "labio-vélaire bifocale voisée /gb/"},
+            {"terme": "gw", "traduction_ou_definition": "vélaire labialisée voisée /gw/"},
+            {"terme": "ɠ", "traduction_ou_definition": "vélaire fricative voisée /ɣ/"},
+            {"terme": "h", "traduction_ou_definition": "consonne glottale /h/"},
+            {"terme": "hw", "traduction_ou_definition": "vélaire fricative labialisée /hw/"},
+            {"terme": "j", "traduction_ou_definition": "affriquée palatale voisée /ʤ/"},
+            {"terme": "k", "traduction_ou_definition": "consonne occlusive vélaire sourde /k/"},
+            {"terme": "kp", "traduction_ou_definition": "labio-vélaire bifocale sourde /kp/"},
+            {"terme": "kw", "traduction_ou_definition": "vélaire labialisée sourde /kw/"},
+            {"terme": "l", "traduction_ou_definition": "consonne apicale /l/"},
+            {"terme": "n", "traduction_ou_definition": "sonante nasale apicale /n/"},
+            {"terme": "ɲ", "traduction_ou_definition": "sonante nasale palatale /ɲ/"},
+            {"terme": "ŋ", "traduction_ou_definition": "sonante nasale vélaire /ŋ/"},
+            {"terme": "ŋw", "traduction_ou_definition": "sonante nasale vélaire labialisée /ŋw/"},
+            {"terme": "p", "traduction_ou_definition": "consonne occlusive labiale sourde /p/"},
+            {"terme": "s", "traduction_ou_definition": "consonne fricative sourde /s/ (mots empruntés/idéophoniques)"},
+            {"terme": "t", "traduction_ou_definition": "consonne occlusive apicale sourde /t/"},
+            {"terme": "v", "traduction_ou_definition": "consonne fricative voisée /v/"},
+            {"terme": "w", "traduction_ou_definition": "consonne sonante labio-vélaire /w/"},
+            {"terme": "y", "traduction_ou_definition": "sonante palatale /y/"},
+            {"terme": "z", "traduction_ou_definition": "consonne fricative voisée /z/ (variante régionale de j)"},
+            {"terme": "f", "traduction_ou_definition": "consonne fricative sourde /f/ (mots empruntés/idéophoniques)"}
+          ],
+          "exemples": [
+            {"phrase": "ɓá", "traduction": "'riz'"},
+            {"phrase": "bɛ̀lɛŋ", "traduction": "'culotte'"},
+            {"phrase": "gbɛ́â", "traduction": "'coupe-coupe'"},
+            {"phrase": "gwîi", "traduction": "'banane'"},
+            {"phrase": "hǎɠa", "traduction": "'natte'"},
+            {"phrase": "jóɠomûŋ", "traduction": "'chef d'initiation d'hommes'"},
+            {"phrase": "kpɛ̀lɛɛ", "traduction": "'kpele'"},
+            {"phrase": "kwǎla", "traduction": "'singe'"},
+            {"phrase": "ŋwɛ̌ni", "traduction": "'oiseau'"},
+            {"phrase": "ŋàá Hèhee tólu / àa dólu", "traduction": "'j'ai appelé Hehee' / 'il m'a appelé' — illustre l'alternance t→d liée au pronom"}
+          ],
+          "exercices": [
+            {
+              "question": "Quelle lettre représente le phonème /ɣ/ dans l'orthographe moderne du kpele ?",
+              "type": "QCM",
+              "options": ["g", "ɠ", "gb", "h"],
+              "reponse_correcte": "ɠ"
+            },
+            {
+              "question": "Dans l'alternance des consonnes initiales, la consonne k devient ___.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "g"
+            },
+            {
+              "question": "Dans quel type de mots les consonnes f et s apparaissent-elles principalement ?",
+              "type": "QCM",
+              "options": ["Les noms de parenté", "Les mots idéophoniques et les emprunts", "Les pronoms", "Les verbes de mouvement"],
+              "reponse_correcte": "Les mots idéophoniques et les emprunts"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Le système tonal",
+          "contenu_detaille": "Le kpele possède deux éléments tonaux opposés : haut (H) et bas (B). Dans la transcription, le ton haut est marqué par l'accent aigu (v́) et le ton bas par l'accent grave (v̀). La combinaison des tons haut et bas donne un ton descendant HB, marqué par un circonflexe (v̂). Il existe aussi un ton haut flottant, noté (H), et, dans certains mots du dialecte tɔ́ŋɔnàalɔ̂i, un ton moyen noté par un macron (v̄). Les tons ont une valeur contrastive au niveau du lexique (ex. láa 'coucher' vs làa 'là-bas') et une valeur grammaticale (par exemple pour distinguer les pronoms 1SG et 3SG, ou certaines constructions verbales). Au niveau des mots, les tons forment six mélodies tonales principales : /H/ (ton haut partout), /HB/ (ton descendant), /BHB/ (ton bas puis descendant), /B(H)/ (ton bas plat, avec H flottant final, noté par un caron ̌ sur la première voyelle), /B/ (ton bas descendant, noté par l'accent grave sur la première voyelle) et /BH/ (ton bas puis haut). Des règles tonales contextuelles s'appliquent également, comme la propagation du ton haut ou la simplification des tons descendants devant un autre ton, ce dernier phénomène étant marqué par le signe ↓ (downstep).",
+          "vocabulaire_cles": [
+            {"terme": "v́ (accent aigu)", "traduction_ou_definition": "marque le ton haut (H)"},
+            {"terme": "v̀ (accent grave)", "traduction_ou_definition": "marque le ton bas (B)"},
+            {"terme": "v̂ (circonflexe)", "traduction_ou_definition": "marque le ton descendant HB en syllabe finale devant pause"},
+            {"terme": "v̌ (caron)", "traduction_ou_definition": "marque la mélodie B(H), ton bas avec ton haut flottant final"},
+            {"terme": "↓ (downstep)", "traduction_ou_definition": "abaissement phonétique d'un ton haut après un ton descendant"}
+          ],
+          "exemples": [
+            {"phrase": "ɓá", "traduction": "'riz' — mélodie /H/, ton haut partout"},
+            {"phrase": "yílê", "traduction": "'chien' — mélodie /HB/, ton descendant"},
+            {"phrase": "hǒo", "traduction": "'cheval' — mélodie /B(H)/, ton bas plat"},
+            {"phrase": "ɲàalee", "traduction": "'chat' — mélodie /B/, ton bas descendant"},
+            {"phrase": "mànáŋ", "traduction": "'manioc' — mélodie /BH/, ton bas puis haut"},
+            {"phrase": "tɛ̀ân", "traduction": "'vérité' — mélodie /BHB/"},
+            {"phrase": "láa / làa", "traduction": "'coucher' / 'là-bas' — paire contrastée uniquement par le ton"}
+          ],
+          "exercices": [
+            {
+              "question": "Quel signe diacritique marque le ton bas en kpele ?",
+              "type": "QCM",
+              "options": ["accent aigu (v́)", "accent grave (v̀)", "circonflexe (v̂)", "caron (v̌)"],
+              "reponse_correcte": "accent grave (v̀)"
+            },
+            {
+              "question": "Le mot láa signifie 'coucher', tandis que le mot ___ (avec un ton bas) signifie 'là-bas'.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "làa"
+            },
+            {
+              "question": "Combien de mélodies tonales principales sont recensées dans le dictionnaire kpele ?",
+              "type": "QCM",
+              "options": ["Quatre", "Cinq", "Six", "Huit"],
+              "reponse_correcte": "Six"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_module": 2,
+      "titre_module": "L'alphabet et l'orthographe kpele",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "L'alphabet officiel modernisé",
+          "contenu_detaille": "L'alphabet kpele utilisé dans le dictionnaire est le suivant : a b ɓ d e ɛ g gb gw ɠ h hw i j k kp kw l n ɲ ŋ ŋw o ɔ p s t u v w y z. Cette orthographe modernisée se base sur l'alphabet officiel guinéen adopté en 1989, avec quelques modifications : (1) les sons [e] et [ə], interprétés comme des variantes phonétiques d'un seul phonème, sont représentés par la même lettre e ; (2) le signe ŋw représente la sonante nasale vélaire labialisée /ŋw/ ; (3) les mots à voyelles nasales et les mots terminés par /-ŋ/ sont distingués à l'écrit — les voyelles nasales sont marquées par un -n final, alors que les voyelles orales suivies de /ŋ/ final gardent le ŋ (ex. Kpàan 'personnification de Nyomu' vs kpàŋ 'chaume') ; (4) les tons sont systématiquement marqués. Deux orthographes officielles antérieures ont existé : celle de 1976 (enseignée à l'école de 1968 à 1984) et celle de 1989, jamais largement enseignée ni utilisée pour la publication.",
+          "vocabulaire_cles": [
+            {"terme": "Alphabet kpele", "traduction_ou_definition": "a b ɓ d e ɛ g gb gw ɠ h hw i j k kp kw l n ɲ ŋ ŋw o ɔ p s t u v w y z"},
+            {"terme": "-n final", "traduction_ou_definition": "marque les voyelles nasales dans l'orthographe modernisée"},
+            {"terme": "-ŋ final", "traduction_ou_definition": "marque une voyelle orale suivie de la nasale vélaire, distincte des voyelles nasales"}
+          ],
+          "exemples": [
+            {"phrase": "Kpàan", "traduction": "'personnification de Nyomu' — voyelle nasale marquée par -n"},
+            {"phrase": "kpàŋ", "traduction": "'chaume' — voyelle orale suivie de /-ŋ/ final"}
+          ],
+          "exercices": [
+            {
+              "question": "L'orthographe modernisée du kpele se base sur l'alphabet officiel guinéen adopté en quelle année ?",
+              "type": "QCM",
+              "options": ["1968", "1976", "1989", "2000"],
+              "reponse_correcte": "1989"
+            },
+            {
+              "question": "Complétez l'alphabet kpele : a b ɓ d e ɛ g gb gw ___ h hw i j k kp kw l n ɲ ŋ ŋw o ɔ p s t u v w y z",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "ɠ"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Règles de lecture : de la lettre au son",
+          "contenu_detaille": "Le dictionnaire fournit un tableau complet de correspondance entre chaque lettre de l'alphabet kpele et le son qu'elle représente, avec un exemple de mot pour chacune. Ce tableau permet d'apprendre à lire n'importe quel mot écrit en kpele en associant chaque lettre (ou digramme comme gb, gw, hw, kp, kw, ŋw) à sa réalisation phonétique précise.",
+          "vocabulaire_cles": [
+            {"terme": "Aa", "traduction_ou_definition": "/a/ — à 'avec'"},
+            {"terme": "Bb", "traduction_ou_definition": "/b/ — bɛ̀lɛŋ 'culotte'"},
+            {"terme": "Ɓɓ", "traduction_ou_definition": "/ɓ/ (implosive bilabiale) — ɓá 'riz'"},
+            {"terme": "Dd", "traduction_ou_definition": "/d/ — dàmaŋ 'esp. de tambour'"},
+            {"terme": "Ee", "traduction_ou_definition": "[ə]/[e] (mi-fermée centrale ou antérieure) — héle 'éléphant', hěe 's'asseoir'"},
+            {"terme": "Ɛɛ", "traduction_ou_definition": "[ɜ]/[ɛ] (mi-ouverte centrale ou antérieure) — wɛ́li 'amour', tɛ́ɛ 'poulet'"},
+            {"terme": "Ff", "traduction_ou_definition": "/f/ — fɛ́sɛfɛsɛ 'complètement'"},
+            {"terme": "Gg", "traduction_ou_definition": "/g/ — gáin 'orange'"},
+            {"terme": "Gb gb", "traduction_ou_definition": "/gb/ (labio-vélaire bifocale voisée) — gbɛ́â 'coupe-coupe'"},
+            {"terme": "Gw gw", "traduction_ou_definition": "/gw/ (vélaire labialisée voisée) — gwîi 'banane'"},
+            {"terme": "Ɠɠ", "traduction_ou_definition": "/ɣ/ (vélaire fricative voisée) — hǎɠa 'natte'"},
+            {"terme": "Hh", "traduction_ou_definition": "/h/ — hěe 's'asseoir'"},
+            {"terme": "Hw hw", "traduction_ou_definition": "/hw/ (vélaire fricative labialisée) — hwáa 'parler'"},
+            {"terme": "Ii", "traduction_ou_definition": "[ɪ]/[i] (fermée centrale ou antérieure) — pǐli 'jeter', tíi 'ce'"},
+            {"terme": "Jj", "traduction_ou_definition": "/ʤ/ (affriquée palatale voisée) — jóɠomûŋ 'chef d'initiation d'hommes'"},
+            {"terme": "Kk", "traduction_ou_definition": "/k/ — káa 'voir'"},
+            {"terme": "Kp kp", "traduction_ou_definition": "/kp/ (labio-vélaire bifocale sourde) — kpɛ̀lɛɛ 'kpele'"},
+            {"terme": "Kw kw", "traduction_ou_definition": "/kw/ (vélaire labialisée sourde) — kwǎla 'singe'"},
+            {"terme": "Ll", "traduction_ou_definition": "/l/ — lɔ́ 'entrer'"},
+            {"terme": "Mm", "traduction_ou_definition": "/m/ — mànáŋ 'manioc'"},
+            {"terme": "Nn", "traduction_ou_definition": "/n/ — nɛ̀ɛnû 'femme'"},
+            {"terme": "Ɲɲ", "traduction_ou_definition": "/ɲ/ (sonante nasale palatale) — ɲínɛ 'souris'"},
+            {"terme": "Ŋŋ", "traduction_ou_definition": "/ŋ/ (sonante nasale vélaire) — nǐŋɛ 'vache'"},
+            {"terme": "Ŋw ŋw", "traduction_ou_definition": "/ŋw/ (sonante nasale vélaire labialisée) — ŋwɛ̌ni 'oiseau'"},
+            {"terme": "Oo", "traduction_ou_definition": "/o/ — kólô 'travail'"},
+            {"terme": "Ɔɔ", "traduction_ou_definition": "/ɔ/ (mi-ouverte postérieure) — kɔ́ 'guerre'"},
+            {"terme": "Pp", "traduction_ou_definition": "/p/ — pá 'venir'"},
+            {"terme": "Ss", "traduction_ou_definition": "/s/ — sôo 'seau'"},
+            {"terme": "Tt", "traduction_ou_definition": "/t/ — tǎa 'village'"},
+            {"terme": "Uu", "traduction_ou_definition": "/u/ — pǔlu 'faim'"},
+            {"terme": "Vv", "traduction_ou_definition": "/v/ — vàɠavaɠa 'balai'"},
+            {"terme": "Ww", "traduction_ou_definition": "/w/ — wáa 'mille'"},
+            {"terme": "Yy", "traduction_ou_definition": "/y/ (sonante palatale) — yá 'eau'"},
+            {"terme": "Zz", "traduction_ou_definition": "/z/ — zíza 'vite'"}
+          ],
+          "exemples": [
+            {"phrase": "ɓá", "traduction": "'riz' — illustre la lettre Ɓɓ"},
+            {"phrase": "kpɛ̀lɛɛ", "traduction": "'kpele' — illustre le digramme Kp kp"},
+            {"phrase": "yá", "traduction": "'eau' — illustre la lettre Yy"},
+            {"phrase": "tǎa", "traduction": "'village' — illustre la lettre Tt"}
+          ],
+          "exercices": [
+            {
+              "question": "Quel mot illustre la lettre Ɓɓ /ɓ/ dans le tableau de lecture du dictionnaire ?",
+              "type": "QCM",
+              "options": ["bɛ̀lɛŋ 'culotte'", "ɓá 'riz'", "pá 'venir'", "gáin 'orange'"],
+              "reponse_correcte": "ɓá 'riz'"
+            },
+            {
+              "question": "Le mot kpɛ̀lɛɛ, qui désigne la langue kpele elle-même, illustre le digramme ___.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Kp kp"
+            },
+            {
+              "question": "Quelle lettre représente la sonante nasale vélaire labialisée /ŋw/, illustrée par ŋwɛ̌ni 'oiseau' ?",
+              "type": "QCM",
+              "options": ["Ŋŋ", "Ŋw ŋw", "Gw gw", "Hw hw"],
+              "reponse_correcte": "Ŋw ŋw"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les trois piliers du système sonore du kpele — les voyelles, les consonnes (avec leur alternance initiale) et les tons — ainsi que l'alphabet officiel modernisé et le tableau complet de correspondance lettre-son. La maîtrise de ces éléments, tels que décrits dans le Dictionnaire kpele de la Guinée (Konoshenko, 2019), est le fondement indispensable pour lire et écrire correctement en kpele."
+}`;export{e as default};

@@ -1,0 +1,109 @@
+const e=`{
+  "titre_cours": "Leçon 2 : Se présenter (nom, âge, origine, profession)",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Cette leçon initie à quelques expressions de base pour se présenter en langue kpele (guerzé), langue mandé parlée en Guinée forestière. Tout le contenu (mots, tons, exemples et traductions) est extrait du \\"Dictionnaire kpele de la Guinée (guerzé) – français\\" de Maria Konoshenko (Mandenkan, n°62, 2019), qui recense près de 3000 mots et expressions kpele.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Se présenter en kpele (guerzé) de Guinée",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les pronoms personnels de base et la copule d'identification",
+          "contenu_detaille": "Pour se présenter, il faut d'abord connaître les pronoms personnels et la copule ɓáa, utilisée dans les énoncés d'identification (ex. dire ce que l'on est). Le dictionnaire donne : ŋé (marqueur prédicatif de base, 1SG) 'je' ; é (pronom 2SG de la série polyfonctionnelle) 'tu' ; à (marqueur prédicatif 3SG) 'il/elle' ; gǔ (pronom 1PL.INCL) 'nous' ; ká (pronom 2PL) 'vous' ; dǐ (pronom 3PL) 'ils/elles'. La copule ɓáa 1 sert à l'identification, comme dans l'exemple 'kpɛ̀lɛɛmuŋ ɓàa à ɲáa' (je suis kpele).",
+          "vocabulaire_cles": [
+            {"terme": "ŋé", "traduction_ou_definition": "je [marqueur prédicatif de base, 1SG]"},
+            {"terme": "é", "traduction_ou_definition": "tu [pronom 2SG de la série polyfonctionnelle]"},
+            {"terme": "à", "traduction_ou_definition": "il, elle [marqueur prédicatif 3SG]"},
+            {"terme": "gǔ", "traduction_ou_definition": "nous [pronom 1PL.INCL de la série polyfonctionnelle]"},
+            {"terme": "ká", "traduction_ou_definition": "vous [pronom 2PL de la série polyfonctionnelle]"},
+            {"terme": "dǐ", "traduction_ou_definition": "ils, elles [pronom 3PL de la série polyfonctionnelle]"},
+            {"terme": "ɓáa", "traduction_ou_definition": "être [copule utilisée dans les énoncés d'identification]"}
+          ],
+          "exemples": [
+            {"phrase": "kpɛ̀lɛɛmuŋ ɓàa à ɲáa", "traduction": "je suis kpele"},
+            {"phrase": "é láa ɓáa à gbɛ̀ɛ̂ ?", "traduction": "tu t'appelles comment ?"}
+          ],
+          "exercices": [
+            {"question": "Quel mot signifie 'je' (marqueur prédicatif de base 1SG) en kpele ?", "type": "QCM", "options": ["ŋé", "é", "à", "ká"], "reponse_correcte": "ŋé"},
+            {"question": "kpɛ̀lɛɛmuŋ ___ à ɲáa (je suis kpele)", "type": "texte_a_trous", "options": [], "reponse_correcte": "ɓàa"}
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Dire son prénom et son nom de famille",
+          "contenu_detaille": "Le dictionnaire distingue le prénom (láa 1, nom relationnel) et le nom clanique / nom de famille (kpólolâa, kpòlolâa). Pour demander le prénom de quelqu'un, on utilise 'é láa ɓáa à gbɛ̀ɛ̂ ?' (comment tu t'appelles ?, litt. ton prénom est comment ?). Pour demander le nom de famille, on utilise 'é kpólolaa ɓàa à lé ?' (quel est ton nom de famille ?). Le verbe tólu (téli en dialecte gbálî) signifie 'appeler' ou 'téléphoner'.",
+          "vocabulaire_cles": [
+            {"terme": "láa", "traduction_ou_definition": "prénom [nom relationnel]"},
+            {"terme": "kpólolâa, kpòlolâa", "traduction_ou_definition": "nom clanique, nom de famille [nom relationnel]"},
+            {"terme": "tólu, téli (gb)", "traduction_ou_definition": "appeler ; téléphoner"}
+          ],
+          "exemples": [
+            {"phrase": "é láa ɓáa à gbɛ̀ɛ̂ ?", "traduction": "comment tu t'appelles ?"},
+            {"phrase": "é kpólolaa ɓàa à lé ?", "traduction": "quel est ton nom de famille ?"},
+            {"phrase": "dàá ǹókòlo láa hée Àlís ɓà", "traduction": "ils ont donné le prénom d'Alice à l'enfant"}
+          ],
+          "exercices": [
+            {"question": "Quel mot signifie 'nom de famille' en kpele ?", "type": "QCM", "options": ["láa", "kpólolâa", "héɠe", "lǒwai"], "reponse_correcte": "kpólolâa"},
+            {"question": "é ___ ɓàa à lé ? (quel est ton nom de famille ?)", "type": "texte_a_trous", "options": [], "reponse_correcte": "kpólolaa"}
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Indiquer son origine et sa ville natale",
+          "contenu_detaille": "Le verbe hěɠe possède, entre autres, le sens de 'quitter', mais s'emploie aussi avec un nom de lieu pour indiquer d'où l'on vient. La question 'é héɠe ↓mí ?' signifie 'tu es d'où ?' et la réponse 'ŋà héɠe Zálikwɛ̀lɛ' signifie 'je suis de N'zérékoré' (Zálikwɛ̀lɛ est le nom kpele de la ville de N'zérékoré). Le dictionnaire donne aussi l'exemple 'Pépèe àá hèɠé gàátáa hù' (Pépé a quitté sa ville natale), où gàátáa désigne la ville natale.",
+          "vocabulaire_cles": [
+            {"terme": "héɠe (hěɠe)", "traduction_ou_definition": "quitter ; (avec un lieu) être originaire de, venir de"},
+            {"terme": "gàátáa", "traduction_ou_definition": "ville natale [tiré de l'exemple 'Pépèe àá hèɠé gàátáa hù']"},
+            {"terme": "Zálikwɛ̀lɛ", "traduction_ou_definition": "N'zérékoré [nom de ville, tiré de l'exemple]"}
+          ],
+          "exemples": [
+            {"phrase": "é héɠe ↓mí ?", "traduction": "tu es d'où ?"},
+            {"phrase": "ŋà héɠe Zálikwɛ̀lɛ", "traduction": "je suis de N'zérékoré"},
+            {"phrase": "Pépèe àá hèɠé gàátáa hù", "traduction": "Pépé a quitté sa ville natale"}
+          ],
+          "exercices": [
+            {"question": "Comment demande-t-on 'tu es d'où ?' en kpele ?", "type": "QCM", "options": ["é héɠe ↓mí ?", "é láa ɓáa à gbɛ̀ɛ̂ ?", "é kpólolaa ɓàa à lé ?", "é túyo ↓kpɛ́li ?"], "reponse_correcte": "é héɠe ↓mí ?"},
+            {"question": "ŋà héɠe ___ (je suis de N'zérékoré)", "type": "texte_a_trous", "options": [], "reponse_correcte": "Zálikwɛ̀lɛ"}
+          ]
+        },
+        {
+          "id_chapitre": 4,
+          "titre": "Parler de l'âge",
+          "contenu_detaille": "Le dictionnaire ne donne pas de mot isolé pour 'âge' employé dans une question directe de type 'quel âge as-tu ?', mais il fournit le nom lǒwai (différence d'âge), illustré par 'Pépèe dà Màría dǐ lòwai káa à kɔ́laŋ ɲɛ̌li ?' (quelle est la différence d'âge entre Maria et Pépé ?). Il donne aussi le verbe pɔ̌lɔ (être vieux, être âgé) et sa forme intensive pɔ̀lɔpɔlɔ (être plus âgé / être très vieux), illustrée par 'Antoine pɔ̀lɔpɔlɔɔi dɛ̀ɛ Francis ɓà' (Antoine est plus âgé que Francis).",
+          "vocabulaire_cles": [
+            {"terme": "lǒwai", "traduction_ou_definition": "différence d'âge"},
+            {"terme": "pɔ̌lɔ", "traduction_ou_definition": "être vieux, être âgé"},
+            {"terme": "pɔ̀lɔpɔlɔ", "traduction_ou_definition": "être très vieux ; être plus âgé (enfants et adultes)"}
+          ],
+          "exemples": [
+            {"phrase": "Pépèe dà Màría dǐ lòwai káa à kɔ́laŋ ɲɛ̌li ?", "traduction": "quelle est la différence d'âge entre Maria et Pépé ?"},
+            {"phrase": "Antoine pɔ̀lɔpɔlɔɔi dɛ̀ɛ Francis ɓà", "traduction": "Antoine est plus âgé que Francis"}
+          ],
+          "exercices": [
+            {"question": "Que signifie 'lǒwai' dans le dictionnaire ?", "type": "QCM", "options": ["différence d'âge", "prénom", "nom de famille", "métier"], "reponse_correcte": "différence d'âge"},
+            {"question": "Antoine ___ dɛ̀ɛ Francis ɓà (Antoine est plus âgé que Francis)", "type": "texte_a_trous", "options": [], "reponse_correcte": "pɔ̀lɔpɔlɔɔi"}
+          ]
+        },
+        {
+          "id_chapitre": 5,
+          "titre": "Nommer un métier ou une profession",
+          "contenu_detaille": "Le dictionnaire recense plusieurs noms de métiers traditionnels kpele. hèɠehɔ́lɔɔŋmûŋ signifie 'tailleur' ; lǒzo signifie 'chasseur' ; kwɛ̀líyɔ̀umûŋ (littéralement lié à kwɛ̌lɛ, le métier à tisser) signifie 'forgeron' ; híɓaɠâ signifie 'guérisseur' ; mólumùŋ (pluriel móluɓɛ̀laa) signifie 'marabout'. Ces noms de métiers sont des noms simples, sans marqueur pronominal, que l'on peut associer à la copule ɓáa vue au chapitre 1 pour dire son métier.",
+          "vocabulaire_cles": [
+            {"terme": "hèɠehɔ́lɔɔŋmûŋ", "traduction_ou_definition": "tailleur"},
+            {"terme": "lǒzo", "traduction_ou_definition": "chasseur"},
+            {"terme": "kwɛ̀líyɔ̀umûŋ", "traduction_ou_definition": "forgeron"},
+            {"terme": "híɓaɠâ", "traduction_ou_definition": "guérisseur"},
+            {"terme": "mólumùŋ (pl. móluɓɛ̀laa)", "traduction_ou_definition": "marabout"}
+          ],
+          "exemples": [],
+          "exercices": [
+            {"question": "Quel mot signifie 'chasseur' en kpele ?", "type": "QCM", "options": ["lǒzo", "híɓaɠâ", "mólumùŋ", "kwɛ̀líyɔ̀umûŋ"], "reponse_correcte": "lǒzo"},
+            {"question": "Quel mot signifie 'forgeron' en kpele ?", "type": "QCM", "options": ["hèɠehɔ́lɔɔŋmûŋ", "lǒzo", "kwɛ̀líyɔ̀umûŋ", "mólumùŋ"], "reponse_correcte": "kwɛ̀líyɔ̀umûŋ"}
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté, à partir du \\"Dictionnaire kpele de la Guinée (guerzé) – français\\" de Maria Konoshenko (2019), les pronoms de base, la copule d'identification ɓáa, ainsi que le vocabulaire et les exemples attestés dans le dictionnaire pour dire son prénom (láa), son nom de famille (kpólolâa), son origine (héɠe), comparer les âges (lǒwai, pɔ̌lɔ, pɔ̀lɔpɔlɔ) et nommer quelques métiers traditionnels (hèɠehɔ́lɔɔŋmûŋ, lǒzo, kwɛ̀líyɔ̀umûŋ, híɓaɠâ, mólumùŋ)."
+}`;export{e as default};

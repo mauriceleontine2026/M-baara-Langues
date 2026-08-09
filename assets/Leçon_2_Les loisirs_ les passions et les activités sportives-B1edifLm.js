@@ -1,0 +1,64 @@
+const e=`{
+  "titre_cours": "Leçon 2 : Les loisirs, les passions et les activités sportives.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Targumi, DiscoverYoruba, Africa.uga.edu, Ling-App, Lingalot, Nigerian Finder, Wikipédia, et articles universitaires sur la grammaire et les proverbes yoruba), le yoruba étant une langue majeure parlée par plus de 45 millions de personnes au Nigeria, au Bénin et au Togo, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les contes et l'oralité, loisir traditionnel",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "àlọ́ : le conte",
+          "contenu_detaille": "Pendant des siècles, le récit oral yoruba a été riche en contes populaires, proverbes, chants et mythes transmis oralement de génération en génération — une pratique appelée 'àlọ́'. Ces histoires ne servaient pas seulement à divertir : elles enseignaient les valeurs, l'histoire, le sens de l'humour et l'identité, le son des jeux d'assemblée résonnant dans chaque village.",
+          "vocabulaire_cles": [
+            {
+              "terme": "àlọ́",
+              "traduction_ou_definition": "conte, récit oral traditionnel"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque culturelle)",
+              "traduction": "Les 'àlọ́' (contes) transmettent oralement valeurs, histoire et identité de génération en génération."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment se nomme le conte traditionnel oral yoruba ?",
+              "type": "QCM",
+              "options": [
+                "àlọ́",
+                "òwe",
+                "ẹsẹ̀",
+                "pàtàkì"
+              ],
+              "reponse_correcte": "àlọ́"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Danser et chanter",
+          "contenu_detaille": "L'afrobeats, genre musical dominant en Afrique de l'Ouest aujourd'hui, prolonge la tradition mélodique du yoruba (déjà vue en Leçon 3 du niveau débutant) : des artistes comme Burna Boy et Wizkid incorporent des expressions yoruba dans leurs chansons, faisant de la musique un loisir à la fois traditionnel et résolument moderne.",
+          "vocabulaire_cles": [],
+          "exemples": [
+            {
+              "phrase": "(remarque culturelle)",
+              "traduction": "L'afrobeats prolonge aujourd'hui la tradition mélodique yoruba, mêlant loisir traditionnel et moderne."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le genre musical dominant d'Afrique de l'Ouest qui incorpore des expressions yoruba est l'_____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "afrobeats"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le conte oral traditionnel (àlọ́) et la continuité entre la tradition mélodique yoruba et l'afrobeats contemporain, issus de recherches web."
+}`;export{e as default};

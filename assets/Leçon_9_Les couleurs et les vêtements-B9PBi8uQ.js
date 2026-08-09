@@ -1,0 +1,120 @@
+const e=`{
+  "titre_cours": "Leçon 9 : Les couleurs et les vêtements.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir de la fiche « LE LINGALA » d'Alain Kihm (CNRS – Université Paris-Cité), publiée dans le cadre du projet Langues et Grammaires du Monde dans l'Espace Francophone (LGMEF, référence HAL-04102394, 2024). MISE À JOUR : cette leçon avait été signalée comme trop pauvre, la fiche universitaire ne couvrant pas ce thème. Elle a été enrichie par une recherche web complémentaire, en croisant plusieurs ressources de vocabulaire lingala (Wiktionnaire en lingala, le dictionnaire collaboratif dic.lingala.be, et des lexiques pédagogiques en ligne) afin de fournir du vocabulaire réel et vérifié sur ce thème, en plus du contenu grammatical de la fiche d'origine quand il existe. Le lingala connaissant d'importantes variantes régionales (Kinshasa, Brazzaville, nord-ouest), certaines formes signalées comme variables le sont explicitement.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Couleurs et vêtements",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les couleurs principales",
+          "contenu_detaille": "Le lingala donne 'motáné' pour « rouge », 'mpembe' pour « blanc », 'moyíndo' (ou 'mwindo') pour « noir », 'bulé' pour « bleu », et 'mbwé' pour « gris ». Les couleurs plus rares se nomment souvent par comparaison : le vert se dit 'mobésu' ou fait référence à 'mpondu' (les feuilles de manioc), et le violet se dit 'longondo'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "motáné",
+              "traduction_ou_definition": "rouge"
+            },
+            {
+              "terme": "mpembe",
+              "traduction_ou_definition": "blanc"
+            },
+            {
+              "terme": "moyíndo / mwindo",
+              "traduction_ou_definition": "noir"
+            },
+            {
+              "terme": "bulé",
+              "traduction_ou_definition": "bleu"
+            },
+            {
+              "terme": "mbwé",
+              "traduction_ou_definition": "gris"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "motáné.",
+              "traduction": "Rouge."
+            },
+            {
+              "phrase": "mpembe.",
+              "traduction": "Blanc."
+            },
+            {
+              "phrase": "moyíndo.",
+              "traduction": "Noir."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'noir' en lingala ?",
+              "type": "QCM",
+              "options": [
+                "moyíndo",
+                "mpembe",
+                "motáné",
+                "bulé"
+              ],
+              "reponse_correcte": "moyíndo"
+            },
+            {
+              "question": "'Rouge' se dit en lingala : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "motáné"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Les vêtements",
+          "contenu_detaille": "Le lingala donne 'elamba' (pluriel 'bilamba') pour « vêtement, habit » — mot déjà rencontré dans la fiche de grammaire comme exemple de la construction applicative (Leçon 9 du niveau débutant, version d'origine ; Leçon 8 du niveau technique avancé). Il donne aussi 'liputa' (pluriel 'maputa') pour « pagne » (tissu africain), 'sapatu' pour « chaussures », et le verbe 'kolata' pour « s'habiller, porter un vêtement ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "elamba / bilamba",
+              "traduction_ou_definition": "vêtement(s)"
+            },
+            {
+              "terme": "liputa / maputa",
+              "traduction_ou_definition": "pagne(s)"
+            },
+            {
+              "terme": "sapatu",
+              "traduction_ou_definition": "chaussures"
+            },
+            {
+              "terme": "kolata",
+              "traduction_ou_definition": "s'habiller, porter"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Alati sapato ya kitoko.",
+              "traduction": "Elle porte de belles chaussures."
+            },
+            {
+              "phrase": "Nakei na wenze koluka liputa kitoko.",
+              "traduction": "Je vais au marché chercher un beau pagne."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'chaussures' en lingala ?",
+              "type": "QCM",
+              "options": [
+                "sapatu",
+                "liputa",
+                "elamba",
+                "kolata"
+              ],
+              "reponse_correcte": "sapatu"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire des couleurs (motáné, mpembe, moyíndo, bulé, mbwé) et des vêtements (elamba, liputa, sapatu, kolata), établi à partir de recherches web complémentaires, en lien avec le mot 'elambá' déjà documenté par la fiche de grammaire."
+}`;export{e as default};

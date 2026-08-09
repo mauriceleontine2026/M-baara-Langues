@@ -1,0 +1,103 @@
+const e=`{
+  "titre_cours": "Leçon 2 : Les loisirs, les passions et les activités sportives.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir de la fiche « LE LINGALA » d'Alain Kihm (CNRS – Université Paris-Cité), publiée dans le cadre du projet Langues et Grammaires du Monde dans l'Espace Francophone (LGMEF, référence HAL-04102394, 2024). MISE À JOUR : cette leçon avait été signalée comme trop pauvre, la fiche universitaire ne couvrant pas ce thème. Elle a été enrichie par une recherche web complémentaire, en croisant plusieurs ressources de vocabulaire lingala (Wiktionnaire en lingala, le dictionnaire collaboratif dic.lingala.be, et des lexiques pédagogiques en ligne) afin de fournir du vocabulaire réel et vérifié sur ce thème, en plus du contenu grammatical de la fiche d'origine quand il existe. Le lingala connaissant d'importantes variantes régionales (Kinshasa, Brazzaville, nord-ouest), certaines formes signalées comme variables le sont explicitement. Le vocabulaire sportif proprement dit (noms de sports précis) reste peu documenté dans les ressources disponibles ; cette leçon se concentre donc sur les verbes de loisir les plus solidement attestés : jouer, danser, chanter.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Jouer, danser, chanter",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Jouer et s'amuser",
+          "contenu_detaille": "Le lingala donne 'kosakana' pour « jouer, s'amuser » (le même mot peut aussi signifier « blaguer » selon le contexte, comme dans 'Wana ezali ya solo, kosakana te' = C'est vrai, ce n'est pas une blague).",
+          "vocabulaire_cles": [
+            {
+              "terme": "kosakana",
+              "traduction_ou_definition": "jouer, s'amuser (aussi : blaguer)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Bana bazali kosakana.",
+              "traduction": "Les enfants sont en train de jouer."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'jouer, s'amuser' en lingala ?",
+              "type": "QCM",
+              "options": [
+                "kosakana",
+                "kobina",
+                "koyemba",
+                "kolata"
+              ],
+              "reponse_correcte": "kosakana"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Danser",
+          "contenu_detaille": "Le lingala donne 'kobina' pour « danser » (avec l'exemple 'Naza kobina', je suis en train de danser — une forme progressive comparable à celle décrite par la fiche de grammaire pour d'autres verbes, Leçon 4 du niveau intermédiaire, version d'origine). La danse occupe une place culturelle importante en lingala, la fiche de grammaire elle-même signalant que cette langue est le support vocal exclusif de la musique congolaise (« zaïroise »).",
+          "vocabulaire_cles": [
+            {
+              "terme": "kobina",
+              "traduction_ou_definition": "danser"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Naza kobina.",
+              "traduction": "Je suis en train de danser."
+            },
+            {
+              "phrase": "Yaka tobina!",
+              "traduction": "Viens danser (avec moi) !"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Danser' se dit en lingala : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "kobina"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Chanter",
+          "contenu_detaille": "Le lingala donne 'koyemba' pour « chanter », un verbe directement lié à la place centrale de la musique dans la culture lingala évoquée par la fiche de grammaire.",
+          "vocabulaire_cles": [
+            {
+              "terme": "koyemba",
+              "traduction_ou_definition": "chanter"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "koyemba.",
+              "traduction": "Chanter."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'chanter' en lingala ?",
+              "type": "QCM",
+              "options": [
+                "koyemba",
+                "kobina",
+                "kosakana",
+                "kolata"
+              ],
+              "reponse_correcte": "koyemba"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les verbes de loisir jouer (kosakana), danser (kobina) et chanter (koyemba), établis à partir de recherches web complémentaires, en écho à la place de la musique dans la culture lingala déjà signalée par la fiche de grammaire."
+}`;export{e as default};

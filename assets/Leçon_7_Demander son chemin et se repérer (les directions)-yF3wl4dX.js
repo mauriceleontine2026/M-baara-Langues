@@ -1,0 +1,107 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Demander son chemin et se repérer (les directions).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir de recherches web (Institut Fassaha, Institut Al Rayhan, Malac, Talkpal, Preply, LingoHut, Talqeeny, Wiktionnaire, Wikipédia, thèses universitaires, recueils de proverbes arabes). MISE À JOUR : cette leçon avait été signalée comme trop pauvre ou incomplète. Une nouvelle recherche web ciblée a permis de la compléter avec du vocabulaire vérifié par plusieurs sources indépendantes, cette fois systématiquement accompagné de l'écriture arabe (بالعربية) et de sa translittération phonétique.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Se repérer",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Droite, gauche, tout droit",
+          "contenu_detaille": "L'arabe donne 'يمين' (yamin, droite — le même mot signifie aussi « serment »), 'يسار' (yasar, gauche), et 'مستقيم' (mustaqim, tout droit).",
+          "vocabulaire_cles": [
+            {
+              "terme": "يمين (yamin)",
+              "traduction_ou_definition": "droite (aussi : serment)"
+            },
+            {
+              "terme": "يسار (yasar)",
+              "traduction_ou_definition": "gauche"
+            },
+            {
+              "terme": "مستقيم (mustaqim)",
+              "traduction_ou_definition": "tout droit"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "yamin!",
+              "traduction": "À droite !"
+            },
+            {
+              "phrase": "yasar!",
+              "traduction": "À gauche !"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'droite' en arabe ?",
+              "type": "QCM",
+              "options": [
+                "يمين (yamin)",
+                "يسار (yasar)",
+                "مستقيم (mustaqim)",
+                "أمام (amama)"
+              ],
+              "reponse_correcte": "يمين (yamin)"
+            },
+            {
+              "question": "'Tout droit' se dit en arabe : _____ (mustaqim).",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "مستقيم"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Devant, derrière, près, loin",
+          "contenu_detaille": "L'arabe donne 'أمام' (amama, devant), 'خلف' (khalf, derrière), 'قريب' (qarib, près), et 'بعيد' (ba'id, loin), avec le mot interrogatif 'أين؟' (ayna?, où ?).",
+          "vocabulaire_cles": [
+            {
+              "terme": "أمام (amama)",
+              "traduction_ou_definition": "devant"
+            },
+            {
+              "terme": "خلف (khalf)",
+              "traduction_ou_definition": "derrière"
+            },
+            {
+              "terme": "قريب (qarib)",
+              "traduction_ou_definition": "près"
+            },
+            {
+              "terme": "بعيد (ba'id)",
+              "traduction_ou_definition": "loin"
+            },
+            {
+              "terme": "أين؟ (ayna ?)",
+              "traduction_ou_definition": "où ?"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ayna al-mahatta?",
+              "traduction": "Où est la gare ?"
+            },
+            {
+              "phrase": "qarib min huna.",
+              "traduction": "Près d'ici."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Où ?' se dit en arabe : _____ ؟ (ayna).",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "أين"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les mots pour la droite/gauche (yamin, yasar), tout droit (mustaqim), et les repères spatiaux de base (amama, khalf, qarib, ba'id), établis à partir de recherches web complémentaires."
+}`;export{e as default};

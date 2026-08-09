@@ -1,0 +1,85 @@
+const e=`{
+  "titre_cours": "Leçon 6 : Faire des achats, négocier les prix et gérer l'argent.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir de « A Grammar of Kisi » (G. Tucker Childs, Mouton Grammar Library 16, Mouton de Gruyter, 1995), une grammaire universitaire du kisi (kissi), langue atlantique méridionale parlée en Guinée, au Liberia et en Sierra Leone. Ce document est entièrement rédigé en anglais et destiné aux linguistes ; il ne s'agit pas d'un manuel d'apprentissage. Les faits, exemples et gloses qu'il contient ont été traduits et reformulés en français pour ce cours, sans ajout d'information extérieure. Avertissement technique : le kisi est une langue à tons, et l'ouvrage transcrit systématiquement les tons et plusieurs voyelles/consonnes spécifiques (ɔ, ɛ, ŋ, voyelles nasales, marques tonales) au moyen de caractères phonétiques spéciaux ; l'extraction automatique du texte de ce PDF universitaire a pu déformer certains de ces caractères. Les formes kisi citées ci-dessous sont donc données sous toute réserve quant à leurs diacritiques exacts, et gagneraient à être vérifiées auprès d'un locuteur ou du PDF original avant tout usage pédagogique.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Achats et argent",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Acheter et vendre",
+          "contenu_detaille": "Le lexique donne 'pindu' (ou 'piondu') pour « acheter » et 'pisi' pour « vendre ». Il donne aussi 'pääwä' pour « loyer, prix, taxe ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "pindu / piondu",
+              "traduction_ou_definition": "acheter"
+            },
+            {
+              "terme": "pisi",
+              "traduction_ou_definition": "vendre"
+            },
+            {
+              "terme": "pääwä",
+              "traduction_ou_definition": "loyer, prix, taxe"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "pindu.",
+              "traduction": "Acheter."
+            },
+            {
+              "phrase": "pisi.",
+              "traduction": "Vendre."
+            },
+            {
+              "phrase": "pääwä.",
+              "traduction": "Prix, loyer, taxe."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'vendre' d'après le lexique ?",
+              "type": "QCM",
+              "options": [
+                "pisi",
+                "pindu",
+                "pääwä",
+                "lóó"
+              ],
+              "reponse_correcte": "pisi"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le marché",
+          "contenu_detaille": "Le lexique donne 'lóó' pour « marché », le même mot désignant aussi le « temps, moment » — une polysémie qui rappelle que, traditionnellement, le rythme du temps était scandé par les jours de marché (voir Leçon 6 du niveau débutant).",
+          "vocabulaire_cles": [
+            {
+              "terme": "lóó",
+              "traduction_ou_definition": "marché ; aussi : temps, moment"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "lóó.",
+              "traduction": "Marché / temps."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le mot 'lóó' signifie à la fois 'marché' et : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "temps"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire des achats (pindu, pisi, pääwä) et le mot pour le marché (lóó), issu du lexique de l'ouvrage de Childs."
+}`;export{e as default};

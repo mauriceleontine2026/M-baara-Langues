@@ -1,0 +1,44 @@
+const e=`{
+  "titre_cours": "Leçon 4 : Les proverbes, dictons et expressions imagées de la culture.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit à partir de « A Complete Analysis of the Lýýma Language » de Wesley Sadler (thèse de 1949, village de Woozie, nord du Liberia), republiée et annotée par Valentin Vydrine (Mandenkan n°42, LLACAN/CNRS). C'est une grammaire de référence complète du looma/loma/toma (langue mandée parlée au Liberia et en Guinée forestière), avec un système de transcription phonétique propre à l'auteur (notamment le graphème ß pour une fricative labio-dentale sourde, et des marques toniques). Cette orthographe scientifique est conservée telle quelle ; elle diffère de l'alphabet pratique du loma utilisé en Guinée. Ce thème n'est pas couvert par la grammaire de Sadler, qui décrit la structure de la langue à travers des exemples grammaticaux plutôt qu'un vocabulaire thématique complet. Par fidélité au principe de ne rien inventer, cette leçon reste volontairement courte. La grammaire de Sadler ne contient aucun proverbe looma répertorié comme tel, son objet étant purement grammatical.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Absence de proverbes dans la source",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Aucune donnée disponible",
+          "contenu_detaille": "La grammaire de Sadler est une analyse linguistique technique (phonologie, morphologie, syntaxe) et ne comporte pas de recueil de proverbes, de contes ou d'expressions imagées traditionnelles looma. Les seules expressions figurées qu'elle documente sont des composés grammaticaux transparents, comme 'daÉa-mi' (nourriture, litt. « bouche-manger »), qui relèvent de la formation des mots plutôt que de la sagesse populaire.",
+          "vocabulaire_cles": [
+            {
+              "terme": "daÉa-mi",
+              "traduction_ou_definition": "nourriture (litt. bouche-manger, composé grammatical transparent, non un proverbe)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "daÉa-mi.",
+              "traduction": "Nourriture (litt. bouche-manger)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "La grammaire de Sadler contient-elle des proverbes looma ?",
+              "type": "QCM",
+              "options": [
+                "Non, aucun n'est répertorié",
+                "Oui, plusieurs proverbes traditionnels",
+                "Oui, un seul proverbe",
+                "Oui, avec leur origine historique"
+              ],
+              "reponse_correcte": "Non, aucun n'est répertorié"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon n'a pas pu présenter de proverbe looma, la grammaire de Sadler étant un ouvrage de linguistique technique sans recueil de sagesse populaire. Un recueil de proverbes looma serait nécessaire pour traiter ce thème."
+}`;export{e as default};

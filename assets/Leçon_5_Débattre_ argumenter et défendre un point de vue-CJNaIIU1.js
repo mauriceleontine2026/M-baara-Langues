@@ -1,0 +1,69 @@
+const e=`{
+  "titre_cours": "Leçon 5 : Débattre, argumenter et défendre un point de vue.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire fulfulde-français-anglais moderne (même format SIL que les dictionnaires dioula et mooré déjà utilisés dans ce projet), documentant le fulfulde du Burkina Faso (langue peule), complété par une recherche web. Cette langue appartient au même continuum que le pulaar du Fouta Djallon (Guinée) déjà étudié dans un autre cours de ce projet ([[pulaar-language-course]]) ; plusieurs mots se recoupent presque exactement d'un pays à l'autre (nyaamo=droite, nano=gauche, ɗiɗi=deux...), tandis que d'autres diffèrent, reflet naturel de la variation dialectale du fulfulde à travers l'Afrique de l'Ouest. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Comparer et argumenter",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "nannde : ressembler",
+          "contenu_detaille": "Le dictionnaire donne l'exemple 'Ko mbasuɗon ɗo, ɗum na nanndi e aahiila' (Ce que vous faites ici, cela ressemble à un plan), qui montre le verbe 'nannde' (ressembler) suivi du connecteur 'e' (à), une construction utile pour comparer deux situations dans un débat.",
+          "vocabulaire_cles": [
+            {
+              "terme": "nannde",
+              "traduction_ou_definition": "ressembler"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ko mbasuɗon ɗo, ɗum na nanndi e aahiila.",
+              "traduction": "Ce que vous faites ici, cela ressemble à un plan."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'ressembler' en fulfulde d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "nannde",
+                "yiɗude",
+                "safude",
+                "battaa"
+              ],
+              "reponse_correcte": "nannde"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "L'image d'Adam et Ève",
+          "contenu_detaille": "Le dictionnaire cite un exemple théologique développé : 'Hawwa dow alhaali muuɗum' (Ève selon Son image), tiré de 'Dieu a créé Adam et Ève à sa propre image', qui montre comment argumenter en s'appuyant sur une référence culturelle ou religieuse partagée, technique rhétorique classique.",
+          "vocabulaire_cles": [
+            {
+              "terme": "alhaali",
+              "traduction_ou_definition": "image, ressemblance, plan (mot polysémique déjà rencontré)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Hawwa dow alhaali muuɗum.",
+              "traduction": "Ève selon Son image."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le mot polysémique qui signifie à la fois 'plan' et 'image, ressemblance' est : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "alhaali"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le verbe comparer/ressembler (nannde) et un exemple d'argumentation appuyée sur une référence culturelle partagée, issus du dictionnaire fulfulde."
+}`;export{e as default};

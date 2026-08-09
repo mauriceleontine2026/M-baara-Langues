@@ -1,0 +1,69 @@
+const e=`{
+  "titre_cours": "Leçon 3 : L'alphabet et les sons spécifiques de la langue.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir de recherches web (Institut Fassaha, Institut Al Rayhan, Malac, Talkpal, Preply, LingoHut, Talqeeny, Wiktionnaire, Wikipédia, thèses universitaires, recueils de proverbes arabes). ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les sons de l'arabe",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "La lettre 'ayn, un son guttural difficile",
+          "contenu_detaille": "Une recherche complémentaire, à propos de la prononciation de 'السلام عليكم' (as-salamu alaykum), signale que la 4e syllabe ('a) requiert la maîtrise de la lettre 'ayn' (ع), une consonne gutturale considérée comme l'une des plus difficiles à acquérir pour les non-arabophones, sans équivalent en français.",
+          "vocabulaire_cles": [
+            {
+              "terme": "ع ('ayn)",
+              "traduction_ou_definition": "consonne gutturale arabe, sans équivalent en français, réputée difficile à prononcer"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque phonétique)",
+              "traduction": "La lettre 'ayn (ع) est une consonne gutturale sans équivalent en français, réputée difficile à acquérir."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quelle lettre arabe est réputée particulièrement difficile à prononcer pour les non-arabophones ?",
+              "type": "QCM",
+              "options": [
+                "ع ('ayn)",
+                "ب (ba)",
+                "م (mim)",
+                "ت (ta)"
+              ],
+              "reponse_correcte": "ع ('ayn)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Un système d'écriture consonantique",
+          "contenu_detaille": "Une recherche complémentaire (Wikipédia, sur le schème linguistique) précise que l'arabe s'écrit avec un « abjad », système d'écriture qui note principalement les consonnes, les voyelles courtes n'étant que rarement notées à l'écrit (sauf dans les textes destinés aux apprenants ou le Coran, où des diacritiques les indiquent). Ce principe est au cœur du système de racines et de schèmes qui structure toute la morphologie arabe, étudié plus loin dans ce cours.",
+          "vocabulaire_cles": [
+            {
+              "terme": "أبجد (abjad)",
+              "traduction_ou_definition": "système d'écriture qui note principalement les consonnes, comme l'arabe et l'hébreu"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque phonétique)",
+              "traduction": "L'arabe s'écrit avec un abjad, système consonantique où les voyelles courtes sont rarement notées."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le système d'écriture qui note principalement les consonnes, comme l'arabe, s'appelle un _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "abjad"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté la lettre gutturale 'ayn (ع), réputée difficile pour les non-arabophones, et le principe de l'abjad (écriture consonantique), fondement du système de racines et schèmes arabe, issues de recherches web."
+}`;export{e as default};

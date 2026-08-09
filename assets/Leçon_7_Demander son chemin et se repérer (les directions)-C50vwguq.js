@@ -1,0 +1,44 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Demander son chemin et se repérer (les directions).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir de l'article académique de Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea » (Mandenkan n°57, 2017, LLACAN/CNRS), la seule description linguistique existante du kônon (kono), langue mandée du sud-ouest parlée par environ 90 000 personnes dans la préfecture de Lola, en Guinée forestière — à ne pas confondre avec le kono de Sierra Leone, une langue différente. Le kônon est très proche du kpèllé (guerzé) mais suffisamment distinct pour être considéré comme une langue à part. AVERTISSEMENT IMPORTANT : cet article est une esquisse grammaticale scientifique (phonologie, pronoms, système verbal) accompagnée d'une liste Swadesh de 100 mots de vocabulaire fondamental, non un dictionnaire thématique complet. Plusieurs des 27 thèmes de ce cours ne sont donc que partiellement ou pas du tout documentés dans cette unique source disponible ; cela est signalé honnêtement dans les leçons concernées. Ce thème n'est pas couvert par l'article de Konoshenko (2017), seule source scientifique disponible sur le kônon, qui documente la grammaire et un vocabulaire de base (liste Swadesh) plutôt qu'un lexique thématique complet. Par fidélité au principe de ne rien inventer, cette leçon reste volontairement courte. L'article ne fournit aucun mot pour la droite, la gauche ou les points cardinaux, mais donne le mot pour « route » dans sa liste Swadesh.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "La route",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "pèrè : la route",
+          "contenu_detaille": "La liste Swadesh donne 'pèrè' pour « route, chemin », seul mot clairement lié au déplacement et à l'orientation attesté dans cette source.",
+          "vocabulaire_cles": [
+            {
+              "terme": "pèrè",
+              "traduction_ou_definition": "route, chemin"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "pèrè.",
+              "traduction": "Route, chemin."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'route, chemin' en kônon d'après la liste Swadesh ?",
+              "type": "QCM",
+              "options": [
+                "pèrè",
+                "kwií",
+                "tùnǒ",
+                "leè"
+              ],
+              "reponse_correcte": "pèrè"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon n'a pu présenter, faute de vocabulaire directionnel dans l'unique source disponible, que le mot pour 'route' (pèrè), issu de la liste Swadesh de l'article de Konoshenko."
+}`;export{e as default};

@@ -1,0 +1,100 @@
+const e=`{
+  "titre_cours": "Leçon 2 : Exprimer l'hypothèse, le doute et la condition.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Cette leçon approfondit l'expression de l'hypothèse, du doute et de la condition en kpele (guerzé), à partir de la section grammaticale et des phrases d'exemple du Dictionnaire kpele de la Guinée de Maria Konoshenko (2019, Mandenkan n°62). Elle affine la construction conditionnelle déjà abordée au niveau intermédiaire en présentant sa forme négative spécifique, et introduit les marqueurs d'incertitude du discours courant.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Exprimer le doute et la possibilité",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "'Peut-être' et l'incertitude",
+          "contenu_detaille": "'Peut-être' se dit kìe (variantes kíê, kíeŋò), comme dans gàa kíe làánì 'il est peut-être couché', ou dans le dialogue é náŋ ↓gáa làání ? kíeò 'ton papa est couché ? – Peut-être'. Le mot gbèlí signifie 'parfois' mais fonctionne aussi comme marqueur d'incertitude dans le discours rapporté, comme dans dà kɛ́ mà gbèlí gɔ̀ɠɔ́ àá ŋwàná 'on dit que peut-être sa jambe lui a fait mal'.",
+          "vocabulaire_cles": [
+            {"terme": "kìe", "traduction_ou_definition": "peut-être"},
+            {"terme": "gbèlí", "traduction_ou_definition": "parfois ; aussi peut-être (dans le discours rapporté)"}
+          ],
+          "exemples": [
+            {"phrase": "gàa kíe làánì", "traduction": "'il est peut-être couché'"},
+            {"phrase": "é náŋ ↓gáa làání ? kíeò", "traduction": "'ton papa est couché ? – Peut-être'"},
+            {"phrase": "dà kɛ́ mà gbèlí gɔ̀ɠɔ́ àá ŋwàná", "traduction": "'on dit que peut-être sa jambe lui a fait mal'"}
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'peut-être' en kpele ?",
+              "type": "QCM",
+              "options": ["kìe", "wàla", "à", "hwɛ́ɛ"],
+              "reponse_correcte": "kìe"
+            },
+            {
+              "question": "___ signifie 'parfois', et peut aussi marquer l'incertitude dans le discours rapporté.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "gbèlí"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_module": 2,
+      "titre_module": "La condition et l'irréel",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le marqueur de la modalité irréelle",
+          "contenu_detaille": "Le dictionnaire décrit la série IX du Tableau 10 (ŋà, yà, à, gwà, kwà, kà, dà) tantôt comme des marqueurs 'Conditionnels', tantôt, dans les entrées individuelles, comme des marqueurs de la 'modalité irréelle' ('s'il, si elle' pour à). Cette double dénomination reflète une même réalité grammaticale : une hypothèse non réalisée, combinée au verbe avec un ton bas grammatical {B} selon le Tableau 11 (Conditionnel + V\\\\{B}).",
+          "vocabulaire_cles": [
+            {"terme": "à", "traduction_ou_definition": "marqueur conditionnel / de la modalité irréelle, 3SG ('s'il, si elle')"},
+            {"terme": "dà", "traduction_ou_definition": "marqueur conditionnel / de la modalité irréelle, 3PL ('s'ils, si elles')"}
+          ],
+          "exemples": [
+            {"phrase": "à kɛ̀ Jean è wɛ́i wáli màáhɔ̀lɔɓóìí, è lí pà lǐì tàáì", "traduction": "'si Jean avait reçu de l'argent hier, il aurait pu aller au village'"},
+            {"phrase": "tùló à pù kɛ̀ tínaai, gwè lí lɛ̀ɛ bɛ̀ɛláalèe", "traduction": "'s'il pleuvait demain, nous resterions à la maison'"}
+          ],
+          "exercices": [
+            {
+              "question": "Comment le dictionnaire nomme-t-il, dans ses entrées individuelles, la série de marqueurs que le Tableau 10 appelle 'Conditionnel' ?",
+              "type": "QCM",
+              "options": ["l'aspect habituel", "la modalité irréelle", "le résultatif", "le consécutif"],
+              "reponse_correcte": "la modalité irréelle"
+            },
+            {
+              "question": "___ kɛ̀ Jean è wɛ́i wáli màáhɔ̀lɔɓóìí, è lí pà lǐì tàáì signifie 'si Jean avait reçu de l'argent hier, il aurait pu aller au village'.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "à"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "La condition négative : 'sinon'",
+          "contenu_detaille": "Le Tableau 11 précise que la construction conditionnelle négative ne suit pas le même schéma que l'affirmative : au lieu de Conditionnel + V\\\\{B}, elle se construit avec Conditionnel + wàla + V. Le mot wàla (variante wɛ̀la) est d'ailleurs défini dans le dictionnaire comme la 'particule marquant la construction conditionnelle négative', et se traduit couramment par 'sinon', comme dans l'idiome à wàla kɛ́ tíi 'sinon'.",
+          "vocabulaire_cles": [
+            {"terme": "wàla", "traduction_ou_definition": "particule de la construction conditionnelle négative ; 'sinon'"}
+          ],
+          "exemples": [
+            {"phrase": "à wàla kɛ́ tíi", "traduction": "'sinon'"}
+          ],
+          "exercices": [
+            {
+              "question": "Selon le Tableau 11, comment se construit le conditionnel négatif (contrairement à l'affirmatif) ?",
+              "type": "QCM",
+              "options": ["Conditionnel + V\\\\{B}", "Conditionnel + wàla + V", "Résultatif + V", "Impératif + V"],
+              "reponse_correcte": "Conditionnel + wàla + V"
+            },
+            {
+              "question": "___ est la particule qui marque la construction conditionnelle négative, traduite 'sinon'.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "wàla"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les moyens kpele d'exprimer le doute (kìe, gbèlí) et l'hypothèse conditionnelle, à l'affirmative comme à la négative grâce à la particule spécifique wàla 'sinon'. Ces données, tirées de la section grammaticale du Dictionnaire kpele de la Guinée (Konoshenko, 2019), révèlent une asymétrie fine entre les constructions conditionnelles affirmative et négative, typique des nuances à maîtriser au niveau avancé."
+}`;export{e as default};

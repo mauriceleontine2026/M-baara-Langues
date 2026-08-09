@@ -1,0 +1,91 @@
+const e=`{
+  "titre_cours": "Leçon 8 : La nourriture et les boissons (commander au marché ou au restaurant).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Dioula-Français-Anglais-Allemand » (dernière mise à jour du 28/12/2020), un dictionnaire moderne et très complet (plus de 1200 pages) documentant le dioula (jula) parlé autour de Bobo-Dioulasso, Burkina Faso — une langue mandingue très proche du malinké et du bambara déjà utilisés dans ce projet. Ce dictionnaire est exceptionnellement riche : chaque entrée est classée par catégorie sémantique (Kinship, colour, Food, Mathematics, etc.), donnée avec tons, traduction quadrilingue et souvent un exemple de phrase authentique. Cette leçon reprend le vocabulaire alimentaire, classé sous la catégorie « Food » du dictionnaire.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Nourriture et marché",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le riz, la viande et l'eau",
+          "contenu_detaille": "Le dictionnaire donne 'malo' pour « riz (non cuit) » et 'kini' pour le riz préparé/cuit, 'sogo' pour « viande », et 'ji' pour « eau, jus, tout élément liquide ». Il donne l'exemple authentique 'N bi kini ni sogo fɛ' (J'aime/je veux le riz et la viande).",
+          "vocabulaire_cles": [
+            {
+              "terme": "malo",
+              "traduction_ou_definition": "riz (non cuit)"
+            },
+            {
+              "terme": "kini",
+              "traduction_ou_definition": "riz cuit, plat de riz"
+            },
+            {
+              "terme": "sogo",
+              "traduction_ou_definition": "viande"
+            },
+            {
+              "terme": "ji",
+              "traduction_ou_definition": "eau, jus, liquide"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "N bi kini ni sogo fɛ.",
+              "traduction": "J'aime/je veux le riz et la viande."
+            },
+            {
+              "phrase": "ji.",
+              "traduction": "Eau."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'viande' en dioula d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "sogo",
+                "malo",
+                "kini",
+                "ji"
+              ],
+              "reponse_correcte": "sogo"
+            },
+            {
+              "question": "'Eau, jus, liquide' se dit en dioula : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "ji"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Aller au marché",
+          "contenu_detaille": "Le dictionnaire donne l'exemple authentique 'N b'a fɛ ka taga lɔgɔ la' (Je veux aller au marché), qui montre le mot 'lɔgɔ' pour « marché » (le même élément que l'on retrouve dans 'lɔgɔkun', semaine, vu en Leçon 6 — le marché rythmant traditionnellement le calendrier).",
+          "vocabulaire_cles": [
+            {
+              "terme": "lɔgɔ",
+              "traduction_ou_definition": "marché"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "N b'a fɛ ka taga lɔgɔ la.",
+              "traduction": "Je veux aller au marché."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Marché' se dit en dioula : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "lɔgɔ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire de la nourriture (malo, kini, sogo, ji) et du marché (lɔgɔ), tous deux illustrés par des phrases authentiques du dictionnaire dioula."
+}`;export{e as default};

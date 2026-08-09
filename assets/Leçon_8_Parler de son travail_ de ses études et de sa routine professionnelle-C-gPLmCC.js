@@ -1,0 +1,123 @@
+const n=`{
+  "titre_cours": "Leçon 8 : Parler de son travail, de ses études et de sa routine professionnelle.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Français-Wolof et Wolof-Français », compilant les dictionnaires de Dard, du baron Roger et de l'abbé Lambert, revu et considérablement augmenté par les missionnaires de la Congrégation du Saint-Esprit et du Saint-Cœur de Marie (édition ancienne, Dakar/Saint-Louis du Sénégal). Ce document est une liste alphabétique française-wolof (mots et locutions), sans phrases dialoguées suivies ; l'orthographe d'origine (accents, apostrophes) est conservée telle quelle. L'extraction automatique de ce document scanné a pu déformer certains diacritiques (accents, lettres ñ/à propres au wolof) ; les transcriptions ci-dessous sont données sous cette réserve.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Travail et études",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le travail",
+          "contenu_detaille": "Le dictionnaire donne 'ligèy' pour « travail » et pour le verbe « travailler ». Un travailleur se dit 'ligèykat'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "ligèy",
+              "traduction_ou_definition": "travail, travailler"
+            },
+            {
+              "terme": "ligèykat",
+              "traduction_ou_definition": "travailleur"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ligèy.",
+              "traduction": "Travail / travailler."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'travailleur' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "ligèykat",
+                "ligèy",
+                "ménin",
+                "dangunéb"
+              ],
+              "reponse_correcte": "ligèykat"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Quelques métiers",
+          "contenu_detaille": "Le dictionnaire donne 'tegâ' (ou 'tegâkat') pour « forgeron », 'fadékat' pour « médecin » (le charlatan se disant 'débar', et le marabout guérisseur 'wagnankat'), et 'sérign' (ou 'dàrâb') pour « maître d'école ». Ces métiers traditionnels occupent une place importante dans le vocabulaire du dictionnaire.",
+          "vocabulaire_cles": [
+            {
+              "terme": "tegâ / tegâkat",
+              "traduction_ou_definition": "forgeron"
+            },
+            {
+              "terme": "fadékat",
+              "traduction_ou_definition": "médecin"
+            },
+            {
+              "terme": "sérign",
+              "traduction_ou_definition": "maître d'école"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "tegâ.",
+              "traduction": "Forgeron."
+            },
+            {
+              "phrase": "fadékat.",
+              "traduction": "Médecin."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'forgeron' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "tegâ",
+                "fadékat",
+                "sérign",
+                "ligèykat"
+              ],
+              "reponse_correcte": "tegâ"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "L'école",
+          "contenu_detaille": "Le dictionnaire donne 'lékol' (ou 'dangunéb', 'dûrâ') pour « école », avec l'expression 'aller à l'école' rendue par 'dangi'. Un écolier se dit 'talibê' (ou 'ndongo').",
+          "vocabulaire_cles": [
+            {
+              "terme": "lékol / dangunéb",
+              "traduction_ou_definition": "école"
+            },
+            {
+              "terme": "talibê / ndongo",
+              "traduction_ou_definition": "écolier"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "lékol.",
+              "traduction": "École."
+            },
+            {
+              "phrase": "talibê.",
+              "traduction": "Écolier."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Écolier' se dit en wolof : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "talibê"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire du travail (ligèy, ligèykat), de quelques métiers traditionnels (tegâ, fadékat, sérign) et de l'école (lékol, talibê), issu du dictionnaire."
+}`;export{n as default};

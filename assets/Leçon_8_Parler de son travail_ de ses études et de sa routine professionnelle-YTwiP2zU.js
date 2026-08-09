@@ -1,0 +1,103 @@
+const e=`{
+  "titre_cours": "Leçon 8 : Parler de son travail, de ses études et de sa routine professionnelle.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir de la fiche « LE LINGALA » d'Alain Kihm (CNRS – Université Paris-Cité), publiée dans le cadre du projet Langues et Grammaires du Monde dans l'Espace Francophone (LGMEF, référence HAL-04102394, 2024).  Cette leçon combine le contenu de la fiche de grammaire et un complément de recherche web.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le travail",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "ko-lakisa, exemple de la classe flexionnelle X",
+          "contenu_detaille": "La fiche donne 'ko-lakisa' (enseigner, enseignement) comme exemple unique de la classe flexionnelle X, qui ne contient que des verbes nominalisés (infinitifs employés comme noms).",
+          "vocabulaire_cles": [
+            {
+              "terme": "ko-lakisa",
+              "traduction_ou_definition": "enseigner, enseignement (classe flexionnelle X)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ko-lakisa.",
+              "traduction": "Enseigner / l'enseignement."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que contient exclusivement la classe flexionnelle X, d'après la fiche ?",
+              "type": "QCM",
+              "options": [
+                "Des verbes nominalisés (infinitifs employés comme noms)",
+                "Des noms d'animaux",
+                "Des noms de personnes",
+                "Des adjectifs"
+              ],
+              "reponse_correcte": "Des verbes nominalisés (infinitifs employés comme noms)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Travailler et le travail : kosala, mosala",
+          "contenu_detaille": "Une recherche complémentaire donne le verbe 'kosala' pour « travailler, faire », et le nom 'mosala' (pluriel 'misala') pour « travail, métier » — déjà rencontrés en Leçon 2 du niveau débutant à propos de la présentation de soi.",
+          "vocabulaire_cles": [
+            {
+              "terme": "kosala",
+              "traduction_ou_definition": "travailler, faire"
+            },
+            {
+              "terme": "mosala / misala",
+              "traduction_ou_definition": "travail, métier"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Nazali kosala mosala.",
+              "traduction": "Je suis en train de travailler."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Travail, métier' se dit en lingala : mo_____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "sala"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Le chef, figure d'autorité",
+          "contenu_detaille": "La fiche donne 'mokonzi' (chef, vu en Leçon 1 du niveau intermédiaire), mot qui désigne aussi bien un chef de village qu'une figure d'autorité professionnelle ou hiérarchique.",
+          "vocabulaire_cles": [
+            {
+              "terme": "mokonzi",
+              "traduction_ou_definition": "chef"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "mokonzi.",
+              "traduction": "Chef."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'chef' d'après la fiche ?",
+              "type": "QCM",
+              "options": [
+                "mokonzi",
+                "mosala",
+                "zando",
+                "kombo"
+              ],
+              "reponse_correcte": "mokonzi"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les mots du champ du travail que documente la fiche (ko-lakisa, mokonzi), complétés par des recherches web (kosala, mosala)."
+}`;export{e as default};

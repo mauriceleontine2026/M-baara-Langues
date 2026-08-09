@@ -1,0 +1,103 @@
+const e=`{
+  "titre_cours": "Leçon 6 : Le registre soutenu et le langage formel (cérémonies, contes, traditions).",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Cette leçon présente le vocabulaire kpele (guerzé) des cérémonies, des contes et des traditions, tel qu'il apparaît dans les entrées et les notes culturelles du Dictionnaire kpele de la Guinée de Maria Konoshenko (2019, Mandenkan n°62) : les formules cérémonielles d'accueil, l'art du conte, et les institutions traditionnelles d'initiation.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les formules cérémonielles",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Accueillir un étranger",
+          "contenu_detaille": "La cendre, lǔɠu (variantes lǔɓi, lǐɓi), est signe de bonheur et utilisée dans les cérémonies. Le dictionnaire donne toute une séquence de salutation cérémonielle envers un étranger : é pá lúɠû ! 'sois le bienvenu !' [dit à l'étranger, marque du bonheur de le voir venir], auquel l'étranger répond par la même formule é káa lúɠû 'sois le bienvenu !'. On peut poursuivre par é kɔ́lɔŋ núɠû 'je suis enchanté de faire ta connaissance', et nùɠu ɓé ! 'félicitations !'.",
+          "vocabulaire_cles": [
+            {"terme": "lǔɠu", "traduction_ou_definition": "cendre ; signe de bonheur utilisé dans les cérémonies"},
+            {"terme": "é pá lúɠû !", "traduction_ou_definition": "formule cérémonielle : 'sois le bienvenu !'"}
+          ],
+          "exemples": [
+            {"phrase": "é pá lúɠû ! (réponse : é káa lúɠû)", "traduction": "'sois le bienvenu !' — l'étranger répond par la même formule"},
+            {"phrase": "é kɔ́lɔŋ núɠû", "traduction": "'je suis enchanté de faire ta connaissance'"},
+            {"phrase": "nùɠu ɓé !", "traduction": "'félicitations !'"}
+          ],
+          "exercices": [
+            {
+              "question": "Quel élément est signe de bonheur et utilisé dans les cérémonies kpele, selon le dictionnaire ?",
+              "type": "QCM",
+              "options": ["le sel", "la cendre (lǔɠu)", "l'huile", "le miel"],
+              "reponse_correcte": "la cendre (lǔɠu)"
+            },
+            {
+              "question": "Comment un étranger accueilli par é pá lúɠû ! doit-il répondre ?",
+              "type": "QCM",
+              "options": ["par le silence", "en répétant la même formule", "par nùɠu ɓé !", "par gàa léi ?"],
+              "reponse_correcte": "en répétant la même formule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_module": 2,
+      "titre_module": "Contes et institutions traditionnelles",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "L'art du conte",
+          "contenu_detaille": "Le conte ou la légende se dit kwèlêŋ (variante kwèléŋ), avec l'expression ~ hɔ̌ɔ 'raconter un conte'. Le dictionnaire illustre ce mot par un exemple mettant en scène deux personnages typiques des contes ouest-africains : ŋwɔ́ kwèléŋ ɓé hèɠeí è hwílêŋ hwúlu dà hɔ̀uwolo ɓâ 'mon conte parle de l'hyène et du lièvre'. Le proverbe, la parabole et la fable relèvent d'un mot voisin, hɔ́ɔnŋ.",
+          "vocabulaire_cles": [
+            {"terme": "kwèlêŋ", "traduction_ou_definition": "conte, légende"},
+            {"terme": "hɔ̀uwǒlo", "traduction_ou_definition": "lièvre (personnage de conte)"}
+          ],
+          "exemples": [
+            {"phrase": "kwèlêŋ ~ hɔ̌ɔ", "traduction": "'raconter un conte'"},
+            {"phrase": "ŋwɔ́ kwèléŋ ɓé hèɠeí è hwílêŋ hwúlu dà hɔ̀uwolo ɓâ", "traduction": "'mon conte parle de l'hyène et du lièvre'"}
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'conte, légende' en kpele ?",
+              "type": "QCM",
+              "options": ["hɔ́ɔnŋ", "kwèlêŋ", "lóno", "lǔɠu"],
+              "reponse_correcte": "kwèlêŋ"
+            },
+            {
+              "question": "Quels sont les deux personnages du conte donné en exemple dans le dictionnaire ?",
+              "type": "QCM",
+              "options": ["le singe et le chimpanzé", "l'hyène et le lièvre", "le chien et le chat", "le crocodile et la tortue"],
+              "reponse_correcte": "l'hyène et le lièvre"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "L'initiation",
+          "contenu_detaille": "L'initiation des hommes, ou la société des initiés, se dit pɔ́lɔŋ. L'initiation des femmes se dit hàniŋ. La consécration ou le baptême, où l'enfant reste à la maison avant la cérémonie, se dit kùloyɛ́nɛɛ. Ces institutions rythment le calendrier traditionnel : le lundi (tɛ̀lɛ̂ŋ) est, selon la coutume, le jour consacré aux ancêtres et le jour où commence l'initiation des hommes et des femmes.",
+          "vocabulaire_cles": [
+            {"terme": "pɔ́lɔŋ", "traduction_ou_definition": "initiation des hommes ; société des initiés"},
+            {"terme": "hàniŋ", "traduction_ou_definition": "initiation des femmes"},
+            {"terme": "kùloyɛ́nɛɛ", "traduction_ou_definition": "consécration, baptême"}
+          ],
+          "exemples": [
+            {"phrase": "pɔ́lɔŋ", "traduction": "'initiation des hommes ; société des initiés'"},
+            {"phrase": "hàniŋ", "traduction": "'initiation des femmes'"}
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'initiation des femmes' en kpele ?",
+              "type": "QCM",
+              "options": ["pɔ́lɔŋ", "hàniŋ", "kùloyɛ́nɛɛ", "tɛ̀lɛ̂ŋ"],
+              "reponse_correcte": "hàniŋ"
+            },
+            {
+              "question": "___ désigne la consécration ou le baptême.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "kùloyɛ́nɛɛ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le registre cérémoniel du kpele : les formules d'accueil solennelles, l'art du conte (illustré par l'exemple de l'hyène et du lièvre) et les institutions traditionnelles d'initiation. Ces données, tirées du Dictionnaire kpele de la Guinée (Konoshenko, 2019), donnent accès au langage formel employé lors des grandes occasions de la vie communautaire."
+}`;export{e as default};

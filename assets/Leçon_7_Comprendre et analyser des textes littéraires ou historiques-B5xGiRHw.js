@@ -1,0 +1,103 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Comprendre et analyser des textes littéraires ou historiques.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Français-Wolof et Wolof-Français », compilant les dictionnaires de Dard, du baron Roger et de l'abbé Lambert, revu et considérablement augmenté par les missionnaires de la Congrégation du Saint-Esprit et du Saint-Cœur de Marie (édition ancienne, Dakar/Saint-Louis du Sénégal). Ce document est une liste alphabétique française-wolof (mots et locutions), sans phrases dialoguées suivies ; l'orthographe d'origine (accents, apostrophes) est conservée telle quelle. L'extraction automatique de ce document scanné a pu déformer certains diacritiques (accents, lettres ñ/à propres au wolof) ; les transcriptions ci-dessous sont données sous cette réserve. Le corpus wolof proprement dit ne contient pas de texte suivi ; cette leçon travaille donc fidèlement sur la préface historique en français du dictionnaire.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le contexte historique du dictionnaire",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Une œuvre missionnaire collective",
+          "contenu_detaille": "La préface explique que ce dictionnaire réunit et augmente considérablement plusieurs sources antérieures : le dictionnaire de Dard, le vocabulaire du baron Roger, et le dictionnaire manuscrit de l'abbé Lambert, le tout revu par les Pères missionnaires de la Congrégation du Saint-Esprit et du Saint-Cœur de Marie. La préface précise que la connaissance des langues indigènes est, pour le missionnaire, une condition indispensable de son œuvre de régénération religieuse et sociale.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Dard, baron Roger, abbé Lambert",
+              "traduction_ou_definition": "auteurs des sources antérieures compilées dans ce dictionnaire"
+            },
+            {
+              "terme": "Congrégation du Saint-Esprit et du Saint-Cœur de Marie",
+              "traduction_ou_definition": "ordre missionnaire responsable de l'édition finale"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "La connaissance des langues indigènes est pour le missionnaire une condition indispensable...",
+              "traduction": "(idée résumée de la préface du dictionnaire)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quelles sources antérieures ce dictionnaire compile-t-il, d'après sa préface ?",
+              "type": "QCM",
+              "options": [
+                "Dard, le baron Roger et l'abbé Lambert",
+                "Uniquement Dard",
+                "Des sources anonymes",
+                "Des textes en arabe"
+              ],
+              "reponse_correcte": "Dard, le baron Roger et l'abbé Lambert"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Les principes d'édition du dictionnaire",
+          "contenu_detaille": "La préface précise les choix éditoriaux : simplifier l'orthographe en s'appuyant sur les lettres et signes du français, tout en notant avec une accentuation particulière les sons propres au wolof sans équivalent français, afin de faciliter l'usage du dictionnaire pour un large public de missionnaires et d'administrateurs.",
+          "vocabulaire_cles": [
+            {
+              "terme": "accentuation particulière",
+              "traduction_ou_definition": "principe d'édition retenu par la préface pour noter les sons spécifiques au wolof"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(principe d'édition résumé de la préface)",
+              "traduction": "Les sons étrangers au français sont notés en caractères ordinaires, mais avec une accentuation particulière."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "La préface choisit de simplifier l'orthographe en s'appuyant sur les lettres et signes du _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "français"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "La publication et sa diffusion",
+          "contenu_detaille": "La page de titre indique que la première partie de l'ouvrage a été imprimée et vendue à Dakar (à l'imprimerie de la Mission), à Gorée, à Saint-Louis du Sénégal (chez les Pères missionnaires) et en Gambie, au prix de 5 francs en brochure, 6,50 francs en demi-reliure et 7,50 francs en reliure entière — une indication précieuse sur la diffusion géographique et matérielle de cet ouvrage à son époque.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Dakar, Gorée, Saint-Louis du Sénégal, Gambie",
+              "traduction_ou_definition": "lieux de vente de l'ouvrage mentionnés sur sa page de titre"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Brochure, 5 fr. ; Demi-reliure, 6 fr. 50 c. ; Reliure entière, 7 fr. 50 c.",
+              "traduction": "Prix de l'ouvrage tels qu'indiqués sur sa page de titre."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Dans quelles villes/régions ce dictionnaire était-il vendu, d'après sa page de titre ?",
+              "type": "QCM",
+              "options": [
+                "Dakar, Gorée, Saint-Louis du Sénégal et la Gambie",
+                "Uniquement Paris",
+                "Uniquement Dakar",
+                "Le Caire et Tunis"
+              ],
+              "reponse_correcte": "Dakar, Gorée, Saint-Louis du Sénégal et la Gambie"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le contexte historique et éditorial du dictionnaire (compilation de Dard, Roger et Lambert par des missionnaires, diffusion à Dakar, Gorée, Saint-Louis et en Gambie), à partir de sa préface et de sa page de titre en français."
+}`;export{e as default};

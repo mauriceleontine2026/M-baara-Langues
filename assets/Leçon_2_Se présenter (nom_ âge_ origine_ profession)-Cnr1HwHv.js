@@ -1,0 +1,77 @@
+const e=`{
+  "titre_cours": "Leçon 2 : Se présenter (nom, âge, origine, profession).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Omniglot, Wikivoyage, Ezinaụlọ, Wikipédia, Latinum Institute, et articles universitaires sur la grammaire igbo), l'igbo étant une langue majeure parlée par environ 30 à 35 millions de personnes dans le sud-est du Nigeria, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Se présenter",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Dire son nom",
+          "contenu_detaille": "L'igbo donne 'Kedụ aha gị?' pour « comment t'appelles-tu ? », avec la réponse 'Aha m bụ...' (mon nom est...).",
+          "vocabulaire_cles": [
+            {
+              "terme": "Kedụ aha gị ?",
+              "traduction_ou_definition": "comment t'appelles-tu ?"
+            },
+            {
+              "terme": "Aha m bụ...",
+              "traduction_ou_definition": "mon nom est..."
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Kedụ aha gị? — Aha m bụ Ada.",
+              "traduction": "Comment t'appelles-tu ? — Je m'appelle Ada."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment demande-t-on le nom de quelqu'un en igbo ?",
+              "type": "QCM",
+              "options": [
+                "Kedụ aha gị?",
+                "Kedụ?",
+                "Biko?",
+                "Daalụ?"
+              ],
+              "reponse_correcte": "Kedụ aha gị?"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "L'origine",
+          "contenu_detaille": "L'igbo donne 'Onye ebee ka ị bụ?' pour « d'où viens-tu ? », avec la réponse 'A bụ m onye...' (je suis originaire de...).",
+          "vocabulaire_cles": [
+            {
+              "terme": "Onye ebee ka ị bụ ?",
+              "traduction_ou_definition": "d'où viens-tu ?"
+            },
+            {
+              "terme": "A bụ m onye...",
+              "traduction_ou_definition": "je suis originaire de..."
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Onye ebee ka ị bụ?",
+              "traduction": "D'où viens-tu ?"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Je suis originaire de...' se dit en igbo : A bụ m _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "onye"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les formules pour dire son nom (Kedụ aha gị?, Aha m bụ...) et son origine (Onye ebee ka ị bụ?), issues de recherches web sur les phrases usuelles igbo."
+}`;export{e as default};

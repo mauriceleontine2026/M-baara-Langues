@@ -1,0 +1,120 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Demander son chemin et se repérer (les directions).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir du « Précis de grammaire et de lexique du peul du Fouta Djallon » d'Abdourahmane Diallo (ILCAA, Tokyo University of Foreign Studies, 2015), qui documente le pular (variante du peul/fulfulde) parlé en Guinée. L'orthographe d'origine (ɓ, ɗ, ƴ, ɲ, ŋ, apostrophe glottale) est conservée telle quelle. Cette leçon reprend la section sur les points cardinaux et les positions spatiales de la Leçon 14 du manuel (page 78-79).",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Se repérer dans l'espace",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les quatre points cardinaux",
+          "contenu_detaille": "Le manuel explique que les points cardinaux s'indiquent selon deux logiques : le cheminement du soleil pour l'est ('funnaange', là où le soleil se lève) et l'ouest ('hirnaange', là où le soleil fait sa veillée), et les membres supérieurs du corps humain pour le nord ('nano', main gauche) et le sud ('ɲaamo', main droite).",
+          "vocabulaire_cles": [
+            {
+              "terme": "funnaange",
+              "traduction_ou_definition": "est (là où le soleil se lève)"
+            },
+            {
+              "terme": "hirnaange",
+              "traduction_ou_definition": "ouest (là où le soleil se couche)"
+            },
+            {
+              "terme": "nano",
+              "traduction_ou_definition": "nord (litt. main gauche)"
+            },
+            {
+              "terme": "ɲaamo",
+              "traduction_ou_definition": "sud (litt. main droite)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ko ka funnaange Afiriki woni.",
+              "traduction": "C'est à l'est de l'Afrique que ça se trouve (construction possible)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "D'après le manuel, à quoi correspond littéralement 'ɲaamo' ?",
+              "type": "QCM",
+              "options": [
+                "main droite (sud)",
+                "main gauche (nord)",
+                "lever du soleil (est)",
+                "coucher du soleil (ouest)"
+              ],
+              "reponse_correcte": "main droite (sud)"
+            },
+            {
+              "question": "'Est' se dit en pular : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "funnaange"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Les positions spatiales et demander son chemin",
+          "contenu_detaille": "Le manuel liste plusieurs mots de position : 'dow' (en haut), 'ley' (bas, sous, en dessous), 'hakkunde' (centre, milieu), 'takko' / 'sera' / 'moggo' (près, proche), 'yeeso' (devant), 'ɓaawo' (derrière, arrière). Exemple : 'Ko honto suudu ndun woni?' (où est la maison ?), 'Suudu ndun no ley lewru ndun' (la maison est en dessous de la lune). Le mot pour 'chemin, route' est 'laawol' (attesté aussi comme 'ɗatal' dans la Leçon 1).",
+          "vocabulaire_cles": [
+            {
+              "terme": "dow",
+              "traduction_ou_definition": "en haut"
+            },
+            {
+              "terme": "ley",
+              "traduction_ou_definition": "bas, sous"
+            },
+            {
+              "terme": "hakkunde",
+              "traduction_ou_definition": "centre, milieu"
+            },
+            {
+              "terme": "takko / sera / moggo",
+              "traduction_ou_definition": "près, proche"
+            },
+            {
+              "terme": "yeeso",
+              "traduction_ou_definition": "devant"
+            },
+            {
+              "terme": "ɓaawo",
+              "traduction_ou_definition": "derrière"
+            },
+            {
+              "terme": "laawol / ɗatal",
+              "traduction_ou_definition": "chemin, route"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ko honto suudu ndun woni?",
+              "traduction": "Où est la maison ?"
+            },
+            {
+              "phrase": "Suudu ndun no dow.",
+              "traduction": "La maison est en haut."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que signifie 'takko' d'après le manuel ?",
+              "type": "QCM",
+              "options": [
+                "près, proche",
+                "loin",
+                "en haut",
+                "en bas"
+              ],
+              "reponse_correcte": "près, proche"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les quatre points cardinaux du pular (funnaange, hirnaange, nano, ɲaamo) et le vocabulaire des positions spatiales (dow, ley, hakkunde, yeeso, ɓaawo), issus de la Leçon 14 du manuel de 2015."
+}`;export{e as default};

@@ -1,0 +1,99 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Demander son chemin et se repérer (les directions).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir de la fiche « LE LINGALA » d'Alain Kihm (CNRS – Université Paris-Cité), publiée dans le cadre du projet Langues et Grammaires du Monde dans l'Espace Francophone (LGMEF, référence HAL-04102394, 2024).  Cette leçon combine le contenu de la fiche de grammaire et un complément de recherche web, la fiche ne couvrant que partiellement ce thème.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Se repérer",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Demander où : wápi",
+          "contenu_detaille": "La fiche de grammaire donne 'wápi' pour « où », avec l'exemple 'Monkanda azalí wápi?' (Le livre est où ?).",
+          "vocabulaire_cles": [
+            {
+              "terme": "wápi",
+              "traduction_ou_definition": "où"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Monkanda azalí wápi?",
+              "traduction": "Le livre est où ?"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment demande-t-on 'où' en lingala d'après la fiche ?",
+              "type": "QCM",
+              "options": [
+                "wápi",
+                "náni",
+                "níni",
+                "ya"
+              ],
+              "reponse_correcte": "wápi"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "À l'intérieur de : na káti na",
+          "contenu_detaille": "La fiche donne, dans un exemple de proposition relative, la locution 'na káti na' pour « dans, à l'intérieur de » : 'le livre dans lequel l'enfant écrit'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "na káti na",
+              "traduction_ou_definition": "dans, à l'intérieur de"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "monkanda (óyo) mwana akomaka na káti na yangó.",
+              "traduction": "Le livre dans lequel l'enfant écrit."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Dans, à l'intérieur de' se dit en lingala : na _____ na.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "káti"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Le marché, repère spatial courant",
+          "contenu_detaille": "Une recherche complémentaire confirme l'usage très fréquent du mot 'zando' (marché, déjà vu dans la fiche sous la forme 'zándo') comme repère spatial dans la conversation courante, notamment dans des phrases comme 'Nakei na zando' (Je vais au marché) ou pour demander son chemin vers ce lieu central de la vie quotidienne à Kinshasa.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Nakei na zando.",
+              "traduction_ou_definition": "Je vais au marché."
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Nakei na zando koluka bilei.",
+              "traduction": "Je vais au marché chercher de la nourriture."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel lieu, déjà cité dans la fiche de grammaire sous une autre graphie, sert souvent de repère spatial courant ?",
+              "type": "QCM",
+              "options": [
+                "Le marché (zando/zándo)",
+                "L'école",
+                "L'hôpital",
+                "La gare"
+              ],
+              "reponse_correcte": "Le marché (zando/zándo)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le mot interrogatif 'où' (wápi) et la locution spatiale 'na káti na' de la fiche de grammaire, complétés par la confirmation de l'usage courant du marché (zando) comme repère spatial fréquent, d'après une recherche web complémentaire."
+}`;export{e as default};

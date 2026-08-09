@@ -1,0 +1,69 @@
+const e=`{
+  "titre_cours": "Leçon 3 : Les connecteurs logiques pour structurer un discours élaboré.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Omniglot, Wikivoyage, Ezinaụlọ, Wikipédia, Latinum Institute, et articles universitaires sur la grammaire igbo), l'igbo étant une langue majeure parlée par environ 30 à 35 millions de personnes dans le sud-est du Nigeria, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les connecteurs de l'igbo",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "na : et",
+          "contenu_detaille": "L'igbo donne 'na' pour « et », conjonction de coordination très fréquente, comme dans l'exemple déjà rencontré 'ya na okenye eri nri' (il/elle peut manger avec les rois, litt. lui et les rois manger nourriture, Leçon 7 du niveau intermédiaire) ou 'ya na di ya' (elle et son mari).",
+          "vocabulaire_cles": [
+            {
+              "terme": "na",
+              "traduction_ou_definition": "et"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ya na okenye eri nri.",
+              "traduction": "Il/elle peut manger avec les rois."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'et' en igbo ?",
+              "type": "QCM",
+              "options": [
+                "na",
+                "ga-",
+                "Ọ bụrụ na",
+                "Biko"
+              ],
+              "reponse_correcte": "na"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Distinguer 'na' conjonction et 'na-' préfixe verbal",
+          "contenu_detaille": "L'igbo présente une homographie remarquable entre 'na' (conjonction « et »), 'na' (postposition « dans, à »), et le préfixe verbal 'na-' (progressif, vu en Leçon 5 du niveau intermédiaire). Seul le contexte syntaxique (position dans la phrase, présence ou non d'un verbe) permet de distinguer ces trois emplois du même élément sonore — une richesse fonctionnelle qui exige une analyse grammaticale fine.",
+          "vocabulaire_cles": [
+            {
+              "terme": "na (conjonction / postposition) vs na- (préfixe verbal)",
+              "traduction_ou_definition": "trois fonctions distinctes du même élément sonore, distinguées par le contexte syntaxique"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque grammaticale)",
+              "traduction": "'na' peut être conjonction, postposition, ou préfixe verbal progressif selon le contexte."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le même élément sonore 'na' peut être conjonction, postposition, ou préfixe verbal _____ , selon le contexte.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "progressif"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le connecteur 'na' (et) et son homographie remarquable avec la postposition 'na' et le préfixe verbal progressif 'na-', issues de recherches web sur la grammaire igbo."
+}`;export{e as default};

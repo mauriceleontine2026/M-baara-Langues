@@ -1,0 +1,75 @@
+const e=`{
+  "titre_cours": "Leçon 9 : Demander et donner des conseils ou des instructions.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Cette leçon présente le vocabulaire kpele (guerzé) permettant de demander et de donner des conseils ou des instructions, tel qu'il apparaît dans les entrées et les phrases d'exemple du Dictionnaire kpele de la Guinée de Maria Konoshenko (2019, Mandenkan n°62) : conseiller, dire, expliquer et montrer.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Donner un conseil",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le conseil et la parole",
+          "contenu_detaille": "Le conseil se dit lìewôo, avec l'expression ~ kɛ́ 'donner des conseils'. La parole se dit hwáa, avec les expressions ~ ɓó 'parler' et ~ kɛ́ 'se disputer', comme dans é hwáawoo nɛ̀ɛî 'tu parles bien'. Pour 'dire' simplement, on emploie ɓó, illustré par mǒ à tɛ̀ân 'dis la vérité' et par l'expression ~ Yála ɓà 'dire la vérité'.",
+          "vocabulaire_cles": [
+            {"terme": "lìewôo", "traduction_ou_definition": "conseil"},
+            {"terme": "hwáa", "traduction_ou_definition": "parole ; parler"},
+            {"terme": "ɓó", "traduction_ou_definition": "dire"}
+          ],
+          "exemples": [
+            {"phrase": "lìewôo ~ kɛ́", "traduction": "'donner des conseils'"},
+            {"phrase": "é hwáawoo nɛ̀ɛî", "traduction": "'tu parles bien'"},
+            {"phrase": "mǒ à tɛ̀ân", "traduction": "'dis la vérité'"}
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'conseil' en kpele ?",
+              "type": "QCM",
+              "options": ["hwáa", "lìewôo", "ɓó", "hǔ-kǔlo"],
+              "reponse_correcte": "lìewôo"
+            },
+            {
+              "question": "lìewôo ~ ___ signifie 'donner des conseils'.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "kɛ́"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_module": 2,
+      "titre_module": "Expliquer et montrer",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Expliquer et donner des instructions",
+          "contenu_detaille": "'Expliquer' se dit hǔ-kǔlo (à quelqu'un, marqué par la postposition ɓà). Pour montrer ou indiquer la marche à suivre, on emploie kéleeŋ 'montrer, indiquer', comme dans bèle kéleeŋ mà 'montre-lui la route' — une expression qui s'applique aussi bien à un chemin qu'à une démarche à suivre.",
+          "vocabulaire_cles": [
+            {"terme": "hǔ-kǔlo", "traduction_ou_definition": "expliquer (à quelqu'un)"},
+            {"terme": "kéleeŋ", "traduction_ou_definition": "montrer, indiquer"}
+          ],
+          "exemples": [
+            {"phrase": "bèle kéleeŋ mà", "traduction": "'montre-lui la route'"}
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'expliquer' en kpele ?",
+              "type": "QCM",
+              "options": ["kéleeŋ", "hǔ-kǔlo", "ɓó", "hwáa"],
+              "reponse_correcte": "hǔ-kǔlo"
+            },
+            {
+              "question": "bèle ___ mà signifie 'montre-lui la route'.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "kéleeŋ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire kpele pour donner un conseil (lìewôo), parler (hwáa), dire (ɓó), expliquer (hǔ-kǔlo) et montrer ou indiquer une marche à suivre (kéleeŋ). Ces données, tirées du Dictionnaire kpele de la Guinée (Konoshenko, 2019), permettent de demander et de transmettre des instructions de façon claire."
+}`;export{e as default};

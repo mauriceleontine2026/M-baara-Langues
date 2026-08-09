@@ -1,0 +1,73 @@
+const e=`{
+  "titre_cours": "Leçon 3 : Exprimer ses goûts, ses préférences et ses sentiments.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir du document fourni. Note importante : ce document est en réalité le « Petit Dictionnaire Français-Bambara et Bambara-Français » de Moussa Travélé (Librairie Paul Geuthner, Paris, début du XXe siècle), consacré au bambara — une langue mandingue très proche du malinké, à laquelle le dictionnaire lui-même fait plusieurs fois référence explicite sous l'abréviation 'M.' (mot malinké). En l'absence d'un dictionnaire malinké dédié, ce cours utilise fidèlement ce contenu bambara/malinké, sans y ajouter aucune information extérieure. Ce dictionnaire est une liste alphabétique de mots (deux sens) et ne contient ni phrases dialoguées ni tableaux de conjugaison ; les leçons ci-dessous s'appuient donc sur le vocabulaire isolé qu'il fournit, complété quand cela existe par les 'Observations préliminaires' sur la prononciation.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Goûts et sentiments",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Aimer et vouloir",
+          "contenu_detaille": "Le dictionnaire donne 'Dia', 'kanou' et 'kodiagné' pour 'aimer', et 'Kanou'/'kodia' pour 'vouloir' — on observe que les deux notions partagent en partie la même racine ('kanou'), ce qui suggère un lien étroit entre aimer et vouloir en bambara/malinké.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Dia / kanou / kodiagné",
+              "traduction_ou_definition": "aimer"
+            },
+            {
+              "terme": "Kanou / kodia",
+              "traduction_ou_definition": "vouloir"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Kanou.",
+              "traduction": "Aimer / vouloir."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel mot du dictionnaire signifie à la fois 'aimer' et entre dans 'vouloir' ?",
+              "type": "QCM",
+              "options": [
+                "kanou",
+                "dougou",
+                "sira",
+                "togo"
+              ],
+              "reponse_correcte": "kanou"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le bonheur",
+          "contenu_detaille": "Le dictionnaire donne 'Lafialé' pour 'heureux'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Lafialé",
+              "traduction_ou_definition": "heureux"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Lafialé.",
+              "traduction": "Heureux."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Heureux' se dit en bambara/malinké : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Lafialé"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les mots pour aimer et vouloir (Dia, kanou) et pour le bonheur (Lafialé), issus des entrées du dictionnaire."
+}`;export{e as default};

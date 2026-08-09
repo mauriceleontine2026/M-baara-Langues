@@ -1,0 +1,73 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Exprimer l'obligation, l'interdiction et la permission.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir de « A Grammar of Kisi » (G. Tucker Childs, Mouton Grammar Library 16, Mouton de Gruyter, 1995), une grammaire universitaire du kisi (kissi), langue atlantique méridionale parlée en Guinée, au Liberia et en Sierra Leone. Ce document est entièrement rédigé en anglais et destiné aux linguistes ; il ne s'agit pas d'un manuel d'apprentissage. Les faits, exemples et gloses qu'il contient ont été traduits et reformulés en français pour ce cours, sans ajout d'information extérieure. Avertissement technique : le kisi est une langue à tons, et l'ouvrage transcrit systématiquement les tons et plusieurs voyelles/consonnes spécifiques (ɔ, ɛ, ŋ, voyelles nasales, marques tonales) au moyen de caractères phonétiques spéciaux ; l'extraction automatique du texte de ce PDF universitaire a pu déformer certains de ces caractères. Les formes kisi citées ci-dessous sont donc données sous toute réserve quant à leurs diacritiques exacts, et gagneraient à être vérifiées auprès d'un locuteur ou du PDF original avant tout usage pédagogique. Cette leçon reprend la section 10.5.3 de l'ouvrage, consacrée à l'Hortatif et à l'Impératif, et la section 12.3 sur le subordonnant général.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Ordonner, recommander, devoir",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "L'Hortatif : « devoir, falloir »",
+          "contenu_detaille": "L'ouvrage explique que l'Hortatif exprime le souhait du locuteur que l'action du verbe soit accomplie ; à la première personne du pluriel, il se traduit par « allons... » (Let's), et ailleurs par « devrait » ou « devrait faire ». L'exemple donné : 'ö wisuŋ yä säa lɔŋ ö peŋgi cäŋndö', traduit « elle devrait allaiter Saa pour qu'il arrête de pleurer ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "Hortatif",
+              "traduction_ou_definition": "mode exprimant le souhait que l'action soit accomplie ; se traduit par « devrait » ou « allons »"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ö wisuŋ yä säa lɔŋ ö peŋgi cäŋndö.",
+              "traduction": "« Elle devrait allaiter Saa pour qu'il arrête de pleurer. » (exemple de l'ouvrage, Hortatif)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment se traduit le plus souvent l'Hortatif du kisi, d'après l'ouvrage ?",
+              "type": "QCM",
+              "options": [
+                "« devrait » ou « devrait faire »",
+                "« ne doit jamais »",
+                "« a fait »",
+                "« fera peut-être »"
+              ],
+              "reponse_correcte": "« devrait » ou « devrait faire »"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "L'Impératif",
+          "contenu_detaille": "L'ouvrage précise que l'Impératif du kisi correspond à la forme non marquée (« nue ») du verbe nominalisé, tronquée de son suffixe. Le pluriel se forme en ajoutant 'lä' (« vous », pluriel) avant cette même forme. Exemple donné : 'dimi wili' (« Répète ! »).",
+          "vocabulaire_cles": [
+            {
+              "terme": "Impératif",
+              "traduction_ou_definition": "forme tronquée du verbe nominalisé"
+            },
+            {
+              "terme": "lä + verbe",
+              "traduction_ou_definition": "impératif pluriel (« vous »)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "dimi wili!",
+              "traduction": "« Répète ! » (Impératif, exemple de l'ouvrage)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Au pluriel, l'Impératif du kisi se forme en ajoutant le pronom _____ (vous) avant le verbe.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "lä"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté l'Hortatif (devoir, falloir) et l'Impératif (ordonner) du kisi, d'après la section 10.5.3 de l'ouvrage de Childs."
+}`;export{e as default};

@@ -1,0 +1,81 @@
+const n=`{
+  "titre_cours": "Leçon 2 : Se présenter (nom, âge, origine, profession).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir de recherches web (Institut Fassaha, Institut Al Rayhan, Malac, Talkpal, Preply, LingoHut, Talqeeny, Wiktionnaire, Wikipédia, thèses universitaires, recueils de proverbes arabes). ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Se présenter",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Comment ça va ?",
+          "contenu_detaille": "L'arabe donne 'كيف حالك؟' (kayfa haluk?) pour « comment ça va ? » (litt. comment est ton état ?), question essentielle pour engager une présentation.",
+          "vocabulaire_cles": [
+            {
+              "terme": "كيف حالك؟ (kayfa haluk ?)",
+              "traduction_ou_definition": "comment ça va ? (litt. comment est ton état ?)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Kayfa haluk?",
+              "traduction": "Comment ça va ?"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment demande-t-on 'comment ça va' en arabe ?",
+              "type": "QCM",
+              "options": [
+                "كيف حالك؟ (kayfa haluk?)",
+                "شكرا؟ (shukran?)",
+                "مرحباً؟ (marhaban?)",
+                "عفوا؟ (afwan?)"
+              ],
+              "reponse_correcte": "كيف حالك؟ (kayfa haluk?)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Insan : l'être humain",
+          "contenu_detaille": "L'arabe donne 'إنسان' (insan) pour « être humain, personne », 'رجل' (rajul) pour « homme », et 'امرأة' (imra'a) pour « femme », vocabulaire de base pour se présenter et présenter les autres.",
+          "vocabulaire_cles": [
+            {
+              "terme": "إنسان (insan)",
+              "traduction_ou_definition": "être humain, personne"
+            },
+            {
+              "terme": "رجل (rajul)",
+              "traduction_ou_definition": "homme"
+            },
+            {
+              "terme": "امرأة (imra'a)",
+              "traduction_ou_definition": "femme"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "insan.",
+              "traduction": "Être humain."
+            },
+            {
+              "phrase": "rajul.",
+              "traduction": "Homme."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Être humain, personne' se dit en arabe : _____ (insan).",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "إنسان"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté la formule pour demander comment ça va (kayfa haluk?) et le vocabulaire de base de la personne (insan, rajul, imra'a), issues de recherches web, avec écriture arabe et translittération."
+}`;export{n as default};

@@ -1,0 +1,77 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Comprendre et analyser des textes littéraires ou historiques.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Dioula-Français-Anglais-Allemand » (dernière mise à jour du 28/12/2020), un dictionnaire moderne et très complet (plus de 1200 pages) documentant le dioula (jula) parlé autour de Bobo-Dioulasso, Burkina Faso — une langue mandingue très proche du malinké et du bambara déjà utilisés dans ce projet. Ce dictionnaire est exceptionnellement riche : chaque entrée est classée par catégorie sémantique (Kinship, colour, Food, Mathematics, etc.), donnée avec tons, traduction quadrilingue et souvent un exemple de phrase authentique. Cette leçon reprend la phrase d'ouverture du dictionnaire lui-même, un court texte administratif authentique.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Un document authentique daté",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "La formule d'ouverture du dictionnaire",
+          "contenu_detaille": "Le dictionnaire s'ouvre sur la phrase 'A kɛra Bobo Julaso foonɛnɛkalo tile 5 nan lon saan 2017' (Fait à Bobo Dioulasso le 5 février 2017), une formule administrative typique qui date et localise le document. On y retrouve 'Bobo Julaso' (Bobo-Dioulasso, la grande ville dioulaphone du Burkina Faso), 'foonɛnɛkalo' (le mois de février), et 'saan' (année).",
+          "vocabulaire_cles": [
+            {
+              "terme": "Bobo Julaso",
+              "traduction_ou_definition": "Bobo-Dioulasso (ville)"
+            },
+            {
+              "terme": "foonɛnɛkalo",
+              "traduction_ou_definition": "février"
+            },
+            {
+              "terme": "saan",
+              "traduction_ou_definition": "année"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "A kɛra Bobo Julaso foonɛnɛkalo tile 5 nan lon saan 2017.",
+              "traduction": "Fait à Bobo Dioulasso le 5 février 2017."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Dans quelle ville a été daté ce document authentique cité en ouverture du dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "Bobo Julaso (Bobo-Dioulasso)",
+                "Ouagadougou",
+                "Abidjan",
+                "Bamako"
+              ],
+              "reponse_correcte": "Bobo Julaso (Bobo-Dioulasso)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "L'année en construction numérique",
+          "contenu_detaille": "Le dictionnaire donne un exemple révélateur de la formation des grands nombres à propos de l'année : 'saan ba fila ani naani' pour « l'année 2004 » (litt. année-cent deux et quatre, soit 20 centaines + 4 = 2004, où 'ba' désigne ici « cent » ou une grande quantité selon le contexte). Cet exemple montre comment une date, élément central de tout texte historique, se construit en dioula à partir des nombres déjà étudiés en Leçon 5 du niveau débutant.",
+          "vocabulaire_cles": [
+            {
+              "terme": "saan ba fila ani naani",
+              "traduction_ou_definition": "l'année 2004 (construction numérique composée)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "saan ba fila ani naani.",
+              "traduction": "L'année 2004."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "La phrase d'ouverture du dictionnaire est datée du 5 _____ 2017 (foonɛnɛkalo).",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "février"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté et analysé la formule d'ouverture authentique du dictionnaire lui-même (date et lieu de rédaction à Bobo-Dioulasso), ainsi que la construction numérique d'une année, exemples de textes administratifs réels en dioula."
+}`;export{e as default};

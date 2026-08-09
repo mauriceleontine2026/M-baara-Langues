@@ -1,0 +1,64 @@
+const e=`{
+  "titre_cours": "Leçon 5 : Débattre, argumenter et défendre un point de vue.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Preply, Talkpal, Swahilitales, Swahili Language School, Evolang, Wikipédia, kiswahili.ku.edu, et recueils de proverbes swahili), le swahili (kiswahili) étant une langue majeure parlée par plus de 200 millions de personnes en Afrique de l'Est, langue officielle en Tanzanie, au Kenya, en Ouganda et en RDC. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Argumenter par le proverbe",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "La loi coupe des deux côtés",
+          "contenu_detaille": "Le swahili donne le proverbe 'Sheria ni msumeno, hukata huku na huku' (la loi est une scie, elle coupe d'un côté et de l'autre), équivalent du français « la loi est un couteau à double tranchant », argument classique dans un débat pour rappeler qu'une règle ou une loi peut se retourner contre celui qui l'invoque.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Sheria ni msumeno, hukata huku na huku",
+              "traduction_ou_definition": "la loi est une scie à double tranchant (proverbe)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Sheria ni msumeno, hukata huku na huku.",
+              "traduction": "La loi est une scie, elle coupe d'un côté et de l'autre. (Proverbe)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que rappelle le proverbe 'Sheria ni msumeno, hukata huku na huku' dans un débat ?",
+              "type": "QCM",
+              "options": [
+                "Une règle peut se retourner contre celui qui l'invoque",
+                "La loi est toujours juste",
+                "Il ne faut jamais invoquer la loi",
+                "Les scies sont dangereuses"
+              ],
+              "reponse_correcte": "Une règle peut se retourner contre celui qui l'invoque"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Si un poisson pourrit, tous pourrissent",
+          "contenu_detaille": "Le swahili donne un second proverbe argumentatif : 'Samaki mmoja akioza, wote wameoza' (si un poisson pourrit [dans le panier], tous sont pourris), équivalent de « une pomme pourrie gâte tout le tas », argument utile pour souligner qu'un seul élément défaillant peut compromettre la réputation ou l'intégrité de tout un groupe.",
+          "vocabulaire_cles": [],
+          "exemples": [
+            {
+              "phrase": "Samaki mmoja akioza, wote wameoza.",
+              "traduction": "Si un poisson pourrit, tous sont pourris. (Proverbe)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le proverbe du poisson pourri argumente qu'un seul élément défaillant peut compromettre tout un _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "groupe"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté deux proverbes argumentatifs swahili (sur la loi à double tranchant et sur le poisson pourri), utiles pour nourrir un débat, issus de recueils de proverbes swahili consultés en ligne."
+}`;export{e as default};

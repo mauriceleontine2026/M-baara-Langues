@@ -1,0 +1,69 @@
+const e=`{
+  "titre_cours": "Leçon 3 : Exprimer ses goûts, ses préférences et ses sentiments.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Targumi, DiscoverYoruba, Africa.uga.edu, Ling-App, Lingalot, Nigerian Finder, Wikipédia, et articles universitaires sur la grammaire et les proverbes yoruba), le yoruba étant une langue majeure parlée par plus de 45 millions de personnes au Nigeria, au Bénin et au Togo, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Sentiments et perception",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Orí : la tête, mais aussi la destinée",
+          "contenu_detaille": "Le yoruba donne 'Orí' pour « tête », mot qui prend en philosophie yoruba un sens bien plus profond : l'essence personnelle et la destinée individuelle de chacun. Prendre soin de son 'orí' (par des rituels traditionnels) revient à prendre soin de son destin, une conception qui dépasse largement le sens anatomique du mot.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Orí",
+              "traduction_ou_definition": "tête ; aussi : essence personnelle, destinée individuelle (en philosophie yoruba)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Orí.",
+              "traduction": "Tête / destinée."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que représente 'Orí' en philosophie yoruba, en plus de la tête ?",
+              "type": "QCM",
+              "options": [
+                "L'essence personnelle et la destinée individuelle",
+                "Le passé familial",
+                "La richesse matérielle",
+                "La force physique"
+              ],
+              "reponse_correcte": "L'essence personnelle et la destinée individuelle"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le cœur et l'expression du sentiment",
+          "contenu_detaille": "Le yoruba donne 'Ọkàn' pour « cœur », siège traditionnel du sentiment, comme dans de nombreuses cultures. On retrouve ce mot dans des expressions de bien-être ou de détresse émotionnelle construites autour du cœur.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Ọkàn",
+              "traduction_ou_definition": "cœur"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ọkàn.",
+              "traduction": "Cœur."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Cœur' (siège du sentiment) se dit en yoruba : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Ọkàn"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le sens philosophique profond du mot 'Orí' (tête/destinée) et le mot pour le cœur (Ọkàn), siège traditionnel du sentiment, issus de recherches web sur la culture yoruba."
+}`;export{e as default};

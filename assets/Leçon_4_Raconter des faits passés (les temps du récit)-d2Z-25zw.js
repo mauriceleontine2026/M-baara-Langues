@@ -1,0 +1,73 @@
+const e=`{
+  "titre_cours": "Leçon 4 : Raconter des faits passés (les temps du récit).",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir du « Lexique bisa-français, suivi d'un index français-bisa » de Bettie Vanhoudt, publié dans Mandenkan n°34 (1999), bulletin d'études linguistiques mandé. Ce lexique documente le dialecte lebir du bisa (parlé autour de Zabré, Burkina Faso), une des langues mandé les plus orientales. La transcription phonologique (tons, voyelles ATR/-ATR) est conservée telle quelle ; l'autrice précise elle-même que ce travail reste provisoire et incomplet. Cette leçon reprend la section « Marqueurs verbaux » de l'introduction grammaticale du lexique, qui liste les marqueurs aspecto-temporels du bisa.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les marqueurs du passé",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Un système de marqueurs préverbaux",
+          "contenu_detaille": "Le lexique explique que le bisa exprime le temps, le mode et l'aspect au moyen de marqueurs qui précèdent le verbe (et non de suffixes comme en français). Parmi eux, 'nà' marque l'inaccompli dans le passé ou le présent, et 'ràà' (avec sa variante 'làà') marque l'habituel dans le présent et le passé — un même marqueur pouvant ainsi couvrir deux temps selon le contexte.",
+          "vocabulaire_cles": [
+            {
+              "terme": "nà",
+              "traduction_ou_definition": "marque l'inaccompli, dans le passé ou le présent"
+            },
+            {
+              "terme": "ràà / làà",
+              "traduction_ou_definition": "marque l'habituel, dans le présent et le passé"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque grammaticale du lexique)",
+              "traduction": "Les marqueurs aspecto-temporels du bisa se placent avant le verbe, contrairement aux suffixes français."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Où se placent les marqueurs aspecto-temporels par rapport au verbe en bisa, d'après le lexique ?",
+              "type": "QCM",
+              "options": [
+                "Avant le verbe",
+                "Après le verbe",
+                "Ils s'insèrent au milieu du verbe",
+                "Ils sont indépendants du verbe"
+              ],
+              "reponse_correcte": "Avant le verbe"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "yáá : l'accompli effectif",
+          "contenu_detaille": "Le lexique donne 'yáá' (ou 'áá') pour marquer, entre autres sens, « l'accompli effectif » (faire quelque chose comme prévu), une nuance intéressante qui souligne que l'accompli en bisa n'est pas seulement une action terminée, mais une action réalisée conformément à une attente.",
+          "vocabulaire_cles": [
+            {
+              "terme": "yáá / áá",
+              "traduction_ou_definition": "marqueur de l'accompli effectif (faire comme prévu), parmi d'autres sens"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque grammaticale du lexique)",
+              "traduction": "'yáá' marque, entre autres emplois, l'accompli effectif : une action réalisée comme prévu."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le marqueur qui, entre autres sens, exprime « l'accompli effectif » (faire comme prévu) est : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "yáá"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le principe des marqueurs préverbaux du bisa pour exprimer le temps et l'aspect (nà, ràà/làà, yáá), d'après l'introduction grammaticale du lexique de Vanhoudt."
+}`;export{e as default};

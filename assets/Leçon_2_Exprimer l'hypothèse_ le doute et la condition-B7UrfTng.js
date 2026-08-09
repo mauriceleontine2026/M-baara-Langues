@@ -1,0 +1,68 @@
+const e=`{
+  "titre_cours": "Leçon 2 : Exprimer l'hypothèse, le doute et la condition.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Omniglot, Wikivoyage, Ezinaụlọ, Wikipédia, Latinum Institute, et articles universitaires sur la grammaire igbo), l'igbo étant une langue majeure parlée par environ 30 à 35 millions de personnes dans le sud-est du Nigeria, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "La condition en igbo",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Ọ bụrụ na : si, condition standard",
+          "contenu_detaille": "Comme vu en Leçon 7 du niveau intermédiaire, l'igbo standard (basé sur le dialecte central Owerri/Umuahia) construit la condition avec 'Ọ bụrụ na' suivi du marqueur du futur 'ga-'. Un second proverbe conditionnel illustre cette structure : « Ọ bụrụ na agwọ emeghi nke o jiri bụrụ agwọ, ụmụaka achịrị ya hie nkụ » (si un serpent ne montre pas ce qui fait de lui un serpent [son venin], les enfants l'utiliseront pour attacher du bois de chauffe), qui enseigne qu'il faut démontrer sa capacité pour être respecté.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Ọ bụrụ na",
+              "traduction_ou_definition": "si (structure conditionnelle standard)"
+            },
+            {
+              "terme": "agwọ",
+              "traduction_ou_definition": "serpent"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ọ bụrụ na agwọ emeghi nke o jiri bụrụ agwọ, ụmụaka achịrị ya hie nkụ.",
+              "traduction": "Si un serpent ne montre pas son venin, les enfants l'utiliseront pour attacher du bois. (Proverbe)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que doit-on démontrer, selon ce proverbe sur le serpent, pour être respecté ?",
+              "type": "QCM",
+              "options": [
+                "Sa capacité (ce qui fait notre force réelle)",
+                "Sa richesse",
+                "Son âge",
+                "Sa taille"
+              ],
+              "reponse_correcte": "Sa capacité (ce qui fait notre force réelle)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Une variation dialectale de la condition",
+          "contenu_detaille": "La grammaire igbo précise que si le dialecte central (Owerri/Umuahia) utilise 'ọ bụrụ na' avec 'ga-' de façon standard, le dialecte d'Onitsha peut varier dans les patrons tonaux, et le dialecte Ngwa présente quelques différences phonologiques — la construction conditionnelle restant reconnaissable dans toute la région malgré ces variations, l'igbo écrit standard (basé sur le Central Igbo) étant compris dans toutes les régions dialectales.",
+          "vocabulaire_cles": [],
+          "exemples": [
+            {
+              "phrase": "(remarque dialectale)",
+              "traduction": "La construction conditionnelle 'ọ bụrụ na' varie légèrement selon les dialectes (Onitsha, Ngwa) mais reste reconnaissable partout."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "La construction conditionnelle igbo standard, 'Ọ bụrụ na', est basée sur le dialecte central _____ /Umuahia.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Owerri"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté la construction conditionnelle standard 'Ọ bụrụ na' (si) à travers un second proverbe sur le serpent et la capacité à démontrer, ainsi que ses variations dialectales mineures, issues de recherches web."
+}`;export{e as default};

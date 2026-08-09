@@ -1,0 +1,73 @@
+const e=`{
+  "titre_cours": "Leçon 3 : L'alphabet et les sons spécifiques de la langue.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir de « A Grammar of Kisi » (G. Tucker Childs, Mouton Grammar Library 16, Mouton de Gruyter, 1995), une grammaire universitaire du kisi (kissi), langue atlantique méridionale parlée en Guinée, au Liberia et en Sierra Leone. Ce document est entièrement rédigé en anglais et destiné aux linguistes ; il ne s'agit pas d'un manuel d'apprentissage. Les faits, exemples et gloses qu'il contient ont été traduits et reformulés en français pour ce cours, sans ajout d'information extérieure. Avertissement technique : le kisi est une langue à tons, et l'ouvrage transcrit systématiquement les tons et plusieurs voyelles/consonnes spécifiques (ɔ, ɛ, ŋ, voyelles nasales, marques tonales) au moyen de caractères phonétiques spéciaux ; l'extraction automatique du texte de ce PDF universitaire a pu déformer certains de ces caractères. Les formes kisi citées ci-dessous sont donc données sous toute réserve quant à leurs diacritiques exacts, et gagneraient à être vérifiées auprès d'un locuteur ou du PDF original avant tout usage pédagogique. Cette leçon reprend les grandes lignes des chapitres 3 (Inventaire segmental) et 4 (Prosodie/tons) de l'ouvrage.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les sons et les tons du kisi",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Un système consonantique riche",
+          "contenu_detaille": "L'ouvrage décrit un inventaire consonantique du kisi comprenant, entre autres catégories, des consonnes nasales, des occlusives prénasalisées (des sons combinant une nasale et une occlusive, comme 'mb' ou 'nd'), des occlusives sonores et sourdes, une affriquée, des fricatives, une liquide et des semi-voyelles (glides). Cette richesse en occlusives prénasalisées est une caractéristique notable du kisi par rapport au français.",
+          "vocabulaire_cles": [
+            {
+              "terme": "occlusives prénasalisées",
+              "traduction_ou_definition": "consonnes combinant une nasale et une occlusive (ex. mb, nd), fréquentes en kisi"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "mb, nd (exemples de préfixes consonantiques)",
+              "traduction": "illustrent la prénasalisation, un trait consonantique marquant du kisi."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que sont les « occlusives prénasalisées » décrites dans la grammaire du kisi ?",
+              "type": "QCM",
+              "options": [
+                "Des consonnes combinant une nasale et une occlusive (ex. mb, nd)",
+                "Des voyelles nasales",
+                "Des tons descendants",
+                "Des consonnes mouillées comme en français"
+              ],
+              "reponse_correcte": "Des consonnes combinant une nasale et une occlusive (ex. mb, nd)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Une langue à tons",
+          "contenu_detaille": "L'ouvrage consacre tout un chapitre à la prosodie du kisi, qui distingue plusieurs tons (haut, bas, descendant, et un ton « extra-haut » employé notamment dans la négation). Ces tons ne sont pas de simples nuances de prononciation : ils peuvent, comme le montre l'ouvrage à propos des pronoms et des verbes, changer complètement le sens ou la fonction grammaticale d'un mot. Le kisi possède aussi des voyelles longues, distinctes des voyelles brèves correspondantes.",
+          "vocabulaire_cles": [
+            {
+              "terme": "ton haut / bas / descendant / extra-haut",
+              "traduction_ou_definition": "les tons distinctifs du kisi, qui changent le sens ou la fonction grammaticale des mots"
+            },
+            {
+              "terme": "voyelles longues",
+              "traduction_ou_definition": "distinctes des voyelles brèves en kisi"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(exemple général de la grammaire)",
+              "traduction": "Le ton extra-haut apparaît notamment sur le verbe dans les phrases négatives."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le kisi utilise, en plus des tons haut, bas et descendant, un ton particulièrement marqué appelé ton _____ , notamment dans la négation.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "extra-haut"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les grandes caractéristiques phonologiques du kisi décrites par Childs : un système consonantique riche en occlusives prénasalisées, et un système tonal complexe (tons haut, bas, descendant, extra-haut) qui joue un rôle grammatical central."
+}`;export{e as default};

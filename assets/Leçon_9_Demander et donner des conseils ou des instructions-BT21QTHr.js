@@ -1,0 +1,89 @@
+const e=`{
+  "titre_cours": "Leçon 9 : Demander et donner des conseils ou des instructions.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit strictement à partir du « Précis de grammaire et de lexique du peul du Fouta Djallon » d'Abdourahmane Diallo (ILCAA, Tokyo University of Foreign Studies, 2015), qui documente le pular (variante du peul/fulfulde) parlé en Guinée. L'orthographe d'origine (ɓ, ɗ, ƴ, ɲ, ŋ, apostrophe glottale) est conservée telle quelle. Cette leçon reprend la Leçon 13 du manuel, consacrée à l'impératif.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Donner des instructions à l'impératif",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "L'impératif des verbes actifs",
+          "contenu_detaille": "Le manuel donne le paradigme de l'impératif actif : le singulier (2e personne) prend '-u' ('Nodd-u Saalihu!', appelle Saliou !), le pluriel (2e personne) prend '-ee' ('Noddee Saalihu!', appelez Saliou !), et la première personne du pluriel (inclusive, 'faisons') prend '-en' ('Nodden Saalihu!', appelons Saliou !).",
+          "vocabulaire_cles": [
+            {
+              "terme": "-u",
+              "traduction_ou_definition": "impératif singulier, 2e personne (verbes actifs)"
+            },
+            {
+              "terme": "-ee",
+              "traduction_ou_definition": "impératif pluriel, 2e personne"
+            },
+            {
+              "terme": "-en",
+              "traduction_ou_definition": "1ère personne du pluriel inclusive, « faisons »"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Noddu Saalihu!",
+              "traduction": "Appelle Saliou !"
+            },
+            {
+              "phrase": "Noddee Saalihu!",
+              "traduction": "Appelez Saliou !"
+            },
+            {
+              "phrase": "Nodden Saalihu!",
+              "traduction": "Appelons Saliou !"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel suffixe marque l'impératif singulier des verbes actifs ?",
+              "type": "QCM",
+              "options": [
+                "-u",
+                "-ee",
+                "-en",
+                "-no"
+              ],
+              "reponse_correcte": "-u"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "La négation de l'impératif",
+          "contenu_detaille": "La négation de l'impératif se construit avec la particule 'wata' placée avant le sujet, suivi de la base verbale (sans le suffixe '-u') : 'wata a noddu Saalihu' (n'appelle pas Saliou !), 'wata on noddu Saalihu' (n'appelez pas Saliou !). Le manuel précise aussi que l'impératif n'est jamais utilisé pour les verbes passifs en pular.",
+          "vocabulaire_cles": [
+            {
+              "terme": "wata",
+              "traduction_ou_definition": "particule de négation de l'impératif (ne... pas)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Wata a noddu Saalihu!",
+              "traduction": "N'appelle pas Saliou !"
+            },
+            {
+              "phrase": "Wata on noddu Saalihu!",
+              "traduction": "N'appelez pas Saliou !"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "La négation de l'impératif se construit avec la particule : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "wata"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté la formation de l'impératif en pular (-u, -ee, -en) et sa négation avec 'wata', issues de la Leçon 13 du manuel de 2015."
+}`;export{e as default};

@@ -1,0 +1,99 @@
+const n=`{
+  "titre_cours": "Leçon 5 : Les chiffres, les nombres et le comptage.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (fiche « LE HINDI » du projet LGMEF/CNRS-INALCO, Preply, Talkpal, OpenL, notes de cours de hindi de l'INRIA, et recueils de proverbes hindi), le hindi étant une langue majeure parlée par plus de 600 millions de personnes en Inde et dans sa diaspora, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Compter en hindi",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les nombres de 1 à 10",
+          "contenu_detaille": "Le hindi donne : 1 एक (ek), 2 दो (do), 3 तीन (teen), 4 चार (chaar), 5 पाँच (paanch), 6 छह (chhah), 7 सात (saat), 8 आठ (aath), 9 नौ (nau), 10 दस (das).",
+          "vocabulaire_cles": [
+            {
+              "terme": "एक (ek)",
+              "traduction_ou_definition": "1"
+            },
+            {
+              "terme": "दो (do)",
+              "traduction_ou_definition": "2"
+            },
+            {
+              "terme": "तीन (teen)",
+              "traduction_ou_definition": "3"
+            },
+            {
+              "terme": "चार (chaar)",
+              "traduction_ou_definition": "4"
+            },
+            {
+              "terme": "पाँच (paanch)",
+              "traduction_ou_definition": "5"
+            },
+            {
+              "terme": "दस (das)",
+              "traduction_ou_definition": "10"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ek.",
+              "traduction": "Un."
+            },
+            {
+              "phrase": "das.",
+              "traduction": "Dix."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on '5' en hindi ?",
+              "type": "QCM",
+              "options": [
+                "पाँच (paanch)",
+                "चार (chaar)",
+                "छह (chhah)",
+                "दस (das)"
+              ],
+              "reponse_correcte": "पाँच (paanch)"
+            },
+            {
+              "question": "'Dix' se dit en hindi : _____ (das).",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "दस"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Combien ? : कितना",
+          "contenu_detaille": "Le hindi donne 'कितना?' (Kitna?, combien ?, au masculin singulier — ce mot s'accorde aussi en genre et en nombre comme un adjectif), utile pour demander une quantité au marché ou ailleurs.",
+          "vocabulaire_cles": [
+            {
+              "terme": "कितना ? (Kitna ?)",
+              "traduction_ou_definition": "combien ? (masculin singulier)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Kitna?",
+              "traduction": "Combien ?"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Combien ?' se dit en hindi (au masculin singulier) : _____ (Kitna).",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "कितना"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les nombres de 1 à 10 (ek à das) et le mot interrogatif de quantité (Kitna), issus de recherches web."
+}`;export{n as default};

@@ -1,0 +1,112 @@
+const e=`{
+  "titre_cours": "Leçon 3 : L'alphabet et les sons spécifiques de la langue.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir du « Précis de grammaire et de lexique du peul du Fouta Djallon » d'Abdourahmane Diallo (ILCAA, Tokyo University of Foreign Studies, 2015), qui documente le pular (variante du peul/fulfulde) parlé en Guinée. L'orthographe d'origine (ɓ, ɗ, ƴ, ɲ, ŋ, apostrophe glottale) est conservée telle quelle. Cette leçon reprend intégralement la Leçon 1 du manuel, « Inventaire de phonèmes ».",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les sons du pular",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les consonnes implosives et spécifiques",
+          "contenu_detaille": "Le manuel indique que le pular compte 27 consonnes. Trois d'entre elles sont des consonnes implosives, propres à la langue : 'ɓ' (bilabiale, sonore et glottale, comme dans ɓaa « puisque »), 'ɗ' (dentale, sonore et glottale, comme dans ɗoo « ici »), et 'ƴ' (palatale, sonore et glottale, comme dans ƴamal « fiançailles »). La consonne 'c' est occlusive, palatale et non voisée ; elle se prononce comme le début du mot allemand 'Tschernobyl' (exemple : caangol, « fleuve »).",
+          "vocabulaire_cles": [
+            {
+              "terme": "ɓ",
+              "traduction_ou_definition": "implosive bilabiale (ex. ɓaa, puisque)"
+            },
+            {
+              "terme": "ɗ",
+              "traduction_ou_definition": "implosive dentale (ex. ɗoo, ici)"
+            },
+            {
+              "terme": "ƴ",
+              "traduction_ou_definition": "implosive palatale (ex. ƴamal, fiançailles)"
+            },
+            {
+              "terme": "c",
+              "traduction_ou_definition": "occlusive palatale non voisée, comme le 'tsch' allemand (ex. caangol, fleuve)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ɗoo",
+              "traduction": "ici"
+            },
+            {
+              "phrase": "caangol",
+              "traduction": "fleuve, rivière"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Combien de consonnes implosives le pular possède-t-il d'après le manuel ?",
+              "type": "QCM",
+              "options": [
+                "Trois (ɓ, ɗ, ƴ)",
+                "Deux",
+                "Quatre",
+                "Aucune"
+              ],
+              "reponse_correcte": "Trois (ɓ, ɗ, ƴ)"
+            },
+            {
+              "question": "La consonne implosive dentale, illustrée par 'ɗoo' (ici), s'écrit : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "ɗ"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Les nasales et les voyelles",
+          "contenu_detaille": "Le manuel décrit deux nasales spécifiques : 'ɲ' nasale palatale, prononcée comme le 'gn' français dans 'agneau' ou 'pagne' (exemple : ɲaw, maladie) ; et 'ŋ' nasale vélaire, réalisée comme le 'ng' anglais dans 'parking' (exemple : ɲari, beauté). Le pular possède 5 voyelles : /a/, /e/, /i/, /o/, /u/. La longueur vocalique y est distinctive, c'est-à-dire qu'elle change le sens du mot, comme le montre par exemple la paire /i/ court et long.",
+          "vocabulaire_cles": [
+            {
+              "terme": "ɲ",
+              "traduction_ou_definition": "nasale palatale, comme le gn français (ex. ɲaw, maladie)"
+            },
+            {
+              "terme": "ŋ",
+              "traduction_ou_definition": "nasale vélaire, comme le ng anglais de parking"
+            },
+            {
+              "terme": "a, e, i, o, u",
+              "traduction_ou_definition": "les cinq voyelles du pular"
+            },
+            {
+              "terme": "longueur vocalique",
+              "traduction_ou_definition": "distinctive en pular : elle change le sens du mot"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ɲaw",
+              "traduction": "maladie"
+            },
+            {
+              "phrase": "caangol",
+              "traduction": "fleuve, rivière"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment se prononce la nasale 'ɲ' d'après le manuel ?",
+              "type": "QCM",
+              "options": [
+                "Comme le gn français dans agneau",
+                "Comme le ng anglais dans parking",
+                "Comme un n simple",
+                "Elle ne se prononce pas"
+              ],
+              "reponse_correcte": "Comme le gn français dans agneau"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté l'inventaire des phonèmes du pular tel que décrit dans la Leçon 1 du manuel de 2015 : les consonnes implosives spécifiques (ɓ, ɗ, ƴ), la consonne 'c', les nasales ɲ et ŋ, et les cinq voyelles à longueur distinctive."
+}`;export{e as default};

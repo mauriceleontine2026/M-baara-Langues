@@ -1,0 +1,73 @@
+const e=`{
+  "titre_cours": "Leçon 8 : Le lexique technique, professionnel et spécialisé.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Omniglot, Wikivoyage, Ezinaụlọ, Wikipédia, Latinum Institute, et articles universitaires sur la grammaire igbo), l'igbo étant une langue majeure parlée par environ 30 à 35 millions de personnes dans le sud-est du Nigeria, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le lexique du calendrier traditionnel",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Iguaro : le nouvel an igbo",
+          "contenu_detaille": "Le calendrier traditionnel igbo, déjà étudié en Leçon 6 du niveau débutant, comporte un vocabulaire technique précis : 'Iguaro' désigne la proclamation officielle du nouvel an igbo par l'Eze Nri, un événement qui marque traditionnellement le début de la saison des semailles, vers la mi-février du calendrier grégorien.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Iguaro",
+              "traduction_ou_definition": "proclamation officielle du nouvel an igbo, marquant le début de la saison des semailles"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque technique)",
+              "traduction": "L'Iguaro, proclamé par l'Eze Nri, marque le début du nouvel an igbo et de la saison des semailles."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que désigne le terme technique 'Iguaro' dans le calendrier igbo ?",
+              "type": "QCM",
+              "options": [
+                "La proclamation officielle du nouvel an, marquant les semailles",
+                "Un jour de marché ordinaire",
+                "Un type de récolte",
+                "Un rituel funéraire"
+              ],
+              "reponse_correcte": "La proclamation officielle du nouvel an, marquant les semailles"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Ikpo Eze Nri : le trône",
+          "contenu_detaille": "Le vocabulaire technique de la royauté traditionnelle igbo inclut 'Ikpo Eze Nri' (le trône du roi de Nri), depuis lequel l'Iguaro est proclamé chaque année, ainsi que le titre 'Nze na Ozo', un système de titres honorifiques traditionnels décernés par l'Eze Nri à des personnalités méritantes.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Ikpo Eze Nri",
+              "traduction_ou_definition": "le trône du roi de Nri"
+            },
+            {
+              "terme": "Nze na Ozo",
+              "traduction_ou_definition": "système de titres honorifiques traditionnels"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ikpo Eze Nri.",
+              "traduction": "Le trône du roi de Nri."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le système de titres honorifiques traditionnels décernés par l'Eze Nri se nomme : Nze na _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Ozo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire technique du calendrier et de la royauté traditionnelle igbo (Iguaro, Ikpo Eze Nri, Nze na Ozo), issu de recherches web."
+}`;export{e as default};

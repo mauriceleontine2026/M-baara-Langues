@@ -1,0 +1,81 @@
+const e=`{
+  "titre_cours": "Leçon 3 : Exprimer ses goûts, ses préférences et ses sentiments.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir du « Lexique bisa-français, suivi d'un index français-bisa » de Bettie Vanhoudt (Mandenkan n°34, 1999), documentant le dialecte lebir du bisa (Zabré, Burkina Faso). MISE À JOUR : cette leçon avait été signalée comme trop pauvre. Elle a été enrichie par une recherche web complémentaire, notamment un article culturel citant des phrases usuelles en bisa. Attention : plusieurs sources web classent le bissa comme langue gur plutôt que mandé, contrairement au lexique de Vanhoudt (source universitaire) et à Wikipédia, qui le classent tous deux comme langue mandée ; certaines formes web pourraient aussi refléter un dialecte différent (barka plutôt que lebir). Deux mots de cette source web (bɔ̀tím/Bouéti'm « demain » et bùsúː/bousso « argent») recoupent heureusement exactement le lexique de Vanhoudt, ce qui renforce la confiance dans les autres formes citées.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Sentiments et états",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "dàbɔ: : la peur",
+          "contenu_detaille": "Le lexique donne 'dàbɔ:' pour « peur, avoir peur », avec l'exemple 'dàbɔ: n tá mɔ: m' (j'ai peur, litt. la peur est sur moi).",
+          "vocabulaire_cles": [
+            {
+              "terme": "dàbɔ:",
+              "traduction_ou_definition": "peur, avoir peur"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "dàbɔ: n tá mɔ: m.",
+              "traduction": "J'ai peur."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'peur, avoir peur' en bisa d'après le lexique ?",
+              "type": "QCM",
+              "options": [
+                "dàbɔ:",
+                "Môn cô",
+                "Môn yè",
+                "dà má"
+              ],
+              "reponse_correcte": "dàbɔ:"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Aller bien, être fatigué, être d'accord",
+          "contenu_detaille": "Une recherche complémentaire donne trois expressions utiles pour exprimer un état ou une opinion : 'Môn lâfi' (je vais bien), 'Môn cô' (je suis fatigué), et 'Môn yè' (je suis d'accord). Ces trois expressions partagent le pronom 'Môn' (je), qui correspond exactement au pronom personnel 'mɔ̌' déjà documenté dans l'introduction grammaticale du lexique de Vanhoudt — une belle confirmation croisée entre les deux sources.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Môn lâfi",
+              "traduction_ou_definition": "je vais bien"
+            },
+            {
+              "terme": "Môn cô",
+              "traduction_ou_definition": "je suis fatigué"
+            },
+            {
+              "terme": "Môn yè",
+              "traduction_ou_definition": "je suis d'accord"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Môn lâfi.",
+              "traduction": "Je vais bien."
+            },
+            {
+              "phrase": "Môn cô.",
+              "traduction": "Je suis fatigué."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le pronom 'Môn' (je), trouvé dans ces expressions de sentiment, correspond au pronom du lexique académique transcrit : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "mɔ̌"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le mot pour la peur (dàbɔ:, issu du lexique) et trois expressions de sentiment/opinion (Môn lâfi, Môn cô, Môn yè, issues d'une recherche web complémentaire), dont le pronom 'Môn' confirme exactement le pronom 'mɔ̌' du lexique académique."
+}`;export{e as default};

@@ -1,0 +1,107 @@
+const e=`{
+  "titre_cours": "Leçon 4 : Les proverbes, dictons et expressions imagées de la culture.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Français-Wolof et Wolof-Français », compilant les dictionnaires de Dard, du baron Roger et de l'abbé Lambert, revu et considérablement augmenté par les missionnaires de la Congrégation du Saint-Esprit et du Saint-Cœur de Marie (édition ancienne, Dakar/Saint-Louis du Sénégal). Ce document est une liste alphabétique française-wolof (mots et locutions), sans phrases dialoguées suivies ; l'orthographe d'origine (accents, apostrophes) est conservée telle quelle. L'extraction automatique de ce document scanné a pu déformer certains diacritiques (accents, lettres ñ/à propres au wolof) ; les transcriptions ci-dessous sont données sous cette réserve. Ce dictionnaire ne cite pas de proverbes complets ; il fournit seulement le ou les mots désignant le proverbe et un exemple de sagesse pratique. Cette leçon présente honnêtement cette limite plutôt que d'inventer des proverbes absents du texte.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le mot du proverbe",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les mots pour 'proverbe'",
+          "contenu_detaille": "Le dictionnaire donne trois mots pour « proverbe » : 'lëbktub', 'gnalèm', et 'garuwalâ'. Cette pluralité de termes pour une même notion suggère que le proverbe occupe une place culturelle importante en wolof, justifiant plusieurs désignations selon le contexte ou la source du dictionnaire (Dard, Roger, Lambert).",
+          "vocabulaire_cles": [
+            {
+              "terme": "lëbktub",
+              "traduction_ou_definition": "proverbe"
+            },
+            {
+              "terme": "gnalèm",
+              "traduction_ou_definition": "proverbe"
+            },
+            {
+              "terme": "garuwalâ",
+              "traduction_ou_definition": "proverbe"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "gnalèm.",
+              "traduction": "Proverbe."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Combien de mots le dictionnaire donne-t-il pour « proverbe » ?",
+              "type": "QCM",
+              "options": [
+                "Trois",
+                "Un seul",
+                "Aucun",
+                "Cinq"
+              ],
+              "reponse_correcte": "Trois"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Un exemple de sagesse pratique",
+          "contenu_detaille": "Le dictionnaire illustre, à propos du mot « chemin » (yon/ngér), un exemple qui a la forme d'un dicton pratique : « il vaut mieux aller vite que de se fâcher contre son chemin » ('mèré manding, ivâhu nâ bâfp...'), une phrase qui, sans être explicitement qualifiée de proverbe par le dictionnaire, illustre bien le type de sagesse imagée que ce dernier documente.",
+          "vocabulaire_cles": [
+            {
+              "terme": "mèré manding",
+              "traduction_ou_definition": "il vaut mieux (dans l'exemple cité)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Il vaut mieux aller vite que de se fâcher contre son chemin.",
+              "traduction": "Exemple illustratif cité par le dictionnaire à l'entrée 'Chemin'."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le dictionnaire donne, sans les traduire toutes en une phrase complète, plusieurs mots pour désigner le _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "proverbe"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Un second exemple, sur le fer",
+          "contenu_detaille": "Le dictionnaire donne un autre exemple imagé à l'entrée 'Fer' : « si tu essaies de ronger le fer, c'est que tu n'as pas d'épis » ('si tu essaies à ronger le fer, c'est que tu n'as pas d'épis'), une image qui souligne, par contraste, l'absurdité de s'attaquer à une tâche impossible plutôt que de s'occuper de ce qui est à sa portée (les épis, la nourriture disponible).",
+          "vocabulaire_cles": [
+            {
+              "terme": "vègn",
+              "traduction_ou_definition": "fer (mot dont dérive l'exemple imagé cité)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Situessaiesàrongerlefer,c'estquetun'aspasd'épis.",
+              "traduction": "Si tu essaies de ronger le fer, c'est que tu n'as pas d'épis. (exemple imagé cité par le dictionnaire à l'entrée 'Fer')"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "À quelle entrée du dictionnaire trouve-t-on l'image du fer que l'on ronge faute d'épis ?",
+              "type": "QCM",
+              "options": [
+                "Fer",
+                "Chemin",
+                "Proverbe",
+                "Sagesse"
+              ],
+              "reponse_correcte": "Fer"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les trois mots que le dictionnaire donne pour « proverbe » (lëbktub, gnalèm, garuwalâ), ainsi que deux exemples de sagesse imagée tirés des entrées 'Chemin' et 'Fer', en l'absence de proverbes complets et classés comme tels dans ce document."
+}`;export{e as default};

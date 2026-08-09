@@ -1,0 +1,63 @@
+const e=`{
+  "titre_cours": "Leçon 3 : Les connecteurs logiques pour structurer un discours élaboré.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (fiche « LE HINDI » du projet LGMEF/CNRS-INALCO, Preply, Talkpal, OpenL, notes de cours de hindi de l'INRIA, et recueils de proverbes hindi), le hindi étant une langue majeure parlée par plus de 600 millions de personnes en Inde et dans sa diaspora, largement documentée en ligne. Cette leçon reprend le système des postpositions hindi, véritable équivalent fonctionnel des connecteurs et prépositions françaises.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le système des postpositions",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Cinq postpositions centrales",
+          "contenu_detaille": "Une recherche complémentaire (Wikipédia, sur la déclinaison hindoustanie) synthétise les principales postpositions casuelles du hindi : 'ने' (ne, ergatif), 'को' (ko, accusatif/datif), 'से' (se, instrumental/ablatif — « avec », « depuis »), 'का/की/के' (kā/kī/ke, génitif — déjà vu en Leçon 4 du niveau débutant), et 'में' (mẽ, locatif — déjà vu en Leçon 7 du niveau débutant).",
+          "vocabulaire_cles": [
+            {
+              "terme": "से (se)",
+              "traduction_ou_definition": "instrumental/ablatif : avec, depuis, de"
+            },
+            {
+              "terme": "ने / को / का / में",
+              "traduction_ou_definition": "respectivement : ergatif, accusatif-datif, génitif, locatif (déjà vus)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "laṛke se.",
+              "traduction": "Avec le garçon / depuis le garçon."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que signifie la postposition 'से' (se) en hindi ?",
+              "type": "QCM",
+              "options": [
+                "Avec / depuis (instrumental-ablatif)",
+                "Dans (locatif)",
+                "De (génitif)",
+                "Sujet ergatif"
+              ],
+              "reponse_correcte": "Avec / depuis (instrumental-ablatif)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Des postpositions, pas des prépositions",
+          "contenu_detaille": "Cette terminologie n'est pas un détail : contrairement au français où « avec », « dans », « de » précèdent le nom (prépositions), le hindi place systématiquement ces mots après le nom concerné (postpositions) — principe déjà noté en Leçon 7 du niveau débutant pour 'mẽ', et qui structure l'ensemble du système de connecteurs grammaticaux du hindi.",
+          "vocabulaire_cles": [],
+          "exemples": [],
+          "exercices": [
+            {
+              "question": "Contrairement au français, le hindi place ses équivalents de prépositions _____ le nom (postpositions).",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "après"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le système des cinq postpositions casuelles centrales du hindi (ne, ko, se, kā/kī/ke, mẽ), véritables connecteurs grammaticaux placés après le nom, contrairement aux prépositions françaises."
+}`;export{e as default};

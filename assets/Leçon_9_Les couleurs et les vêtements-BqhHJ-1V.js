@@ -1,0 +1,103 @@
+const n=`{
+  "titre_cours": "Leçon 9 : Les couleurs et les vêtements.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Targumi, DiscoverYoruba, Africa.uga.edu, Ling-App, Lingalot, Nigerian Finder, Wikipédia, et articles universitaires sur la grammaire et les proverbes yoruba), le yoruba étant une langue majeure parlée par plus de 45 millions de personnes au Nigeria, au Bénin et au Togo, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Couleurs et vêtements",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les couleurs principales",
+          "contenu_detaille": "Le yoruba donne 'Funfun' (blanc), 'Dúdú' (noir), 'Pupa' (rouge), 'Búlúù' (bleu), 'Àwọ̀ ewé' (vert, litt. couleur de feuille), 'Àwọ̀ ọsan' (orange), 'Àwọ̀ wúrà' (doré/jaune, litt. couleur d'or), et 'Àwọ̀ àwọ̀' (gris).",
+          "vocabulaire_cles": [
+            {
+              "terme": "Funfun",
+              "traduction_ou_definition": "blanc"
+            },
+            {
+              "terme": "Dúdú",
+              "traduction_ou_definition": "noir"
+            },
+            {
+              "terme": "Pupa",
+              "traduction_ou_definition": "rouge"
+            },
+            {
+              "terme": "Búlúù",
+              "traduction_ou_definition": "bleu"
+            },
+            {
+              "terme": "Àwọ̀ ewé",
+              "traduction_ou_definition": "vert (litt. couleur de feuille)"
+            },
+            {
+              "terme": "Àwọ̀ wúrà",
+              "traduction_ou_definition": "doré, jaune (litt. couleur d'or)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Funfun.",
+              "traduction": "Blanc."
+            },
+            {
+              "phrase": "Dúdú.",
+              "traduction": "Noir."
+            },
+            {
+              "phrase": "Pupa.",
+              "traduction": "Rouge."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'noir' en yoruba ?",
+              "type": "QCM",
+              "options": [
+                "Dúdú",
+                "Funfun",
+                "Pupa",
+                "Búlúù"
+              ],
+              "reponse_correcte": "Dúdú"
+            },
+            {
+              "question": "'Rouge' se dit en yoruba : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Pupa"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le vêtement",
+          "contenu_detaille": "Le yoruba donne 'Aṣọ' pour « vêtement », mot que l'on retrouve dans un proverbe déjà cité par une recherche complémentaire : « Aso nla ko ni eniyan nla » (un grand vêtement ne fait pas un grand homme), qui rappelle que l'importance d'une personne ne se mesure pas à son apparat extérieur.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Aṣọ",
+              "traduction_ou_definition": "vêtement"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Aso nla ko ni eniyan nla.",
+              "traduction": "Un grand vêtement ne fait pas un grand homme. (Proverbe)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Vêtement' se dit en yoruba : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Aṣọ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les couleurs principales du yoruba (Funfun, Dúdú, Pupa...) et le mot pour vêtement (Aṣọ), avec un proverbe rappelant que l'apparence ne fait pas la valeur d'une personne."
+}`;export{n as default};

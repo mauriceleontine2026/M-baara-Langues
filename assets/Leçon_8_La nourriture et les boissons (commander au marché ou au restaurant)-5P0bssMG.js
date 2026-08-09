@@ -1,0 +1,157 @@
+const n=`{
+  "titre_cours": "Leçon 8 : La nourriture et les boissons (commander au marché ou au restaurant).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir du document fourni. Note importante : ce document est en réalité le « Petit Dictionnaire Français-Bambara et Bambara-Français » de Moussa Travélé (Librairie Paul Geuthner, Paris, début du XXe siècle), consacré au bambara — une langue mandingue très proche du malinké, à laquelle le dictionnaire lui-même fait plusieurs fois référence explicite sous l'abréviation 'M.' (mot malinké). En l'absence d'un dictionnaire malinké dédié, ce cours utilise fidèlement ce contenu bambara/malinké, sans y ajouter aucune information extérieure. Ce dictionnaire est une liste alphabétique de mots (deux sens) et ne contient ni phrases dialoguées ni tableaux de conjugaison ; les leçons ci-dessous s'appuient donc sur le vocabulaire isolé qu'il fournit, complété quand cela existe par les 'Observations préliminaires' sur la prononciation.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Nourriture, boissons et marché",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Aliments et boissons de base",
+          "contenu_detaille": "Le dictionnaire donne 'Dji' pour 'eau', 'Malo' pour 'riz', 'Sogo' pour 'viande', 'N'Bourou' pour 'pain', et 'Diégué' pour 'poisson'. 'Manger' se dit 'Doumouni' (ou 'dounni', 'doun'), et 'boire' se dit 'Mi'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Dji",
+              "traduction_ou_definition": "eau"
+            },
+            {
+              "terme": "Malo",
+              "traduction_ou_definition": "riz"
+            },
+            {
+              "terme": "Sogo",
+              "traduction_ou_definition": "viande"
+            },
+            {
+              "terme": "N'Bourou",
+              "traduction_ou_definition": "pain"
+            },
+            {
+              "terme": "Diégué",
+              "traduction_ou_definition": "poisson"
+            },
+            {
+              "terme": "Doumouni / doun",
+              "traduction_ou_definition": "manger"
+            },
+            {
+              "terme": "Mi",
+              "traduction_ou_definition": "boire"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Dji.",
+              "traduction": "Eau."
+            },
+            {
+              "phrase": "Malo.",
+              "traduction": "Riz."
+            },
+            {
+              "phrase": "Sogo.",
+              "traduction": "Viande."
+            },
+            {
+              "phrase": "N'Bourou.",
+              "traduction": "Pain."
+            },
+            {
+              "phrase": "Diégué.",
+              "traduction": "Poisson."
+            },
+            {
+              "phrase": "Doumouni.",
+              "traduction": "Manger."
+            },
+            {
+              "phrase": "Mi.",
+              "traduction": "Boire."
+            },
+            {
+                "phrase": "N b'a fè ka kini dun.",
+                "traduction": "Je veux manger du riz."
+              },
+              {
+                "phrase": "Dji di n ma.",
+                "traduction": "Donne-moi de l'eau."
+              }
+          ],
+          "exercices": [
+            {
+              "question": "Quel mot signifie 'eau' ?",
+              "type": "QCM",
+              "options": ["Dji", "Malo", "Sogo", "N'Bourou"],
+              "reponse_correcte": "Dji"
+            },
+            {
+              "question": "Comment dit-on 'riz' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "Malo",
+                "Dji",
+                "Sogo",
+                "Diégué"
+              ],
+              "reponse_correcte": "Malo"
+            },
+            {
+              "question": "'Boire' se dit en bambara/malinké : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Mi"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le marché et le prix",
+          "contenu_detaille": "Le dictionnaire donne 'Sa' (ou 'saga', 'songou', 'dogo', 'sougoufié') pour 'marché', 'San' pour 'acheter', 'Fiéré' pour 'vendre', et 'Son' (ou 'songo') pour 'prix'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Sa / sougoufié",
+              "traduction_ou_definition": "marché"
+            },
+            {
+              "terme": "San",
+              "traduction_ou_definition": "acheter"
+            },
+            {
+              "terme": "Fiéré",
+              "traduction_ou_definition": "vendre"
+            },
+            {
+              "terme": "Son / songo",
+              "traduction_ou_definition": "prix"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "San.",
+              "traduction": "Acheter."
+            },
+            {
+              "phrase": "Fiéré.",
+              "traduction": "Vendre."
+            },
+            {
+              "phrase": "Son.",
+              "traduction": "Prix."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Acheter' se dit en bambara/malinké : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "San"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire de la nourriture (Dji, Malo, Sogo) et du marché (Sa, San, Fiéré, Son), issu des entrées du dictionnaire."
+}`;export{n as default};

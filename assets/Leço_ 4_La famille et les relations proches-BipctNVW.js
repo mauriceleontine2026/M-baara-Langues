@@ -1,0 +1,153 @@
+const n=`{
+  "titre_cours": "Leçon 4 : La famille et les relations proches.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir du document fourni. Note importante : ce document est en réalité le « Petit Dictionnaire Français-Bambara et Bambara-Français » de Moussa Travélé (Librairie Paul Geuthner, Paris, début du XXe siècle), consacré au bambara — une langue mandingue très proche du malinké, à laquelle le dictionnaire lui-même fait plusieurs fois référence explicite sous l'abréviation 'M.' (mot malinké). En l'absence d'un dictionnaire malinké dédié, ce cours utilise fidèlement ce contenu bambara/malinké, sans y ajouter aucune information extérieure. Ce dictionnaire est une liste alphabétique de mots (deux sens) et ne contient ni phrases dialoguées ni tableaux de conjugaison ; les leçons ci-dessous s'appuient donc sur le vocabulaire isolé qu'il fournit, complété quand cela existe par les 'Observations préliminaires' sur la prononciation.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "La famille",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les parents et grands-parents",
+          "contenu_detaille": "Le dictionnaire donne 'Fa' pour 'père', 'Ouoloba' (ou 'ba') pour 'mère', 'Mon-ké' pour 'grand-père' et 'Mon-moso' pour 'grand-mère'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Fa",
+              "traduction_ou_definition": "père"
+            },
+            {
+              "terme": "Ouoloba / ba",
+              "traduction_ou_definition": "mère"
+            },
+            {
+              "terme": "Mon-ké",
+              "traduction_ou_definition": "grand-père"
+            },
+            {
+              "terme": "Mon-moso",
+              "traduction_ou_definition": "grand-mère"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Fa.",
+              "traduction": "Père."
+            },
+            {
+              "phrase": "Ouoloba.",
+              "traduction": "Mère."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'mère' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "Ouoloba",
+                "Fa",
+                "Mon-ké",
+                "Koroké"
+              ],
+              "reponse_correcte": "Ouoloba"
+            },
+            {
+              "question": "'Grand-père' se dit : Mon-_____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "ké"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Frères, sœurs, oncles et tantes",
+          "contenu_detaille": "Le dictionnaire distingue le frère plus âgé, 'Koroké' (ou 'korotié'), de la sœur, 'Baléma-moso'. Il donne aussi 'Biaké' (ou 'bénogotié') pour l'oncle paternel, 'Bénké' (ou 'béntié') pour l'oncle maternel, et 'Ténémoso' pour la tante.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Koroké / korotié",
+              "traduction_ou_definition": "frère (plus âgé)"
+            },
+            {
+              "terme": "Baléma-moso",
+              "traduction_ou_definition": "sœur"
+            },
+            {
+              "terme": "Biaké / bénogotié",
+              "traduction_ou_definition": "oncle paternel"
+            },
+            {
+              "terme": "Bénké / béntié",
+              "traduction_ou_definition": "oncle maternel"
+            },
+            {
+              "terme": "Ténémoso",
+              "traduction_ou_definition": "tante"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Koroké.",
+              "traduction": "Frère plus âgé."
+            },
+            {
+              "phrase": "Ténémoso.",
+              "traduction": "Tante."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'sœur' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "Baléma-moso",
+                "Koroké",
+                "Ouoloba",
+                "Ténémoso"
+              ],
+              "reponse_correcte": "Baléma-moso"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Fils et fille",
+          "contenu_detaille": "Le dictionnaire donne 'Den-tié' (ou 'dén-ké') pour 'fils', et 'Sounkourou' pour 'fille'. Il donne aussi 'Mon-dén-moso' pour 'petite-fille'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Den-tié / dén-ké",
+              "traduction_ou_definition": "fils"
+            },
+            {
+              "terme": "Sounkourou",
+              "traduction_ou_definition": "fille"
+            },
+            {
+              "terme": "Mon-dén-moso",
+              "traduction_ou_definition": "petite-fille"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Den-tié.",
+              "traduction": "Fils."
+            },
+            {
+              "phrase": "Sounkourou.",
+              "traduction": "Fille."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Fille' se dit en bambara/malinké : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Sounkourou"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire de la famille proche (Fa, Ouoloba, Koroké, Baléma-moso, Den-tié, Sounkourou), issu des entrées isolées du dictionnaire."
+}`;export{n as default};

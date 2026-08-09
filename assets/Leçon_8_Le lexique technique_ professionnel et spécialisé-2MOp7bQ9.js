@@ -1,0 +1,73 @@
+const e=`{
+  "titre_cours": "Leçon 8 : Le lexique technique, professionnel et spécialisé.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir de « A Grammar of Kisi » (G. Tucker Childs, Mouton Grammar Library 16, Mouton de Gruyter, 1995), une grammaire universitaire du kisi (kissi), langue atlantique méridionale parlée en Guinée, au Liberia et en Sierra Leone. Ce document est entièrement rédigé en anglais et destiné aux linguistes ; il ne s'agit pas d'un manuel d'apprentissage. Les faits, exemples et gloses qu'il contient ont été traduits et reformulés en français pour ce cours, sans ajout d'information extérieure. Avertissement technique : le kisi est une langue à tons, et l'ouvrage transcrit systématiquement les tons et plusieurs voyelles/consonnes spécifiques (ɔ, ɛ, ŋ, voyelles nasales, marques tonales) au moyen de caractères phonétiques spéciaux ; l'extraction automatique du texte de ce PDF universitaire a pu déformer certains de ces caractères. Les formes kisi citées ci-dessous sont donc données sous toute réserve quant à leurs diacritiques exacts, et gagneraient à être vérifiées auprès d'un locuteur ou du PDF original avant tout usage pédagogique. Cette leçon reprend le lexique final de l'ouvrage pour le vocabulaire technique attesté, ainsi que les abréviations grammaticales elles-mêmes utilisées par le linguiste.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Lexique spécialisé",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le métier de forgeron et l'artisanat",
+          "contenu_detaille": "Le lexique donne 'siim' pour « forgeron », un métier traditionnel important dans les sociétés ouest-africaines, souvent associé à des savoirs techniques et symboliques transmis de génération en génération.",
+          "vocabulaire_cles": [
+            {
+              "terme": "siim",
+              "traduction_ou_definition": "forgeron"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "siim.",
+              "traduction": "Forgeron."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'forgeron' d'après le lexique de l'ouvrage ?",
+              "type": "QCM",
+              "options": [
+                "siim",
+                "dömä",
+                "cioo",
+                "kindi"
+              ],
+              "reponse_correcte": "siim"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le métalangage grammatical de l'ouvrage",
+          "contenu_detaille": "L'ouvrage de Childs utilise lui-même un vocabulaire technique linguistique développé, avec des abréviations systématiques : 'Hab' (Habituel), 'Perf' (Perfectif), 'Imp' (Impératif), 'Neg' (Négatif), 'Mid' (Moyen), 'Ben' (Bénéfactif), 'Foc' (Focus), 'Cop' (Copule), 'Rel' (Relatif), 'Idph' (Idéophone). Ce métalangage, bien que français ne soit pas sa langue, illustre le niveau de lexique technique spécialisé nécessaire pour décrire précisément une langue comme le kisi.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Hab / Perf / Neg",
+              "traduction_ou_definition": "abréviations grammaticales de l'ouvrage pour Habituel / Perfectif / Négatif"
+            },
+            {
+              "terme": "Idph",
+              "traduction_ou_definition": "abréviation pour Idéophone, catégorie grammaticale propre à de nombreuses langues ouest-africaines"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Idph.",
+              "traduction": "Idéophone (catégorie de mots expressifs imitant un son, un mouvement ou une qualité)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "L'abréviation 'Idph' utilisée dans l'ouvrage signifie : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Idéophone"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le mot pour le métier de forgeron (siim) et le métalangage grammatical technique employé par l'ouvrage de Childs pour décrire le kisi (Hab, Perf, Neg, Idph, etc.)."
+}`;export{e as default};

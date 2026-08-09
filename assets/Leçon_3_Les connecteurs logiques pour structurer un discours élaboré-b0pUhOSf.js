@@ -1,0 +1,127 @@
+const n=`{
+  "titre_cours": "Leçon 3 : Les connecteurs logiques pour structurer un discours élaboré.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Français-Wolof et Wolof-Français », compilant les dictionnaires de Dard, du baron Roger et de l'abbé Lambert, revu et considérablement augmenté par les missionnaires de la Congrégation du Saint-Esprit et du Saint-Cœur de Marie (édition ancienne, Dakar/Saint-Louis du Sénégal). Ce document est une liste alphabétique française-wolof (mots et locutions), sans phrases dialoguées suivies ; l'orthographe d'origine (accents, apostrophes) est conservée telle quelle. L'extraction automatique de ce document scanné a pu déformer certains diacritiques (accents, lettres ñ/à propres au wolof) ; les transcriptions ci-dessous sont données sous cette réserve.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les connecteurs du wolof",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Mais et parce que",
+          "contenu_detaille": "Le dictionnaire donne 'wandé' (ou 'wandénak', 'ndè') pour « mais », et 'ndégé' (ou 'ndégété', 'ndigi') pour « parce que ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "wandé",
+              "traduction_ou_definition": "mais"
+            },
+            {
+              "terme": "ndégé / ndigi",
+              "traduction_ou_definition": "parce que"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "wandé.",
+              "traduction": "Mais."
+            },
+            {
+              "phrase": "ndégé.",
+              "traduction": "Parce que."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'parce que' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "ndégé",
+                "wandé",
+                "su",
+                "ndah"
+              ],
+              "reponse_correcte": "ndégé"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Afin que, cependant, comme",
+          "contenu_detaille": "Le dictionnaire donne 'ndah' (ou 'bèfbèl') pour « afin que », et 'wandé' (ou 'wandénak') également pour « cependant », le même mot pouvant ainsi couvrir à la fois « mais » et « cependant » selon le contexte. Il donne aussi 'nâkâ' (ou 'nikî', 'mèl') pour « comme », employé aussi bien comme adverbe que comme conjonction.",
+          "vocabulaire_cles": [
+            {
+              "terme": "ndah / bèfbèl",
+              "traduction_ou_definition": "afin que"
+            },
+            {
+              "terme": "wandé / wandénak",
+              "traduction_ou_definition": "cependant"
+            },
+            {
+              "terme": "nâkâ / mèl",
+              "traduction_ou_definition": "comme"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ndah.",
+              "traduction": "Afin que."
+            },
+            {
+              "phrase": "nâkâ.",
+              "traduction": "Comme."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Afin que' se dit en wolof : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "ndah"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Donc et alors",
+          "contenu_detaille": "Le dictionnaire donne 'bok' (ou 'faf') pour « donc », et 'bôbâ' (ou 'bô') pour « alors ». Ces deux connecteurs de conséquence complètent la panoplie des outils logiques du wolof, aux côtés de la conjonction 'ndégé' vue au premier chapitre pour exprimer la cause.",
+          "vocabulaire_cles": [
+            {
+              "terme": "bok / faf",
+              "traduction_ou_definition": "donc"
+            },
+            {
+              "terme": "bôbâ / bô",
+              "traduction_ou_definition": "alors"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "bok.",
+              "traduction": "Donc."
+            },
+            {
+              "phrase": "bôbâ.",
+              "traduction": "Alors."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'donc' d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "bok",
+                "bôbâ",
+                "wandé",
+                "ndégé"
+              ],
+              "reponse_correcte": "bok"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les principaux connecteurs logiques du wolof pour la restriction (wandé), la cause (ndégé), le but (ndah), la comparaison (nâkâ) et la conséquence (bok, bôbâ), issus du dictionnaire."
+}`;export{n as default};

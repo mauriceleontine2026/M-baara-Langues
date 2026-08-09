@@ -1,0 +1,95 @@
+const e=`{
+  "titre_cours": "Leçon 8 : La nourriture et les boissons (commander au marché ou au restaurant).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir de l'article académique de Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea » (Mandenkan n°57, 2017, LLACAN/CNRS), la seule description linguistique existante du kônon (kono), langue mandée du sud-ouest parlée par environ 90 000 personnes dans la préfecture de Lola, en Guinée forestière — à ne pas confondre avec le kono de Sierra Leone, une langue différente. Le kônon est très proche du kpèllé (guerzé) mais suffisamment distinct pour être considéré comme une langue à part. AVERTISSEMENT IMPORTANT : cet article est une esquisse grammaticale scientifique (phonologie, pronoms, système verbal) accompagnée d'une liste Swadesh de 100 mots de vocabulaire fondamental, non un dictionnaire thématique complet. Plusieurs des 27 thèmes de ce cours ne sont donc que partiellement ou pas du tout documentés dans cette unique source disponible ; cela est signalé honnêtement dans les leçons concernées. Cette leçon reprend le vocabulaire alimentaire attesté dans la liste Swadesh et les exemples de l'article.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Nourriture et boissons",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "L'eau, la viande, le riz",
+          "contenu_detaille": "La liste Swadesh donne 'ya' pour « eau » (mot très court, homonyme d'autres mots ailleurs en kônon), 'hùyǒ' pour « viande », et l'article donne 'maàŋ̌' pour « riz » dans un exemple ('maàŋ̌ kɔ̀ɔ̀', grain de riz, litt. os de riz).",
+          "vocabulaire_cles": [
+            {
+              "terme": "ya",
+              "traduction_ou_definition": "eau"
+            },
+            {
+              "terme": "hùyǒ",
+              "traduction_ou_definition": "viande"
+            },
+            {
+              "terme": "maàŋ̌",
+              "traduction_ou_definition": "riz"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ya.",
+              "traduction": "Eau."
+            },
+            {
+              "phrase": "hùyǒ.",
+              "traduction": "Viande."
+            },
+            {
+              "phrase": "maàŋ̌ kɔ̀ɔ̀.",
+              "traduction": "Grain de riz (litt. os de riz)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'eau' en kônon d'après la liste Swadesh ?",
+              "type": "QCM",
+              "options": [
+                "ya",
+                "hùyǒ",
+                "maàŋ̌",
+                "pòù"
+              ],
+              "reponse_correcte": "ya"
+            },
+            {
+              "question": "'Viande' se dit en kônon : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "hùyǒ"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Manger et boire",
+          "contenu_detaille": "L'article donne 'mɛ̌' pour « manger » (dans l'exemple 'Hɛńi ho kɛà ɓá mɛ̌-ni yèrè hɛńɛ́', Hɛni ne mange pas de riz tous les jours) et 'kplè' pour « boire ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "mɛ̌",
+              "traduction_ou_definition": "manger"
+            },
+            {
+              "terme": "kplè",
+              "traduction_ou_definition": "boire"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Hɛńi ho kɛà ɓá mɛ̌-ni yèrè hɛńɛ́.",
+              "traduction": "Hɛni ne mange pas de riz tous les jours."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Manger' se dit en kônon : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "mɛ̌"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire de la nourriture (ya, hùyǒ, maàŋ̌) et les verbes manger/boire (mɛ̌, kplè), issus de la liste Swadesh et des exemples grammaticaux de l'article de Konoshenko."
+}`;export{e as default};

@@ -1,0 +1,64 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Exprimer l'obligation, l'interdiction et la permission.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Targumi, DiscoverYoruba, Africa.uga.edu, Ling-App, Lingalot, Nigerian Finder, Wikipédia, et articles universitaires sur la grammaire et les proverbes yoruba), le yoruba étant une langue majeure parlée par plus de 45 millions de personnes au Nigeria, au Bénin et au Togo, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "L'obligation morale par le proverbe",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "gbọ́dọ̀ : devoir, falloir",
+          "contenu_detaille": "Une recherche complémentaire, citant le proverbe déjà croisé sur l'entraide divine, donne 'gbọ́dọ̀' pour « devoir, falloir » : « Bí a bá fẹ́ kí Ọlọ́run ràn wá lọ́wọ́, a gbọ́dọ̀ ràn ara wa lọ́wọ́ » (si nous voulons que Dieu nous aide, nous devons nous aider nous-mêmes).",
+          "vocabulaire_cles": [
+            {
+              "terme": "gbọ́dọ̀",
+              "traduction_ou_definition": "devoir, falloir"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Bí a bá fẹ́ kí Ọlọ́run ràn wá lọ́wọ́, a gbọ́dọ̀ ràn ara wa lọ́wọ́.",
+              "traduction": "Si nous voulons que Dieu nous aide, nous devons nous aider nous-mêmes. (Proverbe)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'devoir, falloir' en yoruba d'après ce proverbe ?",
+              "type": "QCM",
+              "options": [
+                "gbọ́dọ̀",
+                "jẹ́",
+                "wà",
+                "ń"
+              ],
+              "reponse_correcte": "gbọ́dọ̀"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Un proverbe sur la responsabilité individuelle",
+          "contenu_detaille": "Ce proverbe illustre une valeur morale centrale du yoruba : bien que la foi et l'aide divine soient reconnues, chacun doit prendre l'initiative et la responsabilité personnelle de s'aider soi-même — un principe d'obligation morale plutôt qu'une simple règle grammaticale.",
+          "vocabulaire_cles": [],
+          "exemples": [
+            {
+              "phrase": "(remarque culturelle)",
+              "traduction": "Le proverbe sur l'entraide divine illustre le principe yoruba de responsabilité personnelle."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le proverbe sur Dieu et l'entraide enseigne le principe de _____ personnelle.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "responsabilité"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le mot pour devoir/falloir (gbọ́dọ̀), à travers un proverbe célèbre sur l'entraide et la responsabilité personnelle, issu de recherches web."
+}`;export{e as default};

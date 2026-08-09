@@ -1,0 +1,73 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Comprendre et analyser des textes littéraires ou historiques.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir du document fourni. Note importante : ce document est en réalité le « Petit Dictionnaire Français-Bambara et Bambara-Français » de Moussa Travélé (Librairie Paul Geuthner, Paris, début du XXe siècle), consacré au bambara — une langue mandingue très proche du malinké, à laquelle le dictionnaire lui-même fait plusieurs fois référence explicite sous l'abréviation 'M.' (mot malinké). En l'absence d'un dictionnaire malinké dédié, ce cours utilise fidèlement ce contenu bambara/malinké, sans y ajouter aucune information extérieure. Ce dictionnaire est une liste alphabétique de mots (deux sens) et ne contient ni phrases dialoguées ni tableaux de conjugaison ; les leçons ci-dessous s'appuient donc sur le vocabulaire isolé qu'il fournit, complété quand cela existe par les 'Observations préliminaires' sur la prononciation. Le corpus bambara/malinké du dictionnaire ne contient aucun texte suivi ; cette leçon travaille donc, en toute fidélité, sur la préface historique en français du dictionnaire, qui documente le contexte de composition de l'ouvrage.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le contexte historique du dictionnaire",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Moussa Travélé, premier lexicographe indigène",
+          "contenu_detaille": "La préface du dictionnaire, signée par un linguiste qui présente l'ouvrage, souligne que Moussa Travélé est le premier auteur indigène à avoir rédigé une étude et un dictionnaire de sa propre langue, et le premier à avoir donné un dictionnaire d'un format commode quoique copieux de cette langue.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Moussa Travélé",
+              "traduction_ou_definition": "auteur du dictionnaire, interprète titulaire de la colonie du Haut-Sénégal-Niger"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Moussa Travélé est le premier indigène qui ait rédigé une étude et un dictionnaire de sa propre langue.",
+              "traduction": "(citée par la préface du dictionnaire)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que souligne la préface à propos de Moussa Travélé ?",
+              "type": "QCM",
+              "options": [
+                "Il est le premier auteur indigène à avoir rédigé un dictionnaire de sa propre langue",
+                "Il est un linguiste français",
+                "Il a traduit la Bible en bambara",
+                "Il a inventé l'alphabet arabe"
+              ],
+              "reponse_correcte": "Il est le premier auteur indigène à avoir rédigé un dictionnaire de sa propre langue"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le matériel phonétique du bambara selon la préface",
+          "contenu_detaille": "La préface résume le matériel phonétique du bambara tel que décrit par Moussa Travélé : huit voyelles pures, cinq voyelles nasales, dix-huit consonnes simples (dont la plupart peuvent se nasaliser) et trois consonnes mouillées.",
+          "vocabulaire_cles": [
+            {
+              "terme": "huit voyelles pures, cinq voyelles nasales",
+              "traduction_ou_definition": "description du système vocalique du bambara selon la préface"
+            },
+            {
+              "terme": "dix-huit consonnes simples, trois consonnes mouillées",
+              "traduction_ou_definition": "description du système consonantique selon la préface"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Le matériel phonétique du bambara comporte huit voyelles pures, cinq voyelles nasales, dix-huit consonnes simples et trois consonnes mouillées.",
+              "traduction": "(résumé de la préface du dictionnaire)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "D'après la préface, le bambara comporte huit voyelles pures et _____ voyelles nasales.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "cinq"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a proposé une lecture du texte historique liminaire du dictionnaire (préface), qui situe l'œuvre de Moussa Travélé comme la première étude linguistique rédigée par un locuteur natif du bambara, et résume le système phonétique de la langue."
+}`;export{e as default};

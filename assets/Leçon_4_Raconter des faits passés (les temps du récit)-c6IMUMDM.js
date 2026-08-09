@@ -1,0 +1,69 @@
+const e=`{
+  "titre_cours": "Leçon 4 : Raconter des faits passés (les temps du récit).",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Preply, Talkpal, Swahilitales, Swahili Language School, Evolang, Wikipédia, kiswahili.ku.edu, et recueils de proverbes swahili), le swahili (kiswahili) étant une langue majeure parlée par plus de 200 millions de personnes en Afrique de l'Est, langue officielle en Tanzanie, au Kenya, en Ouganda et en RDC. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le passé en swahili",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le marqueur -li- du passé",
+          "contenu_detaille": "Une recherche complémentaire (exemples de conjugaison) montre que le swahili marque le passé par l'infixe '-li-', inséré entre le préfixe sujet et le radical du verbe. On retrouve ce principe dans la structure générale du verbe swahili : préfixe sujet + marqueur de temps + radical + voyelle finale.",
+          "vocabulaire_cles": [
+            {
+              "terme": "-li- (infixe)",
+              "traduction_ou_definition": "marqueur du passé, inséré entre le préfixe sujet et le radical verbal"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(structure verbale)",
+              "traduction": "préfixe sujet + -li- (passé) + radical + voyelle finale"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel infixe marque le passé dans la structure du verbe swahili ?",
+              "type": "QCM",
+              "options": [
+                "-li-",
+                "-na-",
+                "-ta-",
+                "-me-"
+              ],
+              "reponse_correcte": "-li-"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "kimeanguka : un exemple d'accompli déjà rencontré",
+          "contenu_detaille": "Comme vu en Leçon 1 du niveau intermédiaire, l'exemple 'Kitabu kimeanguka' (le livre est tombé) illustre le marqueur '-me-' (accompli, dont le résultat persiste), distinct du simple passé en '-li-' : 'kimeanguka' insiste sur l'état actuel résultant de la chute, tandis qu'un passé en '-li-' insisterait sur le simple fait passé, sans lien avec le présent.",
+          "vocabulaire_cles": [
+            {
+              "terme": "-me- (accompli)",
+              "traduction_ou_definition": "distinct de -li- (passé simple), insiste sur un résultat qui persiste au présent"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Kitabu kimeanguka.",
+              "traduction": "Le livre est tombé (et reste tombé, accompli)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le marqueur qui insiste sur un résultat persistant au présent, distinct du simple passé -li-, est : -_____ - .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "me"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le marqueur du passé simple '-li-' et sa distinction avec le marqueur de l'accompli '-me-' (déjà rencontré dans l'exemple du livre tombé), issus de recherches web sur la grammaire swahili."
+}`;export{e as default};

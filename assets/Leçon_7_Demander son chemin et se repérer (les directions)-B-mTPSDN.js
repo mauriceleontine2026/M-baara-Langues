@@ -1,0 +1,81 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Demander son chemin et se repérer (les directions).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Omniglot, Wikivoyage, Ezinaụlọ, Wikipédia, Latinum Institute, et articles universitaires sur la grammaire igbo), l'igbo étant une langue majeure parlée par environ 30 à 35 millions de personnes dans le sud-est du Nigeria, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Se repérer",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Aller tout droit et tourner",
+          "contenu_detaille": "L'igbo donne 'Ga n'ihu' pour « va tout droit », et 'Kpọọ aka ekpe' pour « tourne à gauche » (litt. tourne main gauche), construction sur le modèle de « main » déjà rencontré dans d'autres langues de ce projet pour exprimer la latéralité.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Ga n'ihu",
+              "traduction_ou_definition": "va tout droit"
+            },
+            {
+              "terme": "Kpọọ aka ekpe",
+              "traduction_ou_definition": "tourne à gauche (litt. tourne main gauche)"
+            },
+            {
+              "terme": "aka ekpe",
+              "traduction_ou_definition": "main gauche"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ga n'ihu.",
+              "traduction": "Va tout droit."
+            },
+            {
+              "phrase": "Kpọọ aka ekpe.",
+              "traduction": "Tourne à gauche."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'va tout droit' en igbo ?",
+              "type": "QCM",
+              "options": [
+                "Ga n'ihu",
+                "Kpọọ aka ekpe",
+                "Ndeewo",
+                "Biko"
+              ],
+              "reponse_correcte": "Ga n'ihu"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "La main droite",
+          "contenu_detaille": "Par symétrie avec 'aka ekpe' (main gauche), l'igbo utilise 'aka nri' pour « main droite », complétant la paire de latéralité utile pour indiquer une direction précise.",
+          "vocabulaire_cles": [
+            {
+              "terme": "aka nri",
+              "traduction_ou_definition": "main droite"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "aka nri.",
+              "traduction": "Main droite."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Main droite' se dit en igbo : aka _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "nri"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les expressions pour indiquer une direction en igbo (Ga n'ihu, Kpọọ aka ekpe) et la paire de latéralité aka nri/aka ekpe (main droite/gauche), issues de recherches web."
+}`;export{e as default};

@@ -1,0 +1,85 @@
+const e=`{
+  "titre_cours": "Leçon 2 : Se présenter (nom, âge, origine, profession).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Targumi, DiscoverYoruba, Africa.uga.edu, Ling-App, Lingalot, Nigerian Finder, Wikipédia, et articles universitaires sur la grammaire et les proverbes yoruba), le yoruba étant une langue majeure parlée par plus de 45 millions de personnes au Nigeria, au Bénin et au Togo, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Se présenter",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Comment vas-tu ?",
+          "contenu_detaille": "Le yoruba donne 'Báwo ni?' pour « salut, comment ça va ? » (informel, entre amis), avec la réponse 'Mo wà dáadáa' (« je suis en bonne santé », je vais bien) et 'Ìwọ náà ń ṣe?' pour renvoyer la question (« et toi ? »).",
+          "vocabulaire_cles": [
+            {
+              "terme": "Báwo ni ?",
+              "traduction_ou_definition": "salut, comment ça va ? (informel)"
+            },
+            {
+              "terme": "Mo wà dáadáa",
+              "traduction_ou_definition": "je vais bien (litt. je suis en bonne santé)"
+            },
+            {
+              "terme": "Ìwọ náà ń ṣe ?",
+              "traduction_ou_definition": "et toi ?"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Báwo ni? — Mo wà dáadáa.",
+              "traduction": "Comment ça va ? — Je vais bien."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment répond-on 'je vais bien' en yoruba ?",
+              "type": "QCM",
+              "options": [
+                "Mo wà dáadáa",
+                "Báwo ni",
+                "Ẹ jọ̀ọ́",
+                "Pẹ̀lẹ́"
+              ],
+              "reponse_correcte": "Mo wà dáadáa"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Les deux verbes 'être' : identité et existence",
+          "contenu_detaille": "Le yoruba distingue deux verbes « être » selon le sens exact : 'jẹ́' pour l'identité ou la qualité (« Mo jẹ́ olùkọ́ », je suis enseignant), et 'wà' pour le lieu ou l'existence (« Mo wà ní ilé-ìwé », je suis à l'école). Confondre les deux est une erreur fréquente chez les apprenants, car le français utilise un seul verbe « être » pour ces deux sens.",
+          "vocabulaire_cles": [
+            {
+              "terme": "jẹ́",
+              "traduction_ou_definition": "être (identité, qualité)"
+            },
+            {
+              "terme": "wà",
+              "traduction_ou_definition": "être (lieu, existence)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Mo jẹ́ olùkọ́.",
+              "traduction": "Je suis enseignant (identité)."
+            },
+            {
+              "phrase": "Mo wà ní ilé-ìwé.",
+              "traduction": "Je suis à l'école (lieu)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le verbe 'être' employé pour l'identité ou la qualité (pas le lieu) est : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "jẹ́"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté la formule pour demander/dire comment on va (Báwo ni?, Mo wà dáadáa) et la distinction essentielle entre les deux verbes « être » du yoruba (jẹ́ pour l'identité, wà pour le lieu), issues de recherches web."
+}`;export{e as default};

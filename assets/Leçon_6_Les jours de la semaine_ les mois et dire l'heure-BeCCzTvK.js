@@ -1,0 +1,73 @@
+const e=`{
+  "titre_cours": "Leçon 6 : Les jours de la semaine, les mois et dire l'heure.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir de « A Grammar of Kisi » (G. Tucker Childs, Mouton Grammar Library 16, Mouton de Gruyter, 1995), une grammaire universitaire du kisi (kissi), langue atlantique méridionale parlée en Guinée, au Liberia et en Sierra Leone. Ce document est entièrement rédigé en anglais et destiné aux linguistes ; il ne s'agit pas d'un manuel d'apprentissage. Les faits, exemples et gloses qu'il contient ont été traduits et reformulés en français pour ce cours, sans ajout d'information extérieure. Avertissement technique : le kisi est une langue à tons, et l'ouvrage transcrit systématiquement les tons et plusieurs voyelles/consonnes spécifiques (ɔ, ɛ, ŋ, voyelles nasales, marques tonales) au moyen de caractères phonétiques spéciaux ; l'extraction automatique du texte de ce PDF universitaire a pu déformer certains de ces caractères. Les formes kisi citées ci-dessous sont donc données sous toute réserve quant à leurs diacritiques exacts, et gagneraient à être vérifiées auprès d'un locuteur ou du PDF original avant tout usage pédagogique. Cette leçon reprend la section 6.1 de l'ouvrage sur les noms de jours, fondés sur les marchés hebdomadaires.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le temps qui passe",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Des jours nommés d'après les marchés",
+          "contenu_detaille": "L'ouvrage explique que, contrairement aux noms de mois (qui ont des étymologies imagées), les noms des jours de la semaine reposent sur les noms des marchés hebdomadaires locaux. Il donne en exemple 'ndqgowää', une ville de Guinée dont le marché se tient le mardi, 'koolumää', une ville du Liberia dont le marché se tient le jeudi, et 'ndäämää', une ville du Liberia dont le marché se tient le samedi — le nom du jour de marché servant ainsi de repère temporel.",
+          "vocabulaire_cles": [
+            {
+              "terme": "ndqgowää",
+              "traduction_ou_definition": "ville guinéenne dont le marché hebdomadaire se tient un mardi (illustre le principe de nommage des jours)"
+            },
+            {
+              "terme": "lóó",
+              "traduction_ou_definition": "marché ; aussi : temps, moment"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "lóó.",
+              "traduction": "Marché / temps, moment (le même mot renvoie aux deux notions)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "D'après l'ouvrage, sur quoi reposent les noms des jours de la semaine en kisi ?",
+              "type": "QCM",
+              "options": [
+                "Les noms des marchés hebdomadaires locaux",
+                "Les noms des dieux",
+                "Les couleurs",
+                "Les nombres"
+              ],
+              "reponse_correcte": "Les noms des marchés hebdomadaires locaux"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Hier",
+          "contenu_detaille": "Le lexique final donne 'ciéi' pour « hier ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "ciéi",
+              "traduction_ou_definition": "hier"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "ciéi.",
+              "traduction": "Hier."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Hier' se dit en kisi : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "ciéi"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le principe de nommage des jours de la semaine en kisi, fondé sur les marchés hebdomadaires locaux, ainsi que le mot pour 'hier' (ciéi), issus de l'ouvrage de Childs. Le document ne fournissant pas de liste complète et traduite des sept jours, cette leçon présente le principe plutôt que d'inventer une liste absente du texte."
+}`;export{e as default};

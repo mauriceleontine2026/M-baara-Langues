@@ -1,0 +1,135 @@
+const e=`{
+  "titre_cours": "Leçon 4 : La famille et les relations proches.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir du « Dictionnaire Dioula-Français-Anglais-Allemand » (28/12/2020), documentant le dioula/jula de Bobo-Dioulasso, Burkina Faso. MISE À JOUR : cette leçon a été enrichie par une recherche web complémentaire (notamment le vocabulaire thématique de Targumi et un lexique de dioula de Côte d'Ivoire), qui recoupe et étend le dictionnaire d'origine. Plusieurs mots web (kelen, fila, saba, bi, tan, tɔgɔ, etc.) confirment exactement les mots déjà attestés dans le dictionnaire académique, ce qui renforce la fiabilité des formes nouvelles ajoutées ici.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "La famille",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le père et la mère",
+          "contenu_detaille": "Le dictionnaire donne 'fa/faa' pour « père, oncle paternel », et 'baa/bamuso' pour « mère, tante maternelle ». Une recherche complémentaire confirme ces mots sous une forme simplifiée ('Fa'=père, 'Ba'=mère) et ajoute 'Mama' (grand-mère) et 'Kɔkɔ' (grand-père).",
+          "vocabulaire_cles": [
+            {
+              "terme": "fa / Fa",
+              "traduction_ou_definition": "père"
+            },
+            {
+              "terme": "baa / Ba",
+              "traduction_ou_definition": "mère"
+            },
+            {
+              "terme": "Mama",
+              "traduction_ou_definition": "grand-mère"
+            },
+            {
+              "terme": "Kɔkɔ",
+              "traduction_ou_definition": "grand-père"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Fa.",
+              "traduction": "Père."
+            },
+            {
+              "phrase": "Mama.",
+              "traduction": "Grand-mère."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'grand-père' en dioula, d'après une recherche complémentaire ?",
+              "type": "QCM",
+              "options": [
+                "Kɔkɔ",
+                "Mama",
+                "Fa",
+                "Ba"
+              ],
+              "reponse_correcte": "Kɔkɔ"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Frères, sœurs, aîné et cadet",
+          "contenu_detaille": "Comme vu dans le dictionnaire, 'baden' et ses dérivés désignent les frères/sœurs utérins selon l'âge (badenkɔrɔcɛ, grand frère ; badendɔgɔmuso, petite sœur). Une recherche complémentaire confirme ce principe avec des mots plus généraux : 'Kɔrɔ' (aîné(e)) et 'Dɔgɔ' (cadet(te)), les mêmes racines que l'on retrouve dans les composés du dictionnaire.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Kɔrɔ",
+              "traduction_ou_definition": "aîné(e) (racine déjà présente dans badenkɔrɔcɛ)"
+            },
+            {
+              "terme": "Dɔgɔ",
+              "traduction_ou_definition": "cadet(te) (racine déjà présente dans badendɔgɔcɛ)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Kɔrɔ.",
+              "traduction": "Aîné(e)."
+            },
+            {
+              "phrase": "Dɔgɔ.",
+              "traduction": "Cadet(te)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Aîné(e)' se dit en dioula : _____ (racine déjà vue dans badenkɔrɔcɛ).",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Kɔrɔ"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Le mari, la femme et l'enfant",
+          "contenu_detaille": "Une recherche complémentaire donne 'Cɛ' pour « mari, homme » et 'Muso' pour « femme, épouse » (déjà rencontrés dans les entrées du dictionnaire comme composants de mots, par exemple 'badenkɔrɔcɛ'), ainsi que 'Den' (ou 'demisɛn') pour « enfant ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "Cɛ",
+              "traduction_ou_definition": "mari, homme"
+            },
+            {
+              "terme": "Muso",
+              "traduction_ou_definition": "femme, épouse"
+            },
+            {
+              "terme": "Den",
+              "traduction_ou_definition": "enfant"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Cɛ.",
+              "traduction": "Mari, homme."
+            },
+            {
+              "phrase": "Muso.",
+              "traduction": "Femme, épouse."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'mari, homme' en dioula ?",
+              "type": "QCM",
+              "options": [
+                "Cɛ",
+                "Muso",
+                "Den",
+                "Baa"
+              ],
+              "reponse_correcte": "Cɛ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire de la famille (fa, baa, mama, kɔkɔ, kɔrɔ, dɔgɔ, cɛ, muso, den), en combinant le dictionnaire académique et une recherche web complémentaire qui confirme les racines déjà observées dans les mots composés du dictionnaire."
+}`;export{e as default};

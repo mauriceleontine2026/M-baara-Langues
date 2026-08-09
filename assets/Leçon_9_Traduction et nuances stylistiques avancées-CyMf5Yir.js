@@ -1,0 +1,77 @@
+const e=`{
+  "titre_cours": "Leçon 9 : Traduction et nuances stylistiques avancées.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Targumi, DiscoverYoruba, Africa.uga.edu, Ling-App, Lingalot, Nigerian Finder, Wikipédia, et articles universitaires sur la grammaire et les proverbes yoruba), le yoruba étant une langue majeure parlée par plus de 45 millions de personnes au Nigeria, au Bénin et au Togo, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Nuances de traduction",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "jẹ́ contre wà : deux verbes 'être' à ne pas confondre",
+          "contenu_detaille": "Comme vu en Leçon 1 du niveau débutant, le yoruba distingue 'jẹ́' (identité, qualité) de 'wà' (lieu, existence). Une traduction française qui utiliserait indifféremment un seul verbe « être » masquerait cette distinction fondamentale : « Je suis enseignant » se dit avec 'jẹ́', tandis que « je suis à l'école » se dit avec 'wà' — deux verbes entièrement différents en yoruba, contrairement au français.",
+          "vocabulaire_cles": [
+            {
+              "terme": "jẹ́",
+              "traduction_ou_definition": "être (identité, qualité) — ex. Mo jẹ́ olùkọ́, je suis enseignant"
+            },
+            {
+              "terme": "wà",
+              "traduction_ou_definition": "être (lieu, existence) — ex. Mo wà ní ilé-ìwé, je suis à l'école"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Mo jẹ́ olùkọ́.",
+              "traduction": "Je suis enseignant (identité)."
+            },
+            {
+              "phrase": "Mo wà ní ilé-ìwé.",
+              "traduction": "Je suis à l'école (lieu)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel risque court une traduction qui confondrait 'jẹ́' et 'wà' ?",
+              "type": "QCM",
+              "options": [
+                "Masquer la distinction essentielle entre identité et lieu/existence",
+                "Aucun risque, ce sont des synonymes parfaits",
+                "Confondre le passé et le futur",
+                "Confondre le singulier et le pluriel"
+              ],
+              "reponse_correcte": "Masquer la distinction essentielle entre identité et lieu/existence"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "L'expression du froid : pas de verbe 'être'",
+          "contenu_detaille": "Le yoruba montre que toute phrase française avec « être » ne se traduit pas directement par 'jẹ́' ou 'wà' : « j'ai froid » se dit 'Òtútù ń mú mi' (litt. « le froid m'attrape »), une construction entièrement différente qui utilise le froid comme sujet actif de la phrase plutôt que comme attribut du locuteur. Une traduction mécanique via un verbe « être » produirait donc une phrase incorrecte.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Òtútù ń mú mi",
+              "traduction_ou_definition": "j'ai froid (litt. le froid m'attrape, sans aucun verbe « être »)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Òtútù ń mú mi.",
+              "traduction": "J'ai froid (litt. le froid m'attrape)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'J'ai froid' se dit en yoruba, sans aucun verbe 'être', litt. « le froid m'attrape » : Òtútù ń _____ mi.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "mú"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté deux nuances essentielles à une traduction précise du yoruba : la distinction jẹ́/wà pour « être », et l'expression du froid sans aucun verbe « être » (Òtútù ń mú mi), issues de recherches web sur la grammaire yoruba."
+}`;export{e as default};

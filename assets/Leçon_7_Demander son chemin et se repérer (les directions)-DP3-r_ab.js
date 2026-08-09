@@ -1,0 +1,116 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Demander son chemin et se repérer (les directions).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir du Dictionnaire Français-Soso et Soso-Français du R.P. Raimbault (2e édition, Mission Catholique de Conakry, 1921-1923) : chapitre grammatical 'Principes de la langue Soso', recueil de phrases usuelles, et entrées des dictionnaires français-soso et soso-français. L'orthographe d'origine (kh, gn, apostrophes, accents) est conservée telle quelle. Cette leçon combine les entrées de dictionnaire sur le chemin/la direction et des phrases tirées de la section 'XVI. Voyage sur terre' du recueil de voyage (pages 49-51).",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Se repérer et demander son chemin",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Demander et indiquer le chemin",
+          "contenu_detaille": "Le mot 'chemin' (également traduit par 'route' et 'voie') se dit 'kira'. Le document donne un exemple de question récurrent : 'Thiakiranamindé ?' ou 'Thiakiragon ?' (où est le chemin de Thia ?), formé avec 'mindé' (où). Pour dire d'aller tout droit, le document donne 'Sigaitinkhihyi' (va tout droit), de 'tinkhih' (droit).",
+          "vocabulaire_cles": [
+            {
+              "terme": "kira",
+              "traduction_ou_definition": "chemin, route, voie"
+            },
+            {
+              "terme": "mindé",
+              "traduction_ou_definition": "où"
+            },
+            {
+              "terme": "tinkhih",
+              "traduction_ou_definition": "droit, e"
+            },
+            {
+              "terme": "Sigaitinkhihyi.",
+              "traduction_ou_definition": "Va tout droit."
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Thiakiranamindé ?",
+              "traduction": "Où est le chemin de Thia ?"
+            },
+            {
+              "phrase": "Sigaitinkhihyi.",
+              "traduction": "Va tout droit."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que signifie 'kira' d'après le document ?",
+              "type": "QCM",
+              "options": [
+                "chemin, route",
+                "droite",
+                "gauche",
+                "montagne"
+              ],
+              "reponse_correcte": "chemin, route"
+            },
+            {
+              "question": "'Où est le chemin de Thia ?' se dit : Thiakirana_____ ?",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "mindé"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "La droite, la gauche et les repères de paysage",
+          "contenu_detaille": "Le document donne 'gnifagni' pour 'la droite' (tourner à droite se dit 'Imafindignifagnima') et 'kola' (ou 'kolama') pour 'la gauche' ('viens à ma gauche' se dit 'Fankolama'). Une phrase du récit de voyage illustre ces deux mots ensemble avec 'niara' (devant) : 'Darakérennawonniara, géyakérenwonkolamanunkhurékérenwongnifagnima' (il y a un marais devant, une montagne à gauche et une rivière à droite). 'Loin' se dit 'makuya'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "gnifagni",
+              "traduction_ou_definition": "la droite"
+            },
+            {
+              "terme": "kola / kolama",
+              "traduction_ou_definition": "la gauche"
+            },
+            {
+              "terme": "niara",
+              "traduction_ou_definition": "devant"
+            },
+            {
+              "terme": "makuya",
+              "traduction_ou_definition": "loin"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Imafindignifagnima.",
+              "traduction": "Tourne à droite."
+            },
+            {
+              "phrase": "Fankolama.",
+              "traduction": "Viens à ma gauche."
+            },
+            {
+              "phrase": "Yitamakuya.",
+              "traduction": "Ce village est loin."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "D'après le document, comment dit-on 'la gauche' ?",
+              "type": "QCM",
+              "options": [
+                "kola",
+                "gnifagni",
+                "kira",
+                "niara"
+              ],
+              "reponse_correcte": "kola"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire des directions (kira, gnifagni, kola, niara, makuya) et des phrases usuelles pour demander et indiquer un chemin, issues du dictionnaire de 1923."
+}`;export{e as default};

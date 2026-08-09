@@ -1,0 +1,147 @@
+const e=`{
+  "titre_cours": "Leçon 4 : La famille et les relations proches.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit strictement à partir du « Dictionnaire Français-Wolof et Wolof-Français », compilant les dictionnaires de Dard, du baron Roger et de l'abbé Lambert, revu et considérablement augmenté par les missionnaires de la Congrégation du Saint-Esprit et du Saint-Cœur de Marie (édition ancienne, Dakar/Saint-Louis du Sénégal). Ce document est une liste alphabétique française-wolof (mots et locutions), sans phrases dialoguées suivies ; l'orthographe d'origine (accents, apostrophes) est conservée telle quelle. L'extraction automatique de ce document scanné a pu déformer certains diacritiques (accents, lettres ñ/à propres au wolof) ; les transcriptions ci-dessous sont données sous cette réserve.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "La famille",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Père et mère",
+          "contenu_detaille": "Le dictionnaire donne 'bay' pour « père », et 'ndéy' (ou 'yây') pour « mère ». La mère de famille se dit 'ndebôt'. Les grands-parents, grand-père et grand-mère, partagent le même mot en wolof : 'mâm'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "bay",
+              "traduction_ou_definition": "père"
+            },
+            {
+              "terme": "ndéy / yây",
+              "traduction_ou_definition": "mère"
+            },
+            {
+              "terme": "mâm",
+              "traduction_ou_definition": "grand-père, grand-mère"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "bay.",
+              "traduction": "Père."
+            },
+            {
+              "phrase": "ndéy.",
+              "traduction": "Mère."
+            },
+            {
+              "phrase": "mâm.",
+              "traduction": "Grand-père / grand-mère."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'père' en wolof d'après le dictionnaire ?",
+              "type": "QCM",
+              "options": [
+                "bay",
+                "ndéy",
+                "mak",
+                "rak"
+              ],
+              "reponse_correcte": "bay"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Frères et sœurs",
+          "contenu_detaille": "Le dictionnaire montre un système de désignation précis : 'mak' désigne le frère aîné (et aussi la sœur aînée par rapport à une femme), et 'rak' désigne le frère (ou la sœur) cadet(te). Il précise aussi la filiation : 'mbokâ bay' pour un frère issu du même père, et 'mbokâ ndéy' pour un frère issu de la même mère.",
+          "vocabulaire_cles": [
+            {
+              "terme": "mak",
+              "traduction_ou_definition": "aîné (frère ou sœur)"
+            },
+            {
+              "terme": "rak",
+              "traduction_ou_definition": "cadet(te) (frère ou sœur)"
+            },
+            {
+              "terme": "mbokâ bay",
+              "traduction_ou_definition": "frère du même père"
+            },
+            {
+              "terme": "mbokâ ndéy",
+              "traduction_ou_definition": "frère de la même mère"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "mak.",
+              "traduction": "Aîné(e)."
+            },
+            {
+              "phrase": "rak.",
+              "traduction": "Cadet(te)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Aîné(e)' se dit en wolof : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "mak"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Oncles, tantes, cousins, fils et fille",
+          "contenu_detaille": "Le dictionnaire distingue soigneusement les oncles et tantes selon la lignée : l'oncle maternel (frère de la mère) se dit 'nday' ; l'oncle paternel (frère du père) se dit 'bay' (comme le père lui-même, avec 'bay bu mak' pour l'oncle paternel aîné et 'bay bu ndaw' pour le cadet). La tante maternelle (sœur de la mère) se dit 'ndéy', la tante paternelle (sœur du père) se dit 'badèn' (ou 'ba'). Les cousins se distinguent aussi : 'dom i bay' (enfants de deux frères), 'dom i ndéy' (enfants de deux sœurs). Le fils se dit 'dom' et la fille 'halèl bu dighi', et le petit-fils/petite-fille se dit 'set'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "nday",
+              "traduction_ou_definition": "oncle maternel"
+            },
+            {
+              "terme": "bay bu mak / bay bu ndaw",
+              "traduction_ou_definition": "oncle paternel aîné / cadet"
+            },
+            {
+              "terme": "badèn / ba",
+              "traduction_ou_definition": "tante paternelle"
+            },
+            {
+              "terme": "dom i bay / dom i ndéy",
+              "traduction_ou_definition": "cousins (enfants de deux frères / de deux sœurs)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "nday.",
+              "traduction": "Oncle maternel."
+            },
+            {
+              "phrase": "badèn.",
+              "traduction": "Tante paternelle."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment le dictionnaire désigne-t-il l'oncle paternel ?",
+              "type": "QCM",
+              "options": [
+                "bay (comme le père)",
+                "nday",
+                "badèn",
+                "mak"
+              ],
+              "reponse_correcte": "bay (comme le père)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le vocabulaire de la famille proche (bay, ndéy, mak, rak, mâm) ainsi que la distinction fine entre oncles et tantes maternels/paternels (nday, bay bu mak, badèn), issue du dictionnaire."
+}`;export{e as default};

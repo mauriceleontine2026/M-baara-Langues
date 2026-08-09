@@ -1,0 +1,64 @@
+const e=`{
+  "titre_cours": "Leçon 3 : L'alphabet et les sons spécifiques de la langue.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (fiche « LE HINDI » du projet LGMEF/CNRS-INALCO, Preply, Talkpal, OpenL, notes de cours de hindi de l'INRIA, et recueils de proverbes hindi), le hindi étant une langue majeure parlée par plus de 600 millions de personnes en Inde et dans sa diaspora, largement documentée en ligne. Cette leçon reprend les caractéristiques du devanagari décrites par la fiche du projet LGMEF (CNRS/INALCO).",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "L'écriture devanagari",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Une écriture phonétique, sans majuscules",
+          "contenu_detaille": "La fiche du projet LGMEF précise que le devanagari, alphasyllabaire utilisé pour écrire le hindi, s'écrit de gauche à droite, ne connaît pas de distinction entre minuscules et majuscules, et présente une orthographe qui correspond en grande partie à la prononciation — contrairement au français, où l'écrit et l'oral peuvent diverger fortement.",
+          "vocabulaire_cles": [
+            {
+              "terme": "देवनागरी (devanagari)",
+              "traduction_ou_definition": "alphasyllabaire du hindi, écrit de gauche à droite, sans majuscules"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque de la fiche LGMEF)",
+              "traduction": "Le devanagari s'écrit de gauche à droite, sans distinction minuscules/majuscules, avec une orthographe très phonétique."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le devanagari distingue-t-il minuscules et majuscules, d'après la fiche LGMEF ?",
+              "type": "QCM",
+              "options": [
+                "Non, il n'existe pas une telle distinction",
+                "Oui, comme en français",
+                "Seulement pour les noms propres",
+                "Seulement en début de phrase"
+              ],
+              "reponse_correcte": "Non, il n'existe pas une telle distinction"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Pas d'articles avant les noms",
+          "contenu_detaille": "Une recherche complémentaire précise que le hindi ne place aucun article avant les noms (ni « le/la/les », ni « un/une ») — une simplification par rapport au français, mais qui peut dérouter au début, l'absence d'article rendant parfois ambiguë la détermination du nom (défini ou indéfini) sans contexte.",
+          "vocabulaire_cles": [],
+          "exemples": [
+            {
+              "phrase": "(remarque grammaticale)",
+              "traduction": "Le hindi ne place aucun article avant les noms, contrairement au français."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Contrairement au français, le hindi ne place aucun _____ avant les noms.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "article"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les caractéristiques de l'écriture devanagari (gauche à droite, sans majuscules, orthographe phonétique) et l'absence d'articles en hindi, issues de recherches web."
+}`;export{e as default};

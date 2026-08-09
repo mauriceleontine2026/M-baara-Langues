@@ -1,0 +1,89 @@
+const e=`{
+  "titre_cours": "Leçon 8 : Le lexique technique, professionnel et spécialisé.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit strictement à partir du Dictionnaire Français-Soso et Soso-Français du R.P. Raimbault (2e édition, Mission Catholique de Conakry, 1921-1923) : chapitre grammatical 'Principes de la langue Soso', recueil de phrases usuelles, et entrées des dictionnaires français-soso et soso-français. L'orthographe d'origine (kh, gn, apostrophes, accents) est conservée telle quelle. Le lexique 'technique' attesté dans ce dictionnaire de 1923 relève des domaines effectivement présents dans le texte : l'administration coloniale/douanière et la mission catholique. Cette leçon s'y limite fidèlement plutôt que d'inventer un vocabulaire technique moderne absent du document.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Lexique spécialisé du document",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Vocabulaire administratif et commercial",
+          "contenu_detaille": "Le document donne 'Duani' pour 'douane' (exemple : 'Duaninamindé ?', où est la douane ?) et 'Duani-mikhi' pour 'douanier'. Le mot 'saré' désigne le 'gain, salaire, payement, prix, récompense', et 'batanké' apparaît comme unité monétaire dans le récit de caravane. 'Royaume' se traduit par 'mahgè-ta' (litt. la ville du roi) ou 'yamanè'.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Duani",
+              "traduction_ou_definition": "douane"
+            },
+            {
+              "terme": "Duani-mikhi",
+              "traduction_ou_definition": "douanier"
+            },
+            {
+              "terme": "mahgè-ta / yamanè",
+              "traduction_ou_definition": "royaume"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Duaninamindé ?",
+              "traduction": "Où est la douane ?"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'douane' en soso ?",
+              "type": "QCM",
+              "options": [
+                "Duani",
+                "saré",
+                "kira",
+                "bankhi"
+              ],
+              "reponse_correcte": "Duani"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Vocabulaire religieux et missionnaire",
+          "contenu_detaille": "Le document, produit par une mission catholique, comporte un vocabulaire spécialisé propre à ce contexte : 'Fotémori' (prêtre blanc, missionnaire), 'Fotémoria' (la Mission), 'Fotémoridomma' (soutane), 'Fotémoriginè' (une religieuse, litt. sœur du prêtre blanc), 'Absolusioni' (absolution), 'Allaféé' (catéchisme, litt. chose de Dieu).",
+          "vocabulaire_cles": [
+            {
+              "terme": "Fotémori",
+              "traduction_ou_definition": "prêtre blanc, missionnaire"
+            },
+            {
+              "terme": "Fotémoria",
+              "traduction_ou_definition": "la Mission"
+            },
+            {
+              "terme": "Absolusioni",
+              "traduction_ou_definition": "absolution"
+            },
+            {
+              "terme": "Allaféé",
+              "traduction_ou_definition": "catéchisme"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Fotémorianabé.",
+              "traduction": "Le missionnaire est ici (construction possible d'après les entrées du document)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'La Mission' se dit en soso : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Fotémoria"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le lexique spécialisé effectivement attesté par le document de 1923, dans les domaines douanier/administratif (Duani, saré) et missionnaire (Fotémori, Absolusioni, Allaféé)."
+}`;export{e as default};

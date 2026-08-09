@@ -1,0 +1,64 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Comprendre et analyser des textes littéraires ou historiques.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit à partir d'un dictionnaire fulfulde-français-anglais moderne (même format SIL que les dictionnaires dioula et mooré déjà utilisés dans ce projet), documentant le fulfulde du Burkina Faso (langue peule), complété par une recherche web. Cette langue appartient au même continuum que le pulaar du Fouta Djallon (Guinée) déjà étudié dans un autre cours de ce projet ([[pulaar-language-course]]) ; plusieurs mots se recoupent presque exactement d'un pays à l'autre (nyaamo=droite, nano=gauche, ɗiɗi=deux...), tandis que d'autres diffèrent, reflet naturel de la variation dialectale du fulfulde à travers l'Afrique de l'Ouest. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Un texte religieux traduit en fulfulde",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Le lignage d'Abraham",
+          "contenu_detaille": "Le dictionnaire cite, comme exemple authentique, une traduction en fulfulde d'un passage biblique sur la promesse divine faite à Abraham : 'Laamɗo aadeke adunaaru fuu heɓan barke saabe lenyol Ibrahiima' (Dieu a promis que le monde entier sera béni par le lignage d'Abraham), preuve de l'existence de traductions religieuses en fulfulde, comme cela a été observé pour d'autres langues de ce projet (dioula, mooré, lingala).",
+          "vocabulaire_cles": [
+            {
+              "terme": "lenyol",
+              "traduction_ou_definition": "lignage"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Laamɗo aadeke adunaaru fuu heɓan barke saabe lenyol Ibrahiima.",
+              "traduction": "Dieu a promis que le monde entier sera béni par le lignage d'Abraham."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "De quel texte le dictionnaire cite-t-il une traduction en fulfulde, comme exemple authentique ?",
+              "type": "QCM",
+              "options": [
+                "Un passage biblique sur Abraham",
+                "Un roman contemporain",
+                "Un article de journal",
+                "Un poème d'amour"
+              ],
+              "reponse_correcte": "Un passage biblique sur Abraham"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Adam et Ève à l'image de Dieu",
+          "contenu_detaille": "Le dictionnaire cite un second passage religieux : 'Dieu a créé Adam et Eve à sa propre image' (avec 'Hawwa dow alhaali muuɗum', Ève selon Son image, déjà vu en Leçon 5 du niveau avancé), qui confirme l'ampleur de la traduction religieuse utilisée comme source d'exemples dans ce dictionnaire.",
+          "vocabulaire_cles": [],
+          "exemples": [
+            {
+              "phrase": "Laamɗo tagi Aadama e Hawwa dow alhaali muuɗum.",
+              "traduction": "Dieu a créé Adam et Ève à sa propre image. (exemple biblique cité par le dictionnaire)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Les deux personnages du récit biblique de la création cités par le dictionnaire sont Adam et _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "Ève"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté deux textes religieux authentiques traduits en fulfulde et cités par le dictionnaire (la promesse à Abraham, la création d'Adam et Ève), qui illustrent la tradition de traduction biblique déjà observée pour d'autres langues de ce projet."
+}`;export{e as default};

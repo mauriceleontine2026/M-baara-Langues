@@ -1,0 +1,119 @@
+const e=`{
+  "titre_cours": "Leçon 4 : Les proverbes, dictons et expressions imagées de la culture.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit à partir de la fiche « LE LINGALA » d'Alain Kihm (CNRS – Université Paris-Cité), publiée dans le cadre du projet Langues et Grammaires du Monde dans l'Espace Francophone (LGMEF, référence HAL-04102394, 2024). MISE À JOUR : cette leçon avait été signalée comme trop pauvre, la fiche universitaire ne couvrant pas ce thème. Elle a été enrichie par une recherche web complémentaire, en croisant plusieurs ressources de vocabulaire lingala (Wiktionnaire en lingala, le dictionnaire collaboratif dic.lingala.be, et des lexiques pédagogiques en ligne) afin de fournir du vocabulaire réel et vérifié sur ce thème, en plus du contenu grammatical de la fiche d'origine quand il existe. Le lingala connaissant d'importantes variantes régionales (Kinshasa, Brazzaville, nord-ouest), certaines formes signalées comme variables le sont explicitement.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Proverbes lingala",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Dieu ne dort pas : un proverbe d'espoir",
+          "contenu_detaille": "Le proverbe 'Nzambe alalaka te' se traduit littéralement par « Dieu ne dort pas » ('Nzambe' = Dieu, 'alalaka' = il a l'habitude de dormir, 'te' = négation) et signifie qu'il ne faut jamais désespérer, la justice divine finissant toujours par s'exercer.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Nzambe",
+              "traduction_ou_definition": "Dieu"
+            },
+            {
+              "terme": "alalaka",
+              "traduction_ou_definition": "il a l'habitude de dormir"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Nzambe alalaka te.",
+              "traduction": "Dieu ne dort pas (il ne faut pas désespérer)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que signifie le proverbe 'Nzambe alalaka te' ?",
+              "type": "QCM",
+              "options": [
+                "Il ne faut jamais désespérer",
+                "Il faut se reposer souvent",
+                "Dieu punit toujours immédiatement",
+                "Il ne faut jamais prier"
+              ],
+              "reponse_correcte": "Il ne faut jamais désespérer"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le chien qui dort et la mort",
+          "contenu_detaille": "Deux proverbes rapprochent le sommeil de notions plus graves. 'Balongolaka pongi ya mbwa te' signifie « on ne réveille pas un chien qui dort » (on ne provoque pas inutilement un danger qui semble endormi). 'Bakomekolaka liwa na mpongi te' signifie « on ne compare pas la mort et le sommeil » (deux états qui se ressemblent en apparence mais sont radicalement différents).",
+          "vocabulaire_cles": [
+            {
+              "terme": "mbwa",
+              "traduction_ou_definition": "chien"
+            },
+            {
+              "terme": "liwa",
+              "traduction_ou_definition": "mort"
+            },
+            {
+              "terme": "mpongi / pongi",
+              "traduction_ou_definition": "sommeil"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Balongolaka pongi ya mbwa te.",
+              "traduction": "On ne réveille pas un chien qui dort."
+            },
+            {
+              "phrase": "Bakomekolaka liwa na mpongi te.",
+              "traduction": "On ne compare pas la mort et le sommeil."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'On ne réveille pas un chien qui dort' se traduit en lingala : Balongolaka pongi ya _____ te.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "mbwa"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "L'éléphant et le rat : un proverbe sur l'inégalité",
+          "contenu_detaille": "Le proverbe 'Basusu baliaka matama mibale lokola nzoku, kasi basusu baliaka litama moko lokola mpoko' se traduit par « Certains mangent des deux joues comme l'éléphant, d'autres d'une seule joue comme le rat », une image de l'inégalité des conditions de vie. On y retrouve le mot 'nzoku' (éléphant), déjà cité dans la fiche de grammaire comme exemple de la classe flexionnelle II (Leçon 1 du niveau débutant, section 1.1 des classes flexionnelles).",
+          "vocabulaire_cles": [
+            {
+              "terme": "nzoku",
+              "traduction_ou_definition": "éléphant (déjà cité dans la fiche comme exemple de classe flexionnelle II)"
+            },
+            {
+              "terme": "mpoko",
+              "traduction_ou_definition": "rat"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Basusu baliaka matama mibale lokola nzoku, kasi basusu baliaka litama moko lokola mpoko.",
+              "traduction": "Certains mangent des deux joues comme l'éléphant, d'autres d'une seule joue comme le rat."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel animal de ce proverbe était déjà cité dans la fiche de grammaire comme exemple de classe flexionnelle ?",
+              "type": "QCM",
+              "options": [
+                "nzoku (éléphant)",
+                "mbwa (chien)",
+                "mpoko (rat)",
+                "aucun"
+              ],
+              "reponse_correcte": "nzoku (éléphant)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté trois proverbes lingala authentiques, avec leur traduction et leur sens figuré, établis à partir de recherches web complémentaires — dont l'un réutilise justement le mot 'nzoku' (éléphant) déjà cité comme exemple grammatical dans la fiche d'origine."
+}`;export{e as default};

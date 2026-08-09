@@ -1,0 +1,91 @@
+const e=`{
+  "titre_cours": "Leçon 7 : Exprimer l'obligation, l'interdiction et la permission.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit à partir de la fiche « LE LINGALA » d'Alain Kihm (CNRS – Université Paris-Cité), publiée dans le cadre du projet Langues et Grammaires du Monde dans l'Espace Francophone (LGMEF, référence HAL-04102394, 2024). MISE À JOUR : cette leçon avait été signalée comme trop pauvre, la fiche universitaire ne couvrant pas ce thème. Elle a été enrichie par une recherche web complémentaire, en croisant plusieurs ressources de vocabulaire lingala (Wiktionnaire en lingala, le dictionnaire collaboratif dic.lingala.be, et des lexiques pédagogiques en ligne) afin de fournir du vocabulaire réel et vérifié sur ce thème, en plus du contenu grammatical de la fiche d'origine quand il existe. Le lingala connaissant d'importantes variantes régionales (Kinshasa, Brazzaville, nord-ouest), certaines formes signalées comme variables le sont explicitement.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Devoir, falloir et pouvoir",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Falloir, devoir : esengeli",
+          "contenu_detaille": "Le lingala donne le verbe '-sengela' (forme conjuguée 'esengeli') pour « falloir, devoir, être obligé, être nécessaire ». On le trouve dans des phrases comme 'Osengélí koloba' (Tu dois parler) ou 'Tosengélí kotósa bakonzi' (Nous devons obéir à l'autorité — où l'on retrouve le mot 'bakonzi', pluriel de 'mokonzi', chef, déjà vu dans la fiche de grammaire, Leçon 1 du niveau intermédiaire).",
+          "vocabulaire_cles": [
+            {
+              "terme": "esengeli / -sengela",
+              "traduction_ou_definition": "il faut, devoir, être obligé"
+            },
+            {
+              "terme": "Osengélí koloba",
+              "traduction_ou_definition": "Tu dois parler"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Osengélí koloba.",
+              "traduction": "Tu dois parler."
+            },
+            {
+              "phrase": "Tosengélí kotósa bakonzi.",
+              "traduction": "Nous devons obéir à l'autorité."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'il faut, devoir' en lingala ?",
+              "type": "QCM",
+              "options": [
+                "esengeli",
+                "nakoki",
+                "nalingi",
+                "nazali"
+              ],
+              "reponse_correcte": "esengeli"
+            },
+            {
+              "question": "'Tu dois parler' se dit en lingala : O_____ koloba.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "sengélí"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Pouvoir : nakoki",
+          "contenu_detaille": "Le lingala donne 'nakoki' pour « je peux, je suis capable » (avec la négation 'nakoki te', je ne peux pas). Ce verbe complète utilement le mode subjonctif déjà documenté par la fiche de grammaire (Leçon 7 du niveau intermédiaire, version d'origine), en offrant un vocabulaire modal concret que la fiche ne fournissait pas.",
+          "vocabulaire_cles": [
+            {
+              "terme": "nakoki",
+              "traduction_ou_definition": "je peux, je suis capable"
+            },
+            {
+              "terme": "nakoki te",
+              "traduction_ou_definition": "je ne peux pas"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Nakoki kosala.",
+              "traduction": "Je peux faire."
+            },
+            {
+              "phrase": "Nakoki te.",
+              "traduction": "Je ne peux pas."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Je ne peux pas' se dit en lingala : nakoki _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "te"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les verbes modaux esengeli (falloir/devoir) et nakoki (pouvoir), établis à partir de recherches web complémentaires, en complément du mode subjonctif déjà documenté par la fiche de grammaire."
+}`;export{e as default};

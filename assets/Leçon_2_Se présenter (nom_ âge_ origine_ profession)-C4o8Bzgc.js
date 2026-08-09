@@ -1,0 +1,107 @@
+const e=`{
+  "titre_cours": "Leçon 2 : Se présenter (nom, âge, origine, profession).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir de deux articles universitaires : Séraphin Kouakou Konan, « L'intrusion de mots nouchi dans la langue française » (Sudlangues n°14, 2010) ; et Kouakou Kouakou Antoine & Koffi Kouamé Narcisse, « Le nouchi d'hier à aujourd'hui : quelles innovations lexicales ! » (Ziglôbitha n°08, 2023). Cette leçon combine le contenu des deux articles universitaires et un complément de recherche web.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Désigner et présenter une personne",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "go : la fille, la copine",
+          "contenu_detaille": "L'article de Kouakou Konan (2010) identifie 'go' comme un nom féminin (marqué par l'article 'la go'), signifiant « la fille » ou « la petite amie ». On trouve aussi les synonymes 'gomi' et 'way' pour la petite amie, et 'le gars' pour le petit ami, d'après une recherche complémentaire.",
+          "vocabulaire_cles": [
+            {
+              "terme": "go / la go / gomi / way",
+              "traduction_ou_definition": "la fille, la petite amie"
+            },
+            {
+              "terme": "le gars",
+              "traduction_ou_definition": "le petit ami"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Bravo la go.",
+              "traduction": "Bravo la fille (la demoiselle). (exemple cité par l'article de 2010)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'la fille, la petite amie' en nouchi d'après les articles ?",
+              "type": "QCM",
+              "options": [
+                "go",
+                "mogo",
+                "dja",
+                "kouma"
+              ],
+              "reponse_correcte": "go"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "mogo : l'homme, la personne",
+          "contenu_detaille": "L'article de 2010 identifie 'mogo' (pluriel 'mogonis') comme un nom masculin signifiant « homme, personne ». On trouve aussi 'vié-môgô' (personne respectée). Pour un couple sérieux, une recherche complémentaire indique que l'on dit plutôt 'mon mousso' (ma compagne, emprunté au malinké) ou 'mon môgô' (mon compagnon).",
+          "vocabulaire_cles": [
+            {
+              "terme": "mogo / mogonis",
+              "traduction_ou_definition": "homme, personne / les hommes-là"
+            },
+            {
+              "terme": "mon mousso / mon môgô",
+              "traduction_ou_definition": "ma compagne / mon compagnon (relation sérieuse, emprunt au malinké)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Les mogonis qui se jouent les dangereux.",
+              "traduction": "Les hommes qui pensent qu'ils sont dangereux. (exemple cité par l'article de 2010)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Homme, personne' se dit en nouchi : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "mogo"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Se présenter à quelqu'un",
+          "contenu_detaille": "Une recherche complémentaire donne la formule 'Ye te kouman' (je veux te parler), rapportée dans un reportage comme la phrase qu'un père peut lancer à son fils, ce qui montre que le verbe 'kouman' (parler, emprunté au dioula, déjà vu dans les articles sous la forme 'kouma') reste central pour engager une conversation ou une présentation.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Ye te kouman",
+              "traduction_ou_definition": "je veux te parler"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ye te kouman.",
+              "traduction": "Je veux te parler."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel verbe, emprunté au dioula, sert à engager une conversation en nouchi ?",
+              "type": "QCM",
+              "options": [
+                "kouman / kouma",
+                "mogo",
+                "go",
+                "sciencer"
+              ],
+              "reponse_correcte": "kouman / kouma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les mots essentiels pour désigner une personne selon son sexe en nouchi (go, mogo) et pour engager une conversation (kouman), à partir des deux articles universitaires et de recherches web complémentaires."
+}`;export{e as default};
