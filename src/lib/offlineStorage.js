@@ -1,4 +1,5 @@
 import { getLanguageByCode, getVocabularyForLanguage, getLessonsForLanguage } from "@/api/languageService";
+import { updateProgress } from "@/api/progressService";
 
 const PREFIX = "mbaara_offline_";
 
@@ -178,7 +179,6 @@ export const syncProgressQueue = async () => {
   const queue = getProgressQueue();
   if (queue.length === 0) return;
 
-  const { updateProgress } = await import("@/api/progressService");
   const remaining = [];
 
   for (const item of queue) {

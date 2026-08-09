@@ -1,10 +1,13 @@
-const DEFAULT_SITE_KEY = "6Le6yHstAAAAAGMlso6rrFIk1z8X8L9rAvp3KGee";
+const DEFAULT_SITE_KEY = import.meta.env.DEV ? "6LcF7XstAAAAAOx7NTJcemisdJkDwT7Dgr7O7M36" : null;
 
 let _scriptLoading = null;
 
 export function getRecaptchaSiteKey() {
   const configuredSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
-  return configuredSiteKey?.trim() || DEFAULT_SITE_KEY;
+  if (configuredSiteKey?.trim()) {
+    return configuredSiteKey.trim();
+  }
+  return DEFAULT_SITE_KEY;
 }
 
 function waitForRecaptchaReady() {
@@ -21,7 +24,7 @@ function waitForRecaptchaReady() {
 
 export function loadRecaptcha(siteKey) {
   if (typeof window === "undefined") return Promise.resolve();
-  if (window.grecaptcha && (window.grecaptcha.enterprise || window.grecaptcha.render)) return waitForRecaptchaReady();
+  if (window.grecaptcha && typeof window.grecaptcha.render === "function") return waitForRecaptchaReady();
   if (_scriptLoading) return _scriptLoading;
 
   _scriptLoading = new Promise((resolve, reject) => {
@@ -35,7 +38,7 @@ export function loadRecaptcha(siteKey) {
       v2Script.async = true;
       v2Script.defer = true;
       v2Script.onload = () => {
-        if (window.grecaptcha) {
+        if (window.grecaptcha && typeof window.grecaptcha.render === "function") {
           waitForRecaptchaReady().then(resolve).catch(reject);
           return;
         }
@@ -50,21 +53,7 @@ export function loadRecaptcha(siteKey) {
     };
 
     try {
-      const enterpriseScript = document.createElement("script");
-      enterpriseScript.src = `https://www.google.com/recaptcha/enterprise.js?render=${encodeURIComponent(siteKey)}`;
-      enterpriseScript.async = true;
-      enterpriseScript.defer = true;
-      enterpriseScript.onload = () => {
-        if (window.grecaptcha && window.grecaptcha.enterprise) {
-          waitForRecaptchaReady().then(resolve).catch(reject);
-          return;
-        }
-        loadV2Script();
-      };
-      enterpriseScript.onerror = () => {
-        loadV2Script();
-      };
-      document.head.appendChild(enterpriseScript);
+      loadV2Script();
     } catch (err) {
       cleanup();
       reject(err);
@@ -89,20 +78,6 @@ export async function getRecaptchaToken(action = "login") {
     throw new Error("Le service de vérification anti-bot n'est pas prêt. Veuillez recharger la page.");
   }
 
-  // If enterprise API available, use it (invisible/v3-style)
-  if (grecaptcha.enterprise) {
-    const enterprise = grecaptcha.enterprise;
-    await new Promise((resolve, reject) => {
-      try {
-        enterprise.ready(() => resolve());
-      } catch (error) {
-        reject(error);
-      }
-    });
-    return enterprise.execute(siteKey, { action });
-  }
-
-  // Otherwise assume v2 rendered widget is present and use its response.
   const widgetId = window._mbaara_recaptcha_v2_widgetId;
   if (typeof widgetId !== "undefined" && widgetId !== null) {
     const token = grecaptcha.getResponse(widgetId);
@@ -121,14 +96,34 @@ export async function renderRecaptcha(containerId, siteKey) {
   const grecaptcha = window.grecaptcha;
   if (!grecaptcha) throw new Error("grecaptcha indisponible");
 
-  if (grecaptcha.enterprise) {
-    // enterprise doesn't render a visible checkbox; nothing to do.
-    return null;
+  const container = document.getElementById(containerId);
+  if (!container) {
+    throw new Error(`Container reCAPTCHA introuvable: ${containerId}`);
   }
 
-  // Render explicit v2 widget into the given container.
-  const widgetId = grecaptcha.render(containerId, { sitekey: siteKey });
-  // store globally so getRecaptchaToken can read response
+  if (typeof window._mbaara_recaptcha_v2_widgetId !== "undefined" && window._mbaara_recaptcha_v2_widgetId !== null) {
+    return window._mbaara_recaptcha_v2_widgetId;
+  }
+
+  if (container.childElementCount > 0) {
+    const existingId = window._mbaara_recaptcha_v2_widgetId;
+    if (typeof existingId !== "undefined" && existingId !== null) {
+      return existingId;
+    }
+  }
+
+  const widgetId = grecaptcha.render(containerId, {
+    sitekey: siteKey,
+    callback: () => {
+      window._mbaara_recaptcha_v2_hasResponse = true;
+    },
+    "expired-callback": () => {
+      window._mbaara_recaptcha_v2_hasResponse = false;
+    },
+    "error-callback": () => {
+      window._mbaara_recaptcha_v2_hasResponse = false;
+    },
+  });
   window._mbaara_recaptcha_v2_widgetId = widgetId;
   return widgetId;
 }

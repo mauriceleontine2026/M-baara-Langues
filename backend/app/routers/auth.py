@@ -4,12 +4,14 @@ import re
 import secrets
 import time
 import uuid
+import logging
 from collections import defaultdict, deque
 
 from fastapi import APIRouter, HTTPException, Depends, Request, Response, status, Form
 from pydantic import BaseModel, EmailStr, Field, field_validator
 from sqlalchemy.orm import Session
 import httpx
+import json
 from ..database import get_db
 from ..models.user import User
 from ..services import security
@@ -22,6 +24,9 @@ RECAPTCHA_SECRET_KEY = os.getenv("RECAPTCHA_SECRET_KEY") or os.getenv("VITE_RECA
 RECAPTCHA_VERIFY_URL = "https://www.google.com/recaptcha/api/siteverify"
 
 router = APIRouter()
+
+# Logger for diagnostic output during reCAPTCHA troubleshooting
+logger = logging.getLogger(__name__)
 
 RATE_LIMIT_WINDOW_SECONDS = 60
 RATE_LIMIT_MAX_ATTEMPTS = 5
@@ -131,6 +136,13 @@ def verify_recaptcha_token(token: str | None, action: str = "login") -> None:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Le test anti-bot est requis.")
 
     try:
+        # Log a masked summary of the token for diagnostics (do not log full token)
+        try:
+            token_summary = (token[:4] + "..." + token[-4:]) if token and len(token) > 8 else (token or "")
+        except Exception:
+            token_summary = "(unable to summarize)"
+        logger.info("Verifying reCAPTCHA token (masked): %s, action=%s", token_summary, action)
+
         response = httpx.post(
             RECAPTCHA_VERIFY_URL,
             data={"secret": RECAPTCHA_SECRET_KEY, "response": token.strip(), "remoteip": None},
@@ -138,10 +150,19 @@ def verify_recaptcha_token(token: str | None, action: str = "login") -> None:
         )
         response.raise_for_status()
         payload = response.json()
+        # Log the full payload for diagnosis (does not contain the secret)
+        logger.info("reCAPTCHA siteverify payload: %s", json.dumps(payload))
+        # Also log a concise payload summary for quick scans
+        logger.info("reCAPTCHA siteverify success=%s score=%s action=%s", payload.get("success"), payload.get("score"), payload.get("action"))
+
         if not payload.get("success"):
-            raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Échec de la vérification anti-bot.")
+            err_codes = payload.get("error-codes") or payload
+            raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"Échec de la vérification anti-bot: {err_codes}")
         if payload.get("action") and action and payload.get("action") != action:
-            raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Action anti-bot invalide.")
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=f"Action anti-bot invalide (attendu '{action}', obtenu '{payload.get('action')}').",
+            )
     except HTTPException:
         raise
     except Exception as exc:
@@ -418,6 +439,12 @@ def login(request: Request, response: Response, payload: LoginRequest, db: Sessi
     normalized_email = _normalize_email(payload.email)
 
     captcha_token = request.headers.get("x-captcha-token")
+    # Log whether token came in headers and its masked summary
+    try:
+        token_summary = (captcha_token[:4] + "..." + captcha_token[-4:]) if captcha_token and len(captcha_token) > 8 else (captcha_token or "")
+    except Exception:
+        token_summary = "(unable to summarize)"
+    logger.info("Login attempt: captcha_token present in headers=%s masked=%s", bool(captcha_token), token_summary)
     if RECAPTCHA_SECRET_KEY and (not captcha_token or not captcha_token.strip()):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Le test anti-bot est requis.")
     verify_recaptcha_token(captcha_token, "login")

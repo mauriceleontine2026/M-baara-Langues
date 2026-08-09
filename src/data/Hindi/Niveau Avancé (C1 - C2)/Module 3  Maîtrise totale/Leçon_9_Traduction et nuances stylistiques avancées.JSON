@@ -1,0 +1,49 @@
+{
+  "titre_cours": "Leçon 9 : Traduction et nuances stylistiques avancées.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (fiche « LE HINDI » du projet LGMEF/CNRS-INALCO, Preply, Talkpal, OpenL, notes de cours de hindi de l'INRIA, et recueils de proverbes hindi), le hindi étant une langue majeure parlée par plus de 600 millions de personnes en Inde et dans sa diaspora, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Nuances de traduction",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "L'absence de verbe 'avoir', un piège de traduction constant",
+          "contenu_detaille": "Comme vu en Leçon 6 du niveau intermédiaire, l'absence du verbe 'avoir' en hindi (remplacé par 'être' à sujet variable) constitue un piège de traduction permanent : toute phrase française avec 'avoir' doit être systématiquement repensée en hindi selon le type exact de possession exprimée, sous peine de construire une phrase grammaticalement incorrecte ou ambiguë.",
+          "vocabulaire_cles": [],
+          "exemples": [],
+          "exercices": [
+            {
+              "question": "Pourquoi l'absence du verbe 'avoir' constitue-t-elle un piège de traduction constant en hindi ?",
+              "type": "QCM",
+              "options": [
+                "Chaque phrase française avec 'avoir' doit être repensée selon le type exact de possession",
+                "Le hindi n'exprime jamais la possession",
+                "'Avoir' se traduit toujours par le même mot, sans exception",
+                "Ce n'est pas un piège, la traduction est automatique"
+              ],
+              "reponse_correcte": "Chaque phrase française avec 'avoir' doit être repensée selon le type exact de possession"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le choix du sujet : direct, ergatif ou oblique",
+          "contenu_detaille": "Comme vu en Leçon 1 du niveau avancé, une traduction du français vers le hindi doit systématiquement déterminer, pour chaque verbe, s'il exige un sujet au cas direct, un sujet ergatif (avec 'ne', au passé transitif) ou un sujet oblique (avec 'ko', pour les verbes de sentiment) — un choix qui n'a aucun équivalent visible dans la phrase française source, et qui doit donc être appris verbe par verbe plutôt que déduit mécaniquement.",
+          "vocabulaire_cles": [],
+          "exemples": [],
+          "exercices": [
+            {
+              "question": "Le choix entre sujet direct, ergatif et oblique en hindi doit être appris _____ par verbe, sans équivalent visible en français.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "verbe"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté deux pièges de traduction essentiels entre le français et le hindi : l'absence du verbe 'avoir' et le choix du type de sujet (direct/ergatif/oblique) selon chaque verbe, issus de la fiche LGMEF/CNRS."
+}

@@ -1,5 +1,5 @@
 import { useMemo, useState, useEffect } from "react";
-import { getRecaptchaSiteKey, loadRecaptcha } from "@/lib/recaptcha";
+import { getRecaptchaSiteKey, loadRecaptcha, renderRecaptcha } from "@/lib/recaptcha";
 import { ArrowRight, Chrome, Lock, Mail, Sparkles, UserRound } from "lucide-react";
 
 function RecaptchaStatus() {
@@ -100,21 +100,21 @@ export default function AuthSplitPanel(props) {
   };
 
   useEffect(() => {
-    // render a visible v2 checkbox if v2 is used
     const siteKey = getRecaptchaSiteKey();
-    try {
-      // container id is static per page instance
-      const containerId = "mbaara-recaptcha-container";
-      const el = document.getElementById(containerId);
-      if (el) {
-        // ignore promise result; rendering is idempotent
-        import("@/lib/recaptcha").then(({ renderRecaptcha }) => {
-          renderRecaptcha(containerId, siteKey).catch(() => {});
-        });
+    const containerId = "mbaara-recaptcha-container";
+    const el = document.getElementById(containerId);
+    if (!el || !siteKey) return;
+
+    let cancelled = false;
+    renderRecaptcha(containerId, siteKey).catch(() => {
+      if (!cancelled) {
+        // If render fails, we still want the status component to handle it.
       }
-    } catch (e) {
-      // no-op
-    }
+    });
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   return (

@@ -1,0 +1,115 @@
+{
+  "titre_cours": "Leçon 5 : Les chiffres, les nombres et le comptage.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir de recherches web (Institut Fassaha, Institut Al Rayhan, Malac, Talkpal, Preply, LingoHut, Talqeeny, Wiktionnaire, Wikipédia, thèses universitaires, recueils de proverbes arabes). ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Compter en arabe",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les nombres de 1 à 10",
+          "contenu_detaille": "L'arabe donne : 1 واحد (wahid), 2 اثنان (ithnan), 3 ثلاثة (thalatha), 4 أربعة (arba'a), 5 خمسة (khamsa), 6 ستة (sitta), 7 سبعة (sab'a), 8 ثمانية (thamaniya), 9 تسعة (tis'a), 10 عشرة ('ashara). Une recherche complémentaire ajoute 100 (مئة, mi'a) et 1000 (ألف, alf), utiles pour les prix.",
+          "vocabulaire_cles": [
+            {
+              "terme": "واحد (wahid)",
+              "traduction_ou_definition": "1"
+            },
+            {
+              "terme": "اثنان (ithnan)",
+              "traduction_ou_definition": "2"
+            },
+            {
+              "terme": "ثلاثة (thalatha)",
+              "traduction_ou_definition": "3"
+            },
+            {
+              "terme": "أربعة (arba'a)",
+              "traduction_ou_definition": "4"
+            },
+            {
+              "terme": "خمسة (khamsa)",
+              "traduction_ou_definition": "5"
+            },
+            {
+              "terme": "ستة (sitta)",
+              "traduction_ou_definition": "6"
+            },
+            {
+              "terme": "سبعة (sab'a)",
+              "traduction_ou_definition": "7"
+            },
+            {
+              "terme": "ثمانية (thamaniya)",
+              "traduction_ou_definition": "8"
+            },
+            {
+              "terme": "تسعة (tis'a)",
+              "traduction_ou_definition": "9"
+            },
+            {
+              "terme": "عشرة ('ashara)",
+              "traduction_ou_definition": "10"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "wahid.",
+              "traduction": "Un."
+            },
+            {
+              "phrase": "'ashara.",
+              "traduction": "Dix."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on '5' en arabe ?",
+              "type": "QCM",
+              "options": [
+                "خمسة (khamsa)",
+                "أربعة (arba'a)",
+                "ستة (sitta)",
+                "عشرة ('ashara)"
+              ],
+              "reponse_correcte": "خمسة (khamsa)"
+            },
+            {
+              "question": "'Dix' se dit en arabe : _____ ('ashara).",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "عشرة"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Un système de construction inversé",
+          "contenu_detaille": "Une recherche complémentaire précise que de 13 à 19, on place l'unité avant « dix » (par exemple 13 se dit « trois-dix »), tandis que de 21 à 99, on inverse l'ordre habituel et on relie les deux chiffres par 'و' (wa, et) : 25 se dit litt. « cinq et vingt » (خمسة وعشرون, khamsa wa-'ishrun), l'exact inverse de la construction française « vingt-cinq ».",
+          "vocabulaire_cles": [
+            {
+              "terme": "و (wa)",
+              "traduction_ou_definition": "et (relie les dizaines et les unités, dans l'ordre inversé par rapport au français)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "khamsa wa-'ishrun.",
+              "traduction": "Vingt-cinq (litt. cinq et vingt)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "En arabe, 25 se dit litt. « cinq et vingt », l'ordre étant _____ par rapport au français.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "inversé"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les nombres de 1 à 10 (wahid à 'ashara) et le système de construction inversé des dizaines (khamsa wa-'ishrun, litt. cinq et vingt), issus de recherches web, avec écriture arabe et translittération."
+}

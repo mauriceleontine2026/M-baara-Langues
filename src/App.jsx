@@ -1,8 +1,9 @@
+import { lazy, Suspense } from 'react';
 import { Toaster } from "@/components/ui/toaster"
 import { QueryClientProvider } from '@tanstack/react-query'
 import { queryClientInstance } from '@/lib/query-client'
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import PageNotFound from './lib/PageNotFound';
+const PageNotFound = lazy(() => import('./lib/PageNotFound'));
 import { AuthProvider, useAuth } from '@/lib/AuthContext';
 import UserNotRegisteredError from '@/components/UserNotRegisteredError';
 import ScrollToTop from './components/ScrollToTop';
@@ -11,26 +12,26 @@ import { ThemeProvider } from '@/contexts/ThemeContext';
 import AppLayout from '@/components/AppLayout';
 
 // Page imports
-import Login from '@/pages/Login';
-import Register from '@/pages/Register';
-import ForgotPassword from '@/pages/ForgotPassword';
-import ResetPassword from '@/pages/ResetPassword';
-import Home from '@/pages/Home';
-import Learn from '@/pages/Learn';
-import AITutor from '@/pages/AITutor';
-import Contribute from '@/pages/Contribute';
-import Progress from '@/pages/Progress';
-import Review from '@/pages/Review';
-import Studio from '@/pages/Studio';
-import AccentWorkshop from '@/pages/studio/AccentWorkshop';
-import ScanOCR from '@/pages/studio/ScanOCR';
-import Leagues from '@/pages/studio/Leagues';
-import Lesson from '@/pages/Lesson';
-import Exercise from '@/pages/Exercise';
-import Admin from '@/pages/Admin';
-import Profile from '@/pages/Profile';
-import Settings from '@/pages/Settings';
-import Support from '@/pages/Support';
+const Login = lazy(() => import('@/pages/Login'));
+const Register = lazy(() => import('@/pages/Register'));
+const ForgotPassword = lazy(() => import('@/pages/ForgotPassword'));
+const ResetPassword = lazy(() => import('@/pages/ResetPassword'));
+const Home = lazy(() => import('@/pages/Home'));
+const Learn = lazy(() => import('@/pages/Learn'));
+const AITutor = lazy(() => import('@/pages/AITutor'));
+const Contribute = lazy(() => import('@/pages/Contribute'));
+const Progress = lazy(() => import('@/pages/Progress'));
+const Review = lazy(() => import('@/pages/Review'));
+const Studio = lazy(() => import('@/pages/Studio'));
+const AccentWorkshop = lazy(() => import('@/pages/studio/AccentWorkshop'));
+const ScanOCR = lazy(() => import('@/pages/studio/ScanOCR'));
+const Leagues = lazy(() => import('@/pages/studio/Leagues'));
+const Lesson = lazy(() => import('@/pages/Lesson'));
+const Exercise = lazy(() => import('@/pages/Exercise'));
+const Admin = lazy(() => import('@/pages/Admin'));
+const Profile = lazy(() => import('@/pages/Profile'));
+const Settings = lazy(() => import('@/pages/Settings'));
+const Support = lazy(() => import('@/pages/Support'));
 // public logo at /logo.png
 
 const AuthenticatedApp = () => {
@@ -110,7 +111,15 @@ function App() {
         <QueryClientProvider client={queryClientInstance}>
           <Router>
             <ScrollToTop />
-            <AuthenticatedApp />
+            <Suspense
+              fallback={
+                <div className="fixed inset-0 flex items-center justify-center bg-background">
+                  <div className="w-8 h-8 border-4 border-primary/30 border-t-primary rounded-full animate-spin" />
+                </div>
+              }
+            >
+              <AuthenticatedApp />
+            </Suspense>
           </Router>
           <Toaster />
         </QueryClientProvider>
