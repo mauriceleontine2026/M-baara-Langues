@@ -17,7 +17,7 @@ const n=`{
     "Italien",
     "Japonais",
     "Kissi",
-    "Kônôn",
+    "Kônon",
     "Lingala",
     "Malinké",
     "Mooré",
