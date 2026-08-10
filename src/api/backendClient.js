@@ -45,23 +45,29 @@ const buildApiUrl = (path) => {
 };
 
 const formatErrorMessage = (data, fallback) => {
+  const normalizeErrorMessage = (message) => {
+    if (!message || typeof message !== "string") return null;
+    return message.trim();
+  };
+
   if (typeof data === "string" && data.trim()) {
-    return data.trim();
+    return normalizeErrorMessage(data.trim()) || data.trim();
   }
 
   if (Array.isArray(data?.detail)) {
     const first = data.detail[0];
-    if (typeof first?.msg === "string" && first.msg.trim()) {
-      return first.msg.trim();
+    const message = typeof first?.msg === "string" ? first.msg.trim() : null;
+    if (message) {
+      return normalizeErrorMessage(message) || message;
     }
   }
 
   if (typeof data?.detail === "string" && data.detail.trim()) {
-    return data.detail.trim();
+    return normalizeErrorMessage(data.detail.trim()) || data.detail.trim();
   }
 
   if (typeof data?.message === "string" && data.message.trim()) {
-    return data.message.trim();
+    return normalizeErrorMessage(data.message.trim()) || data.message.trim();
   }
 
   return fallback;
@@ -69,7 +75,7 @@ const formatErrorMessage = (data, fallback) => {
 
 const MUTATING_METHODS = new Set(["POST", "PUT", "PATCH", "DELETE"]);
 
-const request = async (method, path, body, queryParams, captchaToken) => {
+const request = async (method, path, body, queryParams) => {
   const url = buildApiUrl(path);
   if (queryParams) {
     Object.entries(queryParams).forEach(([key, value]) => {
@@ -87,9 +93,6 @@ const request = async (method, path, body, queryParams, captchaToken) => {
     const csrfToken = getCsrfToken();
     if (csrfToken) {
       headers["X-CSRF-Token"] = csrfToken;
-    }
-    if (captchaToken) {
-      headers["X-Captcha-Token"] = captchaToken;
     }
   }
 

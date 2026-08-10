@@ -1,10 +1,14 @@
 import { useState } from "react";
-import { login, loginWithGoogle } from "@/api/authService";
+import { login, loginWithGoogle, requestEmailVerification } from "@/api/authService";
 import AuthSplitPanel from "@/components/AuthSplitPanel";
 
 export default function Login() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [submittedEmail, setSubmittedEmail] = useState("");
+  const [resendStatus, setResendStatus] = useState("");
+  const [resendLoading, setResendLoading] = useState(false);
+  const [showResendLink, setShowResendLink] = useState(false);
 
   const handleGoogle = async () => {
     setError("");
@@ -19,6 +23,25 @@ export default function Login() {
       setError(errorMessage);
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleResendVerification = async () => {
+    if (!submittedEmail) {
+      setResendStatus("Veuillez saisir votre adresse e-mail et réessayer.");
+      return;
+    }
+
+    setResendStatus("");
+    setResendLoading(true);
+    try {
+      await requestEmailVerification(submittedEmail);
+      setResendStatus("Un nouvel e-mail de vérification a été envoyé.");
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Impossible d'envoyer l'e-mail de vérification.";
+      setResendStatus(message);
+    } finally {
+      setResendLoading(false);
     }
   };
 
@@ -48,15 +71,21 @@ export default function Login() {
     }
 
     setError("");
+    setResendStatus("");
+    setShowResendLink(false);
     setLoading(true);
     try {
+      setSubmittedEmail(email);
       await login(email, password);
       window.location.href = "/";
     } catch (err) {
-      const message = err instanceof Error ? err.message : "Identifiants incorrects";
-      const normalized = String(message || "").trim();
-      if (normalized.includes("Email not verified") || normalized.includes("email non vérifié") || normalized.includes("vérifié")) {
+      const rawMessage = err instanceof Error ? err.message : "Identifiants incorrects";
+      const normalized = String(rawMessage || "").trim();
+      const isNotVerified = err?.status === 403 || normalized.toLowerCase().includes("email not verified") || normalized.toLowerCase().includes("email non vérifié") || normalized.toLowerCase().includes("vérifié");
+
+      if (isNotVerified) {
         setError("Votre adresse e-mail doit être vérifiée avant de vous connecter.");
+        setShowResendLink(true);
       } else {
         setError(normalized || "Identifiants incorrects");
       }
@@ -75,6 +104,21 @@ export default function Login() {
       submitLabel="Se connecter"
       switchLabel="Pas encore de compte ?"
       switchButtonLabel="Créer un compte"
-    />
+    >
+      {showResendLink ? (
+        <div className="mt-6 rounded-2xl border border-border bg-background p-4 text-left text-sm text-foreground">
+          <p>Tu n'as pas reçu l'e-mail de vérification ?</p>
+          <button
+            type="button"
+            onClick={handleResendVerification}
+            disabled={resendLoading}
+            className="mt-3 inline-flex items-center justify-center rounded-2xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition hover:bg-primary/90 disabled:opacity-70"
+          >
+            {resendLoading ? "Envoi..." : "Renvoyer l'e-mail de vérification"}
+          </button>
+          {resendStatus ? <p className="mt-3 text-sm text-emerald-600">{resendStatus}</p> : null}
+        </div>
+      ) : null}
+    </AuthSplitPanel>
   );
 }

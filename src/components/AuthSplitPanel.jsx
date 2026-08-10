@@ -1,45 +1,5 @@
-import { useMemo, useState, useEffect } from "react";
-import { getRecaptchaSiteKey, loadRecaptcha } from "@/lib/recaptcha";
+import { useMemo, useState } from "react";
 import { ArrowRight, Chrome, Lock, Mail, Sparkles, UserRound } from "lucide-react";
-
-function RecaptchaStatus() {
-  const [status, setStatus] = useState({ state: "loading", message: "" });
-
-  useEffect(() => {
-    let mounted = true;
-    const siteKey = getRecaptchaSiteKey();
-    if (!siteKey) {
-      if (mounted) setStatus({ state: "missing", message: "Aucune clé reCAPTCHA fournie." });
-      return;
-    }
-    loadRecaptcha(siteKey)
-      .then(() => {
-        if (!mounted) return;
-        const ready = !!(window.grecaptcha && (window.grecaptcha.enterprise || window.grecaptcha.render));
-        setStatus({
-          state: ready ? "ready" : "failed",
-          message: ready ? "" : "Le service reCAPTCHA ne s'est pas initialisé.",
-        });
-      })
-      .catch((error) => {
-        if (!mounted) return;
-        setStatus({ state: "failed", message: error?.message || String(error) });
-      });
-    return () => {
-      mounted = false;
-    };
-  }, []);
-
-  if (status.state === "loading") return <span>Chargement reCAPTCHA…</span>;
-  if (status.state === "ready") return <span className="inline-flex items-center gap-2"><span className="h-2 w-2 rounded-full bg-emerald-500" />reCAPTCHA actif</span>;
-  if (status.state === "missing") return <span>Clé reCAPTCHA manquante</span>;
-  return (
-    <span className="flex flex-col gap-1 text-sm text-foreground">
-      <span>reCAPTCHA indisponible — rechargez la page</span>
-      {status.message ? <span className="text-xs text-muted-foreground">{status.message}</span> : null}
-    </span>
-  );
-}
 
 /**
  * @param {{
@@ -47,6 +7,7 @@ function RecaptchaStatus() {
  *   onGoogle?: any;
  *   loading?: boolean;
  *   error?: string;
+ *   message?: string;
  *   initialMode?: string;
  *   submitLabel?: string;
  *   switchLabel?: string;
@@ -61,6 +22,7 @@ export default function AuthSplitPanel(props) {
     onGoogle,
     loading = false,
     error = "",
+    message = "",
     initialMode = "signin",
     submitLabel = "Se connecter",
     switchLabel = "Pas encore de compte ?",
@@ -99,23 +61,6 @@ export default function AuthSplitPanel(props) {
     onSubmit?.({ ...form, mode });
   };
 
-  useEffect(() => {
-    // render a visible v2 checkbox if v2 is used
-    const siteKey = getRecaptchaSiteKey();
-    try {
-      // container id is static per page instance
-      const containerId = "mbaara-recaptcha-container";
-      const el = document.getElementById(containerId);
-      if (el) {
-        // ignore promise result; rendering is idempotent
-        import("@/lib/recaptcha").then(({ renderRecaptcha }) => {
-          renderRecaptcha(containerId, siteKey).catch(() => {});
-        });
-      }
-    } catch (e) {
-      // no-op
-    }
-  }, []);
 
   return (
     <div className="min-h-screen bg-background px-4 py-8 sm:px-6 lg:px-8 flex items-center justify-center">
@@ -263,8 +208,9 @@ export default function AuthSplitPanel(props) {
                   ) : null}
 
                   {error ? <p className="text-sm text-destructive">{error}</p> : null}
+                  {message ? <p className="text-sm text-emerald-600">{message}</p> : null}
 
-                      <button
+                                  <button
                     type="submit"
                     disabled={loading}
                     className="flex w-full items-center justify-center gap-2 rounded-2xl bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground transition-all duration-300 hover:-translate-y-0.5 hover:opacity-95 disabled:opacity-70"
@@ -275,11 +221,6 @@ export default function AuthSplitPanel(props) {
                 </form>
               ) : null}
 
-              <div className="mt-4 text-center text-xs text-muted-foreground">
-                <RecaptchaStatus />
-              </div>
-
-              <div id="mbaara-recaptcha-container" className="mt-2 flex justify-center" />
 
               {children ? <div className="mt-4">{children}</div> : null}
 

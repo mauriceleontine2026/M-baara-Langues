@@ -1,11 +1,9 @@
 import { request, notifyAuthChanged } from "./backendClient";
 import { signInWithGoogle } from "./firebaseClient";
-import { getRecaptchaToken } from "@/lib/recaptcha";
 
 export async function login(email, password) {
-  const captchaToken = await getRecaptchaToken("login");
   try {
-    const data = await request("POST", "/api/auth/login", { email, password }, undefined, captchaToken);
+    const data = await request("POST", "/api/auth/login", { email, password });
     notifyAuthChanged();
     return data?.user || null;
   } catch (err) {
@@ -29,14 +27,6 @@ export async function loginWithForm(email, password) {
   const formData = new FormData();
   formData.append("email", email);
   formData.append("password", password);
-
-  // Try to include reCAPTCHA token if available
-  try {
-    const captcha = await getRecaptchaToken("login");
-    if (captcha) formData.append("captcha_token", captcha);
-  } catch (e) {
-    // ignore captcha token failures for fallback
-  }
 
   // Include CSRF token from cookie when available (double-submit cookie pattern)
   try {
@@ -145,9 +135,8 @@ export async function loginWithGoogleForm(idToken) {
 }
 
 export async function register(email, password, full_name) {
-  const captchaToken = await getRecaptchaToken("register");
   try {
-    const data = await request("POST", "/api/auth/register", { email, password, full_name }, undefined, captchaToken);
+    const data = await request("POST", "/api/auth/register", { email, password, full_name });
     notifyAuthChanged();
     return data?.user || null;
   } catch (err) {
@@ -172,10 +161,6 @@ export async function registerWithForm(email, password, full_name) {
   formData.append("password", password);
   if (full_name) formData.append("full_name", full_name);
 
-  try {
-    const captcha = await getRecaptchaToken("register");
-    if (captcha) formData.append("captcha_token", captcha);
-  } catch (e) {}
 
   try {
     const csrfCookie = getCsrfTokenFromCookie();
@@ -197,6 +182,16 @@ export async function registerWithForm(email, password, full_name) {
   const data = await response.json();
   notifyAuthChanged();
   return data?.user || null;
+}
+
+export async function verifyEmail(token) {
+  const data = await request("POST", "/api/auth/verify-email", { resetToken: token });
+  notifyAuthChanged();
+  return data;
+}
+
+export async function requestEmailVerification(email) {
+  return await request("POST", "/api/auth/verify-email-request", { email });
 }
 
 export async function getCurrentUser() {

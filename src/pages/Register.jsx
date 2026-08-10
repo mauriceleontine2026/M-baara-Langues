@@ -4,6 +4,7 @@ import AuthSplitPanel from "@/components/AuthSplitPanel";
 
 export default function Register() {
   const [error, setError] = useState("");
+  const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
 
   /**
@@ -16,6 +17,7 @@ export default function Register() {
     }
 
     setError("");
+    setMessage("");
     if (formPassword !== confirmPassword) {
       setError("Les mots de passe ne correspondent pas");
       return;
@@ -24,10 +26,11 @@ export default function Register() {
     setLoading(true);
     try {
       await register(formEmail, formPassword, name);
-      window.location.href = "/";
+      setMessage("Compte créé. Consulte ta boîte mail et clique sur le lien de vérification avant de te connecter.");
     } catch (err) {
-      const message = err instanceof Error ? err.message : "Erreur lors de l'inscription";
-      setError(message);
+      const rawMessage = err instanceof Error ? err.message : "Erreur lors de l'inscription";
+      const normalized = String(rawMessage || "").trim();
+      setError(normalized || "Erreur lors de l'inscription");
     } finally {
       setLoading(false);
     }
@@ -38,6 +41,7 @@ export default function Register() {
       onSubmit={handleRegister}
       loading={loading}
       error={error}
+      message={message}
       initialMode="signup"
       submitLabel="S'inscrire"
       switchLabel="Déjà inscrit ?"

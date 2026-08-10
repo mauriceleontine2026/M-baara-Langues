@@ -2,9 +2,12 @@ import hashlib
 import os
 import re
 import secrets
+import smtplib
 import time
 import uuid
 from collections import defaultdict, deque
+from datetime import timedelta
+from email.message import EmailMessage
 
 from fastapi import APIRouter, HTTPException, Depends, Request, Response, status, Form
 from pydantic import BaseModel, EmailStr, Field, field_validator
@@ -18,8 +21,7 @@ from ..services.security import get_current_user, is_admin_email
 FIREBASE_PROJECT_ID = os.getenv("FIREBASE_PROJECT_ID", os.getenv("VITE_FIREBASE_PROJECT_ID"))
 FIREBASE_API_KEY = os.getenv("FIREBASE_API_KEY", os.getenv("VITE_FIREBASE_API_KEY"))
 FIREBASE_LOOKUP_URL = "https://identitytoolkit.googleapis.com/v1/accounts:lookup"
-RECAPTCHA_SECRET_KEY = os.getenv("RECAPTCHA_SECRET_KEY") or os.getenv("VITE_RECAPTCHA_SECRET_KEY")
-RECAPTCHA_VERIFY_URL = "https://www.google.com/recaptcha/api/siteverify"
+FRONTEND_URL = os.getenv("FRONTEND_URL", "https://m-baara-langues.web.app").rstrip("/")
 
 router = APIRouter()
 
@@ -111,41 +113,50 @@ class ResetPasswordConfirmRequest(BaseModel):
         return _validate_password_strength(value)
 
 
+class VerifyEmailRequest(BaseModel):
+    resetToken: str
+
+
 class UpdateMeRequest(BaseModel):
     full_name: str | None = None
     photo_url: str | None = None
 
 
 reset_tokens: dict[str, tuple[int, float]] = {}
-email_verification_tokens: dict[str, tuple[int, float]] = {}
 
 
 def _is_valid_email_address(email: str) -> bool:
     return bool(re.match(r"^[A-Za-z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+$", email.strip()))
 
 
-def verify_recaptcha_token(token: str | None, action: str = "login") -> None:
-    if not RECAPTCHA_SECRET_KEY:
-        return
-    if not token or not token.strip():
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Le test anti-bot est requis.")
+def _send_verification_email(user: User) -> None:
+    smtp_host = os.getenv("SMTP_HOST")
+    smtp_user = os.getenv("SMTP_USER")
+    smtp_password = os.getenv("SMTP_PASSWORD")
+    if not smtp_host or not smtp_user or not smtp_password:
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le service d'envoi d'e-mails n'est pas configuré.")
 
+    token = security.create_access_token(
+        {"sub": str(user.id), "email": user.email, "purpose": "email_verification"},
+        expires_delta=timedelta(minutes=15),
+    )
+    message = EmailMessage()
+    message["Subject"] = "Confirme ton adresse e-mail - M'baara Langues"
+    message["From"] = os.getenv("SMTP_FROM", smtp_user)
+    message["To"] = user.email
+    message.set_content(
+        "Bienvenue sur M'baara Langues !\n\n"
+        "Confirme ton adresse e-mail dans les 15 minutes :\n"
+        f"{FRONTEND_URL}/verify-email?token={token}\n\n"
+        "Si tu n'es pas à l'origine de cette inscription, ignore ce message."
+    )
     try:
-        response = httpx.post(
-            RECAPTCHA_VERIFY_URL,
-            data={"secret": RECAPTCHA_SECRET_KEY, "response": token.strip(), "remoteip": None},
-            timeout=10.0,
-        )
-        response.raise_for_status()
-        payload = response.json()
-        if not payload.get("success"):
-            raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Échec de la vérification anti-bot.")
-        if payload.get("action") and action and payload.get("action") != action:
-            raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Action anti-bot invalide.")
-    except HTTPException:
-        raise
+        with smtplib.SMTP(smtp_host, int(os.getenv("SMTP_PORT", "587")), timeout=15) as smtp:
+            smtp.starttls()
+            smtp.login(smtp_user, smtp_password)
+            smtp.send_message(message)
     except Exception as exc:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Vérification anti-bot indisponible.") from exc
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Impossible d'envoyer l'e-mail de vérification.") from exc
 
 
 def _verify_firebase_id_token(id_token_value: str) -> dict:
@@ -312,30 +323,25 @@ def request_email_verification(request: Request, payload: ResetPasswordRequest, 
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Adresse e-mail invalide.")
     user = db.query(User).filter(User.email == email).first()
     if user:
-        token = secrets.token_urlsafe(32)
-        token_hash = hashlib.sha256(token.encode("utf-8")).hexdigest()
-        email_verification_tokens[token_hash] = (user.id, time.time() + (15 * 60))
-    return {"status": "ok"}
+        _send_verification_email(user)
+    return {"status": "ok", "message": "Si ce compte existe, un e-mail de vérification a été envoyé."}
 
 
 @router.post("/verify-email")
-def verify_email(request: Request, payload: ResetPasswordConfirmRequest, db: Session = Depends(get_db)):
+def verify_email(request: Request, payload: VerifyEmailRequest, db: Session = Depends(get_db)):
     _check_rate_limit(request)
-    token_hash = hashlib.sha256(payload.resetToken.encode("utf-8")).hexdigest()
-    stored = email_verification_tokens.get(token_hash)
-    if not stored:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid verification token")
-    user_id, expires_at = stored
-    if time.time() > expires_at:
-        del email_verification_tokens[token_hash]
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Verification token expired")
-    user = db.query(User).filter(User.id == user_id).first()
+    try:
+        token_data = security.decode_access_token(payload.resetToken)
+    except HTTPException as exc:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Lien de vérification invalide ou expiré.") from exc
+    if token_data.get("purpose") != "email_verification" or not token_data.get("sub"):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Lien de vérification invalide.")
+    user = db.query(User).filter(User.id == int(token_data["sub"]), User.email == token_data.get("email")).first()
     if not user:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     user.email_verified = True
     db.add(user)
     db.commit()
-    del email_verification_tokens[token_hash]
     return {"status": "ok", "email_verified": True}
 
 
@@ -349,11 +355,6 @@ def register(request: Request, response: Response, payload: RegisterRequest, db:
     if not _is_valid_email_address(normalized_email):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Adresse e-mail invalide.")
 
-    captcha_token = request.headers.get("x-captcha-token")
-    if RECAPTCHA_SECRET_KEY and (not captcha_token or not captcha_token.strip()):
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Le test anti-bot est requis.")
-    verify_recaptcha_token(captcha_token, "register")
-
     admin_email = is_admin_email(normalized_email)
     user = User(
         email=normalized_email,
@@ -363,11 +364,14 @@ def register(request: Request, response: Response, payload: RegisterRequest, db:
         email_verified=False,
     )
     db.add(user)
+    db.flush()
+    try:
+        _send_verification_email(user)
+    except HTTPException:
+        db.rollback()
+        raise
     db.commit()
-    db.refresh(user)
-    token = security.create_access_token({"sub": str(user.id), "email": user.email})
-    security.set_auth_cookies(response, token)
-    return {"access_token": token, "token_type": "bearer", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
+    return {"verification_required": True, "user": {"id": user.id, "email": user.email, "full_name": user.full_name}}
 
 
 @router.post("/register/form", status_code=status.HTTP_201_CREATED)
@@ -377,7 +381,6 @@ def register_form(
     email: str = Form(...),
     password: str = Form(...),
     full_name: str | None = Form(None),
-    captcha_token: str | None = Form(None),
     db: Session = Depends(get_db),
 ):
     """
@@ -392,10 +395,6 @@ def register_form(
     if not _is_valid_email_address(normalized_email):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Adresse e-mail invalide.")
 
-    if RECAPTCHA_SECRET_KEY and (not captcha_token or not str(captcha_token).strip()):
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Le test anti-bot est requis.")
-    verify_recaptcha_token(captcha_token, "register")
-
     admin_email = is_admin_email(normalized_email)
     user = User(
         email=normalized_email,
@@ -405,22 +404,20 @@ def register_form(
         email_verified=False,
     )
     db.add(user)
+    db.flush()
+    try:
+        _send_verification_email(user)
+    except HTTPException:
+        db.rollback()
+        raise
     db.commit()
-    db.refresh(user)
-    token = security.create_access_token({"sub": str(user.id), "email": user.email})
-    security.set_auth_cookies(response, token)
-    return {"access_token": token, "token_type": "bearer", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
+    return {"verification_required": True, "user": {"id": user.id, "email": user.email, "full_name": user.full_name}}
 
 
 @router.post("/login")
 def login(request: Request, response: Response, payload: LoginRequest, db: Session = Depends(get_db)):
     _check_rate_limit(request)
     normalized_email = _normalize_email(payload.email)
-
-    captcha_token = request.headers.get("x-captcha-token")
-    if RECAPTCHA_SECRET_KEY and (not captcha_token or not captcha_token.strip()):
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Le test anti-bot est requis.")
-    verify_recaptcha_token(captcha_token, "login")
 
     user = db.query(User).filter(User.email == normalized_email).first()
     if not user or not security.verify_password(payload.password, user.hashed_password):
@@ -448,7 +445,6 @@ def login_form(
     response: Response,
     email: str = Form(...),
     password: str = Form(...),
-    captcha_token: str | None = Form(None),
     db: Session = Depends(get_db),
 ):
     """
@@ -457,11 +453,6 @@ def login_form(
     """
     _check_rate_limit(request)
     normalized_email = _normalize_email(email)
-
-    # Accept captcha token from form body when present
-    if RECAPTCHA_SECRET_KEY and (not captcha_token or not str(captcha_token).strip()):
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Le test anti-bot est requis.")
-    verify_recaptcha_token(captcha_token, "login")
 
     user = db.query(User).filter(User.email == normalized_email).first()
     if not user or not security.verify_password(password, user.hashed_password):
