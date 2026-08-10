@@ -5,7 +5,7 @@ const normalizeText = (value) => String(value || "").trim().toLowerCase();
 
 // Synchronous fallback used by components that expect immediate curriculum data.
 export const getCurriculumForLanguageSync = (langCode) => {
-  if (isLocalLanguage(langCode)) return { levels: [] };
+  if (isLocalLanguage(langCode)) return lessonCurriculum;
   return lessonCurriculum;
 };
 

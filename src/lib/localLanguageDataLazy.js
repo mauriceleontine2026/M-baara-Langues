@@ -96,7 +96,7 @@ const getLanguageMetaFromFolder = (folderName) => {
     code,
     name,
     name_fr: name,
-    region: "Afrique",
+    region: "Monde",
     family: "",
     status: "active",
     flag_emoji: "🌍",

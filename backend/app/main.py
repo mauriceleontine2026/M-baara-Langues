@@ -28,6 +28,11 @@ for required_origin in ["https://m-baara-langues.web.app", "https://m-baara-lang
     if required_origin not in allowed_origins:
         allowed_origins.append(required_origin)
 
+# Allow local Vite preview ports so developers can run the built preview at localhost:4173
+for _local_origin in ["http://localhost:4173", "http://127.0.0.1:4173"]:
+    if _local_origin not in allowed_origins:
+        allowed_origins.append(_local_origin)
+
 if any(origin.strip() in {"*", "null"} for origin in allowed_origins):
     raise RuntimeError(
         "Insecure CORS configuration detected. allow_origins must contain only explicit trusted origins when credentials are enabled."
