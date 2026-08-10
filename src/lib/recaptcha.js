@@ -2,6 +2,22 @@ const DEFAULT_SITE_KEY = "6LcF7XstAAAAAOx7NTJcemisdJkDwT7Dgr7O7M36";
 
 let _scriptLoading = null;
 
+function waitForV2Renderer(resolve, reject) {
+  const startedAt = Date.now();
+  const check = () => {
+    if (window.grecaptcha && typeof window.grecaptcha.render === "function") {
+      resolve();
+      return;
+    }
+    if (Date.now() - startedAt > 10000) {
+      reject(new Error("Le widget reCAPTCHA v2 ne s'est pas initialisé."));
+      return;
+    }
+    setTimeout(check, 100);
+  };
+  check();
+}
+
 export function getRecaptchaSiteKey() {
   const configuredSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
   return configuredSiteKey?.trim() || DEFAULT_SITE_KEY;
@@ -18,7 +34,7 @@ export function loadRecaptcha(siteKey) {
       v2Script.src = "https://www.google.com/recaptcha/api.js?render=explicit";
       v2Script.async = true;
       v2Script.defer = true;
-      v2Script.onload = () => resolve();
+      v2Script.onload = () => waitForV2Renderer(resolve, reject);
       v2Script.onerror = () => reject(new Error("Échec du chargement du script reCAPTCHA v2."));
       document.head.appendChild(v2Script);
     } catch (err) {
