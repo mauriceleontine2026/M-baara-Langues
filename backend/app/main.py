@@ -28,11 +28,6 @@ for required_origin in ["https://m-baara-langues.web.app", "https://m-baara-lang
     if required_origin not in allowed_origins:
         allowed_origins.append(required_origin)
 
-# Allow local Vite preview ports so developers can run the built preview at localhost:4173
-for _local_origin in ["http://localhost:4173", "http://127.0.0.1:4173"]:
-    if _local_origin not in allowed_origins:
-        allowed_origins.append(_local_origin)
-
 if any(origin.strip() in {"*", "null"} for origin in allowed_origins):
     raise RuntimeError(
         "Insecure CORS configuration detected. allow_origins must contain only explicit trusted origins when credentials are enabled."
@@ -86,12 +81,13 @@ def _normalize_language_slug(value):
 
 
 def _seed_dictionary_content(db):
-    root = Path(__file__).resolve().parents[2] / "src" / "data"
-    if not root.exists():
+    root_candidates = [
+        Path(__file__).resolve().parents[2] / "src" / "data" / "dictionnaires",
+        Path(__file__).resolve().parents[2] / "src" / "Dictionnaires des langues de l'application M'Baara",
+    ]
+    root_candidates = [root for root in root_candidates if root.exists()]
+    if not root_candidates:
         return
-    # Candidate root directories to scan for language JSON data.
-    # Historically we used multiple possible locations; default to the canonical `src/data`.
-    root_candidates = [root]
 
     def _mark_language_active(language_code: str):
         language_row = db.query(Language).filter(Language.code == language_code).first()
@@ -128,10 +124,10 @@ def _seed_dictionary_content(db):
         "malinké": "malinke",
         "guerze": "guerze",
         "kpele": "guerze",
-        # Remove incorrect legacy alias spellings for Kônon.
-        # Keep only the canonical Kono language code.
-        "kono": "kono",
+        "kponon": "kono",
+        "konnon": "kono",
         "konon": "kono",
+        "kono": "kono",
         "bissa": "bissa",
         "kissi": "kissi",
         "kisi": "kissi",
@@ -248,9 +244,7 @@ def _seed_dictionary_content(db):
 
             processed_items = 0
             has_content = False
-            for json_file in sorted(language_dir.rglob("*.json")):
-                if not json_file.is_file():
-                    continue
+            for json_file in sorted(language_dir.glob("*.json")):
                 try:
                     with open(json_file, "r", encoding="utf-8") as fh:
                         payload = json.load(fh)
@@ -574,7 +568,7 @@ def _seed_default_languages():
             {"code": "swahili", "name": "Swahili", "name_fr": "Swahili", "region": "Afrique de l'Est", "family": "Bantoue", "status": "active", "color": "#004D40", "flag_emoji": "🌍", "total_lessons": 1, "description": "Langue africaine la plus parlée"},
             {"code": "bissa", "name": "Bissa", "name_fr": "Bissa", "region": "Burkina Faso", "family": "Gur", "status": "active", "color": "#558B2F", "flag_emoji": "🇧🇫", "total_lessons": 1, "description": "Langue du Burkina Faso"},
             {"code": "kissi", "name": "Kissi", "name_fr": "Kissi", "region": "Guinée Forestière", "family": "Atlantique", "status": "active", "color": "#AD1457", "flag_emoji": "🇬🇳", "total_lessons": 1, "description": "Langue de Guinée forestière"},
-            {"code": "kono", "name": "Kônon", "name_fr": "Kônon", "region": "Guinée / Guinée Forestière", "family": "Mandé", "status": "active", "color": "#6D4C41", "flag_emoji": "🇬🇳", "total_lessons": 1, "description": "Langue de Guinée forestière"},
+            {"code": "kono", "name": "Kono", "name_fr": "Kono", "region": "Guinée", "family": "Mandé", "status": "active", "color": "#6D4C41", "flag_emoji": "🇬🇳", "total_lessons": 1, "description": "Langue guinéenne"},
             {"code": "toma", "name": "Toma", "name_fr": "Toma", "region": "Guinée Forestière", "family": "Mandé", "status": "active", "color": "#1565C0", "flag_emoji": "🇬🇳", "total_lessons": 1, "description": "Langue forestière guinéenne"},
             {"code": "moore", "name": "Mooré", "name_fr": "Mooré", "region": "Burkina Faso", "family": "Gur", "status": "active", "color": "#EF6C00", "flag_emoji": "🇧🇫", "total_lessons": 1, "description": "Langue du Burkina Faso"},
             {"code": "wolof", "name": "Wolof", "name_fr": "Wolof", "region": "Sénégal", "family": "Atlantique", "status": "active", "color": "#1B5E20", "flag_emoji": "🇸🇳", "total_lessons": 1, "description": "Langue nationale du Sénégal"},
@@ -593,43 +587,15 @@ def _seed_default_languages():
             {"code": "chinois", "name": "中文", "name_fr": "Chinois (Mandarin)", "region": "Chine", "family": "Sino-tibétain", "status": "active", "color": "#C62828", "flag_emoji": "🇨🇳", "total_lessons": 20, "description": "Langue la plus parlée au monde"},
             {"code": "japonais", "name": "日本語", "name_fr": "Japonais", "region": "Japon", "family": "Japono-ryukyu", "status": "active", "color": "#AD1457", "flag_emoji": "🇯🇵", "total_lessons": 20, "description": "Langue du Japon"},
         ]
-            # Only add default languages that have a corresponding folder in src/data
-            data_root = Path(__file__).resolve().parents[2] / "src" / "data"
-            available_dirs = set()
-            if data_root.exists():
-                for d in data_root.iterdir():
-                    if d.is_dir():
-                        available_dirs.add(_normalize_language_slug(d.name))
-
             for payload in default_languages:
-                code_norm = _normalize_language_slug(payload.get("code"))
-                if code_norm in available_dirs:
-                    db.add(Language(**payload))
+                db.add(Language(**payload))
             db.commit()
             existing_languages = {lang.code: lang for lang in db.query(Language).all()}
 
-        kono_row = db.query(Language).filter(Language.code == "kono").first()
-        if kono_row is None:
-            db.add(Language(
-                code="kono",
-                name="Kônon",
-                name_fr="Kônon",
-                region="Guinée / Guinée Forestière",
-                family="Mandé",
-                status="active",
-                color="#6D4C41",
-                flag_emoji="🇬🇳",
-                total_lessons=20,
-                description="Langue de Guinée forestière",
-            ))
-            db.commit()
-
-        french_row = db.query(Language).filter(Language.code == "francais").first()
-        if french_row:
-            french_row.status = "archived"
-            db.commit()
-
         lesson_seed = [
+            {"title": "Saluer", "language_code": "francais", "lesson_number": 1, "difficulty": "beginner", "content": "Commencez par saluer en français.", "published": True},
+            {"title": "Se présenter", "language_code": "francais", "lesson_number": 2, "difficulty": "beginner", "content": "Apprenez à vous présenter.", "published": True},
+            {"title": "Commander à manger", "language_code": "francais", "lesson_number": 3, "difficulty": "beginner", "content": "Apprenez à commander au restaurant avec des phrases simples.", "published": True},
             {"title": "Les bases", "language_code": "anglais", "lesson_number": 1, "difficulty": "beginner", "content": "Start with everyday English words.", "published": True},
             {"title": "Se présenter", "language_code": "bissa", "lesson_number": 1, "difficulty": "beginner", "content": "Apprenez les premiers mots du bissa.", "published": True},
         ]
@@ -640,6 +606,14 @@ def _seed_default_languages():
         db.commit()
 
         vocabulary_seed = [
+            {"language_code": "francais", "lesson_number": 1, "word": "bonjour", "translation_fr": "bonjour", "phonetic": "bɔ̃.ʒuʁ", "example_target": "Bonjour !", "example_fr": "Bonjour !", "difficulty": "beginner"},
+            {"language_code": "francais", "lesson_number": 1, "word": "merci", "translation_fr": "merci", "phonetic": "mɛʁ.si", "example_target": "Merci beaucoup", "example_fr": "Merci beaucoup", "difficulty": "beginner"},
+            {"language_code": "francais", "lesson_number": 2, "word": "je", "translation_fr": "je", "phonetic": "ʒə", "example_target": "Je m'appelle Mali", "example_fr": "Je m'appelle Mali", "difficulty": "beginner"},
+            {"language_code": "francais", "lesson_number": 2, "word": "m'appelle", "translation_fr": "m'appelle", "phonetic": "ma.pɛl", "example_target": "Je m'appelle Awa", "example_fr": "Je m'appelle Awa", "difficulty": "beginner"},
+            {"language_code": "francais", "lesson_number": 3, "word": "croissant", "translation_fr": "croissant", "phonetic": "kʁwa.sɑ̃", "example_target": "Je voudrais un croissant.", "example_fr": "Je voudrais un croissant.", "difficulty": "beginner"},
+            {"language_code": "francais", "lesson_number": 3, "word": "café", "translation_fr": "coffee", "phonetic": "ka.fe", "example_target": "Je voudrais un café.", "example_fr": "Je voudrais un café.", "difficulty": "beginner"},
+            {"language_code": "francais", "lesson_number": 3, "word": "s'il vous plaît", "translation_fr": "please", "phonetic": "sil vu plɛ", "example_target": "Un jus d'orange, s'il vous plaît.", "example_fr": "Un jus d'orange, s'il vous plaît.", "difficulty": "beginner"},
+            {"language_code": "francais", "lesson_number": 3, "word": "l'addition", "translation_fr": "the bill", "phonetic": "la.di.sjɔ̃", "example_target": "L'addition, s'il vous plaît.", "example_fr": "L'addition, s'il vous plaît.", "difficulty": "beginner"},
             {"language_code": "anglais", "lesson_number": 1, "word": "hello", "translation_fr": "bonjour", "phonetic": "həˈloʊ", "example_target": "Hello there", "example_fr": "Bonjour à tous", "difficulty": "beginner"},
             {"language_code": "anglais", "lesson_number": 1, "word": "thank you", "translation_fr": "merci", "phonetic": "θæŋk ju", "example_target": "Thank you very much", "example_fr": "Merci beaucoup", "difficulty": "beginner"},
             {"language_code": "bissa", "lesson_number": 1, "word": "sanu", "translation_fr": "salut", "phonetic": "sa.nu", "example_target": "Sanu yé", "example_fr": "Salut à toi", "difficulty": "beginner"},
@@ -655,18 +629,6 @@ def _seed_default_languages():
                 db.add(VocabularyItem(**payload))
         db.commit()
 
-        # Keep the API aligned with canonical local data: the empty French
-        # artifact is archived, while Kônon remains active with its location.
-        french_row = db.query(Language).filter(Language.code == "francais").first()
-        if french_row:
-            french_row.status = "archived"
-        kono_row = db.query(Language).filter(Language.code == "kono").first()
-        if kono_row:
-            kono_row.status = "active"
-            kono_row.region = "Guinée / Guinée Forestière"
-            kono_row.description = "Langue de Guinée forestière"
-        db.commit()
-
         _seed_dictionary_content(db)
         _seed_missing_lessons(db, min_lessons=20)
     finally:
@@ -680,7 +642,7 @@ app.add_middleware(
     allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-    allow_headers=["Authorization", "Content-Type", "X-CSRF-Token", "X-Captcha-Token"],
+    allow_headers=["Authorization", "Content-Type", "X-CSRF-Token"],
     expose_headers=["Content-Type", "Set-Cookie", "Authorization"],
     max_age=600,
 )
@@ -697,39 +659,10 @@ async def csrf_protect(request, call_next):
     if request.method in {"POST", "PUT", "PATCH", "DELETE"}:
         cookie_token = request.cookies.get(security.ACCESS_TOKEN_COOKIE_NAME)
         header_auth = request.headers.get("authorization")
-        # Certain auth-related endpoints (login/register/firebase) should be
-        # allowed without CSRF even when an access cookie exists because they
-        # are used to establish or refresh authentication rather than perform
-        # actions in the context of an existing session.
-        exempt_paths = {
-            "/api/auth/login",
-            "/api/auth/login/form",
-            "/api/auth/register",
-            "/api/auth/register/form",
-            "/api/auth/firebase",
-            "/api/auth/firebase/form",
-        }
-        if cookie_token and not header_auth and request.url.path not in exempt_paths:
+        if cookie_token and not header_auth:
             csrf_cookie = request.cookies.get(security.CSRF_COOKIE_NAME)
             csrf_header = request.headers.get(security.CSRF_HEADER_NAME)
-            csrf_form = None
-            
-            # For form submissions, also check for CSRF token in the request body
-            content_type = request.headers.get("content-type", "")
-            if "application/x-www-form-urlencoded" in content_type or "multipart/form-data" in content_type:
-                try:
-                    # Read the body for form-based CSRF token
-                    body = await request.body()
-                    if body:
-                        from urllib.parse import parse_qs
-                        parsed = parse_qs(body.decode())
-                        csrf_form = parsed.get("_csrf_token", [None])[0]
-                except Exception:
-                    pass
-            
-            # Validate CSRF token from header or form
-            csrf_provided = csrf_header or csrf_form
-            if not csrf_cookie or not csrf_provided or not secrets.compare_digest(csrf_cookie, csrf_provided):
+            if not csrf_cookie or not csrf_header or not secrets.compare_digest(csrf_cookie, csrf_header):
                 return JSONResponse(status_code=403, content={"detail": "CSRF token missing or invalid"})
     return await call_next(request)
 
@@ -749,7 +682,7 @@ async def add_security_headers(request, call_next):
         "default-src 'self'; "
         "img-src 'self' data: https:; "
         "style-src 'self' 'unsafe-inline'; "
-        "script-src 'self' https://www.google.com https://www.gstatic.com; "
+        "script-src 'self'; "
         "frame-ancestors 'none'; "
         "base-uri 'self'"
     )

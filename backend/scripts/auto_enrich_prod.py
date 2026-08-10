@@ -3,7 +3,7 @@ from pathlib import Path
 import unicodedata, re
 
 BASE = 'https://mbaara-backend.vercel.app'
-DICT_ROOT = Path(__file__).resolve().parents[2] / 'src' / 'data'
+DICT_ROOT = Path(__file__).resolve().parents[2] / 'src' / 'data' / 'dictionnaires'
 
 # normalization helpers
 
@@ -103,9 +103,7 @@ for folder in sorted(DICT_ROOT.iterdir()):
     # if language not known, skip (API will ignore unknown codes)
     existing = get_existing_words(lang_code)
     print('Processing', folder.name, 'as', lang_code, 'existing_count=', len(existing))
-    for json_file in sorted(folder.rglob('*.json')):
-        if not json_file.is_file():
-            continue
+    for json_file in sorted(folder.glob('*.json')):
         try:
             payload = json.loads(json_file.read_text(encoding='utf-8'))
         except Exception as e:

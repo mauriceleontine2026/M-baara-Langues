@@ -1,44 +1,36 @@
 import { useMemo, useState, useEffect } from "react";
-import { getRecaptchaSiteKey, loadRecaptcha, renderRecaptcha } from "@/lib/recaptcha";
+import { getRecaptchaSiteKey, loadRecaptcha } from "@/lib/recaptcha";
 import { ArrowRight, Chrome, Lock, Mail, Sparkles, UserRound } from "lucide-react";
 
 function RecaptchaStatus() {
-  const [status, setStatus] = useState({ state: "loading", message: "" });
+  const [status, setStatus] = useState("loading");
 
   useEffect(() => {
     let mounted = true;
     const siteKey = getRecaptchaSiteKey();
     if (!siteKey) {
-      if (mounted) setStatus({ state: "missing", message: "Aucune clé reCAPTCHA fournie." });
+      if (mounted) setStatus("missing");
       return;
     }
     loadRecaptcha(siteKey)
       .then(() => {
         if (!mounted) return;
         const ready = !!(window.grecaptcha && (window.grecaptcha.enterprise || window.grecaptcha.render));
-        setStatus({
-          state: ready ? "ready" : "failed",
-          message: ready ? "" : "Le service reCAPTCHA ne s'est pas initialisé.",
-        });
+        setStatus(ready ? "ready" : "failed");
       })
-      .catch((error) => {
+      .catch(() => {
         if (!mounted) return;
-        setStatus({ state: "failed", message: error?.message || String(error) });
+        setStatus("failed");
       });
     return () => {
       mounted = false;
     };
   }, []);
 
-  if (status.state === "loading") return <span>Chargement reCAPTCHA…</span>;
-  if (status.state === "ready") return <span className="inline-flex items-center gap-2"><span className="h-2 w-2 rounded-full bg-emerald-500" />reCAPTCHA actif</span>;
-  if (status.state === "missing") return <span>Clé reCAPTCHA manquante</span>;
-  return (
-    <span className="flex flex-col gap-1 text-sm text-foreground">
-      <span>reCAPTCHA indisponible — rechargez la page</span>
-      {status.message ? <span className="text-xs text-muted-foreground">{status.message}</span> : null}
-    </span>
-  );
+  if (status === "loading") return <span>Chargement reCAPTCHA…</span>;
+  if (status === "ready") return <span className="inline-flex items-center gap-2"><span className="h-2 w-2 rounded-full bg-emerald-500" />reCAPTCHA actif</span>;
+  if (status === "missing") return <span>Clé reCAPTCHA manquante</span>;
+  return <span>reCAPTCHA indisponible — rechargez la page</span>;
 }
 
 /**
@@ -100,21 +92,21 @@ export default function AuthSplitPanel(props) {
   };
 
   useEffect(() => {
+    // render a visible v2 checkbox if v2 is used
     const siteKey = getRecaptchaSiteKey();
-    const containerId = "mbaara-recaptcha-container";
-    const el = document.getElementById(containerId);
-    if (!el || !siteKey) return;
-
-    let cancelled = false;
-    renderRecaptcha(containerId, siteKey).catch(() => {
-      if (!cancelled) {
-        // If render fails, we still want the status component to handle it.
+    try {
+      // container id is static per page instance
+      const containerId = "mbaara-recaptcha-container";
+      const el = document.getElementById(containerId);
+      if (el) {
+        // ignore promise result; rendering is idempotent
+        import("@/lib/recaptcha").then(({ renderRecaptcha }) => {
+          renderRecaptcha(containerId, siteKey).catch(() => {});
+        });
       }
-    });
-
-    return () => {
-      cancelled = true;
-    };
+    } catch (e) {
+      // no-op
+    }
   }, []);
 
   return (

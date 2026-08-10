@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useAuth } from "@/lib/AuthContext";
 import { getLanguageByCode, getLessonsForLanguage, getVocabularyForLanguage, getVocabularyForLesson } from "@/api/languageService";
@@ -14,9 +14,8 @@ import {
   getAvailableState,
   getBeginnerCompletionStatus,
   getLockMessageForModule,
+  getCurriculumForLanguageExport,
 } from "@/lib/curriculumGate";
-import { getCurriculumForLanguageSync, getCurriculumForLanguageAsync } from "@/lib/curriculumGate";
-import { isLocalLanguage } from "@/lib/localLanguageDataLazy";
 
 export default function Lesson() {
   const { langCode, lessonNum } = useParams();
@@ -41,12 +40,11 @@ export default function Lesson() {
   const [lessonLockedMessage, setLessonLockedMessage] = useState("");
   const [lessonLocked, setLessonLocked] = useState(false);
   const online = useOnlineStatus();
-  const [curriculum, setCurriculum] = useState(() => getCurriculumForLanguageSync(langCode));
 
   const getExerciseRecords = () => {
     if (typeof window === "undefined") return {};
-    const curriculumData = curriculum || getCurriculumForLanguageSync(langCode);
-    return curriculumData.levels.reduce((acc, level) => {
+    const curriculum = getCurriculumForLanguageExport(langCode);
+    return curriculum.levels.reduce((acc, level) => {
       level.modules.forEach((module) => {
         const raw = window.localStorage.getItem(`mbaara-exercise-${langCode}-${module.id}`);
         if (!raw) {
@@ -62,13 +60,6 @@ export default function Lesson() {
       return acc;
     }, {});
   };
-
-  useEffect(() => {
-    setCurriculum(getCurriculumForLanguageSync(langCode));
-    if (isLocalLanguage(langCode)) {
-      getCurriculumForLanguageAsync(langCode).then((c) => setCurriculum(c)).catch(() => {});
-    }
-  }, [langCode]);
 
   useEffect(() => {
     const safeLangCode = langCode || "";

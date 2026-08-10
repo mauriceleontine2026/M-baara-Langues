@@ -27,7 +27,7 @@ LANGUAGE_LABELS = {
     "swahili": "Swahili",
     "bissa": "Bissa",
     "kissi": "Kissi",
-    "kono": "Kônon",
+    "kono": "Kono",
     "toma": "Toma",
     "moore": "Mooré",
     "pular": "Pular",

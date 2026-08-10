@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import { useAuth } from "@/lib/AuthContext";
 import { getLanguages, getVocabularyForLanguage, getLessonsForLanguage } from "@/api/languageService";
 import { getProgress } from "@/api/progressService";
-import { ArrowLeft, ArrowRight, Download, Trash2, WifiOff, Loader2 } from "lucide-react";
+import { ArrowLeft, ArrowRight, Lock, CheckCircle, BookOpen, Download, Trash2, WifiOff, Loader2 } from "lucide-react";
 import LanguageFlag from "@/components/ui/LanguageFlag";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 import { downloadLanguageOffline, isLanguageDownloaded, removeLanguageOffline, getOfflineVocab, getOfflineLanguages } from "@/lib/offlineStorage";
@@ -12,10 +12,8 @@ import {
   getBeginnerCompletionStatus,
   getAvailableState,
   getLockMessageForModule,
-  getCurriculumForLanguageSync,
-  getCurriculumForLanguageAsync,
+  getCurriculumForLanguageExport,
 } from "@/lib/curriculumGate";
-import { isLocalLanguage } from "@/lib/localLanguageDataLazy";
 
 export default function Learn() {
   const { langCode } = useParams();
@@ -34,7 +32,6 @@ export default function Learn() {
   const online = useOnlineStatus();
   const [downloaded, setDownloaded] = useState(false);
   const [downloading, setDownloading] = useState(false);
-  const [curriculum, setCurriculum] = useState(() => getCurriculumForLanguageSync(langCode));
 
   useEffect(() => {
     if (online) {
@@ -68,12 +65,6 @@ export default function Learn() {
   useEffect(() => {
     if (langCode) {
       setDownloaded(isLanguageDownloaded(langCode));
-      // load curriculum: sync fallback then async for local languages
-      setCurriculum(getCurriculumForLanguageSync(langCode));
-      if (isLocalLanguage(langCode)) {
-        getCurriculumForLanguageAsync(langCode).then((c) => setCurriculum(c)).catch(() => {});
-      }
-
       if (online) {
         Promise.all([
           getVocabularyForLanguage(langCode),
@@ -143,8 +134,8 @@ export default function Learn() {
   };
 
   const getExerciseRecords = () => {
-    const curriculumData = curriculum || getCurriculumForLanguageSync(langCode);
-    return curriculumData.levels.reduce((acc, level) => {
+    const curriculum = getCurriculumForLanguageExport(langCode);
+    return curriculum.levels.reduce((acc, level) => {
       level.modules.forEach((module) => {
         acc[module.id] = readExerciseRecord(module.id);
       });
@@ -217,7 +208,7 @@ export default function Learn() {
             <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-primary">Curriculum</span>
           </div>
           <div className="space-y-4">
-            { (curriculum || getCurriculumForLanguageSync(langCode)).levels.map((level, levelIndex) => {
+            {getCurriculumForLanguageExport(langCode).levels.map((level, levelIndex) => {
               const exerciseRecords = getExerciseRecords();
               const beginnerStatus = getBeginnerCompletionStatus(completed, exerciseRecords, 70, langCode);
               const levelModulesState = level.modules.map((module, moduleIndex) => ({

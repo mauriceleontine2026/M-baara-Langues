@@ -64,9 +64,6 @@ class LanguageCreateRequest(BaseModel):
 @router.get("")
 def list_languages(status: str | None = None, db: Session = Depends(get_db)):
     query = db.query(Language)
-    # The former French local-data artifact was empty and is no longer a
-    # supported learning language. Keep stale database rows out of the API.
-    query = query.filter(Language.code != "francais")
     if status:
         query = query.filter(Language.status == status)
     languages = query.order_by(Language.name.asc()).all()
@@ -90,8 +87,6 @@ def list_languages(status: str | None = None, db: Session = Depends(get_db)):
 
 @router.get("/{code}")
 def get_language(code: str, db: Session = Depends(get_db)):
-    if code.strip().lower() == "francais":
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Language not found")
     language = db.query(Language).filter(Language.code == code).first()
     if not language:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Language not found")

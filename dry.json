@@ -4,8 +4,8 @@
     "slug": "vite"
   },
   "basePath": "C:\\Users\\mauri\\Desktop\\Mes Applications\\M'baara",
-  "fileCount": 195,
-  "totalSize": 3734473,
+  "fileCount": 239,
+  "totalSize": 159836534,
   "ignoredCount": 23,
   "ignored": [
     ".env.local",
@@ -220,64 +220,64 @@
   ],
   "largestFiles": [
     {
-      "path": "dist/assets/index-DTuct7KG.js",
-      "size": 822208,
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire-Mooré (Burkina Faso).pdf",
+      "size": 30561271,
       "mode": 33206,
-      "sha": "a28f724ffe452d39d91a4aa572e2a0335486366c"
+      "sha": "fafc5a5c11d1277707388036f5d1599e1dea8014"
     },
     {
-      "path": "dist/assets/logo-CkQ0Ukmc.png",
-      "size": 405682,
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire-Fulfulde (Burkina Faso).pdf",
+      "size": 26002569,
       "mode": 33206,
-      "sha": "e0a4a13bc144371e84badeb9e641cd16046f0993"
+      "sha": "a2ddcb802ae1488b4a2a8a717b7445b715d08138"
     },
     {
-      "path": "dist/logo.png",
-      "size": 405682,
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Wolof (Sénégal).pdf",
+      "size": 20291453,
       "mode": 33206,
-      "sha": "e0a4a13bc144371e84badeb9e641cd16046f0993"
+      "sha": "f3911180ae22461fe3420ccf4a470e8ee878ede5"
     },
     {
-      "path": "public/logo.png",
-      "size": 405682,
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Dioula (Burkina Faso).pdf",
+      "size": 18770654,
       "mode": 33206,
-      "sha": "e0a4a13bc144371e84badeb9e641cd16046f0993"
+      "sha": "424cceb8c2d2212f8d0d29c26087d79e4b152785"
     },
     {
-      "path": "src/logo/logo.png",
-      "size": 405682,
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Toma (Loma) (Guinée).pdf",
+      "size": 14855564,
       "mode": 33206,
-      "sha": "e0a4a13bc144371e84badeb9e641cd16046f0993"
+      "sha": "db14adad4f3701a24f4d692a0a1dec52e4c22703"
     },
     {
-      "path": "package-lock.json",
-      "size": 403843,
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Malinké (Guinée).pdf",
+      "size": 13255402,
       "mode": 33206,
-      "sha": "176cdb3b8886a55b9ec943a439bdd2c2babbbd92"
+      "sha": "041f99fda6fbb1dd286dc484ab859c737a4e6763"
     },
     {
-      "path": "vercel-backend-logs.json",
-      "size": 116196,
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Kissi (Kisi) (Guinée).pdf",
+      "size": 12291725,
       "mode": 33206,
-      "sha": "4896ccd5ce7f865634b3d1551ed0e00473c83964"
+      "sha": "22c7ce40b8b7e560a946aff9811bd683d19de284"
     },
     {
-      "path": "mbaara.db",
-      "size": 94208,
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Soso (Soussou) (Guinée).pdf",
+      "size": 7527483,
       "mode": 33206,
-      "sha": "a59a2df4872065932c11d360d70dd1db0f434555"
+      "sha": "b42bb8fe37f9f71f6098312615a8b93104477a39"
     },
     {
-      "path": "dist/assets/index-Pk9-SpJS.css",
-      "size": 83736,
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Pulaar (Poular ou Pular) (Guinée).pdf",
+      "size": 5973102,
       "mode": 33206,
-      "sha": "43658fa0f77609fcddedc638b4a0eb20ecaaec62"
+      "sha": "d248555014be89b5417e6a23019070bbcab978af"
     },
     {
-      "path": "src/M'baara-openapi-spec.json",
-      "size": 75829,
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Bissa (Burkina Faso).pdf",
+      "size": 3798549,
       "mode": 33206,
-      "sha": "ebcfd6debff2a34881b347e124d2f8f891fb8cf9"
+      "sha": "4ed8cb7db7c6c498a160979a5b4983b823acb6f4"
     }
   ],
   "files": [
@@ -1195,6 +1195,264 @@
       "size": 1052,
       "mode": 33206,
       "sha": "98e16cbc1bf7dc4f69b0b5ef8f22096145b20b0c"
+    },
+    {
+      "path": "src/data/dictionnaires/Allemand/leçon_1-20.json",
+      "size": 1540,
+      "mode": 33206,
+      "sha": "612108e9b77f899610542284d2f307d2e67e4bf5"
+    },
+    {
+      "path": "src/data/dictionnaires/Anglais/leçon_1-20.json",
+      "size": 1476,
+      "mode": 33206,
+      "sha": "70d0bf0559ea32cdd50a1a9404a36f16b1b9acb0"
+    },
+    {
+      "path": "src/data/dictionnaires/Arabe/leçon_1-20.json",
+      "size": 1541,
+      "mode": 33206,
+      "sha": "f64765092dea575ddf25b7f92339414670eef43f"
+    },
+    {
+      "path": "src/data/dictionnaires/ARCHIVE_METADATA.json",
+      "size": 814,
+      "mode": 33206,
+      "sha": "3640f7f363f9c86e46deab45b77dc451eb54a062"
+    },
+    {
+      "path": "src/data/dictionnaires/Bissa/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Chinois (mandarin)/leçon_1-20.json",
+      "size": 1478,
+      "mode": 33206,
+      "sha": "f152e4b270bf20905e658a6682278e1ba2f6972d"
+    },
+    {
+      "path": "src/data/dictionnaires/Dioula/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Espagnol/leçon_1-20.json",
+      "size": 1455,
+      "mode": 33206,
+      "sha": "69def7eeaf4f4a75485d9e9f171d2b9e56ba86b3"
+    },
+    {
+      "path": "src/data/dictionnaires/Français/leçon_1-20.json",
+      "size": 1472,
+      "mode": 33206,
+      "sha": "78c221e8c5ece04c8b702b76f12f64ad99d40929"
+    },
+    {
+      "path": "src/data/dictionnaires/Fulfulde/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Guerzé/leçons_1-20.json",
+      "size": 56283,
+      "mode": 33206,
+      "sha": "19d5f7a0484ecac1e0e200ab098e50214468acca"
+    },
+    {
+      "path": "src/data/dictionnaires/Hindi/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Igbo/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Italien/leçon_1-20.json",
+      "size": 1478,
+      "mode": 33206,
+      "sha": "d29c265cca2248504a3a55ac2187d0dfc2e26a4e"
+    },
+    {
+      "path": "src/data/dictionnaires/Japonais/leçon_1-20.json",
+      "size": 1605,
+      "mode": 33206,
+      "sha": "18d43e9707db8ebaacfd912ce09ad2124b7940c6"
+    },
+    {
+      "path": "src/data/dictionnaires/Kissi/leçons_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Kônôn/leçons_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Lingala/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Malinké/leçons_1-20.json",
+      "size": 37120,
+      "mode": 33206,
+      "sha": "77377fe76307df06fd0a2bf51c0564ac5bf79cfe"
+    },
+    {
+      "path": "src/data/dictionnaires/Mooré/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Nouchi/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Portugais/leçon_1-20.json",
+      "size": 1478,
+      "mode": 33206,
+      "sha": "8d96746419522ed3fda7042725c4269d8d97a8ff"
+    },
+    {
+      "path": "src/data/dictionnaires/Pular/leçons_1-20.json",
+      "size": 55058,
+      "mode": 33206,
+      "sha": "fd412a75f205f7f02c321622c05c87f6887efc21"
+    },
+    {
+      "path": "src/data/dictionnaires/Russe/leçon_1-20.json",
+      "size": 1603,
+      "mode": 33206,
+      "sha": "df0c12b33c2f1309775fa6d738734aa6a5013d68"
+    },
+    {
+      "path": "src/data/dictionnaires/Soussou/leçons_1-20.json",
+      "size": 51289,
+      "mode": 33206,
+      "sha": "fa7ed72095a64b30e5ca5943c46d15be30ef7c7e"
+    },
+    {
+      "path": "src/data/dictionnaires/Swahili/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Toma/leçons_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Wolof/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/data/dictionnaires/Yoruba/leçon_1-20.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Bissa (Burkina Faso).pdf",
+      "size": 3798549,
+      "mode": 33206,
+      "sha": "4ed8cb7db7c6c498a160979a5b4983b823acb6f4"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Dioula (Burkina Faso).pdf",
+      "size": 18770654,
+      "mode": 33206,
+      "sha": "424cceb8c2d2212f8d0d29c26087d79e4b152785"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Kissi (Kisi) (Guinée).pdf",
+      "size": 12291725,
+      "mode": 33206,
+      "sha": "22c7ce40b8b7e560a946aff9811bd683d19de284"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Kpele (Guerzé) (Guinée).pdf",
+      "size": 1206334,
+      "mode": 33206,
+      "sha": "65b27f98b207d0ab63d276cfa756686be5b2b75c"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Lingala (Congo).pdf",
+      "size": 866549,
+      "mode": 33206,
+      "sha": "b0e20f8657befbc094753d6df05e61206b94888f"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Malinké (Guinée).pdf",
+      "size": 13255402,
+      "mode": 33206,
+      "sha": "041f99fda6fbb1dd286dc484ab859c737a4e6763"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Nouchi (Cote d'Ivoire).pdf",
+      "size": 114662,
+      "mode": 33206,
+      "sha": "eb1ea39aa7bfe5cdd25fd3be8bb3512071f1cba1"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Nouchi (Ivoire).pdf",
+      "size": 365020,
+      "mode": 33206,
+      "sha": "d872e56f5feb1eb17a599e6a5b966a7cce8a6834"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Pulaar (Poular ou Pular) (Guinée).pdf",
+      "size": 5973102,
+      "mode": 33206,
+      "sha": "d248555014be89b5417e6a23019070bbcab978af"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Soso (Soussou) (Guinée).pdf",
+      "size": 7527483,
+      "mode": 33206,
+      "sha": "b42bb8fe37f9f71f6098312615a8b93104477a39"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Toma (Loma) (Guinée).pdf",
+      "size": 14855564,
+      "mode": 33206,
+      "sha": "db14adad4f3701a24f4d692a0a1dec52e4c22703"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire Wolof (Sénégal).pdf",
+      "size": 20291453,
+      "mode": 33206,
+      "sha": "f3911180ae22461fe3420ccf4a470e8ee878ede5"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire-Fulfulde (Burkina Faso).pdf",
+      "size": 26002569,
+      "mode": 33206,
+      "sha": "a2ddcb802ae1488b4a2a8a717b7445b715d08138"
+    },
+    {
+      "path": "src/Dictionnaires des langues de l'application M'Baara/Dictionnaire-Mooré (Burkina Faso).pdf",
+      "size": 30561271,
+      "mode": 33206,
+      "sha": "fafc5a5c11d1277707388036f5d1599e1dea8014"
     },
     {
       "path": "src/google-services.json",
