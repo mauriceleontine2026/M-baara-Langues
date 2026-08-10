@@ -85,12 +85,7 @@ export const firebaseAuth = auth;
 
 export async function signInWithGoogle() {
   if (!useFirebase || !firebaseConfigIsValid || !auth) {
-    throw new Error(
-      "Firebase n'est pas configuré pour Google Sign-In. " +
-      "Vérifiez que VITE_USE_FIREBASE=true et que les variables VITE_FIREBASE_API_KEY, " +
-      "VITE_FIREBASE_AUTH_DOMAIN, VITE_FIREBASE_PROJECT_ID, VITE_FIREBASE_STORAGE_BUCKET, " +
-      "VITE_FIREBASE_MESSAGING_SENDER_ID et VITE_FIREBASE_APP_ID sont définies."
-    );
+    throw new Error("Firebase n'est pas configuré pour Google Sign-In.");
   }
 
   const provider = new GoogleAuthProvider();

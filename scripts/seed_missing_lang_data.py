@@ -50,7 +50,7 @@ language_data = {
         {'langue_cible': 'Iya', 'francais': 'Oui', 'exemple_langue_cible': 'Iya, a ka.', 'exemple_francais': 'Oui, c’est bien.', 'phonetique': 'i-ya', 'categorie': 'réponses'},
         {'langue_cible': 'Baa', 'francais': 'Merci', 'exemple_langue_cible': 'Baa, nɛmɛ.', 'exemple_francais': 'Merci, ami.', 'phonetique': 'baa', 'categorie': 'politesse'},
     ]),
-    'Kônon': ('kono', [
+    'Kônôn': ('kono', [
         {'langue_cible': 'Bɛ', 'francais': 'Bonjour', 'exemple_langue_cible': 'Bɛ, sa!', 'exemple_francais': 'Bonjour, toi !', 'phonetique': 'be', 'categorie': 'salutations'},
         {'langue_cible': 'Aye', 'francais': 'Oui', 'exemple_langue_cible': 'Aye, ma zɛ.', 'exemple_francais': 'Oui, je viens.', 'phonetique': 'a-ye', 'categorie': 'réponses'},
         {'langue_cible': 'Sɛ', 'francais': 'Merci', 'exemple_langue_cible': 'Sɛ, nɛ.', 'exemple_francais': 'Merci, ami.', 'phonetique': 'se', 'categorie': 'politesse'},

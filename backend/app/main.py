@@ -124,8 +124,9 @@ def _seed_dictionary_content(db):
         "malinké": "malinke",
         "guerze": "guerze",
         "kpele": "guerze",
-        # Remove incorrect legacy alias spellings for Kônon.
-        # Keep only the canonical Kono language code.
+        "kponon": "kono",
+        "konnon": "kono",
+        "konon": "kono",
         "kono": "kono",
         "bissa": "bissa",
         "kissi": "kissi",
@@ -567,7 +568,7 @@ def _seed_default_languages():
             {"code": "swahili", "name": "Swahili", "name_fr": "Swahili", "region": "Afrique de l'Est", "family": "Bantoue", "status": "active", "color": "#004D40", "flag_emoji": "🌍", "total_lessons": 1, "description": "Langue africaine la plus parlée"},
             {"code": "bissa", "name": "Bissa", "name_fr": "Bissa", "region": "Burkina Faso", "family": "Gur", "status": "active", "color": "#558B2F", "flag_emoji": "🇧🇫", "total_lessons": 1, "description": "Langue du Burkina Faso"},
             {"code": "kissi", "name": "Kissi", "name_fr": "Kissi", "region": "Guinée Forestière", "family": "Atlantique", "status": "active", "color": "#AD1457", "flag_emoji": "🇬🇳", "total_lessons": 1, "description": "Langue de Guinée forestière"},
-            {"code": "kono", "name": "Kônon", "name_fr": "Kônon", "region": "Guinée", "family": "Mandé", "status": "active", "color": "#6D4C41", "flag_emoji": "🇬🇳", "total_lessons": 1, "description": "Langue guinéenne"},
+            {"code": "kono", "name": "Kono", "name_fr": "Kono", "region": "Guinée", "family": "Mandé", "status": "active", "color": "#6D4C41", "flag_emoji": "🇬🇳", "total_lessons": 1, "description": "Langue guinéenne"},
             {"code": "toma", "name": "Toma", "name_fr": "Toma", "region": "Guinée Forestière", "family": "Mandé", "status": "active", "color": "#1565C0", "flag_emoji": "🇬🇳", "total_lessons": 1, "description": "Langue forestière guinéenne"},
             {"code": "moore", "name": "Mooré", "name_fr": "Mooré", "region": "Burkina Faso", "family": "Gur", "status": "active", "color": "#EF6C00", "flag_emoji": "🇧🇫", "total_lessons": 1, "description": "Langue du Burkina Faso"},
             {"code": "wolof", "name": "Wolof", "name_fr": "Wolof", "region": "Sénégal", "family": "Atlantique", "status": "active", "color": "#1B5E20", "flag_emoji": "🇸🇳", "total_lessons": 1, "description": "Langue nationale du Sénégal"},
@@ -641,7 +642,7 @@ app.add_middleware(
     allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-    allow_headers=["Authorization", "Content-Type", "X-CSRF-Token", "X-Captcha-Token"],
+    allow_headers=["Authorization", "Content-Type", "X-CSRF-Token"],
     expose_headers=["Content-Type", "Set-Cookie", "Authorization"],
     max_age=600,
 )
@@ -658,39 +659,10 @@ async def csrf_protect(request, call_next):
     if request.method in {"POST", "PUT", "PATCH", "DELETE"}:
         cookie_token = request.cookies.get(security.ACCESS_TOKEN_COOKIE_NAME)
         header_auth = request.headers.get("authorization")
-        # Certain auth-related endpoints (login/register/firebase) should be
-        # allowed without CSRF even when an access cookie exists because they
-        # are used to establish or refresh authentication rather than perform
-        # actions in the context of an existing session.
-        exempt_paths = {
-            "/api/auth/login",
-            "/api/auth/login/form",
-            "/api/auth/register",
-            "/api/auth/register/form",
-            "/api/auth/firebase",
-            "/api/auth/firebase/form",
-        }
-        if cookie_token and not header_auth and request.url.path not in exempt_paths:
+        if cookie_token and not header_auth:
             csrf_cookie = request.cookies.get(security.CSRF_COOKIE_NAME)
             csrf_header = request.headers.get(security.CSRF_HEADER_NAME)
-            csrf_form = None
-            
-            # For form submissions, also check for CSRF token in the request body
-            content_type = request.headers.get("content-type", "")
-            if "application/x-www-form-urlencoded" in content_type or "multipart/form-data" in content_type:
-                try:
-                    # Read the body for form-based CSRF token
-                    body = await request.body()
-                    if body:
-                        from urllib.parse import parse_qs
-                        parsed = parse_qs(body.decode())
-                        csrf_form = parsed.get("_csrf_token", [None])[0]
-                except Exception:
-                    pass
-            
-            # Validate CSRF token from header or form
-            csrf_provided = csrf_header or csrf_form
-            if not csrf_cookie or not csrf_provided or not secrets.compare_digest(csrf_cookie, csrf_provided):
+            if not csrf_cookie or not csrf_header or not secrets.compare_digest(csrf_cookie, csrf_header):
                 return JSONResponse(status_code=403, content={"detail": "CSRF token missing or invalid"})
     return await call_next(request)
 
@@ -710,7 +682,7 @@ async def add_security_headers(request, call_next):
         "default-src 'self'; "
         "img-src 'self' data: https:; "
         "style-src 'self' 'unsafe-inline'; "
-        "script-src 'self' https://www.google.com https://www.gstatic.com; "
+        "script-src 'self'; "
         "frame-ancestors 'none'; "
         "base-uri 'self'"
     )

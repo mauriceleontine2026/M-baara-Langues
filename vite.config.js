@@ -27,21 +27,6 @@ export default () => {
     optimizeDeps: {
       include: ['framer-motion']
     }
-    ,
-    build: {
-      rollupOptions: {
-        output: {
-          manualChunks(id) {
-            if (!id) return null;
-            if (id.includes('src/lib/localLanguageDataLazy')) return 'local-language-data';
-            if (id.includes('src/pages/Lesson')) return 'lesson';
-            if (id.includes('src/pages/Learn')) return 'learn';
-            if (id.includes('src/pages/Exercise')) return 'exercise';
-            if (id.includes('node_modules')) return 'vendor';
-          }
-        }
-      }
-    }
   })
 }
 
