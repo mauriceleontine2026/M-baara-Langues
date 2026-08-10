@@ -453,9 +453,6 @@ def login(request: Request, response: Response, payload: LoginRequest, db: Sessi
     if not user or not security.verify_password(payload.password, user.hashed_password):
         _record_login_failure(normalized_email)
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
-    if not getattr(user, "email_verified", False):
-        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Email not verified")
-
     _clear_login_failures(normalized_email)
 
     if is_admin_email(user.email) and user.role != "admin":
@@ -494,9 +491,6 @@ def login_form(
     if not user or not security.verify_password(password, user.hashed_password):
         _record_login_failure(normalized_email)
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
-    if not getattr(user, "email_verified", False):
-        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Email not verified")
-
     _clear_login_failures(normalized_email)
 
     if is_admin_email(user.email) and user.role != "admin":
