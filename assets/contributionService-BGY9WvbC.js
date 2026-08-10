@@ -1,1 +1,0 @@
-import{J as n}from"./learn-DMJr21qP.js";async function a(t={}){return await n("GET","/api/contributions",void 0,t)}async function r(t,i){return await n("PUT",`/api/contributions/${t}`,i)}export{a as l,r as u};
