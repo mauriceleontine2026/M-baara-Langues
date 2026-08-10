@@ -82,12 +82,24 @@ export default function Login() {
       const rawMessage = err instanceof Error ? err.message : "Identifiants incorrects";
       const normalized = String(rawMessage || "").trim();
       const isNotVerified = err?.status === 403 || normalized.toLowerCase().includes("email not verified") || normalized.toLowerCase().includes("email non vérifié") || normalized.toLowerCase().includes("vérifié");
+      const isInvalidCredentials = err?.status === 401 || normalized.toLowerCase().includes("invalid credentials") || normalized.toLowerCase().includes("identifiants incorrects") || normalized.toLowerCase().includes("identifiants invalides");
 
       if (isNotVerified) {
         setError("Votre adresse e-mail doit être vérifiée avant de vous connecter.");
         setShowResendLink(true);
+      } else if (isInvalidCredentials) {
+        setError("Adresse e-mail ou mot de passe incorrect.");
+      } else {
+        const isInvalidCredentials = err?.status === 401 || normalized.toLowerCase().includes("invalid credentials") || normalized.toLowerCase().includes("identifiants incorrects") || normalized.toLowerCase().includes("identifiants invalides");
+
+      if (isNotVerified) {
+        setError("Votre adresse e-mail doit être vérifiée avant de vous connecter.");
+        setShowResendLink(true);
+      } else if (isInvalidCredentials) {
+        setError("Adresse e-mail ou mot de passe incorrect.");
       } else {
         setError(normalized || "Identifiants incorrects");
+      }
       }
     } finally {
       setLoading(false);

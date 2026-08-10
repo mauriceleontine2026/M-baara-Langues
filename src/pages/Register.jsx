@@ -25,8 +25,14 @@ export default function Register() {
 
     setLoading(true);
     try {
-      await register(formEmail, formPassword, name);
-      setMessage("Compte créé. Consulte ta boîte mail et clique sur le lien de vérification avant de te connecter.");
+      const result = await register(formEmail, formPassword, name);
+      if (result?.verification_required === false) {
+        setMessage("Compte créé. Ton adresse e-mail est déjà vérifiée, tu peux te connecter immédiatement.");
+      } else if (result?.message) {
+        setMessage(result.message);
+      } else {
+        setMessage("Compte créé. Consulte ta boîte mail et clique sur le lien de vérification avant de te connecter.");
+      }
     } catch (err) {
       const rawMessage = err instanceof Error ? err.message : "Erreur lors de l'inscription";
       const normalized = String(rawMessage || "").trim();

@@ -138,7 +138,7 @@ export async function register(email, password, full_name) {
   try {
     const data = await request("POST", "/api/auth/register", { email, password, full_name });
     notifyAuthChanged();
-    return data?.user || null;
+    return data;
   } catch (err) {
     const message = err?.message || "";
     const status = err?.status;
@@ -181,7 +181,7 @@ export async function registerWithForm(email, password, full_name) {
 
   const data = await response.json();
   notifyAuthChanged();
-  return data?.user || null;
+  return data;
 }
 
 export async function verifyEmail(token) {
