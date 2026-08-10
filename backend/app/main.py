@@ -624,6 +624,11 @@ def _seed_default_languages():
             ))
             db.commit()
 
+        french_row = db.query(Language).filter(Language.code == "francais").first()
+        if french_row:
+            french_row.status = "archived"
+            db.commit()
+
         lesson_seed = [
             {"title": "Les bases", "language_code": "anglais", "lesson_number": 1, "difficulty": "beginner", "content": "Start with everyday English words.", "published": True},
             {"title": "Se présenter", "language_code": "bissa", "lesson_number": 1, "difficulty": "beginner", "content": "Apprenez les premiers mots du bissa.", "published": True},
