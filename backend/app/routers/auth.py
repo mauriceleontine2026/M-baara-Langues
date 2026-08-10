@@ -6,7 +6,7 @@ import time
 import uuid
 from collections import defaultdict, deque
 
-from fastapi import APIRouter, HTTPException, Depends, Request, Response, status
+from fastapi import APIRouter, HTTPException, Depends, Request, Response, status, Form
 from pydantic import BaseModel, EmailStr, Field, field_validator
 from sqlalchemy.orm import Session
 import httpx
@@ -238,6 +238,72 @@ def firebase_auth(payload: FirebaseAuthRequest, response: Response, db: Session 
     }
 
 
+@router.post("/firebase/form")
+def firebase_auth_form(id_token: str = Form(...), response: Response = None, db: Session = Depends(get_db)):
+    """
+    Form-based Firebase auth endpoint: accepts application/x-www-form-urlencoded
+    with id_token field. Useful as a fallback when XHR CORS fails.
+    Reuses the same token verification and user creation logic.
+    """
+    if response is None:
+        response = Response()
+    
+    token_payload = _verify_firebase_id_token(id_token)
+    email = token_payload.get("email")
+    if not email:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="L'email Firebase est requis.")
+    if not _is_valid_email_address(email):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Adresse e-mail invalide.")
+
+    user = db.query(User).filter(User.email == email).first()
+    firebase_email_verified = bool(token_payload.get("emailVerified", True))
+    if not user:
+        role = "admin" if is_admin_email(email) else "user"
+        user = User(
+            email=email,
+            hashed_password=security.get_password_hash(uuid.uuid4().hex),
+            full_name=token_payload.get("name"),
+            photo_url=token_payload.get("picture"),
+            role=role,
+            email_verified=firebase_email_verified,
+        )
+        db.add(user)
+        db.commit()
+        db.refresh(user)
+    else:
+        updated = False
+        if is_admin_email(email) and user.role != "admin":
+            user.role = "admin"
+            updated = True
+        if not user.full_name and token_payload.get("name"):
+            user.full_name = token_payload.get("name")
+            updated = True
+        if not user.photo_url and token_payload.get("picture"):
+            user.photo_url = token_payload.get("picture")
+            updated = True
+        if user.email_verified is not firebase_email_verified:
+            user.email_verified = firebase_email_verified
+            updated = True
+        if updated:
+            db.add(user)
+            db.commit()
+            db.refresh(user)
+
+    token = security.create_access_token({"sub": str(user.id), "email": user.email})
+    security.set_auth_cookies(response, token)
+    return {
+        "access_token": token,
+        "token_type": "bearer",
+        "user": {
+            "id": user.id,
+            "email": user.email,
+            "full_name": user.full_name,
+            "photo_url": user.photo_url,
+            "role": user.role,
+        },
+    }
+
+
 @router.post("/verify-email-request")
 def request_email_verification(request: Request, payload: ResetPasswordRequest, db: Session = Depends(get_db)):
     _check_rate_limit(request)
@@ -304,6 +370,48 @@ def register(request: Request, response: Response, payload: RegisterRequest, db:
     return {"access_token": token, "token_type": "bearer", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
 
 
+@router.post("/register/form", status_code=status.HTTP_201_CREATED)
+def register_form(
+    request: Request,
+    response: Response,
+    email: str = Form(...),
+    password: str = Form(...),
+    full_name: str | None = Form(None),
+    captcha_token: str | None = Form(None),
+    db: Session = Depends(get_db),
+):
+    """
+    Form-based registration endpoint for application/x-www-form-urlencoded.
+    Useful as a fallback when XHR/CORS fails.
+    """
+    _check_rate_limit(request)
+    normalized_email = _normalize_email(email)
+    existing = db.query(User).filter(User.email == normalized_email).first()
+    if existing:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email already registered")
+    if not _is_valid_email_address(normalized_email):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Adresse e-mail invalide.")
+
+    if RECAPTCHA_SECRET_KEY and (not captcha_token or not str(captcha_token).strip()):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Le test anti-bot est requis.")
+    verify_recaptcha_token(captcha_token, "register")
+
+    admin_email = is_admin_email(normalized_email)
+    user = User(
+        email=normalized_email,
+        hashed_password=security.get_password_hash(password),
+        full_name=full_name,
+        role="admin" if admin_email else "user",
+        email_verified=False,
+    )
+    db.add(user)
+    db.commit()
+    db.refresh(user)
+    token = security.create_access_token({"sub": str(user.id), "email": user.email})
+    security.set_auth_cookies(response, token)
+    return {"access_token": token, "token_type": "bearer", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
+
+
 @router.post("/login")
 def login(request: Request, response: Response, payload: LoginRequest, db: Session = Depends(get_db)):
     _check_rate_limit(request)
@@ -334,10 +442,62 @@ def login(request: Request, response: Response, payload: LoginRequest, db: Sessi
     return {"access_token": token, "token_type": "bearer", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
 
 
+@router.post("/login/form")
+def login_form(
+    request: Request,
+    response: Response,
+    email: str = Form(...),
+    password: str = Form(...),
+    captcha_token: str | None = Form(None),
+    db: Session = Depends(get_db),
+):
+    """
+    Form-based login endpoint (application/x-www-form-urlencoded).
+    Useful as a fallback when XHR CORS fails or browsers block fetch.
+    """
+    _check_rate_limit(request)
+    normalized_email = _normalize_email(email)
+
+    # Accept captcha token from form body when present
+    if RECAPTCHA_SECRET_KEY and (not captcha_token or not str(captcha_token).strip()):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Le test anti-bot est requis.")
+    verify_recaptcha_token(captcha_token, "login")
+
+    user = db.query(User).filter(User.email == normalized_email).first()
+    if not user or not security.verify_password(password, user.hashed_password):
+        _record_login_failure(normalized_email)
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
+    if not getattr(user, "email_verified", False):
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Email not verified")
+
+    _clear_login_failures(normalized_email)
+
+    if is_admin_email(user.email) and user.role != "admin":
+        user.role = "admin"
+        db.add(user)
+        db.commit()
+        db.refresh(user)
+
+    token = security.create_access_token({"sub": str(user.id), "email": user.email})
+    security.set_auth_cookies(response, token)
+    return {"access_token": token, "token_type": "bearer", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
+
+
 @router.post("/logout")
 def logout(response: Response):
     security.clear_auth_cookies(response)
     return {"status": "ok"}
+
+
+@router.post("/logout/form")
+def logout_form(response: Response):
+    """
+    Form-based logout endpoint: accepts application/x-www-form-urlencoded.
+    Useful as a fallback when XHR CORS fails.
+    """
+    security.clear_auth_cookies(response)
+    # Redirect to home page after logout (form submission)
+    return {"status": "ok", "redirect": "/"}
 
 
 @router.get("/me")

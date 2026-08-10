@@ -642,7 +642,7 @@ app.add_middleware(
     allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-    allow_headers=["Authorization", "Content-Type", "X-CSRF-Token"],
+    allow_headers=["Authorization", "Content-Type", "X-CSRF-Token", "X-Captcha-Token"],
     expose_headers=["Content-Type", "Set-Cookie", "Authorization"],
     max_age=600,
 )
@@ -659,10 +659,39 @@ async def csrf_protect(request, call_next):
     if request.method in {"POST", "PUT", "PATCH", "DELETE"}:
         cookie_token = request.cookies.get(security.ACCESS_TOKEN_COOKIE_NAME)
         header_auth = request.headers.get("authorization")
-        if cookie_token and not header_auth:
+        # Certain auth-related endpoints (login/register/firebase) should be
+        # allowed without CSRF even when an access cookie exists because they
+        # are used to establish or refresh authentication rather than perform
+        # actions in the context of an existing session.
+        exempt_paths = {
+            "/api/auth/login",
+            "/api/auth/login/form",
+            "/api/auth/register",
+            "/api/auth/register/form",
+            "/api/auth/firebase",
+            "/api/auth/firebase/form",
+        }
+        if cookie_token and not header_auth and request.url.path not in exempt_paths:
             csrf_cookie = request.cookies.get(security.CSRF_COOKIE_NAME)
             csrf_header = request.headers.get(security.CSRF_HEADER_NAME)
-            if not csrf_cookie or not csrf_header or not secrets.compare_digest(csrf_cookie, csrf_header):
+            csrf_form = None
+            
+            # For form submissions, also check for CSRF token in the request body
+            content_type = request.headers.get("content-type", "")
+            if "application/x-www-form-urlencoded" in content_type or "multipart/form-data" in content_type:
+                try:
+                    # Read the body for form-based CSRF token
+                    body = await request.body()
+                    if body:
+                        from urllib.parse import parse_qs
+                        parsed = parse_qs(body.decode())
+                        csrf_form = parsed.get("_csrf_token", [None])[0]
+                except Exception:
+                    pass
+            
+            # Validate CSRF token from header or form
+            csrf_provided = csrf_header or csrf_form
+            if not csrf_cookie or not csrf_provided or not secrets.compare_digest(csrf_cookie, csrf_provided):
                 return JSONResponse(status_code=403, content={"detail": "CSRF token missing or invalid"})
     return await call_next(request)
 
@@ -682,7 +711,7 @@ async def add_security_headers(request, call_next):
         "default-src 'self'; "
         "img-src 'self' data: https:; "
         "style-src 'self' 'unsafe-inline'; "
-        "script-src 'self'; "
+        "script-src 'self' https://www.google.com https://www.gstatic.com; "
         "frame-ancestors 'none'; "
         "base-uri 'self'"
     )

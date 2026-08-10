@@ -3,34 +3,42 @@ import { getRecaptchaSiteKey, loadRecaptcha } from "@/lib/recaptcha";
 import { ArrowRight, Chrome, Lock, Mail, Sparkles, UserRound } from "lucide-react";
 
 function RecaptchaStatus() {
-  const [status, setStatus] = useState("loading");
+  const [status, setStatus] = useState({ state: "loading", message: "" });
 
   useEffect(() => {
     let mounted = true;
     const siteKey = getRecaptchaSiteKey();
     if (!siteKey) {
-      if (mounted) setStatus("missing");
+      if (mounted) setStatus({ state: "missing", message: "Aucune clé reCAPTCHA fournie." });
       return;
     }
     loadRecaptcha(siteKey)
       .then(() => {
         if (!mounted) return;
         const ready = !!(window.grecaptcha && (window.grecaptcha.enterprise || window.grecaptcha.render));
-        setStatus(ready ? "ready" : "failed");
+        setStatus({
+          state: ready ? "ready" : "failed",
+          message: ready ? "" : "Le service reCAPTCHA ne s'est pas initialisé.",
+        });
       })
-      .catch(() => {
+      .catch((error) => {
         if (!mounted) return;
-        setStatus("failed");
+        setStatus({ state: "failed", message: error?.message || String(error) });
       });
     return () => {
       mounted = false;
     };
   }, []);
 
-  if (status === "loading") return <span>Chargement reCAPTCHA…</span>;
-  if (status === "ready") return <span className="inline-flex items-center gap-2"><span className="h-2 w-2 rounded-full bg-emerald-500" />reCAPTCHA actif</span>;
-  if (status === "missing") return <span>Clé reCAPTCHA manquante</span>;
-  return <span>reCAPTCHA indisponible — rechargez la page</span>;
+  if (status.state === "loading") return <span>Chargement reCAPTCHA…</span>;
+  if (status.state === "ready") return <span className="inline-flex items-center gap-2"><span className="h-2 w-2 rounded-full bg-emerald-500" />reCAPTCHA actif</span>;
+  if (status.state === "missing") return <span>Clé reCAPTCHA manquante</span>;
+  return (
+    <span className="flex flex-col gap-1 text-sm text-foreground">
+      <span>reCAPTCHA indisponible — rechargez la page</span>
+      {status.message ? <span className="text-xs text-muted-foreground">{status.message}</span> : null}
+    </span>
+  );
 }
 
 /**
