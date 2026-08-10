@@ -1,0 +1,69 @@
+{
+  "titre_cours": "Leçon 7 : Comprendre et analyser des textes littéraires ou historiques.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (fiche « LE HINDI » du projet LGMEF/CNRS-INALCO, Preply, Talkpal, OpenL, notes de cours de hindi de l'INRIA, et recueils de proverbes hindi), le hindi étant une langue majeure parlée par plus de 600 millions de personnes en Inde et dans sa diaspora, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "L'histoire du hindi",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Une longue évolution depuis le sanskrit",
+          "contenu_detaille": "Comme vu en Leçon 6, le hindi descend de l'ancien indo-aryen (sanskrit), mais s'est développé plus directement à travers les variétés du moyen indo-aryen (les Prakrits, en particulier le Shauraseni) et l'Apabhramsha, sur de nombreux siècles — une évolution linguistique longue et documentée qui explique la richesse stratifiée du vocabulaire hindi moderne (racines sanskrites, emprunts persans, emprunts anglais).",
+          "vocabulaire_cles": [
+            {
+              "terme": "Prakrits, Shauraseni, Apabhramsha",
+              "traduction_ou_definition": "étapes historiques de l'évolution du sanskrit vers le hindi moderne"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(fait historique)",
+              "traduction": "Le hindi descend du sanskrit via les Prakrits (Shauraseni) et l'Apabhramsha, sur de nombreux siècles."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "De quelle langue ancienne le hindi descend-il, d'après les recherches menées ?",
+              "type": "QCM",
+              "options": [
+                "Le sanskrit",
+                "Le latin",
+                "L'arabe classique",
+                "Le grec ancien"
+              ],
+              "reponse_correcte": "Le sanskrit"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le hindi et l'ourdou : une intercompréhension orale",
+          "contenu_detaille": "Une recherche complémentaire précise que le hindi parlé et l'ourdou (langue officielle du Pakistan) sont très largement intercompréhensibles à l'oral, la différence pratique la plus importante résidant dans l'écriture (devanagari pour le hindi, écriture perso-arabe pour l'ourdou) et dans le vocabulaire le plus formel ou littéraire (davantage puisé dans le sanskrit pour le hindi, dans le persan et l'arabe pour l'ourdou).",
+          "vocabulaire_cles": [
+            {
+              "terme": "hindi / ourdou",
+              "traduction_ou_definition": "langues très proches à l'oral, distinctes surtout par l'écriture et le vocabulaire formel"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque comparative)",
+              "traduction": "Le hindi parlé et l'ourdou sont largement intercompréhensibles ; ils diffèrent surtout par l'écriture et le vocabulaire soutenu."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "La plus grande différence pratique entre le hindi et l'ourdou réside dans l'_____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "écriture"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté l'histoire du hindi (évolution depuis le sanskrit via les Prakrits et l'Apabhramsha) et sa relation d'intercompréhension orale avec l'ourdou, issues de recherches web."
+}

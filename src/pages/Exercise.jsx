@@ -8,8 +8,10 @@ import {
   getBeginnerCompletionStatus,
   isModuleAccessible,
   getLockMessageForModule,
-  getCurriculumForLanguageExport,
+  getCurriculumForLanguageSync,
+  getCurriculumForLanguageAsync,
 } from "@/lib/curriculumGate";
+import { isLocalLanguage } from "@/lib/localLanguageDataLazy";
 
 const STOP_WORDS = new Set([
   "et", "les", "des", "dans", "pour", "avec", "une", "un", "sur", "son", "sa", "ses", "de", "du", "la", "le", "au", "aux", "par", "plus", "sans", "être", "avoir", "faire", "comme", "que", "qui", "est", "ou", "à", "a", "de", "des", "et", "une", "un"
@@ -35,15 +37,23 @@ export default function Exercise() {
   const [completedLessons, setCompletedLessons] = useState([]);
   const [moduleLocked, setModuleLocked] = useState(false);
   const [lockMessage, setLockMessage] = useState("");
+  const [curriculum, setCurriculum] = useState(() => getCurriculumForLanguageSync(langCode));
+
+  useEffect(() => {
+    setCurriculum(getCurriculumForLanguageSync(langCode));
+    if (isLocalLanguage(langCode)) {
+      getCurriculumForLanguageAsync(langCode).then((c) => setCurriculum(c)).catch(() => {});
+    }
+  }, [langCode]);
 
   const module = useMemo(() => {
-    const curriculum = getCurriculumForLanguageExport(langCode);
-    for (const level of curriculum.levels) {
+    const curriculumData = curriculum || getCurriculumForLanguageSync(langCode);
+    for (const level of curriculumData.levels) {
       const found = level.modules.find((item) => item.id === moduleId);
       if (found) return found;
     }
     return null;
-  }, [moduleId, langCode]);
+  }, [moduleId, langCode, curriculum]);
 
   const exercises = Array.isArray(module?.exerciseSeries) ? module.exerciseSeries : [];
 
@@ -79,8 +89,8 @@ export default function Exercise() {
 
   const getExerciseRecords = () => {
     if (typeof window === "undefined") return {};
-    const curriculum = getCurriculumForLanguageExport(langCode);
-    return curriculum.levels.reduce((acc, level) => {
+    const curriculumData = curriculum || getCurriculumForLanguageSync(langCode);
+    return curriculumData.levels.reduce((acc, level) => {
       level.modules.forEach((module) => {
         const raw = window.localStorage.getItem(`mbaara-exercise-${langCode}-${module.id}`);
         if (!raw) {
@@ -135,6 +145,14 @@ export default function Exercise() {
     setLockMessage(moduleInfo ? getLockMessageForModule(moduleInfo.levelIndex, moduleInfo.moduleIndex, moduleInfo.level, beginnerStatus.complete) : "");
   }, [module, moduleId, completedLessons, langCode]);
 
+  const isCompleted = currentIdx === exercises.length - 1 && currentVerified;
+
+  useEffect(() => {
+    if (isCompleted && score === exercises.length) {
+      persistExerciseResult();
+    }
+  }, [isCompleted, score, exercises.length, langCode, moduleId]);
+
   if (!module) {
     return (
       <div className="min-h-screen flex items-center justify-center px-6 text-center">
@@ -168,14 +186,6 @@ export default function Exercise() {
       </div>
     );
   }
-
-  const isCompleted = currentIdx === exercises.length - 1 && currentVerified;
-
-  useEffect(() => {
-    if (isCompleted && score === exercises.length) {
-      persistExerciseResult();
-    }
-  }, [isCompleted, score, exercises.length, langCode, moduleId]);
 
   return (
     <div className="min-h-screen bg-background text-foreground">

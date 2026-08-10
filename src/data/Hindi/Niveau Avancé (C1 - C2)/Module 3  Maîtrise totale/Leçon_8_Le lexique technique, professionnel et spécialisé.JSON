@@ -1,0 +1,72 @@
+{
+  "titre_cours": "Leçon 8 : Le lexique technique, professionnel et spécialisé.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (fiche « LE HINDI » du projet LGMEF/CNRS-INALCO, Preply, Talkpal, OpenL, notes de cours de hindi de l'INRIA, et recueils de proverbes hindi), le hindi étant une langue majeure parlée par plus de 600 millions de personnes en Inde et dans sa diaspora, largement documentée en ligne. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le métalangage de la description grammaticale du hindi",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Cas direct et cas oblique",
+          "contenu_detaille": "Le vocabulaire technique de la grammaire hindi distingue le « cas direct » (forme de base du nom, sujet de la phrase hors construction ergative) du « cas oblique » (forme prise par un nom devant une postposition, souvent avec une terminaison différente — comme 'लड़का' laṛka, forme directe, contre 'लड़के' laṛke, forme oblique, pour « garçon »). Cette distinction technique, déjà évoquée en Leçon 7 du niveau débutant, est centrale à toute description scientifique du hindi.",
+          "vocabulaire_cles": [
+            {
+              "terme": "cas direct",
+              "traduction_ou_definition": "forme de base du nom (sujet hors ergatif)"
+            },
+            {
+              "terme": "cas oblique",
+              "traduction_ou_definition": "forme du nom devant une postposition, terminaison souvent différente"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "लड़का (laṛka)",
+              "traduction": "garçon, cas direct."
+            },
+            {
+              "phrase": "लड़के (laṛke)",
+              "traduction": "garçon, cas oblique (devant une postposition)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment se nomme la forme du nom hindi qui apparaît devant une postposition ?",
+              "type": "QCM",
+              "options": [
+                "Le cas oblique",
+                "Le cas direct",
+                "Le cas ergatif uniquement",
+                "Le cas vocatif uniquement"
+              ],
+              "reponse_correcte": "Le cas oblique"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Le vocabulaire linguistique de l'ergativité",
+          "contenu_detaille": "Le vocabulaire technique international emploie 'ergative' pour désigner la postposition 'ne' déjà étudiée, un terme de typologie linguistique qui désigne un système où le sujet d'un verbe transitif est marqué différemment de celui d'un verbe intransitif — la spécialité savante que représente l'étude de l'ergativité hindi ayant donné lieu, comme vu en Leçon 4 du niveau intermédiaire, à des débats universitaires actifs sur son origine historique précise.",
+          "vocabulaire_cles": [
+            {
+              "terme": "ergatif",
+              "traduction_ou_definition": "terme technique de typologie linguistique désignant le marquage distinct du sujet transitif"
+            }
+          ],
+          "exemples": [],
+          "exercices": [
+            {
+              "question": "Le terme technique de typologie linguistique désignant le marquage distinct du sujet d'un verbe transitif est : _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "ergatif"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté le métalangage technique de la description grammaticale du hindi (cas direct/oblique, ergativité), issu de la fiche LGMEF/CNRS et d'articles universitaires consultés en ligne."
+}

@@ -1,0 +1,69 @@
+{
+  "titre_cours": "Leçon 9 : Demander et donner des conseils ou des instructions.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (fiche « LE HINDI » du projet LGMEF/CNRS-INALCO, Preply, Talkpal, OpenL, notes de cours de hindi de l'INRIA, et recueils de proverbes hindi), le hindi étant une langue majeure parlée par plus de 600 millions de personnes en Inde et dans sa diaspora, largement documentée en ligne. Cette leçon reprend un proverbe hindi qui fonctionne comme un conseil moral classique.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le conseil par le proverbe",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "जैसी करनी वैसी भरनी : comme on sème, on récolte",
+          "contenu_detaille": "Le hindi donne le proverbe 'जैसी करनी वैसी भरनी' (Jaisi karni waisi bharni), l'un des plus connus de la langue, qui se traduit par « comme on sème, ainsi on récolte » (litt. comme l'action, ainsi la conséquence) — un conseil moral universel sur la responsabilité de ses propres actes.",
+          "vocabulaire_cles": [
+            {
+              "terme": "जैसी करनी वैसी भरनी (Jaisi karni waisi bharni)",
+              "traduction_ou_definition": "comme on sème, on récolte (proverbe)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Jaisi karni waisi bharni.",
+              "traduction": "Comme on sème, ainsi on récolte. (Proverbe)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que signifie le proverbe 'Jaisi karni waisi bharni' ?",
+              "type": "QCM",
+              "options": [
+                "Comme on sème, ainsi on récolte (responsabilité de ses actes)",
+                "Il ne faut jamais semer",
+                "La récolte est toujours meilleure que prévu",
+                "Il faut toujours aider son voisin"
+              ],
+              "reponse_correcte": "Comme on sème, ainsi on récolte (responsabilité de ses actes)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Il faut être deux pour se disputer",
+          "contenu_detaille": "Le hindi donne un second proverbe-conseil : 'एक हाथ से ताली नहीं बजती' (Ek haath se taali nahi bajti), litt. « on n'applaudit pas avec une seule main », qui conseille de reconnaître sa propre part de responsabilité dans un conflit, puisqu'une dispute implique toujours deux parties.",
+          "vocabulaire_cles": [
+            {
+              "terme": "एक हाथ से ताली नहीं बजती (Ek haath se taali nahi bajti)",
+              "traduction_ou_definition": "il faut être deux pour se disputer, litt. on n'applaudit pas avec une seule main"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Ek haath se taali nahi bajti.",
+              "traduction": "On n'applaudit pas avec une seule main (il faut être deux pour se disputer). (Proverbe)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le proverbe sur les mains qui applaudissent conseille de reconnaître sa propre part de _____ dans un conflit.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "responsabilité"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté deux proverbes-conseils hindi classiques (sur la responsabilité de ses actes et sur le partage de responsabilité dans un conflit), issus de recueils de proverbes hindi consultés en ligne."
+}

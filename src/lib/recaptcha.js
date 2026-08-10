@@ -1,52 +1,61 @@
-const DEFAULT_SITE_KEY = "6LefxXstAAAAAG3F8XkSxnREAnVwSO0o1jOQKWJq";
+const DEFAULT_SITE_KEY = import.meta.env.DEV ? "6LcF7XstAAAAAOx7NTJcemisdJkDwT7Dgr7O7M36" : null;
 
 let _scriptLoading = null;
 
 export function getRecaptchaSiteKey() {
   const configuredSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
-  return configuredSiteKey?.trim() || DEFAULT_SITE_KEY;
+  if (configuredSiteKey?.trim()) {
+    return configuredSiteKey.trim();
+  }
+  return DEFAULT_SITE_KEY;
+}
+
+function waitForRecaptchaReady() {
+  return new Promise((resolve) => {
+    if (typeof window === "undefined") return resolve();
+    if (!window.grecaptcha || typeof window.grecaptcha.ready !== "function") return resolve();
+    try {
+      window.grecaptcha.ready(() => resolve());
+    } catch {
+      resolve();
+    }
+  });
 }
 
 export function loadRecaptcha(siteKey) {
   if (typeof window === "undefined") return Promise.resolve();
-  if (window.grecaptcha && (window.grecaptcha.enterprise || window.grecaptcha.render)) return Promise.resolve();
+  if (window.grecaptcha && typeof window.grecaptcha.render === "function") return waitForRecaptchaReady();
   if (_scriptLoading) return _scriptLoading;
 
   _scriptLoading = new Promise((resolve, reject) => {
-    try {
-      // Try enterprise script first (v3-like). If enterprise isn't available
-      // after load, we'll later load the v2 API as a fallback.
-      const enterpriseScript = document.createElement("script");
-      enterpriseScript.src = `https://www.google.com/recaptcha/enterprise.js?render=${encodeURIComponent(siteKey)}`;
-      enterpriseScript.async = true;
-      enterpriseScript.defer = true;
-      enterpriseScript.onload = () => {
-        // If enterprise available, resolve; otherwise try loading v2 API.
-        if (window.grecaptcha && window.grecaptcha.enterprise) {
-          resolve();
+    const cleanup = () => {
+      _scriptLoading = null;
+    };
+
+    const loadV2Script = () => {
+      const v2Script = document.createElement("script");
+      v2Script.src = "https://www.google.com/recaptcha/api.js?render=explicit";
+      v2Script.async = true;
+      v2Script.defer = true;
+      v2Script.onload = () => {
+        if (window.grecaptcha && typeof window.grecaptcha.render === "function") {
+          waitForRecaptchaReady().then(resolve).catch(reject);
           return;
         }
-        // Load v2 explicit-render API
-        const v2Script = document.createElement("script");
-        v2Script.src = "https://www.google.com/recaptcha/api.js?render=explicit";
-        v2Script.async = true;
-        v2Script.defer = true;
-        v2Script.onload = () => resolve();
-        v2Script.onerror = () => reject(new Error("Échec du chargement du script reCAPTCHA v2."));
-        document.head.appendChild(v2Script);
+        cleanup();
+        reject(new Error("Le script reCAPTCHA v2 s'est chargé, mais le service n'est pas disponible."));
       };
-      enterpriseScript.onerror = () => {
-        // If enterprise failed to load, fall back to v2 API
-        const v2Script = document.createElement("script");
-        v2Script.src = "https://www.google.com/recaptcha/api.js?render=explicit";
-        v2Script.async = true;
-        v2Script.defer = true;
-        v2Script.onload = () => resolve();
-        v2Script.onerror = () => reject(new Error("Échec du chargement du script reCAPTCHA."));
-        document.head.appendChild(v2Script);
+      v2Script.onerror = () => {
+        cleanup();
+        reject(new Error("Échec du chargement du script reCAPTCHA v2."));
       };
-      document.head.appendChild(enterpriseScript);
+      document.head.appendChild(v2Script);
+    };
+
+    try {
+      loadV2Script();
     } catch (err) {
+      cleanup();
       reject(err);
     }
   });
@@ -69,20 +78,6 @@ export async function getRecaptchaToken(action = "login") {
     throw new Error("Le service de vérification anti-bot n'est pas prêt. Veuillez recharger la page.");
   }
 
-  // If enterprise API available, use it (invisible/v3-style)
-  if (grecaptcha.enterprise) {
-    const enterprise = grecaptcha.enterprise;
-    await new Promise((resolve, reject) => {
-      try {
-        enterprise.ready(() => resolve());
-      } catch (error) {
-        reject(error);
-      }
-    });
-    return enterprise.execute(siteKey, { action });
-  }
-
-  // Otherwise assume v2 rendered widget is present and use its response.
   const widgetId = window._mbaara_recaptcha_v2_widgetId;
   if (typeof widgetId !== "undefined" && widgetId !== null) {
     const token = grecaptcha.getResponse(widgetId);
@@ -101,14 +96,34 @@ export async function renderRecaptcha(containerId, siteKey) {
   const grecaptcha = window.grecaptcha;
   if (!grecaptcha) throw new Error("grecaptcha indisponible");
 
-  if (grecaptcha.enterprise) {
-    // enterprise doesn't render a visible checkbox; nothing to do.
-    return null;
+  const container = document.getElementById(containerId);
+  if (!container) {
+    throw new Error(`Container reCAPTCHA introuvable: ${containerId}`);
   }
 
-  // Render explicit v2 widget into the given container.
-  const widgetId = grecaptcha.render(containerId, { sitekey: siteKey });
-  // store globally so getRecaptchaToken can read response
+  if (typeof window._mbaara_recaptcha_v2_widgetId !== "undefined" && window._mbaara_recaptcha_v2_widgetId !== null) {
+    return window._mbaara_recaptcha_v2_widgetId;
+  }
+
+  if (container.childElementCount > 0) {
+    const existingId = window._mbaara_recaptcha_v2_widgetId;
+    if (typeof existingId !== "undefined" && existingId !== null) {
+      return existingId;
+    }
+  }
+
+  const widgetId = grecaptcha.render(containerId, {
+    sitekey: siteKey,
+    callback: () => {
+      window._mbaara_recaptcha_v2_hasResponse = true;
+    },
+    "expired-callback": () => {
+      window._mbaara_recaptcha_v2_hasResponse = false;
+    },
+    "error-callback": () => {
+      window._mbaara_recaptcha_v2_hasResponse = false;
+    },
+  });
   window._mbaara_recaptcha_v2_widgetId = widgetId;
   return widgetId;
 }
