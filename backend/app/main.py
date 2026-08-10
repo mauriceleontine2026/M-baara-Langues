@@ -131,6 +131,7 @@ def _seed_dictionary_content(db):
         # Remove incorrect legacy alias spellings for Kônon.
         # Keep only the canonical Kono language code.
         "kono": "kono",
+        "konon": "kono",
         "bissa": "bissa",
         "kissi": "kissi",
         "kisi": "kissi",
@@ -573,7 +574,7 @@ def _seed_default_languages():
             {"code": "swahili", "name": "Swahili", "name_fr": "Swahili", "region": "Afrique de l'Est", "family": "Bantoue", "status": "active", "color": "#004D40", "flag_emoji": "🌍", "total_lessons": 1, "description": "Langue africaine la plus parlée"},
             {"code": "bissa", "name": "Bissa", "name_fr": "Bissa", "region": "Burkina Faso", "family": "Gur", "status": "active", "color": "#558B2F", "flag_emoji": "🇧🇫", "total_lessons": 1, "description": "Langue du Burkina Faso"},
             {"code": "kissi", "name": "Kissi", "name_fr": "Kissi", "region": "Guinée Forestière", "family": "Atlantique", "status": "active", "color": "#AD1457", "flag_emoji": "🇬🇳", "total_lessons": 1, "description": "Langue de Guinée forestière"},
-            {"code": "kono", "name": "Kônon", "name_fr": "Kônon", "region": "Guinée", "family": "Mandé", "status": "active", "color": "#6D4C41", "flag_emoji": "🇬🇳", "total_lessons": 1, "description": "Langue guinéenne"},
+            {"code": "kono", "name": "Kônon", "name_fr": "Kônon", "region": "Guinée / Guinée Forestière", "family": "Mandé", "status": "active", "color": "#6D4C41", "flag_emoji": "🇬🇳", "total_lessons": 1, "description": "Langue de Guinée forestière"},
             {"code": "toma", "name": "Toma", "name_fr": "Toma", "region": "Guinée Forestière", "family": "Mandé", "status": "active", "color": "#1565C0", "flag_emoji": "🇬🇳", "total_lessons": 1, "description": "Langue forestière guinéenne"},
             {"code": "moore", "name": "Mooré", "name_fr": "Mooré", "region": "Burkina Faso", "family": "Gur", "status": "active", "color": "#EF6C00", "flag_emoji": "🇧🇫", "total_lessons": 1, "description": "Langue du Burkina Faso"},
             {"code": "wolof", "name": "Wolof", "name_fr": "Wolof", "region": "Sénégal", "family": "Atlantique", "status": "active", "color": "#1B5E20", "flag_emoji": "🇸🇳", "total_lessons": 1, "description": "Langue nationale du Sénégal"},
@@ -608,9 +609,6 @@ def _seed_default_languages():
             existing_languages = {lang.code: lang for lang in db.query(Language).all()}
 
         lesson_seed = [
-            {"title": "Saluer", "language_code": "francais", "lesson_number": 1, "difficulty": "beginner", "content": "Commencez par saluer en français.", "published": True},
-            {"title": "Se présenter", "language_code": "francais", "lesson_number": 2, "difficulty": "beginner", "content": "Apprenez à vous présenter.", "published": True},
-            {"title": "Commander à manger", "language_code": "francais", "lesson_number": 3, "difficulty": "beginner", "content": "Apprenez à commander au restaurant avec des phrases simples.", "published": True},
             {"title": "Les bases", "language_code": "anglais", "lesson_number": 1, "difficulty": "beginner", "content": "Start with everyday English words.", "published": True},
             {"title": "Se présenter", "language_code": "bissa", "lesson_number": 1, "difficulty": "beginner", "content": "Apprenez les premiers mots du bissa.", "published": True},
         ]
@@ -621,14 +619,6 @@ def _seed_default_languages():
         db.commit()
 
         vocabulary_seed = [
-            {"language_code": "francais", "lesson_number": 1, "word": "bonjour", "translation_fr": "bonjour", "phonetic": "bɔ̃.ʒuʁ", "example_target": "Bonjour !", "example_fr": "Bonjour !", "difficulty": "beginner"},
-            {"language_code": "francais", "lesson_number": 1, "word": "merci", "translation_fr": "merci", "phonetic": "mɛʁ.si", "example_target": "Merci beaucoup", "example_fr": "Merci beaucoup", "difficulty": "beginner"},
-            {"language_code": "francais", "lesson_number": 2, "word": "je", "translation_fr": "je", "phonetic": "ʒə", "example_target": "Je m'appelle Mali", "example_fr": "Je m'appelle Mali", "difficulty": "beginner"},
-            {"language_code": "francais", "lesson_number": 2, "word": "m'appelle", "translation_fr": "m'appelle", "phonetic": "ma.pɛl", "example_target": "Je m'appelle Awa", "example_fr": "Je m'appelle Awa", "difficulty": "beginner"},
-            {"language_code": "francais", "lesson_number": 3, "word": "croissant", "translation_fr": "croissant", "phonetic": "kʁwa.sɑ̃", "example_target": "Je voudrais un croissant.", "example_fr": "Je voudrais un croissant.", "difficulty": "beginner"},
-            {"language_code": "francais", "lesson_number": 3, "word": "café", "translation_fr": "coffee", "phonetic": "ka.fe", "example_target": "Je voudrais un café.", "example_fr": "Je voudrais un café.", "difficulty": "beginner"},
-            {"language_code": "francais", "lesson_number": 3, "word": "s'il vous plaît", "translation_fr": "please", "phonetic": "sil vu plɛ", "example_target": "Un jus d'orange, s'il vous plaît.", "example_fr": "Un jus d'orange, s'il vous plaît.", "difficulty": "beginner"},
-            {"language_code": "francais", "lesson_number": 3, "word": "l'addition", "translation_fr": "the bill", "phonetic": "la.di.sjɔ̃", "example_target": "L'addition, s'il vous plaît.", "example_fr": "L'addition, s'il vous plaît.", "difficulty": "beginner"},
             {"language_code": "anglais", "lesson_number": 1, "word": "hello", "translation_fr": "bonjour", "phonetic": "həˈloʊ", "example_target": "Hello there", "example_fr": "Bonjour à tous", "difficulty": "beginner"},
             {"language_code": "anglais", "lesson_number": 1, "word": "thank you", "translation_fr": "merci", "phonetic": "θæŋk ju", "example_target": "Thank you very much", "example_fr": "Merci beaucoup", "difficulty": "beginner"},
             {"language_code": "bissa", "lesson_number": 1, "word": "sanu", "translation_fr": "salut", "phonetic": "sa.nu", "example_target": "Sanu yé", "example_fr": "Salut à toi", "difficulty": "beginner"},
@@ -642,6 +632,18 @@ def _seed_default_languages():
             ).first()
             if existing is None:
                 db.add(VocabularyItem(**payload))
+        db.commit()
+
+        # Keep the API aligned with canonical local data: the empty French
+        # artifact is archived, while Kônon remains active with its location.
+        french_row = db.query(Language).filter(Language.code == "francais").first()
+        if french_row:
+            french_row.status = "archived"
+        kono_row = db.query(Language).filter(Language.code == "kono").first()
+        if kono_row:
+            kono_row.status = "active"
+            kono_row.region = "Guinée / Guinée Forestière"
+            kono_row.description = "Langue de Guinée forestière"
         db.commit()
 
         _seed_dictionary_content(db)

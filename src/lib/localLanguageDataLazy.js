@@ -5,6 +5,17 @@ const LEVEL_META = {
 };
 
 const LOCAL_LANGUAGE_META_OVERRIDES = {
+  kono: {
+    code: "kono",
+    name: "Kônon",
+    name_fr: "Kônon",
+    region: "Guinée / Guinée Forestière",
+    family: "Mandé",
+    status: "active",
+    flag_emoji: "🇬🇳",
+    color: "#6D4C41",
+    description: "Langue de Guinée forestière",
+  },
   soussou: {
     code: "soussou",
     name: "Soussou",
@@ -79,7 +90,8 @@ const normalizeLanguageCode = (value) =>
     .toLowerCase()
     .replace(/é/g, "e")
     .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
+    .replace(/^-+|-+$/g, "")
+    .replace(/^konon$/, "kono");
 
 const getLanguageFolderFromPath = (filePath) => {
   const normalized = String(filePath || "").replace(/\\/g, "/");
