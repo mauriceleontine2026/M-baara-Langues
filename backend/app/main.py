@@ -608,6 +608,22 @@ def _seed_default_languages():
             db.commit()
             existing_languages = {lang.code: lang for lang in db.query(Language).all()}
 
+        kono_row = db.query(Language).filter(Language.code == "kono").first()
+        if kono_row is None:
+            db.add(Language(
+                code="kono",
+                name="Kônon",
+                name_fr="Kônon",
+                region="Guinée / Guinée Forestière",
+                family="Mandé",
+                status="active",
+                color="#6D4C41",
+                flag_emoji="🇬🇳",
+                total_lessons=20,
+                description="Langue de Guinée forestière",
+            ))
+            db.commit()
+
         lesson_seed = [
             {"title": "Les bases", "language_code": "anglais", "lesson_number": 1, "difficulty": "beginner", "content": "Start with everyday English words.", "published": True},
             {"title": "Se présenter", "language_code": "bissa", "lesson_number": 1, "difficulty": "beginner", "content": "Apprenez les premiers mots du bissa.", "published": True},
