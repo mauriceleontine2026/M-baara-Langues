@@ -155,7 +155,7 @@ export default function AuthSplitPanel(props) {
                       <input
                         type="email"
                         value={form.email}
-                        onChange={(event) => setForm((current) => ({ ...current, email: event.target.value.trimStart() }))}
+                        onChange={(event) => setForm((current) => ({ ...current, email: event.target.value.trim() }))}
                         placeholder="votre@email.com"
                         className="w-full border-none bg-transparent text-sm text-foreground outline-none"
                         autoComplete="email"

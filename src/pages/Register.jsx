@@ -23,9 +23,10 @@ export default function Register() {
       return;
     }
 
+    const normalizedEmail = typeof formEmail === "string" ? formEmail.trim() : "";
     setLoading(true);
     try {
-      const result = await register(formEmail, formPassword, name);
+      const result = await register(normalizedEmail, formPassword, name);
       if (result?.verification_required === false) {
         setMessage("Compte créé. Ton adresse e-mail est déjà vérifiée, tu peux te connecter immédiatement.");
       } else if (result?.message) {
