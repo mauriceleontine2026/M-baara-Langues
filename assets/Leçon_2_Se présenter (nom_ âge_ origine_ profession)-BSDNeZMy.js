@@ -1,0 +1,44 @@
+const e=`{
+  "titre_cours": "Leçon 2 : Se présenter (nom, âge, origine, profession).",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir de l'article académique de Maria Konoshenko, « Field Notes on Kono, a Southwestern Mande Lect of Forest Guinea » (Mandenkan n°57, 2017, LLACAN/CNRS), la seule description linguistique existante du kônon (kono), langue mandée du sud-ouest parlée par environ 90 000 personnes dans la préfecture de Lola, en Guinée forestière — à ne pas confondre avec le kono de Sierra Leone, une langue différente. Le kônon est très proche du kpèllé (guerzé) mais suffisamment distinct pour être considéré comme une langue à part. AVERTISSEMENT IMPORTANT : cet article est une esquisse grammaticale scientifique (phonologie, pronoms, système verbal) accompagnée d'une liste Swadesh de 100 mots de vocabulaire fondamental, non un dictionnaire thématique complet. Plusieurs des 27 thèmes de ce cours ne sont donc que partiellement ou pas du tout documentés dans cette unique source disponible ; cela est signalé honnêtement dans les leçons concernées. Ce thème n'est pas couvert par l'article de Konoshenko (2017), seule source scientifique disponible sur le kônon, qui documente la grammaire et un vocabulaire de base (liste Swadesh) plutôt qu'un lexique thématique complet. Par fidélité au principe de ne rien inventer, cette leçon reste volontairement courte. L'article ne fournit aucune formule pour demander le nom ou l'âge, mais donne le mot pour « nom » lui-même dans sa liste Swadesh.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le nom",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "la : le nom (et bien d'autres sens)",
+          "contenu_detaille": "La liste Swadesh de l'article donne 'la' (ton bas) pour « nom », un mot remarquablement polysémique en kônon puisque la même forme sonore signifie aussi « feuille », « dire » et « être couché » selon le contexte grammatical exact — seul le ton et la construction de la phrase permettent de distinguer ces sens.",
+          "vocabulaire_cles": [
+            {
+              "terme": "la",
+              "traduction_ou_definition": "nom (aussi : feuille, dire, être couché, selon le contexte)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "la.",
+              "traduction": "Nom (litt., dans la liste Swadesh de l'article)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le mot 'la' en kônon est-il polysémique, d'après la liste Swadesh de l'article ?",
+              "type": "QCM",
+              "options": [
+                "Oui, il signifie aussi feuille, dire, être couché",
+                "Non, il n'a qu'un seul sens",
+                "Il signifie uniquement 'bonjour'",
+                "Il n'existe pas en kônon"
+              ],
+              "reponse_correcte": "Oui, il signifie aussi feuille, dire, être couché"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon n'a pu présenter, faute de formule de présentation personnelle dans l'unique source disponible, que le mot polysémique 'la' (nom, feuille, dire, être couché selon le contexte), issu de la liste Swadesh de l'article de Konoshenko."
+}`;export{e as default};
