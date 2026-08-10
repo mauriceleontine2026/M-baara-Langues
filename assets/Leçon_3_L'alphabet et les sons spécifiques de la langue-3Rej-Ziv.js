@@ -1,0 +1,125 @@
+const e=`{
+  "titre_cours": "Leçon 3 : L'alphabet et les sons spécifiques de la langue.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir de recherches web (Langue-Russe.fr, Russie Voyage, Russkaia-chkola, Wikipédia). MISE À JOUR : cette leçon a été enrichie d'un guide de prononciation plus complet, portant sur l'accent tonique et la réduction vocalique, deux phénomènes essentiels à la prononciation correcte du russe et absents de sa seule écriture.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "L'alphabet cyrillique : lettres et prononciation",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "33 lettres, trois catégories pour les francophones",
+          "contenu_detaille": "L'alphabet cyrillique russe compte 33 lettres. Pour les francophones, on peut les classer en trois groupes : celles qui ressemblent aux lettres latines ET se prononcent pareil (А=A, Е=É/YE, К=K, М=M, О=O, Т=T) ; celles qui ressemblent à des lettres latines mais se prononcent différemment — les « faux amis » (В=V, Н=N, Р=R, С=S, У=OU, Х=KH) ; et celles entièrement nouvelles (Б=B, Г=G, Д=D, Ж=J, З=Z, Л=L, П=P, Ф=F, Ц=TS, Ч=TCH, Ш=CH, Щ=CHTCH, Ы=Y dur, Э=É, Ю=IOU, Я=IA).",
+          "vocabulaire_cles": [
+            {
+              "terme": "В [V]",
+              "traduction_ou_definition": "« faux ami » : ressemble au V latin mais se prononce V (pas B)"
+            },
+            {
+              "terme": "Н [N]",
+              "traduction_ou_definition": "« faux ami » : ressemble au H latin mais se prononce N"
+            },
+            {
+              "terme": "Р [R]",
+              "traduction_ou_definition": "« faux ami » : ressemble au P latin mais se prononce R"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "мама [mama].",
+              "traduction": "Maman (М, А reconnaissables directement)."
+            },
+            {
+              "phrase": "папа [papa].",
+              "traduction": "Papa (П = P, un faux ami à retenir)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Combien de lettres compte l'alphabet cyrillique russe ?",
+              "type": "QCM",
+              "options": [
+                "33",
+                "26",
+                "30",
+                "40"
+              ],
+              "reponse_correcte": "33"
+            },
+            {
+              "question": "La lettre cyrillique 'Р', qui ressemble au P latin, se prononce en réalité comme un _____ français.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "R"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "L'accent tonique : mobile et non marqué à l'écrit",
+          "contenu_detaille": "Une recherche complémentaire précise un piège majeur pour les apprenants : l'accent tonique (уда́рение, oudarenie) russe est mobile — il peut tomber sur n'importe quelle syllabe d'un mot, et cette position n'est jamais indiquée dans l'écriture courante (elle ne l'est que dans les dictionnaires et manuels pour apprenants, par un accent aigu). Un même mot peut même changer d'accent selon sa forme grammaticale. Il faut donc apprendre la prononciation de chaque mot avec son accent, sans pouvoir le déduire de l'écrit.",
+          "vocabulaire_cles": [
+            {
+              "terme": "ударение (oudarenie)",
+              "traduction_ou_definition": "accent tonique, mobile et non marqué à l'écrit dans les textes courants"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "молоко́ [malako].",
+              "traduction": "Lait (accent sur la dernière syllabe)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "L'accent tonique russe est-il indiqué dans l'écriture courante ?",
+              "type": "QCM",
+              "options": [
+                "Non, seulement dans les dictionnaires et manuels pour apprenants",
+                "Oui, systématiquement",
+                "Oui, mais seulement pour les noms propres",
+                "Le russe n'a pas d'accent tonique"
+              ],
+              "reponse_correcte": "Non, seulement dans les dictionnaires et manuels pour apprenants"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "La réduction vocalique : akanie et ikanie",
+          "contenu_detaille": "Conséquence directe de l'accent mobile : les voyelles non accentuées se « réduisent » nettement à l'oral. Le phénomène le plus connu est l'« akanié » (а́канье) : la lettre 'o' non accentuée se prononce comme un 'a' faible — c'est exactement ce qui explique la prononciation de 'молоко' (moloko, lait), où les deux premiers 'o' non accentués se prononcent [a], seul le troisième (accentué) restant un [o] net : [malako]. Un phénomène comparable, l'« ikanié », affecte les voyelles 'e' et 'я' non accentuées, qui tendent vers un [i].",
+          "vocabulaire_cles": [
+            {
+              "terme": "аканье (akanié)",
+              "traduction_ou_definition": "réduction du 'o' non accentué vers un [a] faible"
+            },
+            {
+              "terme": "иканье (ikanié)",
+              "traduction_ou_definition": "réduction du 'e'/'я' non accentué vers un [i]"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "молоко → [malako].",
+              "traduction": "Lait : les deux premiers 'o' non accentués se prononcent [a]."
+            },
+            {
+              "phrase": "хорошо → [kharacho].",
+              "traduction": "Bien : même phénomène d'akanié."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le phénomène qui fait prononcer le 'o' non accentué comme un [a] faible s'appelle l'_____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "akanié"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté l'alphabet cyrillique (33 lettres, dont des 'faux amis' pour les francophones) et deux phénomènes de prononciation essentiels et invisibles à l'écrit : l'accent tonique mobile et la réduction vocalique (akanié/ikanié), établis à partir de recherches web complémentaires."
+}`;export{e as default};

@@ -1,0 +1,81 @@
+const e=`{
+  "titre_cours": "Leçon 3 : Exprimer ses goûts, ses préférences et ses sentiments.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Langue-Russe.fr, Russie Voyage, Russkaia-chkola, Aufutur, MasterRussian, Wikipédia, Languages and Numbers), le russe étant une langue majeure parlée par plus de 258 millions de personnes, lingua franca de l'espace post-soviétique. Chaque mot est systématiquement donné en écriture cyrillique accompagnée de sa translittération phonétique. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Aimer, vouloir, pouvoir",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Trois verbes essentiels",
+          "contenu_detaille": "Une recherche complémentaire (liste des 80 verbes essentiels au présent) donne 'любить' (lioubit', aimer), 'хотеть' (khotet', vouloir), et 'мочь' (motch', pouvoir) — trois verbes irréguliers mais fondamentaux pour exprimer ses goûts et ses envies.",
+          "vocabulaire_cles": [
+            {
+              "terme": "любить (lioubit')",
+              "traduction_ou_definition": "aimer"
+            },
+            {
+              "terme": "хотеть (khotet')",
+              "traduction_ou_definition": "vouloir"
+            },
+            {
+              "terme": "мочь (motch')",
+              "traduction_ou_definition": "pouvoir"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "любить.",
+              "traduction": "Aimer."
+            },
+            {
+              "phrase": "хотеть.",
+              "traduction": "Vouloir."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'aimer' en russe ?",
+              "type": "QCM",
+              "options": [
+                "любить (lioubit')",
+                "хотеть (khotet')",
+                "мочь (motch')",
+                "знать (znat')"
+              ],
+              "reponse_correcte": "любить (lioubit')"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Une réponse à ne pas oublier : Не за что",
+          "contenu_detaille": "Une recherche complémentaire donne 'Не за что' (Ne za tchto, litt. « il n'y a pas pourquoi »), formule de politesse qui répond à un remerciement, alternative à 'Пожалуйста' déjà vu en Leçon 1 du niveau débutant, utile pour exprimer que le service rendu n'appelait aucune gratitude particulière.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Не за что (Ne za tchto)",
+              "traduction_ou_definition": "de rien (litt. il n'y a pas pourquoi), alternative à Пожалуйста"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Спасибо! — Не за что!",
+              "traduction": "Merci ! — De rien !"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'De rien', litt. 'il n'y a pas pourquoi', se dit en russe : Не за _____ (tchto).",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "что"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté trois verbes essentiels (любить, хотеть, мочь) et une formule alternative de politesse (Не за что), issus de recherches web, avec écriture cyrillique et translittération."
+}`;export{e as default};

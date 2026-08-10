@@ -1,0 +1,69 @@
+const e=`{
+  "titre_cours": "Leçon 9 : Demander et donner des conseils ou des instructions.",
+  "niveau": "Intermédiaire (B1 - B2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Langue-Russe.fr, Russie Voyage, Russkaia-chkola, Aufutur, MasterRussian, Wikipédia, Languages and Numbers), le russe étant une langue majeure parlée par plus de 258 millions de personnes, lingua franca de l'espace post-soviétique. Chaque mot est systématiquement donné en écriture cyrillique accompagnée de sa translittération phonétique. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Le conseil par le proverbe",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Тише едешь, дальше будешь : qui va lentement va sûrement",
+          "contenu_detaille": "Le russe donne le proverbe 'Тише едешь, дальше будешь' (Tiché iédech, dal'ché boudéch), litt. « plus doucement tu vas [en véhicule], plus loin tu iras », équivalent du français « qui va lentement va sûrement » ou « rien ne sert de courir, il faut partir à point ». Un point de vocabulaire à noter : dans ce proverbe, 'тихо' (doucement) signifie ici « lentement » plutôt que « silencieusement » lorsqu'il accompagne un verbe de mouvement.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Тише едешь, дальше будешь (Tiché iédech, dal'ché boudéch)",
+              "traduction_ou_definition": "qui va lentement va sûrement (proverbe, litt. plus doucement tu vas, plus loin tu iras)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Тише едешь, дальше будешь.",
+              "traduction": "Qui va lentement va sûrement. (Proverbe)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Que signifie 'тихо' dans ce proverbe, associé à un verbe de mouvement ?",
+              "type": "QCM",
+              "options": [
+                "Lentement (plutôt que silencieusement)",
+                "Rapidement",
+                "Bruyamment",
+                "Jamais"
+              ],
+              "reponse_correcte": "Lentement (plutôt que silencieusement)"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "La pomme ne tombe pas loin du pommier",
+          "contenu_detaille": "Le russe donne le proverbe 'Яблоко от яблони недалеко падает' (Iabloko ot iabloni nedaleko padaet), « la pomme ne tombe pas loin du pommier », équivalent français exact — un conseil qui souligne combien les enfants ressemblent souvent à leurs parents, dans les qualités comme les défauts.",
+          "vocabulaire_cles": [
+            {
+              "terme": "Яблоко от яблони недалеко падает (Iabloko ot iabloni nedaleko padaet)",
+              "traduction_ou_definition": "la pomme ne tombe pas loin du pommier (proverbe)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Яблоко от яблони недалеко падает.",
+              "traduction": "La pomme ne tombe pas loin du pommier. (Proverbe)"
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le proverbe russe sur la pomme et le pommier souligne combien les enfants ressemblent à leurs _____ .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "parents"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté deux proverbes-conseils russes classiques (Тише едешь дальше будешь, sur la patience ; Яблоко от яблони, sur l'hérédité), issus de recueils de proverbes russes consultés en ligne, avec écriture cyrillique et translittération."
+}`;export{e as default};
