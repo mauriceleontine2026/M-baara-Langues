@@ -159,6 +159,14 @@ def _send_verification_email(user: User) -> None:
         raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Impossible d'envoyer l'e-mail de vérification.") from exc
 
 
+def _smtp_is_configured() -> bool:
+    return bool(os.getenv("SMTP_HOST") and os.getenv("SMTP_USER") and os.getenv("SMTP_PASSWORD"))
+
+
+def _should_auto_verify_when_smtp_unavailable() -> bool:
+    return os.getenv("AUTO_VERIFY_ON_MISSING_SMTP", "true").strip().lower() in {"1", "true", "yes"}
+
+
 def _verify_firebase_id_token(id_token_value: str) -> dict:
     if not FIREBASE_API_KEY:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Firebase API key is not configured on the backend.")
@@ -323,7 +331,15 @@ def request_email_verification(request: Request, payload: ResetPasswordRequest, 
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Adresse e-mail invalide.")
     user = db.query(User).filter(User.email == email).first()
     if user:
-        _send_verification_email(user)
+        if _smtp_is_configured():
+            _send_verification_email(user)
+        elif _should_auto_verify_when_smtp_unavailable():
+            return {
+                "status": "ok",
+                "message": "Le service d'e-mail n'est pas configuré. Votre compte peut être utilisé immédiatement si l'auto-vérification est activée.",
+            }
+        else:
+            raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le service d'envoi d'e-mails n'est pas configuré.")
     return {"status": "ok", "message": "Si ce compte existe, un e-mail de vérification a été envoyé."}
 
 
@@ -356,22 +372,38 @@ def register(request: Request, response: Response, payload: RegisterRequest, db:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Adresse e-mail invalide.")
 
     admin_email = is_admin_email(normalized_email)
+    auto_verified = False
+    email_verified = False
+    if not _smtp_is_configured() and _should_auto_verify_when_smtp_unavailable():
+        auto_verified = True
+        email_verified = True
+
     user = User(
         email=normalized_email,
         hashed_password=security.get_password_hash(payload.password),
         full_name=payload.full_name,
         role="admin" if admin_email else "user",
-        email_verified=False,
+        email_verified=email_verified,
     )
     db.add(user)
     db.flush()
-    try:
-        _send_verification_email(user)
-    except HTTPException:
-        db.rollback()
-        raise
+    if not auto_verified:
+        try:
+            _send_verification_email(user)
+        except HTTPException:
+            db.rollback()
+            raise
     db.commit()
-    return {"verification_required": True, "user": {"id": user.id, "email": user.email, "full_name": user.full_name}}
+
+    response = {
+        "verification_required": not auto_verified,
+        "user": {"id": user.id, "email": user.email, "full_name": user.full_name},
+    }
+    if auto_verified:
+        response["message"] = (
+            "Le service d'e-mail n'est pas configuré. Ton adresse est automatiquement vérifiée pour permettre la connexion."
+        )
+    return response
 
 
 @router.post("/register/form", status_code=status.HTTP_201_CREATED)
@@ -396,22 +428,38 @@ def register_form(
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Adresse e-mail invalide.")
 
     admin_email = is_admin_email(normalized_email)
+    auto_verified = False
+    email_verified = False
+    if not _smtp_is_configured() and _should_auto_verify_when_smtp_unavailable():
+        auto_verified = True
+        email_verified = True
+
     user = User(
         email=normalized_email,
         hashed_password=security.get_password_hash(password),
         full_name=full_name,
         role="admin" if admin_email else "user",
-        email_verified=False,
+        email_verified=email_verified,
     )
     db.add(user)
     db.flush()
-    try:
-        _send_verification_email(user)
-    except HTTPException:
-        db.rollback()
-        raise
+    if not auto_verified:
+        try:
+            _send_verification_email(user)
+        except HTTPException:
+            db.rollback()
+            raise
     db.commit()
-    return {"verification_required": True, "user": {"id": user.id, "email": user.email, "full_name": user.full_name}}
+
+    response = {
+        "verification_required": not auto_verified,
+        "user": {"id": user.id, "email": user.email, "full_name": user.full_name},
+    }
+    if auto_verified:
+        response["message"] = (
+            "Le service d'e-mail n'est pas configuré. Ton adresse est automatiquement vérifiée pour permettre la connexion."
+        )
+    return response
 
 
 @router.post("/login")
