@@ -3,7 +3,7 @@ import json
 import sqlite3
 
 root = Path(__file__).resolve().parents[1]
-lang_dir = root / 'src' / 'data' / 'dictionnaires'
+lang_dir = root / 'src' / 'data'
 lang_dir.mkdir(parents=True, exist_ok=True)
 
 def write_lang(folder_name: str, code: str, entries):

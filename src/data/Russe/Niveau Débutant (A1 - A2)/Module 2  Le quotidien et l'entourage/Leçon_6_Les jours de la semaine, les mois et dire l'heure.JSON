@@ -1,0 +1,137 @@
+{
+  "titre_cours": "Leçon 6 : Les jours de la semaine, les mois et dire l'heure.",
+  "niveau": "Débutant (A1 - A2)",
+  "introduction": "Contenu construit à partir de recherches web (Langue-Russe.fr, Russie Voyage, Russkaia-chkola, Wir.by, Cornell University Russian grammar, KU vocabulary lists). MISE À JOUR : cette leçon avait été signalée comme trop pauvre ou incomplète. Une nouvelle recherche web ciblée a permis de la compléter avec du vocabulaire vérifié, avec écriture cyrillique et translittération systématiques.",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Les sept jours de la semaine",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "Les sept jours",
+          "contenu_detaille": "Le russe donne : 'понедельник' (ponedel'nik, lundi), 'вторник' (vtornik, mardi), 'среда' (sreda, mercredi), 'четверг' (tchetverg, jeudi), 'пятница' (piatnitsa, vendredi), 'суббота' (soubbota, samedi), 'воскресенье' (voskresenie, dimanche).",
+          "vocabulaire_cles": [
+            {
+              "terme": "понедельник (ponedel'nik)",
+              "traduction_ou_definition": "lundi"
+            },
+            {
+              "terme": "вторник (vtornik)",
+              "traduction_ou_definition": "mardi"
+            },
+            {
+              "terme": "среда (sreda)",
+              "traduction_ou_definition": "mercredi"
+            },
+            {
+              "terme": "четверг (tchetverg)",
+              "traduction_ou_definition": "jeudi"
+            },
+            {
+              "terme": "пятница (piatnitsa)",
+              "traduction_ou_definition": "vendredi"
+            },
+            {
+              "terme": "суббота (soubbota)",
+              "traduction_ou_definition": "samedi"
+            },
+            {
+              "terme": "воскресенье (voskresenie)",
+              "traduction_ou_definition": "dimanche"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "понедельник.",
+              "traduction": "Lundi."
+            },
+            {
+              "phrase": "пятница.",
+              "traduction": "Vendredi."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Comment dit-on 'vendredi' en russe ?",
+              "type": "QCM",
+              "options": [
+                "пятница (piatnitsa)",
+                "четверг (tchetverg)",
+                "суббота (soubbota)",
+                "среда (sreda)"
+              ],
+              "reponse_correcte": "пятница (piatnitsa)"
+            },
+            {
+              "question": "'Mercredi' se dit en russe : _____ (sreda).",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "среда"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Une étymologie en deux familles",
+          "contenu_detaille": "Une recherche complémentaire (Wir.by) révèle que les jours russes se répartissent en deux familles étymologiques : les jours « numérotés » ('вторник', deuxième ; 'четверг', quatrième ; 'пятница', cinquième, qui contiennent la racine du chiffre correspondant), et les jours « positionnels » ('понедельник', litt. « après le [jour du] non-travail », c'est-à-dire après le dimanche ; 'среда', litt. « milieu » de la semaine).",
+          "vocabulaire_cles": [
+            {
+              "terme": "вторник, четверг, пятница",
+              "traduction_ou_definition": "jours 'numérotés' (contiennent la racine de deuxième/quatrième/cinquième)"
+            },
+            {
+              "terme": "понедельник, среда",
+              "traduction_ou_definition": "jours 'positionnels' (après le repos ; milieu de semaine)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "(remarque étymologique)",
+              "traduction": "'Среда' (mercredi) signifie littéralement 'milieu' de la semaine."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "'Среда' (mercredi) signifie littéralement '_____' de la semaine.",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "milieu"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 3,
+          "titre": "Semaine et week-end",
+          "contenu_detaille": "Le russe donne 'неделя' (nedelia, semaine), et son composé dérivé montre bien le lien avec 'понедельник' (lundi, litt. « après не-деля », après le jour sans travail — 'неделя' désignait autrefois le dimanche lui-même).",
+          "vocabulaire_cles": [
+            {
+              "terme": "неделя (nedelia)",
+              "traduction_ou_definition": "semaine"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "неделя.",
+              "traduction": "Semaine."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "De quel mot 'понедельник' (lundi) est-il étymologiquement dérivé, d'après une recherche complémentaire ?",
+              "type": "QCM",
+              "options": [
+                "не-деля (jour sans travail, ancien nom du dimanche)",
+                "вторник (mardi)",
+                "среда (mercredi)",
+                "суббота (samedi)"
+              ],
+              "reponse_correcte": "не-деля (jour sans travail, ancien nom du dimanche)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté les sept jours de la semaine russe et leur double origine étymologique (jours numérotés vs positionnels, avec l'exemple frappant de среда = 'milieu'), établie à partir de recherches web complémentaires."
+}

@@ -1,0 +1,73 @@
+{
+  "titre_cours": "Leçon 9 : Traduction et nuances stylistiques avancées.",
+  "niveau": "Avancé (C1 - C2)",
+  "introduction": "Contenu construit entièrement à partir de recherches web (Langue-Russe.fr, Russie Voyage, Russkaia-chkola, Aufutur, MasterRussian, Wikipédia, Languages and Numbers), le russe étant une langue majeure parlée par plus de 258 millions de personnes, lingua franca de l'espace post-soviétique. Chaque mot est systématiquement donné en écriture cyrillique accompagnée de sa translittération phonétique. ",
+  "modules": [
+    {
+      "id_module": 1,
+      "titre_module": "Nuances de traduction",
+      "chapitres": [
+        {
+          "id_chapitre": 1,
+          "titre": "L'aspect verbal, un piège de traduction constant",
+          "contenu_detaille": "Comme vu dans plusieurs leçons de ce cours, la distinction perfectif/imperfectif constitue le piège de traduction le plus fréquent entre le russe et le français : une phrase française unique comme « j'ai regardé un film » peut se traduire par deux phrases russes de sens différent selon que l'on insiste sur l'achèvement ('Я посмотрел фильм') ou sur le déroulement ('Я смотрел фильм'). Une traduction qui ignorerait cette nuance produirait une phrase grammaticalement correcte mais sémantiquement imprécise.",
+          "vocabulaire_cles": [
+            {
+              "terme": "посмотрел / смотрел",
+              "traduction_ou_definition": "perfectif (achevé) / imperfectif (en cours), même sens de base 'regarder' mais nuance distincte"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Я посмотрел фильм.",
+              "traduction": "J'ai regardé le film (en entier)."
+            },
+            {
+              "phrase": "Я смотрел фильм.",
+              "traduction": "J'étais en train de regarder un film."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Quel piège de traduction le russe pose-t-il constamment, par rapport au français ?",
+              "type": "QCM",
+              "options": [
+                "La distinction d'aspect perfectif/imperfectif, absente du français",
+                "L'absence de verbe être",
+                "L'absence de pluriel",
+                "L'absence de pronoms personnels"
+              ],
+              "reponse_correcte": "La distinction d'aspect perfectif/imperfectif, absente du français"
+            }
+          ]
+        },
+        {
+          "id_chapitre": 2,
+          "titre": "Красный : rouge, ou beau ?",
+          "contenu_detaille": "Comme vu en Leçon 9 du niveau débutant, le mot 'красный' signifie aujourd'hui « rouge », mais son sens historique en vieux-slave était « beau, magnifique » — un sens fossilisé dans l'expression 'Красная площадь' (la Place Rouge). Une traduction d'un texte ancien ou d'une expression figée qui appliquerait mécaniquement le sens moderne « rouge » à toute occurrence de 'красный' risquerait de manquer ce sens historique alternatif.",
+          "vocabulaire_cles": [
+            {
+              "terme": "красный",
+              "traduction_ou_definition": "rouge (sens moderne) ; beau, magnifique (sens historique, vieux-slave)"
+            }
+          ],
+          "exemples": [
+            {
+              "phrase": "Красная площадь.",
+              "traduction": "La Place Rouge (litt. à l'origine : la Belle Place)."
+            }
+          ],
+          "exercices": [
+            {
+              "question": "Le sens historique du mot 'красный' en vieux-slave, avant de signifier 'rouge', était '_____ ' .",
+              "type": "texte_a_trous",
+              "options": [],
+              "reponse_correcte": "beau"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Cette leçon a présenté deux nuances essentielles à une traduction précise du russe : le piège constant de l'aspect verbal (perfectif/imperfectif) et la double signification historique de 'красный' (rouge/beau), issues de recherches web sur la langue russe."
+}

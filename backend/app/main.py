@@ -81,13 +81,12 @@ def _normalize_language_slug(value):
 
 
 def _seed_dictionary_content(db):
-    root_candidates = [
-        Path(__file__).resolve().parents[2] / "src" / "data" / "dictionnaires",
-        Path(__file__).resolve().parents[2] / "src" / "Dictionnaires des langues de l'application M'Baara",
-    ]
-    root_candidates = [root for root in root_candidates if root.exists()]
-    if not root_candidates:
+    root = Path(__file__).resolve().parents[2] / "src" / "data"
+    if not root.exists():
         return
+    # Candidate root directories to scan for language JSON data.
+    # Historically we used multiple possible locations; default to the canonical `src/data`.
+    root_candidates = [root]
 
     def _mark_language_active(language_code: str):
         language_row = db.query(Language).filter(Language.code == language_code).first()
@@ -243,7 +242,9 @@ def _seed_dictionary_content(db):
 
             processed_items = 0
             has_content = False
-            for json_file in sorted(language_dir.glob("*.json")):
+            for json_file in sorted(language_dir.rglob("*.json")):
+                if not json_file.is_file():
+                    continue
                 try:
                     with open(json_file, "r", encoding="utf-8") as fh:
                         payload = json.load(fh)
@@ -586,8 +587,18 @@ def _seed_default_languages():
             {"code": "chinois", "name": "中文", "name_fr": "Chinois (Mandarin)", "region": "Chine", "family": "Sino-tibétain", "status": "active", "color": "#C62828", "flag_emoji": "🇨🇳", "total_lessons": 20, "description": "Langue la plus parlée au monde"},
             {"code": "japonais", "name": "日本語", "name_fr": "Japonais", "region": "Japon", "family": "Japono-ryukyu", "status": "active", "color": "#AD1457", "flag_emoji": "🇯🇵", "total_lessons": 20, "description": "Langue du Japon"},
         ]
+            # Only add default languages that have a corresponding folder in src/data
+            data_root = Path(__file__).resolve().parents[2] / "src" / "data"
+            available_dirs = set()
+            if data_root.exists():
+                for d in data_root.iterdir():
+                    if d.is_dir():
+                        available_dirs.add(_normalize_language_slug(d.name))
+
             for payload in default_languages:
-                db.add(Language(**payload))
+                code_norm = _normalize_language_slug(payload.get("code"))
+                if code_norm in available_dirs:
+                    db.add(Language(**payload))
             db.commit()
             existing_languages = {lang.code: lang for lang in db.query(Language).all()}
 

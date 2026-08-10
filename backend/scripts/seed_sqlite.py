@@ -7,7 +7,7 @@ from datetime import datetime
 
 ROOT = Path(__file__).resolve().parents[2]
 DB_PATH = ROOT / 'mbaara.db'
-DICTS_ROOT = ROOT / 'src' / 'data' / 'dictionnaires'
+DICTS_ROOT = ROOT / 'src' / 'data'
 
 if not DB_PATH.exists():
     print('DB missing at', DB_PATH)
@@ -66,7 +66,9 @@ for folder in sorted(DICTS_ROOT.iterdir()):
         cur.execute('INSERT INTO lessons (title, language_code, lesson_number, difficulty, content, published, created_at) VALUES (?,?,?,?,?,?,?)', (title, lang_code, 1, 'beginner', content, 1, now))
 
     # load json files
-    for json_file in sorted(folder.glob('*.json')):
+    for json_file in sorted(folder.rglob('*.json')):
+        if not json_file.is_file():
+            continue
         try:
             payload = json.loads(json_file.read_text(encoding='utf-8'))
         except Exception:
