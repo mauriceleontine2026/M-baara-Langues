@@ -58,7 +58,15 @@ export default function AuthSplitPanel(props) {
 
   const handleSubmit = (/** @type {any} */ event) => {
     event.preventDefault();
-    onSubmit?.({ ...form, mode });
+    const formElement = event.currentTarget;
+    const formData = new FormData(formElement);
+    const submittedValues = {
+      name: String(formData.get("name") || form.name || "").trim(),
+      email: String(formData.get("email") || form.email || "").trim(),
+      password: String(formData.get("password") || form.password || ""),
+      confirmPassword: String(formData.get("confirmPassword") || form.confirmPassword || ""),
+    };
+    onSubmit?.({ ...submittedValues, mode });
   };
 
 
@@ -137,6 +145,7 @@ export default function AuthSplitPanel(props) {
                       <div className="flex items-center gap-3 rounded-2xl border border-border bg-background px-4 py-3 transition-all duration-300 focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20">
                         <UserRound className="h-4 w-4 text-muted-foreground" />
                         <input
+                          name="name"
                           type="text"
                           value={form.name}
                           onChange={(event) => setForm((current) => ({ ...current, name: event.target.value }))}
@@ -153,6 +162,7 @@ export default function AuthSplitPanel(props) {
                     <div className="flex items-center gap-3 rounded-2xl border border-border bg-background px-4 py-3 transition-all duration-300 focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20">
                       <Mail className="h-4 w-4 text-muted-foreground" />
                       <input
+                        name="email"
                         type="email"
                         value={form.email}
                         onChange={(event) => setForm((current) => ({ ...current, email: event.target.value.trim() }))}
@@ -171,6 +181,7 @@ export default function AuthSplitPanel(props) {
                     <div className="flex items-center gap-3 rounded-2xl border border-border bg-background px-4 py-3 transition-all duration-300 focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20">
                       <Lock className="h-4 w-4 text-muted-foreground" />
                       <input
+                        name="password"
                         type={showPassword ? "text" : "password"}
                         value={form.password}
                         onChange={(event) => setForm((current) => ({ ...current, password: event.target.value }))}
@@ -196,6 +207,7 @@ export default function AuthSplitPanel(props) {
                       <div className="flex items-center gap-3 rounded-2xl border border-border bg-background px-4 py-3 transition-all duration-300 focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20">
                         <Lock className="h-4 w-4 text-muted-foreground" />
                         <input
+                          name="confirmPassword"
                           type={showPassword ? "text" : "password"}
                           value={form.confirmPassword}
                           onChange={(event) => setForm((current) => ({ ...current, confirmPassword: event.target.value }))}
