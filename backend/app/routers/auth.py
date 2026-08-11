@@ -175,7 +175,11 @@ def _verify_supabase_access_token(access_token: str) -> dict:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Supabase URL is not configured on the backend.")
     try:
         url = SUPABASE_URL.rstrip("/") + "/auth/v1/user"
+        # Include the Supabase service key as `apikey` header to allow server-side
+        # verification of access tokens (avoids client CORS/auth restrictions).
         headers = {"Authorization": f"Bearer {access_token}"}
+        if SUPABASE_SERVICE_KEY:
+            headers["apikey"] = SUPABASE_SERVICE_KEY
         resp = httpx.get(url, headers=headers, timeout=10.0)
         resp.raise_for_status()
         payload = resp.json()

@@ -1,0 +1,784 @@
+﻿{
+    "projects":  [
+                     {
+                         "accountId":  "team_8Sbq5aFIbZAI365zcJGJqS6d",
+                         "creator":  {
+                                         "type":  "user",
+                                         "user":  {
+                                                      "id":  "wSpGjWaCcmjrZBG3ceZ23vYO"
+                                                  },
+                                         "via":  {
+                                                     "type":  "app",
+                                                     "app":  "@{id=cl_HYyOPBNtFMfHhaUn9L4QPfTZz6TP47bp}"
+                                                 }
+                                     },
+                         "alias":  [
+
+                                   ],
+                         "speedInsights":  {
+                                               "id":  "bbMOYOROpkmsUnr2OwJyIMYWNsD",
+                                               "hasData":  false
+                                           },
+                         "autoExposeSystemEnvs":  true,
+                         "autoAssignCustomDomains":  true,
+                         "autoAssignCustomDomainsUpdatedBy":  "system",
+                         "buildCommand":  null,
+                         "createdAt":  1785595050739,
+                         "crons":  {
+                                       "enabledAt":  1785595090987,
+                                       "disabledAt":  null,
+                                       "updatedAt":  1786464190568,
+                                       "deploymentId":  "dpl_GRe2CSNXPYqZPNcazBDp2e4bX3WR",
+                                       "definitions":  [
+
+                                                       ]
+                                   },
+                         "deploymentExpiration":  {
+                                                      "expirationDays":  30,
+                                                      "expirationDaysProduction":  30,
+                                                      "expirationDaysCanceled":  30,
+                                                      "expirationDaysErrored":  30,
+                                                      "deploymentsToKeep":  10
+                                                  },
+                         "devCommand":  null,
+                         "directoryListing":  false,
+                         "env":  [
+                                     {
+                                         "type":  "encrypted",
+                                         "value":  "eyJ2IjoidjIiLCJjIjoieFBhaWQ2UFRFRTVBNjkxV1QrcUpJSDlVZWhDbmVTbEFZZlc4OGR4UFRrdy93dE1oemJrS1Z1YTcyNnZwQmxsVWdma2lpUExLMFJsOXZSdzVFc21MOWFucE5MMzgvTUxqN0VwSk1hR280UWlETFJnSFRwRWJNT0llbFg4PSIsImsiOlsxODQsMSwyLDMsMCwxMjAsMTA3LDExOSwxNTMsMjMsMjIzLDExNywxODMsMTIwLDU3LDE5NiwxMSwyOCwyNDksMTE5LDEwNCwyMTMsMTY5LDE2MSwxNDEsMTQyLDk5LDY1LDQ5LDIxMiwzMCwxOTksOTcsMjA0LDIxOCw3NywxMDUsMTc5LDEsMjE0LDE5NSw1MiwyMzIsMTUsMTMyLDIwMSwxMDQsMTczLDMzLDE0MSwxNjAsMzMsMTc2LDI5LDMwLDAsMCwwLDEyNiw0OCwxMjQsNiw5LDQyLDEzNCw3MiwxMzQsMjQ3LDEzLDEsNyw2LDE2MCwxMTEsNDgsMTA5LDIsMSwwLDQ4LDEwNCw2LDksNDIsMTM0LDcyLDEzNCwyNDcsMTMsMSw3LDEsNDgsMzAsNiw5LDk2LDEzNCw3MiwxLDEwMSwzLDQsMSw0Niw0OCwxNyw0LDEyLDE2NSwxMTYsMjMzLDE2MSwxODAsODEsOTEsMTg3LDQwLDIxNSw2OCwxNjQsMiwxLDE2LDEyOCw1OSw4MiwyMjUsOTQsMjksMTI0LDE1OSw4Niw2MiwxMTUsMjA4LDE2OCw1NiwzLDEzMywxMDksMTEyLDk3LDE0NCwxOTQsNDAsNjMsMTkxLDE4OSwxMTIsOTksNzgsMTgxLDEwLDIyMSw0Niw2Niw4MCwyMTcsODcsMjQ0LDcxLDI1Myw4OSwyMTcsMTgwLDY4LDIyNiwxMDksMjIsMjQyLDI1MywxMTIsMTk4LDE2LDEyMiwzNCwxNzYsODYsNzUsNjYsNTQsMTEyLDU5LDEzNV19",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "11wjFI5q20fi3XVM",
+                                         "key":  "FIREBASE_PROJECT_ID",
+                                         "createdAt":  1785599491684,
+                                         "updatedAt":  1785599491684,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "encrypted",
+                                         "value":  "eyJ2IjoidjIiLCJjIjoiYmFlY1QzNC9jUHFtS1lETjAvaUdOd0ZpSG1uTzA0cDR2OVo1bmdkRWFFRktxdmgvMGUxK0laeHFUNGtISjExRmhweWxiUEhFV3hrek1DZTUwZUltUnFlRGIwOGZpbWgzbTVMYnNuV2xYYzNGSy9ESVBiY2NvbjBLZmo4ZWttYTZlVWxDRE5BVVdRTTQxdktYZXYxUkV3N0pGSnZPb1BIdm1ScGdhZzI0dGNJMk5COXMiLCJrIjpbMTg0LDEsMiwzLDAsMTIwLDEwNywxMTksMTUzLDIzLDIyMywxMTcsMTgzLDEyMCw1NywxOTYsMTEsMjgsMjQ5LDExOSwxMDQsMjEzLDE2OSwxNjEsMTQxLDE0Miw5OSw2NSw0OSwyMTIsMzAsMTk5LDk3LDIwNCwyMTgsNzcsMTA1LDE3OSwxLDUzLDQ2LDIyMywxLDEyNCwyNDMsODQsMTI3LDY4LDM3LDIzLDE2OCwyMTAsMjgsMTUyLDE1OCwwLDAsMCwxMjYsNDgsMTI0LDYsOSw0MiwxMzQsNzIsMTM0LDI0NywxMywxLDcsNiwxNjAsMTExLDQ4LDEwOSwyLDEsMCw0OCwxMDQsNiw5LDQyLDEzNCw3MiwxMzQsMjQ3LDEzLDEsNywxLDQ4LDMwLDYsOSw5NiwxMzQsNzIsMSwxMDEsMyw0LDEsNDYsNDgsMTcsNCwxMiwxNTcsNzYsMTk4LDkwLDEyNiwxNjYsMTE2LDgyLDIxLDIzNywxNDEsODksMiwxLDE2LDEyOCw1OSwyNDAsMjQyLDkwLDIwOSw3LDg1LDk4LDEwOCw4MiwxMyw5NywxMzYsNDgsMTM3LDE0LDIxNywxODEsMTc5LDIyNCw0OSw4MSw1NiwxMzgsMjM0LDkzLDI0MiwxNjAsNzQsMjE4LDIwNCwyNTQsMTkwLDY5LDg4LDE2MywyMzksNDYsMjU1LDEzNyw2OCw5NiwyMDgsOTEsMjI3LDIxLDEyMiwxMDgsNDIsNzMsMjEyLDExNiw0OCwyMTUsMTA5LDEzOSw1OSwyMDYsNTYsMjE0XX0=",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "yTmY3NMNJThcQ9Fn",
+                                         "key":  "FIREBASE_API_KEY",
+                                         "createdAt":  1785600857025,
+                                         "updatedAt":  1785600857025,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "KzlVVSuYAFYbKJ2G",
+                                         "key":  "VITE_USE_FIREBASE",
+                                         "createdAt":  1785619035414,
+                                         "updatedAt":  1785619035414,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "J1BExHNriP7WfIyl",
+                                         "key":  "VITE_FIREBASE_API_KEY",
+                                         "createdAt":  1785619042611,
+                                         "updatedAt":  1785619042611,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "XzL0l04JHinK64Jx",
+                                         "key":  "VITE_FIREBASE_AUTH_DOMAIN",
+                                         "createdAt":  1785619049732,
+                                         "updatedAt":  1785619049732,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "JnbIvCGOg89mudWt",
+                                         "key":  "VITE_FIREBASE_PROJECT_ID",
+                                         "createdAt":  1785619056890,
+                                         "updatedAt":  1785619056890,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "TvyQ7kseYkq4Ro9y",
+                                         "key":  "VITE_FIREBASE_STORAGE_BUCKET",
+                                         "createdAt":  1785619064182,
+                                         "updatedAt":  1785619064182,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "HxxG1uLFLeaCe4u3",
+                                         "key":  "VITE_FIREBASE_MESSAGING_SENDER_ID",
+                                         "createdAt":  1785619071367,
+                                         "updatedAt":  1785619071367,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "H58P3gRYfmhIUAFn",
+                                         "key":  "VITE_FIREBASE_APP_ID",
+                                         "createdAt":  1785619079068,
+                                         "updatedAt":  1785619079068,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "pr5vcClV7GopVExE",
+                                         "key":  "VITE_FIREBASE_MEASUREMENT_ID",
+                                         "createdAt":  1785619086718,
+                                         "updatedAt":  1785619086718,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "rvTNJIeLYRg5QZ9b",
+                                         "key":  "ADMIN_EMAILS",
+                                         "createdAt":  1785686270189,
+                                         "updatedAt":  1785686270189,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "iA5igzlrDY06kHa3",
+                                         "key":  "JWT_SECRET",
+                                         "createdAt":  1785863711336,
+                                         "updatedAt":  1785863711336,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "B1Zq43gY7AfZlFlX",
+                                         "key":  "JWT_ALGORITHM",
+                                         "createdAt":  1785863718630,
+                                         "updatedAt":  1785863718630,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "VT2nBuvtRB9aAuDf",
+                                         "key":  "DATABASE_URL",
+                                         "createdAt":  1785863725859,
+                                         "updatedAt":  1785863725859,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "zQaVqxT4Md77VSEI",
+                                         "key":  "VITE_API_BASE_URL",
+                                         "createdAt":  1786115590640,
+                                         "updatedAt":  1786115590640,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "oHqhMVyqSSmMneCu",
+                                         "key":  "RECAPTCHA_SECRET_KEY",
+                                         "createdAt":  1786226590756,
+                                         "updatedAt":  1786226590756,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "preview",
+                                         "configurationId":  null,
+                                         "id":  "P9ngQl3N9crCxybp",
+                                         "key":  "VITE_RECAPTCHA_SITE_KEY",
+                                         "createdAt":  1786295426714,
+                                         "updatedAt":  1786295426714,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "preview",
+                                         "configurationId":  null,
+                                         "id":  "HwdeVtUX1Qi2Fmuy",
+                                         "key":  "RECAPTCHA_SECRET_KEY",
+                                         "createdAt":  1786295637332,
+                                         "updatedAt":  1786295637332,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "preview",
+                                         "configurationId":  null,
+                                         "id":  "RWKP5jZWd5pIwvcW",
+                                         "key":  "JWT_SECRET",
+                                         "createdAt":  1786299378478,
+                                         "updatedAt":  1786299378478,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     }
+                                 ],
+                         "framework":  null,
+                         "gitForkProtection":  true,
+                         "gitLFS":  false,
+                         "id":  "prj_0pxc7GbbUsmAIaXy680AIGMRoGTX",
+                         "installCommand":  null,
+                         "lastRollbackTarget":  null,
+                         "lastAliasRequest":  null,
+                         "name":  "mbaara-backend",
+                         "nodeVersion":  "24.x",
+                         "outputDirectory":  null,
+                         "productionDeploymentsFastLane":  true,
+                         "defaultResourceConfig":  {
+                                                       "fluid":  true,
+                                                       "functionDefaultRegions":  [
+                                                                                      "iad1"
+                                                                                  ],
+                                                       "functionDefaultTimeout":  300,
+                                                       "functionDefaultMemoryType":  "standard",
+                                                       "functionZeroConfigFailover":  false,
+                                                       "elasticConcurrencyEnabled":  false
+                                                   },
+                         "resourceConfig":  {
+                                                "fluid":  true,
+                                                "functionDefaultRegions":  [
+                                                                               "iad1"
+                                                                           ],
+                                                "buildMachineType":  "basic",
+                                                "buildMachineSelection":  "fixed"
+                                            },
+                         "rootDirectory":  null,
+                         "serverlessFunctionRegion":  "iad1",
+                         "sourceFilesOutsideRootDirectory":  true,
+                         "ssoProtection":  {
+                                               "deploymentType":  "all_except_custom_domains"
+                                           },
+                         "updatedAt":  1786464190568,
+                         "live":  false,
+                         "enableExternalRewriteCaching":  true,
+                         "gitComments":  {
+                                             "onCommit":  false,
+                                             "onPullRequest":  true
+                                         },
+                         "gitProviderOptions":  {
+                                                    "createDeployments":  "enabled"
+                                                },
+                         "webAnalytics":  {
+                                              "id":  "NMbceDmS2ewTnSZqV6O6doYqW"
+                                          },
+                         "oidcTokenConfig":  {
+                                                 "enabled":  true,
+                                                 "issuerMode":  "team"
+                                             },
+                         "hasDeployments":  true,
+                         "link":  {
+                                      "type":  "github",
+                                      "repo":  "M-baara-Langues",
+                                      "repoId":  1318690471,
+                                      "org":  "mauriceleontine2026",
+                                      "repoOwnerId":  311546426,
+                                      "gitCredentialId":  "cred_99cd0337a7fceb72ff6639e0f70f75ef726dbbc8",
+                                      "productionBranch":  "main",
+                                      "createdAt":  1785595052454,
+                                      "updatedAt":  1785595052454,
+                                      "deployHooks":  [
+
+                                                      ]
+                                  },
+                         "latestDeployments":  [
+                                                   {
+                                                       "alias":  "mbaara-backend.vercel.app mbaara-backend-m-baara-langues.vercel.app mbaara-backend-git-main-m-baara-langues.vercel.app",
+                                                       "aliasAssigned":  1786464190444,
+                                                       "aliasError":  null,
+                                                       "automaticAliases":  "mbaara-backend-m-baara-langues.vercel.app mbaara-backend-git-main-m-baara-langues.vercel.app",
+                                                       "builds":  " ",
+                                                       "createdAt":  1786464153356,
+                                                       "createdIn":  "sfo1",
+                                                       "creator":  "@{uid=wSpGjWaCcmjrZBG3ceZ23vYO; email=maurice.leontine2026@gmail.com; username=mauriceleontine2026}",
+                                                       "deploymentHostname":  "mbaara-backend-m6hbjeb7i-m-baara-langues",
+                                                       "forced":  false,
+                                                       "id":  "dpl_GRe2CSNXPYqZPNcazBDp2e4bX3WR",
+                                                       "meta":  "@{githubCommitAuthorName=Maurice Dramou; githubCommitAuthorEmail=mauriceleontine6@gmail.com; githubCommitMessage=Add Supabase envs for Vercel and Render; githubCommitOrg=mauriceleontine2026; githubCommitRef=main; githubCommitRepo=M-baara-Langues; githubCommitSha=7d2fdd9ae3f3808b558b9ef520b8a5f5535fb27b; githubDeployment=1; githubOrg=mauriceleontine2026; githubRepo=M-baara-Langues; githubRepoOwnerType=User; githubCommitRepoId=1318690471; githubRepoId=1318690471; githubRepoVisibility=public; githubHost=github.com; githubCommitVerification=unverified; repoPushedAt=1786464151000; branchAlias=mbaara-backend-git-main-m-baara-langues.vercel.app; lambdaRuntimeStats={\"python\":1}}",
+                                                       "name":  "mbaara-backend",
+                                                       "plan":  "hobby",
+                                                       "private":  true,
+                                                       "readyState":  "READY",
+                                                       "readySubstate":  "PROMOTED",
+                                                       "target":  "production",
+                                                       "teamId":  "team_8Sbq5aFIbZAI365zcJGJqS6d",
+                                                       "type":  "LAMBDAS",
+                                                       "url":  "mbaara-backend-m6hbjeb7i-m-baara-langues.vercel.app",
+                                                       "userId":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                                       "withCache":  false,
+                                                       "buildingAt":  1786464154541,
+                                                       "readyAt":  1786464190236,
+                                                       "previewCommentsEnabled":  true,
+                                                       "oidcTokenClaims":  "@{sub=owner:m-baara-langues:project:mbaara-backend:environment:production; iss=https://oidc.vercel.com/m-baara-langues; scope=owner:m-baara-langues:project:mbaara-backend:environment:production; aud=https://vercel.com/m-baara-langues; owner=m-baara-langues; owner_id=team_8Sbq5aFIbZAI365zcJGJqS6d; project=mbaara-backend; project_id=prj_0pxc7GbbUsmAIaXy680AIGMRoGTX; environment=production; plan=hobby}"
+                                                   },
+                                                   {
+                                                       "alias":  "mbaara-backend.vercel.app mbaara-backend-m-baara-langues.vercel.app mbaara-backend-git-main-m-baara-langues.vercel.app",
+                                                       "aliasAssigned":  1786464037700,
+                                                       "aliasError":  null,
+                                                       "automaticAliases":  "mbaara-backend-m-baara-langues.vercel.app mbaara-backend-git-main-m-baara-langues.vercel.app",
+                                                       "builds":  " ",
+                                                       "createdAt":  1786463996852,
+                                                       "createdIn":  "sfo1",
+                                                       "creator":  "@{uid=wSpGjWaCcmjrZBG3ceZ23vYO; email=maurice.leontine2026@gmail.com; username=mauriceleontine2026}",
+                                                       "deploymentHostname":  "mbaara-backend-2isbj2u0t-m-baara-langues",
+                                                       "forced":  false,
+                                                       "id":  "dpl_4ApKj3FY21ymEV7Barj2Aj7cztaK",
+                                                       "meta":  "@{githubCommitAuthorName=Maurice Dramou; githubCommitAuthorEmail=mauriceleontine6@gmail.com; githubCommitMessage=Migrate Firebase → Supabase: add env vars, remove Firebase artifacts, update configs; githubCommitOrg=mauriceleontine2026; githubCommitRef=main; githubCommitRepo=M-baara-Langues; githubCommitSha=500ff671947e78c65933ed8a8b08130f52138a9c; githubDeployment=1; githubOrg=mauriceleontine2026; githubRepo=M-baara-Langues; githubRepoOwnerType=User; githubCommitRepoId=1318690471; githubRepoId=1318690471; githubRepoVisibility=public; githubHost=github.com; githubCommitVerification=unverified; repoPushedAt=1786463994000; branchAlias=mbaara-backend-git-main-m-baara-langues.vercel.app; lambdaRuntimeStats={\"python\":1}}",
+                                                       "name":  "mbaara-backend",
+                                                       "plan":  "hobby",
+                                                       "private":  true,
+                                                       "readyState":  "READY",
+                                                       "readySubstate":  "PROMOTED",
+                                                       "target":  "production",
+                                                       "teamId":  "team_8Sbq5aFIbZAI365zcJGJqS6d",
+                                                       "type":  "LAMBDAS",
+                                                       "url":  "mbaara-backend-2isbj2u0t-m-baara-langues.vercel.app",
+                                                       "userId":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                                       "withCache":  false,
+                                                       "buildingAt":  1786463998013,
+                                                       "readyAt":  1786464037473,
+                                                       "previewCommentsEnabled":  true,
+                                                       "oidcTokenClaims":  "@{sub=owner:m-baara-langues:project:mbaara-backend:environment:production; iss=https://oidc.vercel.com/m-baara-langues; scope=owner:m-baara-langues:project:mbaara-backend:environment:production; aud=https://vercel.com/m-baara-langues; owner=m-baara-langues; owner_id=team_8Sbq5aFIbZAI365zcJGJqS6d; project=mbaara-backend; project_id=prj_0pxc7GbbUsmAIaXy680AIGMRoGTX; environment=production; plan=hobby}"
+                                                   }
+                                               ],
+                         "targets":  {
+                                         "production":  {
+                                                            "alias":  "mbaara-backend.vercel.app mbaara-backend-m-baara-langues.vercel.app mbaara-backend-git-main-m-baara-langues.vercel.app",
+                                                            "aliasAssigned":  1786464190444,
+                                                            "aliasError":  null,
+                                                            "automaticAliases":  "mbaara-backend-m-baara-langues.vercel.app mbaara-backend-git-main-m-baara-langues.vercel.app",
+                                                            "builds":  " ",
+                                                            "createdAt":  1786464153356,
+                                                            "createdIn":  "sfo1",
+                                                            "creator":  "@{uid=wSpGjWaCcmjrZBG3ceZ23vYO; email=maurice.leontine2026@gmail.com; username=mauriceleontine2026}",
+                                                            "deploymentHostname":  "mbaara-backend-m6hbjeb7i-m-baara-langues",
+                                                            "forced":  false,
+                                                            "id":  "dpl_GRe2CSNXPYqZPNcazBDp2e4bX3WR",
+                                                            "meta":  "@{githubCommitAuthorName=Maurice Dramou; githubCommitAuthorEmail=mauriceleontine6@gmail.com; githubCommitMessage=Add Supabase envs for Vercel and Render; githubCommitOrg=mauriceleontine2026; githubCommitRef=main; githubCommitRepo=M-baara-Langues; githubCommitSha=7d2fdd9ae3f3808b558b9ef520b8a5f5535fb27b; githubDeployment=1; githubOrg=mauriceleontine2026; githubRepo=M-baara-Langues; githubRepoOwnerType=User; githubCommitRepoId=1318690471; githubRepoId=1318690471; githubRepoVisibility=public; githubHost=github.com; githubCommitVerification=unverified; repoPushedAt=1786464151000; branchAlias=mbaara-backend-git-main-m-baara-langues.vercel.app; lambdaRuntimeStats={\"python\":1}}",
+                                                            "name":  "mbaara-backend",
+                                                            "plan":  "hobby",
+                                                            "private":  true,
+                                                            "readyState":  "READY",
+                                                            "readySubstate":  "PROMOTED",
+                                                            "target":  "production",
+                                                            "teamId":  "team_8Sbq5aFIbZAI365zcJGJqS6d",
+                                                            "type":  "LAMBDAS",
+                                                            "url":  "mbaara-backend-m6hbjeb7i-m-baara-langues.vercel.app",
+                                                            "userId":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                                            "withCache":  false,
+                                                            "buildingAt":  1786464154541,
+                                                            "readyAt":  1786464190236,
+                                                            "previewCommentsEnabled":  true,
+                                                            "oidcTokenClaims":  "@{sub=owner:m-baara-langues:project:mbaara-backend:environment:production; iss=https://oidc.vercel.com/m-baara-langues; scope=owner:m-baara-langues:project:mbaara-backend:environment:production; aud=https://vercel.com/m-baara-langues; owner=m-baara-langues; owner_id=team_8Sbq5aFIbZAI365zcJGJqS6d; project=mbaara-backend; project_id=prj_0pxc7GbbUsmAIaXy680AIGMRoGTX; environment=production; plan=hobby}"
+                                                        },
+                                         "preview":  {
+                                                         "alias":  "mbaara-backend-mauriceleontine2026-m-baara-langues.vercel.app",
+                                                         "aliasAssigned":  1786384331051,
+                                                         "aliasError":  null,
+                                                         "automaticAliases":  "mbaara-backend-mauriceleontine2026-m-baara-langues.vercel.app",
+                                                         "builds":  " ",
+                                                         "createdAt":  1786384288063,
+                                                         "createdIn":  "sfo1",
+                                                         "creator":  "@{uid=wSpGjWaCcmjrZBG3ceZ23vYO; email=maurice.leontine2026@gmail.com; username=mauriceleontine2026; githubLogin=mauriceleontine2026}",
+                                                         "deploymentHostname":  "mbaara-backend-k53an5e8s-m-baara-langues",
+                                                         "forced":  false,
+                                                         "id":  "dpl_7pgWYzc1fZVRrJGn5xGMW1TLJRst",
+                                                         "meta":  "@{githubCommitAuthorName=mauriceleontine2026; githubCommitAuthorEmail=mauriceleontine6@gmail.com; githubCommitMessage=\"Restore complete application state from yesterday\"; githubCommitOrg=mauriceleontine2026; githubCommitRef=main; githubCommitRepo=M-baara-Langues; githubCommitSha=8e8841cb4e01f9b0a759ea988c00cbe6406e8692; githubDeployment=1; githubOrg=mauriceleontine2026; githubRepo=M-baara-Langues; gitRootDirectory=; githubCommitAuthorLogin=mauriceleontine2026; lambdaRuntimeStats={\"python\":1}}",
+                                                         "name":  "mbaara-backend",
+                                                         "plan":  "hobby",
+                                                         "private":  true,
+                                                         "readyState":  "READY",
+                                                         "readySubstate":  "STAGED",
+                                                         "target":  null,
+                                                         "teamId":  "team_8Sbq5aFIbZAI365zcJGJqS6d",
+                                                         "type":  "LAMBDAS",
+                                                         "url":  "mbaara-backend-k53an5e8s-m-baara-langues.vercel.app",
+                                                         "userId":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                                         "withCache":  false,
+                                                         "buildingAt":  1786384289221,
+                                                         "readyAt":  1786384330852,
+                                                         "previewCommentsEnabled":  true,
+                                                         "oidcTokenClaims":  "@{sub=owner:m-baara-langues:project:mbaara-backend:environment:preview; iss=https://oidc.vercel.com/m-baara-langues; scope=owner:m-baara-langues:project:mbaara-backend:environment:preview; aud=https://vercel.com/m-baara-langues; owner=m-baara-langues; owner_id=team_8Sbq5aFIbZAI365zcJGJqS6d; project=mbaara-backend; project_id=prj_0pxc7GbbUsmAIaXy680AIGMRoGTX; environment=preview; plan=hobby}"
+                                                     }
+                                     },
+                         "protectionBypass":  {
+                                                  "cw1Mg27n7mTDBLwOYdIYANQUQMLqnNbQ":  {
+                                                                                           "scope":  "automation-bypass",
+                                                                                           "isEnvVar":  true,
+                                                                                           "createdAt":  1785595317307,
+                                                                                           "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO"
+                                                                                       }
+                                              },
+                         "features":  {
+                                          "webAnalytics":  false
+                                      },
+                         "protectedSourcemaps":  true,
+                         "avatar":  null
+                     },
+                     {
+                         "accountId":  "team_8Sbq5aFIbZAI365zcJGJqS6d",
+                         "creator":  {
+                                         "type":  "user",
+                                         "user":  {
+                                                      "id":  "wSpGjWaCcmjrZBG3ceZ23vYO"
+                                                  },
+                                         "via":  {
+                                                     "type":  "app",
+                                                     "app":  "@{id=cl_HYyOPBNtFMfHhaUn9L4QPfTZz6TP47bp}"
+                                                 }
+                                     },
+                         "alias":  [
+
+                                   ],
+                         "speedInsights":  {
+                                               "id":  "VdZRfJNsemojglpy7HuKZH45Bg2",
+                                               "hasData":  false
+                                           },
+                         "autoExposeSystemEnvs":  true,
+                         "autoAssignCustomDomains":  true,
+                         "autoAssignCustomDomainsUpdatedBy":  "system",
+                         "buildCommand":  "npm run vercel-build",
+                         "commandForIgnoringBuildStep":  null,
+                         "createdAt":  1785597832502,
+                         "crons":  {
+                                       "enabledAt":  1785597841446,
+                                       "disabledAt":  null,
+                                       "updatedAt":  1785796419114,
+                                       "deploymentId":  "dpl_Go45QvFCxBK36VdVpGbNXR7Fzebi",
+                                       "definitions":  [
+
+                                                       ]
+                                   },
+                         "deploymentExpiration":  {
+                                                      "expirationDays":  30,
+                                                      "expirationDaysProduction":  30,
+                                                      "expirationDaysCanceled":  30,
+                                                      "expirationDaysErrored":  30,
+                                                      "deploymentsToKeep":  10
+                                                  },
+                         "devCommand":  null,
+                         "directoryListing":  false,
+                         "env":  [
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "v49JlaB9AAkopY0g",
+                                         "key":  "VITE_API_BASE_URL",
+                                         "createdAt":  1785603923627,
+                                         "updatedAt":  1785603923627,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "dmF7C8mwm0S4DsYU",
+                                         "key":  "VITE_USE_FIREBASE",
+                                         "createdAt":  1785612448429,
+                                         "updatedAt":  1785612448429,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "Q1DsgcZOAAXtIY5T",
+                                         "key":  "VITE_FIREBASE_API_KEY",
+                                         "createdAt":  1785612457000,
+                                         "updatedAt":  1785612457000,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "jIOqT2PtFxMlefVo",
+                                         "key":  "VITE_FIREBASE_AUTH_DOMAIN",
+                                         "createdAt":  1785612465364,
+                                         "updatedAt":  1785612465364,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "9iD9HKsFs8lxKYxI",
+                                         "key":  "VITE_FIREBASE_PROJECT_ID",
+                                         "createdAt":  1785612473577,
+                                         "updatedAt":  1785612473577,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "XJPYhK7OPF2Qtc9m",
+                                         "key":  "VITE_FIREBASE_STORAGE_BUCKET",
+                                         "createdAt":  1785612481795,
+                                         "updatedAt":  1785612481795,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "RtfHasr1Xfk2lAfq",
+                                         "key":  "VITE_FIREBASE_MESSAGING_SENDER_ID",
+                                         "createdAt":  1785612490598,
+                                         "updatedAt":  1785612490598,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "rAGEMTPIGZ4QM6Ee",
+                                         "key":  "VITE_FIREBASE_APP_ID",
+                                         "createdAt":  1785612499195,
+                                         "updatedAt":  1785612499195,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     },
+                                     {
+                                         "type":  "sensitive",
+                                         "value":  "",
+                                         "target":  "production",
+                                         "configurationId":  null,
+                                         "id":  "xtVU18CdH9n0GjOj",
+                                         "key":  "VITE_FIREBASE_MEASUREMENT_ID",
+                                         "createdAt":  1785612507402,
+                                         "updatedAt":  1785612507402,
+                                         "createdBy":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                         "updatedBy":  null
+                                     }
+                                 ],
+                         "framework":  null,
+                         "gitForkProtection":  false,
+                         "gitLFS":  false,
+                         "id":  "prj_ZvFdmRuFUIsSgc0gLNfJGwaNlgF5",
+                         "installCommand":  null,
+                         "lastRollbackTarget":  null,
+                         "lastAliasRequest":  null,
+                         "name":  "mbaara-web",
+                         "nodeVersion":  "24.x",
+                         "outputDirectory":  "dist",
+                         "productionDeploymentsFastLane":  true,
+                         "defaultResourceConfig":  {
+                                                       "fluid":  true,
+                                                       "functionDefaultRegions":  [
+                                                                                      "iad1"
+                                                                                  ],
+                                                       "functionDefaultTimeout":  300,
+                                                       "functionDefaultMemoryType":  "standard",
+                                                       "functionZeroConfigFailover":  false,
+                                                       "elasticConcurrencyEnabled":  false
+                                                   },
+                         "resourceConfig":  {
+                                                "fluid":  true,
+                                                "functionDefaultRegions":  [
+                                                                               "iad1"
+                                                                           ]
+                                            },
+                         "rootDirectory":  null,
+                         "serverlessFunctionRegion":  "iad1",
+                         "sourceFilesOutsideRootDirectory":  true,
+                         "enableAffectedProjectsDeployments":  false,
+                         "ssoProtection":  {
+                                               "deploymentType":  "all_except_custom_domains"
+                                           },
+                         "updatedAt":  1785796419114,
+                         "live":  false,
+                         "enableExternalRewriteCaching":  true,
+                         "gitComments":  {
+                                             "onCommit":  false,
+                                             "onPullRequest":  true
+                                         },
+                         "gitProviderOptions":  {
+                                                    "createDeployments":  "enabled"
+                                                },
+                         "webAnalytics":  {
+                                              "id":  "x1zF9xSLjvKphnOE92GDCD1uf"
+                                          },
+                         "oidcTokenConfig":  {
+                                                 "enabled":  true,
+                                                 "issuerMode":  "team"
+                                             },
+                         "hasDeployments":  true,
+                         "latestDeployments":  [
+                                                   {
+                                                       "alias":  "mbaara-web.vercel.app mbaara-web-m-baara-langues.vercel.app mbaara-web-mauriceleontine2026-m-baara-langues.vercel.app",
+                                                       "aliasAssigned":  1785796419029,
+                                                       "aliasError":  null,
+                                                       "automaticAliases":  "mbaara-web-m-baara-langues.vercel.app mbaara-web-mauriceleontine2026-m-baara-langues.vercel.app",
+                                                       "builds":  "",
+                                                       "createdAt":  1785796359246,
+                                                       "createdIn":  "sfo1",
+                                                       "creator":  "@{uid=wSpGjWaCcmjrZBG3ceZ23vYO; email=maurice.leontine2026@gmail.com; username=mauriceleontine2026}",
+                                                       "deploymentHostname":  "mbaara-2pz5minkq-m-baara-langues",
+                                                       "forced":  false,
+                                                       "id":  "dpl_Go45QvFCxBK36VdVpGbNXR7Fzebi",
+                                                       "meta":  "@{githubCommitAuthorName=Maurice Dramou; githubCommitAuthorEmail=mauriceleontine6@gmail.com; githubCommitMessage=fix: refresh progress state after lesson completion; githubCommitOrg=mauriceleontine2026; githubCommitRef=main; githubCommitRepo=M-baara-Langues; githubCommitSha=1725670efc0b93fdc3debcfe4237d9819b5a0d54; githubDeployment=1; githubOrg=mauriceleontine2026; githubRepo=M-baara-Langues; gitDirty=1; actor=github_copilot_vscode_agent; lambdaRuntimeStats={\"python\":2}}",
+                                                       "name":  "mbaara-web",
+                                                       "plan":  "hobby",
+                                                       "private":  true,
+                                                       "readyState":  "READY",
+                                                       "readySubstate":  "PROMOTED",
+                                                       "target":  "production",
+                                                       "teamId":  "team_8Sbq5aFIbZAI365zcJGJqS6d",
+                                                       "type":  "LAMBDAS",
+                                                       "url":  "mbaara-2pz5minkq-m-baara-langues.vercel.app",
+                                                       "userId":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                                       "withCache":  false,
+                                                       "buildingAt":  1785796360552,
+                                                       "readyAt":  1785796418819,
+                                                       "previewCommentsEnabled":  true,
+                                                       "oidcTokenClaims":  "@{sub=owner:m-baara-langues:project:mbaara-web:environment:production; iss=https://oidc.vercel.com/m-baara-langues; scope=owner:m-baara-langues:project:mbaara-web:environment:production; aud=https://vercel.com/m-baara-langues; owner=m-baara-langues; owner_id=team_8Sbq5aFIbZAI365zcJGJqS6d; project=mbaara-web; project_id=prj_ZvFdmRuFUIsSgc0gLNfJGwaNlgF5; environment=production; plan=hobby}"
+                                                   },
+                                                   {
+                                                       "alias":  "mbaara-web.vercel.app mbaara-web-m-baara-langues.vercel.app mbaara-web-mauriceleontine2026-m-baara-langues.vercel.app",
+                                                       "aliasAssigned":  1785796230965,
+                                                       "aliasError":  null,
+                                                       "automaticAliases":  "mbaara-web-m-baara-langues.vercel.app mbaara-web-mauriceleontine2026-m-baara-langues.vercel.app",
+                                                       "builds":  "",
+                                                       "createdAt":  1785796166311,
+                                                       "createdIn":  "sfo1",
+                                                       "creator":  "@{uid=wSpGjWaCcmjrZBG3ceZ23vYO; email=maurice.leontine2026@gmail.com; username=mauriceleontine2026}",
+                                                       "deploymentHostname":  "mbaara-hzmpp0l6s-m-baara-langues",
+                                                       "forced":  false,
+                                                       "id":  "dpl_JDUD9bnKFN2gywcDToiJawos8ue6",
+                                                       "meta":  "@{githubCommitAuthorName=Maurice Dramou; githubCommitAuthorEmail=mauriceleontine6@gmail.com; githubCommitMessage=fix: refresh progress state after lesson completion; githubCommitOrg=mauriceleontine2026; githubCommitRef=main; githubCommitRepo=M-baara-Langues; githubCommitSha=1725670efc0b93fdc3debcfe4237d9819b5a0d54; githubDeployment=1; githubOrg=mauriceleontine2026; githubRepo=M-baara-Langues; gitDirty=1; actor=github_copilot_vscode_agent; lambdaRuntimeStats={\"python\":2}}",
+                                                       "name":  "mbaara-web",
+                                                       "plan":  "hobby",
+                                                       "private":  true,
+                                                       "readyState":  "READY",
+                                                       "readySubstate":  "PROMOTED",
+                                                       "target":  "production",
+                                                       "teamId":  "team_8Sbq5aFIbZAI365zcJGJqS6d",
+                                                       "type":  "LAMBDAS",
+                                                       "url":  "mbaara-hzmpp0l6s-m-baara-langues.vercel.app",
+                                                       "userId":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                                       "withCache":  false,
+                                                       "buildingAt":  1785796167783,
+                                                       "readyAt":  1785796230751,
+                                                       "previewCommentsEnabled":  true,
+                                                       "oidcTokenClaims":  "@{sub=owner:m-baara-langues:project:mbaara-web:environment:production; iss=https://oidc.vercel.com/m-baara-langues; scope=owner:m-baara-langues:project:mbaara-web:environment:production; aud=https://vercel.com/m-baara-langues; owner=m-baara-langues; owner_id=team_8Sbq5aFIbZAI365zcJGJqS6d; project=mbaara-web; project_id=prj_ZvFdmRuFUIsSgc0gLNfJGwaNlgF5; environment=production; plan=hobby}"
+                                                   }
+                                               ],
+                         "targets":  {
+                                         "production":  {
+                                                            "alias":  "mbaara-web.vercel.app mbaara-web-m-baara-langues.vercel.app mbaara-web-mauriceleontine2026-m-baara-langues.vercel.app",
+                                                            "aliasAssigned":  1785796419029,
+                                                            "aliasError":  null,
+                                                            "automaticAliases":  "mbaara-web-m-baara-langues.vercel.app mbaara-web-mauriceleontine2026-m-baara-langues.vercel.app",
+                                                            "builds":  "",
+                                                            "createdAt":  1785796359246,
+                                                            "createdIn":  "sfo1",
+                                                            "creator":  "@{uid=wSpGjWaCcmjrZBG3ceZ23vYO; email=maurice.leontine2026@gmail.com; username=mauriceleontine2026}",
+                                                            "deploymentHostname":  "mbaara-2pz5minkq-m-baara-langues",
+                                                            "forced":  false,
+                                                            "id":  "dpl_Go45QvFCxBK36VdVpGbNXR7Fzebi",
+                                                            "meta":  "@{githubCommitAuthorName=Maurice Dramou; githubCommitAuthorEmail=mauriceleontine6@gmail.com; githubCommitMessage=fix: refresh progress state after lesson completion; githubCommitOrg=mauriceleontine2026; githubCommitRef=main; githubCommitRepo=M-baara-Langues; githubCommitSha=1725670efc0b93fdc3debcfe4237d9819b5a0d54; githubDeployment=1; githubOrg=mauriceleontine2026; githubRepo=M-baara-Langues; gitDirty=1; actor=github_copilot_vscode_agent; lambdaRuntimeStats={\"python\":2}}",
+                                                            "name":  "mbaara-web",
+                                                            "plan":  "hobby",
+                                                            "private":  true,
+                                                            "readyState":  "READY",
+                                                            "readySubstate":  "PROMOTED",
+                                                            "target":  "production",
+                                                            "teamId":  "team_8Sbq5aFIbZAI365zcJGJqS6d",
+                                                            "type":  "LAMBDAS",
+                                                            "url":  "mbaara-2pz5minkq-m-baara-langues.vercel.app",
+                                                            "userId":  "wSpGjWaCcmjrZBG3ceZ23vYO",
+                                                            "withCache":  false,
+                                                            "buildingAt":  1785796360552,
+                                                            "readyAt":  1785796418819,
+                                                            "previewCommentsEnabled":  true,
+                                                            "oidcTokenClaims":  "@{sub=owner:m-baara-langues:project:mbaara-web:environment:production; iss=https://oidc.vercel.com/m-baara-langues; scope=owner:m-baara-langues:project:mbaara-web:environment:production; aud=https://vercel.com/m-baara-langues; owner=m-baara-langues; owner_id=team_8Sbq5aFIbZAI365zcJGJqS6d; project=mbaara-web; project_id=prj_ZvFdmRuFUIsSgc0gLNfJGwaNlgF5; environment=production; plan=hobby}"
+                                                        }
+                                     },
+                         "features":  {
+                                          "webAnalytics":  false
+                                      },
+                         "protectedSourcemaps":  true,
+                         "avatar":  "e0a4a13bc144371e84badeb9e641cd16046f0993"
+                     }
+                 ],
+    "pagination":  {
+                       "count":  2,
+                       "next":  null,
+                       "prev":  1786464190568
+                   }
+}

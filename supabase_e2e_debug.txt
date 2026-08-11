@@ -1,0 +1,43 @@
+﻿creating copilot-test-20260811170724@example.com
+created id: d6048cdd-919e-4b91-92db-ef363cd15b77
+access len: 824
+calling supabase /auth/v1/user
+{
+    "id":  "d6048cdd-919e-4b91-92db-ef363cd15b77",
+    "aud":  "authenticated",
+    "role":  "authenticated",
+    "email":  "copilot-test-20260811170724@example.com",
+    "email_confirmed_at":  "2026-08-11T17:07:26.095798Z",
+    "phone":  "",
+    "confirmed_at":  "2026-08-11T17:07:26.095798Z",
+    "last_sign_in_at":  "2026-08-11T17:07:26.840521Z",
+    "app_metadata":  {
+                         "provider":  "email",
+                         "providers":  [
+                                           "email"
+                                       ]
+                     },
+    "user_metadata":  {
+                          "email_verified":  true
+                      },
+    "identities":  [
+                       {
+                           "identity_id":  "c6d8c0e6-e336-44f1-abee-4823a90eed24",
+                           "id":  "d6048cdd-919e-4b91-92db-ef363cd15b77",
+                           "user_id":  "d6048cdd-919e-4b91-92db-ef363cd15b77",
+                           "identity_data":  "@{email=copilot-test-20260811170724@example.com; email_verified=False; phone_verified=False; sub=d6048cdd-919e-4b91-92db-ef363cd15b77}",
+                           "provider":  "email",
+                           "last_sign_in_at":  "2026-08-11T17:07:26.094363Z",
+                           "created_at":  "2026-08-11T17:07:26.094413Z",
+                           "updated_at":  "2026-08-11T17:07:26.094413Z",
+                           "email":  "copilot-test-20260811170724@example.com"
+                       }
+                   ],
+    "created_at":  "2026-08-11T17:07:26.093242Z",
+    "updated_at":  "2026-08-11T17:07:26.842571Z",
+    "is_anonymous":  false
+}
+calling backend
+backend call failed: Internal Server Error
+deleted d6048cdd-919e-4b91-92db-ef363cd15b77
+done

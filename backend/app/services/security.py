@@ -24,7 +24,10 @@ if not JWT_SECRET or len(JWT_SECRET) < 32:
 ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256").upper()
 ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "15"))
 REFRESH_TOKEN_EXPIRE_DAYS = int(os.getenv("REFRESH_TOKEN_EXPIRE_DAYS", "7"))
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+# Use sha256_crypt to avoid optional native `bcrypt` binary issues during
+# local development. `sha256_crypt` is supported by passlib without extra
+# native dependencies and provides sufficient strength here.
+pwd_context = CryptContext(schemes=["sha256_crypt"], deprecated="auto")
 
 # Kept so FastAPI's interactive docs still offer a bearer-token "Authorize"
 # button; actual token extraction below checks the cookie first (see
