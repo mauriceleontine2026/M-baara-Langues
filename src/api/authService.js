@@ -1,5 +1,5 @@
 import { request, notifyAuthChanged } from "./backendClient";
-import { signInWithGoogle } from "./firebaseClient";
+import { signInWithGoogle } from "./supabaseClient";
 
 export async function login(email, password) {
   try {
@@ -58,7 +58,7 @@ export async function loginWithForm(email, password) {
 export async function loginWithGoogle() {
   const { token } = await signInWithGoogle();
   if (!token) {
-    throw new Error("Jeton Firebase introuvable après authentification Google.");
+    throw new Error("Jeton Supabase introuvable après authentification Google.");
   }
 
   // Quick health check to provide a clearer error if the backend is unreachable
@@ -66,14 +66,16 @@ export async function loginWithGoogle() {
     await request("GET", "/api/health");
   } catch (err) {
     throw new Error(
-      `Impossible de contacter le backend avant l'échange du jeton Firebase. Vérifiez la configuration de \
+      `Impossible de contacter le backend avant l'échange du jeton Supabase. Vérifiez la configuration de \
       VITE_API_BASE_URL et la connectivité réseau. Détails: ${err?.message || err}`
     );
   }
 
   let data;
   try {
-    data = await request("POST", "/api/auth/firebase", { id_token: token });
+    // Exchange the Supabase access token with the backend to create a server-side
+    // session (backend must implement /api/auth/supabase to accept and verify).
+    data = await request("POST", "/api/auth/supabase", { access_token: token });
   } catch (err) {
     // If XHR fetch fails with "Failed to fetch", fallback to form-based auth
     if (err?.message && err.message.includes("Failed to fetch")) {
@@ -83,7 +85,7 @@ export async function loginWithGoogle() {
     // Provide actionable guidance when the network request itself failed
     if (err?.message && err.message.includes("Impossible de contacter le serveur")) {
       throw new Error(
-        `Échec de l'appel à ${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/firebase — ${err.message}`
+        `Échec de l'appel à ${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/supabase — ${err.message}`
       );
     }
     throw err;

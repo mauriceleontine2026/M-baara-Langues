@@ -21,6 +21,8 @@ from ..services.security import get_current_user, is_admin_email
 FIREBASE_PROJECT_ID = os.getenv("FIREBASE_PROJECT_ID", os.getenv("VITE_FIREBASE_PROJECT_ID"))
 FIREBASE_API_KEY = os.getenv("FIREBASE_API_KEY", os.getenv("VITE_FIREBASE_API_KEY"))
 FIREBASE_LOOKUP_URL = "https://identitytoolkit.googleapis.com/v1/accounts:lookup"
+SUPABASE_URL = os.getenv("VITE_SUPABASE_URL", os.getenv("SUPABASE_URL"))
+SUPABASE_SERVICE_KEY = os.getenv("SUPABASE_SERVICE_KEY")
 FRONTEND_URL = os.getenv("FRONTEND_URL", "https://m-baara-langues.web.app").rstrip("/")
 
 router = APIRouter()
@@ -195,8 +197,44 @@ def _verify_firebase_id_token(id_token_value: str) -> dict:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Jeton Firebase invalide.") from exc
 
 
+def _verify_supabase_access_token(access_token: str) -> dict:
+    """
+    Verify a Supabase access token by calling the Supabase auth user endpoint.
+    Returns a dict with keys: email, name, picture, supabase_id, email_verified
+    """
+    if not SUPABASE_URL:
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Supabase URL is not configured on the backend.")
+    try:
+        url = SUPABASE_URL.rstrip("/") + "/auth/v1/user"
+        headers = {"Authorization": f"Bearer {access_token}"}
+        resp = httpx.get(url, headers=headers, timeout=10.0)
+        resp.raise_for_status()
+        payload = resp.json()
+        # payload structure: { "id": ..., "aud": ..., "role": ..., "email": ..., "email_confirmed_at": ..., "user_metadata": {...} }
+        email = payload.get("email")
+        name = None
+        picture = None
+        user_metadata = payload.get("user_metadata") or {}
+        if isinstance(user_metadata, dict):
+            name = user_metadata.get("full_name") or user_metadata.get("name")
+            picture = user_metadata.get("avatar_url") or user_metadata.get("picture")
+        return {
+            "email": email,
+            "name": name,
+            "picture": picture,
+            "supabase_id": payload.get("id"),
+            "email_verified": bool(payload.get("email_confirmed_at")),
+        }
+    except Exception:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Jeton Supabase invalide.")
+
+
 class FirebaseAuthRequest(BaseModel):
     id_token: str
+
+
+class SupabaseAuthRequest(BaseModel):
+    access_token: str
 
 
 @router.post("/firebase")
@@ -236,6 +274,64 @@ def firebase_auth(payload: FirebaseAuthRequest, response: Response, db: Session 
             updated = True
         if user.email_verified is not firebase_email_verified:
             user.email_verified = firebase_email_verified
+            updated = True
+        if updated:
+            db.add(user)
+            db.commit()
+            db.refresh(user)
+
+    token = security.create_access_token({"sub": str(user.id), "email": user.email})
+    security.set_auth_cookies(response, token)
+    return {
+        "access_token": token,
+        "token_type": "bearer",
+        "user": {
+            "id": user.id,
+            "email": user.email,
+            "full_name": user.full_name,
+            "photo_url": user.photo_url,
+            "role": user.role,
+        },
+    }
+
+
+@router.post("/supabase")
+def supabase_auth(payload: SupabaseAuthRequest, response: Response, db: Session = Depends(get_db)):
+    token_payload = _verify_supabase_access_token(payload.access_token)
+    email = token_payload.get("email")
+    if not email:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="L'email Supabase est requis.")
+    if not _is_valid_email_address(email):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Adresse e-mail invalide.")
+
+    user = db.query(User).filter(User.email == email).first()
+    supabase_email_verified = bool(token_payload.get("email_verified", False))
+    if not user:
+        role = "admin" if is_admin_email(email) else "user"
+        user = User(
+            email=email,
+            hashed_password=security.get_password_hash(uuid.uuid4().hex),
+            full_name=token_payload.get("name"),
+            photo_url=token_payload.get("picture"),
+            role=role,
+            email_verified=supabase_email_verified,
+        )
+        db.add(user)
+        db.commit()
+        db.refresh(user)
+    else:
+        updated = False
+        if is_admin_email(email) and user.role != "admin":
+            user.role = "admin"
+            updated = True
+        if not user.full_name and token_payload.get("name"):
+            user.full_name = token_payload.get("name")
+            updated = True
+        if not user.photo_url and token_payload.get("picture"):
+            user.photo_url = token_payload.get("picture")
+            updated = True
+        if user.email_verified is not supabase_email_verified:
+            user.email_verified = supabase_email_verified
             updated = True
         if updated:
             db.add(user)
