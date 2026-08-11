@@ -31,7 +31,6 @@ DATABASE_URL=sqlite:///./mbaara.db
 JWT_SECRET=<your_jwt_secret>
 JWT_ALGORITHM=HS256
 OPENAI_API_KEY=<your_openai_api_key>
-FIREBASE_PROJECT_ID=m-baara-langues
 ```
 
 6. Start the Repl. Replit should run `bash start.sh` and use `uvicorn`.

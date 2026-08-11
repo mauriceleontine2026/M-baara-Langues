@@ -24,7 +24,7 @@ raw_allowed_origins = os.getenv(
     "https://mbaara-web.vercel.app,https://m-baara-langues.web.app,http://localhost:5173,http://127.0.0.1:5173,http://localhost:4173,http://127.0.0.1:4173"
 )
 allowed_origins = [origin.strip() for origin in raw_allowed_origins.split(",") if origin.strip()]
-for required_origin in ["https://m-baara-langues.web.app", "https://m-baara-langues.firebaseapp.com"]:
+for required_origin in ["https://m-baara-langues.web.app"]:
     if required_origin not in allowed_origins:
         allowed_origins.append(required_origin)
 
@@ -670,7 +670,7 @@ async def csrf_protect(request, call_next):
     if request.method in {"POST", "PUT", "PATCH", "DELETE"}:
         cookie_token = request.cookies.get(security.ACCESS_TOKEN_COOKIE_NAME)
         header_auth = request.headers.get("authorization")
-        # Certain auth-related endpoints (login/register/firebase) should be
+        # Certain auth-related endpoints (login/register) should be
         # allowed without CSRF even when an access cookie exists because they
         # are used to establish or refresh authentication rather than perform
         # actions in the context of an existing session.
@@ -679,8 +679,8 @@ async def csrf_protect(request, call_next):
             "/api/auth/login/form",
             "/api/auth/register",
             "/api/auth/register/form",
-            "/api/auth/firebase",
-            "/api/auth/firebase/form",
+            "/api/auth/supabase",
+            "/api/auth/supabase/form",
         }
         if cookie_token and not header_auth and request.url.path not in exempt_paths:
             csrf_cookie = request.cookies.get(security.CSRF_COOKIE_NAME)

@@ -1,23 +1,7 @@
-# Scripts for managing Firebase admin role
+# Scripts in this folder
 
-This folder contains a helper to set a Firebase admin claim and Firestore admin docs.
+This folder contains utility scripts for repository maintenance and data seeding.
 
-Usage:
+Legacy helper scripts have been removed because the project now uses Supabase for authentication and data.
 
-1. Install dependency:
-
-```bash
-npm install firebase-admin
-```
-
-2. Run the script with your service account JSON and the target user (email or uid):
-
-```bash
-node scripts/set-firebase-admin.js path/to/serviceAccountKey.json user@example.com
-```
-
-What it does:
-- Sets custom claim `admin: true` on the user (so `getIdTokenResult(...).claims.admin` will be true).
-- Creates/merges `admins/{uid}` and `users/{uid}` documents with `isAdmin: true` in Firestore.
-
-After running, the user should sign out/sign in so the client picks up the new claim.
+Remaining scripts are intended for language metadata seeding and other supported tasks.

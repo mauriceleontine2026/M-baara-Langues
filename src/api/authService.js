@@ -105,14 +105,14 @@ function getCsrfTokenFromCookie() {
 }
 
 /**
- * Form-based Firebase auth: submits a hidden form to /api/auth/firebase/form
- * with id_token as application/x-www-form-urlencoded data.
+ * Form-based Supabase auth: submits a hidden form to /api/auth/supabase/form
+ * with access_token as application/x-www-form-urlencoded data.
  * This bypasses XHR CORS restrictions and relies on browser cookie handling.
  */
-export async function loginWithGoogleForm(idToken) {
-  const url = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/firebase/form`;
+export async function loginWithGoogleForm(accessToken) {
+  const url = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/supabase/form`;
   const formData = new FormData();
-  formData.append("id_token", idToken);
+  formData.append("access_token", accessToken);
 
   const csrfCookie = getCsrfTokenFromCookie();
   if (csrfCookie) {

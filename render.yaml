@@ -18,5 +18,3 @@ services:
         value: HS256
       - key: OPENAI_API_KEY
         fromSecret: OPENAI_API_KEY
-      - key: FIREBASE_PROJECT_ID
-        fromSecret: FIREBASE_PROJECT_ID

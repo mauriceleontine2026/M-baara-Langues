@@ -18,9 +18,6 @@ from ..models.user import User
 from ..services import security
 from ..services.security import get_current_user, is_admin_email
 
-FIREBASE_PROJECT_ID = os.getenv("FIREBASE_PROJECT_ID", os.getenv("VITE_FIREBASE_PROJECT_ID"))
-FIREBASE_API_KEY = os.getenv("FIREBASE_API_KEY", os.getenv("VITE_FIREBASE_API_KEY"))
-FIREBASE_LOOKUP_URL = "https://identitytoolkit.googleapis.com/v1/accounts:lookup"
 SUPABASE_URL = os.getenv("VITE_SUPABASE_URL", os.getenv("SUPABASE_URL"))
 SUPABASE_SERVICE_KEY = os.getenv("SUPABASE_SERVICE_KEY")
 FRONTEND_URL = os.getenv("FRONTEND_URL", "https://m-baara-langues.web.app").rstrip("/")
@@ -169,34 +166,6 @@ def _should_auto_verify_when_smtp_unavailable() -> bool:
     return os.getenv("AUTO_VERIFY_ON_MISSING_SMTP", "true").strip().lower() in {"1", "true", "yes"}
 
 
-def _verify_firebase_id_token(id_token_value: str) -> dict:
-    if not FIREBASE_API_KEY:
-        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Firebase API key is not configured on the backend.")
-
-    try:
-        response = httpx.post(
-            FIREBASE_LOOKUP_URL,
-            params={"key": FIREBASE_API_KEY},
-            json={"idToken": id_token_value},
-            timeout=10.0,
-        )
-        response.raise_for_status()
-        payload = response.json()
-        users = payload.get("users") or []
-        if not users:
-            raise ValueError("Jeton Firebase invalide : aucun utilisateur retourné.")
-
-        user = users[0]
-        return {
-            "email": user.get("email"),
-            "name": user.get("displayName"),
-            "picture": user.get("photoUrl"),
-            "firebase_uid": user.get("localId"),
-        }
-    except Exception as exc:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Jeton Firebase invalide.") from exc
-
-
 def _verify_supabase_access_token(access_token: str) -> dict:
     """
     Verify a Supabase access token by calling the Supabase auth user endpoint.
@@ -229,70 +198,8 @@ def _verify_supabase_access_token(access_token: str) -> dict:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Jeton Supabase invalide.")
 
 
-class FirebaseAuthRequest(BaseModel):
-    id_token: str
-
-
 class SupabaseAuthRequest(BaseModel):
     access_token: str
-
-
-@router.post("/firebase")
-def firebase_auth(payload: FirebaseAuthRequest, response: Response, db: Session = Depends(get_db)):
-    token_payload = _verify_firebase_id_token(payload.id_token)
-    email = token_payload.get("email")
-    if not email:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="L'email Firebase est requis.")
-    if not _is_valid_email_address(email):
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Adresse e-mail invalide.")
-
-    user = db.query(User).filter(User.email == email).first()
-    firebase_email_verified = bool(token_payload.get("emailVerified", True))
-    if not user:
-        role = "admin" if is_admin_email(email) else "user"
-        user = User(
-            email=email,
-            hashed_password=security.get_password_hash(uuid.uuid4().hex),
-            full_name=token_payload.get("name"),
-            photo_url=token_payload.get("picture"),
-            role=role,
-            email_verified=firebase_email_verified,
-        )
-        db.add(user)
-        db.commit()
-        db.refresh(user)
-    else:
-        updated = False
-        if is_admin_email(email) and user.role != "admin":
-            user.role = "admin"
-            updated = True
-        if not user.full_name and token_payload.get("name"):
-            user.full_name = token_payload.get("name")
-            updated = True
-        if not user.photo_url and token_payload.get("picture"):
-            user.photo_url = token_payload.get("picture")
-            updated = True
-        if user.email_verified is not firebase_email_verified:
-            user.email_verified = firebase_email_verified
-            updated = True
-        if updated:
-            db.add(user)
-            db.commit()
-            db.refresh(user)
-
-    token = security.create_access_token({"sub": str(user.id), "email": user.email})
-    security.set_auth_cookies(response, token)
-    return {
-        "access_token": token,
-        "token_type": "bearer",
-        "user": {
-            "id": user.id,
-            "email": user.email,
-            "full_name": user.full_name,
-            "photo_url": user.photo_url,
-            "role": user.role,
-        },
-    }
 
 
 @router.post("/supabase")
@@ -353,25 +260,24 @@ def supabase_auth(payload: SupabaseAuthRequest, response: Response, db: Session 
     }
 
 
-@router.post("/firebase/form")
-def firebase_auth_form(id_token: str = Form(...), response: Response = None, db: Session = Depends(get_db)):
+@router.post("/supabase/form")
+def supabase_auth_form(access_token: str = Form(...), response: Response = None, db: Session = Depends(get_db)):
     """
-    Form-based Firebase auth endpoint: accepts application/x-www-form-urlencoded
-    with id_token field. Useful as a fallback when XHR CORS fails.
-    Reuses the same token verification and user creation logic.
+    Form-based Supabase auth endpoint: accepts application/x-www-form-urlencoded
+    with access_token field. Useful as a fallback when XHR CORS fails.
     """
     if response is None:
         response = Response()
-    
-    token_payload = _verify_firebase_id_token(id_token)
+
+    token_payload = _verify_supabase_access_token(access_token)
     email = token_payload.get("email")
     if not email:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="L'email Firebase est requis.")
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="L'email Supabase est requis.")
     if not _is_valid_email_address(email):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Adresse e-mail invalide.")
 
     user = db.query(User).filter(User.email == email).first()
-    firebase_email_verified = bool(token_payload.get("emailVerified", True))
+    supabase_email_verified = bool(token_payload.get("email_verified", False))
     if not user:
         role = "admin" if is_admin_email(email) else "user"
         user = User(
@@ -380,7 +286,7 @@ def firebase_auth_form(id_token: str = Form(...), response: Response = None, db:
             full_name=token_payload.get("name"),
             photo_url=token_payload.get("picture"),
             role=role,
-            email_verified=firebase_email_verified,
+            email_verified=supabase_email_verified,
         )
         db.add(user)
         db.commit()
@@ -396,8 +302,8 @@ def firebase_auth_form(id_token: str = Form(...), response: Response = None, db:
         if not user.photo_url and token_payload.get("picture"):
             user.photo_url = token_payload.get("picture")
             updated = True
-        if user.email_verified is not firebase_email_verified:
-            user.email_verified = firebase_email_verified
+        if user.email_verified is not supabase_email_verified:
+            user.email_verified = supabase_email_verified
             updated = True
         if updated:
             db.add(user)

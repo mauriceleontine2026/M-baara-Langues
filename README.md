@@ -73,7 +73,6 @@ DATABASE_URL=sqlite:///./mbaara.db
 JWT_SECRET=change-this-secret
 JWT_ALGORITHM=HS256
 OPENAI_API_KEY=<your_openai_api_key>
-FIREBASE_PROJECT_ID=m-baara-langues
 ```
 
 5. Once the Repl is running, verify the backend is available at:
@@ -83,30 +82,19 @@ If you also want the frontend to use this hosted backend, set `VITE_API_BASE_URL
 
 ## Use The Hosted Backend
 
-For frontend-only development, create or update `.env.local` in the project root with your backend and Firebase values as needed.
+For frontend-only development, create or update `.env.local` in the project root with your backend and Supabase values as needed.
 
 ## Native Android / iOS with Capacitor
 
 This repository now includes a Capacitor native wrapper in `android/` and `ios/`.
 
-To enable Firebase for both web and mobile builds, add the following variables to `.env.local`:
+When you connect Supabase, add these keys to `.env.local`:
 
 ```bash
-VITE_USE_FIREBASE=true
-VITE_FIREBASE_API_KEY=your_firebase_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
-VITE_FIREBASE_APP_ID=your_firebase_app_id
+VITE_SUPABASE_URL=https://xyzcompany.supabase.co
+VITE_SUPABASE_ANON_KEY=your-public-anon-key
+SUPABASE_SERVICE_KEY=your-supabase-service-role-key
 ```
-
-Place your native Firebase config files in the native projects if you want to use the native Android/iOS tooling as well:
-
-- `android/app/google-services.json`
-- `ios/App/App/GoogleService-Info.plist`
-
-Use `.env.local.example` as a template and fill the Firebase web SDK values before running the app.
 
 Then build the web assets and sync Capacitor:
 
@@ -123,7 +111,7 @@ npx cap open android
 npx cap open ios
 ```
 
-The Capacitor web view will load the built app and the Firebase JS SDK will use the `VITE_FIREBASE_*` values at runtime.
+The Capacitor web view will load the built app and the web app will use the configured runtime environment values.
 
 ## Publish Your Changes
 

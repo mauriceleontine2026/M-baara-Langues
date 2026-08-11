@@ -31,7 +31,7 @@ export default function AdminUsers() {
   return (
     <div className="space-y-5">
       <div className="bg-yellow-50 border border-yellow-200 text-yellow-800 p-3 rounded-lg">
-        <strong>Info :</strong> La gestion des rôles est centralisée dans Firebase. Pour attribuer le rôle d'administrateur, modifiez les claims ou ajoutez isAdmin: true dans Firestore (admins/{'{uid}'} ou users/{'{uid}'}).
+        <strong>Info :</strong> La gestion des rôles se fait dans le backend. Pour attribuer le rôle d'administrateur, utilisez l'interface d'administration ou la configuration de l'utilisateur côté serveur.
       </div>
       {msg && <p className="text-sm text-center">{msg}</p>}
 
@@ -47,7 +47,6 @@ export default function AdminUsers() {
               placeholder="email@exemple.com" required
               className="w-full pl-9 pr-3 py-2.5 border border-border bg-background rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" />
           </div>
-          {/* Invitations default to Apprenant; role management moved to Firebase */}
           <div className="border border-border bg-background rounded-xl px-3 py-2.5 text-sm flex items-center text-muted-foreground">Apprenant</div>
           <button type="submit" className="px-4 py-2.5 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition">
             Inviter
