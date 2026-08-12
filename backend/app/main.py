@@ -21,7 +21,7 @@ app = FastAPI(title="M'baara API", version="0.1.0")
 
 raw_allowed_origins = os.getenv(
     "ALLOWED_ORIGINS",
-    "https://mbaara-web.vercel.app,https://m-baara-langues.web.app,http://localhost:5173,http://127.0.0.1:5173,http://localhost:4173,http://127.0.0.1:4173"
+    "https://mbaara-web.vercel.app,https://m-baara-langues.web.app,http://localhost:5173,http://127.0.0.1:5173,http://localhost:4173,http://127.0.0.1:4173,http://localhost:5174,http://127.0.0.1:5174"
 )
 allowed_origins = [origin.strip() for origin in raw_allowed_origins.split(",") if origin.strip()]
 for required_origin in ["https://m-baara-langues.web.app"]:

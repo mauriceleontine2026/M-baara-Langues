@@ -10,11 +10,28 @@ const clearUrlHash = () => {
 const getSupabaseAccessTokenFromUrl = async () => {
   if (typeof window === "undefined") return null;
 
+  const parseParams = (source) => {
+    const raw = source.startsWith("#") || source.startsWith("?") ? source.slice(1) : source;
+    return new URLSearchParams(raw);
+  };
+
   let access_token = null;
-  if (window.location.hash.includes("access_token=")) {
+  let error_description = null;
+
+  const hashParams = parseParams(window.location.hash || "");
+  access_token = hashParams.get("access_token");
+  error_description = hashParams.get("error_description") || hashParams.get("error");
+
+  if (!access_token) {
+    const searchParams = parseParams(window.location.search || "");
+    access_token = searchParams.get("access_token");
+    error_description = error_description || searchParams.get("error_description") || searchParams.get("error");
+  }
+
+  if (!access_token && (window.location.hash || window.location.search)) {
     const { data, error } = await supabase.auth.getSessionFromUrl();
     if (error) {
-      throw new Error(error.message || "Impossible de lire la session Supabase après redirection Google.");
+      throw new Error(error.message || error_description || "Impossible de lire la session Supabase après redirection Google.");
     }
     access_token = data?.session?.access_token;
   }

@@ -3,8 +3,8 @@ const getApiBaseUrl = () => {
     return import.meta.env.VITE_API_BASE_URL.replace(/\/$/, "");
   }
 
-  if (import.meta.env.DEV) {
-    return "http://127.0.0.1:8000";
+  if (import.meta.env.DEV && typeof window !== "undefined") {
+    return window.location.origin;
   }
 
   if (typeof window !== "undefined") {

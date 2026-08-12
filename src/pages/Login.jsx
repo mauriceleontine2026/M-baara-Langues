@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { login, loginWithGoogle, completeGoogleLogin, requestEmailVerification } from "@/api/authService";
 import AuthSplitPanel from "@/components/AuthSplitPanel";
 
@@ -10,10 +11,14 @@ export default function Login() {
   const [resendLoading, setResendLoading] = useState(false);
   const [showResendLink, setShowResendLink] = useState(false);
 
+  const navigate = useNavigate();
+
   useEffect(() => {
     const handleOAuthRedirect = async () => {
       if (typeof window === "undefined") return;
-      if (!window.location.hash.includes("access_token=") && !window.location.hash.includes("provider_token=")) {
+      const hasHashCallback = window.location.hash.includes("access_token=") || window.location.hash.includes("provider_token=");
+      const hasSearchCallback = window.location.search.includes("access_token=") || window.location.search.includes("provider_token=") || window.location.search.includes("code=");
+      if (!hasHashCallback && !hasSearchCallback) {
         return;
       }
 
@@ -21,7 +26,7 @@ export default function Login() {
       setError("");
       try {
         await completeGoogleLogin();
-        window.location.href = "/";
+        navigate("/", { replace: true });
       } catch (err) {
         const errorMessage = err instanceof Error ? err.message : "Connexion Google impossible";
         setError(errorMessage);
@@ -31,7 +36,7 @@ export default function Login() {
     };
 
     handleOAuthRedirect();
-  }, []);
+  }, [navigate]);
 
   const handleGoogle = async () => {
     setError("");

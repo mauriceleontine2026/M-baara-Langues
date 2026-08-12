@@ -16,7 +16,11 @@ export async function signInWithGoogle() {
     },
   });
   if (error) throw error;
-  return { token: data?.session?.access_token, data };
+  if (data?.url) {
+    window.location.href = data.url;
+    return { token: null, data };
+  }
+  return { token: data?.session?.access_token || null, data };
 }
 
 export async function signUp(email, password) {

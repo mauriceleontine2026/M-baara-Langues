@@ -48,14 +48,37 @@ CSRF_COOKIE_NAME = "mbaara_csrf_token"
 CSRF_HEADER_NAME = "x-csrf-token"
 
 
+def _parse_bool_env(name: str, default: bool) -> bool:
+    value = os.getenv(name)
+    if value is None:
+        return default
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
+def _is_development_env() -> bool:
+    return any(
+        os.getenv(name, "").strip().lower() == "development"
+        for name in ["FASTAPI_ENV", "ENV", "NODE_ENV"]
+    ) or os.getenv("DEV", "").strip().lower() in {"1", "true", "yes", "on"}
+
+ACCESS_TOKEN_COOKIE_SECURE = _parse_bool_env("ACCESS_TOKEN_COOKIE_SECURE", not _is_development_env())
+CSRF_COOKIE_SECURE = _parse_bool_env("CSRF_COOKIE_SECURE", ACCESS_TOKEN_COOKIE_SECURE)
+ACCESS_TOKEN_COOKIE_SAMESITE = os.getenv("ACCESS_TOKEN_COOKIE_SAMESITE", "none")
+CSRF_COOKIE_SAMESITE = os.getenv("CSRF_COOKIE_SAMESITE", "none")
+
+
 def set_auth_cookies(response: Response, token: str) -> None:
     max_age = ACCESS_TOKEN_EXPIRE_MINUTES * 60
+    secure = ACCESS_TOKEN_COOKIE_SECURE
+    if _is_development_env():
+        secure = False
+
     response.set_cookie(
         key=ACCESS_TOKEN_COOKIE_NAME,
         value=token,
         max_age=max_age,
         httponly=True,
-        secure=True,
+        secure=secure,
         samesite="none",
         path="/",
     )
@@ -69,15 +92,18 @@ def set_auth_cookies(response: Response, token: str) -> None:
         value=secrets.token_urlsafe(32),
         max_age=max_age,
         httponly=False,
-        secure=True,
+        secure=secure,
         samesite="none",
         path="/",
     )
 
 
 def clear_auth_cookies(response: Response) -> None:
-    response.delete_cookie(key=ACCESS_TOKEN_COOKIE_NAME, path="/", samesite="none", secure=True)
-    response.delete_cookie(key=CSRF_COOKIE_NAME, path="/", samesite="none", secure=True)
+    secure = ACCESS_TOKEN_COOKIE_SECURE
+    if _is_development_env():
+        secure = False
+    response.delete_cookie(key=ACCESS_TOKEN_COOKIE_NAME, path="/", samesite="none", secure=secure)
+    response.delete_cookie(key=CSRF_COOKIE_NAME, path="/", samesite="none", secure=secure)
 
 
 def verify_password(plain_password: str, hashed_password: str) -> bool:
