@@ -1,5 +1,51 @@
 import { request, notifyAuthChanged } from "./backendClient";
-import { signInWithGoogle } from "./supabaseClient";
+import supabase, { signInWithGoogle } from "./supabaseClient";
+
+const clearUrlHash = () => {
+  if (typeof window === "undefined") return;
+  const { pathname, search } = window.location;
+  window.history.replaceState({}, document.title, `${pathname}${search}`);
+};
+
+const getSupabaseAccessTokenFromUrl = async () => {
+  if (typeof window === "undefined") return null;
+
+  let access_token = null;
+  if (window.location.hash.includes("access_token=")) {
+    const { data, error } = await supabase.auth.getSessionFromUrl();
+    if (error) {
+      throw new Error(error.message || "Impossible de lire la session Supabase après redirection Google.");
+    }
+    access_token = data?.session?.access_token;
+  }
+
+  if (!access_token) {
+    const { data, error } = await supabase.auth.getSession();
+    if (error) {
+      throw new Error(error.message || "Impossible de lire la session Supabase.");
+    }
+    access_token = data?.session?.access_token;
+  }
+
+  return access_token;
+};
+
+export async function completeGoogleLogin() {
+  try {
+    const access_token = await getSupabaseAccessTokenFromUrl();
+    if (!access_token) {
+      throw new Error("Aucun jeton Supabase trouvé après la redirection Google.");
+    }
+
+    const data = await request("POST", "/api/auth/supabase", { access_token });
+    notifyAuthChanged();
+    clearUrlHash();
+    return data?.user || null;
+  } catch (err) {
+    clearUrlHash();
+    throw err;
+  }
+}
 
 export async function login(email, password) {
   try {
@@ -58,7 +104,8 @@ export async function loginWithForm(email, password) {
 export async function loginWithGoogle() {
   const { token } = await signInWithGoogle();
   if (!token) {
-    throw new Error("Jeton Supabase introuvable après authentification Google.");
+    // Redirect flow will complete after the user returns to /login.
+    return null;
   }
 
   // Quick health check to provide a clearer error if the backend is unreachable

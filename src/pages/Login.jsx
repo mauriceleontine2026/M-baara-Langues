@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { login, loginWithGoogle, requestEmailVerification } from "@/api/authService";
+import { useEffect, useState } from "react";
+import { login, loginWithGoogle, completeGoogleLogin, requestEmailVerification } from "@/api/authService";
 import AuthSplitPanel from "@/components/AuthSplitPanel";
 
 export default function Login() {
@@ -10,12 +10,37 @@ export default function Login() {
   const [resendLoading, setResendLoading] = useState(false);
   const [showResendLink, setShowResendLink] = useState(false);
 
+  useEffect(() => {
+    const handleOAuthRedirect = async () => {
+      if (typeof window === "undefined") return;
+      if (!window.location.hash.includes("access_token=") && !window.location.hash.includes("provider_token=")) {
+        return;
+      }
+
+      setLoading(true);
+      setError("");
+      try {
+        await completeGoogleLogin();
+        window.location.href = "/";
+      } catch (err) {
+        const errorMessage = err instanceof Error ? err.message : "Connexion Google impossible";
+        setError(errorMessage);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    handleOAuthRedirect();
+  }, []);
+
   const handleGoogle = async () => {
     setError("");
     setLoading(true);
     try {
-      await loginWithGoogle();
-      window.location.href = "/";
+      const user = await loginWithGoogle();
+      if (user !== null) {
+        window.location.href = "/";
+      }
     } catch (err) {
       const errorMessage = err instanceof Error
         ? err.message
