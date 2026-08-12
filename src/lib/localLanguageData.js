@@ -49,17 +49,6 @@ const LOCAL_LANGUAGE_META_OVERRIDES = {
     color: "#047857",
     description: "Langue Kissi",
   },
-  wolof: {
-    code: "wolof",
-    name: "Wolof",
-    name_fr: "Wolof",
-    region: "Afrique de l'Ouest",
-    family: "Niger-Congo",
-    status: "active",
-    flag_emoji: "🌍",
-    color: "#b91c1c",
-    description: "Langue Wolof",
-  },
   guerze: {
     code: "guerze",
     name: "Guerzé (Kpelé)",
