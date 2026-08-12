@@ -455,6 +455,13 @@ const getPathSegments = (filePath) => String(filePath || "").split(/[\\/]/).filt
 const getLanguageFolderFromPath = (filePath) => {
   const normalized = String(filePath || "").replace(/\\/g, "/");
   
+  // List of folder names that are not languages (categories/regions)
+  const excludedFolders = [
+    "Internationales", "Régionales", "Nationales", "Forestières",
+    "Guinéé", "Afrique", "Centrale_Est", "Ouest", "data",
+    "Niveau", "Module", "Leçon"
+  ];
+  
   // Try to extract language from Internationales subfolder (e.g., data/Internationales/Allemand/...)
   const internationalMatch = normalized.match(/(?:^|\/)(?:\.\.\/)?data\/Internationales\/([^/]+)\//i);
   if (internationalMatch) {
@@ -467,9 +474,8 @@ const getLanguageFolderFromPath = (filePath) => {
     return regionMatch[1];
   }
   
-  // Fallback to first folder after data
-  const fallbackMatch = normalized.match(/(?:^|\/)(?:\.\.\/)?data\/([^/]+)\//i);
-  return fallbackMatch ? fallbackMatch[1] : null;
+  // Fallback: don't load anything else
+  return null;
 };
 
 const getLanguageMetaFromFolder = (folderName) => {
