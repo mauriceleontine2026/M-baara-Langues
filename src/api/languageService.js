@@ -24,13 +24,8 @@ const mergeUniqueLanguages = (languages) => {
 };
 
 export async function getLanguages() {
-  try {
-    const data = await request("GET", "/api/languages");
-    return mergeUniqueLanguages(toArray(data));
-  } catch (error) {
-    console.error("Backend language fetch error:", error);
-    return getLocalLanguages();
-  }
+  // Always return local languages only (38 languages exactly)
+  return getLocalLanguages();
 }
 
 export async function getLanguageByCode(code) {
