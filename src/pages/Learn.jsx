@@ -1,4 +1,5 @@
 // @ts-nocheck
+// Updated Learn page with all languages from data folder
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useAuth } from "@/lib/AuthContext";
