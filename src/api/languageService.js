@@ -24,7 +24,7 @@ const mergeUniqueLanguages = (languages) => {
 };
 
 export async function getLanguages() {
-  // Always return local languages only (38 languages exactly)
+  // Always return local languages only.
   return getLocalLanguages();
 }
 

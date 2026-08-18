@@ -395,6 +395,17 @@ const LOCAL_LANGUAGE_META_OVERRIDES = {
     color: "#CE1126",
     description: "Langue du Burkina Faso",
   },
+  moore: {
+    code: "moore",
+    name: "Mooré",
+    name_fr: "Mooré",
+    region: "Afrique (Ouest)",
+    family: "Gur",
+    status: "active",
+    flag_emoji: "🇧🇫",
+    color: "#1e3a8a",
+    description: "Langue mooré du Burkina Faso",
+  },
   dioula: {
     code: "dioula",
     name: "Dioula",
@@ -442,27 +453,30 @@ const normalizeLanguageCode = (value) =>
 const getPathSegments = (filePath) => String(filePath || "").split(/[\\/]/).filter(Boolean);
 
 const getLanguageFolderFromPath = (filePath) => {
-  const normalized = String(filePath || "").replace(/\\/g, "/");
-  
+  const normalized = String(filePath || "")
+    .replace(/\\/g, "/")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+
   // List of folder names that are not languages (categories/regions)
   const excludedFolders = [
-    "Internationales", "Régionales", "Nationales", "Forestières",
-    "Guinéé", "Afrique", "Centrale_Est", "Ouest", "data",
+    "Internationales", "Regionales", "Nationales", "Forestieres",
+    "Guinee", "Afrique", "Centrale_Est", "Ouest", "data",
     "Niveau", "Module", "Leçon"
   ];
-  
-  // Try to extract language from Internationales subfolder (e.g., data/Internationales/Allemand/...)
-  const internationalMatch = normalized.match(/(?:^|\/)(?:\.\.\/)?data\/Internationales\/([^/]+)\//i);
+
+  // Try to extract language from Internationales subfolder.
+  const internationalMatch = normalized.match(/(?:^|\/)(?:\.\.\/)?data(?:_langues)?\/Internationales\/([^/]+)\//i);
   if (internationalMatch) {
     return internationalMatch[1];
   }
-  
-  // Try to extract language from region subfolder (e.g., data/Guinéé/Régionales/Baga/...)
-  const regionMatch = normalized.match(/(?:^|\/)(?:\.\.\/)?data\/(?:Guinéé|Afrique)\/[^/]+\/([^/]+)\//i);
+
+  // Try to extract language from Guinean and African region subfolders.
+  const regionMatch = normalized.match(/(?:^|\/)(?:\.\.\/)?data(?:_langues)?\/(?:Guinee|Afrique)\/(?:[^/]+\/)?([^/]+)\//i);
   if (regionMatch) {
     return regionMatch[1];
   }
-  
+
   // Fallback: don't load anything else
   return null;
 };
@@ -485,7 +499,7 @@ const getLanguageMetaFromFolder = (folderName) => {
   };
 };
 
-const files = import.meta.glob("../data/**/*.{json,JSON}", {
+const files = import.meta.glob("../data_langues/**/*.{json,JSON}", {
   eager: true,
   query: "?raw",
   import: "default",
