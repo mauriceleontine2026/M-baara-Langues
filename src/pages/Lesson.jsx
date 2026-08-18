@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useAuth } from "@/lib/AuthContext";
 import { getLanguageByCode, getLessonsForLanguage, getVocabularyForLanguage, getVocabularyForLesson } from "@/api/languageService";
 import { getProgress, updateProgress } from "@/api/progressService";
-import { ArrowLeft, Volume2, Heart, X, Check, WifiOff } from "lucide-react";
+import { ArrowLeft, Volume2, Heart, X, Check, WifiOff, BookOpen, Target, MessageCircle, Sparkles } from "lucide-react";
 import LanguageFlag from "@/components/ui/LanguageFlag";
 import { motion, AnimatePresence } from "framer-motion";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
@@ -326,28 +326,24 @@ export default function Lesson() {
   const progress = phase === "learn" ? (cardIdx / items.length) : (quizIdx / items.length);
 
   return (
-    <div className="min-h-screen bg-background flex flex-col">
-      <div className="bg-card border-b border-border px-4 py-3">
-        <div className="max-w-xl mx-auto flex items-center gap-3">
+    <div className="min-h-screen bg-background flex flex-col" style={{ backgroundImage: `radial-gradient(circle at 15% 0%, ${language.color}18, transparent 32%), radial-gradient(circle at 90% 18%, ${language.color}12, transparent 28%)` }}>
+      <div className="sticky top-0 z-20 border-b border-border/70 bg-background/85 px-4 py-3 backdrop-blur-xl">
+        <div className="max-w-5xl mx-auto flex items-center gap-3">
           {!online && <span className="flex items-center gap-1 text-xs text-yellow-500 font-medium shrink-0"><WifiOff size={14} /> Hors-ligne</span>}
-          <button onClick={() => navigate(-1)} className="text-muted-foreground hover:text-foreground transition">
+          <button aria-label="Retour au curriculum" onClick={() => navigate(-1)} className="grid h-10 w-10 shrink-0 place-items-center rounded-full border border-border bg-card text-muted-foreground hover:border-primary/50 hover:text-foreground transition">
             <ArrowLeft size={20} />
           </button>
-          <div className="flex-1 bg-secondary rounded-full h-3 overflow-hidden">
-            <motion.div className="h-3 rounded-full" style={{ background: language.color }}
-              animate={{ width: `${progress * 100}%` }} transition={{ duration: 0.4 }} />
-          </div>
-          <div className="flex items-center gap-0.5 text-red-500">
-        <div className="mb-6 rounded-3xl bg-card border border-border p-5">
-          <div className="flex items-center justify-between gap-3 mb-3">
-            <div>
-              <h1 className="text-xl font-semibold text-foreground">{lessonTitle}</h1>
-              {lessonNiveau && <p className="text-xs uppercase tracking-[0.18em] text-primary font-semibold mt-1">{lessonNiveau}</p>}
-              <p className="text-sm text-muted-foreground mt-1">{lessonDescription}</p>
+          <div className="flex-1">
+            <div className="mb-1 flex items-center justify-between text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+              <span>{phase === "learn" ? "Apprentissage" : phase === "quiz" ? "Quiz" : "Terminé"}</span>
+              <span>{phase === "learn" ? `${cardIdx + 1}/${items.length}` : phase === "quiz" ? `${quizIdx + 1}/${items.length}` : "100%"}</span>
             </div>
-            <LanguageFlag language={language} size="lg" />
+            <div className="h-2 overflow-hidden rounded-full bg-secondary">
+            <motion.div className="h-2 rounded-full" style={{ background: language.color }}
+              animate={{ width: `${progress * 100}%` }} transition={{ duration: 0.4 }} />
+            </div>
           </div>
-        </div>
+          <div className="flex shrink-0 items-center gap-0.5 text-red-500">
             {[...Array(5)].map((_, i) => (
               <Heart key={i} size={16} fill={i < hearts ? "currentColor" : "none"} className={i < hearts ? "" : "text-muted-foreground/30"} />
             ))}
@@ -355,26 +351,46 @@ export default function Lesson() {
         </div>
       </div>
 
-      <div className="flex-1 max-w-xl mx-auto w-full px-4 py-6">
+      <main className="flex-1 max-w-5xl mx-auto w-full px-4 py-6 lg:px-8 lg:py-10">
+        <section className="relative mb-8 overflow-hidden rounded-[2rem] border border-border/70 bg-card/90 p-6 shadow-[0_24px_80px_-44px_rgba(0,0,0,0.6)] lg:p-10">
+          <div className="absolute -right-20 -top-24 h-64 w-64 rounded-full opacity-20 blur-3xl" style={{ background: language.color }} />
+          <div className="relative flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+            <div className="max-w-3xl">
+              <div className="mb-4 flex flex-wrap items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-primary">
+                <span className="rounded-full bg-primary/10 px-3 py-1.5">Leçon {lessonNum}</span>
+                {lessonNiveau && <span className="rounded-full border border-border px-3 py-1.5 text-muted-foreground">{lessonNiveau}</span>}
+              </div>
+              <h1 className="font-heading text-3xl font-bold leading-tight text-foreground lg:text-5xl">{lessonTitle}</h1>
+              <p className="mt-4 max-w-2xl text-sm leading-7 text-muted-foreground lg:text-base">{lessonDescription}</p>
+            </div>
+            <div className="flex items-center gap-4">
+              <div className="grid h-16 w-16 place-items-center rounded-2xl text-white shadow-lg" style={{ background: language.color }}><LanguageFlag language={language} size="lg" /></div>
+              <div><div className="text-sm font-semibold text-foreground">{language.name_fr}</div><div className="text-xs text-muted-foreground">{language.region}</div></div>
+            </div>
+          </div>
+          <div className="relative mt-8 grid grid-cols-2 gap-3 border-t border-border/70 pt-5 sm:grid-cols-4">
+            {[{ icon: BookOpen, value: items.length, label: "mots" }, { icon: Target, value: lessonMeta?.learning_objectives?.length || 0, label: "objectifs" }, { icon: MessageCircle, value: lessonMeta?.common_phrases?.length || 0, label: "phrases" }, { icon: Sparkles, value: lessonMeta?.grammar_points?.length || 0, label: "points clés" }].map(({ icon: Icon, value, label }) => <div key={label} className="flex items-center gap-2"><Icon size={17} style={{ color: language.color }} /><div><div className="font-semibold text-foreground">{value}</div><div className="text-xs text-muted-foreground">{label}</div></div></div>)}
+          </div>
+        </section>
         {(lessonMeta?.learning_objectives?.length > 0 || lessonMeta?.phonetic_focus || lessonMeta?.common_phrases?.length > 0 || lessonMeta?.grammar_points?.length > 0 || lessonMeta?.cultural_notes?.length > 0) && (
-          <div className="mb-6 space-y-3">
+          <div className="mb-8 grid gap-4 lg:grid-cols-2">
             {lessonMeta.learning_objectives?.length > 0 && (
-              <section className="rounded-2xl border border-border bg-card p-4">
-                <h2 className="font-semibold text-foreground">Objectifs</h2>
+              <section className="rounded-2xl border border-border bg-card p-5 shadow-sm">
+                <h2 className="flex items-center gap-2 font-semibold text-foreground"><Target size={18} className="text-primary" />Objectifs</h2>
                 <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-muted-foreground">
                   {lessonMeta.learning_objectives.map((objective) => <li key={objective}>{objective}</li>)}
                 </ul>
               </section>
             )}
             {lessonMeta.phonetic_focus && (
-              <section className="rounded-2xl border border-border bg-card p-4">
+              <section className="rounded-2xl border border-border bg-card p-5 shadow-sm">
                 <h2 className="font-semibold text-foreground">Focus phonétique</h2>
                 <p className="mt-2 text-sm text-muted-foreground">{lessonMeta.phonetic_focus.key_sounds}</p>
                 {lessonMeta.phonetic_focus.common_pitfalls && <p className="mt-2 text-sm text-muted-foreground"><strong className="text-foreground">À surveiller : </strong>{lessonMeta.phonetic_focus.common_pitfalls}</p>}
               </section>
             )}
             {lessonMeta.common_phrases?.length > 0 && (
-              <section className="rounded-2xl border border-border bg-card p-4">
+              <section className="rounded-2xl border border-border bg-card p-5 shadow-sm">
                 <h2 className="font-semibold text-foreground">Phrases utiles</h2>
                 <div className="mt-2 space-y-2">
                   {lessonMeta.common_phrases.map((phrase) => <p key={phrase.phrase_id || phrase.original} className="text-sm text-muted-foreground"><span className="font-medium text-foreground">{phrase.original}</span> : {phrase.translation}</p>)}
@@ -382,7 +398,7 @@ export default function Lesson() {
               </section>
             )}
             {lessonMeta.grammar_points?.length > 0 && (
-              <section className="rounded-2xl border border-border bg-card p-4">
+              <section className="rounded-2xl border border-border bg-card p-5 shadow-sm">
                 <h2 className="font-semibold text-foreground">Points de grammaire</h2>
                 <div className="mt-2 space-y-3">
                   {lessonMeta.grammar_points.map((point) => <div key={point.concept}><h3 className="text-sm font-medium text-foreground">{point.concept}</h3><p className="mt-1 text-sm text-muted-foreground">{point.explanation}</p></div>)}
@@ -390,7 +406,7 @@ export default function Lesson() {
               </section>
             )}
             {lessonMeta.cultural_notes?.length > 0 && (
-              <section className="rounded-2xl border border-border bg-card p-4">
+              <section className="rounded-2xl border border-border bg-card p-5 shadow-sm">
                 <h2 className="font-semibold text-foreground">Notes culturelles</h2>
                 <div className="mt-2 space-y-2">{lessonMeta.cultural_notes.map((note) => <p key={note} className="text-sm text-muted-foreground">{note}</p>)}</div>
               </section>
@@ -499,7 +515,7 @@ export default function Lesson() {
             </motion.div>
           )}
         </AnimatePresence>
-      </div>
+      </main>
     </div>
   );
 }
