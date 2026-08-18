@@ -1,0 +1,123 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Demander la localisation d'un lieu (marché, maison)",
+    "Comprendre les indications spatiales de base (ici, là-bas)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La voyelle fermée postérieure /u/ s'articule avec les lèvres bien arrondies. La particule de lieu porte souvent un ton bas.",
+    "common_pitfalls": "Veillez à ne pas adoucir le /k/ initial dans les locutions directionnelles."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v7_1",
+      "term": "pɛ́rɛ́",
+      "phonetic_api": "/pɛ́ɾɛ́/",
+      "phonetic_simple": "PE-RE",
+      "translation": "marché",
+      "example_sentence": "pɛ́rɛ́ káá mí ?",
+      "example_phonetic": "/pɛ́ɾɛ́ káː mí/",
+      "example_translation": "Où se trouve le marché ?"
+    },
+    {
+      "word_id": "v7_2",
+      "term": "kɔ́ɔ́",
+      "phonetic_api": "/kɔ́ː/",
+      "phonetic_simple": "KOO",
+      "translation": "dans / à l'intérieur / vers",
+      "example_sentence": "ń yé pɛ́rɛ́ kɔ́ɔ́.",
+      "example_phonetic": "/ń jé pɛ́ɾɛ́ kɔ́ː/",
+      "example_translation": "Je suis au marché."
+    },
+    {
+      "word_id": "v7_3",
+      "term": "mí",
+      "phonetic_api": "/mí/",
+      "phonetic_simple": "MI",
+      "translation": "où",
+      "example_sentence": "í yé líí mí ?",
+      "example_phonetic": "/í jé líː mí/",
+      "example_translation": "Où vas-tu ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p7_1",
+      "original": "Pɛ́rɛ́ káá mí ?",
+      "phonetic_api": "/pɛ́ɾɛ́ káː mí/",
+      "phonetic_simple": "PE-RE KAA MI ?",
+      "translation": "Où est le marché ?",
+      "context": "S'orienter dans la ville ou le village."
+    },
+    {
+      "phrase_id": "p7_2",
+      "original": "A káá yáá.",
+      "phonetic_api": "/a káː jáː/",
+      "phonetic_simple": "A KAA YAA",
+      "translation": "C'est ici.",
+      "context": "Indiquer la proximité immédiate."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le mot interrogatif localisateur 'mí'",
+      "explanation": "Pour formuler une question de lieu, l'interrogatif 'mí' se positionne systématiquement en fin d'énoncé juste après la structure verbale ou existentielle.",
+      "rules": [
+        "Il porte toujours un ton haut accentué.",
+        "Il est souvent précédé de la particule affirmative 'káá' (être présent)."
+      ],
+      "examples": [
+        {
+          "structure": "X + káá + mí",
+          "phonetic_api": "/káː mí/",
+          "meaning": "Où se trouve X ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Voyageur",
+      "text": "Enté, pɛ́rɛ́ káá mí ?",
+      "phonetic_api": "/ẽtẽ pɛ́ɾɛ́ káː mí/",
+      "phonetic_simple": "EN-TE, PE-RE KAA MI ?",
+      "translation": "Bonjour, où se trouve le marché ?"
+    },
+    {
+      "speaker": "Villageois",
+      "text": "Pɛ́rɛ́ káá yáá.",
+      "phonetic_api": "/pɛ́ɾɛ́ káː jáː/",
+      "phonetic_simple": "PE-RE KAA YAA",
+      "translation": "Le marché est ici."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'espace rural de Lola, les repères géographiques s'appuient fréquemment sur des éléments naturels immuables (le grand arbre, la colline, la source d'eau) plutôt que sur des noms de rues."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex7_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le terme 'mí' en fin de phrase ?",
+      "options": [
+        "Qui",
+        "Où",
+        "Pourquoi"
+      ],
+      "correct_answer": "Où",
+      "explanation": "'mí' est la particule interrogative de lieu de référence."
+    },
+    {
+      "exercise_id": "ex7_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A káá [ ___ ] (C'est ici).",
+      "correct_answer": "yáá",
+      "hint": "Ici."
+    }
+  ]
+}

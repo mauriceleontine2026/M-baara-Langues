@@ -1,0 +1,260 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les différents membres de la famille et de l'entourage proche",
+    "Utiliser correctement les déterminants possédants au nominatif",
+    "Poser des questions et répondre au sujet des liens de parenté et de l'état civil"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La combinaison de lettres -v- dans les termes familiaux d'origine germanique se prononce toujours comme un [f] sourd (ex: 'Vater' [ˈfaːtɐ], 'Vetter' [ˈfɛtɐ]). Le groupe de consonnes -schw- se réalise par une friction chuintante suivie d'une semi-voyelle ou consonne labiodentale [ʃv] (ex: 'Schwester').",
+    "common_pitfalls": "Attention à la désinence finale -er de mots comme 'Vater', 'Mutter', 'Bruder' : à l'oral standard allemand, elle ne se prononce pas de manière appuyée, mais s'amuït sous la forme d'une voyelle centrale ouverte vocalisée [ɐ], proche d'un 'a' très bref."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "die Familie",
+      "phonetic_api": "/faˈmiːli̯ə/",
+      "phonetic_simple": "FA-MII-LII-E",
+      "translation": "la famille",
+      "example_sentence": "Meine Familie ist groß.",
+      "example_phonetic": "/ˈmaɪ̯nə faˈmiːli̯ə ɪst ɡʁoːs/",
+      "example_translation": "Ma famille est grande."
+    },
+    {
+      "word_id": "v2",
+      "term": "der Vater",
+      "phonetic_api": "/deːɐ̯ ˈfaːtɐ/",
+      "phonetic_simple": "DEER FA-TER",
+      "translation": "le père",
+      "example_sentence": "Mein Vater arbeitet viel.",
+      "example_phonetic": "/maɪ̯n ˈfaːtɐ ˈaʁbaɪ̯tət fiːl/",
+      "example_translation": "Mon père travaille beaucoup."
+    },
+    {
+      "word_id": "v3",
+      "term": "die Mutter",
+      "phonetic_api": "/diː ˈmʏtɐ/",
+      "phonetic_simple": "DII MUU-TER",
+      "translation": "la mère",
+      "example_sentence": "Meine Mutter kocht gern.",
+      "example_phonetic": "/ˈmaɪ̯nə ˈmʏtɐ kɔxt ɡɛʁn/",
+      "example_translation": "Ma mère cuisine volontiers."
+    },
+    {
+      "word_id": "v4",
+      "term": "die Eltern",
+      "phonetic_api": "/diː ˈɛltɐn/",
+      "phonetic_simple": "DII EL-TERN",
+      "translation": "les parents (uniquement au pluriel)",
+      "example_sentence": "Wo wohnen deine Eltern?",
+      "example_phonetic": "/voː ˈvoːnən ˈdaɪ̯nə ˈɛltɐn/",
+      "example_translation": "Où habitent tes parents ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "der Sohn",
+      "phonetic_api": "/deːɐ̯ zoːn/",
+      "phonetic_simple": "DEER ZOON",
+      "translation": "le fils",
+      "example_sentence": "Ihr Sohn ist fünf Jahre alt.",
+      "example_phonetic": "/iːɐ̯ zoːn ɪst fʏnf ˈjaːʁə alt/",
+      "example_translation": "Son fils a cinq ans."
+    },
+    {
+      "word_id": "v6",
+      "term": "die Tochter",
+      "phonetic_api": "/diː ˈtɔxtɐ/",
+      "phonetic_simple": "DII TOK-TER",
+      "translation": "la fille (lien de parenté)",
+      "example_sentence": "Haben Sie eine Tochter?",
+      "example_phonetic": "/ˈhaːbn̩ ziː ˈaɪ̯nə ˈtɔxtɐ/",
+      "example_translation": "Avez-vous une fille ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "der Bruder",
+      "phonetic_api": "/deːɐ̯ ˈbuːdɐ/",
+      "phonetic_simple": "DEER BOU-DER",
+      "translation": "le frère",
+      "example_sentence": "Mein Bruder lernt Deutsch.",
+      "example_phonetic": "/maɪ̯n ˈbuːdɐ lɛʁnt dɔɪ̯tʃ/",
+      "example_translation": "Mon frère apprend l'allemand."
+    },
+    {
+      "word_id": "v8",
+      "term": "die Schwester",
+      "phonetic_api": "/diː ˈʃvɛstɐ/",
+      "phonetic_simple": "DII CHVES-TER",
+      "translation": "la sœur",
+      "example_sentence": "Das ist meine Schwester.",
+      "example_phonetic": "/das ɪst ˈmaɪ̯nə ˈʃvɛstɐ/",
+      "example_translation": "C'est ma sœur."
+    },
+    {
+      "word_id": "v9",
+      "term": "die Geschwister",
+      "phonetic_api": "/diː ɡəˈʃvɪstɐ/",
+      "phonetic_simple": "DII GHE-CHVIS-TER",
+      "translation": "les frères et sœurs (le collectif)",
+      "example_sentence": "Ich habe keine Geschwister.",
+      "example_phonetic": "/ɪç ˈhaːbə ˈkaɪ̯nə ɡəˈʃvɪstɐ/",
+      "example_translation": "Je n'ai pas de frères et sœurs."
+    },
+    {
+      "word_id": "v10",
+      "term": "der Mann / die Frau",
+      "phonetic_api": "/deːɐ̯ man / diː fʁaʊ̯/",
+      "phonetic_simple": "DEER MAN / DII FRAOU",
+      "translation": "l'époux (le mari) / l'épouse (la femme)",
+      "example_sentence": "Mein Mann und seine Frau.",
+      "example_phonetic": "/maɪ̯n man ʊnt ˈzaɪ̯nə fʁaʊ̯/",
+      "example_translation": "Mon mari et sa femme."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Bist du verheiratet?",
+      "phonetic_api": "/bɪst duː fɛɐ̯ˈhaɪ̯ʁaːtət/",
+      "phonetic_simple": "BIST DOU FER-HAI-RA-TET",
+      "translation": "Es-tu marié(e) ?",
+      "context": "Question informelle sur l'état civil de quelqu'un."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Ich bin ledig, aber ich habe einen Freund.",
+      "phonetic_api": "/ɪç bɪn ˈleːdɪç ˈaːbɐ ɪç ˈhaːbə ˈaɪ̯nən fʁɔɪ̯nt/",
+      "phonetic_simple": "ICH BIN LEE-DICH A-BER ICH HA-BE AI-NEN FROINT",
+      "translation": "Je suis célibataire, mais j'ai un petit ami.",
+      "context": "Précision sur la situation amoureuse ou relationnelle."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Haben Sie Kinder?",
+      "phonetic_api": "/ˈhaːbn̩ ziː ˈkɪndɐ/",
+      "phonetic_simple": "HA-BEN ZII KIN-DER",
+      "translation": "Avez-vous des enfants ?",
+      "context": "Question formelle de politesse pour faire connaissance."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Das ist mein Onkel und das ist meine Tante.",
+      "phonetic_api": "/das ɪst maɪ̯n ˈɔŋkl̩ ʊnt das ɪst ˈmaɪ̯nə ˈtantə/",
+      "phonetic_simple": "DAS IST MAIN ON-KEL OUNT DAS IST MAI-NE TAN-TE",
+      "translation": "C'est mon oncle et c'est ma tante.",
+      "context": "Présentation des membres de sa famille élargie."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Meine Großeltern leben in Hamburg.",
+      "phonetic_api": "/ˈmaɪ̯nə ˈɡʁoːsˌʔɛltɐn ˈleːbn̩ ɪn ˈhambʊʁk/",
+      "phonetic_simple": "MAI-NE GROS-EL-TERN LEE-BEN IN HAM-BOURG",
+      "translation": "Mes grands-parents vivent à Hambourg.",
+      "context": "Indiquer le lieu de résidence de ses aïeuls."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les déterminants possédants au cas Nominatif (mein, dein)",
+      "explanation": "En allemand, le déterminant possédant s'accorde en genre (masculin, féminin, neutre) et en nombre (pluriel) avec le nom qu'il précède au cas requis par sa fonction syntaxique (ici le Nominatif, cas du sujet).",
+      "rules": [
+        "Au masculin singulier (der) et au neutre singulier (das), le déterminant de base ne prend pas de désinence : 'mein Vater', 'dein Kind'.",
+        "Au féminin singulier (die) et au pluriel (die), le déterminant prend obligatoirement la désinence '-e' : 'meine Mutter', 'deine Geschwister'.",
+        "Les bases changent selon le possesseur : ich -> mein ; du -> dein ; Sie -> Ihr (majuscule obligatoire)."
+      ],
+      "examples": [
+        {
+          "structure": "Mein Bruder ist hier. (Masculin)",
+          "phonetic_api": "/maɪ̯n ˈbuːdɐ ɪst hiːɐ̯/",
+          "meaning": "Mon frère est ici."
+        },
+        {
+          "structure": "Meine Schwester ist dort. (Féminin)",
+          "phonetic_api": "/ˈmaɪ̯nə ˈʃvɛstɐ ɪst dɔʁt/",
+          "meaning": "Ma sœur est là-bas."
+        }
+      ]
+    },
+    {
+      "concept": "Le collectif neutre et le pluriel des substantifs familiaux",
+      "explanation": "L'allemand recourt fréquemment à des substantifs pluriels globaux neutres ou masculins/féminins unifiés pour synthétiser des liens familiaux.",
+      "rules": [
+        "Le mot 'die Geschwister' regroupe à lui seul l'ensemble des frères et sœurs, évitant la lourdeur d'une énumération.",
+        "Le pluriel de beaucoup de mots masculins de parenté en '-er' ne prend pas de lettre supplémentaire mais modifie leur voyelle interne par un Umlaut (ex: 'der Vater' devient 'die Väter'). En revanche, 'die Mutter' devient 'die Mütter'."
+      ],
+      "examples": [
+        {
+          "structure": "Haben Sie Geschwister?",
+          "phonetic_api": "/ˈhaːbn̩ ziː ɡəˈʃvɪstɐ/",
+          "meaning": "Avez-vous des frères et sœurs ?"
+        },
+        {
+          "structure": "Die Mütter treffen sich.",
+          "phonetic_api": "/diː ˈmcontrolʏtɐ ˈtʁɛfn̩ zɪç/",
+          "meaning": "Les mères se rencontrent."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Thomas",
+      "text": "Sag mal, Sabine, ist das auf dem Foto deine Familie?",
+      "phonetic_api": "/zaːk maːl zaˈbiːn ɪst das aʊ̯f deːm ˈfoːtoː ˈdaɪ̯nə faˈmiːli̯ə/",
+      "phonetic_simple": "ZAK MAL ZA-BII-NE IST DAS AOUF DEEM FOO-TOO MAI-NE FA-MII-LII-E",
+      "translation": "Dis-moi, Sabine, c'est ta famille sur la photo ?"
+    },
+    {
+      "speaker": "Sabine",
+      "text": "Ja, genau! Das hier sind meine Eltern. Mein Vater links und meine Mutter rechts.",
+      "phonetic_api": "/jaː ɡəˈnaʊ̯ das hiːɐ̯ zɪnt ˈmaɪ̯nə ˈɛltɐn maɪ̯n ˈfaːtɐ lɪŋks ʊnt ˈmaɪ̯nə ˈmʏtɐ ʁɛçts/",
+      "phonetic_simple": "YA GHE-NAOU DAS HIIR ZINT MAI-NE EL-TERN MAIN FA-TER LINKS OUNT MAI-NE MUU-TER REKTS",
+      "translation": "Oui, tout à fait ! Ce sont mes parents ici. Mon père à gauche et ma mère à droite."
+    },
+    {
+      "speaker": "Thomas",
+      "text": "Und wer ist der junge Mann in der Mitte? Ist das dein Bruder?",
+      "phonetic_api": "/ʊnt veːɐ̯ ɪst deːɐ̯ ˈjʊŋə man ɪn deːɐ̯ ˈmɪtə ɪst das daɪ̯n ˈbuːdɐ/",
+      "phonetic_simple": "OUNT VEER IST DEER YOUN-GHE MAN IN DEER MI-TE IST DAS DAIN BOU-DER",
+      "translation": "Et qui est le jeune homme au milieu ? C'est ton frère ?"
+    },
+    {
+      "speaker": "Sabine",
+      "text": "Nein, das ist mein Mann. Wir sind verheiratet. Und das kleine Mädchen ist unsere Tochter.",
+      "phonetic_api": "/naɪ̯n das ɪst maɪ̯n man viːɐ̯ zɪnt fɛɐ̯ˈhaɪ̯ʁaːtət ʊnt das ˈklaɪ̯nə ˈmɛːtçən ɪst ˈʊnzəʁə ˈtɔxtɐ/",
+      "phonetic_simple": "NAIN DAS IST MAIN MAN VIIR ZINT FER-HAI-RA-TET OUNT DAS KLAI-NE MEET-CHEN IST OUN-ZE-RE TOK-TER",
+      "translation": "Non, c'est mon mari. Nous sommes mariés. Et la petite fille, c'est notre fille."
+    }
+  ],
+  "cultural_notes": [
+    "La structure familiale allemande moderne a fortement évolué. Les familles recomposées ('Patchwork-Familie') et les unions libres sont extrêmement courantes et acceptées socialement.",
+    "À l'oral, pour désigner affectueusement ses parents, un Allemand dira très souvent 'Mama' et 'Papa' au lieu de 'Mutter' et 'Vater'. De même, les grands-parents ('Großeltern') deviennent communément 'Oma' (grand-mère) et 'Opa' (grand-père).",
+    "Faire la distinction entre 'Freund' (un ami / un petit-ami) et 'ein Freund' (un ami parmi d'autres) est crucial. Dire 'Das ist mein Freund' indique généralement une relation de couple exclusive."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel déterminant possédant convient pour compléter la phrase : 'Das ist [ ___ ] Mutter (féminin), sie heißt Klara.' (pour le possesseur 'ich')",
+      "options": [
+        "mein",
+        "meine",
+        "meinen"
+      ],
+      "correct_answer": "meine",
+      "explanation": "Au cas nominatif féminin singulier, le déterminant possédant de la première personne prend la désinence '-e'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ich habe einen Bruder und eine Schwester. Ich habe zwei [ ___ ].",
+      "correct_answer": "Geschwister",
+      "hint": "Substantif collectif pluriel désignant l'ensemble des frères et sœurs."
+    }
+  ]
+}

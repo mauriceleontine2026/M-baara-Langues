@@ -1,0 +1,293 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Savoir dire son nom, son âge et son lieu de résidence",
+    "Exprimer son origine géographique et sa nationalité",
+    "Présenter sa profession ou son statut étudiant",
+    "Poser des questions simples pour faire la connaissance de quelqu'un"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre -w- en allemand se prononce systématiquement comme un [v] français (ex: 'wer', 'wo'). Le digramme -ei- se prononce toujours comme la diphtongue [aɪ̯] (proche de 'aï' en français, comme dans 'heißen'). La lettre -z- se prononce comme l'affriquée [ts] (comme dans 'tsar' ou 'pizza'). La lettre -ß- (Eszett) se prononce comme un [s] sourd et n'existe jamais en début de mot.",
+    "common_pitfalls": "Attention au mot 'ich' : le -ch- ne doit pas se prononcer comme un 'ch' français [ʃ], mais comme un chuintement palatal doux [ç] produit en approchant la langue du palais. Ne confondez pas la prononciation de 'aus' [aʊ̯s] (diphtongue a-ou) et de 'in' [ɪn] (i court et net, jamais nasalisé à la française)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "heißen",
+      "phonetic_api": "/ˈhaɪ̯sn̩/",
+      "phonetic_simple": "HAI-SEN",
+      "translation": "s'appeler",
+      "example_sentence": "Ich heiße Max.",
+      "example_phonetic": "/ɪç ˈhaɪ̯sə maks/",
+      "example_translation": "Je m'appelle Max."
+    },
+    {
+      "word_id": "v2",
+      "term": "kommen aus",
+      "phonetic_api": "/ˈkɔmən aʊ̯s/",
+      "phonetic_simple": "KO-MEN AOFS",
+      "translation": "venir de / être originaire de",
+      "example_sentence": "Ich komme aus Frankreich.",
+      "example_phonetic": "/ɪç ˈkɔmə aʊ̯s ˈfʁaŋkʁaɪ̯ç/",
+      "example_translation": "Je viens de France."
+    },
+    {
+      "word_id": "v3",
+      "term": "wohnen",
+      "phonetic_api": "/ˈvoːnən/",
+      "phonetic_simple": "VOO-NEN",
+      "translation": "habiter / résider",
+      "example_sentence": "Ich wohne in Berlin.",
+      "example_phonetic": "/ɪç ˈvoːnə ɪn bɛʁˈliːn/",
+      "example_translation": "J'habite à Berlin."
+    },
+    {
+      "word_id": "v4",
+      "term": "alt",
+      "phonetic_api": "/alt/",
+      "phonetic_simple": "ALT",
+      "translation": "âgé / vieux",
+      "example_sentence": "Ich bin dreißig Jahre alt.",
+      "example_phonetic": "/ɪç bɪn ˈdʁaɪ̯sɪç ˈjaːʁə alt/",
+      "example_translation": "J'ai trente ans (litt. 'Je suis vieux de trente ans')."
+    },
+    {
+      "word_id": "v5",
+      "term": "der Beruf",
+      "phonetic_api": "/dəʁ bəˈʁuːf/",
+      "phonetic_simple": "DER BE-ROUF",
+      "translation": "le métier / la profession",
+      "example_sentence": "Was bist du von Beruf?",
+      "example_phonetic": "/vas bɪst duː fɔn bəˈʁuːf/",
+      "example_translation": "Quel est ton métier ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "arbeiten als",
+      "phonetic_api": "/ˈaʁbaɪ̯tn̩ als/",
+      "phonetic_simple": "AR-BAI-TEN ALS",
+      "translation": "travailler en tant que",
+      "example_sentence": "Ich arbeite als Ingenieur.",
+      "example_phonetic": "/ɪç ˈaʁbaɪ̯tə als ɪnʒeˈni̯øːɐ̯/",
+      "example_translation": "Je travaille en tant qu'ingénieur."
+    },
+    {
+      "word_id": "v7",
+      "term": "der Student / die Studentin",
+      "phonetic_api": "/ʃtuˈdɛnt / ʃtuˈdɛntɪn/",
+      "phonetic_simple": "CHTOU-DENT / CHTOU-DEN-TIN",
+      "translation": "l'étudiant / l'étudiante (université)",
+      "example_sentence": "Sie ist Studentin in München.",
+      "example_phonetic": "/ziː ɪst ʃtuˈdɛntɪn ɪn ˈmʏnçn̩/",
+      "example_translation": "Elle est étudiante à Munich."
+    },
+    {
+      "word_id": "v8",
+      "term": "wer",
+      "phonetic_api": "/veːɐ̯/",
+      "phonetic_simple": "VEER",
+      "translation": "qui",
+      "example_sentence": "Wer ist das?",
+      "example_phonetic": "/veːɐ̯ ɪst das/",
+      "example_translation": "Qui est-ce ?"
+    },
+    {
+      "word_id": "v9",
+      "term": "wo",
+      "phonetic_api": "/voː/",
+      "phonetic_simple": "VOO",
+      "translation": "où (localisation sans mouvement)",
+      "example_sentence": "Wo wohnen Sie?",
+      "example_phonetic": "/voː ˈvoːnen ziː/",
+      "example_translation": "Où habitez-vous ?"
+    },
+    {
+      "word_id": "v10",
+      "term": "woher",
+      "phonetic_api": "/voˈheːɐ̯/",
+      "phonetic_simple": "VOO-HEER",
+      "translation": "d'où (provenance)",
+      "example_sentence": "Woher kommen Sie?",
+      "example_phonetic": "/voˈheːɐ̯ ˈkɔmən ziː/",
+      "example_translation": "D'où venez-vous ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Wie heißen Sie?",
+      "phonetic_api": "/viː ˈhaɪ̯sn̩ ziː/",
+      "phonetic_simple": "VII HAI-SEN ZII",
+      "translation": "Comment vous appelez-vous ?",
+      "context": "Formule officielle / Cadre formel."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Wie heißt du?",
+      "phonetic_api": "/viː haɪ̯st duː/",
+      "phonetic_simple": "VII HAIST DOU",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Cadre informel / Entre jeunes ou collègues."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Mein Name ist Sarah Schmidt.",
+      "phonetic_api": "/maɪ̯n ˈnaːmə ɪst ˈzaːʁaː ʃmɪt/",
+      "phonetic_simple": "MAIN NA-ME IST ZA-RA CHMIT",
+      "translation": "Mon nom est Sarah Schmidt.",
+      "context": "Alternative courante pour se présenter."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Wie alt sind Sie?",
+      "phonetic_api": "/viː alt zɪnt ziː/",
+      "phonetic_simple": "VII ALT ZINT ZII",
+      "translation": "Quel âge avez-vous ?",
+      "context": "Question formelle sur l'âge."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Ich komme aus der Schweiz.",
+      "phonetic_api": "/ɪç ˈkɔmə aʊ̯s deːɐ̯ ʃvaɪ̯ts/",
+      "phonetic_simple": "ICH KO-ME AOFS DEER CHVAITS",
+      "translation": "Je viens de Suisse.",
+      "context": "Cas particulier d'un pays avec article féminin."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Was machen Sie beruflich?",
+      "phonetic_api": "/vas ˈmaxn̩ ziː bəˈʁuːflɪç/",
+      "phonetic_simple": "VAS MAK-EN ZII BE-ROUF-LICH",
+      "translation": "Que faites-vous dans la vie ?",
+      "context": "Question formelle standard sur la profession."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Ich bin Lehrer von Beruf.",
+      "phonetic_api": "/ɪç bɪn ˈleːʁɐ fɔn bəˈʁuːf/",
+      "phonetic_simple": "ICH BIN LEE-RER FON BE-ROUF",
+      "translation": "Je suis enseignant de métier.",
+      "context": "Structure classique pour indiquer sa profession."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Freut mich!",
+      "phonetic_api": "/fʁɔɪ̯t mɪç/",
+      "phonetic_simple": "FROIT MICH",
+      "translation": "Ravi(e) ! / Enchanté(e) !",
+      "context": "Réponse courte après que quelqu'un s'est présenté."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le présent des verbes réguliers et du verbe être (sein)",
+      "explanation": "En allemand, les verbes se conjuguent en ajoutant des terminaisons spécifiques au radical du verbe (obtenu en enlevant le '-en' de l'infinitif). Le verbe 'sein' (être) est totalement irrégulier et indispensable pour exprimer l'âge ou le statut.",
+      "rules": [
+        "Terminaisons régulières au présent : ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en.",
+        "Le verbe 'heißen' dont le radical se termine par un son sifflant (-ß) prend seulement un '-t' à la deuxième personne du singulier (du heißt) au lieu de '-st'.",
+        "Conjugaison de 'sein' (être) au singulier : ich bin (je suis), du bist (tu es), er/sie/es ist (il/elle est)."
+      ],
+      "examples": [
+        {
+          "structure": "Ich wohne / Du wohnst",
+          "phonetic_api": "/ɪç ˈvoːnə / duː voːnst/",
+          "meaning": "J'habite / Tu habites"
+        },
+        {
+          "structure": "Ich bin zwanzig Jahre alt.",
+          "phonetic_api": "/ɪç bɪn ˈtsvantsɪç ˈjaːʁə alt/",
+          "meaning": "J'ai 20 ans (litt. 'Je suis 20 ans vieux')."
+        }
+      ]
+    },
+    {
+      "concept": "L'absence d'article devant les professions et les structures de provenance",
+      "explanation": "Contrairement au français, l'allemand n'utilise pas d'article indéfini devant les noms de professions ou de nationalités lorsqu'ils suivent les verbes 'sein' ou 'werden'. De plus, la majorité des pays n'ont pas d'article, mais certains font exception.",
+      "rules": [
+        "On dit 'Ich bin Arzt' (Je suis médecin) et non 'Ich bin ein Arzt'.",
+        "Pour le féminin des métiers, on ajoute le suffixe '-in' au nom masculin : der Arzt -> die Ärztin ; der Lehrer -> die Lehrerin.",
+        "La préposition 'aus' est toujours suivie du cas Datif. Pour les rares pays féminins comme la Suisse (die Schweiz) ou la Turquie (die Türkei), l'article devient 'der' : aus der Schweiz."
+      ],
+      "examples": [
+        {
+          "structure": "Ich bin Managerin.",
+          "phonetic_api": "/ɪç bɪn ˈmɛnɪdʒəʁɪn/",
+          "meaning": "Je suis manager (femme)."
+        },
+        {
+          "structure": "Ich komme aus Deutschland.",
+          "phonetic_api": "/ɪç ˈkɔmə aʊ̯s ˈdɔɪ̯tʃlant/",
+          "meaning": "Je viens d'Allemagne (pas d'article)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lucas",
+      "text": "Hallo! Ich heiße Lucas. Und wie heißt du?",
+      "phonetic_api": "/haˈloː ɪç ˈhaɪ̯sə ˈluːkas ʊnt viː haɪ̯st duː/",
+      "phonetic_simple": "HA-LOO ICH HAI-SE LOU-KAS OUNT VII HAIST DOU",
+      "translation": "Salut ! Je m'appelle Lucas. Et toi, comment tu t'appelles ?"
+    },
+    {
+      "speaker": "Elena",
+      "text": "Hallo Lucas! Ich bin Elena. Woher kommst du?",
+      "phonetic_api": "/haˈloː ˈluːkas ɪç bɪn eˈleːna voˈheːɐ̯ kɔmst duː/",
+      "phonetic_simple": "HA-LOO LOU-KAS ICH BIN E-LEE-NA VOO-HEER KOMST DOU",
+      "translation": "Salut Lucas ! Je suis Elena. D'où viens-tu ?"
+    },
+    {
+      "speaker": "Lucas",
+      "text": "Ich komme aus Spanien, aber ich wohne jetzt in Frankfurt. Und du?",
+      "phonetic_api": "/ɪç ˈkɔmə aʊ̯s ˈʃpaːniən ˈaːbɐ ɪç ˈvoːnə jɛtst ɪn ˈfʁaŋkfʊʁt ʊnt duː/",
+      "phonetic_simple": "ICH KO-ME AOFS CHPA-NIEN A-BER ICH VOO-NE YETST IN FRANK-FOURT OUNT DOU",
+      "translation": "Je viens d'Espagne, mais j'habite maintenant à Francfort. Et toi ?"
+    },
+    {
+      "speaker": "Elena",
+      "text": "Ich komme aus Italien. Ich bin einundzwanzig Jahre alt und studiere hier. Was bist du von Beruf?",
+      "phonetic_api": "/ɪç ˈkɔmə aʊ̯s iˈtaːliən ɪç bɪn ˈaɪ̯nʊntˌtsvantsɪç ˈjaːʁə alt ʊnt ʃtuˈdiːʁə hiːɐ̯ vas bɪst duː fɔn bəˈʁuːf/",
+      "phonetic_simple": "ICH KO-ME AOFS I-TA-LIEN ICH BIN AIN-OUND-TSVANTSICH YA-RE ALT OUNT CH-TOU-DII-RE HIIR VAS BIST DOU FON BE-ROUF",
+      "translation": "Je viens d'Italie. J'ai 21 ans et j'étudie ici. Quel est ton métier ?"
+    },
+    {
+      "speaker": "Lucas",
+      "text": "Ich arbeite als Programmierer bei einer Softwarefirma. Es freut mich, dich kennenzulernen!",
+      "phonetic_api": "/ɪç ˈaʁbaɪ̯tə als pʁoɡʁaˈmiːʁɐ baɪ̯ ˈaɪ̯nɐ ˈzɔftvɛːɐ̯ˌfɪʁma ɛs fʁɔɪ̯t mɪç dɪç ˈkɛnəntsuːˌlɛʁnən/",
+      "phonetic_simple": "ICH AR-BAI-TE ALS PRO-GRA-MII-RER BAI AI-NER SOFT-VEER-FIR-MA ES FROIT MICH DICH KEN-NEN-TSOU-LER-NEN",
+      "translation": "Je travaille en tant que programmeur dans une entreprise de logiciels. Ravi de te rencontrer !"
+    }
+  ],
+  "cultural_notes": [
+    "En Allemagne, lorsque l'on vous demande votre profession ('Was machen Sie beruflich?'), il est très courant de répondre de manière précise et directe. Le travail et le statut professionnel sont des éléments importants de l'identité sociale et ne sont pas considérés comme des sujets tabous.",
+    "Formulation de l'âge : Les Allemands n'utilisent jamais le verbe avoir ('haben') pour donner l'âge, mais le verbe être ('sein'). Dire 'Ich habe 30 Jahre' est une erreur de traduction littérale très fréquente chez les francophones et n'a aucun sens en allemand.",
+    "Les pronoms interrogatifs commençant par la lettre -W- ('wer', 'wie', 'wo', 'woher') sont appelés 'W-Fragen'. Ils exigent toujours que le verbe conjugué se place en deuxième position dans la phrase."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on correctement 'J'ai 25 ans' en allemand ?",
+      "options": [
+        "Ich habe fünfundzwanzig Jahre alt.",
+        "Ich bin fünfundzwanzig Jahre alt.",
+        "Ich heiße fünfundzwanzig Jahre."
+      ],
+      "correct_answer": "Ich bin fünfundzwanzig Jahre alt.",
+      "explanation": "En allemand, on utilise le verbe 'sein' (être) combiné avec l'adjectif 'alt' (âgé) pour exprimer l'âge."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Woher [ ___ ] du, Marco?",
+      "correct_answer": "kommst",
+      "hint": "Forme conjuguée du verbe 'kommen' à la deuxième personne du singulier (du)."
+    }
+  ]
+}

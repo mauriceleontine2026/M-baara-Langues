@@ -1,0 +1,134 @@
+{
+  "lesson_id": "B1_M1_L3",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 3,
+  "title": "Exprimer ses goûts, ses préférences et ses sentiments",
+  "learning_objectives": [
+    "Formuler une appréciation nuancée sur une situation ou un choix",
+    "Exprimer la joie, la tristesse ou l'insatisfaction en Baga",
+    "Utiliser des adverbes d'intensité pour marquer ses sentiments"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression du cœur, 'sɔ́ɔ̀ŋ' (siège des émotions), utilise une voyelle longue à modulation descendante. L'accent doit bien marquer l'attaque haute avant de s'adoucir.",
+    "common_pitfalls": "Attention à ne pas confondre 'sɔ́ɔ̀ŋ' (le cœur) avec 'sɔ́ŋ' (le prix). La longueur de la voyelle fait la distinction sémantique."
+  },
+  "vocabulary": [
+    {
+      "word_id": "b212",
+      "term": "sɔ́ɔ̀ŋ",
+      "phonetic_api": "/sɔ́ːŋ/",
+      "phonetic_simple": "SOON",
+      "translation": "cœur / siège des sentiments / esprit",
+      "example_sentence": "N sɔ́ɔ̀ŋ mu ɲí di",
+      "example_phonetic": "/ⁿsɔ́ːŋ mu ɲí di/",
+      "example_translation": "Mon cœur est bon (Je suis heureux)"
+    },
+    {
+      "word_id": "b213",
+      "term": "gbɛ́ɛ̀-lɔ̀",
+      "phonetic_api": "/gɓɛ́ː lɔ̀/",
+      "phonetic_simple": "GBÉÉ-LO",
+      "translation": "colère / irritation / amertume",
+      "example_sentence": "Gbɛ́ɛ̀-lɔ̀ mu a fɛ̀ɛ̀",
+      "example_phonetic": "/gɓɛ́ː lɔ̀ mu a fɛ̀ː/",
+      "example_translation": "Il est en colère"
+    },
+    {
+      "word_id": "b214",
+      "term": "lɔ̀",
+      "phonetic_api": "/lɔ̀/",
+      "phonetic_simple": "LO",
+      "translation": "aimer / apprécier / préférer",
+      "example_sentence": "Ní a lɔ̀ táàn",
+      "example_phonetic": "/ní a lɔ̀ taːn/",
+      "example_translation": "Je l'aime énormément"
+    },
+    {
+      "word_id": "b215",
+      "term": "seì",
+      "phonetic_api": "/seːi/",
+      "phonetic_simple": "SÉI",
+      "translation": "détester / rejeter / refuser",
+      "example_sentence": "Mə̀ kúu tɛ̀ɛ̀ seì",
+      "example_phonetic": "/mə̀ kúː tɛ̀ː seːi/",
+      "example_translation": "Je déteste les disputes"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "bp205",
+      "original": "N sɔ́ɔ̀ŋ mu ɲí di i lɔ̀ ka !",
+      "phonetic_api": "/ⁿsɔ́ːŋ mu ɲí di i lɔ̀ ka/",
+      "phonetic_simple": "N SOON MOO NYI DI I LO KA !",
+      "translation": "Mon cœur est heureux de te voir !",
+      "context": "Exprimer sa joie lors de retrouvailles ou d'une visite amicale"
+    },
+    {
+      "phrase_id": "bp206",
+      "original": "Gbɛ́ɛ̀-lɔ̀ mán bɛ̀ n fɛ̀ɛ̀ ya-njɔ̀ɔ̀",
+      "phonetic_api": "/gɓɛ́ː lɔ̀ mán ɓɛ̀ ⁿfɛ̀ː ja ⁿd͡ʒɔ̀ː/",
+      "phonetic_simple": "GBÉÉ-LO MAN BÈ N FÈÈ YA-N-DJOO",
+      "translation": "Je ne suis pas du tout en colère aujourd'hui.",
+      "context": "Apaiser un quiproquo ou rassurer un interlocuteur"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La métaphore de l'état émotionnel interne : N sɔ́ɔ̀ŋ mu ɲí",
+      "explanation": "En langue Baga, les sentiments affectifs ne se traduisent pas par des adjectifs abstraits isolés. On qualifie l'état de l'organe pivot 'sɔ́ɔ̀ŋ' (le cœur) par un attribut de valeur comme 'ɲí' (bon) pour exprimer la joie, ou on associe l'amertume de manière externe via 'fɛ̀ɛ̀' (avec).",
+      "rules": [
+        "Joie / Contentement = [Pronom possessif] + sɔ́ɔ̀ŋ + mu + ɲí + di.",
+        "Colère / Tristesse = Sentiment + mu + [Pronom objet] + fɛ̀ɛ̀."
+      ],
+      "examples": [
+        {
+          "structure": "Gbɛ́ɛ̀-lɔ̀ (Colère) + mu + n (moi) + fɛ̀ɛ̀ (avec)",
+          "phonetic_api": "/gɓɛ́ː lɔ̀ mu ⁿfɛ̀ː/",
+          "meaning": "Je suis en colère (La colère est avec moi)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "Temba, i kɛ̀ɛ̀ mu mí fɛ̀ɛ̀ ? I ɲíɛ̀ mán bɛ̀ kpu.",
+      "phonetic_api": "/tɛmɓa i kɛ̀ː mu mí fɛ̀ː i ɲíɛ̀ mán ɓɛ̀ kpu/",
+      "phonetic_simple": "TEM-BA, I KÈÈ MOO MII FÈÈ ? I NYII-È MAN BÈ KPU.",
+      "translation": "Temba, qu'est-ce qui t'arrive ? Ton visage n'est pas très rayonnant."
+    },
+    {
+      "speaker": "Temba",
+      "text": "Gbɛ́ɛ̀-lɔ̀ mu n fɛ̀ɛ̀ gba. N tɔ́ŋ-mɔ̀ɔ̀ mán bɔ̀ bhea kúnù.",
+      "phonetic_api": "/gɓɛ́ː lɔ̀ mu ⁿfɛ̀ː gba ⁿtɔ́ŋ mɔ̀ː mán ɓɔ̀ ɓea kúnù/",
+      "phonetic_simple": "GBÉÉ-LO MOO N FÈÈ GBA. N TON-MOO MAN BO BHE-A KOO-NOO.",
+      "translation": "La colère est avec moi. Mon camarade ne s'est pas bien comporté hier."
+    }
+  ],
+  "cultural_notes": [
+    "Dans le code social Baga, la retenue et le contrôle de soi sont des vertus hautement valorisées. Extérioriser bruyamment sa frustration en public est désapprouvé, on privilégie l'échange calme ou l'arbitrage discret d'un pair ('tɔ́ŋ-mɔ̀ɔ̀')."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M1_L3_ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie la phrase 'N sɔ́ɔ̀ŋ mu ɲí di' ?",
+      "options": [
+        "J'ai faim",
+        "Je suis heureux / Mon cœur est bon",
+        "Je suis fatigué"
+      ],
+      "correct_answer": "Je suis heureux / Mon cœur est bon",
+      "explanation": "C'est la métaphore de base pour formuler la joie ou la satisfaction morale."
+    },
+    {
+      "exercise_id": "B1_M1_L3_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ]-lɔ̀ mu a fɛ̀ɛ̀ (Il est en colère).",
+      "correct_answer": "Gbɛ́ɛ̀",
+      "hint": "Mot de 5 lettres avec un accent aigu sur la première syllabe longue"
+    }
+  ]
+}

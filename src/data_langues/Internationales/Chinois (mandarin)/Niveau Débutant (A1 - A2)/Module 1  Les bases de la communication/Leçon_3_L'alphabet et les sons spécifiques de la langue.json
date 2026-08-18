@@ -1,0 +1,246 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet (Pinyin) et les sons spécifiques de la langue en chinois mandarin",
+  "learning_objectives": [
+    "Comprendre l'organisation du système phonétique Pinyin (initiales, finales et tons)",
+    "Maîtriser la prononciation des consonnes spécifiques aspirées, rétroflexes et palatales",
+    "Identifier visuellement et reproduire vocalement les quatre tons et le ton neutre"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le Pinyin n'est pas un alphabet au sens occidental, mais un système de romanisation phonétique. Une syllabe mandarin se compose presque toujours d'une initiale (consonne) et d'une finale (voyelle simple ou complexe), couronnées par un signe diacritique tonal. Cette leçon se focalise sur les trois séries de consonnes complexes : les palatales (j, q, x), les rétroflexes (zh, ch, sh, r) et les sifflantes alvéolaires (z, c, s).",
+    "common_pitfalls": "L'erreur la plus destructrice consiste à lire le Pinyin comme du français. La lettre 'c' se prononce /tsʰ/ (un son 'ts' suivi d'une forte expulsion d'air, comme dans 'tsunami' accentué). La lettre 'q' se prononce /tɕʰ/ (un 'tch' aspiré, la langue positionnée tout en bas derrière les incisives inférieures). Ne confondez jamais une consonne non aspirée (b, d, g, j, zh, z) avec sa contrepartie strictement aspirée (p, t, k, q, ch, c). L'aspiration est un flux d'air puissant expulsé de la bouche qui change radicalement le sens du mot."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "拼音",
+      "phonetic_api": "/pʰin˥ iŋ˥/",
+      "phonetic_simple": "PHIN-ING",
+      "translation": "Pinyin (Système de transcription phonétique)",
+      "example_sentence": "汉语拼音不难学。",
+      "example_phonetic": "/xanh˥˩ y˨˩˦ pʰin˥ iŋ˥ bu˥˩ nan˧˥ ɕy̯ɛ˧˥/",
+      "example_translation": "Le Pinyin de la langue chinoise n'est pas difficile à apprendre."
+    },
+    {
+      "word_id": "v2",
+      "term": "声调",
+      "phonetic_api": "/ʂəŋ˥ ti̯aʊ̯˥˩/",
+      "phonetic_simple": "CHENG-TIAO",
+      "translation": "Ton / Intonation",
+      "example_sentence": "你的声调很准确。",
+      "example_phonetic": "/ni˨˩˦ dɤ ʂəŋ˥ ti̯aʊ̯˥˩ xən˨˩˦ tʂwən˨˩˦ tɕʰy̯ɛ˥˩/",
+      "example_translation": "Tes tons sont très précis."
+    },
+    {
+      "word_id": "v3",
+      "term": "字",
+      "phonetic_api": "/tsʐ̩˥˩/",
+      "phonetic_simple": "DZEU",
+      "translation": "Caractère / Sinogramme / Mot",
+      "example_sentence": "这个汉字怎么写？",
+      "example_phonetic": "/tʂɤ˥˩ kɤ xan˥˩ tsʐ̩˥˩ tsən˨˩˦ mɤ ɕi̯ɛ˨˩˦/",
+      "example_translation": "Comment s'écrit ce caractère chinois ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "读",
+      "phonetic_api": "/tu˧˥/",
+      "phonetic_simple": "DOU",
+      "translation": "Lire (à haute voix) / Prononcer",
+      "example_sentence": "请跟我读这个词。",
+      "example_phonetic": "/tɕʰiŋ˨˩˦ kən˥ wo˨˩˦ tu˧˥ tʂɤ˥˩ kɤ tsʰu˧˥/",
+      "example_translation": "S'il vous plaît, lisez ce mot après moi."
+    },
+    {
+      "word_id": "v5",
+      "term": "听",
+      "phonetic_api": "/tʰiŋ˥/",
+      "phonetic_simple": "THING",
+      "translation": "Écouter / Entendre",
+      "example_sentence": "你听，这是第一声。",
+      "example_phonetic": "/ni˨˩˦ tʰiŋ˥ tʂʐ̩˥˩ ʂʐʐ˥˩ ti˥˩ i˥ ʂəŋ˥/",
+      "example_translation": "Écoute, c'est le premier ton."
+    },
+    {
+      "word_id": "v6",
+      "term": "错",
+      "phonetic_api": "/tsʰwɔ˥˩/",
+      "phonetic_simple": "TSOUO",
+      "translation": "Faux / Erreur / Se tromper",
+      "example_sentence": "没错，你读对了。",
+      "example_phonetic": "/meɪ̯˧˥ tsʰwɔ˥˩ ni˨˩˦ tu˥˩ twei̯˥˩ lɤ/",
+      "example_translation": "Exact, tu as bien prononcé."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "第一声",
+      "phonetic_api": "/ti˥˩ i˥ ʂəŋ˥/",
+      "phonetic_simple": "TEE EE CHENG",
+      "translation": "Le premier ton (haut et plat)",
+      "context": "Utilisé en classe de langue pour désigner l'intonation comme celle de 'mā'"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "第二声",
+      "phonetic_api": "/ti˥˩ ɤr˥˩ ʂəŋ˥/",
+      "phonetic_simple": "TEE ER CHENG",
+      "translation": "Le deuxième ton (montant)",
+      "context": "Désigne l'intonation montante de type questionnement court comme 'má'"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "第三声",
+      "phonetic_api": "/ti˥˩ san˥ ʂəŋ˥/",
+      "phonetic_simple": "TEE SAN CHENG",
+      "translation": "Le troisième ton (descendant-montant)",
+      "context": "Désigne l'intonation creuse et basse comme 'mǎ'"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "第四声",
+      "phonetic_api": "/ti˥˩ sʐ̩˥˩ ʂəŋ˥/",
+      "phonetic_simple": "TEE SEU CHENG",
+      "translation": "Le quatrième ton (descendant sec)",
+      "context": "Désigne l'intonation abrupte et descendante comme 'mà'"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "轻声",
+      "phonetic_api": "/tɕʰiŋ˥ ʂəŋ˥/",
+      "phonetic_simple": "TCHING CHENG",
+      "translation": "Le ton neutre (léger et court)",
+      "context": "Désigne l'absence de ton diacritique, comme le deuxième 'ba' dans 'bàba'"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "请再说一遍。",
+      "phonetic_api": "/tɕʰiŋ˨˩˦ tsaɪ̯˥˩ ʂwɔ˥ i˥˩ pi̯ɛn˥˩/",
+      "phonetic_simple": "TCHING DZAÏ DOUO EE PIEN",
+      "translation": "S'il vous plaît, répétez encore une fois.",
+      "context": "Formule indispensable pour demander à l'interlocuteur de répéter un mot mal compris"
+    },
+    {
+      "phrase_id": "p7",
+      "original": "这个怎么读？",
+      "phonetic_api": "/tʂɤ˥˩ kɤ tsən˨˩˦ mɤ tu˧˥/",
+      "phonetic_simple": "TCHEU-GEU DZEN-MEU DOU",
+      "translation": "Comment cela se prononce-t-il ?",
+      "context": "Pointer un sinogramme ou un texte en Pinyin pour demander de l'aide phonétique"
+    },
+    {
+      "phrase_id": "p8",
+      "original": "我听不懂。",
+      "phonetic_api": "/wo˨˩˦ tʰiŋ˥ bu dʊŋ˨˩˦/",
+      "phonetic_simple": "OUO THING BOU DONG",
+      "translation": "Je ne comprends pas à l'audition.",
+      "context": "Indiquer clairement à votre interlocuteur que sa vitesse ou ses mots dépassent votre niveau"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure stricte de la syllabe en Pinyin",
+      "explanation": "Toute unité phonétique minimale en mandarin s'articule autour d'une architecture fixe. Contrairement au français, les combinaisons ne sont pas infinies : il n'existe qu'environ 400 syllabes de base qui, multipliées par les tons, forment la langue.",
+      "rules": [
+        "Initiale (facultative) : C'est la consonne d'attaque (ex: 'm' dans mā, 'zh' dans zhōng). Il y a 21 initiales officielles.",
+        "Finale (obligatoire) : C'veut dire le corps vocalique. Elle peut être simple (a, o, e, i, u, ü), composée (ai, ou, ian) ou nasale (ang, eng, ong).",
+        "Le Ton (obligatoire) : Le symbole graphique se positionne toujours sur la voyelle principale selon l'ordre prioritaire : a, o, e, i, u, ü."
+      ],
+      "examples": [
+        {
+          "structure": "h + ao + [3ème ton] = hǎo (好)",
+          "phonetic_api": "/xaʊ̯˨˩˦/",
+          "meaning": "Initiale 'h', finale 'ao', ton descendant-montant."
+        }
+      ]
+    },
+    {
+      "concept": "Le Sandhi Tonal particulier du négatif 不 (bù)",
+      "explanation": "L'adverbe de négation '不' possède un ton d'origine fixe au 4ème ton (bù). Cependant, sa prononciation subit une modification de ton contextuelle impérative à l'oral pour des raisons d'euphonie.",
+      "rules": [
+        "Règle 1 : Devant un 1er, 2ème ou 3ème ton, 不 conserve strictement son 4ème ton d'origine : 'bù'.",
+        "Règle 2 : Devant un autre caractère au 4ème ton, 不 se transforme instantanément et obligatoirement en 2ème ton montant : 'bú'."
+      ],
+      "examples": [
+        {
+          "structure": "不 (bù) + 是 (shì, 4ème ton) ➔ 不是",
+          "phonetic_api": "/bu˧˥ ʂʐʐ˥˩/",
+          "meaning": "Prononcé [bú shì] à l'oral (S'écrit 'bú shì' en Pinyin moderne)."
+        },
+        {
+          "structure": "不 (bù) + 忙 (máng, 2ème ton) ➔ 不忙",
+          "phonetic_api": "/bu˥˩ maŋ˧˥/",
+          "meaning": "Prononcé [bù máng] sans aucune modification tonale."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "王老师 (Professeur Wang)",
+      "text": "同学们，请听我读：chī fàn (吃饭)。",
+      "phonetic_api": "/tʰʊŋ˧˥ ɕy̯ɛ˧˥ mən tɕʰiŋ˨˩˦ tʰiŋ˥ wo˨˩˦ tu˧˥ tʂʰʐ̩˥ fan˥˩/",
+      "phonetic_simple": "THONG-CHOUÉ-MEN, TCHING THING OUO DOU : TCHE FAN.",
+      "translation": "Chers étudiants, s'il vous plaît écoutez-moi prononcer : chī fàn (manger)."
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "老师，请问 'ch' 和 'c' 的发音一样吗？",
+      "phonetic_api": "/laʊ̯˨˩˦ ʂʐʐ˥ tɕʰiŋ˨˩˦ wen˥˩ xɤ fa˥ iŋ˥ i˥ jaŋ˥˩ ma/",
+      "phonetic_simple": "LAO-CHEI, TCHING-OUEN 'CH' HEU 'C' DEU FA-ING EE-YANG MA ?",
+      "translation": "Professeur, s'il vous plaît, est-ce que la prononciation de 'ch' et 'c' est la même ?"
+    },
+    {
+      "speaker": "王老师 (Professeur Wang)",
+      "text": "不一样。'ch' 是 retroflexe，舌头往后卷；'c' 是 alvéolaire，舌头往前放。听：chī, cī.",
+      "phonetic_api": "/bu˥˩ i˥ jaŋ˥˩ ʂʐʐ˥˩ ʂe˨˩˦ tʰoʊ̯˧˥ waŋ˨˩˦ xoʊ̯˥˩ tɕɥ̯ɛn˨˩˦ ʂe˨˩˦ tʰoʊ̯˧˥ waŋ˧˥ tɕʰi̯ɛn˧˥ faŋ˥˩ tʰiŋ/",
+      "phonetic_simple": "BOU EE-YANG. 'CH' CHEI RETROFLEXE, CHEU-THOUOU OUANG HOUOU DJOUEN ; 'C' CHEI ALVÉOLAIRE, CHEU-THOUOU OUANG THIEN FANG. THING : TCHE, TSE.",
+      "translation": "Non, c'est différent. 'ch' est une rétroflexe, la langue s'enroule vers l'arrière ; 'c' est une alvéolaire, la langue se place vers l'avant. Écoutez : chī, cī."
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "哦！我明白了。这个词我读错了吗？",
+      "phonetic_api": "/ɔ˨˩˦ wo˨˩˦ miŋ˧˥ xwaɪ̯ lɤ tʂɤ˥˩ kɤ tsʰu˧˥ wo˨˩˦ tu˧˥ tsʰwɔ˥˩ lɤ ma/",
+      "phonetic_simple": "O ! OUO MING-BAÏ LEU. TCHEU-GEU TSEU OUO DOU TSOUO LEU MA ?",
+      "translation": "Oh ! J'ai compris. Est-ce que je me suis trompé dans la prononciation de ce mot ?"
+    },
+    {
+      "speaker": "王老师 (Professeur Wang)",
+      "text": "没关系，声调对，发音还要多练。明天见！",
+      "phonetic_api": "/meɪ̯˧˥ kwan˥ ɕi ʂəŋ˥ ti̯aʊ̯˥˩ twei̯˥˩ fa˥ iŋ˥ xaɪ̯˧˥ jaʊ̯˥˩ dwɔ˥ li̯an˥˩ miŋ˧˥ tʰi̯ɛn˥ tɕi̯ɛn˥˩/",
+      "phonetic_simple": "MEI-GOUAN-CHEE, CHENG-TIAO DOUEI, FA-ING HAÏ YAO DOUO LIEN. MING-THIEN TCHIEN !",
+      "translation": "Ce n'est pas grave, le ton est correct, mais il faut encore pratiquer la prononciation. À demain !"
+    }
+  ],
+  "cultural_notes": [
+    "Le système Pinyin a été approuvé officiellement en 1958 par le gouvernement chinois pour alphabétiser la population et faciliter la saisie informatique. Ce n'est pas une langue distincte, mais un outil d'apprentissage indispensable. Ne le considérez jamais comme une béquille définitive : la maîtrise des sinogrammes reste l'étape finale d'apprentissage.",
+    "Les tons portent l'entière identité sémantique du mandarin. Par exemple, la syllabe 'ma' prononcée au 1er ton (mā) signifie 'mère', au 3ème ton (mǎ) signifie 'cheval', et au 4ème ton (mà) signifie 'insulter'. Une erreur de ton peut donc créer de sérieux malentendus ou générer des quiproquos comiques.",
+    "Le ton neutre ('轻声' qīngshēng) est typique du dialecte de Pékin sur lequel se base le mandarin standard. Il apporte une musicalité naturelle et fluide en assourdissant la deuxième syllabe des termes redoublés liés à la parenté (ex: 妈妈 māma, 爸爸 bàba, 爷爷 yéye)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle modification phonétique obligatoire subit le mot de négation '不' (bù) lorsqu'il est placé directement devant le mot '错' (cuò, 4ème ton) ?",
+      "options": [
+        "Il reste inchangé au 4ème ton : bù cuò",
+        "Il se transforme au 2ème ton montant : bú cuò",
+        "Il perd son ton et devient neutre : bu cuò"
+      ],
+      "correct_answer": "Il se transforme au 2ème ton montant : bú cuò",
+      "explanation": "Selon la règle du sandhi tonal du mot 不, lorsque celui-ci précède un autre mot porteur d'un 4ème ton descendant, il bascule impérativement au 2ème ton pour éviter un enchaînement saccadé."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "La syllabe Pinyin 'qīng' comporte l'initiale 'q', qui se prononce comme une consonne palatale [ ___ ] (avec ou sans ?) expulsion d'air puissante.",
+      "correct_answer": "avec",
+      "hint": "La consonne 'q' appartient à la catégorie des initiales affriquées aspirées."
+    }
+  ]
+}

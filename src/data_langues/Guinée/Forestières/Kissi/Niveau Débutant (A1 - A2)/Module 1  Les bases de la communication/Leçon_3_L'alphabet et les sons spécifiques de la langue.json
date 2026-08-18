@@ -1,0 +1,167 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Identifier l'alphabet officiel de la langue kissi",
+    "Prononcer correctement les consonnes complexes et les digrammes",
+    "Reconnaître l'impact des tons sur le sens des mots usuels"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le kissi utilise des digrammes spécifiques comme 'gb' et 'kp' qui sont des consonnes co-articulées vélo-labiales (prononcées en un seul bloc mécanique pulmonaire). Le son /ɲ/ (ny) et le /ŋ/ (ng) complètent le système consonantique.",
+    "common_pitfalls": "N'essayez pas de décomposer 'kp' en prononçant un 'k' puis un 'p'. Le blocage de l'air doit se faire simultanément au fond de la gorge et au niveau des lèvres pour restituer le son authentique."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v3_1",
+      "term": "kpou",
+      "phonetic_api": "/k͡pu/",
+      "phonetic_simple": "KPOU",
+      "translation": "tout / complètement / bien",
+      "example_sentence": "O co kpou.",
+      "example_phonetic": "/o tʃo k͡pu/",
+      "example_translation": "Tout va bien."
+    },
+    {
+      "word_id": "v3_2",
+      "term": "gbɛŋgbɛ",
+      "phonetic_api": "/ɡ͡bɛŋ.ɡ͡bɛ/",
+      "phonetic_simple": "GBENG-GBÉ",
+      "translation": "chaise / banc",
+      "example_sentence": "Co mi gbɛŋgbɛ ni.",
+      "example_phonetic": "/tʃo mi ɡ͡bɛŋ.ɡ͡bɛ ni/",
+      "example_translation": "Donne-moi la chaise."
+    },
+    {
+      "word_id": "v3_3",
+      "term": "nyalɛ",
+      "phonetic_api": "/ɲa.lɛ/",
+      "phonetic_simple": "NYA-LÈ",
+      "translation": "beauté",
+      "example_sentence": "O nɔ nyalɛ.",
+      "example_phonetic": "/o nɔ ɲa.lɛ/",
+      "example_translation": "Elle a de la beauté / Elle est belle."
+    },
+    {
+      "word_id": "v3_4",
+      "term": "ning",
+      "phonetic_api": "/niŋ/",
+      "phonetic_simple": "NING",
+      "translation": "intérieur / dedans",
+      "example_sentence": "O co cando ning.",
+      "example_phonetic": "/o tʃo tʃa.ⁿdo niŋ/",
+      "example_translation": "C'est à l'intérieur de la case."
+    },
+    {
+      "word_id": "v3_5",
+      "term": "mɛŋ",
+      "phonetic_api": "/mɛ̃/",
+      "phonetic_simple": "MENG",
+      "translation": "eau",
+      "example_sentence": "I mɛl mɛŋ.",
+      "example_phonetic": "/i mɛl mɛ̃/",
+      "example_translation": "Je bois de l'eau."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p3_1",
+      "original": "Mɛl mɛŋ kpou.",
+      "phonetic_api": "/mɛl mɛ̃ k͡pu/",
+      "phonetic_simple": "MEL MENG KPOU",
+      "translation": "Bois toute l'eau.",
+      "context": "Ordre / Conseil au quotidien"
+    },
+    {
+      "phrase_id": "p3_2",
+      "original": "Gbɛŋgbɛ o co wa.",
+      "phonetic_api": "/ɡ͡bɛŋ.ɡ͡bɛ o tʃo wa/",
+      "phonetic_simple": "GBENG-GBÉ O TCHO WA",
+      "translation": "La chaise est ici.",
+      "context": "Localiser un objet"
+    },
+    {
+      "phrase_id": "p3_3",
+      "original": "Nyampilɔ nio o co.",
+      "phonetic_api": "/ɲa.mbi.lɔ njo o tʃo/",
+      "phonetic_simple": "NYAM-BI-LO NYO O TCHO",
+      "translation": "C'est ma jeune fille / ma compagne.",
+      "context": "Présentation affective"
+    },
+    {
+      "phrase_id": "p3_4",
+      "original": "I tchie kpou.",
+      "phonetic_api": "/i tʃje k͡pu/",
+      "phonetic_simple": "I TCHI-É KPOU",
+      "translation": "J'ai tout compris.",
+      "context": "Confirmation d'apprentissage"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'harmonie vocalique et nasalisation",
+      "explanation": "Les voyelles en kissi s'accordent souvent au sein d'une même racine de mot pour adopter un degré d'ouverture ou une nasalisation homogène.",
+      "rules": [
+        "Lorsqu'une voyelle est nasale (comme ɛ dans mɛŋ), les suffixes ou mots-outils attachés subissent une légère influence nasale passive.",
+        "Les consonnes co-articulées 'kp' et 'gb' se comportent grammaticalement comme des consonnes uniques simples."
+      ],
+      "examples": [
+        {
+          "structure": "Mot à racine nasale",
+          "phonetic_api": "/mɛ̃/",
+          "meaning": "Eau"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Tamba",
+      "text": "Co mi mɛŋ, maaluon.",
+      "phonetic_api": "/tʃo mi mɛ̃ maː.lu.õ/",
+      "phonetic_simple": "TCHO MI MENG, MAA-LOU-ONN",
+      "translation": "Donne-moi de l'eau, s'il te plaît."
+    },
+    {
+      "speaker": "Sia",
+      "text": "Mɛŋ o co wa. Lɔ gbɛŋgbɛ ndɔ.",
+      "phonetic_api": "/mɛ̃ o tʃo wa lɔ ɡ͡bɛŋ.ɡ͡bɛ ⁿdɔ/",
+      "phonetic_simple": "MENG O TCHO WA. LO GBENG-GBÉ NDO.",
+      "translation": "L'eau est là. Prends aussi la chaise."
+    },
+    {
+      "speaker": "Tamba",
+      "text": "Bale fiaa, Sia.",
+      "phonetic_api": "/ba.le fjaː sja/",
+      "phonetic_simple": "BA-LÉ FIA-A, SIA.",
+      "translation": "Merci beaucoup, Sia."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'orthographe officielle de la langue kissi établie par les académies nationales de langues (notamment en Guinée), les lettres comme 'ɛ' (è ouvert) et 'ɔ' (o ouvert) possèdent des caractères propres pour se distinguer nettement de 'e' et 'o'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex3_1",
+      "type": "multiple_choice",
+      "question": "Quel type de consonne est représenté par le digramme 'kp' ?",
+      "options": [
+        "Une consonne co-articulée vélo-labiale",
+        "Une consonne sifflante",
+        "Une consonne liquide"
+      ],
+      "correct_answer": "Une consonne co-articulée vélo-labiale",
+      "explanation": "'kp' et 'gb' demandent une occlusion simultanée au voile du palais et aux lèvres."
+    },
+    {
+      "exercise_id": "ex3_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] o co wa. (La chaise est là)",
+      "correct_answer": "Gbɛŋgbɛ",
+      "hint": "Mot kissi commençant par le digramme sonore gb"
+    }
+  ]
+}

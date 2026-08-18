@@ -1,0 +1,162 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons",
+  "learning_objectives": [
+    "Nommer les aliments de base et les boissons courantes en Mano",
+    "Demander ou commander de la nourriture au marché ou dans un lieu de restauration",
+    "Exprimer la faim, la soif et la satisfaction après un repas"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le terme pour désigner l'eau ou les liquides (/miː/) nécessite une voyelle longue tendue. Le mot pour le riz ou la nourriture cuite emploie la consonne nasale /m/ combinée à des structures vocaliques brèves à ton moyen.",
+    "common_pitfalls": "Ne confondez pas le mot 'mī' (eau, ton moyen) avec la particule interrogative de lieu 'mī' (où). Le contexte syntaxique et la légère inflexion de fin de phrase aident à les différencier."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v8_1",
+      "term": "mī",
+      "phonetic_api": "/miː˧/",
+      "phonetic_simple": "MEE",
+      "translation": "Eau / Boisson",
+      "example_sentence": "ń mī mĩ.",
+      "example_phonetic": "/ń miː˧ mĩ˧/",
+      "example_translation": "Je bois de l'eau."
+    },
+    {
+      "word_id": "v8_2",
+      "term": "mɛ̃",
+      "phonetic_api": "/mɛ̃˧/",
+      "phonetic_simple": "MENG",
+      "translation": "Riz (cuit) / Nourriture",
+      "example_sentence": "ń mɛ̃ mi.",
+      "example_phonetic": "/ń mɛ̃˧ mi˧/",
+      "example_translation": "Je mange du riz."
+    },
+    {
+      "word_id": "v8_3",
+      "term": "zɔ̀",
+      "phonetic_api": "/zɔ˩/",
+      "phonetic_simple": "ZOR",
+      "translation": "Viande / Poisson",
+      "example_sentence": "zɔ̀ dōo",
+      "example_phonetic": "/zɔ˩ doː˧/",
+      "example_translation": "Un morceau de viande"
+    },
+    {
+      "word_id": "v8_4",
+      "term": "wulú",
+      "phonetic_api": "/wu˦lu˦/",
+      "phonetic_simple": "OU-LOU",
+      "translation": "Huile / Matière grasse",
+      "example_sentence": "wulú mɛ ɓɛ.",
+      "example_phonetic": "/wu˦lu˦ mɛ˧ ɓɛ˧/",
+      "example_translation": "Mets de l'huile ici."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p8_1",
+      "original": "Kɔ̀nɔ̀ ɓe ń la.",
+      "phonetic_api": "/kɔ˩nɔ˩ ɓe˧ ń la˧/",
+      "phonetic_simple": "KOR-NOR BÉ N LA",
+      "translation": "J'ai faim.",
+      "context": "Exprimer un besoin physique de manger."
+    },
+    {
+      "phrase_id": "p8_2",
+      "original": "Mī gba ɓe ń la.",
+      "phonetic_api": "/miː˧ ɡba˧ ɓe˧ ń la˧/",
+      "phonetic_simple": "MEE GBA BÉ N LA",
+      "translation": "J'ai soif (Littéralement : L'envie d'eau est sur moi).",
+      "context": "Exprimer le besoin de boire."
+    },
+    {
+      "phrase_id": "p8_3",
+      "original": "Mī ya ń la.",
+      "phonetic_api": "/miː˧ ja˧ ń la˧/",
+      "phonetic_simple": "MEE YAH N LA",
+      "translation": "Donne-moi de l'eau.",
+      "context": "Formule pour réclamer à boire."
+    },
+    {
+      "phrase_id": "p8_4",
+      "original": "Ń vɔ̃ɔ lē sēe.",
+      "phonetic_api": "/ń vɔ̃ː˧ leː˧ seː˧˧/",
+      "phonetic_simple": "N VONG-OR LÉ SÉÉ",
+      "translation": "Je suis rassasié / C'était très bon.",
+      "context": "Remercier ou exprimer sa satisfaction après le repas."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la nécessité corporelle ('ɓe ń la')",
+      "explanation": "En Mano, la faim, la soif ou la fatigue ne se traduisent pas par le verbe 'avoir', mais par une structure locative : [Le besoin substantivé] + ɓe (est) + [Pronom possessif + la (sur moi/avec moi)].",
+      "rules": [
+        "Structure : [Besoin] + ɓe + ń (moi) + la (sur).",
+        "Pour une autre personne, remplacez le pronom personnel 'ń' par 'í' (toi) ou 'à' (lui/elle)."
+      ],
+      "examples": [
+        {
+          "structure": "Kɔ̀nɔ̀ ɓe ń la.",
+          "phonetic_api": "/kɔ˩nɔ˩ ɓe˧ ń la˧/",
+          "meaning": "J'ai faim (La faim est sur moi)."
+        },
+        {
+          "structure": "Kɔ̀nɔ̀ ɓe í la ?",
+          "phonetic_api": "/kɔ˩nɔ˩ ɓe˧ i˦ la˧/",
+          "meaning": "As-tu faim ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Hôte",
+      "text": "Í nɛ̃ɛ vɔ ? Kɔ̀nɔ̀ ɓe í la ?",
+      "phonetic_api": "/i˦ nɛ̃ː˧ vɔ˧ kɔ˩nɔ˩ ɓe˧ i˦ la˧/",
+      "phonetic_simple": "EE NÈÈ VOR ? KOR-NOR BÉ EE LA ?",
+      "translation": "Bonjour ! As-tu faim ?"
+    },
+    {
+      "speaker": "Invité",
+      "text": "Ao, kɔ̀nɔ̀ ɓe ń la. Mī ya ń la baika.",
+      "phonetic_api": "/ao̯˧ kɔ˩nɔ˩ ɓe˧ ń la˧ miː˧ ja˧ ń la˧ bai̯˧ka˧/",
+      "phonetic_simple": "A-O, KOR-NOR BÉ N LA. MEE YAH N LA BAÏ-KAH.",
+      "translation": "Oui, j'ai faim. Donne-moi de l'eau s'il te plaît."
+    },
+    {
+      "speaker": "Hôte",
+      "text": "Mɛ̃ ɓe ɓɛ, mi !",
+      "phonetic_api": "/mɛ̃˧ ɓe˧ ɓɛ˧ mi˧/",
+      "phonetic_simple": "MENG BÉ BÈ, MEE !",
+      "translation": "Voici le riz, mange !"
+    }
+  ],
+  "cultural_notes": [
+    "En Guinée forestière, le riz blanc servi avec une sauce (souvent à base de feuilles de patate, de manioc ou de graines de palme) constitue la base absolue de l'alimentation quotidienne. Partager son repas est une valeur d'hospitalité cardinale : refuser une offre de nourriture sans goûter au moins une bouchée peut être perçu comme un rejet de l'amitié de la famille qui vous reçoit."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex8_1",
+      "type": "multiple_choice",
+      "question": "Que signifie littéralement l'expression 'Mī gba ɓe ń la' ?",
+      "options": [
+        "L'eau est chaude",
+        "J'ai soif",
+        "Je veux cuisiner"
+      ],
+      "correct_answer": "J'ai soif",
+      "explanation": "Cette formulation traditionnelle attribue la sensation de soif à l'appel de l'eau sur le corps."
+    },
+    {
+      "exercise_id": "ex8_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour inviter quelqu'un à manger le riz présent devant lui, on dit : Mɛ̃ ɓe ɓɛ, [ ___ ] !",
+      "correct_answer": "mi",
+      "hint": "C'est le verbe manger à l'impératif."
+    }
+  ]
+}

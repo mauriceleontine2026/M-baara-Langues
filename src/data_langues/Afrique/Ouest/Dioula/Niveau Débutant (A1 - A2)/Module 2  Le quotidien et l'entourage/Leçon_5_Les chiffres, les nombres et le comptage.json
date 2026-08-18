@@ -1,0 +1,328 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter avec précision de 1 à 20 en dioula",
+    "Comprendre le fonctionnement de la base quinaire (système par 5) et décimale",
+    "Exprimer des quantités exactes pour des objets ou des personnes",
+    "Manipuler les structures de base pour poser une question de quantité"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les chiffres dioula font intervenir des consonnes et des articulations spécifiques : la bilabiale occlusive sourde /p/ absente du fonds mandingue classique se retrouve parfois dans des emprunts, mais le dioula authentique s'appuie sur /b/, /f/, /s/. Le chiffre 5, 'duuru', exige une bonne articulation de la voyelle fermée postérieure /u/ allongée. Le chiffre 2, 'fila', et 3, 'saba', utilisent des voyelles brèves et claires. Le chiffre 9, 'kɔnɔntɔn', met en scène une succession de voyelles nasales et ouvertes /ɔ/.",
+    "common_pitfalls": "Attention à ne pas escamoter l'allongement de la voyelle dans 'duuru' (5) ou 'baani' (100). Ne confondez pas 'tan' (10) avec un 'ta' non nasalisé. Veillez également à bien lier les dizaines et les unités sans hachurer le mot."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Kelen",
+      "phonetic_api": "/ke.len/",
+      "phonetic_simple": "KÉ-LEN",
+      "translation": "Un (1)",
+      "example_sentence": "N fa ka so kelen bɛ yan",
+      "example_phonetic": "/n̩ fa ka so ke.len bɛ jan/",
+      "example_translation": "Mon père a une seule maison ici."
+    },
+    {
+      "word_id": "v2",
+      "term": "Fila",
+      "phonetic_api": "/fi.la/",
+      "phonetic_simple": "FI-LA",
+      "translation": "Deux (2)",
+      "example_sentence": "N dɔgɔcɛ fila bɛ kalan kɛ la",
+      "example_phonetic": "/n̩ dɔ.ɡɔ.t͡ʃɛ fi.la bɛ ka.lan kɛ la/",
+      "example_translation": "Mes deux petits frères étudient."
+    },
+    {
+      "word_id": "v3",
+      "term": "Saba",
+      "phonetic_api": "/sa.ba/",
+      "phonetic_simple": "SA-BA",
+      "translation": "Trois (3)",
+      "example_sentence": "Musa saba bɛ sugu la",
+      "example_phonetic": "/mu.sa sa.ba bɛ su.ɡu la/",
+      "example_translation": "Trois femmes sont au marché."
+    },
+    {
+      "word_id": "v4",
+      "term": "Naani",
+      "phonetic_api": "/naː.ni/",
+      "phonetic_simple": "NAA-NI",
+      "translation": "Quatre (4)",
+      "example_sentence": "Jiri naani bɛ kɛnɛ ma",
+      "example_phonetic": "/d͡ʒi.ri naː.ni bɛ kɛ.nɛ ma/",
+      "example_translation": "Il y a quatre arbres dans la cour."
+    },
+    {
+      "word_id": "v5",
+      "term": "Duuru",
+      "phonetic_api": "/duː.ru/",
+      "phonetic_simple": "DOUU-ROU",
+      "translation": "Cinq (5)",
+      "example_sentence": "Den duuru bɛ tulon kɛ la",
+      "example_phonetic": "/den duː.ru bɛ tu.lon kɛ la/",
+      "example_translation": "Cinq enfants s'amusent."
+    },
+    {
+      "word_id": "v6",
+      "term": "Wɔɔrɔ",
+      "phonetic_api": "/wɔː.rɔ/",
+      "phonetic_simple": "WÕÕ-RÕ",
+      "translation": "Six (6)",
+      "example_sentence": "Cɛ wɔɔrɔ bɛ baara la",
+      "example_phonetic": "/t͡ʃɛ wɔː.rɔ bɛ baː.ra la/",
+      "example_translation": "Six hommes sont au travail."
+    },
+    {
+      "word_id": "v7",
+      "term": "Wolonwula",
+      "phonetic_api": "/wo.lon.wu.la/",
+      "phonetic_simple": "WO-LON-WOU-LA",
+      "translation": "Sept (7) (Litt. Cinq et deux)",
+      "example_sentence": "San wolonwula bɛ a bolo",
+      "example_phonetic": "/san wo.lon.wu.la bɛ a bo.lo/",
+      "example_translation": "Il/Elle a sept ans."
+    },
+    {
+      "word_id": "v8",
+      "term": "Segi",
+      "phonetic_api": "/se.ɡi/",
+      "phonetic_simple": "SÉ-GI",
+      "translation": "Huit (8)",
+      "example_sentence": "Wulu segi bɛ so kɔnɔ",
+      "example_phonetic": "/wu.lu se.ɡi bɛ so kɔ.nɔ/",
+      "example_translation": "Il y a huit chiens dans la maison."
+    },
+    {
+      "word_id": "v9",
+      "term": "Kɔnɔntɔn",
+      "phonetic_api": "/kɔ.nɔn.tɔn/",
+      "phonetic_simple": "KÕ-NÕN-TÕN",
+      "translation": "Neuf (9)",
+      "example_sentence": "Sugufeela kɔnɔntɔn bɛ yan",
+      "example_phonetic": "/su.ɡu.feː.la kɔ.nɔn.tɔn bɛ jan/",
+      "example_translation": "Il y a neuf commerçants ici."
+    },
+    {
+      "word_id": "v10",
+      "term": "Tan",
+      "phonetic_api": "/tan/",
+      "phonetic_simple": "TAN",
+      "translation": "Dix (10)",
+      "example_sentence": "Muruba tan bɛ sugu la",
+      "example_phonetic": "/mu.ru.ba tan bɛ su.ɡu la/",
+      "example_translation": "Il y a dix grands couteaux au marché."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Joli bɛ i bolo ?",
+      "phonetic_api": "/d͡ʒo.li bɛ i bo.lo/",
+      "phonetic_simple": "DJO-LI BÈ I BO-LO",
+      "translation": "Combien en as-tu ? / Combien as-tu en main ?",
+      "context": "Question usuelle de comptage pour des objets possédés."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "N tɔgɔ bɛ kelen.",
+      "phonetic_api": "/n̩ tɔ.ɡɔ bɛ ke.len/",
+      "phonetic_simple": "N TÕ-GÕ BÈ KÉ-LEN",
+      "translation": "Je suis seul. / Mon nom est unique.",
+      "context": "Façon imagée de dire que l'on n'est pas accompagné."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Den tan ni duuru bɛ n bolo.",
+      "phonetic_api": "/den tan ni duː.ru bɛ n̩ bo.lo/",
+      "phonetic_simple": "DEN TAN NI DOUU-ROU BÈ N BO-LO",
+      "translation": "J'ai quinze enfants.",
+      "context": "Structure combinée indiquant un nombre supérieur à dix."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "A bɛ bɛn joli ma ?",
+      "phonetic_api": "/a bɛ bɛn d͡ʒo.li ma/",
+      "phonetic_simple": "A BÈ BEN DJO-LI MA ?",
+      "translation": "À combien s'élève le total ? / Ça fait combien ?",
+      "context": "Formule indispensable pour s'enquérir d'une somme ou d'un décompte final."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "A bɛ bɛn tan ma.",
+      "phonetic_api": "/a bɛ bɛn tan ma/",
+      "phonetic_simple": "A BÈ BEN TAN MA",
+      "translation": "Le total fait dix.",
+      "context": "Donner un résultat de calcul ou de décompte."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Mugan bɛ n bolo.",
+      "phonetic_api": "/mu.ɡan bɛ n̩ bo.lo/",
+      "phonetic_simple": "MOU-GAN BÈ N BO-LO",
+      "translation": "J'en ai vingt (20).",
+      "context": "Annoncer la possession du nombre vingt."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Sabari, dɔgɔya tɔɔni fana !",
+      "phonetic_api": "/sa.ba.ri dɔ.ɡɔ.ja tɔː.ni fa.na/",
+      "phonetic_simple": "SA-BA-RI DÕ-GÕ-YA TÕÕ-NI FA-NA !",
+      "translation": "S'il te plaît, diminue un peu la quantité !",
+      "context": "Demande de réduction de quantité lors d'un échange d'objets."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "A caya ka bon !",
+      "phonetic_api": "/a t͡ʃa.ja ka bon/",
+      "phonetic_simple": "A TCHA-YA KA BON",
+      "translation": "La quantité est grande ! / C'est beaucoup !",
+      "context": "S'exclamer face à un grand nombre ou une abondance."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La syntaxe de la quantification nominale",
+      "explanation": "Contrairement au français où le chiffre précède le nom (ex: deux enfants), le dioula place systématiquement le chiffre ou le nombre directement après le substantif qu'il qualifie.",
+      "rules": [
+        "Le nom reste à sa forme de base (souvent singulière ou collective).",
+        "L'adjectif numéral se positionne immédiatement après le nom.",
+        "La marque du pluriel '-w' n'est généralement pas obligatoire si le chiffre exprime déjà la pluralité, bien qu'on la retrouve parfois fixée."
+      ],
+      "examples": [
+        {
+          "structure": "Den (enfant) + fila (deux)",
+          "phonetic_api": "/den fi.la/",
+          "meaning": "Deux enfants."
+        },
+        {
+          "structure": "So (maison) + saba (trois)",
+          "phonetic_api": "/so sa.ba/",
+          "meaning": "Trois maisons."
+        }
+      ]
+    },
+    {
+      "concept": "La construction des nombres intermédiaires (11 à 19)",
+      "explanation": "Les nombres de 11 à 19 se construisent par addition sur la base de la dizaine 'tan' (10) reliée aux unités par la conjonction 'ni' (avec/et).",
+      "rules": [
+        "La structure est invariable : tan (10) + ni (et) + unité (1 à 9).",
+        "Le mot 'kelen' s'abrège parfois ou se maintient selon la cadence parlée."
+      ],
+      "examples": [
+        {
+          "structure": "Tan (10) + ni (et) + kelen (un)",
+          "phonetic_api": "/tan ni ke.len/",
+          "meaning": "Onze (11)."
+        },
+        {
+          "structure": "Tan (10) + ni (naani) (quatre)",
+          "phonetic_api": "/tan ni naː.ni/",
+          "meaning": "Quatorze (14)."
+        }
+      ]
+    },
+    {
+      "concept": "Le mot interrogatif de quantité 'joli'",
+      "explanation": "Pour interroger sur le nombre ou la quantité d'un élément, la langue emploie le terme 'joli' (combien) qui suit également la même règle de positionnement que les adjectifs numéraux.",
+      "rules": [
+        "Placez d'abord le nom de l'objet ou de la personne concernée.",
+        "Ajoutez 'joli' immédiatement après.",
+        "Terminez la phrase par la structure habituelle du prédicat."
+      ],
+      "examples": [
+        {
+          "structure": "San (année) + joli (combien) + bɛ + i + bolo (dans ta main) ?",
+          "phonetic_api": "/san d͡ʒo.li bɛ i bo.lo/",
+          "meaning": "Quel âge as-tu ? / Combien d'années as-tu ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Bakary (Un acheteur)",
+      "text": "I ni ce, sugufeela. Mango joli bɛ i bolo ?",
+      "phonetic_api": "/i ni t͡ʃe su.ɡu.feː.la man.ɡo d͡ʒo.li bɛ i bo.lo/",
+      "phonetic_simple": "I NI TCHE SOU-GOU-FEE-LA. MAN-GO DJO-LI BÈ I BO-LO ?",
+      "translation": "Bonjour commerçante. Combien de mangues as-tu en possession ?"
+    },
+    {
+      "speaker": "Fatoumata (La vendeuse)",
+      "text": "I ni ce ! Mango tan ni naani bɛ n bolo yan mango sisan.",
+      "phonetic_api": "/i ni t͡ʃe man.ɡo tan ni naː.ni bɛ n̩ bo.lo jan man.ɡo si.san/",
+      "phonetic_simple": "I NI TCHE ! MAN-GO TAN NI NAA-NI BÈ N BO-LO YAN MAN-GO SI-SAN.",
+      "translation": "Bonjour ! J'ai quatorze mangues ici en ce moment."
+    },
+    {
+      "speaker": "Bakary",
+      "text": "O kaɲi. N bɛ mango duuru fɛ. A bɛ bɛn joli ma ?",
+      "phonetic_api": "/o ka.ɲi n̩ bɛ man.ɡo duː.ru fɛ a bɛ bɛn d͡ʒo.li ma/",
+      "phonetic_simple": "O KA-GNI. N BÈ MAN-GO DOUU-ROU FÈ. A BÈ BEN DJO-LI MA ?",
+      "translation": "C'est bien. Je veux cinq mangues. Ça s'élève à combien ?"
+    },
+    {
+      "speaker": "Fatoumata",
+      "text": "A bɛ bɛn wari duuru ma. Hami tɛ !",
+      "phonetic_api": "/a bɛ bɛn wa.ri duː.ru ma ha.mi tɛ/",
+      "phonetic_simple": "A BÈ BEN WA-RI DOUU-ROU MA. HA-MI TÈ !",
+      "translation": "Le total fait cinq unités de monnaie. Pas de problème !"
+    },
+    {
+      "speaker": "Bakary",
+      "text": "Wari bɛ yan. I ni ce, sugufeela !",
+      "phonetic_api": "/wa.ri bɛ jan i ni t͡ʃe su.ɡu.feː.la/",
+      "phonetic_simple": "WA-RI BÈ YAN. I NI TCHE SOU-GOU-FEE-LA !",
+      "translation": "Voici l'argent. Merci à toi, commerçante !"
+    },
+    {
+      "speaker": "Fatoumata",
+      "text": "Aw ni ce, Bakary. K'an bɛn !",
+      "phonetic_api": "/aw ni t͡ʃe ba.ka.ry kʼan bɛn/",
+      "phonetic_simple": "AW NI TCHE BA-KA-RY. KAN BEN !",
+      "translation": "Merci à vous, Bakary. Au revoir !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans la tradition et les marchés du Burkina Faso, le comptage s'accompagne très souvent d'une gestuelle manuelle codifiée : on replie les doigts un à un en partant de l'auriculaire pour signifier les unités de 1 à 4, et le poing fermé ou la main ouverte représente le chiffre 5 ('duuru').",
+    "La numération dioula traditionnelle reflète un système quinaire (par 5). Par exemple, le mot pour sept, 'wolonwula', tire sa racine historique d'une combinaison signifiant la répétition ou l'adjonction de deux unités sur la première paume complète."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L5_Ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la position exacte d'un chiffre dans un groupe nominal en dioula ?",
+      "options": [
+        "Il se place toujours avant le nom",
+        "Il se place toujours après le nom",
+        "Il se place au début de la phrase uniquement",
+        "Il s'intègre au milieu du verbe"
+      ],
+      "correct_answer": "Il se place toujours après le nom",
+      "explanation": "En dioula, l'adjectif numéral ou le quantificateur suit obligatoirement le substantif qu'il qualifie (ex: 'mango duuru' = mangues cinq)."
+    },
+    {
+      "exercise_id": "A1_M2_L5_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour construire le nombre treize (13), on associe la dizaine et l'unité par la formule : 'tan [ ___ ] saba'.",
+      "correct_answer": "ni",
+      "hint": "C'est la conjonction de coordination équivalente à 'et' ou 'avec'."
+    },
+    {
+      "exercise_id": "A1_M2_L5_Ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie littéralement la question standard 'Joli bɛ i bolo ?' ?",
+      "options": [
+        "Quelle heure est-il ?",
+        "Combien y a-t-il dans ta main ?",
+        "Où se trouve le marché ?",
+        "Qui est dans ta maison ?"
+      ],
+      "correct_answer": "Combien y a-t-il dans ta main ?",
+      "explanation": "'Joli' (combien) + 'bɛ' (est) + 'i bolo' (dans ta main) sert à évaluer la quantité possédée ou disponible."
+    }
+  ]
+}

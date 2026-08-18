@@ -1,0 +1,290 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les membres de la famille nucléaire et élargie en arabe standard",
+    "Utiliser les pronoms suffixes possessifs pour exprimer le lien de parenté",
+    "Présenter son entourage et décrire brièvement sa situation familiale"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon utilise des occlusives glottales comme le Hamza /ʔ/ dans 'Ab' (père) et 'Umm' (mère), qui demande un blocage net des cordes vocales. Le 'kh' /x/ de 'Akht' (sœur) et 'Akh' (frère) est une fricative uvulaire sourde, produite sans vibration des cordes vocales au niveau du fond du palais. Le son 'Ayn /ʕ/ réapparaît fortement dans 'Amm' (oncle paternel).",
+    "common_pitfalls": "Veillez à ne pas confondre 'Amm (عَمّ - oncle paternel) et Khāl (خَال - oncle maternel), car la distinction linguistique reflète une distinction anthropologique stricte. Ne confondez pas non plus la prononciation de 'Ibn (إِبْن - fils) avec une voyelle longue indue sur le 'I'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "أَبٌ",
+      "phonetic_api": "/ʔa.bun/",
+      "phonetic_simple": "A-BOUN",
+      "translation": "Un père",
+      "example_sentence": "أَبِي مُهَنْدِسٌ",
+      "example_phonetic": "/ʔa.biː mu.han.di.sun/",
+      "example_translation": "Mon père est ingénieur"
+    },
+    {
+      "word_id": "v2",
+      "term": "أُمٌّ",
+      "phonetic_api": "/ʔum.mun/",
+      "phonetic_simple": "OUM-MOUN",
+      "translation": "Une mère",
+      "example_sentence": "أُمِّي طَبِيبَةٌ",
+      "example_phonetic": "/ʔum.miː tˤa.biː.ba.tun/",
+      "example_translation": "Ma mère est médecin"
+    },
+    {
+      "word_id": "v3",
+      "term": "أَخٌ",
+      "phonetic_api": "/ʔa.xun/",
+      "phonetic_simple": "A-KHOUN",
+      "translation": "Un frère",
+      "example_sentence": "هَذَا أَخِي الكَبِيرُ",
+      "example_phonetic": "/haː.ðaː ʔa.xiː l.ka.biː.ru/",
+      "example_translation": "C'est mon grand frère"
+    },
+    {
+      "word_id": "v4",
+      "term": "أُخْتٌ",
+      "phonetic_api": "/ʔux.tun/",
+      "phonetic_simple": "OUKH-TOUN",
+      "translation": "Une sœur",
+      "example_sentence": "عِنْدِي أُخْتٌ صَغِيرَةٌ",
+      "example_phonetic": "/ʕin.diː ʔux.tun sˤa.ɣiː.ra.tun/",
+      "example_translation": "J'ai une petite sœur"
+    },
+    {
+      "word_id": "v5",
+      "term": "اِبْنٌ",
+      "phonetic_api": "/ʔib.nun/",
+      "phonetic_simple": "IB-NOUN",
+      "translation": "Un fils",
+      "example_sentence": "هُوَ اِبْنِي",
+      "example_phonetic": "/hu.wa b.niː/",
+      "example_translation": "Il est mon fils"
+    },
+    {
+      "word_id": "v6",
+      "term": "اِبْنَةٌ",
+      "phonetic_api": "/ʔib.na.tun/",
+      "phonetic_simple": "IB-NA-TOUN",
+      "translation": "Une fille (descendante)",
+      "example_sentence": "هَذِهِ اِبْنَتِي",
+      "example_phonetic": "/haː.ði.hi b.na.tiː/",
+      "example_translation": "C'est ma fille"
+    },
+    {
+      "word_id": "v7",
+      "term": "زَوْجٌ",
+      "phonetic_api": "/zaw.dʒun/",
+      "phonetic_simple": "ZAW-DJOUN",
+      "translation": "Un époux / Un mari",
+      "example_sentence": "زَوْجِي فِي الْعَمَلِ",
+      "example_phonetic": "/zaw.dʒiː fil ʕa.ma.li/",
+      "example_translation": "Mon mari est au travail"
+    },
+    {
+      "word_id": "v8",
+      "term": "زَوْجَةٌ",
+      "phonetic_api": "/zaw.dʒa.tun/",
+      "phonetic_simple": "ZAW-DJA-TOUN",
+      "translation": "Une épouse / Une femme",
+      "example_sentence": "زَوْجَتِي ذَكِيَّةٌ",
+      "example_phonetic": "/zaw.dʒa.tiː ða.kij.ja.tun/",
+      "example_translation": "Mon épouse est intelligente"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "هَلْ عِنْدَكَ إِخْوَةٌ؟",
+      "phonetic_api": "/hal ʕin.da.ka ʔix.wa.tun/",
+      "phonetic_simple": "HAL INDA-KA IKH-OUA-TOUN",
+      "translation": "As-tu des frères et sœurs ? (à un homme)",
+      "context": "Question usuelle pour s'enquérir de la fratrie d'un interlocuteur masculin."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "عِنْدِي أَخٌ وَاحِدٌ وَأُخْتَانِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "IN-DII AKHOUN WAA-HIDOU-NOU WA OUKH-TAA-NI",
+      "translation": "J'ai un frère et deux sœurs",
+      "context": "Réponse type illustrant l'usage du singulier et du duel."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "مَنْ هَذَا؟",
+      "phonetic_api": "/man haː.ðaː/",
+      "phonetic_simple": "MAN HAA-THAA",
+      "translation": "Qui est-ce ? (masculin)",
+      "context": "En regardant une photo de famille ou en présentant un homme."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "مَنْ هَذِهِ؟",
+      "phonetic_api": "/man haː.ði.hi/",
+      "phonetic_simple": "MAN HAA-THI-HI",
+      "translation": "Qui est-ce ? (féminin)",
+      "context": "En regardant une photo de famille ou en présentant une femme."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "هَذَا هُوَ جَدِّي",
+      "phonetic_api": "/haː.ðaː hu.wa dʒad.diː/",
+      "phonetic_simple": "HAA-THAA HOU-WA DJAD-DII",
+      "translation": "C'est mon grand-père",
+      "context": "Présentation affectueuse ou formelle de l'aïeul."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "هَذِهِ هِيَ جَدَّتِي",
+      "phonetic_api": "/haː.ði.hi hi.ja dʒad.da.tiː/",
+      "phonetic_simple": "HAA-THI-HI HI-YA DJAD-DA-TII",
+      "translation": "C'est ma grand-mère",
+      "context": "Présentation affectueuse ou formelle de l'aïeule."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "كَيْفَ حَالُ عَائِلَتِكَ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "KAY-FA HAA-LOU AA-I-LA-TI-KA",
+      "translation": "Comment va ta famille ? (à un homme)",
+      "context": "Formule de politesse indispensable lors des interactions sociales arabes."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "الْعَائِلَةُ بِخَيْرٍ، شُكْرًا",
+      "phonetic_api": "/al.ʕaː.ʔi.la.tu bi.xaj.rin ʃuk.ran/",
+      "phonetic_simple": "AL-AA-I-LA-TOU BI-KHAY-RIN CHOUK-RAN",
+      "translation": "La famille va bien, merci",
+      "context": "Réponse polie et rassurante."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la possession : La préposition 'Inda' (عِنْدَ)",
+      "explanation": "L'arabe ne possède pas de verbe équivalent direct au verbe 'avoir'. Pour exprimer la possession ou le fait de disposer de quelque chose (y compris les liens familiaux), on utilise la préposition pseudo-verbale 'Inda' (chez / auprès de) suivie d'un pronom suffixe possessif.",
+      "rules": [
+        "Pour dire 'J'ai' : 'Indī (عِنْدِي) — ajout du suffixe '-ī'.",
+        "Pour dire 'Tu as' (masculin) : 'Indaka (عِنْدَكَ) — ajout du suffixe '-ka'.",
+        "Pour dire 'Tu as' (féminin) : 'Indaki (عِنْدَكِ) — ajout du suffixe '-ki'."
+      ],
+      "examples": [
+        {
+          "structure": "عِنْدِي أَخٌ",
+          "phonetic_api": "/ʕin.diː ʔax.un/",
+          "meaning": "J'ai un frère (Littéralement : Auprès de moi est un frère)"
+        },
+        {
+          "structure": "هَلْ عِنْدَكِ اِبْنٌ؟",
+          "phonetic_api": "/hal ʕin.da.ki b.nun/",
+          "meaning": "As-tu un fils ? (à une femme)"
+        }
+      ]
+    },
+    {
+      "concept": "Les pronoms possessifs suffixes rattachés aux noms de parenté",
+      "explanation": "Pour désigner 'mon' père ou 'ta' mère, l'arabe fusionne le nom de parenté avec un pronom suffixe.",
+      "rules": [
+        "Le suffixe de la première personne du singulier (mon/ma) est '-ī' (ي) et entraîne la disparition de la voyelle nominale d'origine au profit d'une kasra.",
+        "Le suffixe de la troisième personne du singulier (son/sa - masculin) est '-hu' (هُ).",
+        "Le suffixe de la troisième personne du singulier (son/sa - féminin) est '-hā' (هَا)."
+      ],
+      "examples": [
+        {
+          "structure": "أُمُّكَ / أُمُّكِ",
+          "phonetic_api": "/ʔum.mu.ka / ʔum.mu.ki/",
+          "meaning": "Ta mère (à un homme) / Ta mère (à une femme)"
+        },
+        {
+          "structure": "أَخُوهُ / أَخُوهَا",
+          "phonetic_api": "/ʔa.xuː.hu / ʔa.xuː.haː/",
+          "meaning": "Son frère (à lui) / Son frère (à elle) — notez l'allongement en 'ū' propre aux cinq noms particuliers."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "لَيْلَى (Layla)",
+      "text": "السَّلَامُ عَلَيْكُمْ يَا مَحْمُودُ. هَلْ هَذِهِ صُورَةُ عَائِلَتِكَ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AS-SA-LAA-MOU ALAY-KOUM YA MAH-MOU-DOU. HAL HAA-THI-HI SOU-RA-TOU AA-I-LA-TI-KA",
+      "translation": "Que la paix soit sur vous, Mahmoud. Est-ce que c'est la photo de ta famille ?"
+    },
+    {
+      "speaker": "مَحْمُود (Mahmoud)",
+      "text": "وَعَلَيْكُمُ السَّلَامُ لَيْلَى. نَعَمْ، هَذِهِ عَائِلَتِي. هَذَا أَبِي وَهَذِهِ أُمِّي.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "OUA ALAY-KOU-MOU S-SA-LAA-MOU LAY-LA. NA-AM, HAA-THI-HI AA-I-LA-TII. HAA-THAA A-BII WA HAA-THI-HI OUM-MII",
+      "translation": "Et sur vous soit la paix, Layla. Oui, c'est ma famille. C'est mon père et voici ma mère."
+    },
+    {
+      "speaker": "لَيْلَى (Layla)",
+      "text": "مَاشَاءَ اللهُ. وَمَنْ هَذَا الشَّابُّ؟ هَلْ هُوَ أَخُوكَ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MAA-CHAA-AL-LAH. WA MAN HAA-THACH-CHAAB-BOU? HAL HOU-WA AKHOU-KA",
+      "translation": "Merveilleux (Dieu l'a voulu). Et qui est ce jeune homme ? Est-ce ton frère ?"
+    },
+    {
+      "speaker": "مَحْمُود (Mahmoud)",
+      "text": "نَعَمْ، هُوَ أَخِي الكَبِيرُ. اِسْمُهُ عُمَرُ. وَعِنْدِي أُخْتٌ صَغِيرَةٌ أَيْضًا.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "NA-AM, HOU-WA AKHII L-KA-BII-ROU. IS-MOU-HOU OUMAR. WA IN-DII OUKH-TOUN SA-GHII-RA-TOUN AY-DAN",
+      "translation": "Oui, c'est mon grand frère. Son nom est Omar. Et j'ai aussi une petite sœur."
+    },
+    {
+      "speaker": "لَيْلَى (Layla)",
+      "text": "هَلْ أَنْتَ مُتَزَوِّجٌ يَا مَحْمُودُ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAL AN-TA MOU-TA-ZAW-WI-DJOUN YA... ",
+      "translation": "Es-tu marié, Mahmoud ?"
+    },
+    {
+      "speaker": "مَحْمُود (Mahmoud)",
+      "text": "لَا، أَنَا أَعْزَبُ. وَكَيْفَ حَالُ عَائِلَتِكِ أَنْتِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "LAA, A-NAA AZ-RA-BOU. WA KAY-FA HAA-LOU AA-I-LA-TI-KI AN-TI",
+      "translation": "Non, je suis célibataire. Et comment va ta famille à toi ?"
+    }
+  ],
+  "cultural_notes": [
+    "La centralité de la famille élargie : Dans la structure sociale du monde arabe, la famille élargie incluant les grands-parents, oncles, tantes et cousins germains joue un rôle de soutien économique et social primordial. L'arabe possède des mots distincts pour les oncles paternels ('Amm) et maternels (Khāl).",
+    "L'usage de 'Māshā'Allāh' (مَاشَاءَ اللهُ) : Cette expression est culturellement systématique lors de la contemplation d'une belle famille ou d'enfants, afin d'exprimer son admiration tout en conjurant traditionnellement le mauvais œil."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L4_ex1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'Ma sœur' en arabe standard ?",
+      "options": [
+        "أَخِي (Akhī)",
+        "أُخْتِي (Ukhtī)",
+        "أُمِّي (Ummī)"
+      ],
+      "correct_answer": "أُخْتِي (Ukhtī)",
+      "explanation": "Ukht signifie sœur, et le pronom suffixe '-ī' exprime la première personne (mon/ma)."
+    },
+    {
+      "exercise_id": "A1_M2_L4_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'J'ai un frère', on utilise la structure : [ ___ ] أَخٌ",
+      "correct_answer": "عِنْدِي",
+      "hint": "C'est la préposition 'chez/auprès de' déclinée avec le pronom possessif de la première personne."
+    },
+    {
+      "exercise_id": "A1_M2_L4_ex3",
+      "type": "multiple_choice",
+      "question": "Quelle est la différence fondamentale entre 'عَمِّي' ('Ammī) et 'خَالِي' (Khālī) ?",
+      "options": [
+        "Mon grand-père et mon oncle",
+        "Mon oncle paternel et mon oncle maternel",
+        "Mon mari et mon fils"
+      ],
+      "correct_answer": "Mon oncle paternel et mon oncle maternel",
+      "explanation": "'Amm désigne spécifiquement le frère du père, tandis que Khāl désigne le frère de la mère."
+    }
+  ]
+}

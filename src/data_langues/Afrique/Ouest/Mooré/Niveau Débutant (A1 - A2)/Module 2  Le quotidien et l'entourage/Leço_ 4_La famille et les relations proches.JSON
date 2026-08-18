@@ -1,0 +1,233 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les membres de la famille nucléaire et élargie en mooré",
+    "Utiliser les adjectifs possessifs de base pour exprimer les liens de parenté",
+    "Poser des questions simples sur l'entourage de son interlocuteur"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'm' placée devant un mot sans voyelle intermédiaire (comme 'm ma') est syllabique : elle se fredonne brièvement en fermant les lèvres. Le son 'saãmba' comporte une double voyelle nasalisée, ce qui demande d'allonger le son 'aa' tout en envoyant l'air par le nez.",
+    "common_pitfalls": "Ne pas confondre 'ba' (arriver) et 'baa' (père / papa). La longueur de la voyelle est la seule marque distinctive pour éviter les malentendus."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v4_1",
+      "term": "Baa",
+      "phonetic_api": "/baː/",
+      "phonetic_simple": "BAA",
+      "translation": "Père",
+      "example_sentence": "M baa yaa laafi.",
+      "example_phonetic": "/m baː jaː laːfi/",
+      "example_translation": "Mon père va bien."
+    },
+    {
+      "word_id": "v4_2",
+      "term": "Ma",
+      "phonetic_api": "/ma/",
+      "phonetic_simple": "MA",
+      "translation": "Mère",
+      "example_sentence": "M ma bēe yĩnsa.",
+      "example_phonetic": "/m ma beː jĩnsa/",
+      "example_translation": "Ma mère est à la maison."
+    },
+    {
+      "word_id": "v4_3",
+      "term": "Biiga",
+      "phonetic_api": "/bɪːɣa/",
+      "phonetic_simple": "BII-GA",
+      "translation": "Enfant / Fils / Fille",
+      "example_sentence": "A tara biig a yembr.",
+      "example_phonetic": "/a tara bɪːɣ a jembr/",
+      "example_translation": "Il a un seul enfant."
+    },
+    {
+      "word_id": "v4_4",
+      "term": "Ba-biiga",
+      "phonetic_api": "/babɪːɣa/",
+      "phonetic_simple": "BA-BII-GA",
+      "translation": "Frère / Sœur (du même père)",
+      "example_sentence": "M ba-biig yaa woko.",
+      "example_phonetic": "/m babɪːɣ jaː woko/",
+      "example_translation": "Mon frère est grand."
+    },
+    {
+      "word_id": "v4_5",
+      "term": "Zoa",
+      "phonetic_api": "/zoa/",
+      "phonetic_simple": "ZOA",
+      "translation": "Ami",
+      "example_sentence": "M zoa la fō.",
+      "example_phonetic": "/m zoa la fo/",
+      "example_translation": "Mon ami, c'est toi."
+    },
+    {
+      "word_id": "v4_6",
+      "term": "Páɣa",
+      "phonetic_api": "/paɣa/",
+      "phonetic_simple": "PA-RA",
+      "translation": "Femme / Épouse",
+      "example_sentence": "M páɣa yaa koasda.",
+      "example_phonetic": "/m paɣa jaː koːsda/",
+      "example_translation": "Mon épouse est commerçante."
+    },
+    {
+      "word_id": "v4_7",
+      "term": "Sɩda",
+      "phonetic_api": "/sɪda/",
+      "phonetic_simple": "SI-DA",
+      "translation": "Mari / Époux",
+      "example_sentence": "A sɩda yaa karen-saãmba.",
+      "example_phonetic": "/a sɪda jaː karensãːmba/",
+      "example_translation": "Son mari est enseignant."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p4_1",
+      "original": "Y ma laafi ?",
+      "phonetic_api": "/i ma laːfi/",
+      "phonetic_simple": "I MA LAA-FI",
+      "translation": "Comment va ta mère ?",
+      "context": "Question de courtoisie fréquente pour prendre des nouvelles d'un proche."
+    },
+    {
+      "phrase_id": "p4_2",
+      "original": "M baa bēe laafi.",
+      "phonetic_api": "/m baː beː laːfi/",
+      "phonetic_simple": "M BAA BÉE LAA-FI",
+      "translation": "Mon père se porte bien.",
+      "context": "Réponse standard affirmant la bonne santé du père."
+    },
+    {
+      "phrase_id": "p4_3",
+      "original": "Y tara kom-biis a wãna ?",
+      "phonetic_api": "/i tara kombɪːs a wãna/",
+      "phonetic_simple": "I TA-RA KOM-BIIS A WAN-NA",
+      "translation": "Combien d'enfants avez-vous ?",
+      "context": "Question usuelle lors d'une discussion sur la famille."
+    },
+    {
+      "phrase_id": "p4_4",
+      "original": "M tara biis a yiibu.",
+      "phonetic_api": "/m tara bɪːs a jɪːbu/",
+      "phonetic_simple": "M TA-RA BIIS A YII-BOU",
+      "translation": "J'ai deux enfants.",
+      "context": "Réponse indiquant le nombre de ses enfants."
+    },
+    {
+      "phrase_id": "p4_5",
+      "original": "Yaa m zoa.",
+      "phonetic_api": "/jaː m zoa/",
+      "phonetic_simple": "YAA M ZOA",
+      "translation": "C'est mon ami.",
+      "context": "Formule simple pour présenter une relation proche."
+    },
+    {
+      "phrase_id": "p4_6",
+      "original": "Y ba-biis bēe yâe ?",
+      "phonetic_api": "/i babɪːs beː jãːe/",
+      "phonetic_simple": "I BA-BIIS BÉE YAAE",
+      "translation": "Où sont tes frères et sœurs ?",
+      "context": "Demande de localisation ou de nouvelles de la fratrie."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les pronoms possessifs antéposés",
+      "explanation": "En mooré, la possession s'exprime très simplement en plaçant le pronom personnel sujet directement devant le nom de l'objet ou de la personne possédée. Il n'y a pas de mot spécifique équivalent à 'mon', 'ton', 'son'.",
+      "rules": [
+        "'M' placé devant un nom signifie 'mon / ma / mes'.",
+        "'Y' (ou 'fō' / 'f' selon le contexte) devant un nom signifie 'ton / ta / tes' ou 'votre / vos'.",
+        "'A' placé devant un nom signifie 'son / sa / ses'."
+      ],
+      "examples": [
+        {
+          "structure": "m + baa",
+          "phonetic_api": "/m baː/",
+          "meaning": "Mon père"
+        },
+        {
+          "structure": "a + ma",
+          "phonetic_api": "/a ma/",
+          "meaning": "Sa mère"
+        }
+      ]
+    },
+    {
+      "concept": "Le pluriel des noms de parenté : le suffixe -rãmba",
+      "explanation": "Pour former le pluriel de certains termes désignant des personnes ou des membres de la famille, le mooré ajoute le suffixe collectif 'rãmba'.",
+      "rules": [
+        "Le mot 'ma' (mère) devient 'ma-rãmba' (les mères / les tantes).",
+        "Le mot 'baa' (père) devient 'ba-rãmba' (les pères / les oncles)."
+      ],
+      "examples": [
+        {
+          "structure": "Nom + rãmba",
+          "phonetic_api": "/ba rãmba/",
+          "meaning": "Les pères / la lignée paternelle"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Fatou",
+      "text": "Adama, y ma laafi ?",
+      "phonetic_api": "/adama i ma laːfi/",
+      "phonetic_simple": "A-DA-MA, I MA LAA-FI ?",
+      "translation": "Adama, est-ce que ta mère va bien ?"
+    },
+    {
+      "speaker": "Adama",
+      "text": "M ma laafi, barka. A bēe yĩnsa.",
+      "phonetic_api": "/m ma laːfi barka a beː jĩnsa/",
+      "phonetic_simple": "M MA LAA-FI, BAR-KA. A BÉE YIN-SA",
+      "translation": "Ma mère va bien, merci. Elle est à la maison."
+    },
+    {
+      "speaker": "Fatou",
+      "text": "La y sɩda ? A tara tūumda ?",
+      "phonetic_api": "/la i sɪda a tara tuːmda/",
+      "phonetic_simple": "LA I SI-DA ? A TA-RA TOOM-DA ?",
+      "translation": "Et ton mari ? Est-ce qu'il travaille ?"
+    },
+    {
+      "speaker": "Adama",
+      "text": "N-ye, m sɩda yaa karen-saãmba.",
+      "phonetic_api": "/n je m sɪda jaː karensãːmba/",
+      "phonetic_simple": "N-YÉ, M SI-DA YAA KA-REN-SAA-MBA",
+      "translation": "Oui, mon mari est enseignant."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la société Mossi, la notion de famille élargie prévaut sur la famille nucléaire. Les frères du père sont souvent appelés 'pères' ('ba-rãmba') et les sœurs de la mère sont considérées comme des 'mères'.",
+    "Le terme 'ba-biiga' (enfant du père) reflète l'organisation patrilinéaire traditionnelle où la fratrie se définit d'abord par le lien paternel commun.",
+    "Demander des nouvelles de la mère ou de l'épouse d'un interlocuteur est un signe de profond respect et consolide le lien social lors de chaque rencontre."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex4_1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'mon ami' en mooré ?",
+      "options": [
+        "M ma",
+        "M zoa",
+        "M baa"
+      ],
+      "correct_answer": "M zoa",
+      "explanation": "'Zoa' signifie ami, précédé du possessif 'm'."
+    },
+    {
+      "exercise_id": "ex4_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A [ ___ ] yaa karen-saãmba. (Traduction: Son mari est enseignant.)",
+      "correct_answer": "sɩda",
+      "hint": "Le terme exact pour désigner l'époux ou le mari."
+    }
+  ]
+}

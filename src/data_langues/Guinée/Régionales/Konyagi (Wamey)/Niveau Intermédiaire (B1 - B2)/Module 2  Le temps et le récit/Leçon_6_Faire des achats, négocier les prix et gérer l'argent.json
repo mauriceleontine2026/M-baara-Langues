@@ -1,0 +1,219 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Maîtriser le lexique des transactions commerciales et financières en wamey",
+    "Connaître les structures syntaxiques pour marchander et négocier un prix",
+    "Exprimer l'accord, le désaccord ou le compromis lors d'un achat"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La distinction fondamentale entre la voyelle brève /a/ et la voyelle longue /aː/. La présence de la consonne occlusive injective bilabiale /ɓ/.",
+    "common_pitfalls": "Attention à ne pas confondre le terme 'wetya' (vendre) avec 'wetyal' (acheter). Une mauvaise longueur de voyelle peut altérer le sens de la négociation."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "wetyal",
+      "phonetic_api": "/wɛtjal/",
+      "phonetic_simple": "OUÉ-TYAL",
+      "translation": "acheter",
+      "example_sentence": "Nyi gwa wetyal kofon.",
+      "example_phonetic": "/ɲi ɡwa wɛtjal kofon/",
+      "example_translation": "Je vais acheter du tissu."
+    },
+    {
+      "word_id": "v2",
+      "term": "wetya",
+      "phonetic_api": "/wɛtja/",
+      "phonetic_simple": "OUÉ-TYA",
+      "translation": "vendre",
+      "example_sentence": "O wetya kofon i boka.",
+      "example_phonetic": "/o wɛtja kofon i boka/",
+      "example_translation": "Il vend du bon tissu."
+    },
+    {
+      "word_id": "v3",
+      "term": "wogbë",
+      "phonetic_api": "/wɔɡbə/",
+      "phonetic_simple": "OUE-GBE",
+      "translation": "argent / monnaie",
+      "example_sentence": "Nyi fula wogbë.",
+      "example_phonetic": "/ɲi fula wɔɡbə/",
+      "example_translation": "Je n'ai pas d'argent."
+    },
+    {
+      "word_id": "v4",
+      "term": "kaɓas",
+      "phonetic_api": "/kaɓas/",
+      "phonetic_simple": "KA-BHAS",
+      "translation": "prix / coût",
+      "example_sentence": "Kaɓas kene i lëkwa.",
+      "example_phonetic": "/kaɓas kɛnɛ i ləkwa/",
+      "example_translation": "Ce prix est élevé."
+    },
+    {
+      "word_id": "v5",
+      "term": "lëkwa",
+      "phonetic_api": "/ləkwa/",
+      "phonetic_simple": "LE-KOUA",
+      "translation": "cher / lourd / difficile",
+      "example_sentence": "I lëkwa mba !",
+      "example_phonetic": "/i ləkwa mba/",
+      "example_translation": "C'est très cher !"
+    },
+    {
+      "word_id": "v6",
+      "term": "mëra",
+      "phonetic_api": "/məʁa/",
+      "phonetic_simple": "ME-RA",
+      "translation": "diminuer / baisser",
+      "example_sentence": "Mëra kaɓas ko !",
+      "example_phonetic": "/məʁa kaɓas ko/",
+      "example_translation": "Diminue le prix !"
+    },
+    {
+      "word_id": "v7",
+      "term": "fagba",
+      "phonetic_api": "/faɡba/",
+      "phonetic_simple": "FA-GBA",
+      "translation": "payer / rendre",
+      "example_sentence": "Nyi fagba wogbë ko.",
+      "example_phonetic": "/ɲi faɡba wɔɡbə ko/",
+      "example_translation": "J'ai payé l'argent."
+    },
+    {
+      "word_id": "v8",
+      "term": "kontra",
+      "phonetic_api": "/kɔntʁa/",
+      "phonetic_simple": "KON-TRA",
+      "translation": "marché / accord",
+      "example_sentence": "I boka, kontra i tyukwa.",
+      "example_phonetic": "/i boka kɔntʁa i tjukwa/",
+      "example_translation": "C'est bon, l'accord est conclu."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Kaɓas kene i fene ?",
+      "phonetic_api": "/kaɓas kɛnɛ i fɛnɛ/",
+      "phonetic_simple": "KA-BHAS KÉ-NÉ I FÉ-NÉ ?",
+      "translation": "Quel est le prix de ceci ?",
+      "context": "Demander le prix au marché."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Mëra ra mi, i lëkwa mba !",
+      "phonetic_api": "/məʁa ʁa mi i ləkwa mba/",
+      "phonetic_simple": "ME-RA RA MI, I LE-KOUA MBA !",
+      "translation": "Diminue pour moi, c'est trop cher !",
+      "context": "Négocier fermement mais poliment."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Wogbë kene fula mi gba.",
+      "phonetic_api": "/wɔɡbə kɛnɛ fula mi ɡba/",
+      "phonetic_simple": "OUE-GBE KÉ-NÉ FOU-LA MI GBA",
+      "translation": "Je n'ai pas cette somme sur moi.",
+      "context": "Indiquer une limite de budget."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Nyi fagba jofot naxën.",
+      "phonetic_api": "/ɲi faɡba ʒɔfɔt naχən/",
+      "phonetic_simple": "NYI FA-GBA JO-FOT NA-KHEN",
+      "translation": "Je paye deux mille (francs).",
+      "context": "Faire une contre-proposition."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'impératif d'exhortation avec la particule 'ko'",
+      "explanation": "En wamey, l'impératif destiné à demander une faveur ou à insister poliment lors d'une transaction utilise la particule finale 'ko'.",
+      "rules": [
+        "Verbe de base + Objet + ko",
+        "Adoucit l'ordre pour en faire une requête collaborative lors du marchandage."
+      ],
+      "examples": [
+        {
+          "structure": "Mëra kaɓas ko !",
+          "phonetic_api": "/məʁa kaɓas ko/",
+          "meaning": "Baisse le prix, s'il te plaît !"
+        }
+      ]
+    },
+    {
+      "concept": "La négation verbale avec 'fula... gba'",
+      "explanation": "Pour exprimer le manque ou l'incapacité de payer un montant, on encadre l'action ou l'état avec la structure négative discontinue.",
+      "rules": [
+        "'fula' se place juste avant le pronom ou le verbe, 'gba' clôture la proposition négative."
+      ],
+      "examples": [
+        {
+          "structure": "Nyi fula wogbë gba.",
+          "phonetic_api": "/ɲi fula wɔɡbə ɡba/",
+          "meaning": "Je n'ai absolument pas d'argent."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Awa (Acheteuse)",
+      "text": "Ryambé ! Kofon kene, kaɓas kene i fene ?",
+      "phonetic_api": "/jambɛ kofon kɛnɛ kaɓas kɛnɛ i fɛnɛ/",
+      "phonetic_simple": "RYAM-BÉ ! KO-FON KÉ-NÉ, KA-BHAS KÉ-NÉ I FÉ-NÉ ?",
+      "translation": "Bonjour ! Ce tissu, quel est son prix ?"
+    },
+    {
+      "speaker": "Boubacar (Vendeur)",
+      "text": "Ryambé gouè ! Kaɓas kene i jofot naxën e can.",
+      "phonetic_api": "/jambɛ ɡwɛ kaɓas kɛnɛ i ʒɔfɔt naχən e t͡ʃan/",
+      "phonetic_simple": "RYAM-BÉ GOUÈ ! KA-BHAS KÉ-NÉ I JO-FOT NA-KHEN É TCHAN",
+      "translation": "Bonjour ! Le prix est de deux mille cents."
+    },
+    {
+      "speaker": "Awa (Acheteuse)",
+      "text": "Ah, i lëkwa mba ! Mëra ra mi ko, nyi fagba jofot naxën.",
+      "phonetic_api": "/ah i ləkwa mba məʁa ʁa mi ko ɲi faɡba ʒɔfɔt naχən/",
+      "phonetic_simple": "AH, I LE-KOUA MBA ! ME-RA RA MI KO, NYI FA-GBA JO-FOT NA-KHEN.",
+      "translation": "Ah, c'est trop cher ! Diminue pour moi s'il te plaît, je donne deux mille."
+    },
+    {
+      "speaker": "Boubacar (Vendeur)",
+      "text": "I boka, can kene i fula gba. Kontra i tyukwa !",
+      "phonetic_api": "/i boka t͡ʃan kɛnɛ i fula ɡba kɔntʁa i tjukwa/",
+      "phonetic_simple": "I BO-KA, TCHAN KÉ-NÉ I FOU-LA GBA. KON-TRA I TYOU-KOUA !",
+      "translation": "D'accord, (les cinq cents de réduction) ce n'est rien. L'accord est conclu !"
+    }
+  ],
+  "cultural_notes": [
+    "Au sein des marchés hebdomadaires (appelés 'loumas') en Haute et Moyenne-Guinée, la négociation est une véritable institution sociale. Accepter le premier prix sans discuter est parfois perçu comme un désintérêt pour l'interaction humaine.",
+    "L'expression de la monnaie s'appuie historiquement sur des regroupements de valeurs (comme les bases de 5 francs ou de 500 francs selon les sous-régions), d'où l'utilisation de termes spécifiques comme 'jofot' pour désigner les grands paliers de billets."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L6_EX1",
+      "type": "multiple_choice",
+      "question": "Quel verbe utilisez-vous pour demander au vendeur de réduire le prix ?",
+      "options": [
+        "wetyal",
+        "mëra",
+        "fagba"
+      ],
+      "correct_answer": "mëra",
+      "explanation": "'Mëra' signifie diminuer ou baisser le coût."
+    },
+    {
+      "exercise_id": "B1_M2_L6_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Nyi fula wogbë [ ___ ].",
+      "correct_answer": "gba",
+      "hint": "La particule finale requise pour compléter la négation discontinue."
+    }
+  ]
+}

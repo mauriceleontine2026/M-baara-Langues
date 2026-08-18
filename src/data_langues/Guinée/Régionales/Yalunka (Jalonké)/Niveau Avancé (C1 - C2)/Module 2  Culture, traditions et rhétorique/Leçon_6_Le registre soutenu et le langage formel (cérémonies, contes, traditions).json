@@ -1,0 +1,214 @@
+{
+  "lesson_id": "C1_M2_L6",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 6,
+  "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
+  "learning_objectives": [
+    "Maîtriser les formules rituelles de salutation et d'introduction des récits formels",
+    "Employer le lexique archaïque et poétique lors des cérémonies coutumières jalonké",
+    "Structurer la narration d'un conte ou d'un mythe fondateur selon les règles de la déclamation oratoire"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La formule solennelle 'fala xunba' requiert l'articulation de la fricative vélaire sourde /x/ suivie de l'occlusive bilabiale sonore /b/. L'allongement de la nasale vélaire finale dans 'mambilin' /maːm.bi.lin/ est le propre d'une diction noble et ralentie.",
+    "common_pitfalls": "Dans les salutations rituelles, évitez de couper les voyelles finales. La déclamation formelle exige de soutenir la voix et de prolonger les finales pour marquer le respect envers les anciens."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v24_1",
+      "term": "Fala xunba",
+      "phonetic_api": "/fa.la xun.ba/",
+      "phonetic_simple": "FA-LA KHOUN-BA",
+      "translation": "Discours solennel / Parole d'honneur / Allocution royale ou sacrée",
+      "example_sentence": "Doyen bata fala xunba fala won birin bɛ.",
+      "example_phonetic": "/dwa.jɛ̃ ba.ta fa.la xun.ba fa.la won bi.rin bɛ/",
+      "example_translation": "Le doyen a prononcé une allocution solennelle pour nous tous."
+    },
+    {
+      "word_id": "v24_2",
+      "term": "Mambilin",
+      "phonetic_api": "/maːm.bi.lin/",
+      "phonetic_simple": "MAAM-BI-LIN",
+      "translation": "Lignée ancestrale / Généalogie / Origine sacrée",
+      "example_sentence": "A mambilin na fanyin nan a ra.",
+      "example_phonetic": "/a maːm.bi.lin na fan.jin nan a ra/",
+      "example_translation": "Sa lignée ancestrale est d'une grande noblesse."
+    },
+    {
+      "word_id": "v24_3",
+      "term": "Baraa",
+      "phonetic_api": "/ba.raː/",
+      "phonetic_simple": "BA-RAA",
+      "translation": "Bénédiction / Grâce / Faveur spirituelle",
+      "example_sentence": "Won na baraa sɔtɔ-ma nɛ to.",
+      "example_phonetic": "/won na ba.raː sɔ.tɔ.ma nɛ to/",
+      "example_translation": "Nous obtiendrons assurément des bénédictions aujourd'hui."
+    },
+    {
+      "word_id": "v24_4",
+      "term": "Kanyin",
+      "phonetic_api": "/ka.ɲin/",
+      "phonetic_simple": "KA-NYIN",
+      "translation": "Dignitaire / Gardien du temple / Sage attitré",
+      "example_sentence": "Mabilinde kanyin nan na mɛ.",
+      "example_phonetic": "/ma.bi.lin.de ka.ɲin nan na mɛ/",
+      "example_translation": "Le gardien de notre quartier (coutumier) est ici."
+    },
+    {
+      "word_id": "v24_5",
+      "term": "Talatunu",
+      "phonetic_api": "/ta.la.tu.nu/",
+      "phonetic_simple": "TA-LA-TOU-NOU",
+      "translation": "Récit des temps anciens / Mythologie / Épopée historique",
+      "example_sentence": "Won na talatunu xaran-ma nɛ.",
+      "example_phonetic": "/won na ta.la.tu.nu xa.ran.ma nɛ/",
+      "example_translation": "Nous allons étudier l'épopée des temps anciens."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p24_1",
+      "original": "Singe ra, n bɛ n mabilin mambilin xili xulun fanyin ra.",
+      "phonetic_api": "/sin.ɡe ra ŋ bɛ ŋ ma.bi.lin maːm.bi.lin xi.li xu.lun fan.jin ra/",
+      "phonetic_simple": "SIN-GUÉ RA, N BÈ N MA-BI-LIN MAAM-BI-LIN KHI-LI KHOU-LOUN FAN-YIN RA",
+      "translation": "En premier lieu, je salue respectueusement la noble lignée ancestrale de notre communauté.",
+      "context": "Introduction protocolaire obligatoire avant toute prise de parole dans une cérémonie de mariage ou de baptême."
+    },
+    {
+      "phrase_id": "p24_2",
+      "original": "Alaxɛ na ra.ba, baraa fanyin na lɔxɔ won fari subaxɛ birin.",
+      "phonetic_api": "/a.la.xɛ na ra.ba ba.raː fan.jin na lɔ.xɔ won fa.ri su.ba.xɛ bi.rin/",
+      "phonetic_simple": "A-LA-KHÈ NA RA-BA, BA-RAA FAN-YIN NA LO-KHO WON FA-RI SOU-BA-KHÈ BI-RIN",
+      "translation": "Pourvu que la grâce divine se déverse sur nous chaque matin.",
+      "context": "Formule d'invocation solennelle utilisée par les sages lors des rituels."
+    },
+    {
+      "phrase_id": "p24_3",
+      "original": "Talatunu mɛ na sanndiya gbe nan a ra won birin bɛ.",
+      "phonetic_api": "/ta.la.tu.nu mɛ na san.di.ja ɡbe nan a ra won bi.rin bɛ/",
+      "phonetic_simple": "TA-LA-TOU-NOU MÈ NA SAN-DI-YA GBÉ NAN A RA WON BI-RIN BÈ",
+      "translation": "Ce récit des temps anciens renferme une profonde sagesse pour nous tous.",
+      "context": "Clore la déclamation d'un conte philosophique."
+    },
+    {
+      "phrase_id": "p24_4",
+      "original": "Kanyin birin bata tin m bɛ fala xunba na.",
+      "phonetic_api": "/ka.ɲin bi.rin ba.ta tin m bɛ fa.la xun.ba na/",
+      "phonetic_simple": "KA-NYIN BI-RIN BA-TA TIN M BÈ FA-LA KHOUN-BA NA",
+      "translation": "Tous les hauts dignitaires ont validé mon allocution solennelle.",
+      "context": "Se réjouir du consensus obtenu auprès des anciens de la chefferie."
+    },
+    {
+      "phrase_id": "p24_5",
+      "original": "Hali naxanba lɔxɔnfe na fari, won na baraa sɔtɔ-ma nɛ.",
+      "phonetic_api": "/ha.li na.xan.ba lɔ.xɔn.fe na fa.ri won na ba.raː sɔ.tɔ.ma nɛ/",
+      "phonetic_simple": "HA-LI NA-KHAN-BA LO-KHON-FÉ NA FA-RI, WON NA BA-RAA SO-TO-MA NÈ",
+      "translation": "Même si le mécontentement gronde au-dessus de nous, nous obtiendrons la grâce divine.",
+      "context": "Apaiser les tensions lors d'un litige rituel ou successoral."
+    },
+    {
+      "phrase_id": "p24_6",
+      "original": "Fala xunba mu rafalama gbeɲanfala ra, a sariɲen nan na.",
+      "phonetic_api": "/fa.la xun.ba mu ra.fa.la.ma ɡbe.ɲan.fa.la ra a sa.ri.ɲen nan na/",
+      "phonetic_simple": "FA-LA KHOUN-BA MOU RA-FA-LA-MA GBÉ-NYAN-FA-LA RA, A SA-RI-NYEN NAN NA",
+      "translation": "La parole d'honneur ne souffre d'aucun artifice sophiste, elle est pure vérité.",
+      "context": "Rappeler la sacralité de la parole donnée devant l'assemblée."
+    },
+    {
+      "phrase_id": "p24_7",
+      "original": "A fisa won na talatunu matɔ singe, alaxɛ na ra.ba won na lɔn fanyin.",
+      "phonetic_api": "/a fi.sa won na ta.la.tu.nu ma.tɔ sin.ɡe a.la.xɛ na ra.ba won na lɔn fan.jin/",
+      "phonetic_simple": "A FI-SA WON NA TA-LA-TOU-NOU MA-TO SIN-GUÉ, A-LA-KHÈ NA RA-BA WON NA LON FAN-YIN",
+      "translation": "Il vaut mieux que nous analysions d'abord la mythologie ancienne, afin que nous la comprenions parfaitement.",
+      "context": "Guider les auditeurs vers l'interprétation ésotérique d'un mythe."
+    },
+    {
+      "phrase_id": "p24_8",
+      "original": "Na kanyin falan bata won birin sabari fari.",
+      "phonetic_api": "/na ka.ɲin fa.lan ba.ta won bi.rin sa.ba.ri fa.ri/",
+      "phonetic_simple": "NA KA-NYIN FA-LAN BA-TA WON BI-RIN SA-BA-RI FA-RI",
+      "translation": "Le discours de ce haut dignitaire a apporté la paix au-dessus de nous tous.",
+      "context": "Salu r la fin d'un conflit grâce à l'intervention d'un chef traditionnel."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La déclinaison honorifique des postpositions spatiales ('fari' / 'fɛ')",
+      "explanation": "Au niveau C1-C2, les postpositions de lieu s'emploient de manière métaphorique et honorifique. 'Fari' (au-dessus/sur) n'indique plus seulement une position physique, mais symbolise la transcendance spirituelle, la protection divine ou la suprématie de la communauté sur l'individu.",
+      "rules": [
+        "Baraa + fari = La bénédiction au-dessus de... (La bénédiction qui enveloppe)",
+        "Permet de conférer un style poétique et solennel hautement valorisé."
+      ],
+      "examples": [
+        {
+          "structure": "Baraa na won fari.",
+          "phonetic_api": "/ba.raː na won fa.ri/",
+          "meaning": "La grâce divine repose sur nous."
+        }
+      ]
+    },
+    {
+      "concept": "Le redoublement de focalisation identitaire : 'Nom + nan + a + ra'",
+      "explanation": "Pour insérer la solennité absolue dans le registre soutenu, l'orateur n'utilise pas la simple copule d'identité. Il recourt à la structure redoublée plaçant l'élément noble en tête, suivi de la particule de focalisation 'nan', puis du pronom de rappel 'a' et de la postposition d'état 'ra'.",
+      "rules": [
+        "Structure : [Terme Noble] + nan + a + ra",
+        "Cette lourdeur syntaxique est la marque exclusive du langage cérémoniel et des contes."
+      ],
+      "examples": [
+        {
+          "structure": "Talatunu nan a ra.",
+          "phonetic_api": "/ta.la.tu.nu nan a ra/",
+          "meaning": "C'est l'épopée sacrée elle-même."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kanyin (Le haut dignitaire)",
+      "text": "Jalonké birin, singe ra n bɛ won mambilin mambilin xili fanyin ra. Fala xunba nan na mɛ won bɛ to."
+    },
+    {
+      "speaker": "Amara (Le griot)",
+      "text": "Awo n baabaa, fala xunba na i bɛ. Won birin na i bɛ talatunu tinfe sanndiya ra. Sikɛ mu na won bɛ."
+    },
+    {
+      "speaker": "Kanyin",
+      "text": "Talatunu na a ra : Won baabaa mambilin mu nuu bata gbeɲanfala rafala, e nuu na walife baraa ra fari. Na fe ra won na baraa gbe sɔtɔ."
+    },
+    {
+      "speaker": "Amara",
+      "text": "Na sariɲen nan a ra ! Hali naxanba tɛmɛni mabilinma, won mu na tɔɔn ba won bɛ fari. Inu wali i bɛ falan ra."
+    },
+    {
+      "speaker": "Kanyin",
+      "text": "Alaxɛ na ra.ba, baraa nun sanndiya na won birin bɛ, alaxɛ na ra.ba won na sabari."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'univers culturel Jalonké, le registre soutenu ('fala xunba') est intimement lié à la fonction de mémoire collective. Lors des grands rituels en Haute-Guinée, l'orateur doit impérativement décliner la généalogie ('mambilin') de l'assistance avant de délivrer son message, sous peine de commettre un grave impair coutumier.",
+    "Le terme 'baraa' (bénédiction) est le pivot de la vie spirituelle : chaque parole prononcée par un aîné est perçue comme un canal de transmission de la force vitale des ancêtres vers les nouvelles générations."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex24_1",
+      "type": "multiple_choice",
+      "question": "Quel terme Yalunka de registre soutenu désigne l'épopée historique ou le récit des temps anciens ?",
+      "options": [
+        "Talen",
+        "Talatunu",
+        "Gbeɲanfala"
+      ],
+      "correct_answer": "Talatunu",
+      "explanation": "'Talatunu' qualifie la mythologie, les récits de fondation et les épopées déclamées de manière solennelle."
+    },
+    {
+      "exercise_id": "ex24_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour invoquer la bénédiction ou la grâce lors d'une cérémonie, on emploie le terme spirituel [ ___ ].",
+      "correct_answer": "baraa",
+      "hint": "Ce mot à voyelle finale longue et redoublée s'écrit avec cinq lettres."
+    }
+  ]
+}

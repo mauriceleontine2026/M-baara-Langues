@@ -1,0 +1,264 @@
+{
+  "lesson_id": "B1_M2_L5",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 5,
+  "title": "Parler de ses projets futurs et de ses ambitions",
+  "learning_objectives": [
+    "Exprimer l'intention, le projet et le futur avec le marqueur aspectuel 'máa'",
+    "Formuler ses souhaits professionnels, ses ambitions et ses espoirs (àwọn àfojúsùn)",
+    "Utiliser les structures conditionnelles et de projection à moyen et long terme"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon est centrée sur le marqueur de futur 'máa' [máː]. Veillez à bien étirer la voyelle longue sur un ton haut stable. Ne le confondez pas à l'oreille avec le marqueur habituel fusionné 'máa ń' qui comporte une résonance nasale en fin d'émission.",
+    "common_pitfalls": "Attention à la prononciation du mot 'Àfojúsùn' (ambition/objectif). Le schéma tonal est crucial : Bas-Moyen-Haut-Bas [àfod͡ʒúsʊ̀nd]. Une mauvaise accentuation détruit la clarté sémantique du substantif."
+  },
+  "vocabulary": [
+    {
+      "word_id": "B1_M2_L5_V1",
+      "term": "Máa",
+      "phonetic_api": "/máː/",
+      "phonetic_simple": "MÁÀ",
+      "translation": "Marqueur du futur / Aller (action à venir)",
+      "example_sentence": "Mo máa kọ́ èdè yorúbà dunjú.",
+      "example_phonetic": "/mo máː kɔ́ ɛ̀dè joɾúbà dʊ̃d͡ʒú/",
+      "example_translation": "Je vais apprendre la langue yoruba en profondeur."
+    },
+    {
+      "word_id": "B1_M2_L5_V2",
+      "term": "Àfojúsùn",
+      "phonetic_api": "/àfod͡ʒúsʊ̀/",
+      "phonetic_simple": "À-FO-JÚ-SOÙN",
+      "translation": "Ambition / Objectif / But / Vision",
+      "example_sentence": "Àfojúsùn mi ni lati jẹ́ oníṣègùn.",
+      "example_phonetic": "/àfod͡ʒúsʊ̀ mĩ nĩ lati d͡ʒɛ́ oníʃɛ̀ɡʊ̃/",
+      "example_translation": "Mon ambition est d'être médecin."
+    },
+    {
+      "word_id": "B1_M2_L5_V3",
+      "term": "Ìrètí",
+      "phonetic_api": "/ìɾètí/",
+      "phonetic_simple": "Ì-RÉ-TÍ",
+      "translation": "L'espoir / L'espérance / L'attente positive",
+      "example_sentence": "Mo ní ìrètí pé ọ̀la máa dára.",
+      "example_phonetic": "/mo ní ìɾètí k͡pé ɔ̀la máː dára/",
+      "example_translation": "J'ai l'espoir que demain sera meilleur."
+    },
+    {
+      "word_id": "B1_M2_L5_V4",
+      "term": "Lọ́la / Ní ọjọ́ iwájú",
+      "phonetic_api": "/ní ɔd͡ʒɔ́ iwájú/",
+      "phonetic_simple": "NÍ AW-JÁ I-WÁ-JOÚ",
+      "translation": "Dans le futur / À l'avenir (Littéralement : au jour de devant)",
+      "example_sentence": "Ní ọjọ́ iwájú, mo máa ra ilé.",
+      "example_phonetic": "/ní ɔd͡ʒɔ́ iwájú mo máː ɾa ilé/",
+      "example_translation": "À l'avenir, je vais acheter une maison."
+    },
+    {
+      "word_id": "B1_M2_L5_V5",
+      "term": "Gbèrò",
+      "phonetic_api": "/ɡ͡bèɾò/",
+      "phonetic_simple": "GBÈ-RÒ",
+      "translation": "Projeter / Planifier / Penser à faire",
+      "example_sentence": "Mo ń gbèrò lati tẹwé jáde.",
+      "example_phonetic": "/mo ŋ́ ɡ͡bèɾò lati tɛwé d͡ʒáde/",
+      "example_translation": "Je projette de publier un livre."
+    },
+    {
+      "word_id": "B1_M2_L5_V6",
+      "term": "Ìbùkún / Àṣeyọrí",
+      "phonetic_api": "/àʃejɔɾí/",
+      "phonetic_simple": "À-SHE-YÁW-RÍ",
+      "translation": "Le succès / La réussite / L'accomplissement",
+      "example_sentence": "Àṣeyọrí nla máa jẹ́ tiwa.",
+      "example_phonetic": "/àʃejɔɾí ŋlā máː d͡ʒɛ́ tiwa/",
+      "example_translation": "Un grand succès sera le nôtre."
+    },
+    {
+      "word_id": "B1_M2_L5_V7",
+      "term": "Dà dandan / Di dandan",
+      "phonetic_api": "/di dãdã/",
+      "phonetic_simple": "DI DAN-DAN",
+      "translation": "Devenir certain / Être une certitude absolue",
+      "example_sentence": "Ambition mi máa di dandan.",
+      "example_phonetic": "/ambition mĩ máː di dãdã/",
+      "example_translation": "Mon ambition se réalisera à coup sûr."
+    },
+    {
+      "word_id": "B1_M2_L5_V8",
+      "term": "Ìdàgbàsókè",
+      "phonetic_api": "/ìdàɡ͡bàsókè/",
+      "phonetic_simple": "Ì-DÀ-GBÀ-SÓ-KÈ",
+      "translation": "Le progrès / Le développement / L'évolution",
+      "example_sentence": "Mo fẹ́ ìdàgbàsókè fún iṣẹ́ mi.",
+      "example_phonetic": "/mo fɛ́ ìdàɡ͡bàsókè fʊ́ iʃɛ́ mĩ/",
+      "example_translation": "Je veux du progrès pour mon travail."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "B1_M2_L5_P1",
+      "original": "Kí ni o máa ṣe ní ọdún tí ó ń bọ̀?",
+      "phonetic_api": "/kí nĩ o máː ʃe ní ɔdʊ́ tí ó ŋ́ bɔ̀/",
+      "phonetic_simple": "KÍ NI O MÁÀ SHÉ NÍ ÀW-DOÚN TÍ Ó N BÀW?",
+      "translation": "Qu'est-ce que tu vas faire l'année prochaine ?",
+      "context": "Question type pour s'enquérir des projets à moyen terme d'un interlocuteur."
+    },
+    {
+      "phrase_id": "B1_M2_L5_P2",
+      "original": "Mo máa bẹ̀rẹ̀ iṣẹ́ tuntun ní ilú Èkó.",
+      "phonetic_api": "/mo máː bɛ̀ɾɛ̀ iʃɛ́ tuntun ní ilú èkó/",
+      "phonetic_simple": "MO MÁÀ BÈ-RÈ I-SHÉ TOUN-TOUN NÍ I-LOÚ È-KÓ.",
+      "translation": "Je vais commencer un nouveau travail à Lagos.",
+      "context": "Annonce claire d'un projet professionnel futur."
+    },
+    {
+      "phrase_id": "B1_M2_L5_P3",
+      "original": "Kí ni àwọn àfojúsùn rẹ fún ọjọ́ iwájú?",
+      "phonetic_api": "/kí nĩ àwɔ̃ àfod͡ʒúsʊ̀ ɾɛ fʊ́ ɔd͡ʒɔ́ iwájú/",
+      "phonetic_simple": "KÍ NI À-WAN À-FO-JÚ-SOÙN RÈ FOÚN AW-JÁ I-WÁ-JOÚ?",
+      "translation": "Quelles sont tes ambitions pour l'avenir ?",
+      "context": "Interroger un étudiant ou un jeune professionnel sur ses buts de vie."
+    },
+    {
+      "phrase_id": "B1_M2_L5_P4",
+      "original": "Mo ń gbèrò lati kọ́ ilé nla fún àwọn òbí mi.",
+      "phonetic_api": "/mo ŋ́ ɡ͡bèɾò lati kɔ́ ilé ŋlā fʊ́ àwɔ̃ òbí ɾĩ/",
+      "phonetic_simple": "MO N GBÈ-RÒ LÁ-TI KÁ ILÉ N-LA FOÚN À-WAN Ò-BÍ MI.",
+      "translation": "Je projette de construire une grande maison pour mis parents.",
+      "context": "Expression d'un objectif personnel empreint de piété filiale."
+    },
+    {
+      "phrase_id": "B1_M2_L5_P5",
+      "original": "Mo ní ìrètí pé iṣẹ́ mi máa múnú mi dùn.",
+      "phonetic_api": "/mo ní ìɾètí k͡pé iʃɛ́ mĩ máː múnú mĩ dù/",
+      "phonetic_simple": "MO NÍ Ì-RÉ-TÍ KPÉ I-SHÉ MI MÁÀ MOÚ-NÚ MI DOÙN.",
+      "translation": "J'ai l'espoir que ma profession me rendra heureux.",
+      "context": "Formuler un souhait d'épanouissement futur."
+    },
+    {
+      "phrase_id": "B1_M2_L5_P6",
+      "original": "Bí Ọlọ́run bá fẹ́, mo máa parí fásitì lọ́dun yìí.",
+      "phonetic_api": "/bí ɔlɔ́ɾʊ̃ bá fɛ́ mo máː k͡paɾí fásitì lɔ́dʊ̃ jĩː/",
+      "phonetic_simple": "BÍ AW-LÁW-ROUN BÁ FÉ, MO MÁÀ KPA-RÍ FÁ-SI-TÌ LÁW-DOÚN YÍ.",
+      "translation": "Si Dieu le veut, je vais terminer l'université cette année.",
+      "context": "Projection soumise à la condition divine (usage très fréquent)."
+    },
+    {
+      "phrase_id": "B1_M2_L5_P7",
+      "original": "Àṣeyọrí rẹ máa di dandan nítorí akíkanjú ni ọ.",
+      "phonetic_api": "/àʃejɔɾí ɾɛ máː di dãdã nĩtoɾí akíkánd͡ʒú nĩ ɔ/",
+      "phonetic_simple": "À-SHE-YÁW-RÍ RÈ MÁÀ DI DAN-DAN NÍ-TO-RÍ A-KÍ-KAN-JOÚ NI AW.",
+      "translation": "Ton succès est assuré car tu es un travailleur vaillant.",
+      "context": "Encourager chaleureusement un proche dans ses projets."
+    },
+    {
+      "phrase_id": "B1_M2_L5_P8",
+      "original": "A máa rí ìdàgbàsókè nínú ètò ọrọ̀-ajé wa.",
+      "phonetic_api": "/a máː ɾí ìdàɡ͡bàsókè nĩ́nú ɛ̀tò ɔ̀ɾɔ̀aʒé wa/",
+      "phonetic_simple": "A MÁÀ RÍ Ì-DÀ-GBÀ-SÓ-KÈ NÍ-NOÚ È-TÒ ÀW-RÀW-A-JÉ WA.",
+      "translation": "Nous verrons du progrès dans notre situation économique.",
+      "context": "Déclaration d'optimisme collectif ou entrepreneurial."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le futur aspectuel d'intention avec 'máa'",
+      "explanation": "Pour projeter une action dans l'avenir ou exprimer une ferme intention, la langue yoruba recourt à la particule aspectuelle prédicative 'máa'. Elle se positionne directement entre le pronom sujet et le verbe d'action principal.",
+      "rules": [
+        "Structure : [Sujet] + máa + [Verbe].",
+        "Ne pas confondre avec le marqueur négatif de l'impératif 'má' (ne... pas) qui porte un ton haut court sans allongement vocalique."
+      ],
+      "examples": [
+        {
+          "structure": "Mo + máa + ṣiṣẹ́",
+          "phonetic_api": "/mo máː ʃiʃɛ́/",
+          "meaning": "Je vais travailler / Je travaillerai."
+        },
+        {
+          "structure": "A + máa + rí + àṣeyọrí",
+          "phonetic_api": "/a máː ɾí àʃejɔɾí/",
+          "meaning": "Nous connaîtrons (verrons) le succès."
+        }
+      ]
+    },
+    {
+      "concept": "L'introduction de la clause de conditionnalité future avec 'Bí... bá...'",
+      "explanation": "Les projets d'avenir s'accompagnent souvent d'incertitudes ou de conditions. Le yoruba structure l'hypothèse future par l'élément discontinu 'Bí' (si) placé en début de phrase et le morphème 'bá' (au cas où / si) intercalé entre le sujet de la condition et son verbe.",
+      "rules": [
+        "Structure : Bí + [Sujet de la condition] + bá + [Verbe], [Sujet du projet] + máa + [Verbe principal].",
+        "Le morphème 'bá' porte invariablement un ton haut."
+      ],
+      "examples": [
+        {
+          "structure": "Bí + owó + bá + sí, mo máa ra ọkọ̀",
+          "phonetic_api": "/bí owó bá sí mo máː ɾa ɔkɔ̀/",
+          "meaning": "S'il y a de l'argent, j'achèterai une voiture."
+        },
+        {
+          "structure": "Bí + o + bá + yára, a máa dé lókòókò",
+          "phonetic_api": "/bí o bá jáɾa a máː dé lókòókò/",
+          "meaning": "Si tu te dépêches, nous arriverons à temps."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Káyọ̀dé (Le conseiller / ami)",
+      "text": "Fẹ́mi, ọdún ń lọ opin. Kí ni o máa ṣe ní ọdún tí ó ń bọ̀ fún iṣẹ́ rẹ?",
+      "phonetic_api": "/fɛ́mĩ ɔdʊ́ ŋ́ lɔ okĩ kí nĩ o máː ʃe ní ɔdʊ́ tí ó ŋ́ bọ̀ fʊ́ iʃɛ́ ɾɛ/",
+      "phonetic_simple": "FÉ-MI, ÀW-DOÚN N LAW OH-PIN. KÍ NI O MÁÀ SHÉ NÍ ÀW-DOÚN TÍ Ó N BÀW FOÚN I-SHÉ RÈ?",
+      "translation": "Femi, l'année touche à sa fin. Qu'est-ce que tu vas faire l'année prochaine pour ta carrière ?"
+    },
+    {
+      "speaker": "Fẹ́mi (L'interlocuteur)",
+      "text": "Mo ń gbèrò lati tún iṣẹ́ mi tò. Àfojúsùn mi ni lati rí ìdàgbàsókè nla lẹ́nu iṣẹ́ yìí.",
+      "phonetic_api": "/mo ŋ́ ɡ͡bèɾò lati tʊ́ iʃɛ́ mĩ tò àfod͡ʒúsʊ̀ mĩ nĩ lati ɾí ìdàɡ͡bàsókè ŋlā lɛ́nu iʃɛ́ jĩː/",
+      "phonetic_simple": "MO N GBÈ-RÒ LÁ-TI TOÚN I-SHÉ MI TÒ. À-FO-JÚ-SOÙN MI NI LÁ-TI RÍ Ì-DÀ-GBÀ-SÓ-KÈ N-LA LÉ-NU I-SHÉ YÍ.",
+      "translation": "Je projette de réorganiser mon activité. Mon ambition est de voir un grand développement dans mon métier."
+    },
+    {
+      "speaker": "Káyọ̀dé (Le conseiller / ami)",
+      "text": "Ìyẹn dára púpọ̀. Bí o bá ṣiṣẹ́ kára, ṣé o ní ìrètí pé àṣeyọrí rẹ máa yára dé?",
+      "phonetic_api": "/ìjɛ̃ dáɾa k͡púpɔ̀ bí o bá ʃiʃɛ́ káɾa ʃé o ní ìɾètí k͡pé àʃejɔɾí ɾɛ máː jáɾa dé/",
+      "phonetic_simple": "Ì-YẸN DÁ-RA KPOÚ-PÀW. BÍ O BÁ SHI-SHÉ KÁ-RA, SHÉ O NÍ Ì-RÉ-TÍ KPÉ À-SHE-YÁW-RÍ RÈ MÁÀ YÁ-RA DÉ?",
+      "translation": "C'est une excellente chose. Si tu travailles dur, as-tu l'espoir que ton succès arrivera rapidement ?"
+    },
+    {
+      "speaker": "Fẹ́mi (L'interlocuteur)",
+      "text": "Bẹ́ẹ̀ ni. Mo gbàgbọ́ pé àṣeyọrí máa di dandan. Mo máa kọ ilé fún ẹbí mi lọ́la.",
+      "phonetic_api": "/bɛ́ː nĩ mo ɡ͡bàɡ͡bɔ́ k͡pé àʃejɔɾí máː di dãdã mo máː kɔ ilé fʊ́ ɛbí mĩ lɔ́la/",
+      "phonetic_simple": "BÉÈ NI. MO GBA-GBÁ KPÉ À-SHE-YÁW-RÍ MÁÀ DI DAN-DAN. MO MÁÀ KÀW ILÉ FOÚN È-BI MI LÁW-LA.",
+      "translation": "Tout à fait. Je crois fermement que la réussite est assurée. Je construirai une maison pour ma famille à l'avenir."
+    }
+  ],
+  "cultural_notes": [
+    "La culture yoruba accorde une place primordiale à l'ambition personnelle saine, qualifiée d' 'Aṣẹmúra' ou de quête d'accomplissement. Réussir matériellement et socialement pour honorer ses parents et soutenir son clan familial ('Ẹbí') est l'idéal ultime de tout individu.",
+    "Il est culturellement proscrit d'énoncer ses projets futurs de manière péremptoire ou arrogante. Chaque projection est systématiquement adoucie par des locutions de déférence spirituelle telles que 'Bí Ọlọ́run bá fẹ́' (Si Dieu le veut) ou 'Ká rí iṣe' (Pourvu que nos efforts portent leurs fruits).",
+    "Le concept d' 'Àṣeyọrí' s'accompagne traditionnellement de grandes célébrations festives collectives, car la réussite d'un enfant du pays rejaillit sur l'honneur de toute sa communauté d'origine."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L5_EX1",
+      "type": "multiple_choice",
+      "question": "Comment formule-t-on syntaxiquement le projet 'Je vais étudier à l'étranger l'année prochaine' ?",
+      "options": [
+        "Mo ti kọ́ni ní ilẹ̀ òkèèrè lọ́dún tí ó ń bọ̀",
+        "Mo máa kàwé ní ilẹ̀ òkèèrè lọ́dún tí ó ń bọ̀",
+        "Ìwé kíkà ní ilẹ̀ òkèèrè ni mo ṣe tẹ́lẹ̀",
+        "Bí mo bá fẹ́, mo ń kàwé ní ilẹ̀ òkèèrè báyìí"
+      ],
+      "correct_answer": "Mo máa kàwé ní ilẹ̀ òkèèrè lọ́dún tí ó ń bọ̀",
+      "explanation": "La phrase requiert l'usage du marqueur de futur 'máa' combiné au verbe 'kàwé' (étudier), et complété par l'indicateur de temps futur 'lọ́dún tí ó ń bọ̀' (l'année qui vient)."
+    },
+    {
+      "exercise_id": "B1_M2_L5_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour exprimer une condition d'avenir ('Si tu acceptes...'), on utilise la structure discontinue : [ ___ ] o bá gbà...",
+      "correct_answer": "Bí",
+      "hint": "C'est la conjonction de subordination obligatoire placée en ouverture de la proposition hypothétique."
+    }
+  ]
+}

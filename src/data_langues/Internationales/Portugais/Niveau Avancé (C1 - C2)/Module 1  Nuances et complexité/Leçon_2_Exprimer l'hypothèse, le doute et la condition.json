@@ -1,0 +1,253 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Formuler des conditions complexes en combinant avec précision le Futur du Subjonctif et l'Impératif/Futur",
+    "Exprimer des doutes nuancés et des probabilités via des locutions conjonctives avancées",
+    "Maîtriser les structures alternatives de la condition sans utiliser la conjonction 'se'"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'x' dans 'hipótese' se prononce comme un 'z' doux [iˈpɔtɨzɨ]. Le mot 'dúvida' demande une prononciation claire et brève du 'u' accentué [ˈðuviðɐ]. Les formes du futur du subjonctif comme 'quiserem' possèdent un 's' qui sonne également [z] car il est placé entre deux voyelles [kiˈzɛɾɐ̃j].",
+    "common_pitfalls": "Attention à la prononciation du groupe 'c' dans 'convicção'. Le premier 'c' est totalement muet en portugais européen moderne, mais le 'a' qui précède reste ouvert et le 'ç' sonne sourd [kõvikˈsɐ̃w]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Hipótese",
+      "phonetic_api": "/iˈpɔtɨzɨ/",
+      "phonetic_simple": "EE-PÓ-T'H-Z'H",
+      "translation": "Hypothèse / Éventualité",
+      "example_sentence": "Não podemos descartar nenhuma hipótese nesta fase.",
+      "example_phonetic": "/nɐ̃w puˈðemuʃ dɨʃkɐɾˈtaɾ nɨˈɲumɐ iˈpɔtɨzɨ ˈneʃtɐ ˈfazɨ/",
+      "example_translation": "Nous ne pouvons écarter aucune hypothèse à ce stade."
+    },
+    {
+      "word_id": "v2",
+      "term": "Convicção",
+      "phonetic_api": "/kõvikˈsɐ̃w/",
+      "phonetic_simple": "KON-VEEK-SANG",
+      "translation": "Conviction / Certitude",
+      "example_sentence": "Ele defendeu a sua tese com grande convicção.",
+      "example_phonetic": "/ˈelɨ dɨfẽˈðjew ɐ ˈtuɐ ˈtɛzɨ kõ ˈgɾɐ̃dɨ kõvikˈsɐ̃w/",
+      "example_translation": "Il a défendu sa thèse avec une grande conviction."
+    },
+    {
+      "word_id": "v3",
+      "term": "Pressupor",
+      "phonetic_api": "/pɾɨsupuˈɾ/",
+      "phonetic_simple": "PR'H-SOO-POR",
+      "translation": "Présupposer / Impliquer",
+      "example_sentence": "Esta medida pressupõe uma mudança estrutural.",
+      "example_phonetic": "/ˈeʃtɐ mɨˈðiðɐ pɾɨsuˈpõj ˈumɐ muˈðɐ̃sɐ iʃtɾutuˈɾaɫ/",
+      "example_translation": "Cette mesure présuppose un changement structurel."
+    },
+    {
+      "word_id": "v4",
+      "term": "Ceticismo",
+      "phonetic_api": "/sɨtiˈsizmu/",
+      "phonetic_simple": "S'H-TEE-SEEZ-MOO",
+      "translation": "Scepticisme",
+      "example_sentence": "A proposta foi recebida com algum ceticismo pela administração.",
+      "example_phonetic": "/ɐ pɾuˈpɔʃtɐ foj ʁɨsɨˈβiðɐ kõ splitɫˈgũ sɨtiˈsizmu ˈpɛlɐ splitðmʲiniʃtɾɐˈsɐ̃w/",
+      "example_translation": "La proposition a été accueillie avec un certain scepticisme par l'administration."
+    },
+    {
+      "word_id": "v5",
+      "term": "Incerteza",
+      "phonetic_api": "/ĩsɨɾˈtezɐ/",
+      "phonetic_simple": "EEN-SAIR-TAY-ZAH",
+      "translation": "Incertitude / Flou",
+      "example_sentence": "O clima de incerteza económica prejudica os investimentos.",
+      "example_phonetic": "/u ˈklimɐ dɨ ĩsɨɾˈtezɐ iquˈnɔmʲikɐ pɾɨʒuˈðikɐ uz ĩvɨʃtiˈmẽtuʃ/",
+      "example_translation": "Le climat d'incertitude économique nuit aux investissements."
+    },
+    {
+      "word_id": "v6",
+      "term": "Contanto que",
+      "phonetic_api": "/kõˈtɐ̃tu kɨ/",
+      "phonetic_simple": "KON-TAN-TOO K'H",
+      "translation": "Pourvu que / À condition que (exige le subjonctif)",
+      "example_sentence": "Aceitamos os termos, contanto que cumpram o prazo.",
+      "example_phonetic": "/splitʃajˈtsplitmuʃ uʃ ˈteɾmuʃ kõˈtɐ̃tu kɨ ˈkũpɾɐ̃w u ˈpɾazu/",
+      "example_translation": "Nous acceptons les termes, pourvu que vous respectiez le délai."
+    },
+    {
+      "word_id": "v7",
+      "term": "A menos que",
+      "phonetic_api": "/split ˈmenwʃ kɨ/",
+      "phonetic_simple": "AH MAY-NOOCH K'H",
+      "translation": "À moins que (exige le subjonctif)",
+      "example_sentence": "Não haverá alterações, a menos que surja algo grave.",
+      "example_phonetic": "/nɐ̃w splitvɨˈɾa splitɫtɨɾɐˈsõjʃ split ˈmenuʃ kɨ ˈsuɾʒɐ splitɫˈgu ˈgɾavɨ/",
+      "example_translation": "Il n'y aura pas de modifications, à moins qu'un problème grave ne survienne."
+    },
+    {
+      "word_id": "v8",
+      "term": "Plausível",
+      "phonetic_api": "/plawˈzivɛɫ/",
+      "phonetic_simple": "PLAW-ZEE-VEL",
+      "translation": "Plausible / Recevable",
+      "example_sentence": "Apresentou uma justificação perfeitamente plausível.",
+      "example_phonetic": "/splitpɾɨzẽˈtow ˈumɐ ʒuʃtifikɐˈsɐ̃w pɨɾfɐjtɐˈmẽtɨ plawˈzivɛɫ/",
+      "example_translation": "Il a présenté une justification tout à fait plausible."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Se porventura houver alguma alteração ao programa, avisar-vos-emos de imediato.",
+      "phonetic_api": "/sɨ puɾvẽˈtuɾɐ oˈveɾ splitɫˈgumɐ splitɫtɨɾɐˈsɐ̃w aw pɾuˈgɾsplitmɐ splitvizsplitɾˈvuzˈɛmuʒ dɨ imɨˈdjatu/",
+      "phonetic_simple": "S'H POOR-VEN-TOO-RAH OH-VER AL-GOO-MAH AL-TAIR-AH-SANG AW PROO-GRAH-MAH AH-VEE-ZAR-VOOZ-AY-MOOCH D'H EE-M'H-DYAH-TOO",
+      "translation": "Si par aventure il y avait une quelconque modification au programme, nous vous préviendrons immédiatement.",
+      "context": "Formuler une clause conditionnelle formelle et prudente (Futur du Subjonctif + Mésoclise)."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Caso subsista alguma dúvida, não hesite em contactar os nossos serviços.",
+      "phonetic_api": "/ˈkazu subˈziʃtɐ splitɫˈgumɐ ˈðuviðɐ nɐ̃w iˈzitɨ split̃j kõtsplittˈtaɾ uʃ ˈnɔsuz sɨɾˈvisuʃ/",
+      "phonetic_simple": "KAH-ZOO SOOB-ZEECH-TAH AL-GOO-MAH DOO-VEE-DAH NANG EE-ZEE-T'H ENG KON-TAK-TAR OOCH NÓ-SOOCH SAIR-VEE-SOOCH",
+      "translation": "Au cas où un doute subsisterait, n'hésitez pas à contacter nos services.",
+      "context": "Clôture classique et professionnelle de courriel d'affaires (Caso + Subjonctif Présent)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "A menos que o mercado recupere, teremos de reestruturar o departamento.",
+      "phonetic_api": "/split ˈmenuʃ kɨ u mɨɾˈkaðu ʁɨkuˈpɛɾɨ tɨˈɾemuʃ dɨ ʁɨʃtɾutuˈɾaɾ u dɨpɐɾtɐˈmẽtu/",
+      "phonetic_simple": "AH MAY-NOOCH K'H OO MAIR-KAH-DOO R'H-KOO-PÈ-R'H TAY-MOOCH D'H RECH-TROO-TOO-RAR OO D'H-PAR-TAH-MEN-TOO",
+      "translation": "À moins que le marché ne se redresse, nous devrons restructurer le département.",
+      "context": "Analyser des perspectives économiques ou stratégiques sous condition restrictive."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Duvido muito que eles consigam angariar os fundos necessários a tempo.",
+      "phonetic_api": "/duˈviðu ˈmũjtu kɨ ˈelɨʃ kõˈsiɣsplit̃j split̃gɐɾiˈaɾ uʃ ˈfũduʒ nɨsɨˈsaɾjuʃ split ˈtẽpu/",
+      "phonetic_simple": "DOO-VEE-DOO MOYN-TOO K'H AY-LYCH KON-SEE-GANG AN-GAH-RYAR OOCH FOON-DOOCH N'H-S'H-SAH-RYOOCH AH TEN-POO",
+      "translation": "Je doute fort qu'ils parviennent à lever les fonds nécessaires à temps.",
+      "context": "Exprimer un doute marqué concernant la faisabilité d'un projet."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Desde que o acordo salvaguarde os nossos interesses, avançaremos com a parceria.",
+      "phonetic_api": "/ˈdɨʒdɨ kɨ u splitˈkoɾðu sɐɫvɐˈgwaɾðɨ uʃ ˈnɔsuz ĩtɨˈʁɛsɨʃ splitvsplit̃sɐˈɾemuʃ kõ ɐ pɐɾsɨˈɾiɐ/",
+      "phonetic_simple": "DEECH-D'H K'H OO AH-COR-DOO SAL-VAH-GWAR-D'H OOCH NÓ-SOOCH EEN-T'H-RÈ-S'HCH AH-VAN-SAH-RAI-MOOCH KON AH PAR-S'H-REE-AH",
+      "translation": "Pourvu que l'accord préserve nos intérêts, nous irons de l'avant avec le partenariat.",
+      "context": "Fixer une condition de négociation claire (Desde que + Subjonctif)."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Mesmo que surjam imprevistos, manteremos o calendário planeado.",
+      "phonetic_api": "/ˈmeʃmu kɨ ˈsuɾʒsplit̃j ĩpɾɨˈviʃtuʃ msplit̃tɨˈɾemuʃ u kɐlẽˈdaɾju plsplitnʲiˈaðu/",
+      "phonetic_simple": "MECH-MOO K'H SOOR-JANG EEN-PR'H-VEECH-TOOCH MAN-TAY-RAY-MOOCH OO KAH-LEN-DAH-RYOO PLAH-NYAH-DOO",
+      "translation": "Même si des imprévus surviennent, nous maintiendrons le calendrier planifié.",
+      "context": "Affirmer sa détermination managériale face aux aléas."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Se por acaso eles quiserem rever as cláusulas, estaremos disponíveis.",
+      "phonetic_api": "/sɨ puɾ splitˈkazu ˈelɨʃ kiˈzɛɾsplitjʃ ʁɨˈveɾ ɐʃ ˈklawzulɐʃ iʃtɐˈɾemuʃ dɨʃpuˈnivajʃ/",
+      "phonetic_simple": "S'H POOR AH-KAH-ZOO AY-LYCH KEE-ZÈ-RENG R'H-VER ACH KLAW-ZOO-LACH ECH-TAH-RAY-MOOCH DEECH-POO-NEE-VAYCH",
+      "translation": "Si d'aventure ils voulaient revoir les clauses, nous serions disponibles.",
+      "context": "Laisser la porte ouverte à une révision contractuelle."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Não há qualquer indício de que o plano vá falhar.",
+      "phonetic_api": "/nɐ̃w a kwsplitɫˈkɛɾ ĩˈdisiu dɨ kɨ u ˈplsplitnu va fsplitˈʎaɾ/",
+      "phonetic_simple": "NANG AH KWAL-KAIR EEN-DEE-SYOO D'H K'H OO PLAH-NOO VAH FAH-LYAR",
+      "translation": "Il n'y a aucun indice laissant penser que le plan va échouer.",
+      "context": "Rassurer des investisseurs ou des collaborateurs sur la viabilité d'une action."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le Futur du Subjonctif (Futuro do Conjuntivo) dans les structures conditionnelles",
+      "explanation": "Caractéristique majeure du portugais avancée, le futur du subjonctif s'emploie après la conjonction 'se' ou des adverbes temporels/conditionnels pour exprimer une condition future perçue comme tout à fait réalisable.",
+      "rules": [
+        "Formation : Basé sur la 3e personne du pluriel du Pretérito Perfeito. Terminaisons : -es, -, -mos, -em ajoutées au radical (ex: se eu quiser, se tu quiseres, se nós quisermos).",
+        "Combinaison syntaxique : La proposition principale se conjugue généralement au Futur de l'Indicatif ou à l'Impératif."
+      ],
+      "examples": [
+        {
+          "structure": "Se eles propuserem um acordo justo, nós aceitaremos.",
+          "phonetic_api": "/sɨ ˈelɨʃ pɾupuˈzɛɾsplitjʃ ũ splitˈkoɾðu ˈʒuʃtu nɔʃ splitʃajtsplitˈɾemuʃ/",
+          "meaning": "S'ils proposent (Futur du Subjonctif) un accord juste, nous accepterons (Futur)."
+        }
+      ]
+    },
+    {
+      "concept": "Les structures de condition alternatives sans 'se' (Caso, Contanto que, Desde que)",
+      "explanation": "Pour élever le niveau de langue et éviter la répétition de 'se', le portugais utilise des locutions conjonctives de condition qui régissent systématiquement le Subjonctif Présent.",
+      "rules": [
+        "Caso + Subjonctif Présent (Au cas où / Si jamais).",
+        "Desde que / Contanto que + Subjonctif Présent (Pourvu que / À condition que).",
+        "A menos que / A não ser que + Subjonctif Présent (À moins que)."
+      ],
+      "examples": [
+        {
+          "structure": "Caso haja algum atraso, avise-me.",
+          "phonetic_api": "/ˈkazu ˈaʒɐ splitɫˈgũ splitˈtɾazu splitˈvizɨ.mɨ/",
+          "meaning": "Au cas où il y aurait (Subjonctif Présent) un retard, prévenez-moi."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ricardo",
+      "text": "Olá Mariana. Analisei o plano de expansão e confesso que tenho algumas dúvidas. Caso o investimento inicial ultrapasse o teto previsto, como faremos?",
+      "phonetic_api": "/oˈla msplitɾjˈsplitnɐ splitnɐliˈzaj u ˈplsplitnu dɨ iʃpɐ̃ˈsɐ̃w i kõˈfɛsu kɨ ˈteɲu splitɫˈgumɐʃ ˈðuviðɐʃ ˈkazu u ĩvɨʃtiˈmẽtu inʲisiˈaɫ uɫtɾsplitpˈasɨ u ˈtetu pɾɨˈviʃtu ˈkomu fsplitˈɾemuʃ/",
+      "phonetic_simple": "OH-LAH MAH-RYAH-NAH AH-NAH-LEE-ZAY OO PLAH-NOO D'H ECH-PAN-SANG EE KON-FÈ-SOO K'H TAY-NYOO AL-GOO-MACH DOO-VEE-DACH KAH-ZOO OO EEN-V'HCH-TEE-DOO EE-NEE-SYAL OOL-TRAH-PAH-S'H OO TAY-TOO PR'H-VEECH-TOO KOH-MOO FAH-RAY-MOOCH",
+      "translation": "Salut Mariana. J'ai analysé le plan d'expansion et je t'avoue que j'ai quelques doutes. Au cas où l'investissement initial dépasserait le plafond prévu, comment ferons-nous ?"
+    },
+    {
+      "speaker": "Mariana",
+      "text": "Compreendo o teu ceticismo, Ricardo. Se os custos subirem substancialmente, recorreremos à linha de crédito suplementar. Contanto que mantenhamos os acionistas informados, não haverá entraves.",
+      "phonetic_api": "/kõpɾiˈẽdu u tew sɨtiˈsizmu ʁiˈkaɾðu sɨ uʃ ˈkuʃtuʃ suˈβiɾsplitjʃ suβʃtsplit̃sisplitɫˈmẽtɨ ʁɨkuˈʁɨɾemuʃ a ˈlĩɲɐ dɨ ˈkɾɛðitu suplsplitmẽˈtaɾ kõˈtɐ̃tu kɨ msplit̃tɨˈɲsplitmuʃ uz splitsjuˈniʃtɐʃ ĩfuɾˈmsplitðuʃ nɐ̃w splitvɨˈɾa ẽˈtɾavɨʃ/",
+      "phonetic_simple": "KON-PRYEN-DOO OO TEW S'H-TEE-SEEZ-MOO REE-KAR-DOO S'H OOCH KOOCH-TOOCH SOO-BEE-RENG SOOB-STAN-SYAL-MEN-T'H R'H-COOR-RAY-RAY-MOOCH AH LEEN-YAH D'H CRÈ-DEE-TOO SOO-PLAY-MEN-TAR KON-TAN-TOO K'H MAN-T'H-NYAH-MOOCH OOCH AH-SYOO-NEECH-TACH EEN-FOOR-MAH-DOOCH NANG AH-VEE-RAH EN-TRAH-V'HCH",
+      "translation": "Je comprends ton scepticisme, Ricardo. Si les coûts augmentent substantiellement, nous aurons recours à la ligne de crédit supplémentaire. Pourvu que nous tenions les actionnaires informés, il n'y aura pas d'obstacles."
+    },
+    {
+      "speaker": "Ricardo",
+      "text": "Fico mais descansado. No entanto, a menos que a conjuntura internacional ajude, a expansão será arriscada. Tens essa convicção?",
+      "phonetic_api": "/ˈfiku msplitjʃ dɨʃksplit̃ˈsaðu nu ɐ̃jˈtsplit̃tu split ˈmenuʃ kɨ ɐ kõʒũˈtuɾsplit ĩtɨɾnsplitʃuˈnaɫ splitˈʒuðɨ ɐ iʃpɐ̃ˈsɐ̃w sɨˈɾa splitʁiʃˈkaðɐ tɐ̃jʒ ˈɛsɐ kõvikˈsɐ̃w/",
+      "phonetic_simple": "FEE-KOO MAYCH DECH-KAN-SAH-DOO NOO EN-TAN-TOO AH MAY-NOOCH K'H AH KON-JHOON-TOO-RAH EEN-TAIR-NAH-SYAL AH-JHOO-D'H AH ECH-PAN-SANG SAY-RAH AH-REES-KAH-DAH TENG-CH EH-SAH KON-VEEK-SANG",
+      "translation": "Me voilà plus rassuré. Cependant, à moins que la conjoncture internationale ne nous aide, l'expansion sera risquée. As-tu cette conviction ?"
+    },
+    {
+      "speaker": "Mariana",
+      "text": "Tenho plena convicção de que é o passo correto. Se não arriscarmos agora que temos liquidez, perderemos uma oportunidade plausível de liderar o setor.",
+      "phonetic_api": "/ˈteɲu ˈplenɐ kõvikˈsɐ̃w dɨ kɨ ɛ u ˈpasu kuˈʁɛtu sɨ nɐ̃w splitʁiʃˈksplitɾmuʃ splitˈgɔɾsplit kɨ ˈtɛmuʒ likiˈðɛʃ pɨɾðɨˈɾemuʃ ˈumɐ ɔpuɾtuniˈðaðɨ plawˈzivɛɫ dɨ diɾɛˈsɐ̃w u sɨˈtoɾ/",
+      "phonetic_simple": "TAY-NYOO PLAY-NAH KON-VEEK-SANG D'H K'H É OO PAH-SOO COOR-RÈ-TOO S'H NANG AH-REES-KAR-MOOCH AH-GÓ-RAH K'H TAY-MOOCH LEE-KEE-DÈCH PAIR-DAY-RAY-MOOCH OO-MAH Ó-POOR-TOO-NEE-DAH-D'H PLAW-ZEE-VEL D'H LEE-D'H-RAR OO S'H-TOR",
+      "translation": "J'ai la pleine conviction que c'est la bonne décision. Si nous ne prenons pas de risques maintenant que nous avons des liquidités, nous perdrons une opportunité plausible de diriger le secteur."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les négociations de haut niveau en milieu professionnel portugais, l'expression du doute ou de l'objection se fait toujours de manière très diplomatique. L'usage de locutions comme 'Caso houvera' ou 'A menos que' permet d'émettre des réserves sans paraître frontalement oppositionnel.",
+    "La culture managériale au Portugal valorise la prudence financière. Savoir articuler des scénarios d'incertitude économique à l'aide des modes et temps grammaticaux avancés est un prérequis indispensable pour tout cadre supérieur ou consultant."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la forme verbale correcte pour compléter cette phrase de condition future : 'Se nós ______ (obter) o financiamento, iniciaremos a obra.'",
+      "options": [
+        "obtermos",
+        "obtivermos",
+        "obtenham"
+      ],
+      "correct_answer": "obtivermos",
+      "explanation": "Le verbe 'obter' suit la conjugaison irrégulière de 'ter' au futur du subjonctif. La forme correcte à la première personne du pluriel est donc 'obtivermos'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Complétez avec la locution de condition restrictive appropriée exigeant le subjonctif : Não assinaremos o contrato, [ ___ ] que alterem a cláusula de rescisão.",
+      "correct_answer": "a menos",
+      "hint": "Expression synonyme de 'sauf si' ou 'à moins' se composant de deux mots ici."
+    }
+  ]
+}

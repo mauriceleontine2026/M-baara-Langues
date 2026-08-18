@@ -1,0 +1,244 @@
+{
+  "lesson_id": "B1_M3_L7",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 7,
+  "title": "Exprimer l'obligation, l'interdiction et la permission",
+  "learning_objectives": [
+    "Exprimer l'obligation personnelle et impersonnelle en utilisant 'должен' et 'нужно'/'надо'",
+    "Formuler une interdiction stricte ou une impossibilité matérielle avec 'нельзя'",
+    "Demander et accorder une permission polie en utilisant 'можно'",
+    "Maîtriser la régence du cas Datif associé aux structures de modalité russes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le 'Ж' de 'Должен' se prononce comme une consonne fricative post-alvéolaire sonore toujours dure [ʐ]. Le signe mou à la fin de l'infinitif dans 'Разрешить' adoucit totalement le 'Т' : [rəzrʲɪˈʂɨtʲ].",
+    "common_pitfalls": "Attention à la réduction vocalique dans 'Можно' : le premier 'о' porte l'accent tonique [ˈmoʐnə], le second 'о' se réduit donc en un son [ə] très discret. Ne prononcez jamais 'MOJ-no' avec un 'o' ouvert à la fin."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Должен",
+      "phonetic_api": "/ˈdoɫʐɨn/",
+      "phonetic_simple": "DOL-jen",
+      "translation": "Devoir / Obligé (S'accorde en genre et en nombre)",
+      "example_sentence": "Я должен закончить этот отчёт сегодня.",
+      "example_phonetic": "/ja ˈdoɫʐɨn zɐˈkonʲtɕɪtʲ ˈɛtət ɐtˈtɕot sʲɪˈvodnʲə/",
+      "example_translation": "Je dois terminer ce rapport aujourd'hui."
+    },
+    {
+      "word_id": "v2",
+      "term": "Можно",
+      "phonetic_api": "/ˈmoʐnə/",
+      "phonetic_simple": "MOJ-na",
+      "translation": "Il est permis / On peut / Possible",
+      "example_sentence": "Здесь можно припарковаться?",
+      "example_phonetic": "/zdʲesʲ ˈmoʐnə prʲɪpərkɐˈvat͡sʲə/",
+      "example_translation": "Peut-on se garer ici ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "Нельзя",
+      "phonetic_api": "/nʲɪlʲˈzʲa/",
+      "phonetic_simple": "nil'-ZIA",
+      "translation": "Il est interdit / Impossible / On ne peut pas",
+      "example_sentence": "В офисе нельзя курить.",
+      "example_phonetic": "/v ˈofʲɪsɪ nʲɪlʲˈzʲa kʊˈrʲitʲ/",
+      "example_translation": "Il est interdit de fumer dans le bureau."
+    },
+    {
+      "word_id": "v4",
+      "term": "Надо",
+      "phonetic_api": "/ˈnadə/",
+      "phonetic_simple": "NA-da",
+      "translation": "Il faut / Il est nécessaire (Impersonnel)",
+      "example_sentence": "Нам надо обсудить этот вопрос.",
+      "example_phonetic": "/nam ˈnadə ɐbsʊʐˈda|tʲ ˈɛtət vɐˈpros/",
+      "example_translation": "Il nous faut discuter de cette question."
+    },
+    {
+      "word_id": "v5",
+      "term": "Разрешить",
+      "phonetic_api": "/rəzrʲɪˈʂɨtʲ/",
+      "phonetic_simple": "raz-ri-CHIT'",
+      "translation": "Autoriser / Permettre / Accorder (Perfectif)",
+      "example_sentence": "Директор разрешил взять отгул.",
+      "example_phonetic": "/dʲɪˈrɛktər rəzrʲɪˈʂɨl vzʲatʲ ɐdˈɡuɫ/",
+      "example_translation": "Le directeur a autorisé à prendre un jour de congé."
+    },
+    {
+      "word_id": "v6",
+      "term": "Запретить",
+      "phonetic_api": "/zəprʲɪˈtʲitʲ/",
+      "phonetic_simple": "za-pri-TIT'",
+      "translation": "Interdire / Prohiber (Perfectif)",
+      "example_sentence": "Руководство запретило пользоваться телефонами.",
+      "example_phonetic": "/rʊkɐˈvot͡stvə zəprʲɪˈtʲilə ˈpolʲzəvət͡sʲə tʲɪlʲɪˈfonəmʲɪ/",
+      "example_translation": "La direction a interdit d'utiliser les téléphones."
+    },
+    {
+      "word_id": "v7",
+      "term": "Правило",
+      "phonetic_api": "/ˈpravʲɪɫə/",
+      "phonetic_simple": "PRA-vi-la",
+      "translation": "Règle / Règlement",
+      "example_sentence": "Вы нарушили внутреннее правило компании.",
+      "example_phonetic": "/vɨ nɐˈruʂɨlʲɪ ˈvnutrʲɪnʲːəjə ˈpravʲɪɫə kɐmˈpanʲɪɪ/",
+      "example_translation": "Vous avez enfreint une règle interne de l'entreprise."
+    },
+    {
+      "word_id": "v8",
+      "term": "Обязанность",
+      "phonetic_api": "/ɐˈbʲazənːəsʲtʲ/",
+      "phonetic_simple": "a-BIA-zan-nast'",
+      "translation": "Obligation / Devoir / Responsabilité",
+      "example_sentence": "Соблюдать контракт — это ваша обязанность.",
+      "example_phonetic": "/səblʲʉˈdatʲ kɐnˈtrakt ˈɛtə ˈvaʂə ɐˈbʲazənːəsʲtʲ/",
+      "example_translation": "Respecter le contrat est votre obligation."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Можно войти?",
+      "phonetic_api": "/ˈmoʐnə vɐjˈtʲi/",
+      "phonetic_simple": "MOJ-na vaï-TI ?",
+      "translation": "Puis-je entrer ?",
+      "context": "Formule indispensable et polie pour entrer dans un bureau ou une pièce occupée."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Вам необходимо подписать этот документ",
+      "phonetic_api": "/vam nʲɪɐbxɐˈdʲimə pədpʲɪˈsatʲ ˈɛtət dəkʊˈmɛnt/",
+      "phonetic_simple": "vam ni-ap-ha-DI-ma pat-pi-SAT' E-tat da-kou-MIENT",
+      "translation": "Il vous est indispensable de signer ce document",
+      "context": "Expression formelle d'une obligation administrative ou légale."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Сюда нельзя заходить без пропуска",
+      "phonetic_api": "/sʲʊˈda nʲɪlʲˈzʲa zəxɐˈdʲitʲ bʲɪs ˈpro pʊskə/",
+      "phonetic_simple": "ssiu-DA nil'-ZIA za-ha-DIT' biez PRO-pous-ka",
+      "translation": "On ne peut pas entrer ici sans badge / laissez-passer",
+      "context": "Consigne de sécurité stricte à l'entrée d'un bâtiment professionnel."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Вы не имеете права этого делать",
+      "phonetic_api": "/vɨ nʲɪ ɪˈmʲeɪ̯ɪtʲɪ ˈpravə ˈɛtəvə ˈdʲelətʲ/",
+      "phonetic_simple": "vy ni i-MIÉ-i-ti PRA-va E-ta-va DIÉ-lat'",
+      "translation": "Vous n'avez pas le droit de faire cela",
+      "context": "Pour contester fermement une action illégale ou abusive."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'obligation personnelle avec Должен",
+      "explanation": "L'adjectif court 'должен' (devoir) fonctionne comme un verbe mais s'accorde obligatoirement en genre et en nombre avec la personne ou le sujet Nominatif qui subit l'obligation.",
+      "rules": [
+        "Masculin : ДОЛЖЕН (Я должен / Он должен работать).",
+        "Féminin : ДОЛЖНА (Я должна / Она должна работать).",
+        "Neutre : ДОЛЖНО (Оно должно работать).",
+        "Pluriel : ДОЛЖНЫ (Мы / Вы / Они должны работать)."
+      ],
+      "examples": [
+        {
+          "structure": "Ольга должна позвонить клиенту, а мы должны подготовить презентацию.",
+          "phonetic_api": "/ˈolʲɡə dɐɫʐˈna pəzvɐˈnʲitʲ klʲɪˈjɛntʊ a mɨ dɐɫʐˈnɨ pədɡɐˈtovʲɪtʲ prʲɪzʲɪntɐˈt͡sɨjʊ/",
+          "meaning": "Olga doit appeler le client, et nous, nous devons préparer la présentation."
+        }
+      ]
+    },
+    {
+      "concept": "La régence du cas Datif avec les structures impersonnelles (Можно / Нельзя / Надо)",
+      "explanation": "Lorsque l'obligation, l'interdiction ou la permission s'adresse à quelqu'un en utilisant un adverbe prédicatif invariable, la personne ne se met pas au Nominatif, mais obligatoirement au cas Datif.",
+      "rules": [
+        "Structure : Bénéficiaire au Datif (Мне, Вам, Коллеге...) + Можно / Нельзя / Надо + Infinitif.",
+        "Nuance avec 'Нельзя' : Suivi d'un infinitif imperfectif, il exprime une interdiction (Il ne faut pas / Défense de). Suivi d'un infinitif perfectif, il exprime une impossibilité physique (On ne peut pas / Impossible de)."
+      ],
+      "examples": [
+        {
+          "structure": "Вам можно войти, а ему нельзя здесь оставаться.",
+          "phonetic_api": "/vam ˈmoʐnə vɐjˈtʲi a jɪˈmu nʲɪlʲˈzʲa zdʲesʲ ɐstɐˈvat͡sʲə/",
+          "meaning": "Vous pouvez entrer (Il vous est permis), mais lui ne peut pas rester ici (Il lui est interdit)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Сотрудник",
+      "text": "Ирина Петровна, извините. Можно войти и задать вам один срочный вопрос?",
+      "phonetic_api": "/ɪˈrʲinə pʲɪˈtrovnə ɪzvʲɪˈnʲitʲɪ ˈmoʐnə vɐjˈtʲi ˈi zɐˈdatʲ vam ɐˈdʲin ˈsrotɕnɨj vɐˈpros/",
+      "phonetic_simple": "i-RI-na pi-TROV-na, iz-vi-NI-ti. MOJ-na vaï-TI i za-DAT' vam a-DIN SROTCH-nyj va-PROS ?",
+      "translation": "Irina Petrovna, excusez-moi. Puis-je entrer et vous poser une question urgente ?"
+    },
+    {
+      "speaker": "Руководитель",
+      "text": "Да, Михаил, заходите. Но быстро, потому что через десять минут я должна быть на совещании у директора.",
+      "phonetic_api": "/da mʲɪxɐˈil zəxɐˈdʲitʲ no ˈbɨstrə pɐtɐˈmu ʂto tɕɪrʲɪz ˈdʲesʲɪtʲ mʲɪˈnut ja dɐɫʐˈna bɨtʲ nə sǝvʲɪˈɕːanʲɪɪ ʊ dʲɪˈrɛktərə/",
+      "phonetic_simple": "Da, mi-ha-IL, za-ha-DI-ti. No BYS-tra, pa-ta-MOU CHTO tchi-riz DIÉ-ssiat' mi-NOUT ya dalj-NA byt' na sa-vi-TCHA-ni-i ou di-REK-ta-ra.",
+      "translation": "Oui, Mikhail, entrez. Mais rapidement, car dans dix minutes je dois être en réunion chez le directeur."
+    },
+    {
+      "speaker": "Сотрудник",
+      "text": "Нам прислали новый контракт. Мне надо подписать его прямо сейчас или можно подождать до завтра?",
+      "phonetic_api": "/nam prʲɪˈsɫalʲɪ ˈnovɨj kɐnˈtrakt mnʲe ˈnadə pədpʲɪˈsatʲ jɪˈvo ˈprʲamə sʲɪjˈtɕas ˈilʲɪ ˈmoʐnə pədɐʐˈdatʲ də ˈzaftrə/",
+      "phonetic_simple": "Nam pri-SLA-li NO-vyj kan-TRAKT. Mnié NA-da pat-pi-SAT' i-VO PRIA-ma sieï-TCHAS i-li MOJ-na pa-daj-DAT' da ZAF-tra ?",
+      "translation": "On nous a envoyé le nouveau contrat. Dois-je le signer dès maintenant ou est-il possible d'attendre jusqu'à demain ?"
+    },
+    {
+      "speaker": "Руководитель",
+      "text": "Нет, ждать нельзя! По правилам компании мы должны отправить ответ в течение суток. Юристы уже разрешили подписание.",
+      "phonetic_api": "/nʲet ʐdatʲ nʲɪlʲˈzʲa pɐ ˈpravʲɪɫəm kɐmˈpanʲɪɪ mɨ dɐɫʐˈnɨ ɐtˈpravʲɪtʲ ɐtˈvʲet f tʲɪˈtɕenʲɪɪ ˈsutək jʉˈrʲɪstɨ ʊˈʐɛ rəzrʲɪˈʂɨlʲɪ pədpʲɪˈsanʲɪjə/",
+      "phonetic_simple": "Niet, jdat' nil'-ZIA ! Pa PRA-vi-lam kam-PA-ni-i my dalj-NY at-PRA-vit' at-VIET f ti-TCHIE-ni-i SOU-tak. Iou-RIS-ty ou-JÉ raz-ri-CHI-li pat-pi-SA-ni-ye.",
+      "translation": "Non, impossible d'attendre ! Selon le règlement de l'entreprise, nous devons envoyer une réponse dans les vingt-quatre heures. Les juristes ont déjà autorisé la signature."
+    }
+  ],
+  "cultural_notes": [
+    "La bureaucratie et les règles (Правила) : Le respect de la hiérarchie et des procédures formelles est très marqué dans le monde professionnel russe. Les documents contractuels officiels requièrent souvent non seulement une signature manuscrite mais également l'application d'un tampon encreur physique (печать) pour être considérés comme valides.",
+    "L'expression 'В течение суток' : Le mot 'сутки' désigne une unité de temps spécifiquement russe qui englobe une journée complète de 24 heures (le jour et la nuit confondus). C'est un terme juridique et commercial standard très fréquent."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M3_L7_ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez l'accord correct de 'должен' pour s'accorder avec le sujet : 'Мы [ ___ ] сдать проект вовремя.'",
+      "options": [
+        "должен",
+        "должна",
+        "должны",
+        "должно"
+      ],
+      "correct_answer": "должны",
+      "explanation": "Le sujet est au pluriel ('Мы'), l'adjectif court doit donc prendre la terminaison du pluriel '-ны' (должны)."
+    },
+    {
+      "exercise_id": "B1_M3_L7_ex2",
+      "type": "multiple_choice",
+      "question": "Comment décline-t-on le pronom personnel 'Вы' dans la structure suivante : '[ ___ ] надо позвонить директору.' ?",
+      "options": [
+        "Вы",
+        "Вас",
+        "Вам",
+        "Вами"
+      ],
+      "correct_answer": "Вам",
+      "explanation": "L'adverbe prédicatif impersonnel 'надо' exige que la personne à qui s'adresse l'obligation soit déclinée au cas Datif ('Вам')."
+    },
+    {
+      "exercise_id": "B1_M3_L7_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "В охраняемой зоне [ ___ ] фотографировать, это строго запрещено. (Il est interdit / Défense de)",
+      "correct_answer": "нельзя",
+      "hint": "Adverbe de modalité traduisant l'interdiction."
+    },
+    {
+      "exercise_id": "B1_M3_L7_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Скажите, пожалуйста, мне [ ___ ] войти? (Puis-je / Est-il permis)",
+      "correct_answer": "можно",
+      "hint": "Adverbe invariable servant à demander poliment l'autorisation."
+    }
+  ]
+}

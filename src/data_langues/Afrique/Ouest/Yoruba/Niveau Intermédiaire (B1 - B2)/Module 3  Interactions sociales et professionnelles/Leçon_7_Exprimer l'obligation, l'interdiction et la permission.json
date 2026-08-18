@@ -1,0 +1,264 @@
+{
+  "lesson_id": "B1_M3_L7",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 7,
+  "title": "Exprimer l'obligation, l'interdiction et la permission",
+  "learning_objectives": [
+    "Exprimer l'obligation et la nécessité absolue à l'aide de la structure impersonnelle 'dandan ni kí'",
+    "Formuler une interdiction stricte ou une défense à l'aide du marqueur négatif impératif 'máṣe'",
+    "Demander et accorder une permission ou une autorisation formelle avec le verbe 'gbàfún'"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met l'accent sur les structures impératives et restrictives. Portez une attention méticuleuse au morphème négatif 'máṣe' [māʃe]. Le premier élément porte un ton haut allongé par contraction, suivi du ton moyen. Ne confondez pas non plus la structure d'obligation 'gbọ́dọ̀' [ɡ͡bɔ́dɔ̀] (Haut-Bas) avec d'autres racines utilisant la consonne labio-vélaire 'gb'.",
+    "common_pitfalls": "Attention au mot 'Dandan' (impératif / obligatoire). Les deux syllabes sont nasales et portent un ton moyen stable [dãdã]. Veillez à ne pas prononcer le 'n' final de manière occlusive alvéolaire, gardez la vibration exclusivement dans les cavités nasales."
+  },
+  "vocabulary": [
+    {
+      "word_id": "B1_M3_L7_V1",
+      "term": "Gbọ́dọ̀",
+      "phonetic_api": "/ɡ͡bɔ́dɔ̀/",
+      "phonetic_simple": "GBÓ-DÀW",
+      "translation": "Devoir / Obligation stricte (Verbe auxiliaire)",
+      "example_sentence": "O gbọ́dọ̀ tẹ̀lé òfin àdúgbò.",
+      "example_phonetic": "/o ɡ͡bɔ́dɔ̀ tɛ̀lé òfĩ àdúɡ͡bò/",
+      "example_translation": "Tu dois respecter le règlement du quartier."
+    },
+    {
+      "word_id": "B1_M3_L7_V2",
+      "term": "Máṣe / Má",
+      "phonetic_api": "/máʃe/",
+      "phonetic_simple": "MÁ-SHE",
+      "translation": "Ne pas faire / Interdiction (Particule prohibitive)",
+      "example_sentence": "Máṣe sọ̀rọ̀ níbí, ẹ jọ̀wọ́.",
+      "example_phonetic": "/máʃe sɔ̀ɾɔ̀ níbí ɛ̀ d͡ʒɔ̀wɔ́/",
+      "example_translation": "Ne parlez pas ici, s'il vous plaît."
+    },
+    {
+      "word_id": "B1_M3_L7_V3",
+      "term": "Gbàfún / Gba... láàyè",
+      "phonetic_api": "/ɡ͡ba láːjɛ̀/",
+      "phonetic_simple": "GBA LÁÀ-YÈ",
+      "translation": "Autoriser / Permettre / Donner l'espace à",
+      "example_sentence": "Ẹ gba mi láàyè lati wọlé.",
+      "example_phonetic": "/ɛ̀ ɡ͡ba mĩ láːjɛ̀ lati wɔ̀lé/",
+      "example_translation": "Permettez-moi d'entrer (Donnez-moi l'autorisation)."
+    },
+    {
+      "word_id": "B1_M3_L7_V4",
+      "term": "Òfin",
+      "phonetic_api": "/òfĩ/",
+      "phonetic_simple": "Ò-FIN",
+      "translation": "Loi / Règle / Décret / Code",
+      "example_sentence": "Òfin ilé-iṣẹ́ yìí le púpọ̀.",
+      "example_phonetic": "/òfĩ iléiʃɛ́ jĩː le k͡púpɔ̀/",
+      "example_translation": "Le règlement de cette entreprise est très strict."
+    },
+    {
+      "word_id": "B1_M3_L7_V5",
+      "term": "Ààyè",
+      "phonetic_api": "/àːjɛ́/",
+      "phonetic_simple": "ÀÀ-YÉ",
+      "translation": "Permission / Place / Espace libre / Opportunité",
+      "example_sentence": "Ààyè kò sí fún ariwo rárá.",
+      "example_phonetic": "/àːjɛ́ kò sí fʊ́ aɾiwo ɾáɾá/",
+      "example_translation": "Il n'y a aucune place pour le bruit."
+    },
+    {
+      "word_id": "B1_M3_L7_V6",
+      "term": "Yọ̀da / Ìyọ̀da",
+      "phonetic_api": "/ìjɔ̀da/",
+      "phonetic_simple": "Ì-YÀW-DA",
+      "translation": "L'autorisation écrite / Le droit accordé / Le congé",
+      "example_sentence": "Mo ti rí ìyọ̀da gbà lọ́wọ́ ọ̀gá.",
+      "example_phonetic": "/mo ti ɾí ìjɔ̀da ɡ͡bà lɔ́wɔ́ ɔ̀ɡá/",
+      "example_translation": "J'ai obtenu l'autorisation de la part du patron."
+    },
+    {
+      "word_id": "B1_M3_L7_V7",
+      "term": "Ibìfòwópa / Èèwọ̀",
+      "phonetic_api": "/èːwɔ̀/",
+      "phonetic_simple": "ÈÈ-WÀW",
+      "translation": "Interdit culturel / Tabou / Chose proscrite",
+      "example_sentence": "Èèwọ̀ ni lati tẹ bọ́ọ̀lù níbi.",
+      "example_phonetic": "/èːwɔ̀ nĩ lati tɛ bɔ́ːlù níbi/",
+      "example_translation": "C'est un interdit de taper au ballon ici."
+    },
+    {
+      "word_id": "B1_M3_L7_V8",
+      "term": "Patapata / Dandan",
+      "phonetic_api": "/dãdã/",
+      "phonetic_simple": "DAN-DAN",
+      "translation": "Obligatoire / Impératif / Absolu",
+      "example_sentence": "Iṣẹ́ yìí jẹ́ dandan fún gbogbo wa.",
+      "example_phonetic": "/iʃɛ́ jĩː d͡ʒɛ́ dãdã fʊ́ ɡ͡boɡ͡bo wa/",
+      "example_translation": "Ce travail est obligatoire pour nous tous."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "B1_M3_L7_P1",
+      "original": "Ṣé mo le gba ààyè lati sọ̀rọ̀ nísinsìnyí?",
+      "phonetic_api": "/ʃé mo le ɡ͡ba àːjɛ́ lati sɔ̀ɾɔ̀ nísĩsĩjĩ́/",
+      "phonetic_simple": "SHÉ MO LE GBA ÀÀ-YÉ LÁ-TI SÀW-RÀW NÍ-SIN-SIN-YÍ?",
+      "translation": "Puis-je avoir la permission de prendre la parole maintenant ?",
+      "context": "Demande de permission formelle au cours d'une réunion professionnelle."
+    },
+    {
+      "phrase_id": "B1_M3_L7_P2",
+      "original": "Dandan ni kí o san owó rẹ kí o tó jáde.",
+      "phonetic_api": "/dãdã nĩ kí o sã owó ɾɛ kí o tó d͡ʒáde/",
+      "phonetic_simple": "DAN-DAN NI KÍ O SAN OH-WÓ RÈ KÍ O TÓ JÁ-DE.",
+      "translation": "Il est obligatoire que tu paies ton dû avant de sortir.",
+      "context": "Formuler une obligation absolue sans échappatoire."
+    },
+    {
+      "phrase_id": "B1_M3_L7_P3",
+      "original": "Máṣe rìn kiri nínú ilé-iṣẹ́ láìní ìyọ̀da.",
+      "phonetic_api": "/máʃe ɾĩ̀ kiɾi nĩ́nú iléiʃɛ́ láìní ìjɔ̀da/",
+      "phonetic_simple": "MÁ-SHE RÌN KI-RI NÍ-NOÚ I-LÉ-I-SHÉ LÁÌ-NÍ Ì-YÀW-DA.",
+      "translation": "Ne vous promenez pas dans l'entreprise sans autorisation.",
+      "context": "Instruction réglementaire d'interdiction."
+    },
+    {
+      "phrase_id": "B1_M3_L7_P4",
+      "original": "Ọ̀gá kò gba àwọn àlejò láàyè lati wọlé báyìí.",
+      "phonetic_api": "/ɔ̀ɡá kò ɡ͡ba àwɔ̃ àled͡ʒò láːjɛ̀ lati wɔ̀lé bájĩː/",
+      "phonetic_simple": "AW-GÁ KÒ GBA À-WAN À-LE-JÒ LÁÀ-YÈ LÁ-TI WÀW-LÉ BÁ-YÍ.",
+      "translation": "Le patron n'autorise pas les visiteurs à entrer actuellement.",
+      "context": "Notification d'un refus d'accès temporaire."
+    },
+    {
+      "phrase_id": "B1_M3_L7_P5",
+      "original": "O gbọ́dọ̀ parí iṣẹ́ ìrẹsì yìí lọ́jọ́ Ajé.",
+      "phonetic_api": "/o ɡ͡bɔ́dɔ̀ k͡paɾí iʃɛ́ ìɾɛsì jĩː lɔ́d͡ʒɔ́ aʒé/",
+      "phonetic_simple": "O GBÓ-DÀW KPA-RÍ I-SHÉ Ì-RÉ-SÌ YÍ LÁW-JÁ A-JÉ.",
+      "translation": "Tu dois impérativement terminer ce travail sur le riz lundi.",
+      "context": "Assignation d'une tâche professionnelle incontournable."
+    },
+    {
+      "phrase_id": "B1_M3_L7_P6",
+      "original": "Ṣé òfin àdúgbò rẹ gba eniyan láàyè lati ṣeré lálẹ́?",
+      "phonetic_api": "/ʃé òfĩ àdúɡ͡bò ɾɛ ɡ͡ba enĩjã láːjɛ̀ lati ʃeɾé lálɛ́/",
+      "phonetic_simple": "SHÉ Ò-FIN À-DOÚ-GBÒ RÈ GBA E-NI-YAN LÁÀ-YÈ LÁ-TI SHẸ-RÉ LÁ-LÉ?",
+      "translation": "Est-ce que le règlement de ton quartier permet aux gens de faire la fête la nuit ?",
+      "context": "S'informer sur les autorisations légales locales."
+    },
+    {
+      "phrase_id": "B1_M3_L7_P7",
+      "original": "Máṣe gbàgbọ́ nínú ohun tí kò tọ̀nà.",
+      "phonetic_api": "/máʃe ɡ͡bàɡ͡bɔ́ nĩ́nú ohʊ̃ tí kò tɔ̀nà/",
+      "phonetic_simple": "MÁ-SHE GBA-GBÁ NÍ-NOÚ OH-OÙN TÍ KÒ TÀW-NÀ.",
+      "translation": "Ne crois pas en ce qui n'est pas conforme aux règles.",
+      "context": "Avertissement moral ou professionnel."
+    },
+    {
+      "phrase_id": "B1_M3_L7_P8",
+      "original": "Inú mi dùn pé wọn yọ̀da fún mi lati lọ sílé.",
+      "phonetic_api": "/inú mĩ dù k͡pé wɔ̃ jɔ̀da fʊ́ mĩ lati lɔ sílé/",
+      "phonetic_simple": "I-NOÚ MI DOÙN KPÉ WAN YÀW-DA FOÚN MÍ LÁ-TI LAW SÍ-LÉ.",
+      "translation": "Je suis heureux qu'ils m'aient accordé la permission de rentrer chez moi.",
+      "context": "Soulagement après l'obtention d'un congé légal."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'obligation stricte avec 'Gbọ́dọ̀' et 'Dandan ni kí'",
+      "explanation": "Pour exprimer le devoir ou l'obligation en yoruba intermédiaire, deux structures coexistent. 'Gbọ́dọ̀' est un verbe auxiliaire défectif invariable placé directement devant le verbe principal. 'Dandan ni kí' est une structure impersonnelle emphatique (C'est une obligation que...) qui se place en tête de phrase et requiert l'usage du subjonctif marqué par 'kí'.",
+      "rules": [
+        "Structure auxiliaire : [Sujet] + gbọ́dọ̀ + [Verbe principal].",
+        "Structure emphatique : Dandan ni kí + [Sujet] + [Verbe au ton subjonctif]."
+      ],
+      "examples": [
+        {
+          "structure": "O + gbọ́dọ̀ + ṣiṣẹ́",
+          "phonetic_api": "/o ɡ͡bɔ́dɔ̀ ʃiʃɛ́/",
+          "meaning": "Tu dois travailler."
+        },
+        {
+          "structure": "Dandan ni kí + o + lọ",
+          "phonetic_api": "/dãdã nĩ kí o lɔ/",
+          "meaning": "Il est impératif que tu partes."
+        }
+      ]
+    },
+    {
+      "concept": "L'interdiction impérative avec la particule 'Máṣe'",
+      "explanation": "L'interdiction ou la défense de faire une action ne se construit pas avec la négation descriptive standard 'kò'. On emploie le morphème prohibitif impératif 'Máṣe' (ou sa forme abrégée 'Má') placé immédiatement avant le verbe d'action que l'on souhaite prohiber.",
+      "rules": [
+        "Structure standard : Máṣe + [Verbe d'action].",
+        "À l'égal du français, le sujet de la deuxième personne est généralement sous-entendu s'il s'agit d'un ordre direct."
+      ],
+      "examples": [
+        {
+          "structure": "Máṣe + mu + otí níbi",
+          "phonetic_api": "/máʃe mu otí níbi/",
+          "meaning": "Ne buvez pas d'alcool ici."
+        },
+        {
+          "structure": "Má + sọ̀rọ̀ mọ́",
+          "phonetic_api": "/má sɔ̀ɾɔ̀ mɔ́/",
+          "meaning": "Ne parle plus !"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Olùṣọ́ (Le gardien / agent de sécurité)",
+      "text": "Ẹ ǹlẹ́ o, ọ̀gá. Máṣe pa ọkọ̀ rẹ síbí yìí o. Òfin àdúgbò kò gbàfún rárá.",
+      "phonetic_api": "/ɛ̀ ŋ̀lɛ́ o ɔ̀ɡá máʃe k͡pa ɔkɔ̀ ɾɛ síbí jĩː o òfĩ àdúɡ͡bò kò ɡ͡bàfʊ́ ɾáɾá/",
+      "phonetic_simple": "È N-LÉ O, AW-GÁ. MÁ-SHE KPA AW-KÀW RÈ SÍ-BÍ YÍ O. Ò-FIN À-DOÚ-GBÒ KÒ GBÀ-FOÚN RÁ-RÁ.",
+      "translation": "Arrêtez-vous là, monsieur. Ne garez pas votre voiture ici. Le règlement du quartier ne l'autorise pas du tout."
+    },
+    {
+      "speaker": "Kọ́lá (Le conducteur)",
+      "text": "Ah, ẹ jọ̀wọ́ bàbá. Mo fẹ́ gba ààyè lati dúró fún iṣẹ́wú diẹ nínú banki yẹn ni.",
+      "phonetic_api": "/ah ɛ̀ d͡ʒɔ̀wɔ́ bàbá mo fɛ́ ɡ͡ba àːjɛ_ lati dúɾó fʊ́ iʃɛ́wú diɛ nĩ́nú banki d͡ʒɛ̃ nĩ/",
+      "phonetic_simple": "AH, È JÀW-WÓ BÀ-BÁ. MO FÉ GBA ÀÀ-YÉ LÁ-TI DÚ-RÓ FOÚN I-SHÉ-WÚ DI-Ẹ NÍ-NOÚ BAN-KI YẸN NI.",
+      "translation": "Ah, s'il vous plaît mon père. Je voudrais juste obtenir la permission de m'arrêter quelques minutes pour une affaire urgente dans cette banque."
+    },
+    {
+      "speaker": "Olùṣọ́ (Le gardien / agent de sécurité)",
+      "text": "Kò rọrùn bẹ́ẹ̀ o. Dandan ni kí o lọ sí ibi-ìbudo-ọkọ̀ ti ó wà níwájú lẹ́yìn ilé-onjẹ yẹn.",
+      "phonetic_api": "/kò ɾɔɾʊ̃ bɛ́ː o dãdã nĩ kí o lɔ sí ibiìbudoɔkɔ̀ ti ó wà níwájú lɛ́jĩ̀ iléōnd͡ʒɛ d͡ʒɛ̃/",
+      "phonetic_simple": "KÒ RA-ROÙN BÉÈ O. DAN-DAN NI KÍ O LAW SÍ I-BI-Ì-BOU-DO-AW-KÀW TI Ó WÀ NÍ-WÁ-JÚ LÉ-YÌN I-LÉ-ON-JÉ YẸN.",
+      "translation": "Ce n'est pas si simple. Il est obligatoire que vous alliez au parking qui se trouve plus loin derrière ce restaurant."
+    },
+    {
+      "speaker": "Kọ́lá (Le conducteur)",
+      "text": "O dára, mo gbọ́. Mo gbọ́dọ̀ tẹ̀lé òfin kí n máṣe rí ìtanràn gbà lọ́wọ́ yín. Ẹ ṣé.",
+      "phonetic_api": "/o dáɾa mo ɡ͡bɔ́ mo ɡ͡bɔ́dɔ̀ tɛ̀lé òfĩ kí ŋ̀ máʃe ɾí ìtãɾã̀ ɡ͡bà lɔ́wɔ́ d͡ʒĩ ɛ̀ ʃé/",
+      "phonetic_simple": "OH DÁ-RA, MO GBÓ. MO GBÓ-DÀW TÈ-LÉ Ò-FIN KÍ N MÁ-SHE RÍ Ì-TAN-RÀN GBA LÁW-WÓ YÍN. È SHÉ.",
+      "translation": "D'accord, je comprends. Je dois respecter la règle pour ne pas recevoir d'amende de votre part. Merci."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la vie en communauté chez les Yorubas, le respect des règles établies par les aînés ou le conseil de quartier (Ẹgbẹ́ Àdúgbò) est fondamental. Enfreindre un interdit ou ignorer les remarques d'un ancien (Bàbá/Mọ̀mọ́) assurant la sécurité est considéré comme un grave manque de respect (Àìlọ́wọ̀).",
+    "Le concept d' 'Èèwọ̀' (tabou/interdit) dépasse le cadre légal moderne. Il s'applique traditionnellement aux lois spirituelles, morales et sanitaires de la communauté que l'on se doit de respecter sous peine d'opprobre social.",
+    "Demander poliment une autorisation ou une dérogation se fait toujours en utilisant des termes de parenté respectueux, même envers des inconnus, pour adoucir la rigueur d'un règlement formel."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M3_L7_EX1",
+      "type": "multiple_choice",
+      "question": "Quelle expression utilisez-vous pour formuler l'ordre prohibitif strict 'Ne commettez pas d'erreur' ?",
+      "options": [
+        "O gbọ́dọ̀ ṣiṣẹ́ kára",
+        "Máṣe ṣe àṣìṣe rárá",
+        "Dandan ni kí o ṣe bẹ́ẹ̀",
+        "Ẹ gba mi láàyè lónìí"
+      ],
+      "correct_answer": "Máṣe ṣe àṣìṣe rárá",
+      "explanation": "L'interdiction requiert la particule prohibitive impérative 'Máṣe' placée devant le verbe d'action 'ṣe' (faire), complétée par l'élément d'intensité négative 'rárá' (du tout)."
+    },
+    {
+      "exercise_id": "B1_M3_L7_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour imposer un devoir incontournable à un subordonné, on emploie le verbe auxiliaire d'obligation : O [ ___ ] parí iṣẹ́ rẹ.",
+      "correct_answer": "gbọ́dọ̀",
+      "hint": "C'est un verbe de deux syllabes portant un ton haut suivi d'un ton bas signifiant 'devoir'."
+    }
+  ]
+}

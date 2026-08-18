@@ -1,0 +1,180 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Formuler des conditions réelles, possibles et irréelles à l'aide de structures conjonctives avancées",
+    "Nuancer le doute et la probabilité à l'aide des particules restrictives et des verbes d'opinion au subjonctif",
+    "Employer des tournures idiomatiques pour exprimer une concession ou une réserve majeure dans une argumentation"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La structure de la condition repose souvent sur le mot 'शर्त' (/ʃəɾt̪/) dont le 'श' chuinté initial doit être prononcé avec soin. Le mot pour exprimer le doute (संदेह / sən-d̪eːɦ/ ou शंका / ʃəŋ-kaː/) requiert une nasalisation exacte de la première syllabe via l'Anusvara, suivie d'un 'ह' ou d'un 'क' très net.",
+    "common_pitfalls": "Attention à la particule concessive 'हालाँकि' (bien que / ɦaːlɑːŋkɪ/). La double nasalisation sur le 'लाँ' et le 'कि' final bref est fréquemment négligée par les apprenants, ce qui altère la musicalité et la correction du registre soutenu."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v_hyp_1",
+      "term": "मानो",
+      "phonetic_api": "/maːnoː/",
+      "phonetic_simple": "MAA-NO",
+      "translation": "Comme si / Pour ainsi dire",
+      "example_sentence": "वह ऐसे बात करता है मानो सब जानता हो।",
+      "example_phonetic": "/ʋəɦ ɛːseː baːt̪ kəɾt̪aː ɦɛː maːnoː səb dʒaːnt̪aː ɦoː/",
+      "example_translation": "Il parle comme s'il savait tout (Subjonctif)."
+    },
+    {
+      "word_id": "v_hyp_2",
+      "term": "बशर्ते",
+      "phonetic_api": "/bəʃəɾt̪eː/",
+      "phonetic_simple": "BA-CHAR-TÉ",
+      "translation": "À condition que / Pourvu que",
+      "example_sentence": "मैं आऊँगा, बशर्ते कि तुम भी चलो।",
+      "example_phonetic": "/mɛ̃ː aːũːɡaː bəʃəɾt̪eː kɪ t̪ʊm bʱiː tʃəloː/",
+      "example_translation": "Je viendrai, à condition que tu viennes aussi."
+    },
+    {
+      "word_id": "v_hyp_3",
+      "term": "शंका / संदेह",
+      "phonetic_api": "/ʃəŋkaː/ /sənd̪eːɦ/",
+      "phonetic_simple": "CHAN-KAA / SAN-DÉH",
+      "translation": "Doute / Suspicion / Scepticisme",
+      "example_sentence": "इस योजना की सफलता पर मुझे थोड़ी शंका है।",
+      "example_phonetic": "/ɪs joːdʒnaː kiː səfəlt̪aː pəɾ mʊdʒʱeː tʰoːɽiː ʃəŋkaː ɦɛː/",
+      "example_translation": "J'ai un léger doute quant à la réussite de ce projet."
+    },
+    {
+      "word_id": "v_hyp_4",
+      "term": "हालाँकि",
+      "phonetic_api": "/ɦaːlɑːŋkɪ/",
+      "phonetic_simple": "HAA-LAAN-KI",
+      "translation": "Bien que / Quoique",
+      "example_sentence": "हालाँकि मौसम ख़राब था, फिर भी हम गए।",
+      "example_phonetic": "/ɦaːlɑːŋkɪ mɔːsəm xəɾaːb t̪ʰaː pʰɪɾ bʱiː ɦəm ɡəeː/",
+      "example_translation": "Bien que le temps fût mauvais, nous y sommes allés quand même."
+    },
+    {
+      "word_id": "v_hyp_5",
+      "term": "शायद ही",
+      "phonetic_api": "/ʃaːjəd̪ ɦiː/",
+      "phonetic_simple": "CHAA-YAD HII",
+      "translation": "Peu probablement / Fort peu de chances que",
+      "example_sentence": "वह शायद ही इस बात से सहमत हो।",
+      "example_phonetic": "/ʋəɦ ʃaːjəd̪ ɦiː ɪs baːt̪ seː səɦmət̪ ɦoː/",
+      "example_translation": "Il est fort peu probable qu'il soit d'accord avec cela."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "अगर ऐसा न हुआ होता, तो स्थिति कुछ और होती।",
+      "phonetic_api": "/əɡəɾ ɛːsaː nə ɦʊaː ɦoːt̪aː t̪oː st̪ʰɪt̪ɪ kʊtʃ ɔːr ɦoːt̪iː/",
+      "phonetic_simple": "A-GAR AI-SAA NA HOU-AA HO-TAA, TO STHI-TI KOUTCH OR HO-TII",
+      "translation": "Si cela ne s'était pas produit, la situation aurait été bien différente.",
+      "context": "Analyser une situation passée de manière critique lors d'un débat académique."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "चाहे कुछ भी हो जाए, हमें अपना लक्ष्य नहीं छोड़ना चाहिए।",
+      "phonetic_api": "/tʃaːɦeː kʊtʃ bʱiː ɦoː dʒaːeː ɦəmẽː əpnaː ləkʃjə nəɦĩː tʃoːɽnaː tʃaːhɪjeː/",
+      "phonetic_simple": "TCHAA-HÉ KOUTCH BHII HO DJAA-É, HA-MÊN AP-NAA LAKCH-YA NA-HIN TCHHO-RH-NAA CHAA-HI-YÉ",
+      "translation": "Quoi qu'il arrive, nous ne devons pas abandonner notre objectif.",
+      "context": "Formuler une condition concessive absolue pour exprimer la détermination."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La condition restrictive avec 'बशर्ते कि' (bashartē ki)",
+      "explanation": "Pour introduire une condition sine qua non ou une clause restrictive absolue dans un registre soutenu, le hindi utilise l'emprunt persan 'बशर्ते कि'. Le verbe qui suit cette conjonction se conjugue généralement au mode subjonctif.",
+      "rules": [
+        "Structure : [Proposition principale] + बशर्ते कि + [Proposition subordonnée au subjonctif].",
+        "Équivaut strictement au français : 'à condition que' ou 'pourvu que'."
+      ],
+      "examples": [
+        {
+          "structure": "मैं आपकी मदद करूँगा, बशर्ते कि आप सच बोलें। (Main āpkī madad karūñgā, bashartē ki āp sac bolēñ.)",
+          "phonetic_api": "/mɛ̃ː aːpkiː məd̪əd̪ kəɾũːɡaː bəʃəɾt̪eː kɪ aːp sətʃ boːlẽː/",
+          "meaning": "Je vous aiderai, à condition que vous disiez la vérité."
+        }
+      ]
+    },
+    {
+      "concept": "La comparaison irréelle avec 'मानो' (mānō) + Subjonctif",
+      "explanation": "Pour exprimer une supposition ou une comparaison fictive (comme si), le hindi utilise le connecteur 'मानो' placé juste avant la description imagée. Le verbe de la subordonnée doit être mis au subjonctif présent ou passé pour marquer l'irréel.",
+      "rules": [
+        "Structure : [Sujet + Action] + ऐसे... मानो + [Hypothèse au subjonctif (हो / जाने)]."
+      ],
+      "examples": [
+        {
+          "structure": "आसमान में बादल ऐसे छा गए मानो रात हो गई हो। (Āsmān meiñ bādal aisē chā gaē mānō rāt ho gaī ho.)",
+          "phonetic_api": "/aːsmaːn mẽː baːd̪əl ɛːseː tʃʰaː ɡəeː maːnoː ɾaːt̪ ɦoː ɡəiː ɦoː/",
+          "meaning": "Les nuages ont envahi le ciel comme si la nuit était déjà tombée."
+        }
+      ]
+    },
+    {
+      "concept": "La concession absolue avec 'चाहे... भी' (chāhē... bhī)",
+      "explanation": "Cette structure permet d'exprimer que la condition n'influencera pas le résultat (quand bien même / quoi qu'il en soit). 'चाहे' est une forme figée du verbe vouloir.",
+      "rules": [
+        "Structure : चाहे + [Sujet + Action au subjonctif] + भी, तो भी / फिर भी + [Résultat invariable]."
+      ],
+      "examples": [
+        {
+          "structure": "चाहे वह कितनी भी कोशिश करे, सफल नहीं होगा। (Chāhē vah kitnī bhī kōśiś karē, saphal nahīñ hōgā.)",
+          "phonetic_api": "/tʃaːɦeː ʋəɦ kɪt̪niː bʱiː koːʃɪʃ kəɾeː səfəl nəɦĩː ɦoːɡaː/",
+          "meaning": "Il aura beau essayer / Quelles que soient ses tentatives, il ne réussira pas."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "प्रोफेसर (Professeur)",
+      "text": "अमित, आपके शोध प्रस्ताव में बहुत शंकाएँ दिखती हैं। क्या यह योजना समय पर पूरी हो सकेगी?",
+      "phonetic_api": "/əmɪt̪ aːpkeː ʃoːdʱ pɾəst̪aːʋ mẽː bəɦʊt̪ ʃəŋkaːẽː d̪ɪkʰt̪iː ɦɛ̃ː kjaː jəɦ joːdʒnaː səməj pəɾ puːriː ɦoː səkeːɡiː/",
+      "phonetic_simple": "A-MIT, AAP-KÉ CHODH PRAS-TAAV MEIN BAHOUT CHAN-KAA-ÊN DIKH-TII HAIN. KYAA YAH YODJ-NAA SA-MAY PAR PUU-RII HO SAK-É-GII",
+      "translation": "Amit, votre proposition de recherche laisse planer de nombreux doutes. Ce projet pourra-t-il être mené à terme à temps ?"
+    },
+    {
+      "speaker": "अमित (Amit)",
+      "text": "जी प्रोफेसर, हालाँकि विषय थोड़ा जटिल है, फिर भी मैं इसे पूरा कर लूँगा, बशर्ते कि मुझे प्रयोगशाला की अनुमति मिले।",
+      "phonetic_api": "/dʒiː pɾofeːsəɾ ɦaːlɑːŋkɪ ʋɪʃəj tʰoːɽaː dʒəʈɪl ɦɛː pʰɪɾ bʱiː mɛ̃ː ɪseː puːriː kəɾ lũːɡaː bəʃəɾt̪eː kɪ mʊdʒʱeː pɾəjoːɡʃaːlaː kiː ənʊmət̪ɪ mɪleː/",
+      "phonetic_simple": "DJII PROFESSOR, HAA-LAAN-KI VI-CHAY THO-RHAA DJA-TIL HÉ, PHIR BHII MEIN I-SÉ PUU-RII KAR LOUN-GAA, BA-CHAR-TÉ KI MOUD-JHÉ PRA-YOG-CHAA-LAA KII A-NOU-MA-TI MI-LÉ",
+      "translation": "Oui professeur, bien que le sujet soit un peu complexe, je parviendrai tout de même à l'accomplir, à condition que j'obtienne l'autorisation d'accéder au laboratoire."
+    },
+    {
+      "speaker": "प्रोफेसर (Professeur)",
+      "text": "ठीक है, यदि विश्वविद्यालय प्रशासन इस पर सहमति दे दे, तो मैं आपको संसाधन उपलब्ध करा दूँगा।",
+      "phonetic_api": "/tʰiːk ɦɛː jəd̪ɪ ʋɪʃʋəʋɪdjaːləj pɾəʃaːsən ɪs pəɾ sɛɦmət̪ɪ d̪eː d̪eː t̪oː mɛ̃ː aːpkoː sənsaːdʱən ʊpləbdʱ kəɾaː d̪ũːɡaː/",
+      "phonetic_simple": "THIIK HÉ, YA-DI VICH-VA-VID-YAA-LAY PRA-CHAA-SAN IS PAR SAH-MA-TI DÉ DÉ, TO MEIN AAP-KO SAN-SAA-DHAN UP-LABDH KARAA DOUN-GAA",
+      "translation": "D'accord, si l'administration de l'université donne son accord, je mettrai les ressources nécessaires à votre disposition."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture académique et administrative indienne, exprimer un désaccord ou un doute direct est souvent perçu comme agressif. Les locuteurs instruits utilisent systématiquement des connecteurs concessifs et des réserves conditionnelles comme 'बशर्ते कि' ou 'हालाँकि' pour adoucir le discours tout en maintenant leurs exigences.",
+    "L'usage du subjonctif dans les structures d'hypothèse montre une fine maîtrise linguistique et de l'étiquette sociale (तहज़ीब), permettant de présenter les opinions comme des suggestions ouvertes à la négociation plutôt que des vérités absolues."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez le bon connecteur pour exprimer 'comme si' : 'वह ऐसे मुस्कुराया [ ___ ] कोई बड़ा रहस्य जानता हो।'",
+      "options": [
+        "बशर्ते कि (bashartē ki)",
+        "मानो (mānō)",
+        "हालाँकि (halañki)"
+      ],
+      "correct_answer": "मानो (mānō)",
+      "explanation": "'मानो' est le connecteur adverbial utilisé pour exprimer une comparaison irréelle ou fictive (comme si)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "चाहे तुम वहाँ जाओ [ ___ ] न जाओ, मैं तो जाऊँगा ही। (Que tu y ailles ou non, j'irais de toute façon - structure concessive standard).",
+      "correct_answer": "या",
+      "hint": "La conjonction de coordination de choix 'ou' en hindi (yā)"
+    }
+  ]
+}

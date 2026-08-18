@@ -1,0 +1,234 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter",
+  "learning_objectives": [
+    "Dire son nom, son âge et son origine",
+    "Demander l'identité de son interlocuteur",
+    "Parler de sa profession au présent"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'x' représente le son fricatif vélaire sourd /x/ (similaire au 'j' espagnol ou au 'ch' allemand dans 'ach'). Elle doit être prononcée distinctement du 'k' et du 'h'. Le groupe 'ny' correspond au phonème palatal nasal /ɲ/ comme dans le mot français 'gagner'.",
+    "common_pitfalls": "Attention à ne pas prononcer le 'x' comme un 'ks' ou un 'z' français. Il s'agit d'un souffle guttural."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v2_1",
+      "term": "Xili",
+      "phonetic_api": "/xi.li/",
+      "phonetic_simple": "KHI-LI",
+      "translation": "Nom / Appeler",
+      "example_sentence": "N xili Amara.",
+      "example_phonetic": "/ŋ xi.li a.ma.ra/",
+      "example_translation": "Mon nom est Amara."
+    },
+    {
+      "word_id": "v2_2",
+      "term": "Siya",
+      "phonetic_api": "/si.ja/",
+      "phonetic_simple": "SI-YA",
+      "translation": "Origine / Ethnie / Race",
+      "example_sentence": "Yalunka siya nan n na.",
+      "example_phonetic": "/ja.lun.ka si.ja nan ŋ na/",
+      "example_translation": "Je suis d'origine Yalunka."
+    },
+    {
+      "word_id": "v2_3",
+      "term": "Ɲɛ",
+      "phonetic_api": "/ɲɛ/",
+      "phonetic_simple": "NYÈ",
+      "translation": "Année / Âge",
+      "example_sentence": "Ɲɛ muxe tongo na n bɛ.",
+      "example_phonetic": "/ɲɛ mu.xe ton.ɡo na ŋ bɛ/",
+      "example_translation": "J'ai vingt ans."
+    },
+    {
+      "word_id": "v2_4",
+      "term": "Karamɔxɔ",
+      "phonetic_api": "/ka.ra.mɔ.xɔ/",
+      "phonetic_simple": "KA-RA-MO-KHO",
+      "translation": "Enseignant / Maître",
+      "example_sentence": "Karamɔxɔ nan a ra.",
+      "example_phonetic": "/ka.ra.mɔ.xɔ nan a ra/",
+      "example_translation": "C'est un enseignant."
+    },
+    {
+      "word_id": "v2_5",
+      "term": "Banxi",
+      "phonetic_api": "/ban.xi/",
+      "phonetic_simple": "BAN-KHI",
+      "translation": "Maison / Ville / Provenance",
+      "example_sentence": "Kɔnakri banxi nan n na.",
+      "example_phonetic": "/kɔ.na.kri ban.xi nan ŋ na/",
+      "example_translation": "Je viens de Conakry."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p2_1",
+      "original": "I xili di ?",
+      "phonetic_api": "/i xi.li di/",
+      "phonetic_simple": "I KHI-LI DI ?",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Question directe pour demander le prénom ou le nom de quelqu'un."
+    },
+    {
+      "phrase_id": "p2_2",
+      "original": "N xili Fanta.",
+      "phonetic_api": "/ŋ xi.li fan.ta/",
+      "phonetic_simple": "N KHI-LI FAN-TA",
+      "translation": "Je m'apppelle Fanta.",
+      "context": "Réponse standard pour donner son identité."
+    },
+    {
+      "phrase_id": "p2_3",
+      "original": "I fatan min ?",
+      "phonetic_api": "/i fa.tan min/",
+      "phonetic_simple": "I FA-TAN MIN ?",
+      "translation": "D'où viens-tu ?",
+      "context": "Interroger quelqu'un sur sa provenance géographique ou son pays."
+    },
+    {
+      "phrase_id": "p2_4",
+      "original": "N fatan Gine nan na.",
+      "phonetic_api": "/ŋ fa.tan ɡi.ne nan na/",
+      "phonetic_simple": "N FA-TAN GUI-NÉ NAN NA",
+      "translation": "Je viens de Guinée.",
+      "context": "Indiquer son pays d'origine."
+    },
+    {
+      "phrase_id": "p2_5",
+      "original": "I wali mun a ra ?",
+      "phonetic_api": "/i wa.li mun a ra/",
+      "phonetic_simple": "I WA-LI MOUN A RA ?",
+      "translation": "Quel est ton travail ?",
+      "context": "Questionner un interlocuteur sur sa vie professionnelle."
+    },
+    {
+      "phrase_id": "p2_6",
+      "original": "Karanmuxe nan n na.",
+      "phonetic_api": "/ka.ran.mu.xe nan ŋ na/",
+      "phonetic_simple": "KA-RAN-MOU-KHÉ NAN N NA",
+      "translation": "Je suis étudiant.",
+      "context": "Indiquer son statut d'élève ou d'étudiant."
+    },
+    {
+      "phrase_id": "p2_7",
+      "original": "Ɲɛ we i bɛ ?",
+      "phonetic_api": "/ɲɛ we i bɛ/",
+      "phonetic_simple": "NYÈ WÉ I BÈ ?",
+      "translation": "Quel âge as-tu ?",
+      "context": "Demander l'âge (registre informel ou courant)."
+    },
+    {
+      "phrase_id": "p2_8",
+      "original": "Siga na n bɛ.",
+      "phonetic_api": "/si.ɡa na ŋ bɛ/",
+      "phonetic_simple": "SI-GA NA N BÈ",
+      "translation": "Je suis en route / Je m'en vais.",
+      "context": "Formule pratique lors d'une fin de salutation."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la provenance avec 'fatan'",
+      "explanation": "Le verbe ou la particule 'fatan' indique l'origine ou la provenance géographique. Il est immédiatement suivi du lieu puis de la structure affirmative.",
+      "rules": [
+        "Sujet + fatan + Lieu + nan na",
+        "Ne nécessite pas de préposition complexe pour signifier 'de' ou 'depuis'."
+      ],
+      "examples": [
+        {
+          "structure": "N fatan Kɔnakri nan na.",
+          "phonetic_api": "/ŋ fa.tan kɔ.na.kri nan na/",
+          "meaning": "Je viens de Conakry."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de l'état ou de la profession avec 'nan n na'",
+      "explanation": "Pour dire 'je suis [profession/statut]', le Yalunka utilise le nom de la profession suivi de 'nan n na' (focalisation + pronom sujet de rappel + localisation/état).",
+      "rules": [
+        "Nom de métier + nan + n + na = Je suis [métier].",
+        "Pour la troisième personne, on utilise 'nan a ra'."
+      ],
+      "examples": [
+        {
+          "structure": "Karamɔxɔ nan n na.",
+          "phonetic_api": "/ka.ra.mɔ.xɔ nan ŋ na/",
+          "meaning": "Je suis enseignant."
+        },
+        {
+          "structure": "Karamɔxɔ nan a ra.",
+          "phonetic_api": "/ka.ra.mɔ.xɔ nan a ra/",
+          "meaning": "Il/Elle est enseignant."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine",
+      "text": "Tena mari. I xili di ?",
+      "phonetic_api": "/te.na ma.ri i xi.li di/",
+      "phonetic_simple": "TÉ-NA MA-RI. I KHI-LI DI ?",
+      "translation": "Bonjour. Comment t'appelles-tu ?"
+    },
+    {
+      "speaker": "M'Mah",
+      "text": "Tena nan a ra. N xili M'Mah. I tan ?",
+      "phonetic_api": "/te.na nan a ra ŋ xi.li m.mah i tan/",
+      "phonetic_simple": "TÉ-NA NAN A RA. N KHI-LI M'MAH. I TAN ?",
+      "translation": "Tout va bien. Mon nom est M'Mah. Et toi ?"
+    },
+    {
+      "speaker": "Lamine",
+      "text": "N xili Lamine. I fatan min ?",
+      "phonetic_api": "/ŋ xi.li la.mi.ne i fa.tan min/",
+      "phonetic_simple": "N KHI-LI LA-MI-NE. I FA-TAN MIN ?",
+      "translation": "Mon nom est Lamine. D'où viens-tu ?"
+    },
+    {
+      "speaker": "M'Mah",
+      "text": "N fatan Faranah nan na. I wali mun a ra ?",
+      "phonetic_api": "/ŋ fa.tan fa.ra.nah nan na i wa.li mun a ra/",
+      "phonetic_simple": "N FA-TAN FA-RA-NAH NAN NA. I WA-LI MOUN A RA ?",
+      "translation": "Je viens de Faranah. Quel est ton travail ?"
+    },
+    {
+      "speaker": "Lamine",
+      "text": "Karamɔxɔ nan n na. Inu wali.",
+      "phonetic_api": "/ka.ra.mɔ.xɔ nan ŋ na i.nu wa.li/",
+      "phonetic_simple": "KA-RA-MO-KHO NAN N NA. I-NOU WA-LI",
+      "translation": "Je suis enseignant. Merci pour l'échange."
+    }
+  ],
+  "cultural_notes": [
+    "Faranah est une région historique majeure pour la communauté Yalunka en Guinée, située près des sources du fleuve Niger. Évoquer ses racines familiales et sa ville d'origine fait partie des coutumes lors d'une première rencontre.",
+    "Le suffixe '-muxe' ou '-mɔxɔ' signifie littéralement 'personne'. Il s'associe à des radicaux pour former des noms de métiers ou de statuts (ex: karan = apprendre, karanmuxe = celui qui apprend / l'étudiant)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex2_1",
+      "type": "multiple_choice",
+      "question": "Quelle phrase permet de dire correctement 'Je m'appelle Amara' ?",
+      "options": [
+        "N xili Amara",
+        "I xili Amara",
+        "Amara nan a ra"
+      ],
+      "correct_answer": "N xili Amara",
+      "explanation": "'N' est le pronom possessif de la première personne du singulier. 'N xili' signifie donc littéralement 'Mon nom [est]'."
+    },
+    {
+      "exercise_id": "ex2_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'D'où viens-tu ?', on pose la question : I fatan [ ___ ] ?",
+      "correct_answer": "min",
+      "hint": "C'est l'interrogatif de lieu correspondant à 'où' en Yalunka."
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "lesson_id": "C1_M3_L7",
+  "level": "Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 7,
+  "title": "Analyser des textes littéraires ou historiques",
+  "learning_objectives": [
+    "Décortiquer la structure stylistique et rhétorique d'un texte littéraire ou d'une source historique",
+    "Formuler des hypothèses d'interprétation critiques en utilisant le subjonctif et le lexique de l'analyse",
+    "Manier les concepts avancés d'intertextualité, de métaphore filée et d'ancrage contextuel",
+    "Rédiger un commentaire textuel universitaire fluide respectant les structures de l'essai critique"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le terme 'die Epoche' se prononce [diː eˈpɔxə] : veillez à l'ouverture du -o- court et à la netteté du -ch- vélaire dur [x] (Ach-Laut). Le mot 'das Gedicht' [das ɡəˈdɪçt] exige à l'inverse un -ch- palatal doux [ç] (Ich-Laut). Le groupe -st- dans 'stilistisch' s'articule [ʃtɪˈlɪstɪʃ].",
+    "common_pitfalls": "Attention à la prononciation du mot 'die Interpretation' [ɪntɛʁpʁetaˈtsi̯oːn] : l'accent tonique principal repose sur la toute dernière syllabe (-on), et le -t- devant -i- se réalise sous la forme d'une affriquée [ts]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "die Anspielung",
+      "phonetic_api": "/diː ˈanˌʃpiːlʊŋ/",
+      "phonetic_simple": "DII AN-CHPII-LUNG",
+      "translation": "l'allusion / la référence implicite",
+      "example_sentence": "Der Text enthält eine subtile Anspielung auf die biblische Mythologie.",
+      "example_phonetic": "/deːɐ̯ tɛkst ɛntˈhɛlt ˈaɪ̯nə zʊpˈtiːlə ˈanˌʃpiːlʊŋ aʊ̯f diː ˈbiːblɪʃə mytoloˈɡiː/",
+      "example_translation": "Le texte contient une allusion subtile à la mythologie biblique."
+    },
+    {
+      "word_id": "v2",
+      "term": "widerspiegeln",
+      "phonetic_api": "/ˈviːdɐˌʃpiːɡl̩n/",
+      "phonetic_simple": "VII-DER-CHPII-GELN",
+      "translation": "refléter / traduire / être le miroir de",
+      "example_sentence": "Das Gedicht spiegelt die Zerrissenheit der damaligen Epoche wider.",
+      "example_phonetic": "/das ɡəˈdɪçt ˈʃpiːɡl̩t diː tsɛˈʁɪsn̩haɪ̯t deːɐ̯ ˈdaːmaːlɪɡn̩ eˈpɔxə ˈviːdɐ/",
+      "example_translation": "Le poème reflète les déchirements de l'époque d'alors."
+    },
+    {
+      "word_id": "v3",
+      "term": "die Metapher",
+      "phonetic_api": "/diː meˈtafɐ/",
+      "phonetic_simple": "DII ME-TA-FER",
+      "translation": "la métaphore",
+      "example_sentence": "Der Autor verwendet das Meer als Metapher für die Freiheit.",
+      "example_phonetic": "/deːɐ̯ ˈaʊ̯toːɐ̯ fɛɐ̯ˈvɛndət das meːɐ̯ als meˈtafɐ fyːɐ̯ diː ˈfʁaɪ̯haɪ̯t/",
+      "example_translation": "L'auteur utilise la mer comme métaphore de la liberté."
+    },
+    {
+      "word_id": "v4",
+      "term": "hervorheben",
+      "phonetic_api": "/hɛʁˈfoːɐ̯ˌheːbn̩/",
+      "phonetic_simple": "HER-VOOR-HEE-BEN",
+      "translation": "mettre en relief / souligner / mettre en évidence",
+      "example_sentence": "Durch diesen Stilfehler wird die Ironie des Textes hervorgehoben.",
+      "example_phonetic": "/dʊʁç ˈdiːzən ˈʃtiːlˌfeːlɐ vɪʁt diː iʁoˈniː deːs ˈtɛkstəs hɛʁˈfoːɐ̯ɡəˌhoːbn̩/",
+      "example_translation": "Par cette rupture de style, l'ironie du texte est mise en relief."
+    },
+    {
+      "word_id": "v5",
+      "term": "die Quellenkritik",
+      "phonetic_api": "/diː ˈkvɛlən_kʁiːtɪk/",
+      "phonetic_simple": "DII KVEL-EN-KRI-TIK",
+      "translation": "la critique des sources (historiques)",
+      "example_sentence": "Eine methodische Quellenkritik ist für Historiker unerlässlich.",
+      "example_phonetic": "/ˈaɪ̯nə meˈtoːdɪʃə ˈkvɛlən_kʁiːtɪk ɪst fyːɐ̯ hɪsˈtoːʁɪkɐ ˈʊnʔɛɐ̯ˈlɛslɪç/",
+      "example_translation": "Une critique méthodique des sources est indispensable pour les historiens."
+    },
+    {
+      "word_id": "v6",
+      "term": "deuten auf / als",
+      "phonetic_api": "/ˈdɔɪ̯tn̩ aʊ̯f / als/",
+      "phonetic_simple": "DOI-TEN AOOUF / ALS",
+      "translation": "interpréter comme / pointer vers",
+      "example_sentence": "Diese Geste lässt sich als Zeichen des Protests deuten.",
+      "example_phonetic": "/ˈdiːzə ˈɡeːstə lɛst zɪç als ˈtsaɪ̯çn̩ deːs pʁoˈtɛsts ˈdɔɪ̯tn̩/",
+      "example_translation": "Ce geste peut s'interpréter comme un signe de protestation."
+    },
+    {
+      "word_id": "v7",
+      "term": "zeitgenössisch",
+      "phonetic_api": "/ˈtsaɪ̯tɡəˌnœsɪʃ/",
+      "phonetic_simple": "TSAIT-GHE-NOES-ICH",
+      "translation": "contemporain (de l'époque évoquée)",
+      "example_sentence": "Wir müssen die zeitgenössischen Berichte genauer analysieren.",
+      "example_phonetic": "/viːɐ̯ ˈmʏsn̩ diː ˈtsaɪ̯tɡəˌnœsɪʃn̩ bəˈʁɪçtə ɡəˈnaʊ̯ɐ analyˈziːʁn̩/",
+      "example_translation": "Nous devons analyser plus précisément les comptes-rendus contemporains de l'époque."
+    },
+    {
+      "word_id": "v8",
+      "term": "das Stilmittel",
+      "phonetic_api": "/das ˈʃtiːlˌmɪtl̩/",
+      "phonetic_simple": "DAS CHTIIL-MIT-EL",
+      "translation": "la figure de style / le procédé stylistique",
+      "example_sentence": "Die Alliteration ist ein häufig genutztes Stilmittel in der Lyrik.",
+      "example_phonetic": "/diː alitəʁaˈtsi̯oːn ɪst aɪ̯n ˈhɔɪ̯fɪç ɡəˈnʊtstəs ˈʃtiːlˌmɪtl̩ ɪn deːɐ̯ ˈlyːʁɪk/",
+      "example_translation": "L'allitération est une figure de style fréquemment utilisée en poésie."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Bei genauerer Betrachtung des Textes lässt sich eine deutliche Ambivalenz erkennen.",
+      "phonetic_api": "/baɪ̯ ɡəˈnaʊ̯əʁɐ bəˈtʁaxtʊŋ deːs ˈtɛkstəs lɛst zɪç ˈaɪ̯nə ˈdɔɪ̯tlɪçə ampivaˈlɛnts ɛʁˈkɛnən/",
+      "phonetic_simple": "BAI GHE-NAOU-E-RER BE-TRACHT-UNG DEES TEK-STES LEST ZICH AI-NE DOI-TLICHE AM-BI-VA-LENTS ER-KEN-NEN",
+      "translation": "En examinant le texte de plus près, on peut déceler une nette ambivalence.",
+      "context": "Introduire un axe de lecture critique dans un commentaire de texte."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Das hier verwendete Stilmittel dient dazu, die emotionale Distanzierung hervorzuheben.",
+      "phonetic_api": "/das hiːɐ̯ fɛɐ̯ˈvɛndətə ˈʃtiːlˌmɪtl̩ diːnt daˈtsuː diː eːmotsioˈnaːlə dɪstantsiˈiːʁʊŋ hɛʁˈfoːɐ̯ˌheːbn̩/",
+      "phonetic_simple": "DAS HIIR FER-VEN-DE-TE CHTIIL-MIT-EL DIINT DA-TSOU DII E-MO-TSYO-NA-LE DIS-TAN-TSYIIR-UNG HER-VOOR-HEE-BEN",
+      "translation": "Le procédé stylistique employé ici sert à mettre en relief la distanciation émotionnelle.",
+      "context": "Analyser la fonction d'une figure de style (ex: une litote ou une ironie)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Diese historische Quelle muss im Kontext der damaligen politischen Umbrüche gedeutet werden.",
+      "phonetic_api": "/ˈdiːzə hɪsˈtoːʁɪʃə ˈkvɛlə mʊs ɪm ˈkɔntɛkst deːɐ̯ ˈdaːmaːlɪɡn̩ poˈliːtɪʃn̩ ˈʊmˌbʁʏçə ɡəˈdɔɪ̯tət ˈveːɐ̯dn̩/",
+      "phonetic_simple": "DII-ZE HIS-TOO-RICHE KVEL-E MOUS IM KON-TEXT DEER DA-MAA-LICH-EN PO-LII-TICH-EN OUM-BRUU-KHE GHE-DOI-TET VEER-DEN",
+      "translation": "Cette source historique doit être interprétée dans le contexte des bouleversements politiques de l'époque.",
+      "context": "Contextualiser un document d'archive ou un manifeste dans un essai historique."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Der Autor bedient sich einer bildhaften Sprache, die traditionelle Denkmuster infrage stellt.",
+      "phonetic_api": "/deːɐ̯ ˈaʊ̯toːɐ̯ bəˈdiːnt zɪç ˈaɪ̯nɐ ˈbɪltˌhaftn̩ ˈʃpʁaːxə diː tʁaditsioˈnɛllə ˈdɛŋkˌmʊstɐ ɪnˈfʁaːɡə ʃtɛlt/",
+      "phonetic_simple": "DEER AOOU-TOOR BE-DIINT ZICH AI-NER BILT-HAF-TEN CHPRA-KHE DII TRA-DI-TSYO-NEL-E DENK-MOUS-TER IN-FRA-GHE CHTELT",
+      "translation": "L'auteur manie une langue imagée qui remet en question les schémas de pensée traditionnels.",
+      "context": "Évaluer l'impact idéologique et esthétique d'un écrit."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le passif avec les verbes de modalité à la forme de l'infinitif (Passiv mit Modalverben)",
+      "explanation": "L'analyse textuelle rigoureuse utilise massivement des tournures passives impersonnelles combinées à un verbe de modalité pour exprimer ce qui 'peut', 'doit' ou 'devrait' être déduit du texte.",
+      "rules": [
+        "Structure dans une proposition principale : [Verbe de modalité conjugué au présent ou prétérit] + [Compléments] + [Participe passé du verbe d'action] + [Auxiliaire 'werden' à l'infinitif strict].",
+        "Dans une proposition subordonnée, le verbe de modalité conjugué bascule après l'infinitif 'werden' tout à la fin."
+      ],
+      "examples": [
+        {
+          "structure": "Diese Metapher kann als Kritik gedeutet werden. (kann + Participe passé + werden)",
+          "phonetic_api": "/ˈdiːzə meˈtafɐ kan als kʁiːtɪk ɡəˈdɔɪ̯tət ˈveːɐ̯dn̩/",
+          "meaning": "Cette métaphore peut être interprétée comme une critique."
+        },
+        {
+          "structure": "Es ist offensichtlich, dass der Text so verstanden werden muss.",
+          "phonetic_api": "/... das deːɐ̯ tɛkst zoː fɛɐ̯ˈʃtandn̩ ˈveːɐ̯dn̩ mʊs/",
+          "meaning": "Il est évident que le texte doit être compris ainsi."
+        }
+      ]
+    },
+    {
+      "concept": "Le génitif descriptif et le verbe 'sich bedienen' (Gouvernement C1)",
+      "explanation": "Pour décrire des procédés stylistiques avec élégance, on délaisse le verbe 'benutzen' au profit de structures pronominales soutenues.",
+      "rules": [
+        "Le verbe réfléchi 'sich bedienen' (se servir de / faire usage de) régit obligatoirement le cas Génitif.",
+        "Le complément qui désigne l'outil stylistique ou la source prend donc la marque du génitif : -es / -s pour les masculins/neutres, -der pour les féminins/pluriels."
+      ],
+      "examples": [
+        {
+          "structure": "Der Erzähler bedient sich eines (Génitif masculin) ironischen Untertons.",
+          "phonetic_api": "/deːɐ̯ ɛɐ̯ˈtsɛːlɐ bəˈdiːnt zɪç ˈaɪ̯nəs iʁoˈnɪʃn̩ ˈʊntɐˌtoːnəs/",
+          "meaning": "Le narrateur fait usage d'un sous-entendu ironique."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Dozent",
+      "text": "Frau Meier, wie lässt sich Ihrer Meinung nach das Hauptthema dieses Romans deuten? Welche Stilmittel fallen Ihnen bei der Lektüre besonders auf?",
+      "phonetic_api": "/fʁaʊ̯ ˈmaɪ̯ɐ viː lɛst zɪç ˈiːʁɐ ˈmaɪ̯nʊŋ naːx das ˈhaʊ̯ptˌteːma ˈdiːzəs ʁoˈmaːns ˈdɔɪ̯tn̩ ˈvɛlçə ˈʃtiːlˌmɪtl̩ ˈfaln̩ ˈiːnən baɪ̯ deːɐ̯ lɛkˈtyːʁə bəˈzɔndəʁs aʊ̯f/",
+      "phonetic_simple": "FRAOU MAI-ER VII LEST ZICH II-RER MAI-NUNG NAK DAS HAOUPT-THEE-MA DII-ZES RO-MANS DOI-TEN VEL-KHE CHTIIL-MIT-EL FAL-EN II-NEN BAI DEER LEK-TUOUR BE-ZON-DERS AOOUF",
+      "translation": "Madame Meier, comment peut-on selon vous interpréter le thème principal de ce roman ? Quelles figures de style retiennent particulièrement votre attention lors de la lecture ?"
+    },
+    {
+      "speaker": "Studentin",
+      "text": "Bei genauerer Betrachtung des Textes fällt auf, dass der Autor sich einer sehr bildhaften Sprache bedient. Die wiederkehrende Metapher des Sturms spiegelt die innere Zerrissenheit der Charaktere wider.",
+      "phonetic_api": "/baɪ̯ ɡəˈnaʊ̯əʁɐ bəˈtʁaxtʊŋ deːs ˈtɛkstəs fɛlt aʊ̯f das deːɐ̯ ˈaʊ̯toː̯ɐ zɪç ˈaɪ̯nɐ zeːɐ̯ ˈbɪltˌhaftn̩ ˈʃpʁaːxə bəˈdiːnt diː ˈviːdɐˌkeːʁəndə meˈtafɐ deːs ˈʃtʊʁməs ˈʃpiːɡl̩t diː ˈɪnəʁə tsɛˈʁɪsn̩haɪ̯t deːɐ̯ kaˈʁaktəʁə ˈviːdɐ/",
+      "phonetic_simple": "BAI GHE-NAOU-E-RER BE-TRACHT-UNG DEES TEK-STES FELT AOOUF DAS DEER AOOU-TOOR ZICH AI-NER ZEER BILT-HAF-TEN CHPRA-KHE BE-DIINT DII VII-DER-KEE-REN-DE ME-TA-FER DEES CHTOUR-MES CHPII-GELT DII IN-E-RE TSER-IS-EN-HAIT DEER KA-RAK-TE-RE VII-DER",
+      "translation": "En examinant le texte de plus près, on remarque que l'auteur fait usage d'une langue très imagée. La métaphore récurrente de la tempête reflète les déchirements intérieurs des personnages."
+    },
+    {
+      "speaker": "Dozent",
+      "text": "Ein exzellenter Ansatz. Kann dieses Stilmittel auch als eine zeitgenössische Anspielung auf die historischen Umbrüche verstanden werden?",
+      "phonetic_api": "/aɪ̯n ɛktsɛˈlɛntɐ ˈanˌzats kan ˈdiːzəs ˈʃtiːlˌmɪtl̩ aʊ̯x als ˈaɪ̯nə ˈtsaɪ̯tɡəˌnœsɪʃə ˈanˌ_ʃpiːlʊŋ aʊ̯f diː hɪsˈtoːʁɪʃn̩ ˈʊmˌbʁʏçə fɛɐ̯ˈʃtandn̩ ˈveː̯ɐdn̩/",
+      "phonetic_simple": "AIN EX-CEL-ENT-ER AN-ZATS KAN DII-ZES CHTIIL-MIT-EL AOOUX ALS AI-NE TSAIT-GHE-NOES-ICHE AN-CHPII-LUNG AOOUF DII HIS-TOO-RICH-EN OUM-BRUU-KHE FER-CHTEEN-DEN VEER-DEN",
+      "translation": "Une excellente piste. Ce procédé stylistique peut-il aussi être compris comme une allusion contemporaine aux bouleversements historiques de l'époque ?"
+    },
+    {
+      "speaker": "Studentin",
+      "text": "Ja, absolut. Eine sorgfältige Quellenkritik zeigt, dass die politischen Unruhen das Werk stark beeinflusst haben. Diese Aspekte müssen im Kommentar hervorgehoben werden.",
+      "phonetic_api": "/jaː apsoˈluːt ˈaɪ̯nə ˈzɔʁkfɛltɪçə ˈkvɛlən_kʁiːtɪk 'tsaɪ̯kt das diː poˈliːtɪʃn̩ ˈʊn_ʁuːən das vɛʁk ʃtaʁk bəˈʔaɪ̯n_flʊst ˈhaːbn̩ ˈdiːzə asˈpɛktə ˈmʏsn̩ ɪm kɔmɛnˈtaːɐ̯ hɛʁˈfoːɐ̯ɡəˌhoːbn̩ ˈveː̯ɐdn̩/",
+      "phonetic_simple": "YA AB-SO-LUUT AI-NE ZORK-FEL-TICH-E KVEL-EN-KRI-TIK TSAIKT DAS DII PO-LII-TICH-EN OUN-ROOU-EN DAS VERK CHTARK BE-AIN-FLOUST HA-BEN DII-ZE AS-PEK-TE MOUS-NEN IM KOM-EN-TAAR HER-VOOR-GHE-HOO-BEN VEER-DEN",
+      "translation": "Oui, absolument. Une critique minutieuse des sources montre que les troubles politiques ont fortement influencé l'œuvre. Ces aspects doivent être mis en relief dans le commentaire."
+    }
+  ],
+  "cultural_notes": [
+    "L'exégèse littéraire et historique en Allemagne (Textanalyse) obéit à la tradition herméneutique théorisée par des penseurs comme Gadamer ou Schleiermacher. Interpréter un texte exige de fusionner l'horizon historique de l'auteur avec l'horizon critique contemporain, sans anachronisme.",
+    "Le terme 'Quellenkritik' (critique des sources) est un concept fondamental de la méthode historique allemande formalisée par Leopold von Ranke au XIXe siècle. Il impose de passer chaque document officiel au crible de sa véracité, de ses omissions intentionnelles et de ses biais idéologiques.",
+    "La rigueur d'un commentaire universitaire allemand se mesure à la neutralité grammaticale : l'étudiant efface sa propre personne en n'utilisant jamais le 'ich' mais en privilégiant des formulations impersonnelles au passif ou des structures comme 'es lässt sich konstatieren' (on peut constater)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Complétez la phrase d'analyse littéraire suivante selon les règles syntaxiques de la voix passive : 'Die Absicht des Autors [ ___ ] durch das Stilmittel der Ironie verstanden werden.'",
+      "options": [
+        "muss",
+        "wird",
+        "kann"
+      ],
+      "correct_answer": "kann",
+      "explanation": "Pour exprimer la possibilité d'interprétation critique ('peut être compris'), on utilise le verbe de modalité 'können' (kann) conjugué au présent, s'insérant parfaitement dans la structure 'Participe passé + werden'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Der Dichter bedient sich eines raffinierten [ ___ ] (Stilmittels / Stilmittel), um den Leser zu täuschen. (Génitif singulier)",
+      "correct_answer": "Stilmittels",
+      "hint": "Entrez la forme déclinée au Génitif neutre singulier du substantif 'das Stilmittel', imposée par la structure du verbe pronominal sich bedienen."
+    }
+  ]
+}

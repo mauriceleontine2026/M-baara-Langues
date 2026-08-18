@@ -1,0 +1,116 @@
+{
+  "lesson_id": "B1_M2_L5",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 5,
+  "title": "Parler de ses projets futurs et de ses ambitions",
+  "learning_objectives": [
+    "Exprimer une intention ou une planification d'action future",
+    "Formuler des souhaits professionnels ou personnels d'avenir",
+    "Utiliser les prépositions et les structures de temps prospectives"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La voyelle d'appui finale doit être brève et ne pas subir d'allongement compensatoire incontrôlé lors de l'énoncé du futur.",
+    "common_pitfalls": "Attention à ne pas calquer l'utilisation des auxiliaires aller/vouloir du français sans adapter la syntaxe propre au landouma."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v14_1",
+      "term": "kɔn",
+      "phonetic_api": "/kɔn/",
+      "phonetic_simple": "KON",
+      "translation": "aller / s'apprêter à (auxiliaire de futur proche)",
+      "example_sentence": "mbi kɔn wɔl bɔl",
+      "example_phonetic": "/mbi kɔn wɔl bɔl/",
+      "example_translation": "Je vais jouer au ballon."
+    },
+    {
+      "word_id": "v14_2",
+      "term": "pa",
+      "phonetic_api": "/pa/",
+      "phonetic_simple": "PA",
+      "translation": "vouloir / projeter de / avoir l'ambition",
+      "example_sentence": "mbi pa alɛ",
+      "example_phonetic": "/mbi pa a.lɛ/",
+      "example_translation": "Je veux venir / J'ai l'intention de venir."
+    },
+    {
+      "word_id": "v14_3",
+      "term": "wɔ",
+      "phonetic_api": "/wɔ/",
+      "phonetic_simple": "WO",
+      "translation": "devenir / être (projection d'état futur)",
+      "example_sentence": "mbi pa wɔ karamɔkɔ",
+      "example_phonetic": "/mbi pa wɔ ka.ra.mɔ.kɔ/",
+      "example_translation": "Je veux devenir enseignant."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p14_1",
+      "original": "mbi kɔn ka dare sina",
+      "phonetic_api": "/mbi kɔn ka da.re si.na/",
+      "phonetic_simple": "MBI KON KA DA-RE SI-NA",
+      "translation": "J'irai en ville demain",
+      "context": "Annoncer ses projets de déplacement pour le lendemain à sa famille."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le futur proche par le verbe de mouvement 'kɔn'",
+      "explanation": "À l'instar du français, le verbe 'kɔn' (aller) perd sa valeur purement spatiale pour devenir un morphème grammatical de futur immédiat lorsqu'il est directement suivi d'un autre radical de verbe d'action.",
+      "rules": [
+        "Sujet + kɔn + Verbe principal d'action.",
+        "L'adverbe prospectif (comme 'sina') en fin d'énoncé renforce ce positionnement dans l'avenir."
+      ],
+      "examples": [
+        {
+          "structure": "kɔn + Verbe d'action",
+          "phonetic_api": "/mbi kɔn dɛp a.tɔk/",
+          "meaning": "Je vais acheter un vêtement."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'ami",
+      "text": "kɛwun mɔ pa wɔ ka dare ?",
+      "phonetic_api": "/kɛ.wun mɔ pa wɔ ka da.re/",
+      "phonetic_simple": "KÈ-WOUN MO PA WO KA DA-RE ?",
+      "translation": "Que veux-tu devenir en ville ?"
+    },
+    {
+      "speaker": "Le jeune",
+      "text": "mbi pa wɔ karamɔkɔ. mbi kɔn kar ka dare.",
+      "phonetic_api": "/mbi pa wɔ ka.ra.mɔ.kɔ mbi kɔn kar ka da.re/",
+      "phonetic_simple": "MBI PA WO KA-RA-MO-KO. MBI KON KAR KA DA-RE",
+      "translation": "Je veux devenir enseignant. Je vais étudier en ville."
+    }
+  ],
+  "cultural_notes": [
+    "Les projets d'avenir des jeunes Landouma balancent fréquemment entre le maintien des activités agro-pastorales familiales dans la région de Boké et l'exode d'études vers la capitale ou les grands centres urbains de la côte."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex14_1",
+      "type": "multiple_choice",
+      "question": "Quel verbe sert d'auxiliaire pour marquer le futur proche ?",
+      "options": [
+        "bɔn",
+        "kɔn",
+        "bɛn"
+      ],
+      "correct_answer": "kɔn",
+      "explanation": "'kɔn' signifie littéralement 'aller' et se grammaticalise en marqueur temporel prospectif."
+    },
+    {
+      "exercise_id": "ex14_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "mbi pa [ ___ ] karamɔkɔ (Je veux devenir enseignant)",
+      "correct_answer": "wɔ",
+      "hint": "Le verbe signifiant s'établir, être ou devenir un état."
+    }
+  ]
+}

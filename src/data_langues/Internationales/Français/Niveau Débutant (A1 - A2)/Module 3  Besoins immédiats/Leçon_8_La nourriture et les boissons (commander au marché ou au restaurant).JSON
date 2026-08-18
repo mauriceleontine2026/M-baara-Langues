@@ -1,0 +1,253 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché/restaurant)",
+  "learning_objectives": [
+    "Identifier et nommer les aliments de base et les boissons courantes",
+    "Passer une commande polie au restaurant ou interagir avec un commerçant au marché",
+    "Utiliser les articles partitifs (du, de la, des) pour exprimer une quantité indéterminée",
+    "Demander l'addition et comprendre les formules de base liées au paiement"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "1. Le son /œ/ dans 'œuf' (/œf/) ou 'beurre' (/bœʁ/) : la bouche est bien ouverte, la langue projetée vers l'avant et les lèvres arrondies. Notez qu'au pluriel, 'œufs' se prononce /ø/ (le 'f' devient muet). 2. La voyelle nasale /ɛ̃/ dans 'vin' (/vɛ̃/) ou 'pain' (/pɛ̃/) : étirez les lèvres horizontalement comme pour sourire, la mâchoire est abaissée. 3. Le son /wa/ dans 'boisson' (/bwasɔ̃/) ou 'croissant' (/kʁwasɑ̃/) : une transition rapide d'une forme arrondie vers une voyelle ouverte.",
+    "common_pitfalls": "1. Confondre le son /u/ dans 'poulet' (/pulɛ/) et le son /y/ dans 'jus' (/ʒy/). 2. Prononcer le 's' final de 'jus' ou 'croissants' : ces consonnes sont muettes. 3. Omettre la clarté de la consonne finale dans 'l'addition' /ladisjɔ̃/ où la finale nasale ne doit pas transformer le son 'on' en voyelle orale."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_l8",
+      "term": "Le pain",
+      "phonetic_api": "/lə pɛ̃/",
+      "phonetic_simple": "LEU PIN",
+      "translation": "Bread",
+      "example_sentence": "Je vais à la boulangerie pour acheter du pain.",
+      "example_phonetic": "/ʒə vɛ a la bulɑ̃ʒʁi puʁ aʃte dy pɛ̃/",
+      "example_translation": "I am going to the bakery to buy some bread."
+    },
+    {
+      "word_id": "v2_l8",
+      "term": "L'eau",
+      "phonetic_api": "/lo/",
+      "phonetic_simple": "LO",
+      "translation": "Water",
+      "example_sentence": "Une carafe d'eau, s'il vous plaît.",
+      "example_phonetic": "/yn kaʁaf do sil vu plɛ/",
+      "example_translation": "A pitcher of water, please."
+    },
+    {
+      "word_id": "v3_l8",
+      "term": "Le café",
+      "phonetic_api": "/lə kafe/",
+      "phonetic_simple": "LEU KA-FE",
+      "translation": "Coffee",
+      "example_sentence": "Vous prenez un café ou un thé ?",
+      "example_phonetic": "/vu pʁəne œ̃ kafe u œ̃ te/",
+      "example_translation": "Are you having a coffee or a tea?"
+    },
+    {
+      "word_id": "v4_l8",
+      "term": "Le poulet",
+      "phonetic_api": "/lə pulɛ/",
+      "phonetic_simple": "LEU POU-LE",
+      "translation": "Chicken",
+      "example_sentence": "Comme plat principal, je choisis le poulet rôti.",
+      "example_phonetic": "/kɔm pla pʁɛ̃sipɔl ʒə ʃwazi lə pulɛ ʁoti/",
+      "example_translation": "As a main course, I choose the roasted chicken."
+    },
+    {
+      "word_id": "v5_l8",
+      "term": "Un légume / Un fruit",
+      "phonetic_api": "/œ̃ leɡym/ / /œ̃ fʁɥi/",
+      "phonetic_simple": "UN LE-GUM / UN FRUI",
+      "translation": "A vegetable / A fruit",
+      "example_sentence": "Il faut manger des fruits et des légumes frais.",
+      "example_phonetic": "/il fo mɑ̃ʒe de fʁɥi e de leɡym fʁɛ/",
+      "example_translation": "It is necessary to eat fresh fruits and vegetables."
+    },
+    {
+      "word_id": "v6_l8",
+      "term": "Le fromage",
+      "phonetic_api": "/lə fʁɔmaʒ/",
+      "phonetic_simple": "LEU FRO-MAJ",
+      "translation": "Cheese",
+      "example_sentence": "La France est célèbre pour son fromage.",
+      "example_phonetic": "/la fʁɑ̃s ɛ selebʁ puʁ sɔ̃ fʁɔmaʒ/",
+      "example_translation": "France is famous for its cheese."
+    },
+    {
+      "word_id": "v7_l8",
+      "term": "L'addition",
+      "phonetic_api": "/ladisjɔ̃/",
+      "phonetic_simple": "LA-DEE-SION",
+      "translation": "The bill / check",
+      "example_sentence": "Garçon, l'addition s'il vous plaît !",
+      "example_phonetic": "/ɡaʁsɔ̃ ladisjɔ̃ sil vu plɛ/",
+      "example_translation": "Waiter, the bill please!"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_l8",
+      "original": "Je voudrais un menu à vingt euros.",
+      "phonetic_api": "/ʒə vudʁɛ œ̃ məny a vɛ̃t_øʁo/",
+      "phonetic_simple": "JE VOU-DRE UN MEU-NU A VINT-EU-RO",
+      "translation": "I would like a twenty-euro set menu.",
+      "context": "Passer sa commande de manière courante et polie au restaurant."
+    },
+    {
+      "phrase_id": "p2_l8",
+      "original": "Qu'est-ce que vous me conseillez ?",
+      "phonetic_api": "/kɛs kə vu mə kɔ̃seje/",
+      "phonetic_simple": "KES KEU VOU MEU KON-SE-YE",
+      "translation": "What do you recommend?",
+      "context": "Demander l'avis du serveur ou du commerçant."
+    },
+    {
+      "phrase_id": "p3_l8",
+      "original": "C'est tout pour le moment, merci.",
+      "phonetic_api": "/sɛ tu puʁ lə mɔmɑ̃ mɛʁsi/",
+      "phonetic_simple": "SE TOU POUR LEU MO-MAN MERR-SEE",
+      "translation": "That's all for now, thank you.",
+      "context": "Indiquer au serveur qu'on a fini de commander."
+    },
+    {
+      "phrase_id": "p4_l8",
+      "original": "Je vais prendre un kilo de tomates.",
+      "phonetic_api": "/ʒə vɛ pʁɑ̃dʁ œ̃ kilo də tɔmat/",
+      "phonetic_simple": "JE VE PRANDR UN KEE-LO DEU TO-MAT",
+      "translation": "I will take a kilo of tomatoes.",
+      "context": "Formule type pour acheter des produits au marché."
+    },
+    {
+      "phrase_id": "p5_l8",
+      "original": "Est-ce que je peux payer par carte ?",
+      "phonetic_api": "/es kə ʒə pø peje paʁ kaʁt/",
+      "phonetic_simple": "ES KEU JE PEU PE-YE PAR KART",
+      "translation": "Can I pay by card?",
+      "context": "S'enquérir du mode de paiement accepté."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les Articles Partitifs (Du, De la, De l', Des)",
+      "explanation": "On utilise les articles partitifs devant des aliments ou des substances non comptables pour désigner une quantité indéterminée, une 'partie' d'un tout.",
+      "rules": [
+        "DU : Devant un nom masculin singulier commençant par une consonne. Exemple : du pain, du beurre.",
+        "DE LA : Devant un nom féminin singulier commençant par une consonne. Exemple : de la viande, de la salade.",
+        "DE L' : Devant un nom singulier (masculin ou féminin) commençant par une voyelle ou un H muet. Exemple : de l'eau, de l'huile.",
+        "DES : Devant un nom pluriel (quantité indéterminée de plusieurs éléments). Exemple : des pâtes, des légumes.",
+        "À la forme négative, tous les articles partitifs deviennent obligatoirement 'DE' ou 'D''. Exemple : Je ne mange pas de viande."
+      ],
+      "examples": [
+        {
+          "structure": "Je mange du poisson avec de la sauce. (Masculin / Féminin)",
+          "phonetic_api": "/ʒə mɑ̃ʒ dy pwasɔ̃ avɛk də la sos/",
+          "meaning": "I am eating some fish with some sauce."
+        },
+        {
+          "structure": "Je ne veux pas de fromage. (Négation stricte)",
+          "phonetic_api": "/ʒə nə vø pa də fʁɔmaʒ/",
+          "meaning": "I do not want any cheese."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de la politesse avec 'Je voudrais'",
+      "explanation": "Pour commander ou demander quelque chose de manière civilisée, on évite le présent brutal 'Je veux' au profit du conditionnel présent de politesse.",
+      "rules": [
+        "Structure : Je voudrais + Nom OU Je voudrais + Verbe à l'infinitif.",
+        "Cette structure est toujours accompagnée de 's'il vous plaît' en fin de phrase."
+      ],
+      "examples": [
+        {
+          "structure": "Je voudrais un verre de vin rouge, s'il vous plaît.",
+          "phonetic_api": "/ʒə vudʁɛ œ̃ vɛʁ də vɛ̃ ʁuʒ sil vu plɛ/",
+          "meaning": "I would like a glass of red wine, please."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Le serveur",
+      "text": "Bonjour Monsieur, bienvenue au Bistrot du Marché. Voici la carte. Vous désirez un apéritif ?",
+      "phonetic_api": "/bɔ̃ʒuʁ məsjø bjɛ̃vny o bistʁo dy maʁʃe vwasi la kaʁt vu deziʁe œ̃n_apeʁitif/",
+      "phonetic_simple": "BON-JOUR MEU-SIEU, BIEN-VNU O BEES-TRO DU MAR-SHE. VOUA-SEE LA KART. VOU DE-ZEE-RE UN NA-PE-REE-TEEF ?",
+      "translation": "Good morning sir, welcome to the Bistrot du Marché. Here is the menu. Would you like an aperitif?"
+    },
+    {
+      "speaker": "Le client",
+      "text": "Bonjour. Oui, je voudrais un jus d'orange s'il vous plaît.",
+      "phonetic_api": "/bɔ̃ʒuʁ wi ʒə vudʁɛ œ̃ ʒy dɔʁɑ̃ʒ sil vu plɛ/",
+      "phonetic_simple": "BON-JOUR. OUI, JE VOU-DRE UN JU DO-RANJ SEEL VOU PLE.",
+      "translation": "Good morning. Yes, I would like an orange juice, please."
+    },
+    {
+      "speaker": "Le serveur",
+      "text": "Très bien. Et pour le plat principal, qu'est-ce que vous choisissez ?",
+      "phonetic_api": "/tʁɛ bjɛ̃ e puʁ lə pla pʁɛ̃sipɔl kɛs kə vu ʃwazise/",
+      "phonetic_simple": "TRE BIEN. E POUR LEU PLA PRIN-SEE-PAL, KES KEU VOU SHOA-ZEE-SE ?",
+      "translation": "Very well. And for the main course, what do you choose?"
+    },
+    {
+      "speaker": "Le client",
+      "text": "Je vais prendre le poulet rôti avec des légumes. Est-ce qu'il y a aussi du pain ?",
+      "phonetic_api": "/ʒə vɛ pʁɑ̃dʁ lə pulɛ ʁoti avɛk de leɡym ɛs kil ja osi dy pɛ/",
+      "phonetic_simple": "JE VE PRANDR LEU POU-LE RO-TEE A-VEK DE LE-GUM. ES KEEL YA O-SEE DU PIN ?",
+      "translation": "I will have the roasted chicken with vegetables. Is there also some bread?"
+    },
+    {
+      "speaker": "Le serveur",
+      "text": "Oui bien sûr, le pain et la carafe d'eau sont gratuits. Désirez-vous un dessert ?",
+      "phonetic_api": "/wi bjɛ̃ syʁ lə pɛ̃ e la kaʁaf do sɔ̃ ɡʁatɥi deziʁe vu œ̃ desɛʁ/",
+      "phonetic_simple": "OUI BIEN SUR, LEU PIN E LA KA-RAF DO SON GRA-TUI. DE-ZEE-RE VOU UN DES-SER ?",
+      "translation": "Yes of course, bread and a pitcher of water are free. Would you like a dessert?"
+    },
+    {
+      "speaker": "Le client",
+      "text": "Non merci, c'est tout. L'addition, s'il vous plaît !",
+      "phonetic_api": "/nɔ̃ mɛʁsi sɛ tu ladisjɔ̃ sil vu plɛ/",
+      "phonetic_simple": "NON MERR-SEE, SE TOU. LA-DEE-SION, SEEL VOU PLE !",
+      "translation": "No thank you, that's all. The bill, please!"
+    }
+  ],
+  "cultural_notes": [
+    "L'eau et le pain au restaurant : En France, la loi oblige les restaurants à servir gratuitement une carafe d'eau fraîche et du pain (la corbeille de pain) en accompagnement des repas commandés. Nul besoin de payer pour l'eau du robinet !",
+    "Le pourboire : Le service est toujours inclus dans le prix affiché sur l'addition (indiqué par la mention 'Service compris'). Donner un pourboire n'est pas obligatoire comme aux États-Unis, mais il est d'usage de laisser un ou deux euros si le service était excellent."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_l8",
+      "type": "multiple_choice",
+      "question": "Quelle phrase est la plus polie pour commander un café au comptoir ?",
+      "options": [
+        "Je veux un café.",
+        "Je voudrais un café, s'il vous plaît.",
+        "Donne-moi un café."
+      ],
+      "correct_answer": "Je voudrais un café, s'il vous plaît.",
+      "explanation": "'Je voudrais' exprime le conditionnel de politesse requis pour toute interaction sociale de commande."
+    },
+    {
+      "exercise_id": "ex2_l8",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le matin, je mange [ ___ ] confiture sur mes tartines.",
+      "correct_answer": "de la",
+      "hint": "Article partitif féminin singulier devant le mot confiture."
+    },
+    {
+      "exercise_id": "ex3_l8",
+      "type": "multiple_choice",
+      "question": "Que se passe-t-il pour l'article partitif dans la phrase négative : 'Je ne bois pas [ ___ ] vin' ?",
+      "options": [
+        "du",
+        "de",
+        "des"
+      ],
+      "correct_answer": "de",
+      "explanation": "À la forme négative stricte, les articles partitifs se contractent ou s'effacent systématiquement en 'de'."
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "lesson_id": "B1_M2_L5",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 5,
+  "title": "Parler de ses projets futurs et de ses ambitions",
+  "learning_objectives": [
+    "Exprimer des projets futurs certains à l'aide de l'infixe temporel '-ta-'",
+    "Formuler des souhaits, des espoirs et des ambitions professionnelles ou personnelles",
+    "Maîtriser l'usage du subjonctif et du verbe 'Kutegemea' pour exprimer l'intentionnalité",
+    "Utiliser les structures conditionnelles de base de l'avenir avec l'infixe '-ki-'"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression du futur demande une articulation claire de l'infixe '-ta-' [ta]. Le mot 'Malengo' (objectives) présente un bloc pré-nasalisé 'ng' dur [maˈlɛ.ŋgɔ]. Le verbe 'Kufanikiwa' (réussir) demande d'enchaîner sans pause les syllabes finales [ku.fa.niˈki.wa].",
+    "common_pitfalls": "Attention à ne pas confondre l'infixe du futur '-ta-' avec le pronom sujet de la deuxième personne du pluriel 'mta-'. Dans 'Utasafiri' (tu voyageras), le 'u-' est le sujet et '-ta-' marque le futur. Pour 'Mtasafiri' (vous voyagerez), 'm-' est le sujet."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Malengo",
+      "phonetic_api": "/maˈlɛ.ŋgɔ/",
+      "phonetic_simple": "MAH-LEHN-GOH",
+      "translation": "Objectifs / Buts / Ambitions",
+      "example_sentence": "Yeye ana malengo makubwa maishani.",
+      "example_phonetic": "/ˈjɛ.jɛ ˈa.na maˈlɛ.ŋgɔ maˈku.bwa ma.i.ʃaˈni/",
+      "example_translation": "Il a de grands objectifs dans la vie."
+    },
+    {
+      "word_id": "v2",
+      "term": "Kutegemea",
+      "phonetic_api": "/ku.tɛ.gɛˈmɛ.a/",
+      "phonetic_simple": "KOO-TEH-GEH-MEH-AH",
+      "translation": "S'attendre à / Compter sur / Prévoir de",
+      "example_sentence": "Ninategemea kuhitimu chuo kikuu mwaka ujao.",
+      "example_phonetic": "/ni.na.tɛ.gɛˈmɛ.a ku.hiˈti.mu ˈtʃu.ɔ kiˈkuː ˈmwa.ka uˈdʒa.ɔ/",
+      "example_translation": "Je prévois d'obtenir mon diplôme universitaire l'année prochaine."
+    },
+    {
+      "word_id": "v3",
+      "term": "Ndoto",
+      "phonetic_api": "/ˈndɔ.tɔ/",
+      "phonetic_simple": "NDOH-TOH",
+      "translation": "Rêve / Aspiration",
+      "example_sentence": "Ndoto yangu ni kuwa daktari.",
+      "example_phonetic": "/ˈndɔ.tɔ ˈja.ŋgu ni ˈku.wa daˈkta.ri/",
+      "example_translation": "Mon rêve est de devenir médecin."
+    },
+    {
+      "word_id": "v4",
+      "term": "Kufanikiwa",
+      "phonetic_api": "/ku.fa.niˈki.wa/",
+      "phonetic_simple": "KOO-FAH-NEE-KEE-WAH",
+      "translation": "Réussir / Prospérer",
+      "example_sentence": "Tukifanya kazi kwa bidii, tutafanikiwa.",
+      "example_phonetic": "/tu.kiˈfa.ɲa ˈka.zi kwa biˈdiː tu.ta.fa.niˈki.wa/",
+      "example_translation": "Si nous travaillons dur, nous réussirons."
+    },
+    {
+      "word_id": "v5",
+      "term": "Mpango",
+      "phonetic_api": "/mˈpa.ŋgɔ/",
+      "phonetic_simple": "M-PAHN-GOH",
+      "translation": "Plan / Projet / Programme",
+      "example_sentence": "Tuna mpango wa kujenga nyumba mpya.",
+      "example_phonetic": "/tu.na mˈpa.ŋgɔ wa kuˈdʒɛ.ŋga ˈɲu.mba ˈm-pja/",
+      "example_translation": "Nous avons le projet de construire une nouvelle maison."
+    },
+    {
+      "word_id": "v6",
+      "term": "Kusudia",
+      "phonetic_api": "/ku.suˈdi.a/",
+      "phonetic_simple": "KOO-SOO-DEE-AH",
+      "translation": "Intentionner / Avoir l'intention de",
+      "example_sentence": "Ninakusudia kuanza biashara mwezi ujao.",
+      "example_phonetic": "/ni.na.ku.suˈdi.a kuˈa.nza bi.aˈʃa.ra ˈmwɛ.zi uˈdʒa.ɔ/",
+      "example_translation": "J'ai l'intention de lancer un commerce le mois prochain."
+    },
+    {
+      "word_id": "v7",
+      "term": "Wakati ujao",
+      "phonetic_api": "/wa.kaˈti uˈdʒa.ɔ/",
+      "phonetic_simple": "WAH-KAH-TEE OO-DJAH-OH",
+      "translation": "Le futur / L'avenir",
+      "example_sentence": "Tunapaswa kufikiria kuhusu wakati ujao.",
+      "example_phonetic": "/tu.naˈpa.swa ku.fi.kiˈri.a kuˈhu.su wa.kaˈti uˈdʒa.ɔ/",
+      "example_translation": "Nous devons penser à l'avenir."
+    },
+    {
+      "word_id": "v8",
+      "term": "Ujuzi",
+      "phonetic_api": "/uˈdʒu.zi/",
+      "phonetic_simple": "OO-DJOO-ZEE",
+      "translation": "Compétences / Savoir-faire / Expertise",
+      "example_sentence": "Anataka kupata ujuzi zaidi wa kompyuta.",
+      "example_phonetic": "/a.naˈta.ka kuˈpa.ta uˈdʒu.zi zaˈi.di wa kompyuta/",
+      "example_translation": "Il veut acquérir plus de compétences en informatique."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Je, una malengo gani kwa miaka mitano ijayo?",
+      "phonetic_api": "/dʒɛ ˈu.na maˈlɛ.ŋgɔ ˈga.ni kwa miˈa.ka miˈta.nɔ iˈdʒa.jɔ/",
+      "phonetic_simple": "JEH OO-NAH MAH-LEHN-GOH GAH-NEE KWAH MEE-AH-KAH MEE-TAH-NOH EE-DJAH-YOH",
+      "translation": "Quels sont tes objectifs pour les cinq prochaines années ?",
+      "context": "Entretien professionnel ou discussion sérieuse sur l'avenir."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Natarajia kuanzisha mradi mpya hivi karibuni.",
+      "phonetic_api": "/na.ta.raˈdʒi.a ku.a.nziˈʃa mˈra.di mˈpja ˈhi.vi ka.riˈbu.ni/",
+      "phonetic_simple": "NAH-TAH-RAH-DJEE-AH KOO-AHN-ZEE-SHAH MRAH-DEE M-PYAH HEE-VEE KAH-REE-BOO-NEE",
+      "translation": "J'espère lancer un nouveau projet très bientôt.",
+      "context": "Partager un projet professionnel imminent."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Nikipata pesa za kutosha, nitasafiri duniani.",
+      "phonetic_api": "/ni.kiˈpa.ta ˈpɛ.sa za kuˈtɔ.ʃa ni.ta.saˈfi.ri du.ni.aˈni/",
+      "phonetic_simple": "NEE-KEE-PAH-TAH PEH-SAH ZAH KOO-TOH-SHAH NEE-TAH-SAH-FEE-REE DOO-NEE-AH-NEE",
+      "translation": "Si j'obtiens assez d'argent, je voyagerai à travers le monde.",
+      "context": "Exprimer une condition future liée à une ambition personnelle."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ndoto yake kubwa ni kuwasaidia watoto maskini.",
+      "phonetic_api": "/ˈndɔ.tɔ ˈja.kɛ ˈku.bwa ni ku.wa.sa.iˈdi.a waˈtɔ.tɔ maˈski.ni/",
+      "phonetic_simple": "NDOH-TOH YAH-KEH KOO-BWAH NEE KOO-WAH-SAH-EE-DEE-AH WAH-TOH-TOH MAH-SKEE-NEE",
+      "translation": "Son grand rêve est d'aider les enfants pauvres.",
+      "context": "Évoquer une vocation ou une ambition philanthropique."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Hawatakata tamaa hadi wafikie malengo yao.",
+      "phonetic_api": "/ha.wa.taˈka.ta taˈmaː ˈha.di wa.fi.kiˈɛ maˈlɛ.ŋgɔ ˈja.ɔ/",
+      "phonetic_simple": "HAH-WAH-TAH-KAH-TAH TAH-MAAH HAH-DEE WAH-FEE-KEE-EH MAH-LEHN-GOH YAH-OH",
+      "translation": "Ils ne baisseront pas les bras tant qu'ils n'auront pas atteint leurs objectifs.",
+      "context": "Exprimer la détermination future d'un groupe ou d'une équipe."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Ninamwomba Mungu anibariki katika kazi yangu.",
+      "phonetic_api": "/ni.naˈmwɔ.mba ˈmu.ŋgu a.ni.baˈri.ki kaˈti.ka ˈka.zi ˈja.ŋgu/",
+      "phonetic_simple": "NEE-NAHM-WOH-MBAH MOON-GOO AH-NEE-BAH-REE-KEE KAH-TEE-KAH KAH-ZEE YAHN-GOO",
+      "translation": "Je prie Dieu de me bénir dans mon travail.",
+      "context": "Formuler un souhait d'avenir mêlé d'espoir ou de spiritualité."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Mwakani nitajifunza lugha ya Kifaransa.",
+      "phonetic_api": "/mwa.kaˈni ni.ta.dʒiˈfu.nza ˈlu.ɣa ja Kifaransa/",
+      "phonetic_simple": "MWAH-KAH-NEE NEE-TAH-JEE-FOON-ZAH LOO-GHAH YAH KEE-FAH-RAHN-SAH",
+      "translation": "L'année prochaine, j'apprendrai la lugha française.",
+      "context": "Planifier l'acquisition d'une nouvelle compétence."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Tukishirikiana, tutaleta mabadiliko makubwa.",
+      "phonetic_api": "/tu.ki.ʃi.ri.kiˈa.na tu.taˈlɛ.ta ma.ba.diˈli.kɔ maˈku.bwa/",
+      "phonetic_simple": "TOO-KEE-SHEE-REE-KEE-AH-NAH NEE-TAH-LEH-TAH MAH-BAH-DEE-LEE-KOH MAH-KOO-BWAH",
+      "translation": "Si nous coopérons, nous apporterons un grand changement.",
+      "context": "Ambition collective ou politique pour la communauté."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du futur avec l'infixe '-ta-' et sa négation",
+      "explanation": "L'expression de l'avenir certain ou d'un projet établi utilise l'infixe de temps '-ta-'. À la forme négative, cet infixe se transforme obligatoirement en '-ta-' précédé du préfixe sujet négatif spécifique.",
+      "rules": [
+        "Forme affirmative : Pronom Sujet + -ta- + Radical. Exemple : 'Nitasoma' (Je lirai).",
+        "Forme négative : Pronom Sujet Négatif + -ta- + Radical. Exemple : 'Hautasoma' (Tu ne liras pas).",
+        "Contrairement au présent ou au passé, l'infixe du futur ne disparaît pas à la forme négative."
+      ],
+      "examples": [
+        {
+          "structure": "Ni- (Je) + ta- (Futur) + jenga (construire) = Nitajenga",
+          "phonetic_api": "/ni.taˈdʒɛ.ŋga/",
+          "meaning": "Je construirai"
+        },
+        {
+          "structure": "Si- (Je négatif) + ta- (Futur) + kata (couper) + tamaa (espoir) = Sitakata tamaa",
+          "phonetic_api": "/si.taˈka.ta taˈmaː/",
+          "meaning": "Je ne baisserai pas les bras (je ne désespérerai pas)"
+        }
+      ]
+    },
+    {
+      "concept": "Le conditionnel futur d'hypothèse avec l'infixe '-ki-'",
+      "explanation": "Pour exprimer un projet ou une ambition soumis à une condition préalable, le swahili emploie l'infixe '-ki-' au sein de la première proposition (la condition).",
+      "rules": [
+        "La proposition de condition prend l'infixe '-ki-' juste après le pronom sujet. Exemple : 'Ukisoma...' (Si tu étudies...).",
+        "La proposition principale découlant de la condition utilise généralement le futur en '-ta-'. Exemple : '...utafaulu' (...tu réussiras)."
+      ],
+      "examples": [
+        {
+          "structure": "Tu- (Nous) + ki- (Si) + wekeza (investir) = Tukiwekeza",
+          "phonetic_api": "/tu.ki.wɛˈkɛ.za/",
+          "meaning": "Si nous investissons"
+        },
+        {
+          "structure": "A- (Il) + ki- (Si) + pata (obtenir) + ujuzi = Akipata ujuzi",
+          "phonetic_api": "/a.kiˈpa.ta uˈdʒu.zi/",
+          "meaning": "S'il acquiert des compétences"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Baraka",
+      "text": "Hujambo Neema! Nimesikia kwamba unakaribia kumaliza masomo yako ya chuo kikuu. Una malengo gani kwa wakati ujao?",
+      "phonetic_api": "/huˈdʒa.mbɔ nɛˈː.ma ni.mɛˈsi.ki.a ˈkwa.mba u.na.kaˈri.bi.a ku.maˈli.za maˈsɔ.mɔ ˈja.kɔ ja ˈtʃu.ɔ kiˈkuː ˈu.na maˈlɛ.ŋgɔ ˈga.ni kwa wa.kaˈti uˈdʒa.ɔ/",
+      "phonetic_simple": "HOO-DJAHM-BOH NEH-EMA NEE-MEH-SEE-KEE-AH KWAH-MBAH OO-NAH-KAH-REE-BEE-AH KOO-MAH-LEE-ZAH MAH-SOH-MOH YAH-KOH YAH CHOO-OO KEE-KOO OO-NAH MAH-LEHN-GOH GAH-NEE KWAH WAH-KAH-TEE OO-DJAH-OH",
+      "translation": "Bonjour Neema ! J'ai entendu dire que tu es sur le point de finir tes études universitaires. Quels sont tes objectifs pour l'avenir ?"
+    },
+    {
+      "speaker": "Neema",
+      "text": "Sijambo Baraka! Ni kweli. Ninategemea kuhitimu mwezi wa tano. Ndoto yangu kubwa ni kuanzisha kampuni ya teknolojia hapa nchini.",
+      "phonetic_api": "/siˈdʒa.mbɔ baˈra.ka ni ˈkwɛ.li ni.na.tɛ.gɛˈmɛ.a ku.hiˈti.mu ˈmwɛ.zi wa ˈta.nɔ ˈndɔ.tɔ ˈja.ŋgu ˈku.bwa ni ku.a.nziˈʃa kaˈmpu.ni ja tɛ.knɔˈlɔ.dʒi.a ˈha.pa n-tʃiˈni/",
+      "phonetic_simple": "SEE-DJAHM-BOH BAH-RAH-KAH NEE KWEH-LEE NEE-NAH-TEH-GEH-MEH-AH KOO-HEE-TEE-MOO MWEH-ZEE WAH TAH-NOH NDOH-TOH YAH-KEH KOO-BWAH NEE KOO-AHN-ZEE-SHAH KAH-MPOO-NEE YAH TEH-KNOH-LOH-DJEE-AH HAH-PAH NCHEE-NEE",
+      "translation": "Je vais bien Baraka ! C'est vrai. J'espère obtenir mon diplôme au mois de mai. Mon grand rêve est de fonder une entreprise technologique ici au pays."
+    },
+    {
+      "speaker": "Baraka",
+      "text": "Wow, huo ni mpango mzuri sana! Je, utatafuta wafanyakazi au utaanza peke yako?",
+      "phonetic_api": "/Wow ˈhu.u ni mˈpa.ŋgɔ mˈzu.ri ˈsa.na dʒɛ u.ta.taˈfu.ta wa.fa.ɲaˈka.zi a.u u.taˈa.nza pɛˈkɛ ˈja.kɔ/",
+      "phonetic_simple": "Wow HOO-OO NEE M-PAHN-GOH MZEE-REE SAH-NAH JEH OO-TAH-TAH-FOO-TAH WAH-FAH-NYAH-KAH-ZEE AH-OO OO-TAH-AHN-ZAH PEH-KEH YAH-KOH",
+      "translation": "Wow, c'est un excellent projet ! Est-ce que tu chercheras des employés ou commenceras-tu seule ?"
+    },
+    {
+      "speaker": "Neema",
+      "text": "Nikipata mtaji wa kutosha, nitasajili kampuni na kukodisha ofisi. Baadaye, nitatafuta vijana wenye ujuzi mkubwa wanisaidie.",
+      "phonetic_api": "/ni.kiˈpa.ta mˈta.dʒi wa kuˈtɔ.ʃa ni.ta.saˈdʒi.li kaˈmpu.ni na ku.kɔˈdi.ʃa ɔˈfi.si ba.aˈda.jɛ ni.ta.taˈfu.ta viˈdʒa.na ˈwɛ.ɲɛ uˈdʒu.zi mˈku.bwa wa.ni.sa.iˈdi.ɛ/",
+      "phonetic_simple": "NEE-KEE-PAH-TAH MTAH-DJEE WAH KOO-TOH-SHAH NEE-TAH-SAH-DJEE-LEE KAH-MPOO-NEE NAH KOO-KOH-DEE-SHAH OH-FEE-SEE BAH-AH-DAH-YEH NEE-TAH-TAH-FOO-TAH VEE-DJAH-NAH WEHN-YEH OO-DJOO-ZEE MKOO-BWAH WAH-NEE-SAH-EE-DEE-EH",
+      "translation": "Si j'obtiens un capital suffisant, j'enregistrerai l'entreprise et je louerai un bureau. Plus tard, je chercherai des jeunes compétences hautement qualifiées pour m'aider."
+    },
+    {
+      "speaker": "Baraka",
+      "text": "Nina hakika utafanikiwa. Wewe una bidii sana na hutakata tamaa haraka.",
+      "phonetic_api": "/ni.na haˈki.ka u.ta.fa.niˈki.wa ˈwɛ.jɛ ˈu.na biˈdiː ˈsa.na na hu.taˈka.ta taˈmaː haˈra.ka/",
+      "phonetic_simple": "NEE-NAH HAH-KEE-KAH OO-TAH-FAH-NEE-KEE-WAH WEH-YEH OO-NAH BEE-DEE SAH-NAH NAH HOO-TAH-KAH-TAH TAH-MAAH HAH-RAH-KAH",
+      "translation": "Je suis certain que tu réussiras. Tu es très travailleuse et tu ne baisseras pas les bras facilement."
+    },
+    {
+      "speaker": "Neema",
+      "text": "Asante sana kwa ushauri wako. Mungu akipenda, mipango hii yote itatimia.",
+      "phonetic_api": "/aˈsa.ntɛ ˈsa.na kwa uˈʃa.u.ri ˈwa.kɔ ˈmu.ŋgu a.kiˈpɛ.nda miˈpa.ŋgɔ ˈhi.i ˈjɔ.tɛ i.ta.tiˈmi.a/",
+      "phonetic_simple": "AH-SAHN-TEH SAH-NAH KWAH OO-SHAH-OO-REE WAH-KOH MOON-GOO AH-KEE-PEHN-DAH MEE-PAHN-GOH HEE-YEE YOH-TEH EE-TAH-TEE-MEE-AH",
+      "translation": "Merci beaucoup pour tes encouragements. Si Dieu le veut, tous ces projets se réaliseront."
+    }
+  ],
+  "cultural_notes": [
+    "En Afrique de l'Est, l'énonciation des projets d'avenir ou des ambitions s'accompagne quasi systématiquement de la locution 'Mungu akipenda' (Si Dieu le veut) ou 'Inshallah'. Planifier le futur sans inclure cette marque d'humilité face au destin est parfois perçu comme de la présomption.",
+    "La jeunesse urbaine est-africaine, particulièrement à Nairobi ou Dar es Salaam, utilise massivement le terme 'Kujiajiri' (s'auto-employer) pour traduire ses ambitions entrepreneuriales face à la rareté de l'emploi formel. L'accès au capital ('Mtaji') est le thème central de toutes les discussions de projets.",
+    "La notion d'ambition n'est pas uniquement individuelle : réussir ses projets implique traditionnellement le devoir moral de soutenir sa famille élargie et de contribuer au développement de son 'Mtaa' (quartier)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment traduit-on correctement le projet : 'Nous ne construirons pas de maison l'année prochaine' ?",
+      "options": [
+        "Hatujajenga nyumba mwakani.",
+        "Hatutajenga nyumba mwakani.",
+        "Tukijenga nyumba mwakani.",
+        "Hawatajenga nyumba mwakani."
+      ],
+      "correct_answer": "Hatutajenga nyumba mwakani.",
+      "explanation": "La structure 'Hatu-' (nous négatif) associée à l'inflexe du futur '-ta-' forme la négation exacte de l'action à venir pour la première personne du pluriel."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "U[ ___ ]fanya kazi kwa bidii, utafikia malengo yako. (Complétez avec l'infixe d'hypothèse pour dire 'Si tu travailles...').",
+      "correct_answer": "ki",
+      "hint": "C'est l'infixe de condition indispensable pour introduire une supposition ou un prérequis à l'avenir."
+    }
+  ]
+}

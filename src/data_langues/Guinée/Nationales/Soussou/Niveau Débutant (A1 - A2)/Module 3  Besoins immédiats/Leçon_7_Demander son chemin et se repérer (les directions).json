@@ -1,0 +1,308 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer (les directions)",
+  "learning_objectives": [
+    "Savoir demander la direction d'un lieu public ou d'une infrastructure de base",
+    "Comprendre et utiliser les adverbes de lieu et les indicateurs spatiaux fondamentaux",
+    "S'orienter dans l'espace en utilisant les repères urbains et géographiques"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met l'accent sur les voyelles doubles longues comme dans 'fɔɔma' (à côté) et la prononciation correcte du digramme labio-vélaire /ɡb/ dans 'siga' ou 'faga'. La consonne rétroflexe ou l'articulation alvéolaire fluide du 'r' dans 'kira' ne doit pas être grasseyée.",
+    "common_pitfalls": "Le 'x' de 'fɔxɔ' doit être prononcé comme une friction rauque au fond de la gorge, et non comme un 'ks'. Ne confondez pas 'kira' (le chemin) avec 'kire' (le marché, selon le dialecte)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v7_1",
+      "term": "Kira",
+      "phonetic_api": "/kira/",
+      "phonetic_simple": "KI-RA",
+      "translation": "Chemin / Route / Rue",
+      "example_sentence": "Kira fanyi nan na ki ra.",
+      "example_phonetic": "/kira faɲi naⁿ na ki ra/",
+      "example_translation": "C'est une bonne route ici."
+    },
+    {
+      "word_id": "v7_2",
+      "term": "Yire",
+      "phonetic_api": "/yirɛ/",
+      "phonetic_simple": "YI-RÈ",
+      "translation": "Endroit / Lieu / Place",
+      "example_sentence": "Yire muxe na ?",
+      "example_phonetic": "/yirɛ muxɛ na/",
+      "example_translation": "Où se trouve cet endroit ?"
+    },
+    {
+      "word_id": "v7_3",
+      "term": "Yanbɛ",
+      "phonetic_api": "/yaⁿbɛ/",
+      "phonetic_simple": "YAN-BÈ",
+      "translation": "Ici / De ce côté",
+      "example_sentence": "Fa yanbɛ, n bore.",
+      "example_phonetic": "/fa yaⁿbɛ n borɛ/",
+      "example_translation": "Viens ici, mon ami."
+    },
+    {
+      "word_id": "v7_4",
+      "term": "Mɛnni",
+      "phonetic_api": "/mɛnni/",
+      "phonetic_simple": "MÈN-NI",
+      "translation": "Là-bas / Cet endroit éloigné",
+      "example_sentence": "A na mɛnni.",
+      "example_phonetic": "/a na mɛnni/",
+      "example_translation": "Il est là-bas."
+    },
+    {
+      "word_id": "v7_5",
+      "term": "Fɔxɔ",
+      "phonetic_api": "/fɔxɔ/",
+      "phonetic_simple": "FO-KHO (ouvert)",
+      "translation": "Côté / Flanc",
+      "example_sentence": "Siga i fɔxɔ ma.",
+      "example_phonetic": "/siɡa i fɔxɔ ma/",
+      "example_translation": "Va de ton côté."
+    },
+    {
+      "word_id": "v7_6",
+      "term": "Kono",
+      "phonetic_api": "/kono/",
+      "phonetic_simple": "KO-NO",
+      "translation": "Gauche / Côté gauche",
+      "example_sentence": "Kono fɔxɔ ma.",
+      "example_phonetic": "/kono fɔxɔ ma/",
+      "example_translation": "Sur le côté gauche."
+    },
+    {
+      "word_id": "v7_7",
+      "term": "Yifangbe",
+      "phonetic_api": "/yifaⁿɡbɛ/",
+      "phonetic_simple": "YI-FAN-GBÈ",
+      "translation": "Droite / Côté droit",
+      "example_sentence": "Yifangbe fɔxɔ nan na.",
+      "example_phonetic": "/yifaⁿɡbɛ fɔxɔ naⁿ na/",
+      "example_translation": "C'est sur le côté droit."
+    },
+    {
+      "word_id": "v7_8",
+      "term": "Makitini",
+      "phonetic_api": "/makitini/",
+      "phonetic_simple": "MA-KI-TI-NI",
+      "translation": "Tout droit / Directement",
+      "example_sentence": "Siga makitini.",
+      "example_phonetic": "/siɡa makitini/",
+      "example_translation": "Va tout droit."
+    },
+    {
+      "word_id": "v7_9",
+      "term": "Kire",
+      "phonetic_api": "/kirɛ/",
+      "phonetic_simple": "KI-RÈ",
+      "translation": "Marché (lieu commercial)",
+      "example_sentence": "Kire na mi ?",
+      "example_phonetic": "/kirɛ na mi/",
+      "example_translation": "Où est le marché ?"
+    },
+    {
+      "word_id": "v7_10",
+      "term": "Mali",
+      "phonetic_api": "/mali/",
+      "phonetic_simple": "MA-LI",
+      "translation": "Aider / Guider",
+      "example_sentence": "N mali kira ma.",
+      "example_phonetic": "/n mali kira ma/",
+      "example_translation": "Aide-moi pour le chemin."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p7_1",
+      "original": "Kire na mi i ra ?",
+      "phonetic_api": "/kirɛ na mi i ra/",
+      "phonetic_simple": "KI-RÈ NA MI I RA ?",
+      "translation": "Où se trouve le marché ?",
+      "context": "Demander une direction dans une ville ou un village."
+    },
+    {
+      "phrase_id": "p7_2",
+      "original": "Siga makitini.",
+      "phonetic_api": "/siɡa makitini/",
+      "phonetic_simple": "SI-GA MA-KI-TI-NI",
+      "translation": "Va tout droit.",
+      "context": "Donner une instruction d'orientation simple."
+    },
+    {
+      "phrase_id": "p7_3",
+      "original": "A na yifangbe fɔxɔ ma.",
+      "phonetic_api": "/a na yifaⁿɡbɛ fɔxɔ ma/",
+      "phonetic_simple": "A NA YI-FAN-GBÈ FO-KHO MA",
+      "translation": "C'est sur le côté droit.",
+      "context": "Indiquer un emplacement précis à droite."
+    },
+    {
+      "phrase_id": "p7_4",
+      "original": "N mali, n tora kira ma.",
+      "phonetic_api": "/n mali n tora kira ma/",
+      "phonetic_simple": "N MA-LI, N TO-RA KI-RA MA",
+      "translation": "Aide-moi, je suis perdu sur le chemin (fatigué par la route).",
+      "context": "Solliciter de l'aide en cas de désorientation totale."
+    },
+    {
+      "phrase_id": "p7_5",
+      "original": "Kono fɔxɔ ma, gba m mɛnni.",
+      "phonetic_api": "/kono fɔxɔ ma ɡba m mɛnni/",
+      "phonetic_simple": "KO-NO FO-KHO MA, GBA M MÈN-NI",
+      "translation": "Sur le côté gauche, tourne là-bas.",
+      "context": "Guider un chauffeur ou un marcheur."
+    },
+    {
+      "phrase_id": "p7_6",
+      "original": "Yire makoya mi ra ?",
+      "phonetic_api": "/yirɛ makoya mi ra/",
+      "phonetic_simple": "YI-RÈ MA-KO-YA MI RA ?",
+      "translation": "Cet endroit est-il loin ?",
+      "context": "S'informer sur la distance à parcourir."
+    },
+    {
+      "phrase_id": "p7_7",
+      "original": "A na ki, a mu makoya.",
+      "phonetic_api": "/a na ki a mu makoya/",
+      "phonetic_simple": "A NA KI, A MOU MA-KO-YA",
+      "translation": "C'est tout près, ce n'est pas loin.",
+      "context": "Rassurer sur la proximité d'une destination."
+    },
+    {
+      "phrase_id": "p7_8",
+      "original": "I nouwali kira ma.",
+      "phonetic_api": "/i nuwali kira ma/",
+      "phonetic_simple": "I NOU-WA-LI KI-RA MA",
+      "translation": "Merci pour les indications routières.",
+      "context": "Remercier la personne qui a guidé."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction locative interrogative avec 'na mi i ra'",
+      "explanation": "Pour demander où se trouve un lieu en soussou, on place le nom du lieu en tête de phrase, suivi de l'indicateur d'existence 'na' et du locatif interrogatif discontinu 'mi... i ra'.",
+      "rules": [
+        "Le lieu recherché s'énonce d'abord.",
+        "La particule 'na' valide sa présence potentielle.",
+        "'Mi' exprime le 'où', fermé par l'enclitique de relation spatiale 'ra'."
+      ],
+      "examples": [
+        {
+          "structure": "Kire + na + mi + i ra",
+          "phonetic_api": "/kirɛ na mi i ra/",
+          "meaning": "Où est le marché ?"
+        },
+        {
+          "structure": "Banxi + na + mi + i ra",
+          "phonetic_api": "/baⁿxi na mi i ra/",
+          "meaning": "Où est la maison ?"
+        }
+      ]
+    },
+    {
+      "concept": "Les postpositions de direction avec 'fɔxɔ ma'",
+      "explanation": "Les repères latéraux gauche ('kono') et droit ('yifangbe') s'associent au terme substantivé 'fɔxɔ' (côté) suivi de la postposition directionnelle 'ma' (vers/sur).",
+      "rules": [
+        "L'orientation se place devant le mot 'fɔxɔ'.",
+        "La postposition 'ma' clôture le groupe prépositionnel de direction."
+      ],
+      "examples": [
+        {
+          "structure": "Kono + fɔxɔ + ma",
+          "phonetic_api": "/kono fɔxɔ ma/",
+          "meaning": "À gauche / Vers le côté gauche"
+        },
+        {
+          "structure": "Yifangbe + fɔxɔ + ma",
+          "phonetic_api": "/yifaⁿɡbɛ fɔxɔ ma/",
+          "meaning": "À droite"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Marie",
+      "text": "I kéna, n bore ! Kire na mi i ra ?",
+      "phonetic_api": "/i kéna n borɛ kirɛ na mi i ra/",
+      "phonetic_simple": "I KÉ-NA, N BO-RÈ ! KI-RÈ NA MI I RA ?",
+      "translation": "Bonjour, mon ami ! Où se trouve le marché ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "I kéna ! Kire mu makoya. Siga makitini kira ma.",
+      "phonetic_api": "/i kéna kirɛ mu makoya siɡa makitini kira ma/",
+      "phonetic_simple": "I KÉ-NA ! KI-RÈ MOU MA-KO-YA. SI-GA MA-KI-TI-NI KI-RA MA.",
+      "translation": "Bonjour ! Le marché n'est pas loin. Va tout droit sur cette route."
+    },
+    {
+      "speaker": "Marie",
+      "text": "Nba. N na sigama makitini, gba m mɛnni ?",
+      "phonetic_api": "/ⁿba n na siɡama makitini ɡba m mɛnni/",
+      "phonetic_simple": "N-BA. N NA SI-GA-MA MA-KI-TI-NI, GBA M MÈN-NI ?",
+      "translation": "D'accord. Je vais tout droit, puis je tourne là-bas ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Iyo. Gba m mɛnni yifangbe fɔxɔ ma. Kire na mɛnni.",
+      "phonetic_api": "/iyo ɡba m mɛnni yifaⁿɡbɛ fɔxɔ ma kirɛ na mɛnni/",
+      "phonetic_simple": "I-YO. GBA M MÈN-NI YI-FAN-GBÈ FO-KHO MA. KI-RÈ NA MÈN-NI.",
+      "translation": "Oui. Tourne là-bas sur le côté droit. Le marché est juste là."
+    },
+    {
+      "speaker": "Marie",
+      "text": "I nouwali gbe ra, Sékou. Won tina !",
+      "phonetic_api": "/i nuwali ɡbɛ ra seku woⁿ tina/",
+      "phonetic_simple": "I NOU-WA-LI GBÈ RA, SÉ-KOU. WON TI-NA !",
+      "translation": "Merci infiniment, Sékou. À demain !"
+    }
+  ],
+  "cultural_notes": [
+    "En Guinée Maritime, l'orientation spatiale s'appuie très rarement sur des noms de rues ou des numéros administratifs. Les habitants guident l'interlocuteur en exploitant des repères physiques majeurs : de grands arbres (comme les fromagers ou manguiers), des carrefours de marchés renommés ('kire') ou la présence d'édifices comme des mosquées ou des écoles."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex7_1",
+      "type": "multiple_choice",
+      "question": "Quelle expression signifie de manière exacte 'Va tout droit' ?",
+      "options": [
+        "Siga kono fɔxɔ ma",
+        "Siga makitini",
+        "Fa yanbɛ"
+      ],
+      "correct_answer": "Siga makitini",
+      "explanation": "'Makitini' exprime la linéarité directe, l'action d'aller tout droit."
+    },
+    {
+      "exercise_id": "ex7_2",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'Kono' lorsqu'il qualifie une direction latérale ?",
+      "options": [
+        "La droite",
+        "Le nord",
+        "La gauche"
+      ],
+      "correct_answer": "La gauche",
+      "explanation": "'Kono fɔxɔ ma' est la structure consacrée pour indiquer la direction gauche."
+    },
+    {
+      "exercise_id": "ex7_3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Kire na mi i [ ___ ] ?",
+      "correct_answer": "ra",
+      "hint": "C'est la particule finale de la structure interrogative de lieu discontinue."
+    },
+    {
+      "exercise_id": "ex7_4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A na yifangbe [ ___ ] ma. (C'est sur le côté droit.)",
+      "correct_answer": "fɔxɔ",
+      "hint": "Ce substantif signifie le flanc ou le côté d'une direction."
+    }
+  ]
+}

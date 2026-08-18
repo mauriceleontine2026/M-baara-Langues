@@ -1,0 +1,274 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Distinguer et nommer les membres de la famille nucléaire et de la famille élargie en Sankaran",
+    "Maîtriser les pronoms possessifs appliqués aux relations de parenté inaliénables",
+    "Formuler des phrases pour décrire son cercle familial et s'enquérir des proches de son interlocuteur"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La structure familiale repose sur des termes courts possédant des voyelles longues fondamentales, comme 'baa' /baː/ (mère) et 'faa' /faː/ (père). Ces voyelles doubles doivent être étirées sur deux temps distincts sous peine de changer le sens du mot. Le phonème /ɔ/ (noté 'ɔ') est un 'o' très ouvert, tandis que /ɲ/ (noté 'ny') s'articule comme le 'gn' français dans 'vigne'.",
+    "common_pitfalls": "Ne prononcez pas le 'e' final de 'denke' ou 'kɔrɔke' à la française de manière muette. Il s'agit d'un /e/ fermé, net et accentué. De même, évitez de détacher la nasale initiale 'n' devant les termes de parenté; elle doit faire corps avec la première consonne (ex: 'n faa' se prononce /ɲ faː/)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v4_1",
+      "term": "Baa",
+      "phonetic_api": "/baː/",
+      "phonetic_simple": "BAA",
+      "translation": "Mère / Maman",
+      "example_sentence": "N baa be yan.",
+      "example_phonetic": "/uɲ baː be jan/",
+      "example_translation": "Ma mère est ici."
+    },
+    {
+      "word_id": "v4_2",
+      "term": "Faa",
+      "phonetic_api": "/faː/",
+      "phonetic_simple": "FAA",
+      "translation": "Père / Papa",
+      "example_sentence": "I faa be di?",
+      "example_phonetic": "/i faː be di/",
+      "example_translation": "Comment va ton père ?"
+    },
+    {
+      "word_id": "v4_3",
+      "term": "Denke",
+      "phonetic_api": "/den.ke/",
+      "phonetic_simple": "DÈNE-KÉ",
+      "translation": "Fils (litt: enfant-homme)",
+      "example_sentence": "N denke le nin di.",
+      "example_phonetic": "/ɲ den.ke le nin di/",
+      "example_translation": "C'est mon fils."
+    },
+    {
+      "word_id": "v4_4",
+      "term": "Denmuso",
+      "phonetic_api": "/den.mu.so/",
+      "phonetic_simple": "DÈNE-MOU-SO",
+      "translation": "Fille (litt: enfant-femme)",
+      "example_sentence": "A ye denmuso saba sɔrɔ.",
+      "example_phonetic": "/a je den.mu.so sa.ba sɔ.rɔ/",
+      "example_translation": "Elle a eu trois filles."
+    },
+    {
+      "word_id": "v4_5",
+      "term": "Kɔrɔke",
+      "phonetic_api": "/kɔ.rɔ.ke/",
+      "phonetic_simple": "KƆ-RƆ-KÉ",
+      "translation": "Frère aîné",
+      "example_sentence": "N kɔrɔke be Faranah.",
+      "example_phonetic": "/ɲ kɔ.rɔ.ke be fa.ra.na/",
+      "example_translation": "Mon frère aîné est à Faranah."
+    },
+    {
+      "word_id": "v4_6",
+      "term": "Dɔgɔke",
+      "phonetic_api": "/dɔ.ɣɔ.ke/",
+      "phonetic_simple": "DƆ-GƆ-KÉ",
+      "translation": "Frère cadet",
+      "example_sentence": "A dɔgɔke be kalan na.",
+      "example_phonetic": "/a dɔ.ɣɔ.ke be ka.lan na/",
+      "example_translation": "Son frère cadet va à l'école."
+    },
+    {
+      "word_id": "v4_7",
+      "term": "Kɔrɔmuso",
+      "phonetic_api": "/kɔ.rɔ.mu.so/",
+      "phonetic_simple": "KƆ-RƆ-MOU-SO",
+      "translation": "Sœur aînée",
+      "example_sentence": "N kɔrɔmuso furula.",
+      "example_phonetic": "/ɲ kɔ.rɔ.mu.so fu.ru.la/",
+      "example_translation": "Ma sœur aînée s'est mariée."
+    },
+    {
+      "word_id": "v4_8",
+      "term": "Dɔgɔmuso",
+      "phonetic_api": "/dɔ.ɣɔ.mu.so/",
+      "phonetic_simple": "DƆ-GƆ-MOU-SO",
+      "translation": "Sœur cadette",
+      "example_sentence": "I dɔgɔmuso tɔgɔ ko di?",
+      "example_phonetic": "/i dɔ.ɣɔ.mu.so to.ɣɔ ko di/",
+      "example_translation": "Comment s'appelle ta sœur cadette ?"
+    },
+    {
+      "word_id": "v4_9",
+      "term": "Muso",
+      "phonetic_api": "/mu.so/",
+      "phonetic_simple": "MOU-SO",
+      "translation": "Femme / Épouse",
+      "example_sentence": "N muso tɔgɔ ko Aminata.",
+      "example_phonetic": "/ɲ mu.so tɔ.ɣɔ ko a.mi.na.ta/",
+      "example_translation": "Le nom de ma femme est Aminata."
+    },
+    {
+      "word_id": "v4_10",
+      "term": "Ke / Cɛ",
+      "phonetic_api": "/ke/ ou /t͡sɛ/",
+      "phonetic_simple": "KÉ / TCHƐ",
+      "translation": "Homme / Époux / Mari",
+      "example_sentence": "A ke be sene la sisan.",
+      "example_phonetic": "/a ke be se.ne la si.san/",
+      "example_translation": "Son mari est au champ actuellement."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p4_1",
+      "original": "I somogo lu be di?",
+      "phonetic_api": "/i so.mo.ɣo lu be di/",
+      "phonetic_simple": "I SO-MO-GO LOU BÉ DI",
+      "translation": "Comment va ta famille ? / Comment vont les gens de ta maison ?",
+      "context": "Formule indispensable pour saluer respectueusement le foyer de quelqu'un."
+    },
+    {
+      "phrase_id": "p4_2",
+      "original": "A lu bɛɛ be kende, tana t'a lu ma.",
+      "phonetic_api": "/a lu bɛː be ken.de ta.na t'a lu ma/",
+      "phonetic_simple": "A LOU BƐƐ BÉ KÈNE-DÉ, TA-NA TA LOU MA",
+      "translation": "Ils vont tous bien, aucun problème chez eux.",
+      "context": "Réponse bienveillante à l'interrogation sur la famille."
+    },
+    {
+      "phrase_id": "p4_3",
+      "original": "Den jeli be i bolo?",
+      "phonetic_api": "/den d͡ʒe.li be i bo.lo/",
+      "phonetic_simple": "DÈNE DJÉ-LI BÉ I BO-LO",
+      "translation": "Tu as combien d'enfants ? (litt: Combien d'enfants sont dans ta main ?)",
+      "context": "Question usuelle pour s'enquérir de la descendance de son interlocuteur."
+    },
+    {
+      "phrase_id": "p4_4",
+      "original": "Den naani le be n bolo.",
+      "phonetic_api": "/den naː.ni le be ɲ bo.lo/",
+      "phonetic_simple": "DÈNE NAA-NI LÉ BÉ N BO-LO",
+      "translation": "J'ai quatre enfants.",
+      "context": "Réponse indiquant le nombre précis de ses propres enfants."
+    },
+    {
+      "phrase_id": "p4_5",
+      "original": "I furula bang?",
+      "phonetic_api": "/i fu.ru.la baŋ/",
+      "phonetic_simple": "I FOU-ROU-LA BANGE",
+      "translation": "Es-tu marié(e) ?",
+      "context": "Interrogation directe sur la situation matrimoniale d'un adulte."
+    },
+    {
+      "phrase_id": "p4_6",
+      "original": "Hali bi n ma furu fɔlɔ.",
+      "phonetic_api": "/ha.li bi ɲ ma fu.ru fɔ.lɔ/",
+      "phonetic_simple": "HA-LI BI N MA FOU-ROU FƆ-LƆ",
+      "translation": "J'al pas encore contracté de mariage / Je suis célibataire.",
+      "context": "Réponse standard pour indiquer qu'on n'est pas encore marié."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La possession directe (inaliénable) appliquée à la parenté",
+      "explanation": "En langue Sankaran, on distingue rigoureusement la possession matérielle de la relation biologique ou intime. Pour les membres de la famille, le pronom possessif se place directement devant le nom sans marqueur de liaison (comme 'ta'). Cette possession est dite inaliénable.",
+      "rules": [
+        "N / ɲ / = Mon / Ma (s'assimile phonétiquement avec la consonne suivante)",
+        "I / i / = Ton / Ta",
+        "A / a / = Son / Sa",
+        "Structure : Pronom Possessif + Nom du parent"
+      ],
+      "examples": [
+        {
+          "structure": "N faa",
+          "phonetic_api": "/ɲ faː/",
+          "meaning": "Mon père"
+        },
+        {
+          "structure": "I baa",
+          "phonetic_api": "/i baː/",
+          "meaning": "Ta mère"
+        },
+        {
+          "structure": "A denke",
+          "phonetic_api": "/a den.ke/",
+          "meaning": "Son fils"
+        }
+      ]
+    },
+    {
+      "concept": "La distinction absolue d'aînesse dans la fratrie (kɔrɔ- vs dɔgɔ-)",
+      "explanation": "Le Sankaran n'utilise pas de mot générique pour traduire simplement 'frère' ou 'sœur'. Il est grammaticalement et culturellement obligatoire de préciser le rapport d'âge par rapport au locuteur via des préfixes spécifiques.",
+      "rules": [
+        "Le radical 'kɔrɔ' signifie 'vieux / ancien' et sert à désigner l'aîné(e).",
+        "Le radical 'dɔgɔ' signifie 'petit / jeune' et sert à désigner le cadet / la cadette.",
+        "On y ajoute le suffixe de genre : '-ke' (homme) ou '-muso' (femme)."
+      ],
+      "examples": [
+        {
+          "structure": "Kɔrɔmuso",
+          "phonetic_api": "/kɔ.rɔ.mu.so/",
+          "meaning": "Sœur aînée"
+        },
+        {
+          "structure": "Dɔgɔke",
+          "phonetic_api": "/dɔ.ɣɔ.ke/",
+          "meaning": "Frère cadet"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine",
+      "text": "I ni wura, Sekou ! I somogo lu be di?",
+      "phonetic_api": "/i ni wu.ra se.ku | i so.mo.ɣo lu be di/",
+      "phonetic_simple": "I NI MOU-RA SÉ-KOU ! I SO-MO-GO LOU BÉ DI ?",
+      "translation": "Bonsoir Sekou ! Comment va ta famille ?"
+    },
+    {
+      "speaker": "Sekou",
+      "text": "Nba, Lamine. A lu bɛɛ be kende, tana t'a lu ma.",
+      "phonetic_api": "/ɲ.ba la.min | a lu bɛː be ken.de ta.na t'a lu ma/",
+      "phonetic_simple": "NBA, LA-MINE. A LOU BƐƐ BÉ KÈNE-DÉ, TA-NA T'A LOU MA.",
+      "translation": "Bonsoir Lamine. Ils vont tous bien, aucun problème chez eux."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "I kɔrɔke be yan bang?",
+      "phonetic_api": "/i kɔ.rɔ.ke be jan baŋ/",
+      "phonetic_simple": "I KƆ-RƆ-KÉ BÉ YANE BANGE ?",
+      "translation": "Ton grand frère est-il ici ?"
+    },
+    {
+      "speaker": "Sekou",
+      "text": "Awo, a be yan. A muso ni a denke be yan fana.",
+      "phonetic_api": "/a.wo a be jan | a mu.so ni a den.ke be jan fa.na/",
+      "phonetic_simple": "A-WO, A BÉ YANE. A MOU-SO NI A DÈNE-KÉ BÉ YANE FA-NA.",
+      "translation": "Oui, il est ici. Sa femme et son fils sont là aussi."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la société rurale du Sankaran en Haute-Guinée, la hiérarchie basée sur le droit d'aînesse structure les relations familiales. Le grand frère ('kɔrɔke') possède une autorité morale et un rôle de protecteur direct sur ses frères et sœurs cadets.",
+    "L'expression 'somogo' (les gens de la maison) reflète la structure élargie des concessions africaines traditionnelles où vivent sous le même toit plusieurs générations, oncles, tantes et cousins."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex4_1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on exactement 'Mon frère cadet' en langue Sankaran ?",
+      "options": [
+        "N kɔrɔke",
+        "N dɔgɔke",
+        "A denmuso"
+      ],
+      "correct_answer": "N dɔgɔke",
+      "explanation": "'N' indique la possession directe de première personne et 'dɔgɔke' désigne spécifiquement le frère plus jeune (cadet)."
+    },
+    {
+      "exercise_id": "ex4_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N [ ___ ] tɔgɔ ko Aminata. (Le nom de ma mère est Aminata.)",
+      "correct_answer": "baa",
+      "hint": "C'est le terme pour désigner la mère. Attention à doubler la voyelle."
+    }
+  ]
+}

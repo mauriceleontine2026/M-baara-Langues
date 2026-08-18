@@ -1,0 +1,232 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Connecteurs logiques pour un discours élaboré",
+  "learning_objectives": [
+    "Structurer une argumentation complexe à l'aide de connecteurs logiques de niveau C1",
+    "Exprimer la concession, l'opposition et la restriction de manière fluide et formelle",
+    "Maîtriser la double conjonction et l'inversion syntaxique liées aux connecteurs adverbiaux",
+    "Varier son style rédactionnel universitaire et professionnel en évitant les répétitions"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le connecteur 'demzufolge' se prononce [ˈdeːmtsuˌfɔlɡə] : marquez nettement l'accent tonique principal sur la première syllabe et veillez à ne pas nasaliser la voyelle ouverte [ɔ]. Le digramme -ch- dans l'adverbe 'demnach' ou la conjonction 'obgleich' correspond au son palatal doux [ç] (Ich-Laut). La lettre -z- dans 'zwar' exige une attaque occlusive alvéolaire sourde [ts]: [tsvaːɐ̯].",
+    "common_pitfalls": "Attention à l'accentuation de 'beziehungsweise' [bəˈtsiːʊŋsˌvaɪ̯zə] : l'accent principal repose sur la syllabe -zieh-. Ne prononcez pas le -w- initial à l'anglaise, il s'agit d'un [v] frictionnel labio-dental strict."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "demzufolge",
+      "phonetic_api": "/ˈdeːmtsuˌfɔlɡə/",
+      "phonetic_simple": "DEEM-TSOU-FOL-GHE",
+      "translation": "en conséquence / par conséquent / par suite",
+      "example_sentence": "Die Umsätze sanken, demzufolge mussten wir sparen.",
+      "example_phonetic": "/diː ˈʊmˌzɛtsə ˈzaŋkən ˈdeːmtsuˌfɔlɡə ˈmʊstn̩ viːɐ̯ ˈʃpaːʁən/",
+      "example_translation": "Les chiffres d'affaires ont chuté, en conséquence nous avons dû économiser."
+    },
+    {
+      "word_id": "v2",
+      "term": "obgleich",
+      "phonetic_api": "/ɔpˈɡlaɪ̯ç/",
+      "phonetic_simple": "OP-GLAICH",
+      "translation": "bien que / quoique",
+      "example_sentence": "Obgleich die Verhandlungen schwierig waren, gab es eine Einigung.",
+      "example_phonetic": "/ɔpˈɡlaɪ̯ç diː fɛɐ̯ˈhandlʊŋen ˈʃviːʁɪç ˈvaːʁən ɡap ɛs ˈaɪ̯nə ˈaɪ̯nɪɡʊŋ/",
+      "example_translation": "Bien que les négociations fussent difficiles, il y a eu un accord."
+    },
+    {
+      "word_id": "v3",
+      "term": "dessen ungeachtet",
+      "phonetic_api": "/ˈdɛsn̩ ˈʊnɡəˌʔaxtət/",
+      "phonetic_simple": "DES-SEN OUN-GHE-AK-TET",
+      "translation": "malgré cela / néanmoins / nonobstant",
+      "example_sentence": "Das Risiko ist hoch, dessen ungeachtet investieren wir.",
+      "example_phonetic": "/das ˈʁiːzikoː ɪst hoːx ˈdɛsn̩ ˈʊnɡəˌʔaxtət ɪnvɛsˈtiːʁən viːɐ̯/",
+      "example_translation": "Le risque est élevé, malgré cela nous investissons."
+    },
+    {
+      "word_id": "v4",
+      "term": "beziehungsweise (bzw.)",
+      "phonetic_api": "/bəˈtsiːʊŋsˌvaɪ̯zə/",
+      "phonetic_simple": "BE-TSII-UNGS-VAI-ZE",
+      "translation": "respectivement / ou plutôt / voire",
+      "example_sentence": "Wir suchen Ingenieure beziehungsweise Informatiker.",
+      "example_phonetic": "/viːɐ̯ ˈzuːxn̩ ɪnʒeˈni̯øːʁə bəˈtsiːʊŋsˌvaɪ̯zə ɪnfɔʁˈmaːtɪkɐ/",
+      "example_translation": "Nous recherchons des ingénieurs ou plutôt des informaticiens."
+    },
+    {
+      "word_id": "v5",
+      "term": "einerseits ... andererseits",
+      "phonetic_api": "/ˈaɪ̯nɐˌzaɪ̯ts ˈandəʁɐˌzaɪ̯ts/",
+      "phonetic_simple": "AI-NER-SAITS AN-DER-ER-SAITS",
+      "translation": "d'une part ... d'autre part",
+      "example_sentence": "Einerseits ist es teuer, andererseits spart es Zeit.",
+      "example_phonetic": "/ˈaɪ̯nɐˌzaɪ̯ts ɪst ɛs ˈtɔɪ̯ɐ ˈandəʁɐˌzaɪ̯ts ʃpaːɐ̯t ɛs tsaɪ̯t/",
+      "example_translation": "D'une part c'est cher, d'autre part cela fait gagner du temps."
+    },
+    {
+      "word_id": "v6",
+      "term": "ferner",
+      "phonetic_api": "/ˈfɛʁnɐ/",
+      "phonetic_simple": "FER-NER",
+      "translation": "de plus / en outre / par ailleurs",
+      "example_sentence": "Es wurde ferner beschlossen, die Steuern zu senken.",
+      "example_phonetic": "/ɛs vʊʁdə ˈfɛʁnɐ bəˈʃlɔsn̩ diː ˈʃtɔɪ̯ɐn tsuː ˈzɛŋkən/",
+      "example_translation": "Il a été de plus décidé de baisser les impôts."
+    },
+    {
+      "word_id": "v7",
+      "term": "demnach",
+      "phonetic_api": "/ˈdeːmˈnaːx/",
+      "phonetic_simple": "DEEM-NAK",
+      "translation": "donc / selon ce qui précède / par conséquent",
+      "example_sentence": "Die Frist ist abgelaufen, demnach ist der Vertrag ungültig.",
+      "example_phonetic": "/diː fʁɪst ɪst ˈapɡəˌlaʊ̯ft ˈdeːmˈnaːx ɪst deːɐ̯ fɛɐ̯ˈtʁaːk ˈʊn_ɡʏltɪç/",
+      "example_translation": "Le délai est expiré, le contrat est donc invalide."
+    },
+    {
+      "word_id": "v8",
+      "term": "zwar ... aber",
+      "phonetic_api": "/tsvaːɐ̯ ˈaːbɐ/",
+      "phonetic_simple": "TSVAR A-BER",
+      "translation": "certes ... mais",
+      "example_sentence": "Er ist zwar kompetent, aber unpünktlich.",
+      "example_phonetic": "/eːɐ̯ ɪst tsvaːɐ̯ kɔmpəˈtɛnt ˈaːbɐ ˈʊn_pʏnktlɪç/",
+      "example_translation": "Il est certes compétent, mais en retard."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Zwar lässt sich der Trend abschwächen, gänzlich aufhalten lässt er sich jedoch nicht.",
+      "phonetic_api": "/tsvaːɐ̯ lɛst zɪç deːɐ̯ tʁɛnt ˈapˌʃvɛçn̩ ˈɡɛntslɪç ˈaʊ̯fˌhaltn̩ lɛst eːɐ̯ zɪç jeːˈdɔx nɪçt/",
+      "phonetic_simple": "TSVAR LEST ZICH DEER TREND AP-CHVECH-EN GENTS-LICH AOOUF-HAL-TEN LEST ER ZICH YE-DOK NICHT",
+      "translation": "Certes, la tendance peut être atténuée, mais elle ne peut cependant pas être totalement arrêtée.",
+      "context": "Formulation rhétorique avancée opposant concession et conclusion forte."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Obgleich erhebliche Einwände erhoben wurden, stimmte die Mehrheit dem Entwurf zu.",
+      "phonetic_api": "/ɔpˈɡlaɪ̯ç ɛɐ̯ˈheːplɪçə ˈaɪ̯nˌvɛndə ɛɐ̯ˈhoːbn̩ ˈvʊʁdn̩ ˈʃtɪmtə diː ˈmeːɐ̯haɪ̯t deːm ɛntˈvʊʁf tsuː/",
+      "phonetic_simple": "OP-GLAICH ER-HEEB-LICHE AIN-VEN-DE ER-HOO-BEN VOUR-DEN CHTIM-TE DII MEER-HAIT DEEM ENT-VOURF TSOU",
+      "translation": "Bien que de substantielles objections eussent été formulées, la majorité a approuvé le projet.",
+      "context": "Rédiger un compte-rendu officiel d'assemblée ou de conseil."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Der Prototyp erfüllt alle Kriterien; demzufolge kann die Serienproduktion anlaufen.",
+      "phonetic_api": "/deːɐ̯ ˈpʁoːtoːˌtyːp ɛʁˈfʏlt ˈalə kʁiˈteːʁi̯ən ˈdeːmtsuˌfɔlɡə kan diː ˈzeːʁi̯ənpʁodu(k)ˈtsi̯oːn ˈanˌlaʊ̯fən/",
+      "phonetic_simple": "DEER PROO-TOO-TUUP ER-FULLT AL-E KRI-TEE-RYEN DEEM-TSOU-FOL-GHE KAN DII ZEE-RYEN-PRO-DOUK-TSYOO-N AN-LAOU-FEN",
+      "translation": "Le prototype remplit tous les critères ; en conséquence, la production en série peut démarrer.",
+      "context": "Validation technique et logique d'un processus industriel."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Einerseits fordert die Bevölkerung Reformen, andererseits scheut sie radikale Veränderungen.",
+      "phonetic_api": "/ˈaɪ̯nɐˌzaɪ̯ts ˈfɔʁdɐt diː bəˈfœlkəˈʁʊŋ ʁeˈfɔʁmən ˈandəʁɐˌzaɪ̯ts ʃɔɪ̯t ziː ʁadiˈkaːlə fɛɐ̯ˈɛndəˈʁʊŋən/",
+      "phonetic_simple": "AI-NER-SAITS FOR-DERT DII BE-VOEL-KE-ROUNG RE-FORM-EN AN-DER-ER-SAITS CHOIT ZII RA-DI-KA-LE FER-EN-DE-ROUNG-EN",
+      "translation": "D'une part, la population réclame des réformes, d'autre part, elle redoute les changements radicaux.",
+      "context": "Analyse sociopolitique nuancée d'une situation de crise."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La distinction syntaxique entre conjonctions de subordination et adverbes de liaison",
+      "explanation": "Au niveau C1, l'erreur la plus fréquente consiste à confondre la place du verbe selon la nature logique du connecteur employé (subordonnant versus adverbe).",
+      "rules": [
+        "Les conjonctions de subordination de concession comme 'obgleich', 'obwohl', 'obschon' rejettent impérativement le verbe conjugué tout à la fin de la proposition.",
+        "Les connecteurs adverbiaux comme 'demzufolge', 'demnach', 'folglich', 'dessen ungeachtet' se placent en position 1 d'une proposition principale indépendante et exigent immédiatement après eux l'inversion du sujet (Verbe conjugué en position 2, suivi du Sujet)."
+      ],
+      "examples": [
+        {
+          "structure": "Obgleich das Projekt scheiterte (Verbe à la fin), lernten wir viel.",
+          "phonetic_api": "/ɔpˈɡlaɪ̯ç das pʁoˈjɛkt ˈʃaɪ̯tɐtə ˈlɛʁntn̩ viːɐ̯ fiːl/",
+          "meaning": "Bien que le projet ait échoué, nous avons beaucoup appris."
+        },
+        {
+          "structure": "Das Projekt scheiterte; demzufolge mussten wir (Inversion Verbe-Sujet) umplanen.",
+          "phonetic_api": "/das pʁoˈjɛkt ˈʃaɪ̯tɐtə ˈdeːmtsuˌfɔlɡə ˈmʊstn̩ viːɐ̯ ˈʊmˌplaːnən/",
+          "meaning": "Le projet a échoué ; par conséquent, nous avons dû changer nos plans."
+        }
+      ]
+    },
+    {
+      "concept": "Le maniement des structures corrélatives doubles et disjonctives",
+      "explanation": "Pour articuler une pensée binaire ou nuancer des arguments opposés, la langue écrite utilise des paires de connecteurs qui imposent un ordre des mots rigoureux.",
+      "rules": [
+        "La structure 'zwar ... aber / jedoch' : 'zwar' occupe généralement la position 1 ou s'intègre après le verbe, tandis que la deuxième partie introduit une opposition nette.",
+        "La structure alternative 'einerseits ... andererseits' : chacun de ces deux éléments fonctionne comme un adverbe et attire le verbe conjugué immédiatement après lui s'il débute la proposition."
+      ],
+      "examples": [
+        {
+          "structure": "Es ist zwar riskant, aber es lohnt sich.",
+          "phonetic_api": "/ɛs ɪst tsvaː̯ʁ ʁɪsˈkant ˈaːbɐ ɛs loːnt zɪç/",
+          "meaning": "C'est certes risqué, mais cela en vaut la peine."
+        },
+        {
+          "structure": "Einerseits sinken die Kosten (Verbe), andererseits steigt das Risiko (Verbe).",
+          "phonetic_api": "/ˈaɪ̯nɐˌzaɪ̯ts ˈzɪŋkən diː ˈkɔstn̩ ˈandəʁɐˌzaɪ̯ts ʃtaɪ̯kt das ˈʁiːzikoː/",
+          "meaning": "D'une part les coûts baissent, d'autre part le risque augmente."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Professorin",
+      "text": "Herr Schmidt, Ihre These zur Globalisierung überzeugt mich zwar theoretisch, demnach müssten die nationalen Märkte jedoch völlig verschwinden. Dem ist nicht so.",
+      "phonetic_api": "/pʁoˈfɛsɔʁɪn hɛʁ ʃmɪt ˈiːʁə ˈteːzə tsuːɐ̯ ɡloːbaliˈziːʁʊŋ yːbɐˈtsɔɪ̯kt mɪç tsvaːɐ̯ te|oˈʁeːtɪʃ ˈdeːmˈnaːx ˈmʏstn̩ diː natsioˈnaːlən ˈmɛʁktə jeːˈdɔx ˈfœlɪç fɛɐ̯ˈʃvɪndn̩ deːm ɪst nɪçt zoː/",
+      "phonetic_simple": "PRO-FES-OR-IN HER CHMIDT II-RE THEE-ZE TSOUR GLO-BA-LI-SIIR-OUNG ER-TSOIGT MICH TSVAR THE-O-REE-TICH DEEM-NAK MOUS-TEN DII NA-TSYOO-NA-LEN MEERK-TE YE-DOK FOEL-LICH FER-CHVIN-DEN DEEM IST NICHT SOO",
+      "translation": "Monsieur Schmidt, votre thèse sur la mondialisation me convainc certes sur le plan théorique, d'après cela les marchés nationaux devraient pourtant totalement disparaître. Or, ce n'est pas le cas."
+    },
+    {
+      "speaker": "Doktorand",
+      "text": "Obgleich die Daten eine Konvergenz zeigen, blockieren regulatorische Hürden den Prozess. Einerseits streben Konzerne nach Marktöffnung, andererseits fordern Staaten Schutzmaßnahmen.",
+      "phonetic_api": "/dɔktoˈʁant ɔpˈɡlaɪ̯ç diː ˈdaːtn̩ ˈaɪ̯nə kɔnvɛʁˈɡɛnts ˈtsaɪ̯ɡən blɔˈkiːʁən ʁeɡulaˈtoːʁɪʃə ˈhʏʁdn̩ deːn pʁoˈtsɛs ˈaɪ̯nɐˌzaɪ̯ts ˈʃtʁeːbn̩ kɔnˈtsɛʁnə naːx ˈmaːʁktˌœfnʊŋ ˈandəʁɐˌzaɪ̯ts ˈfɔʁdɐt ˈʃtaːtn̩ ˈʃʊtsˌmaːsnaːmən/",
+      "phonetic_simple": "DOK-TO-RAND OP-GLAICH DII DA-TEN AI-NE KON-VER-GENTS TSAI-GHEN BLO-KII-REN RE-GOU-LA-TOO-RICHE HUUR-DEN DEEN PRO-TSES AI-NER-SAITS CHTREE-BEN KON-TSER-NE NAK MARKT-OEF-NOUNG AN-DER-ER-SAITS FOR-DERN CHTA-TEN CHOUTS-MAS-NA-MEN",
+      "translation": "Bien que les données démontrent une convergence, les barrières réglementaires bloquent le processus. D'une part, les multinationales aspirent à l'ouverture des marchés, d'autre part, les États exigent des mesures de protection."
+    },
+    {
+      "speaker": "Professorin",
+      "text": "Dessen ungeachtet müssen wir die regionalen Besonderheiten beziehungsweise die historischen Faktoren genauer analysieren. Ferner fehlt mir eine klare empirische Basis.",
+      "phonetic_api": "/ˈdɛsn̩ ˈʊnɡəˌʔaxtət ˈmʏsn̩ viːɐ̯ diː ʁeɡioˈnaːlən bəˈzɔndɐhaɪ̯tn̩ bəˈtsiːʊŋsˌvaɪ̯zə diː hɪsˈtoːʁɪʃn̩ fakˈtoːʁən ɡəˈnaʊ̯ɐ analyˈziːʁən ˈfɛʁnɐ feːlt miːɐ̯ ˈaɪ̯nə ˈklaːə ɛmˈpiːʁɪʃə ˈbaːzɪs/",
+      "phonetic_simple": "DES-SEN OUN-GHE-AK-TET MOUS-NEN VIIR DII RE-GYOO-NA-LEN BE-ZON-DER-HAIT-EN BE-TSII-UNGS-VAI-ZE DII HIS-TOO-RICH-EN FAK-TOO-REN GHE-NAOU-ER A-NA-LY-SIIR-EN FER-NER FEELT MIIR AI-NE KLAO-RE EM-PII-RICHE BA-ZIS",
+      "translation": "Malgré cela, nous devons analyser plus précisément les particularités régionales, voire les facteurs historiques. En outre, il me manque une base empirique claire."
+    },
+    {
+      "speaker": "Doktorand",
+      "text": "Ich werde demzufolge die Methodik überarbeiten und die Argumente schärfen.",
+      "phonetic_api": "/ɪç ˈveːɐ̯də ˈdeːmtsuˌfɔlɡə diː meˈtoːdɪk ˈyːbɐˌʔaʁbaɪ̯tn̩ ʊnt diː aʁɡuˈmɛntə ˈʃɛʁfn̩/",
+      "phonetic_simple": "ICH VEER-DE DEEM-TSOU-FOL-GHE DII ME-THOO-DIK UU-BER-AR-BAI-TEN OUNT DII AR-GOU-MEN-TE CHER-FEN",
+      "translation": "En conséquence, je vais remanier la méthodologie et affiner les arguments."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la tradition universitaire allemande (Wissenschaftssprache), la clarté logique et l'enchaînement sans faille des arguments priment sur les effets stylistiques purement ornementaux. L'usage précis de connecteurs comme 'demzufolge' ou 'dessen ungeachtet' structure mathématiquement le texte.",
+    "Lors de la rédaction d'un mémoire de Master ou d'une thèse de doctorat en Allemagne, l'abus de connecteurs simples comme 'aber' ou 'und' est pénalisé. Les évaluateurs attendent des formulations précises traduisant les nuances exactes de la pensée critique.",
+    "L'abréviation 'bzw.' (beziehungsweise) est omniprésente dans tous les écrits professionnels et techniques en Allemagne. Elle permet d'introduire une clarification immédiate ou une alternative stricte de façon extrêmement concise."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la structure syntaxique correcte pour l'expression de la conséquence :",
+      "options": [
+        "Die Verhandlungen scheiterten, demzufolge das Abkommen ungültig ist.",
+        "Die Verhandlungen scheiterten, demzufolge ist das Abkommen ungültig.",
+        "Die Verhandlungen scheiterten, obgleich ist das Abkommen ungültig."
+      ],
+      "correct_answer": "Die Verhandlungen scheiterten, demzufolge ist das Abkommen ungültig.",
+      "explanation": "'Demzufolge' est un connecteur adverbial qui occupe la position 1 de la proposition et impose l'inversion immédiate du verbe conjugué (ist) et du sujet (das Abkommen)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Obgleich die Hürden hoch [ ___ ], werden wir das Forschungsprojekt fortsetzen.",
+      "correct_answer": "sind",
+      "hint": "Entrez le verbe sein conjugué au présent de la troisième personne du pluriel, exigé en toute fin de proposition par la conjonction de subordination obgleich."
+    }
+  ]
+}

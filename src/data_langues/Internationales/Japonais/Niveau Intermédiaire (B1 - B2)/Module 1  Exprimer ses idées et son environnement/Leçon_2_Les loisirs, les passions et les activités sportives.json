@@ -1,0 +1,273 @@
+{
+  "lesson_id": "B1_M1_L2",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environment",
+  "lesson_number": 2,
+  "title": "Les loisirs, les passions et les activités sportives",
+  "learning_objectives": [
+    "Exprimer ses centres d'intérêt et ses passions en utilisant la structure nominale 'koto' et le lexique thématique des loisirs",
+    "Décrire la fréquence, la durée et l'intensité d'une pratique sportive avec des adverbes de degré avancés",
+    "Maîtriser la forme nominale substantive (Forme Dictionnaire + koto desu) pour définir un hobby"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en avant le terme 'shumi' (loisir/hobby) qui commence par la fricative alvéolo-palatale sourde [ɕɯ]. Le mot 'dokusho' (lecture) demande une articulation nette de la consonne affriquée alvéolo-palatale voisée [d͡ʑ], suivie d'un son court. Le terme 'shiai' (match/compétition) se prononce de manière fluide /ɕi.a.i/ sans coupure glottale.",
+    "common_pitfalls": "Attention à la prononciation du mot 'soccer' importé en katakana : サッカー (sakkā). Il contient une coupure glottale marquée par le petit 'tsu' (ッ) et un allongement vocalique final qu'il ne faut pas escamoter [sḁk.kaː]. Ne confondez pas non plus la prononciation de 'ongaku' (musique) avec 'shungaku'."
+  },
+  "sports_and_hobbies_lexicon": [
+    {
+      "term": "読書 (どくしょ)",
+      "romaji": "dokusho",
+      "translation": "La lecture",
+      "description": "Terme plus soutenu et formel que le simple verbe 'hon o yomu', fréquemment utilisé pour définir son hobby lors d'un entretien ou sur un CV."
+    },
+    {
+      "term": "サークル",
+      "romaji": "sākuru",
+      "translation": "Le club / Le cercle étudiant",
+      "description": "Clubs universitaires ou associatifs de loisirs au Japon, moins stricts et intensifs que les clubs officiels d'établissement (bukatsu)."
+    },
+    {
+      "term": "筋トレ (きんとれ)",
+      "romaji": "kintore",
+      "translation": "La musculation / L'entraînement physique",
+      "description": "Abréviation ultra-courante de 'kinniku torēningu', un phénomène de société très populaire auprès des jeunes actifs."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "しゅみ (趣味)",
+      "phonetic_api": "/ɕɯ.mi/",
+      "phonetic_simple": "CHOU-MI",
+      "translation": "Loisir / Hobby / Centre d'intérêt",
+      "example_sentence": "私の趣味は映画を見ることです。",
+      "example_phonetic": "/wa.ta.ɕi no ɕɯ.mi wa eː.ɡa o mi.ɾɯ ko.to de.sɯ̥/",
+      "example_translation": "Mon loisir est de regarder des films."
+    },
+    {
+      "word_id": "v2",
+      "term": "おんがく (音楽)",
+      "phonetic_api": "/oɴ.ɡa.kɯ/",
+      "phonetic_simple": "ON-GA-KOU",
+      "translation": "Musique",
+      "example_sentence": "日本の音楽に興味があります。",
+      "example_phonetic": "/ni.hoɴ no oɴ.ɡa.kɯ ni kjoː.mi ɡa a.ɾi.ma.sɯ̥/",
+      "example_translation": "Je m'intéresse à la musique japonaise."
+    },
+    {
+      "word_id": "v3",
+      "term": "りょこう (旅行)",
+      "phonetic_api": "/ɾjo.koː/",
+      "phonetic_simple": "RYO-KOO",
+      "translation": "Voyage / Voyager",
+      "example_sentence": "週末によく旅行をします。",
+      "example_phonetic": "/ɕɯː.ma.t͡sɯ ni jo.kɯ ɾjo.koː o ɕi.ma.sɯ̥/",
+      "example_translation": "Je voyage souvent pendant le week-end."
+    },
+    {
+      "word_id": "v4",
+      "term": "しあい (試合)",
+      "phonetic_api": "/ɕi.a.i/",
+      "phonetic_simple": "CHI-A-I",
+      "translation": "Match / Compétition / Tournoi",
+      "example_sentence": "明日のサッカーの試合が楽しみです。",
+      "example_phonetic": "/a.ɕi.ta no sḁk.kaː no ɕi.a.i ɡa ta.no.ɕi.mi de.sɯ̥/",
+      "example_translation": "J'attends le match de football de demain avec impatience."
+    },
+    {
+      "word_id": "v5",
+      "term": "あつめる (集める / 集めます)",
+      "phonetic_api": "/a.t͡sɯ.me.ma.sɯ̥/",
+      "phonetic_simple": "A-TSOU-MÉ-MASS",
+      "translation": "Collectionner / Rassembler / Réunir",
+      "example_sentence": "古い切手を集めるのが好きです。",
+      "example_phonetic": "/ɸɯ.ɾɯ.i ki̥p.pɯ o a.t͡sɯ.me.ɾɯ no ɡa sɯ.ki de.sɯ̥/",
+      "example_translation": "J'aime collectionner les vieux timbres."
+    },
+    {
+      "word_id": "v6",
+      "term": "かんせん (観戦 / 観戦します)",
+      "phonetic_api": "/kaɴ.seɴ/",
+      "phonetic_simple": "KAN-SEN",
+      "translation": "Assister à un match / Regarder du sport (au stade ou à la télé)",
+      "example_sentence": "スタジアムで野球を観戦しました。",
+      "example_phonetic": "/sɯ.ta.d͡ʑi.a.mɯ de ja.kjɯː o kaɴ.seɴ ɕi.ma.ɕi.ta/",
+      "example_translation": "J'ai regardé un match de baseball au stade."
+    },
+    {
+      "word_id": "v7",
+      "term": "きょうみ (興味)",
+      "phonetic_api": "/kjoː.mi/",
+      "phonetic_simple": "KYOO-MI",
+      "translation": "Intérêt / Curiosité",
+      "example_sentence": "アニメに興味を持っています。",
+      "example_phonetic": "/a.ni.me ni kjoː.mi o mo̥t.te i.ma.sɯ̥/",
+      "example_translation": "Je porte un grand intérêt aux animés."
+    },
+    {
+      "word_id": "v8",
+      "term": "ほとんど",
+      "phonetic_api": "/ho.toɴ.do/",
+      "phonetic_simple": "HO-TON-DO",
+      "translation": "Presque / Quasiment (s'utilise souvent avec la négation)",
+      "example_sentence": "忙しくて最近ほとんど運動していません。",
+      "example_phonetic": "/i.so.ɡa.ɕi.kɯ̥.te sa.i.kiɴ ho.toɴ.do ɯɴ.doː ɕi.te i.ma.seɴ/",
+      "example_translation": "Je suis tellement occupé que je ne fais presque plus de sport ces derniers temps."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "趣味は何ですか。",
+      "phonetic_api": "/ɕɯ.mi wa na.ni de.sɯ.ka/",
+      "phonetic_simple": "CHOU-MI WA NA-NI DESS-KA",
+      "translation": "Quel est votre passe-temps ? / Quels sont vos loisirs ?",
+      "context": "Question classique pour briser la glace lors d'une première rencontre."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "私の趣味は写真を撮ることです。",
+      "phonetic_api": "/wa.ta.ɕi no ɕɯ.mi wa ɕa.ɕiɴ o to.ɾɯ ko.to de.sɯ̥/",
+      "phonetic_simple": "WA-TA-CHI NO CHOU-MI WA CHA-CHIN O TO-ROU KO-TO DESS",
+      "translation": "Mon loisir consiste à prendre des photos.",
+      "context": "Définir précisément son activité favorite à l'aide de la nominalisation."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "日本の文化に興味があります。",
+      "phonetic_api": "/ni.hoɴ no bɯɴ.ka ni kjoː.mi ɡa a.ɾi.ma.sɯ̥/",
+      "phonetic_simple": "NI-HON NO BOUN-KA NI KYOO-MI GA A-RI-MASS",
+      "translation": "Je m'intéresse à la culture japonaise.",
+      "context": "Exprimer un centre d'intérêt intellectuel ou culturel avec la structure standard 'ni kyōmi ga aru'."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "週に何回テニスをしますか。",
+      "phonetic_api": "/ɕɯː ni naɴ.ka.i te.ni.sɯ o ɕi.ma.sɯ.ka/",
+      "phonetic_simple": "CHUU NI NAN-KA-I TÉ-NI-SOU O CHI-MASS-KA",
+      "translation": "Combien de fois par semaine jouez-vous au tennis ?",
+      "context": "S'informer du rythme et de la régularité d'une pratique sportive."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "月に二回ぐらい山に登ります。",
+      "phonetic_api": "/t͡sɯ.ki ni ni.ka.i ɡɯ.ɾa.i ja.ma ni no.bo.ɾi.ma.sɯ̥/",
+      "phonetic_simple": "TSOU-KI NI NI-KA-I GOU-RA-I YA-MA NI NO-BO-RI-MASS",
+      "translation": "Je fais de la randonnée en montagne environ deux fois par mois.",
+      "context": "Exprimer une fréquence temporelle modérée."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "子供の時からピアノを弾いています。",
+      "phonetic_api": "/ko.do.mo no to.ki ka.ɾa pi.a.no o çi.te i.ma.sɯ̥/",
+      "phonetic_simple": "KO-DO-MO NO TO-KI KA-RA PI-A-NO O CHI-TÉ I-MASS",
+      "translation": "Je joue du piano depuis que je suis enfant.",
+      "context": "Évoquer la continuité d'un apprentissage artistique ou musical."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "スポーツをするのも観るのも好きです。",
+      "phonetic_api": "/sɯ.poː.t͡sɯ o ɕi.ɾɯ no mo mi.ɾɯ no mo sɯ.ki de.sɯ̥/",
+      "phonetic_simple": "SOU-POO-TSOU O CHI-ROU NO MO MI-ROU NO MO SOU-KI DESS",
+      "translation": "J'aime autant faire du sport que d'en regarder.",
+      "context": "Exprimer une double facette d'appréciation d'une activité grâce à la structure restrictive 'no mo... no mo'."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "最近、ヨガを始めました。",
+      "phonetic_api": "/sa.i.kiɴ jo.ɡa o ha.d͡ʑi.me.ma.ɕi.ta/",
+      "phonetic_simple": "SA-I-KIN, YO-GA O HA-DJI-MÉ-MA-CH-TA",
+      "translation": "J'ai commencé le yoga récemment.",
+      "context": "Annoncer le démarrage d'une toute nouvelle activité de bien-être."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La nominalisation des verbes avec こと (koto) pour définir un hobby",
+      "explanation": "En japonais, le sujet ou l'attribut d'une phrase doit impérativement être un nom. Pour transformer une action verbale en un concept nominal (ex: 'manger' vers 'le fait de manger'), on utilise la forme dictionnaire du verbe suivie de la particule nominalisante こと (koto). C'est la structure indispensable pour formuler la phrase : 'Mon hobby est de [Verbe]'.",
+      "rules": [
+        "Structure : [Verbe Forme Dictionnaire] + こと です。",
+        "Cette formule permet de clore proprement la phrase derrière l'attribut du sujet."
+      ],
+      "examples": [
+        {
+          "structure": "趣味は本を読むことです (Shumi wa hon o yomu koto desu)",
+          "phonetic_api": "/ɕɯ.mi wa hoɴ o jo.mɯ ko.to de.sɯ̥/",
+          "meaning": "Mon passe-temps est de lire des livres (la lecture)."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de la fréquence régulière : [Période] に [Nombre] 回 (ni... kai)",
+      "explanation": "Pour exprimer le rythme d'une activité (le nombre de occurrences sur une période donnée), on emploie la structure : [Unité de temps] + la particule に (ni) + [Chiffre] + le compteur d'occurrences 回 (kai - fois).",
+      "rules": [
+        "週に一回 (shū ni ippun/ikkai) : Une fois par semaine.",
+        "月に二回 (tsuki ni nikai) : Deux fois par mois.",
+        "年に数回 (nen ni sūkai) : Plusieurs fois par an."
+      ],
+      "examples": [
+        {
+          "structure": "週に三回ジムへ行きます (Shū ni sankai jimu e ikimasu)",
+          "phonetic_api": "/ɕɯː ni saɴ.ka.i d͡ʑi.mɯ e i.ki.ma.sɯ̥/",
+          "meaning": "Je vais à la salle de sport trois fois par semaine."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "ソフィー (Sophie)",
+      "text": "たけしさん、休みの日はいつも何回ぐらいスポーツをしますか。",
+      "phonetic_api": "/ta.ke.ɕi saɴ ja.sɯ.mi no çi wa i.t͡sɯ.mo naɴ.ka.i ɡɯ.ɾa.i sɯ.poː.t͡sɯ o ɕi.ma.sɯ.ka/",
+      "phonetic_simple": "TA-KÉ-CHI SAN, YA-SOU-MI NO CHI WA I-TSOU-MO NAN-KA-I GOU-RA-I SOU-POO-TSOU O CHI-MASS-KA ?",
+      "translation": "Takeshi, combien de fois fais-tu du sport en général pendant tes jours de repos ?"
+    },
+    {
+      "speaker": "たけし (Takeshi)",
+      "text": "そうですね。週に二回サークルでサッカーをしています。ソフィーさんの趣味は何ですか。",
+      "phonetic_api": "/soː de.sɯ.ne ɕɯː ni ni.ka.i saː.kɯ.ɾɯ de sḁk.kaː o ɕi.te i.ma.sɯ̥ so.ɸiː saɴ no ɕɯ.mi wa na.ni de.sɯ.ka/",
+      "phonetic_simple": "SOO DESS NÉ. CHUU NI NI-KA-I SAA-KOU-ROU DÉ SAK-KAA O CHI-TÉ I-MASS. SO-FII SAN NO CHOU-MI WA NAN-NI DESS-KA ?",
+      "translation": "Voyons... Je joue au football deux fois par semaine au sein d'un club universitaire. Et toi Sophie, quel est ton loisir ?"
+    },
+    {
+      "speaker": "ソフィー (Sophie)",
+      "text": "私の趣味は音楽を聴くことです。特に日本のロックが好きです。",
+      "phonetic_api": "/wa.ta.ɕi no ɕɯ.mi wa o%mu;.ɡa.kɯ o ki.kɯ ko.to de.sɯ̥ to.kɯ.ni ni.hoɴ no ɾo̥k.kɯ ɡa sɯ.ki de.sɯ̥/",
+      "phonetic_simple": "WA-TA-CHI NO CHOU-MI WA ON-GA-KOU O KI-KOU KO-TO DESS. TO-KOU-NI NI-HON NO ROK-KOU GA SOU-KI DESS.",
+      "translation": "Mon loisir, c'est d'écouter de la musique. J'aime particulièrement le rock japonais."
+    },
+    {
+      "speaker": "たけし (Takeshi)",
+      "text": "へえ、いいですね！今度おすすめのバンドを教えてください。",
+      "phonetic_api": "/heː iː de.sɯ.ne koɴ.do o.sɯ.sɯ.me no baɴ.do o o.ɕi.e.te kɯ.da.sa.i/",
+      "phonetic_simple": "HÉE, II DESS NÉ ! KON-DO O-SOU-SOU-MÉ NO BAN-DO O O-CHI-É-TÉ KOU-DA-SA-I.",
+      "translation": "Oh, super ! Tu me conseilleras des groupes la prochaine fois s'il te plaît."
+    }
+  ],
+  "cultural_notes": [
+    "Le sport au Japon occupe une place centrale dès l'école secondaire à travers le système des 'Bukatsu' (部活 - clubs d'activités extrascolaires). Les élèves s'entraînent de manière quasi quotidienne, parfois même le week-end, développant un fort esprit de cohésion sociale, de rigueur et de respect de la hiérarchie (Senpai/Kōhai).",
+    "Le baseball (野球 - yakyū) reste le sport le plus populaire et le plus regardé au Japon, suivi de très près par le football (サッカー) et le sumo (相撲), sport traditionnel national."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la formulation grammaticale exacte pour dire 'Mon hobby est de cuisiner (ryōri o suru)' ?",
+      "options": [
+        "趣味は料理をしますことです (Shumi wa ryōri o shimasu koto desu)",
+        "趣味は料理をすることです (Shumi wa ryōri o suru koto desu)",
+        "趣味は料理をするです (Shumi wa ryōri o suru desu)"
+      ],
+      "correct_answer": "趣味は料理をすることです (Shumi wa ryōri o suru koto desu)",
+      "explanation": "On doit obligatoirement utiliser la forme dictionnaire du verbe ('suru') suivie du nominalisateur 'koto' devant la copule 'desu'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "私は月に二[ ___ ]映画館で映画を観ます。(Pour exprimer 'deux fois par mois')",
+      "correct_answer": "回",
+      "hint": "Entrez le kanji servant de compteur officiel pour le nombre de fois / d'occurrences."
+    }
+  ]
+}

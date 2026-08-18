@@ -1,0 +1,123 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire précisément les pièces d'un logement",
+    "Exprimer des notions de superficie et de confort de base"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La nasale interne exige une résonance ferme. Veillez au ton haut prolongé sur le substantif désignant l'habitation.",
+    "common_pitfalls": "Attention à ne pas faire une pause glottale indue au milieu du mot composé décrivant le village."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v10_1",
+      "term": "kɛ̃́ɛ́",
+      "phonetic_api": "/kɛ̃́ː/",
+      "phonetic_simple": "KEEEE",
+      "translation": "maison / case",
+      "example_sentence": "ń kɛ̃́ɛ́ a ɓá.",
+      "example_phonetic": "/ń kɛ̃́ː a ɓá/",
+      "example_translation": "Ma maison est grande."
+    },
+    {
+      "word_id": "v10_2",
+      "term": "táá",
+      "phonetic_api": "/táː/",
+      "phonetic_simple": "TAA",
+      "translation": "ville / grand village",
+      "example_sentence": "Lola le táá ɓá le.",
+      "example_phonetic": "/lola le táː ɓá le/",
+      "example_translation": "Lola est une grande ville."
+    },
+    {
+      "word_id": "v10_3",
+      "term": "kpɛ́lɛ́",
+      "phonetic_api": "/kpɛ́lɛ́/",
+      "phonetic_simple": "KPE-LE",
+      "translation": "chambre / espace clos",
+      "example_sentence": "ń yé kpɛ́lɛ́ kɔ́ɔ́.",
+      "example_phonetic": "/ń jé kpɛ́lɛ́ kɔ́ː/",
+      "example_translation": "Je suis dans la chambre."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p10_1",
+      "original": "Í kɛ̃́ɛ́ a nìɛ̀ kɛ́nɛ̀.",
+      "phonetic_api": "/í kɛ̃́ː a nìɛ̀ kɛ́nɛ̀/",
+      "phonetic_simple": "I KEEEE A NIE KE-NE",
+      "translation": "Ta maison est très belle.",
+      "context": "Faire un compliment à son hôte."
+    },
+    {
+      "phrase_id": "p10_2",
+      "original": "Ń táá káá kánú ɓá kɔ́ɔ́.",
+      "phonetic_api": "/ń táː káː kánú ɓá kɔ́ː/",
+      "phonetic_simple": "N TAA KAA KA-NU BHA KOO",
+      "translation": "Ma ville se situe près de la grande montagne.",
+      "context": "Localiser géographiquement sa localité d'origine."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'adjectif qualificatif verbalisé 'a + radical'",
+      "explanation": "Pour attribuer une qualité de manière prédicative (ex: la maison EST grande), on emploie le morphème impersonnel 'a' suivi directement de la racine qualificative sans le verbe être.",
+      "rules": [
+        "Le radical qualificatif conserve son ton lexical d'origine.",
+        "Cette structure s'applique à tous les adjectifs de dimension ou d'état."
+      ],
+      "examples": [
+        {
+          "structure": "kɛ̃́ɛ́ + a + ɓá",
+          "phonetic_api": "/kɛ̃́ː a ɓá/",
+          "meaning": "La maison est grande."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Koli",
+      "text": "Í yé habiter mí pɔ́ ?",
+      "phonetic_api": "/í jé habiter mí pɔ́/",
+      "phonetic_simple": "I YE habiter MI PO ?",
+      "translation": "Où habites-tu ?"
+    },
+    {
+      "speaker": "Sia",
+      "text": "Ń yé kɛ̃́ɛ́ dóó kɔ́ɔ́ táá kɔ́ɔ́ yáá.",
+      "phonetic_api": "/ń jé kɛ̃́ː dóː kɔ́ː táː kɔ́ː jáː/",
+      "phonetic_simple": "N YE KEEEE DOO KOO TAA KOO YAA",
+      "translation": "Habiter dans une maison ici en ville."
+    }
+  ],
+  "cultural_notes": [
+    "L'architecture traditionnelle konon intègre de plus en plus de toitures en tôle moderne, remplaçant progressivement le chaume d'origine dans les centres comme Lola."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex10_1",
+      "type": "multiple_choice",
+      "question": "Que signifie 'kɛ̃́ɛ́' ?",
+      "options": [
+        "Champ",
+        "Maison",
+        "Forêt"
+      ],
+      "correct_answer": "Maison",
+      "explanation": "'kɛ̃́ɛ́' désigne le lieu d'habitation ou le bâtiment résidentiel."
+    },
+    {
+      "exercise_id": "ex10_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "ń táá a [ ___ ] (Ma ville est grande)",
+      "correct_answer": "ɓá",
+      "hint": "Grand / Imposant."
+    }
+  ]
+}

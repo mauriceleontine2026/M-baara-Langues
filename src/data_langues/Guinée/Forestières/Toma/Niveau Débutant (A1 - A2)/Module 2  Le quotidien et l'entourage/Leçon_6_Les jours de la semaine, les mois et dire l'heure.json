@@ -1,0 +1,123 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer les jours de la semaine principale en toma",
+    "Exprimer des repères temporels simples pour planifier une action"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La voyelle ouverte 'ɔ' sonne comme le 'o' du mot français 'porte'. L'intonation doit rester régulière.",
+    "common_pitfalls": "Attention à ne pas fermer le 'ɔ' en 'o' comme dans 'moto'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v6_1",
+      "term": "Kôwazu",
+      "phonetic_api": "/kɔ̂.wa.zu/",
+      "phonetic_simple": "KOW-OUA-ZOU",
+      "translation": "Lundi",
+      "example_sentence": "Kôwazu yaa li.",
+      "example_phonetic": "/kɔ̂.wa.zu jaː li/",
+      "example_translation": "Nous partirons lundi."
+    },
+    {
+      "word_id": "v6_2",
+      "term": "Kizazu",
+      "phonetic_api": "/ki.za.zu/",
+      "phonetic_simple": "KI-ZA-ZOU",
+      "translation": "Mardi",
+      "example_sentence": "Kizazu ni.",
+      "example_phonetic": "/ki.za.zu ni/",
+      "example_translation": "C'est mardi."
+    },
+    {
+      "word_id": "v6_3",
+      "term": "folo",
+      "phonetic_api": "/fo.lo/",
+      "phonetic_simple": "FO-LO",
+      "translation": "jour / soleil",
+      "example_sentence": "Folo vaza.",
+      "example_phonetic": "/fo.lo va.za/",
+      "example_translation": "Il fait beau jour."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p6_1",
+      "original": "Za folo ɓɛ̀?",
+      "phonetic_api": "/za fo.lo ɓɛ̀/",
+      "phonetic_simple": "ZA FO-LO BE?",
+      "translation": "Quel jour sommes-nous ?",
+      "context": "Question usuelle pour s'orienter dans la semaine."
+    },
+    {
+      "phrase_id": "p6_2",
+      "original": "Folo ye e lɔ̀ vɔ.",
+      "phonetic_api": "/fo.lo je e lɔ̀ vɔ/",
+      "phonetic_simple": "FO-LO YE E LO VO",
+      "translation": "Le soleil est haut (Il est midi).",
+      "context": "Manière traditionnelle d'indiquer l'heure par la position du soleil."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le locatif temporel '-zu'",
+      "explanation": "Le suffixe '-zu' attaché aux noms des jours indique le moment précis à l'intérieur duquel se déroule l'action.",
+      "rules": [
+        "Il dérive de la racine signifiant 'dans' ou 'sur'.",
+        "Il se soude directement au jour nommé."
+      ],
+      "examples": [
+        {
+          "structure": "Kôwazu",
+          "phonetic_api": "/kɔ̂.wa.zu/",
+          "meaning": "Le lundi (litt. dans le jour de lundi)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Peintre",
+      "text": "I li ma folo ɓɛ̀?",
+      "phonetic_api": "/i li ma fo.lo ɓɛ̀/",
+      "phonetic_simple": "I LI MA FO-LO BE?",
+      "translation": "Tu pars quel jour ?"
+    },
+    {
+      "speaker": "Forgeron",
+      "text": "Na li ma Kôwazu.",
+      "phonetic_api": "/na li ma kɔ̂.wa.zu/",
+      "phonetic_simple": "NA LI MA KOW-OUA-ZOU",
+      "translation": "Je pars lundi."
+    }
+  ],
+  "cultural_notes": [
+    "Dans le calendrier coutumier Toma, le temps était fortement lié aux jours de grand marché régional plutôt qu'au découpage hebdomadaire occidental. Les marchés rythment encore fortement la vie rurale."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex6_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le terme 'folo' en toma ?",
+      "options": [
+        "La lune",
+        "Le jour / Le soleil",
+        "L'année"
+      ],
+      "correct_answer": "Le jour / Le soleil",
+      "explanation": "'folo' incarne à la fois l'astre solaire et la journée lumineuse."
+    },
+    {
+      "exercise_id": "ex6_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Kôwa[ ___ ] (Lundi).",
+      "correct_answer": "zu",
+      "hint": "Le suffixe locatif temporel obligatoire."
+    }
+  ]
+}

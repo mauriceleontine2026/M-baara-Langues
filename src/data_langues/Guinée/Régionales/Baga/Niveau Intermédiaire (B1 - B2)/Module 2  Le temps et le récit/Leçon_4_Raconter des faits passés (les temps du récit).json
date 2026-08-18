@@ -1,0 +1,145 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Employer la marque de l'aspect accompli pour structurer une narration au passé",
+    "Utiliser les indicateurs de temps rétrospectifs (hier, l'an passé, autrefois)",
+    "Ordonner chronologiquement les événements d'un récit simple en Baga"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La particule du passé accompli 'yà' crée souvent une ellipse ou une modification de la voyelle finale du verbe qui la précède. Le ton descend nettement en fin de proposition narrative.",
+    "common_pitfalls": "Veillez à bien distinguer la particule narrative descendante 'yà' de l'adverbe de lieu ou présentatif 'ya' (ici) qui possède une intonation plus neutre ou haute selon le contexte."
+  },
+  "vocabulary": [
+    {
+      "word_id": "b216",
+      "term": "kúnù",
+      "phonetic_api": "/kúnù/",
+      "phonetic_simple": "KOO-NOO",
+      "translation": "hier",
+      "example_sentence": "Kúnù mə̀ táa yà lò-su ka",
+      "example_phonetic": "/kúnù mə̀ táː jà lò su ka/",
+      "example_translation": "Hier, je suis allé en ville"
+    },
+    {
+      "word_id": "b217",
+      "term": "siɛ̀-wɔ̀lɔ̀",
+      "phonetic_api": "/siɛ̀ wɔ́lɔ́/",
+      "phonetic_simple": "SIÈ-WÓ-LÓ",
+      "translation": "l'année dernière / l'an passé",
+      "example_sentence": "Ní gbɔ́n sán yà siɛ̀-wɔ̀lɔ̀",
+      "example_phonetic": "/ní gɓɔ́n sán jà siɛ̀ wɔ́lɔ́/",
+      "example_translation": "J'ai construit la maison l'année dernière"
+    },
+    {
+      "word_id": "b218",
+      "term": "táa-yà",
+      "phonetic_api": "/táː jà/",
+      "phonetic_simple": "TAA-YA",
+      "translation": "être parti / s'en est allé (accompli)",
+      "example_sentence": "A táa-yà Boké ka",
+      "example_phonetic": "/a táː jà ɓoke ka/",
+      "example_translation": "Il est parti à Boké"
+    },
+    {
+      "word_id": "b219",
+      "term": "kɛ̀ɛ̀-ɛ̀",
+      "phonetic_api": "/kɛ̀ː ɛ̀/",
+      "phonetic_simple": "KÈÈ-È",
+      "translation": "avoir fait / accompli",
+      "example_sentence": "Mə̀ wáalì kɛ̀ɛ̀-ɛ̀ kúnù",
+      "example_phonetic": "/mə̀ wáːlì kɛ̀ː ɛ̀ kúnù/",
+      "example_translation": "J'ai fait mon travail hier"
+    },
+    {
+      "word_id": "b220",
+      "term": "táà",
+      "phonetic_api": "/taː/",
+      "phonetic_simple": "TAA",
+      "translation": "autrefois / jadis",
+      "example_sentence": "Táà, mu ya siì wɔ́lɔ́",
+      "example_phonetic": "/taː mu ja siː wɔ́lɔ́/",
+      "example_translation": "Autrefois, la communauté vivait ici"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "bp207",
+      "original": "I kɛ̀ɛ̀ mu kɛ̀ɛ̀-ɛ̀ kúnù lɔ̀ ?",
+      "phonetic_api": "/i kɛ̀ː mu kɛ̀ː ɛ̀ kúnù lɔ̀/",
+      "phonetic_simple": "I KÈÈ MOO KÈÈ-È KOO-NOO LO ?",
+      "translation": "Qu'as-tu fait durant la journée d'hier ?",
+      "context": "Questionner un ami ou un collègue sur ses activités passées"
+    },
+    {
+      "phrase_id": "bp208",
+      "original": "N wáa táa-yà Conakry siɛ̀-wɔ̀lɔ̀ ka",
+      "phonetic_api": "/ⁿwáː táː jà Conakry siɛ̀ wɔ́lɔ́ ka/",
+      "phonetic_simple": "N WAA TAA-YA CO-NA-KRY SIÈ-WÓ-LÓ KA",
+      "translation": "Mon père est allé à Conakry l'année dernière.",
+      "context": "Évoquer un déplacement familial ou professionnel ancien"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'aspect accompli narratif avec 'yà / ɛ̀'",
+      "explanation": "En Baga intermédiaire, le récit d'actions révolues (équivalent du passé composé ou passé simple) repose sur l'aspect accompli. On insère la particule 'yà' immédiatement après le verbe d'action intransitif ou on applique un suffixe vocalique glissé 'ɛ̀' pour marquer la fin définitive de l'action.",
+      "rules": [
+        "Verbe intransitif + yà = Action accomplie liée à un déplacement (ex: táa yà).",
+        "Verbe transitif + ɛ̀ = Action complétée sur un objet."
+      ],
+      "examples": [
+        {
+          "structure": "Táa (Partir) + yà (Accompli)",
+          "phonetic_api": "/táː jà/",
+          "meaning": "Est parti / Suis parti"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "Temba, i táa-yà mí ka kúnù sáámà lɔ̀ ?",
+      "phonetic_api": "/tɛmɓa i táː jà mí ka kúnù sáːmà lɔ̀/",
+      "phonetic_simple": "TEM-BA, I TAA-YA MII KA KOO-NOO SAA-MA LO ?",
+      "translation": "Temba, où es-tu allé hier pendant la journée du dimanche ?"
+    },
+    {
+      "speaker": "Temba",
+      "text": "Mə̀ táa-yà n ŋá gbɛ̀lɛ̀ fɛ̀ɛ̀. Ní məlɔ̀ŋ di-ɛ̀ kàn sɔ̀ gbɛ́-yà ya.",
+      "phonetic_api": "/mə̀ táː jà ⁿŋá gɓɛ̀lɛ̀ fɛ̀ː ní məlɔ̀ŋ di ɛ̀ kàn sɔ̀ gɓɛ́ jà ja/",
+      "phonetic_simple": "ME TAA-YA N NGA GBÈ-LÈ FÈÈ. NII ME-LON DII-È KAN SO GBÉ-YA YA.",
+      "translation": "Je suis allé à la concession de ma mère. J'y ai mangé du riz et j'y ai bu de l'eau."
+    }
+  ],
+  "cultural_notes": [
+    "La transmission orale de l'histoire des clans et des lignages Baga s'effectue traditionnellement au passé lointain ('táà') par les anciens lors des assemblées nocturnes. L'usage de l'accompli y est très formel et codifié.",
+    "Le marqueur temporel 'siɛ̀-wɔ̀lɔ̀' (l'année dernière) sert historiquement à rythmer les grands cycles de la riziculture de mangrove sur le littoral guinéen."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L4_ex1",
+      "type": "multiple_choice",
+      "question": "Quel adverbe s'utilise pour introduire un récit très ancien (Autrefois / Jadis) ?",
+      "options": [
+        "kúnù",
+        "táà",
+        "siɛ̀-wɔ̀lɔ̀"
+      ],
+      "correct_answer": "táà",
+      "explanation": "'táà' fait explicitement référence aux époques ancestrales ou historiques."
+    },
+    {
+      "exercise_id": "B1_M2_L4_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A táa-[ ___ ] Boké ka (Il est parti à Boké).",
+      "correct_answer": "yà",
+      "hint": "Particule d'aspect accompli de deux lettres"
+    }
+  ]
+}

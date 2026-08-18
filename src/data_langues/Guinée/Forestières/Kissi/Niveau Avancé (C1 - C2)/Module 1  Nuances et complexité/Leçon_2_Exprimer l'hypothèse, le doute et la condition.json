@@ -1,0 +1,114 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Niveau Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Construire des propositions conditionnelles complexes (Si... alors...)",
+    "Exprimer une incertitude ou une éventualité",
+    "Nuancer son discours en utilisant les adverbes de probabilité"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La conjonction conditionnelle 'te' (si) porte un ton moyen-bas bref. Le verbe principal de la subordonnée subit souvent une inflexion tonale vers le haut.",
+    "common_pitfalls": "Attention à ne pas confondre la conjonction de condition 'te' avec la particule négative ou interrogative. Sa brièveté est essentielle pour la clarté syntaxique."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v20_1",
+      "term": "te",
+      "phonetic_api": "/te/",
+      "phonetic_simple": "TÉ",
+      "translation": "si (conjonction de condition)",
+      "example_sentence": "Te o lo, i co lo ndɔ.",
+      "example_phonetic": "/te o lo i tʃo lo ⁿdɔ/",
+      "example_translation": "Si tu pars, je pars aussi."
+    },
+    {
+      "word_id": "v20_2",
+      "term": "ntandɔ",
+      "phonetic_api": "/ⁿtã.ⁿdɔ/",
+      "phonetic_simple": "NTAN-DO",
+      "translation": "peut-être / probablement",
+      "example_sentence": "Ntandɔ o co wa cando.",
+      "example_phonetic": "/ⁿtã.ⁿdɔ o tʃo wa tʃa.ⁿdo/",
+      "example_translation": "Peut-être qu'il est à la maison."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p20_1",
+      "original": "Te o nɔ gbalaŋ, o co cando nɔŋ loolu.",
+      "phonetic_api": "/te o nɔ g͡ba.laŋ o tʃo tʃa.ⁿdo nɔŋ loː.lu/",
+      "phonetic_simple": "TÉ O NO GBA-LANG, O TCHO TCHAN-DO NONG LOO-LOU",
+      "translation": "Si tu as de l'argent, tu achèteras une maison.",
+      "context": "Formuler une condition réelle ou réalisable"
+    },
+    {
+      "phrase_id": "p20_2",
+      "original": "Ntandɔ fin nio o co lo loolu cɔwɔ̄.",
+      "phonetic_api": "/ⁿtã.ⁿdɔ fĩ njo o tʃo lo loː.lu tʃɔ.wɔ̄/",
+      "phonetic_simple": "NTAN-DO FEEN NYO O TCHO LO LOO-LOU TCHO-WO",
+      "translation": "Peut-être que mon père partira demain.",
+      "context": "Exprimer un doute ou une éventualité"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure de la phrase conditionnelle avec 'te'",
+      "explanation": "La condition se construit en plaçant la conjonction 'te' en tout début de phrase, suivie immédiatement de la proposition subordonnée. La proposition principale (conséquence) adopte ensuite une structure de futur ou de présent classique.",
+      "rules": [
+        "La subordonnée conditionnelle commence par 'te'.",
+        "Une légère pause (virgule à l'écrit) sépare la condition de la conséquence."
+      ],
+      "examples": [
+        {
+          "structure": "Te + Subordonnée, + Principale",
+          "phonetic_api": "/te o mɛl i mɛl ⁿdɔ/",
+          "meaning": "Si tu bois, je bois aussi."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sia",
+      "text": "Tamba, te sola o co bɛndɛ, o co biyɛ nɔŋ loolu ?",
+      "phonetic_api": "/ta.ᵐba te so.la o tʃo bɛⁿdɛ o tʃo bi.jɛ nɔŋ loː.lu/",
+      "phonetic_simple": "TAM-BA, TÉ SO-LA O TCHO BEN-DE, O TCHO BI-YÈ NONG LOO-LOU ?",
+      "translation": "Tamba, si le prix est élevé, achèteras-tu du riz ?"
+    },
+    {
+      "speaker": "Tamba",
+      "text": "Mbo, te o co bɛndɛ, i co nɔŋ le. Ntandɔ i co lo fassa ciao pilɔ ning.",
+      "phonetic_api": "/ᵐbo te o tʃo bɛⁿdɛ i tʃo nɔŋ le ⁿtã.ⁿdɔ i tʃo lo fa.sa tʃja.o pi.lɔ niŋ/",
+      "phonetic_simple": "MBO, TÉ O TCHO BEN-DE, I TCHO NONG LÉ. NTAN-DO I TCHO LO FAS-SA TCHIA-O PI-LO NING.",
+      "translation": "Non, si c'est cher, je n'achèterai pas. Peut-être que j'irai dans l'autre côté du marché."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les discussions diplomatiques inter-villageoises ou familiales, l'usage de tournures hypothétiques et d'adverbes d'atténuation ('ntandɔ') permet de ne pas heurter de front les interlocuteurs et de préserver l'harmonie des échanges."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex20_1",
+      "type": "multiple_choice",
+      "question": "Que signifie la conjonction 'te' ?",
+      "options": [
+        "Dans",
+        "Si",
+        "Hier"
+      ],
+      "correct_answer": "Si",
+      "explanation": "'te' introduit une condition ou une hypothèse en début de proposition."
+    },
+    {
+      "exercise_id": "ex20_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] o co wa cando. (Peut-être qu'il est à la maison)",
+      "correct_answer": "Ntandɔ",
+      "hint": "Adverbe exprimant la probabilité ou l'incertitude"
+    }
+  ]
+}

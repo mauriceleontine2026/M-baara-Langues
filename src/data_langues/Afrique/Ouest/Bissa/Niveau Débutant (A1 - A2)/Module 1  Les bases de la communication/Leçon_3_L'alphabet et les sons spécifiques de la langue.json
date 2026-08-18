@@ -1,0 +1,194 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Identifier et prononcer correctement les lettres spécifiques de l'alphabet bissa",
+    "Faire la distinction phonologique entre les voyelles tendues, relâchées et nasalisées",
+    "Comprendre le fonctionnement des tons et de l'allongement vocalique"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'alphabet bissa codifié au Burkina Faso repose sur l'alphabet national. Il intègre des caractères phonétiques indispensables comme l'iota /ɩ/, l'upsilon /ʊ/, le n-eng /ŋ/, et l'epsilon /ɛ/. La nasalisation se note graphiquement par l'adjonction d'un 'n' en fin de syllabe ou par un tilde en API /~/. Les tons (haut, bas, modulé) modifient radicalement le sens des termes.",
+    "common_pitfalls": "Confondre /ɩ/ avec un /i/ pur ou /ʊ/ avec un /u/ fermé. La lettre /ɩ/ se prononce la bouche légèrement plus ouverte (comme le 'i' du mot anglais 'hit'). Ne négligez jamais l'allongement d'une voyelle doublée, car cela change la nature du mot."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "ɩrɛ",
+      "phonetic_api": "/ɪʁɛ/",
+      "phonetic_simple": "I-REH",
+      "translation": "Nom / appellation",
+      "example_sentence": "ɩrɛ mbe la",
+      "example_phonetic": "/Structure nominale/",
+      "example_translation": "Le nom est bon."
+    },
+    {
+      "word_id": "v2",
+      "term": "ʊta",
+      "phonetic_api": "/ʊta/",
+      "phonetic_simple": "OU-TA",
+      "translation": "Trois (chiffre)",
+      "example_sentence": "Bur ʊta",
+      "example_phonetic": "/buʁ ʊta/",
+      "example_translation": "Trois ans."
+    },
+    {
+      "word_id": "v3",
+      "term": "Nyii",
+      "phonetic_api": "/ɲiː/",
+      "phonetic_simple": "NYII",
+      "translation": "Dent / mordre",
+      "example_sentence": "M nyii gaa",
+      "example_phonetic": "/m̩ ɲiː ɡaː/",
+      "example_translation": "Ma dent fait mal."
+    },
+    {
+      "word_id": "v4",
+      "term": "Ŋwãa",
+      "phonetic_api": "/ŋwãː/",
+      "phonetic_simple": "NGWAA",
+      "translation": "Ami / compagnon",
+      "example_sentence": "M ŋwãa la Issa",
+      "example_phonetic": "/m̩ ŋwãː la issa/",
+      "example_translation": "Mon ami est Issa."
+    },
+    {
+      "word_id": "v5",
+      "term": "Zɩ",
+      "phonetic_api": "/zɪ/",
+      "phonetic_simple": "ZI",
+      "translation": "Accorder / donner / permettre",
+      "example_sentence": "Wɔɔ zɩ",
+      "example_phonetic": "/wɔː zɪ/",
+      "example_translation": "Que Dieu accorde."
+    },
+    {
+      "word_id": "v6",
+      "term": "Ɔrɔ",
+      "phonetic_api": "/ɔʁɔ/",
+      "phonetic_simple": "O-RO",
+      "translation": "Ici / dans ce lieu",
+      "example_sentence": "M bɔ ɔrɔ",
+      "example_phonetic": "/m̩ bɔ ɔʁɔ/",
+      "example_translation": "Je suis ici."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "A bɔ gɩ dɛ n dɔ",
+      "phonetic_api": "/a bɔ ɡɪ dɛ n dɔ/",
+      "phonetic_simple": "A BO GI DEH N DO",
+      "translation": "C'est écrit correctement",
+      "context": "Utilisé en classe ou lors de l'apprentissage de la lecture du bissa."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "N tɛɛ bissa n kɩparɩ ʊ",
+      "phonetic_api": "/n̩ tɛː bissa n̩ kɩpaʁɩ ʊ/",
+      "phonetic_simple": "N TEE BIS-SA N KI-PA-RI OU",
+      "translation": "Je comprends l'alphabet bissa",
+      "context": "Déclaration d'une compétence d'alphabétisation de base."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Karamɔgɔ, kuso fõ m dɔ",
+      "phonetic_api": "/kaʁamɔɡɔ kuso fõ m dɔ/",
+      "phonetic_simple": "KA-RA-MO-GO KOU-SO FO M DO",
+      "translation": "Maître, s'il vous plaît, répétez le son",
+      "context": "Phrase d'usage pédagogique pour demander de l'aide sur une prononciation."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "M gɩ bɔ n dɔ ?",
+      "phonetic_api": "/m̩ ɡɪ bɔ n dɔ/",
+      "phonetic_simple": "M GI BO N DO",
+      "translation": "Comment dit-on cela ?",
+      "context": "Question systématique pour apprendre de nouveaux mots."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'harmonie vocalique en bissa",
+      "explanation": "Le bissa obéit à une règle stricte d'harmonie vocalique basée sur l'avancement de la racine de la langue (ATR). Les voyelles d'un mot appartiennent généralement toutes à la même catégorie (tendues /+ATR/ ou relâchées /-ATR/).",
+      "rules": [
+        "Les voyelles tendues sont : a, e, i, o, u.",
+        "Les voyelles relâchées spécifiques sont : ɩ, ʊ, ɛ, ɔ.",
+        "Les suffixes grammaticaux s'adaptent automatiquement à la catégorie vocalique du radical du mot."
+      ],
+      "examples": [
+        {
+          "structure": "Radical relâché + suffixe adapté",
+          "phonetic_api": "/zɪ/",
+          "meaning": "L'usage de ɩ exige des sons compatibles dans l'énoncé."
+        }
+      ]
+    },
+    {
+      "concept": "L'allongement vocalique distinctif",
+      "explanation": "Le redoublement graphique d'une voyelle en bissa indique un allongement de sa durée d'émission phonétique. Ce processus est phonologiquement pertinent : un mot à voyelle brève a un sens totalement différent d'un mot à voyelle longue.",
+      "rules": [
+        "Voyelle simple = son bref.",
+        "Voyelle double = son long tenant sur deux temps rythmiques moriques."
+      ],
+      "examples": [
+        {
+          "structure": "Gii (nom) vs Gi (dire)",
+          "phonetic_api": "/ɟiː/ vs /ɟi/",
+          "meaning": "Le premier dure deux fois plus longtemps que le second."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sukuuka (L'élève)",
+      "text": "Karamɔgɔ, bɔ la ɩrɛ n gɩ ?",
+      "phonetic_api": "/kaʁamɔɡɔ bɔ la ɪʁɛ n̩ ɡɪ/",
+      "phonetic_simple": "KA-RA-MO-GO BO LA I-REH N GI",
+      "translation": "Maître, comment se prononce la lettre ɩrɛ ?"
+    },
+    {
+      "speaker": "Karamɔgɔ (Le maître)",
+      "text": "A gɩ la /ɩ/. A la n dɔ bisi.",
+      "phonetic_api": "/a ɡɪ la ɪ a la n̩ dɔ bisi/",
+      "phonetic_simple": "A GI LA [I]. A LA N DO BI-SI",
+      "translation": "Elle se prononce /ɩ/. C'est un son relâché doux."
+    },
+    {
+      "speaker": "Sukuuka (L'élève)",
+      "text": "Barka boi, m gɩ fõ n dɔ ki.",
+      "phonetic_api": "/baʁka bɔi m̩ ɡɪ fõ n̩ dɔ ki/",
+      "phonetic_simple": "BAR-KA BOI M GI FO N DO KI",
+      "translation": "Merci beaucoup, je comprends mieux le son maintenant."
+    }
+  ],
+  "cultural_notes": [
+    "L'écriture du bissa a été officialisée grâce aux efforts de la Sous-Commission Nationale des Langues au Burkina Faso. La maîtrise de ces caractères spéciaux symbolise l'émancipation culturelle et la valorisation du patrimoine écrit africain face aux systèmes exclusivement latins ou coloniaux.",
+    "La transmission orale bissa accorde une valeur rythmique fondamentale à l'allongement des mots, souvent mimée ou exagérée dans les contes villageois pour marquer la distance ou la grandeur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel caractère phonétique représente le 'u' relâché (comme le ou de l'anglais 'book') en bissa ?",
+      "options": [
+        "ʊ",
+        "ɩ",
+        "ŋ"
+      ],
+      "correct_answer": "ʊ",
+      "explanation": "L'upsilon minuscule 'ʊ' sert à noter précisément la voyelle postérieure relâchée du bissa."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le mot 'nom' ou 's'appeler' s'écrit avec une voyelle longue : g[ ___ ].",
+      "correct_answer": "ii",
+      "hint": "Doubler la voyelle pour obtenir la forme correcte 'gii'."
+    }
+  ]
+}

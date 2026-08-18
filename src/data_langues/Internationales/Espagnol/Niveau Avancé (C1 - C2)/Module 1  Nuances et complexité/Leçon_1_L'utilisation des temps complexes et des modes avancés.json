@@ -1,0 +1,201 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés",
+  "learning_objectives": [
+    "Maîtriser les valeurs aspectuelles et chronologiques du Plus-que-parfait du subjonctif et du Futur antérieur",
+    "Articuler avec précision des propositions subordonnées complexes exigeant une concordance des temps rigoureuse",
+    "Nuancer le discours en manipulant les périphrases aspectuelles avancées et les formes surcomposées"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La distinction entre le 'b' et le 'v' s'estompe au profit d'une articulation fricative bilabiale douce /β/ dans les auxiliaires du passé (ex: 'hubiera' /uˈβjeɾa/). Le double 'r' de 'hubiere' ou 'errar' exige une vibration alvéolaire multiple nette (/eˈraɾ/). L'accentuation des formes du subjonctif imparfait en '-áramos' ou '-iéramos' requiert une proparoxytone parfaite (accent sur l'antépénultième syllabe, ex: 'hubiéramos' /uˈβjeɾamos/).",
+    "common_pitfalls": "Attention à la confusion acoustique entre le conditionnel passé ('habría hablado') et le plus-que-parfait du subjonctif ('hubiera hablado'). Le glissement de l'accent tonique doit être parfaitement maîtrisé pour éviter tout contresens sur la modalité du récit."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Anterioridad",
+      "phonetic_api": "/anteɾjoɾiˈðað/",
+      "phonetic_simple": "AN-TÉ-RYO-REE-DAD",
+      "translation": "Antériorité",
+      "example_sentence": "La anterioridad de la acción exige el uso del pluscuamperfecto.",
+      "example_phonetic": "/la aŋteɾjoɾiˈðað ðe la akˈθjon eˈxixe el ˈuso ðel pluskwampeɾˈfexto/",
+      "example_translation": "L'antériorité de l'action exige l'utilisation du plus-que-parfait."
+    },
+    {
+      "word_id": "v2",
+      "term": "Desencadenar",
+      "phonetic_api": "/deseŋkaðeˈnaɾ/",
+      "phonetic_simple": "DÉ-SEN-KA-DÉ-NAR",
+      "translation": "Déclencher / Entraîner",
+      "example_sentence": "El incumplimiento de la hipótesis hubiera desencadenado una crisis jurídica.",
+      "example_phonetic": "/el jŋkʊmpliˈmjeŋto ðe la iˈpotesiz uˈβjeɾa deseŋkaðeˈnaɾa ˈuna ˈkɾisis xuˈɾiðika/",
+      "example_translation": "Le non-respect de l'hypothèse aurait déclenché une crise juridique."
+    },
+    {
+      "word_id": "v3",
+      "term": "Concordancia",
+      "phonetic_api": "/koŋkoɾˈðanθja/",
+      "phonetic_simple": "KON-KOR-DAN-THYA",
+      "translation": "Concordance (grammaticale)",
+      "example_sentence": "Es imprescindible respetar la concordancia de tiempos en el discurso formal.",
+      "example_phonetic": "/ˈes jmpɾesθinˈdiβle ɾespeˈtaɾ la koŋkoɾˈðanθja ðe ˈtjempos en el ðisˈkuɾso foɾˈmal/",
+      "example_translation": "Il est indispensable de respecter la concordance des temps dans le discours formel."
+    },
+    {
+      "word_id": "v4",
+      "term": "Acontecimiento",
+      "phonetic_api": "/akonteθiˈmjeŋto/",
+      "phonetic_simple": "A-KON-TÉ-THEE-MYEN-TO",
+      "translation": "Événement / Avènement",
+      "example_sentence": "Para cuando llegue el invierno, el acontecimiento ya habrá concluido.",
+      "example_phonetic": "/ˈpaɾa ˈkwaŋdo ˈʝeɣe el jɱˈβjeɾno el akonteθiˈmjeŋto ˈʝa aˈβɾa koŋkluˈiðo/",
+      "example_translation": "D'ici à ce que l'hiver arrive, l'événement sera déjà terminé."
+    },
+    {
+      "word_id": "v5",
+      "term": "Suposición",
+      "phonetic_api": "/supoθiˈθjon/",
+      "phonetic_simple": "SOU-PO-SEE-THYON",
+      "translation": "Supposition / Conjecture",
+      "example_sentence": "El futuro perfecto sirve a menudo para formular una suposición sobre el pasado.",
+      "example_phonetic": "/el fuˈtuɾo peɾˈfexto ˈsiɾβe a meˈnuðo ˈpaɾa foɾmuˈlaɾ ˈuna supoθiˈθjon ˈsoβɾe el paˈsaðo/",
+      "example_translation": "Le futur antérieur sert souvent à formuler une supposition sur le passé."
+    },
+    {
+      "word_id": "v6",
+      "term": "Matizar",
+      "phonetic_api": "/matiˈθaɾ/",
+      "phonetic_simple": "MA-TEE-THAR",
+      "translation": "Nuancer / Apporter des nuances",
+      "example_sentence": "Conviene matizar estas afirmaciones mediante el uso del subjuntivo.",
+      "example_phonetic": "/komˈbjene matiˈθaɾ ˈestas afiɾmaˈθjones ˈmjeðjaŋte el ˈuso ðel suβxʊnˈtiβo/",
+      "example_translation": "Il convient de nuancer ces affirmations par l'utilisation du subjonctif."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Hubiera sido de agradecer que nos lo hubiesen notificado antes",
+      "phonetic_api": "/uˈβjeɾa ˈsiðo ðe aɣɾaðeˈθeɾ ke nos lo uˈβjesen notifiˈkaðo ˈantes/",
+      "phonetic_simple": "OU-BYÉ-RA SEE-DO DE A-GRA-DÉ-THER KÉ NOS LO OU-BYÉ-SEN NO-TEE-FEE-KA-DO AN-TÉS",
+      "translation": "Il aurait été appréciable qu'on nous le notifiât plus tôt",
+      "context": "Formulation hautement soutenue pour exprimer un regret ou un reproche feutré dans une correspondance officielle."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Para entonces, la junta ya habrá tomado una resolución definitiva",
+      "phonetic_api": "/ˈpaɾa enˈtonθes la ˈxʊnta ˈʝa aˈβɾa toˈmaðo ˈuna ɾesoluˈθjon defiɲiˈtiβa/",
+      "phonetic_simple": "PA-RA EN-TON-THÉS LA KHOUN-TA YA A-BRA TO-MA-DO OU-NA RÉ-SO-LOO-THYON DÉ-FEE-NEE-TEE-BA",
+      "translation": "À ce moment-là, le conseil aura déjà pris une résolution définitive",
+      "context": "Permet de projeter l'accomplissement d'une action future par rapport à un repère temporel précis."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "De haber sabido las consecuencias, jamás habríamos procedido así",
+      "phonetic_api": "/de aˈβeɾ saˈβiðo las koŋseˈkwenθjas xaˈmas aˈβɾjamos pɾoθeˈðiðo aˈsi/",
+      "phonetic_simple": "DE A-BER SA-BEE-DO LAS KON-SÉ-KWEN-THYAS KHA-MAS A-BREE-A-MOS PRO-THÉ-DEE-DO A-SEE",
+      "translation": "Si nous avions su les conséquences, jamais nous n'aurions procédé de la sorte",
+      "context": "Structure conditionnelle élégante utilisant l'infinitif passé pour remplacer une subordonnée avec 'si'."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Quienquiera que hubiese redactado el acta, cometió un grave desliz",
+      "phonetic_api": "/kjeŋˈkjeɾa ke uˈβjese ɾedaxˈtaðo el ˈakta komeˈtjo un ˈgɾaβe ðezˈlis/",
+      "phonetic_simple": "KYEN-KYÉ-RA KÉ OU-BYÉ-SÉ RÉ-DAK-TA-DO EL AK-TA KO-MÉ-TYO OUN GRA-BÉ DES-LEES",
+      "translation": "Quiconque eût rédigé le procès-verbal a commis une grave erreur",
+      "context": "Proposition concessionnelle indéterminée de niveau académique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le Plus-que-parfait du subjonctif (Pretérito Pluscuamperfecto de Subjuntivo)",
+      "explanation": "Ce temps exprime une action irréelle du passé ou une action accomplie et antérieure à une autre action passée dans une subordonnée exigeant le subjonctif. Il possède deux variantes morphologiques équivalentes (-era / -ese) issues du latin.",
+      "rules": [
+        "Formation : Auxiliaire HABER au subjonctif imparfait (hubiera/hubiese) + Participe passé du verbe.",
+        "Emploi dans les structures conditionnelles irréelles du passé : Si + Plus-que-parfait du subjonctif -> Conditionnel passé ou Plus-que-parfait du subjonctif dans l'apodosi (ex: Si hubieras venido, lo habrías visto / lo hubieras visto).",
+        "Concordance : Utilisé après un verbe principal au passé exprimant le doute, la volonté ou le sentiment (ex: Temía que no hubiesen llegado)."
+      ],
+      "examples": [
+        {
+          "structure": "Me extrañó que nadie hubiera advertido el error antes de la publicación.",
+          "phonetic_api": "/me exstɾaˈɲo ke ˈnaðje uˈβjeɾa aðβeɾˈtiðo el eˈɾoɾ ˈantes ðe la puβlikaˈθjon/",
+          "meaning": "J'ai été surpris que personne n'eût remarqué l'erreur avant la publication."
+        }
+      ]
+    },
+    {
+      "concept": "Le Futur Antérieur (Futuro Perfecto) : Éventualité et Conjecture",
+      "explanation": "Au niveau C1, le futur antérieur dépasse sa valeur première de simple antériorité dans le futur. Il sert massivement à exprimer la probabilité, la conjecture ou l'hypothèse portant sur une action passée, achevée par rapport au présent.",
+      "rules": [
+        "Valeur chronologique : Action future antérieure à un autre repère temporel futur (ex: Para cuando vengas, ya habré terminado).",
+        "Valeur modale (Conjecture) : Exprime la probabilité portant sur le passé composé (ex: Se habrá caído el sistema = Le système s'est probablement déconnecté / a dû planter)."
+      ],
+      "examples": [
+        {
+          "structure": "A estas horas, el avión ya habrá aterrizado en Bogotá.",
+          "phonetic_api": "/a ˈestas ˈoɾas el aˈβjon ˈʝa aˈβɾa ateɾiˈθaðo en βoɣoˈta/",
+          "meaning": "À l'heure qu'il est, l'avion a probablement déjà atterri à Bogota."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Don Ricardo",
+      "text": "Estimada doctora, me sorprende sobremanera que el comité no hubiera refrendado el proyecto antes de la auditoría externa.",
+      "phonetic_api": "/esˈtimaða ðoxˈtoɾa me soɾˈpɾeŋde soβɾemaˈneɾa ke el komiˈte ˈno uˈβjeɾa ɾefɾeŋˈdaðo el pɾoˈʝexto ˈantes ðe la awðitoˈɾia exˈsteɾna/",
+      "phonetic_simple": "ES-TEE-MA-DA DOK-TO-RA, ME SOR-PREN-DÉ SOB-RÉ-MA-NÉ-RA KÉ EL KO-MEE-TÉ NO OU-BYÉ-RA RÉ-FREN-DA-DO EL PRO-YEK-TO AN-TÉS DE LA AW-DEE-TO-REE-A EKS-TER-NA.",
+      "translation": "Chère doctoresse, je suis outre mesure surpris que le comité n'eût pas approuvé le projet avant l'audit externe."
+    },
+    {
+      "speaker": "Dra. Mendoza",
+      "text": "De haber dispuesto de más tiempo, lo habrían hecho. Supongo que para cuando se publique el informe, ya habrán subsanado las deficiencias.",
+      "phonetic_api": "/de aˈβeɾ ðisˈpwesto ðe ˈmas ˈtjempo lo aˈβɾjan ˈetʃo || suˈpoŋɡo ke ˈpaɾa ˈkwaŋdo se puˈβlike el jɱˈfoɾme ˈʝa aˈβɾan suβsaˈnaðo las ðefiˈθjenθjas/",
+      "phonetic_simple": "DE A-BER DEES-PWES-TO DE MAS TYEM-PO, LO A-BREE-AN É-TCHO. SOO-PON-GO KÉ PA-RA KWAN-DO SÉ POO-BLEE-KÉ EL EEN-FOR-MÉ, YA A-BRAN SOOB-SA-NA-DO LAS DÉ-FEE-THYEN-THYAS.",
+      "translation": "Si nous avions disposé de plus de temps, ils l'auraient fait. J'imagine que d'ici à ce que le rapport soit publié, ils auront déjà rectifié les manquements."
+    },
+    {
+      "speaker": "Don Ricardo",
+      "text": "Ojalá sea así. Si hubiésemos previsto semejante rigurosidad, habríamos modificado los plazos del protocolo.",
+      "phonetic_api": "/oxaˈla ˈsea aˈsi || si uˈβjesemos pɾeˈβisto seˈmexaŋte ɾiɣuɾosiˈðað aˈβɾjamos moðifiˈkaðo los ˈplaθoz ðel pɾotoˈkolo/",
+      "phonetic_simple": "O-KHA-LA SÉ-A A-SEE. SEE OU-BYÉ-SÉ-MOS PRÉ-VEES-TO SÉ-MÉ-KHAN-TÉ REE-GOO-RO-SEE-DAD, A-BREE-A-MOS MO-DEE-FEE-KA-DO LOS PLA-THOS DEL PRO-TO-KO-LO.",
+      "translation": "Espérons qu'il en soit ainsi. Si nous avions prévu une telle rigueur, nous aurions modifié les délais du protocole."
+    },
+    {
+      "speaker": "Dra. Mendoza",
+      "text": "No se preocupe. A estas horas, los técnicos ya habrán implementado las correcciones exigidas.",
+      "phonetic_api": "/ˈno se pɾeoˈkupe || a ˈestas ˈoɾas los ˈtexnikos ˈʝa aˈβɾan jmplemeŋˈtaðo las koɾexˈθjonez exiˈxiðas/",
+      "phonetic_simple": "NO SÉ PRÉ-O-KOO-PÉ. A ES-TAS O-RAS, LOS TEK-NEE-KOS YA A-BRAN EEM-PLÉ-MEN-TA-DO LAS KOR-REK-THYO-NÉS EK-SEE-KHEE-DAS.",
+      "translation": "Ne vous inquiétez pas. À l'heure qu'il est, les techniciens ont probablement déjà mis en œuvre les corrections exigées."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la sphère académique, administrative et juridique du monde hispanophone, la variante du subjonctif imparfait en '-ese' (hubiese) est fréquemment perçue comme plus raffinée et littéraire que la forme en '-ere' ou '-era' (hubiera), bien que les deux soient parfaitement interchangeables selon la norme de la RAE.",
+    "L'usage du futur antérieur pour exprimer la conjecture ou l'indignation face à un fait passé est une clé stylistique de la presse écrite et des débats intellectuels espagnols (ex: '¿Cómo habrá podido suceder esto?' = Comment cela a-t-il bien pu se produire ?)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L1_EX1",
+      "type": "multiple_choice",
+      "question": "Identifiez la forme verbale correcte pour exprimer une supposition portant sur une action passée dans le contexte suivant : 'Es extraño que no contesten. Se [...] olvidado de la cita.'",
+      "options": [
+        "habrán",
+        "hubieran",
+        "habrían"
+      ],
+      "correct_answer": "habrán",
+      "explanation": "On utilise le futur antérieur ('habrán') pour formuler une conjecture ou une forte probabilité portant sur un événement passé ('ils ont probablement oublié')."
+    },
+    {
+      "exercise_id": "C1_M1_L1_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Si el Gobierno [ ___ ] gestionado mejor los fondos, la crisis no habría alcanzado estas dimensiones.",
+      "correct_answer": "hubiera",
+      "hint": "Plus-que-parfait du subjonctif de l'auxiliaire 'haber' à la troisième personne du singulier, requis par la structure conditionnelle irréelle du passé."
+    }
+  ]
+}

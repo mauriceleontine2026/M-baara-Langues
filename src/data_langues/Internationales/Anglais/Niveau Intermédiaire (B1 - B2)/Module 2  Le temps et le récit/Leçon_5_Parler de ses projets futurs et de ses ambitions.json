@@ -1,0 +1,225 @@
+{
+  "lesson_id": "B1_M2_L5_v2",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 5,
+  "title": "Parler de l'avenir (projets, prédictions, intentions)",
+  "learning_objectives": [
+    "Distinguer et employer les différentes structures du futur en fonction du contexte sémantique",
+    "Exprimer des intentions fermes et des projets planifiés avec 'be going to' et le présent continu",
+    "Formuler des prédictions basées sur des indices factuels ou des opinions personnelles",
+    "Maîtriser l'usage des modaux de probabilité future (will, might, may)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La distinction des formes futures repose sur l'articulation de contractions et de semi-voyelles. La forme négative 'won't' /woʊnt/ exige la diphthongue fermée /oʊ/, indispensable pour éviter la confusion avec le verbe 'want' /wɒnt/. La structure 'going to' se réduit fréquemment à l'oral informel en 'gonna' /ˈɡənə/, où le schwa /ə/ final doit être très relâché. Dans le modal 'might' /maɪt/, le groupe graphique 'gh' est totalement muet, mettant en valeur la diphthongue ouverte /aɪ/.",
+    "common_pitfalls": "Prononcer 'won't' de la même manière que 'want' (ce qui change radicalement le sens de la phrase). Ajouter un son 'to' après un modal (dire 'I might to go' au lieu de 'I might go'). Trop accentuer le 'w' de 'will' en le vocalisant comme un 'v' francophone."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Schedule",
+      "phonetic_api": "/ˈʃɛdjuːl/",
+      "phonetic_simple": "ʃED-youl",
+      "translation": "Emploi du temps / Calendrier / Programme",
+      "example_sentence": "I need to check my schedule before booking the flight.",
+      "example_phonetic": "/aɪ niːd tuː tʃɛk maɪ /ˈʃɛdjuːl/ bɪˈfɔːr ˈbʊkɪŋ ðə flaɪt/",
+      "example_translation": "Je dois vérifier mon emploi du temps avant de réserver le vol."
+    },
+    {
+      "word_id": "v2",
+      "term": "Intention",
+      "phonetic_api": "/ɪnˈtɛnʃən/",
+      "phonetic_simple": "ɪn-TEN-ʃən",
+      "translation": "Intention / Résolution",
+      "example_sentence": "His intention is to start a new business next year.",
+      "example_phonetic": "/hɪz ɪnˈtɛnʃən ɪz tuː stɑːrt ə njuː ˈbɪznəs nɛkst jɪər/",
+      "example_translation": "Son intention est de lancer une nouvelle entreprise l'année prochaine."
+    },
+    {
+      "word_id": "v3",
+      "term": "Prediction",
+      "phonetic_api": "/prɪˈdɪkʃən/",
+      "phonetic_simple": "prɪ-DIK-ʃən",
+      "translation": "Prédiction / Prévision",
+      "example_sentence": "The weather prediction changes from rain to sunshine.",
+      "example_phonetic": "/ðə ˈwɛðər prɪˈdɪkʃən tʃeɪndʒɪz frɒm reɪ tuː ˈsʌnʃaɪn/",
+      "example_translation": "La prévision météorologique passe de la pluie au grand soleil."
+    },
+    {
+      "word_id": "v4",
+      "term": "Definite",
+      "phonetic_api": "/ˈdɛfɪnət/",
+      "phonetic_simple": "DEF-ɪ-nət",
+      "translation": "Certain / Sûr / Définitif",
+      "example_sentence": "We don't have a definite date for the meeting yet.",
+      "example_phonetic": "/wiː doʊnt hæv ə ˈdɛfɪnət deɪt fɔːr ðə ˈmiːtɪŋ jɛt/",
+      "example_translation": "Nous n'avons pas encore de date définitive pour la réunion."
+    },
+    {
+      "word_id": "v5",
+      "term": "Probably",
+      "phonetic_api": "/ˈprɒbəbli/",
+      "phonetic_simple": "PROB-ə-bli",
+      "translation": "Probablement",
+      "example_sentence": "She will probably pass the exam because she studied hard.",
+      "example_phonetic": "/ʃiː wɪl ˈprɒbəbli pæs ði ɪɡˈzæm bɪˈkɒz ʃiː ˈstʌdid hɑːrd/",
+      "example_translation": "Elle va probablement réussir son examen car elle a beaucoup étudié."
+    },
+    {
+      "word_id": "v6",
+      "term": "Arrangement",
+      "phonetic_api": "/əˈreɪndʒmənt/",
+      "phonetic_simple": "ə-REINDJ-mənt",
+      "translation": "Dispositions / Organisation / Projet planifié",
+      "example_sentence": "We made all the travel arrangements for the conference.",
+      "example_phonetic": "/wiː meɪd ɔːl ðə ˈtrævəl əˈreɪndʒmənts fɔːr ðə ˈkɒnfərəns/",
+      "example_translation": "Nous avons pris toutes les dispositions de voyage pour la conférence."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "What are you up to this weekend?",
+      "phonetic_api": "/wɒt ɑːr juː ʌp tuː ðɪs ˌwiːkˈɛnd/",
+      "phonetic_simple": "wɒt ar yoo ap too ðɪs wiik-END",
+      "translation": "Qu'est-ce que tu as prévu de beau ce week-end ?",
+      "context": "Expression idiomatique incontournable pour interroger un proche sur ses projets."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "I am meeting the director tomorrow at noon",
+      "phonetic_api": "/aɪ æm ˈmiːtɪŋ ðə daɪˈrɛktər təˈmɒroʊ æt nuːn/",
+      "phonetic_simple": "aɪ am MIIT-iŋ ðə daɪ-REK-tər tə-MOR-oh at noon",
+      "translation": "Je rencontre le directeur demain à midi",
+      "context": "Usage du présent continu pour un rendez-vous officiel déjà fixé dans l'agenda."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Look at those clouds! It is going to rain",
+      "phonetic_api": "/lʊk æt ðoʊz klaʊdz ɪt ɪz ˈɡoʊɪŋ tuː reɪn/",
+      "phonetic_simple": "luk at ðohz klaʊdz ɪt ɪz GOH-iŋ too reɪn",
+      "translation": "Regarde ces nuages ! Il va pleuvoir",
+      "context": "Exemple parfait d'une prédiction basée sur un indice visuel immédiat."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "I might travel to London if I get a holiday",
+      "phonetic_api": "/aɪ maɪt ˈtrævəl tuː ˈlʌndən ɪf aɪ ɡɛt ə ˈhɒlɪdeɪ/",
+      "phonetic_simple": "aɪ maɪt TRAV-əl too LAN-dən ɪf aɪ get ə HOL-ɪ-deɪ",
+      "translation": "Il se peut que je voyage à Londres si j'obtiens des vacances",
+      "context": "Formulation d'une possibilité future incertaine avec le modal 'might'."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La distinction fondamentale entre WILL et BE GOING TO",
+      "explanation": "L'anglais intermédiaire refuse l'usage aléatoire du futur. On emploie **WILL** pour une décision prise sur le vif au moment de parler, une promesse, ou une prédiction basée sur une opinion subjective. On emploie **BE GOING TO** pour une intention déjà réfléchie avant de parler, ou une prédiction évidente basée sur des indices matériels présents.",
+      "rules": [
+        "Décision spontanée / Opinion -> WILL + Base Verbale (ex: I'll help you with that).",
+        "Intention préméditée / Preuve présente -> BE GOING TO + Base Verbale (ex: I'm going to buy a car)."
+      ],
+      "examples": [
+        {
+          "structure": "The phone is ringing. I will answer it!",
+          "phonetic_api": "/ðə foʊn ɪz ˈrɪŋɪŋ aɪ wɪl ˈænsər ɪt/",
+          "meaning": "Le téléphone sonne. Je vais répondre ! (Décision instantanée)."
+        },
+        {
+          "structure": "Next year, I am going to learn Japanese.",
+          "phonetic_api": "/nɛkst jɪər aɪ æm ˈɡoʊɪŋ tuː lɜːrn ˌdʒæpəˈniːz/",
+          "meaning": "L'année prochaine, j'ai l'intention d'apprendre le japonais (Projet réfléchi)."
+        }
+      ]
+    },
+    {
+      "concept": "Le Présent Continu à valeur de futur planifié (Arrangements)",
+      "explanation": "Lorsqu'un projet futur n'est plus une simple intention mais qu'il a fait l'objet d'une organisation concrète (rendez-vous pris, billet acheté, accord avec une autre personne), l'anglais utilise préférentiellement le **Présent Continu** associé à un marqueur de temps futur.",
+      "rules": [
+        "Structure : Sujet + BE au présent + Verbe-ING + Marqueur temporel (tomorrow, next week...).",
+        "La nuance réside dans l'engagement : l'événement est déjà inscrit de manière quasi définitive dans l'agenda."
+      ],
+      "examples": [
+        {
+          "structure": "We are flying to New York next Friday.",
+          "phonetic_api": "/wiː ɑːr ˈflaɪɪŋ tuː njuː jɔːrk nɛkst ˈfraɪdeɪ/",
+          "meaning": "Nous nous envolons pour New York vendredi prochain (Les billets sont achetés)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Liam",
+      "text": "Hey Maya, have you made any plans for the summer holidays yet?",
+      "phonetic_api": "/heɪ ˈmaɪə hæv juː meɪd ˈɛni plænz fɔːr ðə ˈsʌmər ˈhɒlɪdeɪz jɛt/",
+      "phonetic_simple": "heɪ MAÏ-ə hæv yoo meɪd EN-i plænz fɔːr ðə SAM-ər HOL-ɪ-deɪz yet",
+      "translation": "Salut Maya, tu as déjà fait des projets pour les vacances d'été ?"
+    },
+    {
+      "speaker": "Maya",
+      "text": "Yes, it's all official! I am spending two weeks in Italy with my sister. We are leaving on July 5th.",
+      "phonetic_api": "/jɛs ɪts ɔːl əˈfɪʃəl aɪ æm ˈspɛndɪŋ tuː wiːks ɪn ˈɪtəli wɪð maɪ ˈsɪstər wiː ɑːr ˈliːvɪŋ ɒn dʒuˈlaɪ ðə fɪfθ/",
+      "phonetic_simple": "jes ɪts ɔl ə-FIʃ-əl aɪ am SPEND-iŋ too wiiks ɪn IT-ə-li wɪð maɪ SIS-tər wi ar LIIV-iŋ ɒn dʒu-LAÏ ðə fɪfθ",
+      "translation": "Oui, c'est tout à fait officiel ! Je passe deux semaines en Italie avec ma sœur. Nous partons le 5 juillet."
+    },
+    {
+      "speaker": "Liam",
+      "text": "That sounds fantastic! Are you going to visit Rome?",
+      "phonetic_api": "/ðæt saʊndz fænˈtæstɪk ɑːr juː ˈɡoʊɪŋ tuː ˈvɪzɪt roʊm/",
+      "phonetic_simple": "ðat saʊndz fan-TAS-tık ar yoo GOH-iŋ too VIZ-ıt rohm",
+      "translation": "Ça a l'air fantastique ! Vous avez l'intention de visiter Rome ?"
+    },
+    {
+      "speaker": "Maya",
+      "text": "We are going to stay in Florence first, but we might take a train to Rome for a weekend. Nothing is definite for Rome yet. What about you?",
+      "phonetic_api": "/wiː ɑːr ˈɡoʊɪŋ tuː steɪ ɪn ˈflɒrəns fɜːrst bʌt wiː maɪt teɪk ə treɪn tuː roʊm fɔːr ə ˌwiːkˈɛnd ˈnʌθɪŋ ɪz ˈdɛfɪnət fɔːr roʊm jɛt wɒt əˈbaʊt juː/",
+      "phonetic_simple": "wi ar GOH-iŋ too steɪ ɪn FLOR-əns fɜːrst bʌt wi maɪt teɪk ə treɪn too rohm fɔːr ə wiik-END NATH-iŋ ɪz DEF-ı-nət fɔːr rohm yet wɒt ə-BAʊT yoo",
+      "translation": "Nous allons d'abord loger à Florence, mais il se peut que nous prenions un train pour Rome pour un week-end. Rien n'est définitif pour Rome pour l'instant. Et toi ?"
+    },
+    {
+      "speaker": "Liam",
+      "text": "I think I will probably stay here and work on my thesis. But if I finish early, I might join you for a few days!",
+      "phonetic_api": "/aɪ θɪŋk aɪ wɪl ˈprɒbəbli steɪ hɪər ænd wɜːrk ɒn maɪ ˈθiːsɪs bʌt ɪf aɪ ˈfɪnɪʃ ˈɜːrli aɪ maɪt dʒɔɪn juː fɔːr ə fjuː deɪz/",
+      "phonetic_simple": "aɪ θɪŋk aɪ wɪl PROB-ə-bli steɪ hɪər and wɜːrk ɒn maɪ THII-sıs bʌt ɪf aɪ FIN-ıʃ ɜːR-li aɪ maɪt dʒɔɪn yoo fɔːr ə fıoo deɪz",
+      "translation": "Je pense que je vais probablement rester ici et travailler sur ma thèse. Mais si je termine tôt, il se peut que je vous rejoigne pour quelques jours !"
+    }
+  ],
+  "cultural_notes": [
+    "L'expression de la certitude polie : Dans la culture professionnelle anglophone, pour annoncer un retard ou un changement d'organisation, on utilise rarement 'will' de manière abrupte, car cela peut paraître trop direct. On préfère l'atténuer avec des adverbes comme 'likely' (probablement) ou des locutions telles que 'I am planning to...' pour conserver une flexibilité polie.",
+    "La contraction 'Gonna' : Bien que bannie des écrits formels et des e-mails professionnels, la contraction phonétique de 'going to' en 'gonna' est omniprésente à l'oral à un niveau B1-B2, y compris dans les médias ou les conversations de bureau informelles."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle structure devez-vous choisir pour traduire : 'J'ai rendez-vous chez le dentiste demain à 14h (déjà planifié)' ?",
+      "options": [
+        "I will go to the dentist tomorrow at 2 PM.",
+        "I am going to the dentist tomorrow at 2 PM.",
+        "I might go to the dentist tomorrow at 2 PM."
+      ],
+      "correct_answer": "I am going to the dentist tomorrow at 2 PM.",
+      "explanation": "Le rendez-vous étant fixé et organisé à une heure précise, on utilise le présent continu à valeur d'arrangement futur."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Don't worry about the heavy bags, I [ ___ ] carry them for you!",
+      "correct_answer": "will",
+      "hint": "Auxiliaire requis pour une décision d'aide spontanée prise sur le moment."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie précisément l'utilisation du modal 'might' dans la phrase 'It might snow tonight' ?",
+      "options": [
+        "Il va certainement neiger.",
+        "Il est possible qu'il neige (incertitude).",
+        "Il a l'intention de faire neiger."
+      ],
+      "correct_answer": "Il est possible qu'il neige (incertitude).",
+      "explanation": "'Might' exprime une probabilité faible ou incertaine, correspondant à une éventualité."
+    }
+  ]
+}

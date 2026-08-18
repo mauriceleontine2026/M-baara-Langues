@@ -1,0 +1,116 @@
+{
+  "lesson_id": "B1_M1_L2",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 2,
+  "title": "Les loisirs, les passions et les activités sportives",
+  "learning_objectives": [
+    "Parler de ses occupations en dehors du temps de travail ou d'étude",
+    "Exprimer la pratique d'un sport moderne ou d'un jeu traditionnel",
+    "Raconter une habitude de divertissement ou de rassemblement social"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne affriquée /t͡s/ doit conserver un point de contact alvéolaire très net, suivi d'un relâchement sifflant bref.",
+    "common_pitfalls": "Évitez d'allonger indûment les voyelles brèves placées devant les combinaisons de consonnes nasales."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v11_1",
+      "term": "wɔl",
+      "phonetic_api": "/wɔl/",
+      "phonetic_simple": "WOL",
+      "translation": "jouer / s'amuser / match",
+      "example_sentence": "wuto mɔ wɔl tɛkɛ",
+      "example_phonetic": "/wu.to mɔ wɔl tɛ.kɛ/",
+      "example_translation": "L'enfant joue aujourd'hui."
+    },
+    {
+      "word_id": "v11_2",
+      "term": "mantsa",
+      "phonetic_api": "/man.t͡sa/",
+      "phonetic_simple": "MAN-TSA",
+      "translation": "danse / fête traditionnelle",
+      "example_sentence": "nu pa mantsa tundo",
+      "example_phonetic": "/nu pa man.t͡sa tun.do/",
+      "example_translation": "Vous aimez beaucoup la danse."
+    },
+    {
+      "word_id": "v11_3",
+      "term": "bɔl",
+      "phonetic_api": "/bɔl/",
+      "phonetic_simple": "BOL",
+      "translation": "ballon / football (emprunt)",
+      "example_sentence": "mbi wɔl bɔl ka dare",
+      "example_phonetic": "/mbi wɔl bɔl ka da.re/",
+      "example_translation": "Je joue au football en ville."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p11_1",
+      "original": "mbi pa wɔl bɔl sina",
+      "phonetic_api": "/mbi pa wɔl bɔl si.na/",
+      "phonetic_simple": "MBI PA WOL BOL SI-NA",
+      "translation": "J'aime jouer au football demain",
+      "context": "Proposer une activité de loisir à un ami."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction de deux verbes consécutifs",
+      "explanation": "Pour exprimer une préférence d'action ('aimer jouer'), le landouma juxtapose directement le verbe de sentiment/volonté 'pa' et le verbe d'action 'wɔl' sans particule intermédiaire d'infinitif.",
+      "rules": [
+        "Structure : Sujet + Verbe de goût (pa) + Verbe d'action.",
+        "Le second verbe conserve sa forme radicale invariable."
+      ],
+      "examples": [
+        {
+          "structure": "pa + Verbe d'action",
+          "phonetic_api": "/mbi pa man.t͡sa/",
+          "meaning": "J'aime danser (litt. Je veux danse)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ousmane",
+      "text": "mbi pa wɔl bɔl tɛkɛ. mɔ pa wɔl ?",
+      "phonetic_api": "/mbi pa wɔl bɔl tɛ.kɛ mɔ pa wɔl/",
+      "phonetic_simple": "MBI PA WOL BOL TÈ-KÈ. MO PA WOL ?",
+      "translation": "J'aime jouer au football aujourd'hui. Aimes-tu jouer ?"
+    },
+    {
+      "speaker": "Marie",
+      "text": "ɔn-ɔn, mbi pa mantsa ka dare.",
+      "phonetic_api": "/ɔn.ɔn mbi pa man.t͡sa ka da.re/",
+      "phonetic_simple": "ON-ON MBI PA MAN-TSA KA DA-RE",
+      "translation": "Non, moi j'aime la danse en ville."
+    }
+  ],
+  "cultural_notes": [
+    "Les danses traditionnelles rythmées par les percussions restent des moments majeurs de divertissement collectif et de cohésion sociale lors des cérémonies de récolte ou de mariage en milieu landouma."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex11_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le terme de loisir 'wɔl' ?",
+      "options": [
+        "Travailler",
+        "Jouer",
+        "Dormir"
+      ],
+      "correct_answer": "Jouer",
+      "explanation": "'wɔl' s'applique aussi bien aux jeux d'enfants qu'aux pratiques sportives modernes."
+    },
+    {
+      "exercise_id": "ex11_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "mbi pa [ ___ ] bɔl sina (J'aime jouer au football demain)",
+      "correct_answer": "wɔl",
+      "hint": "Le verbe d'action lié aux jeux et divertissements."
+    }
+  ]
+}

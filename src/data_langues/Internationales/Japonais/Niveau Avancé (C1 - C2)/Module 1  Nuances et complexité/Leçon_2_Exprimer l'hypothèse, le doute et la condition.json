@@ -1,0 +1,275 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Formuler une conjecture rhétorique ou une remise en question d'une évidence avec la structure '～ではなかろうか' (dewa nakarō ka)",
+    "Exprimer une condition restrictive absolue ou une supposition extrême à l'aide de '～ない限り' (nai kagiri) et '～と仮定すれば' (to katei sureba)",
+    "Manier la nuance d'approximation dubitative ou de métaphore hésitante avec '～とでも言うべきか' (to demo iu beki ka)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en œuvre la forme volitive négative stylistique '～なかろう' [na.ka.ɾoː]. Veillez à la clarté du 'r' battu alvéolaire [ ɾ ] et marquez bien l'allongement de la voyelle finale. Le terme 'katei' (hypothèse) exige une articulation nette de la consonne occlusive sourde initiale combinée à une diphtongue fluide [ka.teː].",
+    "common_pitfalls": "Attention à ne pas escamoter la pause glottale ou la transition douce dans la structure nominale complexe '～とでも言うべきか' (to demo iu beki ka). La prononciation de 'beki' doit être concise [be.ki] sans accentuation tonale exagérée sur le 'k'."
+  },
+  "advanced_kanji_and_literary_markers": [
+    {
+      "kanji": "仮定 (かてい)",
+      "romaji": "katei",
+      "level_jlpt": "N2",
+      "meaning": "Hypothèse / Supposition",
+      "description": "Utilisé pour poser les jalons d'un raisonnement logique ou d'une simulation théorique (ex: 仮定の話 - une discussion hypothétique)."
+    },
+    {
+      "kanji": "推測 (すいそく)",
+      "romaji": "suisoku",
+      "level_jlpt": "N2",
+      "meaning": "Conjecture / Conjecture / Déduction",
+      "description": "Désigne l'action de formuler une opinion sur une situation à partir d'indices incomplets."
+    },
+    {
+      "kanji": "制限 (せいげん)",
+      "romaji": "seigen",
+      "level_jlpt": "N2",
+      "meaning": "Restriction / Limite",
+      "description": "Cadre limitatif indispensable pour introduire des conditions impératives d'application."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "～ではなかろうか",
+      "phonetic_api": "/de.wa na.ka.ɾoː ka/",
+      "phonetic_simple": "DÉ-WA NA-KA-ROO KA",
+      "translation": "Ne serait-ce pas... ? / Ne devrait-on pas penser que... ? (Forme littéraire de dewa nai darō ka)",
+      "example_sentence": "これこそが我々の探していた答えではなかろうか。",
+      "example_phonetic": "/ko.ɾe ko.so ɡa wa.ware.no sa.ɡa.ɕi.te i.ta ko.ta.e de.wa na.ka.ɾoː ka/",
+      "example_translation": "Ne serait-ce pas précisément la réponse que nous recherchions ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "～ない限り（～ないかぎり）",
+      "phonetic_api": "/na.i ka.ɡi.ɾi/",
+      "phonetic_simple": "NA-I KA-GI-RI",
+      "translation": "Tant que... ne... pas / À moins que / À condition que... ne... pas",
+      "example_sentence": "本人が認めない限り、真相はわからないままだ。",
+      "example_phonetic": "/hoɴ.niɴ ɡa mi.to.me.na.i ka.ɡi.ɾi ɕiɴ.soː wa wa.ka.ɾa.na.i ma.ma da/",
+      "example_translation": "À moins que l'intéressé ne l'avoue, la vérité restera inconnue."
+    },
+    {
+      "word_id": "v3",
+      "term": "～とでも言うべきか",
+      "phonetic_api": "/to de.mo i.ɯ be.ki ka/",
+      "phonetic_simple": "TO DÉ-MO I-OU BÉ-KI KA",
+      "translation": "Devrait-on l'appeler... ? / Pourrait-on dire que c'est... ? (Expression d'une hésitation sémantique)",
+      "example_sentence": "それは奇跡とでも言うべきか、説明のつかない現象だった。",
+      "example_phonetic": "/so.le wa ki.se̥k.i to de.mo i.ɯ be.ki ka se̥t͡sɯ.meː no t͡sɯ.ka.na.i ɡeɴ.ɕoː dḁt.ta/",
+      "example_translation": "C'était un phénomène inexplicable, que l'on pourrait presque qualifier de miracle."
+    },
+    {
+      "word_id": "v4",
+      "term": "～としたら / ～とすれば",
+      "phonetic_api": "/to ɕi.ta.ɾa / to sɯ.ɾe.ba/",
+      "phonetic_simple": "TO CHI-TA-RA / TO SOU-RÉ-BA",
+      "translation": "À supposer que / En admettant que / Si l'on part du principe que",
+      "example_sentence": "もしそれが事実だとすれば、大きな問題になります。",
+      "example_phonetic": "/mo.ɕi so.le ɡa d͡ʑi.d͡ʑi̥t.sɯ da to sɯ.ɾe.ba oː.ki.na moɴ.da.i ni na.ɾi.ma.sɯ̥/",
+      "example_translation": "À supposer que ce soit un fait avéré, cela va poser un problème majeur."
+    },
+    {
+      "word_id": "v5",
+      "term": "おそらく",
+      "phonetic_api": "/o.so.ɾa.kɯ/",
+      "phonetic_simple": "O-SO-RA-KOU",
+      "translation": "Probablement / Vraisemblablement / Selon toute vraisemblance",
+      "example_sentence": "今夜の交渉は、おそらく難航するだろう。",
+      "example_phonetic": "/koɴ.ja no koː.ɕoː wa o.so.ɾa.kɯ naɴ.koː sɯ.ɾɯ da.ɾoː/",
+      "example_translation": "Selon toute vraisemblance, les négociations de ce soir vont être difficiles."
+    },
+    {
+      "word_id": "v6",
+      "term": "～ものの",
+      "phonetic_api": "/mo.no no/",
+      "phonetic_simple": "MO-NO NO",
+      "translation": "Bien que / Quoique / Certes... mais (Nuance de regret ou de réserve)",
+      "example_sentence": "契約には同意したものの、まだ不安が残る。",
+      "example_phonetic": "/keː.jḁk.ɯ ni doː.i ɕi.ta mo.no no ma.da ɸɯ.aɴ ɡa no.ko.ɾɯ/",
+      "example_translation": "Bien qu'ayant donné mon accord pour le contrat, j'ai encore des doutes."
+    },
+    {
+      "word_id": "v7",
+      "term": "～かねない",
+      "phonetic_api": "/ka.ne.na.i/",
+      "phonetic_simple": "KA-NÉ-NA-I",
+      "translation": "Risquer de / Être tout à fait capable de (pour un résultat négatif)",
+      "example_sentence": "そんな発言をすれば, 誤解を招きかねない。",
+      "example_phonetic": "/soɴ.na hḁt.sɯ.ɡeɴ o sɯ.ɾe.ba ɡo.ka.i o ma.no.ki.ka.ne.na.i/",
+      "example_translation": "Si tu tiens de tels propos, tu risques de provoquer un malentendu."
+    },
+    {
+      "word_id": "v8",
+      "term": "～おそれがある（～恐れがある）",
+      "phonetic_api": "/o.so.ɾe ɡa a.ɾɯ/",
+      "phonetic_simple": "O-SO-RÉ GA A-ROU",
+      "translation": "Il est à craindre que / Risquer de (style formel pour annoncer un danger)",
+      "example_sentence": "台風の影響で、電車が遅れるおそれがあります。",
+      "example_phonetic": "/ta.i.ɸɯː no eː.kjoː de deɴ.ɕa ɡa o.kɯ.ɾe.ɾɯ o.so.ɾe ɡa a.ɾi.ma.sɯ̥/",
+      "example_translation": "En raison de l'impact du typhon, il est à craindre que les trains accusent des retards."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "この政策は時期尚早ではなかろうか。",
+      "phonetic_api": "/ko.no seː.sḁk.ɯ wa d͡ʑi.ki ɕoː.soː de.wa na.ka.ɾoː ka/",
+      "phonetic_simple": "KO-NO SÉE-SAK-OU WA DJI-KI CHOO-SOO DÉ-WA NA-KA-ROO KA",
+      "translation": "Cette politique ne serait-elle pas prématurée ?",
+      "context": "Intervention formelle lors d'un débat stratégique ou d'une tribune d'analyse politique."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "例外のない限り、規則に従わなければならない。",
+      "phonetic_api": "/reː.ɡa.i no na.i ka.ɡi.ɾi ki.so̥k.ɯ ni ɕi.ta.ɡa.wa.na.ke.ɾe.ba na.ɾi.ma.seɴ/",
+      "phonetic_simple": "RÉE-GA-I NO NA-I KA-GI-RI, KI-SOK-OU NI CHI-TA-GA-WA-NA-KÉ-RÉ-BA NA-RI-MA-SEN",
+      "translation": "À moins d'une exception explicite, il faut impérativement se conformer au règlement.",
+      "context": "Énoncé juridique ou administratif rappelant le caractère obligatoire d'un texte."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "彼の態度は、冷淡とでも言うべきか、非常に事務的だった。",
+      "phonetic_api": "/ka.re no ta.i.do wa reː.taɴ to de.mo i.ɯ be.ki ka çi.d͡ʑoː ni d͡ʑi.mɯ.te.ki dḁt.ta/",
+      "phonetic_simple": "KA-RÉ NO TA-I-DO WA, RÉE-TAN TO DÉ-MO I-OU BÉ-KI KA, HI-JOO NI DJI-MOU-TÉ-KI DAT-TA.",
+      "translation": "Son attitude, que l'on pourrait presque qualifier de froide, était extrêmement impersonnelle.",
+      "context": "Description psychologique nuancée au sein d'un rapport ou d'un compte-rendu d'évaluation."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "もしAIが感情を持つとしたら、人類はどう対応すべきだろうか。",
+      "phonetic_api": "/mo.ɕi eː.a.i ɡa kaɴ.d͡ʑoː o mo̥t.tɯ to ɕi.ta.ɾa d͡ʑiɴ.ɾɯ.i wa doː ta.i.oː sɯ.be.ki da.ɾoː ka/",
+      "phonetic_simple": "MO-CHI ÉE-A-I GA KAN-JOO O MOT-SOU TO CHI-TA-RA, JIN-RUI WA DOO TA-I-OO SOU-BÉ-KI DA-ROO KA ?",
+      "translation": "À supposer que l'IA développe des sentiments, comment l'humanité devrait-elle réagir ?",
+      "context": "Questionnement philosophique ou prospective technologique avancée."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "このまま対策を講じなければ、取り返しのつかない事態になりかねない。",
+      "phonetic_api": "/ko.no ma.ma ta.i.sa.kɯ o koː.d͡ʑi.na.ke.ɾe.ba to.ɾi.ka.e.ɕi no t͡sɯ.ka.na.i d͡ʑi.ta.i ni na.ɾi.ka.ne.na.i/",
+      "phonetic_simple": "KO-NO MA-MA TA-I-SAK-OU O KOO-JI-NA-KÉ-RÉ-BA, TO-RI-KA-É-CHI NO TSOU-KA-NA-I DJI-TA-I NI NA-RI-KA-NÉ-NA-I.",
+      "translation": "Si nous ne prenons pas de mesures immédiatement, nous risquons d'aboutir à une situation irréversible.",
+      "context": "Avertissement solennel d'un expert ou d'un cadre supérieur lors d'une gestion de crise."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "データに不備がある場合、分析結果が歪むおそれがある。",
+      "phonetic_api": "/deː.ta ni ɸɯ.bi ɡa a.ɾɯ ba.a.i bɯɴ.se̥k.i ke̥k.ka ɡa hi.zɯ.mɯ o.so.re ɡa a.ɾɯ/",
+      "phonetic_simple": "DÉE-TA NI FOU-BI GA A-ROU BA-A-I, BOUN-SETS-I KEK-KA GA HI-ZOU-MOU O-SO-RÉ GA A-ROU.",
+      "translation": "En cas d'imperfections dans les données, il est à craindre que les résultats de l'analyse ne soient biaisés.",
+      "context": "Note d'alerte méthodologique dans un document de recherche scientifique."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "入念に準備したものの、本番では緊張を隠せなかった。",
+      "phonetic_api": "/nɯː.neɴ ni d͡ʑɯɴ.bi ɕi.ta mo.no no hoɴ.baɴ de wa kiɴ.t͡choː o ka.kɯ.se.nḁt.ta/",
+      "phonetic_simple": "NUU-NEN NI JUN-BI CHI-TA MO-NO NO, HON-BAN DÉ WA KIN-CHOO O KA-KOU-SÉ-NAT-TA.",
+      "translation": "Bien que je me sois minutieusement préparé, je n'ai pas pu masquer mon stress lors de la prestation.",
+      "context": "Bilan d'un entretien ou d'une conférence d'envergure."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "抜本的な改革を行わない限り、問題は解決しない。",
+      "phonetic_api": "/bḁp.poɴ.te.ki.na ka.i.ka.kɯ o o.ko.na.wa.na.i ka.ɡi.ɾi moɴ.da.i wa ka.i.ke̥t.sɯ ɕi.na.i/",
+      "phonetic_simple": "BAP-PON-TÉ-KI-NA KA-I-KAK-OU O O-KO-NA-WA-NA-I KA-GI-RI, MON-DA-I WA KA-I-KETS-OU CHI-NA-I.",
+      "translation": "Tant que nous ne mènerons pas une réforme radicale, le problème ne sera pas résolu.",
+      "context": "Analyse critique d'une situation structurelle en audit d'entreprise."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La conjecture rhétorique inversée : ～ではなかろうか (dewa nakarō ka)",
+      "explanation": "Cette structure hautement sophistiquée (JLPT N1) correspond à la forme polie '～ではないでしょうか' ou familière '～じゃない？', mais transposée dans un style écrit noble, académique ou éditorial. Elle permet de soumettre une idée forte ou une critique constructive sous la forme d'une question négative, ce qui en atténue la brutalité tout en renforçant l'élégance du style.",
+      "rules": [
+        "Structure : [Nom / Adjectif -na sans da / Verbe Forme Neutre] + ではなかろうか。",
+        "Exemple d'association nominale : 問題ではなかろうか (Ne serait-ce pas un problème ?)."
+      ],
+      "examples": [
+        {
+          "structure": "この計画には見落としがあるのではなかろうか (Kono keikaku ni wa miotoshi ga aru no dewa nakarō ka)",
+          "phonetic_api": "/ko.no keː.ka.kɯ ni wa mi.o.to.ɕi ɡa a.ɾɯ no de.wa na.ka.ɾoː ka/",
+          "meaning": "N'y aurait-il pas un oubli flagrant dans ce plan ?"
+        }
+      ]
+    },
+    {
+      "concept": "La condition exclusive absolue : ～ない限り (~ nai kagiri)",
+      "explanation": "La structure '～ない限り' exprime une restriction absolue. Elle stipule que tant qu'une action négative (la condition) reste vraie, la situation de la proposition principale ne pourra en aucun cas évoluer ou changer. Elle pose une limite stricte.",
+      "rules": [
+        "Structure : [Verbe à la forme négative -nai] + 限り、[Proposition principale].",
+        "Peut aussi s'employer avec un nom sous la forme [Nom] + でない限り."
+      ],
+      "examples": [
+        {
+          "structure": "特別な理由がない限り、欠席は認められない (Tokubetsuna riyū ga nai kagiri, kesseki wa mitomerarenai)",
+          "phonetic_api": "/to.kɯ.be̥t.sɯ.na ɾi.jɯː ɡa na.i ka.ɡi.ɾi ke̥s.se̥k.i wa mi.to.me.ɾa.ɾe.na.i/",
+          "meaning": "À moins d'un motif exceptionnel, aucune absence ne sera tolérée."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "渡辺取締役 (Administrateur Watanabe)",
+      "text": "鈴木部長、新規事業の開発計画だが、競合の動向を踏まえるとリスクが高すぎるのではなかろうか。",
+      "phonetic_api": "/sɯ.zɯ.ki bɯ.t͡choː ɕiɴ.ki d͡ʑi.ɡjoː no ka.i.hḁt.sɯ keː.ka.kɯ da.ɡa kjoː.ɡoː no doː.koː o ɸɯ.ma.e.ɾɯ to ɾi.sɯ.kɯ ɡa ta.ka.sɯ.ɡi.ɾɯ no de.wa na.ka.ɾoː ka/",
+      "phonetic_simple": "SOU-ZOU-KI BOU-CHOO, SHIN-KI JI-GYOO NO KA-I-HATS-OU KÉE-KAK-OU DA GA, KYOO-GOO NO DOO-KOO O FOU-MA-É-ROU TO RIS-KOU GA TA-KA-SOU-GI-ROU NO DÉ-WA NA-KA-ROO KA ?",
+      "translation": "Directeur Suzuki, concernant le plan de développement de notre nouvelle activité, si l'on prend en compte les mouvements de la concurrence, ne serait-il pas excessivement risqué ?"
+    },
+    {
+      "speaker": "鈴木部長 (Directeur Suzuki)",
+      "text": "ご懸念はもっともです。しかし、今のうちに市場に参入しない限り、将来のシェア獲得は困難になると推測されます。",
+      "phonetic_api": "/ɡo.ke.neɴ wa mo̥t.to.mo de.sɯ ɕi.ka.ɕi i.ma no ɯ.t͡ɕi ni ɕi.d͡ʑoː ni saɴ.njuː ɕi.na.i ka.ɡi.ɾi ɕoː.ɾa.i no ɕe.a ka.kɯ.to̥k.ɯ wa koɴ.naɴ ni na.ɾɯ to sɯ.i.so̥k.ɯ sa.re.ma.sɯ̥/",
+      "phonetic_simple": "GO-KÉ-NEN WA MOT-TO-MO DESS. CHI-KA-CHI, I-MA NO OU-TCHI NI CHI-JOO NI SAN-NYUU CHI-NA-I KA-GI-RI, CHOO-RA-I NO CHÉ-A KA-KOUT-SOU WA KON-NAN NI NA-ROU TO SUI-SOK-OU SA-RÉ-MASS.",
+      "translation": "Votre inquiétude est tout à fait légitime. Cependant, à moins de pénétrer le marché dès à présent (tant qu'il en est encore temps), nous estimons qu'il sera extrêmement difficile de capter des parts de marché à l'avenir."
+    },
+    {
+      "speaker": "渡辺取締役 (Administrateur Watanabe)",
+      "text": "なるほど。投資額を抑えて、段階的に進める方針とすれば、社内の合意も得やすいと思うが。",
+      "phonetic_api": "/na.ɾu.ho.do toː.ɕi.ɡa.kɯ o o.sa.e.te daɴ.ka.i.te.ki ni sɯ.sɯ.me.ɾɯ hoː.ɕiμ to sɯ.ɾe.ba ɕa.na.i no ɡoː.i mo e.ja.sɯ.i to o.mo.ɯ ɡa/",
+      "phonetic_simple": "NA-ROU-HO-DO. TOO-CHI-GAK-OU O O-SA-É-TÉ, DAN-KA-I-TÉ-KI NI SOU-SOU-MÉ-ROU HOO-CHIN TO SOU-RÉ-BA, CHA-NA-I NO GOO-I MO É-YA-SOU-I TO O-MOU GA.",
+      "translation": "Je vois. À supposer que nous adoptions une stratégie consistant à limiter les investissements initiaux pour avancer pas à pas, je pense que nous obtiendrons plus facilement un consensus en interne."
+    },
+    {
+      "speaker": "鈴木部長 (Directeur Suzuki)",
+      "text": "そのご提案は、我々にとって最善の妥協策、とでも言うべきでしょうか。すぐに計画を修正いたします。",
+      "phonetic_api": "/so.no ɡo.teː.aɴ wa wa.wa.ware ni to̥t.te sa.i.zeɴ no da.kyoː.sa.kɯ to de.mo i.ɯ be.ki de.ɕoː ka sɯ.ɡɯ ni keː.ka.kɯ o ɕɯː.seː i.ta.ɕi.ma.sɯ̥/",
+      "phonetic_simple": "SO-NO GO-TÉE-AN WA, WA-WA-WA-RÉ NI TOT-TÉ SAI-ZEN NO DA-KYOO-SAK-OU, TO DÉ-MO I-OU BÉ-KI DÉ-CHOO KA. SOU-GOU NI KÉE-KAK-OU O SHUU-SÉE I-TA-CHI-MASS.",
+      "translation": "Cette proposition est, si l'on peut dire, le meilleur compromis possible pour notre équipe. Je vais immédiatement modifier le plan en ce sens."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture managériale japonaise de haut niveau, un désaccord ou une objection ne s'exprime jamais de manière frontale (ex: 'C'est une mauvaise idée'). L'usage de formules interrogatives négatives comme 'dewa nakarō ka' permet de formuler une critique profonde tout en sauvant la face (Mentsu - 面子) de l'interlocuteur, maintenant ainsi l'équilibre relationnel indispensable au sein du comité exécutif.",
+    "La prise de décision au sein des grandes structures japonaises s'appuie traditionnellement sur la recherche d'un consensus global. Proposer une hypothèse intermédiaire modérée ('~ to sureba') est une tactique fréquente pour débloquer des négociations figées sans léser aucune des parties en présence."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la tournure exacte pour formuler cette conjecture éditoriale : 'Cette réforme est indispensable' ➔ 'Ne serait-ce pas une réforme indispensable ?'",
+      "options": [
+        "必要な改革ではなかろうか (Hitsuyōna kaikaku dewa nakarō ka)",
+        "必要な改革ない限りか (Hitsuyōna kaikaku nai kagiri ka)",
+        "必要な改革とすればか (Hitsuyōna kaikaku to sureba ka)"
+      ],
+      "correct_answer": "必要な改革ではなかろうか (Hitsuyōna kaikaku dewa nakarō ka)",
+      "explanation": "La structure 'dewa nakarō ka' s'ajoute directement derrière un nom pour créer une interrogation spéculative noble et rhétorique."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "資金調達の目処が立た[ ___ ]限り、このプロジェクトは始動できない。",
+      "correct_answer": "ない",
+      "hint": "Entrez la forme négative requise du verbe 'tatsu' (se dresser / être établi) devant le marqueur de condition limitative absolue 'kagiri'."
+    }
+  ]
+}

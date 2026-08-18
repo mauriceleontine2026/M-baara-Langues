@@ -1,0 +1,276 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer les sept jours de la semaine en comprenant leur logique historique",
+    "Connaître les douze mois de l'année et la structure numérique des mois en swahili",
+    "Maîtriser le système horaire swahili unique (décalage de 6 heures par rapport au système occidental)",
+    "Formuler des questions temporelles essentielles et savoir y répondre avec précision"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le système temporel fait appel à des consonnes spécifiques. Le mot 'Saa' (heure) se prononce avec un étirement de la voyelle 'a' [saː]. Le mot 'Alhamisi' (jeudi) demande une expiration claire du 'h' [al.haˈmi.si]. Dans 'Jumamosi' (samedi), le 'J' initial s'articule comme un 'dj' [dʒu.maˈmɔ.si].",
+    "common_pitfalls": "La plus grande erreur ne réside pas dans la phonétique, mais dans le calcul mental de l'heure. En swahili, le cycle de la journée commence au lever du soleil (6h00 du matin pour l'Occident), qui devient la première heure ('saa moja') du jour. Veillez à ne pas calquer mécaniquement les chiffres français sur les heures swahilies."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Saa",
+      "phonetic_api": "/saː/",
+      "phonetic_simple": "SAAH",
+      "translation": "Heure / Horloge / Montre",
+      "example_sentence": "Saa yako inasema nini?",
+      "example_phonetic": "/saː ˈja.kɔ i.naˈsɛ.ma ˈni.ni/",
+      "example_translation": "Que dit ta montre ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "Jumamosi",
+      "phonetic_api": "/dʒu.maˈmɔ.si/",
+      "phonetic_simple": "DJOO-MAH-MOH-SEE",
+      "translation": "Samedi (litt. 'Premier jour de la semaine')",
+      "example_sentence": "Tutakutana Jumamosi.",
+      "example_phonetic": "/tu.ta.kuˈta.na dʒu.maˈmɔ.si/",
+      "example_translation": "Nous nous rencontrerons samedi."
+    },
+    {
+      "word_id": "v3",
+      "term": "Ijumaa",
+      "phonetic_api": "/i.dʒuˈmaː/",
+      "phonetic_simple": "EE-DJOO-MAAH",
+      "translation": "Vendredi (Jour de la grande prière / congrégation)",
+      "example_sentence": "Ijumaa ni siku ya mapumziko.",
+      "example_phonetic": "/i.dʒuˈmaː ni ˈsi.ku ja ma.pu.mˈzi.kɔ/",
+      "example_translation": "Le vendredi est un jour de repos."
+    },
+    {
+      "word_id": "v4",
+      "term": "Mwezi",
+      "phonetic_api": "/ˈmwɛ.zi/",
+      "phonetic_simple": "MWEH-ZEE",
+      "translation": "Mois / Lune",
+      "example_sentence": "Mwezi wa kwanza ni Januari.",
+      "example_phonetic": "/ˈmwɛ.zi wa ˈkwa.nza ni dʒa.nuˈa.ri/",
+      "example_translation": "Le premier mois est janvier."
+    },
+    {
+      "word_id": "v5",
+      "term": "Siku",
+      "phonetic_api": "/ˈsi.ku/",
+      "phonetic_simple": "SEE-KOO",
+      "translation": "Jour / Journée",
+      "example_sentence": "Kuna siku saba katika wiki.",
+      "example_phonetic": "/ˈku.na ˈsi.ku ˈsa.ba kaˈti.ka ˈwi.ki/",
+      "example_translation": "Il y a sept jours dans la semaine."
+    },
+    {
+      "word_id": "v6",
+      "term": "Leo",
+      "phonetic_api": "/ˈlɛ.ɔ/",
+      "phonetic_simple": "LEH-OH",
+      "translation": "Aujourd'hui",
+      "example_sentence": "Leo ni siku nzuri.",
+      "example_phonetic": "/ˈlɛ.ɔ ni ˈsi.ku ˈnzu.ri/",
+      "example_translation": "Aujourd'hui est un bon jour."
+    },
+    {
+      "word_id": "v7",
+      "term": "Kesho",
+      "phonetic_api": "/ˈkɛ.ʃɔ/",
+      "phonetic_simple": "KEH-SHOH",
+      "translation": "Demain",
+      "example_sentence": "Nitasafiri kesho asubuhi.",
+      "example_phonetic": "/ni.ta.saˈfi.ri ˈkɛ.ʃɔ a.suˈbu.hi/",
+      "example_translation": "Je voyagerai demain matin."
+    },
+    {
+      "word_id": "v8",
+      "term": "Jana",
+      "phonetic_api": "/ˈdʒa.na/",
+      "phonetic_simple": "DJAH-NAH",
+      "translation": "Hier",
+      "example_sentence": "Jana nilikaa nyumbani.",
+      "example_phonetic": "/ˈdʒa.na ni.liˈka.a ɲuˈmba.ni/",
+      "example_translation": "Hier, je suis resté à la maison."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Saa ngapi sasa?",
+      "phonetic_api": "/saː ˈŋga.pi ˈsa.sa/",
+      "phonetic_simple": "SAAH NGAH-PEE SAH-SAH",
+      "translation": "Quelle heure est-il maintenant ?",
+      "context": "Demande standard pour connaître l'heure qu'il est."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Saa moja kamili asubuhi.",
+      "phonetic_api": "/saː ˈmɔ.dʒa kaˈmi.li a.suˈbu.hi/",
+      "phonetic_simple": "SAAH MOH-DJAH KAH-MEE-LEE AH-SOO-BOO-HEE",
+      "translation": "Il est exactement sept heures du matin (système occidental).",
+      "context": "Réponse indiquant la toute première heure du jour swahili."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Saa kumi na mbili za jioni.",
+      "phonetic_api": "/saː ˈku.mi na ˈmbi.li za dʒiˈɔ.ni/",
+      "phonetic_simple": "SAAH KOO-MEE NAH MBEE-LEE ZAH DJEE-OH-NEE",
+      "translation": "Il est dix-huit heures / 6h du soir (système occidental).",
+      "context": "Moment précis du coucher du soleil en Afrique de l'Est."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Leo ni siku gani?",
+      "phonetic_api": "/ˈlɛ.ɔ ni ˈsi.ku ˈga.ni/",
+      "phonetic_simple": "LEH-OH NEE SEE-KOO GAH-NEE",
+      "translation": "Quel jour sommes-nous aujourd'hui ?",
+      "context": "S'informer sur le jour courant de la semaine."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Leo ni Alhamisi.",
+      "phonetic_api": "/ˈlɛ.ɔ ni al.haˈmi.si/",
+      "phonetic_simple": "LEH-OH NEE AHL-HAH-MEE-SEE",
+      "translation": "Aujourd'hui c'est jeudi.",
+      "context": "Réponse indiquant le jour de la semaine."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Mkutano utaanza mwezi ujao.",
+      "phonetic_api": "/m.kuˈta.nɔ u.taˈa.nza ˈmwɛ.zi uˈdʒa.ɔ/",
+      "phonetic_simple": "M-KOO-TAH-NOH OO-TAHN-ZAH MWEH-ZEE OO-DJAH-OH",
+      "translation": "La réunion commencera le mois prochain.",
+      "context": "Planification temporelle professionnelle ou administrative."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Saa tano na nusu usiku.",
+      "phonetic_api": "/saː ˈta.nɔ na ˈnu.su uˈsi.ku/",
+      "phonetic_simple": "SAAH TAH-NOH NAH NOO-SOO OO-SEE-KOO",
+      "translation": "Il est vingt-trois heures trente / 23h30 (système occidental).",
+      "context": "Indiquer une heure tardive durant la nuit."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Tutaonana kesho kutwa.",
+      "phonetic_api": "/tu.ta.ɔˈna.na ˈkɛ.ʃɔ ˈku.twa/",
+      "phonetic_simple": "TOO-TAH-OH-NAH-NAH KEH-SHOH KOO-TWAH",
+      "translation": "On se verra après-demain.",
+      "context": "Prendre congé en fixant un rendez-vous à court terme."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La logique mathématique du temps : le système horaire swahili",
+      "explanation": "La culture swahilie calque sa perception du temps sur le cycle du soleil équatorial, qui se lève immuablement vers 6h00 du matin et se couche vers 18h00. Le décompte commence donc à l'aube.",
+      "rules": [
+        "Pour traduire l'heure swahilie en heure occidentale : ajoutez 6 heures si l'heure est petite, ou soustrayez 6 heures.",
+        "Saa moja (Heure 1) = 7 heures (Occident).",
+        "Saa sita (Heure 6) = 12 heures / Midi (Occident).",
+        "Saa kumi na mbili (Heure 12) = 18 heures / 6h du soir (Occident).",
+        "Il est indispensable de préciser la période : asubuhi (matin), mchana (après-midi), jioni (soir), usiku (nuit)."
+      ],
+      "examples": [
+        {
+          "structure": "Saa mbili (2) + za + asubuhi (matin) = 2h du matin en swahili",
+          "phonetic_api": "/saː ˈmbi.li za a.suˈbu.hi/",
+          "meaning": "Il est 8h00 du matin (système occidental)"
+        },
+        {
+          "structure": "Saa tatu (3) + za + usiku (nuit) = 3h de la nuit en swahili",
+          "phonetic_api": "/saː ˈta.tu za uˈsi.ku/",
+          "meaning": "Il est 21h00 / 9h du soir (système occidental)"
+        }
+      ]
+    },
+    {
+      "concept": "La structure des noms de jours et des mois",
+      "explanation": "La semaine swahilie commence traditionnellement le samedi (jour après la prière musulmane du vendredi). Les cinq premiers jours sont purement numériques, basés sur le mot 'Juma' (semaine/rassemblement). Les mois, quant à eux, s'énoncent soit par leur nom international, soit de manière ordinale via la classe 'Mwezi' (Mois).",
+      "rules": [
+        "Jumamosi (Samedi) = Jour 1, Jumapili (Dimanche) = Jour 2, Jumatatu (Lundi) = Jour 3, Jumanne (Mardi) = Jour 4, Jumatano (Mercredi) = Jour 5.",
+        "Jeudi (Alhamisi) et Vendredi (Ijumaa) proviennent directement de l'arabe.",
+        "Pour les mois, on utilise l'accord génitif 'wa' derrière le mot 'Mwezi' suivi du nombre cardinal : Mwezi wa kwanza (Janvier - litt. 'Mois du premier')."
+      ],
+      "examples": [
+        {
+          "structure": "Juma + tatu (3)",
+          "phonetic_api": "/dʒu.maˈta.tu/",
+          "meaning": "Lundi"
+        },
+        {
+          "structure": "Mwezi (Mois) + wa (de) + pili (deuxième)",
+          "phonetic_api": "/ˈmwɛ.zi wa ˈpi.li/",
+          "meaning": "Février (Mois de février)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Hassan (Chauffeur)",
+      "text": "Habari ya asubuhi, Chloe! Saa ngapi sasa hivi?",
+      "phonetic_api": "/haˈba.ri ja a.suˈbu.hi Chloe saː ˈŋga.pi ˈsa.sa ˈhi.vi/",
+      "phonetic_simple": "HAA-BAA-REE YAH AH-SOO-BOO-HEE Chloe SAAH NGAH-PEE SAH-SAH HEE-VEE",
+      "translation": "Bonjour, Chloe ! Quelle heure est-il en ce moment même ?"
+    },
+    {
+      "speaker": "Chloe (Apprenante)",
+      "text": "Saa mbili na nusu asubuhi. Gari la safari litaondoka saa ngapi?",
+      "phonetic_api": "/saː ˈmbi.li na ˈnu.su a.suˈbu.hi ˈga.ri la saˈfa.ri li.ta.ɔˈndo.ka saː ˈŋga.pi/",
+      "phonetic_simple": "SAAH MBEE-LEE NAH NOO-SOO AH-SOO-BOO-HEE GAH-REE LAH SAH-FEE-REE LEE-TAH-OHN-DOH-KAH SAAH NGAH-PEE",
+      "translation": "Il est deux heures et demie du matin en swahili (8h30 occidentales). À quelle heure partira la voiture de voyage ?"
+    },
+    {
+      "speaker": "Hassan (Chauffeur)",
+      "text": "Litaondoka saa nne kamili asubuhi. Leo ni Jumatatu, kuna msongamano wa magari.",
+      "phonetic_api": "/li.ta.ɔˈndo.ka saː ˈnnɛ kaˈmi.li a.suˈbu.hi ˈlɛ.ɔ ni dʒu.maˈta.tu ˈku.na m.sɔ.ŋgaˈma.nɔ wa maˈga.ri/",
+      "phonetic_simple": "LEE-TAH-OHN-DOH-KAH SAAH N-NEH KAH-MEE-LEE AH-SOO-BOO-HEE LEH-OH NEE DJOO-MAH-TAH-TOO KOO-NAH M-SOHN-GAH-MAH-NOH WAH MAH-GAH-REE",
+      "translation": "Elle partira à quatre heures pile du matin (10h00 occidentales). Aujourd'hui c'est lundi, il y a des embouteillages."
+    },
+    {
+      "speaker": "Chloe (Apprenante)",
+      "text": "Sawa. Je, tutafika Mombasa mwezi huu au mwezi ujao?",
+      "phonetic_api": "/ˈsa.wa dʒɛ tu.taˈfi.ka mɔ.mˈba.sa ˈmwɛ.zi ˈhu.u a.u ˈmwɛ.zi uˈdʒa.ɔ/",
+      "phonetic_simple": "SAH-WAH JEH TOO-TAH-FEE-KAH MOHM-BAH-SAH MWEH-ZEE HOO-OO AH-OO MWEH-ZEE OO-DJAH-OH",
+      "translation": "D'accord. Est-ce que nous arriverons à Mombasa ce mois-ci ou le mois prochain ?"
+    },
+    {
+      "speaker": "Hassan (Chauffeur)",
+      "text": "Tutafika kesho kutwa, bado ni mwezi huu wa tano! Usijali kabisa.",
+      "phonetic_api": "/tu.taˈfi.ka ˈkɛ.ʃɔ ˈku.twa ˈba.dɔ ni ˈmwɛ.zi ˈhu.u wa ˈta.nɔ u.siˈdʒa.li kaˈbi.sa/",
+      "phonetic_simple": "TOO-TAH-FEE-KAH KEH-SHOH KOO-TWAH BAH-DOH NEE MWEH-ZEE HOO-OO WAH TAH-NOH OO-SEE-DJAH-LEE KAH-BEE-SAH",
+      "translation": "Nous arriverons après-demain, c'est encore ce cinquième mois (mai) ! Ne t'inquiète absolument pas."
+    }
+  ],
+  "cultural_notes": [
+    "Le temps swahili est profondément lié au rythme naturel de l'Afrique de l'Est. Dans les zones rurales non électrifiées, le réveil ou les prières dépendent exclusivement de ce cycle solaire.",
+    "La confusion entre l'heure swahilie et l'heure occidentale internationale est la cause numéro un des rendez-vous manqués pour les étrangers. Les institutions formelles (banques, administrations) utilisent parfois l'heure occidentale à l'écrit en anglais, mais parlent en heure swahilie en Kiswahili.",
+    "Le vendredi ('Ijumaa') revêt une importance sociale immense dans toute la bande côtière swahilie en raison de l'ancrage de la culture islamique. C'est un jour d'élégance vestimentaire et de rassemblements communautaires."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "S'il est 14h00 de l'après-midi selon votre montre occidentale, quelle heure devez-vous énoncer en swahili ?",
+      "options": [
+        "Saa mbili za mchana",
+        "Saa nane za mchana",
+        "Saa kumi na mbili za mchana",
+        "Saa sita za mchana"
+      ],
+      "correct_answer": "Saa nane za mchana",
+      "explanation": "14h00 moins 6 heures donne 8 heures en swahili, soit 'Saa nane'. La période de la journée est l'après-midi, donc 'za mchana'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mwezi wa [ ___ ] ni mwezi wa Desemba, mwezi wa mwisho wa mwaka.",
+      "correct_answer": "kumi na mbili",
+      "hint": "Il s'agit du douzième mois de l'année (12)."
+    }
+  ]
+}

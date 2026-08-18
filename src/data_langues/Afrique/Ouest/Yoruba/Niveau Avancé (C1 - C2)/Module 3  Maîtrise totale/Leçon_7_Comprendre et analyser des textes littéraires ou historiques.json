@@ -1,0 +1,258 @@
+{
+  "lesson_id": "C1_M3_L7",
+  "level": "Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 7,
+  "title": "Analyser des textes littéraires ou historiques",
+  "learning_objectives": [
+    "Conduire une exégèse critique approfondie d'un corpus littéraire ou d'une chronique historique (Àṣàyàn-ìwé, Ìtàn-àtẹnudẹ́nu)",
+    "Disséquer les structures morphosyntaxiques archaïques et les niveaux de langue cryptiques des textes d'archives",
+    "Évaluer la fidélité historiographique et herméneutique d'un récit à l'aide d'outils analytiques formels (Ìwádìí-ijìnlẹ̀)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'analyse textuelle de haut niveau demande une neutralité et une clarté articulatoire solennelle. Concentrez-vous sur le terme composé 'Àṣàyàn-ìwé' [àʃàjã̀ìwé] (le corpus de textes choisis) en veillant à la rupture tonale nette entre le ton moyen, le ton bas nasal et le ton haut final. Le substantif 'Ìtàn-àtẹnudẹ́nu' requiert une diction rigoureuse de sa voyelle longue médiane.",
+    "common_pitfalls": "Lors de la lecture critique de textes anciens, le piège est d'appliquer les règles de contraction modernes. Les manuscrits historiques ou les récits sacrés conservent des hiatus vocaliques volontaires qu'il faut prononcer distinctement pour honorer l'archaïsme littéraire."
+  },
+  "vocabulary": [
+    {
+      "word_id": "C1_M3_L7_V1",
+      "term": "Àṣàyàn-ìwé / Ìkójọ-vers",
+      "phonetic_api": "/àʃàjã̀ìwé/",
+      "phonetic_simple": "À-SHÀ-YÀN-Ì-WÉ",
+      "translation": "Corpus littéraire choisi / Anthologie de textes / Sélection d'archives",
+      "example_sentence": "Àṣàyàn-ìwé yìí fọgbọ́n dání nínú ìwádìí wa.",
+      "example_phonetic": "/àʃàjã̀ìwé jĩː fɔɡ͡bɔ́ dání nĩ́nú ìwádìí wa/",
+      "example_translation": "Ce corpus littéraire choisi insuffle une immense sagesse à notre recherche."
+    },
+    {
+      "word_id": "C1_M3_L7_V2",
+      "term": "Ìtàn-àtẹnudẹ́nu",
+      "phonetic_api": "/ìtã̀àtɛnudɛ́nu/",
+      "phonetic_simple": "Ì-TÀN-À-TẸ-NOU-DÉ-NOU",
+      "translation": "Tradition orale historiographique / Chronique transmise de bouche à oreille",
+      "example_sentence": "Ìtàn-àtẹnudẹ́nu ilẹ̀ wa kò ní àṣekù kankan.",
+      "example_phonetic": "/ìtã̀àtɛnudɛ́nu ilɛ̀ wa kò ní àʃekù kãkã/",
+      "example_translation": "La tradition orale historiographique de notre patrie ne souffre d'aucune omission."
+    },
+    {
+      "word_id": "C1_M3_L7_V3",
+      "term": "Ìwádìí-ijìnlẹ̀ / Ìmọ̀-ẹjọ́",
+      "phonetic_api": "/ìwádìí id͡ʒĩ̀lɛ̀/",
+      "phonetic_simple": "Ì-WÁ-DÌÍ-I-JÌN-LÈ",
+      "translation": "Exégèse critique / Recherche scientifique approfondie / Analyse philologique",
+      "example_sentence": "Ìwádìí-ijìnlẹ̀ rẹ̀ sọ eré-idì ọ̀rọ̀ náà di mímọ̀.",
+      "example_phonetic": "/ìwádìí id͡ʒĩ̀lɛ̀ ɾɛ̀ sọ eɾéidì ɔ̀ɾɔ̀ náː di mímɔ̀/",
+      "example_translation": "Son exégèse critique a mis en lumière le sens caché de cette affaire."
+    },
+    {
+      "word_id": "C1_M3_L7_V4",
+      "term": "Atúmọ̀-ìtàn / Amúfàá",
+      "phonetic_api": "/atúmɔ̀ìtã̀/",
+      "phonetic_simple": "A-TÚ-MÀW-Ì-TÀN",
+      "translation": "Un exégète / Un critique littéraire / Un historien analyste",
+      "example_sentence": "Atúmọ̀-ìtàn náà fẹsẹ̀ àbá rẹ̀ múlẹ̀ kánrin-kese.",
+      "example_phonetic": "/atúmɔ̀ìtã̀ náː fɛsɛ̀ àbá ɾɛ̀ múlɛ̀ kã́ɾĩ̃kese/",
+      "example_translation": "L'exégète a ancré sa thèse de manière absolument irréfutable."
+    },
+    {
+      "word_id": "C1_M3_L7_V5",
+      "term": "Ìpìlẹ̀-àkọsílẹ̀",
+      "phonetic_api": "/ìkìlɛ̀ àkɔsílɛ̀/",
+      "phonetic_simple": "Ì-KÌ-LÈ-À-KÀW-SÍ-LÈ",
+      "translation": "Le document d'archive / La source primaire écrite / Le manuscrit original",
+      "example_sentence": "Mo rí ìpìlẹ̀-àkọsílẹ̀ ọ̀rọ̀ náà ní ilé-ìwé gíga.",
+      "example_phonetic": "/mo ɾí ìkìlɛ̀ àkɔsílɛ̀ ɔ̀ɾɔ̀ náː ní iléìwé ɡíga/",
+      "example_translation": "J'ai découvert le manuscrit original de cette affaire au sein de la haute académie."
+    },
+    {
+      "word_id": "C1_M3_L7_V6",
+      "term": "Àlàyé-àbá / Olùfọwọ́",
+      "phonetic_api": "/àlajé àbá/",
+      "phonetic_simple": "À-LA-YÉ-À-BÁ",
+      "translation": "Le commentaire critique / La glose herméneutique / La note de synthèse",
+      "example_sentence": "Àlàyé-àbá rẹ ní ìbámu gidi fún ẹjọ́ yìí.",
+      "example_phonetic": "/àlajé àbá ɾɛ ní ìbámu ɡidi fʊ́ ɛd͡ʒɔ́ jĩː/",
+      "example_translation": "Votre commentaire critique apporte une parfaite cohérence structurelle à ce litige."
+    },
+    {
+      "word_id": "C1_M3_L7_V7",
+      "term": "Àpète-ìtàn",
+      "phonetic_api": "/àk͡pɛ̀tɛ̀ìtã̀/",
+      "phonetic_simple": "À-KPÈ-TÈ-Ì-TÀN",
+      "translation": "La trame narrative sous-jacente / La structure cachée du récit",
+      "example_sentence": "Àpète-ìtàn náà kún fún àpólà-ọ̀rọ̀ títọ́.",
+      "example_phonetic": "/àk͡pɛ̀tɛ̀ìtã̀ náː kʊ́ fʊ́ àk͡pólàɔ̀ɾɔ̀ títɔ́/",
+      "example_translation": "La trame narrative sous-jacente regorge d'expressions imagées d'une grande rectitude."
+    },
+    {
+      "word_id": "C1_M3_L7_V8",
+      "term": "Ìmúgòkè / Ìwọ́fà",
+      "phonetic_api": "/ìmúɡòkè/",
+      "phonetic_simple": "Ì-MÚ-GÒ-KÈ",
+      "translation": "L'extrapolative / La mise en perspective historique / L'élévation conceptuelle",
+      "example_sentence": "Ìmúgòkè rẹ̀ yọrí sí rere nínú àfọ̀rọ̀-ṣìṣe.",
+      "example_phonetic": "/ìmúɡòkè ɾɛ̀ d͡ʒɔɾí sí ɾeɾe nĩ́nú àfɔ̀ɾɔ̀ʃìʃe/",
+      "example_translation": "Sa mise en perspective historique a mené à un dénouement triomphal dans le discours d'apparat."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "C1_M3_L7_P1",
+      "original": "Nṣe ni mo gbé ìwádìí-ijìnlẹ̀ mi kà lórí ìpìlẹ̀-àkọsílẹ̀, nò sì ní ṣàṣekù kankan.",
+      "phonetic_api": "/ɲʃe nĩ mo ɡ͡bé ìwádìí id͡ʒĩ̀lɛ̀ mĩ kà lórí ìkìlɛ̀ àkɔsílɛ̀ nò sì ní ʃàṣekù kãkã/",
+      "phonetic_simple": "N-SHE NI MO GBÉ Ì-WÁ-DÌÍ-I-JÌN-LÈ MI KÀ LÓ-RÍ Ì-KÌ-LÈ-À-KÀW-SÍ-LÈ, NÒ SÌ NÍ SHÀ-SHE-KOÙ KAN-KAN.",
+      "translation": "C'est un fait certain que je fonde mon exégèse critique sur le manuscrit original, et je ne saurais tolérer la moindre omission.",
+      "context": "Introduire un rapport d'expertise philologique ou historique lors d'un colloque."
+    },
+    {
+      "phrase_id": "C1_M3_L7_P2",
+      "original": "Láìka àbá-kò-bá-mu àwọn elẹ́nu-àtá sí, àṣàyàn-ìwé yìí fesẹ̀ múlẹ̀ kánrin-kese.",
+      "phonetic_api": "/láìka àbákòbámu àwɔ̃ ɛlɛ́nuàtá sí àʃàjã̀ìwé jĩː fɛsɛ̀ múlɛ̀ kã́ɾĩ̃kese/",
+      "phonetic_simple": "LÁÌ-KA À-BÁ-KÒ-BÁ-MOU À-WAN Ẹ-LÉ-NU-À-TÁ SÍ, À-SHÀ-YÀN-Ì-WÉ YÍ FẸ-SÈ MÚ-LÈ KÁN-RIN-KE-SE.",
+      "translation": "En dépit des sophismes des contradicteurs, ce corpus littéraire choisi demeure assis de manière absolument irréfutable.",
+      "context": "Soutenir la validité d'une source documentaire contestée."
+    },
+    {
+      "phrase_id": "C1_M3_L7_P3",
+      "original": "Kó tó di pé n sọ àlàyé-àbá, mo gba ìwólẹ̀-ọ̀rọ̀ lọ́wọ́ àwọn atúmọ̀-ìtàn.",
+      "phonetic_api": "/kó tó di k͡pé ɲ̀ sọ àlajé àbá mo ɡ͡ba ìwólɛ̀ɔ̀ɾọ̀ lɔ́wɔ́ àwɔ̃ atúmọ̀ìtã̀/",
+      "phonetic_simple": "KÓ TÓ DI KPÉ N SÁ À-LA-YÉ-À-BÁ, MO GBA Ì-WÓ-LÈ-ÀW-RÀW LÁW-WÓ À-WAN A-TÚ-MÀW-Ì-TÀN.",
+      "translation": "Avant de formuler mon commentaire critique, je sollicite formellement l'indulgence de l'assemblée des exégètes.",
+      "context": "Formule de déférence académique avant de proposer une nouvelle interprétation textuelle."
+    },
+    {
+      "phrase_id": "C1_M3_L7_P4",
+      "original": "Àpète-ìtàn tí ó wà nínú ìtàn-àtẹnudẹ́nu yìí kún fún ìfiwé-ijìnlẹ̀ púpọ̀.",
+      "phonetic_api": "/àk͡pɛ̀tɛ̀ìtã̀ tí ó wà nĩ́nú ìtã̀àtɛnudɛ́nu jĩː kʊ́ fʊ́ ìfīwé id͡ʒĩ̀lɛ̀ k͡púpɔ̀/",
+      "phonetic_simple": "À-KPÈ-TÈ-Ì-TÀN TÍ Ó WÀ NÍ-NOÚ Ì-TÀN-À-TẸ-NOU-DÉ-NOU YÍ KOÚN FOÚN Ì-FI-WÉ-I-JÌN-LÈ KPOÚ-PÀW.",
+      "translation": "La trame narrative sous-jacente présente dans cette tradition orale regorge de nombreuses métaphores filées.",
+      "context": "Analyser la structure interne d'une chronique royale transmise oralement."
+    },
+    {
+      "phrase_id": "C1_M3_L7_P5",
+      "original": "Kàkà-kí a lo àpèyí-ọ̀rọ̀ lásán, nṣe ni ìmúgòkè rẹ̀ ń fún wa ní ìbámu.",
+      "phonetic_api": "/kàkà kí a lo àk͡pɛ̀jíɔ̀ɾɔ̀ lásã́ ɲʃe nĩ ìmúɡòkè ɾɛ̀ ŋ́ fʊ́ wa ní ìbámu/",
+      "phonetic_simple": "KÀ-KÀ KÍ A LO À-KPÈ-YÍ-ÀW-RÀW LÁ-SÁN, N-SHE NI Ì-MÚ-GÒ-KÈ RÈ N FOÚN WA NÍ Ì-BÁ-MOU.",
+      "translation": "Au lieu de déployer une simple réfutation triviale, sa mise en perspective historique nous apporte bien plutôt une parfaite cohérence.",
+      "context": "Soutenir la méthodologie globale d'un chercheur face à des critiques mineures."
+    },
+    {
+      "phrase_id": "C1_M3_L7_P6",
+      "original": "Bóyá ni ẹnikẹ́ni le mọ eré-idì vers yìí, àfi-bí ó bá lo ìwádìí-ijìnlẹ̀.",
+      "phonetic_api": "/bójá nĩ ɛnikɛ́ni le mọ eɾéidì vers jĩː àfìbí ó bá lo ìwádìí id͡ʒĩ̀lɛ̀/",
+      "phonetic_simple": "BÓ-YÁ NI È-NI-KÉ-NI LE MÀW E-RÉ-I-DÌ VERS YÍ, À-FI-BÍ Ó BÁ LO Ì-WÁ-DÌÍ-I-JÌN-LÈ.",
+      "translation": "Il est fort peu probable que quiconque pénètre le sens caché de ce vers, à moins de mener une exégèse critique rigoureuse.",
+      "context": "Souligner la complexité herméneutique d'une strophe poétique archaïque."
+    },
+    {
+      "phrase_id": "C1_M3_L7_P7",
+      "original": "Ṣáà-ni-pé kí atúmọ̀-ìtàn ó gbédè dunjú nítorí-kí-ó-lè-báà ṣàlàyé tọ̀nà.",
+      "phonetic_api": "/ʃáːnipé kí atúmọ̀ìtã̀ ó ɡ͡bédé dʊ̃d͡ʒú nĩ́toɾíkólèbáː ʃàlajé tɔ̀nà/",
+      "phonetic_simple": "SHÁÀ-NI-KPÉ KÍ A-TÚ-MÀW-Ì-TÀN Ó GBÉ-DÉ DOÙN-JÚ NÍ-TO-RÍ-KÓ-LÈ-BÁÀ SHÀ-LA-YÉ TÀW-NÀ.",
+      "translation": "L'essentiel demeure que l'exégète maîtrise souverainement l'idiome afin de pouvoir, de ce fait, livrer une explication d'une rectitude absolue.",
+      "context": "Définir les compétences requises pour la traduction de documents historiques."
+    },
+    {
+      "phrase_id": "C1_M3_L7_P8",
+      "original": "Ìfọwọ́-sọ̀rọ̀-lélẹ̀ tí ó wà nínú ìpìlẹ̀-àkọsílẹ̀ jẹ́ kókó-ọ̀rọ̀ fún wa.",
+      "phonetic_api": "/ìfɔwọ́ sɔ̀ɾɔ̀ lélɛ̀ tí ó wà nĩ́nú ìkìlɛ̀ àkɔsílɛ̀ d͡ʒɛ́ kókó ɔ̀ɾɔ̀ fʊ́ wa/",
+      "phonetic_simple": "Ì-FÀW-WÓ-SÀW-RÀW-LÉ-LÈ TÍ Ó WÀ NÍ-NOÚ Ì-KÌ-LÈ-À-KÀW-SÍ-LÈ JÉ KÓ-KÓ ÀW-RÀW FOÚN WA.",
+      "translation": "La promulgation officielle consignée dans ce manuscrit original constitue notre point nodal d'analyse."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La nominalisation analytique par redoublement hypocoristique inversé : 'Atúmọ̀-'",
+      "explanation": "Pour désigner des fonctions intellectuelles de haute spécialisation (exégète, analyste, décrypteur), la grammaire C1 dérive des noms d'agents via la particule fusionnée 'Atúmọ̀-' (Celui qui dénoue le sens de). Elle associe le préfixe d'agent 'A-', le verbe 'tú' (dénouer) et le substantif 'ìtumọ̀' (sens) contracté en 'mọ̀'.",
+      "rules": [
+        "Structure : Atúmọ̀- + [Substantif du domaine d'étude] (ex: ìtàn, òfin).",
+        "Cette structure attribue d'emblée à l'agent une autorité scientifique souveraine sur l'objet analysé."
+      ],
+      "examples": [
+        {
+          "structure": "Atúmọ̀ + ìtàn (histoire / récit)",
+          "phonetic_api": "/atúmɔ̀ìtã̀/",
+          "meaning": "L'exégète / Le critique littéraire / L'historien philologue."
+        },
+        {
+          "structure": "Atúmọ̀ + òfin (loi / décret)",
+          "phonetic_api": "/atúmɔ̀òfĩ/",
+          "meaning": "Le jurisconsulte / L'analyste du droit."
+        }
+      ]
+    },
+    {
+      "concept": "La proposition subordonnée relative restrictive imbriquée : [Substantif] + tí + ó + wà + nínú... + jẹ́...",
+      "explanation": "Pour insérer des critères d'évaluation d'une source au sein d'une phrase complexe sans en rompre l'équilibre, le style académique utilise une relative doublement spécifiée par le locatif d'état 'ó wà nínú' (qui se trouve au sein de) suivie immédiatement du prédicat d'identification 'jẹ́'. Cela permet de lier la source et sa valeur axiomatique.",
+      "rules": [
+        "Structure : [Sujet source] + tí ó wà nínú + [Manuscrit/Chronique], jẹ́ + [Attribut logique/Axiome].",
+        "Évite la fragmentation du discours en maintenant une tension dramatique et logique élevée."
+      ],
+      "examples": [
+        {
+          "structure": "Àpète-ìtàn tí ó wà nínú ìtàn-àtẹnudẹ́nu jẹ́ kókó-ọ̀rọ̀",
+          "phonetic_api": "/àk͡pɛ̀tɛ̀ìtã̀ tí ó wà nĩ́nú ìtã̀àtɛnudɛ́nu d͡ʒɛ́ kókó ɔ̀ɾɔ̀/",
+          "meaning": "La trame narrative logée au sein de cette tradition orale constitue le point nodal."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Atúmọ̀-ìtàn Àgbà (Le maître exégète)",
+      "text": "Olùyẹtọ́, mo ti ń tẹjúmọ́ àṣàyàn-ìwé yìí. Nṣe ni mo gbé ìwádìí-ijìnlẹ̀ mi kà lórí ìpìlẹ̀-àkọsílẹ̀ nítorí-kí-ó-lè-báà fẹsẹ̀ múlẹ̀ kánrin-kese.",
+      "phonetic_api": "/olùjɛtɔ́ mo ti ŋ́ tɛd͡ʒúmɔ_àʃàjã̀ìwé jĩː ɲʃe nĩ mo ɡ͡bé ìwádìí id͡ʒĩ̀lɛ̀ mĩ kà lórí ìkìlɛ̀ àkɔsílɛ̀ nĩ́toɾíkólèbáː fɛsɛ̀ múlɛ̀ kã́ɾĩ̃kese/",
+      "phonetic_simple": "OH-LÙ-YẸ-TÁ, MO TI N TẸ-JÚ-MÁ À-SHÀ-YÀN-Ì-WÉ YÍ. N-SHE NI MO GBÉ Ì-WÁ-DÌÍ-I-JÌN-LÈ MI KÀ LÓ-RÍ Ì-KÌ-LÈ-À-KÀW-SÍ-LÈ NÍ-TO-RÍ-KÓ-LÈ-BÁÀ FẸ-SÈ MÚ-LÈ KÁN-RIN-KE-SE.",
+      "translation": "Éminence, j'analyse ce corpus littéraire choisi avec la plus grande attention. C'est un fait certain que je fonde my exégèse critique sur le manuscrit original afin que ma thèse puisse, de ce fait, s'ancrer de manière absolument irréfutable."
+    },
+    {
+      "speaker": "Olùyẹtọ́ Ìtàn (L'Éminence de l'Histoire)",
+      "text": "Ọ̀rọ̀ rẹ kún fún ìyẹtọ́-ọ̀rọ̀. Ṣùgbọ́n ká sọ pé ìtàn-àtẹnudẹ́nu wa ní àbá-kò-bá-mu, ṣé àpète-ìtàn rẹ ṣì máa mú ìbámu dání fún wa?",
+      "phonetic_api": "/ɔ̀ɾɔ̀ ɾɛ kʊ́ fʊ́ ìjɛtɔ́ɔ̀ɾɔ̀ ʃùɡ͡bɔ́ ká sɔ k͡pé ìtã̀àtɛnudɛ́nu wa ní àbákòbámu ʃé àk͡pɛ̀tɛ̀ìtã̀ ɾɛ ʃì máː mú ìbámu dání fʊ́ wa/",
+      "phonetic_simple": "ÀW-RÀW RÈ KOÚN FOÚN Ì-YẸ-TÁ-ÀW-RÀW. SHOÙ-GBÓN KÁ SÁ KPÉ Ì-TÀN-À-TẸ-NOU-DÉ-NOU WA NÍ À-BÁ-KÒ-BÁ-MOU, SHÉ À-KPÈ-TÈ-Ì-TÀN RÈ SHÌ MÁÀ MOÚ Ì-BÁ-MOU DÁ-NÍ FOÚN WA?",
+      "translation": "Vos propos sont empreints d'une noblesse d'élocution remarquable. Cependant, supposons que notre tradition orale comporte des sophismes, votre trame narrative sous-jacente conserverait-elle pour autant sa cohérence structurelle à nos yeux ?"
+    },
+    {
+      "speaker": "Atúmọ̀-ìtàn Àgbà (Le maître exégète)",
+      "text": "Láìka àbáọ̀rọ̀ rẹ sí, mo wòye pé ìmúgòkè ìtàn náà tọ̀nà pátápátá. Kàkà-kí a ṣàṣekù, nṣe ni kí a gba àlàyé-àbá ti ó kún fún kẹ́lẹ́bẹ́ ọ̀rọ̀.",
+      "phonetic_api": "/láìka àbáɔ̀ɾɔ̀ ɾɛ sí mo wòje k͡pé ìmúɡòkè ìtã̀ náː tɔ̀nà k͡páták͡páta kàkà kí a ʃàṣekù ɲʃe nĩ kí a ɡ͡ba àlajé àbá ti ó kʊ́ fʊ́ kɛ́lɛ́bẹ́ ɔ̀ɾɔ̀/",
+      "phonetic_simple": "LÁÌ-KA À-BÁ-ÀW-RÀW RÈ SÍ, MO WÒ-YE KPÉ Ì-MÚ-GÒ-KÈ Ì-TÀN NÁÀ TÀW-NÀ KPÁ-TÁ-KPÁ-TÁ. KÀ-KÀ KÍ A SHÀ-SHE-KOÙ, N-SHE NI KÍ A GBA À-LA-YÉ-À-BÁ TÍ Ó KOÚN FOÚN KÉ-LÉ-BÉ ÀW-RÀW.",
+      "translation": "En dépit de votre objection subtile, je conjecture que la mise en perspective historique de cette chronique est d'une rectitude absolue. Au lieu de commettre la moindre omission, il nous faut bien plutôt valider un commentaire critique habité par une parole d'une pureté cristalline."
+    },
+    {
+      "speaker": "Olùyẹtọ́ Ìtàn (L'Éminence de l'Histoire)",
+      "text": "Mo gbà dunjú báyìí. Bóyá ni ẹnikẹ́ni le sọ pé ìfọwọ́-sọ̀rọ̀-lélẹ̀ rẹ kùnà, ṣáà-ni-pé kí òtító ó gbilẹ̀ láyé wa.",
+      "phonetic_api": "/mo ɡ͡bà dʊ̃d͡ʒú bájĩː bójá nĩ ɛnikɛ́ni le sọ k͡pé ìfɔwọ́ sɔ̀ɾɔ̀ lélɛ̀ ɾɛ kʊ̀nà ʃáːnipé kí òtító ó ɡ͡bilɛ̀ lájé wa/",
+      "phonetic_simple": "MO GBA DOÙN-JÚ BÁ-YÍ. BÓ-YÁ NI È-NI-KÉ-NI LE SÁ KPÉ Ì-FÀW-WÓ-SÀW-RÀW-LÉ-LÈ RÈ KOÙ-NÀ, SHÁÀ-NI-KPÉ KÍ Ò-TÍ-TÓ Ó GBI-LÈ LÁ-YÉ WA.",
+      "translation": "J'acquiesce pleinement à présent. Il est fort peu probable que quiconque ose affirmer que votre promulgation critique a échoué ; l'essentiel demeure que la vérité historique triomphe au sein de notre ère."
+    }
+  ],
+  "cultural_notes": [
+    "L'analyse des textes littéraires et historiques chez les Yorubas s'inscrit au cœur de l'institution des 'Atúmọ̀-ìtàn' (les gardiens et décrypteurs de la mémoire). Face à la colonisation ou aux mutations sociales, ces érudits ont de tout temps confronté l' 'Ìtàn-àtẹnudẹ́nu' (la tradition orale royale portée par les bardes Arokin d'Oyo) aux documents écrits pour préserver la légitimité des dynasties et la vérité juridique des traités fonciers.",
+    "L' 'Ìwádìí-ijìnlẹ̀' (l'exégèse approfondie) est assimilée à une quête spirituelle et scientifique. Selon les anciens, manipuler les archives ou les récits d'ancêtres sans une rigueur absolue équivaut à falsifier le cordon ombilical du clan, un acte grave qui attire le déshonneur intellectuel et brise le pacte de l' 'Omolúàbí'.",
+    "La distinction absolue établie entre le document brut ('Ìpìlẹ̀-àkọsílẹ̀') et le commentaire herméneutique ('Àlàyé-àbá') démontre la présence d'une pensée épistémologique et critique très raffinée, bien antérieure à l'introduction des modèles universitaires occidentaux."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M3_L7_EX1",
+      "type": "multiple_choice",
+      "question": "Quel substantif composé C1 désigne spécifiquement le chercheur scientifique chargé de dénouer le sens des textes et des chroniques historiques en faisant autorité ?",
+      "options": [
+        "Aláwìíyà",
+        "Atúmọ̀-ìtàn",
+        "Olùyẹtọ́",
+        "Akíkewì"
+      ],
+      "correct_answer": "Atúmọ̀-ìtàn",
+      "explanation": "Le terme 'Atúmọ̀-ìtàn' est formé du préfixe analytique d'agent d'exégèse 'Atúmọ̀-' et du substantif 'ìtàn' (histoire/récit), qualifiant le critique littéraire ou l'historien philologue."
+    },
+    {
+      "exercise_id": "C1_M3_L7_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour valider la solidité d'une interprétation en précisant qu'elle s'appuie sur la source écrite primaire, l'analyste déclare : Mo gbé àbá mi kà lórí [ ___ ] ti ó fesẹ̀ múlẹ̀.",
+      "correct_answer": "ìpìlẹ̀-àkọsílẹ̀",
+      "hint": "C'est un substantif composé de six syllabes portant le schéma tonal Bas-Bas-Lè-À-Kàw-SÍ-LÈ signifiant 'le manuscrit original / le document d'archive'."
+    }
+  ]
+}

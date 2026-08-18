@@ -1,0 +1,268 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Savoir demander des directions dans l'espace urbain",
+    "Comprendre les indications d'orientation de base (gauche, droite, tout droit)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'x' dans 'frente' n'existe pas mais faites attention à 'esquerda' où le 's' glisse doucement vers un son chuinté [ʃ]. Le 'e' initial de 'estação' se prononce pratiquement comme un 'i' très léger ou disparaît [iʃtɐˈsɐ̃w].",
+    "common_pitfalls": "Le mot 'direita' (droite) ne doit pas être confondu avec 'direto' (tout droit). Veillez à bien articuler la diphtongue 'ei' [ɐj] dans 'direita'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Rua",
+      "phonetic_api": "/ˈʁuɐ/",
+      "phonetic_simple": "ROO-AH",
+      "translation": "Rue",
+      "example_sentence": "Onde fica a rua Garrett?",
+      "example_phonetic": "/ˈõdɨ ˈfikɐ ɐ ˈʁuɐ ɡɐˈʁɛt/",
+      "example_translation": "Où se trouve la rue Garrett ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "Esquerda",
+      "phonetic_api": "/iʃˈkeɾðɐ/",
+      "phonetic_simple": "ECH-KAIR-DAH",
+      "translation": "Gauche",
+      "example_sentence": "Vire à esquerda.",
+      "example_phonetic": "/ˈviɾɨ a iʃˈkeɾðɐ/",
+      "example_translation": "Tournez à gauche."
+    },
+    {
+      "word_id": "v3",
+      "term": "Direita",
+      "phonetic_api": "/diˈɾɐjtɐ/",
+      "phonetic_simple": "DEE-RAY-TAH",
+      "translation": "Droite",
+      "example_sentence": "A farmácia está à direita.",
+      "example_phonetic": "/ɐ fɐɾˈmasjɐ iʃˈta a diˈɾɐjtɐ/",
+      "example_translation": "La pharmacie est à droite."
+    },
+    {
+      "word_id": "v4",
+      "term": "Frente",
+      "phonetic_api": "/ˈfɾẽtɨ/",
+      "phonetic_simple": "FREN-T'H",
+      "translation": "Devant / En face",
+      "example_sentence": "Siga em frente.",
+      "example_phonetic": "/ˈsiɣɐ ɐ̃j ˈfɾẽtɨ/",
+      "example_translation": "Continuez tout droit."
+    },
+    {
+      "word_id": "v5",
+      "term": "Estação",
+      "phonetic_api": "/iʃtɐˈsɐ̃w/",
+      "phonetic_simple": "ECH-TAH-SANG",
+      "translation": "Gare / Station",
+      "example_sentence": "A estação de metro é perto.",
+      "example_phonetic": "/ɐ iʃtɐˈsɐ̃w dɨ ˈmɛtɾu ɛ ˈpɛɾtu/",
+      "example_translation": "La station de métro est proche."
+    },
+    {
+      "word_id": "v6",
+      "term": "Perto",
+      "phonetic_api": "/ˈpɛɾtu/",
+      "phonetic_simple": "PAIR-TOO",
+      "translation": "Près / Proche",
+      "example_sentence": "O hotel fica perto daqui.",
+      "example_phonetic": "/u ɔˈtɛɫ ˈfikɐ ˈpɛɾtu dɐˈki/",
+      "example_translation": "L'hôtel se trouve près d'ici."
+    },
+    {
+      "word_id": "v7",
+      "term": "Longe",
+      "phonetic_api": "/ˈlõʒɨ/",
+      "phonetic_simple": "LON-J'H",
+      "translation": "Loin",
+      "example_sentence": "O aeroporto é longe.",
+      "example_phonetic": "/u ɐwɾuˈpɔɾtu ɛ ˈlõʒɨ/",
+      "example_translation": "L'aéroport est loin."
+    },
+    {
+      "word_id": "v8",
+      "term": "Mapa",
+      "phonetic_api": "/ˈmapɐ/",
+      "phonetic_simple": "MAH-PAH",
+      "translation": "Carte / Plan",
+      "example_sentence": "Tenho um mapa da cidade.",
+      "example_phonetic": "/ˈteɲu ũ ˈmapɐ dɐ siˈðaðɨ/",
+      "example_translation": "J'ai un plan de la ville."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Onde fica o supermercado?",
+      "phonetic_api": "/ˈõdɨ ˈfikɐ u supɨɾmɨɾˈkaðu/",
+      "phonetic_simple": "ON-D'H FEE-KAH OO SOO-PAIR-MAIR-KAH-DOO",
+      "translation": "Où se trouve le supermarché ?",
+      "context": "Pour localiser un commerce essentiel."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Como posso ir para o centro da cidade?",
+      "phonetic_api": "/ˈkomu ˈpɔsu iɾ ˈpɐɾɐ u ˈsẽtɾu dɐ siˈðaðɨ/",
+      "phonetic_simple": "KOH-MOO PÓ-SOO EER PAH-RAH OO SEN-TOO DAH SEE-DAH-D'H",
+      "translation": "Comment puis-je aller au centre-ville ?",
+      "context": "Demander un itinéraire général à un habitant."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Desculpe, estou perdido.",
+      "phonetic_api": "/dɨʃˈkuɫpɨ iʃˈtow pɨɾˈðiðu/",
+      "phonetic_simple": "DECH-KOOL-P'H ECH-TOW PAIR-DEE-DOO",
+      "translation": "Excusez-moi, je suis perdu (masculin).",
+      "context": "Aborder un passant pour solliciter son aide."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Siga sempre em frente e depois vire à direita.",
+      "phonetic_api": "/ˈsiɣɐ ˈsẽpɾɨ ɐ̃j ˈfɾẽtɨ i dɨˈpajʃ ˈviɾɨ a diˈɾɐjtɐ/",
+      "phonetic_simple": "SEE-GAH SEM-PR'H ENG FREN-T'H EE D'H-POYCH VEE-R'H AH DEE-RAY-TAH",
+      "translation": "Continuez tout droit et ensuite tournez à droite.",
+      "context": "Instruction d'orientation standard."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Onde é a paragem de autocarro?",
+      "phonetic_api": "/ˈõdɨ ɛ ɐ pɐˈɾaʒɐ̃j dɨ ɐwtwˈkaʁu/",
+      "phonetic_simple": "ON-D'H É AH PAH-RAH-JENG D'H OW-TOO-KAH-ROO",
+      "translation": "Où est l'arrêt de bus ?",
+      "context": "Recherche de transports en commun."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Fica ao lado do museu.",
+      "phonetic_api": "/ˈfikɐ aw ˈlaðu du muˈzew/",
+      "phonetic_simple": "FEE-KAH AW LAH-DOO DOO MOO-ZEW",
+      "translation": "C'est à côté du musée.",
+      "context": "Indication par rapport à un point de repère."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Pode mostrar-me no mapa?",
+      "phonetic_api": "/ˈpɔðɨ muʃˈtɾaɾ.mɨ nu ˈmapɐ/",
+      "phonetic_simple": "PÓ-D'H MOOCH-TRAR-M'H NOO MAH-PAH",
+      "translation": "Pouvez-vous me montrer sur la carte ?",
+      "context": "Demande de clarification visuelle."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Está muito longe daqui?",
+      "phonetic_api": "/iʃˈta ˈmũjtu ˈlõʒɨ dɐˈki/",
+      "phonetic_simple": "ECH-TAH MOYN-TOO LON-J'H DAH-KEE",
+      "translation": "Est-ce très loin d'ici ?",
+      "context": "Évaluer s'il faut marcher ou prendre un moyen de transport."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le verbe 'Ficar' pour la localisation géographique",
+      "explanation": "Alors que le verbe 'estar' sert pour une localisation temporaire, on emploie impérativement le verbe 'ficar' pour indiquer l'emplacement fixe et permanent d'un bâtiment, d'une rue ou d'une ville.",
+      "rules": [
+        "Structure de base : [Lieu] + fica + [Emplacement].",
+        "Présent (3ème personne) : Ele/Ela fica (Il/Elle se trouve)."
+      ],
+      "examples": [
+        {
+          "structure": "O museu fica aqui.",
+          "phonetic_api": "/u muˈzew ˈfikɐ ɐˈki/",
+          "meaning": "Le musée se trouve ici."
+        },
+        {
+          "structure": "Onde fica a estação?",
+          "phonetic_api": "/ˈõdɨ ˈfikɐ ɐ iʃtɐˈsɐ̃w/",
+          "meaning": "Où se trouve la gare ?"
+        }
+      ]
+    },
+    {
+      "concept": "L'impératif poli pour guider (Siga / Vire)",
+      "explanation": "Pour donner une direction de manière polie à un inconnu, on emploie le présent du subjonctif qui fait office d'impératif formel à la 3ème personne du singulier.",
+      "rules": [
+        "Verbe 'Seguir' (Suivre / Continuer) -> Siga (Suivez / Continuez).",
+        "Verbe 'Virar' (Tourner) -> Vire (Tournez)."
+      ],
+      "examples": [
+        {
+          "structure": "Siga em frente.",
+          "phonetic_api": "/ˈsiɣɐ ɐ̃j ˈfɾẽtɨ/",
+          "meaning": "Continuez tout droit."
+        },
+        {
+          "structure": "Vire na próxima rua.",
+          "phonetic_api": "/ˈviɾɨ nɐ ˈpɾɔsimɐ ˈʁuɐ/",
+          "meaning": "Tournez à la prochaine rue."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Turista",
+      "text": "Desculpe, boa tarde. Pode ajudar-me? Onde fica o Rossio?",
+      "phonetic_api": "/dɨʃˈkuɫpɨ ˈboɐ ˈtaɾdɨ ˈpɔðɨ ɐʒuˈðaɾ.mɨ ˈõdɨ ˈfikɐ u ʁuˈsiu/",
+      "phonetic_simple": "DECH-KOOL-P'H BOH-AH TAR-D'H PÓ-D'H AH-JOO-DAR-M'H ON-D'H FEE-KAH OO ROO-SEE-OO",
+      "translation": "Excusez-moi, bonjour. Pouvez-vous m'aider ? Où se trouve le Rossio ?"
+    },
+    {
+      "speaker": "Passante",
+      "text": "Olá! O Rossio fica perto. Siga sempre em frente por esta rua.",
+      "phonetic_api": "/oˈla u ʁuˈsiu ˈfikɐ ˈpɛɾtu ˈsiɣɐ ˈsẽpɾɨ ɐ̃j ˈfɾẽtɨ puɾ ˈeʃtɐ ˈʁuɐ/",
+      "phonetic_simple": "OH-LAH OO ROO-SEE-OO FEE-KAH PAIR-TOO SEE-GAH SEM-PR'H ENG FREN-T'H POOR ECH-TAH ROO-AH",
+      "translation": "Bonjour ! Le Rossio est proche. Continuez tout droit par cette rue."
+    },
+    {
+      "speaker": "Turista",
+      "text": "E depois? É preciso virar?",
+      "phonetic_api": "/i dɨˈpajʃ ɛ pɾɨˈsizu viˈɾaɾ/",
+      "phonetic_simple": "EE D'H-POYCH É PR'H-SEE-ZOO VEE-RAR",
+      "translation": "Et après ? Il faut tourner ?"
+    },
+    {
+      "speaker": "Passante",
+      "text": "Sim, no fim da rua, vire à esquerda. A praça fica logo ali.",
+      "phonetic_api": "/sɐ̃j nu fʲĩ dɐ ˈʁuɐ ˈviɾɨ a iʃˈkeɾðɐ ɐ ˈpɾasɐ ˈfikɐ ˈlɔɣu ɐˈli/",
+      "phonetic_simple": "SEENG NOO FEENG DAH ROO-AH VEE-R'H AH ECH-KAIR-DAH AH PRAH-SAH FEE-KAH LÓ-GOO AH-LEE",
+      "translation": "Oui, au bout de la rue, tournez à gauche. La place se trouve juste là."
+    },
+    {
+      "speaker": "Turista",
+      "text": "Muito obrigado pela sua ajuda. Adeus!",
+      "phonetic_api": "/ˈmũjtu obɾiˈɣaðu ˈpelɐ ˈsuɐ ɐˈʒuðɐ ɐˈðewʃ/",
+      "phonetic_simple": "MOYN-TOO OH-BREE-GAH-DOO PAY-LAH SOO-AH AH-JOO-DAH AH-DEWCH",
+      "translation": "Merci beaucoup pour votre aide. Au revoir !"
+    }
+  ],
+  "cultural_notes": [
+    "À Lisbonne ou à Porto, le tissu urbain est composé de nombreuses collines et de ruelles pavées à l'ancienne (calçada portuguesa). Demander son chemin est courant car la numérotation peut parfois être déroutante.",
+    "L'expression 'logo ali' ou 'já ali' signifie 'juste là' ou 'tout près', mais attention : la notion de proximité pour un local peut parfois correspondre à une bonne marche de dix minutes !"
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel verbe utilise-t-on pour dire qu'un monument se trouve à un endroit fixe ?",
+      "options": [
+        "Ser",
+        "Estar",
+        "Ficar"
+      ],
+      "correct_answer": "Ficar",
+      "explanation": "On emploie 'ficar' pour la localisation permanente et géographique de lieux fixes."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Tournez à droite', on écrit : Vire à [ ___ ].",
+      "correct_answer": "direita",
+      "hint": "L'opposé de gauche (esquerda)"
+    }
+  ]
+}

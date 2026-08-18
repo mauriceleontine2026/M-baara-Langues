@@ -1,0 +1,132 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Niveau Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Utiliser les marqueurs temporels du passé",
+    "Structurer un récit chronologique simple",
+    "Exprimer une action achevée dans le passé"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression du passé implique souvent l'allongement de la voyelle finale du verbe ou l'ajout d'une particule suffixée à ton bas, comme le suffixe /-a/.",
+    "common_pitfalls": "Ne confondez pas le ton haut du présent progressif avec le ton bas descendant utilisé pour marquer l'accompli dans le récit."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v13_1",
+      "term": "gbɛɛ",
+      "phonetic_api": "/g͡bɛː/",
+      "phonetic_simple": "GBÈÈ",
+      "translation": "hier",
+      "example_sentence": "I lo ciao gbɛɛ.",
+      "example_phonetic": "/i lo tʃja.o g͡bɛː/",
+      "example_translation": "Je suis allé au marché hier."
+    },
+    {
+      "word_id": "v13_2",
+      "term": "tele",
+      "phonetic_api": "/te.le/",
+      "phonetic_simple": "TÉ-LÉ",
+      "translation": "temps / époque / moment",
+      "example_sentence": "Tele o hɔn.",
+      "example_phonetic": "/te.le o hɔn/",
+      "example_translation": "Le temps est passé."
+    },
+    {
+      "word_id": "v13_3",
+      "term": "hɔn",
+      "phonetic_api": "/hɔn/",
+      "phonetic_simple": "HONT",
+      "translation": "passer / s'écouler (temps)",
+      "example_sentence": "Tana o hɔn.",
+      "example_phonetic": "/ta.na o hɔn/",
+      "example_translation": "Le jour est passé."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p13_1",
+      "original": "I wali gbɛɛ.",
+      "phonetic_api": "/i wa.li g͡bɛː/",
+      "phonetic_simple": "I WA-LI GBÈÈ",
+      "translation": "J'ai travaillé hier.",
+      "context": "Raconter sa journée précédente"
+    },
+    {
+      "phrase_id": "p13_2",
+      "original": "O lo lebol ning gbɛɛ.",
+      "phonetic_api": "/o lo le.bol niŋ g͡bɛː/",
+      "phonetic_simple": "O LO LÉ-BOL NING GBÈÈ",
+      "translation": "Il est allé en ville hier.",
+      "context": "Rapporter les mouvements d'un tiers"
+    },
+    {
+      "phrase_id": "p13_3",
+      "original": "I mɛl mɛŋ kpou.",
+      "phonetic_api": "/i mɛl mɛ̃ k͡pu/",
+      "phonetic_simple": "I MEL MENG KPOU",
+      "translation": "J'ai bu toute l'eau.",
+      "context": "Confirmer une action passée et terminée"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'aspect accompli (le passé simple historique)",
+      "explanation": "Pour exprimer qu'une action est complètement terminée, le kissi utilise le verbe à sa forme radicale nue ou légèrement modifiée en fin de mot, souvent accompagné d'un adverbe temporel comme 'gbɛɛ'.",
+      "rules": [
+        "L'auxiliaire de présent 'co' disparaît complètement.",
+        "Le verbe d'action colle directement au pronom sujet."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + Verbe d'action + (Complément)",
+          "phonetic_api": "/i lo tʃja.o/",
+          "meaning": "Je suis allé au marché."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Tamba",
+      "text": "Saa, o lo vɛ gbɛɛ ?",
+      "phonetic_api": "/saː o lo vɛ g͡bɛː/",
+      "phonetic_simple": "SAA, O LO VÈ GBÈÈ ?",
+      "translation": "Saa, où es-tu allé hier ?"
+    },
+    {
+      "speaker": "Saa",
+      "text": "I lo ciao gbɛɛ. I nɔŋ biyɛ.",
+      "phonetic_api": "/i lo tʃja.o g͡bɛː i nɔŋ bi.jɛ/",
+      "phonetic_simple": "I LO TCHIA-O GBÈÈ. I NONG BI-YÈ.",
+      "translation": "Je suis allé au marché hier. J'ai acheté du riz."
+    }
+  ],
+  "cultural_notes": [
+    "Le récit des événements passés revêt une importance capitale lors des conseils de notables ou réunions de famille. On prend toujours le temps de poser le cadre chronologique exact en s'appuyant sur des faits mémorables de la communauté."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex13_1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'adverbe 'gbɛɛ' ?",
+      "options": [
+        "Aujourd'hui",
+        "Demain",
+        "Hier"
+      ],
+      "correct_answer": "Hier",
+      "explanation": "'gbɛɛ' est le marqueur de temps exclusif pour désigner le jour précédent."
+    },
+    {
+      "exercise_id": "ex13_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "I [ ___ ] ciao gbɛɛ. (Je suis allé au marché hier)",
+      "correct_answer": "lo",
+      "hint": "Verbe aller / se déplacer"
+    }
+  ]
+}

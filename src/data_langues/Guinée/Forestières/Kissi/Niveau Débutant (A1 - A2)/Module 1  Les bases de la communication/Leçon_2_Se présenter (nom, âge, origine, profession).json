@@ -1,0 +1,206 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter",
+  "learning_objectives": [
+    "Déclarer son nom et son prénom",
+    "Exprimer son âge et son origine géographique",
+    "Énoncer sa profession de manière simple"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'utilisation de la consonne occlusive injective/implosive /ɓ/ ou /ɗ/ est fréquente dans certaines variantes. Notez l'articulation douce des nasales palatales /ɲ/ comme dans le son français 'gn'.",
+    "common_pitfalls": "Attention à ne pas prononcer le 'g' de 'dieng' comme un 'g' dur français. Il s'agit d'un son nasal vélaire /ŋ/ proche du 'ng' final en anglais."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v2_1",
+      "term": "dieng",
+      "phonetic_api": "/djɛŋ/",
+      "phonetic_simple": "DIENG",
+      "translation": "nom",
+      "example_sentence": "Dieng nio o co Tamba.",
+      "example_phonetic": "/djɛŋ njo o tʃo ta.ᵐba/",
+      "example_translation": "Mon nom est Tamba."
+    },
+    {
+      "word_id": "v2_2",
+      "term": "wana",
+      "phonetic_api": "/wa.na/",
+      "phonetic_simple": "WA-NA",
+      "translation": "personne / humain",
+      "example_sentence": "Wana pilɔ o co wa.",
+      "example_phonetic": "/wa.na pi.lɔ o tʃo wa/",
+      "example_translation": "Une personne est là."
+    },
+    {
+      "word_id": "v2_3",
+      "term": "oolɛ",
+      "phonetic_api": "/oː.lɛ/",
+      "phonetic_simple": "OO-LÈ",
+      "translation": "année / âge",
+      "example_sentence": "I nɔ oolɛ lanyɛŋ.",
+      "example_phonetic": "/i nɔ oː.lɛ la.ɲɛŋ/",
+      "example_translation": "J'ai plusieurs années (d'âge)."
+    },
+    {
+      "word_id": "v2_4",
+      "term": "wali",
+      "phonetic_api": "/wa.li/",
+      "phonetic_simple": "WA-LI",
+      "translation": "travail / profession",
+      "example_sentence": "Wali nio o co kpou.",
+      "example_phonetic": "/wa.li njo o tʃo kpu/",
+      "example_translation": "Mon travail se passe bien."
+    },
+    {
+      "word_id": "v2_5",
+      "term": "lebol",
+      "phonetic_api": "/le.bol/",
+      "phonetic_simple": "LÉ-BOL",
+      "translation": "village / ville / pays d'origine",
+      "example_sentence": "Lebol nio o co Kissidougou.",
+      "example_phonetic": "/le.bol njo o tʃo ki.si.du.ɡu/",
+      "example_translation": "Mon village/pays est Kissidougou."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p2_1",
+      "original": "Vana yɛ dieng noo o co ?",
+      "phonetic_api": "/va.na jɛ djɛŋ noː o tʃo/",
+      "phonetic_simple": "VA-NA YÈ DIENG NOO O TCHO",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Rencontre / Formule courante"
+    },
+    {
+      "phrase_id": "p2_2",
+      "original": "Dieng nio o co Saa.",
+      "phonetic_api": "/djɛŋ njo o tʃo saː/",
+      "phonetic_simple": "DIENG NYO O TCHO SAA",
+      "translation": "Mon nom est Saa.",
+      "context": "Donner son identité"
+    },
+    {
+      "phrase_id": "p2_3",
+      "original": "Oolɛ yɛŋ o nɔ ?",
+      "phonetic_api": "/oː.lɛ jɛŋ o nɔ/",
+      "phonetic_simple": "OO-LÈ YENG O NO",
+      "translation": "Quel âge as-tu ?",
+      "context": "S'informer sur l'âge"
+    },
+    {
+      "phrase_id": "p2_4",
+      "original": "I nɔ oolɛ jom pilɔ.",
+      "phonetic_api": "/i nɔ oː.lɛ ʒom pi.lɔ/",
+      "phonetic_simple": "I NO OO-LÈ JOM PI-LO",
+      "translation": "J'ai vingt ans.",
+      "context": "Donner son âge"
+    },
+    {
+      "phrase_id": "p2_5",
+      "original": "Kounda yɛŋ o lo ?",
+      "phonetic_api": "/kuːⁿda jɛŋ o lo/",
+      "phonetic_simple": "KOUN-DA YENG O LO",
+      "translation": "D'où viens-tu ? / Où habites-tu ?",
+      "context": "S'informer sur l'origine"
+    },
+    {
+      "phrase_id": "p2_6",
+      "original": "Guinée i lo ni.",
+      "phonetic_api": "/ɡi.ne i lo ni/",
+      "phonetic_simple": "GUI-NÉ I LO NI",
+      "translation": "Je viens de Guinée.",
+      "context": "Donner son origine"
+    },
+    {
+      "phrase_id": "p2_7",
+      "original": "Wana peeku i co ni.",
+      "phonetic_api": "/wa.na peː.ku i tʃo ni/",
+      "phonetic_simple": "WA-NA PÉÉ-KOU I TCHO NI",
+      "translation": "Je suis étudiant.",
+      "context": "Énoncer sa profession"
+    },
+    {
+      "phrase_id": "p2_8",
+      "original": "Wana wali i co ni.",
+      "phonetic_api": "/wa.na wa.li i tʃo ni/",
+      "phonetic_simple": "WA-NA WA-LI I TCHO NI",
+      "translation": "Je suis travailleur.",
+      "context": "Énoncer sa profession"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'état ou de l'identité avec 'co ni'",
+      "explanation": "Pour exprimer une caractéristique stable, une profession ou une identité nationale/régionale, la construction utilise souvent le pronom suivi du verbe d'état 'co' renforcé par la particule de focalisation 'ni' en fin de structure.",
+      "rules": [
+        "Le sujet se place en tête.",
+        "Le terme désignant la profession ou l'origine s'insère directement avant l'indice de conjugaison et de validation 'ni'."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + qualificatif/nom + co ni",
+          "phonetic_api": "/wa.na peː.ku i tʃo ni/",
+          "meaning": "Je suis un étudiant."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Saa",
+      "text": "Vana yɛ dieng noo o co ?",
+      "phonetic_api": "/va.na jɛ djɛŋ noː o tʃo/",
+      "phonetic_simple": "VA-NA YÈ DIENG NOO O TCHO",
+      "translation": "Comment t'appelles-tu ?"
+    },
+    {
+      "speaker": "Sia",
+      "text": "Dieng nio o co Sia. Et ɔn ?",
+      "phonetic_api": "/djɛŋ njo o tʃo sja ɛt ɔn/",
+      "phonetic_simple": "DIENG NYO O TCHO SIA. ET ON ?",
+      "translation": "Mon nom est Sia. Et toi ?"
+    },
+    {
+      "speaker": "Saa",
+      "text": "Dieng nio o co Saa. Kounda o lo ?",
+      "phonetic_api": "/djɛŋ njo o tʃo saː kuːⁿda o lo/",
+      "phonetic_simple": "DIENG NYO O TCHO SAA. KOUN-DA O LO ?",
+      "translation": "Mon nom est Saa. D'où viens-tu ?"
+    },
+    {
+      "speaker": "Sia",
+      "text": "Kissidougou i lo ni.",
+      "phonetic_api": "/ki.si.du.ɡu i lo ni/",
+      "phonetic_simple": "KI-SI-DOU-GOU I LO NI",
+      "translation": "Je viens de Kissidougou."
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Kissi, les prénoms traditionnels masculins (comme Saa, Tamba, Faya) et féminins (comme Sia, Tènin, Bendou) obéissent à un ordre de naissance strict au sein de la fratrie. Connaître le prénom de quelqu'un permet souvent de deviner sa place dans sa famille."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex2_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'dieng' ?",
+      "options": [
+        "Nom",
+        "Village",
+        "Âge"
+      ],
+      "correct_answer": "Nom",
+      "explanation": "'Dieng' se traduit par nom ou appellation."
+    },
+    {
+      "exercise_id": "ex2_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Guinée i [ ___ ] ni. (Je viens de Guinée)",
+      "correct_answer": "lo",
+      "hint": "Verbe signifiant sortir de / provenir de"
+    }
+  ]
+}

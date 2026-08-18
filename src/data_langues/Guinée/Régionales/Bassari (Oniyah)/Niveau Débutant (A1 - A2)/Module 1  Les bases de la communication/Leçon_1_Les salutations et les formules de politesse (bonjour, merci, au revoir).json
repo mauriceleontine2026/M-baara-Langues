@@ -1,0 +1,189 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Savoir saluer selon le moment de la journée (matin, après-midi, soir)",
+    "Maîtriser les réponses rituelles obligatoires de l'interaction sociale",
+    "Exprimer la politesse, la gratitude et prendre congé formellement"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La langue Oniyan (Bassari) utilise un système à trois tons : haut (é), bas (è) et modulé (ě). La consonne 'ɓ' est une injective bilabiale produite en aspirant l'air vers l'intérieur. La lettre 'ḍ' représente une occlusive rétroflexe où la langue se retourne contre le palais.",
+    "common_pitfalls": "Ne pas prononcer la consonne nasale finale 'ŋ' comme un 'g' occidental. Le mot se termine par un son nasal vélaire, similaire au 'ng' du mot anglais 'sing'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "amniwăḍ",
+      "phonetic_api": "/amniwăɖ/",
+      "phonetic_simple": "AM-NI-WAD",
+      "translation": "l'action de saluer / l'acte de se rencontrer",
+      "example_sentence": "Amniwăḍ ɔniyanɔŋ oŋ dya bɛ̀ɛ̀.",
+      "example_phonetic": "/amniwăɖ ɔnəjandɔŋ oŋ dja bɛ̀ː/",
+      "example_translation": "La salutation en langue Bassari apporte la paix."
+    },
+    {
+      "word_id": "v2",
+      "term": "nvlɛ",
+      "phonetic_api": "/nvlɛ/",
+      "phonetic_simple": "NVLE",
+      "translation": "le retour / message de bienvenue",
+      "example_sentence": "Nvlɛ kəwandi fə́ siki.",
+      "example_phonetic": "/nvlɛ kəwandi fə́ siki/",
+      "example_translation": "Bienvenue pour ton retour au village."
+    },
+    {
+      "word_id": "v3",
+      "term": "bəliyan",
+      "phonetic_api": "/ɓəljan/",
+      "phonetic_simple": "BHE-LI-YAN",
+      "translation": "le peuple Bassari / la communauté",
+      "example_sentence": "Aɓəliyan aŋ oŋ uñwaŋ.",
+      "example_phonetic": "/aɓəljan aŋ oŋ uɲwaŋ/",
+      "example_translation": "L'homme Bassari est hospitalier."
+    },
+    {
+      "word_id": "v4",
+      "term": "ɔnə́yanɔŋ",
+      "phonetic_api": "/ɔnə́janɔŋ/",
+      "phonetic_simple": "O-NE-YA-NONG",
+      "translation": "la langue Bassari (Oniyan)",
+      "example_sentence": "Məwɛ̌ ɛni ɔnə́yanɔŋ fə́ siki.",
+      "example_phonetic": "/məwɛ̌ ɛni ɔnə́janɔŋ fə́ siki/",
+      "example_translation": "Je parle un peu la langue Oniyan du village."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Anee kəwandi?",
+      "phonetic_api": "/aneː kəwandi/",
+      "phonetic_simple": "A-NEE KE-WAN-DI",
+      "translation": "Comment s'est passé ton réveil ? (Bonjour)",
+      "context": "Utilisé exclusivement le matin, dès le saut du lit jusqu'à midi."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Kəwandi bɛ̀ɛ̀.",
+      "phonetic_api": "/kəwandi bɛ̀ː/",
+      "phonetic_simple": "KE-WAN-DI BEE",
+      "translation": "Le réveil s'est bien passé. (Réponse au matin)",
+      "context": "Réponse obligatoire et positive pour entamer la journée."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Məwɔ̰̌ dya?",
+      "phonetic_api": "/məwɔ̰̌ dja/",
+      "phonetic_simple": "ME-WONG DYA",
+      "translation": "Comment se passe ta journée ? (Bonsoir)",
+      "context": "Utilisé l'après-midi et le soir à partir de la mi-journée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Dya bɛ̀ɛ̀.",
+      "phonetic_api": "/dja bɛ̀ː/",
+      "phonetic_simple": "DYA BEE",
+      "translation": "La journée se passe bien. (Réponse au bonsoir)",
+      "context": "Réponse standard positive pour signifier que tout va bien."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Nyarancaa gwa bɛ̀ɛ̀.",
+      "phonetic_api": "/ɲarant͡ʃaː ɡwa bɛ̀ː/",
+      "phonetic_simple": "NYA-RAN-TCHAA GWA BEE",
+      "translation": "Merci beaucoup pour ton geste.",
+      "context": "Cadre formel ou informel pour exprimer une profonde gratitude."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Anee aŋal oŋ?",
+      "phonetic_api": "/aneː aŋal oŋ/",
+      "phonetic_simple": "A-NEE A-NGAL ONG",
+      "translation": "Comment vont les personnes de ta maisonnée ?",
+      "context": "Étape indispensable de la salutation pour s'enquérir de la famille."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Aŋal oŋ bɛ̀ɛ̀, nyarancaa.",
+      "phonetic_api": "/aŋal oŋ bɛ̀ː ɲarant͡ʃaː/",
+      "phonetic_simple": "A-NGAL ONG BEE, NYA-RAN-TCHAA",
+      "translation": "Les gens de la maison vont bien, merci.",
+      "context": "Réponse polie validant la bonne santé collective."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Məwunǐ kəwandi.",
+      "phonetic_api": "/məwunǐ kəwandi/",
+      "phonetic_simple": "ME-WOU-NI KE-WAN-DI",
+      "translation": "Au revoir et que ton réveil de demain soit bon.",
+      "context": "Formule de congé utilisée le soir au moment de se séparer."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'interrogatif de manière 'Anee' et les classes nominales",
+      "explanation": "En Oniyan, les questions portant sur l'état ou la manière commencent par la particule invariative 'Anee'. Le mot qui suit s'accorde selon sa classe nominale définie par son préfixe initial.",
+      "rules": [
+        "La particule 'Anee' se place systématiquement en tête de la structure interrogative.",
+        "Les noms comme 'kəwandi' (le réveil) ou 'dya' (la journée) conservent leur marqueur de classe qui dicte l'harmonie rythmique de la phrase."
+      ],
+      "examples": [
+        {
+          "structure": "Anee + [Nom de classe temporelle]",
+          "phonetic_api": "/aneː dja/",
+          "meaning": "Comment s'est déroulée la période temporelle désignée ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Anee kəwandi?",
+      "phonetic_api": "/aneː kəwandi/",
+      "phonetic_simple": "A-NEE KE-WAN-DI",
+      "translation": "Bonjour, comment s'est passé ton réveil ?"
+    },
+    {
+      "speaker": "Bouba",
+      "text": "Kəwandi bɛ̀ɛ̀. Anee aŋal oŋ?",
+      "phonetic_api": "/kəwandi bɛ̀ː aneː aŋal oŋ/",
+      "phonetic_simple": "KE-WAN-DI BEE. A-NEE A-NGAL ONG",
+      "translation": "Le réveil s'est bien passé. Comment vont les personnes de ta maison ?"
+    },
+    {
+      "speaker": "Samba",
+      "text": "Aŋal oŋ bɛ̀ɛ̀. Nyarancaa gwa bɛ̀ɛ̀.",
+      "phonetic_api": "/aŋal oŋ bɛ̀ː ɲarant͡ʃaː ɡwa bɛ̀ː/",
+      "phonetic_simple": "A-NGAL ONG BEE. NYA-RAN-TCHAA GWA BEE",
+      "translation": "Tout le monde va bien à la maison. Merci infiniment."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la tradition des Bəliyan, couper court à une salutation ou omettre de demander des nouvelles de la maison ('aŋal oŋ') est perçu comme une agression ou un signe de graves tensions. La salutation est un pacte social renouvelé chaque matin."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle formule prononcez-vous pour saluer un aîné l'après-midi ?",
+      "options": [
+        "Anee kəwandi?",
+        "Məwɔ̰̌ dya?",
+        "Məwunǐ kəwandi."
+      ],
+      "correct_answer": "Məwɔ̰̌ dya?",
+      "explanation": "'Məwɔ̰̌ dya?' cible spécifiquement le déroulement de la journée passée et s'emploie dès l'après-midi."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Kəwandi [ ___ ].",
+      "correct_answer": "bɛ̀ɛ̀",
+      "hint": "Adverbe de manière signifiant que l'action s'est déroulée de façon pacifique et positive."
+    }
+  ]
+}

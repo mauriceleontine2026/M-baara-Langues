@@ -1,0 +1,281 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Nommer les principaux vêtements du quotidien et les textiles traditionnels est-africains",
+    "Identifier et utiliser le vocabulaire des couleurs de base en swahili",
+    "Comprendre les règles d'accord des adjectifs de couleur (bantous invariables vs arabes invariables)",
+    "Formuler des phrases pour acheter un vêtement, choisir une taille ou décrire une tenue"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'accentuation pénultième reste la règle absolue. Le mot 'Nguo' (vêtement) comporte un bloc consonantique pré-nasalisé 'ng' [ˈŋgʊ.ɔ] suivi de deux voyelles pures. Dans 'Nyekundu' (rouge), le son 'ny' est palatal [ɲɛˈku.ndu] et s'enchaîne avec une pré-nasalisation interne 'nd'. Le 'h' de 'Nyeusi' (noir) ou 'Nyeupe' (blanc) n'existe pas, veillez à ne pas insérer de glottale.",
+    "common_pitfalls": "Attention à la prononciation du mot 'Kanga' [ˈka.ŋga] ou 'Kitenge' [kiˈtɛ.ŋgɛ] : le 'ng' se prononce de façon dure comme dans le mot français 'gang', et non pas de manière entièrement nasale comme le digraphe avec apostrophe (ng')."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Nguo",
+      "phonetic_api": "/ˈŋgu.ɔ/",
+      "phonetic_simple": "NGOO-OH",
+      "translation": "Vêtement / Habit / Textile",
+      "example_sentence": "Ninataka kununua nguo mpya.",
+      "example_phonetic": "/ni.naˈta.ka ku.nuˈnu.a ˈŋgu.ɔ ˈm-pja/",
+      "example_translation": "Je veux acheter un vêtement neuf."
+    },
+    {
+      "word_id": "v2",
+      "term": "Shati",
+      "phonetic_api": "/ˈʃa.ti/",
+      "phonetic_simple": "SHAH-TEE",
+      "translation": "Chemise",
+      "example_sentence": "Shati langu ni safi.",
+      "example_phonetic": "/ˈʃa.ti ˈla.ŋgu ni ˈsa.fi/",
+      "example_translation": "Ma chemise est propre."
+    },
+    {
+      "word_id": "v3",
+      "term": "Suruali",
+      "phonetic_api": "/su.ruˈa.li/",
+      "phonetic_simple": "SOO-ROO-AH-LEE",
+      "translation": "Pantalon",
+      "example_sentence": "Suruali hii ni ndefu.",
+      "example_phonetic": "/su.ruˈa.li ˈhi.i ni ˈndɛ.fu/",
+      "example_translation": "Ce pantalon est long."
+    },
+    {
+      "word_id": "v4",
+      "term": "Kiatu",
+      "phonetic_api": "/kiˈa.tu/",
+      "phonetic_simple": "KEE-AH-TOO",
+      "translation": "Chaussure",
+      "example_sentence": "Viatu vyako ni vizuri.",
+      "example_phonetic": "/viˈa.tu ˈvja.kɔ ni viˈzu.ri/",
+      "example_translation": "Tes chaussures sont belles."
+    },
+    {
+      "word_id": "v5",
+      "term": "Kitenge",
+      "phonetic_api": "/kiˈtɛ.ŋgɛ/",
+      "phonetic_simple": "KEE-TEHN-GEH",
+      "translation": "Kitenge (tissu en coton imprimé, épais et coloré)",
+      "example_sentence": "Mama amenunua kitenge cha kupendeza.",
+      "example_phonetic": "/ˈma.ma a.mɛˈnu.nu.a kiˈtɛ.ŋgɛ tʃa ku.pɛˈndɛ.za/",
+      "example_translation": "Maman a acheté un magnifique kitenge."
+    },
+    {
+      "word_id": "v6",
+      "term": "-eusi",
+      "phonetic_api": "/ˈɛ.u.si/",
+      "phonetic_simple": "EH-OO-SEE",
+      "translation": "Noir (racine adjectivale variable)",
+      "example_sentence": "Kofia nyeusi.",
+      "example_phonetic": "/kɔˈfi.a ˈɲɛ.u.si/",
+      "example_translation": "Un chapeau noir."
+    },
+    {
+      "word_id": "v7",
+      "term": "-eupe",
+      "phonetic_api": "/ˈɛ.u.pɛ/",
+      "phonetic_simple": "EH-OO-PEH",
+      "translation": "Blanc (racine adjectivale variable)",
+      "example_sentence": "Kalamu nyeupe.",
+      "example_phonetic": "/kaˈla.mu ˈɲɛ.u.pɛ/",
+      "example_translation": "Un stylo blanc."
+    },
+    {
+      "word_id": "v8",
+      "term": "Bluu",
+      "phonetic_api": "/bluː/",
+      "phonetic_simple": "BLOO",
+      "translation": "Bleu (emprunt invariable)",
+      "example_sentence": "Gari la bluu.",
+      "example_phonetic": "/ˈga.ri la bluː/",
+      "example_translation": "Une voiture bleue."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Nguo hii ni rangi gani?",
+      "phonetic_api": "/ˈŋgu.ɔ ˈhi.i ni ˈra.ŋgi ˈga.ni/",
+      "phonetic_simple": "NGOO-OH HEE-YEE NEE RAHN-GEE GAH-NEE",
+      "translation": "De quelle couleur est ce vêtement ?",
+      "context": "S'informer au marché ou dans une boutique textile."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Ninataka shati jekundu au la kijani.",
+      "phonetic_api": "/ni.naˈta.ka ˈʃa.ti dʒɛˈku.ndu a.u la kiˈdʒa.ni/",
+      "phonetic_simple": "NEE-NAH-TAH-KAH SHAH-TEE DJEH-KOON-DOO AH-OO LAH KEE-DJAH-NEE",
+      "translation": "Je veux une chemise rouge ou une verte.",
+      "context": "Exprimer une préférence esthétique précise lors d'un achat."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Je, una suruali ya rangi ya njano?",
+      "phonetic_api": "/dʒɛ u.na su.ruˈa.li ja ˈra.ŋgi ja ˈndʒa.nɔ/",
+      "phonetic_simple": "JEH OO-NAH SOO-ROO-AH-LEE YAH RAHN-GEE YAH NDJAH-NOH",
+      "translation": "As-tu un pantalon de couleur jaune ?",
+      "context": "Demander une variante colorée spécifique à un marchand."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Kiatu hiki ni kidogo sana, ninataka kikubwa.",
+      "phonetic_api": "/kiˈa.tu ˈhi.i ni kiˈdɔ.gɔ ˈsa.na ni.naˈta.ka kiˈku.bwa/",
+      "phonetic_simple": "KEE-AH-TOO HEE-YEE NEE KEE-DOH-GOH SAH-NAH NEE-NAH-TAH-KAH KEE-KOO-BWAH",
+      "translation": "Cette chaussure est trop petite, j'en veux une grande.",
+      "context": "Problème d'ajustement de taille dans un magasin de chaussures."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Bei ya kitenge hiki ni shilingi ngapi?",
+      "phonetic_api": "/ˈbɛ.i ja kiˈtɛ.ŋgɛ ˈhi.i ni ʃiˈli.ŋgi ˈŋga.pi/",
+      "phonetic_simple": "BEH-EE YAH KEE-TEHN-GEH HEE-YEE NEE SHEE-LEEN-GEE NGAH-PEE",
+      "translation": "Quel est le prix de ce kitenge ?",
+      "context": "Négociation de textile traditionnel africain."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Ninapenda kuvaa nguo za kitamaduni.",
+      "phonetic_api": "/ni.naˈpɛ.nda kuˈvaː ˈŋgu.ɔ za ki.ta.maˈdu.ni/",
+      "phonetic_simple": "NEE-NAH-PEHN-DAH KOO-VAA NGOO-OH ZAH KEE-TAH-MAH-DOO-NEE",
+      "translation": "J'aime porter des vêtements traditionnels.",
+      "context": "Conversation culturelle sur le style vestimentaire."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Jaribu nguo hii chumba cha nguo.",
+      "phonetic_api": "/dʒaˈri.bu ˈŋgu.ɔ ˈhi.i ˈtʃu.mba tʃa ˈŋgu.ɔ/",
+      "phonetic_simple": "DJAH-REE-BOO NGOO-OH HEE-YEE CHOOM-BAH CHAH NGOO-OH",
+      "translation": "Essaie ce vêtement dans la cabine d'essayage.",
+      "context": "Proposition du vendeur pour tester la coupe."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Nitasuka rinda hili kesho.",
+      "phonetic_api": "/ni.taˈsu.ka ˈri.nda ˈhi.li ˈkɛ.ʃɔ/",
+      "phonetic_simple": "NEE-TAH-SOO-KAH REEN-DAH HEE-LEE KEH-SHOH",
+      "translation": "Je vais coudre cette robe demain.",
+      "context": "Discuter avec un tailleur local (mshonaji)."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accord des adjectifs de couleur d'origine bantoue (variables)",
+      "explanation": "Les couleurs fondamentales en swahili découlent de racines lexicales verbales bantoues (-eusi = noir, -eupe = blanc, -ekundu = rouge). Ces trois couleurs fonctionnent comme de véritables adjectifs qualificatifs et doivent s'accorder obligatoirement en préfixe avec le nom décrit.",
+      "rules": [
+        "Devant les voyelles de ces trois racines, les préfixes de classe subissent des modifications morpho-phonologiques.",
+        "Pour la classe 9/10 (Nguo, Suruali), le préfixe devient 'ny-'. Exemple : nguo nyeusi (vêtement noir).",
+        "Pour la classe 7 (Kiatu), le préfixe devient 'ki-'. Exemple : kiatu chekundu (chaussure rouge - le 'ki' fusionne en 'ch')."
+      ],
+      "examples": [
+        {
+          "structure": "Nguo (Cl. 9) + ny- + ekundu = Nguo nyekundu",
+          "phonetic_api": "/ˈŋgu.ɔ ɲɛˈku.ndu/",
+          "meaning": "Un vêtement rouge"
+        },
+        {
+          "structure": "Shati (Cl. 5) + j- + eupe = Shati jeupe",
+          "phonetic_api": "/ˈʃa.ti dʒɛˈu.pɛ/",
+          "meaning": "Une chemise blanche (l'accord de classe 5 est j- devant voyelle)"
+        }
+      ]
+    },
+    {
+      "concept": "Les couleurs d'origine arabe ou dérivées de la nature (invariables)",
+      "explanation": "Toutes les autres couleurs du swahili proviennent soit d'emprunts étrangers (ex: bluu = bleu, rangi ya machungwa = orange), soit de substantifs naturels précédés du connecteur génitif associatif 'ya' (rangi ya njano = couleur de curcuma/jaune).",
+      "rules": [
+        "Ces couleurs ne reçoivent aucun préfixe d'accord avec les classes nominales.",
+        "Elles restent strictement inchangées, peu importe si le nom est singulier, pluriel, humain ou inanimé."
+      ],
+      "examples": [
+        {
+          "structure": "Viatu (Chaussures - Pluriel) + bluu = Viatu bluu",
+          "phonetic_api": "/viˈa.tu bluː/",
+          "meaning": "Des chaussures bleues"
+        },
+        {
+          "structure": "Suruali (Pantalon) + ya kijani (de couleur verte)",
+          "phonetic_api": "/su.ruˈa.li ja kiˈdʒa.ni/",
+          "meaning": "Un pantalon vert"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Chloe (Mteja)",
+      "text": "Hujambo kaka! Ninatafuta kitenge kizuri cha rangi ya bluu.",
+      "phonetic_api": "/huˈdʒa.mbɔ ˈka.ka ni.na.taˈfu.ta kiˈtɛ.ŋgɛ kiˈzu.ri tʃa ˈra.ŋgi ya bluː/",
+      "phonetic_simple": "HOO-DJAHM-BOH KAH-KAH NEE-NAH-TAH-FOO-TAH KEE-TEHN-GEH KEE-ZEE-REE CHAH RAHN-GEE YAH BLOO",
+      "translation": "Bonjour mon frère ! Je cherche un beau kitenge de couleur bleue."
+    },
+    {
+      "speaker": "Mshonaji (Muuzaji)",
+      "text": "Sijambo mgeni! Karibu sana dukani. Tazama, hapa kuna vitenge vingi. Kuna hiki cha bluu na nyeupe.",
+      "phonetic_api": "/siˈdʒa.mbɔ mˈgɛ.ni kaˈri.bu ˈsa.na duˈka.ni taˈza.ma ˈha.pa ˈku.na viˈtɛ.ŋgɛ ˈvɛ.ŋgi ˈku.na ˈhi.ki tʃa bluː na ˈɲɛ.u.pɛ/",
+      "phonetic_simple": "SEE-DJAHM-BOH MGEH-NEE KAH-REE-BOO SAH-NAH DOO-KAH-NEE TAH-ZAH-MAH HAH-PAH KOO-NAH VEE-TEHN-GEH VEEN-GEE KOO-NAH HEE-KEE CHAH BLOO NAH NYEH-OO-PEH",
+      "translation": "Je vais bien l'étrangère ! Bienvenue au magasin. Regarde, ici il y a beaucoup de kitenges. Il y a celui-ci en bleu et blanc."
+    },
+    {
+      "speaker": "Chloe (Mteja)",
+      "text": "Oho, ni kizuri sana! Na je, una shati jekundu la mtoto?",
+      "phonetic_api": "/ɔˈhɔ ni kiˈzu.ri ˈsa.na na dʒɛ u.na ˈʃa.ti dʒɛˈku.ndu la mˈtɔ.tɔ/",
+      "phonetic_simple": "OH-HOH NEE KEE-ZEE-REE SAH-NAH NAH JEH OO-NAH SHAH-TEE DJEH-KOON-DOO LAH MTOH-TOH",
+      "translation": "Oh, il est magnifique ! Et dis-moi, as-tu une chemise rouge pour enfant ?"
+    },
+    {
+      "speaker": "Mshonaji (Muuzaji)",
+      "text": "Ndiyo, mashati ya watoto yako upande ule wa kushoto. Kuna ya rangi nyekundu, nyeusi na ya kijani pia.",
+      "phonetic_api": "/ˈndi.jɔ maˈʃa.ti ja waˈtɔ.tɔ ˈja.kɔ uˈpa.ndɛ ˈu.lɛ wa kuˈʃɔ.tɔ ˈku.na ja ˈra.ŋgi ɲɛˈku.ndu ˈɲɛ.u.si na ja kiˈdʒa.ni ˈpi.a/",
+      "phonetic_simple": "NDEE-YOH MAH-SHAH-TEE YAH WAH-TOH-TOH YAH-KOO OO-PAHN-DEH OO-LEH WAH KOO-SHOH-TOH KOO-NAH YAH RAHN-GEE NYEH-KOON-DOO NYEH-OO-SEE NAH YAH KEE-DJAH-NEE PEE-AH",
+      "translation": "Oui, les chemises pour enfants se trouvent de ce côté gauche. Il y en a de couleur rouge, noire et verte aussi."
+    },
+    {
+      "speaker": "Chloe (Mteja)",
+      "text": "Safi sana. Nitatwaa shati hili jekundu na kitenge hiki cha bluu. Bei gani yote?",
+      "phonetic_api": "/ˈsa.fi ˈsa.na ni.taˈtwaː ˈʃa.ti ˈhi.li dʒɛˈku.ndu na kiˈtɛ.ŋgɛ ˈhi.ki tʃa bluː ˈbɛ.i ˈga.ni ˈjɔ.tɛ/",
+      "phonetic_simple": "SAH-FEE SAH-NAH NEE-TAH-TWAA SHAH-TEE HEE-LEE DJEH-KOON-DOO NAH KEE-TEHN-GEH HEE-KEE CHAH BLOO BEH-EE GAH-NEE YOH-TEH",
+      "translation": "Super. Je vais prendre cette chemise rouge et ce kitenge bleu. Quel est le prix total ?"
+    },
+    {
+      "speaker": "Mshonaji (Muuzaji)",
+      "text": "Yote ni shilingi elfu hamsini. Asante sana kwa kununua nguo kwangu!",
+      "phonetic_api": "/ˈjɔ.tɛ ni ʃiˈli.ŋgi ˈɛ.lfu ha.mˈsi.ni aˈsa.ntɛ ˈsa.na kwa ku.nuˈnu.a ˈŋgu.ɔ ˈkwa.ŋgu/",
+      "phonetic_simple": "YOH-TEH NEE SHEE-LEEN-GEE EHL-FOO HAHM-SEE-NEE AH-SAHN-TEH SAH-NAH KWAH KOO-NOO-NOO-AH NGOO-OH KWAHN-GOO",
+      "translation": "Le tout fait cinquante mille shillings. Merci beaucoup d'avoir acheté des vêtements chez moi !"
+    }
+  ],
+  "cultural_notes": [
+    "Le 'Kitenge' (au pluriel 'Vitenge') et la 'Kanga' sont les deux tissus incontournables d'Afrique de l'Est. Le kitenge est plus lourd et sert à confectionner des tenues d'apparat sur mesure pour les mariages ou fêtes religieuses.",
+    "La 'Kanga' est un tissu plus léger, toujours vendu par paire, qui comporte une bordure distinctive et un proverbe imprimé en swahili au centre ('Msemo'). Les femmes l'utilisent comme paréo, pour porter les bébés sur le dos ou pour communiquer subtilement des messages moraux ou politiques à leur entourage à travers le texte écrit.",
+    "Les tailleurs ('Washonaji') ont leurs ateliers directement ouverts sur la rue. Les clients apportent leur propre coupon de tissu acheté au marché pour faire fabriquer une tenue ajustée en quelques jours seulement après d'intenses discussions de style."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment traduit-on correctement l'expression 'Une chemise blanche' en respectant l'accord grammatical ?",
+      "options": [
+        "Shati jekundu",
+        "Shati la bluu",
+        "Shati jeupe",
+        "Shati nyeupe"
+      ],
+      "correct_answer": "Shati jeupe",
+      "explanation": "'Shati' appartient à la classe 5 et demande l'accord 'j-' devant la voyelle de la racine variable '-eupe' (blanc).",
+      "mismatch_info": "Shati nyeupe utilise l'accord de la classe N, ce qui est faux pour le mot shati."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Muuzaji: 'Je, unataka nguo ya rangi gani?' -> Mteja: 'Ninataka rinda la [ ___ ].' (Complétez avec le mot invariable pour 'bleu').",
+      "correct_answer": "bluu",
+      "hint": "C'est un mot d'emprunt direct à la phonétique anglaise, invariable en swahili."
+    }
+  ]
+}

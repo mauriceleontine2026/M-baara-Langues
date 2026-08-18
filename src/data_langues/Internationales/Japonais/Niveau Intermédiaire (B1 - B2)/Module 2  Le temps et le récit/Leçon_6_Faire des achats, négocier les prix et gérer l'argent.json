@@ -1,0 +1,271 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Exprimer des compromis et des conditions d'achat en utilisant la structure restrictive '～しか...ない' (shika... nai) et la particule 'dake'",
+    "Comparer des valeurs financières ou des tarifs avec des structures de gradation avancées ('hodo... nai', 'ni kurabete')",
+    "Maîtriser le lexique des transactions financières quotidiennes, du budget personnel et des modes de paiement modernes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon introduit le mot 'genkin' (espèces/liquide) où le 'g' [ɡ] est une occlusive vélaire voisée et le 'n' final [ɴ] est une nasale uvulaire. Le mot 'shōhizei' (taxe sur la consommation) demande une articulation soignée du son long : [ɕoː.çi.zeː]. Pour 'kingaku' (montant), veillez à l'équilibre des mores /kiɴ.ɡa.kɯ/.",
+    "common_pitfalls": "Attention à la particule restrictive しか (shika). Le 'sh' [ɕi] est bref et doit impérativement être suivi d'un verbe à la forme négative. Évitez également de prononcer le 'r' de 'kaikei' (caisse/comptabilité) ou 'kādo' (carte) de manière gutturale."
+  },
+  "financial_lexicon_focus": [
+    {
+      "term": "消費税 (しょうひぜい)",
+      "romaji": "shōhizei",
+      "translation": "Taxe sur la consommation (TVA)",
+      "description": "Taxe appliquée sur la quasi-totalité des biens au Japon. Les prix en magasin affichent souvent deux montants : le prix hors taxe (税抜 - zeinuki) et le prix TTC (税込 - zeikomi)."
+    },
+    {
+      "term": "割り引き (わりびき)",
+      "romaji": "waribiki",
+      "translation": "Réduction / Rabais",
+      "description": "Expression courante pour indiquer un pourcentage de réduction. Par exemple, '1割引' (ichi-waribiki) signifie 10 % de réduction, '2割引' signifie 20 %."
+    },
+    {
+      "term": "電子マネー (でんしマネー)",
+      "romaji": "denshi manē",
+      "translation": "Monnaie électronique / Paiement sans contact",
+      "description": "Système de paiement ultra-répandu au Japon via des cartes de transport (Suica, Pasmo) ou des applications mobiles (PayPay)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "げんきん (現金)",
+      "phonetic_api": "/ɡeɴ.kiɴ/",
+      "phonetic_simple": "GEN-KIN",
+      "translation": "Argent liquide / Espèces",
+      "example_sentence": "この店は現金しか使えません。",
+      "example_phonetic": "/ko.no mi.se wa ɡeɴ.kiɴ ɕi.ka t͡sɯ.ka.e.ma.seɴ/",
+      "example_translation": "Ce magasin n'accepte que l'argent liquide (ne peut utiliser que du liquide)."
+    },
+    {
+      "word_id": "v2",
+      "term": "かいたす (買い足す / 買い足します)",
+      "phonetic_api": "/ka.i.ta.sɯ/",
+      "phonetic_simple": "KA-I-TA-SOU",
+      "translation": "Acheter du rab / Compléter ses achats / Racheter (ce qui manque)",
+      "example_sentence": "予算が余ったので、服を買い足しました。",
+      "example_phonetic": "/jo.saɴ ɡa a.mḁt.ta na.de ɸɯ.kɯ o ka.i.ta.ɕi.ma.ɕi.ta/",
+      "example_translation": "Comme il restait du budget, j'ai acheté quelques vêtements en plus."
+    },
+    {
+      "word_id": "v3",
+      "term": "よさん (予算)",
+      "phonetic_api": "/jo.saɴ/",
+      "phonetic_simple": "YO-SAN",
+      "translation": "Budget",
+      "example_sentence": "旅行の予算を決めておきます。",
+      "example_phonetic": "/ɾjo.koː no jo.saɴ o ki.me.te o.ki.ma.sɯ̥/",
+      "example_translation": "Je vais fixer à l'avance le budget pour le voyage."
+    },
+    {
+      "word_id": "v4",
+      "term": "せつやく (節約 / 節約します)",
+      "phonetic_api": "/se̥t͡sɯ.ja.kɯ/",
+      "phonetic_simple": "SETS-OU-YA-KOU",
+      "translation": "Économies / Épargner / Économiser (l'argent, l'énergie)",
+      "example_sentence": "今月は外食を減らして節約します。",
+      "example_phonetic": "/ko&mu;.ɡe̥t.sɯ wa ɡa.i.ɕo̥k.ɯ o he.ɾa.ɕi.te se̥t͡sɯ.ja.kɯ ɕi.ma.sɯ̥/",
+      "example_translation": "Ce mois-ci, je réduis les restaurants pour économiser."
+    },
+    {
+      "word_id": "v5",
+      "term": "ひかくてき (比較的)",
+      "phonetic_api": "/çi.ka.kɯ.te.ki/",
+      "phonetic_simple": "CHI-KA-KOU-TÉ-KI",
+      "translation": "Relativement / Comparativement",
+      "example_sentence": "あそこのスーパーは比較的安いです。",
+      "example_phonetic": "/a.so.ko no sɯː.paː wa çi.ka.kɯ.te.ki ja.sɯ.i de.sɯ̥/",
+      "example_translation": "Le supermarché là-bas est relativement bon marché."
+    },
+    {
+      "word_id": "v6",
+      "term": "おつり (お釣り)",
+      "phonetic_api": "/o.t͡sɯ.ɾi/",
+      "phonetic_simple": "O-TSOU-RI",
+      "translation": "La monnaie (rendue sur un paiement)",
+      "example_sentence": "お釣りを確認してください。",
+      "example_phonetic": "/o.t͡sɯ.ɾi o ka.kɯ.niɴ ɕi.te kɯ.da.sa.i/",
+      "example_translation": "Veuillez vérifier votre monnaie s'il vous plaît."
+    },
+    {
+      "word_id": "v7",
+      "term": "ねだん (値段)",
+      "phonetic_api": "/ne.daɴ/",
+      "phonetic_simple": "NÉ-DAN",
+      "translation": "Le prix / Le tarif",
+      "example_sentence": "値段を比べてから買います。",
+      "example_phonetic": "/ne.daɴ o kɯ.ba.re.te ka.ɾa ka.i.ma.sɯ̥/",
+      "example_translation": "J'achète après avoir comparé les prix."
+    },
+    {
+      "word_id": "v8",
+      "term": "てすうりょう (手数料)",
+      "phonetic_api": "/te.sɯː.ɾjoː/",
+      "phonetic_simple": "TÉ-SUU-RYOO",
+      "translation": "Frais de commission / Frais bancaires / Frais de dossier",
+      "example_sentence": "夜間のATMは手数料がかかります。",
+      "example_phonetic": "/ja.kaɴ no eː.tiː.e.mɯ wa te.sɯː.ɾjoː ɡa ka.ka.ɾi.ma.sɯ̥/",
+      "example_translation": "Les distributeurs de billets (ATM) imposent des frais la nuit."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "財布には千円しか残っていません。",
+      "phonetic_api": "/sa.i.ɸɯ ni wa seɴ.eɴ ɕi.ka no.ko̥t.te i.ma.seɴ/",
+      "phonetic_simple": "SA-I-FOU NI WA SEN-EN SHIKA NO-KOT-TÉ I-MA-SEN",
+      "translation": "Il ne me reste plus que 1 000 yens dans mon portefeuille.",
+      "context": "Exprimer une forte restriction de budget avec la structure 'shika... nai'."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "クレジットカードでの支払いは可能ですか。",
+      "phonetic_api": "/kɯ.ɾe.d͡ʑi̥t.to.kaː.do de no ɕi.ha.ra.i wa ka.noː de.sɯ.ka/",
+      "phonetic_simple": "KOU-RÉ-DJIT-TO-KAA-DO DÉ NO CHI-HA-RA-I WA KA-NOO DESS-KA",
+      "translation": "Est-il possible de payer par carte de crédit ?",
+      "context": "S'informer poliment des moyens de paiement acceptés avant de passer en caisse."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "この商品は税込みの値段ですか。",
+      "phonetic_api": "/ko.no ɕoː.çiɴ wa zeː.ko.mi no ne.daɴ de.sɯ.ka/",
+      "phonetic_simple": "KO-NO CHOO-HIN WA ZÉE-KO-MI NO NÉ-DAN DESS-KA",
+      "translation": "Est-ce que le prix de cet article inclut la taxe (TTC) ?",
+      "context": "Vérifier l'affichage des prix lors de sessions shopping."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "まとめ買いをすると安くなりますよ。",
+      "phonetic_api": "/ma.to.me.ɡa.i o sɯ.ɾɯ to ja.sɯ.kɯ na.ɾi.ma.sɯ jo/",
+      "phonetic_simple": "MA-TO-MÉ-GA-I O SOU-ROU TO YA-SOU-KOU NA-RI-MASS YO",
+      "translation": "Si vous achetez en gros / par lot, cela revient moins cher.",
+      "context": "Donner une astuce économique à un client ou à un ami."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "予算をオーバーしてしまいました。",
+      "phonetic_api": "/jo.saɴ o oː.baː ɕi.te ɕi.ma.i.ma.ɕi.ta/",
+      "phonetic_simple": "YO-SAN O OO-BAA CHI-TÉ CHI-MA-I-MA-CH-TA",
+      "translation": "Malheureusement, j'ai dépassé mon budget.",
+      "context": "Exprimer un regret ou un constat d'échec budgétaire (forme en '~te shimau')."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "領収書をいただけますか。",
+      "phonetic_api": "/ɾjoː.ɕɯː.ɕo o i.ta.da.ke.ma.sɯ.ka/",
+      "phonetic_simple": "RYOO-SHUU-CHO O I-TA-DA-KÉ-MASS-KA",
+      "translation": "Puis-je avoir un reçu officiel / une facture s'il vous plaît ?",
+      "context": "Demander une pièce justificative officielle de paiement (souvent pour les notes de fraisprofessionnels)."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "今年の家賃は去年に比べて高いです。",
+      "phonetic_api": "/ko.to.ɕi no ja.t͡ɕiɴ wa kjo.neɴ ni kɯ.ba.re.te ta.ka.i de.sɯ̥/",
+      "phonetic_simple": "KO-TO-CHI NO YA-TCHIN WA KYO-NEN NI KOU-BA-RÉ-TÉ TA-KA-I DESS",
+      "translation": "Le loyer de cette année est plus cher par rapport à l'année dernière.",
+      "context": "Effectuer une comparaison économique rigoureuse entre deux périodes."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "ポイントカードはお持ちですか。",
+      "phonetic_api": "/po.iɴ.to.kaː.do wa o mo.t͡ɕi de.sɯ.ka/",
+      "phonetic_simple": "PO-IN-TO-KAA-DO WA O MO-TCHI DESS-KA",
+      "translation": "Avez-vous la carte de fidélité ? (langage honorifique)",
+      "context": "Question systématique posée par les caissiers dans les commerces japonais."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La restriction absolue négative : ～しか...ない (shika... nai)",
+      "explanation": "La structure '～しか...ない' exprime une idée de restriction forte ('ne... que' / 'rien d'autre que'). Contrairement à la particule 'dake' (qui est positive et peut se clore par desu/masu), 'shika' remplace généralement les particules 'wa', 'ga' ou 'o' et exige obligatoirement que le verbe de la proposition soit conjugué à la forme négative. Elle véhicule souvent une nuance d'insuffisance ou de regret de la part du locuteur.",
+      "rules": [
+        "Structure : [Nom] + しか + [Verbe à la forme négative].",
+        "Ne pas confondre : '100円だけあります' (J'ai juste 100 yens - neutre) et '100円しかありません' (Je n'ai que 100 yens - regret d'en avoir si peu)."
+      ],
+      "examples": [
+        {
+          "structure": "このセールは今日しかありません (Kono sēru wa kyō shika arimasen)",
+          "phonetic_api": "/ko.no seː.ɾɯ wa kjoː ɕi.ka a.ɾi.ma.seɴ/",
+          "meaning": "Ces soldes n'ont lieu qu'aujourd'hui (exclusivement aujourd'hui)."
+        }
+      ]
+    },
+    {
+      "concept": "La comparaison de référence : ～に比べて (ni kurabete)",
+      "explanation": "Pour comparer un fait, une situation ou un coût par rapport à un point de référence bien précis, on utilise la structure '～に比べて' (ni kurabete), issue du verbe kuraberu (comparer). Elle correspond à l'expression 'par rapport à...' ou 'comparé à...'.",
+      "rules": [
+        "Structure : [Nom de référence] + に比べて + [Reste de la description]."
+      ],
+      "examples": [
+        {
+          "structure": "オンラインショップは店に比べて安いです (Onrain shoppu wa mise ni kurabete yasui desu)",
+          "phonetic_api": "/oɴ.ɾa.iɴ ɕo̥p.pɯ wa mi.se ni kɯ.ba.re.te ja.sɯ.i de.sɯ̥/",
+          "meaning": "Les boutiques en ligne sont moins chères par rapport aux magasins physiques."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "店員 (Caissier)",
+      "text": "いらっしゃいませ。お会計は全部で五千五百円でございます。",
+      "phonetic_api": "/i.ɾḁs.ɕa.i.ma.se o ka.i.keː wa zeɴ.bɯ de ɡo.seɴ ɡo.hja.kɯ eɴ de ɡo.za.i.ma.sɯ̥/",
+      "phonetic_simple": "I-RASH-SHA-I-MA-SÉ. O-KA-I-KÉE WA ZEN-BOU DÉ GO-SEN GO-HYA-KOU EN DÉ GO-ZA-I-MASS.",
+      "translation": "Bienvenue. Le total de vos achats s'élève à 5 500 yens."
+    },
+    {
+      "speaker": "留学生 (Étudiant)",
+      "text": "あの、クレジットカードや電子マネーは使えますか。",
+      "phonetic_api": "/a.no kɯ.ɾe.d͡ʑi̥t.to.kaː.do ja deɴ.ɕi.ma.neː wa t͡sɯ.ka.e.ma.sɯ.ka/",
+      "phonetic_simple": "A-NO, KOU-RÉ-DJIT-TO-KAA-DO YA DEN-CHI-MA-NÉE WA TSOU-KA-É-MASS-KA ?",
+      "translation": "Euh... Est-ce qu'on peut payer par carte de crédit ou par monnaie électronique ?"
+    },
+    {
+      "speaker": "店員 (Caissier)",
+      "text": "すみません、今機械が壊れていて、現金しか使えないんですよ。",
+      "phonetic_api": "/sɯ.mi.ma.seμ i.ma ki.ka.i ɡa ko.wa.ɾe.te i.te ɡeμ.kiμ ɕi.ka t͡sɯ.ka.e.na.iɴ de.sɯ jo/",
+      "phonetic_simple": "SOU-MI-MA-SEN, I-MA KI-KA-I GA KO-WA-RÉ-TÉ I-TÉ, GEN-KIN SHIKA TSOU-KA-É-NA-I N DESS YO.",
+      "translation": "Je suis désolé, l'appareil est en panne actuellement, nous ne pouvons accepter que de l'argent liquide."
+    },
+    {
+      "speaker": "留学生 (Étudiant)",
+      "text": "そうですか。困ったな、財布に三千円しかありません。商品を少し減らします。",
+      "phonetic_api": "/soː de.sɯ.ka ko.mḁt.ta na sa.i.ɸɯ ni saɴ.seμ eμ ɕi.ka a.ɾi.ma.seμ ɕoː.çiμ o sɯ.ko.ɕi he.ɾa.ɕi.ma.sɯ̥/",
+      "phonetic_simple": "SOO DESS-KA. KO-MAT-TA NA, SA-I-FOU NI SAN-SEN EN SHIKA A-RI-MA-SEN. CHOO-HIN O SOU-KO-CHI HÉ-RA-CHI-MASS.",
+      "translation": "Ah d'accord. C'est embêtant, je n'ai que 3 000 yens dans mon portefeuille. Je vais retirer quelques articles."
+    }
+  ],
+  "cultural_notes": [
+    "Bien que le Japon soit un leader technologique mondial, la société est restée très attachée à l'argent liquide (現金主義 - genkin shugi) pendant des décennies. Bien que les paiements par smartphone et cartes sans contact aient explosé récemment, de nombreux petits commerces de quartier, restaurants traditionnels (comme les stands de ramens) ou temples n'acceptent toujours pas la carte.",
+    "Au comptoir de caisse, on ne donne jamais l'argent directement de la main à la main au caissier. On dépose ses billets et pièces sur une petite coupelle (つり銭トレイ - tsurisen torei) prévue à cet effet. Le personnel recompte ensuite les espèces sous les yeux du client de manière très cérémonieuse."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle phrase traduit correctement : 'Je ne bois que de l'eau' en utilisant la forme restrictive négative ?",
+      "options": [
+        "お水しか飲みます (O-mizu shika nomimasu)",
+        "お水しか飲みません (O-mizu shika nomimasen)",
+        "お水だけ飲みません (O-mizu dake nomimasen)"
+      ],
+      "correct_answer": "お水しか飲みません (O-mizu shika nomimasen)",
+      "explanation": "La structure 'shika' se construit impérativement avec un verbe à la forme négative ('nomimasen') pour signifier la restriction absolue."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "日本の物価は、私の国[ ___ ]比べて高いです。(Les prix au Japon sont élevés par rapport à mon pays)",
+      "correct_answer": "に",
+      "hint": "Entrez la particule de cible indispensable requise devant la structure comparative 'kurabete'."
+    }
+  ]
+}

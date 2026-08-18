@@ -1,0 +1,189 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Déclarer son identité nominale et interroger autrui sur son nom",
+    "Exprimer sa provenance géographique ainsi que son affiliation communautaire",
+    "Formuler son âge et énoncer sa profession avec précision"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression de l'identité repose sur le phonème palatal /ɟ/ écrit 'dy'. Ce son ne doit pas glisser vers le 'j' français mais claquer nettement contre le milieu du palais. Notez également l'accent tonique sur la voyelle finale de 'ɛwé'.",
+    "common_pitfalls": "Ne confondez pas le 'mɔ' (mon/ma) possessif avec le pronom sujet. Veillez à bien marquer la rupture glottale si elle se présente dans les noms propres."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v5",
+      "term": "ɛwé",
+      "phonetic_api": "/ɛwé/",
+      "phonetic_simple": "E-WE",
+      "translation": "le nom de famille / le prénom",
+      "example_sentence": "ɛwé mɔ oŋ Mady.",
+      "example_phonetic": "/ɛwé mɔ oŋ madi/",
+      "example_translation": "Mon prénom est Mady."
+    },
+    {
+      "word_id": "v6",
+      "term": "uniyan",
+      "phonetic_api": "/unəjan/",
+      "phonetic_simple": "OU-NI-YAN",
+      "translation": "être humain / individu",
+      "example_sentence": "Məɟe uniyan ɔniyanɔŋ.",
+      "example_phonetic": "/məɟe unəjan ɔnəjanɔŋ/",
+      "example_translation": "Je suis un individu de culture Bassari."
+    },
+    {
+      "word_id": "v7",
+      "term": "kəwə́ra",
+      "phonetic_api": "/kəwə́ra/",
+      "phonetic_simple": "KE-WE-RA",
+      "translation": "la localité / le village natal",
+      "example_sentence": "Kəwə́ra mɔ oŋ Conakry fə́ ləbəl.",
+      "example_phonetic": "/kəwə́ra mɔ oŋ konakri fə́ ləɓəl/",
+      "example_translation": "Ma ville natale est Conakry."
+    },
+    {
+      "word_id": "v8",
+      "term": "ɔsuku",
+      "phonetic_api": "/ɔsuku/",
+      "phonetic_simple": "O-SOU-KOU",
+      "translation": "l'apprenant / l'élève / l'étudiant",
+      "example_sentence": "ɔsuku oŋ kərã bɛ̀ɛ̀.",
+      "example_phonetic": "/ɔsuku oŋ kərã bɛ̀ː/",
+      "example_translation": "L'étudiant étudie de manière rigoureuse."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p9",
+      "original": "Anee ɛwé bə̂?",
+      "phonetic_api": "/aneː ɛwé ɓə̂/",
+      "phonetic_simple": "A-NEE E-WE BHE",
+      "translation": "Comment t'appelles-tu ? / Quel est ton nom ?",
+      "context": "Formule indispensable lors d'un premier contact formel ou amical."
+    },
+    {
+      "phrase_id": "p10",
+      "original": "ɛwé mɔ oŋ...",
+      "phonetic_api": "/ɛwé mɔ oŋ/",
+      "phonetic_simple": "E-WE MO ONG",
+      "translation": "Mon nom est l'affirmation suivante...",
+      "context": "Structure fixe pour s'identifier devant la communauté."
+    },
+    {
+      "phrase_id": "p11",
+      "original": "Dya mɛ́ɛ̀ ɓə́ fɔ́?",
+      "phonetic_api": "/dja mɛ́ː ɓə́ fɔ́/",
+      "phonetic_simple": "DYA MEE BHE FO",
+      "translation": "De quelle contrée proviens-tu ?",
+      "context": "Interrogation sur la patrie ou la localité d'origine."
+    },
+    {
+      "phrase_id": "p12",
+      "original": "Məfɔ́ fə́ Guineé.",
+      "phonetic_api": "/məfɔ́ fə́ ɡineː/",
+      "phonetic_simple": "ME-FO FE GHI-NEE",
+      "translation": "Je proviens du territoire de la Guinée.",
+      "context": "Indication de sa nationalité ou origine étatique."
+    },
+    {
+      "phrase_id": "p13",
+      "original": "Məɟe ɔbəliyan.",
+      "phonetic_api": "/məɟe ɔɓəljan/",
+      "phonetic_simple": "ME-DYE O-BHE-LI-YAN",
+      "translation": "Je suis de l'ethnie Bassari.",
+      "context": "Revendication claire de son identité culturelle."
+    },
+    {
+      "phrase_id": "p14",
+      "original": "Anee ləfɔ́ bə̂?",
+      "phonetic_api": "/aneː ləfɔ́ ɓə̂/",
+      "phonetic_simple": "A-NEE LE-FO BHE",
+      "translation": "Quel est ton métier ou ton occupation ?",
+      "context": "Question usuelle sur l'activité économique de l'adulte."
+    },
+    {
+      "phrase_id": "p15",
+      "original": "Məɟe ɔkarãdɔŋ.",
+      "phonetic_api": "/məɟe ɔkarãdɔŋ/",
+      "phonetic_simple": "ME-DYE O-KA-RAN-DONG",
+      "translation": "J'exerce la fonction d'enseignant.",
+      "context": "Déclaration professionnelle lors d'une présentation officielle."
+    },
+    {
+      "phrase_id": "p16",
+      "original": "Məfɔ́ nɛ̂ ləbəl ləfɔ́.",
+      "phonetic_api": "/məfɔ́ nɛ̂ ləɓəl ləfɔ́/",
+      "phonetic_simple": "ME-FO NE LE-BHEL LE-FO",
+      "translation": "J'ai atteint le nombre de vingt saisons de récolte (20 ans).",
+      "context": "Manière poétique et traditionnelle d'exprimer son âge."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le verbe d'état 'ɟe' et l'indice de provenance 'fɔ́'",
+      "explanation": "Pour définir ce que l'on est de manière permanente (métier, ethnie), la langue utilise l'auxiliaire d'état 'ɟe'. En revanche, pour traduire l'action de provenir ou d'être originaire d'un espace géographique, on utilise le verbe dynamique 'fɔ́' (quitter/venir de).",
+      "rules": [
+        "Le pronom de première personne 'Mə' s'amalgame directement au verbe d'état sans particule intermédiaire.",
+        "La provenance requiert l'adjonction de la préposition spatiale 'fə́' devant le nom du lieu."
+      ],
+      "examples": [
+        {
+          "structure": "Məfɔ́ fə́ + [Nom de lieu]",
+          "phonetic_api": "/məfɔ́ fə́ konakri/",
+          "meaning": "Je viens de / Je suis natif de [Lieu]"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mady",
+      "text": "Anee ɛwé bə̂?",
+      "phonetic_api": "/aneː ɛwé ɓə̂/",
+      "phonetic_simple": "A-NEE E-WE BHE",
+      "translation": "Comment t'appelles-tu ?"
+    },
+    {
+      "speaker": "Idrissa",
+      "text": "Ewé mɔ oŋ Idrissa. Dya mɛ́ɛ̀ ɓə́ fɔ́?",
+      "phonetic_api": "/ɛwé mɔ oŋ idrisa dja mɛ́ː ɓə́ fɔ́/",
+      "phonetic_simple": "E-WE MO ONG I-DRI-SA. DYA MEE BHE FO",
+      "translation": "Mon nom est Idrissa. De quel endroit es-tu ?"
+    },
+    {
+      "speaker": "Mady",
+      "text": "Məfɔ́ fə́ Conakry. Məɟe ɔsuku fə́ bɛ̀ɛ̀.",
+      "phonetic_api": "/məfɔ́ fə́ konakri məɟe ɔsuku fə́ bɛ̀ː/",
+      "phonetic_simple": "ME-FO FE KO-NA-KRI. ME-DYE O-SOU-KOU FE BEE",
+      "translation": "Je suis de Conakry. Et je suis un très bon étudiant."
+    }
+  ],
+  "cultural_notes": [
+    "Dire son âge en Oniyan fait traditionnellement référence aux récoltes de cycles agricoles ('ləbəl'). On ne compte pas les années de manière abstraite, mais par le nombre de greniers remplis depuis sa naissance, liant l'homme à la terre nourricière."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie mot à mot le terme 'ɔkarãdɔŋ' ?",
+      "options": [
+        "Celui qui cultive la terre",
+        "Celui qui fait lire/étudier (l'enseignant)",
+        "Le chef suprême du village"
+      ],
+      "correct_answer": "Celui qui fait lire/étudier (l'enseignant)",
+      "explanation": "Le radical 'karã' est lié à l'apprentissage, le suffixe désigne l'agent de l'action."
+    },
+    {
+      "exercise_id": "ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Məɟe [ ___ ] bəliyan.",
+      "correct_answer": "ɔbəliyan",
+      "hint": "Le singulier de la classe des personnes désignant un membre de la communauté Bassari."
+    }
+  ]
+}

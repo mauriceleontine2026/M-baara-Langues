@@ -1,0 +1,163 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Demander la localisation d'un lieu important",
+    "Comprendre et utiliser les indicateurs de direction spatiale de base"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne /r/ en milieu de mot (comme dans 'korat') doit être légèrement roulée avec la pointe de la langue sur le palais. Le digramme 'th' ou la variante fricative /θ/ nécessite de placer la langue entre les dents.",
+    "common_pitfalls": "Veillez à bien détacher le morphème locatif 'di' de la racine nominale qui le suit, sans contracter la voyelle /i/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v7_1",
+      "term": "Gbeila",
+      "phonetic_api": "/g͡bei.la/",
+      "phonetic_simple": "GBEÏ-LA",
+      "translation": "Chemin / Route",
+      "example_sentence": "Gbeila a ce.",
+      "example_phonetic": "/g͡bei.la a tʃe/",
+      "example_translation": "La route est bonne."
+    },
+    {
+      "word_id": "v7_2",
+      "term": "N'da",
+      "phonetic_api": "/nda/",
+      "phonetic_simple": "N-DA",
+      "translation": "Lieu / Endroit",
+      "example_sentence": "N'da we a mboye.",
+      "example_phonetic": "/nda we a mbo.je/",
+      "example_translation": "Cet endroit est calme."
+    },
+    {
+      "word_id": "v7_3",
+      "term": "Korat",
+      "phonetic_api": "/ko.rat/",
+      "phonetic_simple": "KO-RAT",
+      "translation": "Droite",
+      "example_sentence": "Ba di korat.",
+      "example_phonetic": "/ba di ko.rat/",
+      "example_translation": "Va à droite."
+    },
+    {
+      "word_id": "v7_4",
+      "term": "Kowe",
+      "phonetic_api": "/ko.we/",
+      "phonetic_simple": "KO-WÉ",
+      "translation": "Gauche",
+      "example_sentence": "Ba di kowe.",
+      "example_phonetic": "/ba di ko.we/",
+      "example_translation": "Va à gauche."
+    },
+    {
+      "word_id": "v7_5",
+      "term": "Kanyen",
+      "phonetic_api": "/ka.ɲeŋ/",
+      "phonetic_simple": "KA-NYEN",
+      "translation": "Être situé / Rester",
+      "example_sentence": "Marce a kanyen we.",
+      "example_phonetic": "/mar.ʃe a ka.ɲeŋ we/",
+      "example_translation": "Le marché est situé ici."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p7_1",
+      "original": "Gbeila marce a rila?",
+      "phonetic_api": "/g͡bei.la mar.ʃe a ri.la/",
+      "phonetic_simple": "GBEÏ-LA MAR-TCHÉ A RI-LA",
+      "translation": "Où est le chemin du marché ?",
+      "context": "Question essentielle pour s'orienter dans un village ou une ville."
+    },
+    {
+      "phrase_id": "p7_2",
+      "original": "Ba di korat, i suba.",
+      "phonetic_api": "/ba di ko.rat i su.ba/",
+      "phonetic_simple": "BA DI KO-RAT, I SOU-BA",
+      "translation": "Tourne à droite, puis continue.",
+      "context": "Indication typique donnée par un habitant pour guider un voyageur."
+    },
+    {
+      "phrase_id": "p7_3",
+      "original": "A gbe mu thand.",
+      "phonetic_api": "/a g͡be mu θand/",
+      "phonetic_simple": "A GBÉ MOU THAND",
+      "translation": "Ce n'est pas loin / C'est tout près.",
+      "context": "Formule rassurante indiquant la proximité immédiate de la destination."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La particule locative 'di'",
+      "explanation": "En nalu, les rapports spatiaux et les directions sont introduits par la particule prépositionnelle 'di'. Elle équivaut aux prépositions françaises 'à', 'vers' ou 'dans'.",
+      "rules": [
+        "Placée directement devant les noms d'orientation (droite, gauche).",
+        "Elle ne varie pas selon le genre ou le nombre du nom qui la suit."
+      ],
+      "examples": [
+        {
+          "structure": "di korat",
+          "phonetic_api": "/di ko.rat/",
+          "meaning": "à droite"
+        },
+        {
+          "structure": "di kowe",
+          "phonetic_api": "/di ko.we/",
+          "meaning": "à gauche"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine",
+      "text": "Ina, gbeila marce a rila?",
+      "phonetic_api": "/i.na g͡bei.la mar.ʃe a ri.la/",
+      "phonetic_simple": "I-NA, GBEÏ-LA MAR-TCHÉ A RI-LA?",
+      "translation": "S'il vous plaît, où est le chemin du marché ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Mboye! Ba di korat. Marce a kanyen mu thand.",
+      "phonetic_api": "/mbo.je ba di ko.rat mar.ʃe a ka.ɲeŋ mu θand/",
+      "phonetic_simple": "MBO-YÉ! BA DI KO-RAT. MAR-TCHÉ A KA-NYEN MOU THAND.",
+      "translation": "Bonjour ! Allez à droite. Le marché est situé tout près."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "A ce, nu koka!",
+      "phonetic_api": "/a tʃe nu ko.ka/",
+      "phonetic_simple": "A TCHÉ, NOU KO-KA!",
+      "translation": "C'est bien, merci !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les zones côtières habitées par les Nalu, les repères géographiques naturels (comme les rivières, les bras de mer ou les grands arbres sacrés) sont fréquemment utilisés à la place des points cardinaux abstraits pour indiquer une direction."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex7_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'Korat' ?",
+      "options": [
+        "Gauche",
+        "Droite",
+        "Tout droit"
+      ],
+      "correct_answer": "Droite",
+      "explanation": "'Korat' désigne la direction droite en langue nalu."
+    },
+    {
+      "exercise_id": "ex7_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'à gauche', on utilise la particule locative : di [ ___ ].",
+      "correct_answer": "kowe",
+      "hint": "C'est l'opposé de korat"
+    }
+  ]
+}

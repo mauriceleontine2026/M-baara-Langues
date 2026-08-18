@@ -1,0 +1,123 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les membres de la famille nucléaire",
+    "Utiliser les possessifs devant les termes de parenté"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne implosive /ɓ/ doit être articulée avec soin. Le mot 'née' s'articule avec une voyelle longue antérieure fermée.",
+    "common_pitfalls": "Attention à ne pas omettre le ton haut sur le pronom possessif de la première personne 'ń'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v4_1",
+      "term": "ɓáá",
+      "phonetic_api": "/ɓáː/",
+      "phonetic_simple": "BHAA",
+      "translation": "père",
+      "example_sentence": "ń ɓáá le",
+      "example_phonetic": "/ń ɓáː le/",
+      "example_translation": "C'est mon père."
+    },
+    {
+      "word_id": "v4_2",
+      "term": "née",
+      "phonetic_api": "/néː/",
+      "phonetic_simple": "NEE",
+      "translation": "mère",
+      "example_sentence": "ń née káá",
+      "example_phonetic": "/ń néː káː/",
+      "example_translation": "Ma mère est là."
+    },
+    {
+      "word_id": "v4_3",
+      "term": "lóŋ",
+      "phonetic_api": "/lóŋ/",
+      "phonetic_simple": "LONG",
+      "translation": "enfant",
+      "example_sentence": "ń lóŋ gbéi",
+      "example_phonetic": "/ń lóŋ ɡɓéī/",
+      "example_translation": "Mon petit enfant."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p4_1",
+      "original": "í kɛ́ɛ ɓɛ̀?",
+      "phonetic_api": "/í kɛ́ː ɓɛ̀/",
+      "phonetic_simple": "I KEE BHE",
+      "translation": "Comment va ton père ?",
+      "context": "Prendre des nouvelles de la famille."
+    },
+    {
+      "phrase_id": "p4_2",
+      "original": "ń pɔ̄rɔ̄ kɛ́ɛ kɛ́nɛ̀ kɔ́ɔ́",
+      "phonetic_api": "/ń pɔ̄rɔ̄ kɛ́ː kɛ́nɛ̀ kɔ́ː/",
+      "phonetic_simple": "N PORO KEE KENE KOO",
+      "translation": "Ma famille va bien.",
+      "context": "Réponse rituelle de salutation."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La possession inaliénable",
+      "explanation": "Pour les relations familiales intimes, le possesseur est directement préposé au nom de parenté sans morphème de liaison.",
+      "rules": [
+        "ń indique la première personne singulier.",
+        "í indique la deuxième personne singulier."
+      ],
+      "examples": [
+        {
+          "structure": "ń + née",
+          "phonetic_api": "/ń néː/",
+          "meaning": "ma mère"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sia",
+      "text": "í née káá kɛ́nɛ̀ kɔ́ɔ́ ?",
+      "phonetic_api": "/í néː káː kɛ́nɛ̀ kɔ́ː/",
+      "phonetic_simple": "I NEE KAA KENE KOO",
+      "translation": "Est-ce que ta mère va bien ?"
+    },
+    {
+      "speaker": "Koli",
+      "text": "ń née káá kɛ́nɛ̀.",
+      "phonetic_api": "/ń néː káː kɛ́nɛ̀/",
+      "phonetic_simple": "N NEE KAA KENE",
+      "translation": "Ma mère va bien."
+    }
+  ],
+  "cultural_notes": [
+    "Dans le groupement Konon de Lola, la famille intègre de nombreux membres collatéraux; les oncles paternels sont souvent appelés 'pères' suivis d'un qualificatif de taille."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex4_1",
+      "type": "multiple_choice",
+      "question": "Que signifie 'ɓáá' ?",
+      "options": [
+        "Père",
+        "Mère",
+        "Enfant"
+      ],
+      "correct_answer": "Père",
+      "explanation": "'ɓáá' désigne le géniteur ou le père honorifique."
+    },
+    {
+      "exercise_id": "ex4_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "ń [ ___ ] le (C'est ma mère)",
+      "correct_answer": "née",
+      "hint": "Mère"
+    }
+  ]
+}

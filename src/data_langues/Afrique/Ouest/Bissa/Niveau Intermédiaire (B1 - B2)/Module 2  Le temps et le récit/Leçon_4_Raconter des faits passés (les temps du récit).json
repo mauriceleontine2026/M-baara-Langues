@@ -1,0 +1,201 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Exprimer une action complètement achevée dans le passé en langue bissa",
+    "Utiliser les marqueurs temporels du passé pour structurer une narration chronologique",
+    "Faire la distinction entre une action ponctuelle et un état continu dans le passé"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon se focalise sur l'occlusive glottale et les variations de hauteur tonale induites par le suffixe du passé '-re' ou le marqueur d'accompli 'ki'. La chute de la voyelle finale de la racine verbale se produit fréquemment lors de la liaison avec ces particules temporelles.",
+    "common_pitfalls": "Ne pas confondre la particule du passé 'le' avec la copule affirmative du présent 'la'. La voyelle /e/ de 'le' est fermée et tendue, tandis que le 'la' présente une voyelle ouverte antérieure."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Kilaa",
+      "phonetic_api": "/kilaː/",
+      "phonetic_simple": "KI-LAA",
+      "translation": "Hier / autrefois",
+      "example_sentence": "Kilaa m gaa Garango le",
+      "example_phonetic": "/kilaː m̩ ɡaː ɡaʁanɡo le/",
+      "example_translation": "Hier, je suis allé à Garango."
+    },
+    {
+      "word_id": "v2",
+      "term": "Gẽ",
+      "phonetic_api": "/ɟẽ/",
+      "phonetic_simple": "GYEN",
+      "translation": "Faire / accomplir",
+      "example_sentence": "M gẽ tuumda kilaa",
+      "example_phonetic": "/m̩ ɟẽ tuːmda kilaː/",
+      "example_translation": "J'ai fait le travail hier."
+    },
+    {
+      "word_id": "v3",
+      "term": "Bɔrɩ",
+      "phonetic_api": "/bɔʁɪ/",
+      "phonetic_simple": "BO-RI",
+      "translation": "Finir / terminer",
+      "example_sentence": "M di gũu bɔrɩ le",
+      "example_phonetic": "/m̩ di ɡũː bɔʁɪ le/",
+      "example_translation": "J'ai fini de manger le tô."
+    },
+    {
+      "word_id": "v4",
+      "term": "Mõ",
+      "phonetic_api": "/mõ/",
+      "phonetic_simple": "MON",
+      "translation": "Voir / percevoir / trouver",
+      "example_sentence": "M mõ m saa kilaa yirbaa",
+      "example_phonetic": "/m̩ mõ m̩ saː kilaː jiʁbaː/",
+      "example_translation": "J'ai vu mon père hier soir."
+    },
+    {
+      "word_id": "v5",
+      "term": "Sãã",
+      "phonetic_api": "/sãː/",
+      "phonetic_simple": "SAAN",
+      "translation": "Passer / s'écouler (pour le temps)",
+      "example_sentence": "Wiri sãã le",
+      "example_phonetic": "/wiʁi sãː le/",
+      "example_translation": "Le jour est passé."
+    },
+    {
+      "word_id": "v6",
+      "term": "Gi",
+      "phonetic_api": "/ɟi/",
+      "phonetic_simple": "GYI",
+      "translation": "Dire / raconter",
+      "example_sentence": "A gi gãã n dɔ le",
+      "example_phonetic": "/a ɟi ɡãː n̩ dɔ le/",
+      "example_translation": "Il a raconté l'histoire."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "M gẽ bɔ le ?",
+      "phonetic_api": "/m̩ ɟẽ bɔ le/",
+      "phonetic_simple": "M GYEN BO LE",
+      "translation": "Qu'as-tu fait ?",
+      "context": "Question pour s'enquérir des actions passées d'une personne."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Kilaa m gaa yaa wiri n dɔ le",
+      "phonetic_api": "/kilaː m̩ ɡaː jaː wiʁi n̩ dɔ le/",
+      "phonetic_simple": "KI-LAA M GAA YAA WI-RI N DO LE",
+      "translation": "Hier, je suis allé au marché",
+      "context": "Phrase introductive courante dans un récit de vie quotidienne."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Tuumda bɔrɩ le ki",
+      "phonetic_api": "/tuːmda bɔʁɪ le ki/",
+      "phonetic_simple": "TOUM-DA BO-RI LE KI",
+      "translation": "Le travail est entièrement terminé",
+      "context": "Pour acter la clôture définitive d'une activité."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "M mõ n ŋwãa kilaa domire",
+      "phonetic_api": "/m̩ mõ n̩ ŋwãː kilaː dɔmiʁɛ/",
+      "phonetic_simple": "M MON N NGWAA KI-LAA DO-MI-REH",
+      "translation": "J'ai rencontré mon ami hier matin",
+      "context": "Récit d'un événement ponctuel de la veille."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le marqueur de l'accompli passé 'le'",
+      "explanation": "Pour exprimer qu'une action est complètement terminée et ancrée dans le passé, le bissa utilise la particule post-verbale ou finale 'le'. Elle indique la rupture avec le moment présent.",
+      "rules": [
+        "Le marqueur 'le' se place après le verbe ou en fin de proposition narrative.",
+        "Il reste invariable quel que soit le sujet de la phrase.",
+        "En présence d'adverbes comme 'kilaa', son utilisation confirme l'aspect historique de l'action."
+      ],
+      "examples": [
+        {
+          "structure": "M (Je) + gaa (aller) + le (passé) = M gaa le",
+          "phonetic_api": "/m̩ ɡaː le/",
+          "meaning": "Je suis parti / Je suis allé."
+        }
+      ]
+    },
+    {
+      "concept": "La sérialisation verbale de perfectibilité avec 'bɔrɩ'",
+      "explanation": "Quand on souhaite insister sur le fait qu'une action a été menée jusqu'à son terme ultime (aspect perfectif), on associe le verbe d'action principal au verbe de fin 'bɔrɩ' au sein d'une même structure syntaxique.",
+      "rules": [
+        "Verbe d'action principal + Verbe 'bɔrɩ' + Marqueur 'le/ki'.",
+        "Cette construction insiste sur l'état achevé du processus."
+      ],
+      "examples": [
+        {
+          "structure": "Di (Manger) + bɔrɩ (Finir) + le = Di bɔrɩ le",
+          "phonetic_api": "/di bɔʁɪ le/",
+          "meaning": "Avoir fini de manger."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Issa",
+      "text": "Adama, m gẽ bɔ le kilaa ?",
+      "phonetic_api": "/adama m̩ ɟẽ bɔ le kilaː/",
+      "phonetic_simple": "A-DA-MA, M GYEN BO LE KI-LAA ?",
+      "translation": "Adama, qu'as-tu fait hier ?"
+    },
+    {
+      "speaker": "Adama",
+      "text": "Kilaa domire m gaa tuumda le. M gẽ diga pee n dɔ le.",
+      "phonetic_api": "/kilaː dɔmiʁɛ m̩ ɡaː tuːmda le m̩ ɟẽ diɡa peː n̩ dɔ le/",
+      "phonetic_simple": "KI-LAA DO-MI-REH M GAA TOUM-DA LE. M GYEN DI-GA PEE N DO LE.",
+      "translation": "Hier matin, je suis allé au travail. J'ai refait le mur blanc."
+    },
+    {
+      "speaker": "Issa",
+      "text": "M mõ m saa n gaa m wiri bɔ ɔrɔ ?",
+      "phonetic_api": "/m̩ mõ m̩ saː n̩ ɡaː m̩ wiʁi bɔ ɔʁɔ/",
+      "phonetic_simple": "M MON M SAA N GAA M WI-RI BO O-RO ?",
+      "translation": "As-tu vu ton père et tes frères ici ?"
+    },
+    {
+      "speaker": "Adama",
+      "text": "An, m mõ a b fãa le. Tuumda bɔrɩ le ki bisi, m gã bɔ hoorɩ la ki.",
+      "phonetic_api": "/an m̩ mõ a b fãː le tuːmda bɔʁɪ le ki bisi m̩ ɡã bɔ hoːʁɪ la ki/",
+      "phonetic_simple": "AN, M MON A B FAAN LE. TOUM-DA BO-RI LE KI BI-SI, M GAN BO HOO-RI LA KI.",
+      "translation": "Oui, je les ai tous vus. Le travail est complètement terminé, mon cœur se réjouit."
+    }
+  ],
+  "cultural_notes": [
+    "La transmission des récits historiques et des arbres généalogiques chez les Bissa repose sur l'usage précis des structures du passé. Les anciens ('kẽenã bisi') se réunissent sous l'arbre à palabres pour relater les événements mémoriels de la communauté en employant systématiquement ces particules de rupture temporelle.",
+    "Utiliser le verbe 'bɔrɩ' (finir) dans le récit de travail est une marque de respect envers l'effort fourni : déclarer une tâche achevée valorise la contribution de l'individu à la vie économique de la concession."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel adverbe bissa utilise-t-on pour situer une action au jour précédent (hier) ?",
+      "options": [
+        "Hẽe",
+        "Esa",
+        "Kilaa"
+      ],
+      "correct_answer": "Kilaa",
+      "explanation": "'Kilaa' signifie hier, tandis que 'Hẽe' désigne aujourd'hui et 'Esa' demain."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour marquer l'accompli passé d'une action, on ajoute la particule : M gaa [ ___ ].",
+      "correct_answer": "le",
+      "hint": "Le morphème bissa invariable de rupture temporelle passée."
+    }
+  ]
+}

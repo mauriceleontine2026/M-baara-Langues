@@ -1,0 +1,275 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire l'agencement de son logement en utilisant le lexique des pièces et des structures immobilières (LDK)",
+    "Exprimer la localisation relative d'un bien ou d'un service dans sa ville avec des structures spatiales complexes",
+    "Utiliser les adjectifs qualificatifs (types -i et -na) au présent et au passé pour évaluer son cadre de vie"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon introduit le mot 'heya' (chambre/pièce) où le 'h' [h] doit être expiré de manière glottale distincte, et 'shizuka' (calme) qui comporte la fricative alvéolo-palatale sourde [ɕi]. Le terme immobilier standard 'apāto' (appartement) s'écrit en katakana et exige le respect de la voyelle longue sur le 'a' : [a.paː.to].",
+    "common_pitfalls": "Attention à la prononciation du mot 'benri' (pratique) : le 'r' japonais [ɾ] est une consonne battue (proche d'un d/l combiné) et le 'n' [ɲ] s'assimile ici légèrement à la consonne qui le suit. Veillez également à ne pas accentuer le 'o' final de 'bento' ou 'tokoro' de manière excessive."
+  },
+  "housing_layout_focus": [
+    {
+      "term": "LDK (エルディーケー)",
+      "explanation": "Acrone immobilier japonais incontournable signifiant 'Living, Dining, Kitchen'. Un appartement classé '1LDK' possède une chambre fermée en plus d'une grande pièce principale combinant salon, salle à manger et cuisine."
+    },
+    {
+      "term": "和室 (わしつ)",
+      "romaji": "washitsu",
+      "translation": "Pièce traditionnelle japonaise",
+      "description": "Pièce recouverte de tatami (nattes de paille de riz), souvent séparée par des cloisons coulissantes en papier (shōji)."
+    },
+    {
+      "term": "洋室 (ようしつ)",
+      "romaji": "yōshitsu",
+      "translation": "Pièce de style occidental",
+      "description": "Chambre ou salon avec un revêtement de sol moderne (parquet ou moquette) adapté aux meubles occidentaux."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "へや (部屋)",
+      "phonetic_api": "/he.ja/",
+      "phonetic_simple": "HÉ-YA",
+      "translation": "Chambre / Pièce / Pièce d'habitation",
+      "example_sentence": "私の部屋は二階にあります。",
+      "example_phonetic": "/wa.ta.ɕi no he.ja wa ni.ka.i ni a.ɾi.ma.sɯ̥/",
+      "example_translation": "Ma chambre se trouve au premier étage (2F)."
+    },
+    {
+      "word_id": "v2",
+      "term": "アパート",
+      "phonetic_api": "/a.paː.to/",
+      "phonetic_simple": "A-PAA-TO",
+      "translation": "Appartement (généralement dans un bâtiment bas ou en bois)",
+      "example_sentence": "駅から近いアパートに住んでいます。",
+      "example_phonetic": "/e.ki ka.ɾa t͡ɕi.ka.i a.paː.to ni sɯɴ.de i.ma.sɯ̥/",
+      "example_translation": "J'habite dans un appartement proche de la gare."
+    },
+    {
+      "word_id": "v3",
+      "term": "まち (街 / 町)",
+      "phonetic_api": "/ma.t͡ɕi/",
+      "phonetic_simple": "MA-TCHI",
+      "translation": "Ville / Quartier / Centre-ville",
+      "example_sentence": "この街は夜とても賑やかです。",
+      "example_phonetic": "/ko.no ma.t͡ɕi wa jo.ɾɯ to.te.mo ni.ɡi.ja.ka de.sɯ̥/",
+      "example_translation": "Ce quartier est très animé la nuit."
+    },
+    {
+      "word_id": "v4",
+      "term": "べんり (便利)",
+      "phonetic_api": "/beɴ.ɾi/",
+      "phonetic_simple": "BEN-RI",
+      "translation": "Pratique / Commode (Adjectif -na)",
+      "example_sentence": "近くにスーパーがあって便利です。",
+      "example_phonetic": "/t͡ɕi.ka.kɯ ni sɯː.paː ɡa ḁt.te beɴ.ɾi de.sɯ̥/",
+      "example_translation": "C'est pratique car il y a un supermarché à proximité."
+    },
+    {
+      "word_id": "v5",
+      "term": "しずか (静か)",
+      "phonetic_api": "/ɕi.zɯ.ka/",
+      "phonetic_simple": "CHI-ZOU-KA",
+      "translation": "Calme / Paisible (Adjectif -na)",
+      "example_sentence": "ここは静かな住宅街ですね。",
+      "example_phonetic": "/ko.ko wa ɕi.zɯ.ka.na d͡ʑɯː.ta.kɯ.ɡa.i de.sɯ.ne/",
+      "example_translation": "C'est un quartier résidentiel calme, n'est-ce pas ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "ひろい (広い)",
+      "phonetic_api": "/çi.ɾo.i/",
+      "phonetic_simple": "CHI-RO-I",
+      "translation": "Spacieux / Grand / Vaste (Adjectif -i)",
+      "example_sentence": "新しい家はリビングが広いです。",
+      "example_phonetic": "/a.ta.ɾa.ɕiː i.e wa ɾi.biɴ.ɡɯ ɡa çi.ɾo.i de.sɯ̥/",
+      "example_translation": "Le salon de ma nouvelle maison est spacieux."
+    },
+    {
+      "word_id": "v7",
+      "term": "ちんりょう (賃料 / 家賃)",
+      "phonetic_api": "/ja.t͡ɕiɴ/",
+      "phonetic_simple": "YA-TCHIN",
+      "translation": "Loyer (immobilier)",
+      "example_sentence": "東京の家賃は高いです。",
+      "example_phonetic": "/toː.kjoː no ja.t͡ɕi&mu; wa ta.ka.i de.sɯ̥/",
+      "example_translation": "Les loyers à Tokyo sont chers."
+    },
+    {
+      "word_id": "v8",
+      "term": "こうつう (交通)",
+      "phonetic_api": "/koː.t͡sɯː/",
+      "phonetic_simple": "KOO-TSUU",
+      "translation": "Transports / Circulation / Réseau de transport",
+      "example_sentence": "この町は交通が便利です。",
+      "example_phonetic": "/ko.no ma.t͡ɕi wa koː.t͡sɯː ɡa beɴ.ɾi de.sɯ̥/",
+      "example_translation": "Les transports sont très pratiques dans cette ville."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "どんなところに住んでいますか。",
+      "phonetic_api": "/doɴ.na to.ko.ɾo ni sɯɴ.de i.ma.sɯ.ka/",
+      "phonetic_simple": "DON-NA TO-KO-RO NI SOUN-DÉ I-MASS-KA",
+      "translation": "Dans quel genre d'endroit habitez-vous ?",
+      "context": "Question ouverte pour s'intéresser au cadre de vie ou à la ville de son interlocuteur."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "私のマンションは2LDKです。",
+      "phonetic_api": "/wa.ta.ɕi no maɴ.ɕoɴ wa niː e.ɾɯ deː keː de.sɯ̥/",
+      "phonetic_simple": "WA-TA-CHI NO MAN-CHON WA NII É-ROU DÉE KÉE DESS",
+      "translation": "Mon appartement est un 2LDK (salon-cuisine + 2 chambres).",
+      "context": "Décrire précisément la structure et la taille de son logement."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "駅から歩いて十分かかります。",
+      "phonetic_api": "/e.ki ka.ɾa a.ɾɯ.i.te d͡ʑɯ̥p.pɯɴ ka.ka.ɾi.ma.sɯ̥/",
+      "phonetic_simple": "É-KI KA-RA A-RU-I-TÉ DJOUP-POUN KA-KA-RI-MASS",
+      "translation": "Il faut dix minutes à pied depuis la gare.",
+      "context": "Donner une précision sur l'accessibilité géographique de son bien."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "家賃はいくらですか。",
+      "phonetic_api": "/ja.t͡ɕiɴ wa i.kɯ.ɾa de.sɯ.ka/",
+      "phonetic_simple": "YA-TCHIN WA I-KOU-RA DESS-KA",
+      "translation": "À combien s'élève le loyer ?",
+      "context": "Interroger quelqu'un lors d'une recherche d'appartement ou d'une discussion sur l'immobilier."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "この町は治安が良いです。",
+      "phonetic_api": "/ko.no ma.t͡ɕi wa t͡ɕi.aɴ ɡa iː de.sɯ̥/",
+      "phonetic_simple": "KO-NO MA-TCHI WA TCHI-AN GA II DESS",
+      "translation": "Ce quartier / cette ville est très sûr(e) (bonne sécurité).",
+      "context": "Évaluer positivement la sécurité publique de son environnement."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "静かで住みやすいところです。",
+      "phonetic_api": "/ɕi.zɯ.ka de sɯ.mi.ja.sɯ.i to.ko.ɾo de.sɯ̥/",
+      "phonetic_simple": "CHI-ZOU-KA DÉ SOU-MI-YA-SOU-I TO-KO-RO DESS",
+      "translation": "C'est un endroit calme où il fait bon vivre.",
+      "context": "Synthétiser l'appréciation globale de son lieu de vie à l'aide de la forme suspensive de l'adjectif."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "近くに公園や病院があります。",
+      "phonetic_api": "/t͡ɕi.ka.kɯ ni koː.e&mu; ja bjoː.i&mu; ɡa a.ɾi.ma.sɯ̥/",
+      "phonetic_simple": "TCHI-KA-KOU NI KOO-EN YA BYOO-IN GA A-RI-MASS",
+      "translation": "Il y a un parc, un hôpital, etc., à proximité.",
+      "context": "Énumérer de façon non exhaustive (particule ya) les infrastructures de son quartier."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "引っ越しをしたいです。",
+      "phonetic_api": "/çi̥p.ko.ɕi o ɕi.ta.i de.sɯ̥/",
+      "phonetic_simple": "CHIP-KO-CHI O CHI-TA-I DESS",
+      "translation": "J'aimerais déménager.",
+      "context": "Exprimer le souhait de changer de logement (verbe suru à la forme désirative -tai)."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La forme suspensive des adjectifs pour lier des descriptions : ～て / ～で",
+      "explanation": "Pour associer plusieurs qualificatifs ou caractéristiques dans une même phrase sans répéter 'desu', on conjugue l'adjectif intermédiaire. Pour un adjectif en -i, on remplace le '-i' final par '～くて' (kute). Pour un adjectif en -na ou un nom, on remplace la terminaison par '～で' (de).",
+      "rules": [
+        "Adjectif -i : 広[い] ➔ 広くて (hirokute) + [Deuxième info].",
+        "Adjectif -na : 便利[な] ➔ 便利で (benride) + [Deuxième info]."
+      ],
+      "examples": [
+        {
+          "structure": "この部屋は広くて明るいです (Kono heya wa hirokute akarui desu)",
+          "phonetic_api": "/ko.no he.ja wa çi.ɾo.kɯ̥.te a.ka.ɾɯ.i de.sɯ̥/",
+          "meaning": "Cette pièce est spacieuse ET lumineuse."
+        },
+        {
+          "structure": "私の街は便利で静かです (Watashi no machi wa benride shizuka desu)",
+          "phonetic_api": "/wa.ta.ɕi no ma.t͡ɕi wa beɴ.ɾi de ɕi.zɯ.ka de.sɯ̥/",
+          "meaning": "Ma ville est pratique ET calme."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression du lieu de résidence fixe : [Lieu] に 住んでいます (ni sunde imasu)",
+      "explanation": "Pour indiquer le lieu où l'on réside de manière permanente ou stable, on utilise le verbe 住む (sumu) à la forme progressive/résultative '～ています' (te imasu). Le lieu d'ancrage est marqué par la particule de cible 'に' (ni) et non par la particule d'action 'de'.",
+      "rules": [
+        "Structure : [Ville/Logement] に 住んでいます。",
+        "Exprime un état d'habitation actuel."
+      ],
+      "examples": [
+        {
+          "structure": "東京のアパートに住んでいます (Tōkyō no apāto ni sunde imasu)",
+          "phonetic_api": "/toː.kjoː no a.paː.to ni sɯɴ.de i.ma.sɯ̥/",
+          "meaning": "J'habite dans un appartement à Tokyo."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "マルク (Marc)",
+      "text": "ケンさん、新しいアパートはどうですか。住みやすいですか。",
+      "phonetic_api": "/keɴ saɴ a.ta.ɾa.ɕiː a.paː.to wa doː de.sɯ.ka sɯ.mi.ja.sɯ.i de.sɯ.ka/",
+      "phonetic_simple": "KEN SAN, A-TA-RA-CHII A-PAA-TO WA DOO DESS-KA ? SOU-MI-YA-SOU-I DESS-KA ?",
+      "translation": "Ken, comment est ton nouvel appartement ? C'est agréable à vivre ?"
+    },
+    {
+      "speaker": "ケン (Ken)",
+      "text": "はい、とても広くて綺麗ですよ。1LDKで、和室もあります。",
+      "phonetic_api": "/ha.i to.te.mo çi.ɾo.kɯ̥.te ki.ɾeː de.sɯ jo i̥t.t͡ɕi e.ɾɯ deː keː de wa.ɕi̥t͡sɯ mo a.ɾi.ma.sɯ̥/",
+      "phonetic_simple": "HAI, TO-TÉ-MO CHI-RO-KOU-TÉ KI-RÉE DESS YO. IT-TCHI É-ROU DÉE KÉE DÉ, WA-CHIT-SOU MO A-RI-MASS.",
+      "translation": "Oui, il est très grand et propre. C'est un 1LDK, et il y a même une pièce traditionnelle en tatami."
+    },
+    {
+      "speaker": "マルク (Marc)",
+      "text": "いいですね！街の雰囲気はどうですか。便利ですか。",
+      "phonetic_api": "/iː de.sɯ.ne ma.t͡ɕi no ɸɯɴ.iː.ki wa doː de.sɯ.ka beɴ.ɾi de.sɯ.ka/",
+      "phonetic_simple": "II DESS NÉ ! MA-TCHI NO FOUN-II-KI WA DOO DESS-KA ? BEN-RI DESS-KA ?",
+      "translation": "Super ! Et comment est l'ambiance du quartier ? C'est pratique ?"
+    },
+    {
+      "speaker": "ケン (Ken)",
+      "text": "ええ、駅の近くで便利ですが、夜はちょっと賑やかすぎますね。",
+      "phonetic_api": "/eː e.ki no t͡ɕi.ka.kɯ de beμ.ɾi de.sɯ ɡa jo.ɾɯ wa t͡ɕo̥t.to ni.ɡi.ja.ka sɯ.ɡi.ma.sɯ.ne/",
+      "phonetic_simple": "ÉE, É-KI NO TCHI-KA-KOU DÉ BEN-RI DESS GA, YO-ROU WA TCHOT-TO NI-GI-YA-KA SOU-GI-MASS NÉ.",
+      "translation": "Oui, c'est pratique car c'est près de la gare, mais le quartier est un peu trop bruyant la nuit."
+    }
+  ],
+  "cultural_notes": [
+    "Au Japon, lors de la signature d'un bail immobilier, les locataires doivent s'acquitter de frais spécifiques traditionnels en plus du dépôt de garantie. Le 'Reikin' (礼金), ou 'argent de gratitude', est une somme équivalente à 1 ou 2 mois de loyer versée à fonds perdus au propriétaire pour le remercier de louer son bien.",
+    "La superficie des pièces au Japon, en particulier pour les pièces traditionnelles (Washitsu), se mesure souvent en nombre de tatamis (unité 'jō' - 畳). Un tatami standard mesure environ 1,8m x 0,9m."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment liez-vous correctement les deux adjectifs suivants pour dire : 'Ma ville est calme (静か) ET propre (綺麗)' ?",
+      "options": [
+        "静かくて綺麗です (Shizukakute kirei desu)",
+        "静かで綺麗です (Shizukade kirei desu)",
+        "静かに綺麗です (Shizukani kirei desu)"
+      ],
+      "correct_answer": "静かで綺麗です (Shizukade kirei desu)",
+      "explanation": "'Shizuka' étant un adjectif en -na, sa forme suspensive pour lier deux propositions s'écrit en ajoutant 'de'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "私は京都[ ___ ]住んでいます。(J'habite à Kyoto)",
+      "correct_answer": "に",
+      "hint": "Il s'agit de la particule de cible spatiale requise avec le verbe 'sunde imasu'."
+    }
+  ]
+}

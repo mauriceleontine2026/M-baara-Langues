@@ -1,0 +1,232 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer (les directions)",
+  "learning_objectives": [
+    "Savoir demander la direction d'un lieu important",
+    "Comprendre et utiliser les repères spatiaux de base en wamey",
+    "Savoir s'orienter dans un village ou un marché"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne occlusive injective alvéolaire /ɗ/ et la nasale palatale /ɲ/ (comme dans 'gn'). L'accent tonique est placé sur la première syllabe du radical.",
+    "common_pitfalls": "Veillez à bien claquer le /ɗ/ injectif en retirant de l'air vers la gorge au lieu de prononcer un /d/ standard."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "kwaɗ",
+      "phonetic_api": "/kwaɗ/",
+      "phonetic_simple": "KOUAD",
+      "translation": "chemin / route",
+      "example_sentence": "Kwaɗ i boka.",
+      "example_phonetic": "/kwaɗ i boka/",
+      "example_translation": "Le chemin est bon."
+    },
+    {
+      "word_id": "v2",
+      "term": "saax",
+      "phonetic_api": "/saːχ/",
+      "phonetic_simple": "SAAKH",
+      "translation": "maison / village",
+      "example_sentence": "Nyi gwa saax.",
+      "example_phonetic": "/ɲi ɡwa saːχ/",
+      "example_translation": "Je vais au village."
+    },
+    {
+      "word_id": "v3",
+      "term": "marse",
+      "phonetic_api": "/maʁse/",
+      "phonetic_simple": "MAR-SÉ",
+      "translation": "marché",
+      "example_sentence": "Marse i loda.",
+      "example_phonetic": "/maʁse i loda/",
+      "example_translation": "Le marché est loin."
+    },
+    {
+      "word_id": "v4",
+      "term": "boka",
+      "phonetic_api": "/boka/",
+      "phonetic_simple": "BO-KA",
+      "translation": "droite / bon",
+      "example_sentence": "Gwa ra boka.",
+      "example_phonetic": "/ɡwa ʁa boka/",
+      "example_translation": "Va à droite."
+    },
+    {
+      "word_id": "v5",
+      "term": "gaacée",
+      "phonetic_api": "/ɡaːt͡ʃeː/",
+      "phonetic_simple": "GAA-TCHÉÉ",
+      "translation": "gauche",
+      "example_sentence": "Gwa ra gaacée.",
+      "example_phonetic": "/ɡwa ʁa ɡaːt͡ʃeː/",
+      "example_translation": "Va à gauche."
+    },
+    {
+      "word_id": "v6",
+      "term": "loda",
+      "phonetic_api": "/loda/",
+      "phonetic_simple": "LO-DA",
+      "translation": "loin",
+      "example_sentence": "Youkounkoun i loda.",
+      "example_phonetic": "/jukuŋkun i loda/",
+      "example_translation": "Youkounkoun est loin."
+    },
+    {
+      "word_id": "v7",
+      "term": "betya",
+      "phonetic_api": "/bɛtja/",
+      "phonetic_simple": "BÉ-TYA",
+      "translation": "près / à côté",
+      "example_sentence": "I betya ra mi.",
+      "example_phonetic": "/i bɛtja ʁa mi/",
+      "example_translation": "C'est près de moi."
+    },
+    {
+      "word_id": "v8",
+      "term": "farye",
+      "phonetic_api": "/faʁje/",
+      "phonetic_simple": "FAR-YÉ",
+      "translation": "devant",
+      "example_sentence": "Gwa ra farye.",
+      "example_phonetic": "/ɡwa ʁa faʁje/",
+      "example_translation": "Va devant (tout droit)."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Marse i fene ?",
+      "phonetic_api": "/maʁse i fɛnɛ/",
+      "phonetic_simple": "MAR-SÉ I FÉ-NÉ ?",
+      "translation": "Où est le marché ?",
+      "context": "Demander une localisation dans le village."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Nyi tyekwa kwaɗ ra marse.",
+      "phonetic_api": "/ɲi tjɛkwa kwaɗ ʁa maʁse/",
+      "phonetic_simple": "NYI TYÉ-KOUA KOUAD RA MAR-SÉ",
+      "translation": "Je cherche le chemin du marché.",
+      "context": "Aborder quelqu'un sur la route."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Gwa farye gouè.",
+      "phonetic_api": "/ɡwa faʁje ɡwɛ/",
+      "phonetic_simple": "GOUA FAR-YÉ GOUÈ",
+      "translation": "Va tout droit.",
+      "context": "Donner une instruction de direction."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "I loda mba ?",
+      "phonetic_api": "/i loda mba/",
+      "phonetic_simple": "I LO-DA MBA ?",
+      "translation": "Est-ce que c'est très loin ?",
+      "context": "S'enquérir de la distance."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "I loda gba.",
+      "phonetic_api": "/i loda ɡba/",
+      "phonetic_simple": "I LO-DA GBA",
+      "translation": "Ce n'est pas loin.",
+      "context": "Rassurer sur la distance."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'interrogatif de lieu 'fene'",
+      "explanation": "Le mot 'fene' (où) se place généralement après le sujet ou le verbe pour marquer la localisation recherchée.",
+      "rules": [
+        "Sujet + i + fene ? (Pour les noms inanimés ou les lieux)",
+        "La particule 'i' sert de connecteur prédicatif."
+      ],
+      "examples": [
+        {
+          "structure": "Saax i fene ?",
+          "phonetic_api": "/saːχ i fɛnɛ/",
+          "meaning": "Où est la maison / le village ?"
+        }
+      ]
+    },
+    {
+      "concept": "La préposition de direction 'ra'",
+      "explanation": "Le morphème 'ra' indique la direction, le ciblage spatial ou l'orientation (vers, à, en direction de).",
+      "rules": [
+        "Placé immédiatement devant le mot de direction ou le lieu de destination."
+      ],
+      "examples": [
+        {
+          "structure": "ra boka",
+          "phonetic_api": "/ʁa boka/",
+          "meaning": "à droite"
+        },
+        {
+          "structure": "ra gaacée",
+          "phonetic_api": "/ʁa ɡaːt͡ʃeː/",
+          "meaning": "à gauche"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Ryambé ! Nyi tyekwa kwaɗ ra lopital.",
+      "phonetic_api": "/jambɛ ɲi tjɛkwa kwaɗ ʁa lopital/",
+      "phonetic_simple": "RYAM-BÉ ! NYI TYÉ-KOUA KOUAD RA LO-PI-TAL",
+      "translation": "Bonjour ! Je cherche le chemin de l'hôpital."
+    },
+    {
+      "speaker": "Mady",
+      "text": "Ryambé gouè ! Gwa farye, tyi gwa ra boka.",
+      "phonetic_api": "/jambɛ ɡwɛ ɡwa faʁje tji ɡwa ʁa boka/",
+      "phonetic_simple": "RYAM-BÉ GOUÈ ! GOUA FAR-YÉ, TYI GOUA RA BO-KA",
+      "translation": "Bonjour (en paix) ! Va tout droit, puis va à droite."
+    },
+    {
+      "speaker": "Samba",
+      "text": "I loda mba ?",
+      "phonetic_api": "/i loda mba/",
+      "phonetic_simple": "I LO-DA MBA ?",
+      "translation": "Est-ce loin ?"
+    },
+    {
+      "speaker": "Mady",
+      "text": "Gba, i betya ra saax.",
+      "phonetic_api": "/ɡba i bɛtja ʁa saːχ/",
+      "phonetic_simple": "GBA, I BÉ-TYA RA SAAKH",
+      "translation": "Non, c'est près du village."
+    }
+  ],
+  "cultural_notes": [
+    "En pays Konyagi (Wamey), l'orientation se fait souvent par rapport à des repères géographiques naturels (arbres remarquables, collines) ou communautaires (la place du marché, les grands manguiers) plutôt que par des noms de rues.",
+    "Il est d'usage de saluer chaleureusement la personne avant de lui demander son chemin, l'omission des salutations étant perçue comme un manque de respect."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L7_EX1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'expression 'Gwa ra gaacée' ?",
+      "options": [
+        "Va à droite",
+        "Va à gauche",
+        "Va tout droit"
+      ],
+      "correct_answer": "Va à gauche",
+      "explanation": "'Gaacée' signifie gauche, et 'ra' indique la direction."
+    },
+    {
+      "exercise_id": "A1_M3_L7_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Marse ___ fene ?",
+      "correct_answer": "i",
+      "hint": "Le connecteur prédicatif obligatoire pour demander 'où se trouve'."
+    }
+  ]
+}

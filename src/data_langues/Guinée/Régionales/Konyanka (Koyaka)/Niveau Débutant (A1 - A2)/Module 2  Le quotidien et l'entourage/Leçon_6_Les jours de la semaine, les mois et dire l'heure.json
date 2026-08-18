@@ -1,0 +1,189 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer les sept jours de la semaine en konyanka",
+    "Comprendre la notion de mois et de division du temps",
+    "Demander et indiquer des repères temporels simples de la journée"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne double /nt/ se prononce d'un seul bloc articulatoire très court. La voyelle ouverte /ɔ/ (comme dans 'nka' ou 'tɔ') s'articule distinctement vers l'arrière de la cavité buccale. Faites attention à la douceur du /h/ aspiré dans les jours empruntés à la tradition arabo-islamique.",
+    "common_pitfalls": "Veillez à ne pas prononcer le 'g' final ou intermédiaire comme un son dur /g/ franc, mais plutôt comme une légère marque de nasalisation ou d'aspiration douce propre aux parlers mandingues de Guinée."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Ntɛnɛn",
+      "phonetic_api": "/n.tɛ.nɛ̃/",
+      "phonetic_simple": "N-TÈ-NÈN",
+      "translation": "Lundi",
+      "example_sentence": "Ntɛnɛn lon, n'bɛ bara la.",
+      "example_phonetic": "/n.tɛ.nɛ̃ lɔ̃ mbɛ ba.ra la/",
+      "example_translation": "Lundi, je suis au travail."
+    },
+    {
+      "word_id": "v2",
+      "term": "Arafe",
+      "phonetic_api": "/a.ra.fe/",
+      "phonetic_simple": "A-RA-FÉ",
+      "translation": "Mercredi",
+      "example_sentence": "Arafe lon, u bɛ na.",
+      "example_phonetic": "/a.ra.fe lɔ̃ u bɛ na/",
+      "example_translation": "Mercredi, ils viendront."
+    },
+    {
+      "word_id": "v3",
+      "term": "Juma",
+      "phonetic_api": "/d͡ʒu.ma/",
+      "phonetic_simple": "DJOU-MA",
+      "translation": "Vendredi",
+      "example_sentence": "Juma ye seli lon di.",
+      "example_phonetic": "/d͡ʒu.ma jɛ se.li lɔ̃ di/",
+      "example_translation": "Le vendredi est un jour de prière."
+    },
+    {
+      "word_id": "v4",
+      "term": "Kalo",
+      "phonetic_api": "/ka.lo/",
+      "phonetic_simple": "KA-LO",
+      "translation": "Mois / Lune",
+      "example_sentence": "Kalo kura bɔra.",
+      "example_phonetic": "/ka.lo ku.ra bɔ.ra/",
+      "example_translation": "Le nouveau mois a commencé (la nouvelle lune est sortie)."
+    },
+    {
+      "word_id": "v5",
+      "term": "Tile",
+      "phonetic_api": "/ti.le/",
+      "phonetic_simple": "TI-LÉ",
+      "translation": "Soleil / Journée / Heure",
+      "example_sentence": "Tile bɛ afɛ.",
+      "example_phonetic": "/ti.le bɛ a.fɛ/",
+      "example_translation": "Le soleil brille."
+    },
+    {
+      "word_id": "v6",
+      "term": "Lon",
+      "phonetic_api": "/lɔ̃/",
+      "phonetic_simple": "LON",
+      "translation": "Jour (unité de temps)",
+      "example_sentence": "Lon kelen bara.",
+      "example_phonetic": "/lɔ̃ ke.lẽ ba.ra/",
+      "example_translation": "Un jour de travail."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Bi ye lon juman di?",
+      "phonetic_api": "/bi jɛ lɔ̃ d͡ʒu.mã di/",
+      "phonetic_simple": "BI YÈ LON DJOU-MAN DI",
+      "translation": "Quel jour sommes-nous aujourd'hui ?",
+      "context": "Question usuelle du matin pour se repérer dans la semaine."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Bi ye ntɛnɛn le di.",
+      "phonetic_api": "/bi jɛ n.tɛ.nɛ̃ le di/",
+      "phonetic_simple": "BI YÈ N-TÈ-NÈN LÉ DI",
+      "translation": "Aujourd'hui, c'est lundi.",
+      "context": "Réponse immédiate désignant le jour actuel."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Tile joli bɔra?",
+      "phonetic_api": "/ti.le d͡ʒo.li bɔ.ra/",
+      "phonetic_simple": "TI-LÉ DJO-LI BƆ-RA",
+      "translation": "Quelle heure est-il ? (litt. combien de soleil est sorti ?)",
+      "context": "Façon traditionnelle et courante de demander l'heure ou la position du soleil."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Tile lolu bɔra.",
+      "phonetic_api": "/ti.le lo.lu bɔ.ra/",
+      "phonetic_simple": "TI-LÉ LO-LOU BƆ-RA",
+      "translation": "Il est cinq heures (ou la cinquième étape du soleil).",
+      "context": "Réponse indiquant le repère temporel de la journée."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le mot 'lon' pour construire le jour de la semaine",
+      "explanation": "Pour désigner explicitement qu'un terme est un jour particulier, on lui accole fréquemment le marqueur temporel 'lon' (jour) juste après la racine du nom du jour.",
+      "rules": [
+        "Structure : Nom du jour + lon (ex: Juma + lon = Jumalon, le jour de vendredi).",
+        "Pour demander la nature d'un jour, l'interrogatif 'juman' (lequel) se place après 'lon'."
+      ],
+      "examples": [
+        {
+          "structure": "Lon juman?",
+          "phonetic_api": "/lɔ̃ d͡ʒu.mã/",
+          "meaning": "Quel jour ?"
+        },
+        {
+          "structure": "Sibiri lon",
+          "phonetic_api": "/si.bi.ri lɔ̃/",
+          "meaning": "Le jour de samedi"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ibrahima",
+      "text": "Moussa, bi ye lon juman di?",
+      "phonetic_api": "/mu.sa bi jɛ lɔ̃ d͡ʒu.mã di/",
+      "phonetic_simple": "MOU-SA, BI YÈ LON DJOU-MAN DI",
+      "translation": "Moussa, quel jour sommes-nous aujourd'hui ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Bi ye juma di. I tɛ seli la?",
+      "phonetic_api": "/bi jɛ d͡ʒu.ma di i tɛ se.li la/",
+      "phonetic_simple": "BI YÈ DJOU-MA DI. I TÈ SÉ-LI LA",
+      "translation": "Aujourd'hui c'est vendredi. Tu ne vas pas prier ?"
+    },
+    {
+      "speaker": "Ibrahima",
+      "text": "Hali, tile joli bɔra seli ma?",
+      "phonetic_api": "/ha.li ti.le d͡ʒo.li bɔ.ra se.li ma/",
+      "phonetic_simple": "HA-LI, TI-LÉ DJO-LI BƆ-RA SÉ-LI MA",
+      "translation": "Oui, quelle heure est-il pour la prière ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Tile saba bɔra.",
+      "phonetic_api": "/ti.le sa.ba bɔ.ra/",
+      "phonetic_simple": "TI-LÉ SA-BA BƆ-RA",
+      "translation": "Il est trois heures (de l'après-midi, heure habituelle de la prière)."
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Konyanka, le repérage du temps est historiquement indexé sur la course du soleil ('tile') et les cycles de la lune ('kalo'). Les noms des jours (Ntɛnɛn, Talata, Arafe, Alamisa, Juma, Sibiri, Kari) proviennent d'influences partagées avec les grands marchés mandingues et le calendrier islamique."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'Kalo' ?",
+      "options": [
+        "Le soleil / L'heure",
+        "Le mois / La lune",
+        "L'année"
+      ],
+      "correct_answer": "Le mois / La lune",
+      "explanation": "'Kalo' désigne l'astre lunaire et sert de base pour compter les mois."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Bi ye [ ___ ] le di (Aujourd'hui, c'est lundi).",
+      "correct_answer": "ntɛnɛn",
+      "hint": "Le mot commence par 'nt'"
+    }
+  ]
+}

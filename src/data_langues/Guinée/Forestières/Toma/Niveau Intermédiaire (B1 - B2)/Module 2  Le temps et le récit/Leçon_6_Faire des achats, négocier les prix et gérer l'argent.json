@@ -1,0 +1,133 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Mener une scène complète de marchandage au marché en toma",
+    "Exprimer le coût, la cherté ou une proposition de réduction de prix"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La structure du mot pour l'argent 'gbeleyi' demande une prononciation fluide du groupe consonantique initial labio-vélaire sonore /ɡb/.",
+    "common_pitfalls": "Ne pas prononcer 'gbe' comme deux syllabes séparées. Le bloc de consonnes est un seul et unique son occlusif."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v15_1",
+      "term": "gbeleyi",
+      "phonetic_api": "/ɡbɛ.lɛ.ji/",
+      "phonetic_simple": "GBE-LE-YI",
+      "translation": "argent / devise / coût",
+      "example_sentence": "Gbeleyi pɛ́ na yee.",
+      "example_phonetic": "/ɡbɛ.lɛ.ji pɛ́ na jeː/",
+      "example_translation": "Je n'ai pas d'argent sur moi."
+    },
+    {
+      "word_id": "v15_2",
+      "term": "gaza-ba",
+      "phonetic_api": "/ɡa.za.ba/",
+      "phonetic_simple": "GA-ZA-BA",
+      "translation": "cher / coûteux (grand prix)",
+      "example_sentence": "Ni lɔ gaza-ba gaza.",
+      "example_phonetic": "/ni lɔ ɡa.za.ba ɡa.za/",
+      "example_translation": "Ceci est excessivement cher."
+    },
+    {
+      "word_id": "v15_3",
+      "term": "zoo",
+      "phonetic_api": "/zoː/",
+      "phonetic_simple": "ZOO",
+      "translation": "baisser / diminuer (le prix)",
+      "example_sentence": "Kwɛnɛ gbeleyi zoo.",
+      "example_phonetic": "/kpɛ.nɛ ɡbɛ.lɛ.ji zoː/",
+      "example_translation": "S'il te plaît, diminue le prix."
+    },
+    {
+      "word_id": "v15_4",
+      "term": "sañ-nu",
+      "phonetic_api": "/sã.nu/",
+      "phonetic_simple": "SAN-NOU",
+      "translation": "acheteur / client",
+      "example_sentence": "Sañ-nu va-na ɓɛñ.",
+      "example_phonetic": "/sã.nu va.na ɓɛ̃/",
+      "example_translation": "Le client est arrivé ici."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p15_1",
+      "original": "Gbeleyi lɔsa lɔ ni ma?",
+      "phonetic_api": "/ɡbɛ.lɛ.ji lɔ.sa lɔ ni ma/",
+      "phonetic_simple": "GBE-LE-YI LO-SA LO NI MA",
+      "translation": "Quel est le montant en argent pour ceci ?",
+      "context": "Phrase type du niveau B1 pour demander le prix exact d'une marchandise."
+    },
+    {
+      "phrase_id": "p15_2",
+      "original": "Zoo kwɛnɛ, na va sañ.",
+      "phonetic_api": "/zoː kpɛ.nɛ na va sã/",
+      "phonetic_simple": "ZOO KPE-NE NA VA SAN",
+      "translation": "Diminue s'il te plaît, et j'achèterai.",
+      "context": "Argument phare du marchandage sur l'étalage."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'excès et de la quantification de valeur",
+      "explanation": "Pour stipuler qu'un prix dépasse la norme, on adjoint le morphème redoublé ou intensifié 'gaza-ba' (grand-père / immense) agissant comme un superlatif de valeur.",
+      "rules": [
+        "L'intensificateur se place immédiatement après l'affirmation du coût.",
+        "Dans une négociation, l'impératif direct s'emploie poliment en associant 'kwɛnɛ' (s'il te plaît) en début ou en fin de phrase."
+      ],
+      "examples": [
+        {
+          "structure": "gbeleyi gaza-ba",
+          "phonetic_api": "/ɡbɛ.lɛ.ji ɡa.za.ba/",
+          "meaning": "coût trop élevé / cher"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Vendeur",
+      "text": "Seɓe ni, gbeleyi lɔsa lɔ i lo ga?",
+      "phonetic_api": "/sɛ.ɓɛ ni ɡbɛ.lɛ.ji lɔ.sa lɔ i lo ɡa/",
+      "phonetic_simple": "SE-BE NI GBE-LE-YI LO-SA LO I LO GA",
+      "translation": "Ce vêtement, quel prix veux-tu y mettre ?"
+    },
+    {
+      "speaker": "Sia",
+      "text": "Ni lɔ gaza-ba. Zoo kwɛnɛ, na gbeleyi ve.",
+      "phonetic_api": "/ni lɔ ɡa.za.ba zoː kpɛ.nɛ na ɡbɛ.lɛ.ji vɛ/",
+      "phonetic_simple": "NI LO GA-ZA-BA! ZOO KPE-NE NA GBE-LE-YI VE",
+      "translation": "C'est trop cher. Diminue s'il te plaît, et je donnerai l'argent."
+    }
+  ],
+  "cultural_notes": [
+    "En Guinée forestière, fixer un prix sans discussion préalable est rare sur les marchés traditionnels. La négociation (marchandage) est perçue comme un échange hautement social et courtois qui valorise la relation humaine entre acheteur et vendeur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex15_1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'argent' en langue toma ?",
+      "options": [
+        "gbeleyi",
+        "mɔlɔ",
+        "seɓe"
+      ],
+      "correct_answer": "gbeleyi",
+      "explanation": "'gbeleyi' est le terme universel pour désigner l'argent et la monnaie."
+    },
+    {
+      "exercise_id": "ex15_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] kwɛnɛ, ni lɔ gaza-ba (Diminue s'il te plaît, c'est trop cher).",
+      "correct_answer": "Zoo",
+      "hint": "Le verbe désignant l'acte de baisser ou faire descendre une valeur."
+    }
+  ]
+}

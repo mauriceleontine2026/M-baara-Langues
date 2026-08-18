@@ -1,0 +1,272 @@
+{
+  "lesson_id": "B1_M1_L3",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 3,
+  "title": "Exprimer ses goûts, ses préférences et ses sentiments",
+  "learning_objectives": [
+    "Exprimer une nuance de préférence claire entre deux ou plusieurs éléments avec les structures 'hō ga suki' et 'no naka de'",
+    "Décrire des états émotionnels et des sentiments intimes en utilisant des adjectifs psychologiques et des structures verbales adaptées",
+    "Nuancer l'expression de ses sentiments en utilisant des adverbes d'intensité moyenne à avancée"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en pratique l'adjectif 'ureshii' (heureux/joyeux) qui comporte une fricative alvéolo-palatale sourde [ɕiː] allongée. Le mot 'kanashii' (triste) partage cette même structure rythmique finale. Pour le mot 'hō' (direction/option) dans la structure de préférence, veillez à marquer un allongement net de la voyelle : [hoː].",
+    "common_pitfalls": "Attention à la prononciation de 'kirai' (détester) : le 'r' [ɾ] est battu et ne doit pas ressembler à un 'r' français. Ne confondez pas non plus la structure interrogative 'dochira' [do.t͡ɕi.ɾa] (lequel des deux) avec 'doko' (où)."
+  },
+  "emotional_nuance_focus": [
+    {
+      "term": "うれしい (嬉しい)",
+      "romaji": "ureshii",
+      "translation": "Heureux / Content (joie ponctuelle)",
+      "description": "Exprime une joie vive causée par un événement précis ou une bonne nouvelle immédiate (ex: recevoir un cadeau)."
+    },
+    {
+      "term": "しあわせ (幸せ)",
+      "romaji": "shiawase",
+      "translation": "Heureux (bonheur durable)",
+      "description": "Adjectif en -na qualifiant un état de bonheur profond, stable et spirituel dans la vie en général."
+    },
+    {
+      "term": "なつかしい (懐かしい)",
+      "romaji": "natsukashii",
+      "translation": "Nostalgique / Qui rappelle de bons souvenirs",
+      "description": "Sentiment chaleureux très courant au Japon lorsque l'on revoit un vieil objet, un ami d'enfance ou un lieu du passé."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "どちら",
+      "phonetic_api": "/do.t͡ɕi.ɾa/",
+      "phonetic_simple": "DO-TCHI-RA",
+      "translation": "Lequel des deux (choix restrictif)",
+      "example_sentence": "肉と魚と、どちらが好きですか。",
+      "example_phonetic": "/ni.kɯ to sa.ka.na to do.t͡ɕi.ɾa ɡa sɯ.ki de.sɯ.ka/",
+      "example_translation": "Entre la viande et le poisson, lequel préfères-tu ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "～のほうが好き (～の方等が好き)",
+      "phonetic_api": "/no hoː ɡa sɯ.ki/",
+      "phonetic_simple": "NO HOO GA SOU-KI",
+      "translation": "Préférer... / Être plus de l'avis de...",
+      "example_sentence": "私は魚のほうが好きです。",
+      "example_phonetic": "/wa.ta.ɕi wa sa.ka.na no hoː ɡa sɯ.ki de.sɯ̥/",
+      "example_translation": "Moi, je préfère le poisson."
+    },
+    {
+      "word_id": "v3",
+      "term": "いちばん (一番)",
+      "phonetic_api": "/i.t͡ɕi.baɴ/",
+      "phonetic_simple": "I-TCHI-BAN",
+      "translation": "Le plus / Le premier / Le meilleur (superlatif)",
+      "example_sentence": "一年の中で夏が一番好きです。",
+      "example_phonetic": "/i̥t.t͡ɕi.neɴ no na.ka de na.t͡sɯ ɡa i.t͡ɕi.baɴ sɯ.ki de.sɯ̥/",
+      "example_translation": "Dans l'année, c'est l'été que j'aime le plus."
+    },
+    {
+      "word_id": "v4",
+      "term": "うれしい (嬉しい)",
+      "phonetic_api": "/ɯ.ɾe.ɕiː/",
+      "phonetic_simple": "OU-RÉ-CHII",
+      "translation": "Heureux / Content / Ravi (Adjectif -i)",
+      "example_sentence": "合格して、とても嬉しいです。",
+      "example_phonetic": "/ɡoː.ka.kɯ̥ ɕi.te to.te.mo ɯ.ɾe.ɕiː de.sɯ̥/",
+      "example_translation": "J'ai réussi l'examen, je suis tellement content."
+    },
+    {
+      "word_id": "v5",
+      "term": "かなしい (悲しい)",
+      "phonetic_api": "/ka.na.ɕiː/",
+      "phonetic_simple": "KA-NA-CHII",
+      "translation": "Triste / Douloureux (Adjectif -i)",
+      "example_sentence": "悲しい映画を見て泣きました。",
+      "example_phonetic": "/ka.na.ɕiː eː.ɡa o mi.te na.ki.ma.ɕi.ta/",
+      "example_translation": "J'ai pleuré en regardant un film triste."
+    },
+    {
+      "word_id": "v6",
+      "term": "しんぱい (心配 / 心配します)",
+      "phonetic_api": "/ɕiɴ.pa.i/",
+      "phonetic_simple": "CHIN-PA-I",
+      "translation": "Inquiet / S'inquiéter (Adjectif -na / Verbe)",
+      "example_sentence": "家族の健康が心配です。",
+      "example_phonetic": "/ka.zo.kɯ no keɴ.koː ɡa ɕiɴ.pa.i de.sɯ̥/",
+      "example_translation": "Je m'inquiète pour la santé de ma famille."
+    },
+    {
+      "word_id": "v7",
+      "term": "あんしん (安心 / 安心します)",
+      "phonetic_api": "/aɴ.ɕiɴ/",
+      "phonetic_simple": "AN-CHIN",
+      "translation": "Rassuré / Soulagé (Adjectif -na / Verbe)",
+      "example_sentence": "声を聞いて安心しました。",
+      "example_phonetic": "/ko.e o kiː.te a|&mu;.ɕiɴ ɕi.ma.ɕi.ta/",
+      "example_translation": "J'ai été rassuré d'entendre votre voix."
+    },
+    {
+      "word_id": "v8",
+      "term": "とくに (特に)",
+      "phonetic_api": "/to.kɯ.ni/",
+      "phonetic_simple": "TO-KOU-NI",
+      "translation": "Particulièrement / Surtout / En particulier",
+      "example_sentence": "日本の料理、特に寿司が好きです。",
+      "example_phonetic": "/ni.hoɴ no ɾjoː.ɾi to.kɯ.ni sɯ.ɕi ɡa sɯ.ki de.sɯ̥/",
+      "example_translation": "J'aime la cuisine japonaise, en particulier les sushis."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "紅茶とコーヒーと、どちらに nomination ?",
+      "phonetic_api": "/koː.t͡ɕa to koː.çiː to do.t͡ɕi.ɾa ɡa iː de.sɯ.ka/",
+      "phonetic_simple": "KOO-TCHA TO KOO-HII TO, DO-TCHI-RA GA II DESS-KA",
+      "translation": "Entre le thé et le café, lequel préférez-vous ?",
+      "context": "Proposer poliment un choix de boisson à un invité."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "コーヒーのほうが好きです。",
+      "phonetic_api": "/koː.çiː no hoː ɡa sɯ.ki de.sɯ̥/",
+      "phonetic_simple": "KOO-HII NO HOO GA SOU-KI DESS",
+      "translation": "Je préfère le café.",
+      "context": "Répondre clairement à un choix alternatif entre deux éléments."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "スポーツの中で何が一番好きですか。",
+      "phonetic_api": "/sɯ.poː.t͡sɯ no na.ka de na.ni ɡa i.t͡ɕi.ba&mu; sɯ.ki de.sɯ.ka/",
+      "phonetic_simple": "SOU-POO-TSOU NO NA-KA DÉ NA-NI GA I-TCHI-BAN SOU-KI DESS-KA",
+      "translation": "Parmi tous les sports, lequel aimes-tu le plus ?",
+      "context": "Interroger sur une préférence absolue au sein d'un grand groupe d'éléments."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "彼女に会えなくて寂しいです。",
+      "phonetic_api": "/ka.no.d͡ʑo ni a.e.na.kɯ̥.te sa.bi.ɕiː de.sɯ̥/",
+      "phonetic_simple": "KA-NO-DJO NI A-É-NA-KOU-TÉ SA-BI-CHII DESS",
+      "translation": "Je me sens seul car je ne peux pas la voir.",
+      "context": "Exprimer la tristesse du manque ou de la solitude (adjectif sabishii)."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "明日、初めての面接なので緊張しています。",
+      "phonetic_api": "/a.ɕi.ta ha.d͡ʑi.me.te no meɴ.se̥t͡sɯ na.no.de kiɴ.t͡ɕoː ɕi.te i.ma.sɯ̥/",
+      "phonetic_simple": "A-CHI-TA, HA-DJI-MÉ-TÉ NO MEN-SETS-OU NA-NO-DÉ KIN-CHOO CHI-TÉ I-MASS",
+      "translation": "Demain c'est mon premier entretien, donc je suis stressé / tendu.",
+      "context": "Exprimer le trac ou la tension psychologique avec le verbe 'kinchō suru'."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "あまり心配しないでください。",
+      "phonetic_api": "/a.ma.ɾi ɕiɴ.pa.i ɕi.na.i de kɯ.da.sa.i/",
+      "phonetic_simple": "A-MA-RI CHIN-PA-I CHI-NA-I DÉ KOU-DA-SA-I",
+      "translation": "Ne vous inquiétez pas trop s'il vous plaît.",
+      "context": "Rassurer un ami ou un collègue qui traverse une phase de stress."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "本当に素晴らしいニュースですね！",
+      "phonetic_api": "/hoɴ.toː ni sɯ.ba.ra.ɕiː njuː.sɯ de.sɯ.ne/",
+      "phonetic_simple": "HON-TOO NI SOU-BA-RA-CHII NYUU-SOU DESS-NÉ",
+      "translation": "C'est une nouvelle vraiment fantastique !",
+      "context": "Partager une joie immense ou féliciter vivement quelqu'un."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "それはちょっと残念ですね。",
+      "phonetic_api": "/so.le wa t͡ɕo̥t.to za&mu;.ne&mu; de.sɯ.ne/",
+      "phonetic_simple": "SO-RÉ WA TCHOT-TO ZAN-NEN DESS-NÉ",
+      "translation": "C'est un peu regrettable / C'est bien dommage.",
+      "context": "Exprimer de la déception ou de la sympathie face à un contretemps subi par autrui."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la préférence alternative : [Nom A] と [Nom B] と、どちらが好きですか",
+      "explanation": "Pour interroger quelqu'un sur sa préférence exclusive entre deux éléments bien définis, on liste les deux options suivies de la particule と (to), puis on emploie le pronom interrogatif どちら (dochira). La réponse se structure invariablement en accolant la formule のほうが好きです (no hō ga suki desu) à l'option choisie.",
+      "rules": [
+        "Structure question : A と B と、どちら が [Adjectif] ですか。",
+        "Structure réponse : [Option choisie] の ほう が [Adjectif] です。"
+      ],
+      "examples": [
+        {
+          "structure": "猫と犬と、どちらが好きですか。➔ 犬のほうが好きです。",
+          "phonetic_api": "/ne.ko to i.nɯ to do.t͡ɕi.ɾa ɡa sɯ.ki de.sɯ.ka/ ➔ /i.nɯ no hoː ɡa sɯ.ki de.sɯ̥/",
+          "meaning": "Entre les chats et les chiens, lequel préfères-tu ? ➔ Je préfère les chiens."
+        }
+      ]
+    },
+    {
+      "concept": "Le superlatif au sein d'un ensemble : [Groupe/Ensemble] の中で [Élément] が一番好きです",
+      "explanation": "Pour exprimer sa préférence absolue (le superlatif 'le plus') au sein d'un ensemble global de plus de deux éléments (une saison, une catégorie d'aliments, un groupe d'activités), on délimite le groupe avec la structure の中で (no naka de - au sein de) combinée à l'adverbe 一番 (ichiban - numéro un / le plus).",
+      "rules": [
+        "Structure : [Groupe] の 中 で [Interrogatif : 何/だれ/どこ] が 一番 [Adjectif] ですか。",
+        "Réponse : [Élément] が 一番 [Adjectif] です。"
+      ],
+      "examples": [
+        {
+          "structure": "果物の中でリンゴが一番好きです (Kudamono no naka de ringo ga ichiban suki desu)",
+          "phonetic_api": "/kɯ.da.mo.no no na.ka de ɾiɴ.ɡo ɡa i.t͡sɯ.baɴ sɯ.ki de.sɯ̥/",
+          "meaning": "Parmi les fruits, c'est la pomme que j'aime le plus."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "アンナ (Anna)",
+      "text": "ハルトさん、日本の映画とフランスの映画と、どちらをよく見ますか。",
+      "phonetic_api": "/ha.ɾɯ.to saɴ ni.hoɴ no eː.ɡa to ɸɯ.ɾaɴ.sɯ no eː.ɡa to do.t͡ɕi.ɾa o jo.kɯ mi.ma.sɯ.ka/",
+      "phonetic_simple": "HA-ROU-TO SAN, NI-HON NO ÉE-GA TO FOU-RAN-SOU NO ÉE-GA TO, DO-TCHI-RA O YO-KOU MI-MASS-KA ?",
+      "translation": "Haruto, entre le cinéma japonais et le cinéma français, lequel regardes-tu le plus souvent ?"
+    },
+    {
+      "speaker": "ハルト (Haruto)",
+      "text": "フランスの映画のほうがよく見ますね。映像がとても美しいですから。",
+      "phonetic_api": "/ɸɯ.ɾaɴ.sɯ no eː.ɡa no hoː ɡa jo.kɯ mi.ma.sɯ ne eː.zoː ɡa to.te.mo ɯ.t͡sɯ.kɯ.ɕiː de.sɯ.ka.ɾa/",
+      "phonetic_simple": "FOU-RAN-SOU NO ÉE-GA NO HOO GA YO-KOU MI-MASS NÉ. ÉE-ZOO GA TO-TÉ-MO OU-TSOU-KOU-CHII DESS KA-RA.",
+      "translation": "Je regarde plutôt les films français. C'est parce que les images sont vraiment magnifiques."
+    },
+    {
+      "speaker": "アンナ (Anna)",
+      "text": "そうですか！映画の中で何が一番好きですか。",
+      "phonetic_api": "/soː de.sɯ.ka eː.ɡa no na.ka de na.ni ɡa i.t͡sɯ.baɴ sɯ.ki de.sɯ.ka/",
+      "phonetic_simple": "SOO DESS-KA ! ÉE-GA NO NA-KA DÉ NA-NI GA I-TCHI-BAN SOU-KI DESS-KA ?",
+      "translation": "Ah oui ?! Et parmi tous les films, lequel est ton préféré ?"
+    },
+    {
+      "speaker": "ハルト (Haruto)",
+      "text": "古い恋愛映画が一番好きです。見ると、少し懐かしい気持ちになります。",
+      "phonetic_api": "/ɸɯ.ɾɯ.i ɾeɴ.a.i eː.ɡa ɡa i.t͡sɯ.baɴ sɯ.ki de.sɯ mi.ɾɯ to sɯ.ko.ɕi na.t͡sɯ.ka.ɕiː ki.mo.t͡ɕi ni na.ɾi.ma.sɯ̥/",
+      "phonetic_simple": "FOU-ROU-I REN-A-I ÉE-GA GA I-TCHI-BAN SOU-KI DESS. MI-ROU TO, SOU-KO-CHI NA-TSOU-KA-CHII KI-MO-TCHI NI NA-RI-MASS.",
+      "translation": "Ce sont les vieux films d'amour que j'aime le plus. Quand je les regarde, ça me rend un peu nostalgique."
+    }
+  ],
+  "cultural_notes": [
+    "En société, les Japonais évitent généralement d'exprimer des refus ou des aversions de manière trop abrupte ou frontale afin de préserver l'harmonie sociale (Wa - 和). Pour dire qu'ils n'aiment pas quelque chose, ils utiliseront rarement le mot direct 'kirai' (détester), mais préféreront des tournures adoucies comme 'amari suki dewa nai' (je n'aime pas trop) ou 'chotto nigate desu' (c'est un peu mon point faible / je suis mal à l'aise avec ça).",
+    "La notion de 'Natsukashii' occupe une place immense dans l'esthétique et la pop-culture japonaise. C'est un sentiment positif et partagé, souvent mis en avant dans les publicités ou les chansons pour recréer un lien émotionnel fort avec le public."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la structure exacte pour répondre 'Je préfère le thé (kōcha)' à une question de choix ?",
+      "options": [
+        "紅茶が好き一番です (Kōcha ga suki ichiban desu)",
+        "紅茶のほうが好きです (Kōcha no hō ga suki desu)",
+        "紅茶のほうが一番好きです (Kōcha no hō ga ichiban suki desu)"
+      ],
+      "correct_answer": "紅茶のほうが好きです (Kōcha no hō ga suki desu)",
+      "explanation": "La comparaison entre deux éléments s'exprime obligatoirement avec la structure 'no hō ga suki desu'. 'Ichiban' est réservé au superlatif dans un groupe de 3 éléments ou plus."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "日本料理[ ___ ]の中で、寿司が一番有名です。(Parmi la cuisine japonaise...)",
+      "correct_answer": "の",
+      "hint": "Il s'agit de la particule de spécification nominale requise devant le mot 'naka'."
+    }
+  ]
+}

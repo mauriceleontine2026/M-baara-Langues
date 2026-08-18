@@ -1,0 +1,178 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Savoir saluer selon le moment de la journée",
+    "Exprimer la politesse, le respect et le remerciement"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La langue nalu (nalɛ) possède des voyelles longues marquées par le redoublement (aa, ee, oo) qu'il faut tenir deux fois plus longtemps. La consonne 'c' se prononce toujours 'tch' comme dans 'chocolat'. Le 'ŋ' représente le son 'ng' comme à la fin du mot 'parking'.",
+    "common_pitfalls": "Ne prononcez pas le 'e' final comme un 'e' muet français; il est toujours expiré ou articulé /e/. Attention à l'aspiration des consonnes initiales."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_1",
+      "term": "Mboye",
+      "phonetic_api": "/mbo.je/",
+      "phonetic_simple": "MBO-YÉ",
+      "translation": "Bonjour / Ça va (générique)",
+      "example_sentence": "Mboye, a rila?",
+      "example_phonetic": "/mbo.je a ri.la/",
+      "example_translation": "Bonjour, comment ça va ?"
+    },
+    {
+      "word_id": "v1_2",
+      "term": "Ce",
+      "phonetic_api": "/tʃe/",
+      "phonetic_simple": "TCHÉ",
+      "translation": "Bien / Bon",
+      "example_sentence": "A mboye ce.",
+      "example_phonetic": "/a mbo.je tʃe/",
+      "example_translation": "Ça va bien."
+    },
+    {
+      "word_id": "v1_3",
+      "term": "Nu koka",
+      "phonetic_api": "/nu ko.ka/",
+      "phonetic_simple": "NOU KO-KA",
+      "translation": "Merci",
+      "example_sentence": "Nu koka, baa.",
+      "example_phonetic": "/nu ko.ka baː/",
+      "example_translation": "Merci, mon père."
+    },
+    {
+      "word_id": "v1_4",
+      "term": "Ina",
+      "phonetic_api": "/i.na/",
+      "phonetic_simple": "I-NA",
+      "translation": "S'il te plaît / S'il vous plaît",
+      "example_sentence": "Ina, mboye.",
+      "example_phonetic": "/i.na mbo.je/",
+      "example_translation": "S'il vous plaît, bonjour."
+    },
+    {
+      "word_id": "v1_5",
+      "term": "Kere",
+      "phonetic_api": "/ke.re/",
+      "phonetic_simple": "KÉ-RÉ",
+      "translation": "Au revoir",
+      "example_sentence": "Kere, mu suba.",
+      "example_phonetic": "/ke.re mu su.ba/",
+      "example_translation": "Au revoir, à demain."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_1",
+      "original": "A mboye nalu?",
+      "phonetic_api": "/a mbo.je na.lu/",
+      "phonetic_simple": "A MBO-YÉ NA-LU",
+      "translation": "Comment va la famille / les gens de la maison ?",
+      "context": "Salutation incontournable en arrivant dans une concession ou une maisonnée."
+    },
+    {
+      "phrase_id": "p1_2",
+      "original": "A mboye ce, nu koka.",
+      "phonetic_api": "/a mbo.je tʃe nu ko.ka/",
+      "phonetic_simple": "A MBO-YÉ TCHÉ NOU KO-KA",
+      "translation": "Ça va bien, merci.",
+      "context": "Réponse polie et standard à toute formule de salutation."
+    },
+    {
+      "phrase_id": "p1_3",
+      "original": "Mu suba.",
+      "phonetic_api": "/mu su.ba/",
+      "phonetic_simple": "MOU SOU-BA",
+      "translation": "À demain.",
+      "context": "Utilisé en fin de journée ou en quittant quelqu'un que l'on revoit le lendemain."
+    },
+    {
+      "phrase_id": "p1_4",
+      "original": "I n'gbe ce.",
+      "phonetic_api": "/i ŋgbe tʃe/",
+      "phonetic_simple": "I NG-BÉ TCHÉ",
+      "translation": "Passe une bonne journée.",
+      "context": "Formule de bénédiction et de politesse au moment du départ le matin."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La particule interrogative et affirmative 'A'",
+      "explanation": "En nalu, la salutation repose souvent sur l'utilisation du morphème 'A' placé en début d'énoncé. Il sert de marqueur d'état ou introduit une question ouverte sur la santé ou la situation de l'interlocuteur.",
+      "rules": [
+        "Placé devant 'mboye', il formule l'interrogation ('Comment ça va ?').",
+        "Dans la réponse, il stabilise l'état affirmatif ('Ça va...')."
+      ],
+      "examples": [
+        {
+          "structure": "A mboye?",
+          "phonetic_api": "/a mbo.je/",
+          "meaning": "Ça va ?"
+        },
+        {
+          "structure": "A ce.",
+          "phonetic_api": "/a tʃe/",
+          "meaning": "Ça va bien."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "Mboye, baa! A rila?",
+      "phonetic_api": "/mbo.je baː a ri.la/",
+      "phonetic_simple": "MBO-YÉ BAA! A RI-LA?",
+      "translation": "Bonjour, mon père ! Comment ça va ?"
+    },
+    {
+      "speaker": "Lamine",
+      "text": "Mboye ce! A mboye nalu?",
+      "phonetic_api": "/mbo.je tʃe a mbo.je na.lu/",
+      "phonetic_simple": "MBO-YÉ TCHÉ! A MBO-YÉ NA-LU?",
+      "translation": "Bonjour bien ! Comment va la famille ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "A mboye ce, nu koka. Kere!",
+      "phonetic_api": "/a mbo.je tʃe nu ko.ka ke.re/",
+      "phonetic_simple": "A MBO-YÉ TCHÉ NOU KO-KA. KÉ-RÉ!",
+      "translation": "Elle va bien, merci. Au revoir !"
+    },
+    {
+      "speaker": "Lamine",
+      "text": "Mu suba, i n'gbe ce.",
+      "phonetic_api": "/mu su.ba i ŋgbe tʃe/",
+      "phonetic_simple": "MOU SOU-BA, I NG-BÉ TCHÉ",
+      "translation": "À demain, passe une bonne journée."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la communauté Nalu (Guinée maritime), saluer les aînés en utilisant des termes de respect comme 'Baa' (Père) ou 'Nee' (Mère), même sans lien de parenté de sang, est une marque de haute éducation. On ne salue jamais un ancien à la hâte : prendre des nouvelles de la maisonnée ('nalu') est obligatoire."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_1",
+      "type": "multiple_choice",
+      "question": "Quelle expression utilise-t-on pour dire 'Merci' ?",
+      "options": [
+        "Mboye",
+        "Nu koka",
+        "Kere"
+      ],
+      "correct_answer": "Nu koka",
+      "explanation": "'Nu koka' est la formule standard pour remercier son interlocuteur."
+    },
+    {
+      "exercise_id": "ex1_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire au revoir à quelqu'un le soir, on lui dit : [ ___ ], mu suba.",
+      "correct_answer": "Kere",
+      "hint": "Signifie 'Au revoir'"
+    }
+  ]
+}

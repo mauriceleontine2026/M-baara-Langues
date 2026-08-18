@@ -1,0 +1,149 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Négocier de manière autonome le prix d'un produit sur un marché Baga",
+    "Utiliser le lexique spécifique de la monnaie, du rabais et de la valeur",
+    "Exprimer l'accord ou le désaccord lors d'une transaction commerciale"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot pour l'argent, 'wòni', exige un 'o' fermé court et une fin fluide. Le verbe de réduction 'bɔ̀' (enlever/diminuer) requiert l'injective /ɓ/ bien articulée.",
+    "common_pitfalls": "Attention à ne pas confondre le verbe 'bɔ̀' (diminuer le prix) avec 'bo' (sortir) ; la clarté du ton bas et l'implosion consonantique caractérisent la négociation."
+  },
+  "vocabulary": [
+    {
+      "word_id": "b225",
+      "term": "wòni",
+      "phonetic_api": "/wòni/",
+      "phonetic_simple": "WO-NII",
+      "translation": "argent / monnaie / devise",
+      "example_sentence": "Wòni mu n fɛ̀ɛ̀",
+      "example_phonetic": "/wòni mu ⁿfɛ̀ː/",
+      "example_translation": "J'ai de l'argent (L'argent est avec moi)"
+    },
+    {
+      "word_id": "b226",
+      "term": "sɔ́ŋ",
+      "phonetic_api": "/sɔ́ŋ/",
+      "phonetic_simple": "SON",
+      "translation": "prix / valeur marchande",
+      "example_sentence": "A sɔ́ŋ mu gbáa di",
+      "example_phonetic": "/a sɔ́ŋ mu gɓáː di/",
+      "example_translation": "Son prix est élevé (dur)"
+    },
+    {
+      "word_id": "b227",
+      "term": "ɓɔ̀ a lɔ̀",
+      "phonetic_api": "/ɓɔ̀ a lɔ̀/",
+      "phonetic_simple": "BO A LO",
+      "translation": "diminue le prix / enlève dessus",
+      "example_sentence": "Hába, ɓɔ̀ a lɔ̀ n bɛ́ɛ",
+      "example_phonetic": "/háɓa ɓɔ̀ a lɔ̀ ⁿɓɛ́ː/",
+      "example_translation": "S'il te plaît, diminue pour moi"
+    },
+    {
+      "word_id": "b228",
+      "term": "fáá",
+      "phonetic_api": "/fáː/",
+      "phonetic_simple": "FAA",
+      "translation": "suffire / convenir / être exact",
+      "example_sentence": "Wòni yà fáá ya",
+      "example_phonetic": "/wòni jà fáː ja/",
+      "example_translation": "L'argent suffit maintenant"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "bp211",
+      "original": "A sɔ́ŋ mu gbáa di táàn, ɓɔ̀ a lɔ̀ !",
+      "phonetic_api": "/a sɔ́ŋ mu gɓáː di taːn ɓɔ̀ a lɔ̀/",
+      "phonetic_simple": "A SON MOO GBAA DI TAAN, BO A LO !",
+      "translation": "Son prix est trop cher, diminue un peu !",
+      "context": "Lancer le marchandage face à un vendeur au marché"
+    },
+    {
+      "phrase_id": "bp212",
+      "original": "A mu múù-kpu di, a fáa-yà",
+      "phonetic_api": "/a mu múː kpu di a fáː jà/",
+      "phonetic_simple": "A MOO MOO-KPU DI, A FAA-YA",
+      "translation": "Ça fait dix, c'est bon (ça suffit).",
+      "context": "Conclure l'accord financier et remettre la monnaie"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'impératif de négociation commerciale",
+      "explanation": "Pour solliciter un rabais au marché, on utilise le verbe 'ɓɔ̀' (enlever/diminuer) combiné avec la locution directionnelle 'a lɔ̀' (dedans/dessus). À l'impératif direct, le pronom sujet de deuxième personne est omis.",
+      "rules": [
+        "Structure de rabais : Verbe (ɓɔ̀) + a lɔ̀ + (Pronom bénéficiaire + bɛ́ɛ́).",
+        "L'adjectif 'gbáa' (dur) qualifie un prix ou un coût élevé (cher)."
+      ],
+      "examples": [
+        {
+          "structure": "ɓɔ̀ (diminuer) + a lɔ̀ (dessus)",
+          "phonetic_api": "/ɓɔ̀ a lɔ̀/",
+          "meaning": "Diminue le prix !"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Acheteur",
+      "text": "Ió ŋáasɛ ! I gbásá gbɛ̀ɛ̀ a sɔ́ŋ mu bə̀nə̀ŋ di ?",
+      "phonetic_api": "/ió ⁿŋáːsɛ i gɓásá gɓɛ̀ː a sɔ́ŋ mu ɓə̀nə̀ŋ di/",
+      "phonetic_simple": "IÓ N-GAA-SÈ ! I GBA-SA GBÈÈ A SON MOO BÈ-NÈNG DI ?",
+      "translation": "Bonjour maman ! Quel est le prix de ton vêtement rouge ?"
+    },
+    {
+      "speaker": "Vendeuse",
+      "text": "Ió n dɛ̀n. A sɔ́ŋ mu múù-kpu kàn múú-fɛ́ɛ̀ di gba.",
+      "phonetic_api": "/ió ⁿdɛ̀n a sɔ́ŋ mu múː kpu kàn múː fɛ́ː di gba/",
+      "phonetic_simple": "IÓ N DÈN. A SON MOO MOO-KPU KAN MOO-FÉÉ DI GBA.",
+      "translation": "Bonjour mon fils. Son prix est de quinze (unités)."
+    },
+    {
+      "speaker": "Acheteur",
+      "text": "Háo, a sɔ́ŋ mu gbáa di táàn ! Hába, ɓɔ̀ a lɔ̀ n bɛ́ɛ. Mə̀ bɛ̀ɛ̀ múù-kpu di ya.",
+      "phonetic_api": "/háo a sɔ́ŋ mu gɓáː di taːn háɓa ɓɔ̀ a lɔ̀ ⁿɓɛ́ː mə̀ ɓɛ̀ː múː kpu di ja/",
+      "phonetic_simple": "HAO, A SON MOO GBAA DI TAAN ! HA-BA, BO A LO N BÉÉ. ME BÈÈ MOO-KPU DI YA.",
+      "translation": "Non, c'est vraiment trop cher ! S'il te plaît, diminue pour moi. J'ai seulement dix avec moi."
+    },
+    {
+      "speaker": "Vendeuse",
+      "text": "A ɲí táàn, múù-kpu kàn bhə̀rə̀ŋ kɔ̀ sɔ̀, a na fáá !",
+      "phonetic_api": "/a ɲí taːn múː kpu kàn ɓə̀rə̀ŋ kɔ̀ sɔ̀ a na fáː/",
+      "phonetic_simple": "A NYI TAAN, MOO-KPU KAN BHE-RENG KO SO, A NA FAA !",
+      "translation": "D'accord, donne douze alors, et ce sera bon !"
+    }
+  ],
+  "cultural_notes": [
+    "Le marchandage fait partie intégrante des interactions sociales lors des marchés hebdomadaires en Basse-Guinée. Accepter le premier prix sans discuter est parfois perçu comme un manque d'intérêt pour l'interaction avec le commerçant.",
+    "Le concept général de 'wòni' renvoie historiquement aux cauris et aux premières formes de monnaies d'échange de la région maritime."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L6_ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie précisément le mot 'wòni' en Baga ?",
+      "options": [
+        "Le tissu",
+        "L'argent",
+        "Le marché"
+      ],
+      "correct_answer": "L'argent",
+      "explanation": "'wòni' désigne la monnaie, l'argent ou les ressources financières."
+    },
+    {
+      "exercise_id": "B1_M2_L6_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A sɔ́ŋ mu [ ___ ] di (Le prix est cher / dur).",
+      "correct_answer": "gbáa",
+      "hint": "Signifie également dur ou rigide en Baga"
+    }
+  ]
+}

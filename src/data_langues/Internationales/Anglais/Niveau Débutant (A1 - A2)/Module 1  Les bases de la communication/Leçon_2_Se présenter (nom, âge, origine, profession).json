@@ -1,0 +1,269 @@
+{
+  "lesson_id": "A1_M1_L2_v2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Savoir décliner son identité déclinée par le nom et l'âge",
+    "Exprimer sa nationalité, son pays d'origine et son lieu de résidence",
+    "Formuler son activité professionnelle ou son statut d'étudiant",
+    "Maîtriser la conjugaison au présent simple du verbe 'BE' et l'usage des articles indéfinis"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La prononciation des âges requiert une attention particulière sur la liaison (liaison sémantique) : dans 'I am thirty years old' /aɪ æm ˈθɜːrti jɪərz oʊld/, le /z/ final de 'years' se lie naturellement au /oʊ/ initial de 'old'. Le son /ɜː/ de 'thirty' ou 'first' est une voyelle centrale longue neutre, sans arrondissement des lèvres. Pour les professions, le phonème fricatif palato-alvéolaire sourd /ʃ/ de 'politician' ou le phonème affriqué voisé /dʒ/ de 'engineer' /ˌɛndʒɪˈnɪər/ doivent être articulés nettement.",
+    "common_pitfalls": "L'erreur francophone majeure consiste à prononcer le 'th' de 'thirty' /ˈθɜːrti/ comme un /t/ ou un /f/. Veillez également à ne pas omettre le phonème /h/ dans les termes de nationalité comme 'Hungarian' ou dans les structures interrogatives comme 'How old'. Enfin, attention au piège de l'accentuation sur les dizaines : l'accent porte sur la première syllabe pour /ˈθɜːrti/ (30) mais sur la dernière pour /θɜːˈtiːn/ (13)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Name",
+      "phonetic_api": "/neɪm/",
+      "phonetic_simple": "neɪm",
+      "translation": "Nom / Prénom",
+      "example_sentence": "My full name is Alexander Wright.",
+      "example_phonetic": "/maɪ fʊl neɪm ɪz ˌælɪɡˈzændər raɪt/",
+      "example_translation": "Mon nom complet est Alexander Wright."
+    },
+    {
+      "word_id": "v2",
+      "term": "Age",
+      "phonetic_api": "/eɪdʒ/",
+      "phonetic_simple": "eɪdʒ",
+      "translation": "Âge",
+      "example_sentence": "What is your age, if I may ask?",
+      "example_phonetic": "/wɒt ɪz jɔːr eɪdʒ ɪf aɪ meɪ ɑːsk/",
+      "example_translation": "Quel est votre âge, si je puis me permettre ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "Country",
+      "phonetic_api": "/ˈkʌntri/",
+      "phonetic_simple": "KAN-tri",
+      "translation": "Pays",
+      "example_sentence": "Canada is a very beautiful country.",
+      "example_phonetic": "/ˈkænədə ɪz ə ˈvɛri ˈbjuːtɪfəl ˈkʌntri/",
+      "example_translation": "Le Canada est un très beau pays."
+    },
+    {
+      "word_id": "v4",
+      "term": "Job",
+      "phonetic_api": "/dʒɒb/",
+      "phonetic_simple": "dʒob",
+      "translation": "Métier / Emploi",
+      "example_sentence": "She loves her job as a graphic designer.",
+      "example_phonetic": "/ʃiː lʌvz hɜːr dʒob æz ə ˈɡræfɪk dɪˈzaɪnər/",
+      "example_translation": "Elle adore son métier de designer graphique."
+    },
+    {
+      "word_id": "v5",
+      "term": "Engineer",
+      "phonetic_api": "/ˌɛndʒɪˈnɪər/",
+      "phonetic_simple": "en-dʒɪ-NIER",
+      "translation": "Ingénieur(e)",
+      "example_sentence": "He works as a software engineer.",
+      "example_phonetic": "/hiː wɜːks æz ə ˈsɒftwɛər ˌɛndʒɪˈnɪər/",
+      "example_translation": "Il travaille comme ingénieur logiciel."
+    },
+    {
+      "word_id": "v6",
+      "term": "Student",
+      "phonetic_api": "/ˈstjuːdənt/",
+      "phonetic_simple": "STYOU-dənt",
+      "translation": "Étudiant(e)",
+      "example_sentence": "I am a university student in London.",
+      "example_phonetic": "/aɪ æm ə ˌjuːnɪˈvɜːrsəti ˈstjuːdənt ɪn ˈlʌndən/",
+      "example_translation": "Je suis étudiant universitaire à Londres."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "What is your name?",
+      "phonetic_api": "/wɒt ɪz jɔːr neɪm/",
+      "phonetic_simple": "wɒt ɪz yor neɪm",
+      "translation": "Comment vous appelez-vous ? / Quel est ton nom ?",
+      "context": "Question standard pour s'enquérir de l'identité d'un tiers."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "How old are you?",
+      "phonetic_api": "/haʊ oʊld ɑːr juː/",
+      "phonetic_simple": "haʊ oʊld ar yoo",
+      "translation": "Quel âge avez-vous ? / Quel âge as-tu ?",
+      "context": "Formule universelle pour demander l'âge. Notez l'utilisation du verbe 'BE'."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Where are you from?",
+      "phonetic_api": "/wɛər ɑːr juː frɒm/",
+      "phonetic_simple": "wɛər ar yoo from",
+      "translation": "D'où venez-vous ? / D'où es-tu ?",
+      "context": "Interrogation portant sur l'origine géographique ou la nationalité d'origine."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "What do you do for a living?",
+      "phonetic_api": "/wɒt duː juː duː fɔːr ə ˈlɪvɪŋ/",
+      "phonetic_simple": "wɒt doo yoo doo fɔːr ə LIV-iŋ",
+      "translation": "Que faites-vous dans la vie ? / Quel est votre métier ?",
+      "context": "Formule idiomatique la plus courante et élégante en anglais pour s'informer de la profession."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "I am from France",
+      "phonetic_api": "/aɪ æm frɒm fræns/",
+      "phonetic_simple": "aɪ am from fræns",
+      "translation": "Je viens de France / Je suis de France",
+      "context": "Réponse structurée indiquant le pays natal."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "I am thirty-five years old",
+      "phonetic_api": "/aɪ æm ˈθɜːrtifaɪv jɪərz oʊld/",
+      "phonetic_simple": "aɪ am THɜːr-ti-faɪv jɪərz oʊld",
+      "translation": "J'ai trente-cinq ans",
+      "context": "Formulation complète de l'âge. Le groupe 'years old' peut être omis, mais jamais réduit au seul mot 'years'."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "I live in New York",
+      "phonetic_api": "/aɪ lɪv ɪn njuː jɔːrk/",
+      "phonetic_simple": "aɪ lɪv ɪn nioo jork",
+      "translation": "J'habite à New York",
+      "context": "Indique le lieu de résidence actuel, qui peut différer du pays d'origine."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "I work as an accountant",
+      "phonetic_api": "/aɪ wɜːk æz ən əˈkaʊntənt/",
+      "phonetic_simple": "aɪ wɜːk æz ən ə-KAʊN-tənt",
+      "translation": "Je travaille comme comptable",
+      "context": "Structure professionnelle combinant le verbe 'work as' et l'article requis devant une voyelle."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'âge avec le verbe 'TO BE'",
+      "explanation": "Contrairement au français qui utilise le verbe 'avoir' ('J'ai 20 ans'), l'anglais utilise impérativement le verbe 'to be' (être) combiné avec l'adjectif 'old' ('Je suis âgé de 20 ans'). Grammaticalement, vous pouvez dire 'I am 20' ou 'I am 20 years old'. Dire 'I have 20 years' est une faute majeure et incompréhensible.",
+      "rules": [
+        "Sujet + TO BE (présent) + Nombre (+ years old).",
+        "Ne jamais utiliser le verbe HAVE pour l'âge."
+      ],
+      "examples": [
+        {
+          "structure": "He is twenty-eight years old.",
+          "phonetic_api": "/hiː ɪz ˈtwɛnti eɪt jɪərz oʊld/",
+          "meaning": "Il a 28 ans."
+        },
+        {
+          "structure": "They are forty.",
+          "phonetic_api": "/ðeɪ ɑːr ˈfɔːrti/",
+          "meaning": "Ils ont 40 ans."
+        }
+      ]
+    },
+    {
+      "concept": "L'usage obligatoire des articles indéfinis (A / AN) devant les professions",
+      "explanation": "En anglais standard, lorsqu'on décline sa profession ou son statut au singulier, il faut obligatoirement faire précéder le nom de métier par l'article indéfini 'a' (devant une consonne phonétique) ou 'an' (devant une voyelle phonétique). Le français omet cet article ('Je suis médecin').",
+      "rules": [
+        "Consonne initiale sonore -> A (ex: a teacher)",
+        "Voyelle initiale sonore -> AN (ex: an architect)"
+      ],
+      "examples": [
+        {
+          "structure": "I am a manager.",
+          "phonetic_api": "/aɪ æm ə ˈmænɪdʒər/",
+          "meaning": "Je suis directeur / manager."
+        },
+        {
+          "structure": "She is an artist.",
+          "phonetic_api": "/ʃiː ɪz ən ˈɑːrtɪst/",
+          "meaning": "Elle est artiste."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Liam",
+      "text": "Hello! Let me introduce myself. My name is Liam.",
+      "phonetic_api": "/həˈloʊ lɛt miː ˌɪntrəˈdjuːs maɪˈsɛlf maɪ neɪm ɪz ˈliːəm/",
+      "phonetic_simple": "hə-LOH lεt mi in-tro-DIOUS maɪ-self maɪ neɪm ɪz LI-əm",
+      "translation": "Bonjour ! Permettez-moi de me présenter. Je m'appelle Liam."
+    },
+    {
+      "speaker": "Emma",
+      "text": "Hi Liam! Nice to meet you. I am Emma. Where are you from?",
+      "phonetic_api": "/haɪ ˈliːəm naɪs tuː miːt juː aɪ æm ˈɛmə wɛər ɑːr juː frɒm/",
+      "phonetic_simple": "haɪ LI-əm naɪs too MEET yoo aɪ am EM-ə wɛər ar yoo from",
+      "translation": "Salut Liam ! Ravie de te rencontrer. Je suis Emma. D'où viens-tu ?"
+    },
+    {
+      "speaker": "Liam",
+      "text": "I am from Ireland, but I live in Manchester. I am a web developer. What do you do?",
+      "phonetic_api": "/aɪ æm frɒm ˈaɪərlənd bʌt aɪ lɪv ɪn ˈmæntʃɪstər aɪ æm ə wɛb dɪˈvɛləpər wɒt duː juː duː/",
+      "phonetic_simple": "aɪ am from Aɪər-lənd bʌt aɪ lɪv ɪn MAN-tʃes-tər aɪ am ə wεb dɪ-VEL-ə-pər wɒt doo yoo doo",
+      "translation": "Je viens d'Irlande, mais j'habite à Manchester. Je suis développeur web. Que fais-tu ?"
+    },
+    {
+      "speaker": "Emma",
+      "text": "I am an executive assistant. And how old are you, Liam?",
+      "phonetic_api": "/aɪ æm ən ɪɡˈzɛkjʊtɪv əˈsɪstənt ænd haʊ oʊld ɑːr juː ˈliːəm/",
+      "phonetic_simple": "aɪ am ən ɪg-ZEK-you-tɪv ə-SIS-tənt and haʊ oʊld ar yoo LI-əm",
+      "translation": "Je suis assistante de direction. Et quel âge as-tu, Liam ?"
+    },
+    {
+      "speaker": "Liam",
+      "text": "I am thirty years old. And you?",
+      "phonetic_api": "/aɪ æm ˈθɜːrti jɪərz oʊld ænd juː/",
+      "phonetic_simple": "aɪ am THɜːr-ti jɪərz oʊld and yoo",
+      "translation": "J'ai trente ans. Et toi ?"
+    },
+    {
+      "speaker": "Emma",
+      "text": "I am twenty-nine. It was great talking to you!",
+      "phonetic_api": "/aɪ æm ˈtwɛntinaɪn ɪt wɒz ɡreɪt ˈtɔːkɪŋ tuː juː/",
+      "phonetic_simple": "aɪ am TWEN-ti-naɪn ɪt wɒz greɪt TOK-iŋ too yoo",
+      "translation": "J'ai vingt-neuf ans. C'était super de discuter avec toi !"
+    }
+  ],
+  "cultural_notes": [
+    "La discrétion autour de l'âge : Dans les cultures professionnelles et sociales anglophones, demander l'âge ('How old are you?') à un adulte que l'on vient de rencontrer est parfois perçu comme indiscret ou trop direct. On privilégiera cette question dans un cadre amical ou académique détendu.",
+    "L'identité professionnelle globale : Aux États-Unis et au Royaume-Uni, l'expression 'What do you do?' définit une grande partie des interactions initiales. Les anglophones lient fortement l'identité sociale à la fonction professionnelle, d'où la nécessité de formuler son poste précisément avec la structure 'I work as a/an...'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Sélectionnez la phrase grammaticalement correcte pour exprimer l'âge :",
+      "options": [
+        "I have twenty-four years old.",
+        "I am twenty-four years old.",
+        "I am twenty-four years."
+      ],
+      "correct_answer": "I am twenty-four years old.",
+      "explanation": "L'anglais utilise le verbe TO BE combiné avec la structure complète 'years old' ou le chiffre seul. La forme 'I have' ou 'years' seul est fausse."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "John is [ ___ ] engineer and works in Dublin.",
+      "correct_answer": "an",
+      "hint": "Article indéfini requis devant le mot 'engineer' commençant par une voyelle."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie exactement l'expression 'What do you do for a living?' ?",
+      "options": [
+        "Où habitez-vous ?",
+        "Que faites-vous dans la vie (métier) ?",
+        "Comment allez-vous aujourd'hui ?"
+      ],
+      "correct_answer": "Que faites-vous dans la vie (métier) ?",
+      "explanation": "C'est la formule idiomatique standard pour s'enquérir de la profession de quelqu'un."
+    }
+  ]
+}

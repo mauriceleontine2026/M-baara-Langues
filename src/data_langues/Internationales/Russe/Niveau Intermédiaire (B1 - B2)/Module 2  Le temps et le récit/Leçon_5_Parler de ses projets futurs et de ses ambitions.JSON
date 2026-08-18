@@ -1,0 +1,241 @@
+{
+  "lesson_id": "B1_M2_L5",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 5,
+  "title": "Parler de ses projets futurs et de ses ambitions",
+  "learning_objectives": [
+    "Former et employer le futur simple (perfectif) et le futur composé (imperfectif)",
+    "Exprimer l'intention, l'espoir et l'ambition professionnelle de manière structurée",
+    "Utiliser les constructions impersonnelles pour exprimer des projets",
+    "Maîtriser les adverbes de temps liés aux projections futures"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'Д' dans 'Буду' ou 'Будет' se prononce fermement [d] sans palatalisation. Dans le verbe 'Постараюсь', veillez à bien lier les voyelles finales : le son se termine par un [jʊ] fluide.",
+    "common_pitfalls": "Attention au mot 'Будущее' (l'avenir) : la prononciation correcte est [ˈbudʊɕːɪjə]. Ne confondez pas le 'щ' [ɕː] long et doux avec le son 'ш' [ʂ] dur."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Будущее",
+      "phonetic_api": "/ˈbudʊɕːɪjə/",
+      "phonetic_simple": "BOU-dou-chtchiye",
+      "translation": "L'avenir / Le futur",
+      "example_sentence": "Мы часто обсуждаем наше совместное будущее.",
+      "example_phonetic": "/mɨ ˈtɕastə ɐbsʊʐˈdaɪ̯ɪm ˈnaʂɨ sɐvˈmʲɛsnəjə ˈbudʊɕːɪjə/",
+      "example_translation": "Nous discutons souvent de notre avenir commun."
+    },
+    {
+      "word_id": "v2",
+      "term": "Планировать",
+      "phonetic_api": "/pɫɐˈnʲirəvətʲ/",
+      "phonetic_simple": "pla-NI-ra-vat'",
+      "translation": "Planifier / Programmer / Prévoir",
+      "example_sentence": "В следующем году я планирую поехать в отпуск.",
+      "example_phonetic": "/f ˈslʲedʊjʊɕːɪm ɡɐˈdu ja pɫɐˈnʲirʊjʊ pɐˈjexatʲ f ˈutpʊsk/",
+      "example_translation": "L'année prochaine, je prévois de partir en vacances."
+    },
+    {
+      "word_id": "v3",
+      "term": "Надеяться",
+      "phonetic_api": "/nɐˈdʲeɪ̯ət͡sʲə/",
+      "phonetic_simple": "na-DIÉ-yat-ssya",
+      "translation": "Espérer",
+      "example_sentence": "Я надеюсь, что всё будет хорошо.",
+      "example_phonetic": "/ja nɐˈdʲeɪ̯ʊsʲ ʂto fsʲۆ ˈbudʲɪt xərɐˈʂo/",
+      "example_translation": "J'espère que tout ira bien."
+    },
+    {
+      "word_id": "v4",
+      "term": "Цель",
+      "phonetic_api": "/t͡sɛlʲ/",
+      "phonetic_simple": "tsiel'",
+      "translation": "But / Objectif / Ambition",
+      "example_sentence": "Моя главная цель — выучить русский язык.",
+      "example_phonetic": "/mɐˈja ˈɡɫavnəjə t͡sɛlʲ ˈvɨʊtɕɪtʲ ˈruskʲɪj jɪˈzɨk/",
+      "example_translation": "Mon objectif principal est de maîtriser la langue russe."
+    },
+    {
+      "word_id": "v5",
+      "term": "Постараться",
+      "phonetic_api": "/pəstɐˈrat͡sʲə/",
+      "phonetic_simple": "pa-sta-RAT-ssya",
+      "translation": "Faire de son mieux / Essayer (perfectif)",
+      "example_sentence": "Я постараюсь сдать экзамен на следующей неделе.",
+      "example_phonetic": "/ja pəstɐˈraɪ̯ʊsʲ zdatʲ ɪɡˈzamʲɪn nə ˈslʲedʊjʊɕːɪj nʲɪˈdʲelʲɪ/",
+      "example_translation": "Je ferai de mon mieux pour réussir l'examen la semaine prochaine."
+    },
+    {
+      "word_id": "v6",
+      "term": "Карьера",
+      "phonetic_api": "/kɐˈrʲjɛrə/",
+      "phonetic_simple": "ka-RIÉ-ra",
+      "translation": "Carrière",
+      "example_sentence": "Для него карьера всегда на первом месте.",
+      "example_phonetic": "/dlʲɐ nʲɪˈvo kɐˈrʲjɛrə fsʲɪɡˈda nə ˈpʲɛrvəm ˈmʲesʲtʲɪ/",
+      "example_translation": "Pour lui, la carrière passe toujours en premier."
+    },
+    {
+      "word_id": "v7",
+      "term": "Скоро",
+      "phonetic_api": "/ˈskorə/",
+      "phonetic_simple": "SKO-ra",
+      "translation": "Bientôt",
+      "example_sentence": "Скоро начнётся новый проект.",
+      "example_phonetic": "/ˈskorə nɐtɕˈnʲot͡sʲə ˈnovɨj prɐˈɛkt/",
+      "example_translation": "Bientôt commencera un nouveau projet."
+    },
+    {
+      "word_id": "v8",
+      "term": "Мечтать",
+      "phonetic_api": "/mʲɪtɕˈtatʲ/",
+      "phonetic_simple": "mitch-TAT'",
+      "translation": "Rêver",
+      "example_sentence": "Она мечтает открыть свой бизнес.",
+      "example_phonetic": "/ɐˈna mʲɪtɕˈtaɪ̯ɪt ɐtˈkrɨtʲ svoj ˈbʲiznɪs/",
+      "example_translation": "Elle rêve d'ouvrir sa propre entreprise."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Кем вы хотите стать в будущем?",
+      "phonetic_api": "/kʲem vɨ xɐˈtʲitʲɪ statʲ f ˈbudʊɕːɪm/",
+      "phonetic_simple": "kiem vy ha-TI-ti stat' f BOU-dou-chtchim ?",
+      "translation": "Que voulez-vous devenir à l'avenir ?",
+      "context": "Question classique sur les ambitions professionnelles ou personnelles."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Я собираюсь сменить работу",
+      "phonetic_api": "/ja səbʲɪˈraɪ̯ʊsʲ smʲɪˈnʲitʲ rɐˈbotʊ/",
+      "phonetic_simple": "ya sa-bi-RA-ious' smi-NIT' ra-BO-tou",
+      "translation": "J'ai l'intention de changer de travail",
+      "context": "Pour exprimer une décision ferme ou un projet immédiat."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "В скором времени я планирую переезд",
+      "phonetic_api": "/f ˈskorəm ˈvrʲemʲɪnʲɪ ja pɫɐˈnʲirʊjʊ pʲɪrʲɪˈjest/",
+      "phonetic_simple": "f SKO-ram VRIE-mi-ni ya pla-NI-rou-iou pi-ri-IEST",
+      "translation": "Prochainement, je prévois un déménagement",
+      "context": "Utilisé pour des projets professionnels ou personnels à court terme."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Это откроет для меня новые перспективы",
+      "phonetic_api": "/ˈɛtə ɐtˈkroɪ̯ɪt dlʲɐ mʲɪˈnʲa ˈnovɨjə pʲɪrspʲɪkˈtʲivɨ/",
+      "phonetic_simple": "E-ta at-KRO-it dlia mi-NIA NO-vy-ya pir-spik-TI-vy",
+      "translation": "Cela m'ouvrira de nouvelles perspectives",
+      "context": "Idéal pour justifier un choix de carrière ou une ambition."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le futur composé (Aspect Imperfectif - НСВ)",
+      "explanation": "Le futur composé sert à exprimer une action continue, répétée ou un processus à venir sans insister sur le résultat final.",
+      "rules": [
+        "Structure : Verbe auxiliaire БЫТЬ conjugué au futur + Infinitif du verbe imperfectif.",
+        "Conjugaison de БЫТЬ : Я буду, Ты будешь, Он/Она будет, Мы будем, Вы будете, Они будут."
+      ],
+      "examples": [
+        {
+          "structure": "Вечером я буду читать книгу.",
+          "phonetic_api": "/ˈvʲetɕɪrəm ja ˈbudʊ tɕɪˈtatʲ ˈknʲiɡʊ/",
+          "meaning": "Ce soir, je lirai (passerai du temps à lire) un livre."
+        }
+      ]
+    },
+    {
+      "concept": "Le futur simple (Aspect Perfectif - СВ)",
+      "explanation": "Le futur simple exprime une action unique, achevée à l'avenir, dont on attend ou souligne un résultat précis.",
+      "rules": [
+        "Structure : On prend le verbe perfectif et on le conjugue avec les terminaisons régulières du présent (le futur simple n'utilise pas l'auxiliaire быть)."
+      ],
+      "examples": [
+        {
+          "structure": "Вечером я прочитаю эту статью.",
+          "phonetic_api": "/ˈvʲetɕɪrəm ja prətɕɪˈtaɪ̯ʊ ˈɛtʊ stɐˈtʲjʊ/",
+          "meaning": "Ce soir, je lirai (et finirai de lire) cet article."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Павел",
+      "text": "Катя, привет! Какие у тебя планы на будущее? Где ты будешь работать после университета?",
+      "phonetic_api": "/ˈkatʲə prʲɪˈvʲet kɐˈkʲɪjə ʊ tʲɪˈbʲa ˈpɫanɨ nə ˈbudʊɕːɪjə ɡdʲe tɨ ˈbudɪʂ rɐˈbotətʲ pʊslʲɪ ʊnʲɪvʲɪrsʲɪˈtʲetə/",
+      "phonetic_simple": "KA-tiya, pri-VIET ! Ka-KI-ya ou ti-BIA PLA-ny na BOU-dou-chtchiye ? Gdié ty BOU-diech ra-BO-tat' POS-li ou-ni-vir-ssi-TIÉ-ta ?",
+      "translation": "Salut Katia ! Quels sont tes projets d'avenir ? Où travailleras-tu après l'université ?"
+    },
+    {
+      "speaker": "Катя",
+      "text": "Привет! Я планирую получить диплом и сразу подам резюме в крупную ИТ-компанию. Я хочу стать менеджером проектов.",
+      "phonetic_api": "/prʲɪˈvʲet ja pɫɐˈnʲirʊjʊ pəlʊˈtɕitʲ dʲɪˈpɫom ˈi ˈsrazʊ pɐˈdam rʲɪzʲʉˈmɛ f ˈkrupnʊjʊ ˌaɪ̯ˈtʲi kɐmˈpanʲɪjʊ ja xɐˈtɕu statʲ ˈmɛnɪdʐɨrəm prɐˈɛktəf/",
+      "phonetic_simple": "pri-VIET ! Ya pla-NI-rou-iou pa-lou-TCHIT' di-PLOM i SRA-zou pa-DAM ri-ziu-MÉ f KROUP-nou-iou aï-ti kam-PA-ni-iou. Ya ha-TCHOU stat' ME-nid-ji-ram pra-EK-taf.",
+      "translation": "Salut ! Je prévois d'obtenir mon diplôme et je soumettrai immédiatement mon CV à une grande entreprise informatique. Je veux devenir chef de projet."
+    },
+    {
+      "speaker": "Павел",
+      "text": "Отличная цель. А если не получится сразу найти такую должность?",
+      "phonetic_api": "/ɐˈtlʲitɕnəjə t͡sɛlʲ a ˈjeslʲɪ nʲɪ pɐˈlutɕɪt͡sʲə ˈsrazʊ nɐjˈtʲi ˈtakʊjʊ ˈdolʐnəsʲtʲ/",
+      "phonetic_simple": "at-LI-tchna-ya tsiel'. A IES-li ni pa-LOU-tchit-ssya SRA-zou naï-TI TA-kou-iou DOL-jnast' ?",
+      "translation": "C'est un excellent objectif. Et si tu n'arrives pas à trouver un tel poste tout de suite ?"
+    },
+    {
+      "speaker": "Катя",
+      "text": "Тогда я сначала буду работать ассистентом, наберусь опыта, а через год постараюсь получить повышение. Я сделаю всё ради карьеры.",
+      "phonetic_api": "/tɐɡˈda ja snɐˈtɕaɫə ˈbudʊ rɐˈbotətʲ ɐsʲɪˈstɛntəm nəbʲɪˈrusʲ ˈopɨtə a tɕɪrʲɪz ɡot pəstɐˈraɪ̯ʊsʲ pəlʊˈtɕitʲ pəvɨˈʂenʲɪjə ja ˈsdʲeɫaɪ̯ʊ fsʲۆ ˈradʲɪ kɐˈrʲjɛrɨ/",
+      "phonetic_simple": "Tag-DA ya sna-TCHA-la BOU-dou ra-BO-tat' as-ssis-TIEN-tam, na-bi-ROUS' O-py-ta, a TCHIE-riz got pa-sta-RA-ious' pa-lou-TCHIT' pa-vy-CHIÉ-ni-ye. Ya SDIE-la-iou vssio RA-di ka-RIÉ-ry.",
+      "translation": "Dans ce cas, je travaillerai d'abord comme assistante, j'acquerrai de l'expérience et, dans un an, je ferai de mon mieux pour obtenir une promotion. Je ferai tout pour ma carrière."
+    }
+  ],
+  "cultural_notes": [
+    "Les ambitions de la jeunesse russe : Aujourd'hui, les secteurs des technologies de l'information (ИТ) et de l'entrepreneuriat sont extrêmement valorisés par les étudiants des grandes universités russes. Les carrières au sein d'entreprises locales majeures (comme Yandex, VK ou Sber) sont particulièrement disputées.",
+    "L'expression 'Жизнь покажет' : Face aux incertitudes des projets à long terme, les Russes aiment employer la formule proverbiale « Жизнь покажет » (La vie montrera / L'avenir nous le dira) pour nuancer des prévisions trop précises."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L5_ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la forme correcte pour compléter la phrase au futur composé (processus continu) : 'Завтра весь день я [ ___ ] работать над проектом.'",
+      "options": [
+        "буду",
+        "будешь",
+        "поработаю",
+        "будут"
+      ],
+      "correct_answer": "буду",
+      "explanation": "Le sujet est 'Я', l'auxiliaire 'быть' doit donc être conjugué à la première personne du singulier au futur, ce qui donne 'буду'."
+    },
+    {
+      "exercise_id": "B1_M2_L5_ex2",
+      "type": "multiple_choice",
+      "question": "Quelle est la particularité du futur simple en russe (Aspect Perfectif) ?",
+      "options": [
+        "Il utilise toujours l'auxiliaire 'буду'.",
+        "Il se forme en conjuguant directement le verbe perfectif sans auxiliaire.",
+        "Il ne s'accorde jamais avec le sujet.",
+        "Il s'emploie uniquement au passé."
+      ],
+      "correct_answer": "Il se forme en conjuguant directement le verbe perfectif sans auxiliaire.",
+      "explanation": "Le futur simple s'exprime en appliquant les terminaisons du présent directement sur la base d'un verbe perfectif."
+    },
+    {
+      "exercise_id": "B1_M2_L5_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Через два года мой брат [ ___ ] (стать - СВ) известным архитектором. (Deviendra - résultat futur)",
+      "correct_answer": "станет",
+      "hint": "Conjuguez le verbe perfectif 'стать' à la troisième personne du singulier du futur."
+    },
+    {
+      "exercise_id": "B1_M2_L5_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Я очень надеюсь на [ ___ ], что мы сможем открыть наш филиал в Москве. (L'avenir / Le futur)",
+      "correct_answer": "будущее",
+      "hint": "Le nom substantivé neutre signifiant l'avenir au cas accusatif après 'на'."
+    }
+  ]
+}

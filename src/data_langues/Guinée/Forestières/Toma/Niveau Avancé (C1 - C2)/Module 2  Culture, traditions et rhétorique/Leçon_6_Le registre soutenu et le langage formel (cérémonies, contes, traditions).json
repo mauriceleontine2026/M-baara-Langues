@@ -1,0 +1,133 @@
+{
+  "lesson_id": "C1_M2_L6",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 6,
+  "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
+  "learning_objectives": [
+    "Utiliser les formules rituelles d'introduction et de clôture des contes traditionnels",
+    "Employer le vocabulaire honorifique réservé aux dignitaires et aux gardiens de la coutume"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Ce registre fait un usage solennel d'occlusives injectives doublement articulées /gɓ/ associées à des murmures glottaux marquant la déférence spirituelle.",
+    "common_pitfalls": "Attention à ne pas utiliser des pronoms contractés familiers du quotidien. Chaque morphème doit être prononcé dans sa plénitude phonique."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v24_1",
+      "term": "kêe-gaza-ni",
+      "phonetic_api": "/kɛ̂ː.ɡa.za.ni/",
+      "phonetic_simple": "KEE-GA-ZA-NI",
+      "translation": "les patriarches / les ancêtres fondateurs / les hauts dignitaires",
+      "example_sentence": "Kêe-gaza-ni ta va ɓɛñ.",
+      "example_phonetic": "/kɛ̂ː.ɡa.za.ni ta va ɓɛ̃/",
+      "example_translation": "Les dignitaires sacrés entrent ici."
+    },
+    {
+      "word_id": "v24_2",
+      "term": "mɛni-lolo",
+      "phonetic_api": "/mɛ.ni.lo.lo/",
+      "phonetic_simple": "ME-NI-LO-LO",
+      "translation": "raconter un conte initiatique / transmettre l'histoire sacrée",
+      "example_sentence": "Na lo ga mɛni-lolo ma.",
+      "example_phonetic": "/na lo ɡa mɛ.ni.lo.lo ma/",
+      "example_translation": "Je m'apprête à narrer le récit des temps anciens."
+    },
+    {
+      "word_id": "v24_3",
+      "term": "sala",
+      "phonetic_api": "/sa.la/",
+      "phonetic_simple": "SA-LA",
+      "translation": "offrande rituelle / bénédiction formelle / libation",
+      "example_sentence": "Ta sala vena kêe-ni ma.",
+      "example_phonetic": "/ta sa.la vɛ.na kɛ̂ː.ni ma/",
+      "example_translation": "Ils ont offert la libation aux ancêtres."
+    },
+    {
+      "word_id": "v24_4",
+      "term": "wɔlɔ-zu-tɔñ",
+      "phonetic_api": "/wɔ.lɔ.zu.tɔ̃/",
+      "phonetic_simple": "WO-LO-ZOU-TON",
+      "translation": "vérité éternelle / immuable",
+      "example_sentence": "Ni ga wɔlɔ-zu-tɔñ.",
+      "example_phonetic": "/ni ɡa wɔ.lɔ.zu.tɔ̃/",
+      "example_translation": "Ceci est une vérité immuable à travers les âges."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p24_1",
+      "original": "Mɛni-lolo na va lo ga, wa mɛni ga vaza!",
+      "phonetic_api": "/mɛ.ni.lo.lo na va lo ɡa wa mɛ.ni ɡa va.za/",
+      "phonetic_simple": "ME-NI-LO-LO NA VA LO GA, WA ME-NI GA VA-ZA !",
+      "translation": "Le récit sacré s'ouvre, ouvrez grand vos esprits pour le recevoir !",
+      "context": "Formule solennelle d'introduction employée par le griot ou l'ancien avant un conte nocturne."
+    },
+    {
+      "phrase_id": "p24_2",
+      "original": "Kêe-gaza-ni ta sala ve wa ma, wa lii va wɛlɛ pépe.",
+      "phonetic_api": "/kɛ̂ː.ɡa.za.ni ta sa.la vɛ wa ma wa liː va wɛ.lɛ pɛ́.pɛ/",
+      "phonetic_simple": "KEE-GA-ZA-NI TA SA-LA VE WA MA, WA LII VA WE-LE PE-PE",
+      "translation": "Que la bénédiction des patriarches repose sur vous, et que vos cœurs soient comblés de paix.",
+      "context": "Formule protocolaire de remerciement et de bénédiction de haut rang lors des rites de mariage ou d'initiation."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'inversion honorifique cérémonielle",
+      "explanation": "Dans le discours d'apparat, les groupes nominaux désignant les autorités religieuses ou coutumières sont systématiquement placés avant les verbes d'état, suivis du pronom pluriel déférent 'ta', même si le sujet est morphologiquement singulier.",
+      "rules": [
+        "Usage du pluriel de majesté/respect obligatoire pour tout aîné ou dignitaire.",
+        "Les compléments d'attribution ('wa ma' / 'i ma') reçoivent des allongements vocaliques cérémoniels en fin de formule."
+      ],
+      "examples": [
+        {
+          "structure": "Kêe-gaza ta va",
+          "phonetic_api": "/kɛ̂ː.ɡa.za ta va/",
+          "meaning": "Le grand Patriarche vient (litt. Ils viennent)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'Orateur",
+      "text": "Kêe-gaza-ni, wa sala vaza lɔ wa yee?",
+      "phonetic_api": "/kɛ̂ː.ɡa.za.ni wa sa.la va.za lɔ wa jeː/",
+      "phonetic_simple": "KEE-GA-ZA-NI, WA SA-LA VA-ZA LO WA YEE ?",
+      "translation": "Honorables patriarches, détenez-vous l'offrande de paix entre vos mains ?"
+    },
+    {
+      "speaker": "Le Conseil des Sages",
+      "text": "Owo, sala lɔ wa yee, mɛni-lolo va lo ga, wa wɔlɔ-zu-tɔñ mɛni.",
+      "phonetic_api": "/o.wo sa.la lɔ wa jeː mɛ.ni.lo.lo va lo ɡa wa wɔ.lɔ.zu.tɔ̃ mɛ.ni/",
+      "phonetic_simple": "O-WO, SA-LA LO WA YEE, ME-NI-LO-LO VA LO GA, WA WO-LO-ZOU-TON ME-NI",
+      "translation": "Oui, la bénédiction est prête, que l'histoire s'énonce afin que nous entendions la vérité immuable."
+    }
+  ],
+  "cultural_notes": [
+    "La langue toma possède un cloisonnement stylistique très fort. Les termes utilisés au sein du 'Poro' (société secrète traditionnelle de Guinée forestière) ou lors des grandes cérémonies mémorielles ne doivent jamais être galvaudés dans les conversations triviales du marché."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex24_1",
+      "type": "multiple_choice",
+      "question": "Comment le langage formel toma exprime-t-il le respect absolu envers un seul chef ou ancien ?",
+      "options": [
+        "En utilisant un ton suraigu",
+        "En employant systématiquement le pronom pluriel 'ta' (Pluriel de majesté)",
+        "En omettant son nom propre"
+      ],
+      "correct_answer": "En employant systématiquement le pronom pluriel 'ta' (Pluriel de majesté)",
+      "explanation": "Le pluriel traduit la dimension collective et spirituelle qui entoure la fonction de l'autorité."
+    },
+    {
+      "exercise_id": "ex24_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Na va [ ___ ] vena kêe-ni ma (J'ai offert la libation aux ancêtres).",
+      "correct_answer": "sala",
+      "hint": "Le nom désignant l'offrande rituelle ou la bénédiction sacrée."
+    }
+  ]
+}

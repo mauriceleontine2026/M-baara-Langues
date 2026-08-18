@@ -1,0 +1,188 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire son habitation et énumérer les principales pièces de la maison",
+    "Situer son logement dans un quartier ou une ville spécifique",
+    "Utiliser les marqueurs de localisation spatiale et les verbes d'état"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 's' dans 'so' (maison) est sibilante et très nette. Le digramme 'gb' dans 'gbun' (chambre) s'articule comme une seule unité sonore occlusive vélaire-bilabiale. La voyelle longue 'oo' dans 'sooba' doit être maintenue.",
+    "common_pitfalls": "Ne pas confondre 'so' (maison/village, voyelle brève) avec 'soo' (cheval, voyelle longue)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_b1_m1",
+      "term": "So",
+      "phonetic_api": "/so/",
+      "phonetic_simple": "SO",
+      "translation": "Maison / Case / Village",
+      "example_sentence": "N bɛ n ya so la",
+      "example_phonetic": "/ɱ͡bɛ ɲ͡ja so la/",
+      "example_translation": "Je suis chez moi (dans ma maison)"
+    },
+    {
+      "word_id": "v2_b1_m1",
+      "term": "Gbun",
+      "phonetic_api": "/g͡bun/",
+      "phonetic_simple": "GBOUN",
+      "translation": "Chambre / Pièce fermée",
+      "example_sentence": "N bɛ n da gbun kɔnɔ",
+      "example_phonetic": "/ɱ͡bɛ ɲ͡da g͡bun kɔ.nɔ/",
+      "example_translation": "Je dors dans ma chambre"
+    },
+    {
+      "word_id": "v3_b1_m1",
+      "term": "Kɛnɛ",
+      "phonetic_api": "/kɛ.nɛ/",
+      "phonetic_simple": "KƐ-NƐ",
+      "translation": "Cour / Espace ouvert / Lumière",
+      "example_sentence": "Alu bɛ so kɛnɛ ra",
+      "example_phonetic": "/a.lu bɛ so kɛ.nɛ ra/",
+      "example_translation": "Ils sont dans la cour de la maison"
+    },
+    {
+      "word_id": "v4_b1_m1",
+      "term": "Sooba",
+      "phonetic_api": "/soː.ba/",
+      "phonetic_simple": "SOO-BA",
+      "translation": "Ville / Grande agglomération",
+      "example_sentence": "Conakry bɛ sooba ri",
+      "example_phonetic": "/co.na.kry bɛ soː.ba ri/",
+      "example_translation": "Conakry est une grande ville"
+    },
+    {
+      "word_id": "v5_b1_m1",
+      "term": "Gwankun",
+      "phonetic_api": "/gwan.kun/",
+      "phonetic_simple": "GWAN-KOUN",
+      "translation": "Cuisine",
+      "example_sentence": "N ba bɛ gwankun kɔnɔ",
+      "example_phonetic": "/ŋ͡ba bɛ gwan.kun kɔ.nɔ/",
+      "example_translation": "Ma mère est dans la cuisine"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_b1_m1",
+      "original": "I bɛ mi sigi ra ?",
+      "phonetic_api": "/i bɛ mi si.gi ra/",
+      "phonetic_simple": "I BƐ MI SI-GI RA ?",
+      "translation": "Où habites-tu ? (Où es-tu assis/installé ?)",
+      "context": "Demander le lieu de résidence à un niveau conversationnel."
+    },
+    {
+      "phrase_id": "p2_b1_m1",
+      "original": "N sigira Faranah sooba ra",
+      "phonetic_api": "/ɲ͡si.gi.ra fa.ra.na soː.ba ra/",
+      "phonetic_simple": "N SI-GI-RA FA-RA-NA SOO-BA RA",
+      "translation": "J'habite dans la ville de Faranah",
+      "context": "Indiquer sa ville de résidence principale."
+    },
+    {
+      "phrase_id": "p3_b1_m1",
+      "original": "Gbun jili bɛ i ya so la ?",
+      "phonetic_api": "/g͡bun d͡ʒi.li bɛ i ja so la/",
+      "phonetic_simple": "GBOUN DJI-LI BƐ I YA SO LA ?",
+      "translation": "Combien de chambres y a-t-il dans ta maison ?",
+      "context": "Demander des précisions sur les dimensions d'un logement."
+    },
+    {
+      "phrase_id": "p4_b1_m1",
+      "original": "Gbun sawa ni kɛnɛ kelɛn bɛ n ya so la",
+      "phonetic_api": "/g͡bun sa.wa ni kɛ.nɛ ke.lɛn bɛ ɲ͡ja so la/",
+      "phonetic_simple": "GBOUN SA-WA NI KƐ-NƐ KE-LƐN BƐ N YA SO LA",
+      "translation": "Il y a trois chambres et une cour dans ma maison",
+      "context": "Décrire succinctement son habitation."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le verbe de résidence stable 'sigi'",
+      "explanation": "Pour exprimer le fait d'habiter ou de résider de manière durable à un endroit, le kuranko emploie le verbe 'sigi' (s'asseoir / s'établir) fléchi à l'inaccompli ou à l'accompli passif/état en '-ra'.",
+      "rules": [
+        "Structure à l'accompli d'état : [Sujet] + sigira + [Lieu] + ra/la",
+        "La postposition varie entre 'ra' et 'la' selon l'harmonie consonantique précédante."
+      ],
+      "examples": [
+        {
+          "structure": "A sigira Kankan",
+          "phonetic_api": "/a si.gi.ra kan.kan/",
+          "meaning": "Il/Elle habite à Kankan"
+        }
+      ]
+    },
+    {
+      "concept": "La postposition d'intérieur 'kɔnɔ'",
+      "explanation": "Pour spécifier qu'un sujet se situe précisément à l'intérieur d'une pièce ou d'un contenant clos (chambre, cuisine, maison), on fait suivre le nom de la postposition 'kɔnɔ' (dedans / dans le ventre de).",
+      "rules": [
+        "Structure : [Nom du lieu] + kɔnɔ"
+      ],
+      "examples": [
+        {
+          "structure": "Gbun kɔnɔ",
+          "phonetic_api": "/g͡bun kɔ.nɔ/",
+          "meaning": "Dans la chambre"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "Amara, i bɛ mi sigi ra bi fɛ ?",
+      "phonetic_api": "/a.ma.ra i bɛ mi si.gi ra bi fɛ/",
+      "phonetic_simple": "A-MA-RA, I BƐ MI SI-GI RA BI FƐ ?",
+      "translation": "Amara, où habites-tu ces temps-ci ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "N sigira Conakry sooba ra, Kinifi ra.",
+      "phonetic_api": "/ɲ͡si.gi.ra co.na.kry soː.ba ra ki.ni.fi ra/",
+      "phonetic_simple": "N SI-GI-RA CO-NA-KRY SOO-BA RA, KI-NI-FI RA.",
+      "translation": "J'habite dans la ville de Conakry, au quartier Kenien."
+    },
+    {
+      "speaker": "Sékou",
+      "text": "I ya so ka bon ?",
+      "phonetic_api": "/i ja so ka bon/",
+      "phonetic_simple": "I YA SO KA BON ?",
+      "translation": "Est-ce que ta maison est grande ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "Ɔnhɔ, a ka bon. Gbun fila ni gwankun bɛ kɔnɔ.",
+      "phonetic_api": "/ɔn.hɔ a ka bon g͡bun fi.la ni gwan.kun bɛ kɔ.nɔ/",
+      "phonetic_simple": "ƆN-HƆ, A KA BON. GBOUN FI-LA NI GWAN-KOUN BƐ KƆ-NƆ.",
+      "translation": "Oui, elle est grande. Il y a deux chambres et une cuisine à l'intérieur."
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Kuranko, la concession familiale ('so') héberge couramment plusieurs générations. Même dans les grandes villes ('sooba') comme Conakry ou Faranah, le logement garde une dimension communautaire forte où les espaces ouverts comme la cour ('kɛnɛ') restent le lieu privilégié de la vie sociale, des palabres et de la préparation des repas."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_b1_m1",
+      "type": "multiple_choice",
+      "question": "Que signifie littéralement l'expression 'Gbun kɔnɔ' ?",
+      "options": [
+        "Derrière la maison",
+        "Dans la chambre",
+        "Devant la cuisine"
+      ],
+      "correct_answer": "Dans la chambre",
+      "explanation": "'Gbun' désigne la chambre et 'kɔnɔ' exprime l'intérieur (dans/dedans)."
+    },
+    {
+      "exercise_id": "ex2_b1_m1",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire qu'une ville est grande, on utilise le mot compas composé : [ ___ ].",
+      "correct_answer": "sooba",
+      "hint": "Formé à partir de 'so' (maison/village) et 'ba' (grand)"
+    }
+  ]
+}

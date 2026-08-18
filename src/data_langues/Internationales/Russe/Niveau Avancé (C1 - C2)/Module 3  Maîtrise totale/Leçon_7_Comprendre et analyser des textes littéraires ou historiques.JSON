@@ -1,0 +1,228 @@
+{
+  "lesson_id": "C1_M3_L7",
+  "level": "Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 7,
+  "title": "Analyser des textes littéraires ou historiques",
+  "learning_objectives": [
+    "Décoder les structures syntaxiques archaïques ou complexes propres à la prose littéraire et aux chroniques historiques russes",
+    "Identifier et analyser les figures de style majeures (métaphores, métonymies, hyperboles) dans un texte d'époque",
+    "Maîtriser le lexique de la critique textuelle, de l'exégèse et de l'analyse historiographique",
+    "Utiliser les temps du passé et les participes pour formuler une analyse littéraire soutenue"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot 'Произведение' (œuvre) exige une transition fluide entre la consonne palatale 'з' et la labio-dentale 'в' : [prəɪ̯izvʲɪˈdʲenʲɪjə]. Dans le terme 'Художественный', veillez à prononcer le groupe de consonnes final sans élision : [xʊˈdoʐɨstvʲɪnːɨj].",
+    "common_pitfalls": "Attention à l'accent tonique dans 'Летопись' (chronique historique) : il se situe sur la toute première syllabe [ˈlʲetəpʲɪsʲ]. Le 'с' final doit être distinctement adouci par le signe mou."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Произведение",
+      "phonetic_api": "/prəɪ̯izvʲɪˈdʲenʲɪjə/",
+      "phonetic_simple": "prai-iz-vi-DIÉ-ni-ye",
+      "translation": "Œuvre / Création / Production littéraire ou artistique",
+      "example_sentence": "Это произведение отражает дух эпохи реализма.",
+      "example_phonetic": "/ˈɛtə prəɪ̯izvʲɪˈdʲenʲɪjə ɐtrɐˈʐaɪ̯ɪt dutx ɪˈpoxʲɪ rʲɪɐˈlʲizmə/",
+      "example_translation": "Cette œuvre reflète l'esprit de l'époque du réalisme."
+    },
+    {
+      "word_id": "v2",
+      "term": "Летопись",
+      "phonetic_api": "/ˈlʲetəpʲɪsʲ/",
+      "phonetic_simple": "LIÉ-ta-piss'",
+      "translation": "Chronique / Annales (Historique)",
+      "example_sentence": "Древнерусские летописи служат важным источником для историков.",
+      "example_phonetic": "/drʲɪvnʲɪˈruskʲɪjə ˈlʲetəpʲɪsʲɪ ˈsluʐət ˈvaʐnɨm ɪˈstotɕnʲɪkəm dlʲɐ ɪsˈtorʲɪkəf/",
+      "example_translation": "Les chroniques de la Russie ancienne servent de source majeure pour les historiens."
+    },
+    {
+      "word_id": "v3",
+      "term": "Повествование",
+      "phonetic_api": "/pəvʲɪstʊˈvanʲɪjə/",
+      "phonetic_simple": "pa-viest-ou-VA-ni-ye",
+      "translation": "Récit / Narration / Fil conducteur narratif",
+      "example_sentence": "Автор ведёт повествование от первого лица.",
+      "example_phonetic": "/ˈaftər vʲɪˈdʲot pəvʲɪstʊˈvanʲɪjə ɐt ˈpʲɛrvəvə lʲɪˈt͡sa/",
+      "example_translation": "L'auteur mène le récit à la première personne."
+    },
+    {
+      "word_id": "v4",
+      "term": "Метафора",
+      "phonetic_api": "/mʲɪˈtafərə/",
+      "phonetic_simple": "mi-TA-fa-ra",
+      "translation": "Métaphore (Figure de style)",
+      "example_sentence": "В тексте часто используется развёрнутая метафора.",
+      "example_phonetic": "/v ˈtɛkstɪ ˈtɕastə ɪˈspoɫʲzʊɪ̯ɪt͡sʲə rɐzˈvʲornʊtəjə mʲɪˈtafərə/",
+      "example_translation": "Une métaphore filée est fréquemment utilisée dans le texte."
+    },
+    {
+      "word_id": "v5",
+      "term": "Контекст",
+      "phonetic_api": "/kɐnˈtɛkst/",
+      "phonetic_simple": "kan-TEKST",
+      "translation": "Contexte (Historique, littéraire ou linguistique)",
+      "example_sentence": "Нельзя рассматривать эту цитату вне исторического контекста.",
+      "example_phonetic": "/nʲɪlʲˈzʲa rəsmɐˈtrʲɪvətʲ ˈɛtʊ t͡sɨˈtatʊ vnʲɪ ɪstɐˈrʲitɕɪskəvə kɐnˈtɛkstə/",
+      "example_translation": "On ne peut pas analyser cette citation en dehors de son contexte historique."
+    },
+    {
+      "word_id": "v6",
+      "term": "Олицетворение",
+      "phonetic_api": "/əlʲɪt͡sɨtvɐˈrʲenʲɪjə/",
+      "phonetic_simple": "a-li-tsy-tva-RIÉ-ni-ye",
+      "translation": "Personnification / Allégorie",
+      "example_sentence": "Природа в романе выступает как олицетворение душевного состояния героя.",
+      "example_phonetic": "/prʲɪˈrodə v rɐˈmanɪ vɨstʊˈpaɪ̯ɪt kak əlʲɪt͡sɨtvɐˈrʲenʲɪjə dʊˈʂɛvnəvə sɐsˈtojanʲɪjə ɡʲɪˈrojə/",
+      "example_translation": "La nature dans le roman fait office de personnification de l'état d'esprit du héros."
+    },
+    {
+      "word_id": "v7",
+      "term": "Трактовать",
+      "phonetic_api": "/trəktɐˈvatʲ/",
+      "phonetic_simple": "trak-ta-VAT'",
+      "translation": "Interpréter / Analyser / Décoder (Imperfectif / Perfectif)",
+      "example_sentence": "Критики по-разному трактуют финал этой поэмы.",
+      "example_phonetic": "/ˈkrʲitʲɪkʲɪ pɐ ˈraznəmʊ trəktʊˈjʊt fʲɪˈnaɫ ˈɛtəj pɐˈɛmɨ/",
+      "example_translation": "Les critiques interprètent différemment le dénouement de ce poème."
+    },
+    {
+      "word_id": "v8",
+      "term": "Самобытность",
+      "phonetic_api": "/səmɐˈbɨtnəsʲtʲ/",
+      "phonetic_simple": "sa-ma-BYT-nast'",
+      "translation": "Originalité / Authenticité / Singularité culturelle",
+      "example_sentence": "Историк подчеркнул культурную самобытность древнерусских городов.",
+      "example_phonetic": "/ɪsˈtorʲɪk pəttɕɪrkˈnuɫ kʊlʲˈturnʊjʊ səmɐˈbɨtnəsʲtʲ drʲɪvnʲɪˈruskʲɪx ɡərɐˈdof/",
+      "example_translation": "L'historien a souligné la singularité culturelle des cités de la Russie ancienne."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Анализируя архитектонику данного художественного текста",
+      "phonetic_api": "/ənəlʲɪˈzʲirʊjə ɐrxʲɪtʲɪkˈtonʲɪkʊ ˈdannəvə xʊˈdoʐɨstvʲɪnːəvə ˈtɛkstə/",
+      "phonetic_simple": "a-na-li-ZI-rou-ia ar-hi-tek-TO-ni-kou DAN-na-va hou-DO-jest-vi-na-va TEK-sta",
+      "translation": "En analysant l'architectonique (la structure) de ce texte littéraire",
+      "context": "Formule académique de haut niveau pour introduire l'étude de la composition d'un roman ou d'un essai."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Этот мотив лейтмотивом проходит через всё повествование",
+      "phonetic_api": "/ˈɛtət mɐˈtʲif lʲeɪ̯tmɐˈtʲivəm prɐˈxodʲɪt tɕɪrʲɪz fsʲۆ pəvʲɪstʊˈvanʲɪjə/",
+      "phonetic_simple": "E-tat ma-TIF leït-ma-TI-vam pra-HO-dit tchi-riz vssio pa-viest-ou-VA-ni-ye",
+      "translation": "Ce motif traverse tout le récit comme un leitmotiv",
+      "context": "Permet de mettre en lumière la récurrence d'un thème ou d'un symbole dans une œuvre."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Вчитываясь в строки первоисточника, мы обнаруживаем...",
+      "phonetic_api": "/ftɕitɨvəjəsʲ f ˈstroki pʲɪrvɐɪ̯ɪsˈtotɕnʲɪkə mɨ ɐbnɐˈruʐɨvəɪ̯ɪm/",
+      "phonetic_simple": "fTCHY-ty-va-ias' f STRO-ki pir-va-is-TOTCH-ni-ka my ab-na-ROU-jy-va-iem...",
+      "translation": "En lisant attentivement entre les lignes du document original, on découvre...",
+      "context": "Idéal pour une analyse exégétique ou historiographique minutieuse."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Автор прибегает к гиперболе для усиления драматического эффекта",
+      "phonetic_api": "/ˈaftər prʲɪbʲɪˈɡaɪ̯ɪt k ɡʲɪˈpɛrbəlʲɪ dlʲɐ ʊsʲɪˈlʲenʲɪjə drəmətʲɪˈtɕɪskəvə ɪfˈfɛktə/",
+      "phonetic_simple": "AF-tar pri-bi-GA-iet k gui-PIER-ba-li dlia ou-ssi-LIÉ-ni-ia dra-ma-TI-tches-ka-va ef-FEK-ta",
+      "translation": "L'auteur a recours à l'hyperbole pour accentuer l'effet dramatique",
+      "context": "Formulation critique servant à décoder les intentions stylistiques d'un écrivain."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'usage stylistique de l'Instrumental de restriction ou de qualification (лейтмотивом, олицетворением)",
+      "explanation": "En russe avancé et littéraire, le cas Instrumental est fréquemment employé pour rattacher une fonction, un rôle ou une figure de style à un sujet sans passer par la préposition 'как' (comme).",
+      "rules": [
+        "Le substantif qui qualifie la manière ou la fonction se met directement à l'Instrumental (ex: проходить лейтмотивом = passer en tant que leitmotiv).",
+        "Cette tournure densifie la phrase et correspond au registre soutenu de la critique littéraire."
+      ],
+      "examples": [
+        {
+          "structure": "Образ сада выступает олицетворением (Instrumental) уходящей эпохи.",
+          "phonetic_api": "/ˈobrəs ˈsadə vɨstʊˈpaɪ̯ɪt əlʲɪt͡sɨtvɐˈrʲenʲɪɪm ʊxɐˈdʲaɕːɪj ɪˈpoxʲɪ/",
+          "meaning": "L'image du jardin fait office de personnification (se présente comme la personnification) d'une époque qui s'éteint."
+        }
+      ]
+    },
+    {
+      "concept": "Les propositions participiales passives au passé (Причастия прошедшего времени)",
+      "explanation": "L'analyse de textes historiques et littéraires fait un usage systématique des participes passés passifs pour insérer des faits contextuels condensés.",
+      "rules": [
+        "Formation pour les verbes perfectifs : Suffixes '-нныи' / '-енныи' / '-тыи' (Написать -> Написанныи, Создать -> Созданныи).",
+        "Ils s'accordent obligatoirement en genre, en nombre et en cas avec le nom qu'ils qualifient."
+      ],
+      "examples": [
+        {
+          "structure": "В летописи, написанной (Participe Instrumental féminin) монахом в XII веке, упомянуто это затмение.",
+          "phonetic_api": "/v ˈlʲetəpʲɪsʲɪ nɐˈpʲisənːəj mɐˈnaxəm f dʲvʲɪˈnat͡sətəm vʲekʲɪ ʊpɐˈmʲanutə ˈɛtə zɐtˈmʲenʲɪjə/",
+          "meaning": "Dans la chronique, écrite par un moine au XIIe siècle, il est fait mention de cette éclipse."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Профессор",
+      "text": "Вчитываясь в строки этого древнего повествования, мы можем заметить, как автор прибегает к олицетворению сил природы. Какими бы скупыми ни казались нам летописи, это произведение демонстрирует глубокую художественную самобытность.",
+      "phonetic_api": "/ftɕitɨvəjəsʲ f ˈstroki ˈɛtəvə drʲɛvnʲɪvə pəvʲɪstʊˈvanʲɪjə mɨ ˈmoʐɪm zɐˈmʲetʲɪtʲ kak ˈaftər prʲɪbʲɪˈɡaɪ̯ɪt k əlʲɪt͡sɨtvɐˈrʲenʲɪjʊ sʲiɫ prʲɪˈrodɨ kɐˈkʲimʲɪ bɨ skʊˈpɨmʲɪ nʲɪ kɐˈzalʲɪsʲ nam ˈlʲetəpʲɪsʲɪ ˈɛtə prəɪ̯izvʲɪˈdʲenʲɪjə dʲɪmənˈstrʲirʊɪ̯ɪt ˈɡɫʊbokʊjʊ xʊˈdoʐɨstvʲɪnːʊjʊ səmɐˈbɨtnəsʲtʲ/",
+      "phonetic_simple": "fTCHY-ty-va-ias' f STRO-ki E-ta-va DRIEV-ni-va pa-viest-ou-VA-ni-ia, my MO-jym za-MIÉ-tit' kak AF-tar pri-bi-GA-iet k a-li-tsy-tva-RIÉ-ni-ou sil pri-RO-dy. Ka-KI-mi by skou-PY-mi ni ka-ZA-lis' nam LIÉ-ta-pi-ssi, E-ta pra-iz-vi-DIÉ-ni-ye di-man-STRI-rou-iet GLOU-bo-kou-ou hou-DO-jest-vi-nou-ou sa-ma-BYT-nast'.",
+      "translation": "En lisant attentivement les lignes de cet ancien récit, nous pouvons remarquer comment l'auteur a recours à la personnification des forces de la nature. Aussi austères que puissent nous paraître les chroniques, cette œuvre fait preuve d'une profonde originalité artistique."
+    },
+    {
+      "speaker": "Аспирант",
+      "text": "Совершенно верно. Если трактовать текст в историческом контексте, становится очевидно, что развёрнутая метафора княжеского суда символизирует стабильность государства. Этот мотив лейтмотивом проходит через весь свиток.",
+      "phonetic_api": "/səvʲɪrˈʂɛnːə vʲerno ˈjeslʲɪ trəktɐˈvatʲ tɛkst v ɪstɐˈrʲitɕɪskəm kɐnˈtɛkstɪ stɐˈnovʲɪt͡sʲə ɐtɕɪˈvʲidnə ʂto rɐzˈvʲornʊtəjə mʲɪˈtafərə knʲaʐɨskəvə sʊˈda sʲɪmrvəlʲɪˈzʲirʊɪ̯ɪt stɐˈbʲilʲnəsʲtʲ ɡəsʊˈdar͡stvə ˈɛtət mɐˈtʲif lʲeɪ̯tmɐˈtʲivəm prɐˈxodʲɪt tɕɪrʲɪz vʲesʲ svʲitək/",
+      "phonetic_simple": "Sa-vir-CHIE-na VIER-na. IES-li trak-ta-VAT' tekst v is-ta-RITCH-is-kam kan-TEK-sti, sta-NO-vit-ssya a-tchi-VID-na, chto raz-VIOR-nou-ta-ia mi-TA-fa-ra knia-jys-ka-va sou-DA sim-va-li-ZI-rou-iet sta-BIL'-nast' ga-sou-DARST-va. E-tat ma-TIF leït-ma-TI-vam pra-HO-dit tchi-riz vies' svit-ak.",
+      "translation": "Absolument. Si l'on interprète le texte dans son contexte historique, il devient évident que la métaphore filée du tribunal princier symbolise la stabilité de l'État. Ce motif traverse tout le parchemin comme un leitmotiv."
+    }
+  ],
+  "cultural_notes": [
+    "Les Chroniques russes (Летописи) : La plus célèbre est la 'Chronique des temps passés' (Повесть временных лет), rédigée au XIIe siècle par le moine Nestor. Ces textes mélangent faits historiques stricts, paraboles religieuses et envolées littéraires épiques. Leur analyse constitue le fondement de la philologie et de l'historiographie russes.",
+    "L'art de l'exégèse littéraire : En Russie, la critique littéraire (литературоведение) est une discipline académique prestigieuse qui possède ses propres codes étanches. Employer des concepts précis comme архитектоника (structure d'ensemble) ou повествователь (le narrateur) est indispensable pour être pris au sérieux dans un débat universitaire."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M3_L7_ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la forme correcte de l'Instrumental sans préposition pour exprimer la fonction de leitmotiv : 'Этот символ проходит [ ___ ] через весь роман.'",
+      "options": [
+        "лейтмотив",
+        "лейтмотива",
+        "лейтмотивом",
+        "лейтмотиве"
+      ],
+      "correct_answer": "лейтмотивом",
+      "explanation": "L'Instrumental de qualification/manière 'лейтмотивом' s'emploie directement après le verbe 'проходить' pour indiquer le rôle joué par le symbole."
+    },
+    {
+      "exercise_id": "C1_M3_L7_ex2",
+      "type": "multiple_choice",
+      "question": "Accordez correctement le participe passé passif du verbe 'найти' (найденный) dans cette phrase : 'В летописи, [ ___ ] археологами, содержались важные сведения.'",
+      "options": [
+        "найденная",
+        "найденной",
+        "найденную",
+        "найденных"
+      ],
+      "correct_answer": "найденной",
+      "explanation": "Le participe se rapporte au substantif féminin 'в летописи' qui est au cas Locatif singulier. La déclinaison adéquate du participe est donc 'найденной'."
+    },
+    {
+      "exercise_id": "C1_M3_L7_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Литературоведы продолжают спорить о том, как правильно [ ___ ] (Трактовать) скрытые смыслы этого романа. (Interpréter / Décoder - Infinitif)",
+      "correct_answer": "трактовать",
+      "hint": "Verbe d'emprunt se terminant par le suffixe '-овать'."
+    },
+    {
+      "exercise_id": "C1_M3_L7_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Нельзя оценивать поступки героев ХІХ века вне исторического [ ___ ] (Контекст). (Mettez au cas requis après la préposition)",
+      "correct_answer": "контекста",
+      "hint": "La préposition 'вне' (en dehors de) régit impérativement le cas Génitif singulier."
+    }
+  ]
+}

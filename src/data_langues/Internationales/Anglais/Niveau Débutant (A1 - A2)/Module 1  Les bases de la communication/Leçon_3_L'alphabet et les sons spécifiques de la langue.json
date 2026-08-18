@@ -1,0 +1,212 @@
+{
+  "lesson_id": "A1_M1_L3_v2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Maîtriser la prononciation et l'épellation des 26 lettres de l'alphabet anglais",
+    "Distinguer les phonèmes vocaliques courts et longs fondamentaux",
+    "Comprendre le fonctionnement des consonnes spécifiques comme le 'th' et le 'h' expiré",
+    "Savoir épeler son nom et ses coordonnées de manière fluide"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'alphabet anglais possède des pièges majeurs pour les francophones, notamment la permutation des voyelles : 'A' se prononce /eɪ/, 'E' se prononce /iː/ et 'I' se prononce /aɪ/. La lettre 'G' /dʒiː/ et la lettre 'J' /dʒeɪ/ sont également souvent inversées. L'accentuation des lettres lors de l'épellation demande une clarté absolue sur la tension de la voyelle finale (par exemple pour 'V' /viː/ ou 'Z' /zɛd/ en anglais britannique et /ziː/ en anglais américain).",
+    "common_pitfalls": "Confondre la lettre 'E' et la lettre 'I'. Prononcer la lettre 'H' /ˈeɪtʃ/ en ajoutant un son aspiré au début (dire 'heitch' au lieu de 'eitch'). Omettre la vibration des cordes vocales sur le 'Z' ou confondre 'R' /ɑːr/ avec le 'A' /eɪ/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Alphabet",
+      "phonetic_api": "/ˈælfəbɛt/",
+      "phonetic_simple": "AL-fə-bet",
+      "translation": "Alphabet",
+      "example_sentence": "The English alphabet has twenty-six letters.",
+      "example_phonetic": "/ðiː ˈɪŋɡlɪʃ ˈælfəbɛt hæz ˈtwɛntɪsɪks ˈlɛtərz/",
+      "example_translation": "L'alphabet anglais compte vingt-six lettres."
+    },
+    {
+      "word_id": "v2",
+      "term": "Letter",
+      "phonetic_api": "/ˈlɛtər/",
+      "phonetic_simple": "LET-ər",
+      "translation": "Lettre",
+      "example_sentence": "Capital letters are used for names.",
+      "example_phonetic": "/ˈkæpɪtəl ˈlɛtərz ɑːr juːzd fɔːr neɪmz/",
+      "example_translation": "Les lettres majuscules sont utilisées pour les noms."
+    },
+    {
+      "word_id": "v3",
+      "term": "Vowel",
+      "phonetic_api": "/ˈvaʊəl/",
+      "phonetic_simple": "VAOU-əl",
+      "translation": "Voyelle",
+      "example_sentence": "English has five native vowel letters but many vowel sounds.",
+      "example_phonetic": "/ˈɪŋɡlɪʃ hæz faɪv ˈneɪtɪv ˈvaʊəl ˈlɛtərz bʌt ˈmɛni ˈvaʊəl saʊndz/",
+      "example_translation": "L'anglais a cinq lettres voyelles natives mais beaucoup de sons de voyelles."
+    },
+    {
+      "word_id": "v4",
+      "term": "Consonant",
+      "phonetic_api": "/ˈkɒnsənənt/",
+      "phonetic_simple": "KON-sə-nənt",
+      "translation": "Consonne",
+      "example_sentence": "The letter 'B' is a consonant.",
+      "example_phonetic": "/ðə ˈlɛtər biː ɪz ə ˈkɒnsənənt/",
+      "example_translation": "La lettre 'B' est une consonne."
+    },
+    {
+      "word_id": "v5",
+      "term": "To spell",
+      "phonetic_api": "/tuː spɛl/",
+      "phonetic_simple": "too spel",
+      "translation": "Épeler",
+      "example_sentence": "Could you spell your last name, please?",
+      "example_phonetic": "/kʊd juː spɛl jɔːr læst neɪm pliːz/",
+      "example_translation": "Pourriez-vous épeler votre nom de famille, s'il vous plaît ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "How do you spell that?",
+      "phonetic_api": "/haʊ duː juː spɛl ðæt/",
+      "phonetic_simple": "haʊ doo yoo spel ðat",
+      "translation": "Comment cela s'épele-t-il ? / Comment ça s'écrit ?",
+      "context": "Indispensable au téléphone ou lors d'une inscription administrative pour noter un nom propre."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "It is spelled with a double 'S'",
+      "phonetic_api": "/ɪt ɪz spɛld wɪð ə ˈdʌbəl ɛs/",
+      "phonetic_simple": "ɪt ɪz speld wɪð ə DAB-əl es",
+      "translation": "Cela s'écrit avec un double 'S'",
+      "context": "Utilisé pour indiquer la répétition immédiate d'une lettre dans un mot."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "In capital letters",
+      "phonetic_api": "/ɪn ˈkæpɪtəl ˈlɛtərz/",
+      "phonetic_simple": "ɪn KAP-ɪ-təl LET-ərz",
+      "translation": "En lettres majuscules",
+      "context": "Instruction courante lors du remplissage de formulaires officiels."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Could you repeat that letter, please?",
+      "phonetic_api": "/kʊd juː rɪˈpiːt ðæt ˈlɛtər pliːz/",
+      "phonetic_simple": "kʊd yoo rɪ-PIIT ðat LET-ər pliiz",
+      "translation": "Pourriez-vous répéter cette lettre, s'il vous plaît ?",
+      "context": "Formule de courtoisie en cas d'incompréhension lors d'une dictée ou d'une épellation."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La prononciation des 26 lettres de l'alphabet (Bloc Référence)",
+      "explanation": "L'épellation des lettres suit un schéma phonétique strict. Voici le découpage officiel de l'alphabet par groupes de sons similaires pour faciliter la mémorisation.",
+      "rules": [
+        "Groupe EI : A /eɪ/, H /ˈeɪtʃ/, J /dʒeɪ/, K /keɪ/",
+        "Groupe II : B /viː/, C /siː/, D /diː/, E /iː/, G /dʒiː/, P /piː/, T /tiː/, V /viː/, Z /ziː/ (US)",
+        "Groupe E : F /ɛf/, L /ɛl/, M /ɛm/, N /ɛn/, S /ɛs/, X /ɛks/, Z /zɛd/ (UK)",
+        "Groupe AI : I /aɪ/, Y /waɪ/",
+        "Lettres uniques : O /oʊ/, Q /kjuː/, R /ɑːr/, U /juː/, W /ˈdʌbəl.juː/"
+      ],
+      "examples": [
+        {
+          "structure": "Épeler le prénom 'AMY' : A, M, Y",
+          "phonetic_api": "/eɪ ɛm waɪ/",
+          "meaning": "A - M - Y"
+        }
+      ]
+    },
+    {
+      "concept": "L'usage de la structure 'Double + Lettre' pour l'épellation",
+      "explanation": "En anglais, lorsque deux lettres identiques se suivent dans un mot, on ne les prononce pas séparément (par exemple 'M-M'). On utilise l'adjectif 'double' suivi du nom de la lettre en question.",
+      "rules": [
+        "Lettre + Lettre identique -> Double + Nom de la lettre."
+      ],
+      "examples": [
+        {
+          "structure": "Épeler 'GREEN' : G - R - Double E - N",
+          "phonetic_api": "/dʒiː ɑːr ˈdʌbəl iː ɛn/",
+          "meaning": "G - R - E - E - N"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Receptionist",
+      "text": "Good morning. What is your last name, please?",
+      "phonetic_api": "/ˌɡʊd ˈmɔːrnɪŋ wɒt ɪz jɔːr læst neɪm pliːz/",
+      "phonetic_simple": "gʊd MOR-niŋ wɒt ɪz yor læst neɪm pliiz",
+      "translation": "Bonjour. Quel est votre nom de famille, s'il vous plaît ?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "Good morning. My last name is Wright.",
+      "phonetic_api": "/ˌɡʊd ˈmɔːrnɪŋ maɪ læst neɪm ɪz raɪt/",
+      "phonetic_simple": "gʊd MOR-niŋ maɪ læst neɪm ɪz raɪt",
+      "translation": "Bonjour. Mon nom de famille est Wright."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "How do you spell that? Is it with a 'W'?",
+      "phonetic_api": "/haʊ duː juː spɛl ðæt ɪz ɪt wɪð ə ˈdʌbəl.juː/",
+      "phonetic_simple": "haʊ doo yoo spel ðat ɪz ɪt wɪð ə DAB-əl-yoo",
+      "translation": "Comment cela s'épelle-t-il ? Est-ce avec un 'W' ?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "Yes. It is W - R - I - G - H - T.",
+      "phonetic_api": "/jɛs ɪt ɪz ˈdʌbəl.juː ɑːr aɪ dʒiː eɪtʃ tiː/",
+      "phonetic_simple": "jεs ɪt ɪz DAB-əl-yoo ar aɪ dʒi eɪtʃ ti",
+      "translation": "Oui. C'est W - R - I - G - H - T."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Thank you, Mr. Wright. I have your reservation right here.",
+      "phonetic_api": "/ˈθæŋk juː ˈmɪstər raɪt aɪ hæv jɔːr ˌrɛzərˈveɪʃən raɪt hɪər/",
+      "phonetic_simple": "THÆNK yoo Mɪstər raɪt aɪ hæv yor rez-ər-VEI-ʃən raɪt hɪər",
+      "translation": "Merci, M. Wright. J'ai votre réservation juste ici."
+    }
+  ],
+  "cultural_notes": [
+    "La variante de la lettre Z : C'est l'un des marqueurs culturels les plus nets entre l'anglais britannique et l'anglais américain. Au Royaume-Uni (et dans la majeure partie du Commonwealth), la lettre Z se prononce /zɛd/ ('zed'). Aux États-Unis, elle se prononce systématiquement /ziː/ ('zee').",
+    "L'importance de l'épellation nominative : En raison de l'histoire de la langue anglaise, l'orthographe des noms propres est extrêmement irrégulière et déconnectée de leur prononciation exacte. Demander à quelqu'un d'épeler son nom ('Could you spell your name?') est une démarche standard, quotidienne et totalement polie."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment prononce-t-on la lettre 'J' en anglais pour ne pas la confondre avec la lettre 'G' ?",
+      "options": [
+        "/dʒiː/ (ji)",
+        "/dʒeɪ/ (djeï)",
+        "/jaɪ/ (yaï)"
+      ],
+      "correct_answer": "/dʒeɪ/ (djeï)",
+      "explanation": "La lettre 'J' se prononce /dʒeɪ/, tandis que la lettre 'G' se prononce /dʒiː/. C'est une inversion classique à éviter."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "To spell the word 'APPLE', you say: A, [ ___ ], L, E.",
+      "correct_answer": "double P",
+      "hint": "Utilisez la règle de répétition des lettres identiques en anglais."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Quelle est la prononciation correcte de la lettre 'I' en anglais ?",
+      "options": [
+        "/iː/",
+        "/aɪ/",
+        "/eɪ/"
+      ],
+      "correct_answer": "/aɪ/",
+      "explanation": "La lettre 'I' se prononce /aɪ/ (comme le mot 'œil' ou l'exclamation 'aïe'). Le son /iː/ correspond à la lettre 'E'."
+    }
+  ]
+}

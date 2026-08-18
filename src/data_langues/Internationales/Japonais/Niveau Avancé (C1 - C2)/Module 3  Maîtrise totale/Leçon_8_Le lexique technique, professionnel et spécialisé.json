@@ -1,0 +1,273 @@
+{
+  "lesson_id": "C1_M3_L8",
+  "level": "Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 8,
+  "title": "Lexique technique, professionnel et spécialisé",
+  "learning_objectives": [
+    "Formuler des conclusions d'audit ou d'expertise technique à l'aide des marqueurs formels '～に起因する' (ni kiin suru) et '～に収斂する' (ni shūren suru)",
+    "Exprimer des corrélations de données ou des causalités systémiques rigoureuses avec la structure '～と相関関係にある' (to sōkan kankei ni aru)",
+    "Manier le lexique abstrait de l'analyse stratégique et technologique pour rédiger des avis de conformité de niveau exécutif"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le terme spécialisé '収斂' exige une articulation très précise des mores nasales et de la voyelle longue : [ɕɯː.ɾeɴ]. Pour l'expression '相関関係', veillez à marquer distinctement le premier long 'ō' [oː] et le second long 'ā' [aː] afin de maintenir la rigueur syllabique : [soː.kaɴ kaɴ.keː].",
+    "common_pitfalls": "Attention à ne pas escamoter l'occlusion glottale ou la transition douce lors du passage de la particule 'ni' vers les verbes techniques comme 'kiin suru' [ki.iɴ sɯ.ɾɯ]. Une prononciation hachée nuirait à la fluidité requise lors d'un exposé d'ingénierie d'affaires."
+  },
+  "advanced_kanji_and_literary_markers": [
+    {
+      "kanji": "収斂 (しゅうれん / 収斂します)",
+      "romaji": "shūren",
+      "level_jlpt": "N1",
+      "meaning": "Convergence / Concentration / Synthèse",
+      "description": "Terme scientifique, technique ou mathématique décrivant le processus par lequel plusieurs facteurs ou variables tendent vers un point unique."
+    },
+    {
+      "kanji": "起因 (きいん / 起因します)",
+      "romaji": "kiin",
+      "level_jlpt": "N1",
+      "meaning": "Prendre sa source / Être causé par / Provenir de",
+      "description": "Utilisé principalement sous la forme '～に起因する' dans les rapports d'expertise pour désigner formellement la cause racine d'un incident."
+    },
+    {
+      "kanji": "相関 (そうかん)",
+      "romaji": "sōkan",
+      "level_jlpt": "N1",
+      "meaning": "Corrélation / Interdépendance",
+      "description": "Cadre conceptuel statistique servant à lier deux ensembles de données pour en analyser la relation réciproque."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "～に起因する（～にきいんする）",
+      "phonetic_api": "/ni ki.iɴ sɯ.ɾɯ/",
+      "phonetic_simple": "NI KI-IN SOU-ROU",
+      "translation": "Être imputable à / Provenir de / Trouver sa cause dans (Style d'expertise technique)",
+      "example_sentence": "今回のシステム障害は、データベースの同期エラーに起因する。",
+      "example_phonetic": "/koɴ.ka.i no ɕi.sɯ.te.mɯ ɕoː.ɡa.i wa deː.ta.beː.sɯ no doː.ki e.ɾaː ni ki.iɴ sɯ.ɾɯ/",
+      "example_translation": "La défaillance système actuelle est imputable à une erreur de synchronisation de la base de données."
+    },
+    {
+      "word_id": "v2",
+      "term": "～に収斂する（～にしゅうれんする）",
+      "phonetic_api": "/ni ɕɯː.heɴ sɯ.ɾɯ/",
+      "phonetic_simple": "NI SHUU-REN SOU-ROU",
+      "translation": "Converger vers / Se résumer finalement à (Analyse systémique)",
+      "example_sentence": "多角的な議論を展開したものの、結論はコスト削減の一点に収斂した。",
+      "example_phonetic": "/ta.ka.kɯ.te.ki.na ɡi.ɾoɴ o teɴ.ka.i ɕi.ta mo.no no ke̥t.ɾoɴ wa ko.sɯ.to sa.kɯ.ɡeɴ no i̥t.teɴ ni ɕɯː.ɾeɴ ɕi.ta/",
+      "example_translation": "Bien que nous ayons développé des discussions multilatérales, les conclusions ont finalement convergé vers le point unique de la réduction des coûts."
+    },
+    {
+      "word_id": "v3",
+      "term": "～と相関関係にある",
+      "phonetic_api": "/to soː.kaɴ kaɴ.keː ni a.ɾɯ/",
+      "phonetic_simple": "TO SOO-KAN KAN-KÉE NI A-ROU",
+      "translation": "Être en étroite corrélation avec / Évoluer de pair avec (Rapport statistique)",
+      "example_sentence": "ユーザーのエンゲージメント率は、サーバーの応答速度と正の相関関係にある。",
+      "example_phonetic": "/jɯː.zaː no eɴ.ɡeː.d͡ʑi.meɴ.to.ɾi̥t.sɯ wa saː.baː no oː.toː so̥k.ɯ.do to seː no soː.kaɴ kaɴ.keː ni a.ɾɯ/",
+      "example_translation": "Le taux d'engagement des utilisateurs est en corrélation positive avec la vitesse de réponse du serveur."
+    },
+    {
+      "word_id": "v4",
+      "term": "脆弱性（ぜいじゃくせい）",
+      "phonetic_api": "/zeː.d͡ʑḁk.ɯ.seː/",
+      "phonetic_simple": "ZÉI-JAK-OU-SÉE",
+      "translation": "Vulnérabilité / Faille de sécurité (Lexique informatique et d'audit de sécurité)",
+      "example_sentence": "最新のパッチを適用しなければ、重大な脆弱性が放置されるおそれがある。",
+      "example_phonetic": "/sa.i.ɕiɴ no pḁt.t͡ɕi o te.k joː ɕi.na.ke.ɾe.ba d͡ʑɯː.da.i na zeː.d͡ʑḁk.ɯ.seː ɡa hoː.t͡ɕi sa.re.ɾɯ o.so.re ɡa a.ɾɯ/",
+      "example_translation": "Si le dernier correctif n'est pas appliqué, il est à craindre que de graves vulnérabilités ne soient laissées sans surveillance."
+    },
+    {
+      "word_id": "v5",
+      "term": "整合性（せいごうせい）",
+      "phonetic_api": "/seː.ɡoː.seː/",
+      "phonetic_simple": "SÉE-GOO-SÉE",
+      "translation": "Cohérence / Conformité logique / Intégrité des données",
+      "example_sentence": "財務諸表のデータは、既存の会計基準との整合性を欠いている。",
+      "example_phonetic": "/za.i.mɯ ɕo.hjoː no deː.ta wa ki.zoɴ no ka.i.keː ki.d͡ʑɯɴ to no seː.ɡoː.seː o ka.i.te i.ɾɯ/",
+      "example_translation": "Les données des états financiers manquent de cohérence par rapport aux normes comptables en vigueur."
+    },
+    {
+      "word_id": "v6",
+      "term": "担保する（たんぽする）",
+      "phonetic_api": "/taɴ.po sɯ.ɾɯ/",
+      "phonetic_simple": "TAN-PO SOU-ROU",
+      "translation": "Garantir / Assurer la sécurité ou la viabilité de (Terme juridique et financier)",
+      "example_sentence": "契約履行を担保するため、十分な担保資産を設定せざるを得ない。",
+      "example_phonetic": "/keː.jḁk.ɯ ɾi.koː o taɴ.po sɯ.ɾɯ ta.me d͡ʑɯː.bɯɴ.na taɴ.po ɕi.saɴ o se̥t.teː se.za.ɾɯ o e.na.i/",
+      "example_translation": "Afin de garantir l'exécution du contrat, nous sommes contraints de constituer des actifs de sûreté suffisants."
+    },
+    {
+      "word_id": "v7",
+      "term": "～を排して（～をはいして）",
+      "phonetic_api": "/o ha.i.ɕi.te/",
+      "phonetic_simple": "O HAI-SHI-TÉ",
+      "translation": "En écartant / En faisant abstraction de / En éliminant (Style d'analyse objective)",
+      "example_sentence": "主観を排して、客観的な数値のみに基づいて評価を行うべきだ。",
+      "example_phonetic": "/ɕɯ.kaɴ o ha.i.ɕi.te kjḁk.kaɴ.te.ki.na sɯː.t͡ɕi no.mi ni mo.to.zɯː.i.te hjoː.ka o o.ko.na.ɯ be.ki da/",
+      "example_translation": "Il convient de mener l'évaluation en faisant abstraction de toute subjectivité et en se fondant exclusivement sur des valeurs numériques objectives."
+    },
+    {
+      "word_id": "v8",
+      "term": "乖離（かいり / 乖離します）",
+      "phonetic_api": "/ka.i.ɾi/",
+      "phonetic_simple": "KAI-RI",
+      "translation": "Écart / Divergence / Décalage significatif (Rapport d'audit ou de performance)",
+      "example_sentence": "当初の予算割り当てと実際の支出との間に、大きな乖離が見られる。",
+      "example_phonetic": "/toː.ɕo no jo.saɴ wa.ɾi.a.te to d͡i̥t.sa.i no ɕi.ɕɯ̥t.sɯ to no a.i.da ni oː.ki.na ka.i.ɾi ɡa mi.ɾa.le.ɾɯ/",
+      "example_translation": "Un décalage majeur est observé entre l'allocation budgétaire initiale et les dépenses réelles."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "本脆弱性は、暗号化プロトコルの不備に起因する可能性が高い。",
+      "phonetic_api": "/hoɴ zeː.d͡ʑḁk.ɯ.seː wa aɴ.ɡoː.ka pɯ.ɾo.to.ko.ɾɯ no ɸɯ.bi ni ki.iɴ sɯ.ɾɯ ka.noː.seː ɡa ta.ka.i/",
+      "phonetic_simple": "HON ZÉI-JAK-OU-SÉE WA, AN-GOO-KA PU-RO-TO-KO-ROU NO FU-BI NI KI-IN SU-RU KA-NOO-SÉE GA TA-KA-I.",
+      "translation": "Il est fort probable que cette vulnérabilité provienne d'une défaillance au niveau du protocole de chiffrement.",
+      "context": "Conclusion technique formulée dans un rapport d'audit en cybersécurité."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "企業の収益性は、マクロ経済の動向と密接な相関関係にある。",
+      "phonetic_api": "/ki.ɡjoː no ɕɯː.e̥k.i.seː wa ma.kɯ.ɾo keː.za.i no doː.koː to mi̥s.se̥t.sɯ.na soː.kaɴ kaɴ.keː ni a.ɾɯ/",
+      "phonetic_simple": "KI-GYOO NO SHUU-EKI-SÉE WA, MA-KU-RO KÉE-ZAI NO DOO-KOO TO MIS-SETS-OU-NA SOO-KAN KAN-KÉE NI A-ROU.",
+      "translation": "La rentabilité des entreprises s'avère en étroite corrélation avec les grandes tendances macroéconomiques.",
+      "context": "Analyse conjoncturelle au sein d'une note de stratégie de marché."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "諸問題を詳細に分析した結果、根本原因は組織の硬直化に収斂する。",
+      "phonetic_api": "/ɕo moɴ.da.i o ɕoː.sa.i ni bɯɴ.se̥k.i ɕi.ta ke̥k.ka koɴ.poɴ ɡeɴ.iɴ wa so.ɕi̥k.ɯ no koː.t͡ɕo̥k.ɯ.ka ni ɕɯː.ɾeɴ sɯ.ɾɯ/",
+      "phonetic_simple": "SHO MON-DA-I O SHOO-SAI NI BOUN-SETS-I CHI-TA KEK-KA, KON-PON GEN-IN WA SO-SHI-KOU NO KOO-CHOK-OU-KA NI SHUU-REN SU-RU.",
+      "translation": "Au terme d'une analyse détaillée des différents problèmes, la cause racine se résume finalement à la rigidité structurelle de l'organisation.",
+      "context": "Synthèse d'un rapport de restructuration ou d'audit organisationnel."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "新規アルゴリズムの導入により、処理の整合性が完全に担保された。",
+      "phonetic_api": "/ɕi&mu;.ki a.ɾɯ.ɡo.ɾi.zɯ.mɯ no doː.njuː ni jo.ɾi ɕo.ɾi no seː.ɡoː.seː ɡa kaɴ.zeɴ ni taɴ.po sa.re.ta/",
+      "phonetic_simple": "SHIN-KI ARU-GO-RI-ZUMU NO DOO-NYUU NI YO-RI, SHO-RI NO SÉE-GOO-SÉE GA KAN-ZEN NI TAN-PO SA-RÉ-TA.",
+      "translation": "Grâce à l'intégration du nouvel algorithme, l'intégrité et la cohérence des traitements sont pleinement garanties.",
+      "context": "Spécification de validation rédigée par un ingénieur en architecture logicielle."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "思惑や個人的な感情を排して、データが示す客観的事実のみを精査する。",
+      "phonetic_api": "/o.mo.wa.kɯ ja ko.d͡ʑiɴ.te.ki.na kaɴ.d͡ʑoː o ha.i.ɕi.te deː.ta ɡa ɕi.me.sɯ kjḁk.kaɴ.te.ki d͡ʑi.d͡ʑi̥t.sɯ no.mi o seː.sa sɯ.ɾɯ/",
+      "phonetic_simple": "OMO-WAK-OU YA KO-JIN-TÉ-KI-NA KAN-JOO O HAI-SHI-TÉ, DÉE-TA GA SHI-MÉ-SU KYAK-KAN-TÉ-KI JI-JITS-OU NO-MI O SÉE-SA SU-RU.",
+      "translation": "En écartant les spéculations et les sentiments personnels, nous examinons exclusivement les faits objectifs mis en lumière par les données.",
+      "context": "Ligne de conduite méthodologique imposée au sein d'une cellule de gestion de crise."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "実態と報告書の内容との間に著しい乖離があり、監査上の問題となっている。",
+      "phonetic_api": "/d͡ʑi̥t.ta.i to hoː.ko.kɯ.ɕo no na.i.joː to no a.i.da ni i.t͡ɕi.zi.lɯ.ɕi.i ka.i.ɾi ɡa a.ɾi kaɴ.sa.d͡ʑoː no moμ.da.i to nḁt.te i.ɾɯ/",
+      "phonetic_simple": "JIT-TAI TO HOO-KO-KOU-SHO NO NAI-YOO TO NO AI-DA NI IT-CHI-JI-ROU-SHII KAI-RI GA ARI, KAN-SA-JOO NO MON-DA-I TO NAT-TÉ I-ROU.",
+      "translation": "Un décalage flagrant apparaît entre la réalité du terrain et le contenu du rapport, ce qui constitue une anomalie au regard de l'audit.",
+      "context": "Notification d'un écart majeur consignée dans un procès-verbal d'audit comptable."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "このパラメータの変動は、ハードウェアの過熱に起因するものと推測される。",
+      "phonetic_api": "/ko.no pa.ɾa.meː.ta no heɴ.doː wa haː.do.wa.e.a no ka.ne̥t.sɯ ni ki.iɴ sɯ.ɾɯ mo.no to sɯ.i.so̥k.ɯ sa.re.ɾɯ/",
+      "phonetic_simple": "KO-NO PA-RA-MÉE-TA NO HEN-DOO WA, HAA-DO-WA-É-A NO KA-NET-SOU NI KI-IN SU-RU MO-NO TO SUI-SOK-OU SA-RÉ-RU.",
+      "translation": "On présume que la fluctuation de ce paramètre trouve sa cause dans une surchauffe du matériel informatique.",
+      "context": "Analyse d'incident de niveau 3 émise par un ingénieur systèmes."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "複数のデータソースを統合した結果、市場予測の精度が飛躍的に向上した。",
+      "phonetic_api": "/ɸɯ.kɯ.sɯː no deː.ta soː.sɯ o toː.ɡoː ɕi.ta ke̥k.ka ɕi.d͡ʑoː jo.so̥k.ɯ no seː.do ɡa çi.jḁk.ɯ.te.ki ni koː.d͡ʑoː ɕi.ta/",
+      "phonetic_simple": "FUKU-SUU NO DÉE-TA SOO-SOU O TOO-GOO SHI-TÉ KEK-KA, SHI-JOO YO-SOK-OU NO SÉE-DO GA HI-YAK-OU-TÉ-KI NI KOO-JOO CHI-TA.",
+      "translation": "La consolidation de multiples sources de données a permis d'accroître de façon spectaculaire la précision de nos prévisions de marché.",
+      "context": "Rapport annuel d'évaluation de la performance d'une cellule Business Intelligence."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La formulation de la cause racine technique : ～に起因する (ni kiin suru)",
+      "explanation": "Cette tournure est le standard académique et industriel pour attribuer officiellement un fait, une panne ou un phénomène à son facteur générateur exclusif. Elle évite la subjectivité induite par '～のせいで' et apporte un caractère scientifique supérieur à l'explication, s'attachant directement derrière un substantif.",
+      "rules": [
+        "Structure : [Nom du facteur causal] + に起因する + [Nom de la conséquence / ou conclusion de phrase]."
+      ],
+      "examples": [
+        {
+          "structure": "品質の低下は、原材料の変更に起因する (Hinshitsu no teika wa, genzairyō no henkō ni kiin suru)",
+          "phonetic_api": "/çiɴ.ɕi̥t.sɯ no te.i.ka wa ɡeɴ.za.i.ɾjoː no heɴ.koː ni ki.iɴ sɯ.ɾɯ/",
+          "meaning": "La baisse de qualité provient directement de la modification des matières premières."
+        }
+      ]
+    },
+    {
+      "concept": "La corrélation de variables analytiques : ～と相関関係にある",
+      "explanation": "Utilisée pour formaliser mathématiquement ou statistiquement le fait que deux variables évoluent de concert (de façon positive, '正の相関', ou négative, '負の相関'). C'est un élément clé pour charpenter des synthèses d'audits et des analyses de données de niveau C1.",
+      "rules": [
+        "Structure : [Variable A] + は + [Variable B] + と + (密接な)相関関係にある。"
+      ],
+      "examples": [
+        {
+          "structure": "生産性と労働時間は必ずしも相関関係にない (Seisansei to rōdō jikan wa kanarazushimo sōkan kankei ni nai)",
+          "phonetic_api": "/seː.saɴ.seː to ɾoː.doː d͡ʑi.kaɴ wa ka.na.ɾa.zɯ.ɕi.mo soː.kaɴ kaɴ.keː ni na.i/",
+          "meaning": "La productivité et le temps de travail ne sont pas nécessairement en relation de corrélation."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "高橋最高技術責任者 (CTO Takahashi)",
+      "text": "鈴木部長、不正アクセスの件だが、セキュリティ監査の結果、根本原因は特定できたかね。",
+      "phonetic_api": "/sɯ.zɯ.ki bɯ.t͡choː ɸɯ.seː ḁk.se̥s.ɯ no keɴ da.ɡa se.k jɯ.ɾi.ti kaɴ.sa no ke̥k.ka koμ.poɴ ɡeɴ.iɴ wa to̥k.ɯ.teː de.ki.ta ka ne/",
+      "phonetic_simple": "SU-ZOU-KI BOU-CHOO, FU-SÉE AK-SES-OU NO KEN DA GA, SE-KYU-RI-TI KAN-SA NO KEK-KA, KON-PON GEN-IN WA TOK-U-TÉE DÉ-KI-TA KA NÉ ?",
+      "translation": "Directeur Suzuki, au sujet de l'accès frauduleux, l'audit de sécurité a-t-il permis de cerner avec exactitude la cause racine ?"
+    },
+    {
+      "speaker": "鈴木部長 (Directeur Suzuki)",
+      "text": "はい。ログの解析から、今回の事象は認証サーバーの脆弱性に起因するものと判明いたしました。旧システムの仕様との整合性を欠いていたことが背景にあります。",
+      "phonetic_api": "/ha.i ɾo.ɡɯ no ka.i.se̥k.i ka.ɾa koμ.ka.i no d͡ʑi.ɕoː wa niɴ.ɕoː saː.baː no zeː.d͡ʑḁk.ɯ.seː ni ki.iɴ sɯ.ɾɯ mo.no to haɴ.meː i.ta.ɕi.ma.ɕi.ta k jɯː ɕi.sɯ.te.mɯ no ɕi.joː to no seː.ɡoː.seː o ka.i.te i.ta ko.to ɡa ha.i.keː ni a.ɾi.ma.sɯ̥/",
+      "phonetic_simple": "HAI. ROGU NO KAI-SEK-I KA-RA, KON-KAI NO JI-SHOO WA NIN-SHOO SAA-BAA NO ZÉI-JAK-OU-SÉE NI KI-IN SU-RU MO-NO TO HAN-MÉE I-TA-CHI-MA-SHI-TA. KYUU SHIS-OU-TEM-OU NO CHI-YOO TO NO SÉE-GOO-SÉE O KAI-TÉ I-TA KO-TO GA HAI-KÉE NI A-RI-MASS.",
+      "translation": "Absolument. L'analyse des journaux d'événements démontre que cet incident découle d'une vulnérabilité présente sur le serveur d'authentification. Cela s'explique par un défaut de cohérence avec les spécifications de l'ancien système."
+    },
+    {
+      "speaker": "高橋最高技術責任者 (CTO Takahashi)",
+      "text": "なるほど。データ完全性の担保が不十分であったわけか。報告書の内容と実態に乖離がないよう、主観を排してまとめてくれ。",
+      "phonetic_api": "/na.ɾu.ho.do deː.ta kaɴ.zeɴ.seː no taμ.po ɡa ɸɯ.d͡ʑɯː.bɯɴ de ḁt.ta wa.ke ka hoː.ko.kɯ.ɕo no na.i.joː to d͡ʑi̥t.ta.i ni ka.i.ɾi ɡa na.i joː ɕɯ.kaɴ o ha.i.ɕi.te ma.to.me.te kɯ.れ/",
+      "phonetic_simple": "NA-ROU-HO-DO. DÉE-TA KAN-ZEN-SÉE NO TAN-PO GA FU-JUU-BUN DÉ AT-TA WA-KÉ KA. HOO-KO-KOU-SHO NO NAI-YOO TO JIT-TAI NI KAI-RI GA NAI YOO, SHU-KAN O HAI-SHI-TÉ MA-TO-MÉ-TÉ KOU-RÉ.",
+      "translation": "Je vois. La préservation de l'intégrité des données n'était donc pas pleinement garantie. Veillez à structurer votre rapport en faisant abstraction de toute subjectivité afin qu'il n'y ait aucun décalage entre vos écrits et la réalité factuelle."
+    },
+    {
+      "speaker": "鈴木部長 (Directeur Suzuki)",
+      "text": "承知いたしました。諸々の技術的要因はデータの整合性確保という一点に収斂いたします。早急に対策を講じ、安全性を担保いたします。",
+      "phonetic_api": "/ɕoː.t͡ɕi i.ta.ɕi.ma.ɕi.ta mo.lo.mo.lo no ɡi.d͡ʑɯ̥t.sɯ.te.ki joː.iɴ wa deː.ta no seː.ɡoː.seː kḁk.ɯ.ho to i.ɯ i̥t.teμ ni ɕɯː.ɾeμ i.ta.ɕi.ma.sɯ sḁk.k jɯː ni ta.i.sḁk.ɯ o koː.d͡ʑi aɴ.zeɴ.seː o taɴ.po i.ta.ɕi.ma.sɯ̥/",
+      "phonetic_simple": "CHOO-CHI I-TA-CHI-MA-CH-TA. MO-RO-MO-RO NO GI-JUTS-OU-TÉ-KI YOO-IN WA DÉE-TA NO SÉE-GOO-SÉE KAK-U-HO TO IU IT-TEN NI SHUU-REN I-TA-CHI-MASS. SAK-KYUU NI TAI-SAK-OU O KOO-JI, AN-ZEN-SÉE O TAN-PO I-TA-CHI-MASS.",
+      "translation": "C'est bien noté. L'ensemble des facteurs techniques se résume finalement à l'impératif unique de sécuriser la cohérence des données. Nous allons prendre des mesures correctives immédiates pour garantir la sécurité du dispositif."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les rapports d'ingénierie d'affaires ou d'audit au Japon, la formulation des faits se doit d'être d'une neutralité clinique absolue. L'expression '主観を排して' (écarter la subjectivité) est un principe directeur : un expert ne doit jamais émettre d'hypothèses basées sur des impressions personnelles, mais laisser les données statistiques et logiques charpenter l'ensemble des conclusions.",
+    "La notion de '整合性' (cohérence/alignement) dépasse le cadre purement informatique au Japon. Elle s'applique à la conformité globale d'un projet vis-à-vis des règles écrites de l'organisation et du consensus mutuel établi au préalable, un manquement à cette cohérence étant considéré comme un risque opérationnel majeur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel terme technique formel s'emploie pour exprimer que plusieurs éléments d'analyse convergent vers un point de conclusion unique ?",
+      "options": [
+        "収斂する (shūren suru)",
+        "乖離する (kairi suru)",
+        "担保する (tampo suru)"
+      ],
+      "correct_answer": "収斂する (shūren suru)",
+      "explanation": "収斂する (converger / se concentrer) décrit parfaitement le mouvement analytique menant vers une conclusion unique."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "不具合の原因を追究したところ、設計上のミスに[ ___ ]することが判明した。",
+      "correct_answer": "起因",
+      "hint": "Entrez en kanji ou hiragana le terme technique signifiant 'trouver sa source / être causé par' pour compléter la structure post-nominale 'ni ... suru'."
+    }
+  ]
+}

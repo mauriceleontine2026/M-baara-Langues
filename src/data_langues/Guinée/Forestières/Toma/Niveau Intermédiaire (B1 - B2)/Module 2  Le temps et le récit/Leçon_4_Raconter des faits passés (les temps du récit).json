@@ -1,0 +1,133 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Utiliser le suffixe ou le marqueur du passé pour relater un événement",
+    "Structurer une courte histoire ou une action complétée dans le temps"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le marqueur du passé modifie la hauteur tonale du verbe, basculant souvent d'un ton moyen à un ton descendant marqué par un étouffement glottal final.",
+    "common_pitfalls": "Ne pas confondre le pronom d'inaccompli avec celui de l'accompli passé dont la voyelle est souvent plus brève et plus fermée."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v13_1",
+      "term": "woi",
+      "phonetic_api": "/woi/",
+      "phonetic_simple": "WOÏ",
+      "translation": "hier",
+      "example_sentence": "Na li woi galu ma.",
+      "example_phonetic": "/na li woi ɡa.lu ma/",
+      "example_translation": "Hier, je suis allé au marché."
+    },
+    {
+      "word_id": "v13_2",
+      "term": "kɛna",
+      "phonetic_api": "/kɛ.na/",
+      "phonetic_simple": "KE-NA",
+      "translation": "faire (au passé) / s'est produit",
+      "example_sentence": "Ta gize kɛna woi.",
+      "example_phonetic": "/ta ɡi.zɛ kɛ.na woi/",
+      "example_translation": "Ils ont dansé hier."
+    },
+    {
+      "word_id": "v13_3",
+      "term": "folo lapatɛ",
+      "phonetic_api": "/fo.lo la.pa.tɛ/",
+      "phonetic_simple": "FO-LO LA-PA-TE",
+      "translation": "la semaine dernière",
+      "example_sentence": "Folo lapatɛ na i ɓepɛ.",
+      "example_phonetic": "/fo.lo la.pa.tɛ na i ɓɛ.pɛ/",
+      "example_translation": "La semaine dernière, je t'ai vu."
+    },
+    {
+      "word_id": "v13_4",
+      "term": "va-na",
+      "phonetic_api": "/va.na/",
+      "phonetic_simple": "VA-NA",
+      "translation": "être venu",
+      "example_sentence": "Na va-na pɛlɛ zu.",
+      "example_phonetic": "/na va.na pɛ.lɛ zu/",
+      "example_translation": "Je suis venu dans la maison."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p13_1",
+      "original": "Mizɛ ɓɛ i kɛna woi?",
+      "phonetic_api": "/mi.zɛ ɓɛ i kɛ.na woi/",
+      "phonetic_simple": "MI-ZE BE I KE-NA WOÏ",
+      "translation": "Qu'as-tu fait hier ?",
+      "context": "Question usuelle pour démarrer un récit sur les événements de la veille."
+    },
+    {
+      "phrase_id": "p13_2",
+      "original": "Na lina na kêe vɛlɛ ma.",
+      "phonetic_api": "/na li.na na kɛ̂ː vɛ.lɛ ma/",
+      "phonetic_simple": "NA LI-NA NA KEE VE-LE MA",
+      "translation": "Je suis allé chez mon père.",
+      "context": "Réponse décrivant un déplacement révolu."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le suffixe de l'accompli passé '-na'",
+      "explanation": "Pour exprimer qu'une action est complètement achevée dans le passé, on adjoint fréquemment le suffixe verbal '-na' ou '-ni' directement au radical du verbe.",
+      "rules": [
+        "Le radical verbal ne change pas, c'est l'extension qui porte la marque temporelle passé.",
+        "Les adverbes de temps comme 'woi' (hier) peuvent renforcer cette structure mais ne s'y substituent pas."
+      ],
+      "examples": [
+        {
+          "structure": "li (partir) -> lina (être parti)",
+          "phonetic_api": "/li.na/",
+          "meaning": "est allé / est parti"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Tokpa",
+      "text": "Zézé, i lina mini woi folo gaza ma?",
+      "phonetic_api": "/zɛ.zɛ i li.na mi.ni woi fo.lo ɡa.za ma/",
+      "phonetic_simple": "ZE-ZE I LI-NA MI-NI WOÏ FO-LO GA-ZA MA",
+      "translation": "Zézé, où es-tu allé hier après-midi ?"
+    },
+    {
+      "speaker": "Zézé",
+      "text": "Na lina kɔwɔ-zu taa zu, na mɔlɔ sañna.",
+      "phonetic_api": "/na li.na kɔ.wɔ.zu taː zu na mɔ.lɔ sã.na/",
+      "phonetic_simple": "NA LI-NA KO-WO-ZOU TAA ZOU NA MO-LO SAN-NA",
+      "translation": "Je suis allé à l'est de la ville et j'ai acheté du riz."
+    }
+  ],
+  "cultural_notes": [
+    "Dans le récit toma, l'évocation du passé fait souvent référence à la saison des pluies (sama) ou à la saison sèche (folo-zu) pour dater des événements plus anciens, plutôt qu'à un calendrier chiffré."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex13_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'woi' en toma ?",
+      "options": [
+        "Demain",
+        "Hier",
+        "Aujourd'hui"
+      ],
+      "correct_answer": "Hier",
+      "explanation": "'woi' est l'adverbe temporel désignant exclusivement le jour précédent."
+    },
+    {
+      "exercise_id": "ex13_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Na va-[ ___ ] pɛlɛ zu (Je suis venu dans la maison).",
+      "correct_answer": "na",
+      "hint": "Le suffixe requis pour indiquer le passé accompli sur le verbe venir."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Identifier les trois termes chromatiques fondamentaux en toma",
+    "Nommer les habits de base du quotidien"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les qualificatifs de couleur doublent souvent leurs voyelles finales pour marquer l'intensité du ton coloré (ex: /iː/).",
+    "common_pitfalls": "Ne pas détacher le qualificatif du nom de l'habit. L'ensemble s'énonce d'un seul trait prosodique."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v9_1",
+      "term": "seɓe",
+      "phonetic_api": "/sɛ.ɓɛ/",
+      "phonetic_simple": "SE-BE",
+      "translation": "habit / vêtement / tissu",
+      "example_sentence": "Na seɓe sañ.",
+      "example_phonetic": "/na sɛ.ɓɛ sã/",
+      "example_translation": "J'ai acheté un vêtement."
+    },
+    {
+      "word_id": "v9_2",
+      "term": "pêe",
+      "phonetic_api": "/pɛ̂ː/",
+      "phonetic_simple": "PEE",
+      "translation": "blanc",
+      "example_sentence": "Seɓe pêe ɓaa.",
+      "example_phonetic": "/sɛ.ɓɛ pɛ̂ː ɓaː/",
+      "example_translation": "C'est un habit blanc."
+    },
+    {
+      "word_id": "v9_3",
+      "term": "têe",
+      "phonetic_api": "/tɛ̂ː/",
+      "phonetic_simple": "TEE",
+      "translation": "noir / sombre",
+      "example_sentence": "Seɓe têe lɔ vaza.",
+      "example_phonetic": "/sɛ.ɓɛ pɛ̂ː lɔ va.za/",
+      "example_translation": "Le tissu noir est beau."
+    },
+    {
+      "word_id": "v9_4",
+      "term": "kpɔlɔ",
+      "phonetic_api": "/kpɔ.lɔ/",
+      "phonetic_simple": "KPO-LO",
+      "translation": "chapeau / bonnet",
+      "example_sentence": "Na kpɔlɔ lɔ ɓɛñ.",
+      "example_phonetic": "/na kpɔ.lɔ lɔ ɓɛ̃/",
+      "example_translation": "Mon chapeau est ici."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p9_1",
+      "original": "Seɓe lɔsa na ma?",
+      "phonetic_api": "/sɛ.ɓɛ lɔ.sa na ma/",
+      "phonetic_simple": "SE-BE LO-SA NA MA",
+      "translation": "Combien coûte ce vêtement ?",
+      "context": "Formule indispensable pour négocier un pagne ou un habit chez le tailleur."
+    },
+    {
+      "phrase_id": "p9_2",
+      "original": "Na lo ga seɓe pêe ma.",
+      "phonetic_api": "/na lo ɡa sɛ.ɓɛ pɛ̂ː ma/",
+      "phonetic_simple": "NA LO GA SE-BE PEE MA",
+      "translation": "Je cherche le vêtement blanc.",
+      "context": "Précision donnée au vendeur lors d'un achat."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accord de la couleur (épithète)",
+      "explanation": "En langue toma, l'adjectif descriptif de couleur se place directement après le nom du vêtement qu'il caractérise.",
+      "rules": [
+        "Ordre strict : Nom + Couleur.",
+        "Les couleurs fondamentales agissent comme des verbes d'état figés lorsqu'elles terminent la proposition."
+      ],
+      "examples": [
+        {
+          "structure": "kpɔlɔ têe",
+          "phonetic_api": "/kpɔ.lɔ tɛ̂ː/",
+          "meaning": "chapeau noir"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sia",
+      "text": "I seɓe sañ ga galu ma?",
+      "phonetic_api": "/i sɛ.ɓɛ sã ɡa ɡa.lu ma/",
+      "phonetic_simple": "I SE-BE SAN GA GA-LOU MA",
+      "translation": "As-tu acheté ton vêtement au marché ?"
+    },
+    {
+      "speaker": "Momo",
+      "text": "Owo, na seɓe têe sañ.",
+      "phonetic_api": "/o.wo na sɛ.ɓɛ tɛ̂ː sã/",
+      "phonetic_simple": "O-WO NA SE-BE TEE SAN",
+      "translation": "Oui, j'ai acheté le vêtement noir."
+    }
+  ],
+  "cultural_notes": [
+    "Le choix des couleurs de tissus possède des significations rituelles importantes chez les Loma/Toma. Le blanc évoque la pureté et les ancêtres, tandis que le tissu indigo ou noir est lié à la maturité sociale."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex9_1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'expression 'seɓe pêe' ?",
+      "options": [
+        "Un habit noir",
+        "Un chapeau rouge",
+        "Un habit blanc"
+      ],
+      "correct_answer": "Un habit blanc",
+      "explanation": "'seɓe' signifie habit et 'pêe' signifie blanc."
+    },
+    {
+      "exercise_id": "ex9_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Na seɓe [ ___ ] (J'ai acheté un vêtement).",
+      "correct_answer": "sañ",
+      "hint": "Le verbe pour exprimer l'acte d'acheter."
+    }
+  ]
+}

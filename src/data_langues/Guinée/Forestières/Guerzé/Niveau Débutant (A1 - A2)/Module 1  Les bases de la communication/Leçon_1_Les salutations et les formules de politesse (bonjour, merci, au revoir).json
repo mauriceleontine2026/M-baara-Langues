@@ -1,0 +1,487 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Saluer une personne selon le moment de la journée (au réveil, avant midi, l'après-midi) en utilisant les formules dialogiques propres au kpele.",
+    "Répondre correctement à une salutation et demander « comment ça va ? ».",
+    "Remercier et s'excuser dans des situations courantes, en adaptant le registre (tutoiement/vouvoiement).",
+    "Identifier et reproduire les tons haut, bas, descendant et le downstep dans les formules de politesse."
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le kpele possède un système tonal à deux tons de base : haut (H, accent aigu ´) et bas (B, accent grave `). Ces tons se combinent en un ton descendant (HB, noté par un circonflexe ^, qui n'apparaît qu'en syllabe finale devant une pause) et en une mélodie basse-plate à ton haut flottant (B(H), notée par un caron ˇ sur la première voyelle). Le ton change complètement le sens d'un mot : láa « coucher » vs. làa « là-bas ». Cette leçon introduit aussi des consonnes absentes du français : ɠ, une fricative vélaire douce proche du « r » grasseyé espagnol ou du « gh » arabe (hɛ̀ɠɛ̂ɛ « merci ») ; hw, un h soufflé suivi d'un w (màahwâa « pardon ») ; et kp, une occlusive labio-vélaire où le k et le p se prononcent presque simultanément (kpɛ̀la « pardon ! »). Les voyelles doublées à l'écrit (aa, ii, oo) sont des voyelles longues, phonologiquement distinctes des voyelles simples.",
+    "common_pitfalls": "Les francophones ont tendance à : (1) ignorer les tons et parler « à plat », ce qui peut changer le sens des mots ; (2) prononcer ɠ comme un « g » dur français au lieu de la fricative douce /ɣ/ ; (3) ne pas allonger les voyelles doublées (aa, ii), pourtant distinctes des voyelles courtes ; (4) oublier le downstep (↓), qui abaisse légèrement un ton haut après un ton descendant et donne au kpele son rythme naturel."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "hɛ́lɛ",
+      "phonetic_api": "/hɛ́lɛ́/",
+      "phonetic_simple": "HÉ-lé",
+      "translation": "salutation (par poignée de main avec claquement des doigts, typique de la Guinée forestière) ; ~ ɓó = saluer",
+      "example_sentence": "Zɛ́lɛ́ ↓ɓó.",
+      "example_phonetic": "/zɛ́lɛ́ ↓ɓó/",
+      "example_translation": "Salue-moi."
+    },
+    {
+      "word_id": "v2",
+      "term": "tǔyo",
+      "phonetic_api": "/tǔyo/",
+      "phonetic_simple": "tou-yo (ton bas, à plat)",
+      "translation": "salutation (verbale, à distance, ou avec la main) ; ~ ɓó = saluer verbalement, ~ kɛ́ = saluer avec la main",
+      "example_sentence": "Pá gǔ tùyó ↓kɛ́.",
+      "example_phonetic": "/pá gǔ tùyó ↓kɛ́/",
+      "example_translation": "Viens, saluons-nous."
+    },
+    {
+      "word_id": "v3",
+      "term": "máma",
+      "phonetic_api": "/mámá/",
+      "phonetic_simple": "MA-ma",
+      "translation": "merci !",
+      "example_sentence": "É máma !",
+      "example_phonetic": "/é mámá/",
+      "example_translation": "Merci à toi !"
+    },
+    {
+      "word_id": "v4",
+      "term": "hɛ̀ɠɛ̂ɛ",
+      "phonetic_api": "/hɛ̀ɣɛ̂ɛ/",
+      "phonetic_simple": "hè-GHÊ-ê",
+      "translation": "remerciement, félicitation ; merci ! (~ ɓó = remercier)",
+      "example_sentence": "É hɛ̀ɠɛ̂ɛ, é zɛ̀ɠɛ̂ɛ !",
+      "example_phonetic": "/é hɛ̀ɣɛ̂ɛ, é zɛ̀ɣɛ̂ɛ/",
+      "example_translation": "Merci !"
+    },
+    {
+      "word_id": "v5",
+      "term": "kàhwíli",
+      "phonetic_api": "/kàhwílí/",
+      "phonetic_simple": "ka-HOUI-li",
+      "translation": "excuse (respectueuse)",
+      "example_sentence": "Kàhwíli.",
+      "example_phonetic": "/kàhwílí/",
+      "example_translation": "Toutes mes excuses (avec respect)."
+    },
+    {
+      "word_id": "v6",
+      "term": "màahwâa",
+      "phonetic_api": "/màahwâa/",
+      "phonetic_simple": "MAA-hwaa",
+      "translation": "pardon (ŋ̀~ lɛ̌ɛ = pardonner qn)",
+      "example_sentence": "Màahwâa !",
+      "example_phonetic": "/màahwâa/",
+      "example_translation": "Pardon !"
+    },
+    {
+      "word_id": "v7",
+      "term": "kpɛ̀la",
+      "phonetic_api": "/kpɛ̀la/",
+      "phonetic_simple": "KPÈ-la",
+      "translation": "pardon ! (excuse rapide, ex. après une petite bousculade)",
+      "example_sentence": "Kpɛ̀la !",
+      "example_phonetic": "/kpɛ̀la/",
+      "example_translation": "Pardon !"
+    },
+    {
+      "word_id": "v8",
+      "term": "lɛ̌nɛ",
+      "phonetic_api": "/lɛ̌nɛ/",
+      "phonetic_simple": "lè-nè (ton bas, à plat)",
+      "translation": "accolade pendant la salutation (ŋ̀~ ɓó = saluer par étreinte)",
+      "example_sentence": "Nɛ́nɛ ↓ɓó.",
+      "example_phonetic": "/nɛ́nɛ ↓ɓó/",
+      "example_translation": "Salue-moi (fais-moi une étreinte)."
+    },
+    {
+      "word_id": "v9",
+      "term": "òowɛi",
+      "phonetic_api": "/òowɛ̀i/",
+      "phonetic_simple": "OO-wè-i",
+      "translation": "oui (réponse à la salutation)",
+      "example_sentence": "Òowɛi !",
+      "example_phonetic": "/òowɛ̀i/",
+      "example_translation": "Oui !"
+    },
+    {
+      "word_id": "v10",
+      "term": "mɛ́niê",
+      "phonetic_api": "/mɛ́niê/",
+      "phonetic_simple": "MÉ-ni-Ê",
+      "translation": "frère, ami (forme d'adresse amicale envers un homme plus âgé ; ne s'utilise pas comme nom relationnel)",
+      "example_sentence": "Gàa léi mɛ́niê ?",
+      "example_phonetic": "/gàa léí mɛ́niê/",
+      "example_translation": "Comment ça va, mon ami ?"
+    },
+    {
+      "word_id": "v11",
+      "term": "lǐ",
+      "phonetic_api": "/lǐ/",
+      "phonetic_simple": "li (ton bas, à plat)",
+      "translation": "aller, partir",
+      "example_sentence": "Gáa lìí nɔ̀ɠɔ́kpalaŋ ↓ɲá.",
+      "example_phonetic": "/gáa lìí nɔ̀ɣɔ́kpalaŋ ↓ɲá/",
+      "example_translation": "Je vais au marché."
+    },
+    {
+      "word_id": "v12",
+      "term": "ŋwúŋ",
+      "phonetic_api": "/ŋwúŋ/",
+      "phonetic_simple": "NGWOUNG",
+      "translation": "se réveiller",
+      "example_sentence": "Yàa ŋwúŋ ?",
+      "example_phonetic": "/yàa ŋwúŋ/",
+      "example_translation": "Bonjour ! (litt. t'es-tu réveillé ?)"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Yàa ŋwúŋ ?",
+      "phonetic_api": "/yàa ŋwúŋ/",
+      "phonetic_simple": "YAA ngwoung ?",
+      "translation": "Bonjour ! (litt. « T'es-tu réveillé ? »)",
+      "context": "Salutation dite dès le réveil, tôt le matin"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "É yíi ↓kpɛ́li ?",
+      "phonetic_api": "/é yíi ↓kpɛ́lí/",
+      "phonetic_simple": "é YI-i kpÉ-li ?",
+      "translation": "Bonjour ! (litt. « As-tu dormi sans problème ? »)",
+      "context": "Salutation utilisée du réveil jusqu'à midi"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "É yíi ↓kpɛ́li máa̋.",
+      "phonetic_api": "/é yíi ↓kpɛ́lí máa̋/",
+      "phonetic_simple": "é YI-i kpÉ-li máá",
+      "translation": "Bonjour ! (réponse)",
+      "context": "Réponse à la formule précédente : on répète la question, adoucie par la particule máa̋"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "É túyo ↓kpɛ́li ?",
+      "phonetic_api": "/é túyo ↓kpɛ́lí/",
+      "phonetic_simple": "é TOU-yo kpÉ-li ?",
+      "translation": "Bonjour / Bonsoir ! (litt. « As-tu passé la journée sans problème ? »)",
+      "context": "Salutation dite dans l'après-midi"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Òowɛi !",
+      "phonetic_api": "/òowɛ̀i/",
+      "phonetic_simple": "OO-wè-i !",
+      "translation": "Oui !",
+      "context": "Réponse générale confirmative à une salutation"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Gàa léi ?",
+      "phonetic_api": "/gàa léí/",
+      "phonetic_simple": "gaa LÉ-i ?",
+      "translation": "Comment ça va ?",
+      "context": "Question générale sur l'état de la personne, à tout moment de la journée"
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Gàa léi mɛ́niê ?",
+      "phonetic_api": "/gàa léí mɛ́niê/",
+      "phonetic_simple": "gaa LÉ-i MÉ-ni-Ê ?",
+      "translation": "Comment ça va, mon ami ?",
+      "context": "Salutation amicale entre pairs ou envers un homme plus âgé"
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Zɛ́lɛ́ ↓ɓó !",
+      "phonetic_api": "/zɛ́lɛ́ ↓ɓó/",
+      "phonetic_simple": "zé-lé BÓ !",
+      "translation": "Salue-moi !",
+      "context": "Invitation à la salutation par poignée de main (avec claquement de doigts)"
+    },
+    {
+      "phrase_id": "p9",
+      "original": "Dúyo ↓ɓó !",
+      "phonetic_api": "/dúyo ↓ɓó/",
+      "phonetic_simple": "DOU-yo bó !",
+      "translation": "Salue-moi ! (verbalement)",
+      "context": "Salutation à distance, sans contact physique"
+    },
+    {
+      "phrase_id": "p10",
+      "original": "Pá gǔ tùyó ↓kɛ́.",
+      "phonetic_api": "/pá gǔ tùyó ↓kɛ́/",
+      "phonetic_simple": "pa gou TOU-yo ké",
+      "translation": "Viens, saluons-nous.",
+      "context": "Invitation amicale à échanger une salutation par la main"
+    },
+    {
+      "phrase_id": "p11",
+      "original": "É máma !",
+      "phonetic_api": "/é máma/",
+      "phonetic_simple": "é MA-ma !",
+      "translation": "Merci à toi !",
+      "context": "Remerciement informel, en tutoyant une seule personne"
+    },
+    {
+      "phrase_id": "p12",
+      "original": "Ká máma !",
+      "phonetic_api": "/ká máma/",
+      "phonetic_simple": "ka MA-ma !",
+      "translation": "Merci à vous !",
+      "context": "Remerciement formel, ou adressé à plusieurs personnes"
+    },
+    {
+      "phrase_id": "p13",
+      "original": "Màahwâa !",
+      "phonetic_api": "/màahwâa/",
+      "phonetic_simple": "MAA-hwaa !",
+      "translation": "Pardon !",
+      "context": "Excuse sincère, pour une faute plus sérieuse"
+    },
+    {
+      "phrase_id": "p14",
+      "original": "Kpɛ̀la !",
+      "phonetic_api": "/kpɛ̀la/",
+      "phonetic_simple": "KPÈ-la !",
+      "translation": "Pardon !",
+      "context": "Excuse rapide, par exemple après une petite bousculade"
+    },
+    {
+      "phrase_id": "p15",
+      "original": "Gáa lìí.",
+      "phonetic_api": "/gáa lìí/",
+      "phonetic_simple": "gaa LI-i",
+      "translation": "Je m'en vais / Je pars.",
+      "context": "Formule pour prendre congé : le kpele n'a pas de mot figé pour « au revoir », on annonce simplement son départ"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système tonal : deux tons de base et leurs combinaisons",
+      "explanation": "En kpele, le ton porte autant de sens que les voyelles ou les consonnes : deux mots peuvent s'écrire avec les mêmes lettres et n'avoir rien à voir l'un avec l'autre à l'oral si leurs tons diffèrent. Le dictionnaire distingue deux tons ponctuels, haut (H) et bas (B), qui se combinent en mélodies plus complexes selon la position dans le mot et dans la phrase.",
+      "rules": [
+        "Le ton haut (H) est noté par l'accent aigu (v́) ; le ton bas (B) par l'accent grave (v̀).",
+        "Si toutes les voyelles d'un mot portent le même ton, seule la première voyelle est marquée à l'écrit.",
+        "Le ton descendant HB (haut puis bas) n'apparaît qu'en syllabe finale devant une pause et se note par un accent circonflexe (v̂).",
+        "La mélodie B(H) — un ton bas suivi d'un ton haut flottant qui ne se réalise qu'en fin d'énoncé — se note par un caron (ˇ) sur la première voyelle du mot."
+      ],
+      "examples": [
+        {
+          "structure": "láa « coucher » vs. làa « là-bas »",
+          "phonetic_api": "/láá/ vs /làà/",
+          "meaning": "paire minimale distinguée uniquement par le ton"
+        },
+        {
+          "structure": "tǔyo « salutation »",
+          "phonetic_api": "/tǔyo/",
+          "meaning": "mélodie B(H) : réalisée comme un ton bas plat, avec un ton haut flottant qui n'apparaît qu'en fin de phrase"
+        }
+      ]
+    },
+    {
+      "concept": "Le downstep (↓) : quand un ton haut « redescend »",
+      "explanation": "Après un ton descendant (HB), un ton haut qui suit immédiatement est phonétiquement abaissé par rapport aux tons hauts précédents. Ce phénomène, très fréquent dans les formules de salutation, est appelé downstep et se retrouve à l'écrit dans presque toutes les phrases de cette leçon.",
+      "rules": [
+        "Le downstep n'est pas un nouveau ton, mais une réalisation plus basse d'un ton haut, déclenchée par un ton descendant qui précède.",
+        "Il est noté par une flèche vers le bas (↓) juste avant la syllabe concernée.",
+        "On le trouve par exemple dans « é yíi ↓kpɛ́li ? », « é túyo ↓kpɛ́li ? » et « zɛ́lɛ́ ↓ɓó »."
+      ],
+      "examples": [
+        {
+          "structure": "yílê káá → yílé ↓káá",
+          "phonetic_api": "/yílê káá/ → [yílé ↓káá]",
+          "meaning": "« regarde un chien » : le second káá est prononcé plus bas à cause du ton descendant de yílê"
+        }
+      ]
+    },
+    {
+      "concept": "Les salutations : des questions-réponses, pas des mots figés",
+      "explanation": "Contrairement au français, où « bonjour » est un mot unique valable toute la journée, le kpele salue en posant une question sur l'état de la personne, et cette question change selon le moment de la journée.",
+      "rules": [
+        "Au réveil, on demande « yàa ŋwúŋ ? » (t'es-tu réveillé ?).",
+        "Du réveil jusqu'à midi, on demande « é yíi ↓kpɛ́li ? » (as-tu dormi sans problème ?).",
+        "Dans l'après-midi, on demande « é túyo ↓kpɛ́li ? » (as-tu passé la journée sans problème ?).",
+        "On répond souvent en répétant la même formule (adoucie par la particule máa̋), ou simplement par « òowɛi » (oui).",
+        "Le mot kpɛ́li, employé dans ces formules, signifie littéralement « zéro » : on demande en somme « zéro problème ? »."
+      ],
+      "examples": [
+        {
+          "structure": "é yíi ↓kpɛ́li ? → é yíi ↓kpɛ́li máa̋",
+          "phonetic_api": "/é yíi ↓kpɛ́lí/ → /é yíi ↓kpɛ́lí máa̋/",
+          "meaning": "question puis réponse à la salutation du matin"
+        }
+      ]
+    },
+    {
+      "concept": "Le marqueur é (« tu ») dans les formules de politesse",
+      "explanation": "De nombreuses formules de salutation et de remerciement commencent par é, le marqueur prédicatif de base de la 2e personne du singulier. Au pluriel ou dans un registre plus formel, il est remplacé par ká.",
+      "rules": [
+        "é = marqueur prédicatif de base 2SG (« tu »), utilisé devant le verbe ou le nom dans les formules figées.",
+        "ká = marqueur prédicatif de base 2PL, utilisé pour s'adresser à plusieurs personnes ou plus formellement.",
+        "On retrouve é en tête de « é yíi », « é túyo », « é máma », « é hɛ̀ɠɛ̂ɛ »."
+      ],
+      "examples": [
+        {
+          "structure": "é máma ! vs ká máma !",
+          "phonetic_api": "/é máma/ vs /ká máma/",
+          "meaning": "merci à toi (informel/singulier) vs merci à vous (formel/pluriel)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Personne A",
+      "text": "Yàa ŋwúŋ ?",
+      "phonetic_api": "/yàa ŋwúŋ/",
+      "phonetic_simple": "YAA ngwoung ?",
+      "translation": "Bonjour ! (T'es-tu réveillé ?)"
+    },
+    {
+      "speaker": "Personne B",
+      "text": "Òowɛi !",
+      "phonetic_api": "/òowɛ̀i/",
+      "phonetic_simple": "OO-wè-i !",
+      "translation": "Oui !"
+    },
+    {
+      "speaker": "Personne A",
+      "text": "É yíi ↓kpɛ́li ?",
+      "phonetic_api": "/é yíi ↓kpɛ́lí/",
+      "phonetic_simple": "é YI-i kpÉ-li ?",
+      "translation": "As-tu bien dormi ? (Bonjour !)"
+    },
+    {
+      "speaker": "Personne B",
+      "text": "É yíi ↓kpɛ́li máa̋.",
+      "phonetic_api": "/é yíi ↓kpɛ́lí máa̋/",
+      "phonetic_simple": "é YI-i kpÉ-li máá",
+      "translation": "Bonjour ! (réponse)"
+    },
+    {
+      "speaker": "Personne A",
+      "text": "Gàa léi mɛ́niê ?",
+      "phonetic_api": "/gàa léí mɛ́niê/",
+      "phonetic_simple": "gaa LÉ-i MÉ-ni-Ê ?",
+      "translation": "Comment vas-tu, mon ami ?"
+    },
+    {
+      "speaker": "Personne B",
+      "text": "Òowɛi !",
+      "phonetic_api": "/òowɛ̀i/",
+      "phonetic_simple": "OO-wè-i !",
+      "translation": "Oui, ça va !"
+    },
+    {
+      "speaker": "Personne A",
+      "text": "Zɛ́lɛ́ ↓ɓó !",
+      "phonetic_api": "/zɛ́lɛ́ ↓ɓó/",
+      "phonetic_simple": "zé-lé BÓ !",
+      "translation": "Salue-moi ! (poignée de main)"
+    },
+    {
+      "speaker": "Personne B",
+      "text": "É máma !",
+      "phonetic_api": "/é máma/",
+      "phonetic_simple": "é MA-ma !",
+      "translation": "Merci à toi !"
+    },
+    {
+      "speaker": "Personne A",
+      "text": "Ká máma !",
+      "phonetic_api": "/ká máma/",
+      "phonetic_simple": "ka MA-ma !",
+      "translation": "Merci à vous !"
+    },
+    {
+      "speaker": "Personne B",
+      "text": "Gáa lìí nɔ̀ɠɔ́kpalaŋ ↓ɲá.",
+      "phonetic_api": "/gáa lìí nɔ̀ɣɔ́kpalaŋ ↓ɲá/",
+      "phonetic_simple": "gaa LI-i no-ghó-KPA-lang NYA",
+      "translation": "Je vais au marché."
+    },
+    {
+      "speaker": "Personne A",
+      "text": "Máma !",
+      "phonetic_api": "/máma/",
+      "phonetic_simple": "MA-ma !",
+      "translation": "Merci ! (formule de départ)"
+    }
+  ],
+  "cultural_notes": [
+    "Le kpele (aussi appelé guerzé en Guinée) est parlé en Guinée forestière ; ce cours suit le dialecte central de Nzérékoré, qui sert de référence dans le dictionnaire, mais des variantes existent au nord (gbálî, région de Beyla), au sud (région de Yomou) et ailleurs.",
+    "Contrairement au français, où « bonjour » est un mot fixe, les salutations kpele sont des questions qui changent selon le moment de la journée : on demande si la personne s'est réveillée (le matin), si elle a bien dormi (jusqu'à midi), ou si elle a bien passé sa journée (l'après-midi).",
+    "La salutation par poignée de main (hɛ́lɛ) est typique de la Guinée forestière et s'accompagne traditionnellement d'un claquement des doigts.",
+    "Lors d'une accolade de salutation (lɛ̌nɛ), les deux personnes prononcent souvent ensemble l'interjection « àúòo », une ou deux fois.",
+    "Le mot kpɛ́li, utilisé dans les salutations comme « é yíi kpɛ́li ? » (as-tu dormi sans problème ?), signifie littéralement « zéro » : on demande en somme « zéro problème ? ».",
+    "Une réponse ironique bien connue à « gàa léi ? » (comment ça va ?) est « vé ní kàale káali » (litt. « je n'ai pas encore vu de serpent »), une taquinerie réservée à ceux qui baragouinent le kpele sans le maîtriser vraiment !",
+    "Le mot mɛ́niê (frère, ami) est une forme d'adresse chaleureuse envers un homme plus âgé, mais ce n'est pas un vrai terme de parenté : on ne l'utilise pas comme nom relationnel.",
+    "Le kpele ne possède pas de mot figé pour « au revoir » : on prend congé en annonçant simplement où l'on va, avec le verbe lǐ (aller, partir), comme dans « gáa lìí nɔ̀ɠɔ́kpalaŋ ↓ɲá » (je vais au marché)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel signe indique le downstep, comme dans « é yíi ↓kpɛ́li ? » ?",
+      "options": [
+        "L'accent aigu (´)",
+        "La flèche vers le bas (↓)",
+        "Le caron (ˇ)",
+        "Le tréma (¨)"
+      ],
+      "correct_answer": "La flèche vers le bas (↓)",
+      "explanation": "La flèche ↓ marque le downstep : après un ton descendant (HB), le ton haut qui suit est phonétiquement abaissé, sans qu'il s'agisse d'un ton nouveau."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Laquelle de ces paires de mots kpele est distinguée uniquement par le ton ?",
+      "options": [
+        "láa (coucher) / làa (là-bas)",
+        "hɛ́lɛ (salutation) / ɓá (riz)",
+        "máma (merci) / kpɛ̀la (pardon)",
+        "lǐ (aller) / ŋwúŋ (se réveiller)"
+      ],
+      "correct_answer": "láa (coucher) / làa (là-bas)",
+      "explanation": "láa et làa s'écrivent avec les mêmes lettres ; seul le ton (haut vs bas) distingue « coucher » de « là-bas »."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Comment dit-on « Bonjour ! » à quelqu'un juste après son réveil, avant midi ?",
+      "options": [
+        "É túyo ↓kpɛ́li ?",
+        "É yíi ↓kpɛ́li ?",
+        "Gàa léi ?",
+        "Màahwâa !"
+      ],
+      "correct_answer": "É yíi ↓kpɛ́li ?",
+      "explanation": "É yíi ↓kpɛ́li ? (litt. « as-tu dormi sans problème ? ») est la salutation utilisée du réveil jusqu'à midi."
+    },
+    {
+      "exercise_id": "ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour remercier une seule personne en la tutoyant, on dit : « [ ___ ] máma ! »",
+      "correct_answer": "É",
+      "hint": "C'est le marqueur prédicatif de la 2e personne du singulier (« tu »)."
+    },
+    {
+      "exercise_id": "ex5",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Il est 15h, tu croises un ami. Tu lui dis : « É [ ___ ] ↓kpɛ́li ? »",
+      "correct_answer": "túyo",
+      "hint": "C'est la formule de salutation de l'après-midi ; elle signifie littéralement « as-tu passé la journée sans problème ? »."
+    },
+    {
+      "exercise_id": "ex6",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A : Gàa léi mɛ́niê ? — B : « [ ___ ] ! »",
+      "correct_answer": "Òowɛi",
+      "hint": "C'est la réponse affirmative générale à une salutation."
+    }
+  ]
+}

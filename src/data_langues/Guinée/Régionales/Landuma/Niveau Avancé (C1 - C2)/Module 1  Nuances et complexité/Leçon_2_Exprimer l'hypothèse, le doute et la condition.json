@@ -1,0 +1,116 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Structurer des propositions conditionnelles complexes (si..., alors...)",
+    "Exprimer l'incertitude, la probabilité et le doute sur un fait passé ou futur",
+    "Utiliser les particules de conjecture dans un débat argumenté"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La particule conditionnelle requiert une attaque glottale nette. Veillez à maintenir le ton descendant sur la voyelle finale de la conjonction pour bien la distinguer des particules d'affirmation.",
+    "common_pitfalls": "Attention à ne pas fusionner la particule de doute avec le pronom sujet qui la suit immédiatement."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v20_1",
+      "term": "hama",
+      "phonetic_api": "/ha.ma/",
+      "phonetic_simple": "HA-MA",
+      "translation": "si / au cas où / condition obligatoire",
+      "example_sentence": "hama mɔ alɛ, mbi kɔn",
+      "example_phonetic": "/ha.ma mɔ a.lɛ mbi kɔn/",
+      "example_translation": "Si tu viens, je pars."
+    },
+    {
+      "word_id": "v20_2",
+      "term": "tsɛllɛ",
+      "phonetic_api": "/t͡sɛlːɛ/",
+      "phonetic_simple": "TSELL-E",
+      "translation": "peut-être / probablement / expression du doute",
+      "example_sentence": "tsɛllɛ baba kɔn ka dare",
+      "example_phonetic": "/t͡sɛlːɛ ba.ba kɔn ka da.re/",
+      "example_translation": "Peut-être que le père est allé en ville."
+    },
+    {
+      "word_id": "v20_3",
+      "term": "manti",
+      "phonetic_api": "/man.ti/",
+      "phonetic_simple": "MAN-TI",
+      "translation": "pourvu que / à condition que (souhait restrictif)",
+      "example_sentence": "manti mɔ wali kisin",
+      "example_phonetic": "/man.ti mɔ wa.li ki.sin/",
+      "example_translation": "Pourvu que tu travailles bien."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p20_1",
+      "original": "hama gala mɔ lɔndɔ, mbi kɔndɔn dɛp atɔk mɔ",
+      "phonetic_api": "/ha.ma ga.la mɔ lɔn.dɔ mbi kɔn.dɔn dɛp a.tɔk mɔ/",
+      "phonetic_simple": "HA-MA GA-LA MO LON-DO, MBI KON-DON DÈP A-TOK MO",
+      "translation": "Si l'argent avait été là, j'aurais déjà fini d'acheter ce vêtement",
+      "context": "Exprimer un irréel du passé lors d'une discussion sur un regret financier."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système conditionnel et l'irréel avec 'hama'",
+      "explanation": "Pour bâtir une hypothèse, la conjonction 'hama' se place en tête de la proposition subordonnée conditionnelle. Si l'hypothèse porte sur le passé (irréel du passé), la proposition principale utilise obligatoirement l'auxiliaire aspectuel de complétude 'kɔndɔn'.",
+      "rules": [
+        "Hama + Proposition Conditionnelle, + Proposition Principale.",
+        "L'absence de marqueur temporel spécifique dans la subordonnée laisse au contexte ou à la principale le soin de définir l'époque de l'hypothèse."
+      ],
+      "examples": [
+        {
+          "structure": "hama + Sujet + Verbe",
+          "phonetic_api": "/ha.ma mɔ pa/",
+          "meaning": "Si tu veux (condition ouverte)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "baba kɔn kɔn ka kafu tɛkɛ ?",
+      "phonetic_api": "/ba.ba kɔn kɔn ka ka.fu tɛ.kɛ/",
+      "phonetic_simple": "BA-BA KON KON KA KA-FOU TÈ-KÈ ?",
+      "translation": "Le père est-il allé au champ aujourd'hui ?"
+    },
+    {
+      "speaker": "Amadou",
+      "text": "tsɛllɛ kɔn ka kafu. hama tsang mɔ fann, manti mɔ alɛ kɛwun kisin.",
+      "phonetic_api": "/t͡sɛlːɛ kɔn ka ka.fu ha.ma t͡saŋ mɔ fanː man.ti mɔ a.lɛ kɛ.wun ki.sin/",
+      "phonetic_simple": "TSELL-E KON KA KA-FOU. HA-MA TSANG MO FANN, MAN-TI MO A-LÈ KÈ-WOUN KI-SIN",
+      "translation": "Peut-être est-il au champ. Si le soleil est haut, pourvu qu'il rentre tôt et en bonne santé."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la tradition orale landouma, l'usage de 'tsɛllɛ' (peut-être) traduit souvent une pudeur verbale ou un respect coutumier. Affirmer un fait avec trop de certitude sans avoir été témoin direct peut être perçu comme une maladresse ou un manque de sagesse."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex20_1",
+      "type": "multiple_choice",
+      "question": "Quel mot utilise-t-on pour introduire une condition ('si') ?",
+      "options": [
+        "manti",
+        "hama",
+        "tsɛllɛ"
+      ],
+      "correct_answer": "hama",
+      "explanation": "'hama' introduit l'hypothèse ou la condition sine qua non dans la phrase complexe."
+    },
+    {
+      "exercise_id": "ex20_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] baba kɔn ka dare (Peut-être que le père est allé en ville)",
+      "correct_answer": "tsɛllɛ",
+      "hint": "L'adverbe exprimant la probabilité ou le doute."
+    }
+  ]
+}

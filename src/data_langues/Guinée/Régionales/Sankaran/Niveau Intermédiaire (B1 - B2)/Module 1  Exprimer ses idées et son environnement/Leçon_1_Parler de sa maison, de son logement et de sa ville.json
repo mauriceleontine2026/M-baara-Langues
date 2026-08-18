@@ -1,0 +1,229 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire l'agencement interne d'une habitation et nommer ses principales pièces",
+    "Situer des éléments résidentiels ou commerciaux au sein de l'espace urbain",
+    "Utiliser les constructions de localisation relative et les suffixes de dérivation spatiale"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon utilise des termes résidentiels aux voyelles brèves mais fermées comme 'So' /so/ (maison/chambre) et 'Suu' /suː/ (cour/concession) qui possède une voyelle longue. Le son nasalisé final /n/ dans 'dugudan' /du.ɣu.dan/ doit être prononcé de manière alvéolaire nette sans nasalisation totale de la voyelle précédente.",
+    "common_pitfalls": "Veillez à bien articuler l'affriquée palatale voisée /d͡ʒ/ dans 'jigbɛ' /d͡ʒi.ɡ͡bɛ/ sans la transformer en 'z' ou 'j' français. Ne confondez pas 'so' (chambre/maison) avec 'su' (la nuit)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v10_1",
+      "term": "Suu",
+      "phonetic_api": "/suː/",
+      "phonetic_simple": "SUU",
+      "translation": "Cour / Concession familiale / Enclos",
+      "example_sentence": "An suu ka ba.",
+      "example_phonetic": "/an suː ka ba/",
+      "example_translation": "Notre concession familiale est grande."
+    },
+    {
+      "word_id": "v10_2",
+      "term": "Bung",
+      "phonetic_api": "/buŋ/",
+      "phonetic_simple": "BOUNGE",
+      "translation": "Bâtiment / Case / Édifice",
+      "example_sentence": "Bung kura le nin di.",
+      "example_phonetic": "/buŋ ku.ra le nin di/",
+      "example_translation": "C'est un nouveau bâtiment."
+    },
+    {
+      "word_id": "v10_3",
+      "term": "Gwada",
+      "phonetic_api": "/ɡ͡wa.da/",
+      "phonetic_simple": "GWA-DA",
+      "translation": "Cuisine / Foyer (lieu de cuisson)",
+      "example_sentence": "Baa be gwada kɔnɔ.",
+      "example_phonetic": "/baː be ɡ͡wa.da kɔ.nɔ/",
+      "example_translation": "Maman est dans la cuisine."
+    },
+    {
+      "word_id": "v10_4",
+      "term": "Koala",
+      "phonetic_api": "/ko.a.la/",
+      "phonetic_simple": "KO-A-LA",
+      "translation": "Douche / Cabinet de toilette (litt: lieu de lavage)",
+      "example_sentence": "Koala be suu tɔgɔ fɛ.",
+      "example_phonetic": "/ko.a.la be suː tɔ.ɣɔ fɛ/",
+      "example_translation": "La douche est au fond de la cour."
+    },
+    {
+      "word_id": "v10_5",
+      "term": "Dugu",
+      "phonetic_api": "/du.ɣu/",
+      "phonetic_simple": "DOU-GOU",
+      "translation": "Ville / Village / Terre",
+      "example_sentence": "Faranah mu dugu ba di.",
+      "example_phonetic": "/fa.ra.na mu du.ɣu ba di/",
+      "example_translation": "Faranah est une grande ville."
+    },
+    {
+      "word_id": "v10_6",
+      "term": "Sigiyɔrɔ",
+      "phonetic_api": "/si.ɣi.jɔ.rɔ/",
+      "phonetic_simple": "SI-GOU-YƆ-RƆ",
+      "translation": "Salon / Lieu d'assise / Domicile",
+      "example_sentence": "Lɛɛrɛ be sigiyɔrɔ la.",
+      "example_phonetic": "/lɛː.rɛ be si.ɣi.jɔ.rɔ la/",
+      "example_translation": "L'horloge est dans le salon."
+    },
+    {
+      "word_id": "v10_7",
+      "term": "Dugudan",
+      "phonetic_api": "/du.ɣu.dan/",
+      "phonetic_simple": "DOU-GOU-DANE",
+      "translation": "Frontière de la ville / Périphérie",
+      "example_sentence": "An bɔra dugudan la.",
+      "example_phonetic": "/an bɔ.ra du.ɣu.dan la/",
+      "example_translation": "Nous sommes arrivés à la périphérie de la ville."
+    },
+    {
+      "word_id": "v10_8",
+      "term": "Daala",
+      "phonetic_api": "/daː.la/",
+      "phonetic_simple": "DAA-LA",
+      "translation": "Près de / Au bord de (litt: à la bouche de)",
+      "example_sentence": "So be silo daala.",
+      "example_phonetic": "/so be si.lo daː.la/",
+      "example_translation": "La maison est au bord de la route."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p10_1",
+      "original": "I be dugu mun kɔnɔ sisan?",
+      "phonetic_api": "/i be du.ɣu mun kɔ.nɔ si.san/",
+      "phonetic_simple": "I BÉ DOU-GOU MOUN KƆ-NƆ SI-SANE ?",
+      "translation": "Dans quelle ville habites-tu actuellement ?",
+      "context": "Question polie au niveau intermédiaire pour entamer un dialogue sur l'environnement urbain."
+    },
+    {
+      "phrase_id": "p10_2",
+      "original": "N so be lofɛ ba surun la.",
+      "phonetic_api": "/ɲ so be lo.fɛ ba su.run la/",
+      "phonetic_simple": "N SO BÉ LO-FƐ BA SOU-ROUNE LA.",
+      "translation": "Ma maison se trouve à proximité du grand marché.",
+      "context": "Indication résidentielle pour localiser son adresse."
+    },
+    {
+      "phrase_id": "p10_3",
+      "original": "Bung saba le be an suu kɔnɔ.",
+      "phonetic_api": "/buŋ sa.ba le be an suː kɔ.nɔ/",
+      "phonetic_simple": "BOUNGE SA-BA LÉ BÉ ANE SUU KƆ-NƆ.",
+      "translation": "Il y a trois bâtiments dans notre concession.",
+      "context": "Description morphologique de l'habitat familial traditionnel."
+    },
+    {
+      "phrase_id": "p10_4",
+      "original": "Dugu nin ka di, mɔgɔ lu ka surun.",
+      "phonetic_api": "/du.ɣu nin ka di mɔ.ɣɔ lu ka su.run/",
+      "phonetic_simple": "DOU-GOU NINE KA DI, MƆ-GƆ LOU KA SOU-ROUNE.",
+      "translation": "Cette ville est agréable, les gens sont accueillants / proches.",
+      "context": "Exprimer une opinion positive sur l'atmosphère d'une localité."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les noms de relations spatiales dérivés des parties du corps (Postpositions complexes)",
+      "explanation": "Pour exprimer la localisation relative à un objet ('près de', 'au fond de'), le Sankaran recourt à des substantifs anatomiques détournés de leur sens initial, fonctionnant comme des postpositions.",
+      "rules": [
+        "Daala (de 'daa', la bouche) = Au bord de / Près de",
+        "Kɔnɔ (de 'kɔnɔ', le ventre/l'intérieur) = Dans / À l'intérieur de"
+      ],
+      "examples": [
+        {
+          "structure": "Silo daala",
+          "phonetic_api": "/si.lo daː.la/",
+          "meaning": "Au bord de la route"
+        },
+        {
+          "structure": "Bung kɔnɔ",
+          "phonetic_api": "/buŋ kɔ.nɔ/",
+          "meaning": "Dans le bâtiment"
+        }
+      ]
+    },
+    {
+      "concept": "L'utilisation du qualificatif de dimension nominale 'ba'",
+      "explanation": "Pour exprimer la grandeur d'un espace ou d'une structure urbaine (une grande ville, un grand bâtiment), on accole le suffixe ou adjectif court 'ba' (abréviation de bonya/grand) directement après le substantif.",
+      "rules": [
+        "Structure : Nom + ba"
+      ],
+      "examples": [
+        {
+          "structure": "Dugu ba",
+          "phonetic_api": "/du.ɣu ba/",
+          "meaning": "Une grande ville / Une métropole"
+        },
+        {
+          "structure": "Lofɛ ba",
+          "phonetic_api": "/lo.fɛ ba/",
+          "meaning": "Un grand marché"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine",
+      "text": "Sekou, n ma i so yɔrɔ lɔn. I be sigila mi fɛ Faranah?",
+      "phonetic_api": "/se.ku ɲ ma i so jɔ.rɔ lɔn | i be si.ɣi.la mi fɛ fa.ra.na/",
+      "phonetic_simple": "SÉ-KOU, N MA I SO YƆ-RƆ LƆNE. I BÉ SI-GOU-LA MI FƐ FA-RA-NA ?",
+      "translation": "Sekou, je ne connais pas l'emplacement de ta maison. Où es-tu installé du côté de Faranah ?"
+    },
+    {
+      "speaker": "Sekou",
+      "text": "Nba, Lamine. N so be dugudan la, dɔgɔtɔrɔso ba daala.",
+      "phonetic_api": "/ɲ.ba la.min | ɲ so be du.ɣu.dan la dɔ.ɣɔ.tɔ.rɔ.so ba daː.la/",
+      "phonetic_simple": "NBA, LA-MINE. N SO BÉ DOU-GOU-DANE LA, DƆ-GƆ-TƆ-RƆ-SO BA DAA-LA.",
+      "translation": "Eh bien, Lamine. Ma maison se trouve à la périphérie de la ville, juste à côté du grand hôpital."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "I suu kɔnɔ ka ba bang? Bung jeli be yan?",
+      "phonetic_api": "/i suː kɔ.nɔ ka ba baŋ | buŋ d͡ʒe.li be jan/",
+      "phonetic_simple": "I SUU KƆ-NƆ KA BA BANGE ? BOUNGE DJÉ-LI BÉ YANE ?",
+      "translation": "L'intérieur de ta concession est-il grand ? Combien de bâtiments s'y trouvent ?"
+    },
+    {
+      "speaker": "Sekou",
+      "text": "Awo, an suu ka ba kosɛbɛ. Bung fila le be yan, sigiyɔrɔ ni gwada fana.",
+      "phonetic_api": "/a.wo an suː ka ba ko.sɛ.bɛ | buŋ fi.la le be jan si.ɣi.jɔ.rɔ ni ɡ͡wa.da fa.na/",
+      "phonetic_simple": "A-WO, ANE SUU KA BA KO-SƐ-BƐ. BOUNGE FI-LA LÉ BÉ YANE, SI-GOU-YƆ-RƆ NI GWA-DA FA-NA.",
+      "translation": "Oui, notre concession est très vaste. Il y a deux bâtiments, un salon et également une cuisine."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'architecture urbaine et rurale du Sankaran, la concession ('suu') abrite de façon prépondérante le noyau familial élargi. Elle s'organise autour d'une cour centrale où se déroulent les activités quotidiennes (lessive, causeries) tandis que la cuisine ('gwada') demeure le pôle central d'interaction pour les femmes de la maisonnée.",
+    "La périphérie d'une ville ('dugudan') marque traditionnellement la limite entre l'espace socialisé et l'espace agricole ou de brousse, souvent associé à l'extension récente des habitations urbaines."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex10_1",
+      "type": "multiple_choice",
+      "question": "Analysez les termes et cochez la signification exacte de 'Gwada' :",
+      "options": [
+        "La chambre à coucher",
+        "La cuisine / Le foyer",
+        "La place publique"
+      ],
+      "correct_answer": "La cuisine / Le foyer",
+      "explanation": "'Gwada' désigne littéralement l'espace ou le coin du feu destiné à la cuisson des aliments."
+    },
+    {
+      "exercise_id": "ex10_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour exprimer qu'un logis est situé près du chemin, on dit : So be silo [ ___ ].",
+      "correct_answer": "daala",
+      "hint": "Postposition dérivée de la bouche, se terminant par 'la'."
+    }
+  ]
+}

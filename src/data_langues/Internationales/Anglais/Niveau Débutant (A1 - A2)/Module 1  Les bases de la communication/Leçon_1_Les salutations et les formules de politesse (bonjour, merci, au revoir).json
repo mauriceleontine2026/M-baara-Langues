@@ -1,0 +1,274 @@
+{
+  "lesson_id": "A1_M1_L1_v2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse (Version Enrichie)",
+  "learning_objectives": [
+    "Maîtriser les salutations formelles et informelles selon les marqueurs temporels",
+    "Comprendre la structure sociale du 'Small Talk' initial",
+    "Utiliser les marqueurs de politesse et de gratitude en contexte professionnel et quotidien"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'anglais repose sur une distinction stricte entre voyelles courtes et longues : le groupe vocalique de 'please' /pliːz/ nécessite une tension et une longueur accrues par rapport à l'anglais standard court. Le 'h' initial dans 'hello' /həˈloʊ/ ou 'how' /haʊ/ exige une véritable friction glottale expirée, sous peine d'être confondu avec d'autres lexèmes ou de bloquer la fluidité. L'accent tonique (noté par le symbole ˈ) doit impérativement être marqué par une hausse de hauteur et d'intensité sur la syllabe cible : /həˈloʊ/ (accent sur la seconde) contre /ˈmɔːrnɪŋ/ (accent sur la première).",
+    "common_pitfalls": "L'absence d'aspiration du /h/ (omission pure et simple) ; la substitution systématique du phonème fricatif interdental sourd /θ/ (le 'th' de 'thank you') par un /s/ ou un /t/ francophone. Pour réussir le /θ/, la pointe de la langue doit effleurer le bord des incisives supérieures sans bloquer complètement le passage de l'air."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Hello",
+      "phonetic_api": "/həˈloʊ/",
+      "phonetic_simple": "hə-LOH",
+      "translation": "Bonjour / Salut",
+      "example_sentence": "Hello, everyone, welcome to the meeting.",
+      "example_phonetic": "/həˈloʊ ˈɛvriwʌn ˈwɛlkəm tuː ðə ˈmiːtɪŋ/",
+      "example_translation": "Bonjour à tous, bienvenue à la réunion."
+    },
+    {
+      "word_id": "v2",
+      "term": "Please",
+      "phonetic_api": "/pliːz/",
+      "phonetic_simple": "PLIIZ",
+      "translation": "S'il vous plaît / S'il te plaît",
+      "example_sentence": "Could you open the window, please?",
+      "example_phonetic": "/kʊd juː ˈoʊpən ðə ˈwɪndoʊ pliːz/",
+      "example_translation": "Pourriez-vous ouvrir la fenêtre, s'il vous plaît ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "Thank you",
+      "phonetic_api": "/ˈθæŋk juː/",
+      "phonetic_simple": "THÆNK-yoo",
+      "translation": "Merci",
+      "example_sentence": "Thank you so much for your hospitality.",
+      "example_phonetic": "/ˈθæŋk juː soʊ mʌtʃ fɔːr jɔːr ˌhɒspɪˈtælɪti/",
+      "example_translation": "Merci infiniment pour votre hospitalité."
+    },
+    {
+      "word_id": "v4",
+      "term": "Goodbye",
+      "phonetic_api": "/ˌɡʊdˈbaɪ/",
+      "phonetic_simple": "gʊd-BAÏ",
+      "translation": "Au revoir",
+      "example_sentence": "Goodbye, have a wonderful weekend.",
+      "example_phonetic": "/ˌɡʊdˈbaɪ hæv ə ˈwʌndərfəl ˌwiːkˈɛnd/",
+      "example_translation": "Au revoir, passez un excellent week-end."
+    },
+    {
+      "word_id": "v5",
+      "term": "Welcome",
+      "phonetic_api": "/ˈwɛlkəm/",
+      "phonetic_simple": "WEL-kəm",
+      "translation": "Bienvenue",
+      "example_sentence": "Welcome to our new office in London.",
+      "example_phonetic": "/ˈwɛlkəm tuː ˈaʊər njuː ˈɒfɪs ɪn ˈlʌndən/",
+      "example_translation": "Bienvenue dans nos nouveaux bureaux à Londres."
+    },
+    {
+      "word_id": "v6",
+      "term": "Sorry",
+      "phonetic_api": "/ˈsɒri/",
+      "phonetic_simple": "SOR-i",
+      "translation": "Désolé / Pardon",
+      "example_sentence": "I am sorry for the unexpected delay.",
+      "example_phonetic": "/aɪ æm ˈsɒri fɔːr ðə ˌʌnɪkˈspɛktɪd dɪˈleɪ/",
+      "example_translation": "Je suis désolé pour le retard imprévu."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Good morning",
+      "phonetic_api": "/ˌɡʊd ˈmɔːrnɪŋ/",
+      "phonetic_simple": "gʊd MOR-niŋ",
+      "translation": "Bonjour (matin)",
+      "context": "Formule formelle et semi-formelle employée du lever du soleil jusqu'à midi précis."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Good afternoon",
+      "phonetic_api": "/ˌɡʊd ˌæftərˈnuːn/",
+      "phonetic_simple": "gʊd AF-tər-noun",
+      "translation": "Bonjour (après-midi)",
+      "context": "Utilisé de midi (12:00) jusqu'aux alentours de 17h00-18h00 dans les interactions professionnelles ou courantes."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Good evening",
+      "phonetic_api": "/ˌɡʊd ˈiːvnɪŋ/",
+      "phonetic_simple": "gʊd IIV-niŋ",
+      "translation": "Bonsoir",
+      "context": "Salutation d'arrivée active à partir de 18h00 jusqu'à la fin de la nuit. Ne pas confondre avec le départ."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "You're welcome",
+      "phonetic_api": "/jʊər ˈwɛlkəm/",
+      "phonetic_simple": "your WEL-kəm",
+      "translation": "Je vous en prie / De rien",
+      "context": "Réponse standard, polie et neutre à toute expression de gratitude."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Nice to meet you",
+      "phonetic_api": "/naɪs tuː miːt juː/",
+      "phonetic_simple": "naɪs too MEET yoo",
+      "translation": "Enchanté(e) / Ravi de vous rencontrer",
+      "context": "Prononcé exclusivement lors de la toute première rencontre physique ou virtuelle avec une personne."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "How are you doing?",
+      "phonetic_api": "/haʊ ɑːr juː ˈduːɪŋ/",
+      "phonetic_simple": "haʊ ar yoo DOO-iŋ",
+      "translation": "Comment allez-vous ? / Comment ça va ?",
+      "context": "Variante dynamique et très courante du traditionnel 'How are you?', idéale en milieu semi-formel ou amical."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Pleasure to meet you",
+      "phonetic_api": "/ˈplɛʒər tuː miːt juː/",
+      "phonetic_simple": "PLE-jər too MEET yoo",
+      "translation": "C'est un plaisir de vous rencontrer",
+      "context": "Alternative plus élégante et formelle à 'Nice to meet you', recommandée dans le monde des affaires."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Don't mention it",
+      "phonetic_api": "/doʊnt ˈmɛnʃən ɪt/",
+      "phonetic_simple": "dohnt MEN-shən it",
+      "translation": "Il n'y a pas de quoi / De rien",
+      "context": "Expression idiomatique et décontractée pour minimiser l'importance d'un service rendu avec bienveillance."
+    },
+    {
+      "phrase_id": "p9",
+      "original": "Have a nice day",
+      "phonetic_api": "/hæv ə naɪs deɪ/",
+      "phonetic_simple": "hæv ə naɪs deɪ",
+      "translation": "Bonne journée",
+      "context": "Formule de congé et de séparation utilisée en journée pour clore une interaction poliment."
+    },
+    {
+      "phrase_id": "p10",
+      "original": "Goodnight",
+      "phonetic_api": "/ˌɡʊdˈnaɪt/",
+      "phonetic_simple": "gʊd-NAÏT",
+      "translation": "Bonne nuit / Au revoir (le soir)",
+      "context": "Formule de séparation exclusive. On l'utilise uniquement en quittant un lieu tard le soir ou juste avant de dormir."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La distinction stricte entre salutations d'arrivée et formules de départ",
+      "explanation": "En anglais standard, le choix de l'expression dépend non seulement de l'heure du jour, mais aussi du statut de l'interaction (ouverture ou fermeture). L'erreur la plus fréquente commise par les francophones est l'usage de 'Good night' comme un équivalent de 'Bonsoir' à l'arrivée. 'Good night' signifie exclusivement 'Au revoir, la soirée est terminée' ou 'Je vais me coucher'. À l'inverse, 'Good evening' est une formule d'accueil.",
+      "rules": [
+        "Arrivée (Matin) -> Good morning",
+        "Arrivée (Après-midi) -> Good afternoon",
+        "Arrivée (Soirée) -> Good evening",
+        "Départ (Soirée/Nuit) -> Good night ou Goodbye"
+      ],
+      "examples": [
+        {
+          "structure": "Arrivée à un dîner à 20h : 'Good evening, everyone!'",
+          "phonetic_api": "/ˌɡʊd ˈiːvnɪŋ ˈɛvriwʌn/",
+          "meaning": "Bonsoir à tous !"
+        },
+        {
+          "structure": "Départ du même dîner à 23h : 'Good night, see you next week!'",
+          "phonetic_api": "/ˌɡʊdˈnaɪt siː juː nɛkst wiːk/",
+          "meaning": "Bonne nuit, à la semaine prochaine !"
+        }
+      ]
+    },
+    {
+      "concept": "La construction de la question de courtoisie et ses réponses",
+      "explanation": "La question 'How are you?' fait grammaticalement et socialement partie intégrante du protocole de salutation. Elle n'appelle pas une description médicale ou psychologique détaillée, mais une réponse conventionnelle positive suivie d'un remerciement et d'une relance réciproque.",
+      "rules": [
+        "Structure standard : Sujet + Verbe BE conjugué + Adjectif + Thank you.",
+        "Relance réciproque obligatoire : 'And you?' ou 'How about you?'."
+      ],
+      "examples": [
+        {
+          "structure": "I am fine, thank you. And you?",
+          "phonetic_api": "/aɪ æm faɪn θæŋk juː ænd juː/",
+          "meaning": "Je vais bien, merci. Et vous/toi ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mr. Davis (Directeur)",
+      "text": "Good afternoon, Ms. Smith. Welcome to our headquarters.",
+      "phonetic_api": "/ˌɡʊd ˌæftərˈnuːn mɪz smɪθ ˈwɛlkəm tuː ˈaʊər ˈhɛdˌkwɔːrtərz/",
+      "phonetic_simple": "gʊd AF-tər-noun miz smɪth WEL-kəm too aʊər HED-kwɔːrtərz",
+      "translation": "Bonjour, Mme Smith. Bienvenue à notre siège social."
+    },
+    {
+      "speaker": "Ms. Smith (Consultante)",
+      "text": "Good afternoon, Mr. Davis. It is a pleasure to meet you. How are you?",
+      "phonetic_api": "/ˌɡʊd ˌæftərˈnuːn ˈmɪstər ˈdeɪvɪs ɪt ɪz ə ˈplɛʒər tuː miːt juː haʊ ɑːr juː/",
+      "phonetic_simple": "gʊd AF-tər-noun Mɪstər DEI-vɪs ɪt ɪz ə PLE-jər too MEET yoo haʊ ar yoo",
+      "translation": "Bonjour, M. Davis. C'est un plaisir de vous rencontrer. Comment allez-vous ?"
+    },
+    {
+      "speaker": "Mr. Davis (Directeur)",
+      "text": "I am doing very well, thank you. Please, take a seat.",
+      "phonetic_api": "/aɪ æm ˈduːɪŋ ˈvɛri wɛl θæŋk juː pliːz teɪk ə siːt/",
+      "phonetic_simple": "aɪ am DOO-iŋ VER-i wel THÆNK yoo pliiz teɪk ə siit",
+      "translation": "Je vais très bien, merci. S'il vous plaît, asseyez-vous."
+    },
+    {
+      "speaker": "Ms. Smith (Consultante)",
+      "text": "Thank you so much. Here is the project report.",
+      "phonetic_api": "/ˈθæŋk juː soʊ mʌtʃ hɪər ɪz ðə ˈprɒdʒɛkt rɪˈpɔːrt/",
+      "phonetic_simple": "THÆNK yoo soʊ mʌtʃ hɪər ɪz ðə PRO-dʒɛkt rɪ-port",
+      "translation": "Merci beaucoup. Voici le rapport de projet."
+    },
+    {
+      "speaker": "Mr. Davis (Directeur)",
+      "text": "Perfect. You're welcome to stay for lunch later.",
+      "phonetic_api": "/pərˈfɛkt jʊər ˈwɛlkəm tuː steɪ fɔːr lʌntʃ ˈleɪtər/",
+      "phonetic_simple": "pər-FEKT your WEL-kəm too steɪ fɔːr lʌntʃ LEI-tər",
+      "translation": "Parfait. Vous êtes la bienvenue pour rester déjeuner plus tard."
+    }
+  ],
+  "cultural_notes": [
+    "Le concept du 'Small Talk' : Dans la culture anglo-saxonne (particulièrement au Royaume-Uni et aux États-Unis), omettre de demander 'How are you?' ou d'y répondre de manière abrupte est perçu comme une marque de froideur ou d'impolitesse. C'est un lubrifiant social indispensable avant d'aborder tout sujet sérieux ou professionnel.",
+    "L'hyper-politesse verbale : L'usage des mots 'Please', 'Thank you' et 'Sorry' est exponentiellement plus élevé qu'en français. Un anglophone dira instinctivement 'Sorry' s'il vous bouscule légèrement, mais aussi si vous le bousculez par mégarde. Ne pas utiliser ces termes de manière répétée donne l'impression d'un ton direct agressif."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Vous quittez vos collègues de bureau à 21h00 après un dîner d'affaires. Quelle formule de clôture utilisez-vous ?",
+      "options": [
+        "Good evening",
+        "Good afternoon",
+        "Good night"
+      ],
+      "correct_answer": "Good night",
+      "explanation": "Puisqu'il s'agit d'une formule de départ et de séparation définitive en fin de soirée, 'Good night' est la seule option structurellement et culturellement correcte."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "It was a true [ ___ ] to meet you, goodbye!",
+      "correct_answer": "pleasure",
+      "hint": "Traduction : Ce fut un réel plaisir de vous rencontrer, au revoir !"
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Quelle est la réponse la plus naturelle et polie à l'affirmation 'Thank you so much for your help' ?",
+      "options": [
+        "You're welcome",
+        "Please",
+        "Hello"
+      ],
+      "correct_answer": "You're welcome",
+      "explanation": "'You're welcome' signifie 'Je vous en prie' / 'De rien' et valide poliment un remerciement."
+    }
+  ]
+}

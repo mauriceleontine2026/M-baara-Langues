@@ -1,0 +1,139 @@
+{
+  "lesson_id": "B1_M1_L3",
+  "level": "Niveau Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 3,
+  "title": "Exprimer ses goûts, ses préférences et ses sentiments",
+  "learning_objectives": [
+    "Dire ce que l'on aime et ce que l'on déteste en kissi",
+    "Exprimer une préférence claire entre deux choix",
+    "Partager un état d'esprit émotionnel simple (joie, tristesse)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le verbe 'phee' (aimer / préférer) possède une voyelle longue tendue /eː/. Le terme 'kɔ̄l' (cœur / sentiment) demande une prononciation claire de la consonne liquide latérale /l/.",
+    "common_pitfalls": "Attention à la longueur vocalique de 'phee'. Si la voyelle est raccourcie involontairement, le mot peut être mal compris par les locuteurs natifs."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v12_1",
+      "term": "phee",
+      "phonetic_api": "/pʰeː/",
+      "phonetic_simple": "PHÉÉ",
+      "translation": "aimer / désirer / agréer",
+      "example_sentence": "I phee biyɛ fiaa.",
+      "example_phonetic": "/i pʰeː bi.jɛ fjaː/",
+      "example_translation": "J'aime beaucoup le riz."
+    },
+    {
+      "word_id": "v12_2",
+      "term": "kɔ̄l",
+      "phonetic_api": "/kɔ̄l/",
+      "phonetic_simple": "KOL",
+      "translation": "cœur / siège des sentiments",
+      "example_sentence": "Kɔ̄l nio o co kpou.",
+      "example_phonetic": "/kɔ̄l njo o tʃo kpu/",
+      "example_translation": "Mon cœur va bien (Je suis joyeux)."
+    },
+    {
+      "word_id": "v12_3",
+      "term": "le",
+      "phonetic_api": "/le/",
+      "phonetic_simple": "LÉ",
+      "translation": "particule de négation (ne... pas)",
+      "example_sentence": "I phee ni le.",
+      "example_phonetic": "/i pʰeː ni le/",
+      "example_translation": "Je n'aime pas ça."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p12_1",
+      "original": "I phee gbalɔ pɔndɔ.",
+      "phonetic_api": "/i pʰeː g͡ba.lɔ pɔ.ⁿdɔ/",
+      "phonetic_simple": "I PHÉÉ GBA-LO PON-DO",
+      "translation": "Je préfère le vêtement blanc.",
+      "context": "Exprimer un goût ou choix"
+    },
+    {
+      "phrase_id": "p12_2",
+      "original": "I phee ciao lo le.",
+      "phonetic_api": "/i pʰeː tʃja.o lo le/",
+      "phonetic_simple": "I PHÉÉ TCHIA-O LO LÉ",
+      "translation": "Je n'aime pas aller au marché.",
+      "context": "Exprimer une aversion"
+    },
+    {
+      "phrase_id": "p12_3",
+      "original": "Kɔ̄l nio o co fiaa.",
+      "phonetic_api": "/kɔ̄l njo o tʃo fjaː/",
+      "phonetic_simple": "KOL NYO O TCHO FIA-A",
+      "translation": "Je suis extrêmement heureux.",
+      "context": "Exprimer la joie"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction de la préférence avec 'phee'",
+      "explanation": "Le verbe 'phee' exprime directement l'amour, l'appréciation ou la préférence. Il se conjugue de manière directe sans nécessiter d'indice aspectuel lourd à la forme affirmative.",
+      "rules": [
+        "Le sujet précède immédiatement le verbe 'phee'.",
+        "L'objet aimé ou l'action appréciée se place directement après le verbe."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + phee + Objet",
+          "phonetic_api": "/i pʰeː bi.jɛ/",
+          "meaning": "J'aime le riz."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sia",
+      "text": "Tamba, o phee mɛŋ mɛl ?",
+      "phonetic_api": "/ta.ᵐba o pʰeː mɛ̃ mɛl/",
+      "phonetic_simple": "TAM-BA, O PHÉÉ MENG MEL ?",
+      "translation": "Tamba, aimes-tu boire de l'eau ?"
+    },
+    {
+      "speaker": "Tamba",
+      "text": "Haa, i phee mɛŋ mɛl fiaa. Et ɔn ?",
+      "phonetic_api": "/haː i pʰeː mɛ̃ mɛl fjaː ɛt ɔn/",
+      "phonetic_simple": "HAA, I PHÉÉ MENG MEL FIA-A. ET ON ?",
+      "translation": "Oui, j'aime beaucoup boire de l'eau. Et toi ?"
+    },
+    {
+      "speaker": "Sia",
+      "text": "I phee mɛŋ le, biyɛ i phee ni.",
+      "phonetic_api": "/i pʰeː mɛ̃ le bi.jɛ i pʰeː ni/",
+      "phonetic_simple": "I PHÉÉ MENG LÉ, BI-YÈ I PHÉÉ NI",
+      "translation": "Je n'aime pas l'eau, c'est le riz que j'aime."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'expression des sentiments en kissi, le 'cœur' ('kɔ̄l') est le centre spirituel et physique de toutes les émotions. Pour dire qu'on est en colère ou triste, on utilisera des métaphores liées à l'état ou à la température du cœur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex12_1",
+      "type": "multiple_choice",
+      "question": "Que signifie la phrase 'I phee ni le' ?",
+      "options": [
+        "J'aime beaucoup cela",
+        "Je n'aime pas cela",
+        "Je veux cela"
+      ],
+      "correct_answer": "Je n'aime pas cela",
+      "explanation": "La présence de la particule 'le' en fin de phrase transforme l'affirmation en négation totale."
+    },
+    {
+      "exercise_id": "ex12_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] nio o co kpou. (Je suis heureux / Mon cœur va bien)",
+      "correct_answer": "Kɔ̄l",
+      "hint": "L'organe symbolique des émotions en kissi"
+    }
+  ]
+}

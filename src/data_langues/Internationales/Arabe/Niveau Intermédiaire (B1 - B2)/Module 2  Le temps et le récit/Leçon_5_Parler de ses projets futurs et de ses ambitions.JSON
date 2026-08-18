@@ -1,0 +1,232 @@
+{
+  "lesson_id": "B1_M2_L5",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 5,
+  "title": "Parler de ses projets futurs et de ses ambitions",
+  "learning_objectives": [
+    "Maîtriser l'usage des particules de futurition 'Sa-' et 'Sawfa' avec l'inaccompli",
+    "Exprimer des intentions, des souhaits professionnels et des ambitions à l'aide de structures intermédiaires",
+    "Utiliser les propositions de but pour articuler un projet à long terme"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en relief les projections vers l'avenir. Le son /h/ aspiré (هـ) dans la particule 'Sawfa' (سَوْفَ) et dans 'Hadaf' (objectif) doit être expiré clairement. Le sound /ʕ/ (ع) est central dans 'Tabī'ah' ou 'at-Ta'leem' (l'enseignement/l'éducation) ainsi que dans 'As'ā' (je m'efforce/j'aspire).",
+    "common_pitfalls": "La particule 'Sa-' (سَـ) se lie directement au verbe qui la suit. Veillez à ne pas détacher sa prononciation du reste de la forme verbale. Pour 'Sawfa' (سَوْفَ), marquez distinctement la diphthongue /aw/ sans la contracter en un son 'ô' francisé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "مُسْتَقْبَلٌ",
+      "phonetic_api": "/mus.taq.ba.lun/",
+      "phonetic_simple": "MOUS-TAK-BA-LOUN",
+      "translation": "L'avenir / Le futur",
+      "example_sentence": "أُخَطِّطُ لِلْمُسْتَقْبَلِ بِنَجَاحٍ",
+      "example_phonetic": "/.../",
+      "example_translation": "Je planifie l'avenir avec succès"
+    },
+    {
+      "word_id": "v2",
+      "term": "طُمُوحٌ",
+      "phonetic_api": "/tˤu.muː.ħun/",
+      "phonetic_simple": "TOU-MOUU-HOUN",
+      "translation": "Une ambition / Une aspiration",
+      "example_sentence": "عِنْدِي طُمُوحٌ كَبِيرٌ فِي الْعَمَلِ",
+      "example_phonetic": "/.../",
+      "example_translation": "J'ai une grande ambition dans le travail"
+    },
+    {
+      "word_id": "v3",
+      "term": "هَدَفٌ",
+      "phonetic_api": "/ha.da.fun/",
+      "phonetic_simple": "HA-DA-FOUN",
+      "translation": "Un objectif / Un but",
+      "example_sentence": "هَدَفِي هُوَ تَأْسِيسُ شَرِكَةٍ",
+      "example_phonetic": "/.../",
+      "example_translation": "Mon objectif est de fonder une entreprise"
+    },
+    {
+      "word_id": "v4",
+      "term": "خِطَّةٌ",
+      "phonetic_api": "/xitˤ.tˤa.tun/",
+      "phonetic_simple": "KHIT-TA-TOUN",
+      "translation": "Un plan / Un projet structuré / Une stratégie",
+      "example_sentence": "وَضَعْتُ خِطَّةً جَدِيدَةً",
+      "example_phonetic": "/.../",
+      "example_translation": "J'ai mis en place un nouveau plan"
+    },
+    {
+      "word_id": "v5",
+      "term": "مَجَالٌ",
+      "phonetic_api": "/ma.dʒaː.lun/",
+      "phonetic_simple": "MA-DJAA-LOUN",
+      "translation": "Un domaine / Un secteur d'activité",
+      "example_sentence": "أَعْمَلُ فِي مَجَالِ التِّكْنُولُوجِيَا",
+      "example_phonetic": "/.../",
+      "example_translation": "Je travaille dans le domaine de la technologie"
+    },
+    {
+      "word_id": "v6",
+      "term": "سَوْفَ",
+      "phonetic_api": "/saw.fa/",
+      "phonetic_simple": "SAW-FA",
+      "translation": "Particule du futur lointain (invariable)",
+      "example_sentence": "سَوْفَ أَتَعَلَّمُ اللُّغَةَ الْعَرَبِيَّةَ",
+      "example_phonetic": "/.../",
+      "example_translation": "J'apprendrai (plus tard) la langue arabe"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "مَاذَا سَتَفْعَلُ فِي الْمُسْتَقْبَلِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MAA-THAA SA-TAF-A-LOU FIL MOUS-TAK-BAL",
+      "translation": "Que feras-tu à l'avenir ? (à un homme)",
+      "context": "Question ouverte pour amener l'interlocuteur à exprimer ses projets futurs."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "سَأُسَافِرُ إِلَى الْخَارِجِ لِلدِّرَاسَةِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "SA-OU-SAA-FI-ROU I-LAL KHAA-RI-DJI LID-DI-RAA-SA",
+      "translation": "Je voyagerai à l'étranger pour les études (futur proche/certain)",
+      "context": "Formuler un projet d'études précis à l'aide de la particule 'sa-'."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "أَطْمَحُ أَنْ أَكُونَ مُدِيرًا لِلشَّرِكَةِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AT-MA-HOU AN A-KOOU-NA MOU-DII-RAN LIL-CHA-RI-KA",
+      "translation": "J'aspire à être directeur de l'entreprise",
+      "context": "Exprimer une ambition professionnelle de niveau intermédiaire."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "سَوْفَ أَبْدَأُ مَشْرُوعِي الْخَاصَّ بَعْدَ سَنَتَيْنِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "SAW-FA AB-DA-OU MACH-ROUU-II L-KHAAS BA'-DA SA-NA-TAYN",
+      "translation": "J'ouvrirai mon propre projet après deux ans",
+      "context": "Projet à long terme formulé avec la particule 'sawfa'."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "أَسْعَى لِتَطْوِيرِ مَهَارَاتِي النَّرْمِيَّةِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AS-AA LI-TAT-WII-RI MA-HAA-RAA-TII N-NAR-MIY-YA",
+      "translation": "Je m'efforce de développer mes compétences douces (soft skills)",
+      "context": "Parler de son développement ou plan de carrière."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les deux outils du futur : 'Sa-' (سَـ) et 'Sawfa' (سَوْفَ)",
+      "explanation": "En arabe standard, le futur se construit très facilement à partir de l'inaccompli (présent) en plaçant une particule de futurition juste avant le verbe.",
+      "rules": [
+        "La particule Sa- (سَـ) exprime un futur proche, immédiat ou une action dont la réalisation est hautement certaine. Elle se greffe directement comme un préfixe au verbe (ex: Aktubu -> Sa-aktubu).",
+        "La particule Sawfa (سَوْفَ) indique un futur plus lointain, une intention générale ou un projet à long terme. Elle reste détachée du verbe.",
+        "Le verbe qui suit ces deux outils conserve sa désinence régulière de l'indicatif (Damma finale pour les verbes réguliers)."
+      ],
+      "examples": [
+        {
+          "structure": "سَأَتَّصِلُ بِكَ غَدًا",
+          "phonetic_api": "/sa.ʔat.ta.sˤi.lu bi.ka ɣa.dan/",
+          "meaning": "Je t'appellerai demain (Futur proche et certain)"
+        },
+        {
+          "structure": "سَوْفَ نَشْتَرِي بَيْتًا جَدِيدًا",
+          "phonetic_api": "/saw.fa naʃ.ta.riː baj.tan dʒa.diː.dan/",
+          "meaning": "Nous achèterons une nouvelle maison (Projet à plus long terme)"
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de l'aspiration : Le verbe 'Aṭmaḥu an' (أَطْمَحُ أَنْ)",
+      "explanation": "Pour traduire des concepts intermédiaires comme 'ambitionner de' ou 'aspirer à', la grammaire utilise des structures verbales suivies d'une subordonnée.",
+      "rules": [
+        "On utilise le verbe Ṭamaḥa / Yaṭmaḥu (طَمَحَ / يَطْمَحُ) décliné au présent.",
+        "Il est suivi de la particule de subordination 'An' (أَنْ - de/que).",
+        "Le verbe de l'action souhaitée placé après 'An' se conjugue impérativement au mode subjonctif (Inaccompli dépendant se terminant par une Fatha)."
+      ],
+      "examples": [
+        {
+          "structure": "أَطْمَحُ أَنْ أَتَعَلَّمَ اللُّغَةَ",
+          "phonetic_api": "/.../",
+          "meaning": "J'aspire à apprendre la langue (Atallama prend la fatha finale)"
+        },
+        {
+          "structure": "يَطْمَحُ أَنْ يُسَافِرَ",
+          "phonetic_api": "/.../",
+          "meaning": "Il ambitionne de voyager"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "كَرِيم (Karim)",
+      "text": "مَرْحَبًا يَا زِيَادُ. أَرَاكَ تَعْمَلُ بِجِدٍّ هَذِهِ الأَيَّامَ. مَا هِيَ خِطَّتُكَ لِلْمُسْتَقْبَلِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MAR-HA-BAN YA ZI-YAAD. A-RAA-KA TA'-MA-LOOU BI-DJID-DIN HAA-THI-HIL AY-YAAM. MAA HI-YA KHIT-TA-TOU-KA LIL-MOUS-TAK-BAL",
+      "translation": "Bonjour Ziad. Je te vois travailler dur ces temps-ci. Quel est ton plan pour l'avenir ?"
+    },
+    {
+      "speaker": "زِيَاد (Ziad)",
+      "text": "أَهْلًا كَرِيمُ. أَنَا أَدْرُسُ مَجَالَ إِدَارَةِ الأَعْمَالِ الآنَ، وَأَطْمَحُ أَنْ أُؤَسِّسَ شَرِكَتِي النَّاشِئَةَ الْخَاصَّةَ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN KA-RIIM. A-NAA AD-ROU-SOU MA-DJAA-LA I-DAA-RA-TIL AC-MAA-LIL AAN, WA AT-MA-HOU AN OU-AS-SI-SA CHA-RI-KA-TII N-NAA-CHI-A...",
+      "translation": "Salut Karim. J'étudie le domaine de la gestion des affaires maintenant, et j'aspire à fonder ma propre entreprise start-up."
+    },
+    {
+      "speaker": "كَرِيم (Karim)",
+      "text": "هَذَا طُمُوحٌ رَائِعٌ ! وَمَتَى سَتَبْدَأُ فِي تَنْفِيذِ هَذَا الْهَدَفِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAA-THAA TOU-MOUU-HOUN RAA-I ! WA MA-TA SA-TAB-DA-OU FII TAN-FII-THI HAA-THAL HA-DAF",
+      "translation": "C'est une superbe ambition ! Et quand commenceras-tu à mettre en œuvre cet objectif ?"
+    },
+    {
+      "speaker": "زِيَاد (Ziad)",
+      "text": "بَعْدَ التَّخَرُّجِ، سَأَعْمَلُ فِي شَرِكَةٍ كَبِيرَةٍ لِأَكْتَسِبَ خِبْرَةً، ثُمَّ سَوْفَ أَفْتَتِحُ مَشْرُوعِي بَعْدَ خَمْسِ سَنَوَاتٍ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "BA'-DAT TA-KHAR-ROUDJ, SA-AC-MA-LOU FII CHA-RI-KA-TIN KA-BII-RA LI-AK-TA-SI-BA KHIB-RA, THOUM-MA SAW-FA AF-TA-TI-HOU MACH-ROUU-II...",
+      "translation": "Après la remise des diplômes, je travaillerai dans une grande entreprise afin d'acquérir de l'expérience, puis j'ouvrirai mon projet après cinq ans."
+    }
+  ],
+  "cultural_notes": [
+    "La vision de l'avenir et l'ambition économique : Dans le monde arabe contemporain, l'entrepreneuriat et l'innovation technologique sont au cœur des ambitions de la jeunesse. Les pays développent d'immenses pôles de start-ups (comme au Hub71 ou dans les plans nationaux Vision 2030), changeant la perception traditionnelle de la carrière vers des projets autonomes.",
+    "L'expression systématique du destin (Inshā'Allāh) : Grammaticalement, bien que l'on maîtrise le futur avec 'Sa-' ou 'Sawfa', toute mention de projet à venir s'accompagne obligatoirement à l'oral de l'expression 'Inshā'Allāh' (إن شاء الله). Culturellement, planifier n'exclut pas la reconnaissance d'un dessein supérieur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L5_ex1",
+      "type": "multiple_choice",
+      "question": "Quelle expression traduit fidèlement un projet immédiat comme 'Je vais voyager demain' ?",
+      "options": [
+        "سَوْفَ أُسَافِرُ بَعْدَ سَنَةٍ (Sawfa usāfiru ba'da sanatin)",
+        "سَأُسَافِرُ غَدًا (Sa-usāfiru ghadan)",
+        "سَافَرْتُ أَمْسِ (Sāfartu amsi)"
+      ],
+      "correct_answer": "سَأُسَافِرُ غَدًا (Sa-usāfiru ghadan)",
+      "explanation": "Le préfixe 'Sa-' collé au verbe marque le futur proche ou planifié à court terme (demain/ghadan)."
+    },
+    {
+      "exercise_id": "B1_M2_L5_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'J'aspire à travailler', on utilise le verbe au subjonctif après la particule : أَطْمَحُ [ ___ ] أَعْمَلَ",
+      "correct_answer": "أَنْ",
+      "hint": "C'est la conjonction de subordination régissant le mode subjonctif."
+    },
+    {
+      "exercise_id": "B1_M2_L5_ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie le substantif 'طُمُوح' (Ṭumūḥ) dans un entretien professionnel ?",
+      "options": [
+        "Le salaire",
+        "L'ambition / L'aspiration professionnelle",
+        "Le retard"
+      ],
+      "correct_answer": "L'ambition / L'aspiration professionnelle",
+      "explanation": "Ṭumūḥ désigne la volonté de progresser, les aspirations à long terme et la force de projection d'un individu."
+    }
+  ]
+}

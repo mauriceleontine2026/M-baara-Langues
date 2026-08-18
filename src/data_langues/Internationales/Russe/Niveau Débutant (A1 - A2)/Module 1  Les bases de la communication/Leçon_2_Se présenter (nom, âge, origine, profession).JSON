@@ -1,0 +1,310 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Dire son prénom et son nom de famille de différentes manières",
+    "Demander l'identité de son interlocuteur de façon formelle et informelle",
+    "Exprimer son âge et utiliser le cas datif requis pour cette structure",
+    "Indiquer sa nationalité, son pays d'origine et sa profession en adaptant le genre"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'Ж' se prononce toujours dure, comme un 'j' français très gras et sourd [ʐ]. Les consonnes finales comme le 'в' de 'из' ou de 'родом' se dévoisent lorsqu'elles sont en fin de mot ou devant une consonne sourde (ex: 'из Франции' se rapproche de [ɪs ˈfrantsɨɪ]). Le 'я' initial ou post-vocalique se prononce [ja].",
+    "common_pitfalls": "Dans la structure de l'âge 'Мне... лет', attention à l'accentuation de 'Мне' ([mnʲe]) et non [mne]. Ne prononcez pas le 'т' de 'лет' comme un 'd', il reste strictement sourd et sec [lʲet]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Меня зовут",
+      "phonetic_api": "/mʲɪˈnʲa zɐˈvut/",
+      "phonetic_simple": "mi-NIA za-VOUT",
+      "translation": "Je m'appelle (litt. On m'appelle)",
+      "example_sentence": "Меня зовут Александр.",
+      "example_phonetic": "/mʲɪˈnʲa zɐˈvut ɐlʲɪkˈsandr/",
+      "example_translation": "Je m'appelle Alexandre."
+    },
+    {
+      "word_id": "v2",
+      "term": "Француз",
+      "phonetic_api": "/frɐnˈtsus/",
+      "phonetic_simple": "fran-TSOUS",
+      "translation": "Français (Masculin)",
+      "example_sentence": "Я француз, я живу в Париже.",
+      "example_phonetic": "/ja frɐnˈtsus ja ʐɨˈvu f pɐˈrʲiʐɨ/",
+      "example_translation": "Je suis français, j'habite à Paris."
+    },
+    {
+      "word_id": "v3",
+      "term": "Француженка",
+      "phonetic_api": "/frɐnˈtsuʐɨnkə/",
+      "phonetic_simple": "fran-TSOU-jine-ka",
+      "translation": "Française (Féminin)",
+      "example_sentence": "Моя подруга — француженка.",
+      "example_phonetic": "/mɐˈja pɐˈdruɡə frɐnˈtsuʐɨnkə/",
+      "example_translation": "Mon amie est française."
+    },
+    {
+      "word_id": "v4",
+      "term": "Инженер",
+      "phonetic_api": "/ɪnʐɨˈnʲer/",
+      "phonetic_simple": "ine-ji-NIER",
+      "translation": "Ingénieur",
+      "example_sentence": "Я работаю как инженер.",
+      "example_phonetic": "/ja rɐˈbotəjʊ kak ɪnʐɨˈnʲer/",
+      "example_translation": "Je travaille comme ingénieur."
+    },
+    {
+      "word_id": "v5",
+      "term": "Студент",
+      "phonetic_api": "/stʊˈdʲent/",
+      "phonetic_simple": "stou-DIENT",
+      "translation": "Étudiant",
+      "example_sentence": "Игорь — молодой студент.",
+      "example_phonetic": "/ˈiɡərʲ məlɐˈdoj stʊˈdʲent/",
+      "example_translation": "Igor est un jeune étudiant."
+    },
+    {
+      "word_id": "v6",
+      "term": "Студентка",
+      "phonetic_api": "/stʊˈdʲentkə/",
+      "phonetic_simple": "stou-DIENT-ka",
+      "translation": "Étudiante",
+      "example_sentence": "Анна — отличная студентка.",
+      "example_phonetic": "/ˈanːə ɐˈtlʲitɕnəjə stʊˈdʲentkə/",
+      "example_translation": "Anna est une excellente étudiante."
+    },
+    {
+      "word_id": "v7",
+      "term": "Из Франции",
+      "phonetic_api": "/ɪs ˈfrantsɨɪ/",
+      "phonetic_simple": "is FRAN-tsii",
+      "translation": "De France (Origine)",
+      "example_sentence": "Я приехал из Франции.",
+      "example_phonetic": "/ja prʲɪˈjexəl ɪs ˈfrantsɨɪ/",
+      "example_translation": "Je suis venu de France."
+    },
+    {
+      "word_id": "v8",
+      "term": "Россия",
+      "phonetic_api": "/rɐˈsʲijə/",
+      "phonetic_simple": "ra-SSI-ya",
+      "translation": "Russie",
+      "example_sentence": "Россия — большая страна.",
+      "example_phonetic": "/rɐˈsʲijə bɐlʲˈʂajə strɐˈna/",
+      "example_translation": "La Russie est un grand pays."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Как вас зовут?",
+      "phonetic_api": "/kak vas zɐˈvut/",
+      "phonetic_simple": "kak vas za-VOUT",
+      "translation": "Comment vous appelez-vous ?",
+      "context": "Question formelle ou adressée à un adulte inconnu."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Как тебя зовут?",
+      "phonetic_api": "/kak tʲɪˈbʲa zɐˈvut/",
+      "phonetic_simple": "kak ti-BIA za-VOUT",
+      "translation": "Comment tu t'appelles ?",
+      "context": "Question informelle, pour les enfants ou entre jeunes."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Очень приятно",
+      "phonetic_api": "/ˈotɕɪnʲ prʲɪˈjatnə/",
+      "phonetic_simple": "O-tchine pri-YAT-na",
+      "translation": "Enchanté / Très agréable",
+      "context": "Réponse automatique et polie juste après avoir appris le nom de quelqu'un."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Сколько вам лет?",
+      "phonetic_api": "/ˈskolʲkə vam lʲet/",
+      "phonetic_simple": "SKOL-ka vam liet",
+      "translation": "Quel âge avez-vous ?",
+      "context": "Cadre formel."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Сколько тебе лет?",
+      "phonetic_api": "/ˈskolʲkə tʲɪˈbʲe lʲet/",
+      "phonetic_simple": "SKOL-ka ti-BIÉ liet",
+      "translation": "Quel âge as-tu ?",
+      "context": "Cadre informel."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Мне тридцать лет",
+      "phonetic_api": "/mnʲe ˈtrit͡sətʲ lʲet/",
+      "phonetic_simple": "mnié TRIT-tsat' liet",
+      "translation": "J'ai trente ans",
+      "context": "Indication de son âge."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Откуда вы?",
+      "phonetic_api": "/ɐtˈkudə vɨ/",
+      "phonetic_simple": "at-KOU-da vy",
+      "translation": "D'où venez-vous ?",
+      "context": "Question formelle sur le pays ou la ville d'origine."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Я родом из Парижа",
+      "phonetic_api": "/ja ˈrodəm ɪs pɐˈrʲiʐə/",
+      "phonetic_simple": "ya RO-dam is pa-RI-ja",
+      "translation": "Je suis originaire de Paris",
+      "context": "Précision sur sa ville natale ou d'attache."
+    },
+    {
+      "phrase_id": "p9",
+      "original": "Кто вы по профессии?",
+      "phonetic_api": "/kto vɨ pɐ prɐˈfʲesʲɪɪ/",
+      "phonetic_simple": "kto vy pa pra-FIES-sii",
+      "translation": "Quelle est votre profession ? (litt. Qui êtes-vous par profession ?)",
+      "context": "Formel."
+    },
+    {
+      "phrase_id": "p10",
+      "original": "Я менеджер",
+      "phonetic_api": "/ja ˈmɛnɪdʐɨr/",
+      "phonetic_simple": "ya ME-ned-jer",
+      "translation": "Je suis manager",
+      "context": "Le verbe 'être' au présent n'existe pas en russe, on juxtapose le pronom et le métier."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'absence du verbe 'être' au présent",
+      "explanation": "En russe, le verbe être (быть) n'est pas utilisé au présent. Pour dire 'Je suis français' ou 'Je suis ingénieur', on place directement le sujet à côté du nom ou de l'adjectif.",
+      "rules": [
+        "Structure : Pronom Sujet (Я, Ты, Он, Она) + Métier/Nationalité.",
+        "À l'écrit, on utilise parfois un tiret (—) pour remplacer le verbe omis, surtout si le sujet est un nom."
+      ],
+      "examples": [
+        {
+          "structure": "Я врач.",
+          "phonetic_api": "/ja vratɕ/",
+          "meaning": "Je suis médecin."
+        },
+        {
+          "structure": "Антон — директор.",
+          "phonetic_api": "/ɐnˈton dʲɪˈrʲɛktər/",
+          "meaning": "Anton est directeur."
+        }
+      ]
+    },
+    {
+      "concept": "Exprimer l'âge : Le cas Datif obligatoire",
+      "explanation": "Pour dire son âge, le russe n'utilise ni le verbe avoir, ni le verbe être. La structure cible la personne au cas datif (à qui l'âge est attribué).",
+      "rules": [
+        "Le pronom 'Я' (Je) devient 'Мне' (À moi) au Datif.",
+        "Le pronom 'Вы' (Vous) devient 'Вам', et 'Ты' (Tu) devient 'Тебе'.",
+        "Le mot pour 'ans' change selon le chiffre final (règle des nombres qui sera détaillée au module 2) : on utilise généralement 'год' pour 1, 'года' pour 2-4, et 'лет' pour 5-20."
+      ],
+      "examples": [
+        {
+          "structure": "Мне 20 лет.",
+          "phonetic_api": "/mnʲe ˈdvadt͡sətʲ lʲet/",
+          "meaning": "J'ai 20 ans. (Litt. À moi sont 20 ans)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Сергей",
+      "text": "Здравствуйте! Давайте познакомимся. Как вас зовут?",
+      "phonetic_api": "/ˈzdrastvʊjtʲɪ dɐˈvajtʲɪ pəznɐˈkomʲɪmsʲə kak vas zɐˈvut/",
+      "phonetic_simple": "ZDRAST-vouï-ti ! da-VAÏ-ti pa-zna-KO-mim-ssya. kak vas za-VOUT ?",
+      "translation": "Bonjour ! Faisons connaissance. Comment vous appelez-vous ?"
+    },
+    {
+      "speaker": "Полина",
+      "text": "Здравствуйте! Меня зовут Полина. А вас?",
+      "phonetic_api": "/ˈzdrastvʊjtʲɪ mʲɪˈnʲa zɐˈvut pɐˈlʲinə a vas/",
+      "phonetic_simple": "ZDRAST-vouï-ti ! mi-NIA za-VOUT pa-LI-na. A vas ?",
+      "translation": "Bonjour ! Je m'appelle Polina. Et vous ?"
+    },
+    {
+      "speaker": "Сергей",
+      "text": "Меня зовут Сергей. Очень приятно, Полина. Откуда вы?",
+      "phonetic_api": "/mʲɪˈnʲa zɐˈvut sʲɪrˈɡʲej ˈotɕɪnʲ prʲɪˈjatnə pɐˈlʲinə ɐtˈkudə vɨ/",
+      "phonetic_simple": "mi-NIA za-VOUT ser-GUEÏ. O-tchine pri-YAT-na, pa-LI-na. at-KOU-da vy ?",
+      "translation": "Je m'appelle Sergey. Enchanté, Polina. D'où venez-vous ?"
+    },
+    {
+      "speaker": "Полина",
+      "text": "Я из Франции, я француженка. Но сейчас я живу в Москве. Кто вы по профессии?",
+      "phonetic_api": "/ja ɪs ˈfrantsɨɪ ja frɐnˈtsuʐɨnkə no sʲɪjˈtɕas ja ʐɨˈvu f mɐˈskvʲe kto vɨ pɐ prɐˈfʲesʲɪɪ/",
+      "phonetic_simple": "ya is FRAN-tsii, ya fran-TSOU-jine-ka. No sieï-TCHAS ya ji-VOU v mas-KVÉ. Kto vy pa pra-FIES-sii ?",
+      "translation": "Je viens de France, je suis française. Mais maintenant j'habite à Moscou. Quelle est votre profession ?"
+    },
+    {
+      "speaker": "Сергей",
+      "text": "Я архитектор. Мне тридцать пять лет. А вам?",
+      "phonetic_api": "/ja ɐrxʲɪˈtɛktər mnʲe ˈtrit͡sətʲ pʲatʲ lʲet a vam/",
+      "phonetic_simple": "ya ar-hi-TEK-tar. mnié TRIT-tsat' piat' liet. A vam ?",
+      "translation": "Je suis architecte. J'ai trente-cinq ans. Et vous ?"
+    },
+    {
+      "speaker": "Полина",
+      "text": "Мне двадцать четыре года. Я студентка.",
+      "phonetic_api": "/mnʲe ˈdvadt͡sətʲ tɕɪˈtɨrʲɪ ˈɡodə ja stʊˈdʲentkə/",
+      "phonetic_simple": "mnié DVAD-tsat' tchi-TY-ri GO-da. ya stou-DIENT-ka.",
+      "translation": "J'ai vingt-quatre ans. Je suis étudiante."
+    }
+  ],
+  "cultural_notes": [
+    "Les russes accolent fréquemment l'expression 'Давайте познакомимся' (Faisons connaissance) pour briser la glace de manière formelle mais polie avant de demander le nom.",
+    "La distinction de genre pour les nationalités est stricte en russe (Француз vs Француженка, Русский vs Русская). Ne pas l'accorder est immédiatement perçu comme une lourde erreur grammaticale."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L2_ex1",
+      "type": "multiple_choice",
+      "question": "Comment une femme doit-elle dire correctement 'Je suis française' ?",
+      "options": [
+        "Я француз",
+        "Я француженка",
+        "Меня зовут француженка",
+        "Я из француз"
+      ],
+      "correct_answer": "Я француженка",
+      "explanation": "'Француженка' est le nom de nationalité féminin singulier utilisé sans verbe être."
+    },
+    {
+      "exercise_id": "A1_M1_L2_ex2",
+      "type": "multiple_choice",
+      "question": "Quel pronom utilisez-vous pour exprimer votre propre âge dans la phrase '... тридцать лет' ?",
+      "options": [
+        "Я",
+        "Меня",
+        "Мне",
+        "Мой"
+      ],
+      "correct_answer": "Мне",
+      "explanation": "L'âge requiert le pronom personnel au cas datif, 'Мне' est la forme dative de 'Я'."
+    },
+    {
+      "exercise_id": "A1_M1_L2_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Как [ ___ ] зовут? — Меня зовут Иван. (Comment t'appelles-tu ?)",
+      "correct_answer": "тебя",
+      "hint": "Forme pronominale informelle de l'interrogation d'identité."
+    },
+    {
+      "exercise_id": "A1_M1_L2_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Я работаю в школе, я по профессии [ ___ ]. (Je travaille à l'école, je suis enseignant/professeur par profession.)",
+      "correct_answer": "учитель",
+      "hint": "Le mot russe courant pour désigner un enseignant ou professeur masculin."
+    }
+  ]
+}

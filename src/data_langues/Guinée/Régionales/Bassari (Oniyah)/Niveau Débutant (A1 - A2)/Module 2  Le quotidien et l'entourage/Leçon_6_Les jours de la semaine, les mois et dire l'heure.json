@@ -1,0 +1,189 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer les jours de la semaine et repérer les cycles lunaires/mois",
+    "Exprimer le moment présent, le passé récent (hier) et le futur proche (demain)",
+    "Demander et indiquer l'heure ou les divisions de la journée"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La notion de temps s'articule autour du mot 'dya' (jour/soleil) avec son articulation palatale /ɟ/. Le mot pour demain 'pəwá̰' introduit une nasalisation finale sur le phonème vocalique. Marquez distinctement la longueur des voyelles doubles.",
+    "common_pitfalls": "Ne pas confondre le mot pour la journée 'dya' avec l'interrogatif de lieu. Gardez le ton descendant stable sur les repères temporels.",
+    "vocabulary": [
+      {
+        "word_id": "v21",
+        "term": "dya",
+        "phonetic_api": "/dja/",
+        "phonetic_simple": "DYA",
+        "translation": "jour / soleil / temps",
+        "example_sentence": "Dya bɛ̀ɛ̀ oŋ.",
+        "example_phonetic": "/dja bɛ̀ː oŋ/",
+        "example_translation": "C'est un jour de paix."
+      },
+      {
+        "word_id": "v22",
+        "term": "pəwá̰",
+        "phonetic_api": "/pəwá̰/",
+        "phonetic_simple": "PE-WANG",
+        "translation": "demain",
+        "example_sentence": "Məfɔ́ pəwá̰.",
+        "example_phonetic": "/məfɔ́ pəwá̰/",
+        "example_translation": "Je viendrai demain."
+      },
+      {
+        "word_id": "v23",
+        "term": "kəwul",
+        "phonetic_api": "/kəwul/",
+        "phonetic_simple": "KE-WOUL",
+        "translation": "la lune / le mois",
+        "example_sentence": "Kəwul ɛ́ɛ́n oŋ.",
+        "example_phonetic": "/kəwul ɛ́ːn oŋ/",
+        "example_translation": "Un mois complet."
+      },
+      {
+        "word_id": "v24",
+        "term": "gwiye",
+        "phonetic_api": "/ɡwije/",
+        "phonetic_simple": "GWI-YE",
+        "translation": "hier",
+        "example_sentence": "Məgaw gwiye.",
+        "example_phonetic": "/məɡaw ɡwije/",
+        "example_translation": "J'ai entendu hier."
+      }
+    ],
+    "common_phrases": [
+      {
+        "phrase_id": "p41",
+        "original": "Anee dya oŋ bə̂?",
+        "phonetic_api": "/aneː dja oŋ ɓə̂/",
+        "phonetic_simple": "A-NEE DYA ONG BHE",
+        "translation": "Quel jour sommes-nous ?",
+        "context": "S'informer du repère temporel dans la semaine."
+      },
+      {
+        "phrase_id": "p42",
+        "original": "Məwunǐ pəwá̰.",
+        "phonetic_api": "/məwunǐ pəwá̰/",
+        "phonetic_simple": "ME-WOU-NI PE-WANG",
+        "translation": "À demain. (Au revoir pour demain)",
+        "context": "Formule de congé extrêmement fréquente en fin de journée."
+      },
+      {
+        "phrase_id": "p43",
+        "original": "Anee dya apɔɔ kɔ̂?",
+        "phonetic_api": "/aneː dja apɔː kɔ̂/",
+        "phonetic_simple": "A-NEE DYA A-POO KO",
+        "translation": "Quelle heure est-il ? (Où en est le soleil ?)",
+        "context": "Demander l'heure en se basant sur la course du soleil."
+      },
+      {
+        "phrase_id": "p44",
+        "original": "Dya oŋ fə́ siki bɛ̀ɛ̀.",
+        "phonetic_api": "/dja oŋ fə́ siki bɛ̀ː/",
+        "phonetic_simple": "DYA ONG FE SI-KI BEE",
+        "translation": "Le temps est magnifique au village aujourd'hui.",
+        "context": "Commenter la météo ou le climat social du moment."
+      },
+      {
+        "phrase_id": "p45",
+        "original": "Məɟe nɛ̂ kəwul fəla.",
+        "phonetic_api": "/məɟe nɛ̂ kəwul fəla/",
+        "phonetic_simple": "ME-DYE NE KE-WOUL FE-LA",
+        "translation": "Je reste pour deux mois.",
+        "context": "Exprimer une durée planifiée."
+      },
+      {
+        "phrase_id": "p46",
+        "original": "Gwiye məɟe kəwə́ra.",
+        "phonetic_api": "/ɡwije məɟe kəwə́ra/",
+        "phonetic_simple": "GWI-YE ME-DYE KE-WE-RA",
+        "translation": "Hier, j'étais au village.",
+        "context": "Ancrer un fait dans le passé immédiat."
+      },
+      {
+        "phrase_id": "p47",
+        "original": "Dya oŋ ləɟɛɛ fə́ mərã.",
+        "phonetic_api": "/dja oŋ ləɟɛː fə́ mərã/",
+        "phonetic_simple": "DYA ONG LE-DIEE FE ME-RAN",
+        "translation": "Il est six heures du matin.",
+        "context": "Indiquer un horaire matinal fixe."
+      },
+      {
+        "phrase_id": "p48",
+        "original": "Pəwá̰ ɔsuku oŋ kərã.",
+        "phonetic_api": "/pəwá̰ ɔsuku oŋ kərã/",
+        "phonetic_simple": "PE-WANG O-SOU-KOU ONG KE-RAN",
+        "translation": "Demain, les élèves vont étudier.",
+        "context": "Annoncer une action future certaine."
+      }
+    ],
+    "grammar_points": [
+      {
+        "concept": "L'organisation syntaxique des adverbes de temps",
+        "explanation": "En Oniyan, les indicateurs temporels de cadrage comme 'gwiye' (hier) ou 'pəwá̰' (demain) se positionnent préférentiellement en tout début de proposition pour focaliser l'attention sur la chronologie, ou en fin de phrase comme compléments circonstanciels.",
+        "rules": [
+          "Placer l'adverbe au début modifie l'ordre de focalisation sans altérer la clarté du verbe.",
+          "Le mot 'dya' sert à la fois à dire le jour, l'heure et le soleil, le contexte linguistique lève l'ambiguïté."
+        ],
+        "examples": [
+          {
+            "structure": "[Adverbe de temps] + Pronom + Verbe",
+            "phonetic_api": "/pəwá̰ məfɔ́/",
+            "meaning": "Demain je viendrai"
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Samba",
+        "text": "Anee dya apɔɔ kɔ̂?",
+        "phonetic_api": "/aneː dja apɔː kɔ̂/",
+        "phonetic_simple": "A-NEE DYA A-POO KO",
+        "translation": "Quelle heure est-il maintenant ?"
+      },
+      {
+        "speaker": "Idrissa",
+        "text": "Dya oŋ ɓəni fə́ mərã. Məfɔ́ fə́ siki.",
+        "phonetic_api": "/dja oŋ ɓəni fə́ mərã məfɔ́ fə́ siki/",
+        "phonetic_simple": "DYA ONG BHE-NI FE ME-RAN. ME-FO FE SI-KI",
+        "translation": "Il est cinq heures de l'après-midi. Je rentre du village."
+      },
+      {
+        "speaker": "Samba",
+        "text": "Məwunǐ pəwá̰ fə́ siki.",
+        "phonetic_api": "/məwunǐ pəwá̰ fə́ siki/",
+        "phonetic_simple": "ME-WOU-NI PE-WANG FE SI-KI",
+        "translation": "D'accord, à demain au village."
+      }
+    ],
+    "cultural_notes": [
+      "Le calcul du temps traditionnel chez les Bəliyan n'obéit pas à une montre mécanique. On pointe le bras vers le ciel pour indiquer la position du soleil ('dya') afin de donner l'heure exacte. Le mois est calqué sur le cycle visible de la lune ('kəwul'), essentiel pour les dates de rites agraires."
+    ],
+    "exercises": [
+      {
+        "exercise_id": "ex11",
+        "type": "multiple_choice",
+        "question": "Que signifie l'indicateur temporel 'pəwá̰' ?",
+        "options": [
+          "Hier",
+          "Aujourd'hui",
+          "Demain"
+        ],
+        "correct_answer": "Demain",
+        "explanation": "'pəwá̰' désigne le jour suivant (demain) et projette la phrase dans le futur."
+      },
+      {
+        "exercise_id": "ex12",
+        "type": "fill_in_the_blanks",
+        "sentence_with_blank": "Məwunǐ [ ___ ].",
+        "correct_answer": "pəwá̰",
+        "hint": "Le mot pour dire 'demain' dans la formule de congé."
+      }
+    ]
+  }
+}

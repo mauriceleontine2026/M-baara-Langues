@@ -1,0 +1,202 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Formuler des nuances avancées d'hypothèse et de doute en exploitant les connecteurs conditionnels restrictifs",
+    "Sélectionner avec rigueur le mode grammatical (indicatif ou subjonctif) selon le degré de probabilité introduit",
+    "Maîtriser les structures inversées et les formules figées de la condition dans le discours formel"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La structure restrictive 'a condición de que' exige une articulation nette de l'interdentale sourde /θ/ suivie d'une transition rapide vers le subjonctif (/a koŋdiˈθjon de ke/). Dans 'hipótesis', veillez à ce que l'accent tonique repose rigoureusement sur l'antépénultième syllabe pour respecter la proparoxytone (/iˈpotesis/).",
+    "common_pitfalls": "Attention à la prononciation du mot 'probabilidad' : évitez d'introduire le son 'v' français ; les deux 'b' s'articulent comme des fricatives bilabiales douces (/pɾoβaβiliˈðað/). Ne sifflez pas le 's' final de 'puesto que'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Conjetura",
+      "phonetic_api": "/koŋxeˈtuɾa/",
+      "phonetic_simple": "KON-KHÉ-TOO-RA",
+      "translation": "Conjecture / Hypothèse spéculative",
+      "example_sentence": "No debemos basar nuestra estrategia en meras conjeturas.",
+      "example_phonetic": "/ˈno ðeˈβemos βaˈsaɾ ˈnwestɾa estɾaˈtexja en ˈmeɾas koŋxeˈtuɾas/",
+      "example_translation": "Nous ne devons pas fonder notre stratégie sur de simples conjectures."
+    },
+    {
+      "word_id": "v2",
+      "term": "Incertidumbre",
+      "phonetic_api": "/jnθeɾtiˈðʊmbɾe/",
+      "phonetic_simple": "EEN-THER-TEE-DOOM-BRÉ",
+      "translation": "Incertitude / Doute persistant",
+      "example_sentence": "La falta de datos oficiales genera una gran incertidumbre.",
+      "example_phonetic": "/la ˈfalta ðe ˈðatos ofiθjaˈles xeˈneɾa ˈuna ˈɣɾam jnθeɾtiˈðʊmbɾe/",
+      "example_translation": "Le manque de données officielles génère une grande incertitude."
+    },
+    {
+      "word_id": "v3",
+      "term": "Supeditado",
+      "phonetic_api": "/supeðiˈtaðo/",
+      "phonetic_simple": "SOU-PÉ-DEE-TA-DO",
+      "translation": "Subordonné à / Soumis à / Dépendant de",
+      "example_sentence": "El acuerdo queda supeditado a la aprobación del comité.",
+      "example_phonetic": "/el akweɾˈðo ˈkeða supeðiˈtaðo a la apɾoβaˈθjon ðel komiˈte/",
+      "example_translation": "L'accord reste subordonné à l'approbation du comité."
+    },
+    {
+      "word_id": "v4",
+      "term": "A menos que",
+      "phonetic_api": "/a ˈmenos ke/",
+      "phonetic_simple": "A MÉ-NOS KÉ",
+      "translation": "À moins que / Sauf si (locution + subjonctif)",
+      "example_sentence": "No asistiremos a la cumbre a menos que cambien las condiciones.",
+      "example_phonetic": "/ˈno asistiˈɾemos a la ˈkʊmbɾe a ˈmenos ke ˈxamβjen las koŋdiˈθjones/",
+      "example_translation": "Nous n'assisterons pas au sommet à moins qu'ils ne changent les conditions."
+    },
+    {
+      "word_id": "v5",
+      "term": "Inverosímil",
+      "phonetic_api": "/jmbeɾoˈsimil/",
+      "phonetic_simple": "EEN-BÉ-RO-SEE-MEEL",
+      "translation": "Invraisemblable / Improbable",
+      "example_sentence": "Esa hipótesis resulta del todo inverosímil en el contexto geopolítico actual.",
+      "example_phonetic": "/ˈesa iˈpotesis ɾeˈsulta ðel ˈtoðo jmbeɾoˈsimil en el koŋˈtexsto xeopoˈlitiko axˈtwal/",
+      "example_translation": "Cette hypothèse s'avère tout à fait invraisemblable dans le contexte géopolitique actuel."
+    },
+    {
+      "word_id": "v6",
+      "term": "Dado que",
+      "phonetic_api": "/ˈdaðo ke/",
+      "phonetic_simple": "DA-DO KÉ",
+      "translation": "Étant donné que / Attendu que (locution + indicatif)",
+      "example_sentence": "Dado que no hay consenso, pospondremos la votación.",
+      "example_phonetic": "/ˈdaðo ke ˈno ˈaj koŋˈsenso posponˈdɾemos la βotaˈθjon/",
+      "example_translation": "Étant donné qu'il n'y a pas de consensus, nous reporterons le vote."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "A condición de que se mantenga el rigor presupuestario, aprobaremos la moción",
+      "phonetic_api": "/a koŋdiˈθjon de ke se maŋˈteŋɡa el ɾiˈɣoɾ pɾesʊpwestˈaɾjo apɾoβaˈɾemos la moˈθjon/",
+      "phonetic_simple": "A KON-DEE-THYON DE KÉ SÉ MAN-TEN-GA EL REE-GOR PRÉ-SOU-PWES-TA-RYO, A-PRO-BA-RÉ-MOS LA MO-THYON",
+      "translation": "À condition que la rigueur budgétaire soit maintenue, nous approuverons la motion",
+      "context": "Formulation formelle d'une restriction stricte dans un cadre institutionnel."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Por si acaso surgieran imprevistos, hemos elaborado un plan de contingencia",
+      "phonetic_api": "/poɾ si aˈkaso sʊɾˈxjeɾan jmpɾeˈβistos ˈemos elaβoˈɾaðo un ˈplan de koŋtiŋˈxenθja/",
+      "phonetic_simple": "POR SEE A-KA-SO SOOR-KHYÉ-RAN EEM-PRÉ-VEES-TOS, É-MOS É-LA-BO-RA-DO OUN PLAN DE KON-TEEN-KHEN-THYA",
+      "translation": "Au cas où des imprévus surgiraient, nous avons élaboré un plan de contingence",
+      "context": "Permet de justifier une mesure de précaution à l'aide du subjonctif imparfait."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Poco importa que sea viable si carece de respaldo financiero",
+      "phonetic_api": "/ˈpoko jɱˈpoɾta ke ˈsea ˈβjaβle si kaˈɾeθe ðe ɾesˈpalðo finaŋˈθjeɾo/",
+      "phonetic_simple": "PO-KO EEM-POR-TA KÉ SÉ-A BYA-BLÉ SEE KA-RÉ-THÉ DE RÉS-PAL-DO FEE-NAN-THYÉ-RO",
+      "translation": "Peu importe qu'il soit viable s'il manque de soutien financier",
+      "context": "Structure concessive et conditionnelle croisée pour relativiser un argument."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "De darse las circunstancias idóneas, procederemos a la firma del tratado",
+      "phonetic_api": "/de ˈðaɾse las θiɾkʊnsˈtaŋθjas iˈðoneas pɾoθeðeˈremos a la ˈfiɾma ðel tɾaˈtaðo/",
+      "phonetic_simple": "DE DAR-SÉ LAS THEER-KOUNS-TAN-THYAS EE-DO-NÉ-AS, PRO-THÉ-DÉ-RÉ-MOS A LA FEER-MA DEL TRA-TA-DO",
+      "translation": "Si les circonstances idéales se présentaient, nous procéderions à la signature du traité",
+      "context": "Formulation hautement administrative recourant à la structure condensée 'De + infinitif'."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les conjonctions conditionnelles restrictives et le Subjonctif",
+      "explanation": "Au niveau C1, l'expression de la condition dépasse le simple 'si'. Toute une série de locutions conjonctives introduit une condition sine qua non ou une restriction absolue, exigeant systématiquement le subjonctif.",
+      "rules": [
+        "A condición de que / Con tal de que (À condition que / Pourvu que) : condition positive impérative (ex: Te apoyaré con tal de que seas honesto).",
+        "A menos que / A no ser que (À moins que) : condition négative restrictive (ex: No firmaremos, a menos que modifiquen la cláusula).",
+        "En caso de que (Au cas où) : exprime une éventualité (ex: En caso de que no funcione, llámame)."
+      ],
+      "examples": [
+        {
+          "structure": "El proyecto saldrá adelante con tal de que el equipo mantenga la cohesión.",
+          "phonetic_api": "/el pɾoˈʝexto salˈdɾa aðeˈlaŋte kon tal de ke el ejˈkipo maŋˈteŋɡa la koeˈsjon/",
+          "meaning": "Le projet ira de l'avant pourvu que l'équipe maintienne sa cohésion."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression du doute et du soupçon : INDICATIF vs SUBJONCTIF",
+      "explanation": "Le choix du mode dépend du degré de certitude que le locuteur souhaite projeter à travers des adverbes de probabilité ou des structures de doute.",
+      "rules": [
+        "Tal vez / Quizá(s) / Probablemente : s'utilisent avec l'indicatif pour une forte probabilité (ex: Quizá viene hoy), ou avec le subjonctif pour un doute marqué ou une pure spéculation (ex: Quizá venga mañana).",
+        "A lo mejor (Peut-être) : exige TOUJOURS l'indicatif, malgré la nuance d'hypothèse (ex: A lo mejor ya lo saben).",
+        "Dudar que (Douter que) : expression du doute direct exigeant le subjonctif (ex: Dudo que acepten)."
+      ],
+      "examples": [
+        {
+          "structure": "Dudo que el director apruebe la propuesta, pero a lo mejor cambia de opinión.",
+          "phonetic_api": "/ˈduðo ke el diɾexˈtoɾ aˈpɾweβe la pɾoˈpwesta peˈɾo a lo meˈxoɾ ˈxamβja ðe opiˈnjon/",
+          "meaning": "Je doute que le directeur approuve la proposition, mais peut-être changera-t-il d'avis."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Don Augusto",
+      "text": "Estimado colega, dudo mucho que los inversores internacionales arriesguen su capital a menos que ofrezcamos plenas garantías jurídicas.",
+      "phonetic_api": "/esˈtimaðo koˈlexa ˈduðo ˈmutʃo ke los jmbeɾˈsoɾes jnteɾnaθjoˈnales aˈrjezɣen su kapiˈtal a ˈmenos ke ofɾeθˈkamos ˈplenas ɣaɾanˈtias xuˈɾiðikas/",
+      "phonetic_simple": "ES-TEE-MA-DO KO-LÉ-GA, DOO-DO MOU-TCHO KÉ LOS EEN-BER-SO-RÉS EEN-TER-NA-THYO-NA-LÉS AR-RYES-GUEN SOO KA-PEE-TAL A MÉ-NOS KÉ O-FRETH-KA-MOS PLÉ-NAS GA-RAN-TEE-AS KHOO-REE-DEE-KAS.",
+      "translation": "Cher collègue, je doute fort que les investisseurs internationaux risquent leur capital à moins que nous n'offrions de pleines garanties juridiques."
+    },
+    {
+      "speaker": "Doña Beatriz",
+      "text": "Coincido en su apreciación. De no mediar un aval del Gobierno, la viabilidad de la operación financiera quedará en entredicho.",
+      "phonetic_api": "/kojnˈθiðo en su apɾeθjaˈθjon || de ˈno meˈðjaɾ un aˈβal ðel ɣoˈβjeɾno la βjaβiliˈðað ðe la opeɾaˈθjon finaŋˈθjeɾa keðaˈɾa en eŋtɾeˈðitʃo/",
+      "phonetic_simple": "KOYNE-THEE-DO EN SOO A-PRÉ-THYA-THYON. DE NO MÉ-DYAR OUN A-BAL DEL GO-BYER-NO, LA BYA-BEE-LEE-DAD DE LA O-PÉ-RA-THYON FEE-NAN-THYÉ-RA KÉ-DA-RÉ EN EN-TRÉ-DEE-TCHO.",
+      "translation": "Je partage votre appréciation. À défaut d'une garantie du Gouvernement, la viabilité de l'opération financière sera remise en question."
+    },
+    {
+      "speaker": "Don Augusto",
+      "text": "Quizá debamos convocar una reunión extraordinaria con el ministerio, con tal de que accedan a recibirnos de forma prioritaria.",
+      "phonetic_api": "/kiˈθa ðeˈβamos komβoˈkaɾ ˈuna rewˈnjon exstɾaoɾðiˈnaɾja kon el minisˈteɾjo kon tal de ke akˈθeðan a ɾeθiˈβiɾnos de ˈfoɾma pɾjoɾiˈtaɾja/",
+      "phonetic_simple": "KEE-THA DÉ-BA-MOS KOM-BO-KAR OU-NA REW-NYON EKS-TRA-OR-DEE-NA-RYA KON EL MEE-NEES-TÉ-RYO, KON TAL DE KÉ AK-THÉ-DAN A RÉ-THEE-BEER-NOS DE FOR-MA PRYO-REE-TA-RYA.",
+      "translation": "Peut-être devrions-nous convoquer une réunion extraordinaire avec le ministère, pourvu qu'ils acceptent de nos recevoir en priorité."
+    },
+    {
+      "speaker": "Doña Beatriz",
+      "text": "A lo mejor es la única alternativa viable dado que el tiempo apremia. En caso de que acepten, prepararé el dosier de inmediato.",
+      "phonetic_api": "/a lo meˈxoɾ ˈes la ˈunika alteɾnaˈtiβa ˈβjaβle ˈdaðo ke el ˈtjempo aˈpɾemja || en ˈkaso ðe ke akˈθeðan pɾepaɾaˈɾe el ðoˈsjeɾ ðe jmeˈðjato/",
+      "phonetic_simple": "A LO ME-KHOR ES LA OO-NEE-KA AL-TER-NA-TEE-BA BYA-BLÉ DA-DO KÉ EL TYEM-PO A-PRÉ-MYA. EN KA-SO DE KÉ AK-THÉ-DAN, PRÉ-PA-RA-RÉ EL DO-SYER DE EEN-MÉ-DYA-TO.",
+      "translation": "C'est peut-être la seule alternative viable étant donné que le temps presse. Au cas où ils accepteraient, je préparerai le dossier immédiatement."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la correspondance administrative de haut niveau et les textes juridiques en espagnol, l'omission de 'si' au profit de structures impersonnelles condensées comme 'De + infinitif compuesto' (ex: 'De haber sabido...') ou 'De + infinitivo simple' (ex: 'De ser necesario...') constitue la norme stylistique pour formuler une condition avec élégance.",
+    "L'adverbe 'quizá' perd son 's' final par euphonie lorsqu'il est immédiatement suivi d'un mot commençant par une consonne (ex: quizá deba), tandis que la forme 'quizás' est privilégiée devant une voyelle (ex: quizás sea), bien que la Real Academia Española (RAE) accepte l'usage des deux formes dans tous les contextes."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L2_EX1",
+      "type": "multiple_choice",
+      "question": "Quelle option complète correctement cette phrase hypothétique en respectant la contrainte grammaticale de la locution employée : 'A lo mejor la delegación [...] al acuerdo esta misma tarde.' ?",
+      "options": [
+        "llegue",
+        "llega",
+        "llegara"
+      ],
+      "correct_answer": "llega",
+      "explanation": "Bien qu'elle exprime une hypothèse ou une possibilité, la locution adverbiale 'A lo mejor' régit TOUJOURS le mode indicatif. La forme correcte est donc le présent de l'indicatif 'llega'."
+    },
+    {
+      "exercise_id": "C1_M1_L2_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "No se autorizará el desembolso de los fondos a menos que la auditoría [ ___ ] la total transparencia de las cuentas.",
+      "correct_answer": "demuestre",
+      "hint": "Forme du subjonctif présent de la troisième personne du singulier du verbe irrégulier à diphtongue 'demostrar', requise par la locution restrictive 'a menos que'."
+    }
+  ]
+}

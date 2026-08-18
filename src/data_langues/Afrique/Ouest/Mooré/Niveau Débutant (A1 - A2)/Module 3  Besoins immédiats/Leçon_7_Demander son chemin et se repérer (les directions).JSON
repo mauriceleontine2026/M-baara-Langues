@@ -1,0 +1,209 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Poser une question pour localiser un lieu public ou un commerce",
+    "Comprendre des indications de direction simples (gauche, droite, tout droit)",
+    "Utiliser les postpositions spatiales de base pour se situer"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 's' suivie d'un 'o' ou d'un 'a' se prononce de manière sifflante et nette. Le mot 'sore' (le chemin) utilise un 'o' fermé [o]. Dans le mot 'goabga' (gauche), le groupe 'oa' forme une diphthongue rapide où le 'o' glisse vers le 'a'. La lettre 'g' finale dans les suffixes de lieu est souvent très douce.",
+    "common_pitfalls": "Attention au mot 'yâe' (où). L'accentuation doit marquer une légère courbe descendante de la voix sur la voyelle longue nasalisée pour qu'il soit bien compris comme une interrogation."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v7_1",
+      "term": "Sore",
+      "phonetic_api": "/sore/",
+      "phonetic_simple": "SO-RÉ",
+      "translation": "Chemin / Route / Rue",
+      "example_sentence": "Sōrã yaa woko.",
+      "example_phonetic": "/soːrã jaː woko/",
+      "example_translation": "La route est longue."
+    },
+    {
+      "word_id": "v7_2",
+      "term": "Raaga",
+      "phonetic_api": "/raːɣa/",
+      "phonetic_simple": "RAA-GA",
+      "translation": "Marché",
+      "example_sentence": "M bēe raaga.",
+      "example_phonetic": "/m beː raːɣa/",
+      "example_translation": "Je suis au marché."
+    },
+    {
+      "word_id": "v7_3",
+      "term": "Dɩitgo",
+      "phonetic_api": "/dɪːtɣo/",
+      "phonetic_simple": "DIIT-GO",
+      "translation": "Droite (côté droit)",
+      "example_sentence": "Kẽng dɩitgo.",
+      "example_phonetic": "/kẽnɡ dɩːtɣo/",
+      "example_translation": "Va à droite."
+    },
+    {
+      "word_id": "v7_4",
+      "term": "Goabga",
+      "phonetic_api": "/ɡoabɡa/",
+      "phonetic_simple": "GOAB-GA",
+      "translation": "Gauche (côté gauche)",
+      "example_sentence": "Gila goabga.",
+      "example_phonetic": "/ɡila ɡoabɡa/",
+      "example_translation": "Tourne à gauche."
+    },
+    {
+      "word_id": "v7_5",
+      "term": "Tíndo",
+      "phonetic_api": "/tɪndo/",
+      "phonetic_simple": "TIN-DO",
+      "translation": "Tout droit",
+      "example_sentence": "Kẽng tíndo.",
+      "example_phonetic": "/kẽnɡ tɪndo/",
+      "example_translation": "Va tout droit."
+    },
+    {
+      "word_id": "v7_6",
+      "term": "Logtoor yiri",
+      "phonetic_api": "/loɡtoːr jiri/",
+      "phonetic_simple": "LOG-TOOR YI-RI",
+      "translation": "Hôpital / Maison du docteur",
+      "example_sentence": "Logtoor yir bēe yâe ?",
+      "example_phonetic": "/loɡtoːr jir beː jãːe/",
+      "example_translation": "Où est l'hôpital ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p7_1",
+      "original": "Raagã bēe yâe ?",
+      "phonetic_api": "/raːɣã beː jãːe/",
+      "phonetic_simple": "RAA-GAN BÉE YAAE",
+      "translation": "Où se trouve le marché ?",
+      "context": "Question essentielle pour demander la localisation d'un lieu."
+    },
+    {
+      "phrase_id": "p7_2",
+      "original": "Kẽng tíndo, la f gila dɩitgo.",
+      "phonetic_api": "/kẽnɡ tɪndo la f ɡila dɩːtɣo/",
+      "phonetic_simple": "KENG TIN-DO LA F GI-LA DIIT-GO",
+      "translation": "Va tout droit, puis tourne à droite.",
+      "context": "Indication d'itinéraire typique."
+    },
+    {
+      "phrase_id": "p7_3",
+      "original": "Yaa zĩig zãrã ?",
+      "phonetic_api": "/jaː zɪːɡ zãrã/",
+      "phonetic_simple": "YAA ZIIG ZAN-RAN",
+      "translation": "Est-ce que c'est un endroit loin ?",
+      "context": "Pour savoir si la destination nécessite un transport."
+    },
+    {
+      "phrase_id": "p7_4",
+      "original": "A pa zãre, a bēe pẽe.",
+      "phonetic_api": "/a pa zãre a beː pẽː/",
+      "phonetic_simple": "A PA ZAN-RÉ, A BÉE PÉE",
+      "translation": "Ce n'est pas loin, c'est tout près.",
+      "context": "Réponse rassurante sur la distance."
+    },
+    {
+      "phrase_id": "p7_5",
+      "original": "Sõng-m t m paam sore.",
+      "phonetic_api": "/sõnɡ m t m paːm sore/",
+      "phonetic_simple": "SONG-M T M PAAM SO-RÉ",
+      "translation": "Aidez-moi à trouver le chemin.",
+      "context": "Formule polie pour aborder quelqu'un quand on est égaré."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'interrogation spatiale avec 'yâe'",
+      "explanation": "Pour demander 'où' se situe un objet ou un lieu, le mooré emploie le morphème interrogatif 'yâe' placé systématiquement à la fin de la proposition verbale.",
+      "rules": [
+        "Structure : [Sujet/Lieu] + verbe d'existence 'bēe' + yâe ?",
+        "Le nom du lieu reçoit souvent la voyelle nasalisée ou l'article défini abrégé '-ã' en tête de phrase."
+      ],
+      "examples": [
+        {
+          "structure": "Koko + bēe + yâe ?",
+          "phonetic_api": "/koko beː jãːe/",
+          "meaning": "Où est Koko ?"
+        }
+      ]
+    },
+    {
+      "concept": "Les verbes de mouvement à l'impératif",
+      "explanation": "Pour donner des directions, on utilise les verbes 'kẽng' (aller) ou 'gila' (tourner/bifurquer) directement à la forme brute pour la deuxième personne du singulier.",
+      "rules": [
+        "L'ordre suit la structure : [Verbe] + [Direction].",
+        "Si l'on s'adresse à un aîné, on ajoute le pronom de respect 'y' après le verbe."
+      ],
+      "examples": [
+        {
+          "structure": "Kẽng + tíndo",
+          "phonetic_api": "/kẽnɡ tɪndo/",
+          "meaning": "Va tout droit."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Français (L'étranger)",
+      "text": "Ne y wíndiga, m baa. Sõng-m t m paam sore. Raagã bēe yâe ?",
+      "phonetic_api": "/ne i wĩndiga m baː sõnɡ m t m paːm sore raːɣã beː jãːe/",
+      "phonetic_simple": "NÉ I WIN-DI-GA M BAA. SONG-M T M PAAM SO-RÉ. RAA-GAN BÉE YAAE ?",
+      "translation": "Bonjour, mon père. Aidez-moi à trouver le chemin. Où est le marché ?"
+    },
+    {
+      "speaker": "Moaga (Le villageois)",
+      "text": "Ne y wíndiga. Raagã pa zãre. Kẽng tíndo la f gila goabga.",
+      "phonetic_api": "/ne i wĩndiga raːɣã pa zãre kẽnɡ tɪndo la f ɡila ɡoabɡa/",
+      "phonetic_simple": "NÉ I WIN-DI-GA. RAA-GAN PA ZAN-RÉ. KENG TIN-DO LA F GI-LA GOAB-GA",
+      "translation": "Bonjour. Le marché n'est pas loin. Va tout droit puis tourne à gauche."
+    },
+    {
+      "speaker": "Français (L'étranger)",
+      "text": "Yaa dɩitgo la goabga ?",
+      "phonetic_api": "/jaː dɩːtɣo la ɡoabɡa/",
+      "phonetic_simple": "YAA DIIT-GO LA GOAB-GA ?",
+      "translation": "C'est à droite ou à gauche ?"
+    },
+    {
+      "speaker": "Moaga (Le villageois)",
+      "text": "Yaa goabga. A bēe pẽe.",
+      "phonetic_api": "/jaː ɡoabɡa a beː pẽː/",
+      "phonetic_simple": "YAA GOAB-GA. A BÉE PÉE",
+      "translation": "C'est à gauche. C'est tout près."
+    }
+  ],
+  "cultural_notes": [
+    "Au Burkina Faso, donner une direction s'accompagne presque toujours d'un geste précis de la main droite. Utiliser la main gauche pour pointer du doigt ou indiquer un chemin est considéré comme un manque d'éducation.",
+    "Si vous demandez votre chemin à un habitant, il n'est pas rare que celui-ci marche quelques mètres avec vous ou interpelle un enfant pour vous escorter jusqu'à destination. L'hospitalité ('temsi') prime sur l'urgence.",
+    "Les repères spatiaux urbains s'appuient plus volontiers sur des bâtiments connus (un grand arbre, une station-service, une pharmacie) que sur les noms officiels des rues."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex7_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot de direction 'Tíndo' ?",
+      "options": [
+        "À gauche",
+        "Tout droit",
+        "À droite"
+      ],
+      "correct_answer": "Tout droit",
+      "explanation": "'Tíndo' exprime un déplacement en ligne droite sans déviation."
+    },
+    {
+      "exercise_id": "ex7_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Logtoor yir bēe [ ___ ] ?",
+      "correct_answer": "yâe",
+      "hint": "Le mot interrogatif mooré pour demander 'où'."
+    }
+  ]
+}

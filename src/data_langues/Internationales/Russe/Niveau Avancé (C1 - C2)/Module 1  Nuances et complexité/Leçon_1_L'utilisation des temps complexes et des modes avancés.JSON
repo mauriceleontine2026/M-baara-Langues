@@ -1,0 +1,228 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés",
+  "learning_objectives": [
+    "Maîtriser les nuances sémantiques fines des couples aspectuels à travers les verbes de mouvement préfixés",
+    "Utiliser le mode Subjonctif-Conditionnel dans des propositions subordonnées complexes (but, condition irréelle, regret)",
+    "Comprendre et intégrer les formes participiales et gérondives (actifs/passés) dans le récit écrit soutenu",
+    "Exprimer l'antériorité, la simultanéité et la postérité immédiate de manière stylistique"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le phonème 'О' sous l'accent dans le suffixe verbal '-овывать' exige une tension labiale maximale [ˈovɨvətʲ] sans diphtongaison. Le groupe de consonnes dans 'Вследствие' demande un enchaînement fluide : le 'в' initial s'assimile totalement par dévoisement devant le 'с' pour donner [fslʲet͡stvʲɪɪ].",
+    "common_pitfalls": "Attention à la prononciation du gérondif 'Присмотревшись' : l'accent tonique reste stable sur le 'о' [prʲɪsmɐˈtrʲefʂɨsʲ]. Le 'ш' final ne doit pas palataliser le 'с' qui le suit, l'articulation doit rester distincte et ferme."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Вследствие",
+      "phonetic_api": "/ˈfslʲet͡stvʲɪɪ/",
+      "phonetic_simple": "FSLIET-stvi-i",
+      "translation": "En raison de / Par suite de / Conséquence de (Soutenu)",
+      "example_sentence": "Вследствие непредвиденных обстоятельств заседание перенесли.",
+      "example_phonetic": "/ˈfslʲet͡stvʲɪɪ nʲɪprʲɪdˈvʲidʲɪnːɨx ɐpstɐˈjatʲɪlʲstf zəsʲɪˈdanʲɪjə pʲɪrʲɪnʲɪsʲlʲi/",
+      "example_translation": "En raison de circonstances imprévues, la séance a été reportée."
+    },
+    {
+      "word_id": "v2",
+      "term": "Предусматривать",
+      "phonetic_api": "/prʲɪdʊˈsmatrʲɪvətʲ/",
+      "phonetic_simple": "pri-dou-SMAT-ri-vat'",
+      "translation": "Prévoir / Stipuler / Envisager (Imperfectif)",
+      "example_sentence": "Законопроект предусматривает введение новых налоговых льгот.",
+      "example_phonetic": "/zəkənəprɐˈɛkt prʲɪdʊˈsmatrʲɪvəɪ̯ɪt vʲvʲɪˈdʲenʲɪjə ˈnovɨx nɐˈɫoɡəvɨx lʲɡot/",
+      "example_translation": "Le projet de loi prévoit l'introduction de nouveaux allégements fiscaux."
+    },
+    {
+      "word_id": "v3",
+      "term": "Обусловить",
+      "phonetic_api": "/ɐbʊˈsɫovʲɪtʲ/",
+      "phonetic_simple": "a-bou-SLO-vit'",
+      "translation": "Conditionner / Déterminer / Expliquer (Perfectif)",
+      "example_sentence": "Этот выбор был обусловлен экономическими факторами.",
+      "example_phonetic": "/ˈɛtət vɨbər bɨɫ ɐbʊˈsɫoflʲɪn ˌɛkənɐˈmʲitɕɪskʲɪmʲɪ ˈfaktərəmʲɪ/",
+      "example_translation": "Ce choix a été conditionné par des facteurs économiques."
+    },
+    {
+      "word_id": "v4",
+      "term": "Присмотреться",
+      "phonetic_api": "/prʲɪsmɐˈtrʲet͡sʲə/",
+      "phonetic_simple": "pri-sma-TRIET-tsya",
+      "translation": "Regarder de près / S'adapter / Examiner attentivement (Perfectif)",
+      "example_sentence": "Вам следует получше присмотреться к этому кандидату.",
+      "example_phonetic": "/vam ˈslʲedʊɪ̯ɪt pɐˈlutɕʂɨ prʲɪsmɐˈtrʲet͡sʲə k ˈɛtəmʊ kəndʲɪˈdatʊ/",
+      "example_translation": "Il vous faudrait examiner de plus près ce candidat."
+    },
+    {
+      "word_id": "v5",
+      "term": "Препятствие",
+      "phonetic_api": "/prʲɪˈpʲat͡stvʲɪjə/",
+      "phonetic_simple": "pri-PIAT-stvi-ye",
+      "translation": "Obstacle / Empêchement / Barrière",
+      "example_sentence": "Новые правила не станут препятствием для развития бизнеса.",
+      "example_phonetic": "/ˈnovɨjə ˈpravʲɪɫə nʲɪ ˈstanʊt prʲɪˈpʲat͡stvʲɪɪm dlʲɐ rɐzvʲɪˈtarʲɪjə ˈbʲiznɪsə/",
+      "example_translation": "Les nouvelles règles ne deviendront pas un obstacle au développement des affaires."
+    },
+    {
+      "word_id": "v6",
+      "term": "Заблуждение",
+      "phonetic_api": "/zəbɫʊʐˈdʲenʲɪjə/",
+      "phonetic_simple": "za-blou-JDIE-ni-ye",
+      "translation": "Erreur / Illusion / Idée reçue / Égarement",
+      "example_sentence": "Это глубокое заблуждение, не основанное на фактах.",
+      "example_phonetic": "/ˈɛtə ɡɫʊˈbokəjə zəbɫʊʐˈdʲenʲɪjə nʲɪ ɐˈsnofənːəjə nə ˈfaktəx/",
+      "example_translation": "C'est une profonde illusion qui ne repose sur aucun fait."
+    },
+    {
+      "word_id": "v7",
+      "term": "Предпосылка",
+      "phonetic_api": "/prʲɪtpɐˈsɨɫkə/",
+      "phonetic_simple": "prit-pa-SYL-ka",
+      "translation": "Prémisse / Condition préalable / Facteur favorisant",
+      "example_sentence": "Успешные переговоры создали предпосылки для подписания мира.",
+      "example_phonetic": "/ʊˈspʲeʂnɨjə pʲɪrʲɪɡɐˈvorɨ ˈsozdəlʲɪ prʲ|pɐˈsɨɫkʲɪ dlʲɐ pədpʲɪˈsanʲɪjə ˈmʲirə/",
+      "example_translation": "Le succès des négociations a créé les conditions préalables à la signature de la paix."
+    },
+    {
+      "word_id": "v8",
+      "term": "Осознавать",
+      "phonetic_api": "/ɐsəznɐˈvatʲ/",
+      "phonetic_simple": "a-sa-zna-VAT'",
+      "translation": "Prendre conscience / Réaliser / Concevoir (Imperfectif)",
+      "example_sentence": "Мы полностью осознаём всю ответственность за этот шаг.",
+      "example_phonetic": "/mɨ ˈpoɫnəsʲtʲjʊ ɐsəznɐˈjom fsʲʊ ɐtvʲet͡stvʲɪnːəsʲtʲ zɐ ˈɛtət ʂak/",
+      "example_translation": "Nous mesurons pleinement toute la responsabilité de cette démarche."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Какими бы ни были последствия, мы не отступим",
+      "phonetic_api": "/kɐˈkʲimʲɪ bɨ nʲɪ ˈbɨlʲɪ pɐˈslʲet͡stvʲɪjə mɨ nʲɪ ɐtˈstupʲɪm/",
+      "phonetic_simple": "ka-KI-mi by ni BY-li pa-SLIET-stvi-ya, my ni at-STOU-pim",
+      "translation": "Quelles que soient les conséquences, nous ne reculerons pas",
+      "context": "Structure concessive avancée avec la particule 'бы ни' pour exprimer la détermination absolue."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Присмотревшись к деталям, можно заметить закономерность",
+      "phonetic_api": "/prʲɪsmɐˈtrʲefʂɨsʲ k dʲɪˈtalʲəm ˈmoʐnə zɐˈmʲetʲɪtʲ zəkənɐˈmʲɛrnəsʲtʲ/",
+      "phonetic_simple": "pri-sma-TRIEF-chis' k di-TA-liam, MOJ-na za-MIÉ-tit' za-ka-na-MIER-nast'",
+      "translation": "En y regardant de plus près, on décèle une constante",
+      "context": "Proposition participiale (gérondif passé) élégante pour introduire une observation analytique."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Если бы не ваше своевременное вмешательство...",
+      "phonetic_api": "/ˈjeslʲɪ bɨ nʲɪ ˈvaʂɨ svɐɪ̯ɪˈvrʲemʲɪnːəjə vmʲɪˈʂatʲɪlʲstvə/",
+      "phonetic_simple": "IES-li by ni VA-chye sva-i-vri-MIEN-na-ye vmi-CHA-til'-stvo...",
+      "translation": "Sans votre intervention opportune... / Si ce n'avait été votre intervention...",
+      "context": "Conditionnel irréel passé tronqué servant à exprimer un vif regret ou une profonde gratitude."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Исходя из вышеизложенных соображений",
+      "phonetic_api": "/ɪsxɐˈdʲa ɪz vɨʂɨɪzˈɫoʐɨnːɨx sɐəbrɐˈʐenʲɪj/",
+      "phonetic_simple": "is-ha-DIA iz vy-chy-iz-LO-jyn-nyh sa-a-bra-JIE-niï",
+      "translation": "Au vu des considérations qui précèdent",
+      "context": "Transition rhétorique et gérondive hautement formelle propre aux conclusions de synthèses."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le Subjonctif de concession et d'alternative : Бы ни",
+      "explanation": "Pour exprimer le principe de concession totale ('Quoi que...', 'Qui que...', 'Où que...'), la grammaire avancée russe utilise le pronom interrogatif suivi de la particule БЫ, de la négation НИ et du verbe obligatoirement au passé.",
+      "rules": [
+        "Structure : Pronom/Adverbe (Что, Кто, Как, Где) + БЫ + НИ + Verbe au passé.",
+        "Malgré la présence de 'НИ', la proposition conserve un sens pleinement affirmatif et intensif."
+      ],
+      "examples": [
+        {
+          "structure": "Что бы вы ни предприняли, изменить решение руководства уже невозможно.",
+          "phonetic_api": "/tɕto bɨ vɨ nʲɪ prʲɪtˈprʲinʲəlʲɪ ɪzˈmʲenʲɪtʲ rʲɪˈʂenʲɪjə rʊkɐˈvot͡stvə ʊˈʐɛ nʲɪvɐzˈmoʐnə/",
+          "meaning": "Quoi que vous entrepreniez, il est déjà impossible de modifier la décision de la direction."
+        }
+      ]
+    },
+    {
+      "concept": "Le Gérondif passé (Деепричастие прошедшего времени) dans la syntaxe narrative",
+      "explanation": "Le gérondif passé permet d'alléger le style en remplaçant une proposition subordonnée temporelle de postérité ou d'antériorité immédiate. L'action du gérondif doit impérativement être accomplie par le même sujet que le verbe principal.",
+      "rules": [
+        "Verbes perfectifs : On retire la marque du passé '-л' et on ajoute le suffixe '-в' ou '-вшись' pour les verbes réfléchis (Прочитать -> Прочитав, Вернуться -> Вернувшись).",
+        "Traduit généralement l'expression 'Après avoir fait... / Ayant fait...'"
+      ],
+      "examples": [
+        {
+          "structure": "Ознакомившись с отчётом, директор подписал приказ.",
+          "phonetic_api": "/ɐznəkɐˈmʲifʂɨsʲ s ɐtˈtɕotəm dʲɪˈrɛktər pədpʲɪˈsal prʲɪˈkas/",
+          "meaning": "Après avoir pris connaissance du rapport, le directeur a signé le décret."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ярослав",
+      "text": "Валерия, ознакомившись с вашим аналитическим резюме, я пришёл к выводу, что предложенная вами стратегия требует глубокой доработки. Если бы мы утвердили её вчера, фирма понесла бы колоссальные убытки.",
+      "phonetic_api": "/vɐˈlʲerʲɪjə ɐznəkɐˈmʲifʂɨsʲ s ˈvaʂɨm ˌənəlʲɪˈtɕɪskʲɪm rʲɪzʲʉˈmɛ ja prʲɪˈʂoɫ k ˈvɨvədʊ ʂto prʲɪdˈɫoʐənːəjə ˈvamʲɪ strɐˈtʲeɡʲɪjə trʲebʊɪ̯ɪt ˈɡɫʊbokəj dərɐˈbotkʲɪ ˈjeslʲɪ bɨ mɨ ʊtvʲɪrˈdʲilʲɪ jɪˈjo ftɕɪˈra ˈfʲirmə pənʲɪsˈɫa bɨ kəɫɐˈsalʲnɨjə ʊˈbɨtkʲɪ/",
+      "phonetic_simple": "Va-LIÉ-ri-ya, az-na-KO-mif-chis' s VA-chym a-na-li-TI-tches-kim ri-ziu-MÉ, ya pri-CHOL k VY-va-dou, chto prid-LO-jyn-na-ya VA-mi stra-TIÉ-gui-ya TRÉ-bou-iet GLOU-bo-kaï da-ra-BOT-ki. IES-li by my out-vir-DI-li i-IO ftchi-RA, FIR-ma pa-ni-SLA by ka-las-SAL'-ny-ya ou-BYT-ki.",
+      "translation": "Valeria, après avoir pris connaissance de votre note de synthèse analytique, j'en suis venu à la conclusion que la stratégie que vous proposez nécessite un remaniement en profondeur. Si nous l'avions approuvée hier, l'entreprise aurait subi des pertes colossales."
+    },
+    {
+      "speaker": "Валерия",
+      "text": "Ярослав Игоревич, при всём уважении, какими бы рискованными ни казались наши предпосылки, они обусловлены текущими изменениями на рынке. Предусматривая худший сценарий, мы заложили в бюджет подушку безопасности.",
+      "phonetic_api": "/jərɐˈsɫaf ˈiɡərʲɪvʲɪtɕ prʲɪ fsʲom ʊvɐˈʐenʲɪɪ kɐˈkʲimʲɪ bɨ rʲɪskɐˈvanːɨmʲɪ nʲɪ kɐˈzalʲɪsʲ ˈnaʂɨ prʲɪtpɐˈsɨɫkʲɪ ɐnʲi ɐbʊˈsɫovlʲɪnɨ tʲɪˈkuɕːɪmʲɪ ɪzmʲɪˈnʲenʲɪjəmʲɪ nə ˈrɨnkɪ prʲɪdʊˈsmatrʲɪvəjə ˈxutʂɨj s͡t͡sɨˈnarʲɪj mɨ zɐˈɫoʐɨlʲɪ f bʲʉˈdʐɛt pɐˈduʂkʊ bʲɪzɐˈpasnəsʲtʲ/",
+      "phonetic_simple": "Ia-ra-SLAF I-ga-ri-vitch, pri vssiom ou-va-JIE-ni-i, ka-KI-mi by ris-ka-VAN-ny-mi ni ka-ZA-lis' NA-chy prit-pa-SYL-ki, a-ni a-bou-SLOF-li-ny ti-KOU-chtchi-mi iz-mi-NIÉ-ni-ya-mi na RYN-ki. Pri-dou-SMAT-ri-va-ia HOUT-chy st͡se-NA-riï, my za-LO-jy-li f biu-DJET pa-DOUSH-kou bi-za-PAS-nas-ti.",
+      "translation": "Yaroslav Igorevich, avec tout le respect que je vous dois, aussi risquées que puissent paraître nos prémisses, elles sont dictées par les mutations actuelles du marché. En prévoyant le pire des scénarios, nous avons intégré au budget un coussin de sécurité."
+    }
+  ],
+  "cultural_notes": [
+    "Le registre 'Канцелярит' et la rhétorique d'affaires : Le niveau avancé en russe implique la maîtrise des structures nominales complexes et l'évitement des verbes d'action trop simples. Les cadres russes s'expriment à l'écrit comme à l'oral via des gérondifs et des participes substantivés pour conférer une dimension juridique, scientifique et incontestable à leur discours.",
+    "L'usage rigoureux du Patronyme au niveau C1 : À ce stade de maîtrise, l'omission du patronyme dans un désaccord (ex: Ярослав Игоревич) serait perçue comme une agression ou un manque cruel d'éducation. Introduire une critique par une marque de déférence absolue est la clé de la négociation à la russe."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L1_ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la proposition syntaxiquement correcte pour exprimer la concession : '[ ___ ] сложной ни была задача, мы обязаны её решить.'",
+      "options": [
+        "Какая бы",
+        "Каковой бы",
+        "Какой бы ни",
+        "Как бы ни"
+      ],
+      "correct_answer": "Какой бы ни",
+      "explanation": "L'adjectif qualificatif 'сложная' (décliné ici à l'instrumental féminin 'сложной') requiert le pronom 'какой' combiné à la structure concessive 'бы ни'."
+    },
+    {
+      "exercise_id": "C1_M1_L1_ex2",
+      "type": "multiple_choice",
+      "question": "Transformez correctement la subordonnée temporelle en gérondif passé : 'После того как юрист прочитал контракт, он заметил ошибку.'",
+      "options": [
+        "Прочитая контракт, юрист заметил ошибку.",
+        "Прочитав контракт, юрист заметил ошибку.",
+        "Прочитавший контракт, юрист заметил ошибку.",
+        "Почитав контракта, юрист заметил ошибку."
+      ],
+      "correct_answer": "Прочитав контракт, юрист заметил ошибку.",
+      "explanation": "Le verbe 'прочитать' étant perfectif, son gérondif passé se forme régulièrement à l'aide du suffixe '-в' appliqué sur le thème du passé."
+    },
+    {
+      "exercise_id": "C1_M1_L1_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Внезапный кризис разрушил все наши планы. Если бы мы знали об этом заранее, мы [ ___ ] (принять - СВ) меры. (Nous aurions pris - Conditionnel irréel pluriel)",
+      "correct_answer": "приняли бы",
+      "hint": "Associez la forme du passé pluriel du verbe perfectif 'принять' à la particule du conditionnel."
+    },
+    {
+      "exercise_id": "C1_M1_L1_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] к новому сотруднику, руководитель понял, что тот скрывает свой реальный опыт. (Ayant regardé de près / Après s'être attentivement adapté)",
+      "correct_answer": "Присмотревшись",
+      "hint": "Gérondif passé réfléchi du verbe perfectif присмотреться."
+    }
+  ]
+}

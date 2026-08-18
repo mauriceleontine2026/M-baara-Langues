@@ -1,0 +1,258 @@
+{
+  "lesson_id": "C1_M2_L4",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 4,
+  "title": "Proverbes, dictons et expressions imagées",
+  "learning_objectives": [
+    "Déchiffrer la structure syntaxique archaïque et poétique des proverbes swahilis (Methali)",
+    "Utiliser des expressions métaphoriques et imagées pour densifier le discours formel",
+    "Comprendre le poids culturel et philosophique de la sagesse ancestrale dans l'argumentation moderne",
+    "Maîtriser les concordances de classes nominales spécifiques aux dictons traditionnels"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La diction des proverbes exige un rythme scandé, respectant la métrique traditionnelle. Le mot 'Methali' (proverbe) se prononce avec un 'th' sourd anglais [mɛˈθa.li]. Dans 'Fumbo' (énigme/métaphore), le 'F' initial est suivi d'une articulation nasale bien ancrée [ˈfu.mbɔ]. Le terme 'Busara' (sagesse) requiert un 'S' purement sourd [buˈsa.ra].",
+    "common_pitfalls": "Dans les proverbes, plusieurs élisions poétiques volontaires apparaissent. Par exemple, dans 'Asiyesikia', veillez à ne pas sauter le 'hi' intérieur, articulez chaque voyelle distinctement : [a.si.jɛ.siˈki.a]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Methali",
+      "phonetic_api": "/mɛˈθa.li/",
+      "phonetic_simple": "MEH-THAH-LEE",
+      "translation": "Proverbe / Maxime / Sentence morale",
+      "example_sentence": "Kuhifadhi methali za kale kunatajirisha lugha yetu.",
+      "example_phonetic": "/ku.hiˈfa.ði mɛˈθa.li za ˈka.lɛ ku.na.ta.dʒiˈri.ʃa ˈlu.ɣa ˈjɛ.tu/",
+      "example_translation": "Préserver les maximes d'antan enrichit profondément notre langue."
+    },
+    {
+      "word_id": "v2",
+      "term": "Fumbo",
+      "phonetic_api": "/ˈfu.mbɔ/",
+      "phonetic_simple": "FOOM-BOH",
+      "translation": "Énigme / Métaphore / Parole cryptée / Allégorie",
+      "example_sentence": "Mazungumzo ya wazee mara nyingi huwa yamejaa mafumbo.",
+      "example_phonetic": "/ma.zu.ŋguˈmzɔ ja waˈzɛː ˈma.ra ˈɲi.ŋgi ˈhu.wa ja.mɛˈdʒaː maˈfu.mbɔ/",
+      "example_translation": "Les discours des anciens sont, la plupart du temps, empreints de paroles cryptées."
+    },
+    {
+      "word_id": "v3",
+      "term": "Busara",
+      "phonetic_api": "/buˈsa.ra/",
+      "phonetic_simple": "BOO-SAH-RAH",
+      "translation": "Sagesse / Discernement / Sagesse / Clairvoyance",
+      "example_sentence": "Uamuzi ule ulitolewa kwa busara kubwa ya kiutamaduni.",
+      "example_phonetic": "/u.aˈmu.zi ˈu.lɛ u.li.tɔˈlɛ.wa kwa buˈsa.ra ˈku.bwa ja ki.u.ta.maˈdu.ni/",
+      "example_translation": "Cette sentence fut prononcée avec une immense clairvoyance culturelle."
+    },
+    {
+      "word_id": "v4",
+      "term": "Ngano",
+      "phonetic_api": "/ˈŋga.nɔ/",
+      "phonetic_simple": "NGAH-NOH",
+      "translation": "Conte / Fable / Récit mythologique ou allégorique",
+      "example_sentence": "Ngano za mapokeo hutufunza maadili ya jamii.",
+      "example_phonetic": "/ˈŋga.nɔ za ma.pɔˈkɛ.ɔ hu.tuˈfu.nza ma.aˈdi.li ya dʒaˈmi.i/",
+      "example_translation": "Les fables patrimoniales nous inculquent la déontologie de la communauté."
+    },
+    {
+      "word_id": "v5",
+      "term": "Kupiga mbeja",
+      "phonetic_api": "/kuˈpi.ga ˈmbe.dʒa/",
+      "phonetic_simple": "KOO-PEE-GAH MBEH-DJAH",
+      "translation": "Tourner autour du pot / User de faux-fuyants / Divaguer",
+      "example_sentence": "Acha kupiga mbeja, eleza ukweli wa mambo ulivyo.",
+      "example_phonetic": "/ˈa.tʃa kuˈpi.ga ˈmbe.dʒa ɛ.lɛˈzɛ uˈkwɛ.li wa ˈma.mbɔ u.liˈvjɔ/",
+      "example_translation": "Cessez d'user de faux-fuyants, exposez la réalité des faits telle qu'elle se présente."
+    },
+    {
+      "word_id": "v6",
+      "term": "Maana ya ndani",
+      "phonetic_api": "/maˈa.na ja ˈnda.ni/",
+      "phonetic_simple": "MAH-AH-NAH YAH NDAH-NEE",
+      "translation": "Sens caché / Portée ésotérique / Signification intrinsèque",
+      "example_sentence": "Ni lazima utafiti maana ya ndani ya methali hii.",
+      "example_phonetic": "/ni laˈzi.ma u.taˈfi.ti maˈa.na ja ˈnda.ni ja mɛˈθa.li ˈhi.i/",
+      "example_translation": "Il s'avère impératif d'investiguer la signification intrinsèque de ce proverbe."
+    },
+    {
+      "word_id": "v7",
+      "term": "Msemo",
+      "phonetic_api": "/mˈsɛ.mɔ/",
+      "phonetic_simple": "MSEH-MOH",
+      "translation": "Idiome / Expression courante / Dicton",
+      "example_sentence": "Msemo huo unajulikana sana katika pwani ya Swahili.",
+      "example_phonetic": "/mˈsɛ.mɔ ˈhu.u u.na.dʒu.liˈka.na ˈsa.na kaˈti.ka ˈpwa.ni ja Swahili/",
+      "example_translation": "Ce dicton est notoirement partagé le long du littoral swahili."
+    },
+    {
+      "word_id": "v8",
+      "term": "Kukashifu",
+      "phonetic_api": "/ku.kaˈʃi.fu/",
+      "phonetic_simple": "KOO-KAH-SHEE-FOO",
+      "translation": "Diffamer / Calomnier / Outrager par la parole",
+      "example_sentence": "Msemo ule ulilenga kukashifu uongozi bila sababu.",
+      "example_phonetic": "/mˈsɛ.mɔ ˈu.lɛ u.liˈlɛ.ŋga ku.kaˈʃi.fu u.ɔˈŋgɔ.zi ˈbi.la saˈba.bu/",
+      "example_translation": "Cette expression imagée tendait à outrager la gouvernance de manière infondée."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Asiyefunzwa na mamae hufunzwa na ulimwengu.",
+      "phonetic_api": "/a.si.jɛˈfu.nzwa na maˈma.ɛ huˈfu.nzwa na u.li.mwaˈngu/",
+      "phonetic_simple": "AH-SEE-YEH-FOON-ZWAH NAH MAH-MAH-EH HOO-FOON-ZWAH NAH OO-LEEM-WEHN-GOO",
+      "translation": "Celui qui n'est pas éduqué par sa mère sera instruit par le monde (par la dureté de la vie).",
+      "context": "Proverbe fondamental sur l'importance de l'éducation initiale et de la rigueur morale."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Mchimba kaburi husitawi yeye mwenyewe kuingia ndani.",
+      "phonetic_api": "/m.tʃiˈmba kaˈbu.ri hu.siˈta.wi ˈjɛ.jɛ mwaˈɲɛ.wɛ ku.iˈŋgi.a ˈnda.ni/",
+      "phonetic_simple": "MCHEE-MBAH KAH-BOO-REE HOO-SEE-TAH-WEE YEH-YEH MWEH-NYEH-WEH KOO-EEN-GEE-AH NDAH-NEE",
+      "translation": "Le fossoyeur finit généralement par sombrer lui-même dans la fosse qu'il creuse.",
+      "context": "Dicton politique pour avertir ceux qui tendent des pièges ou complotent contre autrui."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Wazee wetu walisema, 'Haraka haraka haina baraka.'",
+      "phonetic_api": "/waˈzɛː ˈwɛ.tu wa.liˈsɛ.ma haˈra.ka haˈra.ka haˈi.na baˈra.ka/",
+      "phonetic_simple": "WAH-ZEEH WEH-TOO WAH-LEE-SEH-MAH HAH-RAH-KAH HAH-RAH-KAH HAH-EE-NAH BAH-RAH-KAH",
+      "translation": "Nos patriarches enseignaient : 'Précipitation n'engendre point bénédiction.'",
+      "context": "Rappel solennel à la patience stratégique lors des arbitrages d'affaires."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Kamba ya mapenzi haikatiki kwa maneno ya mafumbo.",
+      "phonetic_api": "/ˈka.mba ya maˈpɛ.nzi ha.i.ka.tiˈki kwa maˈnɛ.nɔ ya maˈfu.mbɔ/",
+      "phonetic_simple": "KAH-MBAH YAH MAH-PEHN-ZEE HAH-EE-KAH-TEE-KEE KWAH MAH-NEH-NOH YAH MAH-FOOM-BOH",
+      "translation": "La corde de la concorde ne se rompt point par des allégories sibyllines.",
+      "context": "Expression imagée pour réclamer de la transparence dans les relations interpersonnelles."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Haba na haba, hujaza kibaba; tuendelee kuweka akiba.",
+      "phonetic_api": "/ˈha.ba na ˈha.ba huˈdʒa.za kiˈba.ba tu.ɛndɛˈlɛː kuˈwɛ.ka aˈki.ba/",
+      "phonetic_simple": "HAH-BAH NAH HAH-BAH HOO-DJAH-ZAH KEE-BAH-BAH TOO-EHN-DEH-LEE KOO-WEH-KAH AH-KEE-BAH",
+      "translation": "Goutte à goutte, la jarre se remplit ; persistons à consolider nos économies.",
+      "context": "Utilisation d'une maxime populaire pour motiver une stratégie financière à long terme."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Ulimi una nguvu ya kuponya au kuangamiza mustakabali wa mtu.",
+      "phonetic_api": "/u.liˈmi ˈu.na ˈŋgu.vu ya kuˈpɔ.ɲa a.u ku.a.ŋgaˈmi.za mu.sta.kaˈba.li wa ˈm.tu/",
+      "phonetic_simple": "OO-LEE-MEE OO-NAH NGOO-VOO YAH KOO-POH-NYAH AH-OO KOO-AHNG-GAH-MEE-ZAH MOO-STAH-KAH-BAH-LEE WAH MTOO",
+      "translation": "La langue détient le pouvoir souverain de guérir ou d'anéantir le destin d'un individu.",
+      "context": "Avertissement philosophique sur la portée éthique de la parole publique."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Fumbo mfumbie mjinga, mwerevu huligundua mara moja.",
+      "phonetic_api": "/ˈfu.mbɔ m.fuˈmbi.ɛ ˈm.dʒi.ŋga mwaˈrɛ.vu hu.li.guˈndu.a ˈma.ra ˈm-mɔ.dʒa/",
+      "phonetic_simple": "FOOM-BOH MFOOM-BEE-EH MJEEN-GAH MWEH-REH-VOO HOO-LEE-GOON-DOO-AH MAH-RAH MMOH-DJAH",
+      "translation": "L'énigme n'égare que l'ignorant, l'homme avisé en perce le secret instantanément.",
+      "context": "Formule rhétorique pour piquer l'intelligence de son auditoire."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Maji yakimwagika hayazoleki; tuyasuluhishe masuala haya sasa.",
+      "phonetic_api": "/ˈma.dʒi ja.ki.mwaˈgi.ka ha.ja.zɔˈlɛ.ki ta.ja.su.luˈhi.ʃɛ maˈswa.la ˈha.ja ˈsa.sa/",
+      "phonetic_simple": "MAH-DJEE YAH-KEE-MWAH-GEE-KAH HAH-YAH-ZOH-LEH-KEE TAH-YAH-SOO-LOO-HEE-SHEH MAH-SWAH-LAH HAH-YAH SAH-SAH",
+      "translation": "L'eau une fois renversée ne peut être recueillie ; apaisons ces différends sur-le-champ.",
+      "context": "Invoquer l'irréversibilité des actes pour inciter à une conciliation immédiate."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La syntaxe archaïque et l'omission des relatifs dans les 'Methali'",
+      "explanation": "Les proverbes swahilis recourent souvent à des structures grammaticales anciennes, notamment l'utilisation du participe négatif condensé 'Asiye-' (Celui qui ne... pas) sans marqueur temporel, ou l'utilisation du suffixe possessif archaïque directement rattaché au nom (ex: 'mamae' au lieu de 'mama yake').",
+      "rules": [
+        "Structure : A-si-je- + radical verbal = Signifie 'Quiconque n'accomplit pas l'action'.",
+        "Le pronom possessif de la troisième personne du singulier '-ake' se réduit poétiquement à '-e' et s'agglutine au nom de parenté."
+      ],
+      "examples": [
+        {
+          "structure": "A-si-ye-sikia (Celui qui n'écoute pas) = Asiyesikia",
+          "phonetic_api": "/a.si.jɛ.siˈki.a/",
+          "meaning": "Quiconque s'obstine à ne pas entendre"
+        },
+        {
+          "structure": "Mama (Mère) + -e (sa) = Mamae",
+          "phonetic_api": "/maˈma.ɛ/",
+          "meaning": "Sa propre génitrice"
+        }
+      ]
+    },
+    {
+      "concept": "L'aspect d'intemporalité gnomique avec l'itératif 'Hu-' appliqué aux vérités générales",
+      "explanation": "Dans la parémiologie swahilie (l'étude des proverbes), l'infixe habituel 'Hu-' sert à exprimer des vérités anthropologiques ou physiques immuables et intemporelles, remplaçant totalement l'ancrage dans le présent.",
+      "rules": [
+        "Le sujet de la vérité générale est posé, suivi du verbe porteur de la marque 'Hu-' sans aucun pronom de classe.",
+        "La traduction française requiert souvent un présent de vérité générale ou l'adverbe 'toujours'."
+      ],
+      "examples": [
+        {
+          "structure": "Mwerevu (L'homme avisé) + Hu-gundua (découvre toujours) = Mwerevu hugundua",
+          "phonetic_api": "/mwaˈrɛ.vu hu.guˈndu.a/",
+          "meaning": "L'esprit éclairé discerne immanquablement"
+        },
+        {
+          "structure": "Mla jasho (Celui qui mange la sueur) + Hu-shiba (se rassasie toujours)",
+          "phonetic_api": "/ˈm.la ˈdʒa.ʃɔ huˈʃi.ba/",
+          "meaning": "Le travailleur honnête finit immanquablement par être comblé"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mzee Biashara",
+      "text": "Mwanangu, naona unahangaika sana na mradi huu mpya. Kumbuka ya kwamba mchimba kaburi husitawi yeye mwenyewe kuingia ndani ukienda bila mkakati thabiti.",
+      "phonetic_api": "/mwaˈna.ŋgu naˈɔ.na u.na.haˈŋga.i.ka ˈsa.na na mˈra.di ˈhu.u mˈpja kuˈmbu.ka ja ˈkwa.mba m.tʃiˈmba kaˈbu.ri hu.siˈta.wi ˈjɛ.jɛ mwaˈɲɛ.wɛ ku.iˈŋgi.a ˈnda.ni u.kiˈɛ.nda ˈbi.la m.kaˈka.ti ðaˈbi.ti/",
+      "phonetic_simple": "MWAHN-ANGOO NAH-OH-NAH OO-NAH-HAHNG-GAH-EE-KAH SAH-NAH NAH MRAH-DEE HOO-OO MPYAH KOOM-BOO-KAH YAH KWAH-MBAH MCHEE-MBAH KAH-BOO-REE HOO-SEE-TAH-WEE YEH-YEH MWEH-NYEH-WEH KOO-EEN-GEE-AH NDAH-NEE OO-KEE-EHN-DAH BEE-LAH MKAH-KAH-TEE ZHAH-BEE-TEE",
+      "translation": "Mon enfant, je m'aperçois que tu t'agites outre mesure pour cette nouvelle entreprise. Rappelle-toi que le fossoyeur finit par sombrer lui-même dans sa fosse si l'on avance dénué d'un plan rigoureux."
+    },
+    {
+      "speaker": "Kijana Msomi",
+      "text": "Nasikia busara yako, mzee wangu. Lakini soko linabadilika kwa kasi. Nisingependa kupiga mbeja wakati washindani wangu wanasonga mbele.",
+      "phonetic_api": "/na.siˈki.a buˈsa.ra ˈja.kɔ mˈzɛː ˈwa.ŋgu laˈki.ni ˈsɔ.kɔ li.na.ba.diˈli.ka kwa ˈka.si ni.si.ŋgɛˈpɛ.nda kuˈpi.ga ˈmbe.dʒa wa.kaˈti wa.ʃiˈnda.ni ˈja.ŋgu wa.naˈsɔ.ŋga mˈbɛ.lɛ/",
+      "phonetic_simple": "NAH-SEE-KEE-AH BOO-SAH-RAH YAH-KOH MZEEH WAHN-GOO LAH-KEE-NEE SOH-KOH LEE-NAH-BAH-DEE-LEE-KAH KWAH KAH-SEE NEE-SEEN-GEH-PEHN-DAH KOO-PEE-GAH MBEH-DJAH WAH-KAH-TEE WAH-SHEEN-DAH-NEE YAHN-GOO WAH-NAH-SOHN-GAH MBEH-LEH",
+      "translation": "Je reçois votre clairvoyance, mon patriarche. Néanmoins, le marché évolue à un rythme effréné. Je ne saurais user de faux-fuyants alors que mes concurrents progressent à pas de géant."
+    },
+    {
+      "speaker": "Mzee Biashara",
+      "text": "Ni kweli, lakini maji yakimwagika hayazoleki. Ukifanya maamuzi ya pupa bila kutafuta maana ya ndani ya makinikia, utapata hasara. Haraka haraka haina baraka.",
+      "phonetic_api": "/ni ˈkwɛ.li laˈki.ni ˈma.dʒi ja.ki.mwaˈgi.ka ha.ja.zɔˈlɛ.ki u.kiˈfa.ɲa ma.aˈmu.zi ya ˈpu.pa ˈbi.la ku.taˈfu.ta maˈa.na ja ˈnda.ni ya ma.ki.niˈki.a u.taˈpa.ta haˈsa.ra haˈra.ka haˈra.ka haˈi.na baˈra.ka/",
+      "phonetic_simple": "NEE KWEH-LEE LAH-KEE-NEE MAH-DJEE YAH-KEE-MWAH-GEE-KAH HAH-YAH-ZOH-LEH-KEE OO-KEE-FAH-NYAH MAH-AH-MOO-ZEE YAH POO-PAH BEE-LAH KOO-TAH-FOO-TAH MAH-AH-NAH YAH NDAH-NEE YAH MAH-KEE-NEE-KEE-AH OO-TAH-PAHT-AH HAH-SAH-RAH HAH-RAH-KAH HAH-RAH-KAH HAH-EE-NAH BAH-RAH-KAH",
+      "translation": "C'est exact, toutefois l'eau une fois répandue ne se recueille plus. Si tu arrêtes des résolutions hâtives sans soupeser la signification intrinsèque des données analytiques, tu subiras un préjudice. Précipitation n'engendre point bénédiction."
+    }
+  ],
+  "cultural_notes": [
+    "Les proverbes swahilis ('Methali') ne sont pas de simples expressions populaires ; ils constituent la charpente de la philosophie bantoue et swahilie. Dans l'espace public est-africain, un orateur qui maîtrise les 'methali' assoit immédiatement sa légitimité et montre qu'il possède le 'Utamaduni' (la culture profonde).",
+    "L'usage des 'Mafumbo' (paroles cryptées) est une stratégie d'évitement politique et social très raffinée. Historiquement, sur l'archipel de Zanzibar ou à Mombasa, les mafumbo permettaient de critiquer le pouvoir colonial ou les dirigeants locaux de façon subtile à travers des chansons de Taarab ou de la poésie, évitant ainsi la censure directe.",
+    "La transmission de la sagesse est traditionnellement l'apanage des 'Wazee' (les anciens/les aînés). Le respect de leur parole est codifié : contester un proverbe directement est un impair linguistique ; on préfère y répondre par une autre maxime contradictoire, le corpus des methali swahilies fonctionnant par paires d'oppositions."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel proverbe de haut niveau devez-vous invoquer pour signifier à un partenaire que des actions précipitées gâcheront les bénéfices futurs d'une entreprise ?",
+      "options": [
+        "Mchimba kaburi husitawi kuingia ndani.",
+        "Haraka haraka haina baraka.",
+        "Asiyefunzwa na mamae hufunzwa na ulimwengu.",
+        "Maji yakimwagika hayazoleki."
+      ],
+      "correct_answer": "Haraka haraka haina baraka.",
+      "explanation": "Cette maxime classique enseigne de manière intemporelle que la hâte excessive détruit la qualité et prive l'action de toute réussite pérenne (baraka)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mzee: 'Asiye[ ___ ]sikiliza la mkuu, huvunjika guu.' (Complétez avec le morphème de relatif négatif condensé archaïque requis pour former la sentence traditionelle).",
+      "correct_answer": "ye",
+      "hint": "C'est l'infixe de référence pour la classe nominale 1 (les êtres humains) au sein des structures négatives de vérité générale."
+    }
+  ]
+}

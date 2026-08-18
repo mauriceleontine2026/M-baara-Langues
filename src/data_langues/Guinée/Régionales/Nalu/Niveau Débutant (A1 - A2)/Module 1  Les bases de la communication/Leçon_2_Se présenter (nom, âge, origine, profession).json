@@ -1,0 +1,178 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter",
+  "learning_objectives": [
+    "Dire son nom, son âge et son origine",
+    "Présenter sa profession ou son activité principale"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne double 'gb' est une consonne co-articulée (labio-vélaire) typique des langues atlantiques : il faut prononcer le /g/ et le /b/ en un seul mouvement simultané, sans séparer les deux sons. Le son /ɲ/ (noté 'ny') se prononce comme le 'gn' français dans 'gagner'.",
+    "common_pitfalls": "Évitez de prononcer le pronom de première personne 'm' comme la lettre /ɛm/. C'est une consonne nasale syllabique qui bourdonne brièvement avant le verbe."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v2_1",
+      "term": "Nyere",
+      "phonetic_api": "/ɲe.re/",
+      "phonetic_simple": "NYÉ-RÉ",
+      "translation": "Nom / S'appeler",
+      "example_sentence": "Nyere mi Sékou.",
+      "example_phonetic": "/ɲe.re mi se.ku/",
+      "example_translation": "Mon nom est Sékou."
+    },
+    {
+      "word_id": "v2_2",
+      "term": "Boku",
+      "phonetic_api": "/bo.ku/",
+      "phonetic_simple": "BO-KOU",
+      "translation": "Venir de / Origine",
+      "example_sentence": "M boku Kanfarandé.",
+      "example_phonetic": "/m bo.ku ka?.fa.?.a?.de/",
+      "example_translation": "Je viens de Kanfarandé."
+    },
+    {
+      "word_id": "v2_3",
+      "term": "Abana",
+      "phonetic_api": "/a.ba.na/",
+      "phonetic_simple": "A-BA-NA",
+      "translation": "Années / Âge",
+      "example_sentence": "M balang abana tila.",
+      "example_phonetic": "/m ba.la? a.ba.na ti.la/",
+      "example_translation": "J'ai trente ans."
+    },
+    {
+      "word_id": "v2_4",
+      "term": "Wale",
+      "phonetic_api": "/wa.le/",
+      "phonetic_simple": "WA-LÉ",
+      "translation": "Travail / Profession",
+      "example_sentence": "Nale mi a ce.",
+      "example_phonetic": "/na.le mi a tʃe/",
+      "example_translation": "Mon travail est bon."
+    },
+    {
+      "word_id": "v2_5",
+      "term": "Kanyen",
+      "phonetic_api": "/ka.ɲe?/",
+      "phonetic_simple": "KA-NYEN",
+      "translation": "Habiter / Résider",
+      "example_sentence": "M kanyen Boké.",
+      "example_phonetic": "/m ka.ɲe? bo.ke/",
+      "example_translation": "J'habite à Boké."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p2_1",
+      "original": "A rila nyere mwo?",
+      "phonetic_api": "/a ri.la ɲe.re mwo/",
+      "phonetic_simple": "A RI-LA NYÉ-RÉ MWO",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Formule directe pour demander l'identité de quelqu'un."
+    },
+    {
+      "phrase_id": "p2_2",
+      "original": "M boku gbe Guine.",
+      "phonetic_api": "/m bo.ku gbe gi.ne/",
+      "phonetic_simple": "M BO-KOU GBÉ GUI-NÉ",
+      "translation": "Je viens de Guinée.",
+      "context": "Utile pour exprimer son pays d'origine lors d'une rencontre."
+    },
+    {
+      "phrase_id": "p2_3",
+      "original": "A mboye wale mwo?",
+      "phonetic_api": "/a mbo.je wa.le mwo/",
+      "phonetic_simple": "A MBO-YÉ WA-LÉ MWO",
+      "translation": "Quel est ton travail ?",
+      "context": "Question polie pour s'enquérir de l'activité professionnelle de l'interlocuteur."
+    },
+    {
+      "phrase_id": "p2_4",
+      "original": "M gbe karandéena.",
+      "phonetic_api": "/m gbe ka.ra?.deː.na/",
+      "phonetic_simple": "M GBÉ KA-RAN-DÉÉ-NA",
+      "translation": "Je suis étudiant / élève.",
+      "context": "Permet de décliner son statut académique ou d'apprentissage."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le pronom personnel sujet de première personne 'M'",
+      "explanation": "Pour exprimer le 'Je' en nalu, on emploie la consonne nasale bilabiale 'M' placée immédiatement devant le radical verbal. Elle s'assimile phonétiquement selon la consonne qui la suit.",
+      "rules": [
+        "Devant les consonnes occlusives (b, p), elle se prononce nettement 'M'.",
+        "Elle ne nécessite pas de voyelle d'appui en début d'énoncé."
+      ],
+      "examples": [
+        {
+          "structure": "M boku...",
+          "phonetic_api": "/m bo.ku/",
+          "meaning": "Je viens de..."
+        },
+        {
+          "structure": "M kanyen...",
+          "phonetic_api": "/m ka.ɲe?/",
+          "meaning": "J'habite..."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Aissata",
+      "text": "Mboye! A rila nyere mwo?",
+      "phonetic_api": "/mbo.je a ri.la ɲe.re mwo/",
+      "phonetic_simple": "MBO-YÉ! A RI-LA NYÉ-RÉ MWO?",
+      "translation": "Bonjour ! Comment t'appelles-tu ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Mboye ce! Nyere mi Ousmane. I mwo?",
+      "phonetic_api": "/mbo.je tʃe ɲe.re mi us.man i mwo/",
+      "phonetic_simple": "MBO-YÉ TCHÉ! NYÉ-RÉ MI OUS-MANE. I MWO?",
+      "translation": "Bonjour bien ! Mon nom est Ousmane. Et toi ?"
+    },
+    {
+      "speaker": "Aissata",
+      "text": "Nyere mi Aissata. M boku Kanfarandé. A mboye wale mwo?",
+      "phonetic_api": "/ɲe.re mi ai.sa.ta m bo.ku ka?.fa.?.a?.de a mbo.je wa.le mwo/",
+      "phonetic_simple": "NYÉ-RÉ MI AIS-SA-TA. M BO-KOU KA-NFAN-RAN-DÉ. A MBO-YÉ WA-LÉ MWO?",
+      "translation": "Mon nom est Aissata. Je viens de Kanfarandé. Quel est ton travail ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "M gbe karandéena. M kanyen Boké.",
+      "phonetic_api": "/m gbe ka.ra?.deː.na m ka.ɲe? bo.ke/",
+      "phonetic_simple": "M GBÉ KA-RAN-DÉÉ-NA. M KA-NYEN BO-KÉ.",
+      "translation": "Je suis étudiant. J'habite à Boké."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture Nalu, décliner son origine géographique ou son village ancestral (comme Kanfarandé ou Katchek) est tout aussi important que donner son propre prénom. Cela permet immédiatement d'établir les connexions claniques et de situer les lignages familiaux."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex2_1",
+      "type": "multiple_choice",
+      "question": "Que signifie la phrase 'M boku Guine' ?",
+      "options": [
+        "J'habite en Guinée",
+        "Je vais en Guinée",
+        "Je viens de Guinée"
+      ],
+      "correct_answer": "Je viens de Guinée",
+      "explanation": "Le verbe 'boku' marque la provenance, la source ou l'origine géographique."
+    },
+    {
+      "exercise_id": "ex2_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander le nom de quelqu'un, on dit : A rila [ ___ ] mwo?",
+      "correct_answer": "nyere",
+      "hint": "Signifie 'nom' ou 'prénom'"
+    }
+  ]
+}

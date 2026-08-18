@@ -1,0 +1,258 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure en chinois mandarin",
+  "learning_objectives": [
+    "Exprimer la date complète (année, mois, jour) en respectant l'ordre syntaxique chinois descendant",
+    "Nommer les jours de la semaine et les douze mois de l'année à l'aide des structures numériques",
+    "Demander et indiquer l'heure exacte, les minutes, la demie et le quart d'heure"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon utilise intensivement les consonnes affriquées rétroflexes et alvéolaires. Le mot 星期 (xīngqī) demande d'enchaîner deux sons au 1er ton (haut et plat) : le 'x' (/%) est une palatale sifflée, tandis que 'q' (/tɕʰ/) nécessite une forte aspiration d'air. Le mot 点 (diǎn) utilise une finale complexe avec une diphtongue nasale /i̯ɛn/, à prononcer de façon fluide au 3ème ton descendant-montant. Le mot 月 (yuè) introduit la voyelle arrondie antérieure /y/ suivie d'un 'e' ouvert, le tout frappé d'un 4ème ton descendant et sec.",
+    "common_pitfalls": "L'erreur récurrente est de prononcer le 'q' de 星期 (xīngqī) ou 几点 (jǐdiǎn) comme un 'k' ou un 'ch' français. Il s'agit bien d'un son proche de 'tch', mais avec l'air expulsé activement. Veillez également à ce que le mot 年 (nián) monte distinctement (2ème ton) et ne soit pas confondu avec 天 (tiān - 1er ton)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "星期",
+      "phonetic_api": "/ɕiŋ˥ tɕʰi˥/",
+      "phonetic_simple": "CHING-TCHEE",
+      "translation": "Semaine",
+      "example_sentence": "今天星期三。",
+      "example_phonetic": "/tɕin˥ tʰi̯ɛn˥ ɕiŋ˥ tɕʰi˥ san˥/",
+      "example_translation": "Aujourd'hui, c'est mercredi."
+    },
+    {
+      "word_id": "v2",
+      "term": "月",
+      "phonetic_api": "/ɥ̯ɛ˥˩/",
+      "phonetic_simple": "YOUÉ",
+      "translation": "Mois / Lune",
+      "example_sentence": "现在是十二月。",
+      "example_phonetic": "/ɕi̯ɛn˥˩ dzaɪ̯˥˩ ʂʐʐ˧˥ ɤr˥˩ ɥ̯ɛ˥˩/",
+      "example_translation": "Maintenant, nous sommes en décembre."
+    },
+    {
+      "word_id": "v3",
+      "term": "号",
+      "phonetic_api": "/xaʊ̯˥˩/",
+      "phonetic_simple": "HAO",
+      "translation": "Jour du mois / Numéro (langue parlée)",
+      "example_sentence": "明天开启是五号。",
+      "example_phonetic": "/miŋ˧˥ tʰi̯ɛn˥ ʂʐʐ˥˩ wu˨˩˦ xaʊ̯˥˩/",
+      "example_translation": "Demain, ce sera le 5 (du mois)."
+    },
+    {
+      "word_id": "v4",
+      "term": "点",
+      "phonetic_api": "/ti̯ɛn˨˩˦/",
+      "phonetic_simple": "TIEN",
+      "translation": "Heure (sur l'horloge) / Point",
+      "example_sentence": "现在两点。",
+      "example_phonetic": "/ɕi̯ɛn˥˩ dzaɪ̯˥˩ li̯aŋ˨˩˦ ti̯ɛn˨˩˦/",
+      "example_translation": "Il est deux heures maintenant."
+    },
+    {
+      "word_id": "v5",
+      "term": "分",
+      "phonetic_api": "/fən˥/",
+      "phonetic_simple": "FEN",
+      "translation": "Minute",
+      "example_sentence": "八点零五分。",
+      "example_phonetic": "/ba˥ ti̯ɛn˨˩˦ liŋ˧˥ wu˨˩˦ fən˥/",
+      "example_translation": "Huit heures et cinq minutes (8h05)."
+    },
+    {
+      "word_id": "v6",
+      "term": "半",
+      "phonetic_api": "/ban˥˩/",
+      "phonetic_simple": "BAN",
+      "translation": "Demi / Demie (heure)",
+      "example_sentence": "我现在七点半吃饭。",
+      "example_phonetic": "/wo˨˩˦ ɕi̯ɛn˥˩ dzaɪ̯˥˩ tɕʰi˥ ti̯ɛn˨˩˦ ban˥˩ tʂʰʐ̩˥ fan˥˩/",
+      "example_translation": "Je mange à sept heures et demie (7h30)."
+    },
+    {
+      "word_id": "v7",
+      "term": "时候",
+      "phonetic_api": "/ʂʐ̩˧˥ xoʊ̯/",
+      "phonetic_simple": "CHEU-HOU",
+      "translation": "Moment / Temps",
+      "example_sentence": "你什么时候来？",
+      "example_phonetic": "/ni˨˩˦ ʂən˧˥ mɤ ʂʐ̩˧˥ xoʊ̯ laɪ̯˧˥/",
+      "example_translation": "Quand viens-tu ? (litt. 'à quel moment')"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "今天几号？",
+      "phonetic_api": "/tɕin˥ tʰi̯ɛn˥ tɕi˨˩˦ xaʊ̯˥˩/",
+      "phonetic_simple": "TCHIN-THIEN TCHEE HAO",
+      "translation": "On est le combien aujourd'hui ?",
+      "context": "Demander la date du jour de façon courante"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "今天二零二六年八月十七号。",
+      "phonetic_api": "/tɕin˥ tʰi̯ɛn˥ ɤr˥˩ liŋ˧˥ ɤr˥˩ li̯oʊ̯˥ ni̯ɛn˧˥ ba˥ ɥ̯ɛ˥˩ ʂʐʐ˧˥ tɕʰi˥ xaʊ̯˥˩/",
+      "phonetic_simple": "TCHIN-THIEN ER LING ER LIOU NIEN BA YOUÉ CHEI TCHEE HAO",
+      "translation": "Aujourd'hui, nous sommes le 17 août 2026.",
+      "context": "Donner la date complète du jour de manière standard"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "今天星期几？",
+      "phonetic_api": "/tɕin˥ tʰi̯ɛn˥ ɕiŋ˥ tɕʰi˥ tɕi˨˩˦/",
+      "phonetic_simple": "TCHIN-THIEN CHING-TCHEE TCHEE",
+      "translation": "Quel jour de la semaine sommes-nous ?",
+      "context": "Question systématique pour connaître le jour actuel de la semaine"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "今天星期一。",
+      "phonetic_api": "/tɕin˥ tʰi̯ɛn˥ ɕiŋ˥ tɕʰi˥ i˥/",
+      "phonetic_simple": "TCHIN-THIEN CHING-TCHEE EE",
+      "translation": "Aujourd'hui, c'est lundi.",
+      "context": "Réponse indiquant le premier jour de la semaine"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "现在几点？",
+      "phonetic_api": "/ɕi̯ɛn˥˩ dzaɪ̯˥˩ tɕi˨˩˦ ti̯ɛn˨˩˦/",
+      "phonetic_simple": "CHIEN-DZAÏ TCHEE TIEN",
+      "translation": "Quelle heure est-il maintenant ?",
+      "context": "Demander l'heure qu'il est à tout moment"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "现在差一刻十点。",
+      "phonetic_api": "/ɕi̯ɛn˥˩ dzaɪ̯˥˩ tʂʰa˥ i˥ kʰɤ˥˩ ʂʐʐ˧˥ ti̯ɛn˨˩˦/",
+      "phonetic_simple": "CHIEN-DZAÏ TCHA EE KHÉ CHEI TIEN",
+      "translation": "Il est dix heures moins le quart.",
+      "context": "Donner l'heure en utilisant la soustraction du quart d'heures"
+    },
+    {
+      "phrase_id": "p7",
+      "original": "我的生日是九月十四号。",
+      "phonetic_api": "/wo˨˩˦ dɤ ʂəŋ˥ ʐʐ̩˥˩ ʂʐʐ˥˩ tɕi̯u˨˩˦ ɥ̯ɛ˥˩ ʂʐʐ˧˥ sʐ̩˥˩ xaʊ̯˥˩/",
+      "phonetic_simple": "OUO DEU CHENG-JEE CHEI TCHIOU YOUÉ CHEI SEU HAO",
+      "translation": "Mon anniversaire est le 14 septembre.",
+      "context": "Indiquer sa date de naissance"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La logique syntaxique descendante du temps (Grande unité vers la petite)",
+      "explanation": "En chinois mandarin, l'expression du temps, de l'espace ou des adresses suit une logique immuable du plus grand vers le plus petit. C'est l'inverse exact de la structure française.",
+      "rules": [
+        "Pour donner une date complète, l'ordre strict est : Année (年 nián) ➔ Mois (月 yuè) ➔ Jour (号 hào / 日 rì) ➔ Moment de la journée ➔ Heure.",
+        "Les années se lisent simplement chiffre par chiffre, suivies du mot 年. Exemple : 2026年 se dit 'Er líng èr liù nián'."
+      ],
+      "examples": [
+        {
+          "structure": "八月 (Août) + 十七号 (17) = 八月十七号",
+          "phonetic_api": "/ba˥ ɥ̯ɛ˥˩ ʂʐʐ˧˥ tɕʰi˥ xaʊ̯˥˩/",
+          "meaning": "Le 17 août."
+        }
+      ]
+    },
+    {
+      "concept": "La construction numérique simplifiée des jours et des mois",
+      "explanation": "Le mandarin n'utilise pas de noms propres abstraits comme 'Lundi', 'Mardi', 'Janvier' ou 'Février'. Tout le calendrier est rationalisé grâce aux chiffres.",
+      "rules": [
+        "Pour les mois, on place le numéro du mois (1 à 12) devant le mot 月 (Mois). Exemple : 一月 (Janvier), 二月 (Février).",
+        "Pour la semaine, on utilise le mot 星期 (xīngqī) suivi du chiffre de 1 à 6. Exemple : 星期一 (Lundi), 星期六 (Samedi).",
+        "Exception cruciale : Le Dimanche ne se construit pas avec le chiffre 7, mais se dit 星期天 (xīngqītiān) ou 星期日 (xīngqīrì)."
+      ],
+      "examples": [
+        {
+          "structure": "星期 (Semaine) + 三 (3) = 星期三",
+          "phonetic_api": "/ɕiŋ˥ tɕʰi˥ san˥/",
+          "meaning": "Le troisième jour de la semaine ➔ Mercredi."
+        }
+      ]
+    },
+    {
+      "concept": "Règles pour exprimer l'heure exacte et l'emploi obligatoire de 两 (liǎng)",
+      "explanation": "Pour dire l'heure, on indique le nombre suivi du classificateur 点 (diǎn) puis les minutes suivies de 分 (fēn).",
+      "rules": [
+        "Règle 1 : Dès qu'il est 2 heures pile ou 2 heures du matin/après-midi, on n'utilise jamais le chiffre 二 (èr), mais obligatoirement 两 (liǎng) devant le classificateur 点.",
+        "Règle 2 : Pour les minutes inférieures à 10, il est d'usage d'énoncer le mot 零 (líng - zéro) pour maintenir le rythme binaire de la phrase. Exemple : 3点05分 = 三点零五分."
+      ],
+      "examples": [
+        {
+          "structure": "两点五分 (liǎng diǎn wǔ fēn)",
+          "phonetic_api": "/li̯aŋ˨˩˦ ti̯ɛn˨˩˦ wu˨˩˦ fən˥/",
+          "meaning": "Deux heures et cinq minutes (2h05) [et non èr diǎn]."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "大卫 (David)",
+      "text": "李华，请问现在几点？我的手表慢了。",
+      "phonetic_api": "/li<˧˥ xwa˧˥ tɕʰiŋ˨˩˦ wen˥˩ ɕi̯ɛn˥˩ dzaɪ̯˥˩ tɕi˨˩˦ ti̯ɛn˨˩˦ wo˨˩˦ dɤ ʂoʊ̯˨˩˦ bi̯aʊ̯˨˩˦ man˥˩ lɤ/",
+      "phonetic_simple": "LEE HOUA, TCHING-OUEN CHIEN-DZAÏ TCHEE TIEN ? OUO DEU CHOUOU-BIAO MAN LEU.",
+      "translation": "Li Hua, s'il te plaît, quelle heure est-il maintenant ? Ma montre retarde."
+    },
+    {
+      "speaker": "李华 (Li Hua)",
+      "text": "现在差十分一点。你下午有课吗？",
+      "phonetic_api": "/ɕi̯ɛn˥˩ dzaɪ̯˥˩ tʂʰa˥ ʂʐʐ˧˥ fən˥ i˥ ti̯ɛn˨˩˦ ni˨˩˦ ɕi̯a˥˩ u˨˩˦ joʊ̯˨˩˦ kʰɤ˥˩ ma/",
+      "phonetic_simple": "CHIEN-DZAÏ TCHA CHEI FEN EE TIEN. NEE CHIA-OU YOW KHÉ MA ?",
+      "translation": "Il est une heure moins dix (12h50). Tu as des cours cet après-midi ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "有，两点半有汉语课。今天星期几？",
+      "phonetic_api": "/joʊ̯˨˩˦ li̯aŋ˨˩˦ ti̯ɛn˨˩˦ ban˥˩ joʊ̯˨˩˦ xan˥˩ y˨˩˦ kʰɤ˥˩ tɕin˥ tʰi̯ɛn˥ ɕiŋ˥ tɕʰi˥ tɕi˨˩˦/",
+      "phonetic_simple": "YOW, LIANG TIEN BAN YOW HAN-GNU KHÉ. TCHIN-THIEN CHING-TCHEE TCHEE ?",
+      "translation": "Oui, j'ai cours de chinois à deux heures et demie (14h30). Quel jour sommes-nous aujourd'hui ?"
+    },
+    {
+      "speaker": "李华 (Li Hua)",
+      "text": "今天星期一，是八月十七号。",
+      "phonetic_api": "/tɕin˥ tʰi̯ɛn˥ ɕiŋ˥ tɕʰi˥ i˥ ʂʐʐ˥˩ ba˥ ɥ̯ɛ˥˩ ʂʐʐ˧˥ tɕʰi˥ xaʊ̯˥˩/",
+      "phonetic_simple": "TCHIN-THIEN CHING-TCHEE EE, CHEI BA YOUÉ CHEI TCHEE HAO.",
+      "translation": "Aujourd'hui nous sommes lundi, c'est le 17 août."
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "谢谢你，那我要去教室 family 了，明天见！",
+      "phonetic_api": "/ɕi̯ɛ˥˩ ɕi̯ɛ ni na˥˩ wo˨˩˦ jaʊ̯˥˩ tɕy˥˩ tɕi̯aʊ̯˥˩ ʂʐʐ˥˩ lɤ miŋ˧˥ tʰi̯ɛn˥ tɕi̯ɛn˥˩/",
+      "phonetic_simple": "CHIEH-CHIEH NEE, NA OUO YAO TCHY TCHIAO-CHEI LEU, MING-THIEN TCHIEN !",
+      "translation": "Merci à toi, alors je dois y aller en classe, à demain !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les documents administratifs officiels, la presse ou l'écriture formelle, le jour du mois n'est pas transcrit par le caractère '号' (hào), mais par le caractère '日' (rì), qui signifie historiquement 'le Soleil'. À l'oral, '号' reste l'expression dominante.",
+    "La ponctualité est une vertu hautement estimée en Chine, que ce soit en entreprise ou dans le système scolaire. Arriver en retard à un cours ou à un rendez-vous professionnel sans avoir prévenu à l'avance est considéré comme un manque de respect important qui nuit au maintien du capital social ('Mianzi').",
+    "Pour lever toute ambiguïté sur l'heure (puisque le système de 24 heures est peu employé à l'oral couramment), les Chinois font précéder l'heure d'un mot temporel clair : 早上 (zǎoshang - matin), 中午 (zhōngwǔ - midi), 下午 (xiàwǔ - après-midi) ou 晚上 (wǎnshang - soir). Exemple : 晚上八点 (Huit heures du soir / 20h)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment traduit-on de façon grammaticalement parfaite l'expression horaire : 'Il est 2 heures et quart (14h15)' ?",
+      "options": [
+        "二点一刻 (Èr diǎn yī kè)",
+        "两点十五分 (Liǎng diǎn shí wǔ fēn)",
+        "两点一分 (Liǎng diǎn yī fēn)"
+      ],
+      "correct_answer": "两点十五分 (Liǎng diǎn shí wǔ fēn)",
+      "explanation": "On emploie '两' (liǎng) devant le classificateur des heures '点'. Vingt-et-un minutes ou un quart d'heure peut s'énoncer '十五分' (shíwǔ fēn) ou '一刻' (yī kè). La structure '两点一刻' ou '两点十五分' est donc parfaitement correcte."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A: 今天是星期几？ B: 今天是星期 [ ___ ] (Dimanche)。",
+      "correct_answer": "天",
+      "hint": "Le dimanche brise la suite numérique et utilise le mot ciel/jour ou le mot soleil."
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Niveau Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Exprimer une action complètement achevée dans le passé (parfait/accompli)",
+    "Raconter une suite d'événements ou une routine passée",
+    "Utiliser les marqueurs temporels du passé ('hier', 'l'année dernière')"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La marque du passé ou de l'accompli implique souvent une modification tonale en fin de racine verbale ou l'adjonction d'un suffixe à ton bas /ò/. Veillez à bien faire descendre le ton pour marquer la complétude de l'action.",
+    "common_pitfalls": "Ne pas confondre la marque du présent progressif (ton haut avec auxiliaire) et la forme nue ou suffixée du verbe au passé qui utilise un ton distinct."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v4_1",
+      "term": "sináá",
+      "phonetic_api": "/sì.náː/",
+      "phonetic_simple": "SI-NAA",
+      "translation": "hier",
+      "example_sentence": "ń táá-ò lòlà sináá",
+      "example_phonetic": "/ń táː.ò lò.là sì.náː/",
+      "example_translation": "Je suis allé à Lola hier."
+    },
+    {
+      "word_id": "v4_2",
+      "term": "kɛ́-ò",
+      "phonetic_api": "/kɛ́.ò/",
+      "phonetic_simple": "KE-O",
+      "translation": "avoir fait / accompli (du verbe kɛ́, faire)",
+      "example_sentence": "àá tà-gbáá kɛ́-ò",
+      "example_phonetic": "/àː tà.ɡ͡báː kɛ́.ò/",
+      "example_translation": "Nous avons joué au football."
+    },
+    {
+      "word_id": "v4_3",
+      "term": "bòn-wòò",
+      "phonetic_api": "/bòn.wòː/",
+      "phonetic_simple": "BON-WOO",
+      "translation": "l'année passée / l'an dernier",
+      "example_sentence": "á nà-ò ɓɔ́ bòn-wòò yí",
+      "example_phonetic": "/á nà.ò ɓɔ́ bòn.wòː jí/",
+      "example_translation": "Il est venu ici l'année passée."
+    },
+    {
+      "word_id": "v4_4",
+      "term": "míé-mìè",
+      "phonetic_api": "/mí.é.mì.è/",
+      "phonetic_simple": "MIEE-MIEE",
+      "translation": "autrefois / jadis",
+      "example_sentence": "àá káá ɓɔ́ míé-mìè",
+      "example_phonetic": "/àː káː ɓɔ́ mí.é.mì.è/",
+      "example_translation": "Nous habitions ici autrefois."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p4_1",
+      "original": "míɛ́ le í á kɛ́-ò sináá ?",
+      "phonetic_api": "/mí.ɛ́ le í á kɛ́.ò sì.náː/",
+      "phonetic_simple": "MIEE LE I A KE-O SI-NAA",
+      "translation": "Qu'as-tu fait hier ?",
+      "context": "Prendre des nouvelles des activités récentes de quelqu'un."
+    },
+    {
+      "phrase_id": "p4_2",
+      "original": "ń táá-ò kɔ̀nɔ̀n yí sináá gáá-wòò",
+      "phonetic_api": "/ń táː.ò kɔ̀nɔ̀n jí sì.náː ɡáː.wòː/",
+      "phonetic_simple": "N TAA-O KONON YI SI-NAA GAA-WOO",
+      "translation": "Je suis allé au champ hier soir.",
+      "context": "Raconter son emploi du temps de la veille."
+    },
+    {
+      "phrase_id": "p4_3",
+      "original": "í nà-ò míɛ́ lɔ̀ɔ̀ yí ?",
+      "phonetic_api": "/í nà.ò mí.ɛ́ lɔ̀ː jí/",
+      "phonetic_simple": "I NA-O MIEE LOO YI",
+      "translation": "Quand es-tu arrivé ?",
+      "context": "Interroger un voyageur ou un visiteur sur son moment d'arrivée."
+    },
+    {
+      "phrase_id": "p4_4",
+      "original": "ń nà-ò sɔ̀ɔ̀-gɓɛ̀ɛ̀ gí",
+      "phonetic_api": "/ń nà.ò sɔ̀ː.ɡ͡ɓɛ̀ː ɡí/",
+      "phonetic_simple": "N NA-O SOO-GBEE GI",
+      "translation": "Je suis arrivé ce matin.",
+      "context": "Préciser le moment de son arrivée au cours de la journée actuelle."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'aspect accompli avec le suffixe '-ò'",
+      "explanation": "Pour exprimer qu'une action est terminée (passé composé ou passé simple en français), le kono ajoute le suffixe à ton bas '-ò' directement à la racine du verbe d'action.",
+      "rules": [
+        "Verbe d'action + ò = Action passée et achevée.",
+        "Si le verbe se termine déjà par une voyelle longue, celle-ci s'abrège parfois ou fusionne avec le suffixe."
+      ],
+      "examples": [
+        {
+          "structure": "táá (aller) -> táá-ò",
+          "phonetic_api": "/táː.ò/",
+          "meaning": "est allé / suis allé"
+        },
+        {
+          "structure": "nà (venir) -> nà-ò",
+          "phonetic_api": "/nà.ò/",
+          "meaning": "est venu / suis venu"
+        }
+      ]
+    },
+    {
+      "concept": "La négation au passé accompli",
+      "explanation": "Lorsqu'on nie une action au passé, le suffixe '-ò' disparaît et l'on utilise une particule de négation spécifique du passé placée avant le verbe.",
+      "rules": [
+        "Sujet + máá + Verbe (à la forme nue)."
+      ],
+      "examples": [
+        {
+          "structure": "ń máá táá sináá",
+          "phonetic_api": "/ń máː táː sì.náː/",
+          "meaning": "Je ne suis pas allé hier."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Koli",
+      "text": "Sia, í táá-ò lòlà sináá wá ?",
+      "phonetic_api": "/sí.á í táː.ò lò.là sì.náː wá/",
+      "phonetic_simple": "SIA I TAA-O LOLA SI-NAA WA",
+      "translation": "Sia, es-tu allée à Lola hier ?"
+    },
+    {
+      "speaker": "Sia",
+      "text": "òò, ń máá táá lòlà. ń táá-ò kɔ̀nɔ̀n yí ń ɓáá gbéé.",
+      "phonetic_api": "/òː ń máː táː lò.là ń táː.ò kɔ̀nɔ̀n jí ń ɓáː ɡ͡ɓéː/",
+      "phonetic_simple": "OO N MAA TAA LOLA. N TAA-O KONON YI N BHAA GBEE",
+      "translation": "Non, je ne suis pas allée à Lola. Je suis allée au champ avec mon père."
+    },
+    {
+      "speaker": "Koli",
+      "text": "kénɛ̀ le, í nà-ò míɛ́ lɔ̀ɔ̀ yí ?",
+      "phonetic_api": "/kɛ́nɛ̀ le í nà.ò mí.ɛ́ lɔ̀ː jí/",
+      "phonetic_simple": "KENE LE I NA-O MIEE LOO YI",
+      "translation": "D'accord, et quand es-tu revenue ?"
+    },
+    {
+      "speaker": "Sia",
+      "text": "ń nà-ò gáá-wòò kúni.",
+      "phonetic_api": "/ń nà.ò ɡáː.wòː kú.ni/",
+      "phonetic_simple": "N NA-O GAA-WOO KOONI",
+      "translation": "Je suis revenue tard le soir."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la tradition orale konon, le récit des événements passés structure les palabres et la transmission intergénérationnelle. Situer précisément une action par rapport aux saisons agricoles (saison des pluies, récolte du riz) ou aux moments clés de la journée est primordial pour donner de la crédibilité à son récit."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex4_1",
+      "type": "multiple_choice",
+      "question": "Quelle est la marque de l'accompli (passé) sur le verbe en kono ?",
+      "options": [
+        "Le suffixe -á",
+        "Le suffixe -ò",
+        "L'auxiliaire bɛ́"
+      ],
+      "correct_answer": "Le suffixe -ò",
+      "explanation": "Le suffixe à ton bas '-ò' attaché au verbe indique que l'action est complétée dans le passé."
+    },
+    {
+      "exercise_id": "ex4_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "ń máá [ ___ ] sináá (Je ne suis pas allé hier)",
+      "correct_answer": "táá",
+      "hint": "Le verbe 'aller' à sa forme nue"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Nommer les couleurs fondamentales au masculin et au féminin en arabe standard",
+    "Identifier le vocabulaire essentiel des vêtements et des accessoires du quotidien",
+    "Décrire la tenue vestimentaire de quelqu'un et exprimer des préférences esthétiques simples"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en avant des structures adjectivales spécifiques. Le son /ħ/ (ح) est central dans 'Ahmar' (rouge) et 'Hidhā'' (chaussures). Le son /x/ (خ) apparaît dans 'Akhdar' (vert) et 'Khātam' (bague). La consonne emphatique /sˤ/ (ص) structure 'Asfar' (jaune) et 'Kamīs' (chemise), modifiant l'ouverture des voyelles environnantes.",
+    "common_pitfalls": "Attention au schème phonétique masculin 'Af'alu' (أَفْعَلُ) qui porte une seule voyelle courte à la fin (sans tanween). Veillez à ne pas prononcer 'Ahmaru' avec un son 'n' final. Pour le féminin 'Fa'lā'u' (فَعْلَاءُ), marquez bien le coup de glotte final du Hamza après la voyelle longue."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "لَوْنٌ",
+      "phonetic_api": "/law.nun/",
+      "phonetic_simple": "LAW-MOUN",
+      "translation": "Une couleur",
+      "example_sentence": "مَا لَوْنُكَ الْمُفَضَّلُ؟",
+      "example_phonetic": "/maː law.nuka l.mu.fadˤ.dˤalu/",
+      "example_translation": "Quelle est ta couleur préférée ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "مَلَابِسُ",
+      "phonetic_api": "/ma.laː.bi.su/",
+      "phonetic_simple": "MA-LAA-BI-SOU",
+      "translation": "Des vêtements / Des habits",
+      "example_sentence": "أَشْتَرِي مَلَابِسَ جَدِيدَةً",
+      "example_phonetic": "/.../",
+      "example_translation": "J'achète de nouveaux vêtements"
+    },
+    {
+      "word_id": "v3",
+      "term": "قَمِيصٌ",
+      "phonetic_api": "/qa.miː.sˤun/",
+      "phonetic_simple": "KA-MII-SOUN",
+      "translation": "Une chemise",
+      "example_sentence": "هَذَا قَمِيصٌ أَبْيَضُ",
+      "example_phonetic": "/haː.ðaː qa.miː.sˤun ʔab.ja.du/",
+      "example_translation": "C'est une chemise blanche"
+    },
+    {
+      "word_id": "v4",
+      "term": "فُسْتَانٌ",
+      "phonetic_api": "/fus.taː.nun/",
+      "phonetic_simple": "FOUS-TAA-NOUN",
+      "translation": "Une robe",
+      "example_sentence": "تَرْتَدِي فُسْتَانًا أَحْمَرَ",
+      "example_phonetic": "/.../",
+      "example_translation": "Elle porte une robe rouge"
+    },
+    {
+      "word_id": "v5",
+      "term": "حِذَاءٌ",
+      "phonetic_api": "/ħi.ðaː.ʔun/",
+      "phonetic_simple": "HI-THAA-OUN",
+      "translation": "Des chaussures / Une paire de chaussures",
+      "example_sentence": "حِذَاءٌ أَسْوَدُ جَمِيلٌ",
+      "example_phonetic": "/.../",
+      "example_translation": "De belles chaussures noires"
+    },
+    {
+      "word_id": "v6",
+      "term": "سِرْوَالٌ",
+      "phonetic_api": "/sir.waː.lun/",
+      "phonetic_simple": "SIR-WAA-LOUN",
+      "translation": "Un pantalon",
+      "example_sentence": "أُرِيدُ سِرْوَالًا أَزْرَقَ",
+      "example_phonetic": "/.../",
+      "example_translation": "Je veux un pantalon bleu"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "مَاذَا تَرْتَدِي الْيَوْمَ؟",
+      "phonetic_api": "/maː.ðaː tar.ta.diː l.jaw.ma/",
+      "phonetic_simple": "MAA-THAA TAR-TA-DII L-YAW-MA",
+      "translation": "Que portes-tu aujourd'hui ? (à un homme)",
+      "context": "Interroger quelqu'un sur sa tenue vestimentaire actuelle."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "أَنَا أَرْتَدِي مِعْطَفًا بَنِّيًّا",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "A-NAA AR-TA-DII MI'-TA-FAN BAN-NII-YAN",
+      "translation": "Je porte un manteau marron",
+      "context": "Décrire sa propre tenue."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "كَمْ سِعْرُ هَذِهِ الْعَبَاءَةِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "KAM SIBRU HAA-THI-HIL A-BAA-A",
+      "translation": "Combien coûte cette abaya ?",
+      "context": "Demander le prix d'un vêtement traditionnel dans un magasin ou un souk."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "هَذَا اللَّوْنُ لَا يُعْجِبُنِي",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAA-THAL LAW-NOU LAA YOU'-DJI-BOU-NII",
+      "translation": "Cette couleur ne me plaît pas",
+      "context": "Exprimer un avis négatif lors d'un essayage."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "هَلْ عِنْدَكُمْ مَقَاسٌ أَكْبَرُ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAL IN-DA-KOUM MA-KAAS AK-BAR",
+      "translation": "Avez-vous une taille plus grande ?",
+      "context": "Formule essentielle lors du shopping de vêtements."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le genre des adjectifs de couleur (Schèmes chromatiques)",
+      "explanation": "En arabe standard, les adjectifs de couleur de base ne se féminisent pas avec un simple Tā' Marbūṭah (ة). Ils suivent des modèles morphologiques (schèmes) entièrement distincts pour le masculin et pour le féminin.",
+      "rules": [
+        "Au masculin singulier, la couleur suit le schème 'Af'alu' (أَفْعَلُ) : Blanc (Abyaḍ), Noir (Aswad), Rouge (Aḥmar), Vert (Akhḍar), Bleu (Azraq), Jaune (Aṣfar).",
+        "Au féminin singulier, la couleur suit le schème 'Fa'lā'u' (فَعْلَاءُ) : Blanche (Bayḍā'), Noire (Sawdā'), Rouge (Ḥamrā'), Verte (Khaḍrā'), Bleue (Zarqā'), Jaune (Ṣafrā').",
+        "Ces deux schèmes appartiennent à la catégorie des diptotes (Mamnoo' min as-Sarf) : ils ne prennent jamais de tanween à la fin."
+      ],
+      "examples": [
+        {
+          "structure": "قَمِيصٌ أَخْضَرُ",
+          "phonetic_api": "/qa.miː.sˤun ʔax.dˤaru/",
+          "meaning": "Une chemise verte (Kamīs est masculin en arabe, adjectif masculin 'Akhḍar')"
+        },
+        {
+          "structure": "سَيَّارَةٌ خَضْرَاءُ",
+          "phonetic_api": "/saj.jaː.ra.tun xadˤ.raː.ʔu/",
+          "meaning": "Une voiture verte (Sayyārah est féminin, adjectif féminin 'Khaḍrā'')"
+        }
+      ]
+    },
+    {
+      "concept": "Le verbe 'Porter un vêtement' au présent : Irtadā / Yartadī (اِرْتَدَى / يَرْتَدِي)",
+      "explanation": "Pour exprimer l'action de s'habiller ou de porter une tenue, l'arabe standard utilise principalement le verbe de la forme VIII 'Irtadā'.",
+      "rules": [
+        "À la première personne du présent (Je porte) : Anā artadī (أَنَا أَرْتَدِي).",
+        "Le vêtement porté occupe la fonction grammaticale d'objet direct (Accusatif) et prend la marque de la fatha ou du tanween fatha s'il est indéfini."
+      ],
+      "examples": [
+        {
+          "structure": "أَرْتَدِي مِعْطَفًا",
+          "phonetic_api": "/ar.ta.diː miʕ.tˤa.fan/",
+          "meaning": "Je porte un manteau (Mi'ṭaf prend le tanween -an)"
+        },
+        {
+          "structure": "تَرْتَدِي الْفُسْتَانَ",
+          "phonetic_api": "/tar.ta.diː l.fus.taː.na/",
+          "meaning": "Elle porte la robe (Fustān prend la fatha simple -a car défini)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "سَارَة (Sarah)",
+      "text": "مَرْحَبًا يَا زَيْنَبُ. فُسْتَانُكِ الْجَدِيدُ جَمِيلٌ جِدًّا. مَا لَوْنُهُ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MAR-HA-BAN YA ZAY-NAB-OU. FOUS-TAA-NOU-KI L-DJA-DII-DOU DJA-MIIL-OUN DJID-DAN. MAA LAW-NOU-HOU",
+      "translation": "Bonjour Zaynab. Ta nouvelle robe est très belle. Quelle est sa couleur ?"
+    },
+    {
+      "speaker": "زَيْنَب (Zaynab)",
+      "text": "شُكْرًا لَكِ يَا سَارَةُ. لَوْنُهُ زَرْقَاءُ كَالسَّمَاءِ. وَأَنْتِ، مَاذَا تَشْتَرِينَ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "CHOUK-RAN LA-KI YA SAA-RA. LAW-NOU-HOU ZAR-KAA-OU KAS-SA-MAA-I. WA AN-TI, MAA-THAA TACH-TA-RII-NA",
+      "translation": "Merci à toi, Sarah. Sa couleur est bleue comme le ciel. Et toi, qu'as-tu acheté / qu'achètes-tu ?"
+    },
+    {
+      "speaker": "سَارَة (Sarah)",
+      "text": "أَبْحَثُ عَنْ قَمِيصٍ أَبْيَضَ وَسِرْوَالٍ أَسْوَدَ لِلْعَمَلِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AB-HA-THOU AN KA-MII-SIN AB-YA-DA WA SIR-WAA-LIN AS-WA-DA LIL-A-MA-LI",
+      "translation": "Je cherche une chemise blanche et un pantalon noir pour le travail."
+    },
+    {
+      "speaker": "زَيْنَب (Zaynab)",
+      "text": "تَفَضَّلِي هُنَا ! هَذَا الْمَحَلُّ عِنْدَهُ مَلَابِسُ مُمْتَازَةٌ وَمَقَاسَاتٌ كَثِيرَةٌ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "TA-FAD-DA-LII HOU-NAA ! HAA-THAL MA-HAL-LOU IN-DA-HOU MA-LAA-BI-SOU MOUM-TAA-ZA...",
+      "translation": "Je t'en prie, par ici ! Ce magasin a de superbes vêtements et beaucoup de tailles."
+    }
+  ],
+  "cultural_notes": [
+    "Entre tradition et modernité : Dans l'espace public urbain arabe contemporain, les vêtements occidentaux modernes (costumes, jeans, chemises) coexistent naturellement avec les tenues traditionnelles protectrices contre la chaleur. On croise ainsi des hommes en Thawb/Kamis (longue tunique blanche) ou des femmes en Abaya (longue robe fluide noire ou colorée) et Hijab (voile).",
+    "Le symbolisme des couleurs : Le vert (Akhḍar) possède une connotation culturelle et spirituelle extrêmement positive dans le monde arabo-islamique, symbolisant la vie, le paradis et la nature. À l'inverse, le blanc (Abyaḍ) est la couleur traditionnelle de la pureté, souvent portée pour les prières du vendredi et les rites du pèlerinage."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L9_ex1",
+      "type": "multiple_choice",
+      "question": "Le mot 'سَيَّارَة' (voiture) est féminin. Comment dit-on 'Une voiture rouge' ?",
+      "options": [
+        "سَيَّارَةٌ أَحْمَرَ (Sayyāratun aḥmar)",
+        "سَيَّارَةٌ حَمْرَاءُ (Sayyāratun ḥamrā')",
+        "سَيَّارَةٌ بَيْضَاءُ (Sayyāratun bayḍā')"
+      ],
+      "correct_answer": "سَيَّارَةٌ حَمْرَاءُ (Sayyāratun ḥamrā')",
+      "explanation": "L'adjectif doit s'accorder au féminin avec Sayyārah en adoptant le schème 'Fa'lā'u', d'où 'Ḥamrā'' (rouge)."
+    },
+    {
+      "exercise_id": "A1_M3_L9_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour exprimer 'Je porte un pantalon', on utilise le verbe au présent : [ ___ ] سِرْوَالًا",
+      "correct_answer": "أَرْتَدِي",
+      "hint": "C'est la première personne du singulier (Je) du verbe Irtadā."
+    },
+    {
+      "exercise_id": "A1_M3_L9_ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie le vêtement 'قَمِيصٌ' (Kamīs) dans le lexique quotidien ?",
+      "options": [
+        "Un pantalon",
+        "Une robe",
+        "Une chemise"
+      ],
+      "correct_answer": "Une chemise",
+      "explanation": "Kamīs désigne une chemise ou une tunique masculine de base selon le contexte régional."
+    }
+  ]
+}

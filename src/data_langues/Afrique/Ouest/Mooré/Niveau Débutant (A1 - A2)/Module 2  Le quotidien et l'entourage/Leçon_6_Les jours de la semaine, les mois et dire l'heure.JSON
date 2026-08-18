@@ -1,0 +1,219 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer et utiliser les 7 jours de la semaine en mooré",
+    "Comprendre les repères temporels du quotidien et les moments clés de la journée",
+    "Poser des questions simples sur l'heure et exprimer le temps qui passe"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot pour jour 'daare' utilise une voyelle longue 'aa'. Le mot 'wakat' (le temps / l'heure) introduit une occlusive finale 't' qui doit être nette et non aspirée. Les noms des jours se terminent presque tous par le suffixe '-daare' ou '-riga'.",
+    "common_pitfalls": "Attention à ne pas calquer l'intonation des jours de la semaine sur le français. Accentuez légèrement la première syllabe du radical du jour (ex: 'Raza' dans 'Razadaare')."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v6_1",
+      "term": "Daare",
+      "phonetic_api": "/daːre/",
+      "phonetic_simple": "DAA-RÉ",
+      "translation": "Jour / Date",
+      "example_sentence": "Yaa daar-bõone ?",
+      "example_phonetic": "/jaː daːr bõːne/",
+      "example_translation": "Quel jour sommes-nous ?"
+    },
+    {
+      "word_id": "v6_2",
+      "term": "Razadaare",
+      "phonetic_api": "/razadaːre/",
+      "phonetic_simple": "RA-ZA-DAA-RÉ",
+      "translation": "Dimanche",
+      "example_sentence": "M bēe yĩnsa Razadaare.",
+      "example_phonetic": "/m beː jĩnsa razadaːre/",
+      "example_translation": "Je suis à la maison dimanche."
+    },
+    {
+      "word_id": "v6_3",
+      "term": "Teneenriga",
+      "phonetic_api": "/teneːnrɪɣa/",
+      "phonetic_simple": "TÉ-NÉEN-RI-GA",
+      "translation": "Lundi",
+      "example_sentence": "Tūuma sɩngda Teneenriga.",
+      "example_phonetic": "/tuːma sɪnɡda teneːnrɪɣa/",
+      "example_translation": "Le travail commence lundi."
+    },
+    {
+      "word_id": "v6_4",
+      "term": "Wakat",
+      "phonetic_api": "/wakat/",
+      "phonetic_simple": "WA-KAT",
+      "translation": "Temps / Heure / Moment",
+      "example_sentence": "Wakat taame.",
+      "example_phonetic": "/wakat taːme/",
+      "example_translation": "L'heure est arrivée."
+    },
+    {
+      "word_id": "v6_5",
+      "term": "Zaabre",
+      "phonetic_api": "/zaːbre/",
+      "phonetic_simple": "ZAA-BRÉ",
+      "translation": "Soir / Après-midi",
+      "example_sentence": "M na wa zaabre.",
+      "example_phonetic": "/m na wa zaːbre/",
+      "example_translation": "Je viendrai ce soir."
+    },
+    {
+      "word_id": "v6_6",
+      "term": "Dunda",
+      "phonetic_api": "/dunda/",
+      "phonetic_simple": "DOUN-DA",
+      "translation": "Aujourd'hui",
+      "example_sentence": "Dunda yaa laafi.",
+      "example_phonetic": "/dunda jaː laːfi/",
+      "example_translation": "Aujourd'hui tout va bien."
+    },
+    {
+      "word_id": "v6_7",
+      "term": "Beogo",
+      "phonetic_api": "/beːɣo/",
+      "phonetic_simple": "BÉE-GO",
+      "translation": "Demain / Matin",
+      "example_sentence": "M na tūum bēogo.",
+      "example_phonetic": "/m na tuːm beːɣo/",
+      "example_translation": "Je travaillerai demain."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p6_1",
+      "original": "Wakat yaa a wãna ?",
+      "phonetic_api": "/wakat jaː a wãna/",
+      "phonetic_simple": "WA-KAT YAA A WAN-NA",
+      "translation": "Quelle heure est-il ?",
+      "context": "Question usuelle pour demander l'heure à un passant."
+    },
+    {
+      "phrase_id": "p6_2",
+      "original": "Yaa lēer a tãabo.",
+      "phonetic_api": "/jaː leːr a tãːbo/",
+      "phonetic_simple": "YAA LÉER A TAA-BO",
+      "translation": "Il est trois heures.",
+      "context": "Réponse indiquant l'heure en utilisant l'emprunt 'lēer'."
+    },
+    {
+      "phrase_id": "p6_3",
+      "original": "Dunda yaa daar-bõone ?",
+      "phonetic_api": "/dunda jaː daːr bõːne/",
+      "phonetic_simple": "DOUN-DA YAA DAAR BÓO-NÉ",
+      "translation": "Quel jour sommes-nous aujourd'hui ?",
+      "context": "Demande de repère dans la semaine."
+    },
+    {
+      "phrase_id": "p6_4",
+      "original": "Dunda yaa Teneenriga.",
+      "phonetic_api": "/dunda jaː teneːnrɪɣa/",
+      "phonetic_simple": "DOUN-DA YAA TÉ-NÉEN-RI-GA",
+      "translation": "Aujourd'hui c'est lundi.",
+      "context": "Réponse situant le jour actuel."
+    },
+    {
+      "phrase_id": "p6_5",
+      "original": "M na lēb-y bēogo.",
+      "phonetic_api": "/m na leb i beːɣo/",
+      "phonetic_simple": "M NA LEB-I BÉE-GO",
+      "translation": "Je reviendrai demain.",
+      "context": "Formule de séparation à la fin d'une visite."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'heure avec l'emprunt 'lēer'",
+      "explanation": "Pour indiquer l'heure précise sur une montre, le mooré moderne utilise le mot 'lēer' (dérivé de l'anglais 'hour' ou du français 'l'heure'), associé à la structure des adjectifs numéraux cardinaux.",
+      "rules": [
+        "Structure : Yaa + lēer + a + [Nombre].",
+        "Le préfixe 'a' est obligatoire devant le nombre, exactement comme pour le comptage des objets."
+      ],
+      "examples": [
+        {
+          "structure": "Yaa + lēer + a + naase",
+          "phonetic_api": "/jaː leːr a naːse/",
+          "meaning": "Il est quatre heures."
+        }
+      ]
+    },
+    {
+      "concept": "Les adverbes de temps et l'absence de préposition",
+      "explanation": "En mooré, les adverbes de temps comme 'dunda' (aujourd'hui) ou les noms de jours s'intègrent directement dans la phrase sans être précédés d'une préposition comme 'en' ou 'le' en français.",
+      "rules": [
+        "Le marqueur temporel se place généralement en début ou en toute fin d'énoncé.",
+        "Il n'y a aucun article devant le nom du jour."
+      ],
+      "examples": [
+        {
+          "structure": "[Sujet] + [Verbe] + [Jour]",
+          "phonetic_api": "/m na wa teneːnrɪɣa/",
+          "meaning": "Je viendrai lundi (littéralement : Je viendrai lundi)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ablassé",
+      "text": "Adama, dunda yaa daar-bõone ?",
+      "phonetic_api": "/adama dunda jaː daːr bõːne/",
+      "phonetic_simple": "A-DA-MA, DOUN-DA YAA DAAR BÓO-NÉ ?",
+      "translation": "Adama, quel jour sommes-nous aujourd'hui ?"
+    },
+    {
+      "speaker": "Adama",
+      "text": "Dunda yaa Teneenriga. Y tara tūumda ?",
+      "phonetic_api": "/dunda jaː teneːnrɪɣa i tara tuːmda/",
+      "phonetic_simple": "DOUN-DA YAA TÉ-NÉEN-RI-GA. I TA-RA TOOM-DA ?",
+      "translation": "Aujourd'hui c'est lundi. Tu travailles ?"
+    },
+    {
+      "speaker": "Ablassé",
+      "text": "N-ye. Wakat yaa a wãna ?",
+      "phonetic_api": "/n je wakat jaː a wãna/",
+      "phonetic_simple": "N-YÉ. WA-KAT YAA A WAN-NA ?",
+      "translation": "Oui. Quelle heure est-il ?"
+    },
+    {
+      "speaker": "Adama",
+      "text": "Yaa lēer a nããnu zaabre.",
+      "phonetic_api": "/jaː leːr a nãːnu zaːbre/",
+      "phonetic_simple": "YAA LÉER A NAAN-NOU ZAA-BRÉ",
+      "translation": "Il est cinq heures de l'après-midi."
+    }
+  ],
+  "cultural_notes": [
+    "Traditionnellement, la semaine chez les Mossi était rythmée par les jours de grands marchés régionaux plutôt que par le calendrier grégorien. L'adoption des noms de jours actuels (Teneenriga, Talaatadaare, etc.) s'est faite en étroite liaison avec les influences linguistiques voisines et commerçantes.",
+    "La précision de l'heure à la minute près est une habitude occidentale et urbaine. En milieu rural burkinabè, on se réfère encore beaucoup à la course du soleil : le lever ('y bēogo'), le zénith ('wíndiga') et le coucher ('zaabre').",
+    "Dire 'bēogo' (demain) en quittant quelqu'un n'est pas seulement une indication de temps, c'est un souhait chaleureux de se revoir en bonne santé."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex6_1",
+      "type": "multiple_choice",
+      "question": "Quel jour de la semaine correspond au terme 'Teneenriga' ?",
+      "options": [
+        "Lundi",
+        "Jeudi",
+        "Samedi"
+      ],
+      "correct_answer": "Lundi",
+      "explanation": "'Teneenriga' est le nom mooré officiel pour désigner le lundi."
+    },
+    {
+      "exercise_id": "ex6_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Wakat yaa a [ ___ ] ? (Traduction: Quelle heure est-il ?)",
+      "correct_answer": "wãna",
+      "hint": "Le mot interrogatif servant à demander une quantité ou un montant."
+    }
+  ]
+}

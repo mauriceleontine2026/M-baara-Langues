@@ -1,0 +1,189 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire l'espace intérieur de son habitation et nommer les pièces",
+    "Situer son logement dans un quartier ou une localité",
+    "Utiliser les expressions de localisation intermédiaire pour parler de sa ville"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne nasale bilabiale /m/ devant une alvéolaire implique une transition douce. Dans le mot 'so' /so/, la voyelle fermée exige une projection nette. Le terme 'duguba' /du.ɡu.ba/ comporte une occlusive vélaire voisée /ɡ/ qui s'articule sans interruption du souffle.",
+    "common_pitfalls": "Attention à ne pas assimiler 'so' (maison, village) à 'sɔ' (obtenir). La distinction entre les voyelles fermée /o/ et ouverte /ɔ/ modifie totalement le sens de l'énoncé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "So",
+      "phonetic_api": "/so/",
+      "phonetic_simple": "SO",
+      "translation": "Maison / Concession / Habitation / Village",
+      "example_sentence": "N'bɛ n'fa so la.",
+      "example_phonetic": "/mbɛ nfa so la/",
+      "example_translation": "Je suis dans la maison de mon père."
+    },
+    {
+      "word_id": "v2",
+      "term": "Bongda",
+      "phonetic_api": "/bɔnɡ.da/",
+      "phonetic_simple": "BONG-DA",
+      "translation": "Chambre / Pièce",
+      "example_sentence": "Bongda fila bɛ so kɔnɔ.",
+      "example_phonetic": "/bɔnɡ.da fi.la bɛ so kɔ.nɔ/",
+      "example_translation": "Il y a deux chambres dans la maison."
+    },
+    {
+      "word_id": "v3",
+      "term": "Duguba",
+      "phonetic_api": "/du.ɡu.ba/",
+      "phonetic_simple": "DOU-GOU-BA",
+      "translation": "Ville / Grande agglomération",
+      "example_sentence": "N'bɛ sigi duguba kɔnɔ.",
+      "example_phonetic": "/mbɛ si.ɡi du.ɡu.ba kɔ.nɔ/",
+      "example_translation": "J'habite dans une grande ville."
+    },
+    {
+      "word_id": "v4",
+      "term": "Kɛnɛma",
+      "phonetic_api": "/kɛ.nɛ.ma/",
+      "phonetic_simple": "KÈ-NÈ-MA",
+      "translation": "Cour / Espace extérieur de la concession",
+      "example_sentence": "Den lu bɛ bori kɛnɛma na.",
+      "example_phonetic": "/dẽ lu bɛ bo.ri kɛ.nɛ.ma na/",
+      "example_translation": "Les enfants courent dans la cour."
+    },
+    {
+      "word_id": "v5",
+      "term": "Gwankiri",
+      "phonetic_api": "/ɡwã.ki.ri/",
+      "phonetic_simple": "GWAN-KI-RI",
+      "translation": "Cuisine",
+      "example_sentence": "N'ba bɛ gwankiri la.",
+      "example_phonetic": "/mba bɛ ɡwã.ki.ri la/",
+      "example_translation": "Ma mère est à la cuisine."
+    },
+    {
+      "word_id": "v6",
+      "term": "Sigi",
+      "phonetic_api": "/si.ɡi/",
+      "phonetic_simple": "SI-GUI",
+      "translation": "Habiter / S'asseoir / S'installer",
+      "example_sentence": "I bɛ sigi min?",
+      "example_phonetic": "/i bɛ si.ɡi mĩ/",
+      "example_translation": "Où habites-tu ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "N'fa so bɛ duguba kɔnɔ.",
+      "phonetic_api": "/nfa so bɛ du.ɡu.ba kɔ.nɔ/",
+      "phonetic_simple": "N-FA SO BÈ DOU-GOU-BA KƆ-NƆ",
+      "translation": "La maison de mon père se trouve en ville.",
+      "context": "Utilisé pour décrire la situation géographique de sa demeure familiale."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "I bɛ sigi so juman kɔnɔ?",
+      "phonetic_api": "/i bɛ si.ɡi so d͡ʒu.mã kɔ.nɔ/",
+      "phonetic_simple": "I BÈ SI-GUI SO DJOU-MAN KƆ-NƆ",
+      "translation": "Dans quelle maison habites-tu ?",
+      "context": "Question courante pour s'informer du quartier ou de l'adresse de quelqu'un."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "N'so bɛ surun lɔgɔfɛ la.",
+      "phonetic_api": "/nso bɛ su.rũ lɔ.ɡɔ.fɛ la/",
+      "phonetic_simple": "N-SO BÈ SOU-ROUN LƆ-GƆ-FÈ LA",
+      "translation": "Ma maison est proche du marché.",
+      "context": "Pratique pour donner un repère urbain simple à un interlocuteur."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "So kɔnɔ bɛ gbe bɛrɛbɛrɛ.",
+      "phonetic_api": "/so kɔ.nɔ bɛ ɡ͡be bɛ.rɛ.bɛ.rɛ/",
+      "phonetic_simple": "SO KƆ-NƆ BÈ GBE BÈ-RÈ-BÈ-RÈ",
+      "translation": "L'intérieur de la maison est très propre / clair.",
+      "context": "Formule d'appréciation de l'état d'un logement."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La postposition locative 'kɔnɔ' (dedans / dans)",
+      "explanation": "En konyanka, l'expression de l'intérieur d'un espace fermé (maison, chambre, ville) requiert l'usage de la postposition 'kɔnɔ'. Elle se place invariablement après le nom du lieu concerné.",
+      "rules": [
+        "Structure : Nom de lieu + kɔnɔ (ex: 'duguba kɔnɔ' = dans la ville).",
+        "Pour affirmer la présence dans ce lieu, on associe la marque de l'inaccompli ou de l'état 'bɛ'."
+      ],
+      "examples": [
+        {
+          "structure": "Bongda kɔnɔ",
+          "phonetic_api": "/bɔnɡ.da kɔ.nɔ/",
+          "meaning": "Dans la chambre"
+        },
+        {
+          "structure": "A bɛ so kɔnɔ",
+          "phonetic_api": "/a bɛ so kɔ.nɔ/",
+          "meaning": "Il/Elle est à l'intérieur de la maison"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amara",
+      "text": "Sékou, i bɛ sigi min bi la?",
+      "phonetic_api": "/se.ku i bɛ si.ɡi mĩ bi la/",
+      "phonetic_simple": "SÉ-KOU, I BÈ SI-GUI MIN BI LA",
+      "translation": "Sékou, où habites-tu actuellement ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "N'bɛ sigi duguba kɔnɔ, lɔgɔfɛ kɔfɛ.",
+      "phonetic_api": "/mbɛ si.ɡi du.ɡu.ba kɔ.nɔ lɔ.ɡɔ.fɛ kɔ.fɛ/",
+      "phonetic_simple": "N-BÈ SI-GUI DOU-GOU-BA KƆ-NƆ, LƆ-GƆ-FÈ KƆ-FÈ",
+      "translation": "J'habite en ville, derrière le marché."
+    },
+    {
+      "speaker": "Amara",
+      "text": "I so bɛ ba? Bongda joli bɛ yen?",
+      "phonetic_api": "/i so bɛ ba bɔnɡ.da d͡ʒo.li bɛ jẽ/",
+      "phonetic_simple": "I SO BÈ BA? BONG-DA DJO-LI BÈ YEN",
+      "translation": "Ta maison est-elle grande ? Combien de chambres y a-t-il ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Hali, a bɛ ba dɔɔni. Bongda saba bɛ so kɔnɔ.",
+      "phonetic_api": "/ha.li a bɛ ba dɔː.ni bɔnɡ.da sa.ba bɛ so kɔ.nɔ/",
+      "phonetic_simple": "HA-LI, A BÈ BA DƆƆ-NI. BONG-DA SA-BA BÈ SO KƆ-NƆ",
+      "translation": "Oui, elle est assez grande. Il y a trois chambres à l'intérieur de la maison."
+    }
+  ],
+  "cultural_notes": [
+    "L'habitat traditionnel en milieu konyanka s'organise autour de la concession familiale élargie ('so' ou 'lu'). Même en milieu urbain, la cour intérieure ('kɛnɛma') demeure le pivot de l'interaction sociale collective, des discussions quotidiennes et de la préparation des repas collectifs."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'Duguba' ?",
+      "options": [
+        "Une chambre",
+        "Une cuisine",
+        "Une ville / grande agglomération"
+      ],
+      "correct_answer": "Une ville / grande agglomération",
+      "explanation": "'Dugu' désigne la terre ou la localité, et 'ba' marque la grandeur, formant le terme pour la ville."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N'bɛ [ ___ ] kɔnɔ (Je suis dans la chambre).",
+      "correct_answer": "bongda",
+      "hint": "Le nom composé pour désigner la pièce à coucher."
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Savoir saluer un interlocuteur selon le moment de la journée en Yalunka",
+    "Exprimer la gratitude et utiliser les formules de politesse fondamentales",
+    "Prendre congé de manière appropriée"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'n' en fin de mot ou devant une consonne nasale produit souvent une nasalisation ou un son vélaire proche du 'ng' anglais /ŋ/. Les voyelles doubles (aa, ee, ii, oo, uu) marquent une longueur vocalique phonologiquement pertinente qu'il faut accentuer en prolongeant le son.",
+    "common_pitfalls": "Ne pas prononcer le 'e' final comme un 'e' muet français. En Yalunka, toutes les voyelles finales sont pleinement articulées (/ɛ/ ou /e/)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_1",
+      "term": "Tena",
+      "phonetic_api": "/te.na/",
+      "phonetic_simple": "TÉ-NA",
+      "translation": "La paix / La santé / Le calme",
+      "example_sentence": "Tena na i bɛ ?",
+      "example_phonetic": "/te.na na i bɛ/",
+      "example_translation": "La paix est-elle avec toi ?"
+    },
+    {
+      "word_id": "v1_2",
+      "term": "Wali",
+      "phonetic_api": "/wa.li/",
+      "phonetic_simple": "WA-LI",
+      "translation": "Le travail / Travailler",
+      "example_sentence": "I wali !",
+      "example_phonetic": "/i wa.li/",
+      "example_translation": "Bon travail ! (Salutation aux travailleurs)"
+    },
+    {
+      "word_id": "v1_3",
+      "term": "Nu",
+      "phonetic_api": "/nu/",
+      "phonetic_simple": "NOU",
+      "translation": "Particule de salutation / Remerciement réciproque",
+      "example_sentence": "Nu wali.",
+      "example_phonetic": "/nu wa.li/",
+      "example_translation": "Merci pour le travail."
+    },
+    {
+      "word_id": "v1_4",
+      "term": "Inu",
+      "phonetic_api": "/i.nu/",
+      "phonetic_simple": "I-NOU",
+      "translation": "Merci (singulier)",
+      "example_sentence": "Inu n baaba.",
+      "example_phonetic": "/i.nu ŋ baː.ba/",
+      "example_translation": "Merci mon père."
+    },
+    {
+      "word_id": "v1_5",
+      "term": "Wonu",
+      "phonetic_api": "/wo.nu/",
+      "phonetic_simple": "WO-NOU",
+      "translation": "Merci (pluriel)",
+      "example_sentence": "Wonu n ngaxanfene.",
+      "example_phonetic": "/wo.nu ŋ ŋa.xan.fe.ne/",
+      "example_translation": "Merci mes frères et sœurs."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_1",
+      "original": "Tena mari.",
+      "phonetic_api": "/te.na ma.ri/",
+      "phonetic_simple": "TÉ-NA MA-RI",
+      "translation": "Bonjour (le matin).",
+      "context": "Utilisé du lever du soleil jusqu'à midi."
+    },
+    {
+      "phrase_id": "p1_2",
+      "original": "Tena mafayen.",
+      "phonetic_api": "/te.na ma.fa.jen/",
+      "phonetic_simple": "TÉ-NA MA-FA-YEN",
+      "translation": "Bonjour / Bon après-midi.",
+      "context": "Utilisé de midi jusqu'au crépuscule."
+    },
+    {
+      "phrase_id": "p1_3",
+      "original": "Tena masigin.",
+      "phonetic_api": "/te.na ma.si.ɡin/",
+      "phonetic_simple": "TÉ-NA MA-SI-GUIN",
+      "translation": "Bonsoir.",
+      "context": "Utilisé après le coucher du soleil."
+    },
+    {
+      "phrase_id": "p1_4",
+      "original": "Ori tonamo ?",
+      "phonetic_api": "/o.ri to.na.mo/",
+      "phonetic_simple": "O-RI TO-NA-MO ?",
+      "translation": "Comment ça va ? / Comment s'est passée la journée ?",
+      "context": "Formule courante d'interrogation sur l'état général."
+    },
+    {
+      "phrase_id": "p1_5",
+      "original": "Tena nan a ra.",
+      "phonetic_api": "/te.na nan a ra/",
+      "phonetic_simple": "TÉ-NA NAN A RA",
+      "translation": "Tout va bien (La paix seule).",
+      "context": "Réponse standard et polie à la plupart des salutations."
+    },
+    {
+      "phrase_id": "p1_6",
+      "original": "A mama ?",
+      "phonetic_api": "/a ma.ma/",
+      "phonetic_simple": "A MA-MA ?",
+      "translation": "Et la maisonnée / la famille ?",
+      "context": "Relance polie incontournable lors d'un échange social."
+    },
+    {
+      "phrase_id": "p1_7",
+      "original": "Sabari.",
+      "phonetic_api": "/sa.ba.ri/",
+      "phonetic_simple": "SA-BA-RI",
+      "translation": "Pardon / S'il vous plaît.",
+      "context": "Pour attirer l'attention ou s'excuser."
+    },
+    {
+      "phrase_id": "p1_8",
+      "original": "Tena xa xɔn.",
+      "phonetic_api": "/te.na xa xɔn/",
+      "phonetic_simple": "TÉ-NA KHA KHON",
+      "translation": "Que la paix passe la nuit (Bonne nuit).",
+      "context": "Formule de congé le soir avant de dormir."
+    },
+    {
+      "phrase_id": "p1_9",
+      "original": "Won mami.",
+      "phonetic_api": "/won ma.mi/",
+      "phonetic_simple": "WON MA-MI",
+      "translation": "À plus tard / Au revoir.",
+      "context": "Formule générale pour prendre congé."
+    },
+    {
+      "phrase_id": "p1_10",
+      "original": "Siga gbejan.",
+      "phonetic_api": "/si.ɡa ɡbe.ʒan/",
+      "phonetic_simple": "SI-GA GBÉ-JAN",
+      "translation": "Bon voyage.",
+      "context": "Adressé à quelqu'un qui part pour un long trajet."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure de base de l'affirmation focalisée : 'nan a ra'",
+      "explanation": "En Yalunka, l'expression de l'état ou de l'identité passe fréquemment par l'utilisation de la particule de focalisation 'nan' suivie de la copule/postposition 'a ra'. Cette structure équivaut au verbe 'être' en français.",
+      "rules": [
+        "Nom/Adjectif + nan + a ra = C'est [Nom/Adjectif]",
+        "Utilisé pour affirmer l'état de paix dans les réponses de courtoisie."
+      ],
+      "examples": [
+        {
+          "structure": "Tena nan a ra.",
+          "phonetic_api": "/te.na nan a ra/",
+          "meaning": "C'est la paix (Tout va bien)."
+        }
+      ]
+    },
+    {
+      "concept": "Les pronoms personnels de salutation (Singulier vs Pluriel)",
+      "explanation": "Les marques de politesse s'adaptent selon que l'on s'adresse à une seule personne ou à plusieurs.",
+      "rules": [
+        "Le préfixe 'I-' s'adresse à une personne (ex: I wali, Inu).",
+        "Le préfixe 'Wo-' s'adresse à plusieurs personnes (ex: Wo wali, Wonu)."
+      ],
+      "examples": [
+        {
+          "structure": "I wali",
+          "phonetic_api": "/i wa.li/",
+          "meaning": "Salutation à toi qui travailles."
+        },
+        {
+          "structure": "Wo wali",
+          "phonetic_api": "/wo wa.li/",
+          "meaning": "Salutation à vous qui travaillez."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amara (Le matin)",
+      "text": "Tena mari, Fanta.",
+      "phonetic_api": "/te.na ma.ri fan.ta/",
+      "phonetic_simple": "TÉ-NA MA-RI, FAN-TA",
+      "translation": "Bonjour, Fanta."
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Tena nan a ra. Ori tonamo ?",
+      "phonetic_api": "/te.na nan a ra o.ri to.na.mo/",
+      "phonetic_simple": "TÉ-NA NAN A RA. O-RI TO-NA-MO ?",
+      "translation": "Tout va bien. Comment ça va ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "Tena nan a ra. A mama ?",
+      "phonetic_api": "/te.na nan a ra a ma.ma/",
+      "phonetic_simple": "TÉ-NA NAN A RA. A MA-MA ?",
+      "translation": "Tout va bien. Et la famille ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Tena. Inu, Amara.",
+      "phonetic_api": "/te.na i.nu a.ma.ra/",
+      "phonetic_simple": "TÉ-NA. I-NOU, A-MA-RA",
+      "translation": "En paix. Merci, Amara."
+    },
+    {
+      "speaker": "Amara",
+      "text": "Won mami.",
+      "phonetic_api": "/won ma.mi/",
+      "phonetic_simple": "WON MA-MI",
+      "translation": "Au revoir / À plus tard."
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Won mami, nba.",
+      "phonetic_api": "/won ma.mi ŋba/",
+      "phonetic_simple": "WON MA-MI, NBA",
+      "translation": "Au revoir, d'accord."
+    }
+  ],
+  "cultural_notes": [
+    "En milieu Yalunka en Guinée, saluer est un devoir social hautement codifié. Ne pas saluer ou écourter les échanges sur la famille ou la santé est perçu comme une grave marque d'impolitesse.",
+    "L'interjection 'nba' ou 'unba' est fréquemment ajoutée en fin de réplique pour marquer l'acquiescement, l'écoute active et la bienveillance."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_1",
+      "type": "multiple_choice",
+      "question": "Quelle expression utilisez-vous spécifiquement pour saluer quelqu'un le matin ?",
+      "options": [
+        "Tena masigin",
+        "Tena mari",
+        "Tena mafayen"
+      ],
+      "correct_answer": "Tena mari",
+      "explanation": "'Tena mari' est composé pour la période matinale. 'Mafayen' s'utilise l'après-midi et 'Masigin' le soir."
+    },
+    {
+      "exercise_id": "ex1_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour remercier une seule personne, on dit [ ___ ], tandis que pour remercier un groupe, on dit Wonu.",
+      "correct_answer": "Inu",
+      "hint": "C'est la forme de remerciement au singulier commençant par la voyelle de la deuxième personne du singulier."
+    }
+  ]
+}

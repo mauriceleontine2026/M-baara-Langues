@@ -1,0 +1,189 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Nommer les trois catégories fondamentales de couleurs en konyanka",
+    "Identifier les vêtements courants et les accessoires du quotidien",
+    "Décrire la couleur d'un habit pour l'acheter ou le désigner"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne /f/ dans 'fini' doit être soufflée nettement. Le groupe consonantique initial de la couleur blanche /ɡ͡be/ réclame une articulation simultanée labio-vélaire. Le ton descendant sur la voyelle finale de 'wulen' /wu.lẽ/ marque la fin du qualificatif.",
+    "common_pitfalls": "Attention à bien nasaliser la voyelle finale de 'fini' /fi.nĩ/ sans appuyer sur une consonne /n/ terminale. Ne confondez pas 'fini' (vêtement) et 'fani' (pagne) qui ont des nuances d'utilisation précises."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Fini",
+      "phonetic_api": "/fi.nĩ/",
+      "phonetic_simple": "FI-NI",
+      "translation": "Vêtement / Habit / Tissu",
+      "example_sentence": "Fini nin bɛ nyan.",
+      "example_phonetic": "/fi.nĩ nĩ bɛ ɲã/",
+      "example_translation": "Ce vêtement est joli."
+    },
+    {
+      "word_id": "v2",
+      "term": "Gbe",
+      "phonetic_api": "/ɡ͡be/",
+      "phonetic_simple": "GBE",
+      "translation": "Blanc / Clair",
+      "example_sentence": "Fini gbe le bɛ a la.",
+      "example_phonetic": "/fi.nĩ ɡ͡be le bɛ a la/",
+      "example_translation": "Il porte un habit blanc."
+    },
+    {
+      "word_id": "v3",
+      "term": "Fin",
+      "phonetic_api": "/fĩ/",
+      "phonetic_simple": "FIN",
+      "translation": "Noir / Sombre",
+      "example_sentence": "So fin le.",
+      "example_phonetic": "/so fĩ le/",
+      "example_translation": "C'est une maison sombre/noire."
+    },
+    {
+      "word_id": "v4",
+      "term": "Wulen",
+      "phonetic_api": "/wu.lẽ/",
+      "phonetic_simple": "WOU-LEN",
+      "translation": "Rouge / Chaud",
+      "example_sentence": "Murumuru wulen.",
+      "example_phonetic": "/mu.ru.mu.ru wu.lẽ/",
+      "example_translation": "Citron mûr (rouge/orangé)."
+    },
+    {
+      "word_id": "v5",
+      "term": "Fani",
+      "phonetic_api": "/fa.nĩ/",
+      "phonetic_simple": "FA-NI",
+      "translation": "Pagne",
+      "example_sentence": "A bɛ fani ta.",
+      "example_phonetic": "/a bɛ fa.nĩ ta/",
+      "example_translation": "Elle prend un pagne."
+    },
+    {
+      "word_id": "v6",
+      "term": "Samara",
+      "phonetic_api": "/sa.ma.ra/",
+      "phonetic_simple": "SA-MA-RA",
+      "translation": "Chaussure / Sandale",
+      "example_sentence": "N'bɛ samara fila fɛ.",
+      "example_phonetic": "/mbɛ sa.ma.ra fi.la fɛ/",
+      "example_translation": "Je veux deux paires de chaussures."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Fini juman le i bɛ fɛ?",
+      "phonetic_api": "/fi.nĩ d͡ʒu.mã le i bɛ fɛ/",
+      "phonetic_simple": "FI-NI DJOU-MAN LÉ I BÈ FÈ",
+      "translation": "Quel vêtement veux-tu ?",
+      "context": "Question classique posée par un marchand de tissus ou d'habits."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "N'bɛ fini gbe nin fɛ.",
+      "phonetic_api": "/mbɛ fi.nĩ ɡ͡be nĩ fɛ/",
+      "phonetic_simple": "N-BÈ FI-NI GBE NIN FÈ",
+      "translation": "Je veux ce vêtement blanc.",
+      "context": "Choix précis exprimé lors d'un achat sur le marché."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "A sɔngɔ bɛ di?",
+      "phonetic_api": "/a sɔn.ɡɔ bɛ di/",
+      "phonetic_simple": "A SƆN-GƆ BÈ DI",
+      "translation": "Quel est son prix ? / Combien ça coûte ?",
+      "context": "Indispensable avant de finaliser l'acquisition d'un vêtement."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Samara fin bɛ yen?",
+      "phonetic_api": "/sa.ma.ra fĩ bɛ jẽ/",
+      "phonetic_simple": "SA-MA-RA FIN BÈ YEN",
+      "translation": "Y a-t-il des chaussures noires ?",
+      "context": "Demande de disponibilité selon un critère de couleur."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La place des adjectifs de couleur qualificatifs",
+      "explanation": "En konyanka, comme la plupart des qualificatifs, les adjectifs de couleur se placent directement après le nom qu'ils décrivent.",
+      "rules": [
+        "Structure de base : Nom + Couleur.",
+        "Le système traditionnel repose principalement sur trois radicaux (gbe, fin, wulen). Les autres nuances (jaune, bleu, vert) s'expriment souvent par comparaison avec des éléments naturels (ex: feuilles, terre, ciel)."
+      ],
+      "examples": [
+        {
+          "structure": "Fini fin",
+          "phonetic_api": "/fi.nĩ fĩ/",
+          "meaning": "Vêtement noir"
+        },
+        {
+          "structure": "Samara wulen",
+          "phonetic_api": "/sa.ma.ra wu.lẽ/",
+          "meaning": "Chaussures rouges"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine",
+      "text": "Fanta, i bɛ fini wulen nin fɛ?",
+      "phonetic_api": "/fan.ta i bɛ fi.nĩ wu.lẽ nĩ fɛ/",
+      "phonetic_simple": "FAN-TA, I BÈ FI-NI WOU-LEN NIN FÈ",
+      "translation": "Fanta, est-ce que tu veux ce vêtement rouge ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Aani, n'bɛ fini gbe le fɛ. Fini gbe bɛ nyan n'ɲa.",
+      "phonetic_api": "/aː.ni mbɛ fi.nĩ ɡ͡be le fɛ fi.nĩ ɡ͡be bɛ ɲã nɲa/",
+      "phonetic_simple": "AA-NI, N-BÈ FI-NI GBE LÉ FÈ. FI-NI GBE BÈ NYAN N-NYA",
+      "translation": "Non, je préfère l'habit blanc. L'habit blanc est joli à mes yeux."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "I bɛ samara fin ta mɛn ni a la?",
+      "phonetic_api": "/i bɛ sa.ma.ra fĩ ta mɛn ni a la/",
+      "phonetic_simple": "I BÈ SA-MA-RA FIN TA MÈN NI A LA",
+      "translation": "Vas-tu prendre des chaussures noires avec ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Hali, samara fin ni fini gbe bɛ taa gbe.",
+      "phonetic_api": "/ha.li sa.ma.ra fĩ ni fi.nĩ ɡ͡be bɛ taː ɡ͡be/",
+      "phonetic_simple": "HA-LI, SA-MA-RA FIN NI FI-NI GBE BÈ TAA GBE",
+      "translation": "Oui, les chaussures noires et le vêtement blanc vont bien ensemble (s'accordent parfaitement)."
+    }
+  ],
+  "cultural_notes": [
+    "Les tenues vestimentaires traditionnelles lors des cérémonies konyanka (mariages, baptêmes) mettent à l'honneur des cotonnades locales et des tissus teints (comme le lépi ou le kendéli selon les zones d'échange en Guinée). La couleur blanche ('gbe') y possède une symbolique forte de pureté, de paix et de bénédiction."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'adjectif 'Fin' ?",
+      "options": [
+        "Blanc",
+        "Noir / Sombre",
+        "Rouge"
+      ],
+      "correct_answer": "Noir / Sombre",
+      "explanation": "'Fin' qualifie tout ce qui est obscur, foncé ou noir."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N'bɛ [ ___ ] wulen nin fɛ (Je veux ce vêtement rouge).",
+      "correct_answer": "fini",
+      "hint": "Le mot général pour vêtement ou tissu."
+    }
+  ]
+}

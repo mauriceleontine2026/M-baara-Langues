@@ -1,0 +1,190 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire son habitation et les différentes parties de la concession",
+    "Situer son logement dans la ville ou le village",
+    "Exprimer l'appartenance et l'état des lieux à l'aide de structures complexes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La distinction fine entre l'occlusive injective alvéolaire /ɗ/ et l'occlusive injective bilabiale /ɓ/. La prononciation du /χ/ (noté 'x') doit rester fluide à l'intérieur du mot.",
+    "common_pitfalls": "Attention à ne pas escamoter la voyelle centrale moyenne /ə/ (notée 'ë') dans le terme 'wëñ', qui indique la délimitation ou la clôture."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "saax",
+      "phonetic_api": "/saːχ/",
+      "phonetic_simple": "SAAKH",
+      "translation": "concession / maison / domaine familial",
+      "example_sentence": "Saax mi i gba.",
+      "example_phonetic": "/saːχ mi i ɡba/",
+      "example_translation": "Ma concession est grande."
+    },
+    {
+      "word_id": "v2",
+      "term": "kakar",
+      "phonetic_api": "/kakaʁ/",
+      "phonetic_simple": "KA-KAR",
+      "translation": "chambre / espace privé",
+      "example_sentence": "Nyi tyekwa ra kakar.",
+      "example_phonetic": "/ɲi tjɛkwa ʁa kakaʁ/",
+      "example_translation": "Je suis dans la chambre."
+    },
+    {
+      "word_id": "v3",
+      "term": "wëñ",
+      "phonetic_api": "/wəɲ/",
+      "phonetic_simple": "OUENY",
+      "translation": "cour / enclos / clôture",
+      "example_sentence": "Wëñ kene i tyukwa.",
+      "example_phonetic": "/wəɲ kɛnɛ i tjukwa/",
+      "example_translation": "La cour est fermée."
+    },
+    {
+      "word_id": "v4",
+      "term": "suwé",
+      "phonetic_api": "/suwe/",
+      "phonetic_simple": "SOU-WÉ",
+      "translation": "ville / grand centre de regroupement",
+      "example_sentence": "Koundara i suwé gba.",
+      "example_phonetic": "/kuŋdaʁa i suwe ɡba/",
+      "example_translation": "Koundara est une grande ville."
+    },
+    {
+      "word_id": "v5",
+      "term": "ɓanga",
+      "phonetic_api": "/ɓaŋɡa/",
+      "phonetic_simple": "BHAN-GA",
+      "translation": "habiter / résider stablement",
+      "example_sentence": "Nyi ɓanga ra Youkounkoun.",
+      "example_phonetic": "/ɲi ɓaŋɡa ʁa jukuŋkun/",
+      "example_translation": "J'habite à Youkounkoun."
+    },
+    {
+      "word_id": "v6",
+      "term": "fala",
+      "phonetic_api": "/fala/",
+      "phonetic_simple": "FA-LA",
+      "translation": "construire / édifier",
+      "example_sentence": "O fala saax wëxyë.",
+      "example_phonetic": "/o fala saːχ wəχjə/",
+      "example_translation": "Il a construit une maison blanche."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Wun a ɓanga fene ra suwé ?",
+      "phonetic_api": "/wun a ɓaŋɡa fɛnɛ ʁa suwe/",
+      "phonetic_simple": "WOUN A BHAN-GA FÉ-NÉ RA SOU-WÉ ?",
+      "translation": "Où habites-tu dans la ville ?",
+      "context": "S'informer sur le lieu précis de résidence d'une connaissance."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Saax mi i betya ra marse.",
+      "phonetic_api": "/saːχ mi i bɛtja ʁa maʁse/",
+      "phonetic_simple": "SAAKH MI I BÉ-TYA RA MAR-SÉ",
+      "translation": "Ma maison se trouve près du marché.",
+      "context": "Situer géographiquement son habitation par rapport à un repère connu."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Rya fala kakar ɓal ra wëñ.",
+      "phonetic_api": "/ʁja fala kakaʁ ɓal ʁa wəɲ/",
+      "phonetic_simple": "RYA FA-LA KA-KAR BHAL RA OUENY",
+      "translation": "Nous avons construit deux chambres dans la cour.",
+      "context": "Décrire les modifications ou aménagements de son espace."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le locatif d'habitation avec 'ɓanga ra'",
+      "explanation": "Pour exprimer le lieu de résidence permanente ou stable, le wamey emploie le verbe de d'état statique 'ɓanga' obligatoirement suivi de la particule locative 'ra' devant le nom de la localité.",
+      "rules": [
+        "Sujet + ɓanga + ra + Nom de lieu"
+      ],
+      "examples": [
+        {
+          "structure": "Nyi ɓanga ra Koundara.",
+          "phonetic_api": "/ɲi ɓaŋɡa ʁa kuŋdaʁa/",
+          "meaning": "J'habite à Koundara."
+        }
+      ]
+    },
+    {
+      "concept": "L'extension de la qualification avec le relateur 'i'",
+      "explanation": "Au niveau intermédiaire, la description d'une propriété requiert l'usage du connecteur 'i' pour lier solidement le sujet à un qualificatif de dimension ou d'état.",
+      "rules": [
+        "Substantif + Pronom possessif + i + Qualificatif"
+      ],
+      "examples": [
+        {
+          "structure": "Kakar mi i gba.",
+          "phonetic_api": "/kakaʁ mi i ɡba/",
+          "meaning": "Ma chambre est grande."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mady",
+      "text": "Samba, wun a ɓanga ra suwé cene ra Koundara ?",
+      "phonetic_api": "/samba wun a ɓaŋɡa ʁa suwe t͡ʃɛnɛ ʁa kuŋdaʁa/",
+      "phonetic_simple": "SAM-BA, WOUN A BHAN-GA RA SOU-WÉ TCHÉ-NÉ RA KOUN-DA-RA ?",
+      "translation": "Samba, habites-tu dans cette ville de Koundara ?"
+    },
+    {
+      "speaker": "Samba",
+      "text": "Gouè, nyi ɓanga ra betya ra lekol. Saax mi i gba.",
+      "phonetic_api": "/ɡwɛ ɲi ɓaŋɡa ʁa bɛtja ʁa lɛkɔl saːχ mi i ɡba/",
+      "phonetic_simple": "GOUÈ, NYI BHAN-GA RA BÉ-TYA RA LÉ-KOL. SAAKH MI I GBA.",
+      "translation": "Oui, j'habite tout près de l'école. Ma concession est grande."
+    },
+    {
+      "speaker": "Mady",
+      "text": "Wun a mbe kakar fene ra saax ko ?",
+      "phonetic_api": "/wun a mbɛ kakaʁ fɛnɛ ʁa saːχ ko/",
+      "phonetic_simple": "WOUN A MBÉ KA-KAR FÉ-NÉ RA SAAKH KO ?",
+      "translation": "Combien de chambres as-tu dans la concession ?"
+    },
+    {
+      "speaker": "Samba",
+      "text": "Rya fula kakar ɓayi. Wëñ kene i boka ra rya.",
+      "phonetic_api": "/ʁja fula kakaʁ ɓaji wəɲ kɛnɛ i boka ʁa ʁja/",
+      "phonetic_simple": "RYA FOU-LA KA-KAR BHA-YI. OUENY KÉ-NÉ I BO-KA RA RYA.",
+      "translation": "Nous en avons trois. Cette cour est très agréable pour nous."
+    }
+  ],
+  "cultural_notes": [
+    "L'organisation spatiale traditionnelle chez les Konyagi repose sur la concession ('saax'), un ensemble de cases ou de chambres entourant une cour centrale ('wëñ'). La cour est un espace social névralgique où l'on cuisine, travaille le grain et reçoit les visiteurs.",
+    "La ville de Koundara et la localité historique de Youkounkoun constituent les principaux pôles d'attraction urbains et administratifs pour les populations wamey de la région guinéenne."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M1_L1_EX1",
+      "type": "multiple_choice",
+      "question": "Quel verbe exprime l'action d'habiter ou de résider durablement quelque part ?",
+      "options": [
+        "fala",
+        "ɓanga",
+        "wëla"
+      ],
+      "correct_answer": "ɓanga",
+      "explanation": "'ɓanga' signifie résider ou habiter, tandis que 'fala' signifie construire."
+    },
+    {
+      "exercise_id": "B1_M1_L1_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Saax mi i betya [ ___ ] marse.",
+      "correct_answer": "ra",
+      "hint": "La particule locative requise pour introduire la direction ou le repère spatial."
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Connecteurs logiques pour un discours élaboré",
+  "learning_objectives": [
+    "Articuler un raisonnement complexe en utilisant des connecteurs logiques de cause, de conséquence et de concession",
+    "Nuancer l'expression de la pensée pour structurer un débat formel en igbo standard",
+    "Maîtriser les locutions conjonctives avancées pour fluidifier la transition des idées"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Examinez la locution 'N'agbanyeghị' (Malgré / Bien que). Le digramme 'gh' est une fricative vélaire sonore /ɣ/ qui requiert une friction continue sans occlusion. Le 'ny' s'articule comme une nasale palatale /ɲ/. Assurez-vous de marquer le ton haut sur la nasale syllabique dans 'Nke mbu'.",
+    "common_pitfalls": "Faites attention au mot 'Maka' (Parce que / Pour). Dans un discours soutenu, évitez de surcharger vos phrases en répétant 'maka' ; utilisez plutôt 'N'ihi na' pour marquer la causalité avec plus d'élégance stylistique."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v21_1",
+      "term": "N'ihi na",
+      "phonetic_api": "/nɪ́çí ná/",
+      "phonetic_simple": "NEE-HEE NAH",
+      "translation": "En raison de / Parce que / Attendu que",
+      "example_sentence": "N'ihi na ọ rụrụ ọrụ siri ike, o nwetara ọganihu.",
+      "example_phonetic": "/nɪ́çí ná ɔ́ ɾʊ̀ɾù ɔ̀|ʊ́ sīɾí īké ó nwètáɾá ɔ́ɡánɪ́ɦú/",
+      "example_translation": "En raison de son travail acharné, il a obtenu le succès."
+    },
+    {
+      "word_id": "v21_2",
+      "term": "N'agbanyeghị",
+      "phonetic_api": "/náɡ͡ɓáɲéɣɪ́/",
+      "phonetic_simple": "NAH-GBA-NYEH-GHEE",
+      "translation": "Malgré / Bien que / Néanmoins / Quoique",
+      "example_sentence": "N'agbanyeghị na ọnụahia ya siri ike, anyị zụrụ ya.",
+      "example_phonetic": "/náɡ͡ɓáɲéɣɪ́ ná ɔ̀nʊ́áɦịá já sīɾí īké āɲɪ́ zʊ̀ɾù jâ/",
+      "example_translation": "Malgré son prix très élevé, nous l'avons acheté."
+    },
+    {
+      "word_id": "v21_3",
+      "term": "Ya mere",
+      "phonetic_api": "/já mệɾệ/",
+      "phonetic_simple": "YAH MEH-REH",
+      "translation": "C'est pourquoi / Par conséquent / De ce fait",
+      "example_sentence": "Onyeisi anyị nwere nzukọ, ya mere ọ bịaghị.",
+      "example_phonetic": "/òɲéīsī āɲɪ́ nwèɾé nzʊ̀kɔ́ já mệɾệ ɔ́ ɓɪ́áɣɪ́/",
+      "example_translation": "Notre directeur avait une réunion, c'est pourquoi il n'est pas venu."
+    },
+    {
+      "word_id": "v21_4",
+      "term": "Nke mbu / Nke abụọ",
+      "phonetic_api": "/ŋkè ḿɓʊ́/",
+      "phonetic_simple": "N-KEH M-BOO",
+      "translation": "Premièrement / Deuxièmement (structurateurs de discours)",
+      "example_sentence": "Nke mbu, anyị ga-echekwa ego; nke abụọ, anyị ga-amalite ọrụ.",
+      "example_phonetic": "/ŋkè ḿɓʊ́ āɲɪ́ ɡá-ēléɓáɾɪ́ɾɪ́ éɡō ŋkè àɓʊ́ɔ̀ āɲɪ́ ɡá-āmálíté ɔ̀|ʊ́/",
+      "example_translation": "Premièrement, nous devons économiser l'argent ; deuxièmement, nous commencerons le travail."
+    },
+    {
+      "word_id": "v21_5",
+      "term": "Ọ bụ ezie na",
+      "phonetic_api": "/ɔ́ ɓʊ́ ézíé ná/",
+      "phonetic_simple": "OH BOU EH-ZEE-EH NAH",
+      "translation": "Certes / Bien qu'il soit vrai que / Même si",
+      "example_sentence": "Ọ bụ ezie na ọrụ a siri ike, anyị ga-arụcha ya.",
+      "example_phonetic": "/ɔ́ ɓʊ́ ézíé ná ɔ̀|ʊ́ á sīɾí īké āɲɪ́ ɡá-ā|ʊ́tʃá jâ/",
+      "example_translation": "Bien qu'il soit vrai que ce travail soit difficile, nous le terminerons."
+    },
+    {
+      "word_id": "v21_6",
+      "term": "Tufere / Kama nke ahụ",
+      "phonetic_api": "/kámá ŋkè àɦʊ́/",
+      "phonetic_simple": "KAH-MAH N-KEH AH-HOU",
+      "translation": "Au lieu de cela / En revanche / Par contre",
+      "example_sentence": "Anyị agaghị emebi oge; kama nke ahụ, anyị ga-agbalị.",
+      "example_phonetic": "/āɲɪ́ àɡáɣɪ́ èmēɓí óɡè kámá ŋkè àɦʊ́ āɲɪ́ ɡá-āɡ͡ɓálɪ́/",
+      "example_translation": "Nous ne allons pas perdre de temps ; en revanche, nous allons faire des efforts."
+    },
+    {
+      "word_id": "v21_7",
+      "term": "N'ozuzu ya",
+      "phonetic_api": "/nɔ́zūzū jâ/",
+      "phonetic_simple": "NOH-ZOO-ZOO YAH",
+      "translation": "En conclusion / Globalement / Somme toute",
+      "example_sentence": "N'ozuzu ya, atụmatụ anyị gaziere nke ọma.",
+      "example_phonetic": "/nɔ́zūzū jâ àtʊ́mátʊ́ āɲɪ́ ɡázìèɾè ŋkè ɔ̀mā/",
+      "example_translation": "En conclusion, notre projet s'est très bien déroulé."
+    },
+    {
+      "word_id": "v21_8",
+      "term": "Maazị / Sọ n'otu ụzọ",
+      "phonetic_api": "/sɔ́ nótù ʊ́zɔ̀/",
+      "phonetic_simple": "SOH NOH-TOO OO-ZOH",
+      "translation": "D'une part / De plus / Non seulement",
+      "example_sentence": "O nwere ezi nka, sọ n'otu ụzọ ọ na-arụ ọrụ.",
+      "example_phonetic": "/ó nwèɾé ézí ŋ́kà sɔ́ nótù ʊ́zɔ̀ ɔ́ nā-ā|ʊ́ ɔ̀|ʊ́/",
+      "example_translation": "Il possède une grande maîtrise, d'autre part il travaille dur."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p21_1",
+      "original": "N'ihi na anyị nwere onyenleka, anyị ga-elebarịrị anya n'usoro a.",
+      "phonetic_api": "/nɪ́çí ná āɲɪ́ nwèɾé òɲénléká āɲɪ́ ɡá-ēléɓáɾɪ́ɾɪ́ āɲá nʊ́sòɾò á/",
+      "phrase_simple": "NEE-HEE NAH AH-NYEE NWEH-REH OH-NYEHN-LEH-KAH AH-NYEE GAH-EH-LEH-BAH-REE-REE AH-NYAH NOOU-SOH-ROH AH",
+      "translation": "Puisque nous avons des doutes, nous devons absolument examiner cette procédure.",
+      "context": "Introduire un argument de causalité logique lors d'une délibération stratégique."
+    },
+    {
+      "phrase_id": "p21_2",
+      "original": "N'agbanyeghị na okwu gị siri ike, m ghọtara ezi nka gị.",
+      "phonetic_api": "/not-bah-nyeh-ghee nah oh-kwoo gee see-ree ee-keh m ghoh-tah-rah eh-zee n-kah gee/",
+      "phrase_simple": "N-AGBA-NYEH-GHEE NAH OH-KWOO GEE SEE-REE EE-KEH M GHOH-TAH-RAH EH-ZEE N-KAH GEE",
+      "translation": "Malgré la rigueur de vos propos, je reconnais votre grande maîtrise.",
+      "context": "Exprimer une concession respectueuse au cours d'un débat formel."
+    },
+    {
+      "phrase_id": "p21_3",
+      "original": "Ọ bụ ezie na anyị enweteghị ego ukwuu, anyị agaghị emebi iwu.",
+      "phonetic_api": "/ɔ́ ɓʊ́ ézíé ná āɲɪ́ ēnwẹtẹ́ɣɪ́ éɡō ūkwūː āɲɪ́ àɡáɣɪ́ èmēɓí íwú/",
+      "phrase_simple": "OH BOU EH-ZEE-EH NAH AH-NYEE EH-NWEH-TEH-GHEE EH-GOH OO-KWOOU AH-NYEE AH-GAH-GHEE EH-MEH-BEE EE-WOO",
+      "translation": "Même s'il est vrai que nous n'avons pas gagné beaucoup d'argent, nous ne violerons pas la loi.",
+      "context": "Affirmer un principe éthique inflexible malgré les difficultés financières."
+    },
+    {
+      "phrase_id": "p21_4",
+      "original": "Nke mbu, anyị ga-arụcha atụmatụ a; kama nke ahụ, anyị ga-enwe mfu.",
+      "phonetic_api": "/ŋkè ḿɓʊ́ āɲɪ́ ɡá-ā|ʊ́tʃá àtʊ́mátʊ́ á kámá ŋkè àɦʊ́ āɲɪ́ ɡá-ēnwẹ́ ḿfū/",
+      "phrase_simple": "N-KEH M-BOO AH-NYEE GAH-AH-ROU-CHAH AH-TOO-MAH-TOO AH KAH-MAH N-KEH AH-HOU AH-NYEE GAH-EH-NWEH M-FOO",
+      "translation": "Premièrement, nous devons achever ce projet ; sans cela (en revanche), nous subirons une perte.",
+      "context": "Structurer une argumentation rigoureuse avec une alternative claire."
+    },
+    {
+      "phrase_id": "p21_5",
+      "original": "Onyeisi anyị kwagala Lagos, ya mere anyị ji nwee nzukọ a ugbu a.",
+      "phonetic_api": "/òɲéīsī āɲɪ́ kwáɡálá lēɡɔ́sị̀ já mệɾệ āɲɪ́ dʒí nwẹ́ nzʊ̀kɔ́ á úɡ͡ɓú á/",
+      "phrase_simple": "OH-NYEH-EE-SEE AH-NYEE KWAH-GAH-LAH LEH-GOS YAH MEH-REH AH-NYEE JEE NWEH N-ZOU-KOH AH OOG-BOO AH",
+      "translation": "Notre directeur a déménagé à Lagos, c'est pourquoi nous tenons cette réunion actuellement.",
+      "context": "Expliquer la conséquence directe d'un événement factuel."
+    },
+    {
+      "phrase_id": "p21_6",
+      "original": "Ikweasị, ọrụ a ga-eweta ọganihu, tụmadị n'ihi na anyị rụkọrọ ọrụ.",
+      "phonetic_api": "/īkwéásɪ̀ ɔ̀|ʊ́ á ɡá-ēwẹtá ɔ́ɡánɪ́ɦú tʊ́mádɪ̀ nɪ́çí ná āɲɪ́ ɾʊ̀kɔ́ɾɔ́ ɔ̀|ʊ́/",
+      "phrase_simple": "EE-KWEH-AH-SEE OH-ROU AH GAH-EH-WEH-TAH OH-GAH-NEE-HOO TOOU-MAH-DEE NEE-HEE NAH AH-NYEE ROU-KOH-ROH OH-ROU",
+      "translation": "Il se pourrait bien que ce travail apporte la prospérité, d'autant plus que nous avons collaboré.",
+      "context": "Formuler une probabilité positive étayée par une cause solide."
+    },
+    {
+      "phrase_id": "p21_7",
+      "original": "N'ozuzu ya, ezi nka na-achọ oge na ịgbalị kachasi ike.",
+      "phonetic_api": "/nɔ́zūzū jâ ézí ŋ́kà nā-ātʃɔ́ óɡè ná ị̀ɡ͡ɓálɪ́ kátʃásí īké/",
+      "phrase_simple": "NOH-ZOO-ZOO YAH EH-ZEE N-KAH NAH-AH-CHOH OH-GEH NAH EE-GBA-LEE KAH-CHA-SEE EE-KEH",
+      "translation": "En conclusion, la véritable maîtrise exige du temps et un effort maximal.",
+      "context": "Clore un exposé académique ou un discours solennel."
+    },
+    {
+      "phrase_id": "p21_8",
+      "original": "Anyị agaghị agbagha iwu obodo, kama nke ahụ anyị ga-asọpụrụ ya.",
+      "phonetic_api": "/āɲɪ́ àɡáɣɪ́ àɡ͡ɓáɣá íwú òɓòdò kámá ŋkè àɦʊ́ āɲɪ́ ɡá-āsɔ́pʊ́ɾʊ́ jâ/",
+      "phrase_simple": "AH-NYEE AH-GAH-GHEE AH-GBA-GHAH EE-WOO OH-BOH-DOH KAH-MAH N-KEH AH-HOU AH-NYEE GAH-AH-SOH-POO-ROO YAH",
+      "translation": "Nous ne contesterons pas les lois de la cité, au lieu de cela nous les respecterons.",
+      "context": "Exprimer une opposition constructive face à une alternative négative."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la concession avec 'N'agbanyeghị na' vs 'Ọ bụ ezie na'",
+      "explanation": "Pour introduire une nuance concessive dans le discours soutenu (C1), l'igbo oppose deux structures. 'N'agbanyeghị na' met l'accent sur l'obstacle surmonté (équivalent de 'malgré le fait que'). 'Ọ bụ ezie na' introduit un fait indéniable mais qui n'empêche pas l'action principale (équivalent de 'certes... mais').",
+      "rules": [
+        "Les deux locutions se placent généralement en début de phrase ou de proposition subordonnée.",
+        "Le verbe qui suit conserve sa forme indicative standard sans modification tonale obligatoire."
+      ],
+      "examples": [
+        {
+          "structure": "N'agbanyeghị na + [Fait concédé]",
+          "phonetic_api": "/náɡ͡ɓáɲéɣɪ́ ná ó dʒéɾé/",
+          "meaning": "N'agbanyeghị na o jere... (Malgré le fait qu'il soit allé...)"
+        }
+      ]
+    },
+    {
+      "concept": "La structure consécutive avec 'Ya mere ... ji'",
+      "explanation": "Pour exprimer une conséquence logique stricte de manière élégante, l'igbo associe le connecteur 'Ya mere' (C'est pourquoi) à l'insertion de l'auxiliaire ou de l'infirme verbal 'ji' devant le verbe principal de la proposition consécutive.",
+      "rules": [
+        "Structure : [Cause], ya mere + [Sujet] + ji + [Verbe principal].",
+        "L'omission de 'ji' est tolérée à l'oral intermédiaire, mais sa présence est obligatoire dans le registre formel et soutenu du niveau avancé."
+      ],
+      "examples": [
+        {
+          "structure": "[Cause], ya mere + Sujet + ji + [Verbe]",
+          "phonetic_api": "/ó ɾʊ̀ɾù ɔ̀|ʊ́ já mệɾệ ó dʒí nwẹ́ éɡō/",
+          "meaning": "O rụrụ ọrụ, ya mere o ji nwee ego. (Il a travaillé, c'est pourquoi de ce fait il a de l'argent.)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Maazị Obi",
+      "text": "Chịf Nwosu, ọ bụ ezie na atụmatụ anyị ochie wetara mfu ego, m na-agbagha na anyị ga-asọ n'otu ụzọ tụfere usoro ọhụrụ a. Gịwa si gịnị?",
+      "phonetic_api": "/tʃɪ́f ézènʷá ɔ́ ɓʊ́ ézíé ná àtʊ́mátʊ́ āɲɪ́ ótʃíé wètáɾá ḿfū éɡō m nā-āɡ͡ɓáɣá ká āɲɪ́ ɡá-āsɔ́ nótù ʊ́zɔ̀ tʊ́fẹ́ɾẹ́ ùsòɾò ɔ̀ɦʊ́ɾʊ́ á ɟɪ́wá sɪ́ dʒǐnɪ́/",
+      "phonetic_simple": "CHEEF N-WOH-SOO OH BOU EH-ZEE-EH NAH AH-TOO-MAH-TOO AH-NYEE OH-CHEE-EH WEH-TAH-RAH M-FOO EH-GOH M NAH-AH-GBA-GHAH KAH AH-NYEE GAH-AH-SOH NOH-TOO OO-ZOH TOO-FEH-REH OO-SOH-ROH OH-HOU-ROH AH GEE-WAH SEE GEE-NEE",
+      "translation": "Chef Nwosu, bien qu'il soit vrai que notre ancien projet ait causé des pertes financières, je conteste le fait que nous devions stagner d'un côté au lieu d'adopter cette nouvelle méthodologie. Qu'en pensez-vous (quant à vous) ?"
+    },
+    {
+      "speaker": "Chịf Nwosu",
+      "text": "Maazị Obi, nke mbu, anyị ga-asọpụrụ iwu ụlọ ọrụ anyị. N'ihi na anyị nwere onyenleka gbasara nka na ụzụ a, ya mere m ji sị ka anyị bélatagọdị ọsọ anyị.",
+      "phonetic_api": "/māːzɪ̀ óɓī ŋkè ḿɓʊ́ āɲɪ́ ɡá-āsɔ́pʊ́ɾʊ́ íwú ʊ̀lọ́ ɔ̀|ʊ́ āɲɪ́ nɪ́çí ná āɲɪ́ nwèɾé òɲénléká ɡ͡ɓàsáɾá ŋ́kà ná ʊ́zʊ́ á já mệɾệ m dʒí sɪ́ ká āɲɪ́ ɓẹ́látáɡɔ̀dɪ́ ɔ́sɔ́ āɲɪ́/",
+      "phonetic_simple": "MAH-ZEE OH-BEE N-KEH M-BOO AH-NYEE GAH-AH-SOH-POO-ROO EE-WOO OU-LOH OH-ROU AH-NYEE NEE-HEE NAH AH-NYEE NWEH-REH OH-NYEHN-LEH-KAH GBA-SAH-RAH N-KAH NAH OO-ZOO AH YAH MEH-REH M JEE SEE KAH AH-NYEE BEH-LAH-TAH-GOH-DEE OH-SOH AH-NYEE",
+      "translation": "Monsieur Obi, premièrement, nous devons respecter le règlement de notre entreprise. En raison du fait que nous nourrissons un certain scepticisme vis-à-vis de cette technologie, c'est pourquoi je demande que nous ralentissions un peu notre cadence."
+    },
+    {
+      "speaker": "Maazị Obi",
+      "text": "N'agbanyeghị ọsọ anyị, ikweasị ọdịnihu ga-achọ ezi nka. Kama anyị ga-atụ egwu mfu, anyị ga-agbalị kachasi ike anyị kpamkpam.",
+      "phonetic_api": "/náɡ͡ɓáɲéɣɪ́ ɔ́s|ɔ́ āɲɪ́ īkwéásɪ̀ ɔ̀|ɒ̀nɪ́ɦú ɡá-ātʃɔ́ ézí ŋ́kà kámá āɲɪ́ ɡá-àtʊ́ éɡʷū ḿfū āɲɪ́ ɡá-āɡ͡ɓálɪ́ kátʃásí īké āɲɪ́ kpámkpám/",
+      "phonetic_simple": "N-AGBA-NYEH-GHEE OH-SOH AH-NYEE EE-KWEH-AH-SEE OH-DEE-NEE-HOO GAH-AH-CHOH EH-ZEE N-KAH KAH-MAH AH-NYEE GAH-AH-TOU EH-GWOO M-FOO AH-NYEE GAH-AH-GBA-LEE KAH-CHA-SEE EE-KEH AH-NYEE KPAM-KPAM",
+      "translation": "Malgré notre rythme actuel, il se pourrait bien que l'avenir exige une maîtrise absolue. Au lieu d'avoir peur des pertes, nous devrions plutôt déployer notre effort maximal."
+    },
+    {
+      "speaker": "Chịf Nwosu",
+      "text": "N'ozuzu ya, okwu gị nwere ezi arọ. Ka anyị kwekọọ usoro a n'otu mgbe ahụ na-enweghị onyenleka ọzọ. Imela.",
+      "phonetic_api": "/nɔ́zūzū jâ ókwú ɟɪ́ nwèɾé ézí à|ɔ́ ká āɲɪ́ kwékɔ́ɔ́ ùsòɾò á nótù ḿɡ͡ɓé àɦʊ́ nā-ēnwēɣɪ́ òɲénléká ɔ́zɔ́ ímélá/",
+      "phonetic_simple": "NOH-ZOO-ZOO YAH OH-KWOO GEE NWEH-REH EH-ZEE AH-ROH KAH AH-NYEE KWEH-KOH-OH OO-SOH-ROH AH NOH-TOO M-GBEH AH-HOU NAH-EH-NWEH-GHEE OH-NYEHN-LEH-KAH OH-ZOH EE-MEH-LAH",
+      "translation": "En conclusion, vos paroles ont un poids indiscutable. Accordons nos violons sur cette procédure au même instant, sans plus aucun scepticisme. Merci."
+    }
+  ],
+  "cultural_notes": [
+    "La rhétorique formelle lors des assemblées villageoises ou des conseils économiques ('Okwu Ala') repose sur l'art de la concession équilibrée. Un bon orateur n'annihile pas l'argument adverse ; il utilise 'Ọ bụ ezie na' pour valider son interlocuteur avant de réorienter logiquement le débat.",
+    "L'introduction systématique de structurateurs comme 'Nke mbu' (Premièrement) reflète l'influence des structures de débat juridique et universitaire dans l'igbo contemporain soutenu.",
+    "L'expression 'Okwu gị nwere arọ' (Tes paroles ont du poids) est le plus haut compliment que l'on puisse adresser à un conseiller ou un partenaire d'affaires, marquant la reconnaissance de sa sagesse intrinsèque."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex21_1",
+      "type": "multiple_choice",
+      "question": "Quel connecteur logique avancé exprime au mieux la cause noble ou formelle (équivalent de 'attendu que' / 'en raison de') ?",
+      "options": [
+        "N'agbanyeghị",
+        "N'ihi na",
+        "Kama nke ahụ"
+      ],
+      "correct_answer": "N'ihi na",
+      "explanation": "'N'ihi na' est la locution conjonctive de cause privilégiée dans le registre soutenu et formel."
+    },
+    {
+      "exercise_id": "ex21_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour marquer une conséquence rigoureuse, l'igbo utilise 'Ya mere' associé à l'infirme verbal [ ___ ] placé devant le verbe.",
+      "correct_answer": "ji",
+      "hint": "Le petit morphème de liaison qui verrouille la relation de cause à effet."
+    }
+  ]
+}

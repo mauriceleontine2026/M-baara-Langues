@@ -1,0 +1,260 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Distinguer le lexique humble (ma famille) du lexique honorifique (la famille d'autrui)",
+    "Présenter la composition de sa propre famille en utilisant les compteurs de personnes",
+    "Exprimer l'existence ou la possession de personnes avec le verbe 'imasu'"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne glottale sourde /h/ présente dans 'haha' (mère) doit être nettement expirée. Le mot 'chichi' (père) introduit la consonne affriquée alvéolo-palatale sourde /t͡ɕ/, identique au 'tch' français. Dans les termes honorifiques comme 'onīsan' (grand frère) et 'onēsan' (grande sœur), respectez scrupuleusement l'allongement vocalique des mores /iː/ et /eː/.",
+    "common_pitfalls": "Attention à ne pas utiliser les termes honorifiques ('okaasan', 'otoosan') pour désigner vos propres parents devant un tiers, ce qui violerait le principe fondamental de l'opposition Uchi (intérieur/humilité) et Soto (extérieur/respect). Évitez aussi de confondre le compteur des personnes 'nin' avec le chiffre seul (ex: 1 personne se dit 'hitori' et non 'ichi-nin')."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "ちち (父)",
+      "phonetic_api": "/t͡ɕi.t͡ɕi/",
+      "phonetic_simple": "TCHI-TCHI",
+      "translation": "Mon père (humble)",
+      "example_sentence": "父はエンジニアです。",
+      "example_phonetic": "/t͡ɕi.t͡ɕi wa eɴ.d͡ʑi.ni.a de.sɯ̥/",
+      "example_translation": "Mon père est ingénieur."
+    },
+    {
+      "word_id": "v2",
+      "term": "はは (母)",
+      "phonetic_api": "/ha.ha/",
+      "phonetic_simple": "HA-HA",
+      "translation": "Ma mère (humble)",
+      "example_sentence": "母はフランス人です。",
+      "example_phonetic": "/ha.ha wa ɸɯ.ɾaɴ.sɯ.d͡ʑiɴ de.sɯ̥/",
+      "example_translation": "Ma mère est française."
+    },
+    {
+      "word_id": "v3",
+      "term": "おとうさん (お父さん)",
+      "phonetic_api": "/o.toː.saɴ/",
+      "phonetic_simple": "O-TOO-SAN",
+      "translation": "Père (honorifique / pour autrui ou pour appeler le sien)",
+      "example_sentence": "田中さんのお父さんですか。",
+      "example_phonetic": "/ta.na.ka saɴ no o.toː.saɴ de.sɯ.ka/",
+      "example_translation": "Est-ce le père de M. Tanaka ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "おかあさん (お母さん)",
+      "phonetic_api": "/o.kaː.saɴ/",
+      "phonetic_simple": "O-KAA-SAN",
+      "translation": "Mère (honorifique / pour autrui ou pour appeler la sienne)",
+      "example_sentence": "お母さんはお元気ですか。",
+      "example_phonetic": "/o.kaː.saɴ wa o.ɡeɴ.ki de.sɯ.ka/",
+      "example_translation": "Comment va votre mère ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "きょうだい (兄弟)",
+      "phonetic_api": "/kjoː.da.i/",
+      "phonetic_simple": "KYOO-DA-I",
+      "translation": "Frères et sœurs / Jumeaux / Fratrie",
+      "example_sentence": "きょうだいがいますか。",
+      "example_phonetic": "/kjoː.da.i ɡa i.ma.sɯ.ka/",
+      "example_translation": "As-tu des frères et sœurs ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "ひとり (一人)",
+      "phonetic_api": "/çi.to.ɾi/",
+      "phonetic_simple": "CHI-TO-RI",
+      "translation": "Une personne (compteur irrégulier)",
+      "example_sentence": "子どもが一人います。",
+      "example_phonetic": "/ko.do.mo ɡa çi.to.ɾi i.ma.sɯ̥/",
+      "example_translation": "J'ai un enfant."
+    },
+    {
+      "word_id": "v7",
+      "term": "ふたり (二人)",
+      "phonetic_api": "/ɸɯ.ta.ɾi/",
+      "phonetic_simple": "FOU-TA-RI",
+      "translation": "Deux personnes (compteur irrégulier)",
+      "example_sentence": "お兄さんが二人います。",
+      "example_phonetic": "/o.niː.saɴ ɡa ɸɯ.ta.ɾi i.ma.sɯ̥/",
+      "example_translation": "J'ai deux grands frères."
+    },
+    {
+      "word_id": "v8",
+      "term": "ともだち (友達)",
+      "phonetic_api": "/to.mo.da.t͡ɕi/",
+      "phonetic_simple": "TO-MO-DA-TCHI",
+      "translation": "Ami / Camarade",
+      "example_sentence": "彼はわたしの友達です。",
+      "example_phonetic": "/ka.re wa wa.ta.ɕi no to.mo.da.t͡ɕi de.sɯ̥/",
+      "example_translation": "Il est mon ami."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "何人家族ですか。",
+      "phonetic_api": "/naɴ.niɴ ka.zo.kɯ de.sɯ.ka/",
+      "phonetic_simple": "NAN-NIN KA-ZO-KOU DESS-KA",
+      "translation": "Vous êtes combien dans votre famille ?",
+      "context": "Question usuelle pour s'enquérir de la taille de la famille de l'interlocuteur."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "三人家族です。",
+      "phonetic_api": "/saɴ.niɴ ka.zo.kɯ de.sɯ̥/",
+      "phonetic_simple": "SAN-NIN KA-ZO-KOU DESS",
+      "translation": "Nous sommes une famille de trois personnes.",
+      "context": "Réponse standard (incluant soi-même) utilisant le compteur de personnes 'nin'."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "きょうだいはいますか。",
+      "phonetic_api": "/kjoː.da.i wa i.ma.sɯ.ka/",
+      "phonetic_simple": "KYOO-DA-I WA I-MASS-KA",
+      "translation": "As-tu des frères et sœurs ?",
+      "context": "Façon courante d'interroger quelqu'un sur sa fratrie."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "いいえ、一人っ子です。",
+      "phonetic_api": "/iː.e çi.to.ɾi̥k.ko de.sɯ̥/",
+      "phonetic_simple": "II-É, CHI-TOK-KO DESS",
+      "translation": "Non, je suis enfant unique.",
+      "context": "Réponse en cas d'absence de frères et sœurs."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "お姉さんがいます。",
+      "phonetic_api": "/o.neː.saɴ ɡa i.ma.sɯ̥/",
+      "phonetic_simple": "O-NÉE-SAN GA I-MASS",
+      "translation": "J'ai une grande sœur.",
+      "context": "Bien qu'il s'agisse de sa propre sœur, l'usage d'un terme honorifique comme 'onēsan' est admis à l'oral informel si l'on souligne sa position d'aînée."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "ご家族はどこですか。",
+      "phonetic_api": "/ɡo.ka.zo.kɯ wa do.ko de.sɯ.ka/",
+      "phonetic_simple": "GO-KA-ZO-KOU WA DO-KO DESS-KA",
+      "translation": "Où habite / se trouve votre famille ?",
+      "context": "L'ajout du préfixe respectueux 'go-' est obligatoire pour parler de la famille d'autrui."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "家族はパリにいます。",
+      "phonetic_api": "/ka.zo.kɯ wa pa.ɾi ni i.ma.sɯ̥/",
+      "phonetic_simple": "KA-ZO-KOU WA PA-RI NI I-MASS",
+      "translation": "Ma famille est à Paris.",
+      "context": "Indiquer le lieu de résidence de ses proches."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "だれですか。",
+      "phonetic_api": "/da.ɾe de.sɯ.ka/",
+      "phonetic_simple": "DA-RÉ DESS-KA",
+      "translation": "Qui est-ce ?",
+      "context": "Interroger sur l'identité d'une personne (sur une photo ou à distance)."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la possession et de l'existence animée : [Nom] が います (ga imasu)",
+      "explanation": "Pour exprimer la présence ou la possession d'êtres vivants dotés de mouvement propre (humains, animaux), le japonais utilise exclusivement le verbe intransitif います (imasu). La particule が (ga) désigne le sujet existant. Pour les objets inanimés ou les plantes, on emploiera un autre verbe (arimasu) vu plus tard.",
+      "rules": [
+        "Structure : [Être animé] が います。",
+        "S'utilise pour déclarer l'existence de membres de la famille, d'animaux de compagnie ou d'amis."
+      ],
+      "examples": [
+        {
+          "structure": "弟がいます (Otōto ga imasu)",
+          "phonetic_api": "/o.toː.to ɡa i.ma.sɯ̥/",
+          "meaning": "J'ai un petit frère."
+        }
+      ]
+    },
+    {
+      "concept": "Le système de comptage des personnes : ～人 (nin)",
+      "explanation": "En japonais, on ne peut pas associer directement un chiffre à un nom sans utiliser un auxiliaire de numération (compteur). Pour les êtres humains, le compteur est ～人 (nin). Toutefois, les deux premiers nombres de la série possèdent des lectures purement japonaises totalement irrégulières qu'il faut mémoriser.",
+      "rules": [
+        "1 personne = 一人 (hitori)",
+        "2 personnes = 二人 (futari)",
+        "À partir de 3, structure régulière : [Chiffre] + 人 (nin). Exemple : 三人 (san-nin), 四人 (yo-nin / attention à l'altération de yon)."
+      ],
+      "examples": [
+        {
+          "structure": "子どもが四人います (Kodomo ga yo-nin imasu)",
+          "phonetic_api": "/ko.do.mo ɡa jo.niɴ i.ma.sɯ̥/",
+          "meaning": "J'ai quatre enfants."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "鈴木 (Suzuki)",
+      "text": "アリスさん、これはご家族の写真ですか。",
+      "phonetic_api": "/a.ɾi.sɯ̥ saɴ ko.ɾe wa ɡo.ka.zo.kɯ no ɕa.ɕiɴ de.sɯ.ka/",
+      "phonetic_simple": "A-RI-SOU SAN, KO-RÉ WA GO-KA-ZO-KOU NO CHA-CHIN DESS-KA",
+      "translation": "Alice, c'est une photo de votre famille ?"
+    },
+    {
+      "speaker": "アリス (Alice)",
+      "text": "はい、そうです。父と母と、兄が一人います。",
+      "phonetic_api": "/ha.i soː de.sɯ̥ t͡ɕi.t͡ɕi to ha.ha to a.ni ɡa çi.to.ɾi i.ma.sɯ̥/",
+      "phonetic_simple": "HAI, SOO DESS. TCHI-TCHI TO HA-HA TO, A-NI GA CHI-TO-RI I-MASS",
+      "translation": "Oui, c'est ça. Il y a mon père, ma mère et j'ai un grand frère."
+    },
+    {
+      "speaker": "鈴木 (Suzuki)",
+      "text": "お兄さんは会社員ですか。",
+      "phonetic_api": "/o.niː.saɴ wa ka.i.ɕa.iɴ de.sɯ.ka/",
+      "phonetic_simple": "O-NII-SAN WA KA-I-CHA-IN DESS-KA",
+      "translation": "Votre grand frère est-ce qu'il est employé d'entreprise ?"
+    },
+    {
+      "speaker": "アリス (Alice)",
+      "text": "いいえ、兄は学生です。鈴木さんは何人家族ですか。",
+      "phonetic_api": "/iː.e a.ni wa ɡa.kɯ̥.seː de.sɯ̥ sɯ.zɯ.ki saɴ wa naɴ.niɴ ka.zo.kɯ de.sɯ.ka/",
+      "phonetic_simple": "II-É, A-NI WA GAK-SÉE DESS. SOU-ZOU-KI SAN WA NAN-NIN KA-ZO-KOU DESS-KA",
+      "translation": "Non, mon frère est étudiant. Et vous, de combien de personnes se compose votre famille ?"
+    },
+    {
+      "speaker": "鈴木 (Suzuki)",
+      "text": "うちは二人家族です。妻がいます。",
+      "phonetic_api": "/ɯ.t͡ɕi wa ɸɯ.ta.ɾi ka.zo.kɯ de.sɯ̥ t͡sɯ.ma ɡa i.ma.sɯ̥/",
+      "phonetic_simple": "OU-TCHI WA FOU-TA-RI KA-ZO-KOU DESS. TSOU-MA GA I-MASS",
+      "translation": "Chez moi nous sommes deux. J'aménage ma vie avec mon épouse."
+    }
+  ],
+  "cultural_notes": [
+    "La distinction entre Uchi (le groupe intérieur : soi, sa famille, son entreprise) et Soto (le monde extérieur : les interlocuteurs, les clients) dicte le choix lexical. On rabaisse humblement ses propres parents en utilisant 'chichi' ou 'haha' devant un membre du groupe Soto, tandis qu'on élève les parents de ce dernier en y apposant le suffixe poli ou honorifique 'o-...-san' ('otoosan', 'okaasan').",
+    "La particule と (to) sert de conjonction de coordination 'et' uniquement pour lister de manière exhaustive des noms. On ne peut pas l'utiliser pour lier deux verbes ou deux phrases."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Vous parlez à votre professeur de votre propre mère. Quel mot devez-vous employer ?",
+      "options": [
+        "おかあさん (Okaasan)",
+        "はは (Haha)",
+        "お母さんさん (Okaasan-san)"
+      ],
+      "correct_answer": "はは (Haha)",
+      "explanation": "Face à une personne extérieure (Soto) comme un professeur, on utilise le terme humble 'haha' pour désigner sa propre mère."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "わたしはきょうだいが[ ___ ]人います。(Pour dire 2 personnes)",
+      "correct_answer": "二",
+      "hint": "Le chiffre deux combiné à la forme irrégulière donne 'futari' (二人)."
+    }
+  ]
+}

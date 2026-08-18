@@ -1,0 +1,163 @@
+{
+  "lesson_id": "C1_M2_L4",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 4,
+  "title": "Les proverbes, dictons et expressions imagées de la culture",
+  "learning_objectives": [
+    "Comprendre et décoder le sens métaphorique des grands proverbes nalu",
+    "Intégrer des expressions imagées traditionnelles dans un discours soutenu"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les formules proverbiales figées maintiennent des structures archaïques où les élisions et les fusions vocaliques sont obligatoires. Le rythme est scandé, marqué par des pauses glottales /ʔ/ expressives qui soulignent la portée morale de l'énoncé.",
+    "common_pitfalls": "Ne récitez pas un proverbe de manière monocorde. La rhétorique nalu exige d'accentuer fortement le substantif pivot (ex: 'wut' ou 'ceeb') pour donner du relief à la métaphore."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v22_1",
+      "term": "Minan",
+      "phonetic_api": "/mi.nan/",
+      "phonetic_simple": "MI-NAN",
+      "translation": "Proverbe / Parabole / Parole ancienne",
+      "example_sentence": "M'ba mi a foti minan.",
+      "example_phonetic": "/m.ba mi a fo.ti mi.nan/",
+      "example_translation": "Mon grand-père énonce une parabole."
+    },
+    {
+      "word_id": "v22_2",
+      "term": "Wut",
+      "phonetic_api": "/wut/",
+      "phonetic_simple": "WOUT",
+      "translation": "Arbre / Bois (symbole de la lignée)",
+      "example_sentence": "Wut we a thanda di gbarano.",
+      "example_phonetic": "/wut we a θa?.da di g͡ba.ra.no/",
+      "example_translation": "Cet arbre est grand dans la cour."
+    },
+    {
+      "word_id": "v22_3",
+      "term": "M'mela thand",
+      "phonetic_api": "/m.me.la θand/",
+      "phonetic_simple": "M-MÉ-LA THAND",
+      "translation": "Grande eau / Mer / Océan (métaphore de la vie)",
+      "example_sentence": "Ceeborna a ba di m'mela thand.",
+      "example_phonetic": "/tʃeː.bor.na a ba di m.me.la θand/",
+      "example_translation": "Le pêcheur va sur la grande mer."
+    },
+    {
+      "word_id": "v22_4",
+      "term": "Kari-ce",
+      "phonetic_api": "/ka.ri.tʃe/",
+      "phonetic_simple": "KA-RI-TCHÉ",
+      "translation": "Sagesse acquise / Esprit mûr",
+      "example_sentence": "A malang kari-ce b'at.",
+      "example_phonetic": "/a ba.laŋ ka.ri.tʃe ɓat/",
+      "example_translation": "Il possède une grande sagesse spirituelle."
+    },
+    {
+      "word_id": "v22_5",
+      "term": "B'at-na",
+      "phonetic_api": "/ɓat.na/",
+      "phonetic_simple": "BAT-NA",
+      "translation": "L'Ancien / Le Sage / Le Respecté",
+      "example_sentence": "B'at-na a kanyen we.",
+      "example_phonetic": "/ɓat.na a ka.ɲeŋ we/",
+      "example_translation": "Le Sage réside ici."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p22_1",
+      "original": "Wut moti a thanda rila, a gbe lan di n'gbe baa.",
+      "phonetic_api": "/wut mo.ti a θa?.da ri.la a ŋgbe lan di ŋgbe baː/",
+      "phonetic_simple": "WOUT MO-TI A THAN-DA RI-LA, A NGBÉ LAN DI NGBÉ BAA",
+      "translation": "Un arbre a beau grandir, il ne saurait oublier sa racine (son père).",
+      "context": "Proverbe fondamental sur l'ingratitude, le respect filial et la piété familiale."
+    },
+    {
+      "phrase_id": "p22_2",
+      "original": "Ceebor di m'mela thand a gbe foti-we a malang m'mela, bale foti-we a malang ceeb.",
+      "phonetic_api": "/tʃeː.bor di m.me.la θand a ŋgbe fo.ti.we a ba.laŋ m.me.la ba.lɛ fo.ti.we a ba.laŋ tʃeːb/",
+      "phonetic_simple": "TCHÉÉ-BOR DI M-MÉ-LA THAND A NGBÉ FO-TI-WÉ A BA-LANG M-MÉ-LA, BA-LÈ FO-TI-WÉ A BA-LANG TCHÉÉB",
+      "translation": "Le pêcheur qui affronte l'océan ne le fait pas par amour de l'eau, mais par nécessité du poisson.",
+      "context": "Dicton traditionnel rappelant que les actions pénibles sont guidées par le devoir et la survie du groupe."
+    },
+    {
+      "phrase_id": "p22_3",
+      "original": "Moti b'at-na a foti minan, bweten a kanɛ lan ce.",
+      "phonetic_api": "/mo.ti ɓat.na a fo.ti mi.nan bʷe.ten a ka.nɛ lan tʃe/",
+      "phonetic_simple": "MO-TI BAT-NA A FO-TI MI-NAN, BOUÉ-TEN A KA-NÈ LAN TCHÉ",
+      "translation": "Quand le Sage énonce une parabole, l'enfant doit écouter et méditer profondément.",
+      "context": "Règle de bienséance rappelant la préséance oratoire lors des réunions de village."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'ellipse pronominale dans les énoncés gnomiques (proverbes)",
+      "explanation": "En nalu avancé, les vérités générales et les proverbes s'affranchissent souvent des pronoms personnels sujets spécifiques pour adopter des structures nominales directes. Le nom commun prend alors une valeur universelle sans déterminant.",
+      "rules": [
+        "Le substantif initial (ex: 'wut' pour l'arbre) porte le rôle d'actant générique.",
+        "Le verbe de la principale ne s'accorde pas avec une personne physique, mais adopte le marqueur de classe impersonnel stabilisé 'a gbe'."
+      ],
+      "examples": [
+        {
+          "structure": "Wut moti thanda...",
+          "phonetic_api": "/wut mo.ti θa?.da/",
+          "meaning": "L'arbre qui grandit... / Tout arbre qui grandit..."
+        },
+        {
+          "structure": "Ceebor di m'mela...",
+          "phonetic_api": "/tʃeː.bor di m.me.la/",
+          "meaning": "Pêcher dans l'eau... / Quiconque pêche dans l'eau..."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "M'ba Lamine",
+      "text": "Bweten mi, lan ce minan we : Wut moti a thanda rila, a gbe lan di n'gbe baa.",
+      "phonetic_api": "/bʷe.ten mi lan tʃe mi.nan we wut mo.ti a θa?.da ri.la a ŋgbe lan di ŋgbe baː/",
+      "phonetic_simple": "BOUÉ-TEN MI, LAN TCHÉ MI-NAN WÉ : WOUT MO-TI A THAN-DA RI-LA, A NGBÉ LAN DI NGBÉ BAA.",
+      "translation": "Mon enfant, écoute bien cette parabole : Un arbre a beau grandir, il ne saurait oublier sa racine."
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Ina, m'ba ! Foti mi gbeila kari-ce. M boku lan wale mwo mu-cale m ba-a we.",
+      "phonetic_api": "/i.na m.ba fo.ti mi g͡bei.la ka.ri.tʃe m bo.ku lan wa.le mwo mu.tʃa.le m ba.a we/",
+      "phonetic_simple": "I-NA, M-BA ! FO-TI MI GBEÏ-LA KA-RI-TCHÉ. M BO-KOU LAN WA-LÉ MWO MOU-TCHA-LÉ M BA-A WÉ.",
+      "translation": "S'il te plaît, mon grand-père ! Enseigne-moi le chemin de la sagesse. Je vais méditer ton enseignement, c'est pourquoi je suis venu ici."
+    },
+    {
+      "speaker": "M'ba Lamine",
+      "text": "A ce b'at ! Mun-moti thaŋa a gbe baang, n'boka mwo a gbe n'da mboye.",
+      "phonetic_api": "/a tʃe ɓat mun.mo.ti θa.ŋa a ŋgbe baːŋ n͡bo.ka mwo a ŋgbe nda mbo.je/",
+      "phonetic_simple": "A TCHÉ BAT ! MOUN-MO-TI THA-NGA A NGBÉ BAANG, N-BO-KA MWO A NGBÉ N-DA MBO-YÉ.",
+      "translation": "C'est excellent ! Même si la ville est immense et tumultueuse, ta concession familiale reste ton véritable havre de paix."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture Nalu de la Guinée maritime, le langage direct est souvent perçu comme abrupt ou dénué d'élégance. Les notables et les chefs de clan s'expriment quasi exclusivement par le biais de 'minan' (paraboles et proverbes) empruntés à la faune, à la flore forestière et aux comportements de l'océan. Maîtriser ces images est le signe absolu de l'intégration sociale supérieure et du droit d'accès aux conseils des anciens."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex22_1",
+      "type": "multiple_choice",
+      "question": "Dans le proverbe de l'arbre, que symbolise métaphoriquement la racine ('baa') ?",
+      "options": [
+        "La richesse financière",
+        "Les parents, les ancêtres et les origines",
+        "La route de la ville"
+      ],
+      "correct_answer": "Les parents, les ancêtres et les origines",
+      "explanation": "'Baa' désigne le père ou la racine originelle, rappelant le devoir de loyauté envers sa lignée."
+    },
+    {
+      "exercise_id": "ex22_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour nommer une parabole, un dicton ou un proverbe ancien, on emploie le terme : [ ___ ].",
+      "correct_answer": "Minan",
+      "hint": "Désigne une parole à double sens contenant une haute leçon de morale"
+    }
+  ]
+}

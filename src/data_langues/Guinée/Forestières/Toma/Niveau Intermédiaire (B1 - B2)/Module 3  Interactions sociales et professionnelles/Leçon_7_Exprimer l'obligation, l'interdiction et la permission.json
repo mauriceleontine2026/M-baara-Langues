@@ -1,0 +1,133 @@
+{
+  "lesson_id": "B1_M3_L7",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 7,
+  "title": "Exprimer l'obligation, l'interdiction et la permission",
+  "learning_objectives": [
+    "Exprimer le devoir ou la nécessité d'accomplir une action",
+    "Formuler une interdiction stricte ou accorder une permission en toma"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression de la contrainte s'appuie sur une intonation fortement ascendante appliquée à l'auxiliaire modal, marquant l'insistance de la consonne nasale initiale.",
+    "common_pitfalls": "Veillez à ne pas adoucir le ton haut du morphème prohibitif 'pɛ́', indispensable pour distinguer la simple négation de l'interdiction."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v16_1",
+      "term": "kɛ̃",
+      "phonetic_api": "/kɛ̃/",
+      "phonetic_simple": "KEN",
+      "translation": "devoir / falloir / obligation",
+      "example_sentence": "Na kɛ̃ na li.",
+      "example_phonetic": "/na kɛ̃ na li/",
+      "example_translation": "Je dois partir."
+    },
+    {
+      "word_id": "v16_2",
+      "term": "va-zu",
+      "phonetic_api": "/va.zu/",
+      "phonetic_simple": "VA-ZOU",
+      "translation": "permettre / donner le chemin / permission",
+      "example_sentence": "Na va-zu ve i ma.",
+      "example_phonetic": "/na va.zu vɛ i ma/",
+      "example_translation": "Je te donne la permission."
+    },
+    {
+      "word_id": "v16_3",
+      "term": "pɛ́ kɛ",
+      "phonetic_api": "/pɛ́ kɛ/",
+      "phonetic_simple": "PE KE",
+      "translation": "ne pas faire / interdiction",
+      "example_sentence": "I pɛ́ kɛ ni ma.",
+      "example_phonetic": "/i pɛ́ kɛ ni ma/",
+      "example_translation": "Ne fais pas ça."
+    },
+    {
+      "word_id": "v16_4",
+      "term": "tɔ́gɔ",
+      "phonetic_api": "/tɔ́.ɡɔ/",
+      "phonetic_simple": "TO-GO",
+      "translation": "loi / règle communautaire / interdit",
+      "example_sentence": "Tɔ́gɔ ɓaa ni.",
+      "example_phonetic": "/tɔ́.ɡɔ ɓaː ni/",
+      "example_translation": "C'est une loi / c'est interdit."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p16_1",
+      "original": "Na kɛ̃ na li galu ma wogaza.",
+      "phonetic_api": "/na kɛ̃ na li ɡa.lu ma wo.ɡa.za/",
+      "phonetic_simple": "NA KEN NA LI GA-LOU MA WO-GA-ZA",
+      "translation": "Il faut absolument que j'aille au marché demain.",
+      "context": "Expression d'une nécessité ou d'une obligation personnelle importante."
+    },
+    {
+      "phrase_id": "p16_2",
+      "original": "I pɛ́ va ɓɛñ, tɔ́gɔ ɓaa.",
+      "phonetic_api": "/i pɛ́ va ɓɛ̃ tɔ́.ɡɔ ɓaː/",
+      "phonetic_simple": "I PE VA BEN, TO-GO BAA",
+      "translation": "Tu ne dois pas venir ici, c'est interdit.",
+      "context": "Formulation d'un interdit formel basé sur une règle."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'auxiliaire de nécessité 'kɛ̃'",
+      "explanation": "L'obligation s'exprime par le biais de la particule modale nasalisée 'kɛ̃' qui s'insère directement après le pronom sujet initial et requiert la répétition de la base sujet.",
+      "rules": [
+        "Structure : Sujet 1 + kɛ̃ + Sujet 1 (répété) + Verbe d'action.",
+        "Pour l'interdiction impérative, on emploie la négation à ton haut 'pɛ́' placée devant le verbe."
+      ],
+      "examples": [
+        {
+          "structure": "i kɛ̃ i va",
+          "phonetic_api": "/i kɛ̃ i va/",
+          "meaning": "tu dois venir"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'ancien",
+      "text": "Tokpa, i kɛ̃ i li pɛlɛ zu ni ma.",
+      "phonetic_api": "/tok.pa i kɛ̃ i li pɛ.lɛ zu ni ma/",
+      "phonetic_simple": "TOK-PA I KEN I LI PE-LE ZOU NI MA",
+      "translation": "Tokpa, tu dois rentrer à la maison maintenant."
+    },
+    {
+      "speaker": "Tokpa",
+      "text": "Owo, na va-zu mɛni, na va li.",
+      "phonetic_api": "/o.wo na va.zu mɛ.ni na va li/",
+      "phonetic_simple": "O-WO NA VA-ZOU ME-NI NA VA LI",
+      "translation": "Oui, je comprends la règle, je m'en vais."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la société Toma, les interdits rituels et les règles coutumières ('tɔ́gɔ') régissent la vie quotidienne et la préservation de la forêt sacrée. Le respect de ces structures linguistiques et sociales est crucial."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex16_1",
+      "type": "multiple_choice",
+      "question": "Quel mot exprime l'obligation (devoir/falloir) ?",
+      "options": [
+        "va-zu",
+        "kɛ̃",
+        "tɔ́gɔ"
+      ],
+      "correct_answer": "kɛ̃",
+      "explanation": "'kɛ̃' traduit la nécessité absolue d'accomplir une action."
+    },
+    {
+      "exercise_id": "ex16_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "I [ ___ ] va ɓɛñ (Ne viens pas ici / interdit).",
+      "correct_answer": "pɛ́",
+      "hint": "Le marqueur à ton haut servant à interdire une action."
+    }
+  ]
+}

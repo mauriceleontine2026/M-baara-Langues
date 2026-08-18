@@ -1,0 +1,227 @@
+{
+  "lesson_id": "B1_M2_L5",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 5,
+  "title": "Parler de ses projets futurs et de ses ambitions",
+  "learning_objectives": [
+    "Exprimer une action future ou un projet à venir en Yalunka",
+    "Utiliser le suffixe temporel prospectif '-ma' de manière adéquate",
+    "Formuler ses ambitions professionnelles ou personnelles à moyen et long terme"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le suffixe de futur '-ma' s'articule de manière brève et stable /ma/. Le phonème 'x' conserve sa friction gutturale vélaire sourde /x/. Dans le terme 'tina', la voyelle 'i' est brève /ti.na/, à ne pas confondre avec le mot signifiant la paix 'tena' /te.na/.",
+    "common_pitfalls": "Veillez à ne pas ajouter de voyelle d'appui ou de pause avant le suffixe '-ma'. Il doit s'agglutiner directement et de façon fluide à la racine du verbe."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v14_1",
+      "term": "Tina",
+      "phonetic_api": "/ti.na/",
+      "phonetic_simple": "TI-NA",
+      "translation": "Demain",
+      "example_sentence": "N sigama tina.",
+      "example_phonetic": "/ŋ si.ɡa.ma ti.na/",
+      "example_translation": "Je partirai demain."
+    },
+    {
+      "word_id": "v14_2",
+      "term": "Tinani",
+      "phonetic_api": "/ti.na.ni/",
+      "phonetic_simple": "TI-NA-NI",
+      "translation": "Après-demain",
+      "example_sentence": "A fama tinani.",
+      "example_phonetic": "/a fa.ma ti.na.ni/",
+      "example_translation": "Il viendra après-demain."
+    },
+    {
+      "word_id": "v14_3",
+      "term": "Wali",
+      "phonetic_api": "/wa.li/",
+      "phonetic_simple": "WA-LI",
+      "translation": "Projet / Travail / Entreprendre",
+      "example_sentence": "N na wali fanyin rafala-ma.",
+      "example_phonetic": "/ŋ na wa.li fan.jin ra.fa.la.ma/",
+      "example_translation": "Je réaliserai un bon projet."
+    },
+    {
+      "word_id": "v14_4",
+      "term": "Xaranmɔxɔ",
+      "phonetic_api": "/xa.ran.mɔ.xɔ/",
+      "phonetic_simple": "KHA-RAN-MO-KHO",
+      "translation": "Devenir enseignant / Maître (Ambition)",
+      "example_sentence": "N findima xaranmɔxɔ ra.",
+      "example_phonetic": "/ŋ fin.di.ma xa.ran.mɔ.xɔ ra/",
+      "example_translation": "Je deviendrai enseignant."
+    },
+    {
+      "word_id": "v14_5",
+      "term": "Mabilin",
+      "phonetic_api": "/ma.bi.lin/",
+      "phonetic_simple": "MA-BI-LIN",
+      "translation": "Changer / Évoluer / Tourner",
+      "example_sentence": "N na n dɔxɔde mabilin-ma.",
+      "example_phonetic": "/ŋ na ŋ dɔ.xɔ.de ma.bi.lin.ma/",
+      "example_translation": "Je vais changer mon lieu de résidence."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p14_1",
+      "original": "Mun na i bɛ tina ?",
+      "phonetic_api": "/mun na i bɛ ti.na/",
+      "phonetic_simple": "MOUN NA I BÈ TI-NA ?",
+      "translation": "Que feras-tu demain ? / Quels sont tes plans pour demain ?",
+      "context": "Interroger un ami sur ses projets à court terme."
+    },
+    {
+      "phrase_id": "p14_2",
+      "original": "N sigama Kɔnakri tina subaxɛ na.",
+      "phonetic_api": "/ŋ si.ɡa.ma kɔ.na.kri ti.na su.ba.xɛ na/",
+      "phonetic_simple": "N SI-GA-MA KOU-NA-KRI TI-NA SOU-BA-KHÈ NA",
+      "translation": "Je partirai à Conakry demain matin.",
+      "context": "Annoncer un déplacement planifié le lendemain."
+    },
+    {
+      "phrase_id": "p14_3",
+      "original": "Mun a ra i bɛ xanfe i findi ra ?",
+      "phonetic_api": "/mun a ra i bɛ xan.fe i fin.di ra/",
+      "phonetic_simple": "MOUN A RA I BÈ KHAN-FÉ I FIN-DI RA ?",
+      "translation": "Que veux-tu devenir plus tard ?",
+      "context": "Demander à un jeune ou un étudiant ses ambitions professionnelles."
+    },
+    {
+      "phrase_id": "p14_4",
+      "original": "N findima karamɔxɔ gbe ra.",
+      "phonetic_api": "/ŋ fin.di.ma ka.ra.mɔ.xɔ ɡbe ra/",
+      "phonetic_simple": "N FIN-DI-MA KA-RA-MO-KHO GBÉ RA",
+      "translation": "Je deviendrai un grand professeur.",
+      "context": "Affirmer son ambition ou sa vocation à long terme."
+    },
+    {
+      "phrase_id": "p14_5",
+      "original": "N na banxi fanyin rafala-ma ɲɛ fama na.",
+      "phonetic_api": "/ŋ na ban.xi fan.jin ra.fa.la.ma ɲɛ fa.ma na/",
+      "phonetic_simple": "N NA BAN-KHI FAN-YIN RA-FA-LA-MA NYÈ FA-MA NA",
+      "translation": "Je construirai une belle maison l'année prochaine.",
+      "context": "Partager un grand projet de vie matériel."
+    },
+    {
+      "phrase_id": "p14_6",
+      "original": "Won mu sigama taaxui mɛ tinani.",
+      "phonetic_api": "/won mu si.ɡa.ma taː.xui mɛ ti.na.ni/",
+      "phonetic_simple": "WON MOU SI-GA-MA TAA-KHOUI MÈ TI-NA-NI",
+      "translation": "Nous n'irons pas en ville après-demain.",
+      "context": "Formuler une négation ou annuler un plan futur collectif."
+    },
+    {
+      "phrase_id": "p14_7",
+      "original": "A fama n na mabugema Laxidi na.",
+      "phonetic_api": "/a fa.ma ŋ na ma.bu.ɡe.ma la.xi.di na/",
+      "phonetic_simple": "A FA-MA N NA MA-BOU-GUÉ-MA LA-KHI-DI NA",
+      "translation": "Il viendra me rendre visite dimanche.",
+      "context": "Préciser une échéance temporelle dans la semaine."
+    },
+    {
+      "phrase_id": "p14_8",
+      "original": "Alaxɛ, n na n xaran ba-ma fanyin.",
+      "phonetic_api": "/a.la.xɛ ŋ na ŋ xa.ran ba.ma fan.jin/",
+      "phonetic_simple": "A-LA-KHÈ, N NA N KHA-RAN BA-MA FAN-YIN",
+      "translation": "S'il plaît à Dieu, je finirai mes études avec succès.",
+      "context": "Exprimer un souhait pieux lié à son avenir académique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du futur avec le suffixe verbal '-ma'",
+      "explanation": "En Yalunka, les actions futures, les intentions et les prédictions se construisent en ajoutant le suffixe aspectuel prospective/futur '-ma' directement à la fin du radical verbal.",
+      "rules": [
+        "Structure affirmative : Sujet + (Objet) + Verbe-ma",
+        "À la forme négative, on insère la particule 'mu' après le sujet, mais le suffixe '-ma' reste fermement attaché au verbe."
+      ],
+      "examples": [
+        {
+          "structure": "N sigama.",
+          "phonetic_api": "/ŋ si.ɡa.ma/",
+          "meaning": "Je partirai / J'irai."
+        },
+        {
+          "structure": "N mu sigama.",
+          "phonetic_api": "/ŋ mu si.ɡa.ma/",
+          "meaning": "Je ne partirai pas."
+        }
+      ]
+    },
+    {
+      "concept": "La construction de l'ambition avec 'findi... ra'",
+      "explanation": "Pour exprimer le concept de devenir ou de se transformer en quelque chose (métier, statut), on utilise le verbe 'findi' fléchi au futur ('findima') associé au nom de statut suivi de la postposition instrumentale/d'état 'ra'.",
+      "rules": [
+        "Sujet + findima + Statut/Métier + ra",
+        "Équivaut directement au verbe devenir du français."
+      ],
+      "examples": [
+        {
+          "structure": "N findima karamɔxɔ ra.",
+          "phonetic_api": "/ŋ fin.di.ma ka.ra.mɔ.xɔ ra/",
+          "meaning": "Je deviendrai enseignant."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "M'Mah",
+      "text": "Lamine, mun na i bɛ tina ? I sigama wali mɛ ?",
+      "phonetic_api": "/la.mi.ne mun na i bɛ ti.na i si.ɡa.ma wa.li mɛ/",
+      "phonetic_simple": "LA-MI-NE, MOUN NA I BÈ TI-NA ? I SI-GA-MA WA-LI MÈ ?",
+      "translation": "Lamine, qu'est-ce que tu fais demain ? Tu vas au travail ?"
+    },
+    {
+      "speaker": "Lamine",
+      "text": "Nba, n sigama wali mɛ tina subaxɛ na. Na fɛ, n na n mabilin-ma tinani.",
+      "phonetic_api": "/ŋba ŋ si.ɡa.ma wa.li mɛ ti.na su.ba.xɛ na na fɛ ŋ na ŋ ma.bi.lin.ma ti.na.ni/",
+      "phonetic_simple": "NBA, N SI-GA-MA WA-LI MÈ TI-NA SOU-BA-KHÈ NA. NA FÈ, N NA N MA-BI-LIN-MA TI-NA-NI",
+      "translation": "Oui, j'irai au travail demain matin. Ensuite, je me déplacerai après-demain."
+    },
+    {
+      "speaker": "M'Mah",
+      "text": "Na fanyin. Mun a ra i bɛ xanfe i findi ra ɲɛ fama na ?",
+      "phonetic_api": "/na fan.jin mun a ra i bɛ xan.fe i fin.di ra ɲɛ fa.ma na/",
+      "phonetic_simple": "NA FAN-YIN. MOUN A RA I BÈ KHAN-FÉ I FIN-DI RA NYÈ FA-MA NA ?",
+      "translation": "C'est bien. Que désires-tu devenir l'année prochaine ?"
+    },
+    {
+      "speaker": "Lamine",
+      "text": "N bɛ xanfe n findi xaranmɔxɔ gbe ra mabilinde mɛ. Alaxɛ na na rafala-ma.",
+      "phonetic_api": "/ŋ bɛ xan.fe ŋ fin.di xa.ran.mɔ.xɔ ɡbe ra ma.bi.lin.de mɛ a.la.xɛ na na ra.fa.la.ma/",
+      "phonetic_simple": "N BÈ KHAN-FÉ N FIN-DI KHA-RAN-MO-KHO GBÉ RA MA-BI-LIN-DÉ MÈ. A-LA-KHÈ NA NA RA-FA-LA-MA",
+      "translation": "Je souhaite devenir un grand enseignant dans ce quartier. Que Dieu m'aide à accomplir cela."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture Jalonké, formuler des projets d'avenir s'accompagne presque systématiquement de l'invocation 'Alaxɛ' (Si Dieu le veut), marquant le respect des forces spirituelles face aux incertitudes du futur.",
+    "L'ambition professionnelle se tourne traditionnellement vers la transmission du savoir ('xaran') ou l'agriculture à grande échelle, des statuts hautement valorisés au sein de la communauté en Guinée."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex14_1",
+      "type": "multiple_choice",
+      "question": "Quel suffixe s'attache au verbe en Yalunka pour marquer une action future ?",
+      "options": [
+        "-fe",
+        "-ma",
+        "-nde"
+      ],
+      "correct_answer": "-ma",
+      "explanation": "Le suffixe '-ma' est le morphème spécifique du futur et du prospectif. Suffixe '-fe' est pour le présent progressif."
+    },
+    {
+      "exercise_id": "ex14_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'demain' en Yalunka, on emploie le terme temporel [ ___ ].",
+      "correct_answer": "tina",
+      "hint": "Ce mot commence par un 't' suivi d'un 'i' bref et se distingue du mot signifiant la paix."
+    }
+  ]
+}

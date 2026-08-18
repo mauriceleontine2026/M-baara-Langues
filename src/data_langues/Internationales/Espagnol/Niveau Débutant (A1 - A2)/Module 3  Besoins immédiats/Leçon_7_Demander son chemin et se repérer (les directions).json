@@ -1,0 +1,202 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Interactions pratiques et déplacements",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Demander poliment l'emplacement d'un lieu ou d'un monument",
+    "Comprendre et donner des indications de direction simples (tourner, continuer, s'arrêter)",
+    "Utiliser les prépositions et adverbes de lieu de base pour se repérer"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'g' dans 'giro' ou 'girar' se prononce comme une jota (/xiˈɾaɾ/), un son râpeux au fond de la gorge. Le double 'l' dans 'calle' se prononce comme un 'y' français (/ˈkaʝe/). Le 'c' devant un 'e' ou 'i' dans 'cruzar' ou 'derecha' donne respectivement le son /θ/ et le son /tʃ/ (/kɾuˈθaɾ/, /deˈɾetʃa/).",
+    "common_pitfalls": "Attention au 'h' de 'hacia' qui est totalement muet (/ˈaθja/). Ne confondez pas la prononciation de 'recto' (tout droit) avec le mot français : le 'r' initial doit être fortement roulé et le 'e' est fermé (/ˈɾexto/)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Calle",
+      "phonetic_api": "/ˈkaʝe/",
+      "phonetic_simple": "KA-YÉ",
+      "translation": "Rue",
+      "example_sentence": "Perdón, ¿dónde está la calle Mayor?",
+      "example_phonetic": "/peɾˈðon ˈdonde esˈta la ˈkaʝe maˈʝoɾ/",
+      "example_translation": "Pardon, où se trouve la rue Mayor ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "Derecha",
+      "phonetic_api": "/deˈtʃa/",
+      "phonetic_simple": "DÉ-RÉ-TCHA",
+      "translation": "Droite",
+      "example_sentence": "La farmacia está a la derecha.",
+      "example_phonetic": "/la faɾˈmaθja esˈta a la ðeˈɾetʃa/",
+      "example_translation": "La pharmacie est à droite."
+    },
+    {
+      "word_id": "v3",
+      "term": "Izquierda",
+      "phonetic_api": "/θˈkweɾða/",
+      "phonetic_simple": "EETH-KWYER-DA",
+      "translation": "Gauche",
+      "example_sentence": "Gira en la primera calle a la izquierda.",
+      "example_phonetic": "/ˈxiɾa en la pɾiˈmeɾa ˈkaʝe a la iθˈkweɾða/",
+      "example_translation": "Tourne à la première rue à gauche."
+    },
+    {
+      "word_id": "v4",
+      "term": "Girar",
+      "phonetic_api": "/xiˈtʃaɾ/",
+      "phonetic_simple": "KHEE-RAR",
+      "translation": "Tourner",
+      "example_sentence": "Tienes que girar a la derecha aquí.",
+      "example_phonetic": "/ˈtjenes ke xiˈɾaɾ a la ðeˈɾetʃa aˈki/",
+      "example_translation": "Tu dois tourner à droite ici."
+    },
+    {
+      "word_id": "v5",
+      "term": "Cerca",
+      "phonetic_api": "/ˈθeɾka/",
+      "phonetic_simple": "THER-KA",
+      "translation": "Près / Proche",
+      "example_sentence": "El hotel está muy cerca de la estación.",
+      "example_phonetic": "/el oˈtel esˈta ˈmwi ˈθeɾka ðe la estaˈθjon/",
+      "example_translation": "L'hôtel est très près de la gare."
+    },
+    {
+      "word_id": "v6",
+      "term": "Lejos",
+      "phonetic_api": "/ˈlexos/",
+      "phonetic_simple": "LÉ-KHOS",
+      "translation": "Loin",
+      "example_sentence": "El museo está lejos de aquí.",
+      "example_phonetic": "/el muˈseo esˈta ˈlexos de aˈki/",
+      "example_translation": "Le musée est loin d'ici."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "¿Cómo voy a la plaza central?",
+      "phonetic_api": "/ˈkomo ˈβoj a la ˈplaθa θenˈtɾal/",
+      "phonetic_simple": "KO-MO BOY A LA PLA-THA THEN-TRAL",
+      "translation": "Comment vais-je à la place centrale ?",
+      "context": "Formule directe pour demander un itinéraire piéton ou routier."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Sigue todo recto, por favor",
+      "phonetic_api": "/ˈsiɣe ˈtoðo ˈɾexto poɾ faˈβoɾ/",
+      "phonetic_simple": "SEE-GUÉ TO-DO REK-TO POR FA-VOR",
+      "translation": "Continue tout droit, s'il te plaît",
+      "context": "Indication fréquente donnée par les habitants pour guider un voyageur."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Perdone, ¿hay un banco por aquí cerca?",
+      "phonetic_api": "/peɾˈðone ˈaj un ˈbaŋko poɾ aˈki ˈθeɾka/",
+      "phonetic_simple": "PER-DO-NÉ AY OUN BAN-KO POR A-KEE THER-KA ?",
+      "translation": "Pardon (poli), y a-t-il une banque près d'ici ?",
+      "context": "Idéal pour aborder poliment un inconnu dans la rue."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Cruza el puente y camina dos manzanas",
+      "phonetic_api": "/ˈkɾuθa el ˈpweŋte i kaˈmina ˈðoz manˈθanas/",
+      "phonetic_simple": "KROU-THA EL PWEN-TÉ EE KA-MEE-NA DOS MAN-THA-NAS",
+      "translation": "Traverse le pont et marche deux pâtés de maisons",
+      "context": "Donner une consigne d'orientation précise."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'impératif affirmatif régulier (tú) pour les directions",
+      "explanation": "Pour donner des ordres ou des indications simples à un ami ou un égal (tú), on utilise l'impératif affirmatif. Pour les verbes réguliers, sa forme est identique à la troisième personne du singulier (él/ella) du présent de l'indicatif.",
+      "rules": [
+        "Verbes en -AR (ex: Girar) -> la terminaison devient -a (Gira).",
+        "Verbes en -ER (ex: Correr) -> la terminaison devient -e (Corre).",
+        "Verbes en -IR (ex: Seguir / Sigue - irrégulier) -> la terminaison devient -e (Sigue)."
+      ],
+      "examples": [
+        {
+          "structure": "Cruza la calle ahora.",
+          "phonetic_api": "/ˈkɾuθa la ˈkaʝe aˈoɾa/",
+          "meaning": "Traverse la rue maintenant."
+        }
+      ]
+    },
+    {
+      "concept": "Les adverbes et structures de localisation spatiale",
+      "explanation": "En espagnol, pour situer un endroit par rapport à un autre repère, on utilise des adverbes suivis obligatoirement de la préposition 'de' lorsque le repère est mentionné.",
+      "rules": [
+        "Al lado de = À côté de (ex: Al lado del museo).",
+        "En la esquina de = Au coin de (ex: En la esquina de la calle).",
+        "A la derecha de / A la izquierda de = À droite de / À gauche de."
+      ],
+      "examples": [
+        {
+          "structure": "La estación está al lado del parque.",
+          "phonetic_api": "/la estaˈθjon esˈta al ˈlaðo ðel ˈpaɾke/",
+          "meaning": "La gare est à côté du parc. (Contraction de de + el = del)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Turista",
+      "text": "Disculpe, señor, ¿sabe dónde está la catedral?",
+      "phonetic_api": "/ðisˈkulpe seˈɲoɾ ˈsaβe ˈðonde esˈta la kateˈðɾal/",
+      "phonetic_simple": "DEES-KOUL-PÉ SÉ-NYOR, SA-BÉ DON-DÉ ES-TA LA KA-TÉ-DRAL ?",
+      "translation": "Excusez-moi, monsieur, savez-vous où se trouve la cathédrale ?"
+    },
+    {
+      "speaker": "Señor",
+      "text": "Sí, claro. Sigue todo recto por esta calle durante dos minutos.",
+      "phonetic_api": "/ˈsi ˈklaɾo || ˈsiɣe ˈtoðo ˈɾexto poɾ ˈesta ˈkaʝe ðurante ˈðoz miˈnutos/",
+      "phonetic_simple": "SEE, KLA-RO. SEE-GUÉ TO-DO REK-TO POR ES-TA KA-YÉ DOU-RAN-TÉ DOS MEE-NOU-TOS.",
+      "translation": "Oui, bien sûr. Continue tout droit par cette rue pendant deux minutes."
+    },
+    {
+      "speaker": "Turista",
+      "text": "¿Y después tengo que girar?",
+      "phonetic_api": "/i ðesˈpwed ˈteŋɡo ke xiˈɾaɾ/",
+      "phonetic_simple": "EE DES-PWES TEN-GO KÉ KHEE-RAR ?",
+      "translation": "Et après je dois tourner ?"
+    },
+    {
+      "speaker": "Señor",
+      "text": "Sí, en la plaza giras a la izquierda y la catedral está al lado del banco.",
+      "phonetic_api": "/ˈsi en la ˈplaθa ˈxiɾas a la iθˈkweɾða i la kateˈðɾal esˈta al ˈlaðo ðel ˈbaŋko/",
+      "phonetic_simple": "SEE, EN LA PLA-THA KHEE-RAS A LA EETH-KWYER-DA EE LA KA-TÉ-DRAL ES-TA AL LA-DO DEL BAN-KO.",
+      "translation": "Oui, sur la place tu tournes à gauche et la cathédrale se trouve à côté de la banque."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'urbanisme espagnol et latino-américain, on utilise couramment le terme 'manzana' (qui signifie aussi pomme) pour désigner un pâté de maisons (un bloc urbain carré). Dire 'camina dos manzanas' équivaut à dire de marcher sur la distance de deux blocs.",
+    "Lorsque vous demandez votre chemin dans un pays hispanique, il est très poli de commencer par 'Disculpe' (si vous vouvoyez) ou 'Perdón' avant de formuler votre question."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L7_EX1",
+      "type": "multiple_choice",
+      "question": "Quelle est la traduction correcte de la consigne : 'Tourne à droite' (à un ami) ?",
+      "options": [
+        "Gira a la izquierda",
+        "Gira a la derecha",
+        "Giras recto"
+      ],
+      "correct_answer": "Gira a la derecha",
+      "explanation": "Le verbe 'girar' à l'impératif pour 'tú' devient 'gira' et 'derecha' signifie droite."
+    },
+    {
+      "exercise_id": "A1_M3_L7_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "El hospital está al lado [ ___ ] hotel central.",
+      "correct_answer": "del",
+      "hint": "C'est la contraction obligatoire de la préposition 'de' et de l'article masculin 'el'."
+    }
+  ]
+}

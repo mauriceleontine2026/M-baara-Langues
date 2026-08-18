@@ -1,0 +1,188 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Maîtriser le lexique commercial et financier de base (acheter, vendre, monnaie, prix)",
+    "Négocier fermement et poliment le prix d'un article sur un marché traditionnel",
+    "Comprendre le calcul des sommes d'argent selon le système des coupures locales"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne double 'gb' dans 'gbe' ou 'gbasi' s'articule comme une seule unité sonore occlusive vélaire-bilabiale. Le son 's' dans 'san' (acheter) est sifflant et bref, tandis que le 'f' dans 'feere' (vendre) exige un passage d'air continu.",
+    "common_pitfalls": "Ne pas confondre le verbe 'san' (acheter, voyelle brève nasale) avec le mot 'san' (année, voyelle brève nasale) dont le ton diffère selon le contexte, ou avec le verbe 'saan' (allongé) qui désigne une action différente."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_b1_m2_l6",
+      "term": "San",
+      "phonetic_api": "/san/",
+      "phonetic_simple": "SAN",
+      "translation": "Acheter",
+      "example_sentence": "N fɛ ka kura san",
+      "example_phonetic": "/ɲ͡fɛ ka ku.ra san/",
+      "example_translation": "Je veux acheter un vêtement"
+    },
+    {
+      "word_id": "v2_b1_m2_l6",
+      "term": "Feere",
+      "phonetic_api": "/feː.re/",
+      "phonetic_simple": "FEE-RE",
+      "translation": "Vendre",
+      "example_sentence": "A bɛ malo feere ra",
+      "example_phonetic": "/a bɛ ma.lo feː.re ra/",
+      "example_translation": "Il/Elle est en train de vendre du riz"
+    },
+    {
+      "word_id": "v3_b1_m2_l6",
+      "term": "Wari",
+      "phonetic_api": "/wa.ri/",
+      "phonetic_simple": "WA-RI",
+      "translation": "Argent / Monnaie",
+      "example_sentence": "Wari bɛ i fɛ ?",
+      "example_phonetic": "/wa.ri bɛ i fɛ/",
+      "example_translation": "As-tu de l'argent ?"
+    },
+    {
+      "word_id": "v4_b1_m2_l6",
+      "term": "Sɔngɔ",
+      "phonetic_api": "/sɔn.gɔ/",
+      "phonetic_simple": "SƆN-GƆ",
+      "translation": "Prix / Valeur marchande",
+      "example_sentence": "A sɔngɔ ka gwan",
+      "example_phonetic": "/a sɔn.gɔ ka gwan/",
+      "example_translation": "Son prix est élevé (litt. : chaud)"
+    },
+    {
+      "word_id": "v5_b1_m2_l6",
+      "term": "Dɔgɔya",
+      "phonetic_api": "/dɔ.gɔ.ja/",
+      "phonetic_simple": "DƆ-GƆ-YA",
+      "translation": "Diminuer / Réduire",
+      "example_sentence": "A sɔngɔ dɔgɔya n ma",
+      "example_phonetic": "/a sɔn.gɔ dɔ.gɔ.ja ɱ͡ma/",
+      "example_translation": "Diminue le prix pour moi"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_b1_m2_l6",
+      "original": "A sɔngɔ jili ?",
+      "phonetic_api": "/a sɔn.gɔ d͡ʒi.li/",
+      "phonetic_simple": "A SƆN-GƆ DJI-LI ?",
+      "translation": "Quel est son prix ? / Combien ça coûte ?",
+      "context": "Formule standard pour s'enquérir du prix d'un produit au marché."
+    },
+    {
+      "phrase_id": "p2_b1_m2_l6",
+      "original": "A sɔngɔ ka gwan kosɛbɛ ! A dɔgɔya n ma",
+      "phonetic_api": "/a sɔn.gɔ ka gwan ko.sɛ.bɛ a dɔ.gɔ.ja ɱ͡ma/",
+      "phonetic_simple": "A SƆN-GƆ KA GWAN KO-SƐ-BƐ ! A DƆ-GƆ-YA N MA",
+      "translation": "Son prix est trop cher ! Diminue-le pour moi",
+      "context": "Entamer une négociation ou un marchandage."
+    },
+    {
+      "phrase_id": "p3_b1_m2_l6",
+      "original": "N di wari tan di i ma",
+      "phonetic_api": "/ɲ͡di wa.ri tan di i ma/",
+      "phonetic_simple": "N DI WA-RI TAN DI I MA",
+      "translation": "Je te donnerai dix (unités de) monnaie",
+      "context": "Faire une contre-proposition financière lors d'un achat."
+    },
+    {
+      "phrase_id": "p4_b1_m2_l6",
+      "original": "Wari gbe tɛ n fɛ yan",
+      "phonetic_api": "/wa.ri gbe tɛ ɱ͡fɛ jan/",
+      "phonetic_simple": "WA-RI GBE TƐ N FƐ YAN",
+      "translation": "Je n'ai pas de petite monnaie ici",
+      "context": "Expliquer qu'on ne possède qu'un gros billet."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'adjectif qualificatif verbalisé 'gwan' (chaud/cher)",
+      "explanation": "Pour exprimer qu'un article est cher, la langue kuranko utilise le qualificatif de température 'gwan' (chaud) précédé de la particule 'ka'.",
+      "rules": [
+        "Structure : [Nom du produit/Sɔngɔ] + ka + gwan",
+        "Signifie littéralement : Le prix est chaud."
+      ],
+      "examples": [
+        {
+          "structure": "Kura ka gwan",
+          "phonetic_api": "/ku.ra ka gwan/",
+          "meaning": "Le vêtement est cher"
+        }
+      ]
+    },
+    {
+      "concept": "L'impératif de demande avec 'di n ma'",
+      "explanation": "Pour solliciter un geste commercial ou l'obtention d'un produit, on emploie le verbe 'di' (donner) suivi du bénéficiaire direct introduit par 'ma'.",
+      "rules": [
+        "Structure : [Objet/Action] + di + n + ma"
+      ],
+      "examples": [
+        {
+          "structure": "A dɔgɔya di n ma",
+          "phonetic_api": "/a dɔ.gɔ.ja di ɱ͡ma/",
+          "meaning": "Donne-moi une réduction (litt. : donne sa diminution à moi)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine (L'acheteur)",
+      "text": "I ni wale, n ba ! Tiyɛ nɛ sɔngɔ jili ?",
+      "phonetic_api": "/i ni wa.le ŋ͡ba ti.jɛ nɛ sɔn.gɔ d͡ʒi.li/",
+      "phonetic_simple": "I NI WA-LE, N BA ! TI-YƐ NƐ SƆN-GƆ DJI-LI ?",
+      "translation": "Bonjour, ma mère ! Quel est le prix de cette poule ?"
+    },
+    {
+      "speaker": "Fanta (La vendeuse)",
+      "text": "I ni wale ! A sɔngɔ bɛ bi lolu ri.",
+      "phonetic_api": "/i ni wa.le a sɔn.gɔ bɛ bi lo.lu ri/",
+      "phonetic_simple": "I NI WA-LE ! A SƆN-GƆ BƐ BI LO-LOU RI.",
+      "translation": "Bonjour ! Son prix est fixé à cinquante (unités)."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "Ayee, a sɔngɔ ka gwan kosɛbɛ. A dɔgɔya n ma, n di bi nani di i ma.",
+      "phonetic_api": "/a.jeː a sɔn.gɔ ka gwan ko.sɛ.bɛ a dɔ.gɔ.ja ɱ͡ma ɲ͡di bi na.ni di i ma/",
+      "phonetic_simple": "AYEE, A SƆN-GƆ KA GWAN KO-SƐ-BƐ. A DƆ-GƆ-YA N MA, N DI BI NA-NI DI I MA.",
+      "translation": "Ah non, son prix est trop chaud (cher). Diminue-le pour moi, je te donnerai quarante."
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Ɔnhɔ, wari nɛ n fɛ fana. Wari di !",
+      "phonetic_api": "/ɔn.hɔ wa.ri nɛ ɱ͡fɛ fa.na wa.ri di/",
+      "phonetic_simple": "ƆN-HƆ, WA-RI NƐ N FƐ FA-NA. WA-RI DI !",
+      "translation": "D'accord, j'accepte cet argent aussi. Donne l'argent !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les marchés de l'aire culturelle Kuranko en Guinée (comme à Faranah), le marchandage ('sɔngɔ-gbasi', littéralement frapper le prix) est une interaction sociale normale et attendue. Accepter le premier prix proposé sans discuter est parfois vu comme un manque d'intérêt pour l'échange humain. L'utilisation du mot 'gwan' (chaud) illustre de manière imagée la tension que représente un prix trop élevé."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_b1_m2_l6",
+      "type": "multiple_choice",
+      "question": "Que signifie mot à mot l'expression 'A sɔngɔ ka gwan' ?",
+      "options": [
+        "Son prix est bas",
+        "Son prix est chaud (cher)",
+        "L'argent est perdu"
+      ],
+      "correct_answer": "Son prix est chaud (cher)",
+      "explanation": "Le mot 'gwan' signifie chaud, utilisé métaphoriquement pour désigner un coût financier élevé."
+    },
+    {
+      "exercise_id": "ex2_b1_m2_l6",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander à un marchand de baisser le prix, on utilise le verbe : [ ___ ] n ma.",
+      "correct_answer": "dɔgɔya",
+      "hint": "Signifie diminuer ou rendre plus petit"
+    }
+  ]
+}

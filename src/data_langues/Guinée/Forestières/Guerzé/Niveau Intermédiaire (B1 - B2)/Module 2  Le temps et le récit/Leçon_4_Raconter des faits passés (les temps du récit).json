@@ -1,0 +1,381 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Former le résultatif (l'équivalent du passé composé) avec les marqueurs de personne (ŋàa, yǎa, àa...).",
+    "Enchaîner plusieurs actions passées avec élɛɛ (puis).",
+    "Situer un récit dans le temps avec wɛ́i (hier) et kɛ̀â (alors, déjà, à ce moment).",
+    "Raconter une petite histoire personnelle en kpele."
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le résultatif kpele (l'équivalent du passé composé français) se marque par un préfixe pronominal spécifique devant le verbe, distinct du marqueur de base déjà utilisé dans les questions et les phrases habituelles : ŋàa (1SG), yǎa (2SG), àa (3SG). On l'a déjà rencontré à de nombreuses reprises depuis la Leçon 2 (àa pɛ́lɛ tɔ́ɔ, ŋàá bèle téɠeŋ) sans le nommer explicitement.",
+    "common_pitfalls": "Les francophones ont tendance à : (1) utiliser le marqueur de base (é, à, ŋé) pour parler du passé, alors que le kpele exige le marqueur résultatif (yǎa, àa, ŋàa) ; (2) chercher un mot séparé pour « et puis » à chaque fois, alors qu'élɛɛ suffit à enchaîner toute une série d'actions ; (3) oublier que kɛ̀â peut vouloir dire « maintenant » aussi bien que « déjà » selon le contexte — seul le sens de la phrase permet de trancher."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "wɛ́i",
+      "phonetic_api": "/wɛ́i/",
+      "phonetic_simple": "WÈ-i",
+      "translation": "hier",
+      "example_sentence": "Wɛ́i kú kɛ́i lì kɔ́nɔŋ mɛ̀ɛì.",
+      "example_phonetic": "/wɛ́i kú kɛ́i lì kɔ́nɔŋ mɛ̀ɛì/",
+      "example_translation": "Hier, nous sommes allés manger."
+    },
+    {
+      "word_id": "v2",
+      "term": "élɛɛ",
+      "phonetic_api": "/élɛɛ/",
+      "phonetic_simple": "É-lè-è",
+      "translation": "puis",
+      "example_sentence": "élɛɛ",
+      "example_phonetic": "/élɛɛ/",
+      "example_translation": "puis"
+    },
+    {
+      "word_id": "v3",
+      "term": "kɛ̀â",
+      "phonetic_api": "/kɛ̀â/",
+      "phonetic_simple": "kè-â",
+      "translation": "maintenant, alors, déjà, à ce moment",
+      "example_sentence": "Élɛɛ nìíɓai ↓tíi è nɛ̌ kɛ̀â.",
+      "example_phonetic": "/élɛɛ nìíɓai ↓tíi è nɛ̌ kɛ̀â/",
+      "example_translation": "Puis il montre cela, à ce moment-là."
+    },
+    {
+      "word_id": "v4",
+      "term": "gùlo",
+      "phonetic_api": "/gùlo/",
+      "phonetic_simple": "gou-lo",
+      "translation": "s'épuiser, être épuisé",
+      "example_sentence": "Zìmá áa gǔlo.",
+      "example_phonetic": "/zìmá áa gǔlo/",
+      "example_translation": "Cela l'a épuisé."
+    },
+    {
+      "word_id": "v5",
+      "term": "àa",
+      "phonetic_api": "/àa/",
+      "phonetic_simple": "aa",
+      "translation": "marqueur résultatif, 3e personne du singulier (« il/elle a... »)",
+      "example_sentence": "Àa pɛ́lɛ tɔ́ɔ.",
+      "example_phonetic": "/àa pɛ́lɛ tɔ́ɔ/",
+      "example_translation": "Il a construit sa maison."
+    },
+    {
+      "word_id": "v6",
+      "term": "ŋàa",
+      "phonetic_api": "/ŋàa/",
+      "phonetic_simple": "nga-a",
+      "translation": "marqueur résultatif, 1re personne du singulier (« j'ai... »)",
+      "example_sentence": "Ŋàá bèle téɠeŋ.",
+      "example_phonetic": "/ŋàá bèle téɣeŋ/",
+      "example_translation": "J'ai traversé la route."
+    },
+    {
+      "word_id": "v7",
+      "term": "héɠe",
+      "phonetic_api": "/héɣé/",
+      "phonetic_simple": "HÉ-ghé",
+      "translation": "venir de, être originaire de ; quitter",
+      "example_sentence": "Pépèe àá hèɠé gàátáa hù.",
+      "example_phonetic": "/pépèe àá hèɣé gàátáa hù/",
+      "example_translation": "Pépé a quitté sa ville natale."
+    },
+    {
+      "word_id": "v8",
+      "term": "lǐ",
+      "phonetic_api": "/lǐ/",
+      "phonetic_simple": "li (ton bas)",
+      "translation": "aller, partir",
+      "example_sentence": "Gáa lìí nɔ̀ɠɔ́kpalaŋ ↓ɲá.",
+      "example_phonetic": "/gáa lìí nɔ̀ɣɔ́kpalaŋ ↓ɲá/",
+      "example_translation": "Je vais au marché."
+    },
+    {
+      "word_id": "v9",
+      "term": "kɔ́nɔŋ",
+      "phonetic_api": "/kɔ́nɔŋ/",
+      "phonetic_simple": "KO-nong",
+      "translation": "nourriture, repas ; manger",
+      "example_sentence": "Wɛ́i kú kɛ́i lì kɔ́nɔŋ mɛ̀ɛì.",
+      "example_phonetic": "/wɛ́i kú kɛ́i lì kɔ́nɔŋ mɛ̀ɛì/",
+      "example_translation": "Hier, nous sommes allés manger."
+    },
+    {
+      "word_id": "v10",
+      "term": "tɔ̌ɔ",
+      "phonetic_api": "/tɔ̌ɔ/",
+      "phonetic_simple": "to-o (ton bas)",
+      "translation": "construire, confectionner",
+      "example_sentence": "Àa pɛ́lɛ tɔ́ɔ.",
+      "example_phonetic": "/àa pɛ́lɛ tɔ́ɔ/",
+      "example_translation": "Il a construit sa maison."
+    },
+    {
+      "word_id": "v11",
+      "term": "mɛ̌ŋ",
+      "phonetic_api": "/mɛ̌ŋ/",
+      "phonetic_simple": "mèng (ton bas)",
+      "translation": "entendre, comprendre",
+      "example_sentence": "Ŋàá mɛ̌ŋ.",
+      "example_phonetic": "/ŋàá mɛ̌ŋ/",
+      "example_translation": "J'ai compris."
+    },
+    {
+      "word_id": "v12",
+      "term": "kwéaa",
+      "phonetic_api": "/kwéaa/",
+      "phonetic_simple": "KWÉ-a-a",
+      "translation": "voyage (long) — dans un récit : « le très long voyage »",
+      "example_sentence": "Zìe kwéaa ↓tíi è gùloí.",
+      "example_phonetic": "/zìe kwéaa ↓tíi è gùloí/",
+      "example_translation": "Le très long voyage l'a épuisé."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Wɛ́i kú kɛ́i lì kɔ́nɔŋ mɛ̀ɛì.",
+      "phonetic_api": "/wɛ́i kú kɛ́i lì kɔ́nɔŋ mɛ̀ɛì/",
+      "phonetic_simple": "WÈ-i kou KÈ-i li KO-nong mè-è-i",
+      "translation": "Hier, nous sommes allés manger.",
+      "context": "Commencer un récit au passé"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Àa pɛ́lɛ tɔ́ɔ.",
+      "phonetic_api": "/àa pɛ́lɛ tɔ́ɔ/",
+      "phonetic_simple": "aa PÈ-lè TO-o",
+      "translation": "Il a construit sa maison.",
+      "context": "Rapporter un fait accompli"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Ŋàá bèle téɠeŋ.",
+      "phonetic_api": "/ŋàá bèle téɣeŋ/",
+      "phonetic_simple": "nga-a bè-le TÉ-ghèng",
+      "translation": "J'ai traversé la route.",
+      "context": "Décrire une action que l'on vient de faire"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Pépèe àá hèɠé gàátáa hù.",
+      "phonetic_api": "/pépèe àá hèɣé gàátáa hù/",
+      "phonetic_simple": "PÉ-pè-è aa hè-GHÉ gaa-TAA hou",
+      "translation": "Pépé a quitté sa ville natale.",
+      "context": "Raconter un départ passé"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Zìmá áa gǔlo.",
+      "phonetic_api": "/zìmá áa gǔlo/",
+      "phonetic_simple": "zi-MA a-a gou-lo",
+      "translation": "Cela l'a épuisé.",
+      "context": "Conclure un récit sur ses conséquences"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Zìe kwéaa ↓tíi è gùloí.",
+      "phonetic_api": "/zìe kwéaa ↓tíi è gùloí/",
+      "phonetic_simple": "zi-e KWÉ-a-a ti-i è gou-lo-i",
+      "translation": "Le très long voyage l'a épuisé.",
+      "context": "Décrire les conséquences d'un long trajet"
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Élɛɛ nìíɓai ↓tíi è nɛ̌ kɛ̀â.",
+      "phonetic_api": "/élɛɛ nìíɓai ↓tíi è nɛ̌ kɛ̀â/",
+      "phonetic_simple": "É-lè-è ni-i-ɓa-i ti-i è nè kè-â",
+      "translation": "Puis il montre cela, à ce moment-là.",
+      "context": "Enchaîner deux événements dans un récit"
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Ŋàá mɛ̌ŋ.",
+      "phonetic_api": "/ŋàá mɛ̌ŋ/",
+      "phonetic_simple": "nga-a MENG",
+      "translation": "J'ai compris.",
+      "context": "Confirmer qu'on a suivi un récit"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le résultatif : l'équivalent du passé composé",
+      "explanation": "Pour parler d'une action passée dont le résultat compte encore, le kpele remplace le marqueur de base (é, à, ŋé, déjà vu dans les questions) par un marqueur résultatif spécifique à chaque personne, placé juste avant le verbe.",
+      "rules": [
+        "1SG : ŋàa (ŋàá bèle téɠeŋ, j'ai traversé la route).",
+        "2SG : yǎa.",
+        "3SG : àa (àa pɛ́lɛ tɔ́ɔ, il a construit sa maison).",
+        "On reconnaît ce marqueur à sa forme fixe en -àa, très différente du marqueur de base (é, à) déjà vu depuis la Leçon 1."
+      ],
+      "examples": [
+        {
+          "structure": "ŋàa / yǎa / àa + verbe",
+          "phonetic_api": "/ŋàa/ /yǎa/ /àa/",
+          "meaning": "j'ai / tu as / il a [fait quelque chose]"
+        }
+      ]
+    },
+    {
+      "concept": "Enchaîner un récit avec élɛɛ (puis)",
+      "explanation": "Pour raconter une suite d'événements, le kpele insère élɛɛ (puis) entre les phrases, un procédé beaucoup plus simple que de reconjuguer chaque verbe à un temps de la narration.",
+      "rules": [
+        "élɛɛ se place en tête de la proposition suivante, comme en français « puis ».",
+        "Cette structure permet d'enchaîner plusieurs actions résultatives à la suite dans un même récit."
+      ],
+      "examples": [
+        {
+          "structure": "élɛɛ nìíɓai ↓tíi è nɛ̌ kɛ̀â",
+          "phonetic_api": "/élɛɛ nìíɓai ↓tíi è nɛ̌ kɛ̀â/",
+          "meaning": "puis il montre cela, à ce moment-là"
+        }
+      ]
+    },
+    {
+      "concept": "kɛ̀â : situer un moment dans le récit",
+      "explanation": "kɛ̀â est un adverbe polyvalent qui aide à situer précisément un moment du récit, avec plusieurs traductions possibles selon le contexte.",
+      "rules": [
+        "kɛ̀â peut signifier « maintenant », « alors », « déjà » ou « à ce moment », selon la phrase.",
+        "Il s'utilise souvent en fin de proposition, pour ancrer temporellement ce qui vient d'être dit."
+      ],
+      "examples": [
+        {
+          "structure": "nɛ̌ kɛ̀â",
+          "phonetic_api": "/nɛ̌ kɛ̀â/",
+          "meaning": "montre cela, à ce moment-là"
+        }
+      ]
+    },
+    {
+      "concept": "Décrire la conséquence d'un événement passé",
+      "explanation": "Un récit se termine souvent en kpele par une phrase de conséquence, utilisant un verbe comme gùlo (s'épuiser) pour montrer l'effet d'un événement sur une personne.",
+      "rules": [
+        "[cause] + áa + [personne] + gǔlo = [cause] a épuisé [personne].",
+        "Cette structure suit le schéma résultatif déjà vu, mais avec un sujet inanimé (la cause) plutôt qu'une personne."
+      ],
+      "examples": [
+        {
+          "structure": "zìmá áa gǔlo",
+          "phonetic_api": "/zìmá áa gǔlo/",
+          "meaning": "cela l'a épuisé"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Personne A",
+      "text": "Wɛ́i kú kɛ́i lì kɔ́nɔŋ mɛ̀ɛì.",
+      "phonetic_api": "/wɛ́i kú kɛ́i lì kɔ́nɔŋ mɛ̀ɛì/",
+      "phonetic_simple": "WÈ-i kou KÈ-i li KO-nong mè-è-i",
+      "translation": "Hier, nous sommes allés manger."
+    },
+    {
+      "speaker": "Personne B",
+      "text": "Ŋàá mɛ̌ŋ. Élɛɛ ?",
+      "phonetic_api": "/ŋàá mɛ̌ŋ élɛɛ/",
+      "phonetic_simple": "nga-a MENG. É-lè-è ?",
+      "translation": "J'ai compris. Et puis ?"
+    },
+    {
+      "speaker": "Personne A",
+      "text": "Élɛɛ, Pépèe àá hèɠé gàátáa hù.",
+      "phonetic_api": "/élɛɛ pépèe àá hèɣé gàátáa hù/",
+      "phonetic_simple": "É-lè-è, PÉ-pè-è aa hè-GHÉ gaa-TAA hou",
+      "translation": "Puis, Pépé a quitté sa ville natale."
+    },
+    {
+      "speaker": "Personne B",
+      "text": "Zìe kwéaa ↓tíi è gùloí ?",
+      "phonetic_api": "/zìe kwéaa ↓tíi è gùloí/",
+      "phonetic_simple": "zi-e KWÉ-a-a ti-i è gou-lo-i ?",
+      "translation": "Le voyage l'a épuisé ?"
+    },
+    {
+      "speaker": "Personne A",
+      "text": "Ŋàá mɛ̌ŋ, zìmá áa gǔlo.",
+      "phonetic_api": "/ŋàá mɛ̌ŋ zìmá áa gǔlo/",
+      "phonetic_simple": "nga-a MENG, zi-MA a-a gou-lo",
+      "translation": "Oui, cela l'a épuisé."
+    },
+    {
+      "speaker": "Personne B",
+      "text": "Máma, mɛ́niê !",
+      "phonetic_api": "/máma mɛ́niê/",
+      "phonetic_simple": "MA-ma MÉ-ni-Ê",
+      "translation": "Merci, mon ami !"
+    }
+  ],
+  "cultural_notes": [
+    "Le récit oral occupe une place centrale dans la culture kpele : les marqueurs résultatifs et le connecteur élɛɛ (puis) sont les outils grammaticaux de base de tout conteur pour enchaîner les épisodes d'une histoire.",
+    "L'usage de kɛ̀â pour ancrer un moment précis dans un récit rappelle l'importance de situer précisément les événements, un souci partagé avec les formules de salutation liées au moment de la journée (Leçon 1).",
+    "Le vocabulaire du voyage et de la fatigue (kwéaa, gùlo) reflète l'importance historique des longs déplacements à pied entre villages en Guinée forestière, avant le développement des routes modernes."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel marqueur résultatif correspond à la 3e personne du singulier ?",
+      "options": [
+        "ŋàa",
+        "yǎa",
+        "àa",
+        "kǎa"
+      ],
+      "correct_answer": "àa",
+      "explanation": "àa marque le résultatif à la 3e personne du singulier, comme dans àa pɛ́lɛ tɔ́ɔ (il a construit sa maison)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Comment dit-on « puis » pour enchaîner un récit ?",
+      "options": [
+        "kɛ̀â",
+        "élɛɛ",
+        "wɛ́i",
+        "gùlo"
+      ],
+      "correct_answer": "élɛɛ",
+      "explanation": "élɛɛ (puis) se place en tête de la proposition suivante pour enchaîner les événements."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que peut signifier kɛ̀â, selon le contexte ?",
+      "options": [
+        "Uniquement « hier »",
+        "Maintenant, alors, déjà ou à ce moment",
+        "Uniquement « puis »",
+        "Uniquement « épuisé »"
+      ],
+      "correct_answer": "Maintenant, alors, déjà ou à ce moment",
+      "explanation": "kɛ̀â est un adverbe polyvalent dont le sens précis dépend du contexte de la phrase."
+    },
+    {
+      "exercise_id": "ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "« J'ai traversé la route » se dit : « [ ___ ] bèle téɠeŋ. »",
+      "correct_answer": "Ŋàá",
+      "hint": "C'est le marqueur résultatif de la 1re personne du singulier."
+    },
+    {
+      "exercise_id": "ex5",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "« Cela l'a épuisé » se dit : « Zìmá áa [ ___ ]. »",
+      "correct_answer": "gǔlo",
+      "hint": "C'est le verbe « s'épuiser »."
+    },
+    {
+      "exercise_id": "ex6",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour commencer un récit au passé, on peut dire : « [ ___ ] kú kɛ́i lì kɔ́nɔŋ mɛ̀ɛì. »",
+      "correct_answer": "Wɛ́i",
+      "hint": "C'est l'adverbe « hier »."
+    }
+  ]
+}

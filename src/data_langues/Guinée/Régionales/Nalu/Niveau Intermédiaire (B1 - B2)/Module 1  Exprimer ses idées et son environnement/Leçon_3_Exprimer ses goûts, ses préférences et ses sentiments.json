@@ -1,0 +1,163 @@
+{
+  "lesson_id": "B1_M1_L3",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 3,
+  "title": "Exprimer ses goûts, ses préférences et ses sentiments",
+  "learning_objectives": [
+    "Exprimer l'appréciation, l'amour, l'indifférence ou le dégoût",
+    "Partager ses sentiments intérieurs et ses états d'esprit affectifs"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'accentuation en nalu repose sur l'intensité donnée à la première syllabe du radical verbal. Le phonème /ɔ/ (noté 'o' ouvert comme dans 'bosh') nécessite une ouverture labiale claire, tandis que le phonème /e/ en fin de mot reste tendu.",
+    "common_pitfalls": "Attention à ne pas escamoter l'occlusive nasale finale /ŋ/ dans le verbe 'malang'. Ce son doit vibrer distinctement au niveau du voile du palais pour ne pas être confondu avec un simple son nasal français."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v12_1",
+      "term": "Malang",
+      "phonetic_api": "/ma.laŋ/",
+      "phonetic_simple": "MA-LANG",
+      "translation": "Aimer / Préférer / Vouloir",
+      "example_sentence": "M malang malaŋ b'at.",
+      "example_phonetic": "/m ba.laŋ ma.laŋ ɓat/",
+      "example_translation": "J'aime beaucoup le riz."
+    },
+    {
+      "word_id": "v12_2",
+      "term": "Bosh",
+      "phonetic_api": "/bɔʃ/",
+      "phonetic_simple": "BOSH",
+      "translation": "Haïr / Détester / Refuser",
+      "example_sentence": "M bosh n'da we.",
+      "example_phonetic": "/m bɔʃ nda we/",
+      "example_translation": "Je déteste cet endroit."
+    },
+    {
+      "word_id": "v12_3",
+      "term": "Kunu ce",
+      "phonetic_api": "/ku.nu tʃe/",
+      "phonetic_simple": "KOU-NOU TCHÉ",
+      "translation": "Être heureux / Avoir le cœur bon",
+      "example_sentence": "M gbe kunu ce n'gbe.",
+      "example_phonetic": "/m ŋgbe ku.nu tʃe ŋgbe/",
+      "example_translation": "Je suis heureux aujourd'hui."
+    },
+    {
+      "word_id": "v12_4",
+      "term": "Kunu fiit",
+      "phonetic_api": "/ku.nu fiːt/",
+      "phonetic_simple": "KOU-NOU FIIT",
+      "translation": "Être triste / Avoir le cœur noir",
+      "example_sentence": "A gbe kunu fiit.",
+      "example_phonetic": "/a ŋgbe ku.nu fiːt/",
+      "example_translation": "Il est triste."
+    },
+    {
+      "word_id": "v12_5",
+      "term": "Lan",
+      "phonetic_api": "/lan/",
+      "phonetic_simple": "LAN",
+      "translation": "Penser / Croire",
+      "example_sentence": "M lan a mboye ce.",
+      "example_phonetic": "/m lan a mbo.je tʃe/",
+      "example_translation": "Je pense que tout va bien."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p12_1",
+      "original": "A rila a malang we?",
+      "phonetic_api": "/a ri.la a ba.laŋ we/",
+      "phonetic_simple": "A RI-LA A BA-LANG WÉ",
+      "translation": "Est-ce que tu aimes cela ?",
+      "context": "Formule pour interroger un ami sur un plat, un habit ou une situation."
+    },
+    {
+      "phrase_id": "p12_2",
+      "original": "M malang we ce, a gbe bosh mi.",
+      "phonetic_api": "/m ba.laŋ we tʃe a ŋgbe bɔʃ mi/",
+      "phonetic_simple": "M BA-LANG WÉ TCHÉ, A NGBÉ BOSH MI",
+      "translation": "J'aime bien cela, je ne le déteste pas.",
+      "context": "Nuance intermédiaire pour exprimer une préférence modérée."
+    },
+    {
+      "phrase_id": "p12_3",
+      "original": "Nyere mwo a ror mi kunu ce.",
+      "phonetic_api": "/ɲe.re mwo a ror mi ku.nu tʃe/",
+      "phonetic_simple": "NYÉ-RÉ MWO A ROR MI KOU-NOU TCHÉ",
+      "translation": "Ton nom me rend heureux (me réjouit le cœur).",
+      "context": "Expression affectueuse et poétique de salutation ou de retrouvailles."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La métaphore du cœur ('kunu') pour exprimer les sentiments",
+      "explanation": "En nalu, les sentiments psychologiques et affectifs majeurs ne s'expriment pas par des verbes d'état uniques, mais par des constructions métaphoriques formées autour du nom 'kunu' (le cœur / le centre de l'être), suivi d'un adjectif de couleur ou de qualité.",
+      "rules": [
+        "L'expression du bonheur s'associe à l'adjectif 'ce' (bon, propre, pur).",
+        "L'expression de la tristesse, de la rancœur ou de la déception utilise l'adjectif 'fiit' (noir, sombre)."
+      ],
+      "examples": [
+        {
+          "structure": "Kunu ce",
+          "phonetic_api": "/ku.nu tʃe/",
+          "meaning": "Le cœur bon (Être heureux)"
+        },
+        {
+          "structure": "Kunu fiit",
+          "phonetic_api": "/ku.nu fiːt/",
+          "meaning": "Le cœur noir (Être triste / en colère)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "Mboye, Fatou ! A rila a gbe kunu ce n'gbe?",
+      "phonetic_api": "/mbo.je fa.tu a ri.la a ŋgbe ku.nu tʃe ŋgbe/",
+      "phonetic_simple": "MBO-YÉ, FA-TOU ! A RI-LA A NGBÉ KOU-NOU TCHÉ NGBÉ?",
+      "translation": "Bonjour, Fatou ! Es-tu heureuse aujourd'hui ?"
+    },
+    {
+      "speaker": "Fatou",
+      "text": "Mboye ce, Sékou ! M gbe kunu ce b'at, m malang abal apee we.",
+      "phonetic_api": "/mbo.je tʃe se.ku m ŋgbe ku.nu tʃe ɓat m ba.laŋ a.bal a.peː we/",
+      "phonetic_simple": "MBO-YÉ TCHÉ, SÉ-KOU ! M NGBÉ KOU-NOU TCHÉ BAT, M BA-LANG A-BAL A-PÉÉ WÉ.",
+      "translation": "Bonjour bien, Sékou ! Je suis très heureuse, j'adore ce vêtement blanc."
+    },
+    {
+      "speaker": "Sékou",
+      "text": "A ce ! M boku lan foti mwo. M bosh abal fiit.",
+      "phonetic_api": "/a tʃe m bo.ku lan fo.ti mwo m bɔʃ a.bal fiːt/",
+      "phonetic_simple": "A TCHÉ ! M BO-KOU LAN FO-TI MWO. M BOSH A-BAL FIIT.",
+      "translation": "C'est bien ! Je pense comme toi. Je déteste les vêtements sombres."
+    }
+  ],
+  "cultural_notes": [
+    "La pudeur émotionnelle est de mise dans les interactions sociales nalu, mais l'usage de termes liés au cœur ('kunu') permet d'humaniser profondément l'échange. Dire à un hôte ou à un parent que sa présence apporte un 'cœur bon' ('kunu ce') est la plus belle marque de considération culturelle de la région maritime."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex12_1",
+      "type": "multiple_choice",
+      "question": "Que signifie littéralement l'expression 'Kunu fiit' utilisée pour la tristesse ?",
+      "options": [
+        "Le cœur rouge",
+        "Le cœur noir",
+        "Le cœur brisé"
+      ],
+      "correct_answer": "Le cœur noir",
+      "explanation": "La juxtaposition de 'kunu' (cœur) et 'fiit' (noir) forme l'idiome nalu désignant la tristesse ou l'amertume."
+    },
+    {
+      "exercise_id": "ex12_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour exprimer le dégoût ou le refus d'une chose, on emploie le verbe : M [ ___ ] we.",
+      "correct_answer": "bosh",
+      "hint": "C'est le contraire exact du verbe 'malang'"
+    }
+  ]
+}

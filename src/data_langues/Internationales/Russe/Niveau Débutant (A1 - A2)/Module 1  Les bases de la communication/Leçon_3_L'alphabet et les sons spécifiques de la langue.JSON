@@ -1,0 +1,248 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Reconnaître et prononcer les 33 lettres de l'alphabet cyrillique russe",
+    "Distinguer les voyelles dures des voyelles douces (palatalisées)",
+    "Comprendre le rôle des signes muets : le signe mou (Ь) et le signe dur (Ъ)",
+    "Maîtriser les principes du dévoisement des consonnes en fin de mot"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'alphabet russe compte 11 voyelles, 20 consonnes et 2 signes muets. La palatalisation est le mécanisme central : une consonne devient 'douce' (mouillée) lorsqu'elle est suivie par И, Е, Ё, Ю, Я ou le signe mou Ь. Sans cela, elle reste 'dure'.",
+    "common_pitfalls": "Attention aux 'faux amis' graphiques : la lettre 'Р' se prononce [r], 'Н' se prononce [n], 'Х' se prononce [x] (comme la jota espagnole ou le ch allemand), et 'У' se prononce [u] (le 'ou' français)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Алфавит",
+      "phonetic_api": "/ɐlfɐˈvʲit/",
+      "phonetic_simple": "al-fa-VIT",
+      "translation": "L'alphabet",
+      "example_sentence": "В русском алфавите тридцать три буквы.",
+      "example_phonetic": "/v ˈruskəm ɐlfɐˈvʲitʲɪ ˈtrit͡sətʲ trʲi ˈbukvɨ/",
+      "example_translation": "Il y a trente-trois lettres dans l'alphabet russe."
+    },
+    {
+      "word_id": "v2",
+      "term": "Буква",
+      "phonetic_api": "/ˈbukvə/",
+      "phonetic_simple": "BOUK-va",
+      "translation": "Lettre",
+      "example_sentence": "Это большая буква.",
+      "example_phonetic": "/ˈɛtə bɐlʲˈʂajə ˈbukvə/",
+      "example_translation": "C'est une majuscule (une grande lettre)."
+    },
+    {
+      "word_id": "v3",
+      "term": "Звук",
+      "phonetic_api": "/zvuk/",
+      "phonetic_simple": "zvouk",
+      "translation": "Son",
+      "example_sentence": "Этот звук очень трудный.",
+      "example_phonetic": "/ˈɛtət zvuk ˈotɕɪnʲ ˈtrudnɨj/",
+      "example_translation": "Ce son est très difficile."
+    },
+    {
+      "word_id": "v4",
+      "term": "Слово",
+      "phonetic_api": "/ˈslovə/",
+      "phonetic_simple": "SLO-va",
+      "translation": "Mot",
+      "example_sentence": "Как пишется это слово?",
+      "example_phonetic": "/kak ˈpʲiʂɨt͡sʲə ˈɛtə ˈslovə/",
+      "example_translation": "Comment s'écrit ce mot ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "Мама",
+      "phonetic_api": "/ˈmamə/",
+      "phonetic_simple": "MA-ma",
+      "translation": "Maman (Exemple de consonnes dures)",
+      "example_sentence": "Мама дома.",
+      "example_phonetic": "/ˈmamə ˈdomə/",
+      "example_translation": "Maman est à la maison."
+    },
+    {
+      "word_id": "v6",
+      "term": "Тётя",
+      "phonetic_api": "/ˈtʲotʲə/",
+      "phonetic_simple": "TIO-tia",
+      "translation": "Tante (Exemple de consonnes douces)",
+      "example_sentence": "Моя тётя живёт здесь.",
+      "example_phonetic": "/mɐˈja ˈtʲotʲə ʐɨˈvʲot zdʲesʲ/",
+      "example_translation": "Ma tante habite ici."
+    },
+    {
+      "word_id": "v7",
+      "term": "Хлеб",
+      "phonetic_api": "/xlʲep/",
+      "phonetic_simple": "hliep",
+      "translation": "Pain (Exemple de dévoisement final)",
+      "example_sentence": "Купи, пожалуйста, хлеб.",
+      "example_phonetic": "/kʊˈpʲi pɐˈʐalʊstə xlʲep/",
+      "example_translation": "Achète du pain, s'il te plaît."
+    },
+    {
+      "word_id": "v8",
+      "term": "Язык",
+      "phonetic_api": "/jɪˈzɨk/",
+      "phonetic_simple": "yi-ZYK",
+      "translation": "Langue / Langage",
+      "example_sentence": "Русский язык красивый.",
+      "example_phonetic": "/ˈruskʲɪj jɪˈzɨk krɐˈsʲivɨj/",
+      "example_translation": "La langue russe est belle."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Повторите по буквам",
+      "phonetic_api": "/pəftɐˈrʲitʲɪ pɐ ˈbukvəm/",
+      "phonetic_simple": "paf-ta-RI-ti pa BOUK-vam",
+      "translation": "Épelez, s'il vous plaît",
+      "context": "Utile pour comprendre l'orthographe d'un nom de famille ou d'un lieu."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Как это произносится?",
+      "phonetic_api": "/kak ˈɛtə prɐjznˈosʲɪt͡sʲə/",
+      "phonetic_simple": "kak E-ta pra-iz-NO-ssit-ssya",
+      "translation": "Comment cela se prononce-t-il ?",
+      "context": "Interrogation classique lors de la découverte d'un mot complexe."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Здесь нужен мягкий знак",
+      "phonetic_api": "/zdʲesʲ ˈnuʐɨn ˈmʲaxkʲɪj znak/",
+      "phonetic_simple": "zdies' NOU-jine MIAH-kiy znak",
+      "translation": "Ici, il faut un signe mou",
+      "context": "Contextes de dictée ou d'explication d'orthographe."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Я не понимаю этот звук",
+      "phonetic_api": "/ja nʲɪ pənʲɪˈmajʊ ˈɛtə_zvuk/",
+      "phonetic_simple": "ya ni pa-ni-MA-iou E-tat zvouk",
+      "translation": "Je ne comprends pas ce son",
+      "context": "Pour signaler une difficulté d'écoute ou d'articulation."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le mécanisme des consonnes dures et douces",
+      "explanation": "La majorité des consonnes russes fonctionnent par paires : une variante dure et une variante douce. Ce n'est pas la consonne elle-même qui change graphiquement, mais la voyelle qui la suit qui indique sa nature.",
+      "rules": [
+        "Suivie de А, О, У, Ы, Э : la consonne est DURE (ex: Ма [ma]).",
+        "Suivie de Я, Ё, Ю, И, Е ou Ь : la consonne subit une palatalisation et devient DOUCE. La langue se plaque contre le palais (ex: Мя [mʲa]).",
+        "Les consonnes Ж, Ш, Ц sont TOUJOURS dures, peu importe la voyelle suivante. Les consonnes Ч, Щ, Й sont TOUJOURS douces."
+      ],
+      "examples": [
+        {
+          "structure": "Мат (Jurons) vs Мать (Mère)",
+          "phonetic_api": "/mat/ vs /matʲ/",
+          "meaning": "La présence du signe mou Ь transforme le Т dur en Т doux."
+        }
+      ]
+    },
+    {
+      "concept": "La règle du dévoisement final des consonnes",
+      "explanation": "En russe, les consonnes sonores s'assourdissent (perdent la vibration des cordes vocales) lorsqu'elles se trouvent à la toute fin d'un mot.",
+      "rules": [
+        "Б devient П, В devient Ф, Г devient К.",
+        "Д devient Т, Ж devient Ш, З devient С."
+      ],
+      "examples": [
+        {
+          "structure": "Друг (Ami)",
+          "phonetic_api": "/druk/",
+          "meaning": "Le Г final écrit se prononce strictement comme un К."
+        },
+        {
+          "structure": "Город (Ville)",
+          "phonetic_api": "/ˈɡorət/",
+          "meaning": "Le Д final écrit se prononce comme un Т."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ученик",
+      "text": "Скажите, пожалуйста, какая это буква?",
+      "phonetic_api": "/skɐˈʐɨtʲɪ pɐˈʐalʊstə kɐˈkajə ˈɛtə ˈbukvə/",
+      "phonetic_simple": "ska-JI-ti, pa-JAL-ous-ta, ka-KA-ya E-ta BOUK-va ?",
+      "translation": "Dites-moi s'il vous plaît, quelle est cette lettre ?"
+    },
+    {
+      "speaker": "Учитель",
+      "text": "Это буква «Х». Она даёт звук [x]. Как в слове «Хлеб».",
+      "phonetic_api": "/ˈɛtə ˈbukvə xa ɐˈna dɐˈjot zvuk xa kak f ˈslovʲɪ xlʲep/",
+      "phonetic_simple": "E-ta BOUK-va 'ha'. a-NA da-YOT zvouk [h]. Kak f SLO-vie 'hliep'.",
+      "translation": "C'est la lettre 'Kha'. Elle donne le son [x]. Comme dans le mot 'Khleb' (pain)."
+    },
+    {
+      "speaker": "Ученик",
+      "text": "А почему на конце слова «Хлеб» слышится звук [п]?",
+      "phonetic_api": "/a pətɕɪˈmu nə kɐnˈt͡sɛ ˈslovə xlʲep ˈslɨʂɨt͡sʲə_zvuk p/",
+      "phonetic_simple": "A pa-tchi-MOU na kan-TSE SLO-va 'hliep' SLY-chit-ssya zvouk [p] ?",
+      "translation": "Et pourquoi à la fin du mot 'Khleb' entend-on le son [p] ?"
+    },
+    {
+      "speaker": "Учитель",
+      "text": "Молодец! Это правило языка: буква «Б» в конце слова оглушается.",
+      "phonetic_api": "/məlɐˈdʲɛt͡s ˈɛtə ˈpravʲɪlə jɪˈzɨka ˈbukvə bɛ f kɐnˈt͡sɛ ˈslovə ɐɡlʊˈʂajɪt͡sʲə/",
+      "phonetic_simple": "ma-la-DIETS ! E-ta PRA-vi-la yi-zy-KA: BOUK-va 'B' f kan-TSÉ SLO-va a-glou-CHA-it-ssya.",
+      "translation": "Bravo ! C'est une règle de la langue : la lettre 'B' s'assourdit à la fin d'un mot."
+    }
+  ],
+  "cultural_notes": [
+    "L'alphabet cyrillique a été créé au IXe siècle par les frères Saints Cyrille et Méthode pour évangéliser les peuples slaves. L'alphabet russe moderne est une version simplifiée suite à plusieurs réformes, notamment celle de 1918.",
+    "La lettre 'Ё' (yo) est une particularité : bien qu'officielle, les Russes omettent presque systématiquement ses deux points à l'écrit imprimé ou manuscrit, la remplaçant visuellement par un 'Е'. Les natifs savent par habitude où se place la prononciation [jo] et l'accent tonique."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L3_ex1",
+      "type": "multiple_choice",
+      "question": "Quelle consonne finale est correctement associée à sa prononciation réelle due au dévoisement ?",
+      "options": [
+        "Борщ (Г) -> se prononce [в]",
+        "Клуб (Bain/Club) -> se prononce [п]",
+        "Нож (Couteau) -> se prononce [з]",
+        "Год (Année) -> se prononce [д]"
+      ],
+      "correct_answer": "Клуб (Bain/Club) -> se prononce [п]",
+      "explanation": "En fin de mot, la consonne sonore 'Б' perd sa sonorité et se transforme phonétiquement en sa version sourde 'П'."
+    },
+    {
+      "exercise_id": "A1_M1_L3_ex2",
+      "type": "multiple_choice",
+      "question": "Parmi ces lettres cyrilliques, laquelle est un 'faux ami' qui correspond au son [n] français ?",
+      "options": [
+        "П",
+        "Н",
+        "Р",
+        "И"
+      ],
+      "correct_answer": "Н",
+      "explanation": "La lettre cyrillique 'Н' correspond graphiquement au 'H' majuscule français, mais représente phonétiquement le son nasal [n]."
+    },
+    {
+      "exercise_id": "A1_M1_L3_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Буква «Я» состоит из двух звуков, когда стоит в начале слова: [ ___ ] и [а].",
+      "correct_answer": "й",
+      "hint": "Il s'agit de la semi-voyelle courte (i-kratkoïé) qui crée le phénomène de iodisation [j]."
+    },
+    {
+      "exercise_id": "A1_M1_L3_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Знак, который не имеет собственного звука, но смягчает согласную перед ним, называется [ ___ ] знак.",
+      "correct_answer": "мягкий",
+      "hint": "Traduction du mot 'mou' au masculin singulier."
+    }
+  ]
+}

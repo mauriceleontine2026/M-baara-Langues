@@ -1,0 +1,267 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Récits et narration",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Interagir avec assurance dans les commerces et les marchés locaux",
+    "Utiliser les expressions idiomatiques pour négocier un prix ou demander un rabais",
+    "Gérer les transactions financières du quotidien et parler de son budget"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'x' dans 'preço' n'existe pas, mais faites attention au 'ç' qui sonne [s]. Dans 'dinheiro', la combinaison 'nh' produit le son [ɲ] (comme 'gn' en français) et la diphtongue 'ei' doit être prononcée de façon fluide [diˈɲajɾu]. Le 's' final de 'compras' se prononce [ʃ] devant une consonne sourde ou une pause.",
+    "common_pitfalls": "Attention au mot 'desconto' : ne nasalisez pas le 'e' initial à la française. Le son est fermé et distinct [dɨʃˈkõtu]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Dinheiro",
+      "phonetic_api": "/diˈɲajɾu/",
+      "phonetic_simple": "DEE-NYAY-ROO",
+      "translation": "Argent / Espèces",
+      "example_sentence": "Não tenho dinheiro comigo hoje.",
+      "example_phonetic": "/nɐ̃w ˈteɲu diˈɲajɾu kuˈmiɣu ˈoʒɨ/",
+      "example_translation": "Je n'ai pas d'argent sur moi aujourd'hui."
+    },
+    {
+      "word_id": "v2",
+      "term": "Preço",
+      "phonetic_api": "/ˈpɾesu/",
+      "phonetic_simple": "PRAY-SOO",
+      "translation": "Prix",
+      "example_sentence": "O preço deste artigo é muito alto.",
+      "example_phonetic": "/u ˈpɾesu ˈdeʃtɨ ɐɾˈtiɣu ɛ ˈmũjtu ˈaɫtu/",
+      "example_translation": "Le prix de cet article est très élevé."
+    },
+    {
+      "word_id": "v3",
+      "term": "Desconto",
+      "phonetic_api": "/dɨʃˈkõtu/",
+      "phonetic_simple": "DECH-KON-TOO",
+      "translation": "Rabais / Réduction / Remise",
+      "example_sentence": "Pode fazer-me um pequeno desconto?",
+      "example_phonetic": "/ˈpɔðɨ fɐˈzeɾ.mɨ ũ pɨˈkenu dɨʃˈkõtu/",
+      "example_translation": "Pouvez-vous me faire un petit rabais ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "Troco",
+      "phonetic_api": "/ˈtɾɔku/",
+      "phonetic_simple": "TRÓ-KOO",
+      "translation": "Monnaie (rendue) / Petite monnaie",
+      "example_sentence": "Aqui está o seu troco e a fatura.",
+      "example_phonetic": "/ɐˈki iʃˈta u seu ˈtɾɔku i ɐ fɐˈtuɾɐ/",
+      "example_translation": "Voici votre monnaie et la facture."
+    },
+    {
+      "word_id": "v5",
+      "term": "Caro",
+      "phonetic_api": "/ˈkaɾu/",
+      "phonetic_simple": "KAH-ROO",
+      "translation": "Cher / Coûteux",
+      "example_sentence": "Este relógio é demasiado caro.",
+      "example_phonetic": "/ˈeʃtɨ ʁɨˈlɔʒju ɛ dɨmɐˈzjaðu ˈkaɾu/",
+      "example_translation": "Cette montre est trop chère."
+    },
+    {
+      "word_id": "v6",
+      "term": "Barato",
+      "phonetic_api": "/βsplitˈɾatu/",
+      "phonetic_simple": "BAH-RAH-TOO",
+      "translation": "Bon marché / Pas cher",
+      "example_sentence": "No mercado, os legumes são mais baratos.",
+      "example_phonetic": "/nu mɨɾˈkaðu uz lɨˈɣumɨʃ sɐ̃w mɐjʒ βsplitˈɾatuʃ/",
+      "example_translation": "Au marché, les légumes sont moins chers."
+    },
+    {
+      "word_id": "v7",
+      "term": "Pagar",
+      "phonetic_api": "/pɐˈɣaɾ/",
+      "phonetic_simple": "PAH-GAR",
+      "translation": "Payer",
+      "example_sentence": "Prefiro pagar com cartão de débito.",
+      "example_phonetic": "/pɾɨˈfiɾu pɐˈɣaɾ kõ kɐɾˈtɐ̃w dɨ ˈðɛβsplititu/",
+      "example_translation": "Je préfère payer par carte bancaire."
+    },
+    {
+      "word_id": "v8",
+      "term": "Poupar",
+      "phonetic_api": "/powˈpaɾ/",
+      "phonetic_simple": "POW-PAR",
+      "translation": "Économiser / Épargner",
+      "example_sentence": "Tento poupar uma parte do meu salário.",
+      "example_phonetic": "/ˈtẽtu powˈpaɾ ˈumɐ ˈpaɾtɨ du mew ssplitˈlaɾju/",
+      "example_translation": "J'essaye d'économiser une partie de mon salaire."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Quanto custa este casaco, por favor?",
+      "phonetic_api": "/ˈkwɐ̃du ˈkuʃtɐ ˈeʃtɨ kɐˈzaku puɾ fɐˈvoɾ/",
+      "phonetic_simple": "KWAN-DOO COOCH-TAH ECH-T'H KAH-ZAH-COO POOR FAH-VOR",
+      "translation": "Combien coûte ce manteau, s'il vous plaît ?",
+      "context": "Demander le prix d'un article en magasin."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Está muito caro, não faz mais barato?",
+      "phonetic_api": "/iʃˈta ˈmũjtu ˈkaɾu nɐ̃w faʒ mɐjʒ βsplitˈɾatu/",
+      "phonetic_simple": "ECH-TAH MOYN-TOO KAH-ROO NANG FAJM-AYCH BAH-RAH-TOO",
+      "translation": "C'est très cher, vous ne faites pas un meilleur prix ?",
+      "context": "Formule typique pour entamer une négociation cordiale au marché."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Aceita pagamento por MB Way ou multibanco?",
+      "phonetic_api": "/splitˈsajtɐ pɐɣɐˈmẽtu puɾ ɛmɨβi ˈwɐj ow muɫtʲiˈβsplit̃ku/",
+      "phonetic_simple": "AH-SAY-TAH PAH-GAH-MEN-TOO POOR EM-BEE WAY OW MOOL-TEE-BAN-KOO",
+      "translation": "Acceptez-vous le règlement par MB Way ou carte bancaire ?",
+      "context": "S'informer sur les moyens de paiement disponibles."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Queria o recibo com o meu número de contribuinte.",
+      "phonetic_api": "/kwɨˈɾiɐ u ʁɨˈsiβsplitu kõ u mew ˈnumɨɾu dɨ kõtɾiˈβwĩtɨ/",
+      "phonetic_simple": "KW'H-REE-AH OO R'H-SEE-BOO KON OO MEW NOO-M'H-ROO D'H KON-TREE-BWEEN-T'H",
+      "translation": "Je voudrais le reçu avec mon numéro de contribuable (NIF).",
+      "context": "Demande indispensable lors d'un achat professionnel ou important au Portugal."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Vou levar este, vale bem o dinheiro.",
+      "phonetic_api": "/vow lɨˈvaɾ ˈeʃtɨ ˈvalɨ βsplitj u diˈɲajɾu/",
+      "phonetic_simple": "VOW L'H-VAR ECH-T'H VAH-L'H BENG OO DEE-NYAY-ROO",
+      "translation": "Je vais prendre celui-ci, il vaut bien son prix.",
+      "context": "Prendre sa décision d'achat finale."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Fica por dez euros se levar duas unidades.",
+      "phonetic_api": "/ˈfikɐ puɾ dɛʒ ˈjowɾuʃ sɨ lɨˈvaɾ ˈduɐʃ uniˈðaðɨʃ/",
+      "phonetic_simple": "FEE-KAH POOR DÈJ EW-ROOCH S'H L'H-VAR DOO-ACH OO-NEE-DAH-D'HCH",
+      "translation": "Ça vous fera dix euros si vous prenez deux unités.",
+      "context": "Proposition commerciale ou contre-offre d'un vendeur."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Este mês tenho de controlar melhor o meu orçamento.",
+      "phonetic_api": "/ˈeʃtɨ meʃ ˈteɲu dɨ kõtɾuˈlaɾ mɨˈʎɔɾ u mew ɔɾsɐˈmẽtu/",
+      "phonetic_simple": "ECH-T'H MAYCH TAY-NYOO D'H KON-TROO-LAR MAY-LYOR OO MEW OR-SAH-MEN-TOO",
+      "translation": "Ce mois-ci, je dois mieux contrôler mon budget.",
+      "context": "Parler de sa gestion financière personnelle."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Pode guardar o troco, obrigado.",
+      "phonetic_api": "/ˈpɔðɨ ɡwɐɾˈdaɾ u ˈtɾɔku uβɾiˈɣaðu/",
+      "phonetic_simple": "PÓ-D'H GWAR-DAR OO TRÓ-KOO OH-BREE-GAH-DOO",
+      "translation": "Vous pouvez garder la monnaie, merci.",
+      "context": "Laisser un pourboire après un service de qualité."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du prix et de l'estimation avec 'Ficar por'",
+      "explanation": "Pour exprimer le coût final d'un objet après négociation, calcul ou réduction, la structure idiomatique 'Ficar por' (revenir à / coûter au final) est privilégiée à l'oral par rapport au simple verbe 'custar'.",
+      "rules": [
+        "Structure : [Objet] + ficar (conjugué) + por + [Montant].",
+        "Peut s'utiliser au futur proche ou au présent."
+      ],
+      "examples": [
+        {
+          "structure": "Com o desconto, as calças ficam por vinte euros.",
+          "phonetic_api": "/kõ u dɨʃˈkõtu splitʃ ˈkaɫsɐʃ ˈfiksplit̃w puɾ ˈvĩtɨ ˈjowɾuʃ/",
+          "meaning": "Avec la remise, le pantalon revient à vingt euros."
+        }
+      ]
+    },
+    {
+      "concept": "Les constructions de condition avec 'Se' + Futur du Subjonctif",
+      "explanation": "Lors d'une négociation ou d'un achat, les propositions de prix dépendent souvent d'une condition future. Au niveau B1/B2, l'emploi du 'Futuro do Conjuntivo' est requis après la conjonction 'se'.",
+      "rules": [
+        "Structure : Se + [Sujet] + [Verbe au Futur du Subjonctif] -> [Résultat au Futur/Présent].",
+        "Exemples de radicaux : levar (levar), fazer (fizer), querer (quiser)."
+      ],
+      "examples": [
+        {
+          "structure": "Se me fizer um bom preço, eu levo o artigo.",
+          "phonetic_api": "/sɨ mɨ fiˈzɛɾ ũ bõ ˈpɾesu ew ˈlɛvu u ɐɾˈtiɣu/",
+          "meaning": "Si vous me faites (Futur du Subjonctif) un bon prix, je prends l'article."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Cliente",
+      "text": "Bom dia. Gosto muito desta mala de pele. Quanto custa?",
+      "phonetic_api": "/bõ ˈdiɐ ˈɡoʃtu ˈmũjtu ˈdeʃtɐ ˈmalɐ dɨ pɛɫ ˈkwɐ̃du ˈkuʃtɐ/",
+      "phonetic_simple": "BON DEE-AH GOCH-TOO MOYN-TOO DECH-TAH MAH-LAH D'H PEL KWAN-DOO COOCH-TAH",
+      "translation": "Bonjour. J'aime beaucoup ce sac en cuir. Combien coûte-t-il ?"
+    },
+    {
+      "speaker": "Feirante",
+      "text": "Bom dia! Essa mala é de excelente qualidade, fabricada em Portugal. Fica por quarenta e cinco euros.",
+      "phonetic_api": "/bõ ˈdiɐ ˈɛsɐ ˈmalɐ ɛ dɨ splitʃɨˈlẽtɨ kwsplitliˈðaðɨ fsplitβɾiˈkaðɐ split̃j puɾtuˈɣaɫ ˈfiksplit nɐ puɾ kwsplitˈɾẽtɐ i ˈsĩku ˈjowɾuʃ/",
+      "phonetic_simple": "BON DEE-AH EH-SAH MAH-LAH É D'H AYCH-S'H-LEN-T'H KWAH-LEE-DAH-D'H FAH-BREE-KAH-DAH ENG POOR-TOO-GAL FEE-KAH POOR KWAH-REN-TAH EE SEEN-KOO EW-ROOCH",
+      "translation": "Bonjour ! Ce sac est d'une excellente qualité, fabriqué au Portugal. Il fait quarante-cinq euros."
+    },
+    {
+      "speaker": "Cliente",
+      "text": "Hum, está um bocado caro para o meu orçamento de hoje. Se eu levar também aquela carteira pequena, não me faz um desconto?",
+      "phonetic_api": "/ũ iʃˈta ũ buˈkaðu ˈkaɾu ˈpɐɾɐ u mew ɔɾsɐˈmẽtu dɨ ˈoʒɨ sɨ ew lɨˈvaɾ tsplit̃ˈβsplitj ɐˈkelɐ kɐɾˈtajɾɐ pɨˈkenu nɐ̃w mɨ faʒ ũ dɨʃˈkõtu/",
+      "phonetic_simple": "OONG ECH-TAH OONG BOO-KAH-DOO KAH-ROO PAH-RAH OO MEW OR-SAH-MEN-TOO D'H Ó-J'H S'H EW L'H-VAR TAM-BENG AH-KÈ-LAH KAR-TAY-RAH P'H-KAY-NAH NANG M'H FAJM OONG DECH-KON-TOO",
+      "translation": "Hum, c'est un peu cher pour mon budget d'aujourd'hui. Si je prends aussi ce petit portefeuille, vous ne me faites pas un rabais ?"
+    },
+    {
+      "speaker": "Feirante",
+      "text": "Está bem, vamos fazer um negócio. Se levar as duas peças, faço tudo por cinquenta euros. O que acha?",
+      "phonetic_api": "/iʃˈta βsplitj ˈvsplitmuʃ fɐˈzeɾ ũ nɨˈɣɔsju sɨ lɨˈvaɾ splitʃ ˈduɐʃ ˈpɛsɐʃ ˈfazu ˈtuðu puɾ sĩˈkwsplit̃tɐ ˈjowɾuʃ u kɨ ˈaxɐ/",
+      "phonetic_simple": "ECH-TAH BENG VAH-MOOCH FAH-ZER OONG N'H-GÓ-SYOO S'H L'H-VAR ACH DOO-ACH PE-SACH FAH-ZOO TOO-DOO POOR SEEN-KWEN-TAH EW-ROOCH OO K'H AH-CHAH",
+      "translation": "D'accord, faisons affaire. Si vous prenez les deux pièces, je vous fais le tout pour cinquante euros. Qu'en pensez-vous ?"
+    },
+    {
+      "speaker": "Cliente",
+      "text": "Perfeito, aceito! Aceita pagamento por MB Way?",
+      "phonetic_api": "/pɨɾˈfajtu splitˈsajtu splitˈsajtɐ pɐɣɐˈmẽtu puɾ ɛmɨβi ˈwɐj/",
+      "phonetic_simple": "PAIR-FAY-TOO AH-SAY-TOO AH-SAY-TAH PAH-GAH-MEN-TOO POOR EM-BEE WAY",
+      "translation": "Parfait, j'accepte ! Vous prenez le paiement par MB Way ?"
+    },
+    {
+      "speaker": "Feirante",
+      "text": "Com certeza, pode transferir para este número. Muito obrigado!",
+      "phonetic_api": "/kõ sɨɾˈtezɐ ˈpɔðɨ tɾsplit̃ʃfɨˈɾiɾ ˈpɐɾɐ ˈeʃtɨ ˈnumɨɾu ˈmũjtu uβɾiˈɣaðu/",
+      "phonetic_simple": "KON SAIR-TAY-ZAH PÓ-D'H TRANCH-F'H-REER PAH-RAH ECH-T'H NOO-M'H-ROO MOYN-TOO OH-BREE-GAH-DOO",
+      "translation": "Bien sûr, vous pouvez transférer sur ce numéro. Merci beaucoup !"
+    }
+  ],
+  "cultural_notes": [
+    "Au Portugal, la négociation des prix (o regateio) ne se pratique pas dans les magasins modernes ou les centres commerciaux. En revanche, elle est acceptée de manière courtoise dans les marchés traditionnels, les foires (feiras) ou les brocantes.",
+    "Le Portugal utilise massivement le système bancaire 'Multibanco' et son application mobile 'MB Way'. Cette dernière permet de payer instantanément via un numéro de téléphone, y compris chez les petits commerçants ambulants.",
+    "Lors de presque chaque achat, le vendeur vous demandera 'Contribuinte?' pour savoir si vous voulez insérer votre numéro fiscal (NIF) sur la facture, un geste ancré dans les habitudes pour obtenir des déductions d'impôts."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la structure correcte pour exprimer la condition future suivante : 'Si vous me rendez la monnaie, je serai content.'",
+      "options": [
+        "Se me dá o troco, fico contente.",
+        "Se me der o troco, fico contente.",
+        "Se me daria o troco, fico contente."
+      ],
+      "correct_answer": "Se me der o troco, fico contente.",
+      "explanation": "Après la conjonction de condition 'se', le verbe s'emploie au futur du subjonctif. Le radical irrégulier du verbe 'dar' à la 3e personne donne 'der'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire qu'un prix final revient à un montant précis, on utilise l'expression : Com o desconto, tudo [ ___ ] por dez euros.",
+      "correct_answer": "fica",
+      "hint": "Forme conjuguée du verbe ficar au présent"
+    }
+  ]
+}

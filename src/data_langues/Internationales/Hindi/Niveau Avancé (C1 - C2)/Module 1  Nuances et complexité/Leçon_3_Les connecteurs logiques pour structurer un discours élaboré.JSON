@@ -1,0 +1,167 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Connecteurs logiques pour un discours élaboré",
+  "learning_objectives": [
+    "Structurer une argumentation complexe à l'aide de connecteurs de cause, de conséquence et d'opposition du registre soutenu",
+    "Articuler des transitions fluides entre les idées en utilisant des locutions prépositionnelles avancées",
+    "Maîtriser la distinction stylistique entre les connecteurs d'origine sanskrite et persane"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le connecteur de conséquence 'परिणामस्वरूप' (/pəɾɪɳaːmsʋəɾuːp/) contient une consonne rétroflexe nasale 'ण' (/ɳ/) : la langue doit se courber vers l'arrière du palais lors de la première syllabe. Pour le connecteur d'opposition 'इसके विपरीत' (/ɪskeː ʋɪpəriːt̪/), veillez à articuler la consonne dentale pure 'त' (/t̪/) finale sans aucune aspiration.",
+    "common_pitfalls": "Attention au connecteur causal 'चूँकि' (/tʃũːkɪ/) : la première voyelle est longue et fortement nasalisée, tandis que la voyelle finale est brève. Prononcer un 'ī' long à la fin est une erreur fréquente qui dégrade la qualité du registre formel."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v_con_1",
+      "term": "चूँकि",
+      "phonetic_api": "/tʃũːkɪ/",
+      "phonetic_simple": "TCHOUN-KI",
+      "translation": "Puisque / Étant donné que",
+      "example_sentence": "चूँकि आप असहमत हैं, हम इस पर दोबारा विचार करेंगे।",
+      "example_phonetic": "/tʃũːkɪ aːp əsəɦmət̪ ɦɛ̃ː ɦəm ɪs pəɾ d̪oːbaːraː ʋɪtʃaːr kəɾẽːɡeː/",
+      "example_translation": "Puisque vous êtes en désaccord, nous allons reconsidérer la question."
+    },
+    {
+      "word_id": "v_con_2",
+      "term": "फलस्वरूप / परिणामस्वरूप",
+      "phonetic_api": "/pəɾɪɳaːmsʋəɾuːp/",
+      "phonetic_simple": "PA-RI-NAAM-SVA-ROOP (rétroflexe)",
+      "translation": "Par conséquent / En conséquence / Par voie de conséquence",
+      "example_sentence": "कड़े परिश्रम के परिणामस्वरूप उसे प्रथम स्थान मिला।",
+      "example_phonetic": "/kəɽeː pərɪʃɾəm keː pəɾɪ¼aːmsʋəɾuːp ʊseː pɾət̪ʰəm st̪ʰaːn mɪlaː/",
+      "example_translation": "En conséquence de son travail acharné, il a obtenu la première place."
+    },
+    {
+      "word_id": "v_con_3",
+      "term": "इसके विपरीत / इसके बरअक्स",
+      "phonetic_api": "/ɪskeː ʋɪpəriːt̪/",
+      "phonetic_simple": "IS-KÉ VI-PA-RIIT",
+      "translation": "Au contraire / À l'inverse",
+      "example_sentence": "वह बहुत शांत है, इसके विपरीत उसका भाई बहुत बातूनी है।",
+      "example_phonetic": "/ʋəɦ bəɦʊt̪ ʃaːnt̪ ɦɛː ɪs-keː ʋɪpəɾiːt̪ ʊskaː bʱaːiː bəɦʊt̪ baːt̪uːniː ɦɛː/",
+      "example_translation": "Il est très calme ; à l'inverse, son frère est très bavard."
+    },
+    {
+      "word_id": "v_con_4",
+      "term": "तथापि / फिर भी",
+      "phonetic_api": "/t̪ət̪ʰaːpɪ/",
+      "phonetic_simple": "TA-THAAP-I",
+      "translation": "Néanmoins / Toutefois / Cependant",
+      "example_sentence": "चुनौतियाँ अनेक थीं, तथापि उन्होंने हार नहीं मानी।",
+      "example_phonetic": "/tʃʊnɔːt̪ɪjãː əneːk t̪ʰiːm t̪ət̪ʰaːpɪ ʊnʱõːneː ɦaːr nəɦĩː maːniː/",
+      "example_translation": "Les défis étaient nombreux ; néanmoins, ils n'ont pas abandonné."
+    },
+    {
+      "word_id": "v_con_5",
+      "term": "के अतिरिक्त / के अलावा",
+      "phonetic_api": "/keː ət̪ɪɾɪkt̪/",
+      "phonetic_simple": "KÉ A-TI-RIKT",
+      "translation": "Outre / En plus de / Outre cela",
+      "example_sentence": "इस नौकरी के लिए योग्यता के अतिरिक्त अनुभव भी आवश्यक है।",
+      "example_phonetic": "/ɪs nɔːkəɾiː keː lɪjeː joːɡjət̪aː keː ət̪ɪɾɪkt̪ ənʊbʱəʋ bʱiː aːʋəʃjək ɦɛː/",
+      "example_translation": "Pour ce travail, outre les qualifications, l'expérience est également nécessaire."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "चूँकि हमारे पास समय का अभाव है, इसलिए हमें मुख्य बिंदुओं पर ध्यान केंद्रित करना चाहिए।",
+      "phonetic_api": "/tʃũːkɪ ɦəmaːɾeː paːs səməj kaː əbʱaːʋ ɦɛː ɪs-lɪjeː ɦəmẽː mʊkʰjə bɪnd̪ʊõː pəɾ dʱjaːn kendɾɪt̪ kəɾnaː tʃaːhɪjeː/",
+      "phonetic_simple": "TCHOUN-KI HA-MAA-RÉ PAAS SA-MAY KAA A-BHAAV HÉ, IS-LI-YÉ HA-MÊN MUKH-YA BIN-DOO-ON PAR DHYAAN KÊN-DRIT KAR-NAA CHAA-HI-YÉ",
+      "translation": "Puisque nous manquons de temps, nous devons par conséquent nous concentrer sur les points principaux.",
+      "context": "Introduire une synthèse ou réorienter une réunion professionnelle de haut niveau."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "यद्यपि नीति में कुछ कमियाँ हैं, तथापि इसके दूरगामी परिणाम सकारात्मक होंगे।",
+      "phonetic_api": "/jəd̪jəpɪ niːt̪ɪ mẽː kʊtʃ kəmɪjãː ɦɛ̃ː t̪ət̪ʰaːpɪ ɪskeː d̪uːɾɡaːmiː pəɾɪɳaːm səkaːraːt̪mək ɦõːɡeː/",
+      "phonetic_simple": "YAD-YA-PI NII-TI MEIN KOUTCH KA-MI-YAAN HAIN, TA-THAAP-I IS-KÉ DOOR-GAA-MII PA-RI-NAAM SA-KAA-RAAT-MAK HON-GÉ",
+      "translation": "Bien que la politique présente quelques lacunes, ses répercussions à long terme seront néanmoins positives.",
+      "context": "Nuancer une analyse géopolitique ou économique lors d'une présentation ou d'un rapport écrit."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La corrélation causale littéraire 'चूँकि... इसलिए' (chūñki... isliyē)",
+      "explanation": "Pour articuler un lien de cause à effet complexe, le registre soutenu privilégie la paire de connecteurs 'चूँकि' (placé en tête de la proposition causale) et 'इसलिए' ou 'अतः' (en tête de la proposition résultante). Cette structure remplace l'usage plus familier de 'क्योंकि' en milieu de phrase.",
+      "rules": [
+        "Structure : चूँकि + [Proposition Cause], इसलिए / अतः + [Proposition Conséquence].",
+        "Ne jamais omettre le second connecteur corrélatif, indispensable à l'équilibre syntaxique formel."
+      ],
+      "examples": [
+        {
+          "structure": "चूँकि वर्षा तीव्र थी, अतः मैच स्थगित कर दिया गया। (Chūñki varṣā tīvra thī, ataḥ match sthagit kar diyā gayā.)",
+          "phonetic_api": "/tʃũːkɪ ʋəɾʃaː t̪iːʋɾə t̪ʰiː ət̪əɦ mɛːtʃ st̪ʰəɡɪt̪ kəɾ d̪ɪjaː ɡəjaː/",
+          "meaning": "La pluie étant torrentielle, le match a par conséquent été reporté."
+        }
+      ]
+    },
+    {
+      "concept": "La concession formelle 'यद्यपि... तथापि' (yadyapi... tathāpi)",
+      "explanation": "C'est le sommet de l'expression concessive en hindi littéraire (tatsam). Elle équivaut à la structure française 'quoique... néanmoins' ou 'bien que... toutefois'.",
+      "rules": [
+        "Structure : यद्यपि + [Proposition Concessive], तथापि / फिर भी + [Proposition Principale].",
+        "Dans le registre administratif ou juridique, 'तथापि' est strictement préféré à la locution courante 'फिर भी'."
+      ],
+      "examples": [
+        {
+          "structure": "यद्यपि वह अस्वस्थ था, तथापि वह दफ़्तर आया। (Yadyapi vah asvastha thā, tathāpi vah daftar āyā.)",
+          "phonetic_api": "/jəd̪jəpɪ ʋəɦ əsʋəst̪ʰə t̪ʰaː t̪ət̪ʰaːpɪ ʋəɦ dəft̪əɾ aːjaː/",
+          "meaning": "Bien qu'il fût souffrant, il s'est néanmoins rendu au bureau."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "वरिष्ठ विश्लेषक (Analyste senior)",
+      "text": "अमित, इस तिमाही के आर्थिक आँकड़े संतोषजनक नहीं हैं। परिणामस्वरूप, हमें अपनी निवेश नीति बदलनी होगी।",
+      "phonetic_api": "/əmɪt̪ ɪs t̪ɪmaːɦiː keː aːɾt̪ʰɪk ãːkɽeː sənt̪oːʃdʒənək nəɦĩː ɦɛ̃ː pəɾɪɳaːmsʋəɾuːp ɦəmẽː əpniː nɪʋeːʃ niːt̪ɪ bəd̪əlniː ɦoːɡiː/",
+      "phonetic_simple": "A-MIT, IS TI-MAA-HII KÉ AAR-THIK AAN-KHRÉ SAN-TOSH-DJA-NAK NA-HIN HAIN. PA-RI-NAAM-SVA-ROOP, HA-MÊN AP-NII NI-VÉCH NII-TI BA-DAL-NII HO-GII",
+      "translation": "Amit, les données économiques de ce trimestre ne sont pas satisfaisantes. En conséquence, nous allons devoir modifier notre politique d'investissement."
+    },
+    {
+      "speaker": "अमित (Amit)",
+      "text": "जी सर, यद्यपि बाज़ार में मंदी का प्रभाव है, तथापि हमारे कुछ क्षेत्रों ने इसके विपरीत बेहतरीन प्रदर्शन किया है।",
+      "phonetic_api": "/dʒiː səɾ jəd̪jəpɪ baːzaːr mẽː mənd̪iː kaː pɾəbʱaːʋ ɦɛː t̪ət̪ʰaːpɪ ɦəmaːɾeː kʊtʃ kʃeːt̪ɾõː neː ɪskeː ʋɪpəriːt̪ bɛːt̪əɾiːn pɾəd̪əɾʃən kɪjaː ɦɛː/",
+      "phonetic_simple": "DJII SIR, YAD-YA-PI BAA-ZAAR MEIN MAN-DII KAA PRA-BHAAV HÉ, TA-THAAP-I HA-MAA-RÉ KOUTCH KCHÉ-TRON NÉ IS-KÉ VI-PA-RIIT BEH-TA-RIIN PRA-DAR-CHAN KI-YAA HÉ",
+      "translation": "Oui monsieur. Bien que le marché subisse l'impact de la récession, certains de nos secteurs ont, à l'inverse, réalisé d'excellentes performances."
+    },
+    {
+      "speaker": "वरिष्ठ विश्लेषक (Analyste senior)",
+      "text": "यह सही है। चूँकि उन क्षेत्रों में स्थिरता है, इसलिए हमें वहाँ पूँजी बढ़ानी चाहिए। इसके अतिरिक्त, हमें जोखिम प्रबंधन पर भी ध्यान देना होगा।",
+      "phonetic_api": "/jəɦ səɦiː ɦɛː tʃuːnkɪ ʊn kʃeːt̪ɾõː mẽː st̪ʰɪɾt̪aː ɦɛː ɪs-lɪjeː ɦəmẽː ʋəɦãː pũːdʒiː bəɽʱaːniː tʃaːhɪjeː ɪskeː ət̪ɪɾɪkt̪ ɦəmẽː dʒoːkʰɪm pɾəbəndʱən pəɾ bʱiː dʱjaːn d̪eːnaː ɦoːɡaː/",
+      "phonetic_simple": "YAH SAHII HÉ. TCHOUN-KI OUN KCHÉ-TRON MEIN STHIR-TAA HÉ, IS-LI-YÉ HA-MÊN VA-HAAN POUN-DJII BARH-AA-NII CHAA-HI-YÉ. IS-KÉ A-TI-RIKT, HA-MÊN DJO-KHIM PRA-BANDHAN PAR BHII DHYAAN DÉ-NAA HO-GAA",
+      "translation": "C'est exact. Puisque ces secteurs sont stables, nous devons par conséquent y augmenter nos capitaux. Outre cela, il nous faudra veiller à la gestion des risques."
+    }
+  ],
+  "cultural_notes": [
+    "L'usage des connecteurs formels empruntés au sanskrit (तत्सम - Tatsam) comme 'यद्यपि' ou 'तथापि' prédomine dans la presse écrite de référence, les discours politiques formels et la littérature hindi contemporaine. Maîtriser ces termes est indispensable pour quiconque souhaite évoluer dans les cercles académiques ou administratifs en Inde.",
+    "Parallèlement, le registre de la haute administration judiciaire (notamment dans les tribunaux du nord de l'Inde) conserve un vocabulaire technique fortement imprégné de connecteurs juridiques d'origine arabo-persane (Ourdou) comme 'बशर्ते कि' (à condition que) ou 'इसके बरअक्स' (à l'inverse), reflétant l'histoire institutionnelle du pays."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la paire de connecteurs logiques appropriée pour compléter cette phrase de registre soutenu : '[ ___ ] वित्तीय स्थिति कमज़ोर थी, [ ___ ] उन्होंने परियोजना को बीच में नहीं रोका।'",
+      "options": [
+        "चूँकि... इसलिए (chūñki... isliyē)",
+        "यद्यपि... तथापि (yadyapi... tathāpi)",
+        "हालाँकि... क्योंकि (hālāñki... kyoñki)"
+      ],
+      "correct_answer": "यद्यपि... तथापि (yadyapi... tathāpi)",
+      "explanation": "La phrase exprime une concession littéraire ('Bien que la situation financière fût fragile, ils n'ont toutefois pas interrompu le projet'), ce qui requiert la corrélation 'यद्यपि... तथापि'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "चूँकि आपके पास अनुभव है, [ ___ ] आपको यह जिम्मेदारी दी जा रही है। (Puisque vous avez de l'expérience, cette responsabilité vous est par conséquent confiée.)",
+      "correct_answer": "इसलिए",
+      "hint": "Le connecteur de conséquence attendu en corrélation directe avec 'चूँकि' (isliyē)"
+    }
+  ]
+}

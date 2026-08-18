@@ -1,0 +1,224 @@
+{
+  "lesson_id": "C1_M3_L6",
+  "level": "Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 6,
+  "title": "Registre soutenu et langage formel",
+  "learning_objectives": [
+    "Maîtriser les formules protocolaires et le lexique de la haute administration ou de la diplomatie",
+    "Utiliser les structures de l'inversion rhétorique et de l'emphase pour élever le niveau de langue",
+    "Employer correctement le passif inconnu (Majhool) et les locutions figées du droit et de l'État"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le registre formel exige une pureté d'élocution absolue. Le son /f/ (ف) et le /x/ (خ) de 'Fakhāmah' (فَخَامَة - Excellence) doivent être articulés avec noblesse. Le redoublement de la consonne /y/ (ي) dans 'Siyādah' ou 'Ma'ālī' (مَعَالِي - Son Éminence) requiert une tension vocalique marquée et stable.",
+    "common_pitfalls": "En langage soutenu, l'omission des désinences finales (I'rāb) est éliminatoire. Veillez à prononcer distinctement les voyelles brèves de fin de mot (Damma, Fatha, Kasra) même avant une pause narrative, pour maintenir la solennité du discours."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "فَخَامَةٌ",
+      "phonetic_api": "/fa.xaː.ma.tun/",
+      "phonetic_simple": "FA-KHAA-MA-TOUN",
+      "translation": "Excellence (Titre protocolaire réservé aux chefs d'État)",
+      "example_sentence": "إِسْتَقْبَلَ فَخَامَةُ الرَّئِيسِ الْوَفْدَ",
+      "example_phonetic": "/.../",
+      "example_translation": "Son Excellence le Président a reçu la délégation"
+    },
+    {
+      "word_id": "v2",
+      "term": "مَعَالِي",
+      "phonetic_api": "/ma.ʕaː.liː/",
+      "phonetic_simple": "MA-AA-LII",
+      "translation": "Son Éminence / Monsieur le Ministre (Titre pour les hauts dignitaires)",
+      "example_sentence": "أَصْدَرَ مَعَالِي الْوَزِيرِ قَرَارًا",
+      "example_phonetic": "/.../",
+      "example_translation": "Son Éminence le Ministre a promulgué un décret"
+    },
+    {
+      "word_id": "v3",
+      "term": "بِالْأَصَالَةِ عَنْ",
+      "phonetic_api": "/bil.ʔa.sˤaː.la.ti ʕan/",
+      "phonetic_simple": "BIL-A-SAA-LA-TI AN",
+      "translation": "En mon nom propre / En vertu de ma qualité",
+      "example_sentence": "أَتَحَدَّثُ بِالْأَصَالَةِ عَنْ نَفْسِي",
+      "example_phonetic": "/.../",
+      "example_translation": "Je m'exprime en mon nom propre"
+    },
+    {
+      "word_id": "v4",
+      "term": "مُوقَّرٌ",
+      "phonetic_api": "/mu.waq.qa.run/",
+      "phonetic_simple": "MOU-WAK-KA-ROUN",
+      "translation": "Vénérable / Honorable / Respecté (Qualificatif d'une institution)",
+      "example_sentence": "نَجْتَمِعُ فِي الْمَجْلِسِ الْمُوقَّرِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Nous nous réunissons au sein de l'honorable conseil"
+    },
+    {
+      "word_id": "v5",
+      "term": "بِمُوجِبِ",
+      "phonetic_api": "/bi.muː.dʒi.bi/",
+      "phonetic_simple": "BI-MOOU-DJI-BI",
+      "translation": "En vertu de / Conformément aux dispositions de",
+      "example_sentence": "تَمَّ التَّعْيِينُ بِمُوجِبِ الْمَرْسُومِ",
+      "example_phonetic": "/.../",
+      "example_translation": "La nomination a eu lieu en vertu du décret"
+    },
+    {
+      "word_id": "v6",
+      "term": "مَحْفَلٌ",
+      "phonetic_api": "/maħ.fa.lun/",
+      "phonetic_simple": "MAH-FA-LOUN",
+      "translation": "Une assemblée solennelle / Un forum officiel (Pluriel : Maḥāfil)",
+      "example_sentence": "مَثَّلَ بِلَادَهُ فِي هَذَا الْمَحْفَلِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Il a représenté son pays dans cette assemblée officielle"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "يُشَرِّفُنِي أَنْ أَرْفَعَ إِلَى مَقَامِكُمْ السَّامِي أَسْمَى آيَاتِ التَّقْدِيرِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "YOU-CHAR-RI-FOU-NII AN AR-FA-A I-LAA MA-KAA-MI-KOU-MOUS SAA-MII...",
+      "translation": "J'ai l'igne honneur d'adresser à votre haute bienveillance l'expression de ma plus haute considération",
+      "context": "Ouverture classique d'une correspondance diplomatique ou officielle (C1)."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "بِمُوجِبِ الصَّلَاحِيَّاتِ الْمَخُولَةِ لَنَا، نُقَرِّرُ مَا يَلِي",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "BI-MOOU-DJI-BIL SA-LAA-HIY-YAA-TIL MA-KHOU-LA-TI LA-NAA...",
+      "translation": "En vertu des prérogatives qui nous sont conférées, nous décidons ce qui suit",
+      "context": "Formule exécutive employée dans les décrets d'État ou administratifs."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "تَقَرَّرَ بِنَاءً عَلَى مُدَاوَلَاتِ الْمَجْلِسِ الْمُوقَّرِ إِرْجَاءُ الْعَقْدِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "TA-KAR-RA-RA BI-NAA-AN A-LAA MOU-DAA-WA-LAA-TIL MADJ-LI-SIL...",
+      "translation": "Il a été décidé, suite aux délibérations de l'honorable conseil, de reporter le contrat",
+      "context": "Usage du passif et inversion pour détacher l'action de l'individualité de l'auteur."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "أَلْقَى فَخَامَتُهُ كَلِمَةً رَصِينَةً فِي الْمَحْفَلِ الدُّوَلِيِّ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AL-KAA FA-KHAA-MA-TOU-HOU KA-LI-MA-TAN RA-SIII-NA...",
+      "translation": "Son Excellence a prononcé un discours d'une grande rigueur au forum international",
+      "context": "Compte rendu officiel d'une activité de haut rang."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "نَتَقَدَّمُ بِهَذَا الطَّلَبِ بِالْأَصَالَةِ عَنْ أَنْفُسِنَا وَالنِّيَابَةِ عَنِ الْمُؤَسَّسَةِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "NA-TA-KAD-DA-MOU BI-HAA-THATH TA-LA-BI BIL-A-SAA-LA-TI AN...",
+      "translation": "Nous soumettons cette requête en notre nom propre et pour le compte de l'institution",
+      "context": "Introduction rigoureuse d'un mémoire ou d'un acte juridique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les titres protocolaires comme annexions de qualification (Idāfat al-Tashrīf)",
+      "explanation": "Le langage formel substitue les pronoms personnels par des titres honorifiques construits sous forme d'annexion régie par des règles strictes.",
+      "rules": [
+        "Des mots comme Fakhāmah (فَخَامَة), Ma'ālī (مَعَالِي), Siyādah (سِيَادَة) deviennent le premier terme de l'annexion.",
+        "Le sujet ou le destinataire réel est le second terme (ex: ar-Ra'īs), prenant le cas indirect (Génitif/Kasra).",
+        "L'ensemble du bloc s'accorde selon sa fonction dans la phrase (Sujet au nominatif, Objet à l'accusatif)."
+      ],
+      "examples": [
+        {
+          "structure": "حَضَرَ مَعَالِي الْوَزِيرِ",
+          "phonetic_api": "/ħa.dˤa.ra ma.ʕaː.lil wa.ziː.ri/",
+          "meaning": "Son Éminence le Ministre a assisté (Ma'ālī est sujet, al-Wazīri est au génitif)"
+        },
+        {
+          "structure": "خَاطَبْتُ سِيَادَةَ السَّفِيرِ",
+          "phonetic_api": "/xaː.tˤab.tu si.jaː.da.tas sa.fiː.ri/",
+          "meaning": "J'ai adressé la parole à Monsieur l'Ambassadeur"
+        }
+      ]
+    },
+    {
+      "concept": "L'usage systématique du passif impersonnel (Al-Fi'l al-Majhool) dans l'administration",
+      "explanation": "Pour garantir l'impartialité et l'autorité de l'État ou du droit, le langage formel occulte l'agent au profit de l'acte légal.",
+      "rules": [
+        "Le verbe est conjugué au passif (changement des voyelles : Damma sur la première consonne, Kasra ou Fatha sur la pénultième).",
+        "L'ancien complément d'objet direct devient le sujet du passif (Nā'ib al-Fā'il) et se décline impérativement au cas sujet (Nominatif/Damma)."
+      ],
+      "examples": [
+        {
+          "structure": "تُقُرِّرَ إِصْدَارُ الْقَانُونِ",
+          "phonetic_api": "/tu.qur.ri.ra ʔisˤ.daː.rul qa.nuː.ni/",
+          "meaning": "Il a été décidé de promulguer la loi (Isdāru prend la damma)"
+        },
+        {
+          "structure": "عُقِدَ الِاجْتِمَاعُ",
+          "phonetic_api": "/ʕu.qi.dal idʒ.ti.maː.ʕu/",
+          "meaning": "La réunion s'est tenue / a été organisée"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "الْمُمَثِّل الدِّيْپْلُومَاتِيِّ (Le représentant diplomatique)",
+      "text": "يُشَرِّفُنِي يَا مَعَالِي الْوَزِيرِ أَنْ أَنْقُلَ إِلَيْكُمْ تَحِيَّاتِ فَخَامَةِ الرَّئِيسِ بِمُوجِبِ الْعَلَاقَاتِ التَّارِيخِيَّةِ بَيْنَ بَلَدَيْنَا.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "YOU-CHAR-RI-FOU-NII YA MA-AA-LIL WA-ZII-RI AN AN-KOULA...",
+      "translation": "J'ai l'immense honneur, Monsieur le Ministre, de vous transmettre les salutations de Son Excellence le Président, en vertu des relations historiques entre nos deux pays."
+    },
+    {
+      "speaker": "مَعَالِي الْوَزِير (Son Éminence le Ministre)",
+      "text": "أَهْلًا بِكُمْ فِي هَذَا الْمَحْفَلِ الْمُوقَّرِ. لَقَدْ تَقُرِّرَ عَقْدُ هَذِهِ الْجَلْسَةِ بِالْأَصَالَةِ عَنِ الْحُكُومَةِ لِبَحْثِ التَّعَاوُنِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN BI-KOU-FII HAA-THAL MAH-FA-LIL MOU-WAK-KAR...",
+      "translation": "Bienvenue à vous dans cette assemblée solennelle. Il a été décidé de tenir cette session au nom du gouvernement pour examiner la coopération."
+    },
+    {
+      "speaker": "الْمُمَثِّل الدِّيْپْلُومَاتِيِّ (Le représentant diplomatique)",
+      "text": "هَذَا تَوَجُّهٌ رَصِينٌ، وَنَحْنُ عَلَى يَقِينٍ أَنَّ الْقَرَارَاتِ الَّتِي سَتُتَّخَذُ سَتَكُونُ لَهَا دَلَالَاتٌ إِيجَابِيَّةٌ جِدًّا.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAA-THAA TA-WADj-DJU-HOUN RA-SIIN, WA NAH-NOOU A-LAA YA-KIII-NIN...",
+      "translation": "C'est une orientation solide, et nous sommes certains que les décisions qui seront prises auront des retombées très positives."
+    }
+  ],
+  "cultural_notes": [
+    "Les codes de la correspondance officielle (Al-Kitābah al-Diwāniyyah) : Depuis l'époque abbasside, l'administration arabe accorde une importance cruciale à la forme écrite. Les ministères et ambassades utilisent un style extrêmement rigide et fleuri où chaque rang social possède son adjectif et son titre exact. Maîtriser ces codes est synonyme de souveraineté et de compétence.",
+    "L'impersonalisation du pouvoir légal : Dans la culture juridique arabe standard, l'autorité n'émane pas de l'individu mais de la fonction. C'est pourquoi l'usage du passif ou de tournures telles que 'Bimūjibi' est favorisé pour inscrire l'action administrative dans la pérennité et la neutralité institutionnelle."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M3_L6_ex1",
+      "type": "multiple_choice",
+      "question": "Quel titre honorifique s'adresse obligatoirement à un Ministre en exercice dans une correspondance officielle ?",
+      "options": [
+        "فَخَامَةُ الرَّئِيسِ (Fakhāmatu r-ra'īsi)",
+        "مَعَالِي الْوَزِيرِ (Ma'ālī l-wazīri)",
+        "سِيَادَةُ السَّفِيرِ (Siyādatu s-safīri)"
+      ],
+      "correct_answer": "مَعَالِي الْوَزِيرِ (Ma'ālī l-wazīri)",
+      "explanation": "'Ma'ālī' est le titre officiel réservé aux ministres et premiers ministres, tandis que 'Fakhāmah' s'adresse aux présidents."
+    },
+    {
+      "exercise_id": "C1_M3_L6_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'En vertu du texte légal...', on utilise la locution formelle de droit : [ ___ ] نَصِّ الْقَانُونِ",
+      "correct_answer": "بِمُوجِبِ",
+      "hint": "C'est la préposition composée signifiant sous le coup de, ou conformément aux termes de."
+    },
+    {
+      "exercise_id": "C1_M3_L6_ex3",
+      "type": "multiple_choice",
+      "question": "Comment décline-t-on le terme qui assume le rôle de sujet du passif (Nā'ib al-Fā'il) après 'تَقَرَّرَ' (Il a été décidé) ?",
+      "options": [
+        "Au cas direct (Accusatif/Fatha)",
+        "Au cas sujet (Nominatif/Damma)",
+        "Il reste invariable au cas indirect"
+      ],
+      "correct_answer": "Au cas sujet (Nominatif/Damma)",
+      "explanation": "Le substitut du sujet (Nā'ib al-Fā'il) hérite de toutes les propriétés grammaticales du sujet classique, y compris sa flexion fondamentale au nominatif (Damma)."
+    }
+  ]
+}

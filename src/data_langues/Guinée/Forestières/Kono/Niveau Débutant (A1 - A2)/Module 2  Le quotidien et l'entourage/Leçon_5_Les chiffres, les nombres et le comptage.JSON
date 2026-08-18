@@ -1,0 +1,155 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter de 1 à 10 avec assurance en kono",
+    "Comprendre la logique d'assemblage des dizaines et l'énonciation des quantités"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La vibration du son /v/ combinée aux voyelles fermées /u/ demande une attention particulière. Les nombres finissant par des consonnes nasales doivent garder le ton constant.",
+    "common_pitfalls": "Attention à ne pas oublier la modification tonale lorsque le chiffre est suivi directement par l'objet compté."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v5_1",
+      "term": "dóndó",
+      "phonetic_api": "/dóndó/",
+      "phonetic_simple": "DON-DO",
+      "translation": "Un (1)",
+      "example_sentence": "Mɔ̀ dóndó le káá.",
+      "example_phonetic": "/mɔ̀ dóndó le káː/",
+      "example_translation": "Il y a une seule personne."
+    },
+    {
+      "word_id": "v5_2",
+      "term": "fɛ̀ɛ̀",
+      "phonetic_api": "/fɛ̀ː/",
+      "phonetic_simple": "FEE",
+      "translation": "Deux (2)",
+      "example_sentence": "Lóŋ fɛ̀ɛ̀ bɛ̀ í yí.",
+      "example_phonetic": "/lóŋ fɛ̀ː ɓɛ̀ í jí/",
+      "example_translation": "Tu as deux enfants."
+    },
+    {
+      "word_id": "v5_3",
+      "term": "hàágpà",
+      "phonetic_api": "/hàáɡɓà/",
+      "phonetic_simple": "HAA-GBA",
+      "translation": "Trois (3)",
+      "example_sentence": "Kpáá hàágpà ní ɓí.",
+      "example_phonetic": "/kpáː hàáɡɓà ní ɓí/",
+      "example_translation": "Prends trois tabourets."
+    },
+    {
+      "word_id": "v5_4",
+      "term": "híáànù",
+      "phonetic_api": "/híáːnù/",
+      "phonetic_simple": "HIA-ANOU",
+      "translation": "Quatre (4)",
+      "example_sentence": "Gàà híáànù le bɛ̀ nì.",
+      "example_phonetic": "/ɡàː híáːnù le ɓɛ̀ nì/",
+      "example_translation": "Il y a quatre maisons ici."
+    },
+    {
+      "word_id": "v5_5",
+      "term": "hɔ́ɔ́lù",
+      "phonetic_api": "/hɔ́ːlù/",
+      "phonetic_simple": "HOO-LOU",
+      "translation": "Cinq (5)",
+      "example_sentence": "Ɓɔ̀lɔ̀ hɔ́ɔ́lù nìí mɛ̀.",
+      "example_phonetic": "/ɓɔ̀lɔ̀ hɔ́ːlù nìː mɛ̀/",
+      "example_translation": "Regarde ces cinq bananes."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p5_1",
+      "original": "À pɛ́ɛ̀ nìà bɛ̀ ?",
+      "phonetic_api": "/à pɛ́ːɛ̀ nìà ɓɛ̀/",
+      "phonetic_simple": "A PEE NIA BE ?",
+      "translation": "C'est combien ?",
+      "context": "Demander le coût d'une marchandise ou le compte final."
+    },
+    {
+      "phrase_id": "p5_2",
+      "original": "Mɔ̀ puù le káá.",
+      "phonetic_api": "/mɔ̀ pūː le káː/",
+      "phonetic_simple": "MO POUOU LE KAA.",
+      "translation": "Il y a dix personnes.",
+      "context": "Dénombrer un groupe de gens."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La position de l'adjectif numéral cardinal",
+      "explanation": "En kono, contrairement au français, l'adjectif numéral cardinal (le chiffre qui compte) se place impérativement après le nom qu'il qualifie. Le nom ne prend pas systématiquement de marque de pluriel visible si le chiffre indique déjà la pluralité.",
+      "rules": [
+        "Structure standard : Nom + Chiffre",
+        "Le nom conserve généralement sa forme de base."
+      ],
+      "examples": [
+        {
+          "structure": "Mɔ̀ (personne) + fɛ̀ɛ̀ (deux)",
+          "phonetic_api": "/mɔ̀ fɛ̀ː/",
+          "meaning": "Deux personnes"
+        },
+        {
+          "structure": "Gàà (maison) + puù (dix)",
+          "phonetic_api": "/ɡàː pūː/",
+          "meaning": "Dix maisons"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kéèmɔ̀",
+      "text": "Í lóŋ nìà bɛ̀, Sia ?",
+      "phonetic_api": "/í lóŋ nìà ɓɛ̀ sīā/",
+      "phonetic_simple": "I long nia be, Sia ?",
+      "translation": "Combien d'enfants as-tu, Sia ?"
+    },
+    {
+      "speaker": "Sīā",
+      "text": "Ń lóŋ hàágpà le bɛ̀.",
+      "phonetic_api": "/ń lóŋ hàáɡɓà le ɓɛ̀/",
+      "phonetic_simple": "N long haa-gba le be.",
+      "translation": "J'au trois enfants."
+    },
+    {
+      "speaker": "Kéèmɔ̀",
+      "text": "Hàágpà ? À kɛ́nɛ̀ kɔ́ɔ́ !",
+      "phonetic_api": "/hàáɡɓà à kɛ́nɛ̀ kɔ́ː/",
+      "phonetic_simple": "Haa-gba ? A ke-ne koo !",
+      "translation": "Trois ? C'est merveilleux !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans le système de numération traditionnel kono, le comptage s'appuie sur une base quinaire (base 5), liée aux cinq doigts de la main. Dix ('puù') marque une étape majeure représentant la réunion des deux mains."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex5_1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'cinq' en langue kono ?",
+      "options": [
+        "hɔ́ɔ́lù",
+        "hàágpà",
+        "dóndó"
+      ],
+      "correct_answer": "hɔ́ɔ́lù",
+      "explanation": "'hɔ́ɔ́lù' est le terme exact pour le chiffre 5."
+    },
+    {
+      "exercise_id": "ex5_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mɔ̀ [ ___ ] le bɛ̀ nì. (Il y a une personne ici.)",
+      "correct_answer": "dóndó",
+      "hint": "Le chiffre un."
+    }
+  ]
+}

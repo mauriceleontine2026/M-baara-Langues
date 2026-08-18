@@ -1,0 +1,234 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Gérer des transactions financières quotidiennes et comprendre le vocabulaire bancaire de base",
+    "Négocier poliment un prix ou demander une réduction lors d'achats spécifiques",
+    "Exprimer des notions d'épargne, de dépenses et de gestion de budget",
+    "Maîtriser les structures comparatives de supériorité, d'infériorité et d'égalité"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre -v- dans 'das Bargeld' n'est pas présente, mais observez le mot 'verhandeln' [fɛɐ̯ˈhandl̩] : le préfixe -ver- se prononce impérativement avec un [f] sourd. Le digramme -ch- dans l'adjectif 'günstig' ou le nom 'die Rechnung' correspond au son palatal doux [ç] (Ich-Laut). Le -g final de 'günstig' s'adoucit également en [ɪç] en allemand standard du Nord et du Centre.",
+    "common_pitfalls": "Attention au mot 'sparen' [ˈʃpaːʁən] : le groupe initial -sp- se prononce obligatoirement [ʃp] ('chpa-'). Ne prononcez pas le -t- de 'die Quittung' de manière trop molle, l'occlusive doit être nette avant le suffixe -ung."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "das Bargeld",
+      "phonetic_api": "/das ˈbaːɐ̯ˌɡɛlt/",
+      "phonetic_simple": "DAS BAR-GELT",
+      "translation": "l'argent liquide / les espèces",
+      "example_sentence": "In Deutschland bezahlt man oft mit Bargeld.",
+      "example_phonetic": "/ɪn ˈdɔɪ̯tʃlant bəˈtsaːlt man ɔft mɪt ˈbaː&u̯ɐ̯ˌɡɛlt/",
+      "example_translation": "En Allemagne, on paie souvent en argent liquide."
+    },
+    {
+      "word_id": "v2",
+      "term": "sparen",
+      "phonetic_api": "/ˈʃpaːʁən/",
+      "phonetic_simple": "CHPA-REN",
+      "translation": "épargner / économiser",
+      "example_sentence": "Ich spare jeden Monat ein bisschen Geld für den Urlaub.",
+      "example_phonetic": "/ɪç ˈʃpaːʁə ˈjeːdn̩ ˈmoːnat aɪ̯n ˈbɪsçən ɡɛlt fyːɐ̯ deːn ˈuːɐ̯laʊ̯p/",
+      "example_translation": "J'économise un peu d'argent chaque mois pour les vacances."
+    },
+    {
+      "word_id": "v3",
+      "term": "ausgeben",
+      "phonetic_api": "/ˈaʊ̯sˌɡeːbn̩/",
+      "phonetic_simple": "AOFS-GEE-BEN",
+      "translation": "dépenser (de l'argent)",
+      "example_sentence": "Er gibt zu viel Geld für Videospiele aus.",
+      "example_phonetic": "/eːɐ̯ ɡɪpt tsuː viːl ɡɛlt fyːɐ̯ ˈvɪde|oːˌʃpiːlə aʊ̯s/",
+      "example_translation": "Il dépense trop d'argent pour les jeux vidéo."
+    },
+    {
+      "word_id": "v4",
+      "term": "günstig",
+      "phonetic_api": "/ˈɡʏnstɪç/",
+      "phonetic_simple": "GOUNS-TICH",
+      "translation": "avantageux / bon marché / économique",
+      "example_sentence": "Dieses Angebot ist sehr günstig.",
+      "example_phonetic": "/ˈdiːzəs ˈanɡəˌboːt ɪst zeːɐ̯ ˈɡʏnstɪç/",
+      "example_translation": "Cette offre est très avantageuse."
+    },
+    {
+      "word_id": "v5",
+      "term": "das Konto",
+      "phonetic_api": "/das ˈkɔntoː/",
+      "phonetic_simple": "DAS KON-TOO",
+      "translation": "le compte bancaire",
+      "example_sentence": "Ich muss Geld auf mein Konto einzahlen.",
+      "example_phonetic": "/ɪç mʊs ɡɛlt aʊ̯f maɪ̯n ˈkɔntoː ˈaɪ̯nˌtsaːlən/",
+      "example_translation": "Je dois déposer de l'argent sur mon compte."
+    },
+    {
+      "word_id": "v6",
+      "term": "der Rabatt",
+      "phonetic_api": "/deːɐ̯ ʁaˈbat/",
+      "phonetic_simple": "DEER RA-BAT",
+      "translation": "la réduction / le rabais",
+      "example_sentence": "Gibt es einen Rabatt für Studenten?",
+      "example_phonetic": "/ɡɪpt ɛs ˈaɪ̯nən ʁaˈbat fyːɐ̯ ʃtuˈdɛntn̩/",
+      "example_translation": "Y a-t-il une réduction pour les étudiants ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "verhandeln",
+      "phonetic_api": "/fɛɐ̯ˈhandl̩/",
+      "phonetic_simple": "FER-HAN-DELN",
+      "translation": "négocier / marchander",
+      "example_sentence": "Auf dem Flohmarkt kann man gut verhandeln.",
+      "example_phonetic": "/aʊ̯f deːm ˈfloːmaʁkt kan man ɡuːt fɛɐ̯ˈhandl̩/",
+      "example_translation": "On peut bien négocier sur le marché aux puces."
+    },
+    {
+      "word_id": "v8",
+      "term": "die Quittung",
+      "phonetic_api": "/diː ˈkvɪtʊŋ/",
+      "phonetic_simple": "DII KVIT-OUNG",
+      "translation": "le reçu / le ticket de caisse",
+      "example_sentence": "Brauchen Sie die Quittung?",
+      "example_phonetic": "/ˈbʁaʊ̯xn̩ ziː diː ˈkvɪtʊŋ/",
+      "example_translation": "Avez-vous besoin du reçu ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Kann ich mit Kreditkarte bezahlen oder akzeptieren Sie nur Bargeld?",
+      "phonetic_api": "/kan ɪç mɪt kʁeˈdiːtˌkaʁtə bəˈtsaːlən ˈoːdɐ aktsɛpˈtiːʁən ziː nuːɐ̯ ˈbaːɐ̯ˌɡɛlt/",
+      "phonetic_simple": "KAN ICH MIT KRE-DIIT-KAR-TE BE-TSA-LEN OO-DER AK-TSEP-TII-REN ZII NOOUR BAR-GELT",
+      "translation": "Puis-je payer par carte de crédit ou acceptez-vous uniquement les espèces ?",
+      "context": "Formule indispensable dans les petits commerces ou restaurants allemands."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Könnten Sie mir am Preis etwas entgegenkommen?",
+      "phonetic_api": "/ˈkœntn̩ ziː miːɐ̯ am pʁaɪ̯s ˈɛtvas ɛntˈɡeːɡn̩ˌkɔmən/",
+      "phonetic_simple": "KOEN-TEN ZII MIIR AM PRAIS ET-VAS ENT-GEE-GHEN-KOM-EN",
+      "translation": "Pourriez-vous faire un petit geste sur le prix ?",
+      "context": "Formulation polie pour entamer une négociation commerciale."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Der Artikel ist im Onlineshop viel billiger als im Geschäft.",
+      "phonetic_api": "/deːɐ̯ aʁˈtɪkl̩ ɪst ɪm ˈɔnlaɪ̯n_ʃɔp fiːl ˈbɪlɪɡɐ als ɪm ɡəˈʃɛft/",
+      "phonetic_simple": "DEER AR-TI-KEL IST IM ON-LINE-CHOP FIIL BIL-I-GHER ALS IM GHE-CHEFT",
+      "translation": "L'article est beaucoup moins cher dans la boutique en ligne que dans le magasin.",
+      "context": "Comparer des options d'achat avant de valider un choix."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ich versuche, meine fixen Kosten so niedrig wie möglich zu halten.",
+      "phonetic_api": "/ɪç fɛɐ̯ˈzuːxə ˈmaɪ̯nə ˈfɪksn̩ ˈkɔstn̩ zoː ˈniːdʁɪç viː ˈmøːklɪç tsuː ˈhaltn̩/",
+      "phonetic_simple": "ICH FER-ZOU-KE MAI-NE FIX-EN KOST-EN SOO NII-DRICH VII MOEG-LICH TSOU HAL-TEN",
+      "translation": "J'essaie de maintenir mes charges fixes aussi basses que possible.",
+      "context": "Discuter de la gestion de son budget ou de ses finances personnelles."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les structures de comparaison d'égalité et de supériorité/infériorité",
+      "explanation": "Au niveau B1, formuler des choix financiers ou comparer des produits nécessite d'utiliser correctement les marqueurs de comparaison syntaxiques.",
+      "rules": [
+        "Pour exprimer l'égalité (aussi... que), on utilise la structure 'so + Adjectif + wie' : 'so teuer wie' (aussi cher que).",
+        "Pour exprimer la supériorité ou l'infériorité (plus/moins... que), on ajoute le suffixe '-er' à l'adjectif (comparatif de supériorité) suivi de la conjonction 'als' : 'billiger als' (moins cher / plus bon marché que).",
+        "Les adjectifs d'une seule syllabe ayant les voyelles -a-, -o-, -u- prennent généralement un Umlaut au comparatif : 'alt' -> 'älter als', 'groß' -> 'größer als'."
+      ],
+      "examples": [
+        {
+          "structure": "Das neue Smartphone ist so teuer wie ein Laptop. (Égalité)",
+          "phonetic_api": "/das ˈnɔɪ̯ə ˈsmaːɐ̯tfoːn ɪst zoː ˈtɔɪ̯ɐ viː aɪ̯n ˈlɛptɔp/",
+          "meaning": "Le nouveau smartphone est aussi cher qu'un ordinateur portable."
+        },
+        {
+          "structure": "Dieses Auto ist praktischer als jenes Modell. (Supériorité)",
+          "phonetic_api": "/ˈdiːzəs ˈaʊ̯toː 1st ˈpʁaktɪʃɐ als ˈjeːnəs moˈdɛl/",
+          "meaning": "Cette voiture est plus pratique que ce modèle-là."
+        }
+      ]
+    },
+    {
+      "concept": "Les verbes à particule séparable liés aux transactions financières",
+      "explanation": "La gestion de l'argent fait appel à plusieurs verbes fondamentaux dont le préfixe se détache au présent pour se placer en fin de phrase.",
+      "rules": [
+        "Le verbe 'ausgeben' (dépenser) se sépare : 'ich gebe aus'.",
+        "Le verbe 'einzahlen' (déposer/verser de l'argent sur un compte) se sépare : 'ich zahle ein'.",
+        "Le verbe 'abheben' (retirer de l'argent au distributeur) se sépare également : 'ich hebe ab'."
+      ],
+      "examples": [
+        {
+          "structure": "Ich zahle heute fünfzig Euro auf mein Sparkonto ein.",
+          "phonetic_api": "/ɪç ˈtsaːlə ˈhɔɪ̯tə ˈfʏnftsɪç ˈɔɪ̯ʁoː aʊ̯f maɪ̯n ˈʃpaːɐ̯ˌkɔntoː ˈaɪ̯n/",
+          "meaning": "Je dépose cinquante euros aujourd'hui sur mon compte d'épargne."
+        },
+        {
+          "structure": "Er hebt am Geldautomaten Bargeld ab.",
+          "phonetic_api": "/eːɐ̯ heːpt am ˈɡɛltaʊ̯toˈmaːtn̩ ˈbaːɐ̯ˌɡɛlt ap/",
+          "meaning": "Il retire des espèces au distributeur automatique."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kunde",
+      "text": "Guten Tag! Ich interessiere mich für dieses gebrauchte Fahrrad. Es sieht gut aus, aber der Preis ist etwas höher als ich erwartet habe.",
+      "phonetic_api": "/ˌɡuːtn̩ ˈaːbn̩ ɪç ɪntəʁɛˈsiːʁə mɪç fyːɐ̯ ˈdiːzəs ɡəˈbʁaʊ̯xtə ˈfaːʁaːt ɛs ziːt ɡuːt aʊ̯s ˈaːbɐ deːɐ̯ pʁaɪ̯s ɪst ˈɛtvas ˈhøːɐ̯ als ɪç ɛʁˈvaʁtət ˈhaːbə/",
+      "phonetic_simple": "GOU-TEN TAK ICH IN-TE-RES-II-RE MICH FUUR DII-ZES GHE-BRAOUK-TE FA-RAT ES ZIIT GOUT AOFS A-BER DEER PRAIS IST ET-VAS HOE-ER ALS ICH ER-VAR-TET HA-BE",
+      "translation": "Bonjour ! Je m'intéresse à ce vélo d'occasion. Il a l'air bien, mais le prix est un peu plus élevé que ce que j'espérais."
+    },
+    {
+      "speaker": "Verkäufer",
+      "text": "Das Fahrrad ist in einem Top-Zustand. Ein neues Modell ist doppelt so teuer wie dieses hier. Es ist wirklich ein günstiges Angebot.",
+      "phonetic_api": "/das ˈfaːʁaːt ɪst ɪn ˈaɪ̯nəm tɔp-ˈtsuːʃtant aɪ̯n ˈnɔɪ̯ə s moˈdɛl ɪst ˈdɔplt zoː ˈtɔɪ̯ɐ viː ˈdiːzəs hiːɐ̯ ɛs ɪst ˈvɪʁklɪç aɪ̯n ˈɡʏnstɪɡəs ˈanɡəˌboːt/",
+      "phonetic_simple": "DAS FA-RAT IST IN AI-NEM TOP-TSOU-CHANT AIN NOI-ES MO-DEL IST DOP-ELT SOO TEU-ER VII DII-ZES HIIR ES IST VIRK-LICH AIN GOUNS-TI-GHES AN-GHE-BOOT",
+      "translation": "Le vélo est dans un état irréprochable. Un modèle neuf est deux fois plus cher que celui-ci. C'est vraiment une offre avantageuse."
+    },
+    {
+      "speaker": "Kunde",
+      "text": "Könnten Sie mir trotzdem einen Rabatt geben? Wenn Sie mir am Preis etwas entgegenkommen, nehme ich es sofort und bezahle bar.",
+      "phonetic_api": "/ˈkœntn̩ ziː miːɐ̯ ˈtʁɔtsdəm ˈaɪ̯nən ʁaˈbat ˈɡeːbn̩ vɛn ziː miːɐ̯ am pʁaɪ̯s ˈɛtvas ɛntˈɡeːɡn̩ˌkɔmən ˈneːmə ɪç ɛs zoˈfɔʁt ʊnt bəˈtsaːlə baːɐ̯/",
+      "phonetic_simple": "KOEN-TEN ZII MIIR TROTS-DEM AIN-EN RA-BAT GEE-BEN VEN ZII MIIR AM PRAIS ET-VAS ENT-GEE-GHEN-KOM-EN NEE-ME ICH ES ZO-FORT OUNT BE-TSA-LE BAR",
+      "translation": "Pourriez-vous tout de même m'accorder une petite réduction ? Si vous faites un geste sur le prix, je le prends tout de suite et je paie en espèces."
+    },
+    {
+      "speaker": "Verkäufer",
+      "text": "Na gut, weil Sie bar bezahlen, gebe ich es Ihnen für zweihundert Euro. Einverstanden?",
+      "phonetic_api": "/naː ɡuːt vaɪ̯l ziː baːɐ̯ bəˈtsaːlən ˈɡeːbə ɪç ɛs ˈiːnən fyːɐ̯ ˈtsvaɪ̯ˌhʊndɐt ˈɔɪ̯ʁoː ˈaɪ̯nfɛɐ̯ˌʃtandn̩/",
+      "phonetic_simple": "NA GOUT VAIL ZII BAR BE-TSA-LEN GEE-BE ICH ES II-NEN FUUR TSVAI-HOUN-DERT OI-ROO AIN-FER-CHTAN-DEN",
+      "translation": "D'accord, puisque vous payez en liquide, je vous le laisse pour deux cents euros. Entendu ?"
+    }
+  ],
+  "cultural_notes": [
+    "En Allemagne, le dicton populaire 'Nur Bares ist Wahres' (Seul l'argent liquide est la vraie vérité) illustre un attachement historique profond aux espèces. Même si le paiement par carte bancaire s'est fortement développé, de nombreux petits commerces, boulangeries ou cafés exigent encore un montant minimum ou refusent catégoriquement les cartes.",
+    "La culture financière allemande est traditionnellement prudente. L'endettement par crédit à la consommation est globalement évité au profit d'une forte culture de l'épargne ('Sparsamkeit'). Posséder un compte d'épargne ('Sparkonto') dès le plus jeune âge est une norme éducative courante.",
+    "Négocier les prix n'est pas d'usage dans les grands magasins ou supermarchés allemands, où les prix affichés sont fixes et définitifs. En revanche, le marchandage est tout à fait standard et attendu sur les marchés aux puces ('Flohmarkt') ou lors de transactions entre particuliers (achats de voitures, meubles d'occasion)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez l'adjectif correctement structuré au comparatif de supériorité pour traduire : 'Cette veste est plus chaude que mon manteau.'",
+      "options": [
+        "Diese Jacke ist mehr warm als mein Mantel.",
+        "Diese Jacke ist wärmer als mein Mantel.",
+        "Diese Jacke ist so warm wie mein Mantel."
+      ],
+      "correct_answer": "Diese Jacke ist wärmer als mein Mantel.",
+      "explanation": "L'adjectif d'une seule syllabe 'warm' prend un Umlaut et le suffixe '-er' pour former son comparatif régulier (wärmer), suivi de la conjonction de comparaison 'als'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ich gehe zur Bank und zahle fünfhundert Euro auf mein Konto [ ___ ]. (Verbe einzahlen)",
+      "correct_answer": "ein",
+      "hint": "Entrez la particule séparable du verbe signifiant 'déposer/verser de l'argent' qui est rejetée en toute fin de proposition."
+    }
+  ]
+}

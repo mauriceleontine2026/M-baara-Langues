@@ -1,0 +1,174 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Savoir saluer une ou plusieurs personnes selon les moments de la journée",
+    "Remercier et formuler les souhaits basiques de départ",
+    "Maîtriser les marqueurs de politesse fondamentaux"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La langue Mani utilise une distinction stricte entre les voyelles ouvertes et fermées (comme /ɛ/ et /e/). Le son 'ŋ' se prononce comme le 'ng' à la fin du mot anglais 'sing'. Les consonnes occlusives implosives ou complexes comme /gb/ se prononcent en un seul mouvement articulatoire.",
+    "common_pitfalls": "Veillez à ne pas séparer le 'g' et le 'b' dans le digramme 'gb'. N'omettez pas la prononciation du 'ŋ' en début de mot."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_1",
+      "term": "mboi",
+      "phonetic_api": "/mboi/",
+      "phonetic_simple": "MBOÏ",
+      "translation": "bonjour (salutation générale)",
+      "example_sentence": "Mboi, bɛŋ mami.",
+      "example_phonetic": "/mboi bɛŋ ma.mi/",
+      "example_translation": "Bonjour, mon ami."
+    },
+    {
+      "word_id": "v1_2",
+      "term": "cece",
+      "phonetic_api": "/tʃe.tʃe/",
+      "phonetic_simple": "TCHÉ-TCHÉ",
+      "translation": "merci",
+      "example_sentence": "Cece, n ya tunkɛ.",
+      "example_phonetic": "/tʃe.tʃe n̩ ja tun.kɛ/",
+      "example_translation": "Merci, je suis content."
+    },
+    {
+      "word_id": "v1_3",
+      "term": "kɔŋ",
+      "phonetic_api": "/kɔŋ/",
+      "phonetic_simple": "KONG",
+      "translation": "s'il te plaît / s'il vous plaît",
+      "example_sentence": "Kɔŋ, kperɛ mi lan.",
+      "example_phonetic": "/kɔŋ kpe.rɛ mi lan/",
+      "example_translation": "S'il te plaît, donne-moi de l'eau."
+    },
+    {
+      "word_id": "v1_4",
+      "term": "gbana",
+      "phonetic_api": "/ɡba.na/",
+      "phonetic_simple": "GBA-NA",
+      "translation": "au revoir / adieu",
+      "example_sentence": "Gbana, hɔnkɔ mi woni.",
+      "example_phonetic": "/ɡba.na hɔn.kɔ mi wo.ni/",
+      "example_translation": "Au revoir, à demain."
+    },
+    {
+      "word_id": "v1_5",
+      "term": "yoma",
+      "phonetic_api": "/jo.ma/",
+      "phonetic_simple": "YO-MA",
+      "translation": "bien / paix",
+      "example_sentence": "Yoma n bɛ lɔ.",
+      "example_phonetic": "/jo.ma n̩ bɛ lɔ/",
+      "example_translation": "La paix est ici."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_1",
+      "original": "Mboi wun bɛ si ?",
+      "phonetic_api": "/mboi wun bɛ si/",
+      "phonetic_simple": "MBOÏ WOUN BÈ SI",
+      "translation": "Comment s'est passée ta nuit ? (Bonjour le matin)",
+      "context": "Salutation exclusive du matin à un individu."
+    },
+    {
+      "phrase_id": "p1_2",
+      "original": "Mboi wun bɛ tiri ?",
+      "phonetic_api": "/mboi wun bɛ ti.ri/",
+      "phonetic_simple": "MBOÏ WOUN BÈ TI-RI",
+      "translation": "Comment se passe ta journée ? (Bonjour l'après-midi)",
+      "context": "Salutation utilisée du milieu de la journée jusqu'au soir."
+    },
+    {
+      "phrase_id": "p1_3",
+      "original": "Wun bɛ yoma ?",
+      "phonetic_api": "/wun bɛ jo.ma/",
+      "phonetic_simple": "WOUN BÈ YO-MA",
+      "translation": "Tu vas bien ? (Es-tu en paix ?)",
+      "context": "Prendre informellement des nouvelles de son interlocuteur."
+    },
+    {
+      "phrase_id": "p1_4",
+      "original": "N bɛ yoma cece.",
+      "phonetic_api": "/n̩ bɛ jo.ma tʃe.tʃe/",
+      "phonetic_simple": "N BÈ YO-MA TCHÉ-TCHÉ",
+      "translation": "Je vais bien, merci.",
+      "context": "Réponse standard et polie à une salutation de santé."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le pronom de la deuxième personne et le prédicatif d'état",
+      "explanation": "En langue Mani, l'état se construit fréquemment à l'aide de la particule affirmative 'bɛ' placée juste après le pronom personnel sujet pour lier le sujet à sa condition ou sa localisation.",
+      "rules": [
+        "Le pronom 'wun' ou 'u' marque la deuxième personne du singulier (tu / toi).",
+        "La particule 'bɛ' traduit l'état d'existence actuel ou la présence physique."
+      ],
+      "examples": [
+        {
+          "structure": "Wun bɛ yoma",
+          "phonetic_api": "/wun bɛ jo.ma/",
+          "meaning": "Tu es en paix / Tu vas bien."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "Mboi wun bɛ si, mami ?",
+      "phonetic_api": "/mboi wun bɛ si ma.mi/",
+      "phonetic_simple": "MBOÏ WOUN BÈ SI MA-MI",
+      "translation": "Bonjour, comment s'est passée ta nuit, ami ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "N bɛ yoma, cece ! Wun bɛ yoma ?",
+      "phonetic_api": "/n̩ bɛ jo.ma tʃe.tʃe wun bɛ jo.ma/",
+      "phonetic_simple": "N BÈ YO-MA TCHÉ-TCHÉ ! WOUN BÈ YO-MA ?",
+      "translation": "Je vais bien, merci ! Tu vas bien ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Yoma n bɛ lɔ. Gbana.",
+      "phonetic_api": "/jo.ma n̩ bɛ lɔ ɡba.na/",
+      "phonetic_simple": "YO-MA N BÈ LƆ. GBA-NA",
+      "translation": "La paix est ici. Au revoir."
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Gbana, hɔnkɔ mi woni.",
+      "phonetic_api": "/ɡba.na hɔn.kɔ mi wo.ni/",
+      "phonetic_simple": "GBA-NA, HON-KƆ MI WO-NI",
+      "translation": "Au revoir, à demain."
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Mani, la salutation est un rituel social obligatoire. Passer devant un aîné sans formuler le 'Mboi' suivi de l'état de la maisonnée est considéré comme une grave offense. On s'enquiert toujours du matin ('si') ou de la journée ('tiri') avant d'aborder tout sujet commercial ou personnel."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_1",
+      "type": "multiple_choice",
+      "question": "Quel terme utilise-t-on pour dire 'merci' en Mani ?",
+      "options": [
+        "mboi",
+        "cece",
+        "gbana"
+      ],
+      "correct_answer": "cece",
+      "explanation": "'Cece' est l'expression consacrée pour gratifier ou remercier quelqu'un."
+    },
+    {
+      "exercise_id": "ex1_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mboi wun bɛ [ ___ ] ? (Comment s'est passée ta nuit ?)",
+      "correct_answer": "si",
+      "hint": "Un mot court de deux lettres symbolisant le repos de la nuit."
+    }
+  ]
+}

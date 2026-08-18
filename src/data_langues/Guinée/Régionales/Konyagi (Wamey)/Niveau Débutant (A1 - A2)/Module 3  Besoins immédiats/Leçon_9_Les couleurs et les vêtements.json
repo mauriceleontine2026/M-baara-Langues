@@ -1,0 +1,189 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Nommer les vêtements principaux du quotidien en wamey",
+    "Identifier et utiliser les trois radicaux de couleur fondamentaux",
+    "Décrire la couleur d'un tissu ou d'un vêtement simple"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La fricative glottale sourde /χ/ (notée 'x') et l'occlusive injective alvéolaire voisée /ɗ/ (notée 'ɗ'). Le redoublement des voyelles ('ii', 'oo') marque une longueur vocalique significative.",
+    "common_pitfalls": "Le mot 'wëxyë' (blanc) contient un son /χ/ très reculé dans la gorge. Évitez de le prononcer comme un 'r' français ou un 'k' dur."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "kofon",
+      "phonetic_api": "/kɔfɔn/",
+      "phonetic_simple": "KO-FON",
+      "translation": "tissu / vêtement / habit",
+      "example_sentence": "Kofon kene i boka.",
+      "example_phonetic": "/kɔfɔn kɛnɛ i boka/",
+      "example_translation": "Ce vêtement est beau."
+    },
+    {
+      "word_id": "v2",
+      "term": "godo",
+      "phonetic_api": "/ɡɔdɔ/",
+      "phonetic_simple": "GO-DO",
+      "translation": "pagne",
+      "example_sentence": "O wetyal godo wentyor.",
+      "example_phonetic": "/o wɛtjal ɡɔdɔ wɛntjɔʁ/",
+      "example_translation": "Elle a acheté un pagne."
+    },
+    {
+      "word_id": "v3",
+      "term": "wëxyë",
+      "phonetic_api": "/wəχjə/",
+      "phonetic_simple": "WE-KHYE",
+      "translation": "blanc",
+      "example_sentence": "Nyi tyekwa kofon wëxyë.",
+      "example_phonetic": "/ɲi tjɛkwa kɔfɔn wəχjə/",
+      "example_translation": "Je cherche un vêtement blanc."
+    },
+    {
+      "word_id": "v4",
+      "term": "wëɓi",
+      "phonetic_api": "/wəɓi/",
+      "phonetic_simple": "WE-BHI",
+      "translation": "noir / sombre",
+      "example_sentence": "Cax kene i wëɓi.",
+      "example_phonetic": "/t͡ʃaχ kɛnɛ i wəɓi/",
+      "example_translation": "Cet arbre est noir."
+    },
+    {
+      "word_id": "v5",
+      "term": "wëjee",
+      "phonetic_api": "/wəʒeː/",
+      "phonetic_simple": "WE-JEE",
+      "translation": "rouge / clair",
+      "example_sentence": "Godo kene i wëjee.",
+      "example_phonetic": "/ɡɔdɔ kɛnɛ i wəʒeː/",
+      "example_translation": "Ce pagne est rouge."
+    },
+    {
+      "word_id": "v6",
+      "term": "wëla",
+      "phonetic_api": "/wəla/",
+      "phonetic_simple": "WE-LA",
+      "translation": "porter / s'habiller",
+      "example_sentence": "O wëla kofon ra boka.",
+      "example_phonetic": "/o wəla kɔfɔn ʁa boka/",
+      "example_translation": "Il porte un bel habit."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Kofon kene i wëjee.",
+      "phonetic_api": "/kɔfɔn kɛnɛ i wəʒeː/",
+      "phonetic_simple": "KO-FON KÉ-NÉ I WE-JEE",
+      "translation": "Ce vêtement est rouge.",
+      "context": "Décrire un habit au marché."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Nyi tyekwa godo wëxyë.",
+      "phonetic_api": "/ɲi tjɛkwa ɡɔdɔ wəχjə/",
+      "phonetic_simple": "NYI TYÉ-KOUA GO-DO WE-KHYE",
+      "translation": "Je veux un pagne blanc.",
+      "context": "Indiquer sa préférence de couleur lors d'un achat."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Wun wëla kofon wëɓi.",
+      "phonetic_api": "/wun wəla kɔfɔn wəɓi/",
+      "phonetic_simple": "WOUN WE-LA KO-FON WE-BHI",
+      "translation": "Tu portes un vêtement noir.",
+      "context": "Faire une remarque sur la tenue de quelqu'un."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le fonctionnement des adjectifs de couleur",
+      "explanation": "En wamey, le système des couleurs repose traditionnellement sur trois radicaux chromatiques majeurs (blanc, noir, rouge). Ces qualificatifs se placent directement après le nom qu'ils décrivent.",
+      "rules": [
+        "Structure : Nom + Adjectif de couleur.",
+        "Le préfixe 'wë-' caractérise fréquemment l'état ou la qualité de la couleur en position qualificative."
+      ],
+      "examples": [
+        {
+          "structure": "kofon wëxyë",
+          "phonetic_api": "/kɔfɔn wəχjə/",
+          "meaning": "un vêtement blanc"
+        },
+        {
+          "structure": "godo wëɓi",
+          "phonetic_api": "/ɡɔdɔ wəɓi/",
+          "meaning": "un pagne noir"
+        }
+      ]
+    },
+    {
+      "concept": "L'accord avec le démonstratif 'kene'",
+      "explanation": "Le démonstratif de proximité 'kene' s'aligne sur la classe nominale du mot 'kofon' (vêtement) pour spécifier l'objet dont on parle.",
+      "rules": [
+        "Placé directement après le substantif s'il n'y a pas d'adjectif, ou après l'ensemble du groupe nominal."
+      ],
+      "examples": [
+        {
+          "structure": "Kofon kene",
+          "phonetic_api": "/kɔfɔn kɛnɛ/",
+          "meaning": "Ce vêtement-ci"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Awa",
+      "text": "Samba, godo kene i boka gba ! I wëjee e wëxyë.",
+      "phonetic_api": "/samba ɡɔdɔ kɛnɛ i boka ɡba i wəʒeː ɛ wəχjə/",
+      "phonetic_simple": "SAM-BA, GO-DO KÉ-NÉ I BO-KA GBA ! I WE-JEE É WE-KHYE.",
+      "translation": "Samba, ce pagne est vraiment magnifique ! Il est rouge et blanc."
+    },
+    {
+      "speaker": "Samba",
+      "text": "Tyamou gba ! Nyi wetyal ra marse. Wun tyekwa kofon wëɓi ?",
+      "phonetic_api": "/tjamu ɡba ɲi wɛtjal ʁa maʁse wun tjɛkwa kɔfɔn wəɓi/",
+      "phonetic_simple": "TYA-MOU GBA ! NYI OUÉ-TYAL RA MAR-SÉ. WOUN TYÉ-KOUA KO-FON WE-BHI ?",
+      "translation": "Merci beaucoup ! Je l'ai acheté au marché. Tu cherches un vêtement noir ?"
+    },
+    {
+      "speaker": "Awa",
+      "text": "Gba, nyi tyekwa kofon wëxyë ra lekol.",
+      "phonetic_api": "/ɡba ɲi tjɛkwa kɔfɔn wəχjə ʁa lɛkɔl/",
+      "phonetic_simple": "GBA, NYI TYÉ-KOUA KO-FON WE-KHYE RA LÉ-KOL.",
+      "translation": "Non, je cherche un vêtement blanc pour l'école."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture Konyagi, le choix des couleurs revêt des significations symboliques profondes lors des cérémonies traditionnelles ou des rites de passage. Le blanc ('wëxyë') est fréquemment lié à la pureté, à la paix et aux événements heureux.",
+    "Les vêtements de tous les jours combinent des tissus industriels occidentaux et des pagnes traditionnels teints ou imprimés, très prisés par les femmes lors des jours de marché à Youkounkoun."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L9_EX1",
+      "type": "multiple_choice",
+      "question": "Quelle est la traduction de 'kofon wëɓi' ?",
+      "options": [
+        "Un vêtement blanc",
+        "Un vêtement rouge",
+        "Un vêtement noir"
+      ],
+      "correct_answer": "Un vêtement noir",
+      "explanation": "'Kofon' signifie vêtement et 'wëɓi' signifie noir."
+    },
+    {
+      "exercise_id": "A1_M3_L9_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Godo kene i [ ___ ] (rouge).",
+      "correct_answer": "wëjee",
+      "hint": "L'adjectif wamey pour désigner la couleur rouge ou une teinte claire éclatante."
+    }
+  ]
+}

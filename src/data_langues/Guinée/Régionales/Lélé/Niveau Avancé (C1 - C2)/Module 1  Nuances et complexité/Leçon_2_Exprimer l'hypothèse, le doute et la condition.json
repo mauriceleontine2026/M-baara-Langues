@@ -1,0 +1,212 @@
+{
+  "lesson_id": "C1_M1_L2_V2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Structurer des propositions conditionnelles réelles et irréelles avec la particule 'Ni'",
+    "Exprimer l'incertitude et le doute à l'aide de modificateurs modaux avancés",
+    "Nuancer un point de vue en introduisant des restrictions hypothétiques"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La particule conditionnelle 'Ni' [ni] possède une voyelle brève et haute qui s'associe souvent à une élision rapide avec le pronom qui la suit. Le morphème de doute 'Nasi' [na.si] requiert une articulation distincte des deux syllabes pour éviter de se confondre avec 'nasɔn' (consentement futur).",
+    "common_pitfalls": "Attention à ne pas allonger la voyelle de la particule conditionnelle 'Ni'. Une prononciation trop longue [niː] pourrait être confondue avec des morphèmes de liaison ou des négations dans les dialectes voisins."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Ni",
+      "phonetic_api": "/ni/",
+      "phonetic_simple": "NI",
+      "translation": "Si / Au cas où / Condition",
+      "example_sentence": "Ni wari bɛ i bolo, i na doni sã mĩ.",
+      "example_phonetic": "/ni wa.ri bɛ i bo.lo i na do.ni sã mĩ/",
+      "example_translation": "Si tu as de l'argent, tu achèteras un vêtement."
+    },
+    {
+      "word_id": "v2",
+      "term": "Nasi",
+      "phonetic_api": "/na.si/",
+      "phonetic_simple": "NA-SI",
+      "translation": "Peut-être / Il est possible / Doute",
+      "example_sentence": "A nasi na di ya bi suu kɔ.",
+      "example_phonetic": "/a na.si na di ja bi suː kɔ/",
+      "example_translation": "Peut-être qu'il arrivera ici ce soir."
+    },
+    {
+      "word_id": "v3",
+      "term": "Siga",
+      "phonetic_api": "/si.ɡa/",
+      "phonetic_simple": "SI-GA",
+      "translation": "Douter / Soupçonner / Hésiter",
+      "example_sentence": "N bɛ siga i kãng ma dɔni.",
+      "example_phonetic": "/(ɲ) bɛ si.ɡa i kãː ma dɔ.ni/",
+      "example_translation": "Je doute un peu de ton avis."
+    },
+    {
+      "word_id": "v4",
+      "term": "Hali ni",
+      "phonetic_api": "/ha.li ni/",
+      "phonetic_simple": "HA-LI NI",
+      "translation": "Même si / Quand bien même (Hypothèse concessive)",
+      "example_sentence": "Hali ni i tagara, n na sɔɔ ya kɔ.",
+      "example_phonetic": "/ha.li ni i ta.ɡa.ra ɲ na sɔː ja kɔ/",
+      "example_translation": "Même si tu pars, je resterai ici."
+    },
+    {
+      "word_id": "v5",
+      "term": "Yala",
+      "phonetic_api": "/ja.la/",
+      "phonetic_simple": "YA-LA",
+      "translation": "Est-ce que par hasard / Est-il possible (Incertitude interrogative)",
+      "example_sentence": "Yala i na n fisa-ya kɔ?",
+      "example_phonetic": "/ja.la i na ɲ fi.sa ja kɔ/",
+      "example_translation": "Serait-il possible que tu me conseilles ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ni n tunu a lɔnra, n tɛ tagara sooba kɔ.",
+      "phonetic_api": "/ni ɲ tu.nu a lɔn.ra ɲ tɛ ta.ɡa.ra soː.ba kɔ/",
+      "phonetic_simple": "NI N TOU-NOU A LƆN-RA, N TÈ TA-GA-RA SOO-BA KƆ.",
+      "translation": "Si j'avais su, je ne serais pas parti en ville.",
+      "context": "Exprimer un regret majeur basé sur une condition passée irréelle."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Nasi, karamɔɔ na tila-kɛ bi.",
+      "phonetic_api": "/na.si ka.ra.mɔː na ti.la kɛ bi/",
+      "phonetic_simple": "NA-SI, KA-RA-MƆƆ NA TI-LA-KÈ BI.",
+      "translation": "Il est possible que l'enseignant termine aujourd'hui.",
+      "context": "Émettre une hypothèse sur l'emploi du temps d'un tiers."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "N bɛ siga yala a na sɔn n gbe ma.",
+      "phonetic_api": "/(ɲ) bɛ si.ɡa ja.la a na sɔn ɲ ɡ͡be ma/",
+      "phonetic_simple": "N BÈ SI-GA YA-LA A NA SƆN N GBE MA.",
+      "translation": "Je doute qu'il accepte ma proposition.",
+      "context": "Exprimer une incertitude quant à l'issue d'une négociation."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ni i na wala fisa-kɛ, fo i ka tila sɔn.",
+      "phonetic_api": "/ni i na wa.la fi.sa kɛ fo i ka ti.la sɔn/",
+      "phonetic_simple": "NI I NA WA-LA FI-SA-KÈ, FO I KA TI-LA SƆN.",
+      "translation": "Si tu veux améliorer ton travail, il faut que tu acceptes les règles.",
+      "context": "Poser une condition sine qua non pour la réussite d'un projet."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Hali ni wari dɔ̃ra, n na n bung sã mĩ kɔ.",
+      "phonetic_api": "/ha.li ni wa.ri dɔ̃.ra ɲ na ɲ buŋ sã mĩ kɔ/",
+      "phonetic_simple": "HA-LI NI WA-RI DƆN-RA, N NA N BOUNG SÂN MÎN KƆ.",
+      "translation": "Même si l'argent venait à manquer, je construirais ma chambre.",
+      "context": "Affirmer sa détermination malgré les aléas financiers."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Yala i mɔn bɛ n londi kira ma kɔ?",
+      "phonetic_api": "/ja.la i mɔn bɛ ɲ lõ.di ki.ra ma kɔ/",
+      "phonetic_simple": "YA-LA I MƆN BÈ N LON-DI KI-RA MA KƆ?",
+      "translation": "Sais-tu par hasard comment m'indiquer le chemin ?",
+      "context": "Formuler une demande polie mâtinée d'incertitude rhétorique."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Ni tana si tɛ i bolo, kɛ di ya kunu.",
+      "phonetic_api": "/ni ta.na si tɛ i bo.lo kɛ di ja ku.nu/",
+      "phonetic_simple": "NI TA-NA SI TÈ I BO-LO, KÈ DI YA KOU-NOU.",
+      "translation": "Si tu n'as aucun problème, viens ici demain.",
+      "context": "Fixer une condition de disponibilité pour une rencontre."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Kpɛlɛ na fisa ni Ala sɔnra ma kɔ.",
+      "phonetic_api": "/k͡pɛ.lɛ na fi.sa ni a.la sɔn.ra ma kɔ/",
+      "phonetic_simple": "KPÈ-LÈ NA FI-SA NI A-LA SƆN-RA MA KƆ.",
+      "translation": "Tout ira bien si Dieu y consent.",
+      "context": "Formule de clôture hautement habituelle soumettant l'avenir à la volonté divine."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction de l'hypothèse réelle, irréelle et concessive",
+      "explanation": "En lélé avancé, la structure conditionnelle repose sur la particule initiale 'Ni' (Si). Pour une hypothèse réelle projetée dans l'avenir, la subordonnée adopte le présent ou l'accompli immédiat tandis que la principale utilise le futur en 'na'. Pour l'irréel du passé (les regrets), on associe 'Ni' à l'auxiliaire d'antériorité 'tunu' combiné au suffixe de passé '-ra' dans les deux propositions. La concession se renforce par l'adverbe 'Hali'.",
+      "rules": [
+        "Hypothèse future : Ni + [Sujet + Verbe présent/accompli], Sujet + na + Verbe.",
+        "Hypothèse irréelle du passé : Ni + Sujet + tunu + [Verbe + ra], Sujet + tunu + [Verbe + ra].",
+        "Le doute s'exprime de manière adverbiale par 'Nasi' placé immédiatement après le sujet."
+      ],
+      "examples": [
+        {
+          "structure": "Ni i dira, n na sɔn",
+          "phonetic_api": "/ni i di.ra ɲ na sɔn/",
+          "meaning": "Si tu viens, j'accepterai"
+        },
+        {
+          "structure": "A nasi na taga",
+          "phonetic_api": "/a na.si na ta.ɡa/",
+          "meaning": "Il se peut qu'il parte / Peut-être partira-t-il"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "Mɛnɛ kɔ, Amara. Yala i na taga wala kɔni Kisiduu si-di?",
+      "phonetic_api": "/mɛ.nɛ kɔ a.ma.ra ja.la i na ta.ɡa wa.la kɔ.ni ki.si.duː si di/",
+      "phonetic_simple": "MÈ-NÈ KƆ, A-MA-RA. YA-LA I NA TA-GA WA-LA KƆ-NI KI-SI-DOUU SI-DI?",
+      "translation": "Bonjour, Amara. Serait-il possible que tu voyages pour le travail à Kissidougou l'année prochaine ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "Mɛnɛ kɔ. N bɛ siga dɔni. Nasi n na taga, kɔni a bɛ sɔn wari wala ma. Ni n bolo wari bɛnra, n na taga.",
+      "phonetic_api": "/mɛ.nɛ kɔ ɲ bɛ si.ɡa dɔ.ni na.si ɲ na ta.ɡa kɔ.ni a bɛ sɔn wa.ri wa.la ma ni ɲ bo.lo wa.ri bɛn.ra ɲ na ta.ɡa/",
+      "phonetic_simple": "MÈ-NÈ KƆ. N BÈ SI-GA DƆ-NI. NA-SI N NA TA-GA, KƆ-NI A BÈ SƆN WA-RI WA-LA MA. NI N BO-LO WA-RI BÈN-RA, N NA TA-GA.",
+      "translation": "Bonjour. J'hésite un peu. Peut-être que j'irai, mais cela dépend de la gestion financière. Si mes moyens financiers suffisent, je partirai."
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Ni i tunu n londi ma sinu, n tunu na wari dɔɔni di i ma ka i ka taga kɔ.",
+      "phonetic_api": "/ni i tu.nu ɲ lõ.di ma si.nu ɲ tu.nu na wa.ri dɔː.ni di i ma ka i ka ta.ɡa kɔ/",
+      "phonetic_simple": "NI I TOU-NOU N LON-DI MA SI-NOU, N TOU-NOU NA WA-RI DƆƆ-NI DI I MA KA I KA TA-GA KƆ.",
+      "translation": "Si tu m'en avais informé hier, je t'aurais avancé un peu d'argent pour que tu puisses partir."
+    },
+    {
+      "speaker": "Amara",
+      "text": "I nɔwɔ kɔ, Sékou. Hali ni i tɛ n na wari bɛn bi, i kãng mu n na fisa di kɔ. Kpɛlɛ na tɛɛ di.",
+      "phonetic_api": "/i nɔ.wɔ kɔ se.ku ha.li ni i tɛ ɲ ɲa wa.ri bɛn bi i kãː mu ɲ ɲa fi.sa di kɔ k͡pɛ.lɛ na tɛː di/",
+      "phonetic_simple": "I NƆ-WƆ KƆ, SÉ-KOU. HA-LI NI I TÈ N NA WA-RI BÈN BI, I KÂN MOU N NA FI-SA DI KƆ. KPÈ-LÈ NA TÈÈ DI.",
+      "translation": "Merci infiniment, Sékou. Même si tu ne résous pas mes problèmes financiers aujourd'hui, ton avis m'est extrêmement précieux. Tout s'arrangera."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'art oratoire et les discussions coutumières Lélé, l'expression de l'hypothèse est maniée avec une extrême prudence pour ne pas paraître trop présomptueux. On emploie régulièrement les modificateurs de doute comme 'Nasi' ou 'Yala' afin de tempérer ses affirmations. Assurer une action sans y apposer de réserve conditionnelle est perçu comme un manque de sagesse ou de respect envers les imprévus de l'existence."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle particule initiale introduit obligatoirement une clause conditionnelle (Si...) en lélé ?",
+      "options": [
+        "Hali",
+        "Yala",
+        "Ni"
+      ],
+      "correct_answer": "Ni",
+      "explanation": "'Ni' est la conjonction de condition. 'Hali' signifie même et 'Yala' introduit une incertitude ou une question rhétorique."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour traduire l'adverbe de doute 'Peut-être' ou 'Il se peut que', on emploie le morphème : [ ___ ].",
+      "correct_answer": "Nasi",
+      "hint": "Ce mot commence par un N et exprime une probabilité non confirmée quant à un événement à venir."
+    }
+  ]
+}

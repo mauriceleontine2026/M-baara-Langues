@@ -1,0 +1,252 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Maîtriser les salutations temporelles selon le degré de hiérarchie",
+    "Utiliser les rituels de politesse de base et de remerciement en contexte formel et informel",
+    "Comprendre le phénomène de dévoisement des voyelles finales en japonais"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le système vocalique japonais repose sur 5 voyelles brèves /a, i, ɯ, e, o/. Le /ɯ/ (noté 'u' en rōmaji) est une voyelle haute postérieure non arrondie : les lèvres doivent rester étirées et non projetées en avant. La consonne /ɾ/ (noté 'r') est une API battue alvéolaire : la pointe de la langue frappe brièvement la zone des alvéoles derrière les dents supérieures, produisant un son intermédiaire entre le 'l' et le 'r' roulé unique.",
+    "common_pitfalls": "Le dévoisement (devoicing) des voyelles hautes /i/ et /ɯ/ survient lorsqu'elles sont placées entre deux consonnes sourdes ou en position finale absolue après une consonne sourde (/s/, /k/, /t/, /p/, /h/). Ainsi, 'gozaimasu' se prononce [ɡo.za.i.ma.sɯ̥] (le 'u' est chuchoté ou muet, tendant vers un son 's' prolongé). Évitez absolument de prononcer le 'r' japonais au fond de la gorge comme le 'r' grasseyé français [ʁ]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "おはようございます",
+      "phonetic_api": "/o.ha.joː ɡo.za.i.ma.sɯ̥/",
+      "phonetic_simple": "O-HA-YOO GO-ZA-I-MASS",
+      "translation": "Bonjour (le matin, poli/formel)",
+      "example_sentence": "部長、おはようございます。",
+      "example_phonetic": "/bɯ.t͡ɕoː o.ha.joː ɡo.za.i.ma.sɯ̥/",
+      "example_translation": "Bonjour Monsieur le directeur de département."
+    },
+    {
+      "word_id": "v2",
+      "term": "こんにちは",
+      "phonetic_api": "/koɴ.ni.t͡ɕi.wa/",
+      "phonetic_simple": "KON-NI-TCHI-WA",
+      "translation": "Bonjour (l'après-midi, standard/neutre)",
+      "example_sentence": "受付の皆さん、こんにちは。",
+      "example_phonetic": "/ɯ.ke.t͡sɯ.ke no mi.na.saɴ koɴ.ni.t͡ɕi.wa/",
+      "example_translation": "Bonjour à toutes les personnes de l'accueil."
+    },
+    {
+      "word_id": "v3",
+      "term": "こんばんは",
+      "phonetic_api": "/koɴ.baɴ.wa/",
+      "phonetic_simple": "KON-BAN-WA",
+      "translation": "Bonsoir (neutre/formel)",
+      "example_sentence": "こんばんは、今夜は寒いですね。",
+      "example_phonetic": "/koɴ.baɴ.wa koɴ.ja wa sa.mɯ.i de.sɯ.ne/",
+      "example_translation": "Bonsoir, il fait froid ce soir, n'est-ce pas ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "ありがとうございます",
+      "phonetic_api": "/a.ɾi.ɡa.toː ɡo.za.i.ma.sɯ̥/",
+      "phonetic_simple": "A-RI-GA-TOO GO-ZA-I-MASS",
+      "translation": "Merci beaucoup (présent, poli)",
+      "example_sentence": "親切にありがとうございます。",
+      "example_phonetic": "/ɕiɴ.se.t͡sɯ ni a.ɾi.ɡa.toː ɡo.za.i.ma.sɯ̥/",
+      "example_translation": "Je vous remercie grandement pour votre gentillesse."
+    },
+    {
+      "word_id": "v5",
+      "term": "ありがとうございました",
+      "phonetic_api": "/a.ɾi.ɡa.toː ɡo.za.i.ma.ɕi.ta/",
+      "phonetic_simple": "A-RI-GA-TOO GO-ZA-I-MA-CH-TA",
+      "translation": "Merci beaucoup (pour une action passée ou terminée)",
+      "example_sentence": "昨日はありがとうございました。",
+      "example_phonetic": "/ki.noː wa a.ɾi.ɡa.toː ɡo.za.i.ma.ɕi.ta/",
+      "example_translation": "Merci beaucoup pour la journée d'hier."
+    },
+    {
+      "word_id": "v6",
+      "term": "すみません",
+      "phonetic_api": "/sɯ.mi.ma.seɴ/",
+      "phonetic_simple": "SOU-MI-MA-SEN",
+      "translation": "Excusez-moi / Pardon / Merci (légère dette morale)",
+      "example_sentence": "すみません、資料を落としましたよ。",
+      "example_phonetic": "/sɯ.mi.ma.seɴ ɕi.ɾjoː o o.to.ɕi.ma.ɕi.ta jo/",
+      "example_translation": "Excusez-moi, vous avez fait tomber un document."
+    },
+    {
+      "word_id": "v7",
+      "term": "ごめんなさい",
+      "phonetic_api": "/ɡo.meɴ.na.sa.i/",
+      "phonetic_simple": "GO-MEN-NA-SA-I",
+      "translation": "Désolé / Pardon (plus intime ou personnel, moins formel que sumimasen)",
+      "example_sentence": "遅くなってごめんなさい。",
+      "example_phonetic": "/o.so.kɯ nḁt.te ɡo.meɴ.na.sa.i/",
+      "example_translation": "Désolé d'être en retard."
+    },
+    {
+      "word_id": "v8",
+      "term": "失礼します",
+      "phonetic_api": "/ɕi.t͡sɯ̥.ɾeː ɕi.ma.sɯ̥/",
+      "phonetic_simple": "CHI-TSOU-RÉE CHI-MASS",
+      "translation": "Excusez-moi (pour l'indiscrétion) / Au revoir (cadre formel)",
+      "example_sentence": "お先に失礼します。",
+      "example_phonetic": "/o.sa.ki ni ɕi.t͡sɯ̥.ɾeː ɕi.ma.sɯ̥/",
+      "example_translation": "Je vous prie de m'excuser, je pars avant vous (expression rituelle au travail)."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "はじめまして。",
+      "phonetic_api": "/ha.d͡ʑi.me.ma.ɕi.te/",
+      "phonetic_simple": "HA-DJI-MÉ-MA-CH-TÉ",
+      "translation": "Enchanté (littéralement : C'est la première fois)",
+      "context": "Début absolu d'une présentation face à un inconnu."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "どうぞよろしくおねがいします。",
+      "phonetic_api": "/doː.zo jo.ɾo.ɕi.kɯ o.ne.ɡa.i.ɕi.ma.sɯ̥/",
+      "phonetic_simple": "DOO-ZO YO-RO-CHI-KOU O-NÉ-GA-I-CHI-MASS",
+      "translation": "Ravi de vous rencontrer / S'il vous plaît, traitez-moi avec bienveillance",
+      "context": "Conclusion indispensable de la présentation personnelle, accompagnée d'un salut incliné."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "お元気ですか。",
+      "phonetic_api": "/o.ɡeɴ.ki de.sɯ.ka/",
+      "phonetic_simple": "O-GUÈN-KI DESS-KA",
+      "translation": "Comment allez-vous ? / Êtes-vous en forme ?",
+      "context": "S'adresse à une personne que l'on n'a pas vue depuis plusieurs jours/semaines. Rarement utilisé au quotidien pour des proches vus la veille."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "おかげさまで元気です。",
+      "phonetic_api": "/o.ka.ɡe.sa.ma de ɡeɴ.ki de.sɯ̥/",
+      "phonetic_simple": "O-KA-GUÉ-SA-MA DÉ GUÈN-KI DESS",
+      "translation": "Grâce à vous (à votre intérêt), je vais bien.",
+      "context": "Réponse polie et humble montrant de la gratitude envers la sollicitude de l'autre."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "いってらっしゃい。",
+      "phonetic_api": "/i̥t.te.ɾḁs.ɕa.i/",
+      "phonetic_simple": "IT-TÉ-RASH-SHA-I",
+      "translation": "Partez et revenez bien. / Bonne journée.",
+      "context": "Dit par la personne qui reste à la maison ou au bureau à celle qui sort temporairement."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "いってきます。",
+      "phonetic_api": "/i̥t.te.ki.ma.sɯ̥/",
+      "phonetic_simple": "IT-TÉ-KI-MASS",
+      "translation": "J'y vais et je reviens. / À tout à l'heure.",
+      "context": "Réponse obligatoire de la personne qui quitte le lieu à celle qui reste."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "ただいま。",
+      "phonetic_api": "/ta.da.i.ma/",
+      "phonetic_simple": "TA-DA-I-MA",
+      "translation": "Je suis de retour. / Me voilà.",
+      "context": "Formule prononcée en franchissant le pas de la porte de chez soi."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "おかえりなさい。",
+      "phonetic_api": "/o.ka.e.ɾi.na.sa.i/",
+      "phonetic_simple": "O-KA-É-RI-NA-SA-I",
+      "translation": "Bon retour à la maison.",
+      "context": "Réponse de bienvenue faite à la personne qui vient de rentrer."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La morphologie de la politesse : le suffixe poli 'gozaimasu' et le passé 'deshita'",
+      "explanation": "Le niveau de politesse (Teineigo) structure la langue japonaise. Les formules de politesse s'ajustent selon la temporalité et le statut social. L'expression 'gozaimasu' (provenant du verbe ultra-poli gozaru) s'ajoute au lexique pour marquer le respect rigoureux dans le temps présent. Pour un acte complété, la désinence passe au passé en '-shita'.",
+      "rules": [
+        "L'absence de 'gozaimasu' fait basculer la formule de politesse ('ohayō', 'arigatō') dans le registre informel ou familier (Kudaketa nihongo).",
+        "La flexion temporelle s'applique aux remerciements : utilisez '-deshita' si le service ou l'action pour laquelle vous remerciez l'interlocuteur est complètement achevé."
+      ],
+      "examples": [
+        {
+          "structure": "ありがとうございました (Arigatō gozaimashita)",
+          "phonetic_api": "/a.ɾi.ɡa.toː ɡo.za.i.ma.ɕi.ta/",
+          "meaning": "Merci pour ce que vous avez fait (action terminée)."
+        }
+      ]
+    },
+    {
+      "concept": "La particule finale interactive 'ka' (か) et l'interrogation",
+      "explanation": "Il n'y a pas de point d'interrogation traditionnel en japonais littéraire. L'interrogation est marquée par la particule de fin de phrase 'ka' (か), qui fonctionne comme un point d'interrogation oralisé. La structure de la phrase reste identique à la forme affirmative, seule la particule finale s'ajoute avec une intonation légèrement montante.",
+      "rules": [
+        "Placée immédiatement après le verbe ou le copule 'desu', la particule 'ka' transforme l'assertion en question.",
+        "À l'écrit formel, la phrase se termine par un point japonais '。' même s'il s'agit d'une question."
+      ],
+      "examples": [
+        {
+          "structure": "お元気ですか (O-genki desu ka)",
+          "phonetic_api": "/o.ɡeɴ.ki de.sɯ.ka/",
+          "meaning": "Allez-vous bien ? (Forme affirmative + ka)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "木村 (Kimura - Employée)",
+      "text": "佐藤部長、おはようございます。",
+      "phonetic_api": "/sa.toː bɯ.t͡ɕoː o.ha.joː ɡo.za.i.ma.sɯ̥/",
+      "phonetic_simple": "SA-TOO BOU-TCHOO, O-HA-YOO GO-ZA-I-MASS",
+      "translation": "Bonjour Directeur Satō."
+    },
+    {
+      "speaker": "佐藤 (Satō - Directeur)",
+      "text": "あ、木村さん、おはようございます。お元気ですか。",
+      "phonetic_api": "/a ki.mɯ.ɾa saɴ o.ha.joː ɡo.za.i.ma.sɯ̥ o.ɡeɴ.ki de.sɯ.ka/",
+      "phonetic_simple": "A, KI-MOU-RA SAN, O-HA-YOO GO-ZA-I-MASS. O-GUÈN-KI DESS-KA",
+      "translation": "Oh, Mademoiselle Kimura, bonjour. Comment allez-vous ?"
+    },
+    {
+      "speaker": "木村 (Kimura - Employée)",
+      "text": "おかげさまで元気です。あ、これ、本です。ありがとうございました。",
+      "phonetic_api": "/o.ka.ɡe.sa.ma de ɡeɴ.ki de.sɯ̥ a ko.ɾe hoɴ de.sɯ̥ a.ɾi.ɡa.toː ɡo.za.i.ma.ɕi.ta/",
+      "phonetic_simple": "O-KA-GUÉ-SA-MA DÉ GUÈN-KI DESS. A, KO-RÉ, HON DESS. A-RI-GA-TOO GO-ZA-I-MA-CH-TA",
+      "translation": "Je vais très bien grâce à vous. Ah, voici votre livre. Merci beaucoup (de me l'avoir prêté)."
+    },
+    {
+      "speaker": "佐藤 (Satō - Directeur)",
+      "text": "いいえ、どういたしまして。じゃあ、失礼します。",
+      "phonetic_api": "/iː.e doː i.ta.ɕi.ma.ɕi.te d͡ʑaː ɕi.t͡sɯ̥.ɾeː ɕi.ma.sɯ̥/",
+      "phonetic_simple": "II-É, DOO I-TA-CHI-MA-CHI-TÉ. DJAA, CHI-TSOU-RÉE CHI-MASS",
+      "translation": "Je vous en prie, de rien. Bien, je vous laisse (au revoir)."
+    }
+  ],
+  "cultural_notes": [
+    "Le rituel des salutations familiales occidentales (bise, accolades) est inexistant en espace public ou privé japonais. L'inclinaison (お辞儀 - ojigi) est codifiée : 15° pour l'interlocuteur de même rang ou client informel (Eshaku), 30° pour marquer le respect envers un supérieur (Keirei), et 45° pour les excuses profondes ou respect impérial (Saikeirei). Les mains restent le long du corps pour les hommes, jointes sur le devant pour les femmes.",
+    "L'expression 'Konnichiwa' s'écrit historiquement avec le hiragana は (ha) car elle signifie textuellement 'Concernant ce jour...'. Elle introduit à l'origine une suite qui s'est effacée avec le temps pour devenir un syntagme autonome figé."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Vous croisez le directeur de votre entreprise à 20h00 dans le hall. Quelle formule est linguistiquement et culturellement adéquate ?",
+      "options": [
+        "こんにちは (Konnichiwa)",
+        "こんばんは (Konbanwa)",
+        "さようなら (Sayōnara)"
+      ],
+      "correct_answer": "こんばんは (Konbanwa)",
+      "explanation": "Dès la fin de l'après-midi et durant la nuit, 'Konbanwa' est la formule de salutation standard attendue, quel que soit le niveau hiérarchique."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A: お元気ですか。 B: おかげさまで[ ___ ]です。",
+      "correct_answer": "元気",
+      "hint": "En forme / Bien (sans le préfixe honorifique o- dans la réponse)"
+    }
+  ]
+}

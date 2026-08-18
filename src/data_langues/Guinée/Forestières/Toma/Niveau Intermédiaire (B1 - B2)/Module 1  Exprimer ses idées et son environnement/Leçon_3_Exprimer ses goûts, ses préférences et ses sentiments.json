@@ -1,0 +1,133 @@
+{
+  "lesson_id": "B1_M1_L3",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 3,
+  "title": "Exprimer ses goûts, ses préférences et ses sentiments",
+  "learning_objectives": [
+    "Nuancer l'expression de l'appréciation (aimer, adorer, préférer) en toma",
+    "Exprimer un mécontentement ou un dégoût simple"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression des sentiments fait appel à des morphèmes de modalisation nasalisés (ex: 'wɛ̃') traduisant l'impact psychologique interne.",
+    "common_pitfalls": "Attention à ne pas omettre la particule d'affirmation affective 'ga' qui lie le sujet à son ressenti émotionnel."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v12_1",
+      "term": "lo ga",
+      "phonetic_api": "/lo ɡa/",
+      "phonetic_simple": "LO GA",
+      "translation": "aimer / désirer / vouloir",
+      "example_sentence": "Na i lo ga.",
+      "example_phonetic": "/na i lo ɡa/",
+      "example_translation": "Je t'aime / Je t'apprécie."
+    },
+    {
+      "word_id": "v12_2",
+      "term": "vaza-ba",
+      "phonetic_api": "/va.za.ba/",
+      "phonetic_simple": "VA-ZA-BA",
+      "translation": "préférer / être meilleur",
+      "example_sentence": "Ni lɔ vaza-ba.",
+      "example_phonetic": "/ni lɔ va.za.ba/",
+      "example_translation": "Ceci est préférable."
+    },
+    {
+      "word_id": "v12_3",
+      "term": "lii-wɛlɛ",
+      "phonetic_api": "/liː.wɛ.lɛ/",
+      "phonetic_simple": "LII-WE-LE",
+      "translation": "joie / bonheur (cœur ouvert)",
+      "example_sentence": "Na lii-wɛlɛ lɔ ɓɛñ.",
+      "example_phonetic": "/na liː.wɛ.lɛ lɔ ɓɛ̃/",
+      "example_translation": "Mon cœur est en joie."
+    },
+    {
+      "word_id": "v12_4",
+      "term": "kpao",
+      "phonetic_api": "/kpao/",
+      "phonetic_simple": "KPAO",
+      "translation": "non / pas du tout / détestation",
+      "example_sentence": "Kpao, na pɛ́ lo ga.",
+      "example_phonetic": "/kpao na pɛ́ lo ɡa/",
+      "example_translation": "Non, je n'aime pas du tout."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p12_1",
+      "original": "I lo ga ni ma?",
+      "phonetic_api": "/i lo ɡa ni ma/",
+      "phonetic_simple": "I LO GA NI MA",
+      "translation": "Aimes-tu cela ?",
+      "context": "Question fondamentale pour évaluer le goût de quelqu'un."
+    },
+    {
+      "phrase_id": "p12_2",
+      "original": "Na lii nyɔnɔ ga ni.",
+      "phonetic_api": "/na liː nɲɔ.nɔ ɡa ni/",
+      "phonetic_simple": "NA LII NYO-NO GA NI",
+      "translation": "Cela me fait de la peine (mon cœur est gâté).",
+      "context": "Expression d'un sentiment de tristesse ou de déception."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La négation des goûts avec 'pɛ́'",
+      "explanation": "Pour annuler un sentiment ou un goût positif, le toma insère le morphème négatif 'pɛ́' directement entre le pronom sujet et le verbe d'appréciation.",
+      "rules": [
+        "Le ton haut sur 'pɛ́' est impératif pour marquer la négation factuelle.",
+        "La structure 'lo ga' reste inchangée dans sa forme après l'élément négatif."
+      ],
+      "examples": [
+        {
+          "structure": "Na pɛ́ lo ga",
+          "phonetic_api": "/na pɛ́ lo ɡa/",
+          "meaning": "Je n'aime pas"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sia",
+      "text": "I lo ga mɔlɔ nɛɛ ma?",
+      "phonetic_api": "/i lo ɡa mɔ.lɔ nɛː ma/",
+      "phonetic_simple": "I LO GA MO-LO NEE MA",
+      "translation": "Aimes-tu ce riz à la sauce ?"
+    },
+    {
+      "speaker": "Peewee",
+      "text": "Owo, na lii-wɛlɛ lɔ ga mɛ-ni ni.",
+      "phonetic_api": "/o.wo na liː.wɛ.lɛ lɔ ɡa mɛ.ni ni/",
+      "phonetic_simple": "O-WO NA LII-WE-LE LO GA ME-NI NI",
+      "translation": "Oui, cette nourriture me met en joie."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la pudeur stylistique des Toma, les sentiments s'expriment toujours par métaphore liée à l'état physique du cœur ('lii'). Un bon sentiment ouvre le cœur, un mauvais le gâte ou le ferme."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex12_1",
+      "type": "multiple_choice",
+      "question": "Que signifie littéralement l'expression de la tristesse 'na lii nyɔnɔ' ?",
+      "options": [
+        "Mon cœur est gâté / triste",
+        "Mon cœur est grand",
+        "J'ai faim"
+      ],
+      "correct_answer": "Mon cœur est gâté / triste",
+      "explanation": "'lii' est le cœur et 'nyɔnɔ' désigne l'état altéré ou mauvais."
+    },
+    {
+      "exercise_id": "ex12_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Na [ ___ ] lo ga ni (Je n'aime pas cela).",
+      "correct_answer": "pɛ́",
+      "hint": "Le marqueur obligatoire de la négation."
+    }
+  ]
+}

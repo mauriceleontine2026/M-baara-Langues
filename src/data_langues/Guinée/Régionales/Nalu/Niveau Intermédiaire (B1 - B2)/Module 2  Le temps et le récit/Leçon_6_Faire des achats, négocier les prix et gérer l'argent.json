@@ -1,0 +1,170 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Négocier un prix sur le marché et exprimer l'accord ou le désaccord financier",
+    "Gérer les transactions courantes et parler de l'argent"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne nasale vélaire '-ŋ' dans 'tange' et 'woliŋ' doit vibrer au fond de la gorge. Le son 'c' se prononce 'tch' comme dans 'ceebor'. L'allongement de la voyelle 'aa' dans 'baang' est crucial pour ne pas écourter le mot.",
+    "common_pitfalls": "Attention à ne pas escamoter l'injective /ɓ/ ou la prononciation du groupe pré-nasalisé 'n'g-' dans 'n'gbe'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v15_1",
+      "term": "Woliŋ",
+      "phonetic_api": "/wo.liŋ/",
+      "phonetic_simple": "WO-LING",
+      "translation": "Argent / Monnaie",
+      "example_sentence": "M malang woliŋ.",
+      "example_phonetic": "/m ba.laŋ wo.liŋ/",
+      "example_translation": "J'ai besoin d'argent."
+    },
+    {
+      "word_id": "v15_2",
+      "term": "Tange",
+      "phonetic_api": "/taŋ.e/",
+      "phonetic_simple": "TANG-É",
+      "translation": "Prix / Coût",
+      "example_sentence": "Tange a rila?",
+      "example_phonetic": "/taŋ.e a ri.la/",
+      "example_translation": "Quel est le prix ?"
+    },
+    {
+      "word_id": "v15_3",
+      "term": "Baang",
+      "phonetic_api": "/baːŋ/",
+      "phonetic_simple": "BAANG",
+      "translation": "Cher / Coûteux / Grand",
+      "example_sentence": "Tange a gbe baang.",
+      "example_phonetic": "/taŋ.e a ŋgbe baːŋ/",
+      "example_translation": "Le prix est cher."
+    },
+    {
+      "word_id": "v15_4",
+      "term": "Ror",
+      "phonetic_api": "/ror/",
+      "phonetic_simple": "ROR",
+      "translation": "Donner / Vendre",
+      "example_sentence": "Ror mi ceeb.",
+      "example_phonetic": "/ror mi tʃeːb/",
+      "example_translation": "Vends-moi (donne-moi) du poisson."
+    },
+    {
+      "word_id": "v15_5",
+      "term": "Thath",
+      "phonetic_api": "/θaθ/",
+      "phonetic_simple": "THATH",
+      "translation": "Diminuer / Baisser",
+      "example_sentence": "Ina, thath tange.",
+      "example_phonetic": "/i.na θaθ taŋ.e/",
+      "example_translation": "S'il te plaît, diminue le prix."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p15_1",
+      "original": "A rila tange we?",
+      "phonetic_api": "/a ri.la taŋ.e we/",
+      "phonetic_simple": "A RI-LA TANG-É WÉ",
+      "translation": "Combien cela coûte-t-il ?",
+      "context": "La formule incontournable pour démarrer un achat sur un marché nalu."
+    },
+    {
+      "phrase_id": "p15_2",
+      "original": "Ina, thath tange, a gbe baang b'at.",
+      "phonetic_api": "/i.na θaθ taŋ.e a ŋgbe baːŋ ɓat/",
+      "phonetic_simple": "I-NA, THATH TANG-É, A NGBÉ BAANG BAT",
+      "translation": "S'il te plaît, baisse le prix, c'est très cher.",
+      "context": "Indispensable pour négocier et entamer les discussions commerciales."
+    },
+    {
+      "phrase_id": "p15_3",
+      "original": "M malang woliŋ beeduŋ n'gbe bileng.",
+      "phonetic_api": "/m ba.laŋ wo.liŋ beː.duŋ ŋgbe bi.leŋ/",
+      "phonetic_simple": "M BA-LANG WO-LING BÉÉ-DOUNG NGBÉ BI-LENG",
+      "translation": "Je donne sept (mesures / billets).",
+      "context": "Permet de formuler sa contre-proposition financière."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'impératif poli pour la négociation",
+      "explanation": "Pour demander une baisse de prix ou formuler une requête sur le marché, le nalu utilise l'impératif direct du verbe d'action encadré par des formules de politesse ('ina' au début ou à la fin).",
+      "rules": [
+        "Le verbe à l'impératif ne prend pas de pronom sujet.",
+        "Le mot 'ina' (s'il te plaît / s'il vous plaît) adoucit l'ordre pour en faire une requête polie."
+      ],
+      "examples": [
+        {
+          "structure": "Ina, ror mi",
+          "phonetic_api": "/i.na ror mi/",
+          "meaning": "S'il te plaît, donne-moi / vends-moi"
+        },
+        {
+          "structure": "Thath tange, ina",
+          "phonetic_api": "/θaθ taŋ.e i.na/",
+          "meaning": "Diminue le prix, s'il te plaît"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine",
+      "text": "Mboye, nee ! Ceeb we, tange a rila?",
+      "phonetic_api": "/mbo.je neː tʃeːb we taŋ.e a ri.la/",
+      "phonetic_simple": "MBO-YÉ, NEE ! TCHÉÉB WÉ, TANG-É A RI-LA?",
+      "translation": "Bonjour, ma mère ! Ce poisson, quel est le prix ?"
+    },
+    {
+      "speaker": "Fatou",
+      "text": "Mboye ce ! Tange a gbe woliŋ tila.",
+      "phonetic_api": "/mbo.je tʃe taŋ.e a ŋgbe wo.liŋ ti.la/",
+      "phonetic_simple": "MBO-YÉ TCHÉ ! TANG-É A NGBÉ WO-LING TI-LA.",
+      "translation": "Bonjour bien ! Le prix est de dix (mesures)."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "Ooh, a gbe baang b'at ! Ina, thath tange di beeduŋ n'gbe bitua.",
+      "phonetic_api": "/oː a ŋgbe baːŋ ɓat i.na θaθ taŋ.e di beː.duŋ ŋgbe bi.twa/",
+      "phonetic_simple": "OOH, A NGBÉ BAANG BAT ! I-NA, THATH TANG-É DI BÉÉ-DOUNG NGBÉ BI-TOUA.",
+      "translation": "Ooh, c'est très cher ! S'il te plaît, baisse le prix à huit (5 + 3)."
+    },
+    {
+      "speaker": "Fatou",
+      "text": "A ce, ror mi woliŋ. M ror mwo ceeb.",
+      "phonetic_api": "/a tʃe ror mi wo.liŋ m ror mwo tʃeːb/",
+      "phonetic_simple": "A TCHÉ, ROR MI WO-LING. M ROR MWO TCHÉÉB.",
+      "translation": "C'est d'accord, donne-moi l'argent. Je te vends le poisson."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la région littorale de Boké, le commerce et la négociation sont un art social majeur. Discuter le prix ('tange') d'un produit (qu'il s'agisse de poissons frais, de riz ou de sel) n'est pas perçu comme de l'avarice, mais comme une occasion d'échange courtois et de respect mutuel entre acheteurs et vendeurs."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex15_1",
+      "type": "multiple_choice",
+      "question": "Quel mot nalu désigne spécifiquement 'l'argent' ou 'la monnaie' ?",
+      "options": [
+        "Tange",
+        "Woliŋ",
+        "Baang"
+      ],
+      "correct_answer": "Woliŋ",
+      "explanation": "'Woliŋ' désigne la monnaie ou la richesse financière servant à l'échange."
+    },
+    {
+      "exercise_id": "ex15_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander de baisser le coût d'une marchandise, on dit : [ ___ ] tange, ina.",
+      "correct_answer": "Thath",
+      "hint": "C'est le verbe qui signifie diminuer ou réduire"
+    }
+  ]
+}

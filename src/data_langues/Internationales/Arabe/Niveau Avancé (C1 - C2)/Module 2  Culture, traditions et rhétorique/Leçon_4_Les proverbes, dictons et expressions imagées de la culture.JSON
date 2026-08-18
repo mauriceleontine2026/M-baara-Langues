@@ -1,0 +1,231 @@
+{
+  "lesson_id": "C1_M2_L4",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 4,
+  "title": "Proverbes, dictons et expressions imagées",
+  "learning_objectives": [
+    "Interpréter et intégrer les proverbes classiques incontournables dans un discours fluide",
+    "Décoder la symbolique culturelle des expressions imagées et métaphoriques courantes (Kināyah)",
+    "Analyser la structure syntaxique archaïque ou figée propre aux maximes de la sagesse arabe standard"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon explore les structures figées de la sagesse. Le son /ħ/ (ح) dans 'Al-Hikmah' (la sagesse) et 'Al-Habli' (la corde) doit être prononcé avec une friction pharyngale sourde très pure. L'accentuation rythmique de la Shaddah sur le /sˤ/ (ص) dans 'Al-Sadaqah' (la sincérité/l'amitié) ou 'Al-Sabr' (la patience) est essentielle pour respecter le tempo oratoire traditionnel.",
+    "common_pitfalls": "Attention à la prononciation des liaisons poétiques complexes. Dans le proverbe 'Inna al-jawāda qad yakbū', veillez à ne pas marquer de pause artificielle avant la particule 'Qad' [qad] et maintenez la tension uvulaire sur le /q/ sans l'adoucir."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "مَثَلٌ",
+      "phonetic_api": "/ma.θa.lun/",
+      "phonetic_simple": "MA-THA-LOUN",
+      "translation": "Un proverbe / Un adage / Un exemple (Pluriel : Amthāl)",
+      "example_sentence": "تَجْرِي الأَمْثَالُ مَجْرَى الْحَقَائِقِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Les proverbes ont force de vérités"
+    },
+    {
+      "word_id": "v2",
+      "term": "حِكْمَةٌ",
+      "phonetic_api": "/ħik.ma.tun/",
+      "phonetic_simple": "HIK-MA-TOUN",
+      "translation": "La sagesse / Une maxime / Un dicton philosophique",
+      "example_sentence": "الْحِكْمَةُ ضَالَّةُ الْمُؤْمِنِ",
+      "example_phonetic": "/.../",
+      "example_translation": "La sagesse est l'objet de quête permanent du croyant"
+    },
+    {
+      "word_id": "v3",
+      "term": "كِنَايَةٌ",
+      "phonetic_api": "/ki.naː.ja.tun/",
+      "phonetic_simple": "KI-NAA-YA-TOUN",
+      "translation": "Une métonymie / Une expression imagée / Une périphrase",
+      "example_sentence": "هَذِهِ الْعِبَارَةُ كِنَايَةٌ عَنِ الْكَرَمِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Cette expression est une métaphore de la générosité"
+    },
+    {
+      "word_id": "v4",
+      "term": "بَلاغِيٌّ",
+      "phonetic_api": "/ba.laː.ɣij.jun/",
+      "phonetic_simple": "BA-LAA-GHIY-YOUN",
+      "translation": "Rhétorique / Éloquent / Stylistique",
+      "example_sentence": "يَمْتَلِكُ أُسْلُوبًا بَلاغِيًّا بَارِعًا",
+      "example_phonetic": "/.../",
+      "example_translation": "Il possède un style rhétorique brillant"
+    },
+    {
+      "word_id": "v5",
+      "term": "بَلِيغٌ",
+      "phonetic_api": "/ba.liː.ɣun/",
+      "phonetic_simple": "BA-LII-GHOUN",
+      "translation": "Éloquent / Expressif / Profond",
+      "example_sentence": "أَلْقَى كَلَامًا بَلِيغًا فِي الْمَحْفَلِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Il a prononcé un discours éloquent lors de l'assemblée"
+    },
+    {
+      "word_id": "v6",
+      "term": "عِبْرَةٌ",
+      "phonetic_api": "/ʕib.ra.tun/",
+      "phonetic_simple": "IB-RA-TOUN",
+      "translation": "Une morale / Une leçon de vie / Un enseignement",
+      "example_sentence": "فِي التَّارِيخِ عِبْرَةٌ لِلأَجْيَالِ",
+      "example_phonetic": "/.../",
+      "example_translation": "L'Histoire contient un enseignement pour les générations"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "الصَّدِيقُ وَقْتَ الضِّيقِ",
+      "phonetic_api": "/asˤ.sˤa.diː.qu waq.tadˤ dˤiː.qi/",
+      "phonetic_simple": "AS-SADIIKOU WAK-TAD DIIK",
+      "translation": "C'est dans le besoin que l'on reconnaît ses véritables amis",
+      "context": "Proverbe très fréquent pour louer la fidélité et la solidarité amicale."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "لِكُلِّ جَوَادٍ كَبْوَةٌ",
+      "phonetic_api": "/li.kul.li dʒa.waː.din kab.wa.tun/",
+      "phonetic_simple": "LI-KOUL-LI DJA-WAA-DIN KAB-WA",
+      "translation": "Même le meilleur canasson peut broncher (Tout le monde fait des erreurs)",
+      "context": "Adage rhétorique pour relativiser un échec ponctuel chez un expert."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "الْوَقْتُ كَالسَّيْفِ إِنْ لَمْ تَقْطَعْهُ قَطَعَكَ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AL-WAK-TOU KAS-SAY-FI IN LAM TAK-TA'-HOU KA-TA-A-KA",
+      "translation": "Le temps est comme un sabre, si tu ne le tranches pas, il te tranche",
+      "context": "Maxime classique majeure sur l'importance cruciale de la gestion du temps."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "هُو مَعْرُوفٌ بِأَنَّهُ كَثِيرُ الرَّمَادِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HOU-WA MA'-ROOU-FOUN BI-AN-NA-HOU KA-THII-ROUR RA-MAAD",
+      "translation": "Il est connu pour avoir beaucoup de cendres (Expression : il est extrêmement généreux)",
+      "context": "Métaphore arabe traditionnelle (Kināyah) liée à l'hospitalité (celui qui cuisine beaucoup pour ses invités)."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "جَرَى الْقَلَمُ بِمَا فِيهِ الشِّفَاءُ وَالْعِلْمُ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "DJA-RAL KA-LA-MOU BI-MAA FII-HIC CHIF-AAA-OU WAL-ILM",
+      "translation": "Le sort en est jeté / Ce qui est écrit est écrit",
+      "context": "Formulation formelle de niveau littéraire pour clore une décision irréversible."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La syntaxe descriptive des structures figées : L'inversion rhétorique (Al-Taqdīm wa al-Ta'khīr)",
+      "explanation": "Les proverbes et sagesses arabes de niveau C1 utilisent massivement l'inversion de l'ordre habituel de la phrase pour créer un rythme mémorable ou insister sur un concept.",
+      "rules": [
+        "Le prédicat (Khabar) composé d'une préposition et d'un nom est placé en tête de phrase : 'Li-kulli jawādin' (لِكُلِّ جَوَادٍ - à tout coursier).",
+        "Le sujet indéfini (Mubtada' Mu'akhkhar) est rejeté à la fin : 'Kabwatun' (كَبْوَةٌ - un faux pas).",
+        "Le sujet conserve sa flexion au cas sujet nominatif (Damma), malgré son déplacement syntaxique."
+      ],
+      "examples": [
+        {
+          "structure": "فِي العَجَلَةِ النَّدَامَةُ",
+          "phonetic_api": "/fil ʕa.dʒa.la.tin na.daː.ma.tu/",
+          "meaning": "Dans la précipitation se trouve le regret (Inversion classique du décor)"
+        },
+        {
+          "structure": "لِلْحِيطَانِ آذَانٌ",
+          "phonetic_api": "/lil.ħiː.tˤaː.ni ʔaː.ðaː.nun/",
+          "meaning": "Les murs ont des oreilles (litt : Aux murs appartiennent des oreilles)"
+        }
+      ]
+    },
+    {
+      "concept": "La structure métaphorique d'attribution (Idāfat al-Bayān)",
+      "explanation": "Pour désigner une caractéristique symbolique ou imagée sans utiliser de comparatif explicite, la rhétorique littéraire utilise l'annexion d'explicitation.",
+      "rules": [
+        "Le premier terme de l'annexion qualifie l'état ou l'instrument figuré.",
+        "Le second terme est le concept réel ou la personne visée, se mettant systématiquement au cas indirect (Génitif/Kasra)."
+      ],
+      "examples": [
+        {
+          "structure": "سَيْفُ الْوَقْتِ",
+          "phonetic_api": "/saj.ful waq.ti/",
+          "meaning": "Le sabre du temps (Le temps assimilé directement à un sabre)"
+        },
+        {
+          "structure": "بَحْرُ الْعِلْمِ",
+          "phonetic_api": "/baħ.rul ʕil.mi/",
+          "meaning": "L'océan du savoir (Désigne une personne à l'érudition immense)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "الْأُسْتَاذ عَدْنَان (Prof. Adnan)",
+      "text": "مَرْحَبًا أُسْتَاذَة رِمَالُ. كَيْفَ تَرَيْنَ أَدَاءَ الْبَاحِثِ جِهَادٍ فِي تَقْدِيمِ عَرْضِهِ الْبَارِحَةَ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MAR-HA-BAN OUS-TAA-THA RI-MAAL. KAY-FA TA-RAY-NA A-DAAA-AL BAA-HI-THI DJI-HAAD...",
+      "translation": "Bonjour professeure Rimal. Comment évaluez-vous la prestation du chercheur Jihad lors de sa présentation d'hier ?"
+    },
+    {
+      "speaker": "الْأُسْتَاذَة رِمَال (Prof. Rimal)",
+      "text": "أَهْلًا أُسْتَاذُ. لَقَدْ وَقَعَ فِي بَعْضِ الأَخْطَاءِ التَّقْنِيَّةِ، وَلَكِنْ كَمَا نَقُولُ فِي أَمْثَالِنَا : لِكُلِّ جَوَادٍ كَبْوَةٌ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN OUS-TAAZ. LA-KAD WA-KA-A FII BA'-DIL AKH-TAA-IL TAK-NIY-YA...",
+      "translation": "Bonjour professeur. Il est tombé dans quelques erreurs techniques, mais comme nous disons dans nos proverbes : chaque coursier fait un faux pas."
+    },
+    {
+      "speaker": "الْأُسْتَاذ عَدْنَان (Prof. Adnan)",
+      "text": "هَذَا صَحِيحٌ بَلِيغٌ. كَلَامُهُ كَانَ كِنَايَةً عَنْ شَغَفِهِ الْعَمِيقِ، رَغْمَ أَنَّ ضَغْطَ الْوَقْتِ قَدْ أَثَّرَ عَلَيْهِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAA-THAA SA-HIIH BA-LIIGH. KA-LAA-MOU-HOU KAA-NA KI-NAA-YA-TAN AN CHA-GHA-FIH...",
+      "translation": "C'est tout à fait juste et éloquent. Son discours était une métaphore de sa passion profonde, bien que la pression du temps ait eu un impact sur lui."
+    },
+    {
+      "speaker": "الْأُسْتَاذَة رِمَال (Prof. Rimal)",
+      "text": "بِالتَّالِي، يَجِبُ أَنْ نَأْخُذَ بِيَدِهِ لِأَنَّ الصَّدِيقَ وَقْتَ الضِّيقِ، وَهُوَ بَحْرُ عِلْمٍ يَحْتَاجُ إِلَى صَقْلٍ فَقَطْ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "BIT-TAA-LII, YA-DJI-BOU AN NA'-KHOU-THA BI-YA-DI-HI LI-AN-NAS SA-DII-KA...",
+      "translation": "Par conséquent, nous devons le soutenir (lui prendre la main) car l'ami se révèle dans l'adversité, et c'est un océan de savoir qui a simplement besoin d'être poli."
+    }
+  ],
+  "cultural_notes": [
+    "La préservation textuelle des proverbes (Al-Amthal) : Dans la culture arabe, altérer ne serait-ce qu'une seule lettre ou voyelle d'un proverbe historique est perçu comme une faute de goût. Les adages traversent les siècles inchangés, agissant comme des codes culturels universels partagés de Rabat à Mascate.",
+    "La Kināyah ou l'art de l'allusion noble : Dire d'une personne qu'elle est 'Kathīr ar-ramād' (a beaucoup de cendres) pour dire qu'elle est généreuse, ou 'Naqī ath-thawb' (a le vêtement propre) pour signifier qu'elle est honnête et intègre, relève d'une tradition littéraire hautement valorisée qui privilégie la noblesse du sous-entendu à la brutalité du discours direct."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M2_L4_ex1",
+      "type": "multiple_choice",
+      "question": "Quel proverbe classique s'utilise pour excuser une défaillance exceptionnelle chez une personne brillante ?",
+      "options": [
+        "الصَّدِيقُ وَقْتَ الضِّيقِ (As-Sadīqu waqta d-ḍīqi)",
+        "لِكُلِّ جَوَادٍ كَبْوَةٌ (Li-kulli jawādin kabwatun)",
+        "الْوَقْتُ كَالسَّيْفِ (Al-Waqtu kas-sayfi)"
+      ],
+      "correct_answer": "لِكُلِّ جَوَادٍ كَبْوَةٌ (Li-kulli jawādin kabwatun)",
+      "explanation": "Cette formulation rappelle métaphoriquement que même l'expert ou l'esprit le plus affûté (le noble coursier) connaît des moments de faiblesse."
+    },
+    {
+      "exercise_id": "C1_M2_L4_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Complétez la maxime sur l'urgence temporelle : الْوَقْتُ كَالسَّيْفِ إِنْ لَمْ تَقْطَعْهُ [ ___ ]",
+      "correct_answer": "قَطَعَكَ",
+      "hint": "Il s'agit du verbe trancher conjugué au passé accompli avec le pronom objet te visant."
+    },
+    {
+      "exercise_id": "C1_M2_L4_ex3",
+      "type": "multiple_choice",
+      "question": "Dans l'expression stylistique, que désigne historiquement le fait d'être qualifié de 'كَثِيرُ الرَّمَادِ' (Kathīr ar-ramād) ?",
+      "options": [
+        "Une personne paresseuse qui ne nettoie pas sa maison",
+        "Une personne extrêmement généreuse et hospitalière",
+        "Un scientifique travaillant sur les minéraux"
+      ],
+      "correct_answer": "Une personne extrêmement généreuse et hospitalière",
+      "explanation": "Les cendres abondantes indiquent l'entretien continuel d'un grand feu de cuisson pour nourrir les invités et les voyageurs de passage."
+    }
+  ]
+}

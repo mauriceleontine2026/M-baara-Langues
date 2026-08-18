@@ -1,0 +1,114 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Niveau Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Les connecteurs logiques pour structurer un discours élaboré",
+  "learning_objectives": [
+    "Articuler un raisonnement complexe en utilisant les mots de liaison",
+    "Exprimer la cause, la conséquence et l'opposition de façon formelle",
+    "Soutenir un discours fluide lors d'une argumentation officielle"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le connecteur d'opposition 'kɛ' (mais) possède une voyelle ouverte brève et un ton haut d'insistance. Le connecteur de cause 'bana' s'articule doucement.",
+    "common_pitfalls": "Marquez bien l'attaque sur 'kɛ' pour faire ressortir l'articulation logique de l'opposition au sein du flux verbal."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v21_1",
+      "term": "kɛ",
+      "phonetic_api": "/kɛ/",
+      "phonetic_simple": "KÈ",
+      "translation": "mais / cependant (opposition)",
+      "example_sentence": "I phee ni, kɛ i nɔ gbalaŋ le.",
+      "example_phonetic": "/i pʰeː ni kɛ i nɔ g͡ba.laŋ le/",
+      "example_translation": "J'aime cela, mais je n'ai pas d'argent."
+    },
+    {
+      "word_id": "v21_2",
+      "term": "bana",
+      "phonetic_api": "/ba.na/",
+      "phonetic_simple": "BA-NA",
+      "translation": "parce que / car (cause)",
+      "example_sentence": "I lo le ciao bana i co wali ning.",
+      "example_phonetic": "/i lo le tʃja.o ba.na i tʃo wa.li niŋ/",
+      "example_translation": "Je ne suis pas allé au marché parce que je suis en plein travail."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p21_1",
+      "original": "O co wali co loolu kɛ o nɔ tele le.",
+      "phonetic_api": "/o tʃo wa.li tʃo loː.lu kɛ o nɔ te.le le/",
+      "phonetic_simple": "O TCHO WA-LI TCHO LOO-LOU KÈ O NO TÉ-LÉ LÉ",
+      "translation": "Il veut travailler, mais il n'a pas le temps.",
+      "context": "Nuancer une situation par l'opposition"
+    },
+    {
+      "phrase_id": "p21_2",
+      "original": "I mɛl mɛŋ bana kpalaa o nɔ mi fiaa.",
+      "phonetic_api": "/i mɛl mɛ̃ ba.na k͡pa.laː o nɔ mi fjaː/",
+      "phonetic_simple": "I MEL MENG BA-NA KPALAA O NO MI FIA-A",
+      "translation": "Je bois de l'eau parce que j'ai extrêmement soif.",
+      "context": "Justifier une action par sa cause formelle"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La coordination logique par connecteurs intercalés",
+      "explanation": "Les connecteurs comme 'kɛ' ou 'bana' servent de pivots syntaxiques. Ils se placent exactement entre la proposition principale et la proposition coordonnée ou subordonnée sans modifier l'ordre interne des mots de chacune d'elles.",
+      "rules": [
+        "Le connecteur relie deux blocs autonomes.",
+        "La négation éventuelle de la seconde phrase reste placée à sa propre fin."
+      ],
+      "examples": [
+        {
+          "structure": "Phrase A + Connecteur + Phrase B",
+          "phonetic_api": "/i lo kɛ i nɔŋ le/",
+          "meaning": "Je suis venu mais je n'ai pas acheté."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Faya",
+      "text": "Saa, o lo peeku lo gbɛɛ bana o nɔ wali fiaa ?",
+      "phonetic_api": "/saː o lo peː.ku lo g͡bɛː ba.na o nɔ wa.li fjaː/",
+      "phonetic_simple": "SAA, O LO PÉÉ-KOU LO GBÈÈ BA-NA O NO WA-LI FIA-A ?",
+      "translation": "Saa, es-tu allé étudier hier parce que tu avais beaucoup de travail ?"
+    },
+    {
+      "speaker": "Saa",
+      "text": "Mbo, i lo le bana i pa wa cando ning. Kɛ haala i co lo loolu.",
+      "phonetic_api": "/ᵐbo i lo le ba.na i pa wa tʃa.ⁿdo niŋ kɛ haː.la i tʃo lo loː.lu/",
+      "phonetic_simple": "MBO, I LO LÉ BA-NA I PA WA TCHAN-DO NING. KÈ HAA-LA I TCHO LO LOO-LOU.",
+      "translation": "Non, je n'y suis pas allé parce que je devais rester à la maison. Mais aujourd'hui, je vais y aller."
+    }
+  ],
+  "cultural_notes": [
+    "L'usage précis des articulations logiques est le propre des 'anciens' et des orateurs de confiance au sein de la chefferie kissi. Structurer rigoureusement son propos démontre une grande maturité d'esprit et confère un poids politique fort aux arguments avancés."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex21_1",
+      "type": "multiple_choice",
+      "question": "Quel connecteur utilise-t-on pour exprimer la cause (parce que) ?",
+      "options": [
+        "kɛ",
+        "bana",
+        "te"
+      ],
+      "correct_answer": "bana",
+      "explanation": "'bana' introduit la cause ou la raison explicative d'une action."
+    },
+    {
+      "exercise_id": "ex21_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "I phee ni, [ ___ ] i nɔ gbalaŋ le. (J'aime cela, mais je n'ai pas d'argent)",
+      "correct_answer": "kɛ",
+      "hint": "Le connecteur d'opposition principal"
+    }
+  ]
+}

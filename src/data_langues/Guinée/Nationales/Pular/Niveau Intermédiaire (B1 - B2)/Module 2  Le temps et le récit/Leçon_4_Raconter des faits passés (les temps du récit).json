@@ -1,0 +1,210 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Maîtriser l'utilisation du parfait accompli actif et passif pour raconter des actions révolues",
+    "Employer le suffixe du passé éloigné ou habituel (-no) pour planter le décor d'un récit",
+    "Structurer chronologiquement une narration simple grâce aux connecteurs temporels"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La marque du passé '-no' (/no/) modifie la hauteur mélodique du verbe. Faites attention à la tension articulatoire de l'implosive alvéolaire 'ɗ' (/ɗ/) combinée à la prénasalisation dans 'ndee' (/ndeː/).",
+    "common_pitfalls": "Ne pas confondre le pronom d'affirmation/état 'no' (placé devant le verbe) et le suffixe du passé '-no' (collé à la fin du radical verbal). La prononciation du suffixe est brève mais distincte."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v13_1",
+      "term": "hanki",
+      "phonetic_api": "/hanki/",
+      "phonetic_simple": "HAN-KI",
+      "translation": "hier",
+      "example_sentence": "Hanki, mi yahiino Conakry.",
+      "example_phonetic": "/hanki mi jahiːno konakri/",
+      "example_translation": "Hier, j'étais allé à Conakry."
+    },
+    {
+      "word_id": "v13_2",
+      "term": "ndee",
+      "phonetic_api": "/ndeː/",
+      "phonetic_simple": "NDEE",
+      "translation": "lorsque, quand (introduction du récit)",
+      "example_sentence": "Ndee mi ari, omo ɗon.",
+      "example_phonetic": "/ndeː mi ari omo ɗon/",
+      "example_translation": "Quand je suis arrivé, il était là."
+    },
+    {
+      "word_id": "v13_3",
+      "term": "rawane",
+      "phonetic_api": "/rawane/",
+      "phonetic_simple": "RA-WA-NE",
+      "translation": "l'année dernière",
+      "example_sentence": "Rawane, mi jangiino pular.",
+      "example_phonetic": "/rawane mi d͡ʒanɡiːno pular/",
+      "example_translation": "L'année dernière, j'étudiais le pular."
+    },
+    {
+      "word_id": "v13_4",
+      "term": "refti",
+      "phonetic_api": "/refti/",
+      "phonetic_simple": "REF-TI",
+      "translation": "ensuite, puis",
+      "example_sentence": "Mi ñaami, refti mi yahi.",
+      "example_phonetic": "/mi ɲaːmi refti mi jahi/",
+      "example_translation": "J'ai mangé, ensuite je suis parti."
+    },
+    {
+      "word_id": "v13_5",
+      "term": "gila",
+      "phonetic_api": "/ɡila/",
+      "phonetic_simple": "GI-LA",
+      "translation": "depuis, dès que",
+      "example_sentence": "Mido ɗoo gila subaka.",
+      "example_phonetic": "/mido ɗoː ɡila subaka/",
+      "example_translation": "Je suis ici depuis le matin."
+    },
+    {
+      "word_id": "v13_6",
+      "term": "yaahugol",
+      "phonetic_api": "/jaːhuɡol/",
+      "phonetic_simple": "YAA-HOU-GOL",
+      "translation": "aller, être allé (action révolue)",
+      "example_sentence": "Mi yahiino ka luumo.",
+      "example_phonetic": "/mi jahiːno ka luːmo/",
+      "example_translation": "J'étais allé au marché."
+    },
+    {
+      "word_id": "v13_7",
+      "term": "arugol",
+      "phonetic_api": "/aruɡol/",
+      "phonetic_simple": "A-ROU-GOL",
+      "translation": "arriver, venir",
+      "example_sentence": "Ɓe ariino ɗoo hanki.",
+      "example_phonetic": "/ɓe ariːno ɗoː hanki/",
+      "example_translation": "Ils étaient venus ici hier."
+    },
+    {
+      "word_id": "v13_8",
+      "term": "hewtoore",
+      "phonetic_api": "/hewtoːre/",
+      "phonetic_simple": "HEW-TOO-RE",
+      "translation": "atteindre, arriver à destination",
+      "example_sentence": "Mi hewtii Labe ka kikiide.",
+      "example_phonetic": "/mi hewtiː labe ka kikiːde/",
+      "example_translation": "J'ai atteint Labé dans la soirée."
+    },
+    {
+      "word_id": "v13_9",
+      "term": "golle",
+      "phonetic_api": "/ɡolːe/",
+      "phonetic_simple": "GOL-LE",
+      "translation": "les actions passées, les travaux",
+      "example_sentence": "Golle 1en no puɗɗino.",
+      "example_phonetic": "/ɡolːe ɗen no puɗːino/",
+      "example_translation": "Les travaux avaient commencé."
+    },
+    {
+      "word_id": "v13_10",
+      "term": "lannugol",
+      "phonetic_api": "/lanːuɡol/",
+      "phonetic_simple": "LAN-NOU-GOL",
+      "translation": "finir, terminer (une action)",
+      "example_sentence": "Mi lannii golle am.",
+      "example_phonetic": "/mi lanːiː ɡolːe am/",
+      "example_translation": "J'ai terminé mon travail."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p13_1",
+      "original": "Hanki, mi yahiino ka luumo refti mi ari suudu.",
+      "phonetic_api": "/hanki mi jahiːno ka luːmo refti mi ari suudu/",
+      "phonetic_simple": "HAN-KI, MI YA-HII-NO KA LUU-MO REF-TI MI A-RI SUU-DOU",
+      "translation": "Hier, j'étais allé au marché puis je suis venu à la maison.",
+      "context": "Récit d'activités quotidiennes simples réalisées la veille."
+    },
+    {
+      "phrase_id": "p13_2",
+      "original": "Rawane, mi hoɗiino Labe duuɓi ɗiɗo.",
+      "phonetic_api": "/rawane mi hoɗiːno labe duːɓi ɗiɗo/",
+      "phonetic_simple": "RA-WA-NE, MI HO-DHII-NO LA-BE DUU-BHI DHI-DHO",
+      "translation": "L'année dernière, j'avais habité à Labé pendant deux ans.",
+      "context": "Évoquer une situation de vie passée et terminée."
+    },
+    {
+      "phrase_id": "p13_3",
+      "original": "Ndee ɓe ari, mi lanniino ñaamugol ngon.",
+      "phonetic_api": "/ndeː ɓe ari mi lanːiːno ɲaːmuɡol nɡon/",
+      "phonetic_simple": "NDEE BHE A-RI, MI LAN-NII-NO NYAAM-OU-GOL NGON",
+      "translation": "Quand ils sont arrivés, j'avais déjà fini de manger.",
+      "context": "Marquer l'antériorité d'une action par rapport à une autre au passé."
+    },
+    {
+      "phrase_id": "p13_4",
+      "original": "Gila mi hewtii ɗoo, mi laraali baaba am.",
+      "phonetic_api": "/ɡila mi hewtiː ɗoː mi laraːli baːba am/",
+      "phonetic_simple": "GI-LA MI HEW-TII DHOO, MI LA-RAA-LI BAA-BA AM",
+      "translation": "Depuis que je suis arrivé ici, je n'ai pas vu my père.",
+      "context": "Exprimer un constat temporel depuis un événement passé."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le suffixe du passé éloigné ou de l'antériorité : '-no'",
+      "explanation": "Pour exprimer le plus-que-parfait français ou indiquer qu'un état ou une action s'est déroulé dans un passé lointain et n'a plus cours, le pular ajoute le morphème '-no' (ou '-ino') directement sur la base conjuguée.",
+      "rules": [
+        "S'insère immédiatement après la marque de l'accompli actif.",
+        "Verbe actif accompli 'yahi' (il est allé) devient 'yahiino' (il était allé / il alla jadis)."
+      ],
+      "examples": [
+        {
+          "structure": "Radical + -ii-no",
+          "phonetic_api": "/jahiːno/",
+          "meaning": "Était allé"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ousmane",
+      "text": "Alpha, honto jahiɗaa hanki ka kikiide ?",
+      "phonetic_api": "/alɸa honto d͡ʒahiɗaː hanki ka kikiːde/",
+      "phonetic_simple": "AL-PHA, HON-TO DJA-HI-DHAA HAN-KI KA KI-KII-DE ?",
+      "translation": "Alpha, où es-tu allé hier soir ?"
+    },
+    {
+      "speaker": "Alpha",
+      "text": "Hanki, mi yahiino ka luumo. Ndee mi hewtii ɗoya, mi laraali gilaalo am. Refti mi hooti suudu.",
+      "phonetic_api": "/hanki mi jahiːno ka luːmo ndeː mi hewtiː ɗoja mi laraːli ɡilaːlo am refti mi hoːti suudu/",
+      "phonetic_simple": "HAN-KI, MI YA-HII-NO KA LUU-MO. NDEE MI HEW-TII DHO-YA, MI LA-RAA-LI GI-LAA-LO AM. REF-TI MI HOO-TI SUU-DOU.",
+      "translation": "Hier, j'étais allé au marché. Quand je suis arrivé là-bas, je n'ai pas vu mon ami. Ensuite, je suis rentré à la maison."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'art oratoire peul, la narration historique ('tariha') s'ancre toujours par des repères temporels précis liés aux cycles agricoles ou aux événements climatiques mémorables. Le respect de la chronologie traduit la sagesse du conteur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex13_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le suffixe '-no' dans 'mi hoɗiino' ?",
+      "options": [
+        "Une action future imminente",
+        "Une action passée entièrement révolue ou éloignée",
+        "Une interdiction stricte"
+      ],
+      "correct_answer": "Une action passée entièrement révolue ou éloignée",
+      "explanation": "Le suffixe '-no' marque le prétérit ou le plus-que-parfait, indiquant une action passée ancrée dans le temps."
+    },
+    {
+      "exercise_id": "ex13_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mi ñaami, [ ___ ] mi yahi ka terrain. (J'ai mangé, ensuite je suis allé au terrain).",
+      "correct_answer": "refti",
+      "hint": "Connecteur logique servant à marquer la succession des actions."
+    }
+  ]
+}

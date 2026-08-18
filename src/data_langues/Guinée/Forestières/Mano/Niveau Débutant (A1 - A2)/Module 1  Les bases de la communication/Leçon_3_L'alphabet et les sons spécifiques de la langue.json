@@ -1,0 +1,147 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Maîtriser le système alphabétique et les caractères spéciaux du Mano (orthographe officielle de Guinée)",
+    "Prononcer correctement les consonnes co-articulées et implosives (ɓ, gb, kp)",
+    "Distinguer les voyelles orales, ouvertes et nasales"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'alphabet mano utilise les caractères latins standard enrichis de lettres spécifiques pour noter les distinctions phonétiques locales. Les lettres cruciales sont : /ɓ/ (implosive bilabiale), /ɛ/ (è ouvert), /ɔ/ (o ouvert). Les digrammes /gb/ et /kp/ représentent des sons uniques produits en fermant simultanément les lèvres et l'arrière de la gorge. Le tilde (~) ou le 'n' final selon les conventions indique une nasalisation stricte.",
+    "common_pitfalls": "Prononcer /gb/ comme un 'g' suivi d'un 'b' distinct est l'erreur la plus commune des francophones. Le son doit être articulé de manière synchrone. Ne négligez pas l'ouverture de /ɔ/ sous peine de changer radicalement la signification du mot."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v3_1",
+      "term": "ɓɛ",
+      "phonetic_api": "/ɓɛ˧/",
+      "phonetic_simple": "BÈ (implosif)",
+      "translation": "Ici",
+      "example_sentence": "Bhà lɔ ɓɛ.",
+      "example_phonetic": "/ɓa˧ lɔ˧ ɓɛ˧/",
+      "example_translation": "Viens ici."
+    },
+    {
+      "word_id": "v3_2",
+      "term": "gbi",
+      "phonetic_api": "/ɡbi˧/",
+      "phonetic_simple": "GBEE",
+      "translation": "Tout / Totalité",
+      "example_sentence": "Mɛ gbi",
+      "example_phonetic": "/mɛ˧ ɡbi˧/",
+      "example_translation": "Tout le monde / Toutes les personnes."
+    },
+    {
+      "word_id": "v3_3",
+      "term": "kpan",
+      "phonetic_api": "/kpã˧/",
+      "phonetic_simple": "KPANG",
+      "translation": "Assiette / Calebasse",
+      "example_sentence": "Mī ya kpan mɛ.",
+      "example_phonetic": "/miː˧ ja˧ kpã˧ mɛ˧/",
+      "example_translation": "Mets de l'eau dans l'assiette."
+    },
+    {
+      "word_id": "v3_4",
+      "term": "wɔ̃",
+      "phonetic_api": "/wɔ̃˧/",
+      "phonetic_simple": "WONG",
+      "translation": "Chose / Affaire / Parole",
+      "example_sentence": "Wɔ̃ kɛ̃ɛ ɓe.",
+      "example_phonetic": "/wɔ̃˧ kɛ̃ː˧ ɓe˧/",
+      "example_translation": "C'est une bonne chose."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p3_1",
+      "original": "Í wɔ̃ loni ?",
+      "phonetic_api": "/i˦ wɔ̃˧ lo˧ni˧/",
+      "phonetic_simple": "EE WONG LONEE ?",
+      "translation": "As-tu compris ? (Littéralement : As-tu entendu la parole ?)",
+      "context": "Vérifier la compréhension lors d'un échange."
+    },
+    {
+      "phrase_id": "p3_2",
+      "original": "Ń wɔ̃ loni.",
+      "phonetic_api": "/ń wɔ̃˧ lo˧ni˧/",
+      "phonetic_simple": "N WONG LONEE",
+      "translation": "J'ai compris.",
+      "context": "Valider la bonne réception d'une information."
+    },
+    {
+      "phrase_id": "p3_3",
+      "original": "A kɛ gbe-gbe !",
+      "phonetic_api": "/a˧ kɛ˧ ɡbe˧ɡbe˧/",
+      "phonetic_simple": "A KÈ GBÉ-GBÉ !",
+      "translation": "Faites-le correctement / proprement !",
+      "context": "Donner une consigne claire d'exécution."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le rôle phonologique des tons et de l'harmonie des voyelles",
+      "explanation": "Bien que le Mano soit écrit avec un alphabet adapté, la structure des mots repose sur des unités monosyllabiques ou dissyllabiques où la hauteur de la voix (le ton) détermine le sens lexicale ou la fonction grammaticale.",
+      "rules": [
+        "Un mot écrit de la même façon peut avoir trois sens différents selon qu'il est prononcé avec une voix aiguë (ton haut), neutre (ton moyen) ou grave (ton bas).",
+        "Les nasalisations finales modifient systématiquement le radical nominal ou verbal."
+      ],
+      "examples": [
+        {
+          "structure": "gbi (ton moyen)",
+          "phonetic_api": "/ɡbi˧/",
+          "meaning": "Tout / Entier"
+        },
+        {
+          "structure": "ɓɛ (ton moyen)",
+          "phonetic_api": "/ɓɛ˧/",
+          "meaning": "Ici"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Enseignant",
+      "text": "Í wɔ̃ loni gbi ?",
+      "phonetic_api": "/i˦ wɔ̃˧ lo˧ni˧ ɡbi˧/",
+      "phonetic_simple": "EE WONG LONEE GBEE ?",
+      "translation": "As-tu tout compris ?"
+    },
+    {
+      "speaker": "Élève",
+      "text": "Ao, ń wɔ̃ loni gbe-gbe.",
+      "phonetic_api": "/ao̯˧ ń wɔ̃˧ lo˧ni˧ ɡbe˧ɡbe˧/",
+      "phonetic_simple": "A-O, N WONG LONEE GBÉ-GBÉ.",
+      "translation": "Oui, j'ai parfaitement compris."
+    }
+  ],
+  "cultural_notes": [
+    "En Guinée, l'alphabet des langues nationales (dont le Mano) a été formalisé pour s'aligner sur les exigences phonétiques de l'Institut de Linguistique Appliquée. Maîtriser ces sons permet non seulement de bien parler mais témoigne d'un profond respect envers l'héritage linguistique des communautés de la Guinée Forestière."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex3_1",
+      "type": "multiple_choice",
+      "question": "Comment appelle-t-on le son produit en articulant simultanément les lèvres et le voile du palais comme dans 'gbi' ?",
+      "options": [
+        "Une voyelle nasale",
+        "Une consonne co-articulée",
+        "Une implosive"
+      ],
+      "correct_answer": "Une consonne co-articulée",
+      "explanation": "Les sons 'gb' et 'kp' combinent deux points d'articulation en un seul et unique son consonantique."
+    },
+    {
+      "exercise_id": "ex3_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le terme qui signifie 'tout' ou 'totalité' s'écrit : [ ___ ].",
+      "correct_answer": "gbi",
+      "hint": "Il utilise la consonne double occlusive labio-vélaire."
+    }
+  ]
+}

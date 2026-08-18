@@ -1,0 +1,243 @@
+{
+  "lesson_id": "B1_M3_L8",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 8,
+  "title": "Parler de son travail, de ses études et de sa routine",
+  "learning_objectives": [
+    "Décrire le déroulement d'une journée de travail ou d'études type",
+    "Employer les verbes réfléchis russes pour exprimer les actions quotidiennes",
+    "Utiliser le cas Locatif et Accusatif pour situer les horaires et la fréquence",
+    "Articuler les priorités professionnelles et les tâches de routine"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La combinaison '-ТСЯ' ou '-ТЬСЯ' dans les verbes réfléchis (ex: 'Просыпаться') s'assimile complètement à l'oral en un son [t͡sə] sec et tendu, sans aucune distinction du 'т'. Le 'Щ' de 'Встречаться' doit être doux et prolongé : [vstrʲɪˈtɕat(t͡s)ə].",
+    "common_pitfalls": "Attention à l'accent tonique dans 'Заниматься' : il se place fermement sur le 'а' de la troisième syllabe [zənʲɪˈmat͡sʲə]. Veillez à bien prononcer le groupe initial de consonnes 'ВСТР-' dans 'Встреча' sans ajouter de voyelle de soutien."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Просыпаться",
+      "phonetic_api": "/prəsɨˈpat͡sʲə/",
+      "phonetic_simple": "pra-sy-PAT-tsya",
+      "translation": "Se réveiller (Imperfectif)",
+      "example_sentence": "Я обычно просыпаюсь в семь часов утра.",
+      "example_phonetic": "/ja ɐˈbɨtɕnə prəsɨˈpajʊsʲ f sʲenʲ tɕɪˈsof ʊˈtra/",
+      "example_translation": "D'ordinaire, je me réveille à sept heures du matin."
+    },
+    {
+      "word_id": "v2",
+      "term": "Ежедневно",
+      "phonetic_api": "/jɪʐɨˈdʲnʲevnə/",
+      "phonetic_simple": "yi-jy-DNIÉV-na",
+      "translation": "Quotidiennement / Chaque jour",
+      "example_sentence": "Мы ежедневно проверяем рабочую почту.",
+      "example_phonetic": "/mɨ jɪʐɨˈdʲnʲevnə prəvʲɪˈrʲajɪm rɐˈbotɕʊjʊ ˈpotɕtʊ/",
+      "example_translation": "Nous vérifions la boîte mail professionnelle quotidiennement."
+    },
+    {
+      "word_id": "v3",
+      "term": "Коллега",
+      "phonetic_api": "/kɐˈlʲeɡə/",
+      "phonetic_simple": "ka-LIE-ga",
+      "translation": "Collègue (Masculin ou Féminin)",
+      "example_sentence": "Мой коллега помогает мне с новым проектом.",
+      "example_phonetic": "/moj kɐˈlʲeɡə pəmɐˈɡaɪ̯ɪt mnʲe s ˈnovɨm prɐˈɛktəm/",
+      "example_translation": "Mon collègue m'aide avec le nouveau projet."
+    },
+    {
+      "word_id": "v4",
+      "term": "Встреча",
+      "phonetic_api": "/ˈvstrʲetɕə/",
+      "phonetic_simple": "VSTRÉ-tcha",
+      "translation": "Réunion / Rendez-vous / Rencontre",
+      "example_sentence": "У нас назначена важная встреча с клиентом.",
+      "example_phonetic": "/ʊ nas nɐˈznatɕɪnə ˈvaʐnəjə ˈvstrʲetɕə s klʲɪˈjɛntəm/",
+      "example_translation": "Nous avons une réunion importante de planifiée avec un client."
+    },
+    {
+      "word_id": "v5",
+      "term": "Заниматься",
+      "phonetic_api": "/zənʲɪˈmat͡sʲə/",
+      "phonetic_simple": "za-ni-MAT-tsya",
+      "translation": "Étudier / S'occuper de / Pratiquer (Imperfectif)",
+      "example_sentence": "Студенты часто занимаются в библиотеке.",
+      "example_phonetic": "/stʊˈdʲɛntɨ ˈtɕastə zənʲɪˈmajʊt͡sʲə v bʲɪblʲɪɐˈtʲekʲɪ/",
+      "example_translation": "Les étudiants étudient souvent à la bibliothèque."
+    },
+    {
+      "word_id": "v6",
+      "term": "Перерыв",
+      "phonetic_api": "/pʲɪrʲɪˈrɨf/",
+      "phonetic_simple": "pi-ri-RYF",
+      "translation": "Pause / Interruption",
+      "example_sentence": "В час дня у нас начинается обеденный перерыв.",
+      "example_phonetic": "/f tɕas dʲnʲa ʊ nas nɐtɕɪˈnaɪ̯ɪt͡sʲə ɐˈbʲedʲɪnːɨj pʲɪrʲɪˈrɨf/",
+      "example_translation": "À treize heures commence notre pause déjeuner."
+    },
+    {
+      "word_id": "v7",
+      "term": "Уставать",
+      "phonetic_api": "/ʊstɐˈvatʲ/",
+      "phonetic_simple": "ous-ta-VAT'",
+      "translation": "Être fatigué / S'épuiser (Imperfectif)",
+      "example_sentence": "Я сильно устаю в конце рабочей недели.",
+      "example_phonetic": "/ja ˈsʲilʲnə ʊstɐˈjʊ f kɐnˈt͡sɛ rɐˈbotɕɪj nʲɪˈdʲelʲɪ/",
+      "example_translation": "Je fatigue beaucoup à la fin de la semaine de travail."
+    },
+    {
+      "word_id": "v8",
+      "term": "Обязанность",
+      "phonetic_api": "/ɐˈbʲazənːəsʲtʲ/",
+      "phonetic_simple": "a-BIA-zan-nast'",
+      "translation": "Tâche / Obligation / Responsabilité",
+      "example_sentence": "Это не входит в мои текущие обязанности.",
+      "example_phonetic": "/ˈɛtə nʲɪ fxoˈdʲit v mɐˈi tʲɪˈkuɕːɪjə ɐˈbʲazənːəsʲtʲɪ/",
+      "example_translation": "Cela ne fait pas partie de mes responsabilités actuelles."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Как проходит твой обычный день?",
+      "phonetic_api": "/kak prɐˈxodʲɪt tvoj ɐˈbɨtɕnɨj dʲenʲ/",
+      "phonetic_simple": "kak pra-HO-dit tvoï a-BYTCH-nyj dien' ?",
+      "translation": "Comment se déroule ta journée habituelle ?",
+      "context": "Question idéale pour lancer un échange amical sur le quotidien."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Я работаю на полторы ставки",
+      "phonetic_api": "/ja rɐˈbotajʊ nə pəɫtɐˈrɨ ˈstafkʲɪ/",
+      "phonetic_simple": "ya ra-BO-ta-iou na pal-ta-RY STAF-ki",
+      "translation": "Je travaille à temps plein et demi (équivalent 1,5 temps)",
+      "context": "Indication fréquente sur l'intensité de sa charge professionnelle."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Учёба отнимает много времени",
+      "phonetic_api": "/ʊˈtɕobə ɐtnʲɪˈmaɪ̯ɪt ˈmnoɡə ˈvrʲemʲɪnʲɪ/",
+      "phonetic_simple": "ou-TCHO-ba at-ni-MA-iet MNO-ga VRIE-mi-ni",
+      "translation": "Les études me prennent beaucoup de temps",
+      "context": "Utilisé par les étudiants pour expliquer un emploi du temps chargé."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Мне пора возвращаться к работе",
+      "phonetic_api": "/mnʲe pɐˈra vəzvrɐˈɕːat(t͡s)ə k rɐˈbotʲɪ/",
+      "phonetic_simple": "mnié pa-RA vaz-vra-CHTCHAT-tsya k ra-BO-ti",
+      "translation": "Il est temps que je retourne travailler",
+      "context": "Formule polie pour mettre fin à une pause ou une discussion au bureau."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La conjugaison et l'emploi des verbes réfléchis (Suffixe -СЯ / -СЬ)",
+      "explanation": "Les verbes décrivant la routine quotidienne possèdent souvent la particule réfléchie -ся/-сь, qui s'ajoute après les terminaisons régulières de conjugaison.",
+      "rules": [
+        "On utilise '-СЯ' lorsque la terminaison du verbe se termine par une consonne ou un signe mou (я просыпаю-сь, ты просыпаешь-ся, он просыпает-ся).",
+        "On utilise '-СЬ' lorsque la terminaison du verbe se termine par une voyelle (мы просыпаем-ся, вы просыпаете-сь, они просыпают-ся)."
+      ],
+      "examples": [
+        {
+          "structure": "Она одевается, умывается и готовится к работе.",
+          "phonetic_api": "/ɐˈna ɐdʲɪˈvaɪ̯ɪt͡sʲə ʊmɨˈvaɪ̯ɪt͡sʲə ˈi ɡɐˈtovʲɪt͡sʲə k rɐˈbotʲɪ/",
+          "meaning": "Elle s'habille, se lave le visage et se prépare pour le travail."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression du temps : Les jours et les heures (Accusatif vs Locatif)",
+      "explanation": "Structurer sa routine exige de maîtriser les prépositions de temps combinées aux bons cas grammaticaux.",
+      "rules": [
+        "Pour indiquer un jour de la semaine précis : Préposition В + Accusatif (В понедельник = le lundi, В субботу = le samedi).",
+        "Pour indiquer une heure exacte : Préposition В + Accusatif du chiffre (В восемь часов = à 8 heures).",
+        "Pour exprimer la régularité au pluriel : Préposition ПО + Datif pluriel (По вечерам = les soirs, По выходным = les week-ends)."
+      ],
+      "examples": [
+        {
+          "structure": "В среду в девять часов у нас будет совещание.",
+          "phonetic_api": "/f ˈsrʲedu v ˈdʲevʲɪtʲ tɕɪˈsof ʊ nas ˈbudʲɪt sǝvʲɪˈɕːanʲɪjə/",
+          "meaning": "Mercredi à neuf heures, nous aurons une réunion."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Сергей",
+      "text": "Антон, привет! Как дела? Ты всё ещё работаешь в банке или продолжаешь учиться?",
+      "phonetic_api": "/ɐnˈton prʲɪˈvʲet kak dʲɪˈɫa tɨ fsʲۆ jɪˈɕːo rɐˈbotəɪ̯ɪʂ f ˈbankʲɪ ˈilʲɪ prədɐɫˈʐaɪ̯ɪʂ ʊˈtɕitʲt͡sʲə/",
+      "phonetic_simple": "an-TON, pri-VIET ! Kak di-LA ? Ty vssio ie-TCHIO ra-BO-ta-iech v BAN-ki i-li pra-dal-JAI-iech ou-TCHIT-tsya ?",
+      "translation": "Salut Anton ! Comment ça va ? Tu travailles toujours à la banque ou tu continues tes études ?"
+    },
+    {
+      "speaker": "Антон",
+      "text": "Привет! Я совмещаю работу и учёбу, поэтому моя рутина сейчас очень напряжённая. В будни я просыпаюсь в шесть утра.",
+      "phonetic_api": "/prʲɪˈvʲet ja sɐvmʲɪˈɕːajʊ rɐˈbotʊ ˈi ʊˈtɕobʊ pɐˈɛtəmʊ mɐˈja rʊˈtʲinə sʲɪjˈtɕas ˈotɕнь nəprʲɪˈʐonːəjə f ˈbudnʲɪ ja prəsɨˈpajʊsʲ f ʂesʲtʲ ʊˈtra/",
+      "phonetic_simple": "pri-VIET ! Ya sav-mi-TCHAI-iou ra-BO-tou i ou-TCHO-bou, pa-E-ta-mou ma-IA rou-TI-na sieï-TCHAS O-tchine na-pri-JON-na-ya. V BOUD-ni ya pra-sy-PA-ious' f chest' ou-TRA.",
+      "translation": "Salut ! Je cumule le travail et les études, c'est pourquoi ma routine est très intense en ce moment. En semaine, je me réveille à six heures du matin."
+    },
+    {
+      "speaker": "Сергей",
+      "text": "Ого, это рано! И какой у тебя график дальше?",
+      "phonetic_api": "/ɐˈɡo ˈɛtə ˈranə ˈi kɐˈkoj ʊ tʲɪˈbʲa ˈɡrafʲɪk ˈdalʲʂə/",
+      "phonetic_simple": "A-GO, E-ta RA-na ! I ka-KOÏ ou ti-BIA GRA-fik DAL'-chye ?",
+      "translation": "Ah oui, c'est tôt ! Et quel est ton emploi du temps par la suite ?"
+    },
+    {
+      "speaker": "Антон",
+      "text": "Сначала я еду в университет, занимаюсь там до часа дня. Потом у меня обеденный перерыв, и в два часа я уже должен быть в офисе. До вечера я работаю с клиентами.",
+      "phonetic_api": "/snɐˈtɕaɫə ja ˈjedʊ v ʊnʲɪvʲɪrsʲɪˈtʲet zənʲɪˈmajʊsʲ tam də ˈtɕasə dʲnʲa pɐˈtom ʊ mʲɪˈnʲa ɐˈbʲedʲɪnːɨj pʲɪrʲɪˈrɨf ˈi v dva tɕɪˈsa ja ʊˈʐɛ ˈdoɫʐɨn bɨtʲ v ˈofʲɪsɪ də ˈvʲetɕɪrə ja rɐˈbotajʊ s klʲɪˈjɛntəmʲɪ/",
+      "phonetic_simple": "Sna-TCHA-la ya IE-dou v ou-ni-vir-ssi-TIET, za-ni-MA-ious' tam da TCHA-ssa dnia. Pa-TOM ou mi-NIA a-BIE-din-nyj pi-ri-RYF, i v dva tcha-SSA ya ou-JÉ DOL-jen byt' v O-fi-ssi. Da VIE-tchi-ra ya ra-BO-ta-iou s klʲi-IEN-ta-mi.",
+      "translation": "D'abord, je vais à l'université, j'y étudie jusqu'à treize heures. Ensuite, j'ai ma pause déjeuner, et à quatorze heures, je dois déjà être au bureau. Jusqu'au soir, je travaille avec les clients."
+    }
+  ],
+  "cultural_notes": [
+    "Le rythme 'En semaine' (Будни) vs 'Le week-end' (Выходные) : Les travailleurs russes dans les grandes métropoles font face à de longs trajets quotidiens (en raison de la taille des villes et des embouteillages). Cumuler des études et un emploi à mi-temps (совмещение) est une pratique courante et respectée chez les étudiants en master.",
+    "La pause déjeuner (Обед) : Traditionnellement au bureau, la pause déjeuner dure une heure complète, généralement entre 13h et 14h. La plupart des restaurants et cafés des quartiers d'affaires proposent des formules midi économiques et rapides appelées 'Бизнес-ланч' (Business Lunch)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M3_L8_ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la bonne forme du verbe réfléchi pour la deuxième personne du pluriel (Вы) : 'В какое время вы обычно [ ___ ]?' (Se préparer / se rassembler)",
+      "options": [
+        "собираешься",
+        "собираетесь",
+        "собираются",
+        "собираемся"
+      ],
+      "correct_answer": "собираетесь",
+      "explanation": "Avec le pronom 'Вы', la terminaison régulière est '-ете' suivie du suffixe réfléchi '-сь' après la voyelle, d'où 'собираетесь'."
+    },
+    {
+      "exercise_id": "B1_M3_L8_ex2",
+      "type": "multiple_choice",
+      "question": "Quelle est la structure correcte pour dire 'Le samedi, nous commençons plus tard.' ?",
+      "options": [
+        "В субботу мы начинаем позже.",
+        "На субботу мы начинаем позже.",
+        "В субботе мы начинаем позже.",
+        "По субботу мы начинаем позже."
+      ],
+      "correct_answer": "В субботу мы начинаем позже.",
+      "explanation": "Pour indiquer un jour de la semaine précis, on associe la préposition 'В' avec l'Accusatif singulier (le nom féminin Суббота devient Субботу)."
+    },
+    {
+      "exercise_id": "B1_M3_L8_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Каждый вторник в десять [ ___ ] утра у нас проходит командное совещание. (Heures)",
+      "correct_answer": "часов",
+      "hint": "Mettez le mot 'час' au Génitif pluriel après le nombre 10."
+    },
+    {
+      "exercise_id": "B1_M3_L8_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "По [ ___ ] я обычно отдыхаю и не думаю о работе. (Les week-ends / Régularité)",
+      "correct_answer": "выходным",
+      "hint": "Utilisez la préposition 'по' suivie du cas Datif pluriel du mot 'выходные'."
+    }
+  ]
+}

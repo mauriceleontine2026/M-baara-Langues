@@ -1,0 +1,200 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Interactions pratiques et déplacements",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché/restaurant)",
+  "learning_objectives": [
+    "Identifier les principaux aliments, ingrédients et boissons du quotidien",
+    "Passer une commande polie au restaurant ou demander des produits au marché",
+    "Exprimer des besoins élémentaires liés aux repas (l'addition, l'eau, le pain)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'c' dans 'ración' ou 'cerveza' se prononce avec le zézaement espagnol (/ɾaˈθjon/, /θeɾˈβeθa/). La jota de 'jamón' s'articule fortement au fond du palais (/xaˈmon/). Dans le mot 'pollo' (poulet), le double 'l' produit le son palatal fluide /ˈpoʝo/.",
+    "common_pitfalls": "Attention à ne pas nasaliser le mot 'pan' (pain) à la française. La voyelle 'a' doit rester ouverte et le 'n' doit résonner nettement (/ˈpan/). Ne prononcez pas le 'u' de 'agua' comme le 'u' français : il forme une diphtongue rapide /w/ (AGOUA)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Comida",
+      "phonetic_api": "/koˈmiða/",
+      "phonetic_simple": "KO-MEE-DA",
+      "translation": "Nourriture / Repas",
+      "example_sentence": "La comida española es deliciosa.",
+      "example_phonetic": "/la koˈmiða espaˈɲola ˈes ðeliˈθjosa/",
+      "example_translation": "La nourriture espagnole est délicieuse."
+    },
+    {
+      "word_id": "v2",
+      "term": "Bebida",
+      "phonetic_api": "/βeˈβiða/",
+      "phonetic_simple": "BÉ-BEE-DA",
+      "translation": "Boisson",
+      "example_sentence": "¿Qué bebida prefieres?",
+      "example_phonetic": "/ˈke βeˈβiða pɾeˈfjeɾes/",
+      "example_translation": "Quelle boisson préfères-tu ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "Agua",
+      "phonetic_api": "/ˈaɣwa/",
+      "phonetic_simple": "A-GWAI",
+      "translation": "Eau",
+      "example_sentence": "Por favor, una botella de agua.",
+      "example_phonetic": "/poɾ faˈβoɾ ˈuna βoˈteʝa ðe ˈaɣwa/",
+      "example_translation": "S'il vous plaît, une bouteille d'eau."
+    },
+    {
+      "word_id": "v4",
+      "term": "Jamón",
+      "phonetic_api": "/xaˈmon/",
+      "phonetic_simple": "KHA-MON",
+      "translation": "Jambon",
+      "example_sentence": "Quiero un bocadillo de jamón.",
+      "example_phonetic": "/ˈkjeɾo un βokaˈðiʝo ðe xaˈmon/",
+      "example_translation": "Je veux un sandwich au jambon."
+    },
+    {
+      "word_id": "v5",
+      "term": "Cuenta",
+      "phonetic_api": "/ˈkwenta/",
+      "phonetic_simple": "KWEN-TA",
+      "translation": "Addition / Compte",
+      "example_sentence": "Camarero, la cuenta, por favor.",
+      "example_phonetic": "/kamaˈɾeɾo la ˈkwenta poɾ faˈβoɾ/",
+      "example_translation": "Serveur, l'addition, s'il vous plaît."
+    },
+    {
+      "word_id": "v6",
+      "term": "Mercado",
+      "phonetic_api": "/meɾˈkaðo/",
+      "phonetic_simple": "MER-KA-DO",
+      "translation": "Marché",
+      "example_sentence": "Los sábados compro fruta en el mercado.",
+      "example_phonetic": "/los ˈsaβaðos ˈkompɾo ˈfɾuta en el meɾˈkaðo/",
+      "example_translation": "Le samedi, j'achète des fruits au marché."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Para mí, de primero, una ensalada",
+      "phonetic_api": "/ˈpaɾa ˈmi ðe pɾiˈmeɾo ˈuna emsaˈlaða/",
+      "phonetic_simple": "PA-RA MEE, DÉ PREE-MÉ-RO, OU-NA EN-SA-LA-DA",
+      "translation": "Pour moi, en entrée, une salade",
+      "context": "Formule type au restaurant pour commander son premier plat."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "¿Qué desea tomar?",
+      "phonetic_api": "/ˈke ðeˈsea toˈmaɾ/",
+      "phonetic_simple": "KÉ DÉ-SÉ-A TO-MAR ?",
+      "translation": "Que désirez-vous boire / prendre ?",
+      "context": "Question classique du serveur lorsqu'il prend la commande des boissons ou des plats."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Quería un kilo de tomates, por favor",
+      "phonetic_api": "/keˈɾia un ˈkilo ðe toˈmates poɾ faˈβoɾ/",
+      "phonetic_simple": "KÉ-REE-A OUN KEE-LO DÉ TO-MA-TÉS POR FA-VOR",
+      "translation": "Je voudrais un kilo de tomates, s'il vous plaît",
+      "context": "Structure très polie pour faire ses achats chez le marchand de fruits et légumes."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "¿Está incluida la propina?",
+      "phonetic_api": "/esˈta jŋkluˈiða la pɾoˈpina/",
+      "phonetic_simple": "ES-TA EEN-KLOUEE-DA LA PRO-PEE-NA ?",
+      "translation": "Est-ce que le pourboire est inclus ?",
+      "context": "À demander au moment de régler la facture si on a un doute."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'utilisation du conditionnel de politesse QUERÍA",
+      "explanation": "Pour demander quelque chose de manière courtoise au restaurant ou au marché, les hispanophones évitent le verbe 'quiero' (je veux) qui peut sembler trop direct. On préfère utiliser la forme de l'imparfait de l'indicatif ou du conditionnel 'quería' (je voudrais).",
+      "rules": [
+        "Structure : Quería + Nom de l'aliment / quantité (ex: Quería un café).",
+        "Structure alternative : Para mí + Plat (ex: Para mí, la paella)."
+      ],
+      "examples": [
+        {
+          "structure": "Quería una ración de patatas bravas.",
+          "phonetic_api": "/keˈɾia ˈuna ɾaˈθjon de paˈtatas ˈβɾaβas/",
+          "meaning": "Je voudrais une portion de patatas bravas."
+        }
+      ]
+    },
+    {
+      "concept": "Les verbes TOMAR, COMER et BEBER",
+      "explanation": "Au restaurant, le verbe 'tomar' est le plus polyvalent. Il englobe à la fois l'action de manger et de boire. 'Comer' s'applique spécifiquement aux solides et 'beber' aux liquides.",
+      "rules": [
+        "Tomar se conjugue régulièrement au présent (tomo, tomas, toma, tomamos, tomáis, toman).",
+        "On utilise souvent 'tomar' pour exprimer ce qu'on consomme lors d'un repas particulier."
+      ],
+      "examples": [
+        {
+          "structure": "¿Qué vais a tomar de postre?",
+          "phonetic_api": "/ˈke ˈβajs a toˈmaɾ ðe ˈpostɾe/",
+          "meaning": "Qu'allez-vous prendre comme dessert ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Camarero",
+      "text": "Buenas noches. ¿Saben ya qué van a tomar?",
+      "phonetic_api": "/ˈbwenas ˈnotʃes || ˈsaβen ˈʝa ˈke ˈβan a toˈmaɾ/",
+      "phonetic_simple": "BWÉ-NAS NO-TCHÉS. SA-BÉN YA KÉ BAN A TO-MAR ?",
+      "translation": "Bonsoir. Vous savez déjà ce que vous allez prendre ?"
+    },
+    {
+      "speaker": "Cliente",
+      "text": "Sí. De primero queremos una ración de croquetas para compartir.",
+      "phonetic_api": "/ˈsi || ðe pɾiˈmeɾo keˈɾemos ˈuna ɾaˈθjon de kɾoˈketas ˈpaɾa kompaɾˈtiɾ/",
+      "phonetic_simple": "SEE. DÉ PREE-MÉ-RO KÉ-RÉ-MOS OU-NA RA-THYON DÉ KRO-KÉ-TAS PA-RA KOM-PAR-TEER.",
+      "translation": "Oui. En entrée, nous voulons une portion de croquettes à partager."
+    },
+    {
+      "speaker": "Camarero",
+      "text": "¿Y de segundo plato?",
+      "phonetic_api": "/i ðe seˈɣundo ˈplato/",
+      "phonetic_simple": "EE DÉ SÉ-GOUN-DO PLA-TO ?",
+      "translation": "Et en plat principal ?"
+    },
+    {
+      "speaker": "Cliente",
+      "text": "Para mí, el pescado del día, y para mi mujer, el pollo asado. Para beber, agua mineral.",
+      "phonetic_api": "/ˈpaɾa ˈmi el pesˈkaðo ðel ˈdia || i ˈpaɾa mi muˈxeɾ el ˈpoʝo aˈsaðo || ˈpaɾa βeˈβeɾ ˈaɣwa mineˈɾal/",
+      "phonetic_simple": "PA-RA MEE, EL PES-KA-DO DEL DEE-A, EE PA-RA MI MOU-KHER, EL PO-YO A-SA-DO. PA-RA BÉ-BER, A-GWA MEE-NÉ-RAL.",
+      "translation": "Pour moi, le poisson du jour, et pour mon épouse, le poulet rôti. Pour boire, de l'eau minérale."
+    }
+  ],
+  "cultural_notes": [
+    "En Espagne, le concept de 'compartir' (partager des plats au milieu de la table) est une institution sociale majeure. Les 'raciones' sont des portions généreuses commandées collectivement, contrairement aux 'tapas' qui sont de petites bouchées souvent individuelles.",
+    "L'horaire des repas en Espagne est décalé par rapport au reste de l'Europe : on déjeune généralement entre 14h00 et 16h00, et on dîne rarement avant 21h30 ou 22h00."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L8_EX1",
+      "type": "multiple_choice",
+      "question": "Quelle expression est la plus polie pour s'adresser au vendeur du marché ?",
+      "options": [
+        "¡Dame un kilo de manzanas!",
+        "Quería un kilo de manzanas, por favor.",
+        "Yo quiero manzanas ahora."
+      ],
+      "correct_answer": "Quería un kilo de manzanas, por favor.",
+      "explanation": "L'utilisation de 'quería' adoucit la demande et constitue la formule de politesse standard pour acheter ou commander."
+    },
+    {
+      "exercise_id": "A1_M3_L8_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Camarero, no tenemos pan en la mesa. ¿Nos trae un poco de [ ___ ], por favor?",
+      "correct_answer": "pan",
+      "hint": "L'aliment de base cuit au four, souvent servi automatiquement avec les repas."
+    }
+  ]
+}

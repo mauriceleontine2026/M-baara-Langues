@@ -1,0 +1,141 @@
+{
+  "lesson_id": "B1_M3_L7",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 7,
+  "title": "Exprimer l'obligation, l'interdiction et la permission",
+  "learning_objectives": [
+    "Exprimer un devoir ou une exigence professionnelle en Baga",
+    "Demander et accorder poliment une autorisation",
+    "Formuler une interdiction claire au sein de la communauté ou de l'entreprise"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La particule d'obligation 'mámà' requiert un ton haut très distinct sur la première syllabe et un ton bas marqué sur la seconde. Ne fusionnez pas les deux émissions de voix nasales.",
+    "common_pitfalls": "Attention à la particule prohibitive d'interdiction 'mán'. Son ton haut et sec la différencie radicalement du pronom sujet de première personne 'mə̀' (ton bas)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "b229",
+      "term": "mámà",
+      "phonetic_api": "/mámà/",
+      "phonetic_simple": "MA-MA",
+      "translation": "devoir / falloir (obligation stricte)",
+      "example_sentence": "I mámà táa ya ya",
+      "example_phonetic": "/i mámà táː ja ja/",
+      "example_translation": "Tu dois partir immédiatement"
+    },
+    {
+      "word_id": "b230",
+      "term": "lɔ́kɔ̀ bɛ̀",
+      "phonetic_api": "/lɔ́kɔ̀ ɓɛ̀/",
+      "phonetic_simple": "LÓ-KO BÈ",
+      "translation": "avoir la permission / l'autorisation",
+      "example_sentence": "Lɔ́kɔ̀ bɛ̀ n fɛ̀ɛ̀ gba ?",
+      "example_phonetic": "/lɔ́kɔ̀ ɓɛ̀ ⁿfɛ̀ː gba/",
+      "example_translation": "Ai-je l'autorisation également ?"
+    },
+    {
+      "word_id": "b231",
+      "term": "mán",
+      "phonetic_api": "/mán/",
+      "phonetic_simple": "MAN",
+      "translation": "ne pas / particule prohibitive d'interdiction",
+      "example_sentence": "I mán kɛ̀ɛ̀ mu kɛ̀ɛ̀ !",
+      "example_phonetic": "/i mán kɛ̀ː mu kɛ̀ː/",
+      "example_translation": "Ne fais pas cette action !"
+    },
+    {
+      "word_id": "b232",
+      "term": "tɔ́ŋ",
+      "phonetic_api": "/tɔ́ŋ/",
+      "phonetic_simple": "TON",
+      "translation": "règle / loi / interdit coutumier",
+      "example_sentence": "A mu siì tɔ́ŋ di",
+      "example_phonetic": "/a mu siː tɔ́ŋ di/",
+      "example_translation": "C'est la règle de la communauté"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "bp213",
+      "original": "Mə̀ mámà kálàŋ-gbɔ́n f fɛ̀ɛ̀ ya-njɔ̀ɔ̀",
+      "phonetic_api": "/mə̀ mámà kálàŋ gɓɔ́n f fɛ̀ː ja ⁿd͡ʒɔ̀ː/",
+      "phonetic_simple": "ME MA-MA KA-LANG-GBON F FÈÈ YA-N-DJOO",
+      "translation": "Je dois impérativement aller à l'école aujourd'hui.",
+      "context": "Exprimer une obligation institutionnelle ou d'apprentissage"
+    },
+    {
+      "phrase_id": "bp214",
+      "original": "I mán fén gbɛ̀lɛ̀ lɔ̀ ya ya !",
+      "phonetic_api": "/i mán fén gɓɛ̀lɛ̀ lɔ̀ ja ja/",
+      "phonetic_simple": "I MAN FÉN GBÈ-LÈ LO YA YA !",
+      "translation": "Interdiction de jouer dans la cour à présent !",
+      "context": "Formuler un ordre négatif strict face à des enfants"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les structures préverbales modales : mámà et mán",
+      "explanation": "En Baga intermédiaire, l'obligation morale ou professionnelle et l'interdiction absolue s'expriment à l'aide de morphèmes spécifiques. Ils s'insèrent directement entre le pronom personnel sujet et la base verbale d'action.",
+      "rules": [
+        "Structure Obligation : Sujet + mámà + Verbe + Compléments.",
+        "Structure Interdiction : Sujet + mán + Verbe + Compléments."
+      ],
+      "examples": [
+        {
+          "structure": "I (Tu) + mán (Ne pas) + táa (Partir)",
+          "phonetic_api": "/i mán táː/",
+          "meaning": "Ne pars pas ! / Tu ne dois pas partir"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Le Responsable",
+      "text": "Temba, i mámà wáalì kɛ̀ɛ̀ ya-njɔ̀ɔ̀. Tɔ́ŋ mu di gba.",
+      "phonetic_api": "/tɛmɓa i mámà wáːlì kɛ̀ː ja ⁿd͡ʒɔ̀ː tɔ́ŋ mu di gba/",
+      "phonetic_simple": "TEM-BA, I MA-MA WAA-LII KÈÈ YA-N-DJOO. TON MOO DI GBA.",
+      "translation": "Temba, tu dois travailler aujourd'hui. C'est la règle."
+    },
+    {
+      "speaker": "Temba",
+      "text": "N gbɛ́lɛ́-mɔ̀ɔ̀, kpaan-mɛ̀ɛ̀. Lɔ́kɔ̀ bɛ̀ n fɛ̀ɛ̀ mə̀ táa lò-su ka ?",
+      "phonetic_api": "/ⁿgɓɛ́lɛ́ mɔ̀ː kpaːn mɛ̀ː lɔ́kɔ̀ ɓɛ̀ ⁿfɛ̀ː mə̀ táː lò su ka/",
+      "phonetic_simple": "N GBÉ-LÉ-MOO, KPAAN-MÈÈ. LÓ-KO BÈ N FÈÈ ME TAA LO-SOO KA ?",
+      "translation": "Mon chef, pardon. Ai-je la permission de me rendre en ville ?"
+    },
+    {
+      "speaker": "Le Responsable",
+      "text": "Háo ! I mán táa lò-su ka ya-njɔ̀ɔ̀. I mámà wɔ́lɔ̀ gba ya.",
+      "phonetic_api": "/háo i mán táː lò su ka ja ⁿd͡ʒɔ̀ː i mámà wɔ́lɔ́ gba ja/",
+      "phonetic_simple": "HAO ! I MAN TAA LO-SOO KA YA-N-DJOO. I MA-MA WÓ-LÓ GBA YA.",
+      "translation": "Non ! Tu ne dois pas aller en ville aujourd'hui. Tu devez rester ici."
+    }
+  ],
+  "cultural_notes": [
+    "Le concept de 'tɔ́ŋ' (la règle/l'interdit) encadre fortement les activités maritimes et agricoles en Basse-Guinée. Certains jours de la semaine sont décrétés sacrés ou chômés par les sages du village, interdisant l'accès aux mangroves ou à la mer sous peine de sanctions rituelles."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M3_L7_ex1",
+      "type": "multiple_choice",
+      "question": "Quel mot exprime le devoir ou la nécessité absolue en Baga ?",
+      "options": [
+        "lɔ́kɔ̀",
+        "mámà",
+        "mán"
+      ],
+      "correct_answer": "mámà",
+      "explanation": "'mámà' sert à introduire une obligation ou une injonction forte."
+    },
+    {
+      "exercise_id": "B1_M3_L7_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "I [ ___ ] táa lò-su ka ya-njɔ̀ɔ̀ ! (Ne va pas en ville aujourd'hui !)",
+      "correct_answer": "mán",
+      "hint": "Particule prohibitive d'interdiction de 3 lettres avec un accent aigu"
+    }
+  ]
+}

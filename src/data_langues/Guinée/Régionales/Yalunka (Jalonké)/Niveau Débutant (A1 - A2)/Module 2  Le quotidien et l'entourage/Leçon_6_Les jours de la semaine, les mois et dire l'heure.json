@@ -1,0 +1,222 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer les sept jours de la semaine et les mois de l'année",
+    "Demander et exprimer l'heure qu'il est",
+    "Utiliser les repères temporels de base dans la journée"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'h' se prononce de manière aspirée /h/ comme en anglais. Le groupe 'xi' s'articule /xi/ et le 'b' est une occlusive bilabiale sonore standard /b/. Veillez à bien respecter les voyelles doublées dans la désignation des jours.",
+    "common_pitfalls": "Ne pas calquer la prononciation des jours de la semaine sur le français, car ils proviennent d'emprunts lexicaux spécifiques adaptés à la phonologie mandingue et arabe."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v6_1",
+      "term": "Tɛmɛni",
+      "phonetic_api": "/tɛ.mɛ.ni/",
+      "phonetic_simple": "TÈ-MÈ-NI",
+      "translation": "Heure / Temps / Moment",
+      "example_sentence": "Tɛmɛni mɛni ?",
+      "example_phonetic": "/tɛ.mɛ.ni mɛ.ni/",
+      "example_translation": "Quelle heure est-il ?"
+    },
+    {
+      "word_id": "v6_2",
+      "term": "Laxidi",
+      "phonetic_api": "/la.xi.di/",
+      "phonetic_simple": "LA-KHI-DI",
+      "translation": "Dimanche",
+      "example_sentence": "N sigama Laxidi.",
+      "example_phonetic": "/ŋ si.ɡa.ma la.xi.di/",
+      "example_translation": "Je partirai dimanche."
+    },
+    {
+      "word_id": "v6_3",
+      "term": "Kike",
+      "phonetic_api": "/ki.ke/",
+      "phonetic_simple": "KI-KÉ",
+      "translation": "Lune / Mois",
+      "example_sentence": "Kike keden.",
+      "example_phonetic": "/ki.ke ke.den/",
+      "example_translation": "Un mois."
+    },
+    {
+      "word_id": "v6_4",
+      "term": "Tena",
+      "phonetic_api": "/te.na/",
+      "phonetic_simple": "TÉ-NA",
+      "translation": "Jour / Clarté",
+      "example_sentence": "Tena fanyin.",
+      "example_phonetic": "/te.na fan.jin/",
+      "example_translation": "Une belle journée."
+    },
+    {
+      "word_id": "v6_5",
+      "term": "Waliɲɔgɔn",
+      "phonetic_api": "/wa.li.ɲɔ.ɡɔn/",
+      "phonetic_simple": "WA-LI-NYO-GON",
+      "translation": "Lundi",
+      "example_sentence": "Waliɲɔgɔn na i wali ?",
+      "example_phonetic": "/wa.li.ɲɔ.ɡɔn na i wa.li/",
+      "example_translation": "Travailles-tu le lundi ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p6_1",
+      "original": "To mun tena a ra ?",
+      "phonetic_api": "/to mun te.na a ra/",
+      "phonetic_simple": "TO MOUN TÉ-NA A RA ?",
+      "translation": "Quel jour sommes-nous aujourd'hui ?",
+      "context": "Demander le jour de la semaine en cours."
+    },
+    {
+      "phrase_id": "p6_2",
+      "original": "To Taluusa nan a ra.",
+      "phonetic_api": "/to ta.luː.sa nan a ra/",
+      "phonetic_simple": "TO TA-LOO-SA NAN A RA",
+      "translation": "Aujourd'hui nous sommes mardi.",
+      "context": "Répondre pour indiquer le jour de la semaine."
+    },
+    {
+      "phrase_id": "p6_3",
+      "original": "Tɛmɛni saxan bata kpetɛ.",
+      "phonetic_api": "/tɛ.mɛ.ni sa.xan ba.ta kpe.tɛ/",
+      "phonetic_simple": "TÈ-MÈ-NI SA-KHAN BA-TA KPÉ-TÈ",
+      "translation": "Il est trois heures.",
+      "context": "Donner l'heure pile à son interlocuteur."
+    },
+    {
+      "phrase_id": "p6_4",
+      "original": "N na i mabuge Araba.",
+      "phonetic_api": "/ŋ na i ma.bu.ɡe a.ra.ba/",
+      "phonetic_simple": "N NA I MA-BOU-GUÉ A-RA-BA",
+      "translation": "Je te verrai mercredi.",
+      "context": "Fixer un rendez-vous à un jour précis de la semaine."
+    },
+    {
+      "phrase_id": "p6_5",
+      "original": "Kike mɛni na n bɛ ?",
+      "phonetic_api": "/ki.ke mɛ.ni na ŋ bɛ/",
+      "phonetic_simple": "KI-KÉ MÈ-NI NA N BÈ ?",
+      "translation": "Quel mois sommes-nous ?",
+      "context": "Interroger sur la période de l'année."
+    },
+    {
+      "phrase_id": "p6_6",
+      "original": "Subaxɛ nan a ra.",
+      "phonetic_api": "/su.ba.xɛ nan a ra/",
+      "phonetic_simple": "SOU-BA-KHÈ NAN A RA",
+      "translation": "C'est le matin / C'est l'aube.",
+      "context": "Donner un repère temporel lié à la course du soleil."
+    },
+    {
+      "phrase_id": "p6_7",
+      "original": "Alaxamisa na n bɛ sigama.",
+      "phonetic_api": "/a.la.xa.mi.sa na ŋ bɛ si.ɡa.ma/",
+      "phonetic_simple": "A-LA-KHA-MI-SA NA N BÈ SI-GA-MA",
+      "translation": "Je partirai le jeudi.",
+      "context": "Préciser ses plans de déplacement futurs."
+    },
+    {
+      "phrase_id": "p6_8",
+      "original": "Jumaa nan a ra, sali tɛmɛni.",
+      "phonetic_api": "/ʒu.maː nan a ra sa.li tɛ.mɛ.ni/",
+      "phonetic_simple": "JOU-MAA NAN A RA, SA-LI TÈ-MÈ-NI",
+      "translation": "C'est vendredi, c'est l'heure de la prière.",
+      "context": "Énoncer le jour du vendredi et sa signification sociale."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'heure avec 'bata kpetɛ'",
+      "explanation": "Pour dire l'heure qu'il est, on mentionne le mot 'tɛmɛni' (heure) suivi du chiffre correspondant, complété par la structure verbale perfective 'bata kpetɛ' (littéralement : a sauté / a sonné).",
+      "rules": [
+        "Tɛmɛni + Chiffre + bata kpetɛ",
+        "Pour poser la question, on utilise l'interrogatif de quantité 'mɛni'."
+      ],
+      "examples": [
+        {
+          "structure": "Tɛmɛni naani bata kpetɛ.",
+          "phonetic_api": "/tɛ.mɛ.ni naː.ni ba.ta kpe.tɛ/",
+          "meaning": "Il est quatre heures (L'heure quatre a sauté)."
+        }
+      ]
+    },
+    {
+      "concept": "L'usage de la postposition de temps 'na'",
+      "explanation": "Le marqueur 'na' ou la juxtaposition directe permet d'intégrer un jour de la semaine comme complément de temps sans avoir recours à des prépositions complexes.",
+      "rules": [
+        "Nom du jour + na + Action",
+        "Pour des repères réguliers, le nom du jour seul en tête de phrase suffit."
+      ],
+      "examples": [
+        {
+          "structure": "Sibiti na n sigama.",
+          "phonetic_api": "/si.bi.ti na ŋ si.ɡa.ma/",
+          "meaning": "Le samedi, je partirai."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ousmane",
+      "text": "Fanta, sabari, tɛmɛni mɛni ?",
+      "phonetic_api": "/fan.ta sa.ba.ri tɛ.mɛ.ni mɛ.ni/",
+      "phonetic_simple": "FAN-TA, SA-BA-RI, TÈ-MÈ-NI MÈ-NI ?",
+      "translation": "Fanta, s'il te plaît, quelle heure est-il ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Tɛmɛni sulu bata kpetɛ. To mun tena a ra ?",
+      "phonetic_api": "/tɛ.mɛ.ni su.lu ba.ta kpe.tɛ to mun te.na a ra/",
+      "phonetic_simple": "TÈ-MÈ-NI SOU-LOU BA-TA KPÉ-TÈ. TO MOUN TÉ-NA A RA ?",
+      "translation": "Il est cinq heures. Quel jour sommes-nous aujourd'hui ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "To Araba nan a ra. Wali na n bɛ subaxɛ.",
+      "phonetic_api": "/to a.ra.ba nan a ra wa.li na ŋ bɛ su.ba.xɛ/",
+      "phonetic_simple": "TO A-RA-BA NAN A RA. WA-LI NA N BÈ SOU-BA-KHÈ",
+      "translation": "Aujourd'hui nous sommes mercredi. J'ai du travail ce matin."
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Nba, i wali fanyin. Won mami.",
+      "phonetic_api": "/ŋba i wa.li fan.jin won ma.mi/",
+      "phonetic_simple": "NBA, I WA-LI FAN-YIN. WON MA-MI",
+      "translation": "D'accord, bon travail à toi. À plus tard."
+    }
+  ],
+  "cultural_notes": [
+    "Les noms des jours en Yalunka (Laxidi, Waliɲɔgɔn, Taluusa, Araba, Alaxamisa, Jumaa, Sibiti) témoignent d'une forte imbrication historique avec les calendriers des peuples voisins et les structures commerciales régionales guinéennes.",
+    "Le vendredi ('Jumaa') revêt une importance spirituelle et sociale majeure, marquant souvent le pivot de l'organisation de la fin de semaine en milieu rural et urbain."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex6_1",
+      "type": "multiple_choice",
+      "question": "Quel jour correspond au mot 'Jumaa' en Yalunka ?",
+      "options": [
+        "Lundi",
+        "Jeudi",
+        "Vendredi"
+      ],
+      "correct_answer": "Vendredi",
+      "explanation": "'Jumaa' désigne explicitement le vendredi, jour de grande assemblée."
+    },
+    {
+      "exercise_id": "ex6_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Il est deux heures', on dit : Tɛmɛni [ ___ ] bata kpetɛ.",
+      "correct_answer": "fidin",
+      "hint": "C'est le chiffre correspondant au nombre deux."
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "lesson_id": "B1_M3_L9",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 9,
+  "title": "Demander et donner des conseils ou des instructions",
+  "learning_objectives": [
+    "Solliciter l'avis ou le conseil d'un tiers face à un problème",
+    "Donner des directives, des instructions et des recommandations claires",
+    "Utiliser les nuances du mode subjonctif/optatif pour suggérer une action"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'l' dans 'lali' s'articule sur les alvéoles avec fluidité. Le son 'k' dans 'kasi' est sec et non aspiré. Portez une attention particulière au digramme 'ny' dans 'nyɛ' qui exige un point d'articulation palatal nasal.",
+    "common_pitfalls": "Veillez à ne pas prononcer le 'h' de 'haqi' (pardon/droit) à la française (muet) ; il doit être expiré de manière audible comme en arabe ou en maninka."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_b1_m3_l9",
+      "term": "Lali",
+      "phonetic_api": "/la.li/",
+      "phonetic_simple": "LA-LI",
+      "translation": "Conseiller / Conseiller (verbe/nom) / Recommander",
+      "example_sentence": "N fɛ i ka n lali",
+      "example_phonetic": "/ɲ͡fɛ i ka ɲ͡la.li/",
+      "example_translation": "Je veux que tu me conseilles"
+    },
+    {
+      "word_id": "v2_b1_m3_l9",
+      "term": "Kira",
+      "phonetic_api": "/ki.ra/",
+      "phonetic_simple": "KI-RA",
+      "translation": "Chemin / Voie / Méthode",
+      "example_sentence": "Kira nyuman le nɛ ri",
+      "example_phonetic": "/ki.ra ɲu.man le nɛ ri/",
+      "example_translation": "C'est la bonne méthode (le bon chemin)"
+    },
+    {
+      "word_id": "v3_b1_m3_l9",
+      "term": "Haqi",
+      "phonetic_api": "/ha.qi/",
+      "phonetic_simple": "HA-QI",
+      "translation": "Esprit / Intelligence / Pardon / Attention",
+      "example_sentence": "I haqi to a la",
+      "example_phonetic": "/i ha.qi to a la/",
+      "example_translation": "Fais attention à cela / Reste concentré"
+    },
+    {
+      "word_id": "v4_b1_m3_l9",
+      "term": "Nyɛ",
+      "phonetic_api": "/ɲɛ/",
+      "phonetic_simple": "NYƐ",
+      "translation": "Réussir / Être bon / Face",
+      "example_sentence": "A di nyɛ",
+      "example_phonetic": "/a di ɲɛ/",
+      "example_translation": "Ça va marcher / Ça va réussir"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_b1_m3_l9",
+      "original": "N mun di kɛ ko nɛ ra ?",
+      "phonetic_api": "/mun ɲ͡di kɛ ko nɛ ra/",
+      "phonetic_simple": "N MOUN DI KƐ KO NƐ RA ?",
+      "translation": "Que dois-je faire dans cette affaire ? (Quel est ton conseil ?)",
+      "context": "Demander l'avis d'une personne de confiance face à une impasse."
+    },
+    {
+      "phrase_id": "p2_b1_m3_l9",
+      "original": "N bɛ i lali ra, ka ta so sɔgɔma",
+      "phonetic_api": "/ɱ͡bɛ i la.li ra ka ta so sɔ.gɔ.ma/",
+      "phonetic_simple": "N BƐ I LA-LI RA, KA TA SO SƆ-GƆ-MA",
+      "translation": "Je te conseille de partir au village demain matin",
+      "context": "Formuler une recommandation amicale ou formelle."
+    },
+    {
+      "phrase_id": "p3_b1_m3_l9",
+      "original": "I haqi to i ya bara la",
+      "phonetic_api": "/i ha.qi to i ja ba.ra la/",
+      "phonetic_simple": "I HA-QI TO I YA BA-RA LA",
+      "translation": "Sois attentif à ton travail / Concentre-toi",
+      "context": "Donner une consigne ou une instruction de rigueur."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la suggestion avec le mode injonctif 'ka'",
+      "explanation": "Pour donner un conseil indirect ou suggérer poliment une action, le kuranko utilise la structure : [Sujet principal] + fɛ + [Sujet secondaire] + ka + Verbe.",
+      "rules": [
+        "La particule 'ka' introduit la proposition complétive qui contient la suggestion.",
+        "Le verbe de la complétive reste à sa forme nue."
+      ],
+      "examples": [
+        {
+          "structure": "N fɛ i ka kalan kɛ",
+          "phonetic_api": "/ɲ͡fɛ i ka ka.lan kɛ/",
+          "meaning": "Je souhaite que tu étudies (Je te conseille d'étudier)"
+        }
+      ]
+    },
+    {
+      "concept": "L'impératif d'instruction avec 'To'",
+      "explanation": "Pour exhorter quelqu'un à maintenir un état d'esprit, une attention ou à poursuivre une action donnée, on emploie fréquemment le verbe 'to' (laisser/rester) à l'impératif suivi d'une postposition.",
+      "rules": [
+        "Structure : [Nom] + to + [Complément] + la/ra"
+      ],
+      "examples": [
+        {
+          "structure": "I haqi to a la",
+          "phonetic_api": "/i ha.qi to a la/",
+          "meaning": "Garde ton esprit dessus (Sois vigilant/Applique-toi)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amara",
+      "text": "N fa, n fɛ i ka n lali. N ya bara ka fari bi fɛ.",
+      "phonetic_api": "/ɱ͡fa ɲ͡fɛ i ka ɲ͡la.li ɲ͡ja ba.ra ka fa.ri bi fɛ/",
+      "phonetic_simple": "N FA, N FƐ I KA N LA-LI. N YA BA-RA KA FA-RI BI FƐ.",
+      "translation": "Mon père, je veux que tu me conseilles. Mon travail est difficile ces temps-ci."
+    },
+    {
+      "speaker": "Sori (Le père)",
+      "text": "I haqi to i ya bara la kosɛbɛ, i kana fari-faga kɛ.",
+      "phonetic_api": "/i ha.qi to i ja ba.ra la ko.sɛ.bɛ ka.na fa.ri.fa.ga kɛ/",
+      "phonetic_simple": "I HA-QI TO I YA BA-RA LA KO-SƐ-BƐ, KA-NA FA-RI-FA-GA KƐ.",
+      "translation": "Concentre-toi pleinement sur ton travail, et ne te décourage pas (ne tue pas ton corps)."
+    },
+    {
+      "speaker": "Amara",
+      "text": "Kira nyuman le nɛ ri. N di na a kɛ ni Alla sɔnna.",
+      "phonetic_api": "/ki.ra ɲu.man le nɛ ri ɲ͡di na a kɛ ni al.la sɔn.na/",
+      "phonetic_simple": "KI-RA NYOU-MAN LE NƐ RI. N DI NA A KƐ NI AL-LA SƆN-NA.",
+      "translation": "C'est la bonne méthode. Je vais le faire si Dieu le veut."
+    },
+    {
+      "speaker": "Sori (Le père)",
+      "text": "O di nyɛ, n den. Alla m'an to kɛnɛya ra.",
+      "phonetic_api": "/o di ɲɛ ɲ͡den al.la m'an to kɛ.nɛ.ja ra/",
+      "phonetic_simple": "O DI NYƐ, N DEN. AL-LA M'AN TO KƐ-NƐ-YA RA.",
+      "translation": "Ça va réussir, mon enfant. Que Dieu nous garde en bonne santé."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la structure sociale kuranko, demander conseil ('lali-nyini') auprès des aînés, des parents ou des chefs de clan est une démarche fondamentale face aux choix cruciaux de la vie (mariage, investissement agricole, litiges). Écouter les conseils d'un ancien est considéré comme un gage de sagesse qui attire la bénédiction ('baraka') sur les projets futurs."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_b1_m3_l9",
+      "type": "multiple_choice",
+      "question": "Que signifie de manière idiomatique l'instruction 'I haqi to a la' ?",
+      "options": [
+        "Oublie cette histoire",
+        "Sois attentif / Concentre-toi sur cela",
+        "Prends ton argent"
+      ],
+      "correct_answer": "Sois attentif / Concentre-toi sur cela",
+      "explanation": "'Haqi' désigne l'esprit ou l'attention. L'expression demande de laisser son attention fixée sur l'objet ou la tâche en cours."
+    },
+    {
+      "exercise_id": "ex2_b1_m3_l9",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Je te conseille', on emploie le verbe de recommandation : N bɛ i [ ___ ] ra.",
+      "correct_answer": "lali",
+      "hint": "Il commence et se termine par la consonne 'l'"
+    }
+  ]
+}

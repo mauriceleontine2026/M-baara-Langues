@@ -1,0 +1,275 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Distinguer et utiliser avec précision l'infixe du passé historique (-li-) et l'infixe du passé composé accompli (-me-)",
+    "Maîtriser l'infixe narratif ou consécutif (-ka-) pour fluidifier l'énumération d'actions successives dans un récit",
+    "Construire le plus-que-parfait et exprimer l'antériorité à l'aide de l'auxiliaire 'Kuwa'",
+    "Appliquer les règles de négation des verbes au passé révolu (-ku-) et de l'inaccompli (-ja-)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La musicalité du récit swahili dépend de l'enchaînement fluide des infixes de temps. L'infixe narratif '-ka-' [ka] déplace régulièrement l'accent tonique sur la pénultième syllabe du verbe fusionné (ex: 'Akasoma' [a.kaˈsɔ.ma]). Le 'h' initial des formes négatives (ex: 'Hakuona' [ha.kuˈɔ.na]) doit être distinctement expiré.",
+    "common_pitfalls": "Attention à la prononciation du groupe de voyelles dans l'auxiliaire du passé composé négatif 'Hajaja' [haˈdʒa.dʒa]. Ne confondez pas le rythme de '-ka-' (narratif) avec celui de '-ki-' (conditionnel/simultané)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Hadithi",
+      "phonetic_api": "/haˈdi.θi/",
+      "phonetic_simple": "HAH-DEE-THEE",
+      "translation": "Histoire / Récit / Conte",
+      "example_sentence": "Mzee alituhadithia hadithi ya kusisimua.",
+      "example_phonetic": "/mˈzɛː a.li.tu.ha.diˈθi.a haˈdi.θi ja ku.si.siˈmu.a/",
+      "example_translation": "Le vieil homme nous a raconté une histoire passionnante."
+    },
+    {
+      "word_id": "v2",
+      "term": "Kisha",
+      "phonetic_api": "/ˈki.ʃa/",
+      "phonetic_simple": "KEE-SHAH",
+      "translation": "Ensuite / Puis",
+      "example_sentence": "Alimaliza kula, kisha akaondoka.",
+      "example_phonetic": "/a.li.maˈli.za ˈku.la ˈki.ʃa a.ka.ɔˈndo.ka/",
+      "example_translation": "Il a fini de manger, ensuite il est parti."
+    },
+    {
+      "word_id": "v3",
+      "term": "Zamani",
+      "phonetic_api": "/zaˈma.ni/",
+      "phonetic_simple": "ZAH-MAH-NEE",
+      "translation": "Autrefois / Jadis / Le passé",
+      "example_sentence": "Zamani kulikuwa na misitu mikubwa hapa.",
+      "example_phonetic": "/zaˈma.ni ku.liˈku.wa na miˈsi.tu miˈku.bwa ˈha.pa/",
+      "example_translation": "Autrefois, il y avait de grandes forêts ici."
+    },
+    {
+      "word_id": "v4",
+      "term": "Tukio",
+      "phonetic_api": "/tuˈki.ɔ/",
+      "phonetic_simple": "TOO-KEE-OH",
+      "translation": "Événement / Fait / Incident",
+      "example_sentence": "Tukio lile lilibadilisha maisha yake.",
+      "example_phonetic": "/tuˈki.ɔ ˈli.lɛ li.li.ba.diˈli.ʃa maˈi.ʃa ˈja.kɛ/",
+      "example_translation": "Cet événement a changé sa vie."
+    },
+    {
+      "word_id": "v5",
+      "term": "Hatimaye",
+      "phonetic_api": "/ha.tiˈma.jɛ/",
+      "phonetic_simple": "HAH-TEE-MAH-YEH",
+      "translation": "Finalement / En fin de compte",
+      "example_sentence": "Hatimaye, jua lilichomoza baada ya mvua.",
+      "example_phonetic": "/ha.tiˈma.jɛ ˈdʒu.a li.li.tʃɔˈmɔ.za baˈa.da ja ˈmvu.a/",
+      "example_translation": "Finalement, le soleil s'est levé après la pluie."
+    },
+    {
+      "word_id": "v6",
+      "term": "Ghafla",
+      "phonetic_api": "/ˈɣa.fla/",
+      "phonetic_simple": "GHAHF-LAH",
+      "translation": "Soudain / Tout à coup",
+      "example_sentence": "Ghafla, simu ililia usiku wa manane.",
+      "example_phonetic": "/ˈɣa.fla ˈsi.mu i.liˈli.a uˈsi.ku wa maˈna.nɛ/",
+      "example_translation": "Soudain, le téléphone a sonné au milieu de la nuit."
+    },
+    {
+      "word_id": "v7",
+      "term": "Awali",
+      "phonetic_api": "/aˈwa.li/",
+      "phonetic_simple": "AH-WAH-LEE",
+      "translation": "Au début / Auparavant / Initialement",
+      "example_sentence": "Awali, hatukuelewa mpango wake.",
+      "example_phonetic": "/aˈwa.li ha.tu.ku.ɛˈlɛ.wa mˈpa.ŋgɔ ˈwa.kɛ/",
+      "example_translation": "Au début, nous n'avions pas compris son plan."
+    },
+    {
+      "word_id": "v8",
+      "term": "Kutokea",
+      "phonetic_api": "/ku.tɔˈkɛ.a/",
+      "phonetic_simple": "KOO-TOH-KEH-AH",
+      "translation": "Se produire / Arriver / Se passer",
+      "example_sentence": "Ajali ilitokea karibu na soko.",
+      "example_phonetic": "/aˈdʒa.li i.li.tɔˈkɛ.a kaˈri.bu na ˈsɔ.kɔ/",
+      "example_translation": "Un accident s'est produit près du marché."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ilitokea nini jana ulipokuwa safarini?",
+      "phonetic_api": "/i.li.tɔˈkɛ.a ˈni.ni ˈdʒa.na u.li.pɔˈku.wa sa.fa.riˈni/",
+      "phonetic_simple": "EE-LEE-TOH-KEH-AH NEE-NEE DJAH-NAH OO-LEE-POH-KOO-WAH SAH-FAH-REE-NEE",
+      "translation": "Que s'est-il passé hier lorsque tu étais en voyage ?",
+      "context": "Interroger un ami sur le déroulement d'un événement daté."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Hapo zamani za kale, palikuwa na mfalme mmoja.",
+      "phonetic_api": "/ˈha.pɔ zaˈma.ni za ˈka.lɛ pa.liˈku.wa na mˈfa.lmɛ ˈmmɔ.dʒa/",
+      "phonetic_simple": "HAH-POH ZAH-MAH-NEE ZAH KAH-LEH PAH-LEE-KOO-WAH NAH MFAHL-MEH MMOH-DJAH",
+      "translation": "Il y a fort longtemps, il y avait un roi.",
+      "context": "Ouverture traditionnelle de contes et légendes."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Tuliamka, tukala staftahi, kisha tukaanza safari.",
+      "phonetic_api": "/tu.liˈa.mka tuˈka.la staftahi ˈki.ʃa tu.kaˈa.nza saˈfa.ri/",
+      "phonetic_simple": "TOO-LEE-AHM-KAH TOO-KAH-LAH STAHF-TAH-HEE KEE-SHAH TOO-KAHN-ZAH SAH-FEE-REE",
+      "translation": "Nous nous sommes réveillés, nous avons pris le petit-déjeuner, puis nous avons commencé le voyage.",
+      "context": "Succession logique d'événements fluides au sein d'une narration."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Mbona hukunipigia simu ulipofika kituoni?",
+      "phonetic_api": "/ˈmbɔ.na hu.ku.ni.piˈgi.a ˈsi.mu wa.li.pɔˈfi.ka ki.tuˈɔ.ni/",
+      "phonetic_simple": "MBOH-NAH HOO-KOO-NEE-PEE-GEE-AH SEE-MOO WAH-LEE-POH-FEE-KA KEE-TOO-OH-NEE",
+      "translation": "Pourquoi ne m'as-tu pas téléphoné quand tu es arrivé à la station ?",
+      "context": "Reproche ou interrogation portant sur une action passée non accomplie."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Walipofika, mkutano ulikuwa umeshaanza.",
+      "phonetic_api": "/wa.li.pɔˈfi.ka m.kuˈta.nɔ u.liˈku.wa u.mɛ.ʃaˈa.nza/",
+      "phonetic_simple": "WAH-LEE-POH-FEE-KAH M-KOO-TAH-NOH OO-LEE-KOO-WAH OO-MEH-SHAH-AHN-ZAH",
+      "translation": "Lorsqu'ils sont arrivés, la réunion avait déjà commencé.",
+      "context": "Structure temporelle de plus-que-parfait pour indiquer l'antériorité."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Sijamaliza kuandika ripoti ya mwezi uliopita.",
+      "phonetic_api": "/si.dʒa.maˈli.za ku.aˈndi.ka riˈpɔ.ti ja ˈmwɛ.zi u.li.ɔˈpi.ta/",
+      "phonetic_simple": "SEE-DJAH-MAH-LEE-ZAH KOO-AHN-DEE-KAH REE-POH-TEE YAH MWEH-ZEE OO-LEE-OH-PEE-TAH",
+      "translation": "Je n'ai pas encore fini d'écrire le rapport du mois dernier.",
+      "context": "Négation d'un fait attendu qui reste inaccompli au présent."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Ghafla, gari lilisimama na abiria wakashuka.",
+      "phonetic_api": "/ˈɣa.fla ˈga.ri li.li.siˈma.ma na a.biˈri.a wa.kaˈʃu.ka/",
+      "phonetic_simple": "GHAHF-LAH GAH-REE LEE-LEE-SEE-MAH-MAH NAH AH-BEE-REE-AH WAH-KAH-SHOO-KAH",
+      "translation": "Soudain, la voiture s'est arrêtée et les passagers sont descendus.",
+      "context": "Rupture narrative introduisant une action consécutive."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Haikuwa rahisi lakini tulifanikiwa mwishowe.",
+      "phonetic_api": "/ha.iˈku.wa raˈhi.si laˈki.ni tu.li.fa.niˈki.wa mwiˈʃɔ.wɛ/",
+      "phonetic_simple": "HAH-EE-KOO-WAH RAH-HEE-SEE LAH-KEE-NEE TOO-LEE-FAH-NEE-KEE-WAH MWEE-SHOH-WEH",
+      "translation": "Ce n'était pas facile mais nous avons réussi à la fin.",
+      "context": "Bilan conclusif d'un récit d'apprentissage ou d'aventure."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le basculement narratif : l'usage exclusif de l'infixe '-ka-'",
+      "explanation": "Dans un récit au passé, la répétition de l'infixe '-li-' alourdit le discours. La grammaire swahilie impose d'ancrer le premier verbe au passé historique avec '-li-', puis d'utiliser l'infixe consécutif '-ka-' pour toutes les actions successives directes.",
+      "rules": [
+        "Le premier verbe de la chaîne narrative fixe le cadre temporel avec '-li-'.",
+        "Les verbes coordonnés suivants prennent la structure : Préfixe Sujet + -ka- + Radical verbal.",
+        "Si le verbe est monosyllabique (ex: kula, kunywa), l'infixe '-ka-' absorbe le sens et fait tomber le préfixe de l'infinitif 'ku-'. Exemple : 'tukala' (et nous mangeâmes)."
+      ],
+      "examples": [
+        {
+          "structure": "Niliondoka (Je suis parti) + ni-ka-fika (et je suis arrivé) + ni-ka-sema (et j'ai dit)",
+          "phonetic_api": "/ni.li.ɔˈndo.ka ni.kaˈfi.ka ni.kaˈsɛ.ma/",
+          "meaning": "Je suis parti, je suis arrivé et j'ai dit..."
+        }
+      ]
+    },
+    {
+      "concept": "La construction du plus-que-parfait avec l'auxiliaire 'Kuwa'",
+      "explanation": "Pour exprimer une action antérieure à une autre action passée (le plus-que-parfait français), le swahili utilise une structure verbale composée à deux éléments.",
+      "rules": [
+        "Le premier élément est l'auxiliaire 'Kuwa' conjugué au passé historique avec l'infixe '-li-'.",
+        "Le second élément est le verbe principal porteur du sens, conjugué au parfait accompli avec l'infixe '-me-' (souvent renforcé par '-sha-' pour marquer l'aspect 'déjà')."
+      ],
+      "examples": [
+        {
+          "structure": "Nilikuwa (J'étais) + nimeshasoma (j'avais déjà lu)",
+          "phonetic_api": "/ni.liˈku.wa ni.mɛ.ʃaˈsɔ.ma/",
+          "meaning": "J'avais déjà lu"
+        },
+        {
+          "structure": "Alikuwa (Il était) + amefika (il était arrivé)",
+          "phonetic_api": "/a.liˈku.wa a.mɛˈfi.ka/",
+          "meaning": "Il était arrivé"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Khamis",
+      "text": "Habari ya jioni, Rehema! Samahani, jana hukufika kwenye kikao cha kamati. Ilitokea nini?",
+      "phonetic_api": "/haˈba.ri ja dʒiˈɔ.ni rɛˈhɛ.ma sa.maˈha.ni ˈdʒa.na hu.kuˈfi.ka ˈkwɛ.nɲɛ kiˈka.ɔ tʃa kaˈma.ti i.li.tɔˈkɛ.a ˈni.ni/",
+      "phonetic_simple": "HAA-BAA-REE YAH DJEE-OH-NEE REH-HEH-MAH SAH-MAH-HAA-NEE DJAH-NAH HOO-KOO-FEE-KAH KWEH-NYEH KEE-KAH-OH CHAH KAH-MAH-TEE EE-LEE-TOH-KEH-AH NEE-NEE",
+      "translation": "Bonsoir Rehema ! Excuse-moi, hier tu n'es pas venue à la réunion du comité. Que s'est-il passé ?"
+    },
+    {
+      "speaker": "Rehema",
+      "text": "Asante Khamis. Niliondoka nyumbani mapema, lakini ghafla usafiri wa daladala ulikwama kwenye msongamano mkubwa.",
+      "phonetic_api": "/aˈsa.ntɛ Khamis ni.li.ɔˈndo.ka ɲuˈmba.ni maˈpɛ.ma laˈki.ni ˈɣa.fla u.saˈfi.ri wa daladala u.liˈkwa.ma ˈkwɛ.nɲɛ m.sɔ.ŋgaˈma.nɔ mˈku.bwa/",
+      "phonetic_simple": "AH-SAHN-TEH Khamis NEE-LEE-OHN-DOH-KAH NYOOM-BAH-NEE MAH-PEH-MAH LAH-KEE-NEE GHAHF-LAH OO-SAH-FEE-REE WAH DAH-LAH-DAH-LAH OO-LEE-KWAH-MAH KWEH-NYEH M-SOHN-GAH-MAH-NOH MKOO-BWAH",
+      "translation": "Merci Khamis. Je suis partie tôt de la maison, mais soudain le transport en daladala s'est retrouvé bloqué dans un énorme embouteillage."
+    },
+    {
+      "speaker": "Khamis",
+      "text": "Pole sana! Kisha mkafanya nini baada ya kukwama?",
+      "phonetic_api": "/pɔˈlɛ ˈsa.na ˈki.ʃa m.kaˈfa.ɲa ˈni.ni baˈa.da ja kuˈkwa.ma/",
+      "phonetic_simple": "POH-LEH SAH-NAH KEE-SHAH M-KAH-FAH-NYAH NEE-NEE BAH-AH-DAH YAH KOO-KWAH-MAH",
+      "translation": "Oh, désolé ! Qu'avez-vous fait ensuite après avoir été bloqués ?"
+    },
+    {
+      "speaker": "Rehema",
+      "text": "Tulishuka kwenye gari, tukatembea kwa miguu hadi kituo cha pikipiki, hatimaye nikakodi bodaboda ili niwahi.",
+      "phonetic_api": "/tu.liˈʃu.ka ˈkwɛ.nɲɛ ˈga.ri tu.ka.tɛˈmbɛ.a kwa miˈguː ˈha.di kiˈtu.ɔ tʃa pi.kiˈpi.ki ha.tiˈma.jɛ ni.kaˈkɔ.di bodaboda ˈi.li niˈwa.hi/",
+      "phonetic_simple": "TOO-LEE-SHOO-KAH KWEH-NYEH GAH-REE TOO-KAH-TEHM-BEH-AH KWAH MEE-GOO HAH-DEE KEE-TOO-OH CHAH PEE-KEE-PEE-KEE HAH-TEE-MAH-YEH NEE-KAH-KOH-DEE BOH-DAH-BOH-DAH EE-LEE NEE-WAH-HEE",
+      "translation": "Nous sommes descendus du véhicule, nous avons marché à pied jusqu'à la station de motos, et finalement j'ai loué un moto-taxi pour faire au plus vite."
+    },
+    {
+      "speaker": "Khamis",
+      "text": "Je, ulifanikiwa kufika kwa wakati? Tulipomaliza, ulikuwa bado hujafika.",
+      "phonetic_api": "/dʒɛ u.li.fa.niˈki.wa kuˈfi.ka kwa wa.kaˈti tu.li.pɔ.maˈli.za u.liˈku.wa ˈba.dɔ hu.dʒaˈfi.ka/",
+      "phonetic_simple": "JEH OO-LEE-FAH-NEE-KEE-WAH KOO-FEE-KAH KWAH WAH-KAH-TEE TOO-LEE-POH-MAH-LEE-ZAH OO-LEE-KOO-WAH BAH-DOH HOO-DJAH-FEE-KAH",
+      "translation": "Et as-tu réussi à arriver à temps ? Quand nous avons terminé, tu n'étais pas encore arrivée."
+    },
+    {
+      "speaker": "Rehema",
+      "text": "Nilipofika ukumbini, nilikuta ninyi mmeshatawanyika. Nilasikitika sana lakini nimejifunza kuchukua tahadhari mapema.",
+      "phonetic_api": "/ni.li.pɔˈfi.ka u.kuˈmbi.ni ni.liˈku.ta ˈni.ɲi m.mɛ.ʃa.ta.waˈɲi.ka ni.la.si.kiˈti.ka ˈsa.na laˈki.ni ni.mɛ.dʒiˈfu.nza kuˈtʃu.ku.a ta.haˈða.ri maˈpɛ.ma/",
+      "phonetic_simple": "NEE-LEE-POH-FEE-KAH OO-KOO-MBEE-NEE NEE-LEE-KOO-TAH NEE-NYEE MMEH-SHAH-TAH-WAH-NYEE-KAH NEE-LAH-SEE-KEE-TEE-KAH SAH-NAH LAH-KEE-NEE NEE-MEH-JEE-FOON-ZAH KOO-CHOO-KOO-AH TAH-HAH-ZAA-REE MAH-PEH-MAH",
+      "translation": "Quand je suis arrivée dans la salle, j'ai constaté que vous vous étiez déjà dispersés. J'étais très déçue mais j'ai appris à prendre mes précautions plus tôt."
+    }
+  ],
+  "cultural_notes": [
+    "La transmission des récits oraux s'accompagne souvent d'une gestuelle rythmée. Le recours à l'infixe '-ka-' structure la dynamique de la parole et maintient l'attention de l'auditoire.",
+    "Les pannes ou retards causés par les transports en commun comme les 'Daladala' font partie intégrante des péripéties ordinaires partagées par les citadins en Afrique de l'Est. La formule de réconfort 'Pole' (désolé pour toi) est immédiatement prononcée par l'interlocuteur.",
+    "Dire qu'une action est 'déjà' faite en employant le morphème '-mesha-' est une marque de précision temporelle intermédiaire indispensable pour témoigner de l'importance ou de l'urgence passée d'un événement."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la forme correcte pour exprimer une succession narrative : 'Hier je suis entré au bureau, puis j'ai écrit une lettre'.",
+      "options": [
+        "Jana niliingia ofisini, niliandika barua.",
+        "Jana niliingia ofisini, nikaandika barua.",
+        "Jana nimeingia ofisini, nikaandika barua.",
+        "Jana niliingia ofisini, nitaandika barua."
+      ],
+      "correct_answer": "Jana niliingia ofisini, nikaandika barua.",
+      "explanation": "Le premier verbe pose le cadre au passé historique avec '-li-', et le second bascule obligatoirement à l'infixe narratif '-ka-' pour traduire la suite logique."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Walipofika nyumbani, chakula kili[ ___ ]wa kimeshaiva. (Complétez avec le radical de l'auxiliaire 'être' pour former le plus-que-parfait).",
+      "correct_answer": "kuwa",
+      "hint": "Il s'agit de l'infinitif du verbe être qui sert d'auxiliaire temporel derrière le préfixe de classe et l'infixe -li-."
+    }
+  ]
+}

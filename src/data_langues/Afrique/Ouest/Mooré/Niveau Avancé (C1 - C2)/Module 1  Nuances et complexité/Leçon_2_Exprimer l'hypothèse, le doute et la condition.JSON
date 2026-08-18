@@ -1,0 +1,180 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Nuancer le degré de certitude d'une affirmation en utilisant les adverbes de doute",
+    "Formuler des conditions complexes réelles, potentielles et irréelles au présent et au futur",
+    "Exprimer l'incertitude ou la réserve face aux déclarations d'un tiers dans un discours argumenté"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La locution 'm mɩ paama' (peut-être) exige une articulation rapide de la consonne nasale bilabiale 'm' suivie de l'occlusive glottale 'p'. Le mot 'tõego' (possibilité / capacité) comporte un 'õ' fortement nasalisé combiné à une voyelle longue qu'il faut étirer sans bloquer le souffle.",
+    "common_pitfalls": "Attention à la particule conditionnelle 'sã n'. Le 'n' ne doit pas être prononcé comme une consonne occlusive alvéolaire [n] mais doit uniquement servir à nasaliser profondément la voyelle 'ã' qui le précède."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v20_1",
+      "term": "M mɩ paama",
+      "phonetic_api": "/m mɩ paːma/",
+      "phonetic_simple": "M MI PAA-MA",
+      "translation": "Peut-être / Il se peut que / Probablement",
+      "example_sentence": "M mɩ paama m na wa bēogo zaabre.",
+      "example_phonetic": "/m mɩ paːma m na wa beːɣo zaːbre/",
+      "example_translation": "Il se peut que je vienne demain soir."
+    },
+    {
+      "word_id": "v20_2",
+      "term": "Sɩda-sɩda",
+      "phonetic_api": "/sɪdasɪda/",
+      "phonetic_simple": "SI-DA-SI-DA",
+      "translation": "Certainement / Assurément / En toute vérité",
+      "example_sentence": "A na tūum sɩda-sɩda.",
+      "example_phonetic": "/a na tuːm sɪdasɪda/",
+      "example_translation": "Il travaillera assurément."
+    },
+    {
+      "word_id": "v20_3",
+      "term": "Tõego",
+      "phonetic_api": "/tõːɣo/",
+      "phonetic_simple": "TÕO-GO",
+      "translation": "Possibilité / Capacité / Éventualité",
+      "example_sentence": "Tõeg bēame t d koos dunda.",
+      "example_phonetic": "/tõːɣ beːame t d koːs dunda/",
+      "example_translation": "Il y a une possibilité pour que nous vendions aujourd'hui."
+    },
+    {
+      "word_id": "v20_4",
+      "term": "Sã n yaa",
+      "phonetic_api": "/sã n jaː/",
+      "phonetic_simple": "SAN N YAA",
+      "translation": "Si c'est le cas / Dans l'hypothèse où",
+      "example_sentence": "A sã n yaa woto, m pa na kẽngme.",
+      "example_phonetic": "/a sã n jaː woto m pa na kẽnɡme/",
+      "example_translation": "Dans l'hypothèse où c'est ainsi, je n'irais pas."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p20_1",
+      "original": "M pa tara sɩda-sɩda t tūum kãngã na koos dunda yĩnga.",
+      "phonetic_api": "/m pa tara sɪdasɪda t tuːm kãŋɡã na koːs dunda jĩnɡa/",
+      "phonetic_simple": "M PA TA-RA SI-DA-SI-DA T TOO-M KAN-NGAN NA KOAS DOUN-DA YIN-GA",
+      "translation": "Je n'ai pas la certitude absolue que ce projet portera ses fruits aujourd'hui.",
+      "context": "Exprimer une réserve forte ou un doute stratégique lors d'une réunion."
+    },
+    {
+      "phrase_id": "p20_2",
+      "original": "A sã n yɩ t ligdã pa na ta, d na maand bōene ?",
+      "phonetic_api": "/a sã n jɩ t liɣdã pa na ta d na mãːnd boːene/",
+      "phonetic_simple": "A SAN N YI T LIG-DAN PA NA TA, D NA MAAND BÓO-NÉ ?",
+      "translation": "S'il arrivait que l'argent ne suffise pas, que ferions-nous ?",
+      "context": "Poser une hypothèse de crise pour anticiper un problème financier."
+    },
+    {
+      "phrase_id": "p20_3",
+      "original": "M mɩ paama b na wa, la m pa rat n deeg pãngo.",
+      "phonetic_api": "/m mɩ paːma b na wa la m pa rat n deːɣ pãŋɡo/",
+      "phonetic_simple": "M MI PAA-MA B NA WA, LA M PA RAT N DÉEG PAN-GO",
+      "translation": "Il se peut qu'ils viennent, mais je ne préfère pas m'y fier entièrement.",
+      "context": "Exprimer le scepticisme face aux promesses d'un tiers."
+    },
+    {
+      "phrase_id": "p20_4",
+      "original": "Y sã n tall sũ-marse, y na paam sõngre.",
+      "phonetic_api": "/i sã n tall sũmarse i na paːm sõnɡre/",
+      "phonetic_simple": "Y SAN N TALL SOUN-MAR-SÉ, Y NA PAAM SON-GRÉ",
+      "translation": "Pourvu que vous fassiez preuve de retenue, vous obtiendrez du soutien.",
+      "context": "Formuler une conditionnalité positive basée sur une vertu morale."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La nuance du doute avec la locution prépropositionnelle 'M mɩ paama'",
+      "explanation": "Pour introduire une forte incertitude, une probabilité ou exprimer le doute ('peut-être', 'il se peut que'), le mooré place la locution invariable 'M mɩ paama' en tout début d'énoncé.",
+      "rules": [
+        "Structure : M mɩ paama + [Proposition sujet + verbe conjugué au futur ou présent].",
+        "Cette locution suspend la valeur de vérité factuelle de la phrase qui suit."
+      ],
+      "examples": [
+        {
+          "structure": "M mɩ paama + a + na + tūum",
+          "phonetic_api": "/m mɩ paːma a na tuːm/",
+          "meaning": "Peut-être qu'il travaillera / Il se peut qu'il travaille."
+        }
+      ]
+    },
+    {
+      "concept": "Le potentiel et l'éventualité future avec 'Sã n yɩ t...'",
+      "explanation": "Pour introduire une clause conditionnelle dont la réalisation est incertaine mais envisagée dans le futur, la langue utilise la formule complexe 'Sã n yɩ t...' (S'il s'avère que / S'il arrivait que).",
+      "rules": [
+        "Structure : [Sujet] + sã n yɩ t + [Proposition de condition], [Proposition de conséquence au futur avec na]."
+      ],
+      "examples": [
+        {
+          "structure": "A + sã n yɩ t + koasdã + koosame, d + na + raame",
+          "phonetic_api": "/a sã n jɩ t koːsdã koːsame d na raːme/",
+          "meaning": "S'il arrivait que le vendeur vende, nous achèterions."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ablassé (L'investisseur)",
+      "text": "Boukari, d sã n kẽes ligd kãseng tūum kãngã pūasẽ, d na paam pemsem sɩda-sɩda ?",
+      "phonetic_api": "/boukari d sã n kẽːs liɣd kãsẽŋ tuːm kãŋɡã puːasẽ d na paam pẽsem sɪdasɪda/",
+      "phonetic_simple": "BOU-KA-RI, D SAN N KÉES LIGD KAN-SENG TOO-M KAN-NGAN POO-A-SUEN, D NA PAAM PIM-SEM SI-DA-SI-DA ?",
+      "translation": "Boukari, si nous investissons une grande somme d'argent dans ce projet, obtiendrons-nous un profit certain ?"
+    },
+    {
+      "speaker": "Boukari (Le conseiller)",
+      "text": "M baa, m mɩ paama d na paame, la m pa tara sɩda-sɩda dunda yĩnga. Raagã sãamame.",
+      "phonetic_api": "/m baː m mɩ paːma d na paːme la m pa tara sɪdasɪda dunda jĩnɡa raːɣã sãːme/",
+      "phonetic_simple": "M BAA, M MI PAA-MA D NA PAA-MÉ, LA M PA TA-RA SI-DA-SI-DA DOUN-DA YIN-GA. RAA-GAN SAA-MÉ",
+      "translation": "Mon père, il se peut que nous en obtenions, mais je n'en ai pas la certitude absolue aujourd'hui. Le marché s'est détérioré."
+    },
+    {
+      "speaker": "Ablassé (L'investisseur)",
+      "text": "La a sã n yɩ t koosgã lēb n yɩ sõma bēogo daare ?",
+      "phonetic_api": "/la a sã n jɩ t koːsɣã leb n jɪ sõma beːɣo daːre/",
+      "phonetic_simple": "LA A SAN N YI T KOAS-GAN LEB N YI SO-MA BÉE-GO DAA-RÉ ?",
+      "translation": "Mais s'il arrivait que la vente redevienne excellente demain ?"
+    },
+    {
+      "speaker": "Boukari (Le conseiller)",
+      "text": "A sã n yaa woto, tõeg bēame t d paam sũ-noogo. Tɩlae t d tall sũ-marse.",
+      "phonetic_api": "/a sã n jaː woto tõːɣ beːame t d paam sũnoːɣo tɪlae t d tall sũmarse/",
+      "phonetic_simple": "A SAN N YAA WO-TO, TÕO-G BÉE-A-MÉ T D PAAM SOUN-NOO-GO. TI-LAE T D TALL SOUN-MAR-SÉ",
+      "translation": "Dans cette hypothèse, il est bien possible que nous y trouvions du bonheur. Il est obligatoire que nous soyons prudents."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les relations d'affaires ou les discussions coutumières au Burkina Faso, exprimer une certitude absolue sans nuance est souvent perçu comme un manque d'expérience ou de sagesse. On utilise volontiers des tournures hypothétiques pour ne pas brusquer le destin ou offenser ses partenaires.",
+    "Le concept de 'sũ-marse' (la retenue ou la patience du cœur) est ici appliqué aux choix financiers et aux spéculations : attendre de voir l'évolution d'une situation avant d'affirmer sa réussite est une règle d'or chez les commerçants expérimentés.",
+    "Le doute s'exprime également par le langage corporel : un léger hochement de tête accompagné d'un silence prolongé indique souvent que l'interlocuteur pèse l'hypothèse soumise avant de formuler ses réserves."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex20_1",
+      "type": "multiple_choice",
+      "question": "Quelle locution mooré permet de traduire l'idée d'incertitude ou de probabilité ('peut-être') ?",
+      "options": [
+        "Sɩda-sɩda",
+        "M mɩ paama",
+        "Yaa tɩlae"
+      ],
+      "correct_answer": "M mɩ paama",
+      "explanation": "'M mɩ paama' sert spécifiquement à formuler le doute ou une hypothèse incertaine en début de phrase."
+    },
+    {
+      "exercise_id": "ex20_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A [ ___ ] yaa woto, m pa na kẽngme. (Traduction : Dans l'hypothèse où c'est ainsi, je n'irais pas.)",
+      "correct_answer": "sã n",
+      "hint": "La double particule indispensable pour ouvrir une proposition conditionnelle."
+    }
+  ]
+}

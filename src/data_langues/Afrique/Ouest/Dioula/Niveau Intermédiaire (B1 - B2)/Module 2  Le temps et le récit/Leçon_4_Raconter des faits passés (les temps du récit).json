@@ -1,0 +1,302 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Distinguer l'accompli d'action, l'accompli d'état et le passé lointain en dioula",
+    "Utiliser le marqueur temporel du passé du second plan 'tun' pour contextualiser un récit",
+    "Structurer une narration chronologique à l'aide de connecteurs temporels de succession",
+    "Raconter un souvenir personnel ou un fait historique simple"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le marqueur de passé 'tun' exige une prononciation claire de la voyelle fermée postérieure nasale /uⁿ/ sans détacher la nasalisation. Le connecteur 'o kɔfɛ' met en scène la voyelle ouverte /ɔ/. Le suffixe d'accompli d'action transitive '-ra' ou '-na' demande une réalisation brève et un enchaînement direct avec le radical verbal.",
+    "common_pitfalls": "Attention à ne pas confondre le marqueur de passé 'tun' /tuⁿ/ avec 'tan' /taⁿ/ (dix) ou 'to' /to/ (rester). Veillez également à ne pas sur-allonger la voyelle dans la particule d'inaccompli passé 'tun bɛ' lors du débit parlé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Tun",
+      "phonetic_api": "/tuⁿ/",
+      "phonetic_simple": "TOUN",
+      "translation": "Marqueur du passé / Était / Avait (antériorité)",
+      "example_sentence": "N tun bɛ Bobo dugu la san tɛmɛnen fɛ",
+      "example_phonetic": "/n̩ tuⁿ bɛ bo.bo du.gu la san tɛ.mɛ.neⁿ fɛ/",
+      "example_translation": "J'étais à Bobo-Dioulasso l'année dernière."
+    },
+    {
+      "word_id": "v2",
+      "term": "Tɛmɛnen",
+      "phonetic_api": "/tɛ.mɛ.neⁿ/",
+      "phonetic_simple": "TÈ-MÈ-NEN",
+      "translation": "Passé / Écoulé / Précédent",
+      "example_sentence": "Kalo tɛmɛnen na, an ka baara caya ka bon",
+      "example_phonetic": "/ka.lo tɛ.mɛ.neⁿ na an ka baː.ra t͡ʃa.ja ka boⁿ/",
+      "example_translation": "Le mois passé, notre charge de travail était grande."
+    },
+    {
+      "word_id": "v3",
+      "term": "K'a bɛn ni ... ye",
+      "phonetic_api": "/kʼa bɛⁿ ni ... jɛ/",
+      "phonetic_simple": "KA BEN NI ... YÈ",
+      "translation": "À l'époque de / Au moment de (historique)",
+      "example_sentence": "K'a bɛn ni n tɔgɔda-ko ye, n tun bɛ kalan kɛ la",
+      "example_phonetic": "/kʼa bɛⁿ ni n̩ tɔ.gɔ.da ko jɛ n̩ tuⁿ bɛ ka.lan kɛ la/",
+      "example_translation": "À l'époque de ma jeunesse, j'étudiais."
+    },
+    {
+      "word_id": "v4",
+      "term": "Kabini / Kabisiri",
+      "phonetic_api": "/ka.bi.ni/",
+      "phonetic_simple": "KA-BI-NI",
+      "translation": "Depuis / Depuis que",
+      "example_sentence": "Kabini kunon, ji-sira tiɲɛni m'a labɛn",
+      "example_phonetic": "/ka.bi.ni ku.noⁿ d͡ʒi si.ra ti.ɲɛ.ni mʼa la.bɛⁿ/",
+      "example_translation": "Depuis hier, la panne de plomberie n'a pas été réparée."
+    },
+    {
+      "word_id": "v5",
+      "term": "O tuma la",
+      "phonetic_api": "/o tu.ma la/",
+      "phonetic_simple": "O TOU-MA LA",
+      "translation": "À ce moment-là / Alors",
+      "example_sentence": "O tuma la, an bɛɛ ka dusukun tun kaɲi",
+      "example_phonetic": "/o tu.ma la an bɛː ka du.su.kuⁿ tuⁿ ka.ɲi/",
+      "example_translation": "À ce moment-là, nos cœurs à tous étaient en paix."
+    },
+    {
+      "word_id": "v6",
+      "term": "Tariku / Kɔ-ko-w",
+      "phonetic_api": "/ta.ri.ku/",
+      "phonetic_simple": "TA-RI-KOU",
+      "translation": "L'histoire / Le passé / Les faits anciens",
+      "example_sentence": "An ka dugu tariku ka bon kosɛbɛ",
+      "example_phonetic": "/an ka du.gu ta.ri.ku ka boⁿ ko.sɛ.bɛ/",
+      "example_translation": "L'histoire de notre ville est très riche."
+    },
+    {
+      "word_id": "v7",
+      "term": "Yala-tɛmɛ",
+      "phonetic_api": "/ja.la tɛ.mɛ/",
+      "phonetic_simple": "YA-LA-TÈ-MÈ",
+      "translation": "Se promener autrefois / Parcourir dans le passé",
+      "example_sentence": "N tun bɛ yala-tɛmɛ sugu kɔnɔ su ni tile",
+      "example_phonetic": "/n̩ tuⁿ bɛ ja.la tɛ.mɛ su.gu kɔ.nɔ su ni ti.le/",
+      "example_translation": "Je parcourais autrefois le marché nuit et jour."
+    },
+    {
+      "word_id": "v8",
+      "term": "Daminɛ-ko",
+      "phonetic_api": "/da.mi.nɛ ko/",
+      "phonetic_simple": "DA-MI-NÈ-KO",
+      "translation": "Le commencement / L'origine d'un fait",
+      "example_sentence": "O ko nin daminɛ-ko tun ka gban",
+      "example_phonetic": "/o ko niⁿ da.mi.nɛ ko tuⁿ ka g͡baⁿ/",
+      "example_translation": "L'origine de cette affaire était complexe."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "San tɛmɛnen fɛ, n tun bɛ sigila so-haya kɔnɔ, o kɔfɛ n bɔra kɛnɛ ma.",
+      "phonetic_api": "/saⁿ tɛ.mɛ.neⁿ fɛ n̩ tuⁿ bɛ si.gi.la so ha.ja kɔ.nɔ o kɔ.fɛ n̩ bɔ.ra kɛ.nɛ ma/",
+      "phonetic_simple": "SAN TÈ-MÈ-NEN FÈ, N TOUN BÈ SI-GI-LA SO-HA-YA KÕ-NÕ, O KÕ-FÈ N BÕ-RA KÈ-NÈ MA",
+      "translation": "L'année passée, j'étais installé dans une location, ensuite je l'ai quittée.",
+      "context": "Contextualiser et introduire un événement passé."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Kabini n denmisɛn tuma la, dugu nin yiriwali tun m'a daminɛ kosɛbɛ.",
+      "phonetic_api": "/ka.bi.ni n̩ deⁿ.mi.sɛⁿ tu.ma la du.gu niⁿ ji.ri.wa.li tuⁿ mʼa da.mi.nɛ ko.sɛ.bɛ/",
+      "phonetic_simple": "KA-BI-NI N DEN-MI-SÈN TOU-MA LA, DOU-GOU NIN YI-RI-WA-LI TOUN MA DA-MI-NÈ KO-SÈ-BÈ",
+      "translation": "Depuis mon enfance, le développement de cette ville n'avait pas vraiment commencé.",
+      "context": "Évoquer un état de fait révolu."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Kunon, ji-sira cira toilette kɔnɔ, o tuma la n weele-labɛnna baarakɛla.",
+      "phonetic_api": "/ku.noⁿ d͡ʒi si.ra t͡ʃi.ra twa.lɛt kɔ.nɔ o tu.ma la n̩ we.le la.bɛⁿ.na baː.ra.kɛ.la/",
+      "phonetic_simple": "KOU-NON, DJI-SI-RA TCHI-RA TWA-LÈT KÕ-NÕ, O TOU-MA LA N WEE-LE-LA-BEN-NA BAA-RA-KÈ-LA",
+      "translation": "Hier, un tuyau a éclaté dans les toilettes, à ce moment-là j'ai fait appeler un artisan.",
+      "context": "Raconter une succession d'actions passées."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Nisɔndiya tun bɛ an ka siginyɔgɔnya sira la k'a bɛn ni an fa-w ka tuma ye.",
+      "phonetic_api": "/ni.sɔⁿ.di.ja tuⁿ bɛ an ka si.gi.ɲɔ.gɔ.nja si.ra la kʼa bɛⁿ ni an fa.w ka tu.ma d͡ʒɛ/",
+      "phonetic_simple": "NI-SON-DI-YA TOUN BÈ AN KA SI-GI-GNÕ-GÕ-NYA SI-RA LA KA BEN NI AN FA-W KA TOU-MA YÈ",
+      "translation": "La joie régnait dans nos relations de voisinage à l'époque de nos pères.",
+      "context": "Faire une description nostalgique du passé."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Kalo fila tɛmɛna, n ma wari s sɔrɔ, haya-wari tun tɛ se ka sara.",
+      "phonetic_api": "/ka.lo fi.la tɛ.mɛ.na n̩ ma wa.ri sɔ.rɔ ha.ja wa.ri tuⁿ tɛ se ka sa.ra/",
+      "phonetic_simple": "KA-LO FI-LA TÈ-MÈ-NA, N MA WA-RI SÕ-RÕ, HA-YA-WA-RI TOUN TÈ SE KA SA-RA",
+      "translation": "Deux mois s'étaient écoulés, je n'avais pas trouvé d'argent, le loyer ne pouvait être payé.",
+      "context": "Expliquer l'arrière-plan d'une situation difficile passée."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "O kɔfɛ, sotigi nana so la ka sɛbɛn-bɛn ɲini n fɛ.",
+      "phonetic_api": "/o kɔ.fɛ so.ti.gi na.na so la ka sɛ.bɛn bɛn ɲi.ni n̩ fɛ/",
+      "phonetic_simple": "O KÕ-FÈ, SO-TI-GI NA-NA SO LA KA SÈ-BÈN-BEN GNI-NI N FÈ",
+      "translation": "Ensuite, le propriétaire est venu à la maison pour réclamer le contrat écrit.",
+      "context": "Relancer l'action dans une narration."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "An tun ma dugu tariku bɛɛ lɔn, nka an mɔgɔw ka so ɲɛfɛ-mɔgɔ jɛrɛ a fɔra an ye.",
+      "phonetic_api": "/an tuⁿ ma du.gu ta.ri.ku bɛː lɔⁿ n̩.ka an mɔ.gɔ.w ka so ɲɛ.fɛ mɔ.gɔ d͡ʒɛ.rɛ a fɔ.ra an jɛ/",
+      "phonetic_simple": "AN TOUN MA DOU-GOU TA-RI-KOU BÈÈ LÕN, NKA AN MÕ-GÕ-W KA SO GNIÈ-FÈ-MÕ-GÕ DJÈ-RÈ A FÕ-RA AN YÈ",
+      "translation": "Nous ne connaissions pas toute l'histoire de la ville, mais le chef de notre concession nous l'a racontée.",
+      "context": "Évoquer la transmission orale du passé."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "O ko tɛmɛnen na, gasi tun tɛ na an fɛ fana sisan.",
+      "phonetic_api": "/o ko tɛ.mɛ.neⁿ na ga.si tuⁿ tɛ na an fɛ fa.na si.san/",
+      "phonetic_simple": "O KO TÈ-MÈ-NEN NA, GA-SI TOUN TÈ NA AN FÈ FA-NA SI-SAN",
+      "translation": "Cette affaire étant passée, cela n'avait plus d'importance pour nous non plus.",
+      "context": "Clore un récit au passé."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'imparfait et le plus-que-parfait avec le marqueur 'tun'",
+      "explanation": "Pour situer une action ou une description dans le passé (équivalant à l'imparfait ou au plus-que-parfait français), le dioula place le morphème invariable 'tun' immédiatement après le sujet de la phrase, juste avant les marques de prédication habituelles ('bɛ', 'tɛ', ou la marque d'accompli).",
+      "rules": [
+        "Description au passé (Imparfait) : Sujet + tun + bɛ/tɛ + Complément + la.",
+        "Action antérieure (Plus-que-parfait) : Sujet + tun + ma + Verbe (négatif accompli) ou Sujet + tun + Verbe-ra/na."
+      ],
+      "examples": [
+        {
+          "structure": "N (Je) + tun + bɛ + Bobo la (à Bobo)",
+          "phonetic_api": "/n̩ tuⁿ bɛ bo.bo la/",
+          "meaning": "J'étais à Bobo-Dioulasso."
+        },
+        {
+          "structure": "Sotigi + tun + ma + na (venir)",
+          "phonetic_api": "/so.ti.gi tuⁿ ma na/",
+          "meaning": "Le propriétaire n'était pas venu."
+        }
+      ]
+    },
+    {
+      "concept": "La structuration chronologique du récit",
+      "explanation": "Pour faire progresser un récit au passé de manière fluide, le niveau B1 exige l'usage régulier de connecteurs temporels de succession placés en tête de proposition pour marquer les étapes du déroulement des faits.",
+      "rules": [
+        "'O tuma la' = À ce moment-là / Alors (coïncidence temporelle).",
+        "'O kɔfɛ' = Après cela / Ensuite (succession immédiate).",
+        "'Kabini ... fɛ / na' = Depuis que (continuité temporelle à partir d'un point passé)."
+      ],
+      "examples": [
+        {
+          "structure": "O tuma la + n + weele-labɛnna (j'ai fait appeler-réparer)",
+          "phonetic_api": "/o tu.ma la n̩ we.le la.bɛⁿ.na/",
+          "meaning": "À ce moment-là, j'ai fait faire des réparations."
+        }
+      ]
+    },
+    {
+      "concept": "La particule de qualification passée '-nen'",
+      "explanation": "Pour transformer un verbe d'action en adjectif désignant un état résultant du passé (ex: passé, terminé, gâté), on ajoute le suffixe qualificatif '-nen' au radical du verbe.",
+      "rules": [
+        "Verbe + nen = Participe passé employé comme qualificatif post-nominal.",
+        "Tɛmɛ (passer) + nen = tɛmɛnen (passé / écoulé)."
+      ],
+      "examples": [
+        {
+          "structure": "San (année) + tɛmɛnen (passée)",
+          "phonetic_api": "/saⁿ tɛ.mɛ.neⁿ/",
+          "meaning": "L'année dernière / L'année passée."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Bakary",
+      "text": "I ni ce, Alassane ! Kalo tɛmɛnen na, n tun bɛ i ɲini la dugukɔnɔ-yɔrɔ fɛ, nka n m'i sɔrɔ. I tun bɛ fan juman ?",
+      "phonetic_api": "/i ni t͡ʃe a.la.saⁿ ka.lo tɛ.mɛ.neⁿ na n̩ tuⁿ bɛ i ɲi.ni la du.gu.kɔ.nɔ jɔ.rɔ fɛ n̩.ka n̩ mʼi sɔ.rɔ i tuⁿ bɛ fa.n d͡ʒu.maⁿ/",
+      "phonetic_simple": "I NI TCHE, A-LA-SANE ! KA-LO TÈ-MÈ-NEN NA, N TOUN BÈ I GNI-NI LA DOU-GOU-KÕ-NÕ-YÕ-RÕ FÈ, NKA N MA I SÕ-RÕ. I TOUN BÈ FAN DJOU-MAN ?",
+      "translation": "Bonjour, Alassane ! Le mois passé, je te cherchais dans le quartier, mais je ne t'ai pas trouvé. Où étais-tu donc ?"
+    },
+    {
+      "speaker": "Alassane",
+      "text": "I ni ce, Bakary. Ɔwɔ, o tuma la, n tun bɛ Bobo-Dioulasso dugu la tariku ni kalan ko fɛ. N mɛnna yan fɛ tɛ.",
+      "phonetic_api": "/i ni t͡ʃe ba.ka.ry ɔ.wɔ o tu.ma la n̩ tuⁿ bɛ bo.bo du.gu la ta.ri.ku ni ka.lan ko fɛ n̩ mɛn.na jaⁿ fɛ tɛ/",
+      "phonetic_simple": "I NI TCHE, BA-KA-RY. Õ-WÕ, O TOU-MA LA, N TOUN BÈ BO-BO-DIOU-LAS-SO DOU-GOU LA TA-RI-KOU NI KA-LAN KO FÈ. N MÈN-NA YAN FÈ TÈ.",
+      "translation": "Bonjour, Bakary. Oui, à ce moment-là, j'étais à Bobo-Dioulasso pour des questions d'histoire et d'études. Je n'étais pas resté dans les environs d'ici."
+    },
+    {
+      "speaker": "Bakary",
+      "text": "O kaɲi fana. Kabini i ka denmisɛn tuma la, n tun bɛ i lɔn ni kɛnɛya ko ye. I ka so-haya ko tun bɛ di o kɔfɛ ?",
+      "phonetic_api": "/o ka.ɲi fa.na ka.bi.ni i ka deⁿ.mi.sɛⁿ tu.ma la n̩ tuⁿ bɛ i lɔⁿ ni kɛ.nɛ.ja ko jɛ i ka so ha.ja ko tuⁿ bɛ di o kɔ.fɛ/",
+      "phonetic_simple": "O KA-GNI FA-NA. KA-BI-NI I KA DEN-MI-SÈN TOU-MA LA, N TOUN BÈ I LÕN NI KÈ-NÈ-YA KO YÈ. I KA SO-HA-YA KO TOUN BÈ DI O KÕ-FÈ ?",
+      "translation": "C'est bien aussi. Depuis ton enfance, je te connais comme quelqu'un de dynamique. Comment se passait ta location de maison après cela ?"
+    },
+    {
+      "speaker": "Alassane",
+      "text": "O ko tun ka gban tɔɔni ! Sira daminɛ na, ji-sira cira toilette kɔnɔ ka yɔrɔ bɛɛ kori. O tuma la, nisɔngoya tun bɛ n na kosɛbɛ.",
+      "phonetic_api": "/o ko tuⁿ ka g͡baⁿ tɔː.ni si.ra da.mi.nɛ na d͡ʒi si.ra t͡ʃi.ra twa.lɛt kɔ.nɔ ka jɔ.rɔ bɛː ko.ri o tu.ma la ni.sɔⁿ.go.ja tuⁿ bɛ n̩ na ko.sɛ.bɛ/",
+      "phonetic_simple": "O KO TOUN KA GBAN TÕÕ-NI ! SI-RA DA-MI-NÈ NA, DJI-SI-RA TCHI-RA TWA-LÈT KÕ-NÕ KA YÕ-RÕ BÈÈ KO-RI. O TOU-MA LA, NI-SON-GO-YA TOUN BÈ N NA KO-SÈ-BÈ.",
+      "translation": "Cette affaire était un peu compliquée ! Au début, un tuyau a éclaté dans les toilettes et a tout inondé. À ce moment-là, la tristesse m'avait vraiment envahi."
+    },
+    {
+      "speaker": "Bakary",
+      "text": "Sotigi tun ma wari di i ma ka labɛn kɛ ? O tuma la, i tun ka kan ka sɛbɛn-bɛn jɛrɛ bɔ o kɛnɛ ma.",
+      "phonetic_api": "/so.ti.gi tuⁿ ma wa.ri di i ma ka la.bɛn kɛ o tu.ma la i tuⁿ ka kaⁿ ka sɛ.bɛn bɛn d͡ʒɛ.rɛ bɔ o kɛ.nɛ ma/",
+      "phonetic_simple": "SO-TI-GI TOUN MA WA-RI DI I MA KA LA-BEN KÈ ? O TOU-MA LA, I TOUN KA KAN KA SÈ-BÈN-BEN DJÈ-RÈ BÕ O KÈ-NÈ MA.",
+      "translation": "Le propriétaire ne t'avait pas donné d'argent pour faire les réparations ? En ce moment-là, tu aurais dû sortir le contrat écrit lui-même."
+    },
+    {
+      "speaker": "Alassane",
+      "text": "Ɔwɔ, o kɔfɛ n a weele-labɛnna, a sanna ɲɛman. Gasi tɛ na sisan, tariku tɛmɛnen ye !",
+      "phonetic_api": "/ɔ.wɔ o kɔ.fɛ n̩ a we.le la.bɛⁿ.na a saⁿ.na ɲɛ.maⁿ ga.si tɛ na si.saⁿ ta.ri.ku tɛ.mɛ.neⁿ jɛ/",
+      "phonetic_simple": "Õ-WÕ, O KÕ-FÈ N A WEE-LE-LA-BEN-NA, A SAN-NA GNU-MAN. GA-SI-TÈ-NA SI-SAN, TA-RI-KOU TÈ-MÈ-NEN YÈ !",
+      "translation": "Oui, par la suite j'ai fait faire les réparations, tout a été correctement réglé. Cela n'a plus d'importance maintenant, c'est de l'histoire ancienne !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'art du récit ('baro') en culture mandingue et dioula, situer les faits par rapport à la mémoire collective ou aux générations ('k'a bɛn ni an fa-w ka tuma ye') est une pratique oratoire essentielle. Le passé n'est pas seulement une date linéaire, mais un réseau de relations et de contextes partagés.",
+    "La transmission des souvenirs familiaux ou de l'histoire locale ('tariku') se fait traditionnellement le soir dans la cour ('kɛnɛba'), sous la direction du chef de concession ou des anciens. Clore un récit par une formule d'apaisement montrant que le litige ou le problème est résolu ('tariku tɛmɛnen ye') permet de tourner la page et de maintenir l'harmonie communautaire."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L4_Ex1",
+      "type": "multiple_choice",
+      "question": "Quel marqueur grammatical est obligatoirement inséré après le sujet pour basculer une description ou un état dans le passé (imparfait) ?",
+      "options": [
+        "Tun",
+        "Sini",
+        "Bi",
+        "Joli"
+      ],
+      "correct_answer": "Tun",
+      "explanation": "Le morphème 'tun' est le marqueur de passé par excellence en dioula. Il modifie le temps de la phrase vers l'imparfait ou le plus-que-parfait selon le contexte."
+    },
+    {
+      "exercise_id": "B1_M2_L4_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour lier deux événements successifs dans une narration passée en disant 'Après cela / Ensuite', on utilise le connecteur : 'O [ ___ ]'.",
+      "correct_answer": "kɔfɛ",
+      "hint": "Composé signifiant littéralement 'du côté de l'arrière / après'."
+    },
+    {
+      "exercise_id": "B1_M2_L4_Ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie exactement la structure nominale qualifiée 'san tɛmɛnen fɛ' ?",
+      "options": [
+        "L'année prochaine",
+        "Pendant l'année passée / L'année dernière",
+        "Tous les ans à la même période",
+        "Au début de l'année en cours"
+      ],
+      "correct_answer": "Pendant l'année passée / L'année dernière",
+      "explanation": "'San' (année) associé au participe passé 'tɛmɛnen' (écoulé/passé) permet de dater précisément un fait survenu l'année précédente."
+    }
+  ]
+}

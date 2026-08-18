@@ -1,0 +1,133 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons",
+  "learning_objectives": [
+    "Nommer les aliments de base et boissons courantes en Baga",
+    "Exprimer la faim, la soif ou le besoin d'acheter un repas",
+    "Commander ou demander un produit alimentaire au marché"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le terme pour l'eau, 'sɔ̀', emploie la voyelle ouverte /ɔ/. Prononcez-la de manière claire en ouvrant bien la bouche. Le riz, 'məlɔ̀ŋ', possède la voyelle centrale /ə/ et se termine par une forte nasalisation vélaire.",
+    "common_pitfalls": "Ne confondez pas le verbe 'di' (manger) et le proclitique de focalisation finale 'di' utilisé dans la structure 'mu ... di'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "b028",
+      "term": "sɔ̀",
+      "phonetic_api": "/sɔ̀/",
+      "phonetic_simple": "SO",
+      "translation": "eau / boisson",
+      "example_sentence": "Mə̀ lɔ̀ sɔ̀ fɛ̀ɛ̀ ya",
+      "example_phonetic": "/mə̀ lɔ̀ sɔ̀ fɛ̀ː ja/",
+      "example_translation": "Je veux de l'eau maintenant"
+    },
+    {
+      "word_id": "b029",
+      "term": "məlɔ̀ŋ",
+      "phonetic_api": "/məlɔ̀ŋ/",
+      "phonetic_simple": "ME-LON",
+      "translation": "riz (cuit ou en grain)",
+      "example_sentence": "Məlɔ̀ŋ mu ya gba ?",
+      "example_phonetic": "/məlɔ̀ŋ mu ja gba/",
+      "example_translation": "Y a-t-il du riz ici ?"
+    },
+    {
+      "word_id": "b030",
+      "term": "di",
+      "phonetic_api": "/di/",
+      "phonetic_simple": "DII",
+      "translation": "manger / consommer",
+      "example_sentence": "Mə̀ na məlɔ̀ŋ di",
+      "example_phonetic": "/mə̀ na məlɔ̀ŋ di/",
+      "example_translation": "Je vais manger du riz"
+    },
+    {
+      "word_id": "b031",
+      "term": "gbɛ́",
+      "phonetic_api": "/gɓɛ́/",
+      "phonetic_simple": "GBÉ",
+      "translation": "boire / étancher sa soif",
+      "example_sentence": "Gbɛ́ sɔ̀ n bɛ́ɛ",
+      "example_phonetic": "/gɓɛ́ sɔ̀ ⁿɓɛ́ː/",
+      "example_translation": "Bois de l'eau avec moi"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "bp017",
+      "original": "Məlɔ̀ŋ kàn sɔ̀ mu ya di !",
+      "phonetic_api": "/məlɔ̀ŋ kàn sɔ̀ mu ja di/",
+      "phonetic_simple": "ME-LON KAN SO MOO YA DI !",
+      "translation": "Le riz et l'eau sont servis ici !",
+      "context": "Annoncer le repas à la famille dans la concession"
+    },
+    {
+      "phrase_id": "bp018",
+      "original": "Mə̀ lɔ̀ kə̀ gbɛ́ sɔ̀ bɛ́ɛ̀",
+      "phonetic_api": "/mə̀ lɔ̀ kə gɓɛ́ sɔ̀ ɓɛ́ː/",
+      "phonetic_simple": "ME LO KE GBÉ SO BÉÉ",
+      "translation": "Je désire boire de l'eau s'il te plaît.",
+      "context": "Exprimer poliment sa soif chez un hôte"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la volonté immédiate avec 'lɔ̀ ... fɛ̀ɛ̀'",
+      "explanation": "En Baga, pour exprimer un besoin pressant ou une volonté claire (manger, boire), on insère le verbe 'lɔ̀' (vouloir/aimer) devant l'objet ou l'action, et on ferme la proposition par la postposition associative 'fɛ̀ɛ̀'.",
+      "rules": [
+        "Structure standard : Sujet + lɔ̀ + [Aliment / Action] + fɛ̀ɛ̀."
+      ],
+      "examples": [
+        {
+          "structure": "Mə̀ (Je) + lɔ̀ (vouloir) + sɔ̀ (eau) + fɛ̀ɛ̀",
+          "phonetic_api": "/mə̀ lɔ̀ sɔ̀ fɛ̀ː/",
+          "meaning": "Je veux de l'eau"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "Temba, i lɔ̀ kə̀ di məlɔ̀ŋ fɛ̀ɛ̀ ya-njɔ̀ɔ̀ ?",
+      "phonetic_api": "/tɛmɓa i lɔ̀ kə di məlɔ̀ŋ fɛ̀ː ja ⁿd͡ʒɔ̀ː/",
+      "phonetic_simple": "TEM-BA, I LO KE DII ME-LON FÈÈ YA-N-DJOO ?",
+      "translation": "Temba, veux-tu manger du riz aujourd'hui ?"
+    },
+    {
+      "speaker": "Temba",
+      "text": "Awan Sékou ! Mə̀ lɔ̀ məlɔ̀ŋ di fɛ̀ɛ̀ táàn. Kɔ̀ n bɛ́ɛ sɔ̀ gba !",
+      "phonetic_api": "/awan sɛku mə̀ lɔ̀ məlɔ̀ŋ di fɛ̀ː taːn kɔ̀ ⁿɓɛ́ː sɔ̀ gba/",
+      "phonetic_simple": "A-WAN SÉ-KOO ! ME LO ME-LON DII FÈÈ TAAN. KO N BÉÉ SO GBA !",
+      "translation": "Oui Sékou ! Je veux vraiment manger du riz. Donne-moi de l'eau aussi !"
+    }
+  ],
+  "cultural_notes": [
+    "Le riz ('məlɔ̀ŋ') constitue la base absolue de l'alimentation chez les Bagas. Cultivé de manière traditionnelle dans les mangroves inondées de la Basse-Guinée, il accompagne presque toujours les sauces à base de poisson frais ou de crabe."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L8_ex1",
+      "type": "multiple_choice",
+      "question": "Quel mot désigne le riz en langue Baga ?",
+      "options": [
+        "sɔ̀",
+        "məlɔ̀ŋ",
+        "di"
+      ],
+      "correct_answer": "məlɔ̀ŋ",
+      "explanation": "'məlɔ̀ŋ' correspond à l'aliment de base, le riz."
+    },
+    {
+      "exercise_id": "A1_M3_L8_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mə̀ lɔ̀ [ ___ ] fɛ̀ɛ̀ (Je veux de l'eau).",
+      "correct_answer": "sɔ̀",
+      "hint": "Mot très court de deux lettres"
+    }
+  ]
+}

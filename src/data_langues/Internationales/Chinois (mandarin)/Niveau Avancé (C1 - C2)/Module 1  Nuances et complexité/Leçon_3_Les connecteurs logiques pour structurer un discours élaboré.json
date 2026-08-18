@@ -1,0 +1,218 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Connecteurs logiques pour un discours élaboré",
+  "learning_objectives": [
+    "Exprimer des causalités indirectes ou structurelles avec 鉴于 (jiànyú) et 由此导致 (yóucǐ dǎozhǐ)",
+    "Formuler des rapports de causalité formels ou inversés à l'aide de 以致于 (yǐzhìyú) et 归因于 (guīyīnyú)",
+    "Traduire l'intentionnalité politique, commerciale ou stratégique avec 以便 (yǐbiàn) et 旨在 (zhǐzài)",
+    "Structurer un rapport d'analyse logique complexe et interconnecté"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon s'articule autour de marqueurs de relations logiques exigeant une grande précision tonale. Le mot 鉴于 (jiànyú - au vu de / étant donné) associe un 4ème ton descendant sec (jiàn) à un 2ème ton montant (yú). Le terme 旨在 (zhǐzài - avoir pour but de) nécessite un 3ème ton bas fléchi (zhǐ) suivi d'un 4ème ton tombant franc (zài). L'expression 以致于 (yǐzhìyú - de sorte que / à tel point que) demande d'enchaîner un 3ème ton, un 4ème ton, puis un 2ème ton.",
+    "common_pitfalls": "Faites attention au verbe 导致 (dǎozhǐ - entraîner / causer) : les deux caractères se prononcent au 3ème ton. À l'oral, la première syllabe (dǎo) se transforme en un 2ème ton montant, tandis que (zhǐ) maintient son 3ème ton bas. Veillez également à ne pas confondre 导致 (qui introduit une conséquence négative) avec 由此 (yóucǐ - de ce fait)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "鉴于",
+      "phonetic_api": "/tɕi̯ɛn˥˩ jɥ̯˧˥/",
+      "phonetic_simple": "DLIEN-YU",
+      "translation": "Au vu de / Étant donné / Considérant que",
+      "example_sentence": "鉴于当前的市场形势，我们决定调整投资策略。",
+      "example_phonetic": "/tɕi̯ɛn˥˩ jɥ̯˧˥ tɕʰɥ̯ɛn tɕʰiʊ̯ dɤ ʂʐ̩ tʂʰaŋ ɕiŋ ʂʐ尊 wo mən tɕɥ̯ɛ tiŋ tʰi̯aʊ̯ tʂəŋ tʰoʊ̯ tsʐ̩ tsʰɤ ly ʔ/",
+      "example_translation": "Au vu de la situation actuelle du marché, nous avons décidé de réajuster notre strategy d'investissement."
+    },
+    {
+      "word_id": "v2",
+      "term": "导致",
+      "phonetic_api": "/taʊ̯˧˥ tʂʐ̩˨˩˦/",
+      "phonetic_simple": "DAO-DZEU",
+      "translation": "Entraîner / Causer / Provoquer (conséquence négative)",
+      "example_sentence": "管理不善可能会导致项目失败。",
+      "example_phonetic": "/kwan li ʔpu ʂan kʰɤ nəŋ xwei̯ taʊ̯˧˥ tʂʐ̩˨˩˦ ɕi̯aŋ mu ʂʐ ʔpaɪ̯/",
+      "example_translation": "Une mauvaise gestion peut potentiellement mener à l'échec du projet."
+    },
+    {
+      "word_id": "v3",
+      "term": "以致于",
+      "phonetic_api": "/i ʔtʂʐ̩˥˩ jɥ̯˧˥/",
+      "phonetic_simple": "EE-DZEU-YU",
+      "translation": "De sorte que / À tel point que / Si bien que (souvent négatif)",
+      "example_sentence": "他工作太投入，以致于忽略了家庭。",
+      "example_phonetic": "/tʰa kʊŋ dzwɔ tʰaɪ̯ ttsʰɥ̯ɛn i ʔtʂʐ̩˥˩ jɥ̯˧˥ xu lɥ̯ɛ lɤ tɕi̯a tʰiŋ/",
+      "example_translation": "Il était tellement absorbé par son travail qu'il en a fini par négliger sa famille."
+    },
+    {
+      "word_id": "v4",
+      "term": "旨在",
+      "phonetic_api": "/tʂʐ̩˨˩˦ dzaɪ̯˥˩/",
+      "phonetic_simple": "DZEU-DZAÏ",
+      "translation": "Viser à / Avoir pour but de / S'assigner pour mission",
+      "example_sentence": "这项新政策旨在提高中小企业的竞争力。",
+      "example_phonetic": "/tʂa ɕi̯aŋ ɕin tʂəŋ tsʰɤ tʂʐ̩˨˩˦ dzaɪ̯˥˩ tʰi kaʊ̯ tʂʊŋ ɕi̯aʊ̯ tɕi jɥ̯ dɤ tɕiŋ tʂəŋ li ʔ/",
+      "example_translation": "Cette nouvelle politique vise à renforcer la compétitivité des petites et moyennes entreprises."
+    },
+    {
+      "word_id": "v5",
+      "term": "以便",
+      "phonetic_api": "/i ʔpi̯ɛn˥˩/",
+      "phonetic_simple": "EE-BIEN",
+      "translation": "Afin de / De façon à / Pour que (formel)",
+      "example_sentence": "请提前发送会议议程，以便大家做好准备。",
+      "example_phonetic": "/tɕʰiŋ tʰi tɕʰi̯ɛn fa sʊŋ xwei̯ i tʂʰəŋ i ʔpi̯ɛn˥˩ da tɕi̯a dzwɔ xaʊ̯ tʂwən beɪ̯/",
+      "example_translation": "Veuillez envoyer l'ordre du jour à l'avance afin que tout le monde puisse bien se préparer."
+    },
+    {
+      "word_id": "v6",
+      "term": "归因于",
+      "phonetic_api": "/kwei̯˥ iŋ˥ jɥ̯˧˥/",
+      "phonetic_simple": "GUEI-IN-YU",
+      "translation": "Attribuer à / Assigner la cause à / Être imputable à",
+      "example_sentence": "团队将这次成功归因于长期的技术积累。",
+      "example_phonetic": "/tʰwanz 隊 tɕi̯aŋ tʂɤ tsʰʐ̩ tʂʰəŋ kʊŋ kwei̯˥ iŋ˥ jɥ̯˧˥ tʂʰaŋ tɕi dɤ tɕi ʂu tɕi leɪ̯/",
+      "example_translation": "L'équipe attribue ce succès à une accumulation technologique de longue date."
+    },
+    {
+      "word_id": "v7",
+      "term": "由此",
+      "phonetic_api": "/joʊ̯˨˩˦ tsʰʐ̩˨˩˦/",
+      "phonetic_simple": "YOW-TSEU",
+      "translation": "De ce fait / Par conséquent / De là (déduction logique)",
+      "example_sentence": "这一决策失误，由此引发了一连串的经济纠纷。",
+      "example_phonetic": "/tʂɤ i tɕɥ̯ɛ tiŋ ʂʐ̩ wu joʊ̯˧˥ tsʰʐ̩˨˩˦ iŋ fa lɤ i li̯ɛn ttʂʰwaŋ dɤ tɕiŋ tɕi tɕi̯oʊ̯ fən/",
+      "example_translation": "Cette erreur de décision a de ce fait déclenché une série de litiges économiques."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "鉴于对方多次违反合同约定，我方决定正式终止合作关系。",
+      "phonetic_api": "/tɕi̯ɛn˥˩ jɥ̯˧˥ dwei̯ ni̯an dwɔ tsʰʐ̩ weɪ̯ fan xɤ tʰʊŋ jɥ̯ɛ tiŋ wo fã tɕɥ̯ɛ tiŋ tʂəŋ ʂʐ尊 tʂʊŋ tʂʐ̩ xɤ dzwɔ kwan ɕi/",
+      "phonetic_simple": "DLIEN-YU DOUEI-FANG DOUO-TSÉ WEI-FAN HOU-THONG YUE-TING, OUO-FANG DJIE-QUOÉ ZHENG-CHEI ZHONG-DZEU HOU-DZOUO GOUAN-CHEE.",
+      "translation": "Au vu des multiples violations des clauses contractuelles par la partie adverse, notre partie a décidé de mettre fin formellement à notre relation de partenariat.",
+      "context": "Notification juridique ou déclaration de rupture commerciale de haut niveau"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "技术架构的缺陷导致系统频繁崩溃，以致于业务无法正常开展。",
+      "phonetic_api": "/tɕi ʂu dɕi̯a kwo dɤ tɕɥ̯ɛ ɕi̯an taʊ̯ tʂʐ̩ ɕi tʰwŋ pʰiŋ fan pəŋ kwei̯ i ʔtʂʐ̩˥˩ jɥ̯˧˥ jɥ̯ ʔwu wu fa tʂəŋ ttsʰaŋ kʰaɪ̯ tchan/",
+      "phonetic_simple": "TCHEE-XU DJIA-GOUO DEU QUÉ-XIEN DAO-DZEU CHEE-THONG PHING-FAN BENG-KOUAY, EE-DZEU-YU YUE-OU OU-FA ZHENG-TCHHANG KHAI-TCHAN.",
+      "translation": "Les failles de l'architecture technique ont provoqué des plantages répétés du système, à tel point que les opérations commerciales n'ont pu être menées normalement.",
+      "context": "Analyse technique d'un incident majeur dans un rapport d'audit"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "本次市场调研旨在深入挖掘潜在需求，以便制定精准的营销策略。",
+      "phonetic_api": "/pən tsʰʐ̩ ʂʐ̩ tʂʰaŋ diaʊ̯ jjan tʂʐ̩˨˩˦ dzaɪ̯˥˩ ʂən ʐu wa tɕɥ̯ɛ tɕi̯an dzaɪ̯ ɕy tɕi̯oʊ̯ i ʔpi̯ɛn˥˩ tʂʐ̩ tiŋ tɕiŋ tswən dɤ iŋ ɕi̯aʊ̯ tsʰɤ ly ʔ/",
+      "phonetic_simple": "BEN-TSÉ CHEI-TCHHANG DIAO-YEN DZEU-DZAÏ CHEN-RU OUA-QUÉ TCHIAN-DZAÏ CHIOU-CHIOU, EE-BIEN ZHEI-TING DJING-ZOUEN DEU YING-CHIAO TSHÉ-LU.",
+      "translation": "Cette étude de marché vise à explorer en profondeur les besoins latents, de façon à élaborer une stratégie marketing de haute précision.",
+      "context": "Définition des objectifs d'un projet lors d'une note de cadrage"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "我们将公司第一季度的业绩下滑，主要归因于外部宏观经济环境恶化。",
+      "phonetic_api": "/wo mən tɕi̯aŋ kʊŋ sʐ̩ di i tɕi du dɤ jɥ̯ tɕi ɕi̯a xwa˧˥ tʂu jaʊ̯ kwei̯˥ iŋ˥ jɥ̯˧˥ waɪ̯ pu xʊŋ kwan tɕiŋ tɕi xwan tɕiŋ ʔɤ xwa˥˩/",
+      "phonetic_simple": "OUO-MEN TCHIANG GONG-DZEU DEE EE DJIEE-DOU DEU YÉ-DJEE CHIA-HOUA, TCHOU-YAO GUEI-IN-YU OUAÏ-BOU HONG-GOUAN DJIN-DJEE HUAN-DJING EE-HOUA.",
+      "translation": "Nous attribuons principalement la baisse des résultats de l'entreprise au premier trimestre à la détérioration de l'environnement macroéconomique externe.",
+      "context": "Discours de présentation financière aux actionnaires ou conférence de presse"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La formulation de la cause contextuelle avancée avec 鉴于 (jiànyú)",
+      "explanation": "Le terme 鉴于 est une conjonction très formelle qui introduit des faits, des circonstances ou des antécédents qui servent de motifs ou de justifications à la décision qui va suivre.",
+      "rules": [
+        "Structure : 鉴于 (jiànyú) + [Situation / Fait établi], [Sujet] + [Décision / Mesure conservatoire].",
+        "Il s'emploie principalement en début de phrase ou en ouverture de paragraphes administratifs ou juridiques.",
+        "Il remplace avantageusement '因为' (yīnwèi) lorsqu'il s'agit de poser un constat officiel ou institutionnel."
+      ],
+      "examples": [
+        {
+          "structure": "鉴于 (Au vu de) + 他的杰出贡献 (Sa contribution exceptionnelle)，董事会 (Le conseil d'administration) + 决定晋升他为副总裁 (A décidé de le promouvoir vice-président)",
+          "phonetic_api": "/tɕi̯ɛn jɥ̯ tʰa dɤ tɕi̯ɛ tɕu kʊŋ ɕi̯an dʊŋ ʂʐ̩ xwei̯ tɕɥ̯ɛ tiŋ tɕin ʂəŋ tʰa weɪ̯ fu tsʊŋ tsʰaɪ̯/",
+          "meaning": "鉴于他的杰出贡献，董事会决定晋升他为副总裁。 (Au vu de sa contribution exceptionnelle, le conseil d'administration a décidé de le promouvoir au poste de vice-président.)"
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de l'intention stratégique ou finale : 旨在 (zhǐzài) vs 以便 (yǐbiàn)",
+      "explanation": "Ces deux structures servent à articuler des finalités complexes dans un discours professionnel ou académique.",
+      "rules": [
+        "旨在 (zhǐzài) se place directement après le sujet d'un projet, d'une loi ou d'un dispositif pour définir sa mission ou sa raison d'être essentielle. Équivalent de 'a pour objectif de'.",
+        "以便 (yǐbiàn) introduit une deuxième proposition en expliquant que l'action précédente a été mise en œuvre précisément pour faciliter la réalisation de l'étape suivante. Équivalent de 'dans le but de / pour que'."
+      ],
+      "examples": [
+        {
+          "structure": "该项目 (Ce projet) + 旨在 (Visera à) + 优化工作流程 (Optimiser les flux de travail)",
+          "phonetic_api": "/kaɪ̯ ɕi̯aŋ mu tʂʐ̩ dzaɪ̯ joʊ̯ xwa kʊŋ dzwɔ li̯oʊ̯ tʂʰəŋ/",
+          "meaning": "该项目旨在优化工作流程。 (Ce projet a pour objectif d'optimiser les flux de travail.)"
+        },
+        {
+          "structure": "请完善数据库 (Veuillez optimiser la base de données)，以便 (Afin de) + 提高检索速度 (Augmenter la vitesse de recherche)",
+          "phonetic_api": "/tɕʰiŋ wan ʂan ʂu tɕu kʰu i pi̯ɛn tʰi kaʊ̯ tɕi̯ɛn swɔ su du/",
+          "meaning": "请完善数据库，以便提高检索速度。 (Veuillez optimiser la base de données afin d'accélérer la vitesse de recherche.)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "运营总监 (Directeur des Opérations)",
+      "text": "大卫，鉴于近两个月客服投诉率明显上升，你对由此导致的客户流失有什么看法？",
+      "phonetic_api": "/da˥˩ weɪ̯˥˩ tɕi̯ɛn˥˩ jɥ̯˧˥ tɕin li̯aŋ kɤ ɥ̯ɛ kʰɤ fu tʰoʊ̯ su ly miŋ ɕi̯an ʂaŋ ʂəŋ ni dwei̯ joʊ̯˧˥ tsʰʐ̩˨˩˦ taʊ̯˧˥ tʂʐ̩˨˩˦ dɤ kʰɤ xu li̯oʊ̯ ʂʐ̩ joʊ̯ ʂən mɤ kʰan fa/",
+      "phonetic_simple": "DA-OUEI, DLIEN-YU DJIN LIANG GEU YUE KHÉ-FOU THOU-SOU-LU MING-CHIEN CHANG-CHENG, NEE DOUEI YOW-TSEU DAO-DZEU DEU KHÉ-HOU LIOU-CHEI YOW CHEN-MEU KHAN-FA ?",
+      "translation": "David, au vu de la hausse sensible du taux de réclamations clients ces deux derniers mois, quelle est votre analyse concernant l'attrition des utilisateurs provoquée par ce phénomène ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "我仔细分析了数据，系统响应速度过慢，以致于用户在支付时频繁报错，这是核心原因。",
+      "phonetic_api": "/wo tsʐ̩ ɕi˥ fən ɕi ʔlɤ ʂu tɕu ɕi tʰwŋ ɕi̯aŋ iŋ su du kwo man i ʔtʂʐ̩˥˩ jɥ̯˧˥ jʊŋ xu dzaɪ̯ tʂʐ̩ fu ʂʐ̩ pʰiŋ fan paʊ̯ tsʰwɔ tʂʐ̩ ʂʐ尊 xɤ ɕin jɥ̯ɛn jin/",
+      "phonetic_simple": "OUO DZEE-XI FAN-XI LEU CHOU-DJOU, CHEE-THONG XIANG-YING SOU-DOU GOUO MAN, EE-DZEU-YU YONG-HOU DZAÏ ZHEE-FOU CHEI PHING-FAN BAO-TSOUO, TCHEU CHEI HEI-CHIN YUEN-YIN.",
+      "translation": "J'ai analysé de près les données : la vitesse de réponse du système est excessivement lente, à tel point que les utilisateurs rencontrent fréquemment des erreurs lors du paiement. C'est la cause fondamentale."
+    },
+    {
+      "speaker": "运营总监 (Directeur des Opérations)",
+      "text": "也就是说，技术层面的故障是导致用户满意度下滑的主因？",
+      "phonetic_api": "/jɛ tɕi̯oʊ̯ ʂwɔ tɕi ʂu tsʰəŋ mi̯an dɤ ku dʐaŋ ʂʐ尊 taʊ̯˧˥ tʂʐ̩˨˩˦ jʊŋ xu man i du ɕi̯a xwa dɤ ttsʰu jin/",
+      "phonetic_simple": "YÉ TCHIOU CHOUO, TCHEE-XU TSHENG-MIEN DEU GOU-ZHANG CHEI DAO-DZEU YONG-HOU MAN-YEE-DOU CHIA-HOUA DEU TCHOU-IN ?",
+      "translation": "En d'autres termes, les défaillances au niveau de l'infrastructure technique sont ce qui a causé la chute de la satisfaction des usagers ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "对，我建议启动紧急技术优化项目，旨在全面升级服务器，以便提升交易处理速度。",
+      "phonetic_api": "/dwei̯ wo tɕi̯ɛn i tɕ i tʊŋ tɕiŋ tɕi tɕi ʂu joʊ̯ xwa ɕi̯aŋ mu tʂʐ̩˨˩˦ dzaɪ̯˥˩ ttsʰɥ̯ɛn mi̯an ʂəŋ tɕi fu wu qʰi ʔi ʔpi̯ɛn˥˩ tʰi ʂəŋ tɕi̯aʊ̯ i tʂu li su du/",
+      "phonetic_simple": "DOUEI, OUO DJIEN-YEE TCHEE-DONG DJING-DJEE TCHEE-XU YOW-HOUA JING-MOU, DZEU-DZAÏ TCHHENG-MIEN CHENG-DJEE FOU-OU-QEE, EE-BIEN THI-CHENG DJIAO-EE TCHHOU-LEE SOU-DOU.",
+      "translation": "Exactement. Je suggère de lancer un projet d'optimisation technique d'urgence, qui visera à mettre à niveau intégralement les serveurs, de façon à accroître la vitesse de traitement des transactions."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les entreprises technologiques et de commerce électronique en Chine, l'analyse de l'expérience utilisateur ('用户体验' yònghù tǐyàn) est devenue une science hautement chiffrée. Des termes comme '客户流失' (attrition/churn) ou '投诉率' (taux de plaintes) font l'objet de rapports logiques stricts basés sur des relations de cause à effet indiscutables.",
+    "L'expression de la responsabilité en milieu C1 évite l'agressivité directe. Au lieu d'accuser une équipe, David utilise la structure '归因于' (attribuer à) ou '导致' (causer) appliquée à des facteurs matériels (la vitesse de réponse du système), maintenant ainsi la neutralité et le professionnalisme lors des bilans critiques.",
+    "La politesse managériale exige d'associer systématiquement le constat d'une cause négative ('导致问题') à la formulation immédiate d'un but constructif ('旨在优化'), témoignant ainsi de la proactivité de l'employé."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la tournure finale adéquate pour traduire de manière formelle : 'L'entreprise a mis en place ce nouveau système afin que le personnel puisse travailler à distance.'",
+      "options": [
+        "公司推出了这个新系统，导致员工可以远程办公 (Gōngsī tuīchūle zhège xīn xìtǒng, dǎozhǐ yuángōng kěyǐ yuǎnchéng bàngōng)",
+        "公司推出了这个新系统，以便员工可以远程办公 (Gōngsī tuīchūle zhège xīn xìtǒng, yǐbiàn yuángōng kěyǐ yuǎnchéng bàngōng)",
+        "公司推出了这个新系统，以致于员工可以远程办公 (Gōngsī tuīchūle zhège xīn xìtǒng, yǐzhìyú yuángōng kěyǐ yuǎnchéng bàngōng)"
+      ],
+      "correct_answer": "公司推出了这个新系统，以便员工可以远程办公 (Gōngsī tuīchūle zhège xīn xìtǒng, yǐbiàn yuángōng kěyǐ yuǎnchéng bàngōng)",
+      "explanation": "L'adverbe '以便' (yǐbiàn) introduit de manière adéquate une intention ou un but positif facilitant l'action suivante (le travail à distance). '导致' et '以致于' sont réservés à des conséquences factuelles généralement néfastes."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] 于全球原材料价格上涨，制造成本大幅度增加。",
+      "correct_answer": "鉴",
+      "hint": "Caractère initial formel requis pour introduire un constat de contexte économique lourd justifiant la conséquence de hausse des coûts."
+    }
+  ]
+}

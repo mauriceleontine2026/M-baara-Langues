@@ -1,0 +1,179 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
+  "learning_objectives": [
+    "Nommer les aliments de base et les boissons courantes en Mani",
+    "Exprimer le besoin de manger ou de boire",
+    "Formuler une commande simple au marché ou dans un lieu de restauration"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne nasale bilabiale /m/ combinée avec des consonnes occlusives demande une articulation nasale anticipée. La voyelle /i/ doit être tendue et brève dans des termes comme 'mi'.",
+    "common_pitfalls": "Attention à ne pas allonger artificiellement les voyelles brèves. Le terme 'ŋon' se prononce avec une fermeture nasale vélo-palatale nette."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v8_1",
+      "term": "lan",
+      "phonetic_api": "/lan/",
+      "phonetic_simple": "LAN",
+      "translation": "eau",
+      "example_sentence": "Lan bɛ lɔ.",
+      "example_phonetic": "/lan bɛ lɔ/",
+      "example_translation": "L'eau est ici."
+    },
+    {
+      "word_id": "v8_2",
+      "term": "mɛl",
+      "phonetic_api": "/mɛl/",
+      "phonetic_simple": "MÈL",
+      "translation": "riz / nourriture cuite",
+      "example_sentence": "N bɛ ni mɛl.",
+      "example_phonetic": "/n̩ bɛ ni mɛl/",
+      "example_translation": "J'ai du riz."
+    },
+    {
+      "word_id": "v8_3",
+      "term": "nin",
+      "phonetic_api": "/nin/",
+      "phonetic_simple": "NIN",
+      "translation": "poisson",
+      "example_sentence": "Nin bɛ ségé lɔ.",
+      "example_phonetic": "/nin bɛ se.ɡe lɔ/",
+      "example_translation": "Le poisson est au marché."
+    },
+    {
+      "word_id": "v8_4",
+      "term": "ŋon",
+      "phonetic_api": "/ŋon/",
+      "phonetic_simple": "NGON",
+      "translation": "boire",
+      "example_sentence": "N ŋon lan.",
+      "example_phonetic": "/n̩ ŋon lan/",
+      "example_translation": "Je bois de l'eau."
+    },
+    {
+      "word_id": "v8_5",
+      "term": "diŋɛ",
+      "phonetic_api": "/di.ŋɛ/",
+      "phonetic_simple": "DI-NGÈ",
+      "translation": "manger / consommer",
+      "example_sentence": "A bɛ diŋɛ mɛl.",
+      "example_phonetic": "/a bɛ di.ŋɛ mɛl/",
+      "example_translation": "Il mange du riz."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p8_1",
+      "original": "Kperɛ mi mɛl kɔŋ.",
+      "phonetic_api": "/kpe.rɛ mi mɛl kɔŋ/",
+      "phonetic_simple": "KPE-RÈ MI MÈL KONG",
+      "translation": "Donne-moi du riz s'il te plaît.",
+      "context": "Demander une assiette de nourriture ou commander au marché."
+    },
+    {
+      "phrase_id": "p8_2",
+      "original": "Wun bɛ ni nin ?",
+      "phonetic_api": "/wun bɛ ni nin/",
+      "phonetic_simple": "WOUN BÈ NI NIN ?",
+      "translation": "As-tu du poisson ?",
+      "context": "S'enquérir de la disponibilité du poisson auprès d'un vendeur."
+    },
+    {
+      "phrase_id": "p8_3",
+      "original": "N bɛ ni sɔm lan.",
+      "phonetic_api": "/n̩ bɛ ni sɔm lan/",
+      "phonetic_simple": "N BÈ NI SƆM LAN",
+      "translation": "J'ai un peu d'eau.",
+      "context": "Indiquer une petite quantité disponible."
+    },
+    {
+      "phrase_id": "p8_4",
+      "original": "Kɔŋ, n diŋɛ mɛl mɛnni.",
+      "phonetic_api": "/kɔŋ n̩ di.ŋɛ mɛl mɛn.ni/",
+      "phonetic_simple": "KONG N DI-NGÈ MÈL MÈN-NI",
+      "translation": "S'il te plaît, je mange du riz là-bas.",
+      "context": "Préciser l'endroit où l'on souhaite consommer son repas."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction transitive directe de la consommation",
+      "explanation": "En langue Mani, les verbes d'action comme 'diŋɛ' (manger) et 'ŋon' (boire) régissent directement leur complément d'objet sans préposition intermédiaire.",
+      "rules": [
+        "Sujet + Verbe + Objet direct.",
+        "La particule de politesse 'kɔŋ' se place indifféremment en début ou en fin de proposition pour adoucir l'ordre."
+      ],
+      "examples": [
+        {
+          "structure": "N ŋon lan",
+          "phonetic_api": "/n̩ ŋon lan/",
+          "meaning": "Je bois de l'eau"
+        },
+        {
+          "structure": "A diŋɛ nin",
+          "phonetic_api": "/a di.ŋɛ nin/",
+          "meaning": "Il mange du poisson"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Fanta",
+      "text": "Mboi mami ! Wun bɛ ni mɛl ?",
+      "phonetic_api": "/mboi ma.mi wun bɛ ni mɛl/",
+      "phonetic_simple": "MBOÏ MA-MI ! WOUN BÈ NI MÈL ?",
+      "translation": "Bonjour ami ! As-tu du riz ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Oon, n bɛ ni mɛl. Wun bɛ ni nin fan ?",
+      "phonetic_api": "/oːn n̩ bɛ ni mɛl wun bɛ ni nin fan/",
+      "phonetic_simple": "OON, N BÈ NI MÈL. WOUN BÈ NI NIN FAN ?",
+      "translation": "Oui, j'ai du riz. Veux-tu du poisson aussi ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Oon, kperɛ mi mɛl ni nin. Cece !",
+      "phonetic_api": "/oːn kpe.rɛ mi mɛl ni nin tʃe.tʃe/",
+      "phonetic_simple": "OON, KPE-RÈ MI MÈL NI NIN. TCHÉ-TCHÉ !",
+      "translation": "Oui, donne-moi du riz et du poisson. Merci !"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Yoma a ra ! Ŋon lan kɔŋ.",
+      "phonetic_api": "/jo.ma a ra ŋon lan kɔŋ/",
+      "phonetic_simple": "YO-MA A RA ! NGON LAN KONG.",
+      "translation": "C'est bien ! Bois de l'eau s'il te plaît."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la zone côtière peuplée par les Mani, le riz ('mɛl') et le poisson ('nin') constituent la base absolue de l'alimentation quotidienne. Offrir de l'eau fraîche ('lan') à un visiteur avant même de lui demander l'objet de sa venue est la marque d'hospitalité la plus sacrée de la communauté."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex8_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le terme 'lan' en Mani ?",
+      "options": [
+        "Le riz",
+        "L'eau",
+        "Le poisson"
+      ],
+      "correct_answer": "L'eau",
+      "explanation": "'Lan' désigne exclusivement l'eau douce ou la boisson par excellence."
+    },
+    {
+      "exercise_id": "ex8_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N bɛ ni [ ___ ] (J'ai du poisson).",
+      "correct_answer": "nin",
+      "hint": "Un mot court de trois lettres répétant la consonne n."
+    }
+  ]
+}

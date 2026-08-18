@@ -1,0 +1,142 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Nommer les couleurs de base en kissi",
+    "Identifier les pièces de vêtements élémentaires",
+    "Décrire un habit simple en associant sa couleur"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'occlusive injectif-implosive /ɓ/ ou la labio-velaire /g͡b/ dans 'gbalɔ' (vêtement) demande une prononciation groupée et franche des deux consonnes.",
+    "common_pitfalls": "Attention à bien respecter la voyelle ouverte 'ɔ' à la fin de 'gbalɔ'. Un glissement vers un 'o' fermé en modifierait la perception authentique par l'interlocuteur."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v9_1",
+      "term": "gbalɔ",
+      "phonetic_api": "/g͡ba.lɔ/",
+      "phonetic_simple": "GBA-LO",
+      "translation": "habit / vêtement / tissu",
+      "example_sentence": "Gbalɔ nio o co wa.",
+      "example_phonetic": "/g͡ba.lɔ njo o tʃo wa/",
+      "example_translation": "Mon vêtement est ici."
+    },
+    {
+      "word_id": "v9_2",
+      "term": "pɔndɔ",
+      "phonetic_api": "/pɔ.ⁿdɔ/",
+      "phonetic_simple": "PON-DO",
+      "translation": "blanc",
+      "example_sentence": "Gbalɔ pɔndɔ.",
+      "example_phonetic": "/g͡ba.lɔ pɔ.ⁿdɔ/",
+      "example_translation": "Un vêtement blanc."
+    },
+    {
+      "word_id": "v9_3",
+      "term": "tundɔ",
+      "phonetic_api": "/tu.ⁿdɔ/",
+      "phonetic_simple": "TOUN-DO",
+      "translation": "noir / sombre",
+      "example_sentence": "Ndoo tundɔ.",
+      "example_phonetic": "/ⁿdoː tu.ⁿdɔ/",
+      "example_translation": "Un chemin sombre / noir."
+    },
+    {
+      "word_id": "v9_4",
+      "term": "bɛndɔ",
+      "phonetic_api": "/bɛ.ⁿdɛ/",
+      "phonetic_simple": "BEN-DO",
+      "translation": "rouge / éclatant",
+      "example_sentence": "Gbalɔ bɛndɔ.",
+      "example_phonetic": "/g͡ba.lɔ bɛ.ⁿdɔ/",
+      "example_translation": "Un vêtement rouge."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p9_1",
+      "original": "Co mi gbalɔ pɔndɔ ni.",
+      "phonetic_api": "/tʃo mi g͡ba.lɔ pɔ.ⁿdɔ ni/",
+      "phonetic_simple": "TCHO MI GBA-LO PON-DO NI",
+      "translation": "Donne-moi le vêtement blanc.",
+      "context": "S'habiller ou acheter au marché"
+    },
+    {
+      "phrase_id": "p9_2",
+      "original": "Gbalɔ noo o nɔ nyalɛ fiaa.",
+      "phonetic_api": "/g͡ba.lɔ noː o nɔ ɲa.lɛ fjaː/",
+      "phonetic_simple": "GBA-LO NOO O NO NYA-LÈ FIA-A",
+      "translation": "Ton habit est très beau.",
+      "context": "Faire un compliment"
+    },
+    {
+      "phrase_id": "p9_3",
+      "original": "Gbalɔ yɛŋ o co ?",
+      "phonetic_api": "/g͡ba.lɔ jɛŋ o tʃo/",
+      "phonetic_simple": "GBA-LO YENG O TCHO",
+      "translation": "Quel est ce vêtement ?",
+      "context": "S'informer sur un tissu"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La position de l'adjectif de couleur",
+      "explanation": "En kissi, les qualificatifs de couleur se placent immédiatement après le nom qu'ils modifient, se calquant sur le modèle de l'adjectif qualificatif général.",
+      "rules": [
+        "Le nom arrive toujours en premier de la structure descriptive.",
+        "L'adjectif de couleur prend une finale calée sur la classe ou l'harmonie du mot."
+      ],
+      "examples": [
+        {
+          "structure": "Nom + Couleur",
+          "phonetic_api": "/g͡ba.lɔ pɔ.ⁿdɔ/",
+          "meaning": "Vêtement blanc"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Faya",
+      "text": "Tamba, lɔ gbalɔ pɔndɔ ndɔ.",
+      "phonetic_api": "/ta.ᵐba lɔ g͡ba.lɔ pɔ.ⁿdɔ ⁿdɔ/",
+      "phonetic_simple": "TAM-BA, LO GBA-LO PON-DO NDO",
+      "translation": "Tamba, prends aussi ton vêtement blanc."
+    },
+    {
+      "speaker": "Tamba",
+      "text": "Mbo, i co gbalɔ tundɔ loolu.",
+      "phonetic_api": "/ᵐbo i tʃo g͡ba.lɔ tu.ⁿdɔ loː.lu/",
+      "phonetic_simple": "MBO, I TCHO GBA-LO TOUN-DO LOO-LOU",
+      "translation": "Non, je veux le vêtement noir."
+    }
+  ],
+  "cultural_notes": [
+    "Les tissus traditionnels kissi, souvent faits de coton lourd tissé localement (le pagne indigène), arborent majoritairement des teintes naturelles, blanches ou à bandes bleues et noires, portées de manière solennelle lors des cérémonies villageoises."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex9_1",
+      "type": "multiple_choice",
+      "question": "Que signifie 'tundɔ' en parlant d'un objet ?",
+      "options": [
+        "Blanc",
+        "Noir",
+        "Rouge"
+      ],
+      "correct_answer": "Noir",
+      "explanation": "'Tundɔ' qualifie une couleur noire ou une obscurité."
+    },
+    {
+      "exercise_id": "ex9_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Gbalɔ [ ___ ] signifie 'Vêtement blanc'.",
+      "correct_answer": "pɔndɔ",
+      "hint": "Couleur de la pureté ou du lait"
+    }
+  ]
+}

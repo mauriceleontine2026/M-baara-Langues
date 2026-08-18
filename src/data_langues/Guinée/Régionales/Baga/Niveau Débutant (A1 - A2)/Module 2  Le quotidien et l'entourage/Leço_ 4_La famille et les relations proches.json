@@ -1,0 +1,140 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les membres de la famille nucléaire et élargie en Baga",
+    "Exprimer les liens de parenté et l'appartenance",
+    "Présenter un membre de son entourage proche"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot pour la mère, 'ŋá', commence par la consonne nasale vélaire /ŋ/ (comme le 'ng' à la fin du mot anglais 'sing'). Elle doit être prononcée directement du fond de la gorge, sans détacher un 'n' puis un 'g'.",
+    "common_pitfalls": "Attention à ne pas omettre l'allongement de la voyelle dans 'wáa' (père), sinon le mot perd sa structure tonale et sa signification affective."
+  },
+  "vocabulary": [
+    {
+      "word_id": "b012",
+      "term": "wáa",
+      "phonetic_api": "/wáː/",
+      "phonetic_simple": "WAA",
+      "translation": "père / papa",
+      "example_sentence": "N wáa mu ya",
+      "example_phonetic": "/ⁿwáː mu ja/",
+      "example_translation": "Mon père est ici"
+    },
+    {
+      "word_id": "b013",
+      "term": "ŋá",
+      "phonetic_api": "/ŋá/",
+      "phonetic_simple": "NGA",
+      "translation": "mère / maman",
+      "example_sentence": "N ŋá bɔ̀ŋ Boke",
+      "example_phonetic": "/ⁿŋá ɓɔ̀ŋ ɓoke/",
+      "example_translation": "Ma mère vient de Boké"
+    },
+    {
+      "word_id": "b014",
+      "term": "wətɛ́ɛn",
+      "phonetic_api": "/wətɛ́ːn/",
+      "phonetic_simple": "WE-TÉÉN",
+      "translation": "frère / sœur / germain",
+      "example_sentence": "N wətɛ́ɛn mu kə̀ kálàŋ di",
+      "example_phonetic": "/ⁿwətɛ́ːn mu kə kálàŋ di/",
+      "example_translation": "Mon frère/sœur est étudiant"
+    },
+    {
+      "word_id": "b015",
+      "term": "bədɛ̀n",
+      "phonetic_api": "/ɓədɛ̀n/",
+      "phonetic_simple": "BE-DÈN",
+      "translation": "enfant / fils / fille",
+      "example_sentence": "A mu n bədɛ̀n di",
+      "example_phonetic": "/a mu ⁿɓədɛ̀n di/",
+      "example_translation": "C'est mon enfant"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "bp009",
+      "original": "Wàn mu mu di ?",
+      "phonetic_api": "/wàn mu mu di/",
+      "phonetic_simple": "WAN MOO MOO DI ?",
+      "translation": "Qui est-ce ?",
+      "context": "S'informer sur l'identité d'un visiteur ou d'un proche"
+    },
+    {
+      "phrase_id": "bp010",
+      "original": "N wáasɛ kàn n ŋáasɛ mu ya",
+      "phonetic_api": "/ⁿwáːsɛ kàn ⁿŋáːsɛ mu ja/",
+      "phonetic_simple": "N WAA-SÈ KAN N NGAA-SÈ MOO YA",
+      "translation": "Mes parents (mon père et ma mère) sont ici.",
+      "context": "Présenter sa famille à des invités dans la concession"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La possession et les pronoms personnels préfixés",
+      "explanation": "En Baga, la possession pour les termes de parenté inaliénable (famille proche) s'exprime en plaçant le pronom personnel sous sa forme minimale directement devant le substantif, sans particule intermédiaire.",
+      "rules": [
+        "Mon/Ma = n- (marqué par une nasalisation ou consonne homorganique).",
+        "Ton/Ta = i-.",
+        "Son/Sa = a-."
+      ],
+      "examples": [
+        {
+          "structure": "n- (mon) + wáa (père)",
+          "phonetic_api": "/ⁿwáː/",
+          "meaning": "Mon père"
+        },
+        {
+          "structure": "i- (ton) + ŋá (mère)",
+          "phonetic_api": "/i ŋá/",
+          "meaning": "Ta mère"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Temba",
+      "text": "Sékou, wàn mu mu di kə̀ i gbɛ̀lɛ̀ ka ?",
+      "phonetic_api": "/sɛku wàn mu mu di kə i gɓɛ̀lɛ̀ ka/",
+      "phonetic_simple": "SÉ-KOO, WAN MOO MOO DI KE I GBÈ-LÈ KA ?",
+      "translation": "Sékou, qui est-ce dans ta cour ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Temba, n wətɛ́ɛn mu mu di. A bɔ̀ŋ Conakry ka ya-njɔ̀ɔ̀.",
+      "phonetic_api": "/tɛmɓa ⁿwətɛ́ːn mu mu di a ɓɔ̀ŋ Conakry ka ja ⁿd͡ʒɔ̀ː/",
+      "phonetic_simple": "TEM-BA, N WE-TÉÉN MOO MOO DI. A BON CO-NA-KRY KA YA-N-DJOO.",
+      "translation": "Temba, c'est mon frère. Il vient de Conakry aujourd'hui."
+    }
+  ],
+  "cultural_notes": [
+    "La famille élargie constitue le socle de l'organisation villageoise Baga. Le terme 'wətɛ́ɛn' s'étend fréquemment aux cousins directs et aux membres de la même classe d'âge au sein du clan."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L4_ex1",
+      "type": "multiple_choice",
+      "question": "Quel terme signifie 'mon père' en Baga ?",
+      "options": [
+        "n ŋá",
+        "n wáa",
+        "n bədɛ̀n"
+      ],
+      "correct_answer": "n wáa",
+      "explanation": "'wáa' désigne la figure paternelle, précédée de l'indice de première personne 'n'."
+    },
+    {
+      "exercise_id": "A1_M2_L4_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A mu n [ ___ ] di (C'est mon enfant).",
+      "correct_answer": "bədɛ̀n",
+      "hint": "Mot désignant la descendance directe, commençant par un b implosif"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Nommer les couleurs fondamentales en langue nalu",
+    "Identifier les pièces de vêtements courantes et savoir les décrire simplement"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La voyelle ouverte 'ɛ' (proche du 'è' français) et la consonne nasale vélaire 'ŋ' (son 'ng') sont omniprésentes dans le lexique des couleurs. La consonne double 'mb' doit être prononcée de manière explosive sans voyelle intermédiaire.",
+    "common_pitfalls": "Attention à ne pas assimiler le mot 'wul' (rouge) au mot 'wut' (arbre/nourriture). L'articulation de la consonne finale liquide /l/ ou occlusive /t/ est essentielle pour éviter les malentendus."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v9_1",
+      "term": "Abal",
+      "phonetic_api": "/a.bal/",
+      "phonetic_simple": "A-BAL",
+      "translation": "Vêtement / Habit / Boubou",
+      "example_sentence": "Abal mi a ce.",
+      "example_phonetic": "/a.bal mi a tʃe/",
+      "example_translation": "Mon vêtement est beau."
+    },
+    {
+      "word_id": "v9_2",
+      "term": "Fiit",
+      "phonetic_api": "/fiːt/",
+      "phonetic_simple": "FIIT",
+      "translation": "Noir / Sombre",
+      "example_sentence": "Abal fiit.",
+      "example_phonetic": "/a.bal fiːt/",
+      "example_translation": "Un vêtement noir."
+    },
+    {
+      "word_id": "v9_3",
+      "term": "Apee",
+      "phonetic_api": "/a.peː/",
+      "phonetic_simple": "A-PÉÉ",
+      "translation": "Blanc / Clair",
+      "example_sentence": "Abal apee.",
+      "example_phonetic": "/a.bal a.peː/",
+      "example_translation": "Un vêtement blanc."
+    },
+    {
+      "word_id": "v9_4",
+      "term": "Wul",
+      "phonetic_api": "/wul/",
+      "phonetic_simple": "WOUL",
+      "translation": "Rouge",
+      "example_sentence": "Abal wul.",
+      "example_phonetic": "/a.bal wul/",
+      "example_translation": "Un vêtement rouge."
+    },
+    {
+      "word_id": "v9_5",
+      "term": "Lir",
+      "phonetic_api": "/lir/",
+      "phonetic_simple": "LIR",
+      "translation": "Porter / S'habiller",
+      "example_sentence": "M lir abal mi.",
+      "example_phonetic": "/m lir a.bal mi/",
+      "example_translation": "Je porte mon vêtement."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p9_1",
+      "original": "A rila kene abal we?",
+      "phonetic_api": "/a ri.la ke.ne a.bal we/",
+      "phonetic_simple": "A RI-LA KÉ-NÉ A-BAL WÉ",
+      "translation": "De quelle couleur est ce vêtement ?",
+      "context": "Utile lors des achats ou pour décrire l'apparence de quelqu'un."
+    },
+    {
+      "phrase_id": "p9_2",
+      "original": "M malang abal apee.",
+      "phonetic_api": "/m ba.laŋ a.bal a.peː/",
+      "phonetic_simple": "M BA-LANG A-BAL A-PÉÉ",
+      "translation": "Je veux le vêtement blanc.",
+      "context": "Permet de désigner un habit spécifique chez un tailleur ou au marché."
+    },
+    {
+      "phrase_id": "p9_3",
+      "original": "Abal mwo a mboye ce.",
+      "phonetic_api": "/a.bal mwo a mbo.je tʃe/",
+      "phonetic_simple": "A-BAL MWO A MBO-YÉ TCHÉ",
+      "translation": "Ton habit est très beau.",
+      "context": "Compliment traditionnel sur l'élégance ou la propreté d'un proche."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La position et l'invariabilité de l'adjectif de couleur",
+      "explanation": "En nalu, les adjectifs qualificatifs de couleur se placent immédiatement après le nom qu'ils qualifient, sans connecteur de classe nominale au niveau débutant.",
+      "rules": [
+        "Le nom précède toujours le qualificatif coloré.",
+        "L'adjectif reste invariable en genre."
+      ],
+      "examples": [
+        {
+          "structure": "Abal fiit",
+          "phonetic_api": "/a.bal fiːt/",
+          "meaning": "Vêtement noir"
+        },
+        {
+          "structure": "Abal wul",
+          "phonetic_api": "/wul/",
+          "meaning": "Vêtement rouge"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Fatou",
+      "text": "Mboye, Sékou ! A rila kene abal mwo?",
+      "phonetic_api": "/mbo.je se.ku a ri.la ke.ne a.bal mwo/",
+      "phonetic_simple": "MBO-YÉ, SÉ-KOU ! A RI-LA KÉ-NÉ A-BAL MWO?",
+      "translation": "Bonjour, Sékou ! De quelle couleur est ton vêtement ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Mboye ce ! Abal mi gbe apee. I mwo?",
+      "phonetic_api": "/mbo.je tʃe a.bal mi gbe a.peː i mwo/",
+      "phonetic_simple": "MBO-YÉ TCHÉ ! A-BAL MI GBÉ A-PÉÉ. I MWO?",
+      "translation": "Bonjour bien ! Mon vêtement est blanc. Et toi ?"
+    },
+    {
+      "speaker": "Fatou",
+      "text": "M lir abal fiit n'gbe.",
+      "phonetic_api": "/m lir a.bal fiːt ŋgbe/",
+      "phonetic_simple": "M LIR A-BAL FIIT NGBÉ.",
+      "translation": "Je porte un vêtement noir aujourd'hui."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture Nalu de la Guinée maritime, le choix des couleurs des vêtements revêt une importance symbolique lors des cérémonies de mariage, de baptême ou des rituels traditionnels. Les tissus d'un blanc éclatant ('apee') sont particulièrement valorisés pour symboliser la pureté, la paix et le respect dû aux anciens lors des grands rassemblements communautaires."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex9_1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'adjectif 'Apee' ?",
+      "options": [
+        "Noir",
+        "Blanc",
+        "Rouge"
+      ],
+      "correct_answer": "Blanc",
+      "explanation": "'Apee' désigne la couleur blanche ou une teinte très claire en nalu."
+    },
+    {
+      "exercise_id": "ex9_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'vêtement', on emploie le terme : [ ___ ].",
+      "correct_answer": "abal",
+      "hint": "Désigne de façon générale un habit ou un boubou"
+    }
+  ]
+}

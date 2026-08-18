@@ -1,0 +1,302 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Identifier graphiquement et phonétiquement les caractères spéciaux de l'alphabet soussou (ɛ, ɔ, ɲ)",
+    "Comprendre et maîtriser la valeur sémantique de l'allongement vocalique (voyelles simples vs doubles)",
+    "Articuler correctement les groupes de consonnes complexes (labio-vélaires /gb/ et prénasalisées /ⁿb, ⁿg/)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'alphabet officiel soussou s'appuie sur l'alphabet latin complété par des signes de l'Alphabet Africain de Référence. La lettre 'ɛ' correspond au son 'è' très ouvert. La lettre 'ɔ' correspond au son 'o' très ouvert (comme dans le mot français 'port'). Le digramme 'gb' représente une consonne occlusive labio-vélaire articulée simultanément. Le caractère 'ɲ' correspond au 'gn' d'agneau.",
+    "common_pitfalls": "La plus grande difficulté est de ne pas dissocier le 'g' et le 'b' dans le groupe 'gb'. La fermeture des lèvres et le claquement du fond de la gorge se font en même temps. Veillez également à ne pas prononcer un 'e' fermé français à la place du 'ɛ' ouvert."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v3_1",
+      "term": "Sɛbɛ",
+      "phonetic_api": "/sɛbɛ/",
+      "phonetic_simple": "SÈ-BÈ",
+      "translation": "Écrire / Graphier / Noter",
+      "example_sentence": "A masɛbɛ sɛbɛma baté ma.",
+      "example_phonetic": "/a masɛbɛ sɛbɛma baté ma/",
+      "example_translation": "Il écrit l'alphabet sur le tableau."
+    },
+    {
+      "word_id": "v3_2",
+      "term": "Xui",
+      "phonetic_api": "/xui/",
+      "phonetic_simple": "KHOU-I",
+      "translation": "Voix / Son / Parole / Langue",
+      "example_sentence": "Soso xui fan gbe ra.",
+      "example_phonetic": "/soso xui faⁿ ɡbɛ ra/",
+      "example_translation": "La langue soussou est très belle."
+    },
+    {
+      "word_id": "v3_3",
+      "term": "Ɔlɔ",
+      "phonetic_api": "/ɔlɔ/",
+      "phonetic_simple": "O-LO (ouvert)",
+      "translation": "Gâter / Abîmer / Détruire / Corrompre",
+      "example_sentence": "Donse naxan ɔlɔxi ki.",
+      "example_phonetic": "/doⁿsɛ naxan ɔlɔxi ki/",
+      "example_translation": "Cette nourriture est gâtée."
+    },
+    {
+      "word_id": "v3_4",
+      "term": "Gba",
+      "phonetic_api": "/ɡba/",
+      "phonetic_simple": "GBA",
+      "translation": "Verrouiller / Fermer / Bloquer / Coincer",
+      "example_sentence": "Naadɛ gba, n bore.",
+      "example_phonetic": "/naːdɛ ɡba n borɛ/",
+      "example_translation": "Ferme la porte, mon ami."
+    },
+    {
+      "word_id": "v3_5",
+      "term": "Baa",
+      "phonetic_api": "/baː/",
+      "phonetic_simple": "BA-A (long)",
+      "translation": "La mer / L'océan",
+      "example_sentence": "N na sigafe baa dɛ ma.",
+      "example_phonetic": "/n na siɡafɛ baː dɛ ma/",
+      "example_translation": "Je m'en vais au bord de la mer."
+    },
+    {
+      "word_id": "v3_6",
+      "term": "Ba",
+      "phonetic_api": "/ba/",
+      "phonetic_simple": "BA (bref)",
+      "translation": "Enlever / Retirer / Arracher / Soustraire",
+      "example_sentence": "A gémɛ ba kira ma.",
+      "example_phonetic": "/a ɡeme ba kira ma/",
+      "example_translation": "Retire la pierre du chemin."
+    },
+    {
+      "word_id": "v3_7",
+      "term": "Baté",
+      "phonetic_api": "/baté/",
+      "phonetic_simple": "BA-TÉ",
+      "translation": "Tableau / Mur / Support d'écriture",
+      "example_sentence": "Xaranmudi na baté matofé.",
+      "example_phonetic": "/xaraⁿmudi na baté matofé/",
+      "example_translation": "L'étudiant regarde le tableau."
+    },
+    {
+      "word_id": "v3_8",
+      "term": "Masɛbɛ",
+      "phonetic_api": "/masɛbɛ/",
+      "phonetic_simple": "MA-SÈ-BÈ",
+      "translation": "Lettre / Caractère d'écriture / Alphabet",
+      "example_sentence": "Soso masɛbɛ mixi xaranma.",
+      "example_phonetic": "/soso masɛbɛ mixi xaraⁿma/",
+      "example_translation": "L'alphabet soussou s'apprend."
+    },
+    {
+      "word_id": "v3_9",
+      "term": "Fala",
+      "phonetic_api": "/fala/",
+      "phonetic_simple": "FA-LA",
+      "translation": "Dire / Parler / Prononcer",
+      "example_sentence": "A fala n bɛ.",
+      "example_phonetic": "/a fala n bɛ/",
+      "example_translation": "Dis-le-moi / Parle-moi."
+    },
+    {
+      "word_id": "v3_10",
+      "term": "Fahaamu",
+      "phonetic_api": "/fahaːmu/",
+      "phonetic_simple": "FA-HA-A-MOU",
+      "translation": "Comprendre / Saisir le sens",
+      "example_sentence": "N a fahaamuxi.",
+      "example_phonetic": "/n a fahaːmuxi/",
+      "example_translation": "J'ai compris."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p3_1",
+      "original": "A fala i xui ma.",
+      "phonetic_api": "/a fala i xui ma/",
+      "phonetic_simple": "A FA-LA I KHOU-I MA",
+      "translation": "Dis-le à haute voix / Parle plus fort.",
+      "context": "Consigne d'apprentissage ou demande de répétition."
+    },
+    {
+      "phrase_id": "p3_2",
+      "original": "Soso xui xaranmote na.",
+      "phonetic_api": "/soso xui xaraⁿmotɛ na/",
+      "phonetic_simple": "SO-SO KHOU-I KHA-RAN-MO-TÈ NA",
+      "translation": "C'est l'apprentissage de la langue soussou.",
+      "context": "Présentation du cadre d'étude."
+    },
+    {
+      "phrase_id": "p3_3",
+      "original": "A sɛbɛ alɔ a falaxi ki naxan ma.",
+      "phonetic_api": "/a sɛbɛ alɔ a falaxi ki naxan ma/",
+      "phonetic_simple": "A SÈ-BÈ A-LO A FA-LA-KHI KI NA-KHAN MA",
+      "translation": "Écris-le exactement de la façon dont on le prononce.",
+      "context": "Instruction de dictée ou d'exercice de transcription orthographique."
+    },
+    {
+      "phrase_id": "p3_4",
+      "original": "I fahaamuxi ?",
+      "phonetic_api": "/i fahaːmuxi/",
+      "phonetic_simple": "I FA-HA-A-MOU-KHI",
+      "translation": "As-tu compris ? / As-tu saisi le sens ?",
+      "context": "Vérification pédagogique ou d'attention."
+    },
+    {
+      "phrase_id": "p3_5",
+      "original": "Sɛbɛ n bɛ ki.",
+      "phonetic_api": "/sɛbɛ n bɛ ki/",
+      "phonetic_simple": "SÈ-BÈ N BÈ KI",
+      "translation": "Écris-moi cela ici.",
+      "context": "Demande de trace écrite."
+    },
+    {
+      "phrase_id": "p3_6",
+      "original": "Masɛbɛ naxan na baté ma.",
+      "phonetic_api": "/masɛbɛ naxan na baté ma/",
+      "phonetic_simple": "MA-SÈ-BÈ NA-KHAN NA BA-TÉ MA",
+      "translation": "La lettre qui est écrite au tableau.",
+      "context": "Désignation d'un support de cours."
+    },
+    {
+      "phrase_id": "p3_7",
+      "original": "A xui igbo gbe ra.",
+      "phonetic_api": "/a xui iɡbo ɡbɛ ra/",
+      "phonetic_simple": "A KHOU-I I-GBO GBÈ RA",
+      "translation": "Son de voix est extrêmement fort.",
+      "context": "Description d'une caractéristique sonore ou d'un volume."
+    },
+    {
+      "phrase_id": "p3_8",
+      "original": "Ɲɛɲɛ mou na.",
+      "phonetic_api": "/ɲɛɲɛ mu na/",
+      "phonetic_simple": "NYÈ-NYÈ MOU NA",
+      "translation": "Il n'y a aucun problème d'articulation (c'est fluide).",
+      "context": "Validation d'une bonne prononciation."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La corrélation de longueur vocalique et les paires minimales",
+      "explanation": "En soussou, doubler graphiquement une voyelle correspond à doubler sa durée phonétique (allongement moraique). Cette opposition de longueur n'est pas stylistique mais lexicale : elle change totalement le sens du mot.",
+      "rules": [
+        "Une voyelle simple s'articule de manière brève et nette.",
+        "Une voyelle double s'étire dans le temps sur une seule et même ligne mélodique."
+      ],
+      "examples": [
+        {
+          "structure": "ba",
+          "phonetic_api": "/ba/",
+          "meaning": "Enlever / Retirer"
+        },
+        {
+          "structure": "baa",
+          "phonetic_api": "/baː/",
+          "meaning": "La mer / L'océan"
+        }
+      ]
+    },
+    {
+      "concept": "Le comportement syntaxique des compléments d'objet de l'action 'fala'",
+      "explanation": "Le verbe 'fala' (dire/parler) s'associe à la postposition locative directive 'ma' pour indiquer la manière ou le volume de l'expression orale.",
+      "rules": [
+        "L'indicateur d'intensité ou d'organe vocal se place devant 'ma'.",
+        "Structure : [Sujet] + [Verbe] + [Instrument/Manière] + ma."
+      ],
+      "examples": [
+        {
+          "structure": "A fala i xui ma",
+          "phonetic_api": "/a fala i xui ma/",
+          "meaning": "Dis-le avec ta voix (à haute voix)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Karamoxo",
+      "text": "Marie, a fala i xui ma : 'ɛ'.",
+      "phonetic_api": "/mari a fala i xui ma ɛ/",
+      "phonetic_simple": "MA-RI, A FA-LA I KHOU-I MA : È",
+      "translation": "Marie, dis-le à haute voix : 'è' (ouvert)."
+    },
+    {
+      "speaker": "Marie",
+      "text": "È. N a sɛbɛma di ? Alɔ 'sɛbɛ' ?",
+      "phonetic_api": "/ɛ n a sɛbɛma di alɔ sɛbɛ/",
+      "phonetic_simple": "È. N A SÈ-BÈ-MA DI ? A-LO SÈ-BÈ ?",
+      "translation": "È. Comment est-ce que je l'écris ? Comme dans le mot 'sɛbɛ' ?"
+    },
+    {
+      "speaker": "Karamoxo",
+      "text": "Iyo. Sɛbɛ nan na. A xui fan na ki.",
+      "phonetic_api": "/iyo sɛbɛ nan na a xui faⁿ na ki/",
+      "phonetic_simple": "I-YO. SÈ-BÈ NAN NA. A KHOU-I FAN NA KI",
+      "translation": "Oui. C'est exactement cela. C'est le bon son de voix."
+    },
+    {
+      "speaker": "Marie",
+      "text": "Nba, n na a fahaamufe tan.",
+      "phonetic_api": "/ⁿba n na a fahaːmufɛ taⁿ/",
+      "phonetic_simple": "N-BA, N NA A FA-HA-A-MOU-FÈ TAN",
+      "translation": "D'accord, je suis en train de comprendre maintenant."
+    },
+    {
+      "speaker": "Karamoxo",
+      "text": "I nouwali Marie. A sɛbɛ baté ma.",
+      "phonetic_api": "/i nuwali mari a sɛbɛ baté ma/",
+      "phonetic_simple": "I NOU-WA-LI MA-RI. A SÈ-BÈ BA-TÉ MA",
+      "translation": "Merci Marie. Écris-le maintenant au tableau."
+    }
+  ],
+  "cultural_notes": [
+    "La codification écrite de la langue soussou en caractères latins standardisés a été formalisée à la suite des réformes linguistiques nationales en Guinée. Elle permet de fixer scientifiquement le patrimoine oral (contes, chants, récits historiques de la Basse-Guinée) tout en respectant scrupuleusement les articulations délicates propres au groupe linguistique soso."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex3_1",
+      "type": "multiple_choice",
+      "question": "Quel mot à voyelle longue signifie spécifiquement 'la mer' ou 'l'océan' ?",
+      "options": [
+        "Ba",
+        "Baa",
+        "Bɛ"
+      ],
+      "correct_answer": "Baa",
+      "explanation": "'Baa' avec deux voyelles identiques note la longueur distinctive propre au mot désignant l'océan, distinct du verbe court 'ba' (retirer)."
+    },
+    {
+      "exercise_id": "ex3_2",
+      "type": "multiple_choice",
+      "question": "Quel caractère spécial de l'alphabet africain de référence note le son 'è' ouvert ?",
+      "options": [
+        "ɔ",
+        "ɛ",
+        "ɲ"
+      ],
+      "correct_answer": "ɛ",
+      "explanation": "La lettre 'ɛ' représente la voyelle ouverte antérieure non arrondie, équivalente au 'è' français."
+    },
+    {
+      "exercise_id": "ex3_3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A fala i [ ___ ] ma !",
+      "correct_answer": "xui",
+      "hint": "Ce mot désigne le son, la voix ou la langue parlée."
+    },
+    {
+      "exercise_id": "ex3_4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A masɛbɛ sɛbɛma [ ___ ] ma.",
+      "correct_answer": "baté",
+      "hint": "C'est l'emplacement vertical ou le tableau de l'école où l'on écrit."
+    }
+  ]
+}

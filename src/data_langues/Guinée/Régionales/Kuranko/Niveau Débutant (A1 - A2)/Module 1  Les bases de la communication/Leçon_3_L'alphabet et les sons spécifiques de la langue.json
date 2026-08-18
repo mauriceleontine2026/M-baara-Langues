@@ -1,0 +1,188 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Maîtriser l'alphabet latin adapté au kuranko (orthographe officielle de Guinée)",
+    "Prononcer correctement les voyelles ouvertes et les consonnes doubles ou nasales",
+    "Comprendre le fonctionnement de base des tons et de la quantité vocalique"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le kuranko utilise sept voyelles de base : /a/, /e/, /ɛ/, /i/, /o/, /ɔ/, /u/. Les lettres 'ɛ' (è) et 'ɔ' (o ouvert) sont des caractères d'affichage obligatoires. Les consonnes doubles comme 'gb' et 'ny' représentent des sons uniques articulés d'un seul bloc.",
+    "common_pitfalls": "Éviter d'allonger les voyelles brèves ou de raccourcir les voyelles doubles (ex : 'ba' signifie mère, mais 'baa' signifie chèvre / fleuve). Ne pas détacher le 'g' du 'b' dans le digramme 'gb'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_l3",
+      "term": "Ɛrɛ",
+      "phonetic_api": "/ɛ.rɛ/",
+      "phonetic_simple": "Ɛ-RƐ",
+      "translation": "Vrai / Vérité",
+      "example_sentence": "Ɛrɛ le !",
+      "example_phonetic": "/ɛ.rɛ le/",
+      "example_translation": "C'est vrai !"
+    },
+    {
+      "word_id": "v2_l3",
+      "term": "Ɔfisa",
+      "phonetic_api": "/ɔ.fi.sa/",
+      "phonetic_simple": "Ɔ-FI-SA",
+      "translation": "Mieux / Amélioration",
+      "example_sentence": "A kɛra ɔfisa",
+      "example_phonetic": "/a kɛ.ra ɔ.fi.sa/",
+      "example_translation": "Ça va mieux / C'est devenu meilleur"
+    },
+    {
+      "word_id": "v3_l3",
+      "term": "Gbe",
+      "phonetic_api": "/g͡be/",
+      "phonetic_simple": "GBE",
+      "translation": "Blanc / Pur / Clair",
+      "example_sentence": "Mɔgɔ gbe",
+      "example_phonetic": "/mɔ.gɔ g͡be/",
+      "example_translation": "Une personne claire de peau"
+    },
+    {
+      "word_id": "v4_l3",
+      "term": "Nyama",
+      "phonetic_api": "/ɲa.ma/",
+      "phonetic_simple": "NYA-MA",
+      "translation": "Ordures / Saleté / Force vitale occulte",
+      "example_sentence": "Nyama bɛ so",
+      "example_phonetic": "/ɲa.ma bɛ so/",
+      "example_translation": "Il y a des saletés dans la maison"
+    },
+    {
+      "word_id": "v5_l3",
+      "term": "Ŋana",
+      "phonetic_api": "/ŋa.na/",
+      "phonetic_simple": "NGA-NA",
+      "translation": "Héros / Champion / Personne vaillante",
+      "example_sentence": "Kɛ ŋana",
+      "example_phonetic": "/kɛ ŋa.na/",
+      "example_translation": "Un homme vaillant"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_l3",
+      "original": "A fɔ tana",
+      "phonetic_api": "/a fɔ ta.na/",
+      "phonetic_simple": "A FƆ TA-NA",
+      "translation": "Dis-le autrement",
+      "context": "Demander à son interlocuteur de reformuler ou de corriger sa prononciation."
+    },
+    {
+      "phrase_id": "p2_l3",
+      "original": "N ma a fɛmɛ",
+      "phonetic_api": "/ɱ͡ma a fɛ.mɛ/",
+      "phonetic_simple": "N MA A FƐ-MƐ",
+      "translation": "Je n'ai pas compris",
+      "context": "Utile en situation d'apprentissage face à un flux de parole trop rapide."
+    },
+    {
+      "phrase_id": "p3_l3",
+      "original": "I tɔgɔ sɛbɛ",
+      "phonetic_api": "/i tɔ.gɔ sɛ.bɛ/",
+      "phonetic_simple": "I TƆ-GƆ SƐ-BƐ",
+      "translation": "Écris ton nom",
+      "context": "Demander l'épellation ou l'écriture d'un mot."
+    },
+    {
+      "phrase_id": "p4_l3",
+      "original": "A fɔ fanko",
+      "phonetic_api": "/a fɔ fan.ko/",
+      "phonetic_simple": "A FƆ FAN-KO",
+      "translation": "Répète encore une fois",
+      "context": "Demander une seconde prononciation pour mieux assimiler les sons."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La quantité vocalique (voyelles longues vs courtes)",
+      "explanation": "En kuranko, le redoublement d'une voyelle à l'écrit indique un allongement phonétique obligatoire. Cet allongement modifie totalement le sens du mot.",
+      "rules": [
+        "Une voyelle simple se prononce de façon brève et sèche.",
+        "Une voyelle double doit être maintenue deux fois plus longtemps lors de l'expiration vocale."
+      ],
+      "examples": [
+        {
+          "structure": "Ba",
+          "phonetic_api": "/ba/",
+          "meaning": "Mère"
+        },
+        {
+          "structure": "Baa",
+          "phonetic_api": "/baː/",
+          "meaning": "Chèvre / Grand fleuve"
+        }
+      ]
+    },
+    {
+      "concept": "La consonne nasale vélaire 'Ŋ'",
+      "explanation": "Le caractère 'Ŋ' (majuscule) ou 'ŋ' (minuscule) représente le son consonantique nasal que l'on retrouve à la fin du mot anglais 'sing' ou au milieu du mot français 'parking'.",
+      "rules": [
+        "Il peut se situer au début d'un mot ou d'une syllabe.",
+        "Il ne faut pas le couper en prononçant un 'n' suivi d'un 'g' dur, le bloc d'émission d'air se fait uniquement par le nez et l'arrière de la gorge."
+      ],
+      "examples": [
+        {
+          "structure": "Ŋana",
+          "phonetic_api": "/ŋa.na/",
+          "meaning": "Champion / Personne illustre"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Karamɔgɔ (Le Maître)",
+      "text": "Sɛbɛn nɛ : Ɛrɛ",
+      "phonetic_api": "/sɛ.bɛn nɛ ɛ.rɛ/",
+      "phonetic_simple": "SƐ-BƐN NƐ : Ɛ-RƐ",
+      "translation": "Écris ceci : Vérité (Ɛrɛ)"
+    },
+    {
+      "speaker": "Kalanfari (L'élève)",
+      "text": "A sɛbɛn bɛ ni 'ɛ' ri ?",
+      "phonetic_api": "/a sɛ.bɛn bɛ ni ɛ ri/",
+      "phonetic_simple": "A SƐ-BƐN BƐ NI 'Ɛ' RI ?",
+      "translation": "Est-ce que ça s'écrit avec un 'ɛ' ouvert ?"
+    },
+    {
+      "speaker": "Karamɔgɔ (Le Maître)",
+      "text": "Ɔnhɔ, ni 'ɛ' fila le. A fɔ : ɛrɛ.",
+      "phonetic_api": "/ɔn.hɔ ni ɛ fi.la le a fɔ ɛ.rɛ/",
+      "phonetic_simple": "ƆN-HƆ, NI 'Ɛ' FI-LA LE. A FƆ : Ɛ-RƐ.",
+      "translation": "Oui, avec deux 'ɛ'. Prononce : ɛrɛ."
+    }
+  ],
+  "cultural_notes": [
+    "L'alphabet national guinéen a été harmonisé pour standardiser l'écriture des langues locales comme le kuranko, le maninka, le pular et le susu. L'usage des caractères spéciaux 'ɛ', 'ɔ' et 'ŋ' est une fierté culturelle et un outil de précision pour préserver la tradition orale par écrit.",
+    "L'apprentissage des sons passe traditionnellement par la mémorisation de contes rythmés et d'onomatopées qui structurent l'oreille des enfants au sein du village."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la différence sémantique entre 'ba' et 'baa' en kuranko ?",
+      "options": [
+        "Il n'y a aucune différence, c'est une variante régionale.",
+        "'Ba' signifie la mère, tandis que 'Baa' signifie la chèvre ou le fleuve.",
+        "'Ba' signifie le père et 'Baa' la mère."
+      ],
+      "correct_answer": "'Ba' signifie la mère, tandis que 'Baa' signifie la chèvre ou le fleuve.",
+      "explanation": "La quantité vocalique (allongement de la voyelle) change radicalement le sens des homophones en kuranko."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "La lettre spéciale pour transcrire le son nasal de 'parking' au début d'un mot s'écrit [ ___ ].",
+      "correct_answer": "ŋ",
+      "hint": "C'est un 'n' avec une petite queue vers le bas"
+    }
+  ]
+}

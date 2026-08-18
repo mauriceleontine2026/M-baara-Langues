@@ -1,0 +1,174 @@
+{
+  "lesson_id": "C1_M2_L6",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 6,
+  "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
+  "learning_objectives": [
+    "Employer les formules d'apparat liturgiques et rituelles de la langue Mani",
+    "Structurer le prologue d'un récit traditionnel ou d'un conte ancestral",
+    "Manier le vocabulaire de la sacralité et du respect dus aux institutions coutumières"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne occlusive injective alvéolaire voisée /ɗ/ (ou le 'd' lourd cérémoniel) dans 'dɔŋɔ' demande une implosion glottale subtile. Les modulations de voix sur les voyelles finales allongées comme dans 'bami-ee' servent de marqueurs d'emphase solennelle.",
+    "common_pitfalls": "Veillez à ne pas prononcer le 'g' de 'tɔgɔ-gbun' de manière affaiblie ou fricative. L'alliance de l'occlusive vélaire et du groupe co-articulé /gb/ doit marquer la majesté du propos."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v24_1",
+      "term": "dɔŋɔ",
+      "phonetic_api": "/ɗɔ.ŋɔ/",
+      "phonetic_simple": "DƆ-NGƆ",
+      "translation": "parole sacrée / liturgie / verbe d'apparat / ancêtre",
+      "example_sentence": "Dɔŋɔ bɛ ni yoma-ra.",
+      "example_phonetic": "/ɗɔ.ŋɔ bɛ ni jo.ma ra/",
+      "example_translation": "La parole sacrée est porteuse de vérité absolue."
+    },
+    {
+      "word_id": "v24_2",
+      "term": "bami-ee",
+      "phonetic_api": "/ba.mi eː/",
+      "phonetic_simple": "BA-MI-ÉÉ",
+      "translation": "nobles / assemblée vénérable / dignitaires (vocatif formel)",
+      "example_sentence": "Tuli kɔŋ, bami-ee !",
+      "example_phonetic": "/tu.li kɔŋ ba.mi eː/",
+      "example_translation": "Écoutez s'il vous plaît, ô vénérables dignitaires !"
+    },
+    {
+      "word_id": "v24_3",
+      "term": "tɔgɔ-gbun",
+      "phonetic_api": "/tɔ.ɡɔ ɡbun/",
+      "phonetic_simple": "TO-GO-GBOUN",
+      "translation": "loi immuable / charte rituelle / décret sacré",
+      "example_sentence": "N fɔkɔ-lan tɔgɔ-gbun.",
+      "example_phonetic": "/n̩ fɔ.kɔ lan tɔ.ɡɔ ɡbun/",
+      "example_translation": "Je viens guider le peuple selon la loi immuable."
+    },
+    {
+      "word_id": "v24_4",
+      "term": "kpeerɛ-yoma",
+      "phonetic_api": "/kpeː.rɛ jo.ma/",
+      "phonetic_simple": "KPEE-RÈ-YO-MA",
+      "translation": "bénédiction originelle / harmonie spirituelle de la lignée",
+      "example_sentence": "Kpeerɛ-yoma bɛ denbaya fɛ.",
+      "example_phonetic": "/kpeː.rɛ jo.ma bɛ den.ba.ja fɛ/",
+      "example_translation": "La bénédiction originelle repose sur la famille."
+    },
+    {
+      "word_id": "v24_5",
+      "term": "fari-gbun",
+      "phonetic_api": "/fa.ri ɡbun/",
+      "phonetic_simple": "FA-RI-GBOUN",
+      "translation": "danse rituelle / célébration solennelle / cérémonie",
+      "example_sentence": "Woŋ cɛm bɛ ni fari-gbun.",
+      "example_phonetic": "/woŋ tʃɛm bɛ ni fa.ri ɡbun/",
+      "example_translation": "Le village est le théâtre d'une célébration solennelle."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p24_1",
+      "original": "Bami-ee, tuli kɔŋ ! Dɔŋɔ fɔkɔ-wo hɔnkɔ lɔ fɛ.",
+      "phonetic_api": "/ba.mi eː tu.li kɔŋ ɗɔ.ŋɔ fɔ.kɔ wo hɔn.kɔ lɔ fɛ/",
+      "phonetic_simple": "BA-MI-ÉÉ, TOU-LI KONG ! DƆ-NGƆ FƆ-KƆ-WO HON-KƆ LƆ FÈ",
+      "translation": "Ô vénérables dignitaires, écoutez s'il vous plaît ! La parole sacrée s'est manifestée à nous en ce jour.",
+      "context": "Formule solennelle d'ouverture pour un conte, une palabre majeure ou une veillée traditionnelle."
+    },
+    {
+      "phrase_id": "p24_2",
+      "original": "N kperɛ-woŋ dɔŋɔ fɔkɔ-fɛ tɔgɔ-gbun na mɛnni.",
+      "phonetic_api": "/n̩ kpe.rɛ woŋ ɗɔ.ŋɔ fɔ.kɔ fɛ tɔ.ɡɔ ɡbun na mɛn.ni/",
+      "phonetic_simple": "N KPE-RÈ-WONG DƆ-NGƆ FƆ-KƆ-FÈ TO-GO-GBOUN NA MÈN-NI",
+      "translation": "Je transmets le verbe sacré car la loi immuable réside là-bas.",
+      "context": "Déclaration d'un orateur ou d'un émissaire justifiant sa prise de parole officielle."
+    },
+    {
+      "phrase_id": "p24_3",
+      "original": "Xa kpeerɛ-yoma bɛ ni wun, wun ce wɔli-la gbun.",
+      "phonetic_api": "/xa kpeː.rɛ jo.ma bɛ ni wun wun tʃe wɔ.li la ɡbun/",
+      "phonetic_simple": "KHA KPEE-RÈ-YO-MA BÈ NI WOUN, WOUN TCHÉ WƆ-LI-LA GBOUN",
+      "translation": "Si la bénédiction originelle t'accompagne, tu accompliras de grandes œuvres.",
+      "context": "Vœu de haute portée spirituelle adressé par un ancien à un jeune chef ou à un initié."
+    },
+    {
+      "phrase_id": "p24_4",
+      "original": "Fari-gbun na lɔ cɛm, fɛ-fɔkɔ kunu-wo wo-ce fɔkɔ.",
+      "phonetic_api": "/fa.ri ɡbun na lɔ tʃɛm fɛ fɔ.kɔ ku.nu wo wo tʃe fɔ.kɔ/",
+      "phonetic_simple": "FA-RI-GBOUN NA LƆ TCHÈM, FÈ-FƆ-KƆ KOU-NOU-WO WO-TCHÉ FƆ-KƆ",
+      "translation": "La cérémonie sacrée bat son plein ici, bien que l'inquiétude eût pu s'installer.",
+      "context": "Exalter le triomphe du rituel sur les contingences et les doutes humains."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'invocation honorifique et l'interjection vocative suffixée",
+      "explanation": "Dans le registre soutenu de la langue Mani, s'adresser à une assemblée exige l'usage du substantif de noblesse 'bami' (les nobles/les pairs) étendu par le suffixe vocatif à valeur solennelle '-ee'. Cette structure suspend la syntaxe linéaire ordinaire pour imposer le silence rituel.",
+      "rules": [
+        "Structure de l'apostrophe formelle : Titre honorifique + Suffixe vocatif prolongé '-ee'.",
+        "Le verbe à l'impératif qui suit est systématiquement adouci par 'kɔŋ' pour marquer la déférence sacrée."
+      ],
+      "examples": [
+        {
+          "structure": "Bami-ee, tuli !",
+          "phonetic_api": "/ba.mi eː tu.li/",
+          "meaning": "Nobles pairs, prêtez l'oreille !"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mora-gbun (L'Ancien / Le Conteur)",
+      "text": "Bami-ee, tuli kɔŋ ! Dɔŋɔ fɔkɔ-wo hɔnkɔ lɔ fɛ. Xa kpeerɛ-yoma bɛ lɔ, woŋ ce tunkɛ.",
+      "phonetic_api": "/ba.mi eː tu.li kɔŋ ɗɔ.ŋɔ fɔ.kɔ wo hɔn.kɔ lɔ fɛ xa kpeː.rɛ jo.ma bɛ lɔ woŋ tʃe tun.kɛ/",
+      "phonetic_simple": "BA-MI-ÉÉ, TOU-LI KONG ! DƆ-NGƆ FƆ-KƆ-WO HON-KƆ LƆ FÈ. KHA KPEE-RÈ-YO-MA BÈ LƆ, WONG TCHÉ TOUN-KÈ.",
+      "translation": "Ô vénérables dignitaires, écoutez s'il vous plaît ! Le verbe sacré s'est manifesté à nous aujourd'hui. Si la bénédiction originelle est ancrée ici, toute la cité sera dans l'allégresse."
+    },
+    {
+      "speaker": "L'Assemblée (Représentée par un notable)",
+      "text": "Oon n fara, dɔŋɔ na yoma-ra. Fɛ-fɔkɔ kunu-wo gbun-wo, lɔ-fɔkɔ-fɛ tɔgɔ-gbun ce haani-lɔ wun.",
+      "phonetic_api": "/oːn n̩ fa.ra ɗɔ.ŋɔ na jo.ma ra fɛ fɔ.kɔ ku.nu wo ɡbun wo lɔ fɔ.kɔ fɛ tɔ.ɡɔ ɡbun tʃe haː.ni lɔ wun/",
+      "phonetic_simple": "OON N FA-RA, DƆ-NGƆ NA YO-MA-RA. FÈ-FƆ-KƆ KOU-NOU-WO GBOUN-WO, LƆ-FƆ-KƆ-FÈ TO-GO-GBOUN TCHÉ HAA-NI-LƆ WOUN.",
+      "translation": "Oui notre père, ta parole est une vérité absolue. Bien que le doute ait été immense, par conséquent la loi immuable va te soutenir pleinement."
+    },
+    {
+      "speaker": "Mora-gbun (L'Ancien / Le Conteur)",
+      "text": "Yoma a ra ! Fari-gbun ce bɛŋ kankaran lɔ. Wun ce ni gbeŋu ni guba furi-furi-ee ?",
+      "phonetic_api": "/jo.ma a ra fa.ri ɡbun tʃe bɛŋ kan.ka.ran lɔ wun tʃe ni ɡbe.ŋu ni ɡu.ba fu.ri fu.ri eː/",
+      "phonetic_simple": "YO-MA A RA ! FA-RI-GBOUN TCHÉ BÈNG KAN-KA-RAN LƆ. WOUN TCHÉ NI GBÉ-NGOU NI GOU-BA FOU-RI-FOU-RI-ÉÉ ?",
+      "translation": "C'est excellent ! La cérémonie sacrée va se déployer au centre de la cour. Es-tu paré de tes offrandes et de tes vêtements d'un blanc pur ?"
+    },
+    {
+      "speaker": "L'Assemblée (Représentée par un notable)",
+      "text": "Oon, n bɛ ni guba furi-furi-ee cece. Dɔŋɔ-gbun ce wɔli-la ni yoma. Cece n fara, gbana !",
+      "phonetic_api": "/oːn n̩ bɛ ni ɡu.ba fu.ri fu.ri eː tʃe.tʃe ɗɔ.ŋɔ ɡbun tʃe wɔ.li la ni jo.ma tʃe.tʃe n̩ fa.ra ɡba.na/",
+      "phonetic_simple": "OON, N BÈ NI GOU-BA FOU-RI-FOU-RI-ÉÉ TCHÉ-TCHÉ. DƆ-NGƆ-GBOUN TCHÉ WƆ-LI-LA NI YO-MA. TCHÉ-TCHÉ N FA-RA, GBA-NA !",
+      "translation": "Oui, je revêts de grands habits blancs. La haute liturgie va s'accomplir dans la paix. Merci infiniment notre père, au revoir !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les structures rituelles de Basse-Guinée, le registre soutenu de la langue Mani est l'apanage des initiés et des anciens ('mora-gbun'). Les discours formels prononcés lors du conseil des sages ou au début des récits mythiques obéissent à une stricte codification : interdiction d'élever la voix, emploi de termes sacrés ('dɔŋɔ') et obligation pour l'assistance de revêtir des habits blancs ('guba furi-furi-ee') en signe de pureté intentionnelle et d'allégeance aux décrets coutumiers."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex24_1",
+      "type": "multiple_choice",
+      "question": "Quel terme formel Mani désigne la 'parole sacrée', le 'verbe rituel' ou la liturgie des anciens ?",
+      "options": [
+        "wɔli",
+        "dɔŋɔ",
+        "gbeŋu"
+      ],
+      "correct_answer": "dɔŋɔ",
+      "explanation": "'Dɔŋɔ' qualifie exclusivement la parole solennelle, sacrée et rituelle transmise par l'autorité coutumière."
+    },
+    {
+      "exercise_id": "ex24_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ], tuli kɔŋ ! (Vénérables dignitaires, écoutez s'il vous plaît !).",
+      "correct_answer": "bami-ee",
+      "hint": "Formule d'apostrophe collective de registre très soutenu munie de son suffixe d'allongement de solennité."
+    }
+  ]
+}

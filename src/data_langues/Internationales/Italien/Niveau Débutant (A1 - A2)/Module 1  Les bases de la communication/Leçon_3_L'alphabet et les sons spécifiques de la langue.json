@@ -1,0 +1,294 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Maîtriser l'alphabet italien traditionnel, ses lettres étrangères et savoir épeler",
+    "Identifier et prononcer correctement les combinaisons de sons complexes (ch, gh, gn, gli, sc)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'alphabet italien officiel ne compte que 21 lettres. Les lettres J, K, W, X, Y ne sont utilisées que pour les mots d'origine étrangère. L'italien dispose de sons dits 'dur' ou 'doux' selon la voyelle qui suit. La combinaison 'sc' suivie de 'i' ou 'e' produit le son chuintant /ʃ/ comme dans le mot français 'chat' (ex: sciare). Suivie de 'a', 'o', 'u', elle se prononce /sk/ (ex: ascoltare).",
+    "common_pitfalls": "Attention à la lettre 'H' (acca). Elle ne produit aucun son en italien. Son seul rôle est de modifier la prononciation du 'c' et du 'g' devant les voyelles 'e' et 'i' pour les rendre durs (/k/ et /ɡ/). Confondre la prononciation de 'ci' (/tʃi/) et 'chi' (/ki/) est l'erreur la plus fréquente chez les francophones."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "L'alfabeto",
+      "phonetic_api": "/lalfaˈbɛːto/",
+      "phonetic_simple": "LAL-FA-BÈ-TO",
+      "translation": "L'alphabet",
+      "example_sentence": "L'alfabeto italiano ha ventuno lettere.",
+      "example_phonetic": "/lalfaˈbɛːto itaˈljaːno a vvenˈtuːno ˈlɛttere/",
+      "example_translation": "L'alphabet italien a vingt et une lettres."
+    },
+    {
+      "word_id": "v2",
+      "term": "La lettera",
+      "phonetic_api": "/la ˈlɛttera/",
+      "phonetic_simple": "LA LÈT-TE-RA",
+      "translation": "La lettre",
+      "example_sentence": "Come si scrive questa lettera?",
+      "example_phonetic": "/ˈkoːme si ˈskriːve ˈkwesta ˈlɛttera/",
+      "example_translation": "Comment s'écrit cette lettre ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "Compitare",
+      "phonetic_api": "/kompiˈtaːre/",
+      "phonetic_simple": "KOM-PI-TA-RE",
+      "translation": "Épeler",
+      "example_sentence": "Può compitare il Suo nome?",
+      "example_phonetic": "/pwɔ kompiˈtaːre il ˈsuːo ˈnoːme/",
+      "example_translation": "Pouvez-vous épeler votre nom ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "La chiave",
+      "phonetic_api": "/la ˈkjaːve/",
+      "phonetic_simple": "LA KIA-VE",
+      "translation": "La clé",
+      "example_sentence": "Ecco la chiave della camera.",
+      "example_phonetic": "/ˈɛkko la ˈkjaːve ˈdalla ˈkaːmera/",
+      "example_translation": "Voici la clé de la chambre."
+    },
+    {
+      "word_id": "v5",
+      "term": "Il cognome",
+      "phonetic_api": "/il koɲˈɲoːme/",
+      "phonetic_simple": "IL KO-NIO-ME",
+      "translation": "Le nom de famille",
+      "example_sentence": "Qual è il Suo cognome?",
+      "example_phonetic": "/kwal ɛ il ˈsuːo koɲˈɲoːme/",
+      "example_translation": "Quel est votre nom de famille ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "Lo zaino",
+      "phonetic_api": "/lo ˈdzaiːno/",
+      "phonetic_simple": "LO DZAÏ-NO",
+      "translation": "Le sac à dos",
+      "example_sentence": "Lo zaino è pesante.",
+      "example_phonetic": "/lo ˈdzaiːno ɛ ppeˈsante/",
+      "example_translation": "Le sac à dos est lourd."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Come si scrive?",
+      "phonetic_api": "/ˈkoːme si ˈskriːve/",
+      "phonetic_simple": "KO-ME SI SKRI-VE",
+      "translation": "Comment ça s'écrit ?",
+      "context": "Indispensable pour demander l'orthographe exacte d'un mot."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Può ripetere, per favore?",
+      "phonetic_api": "/pwɔ rriˈpɛːtere per faˈvoːre/",
+      "phonetic_simple": "POUÒ RI-PÈ-TE-RE PER FA-VO-RE",
+      "translation": "Pouvez-vous répéter, s'il vous plaît ?",
+      "context": "Cadre formel lorsqu'une information orale a été manquée."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Con due 'ci'",
+      "phonetic_api": "/kon ˈduːe tʃi/",
+      "phonetic_simple": "KON DOU-E TCHI",
+      "translation": "Avec deux 'c'",
+      "context": "Utilisé pour préciser la présence d'une consonne double à l'oral."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Tutto chiaro?",
+      "phonetic_api": "/ˈtutto ˈkjaːro/",
+      "phonetic_simple": "TOUT-TO KIA-RO",
+      "translation": "Tout est clair ?",
+      "context": "Question d'un interlocuteur ou enseignant pour vérifier la compréhension."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Ho una domanda",
+      "phonetic_api": "/ɔ ˈuːna doˈmanda/",
+      "phonetic_simple": "O OU-NA DO-MAN-DA",
+      "translation": "J'ai une question",
+      "context": "Formule pour interrompre poliment afin de clarifier un point."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Come si pronuncia questa parola?",
+      "phonetic_api": "/ˈkoːme si proˈnuntʃa ˈkwesta paˈrɔːla/",
+      "phonetic_simple": "KO-ME SI PRO-NOUN-TCHIA KOUÈS-TA PA-RÒ-LA",
+      "translation": "Comment se prononce ce mot ?",
+      "context": "Idéal pour travailler son articulation face à un mot inconnu."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Lettera per lettera",
+      "phonetic_api": "/ˈlɛttera per ˈlɛttera/",
+      "phonetic_simple": "LÈT-TE-RA PER LÈT-TE-RA",
+      "translation": "Lettre par lettre",
+      "context": "Indique que l'on va décomposer précisément un mot difficile."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "La pronuncia è difficile",
+      "phonetic_api": "/la proˈnuntʃa ɛ ddiˈfiːtʃile/",
+      "phonetic_simple": "LA PRO-NOUN-TCHIA È DIF-FI-TCHI-LE",
+      "translation": "La prononciation est difficile",
+      "context": "Pour exprimer une hésitation phonétique."
+    },
+    {
+      "phrase_id": "p9",
+      "original": "Grazie per la spiegazione",
+      "phonetic_api": "/ˈɡrattsje per la spjeɡatˈtsjoːne/",
+      "phonetic_simple": "GRAT-TSIE PER LA SPIE-GA-TSIO-NE",
+      "translation": "Merci pour l'explication",
+      "context": "Formule de remerciement après un éclaircissement."
+    },
+    {
+      "phrase_id": "p10",
+      "original": "Va bene",
+      "phonetic_api": "/va ˈbɛːne/",
+      "phonetic_simple": "VA BÈ-NE",
+      "translation": "D'accord / Ça va",
+      "context": "Validation universelle et quotidienne."
+    },
+    {
+      "phrase_id": "p11",
+      "original": "Un momento, per favore",
+      "phonetic_api": "/un moˈmento per faˈvoːre/",
+      "phonetic_simple": "OUN MO-MEN-TO PER FA-VO-RE",
+      "translation": "Un moment, s'il vous plaît",
+      "context": "Pour demander un court instant de réflexion ou d'attente."
+    },
+    {
+      "phrase_id": "p12",
+      "original": "Significa questo",
+      "phonetic_api": "/siɲˈɲiːfika ˈkwesto/",
+      "phonetic_simple": "SI-NII-FI-KA KOUÈS-TO",
+      "translation": "Cela signifie ceci",
+      "context": "Pour expliciter le sens d'un symbole ou d'une lettre."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les 21 lettres de l'alphabet italien et leur nom",
+      "explanation": "L'alphabet de base de la langue italienne est composé de 21 lettres traditionnelles. Voici l'inventaire complet de ces lettres avec leur écriture officielle et le nom qu'on leur donne pour les épeler.",
+      "rules": [
+        "A (a) / B (bi) / C (ci) / D (di) / E (e) / F (effe) / G (gi)",
+        "H (acca) / I (i) / L (elle) / M (emme) / N (enne) / O (o)",
+        "P (pi) / Q (cu) / R (erre) / S (esse) / T (ti) / U (u) / V (vu / vi) / Z (zeta)"
+      ],
+      "examples": [
+        {
+          "structure": "La lettera H si chiama 'acca'.",
+          "phonetic_api": "/la ˈlɛttera ˈakka si ˈkjaːma ˈakka/",
+          "meaning": "La lettre H s'appelle 'acca'."
+        }
+      ]
+    },
+    {
+      "concept": "Les 5 lettres étrangères (lettere straniere)",
+      "explanation": "Ces cinq lettres ne font pas partie de l'alphabet traditionnel italien mais sont intégrées pour écrire et épeler les mots empruntés à d'autres langues.",
+      "rules": [
+        "J (i lunga) / K (cappa) / W (doppia vu) / X (ics) / Y (ipsilon / i greca)"
+      ],
+      "examples": [
+        {
+          "structure": "La lettera J si chiama 'i lunga'.",
+          "phonetic_api": "/la ˈlɛttera ˈi ˈluŋɡa si ˈkjaːma ˈi ˈluŋɡa/",
+          "meaning": "La lettre J s'appelle 'i lunga'."
+        }
+      ]
+    },
+    {
+      "concept": "L'accentuation graphique obligatoire",
+      "explanation": "En italien, l'accent graphique n'est pas utilisé sur toutes les syllabes comme en français. Il est obligatoire uniquement sur la dernière voyelle des mots tronqués (parole tronche) pour marquer la force de l'intonation en fin de mot.",
+      "rules": [
+        "L'accent grave (`) est le plus fréquent et s'utilise sur toutes les voyelles (à, è, ì, ò, ù) (ex: città, caffè, sì).",
+        "L'accent aigu (´) est réservé à la voyelle 'e' quand elle a un son fermé /e/ (ex: perché, ventitré)."
+      ],
+      "examples": [
+        {
+          "structure": "Perché studi l'italiano all'università?",
+          "phonetic_api": "/perˈke ˈstuːdi litaˈljaːno alluniversiˈta/",
+          "meaning": "Pourquoi étudies-tu l'italien à l'université ?"
+        }
+      ]
+    },
+    {
+      "concept": "Le rôle phonétique de la lettre H (Acca)",
+      "explanation": "La lettre 'H' n'a pas de valeur phonétique propre mais agit comme un modificateur orthographique majeur pour durcir le son des consonnes C et G.",
+      "rules": [
+        "C + I/E = son doux /tʃ/ (ciao). C + H + I/E = son dur /k/ (chiave).",
+        "G + I/E = son doux /dʒ/ (giorno). G + H + I/E = son dur /ɡ/ (ghepardo)."
+      ],
+      "examples": [
+        {
+          "structure": "I pacchetti e i righi.",
+          "phonetic_api": "/i pakˈketti e i ˈriːɡi/",
+          "meaning": "Les paquets et les lignes (le 'h' empêche de prononcer pa-tche-ti ou ri-dji)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Impiegato",
+      "text": "Buongiorno. Qual è il Suo cognome, per favore?",
+      "phonetic_api": "/bwɔnˈdʒorno kwal ɛ il ˈsuːo koɲˈɲoːme per faˈvoːre/",
+      "phonetic_simple": "BOUON-DJOR-NO KOUAL È IL SOU-O KO-NIO-ME PER FA-VO-RE",
+      "translation": "Bonjour. Quel est votre nom de famille, s'il vous plaît ?"
+    },
+    {
+      "speaker": "Cliente",
+      "text": "Buongiorno. Il mio cognome è Cherubini.",
+      "phonetic_api": "/bwɔnˈdʒorno il ˈmiːo koɲˈɲoːme ɛ keruˈbiːni/",
+      "phonetic_simple": "BOUON-DJOR-NO IL MI-O KO-NIO-ME È KE-ROU-BI-NI",
+      "translation": "Bonjour. Mon nom de famille est Cherubini."
+    },
+    {
+      "speaker": "Impiegato",
+      "text": "Come si scrive? Può compitare la prima lettera?",
+      "phonetic_api": "/ˈkoːme si ˈskriːve pwɔ kompiˈtaːre la ˈpriːma ˈlɛttera/",
+      "phonetic_simple": "KO-ME SI SKRI-VE POUÒ KOM-PI-TA-RE LA PRI-MA LÈT-TE-RA",
+      "translation": "Comment ça s'écrit ? Pouvez-vous épeler la première lettre ?"
+    },
+    {
+      "speaker": "Cliente",
+      "text": "Sì, con la 'C' di Como, poi 'H' di hotel, 'E' di Empoli, 'R', 'U', 'B', 'I', 'N', 'I'. Tutto chiaro?",
+      "phonetic_api": "/si kon la tʃi di ˈkɔːmo pɔi ˈakka di oˈtɛl e di ˈempoli ɛrre u bi i ɛnne i ˈtutto ˈkjaːro/",
+      "phonetic_simple": "SI KON LA TCHI DI KO-MO POÏ AK-KA DI O-TEL E DI EM-PO-LI ÈR-RE OU BI I ÈN-NE I TOUT-TO KIA-RO",
+      "translation": "Oui, avec le 'C' de Côme, puis 'H' d'hôtel, 'E' d'Empoli, 'R', 'U', 'B', 'I', 'N', 'I'. Tout est clair ?"
+    }
+  ],
+  "cultural_notes": [
+    "Pour épeler un mot au téléphone ou au guichet, les Italiens n'utilisent pas d'alphabet phonétique international normalisé. Ils utilisent presque exclusivement des noms de villes italiennes célèbres (ex: A di Ancona, B di Bari, C di Como, N di Napoli, R di Roma).",
+    "La double consonne à l'écrit modifie radicalement le sens d'un mot à l'oral. Par exemple, 'casa' (maison) a un son de s simple, tandis que 'cassa' (caisse) demande d'insister fortement sur le son 's'. Mal articuler une double peut créer des malentendus amusants ou embarrassants.",
+    "La lettre 'Q' est systématiquement suivie de la voyelle 'U' en italien, formant le groupe 'qu' qui se prononce invariablement /kw/ (ex: 'questo', 'quadro')."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment s'appelle officiellement la lettre 'Y' en italien ?",
+      "options": [
+        "Ipsilon",
+        "I lunga",
+        "Cappa"
+      ],
+      "correct_answer": "Ipsilon",
+      "explanation": "La lettre 'Y' s'appelle 'ipsilon' ou 'i greca' dans l'usage italien courant."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le mot 'perché' prend obligatoirement un accent [ ___ ] sur la lettre finale.",
+      "correct_answer": "aigu",
+      "hint": "Type d'accent utilisé pour indiquer un son 'e' fermé."
+    }
+  ]
+}

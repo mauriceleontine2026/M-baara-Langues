@@ -1,0 +1,236 @@
+{
+  "lesson_id": "A1_M2_L6_ENRICHED",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et l'heure",
+  "learning_objectives": [
+    "Nommer et orthographier l'intégralité des 7 jours de la semaine et des 12 mois de l'année",
+    "Demander et donner l'heure avec exactitude",
+    "Utiliser les prépositions temporelles de base pour situer un événement"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot 'jueves' commence par la jota (/ˈxweβes/), qui demande une friction claire au fond de la gorge. Le mot 'miércoles' porte un accent tonique écrit sur le 'e' (/ˈmjeɾkoles/), ce qui en fait un mot esdrújulo (accentué sur l'antépénultième syllabe). Dans 'mayo', le 'y' se prononce comme une consonne fricative palatale (/ˈmaʝo/).",
+    "common_pitfalls": "Ne prononcez pas le 'v' de 'viernes' à la française. En espagnol, le 'b' et le 'v' ont le même son bilabial (/ˈbjeɾnes/). Attention à la prononciation du mois 'enero' (/eˈneɾo/), le 'e' initial est bien fermé et net."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Lunes",
+      "phonetic_api": "/ˈlunes/",
+      "phonetic_simple": "LOU-NES",
+      "translation": "Lundi",
+      "example_sentence": "El lunes tengo una reunión importante.",
+      "example_phonetic": "/el ˈlunes ˈteŋɡo ˈuna rewˈnjon jmpoɾˈtante/",
+      "example_translation": "Lundi, j'ai une réunion importante."
+    },
+    {
+      "word_id": "v2",
+      "term": "Sábado",
+      "phonetic_api": "/ˈsaβaðo/",
+      "phonetic_simple": "SA-BA-DO",
+      "translation": "Samedi",
+      "example_sentence": "El sábado voy al cine con mis amigos.",
+      "example_phonetic": "/el ˈsaβaðo ˈβoj al ˈθine kon mis aˈmiɣos/",
+      "example_translation": "Samedi, je vais au cinéma avec mes amis."
+    },
+    {
+      "word_id": "v3",
+      "term": "Enero",
+      "phonetic_api": "/eˈneɾo/",
+      "phonetic_simple": "É-NÉ-RO",
+      "translation": "Janvier",
+      "example_sentence": "Mi cumpleaños es en enero.",
+      "example_phonetic": "/mi kumpleˈaɲos ˈes en eˈneɾo/",
+      "example_translation": "Mon anniversaire est en janvier."
+    },
+    {
+      "word_id": "v4",
+      "term": "Hora",
+      "phonetic_api": "/ˈoɾa/",
+      "phonetic_simple": "O-RA",
+      "translation": "Heure",
+      "example_sentence": "Es la hora de estudiar.",
+      "example_phonetic": "/ˈes la ˈoɾa ðe estuˈðjaɾ/",
+      "example_translation": "C'est l'heure d'étudier."
+    },
+    {
+      "word_id": "v5",
+      "term": "Tarde",
+      "phonetic_api": "/ˈtaɾðe/",
+      "phonetic_simple": "TAR-DÉ",
+      "translation": "Après-midi / Tard",
+      "example_sentence": "Llegamos tarde al trabajo.",
+      "example_phonetic": "/ʝeˈɣamos ˈtaɾðe al tɾaˈβaxo/",
+      "example_translation": "Nous arrivons tard au travail."
+    },
+    {
+      "word_id": "v6",
+      "term": "Minuto",
+      "phonetic_api": "/miˈnuto/",
+      "phonetic_simple": "MEE-NOU-TO",
+      "translation": "Minute",
+      "example_sentence": "Falta un minuto para empezar.",
+      "example_phonetic": "/ˈfalta un miˈnuto ˈpaɾa empeˈθaɾ/",
+      "example_translation": "Il reste une minute pour commencer."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "¿Qué hora es?",
+      "phonetic_api": "/ˈke ˈoɾa ˈes/",
+      "phonetic_simple": "KÉ O-RA ES",
+      "translation": "Quelle heure est-il ?",
+      "context": "La question standard pour demander l'heure courante."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Es la una y media",
+      "phonetic_api": "/ˈes la ˈuna i ˈmeðja/",
+      "phonetic_simple": "ES LA OU-NA EE MEE-DYA",
+      "translation": "Il est une heure et demie",
+      "context": "S'utilise exclusivement pour la première heure de la journée ou de l'après-midi."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Son las cuatro menos cuarto",
+      "phonetic_api": "/ˈson las ˈkwatɾo ˈmenos ˈkwaɾto/",
+      "phonetic_simple": "SON LAS KOUA-TRO MÉ-NOS KOUAR-TO",
+      "translation": "Il est quatre heures moins le quart",
+      "context": "Pour exprimer les quarts d'heure restants avant l'heure suivante."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "¿A qué hora es la clase?",
+      "phonetic_api": "/a ˈke ˈoɾa ˈes la ˈklase/",
+      "phonetic_simple": "A KÉ O-RA ES LA KLA-SÉ",
+      "translation": "À quelle heure est le cours ?",
+      "context": "Pour demander le moment précis d'un rendez-vous ou d'un événement."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La liste exhaustive des 7 jours de la semaine (Los días de la semana)",
+      "explanation": "Tous les jours de la semaine sont du genre masculin en espagnol. Les cinq premiers jours se terminent par un 's' et possèdent une forme identique au singulier et au pluriel.",
+      "rules": [
+        "Lunes (Lundi) : /ˈlunes/ (LOU-NES)",
+        "Martes (Mardi) : /ˈmaɾtes/ (MAR-TES)",
+        "Miércoles (Mercredi) : /ˈmjeɾkoles/ (MYÉR-KO-LES)",
+        "Jueves (Jeudi) : /ˈxweβes/ (KHOUÉ-BÉS)",
+        "Viernes (Vendredi) : /ˈbjeɾnes/ (BYÉR-NES)",
+        "Sábado (Samedi) : /ˈsaβaðo/ (SA-BA-DO)",
+        "Domingo (Dimanche) : /doˈmiŋɡo/ (DO-MEEN-GO)"
+      ],
+      "examples": [
+        {
+          "structure": "El sábado descanso y los domingos visito a mi abuelo.",
+          "phonetic_api": "/el ˈsaβaðo ðesˈkanso i los ðoˈmiŋɡoz βiˈsito a mi aˈβwelo/",
+          "meaning": "Le samedi je me repose et les dimanches je visite mon grand-père."
+        }
+      ]
+    },
+    {
+      "concept": "La liste exhaustive des 12 mois de l'année (Los meses del año)",
+      "explanation": "Voici l'ordre chronologique des douze mois de l'année en espagnol. Ils s'utilisent généralement avec la préposition 'en' pour marquer le mois d'un événement.",
+      "rules": [
+        "Enero (Janvier) : /eˈneɾo/ (É-NÉ-RO)",
+        "Febrero (Février) : /feˈβɾeɾo/ (FÉ-BRÉ-RO)",
+        "Marzo (Mars) : /ˈmaɾθo/ (MAR-THO)",
+        "Abril (Avril) : /aˈβɾil/ (A-BREEL)",
+        "Mayo (Mai) : /ˈmaʝo/ (MA-YO)",
+        "Junio (Juin) : /ˈxunjo/ (KHOU-NYO)",
+        "Julio (Juillet) : /ˈxuljo/ (KHOU-LYO)",
+        "Agosto (Août) : /aˈɣosto/ (A-GOS-TO)",
+        "Septiembre (Septembre) : /sepˈtjemβɾe/ (SEP-TYEM-BRÉ)",
+        "Octubre (Octobre) : /okˈtuβɾe/ (OK-TOU-BRÉ)",
+        "Noviembre (Novembre) : /noˈβjemβɾe/ (NO-BYEM-BRÉ)",
+        "Diciembre (Décembre) : /ðiˈθjemβɾe/ (DEE-THYEM-BRÉ)"
+      ],
+      "examples": [
+        {
+          "structure": "En diciembre hace frío y en julio hace calor.",
+          "phonetic_api": "/en ðiˈθjemβɾe ˈaθe ˈfɾio i en ˈxuljo ˈaθe kaˈloɾ/",
+          "meaning": "En décembre il fait froid et en juillet il fait chaud."
+        }
+      ]
+    },
+    {
+      "concept": "La structure grammaticale pour donner l'heure",
+      "explanation": "En espagnol, l'heure s'exprime toujours à l'aide du verbe 'ser'. On utilise le singulier pour une heure et le pluriel pour toutes les autres heures. Les minutes s'ajoutent avec la conjonction 'y' jusqu'à la demi-heure, puis se soustraient avec 'menos' pour la deuxième moitié de l'heure.",
+      "rules": [
+        "Pour 1h00 : Utiliser 'Es la...' (ex: Es la una).",
+        "Pour les autres heures : Utiliser 'Son las...' (ex: Son las dos, Son las diez).",
+        "Les minutes : 'y cuarto' (et quart), 'y media' (et demie), 'menos cuarto' (moins le quart)."
+      ],
+      "examples": [
+        {
+          "structure": "Son las tres y veinte.",
+          "phonetic_api": "/ˈson las ˈtɾes i ˈβejnte/",
+          "meaning": "Il est trois heures vingt."
+        },
+        {
+          "structure": "Son las cinco menos diez.",
+          "phonetic_api": "/ˈson las ˈθiŋko ˈmenos ˈðjeθ/",
+          "meaning": "Il est cinq heures moins dix."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lucas",
+      "text": "Hola Marta, ¿tienes hora? Mi teléfono no tiene batería.",
+      "phonetic_api": "/ˈola ˈmaɾta ˈtjenes ˈoɾa || mi teˈlefono ˈno ˈtjene βateˈɾia/",
+      "phonetic_simple": "O-LA MAR-TA, TYÉ-NÉS O-RA ? MI TÉ-LÉ-FO-NO NO TYÉ-NÉ BA-TÉ-REE-A.",
+      "translation": "Salut Marta, tu as l'heure ? Mon téléphone n'a plus de batterie."
+    },
+    {
+      "speaker": "Marta",
+      "text": "Sí, claro. Son las dos y cuarto de la tarde.",
+      "phonetic_api": "/ˈsi ˈklaɾo || ˈson las ˈdos i ˈkwaɾto ðe la ˈtaɾðe/",
+      "phonetic_simple": "SEE, KLA-RO. SON LAS DOS EE KOUAR-TO DE LA TAR-DÉ.",
+      "translation": "Oui, bien sûr. Il est deux heures et quart de l'après-midi."
+    },
+    {
+      "speaker": "Lucas",
+      "text": "¡Uf! La reunión con el director es a las dos y media. Es muy pronto.",
+      "phonetic_api": "/ˈuf || la rewˈnjon kon el diɾexˈtoɾ ˈes a las ˈdos i ˈmeðja || ˈes ˈmwi ˈpɾonto/",
+      "phonetic_simple": "OUF ! LA REW-NYON KON EL DI-REK-TOR ES A LAS DOS EE MEE-DYA. ES MWI PRON-TO.",
+      "translation": "Ouf ! La réunion avec le directeur est à deux heures et demie. C'est très bientôt."
+    },
+    {
+      "speaker": "Marta",
+      "text": "No te preocupes, la sala de reuniones está muy cerca.",
+      "phonetic_api": "/ˈno te pɾeoˈkupes la ˈsala ðe rewˈnjoned esˈta ˈmwi ˈθeɾka/",
+      "phonetic_simple": "NO TÉ PRÉ-O-KOU-PÉS, LA SA-LA DE REW-NYO-NÉS ES-TA MWI THER-KA.",
+      "translation": "Ne t'inquiète pas, la salle de réunion est très proche."
+    }
+  ],
+  "cultural_notes": [
+    "Les hispanophones utilisent rarement le système des 24 heures à l'oral. On dit plutôt 'son las tres de la tarde' (3h de l'après-midi) ou 'son las nueve de la noche' (9h du soir) pour éviter toute confusion au quotidien.",
+    "Contrairement au français, les jours de la semaine et les mois de l'année s'écrivent toujours avec une lettre minuscule en espagnol (ex: lunes, febrero), sauf s'ils ouvrent une phrase."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L6_EX1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on exactement 'Il est une heure moins le quart' en espagnol ?",
+      "options": [
+        "Son las doce y cuarenta y cinco",
+        "Es la una menos cuarto",
+        "Son la una menos cuarto"
+      ],
+      "correct_answer": "Es la una menos cuarto",
+      "explanation": "Pour une heure, on emploie le verbe au singulier 'es' suivi de l'article féminin singulier 'la'."
+    },
+    {
+      "exercise_id": "A1_M2_L6_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mi curso de guitarra comienza [ ___ ] octubre.",
+      "correct_answer": "en",
+      "hint": "Préposition fixe utilisée devant les mois pour situer un événement dans l'année."
+    }
+  ]
+}

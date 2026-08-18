@@ -1,0 +1,133 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "L'utilisation des temps complexes et des modes avancés",
+  "learning_objectives": [
+    "Maîtriser les aspects de l'antériorité et de l'action non-révolue (plus-que-parfait, subjonctif)",
+    "Exprimer des nuances de simultanéité temporelle dans un récit long"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Au niveau avancé, les variations tonales (combinaisons de tons modulés montant-descendant /ɛ᷈/) sur les suffixes aspectuels modifient radicalement la perspective temporelle.",
+    "common_pitfalls": "Évitez d'omettre l'allongement de la voyelle du marqueur 'ni-a' sous peine de ramener l'action à un passé simple accompli."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v19_1",
+      "term": "kɛna-gbe",
+      "phonetic_api": "/kɛ.na.ɡbɛ/",
+      "phonetic_simple": "KE-NA-GBE",
+      "translation": "avoir déjà accompli / fait auparavant (plus-que-parfait)",
+      "example_sentence": "Na tii ni kɛna-gbe.",
+      "example_phonetic": "/na tiː ni kɛ.na.ɡbɛ/",
+      "example_translation": "J'avais déjà fini ce travail."
+    },
+    {
+      "word_id": "v19_2",
+      "term": "woba-wɛñ",
+      "phonetic_api": "/wo.ba.wɛ̃/",
+      "phonetic_simple": "WO-BA-WEN",
+      "translation": "pendant ce temps / simultanément",
+      "example_sentence": "O va-na woba-wɛñ na mɔlɔ mɛ.",
+      "example_phonetic": "/o va.na wo.ba.wɛ̃ na mɔ.lɔ mɛ/",
+      "example_translation": "Il est venu pendant que je mangeais du riz."
+    },
+    {
+      "word_id": "v19_3",
+      "term": "kɛ-vai",
+      "phonetic_api": "/kɛ.vai/",
+      "phonetic_simple": "KE-VAÏ",
+      "translation": "afin que / pour que (mode subjonctif/intentionnel)",
+      "example_sentence": "Li kɛ-vai i va mɛni.",
+      "example_phonetic": "/li kɛ.vai i va mɛ.ni/",
+      "example_translation": "Pars afin que tu puisses comprendre."
+    },
+    {
+      "word_id": "v19_4",
+      "term": "lapatɛ-zu",
+      "phonetic_api": "/la.pa.tɛ.zu/",
+      "phonetic_simple": "LA-PA-TE-ZOU",
+      "translation": "durant une longue période / jadis",
+      "example_sentence": "Ta ɓilana ɓɛñ lapatɛ-zu.",
+      "example_phonetic": "/ta ɓi.la.na ɓɛ̃ la.pa.tɛ.zu/",
+      "example_translation": "Ils habitaient ici depuis fort longtemps."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p19_1",
+      "original": "Na kɛna-gbe na i toli mɛni, kɛ́ɛ i pɛ́ va.",
+      "phonetic_api": "/na kɛ.na.ɡbɛ na i to.li mɛ.ni kɛ́ː i pɛ́ va/",
+      "phonetic_simple": "NA KE-NA-GBE NA I TO-LI ME-NI, KEE I PE VA",
+      "translation": "Je t'avais déjà appelé au loin, mais tu n'es pas venu.",
+      "context": "Registre soutenu pour exprimer un reproche sur une action antérieure déjà manquée."
+    },
+    {
+      "phrase_id": "p19_2",
+      "original": "Kɛ kɔni ni ma kɛ-vai i lii va wɛlɛ.",
+      "phonetic_api": "/kɛ kɔ.ni ni ma kɛ.vai i liː va wɛ.lɛ/",
+      "phonetic_simple": "KE KO-NI NI MA KE-VAÏ I LII VA WE-LE",
+      "translation": "Agis selon ce conseil afin que ton cœur s'épanouisse pleinement.",
+      "context": "Bénédiction ou exhortation formelle lors d'une cérémonie de passage."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction de l'antériorité complexe (Plus-que-parfait)",
+      "explanation": "L'antériorité par rapport à une autre action passée se forme en combinant le suffixe accompli '-na' avec l'auxiliaire de rupture temporelle 'gbe'.",
+      "rules": [
+        "Le verbe principal reçoit l'affixe ou se place au radical nu si l'auxiliaire est marqué.",
+        "La particule 'gbe' rejette l'action dans un plan temporel entièrement décroché du présent."
+      ],
+      "examples": [
+        {
+          "structure": "na lina-gbe",
+          "phonetic_api": "/na li.na.ɡbɛ/",
+          "meaning": "j'étais déjà parti (auparavant)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'Ancien",
+      "text": "Tokpa, i kɛna-gbe i tɔ́gɔ mɛni woi?",
+      "phonetic_api": "/tok.pa i kɛ.na.ɡbɛ i tɔ́.ɡɔ mɛ.ni woi/",
+      "phonetic_simple": "TOK-PA I KE-NA-GBE I TO-GO ME-NI WOÏ",
+      "translation": "Tokpa, avais-tu déjà assimilé la loi de la forêt hier ?"
+    },
+    {
+      "speaker": "Tokpa",
+      "text": "Owo, na mɛnina-gbe vaza, kɛ-vai na li za-waza.",
+      "phonetic_api": "/o.wo na mɛ.ni.na.ɡbɛ va.za kɛ.vai na li za.va.za/",
+      "phonetic_simple": "O-WO NA ME-NI-NA-GBE VA-ZA, KE-VAÏ NA LI ZA-VA-ZA",
+      "translation": "Oui, je l'avais déjà bien apprise, afin de me conduire avec sagesse."
+    }
+  ],
+  "cultural_notes": [
+    "La maîtrise des aspects temporels complexes sépare les locuteurs basiques des grands orateurs de la tradition Loma/Toma. Savoir manier le subjonctif et l'antériorité permet d'intervenir dignement dans les palabres du village."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex19_1",
+      "type": "multiple_choice",
+      "question": "Quel morphème indique le but ou l'intention au subjonctif ('afin que') ?",
+      "options": [
+        "kɛna-gbe",
+        "kɛ-vai",
+        "woba-wɛñ"
+      ],
+      "correct_answer": "kɛ-vai",
+      "explanation": "'kɛ-vai' introduit une proposition finale ou un souhait articulé."
+    },
+    {
+      "exercise_id": "ex19_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Na tii ni kɛna-[ ___ ] (J'avais déjà fini ce travail).",
+      "correct_answer": "gbe",
+      "hint": "La particule d'antériorité absolue."
+    }
+  ]
+}

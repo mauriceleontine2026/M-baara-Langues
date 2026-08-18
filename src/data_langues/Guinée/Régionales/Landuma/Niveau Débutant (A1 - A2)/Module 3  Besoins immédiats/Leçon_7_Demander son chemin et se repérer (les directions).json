@@ -1,0 +1,116 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer (les directions)",
+  "learning_objectives": [
+    "Formuler une question pour trouver un lieu physique ou un itinéraire",
+    "Comprendre les indications spatiales de base (droite, gauche, devant)",
+    "Identifier les repères géographiques et les points d'orientation locaux"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La fricative glottale sourde /h/ est présente dans certains emprunts et doit être aspirée distinctement, contrairement au français.",
+    "common_pitfalls": "Ne pas confondre la direction spatiale et le verbe de mouvement."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v7_1",
+      "term": "kiya",
+      "phonetic_api": "/ki.ja/",
+      "phonetic_simple": "KI-YA",
+      "translation": "chemin / route",
+      "example_sentence": "kiya de dɛ ?",
+      "example_phonetic": "/ki.ja de dɛ/",
+      "example_translation": "Où est le chemin ?"
+    },
+    {
+      "word_id": "v7_2",
+      "term": "ɔkɔm",
+      "phonetic_api": "/ɔ.kɔm/",
+      "phonetic_simple": "O-KOM",
+      "translation": "droite",
+      "example_sentence": "kɔn ka ɔkɔm",
+      "example_phonetic": "/kɔn ka ɔ.kɔm/",
+      "example_translation": "Va à droite."
+    },
+    {
+      "word_id": "v7_3",
+      "term": "ɔmɛrɛ",
+      "phonetic_api": "/ɔ.mɛ.rɛ/",
+      "phonetic_simple": "O-MÈ-RÈ",
+      "translation": "gauche",
+      "example_sentence": "kɔn ka ɔmɛrɛ",
+      "example_phonetic": "/kɔn ka ɔ.mɛ.rɛ/",
+      "example_translation": "Va à gauche."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p7_1",
+      "original": "dɛ kiya ka Boké de ?",
+      "phonetic_api": "/dɛ ki.ja ka bo.ke de/",
+      "phonetic_simple": "DÈ KI-YA KA BO-KÉ DE",
+      "translation": "Où est la route de Boké ?",
+      "context": "Demander une direction routière à un embranchement."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La préposition de direction 'ka'",
+      "explanation": "La particule 'ka' fonctionne comme un marqueur de directionnalité ou de but spatial équivalent au 'vers' ou 'à' en français. Elle précède invariablement le substantif de lieu ou l'orientation.",
+      "rules": [
+        "Verbe de mouvement + ka + Lieu.",
+        "'ka' ne change jamais de forme quelle que soit la classe nominale suivante."
+      ],
+      "examples": [
+        {
+          "structure": "kɔn ka + Nom",
+          "phonetic_api": "/kɔn ka bo.ke/",
+          "meaning": "Aller à Boké."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Le voyageur",
+      "text": "baba kɔn, dɛ kiya ka Boké de ?",
+      "phonetic_api": "/ba.ba kɔn dɛ ki.ja ka bo.ke de/",
+      "phonetic_simple": "BA-BA KON DÈ KI-YA KA BO-KÉ DE",
+      "translation": "Mon père, où est la route de Boké ?"
+    },
+    {
+      "speaker": "Le villageux",
+      "text": "kɔn tɛŋ, dɛp ka ɔkɔm.",
+      "phonetic_api": "/kɔn tɛŋ dɛp ka ɔ.kɔm/",
+      "phonetic_simple": "KON TENG DÈP KA O-KOM",
+      "translation": "Va tout droit, puis prends à droite."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'orientation chez les Landouma, l'usage des repères topographiques naturels (marigots, grands arbres sacrés, collines de bauxite) prévaut souvent sur l'orientation abstraite gauche/droite."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex7_1",
+      "type": "multiple_choice",
+      "question": "Que signifie 'ɔmɛrɛ' ?",
+      "options": [
+        "La droite",
+        "La gauche",
+        "Tout droit"
+      ],
+      "correct_answer": "La gauche",
+      "explanation": "'ɔmɛrɛ' désigne le côté gauche de l'axe corporel."
+    },
+    {
+      "exercise_id": "ex7_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "kɔn [ ___ ] ɔkɔm (Va à droite)",
+      "correct_answer": "ka",
+      "hint": "La préposition directionnelle universelle."
+    }
+  ]
+}

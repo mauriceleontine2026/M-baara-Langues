@@ -1,0 +1,300 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Distinguer l'utilisation grammaticale des couleurs de type adjectif -i et de type nom",
+    "Associer les verbes d'habillement spécifiques selon la partie du corps (kirosu, haku, kaburu)",
+    "Décrire les vêtements de quelqu'un et exprimer une préférence de couleur lors d'un achat"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot 'shiroi' (blanc) contient le son [ɕi] très fluide. Pour 'kuroi' (noir), veillez à ce que le 'r' soit une consonne battue alvéolaire [ɾ]. L'adjectif 'aka' (rouge) ou 'akai' possède deux mores courtes de même intensité. Les emprunts occidentaux comme 'shatsu' (chemise) se prononcent de manière concise sans traîner sur les voyelles.",
+    "common_pitfalls": "Attention à la prononciation du mot 't-shatsu' (T-shirt) : ne prononcez pas le 't' à la française, mais étirez-le à la japonaise en disant 'Tii-shatsu'. Ne confondez pas non plus 'aoi' (bleu/vert) avec 'aka' (rouge) lors d'une lecture rapide."
+  },
+  "color_grammar_focus": [
+    {
+      "color_name": "あか (赤 / 赤い)",
+      "romaji_noun": "aka",
+      "romaji_adjective": "akai",
+      "type": "Adjectif -i natif",
+      "explanation": "Peut qualifier directement un nom sous sa forme 'akai' (ex: akai shatsu)."
+    },
+    {
+      "color_name": "くろ (黒 / 黒い)",
+      "romaji_noun": "kuro",
+      "romaji_adjective": "kuroi",
+      "type": "Adjectif -i natif",
+      "explanation": "Qualifie directement un nom avec le '-i' final (ex: kuroi kutsu)."
+    },
+    {
+      "color_name": "みどり (緑)",
+      "romaji_noun": "midori",
+      "romaji_adjective": "midori no",
+      "type": "Nom de couleur",
+      "explanation": "Nécessite obligatoirement la particule 'no' pour qualifier un vêtement (ex: midori no zubon)."
+    },
+    {
+      "color_name": "ピンク",
+      "romaji_noun": "pinku",
+      "romaji_adjective": "pinku no",
+      "type": "Nom d'emprunt (Katakana)",
+      "explanation": "Nécessite obligatoirement la particule 'no' pour qualifier un objet (ex: pinku no bōshi)."
+    }
+  ],
+  "clothing_verbs_focus": [
+    {
+      "verb": "きます (着ます)",
+      "romaji": "kimasu",
+      "target_body_part": "Haut du corps (vestes, chemises, t-shirts, robes)"
+    },
+    {
+      "verb": "はきます (履きます)",
+      "romaji": "hakimasu",
+      "target_body_part": "Bas du corps (pantalons, jupes, chaussures, chaussettes)"
+    },
+    {
+      "verb": "かぶります (被ります)",
+      "romaji": "kaburimasu",
+      "target_body_part": "Tête (chapeaux, casquettes)"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "しろい (白い)",
+      "phonetic_api": "/ɕi.ɾo.i/",
+      "phonetic_simple": "CHI-RO-I",
+      "translation": "Blanc (adjectif)",
+      "example_sentence": "白いシャツを着ます。",
+      "example_phonetic": "/ɕi.ɾo.i ɕa.t͡sɯ o ki.ma.sɯ̥/",
+      "example_translation": "Je mets une chemise blanche."
+    },
+    {
+      "word_id": "v2",
+      "term": "あおい (青い)",
+      "phonetic_api": "/a.o.i/",
+      "phonetic_simple": "A-O-I",
+      "translation": "Bleu / Vert clair (adjectif)",
+      "example_sentence": "青いズボンを履きます。",
+      "example_phonetic": "/a.o.i zɯ.boɴ o ha.ki.ma.sɯ̥/",
+      "example_translation": "Je porte un pantalon bleu."
+    },
+    {
+      "word_id": "v3",
+      "term": "くつ (靴)",
+      "phonetic_api": "/kɯ.t͡sɯ/",
+      "phonetic_simple": "KOUT-SOU",
+      "translation": "Chaussures",
+      "example_sentence": "黒い靴を履いています。",
+      "example_phonetic": "/kɯ.ɾo.i kɯ.t͡sɯ o ha.i.te i.ma.sɯ̥/",
+      "example_translation": "Il porte des chaussures noires."
+    },
+    {
+      "word_id": "v4",
+      "term": "ぼうし (帽子)",
+      "phonetic_api": "/boː.ɕi/",
+      "phonetic_simple": "BOO-CHI",
+      "translation": "Chapeau / Casquette",
+      "example_sentence": "赤い帽子をかぶります。",
+      "example_phonetic": "/a.ka.i boː.ɕi o ka.bɯ.ɾi.ma.sɯ̥/",
+      "example_translation": "Je visse un chapeau rouge sur ma tête."
+    },
+    {
+      "word_id": "v5",
+      "term": "きいろい (黄色い)",
+      "phonetic_api": "/ki.i.ɾo.i/",
+      "phonetic_simple": "KII-RO-I",
+      "translation": "Jaune (adjectif)",
+      "example_sentence": "黄色い傘があります。",
+      "example_phonetic": "/ki.i.ɾo.i ka.sa ɡa a.ɾi.ma.sɯ̥/",
+      "example_translation": "Il y a un parapluie jaune."
+    },
+    {
+      "word_id": "v6",
+      "term": "コート",
+      "phonetic_api": "/koː.to/",
+      "phonetic_simple": "KOO-TO",
+      "translation": "Manteau",
+      "example_sentence": "茶色のコートをください。",
+      "example_phonetic": "/t͡ɕa.i.ɾo no koː.to o kɯ.da.sa.i/",
+      "example_translation": "Donnez-moi le manteau marron s'il vous plaît."
+    },
+    {
+      "word_id": "v7",
+      "term": "ネクタイ",
+      "phonetic_api": "/ne.kɯ.ta.i/",
+      "phonetic_simple": "NÉ-KOU-TA-I",
+      "translation": "Cravate",
+      "example_sentence": "青いネクタイを締めます。",
+      "example_phonetic": "/a.o.i ne.kɯ.ta.i o ɕi.me.ma.sɯ̥/",
+      "example_translation": "Je noue une cravate bleue."
+    },
+    {
+      "word_id": "v8",
+      "term": "サイズ",
+      "phonetic_api": "/sa.i.zɯ/",
+      "phonetic_simple": "SA-I-ZOU",
+      "translation": "Taille (taille de vêtement)",
+      "example_sentence": "Mサイズはありますか。",
+      "example_phonetic": "/e.mɯ sa.i.zɯ wa a.ɾi.ma.sɯ.ka/",
+      "example_translation": "Avez-vous la taille M ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "これを試着してもいいですか。",
+      "phonetic_api": "/ko.re o ɕi.t͡ɕa.kɯ ɕi.te mo iː de.sɯ.ka/",
+      "phonetic_simple": "KO-RÉ O CHI-CHAK-OU CHI-TÉ MO II DESS-KA",
+      "translation": "Puis-je essayer ceci ?",
+      "context": "Demander au vendeur du magasin l'autorisation de passer un vêtement en cabine."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "他の色はありますか。",
+      "phonetic_api": "/ho.ka no i.ɾo wa a.ɾi.ma.sɯ.ka/",
+      "phonetic_simple": "HO-KA NO I-RO WA A-RI-MASS-KA",
+      "translation": "Avez-vous d'autres couleurs ?",
+      "context": "S'enquérir des déclinaisons chromatiques d'un article de mode."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "この黒い靴をください Lights.",
+      "phonetic_api": "/ko.no kɯ.ɾo.i kɯ.t͡sɯ o kɯ.da.sa.i/",
+      "phonetic_simple": "KO-NO KOU-RO-I KOUT-SOU O KOU-DA-SA-I",
+      "translation": "Donnez-moi ces chaussures noires s'il vous plaît.",
+      "context": "Formuler son choix final lors de l'acte d'achat."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "ちょっと大きいですか。",
+      "phonetic_api": "/t͡ɕo̥t.to oː.kiː de.sɯ.ka/",
+      "phonetic_simple": "TCHOT-TO OO-KII DESS-KA",
+      "translation": "Est-ce que c'est un peu grand ?",
+      "context": "Interrogation du vendeur ou réflexion personnelle face au miroir."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "ちょうどいいです。",
+      "phonetic_api": "/t͡ɕoː.do iː de.sɯ̥/",
+      "phonetic_simple": "CHOO-DO II DESS",
+      "translation": "C'est la taille parfaite / Ça me va pile-poil.",
+      "context": "Valider la coupe ou la taille d'un habit essayé."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "あの方の青いシャツは素敵ですね。",
+      "phonetic_api": "/a.no ka.ta no a.o.i ɕa.t͡sɯ wa sɯ.te.ki de.sɯ.ne/",
+      "phonetic_simple": "A-NO KA-TA NO A-O-I CHA-TSOU WA SOU-TÉ-KI DESS-NÉ",
+      "translation": "La chemise bleue de cette personne là-bas est superbe, n'est-ce pas ?",
+      "context": "Complimenter l'allure ou le vêtement d'un tiers poli."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "靴下を履きます。",
+      "phonetic_api": "/kɯ.t͡sɯ.ɕi̥ta o ha.ki.ma.sɯ̥/",
+      "phonetic_simple": "KOUT-SOU-CHI-TA O HA-KI-MASS",
+      "translation": "Je mets des chaussettes.",
+      "context": "Description d'une action matinale (habillement du bas du corps)."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "帽子はどこですか。",
+      "phonetic_api": "/boː.ɕi wa do.ko de.sɯ.ka/",
+      "phonetic_simple": "BOO-CHI WA DO-KO DESS-KA",
+      "translation": "Où est mon chapeau ?",
+      "context": "Chercher un accessoire avant de sortir dehors."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accord des couleurs : Adjectifs en -i vs Noms de couleur",
+      "explanation": "Les couleurs japonaises se divisent en deux catégories morphologiques distinctes pour qualifier un objet. Les couleurs primaires historiques (rouge, noir, blanc, bleu) possèdent une forme adjectivale native se terminant par '-i' et se lient directement au nom. Les autres couleurs (vert, rose, orange, violet) sont de nature nominale et requièrent la particule de liaison 'no'.",
+      "rules": [
+        "Adjectif : [Couleur -i] + [Vêtement]. Exemple : 白いシャツ (shiroi shatsu).",
+        "Nom : [Couleur Nom] + の + [Vêtement]. Exemple : 緑のズボン (midori no zubon)."
+      ],
+      "examples": [
+        {
+          "structure": "黒い靴 (kuroi kutsu) / ピンクの帽子 (pinku no bōshi)",
+          "phonetic_api": "/kɯ.ɾo.i kɯ.t͡sɯ/ /piɴ.kɯ no boː.ɕi/",
+          "meaning": "Des chaussures noires (direct) / Un chapeau rose (via 'no')"
+        }
+      ]
+    },
+    {
+      "concept": "La segmentation des verbes d'habillement selon la zone anatomique",
+      "explanation": "En français, le verbe 'mettre' ou 'porter' s'applique uniformément à tout type de vêtement. En japonais, l'action physique d'enfiler un vêtement exige un verbe spécialisé déterminé par l'endroit du corps visé par la pièce de tissu.",
+      "rules": [
+        "着ます (kimasu) : pour ce qui s'enfile par les bras ou couvre le buste.",
+        "履きます (hakimasu) : pour tout vêtement s'enfilant par les pieds (pantalons, chaussures).",
+        "被ります (kaburimasu) : pour ce qui se pose sur le sommet de la tête."
+      ],
+      "examples": [
+        {
+          "structure": "ズボンを履きます (zubon o hakimasu)",
+          "phonetic_api": "/zɯ.boɴ o ha.ki.ma.sɯ̥/",
+          "meaning": "Mettre un pantalon."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "客 (Client)",
+      "text": "すみません、あの白いシャツを見せてください。",
+      "phonetic_api": "/sɯ.mi.ma.seɴ a.no ɕi.rｏ.i ɕa.t͡sɯ o mi.se.te kɯ.da.sa.i/",
+      "phonetic_simple": "SOU-MI-MA-SEN, A-NO CHI-RO-I CHA-TSOU O MI-SÉ-TÉ KOU-DA-SA-I.",
+      "translation": "Excusez-moi, s'il vous plaît, montrez-moi cette chemise blanche là-bas."
+    },
+    {
+      "speaker": "店員 (Vendeur)",
+      "text": "はい、どうぞ。こちらはMサイズです。試着してもいいですよ。",
+      "phonetic_api": "/ha.i doː.zo ko.t͡ɕi.ɾa wa e.mɯ sa.i.zɯ de.sɯ̥ ɕi.t͡ɕa.kɯ ɕi.te mo iː de.sɯ jo/",
+      "phonetic_simple": "HAI, DOO-ZO. KO-TCHI-RA WA E-MOU SA-I-ZOU DESS. CHI-CHAK-OU CHI-TÉ MO II DESS YO.",
+      "translation": "Voici, je vous en prie. C'est une taille M. Vous pouvez tout à fait l'essayer."
+    },
+    {
+      "speaker": "客 (Client)",
+      "text": "(Après l'essai) サイズはちょうどいいです。他の色はありますか。黒いシャツが欲しいです。",
+      "phonetic_api": "/sa.i.zɯ wa t͡ɕoː.do iː de.sɯ̥ ho.ka no i.ɾo wa a.ɾi.ma.sɯ.ka kɯ.ɾo.i ɕa.t͡sɯ ɡa ho.ɕiː de.sɯ̥/",
+      "phonetic_simple": "SA-I-ZOU WA CHOO-DO II DESS. HO-KA NO I-RO WA A-RI-MASS-KA ? KOU-RO-I CHA-TSOU GA HO-CHII DESS.",
+      "translation": "La taille me convient parfaitement. Auriez-vous une autre couleur ? J'aimerais une chemise noire."
+    },
+    {
+      "speaker": "店員 (Vendeur)",
+      "text": "はい、黒いものもございますよ。こちらです。",
+      "phonetic_api": "/ha.i kɯ.ɾo.i mo.no mo ɡo.za.i.ma.sɯ jo ko.t͡ɕi.ɾa de.sɯ̥/",
+      "phonetic_simple": "HAI, KOU-RO-I MO-NO MO GO-ZA-I-MASS YO. KO-TCHI-RA DESS.",
+      "translation": "Oui, nous avons également le modèle en noir. C'est juste ici."
+    }
+  ],
+  "cultural_notes": [
+    "Lorsque vous essayez des vêtements blancs ou fragiles dans les cabines d'essayage japonaises, les boutiques fournissent souvent aux clients (notamment les femmes) un grand voile fin transparent appelé 'face cover' (フェイスカバー). Il est obligatoire de s'en couvrir le visage avant d'enfiler le vêtement pour éviter de laisser des traces de maquillage ou de sébum sur les cols.",
+    "Il est d'usage de retirer ses chaussures avant d'entrer sur le tapis de la cabine d'essayage. Des sandales de courtoisie sont parfois mises à disposition."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel verbe d'habillement devez-vous associer pour dire que vous mettez une jupe ou des chaussettes (bas du corps) ?",
+      "options": [
+        "着ます (kimasu)",
+        "履きます (hakimasu)",
+        "被ります (kaburimasu)"
+      ],
+      "correct_answer": "履きます (hakimasu)",
+      "explanation": "Le verbe 'hakimasu' s'applique de manière exclusive aux vêtements, chaussures et sous-vêtements qui couvrent les membres inférieurs du corps."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour parler d'un chapeau de couleur verte, on écrit : 緑[ ___ ]帽子です。",
+      "correct_answer": "の",
+      "hint": "Le mot 'midori' étant un nom de couleur, il exige une particule grammaticale de liaison spécifique pour qualifier la pièce suivante."
+    }
+  ]
+}

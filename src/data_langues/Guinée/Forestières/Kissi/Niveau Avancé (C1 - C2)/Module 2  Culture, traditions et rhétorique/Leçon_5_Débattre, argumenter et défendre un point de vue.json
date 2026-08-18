@@ -1,0 +1,114 @@
+{
+  "lesson_id": "C1_M2_L5",
+  "level": "Niveau Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 5,
+  "title": "Débattre, argumenter et défendre un point de vue",
+  "learning_objectives": [
+    "Exprimer un désaccord formel et courtois dans une assemblée",
+    "Introduire des arguments hiérarchisés (premièrement, de plus, enfin)",
+    "Réfuter une affirmation en apportant des preuves logiques"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les connecteurs d'argumentation avancée reposent sur des structures consonantiques appuyées comme /g͡b/ et /ⁿd/. Le ton d'insistance monte d'un demi-ton sur le connecteur pivot.",
+    "common_pitfalls": "Attention à ne pas élever la voix de manière agressive lors d'un débat. Le ton doit rester égal et posé, le relief phonétique se faisant uniquement sur les mots logiques pivots."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v23_1",
+      "term": "pilɔɔ",
+      "phonetic_api": "/pi.lɔː/",
+      "phonetic_simple": "PI-LOO",
+      "translation": "premièrement / en premier lieu (variante d'énumération)",
+      "example_sentence": "Pilɔɔ, i lo le bana i wali.",
+      "example_phonetic": "/pi.lɔː i lo le ba.na i wa.li/",
+      "example_translation": "Premièrement, je n'y suis pas allé parce que je travaillais."
+    },
+    {
+      "word_id": "v23_2",
+      "term": "fassa",
+      "phonetic_api": "/fa.sa/",
+      "phonetic_simple": "FAS-SA",
+      "translation": "argument / point de vue / côté de l'explication",
+      "example_sentence": "Fassa nio o co pilɔ.",
+      "example_phonetic": "/fa.sa njo o tʃo pi.lɔ/",
+      "example_translation": "Mon point de vue est le premier / est simple."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p23_1",
+      "original": "I tchie fassa noo, kɛ i co fassa pilɔ lɔ loolu.",
+      "phonetic_api": "/i tʃje fa.sa noː kɛ i tʃo fa.sa pi.lɔ lɔ loː.lu/",
+      "phonetic_simple": "I TCHI-É FAS-SA NOO, KÈ I TCHO FAS-SA PI-LO LO LOO-LOU",
+      "translation": "Je comprends ton point de vue, mais je vais suivre une autre option / un autre argument.",
+      "context": "Nuancer poliment lors d'un débat d'idées"
+    },
+    {
+      "phrase_id": "p23_2",
+      "original": "Fassa noo o co fiaa kɛ o nɔ ndoo le.",
+      "phonetic_api": "/fa.sa noː o tʃo fjaː kɛ o nɔ ⁿdoː le/",
+      "phonetic_simple": "FAS-SA NOO O TCHO FIA-A KÈ O NO NDOO LÉ",
+      "translation": "Ton argument est grand mais il n'a pas de fondement (litt. n'a pas de chemin).",
+      "context": "Réfuter logiquement une idée adverse"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La subordination concessive complexe",
+      "explanation": "Pour exprimer la concession ou l'articulation logique d'un contre-argument, on imbrique la conjonction d'opposition 'kɛ' (mais) directement suivie d'un énoncé structuré en cause autonome avec 'bana'.",
+      "rules": [
+        "La concession se place au milieu de l'énoncé complexe.",
+        "Chaque bloc de phrase conserve ses marqueurs aspectuels et ses particules négatives."
+      ],
+      "examples": [
+        {
+          "structure": "Argument A + kɛ + Argument B",
+          "phonetic_api": "/o tʃo bɛⁿdɛ kɛ i phee ni le/",
+          "meaning": "C'est grand/important mais je ne l'approuve pas."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Saa",
+      "text": "Tamba, cando nɔŋ sola o co bɛndɛ. I nɔ i nɔŋ haala.",
+      "phonetic_api": "/ta.ᵐba tʃa.ⁿdo nɔŋ so.la o tʃo bɛⁿdɛ i nɔ i nɔŋ haː.la/",
+      "phonetic_simple": "TAM-BA, TCHAN-DO NONG SO-LA O TCHO BEN-DE. I NO I NONG HAA-LA.",
+      "translation": "Tamba, le prix d'achat de la maison est grand. Je dois l'acheter aujourd'hui."
+    },
+    {
+      "speaker": "Tamba",
+      "text": "I tchie fassa noo. Kɛ pilɔɔ, o nɔ gbalaŋ kpou le. Te o nɔŋ, o co gbalaŋ le loolu.",
+      "phonetic_api": "/i tʃje fa.sa noː kɛ pi.lɔː o nɔ g͡ba.laŋ k͡pu le te o nɔŋ o tʃo g͡ba.laŋ le loː.lu/",
+      "phonetic_simple": "I TCHI-É FAS-SA NOO. KÈ PI-LOO, O NO GBA-LANG KPOU LÉ. TÉ O NONG, O TCHO GBA-LANG LÉ LOO-LOU.",
+      "translation": "Je comprends ton point de vue. Mais premièrement, tu n'as pas tout l'argent. Si tu achètes, tu n'auras plus d'argent."
+    }
+  ],
+  "cultural_notes": [
+    "L'art de l'éloquence et du débat public est central dans la société kissi lors de l'arbre à palabres. Savoir convaincre sans élever la voix, en empilant des arguments clairs ('fassa') tout en ménageant la sensibilité de la partie adverse, définit la stature d'un leader respecté."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex23_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'fassa' dans le cadre d'une discussion ?",
+      "options": [
+        "Un vêtement",
+        "Un argument / un point de vue",
+        "Le marché central"
+      ],
+      "correct_answer": "Un argument / un point de vue",
+      "explanation": "'Fassa' désigne le côté, la direction d'une idée ou l'argumentation défendue."
+    },
+    {
+      "exercise_id": "ex23_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ], i lo le bana i wali. (Premièrement, je n'y suis pas allé...)",
+      "correct_answer": "Pilɔɔ",
+      "hint": "Adverbe ordinal utilisé pour débuter une énumération argumentative"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "lesson_id": "A1_M2_L6_v2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer et orthographier les sept jours de la semaine et les douze mois de l'année",
+    "Demander et indiquer l'heure exacte en utilisant le système de 12 heures (AM/PM)",
+    "Maîtriser les prépositions de temps fondamentales (IN, ON, AT)",
+    "Exprimer les fractions de temps comme le quart d'heure et la demi-heure"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La prononciation des jours de la semaine se caractérise par la réduction de la syllabe finale '-day'. Bien qu'écrite avec la diphthongue /eɪ/, elle se prononce souvent de manière relâchée /di/ ou /deɪ/ sans accentuation : /ˈmʌndeɪ/ ou /ˈmʌndi/. Le mot 'Wednesday' /ˈwɛnzdeɪ/ possède une consonne 'd' totalement muette. Pour l'heure, le mot 'quarter' /ˈkwɔːrtər/ exige une voyelle postérieure longue et une bonne articulation du 'r' rétroflexe.",
+    "common_pitfalls": "Prononcer le 'd' de 'Wednesday' (dire 'wed-nes-deï'). Confondre 'Tuesday' /ˈtjuːzdeɪ/ (mardi) et 'Thursday' /ˈθɜːrzdeɪ/ (jeudi) ; ce dernier demande une friction interdentale sourde /θ/ suivie du son /ɜː/ long. Omettre le 'h' muet de 'hour' /aʊər/ (qui se prononce exactement comme 'our')."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Week",
+      "phonetic_api": "/wiːk/",
+      "phonetic_simple": "wiik",
+      "translation": "Semaine",
+      "example_sentence": "There are seven days in a week.",
+      "example_phonetic": "/ðɛər ɑːr ˈsɛvən deɪz ɪn ə wiːk/",
+      "example_translation": "Il y a sept jours dans une semaine."
+    },
+    {
+      "word_id": "v2",
+      "term": "Month",
+      "phonetic_api": "/mʌnθ/",
+      "phonetic_simple": "manθ",
+      "translation": "Mois",
+      "example_sentence": "My favorite month of the year is July.",
+      "example_phonetic": "/maɪ ˈfeɪvərɪt mʌnθ ɒv ðə jɪər ɪz dʒuˈlaɪ/",
+      "example_translation": "Mon mois préféré de l'année est juillet."
+    },
+    {
+      "word_id": "v3",
+      "term": "O'clock",
+      "phonetic_api": "/əˈklɒk/",
+      "phonetic_simple": "ə-KLOK",
+      "translation": "Heure (pile)",
+      "example_sentence": "The meeting starts at nine o'clock.",
+      "example_phonetic": "/ðə ˈmiːtɪŋ stɑːrts æt naɪn əˈklɒk/",
+      "example_translation": "La réunion commence à neuf heures pile."
+    },
+    {
+      "word_id": "v4",
+      "term": "Quarter",
+      "phonetic_api": "/ˈkwɔːrtər/",
+      "phonetic_simple": "KWOR-tər",
+      "translation": "Quart / Quart d'heure",
+      "example_sentence": "It is a quarter past ten.",
+      "example_phonetic": "/ɪt ɪz ə ˈkwɔːrtər pæst tɛn/",
+      "example_translation": "Il est dix heures et quart."
+    },
+    {
+      "word_id": "v5",
+      "term": "Half",
+      "phonetic_api": "/hæf/",
+      "phonetic_simple": "hæf",
+      "translation": "Moitié / Demi-heure (le 'L' est muet)",
+      "example_sentence": "The train arrives at half past four.",
+      "example_phonetic": "/ðə treɪn əˈraɪvz æt hæf pæst fɔːr/",
+      "example_translation": "Le train arrive à quatre heures et demie."
+    },
+    {
+      "word_id": "v6",
+      "term": "Weekend",
+      "phonetic_api": "/ˌwiːkˈɛnd/",
+      "phonetic_simple": "wiik-END",
+      "translation": "Week-end",
+      "example_sentence": "What are your plans for the weekend?",
+      "example_phonetic": "/wɒt ɑːr jɔːr plænz fɔːr ðə ˌwiːkˈɛnd/",
+      "example_translation": "Quels sont tes projets pour le week-end ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "What time is it?",
+      "phonetic_api": "/wɒt taɪm ɪz ɪt/",
+      "phonetic_simple": "wɒt taɪm ɪz ɪt",
+      "translation": "Quelle heure est-il ?",
+      "context": "Question standard et universelle pour demander l'heure actuelle."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "It is twenty past five",
+      "phonetic_api": "/ɪt ɪz ˈtwɛnti pæst faɪv/",
+      "phonetic_simple": "ɪt ɪz TWEN-ti pæst faɪv",
+      "translation": "Il est cinq heures vingt (cinq heures passées de vingt minutes)",
+      "context": "Indication de l'heure pour la première moitié de l'heure."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "It is ten to eight",
+      "phonetic_api": "/ɪt ɪz tɛn tuː eɪt/",
+      "phonetic_simple": "ɪt ɪz ten too eɪt",
+      "translation": "Il est huit heures moins dix (dix minutes avant huit heures)",
+      "context": "Indication de l'heure pour la seconde moitié de l'heure."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "See you on Monday!",
+      "phonetic_api": "/siː juː ɒn ˈmʌndeɪ/",
+      "phonetic_simple": "sii yoo ɒn MAN-deɪ",
+      "translation": "À lundi !",
+      "context": "Formule de congé classique en fin de semaine ou de journée."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système de lecture de l'heure (PAST vs TO)",
+      "explanation": "L'anglais utilise un système analogique basé sur le cadran de 12 heures. On énonce TOUJOURS les minutes AVANT l'heure. Le cadran est divisé en deux parties : de la 1ère à la 30ème minute, on utilise 'PAST' (minutes passées après l'heure). De la 31ème à la 59ème minute, on utilise 'TO' (minutes restant avant l'heure suivante).",
+      "rules": [
+        "Minutes de 1 à 30 -> [Minutes] + PAST + [Heure actuelle].",
+        "Minutes de 31 à 59 -> [Minutes restantes] + TO + [Heure suivante].",
+        "Ne pas utiliser le système de 24h à l'oral (ex: dire 4 PM et non 16:00)."
+      ],
+      "examples": [
+        {
+          "structure": "2:15 -> It is a quarter past two.",
+          "phonetic_api": "/ɪt ɪz ə ˈkwɔːrtər pæst tuː/",
+          "meaning": "Il est deux heures et quart."
+        },
+        {
+          "structure": "6:45 -> It is a quarter to seven.",
+          "phonetic_api": "/ɪt ɪz ə ˈkwɔːrtər tuː ˈsɛvən/",
+          "meaning": "Il est sept heures moins le quart."
+        },
+        {
+          "structure": "8:30 -> It is half past eight.",
+          "phonetic_api": "/ɪt ɪz hæf pæst eɪt/",
+          "meaning": "Il est d'huit heures et demie."
+        }
+      ]
+    },
+    {
+      "concept": "L'usage strict des prépositions de temps (AT, ON, IN)",
+      "explanation": "Le choix de la préposition temporelle dépend du degré de précision du marqueur de temps. On utilise 'AT' pour une heure précise, 'ON' pour les jours spécifiques de la semaine ou les dates complètes, et 'IN' pour les mois, les années ou les saisons.",
+      "rules": [
+        "AT + Heures / Moments précis (ex: at 5 o'clock, at noon).",
+        "ON + Jours de la semaine / Dates (ex: on Tuesday, on May 1st).",
+        "IN + Mois / Années / Périodes longues (ex: in January, in 2026)."
+      ],
+      "examples": [
+        {
+          "structure": "The concert is on Friday at 8 PM.",
+          "phonetic_api": "/ðə ˈkɒnsət ɪz ɒn ˈfraɪdeɪ æt eɪt piː ɛm/",
+          "meaning": "Le concert a lieu vendredi à 20 heures."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "David",
+      "text": "Excuse me, do you have the time? My watch is broken.",
+      "phonetic_api": "/ɪkˈskjuːz miː duː juː hæv ðə taɪm maɪ wɒtʃ ɪz ˈbroʊkən/",
+      "phonetic_simple": "ik-SKYOUZ mi doo yoo hæv ðə taɪm maɪ wɒtʃ ɪz BROH-kən",
+      "translation": "Excusez-moi, auriez-vous l'heure ? Ma montre est cassée."
+    },
+    {
+      "speaker": "Anna",
+      "text": "Yes, let me check my phone. It is a quarter to three.",
+      "phonetic_api": "/jɛs lɛt miː tʃɛk maɪ foʊn ɪt ɪz ə ˈkwɔːrtər tuː θriː/",
+      "phonetic_simple": "jεs let mi tʃek maɪ fohn ɪt ɪz ə KWOR-tər too θrii",
+      "translation": "Oui, laissez-moi vérifier mon téléphone. Il est trois heures moins le quart."
+    },
+    {
+      "speaker": "David",
+      "text": "Oh, right! Is the English class on Monday or Tuesday?",
+      "phonetic_api": "/oʊ raɪt ɪz ðiː ˈɪŋɡlɪʃ klæs ɒn ˈmʌndeɪ ɔːr ˈtjuːzdeɪ/",
+      "phonetic_simple": "oʊ raɪt ɪz ði IŊ-glɪʃ klæs ɒn MAN-deɪ ɔːr TIOUZ-deɪ",
+      "translation": "Oh, d'accord ! Le cours d'anglais a-t-il lieu lundi ou mardi ?"
+    },
+    {
+      "speaker": "Anna",
+      "text": "It is on Tuesdays in the morning, usually at half past ten.",
+      "phonetic_api": "/ɪt ɪz ɒn ˈtjuːzdeɪz ɪn ðə ˈmɔːrnɪŋ ˈjuːʒʊəli æt hæf pæst tɛn/",
+      "phonetic_simple": "ɪt ɪz ɒn TIOUZ-deɪz ɪn ðə MOR-niŋ YOU-ʒou-ə-li æt hæf pæst ten",
+      "translation": "C'est les mardis matin, généralement à dix heures et demie."
+    },
+    {
+      "speaker": "David",
+      "text": "Perfect, thank you. And does the semester end in December?",
+      "phonetic_api": "/pərˈfɛkt ˈθæŋk juː ænd dʌz ðə sɪˈmɛstər ɛnd ɪn dɪˈsɛmbər/",
+      "phonetic_simple": "pər-FEKT THÆNK yoo and daz ðə sɪ-MES-tər end ɪn dɪ-SEM-bər",
+      "translation": "Parfait, merci. Et est-ce que le semestre se termine en décembre ?"
+    },
+    {
+      "speaker": "Anna",
+      "text": "No, it ends in January. On January fifteenth.",
+      "phonetic_api": "/noʊ ɪt ɛndz ɪn ˈdʒænjuːɛri ɒn ˈdʒænjuːɛri ˌfɪfˈtiːnθ/",
+      "phonetic_simple": "noh ɪt endz ɪn DJAN-you-er-i ɒn DJAN-you-er-i fɪf-TIINθ",
+      "translation": "Non, il se termine en janvier. Le quinze janvier."
+    }
+  ],
+  "cultural_notes": [
+    "La majuscule obligatoire : En anglais, les jours de la semaine (Monday, Tuesday...) et les mois de l'année (January, February...) prennent TOUJOURS une lettre majuscule, quelle que soit leur position dans la phrase. C'est une faute d'orthographe majeure de les écrire en minuscules.",
+    "L'usage exclusif de AM et PM : Les pays anglophones n'utilisent pratiquement jamais le système de 24 heures (comme '14h00' ou '20h00') dans la vie de tous les jours. On utilise les chiffres de 1 à 12 complétés par AM (Ante Meridiem, du matin de minuit à midi) ou PM (Post Meridiem, de midi à minuit)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la formulation correcte pour indiquer qu'il est 10h40 ?",
+      "options": [
+        "It is forty past ten.",
+        "It is twenty to eleven.",
+        "It is ten to forty."
+      ],
+      "correct_answer": "It is twenty to eleven.",
+      "explanation": "Puisque 40 minutes dépassent la demi-heure, on calcule les minutes restantes avant l'heure suivante (20 minutes avant 11 heures), d'où 'twenty to eleven'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "My birthday is [ ___ ] October, not in November.",
+      "correct_answer": "in",
+      "hint": "Préposition de temps requise devant un mois de l'année sans date précise."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Quel jour de la semaine comporte une lettre 'D' totalement muette à l'oral ?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Wednesday"
+      ],
+      "correct_answer": "Wednesday",
+      "explanation": "'Wednesday' se prononce /ˈwɛnzdeɪ/, le premier 'd' ne s'articule absolument pas."
+    }
+  ]
+}

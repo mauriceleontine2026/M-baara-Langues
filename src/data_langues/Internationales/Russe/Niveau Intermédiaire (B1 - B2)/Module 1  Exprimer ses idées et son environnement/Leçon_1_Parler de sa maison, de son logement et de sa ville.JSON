@@ -1,0 +1,241 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire son espace de vie, les pièces de la maison et le mobilier urbain",
+    "Exprimer l'emplacement complexe à l'aide des prépositions du cas Locatif et du cas Génitif",
+    "Utiliser les adjectifs qualificatifs russes aux cas obliques pour caractériser un lieu",
+    "Comparer son logement actuel avec une habitation précédente ou idéale"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'К' dans 'Квартира' exige une articulation occlusive sourde nette, sans aspiration. Le phonème 'Щ' de 'Площадь' se prononce [ɕː] (un 'tch' prolongé et très doux). Le groupe 'ТЬ' à la fin du verbe 'Находиться' combiné au suffixe réfléchi '-ся' s'assimile phonétiquement à l'oral en un son [t͡sə] long et sec.",
+    "common_pitfalls": "Dans le mot 'Комната' (chambre), l'accent tonique repose fermement sur le premier 'о'. Veillez à réduire le second 'а' en un [ə] discret. Évitez de prononcer le 'г' de 'Город' de manière gutturale, il doit vibrer sur les alvéoles antérieures [ˈɡorət] et se dévoiser en [t] à la fin."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Квартира",
+      "phonetic_api": "/kvɐrˈtʲirə/",
+      "phonetic_simple": "kvar-TI-ra",
+      "translation": "Appartement",
+      "example_sentence": "Наша квартира находится на третьем этаже.",
+      "example_phonetic": "/ˈnaʂə kvɐrˈtʲirə nɐˈxodʲɪt͡sʲə nə ˈtrʲetʲjɪm ɪtɐˈʐe/",
+      "example_translation": "Notre appartement se trouve au troisième étage."
+    },
+    {
+      "word_id": "v2",
+      "term": "Гостиная",
+      "phonetic_api": "/ɡɐˈsʲtʲinəjə/",
+      "phonetic_simple": "gas-TI-na-ya",
+      "translation": "Salon / Salle de séjour",
+      "example_sentence": "В гостиной стоит большой мягкий диван.",
+      "example_phonetic": "/v ɡɐˈsʲtʲinəj sʇɐˈit bɐlʲˈʂoj ˈmʲaxkʲɪj dʲɪˈvan/",
+      "example_translation": "Dans le salon se trouve un grand canapé confortable."
+    },
+    {
+      "word_id": "v3",
+      "term": "Многоэтажка",
+      "phonetic_api": "/mnəɡɐɪtɐˈʐafkə/",
+      "phonetic_simple": "mna-ga-e-ta-JA-fka",
+      "translation": "Immeuble de grande hauteur / Tour d'habitation",
+      "example_sentence": "Я живу в современной многоэтажке в центре.",
+      "example_phonetic": "/ja ʐɨˈvu f sɐvrʲɪˈmʲɛnːəj mnəɡɐɪtɐˈʐaʃkʲɪ f ˈt͡sɛntrʲɪ/",
+      "example_translation": "J'habite dans une tour moderne au centre-ville."
+    },
+    {
+      "word_id": "v4",
+      "term": "Окраина",
+      "phonetic_api": "/ɐˈkrainə/",
+      "phonetic_simple": "a-KRA-i-na",
+      "translation": "Périphérie / Banlieue / Périphérie urbaine",
+      "example_sentence": "Жизнь на окраине города более спокойная.",
+      "example_phonetic": "/ʐɨzʲnʲ nə ɐˈkraɪ̯nʲɪ ˈɡorədə ˈbolʲɪɪ spɐˈkojnəjə/",
+      "example_translation": "La vie à la périphérie de la ville est plus calme."
+    },
+    {
+      "word_id": "v5",
+      "term": "Удобства",
+      "phonetic_api": "/ʊˈdofstvə/",
+      "phonetic_simple": "ou-DOF-stva",
+      "translation": "Commodités / Confort (chauffage, eau, etc.)",
+      "example_sentence": "В этом доме есть все современные удобства.",
+      "example_phonetic": "/v ˈɛtəm ˈdomʲɪ jesʲtʲ fsʲe sɐvrʲɪˈmʲɛnːɨjə ʊˈdofstvə/",
+      "example_translation": "Dans cette maison, il y a toutes les commodités modernes."
+    },
+    {
+      "word_id": "v6",
+      "term": "Район",
+      "phonetic_api": "/rɐˈjon/",
+      "phonetic_simple": "ra-ION",
+      "translation": "Quartier / Arrondissement",
+      "example_sentence": "Это старый исторический район.",
+      "example_phonetic": "/ˈɛtə ˈstarɨj ɪstɐˈrʲitɕɪskʲɪj rɐˈjon/",
+      "example_translation": "C'est un vieux quartier historique."
+    },
+    {
+      "word_id": "v7",
+      "term": "Сосед",
+      "phonetic_api": "/sɐˈsʲet/",
+      "phonetic_simple": "sa-SSIET",
+      "translation": "Voisin",
+      "example_sentence": "Наш сосед часто слушает громкую музыку.",
+      "example_phonetic": "/naʂ sɐˈsʲet ˈtɕastə ˈsluʂəɪt ˈɡromkʊjʊ ˈmuzɨkʊ/",
+      "example_translation": "Notre voisin écoute souvent de la musique forte."
+    },
+    {
+      "word_id": "v8",
+      "term": "Аренда",
+      "phonetic_api": "/ɐˈrʲɛndə/",
+      "phonetic_simple": "a-RIEN-da",
+      "translation": "Loyer / Location",
+      "example_sentence": "Стоимость аренды постоянно растёт.",
+      "example_phonetic": "/ˈstoɪ̯məsʲtʲ ɐˈrʲɛndɨ pəstɐˈjanːə rɐsˈtʲot/",
+      "example_translation": "Le coût du loyer augmente constamment."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Я снимаю двухкомнатную квартиру",
+      "phonetic_api": "/ja sʲnʲɪˈmajʊ dʊxkəmnətnʊjʊ kvɐrˈtʲirʊ/",
+      "phonetic_simple": "ya sni-MA-iou douh-KOM-nat-nou-iou kvar-TI-rou",
+      "translation": "Loue un appartement de deux pièces (T3)",
+      "context": "Utilisé pour décrire son statut de locataire en milieu urbain."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Окна выходят во двор",
+      "phonetic_api": "/ˈoknə vɨˈxodʲət vɐ dvor/",
+      "phonetic_simple": "OK-na vy-HO-diat va dvor",
+      "translation": "Les fenêtres donnent sur la cour",
+      "context": "Critère de recherche immobilier essentiel pour l'isolation phonique."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Здесь отличная инфраструктура",
+      "phonetic_api": "/zdʲesʲ ɐˈtlʲitɕnəjə ɪnfrəstrʊkˈturə/",
+      "phonetic_simple": "zdies' at-LI-tchna-ya in-fra-strouk-TOU-ra",
+      "translation": "L'infrastructure locale est excellente",
+      "context": "Pour vanter les mérites de l'accès aux commerces, écoles et transports."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "До центра можно добраться на метро",
+      "phonetic_api": "/də ˈt͡sɛntrə ˈmoʐnə dɐˈbrat͡sʲə nə mʲɪˈtro/",
+      "phonetic_simple": "da TSIEN-tra MOJ-na da-BRAT-tsya na mi-TRO",
+      "translation": "On peut rejoindre le centre en métro",
+      "context": "Explication des conditions de déplacement urbain."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le cas Locatif complexe (Prépositionnel) avec les noms de lieux",
+      "explanation": "Au niveau intermédiaire, la distinction entre la préposition В et НА se complexifie en fonction des types de bâtiments, des institutions et des niveaux géographiques.",
+      "rules": [
+        "On utilise НА pour les étages (на этаже), les places (на площади), la périphérie (na окраине) et les points cardinaux.",
+        "On utilise В pour les espaces clos, les appartements (в квартире), les cours intérieures (во дворе) et la majorité des bâtiments officiels."
+      ],
+      "examples": [
+        {
+          "structure": "На каком этаже ты живёшь? — Я живу на пятом этаже.",
+          "phonetic_api": "/nə kɐˈkom ɪtɐˈʐe tɨ ʐɨˈvʲoʂ ja ʐɨˈvu nə ˈpʲatəm ɪtɐˈʐe/",
+          "meaning": "À quel étage habites-tu ? — J'habite au cinquième étage."
+        }
+      ]
+    },
+    {
+      "concept": "La préposition 'Около' (près de) et le cas Génitif obligatoire",
+      "explanation": "Pour exprimer la proximité sans utiliser l'adverbe 'рядом', le russe recourt à la préposition spatiale 'Около', exigeant le cas Génitif.",
+      "rules": [
+        "La préposition 'Около' entraîne la flexion du substantif au Génitif (Masculin en -а/-я, Féminin en -ы/-и)."
+      ],
+      "examples": [
+        {
+          "structure": "Наш дом находится около парка.",
+          "phonetic_api": "/naʂ dom nɐˈxodʲɪt͡sʲə ˈokələ ˈparkə/",
+          "meaning": "Notre maison se trouve près du parc. ('Парк' devient 'парка')."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Максим",
+      "text": "Привет, София! Слышал, ты недавно переехала. Ну и как твоя новая квартира?",
+      "phonetic_api": "/prʲɪˈvʲet sɐˈfʲijə ˈslɨʂəl tɨ nʲɪˈdavnə pʲɪrʲɪˈjexələ nu ˈi kak tvɐˈja ˈnovəjə kvɐrˈtʲirə/",
+      "phonetic_simple": "pri-VIET, sa-FI-ya ! SLY-chal, ty ni-DAV-na pi-ri-IE-ha-la. Nou i kak tva-YA NO-va-ya kvar-TI-ra ?",
+      "translation": "Salut Sofia ! J'ai appris que tu avais déménagé récemment. Alors, comment est ton nouvel appartement ?"
+    },
+    {
+      "speaker": "София",
+      "text": "Привет! Да, я очень рада. Я снимаю отличную квартиру недалеко от метро. Район очень зелёный и тихий.",
+      "phonetic_api": "/prʲɪˈvʲet da ja ˈotɕɪnʲ ˈradə ja sʲnʲɪˈmajʊ ɐˈtlʲitɕnʊjʊ kvɐrˈtʲirʊ nʲɪdəlʲɪˈko ɐt mʲɪˈtro rɐˈjon ˈotɕɪnʲ zʲɪˈlʲonɨj ˈi ˈtʲixʲɪj/",
+      "phonetic_simple": "pri-VIET ! Da, ya O-tchine RA-da. Ya sni-MA-iou at-LI-tchnou-iou kvar-TI-rou ni-da-li-KO at mi-TRO. Ra-ION O-tchine zi-LIO-nyj i TI-hiy.",
+      "translation": "Salut ! Oui, je suis vraiment ravie. Je loue un super appartement pas loin du métro. Le quartier est très verdoyant et calme."
+    },
+    {
+      "speaker": "Максим",
+      "text": "Здорово. А окна куда выходят? На оживлённую улицу?",
+      "phonetic_api": "/ˈzdorəvə a ˈoknə kʊˈda vɨˈxodʲət nə ɐʐɨˈvlʲonːʊjʊ ˈulʲɪt͡sʊ/",
+      "phonetic_simple": "ZDO-ra-va. A OK-na kou-DA vy-HO-diat ? Na a-ji-VLION-nou-iou OU-li-tsou ?",
+      "translation": "Génial. Et les fenêtres donnent sur quoi ? Sur une rue animée ?"
+    },
+    {
+      "speaker": "София",
+      "text": "К счастью, нет. Все окна выходят во двор, поэтому дома всегда тихо. Внутри две комнаты: уютная спальня и большая гостиная.",
+      "phonetic_api": "/k ˈɕːasʲtʲjʊ nʲet fsʲe ˈoknə vɨˈxodʲət vɐ dvor pɐˈɛtəmʊ dɐˈma vsʲɪɡˈda ˈtʲixə vnʊˈtrʲi dvʲe ˈkomnətɨ ʊˈjutnəjə ˈspalʲnʲə ˈi bɐlʲˈʂajə ɡɐˈsʲtʲinəjə/",
+      "phonetic_simple": "K chtchas-t'iou, niet. Fssé OK-na vy-HO-diat va dvor, pa-E-ta-mou da-MA vssi-GDA TI-ha. Vnou-TRI dvie KOM-na-ty: ou-IUT-na-ya SPAL-nia i bal-CHA-ya gas-TI-na-ya.",
+      "translation": "Heureusement, non. Toutes les fenêtres donnent sur la cour, c'est pourquoi il fait toujours calme à la maison. À l'intérieur, il y a deux pièces : une chambre douillette et un grand salon."
+    }
+  ],
+  "cultural_notes": [
+    "Les cours intérieures russes (Двор) : En Russie, les immeubles forment souvent de grands blocs carrés enserrant une cour intérieure close appelée 'двор'. C'est un espace social central où se trouvent les aires de jeux pour enfants, les bancs pour les voisins et les places de parking. Avoir des fenêtres qui 'donnent sur la cour' (окна во двор) est un gage de tranquillité très recherché.",
+    "La numérotation des étages : Notez qu'en Russie, le rez-de-chaussée correspond au premier étage (первый этаж). Par conséquent, le premier étage français correspond au deuxième étage russe (второй этаж)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M1_L1_ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la préposition correcte pour compléter la phrase : 'Мы живём [ ___ ] окраине города.'",
+      "options": [
+        "в",
+        "на",
+        "около",
+        "под"
+      ],
+      "correct_answer": "на",
+      "explanation": "Le mot 'окраина' (banlieue/périphérie) requiert structurellement l'usage de la préposition 'на' au cas Locatif."
+    },
+    {
+      "exercise_id": "B1_M1_L1_ex2",
+      "type": "multiple_choice",
+      "question": "Comment décline-t-on le mot 'город' (ville) dans la structure suivante : 'Около... есть большой супермаркет' ?",
+      "options": [
+        "городе",
+        "города",
+        "городу",
+        "городом"
+      ],
+      "correct_answer": "города",
+      "explanation": "La préposition 'Около' exige l'emploi du cas Génitif. La désinence régulière des noms masculins inanimés singuliers au Génitif est '-а'."
+    },
+    {
+      "exercise_id": "B1_M1_L1_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Я не люблю жить в центре, поэтому я решил купить дом [ ___ ] парка. (Près de / Aux alentours de)",
+      "correct_answer": "около",
+      "hint": "Préposition spatiale exigeant le cas génitif pour exprimer la proximité."
+    },
+    {
+      "exercise_id": "B1_M1_L1_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "В нашей новой квартире просторная [ ___ ], где мы принимаем гостей. (Salon)",
+      "correct_answer": "гостиная",
+      "hint": "Substantif féminin désignant la pièce de vie principale."
+    }
+  ]
+}

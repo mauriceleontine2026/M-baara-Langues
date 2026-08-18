@@ -1,0 +1,229 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter avec précision de 1 à 20 en langue Sankaran",
+    "Comprendre la structure de base des dizaines et la coordination des unités",
+    "Utiliser les nombres cardinaux pour quantifier des objets ou des personnes du quotidien"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les chiffres font intervenir le phonème /l/ alternant parfois avec un /r/ très doux selon le débit de parole. Le chiffre 2 'fila' s'ouvre sur une voyelle brève, tandis que 'saba' (3) et 'naani' (4) maintiennent une régularité rythmique claire. Notez la consonne finale nasale dans 'tan' /tan/ (10), qui doit être bien distincte sans nasalisation totale de la voyelle précédente.",
+    "common_pitfalls": "Évitez de prononcer le 'u' de 'duuru' comme le 'u' français de 'voiture'. Il doit toujours être prononcé comme le son 'ou' /u/ (comme dans 'toupie')."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v5_1",
+      "term": "Kelen",
+      "phonetic_api": "/ke.len/",
+      "phonetic_simple": "KÉ-LÈNE",
+      "translation": "Un (1)",
+      "example_sentence": "N denke kelen be yan.",
+      "example_phonetic": "/ɲ den.ke ke.len be jan/",
+      "example_translation": "Mon fils unique (un fils) est ici."
+    },
+    {
+      "word_id": "v5_2",
+      "term": "Fila",
+      "phonetic_api": "/fi.la/",
+      "phonetic_simple": "FI-LA",
+      "translation": "Deux (2)",
+      "example_sentence": "Mɔgɔ fila bɔra so kɔnɔ.",
+      "example_phonetic": "/mɔ.ɣɔ fi.la bɔ.ra so kɔ.nɔ/",
+      "example_translation": "Deux personnes sont sorties de la maison."
+    },
+    {
+      "word_id": "v5_3",
+      "term": "Saba",
+      "phonetic_api": "/sa.ba/",
+      "phonetic_simple": "SA-BA",
+      "translation": "Trois (3)",
+      "example_sentence": "Baa ye den saba sɔrɔ.",
+      "example_phonetic": "/baː je den sa.ba sɔ.rɔ/",
+      "example_translation": "Maman a eu trois enfants."
+    },
+    {
+      "word_id": "v5_4",
+      "term": "Naani",
+      "phonetic_api": "/naː.ni/",
+      "phonetic_simple": "NAA-NI",
+      "translation": "Quatre (4)",
+      "example_sentence": "Wulu naani be sene la.",
+      "example_phonetic": "/wu.lu naː.ni be se.ne la/",
+      "example_translation": "Quatre chiens sont dans le champ."
+    },
+    {
+      "word_id": "v5_5",
+      "term": "Duuru",
+      "phonetic_api": "/duː.ru/",
+      "phonetic_simple": "DOUU-ROU",
+      "translation": "Cinq (5)",
+      "example_sentence": "Bolo duuru be yan.",
+      "example_phonetic": "/bo.lo duː.ru be jan/",
+      "example_translation": "Cinq mains sont ici."
+    },
+    {
+      "word_id": "v5_6",
+      "term": "Tan",
+      "phonetic_api": "/tan/",
+      "phonetic_simple": "TANE",
+      "translation": "Dix (10)",
+      "example_sentence": "San tan be n bolo.",
+      "example_phonetic": "/san tan be ɲ bo.lo/",
+      "example_translation": "J'ai dix ans."
+    },
+    {
+      "word_id": "v5_7",
+      "term": "Mugun",
+      "phonetic_api": "/mu.ɡun/",
+      "phonetic_simple": "MOU-GOUNE",
+      "translation": "Vingt (20)",
+      "example_sentence": "Wari mugun be yan.",
+      "example_phonetic": "/wa.ri mu.fun be jan/",
+      "example_translation": "Il y a vingt billets / vingt francs."
+    },
+    {
+      "word_id": "v5_8",
+      "term": "Jeli",
+      "phonetic_api": "/d͡ʒe.li/",
+      "phonetic_simple": "DJÉ-LI",
+      "translation": "Combien",
+      "example_sentence": "I dɔgɔke jeli be yan?",
+      "example_phonetic": "/i dɔ.ɣɔ.ke d͡ʒe.li be jan/",
+      "example_translation": "Combien de petits frères à toi sont ici ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p5_1",
+      "original": "A jeli mu?",
+      "phonetic_api": "/a d͡ʒe.li mu/",
+      "phonetic_simple": "A DJÉ-LI MOU",
+      "translation": "C'est combien ? / Quel est son nombre ?",
+      "context": "Question rapide pour s'enquérir d'une quantité ou d'un prix."
+    },
+    {
+      "phrase_id": "p5_2",
+      "original": "Mɔgɔ jeli be yan sisan?",
+      "phonetic_api": "/mɔ.ɣɔ d͡ʒe.li be jan si.san/",
+      "phonetic_simple": "MƆ-GƆ DJÉ-LI BÉ YANE SI-SANE ?",
+      "translation": "Combien de personnes sont ici maintenant ?",
+      "context": "Comptage des BD ou individus présents dans une assemblée."
+    },
+    {
+      "phrase_id": "p5_3",
+      "original": "Mɔgɔ tan ni duuru le be yan.",
+      "phonetic_api": "/mɔ.ɣɔ tan ni duː.ru le be jan/",
+      "phonetic_simple": "MƆ-GƆ TANE NI DOUU-ROU LÉ BÉ YANE.",
+      "translation": "Il y a quinze personnes ici.",
+      "context": "Réponse chiffrée combinant la dizaine et l'unité."
+    },
+    {
+      "phrase_id": "p5_4",
+      "original": "A fɔ kelen-kelen !",
+      "phonetic_api": "/a fɔ ke.len.ke.len/",
+      "phonetic_simple": "A FƆ KÉ-LÈNE-KÉ-LÈNE",
+      "translation": "Dis-les un par un ! / Énumère-les !",
+      "context": "Demande de clarification lors du comptage d'objets."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction des nombres intermédiaires (11 à 19) via le connecteur 'ni'",
+      "explanation": "Pour former les nombres de 11 à 19 en Sankaran, on part de la base de la dizaine 'tan' (10) à laquelle on associe le connecteur 'ni' (et / avec) suivi de l'unité correspondante.",
+      "rules": [
+        "Structure : Tan (10) + ni + Unité",
+        "Exemples : 11 = Tan ni kelen, 12 = Tan ni fila, 15 = Tan ni duuru."
+      ],
+      "examples": [
+        {
+          "structure": "Tan ni naani",
+          "phonetic_api": "/tan ni naː.ni/",
+          "meaning": "Quatorze (14)"
+        },
+        {
+          "structure": "Tan ni wooro",
+          "phonetic_api": "/tan ni woː.ro/",
+          "meaning": "Seize (16)"
+        }
+      ]
+    },
+    {
+      "concept": "La position de l'adjectif numéral quantificateur",
+      "explanation": "En langue Sankaran, contrairement au français où le nombre se place avant le nom (ex: 'trois maisons'), le chiffre ou nombre cardinal se place systématiquement immédiatement APRÈS le substantif qu'il qualifie.",
+      "rules": [
+        "Structure : Nom + Nombre cardinal"
+      ],
+      "examples": [
+        {
+          "structure": "So saba",
+          "phonetic_api": "/so sa.ba/",
+          "meaning": "Trois maisons"
+        },
+        {
+          "structure": "Murula fila",
+          "phonetic_api": "/mu.ru.la fi.la/",
+          "meaning": "Deux couteaux"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amadou",
+      "text": "Fanta, i somogo lu jeli be so kɔnɔ?",
+      "phonetic_api": "/fan.ta i so.mo.ɣo lu d͡ʒe.li be so kɔ.nɔ/",
+      "phonetic_simple": "FAN-TA, I SO-MO-GO LOU DJÉ-LI BÉ SO KƆ-NƆ ?",
+      "translation": "Fanta, combien de personnes de ta famille sont à la maison ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Nse, Amadou. Mɔgɔ duuru le be so kɔnɔ sisan.",
+      "phonetic_api": "/ɲ.se a.ma.du | mɔ.ɣɔ duː.ru le be so kɔ.nɔ si.san/",
+      "phonetic_simple": "NSE, A-MA-DOU. MƆ-GƆ DOUU-ROU LÉ BÉ SO KƆ-NƆ SI-SANE.",
+      "translation": "Bonjour Amadou. Cinq personnes sont à la maison actuellement."
+    },
+    {
+      "speaker": "Amadou",
+      "text": "I dɔgɔke lu jeli be i bolo?",
+      "phonetic_api": "/i dɔ.ɣɔ.ke lu d͡ʒe.li be i bo.lo/",
+      "phonetic_simple": "I DƆ-GƆ-KÉ LOU DJÉ-LI BÉ I BO-LO ?",
+      "translation": "Combien de petits frères as-tu ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Dɔgɔke fila be n bolo. A lu bɛɛ be kalan na.",
+      "phonetic_api": "/dɔ.ɣɔ.ke fi.la be ɲ bo.lo | a lu bɛː be ka.lan na/",
+      "phonetic_simple": "DƆ-GƆ-KÉ FI-LA BÉ N BO-LO. A LOU BƐƐ BÉ KA-LANE NA.",
+      "translation": "J'ai deux petits frères. Ils sont tous à l'école."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les marchés traditionnels de Faranah et de la région du Sankaran, le comptage s'accompagne fréquemment de gestes de la main bien précis. Pour signifier cinq ou dix, on montre ouvertement la paume ou les deux mains réunies, renforçant l'affirmation verbale.",
+    "Il est culturellement mal vu de compter directement à voix haute les membres d'une famille ou les enfants d'une personne devant elle d'un ton trop insistant, car cela est traditionnellement associé à une forme de superstition ou de provocation du destin. On préfère s'enquérir globalement de la santé de l'entourage."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex5_1",
+      "type": "multiple_choice",
+      "question": "Traduisez fidèlement la structure suivante en Sankaran : 'Quatre maisons'",
+      "options": [
+        "Naani so",
+        "So naani",
+        "So tan ni naani"
+      ],
+      "correct_answer": "So naani",
+      "explanation": "Le nom 'so' se place en premier, directement suivi du chiffre ordinal 'naani' (4)."
+    },
+    {
+      "exercise_id": "ex5_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Dix-deux (douze) s'exprime par la dizaine unie à l'unité : Tan ni [ ___ ].",
+      "correct_answer": "fila",
+      "hint": "C'est le chiffre deux en langue vernaculaire."
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés",
+  "learning_objectives": [
+    "Maîtriser le plus-que-parfait et le futur antérieur en associant l'auxiliaire 'Kāna' à la particule 'Qad'",
+    "Utiliser avec précision les modes verbales avancés : le subjonctif (Manṣūb) et le jussif (Majzūm) dans des propositions complexes",
+    "Exprimer l'aspect de l'action imminente ou progressive à l'aide des verbes d'état de la famille de 'Kāna' (Afa'āl al-Muqārabah wa al-Shurū')"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Ce niveau avancé exige un contrôle absolu des fusions syllabiques et des déclinaisons finales (I'rāb). Le son /q/ (ق) de 'Qad' (قَدْ) doit être percutant et sec. L'accentuation de la voyelle longue dans 'Kāna' (كَانَ) combinée au Soukoun de la particule crée un rythme binaire essentiel pour structurer l'antériorité.",
+    "common_pitfalls": "L'erreur classique en C1 consiste à omettre la vocalisation exacte des modes du présent (Damma pour l'indicatif, Fatha pour le subjonctif, Soukoun pour le jussif). Un manque de rigueur sur le Soukoun final du jussif dénature la structure grammaticale de la phrase."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "قَدْ",
+      "phonetic_api": "/qad/",
+      "phonetic_simple": "KAD",
+      "translation": "Particule d'accomplissement (avec le passé) ou de probabilité (avec le présent)",
+      "example_sentence": "قَدْ أَتَمَّ عَمَلَهُ قَبْلَ الْوَقْتِ",
+      "example_phonetic": "/qad ʔa.tam.ma ʕa.ma.la.hu qab.lal wak-ti/",
+      "example_translation": "Il avait déjà terminé son travail avant l'heure"
+    },
+    {
+      "word_id": "v2",
+      "term": "صِيغَةٌ",
+      "phonetic_api": "/sˤiː.ɣa.tun/",
+      "phonetic_simple": "SII-GHA-TOUN",
+      "translation": "Un mode (grammatical) / Une formule / Une tournure",
+      "example_sentence": "نَسْتَخْدِمُ صِيغَةَ الْمَنْصُوبِ هُنَا",
+      "example_phonetic": "/.../",
+      "example_translation": "Nous utilisons le mode subjonctif ici"
+    },
+    {
+      "word_id": "v3",
+      "term": "أَثَرٌ",
+      "phonetic_api": "/ʔa.θa.run/",
+      "phonetic_simple": "A-THA-ROUN",
+      "translation": "Une empreinte / Un impact / Un effet / Une trace",
+      "example_sentence": "لِهَذَا الْقَرَارِ أَثَرٌ بَالِغٌ",
+      "example_phonetic": "/.../",
+      "example_translation": "Cette décision a un impact profond"
+    },
+    {
+      "word_id": "v4",
+      "term": "كَادَ",
+      "phonetic_api": "/kaː.da/",
+      "phonetic_simple": "KAA-DA",
+      "translation": "Être sur le point de / Faillir (verbe d'imminence)",
+      "example_sentence": "كَادَ الْمَطَرُ أَنْ يَنْزِلَ",
+      "example_phonetic": "/kaː.dal ma.tˤa.ru ʔan jan.zi.la/",
+      "example_translation": "La pluie était sur le point de tomber"
+    },
+    {
+      "word_id": "v5",
+      "term": "تَدْرِيجِيًّا",
+      "phonetic_api": "/tad.riː.dʒi.jan/",
+      "phonetic_simple": "TAD-RII-DJI-YAN",
+      "translation": "Graduellement / Progressivement",
+      "example_sentence": "يَتَحَسَّنُ الْوَضْعُ تَدْرِيجِيًّا",
+      "example_phonetic": "/.../",
+      "example_translation": "La situation s'améliore progressivement"
+    },
+    {
+      "word_id": "v6",
+      "term": "تَمَامًا",
+      "phonetic_api": "/ta.maː.man/",
+      "phonetic_simple": "TA-MAA-MAN",
+      "translation": "Complètement / Parfaitement / Tout à fait",
+      "example_sentence": "فَهِمْتُ الْفِكْرَةَ تَمَامًا",
+      "example_phonetic": "/.../",
+      "example_translation": "J'ai complètement compris l'idée"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "كُنْتُ قَدْ أَنْهَيْتُ التَّقْرِيرَ حِينَمَا اتَّصَلْتَ بِي",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "KOUN-TOU KAD AN-HAY-TOUT TAK-RII-RA HII-NA-MAA T-TA-SAL-TA BII",
+      "translation": "J'avais déjà fini le rapport lorsque tu m'as appelé",
+      "context": "Exprimer le plus-que-parfait dans un récit au passé."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "سَأَكُونُ قَدْ وَصَلْتُ إِلَى الْعَاصِمَةِ غَدًا مَسَاءً",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "SA-A-KOOU-NOU KAD WA-SALT-OU I-LAL AA-SI-MA",
+      "translation": "S'aurai déjà atteint (je serai arrivé à) la capitale demain soir",
+      "context": "Structure avancée du futur antérieur pour marquer une action complétée dans l'avenir."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "بَدَأَ الْكَاتِبُ يُصِيغُ أَفْكَارَهُ بِأُسْلُوبٍ بَلِيغٍ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "BA-DA-AL KAA-TI-BOU YOU-SII-GHOU AF-KAA-RA-HOU",
+      "translation": "L'écrivain commença à formuler ses idées dans un style éloquent",
+      "context": "Utilisation de 'Bada'a' comme verbe d'entrée dans l'action (Inchoatif)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "لَمْ يَتْرُكْ أَيَّ أَثَرٍ لِلشَّكِّ فِي كَلَامِهِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "LAM YAT-ROUK AY-YA A-THA-RIN LICH-CHAK-KI FII KA-LAA-MIH",
+      "translation": "Il n'a laissé aucune trace de doute dans ses propos",
+      "context": "Emploi du jussif après la particule de négation passée 'Lam'."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "لِكَيْ تَبْلُغَ الْهَدَفَ، يَجِبُ أَنْ تَعْمَلَ دُونَ انْقِطَاعٍ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "LI-KAY TAB-LOUGHAL HA-DAF, YA-DJI-BOU AN TA'-MA-LA...",
+      "translation": "Pour que tu atteignes l'objectif, il faut que tu travailles sans interruption",
+      "context": "Proposition finale complexe exigeant le subjonctif."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le Plus-que-parfait et le Futur antérieur (Structures de Kāna + Qad + Passé)",
+      "explanation": "L'arabe exprime les nuances de l'antériorité temporelle en combinant l'auxiliaire 'Kāna' avec la particule d'accomplissement 'Qad' devant un verbe à l'accompli.",
+      "rules": [
+        "Plus-que-parfait : Kāna (conjugué au passé) + Qad (قَدْ) + verbe principal au passé. Signifie qu'une action était déjà accomplie avant une autre action passée.",
+        "Futur antérieur : Sa-yakūnu / Yakūnu (au futur) + Qad (قَدْ) + verbe principal au passé. Signifie qu'une action sera accomplie avant un moment précis du futur."
+      ],
+      "examples": [
+        {
+          "structure": "كَانُوا قَدْ غَادَرُوا الْمَكْتَبَ",
+          "phonetic_api": "/kaː.nuː qad ɣaː.da.rul mak.ta.ba/",
+          "meaning": "Ils avaient déjà quitté le bureau"
+        },
+        {
+          "structure": "سَنَكُونُ قَدْ أَنْهَيْنَا الْمَشْرُوعَ",
+          "phonetic_api": "/sa.na.kuː.nu qad ʔan.haj.naː l.maʃ.ruː.ʕa/",
+          "meaning": "Nous aurons terminé le projet"
+        }
+      ]
+    },
+    {
+      "concept": "Les verbes d'imminence et de commencement (Afa'āl al-Muqārabah wa al-Shurū')",
+      "explanation": "Ce sont des verbes frères de 'Kāna' qui modifient l'aspect de l'action. Ils indiquent qu'une action est sur le point de se produire ou vient de commencer.",
+      "rules": [
+        "Kāda (كَادَ - faillir/être sur le point de) régit un sujet au nominatif et un attribut qui doit obligatoirement être une proposition verbale à l'inaccompli (souvent introduit par 'An').",
+        "Bada'a (بَدَأَ) / Jala (جَعَلَ) / Akhadha (أَخَذَ) : Verbes de commencement (Inchoatifs). Ils sont suivis directement d'un verbe à l'inaccompli indicatif (sans 'An') faisant office d'attribut."
+      ],
+      "examples": [
+        {
+          "structure": "كَادَ الْمَشْرُوعُ أَنْ يَكْتَمِلَ",
+          "phonetic_api": "/.../",
+          "meaning": "Le projet était sur le point de se concrétiser / s'achever"
+        },
+        {
+          "structure": "أَخَذَ الْمُحَاضِرُ يَتَكَلَّمُ",
+          "phonetic_api": "/.../",
+          "meaning": "Le conférencier se mit à parler (commença à s'exprimer)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "الدُّكْتُور أَمِين (Dr. Amine)",
+      "text": "أَهْلًا يَا أُسْتَاذَةُ صَفَاءُ. هَلِ اطَّلَعْتِ عَلَى الدِّرَاسَةِ النَّقْدِيَّةِ الْجَدِيدَةِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN YA OUS-TAA-THA SA-FAAA. HAL IT-TA-LA'-TI A-LAD DI-RAA-SA...",
+      "translation": "Bonjour professeure Safaa. Avez-vous pris connaissance de la nouvelle étude critique ?"
+    },
+    {
+      "speaker": "الأُسْتَاذَة صَفَاء (Prof. Safaa)",
+      "text": "أَهْلًا دُكْتُورُ. نَعَمْ، كُنْتُ قَدْ قَرَأْتُ الْفَصْلَ الأَوَّلَ قَبْلَ أَنْ يَعْقِدَ الْمَجْلِسُ اجْتِمَاعَهُ الطَّارِئَ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN DOUK-TOOUR. NA-AM, KOUN-TOU KAD KA-RA'-TOUL FAS-LAL AW-WAL...",
+      "translation": "Bonjour docteur. Oui, j'avais déjà lu le premier chapitre avant que le conseil ne tienne sa réunion d'urgence."
+    },
+    {
+      "speaker": "الدُّكْتُور أَمِين (Dr. Amine)",
+      "text": "مُنَازَعَاتُ هَذِهِ النَّظَرِيَّةِ كَادَتْ أَنْ تُحْدِثَ انْقِسَامًا بَيْنَ الْبَاحِثِينَ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MOU-NAA-ZA-AA-TOU HAA-THI-HIL NA-THA-RIY-YA KAA-DAT AN TOUH-DI-THA...",
+      "translation": "Les controverses de cette théorie ont failli provoquer une scission parmi les chercheurs."
+    },
+    {
+      "speaker": "الأُسْتَاذَة صَفَاء (Prof. Safaa)",
+      "text": "صَحِيحٌ، لَكِنَّ الأُمُورَ جَعَلَتْ تَنْتَظِمُ تَدْرِيجِيًّا بَعْدَ أَنْ نَشَرْنَا التَّوْضِيحَاتِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "SA-HIIH, LA-KIN-NAL OU-MOOU-RA DJA-A-LAT TAN-TA-THI-MOU TAD-RII-DJI-YAN...",
+      "translation": "C'est vrai, mais les choses ont commencé à se réguler progressivement après que nous avons publié les clarifications."
+    }
+  ],
+  "cultural_notes": [
+    "L'éloquence académique (Al-Balāghah) : Au niveau avancé, le discours s'éloigne des structures purement utilitaires pour intégrer des schèmes littéraires classiques. L'usage précis de tournures complexes de l'antériorité et des verbes d'état témoigne d'un haut niveau d'érudition et de respect envers l'institution ou l'interlocuteur.",
+    "La temporalité dans la tradition rhétorique : L'arabe classique privilégie l'analyse des aspects (le fait que l'action soit posée comme un repère immuable ou en cours) plutôt que la linéarité stricte du temps. Cela permet de donner une force stylistique unique aux récits historiques et scientifiques."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L1_ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la tournure exacte pour traduire le plus-que-parfait : 'Nous avions déjà envoyé le document.'",
+      "options": [
+        "سَنَكُونُ قَدْ أَرْسَلْنَا الْوَثِيقَةَ (Sanakūnu qad arsalnā l-wathīqata)",
+        "كُنَّا قَدْ أَرْسَلْنَا الْوَثِيقَةَ (Kunnā qad arsalnā l-wathīqata)",
+        "بَدَأْنَا نُرْسِلُ الْوَثِيقَةَ (Bada'nā nursilu l-wathīqata)"
+      ],
+      "correct_answer": "كُنَّا قَدْ أَرْسَلْنَا الْوَثِيقَةَ (Kunnā qad arsalnā l-wathīqata)",
+      "explanation": "Le plus-que-parfait se forme avec Kāna au passé (Kunnā) + la particule Qad + le verbe à l'accompli."
+    },
+    {
+      "exercise_id": "C1_M1_L1_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'L'étudiant commença à écrire', en utilisant un verbe inchoatif d'aspect : أَخَذَ الطَّالِبُ [ ___ ]",
+      "correct_answer": "يَكْتُبُ",
+      "hint": "Le verbe d'action complément doit être à l'inaccompli indicatif régulier."
+    },
+    {
+      "exercise_id": "C1_M1_L1_ex3",
+      "type": "multiple_choice",
+      "question": "Quelle nuance apporte la structure 'كَادَ أَنْ' (Kāda an) dans un énoncé ?",
+      "options": [
+        "Une certitude passée",
+        "Une imminence / Une action qui a failli se produire",
+        "Une interdiction légale"
+      ],
+      "correct_answer": "Une imminence / Une action qui a failli se produire",
+      "explanation": "Kāda fait partie des verbes de proximité (Muqārabah) indiquant qu'un événement a frôlé sa réalisation."
+    }
+  ]
+}

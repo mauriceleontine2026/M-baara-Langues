@@ -1,0 +1,255 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché/restaurant)",
+  "learning_objectives": [
+    "Nommer les principaux aliments, plats et boissons du quotidien",
+    "Passer une commande polie au restaurant ou au café",
+    "Faire ses courses au marché en utilisant les expressions de quantité",
+    "Demander l'addition et comprendre les formules liées au paiement"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre -v- dans le mot 'Fleisch' ou 'Gemüse' n'apparaît pas, mais observez le -g- initial de 'Gemüse' qui se prononce [ɡ] dur (comme dans 'gare'), suivi du son [yː] long du Ü-Umlaut. Le digramme -ch- dans 'ich möchte' ou 'Rechnung' correspond au son palatal doux [ç] (Ich-Laut). Le groupe -st- dans 'Speisekarte' se trouve au début du deuxième élément du mot composé et se prononce donc impérativement [ʃt] ('chte-').",
+    "common_pitfalls": "Évitez absolument de nasaliser les voyelles devant un -n- ou un -m- à la française dans des mots comme 'Trinken' [ˈtʁɪŋkn̩] ou 'Zitrone'. Prononcez le -h- de 'hähnchen' uniquement au début du mot comme une expiration, et réalisez le -ch- qui suit de manière très fluide."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "das Essen",
+      "phonetic_api": "/das ˈɛsn̩/",
+      "phonetic_simple": "DAS ES-NEN",
+      "translation": "la nourriture / le repas",
+      "example_sentence": "Das Essen im Restaurant ist lecker.",
+      "example_phonetic": "/das ˈɛsn̩ ɪm ʁɛstoˈʁaŋ ɪst ˈlɛkɐ/",
+      "example_translation": "La nourriture au restaurant est délicieuse."
+    },
+    {
+      "word_id": "v2",
+      "term": "trinken",
+      "phonetic_api": "/ˈtʁɪŋkn̩/",
+      "phonetic_simple": "TRIN-KEN",
+      "translation": "boire",
+      "example_sentence": "Was möchten Sie trinken?",
+      "example_phonetic": "/vas ˈmœçtn̩ ziː ˈtʁɪŋkn̩/",
+      "example_translation": "Que désirez-vous boire ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "das Gemüse",
+      "phonetic_api": "/das ɡəˈmyːzə/",
+      "phonetic_simple": "DAS GHE-MUU-ZE",
+      "translation": "les légumes (collectif singulier)",
+      "example_sentence": "Ich kaufe frisches Gemüse auf dem Markt.",
+      "example_phonetic": "/ɪç ˈkaʊ̯fə ˈfʁɪʃəs ɡəˈmyːzə aʊ̯f deːm maʁkt/",
+      "example_translation": "J'achète des légumes frais au marché."
+    },
+    {
+      "word_id": "v4",
+      "term": "das Fleisch",
+      "phonetic_api": "/das flaɪ̯ʃ/",
+      "phonetic_simple": "DAS FLAICH",
+      "translation": "la viande",
+      "example_sentence": "Er isst kein Fleisch, er ist Vegetarier.",
+      "example_phonetic": "/eːɐ̯ ɪst kaɪ̯n flaɪ̯ʃ eːɐ̯ ɪst vɛɡəˈtaːʁi̯ɐ/",
+      "example_translation": "Il ne mange pas de viande, il est végétarien."
+    },
+    {
+      "word_id": "v5",
+      "term": "die Speisekarte",
+      "phonetic_api": "/diː ˈʃpaɪ̯zəˌkaʁtə/",
+      "phonetic_simple": "DII CHPAI-ZE-KAR-TE",
+      "translation": "la carte / le menu",
+      "example_sentence": "Bringen Sie uns bitte die Speisekarte.",
+      "example_phonetic": "/ˈbʁɪŋən ziː ʊns ˈbɪtə diː ˈʃpaɪ̯zəˌkaʁtə/",
+      "example_translation": "Apportez-nous la carte s'il vous plaît."
+    },
+    {
+      "word_id": "v6",
+      "term": "das Kilo / ein Pfund",
+      "phonetic_api": "/das ˈkiːloː / aɪ̯n pfʊnt/",
+      "phonetic_simple": "DAS KII-LOO / AIN PFOUND",
+      "translation": "le kilo / une livre (500 grammes)",
+      "example_sentence": "Ich möchte ein Pfund Tomaten.",
+      "example_phonetic": "/ɪç ˈmœçtə aɪ̯n pfʊnt toˈmaːtn̩/",
+      "example_translation": "Je voudrais une livre (500g) de tomates."
+    },
+    {
+      "word_id": "v7",
+      "term": "die Rechnung",
+      "phonetic_api": "/diː ˈʁɛçnʊŋ/",
+      "phonetic_simple": "DII REK-NOUNG",
+      "translation": "l'addition / la facture",
+      "example_sentence": "Die Rechnung, bitte!",
+      "example_phonetic": "/diː ˈʁɛçnʊŋ ˈbɪtə/",
+      "example_translation": "L'addition, s'il vous plaît !"
+    },
+    {
+      "word_id": "v8",
+      "term": "lecker",
+      "phonetic_api": "/ˈlɛkɐ/",
+      "phonetic_simple": "LEK-ER",
+      "translation": "délicieux / bon",
+      "example_sentence": "Der Kuchen schmeckt lecker.",
+      "example_phonetic": "/deːɐ̯ ˈkuːxn̩ ʃmɛkt ˈlɛkɐ/",
+      "example_translation": "Le gâteau est délicieux."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ich möchte bitte einen Kaffee und ein Stück Kuchen.",
+      "phonetic_api": "/ɪç ˈmœçtə ˈbɪtə ˈaɪ̯nən ˈkafeː ʊnt aɪ̯n ʃtʏk ˈkuːxn̩/",
+      "phonetic_simple": "ICH MOECH-TE BI-TE AI-NEN KA-FEE OUNT AIN CHTOUK KOU-KEN",
+      "translation": "Je voudrais un café et une part de gâteau s'il vous plaît.",
+      "context": "Passer commande de manière classique et polie dans un café."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Sonst noch etwas? / Darf es noch etwas sein?",
+      "phonetic_api": "/zɔnst nɔx ˈɛtvas / darf ɛs nɔx ˈɛtvas zaɪ̯n/",
+      "phonetic_simple": "ZONST NOK ET-VAS / DARF ES NOK ET-VAS ZAIN",
+      "translation": "Et avec ceci ? / Désirez-vous autre chose ?",
+      "context": "Question du marchand au marché ou du serveur après la commande."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Das ist alles, danke.",
+      "phonetic_api": "/das ɪst ˈaləs ˈdaŋkə/",
+      "phonetic_simple": "DAS IST AL-ES DAN-KE",
+      "translation": "C'est tout, merci.",
+      "context": "Indiquer au vendeur que l'on a terminé ses achats."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Zahlen bitte! Zusammen oder getrennt?",
+      "phonetic_api": "/ˈtsaːlən ˈbɪtə tsuˈzamən ˈoːdɐ ɡəˈtʁɛnt/",
+      "phonetic_simple": "TSA-LEN BI-TE TSOU-ZA-MEN OO-DER GHE-TRENT",
+      "translation": "Pour payer s'il vous plaît ! Ensemble ou séparément ?",
+      "context": "Dialogue clé au moment du règlement au restaurant."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Stimmt so.",
+      "phonetic_api": "/ʃtɪmt zoː/",
+      "phonetic_simple": "CHTIMT SOO",
+      "translation": "Gardez la monnaie (C'est bon ainsi).",
+      "context": "Formule indispensable pour laisser un pourboire directement au serveur."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du souhait poli avec la structure 'ich möchte' + Accusatif",
+      "explanation": "Pour commander de façon courtoise, on emploie le subjonctif II du verbe 'mögen' fonctionnant comme un verbe de modalité. L'objet demandé se décline alors au cas Accusatif (COD).",
+      "rules": [
+        "La structure de base est 'Ich möchte + [Nom à l'accusatif]'.",
+        "Si l'élément demandé est masculin singulier, le déterminant indéfini prend la désinence '-en' : 'einen Kaffee', 'einen Apfel'.",
+        "Si l'élément demandé est neutre ou féminin, le déterminant reste régulier : 'ein Wasser', 'eine Cola'."
+      ],
+      "examples": [
+        {
+          "structure": "Ich möchte einen Salat, bitte. (Masculin)",
+          "phonetic_api": "/ɪç ˈmœçtə ˈaɪ̯nən zaˈlaːt ˈbɪtə/",
+          "meaning": "Je voudrais une salade, s'il vous plaît."
+        },
+        {
+          "structure": "Ich möchte ein Bier, bitte. (Neutre)",
+          "phonetic_api": "/ɪç ˈmœçtə aɪ̯n biːɐ̯ ˈbɪtə/",
+          "meaning": "Je voudrais une bière, s'il vous plaît."
+        }
+      ]
+    },
+    {
+      "concept": "L'absence de déclinaison pour les unités de mesure et de quantité",
+      "explanation": "En allemand, lorsqu'un nom de quantité ou de mesure masculin ou neutre est suivi d'un substantif au pluriel ou au singulier, l'unité de mesure ne prend pas la marque du pluriel.",
+      "rules": [
+        "On utilise la forme singulière de l'unité même pour des quantités supérieures à un : 'zwei Glas Wasser' (deux verres d'eau) et non 'zwei Gläser'.",
+        "Il n'y a pas de préposition équivalente au 'de' français entre la quantité et l'aliment : 'ein Kilo Kartoffeln' (un kilo de pommes de terre)."
+      ],
+      "examples": [
+        {
+          "structure": "drei Flaschen Wein (Féminin fait exception)",
+          "phonetic_api": "/dʁaɪ̯ ˈflaʃn̩ vaɪ̯n/",
+          "meaning": "trois bouteilles de vin"
+        },
+        {
+          "structure": "fünf Becher Joghurt (Masculin reste invariable)",
+          "phonetic_api": "/fʏnf ˈbɛçɐ ˈjoːɡʊʁt/",
+          "meaning": "cinq pots de yaourt"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kellner",
+      "text": "Guten Abend! Haben Sie schon gewählt? Was darf ich Ihnen bringen?",
+      "phonetic_api": "/ˌɡuːtn̩ ˈaːbn̩ ˈhaːbn̩ ziː ʃoːn ɡəˈvɛːlt vas darf ɪç ˈiːnən ˈbʁɪŋən/",
+      "phonetic_simple": "GOU-TEN A-BENT HA-BEN ZII CHOON GHE-VEELT VAS DARF ICH II-NEN BRIN-GHEN",
+      "translation": "Bonsoir ! Vous avez déjà choisi ? Que puis-je vous apporter ?"
+    },
+    {
+      "speaker": "Gast",
+      "text": "Ja, ich nehme die Suppe als Vorspeise und das Hähnchen mit Gemüse als Hauptgericht.",
+      "phonetic_api": "/jaː ɪç ˈneːmə diː ˈzʊpə als ˈfoːɐ̯ˌʃpaɪ̯zə ʊnt das ˈhɛːnçən mɪt ɡəˈmyːzə als ˈhaʊ̯ptɡəˌʁɪçt/",
+      "phonetic_simple": "YA ICH NEE-ME DII ZOU-PE ALS FOOR-CHPAI-ZE OUNT DAS HEEN-CHEN MIT GHE-MUU-ZE ALS HAOUPT-GHE-RICHT",
+      "translation": "Oui, je vais prendre la soupe en entrée et le poulet avec ses légumes comme plat principal."
+    },
+    {
+      "speaker": "Kellner",
+      "text": "Und zu trinken?",
+      "phonetic_api": "/ʊnt tsuː ˈtʁɪŋkn̩/",
+      "phonetic_simple": "OUNT TSOU TRIN-KEN",
+      "translation": "Et comme boisson ?"
+    },
+    {
+      "speaker": "Gast",
+      "text": "Ein großes Mineralwasser, bitte. (...) Später: Herr Ober, ich möchte bitte zahlen.",
+      "phonetic_api": "/aɪ̯n ˈɡʁoːsəs mɪnəˈʁaːlˌvasɐ ˈbɪtə // ˈʃpɛːtɐ hɛʁ ˈoːbɐ ɪç ˈmœçtə ˈbɪtə ˈtsaːlən/",
+      "phonetic_simple": "AIN GROS-ES MI-NE-RAL-VAS-ER BI-TE // CHPEE-TER HER OO-BER ICH MOECH-TE BI-TE TSA-LEN",
+      "translation": "Une grande eau minérale, s'il vous plaît. (...) Plus tard : Monsieur le serveur, je voudrais payer s'il vous plaît."
+    },
+    {
+      "speaker": "Kellner",
+      "text": "Das macht zusammen siebenundzwanzig Euro. Zusammen oder getrennt?",
+      "phonetic_api": "/das maxt tsuˈzamən ˈziːbn̩ʊntˈtsvantsɪç ˈɔɪ̯ʁoː tsuˈzamən ˈoːdɐ ɡəˈtʁɛnt/",
+      "phonetic_simple": "DAS MAKT TSOU-ZA-MEN ZII-BEN-OUND-TSVAN-TSICH OI-ROO TSOU-ZA-MEN OO-DER GHE-TRENT",
+      "translation": "Cela fait vingt-sept euros au total. Ensemble ou séparément ?"
+    },
+    {
+      "speaker": "Gast",
+      "text": "Zusammen, bitte. Hier sind dreißig Euro. Stimmt so!",
+      "phonetic_api": "/tsuˈzamən ˈbɪtə hiːɐ̯ zɪnt ˈdʁaɪ̯sɪç ˈɔɪ̯ʁoː ʃtɪmt zoː/",
+      "phonetic_simple": "TSOU-ZA-MEN BI-TE HIIR ZINT DRAI-SICH OI-ROO CHTIMT SOO",
+      "translation": "Ensemble, s'il vous plaît. Voici trente euros. Gardez la monnaie !"
+    }
+  ],
+  "cultural_notes": [
+    "La culture du pourboire ('Trinkgeld') est très ancrée en Allemagne. Il n'est pas inclus dans l'addition et représente généralement entre 5% et 10% de la somme totale. Au lieu de laisser l'argent sur la table en partant, on annonce le montant global incluant le pourboire au moment de payer en disant 'Stimmt so'.",
+    "Lorsque vous mangez en groupe au restaurant, la question du serveur 'Zusammen oder getrennt?' est systématique. Il est extrêmement courant et socialement accepté que chacun paye sa part exacte ('getrennt zahlen'), même au centime près.",
+    "Au marché traditionnel ('Wochenmarkt'), l'unité de mesure 'ein Pfund' est massivement utilisée à l'oral par les clients pour commander 500 grammes de fruits, de légumes ou de fromage."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Vous êtes au restaurant et l'addition s'élève à 14,20 €. Vous donnez un billet de 15 € au serveur et vous souhaitez lui laisser le reste en pourboire. Que dites-vous ?",
+      "options": [
+        "Danke schön.",
+        "Stimmt so.",
+        "Bitte zahlen."
+      ],
+      "correct_answer": "Stimmt so.",
+      "explanation": "'Stimmt so' indique au serveur qu'il peut conserver la monnaie restante comme pourboire."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ich möchte bitte [ ___ ] Apfelsaft. (Le mot Apfelsaft est masculin : der Apfelsaft)",
+      "correct_answer": "einen",
+      "hint": "Entrez l'article indéfini masculin décliné au cas accusatif exigé par la structure de souhait."
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer les jours de la semaine pour planifier une activité",
+    "S'orienter dans l'année en reconnaissant les périodes mensuelles",
+    "Demander et indiquer l'heure de manière simplifiée pour les rendez-vous du quotidien"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les termes temporels en lélé font un usage fréquent de la voyelle ouverte 'ɔ' [ɔ] et de la nasale vélaire 'ŋ' [ŋ]. L'expression du temps demande une bonne accentuation sur la première syllabe pour distinguer les jours des noms de marchés locaux.",
+    "common_pitfalls": "Évitez de prononcer le mot 'loki' (temps/heure) comme le mot français 'loquet'. Le 'o' doit rester fermé et bref. Ne confondez pas non plus la prononciation du mot 'talo' (jour) avec celle de 'tana' (problème)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Talo",
+      "phonetic_api": "/ta.lo/",
+      "phonetic_simple": "TA-LO",
+      "translation": "Jour / Date",
+      "example_sentence": "Talo kela bɛ fisa.",
+      "example_phonetic": "/ta.lo ke.la bɛ fi.sa/",
+      "example_translation": "Un jour sera bon (Un jour viendra)."
+    },
+    {
+      "word_id": "v2",
+      "term": "Kalo",
+      "phonetic_api": "/ka.lo/",
+      "phonetic_simple": "KA-LO",
+      "translation": "Mois / Lune",
+      "example_sentence": "Kalo fɛlɛ bɛ wala bolo.",
+      "example_phonetic": "/ka.lo fɛ.lɛ bɛ wa.la bo.lo/",
+      "example_translation": "Il y a deux mois de travail."
+    },
+    {
+      "word_id": "v3",
+      "term": "Loki",
+      "phonetic_api": "/lo.ki/",
+      "phonetic_simple": "LO-KI",
+      "translation": "Heure / Temps / Moment",
+      "example_sentence": "Loki mu mɔ di?",
+      "example_phonetic": "/lo.ki mu mɔ di/",
+      "example_translation": "Quelle heure est-il ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "Ntɛnɛŋ",
+      "phonetic_api": "/ɲtɛ.nɛŋ/",
+      "phonetic_simple": "N-TÈ-NÈNG",
+      "translation": "Lundi",
+      "example_sentence": "N bɛ wala ntɛnɛŋ talo kɔ.",
+      "example_phonetic": "/ɲ bɛ wa.la ɲtɛ.nɛŋ ta.lo kɔ/",
+      "example_translation": "Je travaille le lundi."
+    },
+    {
+      "word_id": "v5",
+      "term": "Kari",
+      "phonetic_api": "/ka.ri/",
+      "phonetic_simple": "KA-RI",
+      "translation": "Dimanche",
+      "example_sentence": "Kari mu mɛnɛ talo di.",
+      "example_phonetic": "/ka.ri mu mɛ.nɛ ta.lo di/",
+      "example_translation": "Le dimanche est un jour de repos."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Bi mu talo mɔ di?",
+      "phonetic_api": "/bi mu ta.lo mɔ di/",
+      "phonetic_simple": "BI MOU TA-LO MƆ DI?",
+      "translation": "Quel jour sommes-nous aujourd'hui ?",
+      "context": "S'informer sur le jour actuel de la semaine."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Bi mu ntɛnɛŋ di.",
+      "phonetic_api": "/bi mu ɲtɛ.nɛŋ di/",
+      "phonetic_simple": "BI MOU N-TÈ-NÈNG DI.",
+      "translation": "Aujourd'hui c'est lundi.",
+      "context": "Répondre pour indiquer la date du jour."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Loki mu mɔ di?",
+      "phonetic_api": "/lo.ki mu mɔ di/",
+      "phonetic_simple": "LO-KI MOU MƆ DI?",
+      "translation": "Quelle heure est-il ?",
+      "context": "Demander l'heure à un passant ou un collègue."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Loki mu lɔɔluŋ di.",
+      "phonetic_api": "/lo.ki mu lɔː.luŋ di/",
+      "phonetic_simple": "LO-KI MOU LƆƆ-LOUNG DI.",
+      "translation": "Il est cinq heures.",
+      "context": "Donner une heure fixe à son interlocuteur."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "I bɛ di mi loki?",
+      "phonetic_api": "/i bɛ di mi lo.ki/",
+      "phonetic_simple": "I BÈ DI MI LO-KI?",
+      "translation": "À quel moment viens-tu ?",
+      "context": "Planifier l'organisation d'une rencontre."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "N bɛ di saawa loki kɔ.",
+      "phonetic_api": "/ɲ bɛ di saː.wa lo.ki kɔ/",
+      "phonetic_simple": "N BÈ DI SAA-WA LO-KI KƆ.",
+      "translation": "Je viendrai à trois heures.",
+      "context": "Préciser son heure d'arrivée."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Kalo kela wala mu ya di.",
+      "phonetic_api": "/ka.lo ke.la wa.la mu ja di/",
+      "phonetic_simple": "KA-LO KÉ-LA WA-LA MOU YA DI.",
+      "translation": "C'est un travail d'un seul mois ici.",
+      "context": "Spécifier la durée mensuelle d'un projet."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Fo kari talo kɔ.",
+      "phonetic_api": "/fo ka.ri ta.lo kɔ/",
+      "phonetic_simple": "FO KA-RI TA-LO KƆ.",
+      "translation": "À dimanche prochain.",
+      "context": "Prendre congé en fixant le rendez-vous au week-end."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du temps et la quantification de l'heure",
+      "explanation": "En lélé, pour exprimer l'heure ou un jour précis, on associe le substantif temporel ('loki' ou 'talo') avec un chiffre cardinal qui le suit immédiatement. L'ensemble est stabilisé par la structure d'identification nominale 'mu ... di' quand il s'agit d'une affirmation de temps présent.",
+      "rules": [
+        "Le mot pour 'heure' ('loki') ou 'jour' ('talo') précède toujours la valeur numérique.",
+        "Le mot 'Bi' sert d'adverbe temporel autonome pour désigner 'aujourd'hui'.",
+        "Pour fixer une échéance future ou un rendez-vous, on utilise la préposition finale de visée 'kɔ'."
+      ],
+      "examples": [
+        {
+          "structure": "Loki naani",
+          "phonetic_api": "/lo.ki naː.ni/",
+          "meaning": "Quatre heures"
+        },
+        {
+          "structure": "Bi mu kari di",
+          "phonetic_api": "/bi mu ka.ri di/",
+          "meaning": "Aujourd'hui c'est dimanche"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Moussa",
+      "text": "Mɛnɛ kɔ, Fanta. Bi mu talo mɔ di?",
+      "phonetic_api": "/mɛ.nɛ kɔ fan.ta bi mu ta.lo mɔ di/",
+      "phonetic_simple": "MÈ-NÈ KƆ, FAN-TA. BI MOU TA-LO MƆ DI?",
+      "translation": "Bonjour, Fanta. Quel jour sommes-nous aujourd'hui ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Mɛnɛ kɔ. Bi mu ntɛnɛŋ di. Loki mu mɔ di i bolo?",
+      "phonetic_api": "/mɛ.nɛ kɔ bi mu ɲtɛ.nɛŋ di lo.ki mu mɔ di i bo.lo/",
+      "phonetic_simple": "MÈ-NÈ KƆ. BI MOU N-TÈ-NÈNG DI. LO-KI MOU MƆ DI I BO-LO?",
+      "translation": "Bonjour. Aujourd'hui c'est lundi. Quelle heure as-tu à ton niveau ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Loki mu lɔɔluŋ di kɔ. N bɛ wala mara kɔ.",
+      "phonetic_api": "/lo.ki mu lɔː.luŋ di kɔ ɲ bɛ wa.la ma.ra kɔ/",
+      "phonetic_simple": "LO-KI MOU LƆƆ-LOUNG DI KƆ. N BÈ WA-LA MA-RA KƆ.",
+      "translation": "Il est exactement cinq heures. Je vais travailler au marché."
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Fisa di! Fo kunu kɔ.",
+      "phonetic_api": "/fi.sa di fo ku.nu kɔ/",
+      "phonetic_simple": "FI-SA DI! FO KOU-NOU KƆ.",
+      "translation": "C'est parfait ! À demain."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la vie quotidienne en Guinée forestière, le découpage de la semaine est fortement lié aux jours de grands marchés hebdomadaires régionaux. Les jours comme le lundi ('ntɛnɛŋ') ou les jours de repos religieux et communautaires structurent les déplacements entre les villages lélé et les centres urbains comme Kissidougou."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel mot lélé désigne le concept d'heure ou de temps ?",
+      "options": [
+        "Kalo",
+        "Loki",
+        "Talo"
+      ],
+      "correct_answer": "Loki",
+      "explanation": "'Loki' signifie l'heure ou le temps. 'Kalo' désigne le mois et 'Talo' désigne le jour."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Aujourd'hui c'est lundi', on commence la phrase par le mot : [ ___ ] mu ntɛnɛŋ di.",
+      "correct_answer": "Bi",
+      "hint": "C'est l'adverbe pour exprimer 'aujourd'hui' en lélé."
+    }
+  ]
+}

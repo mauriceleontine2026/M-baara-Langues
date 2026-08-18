@@ -1,0 +1,310 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter couramment de 0 à 100 en swahili standard",
+    "Comprendre la distinction cruciale entre les nombres cardinaux d'origine arabe (invariables) et d'origine bantoue (variables)",
+    "Appliquer les règles d'accord des nombres variables avec les classes nominales",
+    "Exprimer une quantité précise ou poser des questions sur une quantité"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La prononciation des chiffres requiert une grande netteté. Le chiffre 3, 'Tatu', se prononce [ˈta.tu] sans aspirer le 't'. Le chiffre 9, 'Tisa', se prononce [ˈti.sa]. Le digraphe 'sh' dans 'Ishirini' se prononce [ʃ] comme dans le mot français 'chat'. Le 'h' dans 'Hamsini' [ha.mˈsi.ni] doit être distinctement expiré.",
+    "common_pitfalls": "Attention au chiffre 8, 'Nane' [ˈna.nɛ] : veillez à bien prononcer le 'e' final comme un 'é' ou 'è' ouvert, et non comme un 'e' muet à la française. Ne confondez pas non plus 'Sita' (6) et 'Saba' (7) qui partagent une structure rythmique proche."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Nambari",
+      "phonetic_api": "/naˈmba.ri/",
+      "phonetic_simple": "NAHM-BAA-REE",
+      "translation": "Nombre / Chiffre / Numéro",
+      "example_sentence": "Nambari yako ya simu ni nini?",
+      "example_phonetic": "/naˈmba.ri ˈja.kɔ ja ˈsi.mu ni ˈni.ni/",
+      "example_translation": "Quel est ton numéro de téléphone ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "Moja",
+      "phonetic_api": "/ˈmɔ.dʒa/",
+      "phonetic_simple": "MOH-DJAH",
+      "translation": "Un (1) [Racine bantoue variable]",
+      "example_sentence": "Mtoto mmoja analala.",
+      "example_phonetic": "/mˈtɔ.tɔ ˈmmɔ.dʒa a.naˈla.la/",
+      "example_translation": "Un enfant dort."
+    },
+    {
+      "word_id": "v3",
+      "term": "Mbili",
+      "phonetic_api": "/ˈmbi.li/",
+      "phonetic_simple": "MBEE-LEE",
+      "translation": "Deux (2) [Racine bantoue variable]",
+      "example_sentence": "Watoto wawili wanacheza.",
+      "example_phonetic": "/waˈtɔ.tɔ waˈwi.li wa.naˈtʃɛ.za/",
+      "example_translation": "Deux enfants jouent."
+    },
+    {
+      "word_id": "v4",
+      "term": "Tatu",
+      "phonetic_api": "/ˈta.tu/",
+      "phonetic_simple": "TAH-TOO",
+      "translation": "Trois (3) [Racine bantoue variable]",
+      "example_sentence": "Vitabu vitatu viko hapa.",
+      "example_phonetic": "/viˈta.bu viˈta.tu ˈvi.kɔ ˈha.pa/",
+      "example_translation": "Trois livres sont ici."
+    },
+    {
+      "word_id": "v5",
+      "term": "Nne",
+      "phonetic_api": "/ˈnnɛ/",
+      "phonetic_simple": "N-NEH",
+      "translation": "Quatre (4) [Racine bantoue variable]",
+      "example_sentence": "Kalamu nne zimepotea.",
+      "example_phonetic": "/kaˈla.mu ˈnnɛ zi.mɛ.pɔˈtɛ.a/",
+      "example_translation": "Quatre stylos ont été perdus."
+    },
+    {
+      "word_id": "v6",
+      "term": "Tano",
+      "phonetic_api": "/ˈta.nɔ/",
+      "phonetic_simple": "TAH-NOH",
+      "translation": "Cinq (5) [Racine bantoue variable]",
+      "example_sentence": "Nyumba tano zimebaki.",
+      "example_phonetic": "/ˈɲu.mba ˈta.nɔ zi.mɛˈba.ki/",
+      "example_translation": "Cinq maisons sont restées."
+    },
+    {
+      "word_id": "v7",
+      "term": "Sita",
+      "phonetic_api": "/ˈsi.ta/",
+      "phonetic_simple": "SEE-TAH",
+      "translation": "Six (6) [Origine arabe - invariable]",
+      "example_sentence": "Watu sita wamefika.",
+      "example_phonetic": "/ˈwa.tu ˈsi.ta wa.mɛˈfi.ka/",
+      "example_translation": "Six personnes sont arrivées."
+    },
+    {
+      "word_id": "v8",
+      "term": "Saba",
+      "phonetic_api": "/ˈsa.ba/",
+      "phonetic_simple": "SAH-BAH",
+      "translation": "Sept (7) [Origine arabe - invariable]",
+      "example_sentence": "Siku saba za wiki.",
+      "example_phonetic": "/ˈsi.ku ˈsa.ba za ˈwi.ki/",
+      "example_translation": "Sept jours de la semaine."
+    },
+    {
+      "word_id": "v9",
+      "term": "Nane",
+      "phonetic_api": "/ˈna.nɛ/",
+      "phonetic_simple": "NAH-NEH",
+      "translation": "Huit (8) [Racine bantoue variable]",
+      "example_sentence": "Miti nane imekatwa.",
+      "example_phonetic": "/ˈmi.ti ˈna.nɛ i.mɛˈka.twa/",
+      "example_translation": "Huit arbres ont été coupés."
+    },
+    {
+      "word_id": "v10",
+      "term": "Tisa",
+      "phonetic_api": "/ˈti.sa/",
+      "phonetic_simple": "TEE-SAH",
+      "translation": "Neuf (9) [Origine arabe - invariable]",
+      "example_sentence": "Kalamu tisa mpya.",
+      "example_phonetic": "/kaˈla.mu ˈti.sa ˈm-pja/",
+      "example_translation": "Neuf stylos neufs."
+    },
+    {
+      "word_id": "v11",
+      "term": "Kumi",
+      "phonetic_api": "/ˈku.mi/",
+      "phonetic_simple": "KOO-MEE",
+      "translation": "Dix (10) [Invariable en tant que dizaine de base]",
+      "example_sentence": "Shilingi kumi.",
+      "example_phonetic": "/ʃiˈli.ŋgi ˈku.mi/",
+      "example_translation": "Dix shillings."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Hii ni bei gani?",
+      "phonetic_api": "/ˈhi.i ni ˈbɛ.i ˈga.ni/",
+      "phonetic_simple": "HEE-YEE NEE BEH-EE GAH-NEE",
+      "translation": "C'est quel prix ?",
+      "context": "Indispensable pour faire des achats ou demander la valeur de quelque chose."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Ni shilingi ishirini na tano.",
+      "phonetic_api": "/ni ʃiˈli.ŋgi i.ʃiˈri.ni na ˈta.nɔ/",
+      "phonetic_simple": "NEE SHEE-LEEN-GEE EE-SHEE-REE-NEE NAH TAH-NOH",
+      "translation": "C'est vingt-cinq shillings.",
+      "context": "Donner un prix précis au marché ou dans un commerce."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Kuna vitabu vingapi mezani?",
+      "phonetic_api": "/ˈku.na viˈta.bu vi.ŋˈga.pi mɛˈza.ni/",
+      "phonetic_simple": "KOO-NAH VEE-TAH-BOO VEEN-GAH-PEE MEH-ZAH-NEE",
+      "translation": "Combien de livres y a-t-il sur la table ?",
+      "context": "Poser une question de comptage direct sur des objets."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Kuna vitabu vitatu tu.",
+      "phonetic_api": "/ˈku.na viˈta.bu viˈta.tu tu/",
+      "phonetic_simple": "KOO-NAH VEE-TAH-BOO VEE-TAH-TOO TOO",
+      "translation": "Il y a seulement trois livres.",
+      "context": "Réponse de comptage utilisant l'accord de la classe des objets (KI/VI)."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Hesabu kuanzia moja hadi kumi.",
+      "phonetic_api": "/hɛˈsa.bu ku.aˈnzi.a ˈmɔ.dʒa ˈha.di ˈku.mi/",
+      "phonetic_simple": "HEH-SAH-BOO KOO-AHN-ZEE-AH MOH-DJAH HAH-DEE KOO-MEE",
+      "translation": "Compte de un à dix.",
+      "context": "Consigne pédagogique ou exercice pratique d'énumération."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Nina shilingi mia moja mfukoni.",
+      "phonetic_api": "/ni.na ʃiˈli.ŋgi ˈmi.a ˈmɔ.dʒa m.fuˈkɔ.ni/",
+      "phonetic_simple": "NEE-NAH SHEE-LEEN-GEE MEE-AH MOH-DJAH M-FOO-KOH-NEE",
+      "translation": "J'ai cent shillings dans ma poche.",
+      "context": "Indiquer une quantité d'argent détenue."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Nambari ya chumba chako ni ipi?",
+      "phonetic_api": "/naˈmba.ri ja ˈtʃu.mba ˈtʃa.kɔ ni ˈi.pi/",
+      "phonetic_simple": "NAHM-BAA-REE YAH CHOOM-BAH CHAH-KOH NEE EE-PEE",
+      "translation": "Quel es ton numéro de chambre ?",
+      "context": "Contexte d'hôtel, d'hébergement ou d'orientation."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Chumba changu ni nambari arobaini na saba.",
+      "phonetic_api": "/ˈtʃu.mba ˈtʃa.ŋgu ni naˈmba.ri a.rɔ.baˈi.ni na ˈsa.ba/",
+      "phonetic_simple": "CHOOM-BAH CHAHN-GOO NEE NAHM-BAA-REE AH-ROH-BAH-EE-NEE NAH SAH-BAH",
+      "translation": "Ma chambre est le numéro quarante-sept.",
+      "context": "Donner un numéro de chambre ou de logement."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La dualité des nombres swahilis : d'origine bantoue vs d'origine arabe",
+      "explanation": "Les chiffres en swahili se divisent en deux catégories historiques majeures qui modifient radicalement leur comportement grammatical.",
+      "rules": [
+        "Les nombres d'origine bantoue (1, 2, 3, 4, 5, 8) possèdent une racine variable. Ils s'accordent obligatoirement à l'aide d'un préfixe avec la classe nominale du nom qu'ils quantifient.",
+        "Les nombres empruntés à l'arabe (6 = sita, 7 = saba, 9 = tisa, ainsi que toutes les dizaines comme 20 = ishirini, 30 = thelathini, 40 = arobaini, 50 = hamsini, etc.) sont totalement invariables. Ils ne prennent jamais de préfixe d'accord."
+      ],
+      "examples": [
+        {
+          "structure": "Watu (Gens - Cl. 2) + wa- (Accord) + tano (5 - Bantoue) = Watu watano",
+          "phonetic_api": "/ˈwa.tu waˈta.nɔ/",
+          "meaning": "Cinq personnes (Accord obligatoire)"
+        },
+        {
+          "structure": "Watu (Gens - Cl. 2) + sita (6 - Arabe) = Watu sita",
+          "phonetic_api": "/ˈwa.tu ˈsi.ta/",
+          "meaning": "Six personnes (Invariable)"
+        }
+      ]
+    },
+    {
+      "concept": "La construction des dizaines et l'utilisation de la conjonction 'na'",
+      "explanation": "Pour former des nombres complexes intermédiaires (comme 21, 35, 48), le swahili utilise la dizaine de base unie aux unités par la conjonction associative 'na' (qui signifie 'et' / 'avec').",
+      "rules": [
+        "On énonce d'abord la dizaine (ex: 'ishirini' pour 20).",
+        "On ajoute la conjonction 'na'.",
+        "On énonce l'unité. Si l'unité est une racine variable, elle subit l'accord avec le nom quantifié."
+      ],
+      "examples": [
+        {
+          "structure": "Ishirini (20) + na (et) + moja (1) = Ishirini na moja",
+          "phonetic_api": "/i.ʃiˈri.ni na ˈmɔ.dʒa/",
+          "meaning": "Vingt-et-un (21)"
+        },
+        {
+          "structure": "Thelathini (30) + na (et) + nane (8) = Thelathini na nane",
+          "phonetic_api": "/θɛ.la.θiˈni na ˈna.nɛ/",
+          "meaning": "Trente-huit (38)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kazi (Acheteur)",
+      "text": "Habari za mchana, bwana! Kuna mayai mangapi hapa?",
+      "phonetic_api": "/haˈba.ri za mˈtʃa.na ˈbwa.na ˈku.na maˈja.i ma.ŋˈga.pi ˈha.pa/",
+      "phonetic_simple": "HAA-BAA-REE ZAH MCHAH-NAH BWAH-NAH KOO-NAH MAH-YAH-EE MAHN-GAH-PEE HAH-PAH",
+      "translation": "Bon après-midi, monsieur ! Combien d'œufs y a-t-il ici ?"
+    },
+    {
+      "speaker": "Mshonaji (Vendeur)",
+      "text": "Nzuri bwana! Hapa kuna mayai kumi na mawili tu.",
+      "phonetic_api": "/ˈnzu.ri ˈbwa.na ˈha.pa ˈku.na maˈja.i ˈku.mi na maˈwi.li tu/",
+      "phonetic_simple": "NZEE-REE BWAH-NAH HAH-PAH KOO-NAH MAH-YAH-EE KOO-MEE NAH MAH-WEE-LEE TOO",
+      "translation": "Très bien, monsieur ! Ici il y a seulement douze œufs (une dizaine et deux)."
+    },
+    {
+      "speaker": "Kazi (Acheteur)",
+      "text": "Safi. Je, bei yake ni nini kwa yai moja?",
+      "phonetic_api": "/ˈsa.fi dʒɛ ˈbɛ.i ˈja.kɛ ni ˈni.ni kwa ˈja.i ˈmmɔ.dʒa/",
+      "phonetic_simple": "SAH-FEE JEH BEH-EE YAH-KEH NEE NEE-NEE KWAH YAH-EE MMOH-DJAH",
+      "translation": "Super. Quel est le prix pour un seul œuf ?"
+    },
+    {
+      "speaker": "Mshonaji (Vendeur)",
+      "text": "Yai moja ni shilingi arobaini. Kwa mayai yote kumi na mawili ni shilingi mia nne na themanini.",
+      "phonetic_api": "/ˈja.i ˈmmɔ.dʒa ni ʃiˈli.ŋgi a.rɔ.baˈi.ni kwa maˈja.i ˈjɔ.tɛ ˈku.mi na maˈwi.li ni ʃiˈli.ŋgi ˈmi.a ˈnnɛ na θɛ.ma.niˈni/",
+      "phonetic_simple": "YAH-EE MMOH-DJAH NEE SHEE-LEEN-GEE AH-ROH-BAH-EE-NEE KWAH MAH-YAH-EE YOH-TEH KOO-MEE NAH MAH-WEE-LEE NEE SHEE-LEEN-GEE MEE-AH N-NEH NAH THEH-MAH-NEE-NEE",
+      "translation": "Un œuf fait quarante shillings. Pour les douze œufs, ça fait quatre cent quatre-vingt shillings."
+    },
+    {
+      "speaker": "Kazi (Acheteur)",
+      "text": "Haya, asante sana. Chukua pesa hizi, shilingi mia tano.",
+      "phonetic_api": "/ˈha.ja aˈsa.ntɛ ˈsa.na tʃuˈku.a ˈpɛ.sa ˈhi.zi ʃiˈli.ŋgi ˈmi.a ˈta.nɔ/",
+      "phonetic_simple": "HAH-YAH AH-SAHN-TEH SAH-NAH CHOO-KOO-AH PEH-SAH HEE-ZEE SHEE-LEEN-GEE MEE-AH TAH-NOH",
+      "translation": "D'accord, merci beaucoup. Prends cet argent, cinq cents shillings."
+    },
+    {
+      "speaker": "Mshonaji (Vendeur)",
+      "text": "Asante. Hapa kuna chenji yako, shilingi ishirini. Karibu tena!",
+      "phonetic_api": "/aˈsa.ntɛ ˈha.pa ˈku.na ˈtʃɛ.ndʒi ˈja.kɔ ʃiˈli.ŋgi i.ʃiˈri.ni kaˈri.bu ˈtɛ.na/",
+      "phonetic_simple": "AH-SAHN-TEH HAH-PAH KOO-NAH CHEN-DJEE YAH-KOH SHEE-LEEN-GEE EE-SHEE-REE-NEE KAH-REE-BOO TEH-NAH",
+      "translation": "Merci. Voici ta monnaie, vingt shillings. Sois de nouveau le bienvenu !"
+    }
+  ],
+  "cultural_notes": [
+    "Les transactions financières et le comptage au marché sont des lieux d'échange social intenses en Afrique de l'Est. Connaître les nombres en swahili empêche d'être systématiquement catégorisé comme un simple touriste et permet d'initier une négociation équitable.",
+    "La monnaie mentionnée ('Shilingi') est l'unité monétaire officielle en Tanzanie (TZS), au Kenya (KES), en Ouganda (UGX) et en Somalie (SOS). Les valeurs faciales grimpent vite, d'où la nécessité absolue de maîtriser les centaines ('mia') et les milliers ('elfu').",
+    "Pour compter sur leurs doigts, de nombreux locuteurs swahilis commencent par l'auriculaire de la main gauche pour le chiffre un, fermant progressivement le poing jusqu'à cinq, avant de continuer sur l'autre main."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on le nombre 56 en swahili standard ?",
+      "options": [
+        "Hamsini na sita",
+        "Thelathini na tano",
+        "Ishirini na saba",
+        "Sita na hamsini"
+      ],
+      "correct_answer": "Hamsini na sita",
+      "explanation": "'Hamsini' signifie 50 et 'sita' signifie 6. La conjonction 'na' fait l'union : 50 et 6 = 56."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Kalamu [ ___ ] (Indiquez le chiffre 3 correctement accordé avec le mot 'Kalamu' qui appartient à la classe invariable N au pluriel).",
+      "correct_answer": "tatu",
+      "hint": "Pour la classe N au pluriel, la racine '-tatu' ne prend aucun préfixe supplémentaire complexe, elle s'écrit comme sa forme de base autonome."
+    }
+  ]
+}

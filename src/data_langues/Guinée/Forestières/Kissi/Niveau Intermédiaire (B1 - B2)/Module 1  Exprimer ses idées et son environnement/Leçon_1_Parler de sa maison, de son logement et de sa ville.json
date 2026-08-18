@@ -1,0 +1,132 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Niveau Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire sa maison et les pièces principales",
+    "Parler de sa ville ou de son quartier de résidence",
+    "Utiliser les expressions de localisation intermédiaire"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La structure complexe du terme 'cando' (case / maison) utilise une consonne affriquée sourde /tʃ/ combinée à une pré-nasale dentale /ⁿd/.",
+    "common_pitfalls": "Ne pas prononcer 'cando' comme 'sando'. Le départ doit être vigoureusement projeté comme le 'tch' du mot français 'tchad'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v10_1",
+      "term": "cando",
+      "phonetic_api": "/tʃa.ⁿdo/",
+      "phonetic_simple": "TCHAN-DO",
+      "translation": "case / habitation / maison",
+      "example_sentence": "Cando nio o co kounda wa.",
+      "example_phonetic": "/tʃa.ⁿdo njo o tʃo kuːⁿda wa/",
+      "example_translation": "Ma maison se trouve dans ce quartier."
+    },
+    {
+      "word_id": "v10_2",
+      "term": "kounda",
+      "phonetic_api": "/kuːⁿda/",
+      "phonetic_simple": "KOUN-DA",
+      "translation": "quartier / concession / secteur",
+      "example_sentence": "Kounda bɛndɛ o co wa.",
+      "example_phonetic": "/kuːⁿda bɛⁿdɛ o tʃo wa/",
+      "example_translation": "C'est un grand quartier."
+    },
+    {
+      "word_id": "v10_3",
+      "term": "lebol",
+      "phonetic_api": "/le.bol/",
+      "phonetic_simple": "LÉ-BOL",
+      "translation": "ville / grand village",
+      "example_sentence": "Lebol nio o co Guéckédou.",
+      "example_phonetic": "/le.bol njo o tʃo g͡bɛ.ke.du/",
+      "example_translation": "Ma ville est Guéckédou."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p10_1",
+      "original": "Cando nio o co nyalɛ fiaa.",
+      "phonetic_api": "/tʃa.ⁿdo njo o tʃo ɲa.lɛ fjaː/",
+      "phonetic_simple": "TCHAN-DO NYO O TCHO NYA-LÈ FIA-A",
+      "translation": "Ma maison est très belle.",
+      "context": "Décrire son environnement"
+    },
+    {
+      "phrase_id": "p10_2",
+      "original": "Kounda yɛŋ o lo wa ?",
+      "phonetic_api": "/kuːⁿda jɛŋ o lo wa/",
+      "phonetic_simple": "KOUN-DA YENG O LO WA",
+      "translation": "Dans quel quartier habites-tu ?",
+      "context": "S'informer sur le logement"
+    },
+    {
+      "phrase_id": "p10_3",
+      "original": "I lo lebol bɛndɛ ning.",
+      "phonetic_api": "/i lo le.bol bɛⁿdɛ niŋ/",
+      "phonetic_simple": "I LO LÉ-BOL BEN-DE NING",
+      "translation": "J'habite dans une grande ville.",
+      "context": "Parler de sa situation urbaine"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le locatif d'inclusion 'ning' (dans / à l'intérieur)",
+      "explanation": "Pour spécifier qu'un sujet se situe physiquement à l'intérieur d'un espace fermé (maison, ville, pays), le morphème postpositionnel 'ning' se place directement en clôture du syntagme nominal.",
+      "rules": [
+        "Le nom de l'espace arrive en premier.",
+        "La postposition 'ning' termine directement la précision géographique."
+      ],
+      "examples": [
+        {
+          "structure": "Nom d'espace + ning",
+          "phonetic_api": "/le.bol niŋ/",
+          "meaning": "Dans la ville"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Saa",
+      "text": "Tamba, cando noo o co vɛ ?",
+      "phonetic_api": "/ta.ᵐba tʃa.ⁿdo noː o tʃo vɛ/",
+      "phonetic_simple": "TAM-BA, TCHAN-DO NOO O TCHO VÈ",
+      "translation": "Tamba, où se trouve ta maison ?"
+    },
+    {
+      "speaker": "Tamba",
+      "text": "Cando nio o co kounda pilɔ ning.",
+      "phonetic_api": "/tʃa.ⁿdo njo o tʃo kuːⁿda pi.lɔ niŋ/",
+      "phonetic_simple": "TCHAN-DO NYO O TCHO KOUN-DA PI-LO NING",
+      "translation": "Ma maison se trouve à l'intérieur du premier quartier."
+    }
+  ],
+  "cultural_notes": [
+    "L'organisation sociale de l'habitat chez les Kissi repose traditionnellement sur la concession familiale élargie. Plusieurs structures encerclent une cour centrale où s'organise l'essentiel de la vie communautaire et des palabres villageoises."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex10_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot postposé 'ning' ?",
+      "options": [
+        "Sur",
+        "Dans / À l'intérieur",
+        "Derrière"
+      ],
+      "correct_answer": "Dans / À l'intérieur",
+      "explanation": "'ning' exprime l'inclusion physique au sein d'un contenant ou d'un lieu."
+    },
+    {
+      "exercise_id": "ex10_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] nio o co wa. (Ma maison est ici)",
+      "correct_answer": "Cando",
+      "hint": "Mot désignant l'habitation ou la case traditionnelle"
+    }
+  ]
+}

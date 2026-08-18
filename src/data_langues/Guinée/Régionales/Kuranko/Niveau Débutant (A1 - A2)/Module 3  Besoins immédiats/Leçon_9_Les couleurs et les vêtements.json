@@ -1,0 +1,143 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Nommer les couleurs fondamentales en kuranko",
+    "Identifier les pièces de vêtements courantes",
+    "Décrire un vêtement simple par sa couleur"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'f' s'articule sans tension. Le digramme 'gb' s'articule comme une seule consonne occlusive sans coupure. La voyelle ouverte 'ɛ' dans 'gbe' doit être nette.",
+    "common_pitfalls": "Veillez à ne pas prononcer le 'g' séparément du 'b' dans le mot 'gbe'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_m3_l9",
+      "term": "Gbe",
+      "phonetic_api": "/g͡be/",
+      "phonetic_simple": "GBE",
+      "translation": "Blanc",
+      "example_sentence": "Kura gbe",
+      "example_phonetic": "/ku.ra g͡be/",
+      "example_translation": "Un vêtement blanc"
+    },
+    {
+      "word_id": "v2_m3_l9",
+      "term": "Fin",
+      "phonetic_api": "/fin/",
+      "phonetic_simple": "FIN",
+      "translation": "Noir",
+      "example_sentence": "Wulu fin",
+      "example_phonetic": "/wu.lu fin/",
+      "example_translation": "Un chien noir"
+    },
+    {
+      "word_id": "v3_m3_l9",
+      "term": "Wulen",
+      "phonetic_api": "/wu.len/",
+      "phonetic_simple": "WOU-LEN",
+      "translation": "Rouge",
+      "example_sentence": "Malo wulen",
+      "example_phonetic": "/ma.lo wu.len/",
+      "example_translation": "Du riz rouge"
+    },
+    {
+      "word_id": "v4_m3_l9",
+      "term": "Kura",
+      "phonetic_api": "/ku.ra/",
+      "phonetic_simple": "KOU-RA",
+      "translation": "Vêtement / Habit / Pagne",
+      "example_sentence": "Kura san",
+      "example_phonetic": "/ku.ra san/",
+      "example_translation": "Acheter un vêtement"
+    },
+    {
+      "word_id": "v5_m3_l9",
+      "term": "Donki",
+      "phonetic_api": "/don.ki/",
+      "phonetic_simple": "DON-KI",
+      "translation": "Boubou / Chemise",
+      "example_sentence": "Donki fin",
+      "example_phonetic": "/don.ki fin/",
+      "example_translation": "Un boubou noir"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_m3_l9",
+      "original": "Kura gbe bɛ n fɛ",
+      "phonetic_api": "/ku.ra g͡be bɛ ɱ͡fɛ/",
+      "phonetic_simple": "KOU-RA GBE BƐ N FƐ",
+      "translation": "Je veux le vêtement blanc",
+      "context": "Choisir un tissu ou un habit chez un marchand."
+    },
+    {
+      "phrase_id": "p2_m3_l9",
+      "original": "A jili bɛ ni kura ri ?",
+      "phonetic_api": "/a d͡ʒi.li bɛ ni ku.ra ri/",
+      "phonetic_simple": "A DJI-LI BƐ NI KOU-RA RI ?",
+      "translation": "Combien coûte ce vêtement ?",
+      "context": "Demander le prix au marché."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La place de l'adjectif de couleur",
+      "explanation": "En kuranko, les qualificatifs et adjectifs de couleur se placent directement après le nom qu'ils qualifient.",
+      "rules": [
+        "Structure : Nom + Couleur"
+      ],
+      "examples": [
+        {
+          "structure": "Donki wulen",
+          "phonetic_api": "/don.ki wu.len/",
+          "meaning": "Un boubou rouge"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Saliou",
+      "text": "I ni wale ! I fɛ donki jili fɛ ?",
+      "phonetic_api": "/i ni wa.le i fɛ don.ki d͡ʒi.li fɛ/",
+      "phonetic_simple": "I NI WA-LE ! I FƐ DON-KI DJI-LI FƐ ?",
+      "translation": "Bonjour ! Quel boubou veux-tu ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "N bɛ donki gbe fɛ. A jili ?",
+      "phonetic_api": "/ɱ͡bɛ don.ki g͡be fɛ a d͡ʒi.li/",
+      "phonetic_simple": "N BƐ DON-KI GBE FƐ. A DJI-LI ?",
+      "translation": "Je veux le boubou blanc. Quel est son prix ?"
+    }
+  ],
+  "cultural_notes": [
+    "Les couleurs traditionnelles portent des symboliques fortes en Guinée. Le blanc ('gbe') évoque la pureté, la paix et la bénédiction, souvent arboré lors des cérémonies de mariage ou des prières du vendredi."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_m3_l9",
+      "type": "multiple_choice",
+      "question": "Que signifie 'Donki fin' ?",
+      "options": [
+        "Un boubou blanc",
+        "Un boubou noir",
+        "Un boubou rouge"
+      ],
+      "correct_answer": "Un boubou noir",
+      "explanation": "'Donki' signifie boubou et 'fin' signifie noir."
+    },
+    {
+      "exercise_id": "ex2_m3_l9",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire rouge en kuranko, on utilise le terme [ ___ ].",
+      "correct_answer": "wulen",
+      "hint": "Couleur du sang"
+    }
+  ]
+}

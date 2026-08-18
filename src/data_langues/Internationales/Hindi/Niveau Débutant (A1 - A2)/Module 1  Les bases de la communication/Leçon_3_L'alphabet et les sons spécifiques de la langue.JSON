@@ -1,0 +1,232 @@
+{
+  "lesson_id": "A1_M1_L3_ENRICHED",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet complet (Devanagari) et l'art de la prononciation",
+  "learning_objectives": [
+    "Maîtriser l'intégralité du système phonétique de la Devanagari (11 voyelles et 33 consonnes de base)",
+    "Distinguer l'articulation méthodique par séries (vélaires, palatales, rétroflexes, dentales, labiales)",
+    "Comprendre l'application des signes diacritiques (Matras, Anusvara, Visarga, Nuqta) et des ligatures"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La Devanagari est une écriture abugida entièrement scientifique, classée selon les points de contact de la bouche. Les sons 'rétroflexes' (ट, ठ, ड, ढ, ण) se font en bombant le bout de la langue contre le palais dur. Les sons 'dentaires' (त, थ, द, ध, न) touchent l'arrière des dents supérieures. L'aspiration (représentée par un 'h' ou /ʰ/) est un flot d'air vigoureux expulsé simultanément avec la consonne.",
+    "common_pitfalls": "Le piège principal pour un francophone est de prononcer les dentales indiennes (त, द) comme des 't' et 'd' français. Les versions françaises sont en réalité semi-alvéolaires. Pour un son indien authentique, la langue doit être beaucoup plus plate et avancée contre les incisives. De plus, omettre l'aspiration (ex: prononcer 'खाना' / kʰaːnaː / comme 'काना' / kaːnaː /) transforme complètement le sens du mot ('manger' devient 'borgne')."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v_vow_1",
+      "term": "अ (a)",
+      "phonetic_api": "/ə/",
+      "phonetic_simple": "A (bref, comme le 'e' de 'cheval')",
+      "translation": "Voyelle brève inhérente",
+      "example_sentence": "अमूर (Amūr)",
+      "example_phonetic": "/əmuːr/",
+      "example_translation": "Inaltérable"
+    },
+    {
+      "word_id": "v_vow_2",
+      "term": "आ (ā)",
+      "phonetic_api": "/aː/",
+      "phonetic_simple": "AA (long, ouvert)",
+      "translation": "Voyelle longue",
+      "example_sentence": "आज (Āj)",
+      "example_phonetic": "/aːdʒ/",
+      "example_translation": "Aujourd'hui"
+    },
+    {
+      "word_id": "v_vow_3",
+      "term": "इ (i)",
+      "phonetic_api": "/ɪ/",
+      "phonetic_simple": "I (bref et tonique)",
+      "translation": "Voyelle brève",
+      "example_sentence": "इधर (Idhar)",
+      "example_phonetic": "/ɪd̪ʱəɾ/",
+      "example_translation": "Par ici"
+    },
+    {
+      "word_id": "v_vow_4",
+      "term": "ई (ī)",
+      "phonetic_api": "/iː/",
+      "phonetic_simple": "II (long et étiré)",
+      "translation": "Voyelle longue",
+      "example_sentence": "ईश्वर (Īśvar)",
+      "example_phonetic": "/iːʃʋəɾ/",
+      "example_translation": "Dieu / Seigneur"
+    },
+    {
+      "word_id": "v_vow_5",
+      "term": "उ (u)",
+      "phonetic_api": "/ʊ/",
+      "phonetic_simple": "OU (bref)",
+      "translation": "Voyelle brève",
+      "example_sentence": "उजाला (Ujālā)",
+      "example_phonetic": "/ʊdʒaːlaː/",
+      "example_translation": "Lumière"
+    },
+    {
+      "word_id": "v_vow_6",
+      "term": "ऊ (ū)",
+      "phonetic_api": "/uː/",
+      "phonetic_simple": "OUU (long)",
+      "translation": "Voyelle longue",
+      "example_sentence": "ऊपर (Ūpar)",
+      "example_phonetic": "/uːpəɾ/",
+      "example_translation": "Au-dessus / En haut"
+    },
+    {
+      "word_id": "v_vow_7",
+      "term": "ऋ (ṛ)",
+      "phonetic_api": "/ɾɪ/",
+      "phonetic_simple": "RI (vocalique)",
+      "translation": "Voyelle d'origine sanskrite",
+      "example_sentence": "ऋषि (Ṛṣi)",
+      "example_phonetic": "/ɾɪʃɪ/",
+      "example_translation": "Sage / Ermite"
+    },
+    {
+      "word_id": "v_vow_8",
+      "term": "ए (e)",
+      "phonetic_api": "/eː/",
+      "phonetic_simple": "É (long et pur, jamais diphtongué)",
+      "translation": "Voyelle longue",
+      "example_sentence": "एक (Ek)",
+      "example_phonetic": "/eːk/",
+      "example_translation": "Un (chiffre 1)"
+    },
+    {
+      "word_id": "v_vow_9",
+      "term": "ऐ (ai)",
+      "phonetic_api": "/ɛː/",
+      "phonetic_simple": "È / AI (ouvert)",
+      "translation": "Voyelle longue",
+      "example_sentence": "ऐनक (Ainak)",
+      "example_phonetic": "/ɛːnək/",
+      "example_translation": "Lunettes"
+    },
+    {
+      "word_id": "v_vow_10",
+      "term": "ओ (o)",
+      "phonetic_api": "/oː/",
+      "phonetic_simple": "O (long, fermé et pur)",
+      "translation": "Voyelle longue",
+      "example_sentence": "ओस (Os)",
+      "example_phonetic": "/oːs/",
+      "example_translation": "Rosée"
+    },
+    {
+      "word_id": "v_vow_11",
+      "term": "औ (au)",
+      "phonetic_api": "/ɔː/",
+      "phonetic_simple": "O (très ouvert, comme dans 'fort')",
+      "translation": "Voyelle longue",
+      "example_sentence": "औरत (Aurat)",
+      "example_phonetic": "/ɔːɾət̪/",
+      "example_translation": "Femme"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "वर्णमाला में कितने अक्षर होते हैं?",
+      "phonetic_api": "/ʋəɾɳmaːlaː mẽː kɪt̪neː əkʃəɾ ɦoːt̪eː ɦɛ̃ː/",
+      "phonetic_simple": "VARN-MAA-LAA MEIN KIT-NÉ AK-CHAR HO-TÉ HAIN",
+      "translation": "Combien de lettres y a-t-il dans l'alphabet ?",
+      "context": "Question académique ou d'apprentissage."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "कृपया नुक्ते वाली ध्वनियों पर ध्यान दें।",
+      "phonetic_api": "/kɾɪpəjaː nʊkt̪eː ʋaːliː d̪ʱʋənɪjõː pəɾ d̪ʱjaːn d̪ẽː/",
+      "phonetic_simple": "KRIP-YAA NOUK-TÉ VAA-LII DHVA-NI-YON PAR DHYAAN DEN",
+      "translation": "S'il vous plaît, faites attention aux sons avec un point inférieur (Nuqta).",
+      "context": "Consigne pédagogique du professeur pour éviter les fautes d'accentuation."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'organisation scientifique des 33 consonnes de base",
+      "explanation": "Les consonnes sont classées horizontalement par point d'articulation (de l'arrière de la gorge vers les lèvres) et verticalement selon leur sonorité (sourde vs sonore) et leur niveau d'aspiration (non-aspirée vs aspirée).",
+      "rules": [
+        "Série 1 (Vélaires - fond de la gorge) : क (ka /k/), ख (kha /kʰ/), ग (ga /ɡ/), घ (gha /ɡʱ/), ङ (ṅa /ŋ/)",
+        "Série 2 (Palatales - langue contre le palais) : च (ca /tʃ/), छ (cha /tʃʰ/), ज (ja /dʒ/), झ (jha /dʒʱ/), ञ (ña /ɲ/)",
+        "Série 3 (Rétroflexes - langue retournée) : ट (ṭa /ʈ/), ठ (ṭha /ʈʰ/), ड (ḍa /ɖ/), ढ (ḍha /ɖʱ/), ण (ṇa /ɳ/)",
+        "Série 4 (Dentales - langue contre les dents) : त (ta /t/), थ (tha /tʰ/), द (da /d/), ध (dha /dʱ/), न (na /n/)",
+        "Série 5 (Labiales - fermeture des lèvres) : प (pa /p/), फ (pha /pʰ/), ब (ba /b/), भ (bha /bʱ/), म (ma /m/)",
+        "Semi-voyelles & Liquides : य (ya /j/), र (ra /r/), ल (la /l/), व (va/wa /ʋ/)",
+        "Fricatives & Aspirée : श (śa /ʃ/), ष (ṣa /ʃ/ rétroflexe), स (sa /s/), ह (ha /ɦ/)"
+      ],
+      "examples": [
+        {
+          "structure": "कमाल (Kamāl) vs ख़राब (Kharāb)",
+          "phonetic_api": "/kəmaːl/ - /xəraːb/",
+          "meaning": "Merveilleux / Abîmé (Notez le point Nuqta changeant /k/ en fricative /x/)"
+        }
+      ]
+    },
+    {
+      "concept": "Les modificateurs phonétiques fondamentaux",
+      "explanation": "En dehors des lettres de base, quatre signes cruciaux modifient l'émission de la voix à l'écrit comme à l'oral.",
+      "rules": [
+        "1. Anusvara (ं) : Un point au-dessus de la ligne qui nasalise la voyelle porteuse (ex: हिंदी /ɦɪnd̪iː/).",
+        "2. Chandrabindu (ँ) : Une demi-lune avec un point, indiquant une nasalisation vocalique pure et ouverte (ex: हूँ /ɦũː/).",
+        "3. Visarga (ः) : Deux points verticaux en fin de mot provoquant un léger écho soufflé sourd après la voyelle (ex: दुःख /d̪ʊkʰ/).",
+        "4. Nuqta (़) : Un point placé sous certaines consonnes pour transcrire les sons d'emprunts persans ou arabes : क़ /q/, ख़ /x/, ग़ /ɣ/, ज़ /z/, फ़ /f/, ainsi que les battues rétroflexes ड़ /ɽ/ et ढ़ /ɽʱ/."
+      ],
+      "examples": [
+        {
+          "structure": "साँप (Sāñp)",
+          "phonetic_api": "/saːp̃/",
+          "meaning": "Serpent (Nasalisation par Chandrabindu)"
+        },
+        {
+          "structure": "साफ़ (Sāf)",
+          "phonetic_api": "/saːf/",
+          "meaning": "Propre / Net (Son modifié par le Nuqta sous la lettre Pa)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "रोहन (Rohan)",
+      "text": "क्या हिंदी वर्णमाला को याद करना कठिन है?",
+      "phonetic_api": "/kjaː ɦɪnd̪iː ʋəɾɳmaːlaː koː jaːd̪ kəɾnaː kəʈʰɪn ɦɛː/",
+      "phonetic_simple": "KYAA HIN-DII VARN-MAA-LAA KO YAAD KAR-NAA KATH-IN HÉ",
+      "translation": "Est-ce difficile de mémoriser l'alphabet hindi ?"
+    },
+    {
+      "speaker": "अंजली (Anjali)",
+      "text": "नहीं, यह बहुत तार्किक है। स्वर पहले आते हैं और फिर सारे व्यंजन श्रेणी में बटे हैं।",
+      "phonetic_api": "/nəɦĩː jəɦ bəɦʊt̪ t̪aːɾkɪk ɦɛː sʋəɾ pəɦleː aːt̪eː ɦɛ̃ː ɔːɾ pʰɪɾ saːreː ʋjəndʒən ʃɾeːɳiː mẽː bəʈeː ɦɛ̃ː/",
+      "phonetic_simple": "NA-HIN, YAH BAHOUT TAAR-KIK HÉ. SVAR PAH-LÉ AA-TÉ HAIN OR PHIR SAA-RÉ VYAN-DJAN CHRÉ-NII MEIN BA-TÉ HAIN",
+      "translation": "Non, c'est très logique. Les voyelles viennent en premier, et ensuite toutes les consonnes sont divisées par catégories."
+    }
+  ],
+  "cultural_notes": [
+    "La classification de la Devanagari est tellement parfaite sur le plan anatomique qu'elle a grandement inspiré les linguistes modernes pour la création de l'Alphabet Phonétique International (API).",
+    "Chaque son possède un et un seul symbole unique. Contrairement au français, il n'existe pas de lettres muettes : tout ce qui s'écrit se prononce, et tout ce qui se prononce s'écrit."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle série regroupe les consonnes dites 'rétroflexes' où la langue doit se retourner vers le haut du palais ?",
+      "options": [
+        "त, थ, द, ध, न",
+        "ट, ठ, ड, ढ, ण",
+        "प, फ, ब, bh, म"
+      ],
+      "correct_answer": "ट, ठ, ड, ढ, ण",
+      "explanation": "La série du 'Ṭa' (ट) implique une flexion de la pointe de la langue vers l'arrière du palais dur."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "बिंदु (Anusvara) का प्रयोग वर्ण के [ ___ ] किया जाता है।",
+      "correct_answer": "ऊपर",
+      "hint": "Signifie 'au-dessus' ou 'sur la partie supérieure' (ūpar)"
+    }
+  ]
+}

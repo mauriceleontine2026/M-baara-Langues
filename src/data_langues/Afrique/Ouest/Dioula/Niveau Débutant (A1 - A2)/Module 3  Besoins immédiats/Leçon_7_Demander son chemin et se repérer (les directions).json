@@ -1,0 +1,300 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Formuler des questions claires pour s'enquérir d'un itinéraire ou d'un lieu",
+    "Comprendre et appliquer les indicateurs de direction de base (gauche, droite, tout droit)",
+    "Utiliser les postpositions spatiales pour situer un bâtiment ou un repère",
+    "Identifier les principaux repères topographiques et urbains usuels"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La structure locative 'yɔrɔ' (le lieu/l'endroit) se réalise avec deux voyelles ouvertes postérieures /jɔ.rɔ/. Le terme pour la droite, 'kinin', exige l'articulation de deux voyelles fermées /i/. Le terme pour la gauche, 'numan', présente une voyelle fermée /u/ suivie d'une nasale ouverte. Le verbe 'taga' (aller) utilise des voyelles brèves /ta.ɡa/.",
+    "common_pitfalls": "Attention à ne pas assimiler le 'g' de 'taga' à un 'j' ou un 'ch'. Prononcez-le bien dur /ɡ/. Veillez à respecter l'allongement de la postposition 'fɛ' (du côté de / par) pour la distinguer du verbe 'fɛ' (vouloir) selon la hauteur tonale."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Sira",
+      "phonetic_api": "/si.ra/",
+      "phonetic_simple": "SI-RA",
+      "translation": "Le chemin / La route / La rue",
+      "example_sentence": "Sira nin bɛ taga Wagadugu la ?",
+      "example_phonetic": "/si.ra nin bɛ ta.ɡa wa.ɡa.du.ɡu la/",
+      "example_translation": "Est-ce que cette route mène à Ouagadougou ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "Yɔrɔ",
+      "phonetic_api": "/jɔ.rɔ/",
+      "phonetic_simple": "YÕ-RÕ",
+      "translation": "Le lieu / L'endroit / La place",
+      "example_sentence": "Yɔrɔ nin ka janjan ?",
+      "example_phonetic": "/jɔ.rɔ nin ka d͡ʒan.d͡ʒan/",
+      "example_translation": "Est-ce que cet endroit est éloigné ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "Kinin",
+      "phonetic_api": "/ki.nin/",
+      "phonetic_simple": "KI-NIN",
+      "translation": "La droite / Le côté droit",
+      "example_sentence": "Taga i kinin fɛ",
+      "example_phonetic": "/ta.ɡa i ki.nin fɛ/",
+      "example_translation": "Va vers ta droite / Tourne à droite."
+    },
+    {
+      "word_id": "v4",
+      "term": "Numan",
+      "phonetic_api": "/nu.man/",
+      "phonetic_simple": "NOU-MAN",
+      "translation": "La gauche / Le côté gauche",
+      "example_sentence": "Sugu bɛ i numan fɛ",
+      "example_phonetic": "/su.ɡu bɛ i nu.man fɛ/",
+      "example_translation": "Le marché se trouve sur ta gauche."
+    },
+    {
+      "word_id": "v5",
+      "term": "Sugu",
+      "phonetic_api": "/su.ɡu/",
+      "phonetic_simple": "SOU-GOU",
+      "translation": "Le marché",
+      "example_sentence": "N bɛ taga sugu la sisan",
+      "example_phonetic": "/n̩ bɛ ta.ɡa su.ɡu la si.san/",
+      "example_translation": "Je vais au marché maintenant."
+    },
+    {
+      "word_id": "v6",
+      "term": "Lopitali",
+      "phonetic_api": "/lo.pi.ta.li/",
+      "phonetic_simple": "LO-PI-TA-LI",
+      "translation": "L'hôpital (emprunt)",
+      "example_sentence": "Lopitali bɛ fan juman ?",
+      "example_phonetic": "/lo.pi.ta.li bɛ fan d͡ʒu.man/",
+      "example_translation": "Où se trouve l'hôpital ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "Ɲɛfɛ",
+      "phonetic_api": "/ɲɛ.fɛ/",
+      "phonetic_simple": "GNIÈ-FÈ",
+      "translation": "Devant / En avant",
+      "example_sentence": "Taga tɛlɛn ɲɛfɛ",
+      "example_phonetic": "/ta.ɡa tɛ.lɛn ɲɛ.fɛ/",
+      "example_translation": "Va tout droit devant toi."
+    },
+    {
+      "word_id": "v8",
+      "term": "Kɔfɛ",
+      "phonetic_api": "/kɔ.fɛ/",
+      "phonetic_simple": "KÕ-FÈ",
+      "translation": "Derrière / En arrière",
+      "example_sentence": "So bɛ jiri kɔfɛ",
+      "example_phonetic": "/so bɛ d͡ʒi.ri kɔ.fɛ/",
+      "example_translation": "La maison est derrière l'arbre."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Sugu bɛ fan juman ?",
+      "phonetic_api": "/su.ɡu bɛ fan d͡ʒu.man/",
+      "phonetic_simple": "SOU-GOU BÈ FAN DJOU-MAN ?",
+      "translation": "De quel côté se trouve le marché ? / Où est le marché ?",
+      "context": "Question directe indispensable pour chercher son chemin."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Taga tɛlɛn ɲɛfɛ !",
+      "phonetic_api": "/ta.ɡa tɛ.lɛn ɲɛ.fɛ/",
+      "phonetic_simple": "TA-GA TÈ-LÈN GNIÈ-FÈ !",
+      "translation": "Va tout droit devant toi !",
+      "context": "Indication d'itinéraire standard."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "I ni ce, sira bɛ fan juman ?",
+      "phonetic_api": "/i ni t͡ʃe si.ra bɛ fan d͡ʒu.man/",
+      "phonetic_simple": "I NI TCHE, SI-RA BÈ FAN DJOU-MAN ?",
+      "translation": "Bonjour, par où passe le chemin ?",
+      "context": "Aborder poliment quelqu'un pour s'orienter."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "A ka janjan ni yan ye ?",
+      "phonetic_api": "/a ka d͡ʒan.d͡ʒan ni jan jɛ/",
+      "phonetic_simple": "A KA DJAN-DJAN NI YAN YÈ ?",
+      "translation": "Est-ce que c'est loin d'ici ?",
+      "context": "Évaluer la distance d'un trajet à pied."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "A ka surun, a mɛnna tɛ.",
+      "phonetic_api": "/a ka su.run a mɛn.na tɛ/",
+      "phonetic_simple": "A KA SOU-ROUN, A MÈN-NA TÈ",
+      "translation": "C'est proche, ce n'est pas long (en temps).",
+      "context": "Rassurer quelqu'un sur la proximité d'un lieu."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Yɛlɛma i kinin fɛ.",
+      "phonetic_api": "/jɛ.lɛ.ma i ki.nin fɛ/",
+      "phonetic_simple": "YÈ-LÈ-MA I KI-NIN FÈ",
+      "translation": "Tourne vers ta droite.",
+      "context": "Indiquer un changement de direction à une intersection."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "N bɛ sira tunu la sisan.",
+      "phonetic_api": "/n̩ bɛ si.ra tu.nu la si.san/",
+      "phonetic_simple": "N BÈ SI-RA TOU-NOU LA SI-SAN",
+      "translation": "Je suis égaré / J'ai perdu mon chemin maintenant.",
+      "context": "Exprimer sa détresse d'orientation pour demander de l'aide."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "So bɛ banki gari gbɛrɛ.",
+      "phonetic_api": "/so bɛ ban.ki ɡa.ri ɡbɛ.rɛ/",
+      "phonetic_simple": "SO BÈ BAN-KI GA-RI GBÈ-RÈ",
+      "translation": "La maison est juste à côté de la banque.",
+      "context": "Donner un repère spatial précis."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'interrogation locative avec 'fan juman'",
+      "explanation": "Pour demander le lieu ou l'orientation en dioula, on n'utilise pas un adverbe simple comme 'où'. On utilise le syntagme nominal composé de 'fan' (côté/direction) et de l'interrogatif 'juman' (quel).",
+      "rules": [
+        "La structure nominale se place après le sujet et le connecteur 'bɛ'.",
+        "Elle signifie littéralement : 'Le sujet est dans quel côté ?'"
+      ],
+      "examples": [
+        {
+          "structure": "Lopitali (hôpital) + bɛ (est) + fan juman (quel côté) ?",
+          "phonetic_api": "/lo.pi.ta.li bɛ fan d͡ʒu.man/",
+          "meaning": "Où se trouve l'hôpital ?"
+        }
+      ]
+    },
+    {
+      "concept": "Les postpositions spatiales et directeurs 'fɛ'",
+      "explanation": "Pour indiquer la direction ou la situation dans l'espace (droite, gauche, devant, derrière), le dioula utilise des postpositions placées directement après le substantif de repère.",
+      "rules": [
+        "L'élément de repère se place en premier (ex: kinin, numan, ɲɛ, kɔ).",
+        "Le morphème de direction 'fɛ' (par/du côté de) vient clore le syntagme directionnel."
+      ],
+      "examples": [
+        {
+          "structure": "I numan (ta gauche) + fɛ (par/du côté)",
+          "phonetic_api": "/i nu.man fɛ/",
+          "meaning": "Vers ta gauche / À gauche."
+        },
+        {
+          "structure": "Jiri (arbre) + kɔfɛ (derrière)",
+          "phonetic_api": "/d͡ʒi.ri kɔ.fɛ/",
+          "meaning": "Derrière l'arbre."
+        }
+      ]
+    },
+    {
+      "concept": "Le comparatif de distance avec 'ni ... ye'",
+      "explanation": "Pour évaluer la distance par rapport à un point fixe comme l'endroit actuel ('yan' = ici), on utilise la corrélation comparative structurée par 'ni' et 'ye'.",
+      "rules": [
+        "Sujet + ka + qualificatif (ex: janjan = loin) + ni + repère (ex: yan) + ye."
+      ],
+      "examples": [
+        {
+          "structure": "A + ka + janjan (loin) + ni + yan (ici) + ye",
+          "phonetic_api": "/a ka d͡ʒan.d͡ʒan ni jan jɛ/",
+          "meaning": "C'est loin d'ici (C'est distant par comparaison avec ici)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Adama (Un voyageur)",
+      "text": "I ni ce, n fa. Sabari, sugu bɛ fan juman ?",
+      "phonetic_api": "/i ni t͡ʃe n̩ fa sa.ba.ri su.ɡu bɛ fan d͡ʒu.man/",
+      "phonetic_simple": "I NI TCHE, N FA. SA-BA-RI, SOU-GOU BÈ FAN DJOU-MAN ?",
+      "translation": "Bonjour, mon père. S'il vous plaît, où se trouve le marché ?"
+    },
+    {
+      "speaker": "Moussa (Un habitant)",
+      "text": "I ni ce, n den. Sugu bɛ jiri mɔgɔw ka so ɲɛfɛ. A ka janjan ni yan ye ?",
+      "phonetic_api": "/i ni t͡ʃe n̩ den su.ɡu bɛ d͡ʒi.ri mɔ.ɡɔ.w ka so ɲɛ.fɛ a ka d͡ʒan.d͡ʒan ni jan jɛ/",
+      "phonetic_simple": "I NI TCHE, N DEN. SOU-GOU BÈ DJI-RI MÕ-GÕ-W KA SO GNIÈ-FÈ. A KA DJAN-DJAN NI YAN YÈ ?",
+      "translation": "Bonjour, mon enfant. Le marché est devant la maison des anciens. Est-ce que c'est loin d'ici ?"
+    },
+    {
+      "speaker": "Adama",
+      "text": "N tɛ sira lɔn la. N bɛ sira tunu la sisan.",
+      "phonetic_api": "/n̩ tɛ si.ra lɔn la n̩ bɛ si.ra tu.nu la si.san/",
+      "phonetic_simple": "N TÈ SI-RA LÕN LA. N BÈ SI-RA TOU-NOU LA SI-SAN.",
+      "translation": "Je ne connais pas le chemin. Je suis égaré maintenant."
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Hami tɛ ! Taga tɛlɛn ɲɛfɛ, o kɔfɛ yɛlɛma i kinin fɛ banki gari gbɛrɛ. Sugu bɛ yan fana.",
+      "phonetic_api": "/ha.mi tɛ ta.ɡa tɛ.lɛn ɲɛ.fɛ o kɔ.fɛ jɛ.lɛ.ma i ki.nin fɛ ban.ki ɡa.ri ɡbɛ.rɛ su.ɡu bɛ jan fa.na/",
+      "phonetic_simple": "HA-MI TÈ ! TA-GA TÈ-LÈN GNIÈ-FÈ, O KÕ-FÈ YÈ-LÈ-MA I KI-NIN FÈ BAN-KI GA-RI GBÈ-RÈ. SOU-GOU BÈ YAN FA-NA.",
+      "translation": "Pas de souci ! Va tout droit devant toi, ensuite tourne sur ta droite juste à côté de la banque. Le marché est juste là."
+    },
+    {
+      "speaker": "Adama",
+      "text": "A kaɲi ! A mɛnna tɛ fana. I ni ce, n fa !",
+      "phonetic_api": "/a ka.ɲi a mɛn.na tɛ fa.na i ni t͡ʃe n̩ fa/",
+      "phonetic_simple": "A KA-GNI ! A MÈN-NA TÈ FA-NA. I NI TCHE, N FA !",
+      "translation": "C'est parfait ! Ce n'est pas long non plus. Merci, mon père !"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Aw ni ce, Ala ka sira herɛ dya !",
+      "phonetic_api": "/aw ni t͡ʃe a.la ka si.ra hɛː.rɛ dja/",
+      "phonetic_simple": "AW NI TCHE, A-LA KA SI-RA HÈÈ-RÈ DYA !",
+      "translation": "De rien, que Dieu rende ton chemin paisible !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'espace urbain et rural du Burkina Faso, l'orientation repose rarement sur des noms de rues officiels ou des numéros de bâtiments, même s'ils existent théoriquement. On se repère quasi exclusivement par rapport à des éléments visuels et communautaires forts : un grand arbre (manguier, baobab), une banque, une station-service, une mosquée, ou la maison d'une personnalité connue du quartier.",
+    "Bénir le voyage ou le déplacement de celui qui demande son chemin ('Ala ka sira herɛ dya') est un réflexe culturel de bienveillance. L'étranger est protégé et guidé de manière collective, car l'hospitalité ('teriya / jatigi ya') est une valeur cardinale."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L7_Ex1",
+      "type": "multiple_choice",
+      "question": "Quelle expression utilise-t-on impérativement pour demander la localisation d'un bâtiment en dioula ?",
+      "options": [
+        "A bɛ bɛn joli ma",
+        "A bɛ fan juman",
+        "A tɔgɔ bɛ di",
+        "A ka janjan"
+      ],
+      "correct_answer": "A bɛ fan juman",
+      "explanation": "'Fan juman' signifie littéralement 'dans quelle direction / quel côté' et sert à demander où se situe un objet ou un lieu."
+    },
+    {
+      "exercise_id": "A1_M3_L7_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour indiquer à un marcheur de tourner à gauche, on dit : 'Yɛlɛma i [ ___ ] fɛ'.",
+      "correct_answer": "numan",
+      "hint": "C'est le mot dioula pour désigner le côté gauche."
+    },
+    {
+      "exercise_id": "A1_M3_L7_Ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie l'indication de direction 'Taga tɛlɛn ɲɛfɛ' ?",
+      "options": [
+        "Fais demi-tour immédiatement",
+        "Va tout droit devant toi",
+        "Arrête-toi au marché",
+        "Monte sur l'arbre"
+      ],
+      "correct_answer": "Va tout droit devant toi",
+      "explanation": "'Taga' (aller) + 'tɛlɛn' (droit/aligné) + 'ɲɛfɛ' (devant) forme la directive standard pour continuer tout droit."
+    }
+  ]
+}

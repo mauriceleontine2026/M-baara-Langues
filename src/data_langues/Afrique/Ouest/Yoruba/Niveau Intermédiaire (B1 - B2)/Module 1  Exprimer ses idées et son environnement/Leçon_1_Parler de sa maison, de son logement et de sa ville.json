@@ -1,0 +1,264 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "L'espace de vie et l'environnement urbain",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire l'architecture d'un logement traditionnel ou moderne et en énumérer les pièces",
+    "Exprimer des rapports de localisation spatiale complexe au sein de l'espace urbain",
+    "Utiliser les structures sérielles verbales pour décrire des actions domestiques quotidiennes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Ce niveau intermédiaire exige une maîtrise parfaite des contractions vocaliques fluides (ex: 'ara ilé' devient souvent 'arábà' ou 'arále' selon les contextes d'élision). Le digramme 'ṣ' [ʃ] s'associe ici à des structures de phrases plus longues où le maintien de la hauteur du ton moyen (non marqué) est crucial pour éviter la confusion syntaxique.",
+    "common_pitfalls": "Faites attention à la prononciation du mot 'Yàrá' (chambre). Le ton de la première syllabe est moyen et la seconde est haute [jàɾá]. Ne l'abaissez pas, sous peine de modifier le relief de la phrase descriptive."
+  },
+  "vocabulary": [
+    {
+      "word_id": "B1_M1_L1_V1",
+      "term": "Yàrá",
+      "phonetic_api": "/jàɾá/",
+      "phonetic_simple": "YA-RÁ",
+      "translation": "Chambre / Pièce isolée",
+      "example_sentence": "Yàrá mi tòbi ju ti rẹ lọ.",
+      "example_phonetic": "/jàɾá mĩ tòbi d͡ʒu ti ɾɛ lɔ/",
+      "example_translation": "Ma chambre est plus grande que la tienne."
+    },
+    {
+      "word_id": "B1_M1_L1_V2",
+      "term": "Kálukú",
+      "phonetic_api": "/kálukú/",
+      "phonetic_simple": "KÁ-LOU-KÚ",
+      "translation": "Chacun / Chaque individu (dans l'espace domestique)",
+      "example_sentence": "Kálukú ní yàrá tirẹ̀ nínú ilé yìí.",
+      "example_phonetic": "/kálukú ní jàɾá tiɾɛ̀ nĩ́nú ilé jĩː/",
+      "example_translation": "Chacun a sa propre chambre dans cette maison."
+    },
+    {
+      "word_id": "B1_M1_L1_V3",
+      "term": "Abalonù / Balùwẹ̀",
+      "phonetic_api": "/balùwɛ̀/",
+      "phonetic_simple": "BA-LOÙ-WÈ",
+      "translation": "Salle de bain / Douche",
+      "example_sentence": "Balùwẹ̀ wà ní opin ọ̀nà ríru yẹn.",
+      "example_phonetic": "/balùwɛ̀ wà ní okĩ ɔ̀nà ɾíɾu jɛ̃/",
+      "example_translation": "La salle de bain se trouve au bout de ce couloir."
+    },
+    {
+      "word_id": "B1_M1_L1_V4",
+      "term": "Àdúgbò",
+      "phonetic_api": "/àdúɡ͡bò/",
+      "phonetic_simple": "À-DOÚ-GBÒ",
+      "translation": "Quartier / Voisinage / Secteur urbain",
+      "example_sentence": "Àdúgbò wa lókìkí fún títà onjẹ.",
+      "example_phonetic": "/àdúɡ͡bò wa lókìkí fʊ́ títà ōnd͡ʒɛ/",
+      "example_translation": "Notre quartier est célèbre pour ses points de restauration."
+    },
+    {
+      "word_id": "B1_M1_L1_V5",
+      "term": "Gbọ̀ngàn",
+      "phonetic_api": "/ɡ͡bɔ̀ŋà/",
+      "phonetic_simple": "GBÀN-GÀN",
+      "translation": "Salon / Salle de séjour / Grande pièce de réception",
+      "example_sentence": "Àwọn àlejò jókòó sí gbọ̀ngàn.",
+      "example_phonetic": "/àwɔ̃ àled͡ʒò d͡ʒókòó sí ɡ͡bɔ̀ŋà/",
+      "example_translation": "Les invités se sont assis dans le salon."
+    },
+    {
+      "word_id": "B1_M1_L1_V6",
+      "term": "Ibi-ìdáná",
+      "phonetic_api": "/ibiìdáná/",
+      "phonetic_simple": "I-BI-Ì-DÁ-NÁ",
+      "translation": "Cuisine (Littéralement : lieu pour faire du feu)",
+      "example_sentence": "Mọ̀mọ́ ń dáná nínú ibi-ìdáná.",
+      "example_phonetic": "/mɔ̃mɔ̃ ŋ́ dáná nĩ́nú ibiìdáná/",
+      "example_translation": "Maman cuisine dans la cuisine."
+    },
+    {
+      "word_id": "B1_M1_L1_V7",
+      "term": "Olú-ìlú",
+      "phonetic_api": "/olúilú/",
+      "phonetic_simple": "OH-LÚ-I-LOÚ",
+      "translation": "Capitale / Ville principale / Métropole administrativa",
+      "example_sentence": "Ilú Abuja ni olú-ìlú Nàìjíríà.",
+      "example_phonetic": "/ilú abud͡ʒa nĩ olúilú nàìd͡ʒíɾíà/",
+      "example_translation": "La ville d'Abuja est la capitale du Nigeria."
+    },
+    {
+      "word_id": "B1_M1_L1_V8",
+      "term": "Àrin-gbùngbù",
+      "phonetic_api": "/àɾĩɡ͡bʊ̃ɡ͡bù/",
+      "phonetic_simple": "À-RIN-GBOÙN-GBOÙ",
+      "translation": "Le centre-ville / Le cœur géographique",
+      "example_sentence": "Ọjà nla wà ní àrin-gbùngbù ìlú.",
+      "example_phonetic": "/ɔd͡ʒà ŋlā wà ní àɾĩɡ͡bʊ̃ɡ͡bù ilú/",
+      "example_translation": "Le grand marché se trouve au centre-ville."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "B1_M1_L1_P1",
+      "original": "Irú ilé wo ni o ń gbé nísinsìnyí?",
+      "phonetic_api": "/iɾú ilé wo nĩ o ŋ́ ɡ͡bé nísĩsĩjĩ́/",
+      "phonetic_simple": "I-ROÚ I-LÉ WO NI O N GBÉ NÍ-SIN-SIN-YÍ?",
+      "translation": "Dans quel genre de logement habites-tu actuellement ?",
+      "context": "Question ouverte pour engager une description immobilière."
+    },
+    {
+      "phrase_id": "B1_M1_L1_P2",
+      "original": "Mo ń gbé nínú ilé olólásà fúnra mi.",
+      "phonetic_api": "/mo ŋ́ ɡ͡bé nĩ́nú ilé olólásà fʊ́ɾa mĩ/",
+      "phonetic_simple": "MO N GBÉ NÍ-NOÚ I-LÉ OLÓ-LÁ-SÀ FOÚN-RA MI.",
+      "translation": "J'habite de manière indépendante dans un appartement moderne.",
+      "context": "Réponse indiquant un mode de vie urbain autonome."
+    },
+    {
+      "phrase_id": "B1_M1_L1_P3",
+      "original": "Ṣé àdúgbò rẹ ní àláfíà àti títọ́?",
+      "phonetic_api": "/ʃé àdúgbò ɾɛ ní àláfíà àti títɔ́/",
+      "phonetic_simple": "SHÉ À-DOÚ-GBÒ RÈ NÍ À-LÁ-FÍ-À À-TI TÍ-TÁ?",
+      "translation": "Est-ce que ton quartier est calme et propre ?",
+      "context": "S'informer sur la qualité de l'environnement résidentiel."
+    },
+    {
+      "phrase_id": "B1_M1_L1_P4",
+      "original": "Àdúgbò wa rọrùn, ṣùgbọ́n ariwo ń bẹ ní alẹ́.",
+      "phonetic_api": "/àdúgbò wa ɾɔɾʊ̃ ʃùɡ͡bɔ́ aɾiwo ŋ́ bɛ ní alɛ́/",
+      "phonetic_simple": "À-DOÚ-GBÒ WA RA-ROÙN, SHOÙ-GBÓN A-RI-WO N BÉ NÍ A-LÉ.",
+      "translation": "Notre quartier est agréable, mais il y a du bruit la nuit.",
+      "context": "Nuancer la description de son environnement urbain."
+    },
+    {
+      "phrase_id": "B1_M1_L1_P5",
+      "original": "Yàrá mélòó ni ó wà nínú ilé rẹ?",
+      "phonetic_api": "/jàɾá mélòː nĩ ó wà nĩ́nú ilé ɾɛ/",
+      "phonetic_simple": "YA-RÁ MÉ-LÒÒ NI Ó WÀ NÍ-NOÚ I-LÉ RÈ?",
+      "translation": "Combien de pièces (chambres) y a-t-il dans ta maison ?",
+      "context": "Demande de détails topographiques internes."
+    },
+    {
+      "phrase_id": "B1_M1_L1_P6",
+      "original": "Ilé wa ní yàrá mẹ́rin àti gbọ̀ngàn nla kan.",
+      "phonetic_api": "/ilé wa ní jàɾá mɛ́ɾĩ àti ɡ͡bɔ̀ŋà ŋlā kã/",
+      "phonetic_simple": "I-LÉ WA NÍ YA-RÁ MÉ-RIN À-TI GBÀN-GÀN N-LA KAN.",
+      "translation": "Notre maison compte quatre chambres et un grand salon.",
+      "context": "Inventaire descriptif de l'habitation."
+    },
+    {
+      "phrase_id": "B1_M1_L1_P7",
+      "original": "Ilú Èkó tobi ju ìlú Ìbàdàn lọ púpọ̀.",
+      "phonetic_api": "/ilú èkó tobi d͡ʒu ilú ìbàdã̀ lɔ k͡púpɔ̀/",
+      "phonetic_simple": "I-LOÚ È-KÓ TO-BI JOÚ I-LOÚ Ì-BÀ-DÀN LAW KPOÚ-PÀW.",
+      "translation": "La ville de Lagos est beaucoup plus grande que celle d'Ibadan.",
+      "context": "Comparaison géographique interurbaine."
+    },
+    {
+      "phrase_id": "B1_M1_L1_P8",
+      "original": "Mo nìfẹ́ láti máa rìn kiri ní àrin-gbùngbù ilú lálẹ́.",
+      "phonetic_api": "/mo nìfɛ́ láti máː ɾĩ̀ kiɾi ní àɾĩɡ͡bʊ̃ɡ͡bù ilú lálɛ́/",
+      "phonetic_simple": "MO NÌ-FÉ LÁ-TI MÁÀ RÌN KI-RI NÍ À-RIN-GBOÙN-GBOÙ I-LOÚ LÁ-LÉ.",
+      "translation": "J'aime me promener au centre-ville durant la soirée.",
+      "context": "Expression de préférences de loisirs citadins."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction comparative de supériorité avec 'ju... lọ'",
+      "explanation": "En yoruba intermédiaire, la comparaison ne repose pas sur un adverbe comme 'plus'. On emploie une structure verbale sérielle figée composée du verbe d'excès 'ju' (dépasser) placé après la qualité, et du verbe de mouvement 'lọ' (aller) placé en fin de proposition pour clore la comparaison.",
+      "rules": [
+        "Structure : [Élément A] + [Qualité/Verbe] + ju + [Élément B] + lọ.",
+        "Si l'élément B est évident, la structure devient simplement : [Élément A] + [Qualité] + ju lọ."
+      ],
+      "examples": [
+        {
+          "structure": "Ilé mi + tobi + ju + ti rẹ + lọ",
+          "phonetic_api": "/ilé mĩ tobi d͡ʒu ti ɾɛ lɔ/",
+          "meaning": "Ma maison est plus grande que la tienne (Littéralement : Ma maison est grande dépasse la tienne va)."
+        },
+        {
+          "structure": "Ọ̀nà yìí + jìn + ju + yẹn + lọ",
+          "phonetic_api": "/ɔ̀nà jĩː d͡ʒĩ̀ d͡ʒu d͡ʒɛ̃ lɔ/",
+          "meaning": "Cette route est plus longue (lointaine) que celle-là."
+        }
+      ]
+    },
+    {
+      "concept": "Les constructions verbales sérielles (CVS) domestiques",
+      "explanation": "Pour décrire des actions complexes ou successives se déroulant dans la maison ou la ville, le yoruba juxtapose plusieurs verbes sans aucune conjonction de coordination (comme 'et'). Tous les verbes partagent le même sujet grammatical unique situé en tête de phrase.",
+      "rules": [
+        "Structure : [Sujet] + [Verbe 1] + [Objet 1] + [Verbe 2] + [Objet 2].",
+        "L'ordre des verbes doit impérativement respecter la chronologie réelle des événements."
+      ],
+      "examples": [
+        {
+          "structure": "Mo + wọ̀ + yàrá + jókòó",
+          "phonetic_api": "/mo wɔ̀ jàɾá d͡ʒókòó/",
+          "meaning": "Je suis entré dans la chambre et je m'est assis (Littéralement : Je entrer chambre s'asseoir)."
+        },
+        {
+          "structure": "Mọ̀mọ́ + ra + onjẹ + sè",
+          "phonetic_api": "/mɔ̃mɔ̃ ɾa ōnd͡ʒɛ sè/",
+          "meaning": "Maman a acheté de la nourriture et l'a cuisinée."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Tòbílọ́bà (L'ami de passage)",
+      "text": "Kúle o, Olú. Ilé tuntun rẹ yìí rẹwà púpọ̀. Ṣé o fẹ́ràn àdúgbò yìí?",
+      "phonetic_api": "/kúle o olú ilé tuntun ɾɛ jĩː ɾɛwà k͡púpɔ̀ ʃé o fɛ́ɾã̀ àdúgbò jĩː/",
+      "phonetic_simple": "KOÚ-LE O, O-LÚ. I-LÉ TOUN-TOUN RÈ YÍ RE-WÀ KPOÚ-PÀW. SHÉ O FÉ-RÀN À-DOÚ-GBÒ YÍ?",
+      "translation": "Salut à la maison, Olu. Ta nouvelle maison est magnifique. Est-ce que tu te plais dans ce quartier ?"
+    },
+    {
+      "speaker": "Olú (Le résident)",
+      "text": "Ẹ ǹlẹ́ o, Tòbí. Bẹ́ẹ̀ ni, mo fẹ́ràn rẹ̀. Àdúgbò yìí súnmọ́ àrin-gbùngbù ìlú ju ti tẹ́lẹ̀ lọ.",
+      "phonetic_api": "/ɛ̀ ŋ̀lɛ́ o tòbí bɛ́ː nĩ mo fɛ́ɾã̀ ɾɛ̀ àdúgbò jĩː sʊ́mɔ́ àɾĩɡ͡bʊ̃ɡ͡bù ilú d͡ʒu ti tɛ́lɛ̀ lɔ/",
+      "phonetic_simple": "È N-LÉ O, TÒ-BÍ. BÉÈ NI, MO FÉ-RÀN RÈ. À-DOÚ-GBÒ YÍ SOÚN-MÁW À-RIN-GBOÙN-GBOÙ I-LOÚ JOÚ TI TÉ-LÈ LAW.",
+      "translation": "Bienvenue, Tobi. Oui, je l'aime beaucoup. Ce quartier est plus proche du centre-ville que le précédent."
+    },
+    {
+      "speaker": "Tòbílọ́bà (L'ami de passage)",
+      "text": "O dára. Ṣé o ní yàrá tó pọ̀ fún àwọn àlejò rẹ níbi?",
+      "phonetic_api": "/o dáɾa ʃé o ní jàɾá tó k͡pɔ̀ fʊ́ àwɔ̃ àled͡ʒò ɾɛ níbi/",
+      "phonetic_simple": "OH DÁ-RA. SHÉ O NÍ YA-RÁ TÓ KPÁW FOÚN À-WAN À-LE-JÒ RÈ NÍ-BI?",
+      "translation": "C'est bien. Est-ce que tu as assez de pièces pour tes invités ici ?"
+    },
+    {
+      "speaker": "Olú (Le résident)",
+      "text": "Bẹ́ẹ̀ ni. Ilé yìí ní gbọ̀ngàn nla kan, yàrá mẹ́ta, àti ibi-ìdáná títọ́. Kálukú ní àyè rẹ̀.",
+      "phonetic_api": "/bɛ́ː nĩ ilé jĩː ní ɡ͡bɔ̀ŋà ŋlā kã jàɾá mɛ́ɾĩ àti ibiìdáná títɔ́ kálukú ní àjɛ̀ ɾɛ̀/",
+      "phonetic_simple": "BÉÈ NI. I-LÉ YÍ NÍ GBÀN-GÀN N-LA KAN, YA-RÁ MÉ-TA, À-TI I-BI-Ì-DÁ-NÁ TÍ-TÁ. KÁ-LOU-KÚ NÍ À-YÈ RÈ.",
+      "translation": "Oui. Cette maison possède un grand salon, trois chambres et une cuisine très propre. Chacun y trouve son espace."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'urbanisme traditionnel yoruba, le concept d' 'Agbo Ilé' (le complexe familial ou concession) prévalait. Il s'agissait d'une série de logements connectés autour d'une cour centrale commune, favorisant la vie collective. Bien que l'architecture moderne préfére désormais les appartements indépendants, la notion de solidarité entre résidents d'un même quartier (Àdúgbò) demeure très vive.",
+    "La cuisine traditionnelle 'Ibi-ìdáná' était historiquement installée à l'extérieur ou dans une cour arrière pour éviter que la fumée du bois de chauffage n'envahisse les pièces à vivre.",
+    "Comparer sa ville natale ou son quartier avec fierté est un trait culturel marquant lors des joutes oratoires ou des discussions amicales au Nigeria."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M1_L1_EX1",
+      "type": "multiple_choice",
+      "question": "Quelle est la traduction syntaxiquement correcte de 'Ma chambre est plus propre que la cuisine' ?",
+      "options": [
+        "Yàrá mi títọ́ ju ibi-ìdáná lọ",
+        "Ibi-ìdáná títọ́ ju yàrá mi lọ",
+        "Yàrá mi jẹ́ títọ́ lórí ibi-ìdáná",
+        "Mo fẹ́ràn yàrá mi ju ibi-ìdáná"
+      ],
+      "correct_answer": "Yàrá mi títọ́ ju ibi-ìdáná lọ",
+      "explanation": "La structure exige le sujet ('Yàrá mi'), le qualificatif ('títọ́'), puis l'opérateur comparatif discontinu 'ju' suivi du comparant ('ibi-ìdáná') et clos par 'lọ'."
+    },
+    {
+      "exercise_id": "B1_M1_L1_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour désigner le centre névralgique ou le cœur géographique d'une grande ville, on utilise le terme composé : àrin-[ ___ ].",
+      "correct_answer": "gbùngbù",
+      "hint": "C'est un terme redoublé à ton bas signifiant le milieu profond ou centralisé."
+    }
+  ]
+}

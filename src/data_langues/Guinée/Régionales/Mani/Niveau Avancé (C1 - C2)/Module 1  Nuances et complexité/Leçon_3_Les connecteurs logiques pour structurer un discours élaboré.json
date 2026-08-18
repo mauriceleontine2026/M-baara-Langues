@@ -1,0 +1,174 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Les connecteurs logiques pour structurer un discours élaboré",
+  "learning_objectives": [
+    "Utiliser les connecteurs de cause, de conséquence et d'opposition complexes en Mani",
+    "Articuler un discours fluide pour lier plusieurs arguments logiques entre eux",
+    "Structurer une argumentation formelle en respectant la progression thématique"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le connecteur d'opposition 'koni' requiert une articulation brève de la voyelle fermée /i/. Le terme causal 'fɔkɔ-fɛ' demande d'enchaîner l'occlusive vélaire sourde /k/ et la fricative labiodentale sourde /f/ sans introduire de voyelle d'appui.",
+    "common_pitfalls": "Ne confondez pas la particule d'accompagnement simple 'ni' (et/avec) et la locution de conséquence complexe 'lɔ-fɔkɔ-fɛ' (c'est pourquoi)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v21_1",
+      "term": "koni",
+      "phonetic_api": "/ko.ni/",
+      "phonetic_simple": "KO-NI",
+      "translation": "cependant / mais / toutefois / néanmoins",
+      "example_sentence": "N haani tira, koni gbeŋu bɛ inde.",
+      "example_phonetic": "/n̩ haː.ni ti.ra ko.ni ɡbe.ŋu bɛ in.de/",
+      "example_translation": "Je veux voyager, cependant l'argent manque."
+    },
+    {
+      "word_id": "v21_2",
+      "term": "fɔkɔ-fɛ",
+      "phonetic_api": "/fɔ.kɔ fɛ/",
+      "phonetic_simple": "FƆ-KƆ-FÈ",
+      "translation": "parce que / à cause de / puisque (origine logique)",
+      "example_sentence": "N bɛ tunkɛ lɔ, fɔkɔ-fɛ n denbaya bɛ ni yoma.",
+      "example_phonetic": "/n̩ bɛ tun.kɛ lɔ fɔ.kɔ fɛ n̩ den.ba.ja bɛ ni jo.ma/",
+      "example_translation": "Je suis dans la joie, parce que ma famille va bien."
+    },
+    {
+      "word_id": "v21_3",
+      "term": "lɔ-fɔkɔ-fɛ",
+      "phonetic_api": "/lɔ fɔ.kɔ fɛ/",
+      "phonetic_simple": "LƆ-FƆ-KƆ-FÈ",
+      "translation": "c'est pourquoi / par conséquent / de ce fait",
+      "example_sentence": "Lan ce fɔkɔ, lɔ-fɔkɔ-fɛ n ce banxi lɔ su cɛm.",
+      "example_phonetic": "/lan tʃe fɔ.kɔ lɔ fɔ.kɔ fɛ n̩ tʃe ban.xi lɔ su tʃɛm/",
+      "example_translation": "La pluie va arriver, c'est pourquoi je vais rester dans la chambre."
+    },
+    {
+      "word_id": "v21_4",
+      "term": "bɛŋ-ni",
+      "phonetic_api": "/bɛŋ ni/",
+      "phonetic_simple": "BÈNG-NI",
+      "translation": "de plus / en outre / par ailleurs",
+      "example_sentence": "A bɛ ni guba yoma, bɛŋ-ni a bɛ ni gbeŋu.",
+      "example_phonetic": "/a bɛ ni ɡu.ba jo.ma bɛŋ ni a bɛ ni ɡbe.ŋu/",
+      "example_translation": "Il a de beaux vêtements, de plus il a de l'argent."
+    },
+    {
+      "word_id": "v21_5",
+      "term": "fɛ-fɔkɔ",
+      "phonetic_api": "/fɛ fɔ.kɔ/",
+      "phonetic_simple": "FÈ-FƆ-KƆ",
+      "translation": "bien que / quoique / malgré le fait que",
+      "example_sentence": "Fɛ-fɔkɔ si bɛ lɔ, a bɛ wɔli ségé.",
+      "example_phonetic": "/fɛ fɔ.kɔ si bɛ lɔ a bɛ wɔ.li se.ɡe/",
+      "example_translation": "Bien que la nuit soit là, il travaille au marché."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p21_1",
+      "original": "N haani wo-ce wɔli ségé, koni lan fɔkɔ-wo cece.",
+      "phonetic_api": "/n̩ haː.ni wo tʃe wɔ.li se.ɡe ko.ni lan fɔ.kɔ wo tʃe.tʃe/",
+      "phonetic_simple": "N HAA-NI WO-TCHÉ WƆ-LI SÉ-GÉ, KO-NI LAN FƆ-KƆ-WO TCHÉ-TCHÉ",
+      "translation": "J'aurais voulu travailler au marché, cependant la pluie est tombée abondamment.",
+      "context": "Expliquer un empêchement majeur lors d'un débat ou d'une discussion formelle."
+    },
+    {
+      "phrase_id": "p21_2",
+      "original": "Mora-gbun kperɛ-wo mi tɔgɔ, lɔ-fɔkɔ-fɛ n bɛ ni yoma-ra.",
+      "phonetic_api": "/mo.ra ɡbun kpe.rɛ wo mi tɔ.ɡɔ lɔ fɔ.kɔ fɛ n̩ bɛ ni jo.ma ra/",
+      "phonetic_simple": "MO-RA-GBOUN KPE-RÈ-WO MI TO-GO, LƆ-FƆ-KƆ-FÈ N BÈ NI YO-MA-RA",
+      "translation": "L'ancien m'a transmis ses conseils, c'est pourquoi j'ai une totale certitude.",
+      "context": "Justifier sa prise de décision en s'appuyant sur l'autorité d'un sage."
+    },
+    {
+      "phrase_id": "p21_3",
+      "original": "A bɛ kunu fɔkɔ-fɛ a bɔŋ bɛ mɛnni woŋ kpere cɛm.",
+      "phonetic_api": "/a bɛ ku.nu fɔ.kɔ fɛ a bɔŋ bɛ mɛn.ni woŋ kpe.re tʃɛm/",
+      "phonetic_simple": "A BÈ KOU-NOU FƆ-KƆ-FÈ A BONG BÈ MÈN-NI WONG KPE-RE TCHÈM",
+      "translation": "Elle s'inquiète parce que son enfant se trouve là-bas au cœur de la grande ville.",
+      "context": "Analyser et expliciter la cause psychologique d'un tiers."
+    },
+    {
+      "phrase_id": "p21_4",
+      "original": "Fɛ-fɔkɔ gbeŋu sɔm-wo, denbaya bɛ tunkɛ gbun cɛm.",
+      "phonetic_api": "/fɛ fɔ.kɔ ɡbe.ŋu sɔm wo den.ba.ja bɛ tun.kɛ ɡbun tʃɛm/",
+      "phonetic_simple": "FÈ-FƆ-KƆ GBÉ-NGOU SƆM-WO, DEN-BA-YA BÈ TOUN-KÈ GBOUN TCHÈM",
+      "translation": "Bien que l'argent ait manqué, la famille est au milieu d'une immense joie.",
+      "context": "Mettre en valeur une force morale face à des contraintes matérielles."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La subordination logique et les locutions adverbiales composées",
+      "explanation": "En Mani avancé, la structuration logique utilise des morphèmes d'origine spatio-temporelle comme 'fɔkɔ' (venir) et 'fɛ' (vers/sur/avec) pour conceptualiser le lien de causalité. 'Fɔkɔ-fɛ' indique l'origine ou la provenance d'une idée, matérialisant ainsi la cause.",
+      "rules": [
+        "Expression de la cause : Proposition principale + fɔkɔ-fɛ + Proposition subordonnée.",
+        "Expression de la conséquence : Proposition de cause + lɔ-fɔkɔ-fɛ + Proposition de résultat."
+      ],
+      "examples": [
+        {
+          "structure": "N bɛ lɔ fɔkɔ-fɛ wun fɔkɔ",
+          "phonetic_api": "/n̩ bɛ lɔ fɔ.kɔ fɛ wun fɔ.kɔ/",
+          "meaning": "Je reste ici parce que tu es venu"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ousmane",
+      "text": "Mboi Abou. Wun wo-ce fɔkɔ sègé hɔnkɔ-fɔkɔ, koni wun wo banxi lɔ. Nɛ na ?",
+      "phonetic_api": "/mboi a.bu wun wo tʃe fɔ.kɔ se.ɡe hɔn.kɔ fɔ.kɔ ko.ni wun wo ban.xi lɔ nɛ na/",
+      "phonetic_simple": "MBOÏ A-BOU. WOUN WO-TCHÉ FƆ-KƆ SÉ-GÉ HON-KƆ-FƆ-KƆ, KO-NI WOUN WO BAN-KHI LƆ. NÈ NA ?",
+      "translation": "Bonjour Abou. Tu aurais dû venir au marché tôt ce matin, cependant tu es resté à la maison. Pourquoi ?"
+    },
+    {
+      "speaker": "Abou",
+      "text": "Mboi Ousmane. N wo banxi lɔ fɔkɔ-fɛ n tɔgɔfɛ bɛ ni wɔli kankaran cɛm. Bɛŋ-ni n wulɛ bɛ kunu wo.",
+      "phonetic_api": "/mboi a.li.sa.ni n̩ wo ban.xi lɔ fɔ.kɔ fɛ n̩ tɔ.ɡɔ.fɛ bɛ ni wɔ.li kan.ka.ran tʃɛm bɛŋ ni n̩ wu.lɛ bɛ ku.nu wo/",
+      "phonetic_simple": "MBOÏ OU-SA-MA-NI. N WO BAN-KHI LƆ FƆ-KƆ-FÈ N TO-GO-FÈ BÈ NI WƆ-LI KAN-KA-RAN TCHÈM. BÈNG-NI N WOU-LÈ BÈ KOU-NOU WO.",
+      "translation": "Bonjour Ousmane. Je suis resté à la maison parce que mon maître avait du travail à l'intérieur de la cour. En outre, ma mère ne se sentait pas bien (était inquiète)."
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Fɛ-fɔkɔ wun tɔgɔfɛ gbun na, a haani-wo kperɛ wun gbeŋu sègé fɛ ?",
+      "phonetic_api": "/fɛ fɔ.kɔ wun tɔ.ɡɔ.fɛ ɡbun na a haː.ni wo kpe.rɛ wun ɡbe.ŋu se.ɡe fɛ/",
+      "phonetic_simple": "FÈ-FƆ-KƆ WOUN TO-GO-FÈ GBOUN NA, A HAA-NI-WO KPE-RÈ WOUN GBÉ-NGOU SÉ-GÉ FÈ ?",
+      "translation": "Bien que ton maître soit un grand homme, avait-il eu l'intention de te donner de l'argent pour le marché ?"
+    },
+    {
+      "speaker": "Abou",
+      "text": "Oon, koni wɔli gbun-wo. Lɔ-fɔkɔ-fɛ n ce tira woŋ gbun lɔ woni hɔnkɔ-fɔkɔ-ce. Cece !",
+      "phonetic_api": "/oːn ko.ni wɔ.li ɡbun wo lɔ fɔ.kɔ fɛ n̩ tʃe ti.ra woŋ ɡbun lɔ wo.ni hɔn.kɔ fɔ.kɔ tʃe tʃe.tʃe/",
+      "phonetic_simple": "OON, KO-NI WƆ-LI GBOUN-WO. LƆ-FƆ-KƆ-FÈ N TCHÉ TI-RA WONG GBOUN LƆ WO-NI HON-KƆ-FƆ-KƆ-TCHÉ. TCHÉ-TCHÉ !",
+      "translation": "Oui, mais le travail a été colossal. Par conséquent, je vais voyager vers la grande ville dès la toute première aube de demain. Merci !"
+    }
+  ],
+  "cultural_notes": [
+    "La rhétorique Mani valorise grandement l'équilibre argumentatif. Lors des assemblées de notables, l'orateur utilise des connecteurs d'opposition ('koni') et de concession ('fɛ-fɔkɔ') pour démontrer qu'il a pesé chaque aspect d'une situation. Structurer ainsi son discours permet d'éviter l'affrontement verbal direct tout en introduisant des nuances logiques d'une grande finesse."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex21_1",
+      "type": "multiple_choice",
+      "question": "Quel connecteur logique Mani utilise-t-on pour introduire une conséquence directe (traduisant 'c'est pourquoi') ?",
+      "options": [
+        "fɔkɔ-fɛ",
+        "lɔ-fɔkɔ-fɛ",
+        "koni"
+      ],
+      "correct_answer": "lɔ-fɔkɔ-fɛ",
+      "explanation": "'Lɔ-fɔkɔ-fɛ' lie un fait précédent à sa conséquence logique directe."
+    },
+    {
+      "exercise_id": "ex21_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N haani wo-ce tira, [ ___ ] gbeŋu bɛ inde. (Je voulais voyager, cependant l'argent manquait).",
+      "correct_answer": "koni",
+      "hint": "Le connecteur d'opposition restrictif qui commence par un 'k'."
+    }
+  ]
+}

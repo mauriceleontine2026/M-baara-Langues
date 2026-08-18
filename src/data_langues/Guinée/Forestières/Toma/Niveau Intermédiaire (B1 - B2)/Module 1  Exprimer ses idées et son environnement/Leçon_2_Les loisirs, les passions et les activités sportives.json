@@ -1,0 +1,133 @@
+{
+  "lesson_id": "B1_M1_L2",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 2,
+  "title": "Les loisirs, les passions et les activités sportives",
+  "learning_objectives": [
+    "Parler de ses passe-temps favoris en toma",
+    "Nommer des activités physiques et culturelles traditionnelles"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les verbes de mouvement appliquent une alternance consonantique sur l'initiale lorsque l'action est répétée ou habituelle.",
+    "common_pitfalls": "Veillez à maintenir l'accent d'intensité sur la première syllabe du verbe d'action pour marquer le processus actif."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v11_1",
+      "term": "gize",
+      "phonetic_api": "/ɡi.zɛ/",
+      "phonetic_simple": "GI-ZE",
+      "translation": "danse / fête rituelle",
+      "example_sentence": "Ta gize kɛ ɓɛñ.",
+      "example_phonetic": "/ta ɡi.zɛ kɛ ɓɛ̃/",
+      "example_translation": "Ils dansent ici."
+    },
+    {
+      "word_id": "v11_2",
+      "term": "ɓile",
+      "phonetic_api": "/ɓi.lɛ/",
+      "phonetic_simple": "BI-LE",
+      "translation": "lutte / sport traditionnel",
+      "example_sentence": "Kêe ta ɓile kɛ.",
+      "example_phonetic": "/kɛ̂ː ta ɓi.lɛ kɛ/",
+      "example_translation": "Les hommes pratiquent la lutte."
+    },
+    {
+      "word_id": "v11_3",
+      "term": "wulo",
+      "phonetic_api": "/wu.lo/",
+      "phonetic_simple": "WOU-LO",
+      "translation": "chant / musique",
+      "example_sentence": "Na wulo mɛni.",
+      "example_phonetic": "/na wu.lo mɛ.ni/",
+      "example_translation": "J'écoute de la musique."
+    },
+    {
+      "word_id": "v11_4",
+      "term": "toli",
+      "phonetic_api": "/to.li/",
+      "phonetic_simple": "TO-LI",
+      "translation": "jeu / amusement / match",
+      "example_sentence": "Loi ta toli kɛ.",
+      "example_phonetic": "/loi ta toli kɛ/",
+      "example_translation": "Les enfants jouent."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p11_1",
+      "original": "Mizɛ toli lɔ i lo ga?",
+      "phonetic_api": "/mi.zɛ to.li lɔ i lo ɡa/",
+      "phonetic_simple": "MI-ZE TO-LI LO I LO GA",
+      "translation": "Quel jeu/sport aimes-tu pratiquer ?",
+      "context": "Question ouverte pour démarrer une discussion sur les loisirs."
+    },
+    {
+      "phrase_id": "p11_2",
+      "original": "Na wulo mɛni lo ga gaza.",
+      "phonetic_api": "/na wu.lo mɛ.ni lo ɡa ɡa.za/",
+      "phonetic_simple": "NA WOU-LO ME-NI LO GA GA-ZA",
+      "translation": "J'aime énormément écouter les chants.",
+      "context": "Affirmation d'une passion culturelle."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'utilisation du verbe fonctionnel 'kɛ' (faire)",
+      "explanation": "Pour exprimer la pratique d'une activité ou d'un loisir, le toma utilise le nom de l'activité immédiatement suivi du verbe passe-partout 'kɛ' (faire/produire).",
+      "rules": [
+        "Le nom de l'activité fait office d'objet direct placé avant 'kɛ'.",
+        "À l'inaccompli, une marque d'aspect s'intercale avant le verbe."
+      ],
+      "examples": [
+        {
+          "structure": "gize kɛ",
+          "phonetic_api": "/ɡi.zɛ kɛ/",
+          "meaning": "faire de la danse / danser"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Momo",
+      "text": "Tokpa, i li gize kɛ ma fologila?",
+      "phonetic_api": "/tok.pa i li ɡi.zɛ kɛ ma fo.lo.ɡi.la/",
+      "phonetic_simple": "TOK-PA I LI GI-ZE KE MA FO-LO-GI-LA",
+      "translation": "Tokpa, vas-tu danser lundi ?"
+    },
+    {
+      "speaker": "Tokpa",
+      "text": "Owo, na gize kɛ lo ga gaza.",
+      "phonetic_api": "/o.wo na ɡi.zɛ kɛ lo ɡa ɡa.za/",
+      "phonetic_simple": "O-WO NA GI-ZE KE LO GA GA-ZA",
+      "translation": "Oui, j'aime énormément danser."
+    }
+  ],
+  "cultural_notes": [
+    "La musique et la danse ne sont pas de simples divertissements chez les Toma ; elles accompagnent les rituels agraires et les étapes de l'initiation au sein de la vie communautaire en Guinée Forestière."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex11_1",
+      "type": "multiple_choice",
+      "question": "Quel mot correspond à l'action de faire du sport/de la lutte traditionnellement ?",
+      "options": [
+        "wulo",
+        "ɓile",
+        "vɛlɛ"
+      ],
+      "correct_answer": "ɓile",
+      "explanation": "'ɓile' désigne spécifiquement la lutte, sport roi traditionnel."
+    },
+    {
+      "exercise_id": "ex11_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ta gize [ ___ ] ɓɛñ (Ils dansent ici).",
+      "correct_answer": "kɛ",
+      "hint": "Le verbe faire requis pour valider l'action de la danse."
+    }
+  ]
+}

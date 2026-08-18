@@ -1,0 +1,238 @@
+{
+  "lesson_id": "B1_M3_L7",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 7,
+  "title": "Exprimer l'obligation, l'interdiction et la permission",
+  "learning_objectives": [
+    "Exprimer l'obligation de manière impersonnelle ou personnelle avec la structure 'Yajibu 'alā'",
+    "Formuler une interdiction absolue ou nuancée à l'aide de 'Mamnoo'' ou du jussif",
+    "Demander et accorder une permission polie en utilisant 'Yasmaḥu bi-' ou 'Yumkinu'"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon s'articule autour des structures de contrôle social et légal. Le phonème /dʒ/ (ج) est central dans 'Yajibu' (il faut). Le sound /ħ/ (ح) apparaît de manière cruciale dans 'Yasmaḥu' (permettre) et 'Mubāḥ' (autorisé). La consonne emphatique /tˤ/ (ط) structure le terme 'Shart' (condition) et 'at-Tarīq'.",
+    "common_pitfalls": "Attention à ne pas escamoter l'articulation du /ʕ/ (ع) dans le mot 'Mamnoo'' (مَمْنُوعٌ) ou 'alā' (عَلَى). De plus, veillez à appliquer correctement la coupe glottale (Hamza) lors de l'énonciation de 'Yajibu an' pour lier fluidement les propositions."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "وَاجِبٌ",
+      "phonetic_api": "/waː.dʒi.bun/",
+      "phonetic_simple": "WAA-DJI-BOUN",
+      "translation": "Un devoir / Une obligation / Une tâche",
+      "example_sentence": "هَذَا وَاجِبٌ عَلَيْنَا",
+      "example_phonetic": "/haː.ðasˤ waː.dʒi.bun ʕa.laj.naː/",
+      "example_translation": "C'est un devoir pour nous (qui nous incombe)"
+    },
+    {
+      "word_id": "v2",
+      "term": "مَمْنُوعٌ",
+      "phonetic_api": "/mam.nuː.ʕun/",
+      "phonetic_simple": "MAM-NOUU-OUN",
+      "translation": "Interdit / Prohibé / Défendu",
+      "example_sentence": "التَّدْخِينُ مَمْنُوعٌ هُنَا",
+      "example_phonetic": "/.../",
+      "example_translation": "Fumer est interdit ici"
+    },
+    {
+      "word_id": "v3",
+      "term": "إِذْنٌ",
+      "phonetic_api": "/ʔið.nun/",
+      "phonetic_simple": "ITH-NOUN",
+      "translation": "Une permission / Une autorisation / Un congé",
+      "example_sentence": "طَلَبَ الإِذْنَ مِنَ الْمُدِيرِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Il a demandé la permission au directeur"
+    },
+    {
+      "word_id": "v4",
+      "term": "قَانُونٌ",
+      "phonetic_api": "/qa.nuː.nun/",
+      "phonetic_simple": "KAA-NOOU-NOUN",
+      "translation": "La loi / Le règlement / Le code",
+      "example_sentence": "يَجِبُ احْتِرَامُ الْقَانُونِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Il faut respecter la loi"
+    },
+    {
+      "word_id": "v5",
+      "term": "مَقْبُولٌ",
+      "phonetic_api": "/maq.buː.lun/",
+      "phonetic_simple": "MAK-BOOU-LOUN",
+      "translation": "Acceptable / Admis / Validé",
+      "example_sentence": "هَذَا الْعُذْرُ غَيْرُ مَقْبُولٍ",
+      "example_phonetic": "/.../",
+      "example_translation": "Cette excuse n'est pas acceptable"
+    },
+    {
+      "word_id": "v6",
+      "term": "شَرْطٌ",
+      "phonetic_api": "/ʃar.tˤun/",
+      "phonetic_simple": "CHART-OUN",
+      "translation": "Une condition / Une clause / Une exigence",
+      "example_sentence": "هَذَا شَرْطٌ مُهِمٌّ لِلْعَقْدِ",
+      "example_phonetic": "/.../",
+      "example_translation": "C'est une condition importante pour le contrat"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "يَجِبُ عَلَيْكَ أَنْ تَحْضُرَ الِاجْتِمَاعَ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "YA-DJI-BOU ALAY-KA AN TAH-DOU-RAL IDJ-TI-MAA",
+      "translation": "Tu dois assister à la réunion (obligation personnelle à un homme)",
+      "context": "Formuler une exigence professionnelle claire envers un collaborateur."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "مَمْنُوعٌ الدُّخُولُ بِدُونِ إِذْنٍ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MAM-NOUU-OUL DOU-KHOOU-LOU BI-DOOU-NI ITHN",
+      "translation": "Entrée interdite sans autorisation",
+      "context": "Affichage réglementaire standard à l'entrée d'un bâtiment ou d'une zone sécurisée."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "هَلْ يَسْمَحُ الْقَانُونُ بِهَذَا الْإِجْرَاءِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAL YAS-MA-HOUL KAA-NOOU-NOU BI-HAA-THAL IDj-RAA",
+      "translation": "Est-ce que la loi permet cette procédure ?",
+      "context": "Interrogation sur la légalité ou la conformité d'une action."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "لَا يَجُوزُ تَجَاوُزُ السُّرْعَةِ الْمُحَدَّدَةِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "LAA YA-DJOUU-ZOU TA-DJAA-WOU-ZOUS SOUR-A-TIL MOU-HAD-DA-DA",
+      "translation": "Il n'est pas permis de dépasser la vitesse autorisée",
+      "context": "Énoncé d'un règlement ou d'une interdiction légale."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "هَلْ يُمْكِنُنِي الْخُرُوجُ الآنَ مِنْ فَضْلِكَ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAL YOUM-KI-NOU-NII L-KHOU-ROOU-DJOUL AAN MIN FAD-LI-KA",
+      "translation": "Puis-je sortir maintenant, s'il te plaît ? (à un homme)",
+      "context": "Demande de permission polie et courtoise dans un cadre formel ou social."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'obligation personnelle : 'Yajibu 'alā ... an'",
+      "explanation": "Pour exprimer l'obligation en arabe standard de niveau intermédiaire, on utilise la tournure impersonnelle 'Yajibu' (il faut / il est nécessaire) combinée avec la préposition 'alā' (sur) et un pronom.",
+      "rules": [
+        "La structure est : Yajibu (يَجِبُ) + عَلَى ('alā) + le pronom de la personne concernée + la particule أَنْ (an).",
+        "Le pronom attaché indique à qui s'impose l'obligation (ex: 'alayka = sur toi, 'alayhi = sur lui).",
+        "Le verbe d'action qui suit 'An' (أَنْ) doit être conjugué à l'inaccompli subjonctif (se terminant par une Fatha pour les verbes réguliers)."
+      ],
+      "examples": [
+        {
+          "structure": "يَجِبُ عَلَيَّ أَنْ أَذْهَبَ",
+          "phonetic_api": "/ja.dʒi.bu ʕa.laj.ja ʔan ʔað.ha.ba/",
+          "meaning": "Je dois partir / Il m'incombe de m'en aller"
+        },
+        {
+          "structure": "يَجِبُ عَلَيْهِمْ أَنْ يَعْمَلُوا",
+          "phonetic_api": "/.../",
+          "meaning": "Ils doivent travailler (Subjonctif pluriel sans le nūn final)"
+        }
+      ]
+    },
+    {
+      "concept": "L'interdiction formelle et absolue : 'Mamnoo'' et 'Lā' de défense",
+      "explanation": "Il existe deux façons principales de formuler une interdiction selon le degré de formalité de la phrase.",
+      "rules": [
+        "Structure nominale : Mamnoo' (مَمْنُوعٌ) + le nom d'action au cas nominatif (Masdar) (ex: Mamnoo'un ad-dukhool = Interdit d'entrer).",
+        "Structure verbale : Lā (لَا) de prohibition + le verbe à la deuxième personne conjugué au mode jussif (Majzoom - se terminant généralement par un Soukoun)."
+      ],
+      "examples": [
+        {
+          "structure": "مَمْنُوعٌ الْكَلامُ",
+          "phonetic_api": "/mam.nuː.ʕun al.ka.laː.mu/",
+          "meaning": "Défense de parler / Interdit de parler"
+        },
+        {
+          "structure": "لَا تَكْتُبْ هُنَا",
+          "phonetic_api": "/laː tak.tub hu.naː/",
+          "meaning": "N'écris pas ici (Interdiction directe avec soukoun sur le bā')"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "الْمُوَظَّفُ (L'employé)",
+      "text": "عَفْوًا يَا مُدِيرِي، هَلْ يَسْمَحُ الْوَقْتُ بِالتَّحَدُّثِ مَعَكَ قَلِيلًا؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AF-OUAN YA MOU-DII-RII, HAL YAS-MA-HOUL WAK-TOU BIT-TA-HAD-DOU-THI MA-A-KA KA-LII-LAN",
+      "translation": "Excusez-moi mon directeur, le temps permet-il de discuter un peu avec vous ?"
+    },
+    {
+      "speaker": "الْمُدِيرُ (Le directeur)",
+      "text": "تَفَضَّلْ. لَكِنْ لَا تَنْسَ أَنَّهُ يَجِبُ عَلَيْكَ أَنْ تَمْلأَ هَذَا النَّمُوذَجَ أَوَّلًا.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "TA-FAD-DAL. LA-KIN LAA TAN-SA AN-NA-HOU YA-DJI-BOU ALAY-KA AN TAM-LA-A HAA-THAL NA-MOOU-DA-DJA AW-WA-LAN",
+      "translation": "Je t'en prie. Mais n'oublie pas qu'il te faut d'abord remplir ce formulaire."
+    },
+    {
+      "speaker": "الْمُوَظَّفُ (L'employé)",
+      "text": "حَاضِرٌ. هَلْ يُمْكِنُنِي أَرْسَالُهُ عَبْرَ الْبَرِيدِ، أَمْ يَجِبُ تَسْلِيمُهُ يَدَوِيًّا؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAA-DIR. HAL YOUM-KI-NOU-NII IR-SAA-LOU-HOU AB-RAL BA-RIID, AM YA-DJI-BOU TAS-LII-MOU-HOU YA-DA-WIY-YAN",
+      "translation": "Bien sûr. Puis-je l'envoyer par courriel, ou faut-il le remettre en main propre ?"
+    },
+    {
+      "speaker": "الْمُدِيرُ (Le directeur)",
+      "text": "يُمْكِنُكَ إِرْسَالُهُ إِلِكْتُرُونِيًّا. لَكِنْ مَمْنُوعٌ تَأْخِيرُهُ عَنْ يَوْمِ الْخَمِيسِ الْمُقْبِلِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "YOUM-KI-NOU-KA IR-SAA-LOU-HOU I-LIK-TOU-ROU-NIY-YAN. LA-KIN MAM-NOUU-OUN TA'-KHII-ROU-HOU AN YAW-MIL KHA-MII-SIL MUK-BIL",
+      "translation": "Tu peux l'envoyer par voie électronique. Cependant, il est interdit de le retarder au-delà de jeudi prochain."
+    },
+    {
+      "speaker": "الْمُوَظَّفُ (L'employé)",
+      "text": "فَهِمْتُ الشُّرُوطَ جَيِّدًا. شُكْرًا لَكَ عَلَى الإِذْنِ وَالْوَقْتِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "FA-HIM-TOUCH CHOU-ROO-TA DJAY-YI-DAN. CHOUK-RAN LA-KA A-LAL ITH-NI WAL-WAKT",
+      "translation": "J'ai bien compris les conditions. Merci à vous pour l'autorisation et le temps accordé."
+    }
+  ],
+  "cultural_notes": [
+    "Le respect de la hiérarchie professionnelle (Al-Ihtiram) : Dans le milieu professionnel arabe, l'expression de l'obligation ou de la directive venant d'un supérieur est généralement adoucie par des termes de politesse mais reste absolue dans son exécution. S'adresser à un directeur requiert des titres formels comme 'Yā Sayyidī' (Monsieur) ou 'Yā Mudīrī' (Mon directeur).",
+    "La notion d'interdit culturel (Al-Mamnoo') : Dans la vie publique, les panneaux 'Mamnoo'' s'appliquent rigoureusement aux règles de civilité et aux espaces familiaux (zones réservées aux familles dans les parcs ou restaurants), une particularité culturelle visant à préserver le confort de l'entourage social."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M3_L7_ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la formulation grammaticalement correcte pour signifier 'Vous (pluriel) devez respecter le règlement' ?",
+      "options": [
+        "يَجِبُ عَلَيْكُمْ أَنْ تَحْتَرِمُوا الْقَانُونَ (Yajibu 'alaykum an tahtarimū l-qānūna)",
+        "مَمْنُوعٌ عَلَيْكُمْ أَنْ تَحْتَرِمُوا (Mamnoo'un 'alaykum an tahtarimū)",
+        "لَا تَحْتَرِمْ الْقَانُونِ (Lā tahtarim al-qānūni)"
+      ],
+      "correct_answer": "يَجِبُ عَلَيْكُمْ أَنْ تَحْتَرِمُوا الْقَانُونَ (Yajibu 'alaykum an tahtarimū l-qānūna)",
+      "explanation": "On emploie 'Yajibu 'alaykum' (il vous incombe) + 'an' + le verbe au subjonctif pluriel sans le nūn."
+    },
+    {
+      "exercise_id": "B1_M3_L7_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour afficher une interdiction de photographier, on écrit : [ ___ ] التَّصْوِيرُ",
+      "correct_answer": "مَمْنُوعٌ",
+      "hint": "C'est l'adjectif passif universel signifiant prohibé ou interdit."
+    },
+    {
+      "exercise_id": "B1_M3_L7_ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie la requête formulée ainsi : 'هَلْ يُمْكِنُنِي الْإِيجَارُ؟' (Hal yumkinunī l-ījāru) ?",
+      "options": [
+        "Faut-il que je paye le loyer ?",
+        "Est-il possible pour moi de louer ?",
+        "Est-il interdit de louer ici ?"
+      ],
+      "correct_answer": "Est-il possible pour moi de louer ?",
+      "explanation": "Le verbe 'Yumkinu' combiné au pronom ni ('Yumkinunī') sert à solliciter poliment la possibilité ou la permission d'accomplir une action."
+    }
+  ]
+}

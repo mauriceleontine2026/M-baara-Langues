@@ -1,0 +1,163 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés",
+  "learning_objectives": [
+    "Exprimer l'antériorité et la simultanéité d'actions passées via les formes perfectives et imperfectives combinées",
+    "Maîtriser le conditionnel passé et l'irréel du passé dans les récits complexes",
+    "Utiliser le mode subjonctif-optatif de manière stylistique pour exprimer des souhaits solennels ou des malédictions rituelles"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La combinaison du morphème du passé 'ra' avec l'inaccompli '-da' crée un environnement consonantique exigeant une articulation fluide : le 'r' doit être discrètement battu [ɾ] pour éviter de ralentir le débit. Les voyelles nasales imbriquées dans les structures modales (ex: 'sã n dɩk') requièrent une bascule rapide du flux d'air entre la cavité buccale et nasale.",
+    "common_pitfalls": "Dans les structures complexes comme 'ra tūumda', veillez à ne pas omettre le ton haut sur la particule 'ra'. Un ton erroné peut faire basculer l'énoncé d'un récit au passé vers une structure impérative ou d'interdiction."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v19_1",
+      "term": "Wẽndẽ-yãmbã",
+      "phonetic_api": "/wẽndẽ jãmbã/",
+      "phonetic_simple": "WIN-DUEN YAM-BAN",
+      "translation": "Les temps immémoriaux / Le passé lointain et historique",
+      "example_sentence": "Wẽndẽ-yãmbã, d ba-rãmbã ra tara pãng kãsenga.",
+      "example_phonetic": "/wẽndẽ jãmbã d barãmba ra tara pãŋ kãsẽŋɡa/",
+      "example_translation": "Aux temps immémoriaux, nos ancêtres possédaient une force immense."
+    },
+    {
+      "word_id": "v19_2",
+      "term": "Yɩɩlmã",
+      "phonetic_api": "/jɪːlmã/",
+      "phonetic_simple": "YIIL-MAN",
+      "translation": "Le fait d'accomplir / L'action d'arriver à terme (nominalisation)",
+      "example_sentence": "Tūumã yɩɩlmã kɩsame.",
+      "example_phonetic": "/tuːmã jɪːlmã kɪsame/",
+      "example_translation": "L'accomplissement total de ce travail est requis/sacré."
+    },
+    {
+      "word_id": "v19_3",
+      "term": "Sã n yɩ",
+      "phonetic_api": "/sã n jɩ/",
+      "phonetic_simple": "SAN N YI",
+      "translation": "S'il s'avère que / S'il arrivait que (locution conditionnelle avancée)",
+      "example_sentence": "A sã n yɩ sɩda, m na deeg-y.",
+      "example_phonetic": "/a sã n jɩ sɪda m na deːɣ i/",
+      "example_translation": "S'il s'avère que c'est la vérité, je vous croirai."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p19_1",
+      "original": "M ra sã n mɩ t y na wa, m ra na n deeg-y laafi.",
+      "phonetic_api": "/m ra sã n mɩ t i na wa m ra na n deːɣ i laːfi/",
+      "phonetic_simple": "M RA SAN N MI T Y NA WA, M RA NA N DÉEG-Y LAA-FI",
+      "translation": "Si j'avais su que vous viendriez, je vous aurais accueilli chaleureusement.",
+      "context": "Expression de l'irréel du passé (regret ou politesse rétrospective avancée)."
+    },
+    {
+      "phrase_id": "p19_2",
+      "original": "A ra tūumda wakat nins d ra n kẽng zĩigã pūasẽ.",
+      "phonetic_api": "/a ra tuːmda wakat nins d ra n kẽnɡ zɪːɣã puːasẽ/",
+      "phonetic_simple": "A RA TOO-M-DA WA-KAT NINS D RA N KENG ZIIG-AN POO-A-SUEN",
+      "translation": "Il était en train de travailler au moment même où nous entrions dans la pièce.",
+      "context": "Simultanéité d'actions passées (imparfait de description)."
+    },
+    {
+      "phrase_id": "p19_3",
+      "original": "Wend na kɩt t y bēogã yɩ pēelga zãngo.",
+      "phonetic_api": "/wend na kɪt t i beːɣã jɪ peːlɣa zãŋɡo/",
+      "phonetic_simple": "WEND NA KIT T Y BÉE-GAN YI PÉEL-GA ZAN-NGO",
+      "translation": "Puisse Dieu faire en sorte que votre avenir soit totalement radieux.",
+      "context": "Formule solennelle de bénédiction au mode optatif avancé."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'imparfait de description et de simultanéité ('ra + verbe-da')",
+      "explanation": "Pour exprimer une action qui était en train de se dérouler dans le passé au moment où survient un autre événement (équivalent de l'imparfait français), le mooré combine le morphème du passé lointain 'ra' et le suffixe de l'inaccompli/progressif '-da'.",
+      "rules": [
+        "Structure : [Sujet] + ra + [Verbe + da/ta] + [Complément].",
+        "Cette forme unit la valeur temporelle révolue et la valeur aspectuelle de l'action non achevée."
+      ],
+      "examples": [
+        {
+          "structure": "M + ra + zãms + da + [moorẽ]",
+          "phonetic_api": "/m ra zãmsda moːrẽ/",
+          "meaning": "J'étais en train d'étudier le mooré."
+        }
+      ]
+    },
+    {
+      "concept": "L'irréel du passé avec la double particule 'ra'",
+      "explanation": "Pour construire une hypothèse non réalisée dans le passé ('si j'avais fait..., j'aurais obtenu...'), le mooré utilise le marqueur 'ra' dans la proposition conditionnelle (introduite par 'sã n') ET dans la proposition principale de conséquence.",
+      "rules": [
+        "Structure : [Sujet] + ra + sã n + [Verbe 1], [Sujet] + ra + na n + [Verbe 2].",
+        "La combinaison 'ra + na n' crée la valeur modale du conditionnel passé."
+      ],
+      "examples": [
+        {
+          "structure": "M + ra + sã n + tūum, m + ra + na n + paam + [ligdi]",
+          "phonetic_api": "/m ra sã n tuːm m ra na n paam liɣdi/",
+          "meaning": "Si j'avais travaillé, j'aurais obtenu de l'argent."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kasgã (Le sage)",
+      "text": "Boukari, d ra sã n sɩng tūum kãngã wẽndẽ, d ra na n paama sõngre zãngo.",
+      "phonetic_api": "/boukari d ra sã n sɪnɡ tuːm kãŋɡã wẽndẽ d ra na n paːma sõnɡre zãŋɡo/",
+      "phonetic_simple": "BOU-KA-RI, D RA SAN N SIN-G TOOM KAN-NGAN WIN-DUEN, D RA NA N PAA-MA SONG-RE ZAN-NGO",
+      "translation": "Boukari, si nous avions commencé cette entreprise autrefois, nous aurions obtenu un succès total."
+    },
+    {
+      "speaker": "Boukari (L'homme mûr)",
+      "text": "Sɩda la y gōma, m baa. M ra sã n mɩ woto, m ra na n kẽnga Wagadugu dara daare.",
+      "phonetic_api": "/sɪda la i ɡoːma m baː m ra sã n mɩ woto m ra na n kẽnɡa waɣaduɣu dara daːre/",
+      "phonetic_simple": "SI-DA LA Y GOO-MA, M BAA. M RA SAN N MI WO-TO, M RA NA N KENG-A WA-GA-DOU-GOU DA-RA DAA-RÉ",
+      "translation": "C'est la vérité que vous dites, mon père. Si j'avais su cela, je serais parti à Ouagadougou avant-hier."
+    },
+    {
+      "speaker": "Kasgã (Le sage)",
+      "text": "Y yãe n sãam y sũurɩ. Wakat nins f ra n zãmsda sebrã, f ra paama pãng kãsenga.",
+      "phonetic_api": "/i jãe n sãːm i sũːrɩ wakat nins f ra n zãmsda sebrã f ra paːma pãŋ kãsẽŋɡa/",
+      "phonetic_simple": "Y YÃE N SÃAM Y SOO-RI. WA-KAT NINS F RA N ZAMS-DA SEB-RAN, F RA PAA-MA PAN-G KAN-SEN-GA",
+      "translation": "Ne gâte pas ton cœur (ne regrette rien). Au moment où tu étudiais tes livres, tu acquérais une grande force."
+    },
+    {
+      "speaker": "Boukari (L'homme mûr)",
+      "text": "Amiina. Wend na kɩt t d bēogã yɩ sõma.",
+      "phonetic_api": "/amiːna wend na kɪt t d beːɣã jɪ sõma/",
+      "phonetic_simple": "A-MII-NA. WEND NA KIT T D BÉE-GAN YI SO-MA",
+      "translation": "Amen. Puisse Dieu faire en sorte que notre avenir soit excellent."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la rhétorique avancée des Mossi, l'usage du conditionnel passé permet d'évoquer des opportunités manquées sans verser dans la complainte directe, ce qui témoignerait d'un manque de dignité. On formule les regrets sous forme de leçons de sagesse partagées.",
+    "Les formules optatives introduites par 'Wend na kɩt t...' (Que Dieu fasse que) constituent la structure de base des grands discours protocolaires proférés par les chefs coutumiers ('Naaba') lors des rituels de protection de la communauté.",
+    "Le rappel du passé historique ('Wẽndẽ-yãmbã') sert d'ancrage juridique et moral lors des arbitrages fonciers ou familiaux complexes menés par le conseil des anciens."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex19_1",
+      "type": "multiple_choice",
+      "question": "Quelle combinaison de marqueurs grammaticaux permet de traduire l'imparfait de description (ex: 'il était en train de travailler') ?",
+      "options": [
+        "na + verbe-ẽ",
+        "ra + verbe-da",
+        "sã n + verbe-me"
+      ],
+      "correct_answer": "ra + verbe-da",
+      "explanation": "Le préverbe 'ra' (passé) associé au suffixe d'inaccompli '-da' permet de décrire une action passée en cours de réalisation."
+    },
+    {
+      "exercise_id": "ex19_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "M ra sã n mɩ woto, m ra [ ___ ] n kẽngme. (Traduction : Si j'avais connu cela, je serais parti.)",
+      "correct_answer": "na",
+      "hint": "Le morphème de projection qui s'associe à 'ra' dans la principale pour former le conditionnel passé."
+    }
+  ]
+}

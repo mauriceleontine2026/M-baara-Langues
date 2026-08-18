@@ -1,0 +1,215 @@
+{
+  "lesson_id": "C1_M2_L4",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 4,
+  "title": "Les proverbes, dictons et expressions imagées de la culture",
+  "learning_objectives": [
+    "Comprendre la portée métaphorique et philosophique des proverbes mandingues",
+    "Manipuler le lexique figuré lié à la faune et aux éléments de la nature",
+    "Insérer un dicton traditionnel de manière fluide dans une argumentation"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La prononciation du mot 'Sanya' (pureté) requiert une voyelle nasale brève et claire. Le terme 'Kɔnɔgan' (secret profond) associe deux syllabes ouvertes se terminant par une fermeture nasale douce.",
+    "common_pitfalls": "Attention à la longueur vocalique de 'Saa' (le serpent/la mort) qui doit être étirée (/saː/), pour éviter la confusion avec 'sa' (le panier/finir)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v4_1",
+      "term": "Talen",
+      "phonetic_api": "/ta.lẽ/",
+      "phonetic_simple": "TA-LEN",
+      "translation": "Proverbe / Parabole / Énigme",
+      "example_sentence": "Mɔgɔba lu bɛ talen fɔ",
+      "example_phonetic": "/mɔ.ɡɔ.ba lu bɛ ta.lẽ fɔ/",
+      "example_translation": "Les sages s'expriment par des proverbes."
+    },
+    {
+      "word_id": "v4_2",
+      "term": "Saa",
+      "phonetic_api": "/saː/",
+      "phonetic_simple": "SAA",
+      "translation": "Le serpent (utilisé dans les métaphores de prudence)",
+      "example_sentence": "Saa mu se la ka faden dɛmɛ",
+      "example_phonetic": "/saː mu se la ka fa.dẽ dɛ.mɛ/",
+      "example_translation": "Le serpent ne peut aider son rival."
+    },
+    {
+      "word_id": "v4_3",
+      "term": "Balanza",
+      "phonetic_api": "/ba.lan.za/",
+      "phonetic_simple": "BA-LAN-ZA",
+      "translation": "L'acacia (arbre sacré symbole de résilience)",
+      "example_sentence": "A ka sariya bɛ lɔ la i n’a fɔ balanza",
+      "example_phonetic": "/a ka sa.ri.ja bɛ lɔ la i n‿a fɔ ba.lan.za/",
+      "example_translation": "Sa droiture est solide comme l'acacia."
+    },
+    {
+      "word_id": "v4_4",
+      "term": "Kɔnɔgan",
+      "phonetic_api": "/kɔ.nɔ.ɡã/",
+      "phonetic_simple": "KƆ-NƆ-GAN",
+      "translation": "La pensée cachée / L'énigme du cœur",
+      "example_sentence": "Kɔnɔgan faha ka gbanan",
+      "example_phonetic": "/kɔ.nɔ.ɡã fa.ha ka ɡ͡ba.nã/",
+      "example_translation": "Comprendre les secrets profonds est difficile."
+    },
+    {
+      "word_id": "v4_5",
+      "term": "Kulu",
+      "phonetic_api": "/ku.lu/",
+      "phonetic_simple": "KOU-LOU",
+      "translation": "La montagne / Symbole d'épreuve ou d'immobilité",
+      "example_sentence": "Ni kulu mu ta la, fo ni kila tara",
+      "example_phonetic": "/ni ku.lu mu ta la fo ni ki.la ta.ra/",
+      "example_translation": "Si la montagne ne bouge pas, le messager s'y rend."
+    },
+    {
+      "word_id": "v4_6",
+      "term": "Jeliya",
+      "phonetic_api": "/d͡ʒe.li.ja/",
+      "phonetic_simple": "DJÉ-LI-YA",
+      "translation": "L'art de la louange / La fonction de griot",
+      "example_sentence": "Jeliya na lɔgɔfe ra Manding",
+      "example_phonetic": "/d͡ʒe.li.ja na lɔ.ɡɔ.fe ra man.diŋ/",
+      "example_translation": "Le griottisme est une institution sacrée au Manding."
+    },
+    {
+      "word_id": "v4_7",
+      "term": "Sanya",
+      "phonetic_api": "/sa.nja/",
+      "phonetic_simple": "SAN-YA",
+      "translation": "La pureté / L'intégrité morale",
+      "example_sentence": "Dusukun sanya fisa ni wari ra",
+      "example_phonetic": "/du.su.kũ sa.nja fi.sa ni wa.ri ra/",
+      "example_translation": "La pureté du cœur vaut mieux que la richesse."
+    },
+    {
+      "word_id": "v4_8",
+      "term": "Dunan",
+      "phonetic_api": "/du.nã/",
+      "phonetic_simple": "DOU-NAN",
+      "translation": "L'étranger / L'hôte de passage",
+      "example_sentence": "Dunan mu so da dila la",
+      "example_phonetic": "/du.nã mu so da di.la la/",
+      "example_translation": "L'étranger ne construit pas le seuil de la maison."
+    },
+    {
+      "word_id": "v4_9",
+      "term": "Kila",
+      "phonetic_api": "/ki.la/",
+      "phonetic_simple": "KI-LA",
+      "translation": "Le messager / L'émissaire",
+      "example_sentence": "Kila mu gasi la",
+      "example_phonetic": "/ki.la mu ɡa.si la/",
+      "example_translation": "On ne frappe pas le messager."
+    },
+    {
+      "word_id": "v4_10",
+      "term": "Maana",
+      "phonetic_api": "/maː.na/",
+      "phonetic_simple": "MAA-NA",
+      "translation": "Le récit mythique / L'histoire ancestrale",
+      "example_sentence": "An bɛ maana mɛn la bi su la",
+      "example_phonetic": "/an bɛ maː.na mɛn la bi su la/",
+      "example_translation": "Nous écoutons l'épopée ce soir."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p4_1",
+      "original": "Mɔgɔ tɛ i bolo fila bila saa da kɔnɔ.",
+      "phonetic_api": "/mɔ.ɡɔ tɛ i bo.lo fi.la bi.la saː da kɔ.nɔ/",
+      "phonetic_simple": "MƆ-GƆ TƐ I BO-LO FI-LA BI-LA SAA DA KƆ-NƆ.",
+      "translation": "On ne met pas ses deux mains à la fois dans la bouche du serpent.",
+      "context": "Dicton de prudence absolue signifiant qu'il ne faut pas tenter le diable ou cumuler les risques."
+    },
+    {
+      "phrase_id": "p4_2",
+      "original": "Dunan mu so da dila la katuguni a bɛ ta la sini.",
+      "phonetic_api": "/du.nã mu so da di.la la ka.tu.ɡu.ni a bɛ ta la si.ni/",
+      "phonetic_simple": "DOU-NAN MOU SO DA DI-LA LA KA-TOU-GOU-NI A BƐ TA LA SI-NI.",
+      "translation": "L'étranger ne bâtit pas le seuil de la porte car il repart demain.",
+      "context": "Rappeler poliment les limites de prérogatives d'un intervenant externe."
+    },
+    {
+      "phrase_id": "p4_3",
+      "original": "Talen na kuma kun ra i n’a fɔ ji gbe.",
+      "phonetic_api": "/ta.lẽ na ku.ma kũ ra i n‿a fɔ d͡ʒi ɡ͡be/",
+      "phonetic_simple": "TA-LEN NA KOU-MA KOUN RA I N'A FƆ DJI GBÉ.",
+      "translation": "Le proverbe apporte au discours la clarté de l'eau pure.",
+      "context": "Formule d'introduction stylée avant d'énoncer une vérité coutumière."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La comparaison métaphorique figée avec 'i n’a fɔ'",
+      "explanation": "En malinké soutenu, la locution conjonctive 'i n’a fɔ' (exactement comme / tel que) introduit une proposition comparative ou une allégorie poétique sans altérer la fonction syntaxique du bloc nominal qui la suit.",
+      "rules": [
+        "Structure : [Idée principale] + 'i n’a fɔ' + [Élément naturel ou animal symbolique]."
+      ],
+      "examples": [
+        {
+          "structure": "A ka sariya ka gbanan i n’a fɔ kulu",
+          "phonetic_api": "/a ka sa.ri.ja ka ɡ͡ba.nã i n‿a fɔ ku.lu/",
+          "meaning": "Sa règle est immuable comme une montagne."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Le Vieux Griot",
+      "text": "Denkɛ, i ka kuma ka di kɔni, nka fo i ka talen lu fahamya.",
+      "phonetic_api": "/dẽ.kɛ i ka ku.ma ka di kɔ.ni n̩.ka fo i ka ta.lẽ lu fa.ham.ja/",
+      "phonetic_simple": "DEN-KƐ, I KA KOU-MA KA DI KƆ-NI, N-KA FO I KA TA-LEN LOU FA-HAM-YA.",
+      "translation": "Mon fils, tes paroles sont certes plaisantes, mais il te faut maîtriser le sens des proverbes."
+    },
+    {
+      "speaker": "Le Jeune Homme",
+      "text": "Nse karamɔgɔ. N bɛ yan katuguni n fɛ ka dusukun sanya sɔrɔ talen fɛ.",
+      "phonetic_api": "/n̩.se ka.ra.mɔ.ɡɔ n̩ bɛ d͡ʒan ka.tu.ɡu.ni n̩ fɛ ka du.su.kũ sa.nja sɔ.rɔ ta.lẽ fɛ/",
+      "phonetic_simple": "N-SÉ KA-RA-MƆ-GƆ. N BƐ YAN KA-TOU-GOU-NI N FƐ KA DOU-SOU-KOUN SAN-YA SƆ-RƆ TA-LEN FƐ.",
+      "translation": "Merci maître. Je me tiens ici parce que je désire acquérir la pureté de l'esprit par les dictons."
+    },
+    {
+      "speaker": "Le Vieux Griot",
+      "text": "O bɛnna. I n’a fɔ mɔgɔba lu bɛ a fɔ la : mɔgɔ tɛ i bolo fila bila saa da kɔnɔ.",
+      "phonetic_api": "/o bɛn.na i n‿a fɔ mɔ.ɡɔ.ba lu bɛ a fɔ la mɔ.ɡɔ tɛ i bo.lo fi.la bi.la saː da kɔ.nɔ/",
+      "phonetic_simple": "O BƐN-NA. I N'A FƆ MƆ-GƆ-BA LOU BƐ A FƆ LA : MƆ-GƆ TƐ I BO-LO FI-LA BI-LA SAA DA KƆ-NƆ.",
+      "translation": "C'est bien. Comme le disent les anciens : on ne met pas ses deux mains à la fois dans la gueule du serpent."
+    },
+    {
+      "speaker": "Le Jeune Homme",
+      "text": "N a fahamya nɛ ! O na wajibila ra n ye ka n ka mirila lu sanya.",
+      "phonetic_api": "/n̩ a fa.ham.ja nɛ o na wa.d͡ʒi.bi.la ra n̩ de ka n̩ ka mi.ri.la lu sa.nja/",
+      "phonetic_simple": "N A FA-HAM-YA NƐ ! O NA OUA-DJI-BI-LA RA N YE KA N KA MI-RI-LA LOU SAN-YA.",
+      "translation": "Je l'ai parfaitement saisi ! C'est désormais un devoir pour moi de purifier mes intentions."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'univers culturel mandingue, le proverbe ('talen') est l'habillage indispensable de la vérité. Un discours sans métaphore est jugé sec et sans saveur. Les animaux (le serpent, l'hyène, le lion) et la flore (le balanza, le baobab) servent de vecteurs anthropomorphiques pour corriger les comportements sans heurter de front la sensibilité de l'interlocuteur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M2_L4_ex1",
+      "type": "multiple_choice",
+      "question": "Que symbolise le proverbe de la bouche du serpent ('saa da') ?",
+      "options": [
+        "L'obligation de chasser",
+        "La prudence face au danger cumulé",
+        "L'accueil des étrangers"
+      ],
+      "correct_answer": "La prudence face au danger cumulé",
+      "explanation": "Le dicton enseigne qu'il faut se préserver en évitant de s'exposer de manière insensée aux périls."
+    },
+    {
+      "exercise_id": "C1_M2_L4_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A ka kuma ka di [ ___ ] ji gbe (Sa parole est limpide comme de l'eau pure).",
+      "correct_answer": "i n'a fo",
+      "hint": "Locution comparative de trois mots signifiant 'tel que' ou 'comme'."
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer, orthographier et prononcer les 7 jours de la semaine et les 12 mois de l'année",
+    "Demander et donner l'heure avec précision dans les registres courant et formel"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les cinq premiers jours de la semaine se terminent par la syllabe accentuée '-dì' /di/. L'accent tonique se déplace obligatoirement sur la dernière voyelle. Pour les mois présentant des consonnes géminées (doubles) comme 'maggio' /ˈmaddʒo/ ou 'febbraio' /febˈbraːjo/, observez un micro-temps d'arrêt avant de relâcher la consonne. L'article pluriel féminin 'le' /le/ précède systématiquement les heures au pluriel.",
+    "common_pitfalls": "Le 'u' dans 'lunedì' ou 'luglio' se prononce strictement /u/ (ou). Veillez à ne pas nasaliser les voyelles du mois de 'novembre' /noˈvɛmbre/ ou 'dicembre' /diˈtʃɛmbre/ ; le 'n' et le 'm' doivent être articulés séparément des voyelles."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Lunedì",
+      "phonetic_api": "/luneˈdi/",
+      "phonetic_simple": "LOU-NÉ-DI",
+      "translation": "Lundi",
+      "example_sentence": "Lunedì inizio il nuovo corso.",
+      "example_phonetic": "/luneˈdi iˈnittsjo il ˈnwɔːvo ˈkorso/",
+      "example_translation": "Lundi je commence le nouveau cours."
+    },
+    {
+      "word_id": "v2",
+      "term": "Martedì",
+      "phonetic_api": "/marteˈdi/",
+      "phonetic_simple": "MAR-TÉ-DI",
+      "translation": "Mardi",
+      "example_sentence": "Il treno parte martedì mattina.",
+      "example_phonetic": "/il ˈtrɛːno ˈparte marteˈdi matˈtiːna/",
+      "example_translation": "Le train part mardi matin."
+    },
+    {
+      "word_id": "v3",
+      "term": "Mercoledì",
+      "phonetic_api": "/merkoledˈdi/",
+      "phonetic_simple": "MÈR-KO-LÉ-DI",
+      "translation": "Mercredi",
+      "example_sentence": "Mercoledì ho un appuntamento.",
+      "example_phonetic": "/merkoledˈdi ɔ un appuntaˈmento/",
+      "example_translation": "Mercredi j'ai un rendez-vous."
+    },
+    {
+      "word_id": "v4",
+      "term": "Giovedì",
+      "phonetic_api": "/dʒoveˈdi/",
+      "phonetic_simple": "DJO-VÉ-DI",
+      "translation": "Jeudi",
+      "example_sentence": "Il negozio è chiuso il giovedì.",
+      "example_phonetic": "/il neˈgɔttsjo ɛ kˈkjuːzo il dʒoveˈdi/",
+      "example_translation": "Le magasin est fermé le jeudi."
+    },
+    {
+      "word_id": "v5",
+      "term": "Venerdì",
+      "phonetic_api": "/venerˈdi/",
+      "phonetic_simple": "VÉ-NÈR-DI",
+      "translation": "Vendredi",
+      "example_sentence": "Ci vediamo venerdì sera.",
+      "example_phonetic": "/tʃi veˈdjaːmo venerˈdi ˈseːra/",
+      "example_translation": "On se voit vendredi soir."
+    },
+    {
+      "word_id": "v6",
+      "term": "Sabato",
+      "phonetic_api": "/ˈsaːbato/",
+      "phonetic_simple": "SA-BA-TO",
+      "translation": "Samedi",
+      "example_sentence": "Il sabato vado al mercato.",
+      "example_phonetic": "/il ˈsaːbato ˈvaːdo al merˈkaːto/",
+      "example_translation": "Le samedi je vais au marché."
+    },
+    {
+      "word_id": "v7",
+      "term": "Domenica",
+      "phonetic_api": "/doˈmeːnika/",
+      "phonetic_simple": "DO-MÉ-NI-KA",
+      "translation": "Dimanche",
+      "example_sentence": "La domenica riposo sempre.",
+      "example_phonetic": "/la doˈmeːnika riˈpɔːzo ˈsempre/",
+      "example_translation": "Le dimanche je me repose toujours."
+    },
+    {
+      "word_id": "v8",
+      "term": "Gennaio",
+      "phonetic_api": "/dʒenˈnaːjo/",
+      "phonetic_simple": "DJEN-NA-IO",
+      "translation": "Janvier",
+      "example_sentence": "In gennaio nevica spesso.",
+      "example_phonetic": "/in dʒenˈnaːjo ˈneːvika ˈspesso/",
+      "example_translation": "En janvier il neige souvent."
+    },
+    {
+      "word_id": "v9",
+      "term": "Febbraio",
+      "phonetic_api": "/febˈbraːjo/",
+      "phonetic_simple": "FEB-BRA-IO",
+      "translation": "Février",
+      "example_sentence": "Febbraio è un mese corto.",
+      "example_phonetic": "/febˈbraːjo ɛ un ˈmeːze ˈkorto/",
+      "example_translation": "Février est un mois court."
+    },
+    {
+      "word_id": "v10",
+      "term": "Marzo",
+      "phonetic_api": "/ˈmartso/",
+      "phonetic_simple": "MAR-TSO",
+      "translation": "Mars",
+      "example_sentence": "La primavera inizia a marzo.",
+      "example_phonetic": "/la primaˈvɛːra iˈnittsjo a ˈmartso/",
+      "example_translation": "Le printemps commence en mars."
+    },
+    {
+      "word_id": "v11",
+      "term": "Aprile",
+      "phonetic_api": "/aˈpriːle/",
+      "phonetic_simple": "A-PRI-LÉ",
+      "translation": "Avril",
+      "example_sentence": "Aprile ha trenta giorni.",
+      "example_phonetic": "/aˈpriːle a tˈtrenta ˈdʒorni/",
+      "example_translation": "Avril a trente jours."
+    },
+    {
+      "word_id": "v12",
+      "term": "Maggio",
+      "phonetic_api": "/ˈmaddʒo/",
+      "phonetic_simple": "MAD-JO",
+      "translation": "Mai",
+      "example_sentence": "Il mio compleanno è a maggio.",
+      "example_phonetic": "/il miːo kompleˈanno ɛ a mˈmaddʒo/",
+      "example_translation": "Mon anniversaire est en mai."
+    },
+    {
+      "word_id": "v13",
+      "term": "Giugno",
+      "phonetic_api": "/ˈdʒuɲɲo/",
+      "phonetic_simple": "DJOU-NIO",
+      "translation": "Juin",
+      "example_sentence": "Le scuole chiudono a giugno.",
+      "example_phonetic": "/le ˈskwɔːle ˈkjuːdono a ˈdʒuɲɲo/",
+      "example_translation": "Les écoles ferment en juin."
+    },
+    {
+      "word_id": "v14",
+      "term": "Luglio",
+      "phonetic_api": "/ˈluʎʎo/",
+      "phonetic_simple": "LOUL-LIO",
+      "translation": "Juillet",
+      "example_sentence": "In luglio fa molto caldo.",
+      "example_phonetic": "/in ˈluʎʎo fa ˈmolto ˈkaldo/",
+      "example_translation": "En juillet il fait très chaud."
+    },
+    {
+      "word_id": "v15",
+      "term": "Agosto",
+      "phonetic_api": "/aˈgosto/",
+      "phonetic_simple": "A-GOS-TO",
+      "translation": "Août",
+      "example_sentence": "Vado in vacanza in agosto.",
+      "example_phonetic": "/ˈvaːdo in vaˈkantsa in aˈgosto/",
+      "example_translation": "Je vais en vacances en août."
+    },
+    {
+      "word_id": "v16",
+      "term": "Settembre",
+      "phonetic_api": "/setˈtɛmbre/",
+      "phonetic_simple": "SET-TÈM-BRÉ",
+      "translation": "Septembre",
+      "example_sentence": "La scuola comincia a settembre.",
+      "example_phonetic": "/la ˈskwɔːla koˈmintʃa a ssetˈtɛmbre/",
+      "example_translation": "L'école commence en septembre."
+    },
+    {
+      "word_id": "v17",
+      "term": "Ottobre",
+      "phonetic_api": "/otˈtoːbre/",
+      "phonetic_simple": "OT-TO-BRÉ",
+      "translation": "Octobre",
+      "example_sentence": "Le foglie cadono in ottobre.",
+      "example_phonetic": "/le ˈfɔʎʎe ˈkaːdono in otˈtoːbre/",
+      "example_translation": "Les feuilles tombent en octobre."
+    },
+    {
+      "word_id": "v18",
+      "term": "Novembre",
+      "phonetic_api": "/noˈvɛmbre/",
+      "phonetic_simple": "NO-VÈM-BRÉ",
+      "translation": "Novembre",
+      "example_sentence": "Novembre è un mese autunnale.",
+      "example_phonetic": "/noˈvɛmbre ɛ un ˈmeːze autunˈnaːle/",
+      "example_translation": "Novembre est un mois automnal."
+    },
+    {
+      "word_id": "v19",
+      "term": "Dicembre",
+      "phonetic_api": "/diˈtʃɛmbre/",
+      "phonetic_simple": "DI-TCHÈM-BRÉ",
+      "translation": "Décembre",
+      "example_sentence": "Natale è a dicembre.",
+      "example_phonetic": "/naˈtaːle ɛ a ddiˈtʃɛmbre/",
+      "example_translation": "Noël est en décembre."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Che ora è? / Che ore sono?",
+      "phonetic_api": "/ke ˈoːra ɛ/ /ke ˈoːre ˈsoːno/",
+      "phonetic_simple": "KÉ O-RA È / KÉ O-RÉ SO-NO",
+      "translation": "Quelle heure est-il ?",
+      "context": "Formules équivalentes pour s'informer du marqueur temporel immédiat."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Sono le due e un quarto",
+      "phonetic_api": "/ˈsoːno le dˈduːe e un ˈkwarto/",
+      "phonetic_simple": "SO-NO LÉ DOU-E É OUN KOUAR-TO",
+      "translation": "Il est deux heures et quart",
+      "context": "Expression standard pour ajouter le premier quart d'heure."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "È l'una e mezza",
+      "phonetic_api": "/ɛ ˈluːna e ˈmmeddza/",
+      "phonetic_simple": "È LOU-NA É MED-DZA",
+      "translation": "Il est une heure et demie",
+      "context": "Notez la forme au singulier liée exclusivement à la première heure."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Sono le sei meno venti",
+      "phonetic_api": "/ˈsoːno le ssɛi ˈmɛːno ˈventi/",
+      "phonetic_simple": "SO-NO LÉ SÈÏ ME-NO VEN-TI",
+      "translation": "Il est six heures moins vingt",
+      "context": "Utilisé pour la soustraction de minutes après la demie."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "È mezzogiorno",
+      "phonetic_api": "/ɛ mmeddzoˈdʒorno/",
+      "phonetic_simple": "È MED-DZA-DJOR-NO",
+      "translation": "Il est midi",
+      "context": "Forme invariable au singulier."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "È mezzanotte",
+      "phonetic_api": "/ɛ mmeddzaˈnɔtte/",
+      "phonetic_simple": "È MED-DZA-NOT-TÉ",
+      "translation": "Il est minuit",
+      "context": "Forme invariable indiquant la transition du jour."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La syntaxe morphologique des heures : Singulier vs Pluriel",
+      "explanation": "L'expression de l'heure en italien est déterminée par la valeur cardinale numérique. Tout nombre supérieur à 'un' demande le verbe essere au pluriel conjugué à la troisième personne et l'article défini pluriel féminin.",
+      "rules": [
+        "Structure Pluriel standard : Sono le + Nombre cardinal (ex: Sono le tre, Sono le dieci).",
+        "Structure Singulier exclusive : S'applique uniquement pour 'l'una' (È l'una), 'mezzogiorno' (È mezzogiorno), et 'mezzanotte' (È mezzanotte)."
+      ],
+      "examples": [
+        {
+          "structure": "Sono le quattro e cinque",
+          "phonetic_api": "/ˈsoːno le ˈkwattro e tˈtʃiŋkwe/",
+          "meaning": "Il est quatre heures et cinq minutes (Pluriel requis)."
+        }
+      ]
+    },
+    {
+      "concept": "La gestion de l'article avec les marqueurs de jours",
+      "explanation": "L'absence ou la présence de l'article défini devant un jour de la semaine change fondamentalement la valeur aspectuelle de la phrase.",
+      "rules": [
+        "Jour sans article : Exprime un événement unique, localisé dans le temps (ex: Sabato vado a Roma = Ce samedi, je vais à Rome).",
+        "Jour précédé d'un article : Exprime une action itérative, une habitude récurrente (ex: Il sabato vado al cinema = Tous les samedis, j'ai pour habitude d'aller au cinéma)."
+      ],
+      "examples": [
+        {
+          "structure": "Il lunedì studio italiano, ma lunedì prossimo faccio un esame.",
+          "phonetic_api": "/il luneˈdi ˈstuːdjo itaˈljaːno ma luneˈdi ˈprɔssimo ˈfattʃo un eˈzaːme/",
+          "meaning": "Le lundi (généralement) j'étudie l'italien, mais lundi prochain (spécifiquement) je passe un examen."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Marta",
+      "text": "Scusa Marco, che ore sono adesso?",
+      "phonetic_api": "/ˈskuːza ˈmarko ke ˈoːre ˈsoːno aˈdɛsso/",
+      "phonetic_simple": "SKOU-ZA MAR-KO KÉ O-RÉ SO-NO A-DES-SO",
+      "translation": "Excuse-moi Marco, quelle heure est-il maintenant ?"
+    },
+    {
+      "speaker": "Marco",
+      "text": "Sono le quattro e mezza. Perché questa fretta?",
+      "phonetic_api": "/ˈsoːno le ˈkwattro e ˈmmeddza perˈke kˈkwesta ˈfretta/",
+      "phonetic_simple": "SO-NO LÉ KOUAT-TRO É MED-DZA PER-KÉ KOUÈS-TA FRET-TA",
+      "translation": "Il est quatre heures et demie. Pourquoi cette hâte ?"
+    },
+    {
+      "speaker": "Marta",
+      "text": "Oggi è venerdì, l'ufficio chiude prima in agosto. Devo partire subito.",
+      "phonetic_api": "/ˈɔddʒi ɛ vvenerˈdi lufˈfiːtʃo ˈkjuːde ˈpriːma in aˈgosto ˈdeːvo parˈtiːre ˈsuːbito/",
+      "phonetic_simple": "OD-DJI È VÉ-NER-DI LOUF-FI-TCHIO KIOU-DÉ PRI-MA IN A-GOS-TO DE-VI PAR-TI-RÉ SOU-BI-TO",
+      "translation": "Aujourd'hui c'est vendredi, l'bureau ferme plus tôt en août. Je dois partir immédiatement."
+    }
+  ],
+  "cultural_notes": [
+    "Les jours de la semaine s'écrivent exclusivement avec une minuscule initiale (lunedì, martedì...), de même pour les mois (gennaio, febbraio...). La majuscule est considérée comme une erreur orthographique en dehors des débuts de phrase.",
+    "La formule idiomatique 'In bocca al lupo' est couramment lancée pour souhaiter bonne chance avant un événement important calendré, à laquelle on répond impérativement 'Crepi il lupo!' ou simplement 'Crepi!'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel verbe et article conviennent pour exprimer 'Il est 11h00' ?",
+      "options": [
+        "È l'undici",
+        "Sono le undici",
+        "Sono l'undici"
+      ],
+      "correct_answer": "Sono le undici",
+      "explanation": "La valeur numérique 11 est plurielle, elle exige donc l'auxiliaire 'sono' et l'article pluriel féminin 'le'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Il primo mese dell'anno si chiama [ ___ ].",
+      "correct_answer": "gennaio",
+      "hint": "Le mois de janvier en minuscules."
+    }
+  ]
+}

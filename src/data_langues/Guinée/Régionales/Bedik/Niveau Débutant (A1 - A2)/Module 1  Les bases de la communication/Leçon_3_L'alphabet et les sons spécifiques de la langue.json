@@ -1,0 +1,183 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Identifier, discriminer et articuler correctement les consonnes occlusives injectives complexes (/ɓ/, /ɗ/, /ƴ/)",
+    "Reconnaître et prononcer la consonne fricative vélaire sourde (/χ/)",
+    "Maîtriser le système de quantité vocalique en distinguant l'impact sémantique entre une voyelle courte et une voyelle longue redoublée"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La langue bédik comporte des consonnes hautement spécifiques appelées 'injectives' ou 'implosives' (/ɓ/, /ɗ/, /ƴ/). Contrairement aux consonnes du français où l'air est expulsé, la production de ces sons demande une légère dépression d'air provoquée par l'abaissement du larynx, aspirant brièvement le flux vers l'intérieur de la gorge au moment du relâchement labial ou lingual. De plus, le 'kh' est transcrit par /χ/, correspondant à un son râpeux produit à l'arrière de la bouche, semblable au 'jota' espagnol ou au 'ch' allemand dans 'Bach'.",
+    "common_pitfalls": "Le piège majeur est de substituer une injective par son équivalent occlusif pulmonaire simple (ex: prononcer un /b/ français à la place du /ɓ/ implosif). Cette confusion phonétique est bloquante car elle génère des contresens radicaux, transformant un mot du lexique courant en un autre terme totalement étranger ou incohérent."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Ɓa",
+      "phonetic_api": "/ɓa/",
+      "phonetic_simple": "BHA (implosif, air aspiré)",
+      "translation": "Prendre / Saisir / Tenir",
+      "example_sentence": "Ɓa kō",
+      "example_phonetic": "/ɓa koː/",
+      "example_translation": "Prends ceci / Tiens ça."
+    },
+    {
+      "word_id": "v2",
+      "term": "Ɗi",
+      "phonetic_api": "/ɗi/",
+      "phonetic_simple": "DHA (implosif, langue sur le palais)",
+      "translation": "Eau / Liquide / Source de vie",
+      "example_sentence": "Ɗi bē dyé",
+      "example_phonetic": "/ɗi beː dʒe/",
+      "example_translation": "Il y a de l'eau ici."
+    },
+    {
+      "word_id": "v3",
+      "term": "ƴen",
+      "phonetic_api": "/ƴɛn/",
+      "phonetic_simple": "YHA (palatalisé implosif)",
+      "translation": "Voir / Regarder / Apercevoir",
+      "example_sentence": "Mē ƴen baba",
+      "example_phonetic": "/meː ƴɛn ba.ba/",
+      "example_translation": "Je vois mon père."
+    },
+    {
+      "word_id": "v4",
+      "term": "Sakhó",
+      "phonetic_api": "/sa.χo/",
+      "phonetic_simple": "SA-RHO (le r est raclé au fond de la gorge)",
+      "translation": "Travail / Champ / Activité agricole",
+      "example_sentence": "Sakhó amiat",
+      "example_phonetic": "/sa.χo a.mja/",
+      "example_translation": "Le travail se passe bien."
+    },
+    {
+      "word_id": "v5",
+      "term": "Kō",
+      "phonetic_api": "/ko/",
+      "phonetic_simple": "KO (bref)",
+      "translation": "Tête",
+      "example_sentence": "Kō mē",
+      "example_phonetic": "/ko meː/",
+      "example_translation": "Ma tête."
+    },
+    {
+      "word_id": "v6",
+      "term": "Kōō",
+      "phonetic_api": "/koː/",
+      "phonetic_simple": "KOOR (allongé)",
+      "translation": "Chose / Objet / Élément matériel",
+      "example_sentence": "Ɓa kōō mē",
+      "example_phonetic": "/ɓa koː meː/",
+      "example_translation": "Prends ma chose."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ɓa ɗi ina !",
+      "phonetic_api": "/ɓa ɗi i.na/",
+      "phonetic_simple": "BHA DHA I-NA",
+      "translation": "Prends ton eau !",
+      "context": "Expression rituelle d'hospitalité lorsqu'on offre une calebasse d'eau fraîche à un voyageur qui arrive de la plaine."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Mē ƴen sakhó-gwa.",
+      "phonetic_api": "/meː ƴɛn sa.χo.ɡwa/",
+      "phonetic_simple": "MEE YHAN SA-RHO-GWA",
+      "translation": "Je vois le cultivateur.",
+      "context": "Phrase descriptive utilisée pour désigner quelqu'un œuvrant au loin dans la montagne."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Ɗi bē bē ?",
+      "phonetic_api": "/ɗi beː beː/",
+      "phonetic_simple": "DHA BEE BEE",
+      "translation": "Y a-t-il de l'eau ?",
+      "context": "Question essentielle posée lors d'une halte ou en arrivant dans une case pour s'enquérir des ressources dispo."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ɓa kōō kō.",
+      "phonetic_api": "/ɓa koː ko/",
+      "phonetic_simple": "BHA KOOR KO",
+      "translation": "Prends cette chose précise.",
+      "context": "Ordre direct donné à un enfant ou un collaborateur pour déplacer un outil."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La pertinence linguistique de la quantité vocalique (Courte vs Longue)",
+      "explanation": "Le bédik structure son lexique sur un contraste de longueur des voyelles. Allonger une voyelle n'est pas une simple variante d'accent régional, c'est un trait phonologique distinctif fondamental (morpho-syntaxique et sémantique).",
+      "rules": [
+        "Une voyelle simple (écrite une seule fois comme 'ko') se prononce de façon standard et brève.",
+        "Une voyelle doublée graphiquement (comme 'kōō') doit être maintenue nettement plus longtemps dans le flux de parole, ce qui change totalement la signification de la racine nominale."
+      ],
+      "examples": [
+        {
+          "structure": "kō (voyelle brève)",
+          "phonetic_api": "/ko/",
+          "meaning": "La tête (partie anatomique)"
+        },
+        {
+          "structure": "kōō (voyelle longue étirée)",
+          "phonetic_api": "/koː/",
+          "meaning": "La chose / L'objet"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mady (L'oncle)",
+      "text": "Sada, ɓa ɗi !",
+      "phonetic_api": "/sa.da ɓa ɗi/",
+      "phonetic_simple": "SA-DA, BHA DHA !",
+      "translation": "Sada, prends de l'eau !"
+    },
+    {
+      "speaker": "Sada (Le neveu)",
+      "text": "Mady, mē ƴen ɗi. Gasi mē.",
+      "phonetic_api": "/ma.di meː ƴɛn ɗi ɡa.si meː/",
+      "phonetic_simple": "MA-DI, MEE YHAN DHA. GA-SI MEE",
+      "translation": "Mady, je vois l'eau. Merci beaucoup."
+    },
+    {
+      "speaker": "Mady (L'oncle)",
+      "text": "Ɓa kōō mē, sakhó bē nanyé.",
+      "phonetic_api": "/ɓa koː meː sa.χo beː na.ɲɛ/",
+      "phonetic_simple": "BHA KOOR MEE, SA-RHO BEE NA-NYƐ",
+      "translation": "Prends ma chose (mon outil), le travail est pour demain."
+    }
+  ],
+  "cultural_notes": [
+    "Parce que le ménik est une langue de tradition orale minoritaire, parlée par quelques milliers de locuteurs préservés dans les massifs rocheux du Sénégal Oriental et des bordures guinéennes, la justesse de la prononciation des injectives est perçue par les anciens comme le véritable gardien de l'authenticité culturelle. Une mauvaise articulation trahit immédiatement un locuteur extérieur et brise la résonance ésotérique de certains termes associés aux initiations masculines traditionnelles."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la signification exacte du mot bédik prononcé brièvement '/ko/' (kō) ?",
+      "options": [
+        "Une chose",
+        "L'eau",
+        "La tête",
+        "Le cultivateur"
+      ],
+      "correct_answer": "La tête",
+      "explanation": "/ko/ avec une voyelle brève signifie anatomiquement la tête, tandis que la forme longue /koː/ signifie l'objet/la chose."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mē [ ___ ] baba mē. (Je vois mon père.)",
+      "correct_answer": "ƴen",
+      "hint": "Verbe bédik signifiant voir, débutant par une consonne injective palatale."
+    }
+  ]
+}

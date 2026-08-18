@@ -1,0 +1,170 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Identifier et nommer les teintes et les couleurs chromatiques majeures",
+    "Décrire un vêtement de base ou un tissu en associant sa couleur",
+    "Formuler des descriptions simples sur l'apparence vestimentaire des proches"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le terme pour le tissu et le vêtement, 'gudí', utilise une occlusive alvéolaire voisée /d/ claire suivie d'une voyelle fermée /i/ haute. L'adjectif qualificatif de couleur noire, 'bi', est bref et percutant.",
+    "common_pitfalls": "Attention à ne pas ajouter de consonne finale imaginaire au mot 'bi' (noir). Il doit s'arrêter net sur la voyelle /i/ pour ne pas être confondu avec d'autres particules de la langue."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Gudí",
+      "phonetic_api": "/ɡu.di/",
+      "phonetic_simple": "GOU-DI",
+      "translation": "Vêtement / Tissu / Habit",
+      "example_sentence": "Ɓa gudí",
+      "example_phonetic": "/ɓa ɡu.di/",
+      "example_translation": "Prends le vêtement."
+    },
+    {
+      "word_id": "v2",
+      "term": "Bi",
+      "phonetic_api": "/bi/",
+      "phonetic_simple": "BI",
+      "translation": "Noir / Sombre (Couleur)",
+      "example_sentence": "Gudí bi",
+      "example_phonetic": "/ɡu.di bi/",
+      "example_translation": "Un vêtement noir."
+    },
+    {
+      "word_id": "v3",
+      "term": "U-khwé",
+      "phonetic_api": "/u.χwe/",
+      "phonetic_simple": "OU-RHWÉ",
+      "translation": "Blanc / Clair (Couleur)",
+      "example_sentence": "Gudí u-khwé",
+      "example_phonetic": "/ɡu.di u.χwe/",
+      "example_translation": "Un vêtement blanc."
+    },
+    {
+      "word_id": "v4",
+      "term": "U-ngá",
+      "phonetic_api": "/u.ŋa/",
+      "phonetic_simple": "OU-NGA",
+      "translation": "Rouge / Ocre (Couleur de la terre)",
+      "example_sentence": "Gudí u-ngá",
+      "example_phonetic": "/ɡu.di u.ŋa/",
+      "example_translation": "Un vêtement rouge."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ɓa gudí u-khwé.",
+      "phonetic_api": "/ɓa ɡu.di u.χwe/",
+      "phonetic_simple": "BHA GOU-DI OU-RHWÉ",
+      "translation": "Prends le vêtement blanc.",
+      "context": "Donner une consigne lors de l'habillage ou du lavage des tissus à la maison."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Mē ƴen gudí bi.",
+      "phonetic_api": "/meː ƴɛn ɡu.di bi/",
+      "phonetic_simple": "MEE YHAN GOU-DI BI",
+      "translation": "Je vois un habit noir.",
+      "context": "Décrire la tenue vestimentaire d'une personne aperçue sur la place du village."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Gudí u-ngá bē dyé ?",
+      "phonetic_api": "/ɡu.di u.ŋa beː dʒe/",
+      "phonetic_simple": "GOU-DI OU-NGA BEE DJE ?",
+      "translation": "Le vêtement rouge est-il ici ?",
+      "context": "Rechercher une pièce de tissu spécifique dans la case familiale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Gudí mē bē u-khwé.",
+      "phonetic_api": "/ɡu.di meː beː u.χwe/",
+      "phonetic_simple": "GOU-DI MEE BEE OU-RHWÉ",
+      "translation": "Mon vêtement est blanc.",
+      "context": "Déclarer ou confirmer la couleur de sa propre tenue."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La place et l'accord de l'adjectif de couleur",
+      "explanation": "En langue bédik, les qualificatifs de couleur agissent comme des modificateurs nominaux postposés. Ils suivent immédiatement le substantif qu'ils décrivent, sans l'intermédiaire d'un verbe de liaison dans la structure nominale simple.",
+      "rules": [
+        "Structure de base : Nom + Adjectif de couleur",
+        "Les couleurs fondamentales possèdent des préfixes vocaliques spécifiques (comme 'u-') attachés à la racine chromatique."
+      ],
+      "examples": [
+        {
+          "structure": "Gudí (Vêtement) + bi (noir)",
+          "phonetic_api": "/ɡu.di bi/",
+          "meaning": "Un vêtement noir."
+        },
+        {
+          "structure": "Gudí (Vêtement) + u-ngá (rouge)",
+          "phonetic_api": "/ɡu.di u.ŋa/",
+          "meaning": "Un vêtement rouge."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mama",
+      "text": "Sada, ɓa gudí ina.",
+      "phonetic_api": "/sa.da ɓa ɡu.di i.na/",
+      "phonetic_simple": "SA-DA, BHA GOU-DI I-NA.",
+      "translation": "Sada, prends ton vêtement."
+    },
+    {
+      "speaker": "Sada",
+      "text": "Mama, gudí bi ou gudí u-khwé ?",
+      "phonetic_api": "/ma.ma ɡu.di bi u ɡu.di u.χwe/",
+      "phonetic_simple": "MA-MA, GOU-DI BI OU GOU-DI OU-RHWÉ ?",
+      "translation": "Maman, le vêtement noir ou le vêtement blanc ?"
+    },
+    {
+      "speaker": "Mama",
+      "text": "Ɓa gudí u-khwé, gaas bē dyé.",
+      "phonetic_api": "/ɓa ɡu.di u.χwe ɡaːs beː dʒe/",
+      "phonetic_simple": "BHA GOU-DI OU-RHWÉ, GAAS BEE DJE.",
+      "translation": "Prends le vêtement blanc, le soleil est bien là (il fait chaud)."
+    },
+    {
+      "speaker": "Sada",
+      "text": "Gasi mē, mama mē.",
+      "phonetic_api": "/ɡa.si meː ma.ma meː/",
+      "phonetic_simple": "GA-SI MEE, MA-MA MEE.",
+      "translation": "Merci beaucoup, ma mère."
+    }
+  ],
+  "cultural_notes": [
+    "Les couleurs possèdent une charge symbolique très forte dans la culture bédik, notamment l'ocre rouge ('u-ngá') obtenu à partir de la latérite locale, utilisé traditionnellement lors des cérémonies d'initiation et de passage des classes d'âge. Le blanc ('u-khwé') symbolise la clarté et la paix de l'esprit, tandis que les parures textiles portées lors des fêtes rituelles sur les hauteurs d'Iwol manifestent l'appartenance clanique."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la traduction exacte du terme 'Gudí bi' ?",
+      "options": [
+        "Un habit rouge",
+        "Un habit noir",
+        "Un habit blanc",
+        "Un outil agricole"
+      ],
+      "correct_answer": "Un habit noir",
+      "explanation": "'Gudí' signifie vêtement/habit, et 'bi' correspond à la couleur noire."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ɓa gudí [ ___ ]. (Prends le vêtement rouge.)",
+      "correct_answer": "u-ngá",
+      "hint": "La couleur ocre-rouge, très importante pour les rituels et les classes d'âge bédik."
+    }
+  ]
+}

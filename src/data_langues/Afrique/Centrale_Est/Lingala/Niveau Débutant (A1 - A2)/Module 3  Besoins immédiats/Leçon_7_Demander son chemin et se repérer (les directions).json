@@ -1,0 +1,208 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer (les directions)",
+  "learning_objectives": [
+    "Savoir demander la localisation d'un lieu important (marché, hôtel, route)",
+    "Comprendre et utiliser les indicateurs de direction de base (gauche, droite, tout droit)",
+    "Exprimer la proximité et l'éloignement d'une destination"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Analysez attentivement le mot 'zando' /záⁿdo/ (marché), où la consonne prénasalisée /ⁿd/ doit fusionner parfaitement. Pour le mot 'wapi' /wápí/ (où), l'articulation de la semi-voyelle /w/ doit être nette et rapide. Les termes directionnels 'mwasi' (gauche) et 'mobali' (droite) dans le contexte spatial reprennent les structures vocaliques déjà étudiées.",
+    "common_pitfalls": "Ne séparez pas le 'p' et le 'b' dans 'pembeni' /peᵐbení/ (à côté). Évitez une prononciation saccadée et liez le flux d'air nasal directement à la consonne explosive."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v7_1",
+      "term": "Nzela",
+      "phonetic_api": "/ⁿzéla/",
+      "phonetic_simple": "NZÉ-LA",
+      "translation": "Chemin / Route / Rue",
+      "example_sentence": "Nzela oyo ekendeka wapi?",
+      "example_phonetic": "/ⁿzéla ójo ekɛⁿdeka wápí/",
+      "example_translation": "Où mène ce chemin ?"
+    },
+    {
+      "word_id": "v7_2",
+      "term": "Zando",
+      "phonetic_api": "/záⁿdo/",
+      "phonetic_simple": "ZÁN-DO",
+      "translation": "Marché",
+      "example_sentence": "Zando ezali mosika te.",
+      "example_phonetic": "/záⁿdo ezalí mosíka té/",
+      "example_translation": "Le marché n'est pas loin."
+    },
+    {
+      "word_id": "v7_3",
+      "term": "Ndako",
+      "phonetic_api": "/ⁿdako/",
+      "phonetic_simple": "NDA-KO",
+      "translation": "Maison / Bâtiment / Hôtel",
+      "example_sentence": "Ndako ya bapaya ezali awa.",
+      "example_phonetic": "/ⁿdako ja βapája ezalí áwa/",
+      "example_translation": "L'hôtel (maison des étrangers) est ici."
+    },
+    {
+      "word_id": "v7_4",
+      "term": "Pembeni",
+      "phonetic_api": "/peᵐbení/",
+      "phonetic_simple": "PEM-BE-NÍ",
+      "translation": "À côté de / Près de",
+      "example_sentence": "Ezali pembeni ya balabala.",
+      "example_phonetic": "/ezalí peᵐbení ya βalaβala/",
+      "example_translation": "C'est à côté de la grande avenue."
+    },
+    {
+      "word_id": "v7_5",
+      "term": "Mosika",
+      "phonetic_api": "/mosíka/",
+      "phonetic_simple": "MO-SÍ-KA",
+      "translation": "Loin",
+      "example_sentence": "Kinsasa ezali mosika mingi.",
+      "example_phonetic": "/kinsásá ezalí mosíka míⁿɡi/",
+      "example_translation": "Kinshasa est très loin."
+    },
+    {
+      "word_id": "v7_6",
+      "term": "Alima",
+      "phonetic_api": "/alíma/",
+      "phonetic_simple": "A-LI-MA",
+      "translation": "Tout droit",
+      "example_sentence": "Kende alima, kokata te.",
+      "example_phonetic": "/kɛⁿdé alíma kokata té/",
+      "example_translation": "Va tout droit, ne tourne pas."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p7_1",
+      "original": "Zando ezali wapi?",
+      "phonetic_api": "/záⁿdo ezalí wápí/",
+      "phonetic_simple": "ZÁN-DO É-ZA-LÍ WA-PÍ?",
+      "translation": "Où se trouve le marché ?",
+      "context": "Question de base indispensable pour s'orienter en ville."
+    },
+    {
+      "phrase_id": "p7_2",
+      "original": "Kende na loboko ya mwasi.",
+      "phonetic_api": "/kɛⁿdé na loβóko ja mwásí/",
+      "phonetic_simple": "KÈN-DÉ NA LO-VÓ-KO YA MWA-SÍ.",
+      "translation": "Va à gauche (littéralement : vers le bras de la femme).",
+      "context": "Indication pour tourner à gauche."
+    },
+    {
+      "phrase_id": "p7_3",
+      "original": "Kende na loboko ya mobali.",
+      "phonetic_api": "/kɛⁿdé na loβóko ja moβalí/",
+      "phonetic_simple": "KÈN-DÉ NA LO-VÓ-KO YA MO-VA-LÍ.",
+      "translation": "Va à droite (littéralement : vers le bras de l'homme).",
+      "context": "Indication pour tourner à droite."
+    },
+    {
+      "phrase_id": "p7_4",
+      "original": "Eza mosika?",
+      "phonetic_api": "/ezá mosíka/",
+      "phonetic_simple": "É-ZA MO-SÍ-KA?",
+      "translation": "Est-ce que c'est loin ?",
+      "context": "Pour savoir si l'on peut s'y rendre à pied."
+    },
+    {
+      "phrase_id": "p7_5",
+      "original": "Te, eza pembeni kaka.",
+      "phonetic_api": "/té ezá peᵐbení káka/",
+      "phonetic_simple": "TÉ, É-ZA PEM-BE-NÍ KÁ-KA.",
+      "translation": "Non, c'est juste à côté.",
+      "context": "Pour rassurer sur la proximité d'un lieu."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'interrogatif 'Wapi' (Où)",
+      "explanation": "En lingala, l'adverbe interrogatif 'wapi' se place systématiquement à la toute fin de la proposition pour poser une question sur le lieu, contrairement au français qui le place souvent au début.",
+      "rules": [
+        "Structure : Sujet + Verbe (souvent kozala) + wapi ?",
+        "Ne dites pas 'Wapi zando?', dites plutôt 'Zando ezali wapi?'."
+      ],
+      "examples": [
+        {
+          "structure": "Ndako na yo ezali wapi?",
+          "phonetic_api": "/ⁿdako na jó ezalí wápí/",
+          "meaning": "Où est ta maison ?"
+        }
+      ]
+    },
+    {
+      "concept": "Les directions corporelles 'mwasi' et 'mobali'",
+      "explanation": "L'espace géographique et les directions en lingala s'appuient sur une métaphore corporelle genrée. La gauche correspond au côté féminin ('ya mwasi') et la droite correspond au côté masculin ('ya mobali'). On associe généralement ces termes au mot 'loboko' (le bras / la main).",
+      "rules": [
+        "Loboko ya mwasi = Main de la femme (Gauche)",
+        "Loboko ya mobali = Main de l'homme (Droite)"
+      ],
+      "examples": [
+        {
+          "structure": "Balabala ezali na loboko ya mwasi.",
+          "phonetic_api": "/βalaβala ezalí na loβóko ja mwásí/",
+          "meaning": "L'avenue se trouve sur la gauche."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mopaya (Le voyageur)",
+      "text": "Pardo ndeko, oza na likoki ya kosalisa ngai? Ndako ya bapaya ezali wapi?",
+      "phonetic_api": "/pardó ⁿdéko ozá na likokí ja kosalisa ŋɡái ⁿdako ja βapája ezalí wápí/",
+      "phonetic_simple": "PAR-DÓ NDÉ-KO, O-ZÁ NA LI-KO-KÍ YA KO-SA-LI-SA NGAYI? NDA-KO YA BA-PA-YA E-ZA-LÍ WA-PÍ?",
+      "translation": "Pardon mon frère, as-tu la possibilité de m'aider ? Où se trouve l'hôtel ?"
+    },
+    {
+      "speaker": "Moto ya mboka (Le local)",
+      "text": "Ée ndeko! Ndako ya bapaya ezali mosika te. Kende alima na balabala oyo.",
+      "phonetic_api": "/ée ⁿdéko ⁿdako ja βapája ezalí mosíka té kɛⁿdé alíma na βalaβala ójo/",
+      "phonetic_simple": "ÉE NDÉ-KO! NDA-KO YA BA-PA-YA E-ZA-LÍ MO-SÍ-KA TÉ. KÈN-DÉ A-LI-MA NA BA-LA-BA-LA O-YO.",
+      "translation": "Oui mon frère ! L'hôtel n'est pas loin. Va tout droit sur cette avenue."
+    },
+    {
+      "speaker": "Mopaya (Le voyageur)",
+      "text": "Soki natingami alima, nakata na loboko ya mobali to ya mwasi?",
+      "phonetic_api": "/sokí natiⁿɡamí alíma nakata na loβóko ja moβalí tó ja mwásí/",
+      "phonetic_simple": "SO-KÍ NA-TIN-GA-MÍ A-LI-MA, NA-KA-TA NA LO-VÓ-KO YA MO-VA-LÍ TÓ YA MWA-SÍ?",
+      "translation": "Si je continue tout droit, je tourne à droite ou à gauche ?"
+    },
+    {
+      "speaker": "Moto ya mboka (Le local)",
+      "text": "Kata na loboko ya mwasi pembeni ya zando. Okomona ndako yango.",
+      "phonetic_api": "/kata na loβóko ja mwásí peᵐbení ya záⁿdo okomona ⁿdako jaⁿɡó/",
+      "phonetic_simple": "KA-TA NA LO-VÓ-KO YA MWA-SÍ PEM-BE-NÍ YA ZÁN-DO. O-KO-MO-NA NDA-KO YAN-GO.",
+      "translation": "Tourne à gauche à côté du marché. Tu verras ce bâtiment."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les grands centres urbains comme Kinshasa, le terme français 'Avenue' s'efface souvent au profit du terme lingala populaire 'Balabala'. Les repères géographiques se font rarement par numéros de rue, mais par rapport à des bâtiments connus, de grands arbres ou des marchés.",
+    "L'expression 'Ndako ya bapaya' signifie littéralement 'la maison des invités/étrangers' pour désigner un hôtel ou une auberge de manière traditionnelle."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex7_1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'expression géographique 'Loboko ya mwasi' ?",
+      "options": [
+        "À droite",
+        "Tout droit",
+        "À gauche"
+      ],
+      "correct_answer": "À gauche",
+      "explanation": "Par convention culturelle et linguistique, le côté féminin ('mwasi') désigne la direction gauche."
+    },
+    {
+      "exercise_id": "ex7_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ndako na ngai ezali [ ___ ] te, eza mosika mingi.",
+      "correct_answer": "pembeni",
+      "hint": "Le contraire de loin (mosika), signifiant 'près' ou 'à côté'."
+    }
+  ]
+}

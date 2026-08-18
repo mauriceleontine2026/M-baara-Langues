@@ -1,0 +1,328 @@
+{
+  "lesson_id": "A1_M1_L3_V2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet, les caractères Kana et les sons spécifiques",
+  "learning_objectives": [
+    "Comprendre l'articulation des trois systèmes d'écriture japonais (Hiragana, Katakana, Kanji)",
+    "Maîtriser les correspondances graphiques des cinq voyelles fondamentales et des premières consonnes",
+    "Maîtriser la prononciation des voyelles longues et des consonnes doublées (géminées)",
+    "Identifier les altérations phonétiques élémentaires (Dakuten et Handakuten)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La phonologie japonaise est basée sur la more (mora), une unité de temps fixe. Une voyelle longue ou un 'n' final [ɴ] valent exactement deux mores (deux unités de temps). Les consonnes doubles ou géminées sont marquées à l'écrit par un petit っ (tsu) et se traduisent à l'oral par une pause glottale, un blocage du flux d'air d'une more juste avant l'articulation de la consonne suivante. Les cinq voyelles fondamentales de base s'écrivent : あ [a], い [i], う [ɯ], え [e], お [o].",
+    "common_pitfalls": "Ne négligez jamais la durée des sons. Raccourcir une voyelle longue ou ignorer une consonne doublée change radicalement le sens d'un mot. Par exemple : 'ojisan' (oncle) vs 'ojiisan' (grand-père). Veillez également à ne pas accentuer une syllabe plus qu'une autre à la manière du français ; l'accentuation japonaise est une variation de hauteur musicale (haute ou basse) et non d'intensité."
+  },
+  "kana_chart_focus": [
+    {
+      "character_hiragana": "あ",
+      "character_katakana": "ア",
+      "romaji": "a",
+      "api": "/a/",
+      "description": "Voyelle ouverte antérieure non arrondie, similaire au 'a' français."
+    },
+    {
+      "character_hiragana": "い",
+      "character_katakana": "イ",
+      "romaji": "i",
+      "api": "/i/",
+      "description": "Voyelle fermée antérieure non arrondie, similaire au 'i' français."
+    },
+    {
+      "character_hiragana": "う",
+      "character_katakana": "ウ",
+      "romaji": "u",
+      "api": "/ɯ/",
+      "description": "Voyelle fermée postérieure non arrondie. Les lèvres restent étirées, sans projection vers l'avant."
+    },
+    {
+      "character_hiragana": "え",
+      "character_katakana": "エ",
+      "romaji": "e",
+      "api": "/e/",
+      "description": "Voyelle mi-fermée antérieure non arrondie, proche du 'é' français."
+    },
+    {
+      "character_hiragana": "お",
+      "character_katakana": "オ",
+      "romaji": "o",
+      "api": "/o/",
+      "description": "Voyelle mi-fermée postérieure arrondie, similaire au 'o' français."
+    },
+    {
+      "character_hiragana": "か",
+      "character_katakana": "カ",
+      "romaji": "ka",
+      "api": "/ka/",
+      "description": "Consonne occlusive vélaire sourde suivie du son [a]."
+    },
+    {
+      "character_hiragana": "き",
+      "character_katakana": "キ",
+      "romaji": "ki",
+      "api": "/ki/",
+      "description": "Consonne occlusive vélaire sourde palatalisée suivie du son [i]."
+    },
+    {
+      "character_hiragana": "く",
+      "character_katakana": "ク",
+      "romaji": "ku",
+      "api": "/kɯ/",
+      "description": "Consonne occlusive vélaire sourde suivie du son [ɯ]."
+    },
+    {
+      "character_hiragana": "け",
+      "character_katakana": "ケ",
+      "romaji": "ke",
+      "api": "/ke/",
+      "description": "Consonne occlusive vélaire sourde suivie du son [e]."
+    },
+    {
+      "character_hiragana": "こ",
+      "character_katakana": "コ",
+      "romaji": "ko",
+      "api": "/ko/",
+      "description": "Consonne occlusive vélaire sourde suivie du son [o]."
+    },
+    {
+      "character_hiragana": "ん",
+      "character_katakana": "ン",
+      "romaji": "n",
+      "api": "/ɴ/",
+      "description": "Seule consonne finale nasale autonome. Sa prononciation s'adapte au son qui la suit."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "ひらがな (平仮名)",
+      "phonetic_api": "/çi.ɾa.ɡa.na/",
+      "phonetic_simple": "CHI-RA-GA-NA",
+      "translation": "Hiragana (syllabaire pour les mots d'origine japonaise)",
+      "example_sentence": "あいうえおはひらがなです。",
+      "example_phonetic": "/a.i.ɯ.e.o wa çi.ɾa.ɡa.na de.sɯ̥/",
+      "example_translation": "'A-I-U-E-O' sont des hiraganas."
+    },
+    {
+      "word_id": "v2",
+      "term": "カタカナ (片仮名)",
+      "phonetic_api": "/ka.ta.ka.na/",
+      "phonetic_simple": "KA-TA-KA-NA",
+      "translation": "Katakana (syllabaire pour les mots d'origine étrangère)",
+      "example_sentence": "アメリカはカタカナで書きます。",
+      "example_phonetic": "/a.me.ɾi.ka wa ka.ta.ka.na de ka.ki.ma.sɯ̥/",
+      "example_translation": "'Amérique' s'écrit en katakanas."
+    },
+    {
+      "word_id": "v3",
+      "term": "かんじ (漢字)",
+      "phonetic_api": "/kaɴ.d͡ʑi/",
+      "phonetic_simple": "KAN-DJI",
+      "translation": "Kanji (caractères chinois exprimant des idées/concepts)",
+      "example_sentence": "漢字の「木」はきです。",
+      "example_phonetic": "/kaɴ.d͡ʑi no ki wa ki de.sɯ̥/",
+      "example_translation": "Le kanji « 木 » se lit 'ki' (arbre)."
+    },
+    {
+      "word_id": "v4",
+      "term": "おじいさん",
+      "phonetic_api": "/o.d͡ʑiː.saɴ/",
+      "phonetic_simple": "O-DJII-SAN",
+      "translation": "Grand-père / Vieil homme (voyelle longue)",
+      "example_sentence": "あそこにおじいさんがいます。",
+      "example_phonetic": "/a.so.ko ni o.d͡ʑiː.saɴ ɡa i.ma.sɯ̥/",
+      "example_translation": "Il y a un grand-père là-bas."
+    },
+    {
+      "word_id": "v5",
+      "term": "きっぷ (切符)",
+      "phonetic_api": "/ki̥p.pɯ/",
+      "phonetic_simple": "KIP-POU",
+      "translation": "Ticket / Billet (consonne doublée っ)",
+      "example_sentence": "電車の切符を買いました。",
+      "example_phonetic": "/deɴ.ɕa no ki̥p.pɯ o ka.i.ma.ɕi.ta/",
+      "example_translation": "J'ai acheté un billet de train."
+    },
+    {
+      "word_id": "v6",
+      "term": "がっこう (学校)",
+      "phonetic_api": "/ɡḁk.koː/",
+      "phonetic_simple": "GAK-KOO",
+      "translation": "École (consonne doublée + voyelle longue)",
+      "example_sentence": "明日、学校へ行きます。",
+      "example_phonetic": "/a.ɕi.ta ɡḁk.koː e i.ki.ma.sɯ̥/",
+      "example_translation": "Demain, je vais à l'école."
+    },
+    {
+      "word_id": "v7",
+      "term": "てんき (天気)",
+      "phonetic_api": "/teɴ.ki/",
+      "phonetic_simple": "TEN-KI",
+      "translation": "Le temps / La météo (son nasal ん)",
+      "example_sentence": "今日の天気は良いです。",
+      "example_phonetic": "/kjoː no teɴ.ki wa iː de.sɯ̥/",
+      "example_translation": "La météo d'aujourd'hui est bonne."
+    },
+    {
+      "word_id": "v8",
+      "term": "おばあさん",
+      "phonetic_api": "/o.baː.saɴ/",
+      "phonetic_simple": "O-BAA-SAN",
+      "translation": "Grand-mère / Vieille femme",
+      "example_sentence": "優しいおばあさんですね。",
+      "example_phonetic": "/ja.sa.ɕiː o.baː.saɴ de.sɯ.ne/",
+      "example_translation": "C'est une grand-mère gentille, n'est-ce pas ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "これはどう発音しますか。",
+      "phonetic_api": "/ko.ɾe wa doː ha.t͡sɯ̥.oɴ ɕi.ma.sɯ.ka/",
+      "phonetic_simple": "KO-RÉ WA DOO HAT-SOU-ON CHI-MASS-KA",
+      "translation": "Comment prononce-t-on ceci ?",
+      "context": "Question utile posée à un locuteur natif pour clarifier la lecture d'un mot."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "もう一度ゆっくり言ってください。",
+      "phonetic_api": "/moː i.t͡ɕi.do jɯ̥k.kɯ.ɾi i̥t.te kɯ.da.sa.i/",
+      "phonetic_simple": "MOO I-TCHI-DO YOUK-KOU-RI IT-TÉ KOU-DA-SA-I",
+      "translation": "Répétez plus lentement s'il vous plaît.",
+      "context": "Demande d'aide indispensable pour capter l'ensemble des mores et coupures glottales."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "ローマ字で書いてください。",
+      "phonetic_api": "/ɾoː.ma.d͡ʑi de ka.i.te kɯ.da.sa.i/",
+      "phonetic_simple": "ROO-MA-DJI DÉ KA-I-TÉ KOU-DA-SA-I",
+      "translation": "Écrivez-le en alphabet latin s'il vous plaît.",
+      "context": "Utile pour un débutant qui ne maîtrise pas encore la lecture des kana."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "日本語が分かりますか。",
+      "phonetic_api": "/ni.hoɴ.ɡo ɡa wa.ka.ɾi.ma.sɯ.ka/",
+      "phonetic_simple": "NI-HON-GO GA WA-KA-RI-MASS-KA",
+      "translation": "Comprenez-vous le japonais ?",
+      "context": "Question usuelle pour évaluer le niveau linguistique d'un interlocuteur."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "はい、少し分かります。",
+      "phonetic_api": "/ha.i sɯ.ko.ɕi wa.ka.ɾi.ma.sɯ̥/",
+      "phonetic_simple": "HAI SOU-KO-CHI WA-KA-RI-MASS",
+      "translation": "Oui, je comprends un peu.",
+      "context": "Réponse humble et recommandée pour un apprenant de niveau débutant."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "ちょっと待ってください。",
+      "phonetic_api": "/t͡ɕo̥t.to mḁt.te kɯ.da.sa.i/",
+      "phonetic_simple": "TCHOT-TO MAT-TÉ KOU-DA-SA-I",
+      "translation": "Attendez un instant s'il vous plaît.",
+      "context": "Contient deux coupures glottales nettes (っ). Formule courante dans les magasins."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "そうです。",
+      "phonetic_api": "/soː de.sɯ̥/",
+      "phonetic_simple": "SOO DESS",
+      "translation": "C'est exact.",
+      "context": "Confirmation simple utilisant une voyelle longue (o + u)."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "違います。",
+      "phonetic_api": "/t͡ɕi.ɡa.i.ma.sɯ̥/",
+      "phonetic_simple": "TCHI-GA-I-MASS",
+      "translation": "C'est faux / Ce n'est pas ça.",
+      "context": "Négation directe pour corriger une erreur."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'altération des sons : le Dakuten ( ゛ ) et le Handakuten ( ゜ )",
+      "explanation": "Les signes diacritiques modifient la prononciation des consonnes de base en hiragana et katakana. Le Dakuten (paire de petits traits) transforme une consonne sourde en consonne sonore. Le Handakuten (petit rond) ne s'applique qu'à la série H pour créer le son P.",
+      "rules": [
+        "Série K + ゛ = Série G (か [ka] ➔ が [ga])",
+        "Série S + ゛ = Série Z (さ [sa] ➔ ざ [za], し [shi] ➔ じ [ji])",
+        "Série T + ゛ = Série D (た [ta] ➔ だ [da])",
+        "Série H + ゛ = Série B (は [ha] ➔ ば [ba])",
+        "Série H + ゜ = Série P (は [ha] ➔ ぱ [pa])"
+      ],
+      "examples": [
+        {
+          "structure": "がっこう (Le caractère か associé au dakuten ゛ donne が [ga])",
+          "phonetic_api": "/ɡḁk.koː/",
+          "meaning": "École"
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de la durée : l'allongement vocalique",
+      "explanation": "En hiragana, la règle d'allongement dépend de la voyelle. Les voyelles /a, i, ɯ/ s'allongent en ajoutant respectivement あ, い, う. En revanche, le son /e/ s'allonge généralement avec un い (ex: せんせい ➔ sensei) et le son /o/ s'allonge presque toujours avec un う (ex: がっこう ➔ gakkō).",
+      "rules": [
+        "O-vowel + う = Son O long [oː].",
+        "E-vowel + い = Son E long [eː]."
+      ],
+      "examples": [
+        {
+          "structure": "せんせい (先生 - Maître / Professeur)",
+          "phonetic_api": "/seɴ.seː/",
+          "meaning": "Professeur (Le 'e' final de 'se' 是s'allonge par le 'い')"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "学生 (Étudiant)",
+      "text": "先生、質問があります。これは「がこう」ですか。",
+      "phonetic_api": "/seɴ.seː ɕi̥t.sɯ.moɴ ɡa a.ɾi.ma.sɯ̥ ko.ɾe wa ɡa.koː de.sɯ.ka/",
+      "phonetic_simple": "SÉN-SÉE, CHIT-SOU-MON GA A-RI-MASS. KO-RÉ WA GAKOO DESS-KA",
+      "translation": "Professeur, j'ai une question. Est-ce que cela se prononce 'gakō' ?"
+    },
+    {
+      "speaker": "先生 (Professeur)",
+      "text": "いいえ、違います。小さい「つ」がありますから、「がっこう」です。",
+      "phonetic_api": "/iː.e t͡ɕi.ɡa.i.ma.sɯ̥ t͡ɕiː.sa.i t͡sɯ ɡa a.ɾi.ma.sɯ.ka.ɾa ɡḁk.koː de.sɯ̥/",
+      "phonetic_simple": "II-É, TCHI-GA-I-MASS. TCHII-SA-I 'TSOU' GA A-RI-MASS KA-RA, GAK-KOO DESS.",
+      "translation": "Non, ce n'est pas correct. Comme il y a un petit 'tsu' (っ), cela se prononce 'gakkō' (avec une pause glottale)."
+    },
+    {
+      "speaker": "学生 (Étudiant)",
+      "text": "あ、そうですか。「がっこう」ですね。分かりました。",
+      "phonetic_api": "/a soː de.sɯ.ka ɡḁk.koː de.sɯ.ne wa.ka.ɾi.ma.ɕi.ta/",
+      "phonetic_simple": "A, SOO DESS-KA. GAK-KOO DESS-NÉ. WA-KA-RI-MA-CH-TA.",
+      "translation": "Ah, d'accord. On insère le petit つ et on dit bien 'gakkō'. J'ai compris."
+    }
+  ],
+  "cultural_notes": [
+    "Le japonais moderne utilise trois écritures de concert. Une phrase type intègre des Kanjis pour les radicaux des verbes et les noms, des Hiraganas pour la grammaire (particules, flexions) et des Katakanas pour les emprunts occidentaux.",
+    "La grille de correspondance des caractères Kana suit un ordre traditionnel appelé Gojūon (les cinquante sons), classé de manière logique selon l'axe des voyelles (A-I-U-E-O) croisé avec l'axe des consonnes (K, S, T, N, H, M, Y, R, W)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel caractère de l'alphabet hiragana correspond à la voyelle fermée postérieure non arrondie 'u' [ɯ] ?",
+      "options": [
+        "あ",
+        "い",
+        "う"
+      ],
+      "correct_answer": "う",
+      "explanation": "Le hiragana う correspond au son romaji 'u', transcrit en API par /ɯ/."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "En appliquant un dakuten ゛ sur le caractère か (ka), on obtient le son [ ___ ].",
+      "correct_answer": "が",
+      "hint": "Écrivez le hiragana modifié correspondant au son 'ga'."
+    }
+  ]
+}

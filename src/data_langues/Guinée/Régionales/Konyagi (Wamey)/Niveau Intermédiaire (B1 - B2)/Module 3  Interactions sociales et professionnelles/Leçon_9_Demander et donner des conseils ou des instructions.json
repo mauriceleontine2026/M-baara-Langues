@@ -1,0 +1,180 @@
+{
+  "lesson_id": "B1_M3_L9",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 9,
+  "title": "Demander et donner des conseils ou des instructions",
+  "learning_objectives": [
+    "Savoir solliciter un conseil ou un avis face à un choix difficile",
+    "Formuler une instruction claire, une directive ou une recommandation",
+    "Utiliser les structures d'exhortation et les nuances de suggestion en wamey"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'articulation du /χ/ (noté 'x') et l'allongement de la voyelle centrale moyenne /əː/ (notée 'ëë'). La particule d'exhortation 'ko' requiert une intonation descendante en fin de phrase.",
+    "common_pitfalls": "Ne pas confondre la forme injonctive directe avec la suggestion polie. La nuance repose entièrement sur l'insertion de formules de douceur comme 'boka ra mi'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "fala",
+      "phonetic_api": "/fala/",
+      "phonetic_simple": "FA-LA",
+      "translation": "faire / agir / exécuter une instruction",
+      "example_sentence": "Fala cene ra boka.",
+      "example_phonetic": "/fala t͡ʃɛnɛ ʁa boka/",
+      "example_translation": "Fais cela correctement."
+    },
+    {
+      "word_id": "v2",
+      "term": "can",
+      "phonetic_api": "/t͡ʃan/",
+      "phonetic_simple": "TCHAN",
+      "translation": "avis / pensée / conseil (litt. le cœur)",
+      "example_sentence": "Muxu can wun ko.",
+      "example_phonetic": "/muxu t͡ʃan wun ko/",
+      "example_translation": "Donne-moi ton avis s'il te plaît."
+    },
+    {
+      "word_id": "v3",
+      "term": "boka ra",
+      "phonetic_api": "/boka ʁa/",
+      "phonetic_simple": "BO-KA RA",
+      "translation": "être bon pour / valoir mieux pour",
+      "example_sentence": "I boka ra wun ra gwa.",
+      "example_phonetic": "/i boka ʁa wun ʁa ɡwa/",
+      "example_translation": "Il vaut mieux pour toi que tu partes (conseil)."
+    },
+    {
+      "word_id": "v4",
+      "term": "kwaɗ",
+      "phonetic_api": "/kwaɗ/",
+      "phonetic_simple": "KOUAD",
+      "translation": "voie / méthode / bonne manière",
+      "example_sentence": "Cene i kwaɗ ra boka.",
+      "example_phonetic": "/t͡ʃɛnɛ i kwaɗ ʁa boka/",
+      "example_translation": "C'est la bonne manière de faire."
+    },
+    {
+      "word_id": "v5",
+      "term": "tyekal",
+      "phonetic_api": "/tjɛkal/",
+      "phonetic_simple": "TYÉ-KAL",
+      "translation": "montrer / enseigner / guider",
+      "example_sentence": "Tyekal mi kwaɗ ko.",
+      "example_phonetic": "/tjɛkal mi kwaɗ ko/",
+      "example_translation": "Montre-moi le chemin / la méthode."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Nyi gwa fala fene ra wun ?",
+      "phonetic_api": "/ɲi ɡwa fala fɛnɛ ʁa wun/",
+      "phonetic_simple": "NYI GOUA FA-LA FÉ-NÉ RA WOUN ?",
+      "translation": "Que devrais-je faire d'après toi ?",
+      "context": "Demander un conseil important à un aîné ou un ami."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "I boka ra wun ra wetyal malo cene.",
+      "phonetic_api": "/i boka ʁa wun ʁa wɛtjal malo t͡ʃɛnɛ/",
+      "phonetic_simple": "I BO-KA RA WOUN RA OUÉ-TYAL MA-LO TCHÉ-NÉ.",
+      "translation": "Il est préférable pour toi d'acheter ce riz.",
+      "context": "Donner une forte recommandation lors d'un choix."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Fala cene, tyi wun gwa ra saax.",
+      "phonetic_api": "/fala t͡ʃɛnɛ tji wun ɡwa ʁa saːχ/",
+      "phonetic_simple": "FA-LA TCHÉ-NÉ, TYI WOUN GOUA RA SAAKH.",
+      "translation": "Fais comme ça, ensuite tu iras à la maison.",
+      "context": "Donner une série d'instructions claires à un exécutant."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure de suggestion consultative : 'I boka ra... ra...'",
+      "explanation": "Pour donner un conseil sans imposer un ordre direct (comme 'tu devrais'), le wamey utilise une double structure prépositionnelle introduite par l'état 'i boka' (c'est bon).",
+      "rules": [
+        "I boka ra + [Bénéficiaire du conseil] + ra + [Verbe d'action à l'infinitif]"
+      ],
+      "examples": [
+        {
+          "structure": "I boka ra mi ra waawë.",
+          "phonetic_api": "/i boka ʁa mi ʁa waːwə/",
+          "meaning": "Il vaut mieux pour moi que je travaille / Je devrais travailler."
+        }
+      ]
+    },
+    {
+      "concept": "L'enchaînement d'instructions par le connecteur 'tyi'",
+      "explanation": "Lorsqu'on donne des directives ou des étapes de travail, le morphème de liaison chronologique 'tyi' (puis / ensuite) permet de structurer le récit direct.",
+      "rules": [
+        "Instruction A + tyi + Instruction B"
+      ],
+      "examples": [
+        {
+          "structure": "Mëra kaɓas tyi nyi fagba.",
+          "phonetic_api": "/məʁa kaɓas tji ɲi faɡba/",
+          "meaning": "Baise le prix, ensuite je paye."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Mady, nyi tyekwa ra wetyal godo, nyi gwa fala fene ra wun ?",
+      "phonetic_api": "/madi ɲi tjɛkwa ʁa wɛtjal ɡɔdɔ ɲi ɡwa fala fɛnɛ ʁa wun/",
+      "phonetic_simple": "MA-DY, NYI TYÉ-KOUA RA OUÉ-TYAL GO-DO, NYI GOUA FA-LA FÉ-NÉ RA WOUN ?",
+      "translation": "Mady, je veux acheter un pagne, que devrais-je faire selon toi ?"
+    },
+    {
+      "speaker": "Mady",
+      "text": "I boka ra wun ra gwa ra marse tene. Tyekal mi wogbë wun ko.",
+      "phonetic_api": "/i boka ʁa wun ʁa ɡwa ʁa maʁse tɛnɛ tjɛkal mi wɔɡbə wun ko/",
+      "phonetic_simple": "I BO-KA RA WOUN RA GOUA RA MAR-SÉ TÉ-NÉ. TYÉ-KAL MI OUE-GBE WOUN KO.",
+      "translation": "Il vaut mieux pour toi d'aller au marché le lundi. Montre-moi ton argent s'il te plaît (pour t'aiguiller)."
+    },
+    {
+      "speaker": "Samba",
+      "text": "Muxu wogbë cene. I loda gba ?",
+      "phonetic_api": "/muxu wɔɡbə t͡ʃɛnɛ i loda ɡba/",
+      "phonetic_simple": "MOU-KHOU OUE-GBE TCHÉ-NÉ. I LO-DA GBA ?",
+      "translation": "Prends (regarde) cet argent. Est-ce que c'est insuffisant ?"
+    },
+    {
+      "speaker": "Mady",
+      "text": "Gba, i boka gba. Fala cene : gwa ra ce mbe kofon, tyi wun mëra kaɓas ko !",
+      "phonetic_api": "/ɡba i boka ɡba fala t͡ʃɛnɛ ɡwa ʁa t͡ʃɛ mbɛ kofon tji wun məʁa kaɓas ko/",
+      "phonetic_simple": "GBA, I BO-KA GBA. FA-LA TCHÉ-NÉ : GOUA RA TCHÉ MBÉ KO-FON, TYI WOUN ME-RA KA-BHAS KO !",
+      "translation": "Non, c'est très bien. Fais ainsi : va chez le vendeur de tissu, et ensuite demande-lui de baisser le prix !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans la société traditionnelle Konyagi, la prise de décision n'est presque jamais purement individuelle. On sollicite spontanément l'avis ('can') de ses pairs ou de ses aînés pour valider un choix économique ou personnel.",
+    "Donner une instruction à quelqu'un requiert de la diplomatie : l'usage fréquent de la formule impersonnelle 'Il est bon pour toi...' permet de guider l'autre sans paraître autoritaire ou cassant."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M3_L9_EX1",
+      "type": "multiple_choice",
+      "question": "Quelle structure exprime le conseil 'Tu devrais / Il est préférable pour toi de...' ?",
+      "options": [
+        "Kpa fala cene",
+        "I boka ra wun ra...",
+        "Ila nyi gwa..."
+      ],
+      "correct_answer": "I boka ra wun ra...",
+      "explanation": "La tournure 'I boka ra [quelqu'un] ra...' est la formule typique de la suggestion et du conseil."
+    },
+    {
+      "exercise_id": "B1_M3_L9_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Gwa ra marse [ ___ ] wun mëra kaɓas. (Va au marché, ensuite baisse le prix.)",
+      "correct_answer": "tyi",
+      "hint": "Le connecteur chronologique qui sert à lier deux instructions successives."
+    }
+  ]
+}

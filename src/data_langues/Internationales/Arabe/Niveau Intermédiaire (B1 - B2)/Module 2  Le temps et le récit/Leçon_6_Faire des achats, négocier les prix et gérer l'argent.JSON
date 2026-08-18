@@ -1,0 +1,245 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Utiliser le lexique intermédiaire lié aux transactions financières, à la monnaie et au budget",
+    "Maîtriser les structures de la négociation commerciale courtoise et de l'argumentation de prix",
+    "Employer correctement les expressions de quantité et le cas direct (Accusatif) pour les prix"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon se concentre sur les termes transactionnels. Le sound /q/ (ق) de 'Nuqūd' (argent liquide) ou 'Sifr' n'est pas là, mais il structure 'Ghalī' (cher) via sa contrepartie fricative uvulaire sonore /ɣ/ (غ). La consonne emphatique /sˤ/ (ص) est primordiale dans 'Khá-sam' (réduction/remise) et 'Masrif' (banque). Le /θ/ (ث) apparaît dans 'Thaman' (prix).",
+    "common_pitfalls": "Ne confondez pas le /θ/ (ث) de 'Thaman' (ثَمَن - prix) avec le /s/ (س) de 'Saman' (سَمْن - beurre clarifying). Un glissement articulatoire fausse totalement le sens de la transaction. Marquez également la Shaddah sur le verbe 'Khāfiḍ' au présent 'Yukháffid' (baisser)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "ثَمَنٌ",
+      "phonetic_api": "/θa.ma.nun/",
+      "phonetic_simple": "THA-MA-NOUN",
+      "translation": "Un prix / Une valeur / Un coût",
+      "example_sentence": "ثَمَنُ هَذَا الْكِتَابِ مُرْتَفِعٌ",
+      "example_phonetic": "/.../",
+      "example_translation": "Le prix de ce livre est élevé"
+    },
+    {
+      "word_id": "v2",
+      "term": "نُقُودٌ",
+      "phonetic_api": "/nu.quː.dun/",
+      "phonetic_simple": "NOU-KOOU-DOUN",
+      "translation": "De l'argent / Des pièces / De la monnaie liquide",
+      "example_sentence": "لَيْسَ مَعِي نُقُودٌ كَافِيَةٌ",
+      "example_phonetic": "/.../",
+      "example_translation": "Je n'ai pas d'argent liquide suffisant sur moi"
+    },
+    {
+      "word_id": "v3",
+      "term": "خَصْمٌ",
+      "phonetic_api": "/xasˤ.mun/",
+      "phonetic_simple": "KHAS-MOUN",
+      "translation": "Une réduction / Un rabais / Une remise",
+      "example_sentence": "هَلْ هُنَاكَ خَصْمٌ عَلَى هَذَا؟",
+      "example_phonetic": "/.../",
+      "example_translation": "Y a-t-il une réduction sur cela ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "مِيزَانِيَّةٌ",
+      "phonetic_api": "/miː.zaː.nij.ja.tun/",
+      "phonetic_simple": "MII-ZAA-NIY-YA-TOUN",
+      "translation": "Un budget",
+      "example_sentence": "يَجِبُ أَنْ نُحَافِظَ عَلَى الْمِيزَانِيَّةِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Nous devons respecter (préserver) le budget"
+    },
+    {
+      "word_id": "v5",
+      "term": "غَالٍ",
+      "phonetic_api": "/ɣaː.lin/",
+      "phonetic_simple": "GHAA-LIN",
+      "translation": "Cher / Onéreux (devient Al-Ghālī avec l'article)",
+      "example_sentence": "هَذَا الْهَاتِفُ غَالٍ جِدًّا",
+      "example_phonetic": "/.../",
+      "example_translation": "Ce téléphone est très cher"
+    },
+    {
+      "word_id": "v6",
+      "term": "رَخِيصٌ",
+      "phonetic_api": "/ra.xiː.sˤun/",
+      "phonetic_simple": "RA-KHII-SOUN",
+      "translation": "Bon marché / Économique",
+      "example_sentence": "السُّوقُ الشَّعْبِيُّ رَخِيصٌ",
+      "example_phonetic": "/.../",
+      "example_translation": "Le marché populaire est bon marché"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "هَلْ يُمْكِنُ أَنْ تُخَفِّضَ الثَّمَنَ قَلِيلًا؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAL YOUM-KI-NOU AN TOU-KHAF-FI-DATH THA-MA-NA KA-LII-LAN",
+      "translation": "Peux-tu baisser le prix un peu ? (à un homme)",
+      "context": "Phrase clé de niveau intermédiaire pour entamer une négociation cordiale au souk."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "هَذَا السِّعْرُ لَا يُنَاسِبُ مِيزَانِيَّتِي",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAA-THAS SIB-ROU LAA YOU-NAA-SI-BOU MII-ZAA-NIY-YA-TII",
+      "translation": "Ce prix ne correspond pas à my budget",
+      "context": "Argumenter poliment son refus d'un premier prix proposé."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "أُرِيدُ الدَّفْعَ عَبْرَ الْبِطَاقَةِ الْمَصْرِفِيَّةِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "OU-RII-DOU D-DAF-A AB-RAL BI-TAA-KA-TIL MAS-RI-FIY-YA",
+      "translation": "Je souhaite payer par carte bancaire",
+      "context": "Préciser le moyen de paiement dans un magasin moderne."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "أَعْطِنِي آخِرَ سِعْرٍ عِنْدَكَ مِنْ فَضْلِكَ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AC-TII-NII AA-KHI-RA SIB-RIN INDA-KA MIN FAD-LI-KA",
+      "translation": "Donne-moi ton dernier prix s'il te plaît",
+      "context": "Demander le prix final non négociable au vendeur."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "اشْتَرَيْتُ هَذَا فِي فَتْرَةِ التَّخْفِيضَاتِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "CH-TA-RAY-TOU HAA-THAA FII FAT-RA-TIT TAKH-FII-DAAT",
+      "translation": "J'ai acheté cela durant la période des soldes",
+      "context": "Raconter une bonne affaire ou la gestion de ses dépenses."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la quantité et de l'approximation : 'Qalīlan' et 'Kathīran'",
+      "explanation": "Pour nuancer une demande d'achat ou de négociation, on utilise des adverbes de quantité dérivés de structures adjectivales au cas direct (Accusatif de manière).",
+      "rules": [
+        "Qalīlan (قَلِيلًا) : Un peu / Légèrement. Se place généralement après le verbe ou l'objet.",
+        "Kathīran (كَثِيرًا) : Beaucoup / Énormément.",
+        "Ces termes portent obligatoirement le Tanween Al-Fath (-an) car ils fonctionnent comme des compléments absolus ou de manière."
+      ],
+      "examples": [
+        {
+          "structure": "تَكَلَّفَ كَثِيرًا",
+          "phonetic_api": "/ta.kal.la.fa ka.θiː.ran/",
+          "meaning": "Cela a coûté beaucoup (d'argent)"
+        },
+        {
+          "structure": "انْتَظِرْ قَلِيلًا",
+          "phonetic_api": "/in.ta.ðˤir qa.liː.lan/",
+          "meaning": "Attends un peu"
+        }
+      ]
+    },
+    {
+      "concept": "Le verbe de capacité 'Yumkinu an' (يُمْكِنُ أَنْ) pour les demandes polies",
+      "explanation": "Pour formuler une requête commerciale adoucie de niveau intermédiaire, la grammaire utilise la tournure impersonnelle 'Il est possible de'.",
+      "rules": [
+        "La structure commence par Yumkinu (يُمْكِنُ - il est possible) qui reste invariable.",
+        "Il est suivi de la particule 'An' (أَنْ) puis du verbe d'action principal conjugué à la personne voulue au mode subjonctif (Fatha finale)."
+      ],
+      "examples": [
+        {
+          "structure": "هَلْ يُمْكِنُ أَنْ أَشْتَرِيَ هَذَا؟",
+          "phonetic_api": "/.../",
+          "meaning": "Est-il possible que j'achète ceci ? (Ashtariya prend la fatha)"
+        },
+        {
+          "structure": "يُمْكِنُ أَنْ تَدْفَعَ هُنَا",
+          "phonetic_api": "/.../",
+          "meaning": "Tu peux payer ici (litt : Il est possible que tu payes ici)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "الْمُشْتَرِي (L'acheteur)",
+      "text": "عَفْوًا يَا سَيِّدِي، كَمْ ثَمَنُ هَذِهِ السَّجَّادَةِ التَّقْلِيدِيَّةِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AF-OUAN YA SAY-YI-DII, KAM THA-MA-NOU HAA-THI-HIS SADj-DJAA-DA...",
+      "translation": "Excusez-moi monsieur, quel est le prix de ce tapis traditionnel ?"
+    },
+    {
+      "speaker": "الْبَائِعُ (Le vendeur)",
+      "text": "أَهْلًا بِكَ. هَذَا السَّجَّادُ صُنِعَ بِالْيَدِ، وَثَمَنُهُ أَلْفُ دِرْهَمٍ فَقَطْ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN BI-KA. HAA-THAS SADj-DJAAD SOU-NI-A BIL-YAD, WA THA-MA-NOU-HOU AL-FOU DIR-HA-MIN FA-KAT",
+      "translation": "Bienvenue à vous. Ce tapis a été fabriqué à la main, et son prix est de mille dirhams seulement."
+    },
+    {
+      "speaker": "الْمُشْتَرِي (L'acheteur)",
+      "text": "يَا إِلَهِي ! هَذَا غَالٍ جِدًّا وَلَا يُنَاسِبُ مِيزَانِيَّتِي. هَلْ يُمْكِنُ أَنْ تُخَفِّضَ السِّعْرَ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "YA I-LAA-HII ! HAA-THAA GHAA-LIN DJID-DAN WA LAA YOU-NAA-SI-BOU MII-ZAA-NIY-YA-TII...",
+      "translation": "Oh mon Dieu ! C'est très cher et cela ne correspond pas à mon budget. Est-il possible de baisser le prix ?"
+    },
+    {
+      "speaker": "الْبَائِعُ (Le vendeur)",
+      "text": "لِأَنَّكَ زَبُونٌ طَيِّبٌ، سَأُعْطِيكَ خَصْمًا. مَا رَأْيُكَ فِي ثَمَانِمِائَةِ دِرْهَمٍ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "LI-AN-NA-KA ZA-BOOU-NOUN TAY-YIB, SA-OU-TII-KA KHAS-MAN. MAA RA'-YOU-KA FII THA-MAA-NI-MI-A...",
+      "translation": "Parce que tu es un bon client, je vais te faire une remise. Que dis-tu de huit cents dirhams ?"
+    },
+    {
+      "speaker": "الْمُشْتَرِي (L'acheteur)",
+      "text": "هَذَا لَا يَزَالُ مُرْتَفِعًا. نُقُودي النَّقْدِيَّةُ هِيَ سَبْعُمِائَةِ دِرْهَمٍ فَقَطْ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAA-THAA LAA YA-ZAA-LOU MOUR-TA-FI-AN. NOU-KOOU-DIL NAK-DIY-YA HI-YA SAB-OU-MI-A...",
+      "translation": "C'est encore élevé. Mon argent liquide est de sept cents dirhams seulement."
+    },
+    {
+      "speaker": "الْبَائِعُ (Le vendeur)",
+      "text": "حَسَنًا، مَبْرُوكٌ عَلَيْكَ السَّجَّادَةُ بِسَبْعِمِائَةِ دِرْهَمٍ ! هَاتِ النُقُودَ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HA-SA-NAN, MAB-ROOU-KOUN ALAY-KAS SADj-DJAA-DA BI-SAB-I-MI-A ! HAA-TIN NOU-KOOUD",
+      "translation": "D'accord, félicitations pour le tapis à sept cents dirhams ! Donne l'argent."
+    }
+  ],
+  "cultural_notes": [
+    "L'art de la négociation (Al-Musāwamah) : Dans les souks traditionnels du monde arabe, la négociation des prix (المُسَاوَمَة - Al-Musāwamah) n'est pas perçue comme une dispute ou de l'avarice, mais comme un rituel d'échange social hautement codé et respectueux. Fixer un prix sans discuter peut parfois décevoir le marchand, qui apprécie le dialogue.",
+    "La bénédiction de la vente : À la conclusion d'une vente ou d'un accord financier, le vendeur prononce presque toujours la formule 'Mabrūk' (Félicitations) ou 'Allāh yubārik lak' (Que Dieu te bénisse cela), validant spirituellement et moralement le gain et l'acquisition."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L6_ex1",
+      "type": "multiple_choice",
+      "question": "Comment demandez-vous poliment une baisse du tarif selon les règles apprises ?",
+      "options": [
+        "هَلْ يُمْكِنُ أَنْ تُخَفِّضَ السِّعْرَ؟ (Hal yumkinu an tukháffiḍa s-si'ra?)",
+        "هَذَا رَخِيصٌ جِدًّا لِي (Hādhā rakhīṣun jiddan lī)",
+        "أُرِيدُ الدَّفْعَ حَالًا (Urīdu d-daf'a ḥālan)"
+      ],
+      "correct_answer": "هَلْ يُمْكِنُ أَنْ تُخَفِّضَ السِّعْرَ؟ (Hal yumkinu an tukháffiḍa s-si'ra?)",
+      "explanation": "On utilise la structure polie 'Yumkinu an' suivie du verbe d'action au subjonctif."
+    },
+    {
+      "exercise_id": "B1_M2_L6_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Ce produit est très onéreux', on utilise l'adjectif : هَذَا الْمُنْتَجُ [ ___ ] جِدًّا",
+      "correct_answer": "غَالٍ",
+      "hint": "C'est l'adjectif pour cher sans son article défini."
+    },
+    {
+      "exercise_id": "B1_M2_L6_ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie l'affirmation 'لَيْسَ مَعِي نُقُودٌ' (Laysa ma'ī nuqūd) ?",
+      "options": [
+        "Je n'ai pas le temps",
+        "Je n'ai pas d'argent sur moi",
+        "Je ne trouve pas le marché"
+      ],
+      "correct_answer": "Je n'ai pas d'argent sur moi",
+      "explanation": "Nuqūd désigne spécifiquement les espèces, les billets et la monnaie fiduciaire nécessaire à un échange physique."
+    }
+  ]
+}

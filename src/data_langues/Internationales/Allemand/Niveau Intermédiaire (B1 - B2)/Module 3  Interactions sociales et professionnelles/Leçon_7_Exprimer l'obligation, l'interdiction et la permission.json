@@ -1,0 +1,233 @@
+{
+  "lesson_id": "B1_M3_L7",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 7,
+  "title": "Exprimer l'obligation, l'interdiction et la permission",
+  "learning_objectives": [
+    "Exprimer l'obligation absolue et le devoir moral à l'aide des verbes de modalité adaptés",
+    "Formuler des interdictions strictes et des règles collectives dans l'espace public ou professionnel",
+    "Demander et accorder une permission ou une autorisation de manière formelle et informelle",
+    "Maîtriser la syntaxe complexe des verbes de modalité au présent et au prétérit"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le verbe 'müssen' se prononce [ˈmʏsn̩] avec un Ü-Umlaut court et tendu, tandis que 'dürfen' se réalise sous la forme [ˈdʏʁfn̩] avec un -r- médian vocalisé et discret. La lettre -z- dans 'die Erlaubnis' se prononce comme une occlusive alvéolaire sourde [ts]. Le groupe de lettres -st- dans 'verboten' n'existe pas, mais observez le -v- initial qui se prononce obligatoirement [f] : [fɛɐ̯ˈboːtn̩].",
+    "common_pitfalls": "Attention au piège de prononciation de 'man darf nicht' : le -f- et le -t- se succèdent de manière sèche. Ne confondez pas le son du verbe 'sollen' [ˈzɔlən] (o ouvert) avec celui d'autres structures, et veillez à ne pas prononcer le -e final de 'die Pflicht' comme s'il existait."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "müssen",
+      "phonetic_api": "/ˈmʏsn̩/",
+      "phonetic_simple": "MOUS-NEN",
+      "translation": "devoir / être obligé de (obligation absolue)",
+      "example_sentence": "Wir müssen das Projekt bis morgen fertigstellen.",
+      "example_phonetic": "/viːɐ̯ ˈmʏsn̩ das pʁoˈjɛkt bɪs ˈmɔʁɡn̩ ˈfɛʁtɪçˌʃtɛlən/",
+      "example_translation": "Nous devons terminer le projet pour demain."
+    },
+    {
+      "word_id": "v2",
+      "term": "dürfen",
+      "phonetic_api": "/ˈdʏʁfn̩/",
+      "phonetic_simple": "DOURF-NEN",
+      "translation": "pouvoir / avoir l'autorisation de (permission)",
+      "example_sentence": "Hier darf man kostenlos parken.",
+      "example_phonetic": "/hiːɐ̯ darf man ˈkɔstn̩loːs ˈpaʁkən/",
+      "example_translation": "On peut se garer gratuitement ici."
+    },
+    {
+      "word_id": "v3",
+      "term": "verboten",
+      "phonetic_api": "/fɛɐ̯ˈboːtn̩/",
+      "phonetic_simple": "FER-BOO-TEN",
+      "translation": "interdit / défendu",
+      "example_sentence": "Rauchen ist im gesamten Gebäude verboten.",
+      "example_phonetic": "/ˈʁaʊ̯xn̩ ɪst ɪm ɡəˈzamtn̩ ɡəˈbɔɪ̯də fɛɐ̯ˈboːtn̩/",
+      "example_translation": "Il est interdit de fumer dans tout le bâtiment."
+    },
+    {
+      "word_id": "v4",
+      "term": "die Erlaubnis",
+      "phonetic_api": "/diː ɛɐ̯ˈlaʊ̯pnɪs/",
+      "phonetic_simple": "DII ER-LAOUB-NIS",
+      "translation": "la permission / l'autorisation",
+      "example_sentence": "Hast du die Erlaubnis vom Chef bekommen?",
+      "example_phonetic": "/hast duː diː ɛɐ̯ˈlaʊ̯pnɪs fɔm ʃɛf bəˈkɔmən/",
+      "example_translation": "As-tu obtenu l'autorisation du chef ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "sollen",
+      "phonetic_api": "/ˈzɔlən/",
+      "phonetic_simple": "ZOL-EN",
+      "translation": "devoir (ordre d'un tiers / devoir moral / conseil)",
+      "example_sentence": "Ich soll den Arzt anrufen, sagt meine Frau.",
+      "example_phonetic": "/ɪç zɔl de n ˈaːɐ̯ts t ˈanˌʁuːfn̩ zaːkt ˈmaɪ̯nə fʁaʊ̯/",
+      "example_translation": "Je dois appeler le médecin, dit ma femme."
+    },
+    {
+      "word_id": "v6",
+      "term": "die Pflicht",
+      "phonetic_api": "/diː pflɪçt/",
+      "phonetic_simple": "DII PFLICHT",
+      "translation": "le devoir / l'obligation morale ou légale",
+      "example_sentence": "Es ist meine Pflicht, dir die Wahrheit zu sagen.",
+      "example_phonetic": "/ɛs ɪst ˈmaɪ̯nə pflɪçt diːɐ̯ diː ˈvaːɐ̯haɪ̯t tsuː ˈʃpʁɛçn̩/",
+      "example_translation": "C'est mon devoir de te dire la vérité."
+    },
+    {
+      "word_id": "v7",
+      "term": "gestatten",
+      "phonetic_api": "/ɡəˈʃtatn̩/",
+      "phonetic_simple": "GHE-CHTAT-EN",
+      "translation": "permettre / autoriser (soutenu)",
+      "example_sentence": "Hunde sind in diesem Restaurant nicht gestattet.",
+      "example_phonetic": "/ˈhʊndə zɪnt ɪn ˈdiːzəm ʁɛstoˈʁaŋ nɪçt ɡəˈʃtatn̩/",
+      "example_translation": "Les chiens ne sont pas autorisés dans ce restaurant."
+    },
+    {
+      "word_id": "v8",
+      "term": "nicht brauchen + zu",
+      "phonetic_api": "/nɪçt ˈbʁaʊ̯xn̩ tsuː/",
+      "phonetic_simple": "NICHT BRAOUK-EN TSOU",
+      "translation": "ne pas avoir besoin de / ne pas être obligé de",
+      "example_sentence": "Du brauchst morgen nicht zu arbeiten.",
+      "example_phonetic": "/duː bʁaʊ̯chst ˈmɔʁɡn̩ nɪçt tsuː ˈaʁbaɪ̯tn̩/",
+      "example_translation": "Tu n'es pas obligé de travailler demain."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Es ist strengstens untersagt, die Büros nach 22 Uhr zu betreten.",
+      "phonetic_api": "/ɛs ɪst ˈʃtʁɛŋstn̩s ʊntɐˈzaːkt diː ˈbyːʁoːs naːx tsvanzɪç uːɐ̯ tsuː bəˈtʁeːtn̩/",
+      "phonetic_simple": "ES IST CHTRENGS-TENS OUN-TER-ZAKT DII BUU-ROOS NAK TSVANTS-ICH OOUR TSOU BE-TREET-EN",
+      "translation": "Il est strictement interdit de pénétrer dans les bureaux après 22 heures.",
+      "context": "Règlement intérieur ferme au sein d'une entreprise."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Darf ich Sie kurz um Ihre Aufmerksamkeit bitten?",
+      "phonetic_api": "/darf ɪç ziː kʊʁts ʊm ˈiːʁə ˈaʊ̯fmɛʁkzaːmkaɪ̯t ˈbɪttn̩/",
+      "phonetic_simple": "DARF ICH ZII KOURTS OUM II-RE AOOUF-MERK-SAM-KAIT BIT-EN",
+      "translation": "Puis-je vous demander un court instant votre attention ?",
+      "context": "Formule de politesse formelle pour débuter une réunion."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Mitarbeiter müssen die Sicherheitsvorschriften strikt einhalten.",
+      "phonetic_api": "/ˈmɪtˌaʁbaɪ̯tɐ ˈmʏsn̩ diː ˈzɪçɐhaɪ̯tsˌfoːɐ̯ʃʁɪftn̩ ʃtʁɪkt ˈaɪ̯nˌhaltn̩/",
+      "phonetic_simple": "MIT-AR-BAI-TER MOUS-NEN DII ZICH-ER-HAITS-FOOR-CHRIFT-EN CHTRIKT AIN-HAL-TEN",
+      "translation": "Les collaborateurs doivent respecter strictement les consignes de sécurité.",
+      "context": "Directives professionnelles officielles."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Sie brauchen sich keine Sorgen zu machen, das ist hier erlaubt.",
+      "phonetic_api": "/ziː ˈbʁaʊ̯xn̩ zɪç ˈkaɪ̯nə ˈzɔʁɡn̩ tsuː ˈmaxn̩ das ɪst hiːɐ̯ ɛɐ̯ˈlaʊ̯pt/",
+      "phonetic_simple": "ZII BRAOUK-EN ZICH KAI-NE ZOR-GHEN TSOU MAK-EN DAS IST HIIR ER-LAOUBT",
+      "translation": "Vous n'avez pas besoin de vous inquiéter, c'est autorisé ici.",
+      "context": "Rassurer un interlocuteur sur la légitimité d'une action."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La distinction sémantique et syntaxique entre müssen, sollen et dürfen nicht",
+      "explanation": "Exprimer l'autorité, le devoir ou l'interdiction repose sur le maniement précis des verbes de modalité allemands, dont la négation modifie profondément le sens initial.",
+      "rules": [
+        "Le verbe 'müssen' exprime une nécessité objective interne ou une contrainte physique incontournable (il n'y a pas d'alternative).",
+        "Le verbe 'sollen' indique un ordre donné par une tierce personne ou une obligation morale de société.",
+        "Piège majeur de la négation : 'müssen nicht' signifie une simple absence d'obligation ('tu n'es pas obligé de'). Pour exprimer une interdiction absolue ('tu ne dois pas / il est interdit de'), on doit utiliser impérativement le verbe 'dürfen' associé à la négation : 'du darfst nicht'."
+      ],
+      "examples": [
+        {
+          "structure": "Du musst heute nicht kommen. (Absence d'obligation)",
+          "phonetic_api": "/duː mʊst ˈhɔɪ̯tə nɪçt ˈkɔmən/",
+          "meaning": "Tu n'es pas obligé de venir aujourd'hui (tu peux si tu veux)."
+        },
+        {
+          "structure": "Du darfst hier nicht rauchen. (Interdiction absolue)",
+          "phonetic_api": "/duː darfst hiːɐ̯ nɪçt ˈʁaʊ̯xn̩/",
+          "meaning": "Tu ne dois pas fumer ici (c'est interdit)."
+        }
+      ]
+    },
+    {
+      "concept": "Les verbes de modalité au temps du Prétérit (Präteritum)",
+      "explanation": "Dans un contexte professionnel ou lors d'un récit, les obligations et permissions passées s'expriment presque exclusivement au Prétérit.",
+      "rules": [
+        "Au prétérit, les verbes de modalité perdent systématiquement leur Umlaut (inflexion sur la voyelle) et prennent le suffixe '-te' suivi des désinences régulières.",
+        "Formes clés : müssen -> ich musste ; dürfen -> ich durfte ; sollen -> ich sollte ; können -> ich konnte ; wollen -> ich wollte."
+      ],
+      "examples": [
+        {
+          "structure": "Damals durfte ich ohne Erlaubnis nicht ausgehen.",
+          "phonetic_api": "/ˈdaːmaːls ˈdʊʁftə ɪç ˈoːnə ɛɐ̯ˈlaʊ̯pnɪs nɪçt ˈaʊ̯sˌɡeːən/",
+          "meaning": "À l'époque, je n'avais pas l'autorisation de sortir sans permission."
+        },
+        {
+          "structure": "Wir mussten Überstunden machen.",
+          "phonetic_api": "/viːɐ̯ ˈmʊstə n ˈyːbɐˌʃtʊndn̩ ˈmaxn̩/",
+          "meaning": "Nous avons dû faire des heures supplémentaires."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mila",
+      "text": "Sag mal, Herr Wagner, darf man in diesem Besprechungsraum eigentlich private Telefonate führen?",
+      "phonetic_api": "/zaːk maːl hɛʁ ˈvaːɡnɐ darf man ɪn ˈdiːzəm bəˈʃpʁɛçʊŋsˌʁaʊ̯m ˈaɪ̯ɡn̩tlɪç pʁiˈvaːtə teləfoˈnaːtə ˈfyːʁən/",
+      "phonetic_simple": "ZAK MAL HER VAG-NER DARF MAN IN DII-ZEM BE-CHPREK-OUNGS-RAOUM AI-GHENT-LICH PRI-VA-TE TE-LE-FO-NA-TE FUU-REN",
+      "translation": "Dites-moi, Monsieur Wagner, a-t-on le droit de passer des appels personnels dans cette salle de réunion ?"
+    },
+    {
+      "speaker": "Herr Wagner",
+      "text": "Nein, das darf man laut Betriebsvereinbarung nicht. Während der Arbeitszeit sollen alle privaten Gespräche draußen geführt werden.",
+      "phonetic_api": "/naɪ̯n das darf man laʊ̯t bəˈtʁiːpsfɛɐ̯ˈaɪ̯nbaːʁʊŋ nɪçt ˈvɛːʁənt deːɐ̯ ˈaʁbaɪ̯tsˌtsaɪ̯t ˈzɔlən ˈalə pʁiˈvaːtn̩ ɡəˈʃpʁɛːçə ˈdʁaʊ̯sn̩ ɡəˈfyːɐ̯t ˈveːɐ̯dn̩/",
+      "phonetic_simple": "NAIN DAS DARF MAN LAOUT BE-TRIIBS-FER-AIN-BA-ROUNG NICHT VEE-RENT DEER AR-BAITS-TSAIT ZOL-EN AL-E PRI-VA-TEN GHE-CHPREE-KE DRAOOU-SEN GHE-FUURT VEER-DEN",
+      "translation": "Non, on n'a pas le droit d'après le règlement intérieur de l'entreprise. Pendant les heures de travail, toutes les conversations privées doivent être passées à l'extérieur."
+    },
+    {
+      "speaker": "Mila",
+      "text": "Verstehe. Letzte Woche musste ich dringend meine Familie erreichen, wusste mais nicht, ob ich das Büro verlassen darf.",
+      "phonetic_api": "/fɛɐ̯ˈʃteːə ˈlɛtstə ˈvɔxə ˈmʊstə ɪç ˈdʁɪŋənt ˈmaɪ̯nə faˈmiːli̯ə ɛɐ̯ˈʁaɪ̯çn̩ ˈvʊstə ˈaːbɐ nɪçt ɔp ɪç das ˈbyːʁoː fɛɐ̯ˈlasn̩ darf/",
+      "phonetic_simple": "FER-CHTEE-E LETS-TE VOK-E MOUS-TE ICH DRIN-GENT MAI-NE FA-MII-LIE ER-RAICH-EN VOUS-TE A-BER NICHT OP ICH DAS BUU-ROO FER-LAS-EN DARF",
+      "translation": "Je vois. La semaine dernière, j'ai dû joindre ma famille de toute urgence, mais je ne savais pas si j'avais l'autorisation de quitter le bureau."
+    },
+    {
+      "speaker": "Herr Wagner",
+      "text": "In einem Notfall brauchen Sie natürlich nicht zu fragen. Da dürfen Sie das Büro selbstverständlich sofort verlassen.",
+      "phonetic_api": "/ɪn ˈaɪ̯nəm ˈnoːtfal ˈbʁaʊ̯xn̩ ziː naˈtyːɐ̯lɪç nɪçt tsuː ˈfʁaːɡn̩ daː ˈdʏʁfn̩ ziː das ˈbyːʁoː zɛlpstfɛɐ̯ˈʃtɛntlɪç zoˈfɔʁt fɛɐ̯ˈlasn̩/",
+      "phonetic_simple": "IN AI-NEM NOOT-FAL BRAOUK-EN ZII NA-TUUR-LICH NICHT TSOU FRA-GHEN DA DOURF-NEN ZII DAS BUU-ROO ZELBST-FER-CHTEENT-LICH ZO-FORT FER-LAS-EN",
+      "translation": "En cas d'urgence, vous n'avez bien sûr pas besoin de demander. Dans ce cas, vous pouvez évidemment quitter le bureau immédiatement."
+    }
+  ],
+  "cultural_notes": [
+    "La société allemande accorde une importance capitale au respect des règles collectives publiques ('Ordnung'). Les panneaux signalétiques indiquant des interdictions (ex: 'Betreten verboten' - Défense d'entrer) ou des obligations réglementaires sont appliqués rigoureusement et leur non-respect peut entraîner des remarques directes de la part des citoyens.",
+    "Dans l'univers professionnel, les contrats et les accords d'entreprise ('Betriebsvereinbarungen') fixent très précisément les droits et les devoirs de chacun. Les horaires, l'utilisation du matériel ou les pauses y sont encadrés de façon claire afin d'éviter tout flou juridique.",
+    "L'expression de l'obligation atténuée ou du conseil poli se fait massivement via le subjonctif II du verbe sollen : 'Du solltest mehr schlafen' (Tu devrais dormir plus)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Votre responsable vous dit à la fin de la journée : 'Sie müssen diese Aufgabe heute nicht mehr fertigmachen.' Quelle est la signification exacte ?",
+      "options": [
+        "Il vous interdit de terminer la tâche aujourd'hui.",
+        "Vous n'êtes pas obligé de la terminer aujourd'hui (vous avez le choix).",
+        "Vous devez obligatoirement la terminer avant de partir."
+      ],
+      "correct_answer": "Vous n'êtes pas obligé de la terminer aujourd'hui (vous avez le choix).",
+      "explanation": "La négation du verbe 'müssen' indique une simple absence d'obligation ('ne pas avoir besoin de'). Pour exprimer une interdiction, le responsable aurait dit 'Sie dürfen nicht'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Gestern war ich krank, deshalb [ ___ ] ich nicht zur Arbeit gehen. (Devoir au prétérit à la première personne du singulier)",
+      "correct_answer": "musste",
+      "hint": "Entrez la forme au prétérit du verbe müssen pour exprimer une obligation ou contrainte passée liée à la maladie."
+    }
+  ]
+}

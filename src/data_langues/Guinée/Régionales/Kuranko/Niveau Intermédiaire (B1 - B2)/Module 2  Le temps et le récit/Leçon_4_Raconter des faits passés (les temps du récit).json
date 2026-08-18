@@ -1,0 +1,175 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Utiliser le suffixe de l'accompli intransitif (-ra) pour exprimer une action terminée",
+    "Employer la particule de l'accompli transitif (ye) pour raconter un événement passé",
+    "Structurer un récit court à l'aide d'adverbes temporels du passé"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'r' du suffixe '-ra' s'articule comme un battement alvéolaire doux, sans jamais être grasseyée. Le 'y' de la particule temporelle 'ye' est une semi-voyelle fluide /j/.",
+    "common_pitfalls": "Attention à ne pas omettre la nasalisation dans 'kunu' (hier) et à bien détacher le son du 'y' dans 'ye' sans le faire glisser vers un son 'j' français."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_b1_m2_l4",
+      "term": "Kunu",
+      "phonetic_api": "/ku.nu/",
+      "phonetic_simple": "KOU-NOU",
+      "translation": "Hier",
+      "example_sentence": "N na kunu",
+      "example_phonetic": "/ɲ͡na ku.nu/",
+      "example_translation": "Je suis venu hier"
+    },
+    {
+      "word_id": "v2_b1_m2_l4",
+      "term": "Sino",
+      "phonetic_api": "/si.no/",
+      "phonetic_simple": "SI-NO",
+      "translation": "Avant-hier",
+      "example_sentence": "A bɔra yan sino",
+      "example_phonetic": "/a bɔ.ra jan si.no/",
+      "example_translation": "Il est parti d'ici avant-hier"
+    },
+    {
+      "word_id": "v3_b1_m2_l4",
+      "term": "Taminfa",
+      "phonetic_api": "/ta.min.fa/",
+      "phonetic_simple": "TA-MIN-FA",
+      "translation": "Le passé / Le temps passé",
+      "example_sentence": "Taminfa ko le ra",
+      "example_phonetic": "/ta.min.fa ko le ra/",
+      "example_translation": "C'est une histoire du passé"
+    },
+    {
+      "word_id": "v4_b1_m2_l4",
+      "term": "Kɛ",
+      "phonetic_api": "/kɛ/",
+      "phonetic_simple": "KƐ",
+      "translation": "Faire / Se passer (au passé : kɛra)",
+      "example_sentence": "Mun kɛra ?",
+      "example_phonetic": "/mun kɛ.ra/",
+      "example_translation": "Qu'est-ce qui s'est passé ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_b1_m2_l4",
+      "original": "I mun kɛra kunu ?",
+      "phonetic_api": "/i mun kɛ.ra ku.nu/",
+      "phonetic_simple": "I MOUN KƐ-RA KOU-NOU ?",
+      "translation": "Qu'as-tu fait hier ?",
+      "context": "Interroger un ami sur ses activités de la veille."
+    },
+    {
+      "phrase_id": "p2_b1_m2_l4",
+      "original": "N tana lɔgɔfaga la kunu sɔgɔma",
+      "phonetic_api": "/ɲ͡ta.na lɔ.gɔ.fa.ga la ku.nu sɔ.gɔ.ma/",
+      "phonetic_simple": "N TA-NA LƆ-GƆ-FA-GA LA KOU-NOU SƆ-GƆ-MA",
+      "translation": "Je suis allé au marché hier matin",
+      "context": "Raconter son déplacement de la veille."
+    },
+    {
+      "phrase_id": "p3_b1_m2_l4",
+      "original": "N ye malo san",
+      "phonetic_api": "/ɲ͡je ma.lo san/",
+      "phonetic_simple": "N YE MA-LO SAN",
+      "translation": "J'ai acheté du riz",
+      "context": "Énoncer une action transitive accomplie."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accompli intransitif avec le suffixe '-ra'",
+      "explanation": "Pour les verbes de mouvement ou d'état (sans objet direct), l'accompli se forme en ajoutant le suffixe '-ra' directement à la racine du verbe.",
+      "rules": [
+        "Structure : Sujet + Verbe + ra",
+        "Si le verbe se termine par une voyelle nasale, le suffixe peut s'adoucir phonétiquement."
+      ],
+      "examples": [
+        {
+          "structure": "N tara",
+          "phonetic_api": "/ɲ͡ta.ra/",
+          "meaning": "Je suis allé / Je suis parti"
+        },
+        {
+          "structure": "A nara",
+          "phonetic_api": "/a na.ra/",
+          "meaning": "Il/Elle est venu(e)"
+        }
+      ]
+    },
+    {
+      "concept": "L'accompli transitif avec la particule 'ye'",
+      "explanation": "Lorsque l'action passée s'exerce sur un objet direct, on utilise la marque temporelle préverbale 'ye' et le verbe reste à sa forme nue en fin de proposition.",
+      "rules": [
+        "Structure : Sujet + ye + Objet + Verbe"
+      ],
+      "examples": [
+        {
+          "structure": "N ye ji min",
+          "phonetic_api": "/ɲ͡je d͡ʒi min/",
+          "meaning": "J'ai bu de l'eau"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine",
+      "text": "Ousmane, i tara mi kunu su ?",
+      "phonetic_api": "/ous.ma.ne i ta.ra mi ku.nu su/",
+      "phonetic_simple": "OUS-MA-NE, I TA-RA MI KOU-NOU SOU ?",
+      "translation": "Ousmane, où es-tu allé hier soir ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "N tara n fa ya so la. N ye subo dun yan fana.",
+      "phonetic_api": "/ɲ͡ta.ra ɱ͡fa ja so la ɲ͡je su.bo dun jan fa.na/",
+      "phonetic_simple": "N TA-RA N FA YA SO LA. N YE SOU-BO DOUN YAN FA-NA.",
+      "translation": "Je suis allé dans la maison de mon père. J'y ai mangé de la viande aussi."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "I baden kɛ fana nara ?",
+      "phonetic_api": "/i ba.den kɛ fa.na na.ra/",
+      "phonetic_simple": "I BA-DEN KƐ FA-NA NA-RA ?",
+      "translation": "Ton frère est venu aussi ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Ayee, a ma na. A to lɔgɔfaga la.",
+      "phonetic_api": "/a.jeː a ma na a to lɔ.gɔ.fa.ga la/",
+      "phonetic_simple": "AYEE, A MA NA. A TO LƆ-GƆ-FA-GA LA.",
+      "translation": "Non, il n'est pas venu. Il est resté au marché."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la tradition orale kuranko, le récit des faits passés commence souvent par l'évocation précise du moment de la journée (le chant du coq, la tombée de la nuit) ou du jour de marché précédent, ce qui ancre l'histoire dans l'espace partagé de la communauté."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_b1_m2_l4",
+      "type": "multiple_choice",
+      "question": "Quelle est la structure correcte pour dire 'J'ai mangé du riz' (action transitive) ?",
+      "options": [
+        "N malo dunra",
+        "N ye malo dun",
+        "N bɛ malo dun"
+      ],
+      "correct_answer": "N ye malo dun",
+      "explanation": "Pour une action transitive au passé, la structure requiert la marque préverbale 'ye' devant l'objet."
+    },
+    {
+      "exercise_id": "ex2_b1_m2_l4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour exprimer qu'une personne est venue hier, on dit : A nara [ ___ ].",
+      "correct_answer": "kunu",
+      "hint": "Le mot pour dire hier"
+    }
+  ]
+}

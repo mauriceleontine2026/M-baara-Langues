@@ -1,0 +1,116 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "L'utilisation des temps complexes et des modes avancés",
+  "learning_objectives": [
+    "Exprimer l'antériorité immédiate et le plus-que-parfait d'action",
+    "Maîtriser les nuances aspectuelles du parfait révolu",
+    "Articuler des actions simultanées complexes dans un récit littéraire"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "À ce niveau avancé, portez une attention absolue à l'allongement vocalique compensatoire devant les groupes consonantiques complexes et aux micro-pauses imposées par les occlusives glottales.",
+    "common_pitfalls": "Évitez de relâcher le ton haut sur la particule d'antériorité, sous peine de transformer l'aspect révolu en simple présent d'habitude."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v19_1",
+      "term": "kɔndɔn",
+      "phonetic_api": "/kɔn.dɔn/",
+      "phonetic_simple": "KON-DON",
+      "translation": "avoir fini complètement / achever (marqueur d'antériorité totale)",
+      "example_sentence": "mbi kɔndɔn wali kɔn tsinn",
+      "example_phonetic": "/mbi kɔn.dɔn wa.li kɔn t͡sinː/",
+      "example_translation": "J'avais entièrement parachevé mon travail hier."
+    },
+    {
+      "word_id": "v19_2",
+      "term": "tann",
+      "phonetic_api": "/tanː/",
+      "phonetic_simple": "TANN",
+      "translation": "déjà / jadis / autrefois (ancrage temporel lointain)",
+      "example_sentence": "baba tann alɛ ka dare mɔ",
+      "example_phonetic": "/ba.ba tanː a.lɛ ka da.re mɔ/",
+      "example_translation": "Le père était déjà autrefois allé dans cette lointaine ville."
+    },
+    {
+      "word_id": "v19_3",
+      "term": "kisinnde",
+      "phonetic_api": "/ki.sinː.de/",
+      "phonetic_simple": "KI-SINN-DE",
+      "translation": "pendant que / simultanément",
+      "example_sentence": "mbi kar kisinnde mɔ ka kafu",
+      "example_phonetic": "/mbi kar ki.sinː.de mɔ ka ka.fu/",
+      "example_translation": "J'étudiais pendant que tu cultivais le champ."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p19_1",
+      "original": "mbi kɔndɔn dɛp mampa mɔ kisinnde mɔ alɛ",
+      "phonetic_api": "/mbi kɔn.dɔn dɛp mam.pa mɔ ki.sinː.de mɔ a.lɛ/",
+      "phonetic_simple": "MBI KON-DON DÈP MAM-PA MO KI-SINN-DE MO A-LÈ",
+      "translation": "J'avais déjà fini de prendre ce pain au moment précis où tu es arrivé",
+      "context": "Narration fluide mettant en scène deux actions passées imbriquées."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le Plus-que-parfait d'action par l'auxiliaire aspectuel 'kɔndɔn'",
+      "explanation": "Pour exprimer qu'une action était entièrement achevée avant qu'une autre action passée ne commence, le landouma recourt à l'auxiliaire 'kɔndɔn' (dérivé du verbe signifiant finir). Il se place immédiatement après le pronom sujet et avant le verbe d'action principal.",
+      "rules": [
+        "Sujet + kɔndɔn + Verbe principal + Objet.",
+        "Le relateur 'kisinnde' permet d'introduire la proposition subordonnée de simultanéité."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + kɔndɔn + Verbe",
+          "phonetic_api": "/mbi kɔn.dɔn kar/",
+          "meaning": "J'avais fini d'étudier."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'Ancien",
+      "text": "mɔ kɔndɔn wali mɔ tsinn kisinnde tsang mɔ fann ?",
+      "phonetic_api": "/mɔ kɔn.dɔn wa.li mɔ t͡sinː ki.sinː.de t͡saŋ mɔ fanː/",
+      "phonetic_simple": "MO KON-DON WA-LI MO TSINN KI-SINN-DE TSANG MO FANN ?",
+      "translation": "Avais-tu entièrement achevé ce travail hier au moment où le soleil était au zénith ?"
+    },
+    {
+      "speaker": "Le Sage",
+      "text": "yoo, mbi kɔndɔn wali mɔ kɛwun. baba tann fɔf ka mbi kiya mɔ tɛŋ.",
+      "phonetic_api": "/joː mbi kɔn.dɔn wa.li mɔ kɛ.wun ba.ba tanː fɔf ka mbi ki.ja mɔ tɛŋ/",
+      "phonetic_simple": "YOO, MBI KON-DON WA-LI MO KÈ-WOUN. BA-BA TANN FOF KA MBI KI-YA MO TENG",
+      "translation": "Oui, j'avais fini ce travail dès le matin. Le père m'avait autrefois déjà enseigné la juste voie."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la rhétorique et les récits de veillée chez les Landouma, la manipulation fine de l'antériorité par le terme 'tann' distingue les orateurs émérites des locuteurs ordinaires. Elle ancre le discours dans la temporalité mythique ou historique des ancêtres."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex19_1",
+      "type": "multiple_choice",
+      "question": "Quel terme exprime l'antériorité totale équivalente à 'avoir fini de' ?",
+      "options": [
+        "kɔn",
+        "kɔndɔn",
+        "kisinnde"
+      ],
+      "correct_answer": "kɔndɔn",
+      "explanation": "'kɔndɔn' marque la complétude absolue d'un procès verbal dans le passé."
+    },
+    {
+      "exercise_id": "ex19_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "mbi kar [ ___ ] mɔ ka ka.fu (J'étudiais pendant que tu cultivais)",
+      "correct_answer": "kisinnde",
+      "hint": "Le conjonctif marquant la simultanéité stricte de deux actions."
+    }
+  ]
+}

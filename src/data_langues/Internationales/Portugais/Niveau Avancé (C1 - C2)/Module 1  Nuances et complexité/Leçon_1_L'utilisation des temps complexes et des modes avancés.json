@@ -1,0 +1,252 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés",
+  "learning_objectives": [
+    "Maîtriser l'Infinito Pessoal Composto pour situer une action antérieure à un fait précis",
+    "Utiliser le Pretérito Mais-que-Perfeito do Conjuntivo pour exprimer des regrets ou des hypothèses passées",
+    "Nuancer le discours écrit et parlé à l'aide de structures verbales complexes et littéraires"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Au niveau C1, l'accent se porte sur le rythme et la fluidité des formes verbales longues. Dans 'tivéssemos', l'accent tonique est sur la première syllabe avec un 'e' très ouvert [tiˈvɛsɨmuʃ]. Le groupe 'ct' de 'facto' s'allège en portugais moderne mais le 'a' qui précède reste ouvert [ˈfaktu].",
+    "common_pitfalls": "Attention à la prononciation du 'o' final dans les conjugaisons complexes (ex: 'houvesse'). Il doit s'assourdir presque totalement en [u]. Évitez de prononcer le 'h' initial qui reste strictement muet."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Premissa",
+      "phonetic_api": "/pɾɨˈmisɐ/",
+      "phonetic_simple": "PR'H-MEE-SAH",
+      "translation": "Prémisse",
+      "example_sentence": "Partimos de uma premissa errada para o projeto.",
+      "example_phonetic": "/pɐɾˈtimuʒ dɨ ˈumɐ pɾɨˈmisɐ iˈʁaðɐ ˈpɐɾɐ u pɾuˈʒɛtu/",
+      "example_translation": "Nous sommes partis d'une mauvaise prémisse pour le projet."
+    },
+    {
+      "word_id": "v2",
+      "term": "Constatar",
+      "phonetic_api": "/kõʃtɐˈtaɾ/",
+      "phonetic_simple": "KONCH-TAH-TAR",
+      "translation": "Constater / Remarquer",
+      "example_sentence": "Após analisar os dados, pude constatar a falha.",
+      "example_phonetic": "/splitˈpɔʃ splitnɐliˈzaɾ uʃ ˈðaðuʃ ˈpuðɨ kõʃtɐˈtaɾ ɐ ˈfaʎɐ/",
+      "example_translation": "Après avoir analysé les données, j'ai pu constater la failha."
+    },
+    {
+      "word_id": "v3",
+      "term": "Preceder",
+      "phonetic_api": "/pɾɨsɨˈdeɾ/",
+      "phonetic_simple": "PR'H-S'H-DER",
+      "translation": "Précéder",
+      "example_sentence": "O relatório deve preceder a tomada de decisão.",
+      "example_phonetic": "/u ʁɨlɐˈtɔɾju ˈdɛvɨ pɾɨsɨˈdeɾ ɐ tuˈmsplitðɐ dɨ dɨsiˈzɐ̃w/",
+      "example_translation": "Le rapport doit précéder la prise de décision."
+    },
+    {
+      "word_id": "v4",
+      "term": "Lamentável",
+      "phonetic_api": "/lɐmẽˈtavɛɫ/",
+      "phonetic_simple": "LAH-MEN-TAH-VEL",
+      "translation": "Regrettable / Lamentable",
+      "example_sentence": "É lamentável que a situação tenha chegado a este ponto.",
+      "example_phonetic": "/ɛ lɐmẽˈtavɛɫ kɨ ɐ situɐˈsɐ̃w ˈtẽɲɐ ʃiˈɣaðu split ˈeʃtɨ ˈpõtu/",
+      "example_translation": "Il est regrettable que la situation soit arrivée à ce point."
+    },
+    {
+      "word_id": "v5",
+      "term": "Supor",
+      "phonetic_api": "/suˈpoɾ/",
+      "phonetic_simple": "SOO-POR",
+      "translation": "Supposer / Présumer",
+      "example_sentence": "Se supuserem o pior, nunca avançaremos.",
+      "example_phonetic": "/sɨ supuˈzɛɾsplitjʃ u pʲiˈɔɾ ˈnũkɐ splitvsplit̃sɐˈɾemuʃ/",
+      "example_translation": "Si vous supposez le pire, nous n'avancerons jamais."
+    },
+    {
+      "word_id": "v6",
+      "term": "Imprevisto",
+      "phonetic_api": "/ĩpɾɨˈviʃtu/",
+      "phonetic_simple": "EEN-PR'H-VEECH-TOO",
+      "translation": "Imprévu / Aléa",
+      "example_sentence": "Surgiu um imprevisto de última hora na empresa.",
+      "example_phonetic": "/suɾˈʒiw ũ ĩpɾɨˈviʃtu dɨ ˈuɫtʲimɐ ˈɔɾɐ nɐ ẽˈpɾezɐ/",
+      "example_translation": "Un imprévu de dernière minute est survenu dans l'entreprise."
+    },
+    {
+      "word_id": "v7",
+      "term": "Culminar",
+      "phonetic_api": "/kuɫmiˈnaɾ/",
+      "phonetic_simple": "KOOL-MEE-NAR",
+      "translation": "Culminer / Aboutir",
+      "example_sentence": "O processo vai culminar na assinatura do contrato.",
+      "example_phonetic": "/u pɾuˈsɛsu vaj kuɫmiˈnaɾ nɐ ɐsi nɐˈtuɾɐ du kõˈtɾsplittu/",
+      "example_translation": "Le processus va aboutir à la signature du contrat."
+    },
+    {
+      "word_id": "v8",
+      "term": "Alhear-se",
+      "phonetic_api": "/splitʎiˈsplitɾ.sɨ/",
+      "phonetic_simple": "AL-YAH-R'H-S'H",
+      "translation": "S'abstraire / S'isoler / Se détacher",
+      "example_sentence": "Não te deves alhear dos problemas da sociedade.",
+      "example_phonetic": "/nɐ̃w tɨ ˈdɛvɨʒ splitʎiˈaɾ duʃ pɾuˈβlemɐʒ dɐ susjɨˈðaðɨ/",
+      "example_translation": "Tu ne dois pas te détacher des problèmes de la société."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Caso tivéssemos sido informados a tempo, teríamos agido de outro modo.",
+      "phonetic_api": "/ˈkazu tiˈvɛsɨmuʃ ˈsiðu ĩfuɾˈmsplitðuʃ split ˈtẽpu tɨˈɾiɐmuʃ splitˈʒiðu dɨ ˈowtɾu ˈmoðu/",
+      "phonetic_simple": "KAH-ZOO TEE-VÈ-SE-MOOCH SEE-DOO EEN-FOOR-MAH-DOOCH AH TEN-POO T'H-REE-AH-MOOCH AH-JEE-DOO D'H OW-TROO MOH-DOO",
+      "translation": "Si nous avions été informés à temps, nous aurions agi autrement.",
+      "context": "Exprimer une hypothèse irréelle dans le passé (Plus-que-parfait du subjonctif)."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Lamento terem gasto tanto capital sem obter resultados visíveis.",
+      "phonetic_api": "/lɐˈmẽtu ˈtɛɾsplitjʃ ˈgsplitʃtu ˈtsplit̃tu ksplitpitˈtaɫ ssplitj uβˈteɾ ʁɨsuɫˈtaðuʒ viˈzivajʃ/",
+      "phonetic_simple": "LAH-MEN-TOO TAI-RENG GACH-TOO TAN-TOO KAH-PEE-TAL SENG OB-TER R'H-SOOL-TAH-DOOCH VEE-ZEE-VAYCH",
+      "translation": "Je regrette que vous ayez dépensé tant de capital sans obtenir de résultats visibles.",
+      "context": "Utilisation de l'infinitif personnel composé pour marquer l'antériorité."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Oxalá a auditoria não tivesse detetado tantas irregularidades.",
+      "phonetic_api": "/oʃsplitˈla ɐ splitwðituˈɾiɐ nɐ̃w tiˈvɛsɨ dɨtɛˈtaðu ˈtsplit̃tɐʃ iʁɨgulsplitɾiˈðaðɨʃ/",
+      "phonetic_simple": "OH-CHAH-LAH AH OW-DEE-TOO-REE-AH NANG TEE-VÈ-S'H D'H-TÈ-TAH-DOO TAN-TACH EE-R'H-GOO-LAH-REE-DAH-D'HCH",
+      "translation": "Pourvu que l'audit n'eût pas détecté autant d'irrégularités.",
+      "context": "Exprimer un regret intense ou un souhait manqué concernant le passé."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Depois de termos analisado a vossa proposta, decidimos aceitá-la.",
+      "phonetic_api": "/dɨˈpɔjʒ dɨ ˈtɛɾmuʒ splitnɐliˈzaðu ɐ ˈvɔsɐ pɾuˈpɔʃtɐ dɨsiˈðimuʒ splitsajˈta.lɐ/",
+      "phonetic_simple": "D'H-POYCH D'H TAIR-MOOCH AH-NAH-LEE-ZAH-DOO AH VÓ-SAH PROO-PÓCH-TAH D'H-SEE-DEE-MOOCH AH-SAY-TAH-LAH",
+      "translation": "Après avoir analysé votre proposition, nous avons décidé de l'accepter.",
+      "context": "Structure temporelle soutenue et fréquente dans la correspondance d'affaires."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Se ele tivesse mantido a palavra, nada disto teria acontecido.",
+      "phonetic_api": "/sɨ ˈelɨ tiˈvɛsɨ msplit̃ˈtiðu ɐ pɐˈlaβsplit ˈnsplitðɐ ˈdiʃtu tɨˈɾiɐ splitkõtɨˈseðu/",
+      "phonetic_simple": "S'H AY-L'H TEE-VÈ-S'H MAN-TEE-DOO AH PAH-LAH-VRAH NAH-DAH DEECH-TOO T'H-REE-AH AH-KON-T'H-SEE-DOO",
+      "translation": "S'il avait tenu sa parole, rien de tout ceci ne serait arrivé.",
+      "context": "Analyser une situation de crise ou un conflit professionnel."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "É fundamental termos concluído a formação antes do novo trimestre.",
+      "phonetic_api": "/ɛ fũdɐmẽˈtaɫ ˈtɛɾmuʒ kõkluˈiðu ɐ fuɾmɐˈsɐ̃w ˈsplit̃tɨʃ du ˈnovu tɾiˈmɛʃtɾɨ/",
+      "phonetic_simple": "É FOON-DAH-MEN-TAL TAIR-MOOCH KON-KLOO-EE-DOO AH FOOR-MAH-SANG AN-T'HCH DOO NO-VOO TREE-MÈCH-TR'H",
+      "translation": "Il est fondamental que nous ayons terminé la formation avant le nouveau trimestre.",
+      "context": "Poser une exigence temporelle d'antériorité claire."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Embora tivessem investido bastante, o retorno foi escasso.",
+      "phonetic_api": "/ẽˈbɔɾɐ tiˈvɛssplitjʃ ĩvɨʃˈtiðu βsplitʃˈtsplit̃tɨ u ʁɨˈtoɾnu foj iʃˈkasu/",
+      "phonetic_simple": "EEN-BÓ-RAH TEE-VÈ-SENG EEN-V'HCH-TEE-DOO BAHCH-TAN-T'H OO R'H-TOOR-NOO FOY EECH-KAH-SOO",
+      "translation": "Bien qu'ils fussent investis massivement, le retour sur investissement fut maigre.",
+      "context": "Introduire une concession forte portant sur un événement passé."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Mesmo sem teres estudado a fundo, conseguiste uma excelente nota.",
+      "phonetic_api": "/ˈmeʃmu ssplitj ˈtɛɾɨʒ iʃtuˈðaðu split ˈfũdu kõsɨˈɣiʃtɨ ˈumɐ splitʃɨˈlẽtɨ ˈnɔtɐ/",
+      "phonetic_simple": "MECH-MOO SENG TAY-R'HCH ECH-TOO-DAH-DOO AH FOON-DOO KON-S'H-GEECH-T'H OO-MAH AYCH-S'H-LEN-T'H NÓ-TAH",
+      "translation": "Même sans avoir étudié à fond, tu as obtenu une excellente note.",
+      "context": "Faire une remarque ciblée à un étudiant ou collaborateur."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'Infinitif Personnel Composé (Infinito Pessoal Composto)",
+      "explanation": "Cette structure avancée permet d'exprimer une action passée et achevée, antérieure à l'action de la proposition principale, tout en identifiant clairement le sujet grâce aux flexions de l'infinitif.",
+      "rules": [
+        "Formation : Verbe TER à l'infinitif personnel (ter, teres, ter, termos, terem) + Participe passé du verbe principal.",
+        "S'emploie après des locutions temporelles ou prépositions comme : depois de, por, apesar de, para."
+      ],
+      "examples": [
+        {
+          "structure": "Apesar de termos chegado tarde, conseguimos entrar.",
+          "phonetic_api": "/splitpɨˈzaɾ dɨ ˈtɛɾmuʒ ʃiˈɣaðu ˈtaɾdɨ kõsɨˈɣimuʒ ẽˈtɾaɾ/",
+          "meaning": "Malgré le fait que nous soyons arrivés tard (Malgré notre arrivée tardive), nous avons réussi à entrer."
+        }
+      ]
+    },
+    {
+      "concept": "Le Plus-que-parfait du Subjonctif (Pretérito Mais-que-Perfeito do Conjuntivo)",
+      "explanation": "Ce temps est requis pour formuler des hypothèses non réalisées dans le passé, des regrets ou des concessions portant sur des événements révolus.",
+      "rules": [
+        "Formation : Verbe TER au prétérit imparfait du subjonctif (tivesse, tivesses, tivesse, tivéssemos, tivessem) + Participe passé du verbe principal.",
+        "S'associe généralement au conditionnel composé (Condicional Composto) dans les phrases hypothétiques."
+      ],
+      "examples": [
+        {
+          "structure": "Se tu tivesses aceitado o convite, ter-te-ias divertido.",
+          "phonetic_api": "/sɨ tu tiˈvɛsɨʒ splitʃajˈtaðu u kõˈvitɨ tɨɾ.tɨ.iɐʒ divɨɾˈtiðu/",
+          "meaning": "Si tu avais accepté l'invitation, tu t'serais diverti."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Eduardo",
+      "text": "Olá Helena. Estive a rever a nossa ata e constatei uma falha. Se tivéssemos analisado os riscos contratuais antes, teríamos evitado este litígio.",
+      "phonetic_api": "/oˈla iˈlenɐ iʃˈtivɨ split ʁɨˈveɾ ɐ ˈnɔsɐ ˈatɐ i kõʃtsplitˈtsplitj ˈumɐ ˈfaʎɐ sɨ tiˈvɛsɨmuʃ splitnɐliˈzaðu uʃ ˈʁiʃkuʃ kõtɾsplittwˈajʃ ˈsplit̃tɨʃ tɨˈɾiɐmuʃ ivsplitˈtaðu ˈeʃtɨ liˈtiʒju/",
+      "phonetic_simple": "OH-LAH EE-LAY-NAH ECH-TEE-V'H AH R'H-VER AH NÓ-SAH AH-TAH EE KON-CH-TAH-TAY OO-MAH FAH-LYAH S'H TEE-VÈ-SE-MOOCH AH-NAH-LEE-ZAH-DOO OOCH REECH-KOOCH KON-TRAH-TWYCH AN-T'HCH T'H-REE-AH-MOOCH EE-VEE-TAR ECH-T'H LEE-TEE-JYOO",
+      "translation": "Salut Helena. J'étais en train de revoir notre procès-verbal et j'ai constaté un manquement. Si nous avions analysé les risques contractuels auparavant, nous aurions évité ce litige."
+    },
+    {
+      "speaker": "Helena",
+      "text": "Compreendo a tua frustração, Eduardo. No entanto, apesar de termos cometido esse erro, considero que reagimos com enorme prontidão.",
+      "phonetic_api": "/kõpɾiˈẽdu ɐ ˈtuɐ fɾuʃtɾɐˈsɐ̃w iˈðwaɾðu nu ɐ̃jˈtsplit̃tu splitpɨˈzaɾ dɨ ˈtɛɾmuʒ kumɨˈtiðu ˈesɨ ˈeɾu kõsiˈðɛɾu kɨ ʁsplitˈʒimuʃ kõ iˈnɔɾmɨ pɾõtiˈðɐ̃w/",
+      "phonetic_simple": "KON-PRYEN-DOO AH TOO-AH FROOCH-TRAH-SANG AY-DWAR-DOO NOO EN-TAN-TOO AH-PAH-RAR D'H TAIR-MOOCH KOO-M'H-TEE-DOO AY-S'H AIR-ROO KON-SEE-DÈ-ROO K'H REE-AH-JEE-MOOCH KON EY-NOR-M'H PRON-TEE-DANG",
+      "translation": "Je comprends ta frustration, Eduardo. Cependant, malgré le fait que nous ayons commis cette erreur, je considère que nous avons réagi avec une grande promptitude."
+    },
+    {
+      "speaker": "Eduardo",
+      "text": "É facto. Mas lamento os vossos sócios não terem sido alertados logo na primeira reunião de direção.",
+      "phonetic_api": "/ɛ ˈfaktu msplitʃ lɐˈmẽtu uʃ ˈvɔsuʃ ˈsɔsjuʃ nɐ̃w ˈtɛɾsplitjʃ ˈsiðu splitɫɨɾˈtaðuʃ ˈlɔɣu nɐ pɾiˈmɐjɾsplit ʁjuniˈɐ̃w dɨ diɾɛˈsɐ̃w/",
+      "phonetic_simple": "É FAK-TOO MACH LAH-MEN-TOO OOCH VÓ-SOOCH SÓ-SYOOCH NANG TAY-RENG SEE-DOO AL-AIR-TAH-DOOCH LÓ-GOO NAH PREE-MAY-RAH RYOO-NYANG D'H DEE-RÈ-SANG",
+      "translation": "C'est un fait. Mais je regrette que vos associés n'aient pas été alertés dès la première réunion de direction."
+    },
+    {
+      "speaker": "Helena",
+      "text": "Oxalá tivéssemos tido acesso total à auditoria. Mas não te preocupes, o importante agora é termos delineado uma nova estratégia sólida.",
+      "phonetic_api": "/oʃsplitˈla tiˈvɛsɨmuʃ ˈtiðu splitˈsɛsu tuˈtaɫ a splitwðituˈɾiɐ msplitʃ nɐ̃w tɨ pɾjukuˈpɨʃ u ĩpuɾˈtsplit̃tɨ splitˈgɔɾsplit ɛ ˈtɛɾmuʒ dɨlinʲiˈaðu ˈumɐ ˈnɔvsplit iʃtɾsplitˈtɛʒjɐ ˈsɔliðɐ/",
+      "phonetic_simple": "OH-CHAH-LAH TEE-VÈ-SE-MOOCH TEE-DOO AL-SÈ-SOO TOO-TAL AH OW-DEE-TOO-REE-AH MACH NANG T'H PRYOO-KOO-P'HCH OO EEN-POR-TAN-T'H AH-GÓ-RAH É TAIR-MOOCH D'H-LEE-NYAH-DOO OO-MAH NÓ-VAH ECH-TRAH-TÈ-JYAH SÓ-LEE-DAH",
+      "translation": "Pourvu que nous fussions en possession d'un accès total à l'audit. Mais ne t'inquiète pas, l'important désormais est que nous ayons tracé une nouvelle stratégie solide."
+    }
+  ],
+  "cultural_notes": [
+    "Le niveau de langue C1 au Portugal se caractérise par un usage très précis de l'infinitif personnel composé, perçu comme une marque d'élégance syntaxique absolue, particulièrement dans les milieux académiques, juridiques et managériaux.",
+    "L'expression du regret par le biais du plus-que-parfait du subjonctif renvoie souvent à l'autocritique prudente appréciée dans la rhétorique professionnelle portugaise, où l'on évite de rejeter la faute de manière trop frontale sur autrui."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la forme correcte pour exprimer le regret lié à une action passée non réalisée : 'Se nós ______ (saber) do imprevisto, teríamos ajudado.'",
+      "options": [
+        "soubéssemos",
+        "tivéssemos sabido",
+        "teríamos sabido"
+      ],
+      "correct_answer": "tivéssemos sabido",
+      "explanation": "L'hypothèse irréelle dans le passé se construit avec le plus-que-parfait du subjonctif (verbe ter au subjonctif imparfait + participe passé)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Complétez la structure d'antériorité avec l'infinitif personnel composé du verbe fazer à la 1ère personne du pluriel : Depois de termos [ ___ ] o balanço, submetemos o arquivo.",
+      "correct_answer": "feito",
+      "hint": "Participe passé irrégulier du verbe fazer."
+    }
+  ]
+}

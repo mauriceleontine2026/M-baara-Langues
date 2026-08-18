@@ -1,0 +1,200 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés",
+  "learning_objectives": [
+    "Maîtriser l'expression du passé composé et du plus-que-parfait en corrélant les marques d'accompli et de recul temporel",
+    "Exprimer l'aspect itératif et l'habitude ancrée dans le passé à l'aide de structures verbales combinées",
+    "Nuancer l'intentionnalité immédiate et le futur antérieur dans les récits complexes en langue bissa"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon avancée exige un contrôle rigoureux du ton glissé descendant-haut sur les particules complexes comme 'tá' ou 'le-ki'. L'accentuation dynamique du morphème d'antériorité 'bɔ-ra' requiert un blocage glottal subtil à la fin de la première syllabe nasale pour préserver la distinction sémantique avec la forme simple du verbe être.",
+    "common_pitfalls": "L'assimilation vocalique lors de la juxtaposition de plusieurs auxiliaires aspectuels peut gommer la clarté du récit. Veillez à bien détacher l'enclitique de recul passé 'le' de la marque d'habitude 'da' sans créer de diphtongue parasite."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Tá",
+      "phonetic_api": "/tá/",
+      "phonetic_simple": "TÁ",
+      "translation": "Marqueur de l'antériorité révolue / déjà / avoir fini de",
+      "example_sentence": "M tá tuumda gẽ le ki",
+      "example_phonetic": "/m̩ tá tuːmda ɟẽ le ki/",
+      "example_translation": "J'avais déjà accompli le travail."
+    },
+    {
+      "word_id": "v2",
+      "term": "Bɔ-da",
+      "phonetic_api": "/bɔda/",
+      "phonetic_simple": "BO-DA",
+      "translation": "Avoir l'habitude de / fréquenter habituellement",
+      "example_sentence": "M saa bɔ-da gaa yaa wiri",
+      "example_phonetic": "/m̩ saː bɔda ɡaː jaː wiʁi/",
+      "example_translation": "Mon père avait pour habitude de se rendre au marché."
+    },
+    {
+      "word_id": "v3",
+      "term": "Bɔrɩ-wá",
+      "phonetic_api": "/bɔʁɪwá/",
+      "phonetic_simple": "BO-RI-WÁ",
+      "translation": "Futur antérieur / avoir fini de faire avant un repère temporel",
+      "example_sentence": "M wá tuumda gẽ n gaa bɔrɩ",
+      "example_phonetic": "/m̩ wá tuːmda ɟẽ n̩ ɡaː bɔʁɪ/",
+      "example_translation": "J'aurai terminé d'accomplir la tâche."
+    },
+    {
+      "word_id": "v4",
+      "term": "Sãã-zi",
+      "phonetic_api": "/sãːzi/",
+      "phonetic_simple": "SAAN-ZI",
+      "translation": "Dépasser la mesure / s'être écoulé depuis fort longtemps",
+      "example_sentence": "Wiri sãã-zi le ki",
+      "example_phonetic": "/wiʁi sãːzi le ki/",
+      "example_translation": "Il s'est écoulé énormément de temps depuis cet événement."
+    },
+    {
+      "word_id": "v5",
+      "term": "Gẽ-le",
+      "phonetic_api": "/ɟẽle/",
+      "phonetic_simple": "GYEN-LE",
+      "translation": "Action achevée et validée historiquement",
+      "example_sentence": "Kẽenã bisi gẽ-le wiri gãã",
+      "example_phonetic": "/kẽːnã bisi ɟẽle wiʁi ɡãː/",
+      "example_translation": "Les ancêtres avaient établi la coutume."
+    },
+    {
+      "word_id": "v6",
+      "term": "Kilaa-gãã",
+      "phonetic_api": "/kilaːɡãː/",
+      "phonetic_simple": "KI-LAA-GAAN",
+      "translation": "Le passé lointain / jadis / autrefois",
+      "example_sentence": "Kilaa-gãã a la zɔn kpeenã le",
+      "example_phonetic": "/kilaːɡãː a la zɔn kpeːnã le/",
+      "example_translation": "Jadis, c'était une immense zone de culture."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "M tá tuumda bɔrɩ le ki n gaa m wá gaa",
+      "phonetic_api": "/m̩ tá tuːmda bɔʁɪ le ki n̩ ɡaː m̩ wá ɡaː/",
+      "phonetic_simple": "M TÁ TOUM-DA BO-RI LE KI N GAA M WÁ GAA",
+      "translation": "J'avais déjà fini le travail avant de m'en aller",
+      "context": "Expression du plus-que-parfait pour marquer une antériorité stricte dans un récit complexe."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Kilaa-gãã m bɔ-da bɔlɔ gẽ la ki n gaa m wiri sɩ̀",
+      "phonetic_api": "/kilaːɡãː m̩ bɔda bɔlɔ ɟẽ la ki n̩ ɡaː m̩ wiʁi sɪ̀/",
+      "phonetic_simple": "KI-LAA-GAAN M BO-DA BO-LO GYEN LA KI N GAA M WI-RI SI",
+      "translation": "Autrefois, j'avais l'habitude de jouer au football avec mes frères",
+      "context": "Structure habituelle passée décrivant un état de fait ou une routine d'enfance révolue."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Esa domire, m wá gãũ gõ n gaa bɔrɩ le ki",
+      "phonetic_api": "/eza dɔmiʁɛ m̩ wá ɡãũ ɡõ n̩ ɡaː bɔʁɪ le ki/",
+      "phonetic_simple": "E-ZA DO-MI-REH, M WÁ GAUN GON N GAA BO-RI LE KI",
+      "translation": "Demain matin, j'aurai définitivement acheté la maison",
+      "context": "Formulation du futur antérieur combinant la projection et la perfectibilité achevée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "A tá gi le ki tilayɩ a wá gẽ n dɔ",
+      "phonetic_api": "/a tá ɟi le ki tilajɪ a wá ɟẽ n̩ dɔ/",
+      "phonetic_simple": "A TÁ GYI LE KI TI-LAY-I A WÁ GYEN N DO",
+      "translation": "Il avait déjà été dit qu'il fallait agir de la sorte",
+      "context": "Rappel solennel d'une instruction ou d'une loi coutumière préexistante."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction du plus-que-parfait par l'auxiliaire d'antériorité 'tá'",
+      "explanation": "Pour structurer un récit au niveau avancé, le bissa utilise le morphème 'tá' placé directement après le sujet. Associé à la particule finale d'accompli passé 'le ki', il exprime une action accomplie antérieurement à un autre repère temporel du passé.",
+      "rules": [
+        "Structure : Sujet + tá + Groupe Verbal + le ki.",
+        "Le bloc 'le ki' verrouille l'ancrage temporel reculé, tandis que 'tá' indique la préexistence de l'événement."
+      ],
+      "examples": [
+        {
+          "structure": "M (Je) + tá (antériorité) + di gũu (manger le tô) + le ki = M tá di gũu le ki",
+          "phonetic_api": "/m̩ tá di ɡũː le ki/",
+          "meaning": "J'avais déjà mangé du tô."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de l'itératif passé (L'habitude ancrée)",
+      "explanation": "L'expression de l'imparfait d'habitude ou d'un processus répété dans le passé s'effectue par l'adjonction de l'auxiliaire de coutume '-da' combiné à la base aspectuelle 'bɔ'. Cette structure détache l'énoncé du présent tout en maintenant la durée interne de l'action passée.",
+      "rules": [
+        "Structure : Sujet + bɔ-da + Verbe d'action + (Compléments).",
+        "Cette tournure est souvent introduite par l'adverbe temporel de recul historique 'Kilaa-gãã'."
+      ],
+      "examples": [
+        {
+          "structure": "M bɔ-da (J'avais l'habitude de) + tuumda gẽ (travailler)",
+          "phonetic_api": "/m̩ bɔda tuːmda ɟẽ/",
+          "meaning": "J'avais l'habitude de travailler / Je travaillais régulièrement."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Issa (L'historien de la concession)",
+      "text": "Adama, m tá wiri gãã wiri dɩ le ki kilaa-gãã ?",
+      "phonetic_api": "/adama m̩ tá wiʁi ɡãː wiʁi dɪ le ki kilaːɡãː/",
+      "phonetic_simple": "A-DA-MA, M TÁ WI-RI GAAN WI-RI DI LE KI KI-LAA-GAAN ?",
+      "translation": "Adama, avais-tu déjà étudié l'histoire des règles coutumières autrefois ?"
+    },
+    {
+      "speaker": "Adama (Le chercheur)",
+      "text": "An, m tá a b fãa dɩ n gaa bɔrɩ le ki m saa gãũ n dɔ. M saa bɔ-da gã bɔ la ki m dɔ bisi.",
+      "phonetic_api": "/an m̩ tá a b fãː dɪ n̩ ɡaː bɔʁɪ le ki m̩ saː ɡãũ n̩ dɔ m̩ saː bɔda ɡã bɔ la ki m̩ dɔ bisi/",
+      "phonetic_simple": "AN, M TÁ A B FAAN DI N GAA BO-RI LE KI M SAA GAUN N DO. M SAA BO-DA GAN BO LA KI M DO BI-SI.",
+      "translation": "Oui, j'avais déjà fini d'analyser tout cela au sein de la concession de my father. Mon père avait pour habitude de me prodiguer de nombreux conseils."
+    },
+    {
+      "speaker": "Issa (L'historien de la concession)",
+      "text": "Wiri sãã-zi le ki ! Bur sãã, n wá wiri gãã sãa la ki bɔ ?",
+      "phonetic_api": "/wiʁi sãːzi le ki buʁ sãː n̩ wá wiʁi ɡãː sãː la ki bɔ/",
+      "phonetic_simple": "WI-RI SAAN-ZI LE KI ! BOUR SAAN, N WÁ WI-RI GAAN SAA LA KI BO ?",
+      "translation": "Bien du temps s'est écoulé depuis ! L'année prochaine, seras-tu devenu un expert des coutumes ?"
+    },
+    {
+      "speaker": "Adama (Le chercheur)",
+      "text": "An, esa domire m wá gã kpeenã bɔrɩ le ki. Wáari gãũ n dɔ tuumda wá bɔrɩ la ki m dɔ.",
+      "phonetic_api": "/an eza dɔmiʁɛ m̩ wá ɡã kpeːnã bɔʁɪ le ki wáːʁi ɡãũ n̩ dɔ tuːmda wá bɔʁɪ la ki m̩ dɔ/",
+      "phonetic_simple": "AN, E-ZA DO-MI-REH M WÁ GAN KPEE-NAN BO-RI LE KI. WÁA-RI GAUN N DO TOUM-DA WÁ BO-RI LA KI M DO.",
+      "translation": "Oui, dès demain matin, j'aurai achevé cette grande réflexion. Mon travail à la banque aura alors pleinement abouti pour moi."
+    }
+  ],
+  "cultural_notes": [
+    "La maîtrise des tiroirs temporels reculés comme le plus-que-parfait (`tá ... le ki`) distingue le locuteur ordinaire du gardien de la mémoire orale en pays Bissa. Connaître et agencer l'antériorité permet de structurer les récits de fondation des lignages dans la région de Garango sans ambiguïté chronologique.",
+    "L'expression de l'habitude passée (`bɔ-da`) sert de support pédagogique aux anciens pour transmettre la mémoire des techniques agraires ou commerciales traditionnelles, opposant le temps jadis (`kilaa-gãã`) aux mutations socio-économiques contemporaines du Burkina Faso."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel morphème préverbal insère-t-on au niveau avancé pour marquer l'antériorité du plus-que-parfait (déjà accompli) ?",
+      "options": [
+        "wá",
+        "tá",
+        "bɔ-da"
+      ],
+      "correct_answer": "tá",
+      "explanation": "L'auxiliaire 'tá' indique la préexistence de l'action par rapport à un repère du passé, formant le plus-que-parfait avec 'le ki'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour exprimer une habitude coutumière révolue, on accole le suffixe itératif à l'auxiliaire d'état : M [ ___ ] gãũ fãa n dɔ gaa la ki.",
+      "correct_answer": "bɔ-da",
+      "hint": "La structure complexe exprimant la routine ou la coutume dans le passé."
+    }
+  ]
+}

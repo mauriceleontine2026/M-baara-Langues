@@ -1,0 +1,300 @@
+{
+  "lesson_id": "B1_M1_L2",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "L'espace de vie et l'environnement urbain",
+  "lesson_number": 2,
+  "title": "Louer un logement, négocier avec le propriétaire et le bail",
+  "learning_objectives": [
+    "Maîtriser le lexique technique lié à la location immobilière et à la caution",
+    "Négocier les modalités financières et les charges avec un propriétaire ou un démarcheur",
+    "Exprimer des conditions juridiques simples concernant la gestion du bail",
+    "Formuler des réclamations sur l'état des lieux et les réparations nécessaires"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le terme pour la location, 'so-haya', combine le substantif 'so' (maison) et l'emprunt 'haya' (louer), exigeant une articulation fluide du /h/ aspiré. Le mot 'wari-ɲinila' (le démarcheur / intermédiaire) demande une succession rapide de voyelles fermées et de la palatale nasale /ɲ/. Le mot 'sara' (payer / le paiement) utilise un ton bas régulier qui le distingue de 'sára' (la récompense/le salaire).",
+    "common_pitfalls": "Ne pas omettre l'aspiration du /h/ dans 'haya' sous l'influence du français. Veillez également à bien lier le groupe consonantique complexe dans 'sɛbɛn-bɛn' (le contrat écrit) sans ajouter de voyelle parasite entre la nasale /n/ et l'occlusive /b/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "So-hayala",
+      "phonetic_api": "/so ha.ja.la/",
+      "phonetic_simple": "SO-HA-YA-LA",
+      "translation": "Le locataire (litt. celui qui loue la maison)",
+      "example_sentence": "So-hayala bɛ fɛ ka sɔngɔ dɔgɔya",
+      "example_phonetic": "/so ha.ja.la bɛ fɛ ka sɔn.gɔ dɔ.gɔ.ja/",
+      "example_translation": "Le locataire veut faire baisser le prix."
+    },
+    {
+      "word_id": "v2",
+      "term": "Sotigi",
+      "phonetic_api": "/so.ti.gi/",
+      "phonetic_simple": "SO-TI-GI",
+      "translation": "Le propriétaire de la maison / Le bailleur",
+      "example_sentence": "Sotigi bɛ sɛbɛn-bɛn ɲini la sisan",
+      "example_phonetic": "/so.ti.gi bɛ sɛ.bɛn bɛn ɲi.ni la si.san/",
+      "example_translation": "Le propriétaire réclame le contrat écrit maintenant."
+    },
+    {
+      "word_id": "v3",
+      "term": "Haya-wari",
+      "phonetic_api": "/ha.ja wa.ri/",
+      "phonetic_simple": "HA-YA-WA-RI",
+      "translation": "Le loyer (l'argent de la location)",
+      "example_sentence": "Haya-wari sara ka teli kalo-di",
+      "example_phonetic": "/ha.ja wa.ri sa.ra ka te.li ka.lo di/",
+      "example_translation": "Le paiement du loyer est rapide au début du mois."
+    },
+    {
+      "word_id": "v4",
+      "term": "Singadan-wari",
+      "phonetic_api": "/siⁿ.ga.daⁿ wa.ri/",
+      "phonetic_simple": "SINE-GA-DAN-WA-RI",
+      "translation": "La caution / L'avance de garantie",
+      "example_sentence": "Kalo saba singadan-wari bɛ bɛn yan",
+      "example_phonetic": "/ka.lo sa.ba siⁿ.ga.daⁿ wa.ri bɛ bɛn jaⁿ/",
+      "example_translation": "Une caution de trois mois est exigée ici."
+    },
+    {
+      "word_id": "v5",
+      "term": "Sɛbɛn-bɛn",
+      "phonetic_api": "/sɛ.bɛn bɛn/",
+      "phonetic_simple": "SÈ-BÈN-BEN",
+      "translation": "Le contrat écrit / Le bail / L'accord formel",
+      "example_sentence": "An ka sɛbɛn-bɛn nin bɔ kɛnɛ ma",
+      "example_phonetic": "/an ka sɛ.bɛn bɛn niⁿ bɔ kɛ.nɛ ma/",
+      "example_translation": "Sortons et lisons ce contrat au grand jour."
+    },
+    {
+      "word_id": "v6",
+      "term": "Yalawa / San-ji-sira",
+      "phonetic_api": "/ja.la.wa/",
+      "phonetic_simple": "YA-LA-WA",
+      "translation": "Les fuites d'eau / Les infiltrations (toiture)",
+      "example_sentence": "San-ji-sira bɛ sɔ́ la, a ka kan ka labɛn",
+      "example_phonetic": "/saⁿ d͡ʒi si.ra bɛ sɔ la a ka kaⁿ ka la.bɛn/",
+      "example_translation": "Il y a des infiltrations au toit, il faut les réparer."
+    },
+    {
+      "word_id": "v7",
+      "term": "Kuranti-wari",
+      "phonetic_api": "/ku.raⁿ.ti wa.ri/",
+      "phonetic_simple": "KOU-RAN-TI-WA-RI",
+      "translation": "La facture d'électricité (charges)",
+      "example_sentence": "Kuranti-wari bɛ taminɛ kalo kelen kɔnɔ",
+      "example_phonetic": "/ku.raⁿ.ti wa.ri bɛ ta.mi.nɛ ka.lo ke.len kɔ.nɔ/",
+      "example_translation": "La facture d'électricité est calculée au cours du mois."
+    },
+    {
+      "word_id": "v8",
+      "term": "Labɛn / Ladan",
+      "phonetic_api": "/la.bɛn/",
+      "phonetic_simple": "LA-BEN",
+      "translation": "Réparer / Aménager / Remettre en état",
+      "example_sentence": "Sotigi ka kan ka so labɛn k'a di n ma",
+      "example_phonetic": "/so.ti.gi ka kaⁿ ka so la.bɛn kʼa di n̩ ma/",
+      "example_translation": "Le bailleur doit réparer la maison avant de me la donner."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Kalo kelen haya-wari bɛ bɛn wari joli ma ?",
+      "phonetic_api": "/ka.lo ke.len ha.ja wa.ri bɛ bɛn wa.ri d͡ʒo.li ma/",
+      "phonetic_simple": "KA-LO KÉ-LEN HA-YA-WA-RI BÈ BEN WA-RI DJO-LI MA ?",
+      "translation": "À combien s'élève le loyer pour un seul mois ?",
+      "context": "Entamer la négociation financière avec le propriétaire."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "N bɛ se ka singadan-wari sara kalo fila dɔrɔn ye ?",
+      "phonetic_api": "/n̩ bɛ se ka siⁿ.ga.daⁿ wa.ri sa.ra ka.lo fi.la dɔ.rɔⁿ jɛ/",
+      "phonetic_simple": "N BÈ SE KA SINE-GA-DAN-WA-RI SA-RA KA-LO FI-LA DÕ-RÕN YÈ ?",
+      "translation": "Puis-je payer seulement deux mois de caution ?",
+      "context": "Proposer un compromis sur l'avance financière de garantie."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Ni an m'a sɛbɛn, n tɛ wari di i ma sisan.",
+      "phonetic_api": "/ni an mʼa sɛ.bɛn n̩ tɛ wa.ri di i ma si.san/",
+      "phonetic_simple": "NI AN MA SÈ-BÈN, N TÈ WA-RI DI I MA SI-SAN",
+      "translation": "Si nous ne le mettons pas par écrit, je ne te donnerai pas l'argent maintenant.",
+      "context": "Exiger la formalisation juridique par un document signé."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Kuranti ni ji wari bɛ so-hayala ka kan don ?",
+      "phonetic_api": "/ku.raⁿ.ti ni d͡ʒi wa.ri bɛ so ha.ja.la ka kaⁿ doⁿ/",
+      "phonetic_simple": "KOU-RAN-TI NI DJI WA-RI BÈ SO-HA-YA-LA KA KAN DON ?",
+      "translation": "Est-ce que les factures d'eau et d'électricité incombent au locataire ?",
+      "context": "Clarifier la répartition du paiement des charges mensuelles."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Bongaso nin kogo bɛ yalawa la, o ka kan ka labɛn hami tɛ.",
+      "phonetic_api": "/boⁿ.ga.so niⁿ ko.go bɛ ja.la.wa la o ka kaⁿ ka la.bɛn ha.mi tɛ/",
+      "phonetic_simple": "BON-GA-SO NIN KO-GO BÈ YA-LA-WA LA, O KA KAN KA LA-BEN HA-MI TÈ",
+      "translation": "Le mur de cette chambre a des fuites, il faut impérativement le réparer.",
+      "context": "Signaler un défaut structurel lors de l'état des lieux."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Ni kalo tɛmɛna, haya-wari bɛ kɛ dɔgɔda fɛ don juman ?",
+      "phonetic_api": "/ni ka.lo tɛ.mɛ.na ha.ja wa.ri bɛ kɛ dɔ.gɔ.da fɛ doⁿ d͡ʒu.maⁿ/",
+      "phonetic_simple": "NI KA-LO TÈ-MÈ-NA, HA-YA-WA-RI BÈ KÈ DÕ-GÕ-DA FÈ DON DJOU-MAN ?",
+      "translation": "Une fois le mois écoulé, quel jour précis doit être versé le loyer ?",
+      "context": "S'accorder sur l'échéance du versement périodique."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Sotigi ka kan ka so-kɔnɔ fɛnw ladan n bangebagaw fɛ.",
+      "phonetic_api": "/so.ti.gi ka kaⁿ ka so kɔ.nɔ fɛⁿ.w la.daⁿ n̩ baⁿ.ge.ba.ga.w fɛ/",
+      "phonetic_simple": "SO-TI-GI KA KAN KA SO-KÕ-NÕ FÈNW LA-DAN N BAN-GUÉ-BA-GA-W FÈ",
+      "translation": "Le propriétaire doit remettre en état les équipements intérieurs pour mes parents.",
+      "context": "Défendre les droits locatifs de sa famille."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "K'an bɛn sɛbɛn-bɛn tile ma sini sɔgɔma.",
+      "phonetic_api": "/kʼan bɛn sɛ.bɛn bɛn ti.le ma si.ni sɔ.gɔ.ma/",
+      "phonetic_simple": "KAN BEN SÈ-BÈN-BEN TI-LE MA SI-NI SÕ-GÕ-MA",
+      "translation": "Rendez-vous demain matin pour le jour de la signature du bail.",
+      "context": "Fixer l'accord final."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'obligation modale élargie avec 'ka kan ka ...'",
+      "explanation": "Au niveau B1, pour exprimer le devoir, la nécessité contractuelle ou l'obligation légale (il faut / devoir), le dioula emploie la structure préverbale complexe 'ka kan ka' suivie du verbe d'action.",
+      "rules": [
+        "Structure : Sujet + ka kan (être égal / mériter) + ka + Verbe.",
+        "Sert à définir les devoirs respectifs du bailleur et du locataire dans un litige."
+      ],
+      "examples": [
+        {
+          "structure": "Sotigi (propriétaire) + ka kan + ka + so labɛn (réparer la maison)",
+          "phonetic_api": "/so.ti.gi ka kaⁿ ka so la.bɛn/",
+          "meaning": "Le propriétaire doit obligatoirement réparer la maison."
+        },
+        {
+          "structure": "I + ka kan + ka + wari sara (payer l'argent)",
+          "phonetic_api": "/i ka kaⁿ ka wa.ri sa.ra/",
+          "meaning": "Tu dois impérativement verser la somme."
+        }
+      ]
+    },
+    {
+      "concept": "Les propositions conditionnelles complexes avec 'ni ... (ma) ...'",
+      "explanation": "Pour formuler des clauses contractuelles ou des restrictions financières (si..., alors...), le dioula utilise la conjonction 'ni' placée en tête de phrase, souvent couplée à la négation d'accompli 'ma' pour exprimer une condition non remplie.",
+      "rules": [
+        "Clause conditionnelle : Ni + Sujet + accompli (ou marque négative 'ma') + verbe, [Phrase principale]."
+      ],
+      "examples": [
+        {
+          "structure": "Ni + an (nous) + ma + a sɛbɛn (l'écrire), [n tɛ wari di (je ne donnerai pas l'argent)]",
+          "phonetic_api": "/ni an mʼa sɛ.bɛn n̩ tɛ wa.ri di/",
+          "meaning": "Si nous ne le mettons pas par écrit, je ne donnerai pas l'argent."
+        }
+      ]
+    },
+    {
+      "concept": "Les noms d'agents institutionnels ou professionnels en '-la'",
+      "explanation": "Pour désigner les nouveaux acteurs du marché urbain (démarcheur, locataire), la langue ajoute le suffixe d'agent '-la' à un syntagme nominal-verbal complété.",
+      "rules": [
+        "Objet + Verbe + la = désigne la personne qui fait cette action de manière habituelle ou professionnelle.",
+        "So-hayala = Maison-louer-celui qui ; Wari-ɲinila = Argent-chercher-celui qui."
+      ],
+      "examples": [
+        {
+          "structure": "So (maison) + haya (louer) + la (agent)",
+          "phonetic_api": "/so ha.ja.la/",
+          "meaning": "Le locataire."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Moussa (Le potentiel locataire)",
+      "text": "I ni ce, n fa sotigi. N bɛ fɛ ka so-hayala sira dya yan fɛ. Kalo kelen haya-wari bɛ bɛn wari joli ma ?",
+      "phonetic_api": "/i ni t͡ʃe n̩ fa so.ti.gi n̩ bɛ fɛ ka so ha.ja.la si.ra dja jaⁿ fɛ ka.lo ke.len ha.ja wa.ri bɛ bɛn wa.ri d͡ʒo.li ma/",
+      "phonetic_simple": "I NI TCHE, N FA SO-TI-GI. N BÈ FÈ KA SO-HA-YA-LA SI-RA DYA YAN FÈ. KA-LO KÉ-LEN HA-YA-WA-RI BÈ BEN WA-RI DJO-LI MA ?",
+      "translation": "Bonjour, monsieur le propriétaire. Je souhaite m'installer comme locataire dans les environs. À combien s'élève le loyer mensuel ?"
+    },
+    {
+      "speaker": "Ousmane (Le propriétaire / Sotigi)",
+      "text": "I ni ce, n den. Haya-wari bɛ wari kɛmɛ naani ma kalo o kalo. Nka i ka kan ka kalo saba singadan-wari sara fana.",
+      "phonetic_api": "/i ni t͡ʃe n̩ den ha.ja wa.ri bɛ wa.ri kɛ.mɛ naː.ni ma ka.lo o ka.lo n̩.ka i ka kaⁿ ka ka.lo sa.ba siⁿ.ga.daⁿ wa.ri sa.ra fa.na/",
+      "phonetic_simple": "I NI TCHE, N DEN. HA-YA-WA-RI BÈ WA-RI KÈ-MÈ NAA-NI MA KA-LO O KA-LO. NKA I KA KAN KA KA-LO SA-BA SINE-GA-DAN-WA-RI SA-RA FA-NA.",
+      "translation": "Bonjour, mon enfant. Le loyer est de quatre centaines d'unités chaque mois. Mais tu dois également verser trois mois de caution d'avance."
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Kalo saba singadan-wari caya ka bon ! N bɛ se ka kalo fila dɔrɔn sara ? O kɔfɛ, bongaso kogo bɛ yalawa la sisan.",
+      "phonetic_api": "/ka.lo sa.ba siⁿ.ga.daⁿ wa.ri t͡ʃa.ja ka boⁿ n̩ bɛ se ka ka.lo fi.la dɔ.rɔⁿ sa.ra o kɔ.fɛ boⁿ.ga.so ko.go bɛ ja.la.wa la si.san/",
+      "phonetic_simple": "KA-LO SA-BA SINE-GA-DAN-WA-RI TCHA-YA KA BON ! N BÈ SE KA KA-LO FI-LA DÕ-RÕN SA-RA ? O KÕ-FÈ, BON-GA-SO KO-GO BÈ YA-LA-WA LA SI-SAN.",
+      "translation": "Trois mois de caution, c'est trop élevé ! Puis-je payer seulement deux mois ? De plus, le mur de la chambre présente des infiltrations actuellement."
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Hami tɛ, ni singadan-wari sanna, n ka kan ka so-kɔnɔ fɛnw labɛn kosɛbɛ k'a di i ma. Kuranti ni ji wari tɛ n ka kan don fana.",
+      "phonetic_api": "/ha.mi tɛ ni siⁿ.ga.daⁿ wa.ri saⁿ.na n̩ ka kaⁿ ka so kɔ.nɔ fɛⁿ.w la.bɛn ko.sɛ.bɛ kʼa di i ma ku.raⁿ.ti ni d͡ʒi wa.ri tɛ n̩ ka kaⁿ doⁿ fa.na/",
+      "phonetic_simple": "HA-MI TÈ, NI SINE-GA-DAN-WA-RI SAN-NA, N KA KAN KA SO-KÕ-NÕ FÈNW LA-BEN KO-SÈ-BÈ KA DI I MA. KOU-RAN-TI NI DJI WA-RI TÈ N KA KAN DON FA-NA.",
+      "translation": "Pas de souci, si la caution est réglée, je dois entièrement remettre en état l'intérieur avant de te la confier. Les factures d'électricité et d'eau ne m'incombent pas non plus."
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Ɔwɔ, o bɛ n bɛn fɛ. Nka ni an m'a sɛbɛn sɛbɛn-bɛn na, n tɛ wari sara. K'an bɛn sini sɔgɔma formalité ma !",
+      "phonetic_api": "/ɔ.wɔ o bɛ n̩ bɛn fɛ n̩.ka ni an mʼa sɛ.bɛn sɛ.bɛn bɛn na n̩ tɛ wa.ri sa.ra kʼan bɛn si.ni sɔ.gɔ.ma fo.r.ma.li.te ma/",
+      "phonetic_simple": "Õ-WÕ, O BÈ N BEN FÈ. NKA NI AN MA SÈ-BÈN SÈ-BÈN-BEN NA, N TÈ WA-RI SA-RA. KAN BEN SI-NI SÕ-GÕ-MA FOR-MA-LI-TÉ MA !",
+      "translation": "D'accord, cela me convient. Cependant, si nous ne consignons pas cela dans un contrat écrit, je ne verserai pas l'argent. Rendez-vous demain matin pour les formalités !"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Amiina, kalo-di sɛbɛn tile bɛ bɛn. Sini sɔgɔma !",
+      "phonetic_api": "/a.miː.na ka.lo di sɛ.bɛn ti.le bɛ bɛn si.ni sɔ.gɔ.ma/",
+      "phonetic_simple": "A-MII-NA, KA-LO-DI SÈ-BÈN TI-LE BÈ BEN. SI-NI SÕ-GÕ-MA !",
+      "translation": "Amen, le jour de la signature en début de mois est parfait. À demain matin !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les grands centres urbains burkinabè comme Ouagadougou, la recherche d'un logement passe quasi obligatoirement par un 'wari-ɲinila' (démarcheur indépendant). Les négociations concernant le nombre de mois de caution ('singadan-wari') font l'objet de longs palabres. Exiger un 'sɛbɛn-bɛn' (contrat écrit ou reçu légalisé) est une pratique intermédiaire indispensable aujourd'hui pour se prémunir des expulsions abusives.",
+    "La gestion des charges (eau et électricité via les compteurs prépayés 'Cash-Power') est au cœur des discussions locatives. Le locataire achète généralement ses unités lui-même, tandis que les grosses réparations structurelles (comme l'étanchéité du toit ou des murs face aux pluies hivernales) incombent moralement et légalement au 'sotigi' (propriétaire)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M1_L2_Ex1",
+      "type": "multiple_choice",
+      "question": "Quelle structure grammaticale indique une obligation juridique ou morale stricte (ex: 'Le propriétaire doit réparer') ?",
+      "options": [
+        "Bɛ fɛ ka",
+        "Ka kan ka",
+        "Bɛ taminɛ",
+        "M'a sɛbɛn"
+      ],
+      "correct_answer": "Ka kan ka",
+      "explanation": "'Ka kan ka' suivi du verbe exprime l'obligation incontournable ou le devoir légal d'un acteur du contrat."
+    },
+    {
+      "exercise_id": "B1_M1_L2_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour désigner l'avance de garantie ou la caution versée au bailleur, on emploie le terme technique : '[ ___ ]-wari'.",
+      "correct_answer": "singadan",
+      "hint": "Composé signifiant littéralement l'argent lié à la limite ou la garantie d'emprunt."
+    },
+    {
+      "exercise_id": "B1_M1_L2_Ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie la clause contractuelle 'Ni an m'a sɛbɛn sɛbɛn-bɛn na, n tɛ wari sara' ?",
+      "options": [
+        "Le loyer est payable par chèque uniquement",
+        "Si nous ne le consignons pas par écrit dans un contrat, je ne paierai pas",
+        "Le locataire refuse de payer ses factures d'électricité",
+        "Le propriétaire annule la visite de la maison"
+      ],
+      "correct_answer": "Si nous ne le consignons pas par écrit dans un contrat, je ne paierai pas",
+      "explanation": "La structure conditionnelle 'Ni... ma... tɛ...' exprime fermement le refus de s'exécuter financièrement en l'absence de bail écrit officiel."
+    }
+  ]
+}

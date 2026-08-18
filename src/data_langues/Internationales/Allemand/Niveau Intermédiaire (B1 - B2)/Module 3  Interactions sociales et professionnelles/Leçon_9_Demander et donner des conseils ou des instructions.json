@@ -1,0 +1,238 @@
+{
+  "lesson_id": "B1_M3_L9",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 9,
+  "title": "Demander et donner des conseils ou des instructions",
+  "learning_objectives": [
+    "Demander un conseil ou une recommandation de manière polie et formelle",
+    "Donner des conseils nuancés en utilisant le mode du subjonctif II (Konjunktiv II)",
+    "Formuler des instructions claires, des directives ou des modes d'emploi",
+    "Maîtriser la syntaxe de l'impératif et des propositions conditionnelles de conseil"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'adverbe 'vielleicht' se prononce [fiˈlaɪ̯çt] : le -v- initial se réalise sous la forme d'un [f] sourd et le digramme -ch- correspond au son palatal doux [ç] (Ich-Laut). Le mot 'der Ratschlag' se prononce [ˈʁaːt_ʃlaːk] : observez l'assourdissement du -g final en [k] et le groupe -tsch- qui se réduit ici à un enchaînement fluide [tʃ] entre les deux éléments du mot composé.",
+    "common_pitfalls": "Attention à la prononciation de 'empfehlen' [ɛmˈpfeːlən] : le -h- est totalement muet et sert uniquement à allonger la voyelle -e-. Ne confondez pas le son du Ü-Umlaut dans 'überlegen' [ˌyːbɐˈleːɡn̩] avec un 'ou' français."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "der Ratschlag",
+      "phonetic_api": "/deː̯ɐ ˈʁaːtˌʃlaːk/",
+      "phonetic_simple": "DEER RAT-CHLAK",
+      "translation": "le conseil / la recommandation",
+      "example_sentence": "Vielen Dank für diesen nützlichen Ratschlag.",
+      "example_phonetic": "/ˈfiːlən daŋk fyː̯ɐ ˈdiːzn̩ ˈnʏtslɪçn̩ ˈʁaːtˌʃlaːk/",
+      "example_translation": "Merci beaucoup pour ce conseil utile."
+    },
+    {
+      "word_id": "v2",
+      "term": "empfehlen",
+      "phonetic_api": "/ɛmˈpfeːlən/",
+      "phonetic_simple": "EM-PFEE-LEN",
+      "translation": "recommander / conseiller",
+      "example_sentence": "Was können Sie mir in dieser Situation empfehlen?",
+      "example_phonetic": "/vas ˈkœnən ziː miː̯ɐ ɪn ˈdiːzɐ zituatˈsi̯oːn ɛmˈpfeːlən/",
+      "example_translation": "Que pouvez-vous me recommander dans cette situation ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "die Anweisung",
+      "phonetic_api": "/diː ˈanˌvaɪ̯zʊŋ/",
+      "phonetic_simple": "DII AN-VAI-ZOUNG",
+      "translation": "l'instruction / la directive / la consigne",
+      "example_sentence": "Bitte lesen Sie die Anweisung aufmerksam durch.",
+      "example_phonetic": "/ˈbɪtə ˈleːzn̩ ziː diː ˈanˌvaɪ̯zʊŋ ˈaʊ̯fmɛʁkzaːm dʊʁç/",
+      "example_translation": "Veuillez lire attentivement la consigne."
+    },
+    {
+      "word_id": "v4",
+      "term": "raten",
+      "phonetic_api": "/ˈʁaːtn̩/",
+      "phonetic_simple": "RA-TEN",
+      "translation": "conseiller (à quelqu'un)",
+      "example_sentence": "Ich rate dir, dich gut auf das Gespräch vorzubereiten.",
+      "example_phonetic": "/ɪç ˈʁaːtə diː̯ɐ dɪç ɡuːt aʊ̯f das ɡəˈʃpʁɛːç ˈfoːɐ̯tsubəˌʁaɪ̯tn̩/",
+      "example_translation": "Je te conseille de bien te préparer pour l'entretien."
+    },
+    {
+      "word_id": "v5",
+      "term": "lösen",
+      "phonetic_api": "/ˈløːzn̩/",
+      "phonetic_simple": "LOE-ZEN",
+      "translation": "résoudre / trouver une solution (à un problème)",
+      "example_sentence": "Gemeinsam können wir dieses Problem lösen.",
+      "example_phonetic": "/ɡəˈmaɪ̯nzaːm ˈkœnən viː̯ɐ ˈdiːzəs pʁoˈbleːm ˈløːzn̩/",
+      "example_translation": "Ensemble, nous pouvons résoudre ce problème."
+    },
+    {
+      "word_id": "v6",
+      "term": "überlegen (sich)",
+      "phonetic_api": "/yːbɐˈleːɡn̩/",
+      "phonetic_simple": "UU-BER-LEE-GHEN",
+      "translation": "réfléchir à / peser le pour et le contre",
+      "example_sentence": "Ich muss mir diese Entscheidung noch genau überlegen.",
+      "example_phonetic": "/ɪç mʊs miː̯ɐ ˈdiːzə ɛntˈʃaɪ̯dʊŋ nɔx ɡəˈnaʊ̯ yːbɐˈleːɡn̩/",
+      "example_translation": "Je dois encore bien réfléchir à cette décision."
+    },
+    {
+      "word_id": "v7",
+      "term": "ausprobieren",
+      "phonetic_api": "/ˈaʊ̯stsuːpʁoˌbiːʁn̩/",
+      "phonetic_simple": "AOOUF-PRO-BII-REN",
+      "translation": "essayer / tester / expérimenter",
+      "example_sentence": "Du solltest diese neue Methode einmal ausprobieren.",
+      "example_phonetic": "/duː ˈzɔltəst ˈdiːzə ˈnɔɪ̯ə meˈtoːdə ˈaɪ̯nmaːl ˈaʊ̯spʁoˌbiːʁn̩/",
+      "example_translation": "Tu devrais essayer cette nouvelle méthode."
+    },
+    {
+      "word_id": "v8",
+      "term": "vielleicht",
+      "phonetic_api": "/fiˈlaɪ̯çt/",
+      "phonetic_simple": "FI-LAICHT",
+      "translation": "peut-être",
+      "example_sentence": "Vielleicht hat der Kollege eine bessere Idee.",
+      "example_phonetic": "/fiˈlaɪ̯çt hat deː̯ɐ kɔˈleːɡə ˈaɪ̯nə ˈbɛsəʁə iˈdeː/",
+      "example_translation": "Peut-être que le collègue a une meilleure idée."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "An deiner Stelle würde ich sofort mit dem Chef darüber sprechen.",
+      "phonetic_api": "/an ˈdaɪ̯nɐ ˈʃtɛlə ˈvʏʁdə ɪç zoˈfɔʁt mɪt deːm ʃɛf daˈʁyːbɐ ˈʃpʁɛçn̩/",
+      "phonetic_simple": "AN DAI-NER CHTE-LE VUUR-DE ICH ZO-FORT MIT DEEM CHEF DA-RUU-BER CHPREK-EN",
+      "translation": "À ta place, j'en parlerais immédiatement avec le chef.",
+      "context": "Donner un conseil direct et amical en se mettant à la place de l'autre."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Könnten Sie mir einen Tipp geben, wie ich diese Software installiere?",
+      "phonetic_api": "/ˈkœntn̩ ziː miː̯ɐ ˈaɪ̯nən tɪp ˈɡeːbn̩ viː ɪç ˈdiːzə ˈsɔftvɛːɐ̯ ɪnstaˈliːʁə/",
+      "phonetic_simple": "KOEN-TEN ZII MIIR AIN-EN TIP GEE-BEN VII ICH DII-ZE SOFT-VEER IN-STAL-II-RE",
+      "translation": "Pourriez-vous me donner un conseil (une astuce) pour installer ce logiciel ?",
+      "context": "Demander une assistance technique ou une consigne poliment au bureau."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Befolgen Sie die Schritte der Anleitung in der richtigen Reihenfolge.",
+      "phonetic_api": "/bəˈfɔlɡn̩ ziː diː ˈʃʁɪtə deː̯ɐ ˈanˌlaɪ̯tʊŋ ɪn deː̯ɐ ˈʁɪçtɪɡn̩ ˈʁaɪ̯ənˌfɔlɡə/",
+      "phonetic_simple": "BE-FOL-GHEN ZII DII CHRIT-E DEER AN-LAI-TOUNG IN DEER RICH-TI-GHEN RAI-EN-FOL-GHE",
+      "translation": "Suivez les étapes du mode d'emploi dans le bon ordre.",
+      "context": "Donner une instruction technique ou formelle de manière directive."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Du solltest dir überlegen, ob sich dieser Aufwand wirklich lohnt.",
+      "phonetic_api": "/duː ˈzɔltəst diː̯ɐ yːbɐˈleːɡn̩ ɔp zɪç ˈdiːzɐ ˈaʊ̯fvant ˈvɪʁklɪç loːnt/",
+      "phonetic_simple": "DOU ZOL-TEST DIIR UU-BER-LEE-GHEN OP ZICH DII-ZER AOOUF-VANT VIRK-LICH LOONT",
+      "translation": "Tu devrais réfléchir si cet investissement (cet effort) en vaut vraiment la peine.",
+      "context": "Nuancer une recommandation en invitant à la réflexion personnelle."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du conseil nuancé avec le Konjunktiv II (Subjonctif II)",
+      "explanation": "Pour donner un conseil en allemand sans paraître trop autoritaire ou intrusif, on n'utilise pas l'impératif direct, mais le mode du subjonctif II qui adoucit la suggestion.",
+      "rules": [
+        "On emploie massivement le verbe de modalité 'sollen' décliné au Konjunktiv II : 'du solltest' (tu devrais), 'Sie sollten' (vous devriez).",
+        "On utilise également la structure hypothétique 'An deiner/Ihrer Stelle' (À ta/votre place) combinée avec la forme du Konjunktiv II du verbe werden ('würde') + l'infinitif en fin de phrase."
+      ],
+      "examples": [
+        {
+          "structure": "Sie sollten jeden Tag Vokabeln wiederholen. (sollten + Infinitif)",
+          "phonetic_api": "/ziː ˈzɔltn̩ ˈjeːdn̩ taːk voˈkaːbl̩n ˈviːdɐˌhoːlən/",
+          "meaning": "Vous devriez réviser du vocabulaire chaque jour."
+        },
+        {
+          "structure": "An deiner Stelle würde ich weniger Kaffee trinken. (würde + Infinitif)",
+          "phonetic_api": "/an ˈdaɪ̯nɐ ˈʃtɛlə ˈvʏʁdə ɪç ˈveːnɪɡɐ ˈkafeː ˈtʁɪŋkn̩/",
+          "meaning": "À ta place, je boirais moins de café."
+        }
+      ]
+    },
+    {
+      "concept": "L'impératif formel et informel pour formuler des instructions",
+      "explanation": "Donner des consignes claires ou un mode d'emploi nécessite la maîtrise des structures de l'impératif aux différents niveaux de politesse.",
+      "rules": [
+        "À la forme de politesse (Sie), l'impératif conserve le verbe et le pronom inversés : 'Machen Sie...', 'Lesen Sie...'.",
+        "À la forme informelle du singulier (du), on enlève le pronom 'du' et la désinence '-st' du verbe : 'Mach das!', 'Lies das!' (changement de voyelle conservé pour les verbes forts).",
+        "À la forme informelle du pluriel (ihr), on garde la conjugaison standard du présent mais on omet le pronom 'ihr' : 'Macht die Arbeit fertig!'."
+      ],
+      "examples": [
+        {
+          "structure": "Drucken Sie das Dokument aus! (Formel - Sie)",
+          "phonetic_api": "/ˈdʁʊkn̩ ziː das dokuˈmɛnt aʊ̯s/",
+          "meaning": "Imprimez le document !"
+        },
+        {
+          "structure": "Probier diese Methode aus! (Informel - du)",
+          "phonetic_api": "/pʁoˈbiːɐ̯ ˈdiːzə meˈtoːdə aʊ̯s/",
+          "meaning": "Essaie cette méthode !"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Tim",
+      "text": "Ich habe ein großes Problem, Anna. Mein Computer stürzt ständig ab und ich habe morgen eine wichtige Präsentation. Was soll ich nur tun?",
+      "phonetic_api": "/ɪç ˈhaːbə aɪ̯n ˈɡʁoːsəs pʁoˈbleːm ˈana maɪ̯n kɔmˈpjuːtɐ ʃtʏʁts ˈʃtɛndɪç ap ʊnt ɪç ˈhaːbə ˈmɔʁɡn̩ ˈaɪ̯nə ˈvɪçtɪɡə pʁɛzɛntaˈtsi̯oːn vas zɔl ɪç nuː̯ɐ tuːn/",
+      "phonetic_simple": "ICH HA-BE AIN GROS-ES PRO-BLEEM AN-NA MAIN KOM-PYOU-TER CHTURTST CHTEN-DICH AP OUNT ICH HA-BE MOR-GHEN AI-NE VICH-TI-GHE PRE-ZEN-TA-TSYOO-N VAS ZOL ICH NOOUR TOUN",
+      "translation": "J'ai un gros problème, Anna. Mon ordinateur plante tout le temps et j'ai une présentation importante demain. Qu'est-ce que je dois faire ?"
+    },
+    {
+      "speaker": "Anna",
+      "text": "Oje, das ist ärgerlich! An deiner Stelle würde ich zuerst alle Daten auf einer externen Festplatte speichern. Sicher ist sicher.",
+      "phonetic_api": "/oːˈjeː das ɪst ˈɛʁɡɐlɪç an ˈdaɪ̯nɐ ˈʃtɛlə ˈvʏʁdə ɪç tsuˈeːɐ̯st ˈalə ˈdaːtn̩ aʊ̯f ˈaɪ̯nɐ ɛksˈtɛʁnən ˈfɛstˌplatə ˈʃpaɪ̯çɐn ˈzɪçɐ ɪst ˈzɪçɐ/",
+      "phonetic_simple": "O-YEE DAS IST ER-GHER-LICH AN DAI-NER CHTE-LE VUUR-DE ICH TSOU-EERST AL-E DA-TEN AOOUF AI-NER EX-TER-NEN FEST-PLAT-E CHPAI-CHERN ZICH-ER IST ZICH-ER",
+      "translation": "Oh mince, c'est embêtant ! À ta place, je commencerais par sauvegarder toutes les données sur un disque dur externe. On n'est jamais trop prudent."
+    },
+    {
+      "speaker": "Tim",
+      "text": "Gute Idee. Und wie kann ich das Problem dauerhaft lösen? Hast du einen Ratschlag?",
+      "phonetic_api": "/ˈɡuːtə iˈdeː ʊnt viː kan ɪç das pʁoˈbleːm ˈdaʊ̯ɐhaft ˈløːzn̩ hast duː ˈaɪ̯nən ˈʁaːtˌʃlaːk/",
+      "phonetic_simple": "GOU-TE I-DEE OUNT VII KAN ICH DAS PRO-BLEEM DAOU-ER-HAFT LOE-ZEN HAST DOU AIN-EN RAT-CHLAK",
+      "translation": "Bonne idée. Et comment puis-je résoudre le problème définitivement ? Tu as un conseil ?"
+    },
+    {
+      "speaker": "Anna",
+      "text": "Du solltest vielleicht das Betriebssystem aktualisieren oder den IT-Support anrufen. Befolg einfach meine Anweisungen und mach erst mal ein Backup!",
+      "phonetic_api": "/duː ˈzɔltəst fiˈlaɪ̯çt das bəˈtʁiːpszʏsˌteːm aktu(a)liˈziːʁn̩ ˈoːdɐ deːn aɪ̯-tiː-zʊˈpɔːɐ̯t ˈanˌʁuːfn̩ bəˈfɔlɡ ˈaɪ̯nfax ˈmaɪ̯nə ˈanˌvaɪ̯zʊŋən ʊnt max eː̯ɐst mal aɪ̯n ˈbɛkʔap/",
+      "phonetic_simple": "DOU ZOL-TEST FI-LAICHT DAS BE-TRIIBS-SYS-TEEM AK-TUAL-I-SIIR-EN OO-DER DEEN I-TI-SOUP-PORT AN-ROOU-FEN BE-FOLG AIN-FAK MAI-NE AN-VAI-ZOUNG-EN OUNT MAK EERST MAL AIN BEK-AP",
+      "translation": "Tu devrais peut-être mettre à jour le système d'exploitation ou appeler le support informatique. Suis simplement mes instructions et commence par faire une sauvegarde !"
+    }
+  ],
+  "cultural_notes": [
+    "En Allemagne, la formule 'Sicher ist sicher' (Prudence est mère de sûreté / Sûr c'est sûr) est un véritable leitmotiv culturel. Elle reflète une tendance à anticiper les risques techniques ou organisationnels par des mesures concrètes, comme les sauvegardes régulières.",
+    "Lorsque l'on donne des consignes ou des instructions de travail, la clarté et la précision factuelle ('Präzision') sont privilégiées. Être trop évasif ou omettre des détails techniques est perçu comme un manque de professionnalisme plutôt que comme de la flexibilité.",
+    "Donner des conseils non sollicités est socialement accepté s'ils s'appuient sur une expertise objective ou une expérience pratique vérifiable. Les Allemands apprécient l'échange pragmatique de solutions directes."
+  ],
+  "cultural_notes ": [
+    "En Allemagne, la formule 'Sicher ist sicher' (Prudence est mère de sûreté) est un véritable leitmotiv culturel. Elle reflète une tendance à anticiper les risques techniques ou organisationnels par des mesures de protection concrètes.",
+    "Lorsque l'on donne des consignes ou des instructions de travail, la clarté et la précision factuelle ('Präzision') sont vivement privilégiées. Être trop évasif est perçu comme un manque de professionnalisme.",
+    "Donner des conseils non sollicités est tout à fait accepté s'ils s'appuient sur une expertise objective ou une expérience pratique."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment formulez-vous de manière polie et adoucie le conseil suivant au bureau : 'Vous devriez faire une pause maintenant.' ?",
+      "options": [
+        "Sie müssen jetzt eine Pause machen.",
+        "Sie sollten jetzt eine Pause machen.",
+        "Machen Sie jetzt eine Pause!"
+      ],
+      "correct_answer": "Sie sollten jetzt eine Pause machen.",
+      "explanation": "L'usage du verbe de modalité 'sollen' au Konjunktiv II (sollten) permet de formuler une recommandation respectueuse et nuancée adaptée au cadre professionnel."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] (Lies / Lese / Lesen) Sie bitte die Bedienungsanleitung, bevor Sie das Gerät einschalten.",
+      "correct_answer": "Lesen",
+      "hint": "Entrez la forme correcte du verbe irrégulier lesen à l'impératif formel correspondant au pronom de politesse Sie."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "lesson_id": "B1_M3_L9",
+    "level": "Intermédiaire (B1-B2)",
+    "module_number": 3,
+    "module_title": "Interactions sociales et professionnelles",
+    "lesson_number": 9,
+    "title": "Demander et donner des conseils ou des instructions",
+    "learning_objectives": [
+      "Solliciter l'avis ou les directives d'un aîné face à une situation complexe",
+      "Transmettre des instructions précises pour la gestion des activités du foyer ou du champ",
+      "Utiliser les tournures de conseil et d'orientation bienveillante en langue bédik"
+    ],
+    "phonetic_focus": {
+      "key_sounds": "Le verbe pour conseiller, 'gaw-at', demande une articulation soignée de la semi-voyelle /w/ centrale suivie de la désinence brève. L'expression de la directive directrice, 'kō-gwa', associe le mot tête au suffixe d'agent.",
+      "common_pitfalls": "Attention à ne pas allonger la voyelle finale de 'gaw-at' sous forme de diphtongue traînante française, l'appui vocalique doit demeurer ferme et net."
+    },
+    "vocabulary": [
+      {
+        "word_id": "v1",
+        "term": "Gaw-at",
+        "phonetic_api": "/ɡaw.at/",
+        "phonetic_simple": "GAW-AT",
+        "translation": "Conseiller / Orienter / Donner un avis bienveillant",
+        "example_sentence": "Baba mē gaw-at mē",
+        "example_phonetic": "/ba.ba meː ɡaw.at meː/",
+        "example_translation": "Mon père m'a conseillé."
+      },
+      {
+        "word_id": "v2",
+        "term": "Kō-gwa",
+        "phonetic_api": "/ko.ɡwa/",
+        "phonetic_simple": "KO-GWA",
+        "translation": "Le guide / Le donneur d'instructions / Le chef de file",
+        "example_sentence": "Mady bē kō-gwa",
+        "example_phonetic": "/ma.di beː ko.ɡwa/",
+        "example_translation": "Mady est le donneur d'instructions."
+      },
+      {
+        "word_id": "v3",
+        "term": "Gisá-gwa",
+        "phonetic_api": "/ɡi.sa.ɡwa/",
+        "phonetic_simple": "GI-SA-GWA",
+        "translation": "Montrer la voie / Guider l'action / Instruire",
+        "example_sentence": "Mē di gisá-gwa ina",
+        "example_phonetic": "/meː di ɡi.sa.ɡwa i.na/",
+        "example_translation": "Je vais te montrer la voie."
+      },
+      {
+        "word_id": "v4",
+        "term": "Ina-bē-gaw",
+        "phonetic_api": "/i.na.beː.ɡaw/",
+        "phonetic_simple": "I-NA-BEE-GAW",
+        "translation": "Comment faire ? / Quel est le conseil ? (Interrogatif)",
+        "example_sentence": "Ina-bē-gaw dakat ?",
+        "example_phonetic": "/i.na.beː.ɡaw da.kat/",
+        "example_translation": "Comment faire aujourd'hui ?"
+      }
+    ],
+    "common_phrases": [
+      {
+        "phrase_id": "p1",
+        "original": "Baba, ina-bē-gaw pour sakhó ?",
+        "phonetic_api": "/ba.ba i.na.beː.ɡaw puʁ sa.χo/",
+        "phonetic_simple": "BA-BA, I-NA-BEE-GAW POUR SA-RHO ?",
+        "translation": "Mon père, quel est ton conseil pour le travail ?",
+        "context": "Consulter le patriarche avant d'entamer une nouvelle phase agricole."
+      },
+      {
+        "phrase_id": "p2",
+        "original": "Mē di gaw-at madyé mē.",
+        "phonetic_api": "/meː di ɡaw.at ma.dʒe meː/",
+        "phonetic_simple": "MEE DI GAW-AT MA-DYE MEE",
+        "translation": "Je vais conseiller ma classe d'âge.",
+        "context": "Prendre la parole lors d'un conseil pour réorienter l'effort collectif."
+      },
+      {
+        "phrase_id": "p3",
+        "original": "Ɓa kōō, mē di gisá-gwa ina.",
+        "phonetic_api": "/ɓa koː meː di ɡi.sa.ɡwa i.na/",
+        "phonetic_simple": "BHA KOOR, MEE DI GI-SA-GWA I-NA",
+        "translation": "Prends cet outil, je vais t'instruire (te montrer comment faire).",
+        "context": "Donner une directive technique de terrain à un jeune apprenti."
+      },
+      {
+        "phrase_id": "p4",
+        "original": "Ina bē kō-gwa dyé eyi-gwa.",
+        "phonetic_api": "/i.na beː ko.ɡwa dʒe ɛ.ji.ɡwa/",
+        "phonetic_simple": "I-NA BEE KO-GWA DJE Ɛ-YI-GWA",
+        "translation": "Tu es le donneur d'instructions ici dans cette concession.",
+        "context": "Conférer ou reconnaître la responsabilité décisionnelle d'un proche."
+      }
+    ],
+    "grammar_points": [
+      {
+        "concept": "La construction de l'interrogatif de conseil 'ina-bē-gaw'",
+        "explanation": "Pour demander une marche à suivre, une instruction ou un conseil face à un dilemme, la langue ménik fusionne l'interrogatif de manière 'ina-bē' avec la racine nominale du conseil 'gaw'.",
+        "rules": [
+          "L'expression figée 'ina-bē-gaw' se place de préférence en début de proposition.",
+          "Elle régit le reste de l'énoncé souvent introduit par le but ou le cadre d'action."
+        ],
+        "examples": [
+          {
+            "structure": "Ina-bē-gaw (Comment conseiller) + sakhó (travail) ?",
+            "phonetic_api": "/i.na.beː.ɡaw sa.χo/",
+            "meaning": "Comment faire pour le travail ? / Quelles sont les instructions ?"
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Sada",
+        "text": "Baba, mē bē tēkh. Ina-bē-gaw pour sakhó nanyé ?",
+        "phonetic_api": "/ba.ba meː beː teːχ i.na.beː.ɡaw puʁ sa.χo na.ɲɛ/",
+        "phonetic_simple": "BA-BA, MEE BEE TEEKH. I-NA-BEE-GAW POUR SA-RHO NA-NYƐ ?",
+        "translation": "Mon père, je suis fatigué. Quel est ton conseil pour le travail de demain ?"
+      },
+      {
+        "speaker": "Baba Mady",
+        "text": "Sada, mē di gaw-at ina. Bá sakhó nanyé, madyé ina di sakhó kō-bity.",
+        "phonetic_api": "/sa.da meː di ɡaw.at i.na ba sa.χo na.ɲɛ ma.dʒe i.na di sa.χo ko.bi.cɨ/",
+        "phonetic_simple": "SA-DA, MEE DI GAW-AT I-NA. BÁ SA-RHO NA-NYƐ, MA-DYE I-NA DI SA-RHO KO-BI-TY.",
+        "translation": "Sada, je vais te conseiller. Ne travaille pas demain, ta classe d'âge va œuvrer ensemble."
+      },
+      {
+        "speaker": "Sada",
+        "text": "Mady bē kō-gwa gā ga-tí ?",
+        "phonetic_api": "/ma.di beː ko.ɡwa ɡaː ɡa.ti/",
+        "phonetic_simple": "MA-DI BEE KO-GWA GAA GA-TI ?",
+        "translation": "Est-ce Mady qui est le donneur d'instructions là-bas ?"
+      },
+      {
+        "speaker": "Baba Mady",
+        "text": "Oho, Mady di gisá-gwa gasi. Sō nanyé !",
+        "phonetic_api": "/o.ho ma.di di ɡi.sa.ɡwa ɡa.si soː na.ɲɛ/",
+        "phonetic_simple": "OHO, MA-DI DI GI-SA-GWA GA-SI. SOO NA-NYƐ !",
+        "translation": "Oui, Mady va guider tout le monde. À demain !"
+      }
+    ],
+    "cultural_notes": [
+      "Dans l'organisation sociale horizontale des Bédiks, la transmission des directives et la formulation des conseils obéissent à un protocole générationnel rigoureux. On ne donne jamais d'ordre frontal à un égal sans passer par la concertation. Les aînés ('baba', 'mama') demeurent les garants des choix stratégiques du village. Solliciter leur 'gaw' (conseil) avant toute entreprise majeure est une démarche hautement respectée qui protège la communauté des faux pas rituels."
+    ],
+    "exercises": [
+      {
+        "exercise_id": "ex1",
+        "type": "multiple_choice",
+        "question": "Quelle locution bédik utilisez-vous pour demander 'Comment faire ? / Quel est le conseil ?'",
+        "options": [
+          "Khólé",
+          "Ina-bē-gaw",
+          "Sakhó-gwa-nē",
+          "Kō-bity"
+        ],
+        "correct_answer": "Ina-bē-gaw",
+        "explanation": "Ina-bē-gaw sert à s'enquérir d'une directive ou d'une orientation auprès d'autrui."
+      },
+      {
+        "exercise_id": "ex2",
+        "type": "fill_in_the_blanks",
+        "sentence_with_blank": "Mē di [ ___ ] madyé mē. (Je vais conseiller ma classe d'âge.)",
+        "correct_answer": "gaw-at",
+        "hint": "Le verbe signifiant prodiguer des conseils ou guider par la parole bienveillante."
+      }
+    ]
+  }
+]

@@ -1,0 +1,133 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Identifier et nommer les couleurs principales en Baga",
+    "Décrire un vêtement ou un tissu par sa couleur",
+    "Exprimer la possession d'un habit élémentaire"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne co-articulée /gɓ/ dans 'gbɛ̀ɛ̀' (rouge) demande une forte émission de voix labio-vélaire combinée à un ton bas allongé. Ne séparez jamais les deux graphèmes.",
+    "common_pitfalls": "Attention à la clarté du ton sur 'gbásá' (vêtement). Les deux syllabes portent un ton haut dynamique qu'il faut bien accentuer.",
+    "vocabulary": [
+      {
+        "word_id": "b032",
+        "term": "gbásá",
+        "phonetic_api": "/gɓásá/",
+        "phonetic_simple": "GBA-SA",
+        "translation": "vêtement / habit / tissu",
+        "example_sentence": "N gbásá mu ya",
+        "example_phonetic": "/ⁿgɓásá mu ja/",
+        "example_translation": "Mon vêtement est ici"
+      },
+      {
+        "word_id": "b033",
+        "term": "gbɛ̀ɛ̀",
+        "phonetic_api": "/gɓɛ̀ː/",
+        "phonetic_simple": "GBÈÈ",
+        "translation": "rouge / couleur vive",
+        "example_sentence": "Gbásá gbɛ̀ɛ̀ mu di",
+        "example_phonetic": "/gɓásá gɓɛ̀ː mu di/",
+        "example_translation": "C'est un vêtement rouge"
+      },
+      {
+        "word_id": "b034",
+        "term": "púu",
+        "phonetic_api": "/púː/",
+        "phonetic_simple": "POO",
+        "translation": "blanc / éclatant",
+        "example_sentence": "A mu nyíɛ̀ púu di",
+        "example_phonetic": "/a mu ɲíɛ̀ púː di/",
+        "example_translation": "C'est un oiseau blanc"
+      },
+      {
+        "word_id": "b035",
+        "term": "bílì",
+        "phonetic_api": "/ɓílì/",
+        "phonetic_simple": "BII-LII",
+        "translation": "noir / sombre",
+        "example_sentence": "Wùù bílì mu kɔ̀-kɔ́ ka",
+        "example_phonetic": "/wùː ɓílì mu kɔ̀ kɔ́ ka/",
+        "example_translation": "Le chien noir est derrière"
+      }
+    ],
+    "common_phrases": [
+      {
+        "phrase_id": "bp019",
+        "original": "N gbásá púu mu kə̀ gbɔ́n lɔ̀ di",
+        "phonetic_api": "/ⁿgɓásá púː mu kə gɓɔ́n lɔ̀ di/",
+        "phonetic_simple": "N GBA-SA POO MOO KE GBON LO DI",
+        "translation": "Mon habit blanc est bien à l'intérieur de la maison.",
+        "context": "Indiquer l'emplacement d'un vêtement propre"
+      },
+      {
+        "phrase_id": "bp020",
+        "original": "I lɔ̀ gbásá gbɛ̀ɛ̀ fɛ̀ɛ̀ gba ?",
+        "phonetic_api": "/i lɔ̀ gɓásá gɓɛ̀ː fɛ̀ː gba/",
+        "phonetic_simple": "I LO GBA-SA GBÈÈ FÈÈ GBA ?",
+        "translation": "Aimes-tu le tissu rouge ?",
+        "context": "S'informer sur les goûts d'un acheteur au marché"
+      }
+    ],
+    "grammar_points": [
+      {
+        "concept": "L'accord et la position de l'épithète de couleur",
+        "explanation": "En Baga, les qualificatifs de couleur (rouge, blanc, noir) se placent immédiatement après le substantif qu'ils modifient, suivant la même logique structurelle que les adjectifs numéraux.",
+        "rules": [
+          "Structure qualificative : Nom + Couleur."
+        ],
+        "examples": [
+          {
+            "structure": "gbásá (vêtement) + bílì (noir)",
+            "phonetic_api": "/gɓásá ɓílì/",
+            "meaning": "Un vêtement noir"
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Temba",
+        "text": "Sékou, i gbásá púu mu mí ka di ?",
+        "phonetic_api": "/sɛku i gɓásá púː mu mí ka di/",
+        "phonetic_simple": "SÉ-KOO, I GBA-SA POO MOO MII KA DI ?",
+        "translation": "Sékou, où est ton vêtement blanc ?"
+      },
+      {
+        "speaker": "Sékou",
+        "text": "N gbásá púu mán bɛ̀ ya. Mə̀ fɛ̀ɛ̀ gbásá gbɛ̀ɛ̀ mu ya-njɔ̀ɔ̀.",
+        "phonetic_api": "/ⁿgɓásá púː mán ɓɛ̀ ja mə̀ fɛ̀ː gɓásá gɓɛ̀ː mu ja ⁿd͡ʒɔ̀ː/",
+        "phonetic_simple": "N GBA-SA POO MAN BÈ YA. ME FÈÈ GBA-SA GBÈÈ MOO YA-N-DJOO.",
+        "translation": "Mon vêtement blanc n'est pas ici. J'ai un vêtement rouge aujourd'hui."
+      }
+    ],
+    "cultural_notes": [
+      "Les tissus blancs ('púu') revêtent une haute valeur symbolique et spirituelle lors des cérémonies coutumières traditionnelles Baga. Ils incarnent la pureté, la bénédiction des ancêtres et la paix sociale."
+    ],
+    "exercises": [
+      {
+        "exercise_id": "A1_M3_L9_ex1",
+        "type": "multiple_choice",
+        "question": "Que signifie la couleur 'gbɛ̀ɛ̀' en Baga ?",
+        "options": [
+          "Blanc",
+          "Noir",
+          "Rouge"
+        ],
+        "correct_answer": "Rouge",
+        "explanation": "'gbɛ̀ɛ̀' désigne la couleur rouge ou éclatante."
+      },
+      {
+        "exercise_id": "A1_M3_L9_ex2",
+        "type": "fill_in_the_blanks",
+        "sentence_with_blank": "A mu nyíɛ̀ [ ___ ] di (C'est un oiseau blanc).",
+        "correct_answer": "púu",
+        "hint": "Mot de 3 lettres se terminant par un double u"
+      }
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "lesson_id": "B1_M3_L7",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 7,
+  "title": "Exprimer l'obligation, l'interdiction et la permission",
+  "learning_objectives": [
+    "Exprimer l'obligation d'accomplir une action à l'aide de structures impersonnelles",
+    "Formuler une interdiction claire en utilisant la négation impérative",
+    "Demander et accorder une permission ou une autorisation au quotidien"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'f' dans 'fo' s'articule de manière sourde et bilabiale légère. Le son 'g' dans 'gwan' est dur. Veillez à bien nasaliser la voyelle fermée dans 'kan' sans prononcer de 'n' consonantique dur.",
+    "common_pitfalls": "Ne pas confondre la conjonction d'obligation 'fo' avec le verbe 'fɔ' (dire) qui s'articule avec une voyelle ouverte /ɔ/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_b1_m3_l7",
+      "term": "Fo",
+      "phonetic_api": "/fo/",
+      "phonetic_simple": "FO",
+      "translation": "Il faut / Obligation absolue",
+      "example_sentence": "Fo i ka ta",
+      "example_phonetic": "/fo i ka ta/",
+      "example_translation": "Il faut que tu partes"
+    },
+    {
+      "word_id": "v2_b1_m3_l7",
+      "term": "Kana",
+      "phonetic_api": "/ka.na/",
+      "phonetic_simple": "KA-NA",
+      "translation": "Ne... pas (Interdiction / Impératif négatif)",
+      "example_sentence": "Kana a fɔ",
+      "example_phonetic": "/ka.na a fɔ/",
+      "example_translation": "Ne dis pas ça"
+    },
+    {
+      "word_id": "v3_b1_m3_l7",
+      "term": "Di",
+      "phonetic_api": "/di/",
+      "phonetic_simple": "DI",
+      "translation": "Permettre / Donner l'autorisation",
+      "example_sentence": "Kira di n ma",
+      "example_phonetic": "/ki.ra di ɱ͡ma/",
+      "example_translation": "Donne-moi le chemin (Permets-moi de passer)"
+    },
+    {
+      "word_id": "v4_b1_m3_l7",
+      "term": "Sɔn",
+      "phonetic_api": "/sɔn/",
+      "phonetic_simple": "SƆN",
+      "translation": "Accepter / Consentir",
+      "example_sentence": "A ma sɔn ka ta",
+      "example_phonetic": "/a ma sɔn ka ta/",
+      "example_translation": "Il/Elle n'a pas accepté de partir"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_b1_m3_l7",
+      "original": "Fo n ka ta bara la bi",
+      "phonetic_api": "/fo ŋ͡ka ta ba.ra la bi/",
+      "phonetic_simple": "FO N KA TA BA-RA LA BI",
+      "translation": "Il faut que j'aille au travail aujourd'hui",
+      "context": "Exprimer un devoir professionnel quotidien."
+    },
+    {
+      "phrase_id": "p2_b1_m3_l7",
+      "original": "Kana don yan fɛ !",
+      "phonetic_api": "/ka.na don jan fɛ/",
+      "phonetic_simple": "KA-NA DON YAN FƐ !",
+      "translation": "N'entre pas par ici !",
+      "context": "Formuler une interdiction d'accès stricte."
+    },
+    {
+      "phrase_id": "p3_b1_m3_l7",
+      "original": "N bɛ se ka don kɔnɔ ?",
+      "phonetic_api": "/ɱ͡bɛ se ka don kɔ.nɔ/",
+      "phonetic_simple": "N BƐ SE KA DON KƆ-NƆ ?",
+      "translation": "Puis-je entrer à l'intérieur ?",
+      "context": "Demander poliment l'autorisation d'entrer dans une pièce."
+    },
+    {
+      "phrase_id": "p4_b1_m3_l7",
+      "original": "Don kɔnɔ, a bɛ i fɛ",
+      "phonetic_api": "/don kɔ.nɔ a bɛ i fɛ/",
+      "phonetic_simple": "DON KƆ-NƆ, A BƐ I FƐ",
+      "translation": "Entre, c'est permis (c'est à ta disposition)",
+      "context": "Accorder la permission d'entrer."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'obligation impersonnelle avec 'Fo'",
+      "explanation": "L'obligation se construit de manière absolue en plaçant la particule impersonnelle 'Fo' (il faut) en tout début de phrase, suivie du sujet et de la particule conjonctive 'ka'.",
+      "rules": [
+        "Structure : Fo + Sujet + ka + Verbe",
+        "Le pronom personnel 'N' se lie à la particule pour former /ŋ͡ka/."
+      ],
+      "examples": [
+        {
+          "structure": "Fo alu ka sɔn",
+          "phonetic_api": "/fo a.lu ka sɔn/",
+          "meaning": "Il faut que vous acceptiez"
+        }
+      ]
+    },
+    {
+      "concept": "L'interdiction impérative avec 'Kana'",
+      "explanation": "Pour interdire une action à la deuxième personne (singulier ou pluriel), on emploie le morphème 'Kana' juste devant la racine nue du verbe.",
+      "rules": [
+        "Structure au singulier : Kana + Verbe",
+        "Structure au pluriel : Alu kana + Verbe"
+      ],
+      "examples": [
+        {
+          "structure": "Kana boli",
+          "phonetic_api": "/ka.na bo.li/",
+          "meaning": "Ne cours pas"
+        },
+        {
+          "structure": "Alu kana boli",
+          "phonetic_api": "/a.lu ka.na bo.li/",
+          "meaning": "Ne courez pas"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine (L'employé)",
+      "text": "Karamɔgɔ, n bɛ se ka bɔ yan bi ?",
+      "phonetic_api": "/ka.ra.mɔ.gɔ ɱ͡bɛ se ka bɔ jan bi/",
+      "phonetic_simple": "KA-RA-MƆ-GƆ, N BƐ SE KA BƆ YAN BI ?",
+      "translation": "Maître, puis-je sortir d'ici aujourd'hui ?"
+    },
+    {
+      "speaker": "Ousmane (Le directeur)",
+      "text": "Ayee, kana bɔ yan fɔlɔ ! Fo i ka bara nɛ gbanan.",
+      "phonetic_api": "/a.jeː ka.na bɔ jan fɔ.lɔ fo i ka ba.ra nɛ g͡ba.nan/",
+      "phonetic_simple": "AYEE, KA-NA BƆ YAN FƆ-LƆ ! FO I KA BA-RA NƐ GBANAN.",
+      "translation": "Non, ne sors pas d'ici d'abord ! Il faut que tu termines ce travail."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "N ma a fɛmɛ. N bɛ se ka ta ni nɛgɛ sawa kɛra ?",
+      "phonetic_api": "/ɱ͡ma a fɛ.mɛ ɱ͡bɛ se ka ta ni nɛ.gɛ sa.wa kɛ.ra/",
+      "phonetic_simple": "N MA A FƐ-MƐ. N BƐ SE KA TA NI NƐ-GƐ SA-WA KƐ-RA ?",
+      "translation": "J'ai compris. Puis-je partir quand il sera trois heures ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Ɔnhɔ, ni nɛgɛ sawa kɛra, i bɛ se ka ta. Alla m'an to kɛnɛya ra.",
+      "phonetic_api": "/ɔn.hɔ ni nɛ.gɛ sa.wa kɛ.ra i bɛ se ka ta al.la m'an to kɛ.nɛ.ja ra/",
+      "phonetic_simple": "ƆN-HƆ, NI NƐ-GƐ SA-WA KƐ-RA, I BƐ SE KA TA. AL-LA M'AN TO KƐ-NƐ-YA RA.",
+      "translation": "Oui, à trois heures, tu pourras partir. Que Dieu nous garde en bonne santé."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les relations de travail ou sociales en pays kuranko, demander une autorisation exige de témoigner un profond respect aux aînés ou supérieurs hiérarchiques. L'interdiction exprimée par un ancien, introduite par 'Kana', ne se conteste pas de façon frontale mais s'accepte, quitte à négocier poliment un aménagement horaire comme illustré dans le dialogue."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_b1_m3_l7",
+      "type": "multiple_choice",
+      "question": "Quelle expression utilise-t-on pour interdire formellement une action à quelqu'un ?",
+      "options": [
+        "Fo i ka",
+        "Kana",
+        "N bɛ se ka"
+      ],
+      "correct_answer": "Kana",
+      "explanation": "'Kana' correspond au mode prohibitif (impératif négatif) en kuranko."
+    },
+    {
+      "exercise_id": "ex2_b1_m3_l7",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour exprimer qu'il faut obligatoirement faire quelque chose, on commence la phrase par : [ ___ ].",
+      "correct_answer": "fo",
+      "hint": "Particule d'obligation absolue"
+    }
+  ]
+}

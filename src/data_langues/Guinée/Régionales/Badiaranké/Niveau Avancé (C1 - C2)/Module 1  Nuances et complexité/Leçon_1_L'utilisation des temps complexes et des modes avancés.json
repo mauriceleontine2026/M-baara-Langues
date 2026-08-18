@@ -1,0 +1,231 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "L'utilisation des temps complexes et des modes avancés",
+  "learning_objectives": [
+    "Maîtriser la combinaison de l'accompli passé et des auxiliaires de perspective",
+    "Exprimer une action antérieure à une autre action passée (plus-que-parfait)",
+    "Saisir les nuances subtiles du mode subjonctif-optatif dans la narration fluide"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La juxtaposition des morphèmes complexes induit des contractions vocaliques intersyllabiques. La propreté des occlusives glottalisées injectives /ɓ/ et /ɗ/ doit être maintenue au cœur des radicaux fléchis.",
+    "common_pitfalls": "Niveler ou élider la seconde voyelle longue lors de la rencontre de deux morphèmes grammaticaux successifs, modifiant la chronologie des événements racontés."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v19_1",
+      "term": "Wure-ma-wa",
+      "phonetic_api": "/wuremawa/",
+      "phonetic_simple": "WOU-RE-MA-WA",
+      "translation": "Était sur le point d'arriver / Était venu avant que",
+      "example_sentence": "M baa o wure-ma-wa e maari.",
+      "example_phonetic": "/m ɓaː o wuremawa e maːri/",
+      "example_translation": "Mon père était déjà venu à la concession (avant un autre fait)."
+    },
+    {
+      "word_id": "v19_2",
+      "term": "Mase-ma-ma",
+      "phonetic_api": "/masemama/",
+      "phonetic_simple": "MA-SE-MA-MA",
+      "translation": "Avait été complètement achevé au préalable",
+      "example_sentence": "Fari o o mase-ma-ma meema.",
+      "example_phonetic": "/fari o o masemama meːma/",
+      "example_translation": "Le travail avait été totalement terminé hier (avant la pluie)."
+    },
+    {
+      "word_id": "v19_3",
+      "term": "Yere-ma",
+      "phonetic_api": "/jerema/",
+      "phonetic_simple": "YE-RE-MA",
+      "translation": "Avait pensé / Avait conçu l'idée",
+      "example_sentence": "N yere-ma e wa-ma e teeŋ.",
+      "example_phonetic": "/n jerema e wama e teːŋ/",
+      "example_translation": "J'avais pensé à me rendre au village."
+    },
+    {
+      "word_id": "v19_4",
+      "term": "Yo",
+      "phonetic_api": "/jo/",
+      "phonetic_simple": "YO",
+      "translation": "Particule du mode optatif / Que (souhait ou ordre indirect)",
+      "example_sentence": "Yo a fari sae !",
+      "example_phonetic": "/jo a fari sae/",
+      "example_translation": "Qu'il travaille bien !"
+    },
+    {
+      "word_id": "v19_5",
+      "term": "Wala-ma",
+      "phonetic_api": "/walama/",
+      "phonetic_simple": "WA-LA-MA",
+      "translation": "Aurait dû / Avait l'obligation de",
+      "example_sentence": "I wala-ma e mase m mi.",
+      "example_phonetic": "/i walama e mase m mi/",
+      "example_translation": "Tu aurais dû m'écouter."
+    },
+    {
+      "word_id": "v19_6",
+      "term": "Abaari-boki",
+      "phonetic_api": "/aɓaːriɓoki/",
+      "phonetic_simple": "A-BAA-RI-BHO-KI",
+      "translation": "L'ensemble des faits historiques entrelacés",
+      "example_sentence": "O lenb abaari-boki m mase.",
+      "example_phonetic": "/o lɛnɓ aɓaːriɓoki m mase/",
+      "example_translation": "Il raconte une histoire d'envergure fort ancienne."
+    },
+    {
+      "word_id": "v19_7",
+      "term": "Mee-meema",
+      "phonetic_api": "/meːmeːma/",
+      "phonetic_simple": "MEE-MEE-MA",
+      "translation": "Il y a bien longtemps / Un passé très lointain",
+      "example_sentence": "Mee-meema n wona-ma o seŋeni.",
+      "example_phonetic": "/meːmeːma n wonama o seŋeni/",
+      "example_translation": "Il y a fort longtemps, j'habitais là-bas."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p19_1",
+      "original": "N farit-ma-ma maaso meema.",
+      "phonetic_api": "/n faritmama maːso meːma/",
+      "phonetic_simple": "N FA-RITT-MA-MA MAA-SO MEE-MA",
+      "translation": "J'avais déjà fini de cultiver le riz hier (avant ton arrivée).",
+      "context": "Expliquer une antériorité temporelle dans un rapport professionnel."
+    },
+    {
+      "phrase_id": "p19_2",
+      "original": "Yo sae e i fari, yo a mase !",
+      "phonetic_api": "/jo sae e i fari jo a mase/",
+      "phonetic_simple": "YO SA-E E I FA-RI, YO A MA-SE !",
+      "translation": "Que la bénédiction soit sur ton œuvre, et qu'il l'entende ainsi !",
+      "context": "Formuler un souhait solennel lors d'une réunion de haut rang."
+    },
+    {
+      "phrase_id": "p19_3",
+      "original": "I wala-ma e duse wari meema.",
+      "phonetic_api": "/i walama e duse wari meːma/",
+      "phonetic_simple": "I WA-LA-MA E DOU-SE WA-RI MEE-MA",
+      "translation": "Tu aurais dû revoir et baisser ton prix hier.",
+      "context": "Exprimer un regret ou reproche quant à une négociation passée."
+    },
+    {
+      "phrase_id": "p19_4",
+      "original": "Meema n soko-ma-wa kense o.",
+      "phonetic_api": "/meːma n sokomawa kɛnse o/",
+      "phonetic_simple": "MEE-MA N SO-KO-MA-WA KEN-SE O",
+      "translation": "Hier, j'étais sur le point d'acheter ce poisson.",
+      "context": "Évoquer une action presque réalisée dans la temporalité passée."
+    },
+    {
+      "phrase_id": "p19_5",
+      "original": "Abaari-boki o seŋeni n sae-boki.",
+      "phonetic_api": "/aɓaːriɓoki o seŋeni n sae ɓoki/",
+      "phonetic_simple": "A-BAA-RI-BHO-KI O SE-NGE-NI N SA-E BHO-KI",
+      "translation": "Cette grande chronique historique apporte une profonde joie.",
+      "context": "Valider la pertinence morale d'un long récit traditionnel."
+    },
+    {
+      "phrase_id": "p19_6",
+      "original": "M maama o wona-ma-wa e teeŋ ubiin.",
+      "phonetic_api": "/m maːma o wonamawa e teːŋ ubiːn/",
+      "phonetic_simple": "M MAA-MA O WO-NA-MA-WA E TEENG OU-BHIIN",
+      "translation": "Mon grand-père avait résidé dans la cité sombre autrefois.",
+      "context": "Situer le parcours résidentiel d'un ancêtre décédé."
+    },
+    {
+      "phrase_id": "p19_7",
+      "original": "Mee-meema kalo mmanza o fari-ma-ma sae.",
+      "phonetic_api": "/meːmeːma kalo mːanza o farimama sae/",
+      "phonetic_simple": "MEE-MEE-MA KA-LO MMAN-ZA O FA-RI-MA-MA SA-E",
+      "translation": "Il y a bien longtemps, un mois s'était écoulé paisiblement.",
+      "context": "Introduire un conte ou un mythe fondateur communautaire."
+    },
+    {
+      "phrase_id": "p19_8",
+      "original": "Yo Alla a mbaas fari m mi !",
+      "phonetic_api": "/jo alla a mɓaːs fari m mi/",
+      "phonetic_simple": "YO AL-LA A MBAAS FA-RI M MI !",
+      "translation": "Puisse Dieu permettre l'aboutissement de mon entreprise !",
+      "context": "Invocation religieuse formelle de protection."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'encapsulation morphologique du plus-que-parfait",
+      "explanation": "En Badiaranké avancé, le plus-que-parfait et l'antériorité narrative s'expriment par le redoublement ou la fusion des morphèmes suffixaux '-ma' (accompli) et '-wa' (mouvement/perspective). Cette double marque rejette l'action au-delà du premier plan du récit.",
+      "rules": [
+        "Le radical verbal reçoit le suffixe de parfait '-ma'.",
+        "On y adjoint immédiatement l'indice d'ancrage déictique '-wa' ou un second '-ma' pour verrouiller la préséance historique."
+      ],
+      "examples": [
+        {
+          "structure": "o fari-ma-ma",
+          "phonetic_api": "/o farimama/",
+          "meaning": "il avait fait / il avait achevé au préalable"
+        },
+        {
+          "structure": "n wa-ma-wa",
+          "phonetic_api": "/n wamawa/",
+          "meaning": "j'étais allé auparavant"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Moussa, meema n wure-ma e i maari, i seŋeni ɓe. I wa-ma-wa e seŋeni ?",
+      "phonetic_api": "/moussa meːma n wurema e i maːri i seŋeni ɓe i wamawa e seŋeni/",
+      "phonetic_simple": "MOUS-SA, MEE-MA N WOU-RE-MA E I MAA-RI, I SE-NGE-NI BHE. I WA-MA-WA E SE-NGE-NI ?",
+      "translation": "Moussa, hier quand je suis arrivé dans ta concession, tu n'y étais pas. Où étais-tu donc allé auparavant ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Samba, n yere-ma e mase i, n wa-ma-wa e maree. N farit-ma-ma fari m mi.",
+      "phonetic_api": "/samɓa n jerema e mase i n wamawa e mareː n faritmama fari m mi/",
+      "phonetic_simple": "SAM-BHA, N YE-RE-MA E MA-SE I, N WA-MA-WA E MA-REE. N FA-RITT-MA-MA FA-RI M MI.",
+      "translation": "Samba, j'avais pensé t'attendre, mais j'étais déjà parti au marché. J'avais terminé mon ouvrage aux champs bien avant."
+    },
+    {
+      "speaker": "Samba",
+      "text": "Iyo, i soko-ma-wa kense o mase-ma ?",
+      "phonetic_api": "/ijo i sokomawa kɛnse o masema/",
+      "phonetic_simple": "I-YO, I SO-KO-MA-WA KEN-SE O MA-SE-MA ?",
+      "translation": "Ah d'accord, et avais-tu pu acheter ce gros poisson ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Aé, wari o o mase-ma-ma e mi. Yo Alla a fari sae manka !",
+      "phonetic_api": "/aeː wari o o masemama e mi jo alla a fari sae manka/",
+      "phonetic_simple": "AEE, WA-RI O O MA-SE-MA-MA E MI. YO AL-LA A FA-RI SA-E MAN-KA !",
+      "translation": "Non, les ressources financières m'avaient fait défaut au préalable. Puisse Dieu faire que la journée de demain soit meilleure !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'art oratoire des aînés Badiaranké, l'usage des structures verbales complexes à tiroirs aspectuels ('wure-ma-wa') sert à arbitrer les litiges fonciers ou généalogiques. Établir avec exactitude l'antériorité d'une alliance ou du défrichage d'une terre ('farit-ma-ma') confère une autorité incontestable à la parole du locuteur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex19_1",
+      "type": "multiple_choice",
+      "question": "Quelle nuance exprime le complexe verbal 'n farit-ma-ma' ?",
+      "options": [
+        "Je cultive actuellement",
+        "Je vais bientôt cultiver",
+        "J'avais déjà cultivé au préalable (plus-que-parfait)"
+      ],
+      "correct_answer": "J'avais déjà cultivé au préalable (plus-que-parfait)",
+      "explanation": "La double marque aspectuelle '-ma-ma' indique une action achevée antérieurement à un autre jalon du passé."
+    },
+    {
+      "exercise_id": "ex19_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] a fari sae e bata ! (Qu'il agisse bien dans la cour !)",
+      "correct_answer": "yo",
+      "hint": "La particule régissant le mode optatif ou le subjonctif de souhait."
+    }
+  ]
+}

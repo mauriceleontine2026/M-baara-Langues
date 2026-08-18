@@ -1,0 +1,133 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Formuler des structures conditionnelles ('si... alors...') complexes",
+    "Exprimer une réserve, une incertitude ou un doute rhétorique"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La particule conditionnelle 'ɓɛ́' possède un ton haut impératif. Si ce ton fléchit, la phrase bascule d'une condition ('si') à une simple affirmation relative.",
+    "common_pitfalls": "Attention à ne pas télescoper la voyelle fermée de 'ɓɛ́' avec le pronom qui la suit directement."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v20_1",
+      "term": "ɓɛ́",
+      "phonetic_api": "/ɓɛ́/",
+      "phonetic_simple": "BE",
+      "translation": "si / dans l'hypothèse où",
+      "example_sentence": "Na va ɓɛ́, i va mɛni.",
+      "example_phonetic": "/na va ɓɛ́ i va mɛ.ni/",
+      "example_translation": "Si je viens, tu le sauras."
+    },
+    {
+      "word_id": "v20_2",
+      "term": "kɛ́ɛ-mɛni",
+      "phonetic_api": "/kɛ́ː.mɛ.ni/",
+      "phonetic_simple": "KEE-ME-NI",
+      "translation": "peut-être / il se peut que / incertitude",
+      "example_sentence": "Kɛ́ɛ-mɛni ta va wogaza.",
+      "example_phonetic": "/kɛ́ː.mɛ.ni ta va wo.ɡa.za/",
+      "example_translation": "Il se peut qu'ils viennent demain."
+    },
+    {
+      "word_id": "v20_3",
+      "term": "nɛɛ-ɓɛ́",
+      "phonetic_api": "/nɛː.ɓɛ́/",
+      "phonetic_simple": "NEE-BE",
+      "translation": "même si / bien que (concession)",
+      "example_sentence": "Nɛɛ-ɓɛ́ tii gaza, na va kɛ.",
+      "example_phonetic": "/nɛː.ɓɛ́ tiː ɡa.za na va kɛ/",
+      "example_translation": "Même si le travail est immense, je le ferai."
+    },
+    {
+      "word_id": "v20_4",
+      "term": "lii-zo-pe",
+      "phonetic_api": "/liː.zo.pɛ/",
+      "phonetic_simple": "LII-ZO-PE",
+      "translation": "le doute / l'esprit partagé (cœur balancé)",
+      "example_sentence": "Lii-zo-pe lɔ na ma.",
+      "example_phonetic": "/liː.zo.pɛ lɔ na ma/",
+      "example_translation": "Le doute m'habite."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p20_1",
+      "original": "I gbeleyi ve na ma ɓɛ́, na va seɓe ni sañ.",
+      "phonetic_api": "/i ɡbɛ.lɛ.ji vɛ na ma ɓɛ́ na va sɛ.ɓɛ ni sã/",
+      "phonetic_simple": "I GBE-LE-YI VE NA MA BE, NA VA SE-BE NI SAN",
+      "translation": "Si tu me donnes l'argent, alors j'achèterai ce vêtement.",
+      "context": "Structure conditionnelle fluide utilisée dans les discussions formelles ou d'affaires."
+    },
+    {
+      "phrase_id": "p20_2",
+      "original": "Kɛ́ɛ-mɛni tɔñ lɔ, kɛ́ɛ na lii-zo-pe lɔ ɓɛñ.",
+      "phonetic_api": "/kɛ́ː.mɛ.ni tɔ̃ lɔ kɛ́ː na liː.zo.pɛ lɔ ɓɛ̃/",
+      "phonetic_simple": "KEE-ME-NI TON LO, KEE NA LII-ZO-PE LO BEN",
+      "translation": "Il se peut que ce soit la vérité, mais j'ai encore un doute.",
+      "context": "Formulation diplomatique lors d'un arbitrage pour suspendre son jugement."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La proposition conditionnelle avec 'ɓɛ́'",
+      "explanation": "En toma, la condition ne se place pas systématiquement en tête de phrase. Le morphème 'ɓɛ́' s'insère à la fin de la proposition de condition, juste avant la proposition principale résultante.",
+      "rules": [
+        "Structure : [Proposition Conditionnelle] + ɓɛ́ + [Proposition Principale].",
+        "Le verbe de la principale se met souvent au prospectif (va) ou à l'impératif."
+      ],
+      "examples": [
+        {
+          "structure": "i li ɓɛ́, na va li",
+          "phonetic_api": "/i li ɓɛ́ na va li/",
+          "meaning": "si tu pars, je partirai"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sia",
+      "text": "Massa, i va li galu ma wogaza fologila?",
+      "phonetic_api": "/ma.sa i va li ɡa.lu ma wo.ɡa.za fo.lo.ɡi.la/",
+      "phonetic_simple": "MAS-SA I VA LI GA-LOU MA WO-GA-ZA FO-LO-GI-LA",
+      "translation": "Massa, iras-tu au marché demain lundi ?"
+    },
+    {
+      "speaker": "Massa",
+      "text": "Sama va lo ɓɛ́, na pɛ́ li. Kɛ́ɛ-mɛni na va kaza kɛ pɛlɛ zu.",
+      "phonetic_api": "/sa.ma va lo ɓɛ́ na pɛ́ li kɛ́ː.mɛ.ni na va ka.za kɛ pɛ.lɛ zu/",
+      "phonetic_simple": "SA-MA VA LO BE, NA PE LI. KEE-ME-NI NA VA KA-ZA KE PE-LE ZOU",
+      "translation": "Si la pluie s'installe, je n'irai pas. Il se peut que je reste travailler à la maison."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la rhétorique Toma, affirmer quelque chose avec trop de certitude sans nuance conditionnelle est perçu comme un manque de maturité. Utiliser 'kɛ́ɛ-mɛni' témoigne du respect pour les aléas de la vie."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex20_1",
+      "type": "multiple_choice",
+      "question": "Où se place la particule de condition 'ɓɛ́' dans la structure syntaxique ?",
+      "options": [
+        "Au tout début de la phrase",
+        "À la fin de la proposition conditionnelle",
+        "Après le verbe principal de la phrase"
+      ],
+      "correct_answer": "À la fin de la proposition conditionnelle",
+      "explanation": "'ɓɛ́' agit comme un pivot postpositionnel de la condition."
+    },
+    {
+      "exercise_id": "ex20_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] ta va wogaza (Il se peut qu'ils viennent demain).",
+      "correct_answer": "Kɛ́ɛ-mɛni",
+      "hint": "Le terme marquant l'éventualité ou l'incertitude."
+    }
+  ]
+}

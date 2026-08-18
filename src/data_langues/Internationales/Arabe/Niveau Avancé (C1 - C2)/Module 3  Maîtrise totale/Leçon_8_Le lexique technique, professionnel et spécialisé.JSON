@@ -1,0 +1,223 @@
+{
+  "lesson_id": "C1_M3_L8",
+  "level": "Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 8,
+  "title": "Lexique technique, professionnel et spécialisé",
+  "learning_objectives": [
+    "Manipuler le jargon technologique, industriel et de l'ingénierie en arabe standard moderne (Fusha)",
+    "Utiliser les néologismes institutionnels et les noms d'action complexes (Masadir) spécifiques aux sciences de l'information et de la gestion",
+    "Formuler des rapports de faisabilité technique et des synthèses industrielles de haut niveau"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon se focalise sur les termes de la modernité industrielle et numérique. Le sound /q/ (ق) est central dans 'Raqmanah' (رَقْمَنَةٌ - numérisation) et 'Taqniyyah' (تَقْنِيَّةٌ - technique). La consonne fricative alvéolaire sourde emphatique /sˤ/ (ص) structure 'Iṣṭinā'ī' (إِصْطِنَاعِيٌّ - artificiel).",
+    "common_pitfalls": "Attention à la prononciation du groupe consonantique dans 'Iṣṭinā'ī'. Le /sˤ/ emphatique contamine naturellement le Tā' qui le suit, le transformant phonétiquement en un Ṭā' (ط) emphatique. Ne relâchez pas la tension pharyngale sous peine de perdre la pureté du terme technique."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "رَقْمَنَةٌ",
+      "phonetic_api": "/raq.ma.na.tun/",
+      "phonetic_simple": "RAK-MA-NA-TOUN",
+      "translation": "La numérisation / La digitalisation (Masdar quadrilère)",
+      "example_sentence": "تَسْعَى الشَّرِكَةُ إِلَى رَقْمَنَةِ جَمِيعِ خِدْمَاتِهَا",
+      "example_phonetic": "/.../",
+      "example_translation": "L'entreprise s'efforce de numériser l'ensemble de ses services"
+    },
+    {
+      "word_id": "v2",
+      "term": "تَقْنِيَّةٌ",
+      "phonetic_api": "/taq.nij.ja.tun/",
+      "phonetic_simple": "TAK-NIY-YA-TOUN",
+      "translation": "Une technologie / A technique / Une ingénierie (Pluriel : Taqniyyāt)",
+      "example_sentence": "نَسْتَخْدِمُ تَقْنِيَّةً حَدِيثَةً فِي الإنْتَاجِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Nous utilisons une technologie moderne dans la production"
+    },
+    {
+      "word_id": "v3",
+      "term": "إِصْطِنَاعِيٌّ",
+      "phonetic_api": "/isˤ.tˤi.naː.ʕij.jun/",
+      "phonetic_simple": "IS-TI-NAA-IY-YOUN",
+      "translation": "Artificiel / Synthétique",
+      "example_sentence": "الذَّكَاءُ الإِصْطِنَاعِيُّ يُغَيِّرُ سُوقَ الْعَمَلِ",
+      "example_phonetic": "/.../",
+      "example_translation": "L'intelligence artificielle transforme le marché du travail"
+    },
+    {
+      "word_id": "v4",
+      "term": "آلِيَّةٌ",
+      "phonetic_api": "/ʔaː.lij.ja.tun/",
+      "phonetic_simple": "AA-LIY-YA-TOUN",
+      "translation": "Un mécanisme / Un processus automatisé / Un fonctionnement (Pluriel : Āliyyāt)",
+      "example_sentence": "يَجِبُ تَعْدِيلُ آلِيَّةِ التَّشْغِيلِ فَوْرًا",
+      "example_phonetic": "/.../",
+      "example_translation": "Il faut modifier le mécanisme de fonctionnement immédiatement"
+    },
+    {
+      "word_id": "v5",
+      "term": "مُعَالَجَةٌ",
+      "phonetic_api": "/mu.ʕaː.la.dʒa.tun/",
+      "phonetic_simple": "MOU-AA-LA-DJA-TOUN",
+      "translation": "Le traitement (de données) / Le raffinage / Le processus de gestion",
+      "example_sentence": "تَتِمُّ مُعَالَجَةُ الْبَيَانَاتِ سِرِّيًّا",
+      "example_phonetic": "/.../",
+      "example_translation": "Le traitement des données s'effectue confidentiellement"
+    },
+    {
+      "word_id": "v6",
+      "term": "بِنْيَةٌ تَحْتِيَّةٌ",
+      "phonetic_api": "/bin.ja.tun taħ.tij.ja.tun/",
+      "phonetic_simple": "BIN-YA TAH-TIY-YA",
+      "translation": "Une infrastructure / Les fondations techniques",
+      "example_sentence": "نَحْتَاجُ إِلَى تَطْوِيرِ الْبِنْيَةِ التَّحْتِيَّةِ الرَّقْمِيَّةِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Nous avons besoin de développer l'infrastructure numérique"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "تَرْتَكِزُ الْخِطَّةُ الصِّنَاعِيَّةُ عَلَى دَمْجِ خَوَارِزْمِيَّاتِ الذَّكَاءُ الإِصْطِنَاعِيِّ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "TAR-TA-KI-ZOUL KHIT-TATOUS SI-NAA-IY-YA A-LAA DAM-DJI...",
+      "translation": "Le plan industriel repose sur l'intégration des algorithmes d'intelligence artificielle",
+      "context": "Note de synthèse ou rapport d'orientation technologique de niveau C1."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "أَدَّتْ رَقْمَنَةُ الْمُؤَسَّسَةِ إِلَى تَسْرِيعِ آلِيَّةِ اتِّخَاذِ الْقَرَارِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AD-DAT RAK-MA-NA-TOUL MOU-AS-SA-SA I-LAA TAS-RIII-I AA-LIY-YA-TI...",
+      "translation": "La digitalisation de l'institution a mené à l'accélération du mécanisme de prise de décision",
+      "context": "Évaluation d'impact managérial ou d'audit organisationnel."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "تَتَطَلَّبُ مُعَالَجَةُ هَذِهِ النِّفَايَاتِ تَقْنِيَّاتٍ بِيئِيَّةً مُتَقَدِّمَةً",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "TA-TA-TAL-LA-BOU MOU-AA-LA-DJA-TOU HAA-THI-HIL NI-FAA-YAA-TI...",
+      "translation": "Le traitement de ces déchets exige des technologies environnementales avancées",
+      "context": "Cahier des charges d'ingénierie ou rapport environnemental."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "يُعَانِي الْمَشْرُوعُ مِنْ ضَعْفٍ شَدِيدٍ فِي الْبِنْيَةِ التَّحْتِيَّةِ اللُّوجِسْتِيَّةِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "YOU-AA-NIIL MACH-ROOU-OU MIN DA'-FIN CHA-DII-DIN FIL BIN-YA...",
+      "translation": "Le projet souffre d'une faiblesse sévère au niveau de l'infrastructure logistique",
+      "context": "Diagnostic technique de faisabilité ou d'analyse des risques."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "تَمَّتْ أَتْمَتَةُ النِّظَامِ بِالْكَامِلِ لِتَقْلِيلِ الْأَخْطَاءِ الْبَشَرِيَّةِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "TAM-MAT AT-MA-TA-TOUN NI-THAA-MI BIL-KAA-MI-LI LI-TAK-LIII-LI...",
+      "translation": "Le système a été entièrement automatisé afin de réduire les erreurs humaines",
+      "context": "Rapport technique d'ingénierie logicielle ou d'automatisation d'usine."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le Masdar quadrilitère et ses néologismes : Le schème 'Fa'lalah' (فَعْلَلَةٌ)",
+      "explanation": "Pour intégrer les concepts techniques et industriels modernes, la langue arabe utilise le schème d'action des verbes à quatre consonnes radicales (Forme quadrilitère).",
+      "rules": [
+        "Le schème nominal standard de cette catégorie est Fa'lalah (فَعْلَلَةٌ).",
+        "Il permet de créer des concepts abstraits à partir de racines nominales : ex: Raqam (numéro) -> Raqmanah (numérisation) ; Atam (atome/auto) -> Atmatah (automatisation)."
+      ],
+      "examples": [
+        {
+          "structure": "رَقْمَنَةُ الْإِدَارَةِ",
+          "phonetic_api": "/raq.ma.na.tul ʔi.daː.ra.ti/",
+          "meaning": "La numérisation de l'administration (Raqmanah est au cas requis par le contexte)"
+        },
+        {
+          "structure": "أَتْمَتَةُ الْمَصَانِعِ",
+          "phonetic_api": "/ʔat.ma.ta.tul ma.sˤaː.ni.ʕi/",
+          "meaning": "L'automatisation des usines"
+        }
+      ]
+    },
+    {
+      "concept": "Le pluriel des noms terminés par une Nisbah féminine : 'Taqniyyāt' (تَقْنِيَّاتٌ)",
+      "explanation": "Le lexique de spécialité emploie massivement des termes de concepts au féminin singulier. Leur mise au pluriel répond aux règles du pluriel régulier féminin.",
+      "rules": [
+        "Le Ta Marboutah final s'efface pour laisser place à la terminaison allongée 'āt' (ـَاتٌ).",
+        "Au cas sujet (Nominatif), la marque est la Damma. Aux cas direct (Accusatif) et indirect (Génitif), la marque est impérativement la Kasra."
+      ],
+      "examples": [
+        {
+          "structure": "نَمْلِكُ تَقْنِيَّاتٍ جَدِيدَةً",
+          "phonetic_api": "/nam.liku taq.nij.jaː.tin dʒa.diː.da.tan/",
+          "meaning": "Nous possédons des technologies nouvelles (Taqniyyāt est à l'accusatif objet, prenant une kasra, son adjectif prend une fatha)"
+        },
+        {
+          "structure": "بِحُكْمِ التَّقْنِيَّاتِ",
+          "phonetic_api": "/bi.ħuk.mit taq.nij.jaː.ti/",
+          "meaning": "En vertu des technologies (Cas indirect régulier en kasra)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "الْمُهَنْدِس رَامِي (L'ingénieur Rami)",
+      "text": "مَرْحَبًا أُسْتَاذَة نَادِيَةُ. بِنَاءً عَلَى تَقْرِيرِ الْجَدْوَى، يَجِبُ أَنْ نَبْدَأَ فِي رَقْمَنَةِ خُطُوطِ الإِنْتَاجِ تَدْرِيجِيًّا.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MAR-HA-BAN OUS-TAA-THA NAA-DI-YA. BI-NAA-AN A-LAA TAK-RII-RIL...",
+      "translation": "Bonjour professeure Nadia. Sur la base du rapport de faisabilité, nous devons commencer à numériser les lignes de production progressivement."
+    },
+    {
+      "speaker": "الْمُدِيرَة نَادِيَة (La directrice Nadia)",
+      "text": "أَهْلًا مُهَنْدِسُ رَامِي. وَهَلِ الْبِنْيَةُ التَّحْتِيَّةُ الْحَالِيَّةُ لِلْمَصْنَعِ تَدْعَمُ دَمْجَ تَقْنِيَّاتٍ مِثْلَ الذَّكَاءُ الإِصْطِنَاعِيِّ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN MOU-HAN-DIS RAA-MII. WA HAL-IL BIN-YA-TOUT TAH-TIY-YA...",
+      "translation": "Bonjour ingénieur Rami. Et est-ce que l'infrastructure actuelle de l'usine permet d'intégrer des technologies telles que l'intelligence artificielle ?"
+    },
+    {
+      "speaker": "الْمُهَنْدِس رَامِي (L'ingénieur Rami)",
+      "text": "حَالِيًّا لَا، لَكِنَّنَا نَعْمَلُ عَلَى تَطْوِيرِ آلِيَّةِ مُعَالَجَةِ الْبَيَانَاتِ لِتَحْقِيقِ أَتْمَتَةٍ كَامِلَةٍ لِلنِّظَامِ دُونَ أَيِّ لَبْسٍ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAA-LI-YAN LAA, LA-KIN-NA-NAA NA'-MA-LOU A-LAA TAT-WII-RI AA-LIY-YA-TI...",
+      "translation": "Actuellement non, mais nous travaillons sur le développement du mécanisme de traitement des données afin d'atteindre une automatisation complète du système sans aucune ambiguïté."
+    }
+  ],
+  "cultural_notes": [
+    "L'Académie de la Langue Arabe (Majma' al-Lughah al-'Arabiyyah) : Face à l'explosion technologique mondiale, des institutions officielles au Caire, à Damas et à Rabat veillent à la création de néologismes standardisés. Elles privilégient la dérivation à partir de schèmes classiques (comme Raqmanah ou Atmatah) plutôt que l'emprunt phonétique direct, préservant ainsi l'homogénéité structurelle de la langue.",
+    "La souveraineté numérique dans le monde arabe : Le développement massif de mégaprojets technologiques (smart cities) dans la région du Golfe a propulsé l'arabe technique au rang de langue de travail incontournable pour les ingénieurs et consultants internationaux. Rédiger un cahier des charges en Fusha formel est aujourd'hui un standard d'excellence industrielle."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M3_L8_ex1",
+      "type": "multiple_choice",
+      "question": "Quel terme technique construit sur un schème quadrilatère désigne précisément l'action de 'digitaliser / numériser' un service ?",
+      "options": [
+        "تَقْنِيَّةٌ (Taqniyyatun)",
+        "رَقْمَنَةٌ (Raqmanatun)",
+        "مُعَالَجَةٌ (Mu'ālajatun)"
+      ],
+      "correct_answer": "رَقْمَنَةٌ (Raqmanatun)",
+      "explanation": "Raqmanah dérive de la racine R-Q-M (nombre/chiffre) moulée dans le schème de l'action quadrilatère Fa'lalah pour désigner le passage au numérique."
+    },
+    {
+      "exercise_id": "C1_M3_L8_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour traduire 'L'intelligence artificielle', on complète l'expression : الذَّكَاءُ [ ___ ]",
+      "correct_answer": "الإِصْطِنَاعِيُّ",
+      "hint": "C'est l'adjectif qualificatif signifiant artificiel ou manufacturé, s'accordant avec le mot masculin Adh-Dhakā'."
+    },
+    {
+      "exercise_id": "C1_M3_L8_ex3",
+      "type": "multiple_choice",
+      "question": "Quelle est la marque de cas correcte pour le terme 'تَقْنِيَّاتٍ' (Taqniyyāt) lorsqu'il est complément d'objet direct d'un verbe (Accusatif) ?",
+      "options": [
+        "Il prend un Tanween de Fatha",
+        "Il prend un Tanween de Kasra par substitution",
+        "Il reste invariable au nominatif"
+      ],
+      "correct_answer": "Il prend un Tanween de Kasra par substitution",
+      "explanation": "Le pluriel sain féminin possède la particularité grammaticale de refuser la fatha ; il exprime le cas direct (accusatif) par une kasra."
+    }
+  ]
+}

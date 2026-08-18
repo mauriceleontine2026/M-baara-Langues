@@ -1,0 +1,156 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "L'utilisation des temps complexes et des modes avancés",
+  "learning_objectives": [
+    "Maîtriser le plus-que-parfait et l'antériorité narrative en wamey",
+    "Utiliser le mode subjonctif/optatif pour exprimer la volonté oblique et le souhait complexe",
+    "Manier les suffixes de focalisation aspectuelle pour nuancer le déroulement de l'action"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Modulations tonales complexes liées aux suffixes d'antériorité. La voyelle longue centrale moyenne /əː/ (notée 'ëë') et l'affriquée alvéolaire sourde /t͡ʃ/ ('c') en contexte de sandhi vocalique.",
+    "common_pitfalls": "Au niveau avancé, veillez à ne pas omettre le morphème double '-ko-ba'. Sa prononciation rapide requiert une articulation distincte du /ɓ/ injectif pour éviter toute confusion avec le parfait simple."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "gwa-ko-ba",
+      "phonetic_api": "/ɡwakɔɓa/",
+      "phonetic_simple": "GOUA-KO-BHA",
+      "translation": "était allé / était parti (plus-que-parfait)",
+      "example_sentence": "Nyi gwa-ko-ba ra Koundara tyi o bano.",
+      "example_phonetic": "/ɲi ɡwakɔɓa ʁa kuŋdaʁa tji o bano/",
+      "example_translation": "J'étais déjà allé à Koundara quand il est arrivé."
+    },
+    {
+      "word_id": "v2",
+      "term": "waawë-ko-ba",
+      "phonetic_api": "/waːwəkɔɓa/",
+      "phonetic_simple": "WAA-WÉ-KO-BHA",
+      "translation": "avait travaillé (plus-que-parfait)",
+      "example_sentence": "ɓaba mi o waawë-ko-ba ra cax.",
+      "example_phonetic": "/ɓaba mi o waːwə%kɔɓa ʁa t͡ʃaχ/",
+      "example_translation": "Mon père avait déjà travaillé aux champs."
+    },
+    {
+      "word_id": "v3",
+      "term": "mboonëë",
+      "phonetic_api": "/mbɔːnəː/",
+      "phonetic_simple": "MBOO-NEE",
+      "translation": "pourvu que / puisse-t-il (mode optatif)",
+      "example_sentence": "Mboonëë fbyar i boka.",
+      "example_phonetic": "/mbɔːnəː fbjaʁ i boka/",
+      "example_translation": "Pourvu que la journée soit bonne."
+    },
+    {
+      "word_id": "v4",
+      "term": "tyukwa-ko-ba",
+      "phonetic_api": "/tjukwakɔɓa/",
+      "phonetic_simple": "TYOU-KOUA-KO-BHA",
+      "translation": "s'était achevé / était déjà fini",
+      "example_sentence": "Kontra kene i tyukwa-ko-ba.",
+      "example_phonetic": "/kɔntʁa kɛnɛ i tjukwakɔɓa/",
+      "example_translation": "Cet accord s'était déjà conclu auparavant."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Nyi wetyal-ko-ba malo cene tyi gwaawë i faryal.",
+      "phonetic_api": "/ɲi wɛtjalkɔɓa malo t͡ʃɛnɛ tji ɡwaːwə i faʁjal/",
+      "phonetic_simple": "NYI OUÉ-TYAL-KO-BHA MA-LO TCHÉ-NÉ TYI GWAA-WE I FAR-YAL",
+      "translation": "J'avais déjà acheté ce riz avant que le travail ne commence.",
+      "context": "Structurer chronologiquement deux actions passées interconnectées."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Mboonëë can wun i fula mboñ ra fbyar kene.",
+      "phonetic_api": "/mbɔːnəː t͡ʃan wun i fula mbɔɲ ʁa fbjaʁ kɛnɛ/",
+      "phonetic_simple": "MBOO-NEE TCHAN WOUN I FOU-LA MBONY RA FBYAR KÉ-NÉ",
+      "translation": "Puisse ton cœur ne concevoir aucune tristesse en ce jour.",
+      "context": "Formuler une bénédiction solennelle ou un souhait avancé de haute politesse."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le plus-que-parfait : l'antériorité absolue avec '-ko-ba'",
+      "explanation": "Pour exprimer qu'une action s'est déroulée antérieurement à une autre action elle-même passée (plus-que-parfait), le wamey fusionne le suffixe de l'accompli '-ko' avec la particule de recul temporel distant '-ba'.",
+      "rules": [
+        "Radical verbal + -ko + -ba = Plus-que-parfait",
+        "Cette forme exige souvent l'usage du connecteur 'tyi' pour introduire la seconde action du récit."
+      ],
+      "examples": [
+        {
+          "structure": "o bano-ko-ba",
+          "phonetic_api": "/o banɔkɔɓa/",
+          "meaning": "il était déjà venu (auparavant)"
+        }
+      ]
+    },
+    {
+      "concept": "Le mode optatif / subjonctif d'aspiration avec 'mboonëë'",
+      "explanation": "Le wamey utilise le morphème d'attaque 'mboonëë' pour introduire des propositions au mode optatif. Contrairement à l'impératif direct, il exprime un vœu pieux, un souhait spirituel ou une injonction indirecte adoucie.",
+      "rules": [
+        "Mboonëë + Sujet + Verbe à la forme neutre."
+      ],
+      "examples": [
+        {
+          "structure": "Mboonëë o ɓanga ra boka.",
+          "phonetic_api": "/mbɔːnəː o ɓaŋɡa ʁa boka/",
+          "meaning": "Puisse-t-il résider en paix / Pourvu qu'il habite en sécurité."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Mady, nyi a can mi ra lëkwa. Nyi gwa-ko-ba ra saax wun mbiya gba, tyi wun a fula ɓanga ra wëñ.",
+      "phonetic_api": "/madi ɲi a t͡ʃan mi ʁa ləkwa ɲi ɡwakɔɓa ʁa saːχ wun mbija ɡba tji wun a fula ɓaŋɡa ʁa wəɲ/",
+      "phonetic_simple": "MA-DY, NYI A TCHAN MI RA LE-KOUA. NYI GOUA-KO-BHA RA SAAKH WOUN MBI-YA GBA, TYI WOUN A FOU-LA BHAN-GA RA OUENY.",
+      "translation": "Mady, mon esprit est perplexe. J'étais pourtant allé chez toi hier, mais tu n'étais point dans la cour."
+    },
+    {
+      "speaker": "Mady",
+      "text": "Ah Samba, can mi i fula mboñ ! Nyi gwa-ko-ba ra lopital ra suwé cene tyi wun a faryal tyekwa mi.",
+      "phonetic_api": "/ah samba t͡ʃan mi i fula mbɔɲ ɲi ɡwakɔɓa ʁa lɔpital ʁa suwe t͡ʃɛnɛ tji wun a faʁjal tjɛkwa mi/",
+      "phonetic_simple": "AH SAM-BA, TCHAN MI I FOU-LA MBONY ! NYI GOUA-KO-BHA RA LO-PI-TAL RA SOU-WÉ TCHÉ-NÉ TYI WOUN A FAR-YAL TYÉ-KOUA MI.",
+      "translation": "Ah Samba, je suis navré ! J'étais déjà parti à l'hôpital de la ville avant même que tu ne te mettes à ma recherche."
+    },
+    {
+      "speaker": "Samba",
+      "text": "I boka gba. Mboonëë ñon wun i tyukwa boka ra fbyar cene farye !",
+      "phonetic_api": "/i boka ɡba mbɔːnəː ɲɔn wun i tjukwa boka ʁa fbjaʁ t͡ʃɛnɛ faʁje/",
+      "phonetic_simple": "I BO-KA GBA. MBOO-NEE NYON WOUN I TYOU-KOUA BO-KA RA FBYAR TCHÉ-NÉ FAR-YÉ !",
+      "translation": "Tout s'éclaire désormais. Puisses-tu retrouver une santé totalement parfaite pour les jours à venir !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans la rhétorique wamey avancée, l'utilisation du plus-que-parfait ('-ko-ba') permet aux narrateurs de marquer la légitimité historique d'une action ou d'un droit foncier en prouvant l'antériorité d'un événement par rapport à un autre.",
+    "L'optatif introduit par 'mboonëë' est la pierre angulaire des formules de bénédictions prononcées par les anciens ('ce gba') lors des assemblées coutumières ou à l'issue de rituels de conciliation."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L1_EX1",
+      "type": "multiple_choice",
+      "question": "Quelle terminaison verbale devez-vous employer pour marquer une action antérieure au passé (plus-que-parfait) ?",
+      "options": [
+        "-ko",
+        "-ko-ba",
+        "-ra-ba"
+      ],
+      "correct_answer": "-ko-ba",
+      "explanation": "Le suffixe composé '-ko-ba' exprime le plus-que-parfait et l'antériorité narrative absolue."
+    },
+    {
+      "exercise_id": "C1_M1_L1_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] ñon wun i boka. (Pourvu que ta santé soit bonne / Puisses-tu te porter bien.)",
+      "correct_answer": "Mboonëë",
+      "hint": "Le marqueur modal obligatoire pour introduire le mode optatif du souhait."
+    }
+  ]
+}

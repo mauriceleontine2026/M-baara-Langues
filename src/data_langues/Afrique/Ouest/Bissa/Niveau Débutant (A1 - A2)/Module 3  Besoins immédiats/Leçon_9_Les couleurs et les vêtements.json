@@ -1,0 +1,200 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Identifier et nommer les trois couleurs fondamentales et leurs dérivés en bissa",
+    "Désigner les pièces de vêtements et parures courantes du quotidien",
+    "Associer un qualificatif de couleur à un vêtement dans une structure nominale correcte"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en relief la distinction phonologique entre les voyelles ouvertes /ɛ/, /ɔ/ et leurs homologues nasalisées /ɛ̃/, /ɔ̃/. Le phonème /l/ s'articule de manière claire avec la pointe de la langue sur les alvéoles supérieures. Portez une attention particulière au ton haut du radical des couleurs.",
+    "common_pitfalls": "Ne pas prononcer le 'n' final de 'gãan' (vêtement) comme un 'n' français qui fermerait la syllabe. Il s'agit d'une nasalisation pure de la voyelle précédente /ɡãː/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Gãan",
+      "phonetic_api": "/ɡãː/",
+      "phonetic_simple": "GAAN",
+      "translation": "Vêtement / habit / tissu",
+      "example_sentence": "M gãan la kẽɛga",
+      "example_phonetic": "/m̩ ɡãː la kẽːɡa/",
+      "example_translation": "Mon vêtement est rouge."
+    },
+    {
+      "word_id": "v2",
+      "term": "Kẽɛga",
+      "phonetic_api": "/kẽːɡa/",
+      "phonetic_simple": "KEEN-GA",
+      "translation": "Rouge / couleur vive",
+      "example_sentence": "Luro gãan kẽɛga",
+      "example_phonetic": "/luʁɔ ɡãː kẽːɡa/",
+      "example_translation": "Le vêtement rouge de la femme."
+    },
+    {
+      "word_id": "v3",
+      "term": "Pee",
+      "phonetic_api": "/peː/",
+      "phonetic_simple": "PEE",
+      "translation": "Blanc / clair / propre",
+      "example_sentence": "A la gãan pee",
+      "example_phonetic": "/a la ɡãː peː/",
+      "example_translation": "C'est un vêtement blanc."
+    },
+    {
+      "word_id": "v4",
+      "term": "Biri",
+      "phonetic_api": "/biʁi/",
+      "phonetic_simple": "BI-RI",
+      "translation": "Noir / sombre / obscur",
+      "example_sentence": "M kyɛ bɔ biri la ki",
+      "example_phonetic": "/m̩ cɛ bɔ biʁi la ki/",
+      "example_translation": "Le ciel est devenu noir."
+    },
+    {
+      "word_id": "v5",
+      "term": "Kyɛwɔ",
+      "phonetic_api": "/cɛwɔ/",
+      "phonetic_simple": "TYE-WO",
+      "translation": "Chapeau / bonnet / coiffe",
+      "example_sentence": "M saa kyɛwɔ la biri",
+      "example_phonetic": "/m̩ saː cɛwɔ la biʁi/",
+      "example_translation": "Le chapeau de mon père est noir."
+    },
+    {
+      "word_id": "v6",
+      "term": "Nansara gãan",
+      "phonetic_api": "/nansaʁa ɡãː/",
+      "phonetic_simple": "NAN-SA-RA GAAN",
+      "translation": "Vêtement moderne / pantalon ou chemise occidentale",
+      "example_sentence": "M sukuuka bɔ nansara gãan di la",
+      "example_phonetic": "/m̩ sukuːka bɔ nansaʁa ɡãː di la/",
+      "example_translation": "Mon élève porte un habit moderne."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "M gãan bɔ bɔ ?",
+      "phonetic_api": "/m̩ ɡãː bɔ bɔ/",
+      "phonetic_simple": "M GAAN BO BO",
+      "translation": "Comment est ton vêtement ? / De quelle couleur est ton habit ?",
+      "context": "Question usuelle pour s'informer de la couleur ou de l'état d'une parure."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "M bɔ gãan pee gõ la ki",
+      "phonetic_api": "/m̩ bɔ ɡãː peː ɡõ la ki/",
+      "phonetic_simple": "M BO GAAN PEE GON LA KI",
+      "translation": "Je veux acheter un habit blanc",
+      "context": "Formule commerciale employée chez le marchand de tissu ou le tailleur."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "A kyɛwɔ mbe la bisi",
+      "phonetic_api": "/a cɛwɔ mbe la bisi/",
+      "phonetic_simple": "A TYE-WO MBE LA BI-SI",
+      "translation": "Son chapeau est très joli",
+      "context": "Formule d'appréciation esthétique courante."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "N nam bɔ m gãan biri ki",
+      "phonetic_api": "/n̩ nam bɔ m̩ ɡãː biʁi ki/",
+      "phonetic_simple": "N NAM BO M GAAN BI-RI KI",
+      "translation": "Donne-moi mon habit noir s'il te plaît",
+      "context": "Demande directe au sein de la maisonnée."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La syntaxe de l'épithète de couleur",
+      "explanation": "En langue bissa, les qualificatifs de couleur fonctionnent comme des adjectifs postposés. Ils se placent obligatoirement après le nom du vêtement ou de l'objet qu'ils décrivent, modifiant directement le groupe nominal sans copule intermédiaire dans ce cas précis.",
+      "rules": [
+        "Structure : Nom de l'objet + Adjectif de couleur.",
+        "Le qualificatif s'accorde en fonction des règles de liage harmonique du nom racine."
+      ],
+      "examples": [
+        {
+          "structure": "Gãan (Habit) + biri (Noir) = Gãan biri",
+          "phonetic_api": "/ɡãː biʁi/",
+          "meaning": "Un habit noir / l'habit noir"
+        }
+      ]
+    },
+    {
+      "concept": "La qualification d'état avec la copule 'la'",
+      "explanation": "Lorsque la couleur est l'attribut du sujet dans une phrase déclarative (ex: Mon habit est rouge), on utilise la copule affirmative 'la' entre le groupe nominal sujet et le mot de couleur.",
+      "rules": [
+        "Structure : [Possessif + Nom] + la + Couleur.",
+        "Cette structure attribue de manière définitive la qualité colorée à l'objet."
+      ],
+      "examples": [
+        {
+          "structure": "M kyɛwɔ (Mon chapeau) + la (est) + pee (blanc) = M kyɛwɔ la pee",
+          "phonetic_api": "/m̩ cɛwɔ la peː/",
+          "meaning": "Mon chapeau est blanc."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mariam",
+      "text": "Alimata, m gãan bɔ bɔ ? A la kẽɛga bɔ ?",
+      "phonetic_api": "/alimata m̩ ɡãː bɔ bɔ a la kẽːɡa bɔ/",
+      "phonetic_simple": "A-LI-MA-TA, M GAAN BO BO ? A LA KEEN-GA BO",
+      "translation": "Alimata, comment est ton vêtement ? Est-il rouge ?"
+    },
+    {
+      "speaker": "Alimata",
+      "text": "An, m gãan la pee. M bɔ gãan biri gõ la ki hẽe.",
+      "phonetic_api": "/an m̩ ɡãː la peː m̩ bɔ ɡãː biʁi ɡõ la ki hẽː/",
+      "phonetic_simple": "AN, M GAAN LA PEE. M BO GAAN BI-RI GON LA KI HEEN",
+      "translation": "Non, mon vêtement est blanc. Je veux acheter un habit noir aujourd'hui."
+    },
+    {
+      "speaker": "Mariam",
+      "text": "M saa kyɛwɔ bɔ ɔrɔ, a la biri dɛ n dɔ.",
+      "phonetic_api": "/m̩ saː cɛwɔ bɔ ɔʁɔ a la biʁi dɛ n dɔ/",
+      "phonetic_simple": "M SAA TYE-WO BO O-RO, A LA BI-RI DEH N DO",
+      "translation": "Le chapeau de mon père est ici, il est tout à fait noir."
+    },
+    {
+      "speaker": "Alimata",
+      "text": "A mbe la bisi ! Barka boi n gyi le.",
+      "phonetic_api": "/a mbe la bisi baʁka bɔi n dʒi le/",
+      "phonetic_simple": "A MBE LA BI-SI ! BAR-KA BOI N DJYI LE",
+      "translation": "Il est très joli ! Merci beaucoup pour l'échange."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la tradition bissa du Burkina Faso, le choix des vêtements et de leurs couleurs revêt des significations sociales et rituelles profondes. Les vêtements blancs ('pee') symbolisent la pureté, la paix et sont arborés prioritairement lors des fêtes religieuses, des prières ou des mariages.",
+    "Le terme 'nansara gãan' (littéralement : le vêtement de l'homme blanc / de l'occidental) est utilisé de manière descriptive pour distinguer les coupes modernes (pantalons, chemises industrielles) des tuniques et pagnes traditionnels tissés main (le Danfani ou les étoffes locales), qui restent prédominants lors des grandes cérémonies coutumières du Boulgou."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel adjectif bissa désigne la couleur blanche ?",
+      "options": [
+        "biri",
+        "pee",
+        "kẽɛga"
+      ],
+      "correct_answer": "pee",
+      "explanation": "Le mot 'pee' correspond à la couleur blanche, symbole de clarté et de propreté."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'un habit noir', on place l'adjectif après le nom : gãan [ ___ ].",
+      "correct_answer": "biri",
+      "hint": "Le mot bissa qualifiant la couleur noire ou sombre."
+    }
+  ]
+}

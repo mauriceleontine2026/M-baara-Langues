@@ -1,0 +1,209 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer (les directions)",
+  "learning_objectives": [
+    "Demander la localisation d'un lieu important (marché, gare, maison)",
+    "Comprendre et utiliser les indicateurs de direction de base (gauche, droite, devant)",
+    "Exprimer l'éloignement ou la proximité"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne /f/ s'articule nettement avec les lèvres. La voyelle nasale terminale dans 'kin' /kĩ/ doit s'arrêter net sans former un son 'n' dur. L'expression 'bila la' demande une transition fluide entre la consonne latérale et la voyelle.",
+    "common_pitfalls": "Veillez à bien détacher le 'k' initial dans 'kɔnɔ' (dedans) pour ne pas le confondre avec 'gɔnɔ' (cou)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Sila",
+      "phonetic_api": "/si.la/",
+      "phonetic_simple": "SI-LA",
+      "translation": "Chemin / Route",
+      "example_sentence": "Sila nin bɛ taa di?",
+      "example_phonetic": "/si.la nĩ bɛ taː di/",
+      "example_translation": "Où mène ce chemin ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "Lɔgɔfɛ",
+      "phonetic_api": "/lɔ.ɡɔ.fɛ/",
+      "phonetic_simple": "LƆ-GƆ-FÈ",
+      "translation": "Marché",
+      "example_sentence": "Lɔgɔfɛ bɛ min?",
+      "example_phonetic": "/lɔ.ɡɔ.fɛ bɛ mĩ/",
+      "example_translation": "Où est le marché ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "Kinini",
+      "phonetic_api": "/ki.ni.ni/",
+      "phonetic_simple": "KI-NI-NI",
+      "translation": "Droite (côté droit / la main droite)",
+      "example_sentence": "Taa i kinini fɛ.",
+      "example_phonetic": "/taː i ki.ni.ni fɛ/",
+      "example_translation": "Va vers ta droite."
+    },
+    {
+      "word_id": "v4",
+      "term": "Numanya",
+      "phonetic_api": "/nu.mã.ja/",
+      "phonetic_simple": "NOU-MAN-YA",
+      "translation": "Gauche (côté gauche)",
+      "example_sentence": "Yɛlɛma numanya fɛ.",
+      "example_phonetic": "/jɛ.lɛ.ma nu.mã.ja fɛ/",
+      "example_translation": "Tourne à gauche."
+    },
+    {
+      "word_id": "v5",
+      "term": "Ɲɛfɛ",
+      "phonetic_api": "/ɲɛ.fɛ/",
+      "phonetic_simple": "NYÈ-FÈ",
+      "translation": "Devant / En avant",
+      "example_sentence": "Taa ɲɛfɛ dɔɔni.",
+      "example_phonetic": "/taː ɲɛ.fɛ dɔː.ni/",
+      "example_translation": "Avance un peu (va un peu devant)."
+    },
+    {
+      "word_id": "v6",
+      "term": "Kɔfɛ",
+      "phonetic_api": "/kɔ.fɛ/",
+      "phonetic_simple": "KƆ-FÈ",
+      "translation": "Derrière / En arrière",
+      "example_sentence": "A bɛ i kɔfɛ.",
+      "example_phonetic": "/a bɛ i kɔ.fɛ/",
+      "example_translation": "C'est derrière toi."
+    },
+    {
+      "word_id": "v7",
+      "term": "Jan",
+      "phonetic_api": "/d͡ʒã/",
+      "phonetic_simple": "DJAN",
+      "translation": "Loin",
+      "example_sentence": "Yen bɛ jan?",
+      "example_phonetic": "/jẽ bɛ d͡ʒã/",
+      "example_translation": "Est-ce que c'est loin ?"
+    },
+    {
+      "word_id": "v8",
+      "term": "Surun",
+      "phonetic_api": "/su.rũ/",
+      "phonetic_simple": "SOU-ROUN",
+      "translation": "Près / Proche",
+      "example_sentence": "A bɛ surun yan na.",
+      "example_phonetic": "/a bɛ su.rũ jã na/",
+      "example_translation": "C'est près d'ici."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Sila bɛ min?",
+      "phonetic_api": "/si.la bɛ mĩ/",
+      "phonetic_simple": "SI-LA BÈ MIN",
+      "translation": "Où est le chemin ?",
+      "context": "Formule générique indispensable lorsqu'on est égaré."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "N'bɛ lakarika sila fɛ.",
+      "phonetic_api": "/mbɛ la.ka.ri.ka si.la fɛ/",
+      "phonetic_simple": "N-BÈ LA-KA-RI-KA SI-LA FÈ",
+      "translation": "Je cherche le chemin de l'école.",
+      "context": "Pour préciser sa destination à un passant."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Taa ɲɛfɛ, i bɛ yɛlɛma.",
+      "phonetic_api": "/taː ɲɛ.fɛ i bɛ jɛ.lɛ.ma/",
+      "phonetic_simple": "TAA NYÈ-FÈ, I BÈ YÈ-LÈ-MA",
+      "translation": "Va devant, puis tourne.",
+      "context": "Instruction typique donnée pour guider quelqu'un."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "A bɛ jan dɔɔni.",
+      "phonetic_api": "/a bɛ d͡ʒã dɔː.ni/",
+      "phonetic_simple": "A BÈ DJAN DƆƆ-NI",
+      "translation": "C'est un peu loin.",
+      "context": "Évaluation de la distance pour aider le voyageur à s'organiser."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'interrogatif de lieu 'min'",
+      "explanation": "Pour demander où se trouve un élément, on place le nom suivi de la particule affirmative 'bɛ' (être à/se trouver), puis le mot interrogatif 'min' (où) à la fin de la proposition.",
+      "rules": [
+        "Structure : Sujet + bɛ + min ?",
+        "Pour indiquer l'origine d'où l'on vient, on utilise une structure différente avec le verbe bɔ (sortir)."
+      ],
+      "examples": [
+        {
+          "structure": "So bɛ min?",
+          "phonetic_api": "/so bɛ mĩ/",
+          "meaning": "Où est la maison ?"
+        },
+        {
+          "structure": "I fa bɛ min?",
+          "phonetic_api": "/i fa bɛ mĩ/",
+          "meaning": "Où est ton père ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine",
+      "text": "N'ba, lɔgɔfɛ sila bɛ min?",
+      "phonetic_api": "/mba lɔ.ɡɔ.fɛ si.la bɛ mĩ/",
+      "phonetic_simple": "M-BA, LƆ-GƆ-FÈ SI-LA BÈ MIN",
+      "translation": "Maman, où est le chemin du marché ?"
+    },
+    {
+      "speaker": "Mariama",
+      "text": "Taa ɲɛfɛ direct, i bɛ yɛlɛma i kinini fɛ.",
+      "phonetic_api": "/taː ɲɛ.fɛ di.rɛkt i bɛ jɛ.lɛ.ma i ki.ni.ni fɛ/",
+      "phonetic_simple": "TAA NYÈ-FÈ DI-REKT, I BÈ YÈ-LÈ-MA I KI-NI-NI FÈ",
+      "translation": "Va tout droit devant, puis tourne sur ta droite."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "A bɛ jan yan na?",
+      "phonetic_api": "/a bɛ d͡ʒã jã na/",
+      "phonetic_simple": "A BÈ DJAN YAN NA",
+      "translation": "Est-ce que c'est loin d'ici ?"
+    },
+    {
+      "speaker": "Mariama",
+      "text": "Aani, a bɛ surun, a bɛ so kɔfɛ.",
+      "phonetic_api": "/aː.ni a bɛ su.rũ a bɛ so kɔ.fɛ/",
+      "phonetic_simple": "AA-NI, A BÈ SOU-ROUN, A BÈ SO KƆ-FÈ",
+      "translation": "Non, c'est proche, c'est juste derrière la maison."
+    }
+  ],
+  "cultural_notes": [
+    "En Guinée, demander son chemin donne souvent lieu à des échanges très chaleureux. Il est d'usage de saluer longuement la personne avant de lui poser la question, et d'appeler respectueusement un inconnu 'N'fa' (mon père) ou 'N'ba' (ma mère) pour témoigner sa considération."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'indicateur de direction 'Kinini' ?",
+      "options": [
+        "La gauche",
+        "La droite",
+        "Le milieu"
+      ],
+      "correct_answer": "La droite",
+      "explanation": "'Kinini' désigne historiquement le côté de la main droite (utilisée pour manger)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Lɔgɔfɛ bɛ [ ___ ] ? (Où est le marché ?)",
+      "correct_answer": "min",
+      "hint": "Le mot interrogatif pour 'où'."
+    }
+  ]
+}

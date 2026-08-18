@@ -1,0 +1,174 @@
+{
+  "lesson_id": "B1_M3_L9",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 9,
+  "title": "Demander et donner des conseils ou des instructions",
+  "learning_objectives": [
+    "Demander une orientation ou un conseil de vie à un ancien en Mani",
+    "Transmettre des instructions claires pour l'exécution d'une tâche",
+    "Utiliser les structures impératives et les formules de sagesse courantes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'articulation du mot 'fɔkɔ' exige une alternance nette entre la fricative labiodentale sourde /f/ et l'occlusive vélaire sourde /k/. La voyelle ouverte /ɔ/ présente dans 'tɔgɔ' doit résonner sans nasalisation.",
+    "common_pitfalls": "Veillez à ne pas affaiblir la consonne occlusive co-articulée /gb/ dans 'gbana'. Prononcez-la d'un seul élan musculaire."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v18_1",
+      "term": "tɔgɔ",
+      "phonetic_api": "/tɔ.ɡɔ/",
+      "phonetic_simple": "TO-GO",
+      "translation": "conseil / parole de sagesse / loi / enseignement",
+      "example_sentence": "Tuli n tɔgɔ kɔŋ.",
+      "example_phonetic": "/tu.li n̩ tɔ.ɡɔ kɔŋ/",
+      "example_translation": "Écoute mon conseil s'il te plaît."
+    },
+    {
+      "word_id": "v18_2",
+      "term": "fɔkɔ-lan",
+      "phonetic_api": "/fɔ.kɔ lan/",
+      "phonetic_simple": "FƆ-KƆ-LAN",
+      "translation": "guider / montrer le chemin / orienter",
+      "example_sentence": "Kɔŋ, fɔkɔ-lan mi sègé.",
+      "example_phonetic": "/kɔŋ fɔ.kɔ lan mi se.ɡe/",
+      "example_translation": "S'il te plaît, guide-moi vers le marché."
+    },
+    {
+      "word_id": "v18_3",
+      "term": "wɔli-la",
+      "phonetic_api": "/wɔ.li la/",
+      "phonetic_simple": "WƆ-LI-LA",
+      "translation": "faire ainsi / exécuter une instruction / agir",
+      "example_sentence": "Wun haani wɔli-la lɔ.",
+      "example_phonetic": "/wun haː.ni wɔ.li la lɔ/",
+      "example_translation": "Tu dois agir ainsi ici."
+    },
+    {
+      "word_id": "v18_4",
+      "term": "mora-gbun",
+      "phonetic_api": "/mo.ra ɡbun/",
+      "phonetic_simple": "MO-RA-GBOUN",
+      "translation": "un aîné / une personne sage / un ancien",
+      "example_sentence": "Mora-gbun bɛ ni tɔgɔ yoma.",
+      "example_phonetic": "/mo.ra ɡbun bɛ ni tɔ.ɡɔ jo.ma/",
+      "example_translation": "L'ancien a de bons conseils."
+    },
+    {
+      "word_id": "v18_5",
+      "term": "kperɛ-woŋ",
+      "phonetic_api": "/kpe.rɛ woŋ/",
+      "phonetic_simple": "KPE-RÈ-WONG",
+      "translation": "transmettre / donner une direction / instruire",
+      "example_sentence": "A bɛ kperɛ-woŋ tɔgɔ.",
+      "example_phonetic": "/a bɛ kpe.rɛ woŋ tɔ.ɡɔ/",
+      "example_translation": "Il transmet un enseignement de sagesse."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p18_1",
+      "original": "Kperɛ mi tɔgɔ, n fara kɔŋ !",
+      "phonetic_api": "/kpe.rɛ mi tɔ.ɡɔ n̩ fa.ra kɔŋ/",
+      "phonetic_simple": "KPE-RÈ MI TO-GO, N FA-RA KONG !",
+      "translation": "Donne-moi un conseil, mon père s'il te plaît !",
+      "context": "Solliciter humblement les directives ou l'avis d'un aîné."
+    },
+    {
+      "phrase_id": "p18_2",
+      "original": "Wun haani wɔli-la kira cɛm.",
+      "phonetic_api": "/wun haː.ni wɔ.li la ki.ra tʃɛm/",
+      "phonetic_simple": "WOUN HAA-NI WƆ-LI-LA KI-RA TCHÈM",
+      "translation": "Tu dois agir de cette façon au milieu du chemin.",
+      "context": "Donner une instruction de comportement ou de sécurité à un enfant."
+    },
+    {
+      "phrase_id": "p18_3",
+      "original": "Mora-gbun ce fɔkɔ-lan wun.",
+      "phonetic_api": "/mo.ra ɡbun tʃe fɔ.kɔ lan wun/",
+      "phonetic_simple": "MO-RA-GBOUN TCHÉ FƆ-KƆ-LAN WOUN",
+      "translation": "L'ancien va te guider (te montrer le chemin).",
+      "context": "Rassurer quelqu'un en l'orientant vers une personne ressource légitime."
+    },
+    {
+      "phrase_id": "p18_4",
+      "original": "Tuli tɔgɔ yoma, béré inde !",
+      "phonetic_api": "/tu.li tɔ.ɡɔ jo.ma be.re in.de/",
+      "phonetic_simple": "TOU-LI TO-GO YO-MA, BÉ-RÉ IN-DE !",
+      "translation": "Écoute les bons conseils, ne t'amuse pas !",
+      "context": "Formuler une injonction sérieuse mêlant conseil et interdiction."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'impératif de direction et la suffixation directive '-lan'",
+      "explanation": "En langue Mani, donner une instruction utilise souvent la base verbale nue placée en tête de phrase pour l'impératif direct. Pour exprimer le guidage vers un but précis, le suffixe à valeur causative ou directive '-lan' s'ajoute au verbe de mouvement original ('fɔkɔ').",
+      "rules": [
+        "Impératif direct = Radical verbal + Compléments (ex: tuli + tɔgɔ).",
+        "Le suffixe '-lan' transforme le verbe de mouvement en verbe d'action transitive d'accompagnement."
+      ],
+      "examples": [
+        {
+          "structure": "Fɔkɔ-lan mi",
+          "phonetic_api": "/fɔ.kɔ lan mi/",
+          "meaning": "Guide-moi (Fais-moi venir avec toi)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ousmane",
+      "text": "Mboi n fara ! Kɔŋ, kperɛ mi tɔgɔ hɔnkɔ lɔ.",
+      "phonetic_api": "/mboi n̩ fa.ra kɔŋ kpe.rɛ mi tɔ.ɡɔ hɔn.kɔ lɔ/",
+      "phonetic_simple": "MBOÏ N FA-RA ! KONG, KPE-RÈ MI TO-GO HON-KƆ LƆ.",
+      "translation": "Bonjour mon père ! S'il te plaît, donne-moi un conseil aujourd'hui."
+    },
+    {
+      "speaker": "L'Ancien",
+      "text": "Mboi bɔŋ. Tuli n tɔgɔ. Wun ce tira woni woŋ gbun lɔ ?",
+      "phonetic_api": "/mboi bɔŋ tu.li n̩ tɔ.ɡɔ wun tʃe ti.ra wo.ni woŋ ɡbun lɔ/",
+      "phonetic_simple": "MBOÏ BONG. TOU-LI N TO-GO. WOUN TCHÉ TI-RA WO-NI WONG GBOUN LƆ ?",
+      "translation": "Bonjour mon enfant. Écoute mon conseil. Tu vas voyager demain vers la grande ville ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Oon n fara. N haani wɔli mɛnni cɛm. Fɔkɔ-lan mi kɔŋ.",
+      "phonetic_api": "/oːn n̩ fa.ra n̩ haː.ni wɔ.li mɛn.ni tʃɛm fɔ.kɔ lan mi kɔŋ/",
+      "phonetic_simple": "OON N FA-RA. N HAA-NI WƆ-LI MÈN-NI TCHÈM. FƆ-KƆ-LAN MI KONG.",
+      "translation": "Oui mon père. Je dois travailler à l'intérieur là-bas. Guide-moi s'il te plaît."
+    },
+    {
+      "speaker": "L'Ancien",
+      "text": "Wɔli-la yoma, tuli mora-gbun tɔgɔ, gbana ni yoma !",
+      "phonetic_api": "/wɔ.li la jo.ma tu.li mo.ra ɡbun tɔ.ɡɔ ɡba.na ni jo.ma/",
+      "phonetic_simple": "WƆ-LI-LA YO-MA, TOU-LI MO-RA-GBOUN TO-GO, GBA-NA NI YO-MA !",
+      "translation": "Agis bien, écoute les conseils des anciens, pars en paix !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'organisation politique et sociale des Mani de Basse-Guinée, la parole d'un 'mora-gbun' (un ancien ou grand homme) est sacrée. On ne commence aucun grand projet, mariage ou grand voyage ('tira') sans s'asseoir préalablement pour solliciter un 'tɔgɔ'. Recevoir ces mots est perçu comme un bouclier spirituel garantissant la réussite de l'action."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex18_1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'expression nominale 'mora-gbun' en langue Mani ?",
+      "options": [
+        "Un petit enfant",
+        "Un ancien / une personne sage",
+        "Un vendeur de poisson"
+      ],
+      "correct_answer": "Un ancien / une personne sage",
+      "explanation": "'Mora-gbun' associe le mot humain ('mora') et l'adjectif grand ('gbun') pour désigner un aîné ou un sage."
+    },
+    {
+      "exercise_id": "ex18_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Kɔŋ, [ ___ ] mi sègé. (S'il te plaît, guide-moi vers le marché).",
+      "correct_answer": "fɔkɔ-lan",
+      "hint": "Le verbe de direction qui dérive de fɔkɔ (venir) complété par le suffixe -lan."
+    }
+  ]
+}

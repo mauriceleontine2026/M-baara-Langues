@@ -1,0 +1,280 @@
+{
+  "lesson_id": "B1_M3_L8",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 8,
+  "title": "Parler de son travail, de ses études et de sa routine",
+  "learning_objectives": [
+    "Décrire une routine quotidienne professionnelle et académique en swahili",
+    "Exprimer la fréquence et la régularité d'une action à l'aide d'adverbes temporels",
+    "Maîtriser l'usage de l'habituel avec le préfixe 'Hu-'",
+    "Utiliser le vocabulaire spécialisé lié aux métiers, à la gestion du temps et aux tâches d'équipe"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La description de la routine impose un rythme régulier. Le préfixe habituel 'Hu-' [hu] s'attache directement au radical verbal sans pronom sujet et demande une expiration nette. Le mot 'Majukumu' (responsabilités) comporte un 'J' palatal doux [ma.dʒuˈku.mu]. Dans 'Kazi' (travail), le 'Z' doit être purement sonore [ˈka.zi].",
+    "common_pitfalls": "Attention à ne pas confondre le préfixe habituel 'Hu-' (ex: 'Yeye husoma' - Il étudie habituellement) avec le préfixe sujet négatif de la deuxième personne du singulier 'Hu-' (ex: 'Hujambo' ou 'Hukusoma'). L'absence d'infixe temporel après le 'Hu-' habituel permet de faire la différence."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Majukumu",
+      "phonetic_api": "/ma.dʒuˈku.mu/",
+      "phonetic_simple": "MAH-DJOO-KOO-MOO",
+      "translation": "Responsabilités / Tâches / Devoirs",
+      "example_sentence": "Majukumu yangu ya kila siku ni mengi.",
+      "example_phonetic": "/ma.dʒuˈku.mu ˈja.ŋgu ja ˈki.la ˈsi.ku ni ˈɲi.ŋgi/",
+      "example_translation": "Mes responsabilités quotidiennes sont nombreuses."
+    },
+    {
+      "word_id": "v2",
+      "term": "Kawaida",
+      "phonetic_api": "/kaˈwa.i.da/",
+      "phonetic_simple": "KAH-WAH-EE-DAH",
+      "translation": "Habitude / D'ordinaire / Normalement",
+      "example_sentence": "Kwa kawaida, mimi huamka asubuhi na mapema.",
+      "example_phonetic": "/kwa kaˈwa.i.da ˈmi.mi huˈa.mka a.suˈbu.hi na maˈpɛ.ma/",
+      "example_translation": "D'ordinaire, je me réveille tôt le matin."
+    },
+    {
+      "word_id": "v3",
+      "term": "Mshahara",
+      "phonetic_api": "/m.ʃaˈha.ra/",
+      "phonetic_simple": "M-SHAH-HAH-RAH",
+      "translation": "Salaire / Rémunération",
+      "example_sentence": "Wafanyakazi wanapokea mshahara mwisho wa mwezi.",
+      "example_phonetic": "/wa.fa.ɲaˈka.zi wa.na.pɔˈkɛ.a m.ʃaˈha.ra ˈmwi.ʃɔ wa ˈmwɛ.zi/",
+      "example_translation": "Les employés reçoivent leur salaire à la fin du mois."
+    },
+    {
+      "word_id": "v4",
+      "term": "Masomo",
+      "phonetic_api": "/maˈsɔ.mɔ/",
+      "phonetic_simple": "MAH-SOH-MOH",
+      "translation": "Études / Cours / Leçons",
+      "example_sentence": "Masomo ya chuo kikuu yanahitaji bidii.",
+      "example_phonetic": "/maˈsɔ.mɔ ja ˈtʃu.ɔ kiˈkuː ja.na.hiˈta.dʒi biˈdiː/",
+      "example_translation": "Les études universitaires demandent des efforts."
+    },
+    {
+      "word_id": "v5",
+      "term": "Uzoefu",
+      "phonetic_api": "/u.zɔˈɛ.fu/",
+      "phonetic_simple": "OO-ZOH-EH-FOO",
+      "translation": "Expérience professionnelle / Pratique",
+      "example_sentence": "Anatafuta kazi yenye uzoefu wa miaka miwili.",
+      "example_phonetic": "/a.na.taˈfu.ta ˈka.zi ˈjɛ.ɲɛ u.zɔˈɛ.fu wa miˈa.ka miˈwi.li/",
+      "example_translation": "Il cherche un travail exigeant deux ans d'expérience."
+    },
+    {
+      "word_id": "v6",
+      "term": "Kila wiki",
+      "phonetic_api": "/ˈki.la ˈwi.ki/",
+      "phonetic_simple": "KEE-LAH WEE-KEE",
+      "translation": "Chaque semaine / Hebdomadairement",
+      "example_sentence": "Tuna mkutano wa timu kila wiki.",
+      "example_phonetic": "/ˈtu.na m.kuˈta.nɔ wa ˈti.mu ˈki.la ˈwi.ki/",
+      "example_translation": "Nous avons une réunion d'équipe chaque semaine."
+    },
+    {
+      "word_id": "v7",
+      "term": "Ofisi",
+      "phonetic_api": "/ɔˈfi.si/",
+      "phonetic_simple": "OH-FEE-SEE",
+      "translation": "Bureau / Lieu de travail",
+      "example_sentence": "Ofisi yetu iko katikati ya mji.",
+      "example_phonetic": "/ɔˈfi.si ˈjɛ.tu ˈi.kɔ ka.ti.kaˈti ja mˈdʒi/",
+      "example_translation": "Notre bureau est situé au centre-ville."
+    },
+    {
+      "word_id": "v8",
+      "term": "Kazi ya ziada",
+      "phonetic_api": "/ˈka.zi ja ziˈa.da/",
+      "phonetic_simple": "KAH-ZEE YAH ZEE-AH-DAH",
+      "translation": "Heures supplémentaires / Travail additionnel",
+      "example_sentence": "Alifanya kazi ya ziada ili amalize mradi.",
+      "example_phonetic": "/a.liˈfa.ɲa ˈka.zi ja ziˈa.da ˈi.li a.maˈli.zɛ mˈra.di/",
+      "example_translation": "Il a fait des heures supplémentaires pour terminer le projet."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Je, unajishughulisha na kazi gani kwa sasa?",
+      "phonetic_api": "/dʒɛ u.na.dʒi.ʃu.ɣuˈli.ʃa na ˈka.zi ˈga.ni kwa ˈsa.sa/",
+      "phonetic_simple": "JEH OO-NAH-DJEE-SHOO-GHOO-LEE-SHAH NAH KAH-ZEE GAH-NEE KWAH SAH-SAH",
+      "translation": "Dans quel domaine travailles-tu actuellement ?",
+      "context": "Question polie de niveau intermédiaire pour s'enquérir du métier de quelqu'un."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Mimi huingia ofisini saa mbili kamili asubuhi.",
+      "phonetic_api": "/ˈmi.mi huˈi.ŋgi.a ɔ.fi.siˈni saː mˈbi.li kaˈmi.li a.suˈbu.hi/",
+      "phonetic_simple": "MEE-MEE HOO-EEN-GEE-AH OH-FEE-SEE-NEE SAA MBEE-LEE KAH-MEE-LEE AH-SOO-BOO-HEE",
+      "translation": "J'entre habituellement au bureau à huit heures pile du matin.",
+      "context": "Préciser ses horaires de travail réguliers."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Ratiba yangu ya masomo imebadilika wiki hii.",
+      "phonetic_api": "/raˈti.ba ˈja.ŋgu ja maˈsɔ.mɔ i.mɛ.ba.diˈli.ka ˈwi.ki ˈhi.i/",
+      "phonetic_simple": "RAH-TEE-BAH YAHN-GOO YAH MAH-SOH-MOH EE-MEH-BAH-DEE-LEE-KAH WEE-KEE HEE-YEE",
+      "translation": "Mon emploi du temps d'études a changé cette semaine.",
+      "context": "Informer des modifications de son planning de cours."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Yeye hufanya kazi kwa bidii ili apate kukuza ujuzi wake.",
+      "phonetic_api": "/ˈjɛ.jɛ huˈfa.ɲa ˈka.zi kwa biˈdiː ˈi.li aˈpa.tɛ kuˈku.za uˈdʒu.zi ˈwa.kɛ/",
+      "phonetic_simple": "YEH-YEH HOO-FAH-NYAH KAH-ZEE KWAH BEE-DEEH EE-LEE AH-PAH-TEH KOO-KOO-ZAH OO-DJOO-ZEE WAH-KEH",
+      "translation": "Il travaille généralement dur pour pouvoir développer ses compétences.",
+      "context": "Expliquer la motivation professionnelle habituelle de quelqu'un."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Mimi ni mwanafunzi na ninasomea udaktari.",
+      "phonetic_api": "/ˈmi.mi ni mwa.naˈfu.nzi na ni.na.sɔˈmɛ.a u.daˈkta.ri/",
+      "phonetic_simple": "MEE-MEE NEE MWAH-NAH-FOON-ZEE NAH NEE-NAH-SOH-MEH-AH OO-DAHK-TAH-REE",
+      "translation": "Je suis étudiant et je fais des études de médecine.",
+      "context": "Se présenter brièvement dans un contexte académique."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Kila mwisho wa mwezi tunakagua maendeleo ya mradi.",
+      "phonetic_api": "/ˈki.la ˈmwi.ʃɔ wa ˈmwa.zi tu.na.kaˈgu.a ma.ɛndɛˈlɛ.ɔ ja mˈra.di/",
+      "phonetic_simple": "KEE-LAH MWEE-SHOH WAH MWEH-ZEE TOO-NAH-KAH-GOO-AH MAH-EHN-DEH-LEH-OH YAH MRAH-DEE",
+      "translation": "Chaque fin de mois, nous évaluons l'avancement du projet.",
+      "context": "Décrire une tâche managériale ou de suivi récurrente."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Sipendi kufanya kazi chini ya msongo wa mawazo.",
+      "phonetic_api": "/siˈpɛ.ndi kuˈfa.ɲa ˈka.zi ˈtʃi.ni ja mˈsɔ.ŋgɔ wa maˈwa.zɔ/",
+      "phonetic_simple": "SEE-PEHN-DEE KOO-FAH-NYAH KAH-ZEE CHEE-NEE YAH MSOHN-GOH WAH MAH-WAH-ZOH",
+      "translation": "Je n'aime pas travailler sous pression (stress).",
+      "context": "Exprimer ses limites ou ses préférences dans son environnement de travail."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Baada ya kazi, mimi hurudi nyumbani kupumzika.",
+      "phonetic_api": "/baˈa.da ja ˈka.zi ˈmi.mi huˈru.di ɲuˈmba.ni ku.puˈmzi.ka/",
+      "phonetic_simple": "BAH-AH-DAH YAH KAH-ZEE MEE-MEE HOO-ROO-DEE NYOOM-BAH-NEE KOO-POOM-ZEE-KAH",
+      "translation": "Après le travail, je rentre habituellement à la maison pour me reposer.",
+      "context": "Clore la description de sa routine quotidienne."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'aspect habituel ou itératif avec le préfixe 'Hu-'",
+      "explanation": "Pour exprimer des actions régulières, des coutumes ou une routine constante sans ancrage temporel spécifique, le swahili utilise le préfixe général 'Hu-' qui remplace les pronoms sujets et les infixes de temps.",
+      "rules": [
+        "Le préfixe 'Hu-' se place directement devant le radical verbal.",
+        "Il n'est pas précédé d'un pronom personnel sujet (mimi, yeye, n.c.), le sujet étant déduit du contexte ou précisé par un nom/pronom indépendant placé avant.",
+        "La finale du verbe ne change pas. La structure s'applique à toutes les personnes (singulier et pluriel)."
+      ],
+      "examples": [
+        {
+          "structure": "(Mimi) + Hu- + amka (se réveiller) = Huamka",
+          "phonetic_api": "/huˈa.mka/",
+          "meaning": "Je me réveille / J'ai l'habitude de me réveiller"
+        },
+        {
+          "structure": "Wanafunzi + Hu- + soma (étudier) = Wanafunzi husoma",
+          "phonetic_api": "/wa.naˈfu.nzi huˈsɔ.ma/",
+          "meaning": "Les étudiants étudient habituellement"
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de la spécialisation d'activité avec la forme applicative du verbe",
+      "explanation": "Pour préciser le domaine précis de ses études ou de son travail ('étudier pour / se destiner à'), on emploie l'extension verbale applicative (-ea / -ia) devant l'objet.",
+      "rules": [
+        "Kusoma (Étudier/Lire) devient Kusomea (Étudier pour / Spécialiser ses études en).",
+        "Kufanya (Faire) devient Kufanyia (Faire pour / Travailler dans un but précis)."
+      ],
+      "examples": [
+        {
+          "structure": "Ninasomea (Je me spécialise en) + sheria (droit)",
+          "phonetic_api": "/ni.na.sɔˈmɛ.a ʃɛˈri.a/",
+          "meaning": "Je fais des études de droit"
+        },
+        {
+          "structure": "Anasomea (Il étudie pour) + udaktari (médecine)",
+          "phonetic_api": "/a.na.sɔˈmɛ.a u.daˈkta.ri/",
+          "meaning": "Il fait des études de médecine"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Zuberi",
+      "text": "Hujambo Rehema! Hatujaonana kwa muda mrefu. Je, unajishughulisha na nini siku hizi?",
+      "phonetic_api": "/huˈdʒa.mbɔ rɛˈhɛ.ma ha.tu.dʒa.ɔˈna.na kwa ˈmu.da mˈrɛ.fu dʒɛ u.na.dʒi.ʃu.ɣuˈli.ʃa na ˈni.ni ˈsi.ku ˈhi.zi/",
+      "phonetic_simple": "HOO-DJAHM-BOH REH-HEH-MAH HAH-TOO-DJAH-OH-NAH KWAH MOO-DAH MREH-FOO JEH OO-NAH-DJEE-SHOO-GHOO-LEE-SHAH NAH NEE-NEE SEE-KOO HEE-ZEE",
+      "translation": "Bonjour Rehema ! Nous ne nous sommes pas vus depuis longtemps. Qu'est-ce que tu fais de beau ces jours-ci ?"
+    },
+    {
+      "speaker": "Rehema",
+      "text": "Sijambo Zuberi! Ni kweli, nimebanwa sana. Kwa sasa mimi ni mhasibu katika benki mpya hapa mjini. Kazi ni nzuri lakini ina majukumu mengi.",
+      "phonetic_api": "/siˈdʒa.mbɔ zuˈbɛ.ri ni ˈkwɛ.li ni.mɛˈba.nwa ˈsa.na kwa ˈsa.sa ˈmi.mi ni m.haˈsi.bu kaˈti.ka ˈbɛ.ŋki ˈm-pja ˈha.pa mˈdʒi.ni ˈka.zi ni mˈzu.ri laˈki.ni ˈi.na ma.dʒuˈku.mu ˈɲi.ŋgi/",
+      "phonetic_simple": "SEE-DJAHM-BOH ZOO-BEH-REE NEE KWEH-LEE NEE-MEH-BAHN-WAH SAH-NAH KWAH SAH-SAH MEE-MEE NEE MHAH-SEE-BOO KAH-TEE-KAH BEHN-KEE M-PYAH HAH-PAH MDJEE-NEE KAH-ZEE NEE MZEE-REE LAH-KEE-NEE EE-NAH MAH-DJOO-KOO-MOO MWEEN-GEE",
+      "translation": "Je vais bien Zuberi ! C'est vrai, j'ai un emploi du temps très chargé. Actuellement, je suis comptable dans une nouvelle banque ici en ville. Le travail est bien mais il comporte de nombreuses responsabilités."
+    },
+    {
+      "speaker": "Zuberi",
+      "text": "Hongera sana! Je, ratiba yako ya kila siku iko vipi?",
+      "phonetic_api": "/hɔ.ngɛˈra ˈsa.na dʒɛ raˈti.ba ˈja.ŋgu ja ˈki.la ˈsi.ku ˈi.kɔ ˈvi.pi/",
+      "phonetic_simple": "HOHN-GEH-RAH SAH-NAH JEH RAH-TEE-BAH YAHN-GOO YAH KEE-LAH SEE-KOO EE-KOH VEE-PEE",
+      "translation": "Toutes mes félicitations ! Comment se présente ton emploi du temps quotidien ?"
+    },
+    {
+      "speaker": "Rehema",
+      "text": "Kwa kawaida, mimi huamka saa kumi na moja asubuhi. Ninasoma kidogo, kisha huenda kazini saa mbili kamili. Kila wiki tunakuwa na vikao vya kutathmini kazi.",
+      "phonetic_api": "/kwa kaˈwa.i.da ˈmi.mi huˈa.mka saː ˈku.mi na ˈm-mɔ.dʒa a.suˈbu.hi ni.naˈsɔ.ma kiˈdɔ.gɔ ˈki.ʃa huˈɛ.nda ka.ziˈni saː mˈbi.li kaˈmi.li ˈki.la ˈwi.ki tu.naˈku.wa na viˈka.ɔ vja ku.taˈθmi.ni ˈka.zi/",
+      "phonetic_simple": "KWAH KAH-WAH-EE-DAH MEE-MEE HOO-AHM-KAH SAA KOO-MEE NAH MMOH-DJAH AH-SOO-BOO-HEE NEE-NAH-SOH-MAH KEE-DOH-GOH KEE-SHAH HOO-EHN-DAH KAH-ZEE-NEE SAA MBEE-LEE KAH-MEE-LEE KEE-LAH WEE-KEE TOO-NAH-KOO-WAH NAH VEE-KAH-OH VYAH KOO-TAH-THMEE-NEE KAH-ZEE",
+      "translation": "D'ordinaire, je me réveille à cinq heures du matin. J'étudie un peu, puis je me rends au travail à huit heures pile. Chaque semaine, nous avons des réunions pour évaluer notre travail."
+    },
+    {
+      "speaker": "Zuberi",
+      "text": "Hiyo ni ratiba nzito. Je, unapata muda wa kupumzika au kufanya kazi ya ziada?",
+      "phonetic_api": "/ˈhi.jɔ ni raˈti.ba ˈnzi.tɔ dʒɛ u.naˈpa.ta ˈmu.da wa ku.puˈmzi.ka a.u kuˈfa.ɲa ˈka.zi ja ziˈa.da/",
+      "phonetic_simple": "HEE-YOH NEE RAH-TEE-BAH NZEE-TOH JEH OO-NAH-PAHT-AH MOO-DAH WAH KOO-POOM-ZEE-KAH AH-OO KOO-FAH-NYAH KAH-ZEE YAH ZEE-AH-DAH",
+      "translation": "C'est un planning chargé. Trouves-tu le temps de te reposer ou fais-tu des heures supplémentaires ?"
+    },
+    {
+      "speaker": "Rehema",
+      "text": "Mimi hujaribu kutofanya kazi ya ziada mwisho wa wiki. Mshahara ni mzuri na unanisaidia kuweka akiba, kwa hiyo jioni mimi hurudi nyumbani na kupumzika kabisa.",
+      "phonetic_api": "/ˈmi.mi hu.dʒaˈri.bu ku.tɔˈfa.ɲa ˈka.zi ja ziˈa.da ˈmwi.ʃɔ wa ˈwi.ki m.ʃaˈha.ra ni mˈzu.ri na u.na.ni.sa.iˈdi.a kuˈwɛ.ka aˈki.ba kwa ˈhi.jɔ dʒiˈɔ.ni ˈmi.mi huˈru.di ɲuˈmba.ni na ku.puˈmzi.ka kaˈbi.sa/",
+      "phonetic_simple": "MEE-MEE HOO-DJAH-REE-BOO KOO-TOH-FAH-NYAH KAH-ZEE YAH ZEE-AH-DAH MWEE-SHOH WAH WEE-KEE MSHAH-HAH-RAH NEE MZEE-REE NAH OO-NAH-SAH-EE-DEE-AH KOO-WEH-KAH AH-KEE-BAH KWAH HEE-YOH DJEE-OH-NEE MEE-MEE HOO-ROO-DEE NYOOM-BAH-NEE NAH KOO-POOM-ZEE-KAH KAH-BEE-SAH",
+      "translation": "J'essaye de ne pas faire d'heures supplémentaires le week-end. Le salaire est bon et me permet de mettre de l'argent de côté, c'est pourquoi le soir je rentre à la maison et me repose complètement."
+    }
+  ],
+  "cultural_notes": [
+    "Dans le monde du travail en Afrique de l'Est, la salutation 'Kazi njema' (bon travail) est omniprésente pour encourager quiconque est en train d'accomplir une tâche. Répondre 'Asante' (merci) montre que l'on apprécie ce soutien communautaire.",
+    "Le concept de 'Bidii' (ardeur au travail / effort continu) est une vertu hautement valorisée. Elle est considérée comme le principal pilier de l'ascension sociale et de la réussite économique, particulièrement au sein des grandes villes.",
+    "L'usage du temps habituel avec 'Hu-' est très fréquent dans les proverbes ou pour décrire les cycles agricoles et les routines communautaires traditionnelles, reflétant une perception du temps axée sur la régularité et la répétition des cycles de vie."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment exprime-t-on correctement une habitude quotidienne telle que : 'D'ordinaire, il lit des livres' ?",
+      "options": [
+        "Yeye alisoma vitabu.",
+        "Yeye husoma vitabu.",
+        "Yeye anasoma vitabu.",
+        "Yeye atasoma vitabu."
+      ],
+      "correct_answer": "Yeye husoma vitabu.",
+      "explanation": "Le préfixe 'Hu-' attaché directement au radical traduit l'aspect habituel et récurrent d'une action, indépendamment de tout marqueur temporel."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mimi nina[ ___ ]ea sheria katika chuo kikuu cha Dar es Salaam. (Remplissez avec l'extension de spécialisation pour dire 'Je fais des études de...').",
+      "correct_answer": "som",
+      "hint": "Il s'agit du radical du verbe lire/étudier amputé de sa voyelle finale pour accueillir le suffixe applicatif."
+    }
+  ]
+}

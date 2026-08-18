@@ -1,0 +1,150 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Savoir saluer selon le moment de la journée en Baga",
+    "Exprimer la gratitude et la politesse élémentaire",
+    "Prendre congé d'un interlocuteur de manière formelle et informelle"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La langue Baga possède des consonnes co-articulées /gb/ et /kp/. Le son /ɛ/ est très ouvert, similaire au français 'mer'. Les tons, bien que moins marqués que dans les langues purement mandés, influencent la clarté de l'articulation finale.",
+    "common_pitfalls": "Évitez de prononcer le 'g' et le 'b' séparément dans 'gbɔk'. C'est une seule émission de voix occlusive labio-vélaire."
+  },
+  "vocabulary": [
+    {
+      "word_id": "b001",
+      "term": "Ió",
+      "phonetic_api": "/ió/",
+      "phonetic_simple": "IÓ",
+      "translation": "Bonjour / Salut (général)",
+      "example_sentence": "Ió, dɛ́ɛ̀ nu ?",
+      "example_phonetic": "/ió dɛ́ː nu/",
+      "example_translation": "Salut, comment ça va ?"
+    },
+    {
+      "word_id": "b002",
+      "term": "mí mɔ̀n",
+      "phonetic_api": "/mí mɔ̀n/",
+      "phonetic_simple": "MII MON",
+      "translation": "merci",
+      "example_sentence": "Mí mɔ̀n dɛ́ɛ̀ kə̀ kán",
+      "example_phonetic": "/mí mɔ̀n dɛ́ː kə kán/",
+      "example_translation": "Merci pour tout"
+    },
+    {
+      "word_id": "b003",
+      "term": "gbɔk",
+      "phonetic_api": "/gɓɔk/",
+      "phonetic_simple": "GBOK",
+      "translation": "bien / paix / santé",
+      "example_sentence": "Gbɔk bɛ́ɛ̀ mu",
+      "example_phonetic": "/gɓɔk ɓɛ́ː mu/",
+      "example_translation": "La paix soit avec toi"
+    },
+    {
+      "word_id": "b004",
+      "term": "kə̀ sɔ̀nɔ̀",
+      "phonetic_api": "/kə sɔ̀nɔ̀/",
+      "phonetic_simple": "KE SO-NO",
+      "translation": "au revoir / à plus tard",
+      "example_sentence": "Kə̀ sɔ̀nɔ̀, n dɛ̀n",
+      "example_phonetic": "/kə sɔ̀nɔ̀ ⁿdɛ̀n/",
+      "example_translation": "Au revoir, mon ami"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "bp001",
+      "original": "Ió bər kə̀ gbɔk ?",
+      "phonetic_api": "/ió ɓər kə gɓɔk/",
+      "phonetic_simple": "IÓ BER KE GBOK ?",
+      "translation": "Bonjour, as-tu passé la nuit en paix ?",
+      "context": "Salutation matinale formelle envers un adulte"
+    },
+    {
+      "phrase_id": "bp002",
+      "original": "Awan, gbɔk bɛ́ɛ̀ ya",
+      "phonetic_api": "/awan gɓɔk ɓɛ́ː ja/",
+      "phonetic_simple": "A-WAN, GBOK BÉÉ YA",
+      "translation": "Oui, la paix est ici (réponse standard).",
+      "context": "Répondre positivement à une salutation"
+    },
+    {
+      "phrase_id": "bp003",
+      "original": "Mí mɔ̀n kə̀ dɔ́ɔ̀n",
+      "phonetic_api": "/mí mɔ̀n kə dɔ́ːn/",
+      "phonetic_simple": "MII MON KE DOON",
+      "translation": "Merci beaucoup.",
+      "context": "Exprimer une vive gratitude"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure de la salutation par l'état 'kə̀ + substantif'",
+      "explanation": "En Baga, pour s'enquérir de la santé ou de l'état de paix d'une personne, on fait précéder le substantif de bien-être par le proclitique relationnel 'kə̀'. La réponse positive utilise l'adverbe d'affirmation 'Awan' suivi de la localisation de la paix.",
+      "rules": [
+        "Formule interrogative : [Salutation] + bər + kə̀ + [État].",
+        "L'état de paix est central dans le code d'honneur Baga."
+      ],
+      "examples": [
+        {
+          "structure": "k&grave; (avec/en) + gbɔk (paix)",
+          "phonetic_api": "/kə gɓɔk/",
+          "meaning": "En paix / En bonne santé"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "Ió Temba ! Ió bər kə̀ gbɔk ?",
+      "phonetic_api": "/ió tɛmɓa ió ɓər kə gɓɔk/",
+      "phonetic_simple": "IÓ TEM-BA ! IÓ BER KE GBOK ?",
+      "translation": "Bonjour Temba ! Bonjour, as-tu passé la nuit en paix ?"
+    },
+    {
+      "speaker": "Temba",
+      "text": "Awan, Sékou. Gbɔk bɛ́ɛ̀ ya. Mí mɔ̀n. I sɔ̀nɔ̀ bər mu ?",
+      "phonetic_api": "/awan sɛku gɓɔk ɓɛ́ː ja mí mɔ̀n i sɔ̀nɔ̀ ɓər mu/",
+      "phonetic_simple": "A-WAN, SÉ-KOO. GBOK BÉÉ YA. MII MON. I SO-NO BER MOO ?",
+      "translation": "Oui, Sékou. La paix est ici. Merci. Et toi, es-tu en paix ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Awan, gbɔk kpu. Kə̀ sɔ̀nɔ̀ !",
+      "phonetic_api": "/awan gɓɔk kpu kə sɔ̀nɔ̀/",
+      "phonetic_simple": "A-WAN, GBOK KPOO. KE SO-NO !",
+      "translation": "Oui, paix totale. Au revoir !"
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Bagas de Guinée Maritime, saluer n'est jamais une simple formalité rapide. Il est d'usage de prendre le temps de s'arrêter, de s'enquérir du sommeil de l'interlocuteur et de la paix dans sa concession.",
+    "La main droite est obligatoirement utilisée pour faire un geste de salutation ou pour remercier."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L1_ex1",
+      "type": "multiple_choice",
+      "question": "Quel mot signifie 'merci' en Baga ?",
+      "options": [
+        "Ió",
+        "mí mɔ̀n",
+        "gbɔk"
+      ],
+      "correct_answer": "mí mɔ̀n",
+      "explanation": "'mí mɔ̀n' est l'expression consacrée pour remercier."
+    },
+    {
+      "exercise_id": "A1_M1_L1_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ió bər kə̀ [ ___ ] ? (Bonjour, es-tu en paix ?)",
+      "correct_answer": "gbɔk",
+      "hint": "Le mot pour paix/santé commençant par g"
+    }
+  ]
+}

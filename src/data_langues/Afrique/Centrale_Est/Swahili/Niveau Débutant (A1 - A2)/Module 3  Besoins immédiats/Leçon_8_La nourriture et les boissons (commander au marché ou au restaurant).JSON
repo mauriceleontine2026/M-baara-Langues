@@ -1,0 +1,280 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché/restaurant)",
+  "learning_objectives": [
+    "Nommer les aliments de base, les plats typiques et les boissons courantes",
+    "Formuler une commande polie dans un restaurant ou un café local",
+    "Exprimer la faim, la soif, la satisfaction ou un besoin spécifique à table",
+    "Comprendre la structure impérative pour demander un service ('Niletee', 'Nipatie')"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les termes culinaires swahilis comportent des combinaisons vocaliques et des consonnes spécifiques. Le mot 'Chakula' (nourriture) exige un 'Ch' bien articulé [tʃaˈku.la]. Le mot 'Maji' (eau) se prononce avec un 'j' sonore [ˈma.dʒi]. Dans 'Nyama' (viande), le digraphe 'ny' forme un son palatal unique [ˈɲa.ma] identique au 'gn' français dans 'gagner'.",
+    "common_pitfalls": "Attention au mot 'Wali' (riz cuit) : veillez à ne pas prononcer le 'W' comme un 'V'. Le 'W' est une semi-voyelle bilabiale pure [ˈwa.li]. Dans 'Chai' (thé), l'accent tonique frappe la première syllabe [ˈtʃa.i] et les deux voyelles doivent rester distinctes."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Chakula",
+      "phonetic_api": "/tʃaˈku.la/",
+      "phonetic_simple": "CHAH-KOO-LAH",
+      "translation": "Nourriture / Plat / Repas",
+      "example_sentence": "Chakula hiki ni kitamu sana.",
+      "example_phonetic": "/tʃaˈku.la ˈhi.i ni kiˈta.mu ˈsa.na/",
+      "example_translation": "Cette nourriture est très délicieuse."
+    },
+    {
+      "word_id": "v2",
+      "term": "Maji",
+      "phonetic_api": "/ˈma.dʒi/",
+      "phonetic_simple": "MAH-DJEE",
+      "translation": "Eau",
+      "example_sentence": "Nafurahi kunywa maji ya baridi.",
+      "example_phonetic": "/na.fuˈra.hi ˈku.ɲwa ˈma.dʒi ja baˈri.di/",
+      "example_translation": "Je suis content de boire de l'eau froide."
+    },
+    {
+      "word_id": "v3",
+      "term": "Nyama",
+      "phonetic_api": "/ˈɲa.ma/",
+      "phonetic_simple": "NYAH-MAH",
+      "translation": "Viande",
+      "example_sentence": "Ninataka kula nyama ya ng'ombe.",
+      "example_phonetic": "/ni.naˈta.ka ˈku.la ˈɲa.ma ja ˈŋɔ.mbɛ/",
+      "example_translation": "Je veux manger de la viande de bœuf."
+    },
+    {
+      "word_id": "v4",
+      "term": "Samaki",
+      "phonetic_api": "/saˈma.ki/",
+      "phonetic_simple": "SAH-MAH-KEE",
+      "translation": "Poisson",
+      "example_sentence": "Samaki wa kupiza ni mtamu.",
+      "example_phonetic": "/saˈma.ki wa kuˈpi.za ni mˈta.mu/",
+      "example_translation": "Le poisson grillé est bon."
+    },
+    {
+      "word_id": "v5",
+      "term": "Wali",
+      "phonetic_api": "/ˈwa.li/",
+      "phonetic_simple": "WAH-LEE",
+      "translation": "Riz cuit",
+      "example_sentence": "Wali na maharagwe ni chakula cha kawaida.",
+      "example_phonetic": "/ˈwa.li na ma.haˈra.gwa ni tʃaˈku.la tʃa ka.waˈi.da/",
+      "example_translation": "Le riz avec des haricots est un repas courant."
+    },
+    {
+      "word_id": "v6",
+      "term": "Ugali",
+      "phonetic_api": "/uˈga.li/",
+      "phonetic_simple": "OO-GAH-LEE",
+      "translation": "Ugali (boule de farine de maïs ou manioc, plat traditionnel)",
+      "example_sentence": "Ugali unaliwa kwa mikono.",
+      "example_phonetic": "/uˈga.li u.naˈli.wa kwa miˈkɔ.nɔ/",
+      "example_translation": "L'ugali se mange avec les mains."
+    },
+    {
+      "word_id": "v7",
+      "term": "Chai",
+      "phonetic_api": "/ˈtʃa.i/",
+      "phonetic_simple": "CHAH-EE",
+      "translation": "Thé",
+      "example_sentence": "Chai ya asubuhi ina maziwa na tangawizi.",
+      "example_phonetic": "/ˈtʃa.i ja a.suˈbu.hi ˈi.na maˈzi.wa na ta.ŋgaˈwi.zi/",
+      "example_translation": "Le thé du matin contient du lait et du gingembre."
+    },
+    {
+      "word_id": "v8",
+      "term": "Matunda",
+      "phonetic_api": "/maˈtu.nda/",
+      "phonetic_simple": "MAH-TOON-DAH",
+      "translation": "Fruits",
+      "example_sentence": "Sokoni kuna matunda mengi mabichi.",
+      "example_phonetic": "/sɔˈkɔ.ni ˈku.na maˈtu.nda ˈmɛ.ŋgi maˈbi.tʃi/",
+      "example_translation": "Au marché, il y a beaucoup de fruits frais."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Nina njaa, ninataka kula.",
+      "phonetic_api": "/ni.na ˈndʒaː ni.naˈta.ka ˈku.la/",
+      "phonetic_simple": "NEE-NAH NDJAA NEE-NAH-TAH-KAH KOO-LAH",
+      "translation": "J'ai faim, je veux manger.",
+      "context": "Exprimer un besoin physique immédiat avant d'entrer au restaurant."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Nina kiu, niletee maji tafadhali.",
+      "phonetic_api": "/ni.na ˈki.u ni.lɛˈtɛː ˈma.dʒi ta.faˈða.li/",
+      "phonetic_simple": "NEE-NAH KEE-OO NEE-LEH-TEH-EH MAH-DJEE TAH-FAH-ZAA-LEE",
+      "translation": "J'ai soif, apportez-moi de l'eau s'il vous plaît.",
+      "context": "Formuler une demande directe et polie au serveur."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Menyu iko wapi, tafadhali?",
+      "phonetic_api": "/ˈmɛ.nju ˈi.kɔ ˈwa.pi ta.faˈða.li/",
+      "phonetic_simple": "MEH-NYOO EE-KOH WAH-PEE TAH-FAH-ZAA-LEE",
+      "translation": "Où est le menu, s'il vous plaît ?",
+      "context": "Demander la carte en s'asseyant à une table."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ninataka kuagiza chakula.",
+      "phonetic_api": "/ni.naˈta.ka ku.aˈgi.za tʃaˈku.la/",
+      "phonetic_simple": "NEE-NAH-TAH-KAH KOO-AH-GEE-ZAH CHAH-KOO-LAH",
+      "translation": "Je veux passer commande.",
+      "context": "Signaler au serveur que l'on a fait son choix."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Nipatie wali na samaki wa kupiza.",
+      "phonetic_api": "/ni.paˈti.ɛ ˈwa.li na saˈma.ki wa kuˈpi.za/",
+      "phonetic_simple": "NEE-PAH-TEE-EH WAH-LEE NAH SAH-MAH-KEE WAH KOO-PEE-ZAH",
+      "translation": "Donnez-moi du riz avec du poisson grillé.",
+      "context": "Énoncer son choix de plat principal."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Chakula hiki hakina pilipili?",
+      "phonetic_api": "/tʃaˈku.la ˈhi.i haˈki.na pi.liˈpi.li/",
+      "phonetic_simple": "CHAH-KOO-LAH HEE-YEE HAH-KEE-NAH PEE-LEE-PEE-LEE",
+      "translation": "Ce plat ne contient-il pas de piment ?",
+      "context": "Vérification cruciale pour les personnes sensibles aux épices."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Lete bili, tafadhali.",
+      "phonetic_api": "/ˈlɛ.tɛ ˈbi.li ta.faˈða.li/",
+      "phonetic_simple": "LEH-TEH BEE-LEE TAH-FAH-ZAA-LEE",
+      "translation": "Apportez l'addition, s'il vous plaît.",
+      "context": "Demander à payer à la fin du repas."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Asante, chakula kilikuwa kitamu sana!",
+      "phonetic_api": "/aˈsa.ntɛ tʃaˈku.la ki.liˈku.wa kiˈta.mu ˈsa.na/",
+      "phonetic_simple": "AH-SAHN-TEH CHAH-KOO-LAH KEE-LEE-KOO-WAH KEE-TAH-MOO SAH-NAH",
+      "translation": "Merci, la nourriture était très bonne !",
+      "context": "Complimenter le personnel de cuisine avant de partir."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction de la demande avec les structures impératives 'Nipatie' et 'Niletee'",
+      "explanation": "Pour demander poliment un plat ou un objet à table, le swahili utilise des formes verbales dérivées à l'impératif intégrant le pronom objet de la première personne 'Ni-' (moi).",
+      "rules": [
+        "Le verbe 'Kupata' (obtenir) devient à la forme applicative 'Nipatie' : 'Donnez-moi' / 'Procurez-moi'.",
+        "Le verbe 'Kuleta' (apporter) devient à la forme applicative 'Niletee' : 'Apportez-moi'.",
+        "L'ajout de 'tafadhali' (s'il vous plaît) en fin de phrase adoucit l'impératif pour le rendre parfaitement poli."
+      ],
+      "examples": [
+        {
+          "structure": "Ni- (moi) + patie (donner) + chai",
+          "phonetic_api": "/ni.paˈti.ɛ ˈtʃa.i/",
+          "meaning": "Donnez-moi du thé"
+        },
+        {
+          "structure": "Ni- (moi) + letee (apporter) + bili",
+          "phonetic_api": "/ni.lɛˈtɛː ˈbi.li/",
+          "meaning": "Apportez-moi l'addition"
+        }
+      ]
+    },
+    {
+      "concept": "L'accord de l'adjectif qualificatif '-tamu' (bon/licieux)",
+      "explanation": "L'adjectif '-tamu' exprime la saveur douce ou délicieuse. Comme la plupart des adjectifs qualificatifs en swahili, il doit s'accorder avec la classe nominale du repas concerné.",
+      "rules": [
+        "Chakula (Nourriture) appartient à la classe 7 (KI). Le préfixe d'accord adjectival est 'ki-'. On obtient : 'chakula kitamu'.",
+        "Wali (Riz) appartient à la classe 11 (U). Devant une consonne, l'accord est 'm-'. On obtient : 'wali mtamu'."
+      ],
+      "examples": [
+        {
+          "structure": "Chakula (Cl. 7) + ki- (Accord) + tamu = Chakula kitamu",
+          "phonetic_api": "/tʃaˈku.la kiˈta.mu/",
+          "meaning": "Une nourriture délicieuse"
+        },
+        {
+          "structure": "Samaki (Cl. 9) + m- (Accord) + tamu = Samaki mtamu",
+          "phonetic_api": "/saˈma.ki mˈta.mu/",
+          "meaning": "Un poisson délicieux"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Chloe (Mteja)",
+      "text": "Samahani kaka, ninataka kuagiza chakula cha mchana.",
+      "phonetic_api": "/sa.maˈha.ni ˈka.ka ni.naˈta.ka ku.aˈgi.za tʃaˈku.la tʃa mˈtʃa.na/",
+      "phonetic_simple": "SAH-MAH-HAA-NEE KAH-KAH NEE-NAH-TAH-KAH KOO-AH-GEE-ZAH CHAH-KOO-LAH CHAH MCHAH-NAH",
+      "translation": "Excusez-moi mon frère, je veux commander le repas de midi."
+    },
+    {
+      "speaker": "Mhudumu (Waiter)",
+      "text": "Karibu sana sana! Leo tuna wali, ugali, samaki na nyama ya mbuzi. Unataka nini?",
+      "phonetic_api": "/kaˈri.bu ˈsa.na ˈsa.na ˈlɛ.ɔ ˈtu.na ˈwa.li uˈga.li saˈma.ki na ˈɲa.ma ja ˈmbu.zi u.naˈta.ka ˈni.ni/",
+      "phonetic_simple": "KAH-REE-BOO SAH-NAH SAH-NAH LEH-OH TOO-NAH WAH-LEE OO-GAH-LEE SAH-MAH-KEE NAH NYAH-MAH YAH MBOO-ZEE OO-NAH-TAH-KAH NEE-NEE",
+      "translation": "Soyez la bienvenue ! Aujourd'hui nous avons du riz, de l'ugali, du poisson et de la viande de chèvre. Que voulez-vous ?"
+    },
+    {
+      "speaker": "Chloe (Mteja)",
+      "text": "Nipatie wali na samaki wa kukaanga. Je, chakula kina pilipili nyingi?",
+      "phonetic_api": "/ni.paˈti.ɛ ˈwa.li na saˈma.ki wa kuˈkaː.ŋga dʒɛ tʃaˈku.la ˈki.na pi.liˈpi.li ˈɲi.ŋgi/",
+      "phonetic_simple": "NEE-PAH-TEE-EH WAH-LEE NAH SAH-MAH-KEE WAH KOO-KAAHN-GAH JEH CHAH-KOO-LAH KEE-NAH PEE-LEE-PEE-LEE NYEHN-GEE",
+      "translation": "Donnez-moi du riz avec du poisson frit. Est-ce que le plat contient beaucoup de piment ?"
+    },
+    {
+      "speaker": "Mhudumu (Waiter)",
+      "text": "Hapana, chakula hiki hakina pilipili kabisa. Na vinywaji? Kuna maji na soda.",
+      "phonetic_api": "/haˈpa.na tʃaˈku.la ˈhi.i haˈki.na pi.liˈpi.li kaˈbi.sa na viˈɲwa.dʒi ˈku.na ˈma.dʒi na ˈsɔ.da/",
+      "phonetic_simple": "HAH-PAH-NAH CHAH-KOO-LAH HEE-YEE HAH-KEE-NAH PEE-LEE-PEE-LEE KAH-BEE-SAH NAH VEEN-YWAH-DJEE KOO-NAH MAH-DJEE NAH SOH-DAH",
+      "translation": "Non, ce plat n'a absolument pas de piment. Et les boissons ? Il y a de l'eau et du soda."
+    },
+    {
+      "speaker": "Chloe (Mteja)",
+      "text": "Niletee maji ya baridi, tafadhali. Niletee na bili sasa hivi.",
+      "phonetic_api": "/ni.lɛˈtɛː ˈma.dʒi ja baˈri.di ta.faˈða.li ni.lɛˈtɛː na ˈbi.li ˈsa.sa ˈhi.vi/",
+      "phonetic_simple": "NEE-LEH-TEH-EH MAH-DJEE YAH BAH-REE-DEE TAH-FAH-ZAA-LEE NEE-LEH-TEH-EH NAH BEE-LEE SAH-SAH HEE-VEE",
+      "translation": "Apportez-moi de l'eau froide, s'il vous plaît. Apportez-moi aussi l'addition tout de suite."
+    },
+    {
+      "speaker": "Mhudumu (Waiter)",
+      "text": "Sawa mteja, subiri kidogo tu. Chakula kinakuja.",
+      "phonetic_api": "/ˈsa.wa mˈtɛ.dʒa suˈbi.ri kiˈdɔ.gɔ tu tʃaˈku.la ki.naˈku.dʒa/",
+      "phonetic_simple": "SAH-WAH MTEH-DJAH SOO-BEE-REE KEE-DOH-GOH TOO CHAH-KOO-LAH KEE-NAH-KOO-DJAH",
+      "translation": "D'accord cliente, attendez juste un instant. Le repas arrive."
+    }
+  ],
+  "cultural_notes": [
+    "L'Ugali est le cœur de la gastronomie d'Afrique de l'Est. Il se mange traditionnellement chaud, avec la main droite, en formant une petite boule que l'on creuse avec le pouce pour y ramasser la sauce, les légumes (sukuma wiki) ou la viande.",
+    "Dans les petits restaurants locaux (souvent appelés 'Hoteli' ou 'Mama Ntilie'), le piment ('Pilipili') est généralement servi à part sous forme de purée fraîche ou d'huile infusée, afin que chacun gère l'intensité de son plat.",
+    "Partager un repas est un acte social fort. Avant de commencer à manger, il est d'usage de se laver les mains à table : le serveur ou l'hôte passe avec une bassine ('Bakuli') et une carafe d'eau pour verser l'eau directement sur vos mains."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle formule devez-vous prononcer au restaurant pour dire poliment : 'Apportez-moi du riz s'il vous plaît' ?",
+      "options": [
+        "Niletee wali, tafadhali.",
+        "Nipatie ugali na nyama.",
+        "Lete bili sasa hivi.",
+        "Sina njaa mhudumu."
+      ],
+      "correct_answer": "Niletee wali, tafadhali.",
+      "explanation": "'Niletee' signifie 'apportez-moi', 'wali' désigne le riz cuit et 'tafadhali' ajoute la marque de politesse requise."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mteja: 'Nina [ ___ ], niletee maji ya baridi.' (Remplissez avec le mot exprimant la soif).",
+      "correct_answer": "kiu",
+      "hint": "Ce mot court de trois lettres commence par 'k' et signifie la sensation de soif."
+    }
+  ]
+}

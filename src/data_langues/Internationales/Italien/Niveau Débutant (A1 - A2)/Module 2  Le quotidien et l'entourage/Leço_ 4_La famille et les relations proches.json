@@ -1,0 +1,264 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les membres de sa famille proche et de son entourage",
+    "Utiliser les adjectifs possessifs au singulier pour parler de ses proches"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'italien exige une articulation nette des voyelles finales pour distinguer le genre des membres de la famille (ex: 'figlio' /i/ vs 'figlia' /a/). Le digramme 'gl' dans 'figlio' ou 'moglie' produit le son palatal mouillé /ʎ/, semblable au groupe 'll' dans le mot français 'bille'. La double consonne dans 'mamma' /ˈmamma/ ou 'fratello' /fraˈtɛllo/ demande de prolonger légèrement le son de la consonne.",
+    "common_pitfalls": "Ne pas prononcer le 'g' de manière dure dans 'figlio' (ne dites pas fig-lio). Évitez de nasaliser le 'o' ou le 'a' dans 'nonno' ou 'mamma' ; les voyelles doivent rester pures et ouvertes."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "La famiglia",
+      "phonetic_api": "/la faˈmiʎʎa/",
+      "phonetic_simple": "LA FA-MIL-LIA",
+      "translation": "La famille",
+      "example_sentence": "La mia famiglia è grande.",
+      "example_phonetic": "/la miːa faˈmiʎʎa ɛ ˈɡrande/",
+      "example_translation": "Ma famille est grande."
+    },
+    {
+      "word_id": "v2",
+      "term": "La madre",
+      "phonetic_api": "/la ˈmaːdre/",
+      "phonetic_simple": "LA MA-DRÉ",
+      "translation": "La mère (Mamma = Maman)",
+      "example_sentence": "Mia madre si chiama Elena.",
+      "example_phonetic": "/miːa ˈmaːdre si ˈkjaːmo ˈɛːlena/",
+      "example_translation": "Ma mète s'appelle Elena."
+    },
+    {
+      "word_id": "v3",
+      "term": "Il padre",
+      "phonetic_api": "/il ˈpaːdre/",
+      "phonetic_simple": "IL PA-DRÉ",
+      "translation": "Le père (Papà = Papa)",
+      "example_sentence": "Mio padre lavora a Roma.",
+      "example_phonetic": "/miːo ˈpaːdre laˈvoːra a ˈroːma/",
+      "example_translation": "Mon père travaille à Rome."
+    },
+    {
+      "word_id": "v4",
+      "term": "Il fratello",
+      "phonetic_api": "/il fraˈtɛllo/",
+      "phonetic_simple": "IL FRA-TÈL-LO",
+      "translation": "Le frère",
+      "example_sentence": "Ho un fratello minore.",
+      "example_phonetic": "/ɔ un fraˈtɛllo miˈnoːre/",
+      "example_translation": "J'ai un frère cadet."
+    },
+    {
+      "word_id": "v5",
+      "term": "La sorella",
+      "phonetic_api": "/la soˈrɛlla/",
+      "phonetic_simple": "LA SO-RÈL-LO",
+      "translation": "La sœur",
+      "example_sentence": "Sua sorella è simpatica.",
+      "example_phonetic": "/ˈsuːa soˈrɛlla ɛ simˈpaːtika/",
+      "example_translation": "Sa sœur est sympathique."
+    },
+    {
+      "word_id": "v6",
+      "term": "Il figlio",
+      "phonetic_api": "/il ˈfiʎʎo/",
+      "phonetic_simple": "IL FIL-LIO",
+      "translation": "Le fils (I figli = Les enfants)",
+      "example_sentence": "Questo è mio figlio.",
+      "example_phonetic": "/ˈkwesto ɛ mmiːo ˈfiʎʎo/",
+      "example_translation": "C'est mon fils."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Hai fratelli o sorelle?",
+      "phonetic_api": "/ai fraˈtɛlli o soˈrɛlle/",
+      "phonetic_simple": "AÏ FRA-TÈL-LI O SO-RÈL-LE",
+      "translation": "As-tu des frères ou des sœurs ?",
+      "context": "Question courante pour s'informer sur la fratrie de quelqu'un."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Sono figlio unico",
+      "phonetic_api": "/ˈsoːno ˈfiʎʎo ˈuːniko/",
+      "phonetic_simple": "SO-NO FIL-LIO OU-NI-KO",
+      "translation": "Je suis fils unique",
+      "context": "Réponse masculine (devient 'figlia unica' pour une femme)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Come si chiama tuo padre?",
+      "phonetic_api": "/ˈkoːme si ˈkjaːma ˈtuːo ˈpaːdre/",
+      "phonetic_simple": "KO-ME SI KIA-MA TOU-O PA-DRÉ",
+      "translation": "Comment s'appelle ton père ?",
+      "context": "Cadre informel pour en savoir plus sur les parents d'un ami."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Quanti figli ha Lei?",
+      "phonetic_api": "/ˈkwanti ˈfiʎʎi a llɛi/",
+      "phonetic_simple": "KOUAN-TI FIL-LI A LEÏ",
+      "translation": "Combien d'enfants avez-vous ?",
+      "context": "Question formelle de politesse (vouvoiement)."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "I miei genitori vivono a Milano",
+      "phonetic_api": "/i mjej dʒeniˈtoːri ˈviːvono a miˈlaːno/",
+      "phonetic_simple": "I MIEÏ DJE-NI-TO-RI VI-VO-NO A MI-LA-NO",
+      "translation": "Mes parents vivent à Milan",
+      "context": "Pour situer géographiquement sa famille."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Questo è mio marito",
+      "phonetic_api": "/ˈkwesto ɛ mmiːo maˈriːto/",
+      "phonetic_simple": "KOUÈS-TO È MI-O MA-RI-TO",
+      "translation": "C'est mon mari",
+      "context": "Présentation formelle ou informelle de son conjoint."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Questa è mia moglie",
+      "phonetic_api": "/ˈkwesta ɛ mmiːa ˈmɔʎʎe/",
+      "phonetic_simple": "KOUÈS-TA È MI-A MOL-LIO",
+      "translation": "C'est mon épouse / ma femme",
+      "context": "Présentation de sa conjointe."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Quanti siete in famiglia?",
+      "phonetic_api": "/ˈkwanti ˈsjeːte in faˈmiʎʎa/",
+      "phonetic_simple": "KOUAN-TI SIE-TE IN FA-MIL-LIA",
+      "translation": "Vous êtes combien dans votre famille ?",
+      "context": "Pour demander la taille du foyer."
+    },
+    {
+      "phrase_id": "p9",
+      "original": "Siamo in quattro",
+      "phonetic_api": "/ˈsjaːmo in ˈkwattro/",
+      "phonetic_simple": "SIA-MO IN KOUAT-TRO",
+      "translation": "Nous sommes quatre",
+      "context": "Réponse type pour donner le nombre de personnes dans le foyer."
+    },
+    {
+      "phrase_id": "p10",
+      "original": "I miei nonni sono anziani",
+      "phonetic_api": "/i mjej ˈnɔnni ˈsoːno anˈtsjaːni/",
+      "phonetic_simple": "I MIEÏ NON-NI SO-NO AN-TSIA-NI",
+      "translation": "Mes grands-parents sont âgés",
+      "context": "Pour parler de ses aïeux."
+    },
+    {
+      "phrase_id": "p11",
+      "original": "Ho un cane e un gatto",
+      "phonetic_api": "/ɔ un ˈkaːne e un ˈɡatto/",
+      "phonetic_simple": "O OUN KA-NE E OUN GAT-TO",
+      "translation": "J'ai un chien et un chat",
+      "context": "Pour mentionner les animaux de compagnie du foyer."
+    },
+    {
+      "phrase_id": "p12",
+      "original": "Lui è il mio fidanzato",
+      "phonetic_api": "/lui ɛ il miːo fidanˈtsaːto/",
+      "phonetic_simple": "LOUI È IL MI-O FI-DAN-TSA-TO",
+      "translation": "C'est mon fiancé / mon petit ami",
+      "context": "Pour présenter son compagnon."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les adjectifs possessifs au singulier (mio, tuo, suo)",
+      "explanation": "En italien, l'adjectif possessif s'accorde en genre et en nombre avec l'objet ou la personne possédée. Contrairement au français, il est presque toujours précédé d'un article défini (il mio, la mia).",
+      "rules": [
+        "Masculin singulier : il mio (mon), il tuo (ton), il suo (son).",
+        "Féminin singulier : la mia (ma), la tua (ta), la sua (sa)."
+      ],
+      "examples": [
+        {
+          "structure": "Il mio gatto vs La mia casa",
+          "phonetic_api": "/il miːo ˈɡatto/ /la miːa ˈkaːza/",
+          "meaning": "Mon chien vs Ma maison (L'article est obligatoire)."
+        }
+      ]
+    },
+    {
+      "concept": "La règle d'or des possessifs avec les membres de la famille",
+      "explanation": "C'est une particularité grammaticale italienne majeure : on supprime l'article défini devant l'adjectif possessif singulier lorsqu'on parle d'un membre de la famille proche au singulier.",
+      "rules": [
+        "Pas d'article si le membre de la famille est au singulier et non modifié (ex: mia madre, tuo padre, suo fratello).",
+        "L'article revient obligatoirement si le nom est au pluriel (ex: i miei fratelli), s'il est affectueux/diminutif (ex: la mia mamma), ou précédé d'un adjectif (ex: il mio caro padre)."
+      ],
+      "examples": [
+        {
+          "structure": "Mia sorella lavora, ma la mia sorellina studia.",
+          "phonetic_api": "/miːa soˈrɛlla laˈvoːra ma la miːa sorelˈliːna ˈstuːdja/",
+          "meaning": "Ma sœur travaille, mais ma petite sœur étudie (l'article réapparaît avec le diminutif)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Giulia",
+      "text": "Luca, questa è una foto della tua famiglia?",
+      "phonetic_api": "/ˈluːka ˈkwesta ɛ ˈuːna ˈfɔːto ˈdalla ˈtuːa faˈmiʎʎa/",
+      "phonetic_simple": "LOU-KA KOUÈS-TA È OU-NA FO-TO DAL-LA TOU-A FA-MIL-LIA",
+      "translation": "Luca, c'est une photo de ta famille ?"
+    },
+    {
+      "speaker": "Luca",
+      "text": "Sì, esatto! Questo è mio padre e questa è mia madre.",
+      "phonetic_api": "/si eˈzatto ˈkwesto ɛ mmiːo ˈpaːdre e ˈkwesta ɛ mmiːa ˈmaːdre/",
+      "phonetic_simple": "SI E-ZAT-TO KOUÈS-TO È MI-O PA-DRÉ E KOUÈS-TA È MI-A MA-DRÉ",
+      "translation": "Oui, exactement ! C'est mon père et c'est ma mère."
+    },
+    {
+      "speaker": "Giulia",
+      "text": "E loro due chi sono? Sono tuo fratello e tua sorella?",
+      "phonetic_api": "/e ˈloːro ˈduːe ki ˈsoːno ˈsoːno ˈtuːo fraˈtɛllo e ˈtuːa soˈrɛlla/",
+      "phonetic_simple": "E LO-RO DOU-E KI SO-NO SO-NO TOU-O FRA-TÈL-LO E TOU-A SO-RÈL-LA",
+      "translation": "Et ces deux-là, qui sont-ils ? Ce sont ton frère et ta sœur ?"
+    },
+    {
+      "speaker": "Luca",
+      "text": "Lui è mio fratello maggiore, si chiama Marco. Lei invece è mia cugina, non ho sorelle.",
+      "phonetic_api": "/lui ɛ mmiːo fraˈtɛllo madˈdʒoːre si ˈkjaːma ˈmarko lɛi inˈveːtʃe ɛ mmiːa kuˈdʒiːna non ɔ soˈrɛlle/",
+      "phonetic_simple": "LOUI È MI-O FRA-TÈL-LO MAD-JOR-É SI KIA-MA MAR-KO LEÏ IN-VE-TCHÉ È MI-A KOU-DJI-NA NON O SO-RÈL-LE",
+      "translation": "Lui, c'est mon frère aîné, il s'appelle Marco. Elle, en revanche, c'est ma cousine, je n'ai pas de sœurs."
+    }
+  ],
+  "cultural_notes": [
+    "La famille (la famiglia) reste un pilier central de la société et de la culture italienne. Il est très fréquent que plusieurs générations vivent à proximité immédiate ou se réunissent religieusement chaque dimanche pour le déjeuner (il pranzo della domenica).",
+    "Les termes affectueux sont omniprésents. On utilise presque exclusivement 'mamma' et 'papà' au quotidien à la place de 'madre' et 'padre', qui sont perçus comme très administratifs ou distants.",
+    "Le mot 'nipote' est un mot caméléon en italien : il signifie à la fois 'neveu/nièce' et 'petit-fils/petite-fille'. Seul le contexte ou l'article (il nipote / la nipote) permet de clarifier le lien."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la forme correcte : '[ ___ ] padre è molto alto.'",
+      "options": [
+        "Il mio",
+        "Mio",
+        "La mia"
+      ],
+      "correct_answer": "Mio",
+      "explanation": "Devant un membre de la famille proche au singulier ('padre'), l'article défini doit être omis. On dit donc 'Mio padre'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "I figli di mio fratello sono i miei [ ___ ].",
+      "correct_answer": "nipoti",
+      "hint": "Pluriel du mot désignant les neveux."
+    }
+  ]
+}

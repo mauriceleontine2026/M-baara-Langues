@@ -1,0 +1,263 @@
+{
+  "lesson_id": "A1_M2_L6_ENRICHED",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Le temps : Calendrier complet (7 jours, 12 mois) et lecture de l'heure",
+  "learning_objectives": [
+    "Nommer et écrire l'intégralité des 7 jours de la semaine en hindi",
+    "Maîtriser les 12 mois de l'année (versions phonétiques courantes)",
+    "Exprimer l'heure exacte ainsi que toutes les fractions temporelles (quarts, demies, moins le quart)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lecture du calendrier requiert l'articulation de la consonne rétroflexe battue 'ड़' (/ɽ/) présente dans 'घड़ी' (montre) et 'बृहस्पतिवार' (jeudi). Le son s'obtient en claquant brièvement le dessous de la langue contre le palais. Les jours se terminant par 'वार' (/ʋaːr/) demandent un 'व' doux, intermédiaire entre le 'v' français et le 'w' anglais.",
+    "common_pitfalls": "Attention à la prononciation du mot 'बुधवार' (mercredi) : le 'ध' est une dentale aspirée sonore /d̪ʱ/, ne l'omettez pas sous peine de prononcer un simple /d/. De même, veillez à bien marquer la nasalisation de la voyelle finale dans 'हैं' (/ɦɛ̃ː/) lors de la formulation de l'heure."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v_day_1",
+      "term": "सोमवार",
+      "phonetic_api": "/soːmʋaːr/",
+      "phonetic_simple": "SOM-VAAR",
+      "translation": "Lundi"
+    },
+    {
+      "word_id": "v_day_2",
+      "term": "मंगलवार",
+      "phonetic_api": "/məŋɡəlʋaːr/",
+      "phonetic_simple": "MAN-GAL-VAAR",
+      "translation": "Mardi"
+    },
+    {
+      "word_id": "v_day_3",
+      "term": "बुधवार",
+      "phonetic_api": "/bʊdʱʋaːr/",
+      "phonetic_simple": "BOUDHI-VAAR",
+      "translation": "Mercredi"
+    },
+    {
+      "word_id": "v_day_4",
+      "term": "बृहस्पतिवार / गुरुवार",
+      "phonetic_api": "/bɾɪɦəspət̪ɪʋaːr/ /ɡʊɾʊʋaːr/",
+      "phonetic_simple": "BRI-HAS-PATI-VAAR / GOU-ROU-VAAR",
+      "translation": "Jeudi"
+    },
+    {
+      "word_id": "v_day_5",
+      "term": "शुक्रवार",
+      "phonetic_api": "/ʃʊkɾəʋaːr/",
+      "phonetic_simple": "CHOUK-RA-VAAR",
+      "translation": "Vendredi"
+    },
+    {
+      "word_id": "v_day_6",
+      "term": "शनिवार",
+      "phonetic_api": "/ʃənɪʋaːr/",
+      "phonetic_simple": "CHA-NI-VAAR",
+      "translation": "Samedi"
+    },
+    {
+      "word_id": "v_day_7",
+      "term": "रविवार / इतवार",
+      "phonetic_api": "/ɾəʋɪʋaːr/ /ɪt̪ʋaːr/",
+      "phonetic_simple": "RA-VI-VAAR / IT-VAAR",
+      "translation": "Dimanche"
+    },
+    {
+      "word_id": "v_mth_1",
+      "term": "जनवरी",
+      "phonetic_api": "/dʒənʋəriː/",
+      "phonetic_simple": "DJAN-VA-RII",
+      "translation": "Janvier"
+    },
+    {
+      "word_id": "v_mth_2",
+      "term": "फ़रवरी",
+      "phonetic_api": "/fəɾʋəriː/",
+      "phonetic_simple": "FAR-VA-RII",
+      "translation": "Février"
+    },
+    {
+      "word_id": "v_mth_3",
+      "term": "मार्च",
+      "phonetic_api": "/maːrtʃ/",
+      "phonetic_simple": "MAARTCH",
+      "translation": "Mars"
+    },
+    {
+      "word_id": "v_mth_4",
+      "term": "अप्रैल",
+      "phonetic_api": "/əpɾɛːl/",
+      "phonetic_simple": "AP-REIL",
+      "translation": "Avril"
+    },
+    {
+      "word_id": "v_mth_5",
+      "term": "मई",
+      "phonetic_api": "/məiː/",
+      "phonetic_simple": "MA-II",
+      "translation": "Mai"
+    },
+    {
+      "word_id": "v_mth_6",
+      "term": "जून",
+      "phonetic_api": "/dʒuːn/",
+      "phonetic_simple": "DJOUN",
+      "translation": "Juin"
+    },
+    {
+      "word_id": "v_mth_7",
+      "term": "जुलाई",
+      "phonetic_api": "/dʒʊlaːiː/",
+      "phonetic_simple": "DJOU-LAA-II",
+      "translation": "Juillet"
+    },
+    {
+      "word_id": "v_mth_8",
+      "term": "अगस्त",
+      "phonetic_api": "/əɡəst̪/",
+      "phonetic_simple": "A-GAST",
+      "translation": "Août"
+    },
+    {
+      "word_id": "v_mth_9",
+      "term": "सितंबर",
+      "phonetic_api": "/sɪt̪əmbəɾ/",
+      "phonetic_simple": "SI-TAM-BAR",
+      "translation": "Septembre"
+    },
+    {
+      "word_id": "v_mth_10",
+      "term": "अक्टूबर",
+      "phonetic_api": "/əkʈuːbəɾ/",
+      "phonetic_simple": "AK-TOO-BAR (rétroflexe)",
+      "translation": "Octobre"
+    },
+    {
+      "word_id": "v_mth_11",
+      "term": "नवंबर",
+      "phonetic_api": "/nəʋəmbəɾ/",
+      "phonetic_simple": "NA-VAM-BAR",
+      "translation": "Novembre"
+    },
+    {
+      "word_id": "v_mth_12",
+      "term": "दिसंबर",
+      "phonetic_api": "/d̪ɪsəmbəɾ/",
+      "phonetic_simple": "DI-SAM-BAR",
+      "translation": "Décembre"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "आज क्या तारीख है?",
+      "phonetic_api": "/aːdʒ kjaː t̪aːriːkʰ ɦɛː/",
+      "phonetic_simple": "AADJ KYAA TAA-RIIKH HÉ",
+      "translation": "Quelle est la date d'aujourd'hui ?",
+      "context": "Formule quotidienne pour s'enquérir du jour du mois."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "मेरा जन्मदिन अगस्त में है।",
+      "phonetic_api": "/meːraː dʒənməd̪ɪn əɡəst̪ mẽː ɦɛː/",
+      "phonetic_simple": "MÉ-RAA DJAN-MA-DIN A-GAST MEIN HÉ",
+      "translation": "Mon anniversaire est en août.",
+      "context": "Donner une information personnelle sur le calendrier."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction de la date et l'usage de la postposition 'को' (ko)",
+      "explanation": "Pour associer un événement à un jour précis de la semaine ou à une date, on utilise la postposition temporelle 'को' (ko) placée directement après le jour.",
+      "rules": [
+        "Structure : [Nom du jour / Date] + को (ko) + [Événement].",
+        "Les mois s'utilisent généralement avec la postposition locative-temporelle 'में' (mein - en/dans)."
+      ],
+      "examples": [
+        {
+          "structure": "सोमवार को (Somvār ko)",
+          "phonetic_api": "/soːmʋaːr koː/",
+          "meaning": "Le lundi / Lundi prochain (jour cible)"
+        },
+        {
+          "structure": "मई में (Maī meiñ)",
+          "phonetic_api": "/məiː mẽː/",
+          "meaning": "En mai"
+        }
+      ]
+    },
+    {
+      "concept": "Les irrégularités de la demi-heure : डेढ़ (1h30) et ढाई (2h30)",
+      "explanation": "Alors que la fraction 'साढ़े' (sāṛhē) s'applique devant tous les chiffres à partir de 3 pour exprimer la demi-heure, les heures 1h30 et 2h30 possèdent des termes cardinaux totalement indépendants qu'il faut mémoriser.",
+      "rules": [
+        "N'utilisez jamais साढ़े (sāṛhē) avec एक (1) ou दो (2).",
+        "1h30 se dit exclusivement : डेढ़ बजा है (deɽʱ bədʒaː ɦɛː) ou डेढ़ बजे हैं.",
+        "2h30 se dit exclusivement : ढाई बजे हैं (ɖʱaːiː bədʒeː ɦɛ̃ː)."
+      ],
+      "examples": [
+        {
+          "structure": "अभी ढाई बजे हैं।",
+          "phonetic_api": "/əbʱiː ɖʱaːiː bədʒeː ɦɛ̃ː/",
+          "meaning": "Il est actuellement deux heures et demie (2h30)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "पूजा (Pooja)",
+      "text": "अमित, आपका इंटरव्यू किस दिन है?",
+      "phonetic_api": "/əmɪt̪ aːpkaː ɪnʈəɾʋjuː kɪs d̪ɪn ɦɛː/",
+      "phonetic_simple": "A-MIT, AAP-KAA IN-TAR-VYOU KIS DIN HÉ",
+      "translation": "Amit, quel jour est ton entretien ?"
+    },
+    {
+      "speaker": "अमित (Amit)",
+      "text": "मेरा इंटरव्यू मंगलवार को है, यानी कल सुबह पौने दस बजे।",
+      "phonetic_api": "/meːraː ɪnʈəɾʋjuː məŋɡəlʋaːr koː ɦɛː jaːniː kəl sʊbəɦ pɔːneː d̪əs bədʒeː/",
+      "phonetic_simple": "MÉ-RAA IN-TAR-VYOU MAN-GAL-VAAR KO HÉ, YAA-NII KAL SOU-BAH PAU-NÉ DAS BA-DJÉ",
+      "translation": "Mon entretien est mardi, c'est-à-dire demain matin à dix heures moins le quart (9h45)."
+    },
+    {
+      "speaker": "पूजा (Pooja)",
+      "text": "क्या यह अक्टूबर का महीना है?",
+      "phonetic_api": "/kjaː jəɦ əkʈuːbəɾ kaː məɦiːnaː ɦɛː/",
+      "phonetic_simple": "KYAA YAH AK-TOO-BAR KAA MA-HII-NAA HÉ",
+      "translation": "Est-ce le mois d'octobre ?"
+    },
+    {
+      "speaker": "अमित (Amit)",
+      "text": "नहीं, अभी सितंबर है। इंटरव्यू के बाद नवंबर में मेरी छुट्टी है।",
+      "phonetic_api": "/nəɦĩː əbʱiː sɪt̪əmbəɾ ɦɛː ɪnʈəɾʋjuː keː baːd̪ nəʋəmbəɾ mẽː meːriː tʃʊʈːʰiː ɦoːt̪iː ɦɛː/",
+      "phonetic_simple": "NA-HIN, A-BHII SI-TAM-BAR HÉ. IN-TAR-VYOU KÉ BAAD NA-VAM-BAR MEIN MÉ-RII TCHOUT-THII HO-TII HÉ",
+      "translation": "Non, on est encore en septembre. Après l'entretien, j'ai mes vacances en novembre."
+    }
+  ],
+  "cultural_notes": [
+    "Les noms des mois occidentaux en Inde sont totalement adoptés dans la vie courante et administrative. Cependant, le calendrier officiel national indien (calendrier Saka) coexiste pour les fêtes religieuses et nationales, débutant avec le mois de 'चैत्र' (Chaitra) à l'équinoxe de printemps.",
+    "L'usage du mot 'यानी' (yānī), d'origine arabe très employé en hindi courant, sert de connecteur logique universel pour dire 'c'est-à-dire' ou 'donc'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment traduit-on correctement l'heure '1h30' en hindi ?",
+      "options": [
+        "साढ़े एक बजे (sāṛhē ek bajē)",
+        "डेढ़ बजा है (deṛh bajā hai)",
+        "पौने दो बजे (paunē do bajē)"
+      ],
+      "correct_answer": "डेढ़ बजा है (deṛh bajā hai)",
+      "explanation": "1h30 est une forme irrégulière unique qui utilise le mot 'डेढ़' (deṛh)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "हम [ ___ ] को मिलेंगे। (Nous nous rencontrerons samedi.)",
+      "correct_answer": "शनिवार",
+      "hint": "Le sixième jour de la semaine (samedi)"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés",
+  "learning_objectives": [
+    "Exprimer l'antériorité stricte dans le passé en maîtrisant le plus-que-parfait (Plusquamperfekt)",
+    "Rapporter des propos de manière neutre et journalistique grâce au subjonctif I (Konjunktiv I)",
+    "Exprimer une action future entièrement révolue à l'aide du futur antérieur (Futur II)",
+    "Nuancer le style écrit en intégrant des structures alternatives à la voix passive (Passiversatzformen)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La prononciation du Konjunktiv I exige une articulation claire des désinences en -e (ex: 'er habe' [ˈhaːbə]). Le phonème initial du mot 'die Behauptung' commence par une occlusive glottale après le préfixe : [bəˈhaʊ̯ptʊŋ]. Le groupe -st- dans 'erfolgt sein' maintient une tension consonantique interne forte.",
+    "common_pitfalls": "Au niveau C1, l'accentuation des mots d'origine étrangère ou des formes verbales complexes doit être parfaite. Dans 'demnach' [ˈdeːmˈnaːx], veillez à marquer l'accentuation secondaire de manière équilibrée sur les deux syllabes sans raccourcir les voyelles longues."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "die Behauptung",
+      "phonetic_api": "/diː bəˈhaʊ̯ptʊŋ/",
+      "phonetic_simple": "DII BE-HAOUF-TOUNG",
+      "translation": "l'assertion / l'affirmation / l'allégation",
+      "example_sentence": "Der Journalist prüfte die Behauptung des Ministers.",
+      "example_phonetic": "/deːɐ̯ ʒʊʁnaˈlɪst ˈpʁyːftə diː bəˈhaʊ̯ptʊŋ deːs miˈnɪstɐs/",
+      "example_translation": "Le journaliste a vérifié l'affirmation du ministre."
+    },
+    {
+      "word_id": "v2",
+      "term": "lautet",
+      "phonetic_api": "/ˈlaʊ̯tət/",
+      "phonetic_simple": "LAOU-TET",
+      "translation": "s'énoncer ainsi / être libellé (texte, loi, déclaration)",
+      "example_sentence": "Die offizielle Stellungnahme lautet wie folgt.",
+      "example_phonetic": "/diː ɔfɪˈtsi̯ɛlə ˈʃtɛlʊŋˌnaːmə ˈlaʊ̯tət viː fɔlkt/",
+      "example_translation": "La prise de position officielle s'énonce comme suit."
+    },
+    {
+      "word_id": "v3",
+      "term": "demnach",
+      "phonetic_api": "/ˈdeːmˈnaːx/",
+      "phonetic_simple": "DEEM-NAK",
+      "translation": "selon ce qui précède / par conséquent / d'après cela",
+      "example_sentence": "Demnach sei die Krise bereits überwunden.",
+      "example_phonetic": "/ˈdeːmˈnaːx zaɪ̯ diː ˈkʁiːzə bəˈʁaɪ̯ts yːbɐˈvʊndn̩/",
+      "example_translation": "D'après cela, la crise serait déjà surmontée."
+    },
+    {
+      "word_id": "v4",
+      "term": "voraussetzen",
+      "phonetic_api": "/foˈʁaʊ̯sˌzɛtsn̩/",
+      "phonetic_simple": "FO-RAOUS-ZETS-EN",
+      "translation": "supposer / présupposer / requérir (comme condition)",
+      "example_sentence": "Diese anspruchsvolle Arbeit setzt höchste Konzentration voraus.",
+      "example_phonetic": "/ˈdiːzə ˈan_ʃpʁʊksˌvɔlə ˈaʁbaɪ̯t zɛtst ˈhøːçstə kɔntsɛntʁaˈtsi̯oːn foˈʁaʊ̯s/",
+      "example_translation": "Ce travail exigeant requiert une concentration maximale."
+    },
+    {
+      "word_id": "v5",
+      "term": "vollenden",
+      "phonetic_api": "/fɔlˈɛndn̩/",
+      "phonetic_simple": "FOL-EN-DEN",
+      "translation": "achever / parachever / mener à son terme",
+      "example_sentence": "Bis zum Jahresende wird er das Werk vollendet haben.",
+      "example_phonetic": "/bɪs tsʊm ˈjaːʁəsˌɛndə vɪʁt eːɐ̯ das vɛʁk fɔlˈɛndət ˈhaːbn̩/",
+      "example_translation": "D'ici la fin de l'année, il aura achevé l'œuvre."
+    },
+    {
+      "word_id": "v6",
+      "term": "die Auswirkung",
+      "phonetic_api": "/diː ˈaʊ̯sˌvɪʁkʊŋ/",
+      "phonetic_simple": "DII AOOUF-VIR-KOUNG",
+      "translation": "la répercussion / l'impact / la conséquence",
+      "example_sentence": "Die wirtschaftlichen Auswirkungen sind noch unklar.",
+      "example_phonetic": "/diː ˈvɪʁtʃaftlɪçn̩ ˈaʊ̯sˌvɪʁkʊŋən zɪnt nɔx ˈʊnklaːɐ̯/",
+      "example_translation": "Les répercussions économiques sont encore floues."
+    },
+    {
+      "word_id": "v7",
+      "term": "berichten",
+      "phonetic_api": "/bəˈʁɪçtn̩/",
+      "phonetic_simple": "BE-RICH-TEN",
+      "translation": "rapporter / faire un rapport / relater",
+      "example_sentence": "Die Medien berichten ausführlich über die Verhandlungen.",
+      "example_phonetic": "/diː ˈmeːdi̯ən bəˈʁɪçtn̩ ˈaʊ̯sfyːɐ̯lɪç ˈyːbɐ diː fɛɐ̯ˈhandlʊŋən/",
+      "example_translation": "Les médias rapportent en détail les négociations."
+    },
+    {
+      "word_id": "v8",
+      "term": "scheinbar",
+      "phonetic_api": "/ˈʃaɪ̯nbaːɐ̯/",
+      "phonetic_simple": "CHAIN-BAR",
+      "translation": "apparent / en apparence",
+      "example_sentence": "Das Problem ist scheinbar gelöst worden.",
+      "example_phonetic": "/das pʁoˈbleːm ɪst ˈʃaɪ̯nbaːɐ̯ ɡəˈløːst ˈvɔʁdn̩/",
+      "example_translation": "Le problème a été, en apparence, résolu."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Nachdem die Reformen beschlossen worden waren, beruhigte sich die Lage.",
+      "phonetic_api": "/naaxˈdeːm diː ʁeˈfɔʁmən bəˈʃlɔsn̩ ˈvɔʁdn̩ ˈvaːʁən bəˈʁuːɪçtə zɪç diː ˈlaːɡə/",
+      "phonetic_simple": "NAK-DEEM DII RE-FORM-EN BE-CHLOS-EN VOR-DEN VA-REN BE-ROOU-ICH-TE ZICH DII LA-GHE",
+      "translation": "Une fois que les réformes eurent été adoptées, la situation se calma.",
+      "context": "Syntaxe de l'antériorité historique combinant Plus-que-parfait et Prétérit."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Der Sprecher erklärte, die Regierung plane keine Steuererhöhungen.",
+      "phonetic_api": "/deːɐ̯ ˈʃpʁɛçɐ ɛʁˈklɛːɐ̯tə diː ʁeˈɡiːʁʊŋ ˈplaːnə ˈkaɪ̯nə ˈʃtɔɪ̯ɐ_ɛʁˈhøːʊŋən/",
+      "phonetic_simple": "DEER CHPREK-ER ER-KLEER-TE DII RE-GII-ROUNG PLA-NE KAI-NE CHTOI-ER-ER-HOE-OUNG-EN",
+      "translation": "Le porte-parole a déclaré que le gouvernement ne prévoyait aucune hausse d'impôts.",
+      "context": "Discours rapporté journalistique officiel utilisant le Konjunktiv I."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Bis zum nächsten Jahrzehnt wird sich die digitale Transformation vollzogen haben.",
+      "phonetic_api": "/bɪs tsʊm ˈnɛːçstn̩ jaːɐ̯ˈtseːnt vɪʁt zɪç diː dɪɡiˈtaːlə tʁansfɔʁmaˈtsi̯oːn fɔlˈtsoːɡn̩ ˈhaːbn̩/",
+      "phonetic_simple": "BIS TSOUM NEEKS-TEN YAR-TSEENT VIRT ZICH DII DI-GHI-TA-LE TRANS-FOR-MA-TSYOO-N FOL-TSOOG-EN HA-BEN",
+      "translation": "D'ici la prochaine décennie, la transformation numérique se sera accomplie.",
+      "context": "Formuler une conjecture ou une certitude future à l'aide du Futur II."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Diese Hypothese lässt sich durch keine empirischen Daten verifizieren.",
+      "phonetic_api": "/ˈdiːzə hypoˈteːzə lɛst zɪç dʊʁç ˈkaɪ̯nə ɛmˈpiːʁɪʃn̩ ˈdaːtn̩ veʁifiˈtsiːʁən/",
+      "phonetic_simple": "DII-ZE HY-PO-THE-ZE LEST ZICH DOURCH KAI-NE EM-PII-RICH-EN DA-TEN VE-RI-FI-TSIIR-EN",
+      "translation": "Cette hypothèse ne peut être vérifiée par aucune donnée empirique.",
+      "context": "Structure alternative du passif (lassen sich + infinitif) de style universitaire."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le Konjunktiv I (Subjonctif I) et la distanciation dans le discours rapporté",
+      "explanation": "Au niveau C1, le style indirect neutre n'utilise plus 'dass' au présent, mais le Konjunktiv I. Il permet aux journalistes et scientifiques de rapporter des affirmations sans en prendre la responsabilité factuelle.",
+      "rules": [
+        "Le Konjunktiv I se forme sur le radical du présent auquel on ajoute les désinences spécifiques : -e, -est, -e, -en, -et, -en.",
+        "Le verbe 'sein' est le seul totalement irrégulier : ich sei, du seiest, er sei, wir seien, ihr seiet, sie seien.",
+        "Règle de substitution : Si la forme du Konjunktiv I est rigoureusement identique à celle de l'indicatif présent (ce qui arrive souvent aux 1re personnes du singulier/pluriel et à la 3e personne du pluriel), on doit la remplacer par le Konjunktiv II pour maintenir la distinction stylistique."
+      ],
+      "examples": [
+        {
+          "structure": "Der Minister sagt, er treffe (Konjunktiv I) bald eine Entscheidung.",
+          "phonetic_api": "/deːɐ̯ miˈnɪstɐ zaːkt eːɐ̯ ˈtʁɛfə balt ˈaɪ̯nə ɛntˈʃaɪ̯dʊŋ/",
+          "meaning": "Le ministre dit qu'il prendra bientôt une décision."
+        },
+        {
+          "structure": "Sie behaupten, sie seien (Konjunktiv I de sein) unschuldig.",
+          "phonetic_api": "/ziː bəˈhaʊ̯ptn̩ ziː ˈzaɪ̯nən ˈʊn_ʃʊldɪç/",
+          "meaning": "Ils affirment qu'ils sont innocents."
+        }
+      ]
+    },
+    {
+      "concept": "Le Futur II (Futur antérieur) pour exprimer l'achèvement ou la conjecture",
+      "explanation": "Cette structure avancée projette l'esprit à un moment du futur où une action sera déjà consommée, ou sert à émettre une hypothèse forte sur un fait passé.",
+      "rules": [
+        "La structure syntaxique exige : Auxiliaire 'werden' conjugué au présent + [Compléments] + [Participe passé du verbe d'action] + [Auxiliaire 'haben' ou 'sein' à l'infinitif en toute fin de phrase].",
+        "Valeur 1 : Action achevée dans le futur (généralement accompagnée d'une borne temporelle comme 'bis morgen').",
+        "Valeur 2 (Très fréquente à l'oral C1) : Supposition forte portant sur le passé : 'Er wird das vergessen haben' (Il aura probablement oublié cela)."
+      ],
+      "examples": [
+        {
+          "structure": "Morgen Abend wird das Projekt abgeschlossen sein. (Futur II passif/état)",
+          "phonetic_api": "/ˈmɔʁɡn̩ ˈaːbnt vɪʁt das pʁoˈjɛkt ˈapɡəˌʃlɔsn̩ zaɪ̯n/",
+          "meaning": "Demain soir, le projet sera achevé."
+        },
+        {
+          "structure": "Sie antwortet nicht. Sie wird wohl schon gegangen sein. (Conjecture passée)",
+          "phonetic_api": "/ziː ˈantvɔʁtət nɪçt ziː vɪʁt voːl ʃoːn ɡəˈɡaŋən zaɪ̯n/",
+          "meaning": "Elle ne répond pas. Elle doit déjà être partie (Elle sera sans doute déjà partie)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Redakteur",
+      "text": "Herr Dr. Müller, in Ihrem Bericht erwähnen Sie die jüngsten Finanzdaten. Wie verlässlich sind diese Informationen?",
+      "phonetic_api": "/hɛʁ dɔktɔʁ ˈmʏlɐ ɪn ˈiːʁəm bəˈʁɪçt ɛʁˈvɛːnən ziː diː ˈjʏŋstn̩ fɪˈnantsˌdaːtn̩ viː fɛɐ̯ˈlɛslɪç zɪnt ˈdiːzə ɪnfɔʁmaˈtsi̯oːnən/",
+      "phonetic_simple": "HER DOK-TOR MUUL-ER IN II-REM BE-RICHT ER-VEE-NEN ZII DII YUNGS-TEN FI-NANTS-DA-TEN VII FER-LES-LICH ZINT DII-ZE IN-FOR-MA-TSYOO-NEN",
+      "translation": "Monsieur le Docteur Müller, dans votre rapport vous mentionnez les dernières données financières. À quel point ces informations sont-elles fiables ?"
+    },
+    {
+      "speaker": "Dr. Müller",
+      "text": "Der Vorstand erklärte gestern, alle Unregelmäßigkeiten seien vollständig aufgeklärt worden. Demnach habe das Unternehmen keine Verluste erlitten.",
+      "phonetic_api": "/deːɐ̯ ˈfoːɐ̯ˌʃtant ɛʁˈklɛːɐ̯tə ˈɡɛstəʁn ˈalə ˈʊnʁeːɡl̩ˌmɛːsɪçkaɪ̯tn̩ ˈzaɪ̯nən ˈfɔlˌʃtɛndɪç ˈaʊ̯fɡəˌklɛːɐ̯t ˈvɔʁdn̩ ˈdeːmˈnaːx ˈhaːbə das ʊntɐˈneːmən ˈkaɪ̯nə fɛɐ̯ˈlʊstə ɛɐ̯ˈlɪtn̩/",
+      "phonetic_simple": "DEER FOOR-CHANT ER-KLEER-TE GES-TERN AL-E OUN-REE-GHEL-MEE-SICH-KAI-TEN ZAI-NEN FOL-CHTEEN-DICH AOOUF-GHE-KLEERT VOR-DEN DEEM-NAK HA-BE DAS OUN-TER-NEE-MEN KAI-NE FER-LOUS-TE ER-LIT-EN",
+      "translation": "Le directoire a déclaré hier que toutes les irrégularités auraient été totalement élucidées. D'après cela, l'entreprise n'aurait subi aucune perte."
+    },
+    {
+      "speaker": "Redakteur",
+      "text": "Das ist eine beruhigende Nachricht. Meinen Sie, bis zur nächsten Aufsichtsratssitzung wird das Vertrauen der Anleger wiederhergestellt sein?",
+      "phonetic_api": "/das ɪst ˈaɪ̯nə bəˈʁuːɪɡəndə ˈnaːxʁɪçt ˈmaɪ̯nən ziː bɪs tsʊːɐ̯ ˈnɛːçstn̩ ˈaʊ̯fzɪçtsʁaːtsˌzɪtsʊŋ vɪʁt das fɛɐ̯ˈtʁaʊ̯ən deːɐ̯ ˈanˌleːɡɐ viːdɐhɛɐ̯ɡəˌʃtɛlt zaɪ̯n/",
+      "phonetic_simple": "DAS IST AI-NE BE-ROOU-I-GHEN-DE NAK-RICHT MAI-NEN ZII BIS TSOOUR NEEKS-TEN AOOUF-SICHTS-RATS-ZIT-SOUNG VIRT DAS FER-TRAOU-EN DEER AN-LEE-GHER VII-DER-HER-GHE-CHTELT ZAIN",
+      "translation": "C'est une nouvelle rassurante. Pensez-vous que d'ici la prochaine réunion du conseil de surveillance, la confiance des investisseurs se sera rétablie ?"
+    },
+    {
+      "speaker": "Dr. Müller",
+      "text": "Bis dahin wird sich die Aufregung gelegt haben. Die Fakten lassen sich schließlich nicht leugnen, sobald alle Berichte vorliegen.",
+      "phonetic_api": "/bɪs daˈhɪn vɪʁt zɪç diː ˈaʊ̯fˌʁeːɡʊŋ ɡəˈleːkt ˈhaːbn̩ diː ˈfaktn̩ ˈlasn̩ zɪç ˈʃliːslɪç nɪçt ˈlɔɪ̯ɡn̩n zoːˈbalt ˈalə bəˈʁɪçtə ˈfoːɐ̯ˌliːɡn̩/",
+      "phonetic_simple": "BIS DA-HIN VIRT ZICH DII AOOUF-REE-GOUNG GHE-LEEKT HA-BEN DII FAK-TEN LAS-EN ZICH CHLIIS-LICH NICHT LOIG-NEN ZO-BALT AL-E BE-RICH-TE FOOR-LII-GHEN",
+      "translation": "D'ici là, l'agitation se sera apaisée. Les faits ne se laissent finalement pas nier (ne peuvent être niés) dès que tous les rapports seront disponibles."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la presse écrite allemande de qualité (comme la Frankfurter Allgemeine Zeitung ou Die Zeit), le maniement du Konjunktiv I est un standard déontologique absolu. Il permet de garantir la neutralité de l'information en séparant formellement le fait brut du propos rapporté.",
+    "La précision temporelle portée par des structures comme le Plusquamperfekt ou le Futur II reflète une rigueur syntaxique très appréciée dans le milieu académique et juridique allemand. Un discours fluide intégrant ces nuances atteste d'un très haut niveau d'intégration et de compétence linguistique.",
+    "Les structures alternatives de la voix passive (Passiversatzformen) telles que 'sich lassen + infinitif' ou 'sein + zu + infinitif' sont préférées au passif classique avec werden dans les textes scientifiques afin d'alléger le style tout en conservant une tonalité objective."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Mettez au Konjunktiv I approprié pour le discours indirect journalistique : 'Der Zeuge behauptet, er [ ___ ] den Unfall genau gesehen.' (Verbe haben)",
+      "options": [
+        "habe",
+        "hätte",
+        "hat"
+      ],
+      "correct_answer": "habe",
+      "explanation": "La troisième personne du singulier du Konjunktiv I pour le verbe 'haben' est 'habe'. La forme 'hätte' correspond au Konjunktiv II (hypothétique), et 'hat' à l'indicatif."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Bis zum Ende des Monats wird das neue Gesetz in Kraft getreten [ ___ ]. (Auxiliaire du Futur II)",
+      "correct_answer": "sein",
+      "hint": "Le verbe de déplacement intransitif 'inkrafttreten' (entrer en vigueur) requiert l'auxiliaire être à l'infinitif pour clore le Futur II."
+    }
+  ]
+}

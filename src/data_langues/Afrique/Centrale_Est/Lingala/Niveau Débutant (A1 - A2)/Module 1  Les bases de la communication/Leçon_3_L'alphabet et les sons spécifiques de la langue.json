@@ -1,0 +1,205 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Maîtriser l'alphabet lingala et ses particularités par rapport au français",
+    "Prononcer correctement les voyelles ouvertes /ɛ/ et /ɔ/",
+    "Articuler avec aisance les consonnes complexes prénasalisées et digraphes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le lingala s'écrit avec un alphabet latin adapté de 28 lettres. Il ne possède pas les lettres Q, X et X. En revanche, il intègre deux voyelles ouvertes cruciales : 'ɛ' (é ouvert /è/) et 'ɔ' (o ouvert /ò/). La langue utilise aussi des digraphes comme 'gb' (occlusive labio-vélaire) et des consonnes prénasalisées (mb, nd, ng, nz) où la nasale et la consonne forment un unique son articulé simultanément.",
+    "common_pitfalls": "Le plus grand piège pour les francophones est de séparer les consonnes prénasalisées (ex: prononcer 'n-gai' en deux temps). Le flux d'air doit être continu. Un autre piège consiste à ignorer la différence entre les voyelles fermées (e, o) et ouvertes (ɛ, ɔ), ce qui peut totalement changer le sens d'un mot (ex: 'kolo' signifie propriétaire alors que 'kɔlɔ' signifie fort/robuste)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v3_1",
+      "term": "Etelemelo",
+      "phonetic_api": "/etɛlɛmɛló/",
+      "phonetic_simple": "É-TÈ-LÈ-MÈ-LÓ",
+      "translation": "Arrêt / Station",
+      "example_sentence": "Etelemelo ya bisi ezali awa.",
+      "example_phonetic": "/etɛlɛmɛló ya βisí ezalí áwa/",
+      "example_translation": "L'arrêt de bus est ici."
+    },
+    {
+      "word_id": "v3_2",
+      "term": "Mòngongo",
+      "phonetic_api": "/mòⁿɡóⁿɡo/",
+      "phonetic_simple": "MÒ-NGÓ-NGO",
+      "translation": "Voix / Son",
+      "example_sentence": "Mòngongo na yo ezali malamu.",
+      "example_phonetic": "/mòⁿɡóⁿɡo na jó ezalí malámu/",
+      "example_translation": "Ta voix est belle."
+    },
+    {
+      "word_id": "v3_3",
+      "term": "Gbagba",
+      "phonetic_api": "/ɡ͡b͡aɡ͡b͡a/",
+      "phonetic_simple": "GBA-GBA",
+      "translation": "Pont",
+      "example_sentence": "Tokatisaki gbagba.",
+      "example_phonetic": "/tokatisakí ɡ͡b͡aɡ͡b͡a/",
+      "example_translation": "Nous avons traversé le pont."
+    },
+    {
+      "word_id": "v3_4",
+      "term": "Nzozo",
+      "phonetic_api": "/ⁿzózó/",
+      "phonetic_simple": "NZÓ-ZÓ",
+      "translation": "Abeille",
+      "example_sentence": "Nzozo eswaka makasi.",
+      "example_phonetic": "/ⁿzózó eswaka makasí/",
+      "example_translation": "L'abeille pique fort."
+    },
+    {
+      "word_id": "v3_5",
+      "term": "Nyama",
+      "phonetic_api": "/ɲáma/",
+      "phonetic_simple": "NYA-MA",
+      "translation": "Animal / Viande",
+      "example_sentence": "Ngai nalingi kolia nyama.",
+      "example_phonetic": "/ŋɡái nalíŋɡí kolía ɲáma/",
+      "example_translation": "Moi, j'aime manger de la viande."
+    },
+    {
+      "word_id": "v3_6",
+      "term": "Kuku",
+      "phonetic_api": "/kúku/",
+      "phonetic_simple": "KOU-KOU",
+      "translation": "Cuisine",
+      "example_sentence": "Mama azali na kuku.",
+      "example_phonetic": "/máma azalí na kúku/",
+      "example_translation": "Maman est dans la cuisine."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p3_1",
+      "original": "Loba lisusu, pardo.",
+      "phonetic_api": "/lóba lisúsu pardó/",
+      "phonetic_simple": "LÓ-BA LI-SOU-SOU, PAR-DÓ.",
+      "translation": "Répète s'il te plaît. / Redis encore.",
+      "context": "Utilisé lorsque l'on n'a pas bien entendu ou compris la prononciation."
+    },
+    {
+      "phrase_id": "p3_2",
+      "original": "Koma liloba oyo awa.",
+      "phonetic_api": "/kóma lilóba ójo áwa/",
+      "phonetic_simple": "KÓ-MA LI-LÓ-BA O-YO Á-WA.",
+      "translation": "Écris ce mot ici.",
+      "context": "Pratique pour demander l'orthographe exacte d'un mot complexe."
+    },
+    {
+      "phrase_id": "p3_3",
+      "original": "Elobamaka ndenge nini?",
+      "phonetic_api": "/eloβamaka ⁿdéⁿɡe niní/",
+      "phonetic_simple": "É-LO-VA-MA-KA NDÉN-GUÉ NI-NÍ?",
+      "translation": "Comment cela se prononce-t-il ?",
+      "context": "Pour demander de l'aide sur l'articulation d'un terme inconnu."
+    },
+    {
+      "phrase_id": "p3_4",
+      "original": "Nazo yoka malamu te.",
+      "phonetic_api": "/nazó jóka malámu té/",
+      "phonetic_simple": "NA-ZÓ YO-KA MA-LOU-MOU TÉ.",
+      "translation": "Je n'entends pas bien. / Je ne comprends pas bien.",
+      "context": "Pour signaler une incompréhension liée à l'accent ou au bruit."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système des tons en lingala (Haut et Bas)",
+      "explanation": "Le lingala est une langue à tons. Bien que l'orthographe courante omette souvent les accents, les tons changent radicalement le sens des homographes. Le ton haut est marqué par un accent aigu (´) et le ton bas par un accent grave (`) ou l'absence d'accent.",
+      "rules": [
+        "Le ton modifie le sens : 'Sango' (ton bas-bas /sàⁿɡò/) signifie 'nouvelle/information', tandis que 'Sángó' (ton haut-haut /sáⁿɡó/) signifie 'prêtre'.",
+        "Les accents sur les voyelles dans les dictionnaires servent exclusivement à guider l'étudiant et ne s'écrivent généralement pas dans les journaux ou SMS."
+      ],
+      "examples": [
+        {
+          "structure": "Kokoma (écrire) vs Kokóma (arriver)",
+          "phonetic_api": "/kokoma/ vs /kokóma/",
+          "meaning": "Faites attention au ton sur la deuxième syllabe."
+        }
+      ]
+    },
+    {
+      "concept": "L'absence de genre grammatical (Masculin / Féminin)",
+      "explanation": "Contrairement au français, le lingala ne fait aucune distinction de genre (masculin/féminin) pour les noms, les adjectifs ou les pronoms. Le pronom de la troisième personne du singulier 'Ye' désigne indifféremment 'il' ou 'elle'.",
+      "rules": [
+        "Il n'y a pas d'articles 'le' ou 'la'. Un mot seul porte son sens déterminé ou indéterminé selon le contexte.",
+        "Pour spécifier le sexe si nécessaire, on ajoute les qualificatifs 'mobali' (homme) ou 'mwasi' (femme)."
+      ],
+      "examples": [
+        {
+          "structure": "Ye azali mwana.",
+          "phonetic_api": "/jé azalí mwana/",
+          "meaning": "Il est un enfant / Elle est un enfant."
+        },
+        {
+          "structure": "Mwana mobali (garçon) / Mwana mwasi (fille)",
+          "phonetic_api": "/mwana moβalí/ / /mwana mwásí/",
+          "meaning": "Littéralement : enfant homme / enfant femme."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Moyekoli (L'élève)",
+      "text": "Molakisi, liloba 'ngai' elobamaka ndenge nini? N-gai?",
+      "phonetic_api": "/molákisí lilóba ŋɡái eloβamaka ⁿdéⁿɡe niní ⁿɡái/",
+      "phonetic_simple": "MO-LÁ-KI-SÍ, LI-LÓ-BA 'NGAYI' É-LO-VA-MA-KA NDÉN-GUÉ NI-NÍ? N-GAYI?",
+      "translation": "Professeur, comment se prononce le mot 'ngai' ? N-gai ?"
+    },
+    {
+      "speaker": "Molakisi (Le professeur)",
+      "text": "Te, kokata mòngongo te. Loba 'ngai' na mbala moko. Kanga zolo te.",
+      "phonetic_api": "/té kokata mòⁿɡóⁿɡo té lóba ŋɡái na mbala móko káⁿɡa zoló té/",
+      "phonetic_simple": "TÉ, KO-KA-TA MÒ-NGÓ-NGO TÉ. LÓ-BA 'NGAYI' NA MBA-LA MÓ-KO. KÁN-GA ZO-LO TÉ.",
+      "translation": "Non, ne coupe pas le son. Dis 'ngai' d'un seul coup. Ne bloque pas le nez."
+    },
+    {
+      "speaker": "Moyekoli (L'élève)",
+      "text": "Ah, ngai! Malamu! Mpe ndenge nini tokomaka liloba 'gbagba'?",
+      "phonetic_api": "/ah ŋɡái malámu ᵐpɛ ⁿdéⁿɡe niní tokomaka lilóba ɡ͡b͡aɡ͡b͡a/",
+      "phonetic_simple": "AH, NGAYI! MA-LÁ-MOU! MPÉ NDÉN-GUÉ NI-NÍ TO-KO-MA-KA LI-LÓ-BA 'GBA-GBA'?",
+      "translation": "Ah, ngai ! D'accord ! Et comment écrit-on le mot 'gbagba' ?"
+    },
+    {
+      "speaker": "Molakisi (Le professeur)",
+      "text": "Tokomaka 'g' mpe 'b' elongo: G-B-A-G-B-A. Ezali mpasi te!",
+      "phonetic_api": "/tokomaka ɡe ᵐpɛ βe elóⁿɡo ɡe βe a ɡe βe a ezalí ᵐpasí té/",
+      "phonetic_simple": "TO-KO-MA-KA 'G' MPÉ 'B' É-LON-GO : G-B-A-G-B-A. É-ZA-LÍ MPA-SI TÉ!",
+      "translation": "On écrit 'g' et 'b' ensemble : G-B-A-G-B-A. Ce n'est pas difficile !"
+    }
+  ],
+  "cultural_notes": [
+    "L'orthographe standardisée du lingala moderne (fixée par les descriptions linguistiques) utilise les caractères 'ɛ' et 'ɔ'. Cependant, dans la vie quotidienne (médias sociaux, écriture informelle), beaucoup de Congolais écrivent simplement 'e' et 'o' pour des raisons de commodité matérielle sur les claviers standards.",
+    "La musique populaire congolaise (Rumba, Soukous) est un excellent moyen d'entraîner l'oreille à capter la subtilité des voyelles ouvertes et des consonnes prénasalisées car l'articulation y est très chantée et accentuée."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex3_1",
+      "type": "multiple_choice",
+      "question": "Quelles lettres de l'alphabet français n'existent pas nativement en lingala ?",
+      "options": [
+        "A, B, C",
+        "Q, X, H",
+        "J, K, L"
+      ],
+      "correct_answer": "Q, X, H",
+      "explanation": "Les lettres Q et X ne font pas partie de l'alphabet lingala, et le H n'est présent que dans de très rares emprunts récents ou digraphes spécifiques."
+    },
+    {
+      "exercise_id": "ex3_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "En lingala, le pronom '[ ___ ]' signifie à la fois 'il' et 'elle' car le genre grammatical n'existe pas.",
+      "correct_answer": "ye",
+      "hint": "Pronom de la troisième personne du singulier."
+    }
+  ]
+}

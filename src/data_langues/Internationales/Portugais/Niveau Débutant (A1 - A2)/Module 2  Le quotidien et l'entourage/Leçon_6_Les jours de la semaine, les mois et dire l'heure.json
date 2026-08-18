@@ -1,0 +1,388 @@
+{
+  "lesson_id": "A1_M2_L6_ENRICHED",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Le calendrier complet, les jours, les mois et l'heure",
+  "learning_objectives": [
+    "Nommer et utiliser tous les jours de la semaine sans exception",
+    "Maîtriser les douze mois de l'année",
+    "Demander et exprimer des horaires simples et complexes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La diphtongue [ɐj] dans 'feira' doit être prononcée de façon fluide. Le 'j' initial de 'janeiro' ou 'julho' est un [ʒ] doux comme en français. Le 'm' final des mois comme 'também' ou 'em' nasalise fortement la voyelle précédente.",
+    "common_pitfalls": "Attention à la lettre 'x' dans 'sexta-feira' qui se prononce [ʃ] (comme 'ch'). Ne prononcez pas le 'p' de 'setembro' ou 'optimista' s'il est mudo dans la variante moderne, mais retenez la bonne ouverture de la voyelle tonique."
+  },
+  "jours_de_la_semaine": [
+    {
+      "jour": "Lundi",
+      "original": "Segunda-feira",
+      "phonetic_api": "/sɨˈɡũdɐ ˈfɐjɾɐ/",
+      "phonetic_simple": "S'H-GOON-DAH FAY-RAH"
+    },
+    {
+      "jour": "Mardi",
+      "original": "Terça-feira",
+      "phonetic_api": "/ˈteɾsɐ ˈfɐjɾɐ/",
+      "phonetic_simple": "TAIR-SAH FAY-RAH"
+    },
+    {
+      "jour": "Mercredi",
+      "original": "Quarta-feira",
+      "phonetic_api": "/ˈkwaɾtɐ ˈfɐjɾɐ/",
+      "phonetic_simple": "KWAR-TAH FAY-RAH"
+    },
+    {
+      "jour": "Jeudi",
+      "original": "Quinta-feira",
+      "phonetic_api": "/ˈkĩtɐ ˈfɐjɾɐ/",
+      "phonetic_simple": "KEEN-TAH FAY-RAH"
+    },
+    {
+      "jour": "Vendredi",
+      "original": "Sexta-feira",
+      "phonetic_api": "/ˈʃeʃtɐ ˈfɐjɾɐ/",
+      "phonetic_simple": "CHECH-TAH FAY-RAH"
+    },
+    {
+      "jour": "Samedi",
+      "original": "Sábado",
+      "phonetic_api": "/ˈsaβɐðu/",
+      "phonetic_simple": "SAH-BAH-DOO"
+    },
+    {
+      "jour": "Dimanche",
+      "original": "Domingo",
+      "phonetic_api": "/duˈmĩɡu/",
+      "phonetic_simple": "DOO-MEEN-GOO"
+    }
+  ],
+  "mois_de_l_annee": [
+    {
+      "numero": 1,
+      "original": "Janeiro",
+      "phonetic_api": "/ʒɐˈnɐjɾu/",
+      "phonetic_simple": "JAH-NAY-ROO",
+      "traduction": "Janvier"
+    },
+    {
+      "numero": 2,
+      "original": "Fevereiro",
+      "phonetic_api": "/fɨvɨˈɾɐjɾu/",
+      "phonetic_simple": "F'H-V'H-RAY-ROO",
+      "traduction": "Février"
+    },
+    {
+      "numero": 3,
+      "original": "Março",
+      "phonetic_api": "/ˈmaɾsu/",
+      "phonetic_simple": "MAR-SOO",
+      "traduction": "Mars"
+    },
+    {
+      "numero": 4,
+      "original": "Abril",
+      "phonetic_api": "/ɐˈβɾiɫ/",
+      "phonetic_simple": "AH-BREEL",
+      "traduction": "Avril"
+    },
+    {
+      "numero": 5,
+      "original": "Maio",
+      "phonetic_api": "/ˈmɐju/",
+      "phonetic_simple": "MAY-OO",
+      "traduction": "Mai"
+    },
+    {
+      "numero": 6,
+      "original": "Junho",
+      "phonetic_api": "/ˈʒuɲu/",
+      "phonetic_simple": "JOO-NYOO",
+      "traduction": "Juin"
+    },
+    {
+      "numero": 7,
+      "original": "Julho",
+      "phonetic_api": "/ˈʒuʎu/",
+      "phonetic_simple": "JOO-LYOO",
+      "traduction": "Juillet"
+    },
+    {
+      "numero": 8,
+      "original": "Agosto",
+      "phonetic_api": "/ɐˈɣoʃtu/",
+      "phonetic_simple": "AH-GOCH-TOO",
+      "traduction": "Août"
+    },
+    {
+      "numero": 9,
+      "original": "Setembro",
+      "phonetic_api": "/sɨˈtẽbɾu/",
+      "phonetic_simple": "S'H-TEN-BROO",
+      "traduction": "Septembre"
+    },
+    {
+      "numero": 10,
+      "original": "Outubro",
+      "phonetic_api": "/owˈtuβɾu/",
+      "phonetic_simple": "OW-TOO-BROO",
+      "traduction": "Octobre"
+    },
+    {
+      "numero": 11,
+      "original": "Novembro",
+      "phonetic_api": "/nuˈvẽbɾu/",
+      "phonetic_simple": "NOO-VEN-BROO",
+      "traduction": "Novembre"
+    },
+    {
+      "numero": 12,
+      "original": "Dezembro",
+      "phonetic_api": "/dɨˈzẽbɾu/",
+      "phonetic_simple": "D'H-ZEN-BROO",
+      "traduction": "Décembre"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Semana",
+      "phonetic_api": "/sɨˈmanɐ/",
+      "phonetic_simple": "S'H-MAH-NAH",
+      "translation": "Semaine",
+      "example_sentence": "A semana tem sete dias.",
+      "example_phonetic": "/ɐ sɨˈmanɐ tɐ̃j ˈsɛtɨ ˈdiɐʃ/",
+      "example_translation": "La semaine a sept jours."
+    },
+    {
+      "word_id": "v2",
+      "term": "Mês",
+      "phonetic_api": "/meʃ/",
+      "phonetic_simple": "MAYCH",
+      "translation": "Mois",
+      "example_sentence": "Este mês é muito longo.",
+      "example_phonetic": "/ˈeʃtɨ meʃ ɛ ˈmũjtu ˈlõɡu/",
+      "example_translation": "Ce mois est très long."
+    },
+    {
+      "word_id": "v3",
+      "term": "Ano",
+      "phonetic_api": "/ˈɐnu/",
+      "phonetic_simple": "AH-NOO",
+      "translation": "Année / An",
+      "example_sentence": "O ano tem doze meses.",
+      "example_phonetic": "/u ˈɐnu tɐ̃j ˈdozɨ ˈmezɨʃ/",
+      "example_translation": "L'année a douze mois."
+    },
+    {
+      "word_id": "v4",
+      "term": "Hoje",
+      "phonetic_api": "/ˈoʒɨ/",
+      "phonetic_simple": "Ó-J'H",
+      "translation": "Aujourd'hui",
+      "example_sentence": "Hoje é domingo.",
+      "example_phonetic": "/ˈoʒɨ ɛ duˈmĩɡu/",
+      "example_translation": "Aujourd'hui c'est dimanche."
+    },
+    {
+      "word_id": "v5",
+      "term": "Ontem",
+      "phonetic_api": "/ˈõtɐ̃j/",
+      "phonetic_simple": "ON-TENG",
+      "translation": "Hier",
+      "example_sentence": "Ontem foi sábado.",
+      "example_phonetic": "/ˈõtɐ̃j foj ˈsaβɐðu/",
+      "example_translation": "Hier c'était samedi."
+    },
+    {
+      "word_id": "v6",
+      "term": "Amanhã",
+      "phonetic_api": "/ɐmɐˈɲã/",
+      "phonetic_simple": "AH-MAH-NYANG",
+      "translation": "Demain",
+      "example_sentence": "Amanhã é segunda-feira.",
+      "example_phonetic": "/ɐmɐˈɲã ɛ sɨˈɡũdɐ ˈfɐjɾɐ/",
+      "example_translation": "Demain c'est lundi."
+    },
+    {
+      "word_id": "v7",
+      "term": "Meio-dia",
+      "phonetic_api": "/ˌmɐjwiˈdiɐ/",
+      "phonetic_simple": "MAY-WEE-DEE-AH",
+      "translation": "Midi",
+      "example_sentence": "O almoço é ao meio-dia.",
+      "example_phonetic": "/u ɐɫˈmosu ɛ aw ˌmɐjwiˈdiɐ/",
+      "example_translation": "Le déjeuner est à midi."
+    },
+    {
+      "word_id": "v8",
+      "term": "Meia-noite",
+      "phonetic_api": "/ˌmɐjɐˈnojtɨ/",
+      "phonetic_simple": "MAY-AH-NOY-T'H",
+      "translation": "Minuit",
+      "example_sentence": "Já é meia-noite.",
+      "example_phonetic": "/ʒa ɛ ˌmɐjɐˈnojtɨ/",
+      "example_translation": "Il est déjà minuit."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Que horas são?",
+      "phonetic_api": "/kɨ ˈɔɾɐʃ sɐ̃w/",
+      "phonetic_simple": "K'H Ó-RACH SANG",
+      "translation": "Quelle heure est-il ?",
+      "context": "Demander l'heure au quotidien."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Em que mês estamos?",
+      "phonetic_api": "/ɐ̃j kɨ meʃ iʃˈtɐmuʃ/",
+      "phonetic_simple": "ENG K'H MAYCH EECH-TAH-MOOCH",
+      "translation": "En quel mois sommes-nous ?",
+      "context": "Se situer dans l'année."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Estamos no mês de agosto.",
+      "phonetic_api": "/iʃˈtɐmuʃ nu meʃ dɨ ɐˈɣoʃtu/",
+      "phonetic_simple": "EECH-TAH-MOOCH NOO MAYCH D'H AH-GOCH-TOO",
+      "translation": "Nous sommes au mois d'août.",
+      "context": "Réponse pour indiquer le mois en cours."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Qual é a data de hoje?",
+      "phonetic_api": "/kwaɫ ɛ ɐ ˈdatɐ dɨ ˈoʒɨ/",
+      "phonetic_simple": "KWAHL É AH DAH-TAH D'H Ó-J'H",
+      "translation": "Quelle est la date d'aujourd'hui ?",
+      "context": "Demander le jour exact du calendrier."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Hoje é dia cinco de abril.",
+      "phonetic_api": "/ˈoʒɨ ɛ ˈdiɐ ˈsĩku dɨ ɐˈβɾiɫ/",
+      "phonetic_simple": "Ó-J'H É DEE-AH SEEN-KOO D'H AH-BREEL",
+      "translation": "Aujourd'hui c'est le cinq avril.",
+      "context": "Donner une date complète."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Bom fim de semana!",
+      "phonetic_api": "/bõ fʲĩ dɨ sɨˈmanɐ/",
+      "phonetic_simple": "BON FEENG D'H S'H-MAH-NAH",
+      "translation": "Bon week-end !",
+      "context": "Saluer le vendredi avant le repos."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "A reunião é na próxima quarta-feira.",
+      "phonetic_api": "/ɐ ʁɨuniˈɐ̃w ɛ nɐ ˈpɾɔsimɐ ˈkwaɾtɐ ˈfɐjɾɐ/",
+      "phonetic_simple": "AH REW-NEE-ANG É NAH PRÓ-SEE-MAH KWAR-TAH FAY-RAH",
+      "translation": "La réunion a lieu mercredi prochain.",
+      "context": "Planification professionnelle."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "O concerto começa às dez da noite.",
+      "phonetic_api": "/u kõˈsɛɾtu kuˈmɛsɐ aʃ dɛʃ dɐ ˈnojtɨ/",
+      "phonetic_simple": "OO KON-SAIR-TOO KOO-MAY-SAH ACH DÈCH DAH NOY-T'H",
+      "translation": "Le concert commence à dix heures du soir.",
+      "context": "Indiquer l'heure d'un événement nocturne."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'utilisation de la préposition 'em' pour les mois",
+      "explanation": "Pour situer un événement dans un mois spécifique, on utilise la préposition 'em' (en / au mois de). Devant un nom de mois, elle reste invariablement 'em'.",
+      "rules": [
+        "Structure : 'em' + [nom du mois] (sans article).",
+        "Exemple : em janeiro, em setembro."
+      ],
+      "examples": [
+        {
+          "structure": "Eu faço anos em maio.",
+          "phonetic_api": "/ew ˈfazu ˈɐnuʃ ɐ̃j ˈmɐju/",
+          "meaning": "Mon anniversaire est en mai."
+        }
+      ]
+    },
+    {
+      "concept": "Les contractions de temps 'no', 'na', 'ao'",
+      "explanation": "Pour parler des jours de la semaine ou d'un moment précis, on contracte la préposition avec l'article défini correspondant.",
+      "rules": [
+        "'em' + 'a' = 'na' (utilisé devant les jours de la semaine qui contiennent 'feira').",
+        "'em' + 'o' = 'no' (utilisé devant 'sábado' et 'domingo').",
+        "'a' + 'as' = 'às' (utilisé obligatoirement devant l'expression des heures au pluriel)."
+      ],
+      "examples": [
+        {
+          "structure": "Na segunda-feira / No domingo",
+          "phonetic_api": "/nɐ sɨˈɡũdɐ ˈfɐjɾɐ/ / nu duˈmĩɡu/",
+          "meaning": "Le lundi / Le dimanche"
+        },
+        {
+          "structure": "Às três horas",
+          "phonetic_api": "/aʃ tɾeʃ ˈɔɾɐʃ/",
+          "meaning": "À trois heures"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Rui",
+      "text": "Olá Maria, quando são as tuas férias?",
+      "phonetic_api": "/oˈla mɐˈɾiɐ ˈkwɐ̃du sɐ̃w ɐʃ ˈtuɐʃ ˈfɛɾjɐʃ/",
+      "phonetic_simple": "OH-LAH MAH-REE-AH KWAN-DOO SANG ACH TOO-ACH FAIR-YACH",
+      "translation": "Salut Maria, quand ont lieu tes vacances ?"
+    },
+    {
+      "speaker": "Maria",
+      "text": "As minhas férias são em julho. E as tuas?",
+      "phonetic_api": "/ɐʃ ˈmiɲɐʃ ˈfɛɾjɐʃ sɐ̃w ɐ̃j ˈʒuʎu i ɐʃ ˈtuɐʃ/",
+      "phonetic_simple": "ACH MEE-NYACH FAIR-YACH SANG ENG JOO-LYOO EE ACH TOO-ACH",
+      "translation": "Mes vacances sont en juillet. Et les tiennes ?"
+    },
+    {
+      "speaker": "Rui",
+      "text": "São em agosto. Eu viajo numa sexta-feira, dia dois, às duas da tarde.",
+      "phonetic_api": "/sɐ̃w ɐ̃j ɐˈɣoʃtu ew ˈvjaʒu ˈnumɐ ˈʃeʃtɐ ˈfɐjɾɐ ˈdiɐ dojʃ aʃ ˈduɐʃ dɐ ˈtaɾdɨ/",
+      "phonetic_simple": "SANG ENG AH-GOCH-TOO EW VEE-AH-JOO NOO-MAH CHECH-TAH FAY-RAH DEE-AH DOYCH ACH DOO-ACH DAH TAR-D'H",
+      "translation": "Elles sont en août. Je pars un vendredi, le deux, à deux heures de l'après-midi."
+    },
+    {
+      "speaker": "Maria",
+      "text": "Que bom! Hoje ainda é quarta-feira, falta pouco.",
+      "phonetic_api": "/kɨ bõ ˈoʒɨ ɐˈĩdɐ ɛ ˈkwaɾtɐ ˈfɐjɾɐ ˈfaɫtɐ ˈpoku/",
+      "phonetic_simple": "K'H BON Ó-J'H AH-EEN-DAH É KWAR-TAH FAY-RAH FAL-TAH POH-KOO",
+      "translation": "Super ! Aujourd'hui on n'est que mercredi, il reste peu de temps."
+    }
+  ],
+  "cultural_notes": [
+    "Les noms de mois ne prennent pas de majuscule en portugais, sauf s'ils initient une phrase ou s'ils désignent un nom de rue ou un événement historique majeur.",
+    "Au Portugal, l'ordre des jours suit strictement la tradition chrétienne où le dimanche (Domingo) est le premier jour de la semaine liturgique, d'où le fait que le lundi se nomme le 'deuxième' jour (Segunda-feira)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel est le dixième mois de l'année (Octobre) en portugais ?",
+      "options": [
+        "Outubro",
+        "Novembro",
+        "Dezembro"
+      ],
+      "correct_answer": "Outubro",
+      "explanation": "Outubro correspond précisément au mois d'octobre."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Le samedi', on utilise la contraction masculine : [ ___ ] sábado.",
+      "correct_answer": "No",
+      "hint": "Contraction de la préposition em + article o"
+    }
+  ]
+}

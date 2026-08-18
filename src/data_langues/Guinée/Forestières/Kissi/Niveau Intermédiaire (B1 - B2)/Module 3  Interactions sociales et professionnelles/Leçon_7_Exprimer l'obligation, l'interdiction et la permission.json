@@ -1,0 +1,122 @@
+{
+  "lesson_id": "B1_M3_L7",
+  "level": "Niveau Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 7,
+  "title": "Exprimer l'obligation, l'interdiction et la permission",
+  "learning_objectives": [
+    "Exprimer une obligation impérative en kissi",
+    "Formuler une interdiction claire au sein de la communauté",
+    "Demander et accorder la permission de faire une action"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le morphème d'obligation 'nɔ' se prononce avec une voyelle ouverte antérieure basse /ɔ/. L'interdiction repose souvent sur la particule négative finale 'le' précédée d'un ton haut sur le verbe.",
+    "common_pitfalls": "Attention à bien accentuer le verbe de base lorsque vous formulez une interdiction pour marquer la fermeté de l'énoncé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v16_1",
+      "term": "nɔ",
+      "phonetic_api": "/nɔ/",
+      "phonetic_simple": "NO",
+      "translation": "devoir / avoir l'obligation de (litt. posséder/avoir)",
+      "example_sentence": "I nɔ i lo.",
+      "example_phonetic": "/i nɔ i lo/",
+      "example_translation": "Je dois partir."
+    },
+    {
+      "word_id": "v16_2",
+      "term": "diom",
+      "phonetic_api": "/dʒom/",
+      "phonetic_simple": "DIOM",
+      "translation": "droit / permission / accord",
+      "example_sentence": "Co mi diom.",
+      "example_phonetic": "/tʃo mi dʒom/",
+      "example_translation": "Donne-moi la permission."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p16_1",
+      "original": "O nɔ o wali haala.",
+      "phonetic_api": "/o nɔ o wa.li haː.la/",
+      "phonetic_simple": "O NO O WA-LI HAA-LA",
+      "translation": "Tu dois travailler aujourd'hui.",
+      "context": "Exprimer un impératif de travail"
+    },
+    {
+      "phrase_id": "p16_2",
+      "original": "Lo wa le !",
+      "phonetic_api": "/lo wa le/",
+      "phonetic_simple": "LO WA LÉ",
+      "translation": "N'y va pas !",
+      "context": "Formuler une interdiction directe"
+    },
+    {
+      "phrase_id": "p16_3",
+      "original": "I nɔ diom o cando ning ?",
+      "phonetic_api": "/i nɔ dʒom o tʃa.ⁿdo niŋ/",
+      "phonetic_simple": "I NO DIOM O TCHAN-DO NING ?",
+      "translation": "Ai-je la permission d'entrer dans la maison ?",
+      "context": "Demander l'autorisation d'entrer"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'obligation avec 'nɔ'",
+      "explanation": "Le verbe 'nɔ' (qui signifie originellement posséder) est utilisé comme semi-auxiliaire pour traduire l'obligation. Il est immédiatement suivi du pronom sujet répété et du verbe d'action.",
+      "rules": [
+        "Structure affirmative : Sujet + nɔ + Sujet + Verbe d'action.",
+        "Le verbe principal reste au radical nu."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + nɔ + Sujet + Verbe",
+          "phonetic_api": "/i nɔ i mɛl/",
+          "meaning": "Je dois boire."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Tamba",
+      "text": "Saa, o nɔ o lo ciao haala ?",
+      "phonetic_api": "/saː o nɔ o lo tʃja.o haː.la/",
+      "phonetic_simple": "SAA, O NO O LO TCHIA-O HAA-LA ?",
+      "translation": "Saa, dois-tu aller au marché aujourd'hui ?"
+    },
+    {
+      "speaker": "Saa",
+      "text": "Haa, i nɔ i lo. Ndra nio o co mi wali co loolu.",
+      "phonetic_api": "/haː i nɔ i lo ⁿdɽa njo o tʃo mi wa.li tʃo loː.lu/",
+      "phonetic_simple": "HAA, I NO I LO. NDRA NYO O TCHO MI WA-LI TCHO LOO-LOU.",
+      "translation": "Oui, je dois y aller. Ma mère va me donner du travail à faire."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la communauté kissi, l'interdiction ou le respect des interdits traditionnels (les 'tana' ou totems claniques) est fondamental. Demander la permission ('diom') avant d'entrer dans une concession ou de prendre la parole devant les aînés témoigne d'une haute éducation."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex16_1",
+      "type": "multiple_choice",
+      "question": "Quel verbe utilise-t-on pour construire l'obligation en kissi ?",
+      "options": [
+        "Phee",
+        "Nɔ",
+        "Baŋa"
+      ],
+      "correct_answer": "Nɔ",
+      "explanation": "Le verbe 'nɔ' sert de marqueur d'obligation lorsqu'il est redoublé avec le sujet."
+    },
+    {
+      "exercise_id": "ex16_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Co mi [ ___ ]. (Donne-moi la permission)",
+      "correct_answer": "diom",
+      "hint": "Le mot pour accord ou droit"
+    }
+  ]
+}

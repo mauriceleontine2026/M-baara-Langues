@@ -1,0 +1,379 @@
+{
+  "lesson_id": "C2_M2_L6",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 6,
+  "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
+  "learning_objectives": [
+    "Introduire et raconter un conte traditionnel avec kwèlêŋ (~ hɔ̌ɔ = raconter un conte).",
+    "Nommer le vocabulaire des grandes cérémonies : funérailles (gbògbôŋ), discours d'adieu (pǎma).",
+    "S'adresser formellement au chef de village (lùɠutíɠî) et comprendre son rôle rituel.",
+    "Combiner le vocabulaire calendaire cérémoniel (Débutant Leçon 6) avec le registre soutenu de cette leçon."
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le registre soutenu kpele privilégie des formules figées et des tournures introductives spécifiques (comme hwílêŋ hwúlu dà ... ɓâ, « mon conte parle de... ») que l'on ne rencontre pas dans la conversation courante. Reconnaître ces formules à l'oreille est essentiel pour identifier un discours cérémoniel dès ses premiers mots.",
+    "common_pitfalls": "Les francophones ont tendance à : (1) traduire kwèlêŋ (conte, légende) par une simple « histoire », en perdant la dimension traditionnelle et souvent nocturne de sa transmission ; (2) ne pas distinguer les cérémonies selon leur objet précis, alors que gbògbôŋ désigne spécifiquement les funérailles d'une femme morte en couches, un cas culturellement distinct des funérailles ordinaires ; (3) oublier que lùɠutíɠî (chef de village) a une fonction rituelle propre, notamment pour désigner un remplaçant (hàŋzû), qui dépasse la simple autorité administrative."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "kwèlêŋ",
+      "phonetic_api": "/kwèlêŋ/",
+      "phonetic_simple": "KWÈ-lêng",
+      "translation": "conte, légende (~ hɔ̌ɔ = raconter un conte)",
+      "example_sentence": "Hwílêŋ hwúlu dà hɔ̀uwolo ɓâ.",
+      "example_phonetic": "/hwílêŋ hwúlu dà hɔ̀uwolo ɓâ/",
+      "example_translation": "Mon conte parle de l'hyène et du lièvre."
+    },
+    {
+      "word_id": "v2",
+      "term": "gbògbôŋ",
+      "phonetic_api": "/gbògbôŋ/",
+      "phonetic_simple": "gbo-GBÔNG",
+      "translation": "cérémonie funéraire (pour la mort d'une femme en couches)",
+      "example_sentence": "gbògbôŋ",
+      "example_phonetic": "/gbògbôŋ/",
+      "example_translation": "cérémonie funéraire (femme en couches)"
+    },
+    {
+      "word_id": "v3",
+      "term": "pǎma",
+      "phonetic_api": "/pǎma/",
+      "phonetic_simple": "pa-ma (ton bas)",
+      "translation": "discours d'adieu (dans la cérémonie funèbre, après la mort du père de famille) (~ ɓó = faire un discours d'adieu)",
+      "example_sentence": "Pǎma ɓó.",
+      "example_phonetic": "/pǎma ɓó/",
+      "example_translation": "Faire un discours d'adieu."
+    },
+    {
+      "word_id": "v4",
+      "term": "lùɠutíɠî",
+      "phonetic_api": "/lùɣutíɣî/",
+      "phonetic_simple": "lou-ghou-TI-ghî",
+      "translation": "chef de village",
+      "example_sentence": "Lùɠutíɠi ↓ɓé áá zàŋzú kǔlo.",
+      "example_phonetic": "/lùɣutíɣi ↓ɓé áá zàŋzú kǔlo/",
+      "example_translation": "C'est le chef de village qui désigne un remplaçant."
+    },
+    {
+      "word_id": "v5",
+      "term": "hàŋzû",
+      "phonetic_api": "/hàŋzû/",
+      "phonetic_simple": "hang-ZÛ",
+      "translation": "remplaçant (nom relationnel)",
+      "example_sentence": "Lùɠutíɠi ↓ɓé áá zàŋzú kǔlo.",
+      "example_phonetic": "/lùɣutíɣi ↓ɓé áá zàŋzú kǔlo/",
+      "example_translation": "C'est le chef de village qui désigne un remplaçant."
+    },
+    {
+      "word_id": "v6",
+      "term": "tɛ̀lɛ̂ŋ",
+      "phonetic_api": "/tɛ̀lɛ̂ŋ/",
+      "phonetic_simple": "TÈ-lêng",
+      "translation": "lundi (jour des fêtes, funérailles, baptêmes)",
+      "example_sentence": "tɛ̀lɛ̂ŋ",
+      "example_phonetic": "/tɛ̀lɛ̂ŋ/",
+      "example_translation": "lundi"
+    },
+    {
+      "word_id": "v7",
+      "term": "dìelɔɠɔ",
+      "phonetic_api": "/dìelɔɣɔ/",
+      "phonetic_simple": "di-e-lo-gho",
+      "translation": "jeudi (jour où on fixe la date des grandes fêtes)",
+      "example_sentence": "dìelɔɠɔ",
+      "example_phonetic": "/dìelɔɣɔ/",
+      "example_translation": "jeudi"
+    },
+    {
+      "word_id": "v8",
+      "term": "wéleŋdɛlɔɠɔ̂",
+      "phonetic_api": "/wéleŋtɛ́lɔɣɔ̂/",
+      "phonetic_simple": "WÉ-lèng-dè-lo-ghô",
+      "translation": "samedi (jour des danses)",
+      "example_sentence": "wéleŋdɛlɔɠɔ̂",
+      "example_phonetic": "/wéleŋtɛ́lɔɣɔ̂/",
+      "example_translation": "samedi"
+    },
+    {
+      "word_id": "v9",
+      "term": "kànalâa",
+      "phonetic_api": "/kànalâa/",
+      "phonetic_simple": "ka-na-LA-a",
+      "translation": "parenté à plaisanterie",
+      "example_sentence": "kànalâa",
+      "example_phonetic": "/kànalâa/",
+      "example_translation": "la parenté à plaisanterie"
+    },
+    {
+      "word_id": "v10",
+      "term": "hìletâi",
+      "phonetic_api": "/hìletâi/",
+      "phonetic_simple": "hi-le-TA-i",
+      "translation": "mariage (~ kɛ́ = se marier)",
+      "example_sentence": "Hìletâi kɛ́.",
+      "example_phonetic": "/hìletâi kɛ́/",
+      "example_translation": "Se marier."
+    },
+    {
+      "word_id": "v11",
+      "term": "hɔ́ɔnŋ",
+      "phonetic_api": "/hɔ́ɔnŋ/",
+      "phonetic_simple": "HO-onng",
+      "translation": "proverbe (~ hɔ̌ɔ = dire un proverbe)",
+      "example_sentence": "Hɔ́ɔnŋ hɔ̌ɔ.",
+      "example_phonetic": "/hɔ́ɔnŋ hɔ̌ɔ/",
+      "example_translation": "Dire un proverbe."
+    },
+    {
+      "word_id": "v12",
+      "term": "hɔ̀uwolo",
+      "phonetic_api": "/hɔ̀uwolo/",
+      "phonetic_simple": "HO-ou-wo-lo",
+      "translation": "lièvre",
+      "example_sentence": "Hwílêŋ hwúlu dà hɔ̀uwolo ɓâ.",
+      "example_phonetic": "/hwílêŋ hwúlu dà hɔ̀uwolo ɓâ/",
+      "example_translation": "Mon conte parle de l'hyène et du lièvre."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Hwílêŋ hwúlu dà hɔ̀uwolo ɓâ.",
+      "phonetic_api": "/hwílêŋ hwúlu dà hɔ̀uwolo ɓâ/",
+      "phonetic_simple": "HWI-lêng HWOU-lou da HO-ou-wo-lo ɓâ",
+      "translation": "Mon conte parle de l'hyène et du lièvre.",
+      "context": "Formule traditionnelle pour introduire un conte"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Kwèlêŋ hɔ̌ɔ.",
+      "phonetic_api": "/kwèlêŋ hɔ̌ɔ/",
+      "phonetic_simple": "KWÈ-lêng ho-o",
+      "translation": "Raconter un conte.",
+      "context": "Annoncer le début d'un récit traditionnel, souvent le soir"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Lùɠutíɠi ↓ɓé áá zàŋzú kǔlo.",
+      "phonetic_api": "/lùɣutíɣi ↓ɓé áá zàŋzú kǔlo/",
+      "phonetic_simple": "lou-ghou-TI-ghi bé aa zang-ZOU KOU-lo",
+      "translation": "C'est le chef de village qui désigne un remplaçant.",
+      "context": "Décrire une procédure de succession villageoise"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Pǎma ɓó.",
+      "phonetic_api": "/pǎma ɓó/",
+      "phonetic_simple": "pa-ma BO",
+      "translation": "Faire un discours d'adieu.",
+      "context": "Décrire un rite funéraire formel"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Kànalâa.",
+      "phonetic_api": "/kànalâa/",
+      "phonetic_simple": "ka-na-LA-a",
+      "translation": "La parenté à plaisanterie.",
+      "context": "Rappel Débutant Leçon 4 : une institution sociale formelle"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Tɛ̀lɛ̂ŋ ɓé lɔ́ɠɔ ↓kɔ́lɔŋ hù.",
+      "phonetic_api": "/tɛ̀lɛ̂ŋ ɓé lɔ́ɣɔ ↓kɔ́lɔŋ hù/",
+      "phonetic_simple": "TÈ-lêng bé LO-gho KO-long hou",
+      "translation": "Lundi, dans la semaine à venir.",
+      "context": "Annoncer une cérémonie prévue"
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Hɔ́ɔnŋ hɔ̌ɔ, élɛɛ kwèlêŋ hɔ̌ɔ.",
+      "phonetic_api": "/hɔ́ɔnŋ hɔ̌ɔ élɛɛ kwèlêŋ hɔ̌ɔ/",
+      "phonetic_simple": "HO-onng ho-o, É-lè-è KWÈ-lêng ho-o",
+      "translation": "Dire un proverbe, puis raconter un conte.",
+      "context": "Décrire une veillée traditionnelle en deux temps"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La formule d'ouverture du conte",
+      "explanation": "Le conte kpele s'ouvre traditionnellement par une formule figée qui annonce le sujet du récit, bien différente de l'entrée en matière d'une conversation ordinaire.",
+      "rules": [
+        "hwílêŋ hwúlu dà [personnage A] dà [personnage B] ɓâ = mon conte parle de [A] et de [B].",
+        "Cette formule introductive fonctionne comme un signal social : elle indique aux auditeurs qu'un récit traditionnel commence, souvent le soir, en marquant une rupture avec le registre courant."
+      ],
+      "examples": [
+        {
+          "structure": "hwílêŋ hwúlu dà ... dà ... ɓâ",
+          "phonetic_api": "/hwílêŋ hwúlu dà .../",
+          "meaning": "mon conte parle de... et de..."
+        }
+      ]
+    },
+    {
+      "concept": "Le vocabulaire précis des cérémonies funéraires",
+      "explanation": "Contrairement au français, qui utilise souvent un seul mot général (« funérailles »), le kpele nomme précisément différents types de cérémonies selon les circonstances du décès et le rôle rituel joué par chacun.",
+      "rules": [
+        "gbògbôŋ désigne spécifiquement la cérémonie funéraire d'une femme morte en couches, un cas culturellement distinct.",
+        "pǎma désigne le discours d'adieu prononcé après la mort du père de famille, un genre rhétorique en soi.",
+        "Cette précision lexicale reflète l'importance sociale accordée à chaque type de perte et à son rituel propre."
+      ],
+      "examples": [
+        {
+          "structure": "gbògbôŋ ≠ pǎma",
+          "phonetic_api": "/gbògbôŋ/ ≠ /pǎma/",
+          "meaning": "deux cérémonies funéraires distinctes selon le défunt et le rite"
+        }
+      ]
+    },
+    {
+      "concept": "Le rôle rituel du chef de village",
+      "explanation": "Le lùɠutíɠî (chef de village) intervient dans des moments cérémoniels précis, notamment pour la désignation d'un remplaçant (hàŋzû), un acte formel qui dépasse la gestion administrative courante.",
+      "rules": [
+        "lùɠutíɠi ↓ɓé áá zàŋzú kǔlo = c'est le chef de village qui désigne un remplaçant : la construction met en relief (↓ɓé) le rôle exclusif du chef dans cette décision.",
+        "Ce type de mise en relief est typique du discours formel, où l'on souligne qui a l'autorité légitime d'accomplir un acte."
+      ],
+      "examples": [
+        {
+          "structure": "lùɠutíɠi ↓ɓé áá [action]",
+          "phonetic_api": "/lùɣutíɣi ↓ɓé áá/",
+          "meaning": "c'est le chef de village qui [fait telle action]"
+        }
+      ]
+    },
+    {
+      "concept": "Combiner calendrier cérémoniel et registre soutenu",
+      "explanation": "Les jours de la semaine associés à des fonctions rituelles (Débutant Leçon 6) prennent tout leur sens dans un discours formel annonçant une cérémonie à venir.",
+      "rules": [
+        "tɛ̀lɛ̂ŋ (lundi, jour des fêtes et funérailles), dìelɔɠɔ (jeudi, jour où l'on fixe les dates des grandes fêtes) et wéleŋdɛlɔɠɔ̂ (samedi, jour des danses) structurent le calendrier cérémoniel du village.",
+        "Un discours formel annonçant un mariage (hìletâi) ou des funérailles s'appuiera naturellement sur ce vocabulaire calendaire déjà connu."
+      ],
+      "examples": [
+        {
+          "structure": "tɛ̀lɛ̂ŋ / dìelɔɠɔ / wéleŋdɛlɔɠɔ̂",
+          "phonetic_api": "/tɛ̀lɛ̂ŋ/ /dìelɔɣɔ/ /wéleŋtɛ́lɔɣɔ̂/",
+          "meaning": "lundi (fêtes) / jeudi (fixation des dates) / samedi (danses)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Personne A (le conteur)",
+      "text": "Hwílêŋ hwúlu dà hɔ̀uwolo ɓâ.",
+      "phonetic_api": "/hwílêŋ hwúlu dà hɔ̀uwolo ɓâ/",
+      "phonetic_simple": "HWI-lêng HWOU-lou da HO-ou-wo-lo ɓâ",
+      "translation": "Mon conte parle de l'hyène et du lièvre."
+    },
+    {
+      "speaker": "Personne B (l'auditeur)",
+      "text": "Ŋàá mɛ̌ŋ, kwèlêŋ hɔ̌ɔ !",
+      "phonetic_api": "/ŋàá mɛ̌ŋ kwèlêŋ hɔ̌ɔ/",
+      "phonetic_simple": "nga-a MENG, KWÈ-lêng ho-o !",
+      "translation": "J'ai compris, raconte le conte !"
+    },
+    {
+      "speaker": "Personne A (le conteur)",
+      "text": "Élɛɛ, tɛ̀lɛ̂ŋ ɓé lɔ́ɠɔ ↓kɔ́lɔŋ hù, kú lì hìletâi kɛ́i.",
+      "phonetic_api": "/élɛɛ tɛ̀lɛ̂ŋ ɓé lɔ́ɣɔ ↓kɔ́lɔŋ hù kú lì hìletâi kɛ́i/",
+      "phonetic_simple": "É-lè-è, TÈ-lêng bé LO-gho KO-long hou, kou li hi-le-TA-i KÈ-i",
+      "translation": "Puis, lundi de la semaine à venir, nous irons nous marier."
+    },
+    {
+      "speaker": "Personne B (l'auditeur)",
+      "text": "Lùɠutíɠi ↓ɓé áá zàŋzú kǔlo màáhɔ̀lɔɓó dìelɔɠɔ àa gèé pɔ́.",
+      "phonetic_api": "/lùɣutíɣi ↓ɓé áá zàŋzú kǔlo màáhɔ̀lɔɓó dìelɔɣɔ àa gèé pɔ́/",
+      "phonetic_simple": "lou-ghou-TI-ghi bé aa zang-ZOU KOU-lo ma-a-HO-lo-ɓO di-e-lo-gho aa gé PO",
+      "translation": "C'est le chef de village qui a désigné un remplaçant, parce que jeudi on a fixé la date ensemble."
+    },
+    {
+      "speaker": "Personne A (le conteur)",
+      "text": "Hɔ́ɔnŋ hɔ̌ɔ : hèɠeheɠelaá dà tɔ̀ɔtɔɔlaa ɓé. Máma, mɛ́niê !",
+      "phonetic_api": "/hɔ́ɔnŋ hɔ̌ɔ hèɣèhèɣèlaá dà tɔ̀ɔtɔɔlaa ɓé máma mɛ́niê/",
+      "phonetic_simple": "HO-onng ho-o: hè-ghè-hè-ghè-LAA da to-o-to-o-LAA bé. MA-ma, MÉ-ni-Ê !",
+      "translation": "Je dis un proverbe : celui qui vient succède à celui qui part. Merci, mon ami !"
+    }
+  ],
+  "cultural_notes": [
+    "Les contes kpele (kwèlêŋ) se transmettent traditionnellement le soir, en famille ou au village, et mettent souvent en scène des animaux rusés comme l'hyène et le lièvre, des figures récurrentes de la tradition orale ouest-africaine.",
+    "La distinction entre gbògbôŋ (funérailles d'une femme en couches) et les funérailles ordinaires marquées par un pǎma (discours d'adieu) illustre la précision du vocabulaire rituel kpele face aux circonstances particulières du deuil.",
+    "Le rôle du chef de village (lùɠutíɠî) dans la désignation d'un remplaçant (hàŋzû) rappelle que l'autorité villageoise traditionnelle reste étroitement liée aux grandes cérémonies collectives, notamment celles célébrées le lundi (tɛ̀lɛ̂ŋ) ou décidées le jeudi (dìelɔɠɔ).",
+    "L'usage d'un proverbe pour clore un discours formel, déjà vu en Leçon 5, atteint ici son plein sens rituel : il inscrit un événement particulier (un mariage, une succession) dans une sagesse intemporelle partagée par toute la communauté."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle formule introduit traditionnellement un conte kpele ?",
+      "options": [
+        "Kà kɛ́ kàŋ́ gíli↓gílî.",
+        "Hwílêŋ hwúlu dà ... ɓâ.",
+        "À wàla kɛ́ tíi.",
+        "Màánɛ̀ɛ ́ è kúlo."
+      ],
+      "correct_answer": "Hwílêŋ hwúlu dà ... ɓâ.",
+      "explanation": "Cette formule figée annonce le sujet du conte avant de le raconter."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Que désigne précisément gbògbôŋ ?",
+      "options": [
+        "Un mariage",
+        "Les funérailles d'une femme morte en couches",
+        "Un discours d'adieu général",
+        "La désignation d'un chef"
+      ],
+      "correct_answer": "Les funérailles d'une femme morte en couches",
+      "explanation": "gbògbôŋ est un type spécifique de cérémonie funéraire, distinct des funérailles ordinaires."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Qui désigne traditionnellement un remplaçant (hàŋzû) ?",
+      "options": [
+        "Le conteur",
+        "Le chef de village (lùɠutíɠî)",
+        "N'importe quel villageois",
+        "Le plus jeune du village"
+      ],
+      "correct_answer": "Le chef de village (lùɠutíɠî)",
+      "explanation": "lùɠutíɠi ↓ɓé áá zàŋzú kǔlo : c'est spécifiquement le chef de village qui accomplit cet acte formel."
+    },
+    {
+      "exercise_id": "ex4",
+      "type": "multiple_choice",
+      "question": "Quel jour est traditionnellement celui où l'on fixe la date des grandes fêtes ?",
+      "options": [
+        "tɛ̀lɛ̂ŋ (lundi)",
+        "dìelɔɠɔ (jeudi)",
+        "wéleŋdɛlɔɠɔ̂ (samedi)",
+        "gìlímàlɔɠɔ (dimanche)"
+      ],
+      "correct_answer": "dìelɔɠɔ (jeudi)",
+      "explanation": "dìelɔɠɔ est le jour dédié à la fixation des dates des grandes cérémonies, déjà vu en Débutant Leçon 6."
+    },
+    {
+      "exercise_id": "ex5",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "« Raconter un conte » se dit : « Kwèlêŋ [ ___ ]. »",
+      "correct_answer": "hɔ̌ɔ",
+      "hint": "C'est le même verbe léger utilisé aussi avec hɔ́ɔnŋ (proverbe)."
+    },
+    {
+      "exercise_id": "ex6",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "« Faire un discours d'adieu » se dit : « [ ___ ] ɓó. »",
+      "correct_answer": "Pǎma",
+      "hint": "C'est le nom de ce discours funéraire spécifique."
+    },
+    {
+      "exercise_id": "ex7",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le personnage rusé qui accompagne souvent le lièvre dans les contes kpele est [ ___ ].",
+      "correct_answer": "l'hyène",
+      "hint": "C'est l'autre protagoniste cité dans hwílêŋ hwúlu dà hɔ̀uwolo ɓâ."
+    }
+  ]
+}

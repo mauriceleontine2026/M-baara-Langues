@@ -1,0 +1,132 @@
+{
+  "lesson_id": "B1_M3_L8",
+  "level": "Niveau Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 8,
+  "title": "Parler de son travail, de ses études et de sa routine professionnelle",
+  "learning_objectives": [
+    "Décrire ses tâches professionnelles quotidiennes",
+    "Parler de ses horaires et de son lieu de travail ou d'études",
+    "Évoquer les actions de la routine (commencer, finir, se réunir)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot 'wali' (travail) possède une semi-voyelle bilabiale /w/. Le verbe 'peeku' (étudier/apprendre) utilise une voyelle longue fermée /eː/.",
+    "common_pitfalls": "Veillez à ne pas prononcer le 'w' de 'wali' de manière trop dure. Il doit être fluide et glissé, proche du 'ou' français dans 'oui'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v17_1",
+      "term": "wali",
+      "phonetic_api": "/wa.li/",
+      "phonetic_simple": "WA-LI",
+      "translation": "travail / profession / activité",
+      "example_sentence": "Wali nio o co fiaa.",
+      "example_phonetic": "/wa.li njo o tʃo fjaː/",
+      "example_translation": "Mon travail est important (grand)."
+    },
+    {
+      "word_id": "v17_2",
+      "term": "peeku",
+      "phonetic_api": "/peː.ku/",
+      "phonetic_simple": "PÉÉ-KOU",
+      "translation": "étudier / apprendre / lire",
+      "example_sentence": "I co peeku ning cando.",
+      "example_phonetic": "/i tʃo peː.ku niŋ tʃa.ⁿdo/",
+      "example_translation": "J'étudie à la maison."
+    },
+    {
+      "word_id": "v17_3",
+      "term": "kandɛ",
+      "phonetic_api": "/ka.ⁿdɛ/",
+      "phonetic_simple": "KAN-DÈ",
+      "translation": "commencer / débuter",
+      "example_sentence": "I kandɛ wali.",
+      "example_phonetic": "/i ka.ⁿdɛ wa.li/",
+      "example_translation": "J'ai commencé le travail."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p17_1",
+      "original": "Tele yɛŋ o co wali kandɛ ?",
+      "phonetic_api": "/te.le jɛŋ o tʃo wa.li ka.ⁿdɛ/",
+      "phonetic_simple": "TÉ-LÉ YENG O TCHO WA-LI KAN-DÈ ?",
+      "translation": "À quelle heure commences-tu le travail ?",
+      "context": "S'informer sur la routine d'un collègue"
+    },
+    {
+      "phrase_id": "p17_2",
+      "original": "I co wana peeku co ni lebol bɛndɛ ning.",
+      "phonetic_api": "/i tʃo wa.na peː.ku tʃo ni le.bol bɛⁿdɛ niŋ/",
+      "phonetic_simple": "I TCHO WA-NA PÉÉ-KOU TCHO NI LÉ-BOL BEN-DE NING",
+      "translation": "Je suis étudiant dans la grande ville.",
+      "context": "Présenter son statut académique"
+    },
+    {
+      "phrase_id": "p17_3",
+      "original": "I wali kpou gbɛɛ.",
+      "phonetic_api": "/i wa.li k͡pu g͡bɛː/",
+      "phonetic_simple": "I WA-LI KPOU GBÈÈ",
+      "translation": "J'ai terminé tout mon travail hier.",
+      "context": "Faire le bilan de ses tâches"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'utilisation des verbes d'action initiaux comme 'kandɛ'",
+      "explanation": "Les verbes aspectuels comme 'kandɛ' (commencer) se placent directement avant le substantif ou l'infinitif de l'action pour marquer le point de départ d'une routine.",
+      "rules": [
+        "Le sujet précède immédiatement 'kandɛ'.",
+        "Le nom de l'activité (ex: wali) complète directement l'énoncé."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + kandɛ + Nom d'activité",
+          "phonetic_api": "/i ka.ⁿdɛ wa.li/",
+          "meaning": "Je commence le travail."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sia",
+      "text": "Tamba, o co wali lo haala ?",
+      "phonetic_api": "/ta.ᵐba o tʃo wa.li lo haː.la/",
+      "phonetic_simple": "TAM-BA, O TCHO WA-LI LO HAA-LA ?",
+      "translation": "Tamba, vas-tu au travail aujourd'hui ?"
+    },
+    {
+      "speaker": "Tamba",
+      "text": "Haa, i co lo. Tele puu i kandɛ wali ni.",
+      "phonetic_api": "/haː i tʃo lo te.le puː i ka.ⁿdɛ wa.li ni/",
+      "phonetic_simple": "HAA, I TCHO LO. TÉ-LÉ POUU I KAN-DÈ WA-LI NI.",
+      "translation": "Oui, j'y vais. C'est à dix heures que je commence le travail."
+    }
+  ],
+  "cultural_notes": [
+    "Le travail de la terre (agriculture, culture du riz) constitue l'activité routinière principale en milieu traditionnel kissi. Les journées commencent généralement très tôt au lever du soleil pour éviter les grandes chaleurs de la mi-journée."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex17_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le verbe 'peeku' ?",
+      "options": [
+        "Danser",
+        "Étudier / Apprendre",
+        "Acheter"
+      ],
+      "correct_answer": "Étudier / Apprendre",
+      "explanation": "'Peeku' renvoie à l'acquisition de connaissances, à la lecture ou aux études."
+    },
+    {
+      "exercise_id": "ex17_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "I [ ___ ] wali. (Je commence le travail)",
+      "correct_answer": "kandɛ",
+      "hint": "Verbe pour débuter une action"
+    }
+  ]
+}

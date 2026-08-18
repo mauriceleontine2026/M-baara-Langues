@@ -1,0 +1,249 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer en chinois mandarin",
+  "learning_objectives": [
+    "Savoir demander la direction d'un lieu public de manière polie",
+    "Comprendre les indications spatiales de base (droite, gauche, tout droit)",
+    "Utiliser correctement la structure de localisation avec 在 (zài) et les mots de position"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon introduit des structures locatives essentielles. Le mot 车站 (chēzhàn) enchaîne deux consonnes rétroflexes sourdes : 'ch' (/tʂʰ/) qui est fortement aspirée, et 'zh' (/tʂ/) qui ne l'est pas, exigeant une alternance de souffle précise. Le mot 边 (biān) utilise la finale complexe /i̯ɛn/ au 1er ton haut et plat. La particule interrogative 哪儿 (nǎr) combine le troisième ton avec l'affixe de rétroflexion 'er' (Erhua), créant un son vocalique enroulé unique typique du nord de la Chine.",
+    "common_pitfalls": "Veillez à ne pas prononcer le 'z' de 左 (zuǒ) ou 在 (zài) comme un 'z' français. Il s'agit d'une consonne affriquée alvéolaire sourde /ts/, proche du son 'ts' dans 'tsunami'. Ne confondez pas 往前 (wǎng qián - vers l'avant) avec 往右 (wǎng yòu - vers la droite), le premier montant distinctement au 2ème ton, le second descendant sèchement au 4ème ton."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "在哪儿",
+      "phonetic_api": "/dzaɪ̯˥˩ na˨˩˦ r/",
+      "phonetic_simple": "DZAÏ NAR",
+      "translation": "Où se trouve ? / Être où ?",
+      "example_sentence": "洗手间在哪儿？",
+      "example_phonetic": "/ɕi˨˩˦ ʂoʊ̯˨˩˦ tɕi̯ɛn˥ dzaɪ̯˥˩ na˨˩˦ r/",
+      "example_translation": "Où se trouvent les toilettes ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "地铁站",
+      "phonetic_api": "/di˥˩ tʰi̯ɛ˧˥ tʂan˥˩/",
+      "phonetic_simple": "DEE-THIÉ DZAN",
+      "translation": "Station de métro",
+      "example_sentence": "附近有地铁站吗？",
+      "example_phonetic": "/fu˥˩ dɕin˥˩ joʊ̯˨˩˦ di˥˩ tʰi̯ɛ˧˥ tʂan˥˩ ma/",
+      "example_translation": "Y a-t-il une station de métro à proximité ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "怎么走",
+      "phonetic_api": "/tsən˨˩˦ mɤ dzwɔʊ̯˨˩˦/",
+      "phonetic_simple": "DZEN-MEU DZOW",
+      "translation": "Comment s'y rendre ? / Quel est le chemin ?",
+      "example_sentence": "请问，去银行怎么走？",
+      "example_phonetic": "/tɕʰiŋ˨˩˦ wen˥˩ tɕy˥˩ iŋ˧˥ xaŋ˧˥ tsən˨˩˦ mɤ dzwɔʊ̯˨˩˦/",
+      "example_translation": "S'il vous plaît, comment va-t-on à la banque ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "往前",
+      "phonetic_api": "/waŋ˨˩˦ tɕʰi̯ɛn˧˥/",
+      "phonetic_simple": "OUANG TCHIEN",
+      "translation": "Vers l'avant / Tout droit",
+      "example_sentence": "请往前走一百米。",
+      "example_phonetic": "/tɕʰiŋ˨˩˦ waŋ˨˩˦ tɕʰi̯ɛn˧˥ dzwɔʊ̯˨˩˦ i˥ baɪ̯˨˩˦ mi˨˩˦/",
+      "example_translation": "S'il vous plaît, marchez tout droit sur cent mètres."
+    },
+    {
+      "word_id": "v5",
+      "term": "拐",
+      "phonetic_api": "/kwaɪ̯˨˩˦/",
+      "phonetic_simple": "GOUAÏ",
+      "translation": "Tourner (changer de direction)",
+      "example_sentence": "在红绿灯往右拐。",
+      "example_phonetic": "/dzaɪ̯˥˩ xʊŋ˧˥ ly˥˩ tɤŋ˥ waŋ˨˩˦ joʊ̯˥˩ kwaɪ̯˨˩˦/",
+      "example_translation": "Tournez à droite au feu de signalisation."
+    },
+    {
+      "word_id": "v6",
+      "term": "旁边",
+      "phonetic_api": "/pʰaŋ˧˥ bi̯ɛn˥/",
+      "phonetic_simple": "PHANG-BIEN",
+      "translation": "À côté de / Le côté",
+      "example_sentence": "商店在学堂旁边。",
+      "example_phonetic": "/ʂaŋ˥ ti̯ɛn˥˩ dzaɪ̯˥˩ ɕy̯ɛ˧˥ tʰaŋ˧˥ pʰaŋ˧˥ bi̯ɛn˥/",
+      "example_translation": "Le magasin est à côté de l'école."
+    },
+    {
+      "word_id": "v7",
+      "term": "附近",
+      "phonetic_api": "/fu˥˩ dɕin˥˩/",
+      "phonetic_simple": "FOU-TCHIN",
+      "translation": "À proximité / Aux alentours",
+      "example_sentence": "这附近没有超市。",
+      "example_phonetic": "/tʂɤ˥˩ fu˥˩ dɕin˥˩ meɪ̯˧˥ joʊ̯˨˩˦ tʂʰaʊ̯˥˩ ʂʐ̩˥˩/",
+      "example_translation": "Il n'y a pas de supermarché dans les environs."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "请问，火车站在哪儿？",
+      "phonetic_api": "/tɕʰiŋ˨˩˦ wen˥˩ xwɔ˨˩˦ tʂɤ˥ tʂan˥˩ dzaɪ̯˥˩ na˨˩˦ r/",
+      "phonetic_simple": "TCHING-OUEN, KHOUO-TCHEU-DZAN DZAÏ NAR ?",
+      "translation": "S'il vous plaît, où se trouve la gare ferroviaire ?",
+      "context": "Interpeller poliment un passant dans la rue pour localiser un grand repère"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "一直往前走。",
+      "phonetic_api": "/i˥ tʂʐ̩˧˥ waŋ˨˩˦ tɕʰi̯ɛn˧˥ dzwɔʊ̯˨˩˦/",
+      "phonetic_simple": "EE-TCHEI OUANG TCHIEN DZOW",
+      "translation": "Allez tout droit de façon continue.",
+      "context": "Indication d'itinéraire standard"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "往左拐还是往右拐？",
+      "phonetic_api": "/waŋ˨˩˦ tswɔ˨˩˦ kwaɪ̯˨˩˦ xaɪ̯˧˥ ʂʐʐ˥˩ waŋ˨˩˦ joʊ̯˥˩ kwaɪ̯˨˩˦/",
+      "phonetic_simple": "OUANG TSOUO GOUAÏ HAÏ-CHEI OUANG YOW GOUAÏ ?",
+      "translation": "Faut-il tourner à gauche ou à droite ?",
+      "context": "Demander des précisions à un carrefour"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "在第一个路口往右拐。",
+      "phonetic_api": "/dzaɪ̯˥˩ ti˥˩ i˥ kɤ lu˥˩ kʰoʊ̯˨˩˦ waŋ˨˩˦ joʊ̯˥˩ kwaɪ̯˨˩˦/",
+      "phonetic_simple": "DZAÏ TEE EE GEU LOU-KHOW OUANG YOW GOUAÏ",
+      "translation": "Tournez à droite à la première intersection.",
+      "context": "Donner une consigne d'orientation précise"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "天安门离这儿远吗？",
+      "phonetic_api": "/tʰi̯ɛn˥ an˥ mən˧˥ li˧˥ tʂʐ̩˥˩ r jɥ̯ɛn˨˩˦ ma/",
+      "phonetic_simple": "THIEN-AN-MEN LEE TCHIER YUEN MA ?",
+      "translation": "Est-ce que la place Tiananmen est loin d'ici ?",
+      "context": "Évaluer une distance géographique par rapport à sa position actuelle"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "不远，很近，走五分钟就到了。",
+      "phonetic_api": "/bu˥˩ jɥ̯ɛn˨˩˦ xən˨˩˦ dɕin˥˩ dzwɔʊ̯˨˩˦ wu˨˩˦ fən˥ tɕʊŋ˥ tɕi̯oʊ̯˥˩ daʊ̯˥˩ lɤ/",
+      "phonetic_simple": "BOU YUEN, HEUN TCHIN, DZOW OU FEN-CHONG TCHIOU DAO LEU",
+      "translation": "Ce n'est pas loin, c'est très proche, on y arrive en seulement cinq minutes de marche.",
+      "context": "Rassurer un piéton sur la proximité d'un lieu"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure locative fondamentale avec 在 (zài) + Mot de position",
+      "explanation": "Pour indiquer la position d'un objet ou d'un lieu, le mandarin utilise une structure inversée par rapport au français. Les prépositions de lieu se placent après le nom du point de repère.",
+      "rules": [
+        "Structure de base : [Sujet/Lieu A] + 在 (zài) + [Point de repère B] + [Mot de position/Localisateur].",
+        "Les localisateurs incluent 边 (biān - côté) ou 面 (miàn - face) associés à une direction : 左边 (zuǒbiān - à gauche), 右边 (yòubiān - à droite), 前边 (qiánbian - devant), 后边 (hòubian - derrière)."
+      ],
+      "examples": [
+        {
+          "structure": "银行 (Banque) + 在 + 门诊 (Clinique) + 旁边 (À côté)",
+          "phonetic_api": "/iŋ˧˥ xaŋ˧˥ dzaɪ̯˥˩ mən˧˥ tʂən˨˩˦ pʰaŋ˧˥ bi̯ɛn˥/",
+          "meaning": "银行在门诊旁边。 (La banque se trouve à côté de la clinique.)"
+        }
+      ]
+    },
+    {
+      "concept": "Indication de direction avec le verbe de mouvement 往 (wǎng)",
+      "explanation": "Pour exprimer un déplacement orienté vers un point cardinal ou une direction spatiale, on utilise l'adverbe/verbe de direction 往 (wǎng).",
+      "rules": [
+        "Structure : 往 (wǎng) + [Direction] + 拐 (kwaɪ̯ - tourner) / 走 (zǒu - marcher).",
+        "Ne placez jamais la direction après le verbe d'action en chinois standard."
+      ],
+      "examples": [
+        {
+          "structure": "往 (Vers) + 左 (Gauche) + 拐 (Tourner)",
+          "phonetic_api": "/waŋ˨˩˦ tswɔ˨˩˦ kwaɪ̯˨˩˦/",
+          "meaning": "往左拐 (Tournez à gauche.)"
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de la distance relative avec 离 (lí)",
+      "explanation": "La préposition 离 (lí) permet de mesurer la distance séparant deux points géographiques distincts, sans considération de l'emplacement de l'interlocuteur.",
+      "rules": [
+        "Structure : [Lieu A] + 离 (lí) + [Lieu B] + [Adjectif de distance : 远 yuǎn / 近 jìn].",
+        "Pour poser la question, on ajoute simplement la particule '吗' à la fin."
+      ],
+      "examples": [
+        {
+          "structure": "我家 (Chez moi) + 离 (de) + 学校 (École) + 很近 (Très proche)",
+          "phonetic_api": "/wo˨˩˦ tɕi̯a˥ li˧˥ ɕy̯ɛ˧˥ ɕi̯aʊ̯˨˩˦ xən˨˩˦ dɕin˥˩/",
+          "meaning": "我家离学校很近。 (Ma maison est très proche de l'école.)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "大卫 (David)",
+      "text": "劳驾，请问地铁站在哪儿？",
+      "phonetic_api": "/laʊ̯˧˥ tɕi̯a˥˩ tɕʰiŋ˨˩˦ wen˥˩ di˥˩ tʰi̯ɛ˧˥ tʂan˥˩ dzaɪ̯˥˩ na˨˩˦ r/",
+      "phonetic_simple": "LAO-TCHIA, TCHING-OUEN DEE-THIÉ DZAN DZAÏ NAR ?",
+      "translation": "Excusez-moi, s'il vous plaît, où est la station de métro ?"
+    },
+    {
+      "speaker": "路人 (Passant)",
+      "text": "地铁站离这儿不远。你一直往前走，在前面的十字路口往左拐。",
+      "phonetic_api": "/di˥˩ tʰi̯ɛ˧˥ tʂan˥˩ li˧˥ tʂʐ̩˥˩ r bu˥˩ jɥ̯ɛn˨˩˦ ni hack i˥ tʂʐ̩˧˥ waŋ˨˩˦ tɕʰi̯ɛn˧˥ dzwɔʊ̯˨˩˦ dzaɪ̯˥˩ tɕʰi̯ɛn˧˥ mi̯an dɤ ʂʐʐ˧˥ tsʐ̩ lu˥˩ kʰoʊ̯˨˩˦ waŋ˨˩˦ tswɔ˨˩˦ kwaɪ̯˨˩˦/",
+      "phonetic_simple": "DEE-THIÉ DZAN LEE TCHIER BOU YUEN. NEE EE-TCHEI OUANG TCHIEN DZOW, DZAÏ THIEN-MIEN DEU CHEI-DZEU LOU-KHOW OUANG TSOUO GOUAÏ.",
+      "translation": "La station de métro n'est pas loin d'ici. Vous allez tout droit de façon continue, puis au carrefour en croix devant vous, vous tournez à gauche."
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "往左拐之后，还要走多少米？",
+      "phonetic_api": "/waŋ˨˩˦ tswɔ˨˩˦ kwaɪ̯˨˩˦ tʂʐ̩˥˩ xoʊ̯ xai˧˥ jaʊ̯˥˩ dzwɔʊ̯˨˩˦ dwɔ˥ ʂaʊ̯ mi˨˩˦/",
+      "phonetic_simple": "OUANG TSOUO GOUAÏ TCHEI-HOW, HAÏ YAO DZOW DOUO-CHAO MEE ?",
+      "translation": "Après avoir tourné à gauche, il faut encore marcher combien de mètres ?"
+    },
+    {
+      "speaker": "路人 (Passant)",
+      "text": "走大约两百米就到了。地铁站在一家大超市的旁边。",
+      "phonetic_api": "/dzwɔʊ̯˨˩˦ da˥˩ jy̯ɛ˥˩ li̯aŋ˨˩˦ baɪ̯˨˩˦ mi˨˩˦ tɕi̯oʊ̯˥˩ daʊ̯˥˩ lɤ di˥˩ tʰi̯ɛ˧˥ tʂan˥˩ dzaɪ̯˥˩ i˥ dɕi̯a˥ da˥˩ tʂʰaʊ̯˥˩ ʂʐ̩˥˩ dɤ pʰaŋ˧˥ bi̯ɛn˥/",
+      "phonetic_simple": "DZOW DA-YUE LIANG-BAÏ MEE TCHIOU DAO LEU. DEE-THIÉ DZAN DZAÏ EE TCHIA DA TCHHAO-CHEI DEU PHANG-BIEN.",
+      "translation": "Marchez environ deux cents mètres et vous y êtes. La station de métro est à côté d'un grand supermarché."
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "太谢谢您 community 了！",
+      "phonetic_api": "/tʰaɪ̯˥˩ ɕi̯ɛ˥˩ ɕi̯ɛ nin lɤ/",
+      "phonetic_simple": "THAÏ CHIEH-CHIEH NEEN LEU !",
+      "translation": "Merci infiniment à vous !"
+    }
+  ],
+  "cultural_notes": [
+    "Pour aborder un inconnu dans la rue afin de solliciter une aide routière, l'expression populaire de Pékin '劳驾' (láojià - litt. 'j'importune votre attelage') ou le classique '请问' (qǐngwén - puis-je demander) sont requis pour installer un climat de courtoisie mutuelle.",
+    "Dans l'urbanisme des vieilles villes de tradition septentrionale (comme Pékin ou Xi'an), les habitants donnent fréquemment les directions à l'aide des quatre points cardinaux : 东 (dōng - est), 西 (xī - ouest), 南 (nán - sud), 北 (běi - nord) plutôt que d'utiliser la gauche ou la droite. Il est utile d'avoir une boussole mentale active dans ces villes.",
+    "Le suffixe rétroflexe 哪儿 (nǎr) prédomine largement au nord du fleuve Bleu, tandis que dans le sud de la Chine ou à Taïwan, la population privilégie la variante lexicale progressive 哪里 (nǎlǐ) sans altération phonétique de la langue."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Traduisez correctement en respectant l'ordre syntaxique des repères spatiaux : 'Le métro est derrière la banque.'",
+      "options": [
+        "地铁在银行后边 (Dìtiě zài yínháng hòubian)",
+        "地铁在后边银行 (Dìtiě zài hòubian yínháng)",
+        "银行在地铁后边 (Yínháng zài dìtiě hòubian)"
+      ],
+      "correct_answer": "地铁在银行后边 (Dìtiě zài yínháng hòubian)",
+      "explanation": "La grammaire du mandarin exige de spécifier d'abord le repère fixe (银行 - la banque) puis d'ajouter l'indicateur de position relative (后边 - arrière/derrière) sous l'autorité du verbe 在."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "你一直[ ___ ]前走，不要往回看。",
+      "correct_answer": "往",
+      "hint": "Préposition de mouvement indispensable pour orienter le sens de la marche vers une direction précise."
+    }
+  ]
+}

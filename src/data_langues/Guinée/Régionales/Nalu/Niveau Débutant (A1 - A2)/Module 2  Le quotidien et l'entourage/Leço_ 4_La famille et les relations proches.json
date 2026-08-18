@@ -1,0 +1,178 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer tous les membres de la famille nucléaire et élargie",
+    "Exprimer les liens de parenté et l'appartenance avec précision"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La langue nalu emploie des voyelles longues indispensables pour identifier les membres de la famille (comme le double 'aa' dans Baa). Le son 'c' se prononce systématiquement 'tch' /tʃ/. La consonne 'mb' est pré-nasalisée et doit être articulée d'un seul bloc ferme avec les lèvres.",
+    "common_pitfalls": "Attention à ne pas abréger les voyelles doublées (ex: 'baa' ne doit pas sonner comme 'ba'), car l'allongement phonétique traduit ici le respect et la distinction sémantique des anciens."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v4_1",
+      "term": "Baa",
+      "phonetic_api": "/baː/",
+      "phonetic_simple": "BAA",
+      "translation": "Père",
+      "example_sentence": "Baa mi a mboye.",
+      "example_phonetic": "/baː mi a mbo.je/",
+      "example_translation": "Mon père va bien."
+    },
+    {
+      "word_id": "v4_2",
+      "term": "Nee",
+      "phonetic_api": "/neː/",
+      "phonetic_simple": "NEE",
+      "translation": "Mère",
+      "example_sentence": "Nee mi a kanyen Boké.",
+      "example_phonetic": "/neː mi a ka.ɲeŋ bo.ke/",
+      "example_translation": "Ma mère habite à Boké."
+    },
+    {
+      "word_id": "v4_3",
+      "term": "Ŋal",
+      "phonetic_api": "/ŋal/",
+      "phonetic_simple": "NGAL",
+      "translation": "Femme / Épouse",
+      "example_sentence": "Ŋal mwo a ce.",
+      "example_phonetic": "/ŋal mwo a tʃe/",
+      "example_translation": "Ton épouse est bonne (gentille)."
+    },
+    {
+      "word_id": "v4_4",
+      "term": "Bweten",
+      "phonetic_api": "/bʷe.ten/",
+      "phonetic_simple": "BOUÉ-TEN",
+      "translation": "Enfant / Fils / Fille",
+      "example_sentence": "M balang bweten bileng.",
+      "example_phonetic": "/m ba.laŋ bʷe.ten bi.leŋ/",
+      "example_translation": "J'ai deux enfants."
+    },
+    {
+      "word_id": "v4_5",
+      "term": "M'ba",
+      "phonetic_api": "/m.ba/",
+      "phonetic_simple": "M-BA",
+      "translation": "Grand-père / Ancêtre",
+      "example_sentence": "M'ba mi boku Kanfarandé.",
+      "example_phonetic": "/m.ba mi bo.ku ka?.fa.?.a?.de/",
+      "example_translation": "Mon grand-père vient de Kanfarandé."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p4_1",
+      "original": "A mboye nalu?",
+      "phonetic_api": "/a mbo.je na.lu/",
+      "phonetic_simple": "A MBO-YÉ NA-LU",
+      "translation": "Comment va la famille ?",
+      "context": "Formule indispensable pour saluer respectueusement le chef de ménage ou s'enquérir des proches."
+    },
+    {
+      "phrase_id": "p4_2",
+      "original": "Nalu mi a mboye ce.",
+      "phonetic_api": "/na.lu mi a mbo.je tʃe/",
+      "phonetic_simple": "NA-LU MI A MBO-YÉ TCHÉ",
+      "translation": "Ma famille va très bien.",
+      "context": "Réponse chaleureuse et polie à donner lors des civilités quotidiennes."
+    },
+    {
+      "phrase_id": "p4_3",
+      "original": "A rila nyere bweten mwo?",
+      "phonetic_api": "/a ri.la ɲe.re bʷe.ten mwo/",
+      "phonetic_simple": "A RI-LA NYÉ-RÉ BOUÉ-TEN MWO",
+      "translation": "Comment s'appelle ton enfant ?",
+      "context": "Utilisé pour faire connaissance avec la descendance de votre interlocuteur."
+    },
+    {
+      "phrase_id": "p4_4",
+      "original": "Bweten mi gbe karandéena.",
+      "phonetic_api": "/bʷe.ten mi gbe ka.ra?.deː.na/",
+      "phonetic_simple": "BOUÉ-TEN MI GBÉ KA-RAN-DÉÉ-NA",
+      "translation": "Mon enfant est étudiant.",
+      "context": "Permet de présenter le statut ou l'activité d'un de ses enfants."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les pronoms possessifs post-nominaux 'mi' et 'mwo'",
+      "explanation": "En nalu, la possession s'exprime très simplement pour les relations de parenté en plaçant le pronom possessif immédiatement après le nom du membre de la famille, sans aucune modification de classe ni de préposition.",
+      "rules": [
+        "Le pronom 'mi' correspond à la première personne du singulier (mon / ma).",
+        "Le pronom 'mwo' correspond à la deuxième personne du singulier (ton / ta)."
+      ],
+      "examples": [
+        {
+          "structure": "Baa mi",
+          "phonetic_api": "/baː mi/",
+          "meaning": "Mon père"
+        },
+        {
+          "structure": "Nee mwo",
+          "phonetic_api": "/neː mwo/",
+          "meaning": "Ta mère"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "Mboye, Amara ! A mboye nalu?",
+      "phonetic_api": "/mbo.je a.ma.ra a mbo.je na.lu/",
+      "phonetic_simple": "MBO-YÉ, A-MA-RA ! A MBO-YÉ NA-LU?",
+      "translation": "Bonjour, Amara ! Comment va la famille ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "Mboye ce, Sékou ! Nalu mi a ce. Baa mi a mboye.",
+      "phonetic_api": "/mbo.je tʃe se.ku na.lu mi a tʃe baː mi a mbo.je/",
+      "phonetic_simple": "MBO-YÉ TCHÉ, SÉ-KOU ! NA-LU MI A TCHÉ. BAA MI A MBO-YÉ.",
+      "translation": "Bonjour bien, Sékou ! Ma famille va bien. Mon père se porte bien."
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Nu koka ! A rila nyere bweten mwo?",
+      "phonetic_api": "/nu ko.ka a ri.la ɲe.re bʷe.ten mwo/",
+      "phonetic_simple": "NOU KO-KA ! A RI-LA NYÉ-RÉ BOUÉ-TEN MWO?",
+      "translation": "Merci ! Comment s'appelle ton enfant ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "Nyere bweten mi gbe Lamine.",
+      "phonetic_api": "/ɲe.re bʷe.ten mi gbe la.min/",
+      "phonetic_simple": "NYÉ-RÉ BOUÉ-TEN MI GBÉ LA-MINE.",
+      "translation": "Le nom de mon enfant est Lamine."
+    }
+  ],
+  "cultural_notes": [
+    "Au sein de la communauté Nalu, les structures familiales sont horizontales et très soudées. Les termes de parenté dépassent largement le cadre biologique : l'oncle paternel est respecté et désigné de la même manière que le père ('Baa'), et les cousins germains sont souvent traités et appelés comme des frères et sœurs."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex4_1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'expression 'Nee mi' ?",
+      "options": [
+        "Mon père",
+        "Ma mère",
+        "Mon enfant"
+      ],
+      "correct_answer": "Ma mère",
+      "explanation": "'Nee' est le mot nalu exclusif pour désigner la mère, suivi de 'mi' (mon/ma)."
+    },
+    {
+      "exercise_id": "ex4_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander des nouvelles de la famille, on utilise le terme : A mboye [ ___ ]?",
+      "correct_answer": "nalu",
+      "hint": "Ce terme désigne à la fois le peuple, la langue et la maisonnée."
+    }
+  ]
+}

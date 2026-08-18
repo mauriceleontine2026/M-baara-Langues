@@ -1,0 +1,114 @@
+{
+  "lesson_id": "B1_M2_L5",
+  "level": "Niveau Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 5,
+  "title": "Parler de ses projets futurs et de ses ambitions",
+  "learning_objectives": [
+    "Exprimer une action future ou un projet",
+    "Formuler un souhait professionnel ou personnel",
+    "Utiliser les marqueurs de temps à venir"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression du futur s'appuie sur le verbe auxiliaire 'co' combiné avec la marque d'intention 'loolu' ou l'adverbe de temps 'cɔwɔ̄' (demain).",
+    "common_pitfalls": "Assurez-vous de bien maintenir la longueur de la voyelle dans 'loolu' (/loː.lu/) pour marquer clairement l'intention prospective."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v14_1",
+      "term": "loolu",
+      "phonetic_api": "/loː.lu/",
+      "phonetic_simple": "LOO-LOU",
+      "translation": "particule de projet / futur proche / intention",
+      "example_sentence": "I co wali loolu.",
+      "example_phonetic": "/i tʃo wa.li loː.lu/",
+      "example_translation": "Je vais travailler."
+    },
+    {
+      "word_id": "v14_2",
+      "term": "ambisɔŋ",
+      "phonetic_api": "/am.bi.sɔŋ/",
+      "phonetic_simple": "AM-BI-SONG",
+      "translation": "ambition / projet / rêve (emprunt moderne adapté)",
+      "example_sentence": "Ambisɔŋ nio o co bɛndɛ.",
+      "example_phonetic": "/am.bi.sɔŋ njo o tʃo bɛⁿdɛ/",
+      "example_translation": "Mon projet est grand."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p14_1",
+      "original": "I co cando nɔŋ loolu.",
+      "phonetic_api": "/i tʃo tʃa.ⁿdo nɔŋ loː.lu/",
+      "phonetic_simple": "I TCHO TCHAN-DO NONG LOO-LOU",
+      "translation": "Je vais acheter une maison.",
+      "context": "Parler de ses projets à long terme"
+    },
+    {
+      "phrase_id": "p14_2",
+      "original": "O co wana wali co loolu.",
+      "phonetic_api": "/o tʃo wa.na wa.li tʃo loː.lu/",
+      "phonetic_simple": "O TCHO WA-NA WA-LI TCHO LOO-LOU",
+      "translation": "Il veut devenir un grand travailleur.",
+      "context": "Exprimer une ambition professionnelle"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le futur d'intention",
+      "explanation": "Pour bâtir le futur en kissi, la structure s'organise autour de l'auxiliaire de mouvement ou d'état 'co' couplé à la postposition modale 'loolu' qui ferme la phrase.",
+      "rules": [
+        "L'auxiliaire précède immédiatement l'action ou l'objet.",
+        "La particule 'loolu' valide l'intentionnalité future à la toute fin."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + co + Verbe + loolu",
+          "phonetic_api": "/i tʃo lo loː.lu/",
+          "meaning": "Je vais partir."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sia",
+      "text": "Tamba, wali yɛŋ o co co loolu ?",
+      "phonetic_api": "/ta.ᵐba wa.li jɛŋ o tʃo tʃo loː.lu/",
+      "phonetic_simple": "TAM-BA, WA-LI YENG O TCHO TCHO LOO-LOU ?",
+      "translation": "Tamba, quel travail veux-tu faire (plus tard) ?"
+    },
+    {
+      "speaker": "Tamba",
+      "text": "I co wana peeku co loolu lebol bɛndɛ ning.",
+      "phonetic_api": "/i tʃo wa.na peː.ku tʃo loː.lu le.bol bɛⁿdɛ niŋ/",
+      "phonetic_simple": "I TCHO WA-NA PÉÉ-KOU TCHO LOO-LOU LÉ-BOL BEN-DE NING.",
+      "translation": "Je veux être un étudiant dans la grande ville."
+    }
+  ],
+  "cultural_notes": [
+    "Les projets d'avenir individuels sont traditionnellement concertés avec les aînés de la famille, qui valident les orientations et soutiennent matériellement et spirituellement les ambitions des jeunes générations."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex14_1",
+      "type": "multiple_choice",
+      "question": "Quelle particule valide l'intention future en fin de phrase ?",
+      "options": [
+        "le",
+        "loolu",
+        "ning"
+      ],
+      "correct_answer": "loolu",
+      "explanation": "'loolu' marque l'intention, le projet ou le futur proche."
+    },
+    {
+      "exercise_id": "ex14_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "I co lo [ ___ ]. (Je vais partir/y aller)",
+      "correct_answer": "loolu",
+      "hint": "Particule de projet futur"
+    }
+  ]
+}

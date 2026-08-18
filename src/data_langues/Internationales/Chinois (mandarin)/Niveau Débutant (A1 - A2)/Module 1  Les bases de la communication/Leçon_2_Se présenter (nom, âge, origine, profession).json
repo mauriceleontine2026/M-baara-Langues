@@ -1,0 +1,302 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession) en chinois mandarin",
+  "learning_objectives": [
+    "Savoir décliner son identité (nom et prénom) et interroger poliment quelqu'un sur son nom",
+    "Exprimer son âge, sa nationalité, son pays d'origine et sa profession",
+    "Utiliser correctement les verbes d'état fondamentaux 是 (shì), 叫 (jiào) et 姓 (xìng)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon introduit le son 'sh' du Pinyin dans 是 (shì) et 谁 (shéi/shuí). Le 'sh' est une consonne fricative rétroflexe sourde /ʂ/ : le bout de la langue doit être replié vers l'arrière contre le palais dur, sans toucher les dents. Le son 'j' de 叫 (jiào) et 几 (jǐ) est une affriquée alvéolo-palatale non aspirée /tɕ/, proche d'un 'dj' très doux et palatalisé. Le son 'r' de 人 (rén) est une fricative rétroflexe sonore /ʐ/, rappelant le 'j' français mais avec la langue enroulée vers l'arrière, tendant vers un son proche du 'r' anglais dans certains contextes.",
+    "common_pitfalls": "Faites attention au quatrième ton (sec, descendant) sur 是 (shì) et 叫 (jiào). S'ils sont prononcés avec un ton plat ou montant, ils perdront leur sens grammatical. Ne confondez pas le 'u' de 岁 (suì - prononcé /sweɪ̯/) avec le 'u' français : le groupe 'ui' en Pinyin est une contraction de 'uei'. Enfin, le caractère 门/们 (men) et la particule progressive 呢 (ne) portent le ton neutre, leur prononciation doit être courte, légère et sans accentuation vocale."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "叫",
+      "phonetic_api": "/tɕi̯aʊ̯˥˩/",
+      "phonetic_simple": "TCHIAO",
+      "translation": "S'appeler / Appeler",
+      "example_sentence": "我叫李明。",
+      "example_phonetic": "/wo˨˩˦ tɕi̯aʊ̯˥˩ li˨˩˦ miŋ˧˥/",
+      "example_translation": "Je m'appelle Li Ming."
+    },
+    {
+      "word_id": "v2",
+      "term": "姓",
+      "phonetic_api": "/ɕiŋ˥˩/",
+      "phonetic_simple": "CHING",
+      "translation": "Avoir pour nom de famille / Nom de famille",
+      "example_sentence": "你姓什么？",
+      "example_phonetic": "/ni˨˩˦ ɕiŋ˥˩ ʂən˧˥ mɤ/",
+      "example_translation": "Quel est ton nom de famille ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "是",
+      "phonetic_api": "/ʂʐʐ˥˩/",
+      "phonetic_simple": "CHEI",
+      "translation": "Être / Oui",
+      "example_sentence": "我是法国人。",
+      "example_phonetic": "/wo˨˩˦ ʂʐʐ˥˩ fa˧˥ kwo˧˥ ʐən˧˥/",
+      "example_translation": "Je suis Français."
+    },
+    {
+      "word_id": "v4",
+      "term": "岁",
+      "phonetic_api": "/sweɪ̯˥˩/",
+      "phonetic_simple": "SOUAY",
+      "translation": "An (d'âge) / Âge",
+      "example_sentence": "我今年二十岁。",
+      "example_phonetic": "/wo˨˩˦ tɕin˥ ni̯ɛn˧˥ ɤr˥˩ ʂʐʐ˧˥ sweɪ̯˥˩/",
+      "example_translation": "J'ai vingt ans cette année."
+    },
+    {
+      "word_id": "v5",
+      "term": "人",
+      "phonetic_api": "/ʐən˧˥/",
+      "phonetic_simple": "JEN",
+      "translation": "Personne / Être humain / Habitant",
+      "example_sentence": "那个人是谁？",
+      "example_phonetic": "/na˥˩ kɤ ʐən˧˥ ʂʐʐ˥˩ ʂeɪ̯˧˥/",
+      "example_translation": "Qui est cette personne ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "学生",
+      "phonetic_api": "/ɕy̯ɛ˧˥ ʂəŋ˥/",
+      "phonetic_simple": "CHOUÉ-CHENG",
+      "translation": "Étudiant / Élève",
+      "example_sentence": "我们都是留学生。",
+      "example_phonetic": "/wo˨˩˦ mən doʊ̯˥ ʂʐʐ˥˩ li̯oʊ̯˧˥ ɕy̯ɛ˧˥ ʂəŋ˥/",
+      "example_translation": "Nous sommes tous des étudiants étrangers."
+    },
+    {
+      "word_id": "v7",
+      "term": "工作",
+      "phonetic_api": "/kuŋ˥ dzwɔ˥˩/",
+      "phonetic_simple": "GONG-DZOUO",
+      "translation": "Travailler / Travail / Profession",
+      "example_sentence": "你喜欢你的工作吗？",
+      "example_phonetic": "/ni˨˩˦ ɕi˧˥ xwan ni˨˩˦ dɤ kuŋ˥ dzwɔ˥˩ ma/",
+      "example_translation": "Aimes-tu ton travail ?"
+    },
+    {
+      "word_id": "v8",
+      "term": "哪",
+      "phonetic_api": "/na˨˩˦/",
+      "phonetic_simple": "NA",
+      "translation": "Quel / Lequel / Où",
+      "example_sentence": "你是哪国人？",
+      "example_phonetic": "/ni˨˩˦ ʂʐʐ˥˩ na˨˩˦ kwo˧˥ ʐən˧˥/",
+      "example_translation": "De quelle nationalité es-tu ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "您贵姓？",
+      "phonetic_api": "/nin˧˥ kwei̯˥˩ ɕiŋ˥˩/",
+      "phonetic_simple": "NEEN GOUEI CHING",
+      "translation": "Quel est votre nom de famille ? (Très poli)",
+      "context": "Cadre formel, affaires, première rencontre avec un supérieur"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "我姓王，叫王大同。",
+      "phonetic_api": "/wo˨˩˦ ɕiŋ˥˩ waŋ˧˥ tɕi̯aʊ̯˥˩ waŋ˧˥ da˥˩ tʰʊŋ˧˥/",
+      "phonetic_simple": "OUO CHING OUANG, TCHIAO OUANG DA THONG",
+      "translation": "Mon nom de famille est Wang, et mon prénom est Datong.",
+      "context": "Réponse complète déclinant l'identité officielle"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "你多大了？",
+      "phonetic_api": "/ni˨˩˦ dwɔ˥ da˥˩ lɤ/",
+      "phonetic_simple": "NEE DOUO DA LEU",
+      "translation": "Quel âge as-tu ?",
+      "context": "S'adresser à un adulte, un pair ou un jeune du même âge de manière standard"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "你今年几岁？",
+      "phonetic_api": "/ni˨˩˦ tɕin˥ ni̯ɛn˧˥ tɕi˨˩˦ sweɪ̯˥˩/",
+      "phonetic_simple": "NEE TCHIN-NIEN TCHEE SOUAY",
+      "translation": "Quel âge as-tu cette année ? (Pour un enfant)",
+      "context": "S'adresser spécifiquement à un enfant de moins de 10 ans"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "我是法国人，你呢？",
+      "phonetic_api": "/wo˨˩˦ ʂʐʐ˥˩ fa˧˥ kwo˧˥ ʐən˧˥ ni nɤ/",
+      "phonetic_simple": "OUO CHEI FA-GOUO JEN, NEE NEU",
+      "translation": "Je suis Français, et toi ?",
+      "context": "Indiquer sa nationalité et relancer l'interlocuteur"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "我不是中国人，我是加拿大人。",
+      "phonetic_api": "/wo˨˩˦ bu˥˩ ʂʐʐ˥˩ tʂʊŋ˥ kwo˧˥ ʐən˧˥ wo˨˩˦ ʂʐʐ˥˩ dɕi̯a˥ na˥˩ da˥ taʊ̯˧˥ ʐən˧˥/",
+      "phonetic_simple": "OUO BOU CHEI TCHONG-GOUO JEN, OUO CHEI TCHIA-NA-DA JEN",
+      "translation": "Je ne suis pas Chinois, je suis Canadien.",
+      "context": "Corriger une fausse supposition sur son origine"
+    },
+    {
+      "phrase_id": "p7",
+      "original": "你是做什么工作的？",
+      "phonetic_api": "/ni˨˩˦ ʂʐʐ˥˩ tswɔ˥˩ ʂən˧˥ mɤ kuŋ˥ dzwɔ˥˩ dɤ/",
+      "phonetic_simple": "NEE CHEI DZOUO CHEN-MEU GONG-DZOUO DEU",
+      "translation": "Quel est ton travail ? / Que fais-tu comme métier ?",
+      "context": "Question courante pour s'informer sur la vie professionnelle de quelqu'un"
+    },
+    {
+      "phrase_id": "p8",
+      "original": "我是老师，在学校工作。",
+      "phonetic_api": "/wo˨˩˦ ʂʐʐ˥˩ laʊ̯˨˩˦ ʂʐʐ˥ dzaɪ̯˥˩ ɕy̯ɛ˧˥ ɕi̯aʊ̯˨˩˦ kuŋ˥ dzwɔ˥˩/",
+      "phonetic_simple": "OUO CHEI LAO-CHEI, DZAÏ CHOUÉ-CHIAO GONG-DZOUO",
+      "translation": "Je suis professeur, je travaille dans une école.",
+      "context": "Déclarer son statut professionnel et son lieu d'activité"
+    },
+    {
+      "phrase_id": "p9",
+      "original": "很高兴认识你。",
+      "phonetic_api": "/xən˨˩˦ kaʊ̯˥ ɕiŋ˥˩ ʐən˥˩ ʂi ni˨˩˦/",
+      "phonetic_simple": "HEUN GAO-CHING JEN-CHI NEE",
+      "translation": "Ravi de vous rencontrer / Enchanté.",
+      "context": "Formule indispensable pour conclure poliment une présentation"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'identité nominative avec 叫 (jiào) et 姓 (xìng)",
+      "explanation": "En chinois, l'identité se segmente de manière précise. Le verbe 姓 (xìng) traite exclusivement du nom de famille hérité, tandis que 叫 (jiào) englobe l'énoncé du prénom seul ou de la combinaison complète [Nom + Prénom].",
+      "rules": [
+        "Structure du nom complet obligatoire en Chine : [Nom de famille] suivi immédiatement du [Prénom].",
+        "Ne jamais insérer le verbe 'être' 是 (shì) devant 叫 (jiào) ou 姓 (xìng). Ils agissent comme des verbes d'action autonome.",
+        "L'expression de politesse '您贵姓？' n'utilise aucun pronom sujet verbal direct, le terme '贵' (précieux) honorant directement le nom de l'interlocuteur."
+      ],
+      "examples": [
+        {
+          "structure": "我姓张 (Wǒ xìng Zhāng)",
+          "phonetic_api": "/wo˨˩˦ ɕiŋ˥˩ tʂaŋ˥/",
+          "meaning": "Mon nom de famille de famille est Zhang."
+        },
+        {
+          "structure": "我叫张明 (Wǒ jiào Zhāng Míng)",
+          "phonetic_api": "/wo˨˩˦ tɕi̯aʊ̯˥˩ tʂaŋ˥ miŋ˧˥/",
+          "meaning": "Je m'appelle Zhang Ming."
+        }
+      ]
+    },
+    {
+      "concept": "La construction des nationalités avec la structure [Pays] + 人 (rén)",
+      "explanation": "Le mandarin utilise une logique d'arborescence simple pour générer les adjectifs de nationalité ou d'origine : il suffit de juxtaposer le mot désignant le pays et le mot '人' (homme / habitant).",
+      "rules": [
+        "Structure : Nom du Pays + 人 (rén).",
+        "Les noms de pays occidentaux sont souvent des translittérations phonétiques approximatives : 法国 (Fǎguó - France, litt. 'Le pays de la loi'), 美国 (Měiguó - Amérique, litt. 'Le beau pays').",
+        "La négation de cette identité se fait en plaçant l'adverbe 不 (bù) directement devant le verbe d'état 是 (shì)."
+      ],
+      "examples": [
+        {
+          "structure": "中国 (Chine) + 人 = 中国人",
+          "phonetic_api": "/tʂʊŋ˥ kwo˧˥ ʐən˧˥/",
+          "meaning": "Chinois / Citoyen chinois"
+        },
+        {
+          "structure": "我不是美国人 (Wǒ bú shì Měiguó rén)",
+          "phonetic_api": "/wo˨˩˦ bu˥˩ ʂʐʐ˥˩ meɪ̯˨˩˦ kwo˧˥ ʐən˧˥/",
+          "meaning": "Je ne suis pas Américain. (Note : 'bù' glisse au 2ème ton devant un 4ème ton)"
+        }
+      ]
+    },
+    {
+      "concept": "Syntaxe de l'interrogation ouverte avec 什么 (shénme) et 哪 (nǎ)",
+      "explanation": "Contrairement aux langues romanes, l'arabe ou l'anglais, le chinois mandarin ne pratique pas l'inversion du sujet et du verbe lors de la formulation d'une question. Les mots interrogatifs se placent exactement à l'endroit syntaxique où se situerait la réponse attendue.",
+      "rules": [
+        "Pour demander le nom, l'interrogatif 什么 (quoi / quel) se place après le verbe : Sujet + 叫/姓 + 什么 + (名词) ？",
+        "Pour demander la provenance, l'interrogatif 哪 (quel / lequel) précède le nom du pays classificatoire : Sujet + 是 + 哪 + 国 + 人 ？"
+      ],
+      "examples": [
+        {
+          "structure": "你叫什么名字？ (Nǐ jiào shénme míngzi?)",
+          "phonetic_api": "/ni˨˩˦ tɕi̯aʊ̯˥˩ ʂən˧˥ mɤ miŋ˧˥ tsi/",
+          "meaning": "Tu t'appelles quel nom ? ➔ Comment t'appelles-tu ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "王大同 (Wang Datong)",
+      "text": "您好！请问您贵姓？",
+      "phonetic_api": "/nin˧˥ xaʊ̯˨˩˦ tɕʰiŋ˨˩˦ wen˥˩ nin˧˥ kwei̯˥˩ ɕiŋ˥˩/",
+      "phonetic_simple": "NEEN HAO ! TCHING-OUEN NEEN GOUEI CHING ?",
+      "translation": "Bonjour ! Puis-je vous demander votre nom de famille ?"
+    },
+    {
+      "speaker": "大卫 (David - Étranger)",
+      "text": "您好！我姓布朗，我叫大卫·布朗。你呢？",
+      "phonetic_api": "/nin˧˥ xaʊ̯˨˩˦ wo˨˩˦ ɕiŋ˥˩ bu˥˩ laŋ˨˩˦ wo˨˩˦ tɕi̯aʊ̯˥˩ da˥˩ weɪ̯˥˩ bu˥˩ laŋ˨˩˦ ni nɤ/",
+      "phonetic_simple": "NEEN HAO ! OUO CHING BOU-LANG, OUO TCHIAO DA-OUEI BOU-LANG. NEE NEU ?",
+      "translation": "Bonjour ! Mon nom de famille est Brown, je m'appelle David Brown. Et vous ?"
+    },
+    {
+      "speaker": "王大同 (Wang Datong)",
+      "text": "我姓王，叫王大同。布朗先生，你是哪国人？",
+      "phonetic_api": "/wo˨˩˦ ɕiŋ˥˩ waŋ˧˥ tɕi̯aʊ̯˥˩ waŋ˧˥ da˥˩ tʰʊŋ˧˥ bu˥˩ laŋ˨˩˦ ɕi̯ɛn˥ ʂaŋ ni˨˩˦ ʂʐʐ˥˩ na˨˩˦ kwo˧˥ ʐən˧˥/",
+      "phonetic_simple": "OUO CHING OUANG, TCHIAO OUANG DA-THONG. BOU-LANG CHIEN-CHENG, NEE CHEI NA GOUO JEN ?",
+      "translation": "Mon nom de famille est Wang, je m'appelle Wang Datong. Monsieur Brown, de quelle nationalité êtes-vous ?"
+    },
+    {
+      "speaker": "大卫 (David - Étranger)",
+      "text": "我是加拿大人。我今年二十五岁。你是医生吗？",
+      "phonetic_api": "/wo˨˩˦ ʂʐʐ˥˩ dɕi̯a˥ na˥˩ da˥ taʊ̯˧˥ ʐân˧˥ wo˨˩˦ tɕin˥ ni̯ɛn˧˥ ɤr˥˩ ʂʐʐ˧˥ wu˨˩˦ sweɪ̯˥˩ ni˨˩˦ ʂʐʐ˥˩ i˥ ʂəŋ˥ ma/",
+      "phonetic_simple": "OUO CHEI TCHIA-NA-DA JEN. OUO TCHIN-NIEN ER-CHEI-OU SOUAY. NEE CHEI EE-CHENG MA ?",
+      "translation": "Je suis Canadien. J'ai 25 ans cette année. Êtes-vous médecin ?"
+    },
+    {
+      "speaker": "王大同 (Wang Datong)",
+      "text": "不是，我不是医生。我是公司职员。很高兴认识你！",
+      "phonetic_api": "/bu˥˩ ʂʐʐ˥˩ wo˨˩˦ bu˧˥ ʂʐʐ˥˩ i˥ ʂəŋ˥ wo˨˩˦ ʂʐʐ˥˩ kuŋ˥ ʂʐʐ˥ tʂʐʐ˧˥ jy̯ɛn˧˥ xən˨˩˦ kaʊ̯˥ ɕiŋ˥˩ ʐən˥˩ ʂi ni˨˩˦/",
+      "phonetic_simple": "BOU CHEI, OUO BOU CHEI EE-CHENG. OUO CHEI GONG-CHEI TCHE-YUEN. HEUN GAO-CHING JEN-CHI NEE !",
+      "translation": "Non, je ne suis pas médecin. Je suis employé de bureau. Ravi de vous rencontrer !"
+    },
+    {
+      "speaker": "大卫 (David - Étranger)",
+      "text": "我也很高兴认识你。再见！",
+      "phonetic_api": "/wo˨˩˦ jɛ˨˩˦ xən˨˩˦ kaʊ̯˥ ɕiŋ˥˩ ʐən˥˩ ʂi ni˨˩˦ tsaɪ̯˥˩ tɕi̯ɛn˥˩/",
+      "phonetic_simple": "OUO YÉ HEUN GAO-CHING JEN-CHI NEE. DZAÏ-TCHIEN !",
+      "translation": "Moi aussi, je suis ravi de vous rencontrer. Au revoir !"
+    }
+  ],
+  "cultural_notes": [
+    "En Chine, l’ordre des noms reflète l'importance collective de la lignée : le nom de famille précède toujours le prénom individuel. Lorsque vous parlez à un Chinois, appelez-le par son nom de famille précédé de son titre (ex : 张老师 Zhāng lǎoshī - Professeur Zhang) et évitez d'employer son prénom seul à moins d'une très grande intimité.",
+    "La question sur l'âge ('你多大了？') ou la profession est extrêmement courante et naturelle en Chine lors d'une première rencontre. Contrairement à l'Occident où cela peut être jugé indiscret, c'est ici perçu comme une marque d'intérêt sincère pour situer l'interlocuteur dans la structure sociale et adapter le niveau de langage approprié.",
+    "Pour exprimer les âges, le mandarin n'utilise aucun équivalent du verbe 'avoir'. On énonce directement le chiffre suivi du classificateur '岁' (suì). Par exemple, '我二十岁' signifie littéralement 'Moi vingt ans'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Traduisez correctement la structure affirmative suivante : 'Je suis étudiant de nationalité française.'",
+      "options": [
+        "我是法国人学生 (Wǒ shì Fǎguórén xuéshēng)",
+        "我叫法国人是学生 (Wǒ jiào Fǎguórén shì xuéshēng)",
+        "我是法国人，也是学生 (Wǒ shì Fǎguórén, yě shì xuéshēng)"
+      ],
+      "correct_answer": "我是法国人，也是学生 (Wǒ shì Fǎguórén, yě_shì xuéshēng)",
+      "explanation": "La syntaxe correcte sépare les deux prédicats ou utilise la conjonction '也' (yě - aussi) pour lier logiquement le fait d'être Français et le statut d'étudiant avec le verbe 是 (shì)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A: 请问您贵姓？ B: 我 [ ___ ] 李，叫李华。",
+      "correct_answer": "姓",
+      "hint": "Verbe requis pour introduire exclusivement le nom de famille (ici, 李 - Lǐ)."
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer tous les membres de la famille nucléaire et élargie en kuranko",
+    "Utiliser les pronoms possessifs inaliénables pour exprimer la parenté",
+    "Poser des questions sur la famille et y répondre"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne nasale initiale 'N' fusionne avec les consonnes explosives suivantes : 'N' + 'f' se prononce comme une seule consonne labiodentale nasale /ɱ͡f/. Le 'd' de 'den' est alvéolaire et très net.",
+    "common_pitfalls": "Ne séparez pas le pronom possessif du nom de parenté (ne dites pas /nə fa/, mais /ɱ͡fa/ en un seul souffle)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_m2_l4",
+      "term": "Fa",
+      "phonetic_api": "/fa/",
+      "phonetic_simple": "FA",
+      "translation": "Père / Oncle paternel",
+      "example_sentence": "N fa tɔgɔ Sori",
+      "example_phonetic": "/ɱ͡fa tɔ.gɔ so.ri/",
+      "example_translation": "Mon père s'appelle Sori"
+    },
+    {
+      "word_id": "v2_m2_l4",
+      "term": "Ba",
+      "phonetic_api": "/ba/",
+      "phonetic_simple": "BA",
+      "translation": "Mère / Tante maternelle",
+      "example_sentence": "N ba bɛ yan",
+      "example_phonetic": "/ŋ͡ba bɛ jan/",
+      "example_translation": "Ma mère est ici"
+    },
+    {
+      "word_id": "v3_m2_l4",
+      "term": "Baden",
+      "phonetic_api": "/ba.den/",
+      "phonetic_simple": "BA-DEN",
+      "translation": "Frère / Sœur (Enfant de la même mère)",
+      "example_sentence": "N baden muso",
+      "example_phonetic": "/ŋ͡ba.den mu.so/",
+      "example_translation": "Ma sœur (litt. : mon enfant-mère femme)"
+    },
+    {
+      "word_id": "v4_m2_l4",
+      "term": "Den",
+      "phonetic_api": "/den/",
+      "phonetic_simple": "DEN",
+      "translation": "Enfant / Fils / Fille",
+      "example_sentence": "Den kɛ",
+      "example_phonetic": "/den kɛ/",
+      "example_translation": "Fils (enfant mâle)"
+    },
+    {
+      "word_id": "v5_m2_l4",
+      "term": "Mɔmɔ",
+      "phonetic_api": "/mɔ.mɔ/",
+      "phonetic_simple": "MƆ-MƆ",
+      "translation": "Grand-parent (Grand-père / Grand-mère)",
+      "example_sentence": "N mɔmɔ kɛ",
+      "example_phonetic": "/ɱ͡mɔ.mɔ kɛ/",
+      "example_translation": "Mon grand-père"
+    },
+    {
+      "word_id": "v6_m2_l4",
+      "term": "Muso",
+      "phonetic_api": "/mu.so/",
+      "phonetic_simple": "MOU-SO",
+      "translation": "Femme / Épouse",
+      "example_sentence": "N muso bɛ so",
+      "example_phonetic": "/ɲ͡mu.so bɛ so/",
+      "example_translation": "Mon épouse est à la maison"
+    },
+    {
+      "word_id": "v7_m2_l4",
+      "term": "Kɛ",
+      "phonetic_api": "/kɛ/",
+      "phonetic_simple": "KƐ",
+      "translation": "Homme / Époux / Mari",
+      "example_sentence": "N kɛ bɛ bara la",
+      "example_phonetic": "/ɲ͡kɛ bɛ ba.ra la/",
+      "example_translation": "Mon mari est au travail"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_m2_l4",
+      "original": "I somɔgɔnu bɛ di ?",
+      "phonetic_api": "/i so.mɔ.gɔ.nu bɛ di/",
+      "phonetic_simple": "I SO-MƆ-GƆ-NOU BƐ DI ?",
+      "translation": "Comment va ta famille ? (les gens de ta maison)",
+      "context": "Formule incontournable pour prendre des nouvelles des proches."
+    },
+    {
+      "phrase_id": "p2_m2_l4",
+      "original": "Alu bɛ kɛnɛya ra",
+      "phonetic_api": "/a.lu bɛ kɛ.nɛ.ja ra/",
+      "phonetic_simple": "A-LU BƐ KƐ-NƐ-YA RA",
+      "translation": "Ils sont en bonne santé / Ils vont bien",
+      "context": "Réponse pour indiquer que la famille va bien."
+    },
+    {
+      "phrase_id": "p3_m2_l4",
+      "original": "I baden jili bɛ i fɛ ?",
+      "phonetic_api": "/i ba.den d͡ʒi.li bɛ i fɛ/",
+      "phonetic_simple": "I BA-DEN DJI-LI BƐ I FƐ ?",
+      "translation": "Combien de frères et sœurs as-tu ?",
+      "context": "Interroger quelqu'un sur sa fratrie."
+    },
+    {
+      "phrase_id": "p4_m2_l4",
+      "original": "Baden fila bɛ n fɛ",
+      "phonetic_api": "/ba.den fi.la bɛ ɱ͡fɛ/",
+      "phonetic_simple": "BA-DEN FI-LA BƐ N FƐ",
+      "translation": "J'ai deux frères/sœurs",
+      "context": "Indiquer le nombre de membres de sa fratrie."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La possession inaliénable (Liens de parenté)",
+      "explanation": "En kuranko, les relations de parenté utilisent la structure de possession directe (inaliénable). On accole directement le pronom personnel au nom de famille sans particule intermédiaire.",
+      "rules": [
+        "Le pronom de la première personne 'N' s'assimile à la consonne suivante : devant 'b' ou 'm' il devient /m/, devant 'g' ou 'k' il devient /ŋ/.",
+        "Structure : [Pronom] + [Nom de Parenté]"
+      ],
+      "examples": [
+        {
+          "structure": "N fa",
+          "phonetic_api": "/ɱ͡fa/",
+          "meaning": "Mon père"
+        },
+        {
+          "structure": "I ba",
+          "phonetic_api": "/i ba/",
+          "meaning": "Ta mère"
+        },
+        {
+          "structure": "A den",
+          "phonetic_api": "/a den/",
+          "meaning": "Son enfant"
+        }
+      ]
+    },
+    {
+      "concept": "La distinction de genre : 'Kɛ' et 'Muso'",
+      "explanation": "Pour préciser le sexe d'un membre de la famille ou d'un enfant, le kuranko ajoute le qualificatif 'kɛ' (mâle/homme) ou 'muso' (femelle/femme) après le nom de base.",
+      "rules": [
+        "Nom de parenté + kɛ = Masculin",
+        "Nom de parenté + muso = Féminin"
+      ],
+      "examples": [
+        {
+          "structure": "Den kɛ",
+          "phonetic_api": "/den kɛ/",
+          "meaning": "Fils / Garçon"
+        },
+        {
+          "structure": "Den muso",
+          "phonetic_api": "/den mu.so/",
+          "meaning": "Fille"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amadou",
+      "text": "Ousmane, i somɔgɔnu bɛ di ?",
+      "phonetic_api": "/ous.ma.ne i so.mɔ.gɔ.nu bɛ di/",
+      "phonetic_simple": "OUS-MA-NE, I SO-MƆ-GƆ-NOU BƐ DI ?",
+      "translation": "Ousmane, comment vont les gens de ta maison (ta famille) ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Alu bɛ kɛnɛ. N fa bɛ so, n ba bɛ bara la.",
+      "phonetic_api": "/a.lu bɛ kɛ.nɛ ɱ͡fa bɛ so ŋ͡ba bɛ ba.ra la/",
+      "phonetic_simple": "A-LU BƐ KƐ-NƐ. N FA BƐ SO, N BA BƐ BA-RA LA.",
+      "translation": "Ils vont bien. Mon père est à la maison, ma mère est au travail."
+    },
+    {
+      "speaker": "Amadou",
+      "text": "I baden muso jili bɛ i fɛ ?",
+      "phonetic_api": "/i ba.den mu.so d͡ʒi.li bɛ i fɛ/",
+      "phonetic_simple": "I BA-DEN MOU-SO DJI-LI BƐ I FƐ ?",
+      "translation": "Combien de sœurs as-tu ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Baden muso kelɛn bɛ n fɛ.",
+      "phonetic_api": "/ba.den mu.so ke.lɛn bɛ ɱ͡fɛ/",
+      "phonetic_simple": "BA-DEN MOU-SO KE-LƐN BƐ N FƐ.",
+      "translation": "J'ai une seule sœur."
+    }
+  ],
+  "cultural_notes": [
+    "Le concept de 'Somɔgɔnu' (les gens de la maison) dépasse largement le cadre des parents et des enfants. Il englobe les oncles, les tantes, les cousins et parfois les invités de longue date qui partagent le même toit ou la même concession ('so').",
+    "Le terme 'Baden' (enfant de la même mère) est aussi un concept social fort qui désigne l'harmonie, l'entraide et la fraternité, par opposition à 'Faden' (enfant du même père mais de mères différentes), historique référence à la rivalité potentielle dans les foyers polygames."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_m2_l4",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'Ma fille' (enfant de sexe féminin) en kuranko ?",
+      "options": [
+        "N fa muso",
+        "N den kɛ",
+        "N den muso"
+      ],
+      "correct_answer": "N den muso",
+      "explanation": "'N den' signifie mon enfant et 'muso' spécifie le genre féminin."
+    },
+    {
+      "exercise_id": "ex2_m2_l4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander des nouvelles de l'ensemble de la famille, on pose la question : I [ ___ ] bɛ di ?",
+      "correct_answer": "somɔgɔnu",
+      "hint": "Signifie littéralement 'les gens de la maison'"
+    }
+  ]
+}

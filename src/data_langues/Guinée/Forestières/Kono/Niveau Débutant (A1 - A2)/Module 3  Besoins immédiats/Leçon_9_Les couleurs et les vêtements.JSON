@@ -1,0 +1,123 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Décrire la couleur d'un tissu ou objet",
+    "Nommer les habits fondamentaux"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne /gb/ réapparaît dans la désignation de la couleur blanche. Assurez-vous du bon blocage de l'air.",
+    "common_pitfalls": "Attention à ne pas assimiler le ton bas final de l'adjectif qualificatif avec le nom du vêtement."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v9_1",
+      "term": "dòngò",
+      "phonetic_api": "/dòŋɡò/",
+      "phonetic_simple": "DON-GO",
+      "translation": "vêtement / boubou",
+      "example_sentence": "dòngò gbɛ̃̀",
+      "example_phonetic": "/dòŋɡò ɡɓɛ̃̀/",
+      "example_translation": "un vêtement blanc"
+    },
+    {
+      "word_id": "v9_2",
+      "term": "gbɛ̃̀",
+      "phonetic_api": "/ɡɓɛ̃̀/",
+      "phonetic_simple": "GBEN",
+      "translation": "blanc",
+      "example_sentence": "ń yé dòngò gbɛ̃̀ pɔ́.",
+      "example_phonetic": "/ń jé dòŋɡò ɡɓɛ̃̀ pɔ́/",
+      "example_translation": "Je veux le vêtement blanc."
+    },
+    {
+      "word_id": "v9_3",
+      "term": "tɔ̀ɔ̀",
+      "phonetic_api": "/tɔ̀ː/",
+      "phonetic_simple": "TOO",
+      "translation": "noir / sombre",
+      "example_sentence": "bà tɔ̀ɔ̀",
+      "example_phonetic": "/bà tɔ̀ː/",
+      "example_translation": "une chèvre noire"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p9_1",
+      "original": "Dòngò mìɛ̀ le í yé ?",
+      "phonetic_api": "/dòŋɡò mìɛ̀ le í jé/",
+      "phonetic_simple": "DON-GO MIE LE I YE ?",
+      "translation": "Quel vêtement possèdes-tu ?",
+      "context": "Interroger quelqu'un sur ses habits ou un choix au marché."
+    },
+    {
+      "phrase_id": "p9_2",
+      "original": "Ń yé dòngò gbɛ̃̀ lɔ́.",
+      "phonetic_api": "/ń jé dòŋɡò ɡɓɛ̃̀ lɔ́/",
+      "phonetic_simple": "N YE DON-GO GBEN LO",
+      "translation": "Je porte un vêtement blanc.",
+      "context": "Décrire sa propre tenue."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'adjectif qualificatif de couleur postposé",
+      "explanation": "Tout comme l'adjectif numéral, le qualificatif décrivant une coloration se situe après le nom auquel il se rapporte.",
+      "rules": [
+        "L'adjectif de couleur s'accorde contextuellement par harmonie tonale si le nom se termine par un ton haut très fort.",
+        "Les couleurs fondamentales (blanc, noir, rouge) possèdent des racines verbales descriptives autonomes."
+      ],
+      "examples": [
+        {
+          "structure": "dòngò + gbɛ̃̀",
+          "phonetic_api": "/dòŋɡò ɡɓɛ̃̀/",
+          "meaning": "habit blanc"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Marchand",
+      "text": "I yé dòngò tɔ̀ɔ̀ pɔ́ ?",
+      "phonetic_api": "/i jé dòŋɡò tɔ̀ː pɔ́/",
+      "phonetic_simple": "I YE DON-GO TOO PO ?",
+      "translation": "Veux-tu le vêtement noir ?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Kápù, ń yé dòngò gbɛ̃̀ le pɔ́.",
+      "phonetic_api": "/kápu ń jé dòŋɡò ɡɓɛ̃̀ le pɔ́/",
+      "phonetic_simple": "KA-PO, N YE DON-GO GBEN LE PO",
+      "translation": "Non, je veux le vêtement blanc."
+    }
+  ],
+  "cultural_notes": [
+    "Les vêtements en coton teint à l'indigo traditionnel ou de couleur blanche revêtent une signification de prestige importante lors des rassemblements coutumiers konon."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex9_1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'adjectif 'gbɛ̃̀' ?",
+      "options": [
+        "Noir",
+        "Blanc",
+        "Rouge"
+      ],
+      "correct_answer": "Blanc",
+      "explanation": "'gbɛ̃̀' correspond à la couleur blanche ou claire."
+    },
+    {
+      "exercise_id": "ex9_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "dòngò [ ___ ] (vêtement noir)",
+      "correct_answer": "tɔ̀ɔ̀",
+      "hint": "Noir."
+    }
+  ]
+}

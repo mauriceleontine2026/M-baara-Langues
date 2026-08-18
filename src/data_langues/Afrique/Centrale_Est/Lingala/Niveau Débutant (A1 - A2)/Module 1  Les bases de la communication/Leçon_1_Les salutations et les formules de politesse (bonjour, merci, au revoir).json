@@ -1,0 +1,232 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Savoir saluer selon le moment de la journée",
+    "Exprimer la politesse, le respect et le remerciement en Lingala"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le lingala est une langue à tons (haut et bas), bien que non marqués à l'écrit courant. Le 'e' se prononce généralement [ɛ] (comme dans 'mer') ou [e] (comme dans 'été'). Le 'o' se prononce [ɔ] (comme dans 'fort') ou [o] (comme dans 'mot'). Le 'g' est toujours dur comme dans 'garçon'. Les consonnes pré-nasalisées comme 'mb', 'nd', 'ng', 'ny' se prononcent en un seul bloc phonétique fluide.",
+    "common_pitfalls": "Évitez de prononcer le 'm' de 'mbote' ou le 'n' de 'ndenge' comme une syllabe séparée; ils s'articulent immédiatement avec la consonne suivante. Ne pas accentuer la dernière syllabe de manière exagérée, l'accent tonique est généralement sur la première ou l'avant-dernière syllabe selon la structure des radicaux."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Mbote",
+      "phonetic_api": "/ᵐbó.te/",
+      "phonetic_simple": "MBO-TE",
+      "translation": "Bonjour / Salut",
+      "example_sentence": "Mbote, ndeko na ngai.",
+      "example_phonetic": "/ᵐbó.te ⁿdé.ko na ŋái/",
+      "example_translation": "Bonjour, mon frère / ma sœur."
+    },
+    {
+      "word_id": "v2",
+      "term": "Melési",
+      "phonetic_api": "/me.lé.si/",
+      "phonetic_simple": "ME-LE-SI",
+      "translation": "Merci (emprunt français courant)",
+      "example_sentence": "Melési mingi pona lipate.",
+      "example_phonetic": "/me.lé.si mí.ᵑɡi pó.na li.pa.te/",
+      "example_translation": "Merci beaucoup pour le partage."
+    },
+    {
+      "word_id": "v3",
+      "term": "Matondo",
+      "phonetic_api": "/ma.tó.ⁿdo/",
+      "phonetic_simple": "MA-TON-DO",
+      "translation": "Merci / Remerciements (authentique lingala)",
+      "example_sentence": "Matondo mingi epai na bino.",
+      "example_phonetic": "/ma.tó.ⁿdo mí.ᵑɡi e.pái na bí.no/",
+      "example_translation": "Merci beaucoup à vous."
+    },
+    {
+      "word_id": "v4",
+      "term": "Bolimbisi",
+      "phonetic_api": "/bo.li.ᵐbi.si/",
+      "phonetic_simple": "BO-LIM-BI-SI",
+      "translation": "Pardon / Excusez-moi",
+      "example_sentence": "Soki moke, bolimbisi ngai.",
+      "example_phonetic": "/só.ki mo.ke bo.li.ᵐbi.si ŋái/",
+      "example_translation": "S'il vous plaît, pardonnez-moi."
+    },
+    {
+      "word_id": "v5",
+      "term": "Aloni",
+      "phonetic_api": "/a.ló.ni/",
+      "phonetic_simple": "A-LO-NI",
+      "translation": "Au revoir (formel)",
+      "example_sentence": "Aloni, tikala malamu.",
+      "example_phonetic": "/a.ló.ni ti.ká.la ma.lá.mu/",
+      "example_translation": "Au revoir, reste bien / porte-toi bien."
+    },
+    {
+      "word_id": "v6",
+      "term": "Ndeko",
+      "phonetic_api": "/ⁿdé.ko/",
+      "phonetic_simple": "N-DE-KO",
+      "translation": "Frère / Sœur / Proche",
+      "example_sentence": "Mbote ndeko, ndenge nini?",
+      "example_phonetic": "/ᵐbó.te ⁿdé.ko ⁿdé.ᵑɡe ní.ni/",
+      "example_translation": "Salut frère, comment ça va?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Mbote na yo!",
+      "phonetic_api": "/ᵐbó.te na jó/",
+      "phonetic_simple": "MBO-TE NA YO",
+      "translation": "Bonjour à toi !",
+      "context": "Matin ou journée / Cadre informel / S'adresser à un ami ou un égal."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Mbote na bino!",
+      "phonetic_api": "/ᵐbó.te na bí.no/",
+      "phonetic_simple": "MBO-TE NA BI-NO",
+      "translation": "Bonjour à vous !",
+      "context": "Matin ou journée / Cadre formel ou pour saluer un groupe de personnes."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Sango nini?",
+      "phonetic_api": "/sá.ᵑɡo ní.ni/",
+      "phonetic_simple": "SAN-GO NI-NI",
+      "translation": "Quoi de neuf ? / Comment ça va ?",
+      "context": "Salutation courante très populaire et informelle au quotidien."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Sango te, malamu!",
+      "phonetic_api": "/sá.ᵑɡo te ma.lá.mu/",
+      "phonetic_simple": "SAN-GO TE MA-LA-MU",
+      "translation": "Rien de neuf, ça va bien !",
+      "context": "Réponse standard et positive à l'expression 'Sango nini?'."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Ndenge nini?",
+      "phonetic_api": "/ⁿdé.ᵑɡe ní.ni/",
+      "phonetic_simple": "N-DEN-GE NI-NI",
+      "translation": "Comment ça va ? / Comment ça se passe ?",
+      "context": "Salutation familière dans la rue ou entre amis très proches."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Tala malamu!",
+      "phonetic_api": "/tá.la ma.lá.mu/",
+      "phonetic_simple": "TA-LA MA-LA-MU",
+      "translation": "Prends bien soin de toi !",
+      "context": "Formule affectueuse ou amicale utilisée au moment de se séparer."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Kenda malamu!",
+      "phonetic_api": "/ké.ⁿda ma.lá.mu/",
+      "phonetic_simple": "KEN-DA MA-LA-MU",
+      "translation": "Bon voyage ! / Va en paix !",
+      "context": "Dit à la personne qui s'en va ou se met en route."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Tikala malamu!",
+      "phonetic_api": "/ti.ká.la ma.lá.mu/",
+      "phonetic_simple": "TI-KA-LA MA-LA-MU",
+      "translation": "Reste bien ! / Au revoir !",
+      "context": "Dit par la personne qui s'en va à celle qui reste sur place."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les pronoms personnels sujets autonomes",
+      "explanation": "En lingala, les pronoms personnels servent à identifier les personnes grammaticales fondamentales. Ils se placent souvent devant le verbe pour insister ou clarifier le sujet, bien que le verbe intègre lui-même un préfixe pronominal.",
+      "rules": [
+        "Ngai = Moi / Je",
+        "Yo = Toi / Tu",
+        "Ye = Lui / Elle / Il",
+        "Biso = Nous",
+        "Bino = Vous",
+        "Bango = Eux / Elles / Ils"
+      ],
+      "examples": [
+        {
+          "structure": "Ngai nazali malamu.",
+          "phonetic_api": "/ŋái na.zá.li ma.lá.mu/",
+          "meaning": "Moi, je vais bien."
+        },
+        {
+          "structure": "Bino bozali wapi?",
+          "phonetic_api": "/bí.no bo.zá.li wá.pi/",
+          "meaning": "Vous, vous êtes où?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mami",
+      "text": "Mbote ndeko! Ndenge nini?",
+      "phonetic_api": "/ᵐbó.te ⁿdé.ko ⁿdé.ᵑɡe ní.ni/",
+      "phonetic_simple": "MBO-TE N-DE-KO! N-DEN-GE NI-NI?",
+      "translation": "Salut frère/sœur ! Comment ça va ?"
+    },
+    {
+      "speaker": "Papy",
+      "text": "Mbote! Malamu mingi, na yo?",
+      "phonetic_api": "/ᵐbó.te ma.lá.mu mí.ᵑɡi na jó/",
+      "phonetic_simple": "MBO-TE! MA-LA-MU MIN-GI, NA YO?",
+      "translation": "Salut ! Très bien, et toi ?"
+    },
+    {
+      "speaker": "Mami",
+      "text": "Ngai mpe malamu, matondo.",
+      "phonetic_api": "/ŋái mpe ma.lá.mu ma.tó.ⁿdo/",
+      "phonetic_simple": "NGAI MPE MA-LA-MU, MA-TON-DO.",
+      "translation": "Moi aussi ça va bien, merci."
+    },
+    {
+      "speaker": "Papy",
+      "text": "Tikala malamu, ndeko.",
+      "phonetic_api": "/ti.ká.la ma.lá.mu ⁿdé.ko/",
+      "phonetic_simple": "TI-KA-LA MA-LA-MU, N-DE-KO.",
+      "translation": "Reste bien (au revoir), mon frère/ma sœur."
+    },
+    {
+      "speaker": "Mami",
+      "text": "Kenda malamu! Aloni.",
+      "phonetic_api": "/ké.ⁿda ma.lá.mu a.ló.ni/",
+      "phonetic_simple": "KEN-DA MA-LA-MU! A-LO-NI.",
+      "translation": "Va en paix (au revoir) ! Au revoir."
+    }
+  ],
+  "cultural_notes": [
+    "Les salutations en Afrique centrale, particulièrement dans l'espace lingalaphone (RDC et Congo-Brazzaville), sont indispensables et constituent une marque de respect obligatoire envers les aînés. Passer sans saluer est perçu comme une grave impolitesse.",
+    "L'expression 'Mbote' s'accompagne souvent d'une poignée de main chaleureuse. Pour témoigner d'un profond respect envers une personne plus âgée ou dotée d'une autorité, on incline légèrement le buste en plaçant la main gauche sur le bras droit pendant qu'on serre la main."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie la salutation courante 'Mbote na bino' ?",
+      "options": [
+        "Bonjour à toi",
+        "Bonjour à vous (plusieurs personnes)",
+        "Au revoir à tous"
+      ],
+      "correct_answer": "Bonjour à vous (plusieurs personnes)",
+      "explanation": "Le pronom 'bino' désigne la deuxième personne du pluriel 'vous', tandis que 'yo' désigne le singulier 'toi'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Sango [ ___ ] ? Malamu te.",
+      "correct_answer": "nini",
+      "hint": "Le mot interrogatif pour demander 'quoi de neuf'."
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "lesson_id": "B1_M1_L1_v2",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire son espace de vie intérieur et l'aménagement des pièces de manière détaillée",
+    "Caractériser son quartier et les infrastructures urbaines environnantes",
+    "Exprimer la localisation et la spatialité complexe avec des structures prépositionnelles avancées",
+    "Maîtriser la nuance structurelle entre 'There is/are', 'It is' et les quantificateurs"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Au niveau intermédiaire, la précision de la prononciation se joue sur les nuances vocaliques fines et les accents de phrase. Le mot 'suburb' /ˈsʌbɜːrb/ associe la voyelle courte /ʌ/ à la voyelle centrale longue accentuée /ɜːr/, tandis que son pluriel ou ses dérivés demandent de maintenir l'accent sur la première syllabe. Dans 'neighborhood' /ˈneɪbərhʊd/, le graphème 'eigh' forme la diphthongue fermée /eɪ/ suivie d'un schwa /ə/ et se termine par le son court relâché /ʊ/ (comme dans 'good'). Le mot 'architecture' /ˈɑːrkɪtɛktʃər/ demande une articulation nette de l'affriquée sourde /tʃ/ finale.",
+    "common_pitfalls": "Prononcer le groupe 'ch' de 'architecture' comme un /ʃ/ francophone au lieu de /k/. Prononcer la voyelle finale de 'city' /ˈsɪti/ ou 'community' avec une tension excessive proche du français, alors qu'elle doit rester brève. Confondre la prononciation de 'quiet' /ˈkwaɪət/ (calme, deux syllabes) avec celle de 'quite' /kwaɪt/ (assez, une seule syllabe)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Accommodation",
+      "phonetic_api": "/əˌkɒməˈdeɪʃən/",
+      "phonetic_simple": "ə-KOM-ə-dei-ʃən",
+      "translation": "Logement / Hébergement (indénombrable)",
+      "example_sentence": "Finding affordable accommodation in the city center is challenging.",
+      "example_phonetic": "/ˈfaɪndɪŋ əˈfɔːrdəbəl əˌkɒməˈdeɪʃən ɪn ðə ˈsɪti ˈsɛntər ɪz ˈtʃælɪndʒɪŋ/",
+      "example_translation": "Trouver un logement abordable en centre-ville est un défi."
+    },
+    {
+      "word_id": "v2",
+      "term": "Neighborhood",
+      "phonetic_api": "/ˈneɪbərhʊd/",
+      "phonetic_simple": "NEI-bər-hʊd",
+      "translation": "Quartier / Voisinage",
+      "example_sentence": "Our neighborhood is very lively and full of small cafés.",
+      "example_phonetic": "/ˈaʊər ˈneɪbərhʊd ɪz ˈvɛri ˈlaɪvli ænd fʊl ɒv smɔːl kæˈfeɪz/",
+      "example_translation": "Notre quartier est très animé et regorge de petits cafés."
+    },
+    {
+      "word_id": "v3",
+      "term": "Suburb",
+      "phonetic_api": "/ˈsʌbɜːrb/",
+      "phonetic_simple": "SAB-ɜːrb",
+      "translation": "Banlieue / Zone résidentielle périphérique",
+      "example_sentence": "They moved to a quiet suburb to have a larger garden.",
+      "example_phonetic": "/ðeɪ muːvd tuː ə ˈkwaɪət ˈsʌbɜːrb tuː hæv ə ˈlɑːrdʒər ˈɡɑːrdən/",
+      "example_translation": "Ils ont déménagé dans une banlieue calme pour avoir un plus grand jardin."
+    },
+    {
+      "word_id": "v4",
+      "term": "Spacious",
+      "phonetic_api": "/ˈspeɪʃəs/",
+      "phonetic_simple": "SPEI-ʃəs",
+      "translation": "Spacieux / Vaste",
+      "example_sentence": "The living room is spacious and gets plenty of sunlight.",
+      "example_phonetic": "/ðə ˈlɪvɪŋ ruːm ɪz ˈspeɪʃəs ænd ɡɛts ˈplɛnti ɒv ˈsʌnlaɪt/",
+      "example_translation": "Le salon est spacieux et bénéficie de beaucoup de lumière du soleil."
+    },
+    {
+      "word_id": "v5",
+      "term": "Appliances",
+      "phonetic_api": "/əˈplaɪənsɪz/",
+      "phonetic_simple": "ə-PLAÏ-əns-ɪz",
+      "translation": "Appareils électroménagers",
+      "example_sentence": "The modern kitchen is fully equipped with energy-efficient appliances.",
+      "example_phonetic": "/ðə ˈmɒdərn ˈkɪtʃɪn ɪz ˈfʊli ɪˈkwɪpt wɪð ˈɛnərdʒi ɪˈfɪʃənt əˈplaɪənsɪz/",
+      "example_translation": "La cuisine moderne est entièrement équipée d'appareils électroménagers économes en énergie."
+    },
+    {
+      "word_id": "v6",
+      "term": "Downtown",
+      "phonetic_api": "/ˌdaʊnˈtaʊn/",
+      "phonetic_simple": "daʊn-TAʊN",
+      "translation": "Centre-ville / Centre des affaires (principalement US)",
+      "example_sentence": "I work downtown, so I usually take the subway to save time.",
+      "example_phonetic": "/aɪ wɜːrk ˌdaʊnˈtaʊn soʊ aɪ ˈjuːʒʊəli teɪk ðə ˈsʌbweɪ tuː seɪv taɪm/",
+      "example_translation": "Je travaille en centre-ville, donc je prends généralement le métro pour gagner du temps."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "I live on the outskirts of the city",
+      "phonetic_api": "/aɪ lɪv ɒn ðiː ˈaʊtskɜːrts ɒv ðə ˈsɪti/",
+      "phonetic_simple": "aɪ lɪv ɒn ði AʊT-skɜːrts ɒv ðə SIti",
+      "translation": "J'habite à la périphérie / aux abords de la ville",
+      "context": "Permet de préciser une localisation géographique excentrée sans être à la campagne."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "My apartment overlooks a small park",
+      "phonetic_api": "/maɪ əˈpɑːrtmənt ˌoʊvərˈlʊks ə smɔːl pɑːrk/",
+      "phonetic_simple": "maɪ ə-PART-mənt oh-vər-LUKS ə smɔl park",
+      "translation": "Mon appartement a vue sur / donne sur un petit parc",
+      "context": "Structure descriptive élégante pour parler de l'orientation ou du vis-à-vis d'un logement."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "The public transport network is highly efficient",
+      "phonetic_api": "/ðə ˈpʌblɪk ˈtrænspɔːrt ˈnɛtwɜːrk ɪz ˈhaɪli ɪˈfɪʃənt/",
+      "phonetic_simple": "ðə PAB-lɪk TRANS-port NET-wɜːrk ɪz HAÏ-li ɪ-FI-ʃənt",
+      "translation": "Le réseau de transports en commun est extrêmement efficace",
+      "context": "Idéal pour évaluer la qualité de vie ou l'urbanisme d'une agglomération."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "It is a ten-minute walk from here",
+      "phonetic_api": "/ɪt ɪz ə tɛn ˈmɪnɪt wɔːk frɒm hɪər/",
+      "phonetic_simple": "ɪt ɪz ə ten MIN-ɪt wok from hɪər",
+      "translation": "C'est à dix minutes à pied d'ici",
+      "context": "Expression idiomatique combinée pour quantifier une distance en unité de temps de marche."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La distinction structurelle entre 'There is/are' et 'It is/They are'",
+      "explanation": "Au niveau intermédiaire, la confusion entre l'existence brute ('il y a') et la caractérisation d'un objet précis ('il est / elle est') doit être totalement éliminée. On emploie 'There is / There are' uniquement pour introduire l'existence d'un élément nouveau dans l'espace. Une fois cet élément introduit, on utilise les pronoms 'It' ou 'They' combinés avec 'BE' pour lui attribuer des caractéristiques, des adjectifs ou des qualités.",
+      "rules": [
+        "Introduction / Existence -> There is + Singulier / There are + Pluriel.",
+        "Reprise / Description -> It is + Adjectif / They are + Adjectif."
+      ],
+      "examples": [
+        {
+          "structure": "There is a balcony in my room. It is quite narrow but sunny.",
+          "phonetic_api": "/ðɛər ɪz ə ˈbælkəni ɪn maɪ ruːm ɪt ɪz kwaɪt ˈnæroʊ bʌt ˈsʌni/",
+          "meaning": "Il y a un balcon dans ma chambre. Il est assez étroit mais ensoleillé."
+        }
+      ]
+    },
+    {
+      "concept": "Les adjectifs composés de mesure à valeur épithète (Adjectif de distance/temps)",
+      "explanation": "Pour exprimer une mesure ou un temps d'accès sous forme d'adjectif placé avant un nom (comme dans 'une marche de 10 minutes'), l'anglais associe le nombre et l'unité de mesure par un trait d'union. L'unité de mesure (ici 'minute' ou 'floor') perd alors obligatoirement sa marque de pluriel ('s') car elle fonctionne grammaticalement comme un adjectif invariable.",
+      "rules": [
+        "Structure : Nombre + Trait d'union + Unité au singulier + Nom principal.",
+        "Ne jamais mettre de 's' à l'unité au sein du bloc adjectival."
+      ],
+      "examples": [
+        {
+          "structure": "A three-bedroom house.",
+          "phonetic_api": "/ə θriː ˈbɛdruːm haʊs/",
+          "meaning": "Une maison de trois chambres."
+        },
+        {
+          "structure": "A fifth-floor apartment.",
+          "phonetic_api": "/ə fɪfθ flɔːr əˈpɑːrtmənt/",
+          "meaning": "Un appartement au cinquième étage."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mark",
+      "text": "Hey Sophie, I heard you recently moved to a new place. What is your new neighborhood like?",
+      "phonetic_api": "/heɪ ˈsoʊfi aɪ hɜːrd juː ˈriːsəntli muːvd tuː ə njuː pleɪs wɒt ɪz jɔːr njuː ˈneɪbərhʊd laɪk/",
+      "phonetic_simple": "heɪ SOH-fi aɪ hɜːrd yoo RII-sənt-li moovd too ə nioo pleɪs wɒt ɪz yor nioo NEI-bər-hʊd laɪk",
+      "translation": "Salut Sophie, j'ai entendu dire que tu as déménagé récemment. Comment est ton nouveau quartier ?"
+    },
+    {
+      "speaker": "Sophie",
+      "text": "Oh, I absolutely love it! I live in a residential area on the outskirts of Bristol. It is very peaceful, and there are plenty of green spaces around.",
+      "phonetic_api": "/oʊ aɪ ˌæbsəˈluːtli lʌv ɪt aɪ lɪv ɪn ə ˌrɛzɪˈdɛnʃəl ˈɛərɪə ɒn ðiː ˈaʊtskɜːrts ɒv ˈbrɪstəl ɪt ɪz ˈvɛri ˈpiːsfʊl ænd ðɛər ɑːr ˈplɛnti ɒv ɡriːn ˈspeɪsɪz əˈraʊnd/",
+      "phonetic_simple": "oʊ aɪ ab-sə-LOOT-li lav ɪt aɪ lɪv ɪn ə rez-ɪ-DEN-ʃəl ÊR-i-ə ɒn ði AʊT-skɜːrts ɒv BRIS-təl ɪt ɪz VER-i PIIS-fʊl and ðɛər ar PLEN-ti ɒv griin SPEI-sɪz ə-raʊnd",
+      "translation": "Oh, je l'adore absolument ! J'habite dans une zone résidentielle à la périphérie de Bristol. C'est très paisible, et il y a plein d'espaces verts aux alentours."
+    },
+    {
+      "speaker": "Mark",
+      "text": "Sounds wonderful. Is your accommodation a house or an apartment?",
+      "phonetic_api": "/saʊndz ˈwʌndərfəl ɪz jɔːr əˌkɒməˈdeɪʃən ə haʊs ɔːr ən əˈpɑːrtmənt/",
+      "phonetic_simple": "saʊndz WAN-dər-fʊl ɪz yor ə-KOM-ə-dei-ʃən ə haʊs ɔːr ən ə-PART-mənt",
+      "translation": "Ça a l'air magnifique. Ton logement est une maison ou un appartement ?"
+    },
+    {
+      "speaker": "Sophie",
+      "text": "It is a spacious second-floor apartment. There is a large kitchen with modern appliances and a cozy living room that overlooks a small river.",
+      "phonetic_api": "/ɪt ɪz ə ˈspeɪʃəs ˈsɛkəndflɔːr əˈpɑːrtmənt ðɛər ɪz ə lɑːrdʒ ˈkɪtʃɪn wɪð ˈmɒdərn əˈplaɪənsɪz ænd ə ˈkoʊzi ˈlɪvɪŋ ruːm ðæt ˌoʊvərˈlʊks ə smɔːl ˈrɪvər/",
+      "phonetic_simple": "ɪt ɪz ə SPEI-ʃəs SEK-ənd-flor ə-PART-mənt ðɛər ɪz ə lardj KIT-ʃɪn wɪð MOD-ərn ə-PLAÏ-əns-ɪz and ə KOH-zi LIV-iŋ room ðat oh-vər-LUKS ə smɒl RIV-ər",
+      "translation": "C'est un appartement spacieux au deuxième étage. Il y a une grande cuisine avec des appareils modernes et un salon chaleureux qui donne sur une petite rivière."
+    },
+    {
+      "speaker": "Mark",
+      "text": "That is convenient. How far is it from downtown? Is public transport accessible?",
+      "phonetic_api": "/ðæt ɪz kənˈviːniənt haʊ fɑːr ɪz ɪt frɒm ˌdaʊnˈtaʊn ɪz ˈpʌblɪk ˈtrænspɔːrt ækˈsɛsəbəl/",
+      "phonetic_simple": "ðat ɪz kən-VII-ni-ənt haʊ far ɪz ɪt from daʊn-TAʊN ɪz PAB-lɪk TRANS-port ak-SES-ə-bəl",
+      "translation": "C'est pratique. À quelle distance est-ce du centre-ville ? Les transports en commun sont-ils accessibles ?"
+    },
+    {
+      "speaker": "Sophie",
+      "text": "Yes, it is very well connected. There is a bus stop right in front of the building, and it is only a fifteen-minute ride to the central station.",
+      "phonetic_api": "/jɛs ɪt ɪz ˈvɛri wɛl kəˈnɛktɪd ðɛər ɪz ə bʌs stɒp raɪt ɪn frʌnt ɒv ðə ˈbɪldɪŋ ænd ɪt ɪz ˈoʊnli ə ˌfɪfˈtiːnmɪnɪt raɪd tuː ðə ˈsɛntrəl ˈsteɪʃən/",
+      "phonetic_simple": "jεs ɪt ɪz VER-i wel kə-NEK-tɪd ðɛər ɪz ə bas stop raɪt ɪn frant ɒv ðə BIL-dɪŋ and ɪt ɪz OHN-li ə fɪf-TIIN-mɪn-ɪt raɪd too ðə SEN-trəl STEI-ʃən",
+      "translation": "Oui, c'est très bien desservi. Il y a un arrêt de bus juste devant l'immeuble, et il n'y a qu'un trajet de quinze minutes jusqu'à la gare centrale."
+    }
+  ],
+  "cultural_notes": [
+    "La notion d'Accommodation : En anglais, 'accommodation' est un nom abstrait strictement indénombrable (uncountable). On ne peut pas dire 'an accommodation' ni mettre de 's' à la fin. Pour désigner une unité de logement précise, on utilisera des tournures comme 'a place to live' ou 'a housing unit'.",
+    "Outskirts vs Suburbs : Bien que proches, ces termes ont une nuance sociologique nette. Les 'suburbs' font référence à des communes ou zones d'habitation organisées en périphérie immédiate (souvent associées à la vie de famille pavillonnaire). Les 'outskirts' désignent la frange ultime, la frontière géographique exacte où la ville s'achève pour laisser place à la campagne."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la tournure grammaticalement correcte pour qualifier une colocation comprenant quatre chambres :",
+      "options": [
+        "A four-bedrooms flat",
+        "A four-bedroom flat",
+        "A flat with four of bedrooms"
+      ],
+      "correct_answer": "A four-bedroom flat",
+      "explanation": "Le groupe nominal composé 'four-bedroom' agit comme un adjectif épithète devant 'flat'. Il est donc séparé d'un trait d'union et reste strictement au singulier (sans 's' à bedroom)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "There are many trendy shops in this neighborhood. [ ___ ] are very expensive.",
+      "correct_answer": "They",
+      "hint": "Pronom de reprise sujet requis pour qualifier des éléments pluriels ('shops') déjà introduits au préalable."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie exactement le mot 'Appliances' dans la description d'une cuisine ?",
+      "options": [
+        "Les meubles de rangement muraux.",
+        "Les appareils électroménagers (four, lave-vaisselle, etc.).",
+        "Les revêtements de sol en carrelage."
+      ],
+      "correct_answer": "Les appareils électroménagers (four, lave-vaisselle, etc.).",
+      "explanation": "'Appliances' (ou 'household appliances') désigne tous les dispositifs électriques ou mécaniques utilisés pour les tâches domestiques."
+    }
+  ]
+}

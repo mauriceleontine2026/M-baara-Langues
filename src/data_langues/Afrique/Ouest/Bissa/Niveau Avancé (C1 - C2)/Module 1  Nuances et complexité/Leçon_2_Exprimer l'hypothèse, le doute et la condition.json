@@ -1,0 +1,201 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Structurer des propositions conditionnelles complexes (potentiel et irréel du passé) en bissa",
+    "Introduire l'incertitude, le doute et la supposition à l'aide de particules modales",
+    "Formuler des clauses de restriction et de concession dans un raisonnement articulé"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon repose sur la prononciation précise des conjonctions de subordination conditionnelles telles que 'bɔ́' (ton haut, à ne pas confondre avec le verbe vouloir) et 'kã́'. La réalisation de l'irréel du passé requiert une articulation distincte du morphème d'atténuation 'tá' combiné à l'accentuation tonale descendante sur la particule finale.",
+    "common_pitfalls": "Veillez à maintenir une ligne tonale haute sur le marqueur conditionnel initial. Une baisse de ton sur 'bɔ́' neutralise sa valeur hypothétique et le transforme immédiatement aux yeux de l'auditeur en une simple proposition déclarative ou en verbe de position."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Bɔ́",
+      "phonetic_api": "/bɔ́/",
+      "phonetic_simple": "BÓ",
+      "translation": "Si / au cas où / l'hypothèse réalisable",
+      "example_sentence": "Bɔ́ n gaa yaa wiri n dɔ",
+      "example_phonetic": "/bɔ́ n̩ ɡaː jaː wiʁi n̩ dɔ/",
+      "example_translation": "Si tu te rends au marché."
+    },
+    {
+      "word_id": "v2",
+      "term": "Kã́",
+      "phonetic_api": "/kã́/",
+      "phonetic_simple": "KÁN",
+      "translation": "Si seulement / condition restrictive ou irréelle",
+      "example_sentence": "Kã́ m pɛɛ wáari bɔ le",
+      "example_phonetic": "/kã́ m̩ pɛː wáːʁi bɔ le/",
+      "example_translation": "Si seulement j'avais eu de l'argent."
+    },
+    {
+      "word_id": "v3",
+      "term": "Tirã",
+      "phonetic_api": "/tiʁã/",
+      "phonetic_simple": "TI-RAN",
+      "translation": "Peut-être / il se peut que / supposition",
+      "example_sentence": "Tirã a wá tuumda bɔrɩ",
+      "example_phonetic": "/tiʁã a wá tuːmda bɔʁɪ/",
+      "example_translation": "Peut-être qu'il terminera son travail."
+    },
+    {
+      "word_id": "v4",
+      "term": "Gaa-n-dɔ-le",
+      "phonetic_api": "/ɡaːndɔle/",
+      "phonetic_simple": "GAA-N-DO-LE",
+      "translation": "Même si / bien que / concession absolue",
+      "example_sentence": "Gaa-n-dɔ-le sũũ bɔ m dɔ",
+      "example_phonetic": "/ɡaːndɔle sũː bɔ m̩ dɔ/",
+      "example_translation": "Même si la colère est en moi."
+    },
+    {
+      "word_id": "v5",
+      "term": "Mõ-zi",
+      "phonetic_api": "/mõzi/",
+      "phonetic_simple": "MON-ZI",
+      "translation": "Douter / ne pas être certain / questionner la réalité",
+      "example_sentence": "M bɔ mõ-zi gẽ la ki",
+      "example_phonetic": "/m̩ bɔ mõzi ɟẽ la ki/",
+      "example_translation": "Je suis en train de douter."
+    },
+    {
+      "word_id": "v6",
+      "term": "Kuso-gã",
+      "phonetic_api": "/kusɔɡã/",
+      "phonetic_simple": "KOU-SO-GAN",
+      "translation": "À condition de / selon la pensée de",
+      "example_sentence": "Kuso-gã n nam bɔ m gã",
+      "example_phonetic": "/kusɔɡã n̩ nam bɔ m̩ ɡã/",
+      "example_translation": "À condition que tu écoutes mon conseil."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Bɔ́ n gaa Garango, n wá m saa mõ le ki",
+      "phonetic_api": "/bɔ́ n̩ ɡaː ɡaʁanɡo n̩ wá m̩ saː mõ le ki/",
+      "phonetic_simple": "BÓ N GAA GA-RAN-GO, N WÁ M SAA MON LE KI",
+      "translation": "Si tu vas à Garango, tu y rencontreras mon père",
+      "context": "Structure conditionnelle classique du potentiel (hypothèse réalisable dans l'avenir)."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Kã́ m tá tuumda bɔrɩ le ki, m gã tá hoorɩ le",
+      "phonetic_api": "/kã́ m̩ tá tuːmda bɔʁɪ le ki m̩ ɡã tá hoːʁɪ le/",
+      "phonetic_simple": "KÁN M TÁ TOUM-DA BO-RI LE KI, M GAN TÁ HOO-RI LE",
+      "translation": "Si j'avais terminé le travail, mon cœur aurait été en joie",
+      "context": "Formulation de l'irréel du passé exprimant le regret ou l'action manquée."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Tirã wáari gãũ wá m dɔrɔ nam fãa dɛ n dɔ",
+      "phonetic_api": "/tiʁã wáːʁi ɡãũ wá m̩ dɔʁɔ nam fãː dɛ n dɔ/",
+      "phonetic_simple": "TI-RAN WÁA-RI GAUN WÁ M DO-RO NAM FAAN DEH N DO",
+      "translation": "Il se peut que la banque me rende correctement ma monnaie",
+      "context": "Expression du doute mitigé ou d'une attente incertaine concernant une transaction."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Gaa-n-dɔ-le a gaa la ki, m wá a gõ la ki",
+      "phonetic_api": "/ɡaːndɔle a ɡaː la ki m̩ wá a ɡõ la ki/",
+      "phonetic_simple": "GAA-N-DO-LE A GAA LA KI, M WÁ A GON LA KI",
+      "translation": "Même si c'est très cher, je vais l'acheter",
+      "context": "Raisonnement concessif affirmant une volonté inébranlable face à un obstacle financier."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La distinction entre le potentiel ('Bɔ́') et l'irréel ('Kã́')",
+      "explanation": "Au niveau avancé, le bissa structure l'hypothèse selon le degré de réalisation du procès. La particule 'Bɔ́' introduit une condition dont la réalisation dépend de l'avenir. À l'inverse, 'Kã́' bascule l'énoncé dans le domaine de la fiction narrative ou du regret passé.",
+      "rules": [
+        "Potentiel : Bɔ́ + Pronom sujet + Verbe présent (Proproposition principale au futur avec 'wá').",
+        "Irréel du passé : Kã́ + Sujet + Auxiliaire d'antériorité 'tá' + Verbe + Marqueurs d'accompli passé."
+      ],
+      "examples": [
+        {
+          "structure": "Bɔ́ n di gũu (Si tu manges le tô) -> n wá mbe (tu te porteras bien)",
+          "phonetic_api": "/bɔ́ n̩ di ɡũː n̩ wá mbe/",
+          "meaning": "Si tu manges le tô, tu te porteras bien."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de la concession logique avec 'Gaa-n-dɔ-le'",
+      "explanation": "Pour articuler un plaidoyer ou une argumentation complexe, le locuteur bissa recourt au connecteur composé 'Gaa-n-dɔ-le'. Placé en tête de la proposition subordonnée, il neutralise l'impact restrictif de la condition invoquée.",
+      "rules": [
+        "Structure : Gaa-n-dɔ-le + [Fait concédé] + [Proposition principale affirmative].",
+        "La proposition principale maintient ses structures temporelles normales de l'action."
+      ],
+      "examples": [
+        {
+          "structure": "Gaa-n-dɔ-le m bɔ-da tuumda gẽ (Bien que j'aie l'habitude de travailler)",
+          "phonetic_api": "/ɡaːndɔle m̩ bɔda tuːmda ɟẽ/",
+          "meaning": "Bien que j'aie l'habitude de travailler / Même si je travaillais régulièrement."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Moussa",
+      "text": "Adama, bɔ́ m kpẽenã sãa wá n gã bɔ la ki hẽe, m wá a tuumda lasi bɔ ?",
+      "phonetic_api": "/adama bɔ́ m̩ kpẽːnã sãː wá n̩ ɡã bɔ la ki hẽː m̩ wá a tuːmda lazi bɔ/",
+      "phonetic_simple": "A-DA-MA, BÓ M KPEEN-NAN SAA WÁ N GAN BO LA KI HEEN, M WÁ A TOUM-DA LA-SI BO ?",
+      "translation": "Adama, si notre patron te donne de nouvelles instructions aujourd'hui, vas-tu réduire ta charge de travail ?"
+    },
+    {
+      "speaker": "Adama",
+      "text": "An, gaa-n-dɔ-le tuumda gaa la ki m dɔ, m wá a gẽ n dɔ ki. M bɔ mõ-zi gẽ la ki a gã n dɔ.",
+      "phonetic_api": "/an ɡaːndɔle tuːmda ɡaː la ki m̩ dɔ m̩ wá a ɟẽ n̩ dɔ ki m̩ bɔ mõzi ɟẽ la ki a ɡã n̩ dɔ/",
+      "phonetic_simple": "AN, GAA-N-DO-LE TOUM-DA GAA LA KI M DO, M WÁ A GYEN N DO KI. M BO MON-ZI GYEN LA KI A GAN N DO.",
+      "translation": "Non, même si le travail devient trop lourd pour moi, je l'accomplirai ainsi. Je ne doute aucunement de ses directives."
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Kã́ n tá kẽenã bisi gã bɔ la ki le ki kilaa-gãã, tirã n gã gaa wá bɔ-da mõ-zi gẽ.",
+      "phonetic_api": "/kã́ n̩ tá kẽːnã bisi ɡã bɔ la ki le ki kilaːɡãː tiʁã n̩ ɡã ɡaː wá bɔda mõzi ɟẽ/",
+      "phonetic_simple": "KÁN N TÁ KEEN-NAN BI-SI GAN BO LA KI LE KI KI-LAA-GAAN, TI-RAN N GAN GAA WÁ BO-DA MON-ZI GYEN.",
+      "translation": "Si seulement tu avais écouté les conseils des anciens autrefois, peut-être que ton esprit n'aurait pas eu l'habitude de douter ainsi."
+    },
+    {
+      "speaker": "Adama",
+      "text": "A la ki bisi. Kuso-gã n nam zɩ m gã bɔrɩ le, m gã wá hoorɩ la ki dɛ n dɔ !",
+      "phonetic_api": "/a la ki bisi kusɔɡã n̩ nam zɪ m̩ ɡã bɔʁɪ le m̩ ɡã wá hoːʁɪ la ki dɛ n dɔ/",
+      "phonetic_simple": "A LA KI BI-SI. KOU-SO-GAN N NAM ZI M GAN BO-RI LE, M GAN WÁ HOO-RI LA KI DEH N DO !",
+      "translation": "C'est tout à fait vrai. À condition que tu me laisses achever ma réflexion, mon esprit sera pleinement soulagé !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans la rhétorique traditionnelle bissa, manier l'irréel du passé avec 'Kã́' requiert une grande retenue. Évoquer publiquement ce qui aurait pu se passer jadis (`kilaa-gãã`) si une condition avait été remplie frôle parfois le blâme ou le rappel des erreurs commises au sein de la cour familiale.",
+    "L'expression de la supposition avec 'Tirã' (peut-être) traduit une prudence linguistique fondamentale au Burkina Faso. Affirmer un fait futur de manière catégorique sans nuance est perçu comme une méconnaissance de l'imprévisibilité de l'existence, que seul le Créateur maîtrise.",
+    "La concession verbale ('Gaa-n-dɔ-le') est l'outil de prédilection lors des arbitrages coutumiers menés par les notables de Garango, permettant de reconnaître la validité de l'argument adverse tout en maintenant sa propre position."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle particule bissa emploie-t-on spécifiquement pour formuler une hypothèse réalisable dans l'avenir (Si) ?",
+      "options": [
+        "Kã́",
+        "Bɔ́",
+        "Tirã"
+      ],
+      "correct_answer": "Bɔ́",
+      "explanation": "La particule à ton haut 'Bɔ́' introduit le potentiel réalisable, tandis que 'Kã́' gère l'irréel ou le regret passé."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour introduire une concession logique forte (Même si / bien que), on utilise l'articulation avancée : [ ___ ] a gaa la ki, m wá tuumda bɔrɩ.",
+      "correct_answer": "Gaa-n-dɔ-le",
+      "hint": "Le connecteur composé bissa qui annule l'effet restrictif d'un argument."
+    }
+  ]
+}

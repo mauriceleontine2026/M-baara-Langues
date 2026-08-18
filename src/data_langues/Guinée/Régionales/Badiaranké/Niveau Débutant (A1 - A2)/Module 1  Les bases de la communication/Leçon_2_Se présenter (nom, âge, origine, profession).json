@@ -1,0 +1,150 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter",
+  "learning_objectives": [
+    "Dire son nom, son âge et son origine géographique",
+    "Poser des questions simples sur l'identité de son interlocuteur",
+    "Énoncer sa profession ou son activité principale"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne /ɗ/ est une alvéolaire implosive. L'occlusive glottale /ʔ/ (coup de glotte) sépare parfois nettement deux voyelles contiguës.",
+    "common_pitfalls": "Attention à ne pas assimiler le /ɗ/ au /d/ dental français. La prononciation doit être sèche et aspirée vers l'intérieur."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v2_1",
+      "term": "mbiɗo",
+      "phonetic_api": "/mɓiɗo/",
+      "phonetic_simple": "MBI-DHO",
+      "translation": "Je suis / Moi (identitaire)",
+      "example_sentence": "Mbiɗo Samba.",
+      "example_phonetic": "/mɓiɗo samɓa/",
+      "example_translation": "Je suis Samba."
+    },
+    {
+      "word_id": "v2_2",
+      "term": "wii",
+      "phonetic_api": "/wiː/",
+      "phonetic_simple": "WII",
+      "translation": "S'appeler / Dire",
+      "example_sentence": "N wii i Alpha.",
+      "example_phonetic": "/n wiː i alfa/",
+      "example_translation": "Je m'appelle Alpha."
+    },
+    {
+      "word_id": "v2_3",
+      "term": "leydi",
+      "phonetic_api": "/lejdi/",
+      "phonetic_simple": "LEY-DI",
+      "translation": "Pays / Village d'origine",
+      "example_sentence": "Leydi muŋ n Gwinɛ.",
+      "example_phonetic": "/lejdi muŋ n gwinɛ/",
+      "example_translation": "Mon pays est la Guinée."
+    },
+    {
+      "word_id": "v2_4",
+      "term": "gollal",
+      "phonetic_api": "/gollal/",
+      "phonetic_simple": "GOL-LAL",
+      "translation": "Travail / Profession",
+      "example_sentence": "Gollal muŋ a sae.",
+      "example_phonetic": "/gollal muŋ a sae/",
+      "example_translation": "Mon travail est bon."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p2_1",
+      "original": "I maami wii i ?",
+      "phonetic_api": "/i maːmi wiː i/",
+      "phonetic_simple": "I MAA-MI WII I",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Demande d'identité d'un inconnu."
+    },
+    {
+      "phrase_id": "p2_2",
+      "original": "Mbiɗo Badiaranké.",
+      "phonetic_api": "/mɓiɗo ɓadjaranke/",
+      "phonetic_simple": "MBI-DHO BA-DJA-RAN-KE",
+      "translation": "Je suis Badiaranké.",
+      "context": "Déclaration de son appartenance ethnique ou linguistique."
+    },
+    {
+      "phrase_id": "p2_3",
+      "original": "N jwata koro mɓuɗu.",
+      "phonetic_api": "/n d͡ʒwata koro mɓuɗu/",
+      "phonetic_simple": "N DJWA-TA KO-RO MBOU-DHOU",
+      "translation": "J'ai vingt ans.",
+      "context": "Donner son âge lors d'une formalité."
+    },
+    {
+      "phrase_id": "p2_4",
+      "original": "Mbiɗo karanden.",
+      "phonetic_api": "/mɓiɗo karanden/",
+      "phonetic_simple": "MBI-DHO KA-RAN-DEN",
+      "translation": "Je suis élève / étudiant.",
+      "context": "Indiquer son statut social d'apprenant."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction de l'identité avec le prédicatif d'état",
+      "explanation": "Pour exprimer l'identité (je suis X, il est Y), le Badiaranké emploie une structure focalisée reposant sur la base pronominale de qualification couplée au nom propre ou au statut.",
+      "rules": [
+        "Le morphème de focus personnel 'mbiɗo' sert à mettre en avant le sujet de l'énoncé d'identité.",
+        "Aucun verbe d'existence n'est nécessaire lorsque l'attribut suit directement le pronom d'état."
+      ],
+      "examples": [
+        {
+          "structure": "Mbiɗo gollotooɗo",
+          "phonetic_api": "/mɓiɗo gollotoːɗo/",
+          "meaning": "Je suis un travailleur"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Personne A",
+      "text": "I maami wii i ? Leydi ma fey ?",
+      "phonetic_api": "/i maːmi wiː i lejdi ma fej/",
+      "phonetic_simple": "I MAA-MI WII I LEY-DI MA FEY",
+      "translation": "Comment t'appelles-tu ? D'où vient ton pays ?"
+    },
+    {
+      "speaker": "Personne B",
+      "text": "N wii i Samba. Mbiɗo gwinɛ-en.",
+      "phonetic_api": "/n wiː i samɓa mɓiɗo gwinɛ en/",
+      "phonetic_simple": "N WII I SAM-BA MBI-DHO GWI-NE-EN",
+      "translation": "Je m'apppelle Samba. Je suis de Guinée."
+    }
+  ],
+  "cultural_notes": [
+    "Déclarer son origine ou son lignage clanique (nom de famille) est crucial chez les Badiaranké. Cela permet immédiatement de tisser des alliances de plaisanterie (parenté à plaisanterie) très respectées dans la région de Koundara."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex2_1",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mbiɗo [ ___ ] . (Je suis étudiant)",
+      "correct_answer": "karanden",
+      "hint": "Mot désignant l'apprenant, lié à la racine de la lecture."
+    },
+    {
+      "exercise_id": "ex2_2",
+      "type": "multiple_choice",
+      "question": "Que signifie la phrase 'N wii i Mariama' ?",
+      "options": [
+        "Je vois Mariama.",
+        "Je m'appelle Mariama.",
+        "Mariama est partie."
+      ],
+      "correct_answer": "Je m'appelle Mariama.",
+      "explanation": "La structure 'N wii i' introduit l'auto-désignation du nom."
+    }
+  ]
+}

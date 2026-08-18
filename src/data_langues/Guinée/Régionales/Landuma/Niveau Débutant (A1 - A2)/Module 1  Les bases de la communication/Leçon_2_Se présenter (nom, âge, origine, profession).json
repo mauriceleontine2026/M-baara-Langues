@@ -1,0 +1,131 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter",
+  "learning_objectives": [
+    "Dire son nom et demander celui de son interlocuteur",
+    "Exprimer son origine géographique et sa provenance",
+    "Énoncer sa profession ou son activité principale"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le phonème nasal 'ŋ' (semblable au 'ng' de 'parking') apparaît fréquemment en landouma en fin ou début de mot. Il faut veiller à ne pas détacher le 'g'.",
+    "common_pitfalls": "Ne séparez pas l'indice pronominal du verbe d'état lors de la déclinaison de l'identité."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v2_1",
+      "term": "wul",
+      "phonetic_api": "/wul/",
+      "phonetic_simple": "WOUL",
+      "translation": "nom / s'appeler",
+      "example_sentence": "wul kɔn Sékou",
+      "example_phonetic": "/wul kɔn se.ku/",
+      "example_translation": "Mon nom est Sékou."
+    },
+    {
+      "word_id": "v2_2",
+      "term": "alɛ",
+      "phonetic_api": "/a.lɛ/",
+      "phonetic_simple": "A-LÈ",
+      "translation": "provenance / venir de",
+      "example_sentence": "mbi alɛ Boké",
+      "example_phonetic": "/mbi a.lɛ bo.ke/",
+      "example_translation": "Je viens de Boké."
+    },
+    {
+      "word_id": "v2_3",
+      "term": "karamɔkɔ",
+      "phonetic_api": "/ka.ra.mɔ.kɔ/",
+      "phonetic_simple": "KA-RA-MO-KO",
+      "translation": "enseignant / maître",
+      "example_sentence": "mbi wɔ karamɔkɔ",
+      "example_phonetic": "/mbi wɔ ka.ra.mɔ.kɔ/",
+      "example_translation": "Je suis enseignant."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p2_1",
+      "original": "kɛwun mɔ wul ?",
+      "phonetic_api": "/kɛ.wun mɔ wul/",
+      "phonetic_simple": "KÈ-WOUN MO WOUL",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Première rencontre formelle ou informelle."
+    },
+    {
+      "phrase_id": "p2_2",
+      "original": "dɛ mɔ alɛ ?",
+      "phonetic_api": "/dɛ mɔ a.lɛ/",
+      "phonetic_simple": "DÈ MO A-LÈ",
+      "translation": "D'où viens-tu ?",
+      "context": "Interroger un étranger sur ses origines."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le verbe être 'wɔ' et l'absence de copule dans l'identité",
+      "explanation": "Pour exprimer l'identité nominale ('Mon nom est...'), le landouma juxtapose souvent directement le syntagme possessif et le nom propre sans utiliser de verbe copule. En revanche, pour la profession, le marqueur 'wɔ' (être/devenir) est requis.",
+      "rules": [
+        "Structure Nom : [Substantif + Possessif] + [Nom propre].",
+        "Structure Métier : [Pronom sujet] + wɔ + [Métier]."
+      ],
+      "examples": [
+        {
+          "structure": "mbi wɔ + Nom",
+          "phonetic_api": "/mbi wɔ ka.ra.mɔ.kɔ/",
+          "meaning": "Je suis enseignant."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ousmane",
+      "text": "mbi tana ! kɛwun mɔ wul ?",
+      "phonetic_api": "/mbi ta.na kɛ.wun mɔ wul/",
+      "phonetic_simple": "MBI TA-NA ! KÈ-WOUN MO WOUL",
+      "translation": "Bonjour ! Comment t'appelles-tu ?"
+    },
+    {
+      "speaker": "Marie",
+      "text": "wul kɔn Marie. dɛ mɔ alɛ ?",
+      "phonetic_api": "/wul kɔn ma.ri dɛ mɔ a.lɛ/",
+      "phonetic_simple": "WOUL KON MA-RI. DÈ MO A-LÈ",
+      "translation": "Mon nom est Marie. D'où viens-tu ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "mbi alɛ Boké. mbi wɔ karamɔkɔ.",
+      "phonetic_api": "/mbi a.lɛ bo.ke mbi wɔ ka.ra.mɔ.kɔ/",
+      "phonetic_simple": "MBI A-LÈ BO-KÉ. MBI WO KA-RA-MO-KO",
+      "translation": "Je viens de Boké. Je suis enseignant."
+    }
+  ],
+  "cultural_notes": [
+    "Le terme 'karamɔkɔ' est emprunté aux langues mandingues environnantes (comme le soussou ou le malinké), témoignant des siècles d'échanges culturels intenses en Guinée Maritime."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex2_1",
+      "type": "multiple_choice",
+      "question": "Que signifie la question 'dɛ mɔ alɛ ?' ?",
+      "options": [
+        "Comment vas-tu ?",
+        "D'où viens-tu ?",
+        "Quel est ton métier ?"
+      ],
+      "correct_answer": "D'où viens-tu ?",
+      "explanation": "'dɛ' indique le lieu interrogatif (où) et 'alɛ' marque l'extraction ou la provenance."
+    },
+    {
+      "exercise_id": "ex2_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "wul [ ___ ] Ousmane.",
+      "correct_answer": "kɔn",
+      "hint": "Le pronom possessif signifiant 'mon/ma' placé après le mot wul."
+    }
+  ]
+}

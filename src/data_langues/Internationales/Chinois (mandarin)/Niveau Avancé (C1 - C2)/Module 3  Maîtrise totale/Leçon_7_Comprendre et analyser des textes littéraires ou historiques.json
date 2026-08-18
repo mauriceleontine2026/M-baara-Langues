@@ -1,0 +1,212 @@
+{
+  "lesson_id": "C1_M3_L7",
+  "level": "Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 7,
+  "title": "Analyser des textes littéraires ou historiques",
+  "learning_objectives": [
+    "Décoder la structure syntaxique condensée propre au chinois classique et littéraire (文言文)",
+    "Utiliser le lexique de l'exégèse critique pour analyser les courants de pensée et l'implication des textes",
+    "Manier des marqueurs de transition historique et philosophique tels que 遂 (suì), 乃 (nǎi) et 缘于 (yuányú)",
+    "Formuler une critique littéraire argumentée en adoptant la posture d'un analyste averti"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'analyse de textes classiques exige de restituer le rythme de diction par groupes de souffle (Découpage en propositions courtes). La conjonction classique 遂 (suì - par conséquent / alors) requiert une attaque nette de la consonne sifflante sourde /s/ couplée à un 4ème ton descendant très bref. La particule polyvalente 乃 (nǎi - être / alors / n'est autre que) demande un 3ème ton bas fléchi qui s'appuie sur la résonance nasale de la voyelle.",
+    "common_pitfalls": "Faites attention au verbe 蕴含 (yùnhán - recéler / contenir en soi) : le premier caractère est au 4ème ton descendant (yùn) et le second au 2ème ton montant (hán). Évitez d'inverser les tons ou de prononcer han au 4ème ton, ce qui nuirait à la solennité de votre analyse de texte."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "蕴含",
+      "phonetic_api": "/jyn˥˩ xan˧˥/",
+      "phonetic_simple": "YOUN-HAN",
+      "translation": "Recéler / Renfermer / Contenir implicitement",
+      "example_sentence": "这段古文虽然精炼，却蕴含着深刻的哲学智慧。",
+      "example_phonetic": "/tʂɤ twan ku wen sweɪ̯ lan tɕiŋ li̯an tɕɥ̯ Wait ʔjyn˥˩ xan˧˥ tʂə ʂən kɤ dɤ tʂeɪ̯ ɕɥ̯ Wait ʔtʂʐ̩ xwei̯/",
+      "example_translation": "Bien que ce texte ancien soit extrêmement condensé, il n'en recèle pas moins une profonde sagesse philosophique."
+    },
+    {
+      "word_id": "v2",
+      "term": "遂",
+      "phonetic_api": "/pinyin: suì / sweɪ̯˥˩/",
+      "phonetic_simple": "SOUAY",
+      "translation": "Alors / Par conséquent / Aussitôt après (classique)",
+      "example_sentence": "两军对峙数月，终因粮草不济，守方遂降。",
+      "example_phonetic": "/li̯aŋ tɕɥ̯ Wait ʔdwei̯ tʂʐ̩ ʂu ɥ̯ɛ tʂʊŋ jin li̯aŋ tsʰaʊ̯ pu tɕi ʂoʊ̯ fã sweɪ̯˥˩ ɕi̯aŋ/",
+      "example_translation": "Les deux armées se firent face durant plusieurs mois ; finalement, à court de vivres, la faction défensive capitula alors."
+    },
+    {
+      "word_id": "v3",
+      "term": "乃",
+      "phonetic_api": "/naɪ̯˨˩˦/",
+      "phonetic_simple": "NAÏ",
+      "translation": "Être / C'est alors que / N'est autre que (copule ou adverbe temporel classique)",
+      "example_sentence": "失败乃成功之母，此理至今不变。",
+      "example_phonetic": "/ʂʐ Wait ʔpaɪ̯ naɪ̯˨˩˦ tʂʰəŋ kʊŋ tʐ̩ mu tsʰʐ̩ li tʂʐ̩ tɕin pu pjan/",
+      "example_translation": "L'échec est la mère du succès, cette vérité demeure immuable jusqu'à aujourd'hui."
+    },
+    {
+      "word_id": "v4",
+      "term": "缘于",
+      "phonetic_api": "/ɥ̯ɛn˧˥ jɥ̯˧˥/",
+      "phonetic_simple": "YUEN-YU",
+      "translation": "Provenir de / Prendre sa source dans / Être causé par",
+      "example_sentence": "中国传统文人的清高思想，很大程度上缘于道家哲学。",
+      "example_phonetic": "/tʂʊŋ kwo tʰwanz 統 wen ʐən dɤ tɕʰiŋ kaʊ̯ sʐ̩ ɕi̯aŋ xən da ttsʰəŋ du ʂaŋ ɥ̯ɛn˧˥ jɥ̯˧˥ daʊ̯ tɕi̯a tʂeɪ̯ ɕɥ̯ Wait ʔ/",
+      "example_translation": "Le détachement moral des lettrés chinois traditionnels découle, dans une large mesure, de la philosophie taoïste."
+    },
+    {
+      "word_id": "v5",
+      "term": "契合",
+      "phonetic_api": "/tɕʰi˥˩ Wait ʔxɤ˧˥/",
+      "phonetic_simple": "TCHHEE-HÉ",
+      "translation": "Coïncider avec / Entrer en parfaite résonance / S'accorder",
+      "example_sentence": "作者的思想与那个时代的变革浪潮高度契合。",
+      "example_phonetic": "/tswɔ tʂɤ dɤ sʐ̩ ɕi̯aŋ jy na kɤ ʂʐ̩ daɪ̯ dɤ pjan kɤ laŋ ttsʰaʊ̯ kaʊ̯ du tɕʰi˥˩ Wait ʔxɤ˧˥/",
+      "example_translation": "La pensée de l'auteur entre en parfaite résonance avec la vague de réformes de cette époque."
+    },
+    {
+      "word_id": "v6",
+      "term": "隐喻",
+      "phonetic_api": "/in˨˩˦ jy˥˩/",
+      "phonetic_simple": "YIN-YU",
+      "translation": "Métaphore / Allégorie / Sens caché",
+      "example_sentence": "诗中的“孤舟”是作者内心孤独境遇的隐喻。",
+      "example_phonetic": "/ʂʐ̩ tʂʊŋ dɤ ku tʂoʊ̯ ʂʐ尊 tswɔ tʂɤ neɪ̯ ɕin ku du tɕiŋ jy dɤ in˨˩˦ jy˥˩/",
+      "example_translation": "La « barque solitaire » évoquée dans le poème est une métaphore de la condition d'isolement intérieur de l'auteur."
+    },
+    {
+      "word_id": "v7",
+      "term": "视角",
+      "phonetic_api": "/ʂʐ尊 tɕjaʊ̯˨˩˦/",
+      "phonetic_simple": "CHEI-DIAO",
+      "translation": "Angle d'analyse / Perspective / Point de vue critique",
+      "example_sentence": "从历史的视角来看，这场变法具有必然性。",
+      "example_phonetic": "/tsʰʊŋ li ʂʐ̩ dɤ ʂʐ尊 tɕjaʊ̯˨˩˦ laɪ̯ kʰan tʂa Wait ʔtʂʰaŋ pjan fa tɕy joʊ̯ pi Wait ʔjan ʂʐ尊/",
+      "example_translation": "Adoptant une perspective historique, cette réforme revêtait un caractère inévitable."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "该经典文本虽历经千载，其核心思想至今仍蕴含着极高的启示价值。",
+      "phonetic_api": "/kaɪ̯ tɕiŋ djan wen pən sweɪ̯ li tɕin tɕʰi̯ɛn tsaɪ̯ tɕʰi xɤ ɕin sʐ̩ ɕi̯aŋ tɕin ʐəŋ jyn xan tʂə tɕi kaʊ̯ dɤ tɕi ʂʐ Wait ʔtɕja tʐʐ̩/",
+      "phonetic_simple": "GAÏ DJING-DIEN OUEN-BEN SOUAY LEE-DJIN TCHIEN-DZAÏ, TCHHEE HEI-CHIN SZEE-XIANG ZHEE-DJIN RENG YOUN-HAN ZHEI DJEE GAO DEU QEE-CHEI DJIA-ZHEI.",
+      "translation": "Bien que ce texte classique ait traversé les millénaires, sa pensée fondamentale recèle encore aujourd'hui une immense valeur de guidance spirituelle.",
+      "context": "Introduction d'un essai académique ou présentation lors d'un colloque d'exégèse littéraire"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "汉代史学家司马迁在《史记》中，遂采用纪传体结构剖析历史演变。",
+      "phonetic_api": "/xan daɪ̯ ʂʐ̩ ɕɥ̯ Wait ʔtɕi̯a sʐ̩ ma tɕʰi̯ɛn dzaɪ̯ ʂʐ̩ tɕi tʂʊŋ sweɪ̯ tsʰaɪ̯ jʊŋ tɕi ttsʰwan tʰi dɕi̯a kwo pʰoʊ̯ ɕi ʂʐ̩ tɕi jny pjan/",
+      "phonetic_simple": "HAN-DAÏ CHEI-XUE-DJIA SZEE-MA TCHIEN DZAÏ CHEI-DJEE TCHONG, SOUAY TSAÏ-YONG DJIEE-TCHHUAN-THEE GOUO PHOU-XI CHEI-DJEE YEN-BIEN.",
+      "translation": "Sima Qian, historien de la dynastie Han, décida alors d'adopter dans ses 'Annales Historiques' une structure biographique pour disséquer les mutations de l'Histoire.",
+      "context": "Analyse méthodologique de l'historiographie chinoise classique"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "深入剖析文本的隐喻系统，可以发现其与老庄学说存在深层的契合。",
+      "phonetic_api": "/ʂən ʐu pʰoʊ̯ ɕi wen pən dɤ in jy ɕi tʰwŋ kʰɤ i fa ɕi̯an tchhee jy laʊ̯ tʂwaŋ ɕɥ̯ Wait ʔswɔ tsʊn dzaɪ̯ ʂən ttsʰəŋ dɤ tɕʰi Wait ʔxɤ/",
+      "phonetic_simple": "CHEN-RU PHOU-XI OUEN-BEN DEU YIN-YU XEE-THONG, KHÉ-EE FA-CHIEN TCHHEE YU LAO-ZHUANG XUÉ-CHOUO TSUN-DZAÏ CHEN-TSHENG DEU TCHHEE-HÉ.",
+      "translation": "Une dissection approfondie du système allégorique du texte permet de déceler qu'il entre en profonde résonance avec la doctrine de Laozi et Zhuangzi.",
+      "context": "Développement analytique au sein d'une dissertation de philosophie comparée"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "此文本流传受阻，究其因，实缘于作者的批判性视角触怒了当权者。",
+      "phonetic_api": "/tsʰʐ̩ wen pən ljoʊ̯ ttsʰwan ʂoʊ̯ tsu tɕiʊ̯ tɕʰi jin ʂʐ̩ ɥ̯ɛn jɥ̯ tswɔ tʂɤ dɤ pʰi pʰan ʂʐ尊 ʂʐ尊 tɕjaʊ̯ ttsʰu nu lɤ taŋ ttsʰɥ̯ɛn tʂɤ/",
+      "phonetic_simple": "TSEU OUEN-BEN LIOU-TCHHUAN CHOU-DZU, DJIOU TCHHEE IN, CHEI YUEN-YU DZOUO-THÉ DEU PHEE-PHAN-XING CHEI-DIAO TCHHOU-NU LEU DANG-QUOEN-ZHEU.",
+      "translation": "Si la diffusion de cet ouvrage fut entravée, à y bien regarder, cela est imputable à la perspective critique de l'auteur qui s'attira les foudres des dirigeants de l'époque.",
+      "context": "Explication contextuelle et sociopolitique de la censure d'une œuvre littéraire ancienne"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'usage des connecteurs de consécution classiques : 遂 (suì) et 乃 (nǎi)",
+      "explanation": "Dans la prose soutenue et l'analyse de textes de niveau C1/C2, on substitue les adverbes courants comme '于是' (yúshì) ou '就是' (jiùshì) par des particules héritées de la syntaxe classique pour scander la logique du récit ou de la pensée.",
+      "rules": [
+        "遂 (suì) s'insère directement entre le sujet et le verbe pour marquer une conséquence logique immédiate ou une décision souveraine faisant suite à un constat.",
+        "乃 (nǎi) fonctionne soit comme une copule solennelle équivalente au verbe 是 (être), soit comme un adverbe temporel soulignant que l'action ne se réalise qu'à ce moment précis ('c'est alors seulement que')."
+      ],
+      "examples": [
+        {
+          "structure": "因 (En raison de) + 意见不合 (Divergence d'opinions)，双方 (Les deux parties) + 遂 (Alors) + 中断谈判 (Interrompirent les négociations)",
+          "phonetic_api": "/jin i tɕi̯an pu Wait ʔxɤ ʂwaŋ fã sweɪ̯ tʂʊŋ twan tʰan pʰan/",
+          "meaning": "因意见不合，双方遂中断谈判。 (En raison d'une divergence d'opinions, les deux parties rompirent alors les négociations.)"
+        }
+      ]
+    },
+    {
+      "concept": "La construction causale inversée ou savante : 缘于 (yuányú) + Origine",
+      "explanation": "Le connecteur 缘于 permet d'opérer un retour analytique en arrière. Au lieu de suivre l'ordre chronologique (cause puis effet), il énonce d'abord le résultat avant d'en dévoiler la racine philosophique ou textuelle.",
+      "rules": [
+        "Structure : [Phénomène textuel / Fait historique] + 缘于 (yuányú) + [Concept fondateur / Cause sous-jacente].",
+        "Permet de lier de manière très fluide une manifestation littéraire à sa source doctrinale."
+      ],
+      "examples": [
+        {
+          "structure": "这种文风 (Ce style littéraire) + 缘于 (Prend sa source dans) + 魏晋时期的风气 (La tendance culturelle de l'époque Wei-Jin)",
+          "phonetic_api": "/tʂɤ tʂʊŋ wen fəŋ ɥ̯ɛn jɥ̯ weɪ̯ tɕin ʂʐ̩ tɕi dɤ fəŋ tɕi/",
+          "meaning": "这种文风缘于魏晋时期的风气。 (Ce style d'écriture prend sa source directe dans le climat intellectuel de la période Wei et Jin.)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "汉学教授 (Professeur de Sinologie)",
+      "text": "大卫，今天的研讨会需要你来领读这一段古文，你准备好从哪些视角进行文本分析了吗？",
+      "phonetic_api": "/da˥˩ weɪ̯˥˩ tɕin tʰi̯ɛn dɤ jan tʰaʊ̯ xwei̯ ɕy̯ jaʊ̯ ni laɪ̯ liŋ du tʂɤ i twan ku wen ni tʂwən beɪ̯ xaʊ̯ tsʰʊŋ na ɕi̯ɛ ʂʐ尊 tɕjaʊ̯ tɕin ɕiŋ wen pən fən ɕi lɤ ma/",
+      "phonetic_simple": "DA-OUEI, DJIN-THIEN DEU YEN-THAO-HOUEI XU-YAO NEE LAÏ LING-DOU TCHEU EE-OUAN GOU-OUEN, NEE ZHOUN-BEI HAO TCHHONG NA CHIEH CHEI-DIAO DJIN-XING OUEN-BEN FAN-XI LEU MA ?",
+      "translation": "David, pour le séminaire d'aujourd'hui, c'est à vous qu'incombe la tâche de guider la lecture de ce passage de chinois classique. Êtes-vous prêt à l'analyser et sous quelles perspectives critiques allez-vous l'aborder ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "教授，我打算先剖析文中蕴含的政治隐喻。文本核心逻辑其实缘于儒家的法治与德治之争。",
+      "phonetic_api": "/tɕjaʊ̯ ʂoʊ̯ wo da swan ɕi̯ɛn pʰoʊ̯ ɕi wen tʂʊŋ jyn˥˩ xan˧˥ dɤ tʂəŋ ttsʐ̩ in jy wen pən xɤ ɕin luɔ tɕi Wait ʔtɕi Wait ʔ ɥ̯ɛn˧˥ jɥ̯˧˥ ʐu tɕi̯a dɤ fa tʐʐ̩ jy dɤ tʐʐ̩ tʐ̩ ttsʰʐ̩/",
+      "phonetic_simple": "DJIAO-CHOUO, OUO DA-SOUAN XIEN PHOU-XI OUEN-ZHONG YOUN-HAN DEU ZHENG-ZHEI YIN-YU. OUEN-BEN HEI-CHIN LUO-DJEE QEE-CHEI YUEN-YU ROU-DJIA DEU FA-ZHEE YU DEU-ZHEE ZHEI ZHENG.",
+      "translation": "Professeur, j'envisage tout d'abord de disséquer les allégories politiques que recèle ce texte. Sa logique fondamentale prend en réalité sa source dans le débat confucéen opposant gouvernement par la loi et gouvernement par la vertu."
+    },
+    {
+      "speaker": "汉学教授 (Professeur de Sinologie)",
+      "text": "很好。文中提及的君王在听取大臣谏言后，“遂采纳之”，这里的“遂”字你怎么看？",
+      "phonetic_api": "/xaʊ̯ wen tʂʊŋ tʰi tɕi dɤ tɕɥ̯ Wait ʔwaŋ dzaɪ̯ tʰiŋ tclɥ̯ da ttsʰən tɕjan jyan xoʊ̯ sweɪ̯˥˩ tsʰaɪ̯ na tʐ̩ tʂɤ li dɤ sweɪ̯˥˩ tsʐ̩ ni tsən mɤ kʰan/",
+      "phonetic_simple": "HEN HAO. OUEN-ZHONG TCHEE-DJEE DEU DJUEN-OUANG DZAÏ THING-QUÉ DA-TCHHEN DJIAN-YEN HOUO, 'SOUAY TSAÏ-NA ZHEE', TCHEU-LEE DEU 'SOUAY' DZEU DZEN-MEU KHAN ?",
+      "translation": "Très bien. Le texte mentionne que le souverain, après avoir écouté les remontrances de son ministre, « adopta alors lesdits conseils ». Quelle est votre lecture de l'emploi de ce caractère « 遂 » ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "此处的“遂”，证明君王决策的果断。这种叙事风格与法家强调的高效集权高度契合，乃是研究当时体制演变的关键。",
+      "phonetic_api": "/tsʰʐ̩ ttsʰu dɤ sweɪ̯˥˩ tʂəŋ miŋ tɕɥ̯ Wait ʔwaŋ tɕɥ̯ Wait ʔtsɤ dɤ kwɔ duan tʂɤ tʂʊŋ ɕɥ̯ Wait ʔʂʐ尊 fəŋ kɤ jy fa tɕi̯a tɕʰi̯aŋ djaʊ̯ dɤ kaʊ̯ ɕjaʊ̯ tɕi ttsʰɥ̯ɛn kaʊ̯ du tɕʰi˥˩ Wait ʔxɤ˧˥ naɪ̯˨˩˦ ʂʐ尊 jyan tɕiʊ̯ taŋ ʂʐ̩ tʰi tʂʐ̩ jny pjan dɤ kwan tɕi̯ɛn/",
+      "phonetic_simple": "TSEU-TCHHOU DEU 'SOUAY', ZHENG-MING DJUEN-OUANG DJUÉ-DZÉ DEU GUO-DUAN. TCHOU XIANG-SHOU FENG-GEU YU FA-DJIA TCHHIANG-DIAO DEU GAO-XIAO DJEE-QUOEN GAO-DU TCHHEE-HÉ, NAÏ CHEI YEN-DJIOU DANG-CHEI THI-ZHEE YEN-BIEN DEU GOUAN-DJIEN.",
+      "translation": "Le « 遂 » employé ici atteste de la promptitude décisionnelle du monarque. Ce style narratif entre en parfaite résonance avec l'efficacité centralisée prônée par les Légistes ; c'est précisément là un élément clé pour étudier l'évolution institutionnelle de cette époque."
+    }
+  ],
+  "cultural_notes": [
+    "L'étude du chinois classique (文言文 - Wényánwén) est l'ultime frontière du niveau académique. La langue classique se passe de la redondance des mots disyllabiques modernes ; un seul caractère porte la charge grammaticale et sémantique, exigeant une grande rigueur d'interprétation.",
+    "L'opposition historique entre '儒家' (Confucianisme, axé sur la moralité et les rites) et '法家' (Légisme, axé sur l'autorité absolue et la loi stricte) sous-tend la quasi-totalité des textes politiques et administratifs de l'histoire impériale chinoise.",
+    "L'historien '司马迁' (Sima Qian, -145 à -86 env.) a fixé avec le Shiji le modèle de la structure '纪传体' (biographies combinées), un style où l'objectivité historique se double d'une subtile critique morale véhiculée par l'usage de métaphores et de non-dits."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel connecteur classique remplace le mot moderne '于是' (par conséquent / de ce fait) dans une analyse de style littéraire soutenu ?",
+      "options": [
+        "缘于 (Yuányú)",
+        "遂 (Suì)",
+        "隐喻 (Yǐnyù)"
+      ],
+      "correct_answer": "遂 (Suì)",
+      "explanation": "En chinois classique et en prose moderne soutenue, '遂' (suì) est le connecteur de choix pour exprimer une consécution immédiate ou logique."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "古代哲学家认为，人与自然之间存在着一种不可分割的深层 [ ___ ] 合关系。",
+      "correct_answer": "契",
+      "hint": "Caractère obligatoire pour composer le verbe formel signifiant 'entrer en parfaite résonance / s'accorder de façon organique'."
+    }
+  ]
+}

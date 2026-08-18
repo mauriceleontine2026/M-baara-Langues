@@ -1,0 +1,264 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Nuancer le degré de probabilité en utilisant les structures de doute (bóyá, àṣedà, àbáọ̀rọ̀)",
+    "Exprimer des conditions restrictives ou exclusives complexes (àfi bí, kò sí ohun tí... àfi)",
+    "Manipuler les propositions dubitatives intégrées pour soutenir un argumentaire dialectique"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon se focalise sur les oscillations tonales propres au doute. L'adverbe 'Bóyá' [bójá] porte deux tons hauts successifs, mais subit une rupture mélodique descendante lorsqu'il s'associe à la particule 'àṣedà' [àʃedà] (Bas-Moyen-Bas). Gardez les voyelles bien ouvertes sur le morphème restrictif 'Àfi' [àfi].",
+    "common_pitfalls": "Attention à la double négation tonale dans les structures restrictives comme 'Kò sí... àfi'. Le ton bas initial de 'Kò' doit être fermement maintenu sous peine de transformer l'exclusion en une simple affirmation affirmative."
+  },
+  "vocabulary": [
+    {
+      "word_id": "C1_M1_L2_V1",
+      "term": "Bóyá-bọ̀ọ̀rọ̀",
+      "phonetic_api": "/bójábɔ̀ːɾɔ̀/",
+      "phonetic_simple": "BÓ-YÁ-BÀWÀW-RÀW",
+      "translation": "L'incertitude absolue / Le doute profond / Le scepticisme",
+      "example_sentence": "Ọ̀rọ̀ rẹ̀ kún fún bóyá-bọ̀ọ̀rọ̀.",
+      "example_phonetic": "/ɔ̀ɾɔ̀ ɾɛ̀ kʊ́ fʊ́ bójábɔ̀ːɾɔ̀/",
+      "example_translation": "Son discours est empreint d'un scepticisme profond."
+    },
+    {
+      "word_id": "C1_M1_L2_V2",
+      "term": "Àṣedà",
+      "phonetic_api": "/àʃedà/",
+      "phonetic_simple": "À-SHE-DÀ",
+      "translation": "Sauf si / À moins que / Par pure exception",
+      "example_sentence": "A kò ní lọ, àṣedà bí ó bá bèèrè.",
+      "example_phonetic": "/a kò ní lɔ àʃedà bí ó bá bèːɾɛ̀/",
+      "example_translation": "Nous n'irons pas, à moins qu'il ne le demande formellement."
+    },
+    {
+      "word_id": "C1_M1_L2_V3",
+      "term": "Àfi-bí",
+      "phonetic_api": "/àfìbí/",
+      "phonetic_simple": "À-FI-BÍ",
+      "translation": "Excepté si / Si ce n'est que / Hormis le cas où",
+      "example_sentence": "Àfi-bí òjò bá rọ̀, a máa ṣiṣẹ́.",
+      "example_phonetic": "/àfìbí òd͡ʒò bá ɾɔ̀ a máː ʃiʃɛ́/",
+      "example_translation": "Hormis le cas où il pleuvrait, nous allons travailler."
+    },
+    {
+      "word_id": "C1_M1_L2_V4",
+      "term": "Àfura",
+      "phonetic_api": "/àfura/",
+      "phonetic_simple": "À-FOU-RA",
+      "translation": "Le soupçon / La conjecture dubitative / La suspicion",
+      "example_sentence": "Àfura rẹ̀ kò ní ìpìlẹ̀ kankan.",
+      "example_phonetic": "/àfura ɾɛ̀ kò ní ìkìlɛ̀ kãkã/",
+      "example_translation": "Son soupçon ne repose sur aucun fondement."
+    },
+    {
+      "word_id": "C1_M1_L2_V5",
+      "term": "Gba-lérò",
+      "phonetic_api": "/ɡ͡baléɾò/",
+      "phonetic_simple": "GBA-LÉ-RÒ",
+      "translation": "Admettre temporairement / Prendre pour hypothèse / Présumer",
+      "example_sentence": "Mo gba lérò pé ó sọ òtító.",
+      "example_phonetic": "/mo ɡ͡ba léɾò k͡pé ó sọ òtító/",
+      "example_translation": "Je présume qu'il a dit la vérité."
+    },
+    {
+      "word_id": "C1_M1_L2_V6",
+      "term": "Ìmọ̀-àfura / Ìfura",
+      "phonetic_api": "/ìfuɾa/",
+      "phonetic_simple": "Ì-FOU-RA",
+      "translation": "L'intuition dubitative / Le pressentiment d'une incertitude",
+      "example_sentence": "Ìfura mi múnú mi balẹ̀ díẹ̀.",
+      "example_phonetic": "/ìfuɾa mĩ múnú mĩ balɛ̀ díɛ̀/",
+      "example_translation": "Mon intuition dubitative m'incite à la prudence (m'apaise un peu)."
+    },
+    {
+      "word_id": "C1_M1_L2_V7",
+      "term": "Kò-ṣe-é-mọ̀",
+      "phonetic_api": "/kòʃeémɔ̀/",
+      "phonetic_simple": "KÒ-SHÉ-É-MÀW",
+      "translation": "L'incognoscible / Ce qui ne peut être affirmé avec certitude",
+      "example_sentence": "Ọjọ́ iwájú jẹ́ nǹkan kò-ṣe-é-mọ̀.",
+      "example_phonetic": "/ɔd͡ʒɔ́ iwájú d͡ʒɛ́ ŋ̀kã kòʃeémɔ̀/",
+      "example_translation": "L'avenir est une entité fondamentalement incognoscible."
+    },
+    {
+      "word_id": "C1_M1_L2_V8",
+      "term": "Àbáọ̀rọ̀",
+      "phonetic_api": "/àbáɔ̀ɾɔ̀/",
+      "phonetic_simple": "À-BÁ-ÀW-RÀW",
+      "translation": "La clause conditionnelle restrictive / L'objection subtile",
+      "example_sentence": "Àbáọ̀rọ̀ rẹ ní láárí púpọ̀.",
+      "example_phonetic": "/àbáɔ̀ɾɔ̀ ɾɛ ní láːɾí k͡púpɔ̀/",
+      "example_translation": "Ton objection subtile est d'une grande pertinence."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "C1_M1_L2_P1",
+      "original": "Bóyá ni ọ̀rọ̀ náà máa rí bẹ́ẹ̀, n nìyí tí mo fi ń fura.",
+      "phonetic_api": "/bójá nĩ ɔ̀ɾɔ̀ náː máː ɾí bɛ́ː ŋ nĩjí tí mo fĩ ŋ́ fuɾa/",
+      "phonetic_simple": "BÓ-YÁ NI ÀW-RÀW NÁÀ MÁÀ RÍ BÉÈ, N NÌ-YÍ TÍ MO FI N FOU-RA.",
+      "translation": "Il est fort douteux que cette affaire se passe ainsi, c'est ce qui éveille mon soupçon.",
+      "context": "Exprimer une réserve majeure lors d'une délibération juridique."
+    },
+    {
+      "phrase_id": "C1_M1_L2_P2",
+      "original": "Kò sí ọ̀nà kankan lati yanjú rẹ̀, àfi-bí a bá kọ̀wé sí ọ̀gá.",
+      "phonetic_api": "/kò sí ɔ̀nà kãkã lati jãd͡ʒú ɾɛ̀ àfìbí a bá kɔ̀wé sí ɔ̀ɡá/",
+      "phonetic_simple": "KÒ SÍ ÀW-NÀ KAN-KAN LÁ-TI YAN-JÚ RÈ, À-FI-BÍ A BÁ KÀW-WÉ SÍ AW-GÁ.",
+      "translation": "Il n'y a absolument aucun moyen de régler cela, excepté si nous écrivons au patron.",
+      "context": "Poser une condition exclusive de dernier recours."
+    },
+    {
+      "phrase_id": "C1_M1_L2_P3",
+      "original": "Àṣedà bí ọ̀rọ̀ náà bá tọ̀nà, nò bàá dákẹ́ láyé mi.",
+      "phonetic_api": "/àʃedà bí ɔ̀ɾɔ̀ náː bá tɔ̀nà nò bàː dákɛ́ lájé mĩ/",
+      "phonetic_simple": "À-SHE-DÀ BÍ ÀW-RÀW NÁÀ BÁ TÀW-NÀ, NÒ BÁ DÁ-KÉ LÁ-YÉ MI.",
+      "translation": "À moins que cette cause ne soit parfaitement juste, je ne me serais jamais tu de ma vie.",
+      "context": "Affirmation d'une condition absolue liée à l'éthique personnelle."
+    },
+    {
+      "phrase_id": "C1_M1_L2_P4",
+      "original": "A le gba lérò pé ìsẹ̀lẹ̀ náà kò-ṣe-é-mọ̀ tẹ́lẹ̀.",
+      "phonetic_api": "/a le ɡ͡ba léɾò k͡pé ìʃɛlɛ̀ náː kòʃeémɔ̀ tɛ́lẹ̀/",
+      "phonetic_simple": "A LE GBA LÉ-RÒ KPÉ Ì-SHẸ-LÈ NÁÀ KÒ-SHÉ-É-MÀW TÉ-LÈ.",
+      "translation": "Nous pouvons présumer que l'événement était imprévisible auparavant.",
+      "context": "Postulat scientifique ou historique face à une situation complexe."
+    },
+    {
+      "phrase_id": "C1_M1_L2_P5",
+      "original": "Bóyá-bọ̀ọ̀rọ̀ rẹ ń mú kí gbogbo ètò wa dají díẹ̀.",
+      "phonetic_api": "/bójábɔ̀ːɾɔ̀ ɾɛ ŋ́ mú kí ɡ͡boɡ͡bo ɛ̀tò wa dad͡ʒí díɛ̀/",
+      "phonetic_simple": "BÓ-YÁ-BÀWÀW-RÀW RÈ N MOÚ KÍ GBOGBO È-TÒ WA DA-JÍ DÍ-Ẹ.",
+      "translation": "Ton scepticisme profond pousse à fragiliser la certitude de toute notre planification.",
+      "context": "Critique d'une attitude défaitiste ou trop prudente dans un projet."
+    },
+    {
+      "phrase_id": "C1_M1_L2_P6",
+      "original": "Àfi-bí a bá rí èrè gidi gbà, ọ̀rọ̀ yìí máa kún fún àbáọ̀rọ̀.",
+      "phonetic_api": "/àfìbí a bá ɾí èɾè ɡidi ɡ͡bà ɔ̀ɾɔ̀ jĩː máː kʊ́ fʊ́ àbáɔ̀ɾɔ̀/",
+      "phonetic_simple": "À-FI-BÍ A BÁ RÍ È-RÈ GI-DI GBA, ÀW-RÀW YÍ MÁÀ KOÚN FOÚN À-BÁ-ÀW-RÀW.",
+      "translation": "Hormis le cas où nous obtiendrions un profit réel, ce projet soulèvera de nombreuses objections.",
+      "context": "Analyse de risques financiers de niveau managérial."
+    },
+    {
+      "phrase_id": "C1_M1_L2_P7",
+      "original": "Kò sí nǹkan tí ó lè múnú mi dùn, àfi dídé rẹ.",
+      "phonetic_api": "/kò sí ŋ̀kã tí ó lè múnú mĩ dù àfì dídé ɾɛ/",
+      "phonetic_simple": "KÒ SÍ N-KAN TÍ Ó LÈ MOÚ-NÚ MI DOÙN, À-FI DÍ-DÉ RÈ.",
+      "translation": "Rien ne saurait me réjouir, si ce n'est ton arrivée.",
+      "context": "Expression d'une conditionnalité affective absolue."
+    },
+    {
+      "phrase_id": "C1_M1_L2_P8",
+      "original": "Ìfura rẹ̀ kọjá ohun tí a le fojú fò dá báyìí.",
+      "phonetic_api": "/ìfuɾa ɾɛ̀ kɔd͡ʒá ohʊ̃ tí a le fod͡ʒú fò dá bájĩː/",
+      "phonetic_simple": "Ì-FOU-RA RÈ KAW-JÁ OH-OÙN TÍ A LE FO-JÚ FÒ DÁ BÁ-YÍ.",
+      "translation": "Son soupçon dépasse ce que nous pouvons nous permettre d'ignorer à présent.",
+      "context": "Prise de décision stratégique basée sur des indices discrets."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La condition exclusive restrictive avec 'Àfi-bí... bá...'",
+      "explanation": "Pour restreindre une condition à une unique possibilité d'exclusion ('sauf si', 'hormis si'), la langue avancée combine l'élément restrictif 'Àfi' (uniquement / sauf) avec la conjonction conditionnelle 'bí'. Le morphème de contingence 'bá' reste requis au sein de la proposition subordonnée.",
+      "rules": [
+        "Structure : Àfi-bí + [Sujet] + bá + [Verbe], [Proposition principale].",
+        "Cette tournure isole la condition comme l'unique barrière à la réalisation du fait."
+      ],
+      "examples": [
+        {
+          "structure": "Àfi-bí o bá san owó, o kò ní wọlé",
+          "phonetic_api": "/àfìbí o bá sã owó o kò ní wɔ̀lé/",
+          "meaning": "Sauf si tu paies l'argent, tu n'entreras point."
+        },
+        {
+          "structure": "Àfi-bí a bá yára, a máa kùnà",
+          "phonetic_api": "/àfìbí a bá jáɾa a máː kʊ́nà/",
+          "meaning": "À moins que nous ne nous dépêchions, nous allons échouer."
+        }
+      ]
+    },
+    {
+      "concept": "La formulation de la suspicion probabiliste dépréciative : 'Bóyá ni...'",
+      "explanation": "En yoruba standard, 'Bóyá' signifie 'peut-être'. Cependant, au niveau C1, lorsqu'il est immédiatement suivi de la particule de focalisation 'ni', sa valeur bascule vers une probabilité hautement négative ou un doute ironique sévère ('Il est fort peu probable que... / Tu parles que...').",
+      "rules": [
+        "Structure : Bóyá ni + [Sujet] + [Verbe à l'accompli ou inaccompli].",
+        "Le ton de la phrase marque un scepticisme délibéré qui inverse la simple nuance de possibilité."
+      ],
+      "examples": [
+        {
+          "structure": "Bóyá ni ó máa dé lónìí",
+          "phonetic_api": "/bójá nĩ ó máː dé lónĩ́/",
+          "meaning": "Il est fort peu probable qu'il arrive aujourd'hui (Le doute l'emporte)."
+        },
+        {
+          "structure": "Bóyá ni Túnjí mọ̀ nípa ọ̀rọ̀ náà",
+          "phonetic_api": "/bójá nĩ tʊ̃d͡ʒí mɔ̀ níkā ɔ̀ɾɔ̀ náː/",
+          "meaning": "Il est très douteux que Tunji soit au courant de cette affaire."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Olùwòye-àgbà (L'analyste)",
+      "text": "Àjàyí, mọ̀ràn mi lórí ètò ajé yìí kún fún àfura. Bóyá ni àṣeyọrí rẹ máa yá kánkán, àfi-bí o bá yí ìlànà rẹ padà pátápátá.",
+      "phonetic_api": "/àd͡ʒàjí mɔ̀ɾã̀ mĩ lórí ɛ̀tò aʒé jĩː kʊ́ fʊ́ àfura bójá nĩ àʃejɔɾí ɾɛ máː já kã́kã́ àfìbí o bá jí ìlànà ɾɛ k͡padà k͡páták͡páta/",
+      "phonetic_simple": "À-JÀ-YÍ, MÀW-RÀN MI LÓ-RÍ È-TÒ A-JÉ YÍ KOÚN FOÚN À-FOU-RA. BÓ-YÁ NI À-SHE-YÁW-RÍ RÈ MÁÀ YÁ KÁN-KÁN, À-FI-BÍ O BÁ YÍ Ì-LÀ-NÀ RÈ KPA-DÀ KPÁ-TÁ-KPÁ-TÁ.",
+      "translation": "Ajayi, mon analyse sur ce plan économique est pleine de suspicions. Il est fort peu probable que ton succès soit rapide, excepté si tu métamorphoses complètement ta stratégie."
+    },
+    {
+      "speaker": "Àjàyí (L'entrepreneur)",
+      "text": "Ọ̀rọ̀ rẹ mú kò-ṣe-é-mọ̀ dání, ṣùgbọ́n mo gba lérò pé ọ̀na míràn ṣì wà. Àṣedà bí ọjà bá dẹwọ́, nò ní ṣàṣekù kankan mọ́.",
+      "phonetic_api": "/ɔ̀ɾɔ̀ ɾɛ mú kòʃeémɔ̀ dání ʃùɡ͡bɔ́ mo ɡ͡ba léɾò k͡pé ɔ̀na míɾã̀ ʃì wà àʃedà bí ɔd͡ʒà bá dɛwɔ́ nò ní ʃàṣekù kãkã mɔ́/",
+      "phonetic_simple": "ÀW-RÀW RÈ MOÚ KÒ-SHÉ-É-MÀW DÁ-NÍ, SHOÙ-GBÓN MO GBA LÉ-RÒ KPÉ ÀW-NA MÍ-RÀN SHÌ WÀ. À-SHE-DÀ BÍ AW-JÀ BÁ DẸ-WÀW, NÒ NÍ SHÀ-SHE-KOÙ KAN-KAN MÁ.",
+      "translation": "Tes propos mettent en lumière une véritable incognoscible, mais je présume qu'une autre voie subsiste. À moins que le marché ne s'effondre, je ne laisserai plus aucune tâche inachevée."
+    },
+    {
+      "speaker": "Olùwòye-àgbà (L'analyste)",
+      "text": "Àbáọ̀rọ̀ rẹ dára, ṣùgbọ́n bóyá-bọ̀ọ̀rọ̀ kò tọ́ nínú iṣẹ́ gidi. Kò sí nǹkan tí ó lè gba ilé-iṣẹ́ yìí là, àfi dunjú ìmọ̀ rẹ.",
+      "phonetic_api": "/àbáɔ̀ɾɔ̀ ɾɛ dára ʃùɡ͡bɔ́ bójábɔ̀ːɾɔ̀ kò tɔ́ nĩ́nú iʃɛ́ ɡidi kò sí ŋ̀kã tí ó lè ɡ͡ba iléiʃɛ́ jĩː là àfì dʊ̃d͡ʒú ìmɔ̀ ɾɛ/",
+      "phonetic_simple": "À-BÁ-ÀW-RÀW RÈ DÁ-RA, SHOÙ-GBÓN BÓ-YÁ-BÀWÀW-RÀW KÒ TÁW NÍ-NOÚ I-SHÉ GI-DI. KÒ SÍ N-KAN TÍ Ó LÈ GBA I-LÉ-I-SHÉ YÍ LÀ, À-FI DOÙN-JÚ Ì-MÀW RÈ.",
+      "translation": "Ton objection est valable, mais le scepticisme permanent n'a pas sa place dans une entreprise sérieuse. Rien ne saurait sauver cette société, si ce n'est la profondeur de ton expertise."
+    },
+    {
+      "speaker": "Àjàyí (L'entrepreneur)",
+      "text": "Mo gbà tẹ́lẹ̀. Ìfura mi ti kúrò, mo sì máa fojúṣọ̀nà gidi láti borí gbogbo àbáọ̀rọ̀ wọ̀nyí lọ́la.",
+      "phonetic_api": "/mo ɡ͡bà tɛ́lɛ̀ ìfuɾa mĩ ti kúɾɔ̀ mo sì máː fod͡ʒúʃɔ̀nà ɡidi láti boɾí ɡ͡boɡ͡bo àbáɔ̀ɾọ̀ wɔ̀jĩ́ lɔ́la/",
+      "phonetic_simple": "MO GBA TÉ-LÈ. Ì-FOU-RA MI TI KOÚ-RÒ, MO SÌ MÁÀ FO-JÚ-SHÀW-NÀ GI-DI LÁ-TI BO-RÍ GBOGBO À-BÁ-ÀW-RÀW WÒ-NYÍ LÁW-LA.",
+      "translation": "J'acquiesce formellement. Mes doutes se sont dissipés, et je vais mettre en œuvre une prospective rigoureuse pour surmonter toutes ces objections à l'avenir."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la tradition diplomatique et royale des Yorubas (les cours des Oba), exprimer le doute ou poser des conditions ne se fait jamais de manière abrupte. L'utilisation fine de 'Bóyá ni' et de 'Àbáọ̀rọ̀' permet de contredire un interlocuteur de rang supérieur ou un roi avec une politesse exquise, sans jamais commettre de crime de lèse-majesté.",
+    "Le concept d' 'Àfura' (la suspicion légitime ou vigilance interne) est considéré chez les anciens comme une vertu protectrice. Un proverbe yoruba dit : 'Fi lúfura sílẹ̀ fún àlejò' (Laisse toujours une part de saine suspicion face à l'inconnu), ce qui rappelle l'importance de la prudence stratégique.",
+    "Les clauses d'exclusion absolue ('Kò sí... àfi') font écho aux serments traditionnels solennels et inviolables jurés par les chefs de clans, où une seule exception divine ou morale était tolérée pour rompre un pacte communautaire."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L2_EX1",
+      "type": "multiple_choice",
+      "question": "Trouvez la formulation C1 exacte exprimant un doute teinté d'ironie négative : 'Il est fort peu probable qu'il finisse son travail aujourd'hui.'",
+      "options": [
+        "Ó máa parí iṣẹ́ rẹ ní gbogbo ọjọ́ báyìí",
+        "Bóyá ni ó máa parí iṣẹ́ rẹ̀ lónìí",
+        "Àfi-bí ó bá parí iṣẹ́ rẹ̀ lọ́la gidi",
+        "Dandan ni kí ó parí iṣẹ́ rẹ̀ kí n tó dé"
+      ],
+      "correct_answer": "Bóyá ni ó máa parí iṣẹ́ rẹ̀ lónìí",
+      "explanation": "La structure avancée 'Bóyá ni' focalise le doute et indique une probabilité fortement négative, contrairement au simple 'bóyá' qui n'exprime qu'une éventualité neutre."
+    },
+    {
+      "exercise_id": "C1_M1_L2_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour poser une condition exclusive limitative stricte en début de phrase ('Sauf si le maître accepte...'), on emploie le terme : [ ___ ] ọ̀gá bá gbà...",
+      "correct_answer": "Àfi-bí",
+      "hint": "C'est un mot composé hautement restrictif signifiant 'excepté si' ou 'hormis le cas où'."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer et utiliser les jours de la semaine en Mano",
+    "Comprendre la notion de division du temps et de mois",
+    "Demander et exprimer l'heure de manière simple"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression du temps utilise beaucoup la consonne palatale nasale /ɲ/ et des voyelles longues ouvertes telles que /ɔː/ et /ɛː/. Le mot pour jour ou soleil est souvent associé à des variations de tons médians et hauts.",
+    "common_pitfalls": "Faites attention à la longueur de la voyelle dans les termes temporels. Raccourcir un son long peut transformer un repère de temps en un nom d'objet totalement différent."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v6_1",
+      "term": "yɛlɛ",
+      "phonetic_api": "/jɛ˧lɛ˧/",
+      "phonetic_simple": "YÈ-LÈ",
+      "translation": "Jour / Soleil",
+      "example_sentence": "yɛlɛ kɛ̃ɛ",
+      "example_phonetic": "/jɛ˧lɛ˧ kɛ̃ː˧/",
+      "example_translation": "Un beau jour"
+    },
+    {
+      "word_id": "v6_2",
+      "term": "tɔ̃",
+      "phonetic_api": "/tɔ̃˧/",
+      "phonetic_simple": "TONG",
+      "translation": "Semaine / Lune / Mois",
+      "example_sentence": "tɔ̃ dōo",
+      "example_phonetic": "/tɔ̃˧ doː˧/",
+      "example_translation": "Une semaine (ou une lune/un mois selon le contexte)"
+    },
+    {
+      "word_id": "v6_3",
+      "term": "mɔ́nɛ̀",
+      "phonetic_api": "/mɔ˦nɛ˩/",
+      "phonetic_simple": "MOR-NÈ",
+      "translation": "Lundi",
+      "example_sentence": "mɔ́nɛ̀ yɛlɛ",
+      "example_phonetic": "/mɔ˦nɛ˩ jɛ˧lɛ˧/",
+      "example_translation": "Le jour de lundi"
+    },
+    {
+      "word_id": "v6_4",
+      "term": "nɛɛwɔ̃",
+      "phonetic_api": "/nɛː˧wɔ̃˧/",
+      "phonetic_simple": "NÈÈ-WONG",
+      "translation": "Heure / Moment précis",
+      "example_sentence": "nɛɛwɔ̃ ɓe mɛ̀ ?",
+      "example_phonetic": "/nɛː˧wɔ̃˧ ɓe˧ mɛ˩/",
+      "example_translation": "Quelle heure est-il ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p6_1",
+      "original": "Nɛɛwɔ̃ ɓe mɛ̀ ?",
+      "phonetic_api": "/nɛː˧wɔ̃˧ ɓe˧ mɛ˩/",
+      "phonetic_simple": "NÈÈ-WONG BÉ MÈ ?",
+      "translation": "Quelle heure est-il ?",
+      "context": "Demander l'heure à quelqu'un dans la rue ou à la maison."
+    },
+    {
+      "phrase_id": "p6_2",
+      "original": "A ɓe nɛɛwɔ̃ yaá.",
+      "phonetic_api": "/a˧ ɓe˧ nɛː˧wɔ̃˧ jaː˦/",
+      "phonetic_simple": "A BÉ NÈÈ-WONG YAA",
+      "translation": "Il est trois heures.",
+      "context": "Donner l'heure exacte."
+    },
+    {
+      "phrase_id": "p6_3",
+      "original": "Wa lɔ mɔ́nɛ̀ yɛlɛ la.",
+      "phonetic_api": "/wa˧ lɔ˧ mɔ˦nɛ˩ jɛ˧lɛ˧ la˧/",
+      "phonetic_simple": "WA LOR MOR-NÈ YÈLÈ LA",
+      "translation": "Nous irons lundi.",
+      "context": "Planifier une activité ou un déplacement."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la temporalité et de l'heure",
+      "explanation": "Pour indiquer l'heure en Mano, on utilise le terme 'nɛɛwɔ̃' (qui désigne le moment ou l'heure) suivi immédiatement du nombre cardinal correspondant au cycle horaire. La structure reste calquée sur celle de la quantification des objets.",
+      "rules": [
+        "Structure pour l'heure : nɛɛwɔ̃ + [Chiffre/Nombre].",
+        "Pour situer un événement dans un jour précis, on fait suivre le nom du jour par le terme 'yɛlɛ' (jour)."
+      ],
+      "examples": [
+        {
+          "structure": "nɛɛwɔ̃ pɛ̄ɛ",
+          "phonetic_api": "/nɛː˧wɔ̃˧ pɛː˧/",
+          "meaning": "Deux heures"
+        },
+        {
+          "structure": "mɔ́nɛ̀ yɛlɛ",
+          "phonetic_api": "/mɔ˦nɛ˩ jɛ˧lɛ˧/",
+          "meaning": "Le jour de lundi / Lundi"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Personne A",
+      "text": "Ń bo, nɛɛwɔ̃ ɓe mɛ̀ ?",
+      "phonetic_api": "/ń bo˧ nɛː˧wɔ̃˧ ɓe˧ mɛ˩/",
+      "phonetic_simple": "N BÔ, NÈÈ-WONG BÉ MÈ ?",
+      "translation": "Mon ami, quelle heure est-il ?"
+    },
+    {
+      "speaker": "Personne B",
+      "text": "A ɓe nɛɛwɔ̃ dɔ́ːlú.",
+      "phonetic_api": "/a˧ ɓe˧ nɛː˧wɔ̃˧ dɔː˦lu˦/",
+      "phonetic_simple": "A BÉ NÈÈ-WONG DOR-LOU.",
+      "translation": "Il est cinq heures."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la région forestière de la Guinée, la perception traditionnelle du temps est fortement calquée sur les cycles de la nature (la position du soleil dans le ciel pour la journée et les phases de la lune pour les mois). Le même mot 'tɔ̃' désigne ainsi la lune et le mois, marquant le lien indissociable entre l'astre et la mesure du temps."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex6_1",
+      "type": "multiple_choice",
+      "question": "Que signifie la question 'Nɛɛwɔ̃ ɓe mɛ̀ ?' en Mano ?",
+      "options": [
+        "Quel jour sommes-nous ?",
+        "Quelle heure est-il ?",
+        "Combien ça coûte ?"
+      ],
+      "correct_answer": "Quelle heure est-il ?",
+      "explanation": "'Nɛɛwɔ̃' fait référence à l'heure ou au moment, et la particule finale interroge sur la quantité/mesure."
+    },
+    {
+      "exercise_id": "ex6_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Il est deux heures', on complète ainsi : A ɓe nɛɛwɔ̃ [ ___ ].",
+      "correct_answer": "pɛ̄ɛ",
+      "hint": "C'est le chiffre deux en Mano."
+    }
+  ]
+}

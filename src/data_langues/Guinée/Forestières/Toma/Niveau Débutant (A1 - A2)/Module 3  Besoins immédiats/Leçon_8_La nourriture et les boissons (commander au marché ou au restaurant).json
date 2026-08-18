@@ -1,0 +1,123 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons",
+  "learning_objectives": [
+    "Connaître le nom des aliments de base (riz, eau, sauce)",
+    "Formuler une demande polie pour commander ou acheter à manger"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La voyelle fermée 'u' se prononce comme le 'ou' français. Veillez à la clarté de sa résonance labiale.",
+    "common_pitfalls": "Ne confondez pas le 'u' (/u/) avec le 'u' français (/y/). Le toma n'utilise pas naturellement le son /y/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v8_1",
+      "term": "mɔgi",
+      "phonetic_api": "/mɔ.ɡi/",
+      "phonetic_simple": "MO-GHI",
+      "translation": "riz (cuit)",
+      "example_sentence": "Na mɔgi za.",
+      "example_phonetic": "/na mɔ.ɡi za/",
+      "example_translation": "Je mange du riz."
+    },
+    {
+      "word_id": "v8_2",
+      "term": "ziɛ",
+      "phonetic_api": "/ziɛ/",
+      "phonetic_simple": "ZIE",
+      "translation": "eau",
+      "example_sentence": "Pɛ̀ ziɛ fɛ.",
+      "example_phonetic": "/pɛ̀ ziɛ fɛ/",
+      "example_translation": "Donne-moi de l'eau."
+    },
+    {
+      "word_id": "v8_3",
+      "term": "sua",
+      "phonetic_api": "/su.a/",
+      "phonetic_simple": "SOU-A",
+      "translation": "viande / animal",
+      "example_sentence": "Sua vaza ni.",
+      "example_phonetic": "/su.a va.za ni/",
+      "example_translation": "C'est de la bonne viande."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p8_1",
+      "original": "N'zaza ma mɔgi.",
+      "phonetic_api": "/n̩.za.za ma mɔ.ɡi/",
+      "phonetic_simple": "N-ZA-ZA MA MO-GHI",
+      "translation": "Je veux du riz.",
+      "context": "Expression de son choix alimentaire au marché ou à la maison."
+    },
+    {
+      "phrase_id": "p8_2",
+      "original": "Kpɔlɔ e ɓɛ̀?",
+      "phonetic_api": "/kpɔ.lɔ e ɓɛ̀/",
+      "phonetic_simple": "KPO-LO E BE?",
+      "translation": "Où est le pain ?",
+      "context": "Demande ciblée chez un commerçant ou à table."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le verbe d'action transitif direct 'za' (manger)",
+      "explanation": "Le verbe 'za' se place après le sujet et prend directement son complément d'objet sans préposition intermédiaire.",
+      "rules": [
+        "Le sujet est collé au verbe en cas de pronominalisation abrégée.",
+        "À l'accompli, la forme peut subir une modification de ton."
+      ],
+      "examples": [
+        {
+          "structure": "Na sua za.",
+          "phonetic_api": "/na su.a za/",
+          "meaning": "Je mange de la viande."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Hôte",
+      "text": "I zaza yee ziɛ ma?",
+      "phonetic_api": "/i za.za jeː ziɛ ma/",
+      "phonetic_simple": "I ZA-ZA YEE ZIE MA?",
+      "translation": "Veux-tu de l'eau ?"
+    },
+    {
+      "speaker": "Invité",
+      "text": "Owo, pɛ̀ ziɛ fɛ, mamiô.",
+      "phonetic_api": "/o.wo pɛ̀ ziɛ fɛ ma.mi.ɔ̂/",
+      "phonetic_simple": "O-WO, PE ZIE FE, MA-MI-O",
+      "translation": "Oui, donne-moi de l'eau, merci."
+    }
+  ],
+  "cultural_notes": [
+    "Le riz constitue la base absolue de l'alimentation en région forestière. Dire 'je mange' équivaut linguistiquement la plupart du temps à exprimer 'je mange du riz'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex8_1",
+      "type": "multiple_choice",
+      "question": "Comment désigne-t-on 'l'eau' en toma ?",
+      "options": [
+        "mɔgi",
+        "ziɛ",
+        "sua"
+      ],
+      "correct_answer": "ziɛ",
+      "explanation": "'ziɛ' est le terme exact pour l'eau de boisson ou de pluie."
+    },
+    {
+      "exercise_id": "ex8_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Na [ ___ ] za (Je mange du riz).",
+      "correct_answer": "mɔgi",
+      "hint": "L'aliment de base cuit à la vapeur."
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés",
+  "learning_objectives": [
+    "Maîtriser la concordance des temps au subjonctif (imparfait et plus-que-parfait) dans les subordonnées",
+    "Exprimer des regrets ou des actions antérieures imaginaires en utilisant le conditionnel passé et le gérondif passé"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Au niveau C1, l'accentuation des formes verbales du subjonctif imparfait doit être irréprochable. La présence du double 'ss' implique une tension holding de la consonne sifflante : 'andassi' /anˈdassi/, 'facesse' /faˈtʃesse/. Dans le gérondif passé 'avendo' /aˈvɛndo/, le 'e' est ouvert, tandis que dans 'essendo' /esˈsɛndo/, le premier 'e' est fermé et le second est ouvert.",
+    "common_pitfalls": "Attention à l'accent tonique de la troisième personne du pluriel du subjonctif imparfait : on dit 'andàssero' /anˈdassero/ et 'facéssero' /faˈtʃessero/, l'accent remonte sur l'antépénultième syllabe. Ne pas confondre avec le conditionnel."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Il congiuntivo imperfetto",
+      "phonetic_api": "/il kondʒunˈtiːvo imperˈfɛtto/",
+      "phonetic_simple": "IL KON-DJOUN-TI-VO IM-PÈR-FÈT-TO",
+      "translation": "Le subjonctif imparfait",
+      "example_sentence": "Credevo che lui sapesse la verità.",
+      "example_phonetic": "/kreˈdeːvo ke lˈluːi saˈpesse la veriˈta/",
+      "example_translation": "Je croyais qu'il savait (sût) la vérité."
+    },
+    {
+      "word_id": "v2",
+      "term": "Il condizionale passato",
+      "phonetic_api": "/il konditsjoˈnaːle pasˈsaːto/",
+      "phonetic_simple": "IL KON-DI-TSIO-NA-LÉ PAS-SA-TO",
+      "translation": "Le conditionnel passé",
+      "example_sentence": "Avrei preferito ricevere una risposta scritta.",
+      "example_phonetic": "/aˈvrɛi preferiːto riˈtʃeːvere ˈuːna risˈposta sˈskritta/",
+      "example_translation": "J'aurais préféré recevoir une réponse écrite."
+    },
+    {
+      "word_id": "v3",
+      "term": "Il rimpianto",
+      "phonetic_api": "/il rimˈpjanto/",
+      "phonetic_simple": "IL RIM-PIAN-TO",
+      "translation": "Le regret",
+      "example_sentence": "Non ho alcun rimpianto per le scelte che ho fatto.",
+      "example_phonetic": "/non ɔ alˈkun rimˈpjanto per le ˈʃɛlte ke ɔ fˈfatto/",
+      "example_translation": "Je n'ai aucun regret pour les choix que j'ai faits."
+    },
+    {
+      "word_id": "v4",
+      "term": "L'anteriorità",
+      "phonetic_api": "/lanterioriˈta/",
+      "phonetic_simple": "LAN-TÉ-RIO-RI-TA",
+      "translation": "L'antériorité",
+      "example_sentence": "Il ggerundio passato esprime l'anteriorità di un'azione.",
+      "example_phonetic": "/il dʒeˈrundjo pasˈsaːto esˈpriːme lanterioriˈta di unatsˈjjoːne/",
+      "example_translation": "Le gérondif passé exprime l'antériorité d'une action."
+    },
+    {
+      "word_id": "v5",
+      "term": "Sottovalutare",
+      "phonetic_api": "/sottovaːluˈtaːre/",
+      "phonetic_simple": "SOT-TO-VA-LOU-TA-RÉ",
+      "translation": "Sous-estimer",
+      "example_sentence": "Non dobbiamo sottovalutare la complessità della sintassi.",
+      "example_phonetic": "/non dobˈbjaːmo sottovaːluˈtaːre la komplessiˈta dˈdella sinˈtassi/",
+      "example_translation": "Nous ne devons pas sous-estimer la complexité de la syntaxe."
+    },
+    {
+      "word_id": "v6",
+      "term": "Presupporre",
+      "phonetic_api": "/prezupˈporre/",
+      "phonetic_simple": "PRÉ-ZOUP-POR-RÉ",
+      "translation": "Présupposer / Impliquer",
+      "example_sentence": "Un discorso fluente presuppone un lungo esercizio.",
+      "example_phonetic": "/un disˈkorso fluˈɛnte prezupˈpɔne un ˈlunɡo ezerˈtʃiːtsjo/",
+      "example_translation": "Un discours fluide présuppose un long exercice."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Se lo avessi saputo prima, avrei agito diversamente",
+      "phonetic_api": "/se lo aˈvessi saˈpuːto ˈpriːma aˈvrɛi ˈaːdʒito diversamente/",
+      "phonetic_simple": "SÉ LO A-VÈS-SI SA-POOU-TO PRI-MA, A-VRÈÏ A-DJI-TO DI-VÈR-SA-MÈN-TO",
+      "translation": "Si je l'avais su plus tôt, j'aurais agi différemment",
+      "context": "Structure de la période hypothétique de l'irréel du passé (C1)."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Pur avendo studiato molto, non sono riuscito a superarlo",
+      "phonetic_api": "/pur aˈvɛndo studiˈaːto ˈmolto non ˈsoːno rjuʃˈʃiːto a ssuperarlo/",
+      "phonetic_simple": "POUR A-VÈN-DO STOU-DIA-TO MOL-TO, NON SO-NO RIOUSH-SHY-TO A SOU-PÉ-RAR-LO",
+      "translation": "Bien qu'ayant beaucoup étudié, je n'ai pas réussi à le surmonter",
+      "context": "Formulatin d'une concession au passé combinant 'pur' et le gérondif passé."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Esigevo che il lavoro venisse svolto con la massima cura",
+      "phonetic_api": "/eziˈdʒeːvo ke il laˈvoːro veˈnisse ˈzvɔlto kon la ˈmassima ˈkuːra/",
+      "phonetic_simple": "É-ZI-DJÉ-VO KÉ IL LA-VO-RO VÉ-NIS-SÉ ZVOL-TO KON LA MAS-SI-MA KOU-RA",
+      "translation": "J'exigeais que le travail soit effectué avec le plus grand soin",
+      "context": "Usage requis du subjonctif imparfait passif après un verbe de volonté à l'imparfait."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Essendo già stato avvertito, non poteva addurre scuse",
+      "phonetic_api": "/esˈsɛndo dʒa sˈstaːto avverˈtiːto non poˈteːva adˈdurre ˈskuːze/",
+      "phonetic_simple": "ÈS-SÈN-DO DJA STA-TO AV-VÈR-TI-TO, NON PO-TÉ-VA AD-DOUR-RÉ SKOU-ZÉ",
+      "translation": "Ayant déjà été prévenu, il ne pouvait pas invoquer d'excuses",
+      "context": "Gérondif passé composé passif pour marquer une cause antérieure évidente."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Speravo che la situazione si fosse risolta da sola",
+      "phonetic_api": "/speˈraːvo ke la situatˈtsjoːne si ˈfosse riˈsɔlta da sˈsoːla/",
+      "phonetic_simple": "SPÉ-RA-VO KÉ LA SI-TOUA-TSIO-NÉ SI FOS-SÉ RI-SOL-TA DA SO-LA",
+      "translation": "J'espérais que la situation se serait résolue d'elle-même",
+      "context": "Concordance des temps : subjonctif plus-que-parfait exprimant une antériorité par rapport à un espoir passé."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Avresti dovuto dirmelo anziché agire alle mie spalle",
+      "phonetic_api": "/aˈvresti doˈvuːto ˈdirmelo amdziˈke ˈaːdʒito ˈalle miːe ˈspalle/",
+      "phonetic_simple": "A-VRÈS-TI DO-VOU-TO DIR-MÉ-LO AN-TZI-CHÉ A-DJI-RÉ AL-LÉ MI-É SPAL-LÉ",
+      "translation": "Tu aurais dû me le dire plutôt que d'agir dans mon dos",
+      "context": "Tournure de reproche complexe utilisant un verbe modal au conditionnel passé."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La Concordance des temps au passé (Consecutio Temporum du subjonctif)",
+      "explanation": "Au niveau C1, la maîtrise de la consecutio temporum est obligatoire. Lorsque le verbe de la proposition principale est à un temps du passé (Imparfait, Passé composé), la subordonnée au subjonctif doit s'ajuster pour exprimer la simultanéité ou l'antériorité.",
+      "rules": [
+        "Simultanéité / Postériorité relative -> Congiuntivo Imperfetto (ex: Temevo che tu non venissi = Je craignais que tu ne viennes).",
+        "Antériorité -> Congiuntivo Trapassato (ex: Temevo che tu non fossi venuto = Je craignais que tu ne sois pas venu)."
+      ],
+      "examples": [
+        {
+          "structure": "Pensavo che loro studiassero (contemporaneità) vs Pensavo che loro avessero studiato (anteriorità).",
+          "phonetic_api": "/penˈsaːvo ke lˈloːro studiˈassero/ /penˈsaːvo ke lˈloːro aˈvessero studiˈaːto/",
+          "meaning": "Je pensais qu'ils étudiaient (en même temps) vs Je pensais qu'ils avaient étudié (avant)."
+        }
+      ]
+    },
+    {
+      "concept": "Le Gérondif Passé (Gerundio Passato) littéraire et argumentatif",
+      "explanation": "Le gérondif passé permet de condenser le discours écrit ou formel en remplaçant une proposition temporelle ou causale introduisant une action antérieure.",
+      "rules": [
+        "Formation : Avendo / Essendo + Participe Passé.",
+        "Il s'emploie fréquemment combiné avec l'adverbe concessionnel 'pur' (pur avendo finito = tout en ayant fini / bien qu'il ait fini)."
+      ],
+      "examples": [
+        {
+          "structure": "Pur essendo arrivato in ritardo, ha ottenuto l'incarico.",
+          "phonetic_api": "/pur esˈsɛndo arriˈvaːto in riˈtardo a o tteˈnuːto liŋˈkaːriko/",
+          "meaning": "Bien qu'étant arrivé en retard, il a obtenu le poste."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Elena",
+      "text": "Se mi avessi interpellato prima di concludere l'accordo, ti avrei suggerito una strategia profondamente diversa.",
+      "phonetic_api": "/se mi aˈvessi interpelˈlaːto ˈpriːma di koŋˈkluːdere lakˈkordo ti aˈvrɛi suddʒeˈriːto ˈuːna strateˈdʒiːa profondaˈmente diˈvɛrsa/",
+      "phonetic_simple": "SÉ MI A-VÈS-SI IN-TÈR-PÈL-LA-TO PRI-MA DI KON-KLOU-DÉ-RÉ LAK-KOR-DO, TI A-VRÈÏ SOUD-DJÉ-RI-TO OU-NA STRA-TÉ-DJIA PRO-FON-DA-MÈN-TO DI-VÈR-SA.",
+      "translation": "Si tu m'avais consultée avant de conclure l'accord, je t'aurais suggéré une stratégie profondément différente."
+    },
+    {
+      "speaker": "Fabrizio",
+      "text": "Lo so, Elena. Tuttavia, speravo che i negoziati si fossero sbloccati autonomamente, senza che si rendesse necessario il tuo intervento diretto.",
+      "phonetic_api": "/lo sɔ eˈlɛːna tuttaˈviːa speˈraːvo ke i neɡotsˈjaːti si ˈfossero zblokˈkaːti au̯toˈnɔmamente ˈsentsa ke si renˈdesse nettʃesˈsaːrjo il ˈtuːo interˈvɛnto diˈrɛtto/",
+      "phonetic_simple": "LO SO, É-LÉ-NA. TOUT-TA-VI-A, SPÉ-RA-VO KÉ I NÉ-GO-TSIA-TI SI FOS-SÉ-RO ZBLOK-KA-TI AU-TO-NO-MA-MÈN-TO, SÈN-TSA KÉ SI RÈN-DÈS-SÉ NÉ-TCHÈS-SA-RIO IL TOU-O IN-TÈR-VÈN-TO DI-RÈT-TO.",
+      "translation": "Je sais, Elena. Toutefois, j'espérais que les négociations se seraient débloquées de manière autonome, sans que ton intervention directe ne s'avère nécessaire."
+    },
+    {
+      "speaker": "Elena",
+      "text": "Hai commesso un errore di valutazione. Pur avendo agito in buona fede, hai finito per compromettere settimane di duro lavoro.",
+      "phonetic_api": "/ai komˈmesso un erˈroːre di valutatˈtsjoːne pur aˈvɛndo ˈaːdʒito in ˈbwɔːna ˈfeːde ai fiˈniːto per komproˈmettere settiˈmaːne di ˈduːro laˈvoːro/",
+      "phonetic_simple": "AÏ KOM-MÈS-SO OUN ÈR-RO-RÉ DI VA-LOU-TA-TSIO-NÉ. POUR A-VÈN-DO A-DJI-TO IN BOUO-NA FÉ-DÉ, AÏ FI-NI-TO PÈR KOM-PRO-MÈT-TÈR-É SÈT-TI-MA-NÉ DI DOU-RO LA-VO-RO.",
+      "translation": "Tu as commis une erreur de jugement. Bien qu'ayant agi de bonne foi, tu as fini par compromettre des semaines de dur labeur."
+    },
+    {
+      "speaker": "Fabrizio",
+      "text": "Se potessi tornare indietro, cambierei radicalmente approccio. Ormai non mi resta che gestire le conseguenze.",
+      "phonetic_api": "/se poˈtessi torˈnaːre inˈdrjɛːtro kambjeˈrɛi radikalˈmente apˈprɔttʃo orˈmai non mi ˈrɛsta ke dʒesˈtiːre le konseˈɡwɛntse/",
+      "phonetic_simple": "SÉ PO-TÈS-SI TOR-NA-RÉ IN-DRIÈ-TRO, KAM-BIÈ-RÈÏ RA-DI-KAL-MÈN-TO AP-PROT-CHIO. OR-MAÏ NON MI RÈS-TA KÉ DJÈS-TI-RÉ LÉ KON-SÉ-GOUÈN-TSÉ.",
+      "translation": "Si je pouvais retourner en arrière, je changerais radicalement d'approche. Désormais, il ne me reste plus qu'à gérer les conséquences."
+    }
+  ],
+  "cultural_notes": [
+    "L'usage précis des subjonctifs imparfait et plus-que-parfait, bien qu'en léger recul dans la langue parlée très familière au profit de l'indicatif, reste le pilier de la communication formelle, de la presse de qualité, des débats universitaires et de la littérature en Italie. Maîtriser ces structures est indispensable pour la 'bella figura' intellectuelle.",
+    "La nuance entre le regret historique et le regret personnel est souvent au cœur de la rhétorique italienne. L'élégance syntaxique permet de désamorcer les conflits professionnels en nuançant la responsabilité individuelle grâce à des constructions impersonnelles au subjonctif."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Identifiez la forme correcte pour exprimer une antériorité par rapport à un doute passé : 'Immaginavo che voi [ ___ ] già l'università.'",
+      "options": [
+        "aveste finito",
+        "aveste finiti",
+        "avessero finito"
+      ],
+      "correct_answer": "aveste finito",
+      "explanation": "La principale est à l'imparfait, l'antériorité demande le subjonctif plus-que-parfait (congiuntivo trapassato) accordé à la deuxième personne du pluriel (voi aveste finito)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pur [ ___ ] compreso il problema, Fabrizio non ha saputo trovare una soluzione immediata.",
+      "correct_answer": "avendo",
+      "hint": "Gérondif auxiliaire requis pour marquer une concession au passé avec le verbe 'comprendere'."
+    }
+  ]
+}

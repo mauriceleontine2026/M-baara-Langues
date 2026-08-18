@@ -1,0 +1,245 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Maîtriser la formation régulière du passé pour tous les groupes de verbes",
+    "Choisir correctement entre l'aspect imperfectif (durée, répétition) et perfectif (action unique, résultat) au passé",
+    "Structurer un récit chronologique à l'aide de connecteurs temporels du passé",
+    "Raconter un souvenir personnel ou un événement historique simple"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne suffixale du passé '-Л' doit être dure et vélarisée [ɫ] (comme un 'l' sombre en anglais). Ne l'adoucissez pas en [lʲ], sauf au féminin pluriel ou devant une voyelle molle. Dans 'Вчера', la combinaison 'ВЧ' se prononce [ftɕ] par dévoisement du 'в'.",
+    "common_pitfalls": "Attention au déplacement de l'accent tonique au passé féminin pour certains verbes monosyllabiques (ex: 'быть' -> 'был', 'было', 'были', mais 'была́' avec l'accent sur le -а final)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Вчера",
+      "phonetic_api": "/ftɕɪˈra/",
+      "phonetic_simple": "ftchi-RA",
+      "translation": "Hier",
+      "example_sentence": "Вчера мы долго гуляли по городу.",
+      "example_phonetic": "/ftɕɪˈra mɨ ˈdolɡə ɡʊˈlʲalʲɪ pɐ ˈɡorədʊ/",
+      "example_translation": "Hier, nous nous sommes promenés longtemps en ville."
+    },
+    {
+      "word_id": "v2",
+      "term": "Прошлое",
+      "phonetic_api": "/ˈproʂləjə/",
+      "phonetic_simple": "PROCH-la-yé",
+      "translation": "Le passé",
+      "example_sentence": "Не стоит постоянно думать о прошлом.",
+      "example_phonetic": "/nʲɪ ˈstoɪ̯t pəstɐˈjanːə ˈdumətʲ ɐ ˈproʂləm/",
+      "example_translation": "Il ne faut pas penser constamment au passé."
+    },
+    {
+      "word_id": "v3",
+      "term": "Раньше",
+      "phonetic_api": "/ˈranʲʂə/",
+      "phonetic_simple": "RANE-chye",
+      "translation": "Autrefois / Avant",
+      "example_sentence": "Раньше я жил в другом городе.",
+      "example_phonetic": "/ˈranʲʂə ja ʐɨl v drʊˈɡom ˈdomʲɪ/",
+      "example_translation": "Autrefois, j'habitais dans une autre maison."
+    },
+    {
+      "word_id": "v4",
+      "term": "Сначала",
+      "phonetic_api": "/snɐˈtɕalə/",
+      "phonetic_simple": "sna-TCHA-la",
+      "translation": "D'abord / Au début",
+      "example_sentence": "Сначала я выпил кофе, а потом начал работу.",
+      "example_phonetic": "/snɐˈtɕalə ja ˈvɨpʲɪl ˈkofʲɪ a pɐˈtom ˈnatɕəl rɐˈbotʊ/",
+      "example_translation": "D'abord j'ai bu un café, et ensuite j'ai commencé le travail."
+    },
+    {
+      "word_id": "v5",
+      "term": "Потом",
+      "phonetic_api": "/pɐˈtom/",
+      "phonetic_simple": "pa-TOM",
+      "translation": "Puis / Ensuite / Plus tard",
+      "example_sentence": "Мы пообедали, а потом пошли в кино.",
+      "example_phonetic": "/mɨ pɐˈobʲɪdəlʲɪ a pɐˈtom pɐʂˈlʲi f kʲɪˈno/",
+      "example_translation": "Nous avons déjeuné, puis nous sommes allés au cinéma."
+    },
+    {
+      "word_id": "v6",
+      "term": "Вдруг",
+      "phonetic_api": "/vdruk/",
+      "phonetic_simple": "vdrouk",
+      "translation": "Soudain / Tout à coup",
+      "example_sentence": "Вдруг пошёл сильный дождь.",
+      "example_phonetic": "/vdruk pɐˈʂol ˈsʲilʲnɨj doɕː/",
+      "example_translation": "Soudain, il a commencé à pleuvoir fort."
+    },
+    {
+      "word_id": "v7",
+      "term": "Результат",
+      "phonetic_api": "/rʲɪzʊlʲˈtat/",
+      "phonetic_simple": "ri-zoul'-TAT",
+      "translation": "Résultat",
+      "example_sentence": "Мы быстро получили отличный результат.",
+      "example_phonetic": "/mɨ ˈbɨstrə pəlʊˈtɕilʲɪ ɐˈtlʲitɕnɨj rʲɪzʊlʲˈtat/",
+      "example_translation": "Nous avons rapidement obtenu un excellent résultat."
+    },
+    {
+      "word_id": "v8",
+      "term": "Воспоминание",
+      "phonetic_api": "/vəspəmʲɪˈnanʲɪjə/",
+      "phonetic_simple": "vas-pa-mi-NA-ni-yé",
+      "translation": "Souvenir",
+      "example_sentence": "У меня остались тёплые воспоминания о детстве.",
+      "example_phonetic": "/ʊ mʲɪˈnʲa ɐˈstalʲɪsʲ ˈtʲoplɨjə vəspəmʲɪˈnanʲɪjə ɐ ˈdʲet͡stvʲɪ/",
+      "example_translation": "Je garde de chaleureux souvenirs de mon enfance."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Что случилось вчера?",
+      "phonetic_api": "/ʂto slʊˈtɕiləsʲ ftɕɪˈra/",
+      "phonetic_simple": "chto slou-TCHI-lass' ftchi-RA ?",
+      "translation": "Que s'est-il passé hier ?",
+      "context": "Question directe pour demander le récit d'un événement récent."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "В конце концов мы нашли решение",
+      "phonetic_api": "/f kɐnˈt͡sɛ kɐnˈt͡sof mɨ nɐʂˈlʲi rʲɪˈʂenʲɪjə/",
+      "phonetic_simple": "f kan-TSE kan-TSOF my nach-LI ri-CHIE-ni-yé",
+      "translation": "En fin de compte / Finalement, nous avons trouvé une solution",
+      "context": "Pour marquer l'aboutissement d'un récit ou d'un processus au passé."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Это произошло в прошлом году",
+      "phonetic_api": "/ˈɛtə prəɪzɐˈʂlo f ˈproʂləm ɡɐˈdu/",
+      "phonetic_simple": "E-ta pra-iz-ach-LO f PROCH-lam ga-DOU",
+      "translation": "Cela s'est produit l'année dernière",
+      "context": "Indication temporelle majeure pour situer un fait marquant."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Я долго думал над этим вопросом",
+      "phonetic_api": "/ja ˈdolɡə ˈduməl nəd ˈɛtəm vɐˈprosəm/",
+      "phonetic_simple": "ya DOL-ga DOU-mal nad E-tam va-PRO-sam",
+      "translation": "J'ai réfléchi longtemps à cette question",
+      "context": "Insiste sur la durée du processus mental au passé (Imperfectif)."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La formation du passé en Russe",
+      "explanation": "Le passé en russe est unique car il ne change pas selon la personne (je, tu, il) mais s'accorde uniquement en genre et en nombre avec le sujet.",
+      "rules": [
+        "On prend l'infinitif du verbe, on retire le suffixe '-ТЬ' et on ajoute la marque du passé.",
+        "Sujet Masculin singulier : ajouter -Л (Я/Ты/Он читал).",
+        "Sujet Féminin singulier : ajouter -ЛА (Я/Ты/Она читала).",
+        "Sujet Neutre singulier : ajouter -ЛО (Оно читало).",
+        "Sujet Pluriel (Мы/Вы/Они) : ajouter -ЛИ (Мы читали)."
+      ],
+      "examples": [
+        {
+          "structure": "Он работал в офисе. Она работала дома. Они работали вместе.",
+          "phonetic_api": "/on rɐˈbotəl v ˈofʲɪsɪ ɐˈna rɐˈbotələ ˈdomə ɐˈnʲi rɐˈbotəlʲɪ vˈmʲesʲtʲɪ/",
+          "meaning": "Il travaillait au bureau. Elle travaillait à la maison. Ils travaillaient ensemble."
+        }
+      ]
+    },
+    {
+      "concept": "L'Opposition des aspects au passé (Imperfectif vs Perfectif)",
+      "explanation": "C'est le cœur du récit russe. Une même action passée utilise deux verbes différents selon la nuance recherchée.",
+      "rules": [
+        "Verbe Imperfectif (НСВ) : s'utilise pour une action en cours de déroulement (durée), un processus, ou une action répétée, habituelle (ex: я долго писал письмо = j'écrivais une lettre, j'y passais du temps).",
+        "Verbe Perfectif (СВ) : s'utilise pour une action unique, soudaine, complètement achevée et dont on souligne le résultat concret (ex: я написал письмо = j'ai écrit la lettre, elle est prête)."
+      ],
+      "examples": [
+        {
+          "structure": "Вчера я читал (НСВ) книгу два часа, и наконец прочитал (СВ) её.",
+          "phonetic_api": "/ftɕɪˈra ja tɕɪˈtal ˈknʲiɡʊ dva tɕɪˈsa ˈi nəkɐˈnʲɛt͡s prətɕɪˈtal jɪˈjo/",
+          "meaning": "Hier, j'ai lu (processus) mon livre pendant deux heures, et j'ai fini par le lire (résultat) en entier."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Николай",
+      "text": "Анна, привет! Расскажи, как ты провела прошлые выходные? Ты куда-то ездила?",
+      "phonetic_api": "/ˈanːə prʲɪˈvʲet rəsˈkaʐɨ kak tɨ prəvʲɪˈla ˈproʂlɨjə vɨxɐdˈnɨjə tɨ kʊˈda tə ˈjezdʲɪlə/",
+      "phonetic_simple": "AN-na, pri-VIET ! Ras-ka-JI, kak ty pra-vi-LA PROCH-ly-ya vy-had-NY-ya ? Ty kou-DA-ta IEZ-di-la ?",
+      "translation": "Salut Anna ! Raconte, comment as-tu passé le week-end dernier ? Tu es allée quelque part ?"
+    },
+    {
+      "speaker": "Анна",
+      "text": "Привет! Да, в субботу утром я решила поехать в Новгород. Сначала погода была отличная, но вдруг пошёл сильный дождь.",
+      "phonetic_api": "/prʲɪˈvʲet da f sʊˈbotʊ ˈutrəm ja rʲɪˈʂɨlə pɐˈjexatʲ v ˈnofɡərət snɐˈtɕalə pɐˈɡodə bɨˈla ɐˈtlʲitɕnəjə no vdruk pɐˈʂol ˈsʲilʲnɨj doɕː/",
+      "phonetic_simple": "pri-VIET ! Da, f sou-BO-tou OUT-ram ya ri-CHI-la pa-IE-hat' v NOF-ga-rat. Sna-TCHA-la pa-GO-da by-LA at-LI-tchna-ya, no vdrouk pa-CHOL SIL'-nyj doucht' .",
+      "translation": "Salut ! Oui, samedi matin j'ai décidé d'aller à Novgorod. Au début, le temps était magnifique, mais tout à coup, il a commencé à pleuvoir des cordes."
+    },
+    {
+      "speaker": "Николай",
+      "text": "И что ты сделала? Вернулась домой?",
+      "phonetic_api": "/ˈi ʂto tɨ ˈsdʲelələ vʲɪrˈnuləsʲ dɐˈmoj/",
+      "phonetic_simple": "I chto ty SDIE-la-la ? Vir-NOU-lass' da-MOÏ ?",
+      "translation": "Et qu'est-ce que tu as fait ? Tu es revenue à la maison ?"
+    },
+    {
+      "speaker": "Анна",
+      "text": "Нет, я не вернулась. Я зашла в небольшое кафе, пила горячий чай и долго разговаривала с местным гидом. Он рассказал мне много интересных историй.",
+      "phonetic_api": "/nʲet ja nʲɪ vʲɪrˈnuləsʲ ja zɐʂˈla v nʲɪbɐlʲˈʂojə kɐˈfɛ pʲɪˈla ɡɐˈrʲatɕɪj tɕaj ˈi ˈdolɡə rəzɡɐˈvarʲɪvələ s mʲesnɨm ˈɡʲidəm on rəsˈkazəl mnʲe ˈmnoɡə ɪntʲɪˈrɛsnɨx ɪˈstorʲɪj/",
+      "phonetic_simple": "Niet, ya ni vir-NOU-lass'. Ya zach-LA v ni-bal'-CHO-yé ka-FÉ, pi-LA ga-RIA-tchy tchaï i DOL-ga raz-ga-VA-ri-va-la s MIESS-nym GUI-dam. On ras-KA-zal mnié MNO-ga ine-ti-RIES-nyh i-STO-riï.",
+      "translation": "Non, je ne suis pas revenue. Je suis entrée dans un petit café, j'ai bu du thé chaud et j'ai discuté longuement avec un guide local. Il m'a raconté beaucoup d'histoires intéressantes."
+    }
+  ],
+  "cultural_notes": [
+    "L'importance de Novgorod (Великий Новгород) : Située entre Moscou et Saint-Pétersbourg, c'est l'une des plus anciennes et importantes villes historiques de Russie (fondée au IXe siècle). Elle est considérée comme le berceau de la démocratie et de l'État russe médiéval, ce qui en fait une destination de week-end très prisée.",
+    "La narration orale russe : Quand les Russes racontent une histoire passée, ils passent très fréquemment du passé au présent de l'indicatif au milieu de leur récit pour rendre l'action plus vivante et dynamique. C'est ce qu'on appelle le 'présent de narration'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L4_ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la forme correcte du passé pour s'accorder avec le sujet féminin 'Она' :",
+      "options": [
+        "Она читал книгу.",
+        "Она читала книгу.",
+        "Она читало книгу.",
+        "Она читали книгу."
+      ],
+      "correct_answer": "Она читала книгу.",
+      "explanation": "Pour un sujet singulier féminin, le suffixe du passé est obligatoirement '-ла'."
+    },
+    {
+      "exercise_id": "B1_M2_L4_ex2",
+      "type": "multiple_choice",
+      "question": "Quel aspect du verbe devez-vous choisir si vous voulez souligner le résultat d'une action achevée ?",
+      "options": [
+        "L'aspect Imperfectif (НСВ)",
+        "L'aspect Perfectif (СВ)",
+        "L'infinitif simple",
+        "Le mode présent"
+      ],
+      "correct_answer": "L'aspect Perfectif (СВ)",
+      "explanation": "L'aspect perfectif sert à exprimer une action ponctuelle, complètement terminée dans le passé avec un résultat visible."
+    },
+    {
+      "exercise_id": "B1_M2_L4_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Вчера вечером мы [ ___ ] (смотреть - НСВ) интересный фильм по телевизору. (Nous regardions / avons regardé - insistance sur le processus/la durée)",
+      "correct_answer": "смотрели",
+      "hint": "Forme plurielle passée du verbe imperfectif смотреть."
+    },
+    {
+      "exercise_id": "B1_M2_L4_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Студент долго думал и наконец [ ___ ] (решить - СВ) эту сложную задачу. (A résolu - résultat)",
+      "correct_answer": "решил",
+      "hint": "Forme passée masculine singulière du verbe perfectif решить."
+    }
+  ]
+}

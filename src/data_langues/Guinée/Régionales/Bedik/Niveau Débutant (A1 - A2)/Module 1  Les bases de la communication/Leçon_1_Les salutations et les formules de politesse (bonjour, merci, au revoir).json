@@ -1,0 +1,222 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Savoir saluer selon le moment de la journée (matin, après-midi, soir)",
+    "Différencier et appliquer la salutation singulière (une personne) et collective (plusieurs personnes)",
+    "Exprimer la gratitude, le remerciement chaleureux et savoir prendre congé poliment"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "En langue bédik (ménik), l'accent tonique principal frappe la première syllabe du radical. La voyelle finale '-é' de 'ameké' est une voyelle fermée tendue, similaire au 'é' du français mais plus brève. Le phonème '-ia-' dans 'amiat' se prononce comme une diphtongue fluide, où le 'i' glisse rapidement vers un 'a' ouvert.",
+    "common_pitfalls": "L'erreur classique est d'omettre l'infixe nasal '-n-' lors d'un salut collectif. Prononcer 'ameké' au lieu d' 'amunké' devant un groupe est grammaticalement incorrect et annule la marque de considération collective indispensable en milieu bédik."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Ameké",
+      "phonetic_api": "/a.mɛ.ke/",
+      "phonetic_simple": "A-MƐ-KE",
+      "translation": "Bonjour (le matin, s'adresse à une seule personne)",
+      "example_sentence": "Ameké baba",
+      "example_phonetic": "/a.mɛ.ke ba.ba/",
+      "example_translation": "Bonjour mon père (salutation du matin)."
+    },
+    {
+      "word_id": "v2",
+      "term": "Amunké",
+      "phonetic_api": "/a.mun.ke/",
+      "phonetic_simple": "A-MOUN-KE",
+      "translation": "Bonjour (le matin, s'adresse à un groupe de personnes)",
+      "example_sentence": "Amunké gasi",
+      "example_phonetic": "/a.mun.ke ɡa.si/",
+      "example_translation": "Bonjour à vous tous (le matin)."
+    },
+    {
+      "word_id": "v3",
+      "term": "Amiat",
+      "phonetic_api": "/a.mja/",
+      "phonetic_simple": "A-MIA",
+      "translation": "Bonjour / Bon après-midi (s'adresse à une seule personne)",
+      "example_sentence": "Amiat mama",
+      "example_phonetic": "/a.mja ma.ma/",
+      "example_translation": "Bonjour ma mère (salutation de l'après-midi)."
+    },
+    {
+      "word_id": "v4",
+      "term": "Ameniak",
+      "phonetic_api": "/a.mɛ.njak/",
+      "phonetic_simple": "A-ME-NIAK",
+      "translation": "Bonjour / Bon après-midi (s'adresse à plusieurs personnes)",
+      "example_sentence": "Ameniak ima",
+      "example_phonetic": "/a.mɛ.njak i.ma/",
+      "example_translation": "Bonjour mes frères et sœurs (l'après-midi)."
+    },
+    {
+      "word_id": "v5",
+      "term": "Amimud",
+      "phonetic_api": "/a.mi.mud/",
+      "phonetic_simple": "A-MI-MOUD",
+      "translation": "Bonsoir / Bonne nuit (s'adresse à une seule personne)",
+      "example_sentence": "Amimud baba",
+      "example_phonetic": "/a.mi.mud ba.ba/",
+      "example_translation": "Bonsoir mon père."
+    },
+    {
+      "word_id": "v6",
+      "term": "Gasi mē",
+      "phonetic_api": "/ɡa.si meː/",
+      "phonetic_simple": "GA-SI MEE",
+      "translation": "Merci beaucoup / Grandement",
+      "example_sentence": "Gasi mē, baba mē",
+      "example_phonetic": "/ɡa.si meː ba.ba meː/",
+      "example_translation": "Merci beaucoup, mon père."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ameké, ina bē?",
+      "phonetic_api": "/a.mɛ.ke i.na beː/",
+      "phonetic_simple": "A-MƐ-KE I-NA BEE",
+      "translation": "Bonjour, comment ça va ?",
+      "context": "Salutation standard du matin, très conviviale, entre proches ou égaux."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Mē amiat, gasi mē.",
+      "phonetic_api": "/meː a.mja ɡa.si meː/",
+      "phonetic_simple": "MEE A-MIA GA-SI MEE",
+      "translation": "Je vais bien, merci beaucoup.",
+      "context": "Réponse polie à une formule de salutation en cours de journée."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Amunké gasi, ina bē eyi ?",
+      "phonetic_api": "/a.mun.ke ɡa.si i.na beː ɛ.ji/",
+      "phonetic_simple": "A-MOUN-KE GA-SI I-NA BEE Ɛ-YI",
+      "translation": "Bonjour tout le monde, comment va la maison ?",
+      "context": "Formule utilisée le matin lorsqu'on arrive dans une concession familiale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ina bē sakhó ?",
+      "phonetic_api": "/i.na beː sa.χo/",
+      "phonetic_simple": "I-NA BEE SA-RHO",
+      "translation": "Comment va le travail / le champ ?",
+      "context": "Salutation respectueuse adressée à un travailleur ou un paysan en pleine activité."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Mē amiat, sakhó amiat.",
+      "phonetic_api": "/meː a.mja sa.χo a.mja/",
+      "phonetic_simple": "MEE A-MIA SA-RHO A-MIA",
+      "translation": "Je vais bien, le travail va bien.",
+      "context": "Réponse typique pour assurer que les activités journalières se déroulent dans la paix."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Amimud, sō nanyé.",
+      "phonetic_api": "/a.mi.mud soː na.ɲɛ/",
+      "phonetic_simple": "A-MI-MOUD SOO NA-NYƐ",
+      "translation": "Bonsoir, à demain.",
+      "context": "Utilisé en fin de soirée pour prendre congé d'une personne avant de dormir."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Gasi mē kō kō.",
+      "phonetic_api": "/ɡa.si meː koː koː/",
+      "phonetic_simple": "GA-SI MEE KOO KOO",
+      "translation": "Merci infiniment pour tout.",
+      "context": "Expression d'une profonde gratitude après avoir reçu un service, de l'aide ou de la nourriture."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Sō sanyé, dyat mē.",
+      "phonetic_api": "/soː sa.ɲɛ dʒat meː/",
+      "phonetic_simple": "SOO SA-NYƐ DJAT MEE",
+      "translation": "Au revoir, mon ami.",
+      "context": "Prendre congé de manière amicale en journée."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accord morphologique de salutation (Singulier vs Collectif)",
+      "explanation": "En bédik, les salutations ne sont pas de simples expressions figées. Elles portent des marques grammaticales précises traduisant le nombre d'interlocuteurs.",
+      "rules": [
+        "Le suffixe verbal ou la désinence '-ké' ou '-at' marque l'adresse à une entité individuelle singulière.",
+        "L'insertion d'un segment nasal centralisé ('-un-' ou '-en-') suivi d'une consonne vélaire marque l'adresse à un groupe (pluriel/collectif)."
+      ],
+      "examples": [
+        {
+          "structure": "Ame-ké (Singulier) / Am-un-ké (Pluriel)",
+          "phonetic_api": "/a.mɛ.ke/ /a.mun.ke/",
+          "meaning": "Bonjour à toi / Bonjour à vous tous (le matin)"
+        },
+        {
+          "structure": "Ami-at (Singulier) / Am-eni-ak (Pluriel)",
+          "phonetic_api": "/a.mja/ /a.mɛ.njak/",
+          "meaning": "Bonjour à toi / Bonjour à vous tous (l'après-midi)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sada (Le jeune)",
+      "text": "Baba mē, ameké. Ina bē?",
+      "phonetic_api": "/ba.ba meː a.mɛ.ke i.na beː/",
+      "phonetic_simple": "BA-BA MEE A-MƐ-KE I-NA BEE",
+      "translation": "Mon père, bonjour. Comment allez-vous ?"
+    },
+    {
+      "speaker": "Baba Mady (L'aîné)",
+      "text": "Sada, ameké. Mē amiat. Ina bē eyi?",
+      "phonetic_api": "/sa.da a.mɛ.ke meː a.mja i.na beː ɛ.ji/",
+      "phonetic_simple": "SA-DA A-MƐ-KE MEE A-MIA I-NA BEE Ɛ-YI",
+      "translation": "Sada, bonjour. Je vais bien. Comment va la maison ?"
+    },
+    {
+      "speaker": "Sada (Le jeune)",
+      "text": "Eyi amiat, gasi mē.",
+      "phonetic_api": "/ɛ.ji a.mja ɡa.si meː/",
+      "phonetic_simple": "Ɛ-YI A-MIA GA-SI MEE",
+      "translation": "La maison va bien, merci beaucoup."
+    },
+    {
+      "speaker": "Baba Mady (L'aîné)",
+      "text": "Sō nanyé, dyat mē.",
+      "phonetic_api": "/soː na.ɲɛ dʒat meː/",
+      "phonetic_simple": "SOO NA-NYƐ DJAT MEE",
+      "translation": "À demain, mon ami."
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Bédiks (qui s'appellent eux-mêmes les 'Ménik'), la salutation matinale revêt une importance cruciale. Refuser de saluer un voisin ou un aîné au réveil équivaut à déclarer une hostilité ou une rupture sociale ouverte. On s'enquiert toujours de la santé de l'interlocuteur, puis immédiatement après, de celle de sa maisonnée ('eyi') et de l'état de ses champs, car l'équilibre communautaire dépend directement de ces éléments."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Vous rencontrez un groupe de personnes au village à 15h00. Quelle formule exacte devez-vous prononcer ?",
+      "options": [
+        "Ameké",
+        "Amunké",
+        "Ameniak",
+        "Amimud"
+      ],
+      "correct_answer": "Ameniak",
+      "explanation": "Ameniak est la formule collective dédiée à l'après-midi, marquant le pluriel social."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Amimud, sō [ ___ ]. (Bonsoir, à demain.)",
+      "correct_answer": "nanyé",
+      "hint": "Le mot bédik pour désigner le jour suivant (demain)."
+    }
+  ]
+}

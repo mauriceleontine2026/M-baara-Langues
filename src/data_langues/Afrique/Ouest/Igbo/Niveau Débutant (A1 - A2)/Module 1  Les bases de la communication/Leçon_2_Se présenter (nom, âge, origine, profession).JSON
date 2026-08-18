@@ -1,0 +1,282 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Déclarer son identité nominale en utilisant les structures possessives",
+    "Exprimer son origine géographique et son lieu de résidence",
+    "Indiquer son âge et sa profession avec les verbes d'état appropriés"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le phonème /ɲ/ écrit 'ny' (comme dans 'Aha m bụ') se prononce comme le 'gn' français dans 'gagner'. Faites attention au son /ɣ/ écrit 'gh' : c'est une fricative vélaire sonore similaire au 'r' doux parisien ou au 'g' espagnol dans 'amigo', obtenue sans bloquer complètement le passage de l'air.",
+    "common_pitfalls": "Ne confondez pas le pronom suffixé possessif 'm' (mon/ma) qui est une nasale bilabiale s'attachant au nom sans coupure de voix, et le pronom objet. Dans 'Aha m', le 'm' s'articule sur un ton bas et s'enchaîne directement avec le mot précédent."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v2_1",
+      "term": "Aha",
+      "phonetic_api": "/àɦá/",
+      "phonetic_simple": "AH-HAH",
+      "translation": "Nom",
+      "example_sentence": "Aha m bụ Chidi.",
+      "example_phonetic": "/àɦá m ɓʊ́ tʃídí/",
+      "example_translation": "Mon nom est Chidi."
+    },
+    {
+      "word_id": "v2_2",
+      "term": "Afọ",
+      "phonetic_api": "/àfɔ̀/",
+      "phonetic_simple": "AH-FOH",
+      "translation": "Année / Âge",
+      "example_sentence": "O nwere afọ iri abụọ.",
+      "example_phonetic": "/ó nwèɾé àfɔ̀ ìɾí àɓʊ́ɔ̀/",
+      "example_translation": "Il/Elle a vingt ans."
+    },
+    {
+      "word_id": "v2_3",
+      "term": "Onye",
+      "phonetic_api": "/òɲé/",
+      "phonetic_simple": "OH-NYEH",
+      "translation": "Personne / Citoyen de",
+      "example_sentence": "A bụ m onye nka.",
+      "example_phonetic": "/ā ɓʊ́ m òɲé ŋ́ká/",
+      "example_translation": "Je suis un artiste."
+    },
+    {
+      "word_id": "v2_4",
+      "term": "Ibi",
+      "phonetic_api": "/íbí/",
+      "phonetic_simple": "EE-BEE",
+      "translation": "Habiter / Vivre",
+      "example_sentence": "A sị m Enugu mana m bi na Lagos.",
+      "example_phonetic": "/ā sɪ̀ m ēnūɡʊ́ máná m ɓí ná lēɡɔ́sị̀/",
+      "example_translation": "Je suis originaire d'Enugu mais je vis à Lagos."
+    },
+    {
+      "word_id": "v2_5",
+      "term": "Ọrụ",
+      "phonetic_api": "/ɔ̀ɾʊ́/",
+      "phonetic_simple": "OH-ROU",
+      "translation": "Travail / Profession",
+      "example_sentence": "Gịnị bụ ọrụ gị?",
+      "example_phonetic": "/ɟǐnɪ́ ɓʊ́ ɔ̀ɾʊ́ ɟɪ́/",
+      "example_translation": "Quel est ton travail ?"
+    },
+    {
+      "word_id": "v2_6",
+      "term": "Dibia",
+      "phonetic_api": "/díbíà/",
+      "phonetic_simple": "DEE-BEE-AH",
+      "translation": "Médecin / Guérisseur",
+      "example_sentence": "Nwanne m bụ dibia oyibo.",
+      "example_phonetic": "/nwánné m ɓʊ́ díbíà ójīɓō/",
+      "example_translation": "Mon frère/ma sœur est médecin moderne."
+    },
+    {
+      "word_id": "v2_7",
+      "term": "Onye nkuzi",
+      "phonetic_api": "/òɲé ŋ́kūzí/",
+      "phonetic_simple": "OH-NYEH N-KOO-ZEE",
+      "translation": "Enseignant / Professeur",
+      "example_sentence": "A bụ m onye nkuzi Igbo.",
+      "example_phonetic": "/ā ɓʊ́ m òɲé ŋ́kūzí īɡ͡ɓō/",
+      "example_translation": "Je suis enseignant d'igbo."
+    },
+    {
+      "word_id": "v2_8",
+      "term": "Nwa akwụkwọ",
+      "phonetic_api": "/nwá ákwʊ́kwɔ̀/",
+      "phonetic_simple": "NWAH AH-KWOU-KWOH",
+      "translation": "Étudiant / Élève",
+      "example_sentence": "Ha bụ nwa akwụkwọ ubi.",
+      "example_phonetic": "/ɦā ɓʊ́ nwá ákwʊ́kwɔ̀ úɓí/",
+      "example_translation": "Ils sont étudiants en agronomie."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p2_1",
+      "original": "Kedu aha gị?",
+      "phonetic_api": "/kèdú àɦá ɟɪ́/",
+      "phonetic_simple": "KEH-DOU AH-HAH GEE",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Question directe posée pour connaître l'identité d'un individu."
+    },
+    {
+      "phrase_id": "p2_2",
+      "original": "Aha m bụ Ngozi.",
+      "phonetic_api": "/àɦá m ɓʊ́ ŋ́ɡōzí/",
+      "phonetic_simple": "AH-HAH M BOU NGOH-ZEE",
+      "translation": "Mon nom est Ngozi.",
+      "context": "Réponse formelle ou informelle pour donner son prénom."
+    },
+    {
+      "phrase_id": "p2_3",
+      "original": "Onye ebe ka ị bụ?",
+      "phonetic_api": "/òɲé éɓé ká ị̀ ɓʊ́/",
+      "phonetic_simple": "OH-NYEH EH-BEH KAH EE BOU",
+      "translation": "D'où es-tu originaire ?",
+      "context": "Question culturelle fondamentale sur la lignée et la patrie d'origine."
+    },
+    {
+      "phrase_id": "p2_4",
+      "original": "A bụ m onye Nigeria.",
+      "phonetic_api": "/ā ɓʊ́ m òɲé nàjdʒíríà/",
+      "phonetic_simple": "AH BOU M OH-NYEH NEE-JEH-REE-AH",
+      "translation": "Je suis du Nigeria / Je suis Nigérian.",
+      "context": "Indication de sa nationalité globale."
+    },
+    {
+      "phrase_id": "p2_5",
+      "original": "Ebe ka ị bi?",
+      "phonetic_api": "/éɓé ká ị̀ ɓí/",
+      "phonetic_simple": "EH-BEH KAH EE BEE",
+      "translation": "Où habites-tu ?",
+      "context": "S'enquérir du lieu de résidence actuel."
+    },
+    {
+      "phrase_id": "p2_6",
+      "original": "A bi m na Abuja.",
+      "phonetic_api": "/ā ɓí m ná àɓúdʒà/",
+      "phonetic_simple": "AH BEE M NAH AH-BOU-JAH",
+      "translation": "J'habite à Abuja.",
+      "context": "Indication de sa ville de résidence actuelle."
+    },
+    {
+      "phrase_id": "p2_7",
+      "original": "Afọ ole ka ị dị?",
+      "phonetic_api": "/àfɔ̀ ólé ká ị̀ dɪ́/",
+      "phonetic_simple": "AH-FOH OH-LEH KAH EE DEE",
+      "translation": "Quel âge as-tu ?",
+      "context": "Demander l'âge d'une personne (à éviter avec les aînés sans familiarité)."
+    },
+    {
+      "phrase_id": "p2_8",
+      "original": "A dị m afọ iri gárá aga.",
+      "phonetic_api": "/ā dɪ̀ m àfɔ̀ ìɾí ɡáɾá àɡá/",
+      "phonetic_simple": "AH DEE M AH-FOH EE-REE GAH-RAH AH-GAH",
+      "translation": "J'ai passé la dizaine d'années (litt: J'ai dix ans passés).",
+      "context": "Structure temporelle d'expression de l'âge."
+    },
+    {
+      "phrase_id": "p2_9",
+      "original": "Gịnị ka ị na-eme maka ọrụ?",
+      "phonetic_api": "/ɟǐnɪ́ ká ị̀ nāːmè máká ɔ̀ɾʊ́/",
+      "phonetic_simple": "GEE-NEE KAH EE NAH-EH-MEH MA-KAH OH-ROU",
+      "translation": "Que fais-tu comme travail ?",
+      "context": "Question polie sur l'activité professionnelle d'une personne."
+    },
+    {
+      "phrase_id": "p2_10",
+      "original": "A bụ m onye ọchụnta ego.",
+      "phonetic_api": "/ā ɓʊ́ m òɲé ɔ̀tʃʊ̀ntá éɡō/",
+      "phonetic_simple": "AH BOU M OH-NYEH OH-CHOUN-TAH EH-GOH",
+      "translation": "Je suis un entrepreneur / homme d'affaires.",
+      "context": "Déclaration d'activité commerciale ou entrepreneuriale."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le verbe d'identité 'Bụ'",
+      "explanation": "Le verbe 'bụ' équivaut au verbe 'être' en français pour relier un sujet à un nom ou une identité stable (métier, nationalité, nom propre). Contrairement aux langues occidentales, il ne se conjugue pas selon la personne mais s'associe à un pronom sujet.",
+      "rules": [
+        "Dans une phrase affirmative simple avec la première personne, la structure est 'A bụ m...' où 'A' est un préfixe verbal d'appui et 'm' est le pronom personnel post-posé.",
+        "Le verbe 'bụ' ne s'utilise pas pour exprimer la localisation géographique actuelle (on utilise alors 'bi' ou 'dị')."
+      ],
+      "examples": [
+        {
+          "structure": "A + bụ + m + [Identité]",
+          "phonetic_api": "/ā ɓʊ́ m òɲé ŋ́kūzí/",
+          "meaning": "A bụ m onye nkuzi. (Je suis enseignant.)"
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de la provenance avec 'Onye + [Lieu]'",
+      "explanation": "Pour désigner l'origine ethnique ou nationale, l'igbo n'utilise pas d'adjectifs de nationalité capitalisés. On accolle le substantif générique 'onye' (personne/humain) directement devant le nom du pays ou de la région.",
+      "rules": [
+        "'Onye' se transforme au pluriel en 'Ndị' (les gens de).",
+        "Aucune préposition de provenance ('de', 'du') n'est intercalée entre 'onye' et le lieu."
+      ],
+      "examples": [
+        {
+          "structure": "Onye + [Nom du lieu]",
+          "phonetic_api": "/òɲé fɾànsị̀/",
+          "meaning": "Onye France (Un Français / Une Française)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ifeanyi",
+      "text": "Ndewo! Kedu aha gị?",
+      "phonetic_api": "/ndèwó kèdú àɦá ɟɪ́/",
+      "phonetic_simple": "N-DEH-WOH KEH-DOU AH-HAH GEE",
+      "translation": "Salut ! Comment t'appelles-tu ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "Ndewo. Aha m bụ Amara. Gịwanụ, kedu aha gị?",
+      "phonetic_api": "/ndèwó àɦá m ɓʊ́ àmāɾá ɟǐwānʊ̄ kèdú àɦá ɟɪ́/",
+      "phonetic_simple": "N-DEH-WOH AH-HAH M BOU AH-MAH-RAH GEE-WAH-NOU KEH-DOU AH-HAH GEE",
+      "translation": "Salut. Mon nom est Amara. Et toi, comment t'appelles-tu ?"
+    },
+    {
+      "speaker": "Ifeanyi",
+      "text": "Aha m bụ Ifeanyi. Onye ebe ka ị bụ, Amara?",
+      "phonetic_api": "/àɦá m ɓʊ́ ìfèáɲí òɲé éɓé ká ị̀ ɓʊ́ àmāɾá/",
+      "phonetic_simple": "AH-HAH M BOU EE-FEH-ANYEE OH-NYEH EH-BEH KAH EE BOU AH-MAH-RAH",
+      "translation": "Mon nom est Ifeanyi. D'où es-tu originaire, Amara ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "A bụ m onye Anambra mana m bi na Enugu. Gịwanụ?",
+      "phonetic_api": "/ā ɓʊ́ m òɲé ànámɓ͡ɾà máná m ɓí ná ēnūɡʊ́ ɟǐwānʊ̄/",
+      "phonetic_simple": "AH BOU M OH-NYEH AH-NAM-BRA MA-NAH M BEE NAH EH-NOO-GOO GEE-WAH-NOU",
+      "translation": "Je suis originaire d'Anambra mais je vis à Enugu. Et toi ?"
+    },
+    {
+      "speaker": "Ifeanyi",
+      "text": "A bụ m onye Imo. A bụ m dibia. Gịwanụ, gịnị bụ ọrụ gị?",
+      "phonetic_api": "/ā ɓʊ́ m òɲé ímó ā ɓʊ́ m díbíà ɟǐwānʊ̄ ɟǐnɪ́ ɓʊ́ ɔ̀ɾʊ́ ɟɪ́/",
+      "phonetic_simple": "AH BOU M OH-NYEH EE-MOH AH BOU M DEE-BEE-AH GEE-WAH-NOU GEE-NEE BOU OH-ROU GEE",
+      "translation": "Je suis originaire d'Imo. Je suis médecin. Et toi, quel est ton travail ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "A bụ m onye nkuzi. Daalụ maka mkparịta ụka anyị.",
+      "phonetic_api": "/ā ɓʊ́ m òɲé ŋ́kūzí dāːlʊ́ máká ḿk͡pàɾɪ́tàʊ́kà āɲɪ́/",
+      "phonetic_simple": "AH BOU M OH-NYEH N-KOO-ZEE DAAH-LOU MA-KAH M-KPA-REE-TAH-OU-KAH AH-NYEE",
+      "translation": "Je suis enseignante. Merci pour notre conversation."
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Igbos, le nom n'est jamais choisi par simple esthétique. Il porte une signification existentielle ou prophétique forte. Par exemple, 'Ngozi' signifie 'Bénédiction', 'Ifeanyi' signifie 'Rien n'est impossible à Dieu', et 'Amara' signifie 'Grâce'.",
+    "L'ancrage territorial familial est vital : demander 'Onye ebe ka ị bụ ?' cherche à identifier votre village paternel d'origine ('Ala nna'), ce qui est socialement beaucoup plus significatif que votre ville de naissance ou de résidence actuelle."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex2_1",
+      "type": "multiple_choice",
+      "question": "Comment traduit-on fidèlement la phrase 'Je suis enseignant' en igbo ?",
+      "options": [
+        "A bi m onye nkuzi",
+        "A bụ m onye nkuzi",
+        "Aha m bụ onye nkuzi"
+      ],
+      "correct_answer": "A bụ m onye nkuzi",
+      "explanation": "On emploie le verbe d'identité durable 'bụ' combiné à la structure de première personne 'A... m'."
+    },
+    {
+      "exercise_id": "ex2_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Aha [ ___ ] bụ Chinedu.",
+      "correct_answer": "m",
+      "hint": "Le pronom possessif de la première personne du singulier (mon/ma)."
+    }
+  ]
+}

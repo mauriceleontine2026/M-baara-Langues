@@ -1,0 +1,265 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Distinguer et employer avec précision les nuances hypothétiques raffinées entre '-ki-', '-nge-', et '-ngali-'",
+    "Introduire le doute méthodique et l'incertitude dans un argumentaire soutenu en utilisant 'Yavuta', 'Labda', et 'Yatupasa kukisia'",
+    "Formuler des conditions restrictives ou exclusives complexes avec 'Iradi', 'Alimradi', et 'Ilhali'",
+    "Structurer des propositions concessives avancées combinant le subjonctif et des conjonctions littéraires"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La distinction phonétique entre l'infixe de potentiel '-nge-' [ⁿgɛ] et l'infixe d'irréel passé '-ngali-' [ⁿga.li] est le pilier de la clarté hypothétique à ce niveau. La prononciation du mot 'Alimradi' requiert un enchaînement fluide [a.li.mˈra.di], en veillant à faire vibrer le 'r'. Le terme arabe 'Ilhali' exige un 'h' distinctement expiré [ilˈha.li].",
+    "common_pitfalls": "Veillez à ne pas nasaliser exagérément la voyelle précédant le groupe complexe '-ng-'. Prononcez nettement la consonne occlusive après la nasale : [ˈu.ŋgɛ.ku.wa] et non [ˈu.gɛ.ku.wa]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Alimradi",
+      "phonetic_api": "/a.li.mˈra.di/",
+      "phonetic_simple": "AH-LEE-MRAH-DEE",
+      "translation": "Pourvu que / Du moment que / À la condition que",
+      "example_sentence": "Mradi wowote utafanikiwa alimradi kuwe na usimamizi thabiti.",
+      "example_phonetic": "/mˈra.di wɔˈwɔ.tɛ u.ta.fa.niˈki.wa a.li.mˈra.di kuˈwɛ na u.si.maˈmi.zi ðaˈbi.ti/",
+      "example_translation": "Tout projet couronnera de succès du moment qu'il y a une gouvernance rigoureuse."
+    },
+    {
+      "word_id": "v2",
+      "term": "Ilhali",
+      "phonetic_api": "/ilˈha.li/",
+      "phonetic_simple": "EEL-HAH-LEE",
+      "translation": "Alors que / Tandis que / Vu que",
+      "example_sentence": "Anasumbuka kutafuta mtaji, ilhali ana akiba kubwa benki.",
+      "example_phonetic": "/a.na.suˈmbu.ka ku.taˈfu.ta mˈta.dʒi ilˈha.li ˈa.na aˈki.ba ˈku.bwa ˈbɛ.ŋki/",
+      "example_translation": "Il se donne de la peine à chercher des capitaux alors qu'il détient d'importantes réserves en banque."
+    },
+    {
+      "word_id": "v3",
+      "term": "Kusitasita",
+      "phonetic_api": "/ku.si.taˈsi.ta/",
+      "phonetic_simple": "KOO-SEE-TAH-SEE-TAH",
+      "translation": "Hésiter / Vaciller / Éprouver des scrupules",
+      "example_sentence": "Usilete maamuzi ya kusitasita katika kipindi hiki cha mgogoro.",
+      "example_phonetic": "/u.siˈlɛ.tɛ ma.aˈmu.zi ja ku.si.taˈsi.ta kaˈti.ka kiˈpi.ndi ˈhi.ki tʃa m.gɔˈgɔ.rɔ/",
+      "example_translation": "N'apporter point de résolutions vacillantes en cette période de crise."
+    },
+    {
+      "word_id": "v4",
+      "term": "Yavuta",
+      "phonetic_api": "/jaˈvu.ta/",
+      "phonetic_simple": "YAH-VOO-TAH",
+      "translation": "Il se peut que / C'est plausible que",
+      "example_sentence": "Yavuta mabadiliko haya yakaleta tija kuliko tulivyokisia.",
+      "example_phonetic": "/jaˈvu.ta ma.ba.diˈli.kɔ ˈha.ja ja.kaˈlɛ.ta ˈti.dʒa kuˈli.kɔ tu.li.vjɔ.kiˈsi.a/",
+      "example_translation": "Il se peut fort bien que ces réformes génèrent plus d'efficience que nous ne l'avions conjecturé."
+    },
+    {
+      "word_id": "v5",
+      "term": "Nadharia",
+      "phonetic_api": "/na.ðaˈri.a/",
+      "phonetic_simple": "NAH-ZHAH-REE-AH",
+      "translation": "Théorie / Hypothèse de travail",
+      "example_sentence": "Nadharia hiyo inahitaji uthibitisho wa kina wa kitakwimu.",
+      "example_phonetic": "/na.ðaˈri.a ˈhi.jɔ i.na.hiˈta.dʒi u.ði.biˈti.ʃɔ wa ˈki.na wa ki.taˈkwi.mu/",
+      "example_translation": "Cette hypothèse de travail requiert une validation statistique approfondie."
+    },
+    {
+      "word_id": "v6",
+      "term": "Iradi",
+      "phonetic_api": "/iˈra.di/",
+      "phonetic_simple": "EE-RAH-DEE",
+      "translation": "À condition que / Pourvu que (variante littéraire)",
+      "example_sentence": "Tutakubali masharti yenu, iradi mlipe fidia iliyotajwa.",
+      "example_phonetic": "/tu.ta.kuˈba.li ma.ʃaˈrti ˈjɛ.nu iˈra.di mˈli.pɛ fiˈdi.a i.li.jɔ.taˈdʒwa/",
+      "example_translation": "Nous acquiescerons à vos exigences, pourvu que vous versiez le dédommagement stipulé."
+    },
+    {
+      "word_id": "v7",
+      "term": "Kushuku",
+      "phonetic_api": "/kuˈʃu.ku/",
+      "phonetic_simple": "KOO-SHOO-KOO",
+      "translation": "Soupçonner / Mettre en doute / Suspecter",
+      "example_sentence": "Wachambuzi wanakishuku chanzo cha habari hiyo.",
+      "example_phonetic": "/wa.tʃaˈmbu.zi wa.na.kiˈʃu.ku ˈtʃa.nzɔ tʃa haˈba.ri ˈhi.jɔ/",
+      "example_translation": "Les analystes mettent légitimement en doute l'origine de cette information."
+    },
+    {
+      "word_id": "v8",
+      "term": "Makinikia",
+      "phonetic_api": "/ma.ki.niˈki.a/",
+      "phonetic_simple": "MAH-KEE-NEE-KEE-AH",
+      "translation": "Éléments de réflexion / Données minérales ou brutes analytiques",
+      "example_sentence": "Baada ya kukagua makinikia yote, tumefikia uamuzi huu.",
+      "example_phonetic": "/baˈa.da ya kuˈka.gu.a ma.ki.niˈki.a ˈzɔ.tɛ tu.mɛ.fi.kiˈa u.aˈmu.zi ˈhu.u/",
+      "example_translation": "Après examen minutieux de l'ensemble des données brutes, nous avons arrêté cette décision."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Nisingaliingilia kati kama ungalikuwa umekubali masharti yale.",
+      "phonetic_api": "/ni.si.ŋga.li.i.ŋgiˈli.a ˈka.ti ˈka.ma u.ŋga.liˈku.wa u.mɛ.kuˈba.li ma.ʃaˈrti ˈja.lɛ/",
+      "phonetic_simple": "NEE-SEE-NGAH-LEE-EEN-GEE-LEE-AH KAH-TEE KAH-MAH OON-GAH-LEE-KOO-WAH OO-MEH-KOO-BAH-LEE MAH-SHAHR-TEE YAH-LEH",
+      "translation": "Je ne serais point intervenue si vous eussiez consenti à ces clauses originelles.",
+      "context": "Négociation diplomatique ou commerciale de haut niveau actant un regret passé irréversible."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Ningekuwa mkurugenzi, nisingesitasita kuchukua hatua za kisheria.",
+      "phonetic_api": "/ni.ŋgɛˈku.wa m.ku.ruˈgɛ.nzi ni.si.ŋgɛ.si.taˈsi.ta kuˈtʃu.ku.a haˈtu.a za ki.ʃɛˈri.a/",
+      "phonetic_simple": "NEEN-GEH-KOO-WAH MKOO-ROO-GEHN-ZEE NEE-SEEN-GEH-SEE-TAH-SEE-TAH KOO-CHOO-KOO-AH HAH-TOO-AH ZAH KEE-SHEH-REE-AH",
+      "translation": "Si j'étais le directeur général, je n'hésiterais aucunement à engager des poursuites judiciaires.",
+      "context": "Hypothèse présente ou future hautement probable ou envisagée."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Tutakupa uungaji mkono wetu alimradi usikiuke makubaliano yetu ya siri.",
+      "phonetic_api": "/tu.ta.kuˈpa u.u.ŋgaˈdʒi mˈkɔ.nɔ ˈwɛ.tu a.li.mˈra.di u.si.kiˈu.kɛ ma.ku.ba.liˈa.nɔ ˈjɛ.tu ja ˈsi.ri/",
+      "phonetic_simple": "WOO-TAH-KOO-PAH OO-OON-GAH-DJEE MKOHN-DOH WEH-TOO AH-LEE-MRAH-DEE OO-SEE-KEE-OO-KEH MAH-KOO-BAH-LEE-AH-NOH YEH-TOO YAH SEE-REE",
+      "translation": "Nous vous accorderons notre appui du moment que vous ne violez point notre pacte secret.",
+      "context": "Formulation d'un accord politique sous condition sine qua non."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Yavuta akawa ameshasafiri kuelekea Geneva kuhudhuria mkutano ule.",
+      "phonetic_api": "/jaˈvu.ta aˈka.wa a.mɛ.ʃa.saˈfi.ri ku.ɛ.lɛˈkɛ.a Geneva ku.hu.ðuˈri.a m.kuˈta.nɔ ˈu.lɛ/",
+      "phonetic_simple": "YAH-VOO-TAH AH-KAH-WAH AH-MEH-SHAH-SAH-FEE-REE KOO-EH-LEH-KEH-AH GENEVA KOO-HOO-ZHOO-REE-AH M-KOO-TAH-NOH OO-LEH",
+      "translation": "Il se peut fort bien qu'il ait déjà pris le vol pour Genève afin de siéger à ce congrès.",
+      "context": "Émettre une conjecture polie mais solide sur l'état présent d'une tierce personne."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Inashuku jinsi ripoti hii ilivyosandikwa bila makinikia thabiti.",
+      "phonetic_api": "/i.naˈʃu.ku ˈdʒi.nsi riˈpɔ.ti ˈhi.i i.li.vjɔ.saˈndi.kwa ˈbi.la ma.ki.niˈki.a ðaˈbi.ti/",
+      "phonetic_simple": "EE-NAH-SHOO-KOO JEEN-SEE REE-POH-TEE HEE-YEE EE-LEE-VYOH-SAHN-DEE-KWA BEE-LAH MAH-KEE-NEE-KEE-AH ZHAH-BEE-TEE",
+      "translation": "On peut légitimement suspecter la manière dont ce compte-rendu fut rédigé sans données tangibles.",
+      "context": "Critique formelle d'un document d'expertise défaillant."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Tutasimamia uamuzi huo ilhali tunajua una mapungufu ya kisheria.",
+      "phonetic_api": "/tu.ta.si.maˈmi.a u.aˈmu.zi ˈhu.u ilˈha.li tu.naˈdʒu.a ˈu.na ma.puˈngu.fu ya ki.ʃɛˈri.a/",
+      "phonetic_simple": "TOO-TAH-SEE-MAH-MEE-AH OO-AH-MOO-ZEE HOO-OO EEL-HAH-LEE TOO-NAH-DJOO-AH OO-NAH MAH-POON-GOO-FOO YAH KEE-SHEH-REE-AH",
+      "translation": "Nous ferons exécuter cette sentence alors même que nous la savons grevée de vices juridiques.",
+      "context": "Déclaration d'intention paradoxale assumée dans le débat public."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Kama ungalifuata maadili ya kazi, usingalipoteza nafasi yako.",
+      "phonetic_api": "/ˈka.ma u.ŋga.liˈfu.a.ta ma.aˈdi.li ya ˈka.zi u.si.ŋga.li.pɔˈtɛ.za naˈfa.si ˈja.kɔ/",
+      "phonetic_simple": "KAH-MAH OON-GAH-LEE-FOO-AH-TAH MAH-AH-DEE-LEE YAH KAH-ZEE OO-SEEN-GAH-LEE-POH-TEH-ZAH NAH-FAH-SEE YAH-KOH",
+      "translation": "Si vous eussiez observé la déontologie professionnelle, vous n'auriez point été démis de vos fonctions.",
+      "context": "Constat solennel d'une sanction irrévocable."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Ushahidi uliopo unadhihirisha ukweli wa nadharia yetu ya msingi.",
+      "phonetic_api": "/u.ʃaˈhi.di u.liˈɔ.pɔ u.na.ði.hiˈri.ʃa uˈkwɛ.li wa na.ðaˈri.a ˈjɛ.tu ja mˈsi.ŋgi/",
+      "phonetic_simple": "OO-SHAH-HEE-DEE OO-LEE-OH-POH OO-NAH-ZEE-HEE-REE-SHAH OO-KWEH-LEE WAH NAH-ZHAH-REE-AH YEH-TOO YAH MSEEN-GEE",
+      "translation": "Les éléments probants disponibles mettent manifestement en exergue la justesse de notre postulat initial.",
+      "context": "Soutenance scientifique ou plaidoirie juridique d'un niveau recherché."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La distinction sémantique fine des nuances de la condition : '-nge-' vs '-ngali-'",
+      "explanation": "Le swahili de niveau supérieur exige une distinction sans équivoque entre l'irréel du présent (hypothèse encore possible ou imaginaire) et l'irréel du passé (action manquée et révolue).",
+      "rules": [
+        "Infixe '-nge-' : Traduit le potentiel présent ou futur. La condition peut encore théoriquement se réaliser. Exemple : 'Ungekuja, ungemwona' (Si tu venais, tu le verrais).",
+        "Infixe '-ngali-' : Traduit strictement l'antériorité révolue impossible à modifier. Exemple : 'Ungalikuja, ungalimwona' (Si tu étais venu, tu l'aurais vu)."
+      ],
+      "examples": [
+        {
+          "structure": "U-nge-fanya (Si tu faisais maintenant) + utafiti = Ungefanya utafiti",
+          "phonetic_api": "/u.ŋgɛˈfa.ɲa u.taˈfi.ti/",
+          "meaning": "Si tu daignais faire des recherches (actuellement possible)"
+        },
+        {
+          "structure": "U-ngali-fanya (Si tu avais fait dans le passé) + utafiti = Ungalifanya utafiti",
+          "phonetic_api": "/u.ŋga.liˈfa.ɲa u.taˈfi.ti/",
+          "meaning": "Si tu avais mené des recherches (révolu, opportunité manquée)"
+        }
+      ]
+    },
+    {
+      "concept": "Le maniement des conjonctions restrictives exclusives 'Alimradi' et 'Ilhali'",
+      "explanation": "Pour restreindre ou opposer un fait avec élégance, le swahili classique rejette les formes basiques comme 'lakini' ou 'kama' au profit de conjonctions d'origine arabe qui gouvernent le subjonctif ou l'indicatif selon la nuance recherchée.",
+      "rules": [
+        "'Alimradi' (ou 'mradi') exige le mode subjonctif lorsqu'il exprime une intentionnalité ou une condition impérative à venir. Exemple : '...alimradi asilete vurugu' (...du moment qu'il ne s'avise pas de causer du désordre).",
+        "'Ilhali' introduit un fait d'opposition direct à l'indicatif, soulignant un paradoxe flagrant. Il préserve les infixes temporels classiques."
+      ],
+      "examples": [
+        {
+          "structure": "Alimradi (Pourvu que) + a-tekeleze (il exécute - subjonctif) = Alimradi atelekeze",
+          "phonetic_api": "/a.li.mˈra.di a.tɛ.kɛˈlɛ.zɛ/",
+          "meaning": "Du moment qu'il mette en œuvre ses engagements"
+        },
+        {
+          "structure": "Ilhali (Alors même que) + wa-na-jua (ils savent - indicatif) = Ilhali wanajua",
+          "phonetic_api": "/ilˈha.li wa.naˈdʒu.a/",
+          "meaning": "Alors même qu'ils en ont la pleine connaissance"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Balozi Karume",
+      "text": "Hujambo, Mkurugenzi. Ningekuwa na mamlaka kamili, nisingesitasita kusitisha mkataba huu wa kibiashara. Yavuta ukaleta hasara kubwa kwa nchi yetu.",
+      "phonetic_api": "/huˈdʒa.mbɔ m.ku.ruˈgɛ.nzi ni.ŋgɛˈku.wa na maˈmla.ka kaˈmi.li ni.si.ŋgɛ.si.taˈsi.ta ku.siˈti.ʃa m.kaˈta.ba ˈhu.u wa ki.bi.aˈʃa.ra jaˈvu.ta u.kaˈlɛ.ta haˈsa.ra ˈku.bwa kwa n-tʃi ˈjɛ.tu/",
+      "phonetic_simple": "HOO-DJAHM-BOH MKOO-ROO-GEHN-ZEE NEEN-GEH-KOO-WAH NAH MAHM-LAH-KAH KAH-MEE-LEE NEE-SEEN-GEH-SEE-TAH-SEE-TAH KOO-SEE-TEE-SHAH M-KAH-TAH-BAH HOO-OO WAH KEE-BEE-AH-SHAH-RAH YAH-VOO-TAH OO-KAH-LEH-TAH HAH-SAH-RAH KOO-BWAH KWAH NCHEE YEH-TOO",
+      "translation": "Bonjour, Monsieur le Directeur. Si je disposais des pleins pouvoirs, je n'hésiterais aucunement à suspendre cet accord commercial. Il se peut fort bien qu'il engendre un préjudice financier majeur pour notre nation."
+    },
+    {
+      "speaker": "Mkurugenzi Salum",
+      "text": "Sijambo, Balozi. Tungalikuwa tumepokea makinikia ya kutosha kutoka kwa wataalamu wetu mapema, tusingalikuwa katika mzozo huu leo. Hata hivyo, mkataba utaendelea alimradi upande wa pili utimize ahadi zao.",
+      "phonetic_api": "/siˈdʒa.mbɔ baˈlɔ.zi tu.ŋga.liˈku.wa tu.mɛ.pɔˈkɛ.a ma.ki.niˈki.a ja kuˈtɔ.ʃa kuˈtɔ.ka kwa wa.taˈa.la.mu ˈwɛ.tu maˈpɛ.ma tu.si.ŋga.liˈku.wa kaˈti.ka m.zɔˈzɔ ˈhu.u ˈlɛ.ɔ ˈha.ta ˈhi.vjɔ m.kaˈta.ba u.ta.ɛndɛˈlɛː a.li.mˈra.di uˈpa.ndɛ wa mˈbi.li u.tiˈmi.zɛ aˈha.di ˈza.ɔ/",
+      "phonetic_simple": "SEE-DJAHM-BOH BAH-LOH-ZEE TOON-GAH-LEE-KOO-WAH TOO-MEH-POH-KEH-AH MAH-KEE-NEE-KEE-AH YAH KOO-TOH-SHAH KOO-TOH-KAH KWAH WAH-TAH-AH-LAH-MOO WEH-TOO MAH-PEH-MAH TOO-SEEN-GAH-LEE-KOO-WAH KAH-TEE-KAH MZOH-ZOH HOO-OO LEH-OH HAH-TAH HEE-VYOH M-KAH-TAH-BAH OO-TAH-EHN-DEH-LEE AH-LEE-MRAH-DEE OO-PAHN-DEH WAH MBEE-LEE OO-TEE-MEE-ZEH AH-HAH-DEE ZAH-OH",
+      "translation": "Bonjour, Monsieur l'Ambassadeur. Si nous eussions reçu à temps des données analytiques suffisantes de la part de nos experts, nous ne serions point embourbés dans ce différend aujourd'hui. Néanmoins, le traité restera en vigueur du moment que la partie adverse honore scrupuleusement ses engagements."
+    },
+    {
+      "speaker": "Balozi Karume",
+      "text": "Je, unadhani watatekeleza makubaliano hayo ilhali wameanza kukiuka vipengele vya msingi vya sheria ya kimataifa?",
+      "phonetic_api": "/dʒɛ u.naˈða.ni wa.ta.tɛ.kɛˈlɛ.za ma.ku.ba.liˈa.nɔ ˈha.jɔ ilˈha.li wa.mɛˈa.nza ku.kiˈu.ka vi.pɛˈngɛ.lɛ vja mˈsi.ŋgi vja ʃɛˈri.a ja ki.ma.taˈi.fa/",
+      "phonetic_simple": "JEH OO-NAH-ZHAH-NEE WAH-TAH-TEH-KEH-LEH-ZAH MAH-KOO-BAH-LEE-AH-NOH HAH-YOH EEL-HAH-LEE WAH-MEH-AHN-ZAH KOO-KEE-OO-KAH VEE-PEHN-GEH-LEH VYAH MSEEN-GEE VYAH SHEH-REE-AH YAH KEE-MAH-TAH-EE-FAH",
+      "translation": "Pensez-vous réellement qu'ils mettront en œuvre ce pacte alors même qu'ils ont d'ores et déjà commencé à enfreindre les clauses fondamentales du droit international ?"
+    },
+    {
+      "speaker": "Mkurugenzi Salum",
+      "text": "Hapo kuna utata. Yavuta tukalazimika kuhakiki upya nadharia yetu ya kidiplomasia ikiwa hali hii itaendelea bila ufumbuzi.",
+      "phonetic_api": "/ˈha.pɔ ˈku.na uˈta.ta jaˈvu.ta tu.ka.la.ziˈmi.ka ku.ha.kiˈki ˈm-pja na.ðaˈri.a ˈjɛ.tu ja ki.di.plɔ.maˈsi.a i.kiˈwa ˈha.li ˈhi.i i.ta.ɛndɛˈlɛː ˈbi.la u.fuˈmbu.zi/",
+      "phonetic_simple": "HAH-POH KOO-NAH OO-TAH-TAH YAH-VOO-TAH TOO-KAH-LAH-ZEE-MEE-KAH KOO-HAH-KEE-KEE MPYAH NAH-ZHAH-REE-AH YEH-TOO YAH KEE-DEE-PLOH-MAH-SEE-AH EE-KEE-WAH HAH-LEE HEE-YEE EE-TAH-EHN-DEH-LEE BEE-LAH OO-FOO-MBOO-ZEE",
+      "translation": "C'est là un point d'ambiguïté manifeste. Il se peut que nous soyons contraints de réévaluer de fond en comble notre posture diplomatique si cette conjoncture persiste sans issue."
+    }
+  ],
+  "cultural_notes": [
+    "Le registre diplomatique et de haute administration en Afrique de l'Est recourt à un usage intensif de mots d'emprunt arabes ('Ilhali', 'Alimradi') qui sacralisent la parole publique. Ces termes confèrent une solennité légale et une neutralité requises lors de arbitrages délicats entre nations ou grandes institutions.",
+    "La notion de 'Kusitasita' (l'hésitation) est perçue de manière très duale. Dans les cercles décisionnels politiques contemporains de Dar es Salaam ou Nairobi, elle est blâmée au profit d'un leadership résolu ('Msimamo thabiti'). Cependant, dans les cercles de sages traditionnels, l'hésitation réfléchie est parfois synonyme de prudence sage face au danger caché.",
+    "L'expression de l'irréel passé en '-ngali-' est fréquemment utilisée dans la littérature politique est-africaine pour revisiter de manière critique les choix de l'ère post-indépendance, marquant l'intellectualisation du regret historique face aux opportunités économiques manquées."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la formulation d'élite traduisant au mieux : 'Nous soutiendrons cette motion, pourvu que le ministre présente les chiffres'.",
+      "options": [
+        "Tutajadili hoja hii ilhali waziri analeta takwimu.",
+        "Tutaiunga mkono hoja hii alimradi waziri awasilishe takwimu.",
+        "Tungaliiunga mkono hoja hii kama waziri angalileta takwimu jana.",
+        "Waziri akileta takwimu, tutajadili hoja hii kwa lazima."
+      ],
+      "correct_answer": "Tutaiunga mkono hoja hii alimradi waziri awasilishe takwimu.",
+      "explanation": "La conjonction 'Alimradi' introduit parfaitement la condition impérative et exige le mode subjonctif du verbe de sens ('awasilishe'), répondant aux critères du niveau C1."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mchambuzi: 'Meneja a[ ___ ]galisikiliza ushauri wetu, asinsalipoteza mradi ule.' (Complétez avec l'infixe d'irréel passé pour exprimer le regret absolu lié à cette faute managériale).",
+      "correct_answer": "n",
+      "hint": "Il s'agit de la consonne manquante pour compléter le morphème syntaxique rigoureux -ngali- utilisé pour l'irréel du passé."
+    }
+  ]
+}

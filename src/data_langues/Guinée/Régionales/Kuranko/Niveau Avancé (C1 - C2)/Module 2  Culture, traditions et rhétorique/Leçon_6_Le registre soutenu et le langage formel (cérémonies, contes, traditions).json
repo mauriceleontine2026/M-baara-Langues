@@ -1,0 +1,162 @@
+{
+  "lesson_id": "C1_M2_L6_CORRIGEE",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 6,
+  "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
+  "learning_objectives": [
+    "Employer les salutations protocolaires et honorifiques adaptées aux chefs de clan ou aînés",
+    "Utiliser les structures idiomatiques et les introducteurs spécifiques aux contes et récits traditionnels",
+    "Formuler des bénédictions et des invocations rituelles lors d'événements solennels"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La prononciation du mot de bénédiction 'baraka' /ba.ra.ka/ doit s'effectuer de manière claire avec un 'r' battu doux. Le digramme 'gb' dans 'gbansan' exige une occlusion bilabiale-vélaire simultanée et énergique sans rupture de souffle.",
+    "common_pitfalls": "Attention à ne pas faire disparaître le 'h' aspiré de 'haqi' ou 'hala' ; il doit être clairement produit depuis le pharynx pour respecter l'empreinte oratoire formelle."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_c1_m2_l6_corr",
+      "term": "Mansa",
+      "phonetic_api": "/man.sa/",
+      "phonetic_simple": "MAN-SA",
+      "translation": "Roi / Souverain / Chef suprême / Dieu (Mansa Ba)",
+      "example_sentence": "Mansa ba m'an to kɛnɛya ra",
+      "example_phonetic": "/man.sa ba ɱ͡man to kɛ.nɛ.ja ra/",
+      "example_translation": "Que le Grand Souverain (Dieu) nous garde en bonne santé"
+    },
+    {
+      "word_id": "v2_c1_m2_l6_corr",
+      "term": "Baraka",
+      "phonetic_api": "/ba.ra.ka/",
+      "phonetic_simple": "BA-RA-KA",
+      "translation": "Bénédiction / Grâce spirituelle / Abondance",
+      "example_sentence": "Baraka bɛ i ya so la",
+      "example_phonetic": "/ba.ra.ka bɛ i ja so la/",
+      "example_translation": "Que la bénédiction soit sur ta demeure"
+    },
+    {
+      "word_id": "v3_c1_m2_l6_corr",
+      "term": "Gbansan",
+      "phonetic_api": "/g͡ban.san/",
+      "phonetic_simple": "GBAN-SAN",
+      "translation": "Pur / Sacré / Intègre / Noble (par opposition à commun)",
+      "example_sentence": "Kuma gbansan le nɛ ri",
+      "example_phonetic": "/ku.ma g͡ban.san le nɛ ri/",
+      "example_translation": "C'est une parole pure / sacrée"
+    },
+    {
+      "word_id": "v4_c1_m2_l6_corr",
+      "term": "Taale",
+      "phonetic_api": "/taː.le/",
+      "phonetic_simple": "TAA-LE",
+      "translation": "Conte / Récit mythologique / Légende",
+      "example_sentence": "N fɛ ka taale lani",
+      "example_phonetic": "/ɲ͡fɛ ka taː.le la.ni/",
+      "example_translation": "Je veux introduire (raconter) un conte"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_c1_m2_l6_corr",
+      "original": "Mansa ba ka baraka don an na",
+      "phonetic_api": "/man.sa ba ka ba.ra.ka don an na/",
+      "phonetic_simple": "MAN-SA BA KA BA-RA-KA DON AN NA",
+      "translation": "Que le Grand Souverain répande sa grâce sur nous",
+      "context": "Formule rituelle d'ouverture ou de clôture lors d'une cérémonie importante."
+    },
+    {
+      "phrase_id": "p2_c1_m2_l6_corr",
+      "original": "Taale nani le ! Kuma gbansan to taminfa ra",
+      "phonetic_api": "/taː.le na.ni le ku.ma g͡ban.san to ta.min.fa ra/",
+      "phonetic_simple": "TAA-LE NA-NI LE ! KOU-MA GBAN-SAN TO TA-MIN-FA RA",
+      "translation": "Voici venir le conte ! La parole sacrée réside dans le passé",
+      "context": "Formule d'introduction consacrée employée par le conteur pour captiver l'auditoire."
+    },
+    {
+      "phrase_id": "p3_c1_m2_l6_corr",
+      "original": "N bɛ n ya haqi di alu ma, alu m'an lamɛn",
+      "phonetic_api": "/ɱ͡bɛ ɲ͡ja ha.qi di a.lu ma a.lu ɱ͡man la.mɛn/",
+      "phonetic_simple": "N BƐ N YA HA-QI DI A-LU MA, A-LU M'AN LA-MƐN",
+      "translation": "Je vous présente mes hommages (je vous donne mon esprit), écoutez-moi",
+      "context": "S'adresser solennellement à un conseil de notables ou d'aînés."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le mode optatif / bénédictif avec 'Ka'",
+      "explanation": "Pour formuler des souhaits, des prières ou des bénédictions lors des cérémonies formelles, le kuranko utilise la particule 'ka' placée entre le sujet divin/ancestral et le verbe d'action. Le verbe reste à sa forme nue.",
+      "rules": [
+        "Structure : [Sujet Divin / Entité] + ka + [Bénéficiaire] + Verbe"
+      ],
+      "examples": [
+        {
+          "structure": "Alla ka i dɛmɛ",
+          "phonetic_api": "/al.la ka i dɛ.mɛ/",
+          "meaning": "Que Dieu t'assiste"
+        }
+      ]
+    },
+    {
+      "concept": "L'inversion narrative de focalisation du conte",
+      "explanation": "Dans le registre soutenu des contes ('taale'), la structure syntaxique standard bascule souvent en plaçant l'objet ou le concept central en tête de phrase suivi de la particule 'le', afin de détacher le récit du cadre temporel quotidien.",
+      "rules": [
+        "Structure : [Concept / Type de récit] + nani le + [Proposition historique]"
+      ],
+      "examples": [
+        {
+          "structure": "Taale nani le !",
+          "phonetic_api": "/taː.le na.ni le/",
+          "meaning": "Voici le conte qui s'amène !"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lansana (Le Conteur)",
+      "text": "Alu m'an lamɛn ! Taale nani le ! Kuma gbansan to mansa taminfanu ra.",
+      "phonetic_api": "/a.lu ɱ͡man la.mɛn taː.le na.ni le ku.ma g͡ban.san to man.sa ta.min.fa.nu ra/",
+      "phonetic_simple": "A-LU M'AN LA-MƐN ! TAA-LE NA-NI LE ! KOU-MA GBAN-SAN TO MAN-SA TA-MIN-FA-NOU RA.",
+      "translation": "Écoutez-moi tous ! Voici venir le conte ! La parole sacrée résidait chez les souverains d'autrefois."
+    },
+    {
+      "speaker": "Sori (Le Chef du Village)",
+      "text": "N bɛ n ya haqi to i ya taale la. Mansa ba ka baraka don i ya kuma ra.",
+      "phonetic_api": "/ɱ͡bɛ ɲ͡ja ha.qi to i ja taː.le la man.sa ba ka ba.ra.ka don i ja ku.ma ra/",
+      "phonetic_simple": "N BƐ N YA HA-QI TO I YA TAA-LE LA. MAN-SA BA KA BA-RA-KA DON I YA KOU-MA RA.",
+      "translation": "Je prête toute mon attention (mon esprit) à ton récit. Que le Grand Souverain accorde sa grâce à ta parole."
+    },
+    {
+      "speaker": "Lansana (Le Conteur)",
+      "text": "Ami. Tariki nɛ di nyɛ bilen barisa an mɔmɔnu ye ɛrɛ le fɔ.",
+      "phonetic_api": "/a.mi ta.ri.ki nɛ di ɲɛ bi.len ba.ri.sa an ɲ͡mɔ.mɔ.nu d͡ʒe ɛ.rɛ le fɔ/",
+      "phonetic_simple": "A-MI. TA-RI-KI NƐ DI NYƐ BI-LEN BA-RI-SA AN MƆ-MƆ-NOU YE Ɛ-RƐ LE FƆ.",
+      "translation": "Amen. Cette chronique historique va s'illuminer à présent car nos ancêtres ont énoncé la stricte vérité."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la tradition kuranko, le langage n'est pas seulement un outil de communication, c'est un dépôt sacré. Lors des mariages, des baptêmes ou des veillées de contes, l'orateur ou le griot élève son niveau de langue en évitant les termes du quotidien. Invoquer le nom de 'Mansa' ou implorer la 'baraka' permet de s'inscrire dans une continuité spirituelle. Le respect du protocole oratoire est si strict qu'un jeune ne commencera jamais un récit sans s'incliner verbalement devant les anciens par la formule 'N bɛ n ya haqi di alu ma'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_c1_m2_l6_corr",
+      "type": "multiple_choice",
+      "question": "Quelle formule sacrée le conteur utilise-t-on traditionnellement pour lancer un récit ?",
+      "options": [
+        "N bɛ ta lɔgɔfaga la",
+        "Taale nani le !",
+        "A sɔngɔ ka gwan"
+      ],
+      "correct_answer": "Taale nani le !",
+      "explanation": "C'est la formule d'introduction théâtrale consacrée pour annoncer le début du conte ou de la légende."
+    },
+    {
+      "exercise_id": "ex2_c1_m2_l6_corr",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander que la grâce divine se pose sur l'assemblée, on emploie le mot de bénédiction : Alla ka [ ___ ] don an na.",
+      "correct_answer": "baraka",
+      "hint": "Signifie la grâce ou la bénédiction spirituelle"
+    }
+  ]
+}

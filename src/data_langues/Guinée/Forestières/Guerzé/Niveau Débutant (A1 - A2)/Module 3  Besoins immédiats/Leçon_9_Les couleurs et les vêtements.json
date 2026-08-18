@@ -1,0 +1,357 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Utiliser les trois qualificatifs de couleur de base : tɛ̌i (être noir), kwěle (être blanc), kpɔ̌lu (être rouge).",
+    "Nommer les vêtements courants : màayílî (vêtement), gbàawîi/yɛ̌ɠɛ (boubou), hèɠeyaa (pagne), kɔ̌lɔ (chaussure).",
+    "Décrire ce que porte quelqu'un et demander lequel il préfère.",
+    "Comprendre pourquoi le kpele exprime peu de couleurs par des mots dédiés."
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les trois qualificatifs de couleur (tɛ̌i, kwěle, kpɔ̌lu) sont tous des verbes d'état (vi), pas des adjectifs comme en français : ils se conjuguent comme n'importe quel verbe. Attention au ton de kpɔ̌lu (être rouge/mûr, ton bas) à ne pas confondre avec kpǒlo (sel, Leçon 8), presque homophone.",
+    "common_pitfalls": "Les francophones ont tendance à : (1) chercher un mot séparé pour chaque couleur (vert, jaune, bleu), alors que le kpele traditionnel n'a de qualificatifs dédiés que pour le noir, le blanc et le rouge/mûr ; (2) traiter tɛ̌i, kwěle, kpɔ̌lu comme des adjectifs invariables, alors que ce sont des verbes (« être noir », pas « noir ») ; (3) confondre màayílî (vêtement en général) avec gbàawîi (un boubou précis, sans manches)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "tɛ̌i",
+      "phonetic_api": "/tɛ̌i/",
+      "phonetic_simple": "tè-i (ton bas)",
+      "translation": "être noir",
+      "example_sentence": "tɛ̌i",
+      "example_phonetic": "/tɛ̌i/",
+      "example_translation": "être noir"
+    },
+    {
+      "word_id": "v2",
+      "term": "kwěle",
+      "phonetic_api": "/kwěle/",
+      "phonetic_simple": "kwè-le (ton bas)",
+      "translation": "être blanc",
+      "example_sentence": "kwěle",
+      "example_phonetic": "/kwěle/",
+      "example_translation": "être blanc"
+    },
+    {
+      "word_id": "v3",
+      "term": "kpɔ̌lu",
+      "phonetic_api": "/kpɔ̌lu/",
+      "phonetic_simple": "kpo-lou (ton bas)",
+      "translation": "être rouge ; être mûr",
+      "example_sentence": "Gwíi kpɔ̀lu.",
+      "example_phonetic": "/gwíi kpɔ̀lu/",
+      "example_translation": "La banane est mûre."
+    },
+    {
+      "word_id": "v4",
+      "term": "pépe",
+      "phonetic_api": "/pépe/",
+      "phonetic_simple": "PÉ-pe",
+      "translation": "très (blanc) — intensif utilisé avec kwěle",
+      "example_sentence": "kwěle pépe",
+      "example_phonetic": "/kwěle pépe/",
+      "example_translation": "très blanc"
+    },
+    {
+      "word_id": "v5",
+      "term": "màayílî",
+      "phonetic_api": "/màayílî/",
+      "phonetic_simple": "maa-YI-lî",
+      "translation": "habillement, vêtement",
+      "example_sentence": "É màáyìlipéle ↓káa léi ɲɛ́i yɛ́ tɔ̀ɠɔtɔ́ɠɔmûŋ ?",
+      "example_phonetic": "/é màáyìlipéle ↓káa léi ɲɛ́i yɛ́ tɔ̀ɣɔtɔ́ɣɔmûŋ/",
+      "example_translation": "Pourquoi es-tu habillé comme un homme archaïque ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "gbàawîi",
+      "phonetic_api": "/gbàawîi/",
+      "phonetic_simple": "gba-a-WI-i",
+      "translation": "boubou (grand, sans manches)",
+      "example_sentence": "gbàawîi",
+      "example_phonetic": "/gbàawîi/",
+      "example_translation": "boubou (sans manches)"
+    },
+    {
+      "word_id": "v7",
+      "term": "yɛ̌ɠɛ",
+      "phonetic_api": "/yɛ̌ɣɛ/",
+      "phonetic_simple": "yè-ghè (ton bas)",
+      "translation": "boubou (grand, à larges manches)",
+      "example_sentence": "yɛ̌ɠɛ",
+      "example_phonetic": "/yɛ̌ɣɛ/",
+      "example_translation": "boubou (à larges manches)"
+    },
+    {
+      "word_id": "v8",
+      "term": "hèɠeyaa",
+      "phonetic_api": "/hèɣeyaa/",
+      "phonetic_simple": "hè-ghe-YA-a",
+      "translation": "pagne",
+      "example_sentence": "Hèɠeyaa nɛ̀lɛ́ ↓ɓé é káa bɔ̀ ?",
+      "example_phonetic": "/hèɣeyaa nɛ̀lɛ́ ↓ɓé é káa bɔ̀/",
+      "example_translation": "Quel pagne veux-tu ?"
+    },
+    {
+      "word_id": "v9",
+      "term": "kɔ̌lɔ",
+      "phonetic_api": "/kɔ̌lɔ/",
+      "phonetic_simple": "ko-lo (ton bas)",
+      "translation": "chaussure",
+      "example_sentence": "Ŋwɔ́ kɔ̀lɔi pɛ́li.",
+      "example_phonetic": "/ŋwɔ́ kɔ̀lɔi pɛ́li/",
+      "example_translation": "Répare ma chaussure."
+    },
+    {
+      "word_id": "v10",
+      "term": "nɛ̀lɛ́",
+      "phonetic_api": "/nɛ̀lɛ́/",
+      "phonetic_simple": "nè-LÉ",
+      "translation": "lequel ?, quel ?",
+      "example_sentence": "Hèɠeyaa nɛ̀lɛ́ ↓ɓé é káa bɔ̀ ?",
+      "example_phonetic": "/hèɣeyaa nɛ̀lɛ́ ↓ɓé é káa bɔ̀/",
+      "example_translation": "Quel pagne veux-tu ?"
+    },
+    {
+      "word_id": "v11",
+      "term": "ɓǎɠa",
+      "phonetic_api": "/ɓǎɣa/",
+      "phonetic_simple": "ɓa-gha (ton bas)",
+      "translation": "être sale (de boue) ; être teint (des habits)",
+      "example_sentence": "Hèɠé ɓǎɠaa.",
+      "example_phonetic": "/hèɣé ɓǎɣaa/",
+      "example_translation": "Habit teint."
+    },
+    {
+      "word_id": "v12",
+      "term": "kàkê",
+      "phonetic_api": "/kàkê/",
+      "phonetic_simple": "ka-kê",
+      "translation": "couleur kaki (aussi le nom de l'arbuste dont on tire la teinture)",
+      "example_sentence": "kàkê",
+      "example_phonetic": "/kàkê/",
+      "example_translation": "kaki"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Gwíi kpɔ̀lu.",
+      "phonetic_api": "/gwíi kpɔ̀lu/",
+      "phonetic_simple": "GWI-i kpo-lou",
+      "translation": "La banane est mûre (rouge).",
+      "context": "Décrire un fruit mûr"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Hèɠeyaa nɛ̀lɛ́ ↓ɓé é káa bɔ̀ ?",
+      "phonetic_api": "/hèɣeyaa nɛ̀lɛ́ ↓ɓé é káa bɔ̀/",
+      "phonetic_simple": "hè-ghe-YA-a nè-LÉ bé é kaa bo ?",
+      "translation": "Quel pagne veux-tu ?",
+      "context": "Demander une préférence au marché"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "É màáyìlipéle ↓káa léi ɲɛ́i yɛ́ tɔ̀ɠɔtɔ́ɠɔmûŋ ?",
+      "phonetic_api": "/é màáyìlipéle ↓káa léi ɲɛ́i yɛ́ tɔ̀ɣɔtɔ́ɣɔmûŋ/",
+      "phonetic_simple": "é maa-YI-li-PÉ-le kaa LÉ-i NYÉ-i yè TO-gho-TO-gho-mûng",
+      "translation": "Pourquoi es-tu habillé comme un homme archaïque ?",
+      "context": "Commenter (avec humour) la tenue de quelqu'un"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ŋwɔ́ kɔ̀lɔi pɛ́li.",
+      "phonetic_api": "/ŋwɔ́ kɔ̀lɔi pɛ́li/",
+      "phonetic_simple": "ngwo KO-lo-i PÉ-li",
+      "translation": "Répare ma chaussure.",
+      "context": "Demander un service (cordonnier)"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Hèɠé ɓǎɠaa.",
+      "phonetic_api": "/hèɣé ɓǎɣaa/",
+      "phonetic_simple": "hè-ghé ɓa-gha-a",
+      "translation": "Un habit teint.",
+      "context": "Décrire un vêtement fraîchement teint"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "kwěle pépe",
+      "phonetic_api": "/kwěle pépe/",
+      "phonetic_simple": "kwè-le PÉ-pe",
+      "translation": "très blanc",
+      "context": "Renforcer un qualificatif de couleur avec pépe (idéophone d'intensité)"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les couleurs sont des verbes, pas des adjectifs",
+      "explanation": "En français, les couleurs sont des adjectifs invariables ou accordés. En kpele, ce sont des verbes d'état intransitifs (vi) qui se conjuguent comme n'importe quel verbe.",
+      "rules": [
+        "tɛ̌i = être noir (et non « noir »).",
+        "kwěle = être blanc.",
+        "kpɔ̌lu = être rouge, et par extension être mûr (pour un fruit)."
+      ],
+      "examples": [
+        {
+          "structure": "gwíi kpɔ̀lu",
+          "phonetic_api": "/gwíi kpɔ̀lu/",
+          "meaning": "la banane est mûre (litt. la banane rougit/est rouge)"
+        }
+      ]
+    },
+    {
+      "concept": "Un système de couleurs réduit : seulement trois qualificatifs de base",
+      "explanation": "Contrairement au français, qui nomme de nombreuses couleurs, le dictionnaire kpele n'atteste de qualificatifs verbaux dédiés que pour le noir, le blanc et le rouge — un inventaire réduit que l'on retrouve dans plusieurs langues du monde.",
+      "rules": [
+        "Pour les autres teintes, le kpele décrit souvent par comparaison à un objet (comme kàkê, la couleur kaki, nommée d'après l'arbuste utilisé pour la teinture).",
+        "Un mot comme kpɛ̀lɔ̀ɔ ́ ('vert, pas mûr') s'applique surtout aux fruits non mûrs plutôt qu'à une couleur abstraite indépendante."
+      ],
+      "examples": [
+        {
+          "structure": "kàkê",
+          "phonetic_api": "/kàkê/",
+          "meaning": "kaki : couleur nommée d'après une plante teinturière"
+        }
+      ]
+    },
+    {
+      "concept": "Intensifier un qualificatif avec un idéophone",
+      "explanation": "Le kpele utilise de petits mots expressifs (idéophones) accolés à certains verbes qualificatifs pour marquer l'intensité, un peu comme « comme neige » en français pour « très blanc ».",
+      "rules": [
+        "pépe s'utilise uniquement avec kwěle (être blanc) : kwěle pépe = très blanc.",
+        "Chaque qualificatif a souvent son propre idéophone d'intensité, non interchangeable avec un autre verbe."
+      ],
+      "examples": [
+        {
+          "structure": "kwěle pépe",
+          "phonetic_api": "/kwěle pépe/",
+          "meaning": "très blanc"
+        }
+      ]
+    },
+    {
+      "concept": "Demander une préférence avec nɛ̀lɛ́",
+      "explanation": "nɛ̀lɛ́ (lequel ?, quel ?) s'emploie après le nom de l'objet pour demander de choisir parmi plusieurs options, comme pour un vêtement au marché.",
+      "rules": [
+        "[objet] nɛ̀lɛ́ ↓ɓé é káa bɔ̀ ? = quel [objet] veux-tu ?",
+        "Cette construction reprend le verbe bɔ̀ (vouloir), déjà rencontré indirectement dans d'autres expressions de souhait."
+      ],
+      "examples": [
+        {
+          "structure": "hèɠeyaa nɛ̀lɛ́ ↓ɓé é káa bɔ̀ ?",
+          "phonetic_api": "/hèɣeyaa nɛ̀lɛ́ ↓ɓé é káa bɔ̀/",
+          "meaning": "quel pagne veux-tu ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Personne A",
+      "text": "Hèɠeyaa nɛ̀lɛ́ ↓ɓé é káa bɔ̀ ?",
+      "phonetic_api": "/hèɣeyaa nɛ̀lɛ́ ↓ɓé é káa bɔ̀/",
+      "phonetic_simple": "hè-ghe-YA-a nè-LÉ bé é kaa bo ?",
+      "translation": "Quel pagne veux-tu ?"
+    },
+    {
+      "speaker": "Personne B",
+      "text": "Ŋé bɔ̀ kwěle pépe ɓé.",
+      "phonetic_api": "/ŋé bɔ̀ kwěle pépe ɓé/",
+      "phonetic_simple": "ngé bo kwè-le PÉ-pe bé",
+      "translation": "Je veux le très blanc."
+    },
+    {
+      "speaker": "Personne A",
+      "text": "À wáli yɛ̌li ?",
+      "phonetic_api": "/à wáli yɛ̌li/",
+      "phonetic_simple": "a WA-li yè-li ?",
+      "translation": "C'est combien ?"
+    },
+    {
+      "speaker": "Personne B",
+      "text": "Wáa tɔ́nɔ̂.",
+      "phonetic_api": "/wáa tɔ́nɔ̂/",
+      "phonetic_simple": "WA-a TO-nô",
+      "translation": "Mille francs."
+    },
+    {
+      "speaker": "Personne A",
+      "text": "Máma ! Ŋwɔ́ kɔ̀lɔi pɛ́li máŋ, ↓ɓɛ́ ɓé.",
+      "phonetic_api": "/máma ŋwɔ́ kɔ̀lɔi pɛ́li máŋ ↓ɓɛ́ ɓé/",
+      "phonetic_simple": "MA-ma ! ngwo KO-lo-i PÉ-li mang, ɓÈ bé",
+      "translation": "Merci ! Répare aussi ma chaussure, s'il te plaît."
+    }
+  ],
+  "cultural_notes": [
+    "Le vocabulaire des couleurs de base en kpele (noir, blanc, rouge/mûr) correspond au triptyque le plus répandu dans les langues du monde qui n'ont pas développé un grand inventaire de couleurs abstraites — les autres teintes se décrivent souvent par comparaison à un objet ou une plante (comme kàkê, nommé d'après l'arbuste teinturier).",
+    "Le gbàawîi (boubou sans manches) et le yɛ̌ɠɛ (boubou à larges manches) sont deux types de tenues traditionnelles masculines distinctes, portées selon l'occasion.",
+    "L'expression « habillé comme un homme archaïque » (tɔ̀ɠɔtɔ́ɠɔmûŋ) montre que l'habillement traditionnel peut aussi être perçu comme démodé par les plus jeunes générations, un contraste social intéressant à noter."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie kpɔ̌lu, en plus de « être rouge » ?",
+      "options": [
+        "Être sale",
+        "Être mûr",
+        "Être teint",
+        "Être ancien"
+      ],
+      "correct_answer": "Être mûr",
+      "explanation": "kpɔ̌lu couvre à la fois « être rouge » et « être mûr » pour un fruit, comme dans gwíi kpɔ̀lu (la banane est mûre)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quel idéophone s'utilise uniquement avec kwěle (être blanc) pour dire « très » ?",
+      "options": [
+        "pépe",
+        "kàkê",
+        "nɛ̀lɛ́",
+        "màayílî"
+      ],
+      "correct_answer": "pépe",
+      "explanation": "pépe est l'idéophone d'intensité réservé à kwěle : kwěle pépe = très blanc."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Quelle est la différence entre gbàawîi et yɛ̌ɠɛ ?",
+      "options": [
+        "Aucune, ce sont des synonymes exacts",
+        "gbàawîi est sans manches, yɛ̌ɠɛ a de larges manches",
+        "gbàawîi est un pagne, yɛ̌ɠɛ un boubou",
+        "gbàawîi est féminin, yɛ̌ɠɛ masculin"
+      ],
+      "correct_answer": "gbàawîi est sans manches, yɛ̌ɠɛ a de larges manches",
+      "explanation": "Les deux désignent un grand boubou, mais se distinguent par la présence ou non de larges manches."
+    },
+    {
+      "exercise_id": "ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander « quel pagne veux-tu ? », on dit : « Hèɠeyaa [ ___ ] ↓ɓé é káa bɔ̀ ? »",
+      "correct_answer": "nɛ̀lɛ́",
+      "hint": "Ce mot signifie « lequel ?, quel ? »."
+    },
+    {
+      "exercise_id": "ex5",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Les couleurs kpele sont des [ ___ ], pas des adjectifs, et se conjuguent comme tel.",
+      "correct_answer": "verbes",
+      "hint": "tɛ̌i, kwěle et kpɔ̌lu se comportent grammaticalement comme n'importe quel verbe d'état."
+    },
+    {
+      "exercise_id": "ex6",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "La couleur kaki (kàkê) tire son nom d'un [ ___ ] utilisé pour la teinture.",
+      "correct_answer": "arbuste",
+      "hint": "C'est une plante dont on tire la teinture kaki."
+    }
+  ]
+}

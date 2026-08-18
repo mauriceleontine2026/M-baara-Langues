@@ -1,0 +1,293 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Décliner son identité, son âge et sa nationalité ou pays d'origine",
+    "Exprimer sa profession ou son statut d'étudiant",
+    "Poser des questions d'identification simples à un interlocuteur masculin ou féminin"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en avant le son /ʕ/ (ع - 'Ayn), une fricative pharyngale sonore émise en contractant profondément la gorge, essentielle dans le mot 'Umr' (âge). Observez aussi le son /ɣ/ (غ - Ghayn), une fricative uvulaire sonore semblable au 'r' grasseyé français, présente dans 'Min'ariyy' (originaire). Les voyelles longues (ā, ī, ū) doivent être étirées deux fois plus que les voyelles courtes.",
+    "common_pitfalls": "Attention à ne pas prononcer la consonne /ʕ/ (ع) comme une simple voyelle 'a'. Veillez également à ne pas omettre la prononciation du 'Hamza' /ʔ/ (ء), qui est un coup de glotte net (comme l'interruption du son au milieu de l'exclamation française 'Oh-Oh !'), présent dans 'Anā' (Moi) ou 'Ism' (Nom) en début d'énoncé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "أَنَا",
+      "phonetic_api": "/ʔa.naː/",
+      "phonetic_simple": "A-NAA",
+      "translation": "Moi / Je",
+      "example_sentence": "أَنَا طَالِبٌ",
+      "example_phonetic": "/ʔa.naː tˤaː.li.bun/",
+      "example_translation": "Je suis étudiant"
+    },
+    {
+      "word_id": "v2",
+      "term": "اِسْمٌ",
+      "phonetic_api": "/ʔis.mun/",
+      "phonetic_simple": "IS-MOUN",
+      "translation": "Un nom",
+      "example_sentence": "اِسْمِي كَرِيمٌ",
+      "example_phonetic": "/ʔis.miː ka.riː.mun/",
+      "example_translation": "Mon nom est Karim"
+    },
+    {
+      "word_id": "v3",
+      "term": "عُمْرٌ",
+      "phonetic_api": "/ʕum.run/",
+      "phonetic_simple": "OUM-ROUN",
+      "translation": "Un âge / Une vie",
+      "example_sentence": "عُمْرِي عِشْرُونَ سَنَةً",
+      "example_phonetic": "/ ʕum.riː ʕiʃ.ruː.na sa.na.tan/",
+      "example_translation": "Mon âge est vingt ans (J'ai 20 ans)"
+    },
+    {
+      "word_id": "v4",
+      "term": "مِنْ",
+      "phonetic_api": "/min/",
+      "phonetic_simple": "MIN",
+      "translation": "De / Depuis (provenance)",
+      "example_sentence": "أَنَا مِنْ فَرَنْسَا",
+      "example_phonetic": "/ʔa.naː min fa.ran.saː/",
+      "example_translation": "Je suis de France"
+    },
+    {
+      "word_id": "v5",
+      "term": "عَمَلٌ",
+      "phonetic_api": "/ʕa.ma.lun/",
+      "phonetic_simple": "A-MA-LOUN",
+      "translation": "Un travail / Une profession",
+      "example_sentence": "مَا عَمَلُكَ؟",
+      "example_phonetic": "/maː ʕa.ma.lu.ka/",
+      "example_translation": "Quel est ton travail ? (à un homme)"
+    },
+    {
+      "word_id": "v6",
+      "term": "مُهَنْدِسٌ",
+      "phonetic_api": "/mu.han.di.sun/",
+      "phonetic_simple": "MOU-HAN-DI-SOUN",
+      "translation": "Ingénieur",
+      "example_sentence": "أَنَا مُهَنْدِسٌ مِصْرِيٌّ",
+      "example_phonetic": "/ʔa.naː mu.han.di.sun misˤ.rij.jun/",
+      "example_translation": "Je suis un ingénieur égyptien"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "مَا اسْمُكَ؟",
+      "phonetic_api": "/maː s.mu.ka/",
+      "phonetic_simple": "MAS-MOU-KA",
+      "translation": "Comment t'appelles-tu ? (à un homme)",
+      "context": "Question standard pour demander le nom d'un interlocuteur masculin."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "مَا اسْمُكِ؟",
+      "phonetic_api": "/maː s.mu.ki/",
+      "phonetic_simple": "MAS-MOU-KI",
+      "translation": "Comment t'appelles-tu ? (à une femme)",
+      "context": "Question standard pour demander le nom d'un interlocuteur féminin."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "اِسْمِي مَرْيَمُ",
+      "phonetic_api": "/ʔis.miː mar.ja.mu/",
+      "phonetic_simple": "IS-MII MAR-YA-MOU",
+      "translation": "Mon nom est Maryam",
+      "context": "Formule universelle pour donner son prénom."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "مِنْ أَيْنَ أَنْتَ؟",
+      "phonetic_api": "/min ʔaj.na ʔan.ta/",
+      "phonetic_simple": "MIN AY-NA AN-TA",
+      "translation": "D'où viens-tu ? (à un homme)",
+      "context": "Pour s'enquérir de la nationalité ou du pays d'origine d'un homme."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "مِنْ أَيْنَ أَنْتِ؟",
+      "phonetic_api": "/min ʔaj.na ʔan.ti/",
+      "phonetic_simple": "MIN AY-NA AN-TI",
+      "translation": "D'où viens-tu ? (à une femme)",
+      "context": "Pour s'enquérir de la nationalité ou du pays d'origine d'une femme."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "أَنَا مِنْ كَنَدَا",
+      "phonetic_api": "/ʔa.naː min ka.na.daː/",
+      "phonetic_simple": "A-NAA MIN KA-NA-DAA",
+      "translation": "Je viens du Canada / Je suis de Canada",
+      "context": "Réponse indiquant le pays d'origine."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "كَمْ عُمْرُكَ؟",
+      "phonetic_api": "/kam ʕum.ru.ka/",
+      "phonetic_simple": "KAM OUM-ROU-KA",
+      "translation": "Quel âge as-tu ? (à un homme)",
+      "context": "Pour demander l'âge d'un homme de manière directe."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "عُمْرِي ثَلَاثُونَ سَنَةً",
+      "phonetic_api": "/ʕum.riː θa.laː.θuː.na sa.na.tan/",
+      "phonetic_simple": "OUM-RII THA-LAA-THOU-NA SA-NA-TAN",
+      "translation": "J'ai trente ans (Mon âge est 30 ans)",
+      "context": "Structure fixe pour exprimer son âge en arabe standard."
+    },
+    {
+      "phrase_id": "p9",
+      "original": "مَا هِيَ مِهْنَتُكَ؟",
+      "phonetic_api": "/maː hi.ja mih.na.tu.ka/",
+      "phonetic_simple": "MAA HI-YA MIH-NA-TOU-KA",
+      "translation": "Quelle est ta profession ? (à un homme)",
+      "context": "Formule formelle pour interroger quelqu'un sur son métier."
+    },
+    {
+      "phrase_id": "p10",
+      "original": "أَنَا أُسْتَاذٌ",
+      "phonetic_api": "/ʔa.naː ʔus.taː.ðun/",
+      "phonetic_simple": "A-NAA OUS-TAA-THOUN",
+      "translation": "Je suis professeur (masculin)",
+      "context": "Déclaration d'activité professionnelle au masculin."
+    },
+    {
+      "phrase_id": "p11",
+      "original": "أَنَا طَبِيبَةٌ",
+      "phonetic_api": "/ʔa.naː tˤa.biː.ba.tun/",
+      "phonetic_simple": "A-NAA TA-BII-BA-TOUN",
+      "translation": "Je suis médecin (féminin)",
+      "context": "Déclaration d'activité professionnelle au féminin."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La phrase nominale et l'absence du verbe 'être' au présent",
+      "explanation": "En arabe, il n'existe pas de verbe équivalent à 'être' (au présent de l'indicatif) pour relier le sujet à son attribut (nom, adjectif, profession). Une phrase composée simplement d'un sujet (pronom ou nom) et d'un prédicat est une phrase nominale complète et grammaticalement correcte.",
+      "rules": [
+        "Le sujet (Mubtada') vient généralement en premier et se trouve au cas sujet (nominatif).",
+        "Le prédicat (Khabar) apporte l'information (ex: la profession ou la nationalité) et s'accorde en genre avec le sujet."
+      ],
+      "examples": [
+        {
+          "structure": "أَنَا طَالِبٌ",
+          "phonetic_api": "/ʔa.naː tˤaː.li.bun/",
+          "meaning": "Je [suis] étudiant"
+        },
+        {
+          "structure": "هُوَ مُهَنْدِسٌ",
+          "phonetic_api": "/hu.wa mu.han.di.sun/",
+          "meaning": "Il [est] ingénieur"
+        }
+      ]
+    },
+    {
+      "concept": "Formation du féminin des professions : Le Tā' Marbūṭah",
+      "explanation": "Pour transposer la majorité des métiers ou des statuts du masculin au féminin, la langue arabe utilise un suffixe grammatical spécifique nommé 'Tā' Marbūṭah' (ة).",
+      "rules": [
+        "On ajoute le suffixe graphique (ة) à la fin du mot masculin.",
+        "La consonne précédant immédiatement le Tā' Marbūṭah prend obligatoirement la voyelle courte fatha (-a-).",
+        "À l'oral lors d'une pause, le son du 't' final n'est pas prononcé, on entend seulement la voyelle 'a'."
+      ],
+      "examples": [
+        {
+          "structure": "أُسْتَاذٌ",
+          "phonetic_api": "/ʔus.taː.ðun/",
+          "meaning": "Professeur (masculin)"
+        },
+        {
+          "structure": "أُسْتَاذَةٌ",
+          "phonetic_api": "/ʔus.taː.ða.tun/",
+          "meaning": "Professeure (féminin)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "يُوسُف (Youssef)",
+      "text": "السَّلَامُ عَلَيْكُمْ، مَا اسْمُكِ؟",
+      "phonetic_api": "/as.sa.laː.mu ʕa.laj.kum maː s.mu.ki/",
+      "phonetic_simple": "AS-SA-LAA-MOU ALAY-KOUM MAA S-MOU-KI",
+      "translation": "Que la paix soit sur vous, comment t'appelles-tu ?"
+    },
+    {
+      "speaker": "زَيْنَب (Zaynab)",
+      "text": "وَعَلَيْكُمُ السَّلَامُ. اِسْمِي زَيْنَبُ. وَأَنْتَ، مَا اسْمُكَ؟",
+      "phonetic_api": "/wa ʕa.laj.ku.mu s.sa.laːm ʔis.miː zaj.na.bu wa ʔan.ta maː s.mu.ka/",
+      "phonetic_simple": "OUA ALAY-KOU-MOU S-SA-LAA-M IS-MII ZAY-NAB-OU WA AN-TA MAA S-MOU-KA",
+      "translation": "Et sur vous soit la paix. Mon nom est Zaynab. Et toi, comment t'appelles-tu ?"
+    },
+    {
+      "speaker": "يُوسُف (Youssef)",
+      "text": "اِسْمِي يُوسُفُ. مِنْ أَيْنَ أَنْتِ يَا زَيْنَبُ؟",
+      "phonetic_api": "/ʔis.miː juː.su.fu min ʔaj.na ʔan.ti jaː zaj.na.bu/",
+      "phonetic_simple": "IS-MII YOU-SOU-FOU MIN AY-NA AN-TI YA ZAY-NAB-OU",
+      "translation": "Mon nom est Youssef. D'où viens-tu, Zaynab ?"
+    },
+    {
+      "speaker": "زَيْنَب (Zaynab)",
+      "text": "أَنَا مِنْ مِصْرَ، أَنَا مِصْرِيَّةٌ. وَأَنْتَ؟",
+      "phonetic_api": "/ʔa.naː min misˤ.ra ʔa.naː misˤ.rij.ja.tun wa ʔan.ta/",
+      "phonetic_simple": "A-NAA MIN MIS-RA A-NAA MIS-RIY-YA-TOUN WA AN-TA",
+      "translation": "Je viens d'Égypte, je suis égyptienne. Et toi ?"
+    },
+    {
+      "speaker": "يُوسُف (Youssef)",
+      "text": "أَنَا مِنْ فَرَنْسَا. عُمْرِي عِشْرُونَ سَنَةً، وَأَنَا طَالِبٌ. كَمْ عُمْرُكِ؟",
+      "phonetic_api": "/ʔa.naː min fa.ran.saː ʕum.riː ʕiʃ.ruː.na sa.na.tan wa ʔa.naː tˤaː.li.bun kam ʕum.ru.ki/",
+      "phonetic_simple": "A-NAA MIN FA-RAN-SAA OUM-RII ISH-ROU-NA SA-NA-TAN WA A-NAA TAA-LI-BOUN KAM OUM-ROU-KI",
+      "translation": "Je viens de France. J'ai vingt ans et je suis étudiant. Quel âge as-tu ?"
+    },
+    {
+      "speaker": "زَيْنَب (Zaynab)",
+      "text": "عُمْرِي خَمْسٌ وَعِشْرُونَ سَنَةً، وَأَنَا طَبِيبَةٌ. تَشَرَّفْنَا يَا يُوسُفُ.",
+      "phonetic_api": "/ʕum.riː xam.sun wa ʕiʃ.ruː.na sa.na.tan wa ʔa.naː tˤa.biː.ba.tun ta.ʃar.raf.naː jaː juː.su.fu/",
+      "phonetic_simple": "OUM-RII KHAM-SOUN WA ISH-ROU-NA SA-NA-TAN WA A-NAA TA-BII-BA-TOUN TA-CHAR-RAF-NAA YA YOU-SOU-FOU",
+      "translation": "J'ai vingt-cinq ans et je suis médecin. Enchantée, Youssef."
+    }
+  ],
+  "cultural_notes": [
+    "Les noms et les titres respectueux : En arabe, il est très fréquent d'ajouter le mot vocatif 'Yā' (يَا) devant le prénom de quelqu'un lorsque l'on s'adresse à lui directement ('Yā Zaynab'). Cela adoucit l'interpellation et marque l'attention.",
+    "L'expression de la nationalité : Pour exprimer sa nationalité, on emploie souvent l'adjectif de relation (Nisbah) créé en ajoutant un 'yā' renforcé (يّ) pour un homme et (يَّة) pour une femme au nom du pays (ex: Misr -> Misriyy / Misriyyah)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L2_ex1",
+      "type": "multiple_choice",
+      "question": "Comment une femme doit-elle dire 'Je suis étudiante' en arabe ?",
+      "options": [
+        "أَنَا طَالِبٌ (Anā ṭālib)",
+        "أَنَا طَالِبَةٌ (Anā ṭālibah)",
+        "أَنَا أُسْتَاذٌ (Anā ustādh)"
+      ],
+      "correct_answer": "أَنَا طَالِبَةٌ (Anā ṭālibah)",
+      "explanation": "L'ajout du Ta Marboutah (ة) à la fin de 'ṭālib' transforme le nom au féminin régulier."
+    },
+    {
+      "exercise_id": "A1_M1_L2_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander l'âge à une femme, on dit : كَمْ [ ___ ] ؟",
+      "correct_answer": "عُمْرُكِ",
+      "hint": "Le mot intègre le suffixe féminin de la deuxième personne du singulier (-ki)."
+    },
+    {
+      "exercise_id": "A1_M1_L2_ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie exactement la phrase 'مِنْ أَيْنَ أَنْتَ؟' ?",
+      "options": [
+        "Quel est ton travail ?",
+        "Comment t'appelles-tu ?",
+        "D'où viens-tu ? (à un homme)"
+      ],
+      "correct_answer": "D'où viens-tu ? (à un homme)",
+      "explanation": "L'expression utilise l'interrogatif 'Ayna' (Où) précédé de 'Min' (De) avec le pronom masculin 'Anta' (Toi)."
+    }
+  ]
+}

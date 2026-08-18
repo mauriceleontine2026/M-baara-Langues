@@ -1,0 +1,239 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Savoir poser des questions pour localiser un lieu ou un monument",
+    "Comprendre et utiliser les indications de direction fondamentales (droite, gauche, tout droit)",
+    "Maîtriser l'usage des postpositions spatiales de base comme 'près de' ou 'devant'"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot pour désigner la direction droite (दाहिने / d̪aːhɪneː/) exige une articulation claire du 'ह' (h) sonore. Le mot pour la gauche (बायें / baːjẽː/) comprend une voyelle finale fortement nasalisée par le signe Anusvara. La consonne rétroflexe battue 'ड़' (/ɽ/) apparaît de manière cruciale dans 'रोड' (route / ɾoːɖ/) ou 'आगे बढ़िए' (avancez / əːɡeː bəɽʱɪjeː/).",
+    "common_pitfalls": "Ne confondez pas 'दूर' (/d̪uːr/ - loin), qui utilise une consonne dentale pure, avec les sons rétroflexes anglais. Veillez à bien rouler le 'र' (r) final à la manière italienne sans l'étouffer."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v_dir_1",
+      "term": "कहाँ",
+      "phonetic_api": "/kəɦãː/",
+      "phonetic_simple": "KA-HAN",
+      "translation": "Où",
+      "example_sentence": "स्टेशन कहाँ है?",
+      "example_phonetic": "/sʈeːʃən kəɦãː ɦɛː/",
+      "example_translation": "Où est la gare ?"
+    },
+    {
+      "word_id": "v_dir_2",
+      "term": "यहाँ",
+      "phonetic_api": "/jəɦãː/",
+      "phonetic_simple": "YA-HAN",
+      "translation": "Ici",
+      "example_sentence": "बाज़ार यहाँ है।",
+      "example_phonetic": "/baːzaːr jəɦãː ɦɛː/",
+      "example_translation": "Le marché est ici."
+    },
+    {
+      "word_id": "v_dir_3",
+      "term": "वहाँ",
+      "phonetic_api": "/ʋəɦãː/",
+      "phonetic_simple": "VA-HAN",
+      "translation": "Là-bas",
+      "example_sentence": "होटल वहाँ है।",
+      "example_phonetic": "/ɦoːʈəl ʋəɦãː ɦɛː/",
+      "example_translation": "L'hôtel est là-bas."
+    },
+    {
+      "word_id": "v_dir_4",
+      "term": "दाहिने",
+      "phonetic_api": "/d̪aːhɪneː/",
+      "phonetic_simple": "DAA-HI-NÉ",
+      "translation": "À droite",
+      "example_sentence": "दाहिने मुड़िए।",
+      "example_phonetic": "/d̪aːhɪneː mʊɽɪjeː/",
+      "example_translation": "Tournez à droite."
+    },
+    {
+      "word_id": "v_dir_5",
+      "term": "बायें",
+      "phonetic_api": "/baːjẽː/",
+      "phonetic_simple": "BAA-YEN",
+      "translation": "À gauche",
+      "example_sentence": "बायें तरफ देखिए।",
+      "example_phonetic": "/baːjẽː t̪əɾəf d̪eːkʰɪjeː/",
+      "example_translation": "Regardez du côté gauche."
+    },
+    {
+      "word_id": "v_dir_6",
+      "term": "सीधे",
+      "phonetic_api": "/siːdʱeː/",
+      "phonetic_simple": "SII-DHÉ",
+      "translation": "Tout droit",
+      "example_sentence": "सीधे जाइए।",
+      "example_phonetic": "/siːdʱeː dʒaːɪjeː/",
+      "example_translation": "Allez tout droit."
+    },
+    {
+      "word_id": "v_dir_7",
+      "term": "पास",
+      "phonetic_api": "/paːs/",
+      "phonetic_simple": "PAAS",
+      "translation": "Près / À côté",
+      "example_sentence": "क्या मेट्रो पास है?",
+      "example_phonetic": "/kjaː mɛːʈɾoː paːs ɦɛː/",
+      "example_translation": "Est-ce que le métro est proche ?"
+    },
+    {
+      "word_id": "v_dir_8",
+      "term": "दूर",
+      "phonetic_api": "/d̪uːr/",
+      "phonetic_simple": "DOUR",
+      "translation": "Loin",
+      "example_sentence": "हवाई अड्डा बहुत दूर है।",
+      "example_phonetic": "/ɦəʋaːiː əɖːaː bəɦʊt̪ d̪uːr ɦɛː/",
+      "example_translation": "L'aéroport est très loin."
+    },
+    {
+      "word_id": "v_dir_9",
+      "term": "रास्ता",
+      "phonetic_api": "/raːst̪aː/",
+      "phonetic_simple": "RAAS-TAA",
+      "translation": "Chemin / Route",
+      "example_sentence": "क्या आप रास्ता जानते हैं?",
+      "example_phonetic": "/kjaː aːp raːst̪aː dʒaːnt̪eː ɦɛ̃ː/",
+      "example_translation": "Connaissez-vous le chemin ?"
+    },
+    {
+      "word_id": "v_dir_10",
+      "term": "नक्शा",
+      "phonetic_api": "/nəkʃaː/",
+      "phonetic_simple": "NAK-CHAA",
+      "translation": "Carte / Plan",
+      "example_sentence": "मुझे नक्शा दिखाइए।",
+      "example_phonetic": "/mʊdʒʱeː nəkʃaː d̪ɪkʰaːɪjeː/",
+      "example_translation": "Montrez-moi le plan."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "ताजमहल जाने का रास्ता कहाँ है?",
+      "phonetic_api": "/t̪aːdʒməɦəl dʒaːneː kaː raːst̪aː kəɦãː ɦɛː/",
+      "phonetic_simple": "TAADJ-MA-HAL DJAA-NÉ KAA RAAS-TAA KA-HAN HÉ",
+      "translation": "Où est le chemin pour aller au Taj Mahal ?",
+      "context": "Formule type pour demander l'itinéraire vers un monument historique."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "क्या यहाँ पास में कोई बैंक है?",
+      "phonetic_api": "/kjaː jəɦãː paːs mẽː koːiː bɛːŋk ɦɛː/",
+      "phonetic_simple": "KYAA YA-HAN PAAS MEIN KO-II BAINK HÉ",
+      "translation": "Y a-t-il une banque près d'ici ?",
+      "context": "Rechercher un service ou une commodité à proximité immédiate."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "यहाँ से स्टेशन कितनी दूर है?",
+      "phonetic_api": "/jəɦãː seː sʈeːʃən kɪt̪niː d̪uːr ɦɛː/",
+      "phonetic_simple": "YA-HAN SÉ STÉ-CHAN KIT-NII DOUR HÉ",
+      "translation": "À quelle distance se trouve la gare d'ici ?",
+      "context": "Évaluer le temps de marche ou de transport nécessaire."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les postpositions de localisation spatiale : के पास, के सामने",
+      "explanation": "Pour situer un objet par rapport à un repère fixe, le hindi utilise des locutions postpositives construites obligatoirement avec le marqueur génitif oblique 'के' (ké).",
+      "rules": [
+        "Structure : [Lieu repère] + के (ké) + [Indicateur spatial].",
+        "के पास (ké paas) : Près de / À côté de.",
+        "के सामने (ké saamné) : En face de / Devant."
+      ],
+      "examples": [
+        {
+          "structure": "होटल के पास (Hotel ké paas)",
+          "phonetic_api": "/ɦoːʈəl keː paːs/",
+          "meaning": "Près de l'hôtel"
+        },
+        {
+          "structure": "बैंक के सामने (Bank ké saamné)",
+          "phonetic_api": "/bɛːŋk keː saːmneː/",
+          "meaning": "En face de la banque"
+        }
+      ]
+    },
+    {
+      "concept": "L'impératif poli de direction en 'यह / -इए' (-iye)",
+      "explanation": "Lorsque l'on reçoit ou donne des instructions d'orientation à un inconnu, on emploie la terminaison verbale respectueuse de l'impératif pour guider poliment.",
+      "rules": [
+        "जाइए (jāiye) : Allez (du verbe जाना).",
+        "मुड़िए (muṛiye) : Tournez (du verbe मुड़ना).",
+        "चलिए (chaliye) : Marchez / Allons-y (du verbe चलना)."
+      ],
+      "examples": [
+        {
+          "structure": "आगे से दाहिने मुड़िए (Aagē sē dāhinē muṛiye)",
+          "phonetic_api": "/aːɡeː seː d̪aːhɪneː mʊɽɪjeː/",
+          "meaning": "Tournez à droite plus loin."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "पर्यटक (Touriste)",
+      "text": "माफ कीजिए भाई साहब, मेट्रो स्टेशन कहाँ है?",
+      "phonetic_api": "/maːf kiːdʒɪjeː bʱaːiː saːɦəb mɛːʈɾoː sʈeːʃən kəɦãː ɦɛː/",
+      "phonetic_simple": "MAAF KII-DJI-YÉ BHAA-II SAA-HAB, ME-TRO STÉ-CHAN KA-HAN HÉ",
+      "translation": "Excusez-moi mon frère, où se trouve la station de métro ?"
+    },
+    {
+      "speaker": "स्थानीय व्यक्ति (Habitant)",
+      "text": "मेट्रो स्टेशन यहाँ से बहुत पास है। आप सीधे जाइए।",
+      "phonetic_api": "/mɛːʈɾoː sʈeːʃən jəɦãː seː bəɦʊt̪ paːs ɦɛː aːp siːdʱeː dʒaːɪjeː/",
+      "phonetic_simple": "ME-TRO STÉ-CHAN YA-HAN SÉ BAHOUT PAAS HÉ. AAP SII-DHÉ DJAA-I-YÉ",
+      "translation": "La station de métro est tout près d'ici. Allez tout droit."
+    },
+    {
+      "speaker": "पर्यटक (Touriste)",
+      "text": "क्या आगे से मुड़ना है?",
+      "phonetic_api": "/kjaː aːɡeː seː mʊɽnaː ɦɛː/",
+      "phonetic_simple": "KYAA AA-GÉ SÉ MOUR-NAA HÉ",
+      "translation": "Faut-il tourner plus loin ?"
+    },
+    {
+      "speaker": "स्थानीय व्यक्ति (Habitant)",
+      "text": "हाँ, आगे बड़े बाज़ार से दाहिने मुड़िए। स्टेशन बैंक के सामने है।",
+      "phonetic_api": "/ɦãː aːɡeː bəɽeː baːzaːr seː d̪aːhɪneː mʊɽɪjeː sʈeːʃən bɛːŋk keː saːmneː ɦɛː/",
+      "phonetic_simple": "HAAN, AA-GÉ BA-RÉ BAA-ZAAR SÉ DAA-HI-NÉ MOUR-I-YÉ. STÉ-CHAN BAINK KÉ SAAM-NÉ HÉ",
+      "translation": "Oui, plus loin, tournez à droite au grand marché. La gare est en face de la banque."
+    }
+  ],
+  "cultural_notes": [
+    "En Inde, demander sa direction à un passant est une pratique sociale constante. Il est courant que plusieurs personnes se rassemblent spontanément pour vous aider à trouver votre chemin, parfois même en vous accompagnant sur quelques mètres.",
+    "Le terme 'भाई साहब' (bhāī sāhab - monsieur / cher frère) est l'adresse orale idéale et la plus respectueuse pour interpeller un homme inconnu dans la rue afin de lui demander un renseignement."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle expression signifie 'Tournez à gauche' ?",
+      "options": [
+        "सीधे जाइए (sīdhē jāiye)",
+        "बायें मुड़िए (bāyēñ muṛiye)",
+        "दाहिने देखिए (dāhinē dēkhiye)"
+      ],
+      "correct_answer": "बायें मुड़िए (bāyēñ muṛiye)",
+      "explanation": "'बायें' signifie à gauche et 'मुड़िए' signifie tournez."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "मेरा घर स्कूल [ ___ ] पास है। (Ma maison est près de l'école.)",
+      "correct_answer": "के",
+      "hint": "La marque génitival requise devant la postposition 'पास' (ké)"
+    }
+  ]
+}

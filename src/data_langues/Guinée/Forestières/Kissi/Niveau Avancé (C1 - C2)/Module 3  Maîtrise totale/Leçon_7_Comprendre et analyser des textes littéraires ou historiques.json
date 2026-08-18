@@ -1,0 +1,114 @@
+{
+  "lesson_id": "C1_M3_L7",
+  "level": "Niveau Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 7,
+  "title": "Comprendre et analyser des textes littéraires ou historiques",
+  "learning_objectives": [
+    "Analyser la structure narrative des récits fondateurs de l'histoire Kissi",
+    "Déchiffrer le vocabulaire archaïque utilisé dans les récits de fondation",
+    "Interpréter les figures de style propres aux récits épiques"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les récits historiques solennels font appel à une élongation marquée des voyelles ouvertes (/ɔː/, /ɛː/) pour accentuer la portée des faits anciens.",
+    "common_pitfalls": "Attention à ne pas appliquer les contractions du langage familier urbain. Les voyelles et les tons doivent être restitués dans leur forme pleine d'origine."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v25_1",
+      "term": "simbonda",
+      "phonetic_api": "/si.ᵐbɔ.ⁿda/",
+      "phonetic_simple": "SEEM-BON-DA",
+      "translation": "histoire ancienne / épopée / faits d'armes historiques",
+      "example_sentence": "Simbonda lebol nio o co bɛndɛ.",
+      "example_phonetic": "/si.ᵐbɔ.ⁿda le.bol njo o tʃo bɛⁿdɛ/",
+      "example_translation": "L'épopée historique de mon pays est immense."
+    },
+    {
+      "word_id": "v25_2",
+      "term": "massa",
+      "phonetic_api": "/ma.sa/",
+      "phonetic_simple": "MAS-SA",
+      "translation": "chef souverain / roi / autorité suprême historique",
+      "example_sentence": "Massa o pa lo wo fassa cɔɔ.",
+      "example_phonetic": "/ma.sa o pa lo wo fa.sa tʃɔː/",
+      "example_translation": "Le roi était autrefois parti vers une direction très lointaine."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p25_1",
+      "original": "Simbonda nɔɔ o dimul mi fuaaa.",
+      "phonetic_api": "/si.ᵐbɔ.ⁿda noː o di.mul mi fwaːː/",
+      "phonetic_simple": "SEEM-BON-DA NOO O DI-MOUL MEE FOU-AAA",
+      "translation": "Notre histoire ancienne nous parle du temps jadis.",
+      "context": "Introduction d'un récit sur les origines du peuple"
+    },
+    {
+      "phrase_id": "p25_2",
+      "original": "Massa o nɔndɛ lebol bɛndɛ fassa wa.",
+      "phonetic_api": "/ma.sa o nɔ̃.ⁿdɛ le.bol bɛⁿdɛ fa.sa wa/",
+      "phonetic_simple": "MAS-SA O NON-DÈ LÉ-BOL BEN-DÈ FAS-SA WA",
+      "translation": "Le roi fonda une grande cité de ce côté.",
+      "context": "Chroniques historiques orales"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'infixe de glorification historique et d'antériorité",
+      "explanation": "Dans la langue littéraire et historique, l'usage de 'pa' combiné à un redoublement pronominal emphatique sert à détacher l'événement du cadre temporel ordinaire pour le placer dans une dimension héroïque.",
+      "rules": [
+        "Le pronom sujet est suivi de la marque 'pa'.",
+        "Le verbe qui suit adopte une tonalité basse solennelle."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + pa + Verbe historique",
+          "phonetic_api": "/o pa lo wo/",
+          "meaning": "Il partit jadis de manière irréversible."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'Historien",
+      "text": "Simbo, simbonda lebol nɔɔ o kandɛ wo tele cɔɔ ning.",
+      "phonetic_api": "/si.ᵐbo si.ᵐbɔ.ⁿda le.bol noː o ka.ⁿdɛ wo te.le tʃɔː niŋ/",
+      "phonetic_simple": "SEEM-BO, SEEM-BON-DA LÉ-BOL NOO O KAN-DÈ WO TÉ-LÉ TCHOO NING.",
+      "translation": "Vénérable, l'histoire ancienne de notre pays a commencé il y a fort longtemps."
+    },
+    {
+      "speaker": "L'Ancien",
+      "text": "Haa, i tchie ni. Massa nɔɔ o pa wali bɛndɛ co wo.",
+      "phonetic_api": "/haː i tʃje ni ma.sa noː o pa wa.li bɛⁿdɛ tʃo wo/",
+      "phonetic_simple": "HAA, EE TCHEE NEE. MAS-SA NOO O PA WA-LEE BEN-DÈ TCHO WO.",
+      "translation": "Oui, je le sais. Notre roi avait autrefois accompli de grandes œuvres."
+    }
+  ],
+  "cultural_notes": [
+    "L'histoire des Kissi (en Guinée forestière, Sierra Leone et Liberia) est intimement liée aux migrations et aux chefferies guerrières historiques. Le souvenir des souverains ('massa') fondateurs est précieusement gardé par des lignées de traditionalistes."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex25_1",
+      "type": "multiple_choice",
+      "question": "Que désigne le mot 'massa' dans un texte historique ?",
+      "options": [
+        "Un grand chasseur",
+        "Un roi / chef souverain",
+        "Une jeune fille"
+      ],
+      "correct_answer": "Un roi / chef souverain",
+      "explanation": "'Massa' est le terme traditionnel désignant le roi, le souverain ou le chef suprême d'une contrée."
+    },
+    {
+      "exercise_id": "ex25_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] lebol nio o co bɛndɛ. (L'épopée historique de mon pays est immense)",
+      "correct_answer": "Simbonda",
+      "hint": "Substantif pour l'histoire ancienne ou l'épopée"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Niveau Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Demander le prix d'un article sur un marché kissi",
+    "Proposer un prix inférieur et mener une négociation de base",
+    "Utiliser le vocabulaire lié aux échanges financiers et à la monnaie"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot 'gbalaŋ' (argent) possède une consonne co-articulée /g͡b/ et une finale nasale vélaire /aŋ/ très marquée.",
+    "common_pitfalls": "Attention à ne pas prononcer le 'ng' ou le 'n' final à la manière française. La langue doit toucher le voile du palais pour le son /ŋ/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v15_1",
+      "term": "gbalaŋ",
+      "phonetic_api": "/g͡ba.laŋ/",
+      "phonetic_simple": "GBA-LANG",
+      "translation": "argent / valeur / monnaie",
+      "example_sentence": "I nɔ gbalaŋ le.",
+      "example_phonetic": "/i nɔ g͡ba.laŋ le/",
+      "example_translation": "Je n'ai pas d'argent."
+    },
+    {
+      "word_id": "v15_2",
+      "term": "sola",
+      "phonetic_api": "/so.la/",
+      "phonetic_simple": "SO-LA",
+      "translation": "prix / coût",
+      "example_sentence": "Sola o co bɛndɛ.",
+      "example_phonetic": "/so.la o tʃo bɛⁿdɛ/",
+      "example_translation": "Le prix est élevé (grand)."
+    },
+    {
+      "word_id": "v15_3",
+      "term": "nɔŋ",
+      "phonetic_api": "/nɔŋ/",
+      "phonetic_simple": "NONG",
+      "translation": "acheter / obtenir par échange",
+      "example_sentence": "I co biyɛ nɔŋ loolu.",
+      "example_phonetic": "/i tʃo bi.jɛ nɔŋ loː.lu/",
+      "example_translation": "Je vais acheter du riz."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p15_1",
+      "original": "Sola yɛŋ o co ?",
+      "phonetic_api": "/so.la jɛŋ o tʃo/",
+      "phonetic_simple": "SO-LA YENG O TCHO",
+      "translation": "Quel est le prix ?",
+      "context": "S'informer sur le coût d'un produit"
+    },
+    {
+      "phrase_id": "p15_2",
+      "original": "Sola o co bɛndɛ fiaa, maaluon kɔlɔ ni.",
+      "phonetic_api": "/so.la o tʃo bɛⁿdɛ fjaː maː.lu.õ kɔ.lɔ ni/",
+      "phonetic_simple": "SO-LA O TCHO BEN-DE FIA-A, MAA-LOU-ONN KOLO NI",
+      "translation": "Le prix est trop grand, s'il te plaît diminue-le.",
+      "context": "Marchander au marché"
+    },
+    {
+      "phrase_id": "p15_3",
+      "original": "I nɔ gbalaŋ puu.",
+      "phonetic_api": "/i nɔ g͡ba.laŋ puː/",
+      "phonetic_simple": "I NONG GBA-LANG POUU",
+      "translation": "J'ai dix unités d'argent.",
+      "context": "Payer ou annoncer son budget"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'interrogation de valeur avec 'yɛŋ'",
+      "explanation": "Pour solliciter un montant financier, le substantif 'sola' (prix) s'associe à l'interrogatif postposé 'yɛŋ' de manière directe.",
+      "rules": [
+        "Le terme 'sola' initie obligatoirement la demande de tarification.",
+        "La formule 'o co' termine l'énoncé interrogatif."
+      ],
+      "examples": [
+        {
+          "structure": "Sola + yɛŋ + o co",
+          "phonetic_api": "/so.la jɛŋ o tʃo/",
+          "meaning": "Quel est le prix ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Saa",
+      "text": "Vana ciao, biyɛ sola yɛŋ o co ?",
+      "phonetic_api": "/va.na tʃja.o bi.jɛ so.la jɛŋ o tʃo/",
+      "phonetic_simple": "VA-NA TCHIA-O, BI-YÈ SO-LA YENG O TCHO ?",
+      "translation": "Vendeur, quel est le prix du riz ?"
+    },
+    {
+      "speaker": "Vendeur",
+      "text": "Biyɛ sola o co gbalaŋ puu.",
+      "phonetic_api": "/bi.jɛ so.la o tʃo g͡ba.laŋ puː/",
+      "phonetic_simple": "BI-YÈ SO-LA O TCHO GBA-LANG POUU.",
+      "translation": "Le prix du riz est de dix francs/unités."
+    },
+    {
+      "speaker": "Saa",
+      "text": "O co bɛndɛ ! Kɔlɔ ni gbalaŋ hiɔɔlulaŋ.",
+      "phonetic_api": "/o tʃo bɛⁿdɛ kɔ.lɔ ni g͡ba.laŋ hjɔː.lu.lã/",
+      "phonetic_simple": "O TCHO BEN-DE ! KOLO NI GBA-LANG HYOO-LOU-LANN.",
+      "translation": "C'est cher ! Diminue-le à cinq unités."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les marchés de la Guinée forestière, le marchandage est une interaction sociale normale et attendue. Accepter le tout premier prix sans discuter est rarissime et peut même couper court à l'échange convivial recherché par le commerçant."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex15_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'gbalaŋ' ?",
+      "options": [
+        "Le riz",
+        "L'argent",
+        "La maison"
+      ],
+      "correct_answer": "L'argent",
+      "explanation": "'gbalaŋ' désigne la monnaie ou les ressources financières de manière globale."
+    },
+    {
+      "exercise_id": "ex15_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] yɛŋ o co ? (Quel est le prix ?)",
+      "correct_answer": "Sola",
+      "hint": "Substantif pour prix ou valeur d'un bien"
+    }
+  ]
+}

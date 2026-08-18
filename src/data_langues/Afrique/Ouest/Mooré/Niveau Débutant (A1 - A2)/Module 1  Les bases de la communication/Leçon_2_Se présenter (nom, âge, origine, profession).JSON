@@ -1,0 +1,238 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Décliner son identité (nom et prénom) en utilisant les structures verbales d'état",
+    "Exprimer sa provenance géographique, sa nationalité et son lieu de résidence",
+    "Indiquer son âge et sa profession avec le lexique approprié du quotidien"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mooré utilise le son glottal 'w' et des nasales complexes. Le 'y' en début de mot fonctionne comme une semi-voyelle [j]. Faites attention à la lettre 'ɩ' (parfois écrite 'i' court) qui se prononce plus ouverte que le 'i' français, tirant légèrement vers le 'é'. Le groupe de lettres 'ng' en fin de mot se prononce comme un bloc nasal unique [ŋ], semblable au 'ng' de 'camping'.",
+    "common_pitfalls": "Ne séparez pas le 'n' initial de mots comme 'n yūuda'. Ce 'n' syllabique forme une seule et unique impulsion sonore avec la consonne qui le suit."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v2_1",
+      "term": "Yūure",
+      "phonetic_api": "/juːre/",
+      "phonetic_simple": "YOO-RÉ",
+      "translation": "Nom de famille / Prénom / Nom",
+      "example_sentence": "M yūur yaa Adama.",
+      "example_phonetic": "/m juːr jaː adama/",
+      "example_translation": "Mon nom est Adama."
+    },
+    {
+      "word_id": "v2_2",
+      "term": "Yɩɩga",
+      "phonetic_api": "/jɪːɡa/",
+      "phonetic_simple": "YII-GA",
+      "translation": "Être originaire de / Venir de",
+      "example_sentence": "M yɩɩga Burkina.",
+      "example_phonetic": "/m jɪːɡa burkina/",
+      "example_translation": "Je viens du Burkina."
+    },
+    {
+      "word_id": "v2_3",
+      "term": "Vɩɩm",
+      "phonetic_api": "/vɪːm/",
+      "phonetic_simple": "VIIM",
+      "translation": "Vie / Habiter / Vivre",
+      "example_sentence": "M bēe Wagadugu.",
+      "example_phonetic": "/m beː waɣaduɣu/",
+      "example_translation": "Je suis / j'habite à Ouagadougou."
+    },
+    {
+      "word_id": "v2_4",
+      "term": "Yuumde",
+      "phonetic_api": "/juːmde/",
+      "phonetic_simple": "YOOM-DÉ",
+      "translation": "Année / Âge",
+      "example_sentence": "M tara yuum pɩɩga.",
+      "example_phonetic": "/m tara juːm pɪːɣa/",
+      "example_translation": "J'ai dix ans."
+    },
+    {
+      "word_id": "v2_5",
+      "term": "Tūumda",
+      "phonetic_api": "/tuːmda/",
+      "phonetic_simple": "TOOM-DA",
+      "translation": "Travailleur / Profession",
+      "example_sentence": "M yaa karen-saãmba.",
+      "example_phonetic": "/m jaː karensãːmba/",
+      "example_translation": "Je suis enseignant."
+    },
+    {
+      "word_id": "v2_6",
+      "term": "Karen-biiga",
+      "phonetic_api": "/karenbɪːɣa/",
+      "phonetic_simple": "KA-REN-BII-GA",
+      "translation": "Élève / Étudiant",
+      "example_sentence": "M yaa karen-biiga.",
+      "example_phonetic": "/m jaː karenbɪːɣa/",
+      "example_translation": "Je suis étudiant."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p2_1",
+      "original": "Y fãan yūur yaa wãnmana ?",
+      "phonetic_api": "/i fãːn juːr jaː wãnmãna/",
+      "phonetic_simple": "I FAAN YOO-R YAA WAN-MA-NA",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Question directe pour demander l'identité de quelqu'un."
+    },
+    {
+      "phrase_id": "p2_2",
+      "original": "M yūur yaa Sawadogo.",
+      "phonetic_api": "/m juːr jaː sawadoɣo/",
+      "phonetic_simple": "M YOO-R YAA SA-WA-DO-GO",
+      "translation": "Mon nom est Sawadogo.",
+      "context": "Structure standard pour donner son nom de famille ou son prénom."
+    },
+    {
+      "phrase_id": "p2_3",
+      "original": "Yɩɩgẽ la yâe ?",
+      "phonetic_api": "/jɪːɡẽ la jãːe/",
+      "phonetic_simple": "YII-GUE LA YAAE",
+      "translation": "D'où viens-tu ? / Quelle est ton origine ?",
+      "context": "Demande de provenance géographique."
+    },
+    {
+      "phrase_id": "p2_4",
+      "original": "M yaa nē-Burkina.",
+      "phonetic_api": "/m jaː ne burkina/",
+      "phonetic_simple": "M YAA NÉ-BUR-KI-NA",
+      "translation": "Je suis Burkinabè.",
+      "context": "Façon d'exprimer sa nationalité en utilisant le préfixe 'nē'."
+    },
+    {
+      "phrase_id": "p2_5",
+      "original": "Y tara yuum a wãna ?",
+      "phonetic_api": "/i tara juːm a wãna/",
+      "phonetic_simple": "I TA-RA YOOM A WAN-NA",
+      "translation": "Quel âge as-tu ?",
+      "context": "Question sur l'âge au cours d'une présentation formelle."
+    },
+    {
+      "phrase_id": "p2_6",
+      "original": "M tara yuum piig la tãabo.",
+      "phonetic_api": "/m tara juːm pɪːɣ la tãːbo/",
+      "phonetic_simple": "M TA-RA YOOM PII-G LA TAA-BO",
+      "translation": "J'ai treize ans.",
+      "context": "Déclaration de son âge."
+    },
+    {
+      "phrase_id": "p2_7",
+      "original": "Bōe la y tūumde ?",
+      "phonetic_api": "/boːe la i tuːmde/",
+      "phonetic_simple": "BÓOE LA I TOOM-DÉ",
+      "translation": "Quel est ton travail ? / Que fais-tu ?",
+      "context": "Question sur l'occupation ou le statut professionnel."
+    },
+    {
+      "phrase_id": "p2_8",
+      "original": "M yaa koasda.",
+      "phonetic_api": "/m jaː koːsda/",
+      "phonetic_simple": "M YAA KOAS-DA",
+      "translation": "Je suis commerçant.",
+      "context": "Réponse indiquant l'activité professionnelle."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le verbe d'état 'yaa' (être)",
+      "explanation": "Le mooré utilise le morphème invariable 'yaa' pour lier un sujet à un attribut (nom, nationalité, profession). Contrairement au français, il ne change jamais de forme selon la personne ou le nombre.",
+      "rules": [
+        "La structure est fixe : [Pronom/Sujet] + yaa + [Attribut].",
+        "Pour nier cette identité, on utilise la structure négative correspondante 'ka' devant le verbe."
+      ],
+      "examples": [
+        {
+          "structure": "M + yaa + karen-biiga",
+          "phonetic_api": "/m jaː karenbɪːɣa/",
+          "meaning": "Je suis étudiant."
+        },
+        {
+          "structure": "A + yaa + koasda",
+          "phonetic_api": "/a jaː koːsda/",
+          "meaning": "Il/Elle est commerçant(e)."
+        }
+      ]
+    },
+    {
+      "concept": "Le verbe de possession 'tara' (avoir)",
+      "explanation": "Pour exprimer la possession, notamment lorsqu'on parle de l'âge ou de biens matériels, le mooré emploie le verbe 'tara'.",
+      "rules": [
+        "La structure suit l'ordre : [Sujet] + tara + [Quantité/Objet].",
+        "Le mot 'yuum' (années) précède toujours le chiffre numérique."
+      ],
+      "examples": [
+        {
+          "structure": "M + tara + yuum + [Nombre]",
+          "phonetic_api": "/m tara juːm pɪːɣa/",
+          "meaning": "J'ai dix ans (littéralement : Je possède dix ans)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Awa",
+      "text": "Y fãan yūur yaa wãnmana ?",
+      "phonetic_api": "/i fãːn juːr jaː wãnmãna/",
+      "phonetic_simple": "I FAAN YOO-R YAA WAN-MA-NA",
+      "translation": "Comment t'appelles-tu ?"
+    },
+    {
+      "speaker": "Boukari",
+      "text": "M yūur yaa Boukari. La fō ?",
+      "phonetic_api": "/m juːr jaː bukari la fo/",
+      "phonetic_simple": "M YOO-R YAA BOU-KA-RI. LA FO ?",
+      "translation": "Mon nom est Boukari. Et toi ?"
+    },
+    {
+      "speaker": "Awa",
+      "text": "M yūur yaa Awa. Yɩɩgẽ la yâe ?",
+      "phonetic_api": "/m juːr jaː awa jɪːɡẽ la jãːe/",
+      "phonetic_simple": "M YOO-R YAA A-WA. YII-GUE LA YAAE ?",
+      "translation": "Mon nom est Awa. D'où viens-tu ?"
+    },
+    {
+      "speaker": "Boukari",
+      "text": "M yɩɩgẽ la Bobo. M yaa koasda.",
+      "phonetic_api": "/m jɪːɡẽ la bobo m jaː koːsda/",
+      "phonetic_simple": "M YII-GUE LA BO-BO. M YAA KOAS-DA",
+      "translation": "Je viens de Bobo-Dioulasso. Je suis commerçant."
+    }
+  ],
+  "cultural_notes": [
+    "Au Burkina Faso, le nom de famille (le 'koore') porte une histoire géographique et sociale forte. Des noms comme Ouedraogo, Sawadogo ou Barry indiquent souvent une lignée ou une région d'origine précise.",
+    "Il est d'usage, lors des présentations formelles, de décliner d'abord sa région ou sa ville d'origine avant de mentionner son lieu de résidence actuel.",
+    "La politesse veut qu'on retourne immédiatement la question à son interlocuteur avec la formule courte 'La fō ?' (Et toi ?) pour maintenir l'équilibre de la conversation."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex2_1",
+      "type": "multiple_choice",
+      "question": "Quelle phrase permet de dire correctement 'Je suis enseignant' ?",
+      "options": [
+        "M yaa koasda",
+        "M yaa karen-saãmba",
+        "M tara yuum pɩɩga"
+      ],
+      "correct_answer": "M yaa karen-saãmba",
+      "explanation": "'Karen-saãmba' désigne l'enseignant ou le maître d'école."
+    },
+    {
+      "exercise_id": "ex2_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "M yūur [ ___ ] Awa.",
+      "correct_answer": "yaa",
+      "hint": "Le verbe 'être' invariant servant à introduire une identité."
+    }
+  ]
+}

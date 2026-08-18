@@ -1,0 +1,277 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché/restaurant) en chinois mandarin",
+  "learning_objectives": [
+    "Savoir exprimer ses désirs et ses besoins à l'aide des verbes modal 想 (xiǎng) et 要 (yào)",
+    "Nommer les principaux types d'aliments, de viandes et de boissons essentiels",
+    "Passer une commande au restaurant ou demander la facture de manière autonome",
+    "Maîtriser les classificateurs de contenants spécifiques : 杯 (bēi), 碗 (wǎn), 盘 (pán)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon est centrée sur des verbes d'action et des substantifs culinaires fondamentaux. Le verbe 吃 (chī - manger) exige une consonne affriquée rétroflexe sourde aspirée /tʂʰ/ combinée à la voyelle rétroflexe /ɨ/ au premier ton haut et plat : un souffle d'air puissant doit être expulsé avec la langue enroulée vers le palais. Le mot 肉 (ròu - viande) fait intervenir la fricative rétroflexe sonore /ʐ/, proche d'un 'j' français mais prononcé avec le bout de la langue replié vers l'arrière.",
+    "common_pitfalls": "Ne confondez pas le verbe 喝 (hē - boire, 1er ton) avec le verbe 河 (hé - rivière, 2ème ton). La consonne 'h' de 喝 doit être légèrement frictionnée au fond de la gorge /x/. Veillez également à ne pas prononcer le 'j' de 米饭 (mǐfàn) ou 饺子 (jiǎozi) comme un 'z' ou un 'j' français : c'est une affriquée alvéolo-palatale non aspirée /tɕ/, comparable à un 'dj' très court et palatalisé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "想",
+      "phonetic_api": "/ɕi̯aŋ˨˩˦/",
+      "phonetic_simple": "CHIANG",
+      "translation": "Vouloir (au conditionnel : aimerait) / Penser",
+      "example_sentence": "我想喝一杯热茶。",
+      "example_phonetic": "/wo˧˥ ɕi̯aŋ˨˩˦ xɤ˥ i˥ beɪ̯˥ rɤ˥˩ tʂʰa˧˥/",
+      "example_translation": "J'aimerais boire une tasse de thé chaud."
+    },
+    {
+      "word_id": "v2",
+      "term": "要",
+      "phonetic_api": "/jaʊ̯˥˩/",
+      "phonetic_simple": "YAO",
+      "translation": "Vouloir (affirmatif/direct) / Devoir / Falloir",
+      "example_sentence": "我要一碗牛肉面。",
+      "example_phonetic": "/wo˨˩˦ jaʊ̯˥˩ i˥ wan˨˩˦ ni̯oʊ̯˧˥ ʐoʊ̯˥˩ mi̯ɛn˥˩/",
+      "example_translation": "Je veux un bol de nouilles au bœuf."
+    },
+    {
+      "word_id": "v3",
+      "term": "吃",
+      "phonetic_api": "/tʂʰʐ̩˥/",
+      "phonetic_simple": "TCHEI",
+      "translation": "Manger",
+      "example_sentence": "你不喜欢吃米饭吗？",
+      "example_phonetic": "/ni˨˩˦ bu˥˩ ʂʐʐ˥˩ ɕi˧˥ xwan tʂʰʐ̩˥ mǐ˥ fàn˥˩ ma/",
+      "example_translation": "Tu n'aimes pas manger du riz ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "喝",
+      "phonetic_api": "/xɤ˥/",
+      "phonetic_simple": "HEU",
+      "translation": "Boire",
+      "example_sentence": "服务员，我想喝冰水。",
+      "example_phonetic": "/fu˧˥ wu˥˩ ɥ̯ɛn˧˥ wo˨˩˦ ɕi̯aŋ˨˩˦ xɤ˥ biŋ˥ ʂwreɪ̯˨˩˦/",
+      "example_translation": "Serveur, j'aimerais boire de l'eau glacée."
+    },
+    {
+      "word_id": "v5",
+      "term": "菜",
+      "phonetic_api": "/tsʰaɪ̯˥˩/",
+      "phonetic_simple": "TSAÏ",
+      "translation": "Plat / Cuisine / Légume",
+      "example_sentence": "中国菜很好吃。",
+      "example_phonetic": "/tʂʊŋ˥ kwo˧˥ tsʰaɪ̯˥˩ xən˨˩˦ xaʊ̯˨˩˦ tʂʰʐ̩˥/",
+      "example_translation": "La cuisine chinoise est délicieuse."
+    },
+    {
+      "word_id": "v6",
+      "term": "买单",
+      "phonetic_api": "/maɪ̯˨˩˦ tan˥/",
+      "phonetic_simple": "MAÏ-DAN",
+      "translation": "Payer l'addition / Régler le compte",
+      "example_sentence": "服务员，买单！",
+      "example_phonetic": "/fu˧˥ wu˥˩ ɥ̯ɛn˧˥ maɪ̯˨˩˦ tan˥/",
+      "example_translation": "Serveur, l'addition s'il vous plaît !"
+    },
+    {
+      "word_id": "v7",
+      "term": "点菜",
+      "phonetic_api": "/ti̯ɛn˨˩˦ tsʰaɪ̯˥˩/",
+      "phonetic_simple": "TIEN-TSAÏ",
+      "translation": "Commander des plats",
+      "example_sentence": "我们现在点菜吧。",
+      "example_phonetic": "/wo˨˩˦ mən ɕi̯ɛn˥˩ dzaɪ̯˥˩ ti̯ɛn˨˩˦ tsʰaɪ̯˥˩ ba/",
+      "example_translation": "Commandons les plats maintenant."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "服务员，请给我菜单。",
+      "phonetic_api": "/fu˧˥ wu˥˩ ɥ̯ɛn˧˥ tɕʰiŋ˨˩˦ kʰeɪ̯˨˩˦ wo˨˩˦ tsʰaɪ̯˥˩ tan˥/",
+      "phonetic_simple": "FOU-OU-YUEN, TCHING GEI OUO TSAÏ-DAN",
+      "translation": "Serveur, s'il vous plaît donnez-moi le menu.",
+      "context": "En s'asseyant à une table au restaurant"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "你想要吃点儿什么？",
+      "phonetic_api": "/ni˨˩˦ ɕi̯aŋ˨˩˦ jaʊ̯˥˩ tʂʰʐ̩˥ ti̯ɛn  r ʂən˧˥ mɤ/",
+      "phonetic_simple": "NEE CHIANG-YAO TCHEI DIER CHEN-MEU ?",
+      "translation": "Qu'aimerais-tu manger un peu ?",
+      "context": "Demander ses préférences culinaires à un ami"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "我要一盘炒饭和一碗酸辣汤。",
+      "phonetic_api": "/wo˨˩˦ jaʊ̯˥˩ i˥ pʰaŋ˧˥ tʂʰaʊ̯˨˩˦ fan˥˩ xɤ˧˥ i˥ wan˨˩˦ swan˥ la˥˩ tʰaŋ˥/",
+      "phonetic_simple": "OUO YAO EE PHANG TCHAO-FAN HEU EE OUAN SOUAN-LA-THONG",
+      "translation": "Je voudrais une assiette de riz sauté et un bol de soupe aigre-piquante.",
+      "context": "Énoncer précisément sa commande au serveur"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "请不要放辣椒，我不吃辣。",
+      "phonetic_api": "/tɕʰiŋ˨˩˦ bu˥˩ jaʊ̯˥˩ faŋ˥˩ la˥ tɕi̯aʊ̯˥ wo˨˩˦ bu˥˩ tʂʰʐ̩˥ la˥˩/",
+      "phonetic_simple": "TCHING BOU YAO FANG LA-TCHIAO, OUO BOU TCHEI LA",
+      "translation": "S'il vous plaît, ne mettez pas de piment, je ne mange pas épicé.",
+      "context": "Indiquer une restriction ou préférence alimentaire capitale"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "您想喝什么饮料？",
+      "phonetic_api": "/nin˧˥ ɕi̯aŋ˨˩˦ xɤ˥ ʂən˧˥ mɤ iŋ˨˩˦ ljaʊ̯˥˩/",
+      "phonetic_simple": "NEEN CHIANG HEU CHEN-MEU IN-LIAO ?",
+      "translation": "Quelle boisson souhaiteriez-vous boire ?",
+      "context": "Question classique posée par le personnel de service"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "请来一瓶中国啤酒和一杯冰水。",
+      "phonetic_api": "/tɕʰiŋ˨˩˦ laɪ̯˧˥ i˥ pʰiŋ˧˥ tʂʊŋ˥ kwo˧˥ pʰi˧˥ tɕi̯u˨˩˦ xɤ˧˥ i˥ beɪ̯˥ biŋ˥ ʂwreɪ̯˨˩˦/",
+      "phonetic_simple": "TCHING LAÏ EE PHING TCHONG-GOUO PHI-TCHIOU HEU EE BEI BIING-CHOUAY",
+      "translation": "S'il vous plaît, apportez une bouteille de bière chinoise et un verre d'eau glacée.",
+      "context": "Commander des rafraîchissements"
+    },
+    {
+      "phrase_id": "p7",
+      "original": "这个菜很好吃，我很喜欢。",
+      "phonetic_api": "/tʂɤ˥˩ kɤ tsʰaɪ̯˥˩ xən˨˩˦ xaʊ̯˨˩˦ tʂʰʐ̩˥ wo˨˩˦ xən˨˩˦ ɕi˧˥ xwan/",
+      "phonetic_simple": "TCHEU-GEU TSAÏ HEUN HAO-TCHEI, OUO HEUN TCHEE-HOUAN",
+      "translation": "Ce plat est délicieux, je l'aime beaucoup.",
+      "context": "Exprimer sa satisfaction au cours du repas"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Nuance d'intensité entre les verbes modaux 想 (xiǎng) et 要 (yào)",
+      "explanation": "Pour formuler une demande ou exprimer un désir en situation de commande, le choix du verbe modal modifie le niveau de politesse et le caractère impératif de la requête.",
+      "rules": [
+        "想 (xiǎng) exprime une intention, un souhait adouci. Il équivaut au conditionnel français 'je voudrais' ou 'j'aimerais'. C'est le choix le plus courtois.",
+        "要 (yào) exprime une volonté ferme, un besoin direct ou une décision arrêtée. Il se traduit par 'je veux'. C'est la forme standard et fonctionnelle pour passer commande auprès d'un serveur sans paraître impoli."
+      ],
+      "examples": [
+        {
+          "structure": "我想吃饺子 (Wǒ xiǎng chī jiǎozi)",
+          "phonetic_api": "/wo˨˩˦ ɕi̯aŋ˨˩˦ tʂʰʐ̩˥ tɕi̯aʊ̯˨˩˦ tsi/",
+          "meaning": "J'aimerais manger des raviolis chinois (souhait sous-jacent)."
+        },
+        {
+          "structure": "我要一碗米饭 (Wǒ yào yī wān mǐfàn)",
+          "phonetic_api": "/wo˨˩˦ jaʊ̯˥˩ i˥ wan˨˩˦ mǐ˥ fàn˥˩/",
+          "meaning": "Je veux un bol de riz (action de commande immédiate)."
+        }
+      ]
+    },
+    {
+      "concept": "L'usage des classificateurs de contenants : 杯 (bēi), 碗 (wǎn), 盘 (pán)",
+      "explanation": "Comme étudié précédemment, les noms d'aliments et de liquides ne peuvent être précédés directement par un chiffre. Au restaurant, ce sont les récipients qui font office de classificateurs quantitatifs.",
+      "rules": [
+        "Structure nominale quantitative : Chiffre + Classificateur contenant + Nom de l'aliment/liquide.",
+        "杯 (bēi) s'applique aux verres, tasses et tasses de liquide.",
+        "碗 (wǎn) s'applique aux bols (riz, soupes, nouilles).",
+        "盘 (pán) s'applique aux assiettes et plats de nourriture solide."
+      ],
+      "examples": [
+        {
+          "structure": "三 (3) + 杯 (verres) + 绿茶 (Thé vert) = 三杯绿茶",
+          "phonetic_api": "/san˥ beɪ̯˥ ly˥˩ tʂʰa˧˥/",
+          "meaning": "Trois verres de thé vert."
+        },
+        {
+          "structure": "两 (2) + 盘 (assiettes) + 炒面 (Nouilles sautées) = 两盘炒面",
+          "phonetic_api": "/li̯aŋ˨˩˦ pʰaŋ˧˥ tʂʰaʊ̯˨˩˦ mi̯ɛn˥˩/",
+          "meaning": "Deux assiettes de nouilles sautées (Notez l'usage obligatoire de 两)."
+        }
+      ]
+    },
+    {
+      "concept": "La construction de l'adjectif qualificatif verbal '好吃' (hǎochī)",
+      "explanation": "En mandarin, de nombreux adjectifs se forment logiquement en associant le préfixe 好 (hǎo - bon/bien) à un verbe d'action sensorielle.",
+      "rules": [
+        "好 (hǎo) + 吃 (manger) = 好吃 (hǎochī - délicieux pour la nourriture solide).",
+        "好 (hǎo) + 喝 (boire) = 好喝 (hǎohē - délicieux pour une boisson/liquide)."
+      ],
+      "examples": [
+        {
+          "structure": "这个汤很好喝 (Zhège tāng hěn hǎohē)",
+          "phonetic_api": "/tʂɤ˥˩ kɤ tʰaŋ˥ xən˨˩˦ xaʊ̯˨˩˦ xɤ˥/",
+          "meaning": "Cette soupe est très bonne à boire."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "服务员 (Serveur)",
+      "text": "欢迎光临！请问你们几位？想点点儿什么？",
+      "phonetic_api": "/xwan˥˩ iŋ˧˥ kwaŋ˥ liŋ˧˥ tɕʰiŋ˨˩˦ wen˥˩ ni˨˩˦ mən tɕi˨˩˦ weɪ̯˥˩ ɕi̯aŋ˨˩˦ ti̯ɛn ti̯ɛn  r ʂən˧˥ mɤ/",
+      "phonetic_simple": "HOUAN-ING GOUANG-LING ! TCHING-OUEN NEE-MEN TCHEE WEI ? CHIANG TIEN DIER CHEN-MEU ?",
+      "translation": "Bienvenue ! S'il vous plaît, vous êtes combien de personnes ? Qu'aimeriez-vous commander ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "两位。请给我菜单。我想吃中国菜。",
+      "phonetic_api": "/li̯aŋ˨˩˦ weɪ̯˥˩ tɕʰiŋ˨˩˦ kʰeɪ̯˨˩˦ wo˨˩˦ tsʰaɪ̯˥˩ tan˥ wo˨˩˦ ɕi̯aŋ˨˩˦ tʂʰʐ̩˥ tʂʊŋ˥ kwo˧˥ tsʰaɪ̯˥˩/",
+      "phonetic_simple": "LIANG WEI. TCHING GEI OUO TSAÏ-DAN. OUO CHIANG TCHEI TCHONG-GOUO TSAÏ.",
+      "translation": "Deux personnes. S'il vous plaît, donnez-moi le menu. Je voudrais manger de la cuisine chinoise."
+    },
+    {
+      "speaker": "服务员 (Serveur)",
+      "text": "好。这是我们的菜单。这个牛肉和烤鸭都很好吃。",
+      "phonetic_api": "/xaʊ̯˨˩˦ tʂʐ̩˥˩ ʂʐʐ˥˩ wo˨˩˦ mən dɤ tsʰaɪ̯˥˩ tan˥ tʂɤ˥˩ kɤ ni̯oʊ̯˧˥ ʐoʊ̯˥˩ xɤ˧˥ kʰaʊ̯˨˩˦ ja˥ doʊ̯˥ xən˨˩˦ xaʊ̯˨˩˦ tʂʰʐ̩˥/",
+      "phonetic_simple": "HAO. TCHEU CHEI OUO-MEN DEU TSAÏ-DAN. TCHEU-GEU NIOU-ROU HEU KAO-YA DOU HEUN HAO-TCHEI.",
+      "translation": "Bien. Voici notre menu. Ce bœuf et ce canard laqué sont tous deux délicieux."
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "谢谢。那公公我要一盘牛肉，一盘烤鸭和两碗米饭。不要辣。",
+      "phonetic_api": "/ɕi̯ɛ˥˩ ɕi̯ɛ na˥˩ wo˨˩˦ jaʊ̯˥˩ i˥ pʰaŋ˧˥ ni̯oʊ̯˧˥ ʐoʊ̯˥˩ i˥ pʰaŋ˧˥ kʰaʊ̯˨˩˦ ja˥ xɤ˧˥ li̯aŋ˨˩˦ wan˨˩˦ mǐ˥ fàn˥˩ bu˥˩ jaʊ̯˥˩ la˥˩/",
+      "phonetic_simple": "CHIEH-CHIEH. NA OUO YAO EE PHANG NIOU-ROU, EE PHANG KAO-YA HEU LIANG OUAN MEE-FAN. BOU YAO LA.",
+      "translation": "Merci. Alors je vais prendre une assiette de bœuf, une assiette de canard laqué et deux bols de riz. Ne faites pas épicé."
+    },
+    {
+      "speaker": "服务员 (Serveur)",
+      "text": "没问题。想喝点什么饮料吗？",
+      "phonetic_api": "/meɪ̯˧˥ wen˥˩ tʰi˧˥ ɕi̯aŋ˨˩˦ xɤ˥ ti̯ɛn ʂən˧˥ mɤ iŋ˨˩˦ ljaʊ̯˥˩ ma/",
+      "phonetic_simple": "MEI OUEN-THEE. CHIANG HEU DIER CHEN-MEU IN-LIAO MA ?",
+      "translation": "Pas de problème. Désirez-vous boire des boissons ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "请来一壶热绿茶，谢谢。",
+      "phonetic_api": "/tɕʰiŋ˨˩˦ laɪ̯˧˥ i˥ xu˧˥ rɤ˥˩ ly˥˩ tʂʰa˧˥ ɕi̯ɛ˥˩ ɕi̯ɛ/",
+      "phonetic_simple": "TCHING LAÏ EE HOU RÉ LY-TSAÏ, CHIEH-CHIEH.",
+      "translation": "S'il vous plaît, apportez une théière de thé vert chaud, merci."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les restaurants en Chine continentale, l'appel '服务员！' (fúwùyuán - Serveur !) est lancé à haute voix de manière très directe pour attirer l'attention du personnel. Cela n'est absolument pas perçu comme impoli ou agressif, contrairement aux usages feutrés de la restauration occidentale.",
+    "La culture du partage est la norme absolue : les plats commandés sont placés au centre de la table, souvent sur un plateau tournant en verre (Lazy Susan), et chaque convive se sert directement à l'aide de ses baguettes. Le bol de riz individuel ('米饭') sert de base d'accompagnement.",
+    "L'eau froide ou glacée n'est traditionnellement pas servie à table. Les Chinois consomment presque exclusivement de l'eau chaude filtrée ('热水' rèshuǐ) ou du thé chaud pendant les repas, car la médecine traditionnelle chinoise considère que le froid nuit au processus de digestion."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la formulation idéale pour demander deux tasses de thé vert chaud à votre table ?",
+      "options": [
+        "我要二杯绿茶 (Wǒ yào èr bēi lǜchá)",
+        "我想来两杯热绿茶 (Wǒ xiǎng lái liǎng bēi rè lǜchá)",
+        "两碗热绿茶 (Liǎng wǎn rè lǜchá)"
+      ],
+      "correct_answer": "我想来两杯热绿茶 (Wǒ xiǎng lái liǎng bēi rè lǜchá)",
+      "explanation": "L'utilisation du verbe modal de souhait '想' combiné avec '两' (obligatoire pour quantifier) et le classificateur des verres/tasses '杯' forme la demande de politesse parfaite."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "这个苹果很好[ ___ ]，甜甜的。",
+      "correct_answer": "吃",
+      "hint": "Adjectif requis pour indiquer qu'un aliment solide a un excellent goût."
+    }
+  ]
+}

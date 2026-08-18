@@ -1,0 +1,122 @@
+{
+  "lesson_id": "B1_M3_L9",
+  "level": "Niveau Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 9,
+  "title": "Demander et donner des conseils ou des instructions",
+  "learning_objectives": [
+    "Demander une recommandation ou un conseil face à un problème",
+    "Donner des instructions claires ou des directives de manière directive",
+    "Employer les formules de bienveillance pour guider un proche"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La structure directive emploie souvent l'impératif nu. Le mot 'maaluon' (s'il te plaît) adoucit l'instruction par un ton descendant fluide.",
+    "common_pitfalls": "Attention à ne pas utiliser l'auxiliaire 'co' lors d'une instruction impérative directe, au risque de transformer l'ordre en une simple description présente."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v18_1",
+      "term": "dimul",
+      "phonetic_api": "/di.mul/",
+      "phonetic_simple": "DI-MOUL",
+      "translation": "dire à / conseiller / informer quelqu'un",
+      "example_sentence": "Dimul mi ndoo ni.",
+      "example_phonetic": "/di.mul mi ⁿdoː ni/",
+      "example_translation": "Dis-moi / indique-moi le chemin."
+    },
+    {
+      "word_id": "v18_2",
+      "term": "lɔ",
+      "phonetic_api": "/lɔ/",
+      "phonetic_simple": "LO",
+      "translation": "prendre / suivre (une direction/instruction)",
+      "example_sentence": "Lɔ fassa wa.",
+      "example_phonetic": "/lɔ fa.sa wa/",
+      "example_translation": "Prends ce côté."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p18_1",
+      "original": "Dimul mi, wali yɛŋ i nɔ i co ?",
+      "phonetic_api": "/di.mul mi wa.li jɛŋ i nɔ i tʃo/",
+      "phonetic_simple": "DI-MOUL MI, WA-LI YENG I NO I TCHO ?",
+      "translation": "Conseille-moi, quel travail dois-je faire ?",
+      "context": "Demander un conseil d'orientation"
+    },
+    {
+      "phrase_id": "p18_2",
+      "original": "Lɔ ndoo ciao maaluon.",
+      "phonetic_api": "/lɔ ⁿdoː tʃja.o maː.lu.õ/",
+      "phonetic_simple": "LO NDOO TCHIA-O MAA-LOU-ONN",
+      "translation": "Suis le chemin du marché s'il te plaît.",
+      "context": "Donner une instruction de déplacement"
+    },
+    {
+      "phrase_id": "p18_3",
+      "original": "Wali noo co kpou kpou.",
+      "phonetic_api": "/wa.li noː tʃo kpu kpu/",
+      "phonetic_simple": "WA-LI NOO TCHO KPOU KPOU",
+      "translation": "Fais ton travail très bien.",
+      "context": "Donner une consigne de rigueur"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'impératif direct pour donner des instructions",
+      "explanation": "En kissi, l'impératif se forme de manière extrêmement simple en utilisant le radical verbal nu en tête de phrase, sans pronom sujet devant lui.",
+      "rules": [
+        "Pas de pronom sujet à la deuxième personne du singulier.",
+        "L'ajout de 'maaluon' (s'il te plaît) en fin d'énoncé tempère l'autorité de l'ordre."
+      ],
+      "examples": [
+        {
+          "structure": "Verbe au radical + Complément",
+          "phonetic_api": "/mɛl mɛ̃/",
+          "meaning": "Bois de l'eau !"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Saa",
+      "text": "Faya, dimul mi, i co lo ciao loolu, ndoo vɛ i nɔ i lɔ ?",
+      "phonetic_api": "/fa.ja di.mul mi i tʃo lo tʃja.o loː.lu ⁿdoː vɛ i nɔ i lɔ/",
+      "phonetic_simple": "FAYA, DI-MOUL MI, I TCHO LO TCHIA-O LOO-LOU, NDOO VÈ I NO I LO ?",
+      "translation": "Faya, conseille-moi, je veux aller au marché, quel chemin dois-je prendre ?"
+    },
+    {
+      "speaker": "Faya",
+      "text": "Lɔ ndoo bɛndɛ fassa wa. O co cɔɔ le.",
+      "phonetic_api": "/lɔ ⁿdoː bɛⁿdɛ fa.sa wa o tʃo tʃɔː le/",
+      "phonetic_simple": "LO NDOO BEN-DE FAS-SA WA. O TCHO TCHOO LÉ.",
+      "translation": "Prends le grand chemin de ce côté. Ce n'est pas long."
+    }
+  ],
+  "cultural_notes": [
+    "Demander un conseil ('dimul mi') auprès d'un oncle maternel ou d'un ancien est un réflexe social fort chez les Kissi. On considère que la sagesse réside dans l'expérience collective et l'écoute des aînés."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex18_1",
+      "type": "multiple_choice",
+      "question": "Comment se forme l'impératif à la deuxième personne en kissi ?",
+      "options": [
+        "En utilisant l'auxiliaire 'co'",
+        "En plaçant le radical verbal nu en tête de phrase",
+        "En ajoutant systématiquement 'ning'"
+      ],
+      "correct_answer": "En plaçant le radical verbal nu en tête de phrase",
+      "explanation": "L'impératif omet le pronom sujet et démarre directement par le verbe."
+    },
+    {
+      "exercise_id": "ex18_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] mi ndoo ni. (Indique-moi / dis-moi le chemin)",
+      "correct_answer": "Dimul",
+      "hint": "Verbe dire à / informer quelqu'un"
+    }
+  ]
+}

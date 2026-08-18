@@ -1,0 +1,123 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques",
+  "learning_objectives": [
+    "Maîtriser la prononciation des consonnes doubles particulières (kp, gb, ɓ)",
+    "Distinguer les voyelles orales des voyelles nasales"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne implosive /ɓ/ requiert une légère aspiration de l'air vers l'intérieur lors de l'ouverture des lèvres, à la différence du /b/普通.",
+    "common_pitfalls": "Évitez de prononcer /kp/ en deux étapes distinctes. Fermez les lèvres et le voile du palais en même temps, puis relâchez."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v3_1",
+      "term": "ɓaa",
+      "phonetic_api": "/ɓaː/",
+      "phonetic_simple": "BAA (implosif)",
+      "translation": "grand / grandir",
+      "example_sentence": "Kêe ɓaa ni.",
+      "example_phonetic": "/kɛ̂ː ɓaː ni/",
+      "example_translation": "C'est le grand père (l'aîné)."
+    },
+    {
+      "word_id": "v3_2",
+      "term": "gbala",
+      "phonetic_api": "/ɡba.la/",
+      "phonetic_simple": "GBA-LA",
+      "translation": "griller / sécher",
+      "example_sentence": "I ma-gbala.",
+      "example_phonetic": "/i ma.ɡba.la/",
+      "example_translation": "Fais sécher cela."
+    },
+    {
+      "word_id": "v3_3",
+      "term": "kpaté",
+      "phonetic_api": "/kpa.te/",
+      "phonetic_simple": "KPA-TE",
+      "translation": "arranger / fabriquer",
+      "example_sentence": "Kpaté vaza.",
+      "example_phonetic": "/kpa.te va.za/",
+      "example_translation": "Fabrique-le bien."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p3_1",
+      "original": "Ɓala ma.",
+      "phonetic_api": "/ɓa.la ma/",
+      "phonetic_simple": "BALA MA",
+      "translation": "Regarde ici.",
+      "context": "Ordre ou invitation à diriger son attention visuelle vers un objet."
+    },
+    {
+      "phrase_id": "p3_2",
+      "original": "Kpɛ dɛ̀ lɔ.",
+      "phonetic_api": "/kpɛ dɛ̀ lɔ/",
+      "phonetic_simple": "KPE DE LO",
+      "translation": "Laisse tomber / C'est fini.",
+      "context": "Expression pour clore une discussion ou minimiser un problème."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La corrélation de sonorité et les mutations de consonnes",
+      "explanation": "En toma, la consonne initiale d'un nom ou d'un verbe peut changer (muter) selon le pronom ou le mot qui la précède pour faciliter la prononciation.",
+      "rules": [
+        "Une consonne sourde comme /k/ se transforme souvent en consonne sonore /g/ ou /ɣ/ après un pronom nasal.",
+        "C'est un principe d'harmonie consonantique fondamental."
+      ],
+      "examples": [
+        {
+          "structure": "pére -> na vére",
+          "phonetic_api": "/pe.re/ -> /na ve.re/",
+          "meaning": "maison -> ma maison"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Maitre",
+      "text": "Ɓala ma, i ɓo?",
+      "phonetic_api": "/ɓa.la ma i ɓo/",
+      "phonetic_simple": "BALA MA, I BO?",
+      "translation": "Regarde ici, as-tu compris ?"
+    },
+    {
+      "speaker": "Élève",
+      "text": "Owo, na ɓo gba.",
+      "phonetic_api": "/o.wo na ɓo ɡba/",
+      "phonetic_simple": "O-WO, NA BO GBA",
+      "translation": "Oui, j'ai tout à fait compris."
+    }
+  ],
+  "cultural_notes": [
+    "La langue Toma appartient au groupe des langues mandées de l'ouest. Sa structure phonétique riche reflète des éléments culturels partagés avec les peuples kpèlɛ et guerzé de la forêt guinéenne."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex3_1",
+      "type": "multiple_choice",
+      "question": "Quel son consonantique caractérise une articulation dite 'implosive' en toma ?",
+      "options": [
+        "kp",
+        "ɓ",
+        "g"
+      ],
+      "correct_answer": "ɓ",
+      "explanation": "Le symbole 'ɓ' désigne l'implosive bilabiale, typique de plusieurs langues africaines."
+    },
+    {
+      "exercise_id": "ex3_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] ma (Regarde ici).",
+      "correct_answer": "Ɓala",
+      "hint": "Le verbe regarder commence par l'implosive Ɓ."
+    }
+  ]
+}

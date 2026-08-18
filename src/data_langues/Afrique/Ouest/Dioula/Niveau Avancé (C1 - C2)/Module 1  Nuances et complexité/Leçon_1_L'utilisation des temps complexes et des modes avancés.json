@@ -1,0 +1,294 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés (Le conditionnel et le subjonctif)",
+  "learning_objectives": [
+    "Exprimer l'irréel du passé (le regret) et le potentiel avec le marqueur combiné 'tun bɛna'",
+    "Maîtriser le subjonctif de souhait et de bénédiction complexe avec 'ka'",
+    "Nuancer une argumentation à l'aide de structures hypothétiques imbriquées",
+    "Utiliser les particules de focalisation et d'insistance pour marquer la certitude absolue"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'association de marqueurs complexes 'tun bɛna' exige de lier parfaitement le ton bas du marqueur de passé /tuⁿ/ avec la marque de futur /bɛ.na/ sans coupure glottale. La nasale palatale /ɲ/ dans 'ɲɛman-ko' doit être prononcée de manière continue. Le ton haut sur la particule de souhait 'ka' se détache nettement du sujet.",
+    "common_pitfalls": "Attention à ne pas fusionner 'tun bɛna' en un simple 'bɛna' du futur simple lors d'un débit rapide. Cela changerait le sens d'un regret passé en une action future. Veillez également à bien expirer le /h/ de 'hali' (même si)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Tun bɛna",
+      "phonetic_api": "/tuⁿ bɛ.na/",
+      "phonetic_simple": "TOUN BÈ-NA",
+      "translation": "Marqueur du conditionnel passé (aurait / aurait dû / allait)",
+      "example_sentence": "Ni n tun ka wari sɔrɔ, n tun bɛna so-lɔ-ko jɛrɛ daminɛ",
+      "example_phonetic": "/ni n̩ tuⁿ ka wa.ri sɔ.rɔ n̩ tuⁿ bɛ.na so lɔ ko d͡ʒɛ.rɛ da.mi.nɛ/",
+      "example_translation": "Si j'avais trouvé de l'argent, j'aurais commencé la construction de ma propre maison."
+    },
+    {
+      "word_id": "v2",
+      "term": "Hali ni",
+      "phonetic_api": "/ha.li ni/",
+      "phonetic_simple": "HA-LI NI",
+      "translation": "Même si / Quand bien même (concession hypothétique)",
+      "example_sentence": "Hali ni sotigi nana, an tɛna sariyan kura nin yɛlɛma",
+      "example_phonetic": "/ha.li ni so.ti.gi na.na an tɛ.na sa.ri.jaⁿ ku.ra niⁿ jɛ.lɛ.ma/",
+      "example_translation": "Même si le propriétaire venait, nous ne modifierions pas ce nouveau règlement."
+    },
+    {
+      "word_id": "v3",
+      "term": "Mana",
+      "phonetic_api": "/ma.na/",
+      "phonetic_simple": "MA-NA",
+      "translation": "Marqueur de l'éventuel / Dès que / Une fois que (futur hypothétique)",
+      "example_sentence": "Ni an mana sega-ka-bɔ, an bɛna sigi-wari lakana kosɛbɛ",
+      "example_phonetic": "/ni an ma.na se.ɡa ka bɔ an bɛ.na si.gi wa.ri la.ka.na ko.sɛ.bɛ/",
+      "example_translation": "Dès que nous aurons réussi, nous protégerons rigoureusement notre épargne."
+    },
+    {
+      "word_id": "v4",
+      "term": "Siga-tɛ-a-la-ko",
+      "phonetic_api": "/si.ga tɛ a la ko/",
+      "phonetic_simple": "SI-GA TÈ A LA KO",
+      "translation": "Une certitude absolue / Une affaire incontestable",
+      "example_sentence": "Kalan-den-w ka yiriwali ye siga-tɛ-a-la-ko ye an fɛ",
+      "example_phonetic": "/ka.lan deⁿ.w ka ji.ri.wa.li d͡ʒɛ si.ga tɛ a la ko d͡ʒɛ an fɛ/",
+      "example_translation": "Le progrès des étudiants est une certitude absolue pour nous."
+    },
+    {
+      "word_id": "v5",
+      "term": "Kuluwa-jɛrɛ",
+      "phonetic_api": "/ku.lu.wa d͡ʒɛ.rɛ/",
+      "phonetic_simple": "KOU-LOU-WA DJÈ-RÈ",
+      "translation": "L'axe principal / La voie souveraine / L'essentiel d'une affaire",
+      "example_sentence": "Ladili nin ye an ka baara kuluwa-jɛrɛ ye",
+      "example_phonetic": "/la.di.li niⁿ d͡ʒɛ an ka baː.ra ku.ra.wa d͡ʒɛ.rɛ d͡ʒɛ/",
+      "example_translation": "Ce conseil constitue l'axe principal de notre travail."
+    },
+    {
+      "word_id": "v6",
+      "term": "Hakilitigiya-sira",
+      "phonetic_api": "/ha.ki.li.ti.gi.ja si.ra/",
+      "phonetic_simple": "HA-KI-LI-TI-GUI-YA-SI-RA",
+      "translation": "La voie de la sagesse / La méthode hautement réfléchie",
+      "example_sentence": "I ka kan ka teliya-baara kɛ ni hakilitigiya-sira ye",
+      "example_phonetic": "/i ka kaⁿ ka te.li.ja baː.ra kɛ ni ha.ki.li.ti.gi.ja si.ra jɛ/",
+      "example_translation": "Tu dois accomplir ce travail urgent selon la voie de la sagesse."
+    },
+    {
+      "word_id": "v7",
+      "term": "Wari-tigi-jɛrɛ",
+      "phonetic_api": "/wa.ri ti.gi d͡ʒɛ.rɛ/",
+      "phonetic_simple": "WA-RI-TI-GUI-DJÈ-RÈ",
+      "translation": "Le grand financier / Le bailleur de fonds principal",
+      "example_sentence": "An ka dugu wari-tigi-jɛrɛ m'a sɔn sira-di ko ma",
+      "example_phonetic": "/an ka du.gu wa.ri ti.gi d͡ʒɛ.rɛ mʼa sɔⁿ si.ra di ko ma/",
+      "example_translation": "Le bailleur de fonds principal de notre ville n'a pas accepté d'accorder l'autorisation."
+    },
+    {
+      "word_id": "v8",
+      "term": "Nafaba",
+      "phonetic_api": "/na.fa.ba/",
+      "phonetic_simple": "NA-FA-BA",
+      "translation": "Une utilité majeure / Un bénéfice immense / Un intérêt capital",
+      "example_sentence": "O kalo-di-sɛbɛn ladan-ko nin ye nafaba ye kalo natɔ la",
+      "example_phonetic": "/o ka.lo di sɛ.bɛn la.daⁿ ko niⁿ d͡ʒɛ na.fa.ba d͡ʒɛ ka.lo na.tɔ la/",
+      "example_translation": "La conception de ce planning est d'un intérêt capital pour le mois prochain."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ni n tun m'a lɔn ko wari-tɛmɛ-songo tun bɛna caya, n tun tɛna fɛn-w-san-yɔrɔ kura nin daminɛ.",
+      "phonetic_api": "/ni n̩ tuⁿ mʼa lɔⁿ ko wa.ri tɛ.mɛ sɔn.gɔ tuⁿ bɛ.na t͡ʃa.ja n̩ tuⁿ tɛ.na fɛⁿ.w saⁿ jɔ.rɔ ku.ra niⁿ da.mi.nɛ/",
+      "phrase_phonetic_simple": "NI N TOUN MA O LÕN KO WA-RI-TÈ-MÈ-SÕN-GÕ TOUN BÈ-NA TCHA-YA, N TOUN TÈ-NA FÈN-W-SAN-YÕ-RÕ KOU-RA NIN DA-MI-NÈ",
+      "translation": "Si j'avais su que les prix exorbitants allaient augmenter, je n'aurais pas ouvert cette nouvelle boutique.",
+      "context": "Exprimer un regret ou une analyse irréelle du passé."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Hali ni i mana juru bɛɛ sara sisan, sotigi tun bɛna sɛbɛn-bɛn labɛn kɛnɛ ma fana.",
+      "phonetic_api": "/ha.li ni i ma.na d͡ʒu.ru bɛː sa.ra si.saⁿ so.ti.gi tuⁿ bɛ.na sɛ.bɛn bɛn la.bɛn kɛ.nɛ ma fa.na/",
+      "phrase_phonetic_simple": "HA-LI NI I MA-NA DJOU-ROU BÈÈ SA-RA SI-SAN, SOU-TI-GI TOUN BÈ-NA SÈ-BÈN-BEN LA-BEN KÈ-NÈ MA FA-NA",
+      "translation": "M'as-tu compris ? Même si tu remboursais toute la dette maintenant, le propriétaire aurait tout de même révisé le contrat écrit ouvertement.",
+      "context": "Formuler une hypothèse concessive complexe au conditionnel."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Ala ka an hakili-di walasa an ka hakilitigiya-sira sɔgɔ-ɲuman baton kalo o kalo !",
+      "phonetic_api": "/a.la ka an ha.ki.li di wa.la.sa an ka ha.ki.li.ti.gi.ja si.ra sɔ.gɔ ɲu.maⁿ ba.toⁿ ka.lo o ka.lo/",
+      "phrase_phonetic_simple": "A-LA KA AN HA-KI-LI-DI WA-LA-SA AN KA HA-KI-LI-TI-GUI-YA-SI-RA SÕ-GÕ-GNU-MAN BA-TON KA-LO O KA-LO !",
+      "translation": "Que Dieu nous inspire afin que nous suivions parfaitement la voie de la sagesse mois après mois !",
+      "context": "Bénédiction solennelle de haut niveau (Subjonctif)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ni an mana kalo-di-sɛbɛn jɛrɛ daminɛ, teliya-baara bɛɛ bɛna kɛ siga-tɛ-a-la-ko ye.",
+      "phonetic_api": "/ni an ma.na ka.lo di sɛ.bɛn d͡ʒɛ.rɛ da.mi.nɛ te.li.ja baː.ra bɛː bɛ.na kɛ si.ga tɛ a la ko d͡ʒɛ/",
+      "phrase_phonetic_simple": "NI AN MA-NA KA-LO-DI-SÈ-BÈN DJÈ-RÈ DA-MI-NÈ, TÉ-LI-YA-BAA-RA BÈÈ BÈ-NA KÈ SI-GA-TÈ-A-LA-KO YÈ",
+      "translation": "Dès que nous aurons mis en place le planning lui-même, la réussite de toutes les tâches urgentes deviendra une certitude absolue.",
+      "context": "Structurer une projection future avec un marqueur temporel avancé."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "O ladili-kan kuluwa-jɛrɛ tun bɛna kalan-den-w gbali ka gasi-tɛ-na sɔrɔ kalan-so kɔnɔ kunon.",
+      "phonetic_api": "/o la.di.li kaⁿ ku.ra.wa d͡ʒɛ.rɛ tuⁿ bɛ.na ka.lan deⁿ.w g͡ba.li ka ga.si tɛ na sɔ.rɔ ka.lan so kɔ.nɔ ku.noⁿ/",
+      "phrase_phonetic_simple": "O LA-DI-LI-KAN KOU-LOU-WA-DJÈ-RÈ TOUN BÈ-NA KA-LAN-DEN-W GBALI KA GA-SI-TÈ-NA SÕ-RÕ KA-LAN-SO KÕ-NÕ KOU-NON",
+      "translation": "L'axe principal de cette recommandation aurait évité aux étudiants de faire preuve d'indifférence hier à l'université.",
+      "context": "Analyser de manière rétrospective une situation manquée."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Ni wari-tigi-jɛrɛ mana sira-di an ma, an ka lajɛ-ko bɛna kɛ nafaba ye sugu kɔnɔ.",
+      "phonetic_api": "/ni wa.ri ti.gi d͡ʒɛ.rɛ ma.na si.ra di an ma an ka la.d͡ʒɛ ko bɛ.na kɛ na.fa.ba d͡ʒɛ su.gu kɔ.nɔ/",
+      "phrase_phonetic_simple": "NI WA-RI-TI-GUI-DJÈ-RÈ MA-NA SI-RA-DI AN MA, AN KA LA-DJÈ-KO BÈ-NA KÈ NA-FA-BA YÈ SOU-GOU KÕ-NÕ",
+      "translation": "Si le bailleur de fonds principal nous accorde son autorisation, notre projet sera d'une utilité majeure sur le marché.",
+      "context": "Présenter un plan stratégique soumis à condition éventuelle."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Hali ni baara-sɛgɛ nana caya, n tun bɛna n fari bɔ mɔgɔ-w fɛ sɔgɔma-o-sɔgɔma k'a bɛn ni an ka sariyan ye.",
+      "phonetic_api": "/ha.li ni baː.ra sɛ.gɛ na.na t͡ʃa.ja n̩ tuⁿ bɛ.na n̩ fa.ri bɔ mɔ.gɔ.w fɛ sɔ.gɔ.ma o sɔ.gɔ.ma kʼa bɛⁿ ni an ka sa.ri.jaⁿ d͡ʒɛ/",
+      "phrase_phonetic_simple": "HA-LI NI BAA-RA-SÈ-GUÈ NA-NA TCHA-YA, N TOUN BÈ-NA N FA-RI BÕ MÕ-GÕ-W FÈ SÕ-GÕ-MA-O-SÕ-GÕ-MA KA BEN NI AN KA SA-RI-YAN YÈ",
+      "translation": "Quand bien même l'épuisement professionnel augmenterait, j'aurais salué les gens chaque matin conformément à notre règlement.",
+      "context": "Affirmer la constance de ses principes malgré l'adversité."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Siga-tɛ-a-la-ko ye : ni an mana sigi-wari ladan, sariyan tɛna an gbali ka sega-ka-bɔ.",
+      "phonetic_api": "/si.ga tɛ a la ko d͡ʒɛ ni an ma.na si.gi wa.ri la.daⁿ sa.ri.jaⁿ tɛ.na an g͡ba.li ka se.ɡa ka bɔ/",
+      "phrase_phonetic_simple": "SI-GA-TÈ-A-LA-KO YÈ : NI AN MA-NA SI-GUI-WA-RI LA-DAN, SA-RI-YAN TÈ-NA AN GBALI KA SÉ-GA-KA-BÕ",
+      "translation": "C'est une certitude absolue : dès que nous aurons constitué cette épargne, aucune règle ne pourra nous empêcher de réussir.",
+      "context": "Conclure une plaidoirie économique avec assurance."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'irréel du passé (Conditionnel passé) avec la combinaison 'tun bɛna'",
+      "explanation": "Pour exprimer ce qui aurait eu lieu dans le passé sous certaines conditions (regret, reproche, action avortée), le niveau C1 exige le maniement du bloc temporel complexe 'tun bɛna'. On associe le marqueur de passé révolu 'tun' et la marque de prospectif/futur 'bɛna'.",
+      "rules": [
+        "Structure de la condition passée : Ni + Sujet + tun + Verbe (accompli/négatif).",
+        "Structure de la conséquence passée : Sujet + tun + bɛna (ou tɛna au négatif) + Verbe (radical)."
+      ],
+      "examples": [
+        {
+          "structure": "Ni n tun ka wari sɔrɔ + n + tun + bɛna + so lɔ",
+          "phonetic_api": "/ni n̩ tuⁿ ka wa.ri sɔ.rɔ n̩ tuⁿ bɛ.na so lɔ/",
+          "meaning": "Si j'avais trouvé de l'argent, j'aurais construit une maison (mais je n'ai pas pu)."
+        }
+      ]
+    },
+    {
+      "concept": "Le futur éventuel et l'imminent conditionnel avec la particule 'mana'",
+      "explanation": "La particule 'mana' (souvent abrégée en 'ma-na') est indispensable en style avancé pour projeter une action hypothétique certaine dans l'avenir (dès que / une fois que). Elle se place immédiatement après le sujet dans la proposition conditionnelle introduite par 'ni'.",
+      "rules": [
+        "Structure : Ni + Sujet + mana + Verbe (radical), [Sujet + bɛna + Verbe au futur]."
+      ],
+      "examples": [
+        {
+          "structure": "Ni + an + mana + sigi-wari ladan (une fois que nous aurons épargné)",
+          "phonetic_api": "/ni an ma.na si.gi wa.ri la.daⁿ/",
+          "meaning": "Dès que nous aurons constitué l'épargne."
+        }
+      ]
+    },
+    {
+      "concept": "Le subjonctif de souhait intensifié avec la particule de but 'walasa... ka'",
+      "explanation": "Au niveau C1, l'expression des vœux pieux et des prières formelles s'articule de façon complexe en insérant une subordonnée de finalité hautement soutenue où le sujet reçoit la marque du subjonctif-impératif 'ka' avec un ton haut marqué.",
+      "rules": [
+        "Structure : Ala ka [Action principale] + walasa + Sujet + ka + Verbe."
+      ],
+      "examples": [
+        {
+          "structure": "Ala ka an hakili-di + walasa + an + ka + hakilitigiya-sira baton",
+          "phonetic_api": "/a.la ka an ha.ki.li di wa.la.sa an ka ha.ki.li.ti.gi.ja si.ra ba.toⁿ/",
+          "meaning": "Que Dieu nous inspire afin que nous suivions la voie de la sagesse !"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Seydou (L'entrepreneur avancé)",
+      "text": "I ni ce, n fa Bakary. Ni n tun m'a lɔn ko wari-tɛmɛ-songo tun bɛna caya kosɛbɛ, n tun tɛna juru don n ma fɛn-w-san-yɔrɔ kura nin na.",
+      "phonetic_api": "/i ni t͡ʃe n̩ fa ba.ka.ry ni n̩ tuⁿ mʼa lɔⁿ ko wa.ri tɛ.mɛ sɔn.gɔ tuⁿ bɛ.na t͡ʃa.ja ko.sɛ.bɛ n̩ tuⁿ tɛ.na d͡ʒu.ru doⁿ n̩ ma fɛⁿ.w saⁿ d͡ʒɔ.rɔ ku.ra niⁿ na/",
+      "phrase_phonetic_simple": "I NI TCHE, N FA BA-KA-RY. NI N TOUN MA O LÕN KO WA-RI-TÈ-MÈ-SÕN-GÕ TOUN BÈ-NA TCHA-YA KO-SÈ-BÈ, N TOUN TÈ-NA DJOU-ROU DON N MA FÈN-W-SAN-YÕ-RÕ KOU-RA NIN NA.",
+      "translation": "Bonjour, maître Bakary. Si j'avais su que les prix d'approvisionnement allaient à ce point grimper de manière exorbitante, je ne me serais jamais endetté pour cette nouvelle boutique."
+    },
+    {
+      "speaker": "Bakary (Le conseiller principal / Ɲɛminɛla)",
+      "text": "I ni ce, Seydou. Hali ni i tun ka kalo-di-sɛbɛn ladan, wari-tigi-jɛrɛ tun bɛna i gbali dɔrɔn. O ko nin daminɛ-ko tun ka gban kosɛbɛ.",
+      "phonetic_api": "/i ni t͡ʃe se.du ha.li ni i tuⁿ ka ka.lo di sɛ.bɛn la.daⁿ wa.ri ti.gi d͡ʒɛ.rɛ tuⁿ bɛ.na i g͡ba.li dɔ.rɔⁿ o ko niⁿ da.mi.nɛ ko tuⁿ ka g͡baⁿ ko.sɛ.bɛ/",
+      "phrase_phonetic_simple": "I NI TCHE, SEY-DOU. HA-LI NI I TOUN KA KA-LO-DI-SÈ-BÈN LA-DAN, WA-RI-TI-GUI-DJÈ-RÈ TOUN BÈ-NA I GBALI DÕ-RÕN. O KO NIN DA-MI-NÈ-KO TOUN KA GBAN KO-SÈ-BÈ.",
+      "translation": "Bonjour, Seydou. Même si tu avais établi un planning parfait, le bailleur de fonds principal t'aurait tout de même bloqué. L'origine de cette affaire était extrêmement complexe."
+    },
+    {
+      "speaker": "Seydou",
+      "text": "Siga-tɛ-a-la-ko ye ! Nka sisan, n ka lajɛ-ko kuluwa-jɛrɛ bɛ ɲɛsin hakilitigiya-sira ma. Ni an mana sigi-wari ladan, an bɛna nafaba sɔrɔ.",
+      "phonetic_api": "/si.ga tɛ a la ko d͡ʒɛ n̩.ka si.san n̩ ka la.d͡ʒɛ ko ku.ra.wa d͡ʒɛ.rɛ bɛ ɲɛ.siⁿ ha.ki.li.ti.gi.ja si.ra ma ni an ma.na si.gi wa.ri la.daⁿ an bɛ.na na.fa.ba sɔ.rɔ/",
+      "phrase_phonetic_simple": "SI-GA-TÈ-A-LA-KO YÈ ! NKA SI-SAN, N KA LA-DJÈ-KO KOU-LOU-WA-DJÈ-RÈ BÈ GNIÈ-SIN HA-KI-LI-TI-GUI-YA-SI-RA MA. NI AN MA-NA SI-GUI-WA-RI LA-DAN, AN BÈ-NA NA-FA-BA SÕ-RÕ.",
+      "translation": "C'est une certitude absolue ! Cependant à présent, l'axe principal de mon projet se tourne vers la voie de la sagesse. Dès que nous aurons solidifié notre épargne, nous obtiendrons un bénéfice majeur."
+    },
+    {
+      "speaker": "Bakary",
+      "text": "O kaɲi fana. Ni i mana sariyan baton, baara-sɛgɛ tɛna i gbali ka sega-ka-bɔ. I ka ladili-kan sɔgɔ-ɲuman batonna sisan.",
+      "phonetic_api": "/o ka.ɲi fa.na ni i ma.na sa.ri.jaⁿ ba.toⁿ baː.ra sɛ.gɛ tɛ.na i g͡ba.li ka se.ɡa ka bɔ i ka la.di.li kaⁿ sɔ.gɔ ɲu.maⁿ ba.toⁿ.na si.san/",
+      "phrase_phonetic_simple": "O KA-GNI FA-NA. NI I MA-NA SA-RI-YAN BA-TON, BAA-RA-SÈ-GUÈ TÈ-NA I GBALI KA SÉ-GA-KA-BÕ. I KA LA-DI-LI-KAN SÕ-GÕ-GNU-MAN BA-TON-NA SI-SAN.",
+      "translation": "C'est une excellente démarche. Une fois que tu respecteras le règlement, l'épuisement professionnel ne t'empêchera plus jamais de réussir. Tu as désormais assimilé la bonne recommandation."
+    },
+    {
+      "speaker": "Seydou",
+      "text": "Ɔwɔ, n fa. Ala ka an ka kalo-di-sɛbɛn diya, walasa an ka baara-tuma ka bɛn hɛɛrɛ ma kalo o kalo !",
+      "phonetic_api": "/ɔ.wɔ n̩ fa a.la ka an ka ka.lo di sɛ.bɛn di.ja wa.la.sa an ka baː.ra tu.ma ka bɛⁿ hɛː.rɛ ma ka.lo o ka.lo/",
+      "phrase_phonetic_simple": "Õ-WÕ, N FA. A-LA KA AN KA KA-LO-DI-SÈ-BÈN DI-YA, WA-LA-SA AN KA BAA-RA-TOU-MA KA BEN HÈÈ-RÈ MA KA-LO O KA-LO !",
+      "translation": "Oui, mon maître. Que Dieu bénisse notre planning, afin que nos heures de travail coïncident avec la paix mois après mois !"
+    },
+    {
+      "speaker": "Bakary",
+      "text": "Amiina, Seydou ! Siga-tɛ-a-la-ko ye, Ala bɛna sira-di i ma. K'an bɛn san natɔ fɛ !",
+      "phonetic_api": "/a.miː.na se.du si.ga tɛ a la ko d͡ʒɛ a.la bɛ.na si.ra di i ma kʼan bɛn saⁿ na.tɔ fɛ/",
+      "phrase_phonetic_simple": "A-MII-NA, SEY-DOU ! SI-GA-TÈ-A-LA-KO YÈ, A-LA BÈ-NA SI-RA-DI I MA. KAN BEN SAN NA-TÕ FÈ !",
+      "translation": "Amen, Seydou ! C'est une certitude absolue, Dieu t'accordera la voie libre. Rendez-vous l'année prochaine !"
+    }
+  ],
+  "cultural_notes": [
+    "Au niveau C1 (Avancé), l'art de l'argumentation de haut rang ('kuma-kɔnɔ-ko') repose sur la capacité à articuler des regrets philosophiques ('tun bɛna') sans aigreur, tout en remettant l'autorité des événements majeurs entre les mains des décideurs coutumiers ou des investisseurs clés du réseau familial ('wari-tigi-jɛrɛ').",
+    "Les bénédictions emboîtées de but ('Ala ka... walasa ka...') prononcées par les maîtres ou les anciens à la suite de la démonstration de sagesse d'un cadet scellent l'alliance morale entre les générations. Savoir accepter qu'un projet avorte en raison d'une fatalité ou d'un coût disproportionné pour se réorienter vers l'épargne ('sigi-wari') caractérise l'idéal de l'homme mûr ('mɔgɔ-jɛrɛ') dans la société mandingue."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L1_Ex1",
+      "type": "multiple_choice",
+      "question": "Quelle association complexe de marqueurs aspecto-temporels est impérativement requise pour former le conditionnel passé (ex: 'j'aurais construit') ?",
+      "options": [
+        "Tun bɛna",
+        "Mana",
+        "Hali ni",
+        "Sɔgɔma-o-sɔgɔma"
+      ],
+      "correct_answer": "Tun bɛna",
+      "explanation": "Le bloc soudé 'tun bɛna' projette une intentionnalité ('bɛna') dans un cadre temporel révolu et coupé du présent ('tun'), définissant ainsi l'irréel du passé."
+    },
+    {
+      "exercise_id": "C1_M1_L1_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour marquer qu'un événement futur est une étape hypothétique certaine se traduisant par 'dès que / une fois que', on insère après le sujet le morphème : '[ ___ ]'.",
+      "correct_answer": "mana",
+      "hint": "Particule de l'éventuel hautement employée dans les maximes et les raisonnements logiques avancés."
+    },
+    {
+      "exercise_id": "C1_M1_L1_Ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie littéralement et sémantiquement l'expression avancée de focalisation 'siga-tɛ-a-la-ko' ?",
+      "options": [
+        "Une affaire pleine de doutes et de dettes",
+        "Une certitude absolue / Une réalité incontestable (litt. une affaire où il n'y a pas de doute)",
+        "Un contrat de location rédigé en secret",
+        "Une immense fatigue due au surcroît de corvées"
+      ],
+      "correct_answer": "Une certitude absolue / Une réalité incontestable (litt. une affaire où il n'y a pas de doute)",
+      "explanation": "Composé de 'siga' (doute), 'tɛ' (n'est pas), 'a la' (dedans) et 'ko' (affaire), ce syntagme sert à exprimer une conviction inébranlable dans le discours soutenu."
+    }
+  ]
+}

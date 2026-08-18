@@ -1,0 +1,134 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Identifier l'alphabet latin adapté au Badiaranké",
+    "Prononcer correctement les consonnes spécifiques (implosives, nasales complexes)",
+    "Reconnaître et reproduire le système des voyelles brèves et longues"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La langue dispose des caractères spécifiques suivants : ɓ (implosive bilabiale), ɗ (implosive alvéolaire), ŋ (nasale vélaire comme le 'ng' de l'anglais 'sing'), et ñ (nasale palatale).",
+    "common_pitfalls": "Veillez à ne pas nasaliser les voyelles françaises devant les nasales vélaires. Prononcez distinctement le /ŋ/ en bloquant l'air au fond du palais.",
+    "vocabulary": [
+      {
+        "word_id": "v3_1",
+        "term": "ɓii",
+        "phonetic_api": "/ɓiː/",
+        "phonetic_simple": "BII (implosif)",
+        "translation": "Enfant / Fils / Fille",
+        "example_sentence": "Ɓii muŋ o.",
+        "example_phonetic": "/ɓiː muŋ o/",
+        "example_translation": "C'est mon enfant."
+      },
+      {
+        "word_id": "v3_2",
+        "term": "ɗiɗi",
+        "phonetic_api": "/ɗiɗi/",
+        "phonetic_simple": "DHI-DHI (implosif)",
+        "translation": "Deux",
+        "example_sentence": "Koro ɗiɗi.",
+        "example_phonetic": "/koro ɗiɗi/",
+        "example_translation": "Deux ans / Deux éléments."
+      },
+      {
+        "word_id": "v3_3",
+        "term": "ŋal",
+        "phonetic_api": "/ŋal/",
+        "phonetic_simple": "NGAL",
+        "translation": "L'œil",
+        "example_sentence": "Ŋal muŋ a lura.",
+        "example_phonetic": "/ŋal muŋ a lura/",
+        "example_translation": "Mon œil me fait mal."
+      },
+      {
+        "word_id": "v3_4",
+        "term": "ñaari",
+        "phonetic_api": "/ɲaːri/",
+        "phonetic_simple": "NYAA-RI",
+        "translation": "Le chat",
+        "example_sentence": "Ñaari o lora.",
+        "example_phonetic": "/ɲaːri o lora/",
+        "example_translation": "Le chat court."
+      }
+    ],
+    "common_phrases": [
+      {
+        "phrase_id": "p3_1",
+        "original": "Mbaara e ɓii !",
+        "phonetic_api": "/mɓaːra e ɓiː/",
+        "phonetic_simple": "MBAA-RA E BII",
+        "translation": "Bonjour mon enfant !",
+        "context": "S'adresser affectueusement à un plus jeune."
+      },
+      {
+        "phrase_id": "p3_2",
+        "original": "A sae ɗiɗi.",
+        "phonetic_api": "/a sae ɗiɗi/",
+        "phonetic_simple": "A SA-E DHI-DHI",
+        "translation": "C'est doublement bon / Très bien.",
+        "context": "Approuver vivement une action."
+      }
+    ],
+    "grammar_points": [
+      {
+        "concept": "La corrélation de longueur consonantique et vocalique",
+        "explanation": "En Badiaranké, doubler une voyelle ou une consonne modifie complètement la valeur lexicale et grammaticale du mot. Ce n'est pas un simple accent mais une unité de temps phonique supplémentaire.",
+        "rules": [
+          "Une voyelle double comme 'aa' requiert une tension articulatoire prolongée.",
+          "Les consonnes géminées arrêtent brièvement le flux d'air avant l'explosion du son."
+        ],
+        "examples": [
+          {
+            "structure": "ɓii vs ɓi",
+            "phonetic_api": "/ɓiː/ vs /ɓi/",
+            "meaning": "enfant vs (forme courte pronominale)"
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Maître",
+        "text": "Janfɛ, fey sae ɓii muŋ.",
+        "phonetic_api": "/d͡ʒanfɛ fej sae ɓiː muŋ/",
+        "phonetic_simple": "DJAN-FE FEY SA-E BII MOUNG",
+        "translation": "S'il te plaît, viens ici mon enfant."
+      },
+      {
+        "speaker": "Enfant",
+        "text": "Iyo, mbiɗo feya.",
+        "phonetic_api": "/ijo mɓiɗo feja/",
+        "phonetic_simple": "I-YO MBI-DHO FEY-A",
+        "translation": "Oui, j'arrive."
+      }
+    ],
+    "cultural_notes": [
+      "L'écriture du Badiaranké utilise l'alphabet national guinéen standardisé. La maîtrise de ces caractères spécifiques permet aux locuteurs de transcrire fidèlement la tradition orale sans la dénaturer par le prisme des alphabets européens."
+    ],
+    "exercises": [
+      {
+        "exercise_id": "ex3_1",
+        "type": "multiple_choice",
+        "question": "Quel phonème correspond au caractère 'ŋ' ?",
+        "options": [
+          "Le son gn de montagne",
+          "Le son ng de parking",
+          "Le son in de sapin"
+        ],
+        "correct_answer": "Le son ng de parking",
+        "explanation": "Il s'agit de la nasale vélaire, produite à l'arrière de la cavité buccale."
+      },
+      {
+        "exercise_id": "ex3_2",
+        "type": "fill_in_the_blanks",
+        "sentence_with_blank": "Le mot désignant le chiffre deux s'écrit [ ___ ] .",
+        "correct_answer": "ɗiɗi",
+        "hint": "Utilise l'implosive dho à deux reprises."
+      }
+    ]
+  }
+}

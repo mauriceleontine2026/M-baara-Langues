@@ -1,0 +1,244 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Nommer les couleurs principales et accorder les adjectifs de couleur en genre",
+    "Identifier les pièces de vêtements et les chaussures de base au quotidien",
+    "Exprimer l'action de porter un vêtement avec la structure adéquate",
+    "Décrire la tenue vestimentaire de quelqu'un de façon simple"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'Ж' dans 'Жёлтый' se prononce toujours dure [ʐ]. Le 'Ё' porte obligatoirement l'accent tonique et se prononce [jo] (JO-lty). La voyelle 'Ы' dans 'Белый' ou 'Красный' requiert de tendre la langue vers l'arrière de la bouche sans toucher le palais [ɨ].",
+    "common_pitfalls": "Attention à la terminaison des adjectifs masculins '-ый' (ex: 'Красный' -> [ˈkrasnɨj]) : le 'й' final est une semi-voyelle très courte, ne le confondez pas avec le son 'и' prolongé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Красный",
+      "phonetic_api": "/ˈkrasnɨj/",
+      "phonetic_simple": "KRAS-nyj",
+      "translation": "Rouge",
+      "example_sentence": "Это красный свитер.",
+      "example_phonetic": "/ˈɛtə ˈkrasnɨj ˈsvʲitər/",
+      "example_translation": "C'est un pull rouge."
+    },
+    {
+      "word_id": "v2",
+      "term": "Синий",
+      "phonetic_api": "/ˈsʲinʲɪj/",
+      "phonetic_simple": "SI-niy",
+      "translation": "Bleu foncé",
+      "example_sentence": "Синяя куртка.",
+      "example_phonetic": "/ˈsʲinʲəjə ˈkurtkə/",
+      "example_translation": "Une veste bleu foncé."
+    },
+    {
+      "word_id": "v3",
+      "term": "Белый",
+      "phonetic_api": "/ˈbʲelɨj/",
+      "phonetic_simple": "BIE-lyj",
+      "translation": "Blanc",
+      "example_sentence": "Белая рубашка.",
+      "example_phonetic": "/ˈbʲeləjə rʊˈbaʂkə/",
+      "example_translation": "Une chemise blanche."
+    },
+    {
+      "word_id": "v4",
+      "term": "Чёрный",
+      "phonetic_api": "/ˈtɕornɨj/",
+      "phonetic_simple": "TCHOR-nyj",
+      "translation": "Noir",
+      "example_sentence": "Чёрные брюки.",
+      "example_phonetic": "/ˈtɕornɨjə ˈbrʲukʲɪ/",
+      "example_translation": "Un pantalon noir."
+    },
+    {
+      "word_id": "v5",
+      "term": "Платье",
+      "phonetic_api": "/ˈplatʲjə/",
+      "phonetic_simple": "PLA-tié",
+      "translation": "Robe",
+      "example_sentence": "Красивое платье.",
+      "example_phonetic": "/krɐˈsʲivəjə ˈplatʲjə/",
+      "example_translation": "Une belle robe."
+    },
+    {
+      "word_id": "v6",
+      "term": "Одежда",
+      "phonetic_api": "/ɐˈdʲeʐdə/",
+      "phonetic_simple": "a-DIÉ-jda",
+      "translation": "Vêtements / Habits",
+      "example_sentence": "Где продаётся одежда?",
+      "example_phonetic": "/ɡdʲe prədɐˈjot͡sʲə ɐˈdʲeʐdə/",
+      "example_translation": "Où se vendent les vêtements ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "Обувь",
+      "phonetic_api": "/ˈobʊfʲ/",
+      "phonetic_simple": "O-bouf'",
+      "translation": "Chaussures",
+      "example_sentence": "Кожаная обувь.",
+      "example_phonetic": "/ˈkoʐənəjə ˈobʊfʲ/",
+      "example_translation": "Des chaussures en cuir."
+    },
+    {
+      "word_id": "v8",
+      "term": "Пальто",
+      "phonetic_api": "/pɐlʲˈto/",
+      "phonetic_simple": "pal'-TO",
+      "translation": "Manteau (Invariable)",
+      "example_sentence": "Зимнее пальто.",
+      "example_phonetic": "/ˈzʲimnʲɪjə pɐlʲˈto/",
+      "example_translation": "Un manteau d'hiver."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Какого цвета эта куртка?",
+      "phonetic_api": "/kɐˈkovə ˈt͡svʲetə ˈɛtə ˈkurtkə/",
+      "phonetic_simple": "ka-KO-va TSVIE-ta E-ta KOURT-ka ?",
+      "translation": "De quelle couleur est cette veste ?",
+      "context": "Pour s'informer sur la couleur d'un objet (couleur au cas génitif)."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "На нём чёрный костюм",
+      "phonetic_api": "/na nʲom ˈtɕornɨj kɐˈsʲtʲum/",
+      "phonetic_simple": "na niom TCHOR-nyj kas-TIUM",
+      "translation": "Il porte un costume noir (Litt. Sur lui est...)",
+      "context": "Structure idiomatique très fréquente pour décrire ce que quelqu'un porte."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "На ней красное платье",
+      "phonetic_api": "/na nʲej ˈkrasnəjə ˈplatʲjə/",
+      "phonetic_simple": "na nieï KRAS-na-yé PLA-tié",
+      "translation": "Elle porte une robe rouge",
+      "context": "Variante féminine de la structure de description vestimentaire."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Мне нравится этот зелёный цвет",
+      "phonetic_api": "/mnʲe ˈnravʲɪt͡sʲə ˈɛtət zʲɪˈlʲonɨj t͡svʲet/",
+      "phonetic_simple": "mnié NRA-vit-ssya E-tat zi-LIO-nyj tsviet",
+      "translation": "J'aime cette couleur verte",
+      "context": "Pour exprimer sa préférence dans un magasin."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accord des adjectifs au Nominatif singulier",
+      "explanation": "En russe, les adjectifs (y compris les couleurs) s'accordent obligatoirement en genre avec le nom qu'ils qualifient.",
+      "rules": [
+        "Masculin : se termine généralement en -ЫЙ ou -ИЙ (Красный свитер, Синий костюм).",
+        "Féminin : se termine en -АЯ ou -ЯЯ (Красная рубашка, Синяя куртка).",
+        "Neutre : se termine en -ОЕ ou -ЕЕ (Красное платье, Синее пальто).",
+        "Pluriel : se termine en -ЫЕ ou -ИЕ (Красные брюки, Синие туфли)."
+      ],
+      "examples": [
+        {
+          "structure": "Жёлтый шарф, жёлтая юбка, жёлтое окно, жёлтые цветы.",
+          "phonetic_api": "/ˈʐoltɨj ʂarf ˈʐoltəjə ˈjupkə ˈʐoltəjə ɐkˈno ˈʐolte t͡svʲɪˈtɨ/",
+          "meaning": "Un foulard jaune, une jupe jaune, une fenêtre jaune, des fleurs jaunes."
+        }
+      ]
+    },
+    {
+      "concept": "Exprimer l'action de porter un vêtement",
+      "explanation": "Bien que le verbe носить (porter) existe, les Russes préfèrent utiliser une structure prépositionnelle statique pour décrire la tenue actuelle.",
+      "rules": [
+        "Structure : НА (sur) + Pronom au cas Prépositionnel (нём / ней / мне / вас) + Vêtement au cas Nominatif.",
+        "On dit littéralement : 'Sur lui/elle est un vêtement'."
+      ],
+      "examples": [
+        {
+          "structure": "На мне сегодня джинсы.",
+          "phonetic_api": "/na mnʲe sʲɪˈvodnʲə ˈdʐɨnsɨ/",
+          "meaning": "Je porte des jeans aujourd'hui. (Litt: Sur moi aujourd'hui sont des jeans)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Анна",
+      "text": "Посмотри на того мужчину. Кто он? На нём очень красивый костюм.",
+      "phonetic_api": "/pəsmɐˈtrʲi nə tɐˈvo mʊˈɕːinʊ kto on na nʲom ˈotɕɪnʲ krɐˈsʲivɨj kɐˈsʲtʲum/",
+      "phonetic_simple": "pa-sma-TRI na ta-VO mouj-TCHI-nou. Kto on ? na niom O-tchine kra-SSI-vyj kas-TIUM.",
+      "translation": "Regarde cet homme là-bas. Qui est-ce ? Il porte un très beau costume."
+    },
+    {
+      "speaker": "Дмитрий",
+      "text": "Какой костюм? Чёрный или синий?",
+      "phonetic_api": "/kɐˈkoj kɐˈsʲtʲum ˈtɕornɨj ˈilʲɪ ˈsʲinʲɪj/",
+      "phonetic_simple": "ka-KOÏ kas-TIUM ? TCHOR-nyj i-li SI-niy ?",
+      "translation": "Quel costume ? Le noir ou le bleu ?"
+    },
+    {
+      "speaker": "Анна",
+      "text": "Синий. И на нём белая рубашка и красный галстук.",
+      "phonetic_api": "/ˈsʲinʲɪj ˈi na nʲom ˈbʲeləjə rʊˈbaʂkə ˈi ˈkrasnɨj ˈɡalstʊk/",
+      "phonetic_simple": "SI-niy. I na niom BIE-la-ya rou-BACH-ka i KRAS-nyj GAL-stouk.",
+      "translation": "Le bleu. Et il porte une chemise blanche et une cravate rouge."
+    },
+    {
+      "speaker": "Дмитрий",
+      "text": "А, это наш новый директор! А рядом с ним женщина, на ней зелёное платье.",
+      "phonetic_api": "/a ˈɛtə naʂ ˈnovɨj dʲɪˈrɛktər a ˈrʲadəm s nʲim ˈʐenɕːɪnə na nʲej zʲɪˈlʲonəjə ˈplatʲjə/",
+      "phonetic_simple": "A, E-ta nach NO-vyj di-REK-tar ! A RIA-dam s nim JIEN-chtchi-na, na nieï zi-LIO-na-yé PLA-tié.",
+      "translation": "Ah, c'est notre nouveau directeur ! Et à côté de lui il y a une femme, elle porte une robe verte."
+    }
+  ],
+  "cultural_notes": [
+    "Le style vestimentaire en Russie : Dans les grandes villes russes, l'apparence vestimentaire revêt une grande importance sociale. Il est d'usage de s'habiller de manière élégante et soignée pour sortir au théâtre, au restaurant ou pour aller travailler. Le style trop décontracté (ex: jogging) est souvent mal vu dans ces contextes.",
+    "Les vêtements d'hiver : En raison du climat rigoureux, les vêtements d'hiver russes (manteaux, bonnets, écharpes) sont conçus pour être extrêmement chauds. Dans tous les bâtiments publics, théâtres ou restaurants, il est obligatoire de laisser son gros manteau au vestiaire (гардероб) avant d'entrer."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L9_ex1",
+      "type": "multiple_choice",
+      "question": "Comment accorder correctement la couleur blanche avec le nom féminin 'Рубашка' (chemise) ?",
+      "options": [
+        "Белый рубашка",
+        "Белая рубашка",
+        "Белое рубашка",
+        "Белые рубашка"
+      ],
+      "correct_answer": "Белая рубашка",
+      "explanation": "'Рубашка' étant un nom féminin singulier, l'adjectif doit prendre la terminaison féminine '-ая'."
+    },
+    {
+      "exercise_id": "A1_M3_L9_ex2",
+      "type": "multiple_choice",
+      "question": "Quelle structure signifie exactement 'Elle porte une robe' ?",
+      "options": [
+        "На нём платье",
+        "На ней платье",
+        "На мне платье",
+        "Она носить платье"
+      ],
+      "correct_answer": "На ней платье",
+      "explanation": "La structure prépositionnelle pour une femme utilise 'На ней' (sur elle) suivi du vêtement au nominatif."
+    },
+    {
+      "exercise_id": "A1_M3_L9_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Какого [ ___ ] это платье? — Оно красное. (Couleur)",
+      "correct_answer": "цвета",
+      "hint": "Le mot 'цвет' mis au cas génitif singulier pour l'expression de la couleur."
+    },
+    {
+      "exercise_id": "A1_M3_L9_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "На ногах у неё зимние [ ___ ]. (Bottes / Chaussures montantes)",
+      "correct_answer": "сапоги",
+      "hint": "Le nom pluriel russe pour désigner des bottes d'hiver."
+    }
+  ]
+}

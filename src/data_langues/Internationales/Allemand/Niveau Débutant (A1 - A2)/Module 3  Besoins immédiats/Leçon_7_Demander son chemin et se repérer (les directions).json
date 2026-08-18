@@ -1,0 +1,247 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Savoir poser des questions pour demander une direction ou un lieu public",
+    "Comprendre et donner des indications d'itinéraire simples",
+    "Maîtriser les prépositions de lieu avec le datif pour la localisation fixe"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre -st- dans 'Straße' ou 'links' se prononce différemment selon sa position : au début du mot 'Straße', elle se prononce impérativement [ʃt] ('cht-'), alors que dans 'links' ou 'rechts', le -s- et le -t- gardent leur prononciation standard séparée. Le digramme -g final dans 'geradeaus' subit un assourdissement en fin de syllabe interne et se réalise discrètement.",
+    "common_pitfalls": "Attention au mot 'Bahnhof' : le -h- médian est totalement muet, il sert exclusivement à allonger la voyelle 'a' précédente [ˈbaːnˌhoːf]. Ne prononcez pas le -r de 'rechts' ou 'geradeaus' à la française, veillez à le vocaliser ou à l'atténuer légèrement en fin de syllabe."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "der Bahnhof",
+      "phonetic_api": "/ˈbaːnˌhoːf/",
+      "phonetic_simple": "BAN-HOOF",
+      "translation": "la gare",
+      "example_sentence": "Wo ist der Bahnhof, bitte?",
+      "example_phonetic": "/voː ɪst deːɐ̯ ˈbaːnˌhoːf ˈbɪtə/",
+      "example_translation": "Où est la gare, s'il vous plaît ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "die Straße",
+      "phonetic_api": "/ˈʃtʁaːsə/",
+      "phonetic_simple": "CHTRA-SE",
+      "translation": "la rue",
+      "example_sentence": "Diese Straße ist sehr lang.",
+      "example_phonetic": "/ˈdiːzə ˈʃtʁaːsə ɪst zeːɐ̯ laŋ/",
+      "example_translation": "Cette rue est très longue."
+    },
+    {
+      "word_id": "v3",
+      "term": "geradeaus",
+      "phonetic_api": "/ɡəˈʁaːdəˈaʊ̯s/",
+      "phonetic_simple": "GHE-RA-DE-AOUFS",
+      "translation": "tout droit",
+      "example_sentence": "Gehen Sie immer geradeaus.",
+      "example_phonetic": "/ˈɡeːən ziː ˈɪmɐ ɡəˈʁaːdəˈaʊ̯s/",
+      "example_translation": "Allez toujours tout droit."
+    },
+    {
+      "word_id": "v4",
+      "term": "links / rechts",
+      "phonetic_api": "/lɪŋks / ʁɛçts/",
+      "phonetic_simple": "LINKS / REKTS",
+      "translation": "à gauche / à droite",
+      "example_sentence": "Biegen Sie nach links ab.",
+      "example_phonetic": "/ˈbiːɡən ziː naːx lɪŋks ap/",
+      "example_translation": "Tournez à gauche."
+    },
+    {
+      "word_id": "v5",
+      "term": "der Weg",
+      "phonetic_api": "/deːɐ̯ veːk/",
+      "phonetic_simple": "DEER VEEK",
+      "translation": "le chemin",
+      "example_sentence": "Ich kenne den Weg nicht.",
+      "example_phonetic": "/ɪç ˈkɛnə deːn veːk nɪçt/",
+      "example_translation": "Je ne connais pas le chemin."
+    },
+    {
+      "word_id": "v6",
+      "term": "die Ecke",
+      "phonetic_api": "/diː ˈɛkə/",
+      "phonetic_simple": "DII EK-E",
+      "translation": "le coin / l'angle",
+      "example_sentence": "Die Apotheke ist an der Ecke.",
+      "example_phonetic": "/diː apoˈteːkə ɪst am deːɐ̯ ˈɛkə/",
+      "example_translation": "La pharmacie est au coin."
+    },
+    {
+      "word_id": "v7",
+      "term": "finden",
+      "phonetic_api": "/ˈfɪndn̩/",
+      "phonetic_simple": "FIN-DEN",
+      "translation": "trouver",
+      "example_sentence": "Wie finde ich das Museum?",
+      "example_phonetic": "/viː ˈfɪndə ɪç das muˈzeːʊm/",
+      "example_translation": "Comment puis-je trouver le musée ?"
+    },
+    {
+      "word_id": "v8",
+      "term": "in der Nähe",
+      "phonetic_api": "/ɪn deːɐ̯ ˈnɛːə/",
+      "phonetic_simple": "IN DEER NEE-E",
+      "translation": "à proximité / pas loin",
+      "example_sentence": "Gibt es eine Bank in der Nähe?",
+      "example_phonetic": "/ɡɪpt ɛs ˈaɪ̯nə baŋk ɪn deːɐ̯ ˈnɛːə/",
+      "example_translation": "Y a-t-il une banque à proximité ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Entschuldigung, ich suche das Krankenhaus.",
+      "phonetic_api": "/ɛntˈʃʊldɪɡʊŋ ɪç ˈzuːxə das ˈkʁaŋkn̩ˌhaʊ̯s/",
+      "phonetic_simple": "ENT-CHOUL-DI-GUNG ICH ZOU-KE DAS KRANK-EN-HAOUS",
+      "translation": "Excusez-moi, je cherche l'hôpital.",
+      "context": "Aborder quelqu'un poliment dans l'espace public."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Können Sie mir helfen? Ich habe mich verlaufen.",
+      "phonetic_api": "/ˈkœnən ziː miːɐ̯ ˈhɛlfn̩ ɪç ˈhaːbə mɪç fɛɐ̯ˈlaʊ̯fn̩/",
+      "phonetic_simple": "KOE-NEN ZII MIIR HEL-FEN ICH HA-BE MICH FER-LAOU-FEN",
+      "translation": "Pouvez-vous m'aider ? Je me suis égaré(e).",
+      "context": "Demander de l'assistance quand on est perdu."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Gehen Sie bis zur Ampel und dann rechts.",
+      "phonetic_api": "/ˈɡeːən ziː bɪs tsuːɐ̯ ˈampl̩ ʊnt dan ʁɛçts/",
+      "phonetic_simple": "GHEE-EN ZII BIS TSOUR AM-PEL OUNT DAN REKTS",
+      "translation": "Allez jusqu'au feu de signalisation, puis tournez à droite.",
+      "context": "Donner une indication d'itinéraire claire."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Das ist zu Fuß fünf Minuten von hier.",
+      "phonetic_api": "/das ɪst tsuː fuːs fʏnf miˈnuːtn̩ fɔn hiːɐ̯/",
+      "phonetic_simple": "DAS IST TSOU FOUS FUUNF MI-NOU-TEN FON HIIR",
+      "translation": "C'est à cinq minutes à pied d'ici.",
+      "context": "Donner une estimation de temps et de distance."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Nehmen Sie die nächste Straße links.",
+      "phonetic_api": "/ˈneːmən ziː diː ˈnɛːçstə ˈʃtʁaːsə lɪŋks/",
+      "phonetic_simple": "NEE-MEN ZII DII NEEKS-TE CHTRA-SE LINKS",
+      "translation": "Prenez la prochaine rue à gauche.",
+      "context": "Instruction précise de changement de direction."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'usage des prépositions mixtes avec le cas Datif (la localisation fixe)",
+      "explanation": "En allemand, les prépositions de lieu dites 'mixtes' (Wechselpräpositionen) comme 'in', 'an', 'auf', 'unter', 'vor', 'hinter', 'neben', 'zwischen' sont suivies du cas Datif lorsqu'elles répondent à la question 'Wo?' (Où ?) qui indique une position fixe sans déplacement d'un point A à un point B.",
+      "rules": [
+        "L'article défini masculin (der) et neutre (das) se transforment en 'dem' au datif. Ils se contractent souvent avec la préposition : in + dem = im ; an + dem = am.",
+        "L'article défini féminin (die) se transforme en 'der' au datif.",
+        "Les structures courantes comme 'zu' (vers/chez) exigent toujours le datif et se contractent : zu + dem = zum ; zu + der = zur."
+      ],
+      "examples": [
+        {
+          "structure": "Ich bin im Supermarkt. (in + dem)",
+          "phonetic_api": "/ɪç bɪn ɪm ˈzuːpɐˌmaʁkt/",
+          "meaning": "Je suis dans le supermarché."
+        },
+        {
+          "structure": "Die Post ist neben der Bank. (neben + der)",
+          "phonetic_api": "/diː pɔst ɪst ˈneːbn̩ deːɐ̯ baŋk/",
+          "meaning": "La poste est à côté de la banque."
+        }
+      ]
+    },
+    {
+      "concept": "L'impératif de politesse (Forme formelle)",
+      "explanation": "Pour guider quelqu'un poliment, on utilise le mode impératif adapté à la forme de politesse 'Sie'.",
+      "rules": [
+        "L'impératif de politesse conserve le pronom personnel sujet 'Sie' placé juste après le verbe.",
+        "Le verbe se place toujours en toute première position dans la phrase et conserve sa terminaison régulière du présent de la troisième personne du pluriel (-en)."
+      ],
+      "examples": [
+        {
+          "structure": "Gehen Sie geradeaus!",
+          "phonetic_api": "/ˈɡeːən ziː ɡəˈʁaːdəˈaʊ̯s/",
+          "meaning": "Allez tout droit !"
+        },
+        {
+          "structure": "Fahren Sie mit dem Bus!",
+          "phonetic_api": "/ˈfaːʁən ziː mɪt deːm bʊs/",
+          "meaning": "Prenez le bus !"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Touristin",
+      "text": "Entschuldigung, wissen Sie, wo der Domplatz ist? Ich suche den Weg.",
+      "phonetic_api": "/ɛntˈʃʊldɪɡʊŋ ˈvɪsn̩ ziː voː deːɐ̯ ˈdoːmˌplats ɪst ɪç ˈzuːxə deːn veːk/",
+      "phonetic_simple": "ENT-CHOUL-DI-GUNG VIS-EN ZII VOO DEER DOOM-PLATS IST ICH ZOU-KE DEEN VEEK",
+      "translation": "Excusez-moi, savez-vous où se trouve la place de la cathédrale ? Je cherche le chemin."
+    },
+    {
+      "speaker": "Passant",
+      "text": "Ja, das ist ganz einfach. Gehen Sie diese Straße hier geradeaus bis zur Ampel.",
+      "phonetic_api": "/jaː das ɪst ɡants ˈaɪ̯nfax ˈɡeːən ziː ˈdiːzə ˈʃtʁaːsə hiːɐ̯ ɡəˈʁaːdəˈaʊ̯s bɪs tsuːɐ̯ ˈampl̩/",
+      "phonetic_simple": "YA DAS IST GANTS AIN-FAK GHEE-EN ZII DII-ZE CHTRA-SE HIIR GHE-RA-DE-AOUFS BIS TSOUR AM-PEL",
+      "translation": "Oui, c'est très simple. Allez tout droit dans cette rue jusqu'au feu de signalisation."
+    },
+    {
+      "speaker": "Touristin",
+      "text": "Und an der Ampel? Muss ich links oder rechts abbiegen?",
+      "phonetic_api": "/ʊnt am deːɐ̯ ˈampl̩ mʊs ɪç lɪŋks ˈoːdɐ ʁɛçts ˈapˌbiːɡən/",
+      "phonetic_simple": "OUNT AN DEER AM-PEL MOUS ICH LINKS OO-DER REKTS AP-BII-GHEN",
+      "translation": "Et au feu ? Dois-je tourner à gauche ou à droite ?"
+    },
+    {
+      "speaker": "Passant",
+      "text": "An der Ampel gehen Sie nach rechts. Danach nehmen Sie die zweite Straße links. Der Domplatz liegt dann direkt vor Ihnen.",
+      "phonetic_api": "/am deːɐ̯ ˈampl̩ ˈɡeːən ziː naːx ʁɛçts daˈnaːx ˈneːmən ziː diː ˈtsvaɪ̯tə ˈʃtʁaːsə lɪŋks deːɐ̯ ˈdoːmˌplats liːkt dan diˈʁɛkt foːɐ̯ ˈiːnən/",
+      "phonetic_simple": "AN DEER AM-PEL GHEE-EN ZII NAK REKTS DA-NAK NEE-MEN ZII DII TSVAI-TE CHTRA-SE LINKS DEER DOOM-PLATS LIIKT DAN DI-REKT FOOR II-NEN",
+      "translation": "Au feu, allez à droite. Ensuite, prenez la deuxième rue à gauche. La place de la cathédrale se trouvera alors directement devant vous."
+    },
+    {
+      "speaker": "Touristin",
+      "text": "Vielen Dank für Ihre Hilfe!",
+      "phonetic_api": "/ˈfiːlən daŋk fyːɐ̯ ˈiːʁə ˈhɪlfə/",
+      "phonetic_simple": "VII-LEN DANK FUUR II-RE HIL-FE",
+      "translation": "Merci beaucoup pour votre aide !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les villes allemandes, la signalisation est extrêmement précise. Les panneaux indiquant les noms de rues ('Straßenschilder') sont fixés au coin de chaque intersection. Si vous cherchez un bâtiment public, suivez les panneaux fléchés blancs ou colorés.",
+    "Aborder un inconnu pour demander son chemin se fait toujours en commençant par le mot 'Entschuldigung' (Excusez-moi). Il est mal vu de couper directement la parole sans cette formule de politesse introductive.",
+    "Les indications de distance se font très souvent en minutes de marche à pied ou en stations de transport en commun (U-Bahn / Tram) plutôt qu'en mètres ou kilomètres bruts."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la forme correcte à l'impératif de politesse pour dire 'Tournez à droite' ?",
+      "options": [
+        "Biegen rechts ab Sie.",
+        "Biegen Sie nach rechts ab.",
+        "Du biegst rechts ab."
+      ],
+      "correct_answer": "Biegen Sie nach rechts ab.",
+      "explanation": "À l'impératif formel, le verbe conjugué se place en première position, immédiatement suivi du pronom de politesse 'Sie'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ich warte vor [ ___ ] Bahnhof. (Le mot Bahnhof est masculin : der Bahnhof)",
+      "correct_answer": "dem",
+      "hint": "Entrez la forme de l'article défini masculin décliné au cas datif après la préposition de lieu fixe 'vor'."
+    }
+  ]
+}

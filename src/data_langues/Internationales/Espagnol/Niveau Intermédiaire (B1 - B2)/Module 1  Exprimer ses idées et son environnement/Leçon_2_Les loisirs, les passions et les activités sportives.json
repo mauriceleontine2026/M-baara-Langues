@@ -1,0 +1,201 @@
+{
+  "lesson_id": "B1_M1_L2",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 2,
+  "title": "Les loisirs, les passions et les activités sportives",
+  "learning_objectives": [
+    "Parler en détail de ses passe-temps, de ses passions et de ses habitudes de loisir",
+    "Exprimer la fréquence, l'intensité et la régularité d'une activité sportive ou culturelle",
+    "Maîtriser les verbes à structure de type GUSTAR (interesar, apasionar, chiflar, encantar)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot 'ocio' (loisirs) se prononce avec un 'c' interdental sourd (/ˈoθjo/). Le terme 'entrenar' exige un 'r' simple battu sans vibration excessive (/entɾeˈnaɾ/). Pour 'gimnasio', le 'g' initial devant un 'i' se prononce comme une jota douce (/ximˈnasjo/).",
+    "common_pitfalls": "Attention au 'j' de 'jugar' : veillez à bien marquer la jota espagnole (/xuˈɣaɾ/) au lieu d'utiliser un 'j' doux français. Ne confondez pas la prononciation du groupe 'apasionar' (/apasjoˈnaɾ/) en évitant de nasaliser la syllabe centrale."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Ocio",
+      "phonetic_api": "/ˈoθjo/",
+      "phonetic_simple": "O-THYO",
+      "translation": "Loisirs / Temps libre",
+      "example_sentence": "Dedico mi tiempo de ocio a la lectura y al deporte.",
+      "example_phonetic": "/ðeˈðiko mi ˈtjempo ðe ˈoθjo a la lexˈtuɾa i al deˈpoɾte/",
+      "example_translation": "Je consacre mon temps libre à la lecture et au sport."
+    },
+    {
+      "word_id": "v2",
+      "term": "Afición",
+      "phonetic_api": "/afiˈθjon/",
+      "phonetic_simple": "A-FEE-THYON",
+      "translation": "Passe-temps / Hobby / Passion",
+      "example_sentence": "Su mayor afición es la fotografía de paisajes.",
+      "example_phonetic": "/su maˈʝoɾ afiˈθjon ˈes la fotoɣɾaˈfia ðe pajˈsaxes/",
+      "example_translation": "Son plus grand passe-temps est la photographie de paysages."
+    },
+    {
+      "word_id": "v3",
+      "term": "Entrenamiento",
+      "phonetic_api": "/entɾenaˈmjeŋto/",
+      "phonetic_simple": "EN-TRÉ-NA-MYEN-TO",
+      "translation": "Entraînement",
+      "example_sentence": "El entrenamiento de fútbol es muy intenso.",
+      "example_phonetic": "/el entɾenaˈmjeŋto ðe ˈfutβol ˈes ˈmwi jŋˈtenso/",
+      "example_translation": "L'entraînement de football est très intense."
+    },
+    {
+      "word_id": "v4",
+      "term": "Gimnasio",
+      "phonetic_api": "/ximˈnasjo/",
+      "phonetic_simple": "KHEEM-NA-SYO",
+      "translation": "Salle de sport / Gymnase",
+      "example_sentence": "Voy al gimnasio tres veces por semana.",
+      "example_phonetic": "/ˈβoj al ximˈnasjo ˈtɾes ˈβeθes poɾ seˈmana/",
+      "example_translation": "Je vais à la salle de sport trois fois par semaine."
+    },
+    {
+      "word_id": "v5",
+      "term": "Senderismo",
+      "phonetic_api": "/sendeˈɾizmo/",
+      "phonetic_simple": "SEN-DÉ-REES-MO",
+      "translation": "Randonnée pédestre",
+      "example_sentence": "Los domingos hacemos senderismo por la montaña.",
+      "example_phonetic": "/los ðoˈmiŋɡos aˈθemos sendeˈɾizmo poɾ la monˈtaɲa/",
+      "example_translation": "Le dimanche, nous faisons de la randonnée en montagne."
+    },
+    {
+      "word_id": "v6",
+      "term": "Soles",
+      "phonetic_api": "/soˈler/",
+      "phonetic_simple": "SO-LER",
+      "translation": "Avoir l'habitude de (verbe)",
+      "example_sentence": "Suelo correr por las mañanas antes de trabajar.",
+      "example_phonetic": "/ˈswelo koˈɾeɾ poɾ las maˈɲanas ˈantes ðe tɾaβaˈxaɾ/",
+      "example_translation": "J'ai l'habitude de courir le matin avant de travailler."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Me apasiona jugar al baloncesto desde niño",
+      "phonetic_api": "/me apasˈjona xuˈɣaɾ al βalonˈθesto ðezðe ˈniɲo/",
+      "phonetic_simple": "ME A-PAS-YO-NA KHOU-GAR AL BA-LON-THES-TO DES-DE NYE-NYO",
+      "translation": "Le basket me passionne depuis que je suis enfant",
+      "context": "Permet d'exprimer une passion de longue date avec un verbe de goût fort."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "¿Con qué frecuencia haces deporte?",
+      "phonetic_api": "/kon ˈke fɾeˈkwenθja ˈaθez ðeˈpoɾte/",
+      "phonetic_simple": "KON KÉ FRÉ-KWEN-THYA A-THÉS DÉ-POR-TÉ ?",
+      "translation": "À quelle fréquence fais-tu du sport ?",
+      "context": "Question essentielle pour interroger quelqu'un sur son rythme d'activité."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "De vez en cuando me gusta ir al teatro",
+      "phonetic_api": "/de ˈβeθ en ˈkwando me ˈɣusta jɾ al teˈatɾo/",
+      "phonetic_simple": "DE VÉTH EN KWAN-DO ME GOUS-TA EER AL TÉ-A-TRO",
+      "translation": "De temps en temps, j'aime aller au théâtre",
+      "context": "Pratique pour nuancer la régularité d'un loisir culturel."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Estoy apuntado a un curso de pintura abstracta",
+      "phonetic_api": "/esˈtoj aputˈtaðo a un ˈkuɾso ðe piŋˈtuɾa aβsˈtɾakta/",
+      "phonetic_simple": "ES-TOY A-POUN-TA-DO A OUN KOOR-SO DE PEEN-TOO-RA ABS-TRAK-TA",
+      "translation": "Je suis inscrit à un cours de peinture abstraite",
+      "context": "Pour parler d'un engagement régulier dans une activité artistique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les verbes à structure de type GUSTAR au niveau B1",
+      "explanation": "Pour nuancer vos passions au-delà du verbe 'gustar', l'espagnol utilise toute une série de verbes construits sur le même modèle. Le sujet grammatical est la chose ou l'activité, et la personne qui ressent l'émotion est introduite par un pronom complément d'objet indirect (me, te, le, nos, os, les).",
+      "rules": [
+        "Interesar (intéresser) : s'accorde au singulier ou au pluriel (ex: Me interesa el arte / Me interesan los deportes).",
+        "Apasionar (passionner) / Encantar (adorer) : expriment une intensité forte (ex: Nos apasiona viajar).",
+        "Chiflar / Molar : termes familiers courants pour dire 'adorer' ou 'plaire' (ex: Te chifla la música rock)."
+      ],
+      "examples": [
+        {
+          "structure": "A mis amigos les encanta hacer senderismo los fines de semana.",
+          "phonetic_api": "/a mis aˈmiɣoz lez eŋˈkanta ˈaθeɾ sendeˈɾizmo los ˈfines ðe seˈmana/",
+          "meaning": "Mes amis adorent faire de la randonnée les week-ends."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de la régularité : le verbe SOLER + Infinitif",
+      "explanation": "Le verbe 'soler' est un verbe à diphtongue (o -> ue) indispensable au niveau intermédiaire pour remplacer l'expression française 'avoir l'habitude de'. Il se construit directement avec un verbe à l'infinitif.",
+      "rules": [
+        "Présent de l'indicatif : suelo, sueles, suele, solemos, soléis, suelen.",
+        "Structure : Conjugaison de SOLER + Infinitif (sans préposition)."
+      ],
+      "examples": [
+        {
+          "structure": "Nosotros solemos entrenar juntos en el gimnasio.",
+          "phonetic_api": "/noˈsotɾos soˈlemos entɾeˈnaɾ ˈxuntos en el ximˈnasjo/",
+          "meaning": "Nous avons l'habitude de nous entraîner ensemble à la salle de sport."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Carlos",
+      "text": "Marta, ¿sigues jugando al tenis los sábados?",
+      "phonetic_api": "/ˈmaɾta ˈsiɣez xuˈɣando al ˈtenis los ˈsaβaðos/",
+      "phonetic_simple": "MAR-TA, SEE-GWÉS KHOU-GAN-DO AL TÉ-NEES LOS SA-BA-DOS ?",
+      "translation": "Marta, tu continues à jouer au tennis le samedi ?"
+    },
+    {
+      "speaker": "Marta",
+      "text": "La verdad es que ya no tengo tiempo. Ahora me interesa más el yoga; suelo ir a clase dos veces por semana.",
+      "phonetic_api": "/la βeɾˈðað ˈes ke ˈʝa ˈno ˈteŋɡo ˈtjempo || aˈoɾa me jnteˈɾesa ˈmas el ˈʝoɣa || ˈswelo ˈjɾ a ˈklase ˈðoz ˈβeθes poɾ seˈmana/",
+      "phonetic_simple": "LA VER-DAD ES KÉ YA NO TEN-GO TYEM-PO. A-ORA ME EEN-TÉ-RÉ-SA MAS EL YO-GA; SWÉ-LO EER A KLA-SÉ DOS VÉ-THÉS POR SÉ-MA-NA.",
+      "translation": "À vrai dire, je n'ai plus le temps. Maintenant, le yoga m'intéresse davantage ; j'ai l'habitude d'aller en cours deux fois par semaine."
+    },
+    {
+      "speaker": "Carlos",
+      "text": "Qué bien. A mí me apasiona el ciclismo de montaña, pero solo puedo practicarlo de vez en cuando.",
+      "phonetic_api": "/ˈke βjeŋ || a ˈmi me apasˈjona el θiˈklizmo ðe monˈtaɲa peˈɾo ˈsolo ˈpweðo pɾaktiˈkaɾlo ðe ˈβeθ eŋ ˈkwando/",
+      "phonetic_simple": "KÉ BYEN. A MEE ME A-PAS-YO-NA EL THEE-KLEES-MO DE MON-TA-NYA, PÉ-RO SO-LO PWÉ-DO PRAK-TEE-KAR-LO DE VÉTH EN KWAN-DO.",
+      "translation": "C'est super. Moi, le cyclisme de montagne me passionne, mais je peux seulement le pratiquer de temps en temps."
+    },
+    {
+      "speaker": "Marta",
+      "text": "A mi hermano también le chifla la bicicleta. Deberíais salir juntos un día.",
+      "phonetic_api": "/a mi eɾˈmano tamˈbjen le ˈtʃifla la βiθiˈkleta || ðeβeˈɾajis saˈliɾ ˈxuntos un ˈdia/",
+      "phonetic_simple": "A MI ER-MA-NO TAM-BYEN LÉ TCHEE-FLA LA BEE-THEE-KLÉ-TA. DÉ-BÉ-REE-A-EES SA-LEER KHOUN-TOS OUN DEE-A.",
+      "translation": "Mon frère adore aussi le vélo. Vous devriez sortir ensemble un jour."
+    }
+  ],
+  "cultural_notes": [
+    "Le padel (pádel) est devenu l'un des sports de raquette les plus populaires en Espagne, dépassant parfois le tennis traditionnel en nombre de pratiquants amateurs grâce à sa dimension très accessible et conviviale.",
+    "La culture des randonnées à pied (el senderismo) est très ancrée, notamment via le célèbre pèlerinage du 'Camino de Santiago' (Chemin de Saint-Jacques-de-Compostelle) qui allie défi sportif, nature et tradition culturelle."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M1_L2_EX1",
+      "type": "multiple_choice",
+      "question": "Choisissez la forme correcte du verbe : 'A nosotros nos [...] mucho los museos de arte contemporáneo.'",
+      "options": [
+        "interesa",
+        "interesan",
+        "interesas"
+      ],
+      "correct_answer": "interesan",
+      "explanation": "Le sujet de la phrase est 'los museos' (pluriel). Le verbe de type gustar doit donc s'accorder au pluriel pour donner 'interesan'."
+    },
+    {
+      "exercise_id": "B1_M1_L2_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ellos [ ___ ] leer novelas históricas antes de dormir.",
+      "correct_answer": "suelen",
+      "hint": "Forme conjuguée de la troisième personne du pluriel du verbe 'soler' au présent de l'indicatif."
+    }
+  ]
+}

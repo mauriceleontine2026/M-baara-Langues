@@ -1,0 +1,227 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Savoir dire son nom et demander celui de quelqu'un",
+    "Exprimer son âge, son origine géographique et sa profession",
+    "Poser des questions de base sur l'identité d'un interlocuteur"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La double lettre 'll' se prononce généralement comme un 'y' français (/ʝ/ ou /j/). La lettre 'ñ' produit le son 'gn' (/ɲ/) comme dans 'gagner'. Le 'v' se prononce exactement comme un 'b' (/β/ en milieu de mot, doux et sans fermer complètement les lèvres). Le 'z' se prononce comme le 'th' anglais (/θ/) en Espagne.",
+    "common_pitfalls": "Attention au verbe utilisé pour l'âge : on utilise 'tener' (avoir) et non 'ser' ou 'estar' (être). Ne prononcez pas le 'll' de 'me llamo' comme un 'l' double ou un 'li'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Llamarse",
+      "phonetic_api": "/ʝaˈmaɾse/",
+      "phonetic_simple": "YA-MAR-SE",
+      "translation": "S'appeler",
+      "example_sentence": "Me llamo Pedro.",
+      "example_phonetic": "/me ˈʝamo ˈpeðɾo/",
+      "example_translation": "Je m'appelle Pedro."
+    },
+    {
+      "word_id": "v2",
+      "term": "Tener",
+      "phonetic_api": "/teˈneɾ/",
+      "phonetic_simple": "TE-NER",
+      "translation": "Avoir",
+      "example_sentence": "Tengo treinta años.",
+      "example_phonetic": "/ˈteŋɡo ˈtɾejnta ˈaɲos/",
+      "example_translation": "J'ai trente ans."
+    },
+    {
+      "word_id": "v3",
+      "term": "Año",
+      "phonetic_api": "/ˈaɲo/",
+      "phonetic_simple": "A-NYO",
+      "translation": "An / Année",
+      "example_sentence": "Tengo un año más.",
+      "example_phonetic": "/ˈteŋɡo un ˈaɲo ˈmas/",
+      "example_translation": "J'ai un an de plus."
+    },
+    {
+      "word_id": "v4",
+      "term": "De",
+      "phonetic_api": "/de/",
+      "phonetic_simple": "DE",
+      "translation": "De (provenance)",
+      "example_sentence": "Soy de Francia.",
+      "example_phonetic": "/ˈsoj de ˈfɾanθja/",
+      "example_translation": "Je suis de France."
+    },
+    {
+      "word_id": "v5",
+      "term": "Ser",
+      "phonetic_api": "/seɾ/",
+      "phonetic_simple": "SER",
+      "translation": "Être (identité, profession, origine)",
+      "example_sentence": "Yo soy profesor.",
+      "example_phonetic": "/ˈʝo ˈsoj pɾofeˈsoɾ/",
+      "example_translation": "Yo soy profesor."
+    },
+    {
+      "word_id": "v6",
+      "term": "Estudiante",
+      "phonetic_api": "/estuˈðjante/",
+      "phonetic_simple": "ES-TOU-DYAN-TE",
+      "translation": "Étudiant / Étudiante",
+      "example_sentence": "Ella es estudiante.",
+      "example_phonetic": "/ˈeʝa ˈes estuˈðjante/",
+      "example_translation": "Elle est étudiante."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "¿Cómo te llamas?",
+      "phonetic_api": "/ˈkomo te ˈʝamas/",
+      "phonetic_simple": "KO-MO TE YA-MAS",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Cadre informel, pour demander le nom d'un pair."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "¿Cómo se llama usted?",
+      "phonetic_api": "/ˈkomo se ˈʝama wsˈteð/",
+      "phonetic_simple": "KO-MO SE YA-MA OUS-TED",
+      "translation": "Comment vous appelez-vous ?",
+      "context": "Cadre formel, professionnel ou de respect."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Mi nombre es Juan",
+      "phonetic_api": "/mi ˈnombɾe ˈes ˈxwan/",
+      "phonetic_simple": "MI NOM-BRE ES KHOUAN",
+      "translation": "Mon nom est Juan",
+      "context": "Alternative courante pour donner son identité."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "¿Cuántos años tienes?",
+      "phonetic_api": "/ˈkwantos ˈaɲos ˈtjenes/",
+      "phonetic_simple": "KOUAN-TOS A-NYOS TYE-NES",
+      "translation": "Quel âge as-tu ?",
+      "context": "Cadre informel pour demander l'âge."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "¿De dónde eres?",
+      "phonetic_api": "/de ˈðonde ˈeɾes/",
+      "phonetic_simple": "DE DON-DE E-RES",
+      "translation": "D'où es-tu ?",
+      "context": "Pour demander la nationalité ou la ville d'origine."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "¿A qué te dedicas?",
+      "phonetic_api": "/a ˈke te ðeˈðikas/",
+      "phonetic_simple": "A KÉ TE DE-DI-KAS",
+      "translation": "Que fais-tu dans la vie ? / Quelle est ta profession ?",
+      "context": "Formule très naturelle pour s'informer sur le travail de quelqu'un."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le verbe 'SER' pour l'origine et la profession",
+      "explanation": "En espagnol, on utilise le verbe irrégulier 'ser' (être) pour définir des caractéristiques permanentes ou fondamentales de l'identité, comme la nationalité et le métier. Attention : on ne met pas d'article indéfini (un/una) devant la profession, sauf si elle est qualifiée par un adjectif.",
+      "rules": [
+        "Origine : Ser + de + Pays / Ville (ex: Soy de Madrid)",
+        "Profession : Ser + Profession (ex: Soy médico - sans 'un')"
+      ],
+      "examples": [
+        {
+          "structure": "Yo soy ingeniero.",
+          "phonetic_api": "/ˈʝo ˈsoj iŋxeˈnjeɾo/",
+          "meaning": "Je suis ingénieur."
+        },
+        {
+          "structure": "Nosotros somos de México.",
+          "phonetic_api": "/noˈsotɾos ˈsomoz de ˈmexiko/",
+          "meaning": "Nous sommes du Mexique."
+        }
+      ]
+    },
+    {
+      "concept": "Le verbe 'TENER' pour exprimer l'âge",
+      "explanation": "Contrairement au français et à l'anglais qui utilisent le verbe être, l'espagnol emploie le verbe 'tener' (avoir) suivi du nombre d'années ('años'). Omettre le mot 'años' est incorrect.",
+      "rules": [
+        "Structure : Sujet + verbe Tener conjugué + Nombre + años."
+      ],
+      "examples": [
+        {
+          "structure": "Él tiene veinticinco años.",
+          "phonetic_api": "/ˈel ˈtjene βejntiˈθinko ˈaɲos/",
+          "meaning": "Il a vingt-cinq ans."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mateo",
+      "text": "¡Hola! ¿Qué tal? Me llamo Mateo, ¿y tú?",
+      "phonetic_api": "/ˈola ˈke ˈtal || me ˈʝamo maˈteo i ˈtu/",
+      "phonetic_simple": "O-LA ! KÉ TAL ? ME YA-MO MA-TE-O, I TOU ?",
+      "translation": "Salut ! Ça va ? Je m'appelle Mateo, et toi ?"
+    },
+    {
+      "speaker": "Sofía",
+      "text": "¡Hola, Mateo! Yo soy Sofía. Un placer.",
+      "phonetic_api": "/ˈola maˈteo || ˈʝo ˈsoj soˈfia || un plaˈθe⁄/",
+      "phonetic_simple": "O-LA, MA-TE-O ! YO SOY SO-FI-A. OUN PLA-THER.",
+      "translation": "Salut Mateo ! Moi c'est Sofía. Enchantée."
+    },
+    {
+      "speaker": "Mateo",
+      "text": "¿De dónde eres, Sofía? Tu acento es diferente.",
+      "phonetic_api": "/de ˈðonde ˈeɾes soˈfia || tu aˈθento ˈes ðifeˈɾente/",
+      "phonetic_simple": "DE DON-DE E-RES, SO-FI-A ? TOU A-THEN-TO ES DI-FE-REN-TE.",
+      "translation": "D'où es-tu, Sofía ? Ton accent est différent."
+    },
+    {
+      "speaker": "Sofía",
+      "text": "Soy de Argentina, de Buenos Aires. Pero vivo aquí. ¿Y tú, a qué te dedicas?",
+      "phonetic_api": "/ˈsoj de aɾxenˈtina de ˈbwenos ˈajɾes || ˈpeɾo ˈβiβo aˈki || i ˈtu a ˈke te ðeˈðikas/",
+      "phonetic_simple": "SOY DE AR-KHEN-TI-NA, DE BWÉ-NOS AI-RES. PE-RO VI-VO A-KEE. I TOU, A KÉ TE DE-DI-KAS ?",
+      "translation": "Je suis d'Argentine, de Buenos Aires. Mais j'habite ici. Et toi, que fais-tu dans la vie ?"
+    },
+    {
+      "speaker": "Mateo",
+      "text": "Soy informático. Tengo veintiocho años y soy de Madrid.",
+      "phonetic_api": "/ˈsoj infoɾˈmatiko || ˈteŋɡo βejnˈtjotʃo ˈaɲos i ˈsoj de maˈðɾið/",
+      "phonetic_simple": "SOY IN-FOR-MA-TI-KO. TEN-GO BEYN-TYO-TCHO A-NYOS I SOY DE MA-DRID.",
+      "translation": "Je suis informaticien. J'ai vingt-huit ans et je suis de Madrid."
+    }
+  ],
+  "cultural_notes": [
+    "Lors des présentations en Espagne, il est d'usage de faire deux bises (d'abord sur la joue droite, puis la gauche) entre femmes, ou entre un homme et une femme. Les hommes se serrent généralement la main.",
+    "En Argentine et dans d'autres régions d'Amérique latine, le pronom 'tú' est remplacé par 'vos' (le voseo), ce qui modifie légèrement la conjugaison (ex: ¿De dónde sos? au lieu de ¿De dónde eres?)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on correctement 'Je suis secrétaire' en espagnol ?",
+      "options": [
+        "Soy una secretaria",
+        "Soy secretaria",
+        "Estoy secretaria"
+      ],
+      "correct_answer": "Soy secretaria",
+      "explanation": "On utilise le verbe 'ser' et on ne place pas d'article indéfini (una) devant une profession simple."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mi hermana [ ___ ] veinte años.",
+      "correct_answer": "tiene",
+      "hint": "Forme conjuguée du verbe 'tener' à la 3e personne du singulier pour exprimer l'âge."
+    }
+  ]
+}

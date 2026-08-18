@@ -1,0 +1,252 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché/restaurant)",
+  "learning_objectives": [
+    "Identifier le lexique de base des aliments, des fruits, des légumes et des boissons courantes",
+    "Formuler une commande ou un achat de manière courtoise dans un restaurant ou un étal de marché",
+    "Exprimer ses préférences alimentaires simples et demander l'addition ou le prix"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en pratique des articulations variées. Le /tˤ/ (ط) emphatique de 'Ṭa'ām' (nourriture) et 'Maṭ'am' (restaurant) donne une résonance lourde et sombre à la voyelle /a/. Le sound /ħ/ (ح) est présent dans 'Lal-Lāḥm' (viande) et ' الحِسَاء' (la soupe). L'occlusive uvulaire sourde /q/ (ق) structure la demande de la note dans 'Fātūrah' ou le verbe 'al-Yashrab' (boire).",
+    "common_pitfalls": "Veillez à ne pas prononcer le /tˤ/ (ط) comme un /t/ (ت) léger français, ce qui dénaturerait le mot 'Maṭ'am'. De même, détachez distinctement les voyelles longues dans 'Dajāj' (poulet) pour ne pas accentuer la mauvaise syllabe."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "طَعَامٌ",
+      "phonetic_api": "/tˤa.ʕaː.mun/",
+      "phonetic_simple": "TA-AA-MOUN",
+      "translation": "Nourriture / Plat",
+      "example_sentence": "الطَّعَامُ لَذِيذٌ جِدًّا",
+      "example_phonetic": "/atˤ.tˤa.ʕaː.mu la.ðiː.ðun dʒid.dan/",
+      "example_translation": "La nourriture est très délicieuse"
+    },
+    {
+      "word_id": "v2",
+      "term": "مَاءٌ",
+      "phonetic_api": "/maː.ʔun/",
+      "phonetic_simple": "MAA-OUN",
+      "translation": "Eau",
+      "example_sentence": "أُرِيدُ كَأْسَ مَاءٍ",
+      "example_phonetic": "/ʔu.riː.du kaʔ.sa maː.ʔin/",
+      "example_translation": "Je veux un verre d'eau"
+    },
+    {
+      "word_id": "v3",
+      "term": "دَجَاجٌ",
+      "phonetic_api": "/da.dʒaː.dʒun/",
+      "phonetic_simple": "DA-DJAA-DJOUN",
+      "translation": "Poulet",
+      "example_sentence": "آكُلُ الدَّجَاجَ مَعَ الأُرْزِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Je mange du poulet avec du riz"
+    },
+    {
+      "word_id": "v4",
+      "term": "خُضَارٌ",
+      "phonetic_api": "/xu.dˤaː.run/",
+      "phonetic_simple": "KHOU-DAAR-OUN",
+      "translation": "Légumes",
+      "example_sentence": "أَشْتَرِي خُضَارًا طَازَجَةً",
+      "example_phonetic": "/.../",
+      "example_translation": "J'achète des légumes frais"
+    },
+    {
+      "word_id": "v5",
+      "term": "قَهْوَةٌ",
+      "phonetic_api": "/qah.wa.tun/",
+      "phonetic_simple": "KAH-OUA-TOUN",
+      "translation": "Café",
+      "example_sentence": "قَهْوَةٌ بِالسُّكَّرِ مِنْ فَضْلِكَ",
+      "example_phonetic": "/qah.wa.tun bis.suk.ka.ri min fadˤ.lika/",
+      "example_translation": "Un café avec du sucre s'il te plaît"
+    },
+    {
+      "word_id": "v6",
+      "term": "حِسَابٌ",
+      "phonetic_api": "/ħi.saː.bun/",
+      "phonetic_simple": "HI-SAA-BOUN",
+      "translation": "L'addition / Le compte",
+      "example_sentence": "الْحِسَابُ مِنْ فَضْلِكَ",
+      "example_phonetic": "/al.ħi.saː.bu min fadˤ.li.ka/",
+      "example_translation": "L'addition s'il te plaît"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "مَاذَا تُرِيدُ أَنْ تَأْكُلَ؟",
+      "phonetic_api": "/maː.ðaː tu.riː.du ʔan taʔ.ku.la/",
+      "phonetic_simple": "MAA-THAA TOU-RII-DOU AN TA'-KOU-LA",
+      "translation": "Que veux-tu manger ? (à un homme)",
+      "context": "Question du serveur ou de l'hôte au moment du choix."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "أُرِيدُ لَحْمًا مَشْوِيًّا",
+      "phonetic_api": "/ʔu.riː.du laħ.man maʃ.wij.jan/",
+      "phonetic_simple": "OU-RII-DOU LAH-MAN MACH-OUIY-YAN",
+      "translation": "Je veux de la viande grillée",
+      "context": "Passer commande d'un plat principal de viande."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "بِدُونِ سُكَّرٍ مِنْ فَضْلِكِ",
+      "phonetic_api": "/bi.duː.ni suk.ka.rin min fadˤ.li.ki/",
+      "phonetic_simple": "BI-DOOU-NI SOUK-KA-RIN MIN FAD-LI-KI",
+      "translation": "Sans sucre, s'il te plaît (à une femme)",
+      "context": "Préciser une restriction ou préférence pour une boisson (thé, café)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "كَمْ سِعْرُ هَذَا الْكِيلُو؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "KAM SIB-ROU HAA-THAL KII-LOU",
+      "translation": "Combien coûte ce kilo ?",
+      "context": "Question type posée au marchand de fruits et légumes du souk."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "أَنَا نَبَاتِيٌّ",
+      "phonetic_api": "/ʔa.naː na.baː.tiː.jun/",
+      "phonetic_simple": "A-NAA NA-BAA-TII-YOUN",
+      "translation": "Je suis végétarien",
+      "context": "Indiquer un régime alimentaire spécifique dans un restaurant."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "الْقَائِمَةُ مِنْ فَضْلِكَ",
+      "phonetic_api": "/al.qaː.ʔi.ma.tu min fadˤ.li.ka/",
+      "phonetic_simple": "AL-KAA-I-MA-TOU MIN FAD-LI-KA",
+      "translation": "Le menu / La carte s'il te plaît",
+      "context": "En arrivant à la table du restaurant."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du souhait poli : Le verbe 'Urīdu' (أُرِيدُ)",
+      "explanation": "Pour commander ou acheter quelque chose, on emploie la première personne du présent du verbe vouloir : 'Urīdu' (Je veux / Je souhaiterais). C'est la formule standard la plus polie, équivalente à notre conditionnel de courtoisie.",
+      "rules": [
+        "Le nom d'aliment ou de boisson placé directement après 'Urīdu' est l'objet direct (Mafe'ool Bihi) de l'action.",
+        "Par conséquent, ce nom doit porter la marque du cas direct (Fatha ou Tanween Al-Fath : -an)."
+      ],
+      "examples": [
+        {
+          "structure": "أُرِيدُ شَايًا",
+          "phonetic_api": "/ʔu.riː.du ʃaː.jan/",
+          "meaning": "Je veux un thé (Shāy prend le tanween -an)"
+        },
+        {
+          "structure": "أُرِيدُ السَّمَكَ",
+          "phonetic_api": "/ʔu.riː.du as.sa.ma.ka/",
+          "meaning": "Je veux le poisson (As-samak prend la fatha simple -a car défini)"
+        }
+      ]
+    },
+    {
+      "concept": "L'accord de l'adjectif qualificatif alimentaire",
+      "explanation": "Les adjectifs servant à décrire l'état de la nourriture (chaud, froid, grillé, frais) suivent rigoureusement le nom qu'ils qualifient.",
+      "rules": [
+        "L'adjectif se place obligatoirement après le nom.",
+        "Il s'accorde en genre (masculin/féminin) et en cas (nominatif, accusé, génitif) avec le nom."
+      ],
+      "examples": [
+        {
+          "structure": "قَهْوَةٌ حَارَّةٌ",
+          "phonetic_api": "/qah.wa.tun ħaːr.ra.tun/",
+          "meaning": "Un café chaud (Kahwah étant féminin, l'adjectif hārrah prend le Ta Marboutah)"
+        },
+        {
+          "structure": "مَاءٌ بَارِدٌ",
+          "phonetic_api": "/maː.ʔun baː.ri.dun/",
+          "meaning": "De l'eau froide (Mā' est masculin, bārid reste masculin)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "النَّادِلُ (Le serveur)",
+      "text": "أَهْلًا وَسَهْلًا بِكُمْ فِي مَطْعَمِنَا. مَاذَا تُرِيدُونَ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN WA SAH-LAN BI-KOUM FII MAT-A-MI-NAA. MAA-THAA TOU-RII-DOOU-NA",
+      "translation": "Bienvenue à vous dans notre restaurant. Que désirez-vous (au pluriel) ?"
+    },
+    {
+      "speaker": "تُومَاس (Thomas)",
+      "text": "أَهْلًا بِكَ. أُرِيدُ الدَّجَاجَ مَعَ الأُرْزِ، وَالسَّلَطَةَ مِنْ فَضْلِكَ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN BI-KA. OU-RII-DOU AD-DA-DJAA-DJA MA-AL OUR-ZI, WAL-SA-LA-TA MIN FAD-LI-KA",
+      "translation": "Merci à toi. Je voudrais le poulet avec du riz, et la salade s'il te plaît."
+    },
+    {
+      "speaker": "النَّادِلُ (Le serveur)",
+      "text": "وَ مَاذَا تُرِيدُ أَنْ تَشْرَبَ؟ هَلْ تُرِيدُ عَصِيرًا؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "WA MAA-THAA TOU-RII-DOU AN TACH-RA-BA? HAL TOU-RII-DOU A-SII-RAN",
+      "translation": "Et que veux-tu boire ? Veux-tu un jus ?"
+    },
+    {
+      "speaker": "تُومَاس (Thomas)",
+      "text": "لَا، أُرِيدُ زُجَاجَةَ مَاءٍ بَارِدٍ فَقَطْ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "LAA, OU-RII-DOU ZOU-DJAA-DJATA MAA-IN BAA-RI-DIN FA-KAT",
+      "translation": "Non, je veux une bouteille d'eau froide seulement."
+    },
+    {
+      "speaker": "النَّادِلُ (Le serveur)",
+      "text": "حَاضِرٌ يَا سَيِّدِي. ... (بَعْدَ الأَكْلِ) ... هَلِ الطَّعَامُ لَذِيذٌ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAA-DIR-OUN YA SAY-YI-DII. ... HAL IT-TA-AA-MOU LA-THII-TH",
+      "translation": "Tout de suite monsieur. ... (Après le repas) ... Est-ce que la nourriture est bonne ?"
+    },
+    {
+      "speaker": "تُومَاس (Thomas)",
+      "text": "نَعَمْ، مُمْتَازٌ جَدًّا! الْحِسَابُ مِنْ فَضْلِكَ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "NA-AM, MOUM-TAAZ DJID-DAN! AL-HI-SAA-BOU MIN FAD-LI-KA",
+      "translation": "Oui, c'est vraiment excellent ! L'addition s'il te plaît."
+    }
+  ],
+  "cultural_notes": [
+    "La culture du Thé et du Café : Offrir un thé à la menthe (au Maghreb) ou un café à la cardamome (dans le Golfe) est le pilier absolu de l'hospitalité marchande ou privée. Refuser une boisson offerte lors d'une négociation au marché peut être mal perçu.",
+    "La nourriture Halal : Dans l'immense majorité du monde arabe, l'intégralité des viandes servies dans les marchés publics et restaurants répond aux critères d'abattage rituel islamique (Halal). Le porc y est absent des structures traditionnelles."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L8_ex1",
+      "type": "multiple_choice",
+      "question": "Vous êtes au restaurant et souhaitez demander la facture. Quelle expression utilisez-vous ?",
+      "options": [
+        "الْقَائِمَةُ مِنْ فَضْلِكَ (Al-Qā'imah min fadlika)",
+        "الْحِسَابُ مِنْ فَضْلِكَ (Al-Ḥisābu min fadlika)",
+        "أَنَا نَبَاتِيٌّ (Anā nabātiyy)"
+      ],
+      "correct_answer": "الْحِسَابُ مِنْ فَضْلِكَ (Al-Ḥisābu min fadlika)",
+      "explanation": "Al-Ḥisāb désigne le compte, le calcul ou l'addition dans le contexte d'un commerce ou restaurant."
+    },
+    {
+      "exercise_id": "A1_M3_L8_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour commander poliment un thé chaud, vous formulez : أُرِيدُ شَايًا [ ___ ]",
+      "correct_answer": "حَارًّا",
+      "hint": "L'adjectif masculin singulier pour chaud doit s'accorder au cas direct (-an) avec Shāyan."
+    },
+    {
+      "exercise_id": "A1_M3_L8_ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie l'adjectif 'طَازَجٌ' (Ṭāzaj) accolé à un étal de fruits ?",
+      "options": [
+        "Cuit",
+        "Frais",
+        "Cher"
+      ],
+      "correct_answer": "Frais",
+      "explanation": "Ṭāzaj qualifie des aliments (fruits, légumes, poissons) fraîchement récoltés ou produits."
+    }
+  ]
+}

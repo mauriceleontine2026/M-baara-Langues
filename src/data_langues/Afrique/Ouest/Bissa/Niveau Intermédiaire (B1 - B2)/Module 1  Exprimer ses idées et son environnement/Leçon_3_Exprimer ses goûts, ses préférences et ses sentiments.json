@@ -1,0 +1,208 @@
+{
+  "lesson_id": "B1_M1_L3",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 3,
+  "title": "Exprimer ses goûts, ses préférences et ses sentiments",
+  "learning_objectives": [
+    "Exprimer l'appréciation, l'amour ou la préférence pour un objet, une action ou une personne en bissa",
+    "Formuler le rejet, le désaccord ou l'aversion de manière respectueuse et idiomatique",
+    "Décrire son état émotionnel (joie, tristesse, colère, satisfaction) en utilisant les métaphores corporelles bissa"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en jeu la voyelle nasale fermée /ũ/ et l'articulation de la palatale voisée /ɟ/ ('gii/gyi'). L'expression des sentiments requiert une accentuation tonale précise sur le radical nominal lié aux organes internes (comme 'gã' pour le foie/cœur), où un ton haut exprime l'intensité affective.",
+    "common_pitfalls": "Attention à ne pas prononcer le mot 'gã' (organes internes / siège des émotions) comme 'gãã' (le chemin). La voyelle du premier est brève et nasale, tandis que celle du second est longue."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Gã",
+      "phonetic_api": "/ɡã/",
+      "phonetic_simple": "GAN",
+      "translation": "Cœur / foie / siège interne des sentiments et émotions",
+      "example_sentence": "M gã n dɔ",
+      "example_phonetic": "/m̩ ɡã n̩ dɔ/",
+      "example_translation": "Dans mon cœur."
+    },
+    {
+      "word_id": "v2",
+      "term": "N dɔ ki",
+      "phonetic_api": "/n̩ dɔ ki/",
+      "phonetic_simple": "N DO KI",
+      "translation": "Plaire / aimer / agréer (action d'apprécier)",
+      "example_sentence": "A bɔ m dɔ ki",
+      "example_phonetic": "/a bɔ m̩ dɔ ki/",
+      "example_translation": "Cela me plaît / J'aime ça."
+    },
+    {
+      "word_id": "v3",
+      "term": "Mbe la",
+      "phonetic_api": "/mbe la/",
+      "phonetic_simple": "MBE LA",
+      "translation": "Être bon / agréable / bienveillant",
+      "example_sentence": "Gũu di la mbe la m dɔ",
+      "example_phonetic": "/ɡũː di la mbe la m̩ dɔ/",
+      "example_translation": "Manger du tô est bon pour moi."
+    },
+    {
+      "word_id": "v4",
+      "term": "Gyi",
+      "phonetic_api": "/ɟi/",
+      "phonetic_simple": "GYI",
+      "translation": "Préférer / choisir / trier",
+      "example_sentence": "M gyi bɔlɔ gẽ la ki",
+      "example_phonetic": "/m̩ ɟi bɔlɔ ɡẽ la ki/",
+      "example_translation": "Je préfère jouer au football."
+    },
+    {
+      "word_id": "v5",
+      "term": "Sũũ",
+      "phonetic_api": "/sũː/",
+      "phonetic_simple": "SOUUN",
+      "translation": "Colère / irritation / amertume",
+      "example_sentence": "Sũũ bɔ m dɔ",
+      "example_phonetic": "/sũː bɔ m̩ dɔ/",
+      "example_translation": "La colère est sur moi (Je suis en colère)."
+    },
+    {
+      "word_id": "v6",
+      "term": "Hoorɩ",
+      "phonetic_api": "/hoːʁɪ/",
+      "phonetic_simple": "HOO-RI",
+      "translation": "Se réjouir / joie / contentement",
+      "example_sentence": "M gã bɔ hoorɩ la ki",
+      "example_phonetic": "/m̩ ɡã bɔ hoːʁɪ la ki/",
+      "example_translation": "Mon cœur se réjouit (Je suis joyeux)."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "M gã bɔ hoorɩ la ki",
+      "phonetic_api": "/m̩ ɡã bɔ hoːʁɪ la ki/",
+      "phonetic_simple": "M GAN BO HOO-RI LA KI",
+      "translation": "Je suis très heureux / Mon cœur est en joie",
+      "context": "Pour exprimer un sentiment profond de bonheur ou de satisfaction."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "A bɔ m dɔ ki",
+      "phonetic_api": "/a bɔ m̩ dɔ ki/",
+      "phonetic_simple": "A BO M DO KI",
+      "translation": "J'aime cela / Ça me plaît",
+      "context": "Expression de base pour valider un goût culinaire, un vêtement ou une idée."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "M gyi [A] n gaa [B]",
+      "phonetic_api": "/m̩ ɟi n̩ ɡaː/",
+      "phonetic_simple": "M GYI [A] N GAA [B]",
+      "translation": "Je préfère [A] à [B]",
+      "context": "Structure syntaxique indispensable pour énoncer un choix ou une préférence claire."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Sũũ bɔ m dɔ, n gaa gi bɔ ki",
+      "phonetic_api": "/sũː bɔ m̩ dɔ n̩ ɡaː ɟi bɔ ki/",
+      "phonetic_simple": "SOUUN BO M DO, N GAA GYI BO KI",
+      "translation": "Je suis en colère, ne me parle pas",
+      "context": "Pour signifier fermement son irritation à son interlocuteur."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "A gaa m dɔ ki",
+      "phonetic_api": "/a ɡaː m̩ dɔ ki/",
+      "phonetic_simple": "A GAA M DO KI",
+      "translation": "Je n'aime pas ça / Cela ne me plaît pas",
+      "context": "Négation polie mais directe de son appréciation."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La métaphore somatique pour l'expression des sentiments",
+      "explanation": "En bissa, les émotions et les sentiments ne sont pas des concepts abstraits désincarnés. Ils sont vécus et localisés à l'intérieur du corps, principalement dans le 'gã' (le foie ou le cœur selon les contextes dialectaux), qui subit les processus d'échauffement, de joie ou de resserrement.",
+      "rules": [
+        "Joie : Mon cœur/foie fait une action de réjouissance (Sujet nominal 'gã' + verbe 'hoorɩ').",
+        "Colère : La colère 'sũũ' est matérialisée comme une entité physique posée sur le sujet via la locution 'bɔ ... dɔ'."
+      ],
+      "examples": [
+        {
+          "structure": "M gã (Mon cœur) + bɔ hoorɩ la ki (se réjouit) = M gã bɔ hoorɩ la ki",
+          "phonetic_api": "/m̩ ɡã bɔ hoːʁɪ la ki/",
+          "meaning": "Je suis joyeux (litt. : Mon cœur est en train de se réjouir)."
+        }
+      ]
+    },
+    {
+      "concept": "La structure comparative de préférence avec 'Gyi ... n gaa'",
+      "explanation": "Pour exprimer qu'on préfère une chose à une autre, le bissa utilise le verbe de sélection 'gyi' encadrant le premier choix, puis introduit le second choix par le biais du verbe de mouvement 'gaa' qui fait office de marqueur comparatif de supériorité.",
+      "rules": [
+        "Structure : Sujet + gyi + [Option Préférée] + n gaa + [Option Rejetée].",
+        "Cette construction verbale en série est typique de la syntaxe des langues mandées."
+      ],
+      "examples": [
+        {
+          "structure": "M gyi gũu (Je préfère le tô) + n gaa mɔnɔ (en allant vers la bouillie)",
+          "phonetic_api": "/m̩ ɟi ɡũː n̩ ɡaː mɔnɔ/",
+          "meaning": "Je préfère le tô à la bouillie."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Alimata",
+      "text": "Mariam, m bɔ mɔnɔ di la ki ? A bɔ m dɔ ki ?",
+      "phonetic_api": "/mariam m̩ bɔ mɔnɔ di la ki a bɔ m̩ dɔ ki/",
+      "phonetic_simple": "MA-RIAM, M BO MO-NO DI LA KI ? A BO M DO KI ?",
+      "translation": "Mariam, es-tu en train de manger de la bouillie ? Est-ce que ça te plaît ?"
+    },
+    {
+      "speaker": "Mariam",
+      "text": "An, mɔnɔ gaa m dɔ ki. M gyi gũu n gaa mɔnɔ.",
+      "phonetic_api": "/an mɔnɔ ɡaː m̩ dɔ ki m̩ ɟi ɡũː n̩ ɡaː mɔnɔ/",
+      "phonetic_simple": "AN, MO-NO GAA M DO KI. M GYI GOUUN N GAA MO-NO.",
+      "translation": "Non, la bouillie ne me plaît pas. Je préfère le tô à la bouillie."
+    },
+    {
+      "speaker": "Alimata",
+      "text": "Hẽe la gũu wiri ! M gã bɔ hoorɩ la ki bɔ ?",
+      "phonetic_api": "/hẽː la ɡũː wiʁi m̩ ɡã bɔ hoːʁɪ la ki bɔ/",
+      "phonetic_simple": "HEEN LA GOUUN WI-RI ! M GAN BO HOO-RI LA KI BO ?",
+      "translation": "Aujourd'hui c'est le jour du tô ! Ton cœur se réjouit-il ?"
+    },
+    {
+      "speaker": "Mariam",
+      "text": "An, m gã bɔ hoorɩ la ki bisi. Barka boi !",
+      "phonetic_api": "/an m̩ ɡã bɔ hoːʁɪ la ki bisi baʁka bɔi/",
+      "phonetic_simple": "AN, M GAN BO HOO-RI LA KI BI-SI. BAR-KA BOI !",
+      "translation": "Oui, mon cœur se réjouit énormément. Grand merci !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les structures linguistiques du peuple Bissa au Burkina Faso, le mot 'gã' désigne traditionnellement les viscères, en particulier le foie, considéré comme le véritable centre nerveux des sentiments, de l'intuition, de l'affection et du courage, là où la pensée occidentale place de manière privilégiée le cœur métaphorique.",
+    "Formuler un refus ou une aversion en bissa s'accompagne souvent d'une modulation vocale douce et d'un remerciement anticipé pour ne pas froisser l'hôte, illustrant la valeur culturelle du respect mutuel ('barka') et de la préservation de l'harmonie communautaire."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel organe corporel ('siège des émotions') utilise-t-on en bissa pour déclarer que l'on est heureux ?",
+      "options": [
+        "kur (le cou)",
+        "gã (le cœur / foie)",
+        "nyii (la dent)"
+      ],
+      "correct_answer": "gã",
+      "explanation": "C'est le mot 'gã' qui sert de base métaphorique et anatomique pour exprimer la joie ou l'amour."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour exprimer qu'une chose ne nous plaît pas, on utilise la forme négative : A [ ___ ] m dɔ ki.",
+      "correct_answer": "gaa",
+      "hint": "La marque négative bissa venant modifier le procès de l'appréciation."
+    }
+  ]
+}

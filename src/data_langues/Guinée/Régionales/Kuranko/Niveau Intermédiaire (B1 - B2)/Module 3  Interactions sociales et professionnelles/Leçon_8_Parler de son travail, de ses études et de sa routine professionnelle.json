@@ -1,0 +1,169 @@
+{
+  "lesson_id": "B1_M3_L8",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 8,
+  "title": "Parler de son travail, de ses études et de sa routine professionnelle",
+  "learning_objectives": [
+    "Décrire les tâches principales de sa profession ou de ses études",
+    "Exprimer les actions régulières de sa routine quotidienne au travail",
+    "Utiliser les indicateurs de temps pour structurer une journée professionnelle"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le groupe consonantique 'gw' dans 'gwɛra' s'articule comme une consonne occlusive labio-vélaire. Le son 'b' dans 'bara' est bilabial et net. La voyelle fermée 'u' dans 'kunu' doit garder sa pureté sans s'ouvrir.",
+    "common_pitfalls": "Attention à ne pas assimiler le 'n' dans 'kalan' (étudier/lire) à un 'n' français dur. Il s'agit d'une nasalisation complète de la voyelle précédente."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_b1_m3_l8",
+      "term": "Bara",
+      "phonetic_api": "/ba.ra/",
+      "phonetic_simple": "BA-RA",
+      "translation": "Travail / Labeur / S'activer",
+      "example_sentence": "N bɛ ta bara la",
+      "example_phonetic": "/ɱ͡bɛ ta ba.ra la/",
+      "example_translation": "Je vais au travail"
+    },
+    {
+      "word_id": "v2_b1_m3_l8",
+      "term": "Kalan",
+      "phonetic_api": "/ka.lan/",
+      "phonetic_simple": "KA-LAN",
+      "translation": "Étudier / Lire / Instruire",
+      "example_sentence": "N bɛ sɛbɛn kalan ra",
+      "example_phonetic": "/ɱ͡bɛ sɛ.bɛn ka.lan ra/",
+      "example_translation": "Je suis en train d'étudier un livre"
+    },
+    {
+      "word_id": "v3_b1_m3_l8",
+      "term": "Gwɛra",
+      "phonetic_api": "/g͡wɛ.ra/",
+      "phonetic_simple": "GWƐ-RA",
+      "translation": "Se lever tôt / Matinal",
+      "example_sentence": "N gwɛra sɔgɔma",
+      "example_phonetic": "/ɲ͡g͡wɛ.ra sɔ.gɔ.ma/",
+      "example_translation": "Je me suis levé tôt ce matin"
+    },
+    {
+      "word_id": "v4_b1_m3_l8",
+      "term": "Ɲɛmɔgɔ",
+      "phonetic_api": "/ɲɛ.mɔ.gɔ/",
+      "phonetic_simple": "NYƐ-MƆ-GƆ",
+      "translation": "Chef / Responsable / Dirigeant (litt. : personne de devant)",
+      "example_sentence": "N ya ɲɛmɔgɔ le ra",
+      "example_phonetic": "/ɲ͡ja ɲɛ.mɔ.gɔ le ra/",
+      "example_translation": "C'est mon responsable"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_b1_m3_l8",
+      "original": "I bɛ mun bara kɛ lon o lon ?",
+      "phonetic_api": "/i bɛ mun ba.ra kɛ lon o lon/",
+      "phonetic_simple": "I BƐ MOUN BA-RA KƐ LON O LON ?",
+      "translation": "Quel travail fais-tu chaque jour ?",
+      "context": "S'informer sur la routine professionnelle d'une personne."
+    },
+    {
+      "phrase_id": "p2_b1_m3_l8",
+      "original": "N bɛ gwɛra sɔgɔma ka ta seneda la",
+      "phonetic_api": "/ɱ͡bɛ g͡wɛ.ra sɔ.gɔ.ma ka ta se.ne.da la/",
+      "phonetic_simple": "N BƐ GWƐ-RA SƆ-GƆ-MA KA TA SE-NE-DA LA",
+      "translation": "Je me lève tôt le matin pour aller au champ",
+      "context": "Décrire sa routine matinale agricole ou professionnelle."
+    },
+    {
+      "phrase_id": "p3_b1_m3_l8",
+      "original": "N ya kalan bɛ kɛ ra lɔgɔfaga so kɔnɔ",
+      "phonetic_api": "/ɲ͡ja ka.lan bɛ kɛ ra lɔ.gɔ.fa.ga so kɔ.nɔ/",
+      "phonetic_simple": "N YA KA-LAN BƐ KƐ RA LƆ-GƆ-FA-GA SO KƆ-NƆ",
+      "translation": "Mes études se déroulent à l'école (maison d'apprentissage)",
+      "context": "Parler de son cadre d'études."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction de la routine avec les verbes séquentiels 'ka'",
+      "explanation": "Pour énumérer des actions successives constituant une routine professionnelle ou quotidienne, le kuranko conjugue le premier verbe à l'inaccompli ('bɛ') et relie les actions suivantes à l'aide de la particule infinitive 'ka'.",
+      "rules": [
+        "Structure : Sujet + bɛ + Verbe 1 + [Complément] + ka + Verbe 2"
+      ],
+      "examples": [
+        {
+          "structure": "N bɛ gwɛra sɔgɔma ka bara kɛ",
+          "phonetic_api": "/ɱ͡bɛ g͡wɛ.ra sɔ.gɔ.ma ka ba.ra kɛ/",
+          "meaning": "Je me lève tôt le matin pour faire du travail"
+        }
+      ]
+    },
+    {
+      "concept": "Le locatif d'activité professionnelle avec 'la/ra'",
+      "explanation": "Pour indiquer qu'on se trouve en plein exercice de sa profession ou sur son lieu de labeur, on utilise la postposition spatio-temporelle 'la' ou 'ra' après le nom de l'activité.",
+      "rules": [
+        "Structure : Sujet + bɛ + [Nom de l'activité/Lieu] + la/ra"
+      ],
+      "examples": [
+        {
+          "structure": "A bɛ seneda la",
+          "phonetic_api": "/a bɛ se.ne.da la/",
+          "meaning": "Il/Elle est au champ (en train de cultiver)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Fodé",
+      "text": "Lamine, i ya routine bɛ di lon o lon ?",
+      "phonetic_api": "/la.mi.ne i ja rou.ti.ne bɛ di lon o lon/",
+      "phonetic_simple": "LA-MI-NE, I YA ROU-TI-NE BƐ DI LON O LON ?",
+      "translation": "Lamine, comment est ta routine chaque jour ?"
+    },
+    {
+      "speaker": "Lamine",
+      "text": "N bɛ gwɛra sɔgɔma nɛgɛ wɔrɔ ra, ka ta kalan so la fɔlɔ.",
+      "phonetic_api": "/ɱ͡bɛ g͡wɛ.ra sɔ.gɔ.ma nɛ.gɛ wɔ.rɔ ra ka ta ka.lan so la fɔ.lɔ/",
+      "phonetic_simple": "N BƐ GWƐ-RA SƆ-GƆ-MA NƐ-GƐ WƆ-RƆ RA, KA TA KA-LAN SO LA FƆ-LƆ.",
+      "translation": "Je me lève tôt le matin à six heures, pour aller d'abord à l'école."
+    },
+    {
+      "speaker": "Fodé",
+      "text": "I bɛ mun kɛ ra kalan so kɔnɔ ?",
+      "phonetic_api": "/i bɛ mun kɛ ra ka.lan so kɔ.nɔ/",
+      "phonetic_simple": "I BƐ MOUN KƐ RA KA-LAN SO KƆ-NƆ ?",
+      "translation": "Qu'est-ce que tu fais à l'intérieur de l'école ?"
+    },
+    {
+      "speaker": "Lamine",
+      "text": "N bɛ sɛbɛn kalan ra ka n ya ɲɛmɔgɔ lamɛn kosɛbɛ.",
+      "phonetic_api": "/ɱ͡bɛ sɛ.bɛn ka.lan ra ka ɲ͡ja ɲɛ.mɔ.gɔ la.mɛn ko.sɛ.bɛ/",
+      "phonetic_simple": "N BƐ SƐ-BƐN KA-LAN RA KA N YA NYƐ-MƆ-GƆ LA-MƐN KO-SƐ-BƐ.",
+      "translation": "J'étudie les livres et j'écoute attentivement mon enseignant (responsable)."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les communautés Kuranko, le rythme quotidien est traditionnellement calqué sur le soleil et les saisons agricoles. Se lever à l'aube ('gwɛra sɔgɔma') est une qualité morale très valorisée, synonyme de bravoure et de dévouement envers la famille, que ce soit pour aller travailler la terre ('seneda') ou pour se rendre à l'école."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_b1_m3_l8",
+      "type": "multiple_choice",
+      "question": "Que signifie littéralement le mot composé 'Kalan so' ?",
+      "options": [
+        "La maison de campagne",
+        "La maison d'étude (l'école)",
+        "Le bureau du chef"
+      ],
+      "correct_answer": "La maison d'étude (l'école)",
+      "explanation": "'Kalan' signifie étudier/lire et 'so' signifie maison ou bâtiment."
+    },
+    {
+      "exercise_id": "ex2_b1_m3_l8",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Je vais au travail', on complète la phrase : N bɛ ta [ ___ ] la.",
+      "correct_answer": "bara",
+      "hint": "Le mot désignant le labeur ou le travail"
+    }
+  ]
+}

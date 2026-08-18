@@ -1,0 +1,157 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter de 1 à 20 en langue Mano",
+    "Exprimer des quantités simples avec des noms d'objets",
+    "Comprendre la structure quinaire (base 5) du système de numération"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La numération en Mano met en relief des allongements de voyelles (indiqués par le doublement de la lettre, ex: /eː/) et des alternances consonantiques. Le chiffre 5 /dɔ́ːlú/ utilise une consonne latérale et des tons spécifiques hauts qui marquent la fin de la première base numérique.",
+    "common_pitfalls": "Veillez à ne pas prononcer le 'u' à la française dans les nombres. Le son /u/ se prononce toujours 'ou'. Respectez scrupuleusement la durée des voyelles longues pour ne pas déformer les chiffres."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v5_1",
+      "term": "dōo",
+      "phonetic_api": "/doː˧/",
+      "phonetic_simple": "DÔÔ",
+      "translation": "Un (1)",
+      "example_sentence": "kpan dōo",
+      "example_phonetic": "/kpã˧ doː˧/",
+      "example_translation": "Une assiette"
+    },
+    {
+      "word_id": "v5_2",
+      "term": "pɛ̄ɛ",
+      "phonetic_api": "/pɛː˧/",
+      "phonetic_simple": "PÈÈ",
+      "translation": "Deux (2)",
+      "example_sentence": "nɛ̃ pɛ̄ɛ",
+      "example_phonetic": "/nɛ̃˧ pɛː˧/",
+      "example_translation": "Deux enfants"
+    },
+    {
+      "word_id": "v5_3",
+      "term": "yaá",
+      "phonetic_api": "/jaː˦/",
+      "phonetic_simple": "YAA",
+      "translation": "Trois (3)",
+      "example_sentence": "bo yaá",
+      "example_phonetic": "/bo˧ jaː˦/",
+      "example_translation": "Trois amis"
+    },
+    {
+      "word_id": "v5_4",
+      "term": "yiɛ̄",
+      "phonetic_api": "/jiɛː˧/",
+      "phonetic_simple": "YIÈ",
+      "translation": "Quatre (4)",
+      "example_sentence": "de yiɛ̄",
+      "example_phonetic": "/de˧ jiɛː˧/",
+      "example_translation": "Quatre pères"
+    },
+    {
+      "word_id": "v5_5",
+      "term": "dɔ́ːlú",
+      "phonetic_api": "/dɔː˦lu˦/",
+      "phonetic_simple": "DOR-LOU",
+      "translation": "Cinq (5)",
+      "example_sentence": "mī dɔ́ːlú",
+      "example_phonetic": "/miː˧ dɔː˦lu˦/",
+      "example_translation": "Cinq (bouteilles d') eau"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p5_1",
+      "original": "A ɓe mɛ̀?",
+      "phonetic_api": "/a˧ ɓe˧ mɛ˩/",
+      "phonetic_simple": "A BÉ MÈ ?",
+      "translation": "Combien sont-ils ? / Combien ça coûte ?",
+      "context": "Demander une quantité ou une valeur numérique."
+    },
+    {
+      "phrase_id": "p5_2",
+      "original": "A ɓe dɔ́ːlú.",
+      "phonetic_api": "/a˧ ɓe˧ dɔː˦lu˦/",
+      "phonetic_simple": "A BÉ DOR-LOU",
+      "translation": "Ils sont cinq. / C'est cinq.",
+      "context": "Répondre pour indiquer une quantité précise."
+    },
+    {
+      "phrase_id": "p5_3",
+      "original": "Mī yaá zɛ̃́ ń la.",
+      "phonetic_api": "/miː˧ jaː˦ zɛ̃˦ ń la˧/",
+      "phonetic_simple": "MEE YAA ZENG N LA",
+      "translation": "J'ai trois verres d'eau.",
+      "context": "Énumérer ses possessions immédiates."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La position du numéral cardinal",
+      "explanation": "En langue Mano, l'adjectif numéral cardinal (le chiffre ou nombre) se place toujours immédiatement après le nom qu'il qualifie. Le nom ne prend généralement pas de marque plurielle morphologique distincte car le nombre suffit à expliciter la quantité.",
+      "rules": [
+        "Structure : [Nom] + [Nombre]",
+        "Le ton du nom peut parfois s'assimiler ou s'ajuster au ton du chiffre qui le suit immédiatement."
+      ],
+      "examples": [
+        {
+          "structure": "kpan pɛ̄ɛ",
+          "phonetic_api": "/kpã˧ pɛː˧/",
+          "meaning": "Deux assiettes"
+        },
+        {
+          "structure": "bo yiɛ̄",
+          "phonetic_api": "/bo˧ jiɛː˧/",
+          "meaning": "Quatre amis"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Vendeur",
+      "text": "Í nɛ̃ gbɛ̃ ɓe mɛ̀ ?",
+      "phonetic_api": "/i˦ nɛ̃˧ ɡbɛ̃˧ ɓe˧ mɛ˩/",
+      "phonetic_simple": "EE NENG GBENG BÉ MÈ ?",
+      "translation": "Combien de garçons (fils) as-tu ?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Ń nɛ̃ gbɛ̃ ɓe pɛ̄ɛ.",
+      "phonetic_api": "/ń nɛ̃˧ ɡbɛ̃˧ ɓe˧ pɛː˧/",
+      "phonetic_simple": "N NENG GBENG BÉ PÈÈ.",
+      "translation": "J'ai deux garçons (fils)."
+    }
+  ],
+  "cultural_notes": [
+    "Le système traditionnel Mano s'appuie sur une base quinaire (comptage par 5). Historiquement, le calcul s'effectuait à l'aide de petits cailloux ou de graines d'arbres sacrés lors des échanges commerciaux sur les marchés de la Guinée forestière. Les nombres au-delà de cinq intègrent le mot signifiant cinq combiné aux unités inférieures."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex5_1",
+      "type": "multiple_choice",
+      "question": "Quel est le mot Mano exact pour désigner le chiffre 'Trois (3)' ?",
+      "options": [
+        "pɛ̄ɛ",
+        "yaá",
+        "yiɛ̄"
+      ],
+      "correct_answer": "yaá",
+      "explanation": "'yaá' est le numéral pour trois, tandis que 'pɛ̄ɛ' est deux et 'yiɛ̄' est quatre."
+    },
+    {
+      "exercise_id": "ex5_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'une assiette', on place le chiffre après le nom : kpan [ ___ ].",
+      "correct_answer": "dōo",
+      "hint": "C'est le nombre signifiant 'Un'."
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "L'utilisation des temps complexes et des modes avancés",
+  "learning_objectives": [
+    "Maîtriser le conditionnel passé et le subjonctif nalu dans les propositions subordonnées",
+    "Exprimer l'antériorité immédiate et les nuances d'aspect inaccompli/itératif"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Au niveau avancé, une attention millimétrique doit être portée aux variations de tons lexicaux et aux élisions vocaliques provoquées par les morphèmes aspecto-temporels complexes. L'occlusive glottale /ʔ/ s'articule de manière très nette pour détacher les auxiliaires de mode.",
+    "common_pitfalls": "L'erreur classique consiste à négliger le saut tonal sur l'auxiliaire de mode 'boku-ba', indispensable pour distinguer le futur simple du conditionnel d'action révolue."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v19_1",
+      "term": "Boku-ba-a",
+      "phonetic_api": "/bo.ku.ba.a/",
+      "phonetic_simple": "BO-KOU-BA-A",
+      "translation": "Aurait fait / Serait venu (Conditionnel passé)",
+      "example_sentence": "M boku-ba-a wale cen.",
+      "example_phonetic": "/m bo.ku.ba.a wa.le tʃen/",
+      "example_translation": "J'aurais travaillé hier (si cela avait été possible)."
+    },
+    {
+      "word_id": "v19_2",
+      "term": "Mu-lang",
+      "phonetic_api": "/mu.laŋ/",
+      "phonetic_simple": "MOU-LANG",
+      "translation": "Dès que / À l'instant même où (Antériorité)",
+      "example_sentence": "Mu-lang m ba-a, a foti mi.",
+      "example_phonetic": "/mu.laŋ m ba.a a fo.ti mi/",
+      "example_translation": "Dès que je suis venu, il m'a parlé."
+    },
+    {
+      "word_id": "v19_3",
+      "term": "Kanu-gbe",
+      "phonetic_api": "/ka.nu.g͡be/",
+      "phonetic_simple": "KA-NOU-GBÉ",
+      "translation": "Pourvu que / Afin que (Subjonctif de souhait)",
+      "example_sentence": "Kanu-gbe a soti di wale.",
+      "example_phonetic": "/ka.nu.g͡be a so.ti di wa.le/",
+      "example_translation": "Pourvu qu'il réussisse dans son travail."
+    },
+    {
+      "word_id": "v19_4",
+      "term": "N'gbe-be",
+      "phonetic_api": "/ŋgbe.be/",
+      "phonetic_simple": "NGBÉ-BÉ",
+      "translation": "Être en train de (Aspect progressif continu)",
+      "example_sentence": "M n'gbe-be karang nalu.",
+      "example_phonetic": "/m ŋgbe.be ka.raŋ na.lu/",
+      "example_translation": "Je suis précisément en train d'étudier le nalu."
+    },
+    {
+      "word_id": "v19_5",
+      "term": "Soti-na",
+      "phonetic_api": "/so.ti.na/",
+      "phonetic_simple": "SO-TI-NA",
+      "translation": "Ayant réussi (Participe passé / Statif)",
+      "example_sentence": "M'ba mi gbe soti-na di n'boka.",
+      "example_phonetic": "/m.ba mi gbe so.ti.na di n͡bo.ka/",
+      "example_translation": "Mon grand-père a pleinement réussi sa concession."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p19_1",
+      "original": "M boku-ba-a ba di n'boka mwo cen, mun m gbe balang woliŋ.",
+      "phonetic_api": "/m bo.ku.ba.a ba di n͡bo.ka mwo tʃen mun m ŋgbe ba.laŋ wo.liŋ/",
+      "phonetic_simple": "M BO-KOU-BA-A BA DI N-BO-KA MWO TCHEN, MOUN M NGBÉ BA-LANG WO-LING",
+      "translation": "Je serais venu dans votre maison hier si j'avais eu l'argent nécessaire.",
+      "context": "Phrase complexe utilisée pour justifier poliment une absence passée auprès d'un notable."
+    },
+    {
+      "phrase_id": "p19_2",
+      "original": "Kanu-gbe nalu mi a boku thanda di kunu ce mu singbeene.",
+      "phonetic_api": "/ka.nu.g͡be na.lu mi a bo.ku θa?.da di ku.nu tʃe mu siŋ.beː.ne/",
+      "phonetic_simple": "KA-NOU-GBÉ NA-LU MI A BO-KOU THAN-DA DI KOU-NOU TCHÉ MOU SING-BÉÉ-NÉ",
+      "translation": "Pourvu que notre lignage grandisse dans la paix et le bonheur à l'avenir.",
+      "context": "Bénédiction solennelle prononcée par les anciens lors des assemblées coutumières."
+    },
+    {
+      "phrase_id": "p19_3",
+      "original": "Mu-lang m wale-a b'at, m thath-a tange marce.",
+      "phonetic_api": "/mu.laŋ m wa.le.a ɓat m θaθ.a taŋ.e mar.ʃe/",
+      "phonetic_simple": "MOU-LANG M WA-LÉ-A BAT, M THATH-A TANG-É MAR-TCHÉ",
+      "translation": "À l'instant même où j'ai fini de travailler, j'ai abaissé les prix du marché.",
+      "context": "Récit d'une négociation économique stratégique menée à bien."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La formation du conditionnel passé irréel 'boku-ba-a'",
+      "explanation": "Le conditionnel passé exprime une action qui aurait eu lieu dans le passé mais qui ne s'est pas réalisée. En nalu avancé, il se construit en fusionnant l'auxiliaire de projection 'boku', la marque de mouvement 'ba', et le suffixe du passé accompli '-a'.",
+      "rules": [
+        "L'auxiliaire composé 'boku-ba-a' se place immédiatement après le pronom personnel sujet.",
+        "Le verbe d'action principal se maintient à sa forme nominale initiale en fin de bloc verbal."
+      ],
+      "examples": [
+        {
+          "structure": "M boku-ba-a n'wut",
+          "phonetic_api": "/m bo.ku.ba.a nwut/",
+          "meaning": "J'aurais mangé"
+        },
+        {
+          "structure": "M boku-ba-a foti",
+          "phonetic_api": "/m bo.ku.ba.a fo.ti/",
+          "meaning": "J'aurais parlé / dit"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "M'ba Lamine",
+      "text": "Bweten mi, Sékou ! A rila a gbe ba di gbarano mi cen?",
+      "phonetic_api": "/bʷe.ten mi se.ku a ri.la a ŋgbe ba di g͡ba.ra.no mi tʃen/",
+      "phonetic_simple": "BOUÉ-TEN MI, SÉ-KOU ! A RI-LA A NGBÉ BA DI GBA-RA-NO MI TCHEN?",
+      "translation": "Mon enfant, Sékou ! Pourquoi n'es-tu pas venu dans ma cour hier ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Ina, m'ba ! M boku-ba-a ba b'at, mun m kanɛ wale di thaŋa Boké mu gbele be.",
+      "phonetic_api": "/i.na m.ba m bo.ku.ba.a ba ɓat mun m ka.nɛ wa.le di θa.ŋa bo.ke mu g͡be.le be/",
+      "phonetic_simple": "I-NA, M-BA ! M BO-KOU-BA-A BA BAT, MOUN M KA-NÈ WA-LÉ DI THA-NGA BO-KÉ MOU GBÉ-LÉ BÉ.",
+      "translation": "Pardon, mon grand-père ! Je serais venu volontiers, mais je devais impérativement travailler à la ville de Boké tout au long de la journée."
+    },
+    {
+      "speaker": "M'ba Lamine",
+      "text": "M lan foti mwo. Kanu-gbe wale mwo a boku soti mu suba be.",
+      "phonetic_api": "/m lan fo.ti mwo ka.nu.g͡be wa.le mi a bo.ku so.ti mu su.ba be/",
+      "phonetic_simple": "M LAN FO-TI MWO. KA-NOU-GBÉ WA-LÉ MWO A BO-KOU SO-TI MOU SOU-BA BÉ.",
+      "translation": "Je comprends ta parole. Pourvu que tes efforts portent leurs fruits (réussissent) chaque matin."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la tradition oratoire des Nalu de Guinée maritime, le maniement des temps complexes comme le conditionnel passé ou le subjonctif est la marque distinctive des grands parleurs et des diplomates de la communauté. Savoir justifier une absence ou formuler des vœux par des détours aspecto-temporels raffinés permet d'adoucir les interactions et de témoigner une déférence absolue envers les structures hiérarchiques ancestrales."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex19_1",
+      "type": "multiple_choice",
+      "question": "Quelle nuance grammaticale introduit le morphème complexe 'Boku-ba-a' devant un verbe ?",
+      "options": [
+        "Une action future certaine",
+        "Une action passée irréelle (Conditionnel passé)",
+        "Une interdiction immédiate"
+      ],
+      "correct_answer": "Une action passée irréelle (Conditionnel passé)",
+      "explanation": "'Boku-ba-a' combine la projection, le mouvement et l'accompli pour échafauder le conditionnel passé."
+    },
+    {
+      "exercise_id": "ex19_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour introduire un souhait solennel au subjonctif ('Pourvu que...'), on utilise l'adjonction complexe : [ ___ ] nalu mi a ce.",
+      "correct_answer": "Kanu-gbe",
+      "hint": "Dérive du verbe kanu (espérer) soudé à la particule stabilisatrice"
+    }
+  ]
+}

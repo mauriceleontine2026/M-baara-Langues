@@ -1,0 +1,303 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Décliner son identité (nom et prénom) de manière formelle et informelle",
+    "Exprimer son âge en maîtrisant le verbe 'avoir' et la structure numérique de base",
+    "Indiquer sa nationalité, son pays d'origine et sa ville de résidence",
+    "Nommer sa profession ou son statut d'étudiant avec les règles de genre associées"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "1. La semi-voyelle /ɥ/ dans 'suis' (/sɥi/) : les lèvres sont projetées en avant comme pour le son /y/ (salut) puis s'ouvrent rapidement vers la voyelle /i/. Évitez de le prononcer comme un 'w'. 2. La voyelle nasale /ɑ̃/ dans 'ans' (/ɑ̃/), 'France' (/fʁɑ̃s/) ou 'allemand' (/almɑ̃/) : ouvrez grand la bouche sans bouger la langue, l'air passe par le nez. 3. Le son /ʒ/ dans 'Je m'appelle' ou 'J'ai' : consonne constrictive sonore, les dents se touchent presque, similaire au 'j' de 'journal'.",
+    "common_pitfalls": "1. Prononcer le 's' final de 'suis' ou de 'ans' : ces consonnes sont muettes (/sɥi/, /ɑ̃/). Toutefois, le 's' de 'ans' fait une liaison obligatoire en /z/ après un chiffre (ex: vingt ans -> /vɛ̃t_ɑ̃/). 2. Confondre la prononciation du genre des nationalités : 'français' (/fʁɑ̃sɛ/) se termine par une voyelle, tandis que 'française' (/fʁɑ̃sɛz/) fait entendre le 's' sonorisé en /z/ en raison du 'e' final."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_l2",
+      "term": "S'appeler",
+      "phonetic_api": "/saple/",
+      "phonetic_simple": "SA-PLE",
+      "translation": "To be named / To call oneself",
+      "example_sentence": "Je m'appelle Thomas et vous ?",
+      "example_phonetic": "/ʒə mapɛl tɔma e vu/",
+      "example_translation": "My name is Thomas, and you?"
+    },
+    {
+      "word_id": "v2_l2",
+      "term": "Être",
+      "phonetic_api": "/ɛtʁ/",
+      "phonetic_simple": "ETR",
+      "translation": "To be (utilisé pour la nationalité et la profession)",
+      "example_sentence": "Je suis canadien et je suis ingénieur.",
+      "example_phonetic": "/ʒə sɥi kanadjɛ̃ e ʒə sɥi ɛ̃ʒenjœʁ/",
+      "example_translation": "I am Canadian and I am an engineer."
+    },
+    {
+      "word_id": "v3_l2",
+      "term": "Avoir",
+      "phonetic_api": "/avwaʁ/",
+      "phonetic_simple": "A-VOUAR",
+      "translation": "To have (utilisé pour exprimer l'âge en français)",
+      "example_sentence": "J'ai trente ans.",
+      "example_phonetic": "/ʒe tʁɑ̃t_ɑ̃/",
+      "example_translation": "I am thirty years old."
+    },
+    {
+      "word_id": "v4_l2",
+      "term": "Habiter",
+      "phonetic_api": "/abite/",
+      "phonetic_simple": "A-BITE",
+      "translation": "To live / To reside",
+      "example_sentence": "J'habite à Paris, en France.",
+      "example_phonetic": "/ʒabit_a paʁi ɑ̃ fʁɑ̃s/",
+      "example_translation": "I live in Paris, in France."
+    },
+    {
+      "word_id": "v5_l2",
+      "term": "Étudiant / Étudiante",
+      "phonetic_api": "/etydjɑ̃/ / /etydjɑ̃t/",
+      "phonetic_simple": "E-TUDIAN / E-TUDIANT",
+      "translation": "Student (m / f)",
+      "example_sentence": "Sophie est étudiante en médecine.",
+      "example_phonetic": "/sɔfi ɛt_etydjɑ̃t ɑ̃ medsin/",
+      "example_translation": "Sophie is a medical student."
+    },
+    {
+      "word_id": "v6_l2",
+      "term": "Profession",
+      "phonetic_api": "/pʁɔfɛsjɔ̃/",
+      "phonetic_simple": "PRO-FE-SION",
+      "translation": "Profession / Job",
+      "example_sentence": "Quelle est votre profession ?",
+      "example_phonetic": "/kɛl ɛ vɔtʁ pʁɔfɛsjɔ̃/",
+      "example_translation": "What is your profession?"
+    },
+    {
+      "word_id": "v7_l2",
+      "term": "Origine",
+      "phonetic_api": "/ɔʁiʒin/",
+      "phonetic_simple": "O-REE-JEEN",
+      "translation": "Origin",
+      "example_sentence": "Je suis d'origine italienne.",
+      "example_phonetic": "/ʒə sɥi dɔʁiʒin italjɛn/",
+      "example_translation": "I am of Italian origin."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_l2",
+      "original": "Comment vous appelez-vous ?",
+      "phonetic_api": "/kɔmɑ̃ vuz_aple vu/",
+      "phonetic_simple": "KOM-AN VOU-ZAPLE VOU",
+      "translation": "What is your name? (Formal)",
+      "context": "Entretien, administration ou rencontre formelle."
+    },
+    {
+      "phrase_id": "p2_l2",
+      "original": "Tu t'appelles comment ?",
+      "phonetic_api": "/ty tapɛl kɔmɑ̃/",
+      "phonetic_simple": "TU TA-PEL KOM-AN",
+      "translation": "What's your name? (Informal)",
+      "context": "Entre jeunes, étudiants ou cadre très décontracté."
+    },
+    {
+      "phrase_id": "p3_l2",
+      "original": "Quel âge avez-vous ?",
+      "phonetic_api": "/kɛl ɑːʒ_ave vu/",
+      "phonetic_simple": "KEL AJ A-VE VOU",
+      "translation": "How old are you? (Formal)",
+      "context": "Question formelle sur l'âge."
+    },
+    {
+      "phrase_id": "p4_l2",
+      "original": "Tu as quel âge ?",
+      "phonetic_api": "/ty a kɛl ɑːʒ/",
+      "phonetic_simple": "TU A KEL AJ",
+      "translation": "How old are you? (Informal)",
+      "context": "Question amicale entre pairs."
+    },
+    {
+      "phrase_id": "p5_l2",
+      "original": "D'où venez-vous ?",
+      "phonetic_api": "/du vne vu/",
+      "phonetic_simple": "DOU VNE VOU",
+      "translation": "Where do you come from?",
+      "context": "Interroger quelqu'un sur son pays d'origine (formel)."
+    },
+    {
+      "phrase_id": "p6_l2",
+      "original": "Je viens de Tokyo.",
+      "phonetic_api": "/ʒə vjɛ̃ də tɔkjo/",
+      "phonetic_simple": "JE VIEN DEU TO-KYO",
+      "translation": "I come from Tokyo.",
+      "context": "Indiquer sa ville natale ou de provenance."
+    },
+    {
+      "phrase_id": "p7_l2",
+      "original": "Qu'est-ce que vous faites dans la vie ?",
+      "phonetic_api": "/kɛs kə vu fɛt dɑ̃ la vi/",
+      "phonetic_simple": "KES KEU VOU FET DAN LA VEE",
+      "translation": "What do you do for a living?",
+      "context": "Formulation courante pour s'enquérir du métier de quelqu'un."
+    },
+    {
+      "phrase_id": "p8_l2",
+      "original": "Je suis à la recherche d'un emploi.",
+      "phonetic_api": "/ʒə sɥi_a la ʁəʃɛʁʃ dœ̃n_ɑ̃plwa/",
+      "phonetic_simple": "JE SUI-A LA REU-SHER-SH DEUN AMPLOA",
+      "translation": "I am currently looking for a job.",
+      "context": "Indiquer sa situation de demandeur d'emploi."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'âge avec le verbe Avoir",
+      "explanation": "Contrairement à l'anglais ou à l'allemand qui utilisent le verbe 'être', le français utilise obligatoirement le verbe 'avoir' suivi du nombre d'années (le mot 'ans' est requis).",
+      "rules": [
+        "Structure : Sujet + Verbe Avoir (conjugué) + Chiffre + 'ans'.",
+        "Ne dites jamais 'Je suis 25' ou 'Je suis 25 ans'. C'est un calque fautif.",
+        "Le pronom 'Je' devient 'J'' devant la voyelle du verbe : 'J'ai'."
+      ],
+      "examples": [
+        {
+          "structure": "J'ai 20 ans. (Sujet + Verbe + Nombre + ans)",
+          "phonetic_api": "/ʒe vɛ̃t_ɑ̃/",
+          "meaning": "I am 20 years old."
+        },
+        {
+          "structure": "Il a 40 ans.",
+          "phonetic_api": "/il a kaʁɑ̃t_ ɑ̃/",
+          "meaning": "He is 40 years old."
+        }
+      ]
+    },
+    {
+      "concept": "L'absence d'article devant les professions",
+      "explanation": "En français, lorsque l'on indique sa profession directement après le verbe être, on n'utilise pas d'article indéfini (un/une). La profession se comporte alors presque comme un adjectif.",
+      "rules": [
+        "Structure : Sujet + Être + Profession (sans 'un' ou 'une').",
+        "Si la profession est modifiée par un adjectif, l'article réapparaît (ex: Je suis un bon médecin)."
+      ],
+      "examples": [
+        {
+          "structure": "Je suis professeur. (Correct)",
+          "phonetic_api": "/ʒə sɥi pʁɔfɛsœʁ/",
+          "meaning": "I am a teacher."
+        },
+        {
+          "structure": "Je suis un professeur. (Incorrect en présentation simple)",
+          "phonetic_api": "/ʒə sɥi_œ̃ pʁɔfɛsœʁ/",
+          "meaning": "I am a teacher. (Syntaxe lourde / non naturelle ici)"
+        }
+      ]
+    },
+    {
+      "concept": "Le genre des adjectifs de nationalité",
+      "explanation": "Les adjectifs de nationalité s'accordent en genre (masculin ou féminin) avec le sujet.",
+      "rules": [
+        "Règle générale : on ajoute un '-e' au masculin pour former le féminin.",
+        "Cas en '-ien' : doublement de la n et ajout d'un -e (ex: canadien -> canadienne / /kanadjɛ̃/ -> /kanadjɛn/).",
+        "Si le masculin se termine déjà par un '-e', il ne change pas (ex: russe -> russe)."
+      ],
+      "examples": [
+        {
+          "structure": "Marc est espagnol. / Maria est espagnole.",
+          "phonetic_api": "/maʁk_ɛt_ɛspaɲɔl/ / /maʁja ɛt_ɛspaɲɔl/",
+          "meaning": "Marc is Spanish. / Maria is Spanish."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lucas (Étudiant)",
+      "text": "Salut ! Moi c'est Lucas. Tu t'appelles comment ?",
+      "phonetic_api": "/saly mwa sɛ lyka ty tapɛl kɔmɑ̃/",
+      "phonetic_simple": "SA-LU ! MOA SE LU-KA. TU TA-PEL KOM-AN ?",
+      "translation": "Hi! I'm Lucas. What's your name?"
+    },
+    {
+      "speaker": "Elena (Nouvelle arrivante)",
+      "text": "Salut Lucas ! Je m'appelle Elena. Enchantée !",
+      "phonetic_api": "/saly lyka ʒə mapɛl elena ɑ̃ʃɑ̃te/",
+      "phonetic_simple": "SA-LU LU-KA ! JE MA-PEL E-LE-NA. AN-SHAN-TE !",
+      "translation": "Hi Lucas! My name is Elena. Nice to meet you!"
+    },
+    {
+      "speaker": "Lucas (Étudiant)",
+      "text": "Enchanté. Tu viens d'où ? Tu es espagnole ?",
+      "phonetic_api": "/ɑ̃ʃɑ̃te ty vjɛ̃ du ty ɛt_ɛspaɲɔl/",
+      "phonetic_simple": "AN-SHAN-TE. TU VIEN DOU ? TU ET_ES-PA-NYOL ?",
+      "translation": "Nice to meet you. Where are you from? Are you Spanish?"
+    },
+    {
+      "speaker": "Elena (Nouvelle arrivante)",
+      "text": "Non, je ne suis pas espagnole, je suis italienne. J'habite ici à Lyon.",
+      "phonetic_api": "/nɔ̃ ʒə nə sɥi paz_ɛspaɲɔl ʒə sɥi_italjɛn ʒabit_isi a ljɔ̃/",
+      "phonetic_simple": "NON, JE NEU SUI PAZ ES-PA-NYOL, JE SUI_I-TA-LIEN. JA-BITE I-SEE A LYON.",
+      "translation": "No, I am not Spanish, I am Italian. I live here in Lyon."
+    },
+    {
+      "speaker": "Lucas (Étudiant)",
+      "text": "Ah, super ! Tu as quel âge ? Moi, j'ai vingt ans.",
+      "phonetic_api": "/a sypɛʁ ty a kɛl ɑːʒ mwa ʒe vɛ̃t_ɑ̃/",
+      "phonetic_simple": "A, SU-PER ! TU A KEL AJ ? MOA, JE VINT-AN.",
+      "translation": "Ah, great! How old are you? I am twenty."
+    },
+    {
+      "speaker": "Elena (Nouvelle arrivante)",
+      "text": "J'ai vingt-deux ans et je suis étudiante. Et toi, tu travailles ?",
+      "phonetic_api": "/ʒe vɛ̃tdø zɑ̃ e ʒə sɥi_etydjɑ̃t e twa ty tʁavaj/",
+      "phonetic_simple": "JE VINT-DEU ZAN E JE SUI_E-TU-DIANT. E TOUA, TU TRA-VAY ?",
+      "translation": "I am twenty-two years old and I am a student. What about you, do you work?"
+    },
+    {
+      "speaker": "Lucas (Étudiant)",
+      "text": "Non, je suis aussi étudiant ! Bienvenue à l'université !",
+      "phonetic_api": "/nɔ̃ ʒə sɥiz_osi_etydjɑ̃ bjɛ̃vny a lynivɛʁsite/",
+      "phonetic_simple": "NON, JE SUIZ_O-SI_E-TU-DIAN. BIEN-VNU A LU-NI-VER-SI-TE !",
+      "translation": "No, I am also a student! Welcome to the university!"
+    }
+  ],
+  "cultural_notes": [
+    "La discrétion sur l'âge : En France, demander l'âge à un adulte (particulièrement à une femme ou dans un milieu professionnel) peut être perçu comme indiscret ou délicat. On pose principalement cette question entre enfants, adolescents ou étudiants.",
+    "L'identité à la française : Lors d'une présentation formelle, on donne souvent son prénom suivi de son nom de famille. Dans les documents officiels administratifs français, le nom de famille est fréquemment écrit en lettres majuscules (ex: Jean DUPONT) pour éviter toute confusion."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_l2",
+      "type": "multiple_choice",
+      "question": "Identifiez la phrase grammaticalement correcte pour exprimer l'âge :",
+      "options": [
+        "Je suis trente ans.",
+        "J'ai trente ans.",
+        "Je m'appelle trente ans."
+      ],
+      "correct_answer": "J'ai trente ans.",
+      "explanation": "Le français utilise le verbe 'avoir' ('J'ai') pour indiquer l'âge, et non le verbe 'être'."
+    },
+    {
+      "exercise_id": "ex2_l2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Sarah est née à Montréal, elle est [ ___ ].",
+      "correct_answer": "canadienne",
+      "hint": "Adjectif de nationalité au féminin singulier correspondant au Canada."
+    },
+    {
+      "exercise_id": "ex3_l2",
+      "type": "multiple_choice",
+      "question": "Quelle est la structure correcte pour indiquer son métier sans modification ?",
+      "options": [
+        "Je suis un avocat.",
+        "Je suis avocat.",
+        "J'ai avocat."
+      ],
+      "correct_answer": "Je suis avocat.",
+      "explanation": "Devant un nom de profession employé de façon simple après le verbe être, on omet l'article indéfini."
+    }
+  ]
+}

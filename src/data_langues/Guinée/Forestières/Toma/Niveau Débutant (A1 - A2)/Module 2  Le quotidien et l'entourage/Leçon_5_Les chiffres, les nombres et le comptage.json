@@ -1,0 +1,133 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter de 1 à 10 en toma",
+    "Associer une quantité de base à des objets du quotidien"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne nasale vélaire 'ŋ' (comme à la fin de 'sing' en anglais) se retrouve fréquemment en fin de chiffre ou de mot.",
+    "common_pitfalls": "Évitez de prononcer le 'g' de manière forte à la fin d'une nasale vélaire. Le son doit résonner uniquement dans le nez."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v5_1",
+      "term": "gila",
+      "phonetic_api": "/ɡi.la/",
+      "phonetic_simple": "GHI-LA",
+      "translation": "un (1)",
+      "example_sentence": "Loi gila.",
+      "example_phonetic": "/loi ɡi.la/",
+      "example_translation": "Un enfant."
+    },
+    {
+      "word_id": "v5_2",
+      "term": "fele",
+      "phonetic_api": "/fe.le/",
+      "phonetic_simple": "FE-LE",
+      "translation": "deux (2)",
+      "example_sentence": "Pére fele.",
+      "example_phonetic": "/pe.re fe.le/",
+      "example_translation": "Deux maisons."
+    },
+    {
+      "word_id": "v5_3",
+      "term": "saawa",
+      "phonetic_api": "/saː.wa/",
+      "phonetic_simple": "SAA-OUA",
+      "translation": "trois (3)",
+      "example_sentence": "Nâi saawa.",
+      "example_phonetic": "/nâi saː.wa/",
+      "example_translation": "Trois vaches."
+    },
+    {
+      "word_id": "v5_4",
+      "term": "puu",
+      "phonetic_api": "/puː/",
+      "phonetic_simple": "POUOU",
+      "translation": "dix (10)",
+      "example_sentence": "Bala puu.",
+      "example_phonetic": "/ba.la puː/",
+      "example_translation": "Dix paniers."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p5_1",
+      "original": "É na sée-ye e ze e ɓɛ̀?",
+      "phonetic_api": "/e na seː.je e ze e ɓɛ̀/",
+      "phonetic_simple": "E NA SEE-YE E ZE E BE?",
+      "translation": "Combien cela coûte-t-il ?",
+      "context": "Question de base lors du comptage d'argent ou d'achats marchands."
+    },
+    {
+      "phrase_id": "p5_2",
+      "original": "Puu gila yaa lo.",
+      "phonetic_api": "/puː ɡi.la jaː lo/",
+      "phonetic_simple": "POU GHI-LA YAA LO",
+      "translation": "Cela fait onze.",
+      "context": "Utilisé pour exprimer l'addition d'une unité à la dizaine."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La position des numéraux adjectivaux",
+      "explanation": "En toma, les adjectifs de quantité et les chiffres se placent toujours après le nom qu'ils qualifient.",
+      "rules": [
+        "Le nom reste en général invariable dans sa forme de base.",
+        "C'est le chiffre postposé qui indique la pluralité."
+      ],
+      "examples": [
+        {
+          "structure": "loi saawa",
+          "phonetic_api": "/loi saː.wa/",
+          "meaning": "trois enfants"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Vendeur",
+      "text": "I zaza yee sée-ye e ze e ɓɛ̀?",
+      "phonetic_api": "/i za.za jeː seː.je e ze e ɓɛ̀/",
+      "phonetic_simple": "I ZA-ZA YEE SEE-YE E ZE E BE?",
+      "translation": "Combien de mangues veux-tu ?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Pɛ̀ na zaza fele.",
+      "phonetic_api": "/pɛ̀ na za.za fe.le/",
+      "phonetic_simple": "PE NA ZA-ZA FE-LE",
+      "translation": "Donne-moi deux mangues."
+    }
+  ],
+  "cultural_notes": [
+    "Le système de numération traditionnel toma repose sur une base quinaire (base 5), liée historiquement aux cinq doigts de la main, avant d'aboutir à la dizaine 'puu'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex5_1",
+      "type": "multiple_choice",
+      "question": "Quel mot désigne le chiffre 'deux' en toma ?",
+      "options": [
+        "gila",
+        "fele",
+        "saawa"
+      ],
+      "correct_answer": "fele",
+      "explanation": "'fele' signifie deux, 'gila' un, et 'saawa' trois."
+    },
+    {
+      "exercise_id": "ex5_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pére [ ___ ] (Une maison).",
+      "correct_answer": "gila",
+      "hint": "Le chiffre un en langue toma."
+    }
+  ]
+}

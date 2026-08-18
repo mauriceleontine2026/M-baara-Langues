@@ -1,0 +1,264 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Déclarer son identité nominative en utilisant les structures inversées avec 'ni'",
+    "Exprimer son origine géographique et sa nationalité via le morphème d'appartenance 'ara'",
+    "Quantifier son âge et décliner sa profession avec les structures prédicatives adéquates"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon introduit des voyelles nasales cruciales en yoruba, notées par un 'n' post-vocalique : 'an' [ã], 'in' [ĩ], et 'un' [ʊ̃]. Le 'n' ne se prononce pas comme une consonne isolée, il indique la nasalisation de la voyelle précédente. Le son 'ṣ' se prononce comme le 'ch' français [ʃ].",
+    "common_pitfalls": "Faites attention à la contraction vocalique fréquente en yoruba : lorsque deux voyelles se rencontrent à la frontière de deux mots, l'une d'elles s'assimile ou disparaît souvent, modifiant la courbe des tons (ex: 'orúkọ mi' se prononce de façon fluide et liée)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "A1_M1_L2_V1",
+      "term": "Orúkọ",
+      "phonetic_api": "/oɾúkɔ/",
+      "phonetic_simple": "OH-ROÚ-KAW",
+      "translation": "Nom / Prénom",
+      "example_sentence": "Adé ni orúkọ mi.",
+      "example_phonetic": "/àdé nĩ oɾúkɔ mĩ/",
+      "example_translation": "Mon nom est Ade (Littéralement : Ade est mon nom)."
+    },
+    {
+      "word_id": "A1_M1_L2_V2",
+      "term": "Ọmọ ọdún",
+      "phonetic_api": "/ɔmɔ ɔdʊ́/",
+      "phonetic_simple": "AW-MAW AW-DOÚN",
+      "translation": "Âgé de... ans (Les nombres seront détaillés au module 2)",
+      "example_sentence": "Ọmọ ọdún ogún ni mi.",
+      "example_phonetic": "/ɔmɔ ɔdʊ́ oɡʊ́ nĩ mĩ/",
+      "example_translation": "J'ai vingt ans."
+    },
+    {
+      "word_id": "A1_M1_L2_V3",
+      "term": "Ibi",
+      "phonetic_api": "/ibi/",
+      "phonetic_simple": "I-BI",
+      "translation": "Lieu / Endroit",
+      "example_sentence": "Ibi wo ni o ti wá?",
+      "example_phonetic": "/ibi wo nĩ o ti wá/",
+      "example_translation": "D'où viens-tu ?"
+    },
+    {
+      "word_id": "A1_M1_L2_V4",
+      "term": "Iṣẹ́",
+      "phonetic_api": "/iʃɛ́/",
+      "phonetic_simple": "I-SHÉ",
+      "translation": "Travail / Profession / Métier",
+      "example_sentence": "Iṣẹ́ wo ni ò ń ṣe?",
+      "example_phonetic": "/iʃɛ́ wo nĩ ò ŋ́ ʃe/",
+      "example_translation": "Quel travail fais-tu ?"
+    },
+    {
+      "word_id": "A1_M1_L2_V5",
+      "term": "Olùkọ́",
+      "phonetic_api": "/olùkɔ́/",
+      "phonetic_simple": "OH-LOÙ-KÁW",
+      "translation": "Enseignant / Professeur",
+      "example_sentence": "Olùkọ́ èdè Faransé ni mí.",
+      "example_phonetic": "/olùkɔ́ ɛ̀dè faɾãsé nĩ mĩ/",
+      "example_translation": "Je suis professeur de langue française."
+    },
+    {
+      "word_id": "A1_M1_L2_V6",
+      "term": "Akẹ́kọ̀ọ́",
+      "phonetic_api": "/akɛ́kɔ̀ː/",
+      "phonetic_simple": "A-KÉ-KÀWÀW",
+      "translation": "Étudiant / Élève",
+      "example_sentence": "Akẹ́kọ̀ọ́ ni mí ní fásitì.",
+      "example_phonetic": "/akɛ́kɔ̀ː nĩ mĩ ní fásitì/",
+      "example_translation": "Je suis étudiant à l'université."
+    },
+    {
+      "word_id": "A1_M1_L2_V7",
+      "term": "Ilu",
+      "phonetic_api": "/ilu/",
+      "phonetic_simple": "I-LOÚ",
+      "translation": "Pays / Ville / Village",
+      "example_sentence": "Ilú Faransé ni mo ti wá.",
+      "example_phonetic": "/ilú faɾãsé nĩ mo ti wá/",
+      "example_translation": "Je viens de France."
+    },
+    {
+      "word_id": "A1_M1_L2_V8",
+      "term": "Ará",
+      "phonetic_api": "/aɾá/",
+      "phonetic_simple": "A-RÁ",
+      "translation": "Citoyen / Habitant / Natif de",
+      "example_sentence": "Ará Nàìjíríà ni mí.",
+      "example_phonetic": "/aɾá nàìd͡ʒíɾíà nĩ mĩ/",
+      "example_translation": "Je suis Nigérian."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "A1_M1_L2_P1",
+      "original": "Kí ni orúkọ rẹ?",
+      "phonetic_api": "/kí nĩ oɾúkọ ɾɛ/",
+      "phonetic_simple": "KÍ NI OH-ROÚ-KAW RÈ?",
+      "translation": "Quel est ton nom ?",
+      "context": "Question standard pour s'enquérir de l'identité de quelqu'un."
+    },
+    {
+      "phrase_id": "A1_M1_L2_P2",
+      "original": "Kí ni orúkọ yín, ẹ jọ̀wọ́?",
+      "phonetic_api": "/kí nĩ oɾúkọ d͡ʒĩ ɛ̀ d͡ʒɔ̀wɔ́/",
+      "phonetic_simple": "KÍ NI OH-ROÚ-KAW YÍN, È JÀW-WÓ?",
+      "translation": "Quel est votre nom, s'il vous plaît ?",
+      "context": "Forme polie ou formelle s'adressant à un adulte ou supérieur."
+    },
+    {
+      "phrase_id": "A1_M1_L2_P3",
+      "original": "Inú mi dùn láti mọ̀ ọ́.",
+      "phonetic_api": "/inú mĩ dùn láti mɔ̀ ɔ́/",
+      "phonetic_simple": "I-NOÚ MI DOÙN LÁ-TI MÀ Á.",
+      "translation": "Enchanté de vous rencontrer / de te connaître.",
+      "context": "Formule de courtoisie suite à une présentation réciproque."
+    },
+    {
+      "phrase_id": "A1_M1_L2_P4",
+      "original": "Ọdún mélòó ni ó n bẹ lára rẹ?",
+      "phonetic_api": "/ɔdʊ́ mélòː nĩ ó ŋ bɛ láɾa ɾɛ/",
+      "phonetic_simple": "AW-DOÚN MÉ-LÒÒ NI Ó N BÉ LÁ-RA RÈ?",
+      "translation": "Quel âge as-tu ? (Littéralement : Combien d'années y a-t-il sur ton corps ?)",
+      "context": "Formulation traditionnelle et métaphorique pour demander l'âge."
+    },
+    {
+      "phrase_id": "A1_M1_L2_P5",
+      "original": "Níbo ni o ń gbé nísinsìnyí?",
+      "phonetic_api": "/níbo nĩ o ŋ́ ɡ͡bé nísĩsĩjĩ́/",
+      "phonetic_simple": "NÍ-BO NI O N GBÉ NÍ-SIN-SIN-YÍ?",
+      "translation": "Où habites-tu actuellement ?",
+      "context": "Pour s'informer du lieu de résidence actuel."
+    },
+    {
+      "phrase_id": "A1_M1_L2_P6",
+      "original": "Nò ń gbé ní ìlú Èkó.",
+      "phonetic_api": "/nò ŋ́ ɡ͡bé ní ilú èkó/",
+      "phonetic_simple": "NÒ N GBÉ NÍ I-LOÚ È-KÓ.",
+      "translation": "J'habite dans la ville de Lagos.",
+      "context": "Réponse indiquant la localisation de sa demeure."
+    },
+    {
+      "phrase_id": "A1_M1_L2_P7",
+      "original": "Dókítà ni mí.",
+      "phonetic_api": "/dókítà nĩ mĩ/",
+      "phonetic_simple": "DÓ-KÍ-TÀ NI MÍ.",
+      "translation": "Je suis médecin.",
+      "context": "Déclaration directe de sa profession médicale."
+    },
+    {
+      "phrase_id": "A1_M1_L2_P8",
+      "original": "Ṣé ará ilẹ̀ Faransé ni ẹ́?",
+      "phonetic_api": "/ʃé aɾá ilɛ̀ faɾãsé nĩ ɛ́/",
+      "phonetic_simple": "SHÉ A-RÁ I-LÈ FA-RÂN-SÉ NI É?",
+      "translation": "Êtes-vous de nationalité française ?",
+      "context": "Question sur l'origine nationale d'un interlocuteur respecté."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La particule focalisatrice et prédicative d'identité 'ni'",
+      "explanation": "Contrairement aux langues indo-européennes qui utilisent le verbe 'être', le yoruba emploie de façon préférentielle une particule de focalisation invariable appelée 'ni'. Pour exprimer une identité ou une profession, on place le nom propre ou le nom de métier au début de la phrase, suivi de 'ni' puis du pronom personnel sujet.",
+      "rules": [
+        "Structure nominale obligatoire : [Identité/Profession] + ni + [Pronom sujet].",
+        "Si le pronom de la première personne 'mo' (je) suit la particule 'ni', il subit une fusion morphophonologique régulière et devient 'mi' ou 'mí'."
+      ],
+      "examples": [
+        {
+          "structure": "Táyé + ni + mí",
+          "phonetic_api": "/tájé nĩ mĩ/",
+          "meaning": "Je suis Taye (Taye est mon identité)."
+        },
+        {
+          "structure": "Àwòránmọ́kọ̀ọ́ + ni + mí",
+          "phonetic_api": "/àwòɾá mɔ́kɔ̀ː nĩ mĩ/",
+          "meaning": "Je suis photographe."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de l'origine avec 'ti wá'",
+      "explanation": "Pour exprimer la provenance ou le lieu de naissance, le yoruba utilise l'association du locatif verbal 'ti' (depuis / en provenance de) et du verbe de mouvement 'wá' (venir). Cette structure se place après le pronom personnel sujet.",
+      "rules": [
+        "Structure de provenance : [Sujet] + [ti] + [wá] + láti + [Lieu].",
+        "En cas d'inversion focalisée avec 'ni', le lieu passe en tête de phrase : [Lieu] + ni + [Sujet] + ti + wá."
+      ],
+      "examples": [
+        {
+          "structure": "Mo ti wá láti ilú Paris",
+          "phonetic_api": "/mo ti wá láti ilú paɾis/",
+          "meaning": "Je viens de la ville de Paris."
+        },
+        {
+          "structure": "Ilé-Ifẹ̀ ni mo ti wá",
+          "phonetic_api": "/ilé ifɛ̀ nĩ mo ti wá/",
+          "meaning": "C'est de Ilé-Ifẹ̀ que je viens."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Olùkọ́ (Le professeur)",
+      "text": "Ẹ kààsán, arákùnrin. Kí ni orúkọ rẹ?",
+      "phonetic_api": "/ɛ̀ kàːsã́ aɾákʊ̃ɾĩ kí nĩ oɾúkọ ɾɛ/",
+      "phonetic_simple": "È KÀÀ-SÁN, A-RÁ-KOÙN-RIN. KÍ NI OH-ROÚ-KAW RÈ?",
+      "translation": "Bon après-midi, jeune homme. Quel est ton nom ?"
+    },
+    {
+      "speaker": "Akẹ́kọ̀ọ́ (L'étudiant)",
+      "text": "Ẹ kààsán, ọ̀gá. Tòbí ni orúkọ mi. Ará ìlú Ìbàdàn ni mí.",
+      "phonetic_api": "/ɛ̀ kàːsã́ ɔ̀ɡá tòbí nĩ oɾúkɔ mĩ aɾá ilú ìbàdã̀ nĩ mĩ/",
+      "phonetic_simple": "È KÀÀ-SÁN, AW-GÁ. TÒ-BÍ NI OH-ROÚ-KAW MI. A-RÁ I-LOÚ Ì-BÀ-DÀN NI MÍ.",
+      "translation": "Bon après-midi, monsieur. Mon nom est Tobi. Je suis originaire de la ville d'Ibadan."
+    },
+    {
+      "speaker": "Olùkọ́ (Le professeur)",
+      "text": "O dára púpọ̀. Ọmọ ọdún mélòó ni ọ́, Tòbí? Ṣé akẹ́kọ̀ọ́ ni ọ́?",
+      "phonetic_api": "/o dáɾa kúpɔ̀ ɔmɔ ɔdʊ́ mélòː nĩ ɔ́ tòbí ʃé akɛ́kọ̀ː nĩ ɔ́/",
+      "phonetic_simple": "OH DÁ-RA KPOÚ-PÀW. AW-MAW AW-DOÚN MÉ-LÒÒ NI Ó, TÒ-BÍ? SHÉ A-KÉ-KÀWÀW NI Ó?",
+      "translation": "C'est très bien. Quel âge as-tu, Tobi ? Es-tu étudiant ?"
+    },
+    {
+      "speaker": "Akẹ́kọ̀ọ́ (L'étudiant)",
+      "text": "Bẹ́ẹ̀ ni, ọ̀gá. Akẹ́kọ̀ọ́ ni mí. Ọmọ ọdún mọ́kàndínlógún ni mí.",
+      "phonetic_api": "/bɛ́ː nĩ ɔ̀ɡá akɛ́kọ̀ː nĩ mĩ ɔmɔ ɔdʊ́ mɔ́kã̀dĩ́lógʊ́ nĩ mĩ/",
+      "phonetic_simple": "BÉÈ NI, AW-GÁ. A-KÉ-KÀWÀW NI MÍ. AW-MAW AW-DOÚN MÓ-KÀN-DÍN-LÓ-GOÚN NI MÍ.",
+      "translation": "Oui, monsieur. Je suis étudiant. J'ai dix-neuf ans."
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Yorubas, les noms propres ont une charge sémantique et spirituelle très puissante (Oruko lo n ro omo). Un nom raconte les circonstances de la naissance, l'état financier ou l'histoire religieuse de la famille (ex: Adéwálé signifie 'la couronne est revenue à la maison').",
+    "Demander directement l'âge d'un aîné est considéré comme impoli. Si l'interlocuteur est visiblement plus âgé, on évite cette question ou on utilise des périphrases déférentes.",
+    "Dire d'où l'on vient implique souvent de citer le lignage familial ou la ville ancestrale (Ilu Orisun), même si l'on est né et que l'on a grandi dans une grande métropole comme Lagos."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L2_EX1",
+      "type": "multiple_choice",
+      "question": "Comment traduisez-vous syntaxiquement de manière correcte 'Je suis enseignant' en yoruba ?",
+      "options": [
+        "Mo jẹ́ olùkọ́",
+        "Olùkọ́ ni mí",
+        "Olùkọ́ mo ti wá",
+        "Orúkọ mi olùkọ́"
+      ],
+      "correct_answer": "Olùkọ́ ni mí",
+      "explanation": "La structure exige que le nom de la profession ('olùkọ́') soit placé au début, suivi de la particule focalisatrice 'ni' et de la forme adaptée du pronom de la première personne 'mí'."
+    },
+    {
+      "exercise_id": "A1_M1_L2_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour exprimer son origine nationale nigériane, on complète la phrase ainsi : Ará ilú [ ___ ] ni mí.",
+      "correct_answer": "Nàìjíríà",
+      "hint": "C'est l'orthographe officielle en langue yoruba du pays le plus peuplé d'Afrique de l'Ouest."
+    }
+  ]
+}

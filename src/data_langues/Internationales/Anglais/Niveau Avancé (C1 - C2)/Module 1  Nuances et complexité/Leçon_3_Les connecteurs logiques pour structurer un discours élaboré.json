@@ -1,0 +1,219 @@
+{
+  "lesson_id": "C1_M1_L3_v2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Connecteurs logiques pour un discours élaboré",
+  "learning_objectives": [
+    "Articuler des transitions fluides et sophistiquées en utilisant des connecteurs de concession, de causalité et d'opposition de niveau C1",
+    "Distinguer la syntaxe et l'impact rhétorique entre les connecteurs suivis d'une proposition nominale et ceux suivis d'une proposition verbale",
+    "Structurer une argumentation logique, académique ou professionnelle hautement persuasive",
+    "Maîtriser la ponctuation et le positionnement des adverbes de liaison (conjunctive adverbs) au sein de phrases complexes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le rythme d'un discours élaboré repose sur l'accentuation correcte des mots de liaison. Dans 'furthermore' /ˌfɜːrðərˈmɔːr/, notez le double accent tonique (secondaire sur la première syllabe, principal sur la dernière). Le connecteur 'thereby' /ˌðɛərˈbaɪ/ exige d'articuler nettement la fricative interdentale voisée /ð/ suivie d'une diphthongue ouverte /aɪ/. Pour 'nevertheless' /ˌnɛvərðəˈlɛs/, l'accentuation principale frappe la dernière syllabe, tandis que le schwa central /ðə/ doit être très bref.",
+    "common_pitfalls": "Prononcer le 'th' de 'nevertheless' ou 'furthermore' comme un 'z' ou un 'd'. Mal placer l'accent tonique sur 'consequently' /ˈkɒnsɪkwəntli/ en accentuant la deuxième syllabe au lieu de la première. Omettre les pauses respiratoires naturelles (marquées par des virgules) après les connecteurs en tête de phrase."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Furthermore",
+      "phonetic_api": "/ˌfɜːrðərˈmɔːr/",
+      "phonetic_simple": "FUR-ðər-mor",
+      "translation": "De plus / En outre / Par ailleurs",
+      "example_sentence": "The architectural structural data is flawed; furthermore, the budget allocation is completely inadequate.",
+      "example_phonetic": "/ðə ˌɑːrkɪˈtɛktʃərəl ˈstrʌktʃərəl ˈdeɪtə ɪz flɔːd ˌfɜːrðərˈmɔːr ðə ˈbʌdʒɪt ˌæləˈkeɪʃən ɪz kəmˈpliːtli ɪnˈædɪkwət/",
+      "example_translation": "Les données structurelles architecturales sont erronées ; en outre, l'allocation budgétaire est complètement inadéquate."
+    },
+    {
+      "word_id": "v2",
+      "term": "Nevertheless",
+      "phonetic_api": "/ˌnɛvərðəˈlɛs/",
+      "phonetic_simple": "nev-ər-ðə-LES",
+      "translation": "Néanmoins / Toutefois / Malgré cela",
+      "example_sentence": "The academic results were highly controversial; nevertheless, the research team secured the international funding.",
+      "example_phonetic": "/ðɪ ˌækəˈdɛmɪk rɪˈzʌlts wɜːr ˈhaɪli ˌkɒntrəˈvɜːrʃəl ˌnɛvərðəˈlɛs ðə rɪˈsɜːrtʃ tiːm sɪˈkjʊərd ðɪ ˌɪntərˈnæʃənəl ˈfʌndɪŋ/",
+      "example_translation": "Les résultats académiques étaient très controversés ; néanmoins, l'équipe de recherche a obtenu le financement international."
+    },
+    {
+      "word_id": "v3",
+      "term": "Hence",
+      "phonetic_api": "/hɛns/",
+      "phonetic_simple": "hens",
+      "translation": "D'où / Par conséquent / De là",
+      "example_sentence": "The university servers were unvetted, hence the catastrophic security failure during the fiscal audit.",
+      "example_phonetic": "/ðə ˌjuːnɪˈvɜːrsəti ˈsɜːrvərz wɜːr ʌnˈvɛtɪd hɛns ðə ˌkætəˈstrɒfɪk sɪˈkjʊərɪti ˈfeɪljər ˈdjʊərɪŋ ðə ˈfɪskəl ˈɔːdɪt/",
+      "example_translation": "Les serveurs de l'université n'avaient pas été inspectés, d'où la défaillance de sécurité catastrophique pendant l'audit fiscal."
+    },
+    {
+      "word_id": "v4",
+      "term": "Notwithstanding",
+      "phonetic_api": "/ˌnɒtwɪðˈstændɪŋ/",
+      "phonetic_simple": "not-wɪð-STAN-dɪŋ",
+      "translation": "Malgré / Nonobstant / En dépit de",
+      "example_sentence": "Notwithstanding the profound administrative misgivings, the board initialized the project expansion.",
+      "example_phonetic": "/ˌnɒtwɪðˈstændɪŋ ðə prəˈfaʊnd ədˈmɪnɪstrətɪv mɪsˈɡɪvɪŋz ðə bɔːrd ɪˈnɪʃəlaɪzd ðə ˈprɒdʒɛkt ɪksˈpænʃən/",
+      "example_translation": "Malgré les profonds doutes administratifs, le conseil a initialisé l'expansion du projet."
+    },
+    {
+      "word_id": "v5",
+      "term": "Thereby",
+      "phonetic_api": "/ˌðɛərˈbaɪ/",
+      "phonetic_simple": "ðɛər-BAÏ",
+      "translation": "Ainsi / De ce fait / Par ce moyen",
+      "example_sentence": "The developers restructured the core algorithm, thereby eliminating the anomalous analytical variance.",
+      "example_phonetic": "/ðə dɪˈvɛləpərz ˌriːˈstʌktʃərd ðə kɔːr ˈælɡərɪðəm ˌðɛərˈbaɪ ɪˈlɪmɪneɪtɪŋ ði əˈnɒmələs ˌænəˈlɪtɪkəl ˈvɛərɪəns/",
+      "example_translation": "Les développeurs ont restructuré l'algorithme central, éliminant de ce fait la variance analytique anormale."
+    },
+    {
+      "word_id": "v6",
+      "term": "Whereas",
+      "phonetic_api": "/wɛərˈæz/",
+      "phonetic_simple": "wɛər-AZ",
+      "translation": "Tandis que / Alors que (marquant une opposition nette)",
+      "example_sentence": "The previous simulation was financially unfeasible, whereas this new structural approach is highly affordable.",
+      "example_phonetic": "/ðə ˈpriːviəs ˌsɪmjʊˈleɪʃən wɒz faɪˈnænʃəli ʌnˈfiːzəbəl wɛərˈæz ðɪs njuː ˈstrʌktʃərəl əˈproʊtʃ ɪz ˈhaɪli əˈfɔːrdəbəl/",
+      "example_translation": "La simulation précédente était financièrement irréalisable, alors que cette nouvelle approche structurelle est très abordable."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "On the one hand, it mitigates risk; on the other hand, it reduces structural flexibility",
+      "phonetic_api": "/ɒn ðə wʌn hænd ɪt ˈmɪtɪɡeɪts rɪsk ɒn ði ˈʌðər hænd ɪt rɪˈdjuːsɪz ˈstrʌktʃərəl ˌflɛksəˈbɪlɪti/",
+      "phonetic_simple": "ɒn ðə wʌn hænd ɪt MIT-ɪ-geɪts rɪsk ɒn ði A-ðər hænd ɪt rɪ-DIOOS-ɪz STRAK-tʃər-əl fleks-ɪ-BIL-ɪ-ti",
+      "translation": "D'une part, cela atténue les risques ; d'autre part, cela réduit la flexibilité structurelle",
+      "context": "Formulation académique équilibrée pour peser le pour et le contre d'une stratégie complexe."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "In light of recent fiscal discrepancies, an immediate corporate audit is mandatory",
+      "phonetic_api": "/ɪn laɪt ɒv ˈriːsənt ˈfɪskəl dɪsˈkrɛpənsɪz ən ɪˈmiːdiət ˈcɔːrpərət ˈɔːdɪt ɪz ˈmændətəri/",
+      "phonetic_simple": "ɪn laɪt ɒv RIIS-ənt FIS-kəl dɪs-KREP-ən-sɪz ən ɪ-MII-di-ət KOR-pər-ət OH-dɪt ɪz MAN-də-tər-i",
+      "translation": "À la lumière des récentes divergences fiscales, un audit d'entreprise immédiat est obligatoire",
+      "context": "Locution de causalité logique pour justifier une prise de décision impérative."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "He failed to comply with the guidelines, consequently jeopardizing the entire project",
+      "phonetic_api": "/hiː feɪld tuː kəmˈplaɪ wɪð ðə ˈɡaɪdlaɪnz ˈkɒnsɪkwəntli ˈdʒɛpərdaɪzɪŋ ðɪ ɪnˈtaɪər ˈprɒdʒɛkt/",
+      "phonetic_simple": "hi feɪld too kəm-PLAÏ wɪð ðə GAÏD-laɪnz KON-sɪ-kwənt-li DJEP-ər-daɪz-iŋ ði ɪn-TAÏər PROD-jekt",
+      "translation": "Il n'a pas respecté les directives, compromettant par conséquent l'ensemble du projet",
+      "context": "Articule une relation de cause à effet directe et formelle au sein d'une argumentation de niveau C1."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "The policy was implemented, albeit with significant structural reservations from the board",
+      "phonetic_api": "/ðə ˈpɒlɪsi wɒz ˈɪmplɪmɛntɪd ɔːlˈbiːɪt wɪð sɪɡˈnɪfɪkənt ˈstrʌktʃərəl ˌrɛzərˈveɪʃənz frɒm ðə bɔːrd/",
+      "phonetic_simple": "ðə POL-ɪ-si wɒz IM-plɪ-ment-ɪd ɔl-BII-ɪt wɪð sɪg-NIF-ɪ-kənt STRAK-tʃər-əl rez-ər-VEI-ʃənz frɒm ðə bord",
+      "translation": "La politique fut mise en œuvre, bien qu'avec d'importantes réserves structurelles de la part du conseil",
+      "context": "Usage du connecteur avancé 'albeit' (conjonction de concession équivalant à 'bien que' devant un adjectif ou groupe prépositionnel)."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La distinction syntaxique des connecteurs : Proposition Nominale vs Verbale",
+      "explanation": "Au niveau C1-C2, les erreurs sur la structure qui suit un connecteur logique rompent immédiatement la fluidité du discours. Certains connecteurs exigent une proposition verbale complète (Sujet + Verbe conjugué), tandis que d'autres (prépositionnels) interdisent le verbe conjugué et requièrent soit un groupe nominal, soit un gérondif (V-ing).",
+      "rules": [
+        "Proposition verbale complète -> ALTHOUGH, EVEN THOUGH, WHEREAS, BECAUSE (ex: Although it was raining...).",
+        "Groupe nominal ou Gérondif -> DESPITE, IN SPITE OF, NOTWITHSTANDING, DUE TO, BECAUSE OF (ex: Despite the rain / Despite being tired...).",
+        "Albeit -> S'emploie uniquement devant un adjectif, un adverbe ou un groupe prépositionnel, jamais devant une proposition verbale entière (ex: He spoke eloquently, albeit briefly)."
+      ],
+      "examples": [
+        {
+          "structure": "Notwithstanding the technical complications, the simulation proved accurate.",
+          "phonetic_api": "/ˌnɒtwɪðˈstændɪŋ ðə ˈtɛknɪkəl ˌkɒmplɪˈkeɪʃənz ðə ˌsɪmjʊˈleɪʃən pruːvd ˈækjʊrət/",
+          "meaning": "Malgré les complications techniques (groupe nominal), la simulation s'est avérée précise."
+        },
+        {
+          "structure": "The research was successful, even though the core infrastructure was unvetted.",
+          "phonetic_api": "/ðə rɪˈsɜːrtʃ wɒz ˌsəkˈsɛsfʊl ˈiːvən ðoʊ ðə kɔːr ˌɪnfrəˈstrʌktʃər wɒz ʌnˈvɛtɪd/",
+          "meaning": "La recherche a été couronnée de succès, bien que l'infrastructure centrale n'ait pas été inspectée (proposition verbale)."
+        }
+      ]
+    },
+    {
+      "concept": "La ponctuation et l'articulation des adverbes de liaison (Conjunctive Adverbs)",
+      "explanation": "Les adverbes de liaison comme 'however', 'therefore', 'nevertheless', 'furthermore', et 'consequently' servent à lier de manière logique deux propositions indépendantes. Leur positionnement exige le respect de règles de ponctuation strictes (l'usage du point-virgule et de la virgule) pour éviter le piège stylistique de la juxtaposition incorrecte (comma splice).",
+      "rules": [
+        "Liaison entre deux phrases autonomes : [Proposition 1] ; [Adverbe], [Proposition 2].",
+        "Insertion stylistique : L'adverbe peut être placé en milieu de phrase entre deux virgules (ex: The data, however, was accurate)."
+      ],
+      "examples": [
+        {
+          "structure": "The empirical findings are highly ambiguous; consequently, we cannot publish them.",
+          "phonetic_api": "/ði ɛmˈpɪrɪkəl ˈfaɪndɪŋz ɑːr ˈhaɪli æmˈbɪɡjʊəs ˈkɒnsɪkwəntli wiː ˈkænt ˈpʌblɪʃ ðɛm/",
+          "meaning": "Les résultats empiriques sont très ambigus ; par conséquent, nous ne pouvons pas les publier."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Dr. Aris",
+      "text": "Professor Sterling, our latest quarterly financial reports indicate significant structural discrepancies. Furthermore, the database analysis exposes multiple algorithmic anomalies. In light of these findings, I suggest we postpone the project expansion.",
+      "phonetic_api": "/prəˈfɛsər ˈstɜːrlɪŋ ˈaʊər ˈleɪtɪst ˈkwɔːrtərli faɪˈnænʃəl rɪˈpɔːrts ˈɪndɪkeɪt sɪɡˈnɪfɪkənt ˈstrʌktʃərəl dɪsˈkrɛpənsɪz ˌfɜːrðərˈmɔːr ðə ˈdeɪtəbeɪs əˈnæləsɪs ɪkˈspoʊzɪz ˈmʌltɪpəl ˌælɡəˈrɪðmɪk əˈnɒməlɪz ɪn laɪt ɒv ðiːz ˈfaɪndɪŋz aɪ səˈdʒɛst wiː poʊstˈpoʊn ðə ˈprɒdʒɛkt ɪksˈpænʃən/",
+      "phonetic_simple": "prə-FES-ər STER-liŋ aʊər LEIT-ɪst KWOR-tər-li faɪ-NAN-ʃəl rɪ-PORTS IM-dɪ-keɪt sɪg-NIF-ɪ-kənt STRAK-tʃər-əl dɪs-KREP-ən-sɪz FUR-ðər-mor ðə DEI-tə-beɪs ə-NAL-ə-sɪs ɪk-SPOHZ-ɪz MAL-tɪ-pəl al-gə-RIÐ-mɪk ə-NOM-ə-liz ɪn laɪt ɒv ðiiz FAÏND-iŋz aɪ sə-DJEST wi pohst-POHN ðə PROD-jekt ɪks-PAN-ʃən",
+      "translation": "Professeur Sterling, nos derniers rapports financiers trimestriels indiquent des divergences structurelles significatives. En outre, l'analyse de la base de données expose de multiples anomalies algorithmiques. À la lumière de ces conclusions, je suggère de reporter l'expansion du projet."
+    },
+    {
+      "speaker": "Professor Sterling",
+      "text": "Notwithstanding the validity of your analytical data, Dr. Aris, we cannot halt operations now. The international research grant stipulates that the simulation must be finalized by next month. Failure to comply would inevitably jeopardize our funding; hence, my reluctance to delay.",
+      "phonetic_api": "/ˌnɒtwɪðˈstændɪŋ ðə vəˈlɪdɪti ɒv jɔːr ˌænəˈlɪtɪkəl ˈdeɪtə drə ˈærɪs wiː ˈkænt hɔːlt ˌɒpəˈreɪʃənz naʊ ðɪ ˌɪntərˈnæʃənəl rɪˈsɜːrtʃ ɡrænt ˈstɪpjʊleɪts ðæt ðə ˌsɪmjʊˈleɪʃən mʌst biː ˈfaɪnəlaɪzd baɪ nɛkst mʌnθ ˈfeɪljər tuː kəmˈplaɪ wʊd ɪnˈɛvɪtəbli ˈdʒɛpərdaɪz ˈaʊər ˈfʌndɪŋ hɛns maɪ rɪˈlʌktəns tuː dɪˈleɪ/",
+      "phonetic_simple": "not-wɪð-STAN-dɪŋ ðə və-LID-ɪ-ti ɒv yor an-ə-LIT-ɪ-kəl DEI-tə dok-tər AR-ɪs wi kant hɔlt op-ə-REI-ʃənz naʊ ði ɪn-tər-NA-ʃən-əl rɪ-SURTʃ grant STIP-jʊ-leɪts ðæt ðə sɪm-jʊ-LEI-ʃən mast bi FAÏ-nə-laɪzd baɪ nekst manθ FEI-ljər too kəm-PLAÏ wʊd ɪn-EV-ɪ-tə-bli DJEP-ər-daɪz aʊər FAND-iŋ hens maɪ rɪ-LAK-təns too dɪ-LEI",
+      "translation": "Malgré la validité de vos données analytiques, Docteur Aris, nous ne pouvons pas arrêter les opérations maintenant. La bourse de recherche internationale stipule que la simulation doit être finalisée d'ici le mois prochain. Un manquement à cette obligation compromettrait inévitablement notre financement ; d'où ma réticence à tout reporter."
+    },
+    {
+      "speaker": "Dr. Aris",
+      "text": "I see your dilemma. Nevertheless, deploying an unvetted core algorithm remains a hazardous conjecture. Whereas you see a compliance necessity, I see an unfeasible structural risk that could ruin our academic reputation permanently.",
+      "phonetic_api": "/aɪ siː jɔːr dɪˈlɛmə ˌnɛvərðəˈlɛs dɪˈplɔɪɪŋ ən ʌnˈvɛtɪd kɔːr ˈælɡərɪðəm rɪˈmeɪnz ə ˈhæzərdəs kənˈdʒɛktʃər wɛərˈæz juː siː ə kəmˈplaɪəns nɪˈsɛsɪti aɪ siː ən ʌnˈfiːzəbəl ˈstrʌktʃərəl rɪsk ðæt kʊd ˈruːɪn ˈaʊər ˌækəˈdɛmɪk ˌrɛpjʊˈteɪʃən ˈpɜːrmənəntli/",
+      "phonetic_simple": "aɪ si yor dɪ-LEM-ə nev-ər-ðə-LES dɪ-PLOÏ-iŋ ən am-VET-ɪd kor AL-gər-ɪ-ðəm rɪ-MEINZ ə HAZ-ər-dəs kən-DJEK-tʃər wɛər-AZ yoo si ə kəm-PLAÏ-əns nɪ-SES-ɪ-ti aɪ si ən an-FII-zə-bəl STRAK-tʃər-əl rɪsk ðæt kʊd ROO-ɪn aʊər ak-ə-DEM-ɪk rep-jʊ-TEI-ʃən PUR-mən-ənt-li",
+      "translation": "Je vois votre dilemme. Néanmoins, déployer un algorithme central non vérifié demeure une conjecture dangereuse. Alors que vous y voyez une nécessité de conformité, j'y vois un risque structurel irréalisable qui pourrait ruiner définitivement notre réputation académique."
+    },
+    {
+      "speaker": "Professor Sterling",
+      "text": "Your misgivings are noted. Let us compromise: we shall proceed with the simulation, albeit under restricted server load, thereby minimizing potential data variance while satisfying the grant requirements.",
+      "phonetic_api": "/jɔːr mɪsˈɡɪvɪŋz ɑːr ˈnoʊtɪd lɛt ʌs ˈkɒmprəmaɪz wiː ʃæl prəˈsiːd wɪð ðə ˌsɪmjʊˈleɪʃən ɔːlˈbiːɪt ˈʌndər rɪˈstrɪktɪd ˈsɜːrvər loʊd ˌðɛərˈbaɪ ˈmɪnɪmaɪzɪŋ pəˈtɛnʃəl ˈdeɪtə ˈvɛərɪəns waɪl ˈsætɪsfaɪɪŋ ðə ɡrænt rɪˈkwaɪərmənts/",
+      "phonetic_simple": "yor mɪs-GIV-iŋz ar NOH-tɪd let ʌs KOM-prə-maïz wi ʃal prə-SIID wɪð ðə sɪm-jʊ-LEI-ʃən ɔl-BII-ɪt AN-dər rɪ-STRIKT-ɪd SUR-vər lohd ðɛər-BAÏ MIN-ɪ-maɪz-iŋ pə-TEN-ʃəl DEI-tə VÊR-i-əns waɪl SAT-ɪs-faɪ-iŋ ðə grant rɪ-KWAÏƏR-mənts",
+      "translation": "Vos doutes sont pris en note. Faisons un compromis : nous allons poursuivre la simulation, bien que sous une charge de serveur restreinte, minimisant de ce fait la variance potentielle des données tout en satisfaisant aux exigences de la bourse."
+    }
+  ],
+  "cultural_notes": [
+    "La rigueur argumentative des débats ang-saxons : Dans les comités de direction ou les soutenances académiques du monde anglophone, la force d'une idée dépend intimement de l'élégance de ses transitions logiques. L'articulation rigoureuse via des connecteurs de haut niveau comme 'notwithstanding' ou 'thereby' signale une pensée structurée, rationnelle et dépassionnée, des attributs cruciaux pour emporter la conviction d'un auditoire exigeant.",
+    "L'art du compromis nuancé (Hedging via 'Albeit') : Utiliser 'albeit' permet aux cadres et aux chercheurs d'introduire des concessions millimétrées sans invalider leur argument principal. C'est l'outil par excellence de la nuance diplomatique écrite et orale au niveau C1-C2."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez le connecteur syntaxiquement correct pour compléter la proposition : 'The expansion was authorized, [ ___ ] with extreme structural reservations.'",
+      "options": [
+        "whereas",
+        "albeit",
+        "although"
+      ],
+      "correct_answer": "albeit",
+      "explanation": "'Albeit' est le seul connecteur qui s'emploie directement devant un groupe prépositionnel ou un adjectif sans requérir de proposition verbale complète. 'Although' et 'whereas' exigeraient un sujet et un verbe conjugué."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "The development team updated the security framework, [ ___ ] preventing future unauthorized administrative transactions.",
+      "correct_answer": "thereby",
+      "hint": "Sélectionnez l'adverbe de liaison signifiant 'de ce fait / par ce moyen' et exigeant d'être suivi d'un gérondif (V-ing)."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Quelle est la règle de ponctuation standard lorsqu'on utilise un adverbe de liaison comme 'nevertheless' au milieu d'une phrase pour joindre deux propositions indépendantes ?",
+      "options": [
+        "On place une virgule avant et un point-virgule après.",
+        "On place un point-virgule avant l'adverbe et une virgule immédiatement après.",
+        "On utilise uniquement de simples virgules de chaque côté."
+      ],
+      "correct_answer": "On place un point-virgule avant l'adverbe et une virgule immédiatement après.",
+      "explanation": "Pour éviter la juxtaposition fautive, la structure requiert un point-virgule pour séparer les deux propositions indépendantes, suivi de l'adverbe de liaison puis d'une virgule (ex: '...data; nevertheless, we...')."
+    }
+  ]
+}

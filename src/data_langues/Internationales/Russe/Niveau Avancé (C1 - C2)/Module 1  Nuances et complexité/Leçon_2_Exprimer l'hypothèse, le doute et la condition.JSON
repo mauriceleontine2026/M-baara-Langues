@@ -1,0 +1,229 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Exprimer l'incertitude et la probabilité fine en utilisant des particules modales avancées (вряд ли, едва ли, авось)",
+    "Maîtriser les structures conditionnelles complexes avec les conjonctions 'при условии, что' et 'в случае, если'",
+    "Nuancer l'expression du doute dans les discours argumentatifs et académiques",
+    "Utiliser le mode subjonctif pour introduire des hypothèses hautement improbables ou abstraites"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La particule 'Вряд ли' exige une prononciation fluide où le 'д' s'assourdit légèrement au contact du 'л' doux, tendant vers [ˈvrʲat lʲɪ]. Dans la locution 'При условии', veillez à la clarté du triple enchaînement vocalique final [prʲɪ ʊˈsɫovʲɪɪ].",
+    "common_pitfalls": "Attention à l'accent tonique sur le mot 'Едва' [jɪˈdva]. Le 'е' initial se réduit nettement, tandis que la particule 'ли' reste totalement atone et s'articule dans le même souffle que le mot précédent."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Вряд ли",
+      "phonetic_api": "/ˈvrʲat lʲɪ/",
+      "phonetic_simple": "VRIAT-li",
+      "translation": "Il est peu probable que / Guère / Probablement pas",
+      "example_sentence": "Он вряд ли согласится на эти условия.",
+      "example_phonetic": "/on ˈvrʲat lʲɪ sɐɡɫəˈsʲit͡sʲə nə ˈɛtʲɪ ʊˈsɫovʲɪjə/",
+      "example_translation": "Il est peu probable qu'il accepte ces conditions."
+    },
+    {
+      "word_id": "v2",
+      "term": "Едва ли",
+      "phonetic_api": "/jɪˈdva lʲɪ/",
+      "phonetic_simple": "yi-DVA-li",
+      "translation": "À peine / Il est fort douteux que (Plus soutenu)",
+      "example_sentence": "Едва ли этот проект принесёт быструю прибыль.",
+      "example_phonetic": "/jɪˈdva lʲɪ ˈɛtət prɐˈɛkt prʲɪnʲɪˈsʲot ˈbɨstrʊjʊ ˈprʲibɨlʲ/",
+      "example_translation": "Il est fort douteux que ce projet apporte un profit rapide."
+    },
+    {
+      "word_id": "v3",
+      "term": "Условие",
+      "phonetic_api": "/ʊˈsɫovʲɪjə/",
+      "phonetic_simple": "ou-SLO-vi-ye",
+      "translation": "Condition / Clause / Stipulation",
+      "example_sentence": "Это главное условие нашего соглашения.",
+      "example_phonetic": "/ˈɛtə ˈɡɫavnəjə ʊˈsɫovʲɪjə ˈnaʂɨvə sɐɡɫəˈʂenʲɪjə/",
+      "example_translation": "C'est la condition principale de notre accord."
+    },
+    {
+      "word_id": "v4",
+      "term": "Сомнение",
+      "phonetic_api": "/sɐmˈnʲenʲɪjə/",
+      "phonetic_simple": "sam-NIE-ni-ye",
+      "translation": "Doute / Scepticisme / Hésitation",
+      "example_sentence": "У меня нет никаких сомнений в его честности.",
+      "example_phonetic": "/ʊ mʲɪˈnʲa nʲet nʲɪkɐˈkʲɪx sɐmˈnʲenʲɪj f jɪˈvo ˈtɕesnəsʲtʲɪ/",
+      "example_translation": "Je n'ai aucun doute quant à son honnêteté."
+    },
+    {
+      "word_id": "v5",
+      "term": "Предположение",
+      "phonetic_api": "/prʲɪtpəɫɐˈʐenʲɪjə/",
+      "phonetic_simple": "prit-pa-la-JIE-ni-ye",
+      "translation": "Hypothèse / Supposition / Conjecture",
+      "example_sentence": "Ваше предположение подтвердилось на практике.",
+      "example_phonetic": "/ˈvaʂɨ prʲɪtpəɫɐˈʐenʲɪjə pəttvʲɪrˈdʲiɫəsʲ nə ˈpraktʲɪkʲɪ/",
+      "example_translation": "Votre hypothèse s'est confirmée dans la pratique."
+    },
+    {
+      "word_id": "v6",
+      "term": "Допускать",
+      "phonetic_api": "/dəpʊˈskatʲ/",
+      "phonetic_simple": "da-pou-SKAT'",
+      "translation": "Admettre / Supposer / Permettre (Imperfectif)",
+      "example_sentence": "Я допускаю, что в расчётах есть ошибка.",
+      "example_phonetic": "/ja dəpʊˈskajʊ ʂto v rɐˈɕːotəx jesʲtʲ ɐˈʂɨpkə/",
+      "example_translation": "J'admets qu'il puisse y avoir une erreur dans les calculs."
+    },
+    {
+      "word_id": "v7",
+      "term": "Вероятность",
+      "phonetic_api": "/vʲɪrɐˈjatnəsʲtʲ/",
+      "phonetic_simple": "vi-ra-IAT-nast'",
+      "translation": "Probabilité / Vraisemblance",
+      "example_sentence": "Вероятность успеха крайне высока.",
+      "example_phonetic": "/vʲɪrɐˈjatnəsʲtʲ ʊˈspʲexə ˈkrajnʲɪ vɨsɐˈka/",
+      "example_translation": "La probabilité de succès est extrêmement élevée."
+    },
+    {
+      "word_id": "v8",
+      "term": "Пожалуй",
+      "phonetic_api": "/pɐˈʐalʊj/",
+      "phonetic_simple": "pa-JAL-ouï",
+      "translation": "Peut-être / Je dirais volontiers / Sans doute",
+      "example_sentence": "Это, пожалуй, лучшее решение из всех.",
+      "example_phonetic": "/ˈɛtə pɐˈʐalʊj ˈlutɕʂɨjə rʲɪˈʂenʲɪjə ɪz fsʲex/",
+      "example_translation": "C'est, sans doute, la meilleure solution de toutes."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "При условии, что стороны придут к консенсусу",
+      "phonetic_api": "/prʲɪ ʊˈsɫovʲɪɪ ʂto ˈstorənɨ prʲɪˈdut k kɐnˈsɛnsʊsʊ/",
+      "phonetic_simple": "prʲi ou-SLO-vi-i, chto STO-ra-ny pri-DOUT k kan-SIEN-sou-sou",
+      "translation": "À condition que les parties parviennent à un consensus",
+      "context": "Formulation contractuelle et diplomatique incontournable au niveau avancé."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "В случае, если возникнут непредвиденные споры",
+      "phonetic_api": "/f ˈsɫutɕəɪ̯ɪ ˈjeslʲɪ vɐzˈnʲiknʊt nʲɪprʲɪdˈvʲidʲɪnːɨjə ˈsporɨ/",
+      "phonetic_simple": "v SLOU-tcha-i, IES-li vaz-NIK-nout ni-prid-VI-din-ny-ya SPO-ry",
+      "translation": "Au cas où des litiges imprévus surviendraient",
+      "context": "Permet d'introduire une clause de réserve ou de gestion des risques juridiques."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Это утверждение вызывает серьёзные сомнения",
+      "phonetic_api": "/ˈɛtə ʊtvʲɪrˈdʲenʲɪjə vɨzɨˈvaɪ̯ɪt sʲɪrˈjۆznɨjə sɐmˈnʲenʲɪjə/",
+      "phonetic_simple": "E-ta out-vir-JDIE-ni-ye vy-zy-VAI-et ssir-IO-zny-ya sam-NIE-ni-ya",
+      "translation": "Cette affirmation suscite de sérieux doutes",
+      "context": "Structure académique employée pour critiquer poliment une thèse adverse."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Было бы опрометчиво делать поспешные выводы",
+      "phonetic_api": "/ˈbɨɫə bɨ ɐprɐˈmʲetɕːɪvə ˈdʲelətʲ pɐˈspʲeʂnɨjə ˈvɨvədɨ/",
+      "phonetic_simple": "BY-la by ap-ra-MIE-tchi-va DIÉ-lat' pas-PIECH-ny-ya VY-va-dy",
+      "translation": "Il serait téméraire de tirer des conclusions hâtives",
+      "context": "Idéal pour tempérer un débat et appeler à la prudence analytique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les nuances de l'incertitude : Вряд ли vs Едва ли",
+      "explanation": "Ces deux particules modales servent à exprimer un scepticisme prononcé de l'énonciateur, équivalant à une négation polie.",
+      "rules": [
+        "Elles se placent immédiatement avant le mot sur lequel porte le doute (souvent le verbe).",
+        "Le verbe qui les suit reste à la forme affirmative, mais l'ensemble de la proposition acquiert une valeur sémantique négative.",
+        "'Едва ли' apporte une nuance plus raffinée, typique du style littéraire ou journalistique."
+      ],
+      "examples": [
+        {
+          "structure": "Они вряд ли успеют завершить аудит к пятнице.",
+          "phonetic_api": "/ɐˈnʲi ˈvrʲet lʲɪ ʊˈspʲeɪ̯ʊt zɐvʲɪrˈʂɨtʲ ɐˈudʲɪt k ˈpʲatnʲit͡sʲɪ/",
+          "meaning": "Il est peu probable qu'ils réussissent à achever l'audit d'ici vendredi."
+        }
+      ]
+    },
+    {
+      "concept": "Les propositions conditionnelles d'affaires : При условии, что vs В случае, если",
+      "explanation": "Le niveau C1 exige de dépasser la conjonction simple 'Если' pour structurer des hypothèses juridiques précises.",
+      "rules": [
+        "'При условии, что' introduit une condition sine qua non, une exigence contractuelle absolue.",
+        "'В случае, если' introduit une éventualité, un scénario potentiel parmi d'autres.",
+        "Le verbe de la subordonnée se met généralement au futur ou au conditionnel selon le degré de réalisme."
+      ],
+      "examples": [
+        {
+          "structure": "Договор вступит в силу при условии, что вы подпишете его сегодня.",
+          "phonetic_api": "/dəɡɐˈvor ˈfstupʲɪt f ˈsʲiɫʊ prʲɪ ʊˈsɫovʲɪɪ ʂto vɨ pɐdˈpʲiʂɨtʲɪ jɪˈvo sʲɪˈvodnʲə/",
+          "meaning": "Le contrat entrera en vigueur à condition que vous lo signiez aujourd'hui."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Константин",
+      "text": "Наталья Владимировна, я допускаю вероятность того, что инвесторы могут потребовать пересмотра долей. В случае, если они откажутся от финансирования, наш стартап окажется в кризисе.",
+      "phonetic_api": "/nɐˈtalʲjə vɫɐˈdʲimʲɪrəvnə ja dəpʊˈskajʊ vʲɪrɐˈjatnəsʲtʲ tɐˈvo ʂto ɪnˈvʲɛstərɨ ˈmoɡʊt pɐˈtrʲebəvətʲ pʲɪrʲɪˈsmotrə dɐˈlʲej f ˈsɫutɕəɪ̯ɪ ˈjeslʲɪ ɐˈnʲi ɐtˈkaʐʊt͡sʲə ɐt fʲɪnənsʲɪˈrovənʲɪjə naʂ stɐrˈtap ɐˈkaʐɨt͡sʲə v ˈkrʲizʲɪsʲɪ/",
+      "phonetic_simple": "Na-TAL-ia Vla-DI-mi-rav-na, ya da-pous-KAI-ou vi-ra-IAT-nast' ta-VO, chto ine-VIESS-ta-ry MO-gout pa-TRIÉ-ba-vat' pi-ri-SMOT-ra da-LIEÏ. V SLOU-tcha-i, IES-li a-NI at-KA-jout-ssya at fi-nan-ssi-RO-va-ni-ya, nach star-TAP a-KA-jyt-ssya v KRI-zi-ssi.",
+      "translation": "Natalia Vladimirovna, j'admets la probabilité que les investisseurs puissent exiger une révision des parts. Au cas où ils refuseraient le financement, notre start-up se retrouverait en crise."
+    },
+    {
+      "speaker": "Наталья",
+      "text": "Константин, они едва ли пойдут на такой радикальный шаг, ведь они уже вложили колоссальные ресурсы. Мы подпишем соглашение, но исключительно при условии, что они сохранят прежний объём обязательств.",
+      "phonetic_api": "/kənstɐnˈtʲin ɐˈnʲi jɪˈdva lʲɪ pɐjˈdut nə tɐˈkoj rədʲɪˈkalʲnɨj ʂak vʲetʲ ɐˈnʲi ʊˈʐɛ vɫɐˈʐɨlʲɪ kəɫɐˈsalʲnɨjə rʲɪˈsursɨ mɨ pɐdˈpʲiʂɨm sɐɡɫəˈʂenʲɪjə no ɪksklʲʉˈzʲivnə prʲɪ ʊˈsɫovʲɪɪ ʂto ɐˈnʲi sɐxrɐˈnʲat ˈprʲeʐnʲɪj ɐbˈjɵm ɐˈbʲazənːəstʲf/",
+      "phonetic_simple": "Kan-stan-TIN, a-NI yi-DVA-li paï-DOUT na ta-KOÏ ra-di-KAL'-nyj chak, viet' a-NI ou-JÉ vla-JY-li ka-las-SAL'-ny-ya ri-SOUR-ssy. My pat-PI-chym sa-gla-CHIE-ni-ye, no iks-kliou-ZIV-na prʲi ou-SLO-vi-i, chto a-NI sah-ra-NIAT PRIEJ-nij ab-IOM a-BIA-zan-nast'."
+    }
+  ],
+  "cultural_notes": [
+    "Le scepticisme mesuré dans la culture des affaires : En Russie, afficher un optimisme débordant dans les négociations de haut niveau est souvent interprété comme un manque de maturité ou de sérieux. L'usage de tournures hypothétiques et précautionneuses montre que l'interlocuteur anticipe méticuleusement tous les risques systémiques.",
+    "La particule mystique 'Авось' : Bien que hors du cadre formel (C1 écrit), il est crucial de connaître la particule populaire 'авось' (le fameux 'russkiy avos'), qui exprime l'espoir irrationnel qu'une situation s'arrange d'elle-même, par chance, sans planification. En milieu professionnel avancé, on s'efforce de prouver qu'on ne s'appuie jamais sur le 'авось'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L2_ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la particule modale appropriée pour traduire un doute poli et soutenu : 'Этот аргумент [ ___ ] убедит членов совета директоров.'",
+      "options": [
+        "едва ли",
+        "разве",
+        "неужели",
+        "авось"
+      ],
+      "correct_answer": "едва ли",
+      "explanation": "'Едва ли' introduit de façon formelle et élégante une forte probabilité négative (Il est fort douteux que cet argument convainque...)."
+    },
+    {
+      "exercise_id": "C1_M1_L2_ex2",
+      "type": "multiple_choice",
+      "question": "Quelle conjonction exprime une clause de condition stricte et exclusive ?",
+      "options": [
+        "В случае, если",
+        "При условии, что",
+        "Тогда как",
+        "Несмотря на то, что"
+      ],
+      "correct_answer": "При условии, что",
+      "explanation": "'При условии, что' correspond exactement à notre 'à condition que' restrictif et impératif."
+    },
+    {
+      "exercise_id": "C1_M1_L2_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] возникновения форс-мажорных обстоятельств контракт аннулируется. (En cas de - exige le Génitif du groupe nominal qui suit)",
+      "correct_answer": "В случае",
+      "hint": "Locution prépositionnelle figée suivie du cas Génitif."
+    },
+    {
+      "exercise_id": "C1_M1_L2_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Такое смелое [ ___ ] требует весомых доказательств. (Hypothèse / Supposition)",
+      "correct_answer": "предположение",
+      "hint": "Substantif neutre de la même famille que le verbe предполагать."
+    }
+  ]
+}

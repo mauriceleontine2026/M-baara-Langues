@@ -1,0 +1,266 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter avec précision de 0 à 20 en arabe standard moderne",
+    "Comprendre le principe fondamental de l'inversion de genre dans le comptage des objets",
+    "Exprimer une quantité et poser des questions de dénombrement simples avec l'outil 'Kam'"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon introduit le phonème /θ/ (ث - thā'), une fricative interdentale sourde rigoureusement identique au 'th' anglais de 'think' (à ne pas confondre avec le sound /s/). Le son /ħ/ (ح) apparaît dans 'Wāḥid' et 'Sab'ah'. Le son /ʕ/ (ع) est central dans 'Arba'ah', 'Sab'ah', 'Tis'ah' et 'Asharah'. Notez également l'occlusive uvulaire sourde /q/ (ق) dans 'Raqm' (numéro).",
+    "common_pitfalls": "La plus grande erreur commise par les francophones est de prononcer la lettre /θ/ (ث) comme un /s/ français ou un /t/. Pour un son correct, placez le bout de la langue entre les incisives supérieures et inférieures. Veillez également à ne pas omettre le coup de glotte du Hamza terminal ou initial dans 'Aḥad' ou 'Arba'ah'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "رَقْمٌ",
+      "phonetic_api": "/raq.mun/",
+      "phonetic_simple": "RAK-MOUN",
+      "translation": "Un chiffre / Un numéro",
+      "example_sentence": "مَا رَقْمُ هَاتِفِكَ؟",
+      "example_phonetic": "/maː raq.mu haː.ti.fi.ka/",
+      "example_translation": "Quel est ton numéro de téléphone ? (à un homme)"
+    },
+    {
+      "word_id": "v2",
+      "term": "عَدَدٌ",
+      "phonetic_api": "/ʕa.da.dun/",
+      "phonetic_simple": "A-DA-DOUN",
+      "translation": "Un nombre / Une quantité",
+      "example_sentence": "عَدَدُ الطُّلَّابِ كَبِيرٌ",
+      "example_phonetic": "/.../",
+      "example_translation": "Le nombre d'étudiants est grand"
+    },
+    {
+      "word_id": "v3",
+      "term": "صِفْرٌ",
+      "phonetic_api": "/sˤif.run/",
+      "phonetic_simple": "SIF-ROUN",
+      "translation": "Zéro (0)",
+      "example_sentence": "الرَّقْمُ السِّرِّيُّ يَبْدَأُ بِصِفْرٍ",
+      "example_phonetic": "/.../",
+      "example_translation": "Le code secret commence par un zéro"
+    },
+    {
+      "word_id": "v4",
+      "term": "وَاحِدٌ",
+      "phonetic_api": "/waː.ħi.dun/",
+      "phonetic_simple": "WAA-HI-DOUN",
+      "translation": "Un (1)",
+      "example_sentence": "كِتَابٌ وَاحِدٌ",
+      "example_phonetic": "/ki.taː.bun waː.ħi.dun/",
+      "example_translation": "Un seul livre"
+    },
+    {
+      "word_id": "v5",
+      "term": "اِثْنَانِ",
+      "phonetic_api": "/iθ.naː.ni/",
+      "phonetic_simple": "ITH-NAA-NI",
+      "translation": "Deux (2)",
+      "example_sentence": "قَلَمَانِ اثْنَانِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Deux stylos"
+    },
+    {
+      "word_id": "v6",
+      "term": "ثَلَاثَةٌ",
+      "phonetic_api": "/θa.laː.θa.tun/",
+      "phonetic_simple": "THA-LAA-THA-TOUN",
+      "translation": "Trois (3)",
+      "example_sentence": "ثَلَاثَةُ أَيَّامٍ",
+      "example_phonetic": "/θa.laː.θa.tu ʔaj.jaː.min/",
+      "example_translation": "Trois jours"
+    },
+    {
+      "word_id": "v7",
+      "term": "عَشَرَةٌ",
+      "phonetic_api": "/ʕa.ʃa.ra.tun/",
+      "phonetic_simple": "A-CHA-RA-TOUN",
+      "translation": "Dix (10)",
+      "example_sentence": "عَشَرَةُ رِجَالٍ",
+      "example_phonetic": "/.../",
+      "example_translation": "Dix hommes"
+    },
+    {
+      "word_id": "v8",
+      "term": "عِشْرُونَ",
+      "phonetic_api": "/ʕiʃ.ruː.na/",
+      "phonetic_simple": "ICH-ROU-NA",
+      "translation": "Vingt (20)",
+      "example_sentence": "عِشْرُونَ سَنَةً",
+      "example_phonetic": "/.../",
+      "example_translation": "Vingt ans"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "كَمْ عَدَدُ الأَشْخَاصِ؟",
+      "phonetic_api": "/kam ʕa.da.dul ʔaʃ.xaː.sˤi/",
+      "phonetic_simple": "KAM A-DA-DOUL ACH-KHAA-SI",
+      "translation": "Quel est le nombre de personnes ?",
+      "context": "Pour dénombrer un groupe dans un cadre formel (ex : restaurant, réunion)."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "كَمْ سِعْرُ هَذَا كِتَابِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "KAM SIBRU HAA-THAL KI-TAAB",
+      "translation": "Combien coûte ce livre ?",
+      "context": "Question de base pour s'enquérir d'un prix."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "كَمْ طَالِبًا فِي الصَّفِّ؟",
+      "phonetic_api": "/kam tˤaː.li.ban fisˤ sˤaff/",
+      "phonetic_simple": "KAM TAA-LI-BAN FIS-SAFF",
+      "translation": "Combien d'étudiants y a-t-il dans la classe ?",
+      "context": "Exemple parfait de l'usage syntaxique de 'Kam'."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "عِنْدِي خَمْسَةُ دَرَاهِمَ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "IN-DII KHAM-SA-TOU DA-RAA-HI-MA",
+      "translation": "J'ai cinq dirhams",
+      "context": "Indication d'une petite somme monétaire."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "عُمُرِي سَبْعَ عَشْرَةَ سَنَةً",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "OUM-RII SAB-A ACH-RA-TA SA-NA-TAN",
+      "translation": "J'ai dix-sept ans",
+      "context": "Dire son âge en utilisant un nombre composé complexe."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La syntaxe de l'interrogation quantitative : L'outil Kam (كَمْ)",
+      "explanation": "Pour poser la question 'Combien ?', l'arabe utilise la particule invariable 'Kam'. La structure grammaticale qui la suit répond à des exigences strictes.",
+      "rules": [
+        "Le nom d'objet compté placé immédiatement après 'Kam' doit obligatoirement être au singulier.",
+        "Ce nom doit être indéfini et porter la marque du cas direct (Tanween Al-Fath : -an).",
+        "Cette structure s'appelle le Tamyeez (le spécificatif)."
+      ],
+      "examples": [
+        {
+          "structure": "كَمْ قَلَمًا عِنْدَكَ؟",
+          "phonetic_api": "/kam qa.la.man ʕin.da.ka/",
+          "meaning": "Combien de stylos as-tu ? (Qalam est singulier indéfini avec -an)"
+        },
+        {
+          "structure": "كَمْ سَنَةً؟",
+          "phonetic_api": "/kam sa.na.tan/",
+          "meaning": "Combien d'années ?"
+        }
+      ]
+    },
+    {
+      "concept": "Le principe d'inversion du genre des nombres (de 3 à 10)",
+      "explanation": "C'est l'un des aspects les plus singuliers de la grammaire arabe. Pour compter des entités de 3 à 10, le chiffre adopte le genre opposé (inverse) à celui du nom qu'il dénombre.",
+      "rules": [
+        "Si l'objet dénombré est grammaticalement masculin au singulier, le chiffre de 3 à 10 prendra sa forme féminine (se terminant par un Tā' Marbūṭah ة).",
+        "Si l'objet dénombré est féminin au singulier, le chiffre prendra sa forme masculine (sans Tā' Marbūṭah).",
+        "L'objet compté se met au pluriel, indéfini et au cas indirect (Génitif/Tanween Kasr)."
+      ],
+      "examples": [
+        {
+          "structure": "ثَلَاثَةُ رِجَالٍ",
+          "phonetic_api": "/θa.laː.θa.tu ri.dʒaː.lin/",
+          "meaning": "Trois hommes (Rajul étant masculin, le chiffre trois prend la forme féminine thalāthah)"
+        },
+        {
+          "structure": "ثَلَاثُ نِسَاءٍ",
+          "phonetic_api": "/θa.laː.θu ni.saː.ʔin/",
+          "meaning": "Trois femmes (Imra'ah étant féminin, le chiffre trois prend la forme masculine thalāth)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "البَائِعُ (Le vendeur)",
+      "text": "مَرْحَبًا يَا سَيِّدِي. كَمْ كِتَابًا تُرِيدُ الْيَوْمَ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MAR-HA-BAN YA SAY-YI-DII. KAM KI-TAA-BAN TOU-RII-DOU L-YAW-MA",
+      "translation": "Bonjour monsieur. Combien de livres veux-tu aujourd'hui ?"
+    },
+    {
+      "speaker": "الْمُشْتَرِي (L'acheteur)",
+      "text": "أُرِيدُ أَرْبَعَةَ كُتُبٍ مِنْ فَضْلِكَ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "OU-RII-DOU AR-BA-A-TOU KOU-TOU-BIN MIN FAD-LI-KA",
+      "translation": "Je veux quatre livres, s'il te plaît."
+    },
+    {
+      "speaker": "البَائِعُ (Le vendeur)",
+      "text": "تَفَضَّلْ. وَهَلْ تُرِيدُ أَقْلَامًا أَيْضًا؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "TA-FAD-DAL. WA HAL TOU-RII-DOU AK-LAA-MAN AY-DAN",
+      "translation": "Je t'en prie. Et veux-tu des stylos aussi ?"
+    },
+    {
+      "speaker": "الْمُشْتَرِي (L'acheteur)",
+      "text": "نَعَمْ، كَمْ عَدَدُ الأَقْلَامِ فِي هَذِهِ الْعُلْبَةِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "NA-AM, KAM A-DA-DOUL AK-LAA-MI FII HAA-THI-HIL OUL-BA",
+      "translation": "Oui, combien de stylos y a-t-il dans cette boîte ?"
+    },
+    {
+      "speaker": "البَائِعُ (Le vendeur)",
+      "text": "فِيهَا عَشَرَةُ أَقْلَامٍ. السِّعْرُ الْكُلِّيُّ عِشْرُونَ دِينَارًا.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "FII-HAA A-CHA-RA-TOU AK-LAA-MIN. AS-SI-ROUL KOUL-LIY-YOU ICH-ROU-NA DII-NAA-RAN",
+      "translation": "Il y a dedans dix stylos. Le prix total est de vingt dinars."
+    },
+    {
+      "speaker": "الْمُشْتَرِي (L'acheteur)",
+      "text": "مُمْتَازٌ، شُكْرًا جَزِيلًا. تَفَضَّلْ هَذِهِ النُّقُودَ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MOUM-TAAZ, CHOUK-RAN DJA-ZII-LAN. TA-FAD-DAL HAA-THI-HIN NOU-KOUD",
+      "translation": "Excellent, merci beaucoup. Voici l'argent."
+    }
+  ],
+  "cultural_notes": [
+    "Les chiffres arabo-indiens vs maghrébins : Les symboles numériques employés en Occident (1, 2, 3...) sont historiquement appelés 'chiffres arabes'. Paradoxalement, dans une grande partie du Moyen-Orient (Mashreq), on utilise majoritairement le système de glyphes indo-arabes (١, ٢, ٣, ٤...), alors que l'Afrique du Nord (Maghreb) utilise les mêmes tracés qu'en Europe.",
+    "La numérologie culturelle : Les chiffres 3, 7 et 9 revêtent une importance symbolique et religieuse forte dans la littérature et les proverbes du monde arabo-islamique, apparaissant souvent dans des contextes rituels ou des expressions figées."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L5_ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la structure correcte pour écrire 'Cinq stylos' sachant que 'قَلَم' (Qalam) est un nom masculin ?",
+      "options": [
+        "خَمْسُ أَقْلَامٍ (Khamsu aqlāmin)",
+        "خَمْسَةُ أَقْلَامٍ (Khamsatu aqlāmin)",
+        "خَمْسَةٌ قَلَمًا (Khamsatun qalaman)"
+      ],
+      "correct_answer": "خَمْسَةُ أَقْلَامٍ (Khamsatu aqlāmin)",
+      "explanation": "Qalam étant masculin au singulier, le chiffre cinq doit prendre sa forme féminine 'khamsatu' (avec Ta Marboutah) et le nom se met au pluriel génitif."
+    },
+    {
+      "exercise_id": "A1_M2_L5_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander 'Combien de voitures ?' (Sayyārah), on dit : كَمْ [ ___ ] ؟",
+      "correct_answer": "سَيَّارَةً",
+      "hint": "Le mot doit rester au singulier et porter le Tanween Al-Fath (-an)."
+    },
+    {
+      "exercise_id": "A1_M2_L5_ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'صِفْرٌ' (Sifr) en arabe, qui a donné le mot 'chiffre' et 'zéro' en français ?",
+      "options": [
+        "Un",
+        "Zéro",
+        "Vingt"
+      ],
+      "correct_answer": "Zéro",
+      "explanation": "Sifr signifie littéralement 'le vide' ou 'le rien', concept introduit par les mathématiciens arabes pour désigner le zéro."
+    }
+  ]
+}

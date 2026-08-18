@@ -1,0 +1,264 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés",
+  "learning_objectives": [
+    "Maîtriser les nuances aspectuelles de l'itératif-progressif complexe avec 'máa ń fẹ́ kí'",
+    "Utiliser le subjonctif inversé et le mode virtuel pour exprimer une éventualité hautement hypothétique",
+    "Manipuler les affixes de dérivation aspectuelle pour exprimer l'antériorité absolue révolue"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le niveau avancé exige une fluidité parfaite dans la gestion des sandhis (contractions vocaliques extrêmes). Lors de la rencontre entre le subjonctif 'kí' et les pronoms, observez l'assimilation vocalique totale (ex: 'kí ó' devient un unique [kó] à ton haut). Le maintien de la nasalisation lors des enchaînements rapides de consonnes complexes est indispensable.",
+    "common_pitfalls": "Veillez à ne pas confondre le 'máa' du futur certain avec le 'máa' du subjonctif de souhait atténué. La courbe mélodique descendante de la phrase et le contexte syntaxique des verbes de pensée régissent la hauteur sémantique."
+  },
+  "vocabulary": [
+    {
+      "word_id": "C1_M1_L1_V1",
+      "term": "Yalẹnu / Kaba-mọ̀",
+      "phonetic_api": "/jàlɛnu/",
+      "phonetic_simple": "YA-LÈ-NOU",
+      "translation": "S'étonner / Être frappé de stupéfaction face à un événement complexe",
+      "example_sentence": "Ìsẹ̀lẹ̀ náà yà mọ́lẹ́nu pátápátá.",
+      "example_phonetic": "/ìʃɛlɛ̀ náː jà mɔ́lɛ́nu k͡páták͡páta/",
+      "example_translation": "Cet événement m'a plongé dans une stupéfaction totale."
+    },
+    {
+      "word_id": "C1_M1_L1_V2",
+      "term": "Ìmọ̀-káyé / Ìmọ̀-ijìnlẹ̀",
+      "phonetic_api": "/ìmɔ̀id͡ʒĩ̀lɛ̀/",
+      "phonetic_simple": "Ì-MÀW-I-JÌN-LÈ",
+      "translation": "Savoir ésotérique / Connaissance approfondie / Érudition",
+      "example_sentence": "Ìmọ̀-ijìnlẹ̀ rẹ̀ kọjá àfura eniyan.",
+      "example_phonetic": "/ìmɔ̀id͡ʒĩ̀lɛ̀ ɾɛ̀ kɔd͡ʒá àfuɾa enĩjã/",
+      "example_translation": "Son érudition dépasse l'entendement humain."
+    },
+    {
+      "word_id": "C1_M1_L1_V3",
+      "term": "Ìbáṣe-pé",
+      "phonetic_api": "/ìbáʃek͡pé/",
+      "phonetic_simple": "Ì-BÁ-SHE-KPÉ",
+      "translation": "S'il avait été que / Si par hasard (Irrationnel du passé)",
+      "example_sentence": "Ìbáṣe-pé o sọ̀rọ̀, a jókòó.",
+      "example_phonetic": "/ìbáʃek͡pé o sɔ̀ɾɔ̀ a d͡ʒókòó/",
+      "example_translation": "Si tu avais parlé (par hasard), nous serions restés."
+    },
+    {
+      "word_id": "C1_M1_L1_V4",
+      "term": "Káṣe-kù / Ṣàṣekù",
+      "phonetic_api": "/ʃàʃekù/",
+      "phonetic_simple": "SHÀ-SHE-KOÙ",
+      "translation": "Laisser inachevé / Omettre une action par négligence ou dessein",
+      "example_sentence": "Mo kórìíra lati ṣàṣekù nínú iṣẹ́ mi.",
+      "example_phonetic": "/mo kóɾìːɾa lati ʃàʃekù nĩ́nú iʃɛ́ mĩ/",
+      "example_translation": "Je déteste laisser mon travail inachevé."
+    },
+    {
+      "word_id": "C1_M1_L1_V5",
+      "term": "Apadàbọ̀ / Àyípadà",
+      "phonetic_api": "/àjípada/",
+      "phonetic_simple": "À-YÍ-PA-DÀ",
+      "translation": "Fluctuation / Métamorphose stylistique ou conceptuelle",
+      "example_sentence": "Àyípadà èrò rẹ̀ yára púpọ̀.",
+      "example_phonetic": "/àjípada ɛ̀ɾò ɾɛ̀ jáɾa k͡púpɔ̀/",
+      "example_translation": "La métamorphose de sa pensée est extrêmement rapide."
+    },
+    {
+      "word_id": "C1_M1_L1_V6",
+      "term": "Ríwò / Wòye",
+      "phonetic_api": "/wòje/",
+      "phonetic_simple": "WÒ-YE",
+      "translation": "Conjecturer / Pressentir / Analyser avec discernement",
+      "example_sentence": "Mo wòye pé ọ̀rọ̀ yìí ní ìtumọ̀ gidi.",
+      "example_phonetic": "/mo wòje k͡pé ɔ̀fa jĩː ní ìtumɔ̀ ɡidi/",
+      "example_translation": "Je conjecture que cette affaire cache un sens profond."
+    },
+    {
+      "word_id": "C1_M1_L1_V7",
+      "term": "Àpẹẹrẹ-àwòṣe",
+      "phonetic_api": "/àk͡pɛːɾɛ_àwòʃe/",
+      "phonetic_simple": "À-KPẸẸ-RẸ-À-WÒ-SHE",
+      "translation": "Paradigme / Modèle parfait / Archétype",
+      "example_sentence": "Ìwà rẹ̀ jẹ́ àpẹẹrẹ-àwòṣe fún wa.",
+      "example_phonetic": "/ìwà ɾɛ̀ d͡ʒɛ́ àk͡pɛːɾɛ_àwòʃe fʊ́ wa/",
+      "example_translation": "Son comportement est un paradigme pour nous."
+    },
+    {
+      "word_id": "C1_M1_L1_V8",
+      "term": "Ìfojúṣọ̀nà",
+      "phonetic_api": "/ìfod͡ʒúʃɔ̀nà/",
+      "phonetic_simple": "Ì-FO-JÚ-SHÀW-NÀ",
+      "translation": "Prospective / Planification rigoureuse à très long terme",
+      "example_sentence": "Ìfojúṣọ̀nà rẹ̀ yọrí sí rere.",
+      "example_phonetic": "/ìfod͡ʒúʃɔ̀nà ɾɛ̀ jɔɾí sí ɾeɾe/",
+      "example_translation": "Sa prospective a mené à un excellent résultat."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "C1_M1_L1_P1",
+      "original": "Ìbáṣe-pé mo ti mọ̀, nò bá dákẹ́ rárá.",
+      "phonetic_api": "/ìbáʃek͡pé mo ti mọ̀ nò bá dákɛ́ ɾáɾá/",
+      "phonetic_simple": "Ì-BÁ-SHE-KPÉ MO TI MÀW, NÒ BÁ DÁ-KÉ RÁ-RÁ.",
+      "translation": "Si j'avais su, je ne me serais pas tu du tout.",
+      "context": "Expression de regrets complexes sur un irréel du passé."
+    },
+    {
+      "phrase_id": "C1_M1_L1_P2",
+      "original": "Ká kàn wòye pé òfin náà kò gba ẹnikẹ́ni láàyè mọ́.",
+      "phonetic_api": "/ká kã̀ wòje k͡pé òfĩ náː kò ɡ͡ba ɛnikɛ́ni láːjɛ̀ mɔ́/",
+      "phonetic_simple": "KÁ KÀN WÒ-YE KPÉ Ò-FIN NÁÀ KÒ GBA È-NI-KÉ-NI LÁÀ-YÈ MÁ.",
+      "translation": "Conjecturons simplement que la loi n'autorise plus personne désormais.",
+      "context": "Formulation d'une hypothèse de travail ou d'un argumentaire abstrait."
+    },
+    {
+      "phrase_id": "C1_M1_L1_P3",
+      "original": "Ó máa ń fẹ́ kí a tẹ̀lú orí-ọ̀rọ̀ náà mọ́ra láìṣàṣekù.",
+      "phonetic_api": "/ó máː ŋ́ fɛ́ kí a tɛ̀lú oɾíɔ̀ɾɔ̀ náː mɔ́ɾa láìʃàṣekù/",
+      "phonetic_simple": "Ó MÁÀ N FÉ KÍ A TÈ-LÚ OH-RÍ-ÀW-RÀW NÁÀ MÁ-RA LÁÌ-SHÀ-SHE-KOÙ.",
+      "translation": "Il exige habituellement que nous approfondissions le sujet sans omission.",
+      "context": "Description d'une exigence intellectuelle récurrente d'un maître."
+    },
+    {
+      "phrase_id": "C1_M1_L1_P4",
+      "original": "Kí ìsẹ̀lẹ̀ náà tó di dandan, mo ti rí àyípadà rẹ̀.",
+      "phonetic_api": "/kí ìʃɛlɛ̀ náː tó di dãdã mo ti ɾí àjípada ɾɛ̀/",
+      "phonetic_simple": "KÍ Ì-SHẸ-LÈ NÁÀ TÓ DI DAN-DAN, MO TI RÍ À-YÍ-PA-DÀ RÈ.",
+      "translation": "Avant même que l'événement ne se concrétise, j'en avais décelé la métamorphose.",
+      "context": "Récit d'analyse perspective avancée."
+    },
+    {
+      "phrase_id": "C1_M1_L1_P5",
+      "original": "Nṣe ni ìmọ̀-ijìnlẹ̀ rẹ̀ ń mú kí inú gbogbo wa yàlẹnu.",
+      "phonetic_api": "/nʃe nĩ ìmɔ̀id͡ʒĩ̀lɛ̀ ɾɛ̀ ŋ́ mú kí inú ɡ͡boɡ͡bo wa jàlɛnu/",
+      "phonetic_simple": "N-SHE NI Ì-MÀW-I-JÌN-LÈ RÈ N MOÚ KÍ I-NOÚ GBOGBO WA YA-LÈ-NOU.",
+      "translation": "C'est son érudition même qui ne cesse de nous plonger dans la stupéfaction.",
+      "context": "Formule de focalisation emphatique pour louer une compétence."
+    },
+    {
+      "phrase_id": "C1_M1_L1_P6",
+      "original": "Bí a kò bá fojúṣọ̀nà dunjú, a kò ní rí àṣeyọrí kankan gbà.",
+      "phonetic_api": "/bí a kò bá fod͡ʒúʃɔ̀nà dʊ̃d͡ʒú a kò ní ɾí àʃejɔɾí kãkã ɡ͡bà/",
+      "phonetic_simple": "BÍ A KÒ BÁ FO-JÚ-SHÀW-NÀ DOÙN-JÚ, A KÒ NÍ RÍ À-SHE-YÁW-RÍ KAN-KAN GBA.",
+      "translation": "Si nous ne planifions pas l'avenir de façon pointue, nous n'obtiendrons aucun succès.",
+      "context": "Mise en garde rhétorique lors d'un débat stratégique."
+    },
+    {
+      "phrase_id": "C1_M1_L1_P7",
+      "original": "Ká sọ pé ẹrù náà gbówó lórí, ṣé a bàá kúrò lọ́jà?",
+      "phonetic_api": "/ká sɔ k͡pé ɛɾù náː ɡ͡bówó lórí ʃé a bàá kúɾɔ̀ lɔ́d͡ʒà/",
+      "phonetic_simple": "KÁ SÁ KPÉ È-ROÙ NÁÀ GBÓ-WÓ LÓ-RÍ, SHÉ A BÀÁ KOÚ-RÒ LÁW-JÀ?",
+      "translation": "Supposons que la marchandise ait augmenté de prix, aurions-nous pour autant quitté le marché ?",
+      "context": "Question dialectique avancée posant un cadre fictif."
+    },
+    {
+      "phrase_id": "C1_M1_L1_P8",
+      "original": "Àpẹẹrẹ-àwòṣe yìí ni kí a tẹ̀lé láti tọ́ lẹ́nu iṣẹ́ wa.",
+      "phonetic_api": "/àk͡pɛːɾɛ_àwòʃe jĩː nĩ kí a tɛ̀lé láti tɔ́ lɛ́nu iʃɛ́ wa/",
+      "phonetic_simple": "À-KPẸẸ-RẸ-À-WÒ-SHE YÍ NI KÍ A TÈ-LÉ LÁ-TI TÁW LÉ-NU I-SHÉ WA.",
+      "translation": "C'est ce paradigme précis qu'il nous faut suivre pour exceller dans nos fonctions.",
+      "context": "Directive managériale ou académique de haut niveau."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'irréel du passé et le mode conditionnel virtuel avec 'Ìbáṣe-pé... bàá...'",
+      "explanation": "Pour exprimer une hypothèse non réalisée dans le passé (Si cela avait eu lieu, l'effet aurait été...), la syntaxe avancée utilise la locution nominalisée 'Ìbáṣe-pé' (ou simplement 'Ìbá') en tête de la protase. L'apodose utilise alors le marqueur discontinu complexe 'bàá' (contraction de 'bá' + 'à' du potentiel virtuel) inséré entre le sujet et le verbe.",
+      "rules": [
+        "Structure : Ìbáṣe-pé + [Sujet] + ti + [Verbe 1], [Sujet] + bàá + [Verbe 2].",
+        "Le pronom sujet de la première personne fusionne souvent avec 'bàá' pour donner 'n bàá'."
+      ],
+      "examples": [
+        {
+          "structure": "Ìbáṣe-pé o ti sọ̀rọ̀, n bàá gbọ́",
+          "phonetic_api": "/ìbáʃek͡pé o ti sɔ̀ɾɔ̀ ŋ̀ bàː ɡ͡bɔ́/",
+          "meaning": "Si tu avais parlé, j'aurais entendu."
+        },
+        {
+          "structure": "Ìbá ilé jóná, a bàá ní ìṣòro",
+          "phonetic_api": "/ìbá ilé d͡ʒóná a bàː ní ìʃòɾo/",
+          "meaning": "Si la maison avait brûlé, nous aurions eu des problèmes."
+        }
+      ]
+    },
+    {
+      "concept": "Le mode délibératif d'hypothèse rhétorique : Ká sọ pé / Ká kàn wòye",
+      "explanation": "Dans les joutes oratoires ou les argumentaires élaborés, pour introduire un postulat ou une supposition ('Mettons que...', 'Supposons que...'), le yoruba use d'une contraction du subjonctif hortatif : 'Kí a sọ pé' devient 'Ká sọ pé'. Le verbe qui suit s'affranchit des marques de temps réelles.",
+      "rules": [
+        "Structure : Ká sọ pé / Ká wòye pé + [Proposition hypothétique], ṣé + [Proposition principale interrogative] ?",
+        "S'utilise couramment pour pousser un interlocuteur dans ses retranchements logiques."
+      ],
+      "examples": [
+        {
+          "structure": "Ká sọ pé owó tán, kí ni o máa ṣe ?",
+          "phonetic_api": "/ká sɔ k͡pé owó tã́ kí nĩ o máː ʃe/",
+          "meaning": "Supposons que l'argent vienne à manquer, que ferais-tu ?"
+        },
+        {
+          "structure": "Ká wòye pé ó kùnà, nṣe ni inú rẹ̀ bàá bàjẹ́",
+          "phonetic_api": "/ká wòje k͡pé ó kʊ̀nà ɲʃe nĩ inú ɾɛ̀ bàː bàd͡ʒɛ́/",
+          "meaning": "Imaginons qu'il échoue, son cœur en aurait été profondément meurtri."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Akàwé-àgbà (L'érudit)",
+      "text": "Àyìnlá, mo ti ń tẹjúmọ́ ìmọ̀-ijìnlẹ̀ rẹ lẹ́nu ọjọ́ mẹ́ta yìí. Ìbáṣe-pé o ti bẹ̀rẹ̀ ní tẹ́lẹ̀, o bàá ti tayọ ju lọ.",
+      "phonetic_api": "/àjĩ̀lá mo ti ŋ́ tɛd͡ʒúmɔ́ ìmɔ̀id͡ʒĩ̀lɛ̀ ɾɛ lɛ́nu ɔd͡ʒɔ́ mɛ́ta jĩː ìbáʃek͡pé o ti bɛ̀ɾɛ̀ ní tɛ́lɛ̀ o bàː ti tãjɔ̀ d͡ʒu lɔ/",
+      "phonetic_simple": "À-YÌN-LÁ, MO TI N TẸ-JÚ-MÁ Ì-MÀW-I-JÌN-LÈ RÈ LÉ-NU AW-JÁ MÉ-TA YÍ. Ì-BÁ-SHE-KPÉ O TI BÈ-RÈ NÍ TÉ-LÈ, O BÀÁ TI TA-YÀW JOÚ LAW.",
+      "translation": "Ayinla, j'observe ton érudition grandissante ces derniers temps. Si tu avais commencé plus tôt, tu aurais surpassé tout le monde depuis longtemps."
+    },
+    {
+      "speaker": "Àyìnlá (Le chercheur)",
+      "text": "Ẹ ṣé púpọ̀, ọ̀gá. Ká kàn wòye pé ìlànà ìkàwé mi ní àṣekù tẹ́lẹ̀; nṣe ni mo máa ń fẹ́ kí gbogbo ìgbésẹ̀ mi pé pépé nísinsìnyí.",
+      "phonetic_api": "/ɛ̀ ʃé k͡púpɔ̀ ɔ̀ɡá ká kã̀ wòje k͡pé ìlànà ìkàwé mĩ ní àʃekù tɛ́lɛ̀ ɲʃe nĩ mo máː ŋ́ fɛ́ kí ɡ͡boɡ͡bo ìɡ͡bésɛ̀ mĩ k͡pé k͡pék͡pé nísĩsĩjĩ́/",
+      "phonetic_simple": "È SHÉ KPOÚ-PÀW, AW-GÁ. KÁ KÀN WÒ-YE KPÉ Ì-LÀ-NÀ Ì-KÀ-WÉ MI NÍ À-SHE-KOÙ TÉ-LÈ; N-SHE NI MO MÁÀ N FÉ KÍ GBOGBO Ì-GBÉ-SÈ MI KPÉ KPÉ-KPÉ NÍ-SIN-SIN-YÍ.",
+      "translation": "Merci infiniment, maître. Supposons que ma méthode d'étude souffrait d'inachèvement auparavant ; c'est pourquoi j'exige désormais que chacune de mes démarches soit d'une rigueur absolue."
+    },
+    {
+      "speaker": "Akàwé-àgbà (L'érudit)",
+      "text": "Ìfojúṣọ̀nà rẹ yẹn tọ̀nà. Bí àwọn ọmọ-ìwé títí nísinsìnyí bá tẹ̀lé àpẹẹrẹ-àwòṣe rẹ, ìmọ̀-káyé wa kò ní rí àyípadà dídùn rù rárá.",
+      "phonetic_api": "/ìfod͡ʒúʃɔ̀nà ɾɛ d͡ʒɛ̃ tɔ̀nà bí àwɔ̃ ɔmɔìwé títí nísĩsĩjĩ́ bá tɛ̀lé àk͡pɛːɾɛ_àwòʃe ɾɛ ìmɔ̀kájé wa kò ní ɾí àjípada dídʊ̃̀ ɾù ɾáɾá/",
+      "phonetic_simple": "Ì-VÒ-JÚ-SHÀW-NÀ RÈ YẸN TÀW-NÀ. BÍ À-WAN AW-MAW-Ì-WÉ TÍ-TÍ NÍ-SIN-SIN-YÍ BÁ TÈ-LÉ À-KPẸẸ-RẸ-À-WÒ-SHE RÈ, Ì-MÀW-KÁ-YÉ WA KÒ NÍ RÍ À-YÍ-PA-DÀ DÍ-DOÙN RÙ RÁ-RÁ.",
+      "translation": "Ta vision prospective est parfaitement juste. Si les étudiants d'aujourd'hui suivaient ton paradigme, notre univers intellectuel ne connaîtrait aucune régression (ne porterait pas de changement amer)."
+    },
+    {
+      "speaker": "Àyìnlá (Le chercheur)",
+      "text": "Inú mi yàlẹnu láti gbọ́ ọ̀rọ̀ dídùn wọ̀nyí. Ìrètí mi ni pé kí n máṣe ṣàṣekù kankan mọ́ láyé mi.",
+      "phonetic_api": "/inú mĩ jàlɛnu láti ɡ͡bɔ́ ɔ̀ɾɔ̀ dídʊ̃̀ wɔ̀jĩ́ ìɾètí mĩ nĩ k͡pé kí ɲ̀ máʃe ʃàʃekù kãkã mɔ́ lájé mĩ/",
+      "phonetic_simple": "I-NOÚ MI YA-LÈ-NOU LÁ-TI GBÓ ÀW-RÀW DÍ-DOÙN WÒ-NYÍ. Ì-RÉ-TÍ MI NI KPÉ KÍ N MÁ-SHE SHÀ-SHE-KOÙ KAN-KAN MÁ LÁ-YÉ MI.",
+      "translation": "Je suis frappé de stupeur en entendant de si nobles paroles. Mon espoir le plus cher est de ne plus jamais commettre la moindre omission dans mon existence."
+    }
+  ],
+  "cultural_notes": [
+    "Au niveau de la rhétorique supérieure yoruba, la maîtrise du mode hypothétique irréel ('Ìbáṣe-pé') distingue les orateurs d'exception (les 'Afọ̀rọ̀ṣiré' ou maîtres de la parole). Manier ces tournures complexes permet de débattre de l'histoire, des généalogies et du droit coutumier sans jamais heurter de front ses interlocuteurs.",
+    "Le concept d' 'Ìmọ̀-ijìnlẹ̀' renvoie historiquement aux cercles de sagesse fermés des anciens. Un individu qui fait preuve d'une rigueur méthodique absolue sans faille est qualifié de 'Pépé' ou 'Inú pípé', un idéal de droiture et de complétude d'esprit opposé à la négligence ('Àṣekù').",
+    "L'utilisation de structures hypothétiques délibératives ('Ká sọ pé') est courante dans les contes philosophiques yorubas pour soumettre l'auditoire à des cas de conscience moraux ou à des dilemmes éthiques de haut vol."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L1_EX1",
+      "type": "multiple_choice",
+      "question": "Choisissez la tournure grammaticale exacte traduisant l'irréel du passé : 'Si le maître avait partagé son savoir, nous aurions compris.'",
+      "options": [
+        "Bí olùkọ́ bá fẹ́, a máa mọ̀ nísinsìnyí",
+        "Ìbáṣe-pé olùkọ́ ti pín ìmọ̀ rẹ̀, a bàá mọ̀ dunjú",
+        "Ká sọ pé olùkọ́ ń pín ìmọ̀, a ń gbọ́ tẹ́lẹ̀",
+        "Nṣe ni olùkọ́ pín ìmọ̀ rẹ̀ kí a tó jí láná"
+      ],
+      "correct_answer": "Ìbáṣe-pé olùkọ́ ti pín ìmọ̀ rẹ̀, a bàá mọ̀ dunjú",
+      "explanation": "L'irréel du passé requiert l'opérateur 'Ìbáṣe-pé' dans la conditionnelle et l'auxiliaire de potentiel virtuel 'bàá' associé au sujet dans la proposition principale."
+    },
+    {
+      "exercise_id": "C1_M1_L1_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour poser un postulat ou une conjecture rhétorique en début d'argumentaire ('Supposons que...'), on utilise l'expression contractée : [ ___ ] sọ pé ó ṣẹlẹ̀...",
+      "correct_answer": "Ká",
+      "hint": "C'est la contraction stylistique avancée de 'Kí a' (Qu'on / Que nous) au mode hortatif."
+    }
+  ]
+}

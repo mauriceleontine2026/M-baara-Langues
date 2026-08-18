@@ -1,0 +1,258 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché/restaurant)",
+  "learning_objectives": [
+    "Identifier les aliments de base et les boissons courantes",
+    "Savoir passer une commande simple au restaurant ou au café"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'ç' dans 'almoço' se prononce [s]. Le digramme 'nh' dans 'vinho' produit le son [ɲ] (comme le 'gn' français). Le mot 'pão' contient la voyelle nasale diphtonguée typique [ɐ̃w].",
+    "common_pitfalls": "Ne confondez pas la prononciation de 'café' (très ouverte en portugais [kɐˈfɛ]) avec celle du français. Le 's' final de 'conta' n'existe pas, mais faites attention au pluriel 'as contas' où le 's' glisse en [ʃ] devant une pause."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Água",
+      "phonetic_api": "/ˈaɡwɐ/",
+      "phonetic_simple": "AH-GWAH",
+      "translation": "Eau",
+      "example_sentence": "Uma água mineral, por favor.",
+      "example_phonetic": "/ˈumɐ ˈaɡwɐ minɨˈɾaɫ puɾ fɐˈvoɾ/",
+      "example_translation": "Une eau minérale, s'il vous plaît."
+    },
+    {
+      "word_id": "v2",
+      "term": "Café",
+      "phonetic_api": "/kɐˈfɛ/",
+      "phonetic_simple": "KAH-FÈ",
+      "translation": "Café / Expresso",
+      "example_sentence": "Quero um café e um pastel de nata.",
+      "example_phonetic": "/ˈkɛɾu ũ kɐˈfɛ i ũ pɐʃˈtɛɫ dɨ ˈnatɐ/",
+      "example_translation": "Je veux un café et un pastel de nata."
+    },
+    {
+      "word_id": "v3",
+      "term": "Vinho",
+      "phonetic_api": "/ˈviɲu/",
+      "phonetic_simple": "VEEN-YOO",
+      "translation": "Vin",
+      "example_sentence": "Um copo de vinho tinto, por favor.",
+      "example_phonetic": "/ũ ˈkɔpu dɨ ˈviɲu ˈtʲĩtu puɾ fɐˈvoɾ/",
+      "example_translation": "Un verre de vin rouge, s'il vous plaît."
+    },
+    {
+      "word_id": "v4",
+      "term": "Pão",
+      "phonetic_api": "/pɐ̃w/",
+      "phonetic_simple": "PANG",
+      "translation": "Pain",
+      "example_sentence": "O pão está muito fresco.",
+      "example_phonetic": "/u pɐ̃w iʃˈta ˈmũjtu ˈfɾeʃku/",
+      "example_translation": "Le pain est très frais."
+    },
+    {
+      "word_id": "v5",
+      "term": "Peixe",
+      "phonetic_api": "/ˈpɐjʃɨ/",
+      "phonetic_simple": "PAY-CH'H",
+      "translation": "Poisson",
+      "example_sentence": "Gosto de comer peixe grelhado.",
+      "example_phonetic": "/ˈɡoʃtu dɨ kuˈmeɾ ˈpɐjʃɨ ɡɾɨˈʎaðu/",
+      "example_translation": "J'aime manger du poisson grillé."
+    },
+    {
+      "word_id": "v6",
+      "term": "Carne",
+      "phonetic_api": "/ˈkaɾnɨ/",
+      "phonetic_simple": "KAR-N'H",
+      "translation": "Viande",
+      "example_sentence": "A carne está deliciosa.",
+      "example_phonetic": "/A ˈkaɾnɨ iʃˈta dɨlisiˈozɐ/",
+      "example_translation": "La viande est délicieuse."
+    },
+    {
+      "word_id": "v7",
+      "term": "Sopa",
+      "phonetic_api": "/ˈsopɐ/",
+      "phonetic_simple": "SOH-PAH",
+      "translation": "Soupe",
+      "example_sentence": "A sopa do dia é de legumes.",
+      "example_phonetic": "/ɐ ˈsopɐ du ˈdiɐ ɛ dɨ lɨˈɣumɨʃ/",
+      "example_translation": "La soupe du jour est aux légumes."
+    },
+    {
+      "word_id": "v8",
+      "term": "Fruta",
+      "phonetic_api": "/ˈfɾutɐ/",
+      "phonetic_simple": "FROO-TAH",
+      "translation": "Fruit",
+      "example_sentence": "Quero fruta para a sobremesa.",
+      "example_phonetic": "/ˈkɛɾu ˈfɾutɐ ˈpɐɾɐ ɐ suβɾɨˈmezɐ/",
+      "example_translation": "Je veux des fruits pour le dessert."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Queria fazer uma reserva, por favor.",
+      "phonetic_api": "/kwɨˈɾiɐ fɐˈzeɾ ˈumɐ ʁɨˈzɛɾvɐ puɾ fɐˈvoɾ/",
+      "phonetic_simple": "KW'H-REE-AH FAH-ZER OO-MAH R'H-ZAIR-VAH POOR FAH-VOR",
+      "translation": "Je voudrais faire une réservation, s'il vous plaît.",
+      "context": "Appeler un restaurant pour réserver une table."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "O que recomenda?",
+      "phonetic_api": "/u kɨ ʁɨkuˈmẽdɐ/",
+      "phonetic_simple": "OO K'H R'H-KOO-MEN-DAH",
+      "translation": "Que recommandez-vous ?",
+      "context": "Demander l'avis du serveur sur les plats."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Para mim, o bacalhau, por favor.",
+      "phonetic_api": "/ˈpɐɾɐ mʲĩ u bɐkɐˈʎɐw puɾ fɐˈvoɾ/",
+      "phonetic_simple": "PAH-RAH MEENG OO BAH-KAH-LYAW POOR FAH-VOR",
+      "translation": "Pour moi, la morue, s'il vous plaît.",
+      "context": "Passer sa commande au serveur."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "A conta, por favor.",
+      "phonetic_api": "/ɐ ˈkõtɐ puɾ fɐˈvoɾ/",
+      "phonetic_simple": "AH KON-TAH POOR FAH-VOR",
+      "translation": "L'addition, s'il vous plaît.",
+      "context": "Demander l'addition à la fin du repas."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Está incluído?",
+      "phonetic_api": "/iʃˈta ĩkluˈiðu/",
+      "phonetic_simple": "ECH-TAH EEN-KLOO-EE-DOO",
+      "translation": "Est-ce inclus ?",
+      "context": "S'informer sur les suppléments ou le service."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Um copo de água da torneira.",
+      "phonetic_api": "/ũ ˈkɔpu dɨ ˈaɡwɐ dɐ tuɾˈnɐjɾɐ/",
+      "phonetic_simple": "OONG KÓ-POO D'H AH-GWAH DAH TOOR-NAY-RAH",
+      "translation": "Un verre d'eau du robinet.",
+      "context": "Demander de l'eau simple sans acheter de bouteille."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Bom proveito!",
+      "phonetic_api": "/bõ pɾuˈvɐjtu/",
+      "phonetic_simple": "BON PROO-VAY-TOO",
+      "translation": "Bon appétit !",
+      "context": "Souhaiter un bon repas à ses compagnons de table."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Onde é a casa de banho?",
+      "phonetic_api": "/ˈõdɨ ɛ ɐ ˈkazɐ dɨ ˈbɐɲu/",
+      "phonetic_simple": "ON-D'H É AH KAH-ZAH D'H BAH-NYOO",
+      "translation": "Où sont les toilettes ?",
+      "context": "Demander l'accès aux sanitaires au restaurant."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'utilisation de 'Queria' pour exprimer un souhait poli",
+      "explanation": "Pour passer commande ou faire une demande polie, on utilise l'imparfait de l'indicatif du verbe 'querer' (vouloir), qui adoucit la demande par rapport au présent.",
+      "rules": [
+        "Structure : 'Queria' + [Nom de l'aliment] + 'por favor'.",
+        "Structure : 'Queria' + [Verbe à l'infinitif]..."
+      ],
+      "examples": [
+        {
+          "structure": "Queria um chá, por favor.",
+          "phonetic_api": "/kwɨˈɾiɐ ũ ʃa puɾ fɐˈvoɾ/",
+          "meaning": "Je voudrais un thé, s'il vous plaît."
+        }
+      ]
+    },
+    {
+      "concept": "L'article partitif inexistant en portugais",
+      "explanation": "Contrairement au français qui utilise 'du', 'de la', 'des' (ex: je mange du pain), le portugais n'emploie pas d'article partitif devant les quantités indéterminées.",
+      "rules": [
+        "On utilise directement le nom sans article ou précédé d'un quantificateur.",
+        "Exemple : 'Eu como pão' (Je mange du pain) et non 'Eu como do pão'."
+      ],
+      "examples": [
+        {
+          "structure": "Eu bebo água.",
+          "phonetic_api": "/ew ˈβeβu ˈaɡwɐ/",
+          "meaning": "Je bois de l'eau."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Empregado",
+      "text": "Boa tarde. Já escolheram?",
+      "phonetic_api": "/ˈboɐ ˈtaɾdɨ ʒa iʃkuˈʎeɾɐ̃w/",
+      "phonetic_simple": "BOH-AH TAR-D'H JAH ECH-KOO-LYAY-RANG",
+      "translation": "Bonjour. Vous avez choisi ?"
+    },
+    {
+      "speaker": "Cliente",
+      "text": "Sim. Para mim, queria la sopa de legumes e o peixe grelhado.",
+      "phonetic_api": "/sɐ̃j ˈpɐɾɐ mʲĩ kwɨˈɾiɐ ɐ ˈsopɐ dɨ lɨˈɣumɨʃ i u ˈpɐjʃɨ ɡɾɨˈʎaðu/",
+      "phonetic_simple": "SEENG PAH-RAH MEENG KW'H-REE-AH AH SOH-PAH D'H L'H-GOO-MECH EE OO PAY-CH'H REE-LYAH-DOO",
+      "translation": "Oui. Pour moi, je voudrais la soupe aux légumes et le poisson grillé."
+    },
+    {
+      "speaker": "Empregado",
+      "text": "E para beber?",
+      "phonetic_api": "/i ˈpɐɾɐ βɨˈβeɾ/",
+      "phonetic_simple": "EE PAH-RAH B'H-BER",
+      "translation": "Et pour boire ?"
+    },
+    {
+      "speaker": "Cliente",
+      "text": "Uma garrafa de água mineral fresca, por favor.",
+      "phonetic_api": "/ˈumɐ ɡɐˈʁafɐ dɨ ˈaɡwɐ minɨˈɾaɫ ˈfɾeʃkɐ puɾ fɐˈvoɾ/",
+      "phonetic_simple": "OO-MAH GAH-RAH-FAH D'H AH-GWAH MEE-N'H-RAL FRECH-KAH POOR FAH-VOR",
+      "translation": "Une bouteille d'eau minérale fraîche, s'il vous plaît."
+    },
+    {
+      "speaker": "Empregado",
+      "text": "Com certeza. Com licença.",
+      "phonetic_api": "/kõ sɨɾˈtezɐ kõ liˈsẽsɐ/",
+      "phonetic_simple": "KON SAIR-TAY-ZAH KON LEE-SEN-SAH",
+      "translation": "Bien sûr. Veuillez m'excuser (Je vous en prie)."
+    }
+  ],
+  "cultural_notes": [
+    "Au Portugal, les petits amuse-bouches posés sur la table au début du repas (pain, beurre, fromage, olives) s'appellent le 'couvert'. Ils ne sont pas gratuits : vous ne payez que ce que vous consommez.",
+    "Pour demander un expresso à Lisbonne, on utilise très souvent le mot 'bica', tandis qu'à Porto on demandera plutôt un 'cimbalino'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle forme verbale utilise-t-on pour commander poliment au restaurant ?",
+      "options": [
+        "Quero",
+        "Queria",
+        "Quis"
+      ],
+      "correct_answer": "Queria",
+      "explanation": "'Queria' est la forme de politesse idéale (équivalente à 'je voudrais') pour passer commande."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander la note à la fin, on dit : A [ ___ ], por favor.",
+      "correct_answer": "conta",
+      "hint": "Traduction de 'l'addition'"
+    }
+  ]
+}

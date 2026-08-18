@@ -1,0 +1,265 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Savoir décliner son identité, donner son âge et exprimer sa nationalité ou son origine",
+    "Parler de sa profession et poser des questions simples pour faire connaissance"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'italien utilise des consonnes doubles (consonanti doppie) qui demandent une insistance articulatoire ou un léger temps d'arrêt avant l'explosion du son (ex: 'Francia' vs 'doccia'). Le groupe 'gn' se prononce comme le 'gn' français dans 'mignon' /ɲ/ (ex: 'ingegnere'). Le groupe 'gli' produit un son mouillé /ʎ/, proche du 'll' dans le mot français 'pillage' (ex: 'Fratellanza').",
+    "common_pitfalls": "Attention à la prononciation de 'sono' : les voyelles sont claires et ne doivent jamais être nasalisées à la française. Ne dites pas 'son-on' mais détachez bien 'so-no'. De même, la lettre 'z' peut être sonore /dz/ (ex: 'anziano') ou sourde /tts/ (ex: 'nazione')."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Chiamarsi",
+      "phonetic_api": "/kjaˈmarsi/",
+      "phonetic_simple": "KIA-MAR-SI",
+      "translation": "S'appeler",
+      "example_sentence": "Mi chiamo Alessandro.",
+      "example_phonetic": "/mi ˈkjaːmo alesˈsandro/",
+      "example_translation": "Je m'appelle Alessandro."
+    },
+    {
+      "word_id": "v2",
+      "term": "L'età",
+      "phonetic_api": "/leˈta/",
+      "phonetic_simple": "LE-TA",
+      "translation": "L'âge",
+      "example_sentence": "Che età hai?",
+      "example_phonetic": "/ke eˈta ai/",
+      "example_translation": "Quel âge as-tu ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "L'anno",
+      "phonetic_api": "/ˈlanno/",
+      "phonetic_simple": "LAN-NO",
+      "translation": "L'année / L'an",
+      "example_sentence": "Ho trenta anni.",
+      "example_phonetic": "/ɔ ˈtrenta ˈanni/",
+      "example_translation": "J'ai trente ans."
+    },
+    {
+      "word_id": "v4",
+      "term": "La Francia",
+      "phonetic_api": "/la ˈfrantʃa/",
+      "phonetic_simple": "LA FRAN-TCHA",
+      "translation": "La France",
+      "example_sentence": "Vengo dalla Francia.",
+      "example_phonetic": "/ˈveŋɡo ˈdalla ˈfrantʃa/",
+      "example_translation": "Je viens de France."
+    },
+    {
+      "word_id": "v5",
+      "term": "Francese",
+      "phonetic_api": "/franˈtʃeːze/",
+      "phonetic_simple": "FRAN-TCHE-ZE",
+      "translation": "Français / Française",
+      "example_sentence": "Lei è francese?",
+      "example_phonetic": "/lɛi ɛ franˈtʃeːze/",
+      "example_translation": "Vous êtes français ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "Il lavoro",
+      "phonetic_api": "/il laˈvoːro/",
+      "phonetic_simple": "IL LA-VO-RO",
+      "translation": "Le travail / La profession",
+      "example_sentence": "Qual è il tuo lavoro?",
+      "example_phonetic": "/kwal ɛ il ˈtuːo laˈvoːro/",
+      "example_translation": "Quel est ton travail ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Come ti chiami?",
+      "phonetic_api": "/ˈkoːme ti ˈkjaːmi/",
+      "phonetic_simple": "KO-ME TI KIA-MI",
+      "translation": "Comment tu t'appelles ?",
+      "context": "Question informelle pour demander l'identité de quelqu'un."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Come si chiama?",
+      "phonetic_api": "/ˈkoːme si ˈkjaːma/",
+      "phonetic_simple": "KO-ME SI KIA-MA",
+      "translation": "Comment vous vous appelez ?",
+      "context": "Question formelle de présentation (vouvoiement)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Quanti anni hai?",
+      "phonetic_api": "/ˈkwanti ˈanni ai/",
+      "phonetic_simple": "KOUAN-TI AN-NI AÏ",
+      "translation": "Quel âge as-tu ?",
+      "context": "Utilisé pour s'enquérir de l'âge d'un pair ou d'un enfant."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Di dove sei?",
+      "phonetic_api": "/di ˈdoːve sɛi/",
+      "phonetic_simple": "DI DO-VE SÈÏ",
+      "translation": "D'où es-tu ?",
+      "context": "Question familière sur l'origine géographique ou la ville natale."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Di dov'è Lei?",
+      "phonetic_api": "/di doˈvɛ lɛi/",
+      "phonetic_simple": "DI DO-VÈ LEÏ",
+      "translation": "D'où êtes-vous ?",
+      "context": "Forme polie pour demander l'origine d'un interlocuteur de respect."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Sono di Parigi",
+      "phonetic_api": "/ˈsoːno di paˈriːdʒi/",
+      "phonetic_simple": "SO-NO DI PA-RI-DJI",
+      "translation": "Je suis de Paris",
+      "context": "Indique la ville d'origine avec la préposition 'di'."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Che lavoro fai?",
+      "phonetic_api": "/ke laˈvoːro fai/",
+      "phonetic_simple": "KÉ LA-VO-RO FAÏ",
+      "translation": "Qu'est-ce que tu fais comme travail ?",
+      "context": "Interrogation courante sur la profession dans un milieu amical."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Sono studente",
+      "phonetic_api": "/ˈsoːno stuˈdɛnte/",
+      "phonetic_simple": "SO-NO STOU-DÈN-TÉ",
+      "translation": "Je suis étudiant",
+      "context": "Permet de déclarer son statut académique ou professionnel (sans article)."
+    },
+    {
+      "phrase_id": "p9",
+      "original": "Piacere!",
+      "phonetic_api": "/pjaˈtʃeːre/",
+      "phonetic_simple": "PIA-TCHE-RE",
+      "translation": "Enchanté !",
+      "context": "Expression universelle, rapide et polie juste après avoir entendu un nom."
+    },
+    {
+      "phrase_id": "p10",
+      "original": "Abito a Roma",
+      "phonetic_api": "/ˈaːbito a ˈroːma/",
+      "phonetic_simple": "A-BI-TO A RO-MA",
+      "translation": "J'habite à Rome",
+      "context": "Indique le lieu de résidence actuel."
+    },
+    {
+      "phrase_id": "p11",
+      "original": "Questo è il mio amico",
+      "phonetic_api": "/ˈkwesto ɛ il miːo aˈmiːko/",
+      "phonetic_simple": "KOUÈS-TO È IL MI-O A-MI-KO",
+      "translation": "C'est mon ami",
+      "context": "Pour introduire une tierce personne masculine."
+    },
+    {
+      "phrase_id": "p12",
+      "original": "Non parlo bene l'italiano",
+      "phonetic_api": "/non ˈparlo ˈbɛːne litaˈljaːno/",
+      "phonetic_simple": "NON PAR-LO BÈ-NE LI-TA-LIA-NO",
+      "translation": "Je ne parle pas bien l'italien",
+      "context": "Phrase de secours pour justifier ses hésitations."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les verbes Essere (Être) et Avere (Avoir) au présent de l'indicatif",
+      "explanation": "Ce sont les deux auxiliaires indispensables. Contrairement au français qui utilise 'être' pour l'âge dans certaines structures littéraires ou d'autres langues, l'italien emploie strictement 'Avere' pour exprimer l'âge.",
+      "rules": [
+        "Essere au singulier : io sono (je suis), tu sei (tu es), lui/lei è (il/elle est).",
+        "Avere au singulier : io ho (j'ai), tu hai (tu as), lui/lei ha (il/elle a). Le 'h' initial est purement graphique et muet.",
+        "Pour donner son âge : Prénom/Pronom + verbe Avere + Nombre + anni."
+      ],
+      "examples": [
+        {
+          "structure": "Io ho venticinque anni e sono ingegnere.",
+          "phonetic_api": "/jo ɔ vɛntitʃiŋkwe ˈanni e ˈsoːno indʒeɲˈɲeːre/",
+          "meaning": "J'ai 25 ans et je suis ingénieur."
+        }
+      ]
+    },
+    {
+      "concept": "Exprimer l'origine : 'Sono di' vs 'Vengo da'",
+      "explanation": "Il existe deux manières idiomatiques de formuler son origine géographique en italien, chacune utilisant une préposition spécifique.",
+      "rules": [
+        "L'expression 'Sono di' est obligatoirement suivie d'une ville (ex: Sono di Milano).",
+        "L'expression 'Vengo da' est généralement suivie d'un pays ou d'une provenance géographique plus large et s'articule souvent (ex: Vengo dalla Francia)."
+      ],
+      "examples": [
+        {
+          "structure": "Sono di Lione, ma vengo dalla Francia del sud.",
+          "phonetic_api": "/ˈsoːno di liˈoːne ma ˈveŋɡo ˈdalla ˈfrantʃa del sud/",
+          "meaning": "Je suis de Lyon, mais je viens du sud de la France."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Matteo",
+      "text": "Ciao! Io mi chiamo Matteo. E tu come ti chiami?",
+      "phonetic_api": "/ˈtʃaːo jo mi ˈkjaːmo matˈtɛːo e tu ˈkoːme ti ˈkjaːmi/",
+      "phonetic_simple": "TCHAO IO MI KIA-MO MAT-TÈ-O E TOU KO-ME TI KIA-MI",
+      "translation": "Salut ! Moi je m'appelle Matteo. Et toi, comment tu t'appelles ?"
+    },
+    {
+      "speaker": "Sophie",
+      "text": "Ciao Matteo! Mi chiamo Sophie. Piacere!",
+      "phonetic_api": "/ˈtʃaːo matˈtɛːo mi ˈkjaːmo soˈfi pjaˈtʃeːre/",
+      "phonetic_simple": "TCHAO MAT-TÈ-O MI KIA-MO SO-FI PIA-TCHE-RE",
+      "translation": "Salut Matteo ! Je m'appelle Sophie. Enchantée !"
+    },
+    {
+      "speaker": "Matteo",
+      "text": "Piacere mio. Di dove sei, Sophie? Sei italiana?",
+      "phonetic_api": "/pjaˈtʃeːre ˈmiːo di ˈdoːve sɛi soˈfi sɛi itaˈljaːna/",
+      "phonetic_simple": "PIA-TCHE-RE MI-O DI DO-VE SÈÏ SO-FI SÈÏ I-TA-LIA-NA",
+      "translation": "Tout le plaisir est pour moi. D'où es-tu Sophie ? Tu es italienne ?"
+    },
+    {
+      "speaker": "Sophie",
+      "text": "No, non sono italiana. Sono francese, di Nizza. Ma abito a Milano per lavoro. Ho ventotto anni e sono architetto.",
+      "phonetic_api": "/nɔ non ˈsoːno itaˈljaːna ˈsoːno franˈtʃeːze di ˈnittsa ma ˈaːbito a miˈlaːno per laˈvoːro ɔ venˈtɔtto ˈanni e ˈsoːno arkiˈtetto/",
+      "phonetic_simple": "NO NON SO-NO I-TA-LIA-NA SO-NO FRAN-TCHE-ZE DI NIT-TSA MA A-BI-TO A MI-LA-NO PER LA-VO-RO O VEN-TOT-TO AN-NI E SO-NO AR-KI-TET-TO",
+      "translation": "Non, je ne suis pas italienne. Je suis française, de Nice. Mais j'habite à Milan pour le travail. J'ai 28 ans et je suis architecte."
+    }
+  ],
+  "cultural_notes": [
+    "Lorsqu'on exprime sa profession en italien, on n'utilise généralement pas d'article indéfini après le verbe essere (ex: 'Sono medico' et non 'Sono un medico'), sauf si le métier est qualifié par un adjectif (ex: 'Sono un bravo medico').",
+    "Demander l'âge ('Quanti anni hai?') est tout à fait naturel entre jeunes ou dans un cadre informel en Italie, mais cela peut être considéré comme indiscret lors d'une première rencontre formelle avec une personne plus âgée.",
+    "La notion de campanilismo (l'attachement féroce à sa ville natale ou son clocher) fait qu'un Italien se présentera souvent en mentionnant sa ville ou sa région (ex: 'Sono toscano') avant de dire qu'il est italien."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la bonne option pour dire l'âge : 'Mio fratello [ ___ ] venti anni.'",
+      "options": [
+        "è",
+        "ha",
+        "fa"
+      ],
+      "correct_answer": "ha",
+      "explanation": "L'âge s'exprime avec le verbe 'avere'. À la troisième personne du singulier (mio fratello = lui), la forme correcte est 'ha'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Io sono di Parigi, quindi sono [ ___ ].",
+      "correct_answer": "francese",
+      "hint": "Adjectif de nationalité correspondant à la France au singulier."
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché/restaurant)",
+  "learning_objectives": [
+    "Nommer les principaux aliments de base et boissons en yoruba (iṣu, rẹ́sì, omi)",
+    "Exprimer la faim, la soif et le désir de consommer avec les verbes 'fẹ́' et 'jẹ́'",
+    "Formuler une commande ou un achat de nourriture de manière polie"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en relief l'articulation du phonème occlusif bilabial-vélaire sourd [k͡p], écrit graphiquement 'p' (ex: 'kọfí' ou les constructions avec 'kpa'). Veillez également à ne pas vocaliser le 'n' final des mots nasaux comme 'omi tuntun' ou 'mu' [mʊ̃].",
+    "common_pitfalls": "Le verbe manger est 'jẹ' [d͡ʒɛ] (ton moyen) et le verbe boire est 'mu' [mu] (ton moyen). Ne confondez pas 'omi' (eau, tons moyen-haut) avec 'ògògó' ou d'autres liquides dont les schémas tritoniques diffèrent radicalement."
+  },
+  "vocabulary": [
+    {
+      "word_id": "A1_M3_L8_V1",
+      "term": "Onjẹ",
+      "phonetic_api": "/ōnd͡ʒɛ/",
+      "phonetic_simple": "ON-JÉ",
+      "translation": "Nourriture / Aliment",
+      "example_sentence": "Onjẹ yìí múná púpọ̀.",
+      "example_phonetic": "/ōnd͡ʒɛ jĩː mʊ́ná k͡púpɔ̀/",
+      "example_translation": "Cette nourriture est très chaude / épicée."
+    },
+    {
+      "word_id": "A1_M3_L8_V2",
+      "term": "Omi",
+      "phonetic_api": "/omĩ́/",
+      "phonetic_simple": "OH-MÍ",
+      "translation": "Eau",
+      "example_sentence": "Fún mi ní omi tútù, ẹ jọ̀wọ́.",
+      "example_phonetic": "/fʊ́ mĩ ní omĩ́ tútù ɛ̀ d͡ʒɔ̀wɔ́/",
+      "example_translation": "Donnez-moi de l'eau fraîche, s'il vous plaît."
+    },
+    {
+      "word_id": "A1_M3_L8_V3",
+      "term": "Iṣu",
+      "phonetic_api": "/iʃu/",
+      "phonetic_simple": "I-SHOU",
+      "translation": "Igname",
+      "example_sentence": "Mo fẹ́ jẹ iṣu dín-dín.",
+      "example_phonetic": "/mo fɛ́ d͡ʒɛ iʃu dĩ́dĩ́/",
+      "example_translation": "Je veux manger de l'igname frite."
+    },
+    {
+      "word_id": "A1_M3_L8_V4",
+      "term": "Ẹran",
+      "phonetic_api": "/ɛɾã/",
+      "phonetic_simple": "È-RAN",
+      "translation": "Viande",
+      "example_sentence": "Ẹran màlúù ni mo rà.",
+      "example_phonetic": "/ɛɾã màlúː nĩ mo ɾà/",
+      "example_translation": "C'est de la viande de bœuf que j'ai achetée."
+    },
+    {
+      "word_id": "A1_M3_L8_V5",
+      "term": "Ẹja",
+      "phonetic_api": "/ɛ̀d͡ʒa/",
+      "phonetic_simple": "È-JA",
+      "translation": "Poisson",
+      "example_sentence": "Ẹja dídín dùn púpọ̀.",
+      "example_phonetic": "/ɛ̀d͡ʒa dídĩ́ dù k͡púpɔ̀/",
+      "example_translation": "Le poisson frit est très délicieux."
+    },
+    {
+      "word_id": "A1_M3_L8_V6",
+      "term": "Rẹ́sì / Ìrẹsì",
+      "phonetic_api": "/ìɾɛsì/",
+      "phonetic_simple": "Ì-RÉ-SÌ",
+      "translation": "Riz",
+      "example_sentence": "Ìrẹsì àti ẹ̀wà ti lélẹ̀.",
+      "example_phonetic": "/ìɾɛsì àti ɛ̀wà ti lélɛ̀/",
+      "example_translation": "Le riz et les haricots sont prêts."
+    },
+    {
+      "word_id": "A1_M3_L8_V7",
+      "term": "Mú",
+      "phonetic_api": "/mʊ́/",
+      "phonetic_simple": "MOÚ",
+      "translation": "Boire / Prendre (un liquide)",
+      "example_sentence": "Mo fẹ́ mu otí tútù.",
+      "example_phonetic": "/mo fɛ́ mu otí tútù/",
+      "example_translation": "Je veux boire une boisson fraîche."
+    },
+    {
+      "word_id": "A1_M3_L8_V8",
+      "term": "Ilé-onjẹ",
+      "phonetic_api": "/iléōnd͡ʒɛ/",
+      "phonetic_simple": "I-LÉ-ON-JÉ",
+      "translation": "Restaurant / Cantine (Littéralement : maison de nourriture)",
+      "example_sentence": "Ilé-onjẹ yìí mọ́ tónítóní.",
+      "example_phonetic": "/iléōnd͡ʒɛ jĩː mɔ́ tónítóní/",
+      "example_translation": "Ce restaurant est extrêmement propre."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "A1_M3_L8_P1",
+      "original": "Ebi ń pa mí, mo fẹ́ jẹun.",
+      "phonetic_api": "/ebi ŋ́ k͡pa mĩ mo fɛ́ d͡ʒɛʊ̃/",
+      "phonetic_simple": "E-BI N KPA MÍ, MO FÉ JEUN.",
+      "translation": "J'ai faim, je veux manger. (Littéralement : La faim me frappe).",
+      "context": "Expression courante du besoin biologique de nourriture."
+    },
+    {
+      "phrase_id": "A1_M3_L8_P2",
+      "original": "Òùngbẹ ń gbe mí, fún mi ní omi.",
+      "phonetic_api": "/òʊ̃ɡ͡bɛ ŋ́ ɡ͡be mĩ fʊ́ mĩ ní omĩ́/",
+      "phonetic_simple": "ÒÙN-GBÉ N GBE MÍ, FOÚN MÍ NÍ OH-MÍ.",
+      "translation": "J'ai soif, donnez-moi de l'eau. (Littéralement : La soif m'assèche).",
+      "context": "Expression courante du besoin de s'hydrater."
+    },
+    {
+      "phrase_id": "A1_M3_L8_P3",
+      "original": "Kí ni ó wà nínú iṣẹ́-onjẹ lóní?",
+      "phonetic_api": "/kí nĩ ó wà nĩ́nú iʃɛ́ōnd͡ʒɛ lónĩ́/",
+      "phonetic_simple": "KÍ NI Ó WÀ NÍ-NOÚ I-SHÉ-ON-JÉ LÓ-NÍ?",
+      "translation": "Qu'y a-t-il au menu aujourd'hui ?",
+      "context": "Demande d'information dans un restaurant ou une cantine locale."
+    },
+    {
+      "phrase_id": "A1_M3_L8_P4",
+      "original": "Mo fẹ́ pa rẹ́sì àti ẹran màlúù.",
+      "phonetic_api": "/mo fɛ́ k͡pa ɾɛ́sì àti ɛɾã màlúː/",
+      "phonetic_simple": "MO FÉ KPA RÉ-SÌ À-TI È-RAN MÀ-LÚÚ.",
+      "translation": "Je désire commander du riz et de la viande de bœuf.",
+      "context": "Formuler une commande de plat principal."
+    },
+    {
+      "phrase_id": "A1_M3_L8_P5",
+      "original": "Ṣé onjẹ yìí ní ata púpọ̀?",
+      "phonetic_api": "/ʃé ōnd͡ʒɛ jĩː ní ata k͡púpɔ̀/",
+      "phonetic_simple": "SHÉ ON-JÉ YÍ NÍ A-TA KPOÚ-PÀW?",
+      "translation": "Est-ce que cette nourriture est très pimentée ?",
+      "context": "Se renseigner sur le niveau d'épices d'un plat."
+    },
+    {
+      "phrase_id": "A1_M3_L8_P6",
+      "original": "Ẹ fún mi ní lẹ́mọ́ọ̀nù gidi kan.",
+      "phonetic_api": "/ɛ̀ fʊ́ mĩ ní lɛ́mɔ́ɔ̀nù ɡidi kã/",
+      "phonetic_simple": "È FOÚN MÍ NÍ LÉ-MÁW-ÀW-NOÙ GIDI KAN.",
+      "translation": "Donnez-moi une vraie limonade / citronnade.",
+      "context": "Commande d'une boisson rafraîchissante."
+    },
+    {
+      "phrase_id": "A1_M3_L8_P7",
+      "original": "Owó mélòó ni onjẹ yìí lapapọ́?",
+      "phonetic_api": "/owó mélòː nĩ ōnd͡ʒɛ jĩː lak͡pak͡pɔ́/",
+      "phonetic_simple": "OH-WÓ MÉ-LÒÒ NI ON-JÉ YÍ LA-PA-KPÁW?",
+      "translation": "Combien coûte ce repas au total ?",
+      "context": "Demander l'addition ou le prix au moment de régler."
+    },
+    {
+      "phrase_id": "A1_M3_L8_P8",
+      "original": "Onjẹ náà dùn púpọ̀, ẹ ṣé.",
+      "phonetic_api": "/ond͡ʒɛ náː dù k͡púpɔ̀ ɛ̀ ʃé/",
+      "phonetic_simple": "ON-JÉ NÁÀ DOÙN KPOÚ-PÀW, È SHÉ.",
+      "translation": "Le repas était très bon, merci.",
+      "context": "Complimenter le cuisinier ou le serveur en partant."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les structures idiomatiques de sensation physique : 'Ebi ń pa mí'",
+      "explanation": "En yoruba, les sensations physiologiques comme la faim ou la soif ne s'expriment pas par une possession ('avoir faim'). Elles se construisent de manière transitive active où le besoin (le sujet nominal) effectue une action de force sur la personne (l'objet). On utilise le verbe 'pa' (frapper / tuer / s'abattre sur) couplé à l'aspect progressif 'ń'.",
+      "rules": [
+        "Structure de la faim : Ebi (faim) + ń + pa (frapper) + [Pronom objet].",
+        "Structure de la soif : Òùngbẹ (soif) + ń + gbe (assécher) + [Pronom objet]."
+      ],
+      "examples": [
+        {
+          "structure": "Ebi ń pa mí",
+          "phonetic_api": "/ebi ŋ́ k͡pa mĩ/",
+          "meaning": "J'ai faim (Littéralement : La faim me frappe)."
+        },
+        {
+          "structure": "Òùngbẹ ń gbe ọ̀gá",
+          "phonetic_api": "/òʊ̃ɡ͡bɛ ŋ́ ɡ͡be ɔ̀ɡá/",
+          "meaning": "Le patron a soif (Littéralement : La soif assèche le patron)."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de la commande avec le verbe de souhait 'fẹ́'",
+      "explanation": "Pour commander un plat ou demander un aliment, on recourt au verbe de volition 'fẹ́' (vouloir / désirer). Contrairement au français qui utilise le conditionnel de politesse ('je voudrais'), le yoruba exprime la politesse par l'intonation et l'adjonction de formules rituelles ou du pronom de respect 'Ẹ' si nécessaire.",
+      "rules": [
+        "Structure de commande directe : Mo + fẹ́ + [Nom de l'aliment/boisson].",
+        "Structure de demande polie : Ẹ jọ̀wọ́, mo fẹ́ + [Aliment]."
+      ],
+      "examples": [
+        {
+          "structure": "Mo fẹ́ ìrẹsì",
+          "phonetic_api": "/mo fɛ́ ìɾɛsì/",
+          "meaning": "Je veux du riz."
+        },
+        {
+          "structure": "Ẹ jọ̀wọ́, mo fẹ́ ẹja",
+          "phonetic_api": "/ɛ̀ d͡ʒɔ̀wɔ́ mo fɛ́ ɛ̀d͡ʒa/",
+          "meaning": "S'il vous plaît, je désire du poisson."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Wale (Le client)",
+      "text": "Ẹ kààsán o. Ebi nla ń pa mí. Kí ni ó wà lóní?",
+      "phonetic_api": "/ɛ̀ kàːsã́ o ebi ŋla ŋ́ k͡pa mĩ kí nĩ ó wà lónĩ́/",
+      "phonetic_simple": "È KÀÀ-SÁN O. E-BI N-LA N KPA MÍ. KÍ NI Ó WÀ LÓ-NÍ?",
+      "translation": "Bon après-midi. J'ai une grande faim. Qu'est-ce qu'il y a au menu aujourd'hui ?"
+    },
+    {
+      "speaker": "Alásè (La cuisinière / restauratrice)",
+      "text": "Ẹ kààsán, ọ̀gá. Ìrẹsì àti iṣu dídín wà pẹ̀lú ọbẹ̀ ẹja.",
+      "phonetic_api": "/ɛ̀ kàːsã́ ɔ̀ɡá ìɾɛsì àti iʃu dídĩ́ wà k͡pɛ̀lú ɔbɛ́ ɛ̀d͡ʒa/",
+      "phonetic_simple": "È KÀÀ-SÁN, AW-GÁ. Ì-RÉ-SÌ À-TI I-SHOU DÍ-DÍN WÀ KPÈ-LÚ AW-BÉ È-JA.",
+      "translation": "Bon après-midi, monsieur. Il y a du riz et de l'igname frite avec de la sauce au poisson."
+    },
+    {
+      "speaker": "Wale (Le client)",
+      "text": "O dára púpọ̀. Ẹ fún mi ní ìrẹsì àti ẹja. Mo fẹ́ mu omi tútù náà.",
+      "phonetic_api": "/o dáɾa k͡púpɔ̀ ɛ̀ fʊ́ mĩ ní ìɾɛsì àti ɛ̀d͡ʒa mo fɛ́ mu omĩ́ tútù náː/",
+      "phonetic_simple": "OH DÁ-RA KPOÚ-PÀW. È FOÚN MÍ NÍ Ì-RÉ-SÌ À-TI È-JA. MO FÉ MOÚ OH-MÍ TÚ-TÙ NÁÀ.",
+      "translation": "C'est parfait. Donnez-moi du riz et du poisson. Je veux aussi boire de l'eau fraîche."
+    },
+    {
+      "speaker": "Alásè (La cuisinière / restauratrice)",
+      "text": "Gba onjẹ rẹ. Onjẹ yẹn jẹ́ ọgọ́rùn-ún lẹ́tà lapapọ́.",
+      "phonetic_api": "/ɡ͡ba ōnd͡ʒɛ ɾɛ ōnd͡ʒɛ jɛ̃ d͡ʒɛ́ ɔɡɔ́ɾʊ̃ː lɛ́tà lak͡pak͡pɔ́/",
+      "phonetic_simple": "GBA ON-JÉ RÈ. ON-JÉ YẸN JÉ AW-GÁW-ROÙN-OÚN LÉ-TÀ LA-PA-KPÁW.",
+      "translation": "Voici votre repas. Ce repas coûte cent nairas au total."
+    }
+  ],
+  "cultural_notes": [
+    "La cuisine yoruba est célèbre pour son usage généreux du piment rouge (Ata) et de l'huile de palme (Epo pupa). Une phrase populaire dit d'ailleurs : 'Ẹ̀mí tí kò jẹun ata, ẹ̀mí ọ̀lẹ ni' (Une âme qui ne mange pas de piment est une âme faible).",
+    "Les restaurants locaux traditionnels de rue au Nigeria sont affectueusement appelés 'Buka' ou 'Mama Put'. On y commande souvent son repas directement en pointant les marmites pour composer son assiette.",
+    "Il est de coutume de se laver méticuleusement les mains dans un bol d'eau propre mis à disposition avant et après le repas, car de nombreux plats traditionnels comme le 'Pounded Yam' (Ìyán) se dégustent exclusivement avec les doigts de la意 droite."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L8_EX1",
+      "type": "multiple_choice",
+      "question": "Comment exprimez-vous de façon authentique la phrase 'J'ai soif' ?",
+      "options": [
+        "Mo ní òùngbẹ",
+        "Òùngbẹ ń gbe mí",
+        "Ebi ń pa mí",
+        "Mo fẹ́ mu omi"
+      ],
+      "correct_answer": "Òùngbẹ ń gbe mí",
+      "explanation": "'Òùngbẹ' (la soif) est le sujet actif qui effectue l'action d'assécher ('gbe') sur le pronom objet de la première personne 'mí'."
+    },
+    {
+      "exercise_id": "A1_M3_L8_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander poliment de l'eau à table, on formule ainsi : Ẹ jọ̀wọ́, fún mi ní [ ___ ].",
+      "correct_answer": "omi",
+      "hint": "C'est l'élément liquide vital et neutre par excellence indispensable à la vie."
+    }
+  ]
+}

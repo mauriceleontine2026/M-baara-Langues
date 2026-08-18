@@ -1,0 +1,133 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer les repères temporels clés et jours de marché en Baga",
+    "Se situer dans la semaine (aujourd'hui, demain, hier)",
+    "Poser des questions simples sur le temps qui passe"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression 'ya-njɔ̀ɔ̀' comporte une affriquée /d͡ʒ/ douce précédée d'une légère nasalisation. La voyelle longue finale exige un ton bas descendant.",
+    "common_pitfalls": "Ne confondez pas 'njɔ̀ɔ̀' (jour/lumière) et 'sɔ̀' (eau/fleuve). Veillez à bien prononcer l'affriquée initiale."
+  },
+  "vocabulary": [
+    {
+      "word_id": "b020",
+      "term": "ya-njɔ̀ɔ̀",
+      "phonetic_api": "/ja ⁿd͡ʒɔ̀ː/",
+      "phonetic_simple": "YA-N-DJOO",
+      "translation": "aujourd'hui / ce jour",
+      "example_sentence": "Ya-njɔ̀ɔ̀ mu gbɔk di",
+      "example_phonetic": "/ja ⁿd͡ʒɔ̀ː mu gɓɔk di/",
+      "example_translation": "Aujourd'hui est une bonne journée"
+    },
+    {
+      "word_id": "b021",
+      "term": "kɔ̀ fɛ̀ɛ̀",
+      "phonetic_api": "/kɔ̀ fɛ̀ː/",
+      "phonetic_simple": "KO FÈÈ",
+      "translation": "demain",
+      "example_sentence": "Mə̀ na táa kɔ̀ fɛ̀ɛ̀",
+      "example_phonetic": "/mə̀ na táː kɔ̀ fɛ̀ː/",
+      "example_translation": "Je partirai demain"
+    },
+    {
+      "word_id": "b022",
+      "term": "kúnù",
+      "phonetic_api": "/kúnù/",
+      "phonetic_simple": "KOO-NOO",
+      "translation": "hier",
+      "example_sentence": "N wáa bɔ̀ŋ yà kúnù",
+      "example_phonetic": "/ⁿwáː ɓɔ̀ŋ jà kúnù/",
+      "example_translation": "Mon père est venu hier"
+    },
+    {
+      "word_id": "b023",
+      "term": "sáámà",
+      "phonetic_api": "/sáːmà/",
+      "phonetic_simple": "SAA-MA",
+      "translation": "dimanche / jour de repos",
+      "example_sentence": "Ya-njɔ̀ɔ̀ mu sáámà di",
+      "example_phonetic": "/ja ⁿd͡ʒɔ̀ː mu sáːmà di/",
+      "example_translation": "Aujourd'hui c'est dimanche"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "bp013",
+      "original": "Njɔ̀ɔ̀ wàn mu ya-njɔ̀ɔ̀ di ?",
+      "phonetic_api": "/ⁿd͡ʒɔ̀ː wàn mu ja ⁿd͡ʒɔ̀ː di/",
+      "phonetic_simple": "N-DJOO WAN MOO YA-N-DJOO DI ?",
+      "translation": "Quel jour sommes-aujourd'hui ?",
+      "context": "Vérifier le jour de la semaine"
+    },
+    {
+      "phrase_id": "bp014",
+      "original": "Mə̀ na kə̀ kálàŋ kɔ̀ fɛ̀ɛ̀",
+      "phonetic_api": "/mə̀ na kə kálàŋ kɔ̀ fɛ̀ː/",
+      "phonetic_simple": "ME NA KE KA-LANG KO FÈÈ",
+      "translation": "Je vais étudier demain.",
+      "context": "Planifier son activité du lendemain"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'intégration des adverbes temporels en début ou fin de phrase",
+      "explanation": "En Baga, les adverbes de temps comme 'ya-njɔ̀ɔ̀' (aujourd'hui) ou 'kɔ̀ fɛ̀ɛ̀' (demain) jouissent d'une grande flexibilité syntaxique. Ils se placent soit en ouverture pour focaliser le moment, soit en clôture de proposition.",
+      "rules": [
+        "Structure temporelle : [Temps] + Sujet + Verbe ou Sujet + Verbe + [Temps]."
+      ],
+      "examples": [
+        {
+          "structure": "kɔ̀ fɛ̀ɛ̀ (demain) + mə̀ na táa (je vais partir)",
+          "phonetic_api": "/kɔ̀ fɛ̀ː mə̀ na táː/",
+          "meaning": "Demain, je partirai"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Temba",
+      "text": "Sékou, ya-njɔ̀ɔ̀ mu sáámà di gba ?",
+      "phonetic_api": "/sɛku ja ⁿd͡ʒɔ̀ː mu sáːmà di gba/",
+      "phonetic_simple": "SÉ-KOO, YA-N-DJOO MOO SAA-MA DI GBA ?",
+      "translation": "Sékou, aujourd'hui c'est bien dimanche ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Awan Temba. Mə̀ mán wáalì kɛ̀ɛ̀ ya-njɔ̀ɔ̀. Mə̀ na táa lò-su ka kɔ̀ fɛ̀ɛ̀.",
+      "phonetic_api": "/awan tɛmɓa mə̀ mán wáːlì kɛ̀ː ja ⁿd͡ʒɔ̀ː mə̀ na táː lò su ka kɔ̀ fɛ̀ː/",
+      "phonetic_simple": "A-WAN TEM-BA. ME MAN WAA-LII KÈÈ YA-N-DJOO. ME NA TAA LO-SOO KA KO FÈÈ.",
+      "translation": "Oui Temba. Je ne travaille pas aujourd'hui. J'irai en ville demain."
+    }
+  ],
+  "cultural_notes": [
+    "Les jours de la semaine en zone littorale coïncident souvent avec les rotations des grands marchés hebdomadaires ('lò-su') où les communautés s'échangent le poisson séché, le sel et les produits agricoles du paysan Baga."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L6_ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'adverbe temporel 'kɔ̀ fɛ̀ɛ̀' ?",
+      "options": [
+        "Aujourd'hui",
+        "Hier",
+        "Demain"
+      ],
+      "correct_answer": "Demain",
+      "explanation": "'kɔ̀ fɛ̀ɛ̀' renvoie au jour suivant."
+    },
+    {
+      "exercise_id": "A1_M2_L6_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ya-njɔ̀ɔ̀ mu [ ___ ] di (Aujourd'hui c'est dimanche).",
+      "correct_answer": "sáámà",
+      "hint": "Le jour de repos de la semaine"
+    }
+  ]
+}

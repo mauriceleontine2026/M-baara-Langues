@@ -1,0 +1,213 @@
+{
+  "lesson_id": "C1_M2_L5",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 5,
+  "title": "Débattre, argumenter et défendre un point de vue",
+  "learning_objectives": [
+    "Formuler des objections polies et constructives dans un débat contradictoire",
+    "Réfuter un argument de manière structurée avec des expressions comme 恕我直言 (shùwǒ zhíyán)",
+    "Asseoir la légitimité d'une démonstration à l'aide de structures affirmatives fortes",
+    "Manier les nuances de la concession pour guider l'auditoire vers ses propres conclusions"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression des convictions exige une articulation claire et une intonation maîtrisée. La formule de politesse 恕我直言 (shùwǒ zhíyán - permettez-moi de parler franchement) commence par deux 4èmes tons descendants (shù wǒ), suivis de deux 2èmes tons montants fluides (zhí yán). Le verbe 辩驳 (biànbó - réfuter) demande d'enchaîner deux 4èmes tons descendants très secs et incisifs pour marquer la fermeté de l'argumentation.",
+    "common_pitfalls": "Faites attention au mot 毫无 (háowú - absolument pas) : les deux caractères sont au 2ème ton montant. Veillez à bien faire monter la voix de manière continue sans relâcher la tension phonétique. Ne confondez pas 辩驳 (biànbó - réfuter) avec 辨别 (biànbié - distinguer/différencier)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "恕我直言",
+      "phonetic_api": "/ʂu˥˩ wɔ˨˩˦ tʂʐ̩˧˥ jjan˧˥/",
+      "phonetic_simple": "CHOU-OUO-TCHEU-YEN",
+      "translation": "Permettez-moi de vous parler franchement / Sauf votre respect",
+      "example_sentence": "恕我直言，这个方案的可行性还有待 verify 验证。",
+      "example_phonetic": "/ʂu˥˩ wɔ˨˩˦ tʂʐ̩˧˥ jjan˧˥ tʂɤ kɤ faŋ an dɤ kʰɤ ɕiŋ ɕi Wait ʔxaɪ̯ joʊ̯ da Wait ʔjan tʂəŋ/",
+      "example_translation": "Permettez-moi de vous parler franchement, la faisabilité de ce projet reste encore à vérifier."
+    },
+    {
+      "word_id": "v2",
+      "term": "毋庸置疑",
+      "phonetic_api": "/wu˧˥ jʊŋ˥ tʂʐ̩˥˩ i˧˥/",
+      "phonetic_simple": "OU-YONG-DZEU-YEE",
+      "translation": "Il ne fait aucun doute que / Indéniable",
+      "example_sentence": "他的专业能力是毋庸置疑的。",
+      "example_phonetic": "/tʰa dɤ tʂwən jɥ̯ɛ nəŋ li ʂʐ尊 wu˧˥ jʊŋ˥ tʂʐ̩˥˩ i˧˥ dɤ/",
+      "example_translation": "Son professionnalisme et ses compétences sont indéniables."
+    },
+    {
+      "word_id": "v3",
+      "term": "辩驳",
+      "phonetic_api": "/pjan˥˩ pwɔ˥˩/",
+      "phonetic_simple": "BIEN-POUOUO",
+      "translation": "Réfuter / Contredire / Objecter",
+      "example_sentence": "面对对方的强有力辩驳，他一时无言以对。",
+      "example_phonetic": "/mi̯an dwei̯ dwei̯ fã dɤ tɕʰi̯aŋ joʊ̯ li Wait ʔpjan˥˩ pwɔ˥˩ tʰa i ʂʐ̩ wu jjan i dwei̯/",
+      "example_translation": "Face à la réfutation percutante de la partie adverse, il s'est retrouvé momentanément sans voix."
+    },
+    {
+      "word_id": "v4",
+      "term": "据理力争",
+      "phonetic_api": "/tɕy˥˩ li˨˩˦ li˥˩ ttsʰʐ̩˥/",
+      "phonetic_simple": "TCHOU-LEE-LEE-TCHENG",
+      "translation": "Soutenir fermement son point de vue en se basant sur des faits / Argumenter pied à pied",
+      "example_sentence": "在谈判桌上，我们必须据理力争，维护公司的利益。",
+      "example_phonetic": "/dzaɪ̯ tʰan pʰan tʂwɔ ʂaŋ wo mən pi ɕy tɕy˥˩ li˨˩˦ li˥˩ ttsʰʐ̩˥ weɪ̯ xu kʊŋ sʐ̩ dɤ li i/",
+      "example_translation": "À la table des négociations, nous devons argumenter pied à pied pour défendre les intérêts de l'entreprise."
+    },
+    {
+      "word_id": "v5",
+      "term": "毫无疑问",
+      "phonetic_api": "/xaʊ̯˧˥ wu˧˥ i˥˩ wen˥˩/",
+      "phonetic_simple": "HAO-OU-YEE-OUEN",
+      "translation": "Sans aucun doute / Indubitablement",
+      "example_sentence": "毫无疑问，技术创新是企业发展的动力。",
+      "example_phonetic": "/xaʊ̯˧˥ wu˧˥ i˥˩ wen˥˩ tɕi ʂu tʂwaŋ ɕin ʂʐ尊 tɕi jɥ̯ fa tʂan dɤ dʊŋ li/",
+      "example_translation": "Sans aucun doute, l'innovation technologique est le moteur du développement des entreprises."
+    },
+    {
+      "word_id": "v6",
+      "term": "相提并论",
+      "phonetic_api": "/ɕi̯aŋ˥ tʰi˧˥ piŋ˥˩ lwen˥˩/",
+      "phonetic_simple": "XIANG-THEE-BING-LOUEN",
+      "translation": "Mettre sur le même plan / Comparer deux choses inégales",
+      "example_sentence": "这两件事性质完全不同，不能相提并论。",
+      "example_phonetic": "/tʂa li̯aŋ tɕjan tɕi Wait ʔtʂʐ̩ ttsʰɥ̯ɛn pu tʰʊŋ pu nəŋ ɕi̯aŋ˥ tʰi˧˥ piŋ˥˩ lwen˥˩/",
+      "example_translation": "Ces deux affaires sont de nature totalement différente, on ne peut pas les mettre sur le même plan."
+    },
+    {
+      "word_id": "v7",
+      "term": "立足点",
+      "phonetic_api": "/li˥˩ tsu˨˩˦ tjan˨˩˦/",
+      "phonetic_simple": "LEE-DZOU-DIEN",
+      "translation": "Point d'appui / Fondement d'un argument / Postulat",
+      "example_sentence": "如果缺乏数据支持，你的立足点就会动摇。",
+      "example_phonetic": "/ru kwɔ tɕʰɥ̯ɛ fa ʂu tɕu tʂʐ̩ ttsʰi ni dɤ li˥˩ tsu˨˩˦ tjan˨˩˦ tɕi̯oʊ̯ xwei̯ dʊŋ jaʊ̯/",
+      "example_translation": "Si tu manques de données pour t'appuyer, le fondement même de ton argument sera ébranlé."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "恕我直言，对方辩友的立足点存在逻辑漏洞，难以令人信服。",
+      "phonetic_api": "/ʂu wɔ tʂʐ̩ jjan dwei̯ fã pjan joʊ̯ dɤ li tsu tjan tsʊn dzaɪ̯ luɔ tɕi loʊ̯ du nan i liŋ ʐən ɕin fu/",
+      "phonetic_simple": "CHOU OUO TCHEU YEN, DOUEI FANG BIEN YOW DEU LEE DZOU DIEN TSUN DZAÏ LUO DJEE LOU DOU, NAN EE LING JEN XIN FOU.",
+      "translation": "Permettez-moi de parler franchement : le postulat de notre contradicteur comporte des failles logiques et peine à convaincre.",
+      "context": "Formuler une contre-argumentation rigoureuse et polie lors d'un débat formel"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "高新技术在提升企业生产力方面的贡献，是毋庸置疑的。",
+      "phonetic_api": "/kaʊ̯ ɕin tɕi ʂu dzaɪ̯ tʰi kaʊ̯ tɕi jɥ̯ ʂəŋ tsʰan li faŋ mi̯an dɤ kʊŋ ɕi̯an ʂʐ尊 wu jʊŋ tʂʐ̩ i dɤ/",
+      "phonetic_simple": "GAO CHIN TCHEE XU DZAÏ THI GAO TCHEE YÉ CHENG TSAN LEE FANG MIEN DEU GONG XIEN, CHEI OU YONG DZEU YEE DEU.",
+      "translation": "La contribution des technologies de pointe à l'amélioration de la productivité des entreprises est indéniable.",
+      "context": "Affirmer un fait structurel majeur lors d'une soutenance de projet"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "我们不能把眼前的短期利益与长期的战略规划相提并论。",
+      "phonetic_api": "/wo mən pu nəŋ ba jan ttsʰi̯ɛn dɤ duan tɕi li i jy tʂʰaŋ tɕi dɤ tʂan ly kwei̯ xwa ɕi̯aŋ tʰi piŋ lwen/",
+      "phonetic_simple": "OUO MEN BOU NENG BA YEN TCHIEN DEU DOUAN TCHEE LEE EE YU TCHHANG TCHEE DEU ZHAN LU GUEI HOUA XIANG THEE BING LOUEN.",
+      "translation": "Nous ne pouvons pas mettre sur le même plan les profits immédiats à court terme et la planification stratégique à long terme.",
+      "context": "Arbitrer entre deux visions économiques divergentes au sein d'un comité"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "面对不合理的合同条款，我方代表在谈判桌上据理力争。",
+      "phonetic_api": "/mi̯an dwei̯ pu xɤ li dɤ xɤ tʰʊŋ tʰi̯aʊ̯ kʰwan wo fã daɪ̯ pjaʊ̯ dzaɪ̯ tʰan pʰan wɔ ʂaŋ tɕy li li ttsʰʐ̩/",
+      "phonetic_simple": "MIEN DOUEI BOU HÉ LEE DEU HOU THONG THIAO KHOUAN, OUO FANG DAÏ BIAO DZAÏ THAN PHAN OUOUO CHANG TCHOU LEE LEE TCHENG.",
+      "translation": "Face à des clauses contractuelles abusives, les représentants de notre partie ont défendu notre position pied à pied à la table des négociations.",
+      "context": "Rapport de fin de négociation commerciale rédigé par un chef d'équipe"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la certitude absolue : 是毋庸置疑的 (shì wúyōng-zhìyí de)",
+      "explanation": "Cette structure fige une affirmation au sommet de la hiérarchie argumentative. Elle s'emploie pour ôter toute possibilité de doute ou de contestation dans l'esprit de l'interlocuteur.",
+      "rules": [
+        "Structure : [Sujet / Fait avéré] + 是毋庸置疑的 (shì wúyōng-zhìyí de).",
+        "Le Chengyu 毋庸置疑 fonctionne comme un bloc d'adjectif verbal encadré par la structure emphatique 是... 的.",
+        "Il est réservé aux conclusions de rapports, aux synthèses de débats ou aux déclarations de principes institutionnels."
+      ],
+      "examples": [
+        {
+          "structure": "安全问题 (La question de la sécurité) + 是毋庸置疑的 (Est indéniable/prioritaire)",
+          "phonetic_api": "/an tswən wen tʰi ʂʐ尊 wu jʊŋ tʂʐ̩ i dɤ/",
+          "meaning": "安全问题是毋庸置疑的。 (La primauté de la sécurité est un fait absolument incontestable.)"
+        }
+      ]
+    },
+    {
+      "concept": "L'introduction d'une objection feutrée : 恕我直言...，但... (shùwǒ zhíyán..., dàn...)",
+      "explanation": "Cette formule permet d'introduire une opinion diamétralement opposée à celle de son interlocuteur, souvent hiérarchiquement supérieur, sans briser les codes de la politesse professionnelle.",
+      "rules": [
+        "Structure : 恕我直言 (shùwǒ zhíyán) + [Constat d'un problème / Réfutation], 但 / 不过 (dàn / búguò) + [Alternative constructive].",
+        "L'utilisation de '恕我直言' adoucit la critique en signalant consciemment la rupture du consensus."
+      ],
+      "examples": [
+        {
+          "structure": "恕我直言 (Permettez-moi d'être franc)，您的这个预算 (Votre budget) + 未免太低了 (Est pour le moins un peu trop bas)",
+          "phonetic_api": "/ʂu wɔ tʂʐ̩ jjan nin dɤ tʂɤ kɤ jyn swan wei̯ mi̯an tʰaɪ̯ di lɤ/",
+          "meaning": "恕我直言，您的这个预算未免太低了。 (Sauf votre respect, le budget que vous proposez semble pour le moins un peu insuffisant.)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "辩方代表 (Représentant adverse)",
+      "text": "大卫，毫无疑问，加大在传统广告上的投入是目前提升销量最直接的办法。",
+      "phonetic_api": "/da˥˩ weɪ̯˥˩ xaʊ̯˧˥ wu˧˥ i˥˩ wen˥˩ tɕi̯a da dzaɪ̯ tʰwanz 統 pã kaʊ̯ ʂaŋ dɤ tʰoʊ̯ ʐu ʂʐ尊 mu tɕʰi̯ɛn tʰi kaʊ̯ ɕi̯aʊ̯ li̯aŋ tswei̯ tɕi tɕi dɤ pan fa/",
+      "phonetic_simple": "DA-OUEI, HAO-OU-YEE-OUEN, TCHIA-DA DZAÏ TCHHUAN-THONG BAO-GAO CHANG DEU THOU-RU CHEI MOU-TCHIEN THI-GAO XIAO-LIANG ZHOUEI DJIEE-DJIEE DEU BAN-FA.",
+      "translation": "David, sans aucun doute, augmenter nos investissements dans la publicité traditionnelle constitue à l'heure actuelle le moyen le plus direct de doper nos volumes de vente."
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "恕我直言，传统广告的回报率正逐年下降，怎么能和精准的数字化营销相提并论呢？",
+      "phonetic_api": "/ʂu˥˩ wɔ˨˩˦ tʂʐ̩˧˥ jjan˧˥ tʰwanz 統 pã kaʊ̯ dɤ xwei̯ baʊ̯ ly tʂəŋ tʂu ni̯ɛn ɕi̯a dɕi̯aŋ tsən mɤ nəŋ xɤ tɕiŋ tswən dɤ ʂu dzwɔ xwa iŋ ɕi̯aʊ̯ ɕi̯aŋ˥ tʰi˧˥ piŋ˥˩ lwen˥˩ nɤ/",
+      "phonetic_simple": "CHOU-OUO-TCHEU-YEN, TCHHUAN-THONG BAO-GAO DEU HOUEI-BAO-LU ZHENG ZHOU-NIEN CHIA-DJIANG, DZEN-MEU NENG HEU DJING-ZOUEN DEU CHOU-ZHAO-HOUA YING-CHIAO XIANG-THEE-BING-LOUEN NEU ?",
+      "translation": "Permettez-moi de parler franchement : le retour sur investissement des médias traditionnels baisse d'année en année. Comment peut-on dès lors le mettre sur le même plan qu'une stratégie de marketing numérique de haute précision ?"
+    },
+    {
+      "speaker": "辩方代表 (Représentant adverse)",
+      "text": "但不可否认，传统媒体覆盖的受众群基数庞大，这同样是我们的立足点。",
+      "phonetic_api": "/dan pu kʰɤ fəʊ̯ ʐən tʰwanz 統 meɪ̯ tʰi fu kaɪ̯ dɤ ʂoʊ̯ ttsʰʊŋ tɕʰɥ̯ Wait ʔtɕi su pʰaŋ da tʂɤ tʰʊŋ jaʊ̯ ʂʐ尊 wo mən dɤ li˥˩ tsu˨˩˦ tjan˨˩˦/",
+      "phonetic_simple": "DAN BOU KHÉ FOU-JEN, TCHHUAN-THONG MEI-THEE FOU-GAÏ DEU CHOU-TCHONG QOUEN DJEE-SOU PHANG-DA, TCHEU THONG-YAO CHEI OUO-MEN DEU LEE-DZOU-DIEN.",
+      "translation": "Il n'en reste pas moins indéniable que la base d'audience couverte par les médias traditionnels est colossale, et c'est précisément là notre point d'appui."
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "无论如何，数字化转型的大趋势是毋庸置疑的。我们应该在谈判中据理力争，把核心预算留给未来。",
+      "phonetic_api": "/wu lwen ʐən xɤ ʂu dzwɔ xwa tswan ɕiŋ dɤ da qɥ̯ Wait ʔʂʐ̩ ʂʐ尊 wu˧˥ jʊŋ˥ tʂʐ̩˥˩ i˧˥ dɤ wo mən iŋ kaɪ̯ dzaɪ̯ tʰan pʰan tʂʊŋ tɕy˥˩ li˨˩˦ li˥˩ ttsʰʐ̩˥ ba xɤ ɕin jyn swan ljoʊ̯ kfeɪ̯ weɪ̯ laɪ̯/",
+      "phonetic_simple": "OU-LOUEN JEN-HEU, CHOU-ZHAO-HOUA DZOUAN-CHING DEU DA QOU-CHEI CHEI OU-YONG-DZEU-YEE DEU. OUO-MEN IN-GAÏ DZAÏ THAN-PHAN TCHONG TCHOU-LEE-LEE-TCHENG, BA HEI-CHIN YOUN-SOUAN LIOU GEI WEI-LAÏ.",
+      "translation": "Quoi qu'il en soit, la tendance lourde vers la transition numérique est indiscutable. Nous nous devons d'argumenter fermement lors de nos négociations afin de réserver le cœur de nos budgets à l'avenir."
+    }
+  ],
+  "cultural_notes": [
+    "La rhétorique du débat en Chine valorise la fermeté sur le fond alliée à une grande courtoisie sur la forme. Utiliser '恕我直言' (shùwǒ zhíyán) permet de marquer un désaccord profond tout en protégeant le respect mutuel et en évitant les heurts frontaux destructeurs pour le climat professionnel.",
+    "Le Chengyu '据理力争' (jùlǐ-lìzhēng) valorise une attitude combative saine : se battre en s'appuyer exclusivement sur la raison (理 - lǐ) et les faits objectifs, un comportement très respecté au sein des comités de direction en Chine.",
+    "L'évolution des thèmes du débat (les budgets publicitaires opposant médias de masse et ciblage algorithmique) démontre l'intégration par les professionnels chinois des problématiques technologiques mondiales les plus contemporaines."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la structure rhétorique adéquate pour exprimer une certitude absolue incontestable :",
+      "options": [
+        "这个项目的风险是纸上谈兵的 (Zhège xiàngmù de fēngxiǎn shì zhǐshàng-tánbīng de)",
+        "这个项目的成功是毋庸置疑的 (Zhège xiàngmù de chénggōng shì wúyōng-zhìyí de)",
+        "这个项目的预算是未免太高的 (Zhège xiàngmù de yùsuān shì wèimiǎn tài gāo de)"
+      ],
+      "correct_answer": "这个项目的成功是毋庸置疑的 (Zhège xiàngmù de chénggōng shì wúyōng-zhìyí de)",
+      "explanation": "L'expression '毋庸置疑' (wúyōng-zhìyí) est la structure consacrée pour exprimer un fait indéniable et indiscutable."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] 我直言，贵司目前给出的报价，严重超出了我们的预算范围。",
+      "correct_answer": "恕",
+      "hint": "Caractère initial de politesse formelle indispensable pour introduire une objection financière franche et directe sans offenser l'interlocuteur."
+    }
+  ]
+}

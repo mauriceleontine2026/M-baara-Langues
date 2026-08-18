@@ -1,0 +1,271 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Savoir saluer de manière formelle et informelle à tout moment de la journée",
+    "Maîtriser les formules de politesse fondamentales, le remerciement et les excuses",
+    "Comprendre la structure de respect minimale dans l'interaction sociale"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le hindi distingue les consonnes aspirées (avec un souffle d'air) des non-aspirées. Le 'h' dans 'namaskar' ou 'dhanyavaad' doit être nettement expiré. Les consonnes avec un point sous la translittération (comme '𝘛', '𝘋') sont rétroflexes : le bout de la langue se retourne pour toucher le sommet du palais. Le symbole /~/ ou un 'n' en exposant indique une voyelle nasale.",
+    "common_pitfalls": "Ne pas prononcer le 'o' ou le 'é' comme des diphtongues francophones. Le 'é' final de 'namasté' est bref et sec /e/. Le 'a' bref non accentué se prononce comme le 'e' de 'cheval' /ə/ et s'amuse souvent à disparaître en fin de mot (ex: 'namaskar' et non 'namaskara')."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "नमस्ते",
+      "phonetic_api": "/nəməsteː/",
+      "phonetic_simple": "NA-MAS-TÉ",
+      "translation": "Bonjour / Au revoir (universel)",
+      "example_sentence": "नमस्ते, आप कैसे हैं?",
+      "example_phonetic": "/nəməsteː aːp kɛːseː ɦɛ̃ː/",
+      "example_translation": "Bonjour, comment allez-vous ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "नमस्कार",
+      "phonetic_api": "/nəməskaːr/",
+      "phonetic_simple": "NA-MAS-KAAR",
+      "translation": "Salutations (formel / solennel)",
+      "example_sentence": "नमस्कार, आदरणीय गुरुजी।",
+      "example_phonetic": "/nəməskaːr aːd̪əɾniːjə ɡʊɾʊdʒiː/",
+      "example_translation": "Salutations, honorable professeur."
+    },
+    {
+      "word_id": "v3",
+      "term": "धन्यवाद",
+      "phonetic_api": "/d̪ʱənjəʋaːd̪/",
+      "phonetic_simple": "DHAN-YA-VAAD",
+      "translation": "Merci (formel / d'origine sanskrite)",
+      "example_sentence": "आपकी मदद के लिए धन्यवाद।",
+      "example_phonetic": "/aːpkiː məd̪əd̪ keː lɪjeː d̪ʱənjəʋaːd̪/",
+      "example_translation": "Merci pour votre aide."
+    },
+    {
+      "word_id": "v4",
+      "term": "शुक्रिया",
+      "phonetic_api": "/ʃʊkɾɪjaː/",
+      "phonetic_simple": "CHOUK-RI-YAA",
+      "translation": "Merci (courant / d'origine urdue)",
+      "example_sentence": "बहुत शुक्रिया, मेरे दोस्त।",
+      "example_phonetic": "/bəɦʊt̪ ʃʊkɾɪjaː meːɾeː d̪oːst̪/",
+      "example_translation": "Merci beaucoup, mon ami."
+    },
+    {
+      "word_id": "v5",
+      "term": "कृपया",
+      "phonetic_api": "/kɾɪpəjaː/",
+      "phonetic_simple": "KRIP-YAA",
+      "translation": "S'il vous plaît",
+      "example_sentence": "कृपया थोड़ा पानी दीजिए।",
+      "example_phonetic": "/kɾɪpəjaː t̪ʰoːɽaː paːniː ddiːdʒɪjeː/",
+      "example_translation": "S'il vous plaît, donnez-moi un peu d'eau."
+    },
+    {
+      "word_id": "v6",
+      "term": "माफ कीजिए",
+      "phonetic_api": "/maːf kiːdʒɪjeː/",
+      "phonetic_simple": "MAAF KII-DJI-YÉ",
+      "translation": "Excusez-moi / Pardon",
+      "example_sentence": "माफ कीजिए, क्या समय हुआ है?",
+      "example_phonetic": "/maːf kiːdʒɪjeː kjaː səməj ɦʊaː ɦɛː/",
+      "example_translation": "Excusez-moi, quelle heure est-il ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "सुप्रभात",
+      "phonetic_api": "/sʊpɾəbʱaːt̪/",
+      "phonetic_simple": "SOU-PRAB-HAAT",
+      "translation": "Bon matin / Bonjour (littéraire)",
+      "example_sentence": "सुप्रभात, आप सब का दिन अच्छा हो।",
+      "example_phonetic": "/sʊpɾəbʱaːt̪ aːp səb kaː d̪ɪn ətːʃʰaː ɦoː/",
+      "example_translation": "Bon matin, passez tous une bonne journée."
+    },
+    {
+      "word_id": "v8",
+      "term": "शुभ रात्रि",
+      "phonetic_api": "/ʃʊbʱ ɾaːt̪ɾɪ/",
+      "phonetic_simple": "CHOUBH RAAT-RI",
+      "translation": "Bonne nuit",
+      "example_sentence": "शुभ रात्रि, कल मिलते हैं।",
+      "example_phonetic": "/ʃʊbʱ ɾaːt̪ɾɪ kəl mɪlt̪eː ɦɛ̃ː/",
+      "example_translation": "Bonne nuit, on se voit demain."
+    },
+    {
+      "word_id": "v9",
+      "term": "अलविदा",
+      "phonetic_api": "/əlvɪd̪aː/",
+      "phonetic_simple": "AL-VI-DAA",
+      "translation": "Adieu / Au revoir (longue séparation)",
+      "example_sentence": "अब अलविदा कहने का समय है।",
+      "example_phonetic": "/əb əlvɪd̪aː kəɦneː kaː səməj ɦɛː/",
+      "example_translation": "Il est maintenant temps de se dire adieu."
+    },
+    {
+      "word_id": "v10",
+      "term": "फिर मिलेंगे",
+      "phonetic_api": "/pʰɪɾ mɪleːŋɡeː/",
+      "phonetic_simple": "PIR MIL-ENG-GÉ",
+      "translation": "À bientôt / À la prochaine",
+      "example_sentence": "अच्छा, मैं चलता हूँ, फिर मिलेंगे।",
+      "example_phonetic": "/ətːʃʰaː mɛ̃ː tʃəlt̪aː ɦũː pʰɪɾ mɪleːŋɡeː/",
+      "example_translation": "Bon, je m'en vais, à bientôt."
+    },
+    {
+      "word_id": "v11",
+      "term": "स्वागत है",
+      "phonetic_api": "/sʋaːɡət̪ ɦɛː/",
+      "phonetic_simple": "SVAA-GAT HÉ",
+      "translation": "Bienvenue",
+      "example_sentence": "हमारे घर में आपका स्वागत है।",
+      "example_phonetic": "/ɦəmaːɾeː ɡʱəɾ mẽː aːpkaː sʋaːɡət̪ ɦɛː/",
+      "example_translation": "Bienvenue dans notre maison."
+    },
+    {
+      "word_id": "v12",
+      "term": "क्षमा करें",
+      "phonetic_api": "/kʃəmɑː kəɾẽː/",
+      "phonetic_simple": "KCHAMA KARÉ",
+      "translation": "Je vous demande pardon / Désolé (sanskritisé)",
+      "example_sentence": "इस भूल के लिए मुझे क्षма करें।",
+      "example_phonetic": "/ɪs bʱuːl keː lɪjeː mʊdʒʱeː kʃəmɑː kəɾẽː/",
+      "example_translation": "Pardonnez-moi pour cette erreur."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "आपसे मिलकर बहुत खुशी हुई।",
+      "phonetic_api": "/aːpseː mɪlkəɾ bəɦʊt̪ kʰʊʃiː ɦʊiː/",
+      "phonetic_simple": "AAP-SÉ MIL-KAR BAHOUT KHOU-CHII HOU-II",
+      "translation": "Je suis extrêmement ravi(e) de vous rencontrer.",
+      "context": "Formule formelle employée lors d'une première rencontre avec un supérieur ou un pair."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "कोई बात नहीं, सब ठीक है।",
+      "phonetic_api": "/koːiː baːt̪ nəɦĩː səb tʰiːk ɦɛː/",
+      "phonetic_simple": "KO-II BAAT NA-HIN, SAB THIIK HÉ",
+      "translation": "Ce n'est pas grave, tout va bien.",
+      "context": "Utilisé pour rassurer quelqu'un qui vient de présenter ses excuses."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "क्या मैं अंदर आ सकता हूँ?",
+      "phonetic_api": "/kjaː mɛ̃ː ənd̪əɾ aː səkt̪aː ɦuː/",
+      "phonetic_simple": "KYAA MEIN AN-DAR AA SAK-TAA HOUN",
+      "translation": "Puis-je entrer ? (locuteur masculin)",
+      "context": "Demande d'autorisation polie à la porte d'un bureau ou d'une pièce."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "आपकी बड़ी कृपा है।",
+      "phonetic_api": "/aːpkiː bəɽiː kɾɪpaː ɦɛː/",
+      "phonetic_simple": "AAP-KII BA-RII KRIP-YAA HÉ",
+      "translation": "C'est très aimable à vous / C'est une grande faveur de votre part.",
+      "context": "Remerciement chaleureux et très respectueux après un service rendu."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les trois niveaux de politesse pour la deuxième personne",
+      "explanation": "Le hindi utilise un système tripartite pour s'adresser à quelqu'un. Le choix du pronom détermine entièrement la conjugaison du verbe sous-jacent.",
+      "rules": [
+        "आप (Aap) : Formel / Respectueux. Utilisé pour les adultes, les inconnus, les parents et supérieurs. Le verbe se termine par -iye ou -é.",
+        "तुम (Tum) : Informel / Familier. Utilisé entre amis, collègues proches ou envers les enfants. Le verbe se termine par -o.",
+        "तू (Too) : Intime / Très informel. Utilisé envers la divinité, les très jeunes enfants ou pour exprimer la colère. À éviter pour les débutants."
+      ],
+      "examples": [
+        {
+          "structure": "आप बैठिए (Aap baiṭhiye) - Formel",
+          "phonetic_api": "/aːp bɛːʈʰɪjeː/",
+          "meaning": "Asseyez-vous, s'il vous plaît."
+        },
+        {
+          "structure": "तुम बैठो (Tum baiṭho) - Familier",
+          "phonetic_api": "/t̪ʊm bɛːʈʰoː/",
+          "meaning": "Assieds-toi."
+        }
+      ]
+    },
+    {
+      "concept": "La marque honorifique suffixée 'जी' (Jee)",
+      "explanation": "Ajouter 'जी' (Jee) après un nom, un titre ou une relation est la marque absolue de politesse et de déférence dans la culture nord-indienne.",
+      "rules": [
+        "Se place directement après le nom propre (ex: Amit-jee) ou la fonction (ex: Doctor-jee).",
+        "Peut s'utiliser seul pour dire 'Oui' de façon polie et respectueuse."
+      ],
+      "examples": [
+        {
+          "structure": "माताजी (Mātājī)",
+          "phonetic_api": "/maːt̪aːdʒiː/",
+          "meaning": "Mère (respectueux / Chère maman)"
+        },
+        {
+          "structure": "हाँ जी (Haan jī)",
+          "phonetic_api": "/ɦãː dʒiː/",
+          "meaning": "Oui, tout à fait (poli)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "राज (Raj)",
+      "text": "नमस्कार महोदय, आपका स्वागत है।",
+      "phonetic_api": "/nəməskaːr məɦoːd̪əj aːpkaː sʋaːɡət̪ ɦɛː/",
+      "phonetic_simple": "NA-MAS-KAAR MA-HO-DAY, AAP-KAA SVAA-GAT HÉ",
+      "translation": "Salutations Monsieur, soyez le bienvenu."
+    },
+    {
+      "speaker": "डॉक्टर शर्मा (Dr. Sharma)",
+      "text": "नमस्कार राज जी। बहुत धन्यवाद।",
+      "phonetic_api": "/nəməskaːr ɾaːdʒ dʒiː bəɦʊt̪ d̪ʱənjəʋaːd̪/",
+      "phonetic_simple": "NA-MAS-KAAR RADJ DJII. BAHOUT DHAN-YA-VAAD",
+      "translation": "Salutations cher Raj. Merci beaucoup."
+    },
+    {
+      "speaker": "राज (Raj)",
+      "text": "कृपया यहाँ बैठिए। क्या सब ठीक है?",
+      "phonetic_api": "/kɾɪpəjaː jəɦãː bɛːʈʰɪjeː kjaː səb tʰiːk ɦɛː/",
+      "phonetic_simple": "KRIP-YAA YA-HAN BEI-THI-YÉ. KYAA SAB THIIK HÉ",
+      "translation": "S'il vous plaît, asseyez-vous ici. Tout va bien ?"
+    },
+    {
+      "speaker": "डॉक्टर शर्मा (Dr. Sharma)",
+      "text": "हाँ जी, सब ठीक है। शुक्रिया।",
+      "phonetic_api": "/ɦãː dʒiː səb tʰiːk ɦɛː ʃʊkɾɪjaː/",
+      "phonetic_simple": "HAAN DJII, SAB THIIK HÉ. CHOUK-RI-YAA",
+      "translation": "Oui, tout va bien. Merci."
+    }
+  ],
+  "cultural_notes": [
+    "Le geste d'accompagner le mot 'Namaste' par la jonction des paumes au niveau du cœur s'appelle le pranam ou l'Anjali Mudra. Toucher les pieds d'un aîné (Charan Sparsh) est l'expression ultime de salutation respectueuse en Inde.",
+    "Dire merci de façon trop mécanique ou répétitive au sein du cercle familial ou d'amis très proches peut être perçu comme froid, car l'entraide mutuelle est considérée comme un devoir implicite (un lien de confiance)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Lequel de ces mots est le pronom de politesse formel correspondant à 'Vous' ?",
+      "options": [
+        "तुम (Tum)",
+        "तू (Too)",
+        "आप (Aap)"
+      ],
+      "correct_answer": "आप (Aap)",
+      "explanation": "'आप' est la forme requise pour exprimer le respect envers un adulte ou un inconnu."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "नमस्ते पिताजी, कृपया यहाँ [ ___ ]।",
+      "correct_answer": "बैठिए",
+      "hint": "Forme polie / impérative respectueuse du verbe s'asseoir (baiṭhiye)"
+    }
+  ]
+}

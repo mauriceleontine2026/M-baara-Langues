@@ -1,0 +1,170 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons",
+  "learning_objectives": [
+    "Nommer les aliments de base et les boissons courantes",
+    "Savoir passer une commande simple au marché ou pour un repas"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le groupe de lettres 'ce' se prononce toujours comme le son 'tch' en français. La présence d'une voyelle longue doublée (comme dans 'ceeb') signifie qu'il faut étirer le son de la voyelle deux fois plus longtemps qu'une voyelle simple.",
+    "common_pitfalls": "Veillez à ne pas prononcer le 'm' initial de 'm mela' de manière détachée; il s'agit d'une nasalisation labiale très courte qui fusionne avec le début du verbe."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v8_1",
+      "term": "Ceeb",
+      "phonetic_api": "/tʃeːb/",
+      "phonetic_simple": "TCHÉÉB",
+      "translation": "Poisson",
+      "example_sentence": "M malang ceeb.",
+      "example_phonetic": "/m ba.laŋ tʃeːb/",
+      "example_translation": "Je veux du poisson."
+    },
+    {
+      "word_id": "v8_2",
+      "term": "Malaŋ",
+      "phonetic_api": "/ma.laŋ/",
+      "phonetic_simple": "MA-LANG",
+      "translation": "Riz",
+      "example_sentence": "Malaŋ a ce.",
+      "example_phonetic": "/ma.laŋ a tʃe/",
+      "example_translation": "Le riz est bon."
+    },
+    {
+      "word_id": "v8_3",
+      "term": "M'mela",
+      "phonetic_api": "/m.me.la/",
+      "phonetic_simple": "M-MÉ-LA",
+      "translation": "Eau",
+      "example_sentence": "Ina, ror m'mela.",
+      "example_phonetic": "/i.na ror m.me.la/",
+      "example_translation": "S'il te plaît, donne-moi de l'eau."
+    },
+    {
+      "word_id": "v8_4",
+      "term": "N'wut",
+      "phonetic_api": "/nwut/",
+      "phonetic_simple": "N-WOUT",
+      "translation": "Nourriture / Manger",
+      "example_sentence": "M malang n'wut.",
+      "example_phonetic": "/m ba.laŋ nwut/",
+      "example_translation": "Je veux manger."
+    },
+    {
+      "word_id": "v8_5",
+      "term": "Meŋ",
+      "phonetic_api": "/meŋ/",
+      "phonetic_simple": "MENG",
+      "translation": "Boire",
+      "example_sentence": "M malang meŋ m'mela.",
+      "example_phonetic": "/m ba.laŋ meŋ m.me.la/",
+      "example_translation": "Je veux boire de l'eau."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p8_1",
+      "original": "M malang n'wut, ina.",
+      "phonetic_api": "/m ba.laŋ nwut i.na/",
+      "phonetic_simple": "M BA-LANG N-WOUT I-NA",
+      "translation": "Je voudrais manger, s'il vous plaît.",
+      "context": "Expression essentielle pour commander un repas ou exprimer sa faim."
+    },
+    {
+      "phrase_id": "p8_2",
+      "original": "Ror mi m'mela, baa.",
+      "phonetic_api": "/ror mi m.me.la baː/",
+      "phonetic_simple": "ROR MI M-MÉ-LA BAA",
+      "translation": "Donne-moi de l'eau, mon père.",
+      "context": "Formule polie pour demander à boire à un aîné."
+    },
+    {
+      "phrase_id": "p8_3",
+      "original": "A rila tange ceeb we?",
+      "phonetic_api": "/a ri.la taŋ.e tʃeːb we/",
+      "phonetic_simple": "A RI-LA TANG-É TCHÉÉB WÉ",
+      "translation": "Combien coûte ce poisson ?",
+      "context": "Indispensable pour négocier la nourriture sur les marchés côtiers."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le verbe de volonté et de désir 'malang'",
+      "explanation": "En nalu, pour exprimer le souhait, le besoin ou une commande, on emploie le verbe de base 'malang' (vouloir / désirer). Il se place immédiatement après le pronom personnel sujet.",
+      "rules": [
+        "Il peut être suivi directement d'un nom (ex: du riz) ou d'un verbe à l'infinitif (ex: manger).",
+        "Le verbe reste invariable quelle que soit la nourriture demandée."
+      ],
+      "examples": [
+        {
+          "structure": "M malang malaŋ",
+          "phonetic_api": "/m ba.laŋ ma.laŋ/",
+          "meaning": "Je veux du riz"
+        },
+        {
+          "structure": "M malang meŋ",
+          "phonetic_api": "/m ba.laŋ meŋ/",
+          "meaning": "Je veux boire"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Fatou",
+      "text": "Mboye, baa ! A malang n'wut?",
+      "phonetic_api": "/mbo.je baː a ba.laŋ nwut/",
+      "phonetic_simple": "MBO-YÉ BAA ! A BA-LANG N-WOUT?",
+      "translation": "Bonjour mon père ! Tu veux manger ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "Mboye ce ! M malang malaŋ n'gbe ceeb.",
+      "phonetic_api": "/mbo.je tʃe m ba.laŋ ma.laŋ ŋgbe tʃeːb/",
+      "phonetic_simple": "MBO-YÉ TCHÉ ! M BA-LANG MA-LANG NGBÉ TCHÉÉB.",
+      "translation": "Bonjour bien ! Je veux du riz avec du poisson."
+    },
+    {
+      "speaker": "Fatou",
+      "text": "A ce ! Ina, m'mela we.",
+      "phonetic_api": "/a tʃe i.na m.me.la we/",
+      "phonetic_simple": "A TCHÉ ! I-NA, M-MÉ-LA WÉ.",
+      "translation": "C'est bien ! S'il te plaît, voici de l'eau."
+    },
+    {
+      "speaker": "Amara",
+      "text": "Nu koka, bweten mi.",
+      "phonetic_api": "/nu ko.ka bʷe.ten mi/",
+      "phonetic_simple": "NOU KO-KA, BOUÉ-TEN MI.",
+      "translation": "Merci, mon enfant."
+    }
+  ],
+  "cultural_notes": [
+    "Le peuple Nalu vivant principalement sur le littoral de la Guinée maritime, le riz blanc accompagné de poissons frais ou fumés (souvent cuisinés avec de l'huile de palme ou une sauce aux arachides) constitue la base absolue de l'alimentation quotidienne. Partager l'eau ('m'mela') est un symbole d'accueil fondamental avant chaque repas."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex8_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'M'mela' ?",
+      "options": [
+        "Le poisson",
+        "L'eau",
+        "Le riz"
+      ],
+      "correct_answer": "L'eau",
+      "explanation": "'M'mela' désigne l'eau potable ou l'élément liquide à boire en nalu."
+    },
+    {
+      "exercise_id": "ex8_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Je veux manger', on dit : M [ ___ ] n'wut.",
+      "correct_answer": "malang",
+      "hint": "C'est le verbe nalu qui exprime le fait de vouloir ou désirer quelque chose"
+    }
+  ]
+}

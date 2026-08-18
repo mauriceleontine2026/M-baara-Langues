@@ -1,0 +1,208 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Identifier visuellement et reproduire acoustiquement les consonnes implosives propres au pular (ɓ, ɗ, ƴ)",
+    "Différencier l'articulation des consonnes prénasalisées complexes (mb, nd, nj, ng)",
+    "Comprendre l'impact sémantique de la gémination consonantique et du coup de glotte"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'alphabet pular normalisé intègre des graphèmes spécifiques pour ses articulations injectives : 'ɓ' (implosive bilabiale), 'ɗ' (implosive alvéo-dentale), 'ƴ' (implosive palatale). Le coup de glotte /ʔ/ est matérialisé par une apostrophe ('). Les complexes prénasalisés comme 'ng' (/ŋɡ/) lient intimement la résonance du voile du palais à l'occlusion.",
+    "common_pitfalls": "Substituer une implosive par une occlusive pulmonaire ordinaire (ex: prononcer 'b' à la place de 'ɓ') invalide la compréhension lexicale. Par exemple, 'baba' (oncle paternel en sous-dialecte / confusion) diffère fondamentalement de 'ɓidɗo' (enfant) par son mécanisme d'ingression d'air."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v3_1",
+      "term": "ɓidɗo",
+      "phonetic_api": "/ɓiɗːo/",
+      "phonetic_simple": "BHID-DHO",
+      "translation": "enfant, rejeton, fils ou fille",
+      "example_sentence": "Omo jogii ɓidɗo gorko.",
+      "example_phonetic": "/omo d͡ʒoɡiː ɓiɗːo ɡorko/",
+      "example_translation": "Il a un enfant garçon (un fils)."
+    },
+    {
+      "word_id": "v3_2",
+      "term": "ɗon",
+      "phonetic_api": "/ɗon/",
+      "phonetic_simple": "DHON",
+      "translation": "ici, là, marqueur de présence",
+      "example_sentence": "Baaba am no ɗon.",
+      "example_phonetic": "/baːba am no ɗon/",
+      "example_translation": "Mon père est présent / est là."
+    },
+    {
+      "word_id": "v3_3",
+      "term": "ƴande",
+      "phonetic_api": "/ʄande/",
+      "phonetic_simple": "Y'AN-DE",
+      "translation": "front (anatomie)",
+      "example_sentence": "Ƴande makko no yaaji.",
+      "example_phonetic": "/ʄande makːo no jaːd͡ʒi/",
+      "example_translation": "Son front est large."
+    },
+    {
+      "word_id": "v3_4",
+      "term": "ndiyam",
+      "phonetic_api": "/ndijam/",
+      "phonetic_simple": "NDI-YAM",
+      "translation": "eau, liquide hydraulique",
+      "example_sentence": "Okku mi ndiyam mi yara.",
+      "example_phonetic": "/okːu mi ndijam mi jara/",
+      "example_translation": "Donne-moi de l'eau que je boive."
+    },
+    {
+      "word_id": "v3_5",
+      "term": "mbabba",
+      "phonetic_api": "/mbabːa/",
+      "phonetic_simple": "MBAB-BA",
+      "translation": "âne, bourricot",
+      "example_sentence": "Mbabba ɗon no dunya.",
+      "example_phonetic": "/mbabːa ɗon no dunja/",
+      "example_translation": "L'âne là-bas pousse la charge."
+    },
+    {
+      "word_id": "v3_6",
+      "term": "ngesa",
+      "phonetic_api": "/nɡesa/",
+      "phonetic_simple": "NGE-SA",
+      "translation": "champ, espace cultivé",
+      "example_sentence": "O yahi e ngesa makko.",
+      "example_phonetic": "/o jahi e nɡesa makːo/",
+      "example_translation": "Il est allé dans son champ."
+    },
+    {
+      "word_id": "v3_7",
+      "term": "njallu",
+      "phonetic_api": "/nd͡ʒalːu/",
+      "phonetic_simple": "NJAL-LOU",
+      "translation": "passer la journée (radical impératif)",
+      "example_sentence": "Yo en njallu e jam.",
+      "example_phonetic": "/jo en nd͡ʒalːu e d͡ʒam/",
+      "example_translation": "Passons la journée en paix."
+    },
+    {
+      "word_id": "v3_8",
+      "term": "wa'oore",
+      "phonetic_api": "/waʔoːre/",
+      "phonetic_simple": "WA-OORE",
+      "translation": "état, manière d'être",
+      "example_sentence": "No wa'i ? (Coup de glotte bref sur le ')",
+      "example_phonetic": "/no waʔi/",
+      "example_translation": "Comment cela se présente-t-il ?"
+    },
+    {
+      "word_id": "v3_9",
+      "term": "laabi",
+      "phonetic_api": "/laːbi/",
+      "phonetic_simple": "LAA-BI",
+      "translation": "propreté, clarté, pureté",
+      "example_sentence": "Pular makko no laabi.",
+      "example_phonetic": "/pular makːo no laabi/",
+      "example_translation": "Son pular est pur/clair."
+    },
+    {
+      "word_id": "v3_10",
+      "term": "harfeere",
+      "phonetic_api": "/harɸeːre/",
+      "phonetic_simple": "HAR-FEE-RE",
+      "translation": "lettre de l'alphabet, caractère",
+      "example_sentence": "Ngal harfeere no saɗi prononcing.",
+      "example_phonetic": "/nɡal harɸeːre no saɗi/",
+      "example_translation": "Cette lettre est difficile à prononcer."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p3_1",
+      "original": "Ɗum no ɓuri moƴƴude.",
+      "phonetic_api": "/ɗum no ɓuri moʔɟːude/",
+      "phonetic_simple": "DHUM NO BHOU-RI MOY-YUDE",
+      "translation": "C'est cela qui est le meilleur (C'est excellent).",
+      "context": "Validation forte d'une idée ou d'une situation."
+    },
+    {
+      "phrase_id": "p3_2",
+      "original": "Mido jogii ɓiɓɓe ɗiɗo.",
+      "phonetic_api": "/mido d͡ʒoɡiː ɓiɓːe ɗiɗo/",
+      "phonetic_simple": "MI-DO DJO-GII BHIBH-BHE DHI-DHO",
+      "translation": "J'ai deux enfants.",
+      "context": "Description de sa situation familiale."
+    },
+    {
+      "phrase_id": "p3_3",
+      "original": "Ko nguu woni pular laabi.",
+      "phonetic_api": "/ko nɡuː woni pular laːbi/",
+      "phonetic_simple": "KO NGOUU WO-NI POU-LAR LAA-BI",
+      "translation": "C'est ceci le pular authentique.",
+      "context": "Compliment adressé à quelqu'un maîtrisant parfaitement les sons."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La Tension Articulatoire ou Gémination Consonantique",
+      "explanation": "Le redoublement orthographique des consonnes (ll, mm, tt, ɓɓ) traduit une gémination phonétique : l'occlusion ou la friction est maintenue deux fois plus longtemps, bloquant brièvement l'émission d'air avant l'explosion.",
+      "rules": [
+        "La gémination possède une valeur distinctive indispensable : elle permet d'opposer des bases verbales ou nominales (ex: ɓidɗo au singulier devient ɓiɓɓe au pluriel, l'implosive se géminant et changeant de point d'articulation)."
+      ],
+      "examples": [
+        {
+          "structure": "ɓidɗo (singulier) -> ɓiɓɓe (pluriel)",
+          "phonetic_api": "/ɓiɓːe/",
+          "meaning": "Enfants"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Jannginoowo (Maître)",
+      "text": "Janngu ngal harfeere ngal : ɓ. Etu windude 'ɓidɗo'.",
+      "phonetic_api": "/d͡ʒanːɡinoːwo d͡ʒanɡu nɡal harɸeːre nɡal ɓ etu windude ɓiɗːo/",
+      "phonetic_simple": "DJAN-GIN-OO-WO : DJAN-GOU NGAL HAR-FEE-RE NGAL : BH. E-TOU WIN-DOU-DE 'BHID-DHO'.",
+      "translation": "Lis cette lettre : ɓ. Essaie d'écrire 'enfant'."
+    },
+    {
+      "speaker": "Karanden (Élève)",
+      "text": "Ɓidɗo. Mido refti prononcing ndiyam kadi. No laabi ?",
+      "phonetic_api": "/karanden ɓiɗːo mido refti ndijam kadi no laːbi/",
+      "phonetic_simple": "KA-RAN-DEN : BHID-DHO. MI-DO REF-TI NDI-YAM KA-DI. NO LAA-BI ?",
+      "translation": "Enfant. Je répète aussi la prononciation de 'ndiyam' (eau). Est-ce correct/pur ?"
+    },
+    {
+      "speaker": "Jannginoowo (Maître)",
+      "text": "Eyyo, pular maa no laabi sanne. A jaraama.",
+      "phonetic_api": "/ejːo pular maː no laːbi sanːe a d͡ʒaraːma/",
+      "phonetic_simple": "EY-YO, POU-LAR MAA NO LAA-BI SAN-NE. A DJA-RAA-MA.",
+      "translation": "Oui, ton pular est très clair/pur. Félicitations (merci)."
+    }
+  ],
+  "cultural_notes": [
+    "L'alphabet officiel de la langue pular utilise les caractères latins codifiés sous l'égide de l'UNESCO pour unifier les transcriptions d'Afrique de l'Ouest. Parallèlement, l'écriture trans-saharienne historique 'Ajami' (caractères arabes adaptés aux structures phonologiques africaines) demeure active au sein des éruditions traditionnelles du Fouta-Djallon."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex3_1",
+      "type": "multiple_choice",
+      "question": "Quel type de son représente l'association de consonnes 'mb' dans 'mbabba' ?",
+      "options": [
+        "Une consonne implosive",
+        "Une consonne prénasalisée",
+        "Un coup de glotte"
+      ],
+      "correct_answer": "Une consonne prénasalisée",
+      "explanation": "'mb' combine une résonance nasale initiale immédiatement suivie d'une explosion bilabiale."
+    },
+    {
+      "exercise_id": "ex3_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Baaba am no [ ___ ]. (Mon père est là/présent).",
+      "correct_answer": "ɗon",
+      "hint": "Mot utilisant l'implosive dentale pour indiquer la présence ici."
+    }
+  ]
+}

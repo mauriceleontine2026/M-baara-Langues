@@ -1,0 +1,315 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Maîtriser le comptage cardinal de 1 à 20 et comprendre la logique de construction jusqu'à 100",
+    "Poser des questions sur une quantité et indiquer le prix d'un produit ou d'un service de base",
+    "Associer correctement les nombres aux substantifs pour quantifier des objets ou des personnes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en avant la prononciation du 'é' fermé de 'kérén' et les voyelles nasales en fin de syllabe. Les chiffres de base se terminent souvent par des voyelles brèves et nettes. Attention au groupe consonantique de 'senni' qui exige un doublement de la consonne nasale alvéolaire sourde /n/.",
+    "common_pitfalls": "Ne pas nasaliser la fin de 'firini' ou 'sulu' comme si c'était du français. Le son doit rester purement oral. Pour 'kérén', le 'n' final indique une nasalisation de la voyelle précédente, proche du son 'in' de 'matin' mais plus fermé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v5_1",
+      "term": "Kérén",
+      "phonetic_api": "/keren/",
+      "phonetic_simple": "KÉ-RÉN",
+      "translation": "Un / Unique",
+      "example_sentence": "N xili kérén nan na.",
+      "example_phonetic": "/n xili keren naⁿ na/",
+      "example_translation": "J'ai un seul nom."
+    },
+    {
+      "word_id": "v5_2",
+      "term": "Firini",
+      "phonetic_api": "/firini/",
+      "phonetic_simple": "FI-RI-NI",
+      "translation": "Deux",
+      "example_sentence": "Di firini na n ma.",
+      "example_phonetic": "/di firini na n ma/",
+      "example_translation": "J'ai deux enfants."
+    },
+    {
+      "word_id": "v5_3",
+      "term": "Sulu",
+      "phonetic_api": "/sulu/",
+      "phonetic_simple": "SOU-LOU",
+      "translation": "Trois",
+      "example_sentence": "Banxi sulu na ki.",
+      "example_phonetic": "/baⁿxi sulu na ki/",
+      "example_translation": "Il y a trois maisons ici."
+    },
+    {
+      "word_id": "v5_4",
+      "term": "Naani",
+      "phonetic_api": "/naːni/",
+      "phonetic_simple": "NAA-NI",
+      "translation": "Quatre",
+      "example_sentence": "Bore naani na a xon.",
+      "example_phonetic": "/borɛ naːni na a xoⁿ/",
+      "example_translation": "Il a quatre amis auprès de lui."
+    },
+    {
+      "word_id": "v5_5",
+      "term": "Suli",
+      "phonetic_api": "/suli/",
+      "phonetic_simple": "SOU-LI",
+      "translation": "Cinq",
+      "example_sentence": "Yé suli fi n bɛ.",
+      "example_phonetic": "/ye suli fi n bɛ/",
+      "example_translation": "Donne-moi cinq bouteilles d'eau."
+    },
+    {
+      "word_id": "v5_6",
+      "term": "Fu",
+      "phonetic_api": "/fu/",
+      "phonetic_simple": "FOU",
+      "translation": "Dix",
+      "example_sentence": "A fu fi n ma.",
+      "example_phonetic": "/a fu fi n ma/",
+      "example_translation": "Donne-m'en dix."
+    },
+    {
+      "word_id": "v5_7",
+      "term": "Tongo",
+      "phonetic_api": "/toⁿɡo/",
+      "phonetic_simple": "TON-GO",
+      "translation": "Dix (utilisé comme dizaine pour multiplier : tongo firini = vingt)",
+      "example_sentence": "Tongo sulu na n ma.",
+      "example_phonetic": "/toⁿɡo sulu na n ma/",
+      "example_translation": "J'en ai trente (trois dizaines)."
+    },
+    {
+      "word_id": "v5_8",
+      "term": "Muxe",
+      "phonetic_api": "/muxɛ/",
+      "phonetic_simple": "MOU-KHÈ",
+      "translation": "Combien (quantitatif)",
+      "example_sentence": "I wama muxe ra ?",
+      "example_phonetic": "/i wama muxɛ ra/",
+      "example_translation": "Combien en veux-tu ?"
+    },
+    {
+      "word_id": "v5_9",
+      "term": "Sare",
+      "phonetic_api": "/sarɛ/",
+      "phonetic_simple": "SA-RÈ",
+      "translation": "Prix / Valeur / Coût",
+      "example_sentence": "Sare na mu ?",
+      "example_phonetic": "/sarɛ na mu/",
+      "example_translation": "Quel est le prix ?"
+    },
+    {
+      "word_id": "v5_10",
+      "term": "Fi",
+      "phonetic_api": "/fi/",
+      "phonetic_simple": "FI",
+      "translation": "Donner / Accorder",
+      "example_sentence": "Gbéingbé fi n bɛ.",
+      "example_phonetic": "/ɡbeːnɡbɛ fi n bɛ/",
+      "example_translation": "Donne-moi le rouge."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p5_1",
+      "original": "Fi muxe ?",
+      "phonetic_api": "/fi muxɛ/",
+      "phonetic_simple": "FI MOU-KHÈ",
+      "translation": "Combien ? (litt. Donne combien ?)",
+      "context": "Formule économique courante au marché pour demander un prix."
+    },
+    {
+      "phrase_id": "p5_2",
+      "original": "A sare findi fu ra.",
+      "phonetic_api": "/a sarɛ fiⁿdi fu ra/",
+      "phonetic_simple": "A SA-RÈ FIN-DI FOU RA",
+      "translation": "Son prix est de dix (francs/unités).",
+      "context": "Annoncer le montant d'une marchandise."
+    },
+    {
+      "phrase_id": "p5_3",
+      "original": "N wama firini nan na.",
+      "phonetic_api": "/n wama firini naⁿ na/",
+      "phonetic_simple": "N WA-MA FI-RI-NI NAN NA",
+      "translation": "Je veux deux unités de cela.",
+      "context": "Exprimer sa commande ou son choix quantitatif."
+    },
+    {
+      "phrase_id": "p5_4",
+      "original": "Mixi muxe na banxi ma ?",
+      "phonetic_api": "/mixi muxɛ na baⁿxi ma/",
+      "phonetic_simple": "MI-XI MOU-KHÈ NA BAN-KHI MA ?",
+      "translation": "Combien de personnes y a-t-il dans la maison ?",
+      "context": "S'enquérir du nombre de gens présents."
+    },
+    {
+      "phrase_id": "p5_5",
+      "original": "Fu nun suli.",
+      "phonetic_api": "/fu nuⁿ suli/",
+      "phonetic_simple": "FOU NOUN SOU-LI",
+      "translation": "Quinze (Dix et cinq).",
+      "context": "Compter ou énoncer un nombre composé entre 11 et 19."
+    },
+    {
+      "phrase_id": "p5_6",
+      "original": "A sare gbe ra !",
+      "phonetic_api": "/a sarɛ ɡbɛ ra/",
+      "phonetic_simple": "A SA-RÈ GBÈ RA !",
+      "translation": "Son prix est extrêmement cher !",
+      "context": "S'exclamer face à un tarif trop élevé au marché."
+    },
+    {
+      "phrase_id": "p5_7",
+      "original": "Tongo firini fi n bɛ.",
+      "phonetic_api": "/toⁿɡo firini fi n bɛ/",
+      "phonetic_simple": "TON-GO FI-RI-NI FI N BÈ",
+      "translation": "Donne-moi vingt (unités).",
+      "context": "Passer commande d'un lot important."
+    },
+    {
+      "phrase_id": "p5_8",
+      "original": "Sare ba !",
+      "phonetic_api": "/sarɛ ba/",
+      "phonetic_simple": "SA-RÈ BA",
+      "translation": "Diminue le prix !",
+      "context": "Formule clé pour lancer une négociation ou un marchandage."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La syntaxe de la quantification nominale",
+      "explanation": "En soussou, les adjectifs numéraux (les chiffres) se placent toujours directement APRÈS le nom qu'ils qualifient. Le nom reste invariable dans sa forme de base.",
+      "rules": [
+        "Le substantif (objet ou personne) se place en premier.",
+        "Le chiffre vient se positionner immédiatement à sa droite.",
+        "La particule de focus nominal 'nan' peut suivre le chiffre pour insister sur la quantité précise."
+      ],
+      "examples": [
+        {
+          "structure": "Mixi + firini",
+          "phonetic_api": "/mixi firini/",
+          "meaning": "Deux personnes (litt. Personne deux)"
+        },
+        {
+          "structure": "Banxi + suli",
+          "phonetic_api": "/baⁿxi suli/",
+          "meaning": "Cinq maisons"
+        }
+      ]
+    },
+    {
+      "concept": "La logique de construction des nombres composés et des dizaines",
+      "explanation": "Le système de numération soussou est décimal. Pour construire les nombres de 11 à 19, on utilise la base 'fu' (dix) liée par la conjonction 'nun' (et) au chiffre des unités. Pour les dizaines supérieures, on utilise le multiplicateur 'tongo' (dizaine) suivi du chiffre multiplicateur.",
+      "rules": [
+        "De 11 à 19 : fu + nun + [chiffre]",
+        "Les dizaines (20, 30, 40...) : tongo + [chiffre]"
+      ],
+      "examples": [
+        {
+          "structure": "Fu + nun + sulu",
+          "phonetic_api": "/fu nuⁿ sulu/",
+          "meaning": "Treize (10 et 3)"
+        },
+        {
+          "structure": "Tongo + naani",
+          "phonetic_api": "/toⁿɡo naːni/",
+          "meaning": "Quarante (dizaines quatre)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Fanta",
+      "text": "I kéna ! Yé na naxan na ? N wama yé ra.",
+      "phonetic_api": "/i kéna ye na naxaⁿ na n wama ye ra/",
+      "phonetic_simple": "I KÉ-NA ! YÉ NA NA-KHAN NA ? N WA-MA YÉ RA",
+      "translation": "Bonjour ! Où est l'eau ? Je veux de l'eau."
+    },
+    {
+      "speaker": "Marchand",
+      "text": "Yé na ki. I wama muxe ra ?",
+      "phonetic_api": "/ye na ki i wama muxɛ ra/",
+      "phonetic_simple": "YÉ NA KI. I WA-MA MOU-KHÈ RA ?",
+      "translation": "L'eau est ici. Combien en veux-tu ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "N wama suli ra. A sare fi muxe ?",
+      "phonetic_api": "/n wama suli ra a sarɛ fi muxɛ/",
+      "phonetic_simple": "N WA-MA SOU-LI RA. A SA-RÈ FI MOU-KHÈ ?",
+      "translation": "Je veux cinq bouteilles. Quel est le prix total ?"
+    },
+    {
+      "speaker": "Marchand",
+      "text": "A sare findi fu ra.",
+      "phonetic_api": "/a sarɛ fiⁿdi fu ra/",
+      "phonetic_simple": "A SA-RÈ FIN-DI FOU RA",
+      "translation": "Le prix est de dix."
+    },
+    {
+      "speaker": "Fanta",
+      "text": "A sare gbe ra, n bore ! Sare ba fu nun firini ma !",
+      "phonetic_api": "/a sarɛ ɡbɛ ra n borɛ sarɛ ba fu nuⁿ firini ma/",
+      "phonetic_simple": "A SA-RÈ GBÈ RA, N BO-RÈ ! SA-RÈ BA FOU NOUN FI-RI-NI MA !",
+      "translation": "C'est très cher, mon ami ! Diminue le prix à partir de douze !"
+    },
+    {
+      "speaker": "Marchand",
+      "text": "Nba, suli tongo n bɛ.",
+      "phonetic_api": "/ⁿba suli toⁿɡo n bɛ/",
+      "phonetic_simple": "N-BA, SOU-LI TON-GO N BÈ",
+      "translation": "D'accord, donne-moi juste la monnaie correspondante (on s'arrange)."
+    }
+  ],
+  "cultural_notes": [
+    "En Guinée, le marchandage est une interaction sociale ritualisée et indispensable dans toutes les transactions quotidiennes. Connaître les chiffres en soussou permet de s'intégrer harmonieusement dans ce jeu commercial. Annoncer 'A sare gbe ra' (C'est cher) avec un sourire fait partie du protocole de négociation attendu par les vendeurs."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex5_1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on le nombre 'quinze' en utilisant la règle des nombres composés ?",
+      "options": [
+        "Tongo suli",
+        "Fu nun suli",
+        "Fu nun naani"
+      ],
+      "correct_answer": "Fu nun suli",
+      "explanation": "Quinze se forme par l'addition de dix (fu) et (nun) cinq (suli)."
+    },
+    {
+      "exercise_id": "ex5_2",
+      "type": "multiple_choice",
+      "question": "Quelle est la bonne traduction de 'trois maisons' en respectant l'ordre syntaxique ?",
+      "options": [
+        "Sulu banxi",
+        "Banxi naani",
+        "Banxi sulu"
+      ],
+      "correct_answer": "Banxi sulu",
+      "explanation": "Le nom 'banxi' se place d'abord, suivi immédiatement du chiffre 'sulu' (trois)."
+    },
+    {
+      "exercise_id": "ex5_3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A [ ___ ] findi fu ra. (Son prix est de dix.)",
+      "correct_answer": "sare",
+      "hint": "Ce mot désigne la valeur marchande, le coût ou le prix d'un bien."
+    },
+    {
+      "exercise_id": "ex5_4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Tongo [ ___ ] (Vingt / deux dizaines)",
+      "correct_answer": "firini",
+      "hint": "C'est le chiffre 'deux' combiné avec la base des dizaines."
+    }
+  ]
+}

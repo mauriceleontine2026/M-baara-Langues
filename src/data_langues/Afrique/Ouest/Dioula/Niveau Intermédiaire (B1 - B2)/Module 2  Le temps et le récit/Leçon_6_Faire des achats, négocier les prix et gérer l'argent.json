@@ -1,0 +1,295 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Maîtriser le système de compte traditionnel en wari (unités de 5 CFA) à un niveau commercial intermédiaire",
+    "Conduire une négociation marchande serrée en utilisant des arguments d'évaluation de la qualité",
+    "Gérer un budget de dépenses quotidiennes et exprimer les notions de bénéfice, de perte ou de dette",
+    "Utiliser les expressions idiomatiques liées à l'échange monétaire et à la valeur des marchandises"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot 'wari' (argent/monnaie) requiert une articulation claire de la consonne vibrante alvéolaire /r/. Le terme pour exprimer la négociation, 'sɔngɔ-kilila' ou 'barajɛ', met en œuvre la voyelle ouverte /ɛ/ en position finale. L'expression 'wari-tigi' (le riche / le créancier) utilise une alternance de voyelles fermées.",
+    "common_pitfalls": "Attention au mot 'dɔgɔya' (diminuer/baisser). Ne confondez pas la prononciation du /g/ occlusif vélaire sonore avec un son fricatif. Veillez également à ne pas nasaliser le mot 'wari' sous l'influence de langues voisines."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Wari-ɲini",
+      "phonetic_api": "/wa.ri ɲi.ni/",
+      "phonetic_simple": "WA-RI-GNI-NI",
+      "translation": "Chercher de l'argent / Financer / Gérer ses finances",
+      "example_sentence": "Wari-ɲini ka gban sisan sugu kɔnɔ",
+      "example_phonetic": "/wa.ri ɲi.ni ka g͡baⁿ si.saⁿ su.gu kɔ.nɔ/",
+      "example_translation": "Trouver de l'argent est difficile actuellement sur le marché."
+    },
+    {
+      "word_id": "v2",
+      "term": "Sɔngɔ-kili",
+      "phonetic_api": "/sɔn.gɔ ki.li/",
+      "phonetic_simple": "SÕN-GÕ-KI-LI",
+      "translation": "Négocier le prix / Discuter le coût d'un objet",
+      "example_sentence": "N bɛ fɛ ka sɔngɔ-kili kɛ ni fani-feela ye",
+      "example_phonetic": "/n̩ bɛ fɛ ka sɔn.gɔ ki.li kɛ ni fa.ni feː.la jɛ/",
+      "example_translation": "Je veux négocier le prix avec le vendeur de tissus."
+    },
+    {
+      "word_id": "v3",
+      "term": "Wari-tɛmɛ-songo",
+      "phonetic_api": "/wa.ri tɛ.mɛ sɔn.gɔ/",
+      "phonetic_simple": "WA-RI-TÈ-MÈ-SÕN-GÕ",
+      "translation": "La valeur marchande / Le prix exorbitant / Le surcoût",
+      "example_sentence": "Fɛn nin wari-tɛmɛ-songo ka bon kosɛbɛ",
+      "example_phonetic": "/fɛⁿ niⁿ wa.ri tɛ.mɛ sɔn.gɔ ka boⁿ ko.sɛ.bɛ/",
+      "example_translation": "La valeur marchande de cet objet est extrêmement élevée."
+    },
+    {
+      "word_id": "v4",
+      "term": "Nafa / Tɔnɔ",
+      "phonetic_api": "/tɔ.nɔ/",
+      "phonetic_simple": "TÕ-NÕ",
+      "translation": "Le bénéfice / Le profit / L'utilité",
+      "example_sentence": "Baara nin tɔnɔ bɛna bɔ kɛnɛ ma san natɔ fɛ",
+      "example_phonetic": "/baː.ra niⁿ tɔ.nɔ bɛ.na bɔ kɛ.nɛ ma saⁿ na.tɔ fɛ/",
+      "example_translation": "Le bénéfice de ce travail va se manifester l'année prochaine."
+    },
+    {
+      "word_id": "v5",
+      "term": "Juru",
+      "phonetic_api": "/d͡ʒu.ru/",
+      "phonetic_simple": "DJOU-ROU",
+      "translation": "La dette / Le crédit (litt. la corde)",
+      "example_sentence": "Juru don mɔgɔ la ka gban, a ka kan ka sara",
+      "example_phonetic": "/d͡ʒu.ru doⁿ mɔ.gɔ la ka g͡baⁿ a ka kaⁿ ka sa.ra/",
+      "example_translation": "S'endetter est une chose lourde, il faut impérativement rembourser."
+    },
+    {
+      "word_id": "v6",
+      "term": "Harijɛgɛ / Sugu-ko-ɲuman",
+      "phonetic_api": "/ha.ri.d͡ʒɛ.gɛ/",
+      "phonetic_simple": "HA-RI-DJÈ-GUÈ",
+      "translation": "La chance en affaires / La bonne fortune commerciale",
+      "example_sentence": "Harijɛgɛ bɛ a ka fɛn-w-san-yɔrɔ la",
+      "example_phonetic": "/ha.ri.d͡ʒɛ.gɛ bɛ a ka fɛⁿ-w-san-jɔ.rɔ la/",
+      "example_translation": "La chance en affaires sourit à sa boutique."
+    },
+    {
+      "word_id": "v7",
+      "term": "Wari-kɛmɛ",
+      "phonetic_api": "/wa.ri kɛ.mɛ/",
+      "phonetic_simple": "WA-RI-KÈ-MÈ",
+      "translation": "Cinq cents Francs CFA (l'unité de base de 100 wari)",
+      "example_sentence": "Samara nin sɔngɔ bɛ wari-kɛmɛ kelen ye",
+      "example_phonetic": "/sa.ma.ra niⁿ sɔn.gɔ bɛ wa.ri kɛ.mɛ ke.len jɛ/",
+      "example_translation": "Le prix de ces chaussures est de 500 Francs CFA."
+    },
+    {
+      "word_id": "v8",
+      "term": "Wari-bila / Sigi-wari",
+      "phonetic_api": "/si.gi wa.ri/",
+      "phonetic_simple": "SI-GUI-WA-RI",
+      "translation": "L'épargne / L'argent de réserve / L'économie",
+      "example_sentence": "Sigi-wari ladan ka fisa walasa ka so lɔ bi-kɔfɛ",
+      "example_phonetic": "/si.gi wa.ri la.daⁿ ka fi.sa wa.la.sa ka so lɔ bi kɔ.fɛ/",
+      "example_translation": "Constituer une épargne vaut mieux afin de bâtir une maison à l'avenir."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ni n sɔngɔ-kilira kosɛbɛ, feela bɛna dɔgɔya wari-kɛmɛ saba la.",
+      "phonetic_api": "/ni n̩ sɔn.gɔ ki.li.ra ko.sɛ.bɛ feː.la bɛ.na dɔ.gɔ.ja wa.ri kɛ.mɛ sa.ba la/",
+      "phonetic_simple": "NI N SÕN-GÕ-KI-LI-RA KO-SÈ-BÈ, FEE-LA BÈ-NA DÕ-GÕ-YA WA-RI-KÈ-MÈ SA-BA LA",
+      "translation": "Si je négocie fermement, le vendeur va diminuer le prix de 1500 Francs CFA.",
+      "context": "Évaluer sa marge de manœuvre lors d'un achat au marché."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Fɛn nin wari-tɛmɛ-songo ka bon, nka a tɔnɔ ka bon fana an ka baara la.",
+      "phonetic_api": "/fɛⁿ niⁿ wa.ri tɛ.mɛ sɔn.gɔ ka boⁿ n̩.ka a tɔ.nɔ ka boⁿ fa.na an ka baː.ra la/",
+      "phonetic_simple": "FÈN NIN WA-RI-TÈ-MÈ-SÕN-GÕ KA BON, NKA A TÕ-NÕ KA BON FA-NA AN KA BAA-RA LA",
+      "translation": "Le coût de cet objet est exorbitant, mais son utilité est également grande pour notre travail.",
+      "context": "Peser le pour et le contre d'un investissement matériel."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "N tɛ fɛ ka juru don n ma kalo natɔ la, o ka fisa n ye ka sigi-wari sara sisan.",
+      "phonetic_api": "/n̩ tɛ fɛ ka d͡ʒu.ru doⁿ n̩ ma ka.lo na.tɔ la o ka fi.sa n̩ jɛ ka si.gi wa.ri sa.ra si.san/",
+      "phonetic_simple": "N TÈ FÈ KA DJOU-ROU DON N MA KA-LO NA-TÕ LA, O KA FI-SA N YÈ KA SI-GUI-WA-RI SA-RA SI-SAN",
+      "translation": "Je ne veux pas contracter de dette le mois prochain, il vaut mieux pour moi utiliser mon épargne maintenant.",
+      "context": "Exprimer sa stratégie de gestion budgétaire."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Wari-kɛmɛ duuru ni wari-kɛmɛ fila bɛ bɛn wari joli ma sɔngɔ la ?",
+      "phonetic_api": "/wa.ri kɛ.mɛ duː.ru ni wa.ri kɛ.mɛ fi.la bɛ bɛn wa.ri d͡ʒo.li ma sɔn.gɔ la/",
+      "phonetic_simple": "WA-RI-KÈ-MÈ DOUO-ROU NI WA-RI-KÈ-MÈ FI-LA BÈ BEN WA-RI DJO-LI MA SÕN-GÕ LA ?",
+      "translation": "Est-ce que cinq centaines et deux centaines (3500 CFA) correspondent au prix final ?",
+      "context": "Calculer la somme globale selon le système mandingue traditionnel."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Ni harijɛgɛ bɛ yan bi, an bɛna tɔnɔ sɔrɔ fɛn-w-san-yɔrɔ kɔnɔ.",
+      "phonetic_api": "/ni ha.ri.d͡ʒɛ.gɛ bɛ jaⁿ bi an bɛ.na tɔ.nɔ sɔ.rɔ fɛⁿ-w-san-jɔ.rɔ kɔ.nɔ/",
+      "phonetic_simple": "NI HA-RI-DJÈ-GUÈ BÈ YAN BI, AN BÈ-NA TÕ-NÕ SÕ-RÕ FÈN-W-SAN-YÕ-RÕ KÕ-NÕ",
+      "translation": "Si la chance en affaires est là aujourd'hui, nous allons faire un bénéfice dans la boutique.",
+      "context": "Formuler une prévision commerciale."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Sutigi bɛ wari-ɲini la walasa ka juru bɛɛ sara ka bɔ so-haya sira fɛ.",
+      "phonetic_api": "/so.ti.gi bɛ wa.ri ɲi.ni la wa.la.sa ka d͡ʒu.ru bɛː sa.ra ka bɔ so ha.ja si.ra fɛ/",
+      "phonetic_simple": "SOU-TI-GI BÈ WA-RI-GNI-NI LA WA-LA-SA KA DJOU-ROU BÈÈ SA-RA KA BÕ SO-HA-YA SI-RA FÈ",
+      "translation": "Le propriétaire cherche des fonds afin de rembourser toutes les dettes liées à la location.",
+      "context": "Expliquer les contraintes financières d'un partenaire."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "N ma tɔnɔ si sɔrɔ fani nin na, n bɛ nimisa kɛ kosɛbɛ baara-sɔngɔ fɛ.",
+      "phonetic_api": "/n̩ ma tɔ.nɔ si sɔ.rɔ fa.ni niⁿ na n̩ bɛ ni.mi.sa kɛ ko.sɛ.bɛ baː.ra sɔn.gɔ fɛ/",
+      "phonetic_simple": "N MA TÕ-NÕ SI SÕ-RÕ FA-NI NIN NA, N BÈ NI-MI-SA KÈ KO-SÈ-BÈ BAA-RA-SÕN-GÕ FÈ",
+      "translation": "Je n'ai fait aucun profit sur ce tissu, je regrette beaucoup le coût de la main-d'œuvre.",
+      "context": "Constater un échec commercial ou un déficit."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Ala ka sugu-ko-ɲuman ni hɛɛrɛ don an ka sigi-wari la !",
+      "phonetic_api": "/a.la ka su.gu ko ɲu.maⁿ ni hɛː.rɛ doⁿ an ka si.gi wa.ri la/",
+      "phonetic_simple": "A-LA KA SOU-GOU-KO-GNU-MAN NI HÈÈ-RÈ DON AN KA SI-GUI-WA-RI LA !",
+      "translation": "Que Dieu apporte la prospérité commerciale et la paix dans nos économies !",
+      "context": "Bénédiction traditionnelle pour la réussite financière."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système de calcul monétaire traditionnel en 'wari-kɛmɛ'",
+      "explanation": "En dioula de transaction marchande, l'argent ne se compte pas unitairement en Francs CFA, mais en 'wari'. Un 'wari' équivaut à 5 Francs CFA. Par conséquent, 'wari-kɛmɛ' (cent wari) correspond à 500 Francs CFA. C'est l'unité pivot indispensable pour négocier à l'étape B1.",
+      "rules": [
+        "Structure : Nombre de kɛmɛ + ma / ye.",
+        "Wari-kɛmɛ kelen = 500 CFA ; Wari-kɛmɛ fila = 1000 CFA ; Wari-kɛmɛ duuru = 2500 CFA."
+      ],
+      "examples": [
+        {
+          "structure": "Wari-kɛmɛ (500) + saba (trois)",
+          "phonetic_api": "/wa.ri kɛ.mɛ sa.ba/",
+          "meaning": "1500 Francs CFA (Trois centaines de wari)."
+        }
+      ]
+    },
+    {
+      "concept": "La conditionnelle d'action future avec 'ni ... (a) ... -ra / -na'",
+      "explanation": "Pour exprimer qu'une action marchande immédiate va déclencher une conséquence au futur (si je négocie, il va céder), on combine la conjonction 'ni' en début de phrase avec le verbe de la subordonnée à l'accompli d'action, tandis que la principale passe au futur en 'bɛna'.",
+      "rules": [
+        "Structure : Ni + Sujet + Verbe-ra/na (accompli), [Sujet + bɛna + Verbe]."
+      ],
+      "examples": [
+        {
+          "structure": "Ni + n + sɔngɔ-kilira (si j'ai négocié), [feela bɛna dɔgɔya (le vendeur va diminuer)]",
+          "phonetic_api": "/ni n̩ sɔn.gɔ ki.li.ra feː.la bɛ.na dɔ.gɔ.ja/",
+          "meaning": "Si je négocie le prix, le vendeur va le baisser."
+        }
+      ]
+    },
+    {
+      "concept": "Le nom composé d'attribution et de possession avec '-tigi'",
+      "explanation": "Le suffixe '-tigi' indique le maître, le possesseur ou le responsable d'une entité ou d'une situation financière. Il est très productif pour caractériser le statut des individus dans les transactions.",
+      "rules": [
+        "Substantif + tigi = Personne détentrice ou responsable.",
+        "Wari + tigi = wari-tigi (le riche / le créancier) ; Juru + tigi = juru-tigi (le débiteur / celui qui a la dette)."
+      ],
+      "examples": [
+        {
+          "structure": "Wari (argent) + tigi (maître)",
+          "phonetic_api": "/wa.ri ti.gi/",
+          "meaning": "Le détenteur de l'argent / Le riche."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Bakary (L'acheteur)",
+      "text": "I ni ce, feela. Fani nin cɛɲira kosɛbɛ. Sabari, a wari-tɛmɛ-songo bɛ joli ye bi ?",
+      "phonetic_api": "/i ni t͡ʃe feː.la fa.ni niⁿ t͡ʃɛ.ɲi.ra ko.sɛ.bɛ sa.ba.ri a wa.ri tɛ.mɛ sɔn.gɔ bɛ d͡ʒo.li jɛ bi/",
+      "phonetic_simple": "I NI TCHE, FEE-LA. FA-NI NIN TCHÈ-GNI-RA KO-SÈ-BÈ. SA-BA-RI, A WA-RI-TÈ-MÈ-SÕN-GÕ BÈ DJO-LI YÈ BI ?",
+      "translation": "Bonjour, vendeur. Ce tissu est magnifique. S'il te plaît, quelle est sa valeur marchande aujourd'hui ?"
+    },
+    {
+      "speaker": "Adama (Le commerçant)",
+      "text": "I ni ce, n tericɛ. Harijɛgɛ bɛ yan bi. Fani nin sɔngɔ bɛ bɛn wari-kɛmɛ duuru ma (2500 CFA). A tɔnɔ ka bon !",
+      "phonetic_api": "/i ni t͡ʃe n̩ te.ri.t͡ʃɛ ha.ri.d͡ʒɛ.gɛ bɛ jaⁿ bi fa.ni niⁿ sɔn.gɔ bɛ bɛn wa.ri kɛ.mɛ duː.ru ma a tɔ.nɔ ka boⁿ/",
+      "phonetic_simple": "I NI TCHE, N TÉ-RI-TCHÈ. HA-RI-DJÈ-GUÈ BÈ YAN BI. FA-NI NIN SÕN-GÕ BÈ BEN WA-RI-KÈ-MÈ DOUO-ROU MA. A TÕ-NÕ KA BON !",
+      "translation": "Bonjour, mon ami. La chance commerciale est au rendez-vous aujourd'hui. Le prix de ce tissu s'élève à cinq centaines de wari (2500 CFA). Son utilité est grande !"
+    },
+    {
+      "speaker": "Bakary",
+      "text": "Ah, wari-tɛmɛ-songo ka bon kosɛbɛ ! N bɛ fɛ ka sɔngɔ-kili kɛ. Ni n a sanna sisan, i bɛna dɔgɔya wari-kɛmɛ saba ma (1500 CFA) ?",
+      "phonetic_api": "/ah wa.ri tɛ.mɛ sɔn.gɔ ka boⁿ ko.sɛ.bɛ n̩ bɛ fɛ ka sɔn.gɔ ki.li kɛ ni n̩ a saⁿ.na si.san i bɛ.na dɔ.gɔ.ja wa.ri kɛ.mɛ sa.ba ma/",
+      "phonetic_simple": "AH, WA-RI-TÈ-MÈ-SÕN-GÕ KA BON KO-SÈ-BÈ ! N BÈ FÈ KA SÕN-GÕ-KI-LI KÈ. NI N A SAN-NA SI-SAN, I BÈ-NA DÕ-GÕ-YA WA-RI-KÈ-MÈ SA-BA MA ?",
+      "translation": "Ah, ce prix est vraiment excessif ! Je souhaite négocier. Si je l'achète tout de suite, vas-tu baisser le prix à trois centaines de wari (1500 CFA) ?"
+    },
+    {
+      "speaker": "Adama",
+      "text": "Wari-kɛmɛ saba dɔgɔyara kosɛbɛ, tɔnɔ si tɛna bɔ n fɛ, n bɛna juru fana don n ma. Sɔngɔ ka bɛn wari-kɛmɛ naani ma (2000 CFA).",
+      "phonetic_api": "/wa.ri kɛ.mɛ sa.ba dɔ.gɔ.ja.ra ko.sɛ.bɛ tɔ.nɔ si tɛ.na bɔ n̩ fɛ n̩ bɛ.na d͡ʒu.ru fa.na doⁿ n̩ ma sɔn.gɔ ka bɛn wa.ri kɛ.mɛ naː.ni ma/",
+      "phonetic_simple": "WA-RI-KÈ-MÈ SA-BA DÕ-GÕ-YA-RA KO-SÈ-BÈ, TÕ-NÕ SI TÈ-NA BÕ N FÈ, N BÈ-NA DJOU-ROU FA-NA DON N MA. SÕN-GÕ KA BEN WA-RI-KÈ-MÈ NAA-NI MA.",
+      "translation": "Trois centaines de wari, c'est une trop forte baisse, aucun bénéfice ne sortira pour moi et je vais contracter des dettes auprès de mes fournisseurs. Coupons la poire en deux à quatre centaines de wari (2000 CFA)."
+    },
+    {
+      "speaker": "Bakary",
+      "text": "O bɛ bɛn, n ka sigi-wari bɛ se o ma. Juru tɛ na an cɛ. Wari-kɛmɛ naani bɛ yan. I ni ce ni sugu-ko-ɲuman ye !",
+      "phonetic_api": "/o bɛ bɛn n̩ ka si.gi wa.ri bɛ se o ma d͡ʒu.ru tɛ na an t͡ʃɛ wa.ri kɛ.mɛ naː.ni bɛ jaⁿ i ni t͡ʃe ni su.gu ko ɲu.maⁿ jɛ/",
+      "phonetic_simple": "O BÈ BEN, N KA SI-GUI-WA-RI BÈ SE O MA. DJOU-ROU TÈ NA AN TRÈ. WA-RI-KÈ-MÈ NAA-NI BÈ YAN. I NI TCHE NI SOU-GOU-KO-GNU-MAN YÈ !",
+      "translation": "D'accord, c'est acceptable, mon épargne peut couvrir cela. Il n'y aura pas de crédit entre nous. Voici les quatre centaines de wari. Merci et bonne prospérité commerciale !"
+    },
+    {
+      "speaker": "Adama",
+      "text": "Aw ni ce, n tericɛ. Ala ka an ka wari-ɲini diya. K'an bɛn !",
+      "phonetic_api": "/aw ni t͡ʃe n̩ te.ri.t͡ʃɛ a.la ka an ka wa.ri ɲi.ni di.ja kʼan bɛn/",
+      "phonetic_simple": "AW NI TCHE, N TÉ-RI-TCHÈ. A-LA KA AN KA WA-RI-GNI-NI DI-YA. KAN BEN !",
+      "translation": "Merci à vous, mon ami. Que Dieu bénisse notre gestion financière. Au revoir !"
+    }
+  ],
+  "cultural_notes": [
+    "La négociation des prix ('sɔngɔ-kili') sur les marchés traditionnels d'Afrique de l'Ouest est un véritable art social. Refuser de discuter un prix ou accepter immédiatement le montant initial sans palabrer poliment peut être interprété comme un manque d'intérêt ou un signe de condescendance. La négociation crée un lien de confiance mutuelle entre le marchand et l'acheteur.",
+    "L'usage du système traditionnel de calcul basé sur le 'wari' (multiple de 5) reste extrêmement vivace, tant au marché qu'auprès des artisans ou des chauffeurs de taxi au Burkina Faso. Maîtriser les conversions mentales rapides (ex: 'wari-kɛmɛ naani' = 400 wari = 2000 Francs CFA) marque le passage d'un statut d'étranger à celui de locuteur intégré et respecté."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L6_Ex1",
+      "type": "multiple_choice",
+      "question": "Dans le système de calcul commercial traditionnel, à quelle somme en Francs CFA correspond exactement l'expression 'wari-kɛmɛ fila' ?",
+      "options": [
+        "200 Francs CFA",
+        "500 Francs CFA",
+        "1000 Francs CFA",
+        "2000 Francs CFA"
+      ],
+      "correct_answer": "1000 Francs CFA",
+      "explanation": "Un 'wari-kɛmɛ' équivaut à 500 CFA (100 wari x 5). Donc, 'wari-kɛmɛ fila' représente deux fois 500 CFA, soit 1000 Francs CFA."
+    },
+    {
+      "exercise_id": "B1_M2_L6_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour désigner le fait de contracter un crédit ou d'avoir des dettes financières, on emploie le terme : '[ ___ ]'.",
+      "correct_answer": "juru",
+      "hint": "Ce mot signifie littéralement 'la corde' au sens propre, symbolisant le lien de dépendance financière."
+    },
+    {
+      "exercise_id": "B1_M2_L6_Ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie la proposition complexe 'Ni n sɔngɔ-kilira kosɛbɛ, feela bɛna dɔgɔya' ?",
+      "options": [
+        "Si le commerçant refuse l'argent, je quitte le marché",
+        "Si je négocie fermement, le vendeur va baisser le prix",
+        "Le bénéfice de la boutique est en baisse ce mois-ci",
+        "J'ai dépensé toute mon épargne pour ce tissu"
+      ],
+      "correct_answer": "Si je négocie fermement, le vendeur va baisser le prix",
+      "explanation": "La structure conditionnelle associe l'action passée de négociation à sa conséquence future inévitable (la baisse du coût par le vendeur)."
+    }
+  ]
+}

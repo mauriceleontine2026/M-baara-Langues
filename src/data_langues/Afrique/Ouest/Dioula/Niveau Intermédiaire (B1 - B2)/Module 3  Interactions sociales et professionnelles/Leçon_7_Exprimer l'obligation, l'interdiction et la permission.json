@@ -1,0 +1,294 @@
+{
+  "lesson_id": "B1_M3_L7",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 7,
+  "title": "Exprimer l'obligation, l'interdiction et la permission",
+  "learning_objectives": [
+    "Formuler des règles, des devoirs et des obligations dans un cadre formel ou informel",
+    "Exprimer une interdiction stricte ou une réserve sociale de manière polie mais ferme",
+    "Demander et accorder une permission ou une autorisation d'action",
+    "Employer les structures modales avancées et le mode impératif-subjonctif du dioula"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La particule prohibitive 'kana' exprime l'interdiction et s'articule avec un ton bas-moyen uniforme /ka.na/. Le terme 'sira' (chemin / autorisation) ou 'sira-di' (donner l'autorisation) se prononce avec une voyelle fermée antérieure /i/. La marque d'obligation 'ka kan ka' demande un enchaînement fluide du groupe consonantique /n.k/.",
+    "common_pitfalls": "Attention à ne pas confondre le mot prohibitif 'kana' (ne pas... !) avec 'kanna' (le fait d'arriver). Ne confondez pas non plus la structure 'ka kan ka' (devoir) avec l'adjectif qualificatif 'kan' (égal/même) lorsqu'il est employé seul sans son cadre grammatical prédicatif."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Kana",
+      "phonetic_api": "/ka.na/",
+      "phonetic_simple": "KA-NA",
+      "translation": "Ne pas... ! / Interdiction stricte (impératif négatif)",
+      "example_sentence": "Kana fɛn-w kori yan fɛ abada",
+      "example_phonetic": "/ka.na fɛⁿ.w ko.ri jaⁿ fɛ a.ba.da/",
+      "example_translation": "Ne gaspille surtout pas les choses dans les environs !"
+    },
+    {
+      "word_id": "v2",
+      "term": "Sira-di",
+      "phonetic_api": "/si.ra di/",
+      "phonetic_simple": "SI-RA-DI",
+      "translation": "Accorder la permission / Autoriser (litt. donner le chemin)",
+      "example_sentence": "Sotigi bɛna sira-di n ma ka so kura labɛn",
+      "example_phonetic": "/so.ti.gi bɛ.na si.ra di n̩ ma ka so ku.ra la.bɛn/",
+      "example_translation": "Le propriétaire va m'accorder la permission d'aménager la nouvelle maison."
+    },
+    {
+      "word_id": "v3",
+      "term": "Sariyan / Layeidu",
+      "phonetic_api": "/sa.ri.jaⁿ/",
+      "phonetic_simple": "SA-RI-YAN",
+      "translation": "La règle / La loi / Le règlement intérieur",
+      "example_sentence": "Sariyan bɛ bɛn mɔgɔ bɛɛ ma dugukɔnɔ na",
+      "example_phonetic": "/sa.ri.jaⁿ bɛ bɛn mɔ.gɔ bɛː ma du.ɡu.kɔ.nɔ na/",
+      "example_translation": "Le règlement s'applique de la même manière à tout le monde dans le quartier."
+    },
+    {
+      "word_id": "v4",
+      "term": "Ka kan ka",
+      "phonetic_api": "/ka kaⁿ ka/",
+      "phonetic_simple": "KA KAN KA",
+      "translation": "Devoir / Être obligé de / Falloir",
+      "example_sentence": "An ka kan ka sariyan sɔgɔ-ɲuman baton",
+      "example_phonetic": "/an ka kaⁿ ka sa.ri.jaⁿ sɔ.gɔ ɲu.maⁿ ba.toⁿ/",
+      "example_translation": "Nous devons scrupuleusement respecter le règlement."
+    },
+    {
+      "word_id": "v5",
+      "term": "Sira-ɲini",
+      "phonetic_api": "/si.ra ɲi.ni/",
+      "phonetic_simple": "SI-RA-GNI-NI",
+      "translation": "Demander la permission / Solliciter une autorisation",
+      "example_sentence": "N bɛ fɛ ka sira-ɲini kɛ i fɛ ka yala-tɛmɛ yan",
+      "example_phonetic": "/n̩ bɛ fɛ ka si.ra ɲi.ni kɛ i fɛ ka ja.la tɛ.mɛ jaⁿ/",
+      "example_translation": "Je souhaite te demander la permission de circuler ici."
+    },
+    {
+      "word_id": "v6",
+      "term": "Gbali / Bali",
+      "phonetic_api": "/g͡ba.li/",
+      "phonetic_simple": "GBALI",
+      "translation": "Empêcher / Interdire / Faire obstacle",
+      "example_sentence": "Baara-sɔngɔ ko sira bɛna n gbali ka fani san",
+      "example_phonetic": "/baː.ra sɔn.gɔ ko si.ra bɛ.na n̩ g͡ba.li ka fa.ni saⁿ/",
+      "example_translation": "La question du coût de la main-d'œuvre va m'empêcher d'acheter le tissu."
+    },
+    {
+      "word_id": "v7",
+      "term": "Kɛnɛ-ma-ko",
+      "phonetic_api": "/kɛ.nɛ ma ko/",
+      "phonetic_simple": "KÈ-NÈ-MA-KO",
+      "translation": "Une action publique / Autorisée ouvertement",
+      "example_sentence": "O baara nin ye kɛnɛ-ma-ko ye, hami tɛ",
+      "example_phonetic": "/o baː.ra niⁿ d͡ʒɛ kɛ.nɛ ma ko d͡ʒɛ ha.mi tɛ/",
+      "example_translation": "Ce travail est une activité tout à fait autorisée, il n'y a aucun souci."
+    },
+    {
+      "word_id": "v8",
+      "term": "Gundodo",
+      "phonetic_api": "/guⁿ.do.do/",
+      "phonetic_simple": "GOUN-DO-DO",
+      "translation": "L'interdiction tacite / Le secret / L'accès restreint",
+      "example_sentence": "Yɔrɔ nin ko ye gundodo ye mɔgɔ gbansan fɛ",
+      "example_phonetic": "/jɔ.rɔ niⁿ ko d͡ʒɛ guⁿ.do.do d͡ʒɛ mɔ.gɔ g͡baⁿ.saⁿ fɛ/",
+      "example_translation": "Cet endroit est d'accès restreint pour les gens ordinaires."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Sariyan bɛ so kɔnɔ : mɔgɔ si ka kan ka juru don a jɛ fɛ.",
+      "phonetic_api": "/sa.ri.jaⁿ bɛ so kɔ.nɔ mɔ.gɔ si ka kaⁿ ka d͡ʒu.ru doⁿ a d͡ʒɛ fɛ/",
+      "phonetic_simple": "SA-RI-YAN BÈ SO KÕ-NÕ : MÕ-GÕ SI KA KAN KA DJOU-ROU DON A DJÈ FÈ",
+      "translation": "Le règlement de la maison l'impose : personne ne doit s'endetter de lui-même.",
+      "context": "Énoncer une règle de gestion communautaire stricte."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Kana don bongaso kɔnɔ ni i ma sira-ɲini kɛ sotigi fɛ.",
+      "phonetic_api": "/ka.na doⁿ boⁿ.ga.so kɔ.nɔ ni i ma si.ra ɲi.ni kɛ so.ti.gi fɛ/",
+      "phonetic_simple": "KA-NA DON BON-GA-SO KÕ-NÕ NI I MA SI-RA-GNI-NI KÈ SO-TI-GI FÈ",
+      "translation": "N'entre pas dans la chambre à coucher si tu n'as pas demandé la permission au propriétaire !",
+      "context": "Formuler une interdiction impérative formelle."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Sabari, i bɛ se ka sira-di n ma n ka kuluwa nin tɛmɛ bi sɔgɔma ?",
+      "phonetic_api": "/sa.ba.ri i bɛ se ka si.ra di n̩ ma n̩ ka ku.lu.wa niⁿ tɛ.mɛ bi sɔ.gɔ.ma/",
+      "phonetic_simple": "SA-BA-RI, I BÈ SE KA SI-RA-DI N MA N KA KOU-LOU-WA NIN TÈ-MÈ BI SÕ-GÕ-MA ?",
+      "translation": "S'il te plaît, peux-tu m'accorder l'autorisation d'emprunter cette avenue ce matin ?",
+      "context": "Solliciter poliment un droit d'accès ou de passage."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ni an ka lajɛ-ko m'a sɔrɔ, sariyan bɛna mɔgɔ bɛɛ gbali ka bɔ su fɛ.",
+      "phonetic_api": "/ni an ka la.d͡ʒɛ ko mʼa sɔ.rɔ sa.ri.jaⁿ bɛ.na mɔ.gɔ bɛː g͡ba.li ka bɔ su fɛ/",
+      "phonetic_simple": "NI AN KA LA-DJÈ-KO MA SÕ-RÕ, SA-RI-YAN BÈ-NA MÕ-GÕ BÈÈ GBALI KA BÕ SOU FÈ",
+      "translation": "Si notre objectif n'est pas atteint, le règlement va empêcher tout le monde de sortir la nuit.",
+      "context": "Avertir des conséquences d'un couvre-feu ou d'une restriction."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "I ka kan ka sigi-wari sara sisan walasa ka gasi-tɛ-na sɔrɔ bi-kɔfɛ.",
+      "phonetic_api": "/i ka kaⁿ ka si.gi wa.ri sa.ra si.saⁿ wa.la.sa ka ga.si tɛ na sɔ.rɔ bi kɔ.fɛ/",
+      "phonetic_simple": "I KA KAN KA SI-GUI-WA-RI SA-RA SI-SAN WA-LA-SA KA GA-SI-TÈ-NA SÕ-RÕ BI-KÕ-FÈ",
+      "translation": "Tu es obligé de verser ton épargne dès maintenant afin d'avoir l'esprit tranquille à l'avenir.",
+      "context": "Exprimer une nécessité financière incontournable."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "O ko nin tɛ gundodo ye, sira bɛ mɔgɔ bɛɛ bolo ka baara kɛ kɛnɛ ma.",
+      "phonetic_api": "/o ko niⁿ tɛ guⁿ.do.do d͡ʒɛ si.ra bɛ mɔ.gɔ bɛː bo.lo ka baː.ra kɛ kɛ.nɛ ma/",
+      "phonetic_simple": "O KO NIN TÈ GOUN-DO-DO YÈ, SI-RA BÈ MÕ-GÕ BÈÈ BO-LO KA BAA-RA KÈ KÈ-NÈ MA",
+      "translation": "Cette affaire n'est pas un secret, tout le monde a l'autorisation de travailler ouvertement.",
+      "context": "Préciser qu'une action est tout à fait légitime et libre."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Kana wari-tɛmɛ-songo ɲini n fɛ, sariyan m'o sira-di an cɛ.",
+      "phonetic_api": "/ka.na wa.ri tɛ.mɛ sɔn.gɔ ɲi.ni n̩ fɛ sa.ri.jaⁿ mʼo si.ra di an t͡ʃɛ/",
+      "phonetic_simple": "KA-NA WA-RI-TÈ-MÈ-SÕN-GÕ GNI-NI N FÈ, SA-RI-YAN MA O SI-RA-DI AN TRÈ",
+      "translation": "Ne me réclame pas de prix exorbitant, la règle n'autorise pas cela entre nous !",
+      "context": "Recadrer un marchand en s'appuyant sur des usages équitables."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Ala ka sira-di an ma ka hɛɛrɛ sɔrɔ kalo natɔ la !",
+      "phonetic_api": "/a.la ka si.ra di an ma ka hɛː.rɛ sɔ.rɔ ka.lo na.tɔ la/",
+      "phonetic_simple": "A-LA KA SI-RA-DI AN MA KA HÈÈ-RÈ SÕ-RÕ KA-LO NA-TÕ LA !",
+      "translation": "Que Dieu nous accorde la possibilité de trouver la paix le mois prochain !",
+      "context": "Souhait solennel de bénédiction et d'ouverture."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'interdiction impérative avec la particule prohibitive 'kana'",
+      "explanation": "Pour formuler une interdiction absolue (ne fais pas... !, il est interdit de...), le dioula emploie la particule négative d'impératif 'kana'. Elle se place systématiquement en début de proposition, remplaçant tout autre marqueur aspecto-temporel.",
+      "rules": [
+        "Structure : Kana + Verbe (radical) + Compléments.",
+        "Sert à exprimer les interdictions strictes ou les avertissements formels."
+      ],
+      "examples": [
+        {
+          "structure": "Kana + don (entrer) + so kɔnɔ (dans la maison)",
+          "phonetic_api": "/ka.na doⁿ so kɔ.nɔ/",
+          "meaning": "N'entre pas dans la maison ! / Interdiction d'entrer."
+        }
+      ]
+    },
+    {
+      "concept": "La métaphore administrative de l'autorisation 'sira-di' et 'sira-ɲini'",
+      "explanation": "Au niveau B1, le concept abstrait d'autorisation, de droit légal ou de permission se conceptualise par l'image concrète du chemin ('sira'). Donner la permission se dit 'sira-di' (donner le chemin) et la demander se dit 'sira-ɲini' (chercher le chemin).",
+      "rules": [
+        "Sujet + bɛ + sira-di + Pronom + ma + ka + Verbe = Autoriser quelqu'un à agir."
+      ],
+      "examples": [
+        {
+          "structure": "Sotigi + bɛ + sira-di + n ma (à moi) + ka baara kɛ (de travailler)",
+          "phonetic_api": "/so.ti.gi bɛ si.ra di n̩ ma ka baː.ra kɛ/",
+          "meaning": "Le propriétaire m'autorise à travailler."
+        }
+      ]
+    },
+    {
+      "concept": "L'obligation indéterminée ou impersonnelle 'mɔgɔ si ka kan ka...'",
+      "explanation": "Pour exprimer qu'une règle s'applique de manière universelle ou qu'à l'inverse, personne n'a le droit de s'y soustraire, le pronom indéfini négatif 'mɔgɔ si' (personne) s'associe à l'obligation affirmative 'ka kan ka'. En dioula, la négation est alors portée en amont ou en aval selon la structure.",
+      "rules": [
+        "Mɔgɔ si + ka kan ka + Verbe = Personne ne doit / Tout le monde a l'interdiction de."
+      ],
+      "examples": [
+        {
+          "structure": "Mɔgɔ si (personne) + ka kan ka + juru don (s'endetter)",
+          "phonetic_api": "/mɔ.gɔ si ka kaⁿ ka d͡ʒu.ru doⁿ/",
+          "meaning": "Personne ne doit contracter de dette."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Bakary (Le locataire)",
+      "text": "I ni ce, n fa sotigi. N bɛ fɛ ka sira-ɲini kɛ i fɛ. Kalo natɔ la, n bɛ se ka baara kura kelen daminɛ so gban kɔnɔ ?",
+      "phonetic_api": "/i ni t͡ʃe n̩ fa so.ti.gi n̩ bɛ fɛ ka si.ra ɲi.ni kɛ i fɛ ka.lo na.tɔ la n̩ bɛ se ka baː.ra ku.ra ke.len da.mi.nɛ so g͡baⁿ kɔ.nɔ/",
+      "phonetic_simple": "I NI TCHE, N FA SO-TI-GI. N BÈ FÈ KA SI-RA-GNI-NI KÈ I FÈ. KA-LO NA-TÕ LA, N BÈ SE KA BAA-RA KOU-RA KÉ-LEN DA-MI-NÈ SO GBAN KÕ-NÕ ?",
+      "translation": "Bonjour, monsieur le propriétaire. Je souhaite vous demander une autorisation. Le mois prochain, puis-je lancer une nouvelle activité commerciale à l'intérieur de la cour de la maison ?"
+    },
+    {
+      "speaker": "Ousmane (Le propriétaire / Sotigi)",
+      "text": "I ni ce, Bakary. O ko nin tɛ kɛnɛ-ma-ko gbansan ye. An ka so-kɔnɔ sariyan ka gban : mɔgɔ si ka kan ka fɛn-w-san-yɔrɔ lɔ yan fɛ.",
+      "phonetic_api": "/i ni t͡ʃe ba.ka.ry o ko niⁿ tɛ kɛ.nɛ ma ko g͡baⁿ.saⁿ d͡ʒɛ an ka so kɔ.nɔ sa.ri.jaⁿ ka g͡baⁿ mɔ.gɔ si ka kaⁿ ka fɛⁿ-w-san-jɔ.rɔ lɔ jaⁿ fɛ/",
+      "phonetic_simple": "I NI TCHE, BA-KA-RY. O KO NIN TÈ KÈ-NÈ-MA-KO GBAN-SAN YÈ. AN KA SO-KÕ-NÕ SA-RI-YAN KA GBAN : MÕ-GÕ SI KA KAN KA FÈN-W-SAN-YÕ-RÕ LÕ YAN FÈ.",
+      "translation": "Bonjour, Bakary. Cette affaire n'est pas une simple activité autorisée à la légère. Le règlement intérieur de notre concession est strict : personne ne doit ériger de boutique dans les environs ici."
+    },
+    {
+      "speaker": "Bakary",
+      "text": "N a famuna. Nka sabari, ni n ma wari-ɲini kɛ, n tɛna se ka haya-wari sara kalo o kalo. Baara nin bɛna n gbali ka juru don n ma.",
+      "phonetic_api": "/n̩ a fa.mu.na n̩.ka sa.ba.ri ni n̩ ma wa.ri ɲi.ni kɛ n̩ tɛ.na se ka ha.ja wa.ri sa.ra ka.lo o ka.lo baː.ra niⁿ bɛ.na n̩ g͡ba.li ka d͡ʒu.ru doⁿ n̩ ma/",
+      "phonetic_simple": "N A FA-MOU-NA. NKA SA-BA-RI, NI N MA WA-RI-GNI-NI KÈ, N TÈ-NA SE KA HA-YA-WA-RI SA-RA KA-LO O KA-LO. BAA-RA NIN BÈ-NA N GBALI KA DJOU-ROU DON N MA.",
+      "translation": "Je comprends. Cependant, s'il vous plaît, si je ne génère pas de revenus, je ne pourrai pas payer le loyer chaque mois. Cette activité va précisément m'empêcher de m'endetter."
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "O bɛ bɛn, nka kana fɛn-w kori kɛnɛba ma, o ye gundodo ye an cɛ ! Ni i bɛna sariyan baton, n bɛna sira-di i ma dɔrɔn.",
+      "phonetic_api": "/o bɛ bɛn n̩.ka ka.na fɛⁿ.w ko.ri kɛ.nɛ.ba ma o d͡ʒɛ guⁿ.do.do d͡ʒɛ an t͡ʃɛ ni i bɛ.na sa.ri.jaⁿ ba.toⁿ n̩ bɛ.na si.ra di i ma dɔ.rɔⁿ/",
+      "phonetic_simple": "O BÈ BEN, NKA KA-NA FÈN-W KO-RI KÈ-NÈ-BA MA, O YÈ GOUN-DO-DO YÈ AN TRÈ ! NI I BÈ-NA SA-RI-YAN BA-TON, N BÈ-NA SI-RA-DI I MA DÕ-RÕN.",
+      "translation": "C'est d'accord, mais ne va pas encombrer ou gâcher la grande cour, cela reste un arrangement restreint entre nous ! Si tu t'en tiens à respecter cette règle, je vais t'accorder l'autorisation, tout simplement."
+    },
+    {
+      "speaker": "Bakary",
+      "text": "Wari bɛ yan fana walasa ka lajɛ-ko ladan. N bɛna sariyan bɛɛ baton ɲɛman. I ni ce ni sira-di ye !",
+      "phonetic_api": "/wa.ri bɛ jaⁿ fa.na wa.la.sa ka la.d͡ʒɛ ko la.daⁿ n̩ bɛ.na sa.ri.jaⁿ bɛː ba.toⁿ ɲɛ.maⁿ i ni t͡ʃe ni si.ra di d͡ʒɛ/",
+      "phonetic_simple": "WA-RI BÈ YAN FA-NA WA-LA-SA KA LA-DJÈ-KO LA-DAN. N BÈ-NA SA-RI-YAN BÈÈ BA-TON GNU-MAN. I NI TCHE NI SI-RA-DI YÈ !",
+      "translation": "Les fonds sont là d'ailleurs pour installer le projet. Je respecterai parfaitement tout le règlement. Merci pour cette autorisation !"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Ala ka baara diya ni hɛɛrɛ ye. K'an bɛn !",
+      "phonetic_api": "/a.la ka baː.ra di.ja ni hɛː.rɛ d͡ʒɛ kʼan bɛn/",
+      "phonetic_simple": "A-LA KA BAA-RA DI-YA NI HÈÈ-RÈ YÈ. KAN BEN !",
+      "translation": "Que Dieu bénisse l'activité dans la paix. Au revoir !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans la vie collective au sein d'une concession ('so-kɔnɔ'), l'espace commun de la cour ('kɛnɛba') est régi par des règles coutumières strictes. On ne peut y lancer une activité commerciale ou de production sans solliciter formellement le 'sira-ɲini' (la permission) auprès du chef de famille ou du 'sotigi' (propriétaire), afin de préserver la tranquillité et l'entente des cohabitant ('siginyɔgɔnw').",
+    "Le respect du règlement et de la parole donnée ('sariyan ni layeidu') structure l'économie intermédiaire urbaine. Un accord de permission tacite ('gundodo') entre un bailleur et son locataire repose entièrement sur la confiance mutuelle. Enfreindre une interdiction formulée par un aîné est considéré comme une faute morale lourde qui dépasse le simple cadre juridique contractuel."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M3_L7_Ex1",
+      "type": "multiple_choice",
+      "question": "Quelle particule grammaticale utilise-t-on en début de phrase pour signifier une interdiction formelle ou impérative (ex: 'Ne fais pas ça !') ?",
+      "options": [
+        "Tun",
+        "Kana",
+        "Bɛna",
+        "Natɔ"
+      ],
+      "correct_answer": "Kana",
+      "explanation": "'Kana' est l'opérateur exclusif de l'impératif négatif ou prohibitif en dioula, marquant l'interdiction stricte d'exécuter une action."
+    },
+    {
+      "exercise_id": "B1_M3_L7_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire métaphoriquement que l'on accorde une autorisation ou qu'on permet une démarche à quelqu'un, on emploie l'expression composée : '[ ___ ]-di'.",
+      "correct_answer": "sira",
+      "hint": "Mot signifiant littéralement 'le chemin' ou 'la voie' que l'on ouvre à autrui."
+    },
+    {
+      "exercise_id": "B1_M3_L7_Ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie l'obligation réglementaire énoncée par la formule 'Mɔgɔ si ka kan ka juru don' ?",
+      "options": [
+        "Tout le monde est obligé de s'endetter immédiatement",
+        "Personne ne doit / Tout le monde a l'interdiction contractuelle de contracter de dette",
+        "L'argent de l'épargne est perdu pour tous les locataires",
+        "Le règlement intérieur de la boutique a été annulé par le propriétaire"
+      ],
+      "correct_answer": "Personne ne doit / Tout le monde a l'interdiction contractuelle de contracter de dette",
+      "explanation": "Associer la structure d'obligation 'ka kan ka' au pronom de nullité universelle 'mɔgɔ si' (aucun homme / personne) permet de formuler une interdiction collective absolue."
+    }
+  ]
+}

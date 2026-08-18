@@ -1,0 +1,253 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Déclarer son nom, sa nationalité et sa profession en utilisant le copule 'desu'",
+    "Exprimer et demander l'âge de quelqu'un avec les compteurs appropriés",
+    "Utiliser correctement la particule de possession et de qualification 'no'"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le système phonétique introduit ici le son [ɴ] (noté 'n' en rōmaji), la seule consonne finale autonome du japonais. Sa prononciation s'assimile à la consonne suivante : bilabiale [m] devant b/p/m, vélire [ŋ] devant k/g, ou nasale uvélaire en fin de mot. Le copule です (desu) subit le dévoisement de sa voyelle finale, se prononçant de manière concise [de.sɯ̥] ('dess').",
+    "common_pitfalls": "Lors de l'énonciation de l'âge, l'assimilation phonétique crée des sauts de tension (gémination) ou des modifications sur certains chiffres : 1 an se dit 一才 (issai) et non 'ichi-sai', 8 ans se dit 八才 (hassai) et non 'hachi-sai', et 20 ans possède une lecture totalement irrégulière 二十歳 (hatachi)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "わたし (私)",
+      "phonetic_api": "/wa.ta.ɕi/",
+      "phonetic_simple": "WA-TA-CHI",
+      "translation": "Je / Moi (neutre/standard)",
+      "example_sentence": "わたしは学生です。",
+      "example_phonetic": "/wa.ta.ɕi wa ɡa.kɯ̥.seː de.sɯ̥/",
+      "example_translation": "Je suis étudiant."
+    },
+    {
+      "word_id": "v2",
+      "term": "がくせい (学生)",
+      "phonetic_api": "/ɡa.kɯ̥.seː/",
+      "phonetic_simple": "GAK-SÉE",
+      "translation": "Étudiant / Élève",
+      "example_sentence": "留学生ですか。",
+      "example_phonetic": "/rjɯː.ɡa.kɯ̥.seː de.sɯ.ka/",
+      "example_translation": "Êtes-vous un étudiant étranger ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "かいしゃいん (会社員)",
+      "phonetic_api": "/ka.i.ɕa.iɴ/",
+      "phonetic_simple": "KA-I-CHA-IN",
+      "translation": "Employé d'entreprise / Salarié",
+      "example_sentence": "母は会社員です。",
+      "example_phonetic": "/ha.ha wa ka.i.ɕa.iɴ de.sɯ̥/",
+      "example_translation": "Ma mère est employée d'entreprise."
+    },
+    {
+      "word_id": "v4",
+      "term": "エンジニア",
+      "phonetic_api": "/eɴ.d͡ʑi.ni.a/",
+      "phonetic_simple": "EN-DJI-NI-A",
+      "translation": "Ingénieur",
+      "example_sentence": "彼はITエンジニアです。",
+      "example_phonetic": "/ka.ɾe wa a.i.tiː eɴ.d͡ʑi.ni.a de.sɯ̥/",
+      "example_translation": "Il est ingénieur en informatique."
+    },
+    {
+      "word_id": "v5",
+      "term": "フランス",
+      "phonetic_api": "/ɸɯ.ɾaɴ.sɯ̥/",
+      "phonetic_simple": "FOU-RAN-SOU",
+      "translation": "France",
+      "example_sentence": "フランスから来ました。",
+      "example_phonetic": "/ɸɯ.ɾaɴ.sɯ ka.ɾa ki.ma.ɕi.ta/",
+      "example_translation": "Je viens de France."
+    },
+    {
+      "word_id": "v6",
+      "term": "～じん (～人)",
+      "phonetic_api": "/d͡ʑiɴ/",
+      "phonetic_simple": "DJIN",
+      "translation": "Suffixe de nationalité (ex: personne de...)",
+      "example_sentence": "フランス人です。",
+      "example_phonetic": "/ɸɯ.ɾaɴ.sɯ.d͡ʑiɴ de.sɯ̥/",
+      "example_translation": "Je suis Français."
+    },
+    {
+      "word_id": "v7",
+      "term": "～さい (～歳/才)",
+      "phonetic_api": "/sa.i/",
+      "phonetic_simple": "SA-I",
+      "translation": "Suffixe de compteur pour l'âge (ans)",
+      "example_sentence": "二十五歳です。",
+      "example_phonetic": "/ni.d͡ʑɯː.ɡo.sa.i de.sɯ̥/",
+      "example_translation": "J'ai 25 ans."
+    },
+    {
+      "word_id": "v8",
+      "term": "なまえ (名前)",
+      "phonetic_api": "/na.ma.e/",
+      "phonetic_simple": "NA-MA-É",
+      "translation": "Nom / Prénom",
+      "example_sentence": "お名前は何ですか。",
+      "example_phonetic": "/o.na.ma.e wa naɴ de.sɯ.ka/",
+      "example_translation": "Quel est votre nom ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "お名前は何ですか。",
+      "phonetic_api": "/o.na.ma.e wa naɴ de.sɯ.ka/",
+      "phonetic_simple": "O-NA-MA-É WA NAN DESS-KA",
+      "translation": "Quel est votre nom ?",
+      "context": "Question standard et polie pour s'enquérir de l'identité de son interlocuteur."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "おいくつですか。",
+      "phonetic_api": "/o.i.kɯ.t͡sɯ de.sɯ.ka/",
+      "phonetic_simple": "O-I-KOUT-SOU DESS-KA",
+      "translation": "Quel âge avez-vous ? (Forme polie)",
+      "context": "Façon respectueuse de demander l'âge, supérieure à 'nan-sai desu ka'."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "どこから来ましたか。",
+      "phonetic_api": "/do.ko ka.ɾa ki.ma.ɕi.ta ka/",
+      "phonetic_simple": "DO-KO KA-RA KI-MA-CH-TA KA",
+      "translation": "D'où venez-vous ?",
+      "context": "Utilisé pour demander le pays ou la ville d'origine d'une personne."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "フランスから来ました。",
+      "phonetic_api": "/ɸɯ.ɾaɴ.sɯ ka.ɾa ki.ma.ɕi.ta/",
+      "phonetic_simple": "FOU-RAN-SOU KA-RA KI-MA-CH-TA",
+      "translation": "Je viens de France.",
+      "context": "Réponse type indiquant la provenance géographique à l'aide du passé du verbe venir (kimasu)."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "二十歳です。",
+      "phonetic_api": "/ha.ta.t͡ɕi de.sɯ̥/",
+      "phonetic_simple": "HA-TA-TCHI DESS",
+      "translation": "J'ai 20 ans.",
+      "context": "Réponse linguistique incontournable en raison de l'irrégularité phonétique liée à la majorité légale historique."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "お仕事は何ですか。",
+      "phonetic_api": "/o.ɕi.ɡo.to wa naɴ de.sɯ.ka/",
+      "phonetic_simple": "O-CHI-GO-TO WA NAN DESS-KA",
+      "translation": "Quelle est votre profession ?",
+      "context": "Formule honorifique (grâce au préfixe o-) pour interroger poliment quelqu'un sur son travail."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "そうですか。",
+      "phonetic_api": "/soː de.sɯ.ka/",
+      "phonetic_simple": "SOO DESS-KA",
+      "translation": "Ah bon ? / Je vois.",
+      "context": "Marqueur d'écoute essentiel pour valider les informations données par l'interlocuteur."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "どうぞよろしく。",
+      "phonetic_api": "/doː.zo jo.ɾo.ɕi.kɯ/",
+      "phonetic_simple": "DOO-ZO YO-RO-CHI-KOU",
+      "translation": "Ravi de vous rencontrer (version courte/amicale)",
+      "context": "Utilisé en fin de présentation dans un contexte informel entre personnes de même âge."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure fondamentale A は B です (A wa B desu)",
+      "explanation": "C'est la matrice grammaticale de base pour l'identification. La particule は (prononcée 'wa') détermine le thème principal de la phrase (le sujet psychologique). 'です' (desu) fait office de copule d'affirmation équivalant au verbe 'être' au présent poli. Contrairement au français, le verbe se place obligatoirement à la fin de la proposition (structure SOV).",
+      "rules": [
+        "A représente le thème connu, introduit par la particule は.",
+        "B apporte l'information nouvelle (nom, nationalité, état, profession) qualifiant A.",
+        "Le sujet 'わたしは' (Je) est fréquemment omis si le contexte ne laisse aucun doute sur la personne qui s'exprime."
+      ],
+      "examples": [
+        {
+          "structure": "わたしはフランス人です (Watashi wa Furansujin desu)",
+          "phonetic_api": "/wa.ta.ɕi wa ɸɯ.ɾaɴ.sɯ.d͡ʑiɴ de.sɯ̥/",
+          "meaning": "Je suis Français."
+        }
+      ]
+    },
+    {
+      "concept": "La particule de détermination et de spécification の (no)",
+      "explanation": "La particule の lie deux noms entre eux. Elle établit un rapport de dépendance où le premier nom spécifie ou modifie le second (possession, affiliation, provenance). La logique japonaise procède du général au particulier : le modifiant précède toujours le modifié.",
+      "rules": [
+        "Structure : [Nom 1] の [Nom 2].",
+        "Nom 1 restreint le sens du Nom 2 (Nom 2 appartient à Nom 1, ou provient de Nom 1)."
+      ],
+      "examples": [
+        {
+          "structure": "東京大学の学生 (Tōkyō daigaku no gakusei)",
+          "phonetic_api": "/toːkjoː daiɡakɯ no ɡakɯseː/",
+          "meaning": "Étudiant de l'université de Tokyo (Affiliation)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "アリス (Alice)",
+      "text": "はじめまして。わたしはアリスです。フランスから来ました。",
+      "phonetic_api": "/ha.d͡ʑi.me.ma.ɕi.te wa.ta.ɕi wa a.ɾi.sɯ̥ de.sɯ̥ ɸɯ.ɾaɴ.sɯ ka.ɾa ki.ma.ɕi.ta/",
+      "phonetic_simple": "HA-DJI-MÉ-MA-CH-TÉ. WA-TA-CHI WA A-RI-SOU DESS. FOU-RAN-SOU KA-RA KI-MA-CH-TA",
+      "translation": "Enchantée. Je m'appelle Alice. Je viens de France."
+    },
+    {
+      "speaker": "たかし (Takashi)",
+      "text": "はじめまして、たかしです。アリスさんは学生ですか。",
+      "phonetic_api": "/ha.d͡ʑi.me.ma.ɕi.te ta.ka.ɕi de.sɯ̥ a.ɾi.sɯ̥ saɴ wa ɡa.kɯ̥.seː de.sɯ.ka/",
+      "phonetic_simple": "HA-DJI-MÉ-MA-CH-TÉ, TA-KA-CHI DESS. A-RI-SOU SAN WA GAK-SÉE DESS-KA",
+      "translation": "Enchanté, je suis Takashi. Alice, es-tu étudiante ?"
+    },
+    {
+      "speaker": "アリス (Alice)",
+      "text": "いいえ、会社員です。エンジニアです。たかしさんはおいくつですか。",
+      "phonetic_api": "/iː.e ka.i.ɕa.iɴ de.sɯ̥ eɴ.d͡ʑi.ni.a de.sɯ̥ ta.ka.ɕi saɴ wa o.i.kɯ.t͡sɯ de.sɯ.ka/",
+      "phonetic_simple": "II-É, KA-I-CHA-IN DESS. EN-DJI-NI-A DESS. TA-KA-CHI SAN WA O-I-KOUT-SOU DESS-KA",
+      "translation": "Non, je suis employée. Je suis ingénieure. Quel âge as-tu, Takashi ?"
+    },
+    {
+      "speaker": "たかし (Takashi)",
+      "text": "わたしは二十二歳です。どうぞよろしくおねがいします。",
+      "phonetic_api": "/wa.ta.ɕi wa ni.d͡ʑɯː.ni.sa.i de.sɯ̥ doː.zo jo.ɾo.ɕi.kɯ o.ne.ɡa.i.ɕi.ma.sɯ̥/",
+      "phonetic_simple": "WA-TA-CHI WA NI-DJUU-NI-SA-I DESS. DOO-ZO YO-RO-CHI-KOU O-NÉ-GA-I-CHI-MASS",
+      "translation": "J'ai 22 ans. Ravi de faire ta connaissance."
+    }
+  ],
+  "cultural_notes": [
+    "Le suffixe honorifique ～さん (san) s'ajoute systématiquement après le nom de famille ou le prénom de l'interlocuteur pour marquer le respect. Il ne doit JAMAIS être employé pour parler de soi-même, ce qui constituerait une entorse majeure aux règles d'humilité japonaises.",
+    "Lors d'une présentation formelle (自己紹介 - jikoshoukai), il est d'usage de présenter sa carte de visite (名刺 - meishi) à deux mains, face orientée vers le récepteur, en s'inclinant légèrement."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment traduisez-vous correctement 'Je suis un employé de l'entreprise Apple' en respectant l'ordre des modificateurs japonais ?",
+      "options": [
+        "わたしはアップルの会社員です (Watashi wa Appuru no kaishain desu)",
+        "わたしは会社員のアップルです (Watashi wa kaishain no Appuru desu)",
+        "アップルはわたしの会社員です (Appuru wa watashi no kaishain desu)"
+      ],
+      "correct_answer": "わたしはアップルの会社員です (Watashi wa Appuru no kaishain desu)",
+      "explanation": "L'entité globale (l'entreprise Apple) doit précéder le groupe restreint (l'employé) par l'intermédiaire de la particule de spécification 'no'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "アリスさんは二十歳です。たかしさんは二十二[ ___ ]です。",
+      "correct_answer": "歳",
+      "hint": "Le suffixe de compteur pour exprimer l'âge en années (peut s'écrire aussi 才)."
+    }
+  ]
+}

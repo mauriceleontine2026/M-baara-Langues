@@ -1,0 +1,214 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition en chinois mandarin",
+  "learning_objectives": [
+    "Formuler des conditions restrictives absolues avec 除非...否则... (chúfēi... fǒuzé...)",
+    "Exprimer des hypothèses formelles ou des concessions irréversibles à l'aide de 哪怕 (nǎpà) et 倘若 (tǎngruò)",
+    "Manier le doute conjectural et le scepticisme poli avec 未免 (wèimiǎn) et 难道 (nándào)",
+    "Nuancer l'incertitude dans un cadre de négociation ou d'analyse critique avancée"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon de niveau avancé requiert une articulation fine pour traduire l'hésitation ou la fermeté d'une condition. Le terme 除非 (chúfēi - à moins que) associe une consonne rétroflexe sourde aspirée /tʂʰ/ au 2ème ton montant à un 1er ton haut et plat. La conjonction hypothétique 倘若 (tǎngruò - si par hasard) enchaîne un 3ème ton bas descendant-montant (tǎng) avec un 4ème ton descendant très bref et sec (ruò) qui demande d'enrouler la langue sans pour autant la faire vibrer.",
+    "common_pitfalls": "Faites attention à l'adverbe 未免 (wèimiǎn - pour le moins / un peu trop) : le premier caractère est un 4ème ton descendant, tandis que le second est un 3ème ton bas. Veillez à ne pas prononcer 否则 (fǒuzé - sinon) trop rapidement ; le 3ème ton de fǒu doit être bien marqué avant de monter sur le 2ème ton de zé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "除非",
+      "phonetic_api": "/tʂʰu˧˥ feɪ̯˥/",
+      "phonetic_simple": "TCHHOU-FEI",
+      "translation": "À moins que / Seulement si / Sauf si",
+      "example_sentence": "除非对方做出让步，否则谈判很难达成协议。",
+      "example_phonetic": "/tʂʰu˧˥ feɪ̯˥ dwei̯ fã dzwɔ tɕu ʐaŋ pu fɔʊ̯ tsɤ tʰan pʰan nan da tʂʰəŋ ɕi i/",
+      "example_translation": "À moins que la partie adverse ne fasse des concessions, sinon il sera très difficile pour les négociations d'aboutir à un accord."
+    },
+    {
+      "word_id": "v2",
+      "term": "否则",
+      "phonetic_api": "/foʊ̯˨˩˦ tsɤ˧˥/",
+      "phonetic_simple": "FOW-DZEI",
+      "translation": "Sinon / Faute de quoi / Dans le cas contraire",
+      "example_sentence": "我们必须按时出发，否则就会错过航班。",
+      "example_phonetic": "/wo mən pi ɕy an ʂʐ̩ tɕʰu fa foʊ̯ tsɤ tɕi̯oʊ̯ xwei̯ tsʰwɔ kwo xan pã/",
+      "example_translation": "Nous devons impérativement partir à l'heure, sinon nous allons rater notre vol."
+    },
+    {
+      "word_id": "v3",
+      "term": "倘若",
+      "phonetic_api": "/tʰaŋ˨˩˦ ʐwɔ˥˩/",
+      "phonetic_simple": "THANG-JOUO",
+      "translation": "Si / Au cas où / Dans l'hypothèse où (littéraire)",
+      "example_sentence": "倘若你遇到任何困难，请随时与我联系。",
+      "example_phonetic": "/tʰaŋ ʐwɔ ni jy daʊ̯ ʐən xɤ kʰun nan tɕʰiŋ sweɪ̯ ʂʐ̩ jy wo li̯ɛn ɕi/",
+      "example_translation": "Dans l'hypothèse où vous rencontreriez la moindre difficulté, veuillez me contacter à tout moment."
+    },
+    {
+      "word_id": "v4",
+      "term": "哪怕",
+      "phonetic_api": "/na˨˩˦ pʰa˥˩/",
+      "phonetic_simple": "NA-PHA",
+      "translation": "Même si / Quand bien même (concession hypothétique forte)",
+      "example_sentence": "哪怕希望再渺茫，我们也不能放弃努力。",
+      "example_phonetic": "/na pʰa ɕi waŋ dzaɪ̯ mi̯aʊ̯ maŋ wo mən jɛ pu nəŋ faŋ tɕi nu li/",
+      "example_translation": "Quand bien même l'espoir serait infime, nous ne devrions pas pour autant abandonner nos efforts."
+    },
+    {
+      "word_id": "v5",
+      "term": "未免",
+      "phonetic_api": "/wei̯˥˩ mi̯ɛn˨˩˦/",
+      "phonetic_simple": "OUEI-MIEN",
+      "translation": "Pour le moins / Un peu trop / Quelque peu exagéré",
+      "example_sentence": "你这时候才提出反对意见，未免太晚了。",
+      "example_phonetic": "/ni tʂɤ ʂʐ̩ xoʊ̯ tsʰaɪ̯ tʰi tɕu fan dwei̯ i tɕi̯an wei̯ mi̯ɛn tʰaɪ̯ wan lɤ/",
+      "example_translation": "Que tu ne formules ton opposition que maintenant est pour le moins un peu tard."
+    },
+    {
+      "word_id": "v6",
+      "term": "难道",
+      "phonetic_api": "/nan˧˥ daʊ̯˥˩/",
+      "phonetic_simple": "NAN-DAO",
+      "translation": "Serait-il possible que / Ne me dis pas que (rhétorique)",
+      "example_sentence": "难道你连这么简单的道理都不懂吗？",
+      "example_phonetic": "/nan daʊ̯ ni li̯ɛn tʂɤ mɤ tɕi̯an dan dɤ daʊ̯ li doʊ̯ pu tʊŋ ma/",
+      "example_translation": "Serait-il possible que tu ne comprennes même pas une vérité aussi simple ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "假使",
+      "phonetic_api": "/tɕi̯a˨˩˦ ʂʐ̩˨˩˦/",
+      "phonetic_simple": "DJIA-CHEI",
+      "translation": "En admettant que / Si jamais / Dans l'hypothèse où",
+      "example_sentence": "假使当年的计划成功了，现在的局势会大不相同。",
+      "example_phonetic": "/tɕi̯a ʂʐ尊 taŋ ni̯ɛn dɤ tɕi xwa tʂʰəŋ kʊŋ lɤ ɕi̯ɛn dzaɪ̯ dɤ tɕɥ̯ ʂʐ̩ xwei̯ da bu tʰʊŋ/",
+      "example_translation": "En admettant que le plan de l'époque ait réussi, la situation actuelle serait totalement différente."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "除非有不可抗力因素，否则项目必须按原计划推进。",
+      "phonetic_api": "/tʂʰu feɪ̯ joʊ̯ pu kʰɤ kʰaŋ li jin su foʊ̯ tsɤ project pi ɕy an jɥ̯ɛn tɕi xwa tʰwei̯ tɕin/",
+      "phonetic_simple": "TCHHOU-FEI YOW BOU-KHE-KHANG-LEE YIN-SOU, FOW-DZEI TCHIAANG-MOU BEE-XU AN YUEN TCHEE-HOUA THUEI-TCHIN.",
+      "translation": "À moins d'un cas de force majeure, sinon le projet doit impérativement progresser selon le calendrier initial.",
+      "context": "Clause de rigueur ou arbitrage managérial lors d'une réunion de projet"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "倘若资金无法按时到账，整个供应链都将面临断裂的风险。",
+      "phonetic_api": "/tʰaŋ ʐwɔ tsʐ̩ tɕin wu fa an ʂʐ̩ daʊ̯ tʂaŋ tʂəŋ kɤ kʊŋ li̯an doʊ̯ tɕi̯aŋ mi̯an liŋ duan li dɤ fəŋ ɕi̯an/",
+      "phonetic_simple": "THANG-JOUO DZEE-DJIN OU-FA AN-CHEI DAO-ZHANG, TCHENG-GEU GONG-LIEN DOU TCHIANG MIEN-LING DOUAN-LIE DEU FENG-CHIEN.",
+      "translation": "Dans l'hypothèse où les fonds ne seraient pas versés à temps, la chaîne d'approvisionnement tout entière risquerait la rupture.",
+      "context": "Rapport d'analyse de risques financiers à l'attention de la direction"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "哪怕付出再大的代价，我们也必须保住核心技术的所有权。",
+      "phonetic_api": "/na pʰa fu tɕu dzaɪ̯ da dɤ daɪ̯ dzwɔ wo mən jɛ pi ɕy baʊ̯ tʂu xɤ ɕin tɕi ʂu dɤ swɔ joʊ̯ tɕɥ̯ɛ/",
+      "phonetic_simple": "NA-PHA FOU-TCHOU ZHAÏ DA DEU DAÏ-DJIA, OUO-MEN YE BEE-XU BAO-TSHOU HEI-CHIN TCHEE-XU DEU SUO-YOW-QUOEN.",
+      "translation": "Quand bien même nous devrions en payer le prix fort, nous devons impérativement préserver la propriété exclusive de notre technologie clé.",
+      "context": "Déclaration stratégique d'un chef d'entreprise lors d'un litige de propriété intellectuelle"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "你这种不加调查就盲目下结论的做法，未免有些草率吧？",
+      "phonetic_api": "/ni tʂɤ tʂʊŋ pu tɕi̯a diaʊ̯ tʂa tɕi̯oʊ̯ maŋ mu ɕi̯a tɕi̯ɛ lwen dɤ dzwɔ fa wei̯ mi̯ɛn joʊ̯ ɕi̯ɛ tsʰaʊ̯ ʂwaɪ̯ ba/",
+      "phonetic_simple": "NEE TCHEU TCHONG BOU TCHIA DIAO-TCHHA TCHIOU MANG-MOU CHIA JIE-LOUEN DEU DZOUO-FA, OUEI-MIEN YOW-CHIEH TSAO-CHOUAÏ BA ?",
+      "translation": "Ta manière d'en tirer des conclusions hâtives sans mener d'enquête est pour le moins un peu légère, non ?",
+      "context": "Formuler une critique acerbe mais intellectuellement polie au cours d'un débat scientifique"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure conditionnelle restrictive exclusive : 除非...否则...",
+      "explanation": "Cette structure pose une condition unique et indispensable. Si cette condition n'est pas remplie, la conséquence négative introduite par 否则 se produira inévitablement.",
+      "rules": [
+        "Structure standard : 除非 (chúfēi) + [Condition unique], 否则 (fǒuzé) + [Conséquence négative/Inévitable].",
+        "Peut également s'associer à 才 (cái) dans la deuxième proposition : 除非... 才... (Seulement si... alors seulement...).",
+        "C'est la tournure privilégiée pour exprimer des exigences strictes et formelles ou des impératifs juridiques."
+      ],
+      "examples": [
+        {
+          "structure": "除非 (À moins que) + 你亲自去签署 (Tu y ailles en personne signer)，否则 (Sinon) + 这份文件没有法律效力 (Ce document n'aura aucune valeur légale)",
+          "phonetic_api": "/tʂʰu feɪ̯ ni tɕʰin dzwɔ tɕy tɕi̯ɛn ʂu foʊ̯ tsɤ tʂɤ fən wen tɕi̯an meɪ̯ joʊ̯ fa ly ɕi̯aʊ̯ li/",
+          "meaning": "除非你亲自去签署，否则这份文件没有法律效力。 (À moins que vous n'alliez signer en personne, ce document n'aura aucune valeur légale.)"
+        }
+      ]
+    },
+    {
+      "concept": "La concession hypothétique extrême avec 哪怕 (nǎpà)",
+      "explanation": "La conjonction 哪怕 introduit une situation extrême ou une condition très défavorable. Elle affirme que cela n'entravera en rien l'action ou la détermination formulée dans la proposition principale.",
+      "rules": [
+        "Structure : 哪怕 (nǎpà) + [Hypothèse extrême / Pire des cas], [Sujet] + 也 / 还 (yě / hái) + [Action / Résultat inchangé].",
+        "Traduit l'idée de 'même si', 'quand bien même' ou 'qu'importe si'.",
+        "Souvent corrélé à des termes d'intensité comme 再 (zài) ou 多么 (duōme)."
+      ],
+      "examples": [
+        {
+          "structure": "哪怕 (Quand bien même) + 前方的路再艰难 (La route devant serait difficile)，我 (Je) + 也 (Aussi) + 要走下去 (Veux continuer d'avancer)",
+          "phonetic_api": "/na pʰa tɕʰi̯ɛn faŋ dɤ lu dzaɪ̯ tɕi̯ɛn nan wo jɛ jaʊ̯ dzoʊ̯ ɕi̯a tɕy/",
+          "meaning": "哪怕前方的路再艰难，我也要走下去。 (Quand bien même le chemin à venir serait ardu, je continuerai d'avancer.)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "法律顾问 (Conseiller Juridique)",
+      "text": "大卫，关于本次跨国并购的合同条款，有些潜在的法律风险我必须事先提醒你。",
+      "phonetic_api": "/da weɪ̯ kwan jy pən tsʰ仗 kwa kwo piŋ koʊ̯ dɤ xɤ tʰʊŋ tʰi̯aʊ̯ kʰwan joʊ̯ ɕi̯ɛ tɕi̯an dzaɪ̯ dɤ fa ly fəŋ ɕi̯an wo pi ɕy ʂʐ̩ ɕi̯ɛn tʰi ɕiŋ ni/",
+      "phonetic_simple": "DA-OUEI, GOUAN-YU BEN-TSÉ KHOUA-GOUO BING-GOUO DEU HOU-THONG THIAO-KHOUAN, YOW CHIEH TCHIAN-DZAÏ DEU FA-LU FENG-CHIEN OUO BEE-XU CHEI-CHIEN THI-CHING NEE.",
+      "translation": "David, concernant les clauses du contrat de cette fusion-acquisition transnationale, il y a certains risques juridiques latents que je me dois de vous signaler au préalable."
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "请讲。倘若在知识产权归属上存在模糊地带，那对我们未来的发展未免太不利了。",
+      "phonetic_api": "/tɕʰiŋ tɕi̯aŋ tʰaŋ ʐwɔ dzaɪ̯ tʂʐ̩ ʂʐ̩ t产 tɕɥ̯ɛ kwei̯ ʂu ʂaŋ tsʊn dzaɪ̯ mɔ xu di daɪ̯ na dwei̯ wo mən weɪ̯ laɪ̯ dɤ fa tʂan wei̯ mi̯ɛn tʰaɪ̯ bu li lɤ/",
+      "phonetic_simple": "TCHING-DJIANG. THANG-JOUO DZAÏ ZHEE-ZHEE TCHHANE-QUOEN GUEI-CHOU CHANG TSUN-DZAÏ MO-HOU DEE-DAÏ, NA DOUEI OUO-MEN WEI-LAÏ DEU FA-TZHAN OUEI-MIEN THAÏ BOU-LEE LEU.",
+      "translation": "Je vous prie de m'en parler. Dans l'hypothèse où il existerait des zones d'ombre quant à la propriété intellectuelle, ce serait pour le moins préjudiciable pour notre avenir."
+    },
+    {
+      "speaker": "法律顾问 (Conseiller Juridique)",
+      "text": "没错。按照现在的文本，除非中方母公司明确授权，否则เรา无权使用其核心专有技术。",
+      "phonetic_api": "/meɪ̯ tsʰwɔ an dzaʊ̯ ɕi̯ɛn dzaɪ̯ dɤ wen pən tʂʰu feɪ̯ tʂʊŋ faŋ mu kʊŋ sʐ̩ miŋ tɕɥ̯ɛ ʂoʊ̯ tɕɥ̯ɛ foʊ̯ tsɤ wo mən wu tɕʰɥ̯ɛn ʂʐ̩ jʊŋ tɕʰi xɤ ɕin tʂwan joʊ̯ tɕi ʂu/",
+      "phonetic_simple": "MEI-TSOUO. AN-ZHAO CHIEN-DZAÏ DEU OUEN-BEN, TCHHOU-FEI TCHONG-FANG MOU-GONG-DZEU MING-QUÉ CHOU-QUOEN, FOW-DZEI OUO-MEN OU-QUOEN CHEI-YONG TCHHEE HEI-CHIN TCHOUAN-YOW TCHEE-XU.",
+      "translation": "Exactement. Selon le texte actuel, à moins que la maison-mère chinoise ne l'autorise expressément, sinon nous n'aurons aucun droit d'utiliser sa technologie exclusive brevetée."
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "难道就没有其他替代方案吗？哪怕在初期支付更高的特许权使用费，我们也得把这项条文改过来。",
+      "phonetic_api": "/nan daʊ̯ tɕi̯oʊ̯ meɪ̯ joʊ̯ tɕʰi tʰa tʰi daɪ̯ faŋ an ma na pʰa dzaɪ̯ ttsʰu tɕi tʂʐ̩ fu kaʊ̯ dɤ tshɤ ɕɥ̯ɛn ʂʐ̩ jʊŋ feɪ̯ wo mən jɛ teɪ̯ ba tʂa ɕi̯aŋ tʰi̯aʊ̯ wen kaɪ̯ kwo laɪ̯/",
+      "phonetic_simple": "NAN-DAO TCHIOU MEI-YOW TCHHEE-THA THI-DAÏ FAING-AN MA ? NA-PHA DZAÏ TCHHOU-TCHEE ZHEE-FOU GAO DEU TSHÉ-QUOEN CHEI-YONG-FEI, OUO-MEN YE DEI BA TCHIA XIANG THIAO-OUEN GAÏ GOUO-LAÏ.",
+      "translation": "Serait-il possible qu'il n'y ait aucune solution de rechange ? Quand bien même nous devrions versez des redevances plus élevées au départ, nous nous devons de faire reformuler cette clause."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'univers des affaires de haut niveau en Chine, la formulation des conditions juridiques est extrêmement codifiée. Le recours aux expressions '不可抗力' (force majeure) et '知识产权' (propriété intellectuelle) montre le raffinement du vocabulaire requis pour éviter tout litige avec des partenaires commerciaux majeurs.",
+    "L'utilisation de '难道' (nándào) dans le dialogue exprime la surprise mêlée d'un questionnement stratégique. C'est une structure rhétorique forte qui, dans une discussion de haut niveau, permet d'ouvrir de nouvelles pistes de négociation de manière incisive mais légitime.",
+    "L'expression '未免' (wèimiǎn) est emblématique de la diplomatie verbale chinoise. Elle permet de qualifier une décision ou une situation d'inacceptable ou d'exagérée en atténuant l'impact frontal de la critique grâce à sa connotation d'adverbe de nuance."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la tournure exclusive correcte pour traduire : 'L'accord sera ratifié seulement si le directeur le signe en personne, faute de quoi il sera caduc.'",
+      "options": [
+        "重倘若总经理亲自签字，哪怕协议才能生效 (Tǎngruò zǒngjīnglǐ qīnzì qiānzì, nǎpà xiéyì cáinéng shēngxiào)",
+        "除非总经理亲自签字，否则协议无法生效 (Chúfēi zǒngjīnglǐ qīnzì qiānzì, fǒuzé xiéyì wúfǎ shēngxiào)",
+        "总经理未免亲自签字，难道协议无法生效 (Zǒngjīnglǐ wèimiǎn qīnzì qiānzì, nándào xiéyì wúfǎ shēngxiào)"
+      ],
+      "correct_answer": "除非总经理亲自签字，否则协议无法生效 (Chúfēi zǒngjīnglǐ qīnzì qiānzì, fǒuzé xiéyì wúfǎ shēngxiào)",
+      "explanation": "La structure restrictive exclusive '除非...否则...' (chúfēi... fǒuzé...) est la seule syntaxe appropriée pour imposer une condition unique et indispensable sous peine d'invalidation."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] 若明天的股东大会出现变数, 我们就必须立刻启动第二套预案。",
+      "correct_answer": "倘",
+      "hint": "Premier caractère obligatoire pour former la conjonction littéraire avancée signifiant 'dans l'hypothèse où' ou 'au cas où'."
+    }
+  ]
+}

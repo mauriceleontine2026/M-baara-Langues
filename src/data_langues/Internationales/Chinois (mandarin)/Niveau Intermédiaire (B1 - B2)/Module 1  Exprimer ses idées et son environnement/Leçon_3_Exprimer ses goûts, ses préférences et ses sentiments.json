@@ -1,0 +1,239 @@
+{
+  "lesson_id": "B1_M1_L3",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 3,
+  "title": "Exprimer ses goûts, ses préférences et ses sentiments en chinois mandarin",
+  "learning_objectives": [
+    "Exprimer des nuances complexes de goûts, d'inclinations et de désintérêts",
+    "Formuler des préférences claires à l'aide de structures comme 比较 (bǐjiào) et 更 (gèng)",
+    "Décrire des états émotionnels et des sentiments intimes face à une situation",
+    "Maîtriser les compléments de degré avancés avec 得 (de) pour qualifier un ressenti"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met l'accent sur les nuances affectives et expressives. Le mot 舒服 (shūfu - à l'aise/confortable) requiert une consonne rétroflexe sourde /sh/ bien enroulée au 1er ton, suivie d'un ton neutre très court et léger sur fu. Le terme 羡慕 (xiànmù - envier/admirer) exige d'enchaîner deux 4èmes tons descendants secs : le 'x' (/ɕ/) est une palatale douce tandis que le 'm' s'appuie sur la voyelle postérieure fermée /u/.",
+    "common_pitfalls": "Faites attention au mot 高兴 (gāoxìng - joyeux) : le premier ton est haut et plat, mais le second est un 4ème ton tombant, souvent sous-prononcé par les apprenants. Veillez également à la prononciation du mot 难过 (nánguò - triste) : le premier caractère est un 2ème ton montant (nán), à bien distinguer du 4ème ton (nàn) qui signifie 'catastrophe'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "极其",
+      "phonetic_api": "/tɕi˧˥ tɕʰi˥/",
+      "phonetic_simple": "TCHEE-TCHEE",
+      "translation": "Extrêmement / Au plus haut point",
+      "example_sentence": "听了这首歌，我心里极其难过。",
+      "example_phonetic": "/tʰiŋ˥ lɤ tʂɤ˥˩ ʂoʊ̯ Wait ʔi˨˩˦ kɤ˥ xɤ˧˥ wo˨˩˦ ɕin Wait ʔi˨˩˦ li tɕi˧˥ tɕʰi˥ nan˧˥ kwo˥˩/",
+      "example_translation": "En écoutant cette chanson, je me suis senti extrêmement triste."
+    },
+    {
+      "word_id": "v2",
+      "term": "更",
+      "phonetic_api": "/kəŋ˥˩/",
+      "phonetic_simple": "KENG",
+      "translation": "Encore plus / Davantage",
+      "example_sentence": "相比起咖啡， me 我更喜欢喝茶。",
+      "example_phonetic": "/ɕi̯aŋ˥ bi˧˥ tɕʰi Wait ʔi˨˩˦ kã˥ feɪ̯˥ wo˨˩˦ kəŋ˥˩ ɕi˧˥ xwan xɤ˥ tʂʰa˧˥/",
+      "example_translation": "Comparé au café, je préfère encore plus boire du thé."
+    },
+    {
+      "word_id": "v3",
+      "term": "讨厌",
+      "phonetic_api": "/tʰaʊ̯˧˥ jɛn˥˩/",
+      "phonetic_simple": "THAO-YIEN",
+      "translation": "Détester / Trouble / Agaçant",
+      "example_sentence": "他最讨厌下雨天出门。",
+      "example_phonetic": "/tʰa˥ dwei̯˥˩ tʰaʊ̯˧˥ jɛn˥˩ ɕi̯a˥˩ jy˨˩˦ tʰi̯ɛn˥ tɕʰu˥ mən˧˥/",
+      "example_translation": "Ce qu'il déteste le plus, c'est sortir les jours de pluie."
+    },
+    {
+      "word_id": "v4",
+      "term": "感到",
+      "phonetic_api": "/kan wits ʔi˨˩˦ daʊ̯˥˩/",
+      "phonetic_simple": "GAN-DAO",
+      "translation": "Ressentir / Éprouver / Se sentir",
+      "example_sentence": "大家对他的决定感到很奇怪。",
+      "example_phonetic": "/da˥˩ tɕi̯a˥ dwei̯˥˩ tʰa˥ dɤ tɕɥ̯ɛ˧˥ tiŋ˥˩ kan wits ʔi˨˩˦ daʊ̯˥˩ xən˨˩˦ tɕʰi˧˥ kwaɪ̯˥˩/",
+      "example_translation": "Tout le monde se sent très surpris par sa décision."
+    },
+    {
+      "word_id": "v5",
+      "term": "轻松",
+      "phonetic_api": "/tɕʰiŋ˥ sʊŋ˥/",
+      "phonetic_simple": "TCHING-SONG",
+      "translation": "Relaxé / Détendu / Léger",
+      "example_sentence": "考试结束以后，我觉得很轻松。",
+      "example_phonetic": "/kʰaʊ̯˨˩˦ ʂʐ̩˥˩ tɕi̯ɛ˧˥ ʂu˥˩ i˧˥ waɪ̯ wo˨˩˦ dɥ̯ɛ˥˩ tɤ xən˨˩˦ tɕʰiŋ˥ sʊŋ˥/",
+      "example_translation": "Après la fin des examens, je me sens très détendu."
+    },
+    {
+      "word_id": "v6",
+      "term": "难过",
+      "phonetic_api": "/nan˧˥ kwo˥˩/",
+      "phonetic_simple": "NAN-GOUO",
+      "translation": "Triste / Affligé / Difficile à supporter",
+      "example_sentence": "小狗不见了，妹妹很难过。",
+      "example_phonetic": "/ɕi̯aʊ̯˨˩˦ koʊ̯˨˩˦ bu tɕi̯ɛn˥˩ lɤ meɪ̯˥˩ meɪ xən˨˩˦ nan˧˥ kwo˥˩/",
+      "example_translation": "Le chiot a disparu, ma petite sœur est très triste."
+    },
+    {
+      "word_id": "v7",
+      "term": "生气",
+      "phonetic_api": "/ʂəŋ˥ tɕʰi˥˩/",
+      "phonetic_simple": "CHENG-TCHEE",
+      "translation": "En colère / Se fâcher",
+      "example_sentence": "请你不要生我的气。",
+      "example_phonetic": "/tɕʰiŋ˨˩˦ ni˨˩˦ bu˥˩ jaʊ̯˥˩ ʂəŋ˥ wo˨˩˦ dɤ tɕʰi˥˩/",
+      "example_translation": "S'il te plaît, ne te fâche pas contre moi."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "今天能去听音乐会，我高兴得不得了。",
+      "phonetic_api": "/tɕin˥ tʰi̯ɛn˥ nəŋ˧˥ tɕy˥˩ tʰiŋ˥ iŋ˥ ɥ̯ɛ˥˩ xwei̯˥˩ wo˨˩˦ kaʊ̯˥ ɕiŋ˥˩ tɤ bu tɤ li̯aʊ̯˨˩˦/",
+      "phonetic_simple": "TCHIN-THIEN NENG TCHY THING IN-YOUÉ-HOUAY, OUO GAO-CHING DEU BOU-DEU-LIAO",
+      "translation": "Pouvoir aller au concert aujourd'hui me rend incroyablement joyeux.",
+      "context": "Exprimer un enthousiasme débordant lié à un événement précis"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "这两种颜色，你比较倾向于哪一种？",
+      "phonetic_api": "/tʂɤ˥˩ li̯aŋ˨˩˦ tʂʊŋ Wait ʔi˨˩˦ jan˧˥ sɤ ni˨˩˦ bi˨˩˦ tɕi̯aʊ̯˧˥ tɕʰiŋ˥ ɕi̯aŋ˥ dzaɪ̯ na˨˩˦ i˥ tʂʊŋ Wait ʔi˨˩˦/",
+      "phonetic_simple": "TCHEU LIANG TCHONG YIEN-SEU, NEE BEE-CHIAO TCHING-CHIANG YU NA EE TCHONG ?",
+      "translation": "Entre ces deux couleurs, vers laquelle penches-tu le plus ?",
+      "context": "Demander un arbitrage de goût raffiné"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "我突然觉得压力很大，心里很乱。",
+      "phonetic_api": "/wo˨˩˦ tʰu˧˥ ran˧˥ dɥ̯ɛ˥˩ tɤ ja˥ li˥˩ xən˨˩˦ da˥˩ ɕin Wait ʔi˨˩˦ li xən˨˩˦ lwan˥˩/",
+      "phonetic_simple": "OUO THOU-RAN DJOUÉ-DEU YA-LEE HEUN DA, CHIN-LEE HEUN LOUAN",
+      "translation": "Soudainement, je ressens une grande pression, mon esprit est tout confus.",
+      "context": "Confier un état d'anxiété ou de stress à un proche"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "我很羡慕他能有这么丰富的生活经历。",
+      "phonetic_api": "/wo˨˩˦ xən˨˩˦ ɕi̯ɛn˥˩ mu˥˩ tʰa˥ nəŋ˧˥ joʊ̯˨˩˦ tʂɤ˥˩ mɤ fəŋ˥ fu˥ dɤ ʂəŋ˥ xwɔ˧˥ tɕiŋ˥˩ li˥˩/",
+      "phonetic_simple": "OUO HEUN CHIEN-MOU THA NENG YOW TCHEU-MEU FENG-FOU DEU CHENG-HOUO DJING-LEE",
+      "translation": "J'envie beaucoup sa capacité à avoir une expérience de vie aussi riche.",
+      "context": "Exprimer de l'admiration teintée d'envie positive"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'usage des adverbes de gradation comparative : 比较 (bǐjiào) et 更 (gèng)",
+      "explanation": "Pour exprimer ses préférences à un niveau intermédiaire, le mandarin emploie des marqueurs de degré qui permettent de nuancer l'adjectif ou le verbe de sentiment.",
+      "rules": [
+        "比较 (bǐjiào) signifie 'relativement' ou 'plutôt'. Il atténue ou marque une préférence douce. Exemple : 我比较喜欢蓝色 (Je préfère plutôt le bleu).",
+        "更 (gèng) signifie 'encore plus' ou 'davantage'. Il requiert un contexte de comparaison explicite ou implicite. Exemple : 这件衣服更好看 (Ce vêtement est encore plus beau)."
+      ],
+      "examples": [
+        {
+          "structure": "我 (Je) + 比较 (Plutôt) + 倾向于 (Pencher pour) + 第一种方案 (La première option)",
+          "phonetic_api": "/wo˨˩˦ bi˨˩˦ tɕi̯aʊ̯˧˥ tɕʰiŋ˥ ɕi̯aŋ˥ jyu ti˥˩ i˥ tʂʊŋ Wait ʔi˨˩˦ faŋ˥ an˥/",
+          "meaning": "我比较倾向于第一种方案。 (Je penche plutôt pour la première option.)"
+        }
+      ]
+    },
+    {
+      "concept": "Le complément de degré extrême : 得不得了 (de bùdéliǎo)",
+      "explanation": "Pour donner une intensité dramatique ou maximale à un adjectif de sentiment ou d'état, on utilise la structure fixe suffixée 得不得了.",
+      "rules": [
+        "Structure : [Adjectif] + 得 (de) + 不得了 (bùdéliǎo).",
+        "Cette formule s'applique aussi bien à des sentiments positifs (高兴 - joyeux) que négatifs (难受 - mal à l'aise)."
+      ],
+      "examples": [
+        {
+          "structure": "高兴 (Joyeux) + 得不得了 ➔ 高兴得不得了",
+          "phonetic_api": "/kaʊ̯˥ ɕiŋ˥˩ tɤ bu tɤ li̯aʊ̯˨˩˦/",
+          "meaning": "Extrêmement joyeux / Content au possible."
+        },
+        {
+          "structure": "热 (Chaud) + 得不得了 ➔ 热得不得了",
+          "phonetic_api": "/rɤ˥˩ tɤ bu tɤ li̯aʊ̯˨˩˦/",
+          "meaning": "Il fait une chaleur insupportable."
+        }
+      ]
+    },
+    {
+      "concept": "La structure de cause émotionnelle avec 让 (ràng) / 使 (shǐ)",
+      "explanation": "Pour expliquer qu'un événement ou une personne provoque un sentiment chez le locuteur, on emploie les verbes factitifs 让 ou 使 (rendre/faire).",
+      "rules": [
+        "Structure : [Événement / Personne] + 让 (ràng) + [Quelqu'un] + [Adjectif de sentiment / Verbe].",
+        "让 (ràng) est très fréquent à l'oral couramment, tandis que 使 (shǐ) revêt un caractère plus formel ou écrit."
+      ],
+      "examples": [
+        {
+          "structure": "这句话 (Cette phrase) + 让 (a rendu) + 我 (moi) + 很感动 (Très touché)",
+          "phonetic_api": "/tʂɤ˥˩ jɥ̯ de  xwa˥˩ ʐaŋ˥˩ wo˨˩˦ xən˨˩˦ kan Wait ʔi˨˩˦ dʊŋ˥˩/",
+          "meaning": "这句话让我很感动。 (Ces mots m'ont beaucoup touché.)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "李华 (Li Hua)",
+      "text": "大卫，你看上去心情不错，遇到什么开心的事了吗？",
+      "phonetic_api": "/da˥˩ weɪ̯˥˩ ni kʰan˥˩ ɕi̯a  laɪ̯ ɕin˥ tɕiŋ˧˥ bu tsʰwɔ˥˩ jy˥˩ daʊ̯˥˩ ʂən˧˥ mɤ kʰaɪ̯˥ ɕin dɤ ʂʐ̩˥˩ lɤ ma/",
+      "phonetic_simple": "DA-OUEI, NEE KHAN CHANG-LAÏ CHIN-DJING BOU-TSOUO, YU-DAO CHEN-MEU KHAI-CHIN DEU CHEI LEU MA ?",
+      "translation": "David, tu as l'air de bonne humeur, il t'est arrivé quelque chose de réjouissant ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "对，我刚收到大学的录取通知书，现在兴奋得不得了！",
+      "phonetic_api": "/twei̯˥˩ wo jã˥ ʂoʊ̯˧˥ daʊ̯˥˩ da˥˩ ɕy̯ɛ˧˥ dɤ lu˥˩ tɕɥ̯ Wait ʔi˨˩˦ tʰʊŋ˥ tʂʐ̩ ʂu˥ ɕi̯ɛn˥˩ dzaɪ̯˥˩ ɕiŋ˥ fən˥˩ tɤ bu tɤ li̯aʊ̯˨˩˦/",
+      "phonetic_simple": "DOUEI, OUO GANG CHOUOU-DAO DA-CHIOUÉ DEU LU-QU THONG-DZEU CHOU, CHIEN-DZAÏ CHING-FEN DEU BOU-DEU-LIAO !",
+      "translation": "Oui, je viens de recevoir ma lettre d'admission à l'université, je suis surexcité au plus haut point !"
+    },
+    {
+      "speaker": "李华 (Li Hua)",
+      "text": "太棒了！祝贺你！难怪你今天走路都带着笑。你父母一定也很骄傲吧？",
+      "phonetic_api": "/tʰaɪ̯˥˩ baŋ˥˩ lɤ tʂu˥˩ xɤ˥˩ ni nan˧˥ kwaɪ̯˥˩ ni tɕin˥ tʰi̯ɛn˥ dzwɔʊ̯˨˩˦ lu˥˩ doʊ̯˥ daɪ̯˥˩ tʂɤ ɕi̯aʊ̯˥˩ ni fu˥˩ mu˨˩˦ i˥ tiŋ˥˩ jɛ˨˩˦ xən˨˩˦ tɕi̯aʊ̯ Let ʔaʊ̯˥ ba/",
+      "phonetic_simple": "THAÏ BANG LEU ! DZOU-HÉ NEE ! NAN-GOUAÏ NEE TCHIN-THIEN DZOW-LOU DOU DAÏ-TCHEU CHIAO. NEE FOU-MOU EE-TING YE HEUN DJIAO-AO BA ?",
+      "translation": "C'est génial ! Félicitations ! Je comprends mieux pourquoi tu marches avec le sourire aujourd'hui. Tes parents doivent être extrêmement fiers eux aussi, non ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "恩，他们高兴是高兴，但也有点儿担心，因为我要去一个全新的城市生活了。",
+      "phonetic_api": "/en tʰa˥ mən kaʊ̯˥ ɕiŋ ʂʐʐ˥˩ kaʊ̯˥ ɕiŋ dan jɛ˨˩˦ joʊ̯˨˩˦ ti̯ɛn  r dan˥ ɕin jin˥ weɪ̯ wo jaʊ̯˥˩ tɕy˥˩ i˥ kɤ tɕʰɥ̯ɛn˧˥ xin˥ tʂʰəŋ˧˥ ʂʐ̩˥˩ ʂəŋ˥ xwɔ˧˥ lɤ/",
+      "phonetic_simple": "EN, THA-MEN GAO-CHING CHEI GAO-CHING, DAN YE YOW DIER DAN-CHIN, YIN-OUEI OUO YAO TCHY EE GEU TCHIOUÉN-CHIN TCHENG-CHEI CHENG-HOUO LEU.",
+      "translation": "Oui, ils sont contents, c'est sûr, mais ils sont aussi un peu inquiets parce que je m'en vais vivre dans une toute nouvelle ville."
+    },
+    {
+      "speaker": "李华 (Li Hua)",
+      "text": "别担心，换个新环境会让你更独立。比起害怕，你更应该感到期待！",
+      "phonetic_api": "/bi̯ɛ˧˥ dan˥ ɕin xwan˥˩ kɤ xin˥ xwan˧˥ tɕiŋ˥˩ xwei̯˥˩ ʐaŋ˥˩ wo kəŋ˥˩ tu˧˥ li˥˩ bi˧˥ tɕʰi Wait ʔi˨˩˦ xaɪ̯˥˩ pʰa˥˩ ni kəŋ˥˩ i˥ tʂəŋ˥ kan wits ʔi˨˩˦ daʊ̯˥˩ tɕʰi Wait ʔdaɪ̯˥˩/",
+      "phonetic_simple": "BIÉ DAN-CHIN, HOUAN GEU CHIN HOUAN-TCHIN HOUAY RANG NEE GENG DOU-LEE. BEE-TCHEE HAÏ-PHA, NEE GENG YING-GAÏ GAN-DAO TCHHEE-DAÏ !",
+      "translation": "Ne t'en fais pas, changer d'environnement va te rendre encore plus indépendant. Plutôt que d'avoir peur, tu devrais plutôt te réjouir de ce qui t'attend !"
+    }
+  ],
+  "cultural_notes": [
+    "Les Chinois expriment généralement leurs sentiments de manière beaucoup plus retenue et subtile qu'en Occident. En public, la colère ou une joie exubérante sont souvent canalisées pour préserver l'harmonie du groupe. L'utilisation de structures fortes comme 得不得了 montre un niveau d'intimité ou de complicité élevé entre les locuteurs.",
+    "La structure répétitive 'A 是 A，但是...' (Ex: 高兴是高兴，但是...) entendue dans le dialogue est une tournure idiomatique intermédiaire typique. Elle permet de concéder un fait ('c'est vrai qu'ils sont contents, certes') avant d'introduire une nuance restrictive majeure avec 'mais'.",
+    "Le concept de '骄傲' (jiāo'ào) possède une double facette en mandarin : il peut signifier 'être fier' au sens noble (la fierté des parents), mais il désigne également la condescendance ou l'arrogance s'il est appliqué de manière absolue à soi-même."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle phrase traduit le plus fidèlement et grammaticalement l'idée : 'La perte de ses clés l'a rendu terriblement furieux.'",
+      "options": [
+        "丢了钥匙让他很生气得不得了 (Diūle yàoshi ràng tā hěn shēngqì de bùdéliǎo)",
+        "丢了钥匙让他生气得不得了 (Diūle yàoshi ràng tā shēngqì de bùdéliǎo)",
+        "因为丢了钥匙，所以他更生气的 (Yīnwèi diūle yàoshi, suǒyǐ tā gèng shēngqì de)"
+      ],
+      "correct_answer": "丢了钥匙让他生气得不得了 (Diūle yàoshi ràng tā shēngqì de bùdéliǎo)",
+      "explanation": "La structure factitive '让 (ràng) + Quelqu'un + Verbe/Adjectif' s'associe harmonieusement au complément de degré extrême '得不得了' posé après l'adjectif 生气, sans cumul maladroit avec l'adverbe 很."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "比起坐飞机，我 [ ___ ] 喜欢坐高铁，感觉更安全。",
+      "correct_answer": "更",
+      "hint": "Adverbe de comparaison requis pour accentuer une préférence ('encore plus') au sein d'une structure contrastée."
+    }
+  ]
+}

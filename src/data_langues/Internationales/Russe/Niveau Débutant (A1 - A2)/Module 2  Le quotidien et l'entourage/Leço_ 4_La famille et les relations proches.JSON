@@ -1,0 +1,257 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer tous les membres de la famille nucléaire et élargie",
+    "Exprimer la possession à l'aide des adjectifs possessifs accordés",
+    "Utiliser la structure de possession 'У меня есть' pour décrire son entourage",
+    "Demander des nouvelles des proches de son interlocuteur"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'Е' en début de mot comme dans 'Его' ou 'Её' subit une lègere iodisation [j]. Le groupe 'ТЬ' à la fin de 'Мать' ou 'Отец' (ici la fin est un ц) doit être correctement articulé. Attention à la lettre 'Ц' de 'Отец' : c'est une consonne affriquée sourde toujours dure se prononçant [t͡s].",
+    "common_pitfalls": "Dans l'expression 'У меня есть', le mot 'есть' se prononce [jesʲtʲ] avec un 'т' final adouci par le signe mou. Ne prononcez pas le 'г' de 'Его' (/jɪˈvo/) ou 'Кого' (/kɐˈvo/) comme un 'g' dur, il se transmute systématiquement en [v] dans les désinences des pronoms."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Семья",
+      "phonetic_api": "/sʲɪˈmʲja/",
+      "phonetic_simple": "ssi-MIA",
+      "translation": "Famille",
+      "example_sentence": "У меня большая семья.",
+      "example_phonetic": "/ʊ mʲɪˈnʲa bɐlʲˈʂajə sʲɪˈmʲja/",
+      "example_translation": "J'ai une grande famille."
+    },
+    {
+      "word_id": "v2",
+      "term": "Отец",
+      "phonetic_api": "/ɐˈtʲet͡s/",
+      "phonetic_simple": "a-TIETS",
+      "translation": "Père",
+      "example_sentence": "Мой отец — инженер.",
+      "example_phonetic": "/moj ɐˈtʲet͡s ɪnʐɨˈnʲer/",
+      "example_translation": "Mon père est ingénieur."
+    },
+    {
+      "word_id": "v3",
+      "term": "Мать",
+      "phonetic_api": "/matʲ/",
+      "phonetic_simple": "mat'",
+      "translation": "Mère",
+      "example_sentence": "Моя мать любит музыку.",
+      "example_phonetic": "/mɐˈja matʲ ˈlʲubʲɪt ˈmuzɨkʊ/",
+      "example_translation": "Ma mère aime la musique."
+    },
+    {
+      "word_id": "v4",
+      "term": "Брат",
+      "phonetic_api": "/brat/",
+      "phonetic_simple": "brat",
+      "translation": "Frère",
+      "example_sentence": "У тебя есть брат?",
+      "example_phonetic": "/ʊ tʲɪˈbʲe jesʲtʲ brat/",
+      "example_translation": "As-tu un frère ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "Сестра",
+      "phonetic_api": "/sʲɪˈstra/",
+      "phonetic_simple": "ssis-TRA",
+      "translation": "Sœur",
+      "example_sentence": "Моя сестра живёт в Париже.",
+      "example_phonetic": "/mɐˈja sʲɪˈstra ʐɨˈvʲot f pɐˈrʲiʐɨ/",
+      "example_translation": "Ma sœur habite à Paris."
+    },
+    {
+      "word_id": "v6",
+      "term": "Сын",
+      "phonetic_api": "/sɨn/",
+      "phonetic_simple": "syn",
+      "translation": "Fils",
+      "example_sentence": "Наш сын хорошо учится.",
+      "example_phonetic": "/naʂ sɨn xərɐˈʂo ˈutɕɪt͡sʲə/",
+      "example_translation": "Notre fils étudie bien."
+    },
+    {
+      "word_id": "v7",
+      "term": "Дочь",
+      "phonetic_api": "/dotɕ/",
+      "phonetic_simple": "dotch'",
+      "translation": "Fille",
+      "example_sentence": "Как зовут вашу дочь?",
+      "example_phonetic": "/kak zɐˈvut ˈvaʂʊ dotɕ/",
+      "example_translation": "Comment s'appelle votre fille ?"
+    },
+    {
+      "word_id": "v8",
+      "term": "Родители",
+      "phonetic_api": "/rɐˈdʲitʲɪlʲɪ/",
+      "phonetic_simple": "ra-DI-ti-li",
+      "translation": "Parents",
+      "example_sentence": "Мои родители на даче.",
+      "example_phonetic": "/mɐˈi rɐˈdʲitʲɪlʲɪ nə ˈdatɕɪ/",
+      "example_translation": "Mes parents sont à la datcha."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "У меня есть семья",
+      "phonetic_api": "/ʊ mʲɪˈnʲa jesʲtʲ sʲɪˈmʲja/",
+      "phonetic_simple": "ou mi-NIA iest' ssi-MIA",
+      "translation": "J'ai une famille",
+      "context": "Structure standard pour déclarer une possession."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Как зовут твоего брата?",
+      "phonetic_api": "/kak zɐˈvut tvəɪˈvo ˈbratə/",
+      "phonetic_simple": "kak za-VOUT tva-i-VO BRA-ta ?",
+      "translation": "Comment s'appelle ton frère ?",
+      "context": "Question courante (le nom du frère est au cas génitif/accusatif)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "У вас есть дети?",
+      "phonetic_api": "/ʊ vas jesʲtʲ ˈdʲetʲɪ/",
+      "phonetic_simple": "ou vas iest' DIE-ti ?",
+      "translation": "Avez-vous des enfants ?",
+      "context": "Cadre formel ou poli."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Как поживают ваши родители?",
+      "phonetic_api": "/kak pəʐɨˈvajʊt ˈvaʂɨ rɐˈdʲitʲɪlʲɪ/",
+      "phonetic_simple": "kak pa-ji-VA-iout VA-chy ra-DI-ti-li ?",
+      "translation": "Comment vont vos parents ?",
+      "context": "Formule de courtoisie pour demander des nouvelles."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction de la possession : У + Génitif + есть + Nominatif",
+      "explanation": "Pour exprimer la possession ('Avoir'), le russe utilise une tournure existentielle. On dit littéralement : 'Chez moi existe quelque chose'.",
+      "rules": [
+        "Le sujet possédant se met après la préposition 'У' au cas Génitif (Я -> меня, Ты -> тебя, Вы -> вас, Он -> него, Она -> неё).",
+        "Le verbe 'есть' (existe / existent) reste invariable quel que soit le nombre de l'objet possédé.",
+        "L'objet possédé reste au cas Nominatif (cas sujet)."
+      ],
+      "examples": [
+        {
+          "structure": "У меня есть сестра.",
+          "phonetic_api": "/ʊ mʲɪˈnʲa jesʲtʲ sʲɪˈstra/",
+          "meaning": "J'ai une sœur (Litt: Chez moi existe une sœur)."
+        },
+        {
+          "structure": "У тебя есть автомобиль?",
+          "phonetic_api": "/ʊ tʲɪˈbʲe jesʲtʲ ɐftəmɐˈbʲilʲ/",
+          "meaning": "As-tu une voiture ?"
+        }
+      ]
+    },
+    {
+      "concept": "Les adjectifs possessifs au singulier (Mon, Ton)",
+      "explanation": "Les possessifs russes s'accordent en genre et en nombre avec l'objet possédé, et non avec le possesseur.",
+      "rules": [
+        "Masculin : Мой (mon), Твой (ton).",
+        "Féminin : Моя (ma), Твоя (ta).",
+        "Neutre : Моё (mon), Твоё (ton).",
+        "Pluriel : Мои (mes), Твои (tes)."
+      ],
+      "examples": [
+        {
+          "structure": "Мой брат и моя сестра.",
+          "phonetic_api": "/moj brat ɪ mɐˈja sʲɪˈstra/",
+          "meaning": "Mon frère et ma sœur."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Максим",
+      "text": "Иван, расскажи о своей семье. У тебя есть большая семья?",
+      "phonetic_api": "/ɪˈvan rəsˈkaʐɨ ɐ svɐˈjej sʲɪˈmʲje ʊ tʲɪˈbʲe bɐlʲˈʂajə sʲɪˈmʲja/",
+      "phonetic_simple": "i-VAN, ras-ka-JI a sva-IEÏ ssi-MIE. ou ti-BIA bal-CHA-ya ssi-MIA ?",
+      "translation": "Ivan, parle-moi de ta famille. Tu as une grande famille ?"
+    },
+    {
+      "speaker": "Иван",
+      "text": "Нет, моя семья небольшая. У меня есть родители и младшая сестра.",
+      "phonetic_api": "/nʲet mɐˈja sʲɪˈmʲja nʲɪbɐlʲˈʂajə ʊ mʲɪˈnʲa jesʲtʲ rɐˈdʲitʲɪlʲɪ ˈi ˈmlatʂajə sʲɪˈstra/",
+      "phonetic_simple": "Niet, ma-YA ssi-MIA ni-bal-CHA-ya. ou mi-NIA iest' ra-DI-ti-li i MLAT-cha-ya ssis-TRA.",
+      "translation": "Non, ma famille n'est pas grande. J'ai mes parents et une petite sœur."
+    },
+    {
+      "speaker": "Максим",
+      "text": "Как зовут твою сестру? Кто она по профессии?",
+      "phonetic_api": "/kak zɐˈvut tvɐˈju sʲɪsˈtru kto ɐˈna pɐ prɐˈfʲesʲɪɪ/",
+      "phonetic_simple": "kak za-VOUT tva-IOU ssis-TROU ? Kto a-NA pa pra-FIES-sii ?",
+      "translation": "Comment s'appelle ta sœur ? Quelle est sa profession ?"
+    },
+    {
+      "speaker": "Иван",
+      "text": "Её зовут Елена. Она студентка, учится в университете. А у тебя есть дети?",
+      "phonetic_api": "/jɪˈjۆ zɐˈvut jɪˈlʲenə ɐˈna stʊˈdʲentkə ˈutɕɪt͡sʲə f ʊnʲɪvʲɪrsʲɪˈtʲetʲɪ a ʊ tʲɪˈbʲe jesʲtʲ ˈdʲetʲɪ/",
+      "phonetic_simple": "yi-IO za-VOUT ye-LIÉ-na. a-NA stou-DIENT-ka, OU-tchit-ssya v ou-ni-ver-ssi-TIÉ-ti. A ou ti-BIA iest' DIE-ti ?",
+      "translation": "Elle s'appelle Elena. Elle est étudiante, elle étudie à l'université. Et toi, tu as des enfants ?"
+    },
+    {
+      "speaker": "Максим",
+      "text": "Да, у меня есть сын и дочь. Мой сын ещё маленький.",
+      "phonetic_api": "/da ʊ mʲɪˈnʲa jesʲtʲ sɨn ˈi dotɕ moj sɨn jɪˈɕːۆ ˈmalʲɪnʲkʲɪj/",
+      "phonetic_simple": "Da, ou mi-NIA iest' syn i dotch'. Moï syn ie-CHIO MA-lin-kiy.",
+      "translation": "Oui, j'ai un fils et une fille. Mon fils est encore petit."
+    }
+  ],
+  "cultural_notes": [
+    "Les diminutifs affectifs : Les Russes utilisent très rarement les prénoms officiels au sein de la famille. 'Иван' devient 'Ваня' (Vanya), 'Елена' devient 'Лена' (Lena), et 'Александр' devient 'Саша' (Sacha). C'est une marque indispensable d'affection.",
+    "La datcha (дача) : C'est la maison de campagne traditionnelle russe où les parents et grands-parents aiment passer tout l'été pour cultiver des légumes et échapper à la chaleur des grandes villes."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L4_ex1",
+      "type": "multiple_choice",
+      "question": "Traduisez correctement l'affirmation suivante : 'J'ai un frère.'",
+      "options": [
+        "Я имею брат.",
+        "У меня есть брат.",
+        "Мне есть брат.",
+        "Мой есть брат."
+      ],
+      "correct_answer": "У меня есть brat.",
+      "explanation": "La structure de possession requiert la préposition 'У', le pronom au génitif 'меня' et la particule existentielle 'есть'."
+    },
+    {
+      "exercise_id": "A1_M2_L4_ex2",
+      "type": "multiple_choice",
+      "question": "Quel adjectif possessif correspond correctement au nom féminin 'сестра' (sœur) ?",
+      "options": [
+        "Мой",
+        "Моя",
+        "Моё",
+        "Мои"
+      ],
+      "correct_answer": "Моя",
+      "explanation": "'Сестра' est un nom féminin singulier, il requiert donc l'adjectif possessif féminin 'Моя'."
+    },
+    {
+      "exercise_id": "A1_M2_L4_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Как зовут [ ___ ] отца? — Моего отца зовут Олег. (Comment s'appelle ton père ?)",
+      "correct_answer": "твоего",
+      "hint": "Forme fléchie au génitif de l'adjectif possessif 'ton' pour un être animé masculin."
+    },
+    {
+      "exercise_id": "A1_M2_L4_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Мама и папа — это мои [ ___ ]. (Maman et papa sont mes...)",
+      "correct_answer": "родители",
+      "hint": "Le mot pluriel pour désigner les parents."
+    }
+  ]
+}

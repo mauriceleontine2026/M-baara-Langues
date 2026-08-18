@@ -1,0 +1,116 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer les principaux repères temporels de la semaine",
+    "Exprimer le moment présent ou immédiat (aujourd'hui, demain)",
+    "Interroger sur le temps qu'il fait ou l'heure de manière globale"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'r' est légèrement battue, proche du 'r' espagnol à battement unique, et ne doit pas être rétroflexe ou trop râpeuse.",
+    "common_pitfalls": "Attention à ne pas assimiler le 'ts' initial à un simple 's'. L'affriquée doit être nette."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v6_1",
+      "term": "tɛkɛ",
+      "phonetic_api": "/tɛ.kɛ/",
+      "phonetic_simple": "TÈ-KÈ",
+      "translation": "aujourd'hui",
+      "example_sentence": "mbi lɔndɔ tɛkɛ",
+      "example_phonetic": "/mbi lɔn.dɔ tɛ.kɛ/",
+      "example_translation": "Je suis ici aujourd'hui."
+    },
+    {
+      "word_id": "v6_2",
+      "term": "sina",
+      "phonetic_api": "/si.na/",
+      "phonetic_simple": "SI-NA",
+      "translation": "demain",
+      "example_sentence": "mbi kɔn sina",
+      "example_phonetic": "/mbi kɔn si.na/",
+      "example_translation": "Je pars demain."
+    },
+    {
+      "word_id": "v6_3",
+      "term": "tsang",
+      "phonetic_api": "/t͡saŋ/",
+      "phonetic_simple": "TSANG",
+      "translation": "soleil / jour / heure",
+      "example_sentence": "tsang mɔ fann",
+      "example_phonetic": "/t͡saŋ mɔ fanː/",
+      "example_translation": "Le soleil est haut (il fait jour)."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p6_1",
+      "original": "tsang de dɛ ?",
+      "phonetic_api": "/t͡saŋ de dɛ/",
+      "phonetic_simple": "TSANG DE DÈ",
+      "translation": "Où en est le soleil ? (Quelle heure est-il ?)",
+      "context": "Demande d'information temporelle au cours de la journée."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le positionnement des adverbes de temps",
+      "explanation": "Les adverbes de temps (tɛkɛ, sina) se placent presque exclusivement en toute fin de proposition en landouma, après le verbe et ses compléments d'objet.",
+      "rules": [
+        "Sujet + Verbe + (Objet) + Adverbe temporel.",
+        "L'inversion en début de phrase n'est tolérée que pour une focalisation stylistique forte."
+      ],
+      "examples": [
+        {
+          "structure": "Phrase + sina",
+          "phonetic_api": "/mbi alɛ si.na/",
+          "meaning": "Je viens demain."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Fatou",
+      "text": "tsang de dɛ ?",
+      "phonetic_api": "/t͡saŋ de dɛ/",
+      "phonetic_simple": "TSANG DE DÈ",
+      "translation": "Quelle heure est-il ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "tsang mɔ fann. mbi kɔn tɛkɛ.",
+      "phonetic_api": "/t͡saŋ mɔ fanː mbi kɔn tɛ.kɛ/",
+      "phonetic_simple": "TSANG MO FANN. MBI KON TÈ-KÈ",
+      "translation": "Le soleil est haut. Je pars aujourd'hui."
+    }
+  ],
+  "cultural_notes": [
+    "Dans le milieu rural landouma, le temps traditionnel reste rythmé par la course du soleil ('tsang') et l'appel des prières ou des cycles agricoles plutôt que par les minutes numériques précises."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex6_1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'adverbe 'sina' ?",
+      "options": [
+        "Hier",
+        "Aujourd'hui",
+        "Demain"
+      ],
+      "correct_answer": "Demain",
+      "explanation": "'sina' pointe vers le cycle diurne suivant."
+    },
+    {
+      "exercise_id": "ex6_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "mbi lɔndɔ [ ___ ] (Je suis ici aujourd'hui)",
+      "correct_answer": "tɛkɛ",
+      "hint": "Le repère temporel du jour présent."
+    }
+  ]
+}

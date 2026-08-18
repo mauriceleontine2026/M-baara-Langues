@@ -1,0 +1,274 @@
+{
+  "lesson_id": "C1_M2_L4",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 4,
+  "title": "Proverbes, dictons et expressions imagées",
+  "learning_objectives": [
+    "Intégrer des expressions idiomatiques à quatre caractères '四字熟語' (Yojijukugo) dans un discours professionnel ou académique",
+    "Manier les proverbes traditionnels 'ことわざ' (Kotowaza) pour nuancer une argumentation ou un conseil de niveau exécutif",
+    "Décrypter et employer des métaphores conceptuelles complexes issues de la culture classique japonaise"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression '一期一会' exige un enchaînement fluide de mores brèves et de consonnes occlusives glottales : [it̥.t͡ɕi.ɡo i.t͡ɕi.e]. Pour '試行錯誤' (shikōsokugo), veillez à la clarté du long 'ō' [oː] et à la prononciation sèche des sons vélaires sourds : [ɕi.koː so̥k.ɯ.ɡo].",
+    "common_pitfalls": "Attention à ne pas escamoter l'assimilation du petit 'tsu' (っ) dans les expressions figées comme '一生懸命' ou '一石二鳥'. Le rythme de diction doit rester parfaitement régulier (isochronique), typique des expressions composées sino-japonaises."
+  },
+  "advanced_kanji_and_literary_markers": [
+    {
+      "kanji": "四字熟語 (よじじゅくご)",
+      "romaji": "Yojijukugo",
+      "level_jlpt": "N1",
+      "meaning": "Idiotisme de quatre caractères",
+      "description": "Formulations condensées d'origine chinoise classique exprimant un concept moral, philosophique ou stratégique."
+    },
+    {
+      "kanji": "故事成語 (こじせいご)",
+      "romaji": "Kojiseigo",
+      "level_jlpt": "N1",
+      "meaning": "Locution historique / Maxime classique",
+      "description": "Expressions issues de la littérature historique ou des fables philosophiques de la Chine ancienne."
+    },
+    {
+      "kanji": "比喩 (ひゆ)",
+      "romaji": "Hiyu",
+      "level_jlpt": "N1",
+      "meaning": "Métaphore / Allégorie / Figure de style",
+      "description": "Outil rhétorique fondamental pour imager un propos complexe à l'aide de représentations concrètes."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "いちごいちえ（一期一会）",
+      "phonetic_api": "/it̥.t͡ɕi.ɡo i.t͡ɕi.e/",
+      "phonetic_simple": "I-TCHI-GO I-TCHI-É",
+      "translation": "Chaque rencontre est unique / Une chance unique dans une vie",
+      "example_sentence": "ビジネスにおいても、一期一会の精神で顧客に接することが大切だ。",
+      "example_phonetic": "/bi.d͡ʑi.ne.sɯ ni o.i.te mo it̥.t͡ɕi.ɡo i.t͡ɕi.e no seː.ɕiɴ de ko.ka.kɯ ni se̥t.sɯ sɯ.ɾɯ ko.to wa ta.i.se̥t.sɯ da/",
+      "example_translation": "Même dans les affaires, il est capital de traiter les clients dans l'esprit d'une rencontre unique."
+    },
+    {
+      "word_id": "v2",
+      "term": "しこうさくご（試行錯誤）",
+      "phonetic_api": "/ɕi.koː so̥k.ɯ.ɡo/",
+      "phonetic_simple": "CHI-KOO SOK-OU-GO",
+      "translation": "Apprentissage par essais et erreurs / Tâtonnements",
+      "example_sentence": "数年の試行錯誤を経て、ようやく革新的な新薬が完成した。",
+      "example_phonetic": "/sɯː.neɴ no ɕi.koː so̥k.ɯ.ɡo o he.te joː.jḁk.ɯ kḁk.ɕiɴ.te.ki.na ɕiɴ.jḁk.ɯ ɡa kaɴ.seː ɕi.ta/",
+      "example_translation": "Après plusieurs années d'essais et d'erreurs, ce médicament révolutionnaire est enfin finalisé."
+    },
+    {
+      "word_id": "v3",
+      "term": "いっせきにちょう（一石二鳥）",
+      "phonetic_api": "/is.se̥k.ɯ ni.t͡choː/",
+      "phonetic_simple": "IS-SEK-OU NI-TCHOO",
+      "translation": "Faire d'une pierre deux coups",
+      "example_sentence": "コストを削減し、環境を守ることは一石二鳥の施策である。",
+      "example_phonetic": "/ko.sɯ.to o sa.kɯ.ɡeɴ ɕi kaɴ.kjoː o ma.mo.ɾɯ ko.to wa is.se̥k.ɯ ni.t͡choː no ɕi.sḁk.ɯ de a.ɾɯ/",
+      "example_translation": "Réduire les coûts tout en protégeant l'environnement est une mesure qui fait d'une pierre deux coups."
+    },
+    {
+      "word_id": "v4",
+      "term": "ごりむちゅう（五里霧中）",
+      "phonetic_api": "/ɡo.ɾi mɯ.t͡ɕɯː/",
+      "phonetic_simple": "GO-RI MOU-TCHUU",
+      "translation": "Être complètement perdu / Être dans le flou le plus total",
+      "example_sentence": "データが不足しており、今後の予測は五里霧中だ。",
+      "example_phonetic": "/deː.ta ɡa ɸɯ.so̥k.ɯ ɕi.te o.ɾi koɴ.ɡo no jo.so̥k.ɯ wa ɡo.ɾi mɯ.t͡ɕɯː da/",
+      "example_translation": "Les données sont insuffisantes, les prévisions d'avenir se trouvent dans le flou le plus total."
+    },
+    {
+      "word_id": "v5",
+      "term": "いどのなかのかわず（井の中の蛙）",
+      "phonetic_api": "/i no na.ka no ka.wa.zɯ/",
+      "phonetic_simple": "I NO NA-KA NO KA-WA-ZOU",
+      "translation": "La grenouille au fond du puits (Ignorer le monde extérieur / Avoir l'esprit étroit)",
+      "example_sentence": "国内市場しか見ない企業は、井の中の蛙になりかねない。",
+      "example_phonetic": "/ko.kɯ.na.i ɕi.d͡ʑoː ɕi.ka mi.na.i ki.ɡjoː wa i no na.ka no ka.wa.zɯ ni na.ɾi.ka.ne.na.i/",
+      "example_translation": "Les entreprises qui ne regardent que le marché national risquent de devenir comme la grenouille au fond du puits."
+    },
+    {
+      "word_id": "v6",
+      "term": "いっしょうけんめい（一生懸命）",
+      "phonetic_api": "/is.ɕoː keɴ.meː/",
+      "phonetic_simple": "IS-SHOO KEN-MÉE",
+      "translation": "De toutes ses forces / De son mieux / Au péril de sa vie",
+      "example_sentence": "期待に応えるよう、一生懸命努める所存です。",
+      "example_phonetic": "/ki.ta.i ni ko.ta.e.ɾɯ joː is.ɕoː keɴ.meː t͡sɯ.to.me.ɾɯ ɕo.zoɴ de.sɯ̥/",
+      "example_translation": "J'ai la ferme intention de faire de mon mieux pour répondre aux attentes."
+    },
+    {
+      "word_id": "v7",
+      "term": "ちりもつもればやまとなる（塵も積もれば山となる）",
+      "phonetic_api": "/t͡ɕi.ɾi mo t͡sɯ.mo.ɾe.ba ja.ma to na.ɾɯ/",
+      "phonetic_simple": "TCHI-RI MO TSU-MO-RÉ-BA YA-MA TO NA-ROU",
+      "translation": "Les petits ruisseaux font les grandes rivières (La poussière accumulée forme une montagne)",
+      "example_sentence": "毎日の小さな経費削減も、塵も積もれば山となる。",
+      "example_phonetic": "/ma.i.ni.t͡ɕi no t͡ɕiː.sa.na keː.çi sa.kɯ.ɡeɴ mo t͡ɕi.ɾi mo t͡sɯ.mo.ɾe.ba ja.ma to na.ɾɯ/",
+      "example_translation": "Même de petites réductions quotidiennes de dépenses font les grandes rivières."
+    },
+    {
+      "word_id": "v8",
+      "term": "おんこちしん（温故知新）",
+      "phonetic_api": "/oɴ.ko t͡ɕi.ɕiɴ/",
+      "phonetic_simple": "ON-KO TCHI-SHIN",
+      "translation": "Tirer des leçons du passé pour comprendre le présent / S'enrichir de l'histoire",
+      "example_sentence": "温故知新の精神で、伝統工芸に革新をもたらす。",
+      "example_phonetic": "/o&mu;.ko t͡ɕi.ɕiɴ no seː.ɕiɴ de deɴ.toː koː.ɡeː ni kḁk.ɕiɴ o mo.ta.ɾa.sɯ/",
+      "example_translation": "En s'inspirant du passé pour innover, nous apportons un renouveau à l'artisanat traditionnel."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "ビジネスの現場では、常に試行錯誤を繰り返す必要がある。",
+      "phonetic_api": "/bi.d͡ʑi.ne.sɯ no ɡeɴ.ba de wa t͡sɯ.ne ni ɕi.koː so̥k.ɯ.ɡo o kɯ.ɾi.ka.e.sɯ çi.t͡sɯ.joː ɡa a.ɾɯ/",
+      "phonetic_simple": "BI-JI-NESU NO GEN-BA DÉ WA, TSU-NÉ NI SHI-KOO SOK-OU-GO O KURI-KAE-SU HIT-SU-YOO GA ARU.",
+      "translation": "Sur le terrain des affaires, il est nécessaire de répéter sans cesse des processus d'essais et d'erreurs.",
+      "context": "Séminaire de management ou d'entrepreneuriat sur la conduite de l'innovation."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "グローバル戦略を怠れば、まさに井の中の蛙となってしまうだろう。",
+      "phonetic_api": "/ɡɯ.ɾoː.ba.ɾɯ seɴ.ɾjḁk.ɯ o o.ko.ta.re.ba ma.sa.ni i no na.ka no ka.wa.zɯ to nḁt.te ɕi.ma.ɯ da.ɾoː/",
+      "phonetic_simple": "GU-ROO-BARU SEN-RYAK-OU O OKO-TA-RÉ-BA, MA-SA-NI I NO NA-KA NO KA-WA-ZOU TO NAT-TÉ SHI-MAU DA-ROO.",
+      "translation": "Si nous négligeons notre stratégie internationale, nous finirons assurément par avoir l'esprit étroit d'une grenouille au fond du puits.",
+      "context": "Réunion du comité exécutif portant sur le développement international."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "新規事業の立ち上げ期は、まさに五里霧中の状態だった。",
+      "phonetic_api": "/ɕi&mu;.ki d͡ʑi.ɡjoː no ta.t͡ɕi.a.ɡe.ki wa ma.sa.ni ɡo.ɾi mɯ.t͡ɕɯː no d͡ʑoː.ta.i dḁt.ta/",
+      "phonetic_simple": "SHIN-KI JI-GYOO NO TA-TCHI-A-GÉ-KI WA, MA-SA-NI GO-RI MOU-TCHUU NO JOO-TAI DAT-TA.",
+      "translation": "La phase de lancement de la nouvelle activité s'apparentait à un flou artistique des plus total.",
+      "context": "Rétrospective de projet partagée par un directeur de filiale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "この出会いを一期一会と考え、最善のご提案をいたします。",
+      "phonetic_api": "/ko.no de.a.i o i̥t.t͡ɕi.ɡo i.t͡ɕi.e to kaɴ.ɡa.e sa.i.zeɴ no ɡo.teː.aɴ o i.ta.ɕi.ma.sɯ̥/",
+      "phonetic_simple": "KO-NO DÉ-A-I O I-TCHI-GO I-TCHI-É TO KAN-GA-É, SAI-ZEN NO GO-TÉE-AN O I-TA-CHI-MASS.",
+      "translation": "Considérant notre rencontre comme une chance unique, je m'apprête à vous soumettre notre meilleure proposition.",
+      "context": "Formule de courtoisie haut de gamme employée lors d'un premier entretien commercial de haut niveau."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "業務のデジタル化は、効率化とコスト削減の一石二鳥を狙える。",
+      "phonetic_api": "/ɡjoː.mɯ no de.d͡ʑi.ta.ɯ.ka wa koː.ɾi̥t.sɯ.ka to ko.sɯ.to sa.kɯ.ɡeɴ no is.se̥k.ɯ ni.t͡choː o ne.ɾa.e.ɾɯ/",
+      "phonetic_simple": "GYOO-MOU NO DÉ-JI-TARU-KA WA, KOO-RIT-SOU-KA TO KOS-TO SA-KOU-GAN NO IS-SEK-OU NI-TCHOO O NÉ-RA-É-RU.",
+      "translation": "La numérisation des processus permet de viser d'une pierre deux coups : gain d'efficacité et baisse des coûts.",
+      "context": "Note de cadrage budgétaire relative à la transformation informatique."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "温故知新の精神が、現代のイノベーションには不可欠です。",
+      "phonetic_api": "/o&mu;.ko t͡ɕi.ɕiɴ no seː.ɕiɴ ɡa ɡeɴ.da.i no i.no.beː.ɕoɴ ni wa ɸɯ.ka.ke̥t.sɯ de.sɯ̥/",
+      "phonetic_simple": "ON-KO TCHI-SHIN NO SÉE-SHIN GA, GEN-DAI NO I-NO-BÉE-SHON NI WA FU-KA-KETS-OU DESS.",
+      "translation": "S'inspirer du passé pour comprendre le présent est un état d'esprit indispensable à l'innovation moderne.",
+      "context": "Conférence d'ouverture sur le design industriel ou la gestion des traditions."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "日々の努力は小さくとも、塵も積もれば山となる。",
+      "phonetic_api": "/çi.bi no do.ɾjo̥k.ɯ wa t͡ɕiː.sa.kɯ to.mo t͡ɕi.ɾi mo t͡sɯ.mo.ɾe.ba ja.ma to na.ɾɯ/",
+      "phonetic_simple": "HI-BI NO DO-RYOK-OU WA TCHII-SA-KOU TO-MO, TCHI-RI MO TSU-MO-RÉ-BA YA-MA TO NA-ROU.",
+      "translation": "Bien que les efforts quotidiens semblent modestes, n'oublions pas que les petits ruisseaux font les grandes rivières.",
+      "context": "Discours de motivation managériale adressé à une équipe opérationnelle."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "現在の状況はまさに五里霧中であり、慎重な判断が求められる。",
+      "phonetic_api": "/ɡeμ.za.i no d͡ʑoː.kjoː wa ma.sa.ni ɡo.ɾi mɯ.t͡ɕɯː de a.ɾi ɕiɴ.t͡choːna haɴ.daɴ ɡa mo.to.me.ɾa.le.ɾɯ/",
+      "phonetic_simple": "GEN-ZAI NO JOO-KYOO WA MA-SA-NI GO-RI MOU-TCHUU DÉ ARI, SHIN-CHOONA HAN-DAN GA MO-TO-MÉ-RA-LÉ-RU.",
+      "translation": "La situation présente s'apparente en tout point à un flou absolu, exigeant un arbitrage des plus prudents.",
+      "context": "Rapport analytique soumis à un conseil de surveillance en période de crise."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'intégration sémantique des Yojijukugo (四字熟語)",
+      "explanation": "Les expressions à quatre caractères fonctionnent grammaticalement comme des noms ou des adjectifs en '～の' (no) ou '～たる' (taru), ou s'insèrent comme des adverbes suivis de la particule 'と' (to). En niveau avancé, elles condensent des paragraphes entiers d'explications en quatre kanjis, conférant au discours une autorité intellectuelle et une élégance littéraire indéniables.",
+      "rules": [
+        "Utilisation nominale : [四字熟語] + の + [Nom] (ex: 試行錯誤の末 - au terme de longs tâtonnements).",
+        "Utilisation verbale : [四字熟語] + とする / としている (ex: 五里霧中としている - se trouver dans le flou)."
+      ],
+      "examples": [
+        {
+          "structure": "新体制は試行錯誤の連続であった (Shintaisei wa shikōsokugo no renzoku de atta)",
+          "phonetic_api": "/ɕiɴ.ta.i.seː wa ɕi.koː so̥k.ɯ.ɡo no ɾeɴ.zo̥k.ɯ de ḁt.ta/",
+          "meaning": "La mise en place de la nouvelle structure a été une succession continue de tâtonnements."
+        }
+      ]
+    },
+    {
+      "concept": "L'assertion métaphorique avec 'まさに' (masani) + Proverbe",
+      "explanation": "Pour valider une analyse par le biais de la sagesse populaire ou classique, le locuteur de niveau C1 introduit l'idiotisme ou le proverbe à l'aide de l'adverbe de confirmation absolue 'まさに' (précisément / en tout point / véritablement). Cette tournure montre que la situation réelle s'inscrit parfaitement dans la règle générale édictée par le dicton.",
+      "rules": [
+        "Structure : [Sujet/Situation] + はまさに + [Proverbe / Yojijukugo] + だ / である。"
+      ],
+      "examples": [
+        {
+          "structure": "今の市場環境はまさに五里霧中である (Ima no shijō kankyō wa masani gorimuchū de aru)",
+          "phonetic_api": "/i.ma no ɕi.d͡ʑoː kaɴ.kjoː wa ma.sa.ni ɡo.ɾi mɯ.t͡ɕɯː de a.ɾɯ/",
+          "meaning": "L'environnement de marché actuel est véritablement en tout point plongé dans le flou le plus total."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "佐藤常務 (Directeur exécutif Satō)",
+      "text": "鈴木部長、新規海外進出の件、リサーチが難航しているようだが、見通しはどうなっているかね。",
+      "phonetic_api": "/sɯ.zɯ.ki bɯ.t͡choː ɕiμ.ki ka.i.ɡa.i ɕiɴ.ɕɯ̥t.sɯ no keɴ ɾi.saː.t͡ɕi ɡa naɴ.koː ɕi.te i.ɾɯ joː da.ɡa mi.toː.ɕi wa doː nḁt.te i.ɾɯ ka ne/",
+      "phonetic_simple": "SU-ZOU-KI BOU-CHOO, SHIN-KI KAI-GAI SHIN-SHUT-SU NO KEN, RI-SAA-TCHI GA NAN-KOO SHI-TÉ IRU YOO DA GA, MI-TOO-SHI WA DOO NAT-TÉ I-ROU KA NÉ ?",
+      "translation": "Directeur Suzuki, au sujet du déploiement international, il semble que les recherches terrain s'enlisent. Quelles sont les perspectives ?"
+    },
+    {
+      "speaker": "鈴木部長 (Directeur Suzuki)",
+      "text": "現地の規制動向が不透明で、まさに五里霧中の状態でございます。しかし、ここで国内に固執すれば井の中の蛙になりかねません。",
+      "phonetic_api": "/ɡeμ.za.i no ki.seː doː.koː ɡa ɸɯ.toː.meː de ma.sa.ni ɡo.ɾi mɯ.t͡ɕɯː no d͡ʑoː.ta.i de ɡo.za.i.ma.sɯ̥ ɕi.ka.ɕi ko.ko de ko.kɯ.na.i ni ko.ɕi̥t.sɯ sɯ.re.ba i no na.ka no ka.wa.zɯ ni na.ɾi.ka.ne.ma.seɴ/",
+      "phonetic_simple": "GEN-ZAI NO KI-SÉI DOO-KOO GA FU-TOO-MÉE DÉ, MA-SA-NI GO-RI MOU-TCHUU NO JOO-TAI DÉ GO-ZA-I-MASS. SHI-KA-CHI, KO-KO DÉ KOKU-NAI NI KO-SHIT-SOU SU-RÉ-BA, I NO NA-KA NO KA-WA-ZOU NI NA-RI-KA-NÉ-MA-SEN.",
+      "translation": "Les évolutions réglementaires locales manquent de clarté, nous sommes véritablement dans le flou le plus total. Néanmoins, si nous nous obstinons à rester centrés sur notre marché national, nous risquons d'adopter l'esprit étroit d'une grenouille au fond du puits."
+    },
+    {
+      "speaker": "佐藤常務 (Directeur exécutif Satō)",
+      "text": "その通りだ。他社との提携による効率化も含め、一石二鳥の具体策を試行錯誤しながら模索してくれ。",
+      "phonetic_api": "/so.no toː.ɾi da ta.ɕa to no teː.keː ni jo.ɾi koː.ɾi̥t.sɯ.ka mo ɸɯ.kɯ.me is.se̥k.ɯ ni.t͡choː no ɡɯ.ta.i.sḁk.ɯ o ɕi.koː so̥k.ɯ.ɡo ɕi.na.ɡa.ra mo.sḁk.ɯ ɕi.te kɯ.れ/",
+      "phonetic_simple": "SO-NO TOO-RI DA. TA-SHA TO NO TÉE-KÉI NI YO-RI KOO-RIT-SOU-KA MO FUKU-MÉ, IS-SEK-OU NI-TCHOO NO GU-TAI-SAK-OU O SHI-KOO SOK-OU-GO SHI-NA-GA-RA MO-SAK-OU CHI-TÉ KOU-RÉ.",
+      "translation": "C'est exact. En incluant des gains d'efficacité via des alliances avec des tiers, recherchez des mesures concrètes faisant d'une pierre deux coups, tout en avançant par essais et erreurs."
+    },
+    {
+      "speaker": "鈴木部長 (Directeur Suzuki)",
+      "text": "承知いたしました。温故知新の精神を忘れず、過去の進出失敗のデータも検証した上で、最善の戦略を構築いたします。",
+      "phonetic_api": "/ɕoː.t͡ɕi i.ta.ɕi.ma.ɕi.ta oμ.ko t͡ɕi.ɕiɴ no seː.ɕiɴ o wa.sɯ.ɾe.zɯ ka.ko no ɕiɴ.ɕɯ̥t.sɯ ɕi̥p.pa.i no deː.ta mo keɴ.ɕoː ɕi.ta ɯ.e de sa.i.zeɴ no seɴ.ɾjḁk.ɯ o koː.t͡ɕi̥k.ɯ i.ta.ɕi.ma.sɯ̥/",
+      "phonetic_simple": "CHOO-CHI I-TA-CHI-MA-CH-TA. ON-KO TCHI-SHIN NO SÉE-SHIN O WA-SOU-RÉ-ZOU, KA-KO NO SHIN-SHUT-SU SHIP-PAI NO DÉE-TA MO KEN-SHOO SHI-TA U-É DÉ, SAI-ZEN NO SEN-RYAK-OU O KOO-CHIK-OU I-TA-CHI-MASS.",
+      "translation": "Entendu. Sans perdre de vue l'importance de s'inspirer des leçons du passé, et après avoir analysé minutieusement les données de nos échecs précédents, je ne manquerai pas de bâtir la meilleure stratégie possible."
+    }
+  ],
+  "cultural_notes": [
+    "Les Yojijukugo (四字熟語) proviennent en grande partie de faits historiques et de textes philosophiques de la Chine antique. En milieu professionnel japonais de haut vol, l'utilisation de ces idiotismes permet d'exprimer des réalités complexes avec concision et dénote une excellente éducation (Kyōyō - 教養).",
+    "La métaphore '井の中の蛙' (La grenouille au fond du puits) est issue d'un texte classique du philosophe Zhuangzi. Elle est régulièrement brandie par les analystes économiques pour secouer l'inertie des grands groupes japonais traditionnels face à la mondialisation, les incitant à rompre avec le nombrilisme entrepreneurial."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel idiotisme à quatre caractères traduit au mieux l'expression 'faire d'une pierre deux coups' ?",
+      "options": [
+        "五里霧中 (Gorimuchū)",
+        "一石二鳥 (Issekinichō)",
+        "一期一会 (Ichigoichie)"
+      ],
+      "correct_answer": "一石二鳥 (Issekinichō)",
+      "explanation": "一石二鳥 (littéralement : une pierre, deux oiseaux) correspond exactement à l'expression métaphorique française d'optimisation d'une action."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "過去のデータを検証し、[ ___ ]知新の精神で新機軸を打ち出す。",
+      "correct_answer": "温故",
+      "hint": "Entrez les deux premiers kanjis en hiragana ou kanji complétant l'expression signifiant 'étudier le passé pour comprendre le présent'."
+    }
+  ]
+}

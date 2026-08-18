@@ -1,0 +1,242 @@
+{
+  "lesson_id": "B1_M1_L3",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 3,
+  "title": "Exprimer ses goûts, ses préférences et ses sentiments",
+  "learning_objectives": [
+    "Exprimer l'appréciation, l'indifférence et le rejet de manière nuancée",
+    "Utiliser correctement les verbes de goût 'нравиться' (plaire) et 'любить' (aimer)",
+    "Maîtriser la construction des verbes de sentiment régissant le cas Datif",
+    "Formuler des comparaisons de préférence en utilisant les conjonctions adaptées"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La terminaison '-тся' du verbe 'Нравится' se prononce comme un [t͡sə] sec et court, sans détacher le 'т' du 'с'. Le son 'Р' dans 'Предпочитать' doit être distinctement roulé [prʲɪtpətɕɪˈtatʲ]. Notez la réduction du 'о' non accentué dans 'Восторг' qui se prononce [vɐsˈtork] avec un dévoisement final du 'г' en [k].",
+    "common_pitfalls": "Attention à la prononciation du mot 'Счастье' (bonheur) : le groupe de lettres 'сч' s'assimile phonétiquement en un son [ɕː] long, identique à la lettre 'щ' ([ˈɕːasʲtʲjə])."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Предпочитать",
+      "phonetic_api": "/prʲɪtpətɕɪˈtatʲ/",
+      "phonetic_simple": "prit-pa-tchi-TAT'",
+      "translation": "Préférer",
+      "example_sentence": "Я предпочитаю чай, а не кофе.",
+      "example_phonetic": "/ja prʲɪtpətɕɪˈtajʊ tɕaj a nʲɪ ˈkofʲɪ/",
+      "example_translation": "Je préfère le thé plutôt que le café."
+    },
+    {
+      "word_id": "v2",
+      "term": "Нравиться",
+      "phonetic_api": "/ˈnravʲɪt͡sʲə/",
+      "phonetic_simple": "NRA-vits-tsya",
+      "translation": "Plaire / Aimer (bien)",
+      "example_sentence": "Мне нравится этот старый фильм.",
+      "example_phonetic": "/mnʲe ˈnravʲɪt͡sʲə ˈɛtət ˈstarɨj fʲilʲm/",
+      "example_translation": "Ce vieux film me plaît."
+    },
+    {
+      "word_id": "v3",
+      "term": "Восторг",
+      "phonetic_api": "/vɐsˈtork/",
+      "phonetic_simple": "vas-TORK",
+      "translation": "Enthousiasme / Ravissement / Délice",
+      "example_sentence": "Мы были в восторге от этого концерта.",
+      "example_phonetic": "/mɨ ˈbɨlʲɪ v vɐsˈtorkʲɪ ɐt ˈɛtəvə kɐnˈt͡sɛrtə/",
+      "example_translation": "Nous étions ravis de ce concert."
+    },
+    {
+      "word_id": "v4",
+      "term": "Равнодушие",
+      "phonetic_api": "/rəvnɐˈduʂɨjə/",
+      "phonetic_simple": "rav-na-DOU-chy-yé",
+      "translation": "Indifférence",
+      "example_sentence": "Я чувствую полное равнодушие к футболу.",
+      "example_phonetic": "/ja ˈtɕustvʊjʊ ˈpolnəjə rəvnɐˈduʂɨjə k fʊdˈbolʊ/",
+      "example_translation": "Je ressens une indifférence totale pour le football."
+    },
+    {
+      "word_id": "v5",
+      "term": "Ненавидеть",
+      "phonetic_api": "/nʲɪnɐˈvʲidʲɪtʲ/",
+      "phonetic_simple": "ni-na-VI-dit'",
+      "translation": "Détester / Haïr",
+      "example_sentence": "Она ненавидит опаздывать на деловые встречи.",
+      "example_phonetic": "/ɐˈna nʲɪnɐˈvʲidʲɪt ɐˈpazdɨvətʲ nə dʲɪlɐˈvɨjə ˈvstrʲetɕɪ/",
+      "example_translation": "Elle déteste être en retard aux réunions d'affaires."
+    },
+    {
+      "word_id": "v6",
+      "term": "Грусть",
+      "phonetic_api": "/ɡrustʲ/",
+      "phonetic_simple": "groust'",
+      "translation": "Tristesse / Mélancolie",
+      "example_sentence": "Осенняя погода часто навевает грусть.",
+      "example_phonetic": "/ɐˈsʲenʲːəjə pɐˈɡodə ˈtɕastə nəvʲɪˈvaɪ̯ɪt ɡrustʲ/",
+      "example_translation": "Le temps automnal inspire souvent de la tristesse."
+    },
+    {
+      "word_id": "v7",
+      "term": "Удовольствие",
+      "phonetic_api": "/ʊdɐˈvolʲstvʲɪjə/",
+      "phonetic_simple": "ou-da-VOL'-stvi-yé",
+      "translation": "Plaisir / Satisfaction",
+      "example_sentence": "Читать книги на русском — это большое удовольствие.",
+      "example_phonetic": "/tɕɪˈtatʲ ˈknʲiɡʲɪ nə ˈruskəm ˈɛtə bɐlʲˈʂojə ʊdɐˈvolʲstvʲɪjə/",
+      "example_translation": "Lire des livres en russe est un grand plaisir."
+    },
+    {
+      "word_id": "v8",
+      "term": "Скучать",
+      "phonetic_api": "/skʊˈtɕatʲ/",
+      "phonetic_simple": "skou-TCHAT'",
+      "translation": "S'ennuyer / Manquer (regretter l'absence)",
+      "example_sentence": "Я скучаю по своей семье.",
+      "example_phonetic": "/ja skʊˈtɕajʊ pɐ svɐˈjej sʲɪˈmʲje/",
+      "example_translation": "Ma famille me manque (Je m'ennuie de ma famille)."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Мне кажется, что это отличная идея",
+      "phonetic_api": "/mnʲe ˈkaʐɨt͡sʲə ʂto ˈɛtə ɐˈtlʲitɕnəjə ɪˈdʲejə/",
+      "phonetic_simple": "mnié KA-jits-tsya, chto E-ta at-LI-tchna-ya i-DIÉ-ya",
+      "translation": "Il me semble que c'est une excellente idée",
+      "context": "Formuler poliment un avis personnel en réunion ou débat."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Я терпеть не могу холодную погоду",
+      "phonetic_api": "/ja tʲɪrˈpʲetʲ nʲɪ mɐˈɡu xɐˈlodnʊjʊ pɐˈɡodʊ/",
+      "phonetic_simple": "ya tir-PIET' ni ma-GOU ha-LOD-nou-iou pa-GO-dou",
+      "translation": "Je ne peux pas supporter le temps froid",
+      "context": "Expression idiomatique très forte pour signifier un rejet net."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Это не имеет для меня значения",
+      "phonetic_api": "/ˈɛtə nʲɪ ɪˈmʲeɪ̯ɪt dlʲa mʲɪˈnʲa znɐˈtɕenʲɪjə/",
+      "phonetic_simple": "E-ta ni i-MIÉ-it dlia mi-NIA zna-TCHIE-ni-ya",
+      "translation": "Cela n'a pas d'importance pour moi",
+      "context": "Idéal pour exprimer une indifférence polie face à un choix."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Я в восторге от этой выставки!",
+      "phonetic_api": "/ja v vɐsˈtorkʲɪ ɐt ˈɛtəj ˈvɨstəfkʲ/",
+      "phonetic_simple": "ya v vas-TORKI at E-taï VY-staf-ki !",
+      "translation": "Je suis enchanté par cette exposition !",
+      "context": "Pour partager un coup de cœur culturel intense."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Distinguer Нравиться (plaire) et Любить (aimer/adorer)",
+      "explanation": "Bien que proches, ces deux verbes se construisent de manières diamétralement opposées et traduisent deux nuances distinctes de goût.",
+      "rules": [
+        "Любить exige un sujet au Nominatif et un complément à l'Accusatif. Il exprime un goût permanent, profond (Я люблю классическую музыку).",
+        "Нравиться exige que la personne qui éprouve le goût soit au cas Datif. L'objet aimé devient le sujet de la phrase au Nominatif (Мне нравится эта книга = Litt. À moi plaît ce livre). Il s'utilise souvent pour une impression immédiate ou une appréciation esthétique."
+      ],
+      "examples": [
+        {
+          "structure": "Я люблю этот город, но мне не нравится сегодняшняя погода.",
+          "phonetic_api": "/ja lʲʊbˈlʲu ˈɛtət ˈɡorət no mnʲe nʲɪ ˈnravʲɪt͡sʲə sʲɪˈvodnʲəʂnʲəjə pɐˈɡod|/",
+          "meaning": "J'aime cette ville, mais je n'aime pas le temps qu'il fait aujourd'hui."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression des sentiments impersonnels au cas Datif",
+      "explanation": "En russe, de nombreux états d'âme, sentiments ou sensations physiques n'utilisent pas de verbe actif mais des adverbes prédicatifs combinés au cas Datif.",
+      "rules": [
+        "La personne subissant le sentiment se décline au Datif (Мне, Тебе, Вам, Ему, Ей, Нам, Им).",
+        "On y ajoute l'adverbe d'état : скучно (s'ennuyer), грустно (être triste), весело (s'amuser), стыдно (avoir honte), страшно (avoir peur)."
+      ],
+      "examples": [
+        {
+          "structure": "Ей грустно одной дома, а нам здесь очень весело.",
+          "phonetic_api": "/jej ˈɡrusnə ɐdˈnoj ˈdomə a nam zdʲesʲ ˈotɕɪnʲ ˈvʲesʲɪlə/",
+          "meaning": "Elle est triste seule à la maison, tandis que nous, nous nous amusons beaucoup ici."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Елена",
+      "text": "Иван, ты выглядишь немного грустным. Что-то случилось?",
+      "phonetic_api": "/ɪˈvan tɨ ˈvɨɡlʲɪdʲɪʂ nʲɪmˈnoɡə ˈɡrusnɨm ˈʂto tə slʊˈtɕiləsʲ/",
+      "phonetic_simple": "i-VAN, ty VY-gliadich ni-MNO-ga GROUS-nym. Chto-ta slou-TCHI-lass' ?",
+      "translation": "Ivan, tu as l'air un peu triste. Il s'est passé quelque chose ?"
+    },
+    {
+      "speaker": "Иван",
+      "text": "Да нет, всё нормально. Просто мне немного скучно в последнее время. Погода плохая, я терпеть не могу эту бесконечную осень.",
+      "phonetic_api": "/da nʲet fsʲۆ nɐrˈmalʲnə ˈprostə mnʲe nʲemˈnoɡə ˈsku tɕnə f pɐˈslʲednʲɪjə ˈvrʲemʲə pɐˈɡodə plɐˈxajə ja tʲɪrˈpʲetʲ nʲɪ mɐˈɡu ˈɛtʊ bʲɪskɐˈnʲetɕnʊjʊ ˈosʲɪnʲ/",
+      "phonetic_simple": "Da niet, vssio nar-MAL-na. PROS-ta mnié ni-MNO-ga SKOUCH-na v pas-LIED-ni-yé VRIE-mia. Pa-GO-da pla-HA-ya, ya tir-PIET' ni ma-GOU E-tou biz-ka-NIECH-nou-iou O-ssin'.",
+      "translation": "Mais non, tout va bien. C'est juste que je m'ennuie un peu ces derniers temps. Le temps est mauvais, je ne peux pas supporter cet automne interminable."
+    },
+    {
+      "speaker": "Елена",
+      "text": "Понимаю. А мне, наоборот, очень нравится осень в городе. Я люблю гулять в парке, когда опадают листья. Это навевает приятную меланхолию.",
+      "phonetic_api": "/pənʲɪˈmajʊ a mnʲe nəɐbɐˈrot ˈotɕɪnʲ ˈnravʲɪt͡sʲə ˈosʲɪnʲ f ˈɡorədʲɪ ja lʲʊbˈlʲu ɡʊˈlʲatʲ f ˈparkɪ kɐɡˈda ɐpɐˈda|ʊt ˈlʲisʲtʲjə ˈɛtə nəvʲɪˈvaɪ̯ɪt prʲɪˈjatnʊjʊ mʲɪlənxɐˈlʲijʊ/",
+      "phonetic_simple": "pa-ni-MA-iou. A mnié, na-a-ba-ROT, O-tchine NRA-vits-tsya O-ssin' v GO-ra-di. Ya liou-BLIOU gou-LIAT' v PAR-ki, ka-GDA a-pa-DA-iout LIS-t'ya. E-ta na-vi-VA-iet pri-YAT-nou-iou mi-lan-ha-LI-iou.",
+      "translation": "Je comprends. À moi, au contraire, l'automne en ville me plaît beaucoup. J'aime me promener dans le parc quand les feuilles tombent. Cela inspire une agréable mélancolie."
+    },
+    {
+      "speaker": "Иван",
+      "text": "Ну, у каждого свои предпочтения. Я предпочитаю активный отдых и яркое солнце. Жду не дождусь зимы, чтобы поехать в горы.",
+      "phonetic_api": "/nu ʊ ˈkaʐdəvə svɐˈi prʲɪtpətɕˈtʲenʲɪjə ja prʲɪtpətɕɪˈtajʊ ɐkˈtʲivnɨj ˈoddɨx ˈi ˈjarkəjə ˈsont͡sə ʐdu nʲɪ dɐʐˈdusʲ zʲɪˈmɨ ˈchtobɨ pɐˈjexatʲ f ˈɡorɨ/",
+      "phonetic_simple": "Nou, ou KAJ-da-va sva-I prit-patch-TIÉ-ni-ya. Ya prit-pa-tchi-TA-iou ak-TIV-nyj OD-dyh i IAR-ka-yé SON-tsé. Jdou ni daj-DOUS' zi-MY, TCHTO-by pa-IE-hat' v GO-ry.",
+      "translation": "Chacun ses préférences. Moi, je préfère les loisirs actifs et un soleil radieux. J'ai vraiment hâte que l'hiver arrive pour pouvoir aller à la montagne."
+    }
+  ],
+  "cultural_notes": [
+    "La nostalgie et la mélancolie russe (Тоска / Грусть) : La culture et la littérature russes (notamment à travers Pouchkine ou Tchekhov) valorisent une forme de mélancolie douce, souvent liée aux changements de saisons. Être 'грустный' (triste/pensif) n'est pas forcément perçu de manière négative, mais plutôt comme une preuve de profondeur d'âme.",
+    "L'expression 'Жду не дождусь' : Cette tournure idiomatique populaire signifie littéralement 'j'attends et je n'en finis pas d'attendre'. C'est le parfait équivalent de notre expression française 'j'ai vraiment hâte de' ou 'vivement'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M1_L3_ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la tournure grammaticale exacte pour traduire : 'Je m'ennuie ici.'",
+      "options": [
+        "Я скучно здесь.",
+        "Мне скучно здесь.",
+        "Меня скучно здесь.",
+        "Мой скучно здесь."
+      ],
+      "correct_answer": "Мне скучно здесь.",
+      "explanation": "Les expressions d'états d'esprit impersonnels (comme 'скучно') requièrent l'usage obligatoire du pronom personnel au cas Datif ('Мне')."
+    },
+    {
+      "exercise_id": "B1_M1_L3_ex2",
+      "type": "multiple_choice",
+      "question": "Complétez correctement la phrase suivante : 'Анне очень [ ___ ] этот новый ресторан.'",
+      "options": [
+        "любит",
+        "нравится",
+        "предпочитает",
+        "ненавидит"
+      ],
+      "correct_answer": "нравится",
+      "explanation": "Le sujet initial 'Анна' est décliné au Datif ('Анне'). Seul le verbe 'нравится' est compatible avec cette structure impersonnelle où le restaurant devient le sujet réel."
+    },
+    {
+      "exercise_id": "B1_M1_L3_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Я просто [ ___ ] эту рок-группу, я слушаю их треки каждый день! (Adorer / Aimer profondément)",
+      "correct_answer": "люблю",
+      "hint": "Verbe actif conjugué à la première personne du singulier au présent, régissant l'Accusatif."
+    },
+    {
+      "exercise_id": "B1_M1_L3_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ему стало очень [ ___ ], когда он узнал, что поездка отменяется. (Triste)",
+      "correct_answer": "грустно",
+      "hint": "Adverbe d'état impersonnel traduisant le sentiment de tristesse après un pronom au Datif."
+    }
+  ]
+}

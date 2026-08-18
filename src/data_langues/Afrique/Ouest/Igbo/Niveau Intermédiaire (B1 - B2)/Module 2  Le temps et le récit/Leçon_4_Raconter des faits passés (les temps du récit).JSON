@@ -1,0 +1,254 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Structurer un récit chronologique cohérent au passé en igbo standard",
+    "Maîtriser et appliquer le suffixe du passé accompli '-ra'",
+    "Utiliser les adverbes de temps et connecteurs pour ordonner des événements passés"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Analysez le mot 'Gara' (est allé). Le suffixe '-ra' s'accorde phonétiquement avec la voyelle du radical verbal. Le 'g' initial se prononce de façon occlusive vélaire sonore standard. Le digramme 'gb' dans 'Mgbe' s'articule comme une consonne injective bilabiale sonore /ɓ/.",
+    "common_pitfalls": "Faites attention au ton du suffixe '-ra'. Il copie généralement le ton du radical verbal ou s'ajuste sur un ton bas pour marquer le fait accompli. Ne confondez pas 'Ànyá' (œil) et 'Ányá' (loin) lors de la description de distances temporelles."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v13_1",
+      "term": "Mgbe",
+      "phonetic_api": "/ḿɡ͡ɓé/",
+      "phonetic_simple": "M-GBEH",
+      "translation": "Quand / Lorsque / Le moment où",
+      "example_sentence": "Mgbe m hụrụ ya, obi tọrọ m ụtọ.",
+      "example_phonetic": "/ḿɡ͡ɓé m ɦʊ̀ɾù já óɓí tɔ̀ɾɔ́ m ʊ̀tɔ́/",
+      "example_translation": "Quand je l'ai vu, j'ai été heureux."
+    },
+    {
+      "word_id": "v13_2",
+      "term": "Gara aga",
+      "phonetic_api": "/ɡáɾá áɡá/",
+      "phonetic_simple": "GAH-RAH AH-GAH",
+      "translation": "Passé / Dernier (ex: la semaine dernière)",
+      "example_sentence": "N'izu gara aga, m jere Enugu.",
+      "example_phonetic": "/nɪ́zū ɡá|á áɡá m dʒéɾé ēnūɡʊ́/",
+      "example_translation": "La semaine dernière, je suis allé à Enugu."
+    },
+    {
+      "word_id": "v13_3",
+      "term": "Ụbọchị gara aga",
+      "phonetic_api": "/ʊ́ɓɔ́tʃɪ̀ ɡáɾá áɡá/",
+      "phonetic_simple": "OU-BOH-CHEE GAH-RAH AH-GAH",
+      "translation": "L'autre jour / Récemment",
+      "example_sentence": "Anyị hụrụ Maazị Obi n'ụbọchị gara aga.",
+      "example_phonetic": "/āɲɪ́ ɦʊ̀ɾù māːzɪ̀ óɓī nʊ́ɓɔ́tʃɪ̀ ɡá|á áɡá/",
+      "example_translation": "Nous avons vu Monsieur Obi l'autre jour."
+    },
+    {
+      "word_id": "v13_4",
+      "term": "Tupu",
+      "phonetic_api": "/túpú/",
+      "phonetic_simple": "TOO-POO",
+      "translation": "Avant / Avant que",
+      "example_sentence": "M riri nri tupu m rụọ ọrụ.",
+      "example_phonetic": "/m ɾīɾí ńɾī túpú m ɾʊ́ɔ́ ɔ̀ɾʊ́/",
+      "example_translation": "J'ai mangé avant de travailler."
+    },
+    {
+      "word_id": "v13_5",
+      "term": "Emesịa / Mgbe emesịrị",
+      "phonetic_api": "/èmésɪ́á/",
+      "phonetic_simple": "EH-MEH-SEE-AH",
+      "translation": "Ensuite / Plus tard / Après cela",
+      "example_sentence": "O jere ụlọ akwụkwọ, emesịa ọ batara na be anyị.",
+      "example_phonetic": "/ó dʒéɾé ʊ̀lọ́ ákwʊ́kwɔ̀ èmésɪ́á ɔ́ ɓàtáɾá ná bé āɲɪ́/",
+      "example_translation": "Il est allé à l'école, ensuite il est entré chez nous."
+    },
+    {
+      "word_id": "v13_6",
+      "term": "Ịbịarute",
+      "phonetic_api": "/ị̀ɓị́áɾúté/",
+      "phonetic_simple": "EE-BEE-AH-ROO-TEH",
+      "translation": "Arriver (en un lieu) / Parvenir",
+      "example_sentence": "Anyị biaruterere n'ọdụ ụgbọala n'oge.",
+      "example_phonetic": "/āɲɪ́ ɓị́áɾútéɾé nɔ́dʊ́ ʊ̀ɡ͡ɓɔ́ālá nɔ́ɡè/",
+      "example_translation": "Nous sommes arrivés à la gare routière à temps."
+    },
+    {
+      "word_id": "v13_7",
+      "term": "Ịkọọ",
+      "phonetic_api": "/ị̀kɔ́ɔ́/",
+      "phonetic_simple": "EE-KOH-OH",
+      "translation": "Raconter / Narrer / Expliquer",
+      "example_sentence": "Nne ochie kọọrọ anyị akụkọ ọma.",
+      "example_phonetic": "/nnē ótʃíé kɔ́ɔ̀ɾɔ́ āɲɪ́ ákʊ́kɔ́ ɔ̀mā/",
+      "example_translation": "Grand-mère nous a raconté une belle histoire."
+    },
+    {
+      "word_id": "v13_8",
+      "term": "Akụkọ mgbe ochie",
+      "phonetic_api": "/ákʊ́kɔ́ ḿɡ͡ɓé ótʃíé/",
+      "phonetic_simple": "AH-KOU-KOH M-GBEH OH-CHEE-EH",
+      "translation": "Histoire passée / Conte ancien / Légende",
+      "example_sentence": "Akụkọ mgbe ochie na-asọ m mma.",
+      "example_phonetic": "/ákʊ́kɔ́ ḿɡ͡ɓé ótʃíé nā-āsɔ́ m mmā/",
+      "example_translation": "J'aime les récits anciens."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p13_1",
+      "original": "Kọọrọ m ihe merenụ n'ụbọchị Saturday gara aga.",
+      "phonetic_api": "/kɔ́ɔ̀ɾɔ́ m ìfê méɾénʊ́ nʊ́ɓɔ́tʃɪ̀ sátọ̀dè ɡáɾá áɡá/",
+      "phonetic_simple": "KOH-OH-ROH M EE-FEH MEH-REH-NOOU NOOU-BOH-CHEE SAH-TOH-DEH GAH-RAH AH-GAH",
+      "translation": "Raconte-moi ce qui s'est passé samedi dernier.",
+      "context": "Demander une narration détaillée d'un fait passé."
+    },
+    {
+      "phrase_id": "p13_2",
+      "original": "Mgbe anyị jere ahia, anyị zụrụ ọtụtụ ihe.",
+      "phonetic_api": "/ḿɡ͡ɓé āɲɪ́ dʒéɾé áɦịá āɲɪ́ zʊ̀ɾù ɔ̀tʊ́tʊ́ ìfê/",
+      "phonetic_simple": "M-GBEH AH-NYEE JEH-REH AH-HYAH AH-NYEE ZOO-ROO OH-TOOU-TOOU EE-FEH",
+      "translation": "Quand nous sommes allés au marché, nous avons acheté beaucoup de choses.",
+      "context": "Introduire une action passée simultanée."
+    },
+    {
+      "phrase_id": "p13_3",
+      "original": "Onye kọọrọ gị akụkọ a?",
+      "phonetic_api": "/òɲé kɔ́ɔ̀ɾɔ́ ɟɪ́ ákʊ́kɔ́ á/",
+      "phonetic_simple": "OH-NYEH KOH-OH-ROH GEE AH-KOU-KOH AH",
+      "translation": "Qui t'a raconté cette histoire ?",
+      "context": "S'enquérir de la source d'un récit."
+    },
+    {
+      "phrase_id": "p13_4",
+      "original": "Tupu ọkụ anyụọ, anyị rụchara ọrụ anyị.",
+      "phonetic_api": "/túpú ɔ́kụ́ áɲʊ́ɔ́ āɲɪ́ ɾʊ́tʃáɾá ɔ̀|ʊ́ āɲɪ́/",
+      "phonetic_simple": "TOO-POO OH-KOU AH-NYOO-OH AH-NYEE ROU-CHAH-RAH OH-ROU AH-NYEE",
+      "translation": "Avant que le courant ne se coupe, nous avions terminé notre travail.",
+      "context": "Ordonner deux événements passés successifs."
+    },
+    {
+      "phrase_id": "p13_5",
+      "original": "Nna m rụrụ ọrụ n'obodo Lagos afọ ise gara aga.",
+      "phonetic_api": "/nnā m ɾʊ̀ɾù ɔ̀|ʊ́ nòɓòdò lēɡɔ́sị̀ àfɔ̀ īsé ɡáɾá áɡá/",
+      "phonetic_simple": "N-NAH M ROU-ROO OH-ROU NOH-BOH-DOH LEH-GOS AfOH EE-SEH GAH-RAH AH-GAH",
+      "translation": "Mon père a travaillé à Lagos il y a cinq ans.",
+      "context": "Situer une action professionnelle dans le passé."
+    },
+    {
+      "phrase_id": "p13_6",
+      "original": "Emesịa, anyị lọtara na be anyị n'anyasị.",
+      "phonetic_api": "/èmésɪ́á āɲɪ́ lɔ̀táɾá ná bé āɲɪ́ nàɲasɪ̀/",
+      "phonetic_simple": "EH-MEH-SEE-AH AH-NYEE LOH-TAH-RAH NAH BEH AH-NYEE NAH-NYAH-SEE",
+      "translation": "Après cela, nous sommes rentrés chez nous le soir.",
+      "context": "Utiliser un connecteur pour faire avancer le récit."
+    },
+    {
+      "phrase_id": "p13_7",
+      "original": "Ihe a merere n'oge gboo.",
+      "phonetic_api": "/ìfê á méɾéɾé nɔ́ɡè ɡ͡ɓōː/",
+      "phonetic_simple": "EE-FEH AH MEH-REH-REH NOH-GEH GBOO",
+      "translation": "Cette chose s'est produite il y a très longtemps (autrefois).",
+      "context": "Situer un fait historique ou un conte."
+    },
+    {
+      "phrase_id": "p13_8",
+      "original": "Anyị hụrụ ezigbo añụrị mgbe ọ bịarutere.",
+      "phonetic_api": "/āɲɪ́ ɦʊ̀ɾù ézíɡ͡ɓó āɲʊ́ɾɪ́ ḿɡ͡ɓé ɔ́ ɓị́áɾútéɾé/",
+      "phonetic_simple": "AH-NYEE HOO-ROO EH-ZEE-GBOH AH-NYOU-REE M-GBEH OH BEE-AH-ROO-TEH-REH",
+      "translation": "Nous avons ressenti une grande joie lorsqu'il est arrivé.",
+      "context": "Décrire l'atmosphère émotionnelle d'un souvenir."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le suffixe du passé accompli '-ra' (Sufịksị '-ra')",
+      "explanation": "Pour indiquer qu'une action est complètement achevée dans le passé, l'igbo attache un suffixe au radical verbal. La consonne est toujours 'r', mais la voyelle reproduit fidèlement la voyelle du radical par harmonie vocalique.",
+      "rules": [
+        "Radical verbal avec voyelle lourde -> suffixe lourd (-ra, -rọ, -ru, -ra).",
+        "Radical verbal avec voyelle légère -> suffixe léger (-re, -ri, -ro, -ru).",
+        "Exemples : Ịbịa (Venir) -> Bịara (Est venu) ; Ịje (Aller) -> Jere (Est allé)."
+      ],
+      "examples": [
+        {
+          "structure": "[Radical verbal] + r[Voyelle harmonisée]",
+          "phonetic_api": "/ó zʊ̀ɾù dʒī/",
+          "meaning": "O zụrụ ji. (Il/Elle a acheté de l'igname. Radical: zụ)"
+        }
+      ]
+    },
+    {
+      "concept": "Le redoublement du suffixe de passé '-ra' pour l'éloignement temporel",
+      "explanation": "Au niveau intermédiaire, pour marquer qu'un événement s'est produit dans un passé lointain ou antérieur à une autre action passée (équivalent du plus-que-parfait), l'igbo redouble le suffixe '-ra' sous la forme '-rere' ou '-rara'.",
+      "rules": [
+        "Structure : Radical + ra + ra (ou re + re).",
+        "Ịme (Faire) -> Merere (Avait fait / s'est produit autrefois)."
+      ],
+      "examples": [
+        {
+          "structure": "[Radical] + ra + ra",
+          "phonetic_api": "/ìfê á méɾéɾé nɔ́ɡè ɡ͡ɓōː/",
+          "meaning": "Ihe a merere n'oge gboo. (Ceci s'est produit il y a fort longtemps.)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amaka",
+      "text": "Obi, ndewo. Kọọrọ m gbasara njem gị n'izu gara aga. Kedu ka ọ gaziere?",
+      "phonetic_api": "/óɓī ndèwó kɔ́ɔ̀ɾɔ́ m ɡ͡ɓàsáɾá ɲdʒèm ɟɪ́ nɪ́zū ɡáɾá áɡá kèdú ká ô ɡāzɡ̄iéˠ/",
+      "phonetic_simple": "OH-BEE N-DEH-WOH KOH-OH-ROH M GBA-SAH-RAH N-JEHM GEE NEE-ZOO GAH-RAH AH-GAH KEH-DOU KAH OH GAH-ZEE-EH",
+      "translation": "Obi, salut. Raconte-moi ton voyage de la semaine dernière. Comment cela s'est-il passé ?"
+    },
+    {
+      "speaker": "Obi",
+      "text": "Amaka, njem m gaziere nke ọma. N'ụbọchị Monday, m jere obodo Owerri hụ nna ochie m.",
+      "phonetic_api": "/àmāɾá ɲdʒèm m ɡázìèɾè ŋkè ɔ̀mā nʊ́ɓɔ́tʃɪ̀ mʊ́ndè m dʒéɾé òɓòdò òwèɾè ɦʊ́ nnā ótʃíé m/",
+      "phonetic_simple": "AH-MAH-KAH N-JEHM M GAH-ZEE-EH-REH N-KEH OH-MA NOOU-BOH-CHEE MOUN-DEH M JEH-REH OH-BOH-DOH OH-WEH-REE HOO N-NAH OH-CHEE-EH M",
+      "translation": "Amaka, mon voyage s'est très bien passé. Lundi, je suis allé dans la ville d'Owerri pour voir mon grand-père."
+    },
+    {
+      "speaker": "Amaka",
+      "text": "Ọ dị mma. Gịnị ka ị mere mgbe ị biarutere ebe ahụ?",
+      "phonetic_api": "/ɔ́ dɪ̀ mmā ɟǐnɪ́ ká ị̀ méré ḿɡ͡ɓé ị̀ ɓị́áɾútéɾé éɓé àɦʊ́/",
+      "phonetic_simple": "OH DEE MMA GEE-NEE KAH EE MEH-REH M-GBEH EE BEE-AH-ROO-TEH-REH EH-BEH AH-HOU",
+      "translation": "C'est bien. Qu'as-tu fait quand tu es arrivé là-bas ?"
+    },
+    {
+      "speaker": "Obi",
+      "text": "Tupu m gawa ụlọ ya, m zụrụ anụ na ji n'ahia. Emesịa, anyị riri nri, nna ochie kọọrọ m akụkọ mgbe ochie.",
+      "phonetic_api": "/túpú m ɡáwá ʊ̀lọ́ já m zʊ̀ɾù ānʊ́ ná dʒī náfịá èmésɪ́á āɲɪ́ ɾīɾí ńɾī nnā ótʃíé kɔ́ɔ̀ɾɔ́ m ákʊ́kɔ́ ḿɡ͡ɓé ótʃíé/",
+      "phonetic_simple": "TOO-POO M GAH-WAH OU-LOH YAH M ZOO-ROO AH-NOU NAH JEE NAH-HYAH EH-MEH-SEE-AH AH-NYEE REE-REE N-REE N-NAH OH-CHEE-EH KOH-OH-ROH M AH-KOU-KOH M-GBEH OH-CHEE-EH",
+      "translation": "Avant de me rendre chez lui, j'ai acheté de la viande et de l'igname au marché. Ensuite, nous avons mangé, et mon grand-père m'a raconté des histoires anciennes."
+    }
+  ],
+  "cultural_notes": [
+    "La transmission orale de l'histoire et des généalogies familiales se fait traditionnellement le soir, autour du feu ou sous l'arbre à palabres ('Obiri'). Ce rôle de gardien du récit du passé incombe particulièrement aux aînés ('Ndi Ochie').",
+    "L'expression 'Gara aga' reflète la conception linéaire et cyclique du temps chez les Igbos : ce qui est passé continue d'avancer et de guider les vivants.",
+    "Raconter un voyage ou donner des nouvelles de sa lignée à son retour est un protocole obligatoire de courtoisie et de respect communautaire."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex13_1",
+      "type": "multiple_choice",
+      "question": "Quel est le passé correct du verbe 'Ịzụ' (Acheter) pour dire 'J'ai acheté' ?",
+      "options": [
+        "M zụrụ",
+        "M zụre",
+        "M zụra"
+      ],
+      "correct_answer": "M zụrụ",
+      "explanation": "Le radical 'zụ' a une voyelle lourde 'ụ'. Le suffixe prend la forme '-rụ' par harmonie vocalique stricte."
+    },
+    {
+      "exercise_id": "ex13_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] m hụrụ ya, m nwere obi ụtọ.",
+      "correct_answer": "Mgbe",
+      "hint": "Le mot signifiant 'Quand' ou 'Lorsque' pour introduire un récit."
+    }
+  ]
+}

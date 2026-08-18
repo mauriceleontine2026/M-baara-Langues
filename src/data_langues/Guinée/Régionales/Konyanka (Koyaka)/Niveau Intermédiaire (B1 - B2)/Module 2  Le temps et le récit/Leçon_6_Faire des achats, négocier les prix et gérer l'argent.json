@@ -1,0 +1,189 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Maîtriser le lexique des transactions commerciales et de la monnaie en konyanka",
+    "Formuler des propositions de prix et argumenter lors d'un marchandage",
+    "Exprimer l'accord ou le désaccord sur le coût d'une marchandise"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot 'wari' /wa.ri/ s'articule avec une semi-voyelle labio-vélaire et un 'r' battu très court. La consonne nasale vélaire /ŋ/ combinée à une occlusive dans 'sɔngɔ' /sɔŋ.ɡɔ/ (le prix) demande de projeter l'air simultanément par le nez et l'arrière de la gorge sans séparer les deux sons.",
+    "common_pitfalls": "Attention à ne pas durcir le 'g' de 'dɔɔni' ou 'sɔngɔ'. Veillez également à ne pas confondre le son ouvert /ɔ/ de 'sɔngɔ' avec le son fermé /o/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Wari",
+      "phonetic_api": "/wa.ri/",
+      "phonetic_simple": "WA-RI",
+      "translation": "Argent / Monnaie",
+      "example_sentence": "Wari tɛ n'bolo bi.",
+      "example_phonetic": "/wa.ri tɛ mbo.lo bi/",
+      "example_translation": "Je n'ai pas d'argent sur moi aujourd'hui."
+    },
+    {
+      "word_id": "v2",
+      "term": "Sɔngɔ",
+      "phonetic_api": "/sɔŋ.ɡɔ/",
+      "phonetic_simple": "SƆN-GƆ",
+      "translation": "Prix / Valeur",
+      "example_sentence": "A sɔngɔ ka gban.",
+      "example_phonetic": "/a sɔn.ɡɔ ka ɡ͡bã/",
+      "example_translation": "Son prix est cher (élevé)."
+    },
+    {
+      "word_id": "v3",
+      "term": "San",
+      "phonetic_api": "/sã/",
+      "phonetic_simple": "SAN",
+      "translation": "Acheter",
+      "example_sentence": "N'bɛ malo san fɛ.",
+      "example_phonetic": "/mbɛ ma.lo sã fɛ/",
+      "example_translation": "Je veux acheter du riz."
+    },
+    {
+      "word_id": "v4",
+      "term": "Feere",
+      "phonetic_api": "/feː.re/",
+      "phonetic_simple": "FÉÉ-RÉ",
+      "translation": "Vendre",
+      "example_sentence": "A bɛ fini lu feere la.",
+      "example_phonetic": "/a bɛ fi.nĩ lu feː.re la/",
+      "example_translation": "Elle vend des vêtements."
+    },
+    {
+      "word_id": "v5",
+      "term": "Dɔgɔya",
+      "phonetic_api": "/dɔ.ɡɔ.ja/",
+      "phonetic_simple": "DƆ-GƆ-YA",
+      "translation": "Diminuer / Rabaisser",
+      "example_sentence": "Sɔngɔ dɔgɔya n'ye.",
+      "example_phonetic": "/sɔn.ɡɔ dɔ.ɡɔ.ja ɲe/",
+      "example_translation": "Diminue le prix pour moi."
+    },
+    {
+      "word_id": "v6",
+      "term": "Wari-muso",
+      "phonetic_api": "/wa.ri.mu.so/",
+      "phonetic_simple": "WA-RI-MOU-SO",
+      "translation": "Bénéfice / Intérêt (litt. la femme de l'argent)",
+      "example_sentence": "Wari-muso tɛ n'fɛ.",
+      "example_phonetic": "/wa.ri.mu.so tɛ nfɛ/",
+      "example_translation": "Je ne fais aucun bénéfice."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "A sɔngɔ bɛ di?",
+      "phonetic_api": "/a sɔn.ɡɔ bɛ di/",
+      "phonetic_simple": "A SƆN-GƆ BÈ DI",
+      "translation": "Combien ça coûte ? (litt. comment est son prix ?)",
+      "context": "La formule essentielle pour débuter toute transaction au marché."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "A ka gban bɛrɛbɛrɛ, dɔɔni dɔgɔya.",
+      "phonetic_api": "/a ka ɡ͡bã bɛ.rɛ.bɛ.rɛ dɔː.ni dɔ.ɡɔ.ja/",
+      "phonetic_simple": "A KA GBAN BÈ-RÈ-BÈ-RÈ, DƆƆ-NI DƆ-GƆ-YA",
+      "translation": "C'est trop cher, diminue un peu.",
+      "context": "Phrase typique de marchandage pour inciter le vendeur à baisser son prix."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "N'bɛ dalasi tan di i ma.",
+      "phonetic_api": "/mbɛ da.la.si tã di i ma/",
+      "phonetic_simple": "N-BÈ DA-LA-SI TAN DI I MA",
+      "translation": "Je te donne dix dalasis (ou unités monétaires de compte).",
+      "context": "Formuler sa contre-proposition financière exacte."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "A bɛ n'bɔ.",
+      "phonetic_api": "/a bɛ mbɔ/",
+      "phonetic_simple": "A BÈ N-BƆ",
+      "translation": "Ça me va / C'est d'accord (litt. ça me libère / me convient).",
+      "context": "Expression finale pour sceller l'accord commercial."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le qualificatif de coût 'ka gban' (être cher)",
+      "explanation": "Pour qualifier un état ou une valeur financière élevée, le konyanka utilise la structure qualitative 'ka' suivie de la racine 'gban' (chaud/cher). À l'inverse, pour exprimer la modicité, on utilise la racine 'dɔgɔ' (petit/faible).",
+      "rules": [
+        "Structure descriptive : Sujet + ka + gban (ex: 'Sɔngɔ ka gban' = Le prix est cher).",
+        "Pour exprimer l'obligation ou la finalité de l'action de diminution, on utilise l'impératif direct ou le subjonctif court."
+      ],
+      "examples": [
+        {
+          "structure": "Fini nin ka gban",
+          "phonetic_api": "/fi.nĩ nĩ ka ɡ͡bã/",
+          "meaning": "Ce vêtement est cher"
+        },
+        {
+          "structure": "A sɔngɔ ka dɔgɔ",
+          "phonetic_api": "/a sɔn.ɡɔ ka dɔ.ɡɔ/",
+          "meaning": "Son prix est bas / abordable"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Acha",
+      "text": "N'ba, i bɛ jɛgɛ nin feere joli la?",
+      "phonetic_api": "/mba i bɛ d͡ʒɛ.ɡɛ nĩ feː.re d͡ʒo.li la/",
+      "phonetic_simple": "M-BA, I BÈ DJÈ-GÈ NIN FÉÉ-RÉ DJO-LI LA ?",
+      "translation": "Maman, à combien vends-tu ce poisson ?"
+    },
+    {
+      "speaker": "Feerelala (Vendeuse)",
+      "text": "A sɔngɔ ye wari tan ni lolu le di.",
+      "phonetic_api": "/a sɔn.ɡɔ jɛ wa.ri tã ni lo.lu le di/",
+      "phonetic_simple": "A SƆN-GƆ YÈ WA-RI TAN NI LO-LOU LÉ DI",
+      "translation": "Son prix est de quinze (unités)."
+    },
+    {
+      "speaker": "Acha",
+      "text": "Ayoki! A ka gban bɛrɛbɛrɛ. A dɔgɔya n'ye ka kɛ tan di.",
+      "phonetic_api": "/a.jo.ki a ka ɡ͡bã bɛ.rɛ.bɛ.rɛ a dɔ.ɡɔ.ja ɲe ka kɛ tã di/",
+      "phonetic_simple": "A-YO-KI ! A KA GBAN BÈ-RÈ-BÈ-RÈ. A DƆ-GƆ-YA N-YÈ KA KÈ TAN DI",
+      "translation": "Ah non ! C'est excessivement cher. Diminue-le pour moi pour que ça fasse dix."
+    },
+    {
+      "speaker": "Feerelala (Vendeuse)",
+      "text": "Aani, wari-muso tɛ a la. Koni, a ta tan ni nani la.",
+      "phonetic_api": "/aː.ni wa.ri.mu.so tɛ a la ko.ni a ta tã ni na.ni la/",
+      "phonetic_simple": "AA-NI, WA-RI-MOU-SO TÈ A LA. KO-NI, A TA TAN NI NA-NI LA",
+      "translation": "Non, je ne fais pas de bénéfice à ce prix. Mais bon, prends-le à quatorze."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les grands marchés de Guinée forestière, le marchandage est un art conversationnel et social indispensable. Acheter un produit sans discuter le prix est presque perçu comme un manque d'intérêt pour l'échange humain. L'utilisation d'interjections de surprise comme 'Ayoki !' fait partie intégrante du jeu de la négociation."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'expression 'A sɔngɔ ka gban' ?",
+      "options": [
+        "C'est très bon marché",
+        "C'est cher / Son prix est élevé",
+        "Le produit est gâté"
+      ],
+      "correct_answer": "C'est cher / Son prix est élevé",
+      "explanation": "'Sɔngɔ' signifie le prix et la structure 'ka gban' indique la cherté ou l'intensité de la valeur."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] dɔgɔya n'ye (Diminue le prix pour moi).",
+      "correct_answer": "Sɔngɔ",
+      "hint": "Le mot commence par 'S' et désigne le prix."
+    }
+  ]
+}

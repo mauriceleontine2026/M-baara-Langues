@@ -1,0 +1,229 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
+  "learning_objectives": [
+    "Nommer les principaux aliments, plats traditionnels et boissons en Yalunka",
+    "Acheter des ingrédients au marché et demander le prix",
+    "Exprimer la faim, la soif et commander un repas simple"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La voyelle ouverte 'ɔ' /ɔ/ (comme dans 'dɔxɔ') doit être nettement distinguée de la voyelle fermée 'o'. La nasale palatale 'ɲ' /ɲ/ présente dans 'donseɲa' s'articule comme le 'gn' français. Les doubles voyelles comme 'ee' dans 'mɛɛni' marquent un allongement important.",
+    "common_pitfalls": "Attention à la prononciation du mot pour l'eau 'mɛɛni' : prolongez bien le 'ɛɛ' pour éviter la confusion avec d'autres racines courtes."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v8_1",
+      "term": "Donsee",
+      "phonetic_api": "/don.seː/",
+      "phonetic_simple": "DON-SEE",
+      "translation": "Nourriture / Aliment",
+      "example_sentence": "Donsee na mɛ ?",
+      "example_phonetic": "/don.seː na mɛ/",
+      "example_translation": "Y a-t-il de la nourriture ici ?"
+    },
+    {
+      "word_id": "v8_2",
+      "term": "Mɛɛni",
+      "phonetic_api": "/mɛː.ni/",
+      "phonetic_simple": "MÈÈ-NI",
+      "translation": "Eau",
+      "example_sentence": "N bɛ mɛɛni minfe.",
+      "example_phonetic": "/ŋ bɛ mɛː.ni min.fe/",
+      "example_translation": "Je suis en train de boire de l'eau."
+    },
+    {
+      "word_id": "v8_3",
+      "term": "Malo",
+      "phonetic_api": "/ma.lo/",
+      "phonetic_simple": "MA-LO",
+      "translation": "Riz",
+      "example_sentence": "N bɛ malo donfe.",
+      "example_phonetic": "/ŋ bɛ ma.lo don.fe/",
+      "example_translation": "Je mange du riz."
+    },
+    {
+      "word_id": "v8_4",
+      "term": "Subee",
+      "phonetic_api": "/su.beː/",
+      "phonetic_simple": "SOU-BEE",
+      "translation": "Viande",
+      "example_sentence": "N bata subee xaba.",
+      "example_phonetic": "/ŋ ba.ta su.beː xa.ba/",
+      "example_translation": "J'ai coupé la viande."
+    },
+    {
+      "word_id": "v8_5",
+      "term": "Yɛxɛ",
+      "phonetic_api": "/jɛ.xɛ/",
+      "phonetic_simple": "YÈ-KHÈ",
+      "translation": "Poisson",
+      "example_sentence": "Yɛxɛ fanyin nan a ra.",
+      "example_phonetic": "/jɛ.xɛ fan.jin nan a ra/",
+      "example_translation": "C'est un bon poisson."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p8_1",
+      "original": "Kɔnko na n bɛ.",
+      "phonetic_api": "/kɔn.ko na ŋ bɛ/",
+      "phonetic_simple": "KON-KO NA N BÈ",
+      "translation": "J'ai faim.",
+      "context": "Exprimer le besoin physique de manger."
+    },
+    {
+      "phrase_id": "p8_2",
+      "original": "Min lɔxɔ na n bɛ.",
+      "phonetic_api": "/min lɔ.xɔ na ŋ bɛ/",
+      "phonetic_simple": "MIN LO-KHO NA N BÈ",
+      "translation": "J'ai soif.",
+      "context": "Exprimer l'envie ou le besoin de boire."
+    },
+    {
+      "phrase_id": "p8_3",
+      "original": "A mɛni sɔnka ?",
+      "phonetic_api": "/a mɛ.ni sɔn.ka/",
+      "phonetic_simple": "A MÈ-NI SON-KA ?",
+      "translation": "Combien coûte ceci ?",
+      "context": "Demander le prix d'un aliment au marché ou au restaurant."
+    },
+    {
+      "phrase_id": "p8_4",
+      "original": "N bɛ malo nun yɛxɛ nan xanfe.",
+      "phonetic_api": "/ŋ bɛ ma.lo nun jɛ.xɛ nan xan.fe/",
+      "phonetic_simple": "N BÈ MA-LO NOUN YÈ-KHÈ NAN KHAN-FÉ",
+      "translation": "Je veux du riz avec du poisson.",
+      "context": "Passer commande d'un plat classique."
+    },
+    {
+      "phrase_id": "p8_5",
+      "original": "Mɛɛni minfexi xun m bɛ.",
+      "phonetic_api": "/mɛː.ni min.fe.xi xun m bɛ/",
+      "phonetic_simple": "MÈÈ-NI MIN-FÉ-KHI KHOUN M BÈ",
+      "translation": "Donne-moi de l'eau à boire s'il te plaît.",
+      "context": "Demander poliment de l'eau potable."
+    },
+    {
+      "phrase_id": "p8_6",
+      "original": "A bata don fanyin.",
+      "phonetic_api": "/a ba.ta don fan.jin/",
+      "phonetic_simple": "A BA-TA DON FAN-YIN",
+      "translation": "C'est bien cuit / C'est délicieux.",
+      "context": "Complimenter la qualité d'un repas."
+    },
+    {
+      "phrase_id": "p8_7",
+      "original": "N bata mabilin.",
+      "phonetic_api": "/ŋ ba.ta ma.bi.lin/",
+      "phonetic_simple": "N BA-TA MA-BI-LIN",
+      "translation": "Je suis rassasié.",
+      "context": "Signifier poliment que l'on a fini de manger."
+    },
+    {
+      "phrase_id": "p8_8",
+      "original": "Sare na danyi.",
+      "phonetic_api": "/sa.re na da.ɲi/",
+      "phonetic_simple": "SA-RÉ NA DA-NYI",
+      "translation": "Le prix est trop cher.",
+      "context": "Négocier au marché lors de l'achat de denrées."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du souhait et du besoin avec 'xanfe'",
+      "explanation": "Pour dire 'vouloir' ou 'désirer' quelque chose au présent immédiat (comme commander un plat), le Yalunka place l'objet du désir, suivi de la particule de focalisation 'nan', puis du verbe ou suffixe de désir 'xanfe' précédé du pronom.",
+      "rules": [
+        "Sujet + bɛ + Objet + nan + xanfe",
+        "La particule 'bɛ' introduit l'attribution ou l'état d'intention."
+      ],
+      "examples": [
+        {
+          "structure": "N bɛ subee nan xanfe.",
+          "phonetic_api": "/ŋ bɛ su.beː nan xan.fe/",
+          "meaning": "Je veux de la viande."
+        }
+      ]
+    },
+    {
+      "concept": "La forme progressive '-fe' pour les verbes de consommation",
+      "explanation": "L'action d'être en train de manger ou de boire utilise le suffixe de gérondif/progressif '-fe' directement rattaché à la racine verbale.",
+      "rules": [
+        "Don (manger) -> Donfe (en train de manger)",
+        "Min (boire) -> Minfe (en train de boire)"
+      ],
+      "examples": [
+        {
+          "structure": "N na malo donfe.",
+          "phonetic_api": "/ŋ na ma.lo don.fe/",
+          "meaning": "Je suis en train de manger du riz."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amara",
+      "text": "Tena mafayen. Kɔnko na n bɛ tɛmɛni na.",
+      "phonetic_api": "/te.na ma.fa.jen kɔn.ko na ŋ bɛ tɛ.mɛ.ni na/",
+      "phonetic_simple": "TÉ-NA MA-FA-YEN. KON-KO NA N BÈ TÈ-MÈ-NI NA",
+      "translation": "Bonjour. J'aimerais manger, j'ai faim en ce moment."
+    },
+    {
+      "speaker": "Donseɲari (Cuisinière)",
+      "text": "Tena nan a ra. Malo nun yɛxɛ na mɛ. I bɛ mun xanfe ?",
+      "phonetic_api": "/te.na nan a ra ma.lo nun jɛ.xɛ na mɛ i bɛ mun xan.fe/",
+      "phonetic_simple": "TÉ-NA NAN A RA. MA-LO NOUN YÈ-KHÈ NA MÈ. I BÈ MOUN KHAN-FÉ ?",
+      "translation": "Tout va bien. Il y a du riz et du poisson ici. Que veux-tu ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "N bɛ malo nun yɛxɛ nan xanfe. A mɛni sɔnka ?",
+      "phonetic_api": "/ŋ bɛ ma.lo nun jɛ.xɛ nan xan.fe a mɛ.ni sɔn.ka/",
+      "phonetic_simple": "N BÈ MA-LO NOUN YÈ-KHÈ NAN KHAN-FÉ. A MÈ-NI SON-KA ?",
+      "translation": "Je veux du riz et du poisson. Combien ça coûte ?"
+    },
+    {
+      "speaker": "Donseɲari",
+      "text": "Tongo nan a ra. Sabari dɔxɔ mɛ.",
+      "phonetic_api": "/ton.ɡo nan a ra sa.ba.ri dɔ.xɔ mɛ/",
+      "phonetic_simple": "TON-GO NAN A RA. SA-BA-RI DO-KHO MÈ",
+      "translation": "C'est dix (unités). S'il te plaît, assieds-toi ici."
+    },
+    {
+      "speaker": "Amara",
+      "text": "Inu wali. Xun m bɛ mɛni minfe.",
+      "phonetic_api": "/i.nu wa.li xun ŋ bɛ mɛː.ni min.fe/",
+      "phonetic_simple": "I-NOU WA-LI. KHOUN M BÈ MÈÈ-NI MIN-FÉ",
+      "translation": "Merci. S'il te plaît, donne-moi aussi de l'eau à boire."
+    }
+  ],
+  "cultural_notes": [
+    "Le riz ('malo') constitue la base absolue de l'alimentation en Guinée, notamment chez les Yalunka. Il est très fréquemment accompagné d'une sauce à base de feuilles de patate, de manioc ou d'arachide.",
+    "Au marché, discuter les prix ('sare') fait partie des interactions sociales de base. Demander poliment à la vendeuse de rajouter un petit surplus gratuit (le 'surplus de courtoisie') est une pratique courante."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex8_1",
+      "type": "multiple_choice",
+      "question": "Quelle expression utilisez-vous pour signaler que vous avez soif ?",
+      "options": [
+        "Kɔnko na n bɛ",
+        "Min lɔxɔ na n bɛ",
+        "N bɛ malo donfe"
+      ],
+      "correct_answer": "Min lɔxɔ na n bɛ",
+      "explanation": "'Min lɔxɔ' caractérise la gorge sèche ou le besoin d'étancher sa soif par la boisson."
+    },
+    {
+      "exercise_id": "ex8_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander le prix de la nourriture, on dit : A [ ___ ] sɔnka ?",
+      "correct_answer": "mɛni",
+      "hint": "C'est le mot interrogatif de quantité qui signifie 'combien'."
+    }
+  ]
+}

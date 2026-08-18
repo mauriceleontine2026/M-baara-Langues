@@ -1,0 +1,238 @@
+{
+  "lesson_id": "B1_M3_L8",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 8,
+  "title": "Parler de son travail, de ses études et de sa routine",
+  "learning_objectives": [
+    "Présenter en détail son parcours académique et son profil professionnel actuel",
+    "Décrire l'articulation de ses tâches et responsabilités professionnelles ou étudiantes",
+    "Utiliser les expressions de simultanéité et de transition pour hiérarchiser une routine"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en relief les termes du monde de l'apprentissage et de l'entreprise. Le sound /ʕ/ (ع) est central dans 'Amal' (travail), 'Jāmi'ah' (université) et 'at-Ta'līm' (l'enseignement). Le sound /x/ (خ) apparaît dans 'Khibrah' (expérience) et 'Takhara-ja' (obtenir son diplôme). La consonne emphatique /tˤ/ (ط) structure 'Tālib' (étudiant).",
+    "common_pitfalls": "Attention à ne pas escamoter le /ʕ/ (ع) dans 'Jāmi'ah' ou 'Muta'allim'. Une mauvaise prononciation peut donner l'illusion d'un son Alif léger et déformer le mot. Marquez également la gémination (Shaddah) sur le verbe 'Takhassasa' (تَخَصَّصَ - se spécialiser)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "جَامِعَةٌ",
+      "phonetic_api": "/dʒaː.mi.ʕa.tun/",
+      "phonetic_simple": "DJAA-MI-A-TOUN",
+      "translation": "Une université",
+      "example_sentence": "أَدْرُسُ فِي جَامِعَةِ الْقَاهِرَةِ",
+      "example_phonetic": "/.../",
+      "example_translation": "J'étudie à l'université du Caire"
+    },
+    {
+      "word_id": "v2",
+      "term": "خِبْرَةٌ",
+      "phonetic_api": "/xib.ra.tun/",
+      "phonetic_simple": "KHIB-RA-TOUN",
+      "translation": "Une expérience (professionnelle ou technique)",
+      "example_sentence": "عِنْدِي خِبْرَةٌ فِي هَذَا الْمَجَالِ",
+      "example_phonetic": "/.../",
+      "example_translation": "J'ai de l'expérience dans ce domaine"
+    },
+    {
+      "word_id": "v3",
+      "term": "وَظِيفَةٌ",
+      "phonetic_api": "/wa.ðiː.fa.tun/",
+      "phonetic_simple": "WA-THII-FA-TOUN",
+      "translation": "Un emploi / Un poste / Un travail stable",
+      "example_sentence": "أَبْحَثُ عَنْ وَظِيفَةٍ جَدِيدَةٍ",
+      "example_phonetic": "/.../",
+      "example_translation": "Je cherche un nouvel emploi"
+    },
+    {
+      "word_id": "v4",
+      "term": "تَخَصُّصٌ",
+      "phonetic_api": "/ta.xasˤ.sˤu.sˤun/",
+      "phonetic_simple": "TA-KHAS-SOUS-SOUN",
+      "translation": "Une spécialité / Une filière / Une majeure d'étude",
+      "example_sentence": "مَا هُوَ تَخَصُّصُكَ الأَكَادِيمِيُّ؟",
+      "example_phonetic": "/.../",
+      "example_translation": "Quelle est ta spécialité académique ? (à un homme)"
+    },
+    {
+      "word_id": "v5",
+      "term": "مَسْؤُولِيَّةٌ",
+      "phonetic_api": "/mas.ʔuː.lij.ja.tun/",
+      "phonetic_simple": "MAS-OUU-LIY-YA-TOUN",
+      "translation": "Une responsabilité / Une charge",
+      "example_sentence": "هَذِهِ مَسْؤُولِيَّتِي فِي الشَّرِكَةِ",
+      "example_phonetic": "/.../",
+      "example_translation": "C'est ma responsabilité au sein de l'entreprise"
+    },
+    {
+      "word_id": "v6",
+      "term": "بَيْنَمَا",
+      "phonetic_api": "/baj.na.maː/",
+      "phonetic_simple": "BAY-NA-MAA",
+      "translation": "Tandis que / Alors que / Pendant que",
+      "example_sentence": "أَقْرَأُ بَيْنَمَا يَكْتُبُ صَدِيقِي",
+      "example_phonetic": "/.../",
+      "example_translation": "Je lis tandis que mon ami écrit"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "مَا هُوَ مَجَالُ عَمَلِكَ وَدِرَاسَتِكَ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MAA HOU-OU MA-DJAA-LOU A-MA-LI-KA WA DI-RAA-SA-TI-KA",
+      "translation": "Quel est ton domaine de travail et d'étude ? (à un homme)",
+      "context": "Question de réseautage formelle ou sociale de niveau intermédiaire."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "تَخَرَّجْتُ فِي كُلِّيَّةِ الْهَنْدَسَةِ مُنْذُ سَنَةٍ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "TA-KHAR-RADJ-TOU FII KOUL-LIY-YA-TIL HAN-DA-SA MOUN-THOU SA-NA",
+      "translation": "J'ai obtenu mon diplôme de la faculté d'ingénierie il y a un ans",
+      "context": "Indiquer son parcours universitaire passé."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "أَنَا مَسْؤُولٌ عَنْ تَدْرِيبِ الْمُوَظَّفِينَ الْجُدُدِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "A-NAA MAS-OUU-LOUN AN TAD-RII-BIL MOU-WATH-THA-FII-NAL DJOU-DOUD",
+      "translation": "Je suis responsable de la formation des nouveaux employés",
+      "context": "Décrire son rôle exact et ses attributions professionnelles."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "بَيْنَمَا أَعْمَلُ، أَدْرُسُ اللُّغَاتِ أَيْضًا",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "BAY-NA-MAA AC-MA-LOU, AD-ROU-SOUL LOU-GHAA-TI AY-DAN",
+      "translation": "Pendant que je travaille, j'étudie également les langues",
+      "context": "Exprimer la simultanéité de deux activités structurantes de la routine."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "أَسْعَى لِتَحْسِينِ مَوْقِعِي الْمِهْنِيِّ فِي السُّوقِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AS-AA LI-TAH-SIII-NI MAW-KI-I-YAL MIH-NIY-YI FIS-SOOUK",
+      "translation": "Je m'efforce d'améliorer ma position professionnelle sur le marché",
+      "context": "Évoquer ses ambitions professionnelles à moyen terme."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la responsabilité : 'Mas'oolun 'an' (مَسْؤُولٌ عَنْ)",
+      "explanation": "Pour décrire ses fonctions professionnelles de niveau intermédiaire, on emploie l'adjectif verbal 'Mas'ool' (responsable/en charge) obligatoirement combiné avec la préposition ''an' (de/au sujet de).",
+      "rules": [
+        "L'adjectif s'accorde en genre avec le sujet (Mas'ool au masculin, Mas'oolah au féminin avec un Ta Marboutah).",
+        "La préposition ''an' (عَنْ) régit le cas indirect (Génitif) pour le nom ou le nom d'action (Masdar) qui la suit."
+      ],
+      "examples": [
+        {
+          "structure": "هِيَ مَسْؤُولَةٌ عَنِ الْمَشْرُوعِ",
+          "phonetic_api": "/hi.wa mas.ʔuː.la.tun ʕa.nil maʃ.ruː.ʕi/",
+          "meaning": "Elle est responsable du projet (Al-Mashroo' prend une kasra)"
+        },
+        {
+          "structure": "أَنَا مَسْؤُولٌ عَنْ إِدَارَةِ الْمَكْتَبِ",
+          "phonetic_api": "/.../",
+          "meaning": "Je (masc.) suis responsable de la gestion du bureau"
+        }
+      ]
+    },
+    {
+      "concept": "Le verbe de spécialisation d'études : 'Takhassasa fī' (تَخَصَّصَ فِي)",
+      "explanation": "Pour indiquer sa branche d'études ou d'expertise technique, la grammaire arabe utilise le verbe de la Forme V 'Takhassasa' couplé à la préposition 'fī'.",
+      "rules": [
+        "À l'accompli (passé) : Takhassastu fī (تَخَصَّصْتُ فِي - Je me suis spécialisé en).",
+        "À l'inaccompli (présent) : Atakhassasu fī (أَتَخَصَّصُ فِي - Je me spécialise en).",
+        "Le domaine d'étude qui suit prend la marque du cas indirect (Kasra)."
+      ],
+      "examples": [
+        {
+          "structure": "تَخَصَّصْتُ فِي الطِّبِّ",
+          "phonetic_api": "/ta.xasˤ.sˤasˤ.tu fitˤ tˤib.bi/",
+          "meaning": "Je me suis spécialisé en médecine (Al-Tibb prend une kasra)"
+        },
+        {
+          "structure": "يَتَخَصَّصُ فِي الِاقْتِصَادِ",
+          "phonetic_api": "/.../",
+          "meaning": "Il se spécialise en économie"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "خَالِد (Khaled)",
+      "text": "أَهْلًا يَا رَانِيَا. كَيْفَ تَسِيرُ أُمُورُكِ الْمِهْنِيَّةُ وَالأَكَادِيمِيَّةُ هَذِهِ الأَيَّامَ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN YA RAA-NI-YA. KAY-FA TA-SII-ROU OU-MOOU-ROU-KIL MIH-NIY-YA...",
+      "translation": "Salut Rania. Comment se passent tes affaires professionnelles et académiques ces temps-ci ?"
+    },
+    {
+      "speaker": "رَانِيَا (Rania)",
+      "text": "أَهْلًا خَالِدُ. أَنَا سَعِيدَةٌ جِدًّا. تَخَرَّجْتُ فِي الْجَامِعَةِ الشَّهْرَ الْمَاضِي، حَيْثُ تَخَصَّصْتُ فِي تِكْنُولُوجِيَا الْمَعْلُومَاتِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN KHAA-LID. A-NAA SA-II-DA DJID-DAN. TA-KHAR-RADJ-TOU FIL DJAA-MI-A CH-CHAH-RAL MAA-DII...",
+      "translation": "Salut Khaled. Je suis très heureuse. J'ai obtenu mon diplôme universitaire le mois dernier, où je me suis spécialisée en technologies de l'information."
+    },
+    {
+      "speaker": "خَالِد (Khaled)",
+      "text": "مَاشَاءَ الله ! هَذَا تَخَصُّصٌ مُمْتَازٌ. وَهَلْ بَدَأْتِ الْعَمَلَ فِي وَظِيفَةٍ مَا؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MAA-CHAA-AL-LAH ! HAA-THAA TA-KHAS-SOUS MOUM-TAAZ. WA HAL BA-DA'-TI L-A-MA-LA FII WA-THII-FA-TIN MAA",
+      "translation": "Merveilleux ! C'est une excellente spécialité. Et as-tu commencé à travailler dans un emploi quelconque ?"
+    },
+    {
+      "speaker": "رَانِيَا (Rania)",
+      "text": "نَعَمْ، أَعْمَلُ الآنَ فِي شَرِكَةٍ بَرْمَجِيَّةٍ. أَنَا مَسْؤُولَةٌ عَنْ تَطْوِيرِ الْمَوَاقِعِ، بَيْنَمَا أُتَابِعُ دِرَاسَاتِي الْعُلْيَا مَسَاءً.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "NA-AM, AC-MA-LOUL AAN FII CHA-RI-KA BAR-MA-DJIY-YA. A-NAA MAS-OUU-LA AN TAT-WII-RIL MA-WAA-KI...",
+      "translation": "Oui, je travaille maintenant dans une entreprise de logiciels. Je suis responsable du développement de sites, tandis que je poursuis mes études supérieures le soir."
+    },
+    {
+      "speaker": "خَالِد (Khaled)",
+      "text": "هَذَا رُوتِينٌ شَاقٌّ وَلَكِنَّهُ سَيَمْنَحُكِ خِبْرَةً كَبِيرَةً جِدًّا فِي سُوقِ الْعَمَلِ. هَنِيئًا لَكِ !",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAA-THAA ROU-TII-NOUN CHAAK-KOUN WA LA-KIN-NA-HOU SA-YAM-NA-HOU-KI KHIB-RA KA-BII-RA...",
+      "translation": "C'est une routine difficile mais cela va t'apporter une très grande expérience sur le marché du travail. Félicitations à toi !"
+    }
+  ],
+  "cultural_notes": [
+    "La valeur des diplômes supérieurs (al-Shahadah) : Dans les sociétés arabes, la réussite universitaire et l'obtention de diplômes élevés (Master, Doctorat) sont perçues comme une immense fierté pour toute la famille. Les cérémonies de remise de diplômes donnent lieu à de grandes fêtes familiales.",
+    "La flexibilité professionnelle montante : Le cumul d'une activité salariée en journée et d'études ou de formations complémentaires en cours du soir (pendant que l'on gère sa routine) est un phénomène de plus en plus courant chez les jeunes cadres urbains cherchant à se positionner rapidement sur le marché mondial."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M3_L8_ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la formulation correcte pour dire : 'Je suis responsable du service client' (féminin) ?",
+      "options": [
+        "أَنَا مَسْؤُولٌ عَنْ خِدْمَةِ الْعُمَلَاءِ (Anā mas'oolun 'an khidmati l-'umalā')",
+        "أَنَا مَسْؤُولَةٌ عَنِ خِدْمَةِ الْعُمَلَاءِ (Anā mas'oolatun 'an khidmati l-'umalā')",
+        "أَنَا مَسْؤُولَةٌ فِي خِدْمَةِ (Anā mas'oolatun fī khidmati)"
+      ],
+      "correct_answer": "أَنَا مَسْؤُولَةٌ عَنِ خِدْمَةِ الْعُمَلَاءِ (Anā mas'oolatun 'an khidmati l-'umalā')",
+      "explanation": "Le sujet étant féminin, l'adjectif prend un Ta Marboutah ('Mas'oolah') et se construit obligatoirement avec la préposition ''an'."
+    },
+    {
+      "exercise_id": "B1_M3_L8_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour lier deux activités simultanées ('Je travaille [tandis que] j'étudie'), on emploie : أَعْمَلُ [ ___ ] أَدْرُسُ",
+      "correct_answer": "بَيْنَمَا",
+      "hint": "C'est la conjonction de simultanéité temporelle intermédiaire."
+    },
+    {
+      "exercise_id": "B1_M3_L8_ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie le concept de 'تَخَصُّص' (Takhassus) sur un curriculum vitae ?",
+      "options": [
+        "Le salaire souhaité",
+        "La spécialité d'étude ou d'expertise",
+        "L'adresse du domicile"
+      ],
+      "correct_answer": "La spécialité d'étude ou d'expertise",
+      "explanation": "Takhassus désigne la filière académique ou le domaine précis d'ingénierie, de science ou d'art dans lequel une personne détient ses compétences majeures."
+    }
+  ]
+}

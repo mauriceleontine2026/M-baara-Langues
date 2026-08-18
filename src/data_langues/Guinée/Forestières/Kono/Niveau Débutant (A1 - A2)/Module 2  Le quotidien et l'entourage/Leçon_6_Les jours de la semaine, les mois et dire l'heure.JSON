@@ -1,0 +1,123 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours, les mois et l'heure",
+  "learning_objectives": [
+    "Nommer les jours principaux de la semaine",
+    "Exprimer des notions temporelles simples (aujourd'hui, demain)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La labio-dentale /v/ et la semi-voyelle /w/ doivent rester distinctes. Le mot pour jour possède une voyelle ouverte.",
+    "common_pitfalls": "Attention à la durée de la voyelle dans les adverbes de temps."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v6_1",
+      "term": "zaà",
+      "phonetic_api": "/zaː/",
+      "phonetic_simple": "ZAA",
+      "translation": "jour",
+      "example_sentence": "zaà dóó",
+      "example_phonetic": "/zaː dóː/",
+      "example_translation": "un jour"
+    },
+    {
+      "word_id": "v6_2",
+      "term": "wɔ́lɔ́wɔ́lɔ́",
+      "phonetic_api": "/wɔ́lɔ́wɔ́lɔ́/",
+      "phonetic_simple": "WO-LO-WO-LO",
+      "translation": "matin (très tôt)",
+      "example_sentence": "ń yé líí wɔ́lɔ́wɔ́lɔ́ kɔ́ɔ́.",
+      "example_phonetic": "/ń jé líː wɔ́lɔ́wɔ́lɔ́ kɔ́ː/",
+      "example_translation": "Je pars tôt le matin."
+    },
+    {
+      "word_id": "v6_3",
+      "term": "sìnà",
+      "phonetic_api": "/sìnà/",
+      "phonetic_simple": "SI-NA",
+      "translation": "demain",
+      "example_sentence": "Ń yé líí sìnà.",
+      "example_phonetic": "/ń jé líː sìnà/",
+      "example_translation": "Je pars demain."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p6_1",
+      "original": "Zaà mìɛ̀ le zã́ ?",
+      "phonetic_api": "/zaː mìɛ̀ le zã́/",
+      "phonetic_simple": "ZAA MIE LE ZAN ?",
+      "translation": "Quel jour sommes-nous aujourd'hui ?",
+      "context": "S'informer sur le calendrier."
+    },
+    {
+      "phrase_id": "p6_2",
+      "original": "Télé a lii.",
+      "phonetic_api": "/télé a liː/",
+      "phonetic_simple": "TE-LE A LII",
+      "translation": "Le soleil est couché (Il est tard).",
+      "context": "Constater l'heure de la fin de journée."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'adverbe de temps en début de proposition",
+      "explanation": "Pour focaliser une action dans le temps, l'adverbe temporel (comme sìnà - demain) se place de préférence en tête de la phrase.",
+      "rules": [
+        "Il n'altère pas l'ordre sujet-verbe-objet qui lui succède.",
+        "Un léger coup de glotte peut séparer l'adverbe s'il se termine par une voyelle brève."
+      ],
+      "examples": [
+        {
+          "structure": "sìnà + ń yé líí",
+          "phonetic_api": "/sìnà ń jé líː/",
+          "meaning": "Demain, je pars."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Koli",
+      "text": "I yé líí zaà mìɛ̀ pɔ́ ?",
+      "phonetic_api": "/i jé líː zaː mìɛ̀ pɔ́/",
+      "phonetic_simple": "I YE LII ZAA MIE PO ?",
+      "translation": "Quel jour veux-tu partir ?"
+    },
+    {
+      "speaker": "Sia",
+      "text": "Ń yé líí sìnà wɔ́lɔ́wɔ́lɔ́.",
+      "phonetic_api": "/ń jé líː sìnà wɔ́lɔ́wɔ́lɔ́/",
+      "phonetic_simple": "N YE LII SI-NA WO-LO-WO-LO",
+      "translation": "Je veux partir demain très tôt."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'aire Konon, le temps est historiquement rythmé par les travaux agricoles et les grands jours de marché hebdomadaire (notamment celui de Lola)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex6_1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'adverbe 'sìnà' ?",
+      "options": [
+        "Aujourd'hui",
+        "Demain",
+        "Hier"
+      ],
+      "correct_answer": "Demain",
+      "explanation": "'sìnà' désigne le jour qui suit le jour présent."
+    },
+    {
+      "exercise_id": "ex6_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] a lii (Le soleil est couché).",
+      "correct_answer": "Télé",
+      "hint": "Le soleil / Le jour clément."
+    }
+  ]
+}

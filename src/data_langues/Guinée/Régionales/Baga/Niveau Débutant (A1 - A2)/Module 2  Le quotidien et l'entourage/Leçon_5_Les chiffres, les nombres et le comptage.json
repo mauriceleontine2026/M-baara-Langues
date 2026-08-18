@@ -1,0 +1,133 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter de 1 à 10 en langue Baga",
+    "Associer un chiffre à un substantif dénombrable",
+    "Exprimer une quantité élémentaire"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les chiffres exigent une diction claire des occlusives finales. Le nombre un, 'dúu', possède une voyelle longue fermée /uː/ qui doit garder une hauteur tonale stable.",
+    "common_pitfalls": "Attention à ne pas écraser l'articulation de 'múù-kpu' (dix). Le saut consonantique entre le 'ù' et le 'k' doit marquer une courte pause glottale."
+  },
+  "vocabulary": [
+    {
+      "word_id": "b016",
+      "term": "dúu",
+      "phonetic_api": "/dúː/",
+      "phonetic_simple": "DOO",
+      "translation": "un (1)",
+      "example_sentence": "Bədɛ̀n dúu mu ya",
+      "example_phonetic": "/ɓədɛ̀n dúː mu ja/",
+      "example_translation": "Un enfant est ici"
+    },
+    {
+      "word_id": "b017",
+      "term": "bhə̀rə̀ŋ",
+      "phonetic_api": "/ɓə̀rə̀ŋ/",
+      "phonetic_simple": "BHE-RENG",
+      "translation": "deux (2)",
+      "example_sentence": "Gbɔ́n bhə̀rə̀ŋ mu di",
+      "example_phonetic": "/gɓɔ́n ɓə̀rə̀ŋ mu di/",
+      "example_translation": "Ce sont deux maisons"
+    },
+    {
+      "word_id": "b018",
+      "term": "bhààhà",
+      "phonetic_api": "/ɓàːhà/",
+      "phonetic_simple": "BHAA-HA",
+      "translation": "trois (3)",
+      "example_sentence": "Wətɛ́ɛn bhààhà fɛ̀ɛ̀",
+      "example_phonetic": "/wətɛ́ːn ɓàːhà fɛ̀ː/",
+      "example_translation": "Trois frères/sœurs"
+    },
+    {
+      "word_id": "b019",
+      "term": "múù-kpu",
+      "phonetic_api": "/múː kpu/",
+      "phonetic_simple": "MOO-KPU",
+      "translation": "dix (10)",
+      "example_sentence": "Múù-kpu kpu ka",
+      "example_phonetic": "/múː kpu kpu ka/",
+      "example_translation": "Dix au total"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "bp011",
+      "original": "Bə̀nə̀ŋ mu ya di ?",
+      "phonetic_api": "/ɓə̀nə̀ŋ mu ja di/",
+      "phonetic_simple": "BÈ-NÈNG MOO YA DI ?",
+      "translation": "Combien y en a-t-il ici ?",
+      "context": "S'enquérir d'une quantité sur un étal de vente"
+    },
+    {
+      "phrase_id": "bp012",
+      "original": "Mə̀ fɛ̀ɛ̀ bədɛ̀n bhə̀rə̀ŋ mu ya",
+      "phonetic_api": "/mə̀ fɛ̀ː ɓədɛ̀n ɓə̀rə̀ŋ mu ja/",
+      "phonetic_simple": "ME FÈÈ BE-DÈN BHE-RENG MOO YA",
+      "translation": "J'ai deux enfants ici.",
+      "context": "Déclarer la taille de sa descendance immédiate"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La position de l'adjectif numéral cardinal",
+      "explanation": "En Baga, le nombre se place toujours après le nom qu'il comptabilise ou modifie. Le nom ne change généralement pas de forme au pluriel, c'est le numéral qui définit la quantité.",
+      "rules": [
+        "Structure quantitative : Nom + Chiffre/Nombre."
+      ],
+      "examples": [
+        {
+          "structure": "gbɔ́n (maison) + bhə̀rə̀ŋ (deux)",
+          "phonetic_api": "/gɓɔ́n ɓə̀rə̀ŋ/",
+          "meaning": "Deux maisons"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Marchand",
+      "text": "Ió Sékou, i bədɛ̀n bə̀nə̀ŋ mu ya di ?",
+      "phonetic_api": "/ió sɛku i ɓədɛ̀n ɓə̀nə̀ŋ mu ja di/",
+      "phonetic_simple": "IÓ SÉ-KOO, I BE-DÈN BÈ-NÈNG MOO YA DI ?",
+      "translation": "Bonjour Sékou, combien d'enfants as-tu ici ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "N bɛ́ɛ bədɛ̀n bhààhà mu ya di, kàn wətɛ́ɛn dúu.",
+      "phonetic_api": "/ⁿɓɛ́ː ɓədɛ̀n ɓàːhà mu ja di kàn wətɛ́ɛn dúː/",
+      "phonetic_simple": "N BÉÉ BE-DÈN BHAA-HA MOO YA DI, KAN WE-TÉÉN DOO.",
+      "translation": "J'ai trois enfants ici, et un frère."
+    }
+  ],
+  "cultural_notes": [
+    "Le comptage traditionnel Baga s'appuie sur une base quinaire (système de 5). Les nombres au-delà de cinq se construisent en ajoutant des unités à la base cinq, menant de façon fluide vers la dizaine complète 'múù-kpu'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L5_ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie le chiffre 'bhə̀rə̀ŋ' ?",
+      "options": [
+        "Un",
+        "Deux",
+        "Trois"
+      ],
+      "correct_answer": "Deux",
+      "explanation": "'bhə̀rə̀ŋ' est le terme précis pour le chiffre 2."
+    },
+    {
+      "exercise_id": "A1_M2_L5_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Bədɛ̀n [ ___ ] mu ya (Un enfant est ici).",
+      "correct_answer": "dúu",
+      "hint": "Le chiffre un en Baga"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer de manière fluide les sept jours de la semaine (Ọjọ́ Ọ̀ṣẹ̀)",
+    "Exprimer la périodicité mensuelle et situer des événements temporels basiques",
+    "Demander et indiquer l'heure courante avec la structure prédicative 'lu'"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon utilise de nombreuses voyelles longues marquées par le redoublement graphique (ex: 'Aago' ou 'Oṣù'). Veillez à maintenir le ton moyen stable sur toute la durée de l'articulation de 'Aago' [aːɡo]. Le digramme 'ṣ' [ʃ] revient fréquemment dans le mot semaine/mois.",
+    "common_pitfalls": "La liaison entre 'Ọjọ́' (jour) et le nom du jour qui suit engendre souvent une élision ou une assimilation vocalique à l'oral. Par exemple, 'Ọjọ́ Ajé' glisse phonétiquement de manière continue."
+  },
+  "vocabulary": [
+    {
+      "word_id": "A1_M2_L6_V1",
+      "term": "Ọjọ́ Ajé",
+      "phonetic_api": "/ɔd͡ʒɔ́ aʒé/",
+      "phonetic_simple": "AW-JÁ A-JÉ",
+      "translation": "Lundi (Littéralement : jour de la prospérité / de l'argent)",
+      "example_sentence": "Mo máa ń ṣiṣẹ́ ní ọjọ́ Ajé.",
+      "example_phonetic": "/mo máː ŋ́ ʃiʃɛ́ ní ɔd͡ʒɔ́ aʒé/",
+      "example_translation": "Je travaille le lundi."
+    },
+    {
+      "word_id": "A1_M2_L6_V2",
+      "term": "Ọjọ́ Ìsinmi",
+      "phonetic_api": "/ɔd͡ʒɔ́ ìsĩmĩ/",
+      "phonetic_simple": "AW-JÁ Ì-SIN-MI",
+      "translation": "Dimanche (Littéralement : jour du repos)",
+      "example_sentence": "Ọjọ́ ìsinmi jẹ́ ọjọ́ fún ẹbí.",
+      "example_phonetic": "/ɔd͡ʒɔ́ ìsĩmĩ d͡ʒɛ́ ɔd͡ʒɔ́ fʊ́ ɛbí/",
+      "example_translation": "Le dimanche est un jour pour la famille."
+    },
+    {
+      "word_id": "A1_M2_L6_V3",
+      "term": "Oṣù",
+      "phonetic_api": "/oʃù/",
+      "phonetic_simple": "OH-SHOÙ",
+      "translation": "Mois / Lune",
+      "example_sentence": "Oṣù tuntun ti bẹ̀rẹ̀.",
+      "example_phonetic": "/oʃù tʊ̃tʊ̃ ti bɛ̀ɾɛ̀/",
+      "example_translation": "Un nouveau mois a commencé."
+    },
+    {
+      "word_id": "A1_M2_L6_V4",
+      "term": "Aago",
+      "phonetic_api": "/aːɡo/",
+      "phonetic_simple": "AH-AH-GO",
+      "translation": "Heure / Horloge / Montre",
+      "example_sentence": "Aago mi ti kúrò ní àkókò.",
+      "example_phonetic": "/aːɡo mĩ ti kúɾɔ̀ ní àkókò/",
+      "example_translation": "Ma montre n'est pas à l'heure."
+    },
+    {
+      "word_id": "A1_M2_L6_V5",
+      "term": "Òní",
+      "phonetic_api": "/ònĩ́/",
+      "phonetic_simple": "Ò-NÍ",
+      "translation": "Aujourd'hui",
+      "example_sentence": "Ọjọ́ wo ni òní?",
+      "example_phonetic": "/ɔd͡ʒɔ́ wo nĩ ònĩ́/",
+      "example_translation": "Quel jour sommes-nous aujourd'hui ?"
+    },
+    {
+      "word_id": "A1_M2_L6_V6",
+      "term": "Ọ̀la",
+      "phonetic_api": "/ɔ̀la/",
+      "phonetic_simple": "ÀW-LA",
+      "translation": "Demain",
+      "example_sentence": "Mo máa rí ọ lọ́la.",
+      "example_phonetic": "/mo máː ɾí ɔ lɔ́la/",
+      "example_translation": "Je te verrai demain."
+    },
+    {
+      "word_id": "A1_M2_L6_V7",
+      "term": "Àkókò",
+      "phonetic_api": "/àkókò/",
+      "phonetic_simple": "À-KÓ-KÒ",
+      "translation": "Le temps / Le moment",
+      "example_sentence": "Àkókò ti tó.",
+      "example_phonetic": "/àkókò ti tó/",
+      "example_translation": "Le temps est écoulé / C'est le moment."
+    },
+    {
+      "word_id": "A1_M2_L6_V8",
+      "term": "Arábìnrin",
+      "phonetic_api": "/aɾábĩːɾĩ/",
+      "phonetic_simple": "A-RÁ-BÌN-RIN",
+      "translation": "Mademoiselle / Madame",
+      "example_sentence": "Arábìnrin, aago mélòó ni?",
+      "example_phonetic": "/aɾábĩːɾĩ aːɡo mélòː nĩ/",
+      "example_translation": "Madame, quelle heure est-il ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "A1_M2_L6_P1",
+      "original": "Aago mélòó ni ó lù báyìí?",
+      "phonetic_api": "/aːɡo mélòː nĩ ó lù bájĩː/",
+      "phonetic_simple": "AH-GO MÉ-LÒÒ NI Ó LOÙ BÁ-YÍ?",
+      "translation": "Quelle heure est-il actuellement ? (Littéralement : Combien d'heures ont sonné báyìí ?)",
+      "context": "Question usuelle et standard pour s'enquérir de l'heure."
+    },
+    {
+      "phrase_id": "A1_M2_L6_P2",
+      "original": "Aago mẹ́ta ni ó lù.",
+      "phonetic_api": "/aːɡo mɛ́ta nĩ ó lù/",
+      "phonetic_simple": "AH-GO MÉ-TA NI Ó LOÙ.",
+      "translation": "Il est trois heures.",
+      "context": "Réponse directe indiquant l'heure exacte."
+    },
+    {
+      "phrase_id": "A1_M2_L6_P3",
+      "original": "Ọjọ́ Ajé ni òní.",
+      "phonetic_api": "/ɔd͡ʒɔ́ aʒé nĩ ònĩ́/",
+      "phonetic_simple": "AW-JÁ A-JÉ NI Ò-NÍ.",
+      "translation": "Aujourd'hui, c'est lundi.",
+      "context": "Déclaration pour situer le jour présent."
+    },
+    {
+      "phrase_id": "A1_M2_L6_P4",
+      "original": "Ní oṣù wo ni wọ́n bí ọ?",
+      "phonetic_api": "/ní oʃù wo nĩ wɔ́ bí ɔ/",
+      "phonetic_simple": "NÍ OH-SHOÙ WO NI WÁN BÍ AW?",
+      "translation": "En quel mois es-tu né ?",
+      "context": "Question sur l'anniversaire ou l'état civil."
+    },
+    {
+      "phrase_id": "A1_M2_L6_P5",
+      "original": "Aago kan àbọ̀ ni mo máa lọ.",
+      "phonetic_api": "/aːɡo kã àbɔ̀ nĩ mo máː lɔ/",
+      "phonetic_simple": "AH-GO KAN À-BÀW NI MO MÁÀ LAW.",
+      "translation": "Je partirai à une heure et demie.",
+      "context": "Planification d'un départ."
+    },
+    {
+      "phrase_id": "A1_M2_L6_P6",
+      "original": "Òní jẹ́ ọjọ́ rere fún mi.",
+      "phonetic_api": "/ònĩ́ d͡ʒɛ́ ɔd͡ʒɔ́ ɾeɾe fʊ́ mĩ/",
+      "phonetic_simple": "Ò-NÍ JÉ AW-JÁ RE-RE FOÚN MI.",
+      "translation": "Aujourd'hui est une bonne journée pour moi.",
+      "context": "Expression de joie ou de gratitude envers sa journée."
+    },
+    {
+      "phrase_id": "A1_M2_L6_P7",
+      "original": "Àkókò ń lọ, ẹ jọ̀wọ́ ẹ yára.",
+      "phonetic_api": "/àkókò ŋ́ lɔ ɛ̀ d͡ʒɔ̀wɔ́ ɛ̀ jáɾa/",
+      "phonetic_simple": "À-KÓ-KÒ N LAW, È JÀW-WÓ È YÁ-RA.",
+      "translation": "Le temps passe, s'il vous plaît dépêchez-vous.",
+      "context": "Presser poliment un groupe de personnes."
+    },
+    {
+      "phrase_id": "A1_M2_L6_P8",
+      "original": "Ọ̀la ni ọjọ́ Ìṣẹ́gun.",
+      "phonetic_api": "/ɔ̀la nĩ ɔd͡ʒɔ́ ìʃɛ́ɡʊ̃/",
+      "phonetic_simple": "ÀW-LA NI AW-JÁ Ì-SHÉ-GOÚN.",
+      "translation": "Demain, c'est mardi (le jour de la victoire).",
+      "context": "Anticipation chronologique simple."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la demi-heure avec 'àbọ̀'",
+      "explanation": "Pour indiquer la demie (trente minutes) en yoruba, on utilise le terme nominalisé 'àbọ̀' (qui signifie sémantiquement 'moitié' ou 'ce qui reste'). Il se place directement après le chiffre qualifiant l'heure, relié ou non par la conjonction 'àti' (et) qui s'élide souvent à l'oral.",
+      "rules": [
+        "Structure de l'heure et demie : Aago + [Chiffre mutant] + àbọ̀.",
+        "Le ton bas sur 'à' et le ton bas-moyen sur 'bọ̀' créent une chute mélodique en fin de syntagme."
+      ],
+      "examples": [
+        {
+          "structure": "Aago + méjì + àbọ̀",
+          "phonetic_api": "/aːɡo méd͡ʒe àbɔ̀/",
+          "meaning": "Deux heures et demie."
+        },
+        {
+          "structure": "Aago + mẹ́rin + àbọ̀",
+          "phonetic_api": "/aːɡo mɛ́rin àbɔ̀/",
+          "meaning": "Quatre heures et demie."
+        }
+      ]
+    },
+    {
+      "concept": "Le verbe prédicatif de sonnerie 'lù' pour l'indication horaire",
+      "explanation": "Contrairement au français qui utilise le verbe impersonnel 'être' (il est X heure), le yoruba conceptualise le temps à travers l'action mécanique de l'horloge ou de la cloche qui frappe. On utilise le verbe transitif 'lù' (frapper / battre / sonner) associé au pronom impersonnel 'ó'.",
+      "rules": [
+        "Structure affirmative : Aago + [Nombre] + ni + ó + lù.",
+        "La particule 'ni' sert à focaliser l'heure comme l'élément central de l'information."
+      ],
+      "examples": [
+        {
+          "structure": "Aago kan ni ó lù",
+          "phonetic_api": "/aːɡo kã nĩ ó lù/",
+          "meaning": "Il est une heure (Littéralement : Une heure est ce qui a frappé)."
+        },
+        {
+          "structure": "Aago mẹ́wàá ni ó lù",
+          "phonetic_api": "/aːɡo mɛ́wàá nĩ ó lù/",
+          "meaning": "Il est dix heures."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Bọ́lá (L'étudiante)",
+      "text": "Ẹ jọ̀wọ́ arákùnrin, aago mélòó ni ó lù báyìí?",
+      "phonetic_api": "/ɛ̀ d͡ʒɔ̀wɔ́ aɾákʊ̃ɾĩ aːɡo mélòː nĩ ó lù bájĩː/",
+      "phonetic_simple": "È JÀW-WÓ A-RÁ-KOÙN-RIN, AH-GO MÉ-LÒÒ NI Ó LOÙ BÁ-YÍ?",
+      "translation": "S'il vous plaît monsieur, quelle heure est-il maintenant ?"
+    },
+    {
+      "speaker": "Ayọ̀ (Le passant)",
+      "text": "Aago mẹ́rin ni ó lù. Ṣé o ní ìpàdé kan lóní?",
+      "phonetic_api": "/aːɡo mɛ́fà nĩ ó lù ʃé o ní ìpàdé kã lónĩ́/",
+      "phonetic_simple": "AH-GO MÉ-RIN NI Ó LOÙ. SHÉ O NÍ Ì-PÀ-DÉ KAN LÓ-NÍ?",
+      "translation": "Il est quatre heures. As-tu une réunion aujourd'hui ?"
+    },
+    {
+      "speaker": "Bọ́lá (L'étudiante)",
+      "text": "Bẹ́ẹ̀ ni. Ní ọjọ́ Ajé, mo ní kíláàsì yorúbà ní aago mẹ́rin àbọ̀.",
+      "phonetic_api": "/bɛ́ː nĩ ní ɔd͡ʒɔ́ aʒé mo ní kíláːsì joɾúbà ní aːɡo mɛ́fà àbɔ̀/",
+      "phonetic_simple": "BÉÈ NI. NÍ AW-JÁ A-JÉ, MO NÍ KÍ-LÁÀ-SÌ YO-ROÚ-BÀ NÍ AH-GO MÉ-RIN À-BÀW.",
+      "translation": "Oui. Le lundi, j'ai mon cours de yoruba à quatre heures et demie."
+    },
+    {
+      "speaker": "Ayọ̀ (Le passant)",
+      "text": "O dára púpọ̀, àkókò rẹ ti tó báyìí. O dàbọ̀ o.",
+      "phonetic_api": "/o dáɾa kúpɔ̀ àkókò ɾɛ ti tó bájĩː o dàbɔ̀ o/",
+      "phonetic_simple": "OH DÁ-RA KPOÚ-PÀW, À-KÓ-KÒ RÈ TI TÓ BÁ-YÍ. OH DÀ-BÀW O.",
+      "translation": "C'est parfait, ton heure est arrivée alors. Au revoir."
+    }
+  ],
+  "cultural_notes": [
+    "La nomenclature des jours de la semaine yoruba reflète l'organisation cosmique et économique traditionnelle : Ọjọ́ Ajé (Lundi, jour de la fortune/commerce), Ọjọ́ Ìṣẹ́gun (Mardi, jour de la victoire), Ọjọ́ Rírú/Ògún (Mercredi), Ọjọ́ Bọ̀/Ọ̀bàtálá (Jeudi), Ọjọ́ Ẹtì (Vendredi, jour du doute ou des palabres), Ọjọ́ Àbámẹ́ta (Samedi), et Ọjọ́ Ìsinmi (Dimanche, calqué sur le repos spirituel monothéiste).",
+    "Le concept du temps en Afrique de l'Ouest traditionnelle est cyclique et lié aux forces de la nature. Cependant, l'usage des heures (Aago) importé et adapté s'est parfaitement intégré via le mécanisme de la cloche publique (lù).",
+    "Souhaiter un bon début de mois (Ẹ kú oṣù tuntun) est un rituel social bienveillant incontournable chez les Yorubas pour s'attirer mutuellement la chance et la prospérité."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L6_EX1",
+      "type": "multiple_choice",
+      "question": "Quelle phrase utilisez-vous pour dire de manière idiomatique 'Il est cinq heures' ?",
+      "options": [
+        "Aago márùn-ún ni mí",
+        "Aago márùn-ún ni ó lù",
+        "Márùn-ún aago lù",
+        "Ó jẹ́ aago márùn-ún"
+      ],
+      "correct_answer": "Aago márùn-ún ni ó lù",
+      "explanation": "La structure idiomatique yoruba requiert le mot 'Aago', suivi de l'adjectif numéral 'márùn-ún', de la particule 'ni' et de la forme verbale impersonnelle 'ó lù'."
+    },
+    {
+      "exercise_id": "A1_M2_L6_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour signifier qu'il est huit heures et demie, on complète la structure ainsi : Aago ẹ̀jọ [ ___ ].",
+      "correct_answer": "àbọ̀",
+      "hint": "Ce substantif signifie la moitié ou la demie d'une unité temporelle divisée."
+    }
+  ]
+}

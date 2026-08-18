@@ -1,0 +1,200 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter avec précision de 1 à 20 en langue bissa",
+    "Comprendre la structure morphologique des dizaines et la formation des nombres complexes",
+    "Appliquer le comptage dans des contextes concrets d'énumération d'objets ou de personnes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le système de numération bissa sollicite des oppositions tonales distinctes et un allongement vocalique sur les chiffres comme 'díí' (un) ou 'sɔ́ɔ̀' (cinq). La consonne fricative sifflante sourde /s/ et sa variante chuintante /ʃ/ (notée parfois 'sɩ' ou 'sh') s'articulent de manière nette, sans voyelle d'appui parasite.",
+    "common_pitfalls": "Confondre la construction de la dizaine 'bʋ̀' (ton bas) avec le verbe ou d'autres marqueurs à ton haut. Dans la série des nombres de 11 à 19, veillez à prononcer correctement le préfixe de liaison 'bèrè-' qui sert de passerelle d'addition."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Díí",
+      "phonetic_api": "/díː/",
+      "phonetic_simple": "DÍÍ",
+      "translation": "Un (1)",
+      "example_sentence": "Bisi díí",
+      "example_phonetic": "/bisi díː/",
+      "example_translation": "Un seul enfant."
+    },
+    {
+      "word_id": "v2",
+      "term": "Píya",
+      "phonetic_api": "/píja/",
+      "phonetic_simple": "PÍ-YA",
+      "translation": "Deux (2)",
+      "example_sentence": "Bur píya",
+      "example_phonetic": "/buʁ píja/",
+      "example_translation": "Deux ans."
+    },
+    {
+      "word_id": "v3",
+      "term": "Kakʋ́",
+      "phonetic_api": "/kakʊ́/",
+      "phonetic_simple": "KA-KOU",
+      "translation": "Trois (3)",
+      "example_sentence": "Luro kakʋ́",
+      "example_phonetic": "/luʁɔ kakʊ́/",
+      "example_translation": "Trois femmes."
+    },
+    {
+      "word_id": "v4",
+      "term": "Sɩ̀",
+      "phonetic_api": "/sɪ̀/",
+      "phonetic_simple": "SI",
+      "translation": "Quatre (4)",
+      "example_sentence": "Dao sɩ̀",
+      "example_phonetic": "/daɔ sɪ̀/",
+      "example_translation": "Quatre hommes."
+    },
+    {
+      "word_id": "v5",
+      "term": "Sɔ́ɔ̀",
+      "phonetic_api": "/sɔ́ːɔ̀/",
+      "phonetic_simple": "SÓO",
+      "translation": "Cinq (5)",
+      "example_sentence": "Tuumda sɔ́ɔ̀",
+      "example_phonetic": "/tuːmda sɔ́ːɔ̀/",
+      "example_translation": "Cinq tâches de travail."
+    },
+    {
+      "word_id": "v6",
+      "term": "Bʋ̀",
+      "phonetic_api": "/bʊ̀/",
+      "phonetic_simple": "BOU",
+      "translation": "Dix (10)",
+      "example_sentence": "N pɛɛ bur bʋ̀",
+      "example_phonetic": "/n̩ pɛː buʁ bʊ̀/",
+      "example_translation": "J'ai dix ans."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Bèrèdíɩ́",
+      "phonetic_api": "/bɛʁɛdíː/",
+      "phonetic_simple": "BE-RE-DÍÍ",
+      "translation": "Onze (11)",
+      "context": "Comptage cardinal ou expression d'une quantité équivalente à 10 + 1."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Bèrèpíya",
+      "phonetic_api": "/bɛʁɛpíja/",
+      "phonetic_simple": "BE-RE-PÍ-YA",
+      "translation": "Douze (12)",
+      "context": "Utilisé pour dénombrer douze unités."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Bʋ̀prá",
+      "phonetic_api": "/bʊ̀pʁá/",
+      "phonetic_simple": "BOU-PRÁ",
+      "translation": "Vingt (20)",
+      "context": "Palier numérique fondamental marquant la base du système de calcul traditionnel."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Bissa boi la ?",
+      "phonetic_api": "/bissa bɔi la/",
+      "phonetic_simple": "BIS-SA BOI LA",
+      "translation": "Combien sont-ils ?",
+      "context": "Question usuelle pour demander le compte exact de personnes ou d'éléments."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure de liaison additive (Les nombres de 11 à 19)",
+      "explanation": "En bissa, la construction des nombres situés entre dix et vingt ne se fait pas par simple juxtaposition. On utilise le radical de la dizaine 'bʋ̀' modifié sous la forme préfixée 'bèrè-' (ou buere), immédiatement suivi du chiffre de l'unité.",
+      "rules": [
+        "Dix (bʋ̀) se transforme en morphème de liaison 'bèrè-' pour former la tranche supérieure.",
+        "La structure est : bèrè- + [Chiffre de l'unité]."
+      ],
+      "examples": [
+        {
+          "structure": "bèrè- (liaison dix) + sɩ̀ (quatre) = bèrèsɩ̀",
+          "phonetic_api": "/bɛʁɛsɪ̀/",
+          "meaning": "Quatorze (14)"
+        }
+      ]
+    },
+    {
+      "concept": "La position syntaxique du numéral adjectival",
+      "explanation": "Contrairement au français où le nombre se place presque toujours avant le substantif (ex: trois enfants), en bissa, le déterminant numéral se positionne systématiquement après le nom qu'il qualifie.",
+      "rules": [
+        "Le nom reste en position initiale.",
+        "Le chiffre ou le nombre se place immédiatement après le nom, sans élément de liaison."
+      ],
+      "examples": [
+        {
+          "structure": "Bur (Années) + píya (Deux) = Bur píya",
+          "phonetic_api": "/buʁ píja/",
+          "meaning": "Deux ans"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Alimata",
+      "text": "M bisi boi la bɔ ɔrɔ ?",
+      "phonetic_api": "/m̩ bisi bɔi la bɔ ɔʁɔ/",
+      "phonetic_simple": "M BI-SI BOI LA BO O-RO",
+      "translation": "Combien d'enfants y a-t-il ici ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Bisi bɔ ɔrɔ la bèrèpíya.",
+      "phonetic_api": "/bisi bɔ ɔʁɔ la bɛʁɛpíja/",
+      "phonetic_simple": "BI-SI BO O-RO LA BE-RE-PÍ-YA",
+      "translation": "Les enfants ici sont au nombre de douze."
+    },
+    {
+      "speaker": "Alimata",
+      "text": "Barka boi. M pɛɛ bur la bʋ̀prá ?",
+      "phonetic_api": "/m̩ pɛː buʁ la bʊ̀pʁá/",
+      "phonetic_simple": "M PEE BOUR LA BOU-PRÁ",
+      "translation": "Grand merci. Ton âge est-il de vingt ans ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "An, m pɛɛ bur la bèrèsɔ́ɔ̀.",
+      "phonetic_api": "/an m̩ pɛː buʁ la bɛʁɛsɔ́ːɔ̀/",
+      "phonetic_simple": "AN M PEE BOUR LA BE-RE-SÓO",
+      "translation": "Non, mon âge est de quinze ans."
+    }
+  ],
+  "cultural_notes": [
+    "Le système d'énumération traditionnel bissa repose historiquement sur une logique vigésimale (base 20) où le nombre vingt ('bʋ̀prá') constitue un pivot majeur d'accumulation, lié aux pratiques commerciales d'échange sur les marchés du Boulgou.",
+    "Lors du comptage de la monnaie (Franc CFA) sur les marchés traditionnels du Burkina Faso, les Bissa adaptent leurs structures numériques en utilisant des unités de calcul basées sur le doro (cinq francs), à l'instar de nombreuses langues mandées."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel mot bissa correspond au nombre cardinal dix (10) ?",
+      "options": [
+        "díí",
+        "bʋ̀",
+        "bʋ̀prá"
+      ],
+      "correct_answer": "bʋ̀",
+      "explanation": "Le terme 'bʋ̀' désigne précisément la dizaine de base, tandis que 'bʋ̀prá' signifie vingt."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire quinze (15), on combine le préfixe de liaison avec le chiffre cinq : bèrɛ[ ___ ].",
+      "correct_answer": "sɔ́ɔ̀",
+      "hint": "Le chiffre bissa pour exprimer la quantité cinq."
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les différents membres de la famille proche et élargie",
+    "Exprimer les liens de parenté en utilisant le génitif (का / की / के)",
+    "Présenter sa famille et décrire brièvement son entourage"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne bilingue et aspirée 'भ' (/bʱ/) dans 'भाई' (frère) exige une fermeture nette des lèvres suivie d'une expulsion d'air sonore. Le 'त' (/t̪/) dans 'माता' est une dentale pure : le bout de la langue doit toucher les incisives supérieures, contrairement au 't' français qui est souvent alvéolaire.",
+    "common_pitfalls": "Veillez à ne pas confondre le 'ब' (/b/) non aspiré de 'बच्चे' (enfants) avec le 'भ' (/bʱ/) aspiré de 'भाई'. Une mauvaise prononciation peut modifier la clarté du mot."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "परिवार",
+      "phonetic_api": "/pəɾɪʋaːɾ/",
+      "phonetic_simple": "PA-RI-VAAR",
+      "translation": "Famille",
+      "example_sentence": "मेरा परिवार बहुत बड़ा है।",
+      "example_phonetic": "/meːraː pəɾɪʋaːɾ bəɦʊt̪ bəɽaː ɦɛː/",
+      "example_translation": "Ma famille est très grande."
+    },
+    {
+      "word_id": "v2",
+      "term": "माता",
+      "phonetic_api": "/maːt̪aː/",
+      "phonetic_simple": "MAA-TAA",
+      "translation": "Mère (formel)",
+      "example_sentence": "मेरी माता एक डॉक्टर हैं।",
+      "example_phonetic": "/meːriː maːt̪aː eːk ɖɔːkt̪əɾ ɦɛ̃ː/",
+      "example_translation": "Ma mère est médecin."
+    },
+    {
+      "word_id": "v3",
+      "term": "पिता",
+      "phonetic_api": "/pɪt̪aː/",
+      "phonetic_simple": "PI-TAA",
+      "translation": "Père (formel)",
+      "example_sentence": "मेरे पिता यहाँ हैं।",
+      "example_phonetic": "/meːɾeː pɪt̪aː jəɦãː ɦɛ̃ː/",
+      "example_translation": "Mon père est ici."
+    },
+    {
+      "word_id": "v4",
+      "term": "भाई",
+      "phonetic_api": "/bʱaːiː/",
+      "phonetic_simple": "BHAA-II",
+      "translation": "Frère",
+      "example_sentence": "क्या आपका कोई भाई है?",
+      "example_phonetic": "/kjaː aːpkaː koːiː bʱaːiː ɦɛː/",
+      "example_translation": "Avez-vous un frère ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "बहन",
+      "phonetic_api": "/bəɦən/",
+      "phonetic_simple": "BA-HAN",
+      "translation": "Sœur",
+      "example_sentence": "मेरी एक छोटी बहन है।",
+      "example_phonetic": "/meːriː eːk tʃʰoːʈiː bəɦən ɦɛː/",
+      "example_translation": "J'ai une petite sœur."
+    },
+    {
+      "word_id": "v6",
+      "term": "बेटा",
+      "phonetic_api": "/beːʈaː/",
+      "phonetic_simple": "BÉ-TAA (rétroflexe)",
+      "translation": "Fils",
+      "example_sentence": "उनका बेटा बहुत समझदार है।",
+      "example_phonetic": "/ʊnkaː beːʈaː bəɦʊt̪ səmədʒʱd̪aːr ɦɛː/",
+      "example_translation": "Leur fils est très intelligent."
+    },
+    {
+      "word_id": "v7",
+      "term": "बेटी",
+      "phonetic_api": "/beːʈiː/",
+      "phonetic_simple": "BÉ-TII (rétroflexe)",
+      "translation": "Fille",
+      "example_sentence": "यह मेरी बेटी है।",
+      "example_phonetic": "/jəɦ meːriː beːʈiː ɦɛː/",
+      "example_translation": "C'est ma fille."
+    },
+    {
+      "word_id": "v8",
+      "term": "पति",
+      "phonetic_api": "/pət̪ɪ/",
+      "phonetic_simple": "PA-TI",
+      "translation": "Époux / Mari",
+      "example_sentence": "मेरे पति काम पर हैं।",
+      "example_phonetic": "/meːɾeː pət̪ɪ kaːm pəɾ ɦɛ̃ː/",
+      "example_translation": "Mon mari est au travail."
+    },
+    {
+      "word_id": "v9",
+      "term": "पत्नी",
+      "phonetic_api": "/pət̪niː/",
+      "phonetic_simple": "PAT-NII",
+      "translation": "Épouse / Femme",
+      "example_sentence": "आपकी पत्नी कहाँ हैं?",
+      "example_phonetic": "/aːpkiː pət̪niː kəɦãː ɦɛ̃ː/",
+      "example_translation": "Où est votre épouse ?"
+    },
+    {
+      "word_id": "v10",
+      "term": "दोस्त",
+      "phonetic_api": "/d̪oːst̪/",
+      "phonetic_simple": "DOST",
+      "translation": "Ami / Amie",
+      "example_sentence": "वह मेरा सबसे अच्छा दोस्त है।",
+      "example_phonetic": "/ʋəɦ meːraː səbseː ətːʃʰaː d̪oːst̪ ɦɛː/",
+      "example_translation": "Il est mon meilleur ami."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "आपके परिवार में कितने लोग हैं?",
+      "phonetic_api": "/aːpkeː pəɾɪʋaːɾ mẽː kɪt̪neː loːɡ ɦɛ̃ː/",
+      "phonetic_simple": "AAP-KÉ PA-RI-VAAR MEIN KIT-NÉ LOG HAIN",
+      "translation": "Combien de personnes y a-t-il dans votre famille ?",
+      "context": "Question courante pour s'intéresser à l'entourage de quelqu'un."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "मेरे दो बच्चे हैं।",
+      "phonetic_api": "/meːɾeː d̪oː bətːʃeː ɦɛ̃ː/",
+      "phonetic_simple": "MÉ-RÉ DO BAT-TCHÉ HAIN",
+      "translation": "J'ai deux enfants.",
+      "context": "Indiquer sa situation de famille."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "यह अमित का भाई है।",
+      "phonetic_api": "/jəɦ əmɪt̪ kaː bʱaːiː ɦɛː/",
+      "phonetic_simple": "YAH A-MIT KAA BHAA-II HÉ",
+      "translation": "C'est le frère d'Amit.",
+      "context": "Présenter quelqu'un par son lien de parenté."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le génitif et la possession avec 'का / की / के' (kaa / kii / ké)",
+      "explanation": "Pour exprimer la possession ou la relation 'de', le hindi utilise des postpositions qui se placent après le possesseur et s'accordent en genre et en nombre avec l'objet ou la personne possédée.",
+      "rules": [
+        "का (kaa) : s'utilise si la personne/objet possédé est masculin singulier. (ex: राज का बेटा - le fils de Raj)",
+        "की (kii) : s'utilise si la personne/objet possédé est féminin (singulier ou pluriel). (ex: राज की बेटी - la fille de Raj)",
+        "के (ké) : s'utilise si la personne/objet possédé est masculin pluriel, ou honorifique singulier. (ex: राज के पिता - le père de Raj [honorifique])"
+      ],
+      "examples": [
+        {
+          "structure": "अंजली की बहन (Anjali kii bahan)",
+          "phonetic_api": "/əndʒəliː kiː bəɦən/",
+          "meaning": "La sœur d'Anjali"
+        },
+        {
+          "structure": "रोहन के भाई (Rohan ké bhaai)",
+          "phonetic_api": "/ɾoːɦən keː bʱaːiː/",
+          "meaning": "Le(s) frère(s) de Rohan"
+        }
+      ]
+    },
+    {
+      "concept": "Le pluriel respectueux pour les parents",
+      "explanation": "En hindi, on s'adresse ou on parle toujours des parents, des aînés et des ascendants au pluriel pour marquer le respect. Le verbe être final passe alors de 'है' (hai) à 'हैं' (hain).",
+      "rules": [
+        "Utiliser les déterminants pluriels (मेरे / आपके) au lieu du singulier face à un aîné.",
+        "Le verbe se conjugue au pluriel honorifique."
+      ],
+      "examples": [
+        {
+          "structure": "मेरे पिता जी डॉक्टर हैं (Méré pitā jī doctor hain)",
+          "phonetic_api": "/meːɾeː pɪt̪aː dʒiː ɖɔːkt̪əɾ ɦɛ̃ː/",
+          "meaning": "Mon père est médecin. (Littéralement : 'Mes père sont...')"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "रोहन (Rohan)",
+      "text": "अमित जी, क्या यह आपकी पत्नी की तस्वीर है?",
+      "phonetic_api": "/əmɪt̪ dʒiː kjaː jəɦ aːpkiː pət̪niː kiː təsʋiːɾ ɦɛː/",
+      "phonetic_simple": "A-MIT DJII, KYAA YAH AAP-KII PAT-NII KII TAS-VIIR HÉ",
+      "translation": "Cher Amit, est-ce la photo de votre épouse ?"
+    },
+    {
+      "speaker": "अमित (Amit)",
+      "text": "हाँ, यह मेरी पत्नी है और यह हमारा बेटा है।",
+      "phonetic_api": "/ɦãː jəɦ meːriː pət̪niː ɦɛː ɔːr jəɦ ɦəmaːraː beːʈaː ɦɛː/",
+      "phonetic_simple": "HAAN, YAH MÉ-RII PAT-NII HÉ OR YAH HA-MAA-RAA BÉ-TAA HÉ",
+      "translation": "Oui, c'est mon épouse et voici notre fils."
+    },
+    {
+      "speaker": "रोहन (Rohan)",
+      "text": "आपका बेटा बहुत प्यारा है। आपके कितने बच्चे हैं?",
+      "phonetic_api": "/aːpkaː beːʈaː bəɦʊt̪ pjaːraː ɦɛː aːpkeː kɪt̪neː bətːʃeː ɦɛ̃ː/",
+      "phonetic_simple": "AAP-KAA BÉ-TAA BAHOUT PYAA-RAA HÉ. AAP-KÉ KIT-NÉ BAT-TCHÉ HAIN",
+      "translation": "Votre fils est très mignon. Combien d'enfants avez-vous ?"
+    },
+    {
+      "speaker": "अमित (Amit)",
+      "text": "हमारे दो बच्चे हैं, एक बेटा और une बेटी।",
+      "phonetic_api": "/ɦəmaːɾeː d̪oː bətːʃeː ɦɛ̃ː eːk beːʈaː ɔːr eːk beːʈiː/",
+      "phonetic_simple": "HA-MAA-RÉ DO BAT-TCHÉ HAIN, EEK BÉ-TAA OR EEK BÉ-TII",
+      "translation": "Nous avons deux enfants, un fils et une fille."
+    }
+  ],
+  "cultural_notes": [
+    "En Inde, la structure familiale élargie (Joint Family) est très importante. De ce fait, le hindi possède des termes ultra-spécifiques introuvables en français : l'oncle paternel aîné s'appelle 'ताऊ' (taaoo) alors que l'oncle paternel cadet s'appelle 'चाचा' (chaachaa).",
+    "Comme vu précédemment, l'emploi systématique du pluriel grammatical pour évoquer un membre vivant de sa propre famille (parents, grands-parents) est un automatisme culturel obligatoire."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la forme correcte de possession pour traduire 'Le frère de Neha' : 'नेहा [ ___ ] भाई।'",
+      "options": [
+        "का (kaa)",
+        "की (kii)",
+        "के (ké)"
+      ],
+      "correct_answer": "का (kaa)",
+      "explanation": "Le mot possédé 'भाई' (frère) est masculin singulier, on utilise donc la postposition 'का'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "मेरे [ ___ ] जी घर पर हैं। (Mon père est à la maison - honorifique)",
+      "correct_answer": "पिता",
+      "hint": "Mot pour désigner le père (pita)"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "lesson_id": "C1_M3_L9",
+  "level": "Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 9,
+  "title": "Traduction et nuances stylistiques avancées",
+  "learning_objectives": [
+    "Transposer des textes complexes du français vers l'allemand en restituant les équivalences idiomatiques exactes",
+    "Identifier et éviter les faux-amis stylistiques et structurels entre les deux langues au niveau universitaire",
+    "Manier les particules modales allemandes pour restituer les nuances d'intonation et d'implication du français",
+    "Adapter le niveau de langue et la densité informative selon les impératifs des registres écrits et oraux"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'adverbe 'vorausichtlich' se prononce [foˈʁaʊ̯sˌzɪçtlɪç] : veillez à l'articulation de la diphtongue -au- et à la netteté du -ch- palatal doux [ç]. Le terme 'die Nuance' conserve une coloration d'origine française mais s'intègre sous la forme [nyˈãːsə] ou [nyˈaŋsə] avec un -e final impérativement prononcé.",
+    "common_pitfalls": "Attention à la prononciation de 'ebendort' [ˈeːbn̩ˈdɔʁft] : marquez bien l'accent tonique double et ne confondez pas le -o- bref de 'dort'. Évitez de franciser le mot 'stilistisch' [ʃtɪˈlɪstɪʃ] en escamotant le premier son [ʃ]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "die Sinnverschiebung",
+      "phonetic_api": "/diː ˈzɪnfɛɐ̯ˌʃiːbʊŋ/",
+      "phonetic_simple": "DII ZIN-FER-CHII-BUNG",
+      "translation": "le glissement de sens / la modification sémantique",
+      "example_sentence": "Eine ungenaue Übersetzung führt oft zu einer Sinnverschiebung.",
+      "example_phonetic": "/ˈaɪ̯nə ˈʊnɡəˌnaʊ̯ə yːbɐˈzɛtsʊŋ fyːːɐ̯t ɔft tsuː ˈaɪ̯nɐ ˈzɪnfɛɐ̯ˌʃiːbʊŋ/",
+      "example_translation": "Une traduction imprécise conduit souvent à un glissement de sens."
+    },
+    {
+      "word_id": "v2",
+      "term": "sinngemäß",
+      "phonetic_api": "/ˈzɪnɡəˌmɛːs/",
+      "phonetic_simple": "ZIN-GHE-MEES",
+      "translation": "fidèle au sens / par analogie / au sens propre",
+      "example_sentence": "Der Text wurde sinngemäß und nicht wortwörtlich übersetzt.",
+      "example_phonetic": "/deːɐ̯ tɛkst vʊʁdə ˈzɪnfɛɐ̯ˌɡəˌmɛːs ʊnt nɪçt ˈvɔʁtˈvœʁtlɪç yːbɐˈzɛtst/",
+      "example_translation": "Le texte a été traduit fidèlement au sens et non mot à mot."
+    },
+    {
+      "word_id": "v3",
+      "term": "die Entsprechung",
+      "phonetic_api": "/diː ɛntˈʃpʁɛçʊŋ/",
+      "phonetic_simple": "DII ENT-CHPRECH-UNG",
+      "translation": "l'équivalent / la correspondance idiomatique",
+      "example_sentence": "Für dieses französische Idiom gibt es keine direkte deutsche Entsprechung.",
+      "example_phonetic": "/fyːɐ̯ ˈdiːzəs fʁanˈtsøːzɪʃə ɪˈdi̯oːm ɡɪpt ɛs ˈkaɪ̯nə diˈʁɛktə ˈdɔɪ̯tʃə ɛntˈʃpʁɛçʊŋ/",
+      "example_translation": "Il n'y a pas d'équivalent allemand direct pour cette expression idiomatique française."
+    },
+    {
+      "word_id": "v4",
+      "term": "unterstellen",
+      "phonetic_api": "/ˌʊntɐˈʃtɛlən/",
+      "phonetic_simple": "OUN-TER-CHTEL-EN",
+      "translation": "insinuer / prêter une intention à / supposer (sens péjoratif)",
+      "example_sentence": "Man sollte dem Autor nicht böse Absichten unterstellen.",
+      "example_phonetic": "/man ˈzɔltə deːm ˈaʊ̯toːɐ̯ nɪçt ˈbøːzə ˈapˌzɪçtn̩ ˌʊntɐˈʃtɛlən/",
+      "example_translation": "On ne devrait pas insinuer de mauvaises intentions à l'auteur."
+    },
+    {
+      "word_id": "v5",
+      "term": "feinfühlig",
+      "phonetic_api": "/ˈfaɪ̯nˌfyːlɪç/",
+      "phonetic_simple": "FAIN-FUOU-LICH",
+      "translation": "subtil / délicat / avec tact / sensible",
+      "example_sentence": "Der Übersetzer ist feinfühlig mit den historischen Begriffen umgegangen.",
+      "example_phonetic": "/deːɐ̯ yːbɐˈzɛtsɐ ɪst ˈfaɪ̯nˌfyːlɪç mɪt deːn hɪsˈtoːʁɪʃn̩ bəˈɡʁɪfn̩ ˈʊmɡəˌɡaŋən/",
+      "example_translation": "Le traducteur a manié les concepts historiques avec subtilité."
+    },
+    {
+      "word_id": "v6",
+      "term": "der Wortlaut",
+      "phonetic_api": "/deːɐ̯ ˈvɔʁtˌlaʊ̯t/",
+      "phonetic_simple": "DEER VORT-LAOUT",
+      "translation": "le libellé exact / les termes précis / le texte littéral",
+      "example_sentence": "Wir müssen uns strikt an den Wortlaut des Vertrages halten.",
+      "example_phonetic": "/viːɐ̯ ˈmʏsn̩ ʊns ʃtʁɪkt an deːn ˈvɔʁtˌlaʊ̯t deːs fɛɐ̯ˈtʁaːɡəs ˈhaltn̩/",
+      "example_translation": "Nous devons nous en tenir strictement aux termes précis du contrat."
+    },
+    {
+      "word_id": "v7",
+      "term": "facettenreich",
+      "phonetic_api": "/faˈsɛtn̩ˌʁaɪ̯ç/",
+      "phonetic_simple": "FA-SET-EN-RAICH",
+      "translation": "nuancé / aux multiples facettes / complexe",
+      "example_sentence": "Die stilistischen Mittel des Autors sind äußerst facettenreich.",
+      "example_phonetic": "/diː ʃtɪˈlɪstɪʃn̩ ˈmɪtl̩ deːs ˈaʊ̯toːɐ̯s zɪnt ˈaʊ̯sɐst faˈsɛtn̩ˌʁaɪ̯ç/",
+      "example_translation": "Les procédés stylistiques de l'auteur sont extrêmement nuancés."
+    },
+    {
+      "word_id": "v8",
+      "term": "verfälschen",
+      "phonetic_api": "/fɛɐ̯ˈfɛlʃn̩/",
+      "phonetic_simple": "FER-FELCH-EN",
+      "translation": "dénaturer / altérer / fausser / falsifier",
+      "example_sentence": "Eine zu freie Übersetzung könnte die ursprüngliche Botschaft verfälschen.",
+      "example_phonetic": "/ˈaɪ̯nə tsuː fʁaɪ̯ə yːbɐˈzɛtsʊŋ ˈkœntə diː ˈuːɐ̯ˈʃpʁʊŋlɪçə ˈboːt_ʃaft fɛɐ̯ˈfɛlʃn̩/",
+      "example_translation": "Une traduction trop libre pourrait dénaturer le message d'origine."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Es kommt darauf an, den Text nicht wortwörtlich zu übertragen, sondern eine adäquate Entsprechung zu finden.",
+      "phonetic_api": "/ɛs kɔmt daˈʁaʊ̯f an deːn tɛkst nɪçt ˈvɔʁtˈvœʁtlɪç tsuː yːbɐˈtʁaːɡn̩ ˈzɔndɐn ˈaɪ̯nə adeˈkvaːtə ɛntˈʃpʁɛçʊŋ tsuː ˈfɪndn̩/",
+      "phonetic_simple": "ES KOMT DA-ROOUF AN DEEN TEKST NICHT VORT-VOERTL-ICH TSOU UU-BER-TRA-GHEN ZON-DERN AI-NE A-DE-KVA-TE ENT-CHPRECH-UNG TSOU FIN-DEN",
+      "translation": "Il importe de ne pas transposer le texte mot à mot, mais de trouver un équivalent adéquat.",
+      "context": "Règle d'or de la traductologie et de la stylistique comparée enseignée en master."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Die Partikel 'ja' verleiht der Aussage eine Nuance der Evidenz, die im Französischen oft verloren geht.",
+      "phonetic_api": "/diː paʁˈtiːkl̩ jaː fɛɐ̯ˈlaɪ̯t deːɐ̯ ˈaʊ̯sˌzaːɡə ˈaɪ̯nə nuˈãːsə deːɐ̯ eviˈdɛnts diː ɪm fʁanˈtsøːzɪʃn̩ ɔft fɛɐ̯ˈloːʁn̩ ɡeːt/",
+      "phonetic_simple": "DII PAR-TIK-EL YA FER-LAIT DEER AOOUF-SA-GHE AI-NE NU-AN-SE DEER E-VI-DENTS DII IM FRAN-TSOEZ-ICH-EN OFT FER-LOO-REN GEET",
+      "translation": "La particule 'ja' confère à l'énoncé une nuance d'évidence qui se perd souvent en français.",
+      "context": "Analyser l'impact des particules de modalité lors d'un exercice de version."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Eine feinfühlige Übersetzung muss stilistische Feinheiten des Originals exakt widerspiegeln.",
+      "phonetic_api": "/ˈaɪ̯nə ˈfaɪ̯nˌfyːlɪçə yːbɐˈzɛtsʊŋ mʊs ʃtɪˈlɪstɪʃə ˈfaɪ̯nhaɪ̯tn̩ deːs oʁiɡiˈnaːls ɛkˈzakt ˈviːdɐˌʃpiːɡl̩n/",
+      "phonetic_simple": "AI-NE FAIN-FUOU-LICHE UU-BER-ZETS-UNG MOUS CHTI-LIS-TICHE FAIN-HAIT-EN DEES O-RI-GHI-NALS EX-AKT VII-DER-CHPII-GELN",
+      "translation": "Une traduction subtile doit refléter exactement les finesses stylistiques de l'original.",
+      "context": "Critique littéraire ou correction d'un travail de traduction de haut niveau."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Man darf dem Text keine Absichten unterstellen, die im Wortlaut nicht verankert sind.",
+      "phonetic_api": "/man daʁf deːm tɛkst ˈkaɪ̯nə ˈapˌzɪçtn̩ ˌʊntɐˈʃtɛlən diː ɪm ˈvɔʁtˌlaʊ̯t nɪçt fɛɐ̯ˈaŋkəʁt zɪnt/",
+      "phonetic_simple": "MAN DARF DEEM TEKST KAI-NE AP-ZICH-TEN OUN-TER-CHTEL-EN DII IM VORT-LAOUT NICHT FER-ANG-KERT ZINT",
+      "translation": "On ne doit pas prêter au texte des intentions qui ne sont pas ancrées dans ses termes précis.",
+      "context": "Mettre en garde contre le sur-paramétrage ou l'interprétation abusive en traduction."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le maniement stylistique des particules modales (Abtönungspartikeln)",
+      "explanation": "Les particules modales sont indispensables en allemand avancé pour traduire les inflexions de voix, les sous-entendus ou l'évidence que le français exprime par l'intonation ou des locutions.",
+      "rules": [
+        "La particule 'ja' indique que le fait est connu du locuteur et de l'interlocuteur, ou relève de l'évidence ('comme tu le sais / évidemment').",
+        "La particule 'doch' s'emploie pour insister, marquer une contradiction polie ou exprimer une attente forte ('pourtant / tout de même / bien').",
+        "La particule 'denn' s'intègre uniquement dans les questions directes pour marquer l'intérêt réel ou l'étonnement ('donc / au juste')."
+      ],
+      "examples": [
+        {
+          "structure": "Das weißt du ja bereits. (ja = évidence)",
+          "phonetic_api": "/das vaɪ̯st duː jaː bəˈʁaɪ̯ts/",
+          "meaning": "Tu le sais déjà, évidemment (Tu le sais bien)."
+        },
+        {
+          "structure": "Komm doch bitte herein! (doch = renforcement de l'invitation)",
+          "phonetic_api": "/kɔm dɔx ˈbɪtə hɛˈʁaɪ̯n/",
+          "meaning": "Je t'en prie, entre donc !"
+        }
+      ]
+    },
+    {
+      "concept": "La transposition des structures verbales françaises par des adverbes de modalité allemands",
+      "explanation": "Le français utilise souvent des verbes semi-auxiliaires ('faillir', 'avoir beau') là où l'allemand recourt de manière plus compacte à des adverbes mûrs.",
+      "rules": [
+        "L'action de 'faillir faire quelque chose' se traduit en allemand par l'adverbe 'beinahe' ou 'fast' suivi du verbe conjugué au prétérit ou au parfait.",
+        "La locution 'avoir beau faire quelque chose' est idéalement transposée par l'adverbe 'auch' placé dans une concession avec 'so' ('So sehr er sich auch bemühte...')."
+      ],
+      "examples": [
+        {
+          "structure": "Er ist beinahe gestürzt.",
+          "phonetic_api": "/eːɐ̯ ɪst ˈbaɪ̯naːə ɡəˈʃtʏʁts/",
+          "meaning": "Il a failli tomber."
+        },
+        {
+          "structure": "So viel er auch arbeitet, er erzielt keine Resultate.",
+          "phonetic_api": "/zoː fiːl eːɐ̯ aʊ̯x ˈaʁbaɪ̯tət.../",
+          "meaning": "Il a beau travailler beaucoup, il n'obtient aucun résultat."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Übersetzerin",
+      "text": "Herr Kollege, die Übersetzung dieser Passage ist äußerst komplex. Wenn wir wortwörtlich vorgehen, riskieren wir eine gravierende Sinnverschiebung.",
+      "phonetic_api": "/hɛʁ kɔˈleːɡə diː yːbɐˈzɛtsʊŋ ˈdiːzɐ paˈsaːʒə ɪst ˈaʊ̯sɐst kɔmˈplɛks vɛn viːɐ̯ ˈvɔʁtˈvœʁtlɪç ˈfoːɐ̯ˌɡeːn ʁɪsˈkiːʁən viːɐ̯ ˈaɪ̯nə ɡʁaˈviːʁəndə ˈzɪnfɛɐ̯ˌʃiːbʊŋ/",
+      "phonetic_simple": "HER KOL-EE-GHE DII UU-BER-ZETS-UNG DII-ZER PA-SA-ZHE IST AOOU-SERST KOM-PLEX VEN VIIR VORT-VOERTL-ICH FOOR-GEEN RIS-KII-REN VIIR AI-NE GRA-VII-REN-DE ZIN-FER-CHII-BUNG",
+      "translation": "Cher confrère, la traduction de ce passage est extrêmement complexe. Si nous procédons mot à mot, nous risquons un grave glissement de sens."
+    },
+    {
+      "speaker": "Lektor",
+      "text": "Das stimmt. Wir müssen den Text vielmehr sinngemäß übertragen, um die Nuancen des Originals zu bewahren. Suchen wir nach einer adäquaten Entsprechung im Deutschen.",
+      "phonetic_api": "/das ʃtɪmt viːɐ̯ ˈmʏsn̩ deːn tɛkst ˈfiːlmeːɐ̯ ˈzɪnɡəˌmɛːs yːbɐˈtʁaːɡn̩ ʊm diː nuˈãːsn̩ deːs oʁiɡiˈnaːls tsuː bəˈvaːʁn̩ ˈzuːxn̩ viːɐ̯ naːx ˈaɪ̯nɐ adeˈkvaːtn̩ ɛntˈʃpʁɛçʊŋ ɪm ˈdɔɪ̯tʃn̩/",
+      "phonetic_simple": "DAS CHTIMT VIIR MOUS-NEN DEEN TEKST FIIL-MEER ZIN-GHE-MEES UU-BER-TRA-GHEN OUM DII NU-AN-SEN DEES O-RI-GHI-NALS TSOU BE-VAH-REN ZOUK-EN VIIR NAK AI-NER A-DE-KVA-TEN ENT-CHPRECH-UNG IM DOIT-CHEN",
+      "translation": "C'est exact. Nous devons plutôt transposer le texte fidèlement au sens afin de préserver les nuances de l'original. Cherchons un équivalent adéquat en allemand."
+    },
+    {
+      "speaker": "Übersetzerin",
+      "text": "Ein feinfühliger Umgang mit dem Wortlaut ist hier unabdingbar. Sonst könnten Kritiker uns unterstellen, dass wir die historische Botschaft des Autors verfälschen.",
+      "phonetic_api": "/aɪ̯n ˈfaɪ̯nˌfyːlɪçɐ ˈʊmɡaŋ mɪt deːm ˈvɔʁtˌlaʊ̯t ɪst hiːɐ̯ ˈʊnabˌdɪŋbaːɐ̯ zɔnst ˈkœntn̩ ˈkʁiːtɪkɐ ʊns ˌʊntɐˈʃtɛlən das viːɐ̯ diː hɪsˈtoːʁɪʃə ˈboːt_ʃaft deːs ˈaʊ̯toːɐ̯s fɛɐ̯ˈfɛlʃn̩/",
+      "phonetic_simple": "AIN FAIN-FUOU-LICH-ER OUM-GANG MIT DEEM VORT-LAOUT IST HIIR OUN-AP-DING-BAR ZONST KOEN-TEN KRI-TI-KER OUNS OUN-TER-CHTEL-EN DAS VIIR DII HIS-TOO-RICHE BOOT-CHAFT DEES AOOU-TOORS FER-FELCH-EN",
+      "translation": "Un maniement subtil des termes précis est ici indispensable. Autrement, les critiques pourraient nous accuser de dénaturer le message historique de l'auteur."
+    },
+    {
+      "speaker": "Lektor",
+      "text": "Genau. Wenn wir Abtönungspartikeln geschickt einsetzen, wird uns eine facettenreiche Übersetzung gelingen, die dem Original in nichts nachsteht.",
+      "phonetic_api": "/ɡəˈnaʊ̯ vɛn viːɐ̯ Abtönungspartikeln ɡəˈʃɪkt ˈaɪ̯nˌzɛtsn̩ vɪʁt ʊns ˈaɪ̯nə faˈsɛtn̩ˌʁaɪ̯çə yːbɐˈzɛtsʊŋ ɡəˈlɪŋən diː deːm oʁiɡiˈnaːls ɪn nɪçts ˈnaːxˌʃteːt/",
+      "phonetic_simple": "GHE-NAOU VEN VIIR AP-TOE-NUNGS-PAR-TI-KELN GHE-CHIKT AIN-ZETS-EN VIRT OUNS AI-NE FA-SET-EN-RAICHE UU-BER-ZETS-UNG GHE-LING-EN DII DEEM O-RI-GHI-NALS IN NICHTS NAK-CHTEET",
+      "translation": "Exactement. En intégrant habilement les particules modales, nous réussirons une traduction nuancée qui n'aura rien à envier à l'original."
+    }
+  ],
+  "cultural_notes": [
+    "La traduction du français vers l'allemand se heurte souvent à une différence structurelle fondamentale : là où la stylistique française valorise l'élégance des périphrases et le déploiement de métaphores abstraites, l'allemand académique et littéraire privilégie la concision morphologique, la précision logique et l'ancrage concret des concepts.",
+    "Les particules modales (Abtönungspartikeln) constituent un joyau culturel de la langue allemande. Elles sont le reflet de la subjectivité et des attentes implicites au sein de la communauté des locuteurs. Un traducteur chevronné sait qu'omettre une particule modale dépouille le texte allemand de sa couleur relationnelle authentique.",
+    "Le concept de 'Treue zum Text' (fidélité au texte) a fait l'objet de vifs débats intellectuels en Allemagne, portés notamment par les traductions philosophiques de Walter Benjamin. Selon lui, la traduction ne doit pas être un simple décalque sémantique, mais doit faire résonner le mode de visée propre à la langue cible."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment traduiriez-vous au niveau C1 la phrase française : 'Il a failli rater son train.' ?",
+      "options": [
+        "Er hat gefehlt, seinen Zug zu verpassen.",
+        "Er hat beinahe seinen Zug verpasst.",
+        "Er sollte seinen Zug verpassen haben."
+      ],
+      "correct_answer": "Er hat beinahe seinen Zug verpasst.",
+      "explanation": "Le verbe 'faillir' se transpose élégamment en allemand par l'adverbe de modalité 'beinahe' (ou 'fast') combiné au verbe d'action conjugué au temps du passé requis."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Um eine Sinnverschiebung zu vermeiden, müssen wir den Text sinngemäß [ ___ ].",
+      "correct_answer": "übersetzen",
+      "hint": "Entrez l'infinitif du verbe signifiant 'traduire' pour clore correctement cette proposition finale introduite par la locution 'um... zu'."
+    }
+  ]
+}

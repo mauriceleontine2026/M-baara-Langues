@@ -1,0 +1,233 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Déclarer son identité et demander celle de son interlocuteur en langue bissa",
+    "Exprimer son âge, sa provenance géographique et son activité professionnelle",
+    "Utiliser les pronoms personnels sujets fondamentaux de manière autonome"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en avant l'occlusive palatale voisée /ɟ/ (proche du 'gy' ou du 'di' mouillé) et les voyelles ouvertes /ɛ/ et /ɔ/. L'intonation descendante en fin de phrase est typique des énoncés déclaratifs d'identité en bissa, tandis que les questions d'identité maintiennent un ton moyen-haut sur le mot interrogatif.",
+    "common_pitfalls": "Attention à bien distinguer le pronom personnel de la première personne 'M' (souvent nasalisé ou réalisé comme une syllabe à part entière /m̩/) du pronom de la troisième personne 'A'. Ne pas prononcer le 'm' trop rapidement, donnez-lui son poids vocalique."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Gii",
+      "phonetic_api": "/ɟiː/",
+      "phonetic_simple": "GYII",
+      "translation": "Nom / s'appeler",
+      "example_sentence": "M gii la Adama",
+      "example_phonetic": "/m̩ ɟiː la adama/",
+      "example_translation": "Mon nom est Adama."
+    },
+    {
+      "word_id": "v2",
+      "term": "Bur",
+      "phonetic_api": "/buʁ/",
+      "phonetic_simple": "BOUR",
+      "translation": "Année / an (pour l'âge)",
+      "example_sentence": "M pɛɛ bur pi dusi",
+      "example_phonetic": "/m̩ pɛː buʁ pi dusi/",
+      "example_translation": "J'ai vingt ans (litt. : Mes années atteignent vingt)."
+    },
+    {
+      "word_id": "v3",
+      "term": "Wur",
+      "phonetic_api": "/wuʁ/",
+      "phonetic_simple": "WOUR",
+      "translation": "Provenance / pays / ville d'origine",
+      "example_sentence": "M gur n gaa Garango",
+      "example_phonetic": "/m̩ ɡuʁ n̩ ɡaː ɡaʁanɡo/",
+      "example_translation": "Je viens de Garango."
+    },
+    {
+      "word_id": "v4",
+      "term": "Tuumda",
+      "phonetic_api": "/tuːmda/",
+      "phonetic_simple": "TOUM-DA",
+      "translation": "Travail / profession / activité",
+      "example_sentence": "M tuumda la zɔnda",
+      "example_phonetic": "/m̩ tuːmda la zɔnda/",
+      "example_translation": "Mon travail est cultivateur."
+    },
+    {
+      "word_id": "v5",
+      "term": "Karamɔgɔ",
+      "phonetic_api": "/kaʁamɔɡɔ/",
+      "phonetic_simple": "KA-RA-MO-GO",
+      "translation": "Enseignant / maître",
+      "example_sentence": "A la karamɔgɔ",
+      "example_phonetic": "/a la kaʁamɔɡɔ/",
+      "example_translation": "Il/Elle est enseignant(e)."
+    },
+    {
+      "word_id": "v6",
+      "term": "Sukuuka",
+      "phonetic_api": "/sukuːka/",
+      "phonetic_simple": "SOU-KOUU-KA",
+      "translation": "Élève / étudiant",
+      "example_sentence": "M la sukuuka",
+      "example_phonetic": "/m̩ la sukuːka/",
+      "example_translation": "Je suis élève."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "M gii la [Nom]",
+      "phonetic_api": "/m̩ ɟiː la/",
+      "phonetic_simple": "M GYII LA [Nom]",
+      "translation": "Je m'appelle [Nom]",
+      "context": "Formule standard pour donner son identité nominale."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "M bɔ bɔ ?",
+      "phonetic_api": "/m̩ bɔ bɔ/",
+      "phonetic_simple": "M BO BO",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Question familière ou directe pour demander le nom de quelqu'un."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "N gur la Waga",
+      "phonetic_api": "/n̩ ɡuʁ la waɡa/",
+      "phonetic_simple": "N GOUR LA WA-GA",
+      "translation": "Je viens de Ouagadougou",
+      "context": "Indication de son lieu d'origine ou de résidence habituelle."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "M pɛɛ bur pi jɔ",
+      "phonetic_api": "/m̩ pɛː buʁ pi ɟɔ/",
+      "phonetic_simple": "M PEE BOUR PI DYO",
+      "translation": "J'ai trente ans",
+      "context": "Expression de son âge lors d'un entretien ou d'une présentation formelle."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "M tuumda la bɔ ?",
+      "phonetic_api": "/m̩ tuːmda la bɔ/",
+      "phonetic_simple": "M TOUM-DA LA BO",
+      "translation": "Quel est ton travail ?",
+      "context": "Question pour s'enquérir de l'occupation professionnelle de son interlocuteur."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "M la lɔkɔtɔrɔ sãa",
+      "phonetic_api": "/m̩ la lɔkɔtɔʁɔ sãː/",
+      "phonetic_simple": "M LA LO-KO-TO-RO SAA",
+      "translation": "Je suis médecin",
+      "context": "Présentation de sa fonction dans le domaine de la santé."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "M bɔ n gaa bɔ ti ?",
+      "phonetic_api": "/m̩ bɔ n̩ ɡaː bɔ ti/",
+      "phonetic_simple": "M BO N GAA BO TI",
+      "translation": "D'où viens-tu ?",
+      "context": "Question géographique pour s'informer sur l'origine ethnique ou régionale."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "M la bissa n sãa",
+      "phonetic_api": "/m̩ la bissa n̩ sãː/",
+      "phonetic_simple": "M LA BIS-SA N SAA",
+      "translation": "Je suis d'ethnie bissa",
+      "context": "Affirmation de son identité culturelle et linguistique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le verbe d'état et d'identité 'la'",
+      "explanation": "En bissa, l'équivalent du verbe français 'être' pour l'expression d'une identité stable, d'un nom ou d'une profession se matérialise par la copule invariable 'la'. Elle lie le sujet à son attribut sans changement morphologique.",
+      "rules": [
+        "Pronom sujet + la + Nom/Profession = Phrase d'état complète.",
+        "La copule 'la' ne prend aucune marque de temps au présent déclaratif.",
+        "En cas de négation, 'la' est remplacé par une particule négative spécifique."
+      ],
+      "examples": [
+        {
+          "structure": "M (Je) + la (suis) + karamɔgɔ (enseignant)",
+          "phonetic_api": "/m̩ la kaʁamɔɡɔ/",
+          "meaning": "Je suis enseignant."
+        }
+      ]
+    },
+    {
+      "concept": "La construction possessive de l'âge",
+      "explanation": "Contrairement au français qui utilise le verbe 'avoir', ou à l'anglais qui emploie 'être', le bissa exprime l'âge via une structure possessive indiquant que les années du sujet ont atteint un certain nombre ou se sont accumulées.",
+      "rules": [
+        "On emploie le possessif de la première personne 'M pɛɛ' (mes années/mon existence).",
+        "Le nombre suit directement le substantif 'bur' (années)."
+      ],
+      "examples": [
+        {
+          "structure": "M pɛɛ bur + [Nombre]",
+          "phonetic_api": "/m̩ pɛː buʁ/",
+          "meaning": "Mes années s'élèvent à... (J'ai... ans)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Issa",
+      "text": "M bɔ bɔ ? M gii la Issa.",
+      "phonetic_api": "/m̩ bɔ bɔ m̩ ɟiː la issa/",
+      "phonetic_simple": "M BO BO ? M GYII LA IS-SA",
+      "translation": "Comment t'appelles-tu ? Moi, je m'appelle Issa."
+    },
+    {
+      "speaker": "Alimata",
+      "text": "M gii la Alimata. M bɔ n gaa bɔ ti ?",
+      "phonetic_api": "/m̩ ɟiː la alimata m̩ bɔ n̩ ɡaː bɔ ti/",
+      "phonetic_simple": "M GYII LA A-LI-MA-TA. M BO N GAA BO TI",
+      "translation": "Je m'appelle Alimata. D'où viens-tu ?"
+    },
+    {
+      "speaker": "Issa",
+      "text": "N gur la Tenkodogo. M la karamɔgɔ. N tuumda la bɔ ?",
+      "phonetic_api": "/n̩ ɡuʁ la tɛnkɔdɔɡɔ m̩ la kaʁamɔɡɔ n̩ tuːmda la bɔ/",
+      "phonetic_simple": "N GOUR LA TEN-KO-DO-GO. M LA KA-RA-MO-GO. N TOUM-DA LA BO",
+      "translation": "Je viens de Tenkodogo. Je suis enseignant. Quel est ton travail ?"
+    },
+    {
+      "speaker": "Alimata",
+      "text": "M la lɔkɔtɔrɔ sãa. M pɛɛ bur pi jɔ.",
+      "phonetic_api": "/m̩ la lɔkɔtɔʁɔ sãː m̩ pɛː buʁ pi ɟɔ/",
+      "phonetic_simple": "M LA LO-KO-TO-RO SAA. M PEE BOUR PI DYO",
+      "translation": "Je suis médecin. J'ai trente ans."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture bissa, décliner son identité s'accompagne presque toujours de la mention de son village ou de sa lignée familiale. Le lieu d'origine ('wur') possède une charge symbolique très forte, car il permet d'établir immédiatement les liens de parenté ou de plaisanterie (parenté à plaisanterie avec les Gourounsi notamment).",
+    "Le terme 'lɔkɔtɔrɔ sãa' dérive historiquement de l'anglicisme ou du francisat 'docteur', auquel est adjoint le suffixe honorifique ou de spécialisation propre aux langues de la région."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel mot bissa utilise-t-on pour lier son sujet à sa profession (ex: Je suis élève) ?",
+      "options": [
+        "la",
+        "ki",
+        "gii"
+      ],
+      "correct_answer": "la",
+      "explanation": "Le mot 'la' est la copule affirmative d'identité équivalente au verbe être pour les statuts et noms."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander l'origine de quelqu'un, on pose la question : M bɔ n gaa [ ___ ] ti ?",
+      "correct_answer": "bɔ",
+      "hint": "Le pronom interrogatif signifiant 'quoi' ou 'où' dans ce contexte contextuel."
+    }
+  ]
+}

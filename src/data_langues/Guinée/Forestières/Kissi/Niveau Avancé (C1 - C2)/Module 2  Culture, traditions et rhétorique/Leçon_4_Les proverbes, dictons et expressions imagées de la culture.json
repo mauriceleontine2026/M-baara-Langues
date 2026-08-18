@@ -1,0 +1,114 @@
+{
+  "lesson_id": "C1_M2_L4",
+  "level": "Niveau Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 4,
+  "title": "Les proverbes, dictons et expressions imagées de la culture",
+  "learning_objectives": [
+    "Comprendre le sens caché et philosophique des proverbes kissi",
+    "Manipuler des métaphores animalières et végétales dans une discussion",
+    "Intégrer des expressions idiomatiques pour polir son style oral"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les proverbes utilisent un rythme poétique et des élisions de voyelles pour fluidifier la diction. Le ton descendant sur les mots clés porte souvent la valeur métaphorique.",
+    "common_pitfalls": "Veillez à ne pas décomposer mécaniquement chaque mot d'un dicton. La prononciation d'un proverbe doit être unifiée sous un seul flux rythmique continu."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v22_1",
+      "term": "dimandɔ",
+      "phonetic_api": "/di.mã.ⁿdɔ/",
+      "phonetic_simple": "DI-MAN-DO",
+      "translation": "proverbe / parole imagée / dicton",
+      "example_sentence": "Dimandɔ kissi o nɔ nyalɛ.",
+      "example_phonetic": "/di.mã.ⁿdɔ ki.si o nɔ ɲa.lɛ/",
+      "example_translation": "Le proverbe kissi a de la beauté / de la sagesse."
+    },
+    {
+      "word_id": "v22_2",
+      "term": "sua",
+      "phonetic_api": "/swa/",
+      "phonetic_simple": "SOUA",
+      "translation": "animal / bête de la brousse",
+      "example_sentence": "Sua o co gbalala ning.",
+      "example_phonetic": "/swa o tʃo g͡ba.la.la niŋ/",
+      "example_translation": "L'animal est en train de courir."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p22_1",
+      "original": "Wana pilɔ o nɔndɛ cando le.",
+      "phonetic_api": "/wa.na pi.lɔ o nɔ̃.ⁿdɛ tʃa.ⁿdo le/",
+      "phonetic_simple": "WA-NA PI-LO O NON-DÈ TCHAN-DO LÉ",
+      "translation": "Une seule personne ne construit pas une maison (Proverbe sur l'unité et la solidarité).",
+      "context": "Utilisé lors de travaux communautaires ou d'entraide familiale"
+    },
+    {
+      "phrase_id": "p22_2",
+      "original": "Mɛŋ o cɔɔ lebol yafɛ le.",
+      "phonetic_api": "/mɛ̃ o tʃɔː le.bol ja.fɛ le/",
+      "phonetic_simple": "MENG O TCHOO LÉ-BOL YA-FÈ LÉ",
+      "translation": "L'eau ne coule jamais en remontant la colline (Proverbe sur le respect des lois de la nature ou de la hiérarchie).",
+      "context": "Rappeler à un jeune le respect dû aux anciens"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'omission stylistique de l'auxiliaire dans la parémie",
+      "explanation": "Dans la syntaxe des proverbes et dictons anciens en kissi, l'auxiliaire de temps présent 'co' est fréquemment omis au profit d'une structure intemporelle directe, conférant au propos une valeur de vérité générale absolue.",
+      "rules": [
+        "Le sujet est lié directement au verbe d'action ou d'état.",
+        "La structure négative finale 'le' est maintenue pour verrouiller l'énoncé."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + Verbe + (Complément) + le",
+          "phonetic_api": "/wa.na pi.lɔ o nɔ̃.ⁿdɛ tʃa.ⁿdo le/",
+          "meaning": "Une seule personne ne bâtit pas de maison."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'Ancien",
+      "text": "Tamba, dimandɔ nɔɔ o dimul mi : wana pilɔ o nɔndɛ cando le.",
+      "phonetic_api": "/ta.ᵐba di.mã.ⁿdɔ noː o di.mul mi wa.na pi.lɔ o nɔ̃.ⁿdɛ tʃa.ⁿdo le/",
+      "phonetic_simple": "TAM-BA, DI-MAN-DO NOO O DI-MOUL MI : WA-NA PI-LO O NON-DÈ TCHAN-DO LÉ.",
+      "translation": "Tamba, le proverbe nous dit : une seule personne ne construit pas une maison."
+    },
+    {
+      "speaker": "Tamba",
+      "text": "Haa, i tchie ni. I co vana diali lo kounda loolu bana i wali kpou.",
+      "phonetic_api": "/haː i tʃje ni i tʃo wa.na dja.li lo kuːⁿda loː.lu ba.na i wa.li k͡pu/",
+      "phonetic_simple": "HAA, I TCHI-É NI. I TCHO WA-NA DJA-LI LO KOUN-DA LOO-LOU BA-NA I WA-LI KPOU.",
+      "translation": "Oui, j'ai compris. Je vais appeler tout le monde dans la concession pour que nous finissions le travail."
+    }
+  ],
+  "cultural_notes": [
+    "La rhétorique kissi attribue une valeur sacrée aux proverbes ('dimandɔ'). Un jeune homme sachant manier les dictons appropriés au cours d'une réunion de village démontre qu'il a été bien initié à la sagesse profonde des ancêtres."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex22_1",
+      "type": "multiple_choice",
+      "question": "Que signifie littéralement l'expression imagée 'Wana pilɔ o nɔndɛ cando le' ?",
+      "options": [
+        "Une seule personne ne construit pas une maison",
+        "L'eau ne coule pas en haut",
+        "Le riz est bon pour le village"
+      ],
+      "correct_answer": "Une seule personne ne construit pas une maison",
+      "explanation": "C'est le proverbe clé symbolisant la force du collectif et de l'unité communautaire."
+    },
+    {
+      "exercise_id": "ex22_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] o kissi o nɔ nyalɛ. (Le proverbe kissi a de la sagesse)",
+      "correct_answer": "Dimandɔ",
+      "hint": "Substantif pour désigner une parole imagée ou dicton ancien"
+    }
+  ]
+}

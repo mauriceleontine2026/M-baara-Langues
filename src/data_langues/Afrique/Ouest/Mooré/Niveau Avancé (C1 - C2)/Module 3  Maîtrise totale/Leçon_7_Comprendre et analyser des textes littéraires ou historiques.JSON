@@ -1,0 +1,162 @@
+{
+  "lesson_id": "C1_M3_L7",
+  "level": "Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 7,
+  "title": "Analyser des textes littéraires ou historiques",
+  "learning_objectives": [
+    "Décortiquer la structure narrative des récits de fondation et des généalogies royales ('Kibaaya')",
+    "Identifier les figures de style, les allégories et les arcs mythologiques de la littérature orale mossi",
+    "Formuler une critique littéraire ou une analyse textuelle approfondie en utilisant un lexique exégétique"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le terme historique 'Kibaaya' se prononce avec un 'a' long central suivi d'un glissement fluide vers la semi-voyelle [kibaːja]. Le mot pour l'origine, 'Sɩngrẽ', exige une articulation très ouverte du 'ɩ' combinée à une forte nasalisation finale [sɪnɡrẽ].",
+    "common_pitfalls": "Veillez à ne pas confondre le mot 'Sōmde' (le bien / la valeur textuelle) avec 'Sõma' (bien / bon). Le premier possède une voyelle fermée longue 'ō' [oː] propre au registre soutenu de l'exégèse."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v25_1",
+      "term": "Kibaaya",
+      "phonetic_api": "/kibaːja/",
+      "phonetic_simple": "KI-BAA-YA",
+      "translation": "Chronique historique / Récit de fondation / Épopée des ancêtres",
+      "example_sentence": "D zãmsda d ba-rãmb kɩbaayã.",
+      "example_phonetic": "/d zãmsda d barãmb kɩbaːjã/",
+      "example_translation": "Nous analysons l'épopée historique de nos ancêtres."
+    },
+    {
+      "word_id": "v25_2",
+      "term": "Sɩngrẽ",
+      "phonetic_api": "/sɪnɡrẽ/",
+      "phonetic_simple": "SIN-GRUEN",
+      "translation": "L'origine / La genèse / Le commencement mythologique",
+      "example_sentence": "Kɩbaayã wilgda tẽngã sɩngrẽ.",
+      "example_phonetic": "/kɩbaːjã wilɡda tẽŋã sɪnɡrẽ/",
+      "example_translation": "Le récit historique démontre la genèse du royaume."
+    },
+    {
+      "word_id": "v25_3",
+      "term": "Sōmde",
+      "phonetic_api": "/soːmde/",
+      "phonetic_simple": "SOOM-DÉ",
+      "translation": "La substance / La valeur morale / La portée d'un texte",
+      "example_sentence": "Guls-sebrã tara sōmde kãsenga.",
+      "example_phonetic": "/ɣuls sebrã tara soːmde kãsẽŋɡa/",
+      "example_translation": "Ce manuscrit possède une immense portée philosophique."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p25_1",
+      "original": "Kɩbaay kãngã wilgda d ba-rãmbã pãng la b yẽmã sɩngrẽ-yãmbã wakatẽ.",
+      "phonetic_api": "/kɩbaːj kãŋɡã wilɡda d barãmbã pãŋ la b jẽmã sɩnɡrẽ jãmbã wakatẽ/",
+      "phonetic_simple": "KI-BAAY KAN-NGAN WILG-DA D BA-RAM-BAN PAN-G LA B YEM-AN SIN-GRUEN YAM-BAN WA-KA-TUEN",
+      "translation": "Cette chronique historique met en lumière la force et la sagesse de nos ancêtres aux temps originels.",
+      "context": "Introduire l'analyse critique d'un récit de fondation traditionnel."
+    },
+    {
+      "phrase_id": "p25_2",
+      "original": "D sã n deeg gulsgã sōmde, d na paam n mɩ d tẽngã koglgo.",
+      "phonetic_api": "/d sã n deːɣ ɣulsɣã soːmde d na paam n mɩ d tẽŋã koɡlɣo/",
+      "phonetic_simple": "D SAN N DÉEG GOULS-GAN SOOM-DÉ, D NA PAAM N MI D TEN-GAN KOG-LGO",
+      "translation": "Si nous assimilons la substance spirituelle de ce texte, nous comprendrons la préservation de notre nation.",
+      "context": "Expliquer l'intérêt d'une étude exégétique lors d'un séminaire culturel."
+    },
+    {
+      "phrase_id": "p25_3",
+      "original": "Solmẽnd nins n bē guls-sebrã pūasẽ tara gãorgo kãsenga d vɩɩm yĩnga.",
+      "phonetic_api": "/solmẽnd nins n beː ɣuls sebrã puːasẽ tara ɡãorɣo kãsẽŋɡa d vɪːm jĩnɡa/",
+      "phonetic_simple": "SOL-MEIND NINS N BÉE GOULS-SEB-RAN POO-A-SUEN TA-RA GAOR-GO KAN-SEN-GA D VIIM YIN-GA",
+      "translation": "Les paraboles couchées au sein de ce livre possèdent une signification cryptique majeure pour notre existence.",
+      "context": "Détailler la complexité métaphorique d'une œuvre littéraire."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le pronom relatif de spécification textuelle 'Nins'",
+      "explanation": "Pour isoler des éléments textuels ou des segments narratifs précis au sein d'une analyse complexe, le mooré utilise le pronom relatif pluriel 'nins' (lesquels / que).",
+      "rules": [
+        "Structure : [Substantif au pluriel] + nins + [Proposition subordonnée].",
+        "Il s'accorde sémantiquement avec la classe des objets inanimés abstraits ou culturels."
+      ],
+      "examples": [
+        {
+          "structure": "gōmã + nins + m + ra + kelge",
+          "phonetic_api": "/ɣoːmã nins m ra kelɡe/",
+          "meaning": "Les paroles [historiques] que j'avais écoutées."
+        }
+      ]
+    },
+    {
+      "concept": "La nominalisation exégétique par le suffixe de qualité '-mde'",
+      "explanation": "Au niveau C1-C2, les concepts analytiques sont construits en ajoutant le suffixe '-mde' à des radicaux verbaux ou adjectivaux pour extraire l'essence d'un concept (ex: 'Sōmde' dérivé de 'Sõma').",
+      "rules": [
+        "Le mot ainsi créé désigne une propriété intrinsèque, abstraite et inaliénable du texte ou de l'événement étudié."
+      ],
+      "examples": [
+        {
+          "structure": "Radical + mde",
+          "phonetic_api": "/soːmde/",
+          "meaning": "La substance morale / La quintessence textuelle."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Karen-bi-kãsenga (L'étudiant chercheur)",
+      "text": "Karen-saãmba, m sã n deeg d ba-rãmb kɩbaaya, m tara gẽegmõ gulsgã sɩngrẽ yĩnga.",
+      "phonetic_api": "/karensãːmba m sã n deːɣ d barãmb kɩbaːja m tara ɣeːɣmõ ɣulsɣã sɪnɡrẽ jĩnɡa/",
+      "phonetic_simple": "KA-REN-SAA-MBA, M SAN N DÉEG D BA-RAM-B KI-BAA-YA, M TA-RA GÉEG-MON GOULS-GAN SIN-GRUEN YIN-GA",
+      "translation": "Maître, si j'analyse la chronique historique de nos ancêtres, j'ai une divergence concernant l'origine exacte mentionnée dans le texte."
+    },
+    {
+      "speaker": "Karen-saãmba (Le professeur émérite)",
+      "text": "Kelg-y laafi, m biiga. Kɩbaayã nins n bē guls-sebrã pūasẽ tara sōmde. Y yãe n sãam a gãorgo.",
+      "phonetic_api": "/kelɡ i laːfi m bɪːɣa kɩbaːjã nins n beː ɣuls sebrã puːasẽ tara soːmde i jãe n sãːm a ɡãorɣo/",
+      "phonetic_simple": "KELG-I LAA-FI, M BII-GA. KI-BAAY-AN NINS N BÉE GOULS-SEB-RAN POO-A-SUEN TA-RA SOOM-DÉ. Y YÃE N SÃAM A GAOR-GO",
+      "translation": "Écoutez avec attention, mon enfant. Les chroniques qui se trouvent dans ce manuscrit possèdent une substance sacrée. Gardez-vous de dénaturer leur sens cryptique."
+    },
+    {
+      "speaker": "Karen-bi-kãsenga (L'étudiant chercheur)",
+      "text": "M mɩ paama, bale woto yĩnga d tɩlae n wilg tãõgã t d ba-rãmbã ra tara yẽm sɩda-sɩda.",
+      "phonetic_api": "/m mɩ paːma bale woto jĩnɡa d tɩlae n wilɡ tãõɡã t d barãmbã ra tara jẽm sɪdasɪda/",
+      "phonetic_simple": "M MI PAA-MA, BA-LÉ WO-TO YIN-GA D TI-LAE N WILG TAN-ORGAN T D BA-RAM-BAN RA TA-RA YEM SI-DA-SI-DA",
+      "translation": "C'est possible, cependant c'est pourquoi nous devons démontrer à l'assemblée des chercheurs que nos ancêtres étaient dotés d'une vérité scientifique absolue."
+    },
+    {
+      "speaker": "Karen-saãmba (Le professeur émérite)",
+      "text": "Y gōmã tara wēogo. Baasgo, d na zãmsme n paam sɩda fãa, Wend na kẽes bēogo.",
+      "phonetic_api": "/i ɣoːmã tara weːoɣo baːsɣo d na zãmsme n paam sɪda fãː wend na kẽːs beːɣo/",
+      "phonetic_simple": "Y GOO-MAN TA-RA WÉE-O-GO. BAAS-GO, D NA ZAMS-MÉ N PAAM SI-DA FAAN, WEND NA KÉES BÉE-GO",
+      "translation": "Votre discours est digne d'honneur. En conclusion, nous poursuivrons l'exégèse pour appréhender toute la vérité, que Dieu bénisse nos recherches futures."
+    }
+  ],
+  "cultural_notes": [
+    "L'analyse des textes historiques ('Kibaaya') en pays mossi touche directement au sacré. Raconter la genèse des royaumes (comme l'épopée de la princesse Yennenga ou de son fils Oubri) exige une initiation préalable car la parole écrite ou prononcée réveille la mémoire des ancêtres dynastiques.",
+    "Les récits anciens utilisent un langage volontairement complexe et opaque ('gãorgo'), truffé d'allégories et de détours poétiques, afin de réserver la pleine compréhension des mystères politiques et fonciers aux seuls initiés du conseil des anciens.",
+    "La critique ou l'interprétation textuelle ne doit jamais rompre le respect dû aux auteurs spirituels de la tradition. L'exercice intellectuel s'accompagne toujours de marques d'humilité et de vœux protocolaires envers les dépositaires de l'histoire."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex25_1",
+      "type": "multiple_choice",
+      "question": "Quel terme de niveau C1 désigne une chronique historique, une épopée ou un récit de fondation traditionnel ?",
+      "options": [
+        "Saka",
+        "Kibaaya",
+        "Ligdi"
+      ],
+      "correct_answer": "Kibaaya",
+      "explanation": "'Kibaaya' qualifie les grands récits historiques, les annales orales et les traditions mémorielles de la communauté."
+    },
+    {
+      "exercise_id": "ex25_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Kɩbaayã wilgda tẽngã [ ___ ]. (Traduction : Le récit historique démontre la genèse/l'origine du pays.)",
+      "correct_answer": "sɩngrẽ",
+      "hint": "Le substantif désignant le commencement absolu, la source ou l'origine mythologique."
+    }
+  ]
+}

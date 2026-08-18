@@ -1,0 +1,232 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Distinguer et employer avec précision les particules de condition 'In', 'Idhā' et 'Law' selon le degré de réalisable",
+    "Formuler l'incertitude et le doute systémique à l'aide de structures avancées comme 'La'alla' et 'La'allahu'",
+    "Maîtriser l'apodose (la proposition principale) et l'introduction de la particule 'La-' ou 'Fa-' dans les systèmes conditionnels"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon repose sur la maîtrise des articulations subtiles des particules. Le son /l/ (ل) répété avec insistance dans 'Law' (لَوْ) ou 'La-allama' exige une agilité de la pointe de la langue. L'arrêt glottal net (Hamza) est fondamental dans 'In' (إِنْ) pour éviter toute fusion incorrecte avec le mot précédent.",
+    "common_pitfalls": "Attention à la vocalisation de la particule 'Fa-' (فَـ) de liaison de l'apodose. Elle doit être brève et percutante. Ne confondez pas non plus l'accentuation de 'In' (إِنْ - si conditionnel) avec 'Inna' (إِنَّ - certes), sous peine de modifier totalement la nature syntaxique de la phrase."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "لَوْ",
+      "phonetic_api": "/law/",
+      "phonetic_simple": "LAW",
+      "translation": "Si (conjonction introduisant une condition irréelle ou impossible dans le passé ou le présent)",
+      "example_sentence": "لَوْ دَرَسْتَ لَنَجَحْتَ",
+      "example_phonetic": "/law da.ras.ta la.na.dʒaħ.ta/",
+      "example_translation": "Si tu avais étudié, tu aurais réussi"
+    },
+    {
+      "word_id": "v2",
+      "term": "إِذَا",
+      "phonetic_api": "/ʔi.ðaː/",
+      "phonetic_simple": "I-THAA",
+      "translation": "Si / Lorsque (introduit une condition réalisable ou une certitude future)",
+      "example_sentence": "إِذَا جِئْتَ أَكْرَمْتُكَ",
+      "example_phonetic": "/.../",
+      "example_translation": "Si tu viens (quand tu viendras), je t'accueillerai généreusement"
+    },
+    {
+      "word_id": "v3",
+      "term": "فَرْضِيَّةٌ",
+      "phonetic_api": "/far.dˤij.ja.tun/",
+      "phonetic_simple": "FAR-DIY-YA-TOUN",
+      "translation": "Une hypothèse / Une supposition",
+      "example_sentence": "هَذِهِ فَرْضِيَّةٌ عِلْمِيَّةٌ",
+      "example_phonetic": "/.../",
+      "example_translation": "C'est une hypothèse scientifique"
+    },
+    {
+      "word_id": "v4",
+      "term": "لَعَلَّ",
+      "phonetic_api": "/la.ʕal.la/",
+      "phonetic_simple": "LA-AL-LA",
+      "translation": "Peut-être / Il se peut que (exprime l'espoir ou le doute réalisable)",
+      "example_sentence": "لَعَلَّ الأَمْرَ خَيْرٌ",
+      "example_phonetic": "/la.ʕal.lal ʔam.ra xaj.run/",
+      "example_translation": "Peut-être que cette affaire est un bien"
+    },
+    {
+      "word_id": "v5",
+      "term": "شَكٌ",
+      "phonetic_api": "/ʃak.kun/",
+      "phonetic_simple": "CHAK-KOUN",
+      "translation": "Un doute / Une incertitude / Une suspicion",
+      "example_sentence": "لَا شَكَّ فِي صِحَّةِ الْخَبَرِ",
+      "example_phonetic": "/laː ʃak.ka fiː sˤiħ.ħa.til xa.ba.ri/",
+      "example_translation": "Il n'y a aucun doute sur la véracité de la nouvelle"
+    },
+    {
+      "word_id": "v6",
+      "term": "احْتِمَالٌ",
+      "phonetic_api": "/iħ.ti.maː.lun/",
+      "phonetic_simple": "IH-TI-MAA-LOUN",
+      "translation": "Une probabilité / Une possibilité / Éventualité",
+      "example_sentence": "هُنَاكَ احْتِمَالٌ لِتَغْيِيرِ الْخِطَّةِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Il y a une possibilité de changement de plan"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "إِنْ تَجْتَهِدْ تَبْلُغْ مَقْصَدَكَ تَمَامًا",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "IN TADj-TA-HID TAB-LOUGH MAK-SA-DA-KA TA-MAA-MAN",
+      "translation": "Si tu fais des efforts, tu atteindras parfaitement ton but",
+      "context": "Structure conditionnelle classique avec deux verbes au jussif (In + Majzūm)."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "لَوْ كُنْتُ مَكَانَكَ لَمَا تَرَدَّدْتُ فِي الْقَبُولِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "LAW KOUN-TOU MA-KAA-NA-KA LA-MAA TA-RAD-DAD-TOU FIL KA-BOOU-L",
+      "translation": "Si j'étais à ta place, je n'aurais pas hésité à accepter",
+      "context": "Exprimer une hypothèse imaginaire ou un conseil au subjonctif/irréel du présent."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "لَعَلَّ الْمُدِيرَ يُؤَجِّلُ الِاجْتِمَاعَ بِسَبَبِ الظُّرُوفِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "LA-AL-LAL MOU-DII-RA YOU-ADj-DJI-LOUL IDj-TI-MAA-A...",
+      "translation": "Il se peut que le directeur reporte la réunion en raison des circonstances",
+      "context": "Exprimer une éventualité ou un doute probable à l'aide de 'La'alla'."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "إِذَا نَجَحَتِ الْفَرْضِيَّةُ فَسَوْفَ نُحَقِّقُ تَقَدُّمًا عِلْمِيًّا",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "I-THAA NA-DJA-HA-TIL FAR-DIY-YA FA-SAW-FA NOU-HAK-KI-KOU...",
+      "translation": "Si l'hypothèse réussit, alors nous réaliserons un progrès scientifique",
+      "context": "Introduction obligatoire de la particule 'Fa-' dans la principale à cause du futur."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "مِنْ الْمُحْتَمَلِ أَنْ يَكُونَ الْخَبَرُ غَيْرَ دَقِيقٍ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MIN AL-MOUH-TA-MA-LI AN YA-KOOU-NAL KHA-BA-ROU GHAY-RA DA-KIIK",
+      "translation": "Il est probable que la nouvelle ne soit pas précise",
+      "context": "Formuler une réserve ou un doute mesuré dans un débat de niveau avancé."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système conditionnel : Distinction entre 'In' (إِنْ), 'Idhā' (إِذَا) et 'Law' (لَوْ)",
+      "explanation": "Le niveau avancé requiert une maîtrise philosophique et technique des trois principaux outils de la condition en arabe.",
+      "rules": [
+        "In (إِنْ) : Condition purement hypothétique. Elle régit traditionnellement deux verbes au mode jussif (la condition et l'apodose).",
+        "Idhā (إِذَا) : Condition temporelle ou hautement réalisable (Si/Quand). Elle est généralement suivie d'un verbe à l'accompli (passé) mais ayant un sens de futur.",
+        "Law (لَوْ) : Condition impossible, irréelle ou manquée (Si + plus-que-parfait). La proposition principale (apodose) commence presque toujours par la particule affirmative 'La-' (لَـ)."
+      ],
+      "examples": [
+        {
+          "structure": "إِنْ تَقْرَأْ تَسْتَفِدْ",
+          "phonetic_api": "/in taq.raʔ tas.ta.fid/",
+          "meaning": "Si tu lis, tu en tireras profit (Deux jussifs avec soukoun)"
+        },
+        {
+          "structure": "لَوْ حَضَرَ لَأَكْرَمْتُهُ",
+          "phonetic_api": "/law ħa.dˤa.ra la.ʔak.ram.tu.hu/",
+          "meaning": "S'il était venu, je l'aurais honoré (Condition passée non réalisée)"
+        }
+      ]
+    },
+    {
+      "concept": "L'introduction du 'Fa-' (فَـ) dans la proposition principale (Apodose)",
+      "explanation": "Dans un système conditionnel introduit par 'In' ou 'Idhā', la proposition principale doit obligatoirement commencer par la particule 'Fa-' dans des cas syntaxiques précis.",
+      "rules": [
+        "Le 'Fa-' est requis si la principale est une phrase nominale (sans verbe initial).",
+        "Le 'Fa-' est requis si la principale contient un verbe au futur (avec Sa- ou Sawfa) ou un verbe précédé de 'Qad'.",
+        "Le 'Fa-' est requis si le verbe de la principale est à l'impératif."
+      ],
+      "examples": [
+        {
+          "structure": "إِذَا سَأَلْتَ فَاسْأَلِ اللَّهَ",
+          "phonetic_api": "/.../",
+          "meaning": "Si tu demandes, alors demande à Dieu (Impératif exigeant le Fa-)"
+        },
+        {
+          "structure": "إِنْ جِئْتَ فَأَنَا فِي الْمَنْزِلِ",
+          "phonetic_api": "/.../",
+          "meaning": "Si tu viens, [sache que] je suis à la maison (Phrase nominale)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "الْأُسْتَاذ طَارِق (Prof. Tariq)",
+      "text": "أَهْلًا أُسْتَاذَة لَيْلَى. لَوْ كُنَّا اعْتَمَدْنَا تِلْكَ الْفَرْضِيَّةَ لَوَقَعْنَا فِي خَطَأٍ عِلْمِيٍّ جَسِيمٍ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN OUS-TAA-THA LAY-LA. LAW KOUN-NAA T-TA-MAD-NAA TIL-KAL FAR-DIY-YA...",
+      "translation": "Bonjour professeure Layla. Si nous avions adopté cette hypothèse, nous serions tombés dans une grave erreur scientifique."
+    },
+    {
+      "speaker": "الْأُسْتَاذَة لَيْلَى (Prof. Layla)",
+      "text": "صَحِيحٌ يَا أُسْتَاذُ. لَكِنْ لَا شَكَّ أَنَّ الِاحْتِمَالَاتِ الْأُخْرَى كَانَتْ تَحْتَاجُ إِلَى تَدْقِيقٍ أَعْمَقَ. لَعَلَّ النَّتَائِجَ تَظْهَرُ غَدًا.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "SA-HIIH YA OUS-TAAZ. LA-KIN LAA CHAK-KA AN-NAL IH-TI-MAA-LAA-TIL OUKH-RAA...",
+      "translation": "C'est juste, professeur. Mais il ne fait aucun doute que les autres probabilités nécessitaient une vérification plus approfondie. Il se peut que les résultats apparaissent demain."
+    },
+    {
+      "speaker": "الْأُسْتَاذ طَارِق (Prof. Tariq)",
+      "text": "إِذَا ظَهَرَتِ النَّتَائِجُ إِيجَابِيَّةً فَسَوْفَ نَبْدَأُ كِتَابَةَ الْبَحْثِ حَالًا دُونَ تَرَدُّدٍ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "I-THAA THA-HA-RA-TIL NA-TAA-I-DJOU II-DJAA-BIY-YA FA-SAW-FA NAB-DA-OU...",
+      "translation": "Si les résultats s'avèrent positifs, alors nous commencerons la rédaction de la recherche immédiatement sans hésitation."
+    },
+    {
+      "speaker": "الْأُسْتَاذَة لَيْلَى (Prof. Layla)",
+      "text": "إِنْ نَشْتَهِدْ نَصِلْ. وَالْأَمْرُ مَرْهُونٌ بِدِقَّةِ الْبَيَانَاتِ الَّتِي جَمَعْنَاهَا تَدْرِيجِيًّا.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "IN NADj-TA-HID NA-SIL. WAL-AM-ROU MAR-HOOU-NOUN BI-DIK-KA-TIL BA-YAA-NAAT...",
+      "translation": "Si nous faisons des efforts, nous y arriverons. Et l'affaire dépend de la précision des données que nous avons rassemblées progressivement."
+    }
+  ],
+  "cultural_notes": [
+    "Le raffinement de la nuance et la modestie intellectuelle : Dans les cercles académiques ou littéraires arabes de haut niveau, l'usage des particules d'hypothèse et de doute (La'alla, Min al-muhtamal) est une marque d'éloquence et de rigueur scientifique. Éviter les affirmations péremptoires témoigne d'un esprit nuancé.",
+    "L'expression de l'espoir mesuré : 'La'alla' fait partie des sœurs de 'Inna' (Awat Inna) et exprime souvent un espoir réalisable teinté de déférence. Dans la poésie et la rhétorique classique, elle sert à adoucir une attente ou à formuler un souhait de manière noble."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L2_ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la proposition exacte utilisant 'Law' pour une condition irréelle :",
+      "options": [
+        "لَوْ عَمِلْتَ لَنَجَحْتَ (Law 'amilta lanajahta)",
+        "إِنْ تَعْمَلْ تَنْجَحْ (In ta'mal tanjah)",
+        "إِذَا عَمِلْتَ فَسَوْفَ تَنْجَحُ (Idhā 'amilta fasawfa tanjahu)"
+      ],
+      "correct_answer": "لَوْ عَمِلْتَ لَنَجَحْتَ (Law 'amilta lanajahta)",
+      "explanation": "La structure 'Law' requiert la particule affirmative 'La-' en préfixe de la proposition principale pour marquer l'irréel."
+    },
+    {
+      "exercise_id": "C1_M1_L2_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour lier la principale après 'Idhā' si elle contient un futur proche : إِذَا جَاءَ صَدِيقِي [ ___ ] سَأَخْرُجُ مَعَهُ",
+      "correct_answer": "فَـ",
+      "hint": "C'est la particule de liaison obligatoire devant le futur dans l'apodose."
+    },
+    {
+      "exercise_id": "C1_M1_L2_ex3",
+      "type": "multiple_choice",
+      "question": "Quelle modification grammaticale apporte la particule 'لَعَلَّ' (La'alla) sur le nom qui la suit ?",
+      "options": [
+        "Il se met au cas indirect (Génitif/Kasra)",
+        "Il se met au cas direct (Accusatif/Fatha)",
+        "Il reste invariable au nominatif"
+      ],
+      "correct_answer": "Il se met au cas direct (Accusatif/Fatha)",
+      "explanation": "En tant que sœur de 'Inna', 'La'alla' place son nom (Ism La'alla) au cas direct accusatif."
+    }
+  ]
+}

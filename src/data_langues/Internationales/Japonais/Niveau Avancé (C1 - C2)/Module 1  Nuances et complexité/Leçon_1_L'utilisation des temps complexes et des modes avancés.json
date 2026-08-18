@@ -1,0 +1,275 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés",
+  "learning_objectives": [
+    "Exprimer l'imminence stricte d'une action ou d'un changement d'état en utilisant les structures aspectuelles '～かける' (kakeru) et '～つつある' (tsutsu aru)",
+    "Rapporter la complétude d'une action avec une nuance de regret, d'irréversibilité ou de perfectionnement à l'aide de '～てしまう' (te shimau) à un niveau stylistique avancé",
+    "Maîtriser la nuance temporelle de concomitance formelle apportée par la structure '～が早いか' (ga hayai ka)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon de niveau avancé met l'accent sur l'articulation de la structure aspectuelle '～つつある' (tsutsu aru). Elle exige une succession rapide de deux consonnes affriquées alvéolaires sourdes [t͡sɯ.t͡sɯ], suivie du verbe auxiliaire voisé. Le terme 'shunkan' (instant/moment) demande une coupe nette du petit 'tsu' glottal et un respect de la nasale finale : [ɕɯɴ.kaɴ].",
+    "common_pitfalls": "Attention à la structure '～が早いか' (ga hayai ka) : la particule 'ga' [ɡa] ne doit pas être nasalisée de façon excessive dans le discours formel moderne. De plus, veillez à respecter l'allongement vocalique du suffixe littéraire '~ tsutsu' lorsqu'il est utilisé de manière autonome."
+  },
+  "advanced_kanji_and_literary_markers": [
+    {
+      "kanji": "瞬間 (しゅんかん)",
+      "romaji": "shunkan",
+      "level_jlpt": "N2",
+      "meaning": "Instant / Moment précis",
+      "description": "Indique le point temporel exact où une action se produit de manière soudaine ou simultanée."
+    },
+    {
+      "kanji": "次第 (しだい)",
+      "romaji": "shidai",
+      "level_jlpt": "N2",
+      "meaning": "Dès que / Au fur et à mesure",
+      "description": "Suffixe post-verbal formel indiquant qu'une action se déroulera immédiatement après l'accomplissement d'une condition."
+    },
+    {
+      "kanji": "途上 (とじょう)",
+      "romaji": "tojō",
+      "level_jlpt": "N1",
+      "meaning": "En cours de / En chemin vers",
+      "description": "Terme abstrait et formel qualifiant un processus en plein développement (ex:発展途上国 - pays en développement)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "～かける（～掛けます）",
+      "phonetic_api": "/ka.ke.ɾɯ/",
+      "phonetic_simple": "KA-KÉ-ROU",
+      "translation": "Être sur le point de / Commencer à faire (action inachevée)",
+      "example_sentence": "彼は何かを言いかけたが、すぐに口を閉じた。",
+      "example_phonetic": "/ka.ɾe wa na.ni.ka o i.i.ka.ke.ta ɡa sɯ.ɡɯ ni kɯ.t͡sɯ o to.d͡ʑi.ta/",
+      "example_translation": "Il a commencé à dire quelque chose, mais il a immédiatement fermé la bouche."
+    },
+    {
+      "word_id": "v2",
+      "term": "～つつある",
+      "phonetic_api": "/t͡sɯ.t͡sɯ a.ɾɯ/",
+      "phonetic_simple": "TSOU-TSOU A-ROU",
+      "translation": "Être en train de (processus d'évolution continue, style écrit/formel)",
+      "example_sentence": "わが国の景気は徐々に回復しつつある。",
+      "example_phonetic": "/wa.ɡa.kɯ.ni no keː.ki wa d͡ʑo.d͡ʑo ni ka.i.ɸɯ.kɯ ɕi.t͡sɯ.t͡sɯ a.ɾɯ/",
+      "example_translation": "L'économie de notre pays est en train de se redresser progressivement."
+    },
+    {
+      "word_id": "v3",
+      "term": "～が早いか",
+      "phonetic_api": "/ɡa ha.ja.i ka/",
+      "phonetic_simple": "GA HA-YA-I KA",
+      "translation": "À peine... que / Sitôt... que (simultanéité immédiate et surprenante)",
+      "example_sentence": "チャイムが鳴るが早いか、生徒たちは教室を飛び出した。",
+      "example_phonetic": "/t͡ɕa.i.mɯ ɡa na.ɾɯ ɡa ha.ja.i ka seː.to.ta.t͡ɕi wa kjoː.ɕi̥t͡sɯ o to.bi.da.ɕi.ta/",
+      "example_translation": "À peine la sonnerie eut-elle retenti que les élèves se ruèrent hors de la classe."
+    },
+    {
+      "word_id": "v4",
+      "term": "～うちに",
+      "phonetic_api": "/ɯ.t͡ɕi ni/",
+      "phonetic_simple": "OU-TCHI NI",
+      "translation": "Tant que / Pendant que (avant qu'un changement ne se produise)",
+      "example_sentence": "温かいうちに、どうぞ召し上がってください。",
+      "example_phonetic": "/a.ta.ta.ka.i ɯ.t͡ɕi ni doː.zo me.ɕi.a.ɡḁt.te kɯ.da.sa.i/",
+      "example_translation": "S'il vous plaît, mangez tant que c'est chaud."
+    },
+    {
+      "word_id": "v5",
+      "term": "～たとたん（～た途端）",
+      "phonetic_api": "/ta to.taɴ/",
+      "phonetic_simple": "TA TO-TAN",
+      "translation": "Au moment même où / Sitôt que (changement brusque et inattendu)",
+      "example_sentence": "立ち上がった途端、めまいがした。",
+      "example_phonetic": "/ta.t͡ɕi.a.ɡḁt.ta to.taɴ me.ma.i ɡa ɕi.ta/",
+      "example_translation": "Au moment même où je me suis levé, j'ai eu un vertige."
+    },
+    {
+      "word_id": "v6",
+      "term": "～て以来（～てからずっと）",
+      "phonetic_api": "/te i.ɾa.i/",
+      "phonetic_simple": "TÉ I-RA-I",
+      "translation": "Depuis que / Depuis lors (état inchangé depuis un événement passé)",
+      "example_sentence": "日本に来て以来、一度も風邪を引いていない。",
+      "example_phonetic": "/ni.ho&mu; ni ki.te i.ra.i i.t͡sɯ.do mo ka.ze o çiː.te i.na.i/",
+      "example_translation": "Depuis que je suis arrivé au Japon, je n'ai pas attrapé un seul rhume."
+    },
+    {
+      "word_id": "v7",
+      "term": "～最中に（～最中だ）",
+      "phonetic_api": "/sa.na.ka ni/",
+      "phonetic_simple": "SA-NA-KA NI",
+      "translation": "En plein milieu de / Au cœur de (action interrompue par un fait)",
+      "example_sentence": "重要な会議の最中に、携帯電話が鳴ってしまった。",
+      "example_phonetic": "/d͡ʑɯː.joː.na ka.i.ɡi no sa.na.ka ni keː.ta.i.deɴ.wa ɡa nḁt.te ɕi.mḁt.ta/",
+      "example_translation": "En plein milieu d'une réunion importante, mon téléphone portable a malheureusement sonné."
+    },
+    {
+      "word_id": "v8",
+      "term": "～次第（～しだい）",
+      "phonetic_api": "/ɕi.da.i/",
+      "phonetic_simple": "CHI-DA-I",
+      "translation": "Dès que / Aussitôt que (utilisé pour une action future volontaire formelle)",
+      "example_sentence": "資料が準備でき次第、ご連絡いたします。",
+      "example_phonetic": "/ɕi.ɾjoː ɡa d͡ʑɯɴ.bi de.ki ɕi.da.i ɡo.ɾeɴ.ɾa.kɯ i.ta.ɕi.ma.sɯ̥/",
+      "example_translation": "Dès que les documents seront prêts, je ne manquerai pas de vous contacter."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "事態は深刻化しつつあります。",
+      "phonetic_api": "/d͡ʑi.ta.i wa ɕiɴ.ko̥k.ɯ.ka ɕi.t͡sɯ.t͡sɯ a.ɾi.ma.sɯ̥/",
+      "phonetic_simple": "DJI-TA-I WA SHIN-KOK-OU-KA CHI-TSOU-TSOU A-RI-MASS",
+      "translation": "La situation est en train de s'aggraver de façon critique.",
+      "context": "Rapport analytique, journalistique ou politique décrivant une évolution négative en cours."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "読みかけの本が何冊もあります。",
+      "phonetic_api": "/jo.mi.ka.ke no hoɴ ɡa naɴ.sḁt.sɯ mo a.ɾi.ma.sɯ̥/",
+      "phonetic_simple": "YO-MI-KA-KÉ NO HON GA NAN-SAT-SOU MO A-RI-MASS",
+      "translation": "J'ai plusieurs livres commencés mais non terminés.",
+      "context": "Évoquer des tâches ou des lectures laissées en suspens avec '~kakeru'."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "彼女は私の顔を見るが早いか、泣き出しました。",
+      "phonetic_api": "/ka.no.d͡ʑo wa wa.ta.ɕi no ka.o o mi.ɾɯ ɡa ha.ja.i ka na.ki.da.ɕi.ma.ɕi.ta/",
+      "phonetic_simple": "KA-NO-DJO WA WA-TA-CHI NO KA-O O MI-ROU GA HA-YA-I KA NA-KI-DA-CHI-MA-CH-TA",
+      "translation": "À peine a-t-elle vu mon visage qu'elle a éclaté en sanglots.",
+      "context": "Récit littéraire décrivant une réaction émotionnelle immédiate et soudaine."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "忘れないうちに、メモを取っておいたほうがいいです。",
+      "phonetic_api": "/wa.sɯ.ɾe.na.i ɯ.t͡sɯ.ni me.mo o to̥t.te o.i.ta hoː ɡa iː de.sɯ̥/",
+      "phonetic_simple": "WA-SOU-RÉ-NA-I OU-TCHI NI, MÉ-MO O TOT-TÉ O-I-TA HOO GA II DESS",
+      "translation": "Tant que vous n'avez pas oublié, il vaut mieux prendre des notes.",
+      "context": "Conseiller de réaliser une action avant qu'un état d'oubli n'intervienne."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "決定が下され次第、ただちに実行に移します。",
+      "phonetic_api": "/ke̥t.teː ɡa kɯ.da.sa.re ɕi.da.i ta.da.t͡ɕi ni d͡ʑi̥k.koː ni ɯ.t͡sɯ.ɕi.ma.sɯ̥/",
+      "phonetic_simple": "KET-TÉE GA KOU-DA-SA-RÉ CHI-DA-I, TA-DA-TCHI NI DJIK-KOO NI OU-TSOU-CHI-MASS",
+      "translation": "Dès que la décision aura été prise, nous passerons immédiatement à l'exécution.",
+      "context": "Registre corporate très soutenu affirmant la réactivité d'un département."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "少子高齢化は確実に進みつつある。",
+      "phonetic_api": "/ɕoː.ɕi koː.ɾeː.ka wa ka.kɯ.d͡ʑi̥t.sɯ ni sɯ.mɯ.t͡sɯ.t͡sɯ a.ɾɯ/",
+      "phonetic_simple": "CHOO-CHI KOO-RÉE-KA WA KA-KOU-JITS-OU NI SOU-MOU-TSOU-TSOU A-ROU",
+      "translation": "Le déclin de la natalité et le vieillissement de la population sont incontestablement en train de progresser.",
+      "context": "Analyse sociologique ou rédactionnelle académique (style neutre / de thèse)."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "家を出た途antに、大雨が降り出しました。",
+      "phonetic_api": "/i.e o de.ta to.taɴ ni oː.a.me ɡa ɸɯ.ɾi.da.ɕi.ma.ɕi.ta/",
+      "phonetic_simple": "I-É O DÉ-TA TO-TAN NI, OO-A-MÉ GA FOU-RI-DA-CHI-MA-CH-TA",
+      "translation": "Au moment précis où je sortais de chez moi, une pluie torrentielle s'est mise à tomber.",
+      "context": "Raconter une coïncidence temporelle malheureuse ou surprenante."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "先代の社長が亡くなって以来、会社の経営方針が変わった。",
+      "phonetic_api": "/seɴ.da.i no ɕa.t͡choː ɡa na.kɯ.nḁt.te i.ra.i ka.i.ɕa no keː.eː hoː.ɕiɴ ɡa ka.wḁt.ta/",
+      "phonetic_simple": "SEN-DA-I NO CHA-CHOO GA NA-KUN-NAT-TÉ I-RA-I, KA-I-CHA NO KÉE-ÉE HOO-CHIN GA KA-WAT-TA.",
+      "translation": "Depuis la mort de l'ancien président, la stratégie de gestion de l'entreprise a radicalement changé.",
+      "context": "Contextualiser un bouleversement organisationnel sur le long terme."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'évolution progressive formelle : [Verbe base en -masu] + つつある (~ tsutsu aru)",
+      "explanation": "Cette structure grammaticale avancée équivaut à la forme habituelle '～ています' (te imasu), mais elle s'emploie exclusivement à l'écrit, dans les essais littéraires, les rapports économiques ou les discours officiels. Elle décrit un processus de changement continu, graduel et de grande envergure qui n'est pas encore achevé.",
+      "rules": [
+        "Structure : [Verbe radical -masu] + つつある (ou つつあります à la forme polie).",
+        "S'utilise majoritairement avec des verbes impliquant une transformation ou un changement d'état (ex: 変化する、回復する、増加する)."
+      ],
+      "examples": [
+        {
+          "structure": "地球の温暖化は深刻な問題になりつつある (Chikyū no ondanka wa shinkokuna mondai ni nari tsutsu aru)",
+          "phonetic_api": "/t͡ɕi.k jɯː no oɴ.daɴ.ka wa ɕiɴ.ko̥k.ɯ.na moɴ.da.i ni na.ɾi t͡sɯ.t͡sɯ a.ɾɯ/",
+          "meaning": "Le réchauffement climatique est en train de devenir un problème critique."
+        }
+      ]
+    },
+    {
+      "concept": "La simultanéité immédiate : [Verbe Forme Dictionnaire] + が早いか (ga hayai ka)",
+      "explanation": "Cette structure de niveau avancé (N1) exprime le fait que l'action de la seconde proposition se produit de manière quasi instantanée, voire immédiate, après la première action. La vitesse de l'enchaînement dépasse l'attente du locuteur. Contrairement à '~ to tan ni', la fin de la phrase exprime souvent une action volontaire ou soudaine d'un tiers.",
+      "rules": [
+        "Structure : [Verbe Forme Dictionnaire] + が早いか、[Action soudaine ou fait historique].",
+        "La phrase finale se conjugue obligatoirement au passé car elle rapporte un événement factuel observé."
+      ],
+      "examples": [
+        {
+          "structure": "店が開くが早いか, 行列の客がなだれ込んできた (Mise ga aku ga hayai ka, gyōretsu no kyaku ga nadarekonde kita)",
+          "phonetic_api": "/mi.se ɡa a.kɯ ɡa ha.ja.i ka ɡjoː.ɾe̥t.sɯ no kja.kɯ ɡa na.da.ɾe.koɴ.de ki.ta/",
+          "meaning": "À peine le magasin ouvrit-il ses portes que les clients de la file d'attente s'y ruèrent."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "高橋部長 (Directeur Takahashi)",
+      "text": "佐藤君、例の新規プロジェクトの進捗状況はどうなっているかね。",
+      "phonetic_api": "/sa.toː kɯɴ ɾeː no ɕiɴ.ki pɯ.ɾo.d͡ʑe̥k.to no ɕiɴ.t͡ɕo̥k.ɯ d͡ʑoː.kjoː wa doː nḁt.te i.ɾɯ ka ne/",
+      "phonetic_simple": "SA-TOO KOUN, RÉE NO SHIN-KI PU-RO-JEK-TO NO SHIN-CHOK-OU DJOO-KYOO WA DOO NAT-TÉ I-ROU KA NÉ ?",
+      "translation": "Sato, où en est l'état d'avancement de ce nouveau projet dont nous avons parlé ?"
+    },
+    {
+      "speaker": "佐藤 (Sato)",
+      "text": "はい、海外市場の調査はほぼ終了し、現在は市場分析の報告書を作成しかけているところです。",
+      "phonetic_api": "/ha.i ka.i.ɡa.i ɕi.d͡ʑoː no t͡ɕoː.sa wa ho.bo ɕɯː.ɾjoː ɕi ɡeμ.za.i wa ɕi.d͡ʑoː bɯɴ.se̥k.i no hoː.ko.kɯ.ɕo o sa.kɯ.seː ɕi.ka.ke.te i.ɾɯ to.ko.ɾo de.sɯ̥/",
+      "phonetic_simple": "HAI, KA-I-GA-I CHI-JOO NO CHOO-SA WA HO-BO SHUU-RYOO CHI, GEN-ZA-I WA CHI-JOO BOUN-SETS-I NO HOO-KO-KOU-CHO O SAK-SÉE CHI-KA-KÉ-TÉ I-ROU TO-KO-RO DESS.",
+      "translation": "Oui, l'étude des marchés étrangers est presque achevée, et à l'heure actuelle, nous sommes justement en train de rédiger le rapport d'analyse de marché (travail entamé mais non fini)."
+    },
+    {
+      "speaker": "高橋部長 (Directeur Takahashi)",
+      "text": "そうか。競合他社の動きも激しくなりつつある。スピード感が重要だぞ。",
+      "phonetic_api": "/soː ka kjoː.ɡoː ta.ɕa no ɯ.ɡo.ki mo ha.ɡa.ɕi.kɯ na.ri t͡sɯ.t͡sɯ a.ɾɯ sɯ.piː.do.kaɴ ɡa d͡ʑɯː.joː da zo/",
+      "phonetic_simple": "SOO KA. KYOO-GOO TA-CHA NO U-GO-KI MO HA-GI-CHIK-OU NA-RI-TSOU-TSOU A-ROU. SOU-PII-DO-KAN GA JUU-YOO DA ZO.",
+      "translation": "Je vois. Les mouvements des entreprises concurrentes sont eux aussi en train d'intensifier leur dynamique. La rapidité d'exécution est capitale."
+    },
+    {
+      "speaker": "佐藤 (Sato)",
+      "text": "承知いたしました。報告書が完成し次第、ただちに部長にご相談に伺います。",
+      "phonetic_api": "/ɕoː.t͡ɕi i.ta.ɕi.ma.ɕi.ta hoː.ko.kɯ.ɕo ɡa kaɴ.seː ɕi ɕi.da.i ta.da.t͡ɕi ni bɯ.t͡choː ni ɡo.soː.daɴ ni ɯ.ka.ɡa.i.ma.sɯ̥/",
+      "phonetic_simple": "CHOO-CHI I-TA-CHI-MA-CH-TA. HOO-KO-KOU-CHO GA KAN-SÉE CHI-DA-I, TA-DA-TCHI NI BOU-CHOO NI GO-SOO-DAN NI OU-KA-GA-I-MASS.",
+      "translation": "Bien reçu. Dès que le rapport sera finalisé, je viendrai immédiatement solliciter votre avis à votre bureau."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la communication d'entreprise de niveau exécutif (C1/C2), l'usage de tournures temporelles indirectes ou objectives ('~ tsutsu aru' ou '~ shidai') témoigne d'une grande maîtrise de la distance professionnelle. Remplacer les expressions courantes par ces marqueurs littéraires valorise l'analyse de l'employé en gommant la subjectivité émotionnelle.",
+    "La notion de 'Speed-kan' (スピード感), mentionnée dans le dialogue, est devenue un leitmotiv managérial incontournable au Japon pour contrebalancer la lenteur traditionnelle du processus de décision par consensus mutuel (Ringisho - 稟議書)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la formulation grammaticale exacte pour signifier de façon très formelle : 'Le nombre de touristes étrangers est en train d'augmenter (fueru)' ?",
+      "options": [
+        "外国人観光客の数は増えが早いかです (Fueru ga hayai ka desu)",
+        "外国人観光客の数は増えつつある (Fuetsu tsutsu aru)",
+        "外国人観光客の数は増えつつある (Fue tsutsu aru)"
+      ],
+      "correct_answer": "外国人観光客の数は増えつつある (Fue tsutsu aru)",
+      "explanation": "On extrait le radical du verbe du groupe 2 'fueru' (増えます ➔ 増え) et on y accole le marqueur d'évolution continue 'tsutsu aru'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "彼は私の質問を聞く[ ___ ]早いか、怒って部屋を出て行ってしまった。",
+      "correct_answer": "が",
+      "hint": "Entrez la particule structurelle indispensable complétant l'expression de simultanéité immédiate '~ ga hayai ka'."
+    }
+  ]
+}

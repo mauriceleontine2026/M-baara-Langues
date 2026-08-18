@@ -1,0 +1,114 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Niveau Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "L'utilisation des temps complexes et des modes avancés",
+  "learning_objectives": [
+    "Maîtriser le plus-que-parfait et l'antériorité dans un récit",
+    "Exprimer une action habituelle ou itérative dans le passé",
+    "Utiliser les infixes et suffixes aspectuels pour nuancer l'action"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les modes avancés introduisent des variations tonales subtiles sur le radical verbal. Le morphème d'antériorité 'wo' ou 'pa' s'accompagne souvent d'un ton bas étiré.",
+    "common_pitfalls": "Attention à ne pas raccourcir l'allongement de la voyelle dans la particule d'habitude passée, sous peine de confondre l'action répétée avec une action unique accomplie."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v19_1",
+      "term": "wo",
+      "phonetic_api": "/wo/",
+      "phonetic_simple": "WO",
+      "translation": "déjà / marqueur d'antériorité ou de plus-que-parfait",
+      "example_sentence": "I lo wo ciao tele o lo wa.",
+      "example_phonetic": "/i lo wo tʃja.o te.le o lo wa/",
+      "example_translation": "J'étais déjà allé au marché quand il est arrivé."
+    },
+    {
+      "word_id": "v19_2",
+      "term": "pa",
+      "phonetic_api": "/pa/",
+      "phonetic_simple": "PA",
+      "translation": "autrefois / habitude passée",
+      "example_sentence": "I pa wali fiaa.",
+      "example_phonetic": "/i pa wa.li fjaː/",
+      "example_translation": "Autrefois, je travaillais beaucoup."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p19_1",
+      "original": "Fin nio o wali wo tele i kandɛ peeku le.",
+      "phonetic_api": "/fĩ njo o wa.li wo te.le i ka.ⁿdɛ peː.ku le/",
+      "phonetic_simple": "FEEN NYO O WA-LI WO TÉ-LÉ I KAN-DÈ PÉÉ-KOU LÉ",
+      "translation": "Mon père avait déjà travaillé avant que je ne commence à étudier.",
+      "context": "Récit d'événements antérieurs"
+    },
+    {
+      "phrase_id": "p19_2",
+      "original": "I pa lo ciao tana kpou.",
+      "phonetic_api": "/i pa lo tʃja.o ta.na k͡pu/",
+      "phonetic_simple": "I PA LO TCHIA-O TA-NA KPOU",
+      "translation": "J'avais l'habitude d'aller au marché tous les jours.",
+      "context": "Évoquer des souvenirs ou habitudes révolues"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'antériorité temporelle avec 'wo'",
+      "explanation": "Pour exprimer qu'une action s'est déroulée avant une autre action passée (équivalent du plus-que-parfait), la particule 'wo' est insérée immédiatement après le verbe au radical accompli.",
+      "rules": [
+        "Le verbe se met à la forme accomplie nue.",
+        "La particule 'wo' se place entre le verbe et ses compléments d'objet."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + Verbe + wo + Complément",
+          "phonetic_api": "/i mɛl wo mɛ̃/",
+          "meaning": "J'avais déjà bu l'eau."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Tamba",
+      "text": "Saa, o lo wo ciao tele Faya o lo wa ?",
+      "phonetic_api": "/saː o lo wo tʃja.o te.le fa.ja o lo wa/",
+      "phonetic_simple": "SAA, O LO WO TCHIA-O TÉ-LÉ FAYA O LO WA ?",
+      "translation": "Saa, étais-tu déjà allé au marché quand Faya est arrivé ?"
+    },
+    {
+      "speaker": "Saa",
+      "text": "Haa, i lo wo ciao fassa wa, i nɔŋ wo biyɛ ndɔ.",
+      "phonetic_api": "/haː i lo wo tʃja.o fa.sa wa i nɔŋ wo bi.jɛ ⁿdɔ/",
+      "phonetic_simple": "HAA, I LO WO TCHIA-O FAS-SA WA, I NONG WO BI-YÈ NDO.",
+      "translation": "Oui, j'étais déjà allé de ce côté, j'avais aussi déjà acheté du riz."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la tradition orale kissi, la maîtrise des nuances temporelles permet aux conteurs d'imbriquer les époques avec précision, notamment lors de la transmission des généalogies ou des récits historiques fondateurs du village."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex19_1",
+      "type": "multiple_choice",
+      "question": "Quelle particule insère-t-on juste après le verbe pour marquer l'antériorité (déjà) ?",
+      "options": [
+        "wo",
+        "ning",
+        "le"
+      ],
+      "correct_answer": "wo",
+      "explanation": "'wo' s'intercale après le verbe pour exprimer une action déjà révolue au moment d'un autre fait passé."
+    },
+    {
+      "exercise_id": "ex19_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "I [ ___ ] lo ciao. (Autrefois j'allais au marché / habitude passée)",
+      "correct_answer": "pa",
+      "hint": "Particule marquant la coutume ou la répétition dans le passé"
+    }
+  ]
+}

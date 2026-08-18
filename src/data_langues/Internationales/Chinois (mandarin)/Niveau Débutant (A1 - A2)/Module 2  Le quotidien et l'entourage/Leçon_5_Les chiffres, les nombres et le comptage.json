@@ -1,0 +1,235 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage en chinois mandarin",
+  "learning_objectives": [
+    "Compter couramment de 0 jusqu'à 99 999 en appliquant la structure décimale et l'unité 万 (wàn)",
+    "Exprimer des numéros de téléphone, des ordres de grandeur et des mesures de quantité",
+    "Maîtriser le geste digital traditionnel chinois pour mimer les chiffres de 1 à 10"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La distinction entre 四 (sì - quatre) et 十 (shí - dix) constitue le cœur phonétique de cette leçon. Le chiffre 四 s'articule sur une consonne sifflante alvéolaire sourde /s/ combinée à la voyelle apicale /z̩/, le tout au 4ème ton sec et descendant. À l'inverse, 十 fait intervenir une consonne fricative rétroflexe sourde /ʂ/ avec la langue enroulée vers l’arrière du palais, s'appuyant sur la voyelle rétroflexe /ʐ̩/ au 2ème ton montant.",
+    "common_pitfalls": "Les francophones ont tendance à confondre les deux en raison d'une mauvaise position de la langue. Pratiquez le virelangue traditionnel : 'Sì shì sì, shí shì shí' (四是四，十 confirmation是十). Veillez également à prononcer distinctement le son 'l' de 六 (liù), qui est en réalité la contraction de la triphthongue /i̯oʊ̯/, et le troisième ton très bas de 五 (wǔ) et 九 (jiǔ)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "零",
+      "phonetic_api": "/liŋ˧˥/",
+      "phonetic_simple": "LING",
+      "translation": "Zéro",
+      "example_sentence": "房间号是三零二。",
+      "example_phonetic": "/faŋ˧˥ tɕi̯ɛn˧˥ xaʊ̯˥˩ ʂʐʐ˥˩ san˥ liŋ˧˥ ɤr˥˩/",
+      "example_translation": "Le numéro de chambre est le 302."
+    },
+    {
+      "word_id": "v2",
+      "term": "十",
+      "phonetic_api": "/ʂʐ̩˧˥/",
+      "phonetic_simple": "CHEI",
+      "translation": "Dix / Dizaine",
+      "example_sentence": "这里有十个人。",
+      "example_phonetic": "/tʂʐ̩ Wait ʔi˨˩˦ joʊ̯˨˩˦ ʂʐ̩˧˥ kɤ ʐən˧˥/",
+      "example_translation": "Il y a dix personnes ici."
+    },
+    {
+      "word_id": "v3",
+      "term": "百",
+      "phonetic_api": "/baɪ̯˨˩˦/",
+      "phonetic_simple": "BAÏ",
+      "translation": "Cent / Centaine",
+      "example_sentence": "这一本书一百块钱。",
+      "example_phonetic": "/tʂɤ˥˩ i˥ bən˨˩˦ ʂu˥ i˥ baɪ̯˨˩˦ kʰwaɪ̯˥˩ tɕʰi̯ɛn˧˥/",
+      "example_translation": "Ce livre coûte cent yuans."
+    },
+    {
+      "word_id": "v4",
+      "term": "千",
+      "phonetic_api": "/tɕʰi̯ɛn˥/",
+      "phonetic_simple": "THIEN",
+      "translation": "Mille / Millier",
+      "example_sentence": "这个学校有两千个学生。",
+      "example_phonetic": "/tʂɤ˥˩ kɤ ɕy̯ɛ˧˥ ɕi̯aʊ̯˨˩˦ joʊ̯˨˩˦ li̯aŋ˨˩˦ tɕʰi̯ɛn˥ kɤ ɕy̯ɛ˧˥ ʂəŋ˥/",
+      "example_translation": "Cette école compte deux mille étudiants."
+    },
+    {
+      "word_id": "v5",
+      "term": "万",
+      "phonetic_api": "/wan˥˩/",
+      "phonetic_simple": "OUAN",
+      "translation": "Dix mille (Unité de base de numération chinoise)",
+      "example_sentence": "他有一万本书。",
+      "example_phonetic": "/tʰa˥ joʊ̯˨˩˦ i˧˥ wan˥˩ bən˨˩˦ ʂu˥/",
+      "example_translation": "Il possède dix mille livres."
+    },
+    {
+      "word_id": "v6",
+      "term": "号码",
+      "phonetic_api": "/xaʊ̯˨˩˦ ma（-）/",
+      "phonetic_simple": "HAO-MA",
+      "translation": "Numéro / Code",
+      "example_sentence": "你的电话号码是多少？",
+      "example_phonetic": "/ni˨˩˦ dɤ ti̯ɛn˥˩ xwa˥˩ xaʊ̯˨˩˦ ma ʂʐʐ˥˩ dwɔ˥ ʂaʊ̯/",
+      "example_translation": "Quel est ton numéro de téléphone ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "多少",
+      "phonetic_api": "/dwɔ˥ ʂaʊ̯/",
+      "phonetic_simple": "DOUO-CHAO",
+      "translation": "Combien ? (Pour des quantités généralement supérieures à 10)",
+      "example_sentence": "你要多少钱？",
+      "example_phonetic": "/ni˨˩˦ jaʊ̯˥˩ dwɔ˥ ʂaʊ̯ tɕʰi̯ɛn˧˥/",
+      "example_translation": "Combien d'argent veux-tu ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "一、二、三、四、五、六、七、八、九、十。",
+      "phonetic_api": "/i˥ ɤr˥˩ san˥ sʐ̩˥˩ wu˨˩˦ li̯oʊ̯˥˩ tɕʰi˥ ba˥ tɕi̯u˨˩˦ ʂʐ̩˧˥/",
+      "phonetic_simple": "EE, ER, SAN, SEU, OU, LIOU, TCHEE, BA, TCHIOU, CHEI",
+      "translation": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10.",
+      "context": "Récitation linéaire de la base numérique"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "我的手机号是一三八零零一二三四五六。",
+      "phonetic_api": "/wo˨˩˦ dɤ ʂoʊ̯˨˩˦ tɕi˥ xaʊ̯ ʂʐʐ˥˩ i˥ san˥ ba˥ liŋ˧˥ liŋ˧˥ i˥ ɤr˥˩ san˥ sʐ̩˥˩ wu˨˩˦ li̯oʊ̯˥˩/",
+      "phonetic_simple": "OUO DEU CHOUOU-TCHEE HAO CHEI EE SAN BA LING LING EE ER SAN SEU OU LIOU",
+      "translation": "Mon numéro de portable est le 138 0012 3456.",
+      "context": "Énoncer son numéro de téléphone chiffre par chiffre (Note : le 1 se dit 'yāo')"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "请问，一共多少钱？",
+      "phonetic_api": "/tɕʰiŋ˨˩˦ wen˥˩ i˥ kʊŋ˥˩ dwɔ˥ ʂaʊ̯ tɕʰi̯ɛn˧˥/",
+      "phonetic_simple": "TCHING-OUEN, EE-GONG DOUO-CHAO THIEN ?",
+      "translation": "S'il vous plaît, ça fait combien au total ?",
+      "context": "Demander l'addition ou le prix total d'achats groupés"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "一共五百五十块钱。",
+      "phonetic_api": "/i˥ kʊŋ˥˩ wu˧˥ baɪ̯˨˩˦ wu˧˥ ʂʐ̩˧˥ kʰwaɪ̯˥˩ tɕʰi̯ɛn˧˥/",
+      "phonetic_simple": "EE-GONG OU-BAÏ OU-CHEI KHOUAÏ THIEN",
+      "translation": "Ça fait un total de 550 yuans.",
+      "context": "Réponse d'un commerçant indiquant un grand nombre monétaire"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "两万五千人。",
+      "phonetic_api": "/li̯aŋ˨˩˦ wan˥˩ wu˨˩˦ tɕʰi̯ɛn˥ ʐən˧˥/",
+      "phonetic_simple": "LIANG OUAN OU THIEN JEN",
+      "translation": "25 000 personnes.",
+      "context": "Énoncé d'une statistique démographique ou d'une foule"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La logique mathématique de construction des nombres (11 à 99)",
+      "explanation": "Le mandarin suit un ordre syntaxique arithmétique d'une régularité absolue. Une fois les chiffres de 1 à 10 assimilés, les nombres supérieurs se forment par simple multiplication et addition.",
+      "rules": [
+        "Pour former les nombres de 11 à 19 : Placer Dix (十) suivi de l'unité. Exemple : 12 = 十二 (shí-èr).",
+        "Pour former les dizaines de 20 à 90 : Placer le multiplicateur suivi de Dix (十). Exemple : 30 = 三十 (sān-shí).",
+        "Pour combiner dizaines et unités : [Multiplicateur] + 十 + [Unité]. Exemple : 45 = 四十五 (sì-shí-wǔ)."
+      ],
+      "examples": [
+        {
+          "structure": "二 (2) + 十 (10) + 五 (5) = 二十五",
+          "phonetic_api": "/ɤr˥˩ ʂʐ̩˧˥ wu˨˩˦/",
+          "meaning": "Vingt-cinq (25)."
+        }
+      ]
+    },
+    {
+      "concept": "Le saut de rang par quatre zéros et la rupture de l'unité 万 (wàn)",
+      "explanation": "Contrairement au système occidental qui segmente les grands nombres par paquets de trois zéros (Mille, Million, Milliard), le système de numération chinois change de bloc tous les quatre zéros.",
+      "rules": [
+        "L'unité 百 (bǎi) représente 100, 千 (qiān) représente 1 000.",
+        "L'unité 万 (wàn) représente strictement 10 000 et sert de pivot. Ainsi, 50 000 ne se dit pas 'cinquante mille' mais 'cinq dix-mille' (五万 wǔwàn).",
+        "Si un ou plusieurs zéros s'intercalent au milieu d'un grand nombre, on doit prononcer un seul mot 零 (líng) pour marquer le vide."
+      ],
+      "examples": [
+        {
+          "structure": "三万零五 (30 005)",
+          "phonetic_api": "/san˥ wan˥˩ liŋ˧˥ wu˨˩˦/",
+          "meaning": "Trois dix-mille, zéro, cinq."
+        }
+      ]
+    },
+    {
+      "concept": "Règle de prononciation du chiffre '1' dans les listes : 幺 (yāo)",
+      "explanation": "À l'oral, pour éviter la confusion acoustique entre 一 (yī - un) et 七 (qī - sept), le chiffre '1' change d'identité phonétique dans des contextes de numérotation séquentielle brute.",
+      "rules": [
+        "Dans l'énoncé des numéros de téléphone, des plaques d'immatriculation, des numéros de chambre ou de vols d'avion, 一 (yī) se prononce impérativement 幺 (yāo, 1er ton).",
+        "Dans les structures de calcul (100, 1000) ou d'âge, il conserve sa prononciation 'yī'."
+      ],
+      "examples": [
+        {
+          "structure": "房间号：101 ➔ 幺零幺",
+          "phonetic_api": "/jaʊ̯˥ liŋ˧˥ jaʊ̯˥/",
+          "meaning": "Chambre 101 (yāo líng yāo)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "李华 (Li Hua)",
+      "text": "请问，您的电话号码是多少？",
+      "phonetic_api": "/tɕʰiŋ˨˩˦ wen˥˩ nin˧˥ dɤ ti̯ɛn˥˩ xwa˥˩ xaʊ̯˨˩˦ ma ʂʐʐ˥˩ dwɔ˥ ʂaʊ̯/",
+      "phonetic_simple": "TCHING-OUEN, NEEN DEU THIEN-HOUA HAO-MA CHEI DOUO-CHAO ?",
+      "translation": "S'il vous plaît, quel est votre numéro de téléphone ?"
+    },
+    {
+      "speaker": "王大同 (Wang Datong)",
+      "text": "我的手机号码是一三九幺一零二八四七六。",
+      "phonetic_api": "/wo˨˩˦ dɤ ʂoʊ̯˨˩˦ tɕi˥ xaʊ̯˨˩˦ ma ʂʐʐ˥˩ i˥ san˥ ba˥ jaʊ̯˥ jaʊ̯˥ liŋ˧˥ ɤr˥˩ ba˥ sʐ̩˥˩ tɕʰi˥ lu/",
+      "phonetic_simple": "OUO DEU CHOUOU-TCHEE HAO-MA CHEI EE SAN JIU YAO YAO LING ER BA SEU TCHEE LIOU.",
+      "translation": "Mon numéro de téléphone portable est le 139 1102 8476."
+    },
+    {
+      "speaker": "李华 (Li Hua)",
+      "text": "好，一三九... 对不起，是一一零还是幺幺零？",
+      "phonetic_api": "/xaʊ̯˨˩˦ i˥ san˥ ba˨˩˦ tweɪ̯˥˩ bu tɕi˨˩˦ ʂʐʐ˥˩ i˥ i˥ liŋ˧˥ xaɪ̯˧˥ ʂʐʐ˥˩ jaʊ̯˥ jaʊ̯˥ liŋ˧˥/",
+      "phonetic_simple": "HAO, EE SAN JIU... DOUAY-BOU-TCHEE, CHEI EE EE LING HAÏ-CHEI YAO YAO LING ?",
+      "translation": "Bien, 139... Désolé, on dit 'yī yī líng' ou 'yāo yāo líng' ?"
+    },
+    {
+      "speaker": "王大同 (Wang Datong)",
+      "text": "在电话里我们读 '幺幺零'。你看，写下来是 110。",
+      "phonetic_api": "/dzaɪ̯˥˩ ti̯ɛn˥˩ xwa˥ l i˧˥ wo˨˩˦ mən tu˧˥ jaʊ̯˥ jaʊ̯˥ liŋ˧˥ ni˨˩˦ kʰan˥˩ ɕi̯ɛ˨˩˦ ɕi̯a˥˩ laɪ̯ ʂʐʐ˥˩/",
+      "phonetic_simple": "DZAÏ THIEN-HOUA LEE OUO-MEN DOU YAO YAO LING. NEE KHAN, CHIEH CHIA-LAÏ CHEI 110.",
+      "translation": "Au téléphone, nous prononçons 'yāo yāo líng'. Regarde, quand on l'écrit, c'est 110."
+    }
+  ],
+  "cultural_notes": [
+    "La numérologie est omniprésente en Chine. Le chiffre 8 (八 bā) est le chiffre le plus chanceux car sa prononciation est proche de 发 (fā) qui signifie 's'enrichir' ou 'faire fortune'. Les numéros de téléphone ou les plaques d'immatriculation contenant des 8 se vendent à prix d'or. À l'inverse, le chiffre 4 (四 sì) est tabou car il est presque homophone du mot 'mort' (死 sǐ) ; beaucoup d'immeubles en Chine n'ont pas de 4ème ou de 14ème étage.",
+    "La Chine possède un système unique de comptage digital qui permet de signifier visuellement tous les chiffres de 1 à 10 avec une seule main. Par exemple, le 6 se mime en faisant le signe du téléphone (pouce et auriculaire levés), le 8 s'affiche comme un pistolet pointé vers le bas (pouce et index écartés). Ce système est indispensable sur les marchés pour négocier sans barrière de langue."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment s'organise et se lit le nombre mathématique abstrait 86 402 en chinois mandarin ?",
+      "options": [
+        "八万六千四百零二 (Bā wàn liù qiān sì bǎi líng èr)",
+        "八十六千四百二 (Bā shí liù qiān sì bǎi èr)",
+        "八万六千四百二 (Bā wàn liù qiān sì bǎi èr)"
+      ],
+      "correct_answer": "八万六千四百零二 (Bā wàn liù qiān sì bǎi líng èr)",
+      "explanation": "On isole d'abord le paquet des dix-mille : 80 000 = 八万. Puis 6 000 = 六千, 400 = 四百. Le zéro intercalé s'énonce obligatoirement 零, conclu par l'unité 二."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour donner le numéro de votre chambre d'hôtel '415' à un ami, vous prononcerez : 四 [ ___ ] 五 (sì ... wǔ).",
+      "correct_answer": "幺",
+      "hint": "C'est la prononciation alternative obligatoire du chiffre '1' dans les séries de numéros."
+    }
+  ]
+}

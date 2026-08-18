@@ -1,0 +1,255 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter avec précision de 0 jusqu'à 100",
+    "Comprendre la modification des chiffres 1 et 2 en fonction du genre du nom",
+    "Maîtriser les règles fondamentales du singulier et du pluriel après les nombres",
+    "Demander un prix ou une quantité lors d'une interaction simple"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'Ч' dans 'Четыре' se prononce toujours douce [tɕ]. Dans le suffixe des dizaines '-дцать', la combinaison 'дц' s'assimile phonétiquement en un son [t͡s] long et sec (ex: 'одиннадцать' se prononce [ɐˈdʲinət͡sətʲ]).",
+    "common_pitfalls": "Attention au chiffre 5 'Пять' ([pʲatʲ]) et au chiffre 9 'Девять' ([ˈdʲevʲɪtʲ]) : le signe mou final doit être distinctement articulé pour éviter la confusion avec d'autres mots. Ne confondez pas 'Один' ([ɐˈdʲin]) et 'Одиннадцать' ([ɐˈdʲinət͡sətʲ])."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Ноль",
+      "phonetic_api": "/nolʲ/",
+      "phonetic_simple": "nol'",
+      "translation": "Zéro",
+      "example_sentence": "Температура — ноль градусов.",
+      "example_phonetic": "/tʲɪmpərɐˈturə nolʲ ˈɡradʊsəf/",
+      "example_translation": "La température est de zéro degré."
+    },
+    {
+      "word_id": "v2",
+      "term": "Один",
+      "phonetic_api": "/ɐˈdʲin/",
+      "phonetic_simple": "a-DIN",
+      "translation": "Un (Masculin)",
+      "example_sentence": "Один рубль.",
+      "example_phonetic": "/v ɐˈdʲin rublʲ/",
+      "example_translation": "Un rouble."
+    },
+    {
+      "word_id": "v3",
+      "term": "Одна",
+      "phonetic_api": "/ɐdˈna/",
+      "phonetic_simple": "ad-NA",
+      "translation": "Une (Féminin)",
+      "example_sentence": "Одна сестра.",
+      "example_phonetic": "/ɐdˈna sʲɪˈstra/",
+      "example_translation": "Une sœur."
+    },
+    {
+      "word_id": "v4",
+      "term": "Два",
+      "phonetic_api": "/dva/",
+      "phonetic_simple": "dva",
+      "translation": "Deux (Masculin / Neutre)",
+      "example_sentence": "Два брата.",
+      "example_phonetic": "/dva ˈbratə/",
+      "example_translation": "Deux frères."
+    },
+    {
+      "word_id": "v5",
+      "term": "Две",
+      "phonetic_api": "/dvʲe/",
+      "phonetic_simple": "dvie",
+      "translation": "Deux (Féminin)",
+      "example_sentence": "Две машины.",
+      "example_phonetic": "/dvʲe mɐˈʂɨnɨ/",
+      "example_translation": "Deux voitures."
+    },
+    {
+      "word_id": "v6",
+      "term": "Пять",
+      "phonetic_api": "/pʲatʲ/",
+      "phonetic_simple": "piat'",
+      "translation": "Cinq",
+      "example_sentence": "Пять евро.",
+      "example_phonetic": "/pʲatʲ ˈjɛvrə/",
+      "example_translation": "Cinq euros."
+    },
+    {
+      "word_id": "v7",
+      "term": "Десять",
+      "phonetic_api": "/ˈdʲesʲɪtʲ/",
+      "phonetic_simple": "DIE-ssit'",
+      "translation": "Dix",
+      "example_sentence": "Прошло десять минут.",
+      "example_phonetic": "/prɐˈʂlo ˈdʲesʲɪtʲ mʲɪˈnut/",
+      "example_translation": "Dix minutes se sont écoulées."
+    },
+    {
+      "word_id": "v8",
+      "term": "Сто",
+      "phonetic_api": "/sto/",
+      "phonetic_simple": "sto",
+      "translation": "Cent",
+      "example_sentence": "Это стоит сто рублей.",
+      "example_phonetic": "/ˈɛtə ˈstoɪt sto rʊˈblʲej/",
+      "example_translation": "Ça coûte cent roubles."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Сколько это стоит?",
+      "phonetic_api": "/ˈskolʲkə ˈɛtə ˈstoɪt/",
+      "phonetic_simple": "SKOL-ka E-ta STO-it ?",
+      "translation": "Combien ça coûte ?",
+      "context": "Question incontournable dans les magasins, marchés ou restaurants."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Напишите номер, пожалуйста",
+      "phonetic_api": "/nəpʲɪˈʂɨtʲɪ ˈnomʲɪr pɐˈʐalʊstə/",
+      "phonetic_simple": "na-pi-CHI-ti NO-mier, pa-JAL-ous-ta",
+      "translation": "Écrivez le numéro, s'il vous plaît",
+      "context": "Pratique si l'on ne comprend pas le prix ou un numéro de téléphone à l'oreille."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Плюс и минус",
+      "phonetic_api": "/plʲus ˈi ˈmʲinʊs/",
+      "phonetic_simple": "plious i MI-nous",
+      "translation": "Plus et moins",
+      "context": "Utilisé pour des calculs simples ou pour indiquer la température."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "У меня только пятьдесят рублей",
+      "phonetic_api": "/ʊ mʲɪˈnʲa ˈtolʲkə pʲɪdʲɪˈsʲat rʊˈblʲej/",
+      "phonetic_simple": "ou mi-NIA TOL-ka pi-di-SIAT rou-BLEÏ",
+      "translation": "Je n'ai que cinquante roubles",
+      "context": "Pour signaler que l'on manque de monnaie."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accord en genre des chiffres 1 et 2",
+      "explanation": "Contrairement aux autres chiffres qui restent invariables, les nombres 1 et 2 s'accordent obligatoirement avec le genre grammatical du nom qu'ils comptent.",
+      "rules": [
+        "Chiffre 1 : Один (masculin), Одна (féminin), Одно (neutre).",
+        "Chiffre 2 : Два (masculin et neutre), Две (féminin)."
+      ],
+      "examples": [
+        {
+          "structure": "Один журнал, одна газета, одно окно.",
+          "phonetic_api": "/v ɐˈdʲin ʐʊrˈnal ɐdˈna ɡɐˈzʲɛtə ɐdˈno ɐkˈno/",
+          "meaning": "Un magazine, un journal, une fenêtre."
+        },
+        {
+          "structure": "Два доллара, две книги.",
+          "phonetic_api": "/dva ˈdolərə dvʲe ˈknʲiɡʲɪ/",
+          "meaning": "Deux dollars, deux livres."
+        }
+      ]
+    },
+    {
+      "concept": "L'impact des nombres sur les cas (Règle d'or du comptage)",
+      "explanation": "En russe, le nombre détermine le cas du nom qui le suit. C'est une spécificité majeure de la grammaire russe.",
+      "rules": [
+        "Après le chiffre 1 (ou se terminant par 1, sauf 11) : le nom se met au Nominatif singulier (ex: один рубль).",
+        "Après les chiffres 2, 3, 4 (ou se terminant par 2, 3, 4, sauf 12, 13, 14) : le nom se met au Génitif singulier (ex: два рубля).",
+        "Après les chiffres de 5 à 20, et pour les dizaines rondes : le nom se met au Génitif pluriel (ex: пять рублей)."
+      ],
+      "examples": [
+        {
+          "structure": "Три года vs Пять лет.",
+          "phonetic_api": "/trʲi ˈɡodə pʲatʲ lʲet/",
+          "meaning": "Trois ans (Génitif singulier) vs Cinq ans (Génitif pluriel)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Продавец",
+      "text": "Добрый день! Что вы хотите?",
+      "phonetic_api": "/ˈdobrɨj dʲenʲ ʂto vɨ xɐˈtʲitʲɪ/",
+      "phonetic_simple": "DO-bry DIEN ! chto vy ha-TI-ti ?",
+      "translation": "Bonjour ! Que voulez-vous ?"
+    },
+    {
+      "speaker": "Турист",
+      "text": "Здравствуйте! Мне нужны эти книги. Сколько они стоят?",
+      "phonetic_api": "/ˈzdrastvʊjtʲɪ mnʲe nʊʐˈnɨ ˈɛtʲɪ ˈknʲiɡʲɪ ˈskolʲkə ɐˈnʲi ˈstoɪt/",
+      "phonetic_simple": "ZDRAST-vouï-ti ! mnié nouj-NY E-ti KNI-gui. SKOL-ka a-NI STO-iat ?",
+      "translation": "Bonjour ! Il me faut ces livres. Combien coûtent-ils ?"
+    },
+    {
+      "speaker": "Продавец",
+      "text": "Один учебник стоит сорок рублей, а этот словарь — шестьдесят.",
+      "phonetic_api": "/v ɐˈdʲin ʊˈtɕɛbnʲɪk ˈstoɪt ˈsorək rʊˈblʲej a ˈɛtət slɐˈvarʲ ʂɨzdʲɪˈsʲat/",
+      "phonetic_simple": "a-DIN ou-TCHEB-nik STO-it SO-rak rou-BLEÏ, a E-tat sla-VAR' - chiz-di-SIAT.",
+      "translation": "Un manuel coûte quarante roubles, et ce dictionnaire en coûte soixante."
+    },
+    {
+      "speaker": "Турист",
+      "text": "Хорошо. Значит, всего сто рублей. Вот, пожалуйста.",
+      "phonetic_api": "/xərɐˈʂo ˈznatɕɪt fsʲɪˈvo sto rʊˈblʲej vot pɐˈʐalʊstə/",
+      "phonetic_simple": "ha-ra-CHO. ZNA-tchit, fssi-VO sto rou-BLEÏ. Vot, pa-JAL-ous-ta.",
+      "translation": "D'accord. Donc, cela fait cent roubles en tout. Voilà, s'il vous plaît."
+    },
+    {
+      "speaker": "Продавец",
+      "text": "Спасибо большое за покупку! Всего доброго.",
+      "phonetic_api": "/spaˈsʲibə bɐlʲˈʂojə zɐ pɐˈkupkʊ fsʲɪˈvo ˈdobrəvə/",
+      "phonetic_simple": "spa-SSI-ba bal-CHA-ya za pa-KOUP-kou ! fssi-VO DO-bra-va.",
+      "translation": "Merci beaucoup pour votre achat ! Au revoir."
+    }
+  ],
+  "cultural_notes": [
+    "Les roubles et kopecks : La monnaie officielle est le rouble (рубль). Un rouble est divisé en 100 kopecks (копейка). À cause des fluctuations historiques, les kopecks ne sont presque plus utilisés au quotidien.",
+    "Numéros de téléphone en Russie : Ils commencent généralement par +7 (ou 8 au niveau national) suivi d'un indicatif de 3 chiffres (ex: 999 pour les mobiles). Les Russes dictent souvent les numéros en groupant les chiffres par deux ou trois (ex: Сто двадцать три, сорок пять, шестьдесят семь)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L5_ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la forme correcte pour dire 'deux sœurs' en russe ?",
+      "options": [
+        "Два сестра",
+        "Две сестра",
+        "Две сестры",
+        "Два сестры"
+      ],
+      "correct_answer": "Две сестры",
+      "explanation": "'Сестра' est féminin, on utilise donc 'Две'. De plus, après le chiffre 2, le nom se met au Génitif singulier, ce qui donne 'сестры'."
+    },
+    {
+      "exercise_id": "A1_M2_L5_ex2",
+      "type": "multiple_choice",
+      "question": "Comment se prononce le chiffre 50 (Пятьдесят) en russe ?",
+      "options": [
+        "piat-die-ssiat",
+        "pi-di-SIAT",
+        "piaz-di-ssiat",
+        "piat-siat"
+      ],
+      "correct_answer": "pi-di-SIAT",
+      "explanation": "En raison de la réduction des voyelles non accentuées, le premier 'я' se réduit en [ɪ], adoucissant la prononciation globale."
+    },
+    {
+      "exercise_id": "A1_M2_L5_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "У меня есть [ ___ ] (1) кошка и два собаки. (J'ai un chat et deux chiens.)",
+      "correct_answer": "одна",
+      "hint": "Accordez le chiffre 1 avec le nom féminin 'кошка'."
+    },
+    {
+      "exercise_id": "A1_M2_L5_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Сколько это стоит? — Это стоит [ ___ ] (15) рублей.",
+      "correct_answer": "пятнадцать",
+      "hint": "Le chiffre 15 en toutes lettres russes."
+    }
+  ]
+}

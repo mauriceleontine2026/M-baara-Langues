@@ -1,0 +1,370 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer et orthographier les 7 jours de la semaine et les 12 mois de l'année",
+    "Utiliser les prépositions temporelles adéquates (в + Accusatif / в + Locatif)",
+    "Demander l'heure et indiquer l'heure pile ou l'heure simple au quotidien",
+    "Utiliser les marqueurs temporels essentiels (aujourd'hui, hier, demain, après-demain)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'В' placée devant les jours de la semaine s'assimile à la consonne initiale du mot : devant une consonne sourde comme le С de 'суббота', le В se dévoise et se prononce [f] ('в субботу' -> [f sʊˈbotʊ]). Dans 'Сегодня', la lettre 'г' se prononce exceptionnellement [v] : [sʲɪˈvodnʲə]. Le 'ТЬ' final de 'январь' ou 'февраль' est adouci par le signe mou.",
+    "common_pitfalls": "Attention au mot 'Воскресенье' (dimanche) : veillez à bien marquer la palatalisation finale [vəskrʲɪˈsʲenʲjə] et l'accent tonique sur la troisième syllabe. Ne confondez pas la prononciation de 'Июнь' (juin) [ɪˈjunʲ] et 'Июль' (juillet) [ɪˈjulʲ], la différence tient uniquement sur la consonne liquide dure ou douce."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Понедельник",
+      "phonetic_api": "/pənʲɪˈdʲelʲnʲɪk/",
+      "phonetic_simple": "pa-ni-DIEL-nik",
+      "translation": "Lundi",
+      "example_sentence": "В понедельник я работаю.",
+      "example_phonetic": "/f pənʲɪˈdʲelʲnʲɪk ja rɐˈbotəjʊ/",
+      "example_translation": "Le lundi, je travaille."
+    },
+    {
+      "word_id": "v2",
+      "term": "Вторник",
+      "phonetic_api": "/ˈftornʲɪk/",
+      "phonetic_simple": "FTOR-nik",
+      "translation": "Mardi",
+      "example_sentence": "Во вторник у меня урок.",
+      "example_phonetic": "/vɐ ˈftornʲɪk ʊ mʲɪˈnʲa ʊˈrok/",
+      "example_translation": "Le mardi, j'amène un cours."
+    },
+    {
+      "word_id": "v3",
+      "term": "Среда",
+      "phonetic_api": "/srʲɪˈda/",
+      "phonetic_simple": "sri-DA",
+      "translation": "Mercredi",
+      "example_sentence": "В среду мы дома.",
+      "example_phonetic": "/f ˈsrʲedʊ mɨ ˈdomə/",
+      "example_translation": "Le mercredi, nous sommes à la maison."
+    },
+    {
+      "word_id": "v4",
+      "term": "Четверг",
+      "phonetic_api": "/tɕɪtˈvʲɛrk/",
+      "phonetic_simple": "tchit-VIERK",
+      "translation": "Jeudi",
+      "example_sentence": "В четверг я читаю.",
+      "example_phonetic": "/f tɕɪtˈvʲɛrk ja tɕɪˈtajʊ/",
+      "example_translation": "Le jeudi, je lis."
+    },
+    {
+      "word_id": "v5",
+      "term": "Пятница",
+      "phonetic_api": "/ˈpʲatnʲɪt͡sə/",
+      "phonetic_simple": "PIAT-ni-tsa",
+      "translation": "Vendredi",
+      "example_sentence": "В пятницу магазин открыт.",
+      "example_phonetic": "/f ˈpʲatnʲɪt͡sʊ mɐɡɐˈzʲin ɐtˈkrɨt/",
+      "example_translation": "Le vendredi, le magasin est ouvert."
+    },
+    {
+      "word_id": "v6",
+      "term": "Суббота",
+      "phonetic_api": "/sʊˈbotə/",
+      "phonetic_simple": "sou-BO-ta",
+      "translation": "Samedi",
+      "example_sentence": "Суббота — день отдыха.",
+      "example_phonetic": "/sʊˈbotə dʲenʲ ˈoddɨxə/",
+      "example_translation": "Le samedi est un jour de repos."
+    },
+    {
+      "word_id": "v7",
+      "term": "Воскресенье",
+      "phonetic_api": "/vəskrʲɪˈsʲenʲjə/",
+      "phonetic_simple": "vas-kri-SSIE-ni-yé",
+      "translation": "Dimanche",
+      "example_sentence": "В воскресенье музей закрыт.",
+      "example_phonetic": "/v vəskrʲɪˈsʲenʲjə mʊˈzʲej zɐˈkrɨt/",
+      "example_translation": "Le dimanche, le musée est fermé."
+    },
+    {
+      "word_id": "v8",
+      "term": "Январь",
+      "phonetic_api": "/jɪnˈvarʲ/",
+      "phonetic_simple": "yin-VAR'",
+      "translation": "Janvier",
+      "example_sentence": "В январе очень холодно.",
+      "example_phonetic": "/v jɪnvɐˈrʲe ˈotɕɪnʲ ˈxolədnə/",
+      "example_translation": "En janvier, il fait très froid."
+    },
+    {
+      "word_id": "v9",
+      "term": "Февраль",
+      "phonetic_api": "/fʲɪˈvralʲ/",
+      "phonetic_simple": "fi-VRAL'",
+      "translation": "Février",
+      "example_sentence": "Февраль — короткий месяц.",
+      "example_phonetic": "/fʲɪˈvralʲ kɐˈrotkʲɪj ˈmʲesʲɪt͡s/",
+      "example_translation": "Février est un mois court."
+    },
+    {
+      "word_id": "v10",
+      "term": "Март",
+      "phonetic_api": "/mart/",
+      "phonetic_simple": "mart",
+      "translation": "Mars",
+      "example_sentence": "В марте весна начинается.",
+      "example_phonetic": "/v ˈmartʲɪ vʲɪˈsna nətɕɪˈnajɪt͡sʲə/",
+      "example_translation": "En mars, le printemps commence."
+    },
+    {
+      "word_id": "v11",
+      "term": "Апрель",
+      "phonetic_api": "/ɐˈprʲelʲ/",
+      "phonetic_simple": "a-PRIEL'",
+      "translation": "Avril",
+      "example_sentence": "Апрель — красивый месяц.",
+      "example_phonetic": "/ɐˈprʲelʲ krɐˈsʲivɨj ˈmʲesʲɪt͡s/",
+      "example_translation": "Avril est un beau mois."
+    },
+    {
+      "word_id": "v12",
+      "term": "Май",
+      "phonetic_api": "/maj/",
+      "phonetic_simple": "maï",
+      "translation": "Mai",
+      "example_sentence": "В мае тепло.",
+      "example_phonetic": "/v ˈmaɪ̯ɪ tʲɪˈplo/",
+      "example_translation": "En mai, il fait chaud."
+    },
+    {
+      "word_id": "v13",
+      "term": "Июнь",
+      "phonetic_api": "/tɕɪtˈvʲɛrk/",
+      "phonetic_simple": "i-IOUN'",
+      "translation": "Juin",
+      "example_sentence": "Июнь — начало лета.",
+      "example_phonetic": "/ɪˈjunʲ nɐˈtɕalə ˈlʲetə/",
+      "example_translation": "Juin est le début de l'été."
+    },
+    {
+      "word_id": "v14",
+      "term": "Июль",
+      "phonetic_api": "/ɪˈjulʲ/",
+      "phonetic_simple": "i-IOUL'",
+      "translation": "Juillet",
+      "example_sentence": "В июле мы едем на море.",
+      "example_phonetic": "/v ɪˈjulʲɪ mɨ ˈjedʲɪm nə ˈmorʲɪ/",
+      "example_translation": "En juillet, nous allons à la mer."
+    },
+    {
+      "word_id": "v15",
+      "term": "Август",
+      "phonetic_api": "/ˈavɡʊst/",
+      "phonetic_simple": "AV-goust",
+      "translation": "Août",
+      "example_sentence": "Август — жаркий месяц.",
+      "example_phonetic": "/ˈavɡʊst ˈʐarkʲɪj ˈmʲesʲɪt͡s/",
+      "example_translation": "Août est un mois chaud."
+    },
+    {
+      "word_id": "v16",
+      "term": "Сентябрь",
+      "phonetic_api": "/sʲɪnˈtʲabrʲ/",
+      "phonetic_simple": "ssin-TIABR'",
+      "translation": "Septembre",
+      "example_sentence": "В сентябре дети идут в школу.",
+      "example_phonetic": "/v sʲɪntʲɐˈbrʲe ˈdʲetʲɪ ɪˈdut f ˈʂkolʊ/",
+      "example_translation": "En septembre, les enfants vont à l'école."
+    },
+    {
+      "word_id": "v17",
+      "term": "Октябрь",
+      "phonetic_api": "/ɐkˈtʲabrʲ/",
+      "phonetic_simple": "ak-TIABR'",
+      "translation": "Octobre",
+      "example_sentence": "Октябрь — это осень.",
+      "example_phonetic": "/ɐkˈtʲabrʲ ˈɛtə ˈosʲɪnʲ/",
+      "example_translation": "Octobre, c'est l'automne."
+    },
+    {
+      "word_id": "v18",
+      "term": "Ноябрь",
+      "phonetic_api": "/nɐˈjabrʲ/",
+      "phonetic_simple": "na-YABR'",
+      "translation": "Novembre",
+      "example_sentence": "В ноябре часто идёт дождь.",
+      "example_phonetic": "/v nɐjɐˈbrʲe ˈtɕastə ɪˈdʲot doɕː/",
+      "example_translation": "En novembre, il pleut souvent."
+    },
+    {
+      "word_id": "v19",
+      "term": "Декабрь",
+      "phonetic_api": "/dʲɪˈkabrʲ/",
+      "phonetic_simple": "di-KABR'",
+      "translation": "Décembre",
+      "example_sentence": "Декабрь — последний месяц года.",
+      "example_phonetic": "/dʲɪˈkabrʲ pɐˈslʲednʲɪj ˈmʲesʲɪt͡s ˈɡodə/",
+      "example_translation": "Décembre est le dernier mois de l'année."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Который час?",
+      "phonetic_api": "/kɐˈtorɨj tɕas/",
+      "phonetic_simple": "ka-TO-ry tchas ?",
+      "translation": "Quelle heure est-il ?",
+      "context": "Expression idiomatique la plus fréquente pour demander l'heure."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Какой сегодня день?",
+      "phonetic_api": "/kɐˈkoj sʲɪˈvodnʲə dʲenʲ/",
+      "phonetic_simple": "ka-KOÏ sie-VOD-nia dien' ?",
+      "translation": "Quel jour sommes-nous aujourd'hui ?",
+      "context": "Pour s'orienter dans la semaine."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "В каком месяце вы приехали?",
+      "phonetic_api": "/f kɐˈkom ˈmʲesʲɪt͡sɪ vɨ prʲɪˈjexəlʲɪ/",
+      "phonetic_simple": "f ka-KOM MIE-ssi-tsi vy pri-IÉ-ha-li ?",
+      "translation": "En quel mois êtes-vous arrivé ?",
+      "context": "Demande de précision temporelle sur un mois."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Сейчас два часа дня",
+      "phonetic_api": "/sʲɪjˈtɕas dva tɕɪˈsa dʲnʲa/",
+      "phonetic_simple": "sieï-TCHAS dva tcha-SA dnia",
+      "translation": "Il est deux heures de l'après-midi",
+      "context": "Indication horaire standard."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les jours de la semaine et la préposition В + Accusatif",
+      "explanation": "Pour dire 'lundi' ou 'le mercredi' au sens d'une date d'action, le russe utilise la préposition 'В' (ou 'ВО' devant Вторник) suivie du nom au cas Accusatif.",
+      "rules": [
+        "Les jours masculins (Понедельник, Вторник, Четверг) ne changent pas de forme : В понедельник, Во вторник, В четверг.",
+        "Les jours féminins (Среда, Пятница, Суббота) changent leur terminaison -а en -у : В среду, В пятницу, В субботу.",
+        "Le jour neutre (Воскресенье) reste identique : В воскресенье."
+      ],
+      "examples": [
+        {
+          "structure": "Я приеду в субботу.",
+          "phonetic_api": "/ja prʲɪˈjedʊ f sʊˈbotʊ/",
+          "meaning": "J'arriverai samedi."
+        }
+      ]
+    },
+    {
+      "concept": "Les mois de l'année et la préposition В + Locatif",
+      "explanation": "Pour indiquer qu'une action se déroule durant un mois précis, on emploie la préposition В suivie du mois au cas Locatif (Prépositionnel).",
+      "rules": [
+        "Tous les mois se terminent par -е au Locatif.",
+        "Les mois finissant par un signe mou (Ь) comme Январь ou Апрель changent le Ь en -е (в январе, в апреле).",
+        "Le mois Май change son Й en -е (в мае)."
+      ],
+      "examples": [
+        {
+          "structure": "Мой день рождения в мае.",
+          "phonetic_api": "/moj dʲenʲ rɐʐˈdʲenʲjə v ˈmaɪ̯ɪ/",
+          "meaning": "Mon anniversaire est en mai."
+        }
+      ]
+    },
+    {
+      "concept": "Indiquer l'heure exacte (Système simple)",
+      "explanation": "Pour donner une heure pile, on associe le nombre cardinal avec la forme déclinée du mot 'Час' (heure).",
+      "rules": [
+        "1 heure = Один час.",
+        "2, 3, 4 heures = Два / три / четыре часа (Génitif singulier).",
+        "5 à 12 (et plus) = Пять / шесть... часов (Génitif pluriel)."
+      ],
+      "examples": [
+        {
+          "structure": "Сейчас три часа.",
+          "phonetic_api": "/sʲɪjˈtɕas trʲi tɕɪˈsa/",
+          "meaning": "Il est trois heures."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Антон",
+      "text": "Мария, какой сегодня день недели? Я совсем забыл.",
+      "phonetic_api": "/mɐˈrʲijə kɐˈkoj sʲɪˈvodnʲə dʲenʲ nʲɪˈdʲelʲɪ ja sɐfˈsʲem zɐˈbɨl/",
+      "phonetic_simple": "ma-RI-ya, ka-KOÏ sie-VOD-nia dien' ni-DIÉ-li ? Ya saf-SSIEM za-BYL.",
+      "translation": "Maria, quel jour de la semaine sommes-nous aujourd'hui ? J'ai complètement oublié."
+    },
+    {
+      "speaker": "Мария",
+      "text": "Сегодня вторник. Вчера был понедельник, а завтра будет среда.",
+      "phonetic_api": "/sʲɪˈvodnʲə ˈftornʲɪk ftɕɪˈra bɨl pənʲɪˈdʲelʲnʲɪk a ˈzaftrə ˈbudʲɪt srʲɪˈda/",
+      "phonetic_simple": "sie-VOD-nia FTOR-nik. ftchi-RA byl pa-ni-DIEL-nik, a ZAF-tra BOU-diet sri-DA.",
+      "translation": "Aujourd'hui c'est mardi. Hier c'était lundi, et demain ce sera mercredi."
+    },
+    {
+      "speaker": "Антон",
+      "text": "А когда ты едешь в отпуск? В июле или в августе?",
+      "phonetic_api": "/a kɐɡˈda tɨ ˈjedʲɪʂ f ˈfutpʊsk v ɪˈjulʲɪ ˈilʲɪ v ˈavɡʊstʲɪ/",
+      "phonetic_simple": "A ka-GDA ty IE-dich v OUT-pousk ? V i-IOU-li i-li v AV-gous-ti ?",
+      "translation": "Et quand pars-tu en vacances ? En juillet ou en août ?"
+    },
+    {
+      "speaker": "Мария",
+      "text": "Я еду в сентябре. Летом тут много работы.",
+      "phonetic_api": "/ja ˈjedʊ v sʲɪntʲɐˈbrʲe ˈlʲetəm tut ˈmnoɡə rɐˈbotɨ/",
+      "phonetic_simple": "ya IE-dou v ssin-TIAB-ri. LIE-tam tout MNO-ga ra-BO-ty.",
+      "translation": "J'y vais en septembre. En été, il y a beaucoup de travail ici."
+    }
+  ],
+  "cultural_notes": [
+    "Le calendrier en Russie : Le premier jour de la semaine est strictement le lundi (понедельник), contrairement à certains pays anglophones. Les mois s'écrivent toujours avec une minuscule en russe, sauf s'ils débutent une phrase.",
+    "L'expression de l'année civile : En Russie, l'année scolaire commence obligatoirement le 1er septembre. Cette journée nationale est appelée 'День знаний' (Jour des connaissances) et revêt une importance culturelle majeure pour toutes les familles."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L6_ex1",
+      "type": "multiple_choice",
+      "question": "Traduisez correctement l'expression : 'En décembre'",
+      "options": [
+        "В Декабрь",
+        "В Декабре",
+        "В Декабру",
+        "На Декабре"
+      ],
+      "correct_answer": "В Декабре",
+      "explanation": "Les mois avec la préposition 'В' s'utilisent au cas Locatif, la terminaison devient '-е'."
+    },
+    {
+      "exercise_id": "A1_M2_L6_ex2",
+      "type": "multiple_choice",
+      "question": "Quel jour de la semaine change sa terminaison en '-у' après la préposition 'В' ?",
+      "options": [
+        "Четверг",
+        "Пятница",
+        "Вторник",
+        "Понедельник"
+      ],
+      "correct_answer": "Пятница",
+      "explanation": "'Пятница' est un nom féminin. À l'accusatif de temps, la lettre '-а' se transforme en '-у' ('В пятницу')."
+    },
+    {
+      "exercise_id": "A1_M2_L6_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "После среды идёт [ ___ ]. (Jeudi)",
+      "correct_answer": "четверг",
+      "hint": "Le quatrième jour de la semaine au cas nominatif."
+    },
+    {
+      "exercise_id": "A1_M2_L6_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Первый месяц года — это [ ___ ]. (Janvier)",
+      "correct_answer": "январь",
+      "hint": "Le premier mois de l'année au cas nominatif."
+    }
+  ]
+}

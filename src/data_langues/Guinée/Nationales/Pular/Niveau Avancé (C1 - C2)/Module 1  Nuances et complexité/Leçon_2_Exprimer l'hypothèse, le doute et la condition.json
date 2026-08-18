@@ -1,0 +1,143 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Formuler l'irréel du passé et le potentiel complexe en utilisant la particule 'sino' et l'inaccompli",
+    "Exprimer le doute méthodique et la conjecture via les structures modales dubitatives",
+    "Nuancer une argumentation en articulant des clauses restrictives ou concessives avancées"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'accentuation rhétorique repose sur les particules de condition comme 'sino' (/sino/) et 'tuma' (/tuma/). Le coup de glotte glottalisé est fort dans 'laawol' lorsqu'il subit une focalisation hypothétique.",
+    "common_pitfalls": "Confondre 'sino' (si seulement / sinon) et 'si' (si simple). 'Sino' introduit des structures de l'irréel du passé exigeant des flexions verbales hautement spécifiques en '-no'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v20_1",
+      "term": "sino",
+      "phonetic_api": "/sino/",
+      "phonetic_simple": "SI-NO",
+      "translation": "si seulement, n'eût été, si d'aventure (irréel du passé)",
+      "example_sentence": "Sino a ariino, mi heɓatnoo kaalis.",
+      "example_phonetic": "/sino a ariːno mi heɓatnoː kaːlis/",
+      "example_translation": "Si seulement tu étais venu, j'aurais obtenu l'argent."
+    },
+    {
+      "word_id": "v20_2",
+      "term": "tamyijogol",
+      "phonetic_api": "/tamjid͡ʒoɡol/",
+      "phonetic_simple": "TAM-YI-DJO-GOL",
+      "translation": "conjecturer, supputer, suspecter une probabilité",
+      "example_sentence": "Mido tamyijoo wonde haala makko no boni.",
+      "example_phonetic": "/mido tamjid͡ʒoː wonde haːla makːo no boni/",
+      "example_translation": "Je suspecte fortement que son argumentation soit fallacieuse."
+    },
+    {
+      "word_id": "v20_3",
+      "term": "sikke",
+      "phonetic_api": "/sikːe/",
+      "phonetic_simple": "SIK-KE",
+      "translation": "le doute, l'incertitude philosophique ou factuelle",
+      "example_sentence": "Sikke alaa e dow moƴƴere maa.",
+      "example_phonetic": "/sikːe alaː e dow moʔɟːere maː/",
+      "example_translation": "Aucun doute n'existe quant à ta bienveillance."
+    },
+    {
+      "word_id": "v20_4",
+      "term": "hama",
+      "phonetic_api": "/hama/",
+      "phonetic_simple": "HA-MA",
+      "translation": "peut-être, il se pourrait que (adverbe dubitatif)",
+      "example_sentence": "Hama yo en yahu ka pootal.",
+      "example_phonetic": "/hama jo en jahu ka pootal/",
+      "example_translation": "Il se pourrait que nous dussions nous rendre au rassemblement."
+    },
+    {
+      "word_id": "v20_5",
+      "term": "taw_o",
+      "phonetic_api": "/tawʔo/",
+      "phonetic_simple": "TAW-O",
+      "translation": "à condition que, pourvu que (particule restrictive)",
+      "example_sentence": "Mi huwwat ngal gollal, taw_o hiba ɗon.",
+      "example_phonetic": "/mi huːwat nɡal ɡolːal tawʔo hiba ɗon/",
+      "example_translation": "J'exécuterai ce projet, pourvu que tu sois présent."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p20_1",
+      "original": "Sino ɓe reesitinoo waaju ngal, mbiilu muɗen saɗatnoo lah kadi.",
+      "phonetic_api": "/sino ɓe reːsitinoː waːd͡ʒu nɡal mbiːlu muɗen saɗatnoː lah kadi/",
+      "phonetic_simple": "SI-NO BHE REE-SI-TI-NOO WAA-DJOU NGAL, MBII-LOU MOU-DHEN SA-DHAT-NOO LAH KA-DI",
+      "translation": "S'ils avaient scrupuleusement appliqué ce conseil, leur rendement n'aurait jamais subi une telle complexité.",
+      "context": "Analyse rétrospective d'un échec industriel ou organisationnel."
+    },
+    {
+      "phrase_id": "p20_2",
+      "original": "Sikke alaa, hama yo ɓe ustu njeegu ngol taw_o en soodii.",
+      "phonetic_api": "/sikːe alaː hama jo ɓe ustu nd͡ʒeːɡu nɡol tawʔo en soːdiː/",
+      "phonetic_simple": "SIK-KE A-LAA, HA-MA YO BHE OUS-TOU NJEE-GOU NGOL TAW-O EN SOO-DII",
+      "translation": "Sans l'ombre d'un doute, il se pourrait qu'ils baissent le prix à condition que nous achetions immédiatement.",
+      "context": "Spéculation commerciale avancée lors d'une transaction de gros."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'irréel du passé avec 'Sino ... -atnoo'",
+      "explanation": "Pour exprimer une condition non réalisée dans le passé (Si X avait eu lieu, Y se serait produit), le pular déploie une corrélation morphologique stricte : la subordonnée s'ouvre par 'Sino' et prend le suffixe '-no', tandis que la principale reçoit le suffixe conditionnel complexe '-atnoo'.",
+      "rules": [
+        "Structure : Sino + Sujet + Verbe-inoo (passé révolue), Sujet + Verbe-atnoo (conditionnel)."
+      ],
+      "examples": [
+        {
+          "structure": "Sino ... mi huwwatnoo",
+          "phonetic_api": "/sino mi huːwatnoː/",
+          "meaning": "Si seulement... j'aurais agi"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Saliou (Sage)",
+      "text": "Alpha, mido jogii sikke e dow fadande ngal gollal. Koni a tamyijoo foolugol muɗen ?",
+      "phonetic_api": "/alɸa mido d͡ʒoɡiː sikːe e dow ɸadande nɡal ɡolːal koni a tamjid͡ʒoː ɸoːluɡol muɗen/",
+      "phonetic_simple": "AL-PHA, MI-DO DJO-GII SIK-KE E DOW FA-DAN-DE NGAL GOL-LAL. KO-NI A TAM-YI-DJOO FOO-LOU-GOL MOU-DHEN ?",
+      "translation": "Alpha, j'entretiens un doute méthodique quant à l'avenir de ce projet. Comment peux-tu conjecturer notre victoire ?"
+    },
+    {
+      "speaker": "Alpha (Entrepreneur)",
+      "text": "Sino en puɗɗitinoo e subaka, sikke alaa en lannatnoo hande. Kono taw_o gollottooɓe ɗen no ɗon, hama en foolat tun !",
+      "phonetic_api": "/sino en puɗːitinoː e subaka sikːe alaː en lanːatnoː hande kono tawʔo ɡolːotːoːɓe ɗen no ɗon hama en ɸoːlat tun/",
+      "phonetic_simple": "SI-NO EN PUD-DHI-TI-NOO E SOU-BA-KA, SIK-KE A-LAA EN LAN-NAT-NOO HAN-DE. KO-NO TAW-O GOL-LOT-TOO-BHE DHEN NO DHON, HA-MA EN FOO-LAT TOUN !",
+      "translation": "N'eût été notre manque de diligence ce matin, nous aurions sans conteste achevé la tâche aujourd'hui. Néanmoins, pourvu que nos équipes demeurent mobilisées, il se pourrait bien que nous l'emportions !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les joutes oratoires et négociations complexes (ex: le règlement des litiges fonciers coutumiers au Fouta), l'usage de 'Sikke alaa' (sans doute) combiné à des clauses restrictives comme 'taw_o' permet de poser des cadres contractuels rigoureux tout en préservant le 'Pulaaku' (la retenue et la courtoisie mutuelle)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex20_1",
+      "type": "multiple_choice",
+      "question": "Quelle flexion verbale indique le conditionnel irréel dans la proposition principale après 'Sino' ?",
+      "options": [
+        "-at (inaccompli simple)",
+        "-atnoo (conditionnel passé/présent de l'irréel)",
+        "-aama (passif accompli)"
+      ],
+      "correct_answer": "-atnoo (conditionnel passé/présent de l'irréel)",
+      "explanation": "Le suffixe complexe '-atnoo' fusionne la marque de l'inaccompli futur ('-at-') et celle de l'antériorité révolue ('-noo'), générant le conditionnel de l'irréel."
+    },
+    {
+      "exercise_id": "ex20_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mi yahat ka pootal, [ ___ ] aawa no walli mi. (J'irais au rassemblement, à condition/pourvu qu'Awa m'aide).",
+      "correct_answer": "taw_o",
+      "hint": "Locution conjonctive marquant la restriction ou la condition sine qua non."
+    }
+  ]
+}

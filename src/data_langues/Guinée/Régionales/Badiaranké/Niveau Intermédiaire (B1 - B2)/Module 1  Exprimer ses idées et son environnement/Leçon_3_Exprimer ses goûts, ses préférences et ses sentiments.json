@@ -1,0 +1,231 @@
+{
+  "lesson_id": "B1_M1_L3",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 3,
+  "title": "Exprimer ses goûts, ses préférences et ses sentiments",
+  "learning_objectives": [
+    "Formuler des phrases contrastées pour dire ce que l'on préfère",
+    "Exprimer la joie, la tristesse ou la satisfaction en Badiaranké",
+    "Nuancer l'expression de ses sentiments personnels face à une situation commune"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'occlusive injective alvéolaire sonore /ɗ/ intervient dans les termes exprimant les sentiments internes profonds. Maintenez une distinction rigoureuse entre voyelles brèves et géminées pour ne pas inverser l'état émotionnel décrit.",
+    "common_pitfalls": "Prononcer l'expression du dégoût ou du refus avec une intonation descendante passive. Les marques de négation et de sentiment s'accompagnent d'un accent tonal fort sur le radical verbal principal."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v12_1",
+      "term": "Kanu",
+      "phonetic_api": "/kanu/",
+      "phonetic_simple": "KA-NOU",
+      "translation": "Aimer / Préférer",
+      "example_sentence": "N kanu maaso korom.",
+      "example_phonetic": "/n kanu maːso korom/",
+      "example_translation": "J'aime énormément le riz."
+    },
+    {
+      "word_id": "v12_2",
+      "term": "Kanu ɓe",
+      "phonetic_api": "/kanu ɓe/",
+      "phonetic_simple": "KA-NOU BHE",
+      "translation": "N'aime pas / Détester",
+      "example_sentence": "N kanu ɓe cebila ubiin.",
+      "example_phonetic": "/n kanu ɓe ceɓila ubiːn/",
+      "example_translation": "Je n'aime pas la viande noire."
+    },
+    {
+      "word_id": "v12_3",
+      "term": "Sae-boki",
+      "phonetic_api": "/sae ɓoki/",
+      "phonetic_simple": "SA-E BHO-KI",
+      "translation": "Joie / Être heureux / Content",
+      "example_sentence": "N seŋeni n sae-boki.",
+      "example_phonetic": "/n seŋeni n sae ɓoki/",
+      "example_translation": "Je suis heureux."
+    },
+    {
+      "word_id": "v12_4",
+      "term": "Mase-boki",
+      "phonetic_api": "/mase ɓoki/",
+      "phonetic_simple": "MA-SE BHO-KI",
+      "translation": "Tristesse / Avoir le cœur lourd",
+      "example_sentence": "M nkaet o seŋeni n mase-boki.",
+      "example_phonetic": "/m nkaːɛt o seŋeni n mase ɓoki/",
+      "example_translation": "Mon frère éprouve de la tristesse."
+    },
+    {
+      "word_id": "v12_5",
+      "term": "Korom",
+      "phonetic_api": "/korom/",
+      "phonetic_simple": "KO-ROM",
+      "translation": "Beaucoup / Très / Fortement",
+      "example_sentence": "A sae korom.",
+      "example_phonetic": "/a sae korom/",
+      "example_translation": "C'est de toute beauté."
+    },
+    {
+      "word_id": "v12_6",
+      "term": "Aé",
+      "phonetic_api": "/aeː/",
+      "phonetic_simple": "AEE",
+      "translation": "Non / Refus / Exclusion",
+      "example_sentence": "Aé, n kanu ɓe.",
+      "example_phonetic": "/aeː n kanu ɓe/",
+      "example_translation": "Non, je n'aime pas."
+    },
+    {
+      "word_id": "v12_7",
+      "term": "Kona",
+      "phonetic_api": "/kona/",
+      "phonetic_simple": "KO-NA",
+      "translation": "Désir / Envie / Volonté",
+      "example_sentence": "Kona m maaso o seŋeni.",
+      "example_phonetic": "/kona m maːso o seŋeni/",
+      "example_translation": "J'ai envie de manger du riz."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p12_1",
+      "original": "N kanu e gese korom.",
+      "phonetic_api": "/n kanu e ɡese korom/",
+      "phonetic_simple": "N KA-NOU E GUE-SE KO-ROM",
+      "translation": "J'aime énormément jouer.",
+      "context": "Affirmer avec passion ses préférences de divertissement."
+    },
+    {
+      "phrase_id": "p12_2",
+      "original": "M naa o seŋeni n sae-boki.",
+      "phonetic_api": "/m naː o seŋeni n sae ɓoki/",
+      "phonetic_simple": "M NAA O SE-NGE-NI N SA-E BHO-KI",
+      "translation": "Ma mère est comblée de joie.",
+      "context": "Faire part du bonheur d'un parent proche."
+    },
+    {
+      "phrase_id": "p12_3",
+      "original": "N kanu ɓe doni ubiin sene.",
+      "phonetic_api": "/n kanu ɓe doni ubiːn sene/",
+      "phonetic_simple": "N KA-NOU BHE DO-NI OU-BHIIN SE-NE",
+      "translation": "Je n'aime pas le vêtement noir aujourd'hui.",
+      "context": "Exprimer un rejet esthétique ou de couleur pour s'habiller."
+    },
+    {
+      "phrase_id": "p12_4",
+      "original": "I fari n mase-boki maami ?",
+      "phonetic_api": "/i fari n mase ɓoki maːmi/",
+      "phonetic_simple": "I FA-RI N MA-SE BHO-KI MAA-MI",
+      "translation": "Pourquoi es-tu triste ainsi ?",
+      "context": "Consoler ou questionner un ami qui manifeste du chagrin."
+    },
+    {
+      "phrase_id": "p12_5",
+      "original": "N kanu maaso mmanza, cebila aé.",
+      "phonetic_api": "/n kanu maːso mːanza ceɓila aeː/",
+      "phonetic_simple": "N KA-NOU MAA-SO MMAN-ZA, TCHE-BHI-LA AEE",
+      "translation": "Je préfère le riz, mais pas la viande.",
+      "context": "Choisir ses plats ou donner ses préférences alimentaires."
+    },
+    {
+      "phrase_id": "p12_6",
+      "original": "A sae e mi korom !",
+      "phonetic_api": "/a sae e mi korom/",
+      "phonetic_simple": "A SA-E E MI KO-ROM !",
+      "translation": "Cela me fait immensément plaisir !",
+      "context": "Manifester une profonde gratitude face à un présent ou un geste."
+    },
+    {
+      "phrase_id": "p12_7",
+      "original": "Kona m mbaŋ o seŋeni e mi.",
+      "phonetic_api": "/kona m mɓaŋ o seŋeni e mi/",
+      "phonetic_simple": "KO-NA M MBANG O SE-NGE-NI E MI",
+      "translation": "J'ai un grand désir de boire de l'eau.",
+      "context": "Exprimer une envie urgente d'hydratation."
+    },
+    {
+      "phrase_id": "p12_8",
+      "original": "Yo sae, n sae-boki n i !",
+      "phonetic_api": "/jo sae n sae ɓoki n i/",
+      "phonetic_simple": "YO SA-E, N SA-E BHO-KI N I !",
+      "translation": "Que tout aille bien, je me réjouis avec toi !",
+      "context": "Féliciter un interlocuteur pour une heureuse nouvelle."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction de la négation verbale de sentiment avec 'ɓe'",
+      "explanation": "En Badiaranké, la négation ne s'articule pas autour d'une double particule comme en français. Pour annuler le sentiment ou le goût ('kanu'), on fait suivre immédiatement le radical verbal de l'enclitique négatif postposé 'ɓe'.",
+      "rules": [
+        "Le radical verbal ('kanu') conserve sa position initiale.",
+        "La particule négative restrictive 'ɓe' se place directement après pour former l'antonyme."
+      ],
+      "examples": [
+        {
+          "structure": "n kanu ɓe",
+          "phonetic_api": "/n kanu ɓe/",
+          "meaning": "je n'aime pas / je déteste"
+        },
+        {
+          "structure": "o sae ɓe",
+          "phonetic_api": "/o sae ɓe/",
+          "meaning": "il n'est pas bien / il est mécontent"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Awa, i fari n sae-boki sene ? I maami ?",
+      "phonetic_api": "/awa i fari n sae ɓoki sene i maːmi/",
+      "phonetic_simple": "A-WA, I FA-RI N SA-E BHO-KI SE-NE ? I MAA-MI ?",
+      "translation": "Awa, tu sembles rayonner de joie aujourd'hui. Comment ça va ?"
+    },
+    {
+      "speaker": "Awa",
+      "text": "Iyo Samba, n seŋeni n sae-boki korom. M baa o seŋeni sene.",
+      "phonetic_api": "/ijo samɓa n seŋeni n sae ɓoki korom m ɓaː o seŋeni sene/",
+      "phonetic_simple": "I-YO SAM-BHA, N SE-NGE-NI N SA-E BHO-KI KO-ROM. M BHAA O SE-NGE-NI SE-NE.",
+      "translation": "Oui Samba, je suis extrêmement heureuse. Mon père est arrivé aujourd'hui."
+    },
+    {
+      "speaker": "Samba",
+      "text": "N tanu Alla ! Mady o seŋeni n mase-boki ɓe ?",
+      "phonetic_api": "/n tanu alla mady o seŋeni n mase ɓoki ɓe/",
+      "phonetic_simple": "N TA-NOU AL-LA ! MA-DY O SE-NGE-NI N MA-SE BHO-KI BHE ?",
+      "translation": "Dieu merci ! Et Mady n'est pas triste alors ?"
+    },
+    {
+      "speaker": "Awa",
+      "text": "Aé, o mase-boki ɓe. O kanu m baa korom !",
+      "phonetic_api": "/aeː o mase ɓoki ɓe o kanu m ɓaː korom/",
+      "phonetic_simple": "AEE, O MA-SE BHO-KI BHE. O KA-NOU M BHAA KO-ROM !",
+      "translation": "Non, il n'est pas triste du tout. Il aime énormément mon père !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans la pudeur relationnelle de la communauté Badiaranké, les sentiments négatifs profonds s'expriment souvent par des périphrases physiques liées aux battements du cœur ou à l'état du ventre. L'expression 'sae-boki' traduit littéralement une harmonie ou un arrangement vertueux du for intérieur, témoignant de l'importance de la paix communautaire."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex12_1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'Je n'aime pas' en langue Badiaranké ?",
+      "options": [
+        "N kanu korom",
+        "N kanu ɓe",
+        "N sae-boki"
+      ],
+      "correct_answer": "N kanu ɓe",
+      "explanation": "L'ajout de la particule 'ɓe' juste après le verbe permet d'exprimer la négation du goût."
+    },
+    {
+      "exercise_id": "ex12_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A sae [ ___ ] ! (C'est extrêmement bien / délicieux !)",
+      "correct_answer": "korom",
+      "hint": "L'adverbe d'intensité pour marquer le haut degré."
+    }
+  ]
+}

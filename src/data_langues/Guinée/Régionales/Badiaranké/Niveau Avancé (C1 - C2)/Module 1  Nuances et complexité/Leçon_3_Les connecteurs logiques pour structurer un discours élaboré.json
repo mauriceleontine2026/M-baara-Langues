@@ -1,0 +1,231 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Les connecteurs logiques pour structurer un discours élaboré",
+  "learning_objectives": [
+    "Articuler un raisonnement complexe en agençant cause, conséquence et opposition",
+    "Utiliser les mots de liaison de niveau supérieur pour fluidifier la prise de parole",
+    "Soutenir un plaidoyer ou argumentaire ordonné lors d'une interaction formelle"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les connecteurs logiques exigent une clarté d'émission sur les consonnes doubles et les nasales vélaires /ŋ/. La transition rythmique doit lier les propositions sans pause glottale artificielle.",
+    "common_pitfalls": "Prononcer les articulateurs de cause en les détachant maladroitement du sujet grammatical, ce qui brise la fluidité attendue d'un discours de niveau C1."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v21_1",
+      "term": "Bari-o-bari",
+      "phonetic_api": "/ɓarioɓari/",
+      "phonetic_simple": "BHA-RI-O-BHA-RI",
+      "translation": "C'est pourquoi / Par conséquent / Par suite de quoi",
+      "example_sentence": "Bari-o-bari n wa-ma e teeŋ.",
+      "example_phonetic": "/ɓarioɓari n wama e teːŋ/",
+      "example_translation": "C'est pourquoi je me suis rendu au village."
+    },
+    {
+      "word_id": "v21_2",
+      "term": "Kanu-e",
+      "phonetic_api": "/kanue/",
+      "phonetic_simple": "KA-NOU-E",
+      "translation": "Parce que / En raison de / Du fait que",
+      "example_sentence": "N fari, kanu-e kona o seŋeni.",
+      "example_phonetic": "/n fari kanue kona o seŋeni/",
+      "example_translation": "Je mange parce que la faim se fait sentir."
+    },
+    {
+      "word_id": "v21_3",
+      "term": "Mba-sae",
+      "phonetic_api": "/mɓasae/",
+      "phonetic_simple": "MBA-SA-E",
+      "translation": "Cependant / Néanmoins / Pourtant",
+      "example_sentence": "A mase, mba-sae n kanu ɓe.",
+      "example_phonetic": "/a mase mɓasae n kanu ɓe/",
+      "example_translation": "C'est de grande valeur, cependant je n'apprécie guère."
+    },
+    {
+      "word_id": "v21_4",
+      "term": "Mmanza-e",
+      "phonetic_api": "/mːanzae/",
+      "phonetic_simple": "MMAN-ZA-E",
+      "translation": "Premièrement / D'abord / En premier lieu",
+      "example_sentence": "Mmanza-e, i wala e mase.",
+      "example_phonetic": "/mːanzae i wala e mase/",
+      "example_translation": "En premier lieu, il te faut écouter."
+    },
+    {
+      "word_id": "v21_5",
+      "term": "Maasŋe-e",
+      "phonetic_api": "/maːsŋee/",
+      "phonetic_simple": "MAAS-NGE-E",
+      "translation": "Deuxièmement / En second lieu",
+      "example_sentence": "Maasŋe-e, fari o o wa mase.",
+      "example_phonetic": "/maːsŋee fari o o wa mase/",
+      "example_translation": "Deuxièmement, l'ouvrage s'accomplira."
+    },
+    {
+      "word_id": "v21_6",
+      "term": "Wure-e",
+      "phonetic_api": "/wuree/",
+      "phonetic_simple": "WOU-RE-E",
+      "translation": "Enfin / En conclusion / Au bout du compte",
+      "example_sentence": "Wure-e, abaari o o mase-ma.",
+      "example_phonetic": "/wuree aɓaːri o o masema/",
+      "example_translation": "Enfin, la chronique s'est achevée."
+    },
+    {
+      "word_id": "v21_7",
+      "term": "Wole-n-wole",
+      "phonetic_api": "/wolenwole/",
+      "phonetic_simple": "WO-LE-N-WO-LE",
+      "translation": "Bien que / Quoique / En dépit du fait que",
+      "example_sentence": "Wole-n-wole n fari, wari o seŋeni ɓe.",
+      "example_phonetic": "/wolenwole n fari wari o seŋeni ɓe/",
+      "example_translation": "Bien que je travaille, l'argent manque."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p21_1",
+      "original": "Mmanza-e, m baa o seŋeni; maasŋe-e, o fari caca.",
+      "phonetic_api": "/mːanzae m ɓaː o seŋeni maːsŋee o fari caca/",
+      "phonetic_simple": "MMAN-ZA-E, M BHAA O SE-NGE-NI ; MAAS-NGE-E, O FA-RI TCHA-TCHA",
+      "translation": "Premièrement, mon père est présent ; deuxièmement, il répare le toit.",
+      "context": "Énumérer de façon ordonnée les faits observés dans la concession."
+    },
+    {
+      "phrase_id": "p21_2",
+      "original": "N wa-ma e maree kanu-e kona m kense o seŋeni.",
+      "phonetic_api": "/n wama e mareː kanue kona m kɛnse o seŋeni/",
+      "phonetic_simple": "N WA-MA E MA-RHIE KA-NOU-E KO-NA M KEN-SE O SE-NGE-NI",
+      "translation": "Je me suis rendu au marché parce que j'avais un vif désir de poisson.",
+      "context": "Expliciter la cause rationnelle d'une démarche ou d'une transaction."
+    },
+    {
+      "phrase_id": "p21_3",
+      "original": "Cebila o o mase korom, bari-o-bari n soko ɓe.",
+      "phonetic_api": "/ceɓila o o mase korom ɓarioɓari n soko ɓe/",
+      "phonetic_simple": "TCHE-BHI-LA O O MA-SE KO-ROM, BHA-RI-O-BHA-RI N SO-KO BHE",
+      "translation": "La viande s'avère excessivement chère, c'est pourquoi je n'ai point acheté.",
+      "context": "Déduire logiquement une conséquence d'un état économique."
+    },
+    {
+      "phrase_id": "p21_4",
+      "original": "Wole-n-wole n mase-ma fari m mi, wari o seŋeni e mi ɓe.",
+      "phonetic_api": "/wolenwole n masema fari m mi wari o seŋeni e mi ɓe/",
+      "phonetic_simple": "WO-LE-N-WO-LE N MA-SE-MA FA-RI M MI, WA-RI O SE-NGE-NI E MI BHE",
+      "translation": "Bien que j'aie achevé mon labeur, le paiement me fait défaut.",
+      "context": "Mettre en opposition une concession grammaticale et un fait déplorable."
+    },
+    {
+      "phrase_id": "p21_5",
+      "original": "Kense o o sae sae, mba-sae n soko mmanza rek.",
+      "phonetic_api": "/kɛnse o o sae sae mɓasae n soko mːanza rek/",
+      "phonetic_simple": "KEN-SE O O SA-E SA-E, MBA-SA-E N SO-KO MMAN-ZA REK",
+      "translation": "Ce poisson est d'excellente qualité, cependant j'en acquiers un seul.",
+      "context": "Nuancer une appréciation positive par une restriction budgétaire."
+    },
+    {
+      "phrase_id": "p21_6",
+      "original": "Wure-e, n yere e wa e maari duku sae.",
+      "phonetic_api": "/wuree n jere e wa e maːri duku sae/",
+      "phonetic_simple": "WOU-RE-E, N YE-RE E WA E MAA-RI DOU-KOU SA-E",
+      "translation": "Enfin, je conclus qu'il convient de regagner promptement la concession.",
+      "context": "Clore un échange de points de vue par une décision ferme."
+    },
+    {
+      "phrase_id": "p21_7",
+      "original": "M baa o sae-boki kanu-e nkaet o wolo doni feeo.",
+      "phonetic_api": "/m ɓaː o sae ɓoki kanue nkaːɛt o wolo doni feːɔ/",
+      "phonetic_simple": "M BHAA O SA-E BHO-KI KA-NOU-E NKAE-TT O WO-LO DO-NI FEE-O",
+      "translation": "Mon père exprime sa joie du fait que mon frère arbore le boubou blanc.",
+      "context": "Justifier le sentiment d'un tiers par un connecteur causal raffiné."
+    },
+    {
+      "phrase_id": "p21_8",
+      "original": "Yo sae bari-o-bari i discourse o mase !",
+      "phonetic_api": "/jo sae ɓarioɓari i discourse o mase/",
+      "phonetic_simple": "YO SA-E BHA-RI-O-BHA-RI I DIS-COURSE O MA-SE !",
+      "translation": "Que la paix t'accompagne, par suite de quoi ton allocution s'impose !",
+      "context": "Formule de validation protocolaire après un discours structuré."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'articulation discursive et la déduction par 'bari-o-bari'",
+      "explanation": "Le niveau C1 exige l'usage de connecteurs logiques poly-syllabiques. 'Bari-o-bari' (c'est pourquoi) sert d'articulateur de conséquence logique ou de conclusion narrative. Il se forme sur le radical 'bari' (jour/clarté) redoublé pour marquer l'évidence d'une suite causale.",
+      "rules": [
+        "Le connecteur se place en tête de la proposition de conséquence.",
+        "Il est immédiatement suivi de la structure standard sujet-verbe sans modification d'aspect obligatoire."
+      ],
+      "examples": [
+        {
+          "structure": "bari-o-bari n wa",
+          "phonetic_api": "/ɓarioɓari n wa/",
+          "meaning": "c'est la raison pour laquelle je pars"
+        },
+        {
+          "structure": "kanu-e o fari",
+          "phonetic_api": "/kanue o fari/",
+          "meaning": "en raison du fait qu'il agit ainsi"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Mady, mmanza-e, i wala-ma e wa-ma n mi meema ; maasŋe-e, i fari-ma-ma aé.",
+      "phonetic_api": "/mady mːanzae i walama e wama n mi meːma maːsŋee i farimama aeː/",
+      "phonetic_simple": "MA-DY, MMAN-ZA-E, I WA-LA-MA E WA-MA N MI MEE-MA ; MAAS-NGE-E, I FA-RI-MA-MA AEE.",
+      "translation": "Mady, premièrement, tu aurais dû venir avec moi hier ; deuxièmement, tu t'es abstenu de tout acte."
+    },
+    {
+      "speaker": "Mady",
+      "text": "Samba, n fari-ma-ma aé kanu-e m taba o o wole-ɓe. Mba-sae n yere-ma e mase i.",
+      "phonetic_api": "/samɓa n farimama aeː kanue m taɓa o o woleɓe mɓasae n jerema e mase i/",
+      "phonetic_simple": "SAM-BHA, N FA-RI-MA-MA AEE KA-NOU-E M TA-BHA O O WO-LE-BHE. MBA-SA-E N YE-RE-MA E MA-SE I.",
+      "translation": "Samba, je ne suis pas intervenu parce que mes chaussures étaient totalement inutilisables. Cependant, j'avais bel et bien l'intention de t'écouter."
+    },
+    {
+      "speaker": "Samba",
+      "text": "Wole-n-wole i taba o sae ɓe, i wala-ma e wure e bata duku m mi.",
+      "phonetic_api": "/wolenwole i taɓa o sae ɓe i walama e wure e ɓata duku m mi/",
+      "phonetic_simple": "WO-LE-N-WO-LE I TA-BHA O SA-E BHE, I WA-LA-MA E WOU-RE E BHA-TA DOU-KOU M MI.",
+      "translation": "Bien que tes sandales fussent défectueuses, tu te devais de paraître dans la cour à mes côtés."
+    },
+    {
+      "speaker": "Mady",
+      "text": "Bari-o-bari n wa wure manka subaka. Wure-e, yo sae o seŋeni n mi n i !",
+      "phonetic_api": "/ɓarioɓari n wa wure manka suɓaka wuree jo sae o seŋeni n mi n i/",
+      "phonetic_simple": "BHA-RI-O-BHA-RI N WA WOU-RE MAN-KA SOU-BHA-KA. WOU-RE-E, YO SA-E O SE-NGE-NI N MI N I !",
+      "translation": "C'est pourquoi je viendrai sans faute demain matin. En conclusion, que la concorde règne absolument entre nous !"
+    }
+  ],
+  "cultural_notes": [
+    "La rhétorique traditionnelle Badiaranké accorde une immense valeur à la structuration du plaidoyer lors des palabres villageoises. Savoir agencer méthodiquement ses arguments à l'aide de connecteurs d'énumération ('mmanza-e', 'maasŋe-e') et d'opposition ('mba-sae') démontre une finesse d'esprit qui force le respect de l'auditoire et apaise les tensions sociales."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex21_1",
+      "type": "multiple_choice",
+      "question": "Quel connecteur logique utilisez-vous pour exprimer la cause ('parce que') ?",
+      "options": [
+        "Bari-o-bari",
+        "Kanu-e",
+        "Mba-sae"
+      ],
+      "correct_answer": "Kanu-e",
+      "explanation": "'Kanu-e' sert d'introducteur causal, alors que 'bari-o-bari' annonce la conséquence logique."
+    },
+    {
+      "exercise_id": "ex21_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] , n mase-ma discourse m mi. (En conclusion, j'ai achevé mon allocution.)",
+      "correct_answer": "Wure-e",
+      "hint": "Le connecteur de clôture discursive signifiant enfin ou en fin de compte."
+    }
+  ]
+}

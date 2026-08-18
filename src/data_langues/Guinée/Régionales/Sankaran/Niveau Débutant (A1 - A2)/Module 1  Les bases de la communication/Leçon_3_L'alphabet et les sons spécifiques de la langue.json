@@ -1,0 +1,225 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Identifier et prononcer correctement les sept voyelles orales et nasales du Sankaran",
+    "Maîtriser l'articulation des consonnes co-articulées doubles (gb, kp)",
+    "Distinguer l'impact sémantique de la longueur vocalique et de la nasalisation"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'alphabet Sankaran utilise les caractères latins enrichis de symboles spécifiques. Les voyelles /ɛ/ (noté 'ɛ') et /ɔ/ (noté 'ɔ') sont systématiquement ouvertes. Les consonnes combinées /ɡ͡b/ (noté 'gb') et /k͡p/ (noté 'kp') sont des occlusives labio-vélaires : elles se prononcent en bloquant et en relâchant simultanément l'air au niveau des lèvres et du voile du palais, sans coupure.",
+    "common_pitfalls": "Évitez absolument de décomposer 'gb' en prononçant d'abord un 'g' puis un 'b'. Il s'agit d'un son unique. Ne confondez pas une voyelle nasale (suivie de 'n' en fin de syllabe, sans articuler le 'n' à la française) avec une voyelle orale pure."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v3_1",
+      "term": "Gban",
+      "phonetic_api": "/ɡ͡ban/",
+      "phonetic_simple": "GBANE",
+      "translation": "Chauffer / Brûler / Sécher au soleil",
+      "example_sentence": "Tele be jii gban na.",
+      "example_phonetic": "/te.le be d͡ʒiː ɡ͡ban na/",
+      "example_translation": "Le soleil est en train de chauffer l'eau."
+    },
+    {
+      "word_id": "v3_2",
+      "term": "Kpan",
+      "phonetic_api": "/k͡pan/",
+      "phonetic_simple": "KPANE",
+      "translation": "Fermer brusquement / Claquer",
+      "example_sentence": "Da kpan kosɛbɛ !",
+      "example_phonetic": "/da k͡pba ko.sɛ.bɛ/",
+      "example_translation": "Ferme fermement la porte !"
+    },
+    {
+      "word_id": "v3_3",
+      "term": "Nyin",
+      "phonetic_api": "/ɲin/",
+      "phonetic_simple": "GNINE",
+      "translation": "Dent",
+      "example_sentence": "N nyin be n dimi na.",
+      "example_phonetic": "/ɲin be ɲ di.mi na/",
+      "example_translation": "Ma dent me fait mal."
+    },
+    {
+      "word_id": "v3_4",
+      "term": "Bɛɛ",
+      "phonetic_api": "/bɛː/",
+      "phonetic_simple": "BƐƐ",
+      "translation": "Tout / Tous / Chaque",
+      "example_sentence": "Mɔgɔ bɛɛ be yan.",
+      "example_phonetic": "/mɔ.ɣɔ bɛː be jan/",
+      "example_translation": "Tout le monde est ici."
+    },
+    {
+      "word_id": "v3_5",
+      "term": "Kɔnɔ",
+      "phonetic_api": "/kɔ.nɔ/",
+      "phonetic_simple": "KƆ-NƆ",
+      "translation": "Oiseau",
+      "example_sentence": "Kɔnɔ be yiri san.",
+      "example_phonetic": "/kɔ.nɔ be ji.ri san/",
+      "example_translation": "L'oiseau est sur l'arbre."
+    },
+    {
+      "word_id": "v3_6",
+      "term": "Kɔɔnɔ",
+      "phonetic_api": "/kɔː.nɔ/",
+      "phonetic_simple": "KƆƆ-NƆ",
+      "translation": "Le ventre / L'intérieur",
+      "example_sentence": "N kɔɔnɔ be n dimi na.",
+      "example_phonetic": "/ɲ kɔː.nɔ be ɲ di.mi na/",
+      "example_translation": "J'ai mal au ventre (litt: Mon ventre est dans ma douleur)."
+    },
+    {
+      "word_id": "v3_7",
+      "term": "Ŋana",
+      "phonetic_api": "/ŋa.na/",
+      "phonetic_simple": "NGANA",
+      "translation": "Héros / Personne valeureuse",
+      "example_sentence": "Keleke ŋana le nin di.",
+      "example_phonetic": "/ke.le.ke ŋa.na le nin di/",
+      "example_translation": "C'est un vaillant guerrier."
+    },
+    {
+      "word_id": "v3_8",
+      "term": "Daa",
+      "phonetic_api": "/daː/",
+      "phonetic_simple": "DAA",
+      "translation": "La bouche / L'ouverture / La jarre",
+      "example_sentence": "Jii be daa kɔnɔ.",
+      "example_phonetic": "/d͡ʒiː be daː kɔ.nɔ/",
+      "example_translation": "L'eau est dans la jarre."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p3_1",
+      "original": "A fɔ gba !",
+      "phonetic_api": "/a fɔ ɡ͡ba/",
+      "phonetic_simple": "A FƆ GBA",
+      "translation": "Dis-le clairement ! / Parle franchement !",
+      "context": "Demande d'explication limpide ou de vérité sans détour."
+    },
+    {
+      "phrase_id": "p3_2",
+      "original": "N ma a fɔlan mɛn.",
+      "phonetic_api": "/ɲ ma a fɔ.lan mɛn/",
+      "phonetic_simple": "N MA A FƆ-LANE MƐNE",
+      "translation": "Je n'ai pas entendu sa prononciation.",
+      "context": "Indication d'une incompréhension auditive lors de l'apprentissage."
+    },
+    {
+      "phrase_id": "p3_3",
+      "original": "A fɔ kosɛbɛ, n b'a fɛ ka kalan.",
+      "phonetic_api": "/a fɔ ko.sɛ.bɛ ɲ b'a fɛ ka ka.lan/",
+      "phonetic_simple": "A FƆ KO-SƐ-BƐ, N BA FƐ KA KA-LANE",
+      "translation": "Prononce-le bien, je veux apprendre.",
+      "context": "Requête pédagogique adressée à un tuteur ou locuteur natif."
+    },
+    {
+      "phrase_id": "p3_4",
+      "original": "Segi a kan jɛkɛ.",
+      "phonetic_api": "/se.ɣi a kan d͡ʒɛ.kɛ/",
+      "phonetic_simple": "SÉ-GOU A KANE DJƐ-KƐ",
+      "translation": "Répète encore une fois exactement.",
+      "context": "Demande de répétition d'un mot ou d'un exercice de parole."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La distinction phonologique par allongement vocalique (Paires minimales)",
+      "explanation": "Le Sankaran est une langue où la quantité vocalique possède une valeur distinctive fondamentale. Doubler graphiquement une voyelle modifie radicalement le sens lexical du mot. Le flux de la voix doit maintenir le son deux fois plus longtemps.",
+      "rules": [
+        "Voyelle simple = Durée brève",
+        "Voyelle double = Durée allongée",
+        "Ne pas respecter cette durée crée des contresens ou rend le discours incompréhensible."
+      ],
+      "examples": [
+        {
+          "structure": "Ba (Fleuve / Grand) vs Baa (Mère)",
+          "phonetic_api": "/ba/ vs /baː/",
+          "meaning": "Exemple d'allongement sur la voyelle /a/"
+        },
+        {
+          "structure": "Kɔnɔ (Oiseau) vs Kɔɔnɔ (Ventre)",
+          "phonetic_api": "/kɔ.nɔ/ vs /kɔː.nɔ/",
+          "meaning": "Exemple d'allongement sur la voyelle ouverte /ɔ/"
+        }
+      ]
+    },
+    {
+      "concept": "La consonne nasale vélaire 'Ŋ' en position initiale",
+      "explanation": "Contrairement au français où le son 'ng' (comme à la fin de 'parking') n'apparaît jamais au début d'un mot, le Sankaran l'utilise régulièrement comme une consonne d'attaque nominale autonome. Le symbole phonétique et orthographique officiel est 'Ŋ' / 'ŋ'.",
+      "rules": [
+        "Le son est produit en bloquant l'air avec le dos de la langue contre le voile du palais, tout en laissant l'air s'échapper par les fosses nasales."
+      ],
+      "examples": [
+        {
+          "structure": "Ŋana",
+          "phonetic_api": "/ŋa.na/",
+          "meaning": "Un homme fort / valeureux / un champion"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Karamɔgɔ (Enseignant)",
+      "text": "I ni ke ! A fɔ n yɛ : 'gbisan'.",
+      "phonetic_api": "/i ni ke | a fɔ ɲ jɛ ɡ͡bi.san/",
+      "phonetic_simple": "I NI KÉ ! A FƆ N YƐ : GBI-SANE.",
+      "translation": "Salut ! Dis-moi : 'gbisan' (fouet)."
+    },
+    {
+      "speaker": "Kalanden (Élève)",
+      "text": "Gbisan. N b'a fɔra gba bang, karamɔgɔ?",
+      "phonetic_api": "/ɡ͡bi.san | ɲ b'a fɔ.ra ɡ͡ba baŋ ka.ra.mɔ.ɣɔ/",
+      "phonetic_simple": "GBI-SANE. N BA FƆ-RA GBA BANGE, KA-RA-MƆ-GƆ ?",
+      "translation": "Gbisan. Est-ce que je le prononce clairement, maître ?"
+    },
+    {
+      "speaker": "Karamɔgɔ (Enseignant)",
+      "text": "Awo, a fɔra kosɛbɛ ! Sisan, a fɔ : 'kpan'.",
+      "phonetic_api": "/a.wo a fɔ.ra ko.sɛ.bɛ | si.san a fɔ k͡pan/",
+      "phonetic_simple": "A-WO, A FƆ-RA KO-SƐ-BƐ ! SI-SANE, A FƆ : KPANE.",
+      "translation": "Oui, c'est très bien prononcé ! Maintenant, dis : 'kpan' (fermer)."
+    },
+    {
+      "speaker": "Kalanden (Élève)",
+      "text": "Kpan. Lɛtɛrɛ ninu gbelen mu n yɛ fɔlɔ.",
+      "phonetic_api": "/k͡pan | lɛ.tɛ.rɛ ni.nu ɡ͡be.len mu ɲ jɛ fɔ.lɔ/",
+      "phonetic_simple": "KPANE. LƐ-TƐ-RƐ NI-NOU GBÉ-LÈNE MOU N YƐ FƆ-LƆ.",
+      "translation": "Kpan. Ces lettres sont encore difficiles pour moi."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'apprentissage traditionnel oral de la région de Faranah, la maîtrise absolue de l'articulation des sons fermes comme 'gb' et 'kp' marque l'habileté rhétorique. Les enfants s'exercent tôt via des virelangues pour muscler leur diction.",
+    "L'orthographe moderne de la langue s'appuie sur l'Alphabet National Guinéen harmonisé, permettant de transcrire précisément chaque nuance phonétique sans ambiguïté graphique."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex3_1",
+      "type": "multiple_choice",
+      "question": "Quelle est la différence sémantique exacte entre 'Kɔnɔ' et 'Kɔɔnɔ' en Sankaran ?",
+      "options": [
+        "'Kɔnɔ' signifie le fleuve et 'Kɔɔnɔ' signifie la mère.",
+        "'Kɔnɔ' signifie l'oiseau et 'Kɔɔnɔ' désigne le ventre ou l'intérieur.",
+        "Il n'y a aucune différence, ce sont deux variantes régionales."
+      ],
+      "correct_answer": "Kit de survie : 'Kɔnɔ' signifie l'oiseau et 'Kɔɔnɔ' désigne le ventre ou l'intérieur.",
+      "explanation": "L'allongement de la voyelle centrale fait passer le mot du sens d'animal ailé à une partie anatomique interne."
+    },
+    {
+      "exercise_id": "ex3_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "La consonne double occlusive labio-vélaire dans 'A fɔ [ ___ ] !' (Dis-le clairement !) s'écrit avec deux lettres.",
+      "correct_answer": "gb",
+      "hint": "Il s'agit de la combinaison des lettres g et b articulées simultanément."
+    }
+  ]
+}

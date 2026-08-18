@@ -1,0 +1,264 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Formuler des questions locatives pour localiser un point d'intérêt avec 'níbo'",
+    "Comprendre et appliquer les directives d'orientation spatiale (gidi, òsì, iwájú)",
+    "Maîtriser l'usage des prépositions de lieu et des verbes de mouvement (lọ, yà, rìn)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon utilise des structures contenant la consonne liquide latérale 'l' [l] et le son 'y' [j] combinés à des variations de tons brusques (ex: 'yà sí òsì'). Veillez également à bien accentuer la voyelle nasale 'in' dans 'síwájú' [sít͡ʃájʊ́] et la glissante 'w'.",
+    "common_pitfalls": "Attention à la prononciation du mot 'ọ̀nà' (chemin / route). Les deux voyelles portent un ton bas [ɔ̀nà]. Ne le confondez pas avec 'ọna' (art / créativité) qui porte des tons moyens. Marquez bien la coupure nette sur les tons bas successifs."
+  },
+  "vocabulary": [
+    {
+      "word_id": "A1_M3_L7_V1",
+      "term": "Ọ̀nà",
+      "phonetic_api": "/ɔ̀nà/",
+      "phonetic_simple": "ÀW-NÀ",
+      "translation": "Chemin / Route / Rue",
+      "example_sentence": "Ọ̀nà wo ni ó lọ sí ọjà?",
+      "example_phonetic": "/ɔ̀nà wo nĩ ó lɔ sí ɔd͡ʒà/",
+      "example_translation": "Quel chemin mène au marché ?"
+    },
+    {
+      "word_id": "A1_M3_L7_V2",
+      "term": "Níbo",
+      "phonetic_api": "/níbo/",
+      "phonetic_simple": "NÍ-BO",
+      "translation": "Où (Interrogatif locatif)",
+      "example_sentence": "Níbo ni ilé-ìwòsàn wà?",
+      "example_phonetic": "/níbo nĩ iléìwòsã̀ wà/",
+      "example_translation": "Où se trouve l'hôpital ?"
+    },
+    {
+      "word_id": "A1_M3_L7_V3",
+      "term": "Ọ̀tún",
+      "phonetic_api": "/ɔ̀tʊ́/",
+      "phonetic_simple": "ÀW-TOÚN",
+      "translation": "Droite (Côté droit)",
+      "example_sentence": "Yà sí ọ̀tún rẹ.",
+      "example_phonetic": "/jà sí ɔ̀tʊ́ ɾɛ/",
+      "example_translation": "Tourne à ta droite."
+    },
+    {
+      "word_id": "A1_M3_L7_V4",
+      "term": "Òsì",
+      "phonetic_api": "/òsì/",
+      "phonetic_simple": "Ò-SÌ",
+      "translation": "Gauche (Côté gauche)",
+      "example_sentence": "Ilé náà wà ní òsì.",
+      "example_phonetic": "/ilé náː wà ní òsì/",
+      "example_translation": "La maison se trouve à gauche."
+    },
+    {
+      "word_id": "A1_M3_L7_V5",
+      "term": "Síwájú",
+      "phonetic_api": "/síwájú/",
+      "phonetic_simple": "SÍ-WÁ-JOÚ",
+      "translation": "En avant / Tout droit",
+      "example_sentence": "Rìn síwájú díẹ̀.",
+      "example_phonetic": "/ɾĩ̀ síwájú díɛ̀/",
+      "example_translation": "Marche un peu tout droit."
+    },
+    {
+      "word_id": "A1_M3_L7_V6",
+      "term": "Ilé-ìfowópamọ́",
+      "phonetic_api": "/iléìfowók͡pamɔ́/",
+      "phonetic_simple": "I-LÉ-Ì-FO-WÓ-KPA-MÁW",
+      "translation": "Banque (Littéralement : maison pour garder l'argent)",
+      "example_sentence": "Mo ń lọ sí ilé-ìfowópamọ́.",
+      "example_phonetic": "/mo ŋ́ lɔ sí iléìfowók͡pamɔ́/",
+      "example_translation": "Je vais à la banque."
+    },
+    {
+      "word_id": "A1_M3_L7_V7",
+      "term": "Ibi-ìbudo-ọkọ̀",
+      "phonetic_api": "/ibiìbudoɔkɔ̀/",
+      "phonetic_simple": "I-BI-Ì-BOU-DO-AW-KÀW",
+      "translation": "Gare / Station de bus / Parking",
+      "example_sentence": "Ibi-ìbudo-ọkọ̀ wà nítòsí.",
+      "example_phonetic": "/ibiìbudoɔkɔ̀ wà nítòsí/",
+      "example_translation": "La station de bus est à proximité."
+    },
+    {
+      "word_id": "A1_M3_L7_V8",
+      "term": "Súnmọ́",
+      "phonetic_api": "/sʊ́mɔ́/",
+      "phonetic_simple": "SOÚN-MÁW",
+      "translation": "S'approcher de / Être proche de",
+      "example_sentence": "Ilé mi súnmọ́ ṣọ́ọ̀ṣì.",
+      "example_phonetic": "/ilé mĩ sʊ́mɔ́ ʃɔ́ːʃì/",
+      "example_translation": "Ma maison est proche de l'église."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "A1_M3_L7_P1",
+      "original": "Ẹ jọ̀wọ́, níbo ni ọjà nla wà?",
+      "phonetic_api": "/ɛ̀ d͡ʒɔ̀wɔ́ níbo nĩ ɔd͡ʒà ŋlā wà/",
+      "phonetic_simple": "È JÀW-WÓ, NÍ-BO NI AW-JÀ N-LA WÀ?",
+      "translation": "S'il vous plaît, où se trouve le grand marché ?",
+      "context": "Formule polie pour demander une direction à un inconnu."
+    },
+    {
+      "phrase_id": "A1_M3_L7_P2",
+      "original": "Ṣé ọ̀nà yìí lọ sí fásitì?",
+      "phonetic_api": "/ʃé ɔ̀nà jĩː lɔ sí fásitì/",
+      "phonetic_simple": "SHÉ ÀW-NÀ YÍ LAW SÍ FÁ-SI-TÌ?",
+      "translation": "Est-ce que cette route mène à l'université ?",
+      "context": "Vérification d'un itinéraire auprès d'un passant."
+    },
+    {
+      "phrase_id": "A1_M3_L7_P3",
+      "original": "Rìn síwájú, lẹ́yìn náà yà sí ọ̀tún.",
+      "phonetic_api": "/ɾĩ̀ síwájú lɛ́jĩ̀ náː jà sí ɔ̀tʊ́/",
+      "phonetic_simple": "RÌN SÍ-WÁ-JOÚ, LÉ-YÌN NÁÀ YÀ SÍ ÀW-TOÚN.",
+      "translation": "Marche tout droit, puis tourne à droite.",
+      "context": "Directives simples données pour guider quelqu'un."
+    },
+    {
+      "phrase_id": "A1_M3_L7_P4",
+      "original": "Kò jìn rárá, ó wà nítòsí yìí.",
+      "phonetic_api": "/kò d͡ʒĩ̀ ɾáɾá ó wà nítòsí jĩː/",
+      "phonetic_simple": "KÒ JÌN RÁ-RÁ, Ó WÀ NÍ-TÒ-SÍ YÍ.",
+      "translation": "Ce n'est pas loin du tout, c'est juste à côté.",
+      "context": "Rassurer quelqu'un sur la proximité d'un lieu."
+    },
+    {
+      "phrase_id": "A1_M3_L7_P5",
+      "original": "Mo ti sọnà, ẹ jọ̀wọ́ ẹ ràn mí lọ́wọ́.",
+      "phonetic_api": "/mo ti sɔnà ɛ̀ d͡ʒɔ̀wɔ́ ɛ̀ ɾã̀ mĩ lɔ́wɔ́/",
+      "phonetic_simple": "MO TI SÀW-NÀ, È JÀW-WÓ È RÀN MÍ LÁW-WÓ.",
+      "translation": "Je me suis égaré, s'il vous plaît aidez-moi.",
+      "context": "Demande d'assistance immédiate en détresse d'orientation."
+    },
+    {
+      "phrase_id": "A1_M3_L7_P6",
+      "original": "Níbo ni mo le rí ọkọ̀ èrò?",
+      "phonetic_api": "/níbo nĩ mo le ɾí ɔkɔ̀ èɾo/",
+      "phonetic_simple": "NÍ-BO NI MO LE RÍ AW-KÀW È-RO?",
+      "translation": "Où puis-je trouver un taxi / transport public ?",
+      "context": "Chercher un moyen de transport en ville."
+    },
+    {
+      "phrase_id": "A1_M3_L7_P7",
+      "original": "Ilé-ìfowópamọ́ wà lẹ́yìn ile-itura yẹn.",
+      "phonetic_api": "/iléìfowók͡pamɔ́ wà lɛ́jĩ̀ ileītura jɛ̃/",
+      "phonetic_simple": "I-LÉ-Ì-FO-WÓ-KPA-MÁW WÀ LÉ-YÌN I-LE-I-TOU-RA YẸN.",
+      "translation": "La banque se trouve derrière cet hôtel.",
+      "context": "Précision topographique sur la position d'un bâtiment."
+    },
+    {
+      "phrase_id": "A1_M3_L7_P8",
+      "original": "Ẹ ṣé púpọ̀ fún ìrànlọ́wọ́ yín.",
+      "phonetic_api": "/ɛ̀ ʃé k͡púpɔ̀ fʊ́ ìɾã̀lɔ́wɔ́ d͡ʒĩ/",
+      "phonetic_simple": "È SHÉ KPOÚ-PÀW FOÚN Ì-RÀN-LÁW-WÓ YÍN.",
+      "translation": "Merci beaucoup pour votre aide.",
+      "context": "Remerciement après avoir obtenu son chemin."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction de l'interrogation locative avec 'Níbo ni... wà'",
+      "explanation": "Pour demander où se trouve un objet ou un lieu, le yoruba utilise le mot interrogatif 'Níbo' (fusion de ní-ibo : à quel endroit). La structure de base place le lieu recherché soit immédiatement après 'níbo ni', soit en tête par focalisation, obligatoirement suivi du verbe d'existence locative 'wà'.",
+      "rules": [
+        "Structure standard : Níbo ni + [Sujet/Lieu] + wà ?",
+        "Le verbe 'wà' porte toujours un ton bas et indique la présence physique ou géographique stable."
+      ],
+      "examples": [
+        {
+          "structure": "Níbo ni + ọjà + wà?",
+          "phonetic_api": "/níbo nĩ ɔd͡ʒà wà/",
+          "meaning": "Où est le marché ?"
+        },
+        {
+          "structure": "Níbo ni + ilé rẹ + wà?",
+          "phonetic_api": "/níbo nĩ ilé ɾɛ wà/",
+          "meaning": "Où est ta maison ?"
+        }
+      ]
+    },
+    {
+      "concept": "Les verbes de direction directionnels : Lọ, Yà, Sún",
+      "explanation": "Les indications de mouvement font appel à des verbes monosyllabiques précis. Le verbe 'lọ' exprime le fait d'aller vers, 'yà' exprime l'action de bifurquer ou tourner, et 'sún' indique le déplacement ou le rapprochement. Ils s'associent généralement à la préposition directionnelle 'sí' (vers / à).",
+      "rules": [
+        "Pour tourner : yà + sí + ọ̀tún (droite) / òsì (gauche).",
+        "Pour continuer : lọ / rìn + síwájú (en avant)."
+      ],
+      "examples": [
+        {
+          "structure": "Yà sí òsì",
+          "phonetic_api": "/jà sí òsì/",
+          "meaning": "Tourne à gauche."
+        },
+        {
+          "structure": "Lọ síwájú",
+          "phonetic_api": "/lɔ síwájú/",
+          "meaning": "Va de l'avant / Va tout droit."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Àjòjì (L'étranger)",
+      "text": "Ẹ jọ̀wọ́ màá, mo ti sọnà. Níbo ni ilé-ìwòsàn kíkà wà?",
+      "phonetic_api": "/ɛ̀ d͡ʒɔ̀wɔ́ màá mo ti sɔnà níbo nĩ iléìwòsã̀ kíkà wà/",
+      "phonetic_simple": "È JÀW-WÓ MÀÁ, MO TI SÀW-NÀ. NÍ-BO NI I-LÉ-Ì-WÒ-SÀN KÍ-KÀ WÀ?",
+      "translation": "S'il vous plaît madame, je me suis perdu. Où se trouve l'hôpital général ?"
+    },
+    {
+      "speaker": "Ìyá Ọlọ́jà (La marchande)",
+      "text": "Ah, ilé-ìwòsàn kò jìn rárá. Rìn síwájú díẹ̀ sí ojú ọ̀nà yẹn.",
+      "phonetic_api": "/ah iléìwòsã̀ kò d͡ʒĩ̀ ɾáɾá ɾĩ̀ síwájú díɛ̀ sí od͡ʒú ɔ̀nà jɛ̃/",
+      "phonetic_simple": "AH, I-LÉ-Ì-WÒ-SÀN KÒ JÌN RÁ-RÁ. RÌN SÍ-WÁ-JOÚ DÍ-È SÍ O-JÚ ÀW-NÀ YẸN.",
+      "translation": "Ah, l'hôpital n'est pas loin du tout. Marche un peu tout droit vers cette intersection."
+    },
+    {
+      "speaker": "Àjòjì (L'étranger)",
+      "text": "Ṣé mo máa yà sí ọ̀tún tabi òsì níbẹ̀?",
+      "phonetic_api": "/ʃé mo máː jà sí ɔ̀tʊ́ tabi òsì níbɛ̀/",
+      "phonetic_simple": "SHÉ MO MÁÀ YÀ SÍ ÀW-TOÚN TA-BI Ò-SÌ NÍ-BÈ?",
+      "translation": "Est-ce que je devrai tourner à droite ou à gauche là-bas ?"
+    },
+    {
+      "speaker": "Ìyá Ọlọ́jà (La marchande)",
+      "text": "Yà sí òsì rẹ. Ilé-ìwòsàn wà lẹ́yìn ilé-ìfowópamọ́ dudu yẹn.",
+      "phonetic_api": "/jà sí òsì ɾɛ iléìwòsã̀ wà lɛ́jĩ̀ iléìfowók͡pamɔ́ dudu jɛ̃/",
+      "phonetic_simple": "YÀ SÍ Ò-SÌ RÈ. I-LÉ-Ì-WÒ-SÀN WÀ LÉ-YÌN I-LÉ-Ì-FO-WÓ-KPA-MÁW DOU-DOU YẸN.",
+      "translation": "Tourne à ta gauche. L'hôpital est situé juste derrière cette banque noire."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les villes et villages du pays Yoruba, l'orientation repose rarement sur les noms de rues officiels ou les numéros de bâtiments. Les gens utilisent massivement des points de repère visuels et communautaires : les grands marchés (Ọjà), les arbres sacrés, les stations d'essence ou les édifices religieux (Ṣọ́ọ̀ṣì/Mọ́ṣálásí).",
+    "Demander son chemin fait partie des interactions sociales quotidiennes. Il est d'usage de saluer chaleureusement la personne avant d'exposer sa requête, sous peine de voir sa demande ignorée.",
+    "Il arrive fréquemment qu'un passant propose spontanément de marcher avec vous sur quelques mètres pour s'assurer que vous preniez le bon embranchement, un témoignage de l'hospitalité (Ṣe àlejò) traditionnelle."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L7_EX1",
+      "type": "multiple_choice",
+      "question": "Quelle expression utilisez-vous pour donner la directive de 'tourner à droite' ?",
+      "options": [
+        "Lọ síwájú",
+        "Yà sí òsì",
+        "Yà sí ọ̀tún",
+        "Súnmọ́ ilé"
+      ],
+      "correct_answer": "Yà sí ọ̀tún",
+      "explanation": "'Yà' signifie bifurquer/tourner, 'sí' est la préposition vers, et 'ọ̀tún' désigne le côté droit."
+    },
+    {
+      "exercise_id": "A1_M3_L7_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander la position de la gare, on dit : [ ___ ] ni ibi-ìbudo-ọkọ̀ wà ?",
+      "correct_answer": "Níbo",
+      "hint": "C'est l'adverbe interrogatif signifiant 'où' placé en début de structure focalisée."
+    }
+  ]
+}

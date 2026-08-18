@@ -1,0 +1,216 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "L'utilisation des temps complexes et des modes avancés",
+  "learning_objectives": [
+    "Maîtriser le plus-que-parfait et l'expression de l'antériorité dans le passé",
+    "Utiliser le mode conditionnel irréel du passé pour exprimer des regrets ou des fictions",
+    "Manipuler les particules d'insistance et de focalisation pour nuancer le discours narratif"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le niveau avancé introduit des combinaisons d'auxiliaires temporels. La structure du passé composé complexe utilise 'Tun' /tun/ avec une voyelle longue fermée et arrondie. La particule de focalisation 'Le' /le/ s'articule avec une tension moyenne sur la langue. La marque de rupture 'Nterin' /n.te.rin/ exige un couplage précis entre la consonne nasale initiale et l'occlusive.",
+    "common_pitfalls": "Ne confondez pas l'auxiliaire du passé antérieur 'Tun' /tun/ avec le pronom de troisième personne ou la marque 'don'. Le son doit rester parfaitement nasal et postérieur sans s'étirer en voyelle orale française."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v19_1",
+      "term": "Tun",
+      "phonetic_api": "/tun/",
+      "phonetic_simple": "TOUNE",
+      "translation": "Auxiliaire de l'antériorité (était / avait fait / marque du passé lointain)",
+      "example_sentence": "N tun ye a fɔ i yɛ fɔlɔ.",
+      "example_phonetic": "/ɲ tun je a fɔ i jɛ fɔ.lɔ/",
+      "example_translation": "Je te l'avais déjà dit auparavant."
+    },
+    {
+      "word_id": "v19_2",
+      "term": "Tun be",
+      "phonetic_api": "/tun be/",
+      "phonetic_simple": "TOUNE BÉ",
+      "translation": "Imparfait de description (était en train de / se trouvait)",
+      "example_sentence": "A tun be baara la kunu su la.",
+      "example_phonetic": "/a tun be baː.ra la ku.nu su la/",
+      "example_translation": "Il était en train de travailler hier soir."
+    },
+    {
+      "word_id": "v19_3",
+      "term": "Nterin / Nterin fɛ",
+      "phonetic_api": "/n.te.rin fɛ/",
+      "phonetic_simple": "N-TÉ-RINE FƐ",
+      "translation": "Alors que / Au moment exact où / Tandis que",
+      "example_sentence": "Nterin n be wa la, san nana.",
+      "example_phonetic": "/n.te.rin ɲ be wa la san na.na/",
+      "example_translation": "Au moment exact où je partais, la pluie est tombée."
+    },
+    {
+      "word_id": "v19_4",
+      "term": "Jaati",
+      "phonetic_api": "/d͡ʒaː.ti/",
+      "phonetic_simple": "DJAATI",
+      "translation": "Précisément / Véritablement / En personne",
+      "example_sentence": "N jaati le ye a kɛ.",
+      "example_phonetic": "/ɲ d͡ʒaː.ti le je a kɛ/",
+      "example_translation": "C'est moi-même en personne qui l'ai fait."
+    },
+    {
+      "word_id": "v19_5",
+      "term": "Gbansan",
+      "phonetic_api": "/ɡ͡ba.san/",
+      "phonetic_simple": "GBANE-SANE",
+      "translation": "En vain / Uniquement / Sans contrepartie",
+      "example_sentence": "N ma wa gbansan.",
+      "example_phonetic": "/m ma wa ɡ͡ba.san/",
+      "example_translation": "Je ne suis pas venu en vain."
+    },
+    {
+      "word_id": "v19_6",
+      "term": "Sɔrɔn / Sɔrɔ",
+      "phonetic_api": "/sɔ.rɔn/",
+      "phonetic_simple": "SƆ-RƆNE",
+      "translation": "Pourtant / Cependant / Alors que la réalité est",
+      "example_sentence": "I be kasila, sɔrɔn i tilara.",
+      "example_phonetic": "/i be ka.si.la sɔ.rɔn i ti.la.ra/",
+      "example_translation": "Tu pleures, alors que pourtant tu as terminé."
+    },
+    {
+      "word_id": "v19_7",
+      "term": "K'a sɔrɔ",
+      "phonetic_api": "/k'a sɔ.rɔ/",
+      "phonetic_simple": "K'A SƆ-RƆ",
+      "translation": "Trouvant que / Vu que / Alors même que",
+      "example_sentence": "A wara k'a sɔrɔ n ma a lɔn.",
+      "example_phonetic": "/a wa.ra k'a sɔ.rɔ m ma a lɔn/",
+      "example_translation": "Il est parti alors même que je ne le savais pas."
+    },
+    {
+      "word_id": "v19_8",
+      "term": "Hali bi",
+      "phonetic_api": "/ha.li bi/",
+      "phonetic_simple": "HA-LI BI",
+      "translation": "Jusqu'à présent / Encore aujourd'hui",
+      "example_sentence": "A ma na hali bi.",
+      "example_phonetic": "/a ma na ha.li bi/",
+      "example_translation": "Il n'est pas venu jusqu'à présent."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p19_1",
+      "original": "Ni n tun ye wari sɔrɔ kunu, n tun be finin san na jaati.",
+      "phonetic_api": "/ni ɲ tun je wa.ri sɔ.rɔ ku.nu ɲ tun be fi.nin san na d͡ʒaː.ti/",
+      "phonetic_simple": "NI N TOUNE YÉ WA-RI SƆ-RƆ KOU-NOU, N TOUNE BÉ FI-NINE SANE NA DJAA-TI.",
+      "translation": "Si j'avais trouvé de l'argent hier, j'aurais très certainement acheté le vêtement.",
+      "context": "Expression d'un irréel du passé (regret ou condition non réalisée historiquement)."
+    },
+    {
+      "phrase_id": "p19_2",
+      "original": "N tun ye baara tila fɔlɔ sani karamɔgɔ ka na so kɔnɔ.",
+      "phonetic_api": "/ɲ tun je baː.ra ti.la fɔ.lɔ sa.ni ka.ra.mɔ.ɣɔ ka na so kɔ.nɔ/",
+      "phonetic_simple": "N TOUNE YÉ BAA-RA TI-LA FƆ-LƆ SA-NI KA-RA-MƆ-GƆ KA NA SO KƆ-NƆ.",
+      "translation": "J'avais déjà fini le travail avant que le maître n'entre dans la pièce.",
+      "context": "Plus-que-parfait servant à structurer l'antériorité de deux actions passées."
+    },
+    {
+      "phrase_id": "p19_3",
+      "original": "A tun be dɔnkili la k'a sɔrɔ nterin an bɔra silo daala.",
+      "phonetic_api": "/a tun be dɔn.ki.li la k'a sɔ.rɔ n.te.rin an bɔ.ra si.lo daː.la/",
+      "phonetic_simple": "A TOUNE BÉ DƆN-KI-LI LA K'A SƆ-RƆ N-TÉ-RINE ANE BƆ-RA SI-LO DAA-LA.",
+      "translation": "Elle était en train de chanter alors même qu'au même instant nous débouchions au bord de la route.",
+      "context": "Récit littéraire complexe mariant l'imparfait descriptif et la simultanéité soudaine."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La formation du Plus-que-parfait et de l'Imparfait avec le morphème 'Tun'",
+      "explanation": "Pour projeter une action dans un passé révolu ou décrire une action qui était en cours avant une autre, le Sankaran utilise l'auxiliaire de recul temporel 'tun'. Pour l'imparfait, il s'associe à 'be' ('tun be ... la'). Pour le plus-que-parfait transitif, il précède l'accompli 'ye' ('tun ye ...').",
+      "rules": [
+        "Imparfait descriptif : Sujet + tun be + Activité + la / na",
+        "Plus-que-parfait transitif : Sujet + tun ye + Complément + Verbe"
+      ],
+      "examples": [
+        {
+          "structure": "N tun be malo feere la.",
+          "phonetic_api": "/ɲ tun be ma.lo feː.re la/",
+          "meaning": "J'étais en train de vendre du riz."
+        },
+        {
+          "structure": "A tun ye so lɔ.",
+          "phonetic_api": "/a tun je so lɔ/",
+          "meaning": "Il avait construit une maison."
+        }
+      ]
+    },
+    {
+      "concept": "La structure de l'irréel du passé (Conditionnel passé complexe)",
+      "explanation": "Pour exprimer une hypothèse qui ne s'est pas réalisée dans le passé (Si j'avais su, j'aurais fait), le morphème 'tun' s'insère obligatoirement à la fois dans la proposition subordonnée introduite par 'ni' et dans la proposition principale de conclusion.",
+      "rules": [
+        "Structure : Ni + Sujet + tun + [Bloc verbal passé], Sujet + tun + [Bloc verbal conséquence]"
+      ],
+      "examples": [
+        {
+          "structure": "Ni i tun wa-ra, n tun be i sara na.",
+          "phonetic_api": "/ni i tun wa.ra ɲ tun be i sa.ra na/",
+          "meaning": "Si tu étais parti, je t'aurais payé."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sekou",
+      "text": "Lamine, mun mu i ma na kunu tulon yɔrɔ la? An tun be i kɔnɔna la kosɛbɛ.",
+      "phonetic_api": "/la.min mun mu i ma na ku.nu tu.lon jɔ.rɔ la | an tun be i kɔ.nɔ.na la ko.sɛ.bɛ/",
+      "phonetic_simple": "LA-MINE, MOUN MOU I MA NA KOU-NOU TOU-LONE YƆ-RƆ LA ? ANE TOUNE BÉ I KƆ-NƆ-NA LA KO-SƐ-BƐ.",
+      "translation": "Lamine, pourquoi n'es-tu pas venu hier au terrain de jeu ? Nous étions en train de t'attendre avec impatience."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "Nba, Sekou. Ni n tun ye n baara tila sɔɔma la, n tun be na na jaati. Nka baara nin gbɛlɛyara kosɛbɛ.",
+      "phonetic_api": "/ɲ.ba se.ku | ni ɲ tun je ɲ baː.ra ti.la sɔː.ma la ɲ tun be na na d͡ʒaː.ti ŋ.ka baː.ra nin ɡ͡bɛ.lɛ.ja.ra ko.sɛ.bɛ/",
+      "phonetic_simple": "NBA, SÉ-KOU. NI N TOUNE YÉ N BAA-RA TI-LA SƆƆ-MA LA, N TOUNE BÉ NA NA DJAA-TI. NG-KA BAA-RA NINE GBƐ-LƐ-YA-RA KO-SƐ-BƐ.",
+      "translation": "Eh bien, Sekou. Si avait fini mon travail le matin, je serais venu très certainement. Mais cette tâche s'est révélée extrêmement difficile."
+    },
+    {
+      "speaker": "Sekou",
+      "text": "K'a sɔrɔ i tun be so kɔnɔ nterin Lamine kura nana i nyinika la?",
+      "phonetic_api": "/k'a sɔ.rɔ i tun be so kɔ.nɔ n.te.rin la.min ku.ra na.na i ɲi.ni.ka la/",
+      "phonetic_simple": "K'A SƆ-RƆ I TOUNE BÉ SO KƆ-NƆ N-TÉ-RINE LA-MINE KOU-RA NA-NA I NYI-NI-KA LA ?",
+      "translation": "Pourtant tu étais bien à la maison au moment exact où le nouveau Lamine est venu s'enquérir de toi ?"
+    },
+    {
+      "speaker": "Lamine",
+      "text": "Awo, n tun be baara la k'a sɔrɔ a ye n jɛn. N tun te sɛbɛ ka n baara to gbansan.",
+      "phonetic_api": "/a.wo ɲ tun be baː.ra la k'a sɔ.rɔ a je ɲ d͡ʒɛn | ɲ tun te sɛ.bɛ ka ɲ baː.ra to ɡ͡ba.san/",
+      "phonetic_simple": "A-WO, N TOUNE BÉ BAA-RA LA K'A SƆ-RƆ A YÉ N DJƐNE. N TOUNE TÉ SƐ-BƐ KA N BAA-RA TO GBANE-SANE.",
+      "translation": "Oui, j'étais en plein travail alors même qu'il m'a croisé. Je ne pouvais pas abandonner mon ouvrage en vain."
+    }
+  ],
+  "cultural_notes": [
+    "Au niveau de la rhétorique avancée dans le Sankaran, l'utilisation raffinée de 'sɔrɔn' ou 'k'a sɔrɔ' (alors que / pourtant) permet de confronter des arguments lors de palabres sans accuser directement l'interlocuteur de mensonge, préservant ainsi la diplomatie verbale.",
+    "L'expression de l'irréel du passé ('ni n tun ye...') sert régulièrement à atténuer la responsabilité sociale face à un rendez-vous manqué. Invoquer un travail plus lourd que prévu ('baara gbɛlɛyara') légitime l'absence aux yeux de la communauté."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex19_1",
+      "type": "multiple_choice",
+      "question": "Quelle phrase traduit exactement le regret : 'Si j'avais su, je serais venu.' ?",
+      "options": [
+        "Ni n ye a lɔn, n be na na.",
+        "Ni n tun ye a lɔn, n tun be na na.",
+        "N tun ye a lɔn sani n ka na."
+      ],
+      "correct_answer": "Ni n tun ye a lɔn, n tun be na na.",
+      "explanation": "La structure exige le double emploi de l'auxiliaire d'antériorité 'tun' dans la condition et la conséquence pour ancrer l'irréel dans le passé."
+    },
+    {
+      "exercise_id": "ex19_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour marquer la simultanéité soudaine de deux faits passés, on débute par : [ ___ ] n be wa la, a nana. (Au moment exact où...)",
+      "correct_answer": "Nterin",
+      "hint": "Conjonction temporelle avancée commençant par un N majuscule et contenant le radical de la rupture."
+    }
+  ]
+}

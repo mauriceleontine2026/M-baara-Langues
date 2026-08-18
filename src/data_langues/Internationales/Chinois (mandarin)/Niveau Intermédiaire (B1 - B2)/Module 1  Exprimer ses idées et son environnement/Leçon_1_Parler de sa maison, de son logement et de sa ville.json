@@ -1,0 +1,244 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville en chinois mandarin",
+  "learning_objectives": [
+    "Décrire de manière détaillée l'agencement d'un logement (pièces, mobilier) et son environnement urbain",
+    "Maîtriser les structures d'existence complexes avec 在 (zài), 有 (yǒu) et 是 (shì)",
+    "Exprimer la proximité, l'éloignement et les relations spatiales relatives à l'aide de prépositions avancées",
+    "Utiliser les compléments de direction simples (来/去) associés à des déplacements dans la maison"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon de niveau intermédiaire introduit des notions de topographie et de description. Le mot 环境 (huánjìng - environnement) exige une transition fluide entre le 2ème ton montant (huán) et le 4ème ton descendant sec (jìng). La finale complexe 'üan' de 环 se prononce avec les lèvres arrondies /ɥɛn/. Le mot 城市 (chéngshì - ville) fait s'enchaîner une consonne affriquée alvéolo-palatale /tʂʰ/ au 2ème ton et une fricative rétroflexe /ʂ/ au 4ème ton, nécessitant un contrôle précis du placement de la langue vers l'arrière.",
+    "common_pitfalls": "Faites attention à la prononciation de 舒服 (shūfu - confortable) : la deuxième syllabe passe au ton neutre et doit être très légère. Ne confondez pas 阳台 (yángtái - balcon, deux 2èmes tons) avec 楼梯 (lóutī - escalier, 2ème puis 1er ton). Un mauvais positionnement des tons sur ces termes descriptifs brisera la fluidité de votre présentation."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "公寓",
+      "phonetic_api": "/kʊŋ˥ jy˥˩/",
+      "phonetic_simple": "GONG-YU",
+      "translation": "Appartement / Résidence",
+      "example_sentence": "我住在一个新建 strength 的公寓里。",
+      "example_phonetic": "/wo˨˩˦ tʂu˥˩ dzaɪ̯˥˩ i˥ kɤ ɕin˥ tɕi̯an˥˩ dɤ kʊŋ˥ jy˥˩ li/",
+      "example_translation": "Je vis dans un appartement nouvellement construit."
+    },
+    {
+      "word_id": "v2",
+      "term": "客厅",
+      "phonetic_api": "/kʰɤ˥˩ tʰiŋ˥/",
+      "phonetic_simple": "KHÉ-THING",
+      "translation": "Salon / Salle de séjour",
+      "example_sentence": "客厅里有一张大 sofa 和电视。",
+      "example_phonetic": "/kʰɤ˥˩ tʰiŋ˥ li joʊ̯˨˩˦ i˥ tʂaŋ˥ da˥˩ ʂa˥ fa˥ xɤ˧˥ di̯an˥˩ ʂʐ̩˥˩/",
+      "example_translation": "Il y a un grand canapé et une télévision dans le salon."
+    },
+    {
+      "word_id": "v3",
+      "term": "卧室",
+      "phonetic_api": "/wɔ˥˩ ʂʐ̩˥˩/",
+      "phonetic_simple": "OUO-CHEI",
+      "translation": "Chambre à coucher",
+      "example_sentence": "我的卧室窗户朝南，采光很好。",
+      "example_phonetic": "/wo˨˩˦ dɤ wɔ˥˩ ʂʐ̩˥˩ tʂʰwaŋ˥ xu tʂʰaʊ̯˧˥ nan˧˥ tsʰaʊ̯˨˩˦ kwaŋ˥ xən˨˩˦ xaʊ̯˨˩˦/",
+      "example_translation": "La fenêtre de ma chambre est orientée au sud, la luminosité est excellente."
+    },
+    {
+      "word_id": "v4",
+      "term": "环境",
+      "phonetic_api": "/xwan˧˥ tɕiŋ˥˩/",
+      "phonetic_simple": "HOUAN-TCHIN",
+      "translation": "Environnement / Cadre / Alentours",
+      "example_sentence": "我们小区的环境非常安静。",
+      "example_phonetic": "/wo˨˩˦ mən ɕi̯aʊ̯˨˩˦ tɕy˥ dɤ xwan˧˥ tɕiŋ˥˩ feɪ̯˥ tʂʰaŋ˧˥ an˥ tɕiŋ˥˩/",
+      "example_translation": "L'environnement de notre quartier résidentiel est extrêmement calme."
+    },
+    {
+      "word_id": "v5",
+      "term": "交通",
+      "phonetic_api": "/tɕi̯aʊ̯˥ tʰʊŋ˥/",
+      "phonetic_simple": "TCHIAO-THONG",
+      "translation": "Transports / Circulation / Réseau routier",
+      "example_sentence": "这儿的交通很 convenient，出门就是地铁站。",
+      "example_phonetic": "/tʂʐ̩ Wait ʔi˨˩˦ dɤ tɕi̯aʊ̯˥ tʰʊŋ˥ xən faŋ˥˩ bi̯ɛn˥˩ tɕʰu˥ mən˧˥ tɕi̯oʊ̯˥˩ ʂʐʐ˥˩ di˥˩ tʰi̯ɛ˧˥ tʂan˥˩/",
+      "example_translation": "Les transports ici sont très pratiques, la station de métro est juste au pas de la porte."
+    },
+    {
+      "word_id": "v6",
+      "term": "热闹",
+      "phonetic_api": "/rɤ˥˩ naʊ̯/",
+      "phonetic_simple": "RÉ-NAO",
+      "translation": "Animé / Vivant / Plein de vie (ambiance positive)",
+      "example_sentence": "市中心夜里非常热闹。",
+      "example_phonetic": "/ʂʐ̩˥˩ tʂʊŋ˥ ɕin˥ jɤ˥˩ li feɪ̯˥ tʂʰaŋ˧˥ rɤ˥˩ naʊ̯/",
+      "example_translation": "Le centre-ville est très animé la nuit."
+    },
+    {
+      "word_id": "v7",
+      "term": "家具",
+      "phonetic_api": "/tɕi̯a˥ tɕɥ̯˥˩/",
+      "phonetic_simple": "TCHIA-TCHOU",
+      "translation": "Meuble / Mobilier",
+      "example_sentence": "新家需要买一些家具。",
+      "example_phonetic": "/xin˥ tɕi̯a˥ ɕy̯˥ jaʊ̯˥˩ maɪ̯˨˩˦ i˥ ɕi̯ɛ tɕi̯a˥ tɕɥ̯˥˩/",
+      "example_translation": "La nouvelle maison nécessite d'acheter quelques meubles."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "你住在哪个城市？",
+      "phonetic_api": "/ni˨˩˦ tʂu˥˩ dzaɪ̯˥˩ na˨˩˦ kɤ tʂʰəŋ˧˥ ʂʐ̩˥˩/",
+      "phonetic_simple": "NEE TCHOU DZAÏ NA GEU TCHENG-CHEI ?",
+      "translation": "Dans quelle ville habites-tu ?",
+      "context": "S'informer sur le lieu de résidence général de son interlocuteur"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "我的公寓是两室一厅的。",
+      "phonetic_api": "/wo˨˩˦ dɤ kʊŋ˥ jy˥˩ ʂʐʐ˥˩ li̯aŋ˨˩˦ ʂʐ̩˥˩ i˥ tʰiŋ˥ dɤ/",
+      "phonetic_simple": "OUO DEU GONG-YU CHEI LIANG CHEI EE THING DEU",
+      "translation": "Mon appartement est un deux-pièces (deux chambres, un salon).",
+      "context": "Décrire la structure de son logement de manière technique et courante"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "从我家到市中心坐地铁需要半个小时。",
+      "phonetic_api": "/tsʰʊŋ˧˥ wo˨˩˦ tɕi̯a˥ daʊ̯˥˩ ʂʐ̩˥˩ tʂʊŋ˥ ɕin˥ dzwɔ˥˩ di˥˩ tʰi̯ɛ˧˥ ɕy̯˥ jaʊ̯˥˩ ban˥˩ kɤ ɕi̯aʊ̯˧˥ ʂʐ̩˧˥/",
+      "phonetic_simple": "TSHONG OUO TCHIA DAO CHEI TCHONG-CHIN DZOUO DEE-THIÉ CHOU-YAO BAN GEU CHIAO-CHEI",
+      "translation": "De chez moi au centre-ville, il faut compter une demi-heure en métro.",
+      "context": "Expliquer l'accessibilité géographique de son domicile"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "这房子的租金是多少？",
+      "phonetic_api": "/tʂɤ˥˩ faŋ˥ tsʐ̩ dɤ dzw˥ tɕin˥ ʂʐʐ˥˩ dwɔ˥ ʂaʊ̯/",
+      "phonetic_simple": "TCHEU FANG-DZEU DEU DZOU-TCHIN CHEI DOUO-CHAO ?",
+      "translation": "Quel est le montant du loyer de ce logement ?",
+      "context": "Question indispensable lors de la recherche immobilière"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "书架上摆着很多书。",
+      "phonetic_api": "/ʂu˥ dɕi̯a˥˩ ʂaŋ baɪ̯˨˩˦ tʂɤ xən˨˩˦ dwɔ˥ ʂu˥/",
+      "phonetic_simple": "CHOU-TCHIA CHANG BAÏ TCHEU HEUN DOUO CHOU",
+      "translation": "De nombreux livres sont disposés sur l'étagère.",
+      "context": "Décrire précisément la disposition d'un intérieur (structure existentielle avec aspect statique)"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La distinction existentielle avancée entre 有 (yǒu), 是 (shì) et 在 (zài)",
+      "explanation": "Pour décrire un espace ou localiser des éléments, le chinois utilise trois structures distinctes selon que l'accent est mis sur l'existence globale, l'identification unique ou l'emplacement.",
+      "rules": [
+        "Structure avec 有 : [Lieu] + 有 + [Objet vague/indéterminé]. Signifie 'Il y a X à l'endroit Y'. Exemple : 桌子上有一本书 (Il y a un livre sur la table).",
+        "Structure avec 是 : [Lieu] + 是 + [Objet unique ou occupant tout l'espace]. Signifie 'L'endroit Y n'est rien d'autre que X'. Exemple : 前边是图书馆 (Devant, c'est la bibliothèque).",
+        "Structure avec 在 : [Objet précis/connu] + 在 + [Lieu]. Signifie 'L'objet X se trouve à l'endroit Y'. Exemple : 我的手机在桌子上 (Mon téléphone est sur la table)."
+      ],
+      "examples": [
+        {
+          "structure": "我家附近 (Près de chez moi) + 有 + 一个大公园 (Un grand parc)",
+          "phonetic_api": "/wo˨˩˦ tɕi̯a˥ fu˥˩ dɕin˥˩ joʊ̯˨˩˦ i˥ kɤ da˥˩ kʊŋ˥ jɥ̯ɛn˧˥/",
+          "meaning": "我家附近有一个大公园。 (Il y a un grand parc près de chez moi.)"
+        }
+      ]
+    },
+    {
+      "concept": "La construction de l'éloignement et du trajet avec 从... 到... (cóng... dào...)",
+      "explanation": "Cette structure essentielle permet de baliser un itinéraire spatial ou temporel, en fixant le point de départ et le point d'arrivée.",
+      "rules": [
+        "Structure : 从 (depuis / de) + [Lieu A] + 到 (jusqu'à / à) + [Lieu B] + [Action / Distance / Temps].",
+        "Elle s'associe souvent à des moyens de transport placés avant le verbe principal."
+      ],
+      "examples": [
+        {
+          "structure": "从 (De) + 医院 (Hôpital) + 到 (à) + 银行 (Banque) + 很远 (Très loin)",
+          "phonetic_api": "/tsʰʊŋ˧˥ i˥ jɥ̯ɛn˧˥ daʊ̯˥˩ iŋ˧˥ xaŋ˧˥ xən˨˩˦ jɥ̯ɛn˨˩˦/",
+          "meaning": "从医院到银行很远。 (De l'hôpital à la banque, c'est très loin.)"
+        }
+      ]
+    },
+    {
+      "concept": "Introduction aux compléments de direction simples : 来 (lái) / 去 (qù)",
+      "explanation": "En mandarin, l'orientation du mouvement par rapport au locuteur est systématiquement encodée dans le verbe à l'aide de 来 et 去.",
+      "rules": [
+        "来 (lái) indique que le mouvement se fait en direction du locuteur (vers ici).",
+        "去 (qù) indique que le mouvement s'éloigne du locuteur (vers là-bas).",
+        "Si l'action inclut un lieu, celui-ci doit se placer impérativement entre le verbe d'action et l'indicateur de direction. Structure : Verbe de mouvement + Lieu + 来/去."
+      ],
+      "examples": [
+        {
+          "structure": "他 (Il) + 进 (Entrer) + 卧室 (Chambre) + 去 (S'éloigner) + 了",
+          "phonetic_api": "/tʰa˥ tɕin˥˩ wɔ˥˩ ʂʐ̩˥˩ tɕy˥˩ lɤ/",
+          "meaning": "他进卧室去了。 (Il est entré dans la chambre [le locuteur est à l'extérieur])."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "张明 (Zhang Ming)",
+      "text": "大卫，你搬新家 spider 了？新公寓怎么样？",
+      "phonetic_api": "/da˥˩ weɪ̯˥˩ ni CBE bany˥ ɕin˥ tɕi̯a˥ lɤ ɕin˥ kʊŋ˥ jy˥˩ tsən˨˩˦ mɤ jaŋ˥˩/",
+      "phonetic_simple": "DA-OUEI, NEE BAN CHIN TCHIA LEU ? CHIN GONG-YU DZEN-MEU YANG ?",
+      "translation": "David, tu as déménagé ? Comment est ton nouvel appartement ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "对，我上个星期搬到了市中心附近。那里的环境不错，虽然挺热闹，但是公寓里很安静。",
+      "phonetic_api": "/twei̯˥˩ wo˨˩˦ ʂaŋ˥˩ kɤ ɕiŋ˥ tɕʰi˥ ban˥ daʊ̯˥˩ ʂʐ̩˥˩ tʂʊŋ˥ ɕin˥ fu˥˩ dɕin˥˩ na˥˩ li dɤ xwan˧˥ tɕiŋ˥˩ bu˧˥ tsʰwɔ˥˩ sweɪ̯˧˥ ran˧˥ tʰiŋ˨˩˦ rɤ˥˩ naʊ̯ dan˥˩ ʂʐʐ˥˩ kʊŋ˥ jy˥˩ li xən˨˩˦ an˥ tɕiŋ˥˩/",
+      "phonetic_simple": "DOUEI, OUO CHANG GEU CHING-TCHEE BAN DAO CHEI TCHONG-CHIN FOU-TCHIN. NA-LEE DEU HOUAN-TCHIN BOU-TSOUO, SOUAY-RAN THING RÉ-NAO, DAN-CHEI GONG-YU LEE HEUN AN-TCHING.",
+      "translation": "Oui, j'ai déménagé près du centre-ville la semaine dernière. L'environnement y est pas mal ; bien que ce soit assez animé, l'intérieur de l'appartement est très calme."
+    },
+    {
+      "speaker": "张明 (Zhang Ming)",
+      "text": "那是几室几厅的？有阳台吗？",
+      "phonetic_api": "/na˥˩ ʂʐʐ˥˩ tɕi˨˩˦ ʂʐ̩˥˩ tɕi˨˩˦ tʰiŋ˥ dɤ joʊ̯˨˩˦ jaŋ˧˥ tʰaɪ̯˧˥ ma/",
+      "phonetic_simple": "NA CHEI TCHEE CHEI TCHEE THING DEU ? YOW YANG-THAÏ MA ?",
+      "translation": "C'est un combien de pièces ? Il y a un balcon ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "是两室一厅的，客厅挺大的，外面还有一个小阳台。从阳台往外看，能看到一个小公园。",
+      "phonetic_api": "/ʂʐʐ˥˩ li̯aŋ˨˩˦ ʂʐ̩˥˩ i˥ tʰiŋ˥ dɤ kʰɤ˥˩ tʰiŋ˥ tʰiŋ˨˩˦ da˥˩ dɤ waɪ̯˥˩ mi̯an  xaɪ̯˧˥ joʊ̯˨˩˦ i˥ kɤ ɕi̯aʊ̯˨˩˦ jaŋ˧˥ tʰaɪ̯˧˥ tsʰʊŋ˧˥ jaŋ˧˥ tʰaɪ̯˧˥ waŋ˨˩˦ waɪ̯˥˩ kʰan˥˩ nəŋ˧˥ kʰan˥˩ daʊ̯˥˩ i˥ kɤ ɕi̯aʊ̯˨˩˦ kʊŋ˥ jɥ̯ɛn˧˥/",
+      "phonetic_simple": "CHEI LIANG CHEI EE THING DEU, KHÉ-THING THING DA DEU, OUAÏ-MIEN HAÏ YOW EE GEU CHIAO YANG-THAÏ. TSHONG YANG-THAÏ OUANG OUAÏ KHAN, NENG KHAN DAO EE GEU CHIAO GONG-YUEN.",
+      "translation": "C'est un deux chambres et un salon, le séjour est assez grand, et il y a aussi un petit balcon à l'extérieur. En regardant dehors depuis le balcon, on peut voir un petit parc."
+    },
+    {
+      "speaker": "张明 (Zhang Ming)",
+      "text": "听起来真不错！有空的时候我一定去你家坐坐。",
+      "phonetic_api": "/tʰiŋ˥ tɕʰi˥ laɪ̯ zən˥ bu˧˥ tsʰwɔ˥˩ joʊ̯˨˩˦ kʰʊŋ dɤ ʂʐ̩˧˥ xoʊ̯ wo˨˩˦ i˥ tiŋ˥˩ tɕy˥˩ ni˨˩˦ tɕi̯a˥ tswɔ˥˩ tswɔ/",
+      "phonetic_simple": "THING TCHEE-LAÏ TCHEN BOU-TSOUO ! YOW KHONG DEU CHEI-HOU OUO EE-TING TCHY NEE TCHIA DZOUO-DZOUO.",
+      "translation": "Ça a l'air vraiment bien ! Quand j'aurai du temps libre, j'irai sans faute passer un moment chez toi."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'immobilier urbain en Chine (Pékin, Shanghai, Shenzhen), la taille des appartements n'est pas exprimée en mètres carrés ou en 'T2/T3' à l'oral, mais par la structure 'X 室 Y 厅' (shì... tīng), indiquant précisément le nombre de chambres (室) et de salons/salles à manger (厅). Un appartement '两室一厅' est le logement standard de la classe moyenne.",
+    "Le concept de 'Xiaoqu' (小区 - quartier résidentiel clos) est l'unité de vie urbaine par excellence en Chine. Ces ensembles de résidences partagent souvent une sécurité privée à l'entrée, des jardins suspendus, des aires de sport extérieures et parfois des commerces de proximité, créant un microsystème communautaire.",
+    "Le choix de l'orientation d'un logement est fortement influencé par la géomancie traditionnelle et le bon sens climatique : une chambre ou un salon se doit d'être '朝南' (cháonán - orienté plein sud) pour maximiser l'entrée de lumière en hiver et faire circuler l'air, augmentant considérablement la valeur marchande du bien."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle phrase décrit correctement la présence exclusive et physique d'un tableau sur le mur du salon ?",
+      "options": [
+        "墙上有很多画在客厅里 (Qiáng shàng yǒu hěn duō huà zài kètīng lǐ)",
+        "客厅的墙上挂着一幅画 (Kètīng de qiáng shàng guàzhe yī fú huà)",
+        "一幅画是在客厅的墙上 (Yī fú huà shì zài kètīng de qiáng shàng)"
+      ],
+      "correct_answer": "客厅的墙上挂着一幅画 (Kètīng de qiáng shàng guàzhe yī fú huà)",
+      "explanation": "Pour exprimer un état existentiel permanent (une peinture suspendue), la grammaire intermédiaire exige la structure : [Lieu : 客厅的墙上] + [Verbe d'état avec aspect : 挂着] + [Quantité/Objet : 一幅画]."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "爸爸已经回 [ ___ ] 办公室去了，你不用等他。",
+      "correct_answer": "回",
+      "hint": "Verbe de mouvement obligatoire indiquant le retour vers un lieu, s'insérant devant le complément de direction '去'."
+    }
+  ]
+}

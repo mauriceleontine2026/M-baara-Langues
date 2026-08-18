@@ -1,0 +1,179 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Dire son nom et demander le nom de son interlocuteur",
+    "Exprimer son origine géographique et sa nationalité",
+    "Indiquer sa profession et donner son âge de manière simple"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'ɲ' se prononce comme le 'gn' français dans 'magnifique'. La voyelle ouverte 'ɛ' s'articule comme le 'è' de 'père', tandis que le 'ɔ' ressemble au 'o' ouvert de 'porte'.",
+    "common_pitfalls": "Attention à bien articuler le 'ɲ' initial sans y ajouter de voyelle parasite avant, comme dans le verbe 'ɲɛɛ'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v2_1",
+      "term": "diŋ",
+      "phonetic_api": "/diŋ/",
+      "phonetic_simple": "DING",
+      "translation": "nom / nom de famille",
+      "example_sentence": "N diŋ bɛ Sano.",
+      "example_phonetic": "/n̩ diŋ bɛ sa.no/",
+      "example_translation": "Mon nom est Sano."
+    },
+    {
+      "word_id": "v2_2",
+      "term": "ɲɛɛ",
+      "phonetic_api": "/ɲɛː/",
+      "phonetic_simple": "NYÈÈ",
+      "translation": "année / âge / an",
+      "example_sentence": "N bɛ ni ɲɛɛ taran.",
+      "example_phonetic": "/n̩ bɛ ni ɲɛː ta.ran/",
+      "example_translation": "J'ai trente ans."
+    },
+    {
+      "word_id": "v2_3",
+      "term": "wɔli",
+      "phonetic_api": "/wɔ.li/",
+      "phonetic_simple": "WƆ-LI",
+      "translation": "travail / profession / travailler",
+      "example_sentence": "N wɔli bɛ tɔgɔfɛ.",
+      "example_phonetic": "/n̩ wɔ.li bɛ tɔ.ɡɔ.fɛ/",
+      "example_translation": "Mon travail est l'enseignement."
+    },
+    {
+      "word_id": "v2_4",
+      "term": "fɔkɔ",
+      "phonetic_api": "/fɔ.kɔ/",
+      "phonetic_simple": "FƆ-KƆ",
+      "translation": "habiter / venir de / origine",
+      "example_sentence": "N fɔkɔ bɛ Konaakiri.",
+      "example_phonetic": "/n̩ fɔ.kɔ bɛ ko.naː.ki.ri/",
+      "example_translation": "Je viens de Conakry."
+    },
+    {
+      "word_id": "v2_5",
+      "term": "mora",
+      "phonetic_api": "/mo.ra/",
+      "phonetic_simple": "MO-RA",
+      "translation": "personne / humain",
+      "example_sentence": "Mora yoma a ra.",
+      "example_phonetic": "/mo.ra jo.ma a ra/",
+      "example_translation": "C'est une bonne personne."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p2_1",
+      "original": "Wun diŋ bɛ nɛ ?",
+      "phonetic_api": "/wun diŋ bɛ nɛ/",
+      "phonetic_simple": "WOUN DING BÈ NÈ",
+      "translation": "Quel est ton nom ?",
+      "context": "Formule standard pour demander l'identité de quelqu'un."
+    },
+    {
+      "phrase_id": "p2_2",
+      "original": "N diŋ bɛ Alisani.",
+      "phonetic_api": "/n̩ diŋ bɛ a.li.sa.ni/",
+      "phonetic_simple": "N DING BÈ A-LI-SA-NI",
+      "translation": "Mon nom est Almany.",
+      "context": "Donner son prénom ou son nom."
+    },
+    {
+      "phrase_id": "p2_3",
+      "original": "Wun fɔkɔ bɛ mi ?",
+      "phonetic_api": "/wun fɔ.kɔ bɛ mi/",
+      "phonetic_simple": "WOUN FƆ-KƆ BÈ MI",
+      "translation": "D'où viens-tu ? / Où habites-tu ?",
+      "context": "S'enquérir du village ou de la ville d'origine."
+    },
+    {
+      "phrase_id": "p2_4",
+      "original": "N bɛ ni ɲɛɛ mɛlɛŋ bɛlɛŋ.",
+      "phonetic_api": "/n̩ bɛ ni ɲɛː mɛ.lɛŋ bɛ.lɛŋ/",
+      "phonetic_simple": "N BÈ NI NYÈÈ MÈ-LÈNG BÈ-LÈNG",
+      "translation": "J'ai vingt ans.",
+      "context": "Donner son âge lors d'une présentation officielle."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'interrogation avec 'nɛ' (quoi) et 'mi' (où)",
+      "explanation": "Pour poser des questions d'identité ou de provenance en Mani, les mots interrogatifs se placent généralement en fin de proposition, après le verbe ou le marqueur d'état 'bɛ'.",
+      "rules": [
+        "'nɛ' sert à interroger sur l'identité d'une chose ou d'un nom.",
+        "'mi' s'utilise pour localiser ou définir le point d'origine."
+      ],
+      "examples": [
+        {
+          "structure": "Wun diŋ bɛ nɛ ?",
+          "phonetic_api": "/wun diŋ bɛ nɛ/",
+          "meaning": "Ton nom est quoi ? (Comment t'appelles-tu ?)"
+        },
+        {
+          "structure": "Wun fɔkɔ bɛ mi ?",
+          "phonetic_api": "/wun fɔ.kɔ bɛ mi/",
+          "meaning": "Ton origine est où ? (D'où viens-tu ?)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kadi",
+      "text": "Mboi ! Wun diŋ bɛ nɛ ?",
+      "phonetic_api": "/mboi wun diŋ bɛ nɛ/",
+      "phonetic_simple": "MBOÏ ! WOUN DING BÈ NÈ",
+      "translation": "Bonjour ! Quel est ton nom ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Mboi ! N diŋ bɛ Usamani. Wun lɔ ?",
+      "phonetic_api": "/mboi n̩ diŋ bɛ u.sa.ma.ni wun lɔ/",
+      "phonetic_simple": "MBOÏ ! N DING BÈ OU-SA-MA-NI. WOUN LƆ ?",
+      "translation": "Bonjour ! Mon nom est Ousmane. Et toi ?"
+    },
+    {
+      "speaker": "Kadi",
+      "text": "N diŋ bɛ Kadi. Wun fɔkɔ bɛ mi ?",
+      "phonetic_api": "/n̩ diŋ bɛ ka.di wun fɔ.kɔ bɛ mi/",
+      "phonetic_simple": "N DING BÈ KA-DI. WOUN FƆ-KƆ BÈ MI ?",
+      "translation": "Mon nom est Kadi. D'où viens-tu ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "N fɔkɔ bɛ Samou. N bɛ ni wɔli ségé.",
+      "phonetic_api": "/n̩ fɔ.kɔ bɛ sa.mu n̩ bɛ ni wɔ.li se.ɡe/",
+      "phonetic_simple": "N FƆ-KƆ BÈ SA-MOU. N BÈ NI WƆ-LI SÉ-GÉ",
+      "translation": "Je viens de Samou. J'ai un travail au marché."
+    }
+  ],
+  "cultural_notes": [
+    "Dire son origine ('fɔkɔ') chez les Mani fait souvent référence au village ancestral ou à la zone littorale d'implantation plutôt qu'à la grande ville moderne. Dévoiler son 'diŋ' (nom de famille) permet immédiatement à l'interlocuteur de situer la lignée familiale et les alliances traditionnelles entre clans."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex2_1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'expression 'Wun fɔkɔ bɛ mi ?'",
+      "options": [
+        "Quel est ton âge ?",
+        "D'où viens-tu ?",
+        "Comment vas-tu ?"
+      ],
+      "correct_answer": "D'où viens-tu ?",
+      "explanation": "'Fɔkɔ' renvoie à la provenance ou à l'habitation et 'mi' signifie 'où'."
+    },
+    {
+      "exercise_id": "ex2_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N [ ___ ] bɛ Usamani. (Mon nom est Ousmane).",
+      "correct_answer": "diŋ",
+      "hint": "Le mot commence par 'd' et se termine par un son nasal 'ŋ'."
+    }
+  ]
+}

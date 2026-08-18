@@ -1,0 +1,218 @@
+{
+  "lesson_id": "A1_M2_L5_CORRECTED",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter avec précision de 0 à 100 en espagnol",
+    "Maîtriser les règles de coordination et les apocopes (un vs uno)",
+    "Exprimer des quantités simples et des numéros de téléphone"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La prononciation des chiffres fait intervenir des graphies clés : le 'c' et le 'z' devant 'e' ou 'i' se prononcent /θ/ (ex: cero, cinco, doce). Le chiffre 'tres' s'articule avec un 'r' simple battu /tɾes/ sans forcer l'expiration. Le chiffre 'seis' possède une diphtongue /sei̯s/ où le 'i' est une semi-voyelle rapide.",
+    "common_pitfalls": "Attention à la prononciation de 'cinco' : évitez de le nasaliser à la française. Le son doit être net : /ˈθiŋko/. Veillez aussi à prononcer distinctement le 'v' de 'nueve' comme une fricative bilabiale douce /β/, identique au son du 'b' espagnol en milieu de mot."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Cero",
+      "phonetic_api": "/ˈθeɾo/",
+      "phonetic_simple": "THÉ-RO",
+      "translation": "Zéro",
+      "example_sentence": "El número de la habitación es el cero.",
+      "example_phonetic": "/el ˈnumeɾo de la aβitaˈθjon ˈes el ˈθeɾo/",
+      "example_translation": "Le numéro de la chambre est le zéro."
+    },
+    {
+      "word_id": "v2",
+      "term": "Uno",
+      "phonetic_api": "/ˈuno/",
+      "phonetic_simple": "OU-NO",
+      "translation": "Un",
+      "example_sentence": "Tengo solo uno.",
+      "example_phonetic": "/ˈteŋɡo ˈsolo ˈuno/",
+      "example_translation": "J'en ai seulement un."
+    },
+    {
+      "word_id": "v3",
+      "term": "Cinco",
+      "phonetic_api": "/ˈθiŋko/",
+      "phonetic_simple": "THEEN-KO",
+      "translation": "Cinq",
+      "example_sentence": "Hay cinco manzanas en la mesa.",
+      "example_phonetic": "/ˈaj ˈθiŋko manˈθanas en la ˈmesa/",
+      "example_translation": "Il y a cinq pommes sur la table."
+    },
+    {
+      "word_id": "v4",
+      "term": "Diez",
+      "phonetic_api": "/ˈðjeθ/",
+      "phonetic_simple": "DYETH",
+      "translation": "Dix",
+      "example_sentence": "El niño tiene diez años.",
+      "example_phonetic": "/el ˈniɲo ˈtjene ˈðjeθ ˈaɲos/",
+      "example_translation": "L'enfant a dix ans."
+    },
+    {
+      "word_id": "v5",
+      "term": "Cien",
+      "phonetic_api": "/ˈθjen/",
+      "phonetic_simple": "THYEN",
+      "translation": "Cent",
+      "example_sentence": "El libro tiene cien páginas.",
+      "example_phonetic": "/el ˈliβɾo ˈtjene ˈθjem ˈpaxinas/",
+      "example_translation": "Le livre a cent pages."
+    },
+    {
+      "word_id": "v6",
+      "term": "Número",
+      "phonetic_api": "/ˈnumeɾo/",
+      "phonetic_simple": "NOU-MÉ-RO",
+      "translation": "Numéro / Nombre",
+      "example_sentence": "¿Cuál es tu número de teléfono?",
+      "example_phonetic": "/ˈkwal ˈes tu ˈnumeɾo ðe teˈlefono/",
+      "example_translation": "Quel est ton numéro de téléphone ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "¿Cuánto cuesta esto?",
+      "phonetic_api": "/ˈkwanto ˈkwesta ˈesto/",
+      "phonetic_simple": "KOUAN-TO KWES-TA ES-TO",
+      "translation": "Combien coûte ceci ?",
+      "context": "Indispensable pour faire des achats ou demander un prix."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Cuesta veinticinco euros",
+      "phonetic_api": "/ˈkwesta βejntiˈθinko ˈewɾos/",
+      "phonetic_simple": "KWES-TA BEYN-TEE-THEEN-KO EW-ROS",
+      "translation": "Ça coûte vingt-cinq euros",
+      "context": "Indication ou réponse sur le prix d'un produit."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Mi número es el seis cero nueve",
+      "phonetic_api": "/mi ˈnumeɾo ˈes el ˈsejs ˈθeɾo ˈnweβe/",
+      "phonetic_simple": "MI NOU-MÉ-RO ES EL SEYS THÉ-RO NWÉ-BÉ",
+      "translation": "Mon numéro est le 609",
+      "context": "Dire son numéro de téléphone chiffre par chiffre (méthode courante)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Hay treinta alumnos en la clase",
+      "phonetic_api": "/ˈaj ˈtɾejnta aˈlumnos en la ˈklase/",
+      "phonetic_simple": "AY TREYN-TA A-LOUM-NOS EN LA KLA-SÉ",
+      "translation": "Il y a trente élèves dans la classe",
+      "context": "Comptage et expression d'une quantité exacte."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'apocope de 'Uno' devant un nom masculin",
+      "explanation": "Le chiffre 'uno' subit une modification syntaxique obligatoire appelée apocope (perte de la voyelle finale) lorsqu'il est placé directement devant un nom masculin singulier. Il se transforme alors en 'un'. Devant un nom féminin, il devient 'una'.",
+      "rules": [
+        "Chiffre isolé ou en fin de phrase : se dit 'uno' (ex: Tengo uno).",
+        "Devant un nom masculin : 'uno' devient 'un' (ex: Un coche, veintiún días).",
+        "Devant un nom féminin : 'uno' devient 'una' (ex: Una casa, treinta y una páginas)."
+      ],
+      "examples": [
+        {
+          "structure": "Tengo un hermano. (Apocope)",
+          "phonetic_api": "/ˈteŋɡo un eɾˈmano/",
+          "meaning": "J'ai un frère."
+        },
+        {
+          "structure": "¿Cuántos libros tienes? - Solo uno. (Forme pleine)",
+          "phonetic_api": "/ˈkwantos ˈliβɾos ˈtjenes || ˈsolo ˈuno/",
+          "meaning": "Combien de livres as-tu ? - Seulement un."
+        }
+      ]
+    },
+    {
+      "concept": "La coordination des dizaines et des unités : la règle du 'Y'",
+      "explanation": "En espagnol, l'utilisation de la conjonction 'y' (et) pour lier les dizaines et les unités répond à une règle orthographique et phonétique stricte basée sur les dizaines.",
+      "rules": [
+        "De 16 à 29 : les nombres s'écrivent en un seul mot agglutiné, sans le mot 'y' séparé (ex: dieciséis, veintidós, veintinueve).",
+        "À partir de 30 jusqu'à 99 : on utilise obligatoirement la conjonction 'y' séparée pour lier la dizaine et l'unité (ex: treinta y uno, cuarenta y cinco, noventa y nueve)."
+      ],
+      "examples": [
+        {
+          "structure": "Veintitrés (Un seul mot)",
+          "phonetic_api": "/βejntiˈtɾes/",
+          "meaning": "Vingt-trois"
+        },
+        {
+          "structure": "Cuarenta y tres (Trois mots)",
+          "phonetic_api": "/kwaˈɾenta i ˈtɾes/",
+          "meaning": "Quarante-trois"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Vendedor",
+      "text": "Buenas tardes. ¿En qué puedo ayudarle?",
+      "phonetic_api": "/ˈbwenas ˈtaɾðes || eŋ ˈke ˈpweðo aʝuˈðaɾle/",
+      "phonetic_simple": "BWÉ-NAS TAR-DÉS. EN KÉ PWÉ-DO A-YOU-DAR-LÉ ?",
+      "translation": "Bon après-midi. En quoi puis-je vous aider ?"
+    },
+    {
+      "speaker": "Cliente",
+      "text": "Hola. Quiero comprar estas camisetas. ¿Cuánto cuestan?",
+      "phonetic_api": "/ˈola || ˈkjeɾo komˈpɾaɾ ˈestas kamiˈsetas || ˈkwanto ˈkwestan/",
+      "phonetic_simple": "O-LA. KYÉ-RO KOM-PRAR ES-TAS KA-MEE-SÉ-TAS. KOUAN-TO KWES-TAN ?",
+      "translation": "Salut. Je veux acheter ces t-shirts. Combien coûtent-ils ?"
+    },
+    {
+      "speaker": "Vendedor",
+      "text": "Son tres camisetas. En total son cuarenta y cinco euros.",
+      "phonetic_api": "/ˈson ˈtɾes kamiˈsetas || en toˈtal ˈson kwaˈɾenta i ˈθiŋko ˈewɾos/",
+      "phonetic_simple": "SON TRÉS KA-MEE-SÉ-TAS. EN TO-TAL SON KOUA-REN-TA EE THEEN-KO EW-ROS.",
+      "translation": "Ça fait trois t-shirts. Au total cela fait quarante-cinq euros."
+    },
+    {
+      "speaker": "Cliente",
+      "text": "Perfecto. Aquí tiene cincuenta euros.",
+      "phonetic_api": "/peɾˈfexto || aˈki ˈtjene θiŋˈkwenta ˈewɾos/",
+      "phonetic_simple": "PER-FEK-TO. A-KEE TYÉ-NÉ THEEN-KWEN-TA EW-ROS.",
+      "translation": "Parfait. Voici cinquante euros."
+    },
+    {
+      "speaker": "Vendedor",
+      "text": "Gracias. Su cambio son cinco euros. Que tenga un buen día.",
+      "phonetic_api": "/ˈɡɾaθjas || su ˈkamβjo ˈson ˈθiŋko ˈewɾos || ke ˈteŋɡa um ˈbwen ˈdia/",
+      "phonetic_simple": "GRA-THYAS. SOU KAM-BYO SON THEEN-KO EW-ROS. KÉ TEN-GA OUN BWEN DEE-A.",
+      "translation": "Merci. Votre monnaie est de cinq euros. Passez une bonne journée."
+    }
+  ],
+  "cultural_notes": [
+    "Lorsqu'on donne un numéro de téléphone en Espagne, l'usage le plus courant consiste à énoncer les chiffres un par un ou à les regrouper par paires de deux (ex: 622 44 55 se dira 'seis veintidós cuarenta y cuatro cincuenta y cinco').",
+    "Le nombre '100' possède deux formes : 'cien' s'utilise pour la quantité exacte 100 (ex: cien euros, cien personas). Dès qu'il est suivi d'une unité ou d'une dizaine, il se transforme morphologiquement en 'ciento' (ex: ciento uno, ciento cincuenta)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L5_EX1",
+      "type": "multiple_choice",
+      "question": "Quelle est l'orthographe correcte pour le nombre 34 en espagnol ?",
+      "options": [
+        "Treintaycuatro",
+        "Treinta y cuatro",
+        "Veinticuatro"
+      ],
+      "correct_answer": "Treinta y cuatro",
+      "explanation": "À partir de 30, les dizaines et les unités sont obligatoirement reliées par la conjonction 'y' écrite séparément."
+    },
+    {
+      "exercise_id": "A1_M2_L5_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Hoy tengo [ ___ ] examen de espagnol en la escuela.",
+      "correct_answer": "un",
+      "hint": "Le chiffre 'uno' doit subir une apocope car il se trouve devant le nom masculin singulier 'examen'."
+    }
+  ]
+}

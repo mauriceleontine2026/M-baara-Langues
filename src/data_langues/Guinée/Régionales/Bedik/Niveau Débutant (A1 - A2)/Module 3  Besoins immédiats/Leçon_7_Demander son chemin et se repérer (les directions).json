@@ -1,0 +1,175 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer (les directions)",
+  "learning_objectives": [
+    "Poser des questions simples pour localiser un lieu (village, puits, case)",
+    "Comprendre et utiliser les indicateurs de direction de base (ici, là-bas, devant, derrière)",
+    "S'orienter dans l'espace topographique montagneux de la région bédik"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'interrogatif de lieu 'bē' comporte une voyelle longue et ouverte /eː/ avec une intonation nettement montante en fin de phrase. Le mot pour désigner ici, 'dyé', utilise l'affriquée palatale voisée /dʒ/ suivie d'une voyelle brève tendue.",
+    "common_pitfalls": "Veillez à ne pas confondre le 'bē' interrogatif ('où ?') avec le 'bē' clitique de présence affirmative. C'est l'intonation et la position finale qui déterminent l'interrogation."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Bē",
+      "phonetic_api": "/beː/",
+      "phonetic_simple": "BEE",
+      "translation": "Où ? (Interrogatif de lieu)",
+      "example_sentence": "Iwol bē ?",
+      "example_phonetic": "/i.wɔl beː/",
+      "example_translation": "Où est (le village d') Iwol ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "Dyé",
+      "phonetic_api": "/dʒe/",
+      "phonetic_simple": "DJE",
+      "translation": "Ici (Proximité immédiate)",
+      "example_sentence": "Mē bē dyé",
+      "example_phonetic": "/meː beː dʒe/",
+      "example_translation": "Je suis ici."
+    },
+    {
+      "word_id": "v3",
+      "term": "Ga-tí",
+      "phonetic_api": "/ɡa.ti/",
+      "phonetic_simple": "GA-TI",
+      "translation": "Là-bas / Plus loin",
+      "example_sentence": "Sakhó bē ga-tí",
+      "example_phonetic": "/sa.χo beː ɡa.ti/",
+      "example_translation": "Le champ est là-bas."
+    },
+    {
+      "word_id": "v4",
+      "term": "Ɗi-gwa",
+      "phonetic_api": "/ɗi.ɡwa/",
+      "phonetic_simple": "DHA-GWA",
+      "translation": "Le puits / La source d'eau (Lieu d'approvisionnement)",
+      "example_sentence": "Ɗi-gwa bē ?",
+      "example_phonetic": "/ɗi.ɡwa beː/",
+      "example_translation": "Où est le puits ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "Gisá",
+      "phonetic_api": "/ɡi.sa/",
+      "phonetic_simple": "GI-SA",
+      "translation": "Le chemin / La piste / La route",
+      "example_sentence": "Gisá bē ?",
+      "example_phonetic": "/ɡi.sa beː/",
+      "example_translation": "Où est le chemin ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Bandafassi bē ?",
+      "phonetic_api": "/ban.da.fa.si beː/",
+      "phonetic_simple": "BAN-DA-FAS-SI BEE ?",
+      "translation": "Où est Bandafassi ?",
+      "context": "Demander la direction du village principal en marchant sur la piste."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Gisá bē ga-tí.",
+      "phonetic_api": "/ɡi.sa beː ɡa.ti/",
+      "phonetic_simple": "GI-SA BEE GA-TI",
+      "translation": "Le chemin est là-bas.",
+      "context": "Indiquer une direction vers un sentier éloigné du village."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Ɗi-gwa bē dyé ?",
+      "phonetic_api": "/ɗi.ɡwa beː dʒe/",
+      "phonetic_simple": "DHA-GWA BEE DJE ?",
+      "translation": "Le puits est-il ici ?",
+      "context": "S'assurer qu'on est arrivé au bon endroit pour puiser de l'eau."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ɓa gisá kō.",
+      "phonetic_api": "/ɓa ɡi.sa ko/",
+      "phonetic_simple": "BHA GI-SA KO",
+      "translation": "Prends ce chemin-ci.",
+      "context": "Guider un voyageur en lui montrant le tracé exact à suivre."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction de l'interrogation de lieu",
+      "explanation": "En bédik, pour poser une question sur la localisation d'une entité ou d'un lieu, le nom propre ou le substantif se place impérativement en tête de phrase, suivi de la particule interrogative locative 'bē'.",
+      "rules": [
+        "Structure standard : [Lieu / Objet recherché] + bē ?",
+        "L'intonation doit être nettement montante sur la particule finale pour marquer le questionnement."
+      ],
+      "examples": [
+        {
+          "structure": "Eyi (Maison) + bē (où ?)",
+          "phonetic_api": "/ɛ.ji beː/",
+          "meaning": "Où est la maison ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Anasara (L'étranger)",
+      "text": "Amiat, baba. Iwol bē ?",
+      "phonetic_api": "/a.mja ba.ba i.wɔl beː/",
+      "phonetic_simple": "A-MIA, BA-BA. I-WOL BEE ?",
+      "translation": "Bonjour, mon père. Où est le village d'Iwol ?"
+    },
+    {
+      "speaker": "Baba Mady",
+      "text": "Amiat. Iwol bē ga-tí. Ɓa gisá kō.",
+      "phonetic_api": "/a.mja i.wɔl beː ɡa.ti ɓa ɡi.sa ko/",
+      "phonetic_simple": "A-MIA. I-WOL BEE GA-TI. BHA GI-SA KO.",
+      "translation": "Bonjour. Iwol est là-bas (plus haut). Prends ce chemin."
+    },
+    {
+      "speaker": "Anasara (L'étranger)",
+      "text": "Gisá bē amiat ?",
+      "phonetic_api": "/ɡi.sa beː a.mja/",
+      "phonetic_simple": "GI-SA BEE A-MIA ?",
+      "translation": "Le chemin est-il bon (praticable) ?"
+    },
+    {
+      "speaker": "Baba Mady",
+      "text": "Gisá bē amiat. Gasi mē.",
+      "phonetic_api": "/ɡi.sa beː a.mja ɡa.si meː/",
+      "phonetic_simple": "GI-SA BEE A-MIA. GA-SI MEE.",
+      "translation": "Le chemin est bon. Merci beaucoup (bonne route)."
+    }
+  ],
+  "cultural_notes": [
+    "L'orientation chez les Bédiks est intimement liée au relief accidenté du pays basari et bédik (montagnes et plateaux rocheux). Les indications de direction intègrent souvent implicitement des notions d'altitude : 'ga-tí' (là-bas) désigne fréquemment un lieu situé plus haut sur la colline. Indiquer le chemin à un étranger perdu est un devoir d'hospitalité absolue."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la structure exacte pour demander 'Où est le puits ?'",
+      "options": [
+        "Bē ɗi-gwa ?",
+        "Ɗi-gwa bē dyé",
+        "Ɗi-gwa bē ?",
+        "Gisá ɗi-gwa bē"
+      ],
+      "correct_answer": "Ɗi-gwa bē ?",
+      "explanation": "Le substantif recherché 'ɗi-gwa' se place devant la particule interrogative locale 'bē'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mē bē [ ___ ]. (Je suis ici.)",
+      "correct_answer": "dyé",
+      "hint": "Le démonstratif bédik traduisant la proximité immédiate de l'interlocuteur."
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Nuancer le degré de certitude en combinant les structures de doute avec les verbes d’état",
+    "Construire des propositions conditionnelles complexes applicables à des réalités abstraites",
+    "Manier le lexique de la spéculation et de la suspicion dans un discours argumentatif soutenu"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met l'accent sur l'articulation de la fricative alvéolaire sourde /s/ dans 'sika' et la prononciation précise des occlusives injectives. La ligne mélodique doit traduire l'incertitude par un allongement tonal subtil sur la particule conditionnelle.",
+    "common_pitfalls": "Ne prononcez pas 'sika' comme 'chika'. Veillez à bien distinguer le ton haut de la particule conditionnelle 'xa' de son usage au subjonctif. Les voyelles nasales finales doivent rester brèves."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v20_1",
+      "term": "Sika",
+      "phonetic_api": "/sika/",
+      "phonetic_simple": "SI-KA",
+      "translation": "Douter / Soupçonner / Incertitude",
+      "example_sentence": "N sikaxi na fe yati ra.",
+      "example_phonetic": "/n sikaxi na fɛ yati ra/",
+      "example_translation": "Je doute de la réalité de cette affaire."
+    },
+    {
+      "word_id": "v20_2",
+      "term": "Xa",
+      "phonetic_api": "/xa/",
+      "phonetic_simple": "KHA",
+      "translation": "Si (particule introduisant une condition potentielle ou future)",
+      "example_sentence": "I xa na raba, won fama a kolonfe.",
+      "example_phonetic": "/i xa na raba woⁿ fama a koloⁿfɛ/",
+      "example_translation": "Si tu fais cela, nous le saurons."
+    },
+    {
+      "word_id": "v20_3",
+      "term": "Naxanba",
+      "phonetic_api": "/naxaⁿba/",
+      "phonetic_simple": "NA-KHAN-BA",
+      "translation": "Au cas où / Dans l'éventualité où",
+      "example_sentence": "Naxanba e fama yanbɛ, won xa e mali.",
+      "example_phonetic": "/naxaⁿba e fama yaⁿbɛ woⁿ xa e mali/",
+      "example_translation": "Au cas où ils viendrai ici, il faut que nous les aidions."
+    },
+    {
+      "word_id": "v20_4",
+      "term": "Tinnafiixɛ",
+      "phonetic_api": "/tiⁿnafiːxɛ/",
+      "phonetic_simple": "TIN-NA-FII-KHÈ",
+      "translation": "Honnêteté / Pureté des intentions (critère de condition)",
+      "example_sentence": "Tinnafiixɛ xa na i ma, fe fama findife fe fanyi ra.",
+      "example_phonetic": "/tiⁿnafiːxɛ xa na i ma fɛ fama fiⁿdifɛ fɛ faɲi ra/",
+      "example_translation": "Si l'honnêteté est en toi, le projet se transformera en réussite."
+    },
+    {
+      "word_id": "v20_5",
+      "term": "Moni",
+      "phonetic_api": "/moni/",
+      "phonetic_simple": "MO-NI",
+      "translation": "Prévenir / Empêcher (dans un raisonnement spéculatif)",
+      "example_sentence": "Won xa na moni alɔ fe mu xa ɔlɔ.",
+      "example_phonetic": "/woⁿ xa na moni alɔ fɛ mu xa ɔlɔ/",
+      "example_translation": "Il faut que nous empêchions cela afin que l'affaire ne soit pas gâtée."
+    },
+    {
+      "word_id": "v20_6",
+      "term": "Marasiyati",
+      "phonetic_api": "/marasiyati/",
+      "phonetic_simple": "MA-RA-SI-YA-TI",
+      "translation": "La recommandation suprême (sujet de condition)",
+      "example_sentence": "Na marasiyati xa tongo, won mu fama sare kerefe.",
+      "example_phonetic": "/na marasiyati xa toⁿɡo woⁿ mu fama sarɛ kerɛfɛ/",
+      "example_translation": "Si cette recommandation suprême est suivie, nous ne subirons aucune perte."
+    },
+    {
+      "word_id": "v20_7",
+      "term": "Fe yati",
+      "phonetic_api": "/fɛ yati/",
+      "phonetic_simple": "FÈ YA-TI",
+      "translation": "La vérité profonde / L'essence du problème",
+      "example_sentence": "N sikaxi i ma fe yati ra.",
+      "example_phonetic": "/n sikaxi i ma fɛ yati ra/",
+      "example_translation": "Je doute de ta sincérité profonde (de ton essence dans cette affaire)."
+    },
+    {
+      "word_id": "v20_8",
+      "term": "Tɔɲɛ",
+      "phonetic_api": "/tɔɲɛ/",
+      "phonetic_simple": "TO-NYÈ",
+      "translation": "Règle / Norme (garante de la condition)",
+      "example_sentence": "Tɔɲɛé xa ɲɛndɛ, wali famfe fanfe.",
+      "example_phonetic": "/tɔɲɛe xa ɲɛⁿdɛ wali faⁿfɛ faⁿfɛ/",
+      "example_translation": "Si les règles sont structurées, le travail sera excellent."
+    },
+    {
+      "word_id": "v20_9",
+      "term": "Ɔlɔ",
+      "phonetic_api": "/ɔlɔ/",
+      "phonetic_simple": "O-LO",
+      "translation": "Gâter / Corrompre (hypothèse négative)",
+      "example_sentence": "Fe fama ɔlɔfe naxanba won mu na ɲɛndɛfe.",
+      "example_phonetic": "/fɛ fama ɔlɔfɛ naxaⁿba woⁿ mu na ɲɛⁿdɛfɛ/",
+      "example_translation": "L'affaire va se gâter au cas où nous ne l'organiserions pas."
+    },
+    {
+      "word_id": "v20_10",
+      "term": "Babilong yati",
+      "phonetic_api": "/babiloⁿ yati/",
+      "phonetic_simple": "BA-BI-LONG YA-TI",
+      "translation": "Le destin ultime / L'avenir indéfini",
+      "example_sentence": "Babilong yati fama fe birin masɛbɛfe.",
+      "example_phonetic": "/babiloⁿ yati fama fɛ biriⁿ masɛbɛfɛ/",
+      "example_translation": "L'avenir indéfini viendra tout révéler (tout écrire)."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p20_1",
+      "original": "N sikaxi na fe ra, koni won xa fe yati maton singe.",
+      "phonetic_api": "/n sikaxi na fɛ ra koni woⁿ xa fɛ yati matoⁿ siⁿdʒɛ/",
+      "phonetic_simple": "N SI-KA-KHI NA FÈ RA, KO-NI WON KHA FÈ YA-TI MA-TON SIN-DJÉ",
+      "translation": "Je doute de cette affaire, mais il nous faut d'abord observer la vérité profonde.",
+      "context": "Exprimer une réserve prudente lors d'une délibération entre notables."
+    },
+    {
+      "phrase_id": "p20_2",
+      "original": "I xa marasiyati tongo, sare mu fama kerefe fe yo ma.",
+      "phonetic_api": "/i xa marasiyati toⁿɡo sarɛ mu fama kerɛfɛ fɛ yo ma/",
+      "phonetic_simple": "I KHA MA-RA-SI-YA-TI TON-GO, SA-RÈ MOU FA-MA KÉ-RÈ-FÈ FÈ YO MA",
+      "translation": "Si tu suis la recommandation suprême, aucune perte n'adviendra pour aucune raison.",
+      "context": "Donner une garantie conditionnelle forte dans une négociation commerciale."
+    },
+    {
+      "phrase_id": "p20_3",
+      "original": "Naxanba tɔɲɛé mu ɲɛndɛxi, won fama fe gbeengbe kerefe babilong.",
+      "phonetic_api": "/naxaⁿba tɔɲɛe mu ɲɛndɛxi woⁿ fama fɛ ɡbeːnɡbɛ kerɛfɛ babiloⁿ/",
+      "phonetic_simple": "NA-KHAN-BA TO-NYÈÈ MOU NYÈN-DÈ-KHI, WON FA-MA FÈ GBÉÉN-GBÈ KÉ-RÈ-FÈ BA-BI-LONG",
+      "translation": "Au cas où les règles ne seraient pas structurées, nous perdrons un projet capital à l'avenir.",
+      "context": "Mettre en garde une assemblée contre un manque de rigueur réglementaire."
+    },
+    {
+      "phrase_id": "p20_4",
+      "original": "Ala xa won moni sika fe ra won ma saranxun ma.",
+      "phonetic_api": "/ala xa woⁿ moni sika fɛ ra woⁿ ma saraⁿxuⁿ ma/",
+      "phonetic_simple": "A-LA KHA WON MO-NI SI-KA FÈ RA WON MA SA-RAN-KHOUN MA",
+      "translation": "Que Dieu nous préserve du doute et de la suspicion au sein de notre communauté.",
+      "context": "Formuler un souhait de cohésion sociale lors d'une médiation coutumière."
+    },
+    {
+      "phrase_id": "p20_5",
+      "original": "Fe yati mu fama findife fe fanyi ra naxanba tinnafiixɛ mu na.",
+      "phonetic_api": "/fɛ yati mu fama fiⁿdifɛ fɛ faɲi ra naxaⁿba tiⁿnafiːxɛ mu na/",
+      "phonetic_simple": "FÈ YA-TI MOU FA-MA FIN-DI-FÈ FÈ FAN-YI RA NA-KHAN-BA TIN-NA-FII-KHÈ MOU NA",
+      "translation": "La réalité ne se transformera pas en réussite au cas où l'honnêteté ferait défaut.",
+      "context": "Affirmer un principe moral strict lors d'une joute oratoire."
+    },
+    {
+      "phrase_id": "p20_6",
+      "original": "Tɔɲɛ yati xa na won ma wali yire ma, won fama nɔfe fe birin ma.",
+      "phonetic_api": "/tɔɲɛ yati xa na woⁿ ma wali yirɛ ma woⁿ fama nɔfɛ fɛ biriⁿ ma/",
+      "phonetic_simple": "TO-NYÈ YA-TI KHA NA WON MA WA-LI YI-RÈ MA, WON FA-MA NO-FÈ FÈ BI-RIN MA",
+      "translation": "Si la règle absolue prévaut sur notre lieu de travail, nous maîtriserons l'ensemble du projet.",
+      "context": "Motiver ses collaborateurs en posant une condition de réussite."
+    },
+    {
+      "phrase_id": "p20_7",
+      "original": "N sikaxi a ma wali ra fe naxan dangixi fe ra.",
+      "phonetic_api": "/n sikaxi a ma wali ra fɛ naxan daⁿɡixi fɛ ra/",
+      "phonetic_simple": "N SI-KA-KHI A MA WA-LI RA FÈ NA-KHAN DAN-GUI-KHI FÈ RA",
+      "translation": "Je doute de sa contribution concernant l'affaire qui s'est déroulée.",
+      "context": "Exprimer une réserve ciblée lors de l'évaluation d'un bilan passé."
+    },
+    {
+      "phrase_id": "p20_8",
+      "original": "Naxanba won xa fe birin moni ki ma, won fama sewafe babilong yati ma.",
+      "phonetic_api": "/naxaⁿba woⁿ xa fɛ biriⁿ moni ki ma woⁿ fama sewafɛ babiloⁿ yati ma/",
+      "phonetic_simple": "NA-KHAN-BA WON KHA FÈ BI-RIN MO-NI KI MA, WON FA-MA SÉ-WA-FÈ BA-BI-LONG YA-TI MA",
+      "translation": "Au cas où nous parviendrions à tout prévenir dès à présent, nous nous réjouirons dans le destin ultime.",
+      "context": "Conclure un plaidoyer d'orientation stratégique sur une note d'espoir conditionnel."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la conditionnalité future ou potentielle avec la particule 'xa'",
+      "explanation": "Pour introduire une condition portant sur l'avenir ou un fait hautement réalisable, le niveau avancé recourt à la particule 'xa' placée immédiatement après le sujet de la proposition subordonnée conditionnelle. Le verbe conserve sa forme nue.",
+      "rules": [
+        "La proposition conditionnelle se place généralement en tête de phrase.",
+        "Structure : [Sujet] + xa + [Verbe à la forme nue] + [Compléments].",
+        "La proposition principale qui décrit la conséquence se construit souvent à l'aide du futur en 'fama'."
+      ],
+      "examples": [
+        {
+          "structure": "I + xa + marasiyati + tongo ... won + mu + fama + sare + kerefe",
+          "phonetic_api": "/i xa marasiyati toⁿɡo woⁿ mu fama sarɛ kerɛfɛ/",
+          "meaning": "Si tu suis la recommandation suprême, nous ne subirons aucune perte."
+        }
+      ]
+    },
+    {
+      "concept": "La construction de la restriction et de l'incertitude avec le verbe de doute 'sika'",
+      "explanation": "Le verbe 'sika' (douter) s'emploie à l'accompli en '-xi' pour acter un état de suspicion présent. Pour cibler l'objet du doute, la syntaxe exige l'usage de la postposition instrumentale 'ra' en fin de groupe nominal complément.",
+      "rules": [
+        "Structure : [Sujet] + sikaxi + [Objet du doute] + ma / ra.",
+        "L'usage de 'ra' après le groupe nominal introduit par 'fe' (affaire) est la forme la plus soutenue à ce niveau."
+      ],
+      "examples": [
+        {
+          "structure": "N + sikaxi + na + fe yati + ra",
+          "phonetic_api": "/n sikaxi na fɛ yati ra/",
+          "meaning": "Je doute de la réalité profonde de cette affaire."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Le Notable",
+      "text": "Marie, n kéna ! N na i ma marasiyati matonfe, koni n sikaxi na fe ra gbe ra.",
+      "phonetic_api": "/mari i kéna n na i ma marasiyati matoⁿfɛ koni n sikaxi na fɛ ra ɡbɛ ra/",
+      "phonetic_simple": "MA-RI, I KÉ-NA ! N NA I MA MA-RA-SI-YA-TI MA-TON-FÈ, KO-NI N SI-KA-KHI NA FÈ RA GBÈ RA.",
+      "translation": "Marie, bonjour ! Je suis en train d'examiner ta recommandation suprême, mais je doute énormément de sa faisabilité."
+    },
+    {
+      "speaker": "Marie",
+      "text": "I kéna, n benba. Tinnafiixɛ xa na won ma, won ma tɔɲɛé fama findife fe yati ra.",
+      "phonetic_api": "/i nuwali n beⁿba tiⁿnafiːxɛ xa na woⁿ ma woⁿ ma tɔɲɛe fama fiⁿdifɛ fɛ yati ra/",
+      "phonetic_simple": "I NOU-WA-LI N BEN-BA. TIN-NA-FII-KHÈ KHA NA WON MA, WON MA TO-NYÈÈ FA-MA FIN-DI-FÈ FÈ YA-TI RA.",
+      "translation": "Bonjour, mon aîné. Si l'honnêteté guide nos pas (est en nous), nos règles se transformeront en une réalité concrète."
+    },
+    {
+      "speaker": "Le Notable",
+      "text": "Naxanba won ma saranxuné mu na tinfe, won fama fe birin ɔlɔfe babilong yati ma.",
+      "phonetic_api": "/naxaⁿba woⁿ ma saraⁿxunɛ mu na tiⁿfɛ woⁿ fama fɛ biriⁿ ɔlɔfɛ babiloⁿ yati ma/",
+      "phonetic_simple": "NA-KHAN-BA WON MA SA-RAN-KHOU-NÉ MOU NA TIN-FÈ, WON FA-MA FÈ BI-RIN O-LO-FÈ BA-BI-LONG YA-TI MA.",
+      "translation": "Au cas où nos concitoyens n'accepteraient pas cette discipline, nous allons gâcher l'ensemble du projet dans le futur lointain."
+    },
+    {
+      "speaker": "Marie",
+      "text": "Na fe ra, won xa fe foraxi birin moni ki ma alɔ won mu xa gɔfɛ nun sare kerefe.",
+      "phonetic_api": "/na fɛ ra woⁿ xa fɛ foraxi biriⁿ moni ki ma alɔ woⁿ mu xa ɡɔfɛ nuⁿ sarɛ kerɛfɛ/",
+      "phonetic_simple": "NA FÈ RA, WON KHA FÈ FO-RA-KHI BI-RIN MO-NI KI MA A-LO WON MOU KHA GO-FÈ NOUN SA-RÈ KÉ-RÈ-FÈ.",
+      "translation": "C'est pourquoi il nous faut impérativement prévenir toutes les dérives obscures dès à présent, afin que nous ne subissions aucune perte de ressources."
+    },
+    {
+      "speaker": "Le Notable",
+      "text": "I fala fisa n bɛ. Ala xa won mali won ma tɔɲɛ yatié ma. Won tina !",
+      "phonetic_api": "/i fala fisa n bɛ ala xa woⁿ mali woⁿ ma tɔɲɛ yatiɛ ma woⁿ tina/",
+      "phonetic_simple": "I FA-LA FI-SA N BÈ. A-LA KHA WON MA-LI WON MA TO-NYÈ YA-TI-É MA. WON TI-NA !",
+      "translation": "Ta parole prévaut pour moi. Que Dieu nous assiste dans l'application de nos règles absolues. À demain !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans l’espace rhétorique de la Basse-Guinée, l’expression franche et abrupte du désaccord est soigneusement évitée pour préserver l'équilibre social. Un notable utilisera le verbe 'sika' (douter) non pas comme un affront, mais comme une invitation polie à approfondir l'analyse d’un projet. Poser des conditions à travers le concept de 'tinnafiixɛ' (pureté d'intention) rappelle à chaque membre de l'assemblée son devoir de droiture avant d'engager la collectivité."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex20_1",
+      "type": "multiple_choice",
+      "question": "Quelle particule s'insère après le sujet pour marquer une condition potentielle ou future ?",
+      "options": [
+        "fama",
+        "xa",
+        "nu"
+      ],
+      "correct_answer": "xa",
+      "explanation": "La particule 'xa' introduit la conditionnalité ou l'éventualité future dans la proposition subordonnée."
+    },
+    {
+      "exercise_id": "ex20_2",
+      "type": "multiple_choice",
+      "question": "Que signifie de manière oratoire l'énoncé d'état accompli 'N sikaxi na fe ra' ?",
+      "options": [
+        "Je suis certain de cette affaire",
+        "Je refuse cette affaire",
+        "Je doute de cette affaire / j'émets des réserves"
+      ],
+      "correct_answer": "Je doute de cette affaire / j'émets des réserves",
+      "explanation": "Le verbe 'sika' à l'accompli en '-xi' indique un état de doute ou de suspicion acté par le sujet."
+    },
+    {
+      "exercise_id": "ex20_3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] tɔɲɛé mu ɲɛndɛxi, won fama sare kerefe. (Au cas où les règles ne seraient pas structurées...)",
+      "correct_answer": "Naxanba",
+      "hint": "C'est le connecteur d'éventualité avancée traduisant 'au cas où' ou 'dans l'hypothèse où'."
+    },
+    {
+      "exercise_id": "ex20_4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N sikaxi i ma fe [ ___ ] ra. (Je doute de la réalité profonde de tes intentions.)",
+      "correct_answer": "yati",
+      "hint": "Ce terme renforce le substantif 'fe' pour exprimer l'essence, l'authenticité ou la vérité profonde."
+    }
+  ]
+}

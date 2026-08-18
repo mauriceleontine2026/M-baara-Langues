@@ -1,0 +1,174 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire les différentes pièces et éléments structurels d'une habitation en Mani",
+    "Situer son logement dans l'espace urbain ou villageois",
+    "Exprimer l'état d'un bâtiment et formuler des jugements descriptifs complexes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La fricative vélaire sourde /x/ s'articule profondément dans la cavité buccale. Dans le mot 'banxi', elle nécessite un souffle continu sans occlusion. Les voyelles longues nasales comme dans 'woŋ' demandent une résonance rhino-pharyngée prononcée.",
+    "common_pitfalls": "Veillez à ne pas prononcer le 'x' de 'banxi' comme un 'k' ou un 'sh' français. C'est un son expiré semblable à la Jota espagnole."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v10_1",
+      "term": "banxi",
+      "phonetic_api": "/ban.xi/",
+      "phonetic_simple": "BAN-KHI",
+      "translation": "maison / bâtiment / case",
+      "example_sentence": "N banxi bɛ yoma.",
+      "example_phonetic": "/n̩ ban.xi bɛ jo.ma/",
+      "example_translation": "Ma maison est belle."
+    },
+    {
+      "word_id": "v10_2",
+      "term": "woŋ",
+      "phonetic_api": "/woŋ/",
+      "phonetic_simple": "WONG",
+      "translation": "ville / grand village / agglomération",
+      "example_sentence": "Woŋ kpere fɔkɔ lɔ.",
+      "example_phonetic": "/woŋ kpe.re fɔ.kɔ lɔ/",
+      "example_translation": "La grande ville s'étend ici."
+    },
+    {
+      "word_id": "v10_3",
+      "term": "su",
+      "phonetic_api": "/su/",
+      "phonetic_simple": "SOU",
+      "translation": "chambre / pièce privée",
+      "example_sentence": "N bɛ lɔ su cɛm.",
+      "example_phonetic": "/n̩ bɛ lɔ su tʃɛm/",
+      "example_translation": "Je suis à l'intérieur de la chambre."
+    },
+    {
+      "word_id": "v10_4",
+      "term": "kankaran",
+      "phonetic_api": "/kan.ka.ran/",
+      "phonetic_simple": "KAN-KA-RAN",
+      "translation": "cour / enclos familial / espace commun",
+      "example_sentence": "Denbaya bɛ kankaran lɔ.",
+      "example_phonetic": "/den.ba.ja bɛ kan.ka.ran lɔ/",
+      "example_translation": "La famille est dans la cour."
+    },
+    {
+      "word_id": "v10_5",
+      "term": "gbun",
+      "phonetic_api": "/ɡbun/",
+      "phonetic_simple": "GBOUN",
+      "translation": "grand / vaste / spacieux",
+      "example_sentence": "Banxi gbun na mɛnni.",
+      "example_phonetic": "/ban.xi ɡbun na mɛn.ni/",
+      "example_translation": "C'est une grande maison là-bas."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p10_1",
+      "original": "Wun banxi bɛ woŋ cɛm ?",
+      "phonetic_api": "/wun ban.xi bɛ woŋ tʃɛm/",
+      "phonetic_simple": "WOUN BAN-KHI BÈ WONG TCHÈM ?",
+      "translation": "Ta maison est-elle au centre de la ville ?",
+      "context": "Localiser précisément l'habitation de son interlocuteur."
+    },
+    {
+      "phrase_id": "p10_2",
+      "original": "N fɔkɔ banxi gbun lɔ.",
+      "phonetic_api": "/n̩ fɔ.kɔ ban.xi ɡbun lɔ/",
+      "phonetic_simple": "N FƆ-KƆ BAN-KHI GBOUN LƆ",
+      "translation": "Je viens de la grande concession (maison spacieuse).",
+      "context": "Décrire son lieu de vie principal."
+    },
+    {
+      "phrase_id": "p10_3",
+      "original": "Su mɛlɛŋ bɛ banxi cɛm.",
+      "phonetic_api": "/su mɛ.lɛŋ bɛ ban.xi tʃɛm/",
+      "phonetic_simple": "SOU MÈ-LÈNG BÈ BAN-KHI TCHÈM",
+      "translation": "Il y a deux chambres à l'intérieur de la maison.",
+      "context": "Détailler la structure interne de son logement."
+    },
+    {
+      "phrase_id": "p10_4",
+      "original": "Kankaran bɛ yoma cece.",
+      "phonetic_api": "/kan.ka.ran bɛ jo.ma tʃe.tʃe/",
+      "phonetic_simple": "KAN-KA-RAN BÈ YO-MA TCHÉ-TCHÉ",
+      "translation": "La cour est très propre (bonne).",
+      "context": "Formuler un compliment sur la tenue d'une concession familiale."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expansion nominale par l'adjectif qualificatif",
+      "explanation": "Au niveau intermédiaire, la qualification intègre des adjectifs de dimension comme 'gbun' (grand). L'ordre syntaxique strict place l'adjectif immédiatement après le nom, avant toute particule de lieu ou marqueur d'état.",
+      "rules": [
+        "Structure : Nom + Adjectif + Particule locative (ex: banxi + gbun + lɔ).",
+        "L'adjectif ne prend aucune marque de pluriel, celle-ci étant portée par le contexte ou le numéral adjacent."
+      ],
+      "examples": [
+        {
+          "structure": "banxi gbun cɛm",
+          "phonetic_api": "/ban.xi ɡbun tʃɛm/",
+          "meaning": "à l'intérieur de la grande maison"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Abou",
+      "text": "Mboi Fanta ! Wun banxi bɛ mi lɔ woŋ ?",
+      "phonetic_api": "/mboi fan.ta wun ban.xi bɛ mi lɔ woŋ/",
+      "phonetic_simple": "MBOÏ FAN-TA ! WOUN BAN-KHI BÈ MI LƆ WONG ?",
+      "translation": "Bonjour Fanta ! Où est ta maison dans cette ville ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Mboi Abou ! N banxi bɛ mɛnni baara. Banxi gbun a ra.",
+      "phonetic_api": "/mboi a.bu n̩ ban.xi bɛ mɛn.ni baː.ra ban.xi ɡbun a ra/",
+      "phonetic_simple": "MBOÏ A-BOU ! N BAN-KHI BÈ MÈN-NI BAA-RA. BAN-KHI GBOUN A RA.",
+      "translation": "Bonjour Abou ! Ma maison est là-bas à droite. C'est une grande maison."
+    },
+    {
+      "speaker": "Abou",
+      "text": "Su raŋ bɛ mɛnni cɛm ?",
+      "phonetic_api": "/su raŋ bɛ mɛn.ni tʃɛm/",
+      "phonetic_simple": "SOU RANG BÈ MÈN-NI TCHÈM ?",
+      "translation": "Y a-t-il trois chambres à l'intérieur ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Oon, su raŋ ni kankaran yoma bɛ lɔ. Cece !",
+      "phonetic_api": "/oːn su raŋ ni kan.ka.ran jo.ma bɛ lɔ tʃe.tʃe/",
+      "phonetic_simple": "OON, SOU RANG NI KAN-KA-RAN YO-MA BÈ LƆ. TCHÉ-TCHÉ !",
+      "translation": "Oui, trois chambres et une belle cour sont ici. Merci !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'architecture rurale côtière Mani, la 'kankaran' (la cour) est l'épicentre de la vie sociale. C'est l'espace où l'on pile le riz, où les enfants jouent et où l'on accueille les réunions de voisinage. Parler de sa maison sous-entend toujours la description de cet espace semi-public partagé."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex10_1",
+      "type": "multiple_choice",
+      "question": "Quel terme Mani désigne l'espace de la cour ou de la concession familiale ?",
+      "options": [
+        "woŋ",
+        "su",
+        "kankaran"
+      ],
+      "correct_answer": "kankaran",
+      "explanation": "'Kankaran' s'applique spécifiquement à l'enclos ou à la cour entourant les habitations."
+    },
+    {
+      "exercise_id": "ex10_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N banxi bɛ [ ___ ] cɛm. (Ma maison est au centre de la ville).",
+      "correct_answer": "woŋ",
+      "hint": "Un mot court de trois lettres se terminant par une nasale vélaire 'ŋ'."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire son espace de vie (pièces, agencement, mobilier) avec précision et fluidité",
+    "Évaluer et comparer les avantages et inconvénients de la vie en centre-ville versus en périphérie",
+    "Utiliser les pronoms relatifs simples (qui, que, où, dont) pour fluidifier le discours descriptif",
+    "Exprimer des sentiments d'appartenance, de confort ou d'insatisfaction liés à son cadre de vie"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "1. L'opposition entre les voyelles nasales /ɑ̃/ (dans 'appartement', 'en ville') et /ɔ̃/ (dans 'maison', 'balcon') : veillez à bien fermer la bouche et arrondir les lèvres pour le son /ɔ̃/, tandis que la bouche s'ouvre davantage pour le son /ɑ̃/. 2. Le son /œʁ/ dans 'immeuble' (/imœbl/) ou 'quartier' (/kaʁtje/) : le 'r' doit être expiré doucement sans interruption du flux d'air vocalique.",
+    "common_pitfalls": "1. Le 'h' de 'habiter' ou 'habitation' est strictement muet, mais attention à la liaison avec le pronom (ex: 'j'habite' /ʒabit/ ou 'nous habitons' /nuz_abitɔ̃/). 2. Prononcer le 't' final de 'logement' ou 'bâtiment' : ces consonnes sont muettes à l'oral."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_b1_l1",
+      "term": "Le logement",
+      "phonetic_api": "/lə lɔʒmɑ̃/",
+      "phonetic_simple": "LEU LOJ-MAN",
+      "translation": "Housing / Accommodation",
+      "example_sentence": "Trouver un logement abordable en centre-ville est devenu difficile.",
+      "example_phonetic": "/tʁuve œ̃ lɔʒmɑ̃ abɔʁdabl ɑ̃ sɑ̃tʁəvil ɛ dəvny difisil/",
+      "example_translation": "Finding affordable housing in the city center has become difficult."
+    },
+    {
+      "word_id": "v2_b1_l1",
+      "term": "La banlieue / La périphérie",
+      "phonetic_api": "/la bɑ̃ljø/ / /la peʁifeʁi/",
+      "phonetic_simple": "LA BAN-LIEU / LA PE-REE-FE-REE",
+      "translation": "The suburbs / The outskirts",
+      "example_sentence": "De nombreuses familles quittent Paris pour s'installer en banlieue.",
+      "example_phonetic": "/də nɔ̃bʁøz famij kit paʁi puʁ sɛ̃stale ɑ̃ bɑ̃ljø/",
+      "example_translation": "Many families leave Paris to settle in the suburbs."
+    },
+    {
+      "word_id": "v3_b1_l1",
+      "term": "Spacieux / Lumineux",
+      "phonetic_api": "/spasjø/ / /lyminø/",
+      "phonetic_simple": "SPA-SIEU / LU-MEE-NEU",
+      "translation": "Spacious / Bright",
+      "example_sentence": "Mon nouvel appartement est très spacieux et particulièrement lumineux.",
+      "example_phonetic": "/mɔ̃ nuvɛl apaʁtəmɑ̃ ɛ tʁɛ spasjø e paʁtikyljɛʁmɑ̃ lyminø/",
+      "example_translation": "My new apartment is very spacious and particularly bright."
+    },
+    {
+      "word_id": "v4_b1_l1",
+      "term": "Le loyer",
+      "phonetic_api": "/lə lwaje/",
+      "phonetic_simple": "LEU LOA-YE",
+      "translation": "The rent",
+      "example_sentence": "Le loyer de ce studio inclut les charges d'électricité et d'eau.",
+      "example_phonetic": "/lə lwaje də sə stydjo ɛ̃kly le ʃaʁʒ delɛktʁisite e do/",
+      "example_translation": "The rent for this studio includes electricity and water charges."
+    },
+    {
+      "word_id": "v5_b1_l1",
+      "term": "La proximité",
+      "phonetic_api": "/la pʁɔksimite/",
+      "phonetic_simple": "LA PROK-SEE-MEE-TE",
+      "translation": "Proximity / Closeness",
+      "example_sentence": "La proximité des transports en commun est un grand avantage.",
+      "example_phonetic": "/la pʁɔksimite de tʁɑ̃spɔʁz_ɑ̃ kɔmɛ̃ ɛt_œ̃ ɡʁɑ̃t_avɑ̃taʒ/",
+      "example_translation": "The proximity to public transportation is a major advantage."
+    },
+    {
+      "word_id": "v6_b1_l1",
+      "term": "Un aménagement",
+      "phonetic_api": "/œ̃n_amɛnaʒmɑ̃/",
+      "phonetic_simple": "UN NA-ME-NAJ-MAN",
+      "translation": "A layout / arrangement",
+      "example_sentence": "Nous avons modifié l'aménagement du salon pour gagner de la place.",
+      "example_phonetic": "/nuz_avɔ̃ mɔdifje lamɛnaʒmɑ̃ dy salɔ̃ puʁ ɡaɲe də la plas/",
+      "example_translation": "We changed the layout of the living room to save space."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_b1_l1",
+      "original": "J'habite dans un quartier animé où il y a beaucoup de commerces.",
+      "phonetic_api": "/ʒabit dɑ̃z_œ̃ kaʁtje anime u il ja boku də kɔmɛʁs/",
+      "phonetic_simple": "JA-BITE DAN-ZUN KAR-TIE A-NEE-ME OU IL YA BO-KOU DEU KO-MERS",
+      "translation": "I live in a lively neighborhood where there are many shops.",
+      "context": "Décrire l'ambiance générale de sa zone de résidence."
+    },
+    {
+      "phrase_id": "p2_b1_l1",
+      "original": "Ma maison dispose d'un jardin sans aucun vis-à-vis.",
+      "phonetic_api": "/ma mɛzɔ̃ dispɔz dœ̃ ʒaʁdɛ̃ sɑ̃z_okɛ̃ vizavi/",
+      "phonetic_simple": "MA ME-ZON DEES-POZ DEUN JAR-DIN SAN-ZOKUN VEE-ZA-VEE",
+      "translation": "My house features a garden with no overlooked views / complete privacy.",
+      "context": "Valoriser un atout majeur de son espace extérieur."
+    },
+    {
+      "phrase_id": "p3_b1_l1",
+      "original": "Le seul inconvénient est le manque de places de stationnement.",
+      "phonetic_api": "/lə sœl ɛ̃kɔ̃venjɑ̃ ɛ lə mɑ̃k də plas də stasjɔnmɑ̃/",
+      "phonetic_simple": "LEU SEUL IN-KON-VE-NIAN E LEU MANK DEU PLAS DEU STA-SION-MAN",
+      "translation": "The only downside is the lack of parking spaces.",
+      "context": "Formuler une critique constructive ou une insatisfaction sur sa ville."
+    },
+    {
+      "phrase_id": "p4_b1_l1",
+      "original": "C'est un logement ancien qui a beaucoup de cachet.",
+      "phonetic_api": "/sɛt_œ̃ lɔʒmɑ̃ ɑ̃sjɛ̃ ki a boku də kaʃɛ/",
+      "phonetic_simple": "SET-UN LOJ-MAN AN-SIEN KEE A BO-KOU DEU KA-SHE",
+      "translation": "It's an old property that has a lot of character.",
+      "context": "Parler du style architectural de son appartement."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les Pronoms Relatifs Simples (Qui, Que, Où, Dont)",
+      "explanation": "Les pronoms relatifs permettent de relier deux propositions pour éviter les répétitions et enrichir les descriptions.",
+      "rules": [
+        "QUI : Remplace le sujet de la proposition relative. Exemple : C'est une ville QUI bouge beaucoup.",
+        "QUE : Remplace le complément d'objet direct (COD). Devant une voyelle, il devient QU'. Exemple : L'appartement QUE j'ai loué est petit.",
+        "OÙ : Indique le lieu ou le temps. Exemple : Le quartier OÙ je travaille est calme.",
+        "DONT : Remplace un complément introduit par la préposition 'de'. Exemple : C'est la maison DONT je t'ai parlé (parler DE quelque chose)."
+      ],
+      "examples": [
+        {
+          "structure": "C'est un quartier où il fait bon vivre.",
+          "phonetic_api": "/sɛt_œ̃ kaʁtje u il fɛ bɔ̃ vivʁ/",
+          "meaning": "It's a neighborhood where life is good."
+        },
+        {
+          "structure": "Le balcon dont je dispose offre une vue dégagée.",
+          "phonetic_api": "/lə balkɔ̃ dɔ̃ ʒə dispɔz ɔfʁə yn vy deɡaʒe/",
+          "meaning": "The balcony I have offers an unobstructed view."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Julien",
+      "text": "Alors Sofia, tu as enfin déménagé ? Ton nouvel appartement te plaît ?",
+      "phonetic_api": "/alɔʁ sɔfja ty a ɑ̃fɛ̃ demenaʒe tɔ̃ nuvɛl apaʁtəmɑ̃ tə plɛ/",
+      "phonetic_simple": "A-LOR SO-FIA, TU A AN-FIN DE-ME-NA-JE ? TON NOU-VEL A-PAR-TE-MAN TEU PLE ?",
+      "translation": "So Sofia, did you finally move? Do you like your new apartment?"
+    },
+    {
+      "speaker": "Sofia",
+      "text": "Oui ! J'ai trouvé un trois-pièces en plein cœur de Bordeaux. C'est un logement ancien avec de hauts plafonds que j'adore.",
+      "phonetic_api": "/wi ʒe tʁuve œ̃ tʁwaprɛs ɑ̃ plɛ̃ kœʁ də bɔʁdo sɛt_œ̃ lɔʒmɑ̃ ɑ̃sjɛ̃ avɛk də o plafɔ̃ kə ʒadɔʁ/",
+      "phonetic_simple": "OUI ! JE TROU-VE UN TROA-PIESS AN PLIN KEUR DEU BOR-DO. SET-UN LOJ-MAN AN-SIEN A-VEK DEU O PLA-FON KEU JA-DOR.",
+      "translation": "Yes! I found a two-bedroom apartment right in the heart of Bordeaux. It's an old property with high ceilings that I love."
+    },
+    {
+      "speaker": "Julien",
+      "text": "Génial ! Le quartier n'est pas trop bruyant à cause de la circulation ?",
+      "phonetic_api": "/ʒenjal lə kaʁtje nɛ pa tʁo bʁɥijɑ̃ a koz də la siʁkylasjɔ̃/",
+      "phonetic_simple": "JE-NIAL ! LEU KAR-TIE NE PA TRO BRUI-YAN A KOZ DEU LA SEER-KU-LA-SION ?",
+      "translation": "Brilliant! Isn't the neighborhood too noisy because of the traffic?"
+    },
+    {
+      "speaker": "Sofia",
+      "text": "Un peu le week-end, c'est vrai, mais j'ai une cour intérieure qui atténue le bruit. Et surtout, je suis à proximité de tous les commerces, ce dont je rêvais.",
+      "phonetic_api": "/œ̃ pø lə wikɛnd sɛ vʁɛ mɛ ʒe yn kuʁ ɛ̃teʁjœʁ ki ateny lə bʁɥi e syʁtu ʒə sɥiz_a pʁɔksimite də tu le kɔmɛʁs sə dɔ̃ ʒə ʁɛvɛ/",
+      "phonetic_simple": "UN PEU LEU WEEK-END, SE VRE, ME JE UNE KOUR IN-TE-RIEUR KEE A-TE-NUE LEU BRUI. E SUR-TOU, JE SUI-A PROK-SEE-MEE-TE DEU TOU LE KO-MERS, SEU DON JE RE-VE.",
+      "translation": "A bit on weekends, true, but I have an inner courtyard that muffles the noise. And above all, I am close to all the shops, which is what I was dreaming of."
+    }
+  ],
+  "cultural_notes": [
+    "Les appartements 'haussmanniens' : Typiques de Paris et de plusieurs grandes villes françaises, ils se reconnaissent à leur façade en pierre de taille, leurs balcons filants au 2e et 5e étages, ainsi qu'à l'intérieur : parquets d'origine, moulures au plafond et cheminées en marbre.",
+    "La tendance du 'retour au vert' : Depuis quelques années, de nombreux citadins français choisissent de quitter les grands centres urbains pour des villes moyennes ou des zones rurales afin de gagner en espace et en qualité de vie."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_b1_l1",
+      "type": "multiple_choice",
+      "question": "Complétez la phrase avec le bon pronom relatif : 'C'est une ville dynamique [ ___ ] attire beaucoup de jeunes professionnels.'",
+      "options": [
+        "que",
+        "dont",
+        "qui"
+      ],
+      "correct_answer": "qui",
+      "explanation": "Le pronom doit remplacer le sujet du verbe 'attire', on choisit donc 'qui'."
+    },
+    {
+      "exercise_id": "ex2_b1_l1",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le studio [ ___ ] j'ai visité hier possède un grand balcon ensoleillé.",
+      "correct_answer": "que",
+      "hint": "Pronom relatif employé comme complément d'objet direct (COD) du verbe visiter."
+    }
+  ]
+}

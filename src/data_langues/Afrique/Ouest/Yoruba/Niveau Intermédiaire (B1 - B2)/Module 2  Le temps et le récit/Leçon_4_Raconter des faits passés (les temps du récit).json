@@ -1,0 +1,264 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Maîtriser le fonctionnement de l'aspect accompli zéro pour exprimer un fait passé",
+    "Utiliser les marqueurs temporels rétrospectifs et de coupure (àná, tẹ́lẹ̀, ti)",
+    "Structurer chronologiquement un récit complexe d'événements révolus"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon repose sur la prononciation du morphème d'antériorité 'ti' [ti] (ton moyen). Veillez à ne pas l'allonger indûment. L'accentuation des adverbes temporels comme 'àná' [àná] (Bas-Haut) et 'létí' exige une rupture nette dans la courbe mélodique.",
+    "common_pitfalls": "Confondre le marqueur d'antériorité 'ti' (j'ai fait) avec la préposition de provenance 'ti' (de / depuis). Le contexte syntaxique et le ton moyen stable du marqueur d'aspect permettent de faire la distinction."
+  },
+  "vocabulary": [
+    {
+      "word_id": "B1_M2_L4_V1",
+      "term": "Àná",
+      "phonetic_api": "/àná/",
+      "phonetic_simple": "À-NÁ",
+      "translation": "Hier",
+      "example_sentence": "Mo rí ọ̀rẹ́ mi láná.",
+      "example_phonetic": "/mo ɾí ɔ̀ɾɛ́ mĩ láná/",
+      "example_translation": "J'ai vu mon ami hier (l'initiale 'l' s'ajoute par liaison)."
+    },
+    {
+      "word_id": "B1_M2_L4_V2",
+      "term": "Tẹ́lẹ̀",
+      "phonetic_api": "/tɛ́lɛ̀/",
+      "phonetic_simple": "TÉ-LÈ",
+      "translation": "Auparavant / Jadis / Autrefois",
+      "example_sentence": "Ní tẹ́lẹ̀, mo ń gbé ní Ìbàdàn.",
+      "example_phonetic": "/ní tɛ́lɛ̀ mo ŋ́ ɡ͡bé ní ìbàdã̀/",
+      "example_translation": "Auparavant, j'habitais à Ibadan."
+    },
+    {
+      "word_id": "B1_M2_L4_V3",
+      "term": "Lẹ́yìn-náà",
+      "phonetic_api": "/lɛ́jĩ̀nàː/",
+      "phonetic_simple": "LÉ-YÌN-NÁÀ",
+      "translation": "Ensuite / Après cela / Puis",
+      "example_sentence": "Lẹ́yìn-náà, a jẹun pa pọ̀.",
+      "example_phonetic": "/lɛ́jĩ̀nàː a d͡ʒɛʊ̃ k͡pa kɔ̀/",
+      "example_translation": "Ensuite, nous avons mangé ensemble."
+    },
+    {
+      "word_id": "B1_M2_L4_V4",
+      "term": "Kúrò",
+      "phonetic_api": "/kúɾɔ̀/",
+      "phonetic_simple": "KOÚ-RÒ",
+      "translation": "Quitter / Partir de (action révolue)",
+      "example_sentence": "Mo kúrò ní ibi iṣẹ́ ní aago márùn-ún.",
+      "example_phonetic": "/mo kúɾɔ̀ ní ibi iʃɛ́ ní aːɡo máɾʊ̀/",
+      "example_translation": "J'ai quitté le travail à cinq heures."
+    },
+    {
+      "word_id": "B1_M2_L4_V5",
+      "term": "Ṣẹlẹ̀",
+      "phonetic_api": "/ʃɛlɛ̀/",
+      "phonetic_simple": "SHẸ-LÈ",
+      "translation": "Se passer / Arriver / S'accomplir",
+      "example_sentence": "Kí ni ó ṣẹlẹ̀ ní àdúgbò rẹ?",
+      "example_phonetic": "/kí nĩ ó ʃɛlɛ̀ ní àdúgbò ɾɛ/",
+      "example_translation": "Qu'est-ce qu'il s'est passé dans ton quartier ?"
+    },
+    {
+      "word_id": "B1_M2_L4_V6",
+      "term": "Ìsẹ̀lẹ̀",
+      "phonetic_api": "/ìʃɛlɛ̀/",
+      "phonetic_simple": "Ì-SHẸ-LÈ",
+      "translation": "Événement / Fait historique / Incident",
+      "example_sentence": "Ìsẹ̀lẹ̀ yẹn ti kọjá báyìí.",
+      "example_phonetic": "/ìʃɛlɛ̀ d͡ʒɛ̃ ti kɔd͡ʒá bájĩː/",
+      "example_translation": "Cet événement est désormais du passé."
+    },
+    {
+      "word_id": "B1_M2_L4_V7",
+      "term": "Parí",
+      "phonetic_api": "/k͡paɾí/",
+      "phonetic_simple": "KPA-RÍ",
+      "translation": "Terminer / Finir / Clore un processus",
+      "example_sentence": "Mo parí iṣẹ́ mi lónìí.",
+      "example_phonetic": "/mo k͡paɾí iʃɛ́ mĩ lónĩ́/",
+      "example_translation": "J'ai terminé mon travail aujourd'hui."
+    },
+    {
+      "word_id": "B1_M2_L4_V8",
+      "term": "Kọjá",
+      "phonetic_api": "/kɔd͡ʒá/",
+      "phonetic_simple": "KAW-JÁ",
+      "translation": "Passer / S'écouler (en parlant du temps)",
+      "example_sentence": "Oṣù tí ó kọjá jẹ́ oṣù rere.",
+      "example_phonetic": "/oʃù tí ó kɔd͡ʒá d͡ʒɛ́ oṣù ɾeɾe/",
+      "example_translation": "Le mois passé était un bon mois."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "B1_M2_L4_P1",
+      "original": "Kí ni o ṣe ní ọjọ́ Àbámẹ́ta tí ó kọjá?",
+      "phonetic_api": "/kí nĩ o ʃe ní ɔd͡ʒɔ́ àbámɛ́ta tí ó kɔd͡ʒá/",
+      "phonetic_simple": "KÍ NI O SHÉ NÍ AW-JÁ À-BÁ-MÉ-TA TÍ Ó KAW-JÁ?",
+      "translation": "Qu'as-tu fait samedi dernier ?",
+      "context": "Question ouverte standard pour lancer un récit au passé."
+    },
+    {
+      "phrase_id": "B1_M2_L4_P2",
+      "original": "Mo lọ sí ọjà, lẹ́yìn-náà mo ra aṣọ.",
+      "phonetic_api": "/mo lɔ sí ɔd͡ʒà lɛ́jĩ̀nàː mo ɾa aʃɔ́/",
+      "phonetic_simple": "MO LAW SÍ AW-JÀ, LÉ-YÌN-NÁÀ MO RA A-SHÓ.",
+      "translation": "Je suis allé au marché, puis j'ai acheté un vêtement.",
+      "context": "Enchaînement chronologique d'actions accomplies."
+    },
+    {
+      "phrase_id": "B1_M2_L4_P3",
+      "original": "Ṣé o ti parí iṣẹ́ rẹ kí o tó jáde?",
+      "phonetic_api": "/ʃé o ti k͡paɾí iʃɛ́ ɾɛ kí o tó d͡ʒáde/",
+      "phonetic_simple": "SHÉ O TI KPA-RÍ I-SHÉ RÈ KÍ O TÓ JÁ-DE?",
+      "translation": "Avais-tu terminé ton travail avant de sortir ?",
+      "context": "Vérification de l'antériorité d'une action par rapport à une autre."
+    },
+    {
+      "phrase_id": "B1_M2_L4_P4",
+      "original": "Bẹ́ẹ̀ ni, mo ti ṣe gbogbo rẹ̀ tẹ́lẹ̀.",
+      "phonetic_api": "/bɛ́ː nĩ mo ti ʃe ɡ͡boɡ͡bo ɾɛ̀ tɛ́lɛ̀/",
+      "phonetic_simple": "BÉÈ NI, MO TI SHÉ GBOGBO RÈ TÉ-LÈ.",
+      "translation": "Oui, j'avais déjà tout fait auparavant.",
+      "context": "Affirmation de la complétude d'une tâche."
+    },
+    {
+      "phrase_id": "B1_M2_L4_P5",
+      "original": "Ní àná, inú mi kò dùn nítorí ìsẹ̀lẹ̀ yẹn.",
+      "phonetic_api": "/ní àná inú mĩ kò dù nĩtoɾí ìʃɛlɛ̀ d͡ʒɛ̃/",
+      "phonetic_simple": "NÍ À-NÁ, I-NOÚ MI KÒ DOÙN NÍ-TO-RÍ Ì-SHẸ-LÈ YẸN.",
+      "translation": "Hier, je n'étais pas heureux à cause de cet incident.",
+      "context": "Expression rétrospective d'un sentiment."
+    },
+    {
+      "phrase_id": "B1_M2_L4_P6",
+      "original": "Aago mélòó ni o kúrò ní ilé-ìwòsàn?",
+      "phonetic_api": "/aːɡo mélòː nĩ o kúɾɔ̀ ní iléìwòsã̀/",
+      "phonetic_simple": "AH-GO MÉ-LÒÒ NI O KOÚ-RÒ NÍ I-LÉ-Ì-WÒ-SÀN?",
+      "translation": "À quelle heure as-tu quitté l'hôpital ?",
+      "context": "Demande de précision chronologique sur un fait passé."
+    },
+    {
+      "phrase_id": "B1_M2_L4_P7",
+      "original": "Wọ́n ti lọ sí ilú Èkó kí n tó dé.",
+      "phonetic_api": "/wɔ́ ti lɔ sí ilú èkó kí ŋ̀ tó dé/",
+      "phonetic_simple": "WÁN TI LAW SÍ I-LOÚ È-KÓ KÍ N TÓ DÉ.",
+      "translation": "Ils étaient déjà partis à Lagos avant mon arrivée.",
+      "context": "Expression du plus-que-parfait (antériorité relative)."
+    },
+    {
+      "phrase_id": "B1_M2_L4_P8",
+      "original": "Ìsẹ̀lẹ̀ náà jẹ́ ohun pàtàkì nínú ayé mi.",
+      "phonetic_api": "/ìʃɛlɛ̀ náː d͡ʒɛ́ ohʊ̃ kàtàkì nĩ́nú ajé mĩ/",
+      "phonetic_simple": "Ì-SHẸ-LÈ NÁÀ JÉ OHÒÙN KPA-TÀ-KÌ NÍ-NOÚ A-YÉ MI.",
+      "translation": "Cet événement a été un moment crucial dans ma vie.",
+      "context": "Bilan moral ou historique d'une situation passée."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accompli zéro pour l'expression du passé",
+      "explanation": "En yoruba, les verbes d'action purs ne portent aucun morphème de temps spécifique pour marquer le passé simple ou le passé composé. L'absence de marqueur (la forme nue du verbe, ou accompli zéro) indique par défaut que l'action est complétée et résolue au moment de la parole.",
+      "rules": [
+        "Structure : [Sujet] + [Verbe d'action à sa forme nue].",
+        "Pour lever toute ambiguïté, on ajoute des adverbes temporels (àná, tẹ́lẹ̀, lọ́jọ́ kọkànlá)."
+      ],
+      "examples": [
+        {
+          "structure": "Mo + lọ + sí ọjà",
+          "phonetic_api": "/mo lɔ sí ɔd͡ʒà/",
+          "meaning": "Je suis allé au marché (Forme nue du verbe 'lọ')."
+        },
+        {
+          "structure": "Olú + ra + bàtà láná",
+          "phonetic_api": "/olú ɾa bàtà láná/",
+          "meaning": "Olu a acheté des chaussures hier."
+        }
+      ]
+    },
+    {
+      "concept": "Le marqueur d'antériorité relative 'ti'",
+      "explanation": "Le morphème grammatical 'ti' se place entre le sujet et le verbe pour spécifier qu'une action s'est déroulée antérieurement à un repère temporel ou qu'elle est totalement achevée (valeur de parfait ou de plus-que-parfait).",
+      "rules": [
+        "Structure : [Sujet] + ti + [Verbe].",
+        "Souvent associé à la locution 'kí... tó' (avant que... ne)."
+      ],
+      "examples": [
+        {
+          "structure": "Mo + ti + jẹun",
+          "phonetic_api": "/mo ti d͡ʒɛʊ̃/",
+          "meaning": "J'ai déjà mangé / J'avais mangé."
+        },
+        {
+          "structure": "Wọ́n ti parí + kí n tó dé",
+          "phonetic_api": "/wɔ́ ti k͡paɾí kí ŋ̀ tó dé/",
+          "meaning": "Ils avaient fini avant que je n'arrive."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Bọ́lándé (La cousine)",
+      "text": "Káàsán o, Túnjí. Mo wá ọ sílé láná ṣùgbọ́n nò rí ọ. Níbo ni o lọ?",
+      "phonetic_api": "/káːsã́ o tʊ̃d͡ʒí mo wá ɔ sílé láná ʃùɡ͡bɔ́ nò ɾí ɔ níbo nĩ o lɔ/",
+      "phonetic_simple": "KÁÀ-SÁN O, TOÚN-JÍ. MO WÁ AW SÍ-LÉ LÁ-NÁ SHOÙ-GBÓN NÒ RÍ AW. NÍ-BO NI O LAW?",
+      "translation": "Bonjour, Tunji. Je suis venue te chercher à la maison hier mais je ne t'ai pas trouvé. Où es-tu allé ?"
+    },
+    {
+      "speaker": "Túnjí (L'interlocuteur)",
+      "text": "Ẹ kààsán, Bọ́lá. Ní àárọ̀ àná, mo lọ sí àrin-gbùngbù ìlú láti ra ẹrù. Lẹ́yìn-náà, mo yà sí ilé-ìfowópamọ́.",
+      "phonetic_api": "/ɛ̀ kàːsã́ bɔ́lá ní àːɾɔ̀ àná mo lɔ sí àɾĩɡ͡bʊ̃ɡ͡bù ilú láti ɾa ɛɾù lɛ́jĩ̀nàː mo jà sí iléìfowók͡pamɔ́/",
+      "phonetic_simple": "È KÀÀ-SÁN, BÓ-LÁ. NÍ ÀÀ-RÁW À-NÁ, MO LAW SÍ À-RIN-GBOÙN-GBOÙ I-LOÚ LÁ-TI RA È-ROÙ. LÉ-YÌN-NÁÀ, MO YÀ SÍ I-LÉ-Ì-FO-WÓ-KPA-MÁW.",
+      "translation": "Bonjour, Bola. Hier matin, je suis allé au centre-ville pour faire des courses. Ensuite, je suis passé à la banque."
+    },
+    {
+      "speaker": "Bọ́lándé (La cousine)",
+      "text": "Ṣé o ti parí iṣẹ́ rẹ ní fásitì kí o tó lọ sọ́jà?",
+      "phonetic_api": "/ʃé o ti k͡paɾí iʃɛ́ ɾɛ ní fásitì kí o tó lɔ sɔ́d͡ʒà/",
+      "phonetic_simple": "SHÉ O TI KPA-RÍ I-SHÉ RÈ NÍ FÁ-SI-TÌ KÍ O TÓ LAW SÁW-JÀ?",
+      "translation": "Avais-tu terminé ton travail à l'université avant d'aller au marché ?"
+    },
+    {
+      "speaker": "Túnjí (L'interlocuteur)",
+      "text": "Bẹ́ẹ̀ ni, mo ti parí rẹ̀ pátápátá lọ́jọ́ Àbámẹ́ta. Ìsẹ̀lẹ̀ kankan kò dín mọ́ mi lọ́wọ́.",
+      "phonetic_api": "/bɛ́ː nĩ mo ti k͡paɾí ɾɛ̀ k͡páták͡páta lɔ́d͡ʒɔ́ àbámɛ́ta ìʃɛlɛ̀ kãkã kò dĩ́ mɔ́ mĩ lɔ́wɔ́/",
+      "phonetic_simple": "BÉÈ NI, MO TI KPA-RÍ RÈ KPÁ-TÁ-KPÁ-TÁ LÁW-JÁ À-BÁ-MÉ-TA. Ì-SHẸ-LÈ KAN-KAN KÒ DÍN MÁ MÍ LÁW-WÓ.",
+      "translation": "Oui, je l'avais complètement terminé samedi. Aucun contretemps ne m'a retenu."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la tradition orale yoruba, la narration du passé utilise le rythme pour captiver l'audience. Un bon conteur commence souvent ses récits historiques par la formule rituelle 'Àlọ́ o!' à laquelle l'auditoire répond 'Àlọ́!' pour signifier son attention active.",
+    "La notion du temps historique se mesure fréquemment par rapport aux règnes des rois traditionnels (Oba) ou à des catastrophes naturelles mémorables (ex: 'Ní ọdún tí òjò nla rọ̀' = L'année où la grande pluie est tombée), plutôt que par des dates chiffrées précises.",
+    "Raconter ses faits et gestes de la veille de manière détaillée à ses aînés lors de la salutation du matin est une marque de transparence, de respect et de confiance mutuelle au sein de la concession."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L4_EX1",
+      "type": "multiple_choice",
+      "question": "Comment traduit-on correctement l'affirmation au passé 'Hier, j'ai acheté des chaussures' ?",
+      "options": [
+        "Mo rà bàtà láná",
+        "Mo ń ra bàtà láná",
+        "Mo máa ra bàtà láná",
+        "Bàtà ni mo máa ń ra"
+      ],
+      "correct_answer": "Mo rà bàtà láná",
+      "explanation": "L'action étant accomplie et passée, le verbe 'rà' s'utilise à sa forme nue (accompli zéro), complété par l'adverbe temporel 'láná' (hier)."
+    },
+    {
+      "exercise_id": "B1_M2_L4_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour marquer l'antériorité d'un événement (équivalent du parfait ou plus-que-parfait), on place le morphème [ ___ ] juste avant le verbe.",
+      "correct_answer": "ti",
+      "hint": "C'est un petit mot invariable à ton moyen indiquant qu'une action est déjà complétée."
+    }
+  ]
+}

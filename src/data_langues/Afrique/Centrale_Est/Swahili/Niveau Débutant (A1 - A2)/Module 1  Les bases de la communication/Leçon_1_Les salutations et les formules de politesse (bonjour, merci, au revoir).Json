@@ -1,0 +1,318 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Savoir saluer selon le moment précis de la journée (matin, midi, après-midi, soir, nuit)",
+    "Maîtriser les rituels complexes de respect intergénérationnel et hiérarchique",
+    "Exprimer la politesse, la gratitude, l'excuse et la bienvenue au singulier et au pluriel",
+    "Répondre de manière adéquate et fluide aux salutations courantes et idiomatiques"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'accent tonique en swahili est d'une régularité absolue : il frappe toujours l'avant-dernière syllabe (la pénultième). Les voyelles se prononcent de façon pure et détachée : 'a' [a], 'e' [ɛ], 'i' [i], 'o' [ɔ], 'u' [u] (comme le 'ou' français). Le 'h' est systématiquement expiré [h], jamais muet. Le groupe 'ch' se prononce [tʃ] comme dans 'chocolat' en anglais, et le 'j' se prononce [dʒ] comme dans 'jazz'.",
+    "common_pitfalls": "Le piège majeur pour les francophones est la tentation de nasaliser les voyelles précédant 'n' ou 'm'. Dans des mots comme 'Asante' ou 'Nzuri', le 'n' doit être articulé distinctement sans modifier la pureté de la voyelle. Les consonnes pré-nasalisées complexes ('mb', 'nd', 'nj', 'ng', 'nz') se prononcent comme un seul bloc consonantique en début de syllabe, sans coupure respiratoire."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Habari",
+      "phonetic_api": "/haˈba.ri/",
+      "phonetic_simple": "HAA-BAA-REE",
+      "translation": "Nouvelle(s) / Information(s)",
+      "example_sentence": "Habari zenu?",
+      "example_phonetic": "/haˈba.ri ˈzɛ.nu/",
+      "example_translation": "Quelles sont vos nouvelles ? (Comment allez-vous, vous tous ?)"
+    },
+    {
+      "word_id": "v2",
+      "term": "Asante",
+      "phonetic_api": "/aˈsa.ntɛ/",
+      "phonetic_simple": "AH-SAHN-TEH",
+      "translation": "Merci",
+      "example_sentence": "Asante sana kwa chakula.",
+      "example_phonetic": "/aˈsa.ntɛ ˈsa.na kwa tʃaˈku.la/",
+      "example_translation": "Merci beaucoup pour la nourriture."
+    },
+    {
+      "word_id": "v3",
+      "term": "Tafadhali",
+      "phonetic_api": "/ta.faˈða.li/",
+      "phonetic_simple": "TAH-FAH-ZAA-LEE",
+      "translation": "S'il vous plaît",
+      "example_sentence": "Nipatie maji, tafadhali.",
+      "example_phonetic": "/ni.paˈti.ɛ ˈma.dʒi ta.faˈða.li/",
+      "example_translation": "Donnez-moi de l'eau, s'il vous plaît."
+    },
+    {
+      "word_id": "v4",
+      "term": "Samahani",
+      "phonetic_api": "/sa.maˈha.ni/",
+      "phonetic_simple": "SAH-MAH-HAA-NEE",
+      "translation": "Pardon / Excusez-moi",
+      "example_sentence": "Samahani, ninachelewa.",
+      "example_phonetic": "/sa.maˈha.ni ni.na.tʃɛˈlɛ.wa/",
+      "example_translation": "Excusez-moi, je suis en retard."
+    },
+    {
+      "word_id": "v5",
+      "term": "Karibu",
+      "phonetic_api": "/kaˈri.bu/",
+      "phonetic_simple": "KAH-REE-BOO",
+      "translation": "Bienvenue (au singulier) / Entre / Approche",
+      "example_sentence": "Karibu sebuleni, bwana.",
+      "example_phonetic": "/kaˈri.bu sɛ.buˈlɛ.ni ˈbwa.na/",
+      "example_translation": "Bienvenue au salon, monsieur."
+    },
+    {
+      "word_id": "v6",
+      "term": "Heko",
+      "phonetic_api": "/ˈhɛ.kɔ/",
+      "phonetic_simple": "HEH-KOH",
+      "translation": "Félicitations / Bravo",
+      "example_sentence": "Heko kwa kazi nzuri!",
+      "example_phonetic": "/ˈhɛ.kɔ kwa ˈka.zi ˈnzu.ri/",
+      "example_translation": "Félicitations pour le bon travail !"
+    },
+    {
+      "word_id": "v7",
+      "term": "Pole",
+      "phonetic_api": "/ˈpɔ.lɛ/",
+      "phonetic_simple": "POH-LEH",
+      "translation": "Désolé / Mes condoléances / Courage (compassion face à une épreuve)",
+      "example_sentence": "Pole kwa uchovu wa safari.",
+      "example_phonetic": "/ˈpɔ.lɛ kwa uˈtʃɔ.vu wa saˈfa.ri/",
+      "example_translation": "Courage face à la fatigue du voyage."
+    },
+    {
+      "word_id": "v8",
+      "term": "Shikamoo",
+      "phonetic_api": "/ʃi.kaˈmɔː/",
+      "phonetic_simple": "SHEE-KAH-MOH",
+      "translation": "Mes respects (litt. 'Je touche vos pieds')",
+      "example_sentence": "Shikamoo, mwalimu wangu.",
+      "example_phonetic": "/ʃi.kaˈmɔː mwaˈli.mu ˈwa.ŋgu/",
+      "example_translation": "Mes respects, mon professeur."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Hujambo?",
+      "phonetic_api": "/huˈdʒa.mbɔ/",
+      "phonetic_simple": "HOO-DJAHM-BOH",
+      "translation": "Comment vas-tu ? / Tu n'as pas de problème ?",
+      "context": "Rencontre standard en tête-à-tête avec un pair ou une personne du même âge."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Sijambo.",
+      "phonetic_api": "/siˈdʒa.mbɔ/",
+      "phonetic_simple": "SEE-DJAHM-BOH",
+      "translation": "Je vais bien. / Je n'ai pas de problème.",
+      "context": "Réponse stricte, immédiate et obligatoire à la question 'Hujambo?'."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Hamjambo?",
+      "phonetic_api": "/ha.mdʒa.mbɔ/",
+      "phonetic_simple": "HAHM-DJAHM-BOH",
+      "translation": "Comment allez-vous ? (Pluriel)",
+      "context": "Adressé à un groupe de deux personnes ou plus au moment des salutations."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Hatujambo.",
+      "phonetic_api": "/ha.tu.dʒa.mbɔ/",
+      "phonetic_simple": "HAH-TOO-DJAHM-BOH",
+      "translation": "Nous allons bien. / Nous n'avons pas de problème.",
+      "context": "Réponse collective unanime face à la question 'Hamjambo?'."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Marahaba.",
+      "phonetic_api": "/ma.raˈha.ba/",
+      "phonetic_simple": "MAH-RAH-HAA-BAH",
+      "translation": "Je reçois tes respects avec bienveillance.",
+      "context": "Réponse verbale exclusive de l'aîné ou du supérieur après avoir reçu le 'Shikamoo'."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Habari ya asubuhi?",
+      "phonetic_api": "/haˈba.ri ja a.suˈbu.hi/",
+      "phonetic_simple": "HAA-BAA-REE YAH AH-SOO-BOO-HEE",
+      "translation": "Comment se passe la matinée ? / Bonjour.",
+      "context": "Utilisé du lever du jour jusqu'à environ 11h00 du matin."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Habari ya mchana?",
+      "phonetic_api": "/haˈba.ri ja mˈtʃa.na/",
+      "phonetic_simple": "HAA-BAA-REE YAH MCHAH-NAH",
+      "translation": "Comment se passe la journée ? / Bon après-midi.",
+      "context": "Utilisé pendant les heures chaudes, entre 12h00 et 15h00."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Habari ya jioni?",
+      "phonetic_api": "/haˈba.ri ja dʒiˈɔ.ni/",
+      "phonetic_simple": "HAA-BAA-REE YAH DJEE-OH-NEE",
+      "translation": "Comment se passe la soirée ? / Bonsoir.",
+      "context": "Utilisé dès la fin d'après-midi, à partir de 16h00 jusqu'à la tombée de la nuit."
+    },
+    {
+      "phrase_id": "p9",
+      "original": "Habari ya kutwa?",
+      "phonetic_api": "/haˈba.ri ja ˈku.twa/",
+      "phonetic_simple": "HAA-BAA-REE YAH KOO-TWAH",
+      "translation": "Comment s'est passée ta journée ?",
+      "context": "Formule parfaite pour saluer quelqu'un en fin de journée que l'on n'a pas vu depuis le matin."
+    },
+    {
+      "phrase_id": "p10",
+      "original": "Nzuri sana.",
+      "phonetic_api": "/ˈnzu.ri ˈsa.na/",
+      "phonetic_simple": "NZEE-REE SAH-NAH",
+      "translation": "Très bien. / Excellente.",
+      "context": "Réponse la plus courante et polie à toutes les questions construites avec 'Habari'."
+    },
+    {
+      "phrase_id": "p11",
+      "original": "Lala salama.",
+      "phonetic_api": "/ˈla.la saˈla.ma/",
+      "phonetic_simple": "LAH-LAH SAH-LAH-MAH",
+      "translation": "Dors en paix. / Bonne nuit.",
+      "context": "Formule de congé affectueuse ou familiale avant d'aller se coucher."
+    },
+    {
+      "phrase_id": "p12",
+      "original": "Kwa herini ya kuonana.",
+      "phonetic_api": "/kwa hɛˈri.ni ja ku.ɔˈna.na/",
+      "phonetic_simple": "KWAH HEH-REE-NEE YAH KOO-OH-NAH-NAH",
+      "translation": "Au revoir à vous tous, au plaisir de nous revoir.",
+      "context": "Prise de congé formelle et respectueuse s'adressant à une assemblée ou un groupe."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'analyse structurelle des salutations négatives (Hujambo / Sijambo)",
+      "explanation": "En swahili standard, les formules 'Hujambo' et 'Sijambo' ne sont pas de simples interjections interchangeables. Elles proviennent historiquement d'une phrase verbale conjuguée à la forme négative du présent de l'indicatif avec le nom 'jambo' (affaire, problème).",
+      "rules": [
+        "Le radical de base est 'jambo' (au pluriel 'mambo').",
+        "Pour construire la forme, on préfixe le morphème de négation fusionné avec le pronom sujet : SI (Je + Non), HU (Tu + Non), HAM (Vous + Non), HATU (Nous + Non).",
+        "Ainsi, 'Hujambo?' signifie littéralement 'Tu n'as pas de problème ?' et la réponse grammaticale exacte 'Sijambo' signifie 'Je n'ai pas de problème'."
+      ],
+      "examples": [
+        {
+          "structure": "Hu- (Tu négatif) + jambo (affaire/problème)",
+          "phonetic_api": "/huˈdʒa.mbɔ/",
+          "meaning": "Comment vas-tu ? (Singulier)"
+        },
+        {
+          "structure": "Si- (Je négatif) + jambo (affaire/problème)",
+          "phonetic_api": "/siˈdʒa.mbɔ/",
+          "meaning": "Je vais bien. (Singulier)"
+        },
+        {
+          "structure": "Ham- (Vous négatif) + jambo (affaire/problème)",
+          "phonetic_api": "/ha.mdʒa.mbɔ/",
+          "meaning": "Comment allez-vous ? (Pluriel)"
+        }
+      ]
+    },
+    {
+      "concept": "La construction de la relation génitive avec la classe nominale N- (Habari)",
+      "explanation": "Le mot 'Habari' (nouvelle/information) appartient structurellement à la classe nominale 9 (la classe N), qui regroupe une immense quantité de mots empruntés à l'arabe. Pour relier ce nom à un moment de la journée ou à un pronom possesseur, on utilise l'outil d'accord génitif spécifique à cette classe.",
+      "rules": [
+        "Le connecteur d'accord associatif ('de') pour la classe 9 au singulier est 'ya'.",
+        "Au pluriel (les nouvelles), la classe 10 utilise le connecteur 'za' (ex: 'Habari za asubuhi?' est tout aussi correct et encore plus précis).",
+        "Les marqueurs de temps (asubuhi, mchana, jioni, usiku) agissent comme des compléments du nom invariables derrière cet accord."
+      ],
+      "examples": [
+        {
+          "structure": "Habari (Classe 9) + ya (Accord génitif singulier) + jioni (soir)",
+          "phonetic_api": "/haˈba.ri ja dʒiˈɔ.ni/",
+          "meaning": "Les nouvelles du soir (Bonsoir)"
+        },
+        {
+          "structure": "Habari (Classe 10) + za (Accord génitif pluriel) + leo (aujourd'hui)",
+          "phonetic_api": "/haˈba.ri za ˈlɛ.ɔ/",
+          "meaning": "Les nouvelles d'aujourd'hui"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amiri (Jeune étudiant)",
+      "text": "Shikamoo, mzee wangu.",
+      "phonetic_api": "/ʃi.kaˈmɔː mˈzɛː ˈwa.ŋgu/",
+      "phonetic_simple": "SHEE-KAH-MOH MZEH WAHN-GOO",
+      "translation": "Mes respects les plus sincères, mon ancien."
+    },
+    {
+      "speaker": "Mzee Baraka (Ancien du village)",
+      "text": "Marahaba, mwanangu. Hamjambo nyumbani?",
+      "phonetic_api": "/ma.raˈha.ba mwaˈna.ŋgu ha.mdʒa.mbɔ ɲuˈmba.ni/",
+      "phonetic_simple": "MAH-RAH-HAA-BAH MWAH-NAHN-GOO HAHM-DJAHM-BOH NYOOM-BAH-NEE",
+      "translation": "Je reçois tes respects, mon enfant. Comment va-t-on chez toi à la maison ?"
+    },
+    {
+      "speaker": "Amiri (Jeune étudiant)",
+      "text": "Hatujambo, wote ni wazima. Habari ya asubuhi?",
+      "phonetic_api": "/ha.tu.dʒa.mbɔ ˈwɔ.tɛ ni waˈzi.ma haˈba.ri ja a.suˈbu.hi/",
+      "phonetic_simple": "HAH-TOO-DJAHM-BOH WOH-TEH NEE WAH-ZEE-MAH HAA-BAA-REE YAH AH-SOO-BOO-HEE",
+      "translation": "Nous allons tous bien, tout le monde est en bonne santé. Comment se passe votre matinée ?"
+    },
+    {
+      "speaker": "Mzee Baraka (Ancien du village)",
+      "text": "Nzuri sana, mwanangu. Salama kabisa. Asante.",
+      "phonetic_api": "/ˈnzu.ri ˈsa.na mwaˈna.ŋgu saˈla.ma kaˈbi.sa aˈsa.ntɛ/",
+      "phonetic_simple": "NZEE-REE SAH-NAH MWAH-NAHN-GOO SAH-LAH-MAH KAH-BEE-SAH AH-SAHN-TEH",
+      "translation": "Très bien, mon enfant. Tout est absolument paisible. Merci."
+    },
+    {
+      "speaker": "Amiri (Jeune étudiant)",
+      "text": "Haya, nenda salama. Karibu tena.",
+      "phonetic_api": "/ˈha.ja ˈnɛ.nda saˈla.ma kaˈri.bu ˈtɛ.na/",
+      "phonetic_simple": "HAH-YAH NEHN-DAH SAH-LAH-MAH KAH-REE-BOO TEH-NAH",
+      "translation": "Entendu, allez en paix. Soyez de nouveau le bienvenu."
+    },
+    {
+      "speaker": "Mzee Baraka (Ancien du village)",
+      "text": "Asante. Lala salama usiku.",
+      "phonetic_api": "/aˈsa.ntɛ ˈla.la saˈla.ma uˈsi.ku/",
+      "phonetic_simple": "AH-SAHN-TEH LAH-LAH SAH-LAH-MAH OO-SEE-KOO",
+      "translation": "Merci. Passe une nuit paisible."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture swahilie (Utamaduni wa Waswahili), les salutations ne sont pas une simple formalité, mais un acte de reconnaissance de l'humanité de l'autre (Utu). Précipiter une salutation ou l'omettre complètement est perçu comme une agression ou une insulte sociale.",
+    "L'usage du couple 'Shikamoo' / 'Marahaba' transcende les classes sociales. Il est basé sur l'âge biologique : toute personne plus âgée, même de quelques années, a constitutionnellement le droit de recevoir le 'Shikamoo' de la part des plus jeunes.",
+    "Le concept de 'Pole' est d'une richesse culturelle immense. On le dit à quelqu'un qui trébuche, à quelqu'un qui éternue, à un travailleur qui peine à la tâche ('Pole na kazi'), ou lors d'un deuil. C'est l'expression ultime de l'empathie communautaire."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Si vous croisez un groupe de trois enfants sur le chemin à 14h00, quelle formule est grammaticalement et culturellement exacte ?",
+      "options": [
+        "Hujambo mchana",
+        "Hamjambo? Habari ya mchana?",
+        "Shikamoo wote",
+        "Marahaba ya jioni"
+      ],
+      "correct_answer": "Hamjambo? Habari ya mchana?",
+      "explanation": "'Hamjambo' s'adresse correctement à un groupe (pluriel) et 'Habari ya mchana' correspond parfaitement à la période de l'après-midi."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mzee Juma: 'Shikamoo kijana!' -> Kijana: '[ ___ ], mzee wangu. Sijambo.'",
+      "correct_answer": "Marahaba",
+      "hint": "C'est le mot rituel de réponse obligatoire que donne l'ancien pour valider le respect exprimé."
+    }
+  ]
+}

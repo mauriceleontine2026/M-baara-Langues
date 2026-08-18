@@ -1,0 +1,319 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les différents membres de la famille nucléaire et élargie",
+    "Utiliser les adjectifs possessifs de base pour exprimer les liens de parenté",
+    "Poser des questions simples sur l'état et la composition de la famille de quelqu'un",
+    "Comprendre la terminologie honorifique liée à l'âge au sein du foyer"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot 'bangebaga' met en jeu la succession de consonnes occlusives bilabiales et de voyelles nasales. Le son /ŋ/ ou /ŋɡ/ se retrouve dans des structures intermédiaires. Le digramme 'cɛ' /t͡ʃɛ/ (l'homme/l'époux) exige une ouverture nette de la voyelle antérieure /ɛ/. Le redoublement de la voyelle dans 'musoolu' (les femmes) ou 'denw' (les enfants) nécessite une attention particulière sur la durée d'articulation.",
+    "common_pitfalls": "Veillez à ne pas confondre 'ba' (la mère) avec un ton haut, et 'báa' (le travail/la chèvre) ou 'bá' (le grand fleuve). Ne prononcez pas le 'w' final de pluralisation comme une consonne distincte, il sert à arrondir et nasaliser légèrement la fin du mot selon le contexte dialectal burkinabè."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Bangebagaw",
+      "phonetic_api": "/ban.ɡe.ba.ɡa.w/",
+      "phonetic_simple": "BAN-GUÉ-BA-GA-W",
+      "translation": "Les parents (litt. les géniteurs)",
+      "example_sentence": "N bangebagaw bɛ kɛnɛya la",
+      "example_phonetic": "/n̩ ban.ɡe.ba.ɡa.w bɛ kɛ.nɛ.ja la/",
+      "example_translation": "Mes parents sont en bonne santé."
+    },
+    {
+      "word_id": "v2",
+      "term": "Fa",
+      "phonetic_api": "/fa/",
+      "phonetic_simple": "FA",
+      "translation": "Le père",
+      "example_sentence": "N fa tɔgɔ bɛ Sékou",
+      "example_phonetic": "/n̩ fa tɔ.ɡɔ bɛ se.ku/",
+      "example_translation": "Mon père s'appelle Sékou."
+    },
+    {
+      "word_id": "v3",
+      "term": "Ba",
+      "phonetic_api": "/ba/",
+      "phonetic_simple": "BA",
+      "translation": "La mère",
+      "example_sentence": "I ba bɛ fan juman ?",
+      "example_phonetic": "/i ba bɛ fan d͡ʒu.man/",
+      "example_translation": "Où est ta mère ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "Cɛ",
+      "phonetic_api": "/t͡ʃɛ/",
+      "phonetic_simple": "TCHÈ",
+      "translation": "Le mari / L'homme",
+      "example_sentence": "A cɛ bɛ baara kɛ la",
+      "example_phonetic": "/a t͡ʃɛ bɛ baː.ra kɛ la/",
+      "example_translation": "Son mari est en train de travailler."
+    },
+    {
+      "word_id": "v5",
+      "term": "Musa",
+      "phonetic_api": "/mu.sa/",
+      "phonetic_simple": "MOU-SA",
+      "translation": "La femme / L'épouse",
+      "example_sentence": "N musa bɛ sugufeela ye",
+      "example_phonetic": "/n̩ mu.sa bɛ su.ɡu.feː.la jɛ/",
+      "example_translation": "Mon épouse est commerçante."
+    },
+    {
+      "word_id": "v6",
+      "term": "Den",
+      "phonetic_api": "/den/",
+      "phonetic_simple": "DEN",
+      "translation": "L'enfant",
+      "example_sentence": "Denw bɛ kalan kɛ la",
+      "example_phonetic": "/den.w bɛ ka.lan kɛ la/",
+      "example_translation": "Les enfants étudient."
+    },
+    {
+      "word_id": "v7",
+      "term": "Kɔrɔcɛ",
+      "phonetic_api": "/kɔ.rɔ.t͡ʃɛ/",
+      "phonetic_simple": "KÕ-RÕ-TCHÈ",
+      "translation": "Le frère aîné",
+      "example_sentence": "N kɔrɔcɛ bɛ Wagadugu la",
+      "example_phonetic": "/n̩ kɔ.rɔ.t͡ʃɛ bɛ wa.ɡa.du.ɡu la/",
+      "example_translation": "Mon frère aîné est à Ouagadougou."
+    },
+    {
+      "word_id": "v8",
+      "term": "Dɔgɔmusa",
+      "phonetic_api": "/dɔ.ɡɔ.mu.sa/",
+      "phonetic_simple": "DÕ-GÕ-MOU-SA",
+      "translation": "La petite sœur",
+      "example_sentence": "I dɔgɔmusa san joli bɛ a bolo ?",
+      "example_phonetic": "/i dɔ.ɡɔ.mu.sa san d͡ʒo.li bɛ a bo.lo/",
+      "example_translation": "Quel âge a ta petite sœur ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "I somɔgɔw bɛ di ?",
+      "phonetic_api": "/i so.mɔ.ɡɔ.w bɛ di/",
+      "phonetic_simple": "I SO-MÕ-GÕ-W BÈ DI",
+      "translation": "Comment vont les membres de ta famille ?",
+      "context": "Question polie incontournable lors de toute interaction quotidienne."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "O bɛ hɛɛrɛ la.",
+      "phonetic_api": "/o bɛ hɛː.rɛ la/",
+      "phonetic_simple": "O BÈ HÈÈ-RÈ LA",
+      "translation": "Ils vont bien / Ils sont en paix.",
+      "context": "Réponse automatique rassurante sur l'état de son foyer."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Den joli bɛ i bolo ?",
+      "phonetic_api": "/den d͡ʒo.li bɛ i bo.lo/",
+      "phonetic_simple": "DEN DJO-LI BÈ I BO-LO",
+      "translation": "Combien d'enfants as-tu ?",
+      "context": "S'enquérir de la descendance de son interlocuteur."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Den saba bɛ n bolo.",
+      "phonetic_api": "/den sa.ba bɛ n̩ bo.lo/",
+      "phonetic_simple": "DEN SA-BA BÈ N BO-LO",
+      "translation": "J'ai trois enfants.",
+      "context": "Donner le nombre exact de ses enfants."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "I fa bɛ kɛnɛya la ?",
+      "phonetic_api": "/i fa bɛ kɛ.nɛ.ja la/",
+      "phonetic_simple": "I FA BÈ KÈ-NÈ-YA LA",
+      "translation": "Est-ce que ton père se porte bien ?",
+      "context": "Prendre spécifiquement des nouvelles de la santé du chef de famille."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Ɔwɔ, n fa ka kɛnɛ, Ala tano.",
+      "phonetic_api": "/ɔ.wɔ n̩ fa ka kɛ.nɛ a.la ta.no/",
+      "phonetic_simple": "Õ-WÕ, N FA KA KÈ-NÈ, A-LA TA-NO",
+      "translation": "Oui, mon père est bien portant, Dieu soit loué.",
+      "context": "Réponse positive empreinte de piété filiale."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "N dɔgɔcɛ bɛ kalan kɛ la.",
+      "phonetic_api": "/n̩ dɔ.ɡɔ.t͡ʃɛ bɛ ka.lan kɛ la/",
+      "phonetic_simple": "N DÕ-GÕ-TCHÈ BÈ KA-LAN KÈ LA",
+      "translation": "Mon petit frère est en train d'étudier.",
+      "context": "Expliquer l'activité courante d'un jeune membre de la famille."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Ala ka somɔgɔw dɛmɛ.",
+      "phonetic_api": "/a.la ka so.mɔ.ɡɔ.w dɛ.mɛ/",
+      "phonetic_simple": "A-LA KA SO-MÕ-GÕ-W DÈ-MÈ",
+      "translation": "Que Dieu assiste et protège la famille.",
+      "context": "Bénédiction d'usage prononcée en prenant congé ou lors des salutations."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les adjectifs possessifs devant les termes de parenté",
+      "explanation": "En dioula, la possession des termes de parenté intime (famille proche) utilise une forme directe appelée possession inaliénable. On place simplement le pronom personnel devant le nom sans particule intermédiaire.",
+      "rules": [
+        "Utilisez 'n' pour 'mon/ma'. Il se lie phonétiquement à la consonne suivante.",
+        "Utilisez 'i' pour 'ton/ta'.",
+        "Utilisez 'a' pour 'son/sa'.",
+        "Utilisez 'an' pour 'notre', 'aw' pour 'votre', et 'u' pour 'leur'."
+      ],
+      "examples": [
+        {
+          "structure": "N + fa",
+          "phonetic_api": "/n̩ fa/",
+          "meaning": "Mon père."
+        },
+        {
+          "structure": "I + ba",
+          "phonetic_api": "/i ba/",
+          "meaning": "Ta mère."
+        },
+        {
+          "structure": "A + den",
+          "phonetic_api": "/a den/",
+          "meaning": "Son enfant."
+        }
+      ]
+    },
+    {
+      "concept": "La marque du pluriel avec la terminaison '-w'",
+      "explanation": "Pour rendre un nom de parenté ou d'entourage pluriel, la langue dioula ajoute le suffixe orthographique '-w' à la fin du mot.",
+      "rules": [
+        "Le suffixe '-w' s'ajoute directement à la voyelle finale.",
+        "Il modifie légèrement l'intonation ou la fermeture de la voyelle selon les régions mais reste la marque universelle du pluriel nominal."
+      ],
+      "examples": [
+        {
+          "structure": "Den (enfant) + w",
+          "phonetic_api": "/den.w/",
+          "meaning": "Les enfants."
+        },
+        {
+          "structure": "Somɔgɔ (membre de la famille) + w",
+          "phonetic_api": "/so.mɔ.ɡɔ.w/",
+          "meaning": "Les membres de la famille."
+        }
+      ]
+    },
+    {
+      "concept": "La distinction d'âge : 'kɔrɔ' vs 'dɔgɔ'",
+      "explanation": "La culture mandingue exige de préciser si un collatéral (frère ou sœur) est plus âgé ou plus jeune que le locuteur. On combine donc les qualificatifs d'âge avec le sexe.",
+      "rules": [
+        "Le préfixe 'kɔrɔ' signifie 'aîné' ou 'plus âgé'.",
+        "Le préfixe 'dɔgɔ' signifie 'cadet' ou 'plus jeune'.",
+        "Ils s'associent aux radicaux 'cɛ' (homme/frère) et 'musa' (femme/sœur)."
+      ],
+      "examples": [
+        {
+          "structure": "Kɔrɔ (aîné) + musa (femme)",
+          "phonetic_api": "/kɔ.rɔ.mu.sa/",
+          "meaning": "La sœur aînée."
+        },
+        {
+          "structure": "Dɔgɔ (cadet) + cɛ (homme)",
+          "phonetic_api": "/dɔ.ɡɔ.t͡ʃɛ/",
+          "meaning": "Le petit frère."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Seydou",
+      "text": "I ni ce, Aminata ! Hɛɛrɛ bɛ ?",
+      "phonetic_api": "/i ni t͡ʃe a.mi.na.ta hɛː.rɛ bɛ/",
+      "phonetic_simple": "I NI TCHE, A-MI-NA-TA ! HÈÈ-RÈ BÈ ?",
+      "translation": "Bonjour, Aminata ! Comment vas-tu ?"
+    },
+    {
+      "speaker": "Aminata",
+      "text": "Hɛɛrɛ dɔrɔn, Seydou. I somɔgɔw bɛ di ?",
+      "phonetic_api": "/hɛː.rɛ dɔ.rɔn se.du i so.mɔ.ɡɔ.w bɛ di/",
+      "phonetic_simple": "HÈÈ-RÈ DÕ-RÕN, SEY-DOU. I SO-MÕ-GÕ-W BÈ DI ?",
+      "translation": "La paix seulement, Seydou. Comment vont les membres de ta famille ?"
+    },
+    {
+      "speaker": "Seydou",
+      "text": "O bɛ hɛɛrɛ la, tɔnɔ tɛ. N fa ni n ba bɛ kɛnɛya la fana.",
+      "phonetic_api": "/o bɛ hɛː.rɛ la tɔ.nɔ tɛ n̩ fa ni n̩ ba bɛ kɛ.nɛ.ja la fa.na/",
+      "phonetic_simple": "O BÈ HÈÈ-RÈ LA, TÕ-NÕ TÈ. N FA NI N BA BÈ KÈ-NÈ-YA LA FA-NA.",
+      "translation": "Ils vont bien, aucun problème. Mon père et ma mère sont également en bonne santé."
+    },
+    {
+      "speaker": "Aminata",
+      "text": "Ala tano ! I dɔgɔmusa bɛ Wagadugu la halisa ?",
+      "phonetic_api": "/a.la ta.no i dɔ.ɡɔ.mu.sa bɛ wa.ɡa.du.ɡu la ha.li.sa/",
+      "phonetic_simple": "A-LA TA-NO ! I DÕ-GÕ-MOU-SA BÈ WA-GA-DOU-GOU LA HA-LI-SA ?",
+      "translation": "Dieu soit loué ! Ta petite sœur est-elle toujours à Ouagadougou ?"
+    },
+    {
+      "speaker": "Seydou",
+      "text": "Aayi, a bɛ bɔ Bobo la sisan, a bɛ baara kɛ la yan. Ala ka somɔgɔw dɛmɛ !",
+      "phonetic_api": "/aː.ji a bɛ bɔ bo.bo la si.san a bɛ baː.ra kɛ la jan a.la ka so.mɔ.ɡɔ.w dɛ.mɛ/",
+      "phonetic_simple": "AA-YI, A BÈ BÕ BO-BO LA SI-SAN, A BÈ BAA-RA KÈ LA YAN. A-LA KA SO-MÕ-GÕ-W DÈ-MÈ !",
+      "translation": "Non, elle vient de Bobo-Dioulasso maintenant, elle travaille ici. Que Dieu protège la famille !"
+    },
+    {
+      "speaker": "Aminata",
+      "text": "Amiina, Seydou. K'an bɛn !",
+      "phonetic_api": "/a.miː.na se.du kʼan bɛn/",
+      "phonetic_simple": "A-MII-NA, SEY-DOU. KAN BEN !",
+      "translation": "Amen, Seydou. Au revoir !"
+    }
+  ],
+  "cultural_notes": [
+    "La notion de famille en milieu dioulaphone dépasse largement le cadre restreint du modèle occidental. Les oncles paternels sont souvent appelés 'fa dɔgɔ' (petit père) ou 'fa kɔrɔ' (grand père) et les tantes maternelles 'ba dɔgɔ' (petite mère). Les cousins germains sont assimilés à des frères et sœurs, ce qui renforce la solidarité et la responsabilité collective de l'éducation des enfants.",
+    "L'aîné ('kɔrɔ') jouit d'une autorité morale et d'un profond respect au sein de la fratrie. En l'absence des parents, c'est lui qui assume la gestion des affaires familiales et la protection des plus jeunes ('dɔgɔ')."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L4_Ex1",
+      "type": "multiple_choice",
+      "question": "Comment traduit-on fidèlement l'expression 'Mon frère aîné' en dioula ?",
+      "options": [
+        "N dɔgɔcɛ",
+        "N kɔrɔmusa",
+        "N kɔrɔcɛ",
+        "N fa kɔrɔ"
+      ],
+      "correct_answer": "N kɔrɔcɛ",
+      "explanation": "'N' (mon) + 'kɔrɔ' (aîné) + 'cɛ' (homme/frère) forme la structure exacte pour le frère aîné."
+    },
+    {
+      "exercise_id": "A1_M2_L4_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander des nouvelles globales du foyer en dioula, on pose la question obligatoire : 'I [ ___ ] bɛ di ?'.",
+      "correct_answer": "somɔgɔw",
+      "hint": "Signifie 'les gens de la maison' au pluriel."
+    },
+    {
+      "exercise_id": "A1_M2_L4_Ex3",
+      "type": "multiple_choice",
+      "question": "Quelle est la traduction de la phrase 'Den saba bɛ n bolo' ?",
+      "options": [
+        "J'ai deux enfants",
+        "J'ai trois enfants",
+        "Mes enfants sont au marché",
+        "Je n'éduque pas d'enfants"
+      ],
+      "correct_answer": "J'ai trois enfants",
+      "explanation": "'Den' (enfant) + 'saba' (trois) indique la quantité possédée métaphoriquement dans la main ('bɛ n bolo')."
+    }
+  ]
+}

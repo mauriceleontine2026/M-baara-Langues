@@ -1,0 +1,255 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire son logement en détail (pièces, meubles, caractéristiques)",
+    "Exprimer l'emplacement et caractériser sa ville ou son quartier",
+    "Maîtriser la distinction subtile entre les verbes Ser et Estar pour l'espace"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'g' devant 'e' ou 'i' comme dans 'garagem' se prononce [ʒ]. La terminaison '-em' se prononce comme une voyelle nasale diphtonguée [ɐ̃j]. Le 's' placé entre deux voyelles dans 'casa' ou 'visitar' se prononce obligatoirement [z].",
+    "common_pitfalls": "Ne confondez pas le 'o' de 'bairro' [ˈbajʁu], fortement réduit en fin de mot, avec un 'o' ouvert. Le 'r' double ou initial de 'rua' ou 'bairro' doit être expiré depuis la gorge [ʁ] et non roulé avec le bout de la langue."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Apartamento",
+      "phonetic_api": "/ɐpɐɾtɐˈmẽtu/",
+      "phonetic_simple": "AH-PAR-TAH-MEN-TOO",
+      "translation": "Appartement",
+      "example_sentence": "O meu apartamento fica no terceiro andar.",
+      "example_phonetic": "/u mew ɐpɐɾtɐˈmẽtu ˈfikɐ nu tɨɾˈsɐjɾu ɐ̃ˈdaɾ/",
+      "example_translation": "Mon appartement se trouve au troisième étage."
+    },
+    {
+      "word_id": "v2",
+      "term": "Moradia",
+      "phonetic_api": "/muɾɐˈðiɐ/",
+      "phonetic_simple": "MOO-RAH-DEE-AH",
+      "translation": "Maison individuelle / Pavillon",
+      "example_sentence": "Eles compraram uma moradia com jardim.",
+      "example_phonetic": "/ˈelɨʃ kõˈpɾaɾɐ̃w ˈumɐ muɾɐˈðiɐ kõ ʒɐɾˈðĩ/",
+      "example_translation": "Ils ont acheté une maison individuelle avec un jardin."
+    },
+    {
+      "word_id": "v3",
+      "term": "Bairro",
+      "phonetic_api": "/ˈbajʁu/",
+      "phonetic_simple": "BAY-ROO",
+      "translation": "Quartier",
+      "example_sentence": "Este bairro é muito sossegado.",
+      "example_phonetic": "/ˈeʃtɨ ˈbajʁu ɛ ˈmũjtu susɨˈɣaðu/",
+      "example_translation": "Ce quartier est très calme."
+    },
+    {
+      "word_id": "v4",
+      "term": "Cozinha",
+      "phonetic_api": "/kuˈziɲɐ/",
+      "phonetic_simple": "KOO-ZEE-NYAH",
+      "translation": "Cuisine",
+      "example_sentence": "A cozinha está equipada.",
+      "example_phonetic": "/ɐ kuˈziɲɐ iʃˈta ikwiˈpaðɐ/",
+      "example_translation": "La cuisine est équipée."
+    },
+    {
+      "word_id": "v5",
+      "term": "Quarto",
+      "phonetic_api": "/ˈkwaɾtu/",
+      "phonetic_simple": "KWAR-TOO",
+      "translation": "Chambre",
+      "example_sentence": "O meu quarto tem uma janela grande.",
+      "example_phonetic": "/u mew ˈkwaɾtu tɐ̃j ˈumɐ ʒɐˈnɛlɐ ˈɡɾsplit dɨ/",
+      "example_translation": "Ma chambre a une grande fenêtre."
+    },
+    {
+      "word_id": "v6",
+      "term": "Sala de estar",
+      "phonetic_api": "/ˈsalɐ dɨ iʃˈtaɾ/",
+      "phonetic_simple": "SAH-LAH D'H ECH-TAR",
+      "translation": "Salon / Salle de séjour",
+      "example_sentence": "A sala de estar é muito espaçosa.",
+      "example_phonetic": "/ɐ ˈsalɐ dɨ iʃˈtaɾ ɛ ˈmũjtu iʃpɐˈsozɐ/",
+      "example_translation": "Le salon est très spacieux."
+    },
+    {
+      "word_id": "v7",
+      "term": "Prédio",
+      "phonetic_api": "/ˈpɾɛðju/",
+      "phonetic_simple": "PRÈ-DYOO",
+      "translation": "Immeuble",
+      "example_sentence": "O prédio tem elevador.",
+      "example_phonetic": "/u ˈpɾɛðju tɐ̃j iɫɨvɐˈðoɾ/",
+      "example_translation": "L'immeuble a un ascenseur."
+    },
+    {
+      "word_id": "v8",
+      "term": "Cidade",
+      "phonetic_api": "/siˈðaðɨ/",
+      "phonetic_simple": "SEE-DAH-D'H",
+      "translation": "Ville",
+      "example_sentence": "Lisboa é uma cidade histórica.",
+      "example_phonetic": "/liʒˈboɐ ɛ ˈumɐ siˈðaðɨ iʃˈtɔɾikɐ/",
+      "example_translation": "Lisbonne est une ville historique."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Como é o teu alojamento?",
+      "phonetic_api": "/ˈkomu ɛ u tew ɐluʒɐˈmẽtu/",
+      "phonetic_simple": "KOH-MOO É OO TEW AH-LOO-JAH-MEN-TOO",
+      "translation": "Comment est ton logement ?",
+      "context": "Demander une description à un ami."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Moro num bairro histórico e muito movimentado.",
+      "phonetic_api": "/ˈmɔɾu nũ ˈbajʁu iʃˈtɔɾiku i ˈmũjtu muvimẽˈtaðu/",
+      "phonetic_simple": "MÓ-ROO NOONG BAY-ROO EECH-TÓ-REE-KOO EE MOYN-TOO MOO-VEE-MEN-TAH-DOO",
+      "translation": "J'habite dans un quartier historique et très animé.",
+      "context": "Décrire son lieu de vie."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Onde fica exatamente a tua casa?",
+      "phonetic_api": "/ˈõdɨ ˈfikɐ izatɐˈmẽtɨ ɐ ˈtuɐ ˈkazɐ/",
+      "phonetic_simple": "ON-D'H FEE-KAH EE-ZAH-TAH-MEN-T'H AH TOO-AH KAH-ZAH",
+      "translation": "Où se trouve exactement ta maison ?",
+      "context": "Demander des précisions de localisation."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "A minha casa é espaçosa mas o aluguer é caro.",
+      "phonetic_api": "/ɐ ˈmiɲɐ ˈkazɐ ɛ iʃpɐˈsozɐ mɐʃ u ɐluˈɣɛɾ ɛ ˈkaɾu/",
+      "phonetic_simple": "AH MEE-NYAH KAH-ZAH É ECH-PAH-SOH-ZAH MACH OO AH-LOO-GAIR É KAH-ROO",
+      "translation": "Ma maison est spacieuse mais le loyer est cher.",
+      "context": "Donner un avis nuancé sur son logement."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "O meu prédio fica perto dos transportes públicos.",
+      "phonetic_api": "/u mew ˈpɾɛðju ˈfikɐ ˈpɛɾtu duʃ tɾɐ̃ʃˈpɔɾtɨʃ ˈpuβlikuʃ/",
+      "phonetic_simple": "OO MEW PRÈ-DYOO FEE-KAH PAIR-TOO DOOCH TRANCH-POR-T'HCH POO-BLEE-KOOCH",
+      "translation": "Mon immeuble se trouve près des transports en commun.",
+      "context": "Parler de l'accessibilité de son logement."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Gosto muito de viver nesta zona da cidade.",
+      "phonetic_api": "/ˈɡoʃtu ˈmũjtu dɨ viˈveɾ ˈneʃtɐ ˈzonɐ dɐ siˈðaðɨ/",
+      "phonetic_simple": "GOCH-TOO MOYN-TOO D'H VEE-VER NECH-TAH ZOH-NAH DAH SEE-DAH-D'H",
+      "translation": "J'aime beaucoup vivre dans cette zone de la ville.",
+      "context": "Exprimer sa satisfaction concernant son environnement."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "O apartamento tem vista para o rio.",
+      "phonetic_api": "/u ɐpɐɾtɐˈmẽtu tɐ̃j ˈviʃtɐ ˈpɐɾɐ u ˈʁiu/",
+      "phonetic_simple": "OO AH-PAR-TAH-MEN-TOO TENG VEECH-TAH PAH-RAH OO REE-OO",
+      "translation": "L'appartement a vue sur le fleuve.",
+      "context": "Mettre en valeur un point fort de son logement."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "A minha rua é muito barulhenta por causa do trânsito.",
+      "phonetic_api": "/ɐ ˈmiɲɐ ˈʁuɐ ɛ ˈmũjtu bɐɾuˈʎẽtɐ puɾ ˈkawzɐ du ˈtɾɐ̃zitu/",
+      "phonetic_simple": "AH MEE-NYAH ROO-AH É MOYN-TOO BAH-ROO-LYEN-TAH POOR KAW-ZAH DOO TRAN-ZEE-TOO",
+      "translation": "Ma rue est très bruyante à cause de la circulation.",
+      "context": "Évoquer un inconvénient de son quartier."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La nuance 'Ser' vs 'Estar' appliqué au logement et à la ville",
+      "explanation": "Au niveau intermédiaire, il est essentiel de maîtriser la distinction entre les caractéristiques permanentes (Ser) et l'état ou la situation transitoire (Estar) dans la description spatiale.",
+      "rules": [
+        "Utilisez 'Ser' pour définir la nature, le style, la taille ou les défauts permanents (ex: O apartamento é pequeno, a cidade é antiga).",
+        "Utilisez 'Estar' pour un état temporaire, la propreté, le désordre ou une condition changeante (ex: A sala está desarrumada, a cozinha está limpa).",
+        "Rappel : Pour l'emplacement géographique fixe, privilégiez le verbe 'Ficar' plutôt qu'Estar (ex: O prédio fica no centro)."
+      ],
+      "examples": [
+        {
+          "structure": "A casa é velha, mas a cozinha está muito moderna.",
+          "phonetic_api": "/ɐ ˈkazɐ ɛ ˈvɛʎɐ mɐʃ ɐ kuˈziɲɐ iʃˈta ˈmũjtu muˈðɛɾnɐ/",
+          "meaning": "La maison est vieille (permanent), mais la cuisine est très moderne (état actuel après travaux)."
+        }
+      ]
+    },
+    {
+      "concept": "Les prépositions de lieu complexes",
+      "explanation": "Pour décrire précisément l'environnement, on utilise des locutions prépositionnelles qui requièrent la préposition 'de' (souvent contractée en da/do/dos/das).",
+      "rules": [
+        "Perto de (Près de) -> Perto do museu.",
+        "Longe de (Loin de) -> Longe da escola.",
+        "Ao lado de (À côté de) -> Ao lado do parque.",
+        "Em frente a / de (En face de) -> Em frente da paragem."
+      ],
+      "examples": [
+        {
+          "structure": "Moro ao lado do jardim público.",
+          "phonetic_api": "/ˈmɔɾu aw ˈlaðu du ʒɐɾˈðĩ ˈpuβliku/",
+          "meaning": "J'habite à côté du jardin public."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "João",
+      "text": "Olá Clara! Soube que mudaste de casa. Como é o teu novo apartamento?",
+      "phonetic_api": "/oˈla ˈklɐɾɐ ˈsobɨ kɨ muˈðaʃtɨ dɨ ˈkazɐ ˈkomu ɛ u tew ˈnovu ɐpɐɾtɐˈmẽtu/",
+      "phonetic_simple": "OH-LAH KLAH-RAH SOO-B'H K'H MOO-DACH-T'H D'H KAH-ZAH KOH-MOO É OO TEW NO-VOO AH-PAR-TAH-MEN-TOO",
+      "translation": "Salut Clara ! J'ai appris que tu as déménagé. Comment est ton nouvel appartement ?"
+    },
+    {
+      "speaker": "Clara",
+      "text": "Olá João! Sim, é verdade. É um T2 bastante luminoso. Tem dois quartos, uma sala grande e a cozinha está totalmente equipada.",
+      "phonetic_api": "/oˈla ˈʒwɐ̃w sɐ̃j ɛ vɨɾˈðaðɨ ɛ ũ tɛ ˈdojʃ βsplitʃˈtɐ̃tɨ lumiˈnozu tɐ̃j dojʃ ˈkwaɾtuʃ ˈumɐ ˈsalɐ ˈɡɾsplit dɨ i ɐ kuˈziɲɐ iʃˈta tutaɫˈmẽtɨ ikwiˈpaðɐ/",
+      "phonetic_simple": "OH-LAH JOW SEENG É VAIR-DAH-D'H É OONG TAY-DOYCH BẠCH-TAN-T'H LOO-MEE-NOH-ZOO TENG DOYCH KWAR-TOOCH OO-MAH SAH-LAH GRAN-D'H EE AH KOO-ZEE-NYAH ECH-TAH TOO-TAL-MEN-T'H EE-KWEE-PAH-DAH",
+      "translation": "Salut João ! Oui, c'est vrai. C'est un T2 (trois pièces) assez lumineux. Il a deux chambres, un grand salon et la cuisine est entièrement équipée."
+    },
+    {
+      "speaker": "João",
+      "text": "E em que zona da cidade fica?",
+      "phonetic_api": "/i ɐ̃j kɨ ˈzonɐ dɐ siˈðaðɨ ˈfikɐ/",
+      "phonetic_simple": "EE ENG K'H ZOH-NAH DAH SEE-DAH-D'H FEE-KAH",
+      "translation": "Et dans quelle zone de la ville se trouve-t-il ?"
+    },
+    {
+      "speaker": "Clara",
+      "text": "Fica num bairro muito calmo, mesmo em frente a um parque. É ótimo porque está perto do metro.",
+      "phonetic_api": "/ˈfikɐ nũ ˈbajʁu ˈmũjtu ˈkaɫmu ˈmeʒmu ɐ̃j ˈfɾẽtɨ ɐ ũ ˈpaɾkɨ ɛ ˈɔtimu puɾˈkɨ iʃˈta ˈpɛɾtu du ˈmɛtɾu/",
+      "phonetic_simple": "FEE-KAH NOONG BAY-ROO MOYN-TOO KAL-MOO MEJM-OO ENG FREN-T'H AH OONG PAR-K'H É Ó-TEE-MOO POOR-K'H ECH-TAH PAIR-TOO DOO ME-TROO",
+      "translation": "Il se trouve dans un quartier très calme, juste en face d'un parc. C'est super parce que c'est près du métro."
+    }
+  ],
+  "cultural_notes": [
+    "Au Portugal, l'immobilier utilise une nomenclature spécifique pour la taille des appartements : 'T' suivi du nombre de chambres. Un 'T1' est un deux-pièces (un salon + une chambre), un 'T2' a deux chambres, etc. Un logement sans chambre séparée s'appelle un 'estúdio' ou parfois 'T0'.",
+    "Les centres-villes historiques comme la Baixa à Lisbonne ou la Ribeira à Porto comptent de nombreux bâtiments anciens sans ascenseur, très recherchés pour leur charme architectural (azulejos, balcons en fer forgé)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle phrase décrit correctement une situation de désordre temporaire dans le salon ?",
+      "options": [
+        "A sala é desarrumada.",
+        "A sala está desarrumada.",
+        "A sala fica desarrumada."
+      ],
+      "correct_answer": "A sala está desarrumada.",
+      "explanation": "On utilise le verbe 'estar' pour exprimer un état transitoire ou changeant (le désordre) par opposition au verbe 'ser'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'J'habite près de l'école', on contracte la préposition : Moro perto [ ___ ] escola.",
+      "correct_answer": "da",
+      "hint": "Contraction de de + a"
+    }
+  ]
+}

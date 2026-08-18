@@ -1,0 +1,289 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Exprimer la présence ou l'existence d'objets inanimés et de bâtiments avec le verbe 'arimasu'",
+    "Utiliser les particules de lieu 'ni' (localisation) et 'de' (action)",
+    "Maîtriser les principaux indicateurs de position spatiale et les kosoado de lieu (koko, soko, asoko, doko)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La prononciation des adverbes de lieu introduits ici repose sur le système KOSOADO. Le son 'sh' dans 'migi' se prononce de manière pure [mi.ɡi]. Pour le mot 'hidari' (gauche), veillez à ce que le 'r' soit une consonne battue alvéolaire [ɾ], sans aucune vibration gutturale. Le mot 'asoko' (là-bas) possède trois mores brèves d'égale intensité /a.so.ko/.",
+    "common_pitfalls": "Ne confondez pas la particule de cible spatiale 'ni' [ni] avec la particule de thème 'wa'. Évitez également d'allonger la voyelle finale des démonstratifs de lieu : on dit 'koko' et non 'kokō'."
+  },
+  "spatial_kanji_focus": [
+    {
+      "kanji": "北",
+      "hiragana": "きた",
+      "romaji": "kita",
+      "api": "/ki.ta/",
+      "translation": "Nord"
+    },
+    {
+      "kanji": "南",
+      "hiragana": "みなみ",
+      "romaji": "minami",
+      "api": "/mi.na.mi/",
+      "translation": "Sud"
+    },
+    {
+      "kanji": "東",
+      "hiragana": "ひがし",
+      "romaji": "higashi",
+      "api": "/çi.ɡa.ɕi/",
+      "translation": "Est"
+    },
+    {
+      "kanji": "西",
+      "hiragana": "にし",
+      "romaji": "nishi",
+      "api": "/ni.ɕi/",
+      "translation": "Ouest"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "ここ",
+      "phonetic_api": "/ko.ko/",
+      "phonetic_simple": "KO-KO",
+      "translation": "Ici (proche du locuteur)",
+      "example_sentence": "ここは駅 devant.",
+      "example_phonetic": "/ko.ko wa e.ki de.sɯ̥/",
+      "example_translation": "Ici, c'est la gare."
+    },
+    {
+      "word_id": "v2",
+      "term": "そこ",
+      "phonetic_api": "/so.ko/",
+      "phonetic_simple": "SO-KO",
+      "translation": "Là (proche de l'interlocuteur)",
+      "example_sentence": "そこはトイレですか。",
+      "example_phonetic": "/so.ko wa to.i.ɾe de.sɯ.ka/",
+      "example_translation": "Là, ce sont les toilettes ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "あそこ",
+      "phonetic_api": "/a.so.ko/",
+      "phonetic_simple": "A-SO-KO",
+      "translation": "Là-bas (éloigné des deux personnes)",
+      "example_sentence": "あそこに交番があります。",
+      "example_phonetic": "/a.so.ko ni koː.baɴ ɡa a.ɾi.ma.sɯ̥/",
+      "example_translation": "Il y a un poste de police là-bas."
+    },
+    {
+      "word_id": "v4",
+      "term": "どこ",
+      "phonetic_api": "/do.ko/",
+      "phonetic_simple": "DO-KO",
+      "translation": "Où",
+      "example_sentence": "地下鉄の駅はどこですか。",
+      "example_phonetic": "/t͡ɕi.ka.te̥t͡sɯ no e.ki wa do.ko de.sɯ.ka/",
+      "example_translation": "Où se trouve la station de métro ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "みぎ (右)",
+      "phonetic_api": "/mi.ɡi/",
+      "phonetic_simple": "MI-GI",
+      "translation": "Droite",
+      "example_sentence": "右に曲がってください。",
+      "example_phonetic": "/mi.ɡi ni ma.ɡḁt.te kɯ.da.sa.i/",
+      "example_translation": "Tournez à droite s'il vous plaît."
+    },
+    {
+      "word_id": "v6",
+      "term": "ひだり (左)",
+      "phonetic_api": "/chi.da.ri/",
+      "phonetic_simple": "CHI-DA-RI",
+      "translation": "Gauche",
+      "example_sentence": "銀行は左にあります。",
+      "example_phonetic": "/ɡiɴ.koː wa çi.da.ɾi ni a.ɾi.ma.sɯ̥/",
+      "example_translation": "La banque se trouve à gauche."
+    },
+    {
+      "word_id": "v7",
+      "term": "まえ (前)",
+      "phonetic_api": "/ma.e/",
+      "phonetic_simple": "MA-É",
+      "translation": "Devant / En face",
+      "example_sentence": "ホテルの前にいます。",
+      "example_phonetic": "/ho.te.ɾɯ no ma.e ni i.ma.sɯ̥/",
+      "example_translation": "Je suis devant l'hôtel."
+    },
+    {
+      "word_id": "v8",
+      "term": "うしろ (後ろ)",
+      "phonetic_api": "/ɯ.ɕi.ɾo/",
+      "phonetic_simple": "OU-CHI-RO",
+      "translation": "Derrière",
+      "example_sentence": "駅の後ろに公園があります。",
+      "example_phonetic": "/e.ki no ɯ.ɕi.ɾo ni koː.eɴ ɡa a.ɾi.ma.sɯ̥/",
+      "example_translation": "Il y a un parc derrière la gare."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "すみません、駅はどこですか。",
+      "phonetic_api": "/sɯ.mi.ma.seɴ e.ki wa do.ko de.sɯ.ka/",
+      "phonetic_simple": "SOU-MI-MA-SEN, É-KI WA DO-KO DESS-KA",
+      "translation": "Excusez-moi, où se trouve la gare ?",
+      "context": "Interpeller un inconnu dans la rue pour demander une direction."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "まっすぐ行ってください。",
+      "phonetic_api": "/mḁs.sɯ.ɡɯ i̥t.te kɯ.da.sa.i/",
+      "phonetic_simple": "MAS-SOU-GOU IT-TÉ KOU-DA-SA-I",
+      "translation": "Allez tout droit s'il vous plaît.",
+      "context": "Indication d'itinéraire standard."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "ここから遠いですか。",
+      "phonetic_api": "/ko.ko ka.ɾa toː.i de.sɯ.ka/",
+      "phonetic_simple": "KO-KO KA-RA TOO-I DESS-KA",
+      "translation": "Est-ce que c'est loin d'ici ?",
+      "context": "S'informer de la distance pédestre par rapport à son point de repère actuel."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "いいえ、すぐそこです。",
+      "phonetic_api": "/iː.e sɯ.ɡɯ so.ko de.sɯ̥/",
+      "phonetic_simple": "II-É, SOU-GOU SO-KO DESS",
+      "translation": "Non, c'est juste là.",
+      "context": "Rassurer l'interlocuteur sur la proximité immédiate du lieu recherché."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "近くにコンビニがありますか。",
+      "phonetic_api": "/t͡ɕi.ka.kɯ ni koɴ.bi.ni ɡa a.ɾi.ma.sɯ.ka/",
+      "phonetic_simple": "TCHI-KA-KOU NI KON-BI-NI GA A-RI-MASS-KA",
+      "translation": "Y a-t-il une supérette à proximité ?",
+      "context": "Rechercher un commerce de proximité essentiel."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "交差点を右に曲がります。",
+      "phonetic_api": "/koː.sa.teɴ o mi.ɡi ni ma.ɡa.ɾi.ma.sɯ̥/",
+      "phonetic_simple": "KOO-SA-TEN O MI-GI NI MA-GA-RI-MASS",
+      "translation": "Tournez à droite au carrefour.",
+      "context": "Donner une instruction de changement de direction directionnel."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "一つ目の角を左です。",
+      "phonetic_api": "/çi.to.t͡sɯ.me no ka.do o çi.da.ri de.sɯ̥/",
+      "phonetic_simple": "CHI-TOT-SOU-MÉ NO KA-DO O CHI-DA-RI DESS",
+      "translation": "Prenez la première intersection à gauche.",
+      "context": "Préciser un angle de rue spécifique."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "分かりました。ありがとうございます。",
+      "phonetic_api": "/wa.ka.ɾi.ma.ɕi.ta a.ɾi.ɡa.toː ɡo.za.i.ma.sɯ̥/",
+      "phonetic_simple": "WA-KA-RI-MA-CH-TA. A-RI-GA-TOO GO-ZA-I-MASS",
+      "translation": "J'ai compris. Je vous remercie beaucoup.",
+      "context": "Formule de conclusion polie après avoir reçu des indications."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'existence inanimée : [Lieu] に [Nom] が あります (Lieu ni Nom ga arimasu)",
+      "explanation": "Contrairement au verbe 'imasu' réservé aux êtres animés (Leçon 4), le verbe あります (arimasu) exprime l'existence, la présence ou la possession d'objets inanimés, d'idées, de plantes ou de bâtiments fixes (comme des magasins ou des gares). La particule に (ni) marque impérativement le lieu de cette localisation.",
+      "rules": [
+        "Structure : [Espace/Lieu] に [Objet/Bâtiment] が あります。",
+        "Pour poser une question sur l'emplacement d'un objet connu : [Objet/Bâtiment] は どこ に あります か。"
+      ],
+      "examples": [
+        {
+          "structure": "あそこに銀行があります (Asoko ni ginkō ga arimasu)",
+          "phonetic_api": "/a.so.ko ni ɡiɴ.koː ɡa a.ɾi.ma.sɯ̥/",
+          "meaning": "Il y a une banque là-bas."
+        }
+      ]
+    },
+    {
+      "concept": "La distinction fondamentale entre les particules de lieu に (ni) et で (de)",
+      "explanation": "Le japonais utilise des particules distinctes selon que le lieu est le siège d'un état statique ou d'une action dynamique. La particule に indique la présence pure (être posé, habiter, exister avec arimasu/imasu). La particule で (de) indique l'espace où se déroule une action active (manger, acheter, étudier).",
+      "rules": [
+        "Lieu + に = Localisation passive (avec arimasu, imasu, sumimasu).",
+        "Lieu + で = Théâtre d'une action physique."
+      ],
+      "examples": [
+        {
+          "structure": "駅で切符を買います (Eki de kippu o kaimasu)",
+          "phonetic_api": "/e.ki de ki̥p.pɯ o ka.i.ma.sɯ̥/",
+          "meaning": "J'achète un billet à la gare (Action active -> de)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "観光客 (Touriste)",
+      "text": "すみません、この近くに郵便局がありますか。",
+      "phonetic_api": "/sɯ.mi.ma.seɴ ko.no t͡hi.ka.kɯ ni jɯː.biɴ.kjo̥k.ɯ ɡa a.ɾi.ma.sɯ.ka/",
+      "phonetic_simple": "SOU-MI-MA-SEN, KO-NO TCHI-KA-KOU NI YUU-BIN-KYOK-OU GA A-RI-MASS-KA ?",
+      "translation": "Excusez-moi, y a-t-il un bureau de poste près d'ici ?"
+    },
+    {
+      "speaker": "通行人 (Passant)",
+      "text": "郵便局ですか。ええと、あそこに大きなデパートがありますね。",
+      "phonetic_api": "/jɯː.biɴ.kjo̥k.ɯ de.sɯ.ka eː.to a.so.ko ni oː.ki.na de.paː.to ɡa a.ɾi.ma.sɯ.ne/",
+      "phonetic_simple": "YUU-BIN-KYOK-OU DESS-KA ? ÉETO, A-SO-KO NI OO-KI-NA DÉ-PAA-TO GA A-RI-MASS NÉ.",
+      "translation": "Le bureau de poste ? Alors... Vous voyez le grand magasin là-bas ?"
+    },
+    {
+      "speaker": "観光客 (Touriste)",
+      "text": "はい、あります。",
+      "phonetic_api": "/ha.i a.t͡si.ma.sɯ̥/",
+      "phonetic_simple": "HAI, A-RI-MASS.",
+      "translation": "Oui, je le vois."
+    },
+    {
+      "speaker": "通行人 (Passant)",
+      "text": "あのデパートの裏にありますよ。まっすぐ行って、二つ目の角を右です。",
+      "phonetic_api": "/a.no de.paː.to no ɯ.ɾa ni a.ɾi.ma.sɯ jo mḁs.sɯ.ɡɯ i̥t.te ɸɯ.ta.t͡sɯ.me no ka.do o mi.ɡi de.sɯ̥/",
+      "phonetic_simple": "A-NO DÉ-PAA-TO NO OU-RA NI A-RI-MASS YO. MAS-SOU-GOU IT-TÉ, FOU-TAT-SOU-MÉ NO KA-DO O MI-GI DESS.",
+      "translation": "C'est juste derrière ce grand magasin. Allez tout droit, puis prenez la deuxième rue à droite."
+    },
+    {
+      "speaker": "観光客 (Touriste)",
+      "text": "デパートの裏ですね。分かりました。ありがとうございました。",
+      "phonetic_api": "/de.paː.to no ɯ.ɾa de.sɯ.ne wa.ka.ɾi.ma.ɕi.ta a.ɾi.ɡa.toː ɡo.za.i.ma.ɕi.ta/",
+      "phonetic_simple": "DÉ-PAA-TO NO OU-RA DESS NÉ. WA-KA-RI-MA-CH-TA. A-RI-GA-TOO GO-ZA-I-MA-CH-TA.",
+      "translation": "Derrière le grand magasin, d'accord. J'ai bien compris. Merci beaucoup pour votre aide."
+    }
+  ],
+  "cultural_notes": [
+    "Les rues japonaises n'ont généralement pas de nom, à l'exception des grandes avenues. Le système d'adresse repose sur un découpage en blocs et districts (Chōme). Pour s'orienter, les Japonais s'appuient sur des points de repère visuels (magasins, feux) ou se rendent au Koban (交番), un petit poste de police de quartier présent à chaque grande intersection où les policiers fournissent des plans détaillés.",
+    "Pour désigner poliment une direction plutôt qu'un lieu brut, on remplace 'koko, soko, asoko, doko' par les formes plus respectueuses 'kochira, sochira, achira, dochira'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle structure utilisez-vous pour déclarer l'existence d'une supérette (bâtiment inanimé) ?",
+      "options": [
+        "コンビニがいます (Konbini ga imasu)",
+        "コンビニがあります (Konbini ga arimasu)",
+        "コンビニはどこですか (Konbini wa doko desu ka)"
+      ],
+      "correct_answer": "コンビニがあります (Konbini ga arimasu)",
+      "explanation": "Les bâtiments étant des entités inanimées, on utilise obligatoirement le verbe d'existence statique 'arimasu'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'J'étudie à l'école', la particule requise est : 学校[ ___ ]勉強します。",
+      "correct_answer": "で",
+      "hint": "Il s'agit d'un lieu où s'accomplit une action dynamique active."
+    }
+  ]
+}

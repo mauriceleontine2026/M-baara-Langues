@@ -1,0 +1,124 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire les différentes parties d'une habitation et d'une concession",
+    "Exprimer la localisation exacte et la disposition des pièces",
+    "Parler de son quartier et des infrastructures de la ville ou du village"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne occlusive injective alvéolaire /ɗ/ se retrouve dans plusieurs radicaux descriptifs du logement ; elle demande une légère aspiration interne de l'air.",
+    "common_pitfalls": "Attention à ne pas assimiler le groupe syllabique terminal d'un nom de lieu avec le suffixe locatif générique."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v10_1",
+      "term": "karka",
+      "phonetic_api": "/kar.ka/",
+      "phonetic_simple": "KAR-KA",
+      "translation": "maison / concession / demeure",
+      "example_sentence": "karka kɔn mɔ bɔn",
+      "example_phonetic": "/kar.ka kɔn mɔ bɔn/",
+      "example_translation": "Ma maison est grande."
+    },
+    {
+      "word_id": "v10_2",
+      "term": "kumpan",
+      "phonetic_api": "/kum.pan/",
+      "phonetic_simple": "KOUM-PAN",
+      "translation": "chambre / pièce privée",
+      "example_sentence": "mbi lɔndɔ ka kumpan",
+      "example_phonetic": "/mbi lɔn.dɔ ka kum.pan/",
+      "example_translation": "Je suis dans la chambre."
+    },
+    {
+      "word_id": "v10_3",
+      "term": "dare",
+      "phonetic_api": "/da.re/",
+      "phonetic_simple": "DA-RE",
+      "translation": "ville / grand village",
+      "example_sentence": "dare ka Boké",
+      "example_phonetic": "/da.re ka bo.ke/",
+      "example_translation": "La ville de Boké."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p10_1",
+      "original": "karka kɔn mɔ bɔn tundo",
+      "phonetic_api": "/kar.ka kɔn mɔ bɔn tun.do/",
+      "phonetic_simple": "KAR-KA KON MO BON TOUN-DO",
+      "translation": "Ma maison est très grande",
+      "context": "Décrire son lieu d'habitation lors d'une discussion amicale."
+    },
+    {
+      "phrase_id": "p10_2",
+      "original": "dɛ kumpan mɔ de ?",
+      "phonetic_api": "/dɛ kum.pan mɔ de/",
+      "phonetic_simple": "DÈ KOUM-PAN MO DE",
+      "translation": "Où se trouve ta chambre ?",
+      "context": "Faire visiter son logement à un de ses hôtes."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'adjectif qualificatif verbal d'état 'bɔn'",
+      "explanation": "En landouma, de nombreux qualificatifs comme 'bɔn' (grand/être grand) se comportent grammaticalement comme des verbes d'état. Ils s'associent directement au marqueur d'actualisation 'mɔ' sans nécessiter l'ajout d'un verbe auxiliaire.",
+      "rules": [
+        "Sujet + Marqueur 'mɔ' + Verbe d'état.",
+        "L'intensité est marquée en ajoutant l'adverbe 'tundo' après le verbe d'état."
+      ],
+      "examples": [
+        {
+          "structure": "Nom + mɔ + bɔn",
+          "phonetic_api": "/da.re mɔ bɔn/",
+          "meaning": "La ville est grande."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amadou",
+      "text": "karka mɔ mɔ bɔn ?",
+      "phonetic_api": "/kar.ka mɔ mɔ bɔn/",
+      "phonetic_simple": "KAR-KA MO MO BON ?",
+      "translation": "Ta maison est-elle grande ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "ɔn-ɔn, karka kɔn mɔ bɔn. kumpan tsaat mɔ lɔndɔ.",
+      "phonetic_api": "/ɔn.ɔn kar.ka kɔn mɔ bɔn kum.pan t͡saːt mɔ lɔn.dɔ/",
+      "phonetic_simple": "ON-ON KAR-KA KON MO BON. KOUM-PAN TSAAT MO LON-DO",
+      "translation": "Oui, ma maison est grande. Trois chambres sont ici."
+    }
+  ],
+  "cultural_notes": [
+    "La concession ('karka') landouma traditionnelle regroupe généralement plusieurs bâtiments abritant les membres d'une même famille élargie, entourant une cour centrale commune où se déroule la vie quotidienne."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex10_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'kumpan' ?",
+      "options": [
+        "La cuisine",
+        "La chambre",
+        "Le marché"
+      ],
+      "correct_answer": "La chambre",
+      "explanation": "'kumpan' désigne spécifiquement l'espace de repos clos ou la pièce privée."
+    },
+    {
+      "exercise_id": "ex10_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "karka kɔn mɔ [ ___ ] (Ma maison est grande)",
+      "correct_answer": "bɔn",
+      "hint": "Le verbe d'état qualifiant la grandeur physique."
+    }
+  ]
+}

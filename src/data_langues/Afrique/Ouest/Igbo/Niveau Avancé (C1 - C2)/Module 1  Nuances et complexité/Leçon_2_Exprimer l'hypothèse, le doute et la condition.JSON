@@ -1,0 +1,253 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Formuler des hypothèses complexes et des conditions irréelles dans le passé en igbo standard",
+    "Exprimer l'incertitude, la probabilité et le doute à l'aide de structures grammaticales avancées",
+    "Articuler des concessions nuancées en utilisant des connecteurs de conditionnalité"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Analysez la locution 'Chọrọ ka' (Vouloir que / Si seulement). Le digramme 'ch' /tʃ/ exige une tension palatale nette. Le 'ọ' ouvert [ɔ] se lie au 'r' tapoté alvéolaire [ɾ]. Le ton haut sur la particule 'Ká' conditionnelle doit être maintenu pour éviter l'effondrement sémantique.",
+    "common_pitfalls": "Faites attention au mot 'Mádụ́' (Personne/Humain) par rapport à 'Màdụ̀' (Ou bien/Sinon). Lors de l'expression du doute avec 'Ikweasị' (Peut-être), veillez à respecter le glissement tonal descendant sur les deux dernières syllabes."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v20_1",
+      "term": "Ma ọ bụrụ na",
+      "phonetic_api": "/má ɔ́ ɓʊ́ɾʊ́ ná/",
+      "phonetic_simple": "MAH OH BOO-ROO NAH",
+      "translation": "Si / Au cas où / En supposant que",
+      "example_sentence": "Ma ọ bụrụ na o zụtara ji, anyị ga-eri nri.",
+      "example_phonetic": "/má ɔ́ ɓʊ́ɾʊ́ ná ó zʊ̀táɾá dʒī āɲɪ́ ɡá-ēɾí ńɾī/",
+      "example_translation": "S'il avait acheté de l'igname, nous aurions mangé."
+    },
+    {
+      "word_id": "v20_2",
+      "term": "Ikweasị / Ọ nwere ike",
+      "phonetic_api": "/īkwéásɪ̀/",
+      "phonetic_simple": "EE-KWEH-AH-SEE",
+      "translation": "Peut-être / Probablement / Il se pourrait que",
+      "example_sentence": "Ikweasị Maazị Obi ga-abịarute echi.",
+      "example_phonetic": "/īkwéásɪ̀ māːzɪ̀ óɓī ɡá-àɓị́áɾúté étʃí/",
+      "example_translation": "Il se pourrait bien que Monsieur Obi arrive demain."
+    },
+    {
+      "word_id": "v20_3",
+      "term": "Chọrọ ka",
+      "phonetic_api": "/tʃɔ́ɾɔ́ ká/",
+      "phonetic_simple": "CHOH-ROH KAH",
+      "translation": "Si seulement / Pourvu que (exprime le regret ou le souhait irréel)",
+      "example_sentence": "M chọrọ ka m mụcharala ihe a n'oge.",
+      "example_phonetic": "/m tʃɔ́ɾɔ́ ká m àmʊ́tʃáɾálá ìfê á nɔ́ɡè/",
+      "example_translation": "Si seulement j'avais fini d'étudier cette matière à temps."
+    },
+    {
+      "word_id": "v20_4",
+      "term": "Nka na-enweghị nkwalite",
+      "phonetic_api": "/ŋ́kà nā-ēnwēɣɪ́ ŋ́kwálíté/",
+      "phonetic_simple": "N-KAH NAH-EH-NWEH-GHEE N-KWAH-LEE-TEH",
+      "translation": "Hypothèse incertaine / Spéculation sans fondement",
+      "example_sentence": "Okwu ya niile bụ nka na-enweghị nkwalite.",
+      "example_phonetic": "/ókwú já nîːlé ɓʊ́ ŋ́kà nā-ēnwēɣɪ́ ŋ́kwálíté/",
+      "example_translation": "Tous ses propos ne sont que des spéculations sans fondement."
+    },
+    {
+      "word_id": "v20_5",
+      "term": "Tụmadị",
+      "phonetic_api": "/tʊ́mádɪ̀/",
+      "phonetic_simple": "TOOU-MAH-DEE",
+      "translation": "D'autant plus que / Surtout si / À plus forte raison",
+      "example_sentence": "Ọrụ a ga-esiri anyị ike, tụmadị ma ọ rụghị.",
+      "example_phonetic": "/ɔ̀|ʊ́ á ɡá-ēsɪ́ɾɪ́ āɲɪ́ īké tʊ́mádɪ̀ má ɔ́ ɾʊ́ɣɪ́/",
+      "example_translation": "Ce travail sera difficile pour nous, d'autant plus s'il ne collabore pas."
+    },
+    {
+      "word_id": "v20_6",
+      "term": "Ịgbagha",
+      "phonetic_api": "/ị̀ɡ͡ɓáɣá/",
+      "phonetic_simple": "EE-GBA-GHAH",
+      "translation": "Douter / Contester / Mettre en doute",
+      "example_sentence": "M na-agbagha na ọ ga-arụcha atụmatụ ahụ taa.",
+      "example_phonetic": "/m nā-āɡ͡ɓáɣá ká ɔ́ ɡá-ā|ʊ́tʃá àtʊ́mátʊ́ àɦʊ́ tāː/",
+      "example_translation": "Je doute fortement qu'il finisse ce projet aujourd'hui."
+    },
+    {
+      "word_id": "v20_7",
+      "term": "Kama",
+      "phonetic_api": "/kámá/",
+      "phonetic_simple": "KAH-MAH",
+      "translation": "Plutôt que / Au lieu de / Sauf que",
+      "example_sentence": "Kama ị ga-anọ nkịtị, gbalịrị rụọ ọrụ.",
+      "example_phonetic": "/kámá ị̀ ɡá-ànɔ́ ŋ́kɪ̀tɪ̀ ɡ͡ɓálɪ́ɾɪ́ ɾʊ́ɔ́ ɔ̀|ʊ́/",
+      "example_translation": "Au lieu de rester sans rien faire, fais plutôt un effort pour travailler."
+    },
+    {
+      "word_id": "v20_8",
+      "term": "Onyenleka",
+      "phonetic_api": "/òɲénléká/",
+      "phonetic_simple": "OH-NYEHN-LEH-KAH",
+      "translation": "Scepticisme / Esprit de doute / Incrédulité",
+      "example_sentence": "Onyenleka ya na-egbu oge anyị.",
+      "example_phonetic": "/òɲénléká já nā-ēɡ͡ɓú óɡè āɲɪ́/",
+      "example_translation": "Son scepticisme nous fait perdre du temps."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p20_1",
+      "original": "Ma ọ bụrụ na ị gwagoro m eziokwu ahụ, agaghị m enwe onyenleka.",
+      "phonetic_api": "/má ɔ́ ɓʊ́ɾʊ́ ná ị̀ ɡʷáɡóɾó m ézíòkwú àɦʊ́ àɡáɣɪ̀ m ēnwẹ́ òɲénléká/",
+      "phrase_simple": "MAH OH BOO-ROO NAH EE GWAH-GOH-ROH M EH-ZEE-OH-KWOO AH-HOU AH-GAH-GHEE M EH-NWEH OH-NYEHN-LEH-KAH",
+      "translation": "Si tu m'avais dit cette vérité (auparavant), je n'aurais pas eu de doutes.",
+      "context": "Exprimer un regret ou une condition passée non réalisée lors d'une discussion stratégique."
+    },
+    {
+      "phrase_id": "p20_2",
+      "original": "M na-agbagha arịrịọ ya, tụmadị n'oge bö rụrụ arọ dị svị a.",
+      "phonetic_api": "/m nā-āɡ͡ɓáɣá àɾɪ́ɾị́ɔ́ já tʊ́mádɪ̀ nɔ́ɡè ɓʊ́ ɾʊ̀ɾù àɾɔ́ dɪ́ sɪ́ á/",
+      "phrase_simple": "M NAH-AH-GBA-GHAH AH-REE-REE-OH YAH TOOU-MAH-DEE NOH-GEH BOU ROU-ROO AH-ROH DEE SEE AH",
+      "translation": "Je conteste sa requête, d'autant plus dans une période aussi complexe que celle-ci.",
+      "context": "Formuler une opposition argumentée lors d'une délibération formelle."
+    },
+    {
+      "phrase_id": "p20_3",
+      "original": "Ikweasị, nka na-enweghị nkwalite ha ga-agbanwe ụbọchị nzukọ ahụ.",
+      "phonetic_api": "/īkwéásɪ̀ ŋ́kà nā-ēnwēɣɪ́ ŋ́kwálíté ɦā ɡá-àɡ͡ɓánwé ʊ́ɓɔ́tʃɪ̀ nzʊ̀kọ́ àɦʊ́/",
+      "phrase_simple": "EE-KWEH-AH-SEE N-KAH NAH-EH-NWEH-GHEE N-KWAH-LEE-TEH HAH GAH-AH-GBA-NWEH OU-BOH-CHEE N-ZOU-KOH AH-HOU",
+      "translation": "Il se pourrait bien, selon leurs spéculations, qu'ils modifient la date de la réunion.",
+      "context": "Analyser une rumeur ou une probabilité de changement de planning."
+    },
+    {
+      "phrase_id": "p20_4",
+      "original": "M chọrọ ka anyị lebarịrị anya na nka na ụzụ a kama nke ahụ.",
+      "phonetic_api": "/m tʃɔ́ɾɔ́ ká āɲɪ́ ɡá-ēléɓáɾɪ́ɾɪ́ āɲá ná ŋ́kà ná ʊ́zʊ́ á kámá ŋkè àɦʊ́/",
+      "phrase_simple": "M CHOH-ROH KAH AH-NYEE GAH-EH-LEH-BAH-REE-REE AH-NYAH NAH N-KAH NAH OO-ZOO AH KAH-MAH N-KEH AH-HOU",
+      "translation": "Si seulement nous avions examiné cette technologie plutôt que celle-là.",
+      "context": "Exprimer un choix alternatif teinté de regret professionnel."
+    },
+    {
+      "phrase_id": "p20_5",
+      "original": "Ọ bụrụ na ọrụ a emechaghị echi gbam, anyị ga-enwe mfu ego.",
+      "phonetic_api": "/ɔ́ ɓʊ́ɾʊ́ ná ɔ̀|ʊ́ á èmétʃáɣɪ́ étʃí ɡ͡ɓám āɲɪ́ ɡá-ēnwẹ́ ḿfū éɡō/",
+      "phrase_simple": "OH BOO-ROO NAH OH-ROU AH EH-MEH-CHAH-GHEE EH-CHEE GBAM AH-NYEE GAH-EH-NWEH M-FOO EH-GOH",
+      "translation": "Si ce travail n'est pas complètement achevé demain pile, nous subirons une perte financière.",
+      "context": "Évaluer le risque financier lié à une condition de temps stricte."
+    },
+    {
+      "phrase_id": "p20_6",
+      "original": "O nwere ike rụọ ọrụ ahụ ọfụma, mana m na-agbagha ezi nka ya.",
+      "phonetic_api": "/ó nwèɾé íké ɾʊ́ɔ́ ɔ̀|ʊ́ àɦʊ́ ɔ̀fʊ́mā máná m nā-āɡ͡ɓáɣá ézí ŋ́kà dʒâ/",
+      "phrase_simple": "OH NWEH-REH EE-KEH ROU-OH OH-ROU AH-HOU OH-FOU-MAH MA-NAH M NAH-AH-GBA-GHAH EH-ZEE N-KAH YAH",
+      "translation": "Il se peut qu'il accomplisse correctement ce travail, mais je doute de sa réelle maîtrise.",
+      "context": "Émettre des réserves sur les compétences réelles d'un prestataire."
+    },
+    {
+      "phrase_id": "p20_7",
+      "original": "Kama ị ga-emebi ego gị, gbalịrị ichekwa ya maka ọdịnihu.",
+      "phonetic_api": "/kámá ị̀ ɡá-ēmēɓí éɡō ɟɪ́ ɡ͡ɓálɪ́ɾɪ́ ị̀tʃékʷá jâ máká ɔ̀dɪ̀nɪ́ɦú/",
+      "phrase_simple": "KAH-MAH EE GAH-EH-MEH-BEE EH-GOH GEE GBA-LEE-REE EE-CHEH-KWAH YAH MA-KAH OH-DEE-NEE-HOO",
+      "translation": "Plutôt que de gaspiller ton argent, efforce-toi de l'économiser pour l'avenir.",
+      "context": "Donner un conseil de gestion financière rigoureux."
+    },
+    {
+      "phrase_id": "p20_8",
+      "original": "Ma ọ bụrụ na anyị ahọrọghị usoro a, anyị gachara fụọ ụzọ.",
+      "phonetic_api": "/má ɔ́ ɓʊ́ɾʊ́ ná āɲɪ́ àɦɔ́ɾɔ́ɣɪ́ ùsòɾò á āɲɪ́ ɡátʃáɾá fʊ́ɔ́ ʊ́zɔ̀/",
+      "phrase_simple": "MAH OH BOO-ROO NAH AH-NYEE AH-HOH-ROH-GHEE OO-SOH-ROH AH AH-NYEE GAH-CHAH-RAH FOO-OH OO-ZOH",
+      "translation": "Si nous n'avions pas choisi cette option, nous nous serions complètement égarés.",
+      "context": "Constater rétrospectivement la justesse d'une décision managériale."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le conditionnel passé irréel avec 'Ma ọ bụrụ na' + Suffixe '-goro'",
+      "explanation": "Pour exprimer une hypothèse non réalisée dans le passé (l'équivalent du 'si j'avais fait...' français au niveau avancé), l'igbo emploie la locution conditionnelle 'Ma ọ bụrụ na' combinée avec le verbe de la proposition subordonnée portant le suffixe de parfait '-goro' ou '-ragoro'. La proposition principale se conjugue souvent avec l'auxiliaire de potentiel 'gachara' ou 'ga-'.",
+      "rules": [
+        "Structure : Ma ọ bụrụ na + [Sujet] + [Radical + ragoro] + [Complément], [Sujet] + ga-/gachara + [Verbe principal].",
+        "Cette double marque verrouille l'irréel du passé historique."
+      ],
+      "examples": [
+        {
+          "structure": "Ma ọ bụrụ na + Sujet + [Verbe]-goro...",
+          "phonetic_api": "/má ɔ́ ɓʊ́ɾʊ́ ná ị̀ dʒéɡóɾó éɓé àɦʊ́/",
+          "meaning": "Ma ọ bụrụ na ị jegoro ebe ahụ... (Si tu étais allé là-bas...)"
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de la probabilité spéculative avec 'Ikweasị'",
+      "explanation": "L'adverbe avancé 'Ikweasị' dérive de la base verbale 'ịkwe' (accepter/croire) et exprime une probabilité forte mais soumise à caution (équivalent de 'il est fort possible que', 'selon toute vraisemblance'). Contrairement à 'O nwere ike', il introduit une coloration stylistique plus soutenue propre aux débats d'idées.",
+      "rules": [
+        "Se place systématiquement en tête de phrase.",
+        "Le verbe qui suit reste à l'indicatif ou adopte la particule de futur 'ga-'."
+      ],
+      "examples": [
+        {
+          "structure": "Ikweasị + [Proposition affirmative]",
+          "phonetic_api": "/īkwéásɪ̀ ɔ́ ɡá-àɓị́á/",
+          "meaning": "Ikweasị ọ ga-abịa. (Il se pourrait bien qu'il vienne / C'est fort probable.)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Maazị Ezenwa",
+      "text": "Onyeisi, m na-agbagha na ụlọ ọrụ anyị ga-enweta ọganihu n'atụmatụ ọhụrụ a. Okwu ya bụ nka na-enweghị nkwalite, m nwere onyenleka ukwuu.",
+      "phonetic_api": "/òɲéīsī m nā-āɡ͡ɓáɣá ká ʊ̀lọ́ ɔ̀|ʊ́ āɲɪ́ ɡá-ēnwẹtá ɔ́ɡánɪ́ɦú nàtʊ́mátʊ́ ɔ̀ɦʊ́ɾʊ́ á ókwú dʒâ ɓʊ́ ŋ́kà nā-ēnwēɣɪ́ ŋ́kwálíté m nwèɾé òɲénléká ūkwūː/",
+      "phonetic_simple": "OH-NYEH-EE-SEE m NAH-AH-GBA-GHAH KAH OU-LOH OH-ROU AH-NYEE GAH-EH-NWEH-TAH OH-GAH-NEE-HOO NAH-TOO-MAH-TOO OH-HOU-ROO AH OH-KWOO YAH BOU N-KAH NAH-EH-NWEH-GHEE N-KWAH-LEE-TEH M NWEH-REH OH-NYEHN-LEH-KAH OO-KWOOU",
+      "translation": "Directeur, je doute fortement que notre entreprise prospère avec ce nouveau plan. Leurs arguments ne sont que des spéculations sans fondement, je suis extrêmement sceptique."
+    },
+    {
+      "speaker": "Onyeisi (Directeur)",
+      "text": "Maazị Ezenwa, m ghọtara onyenleka gị. Kama anyị ga-ajụ ya kpamkpam, ikweasị ọ ga-abụ ezi nka ma ọ bụrụ na anyị bélatá mfu ego anyị.",
+      "phonetic_api": "/māːzɪ̀ ézènʷá m ɣɔ̀táɾá òɲénléká ɟɪ́ kámá āɲɪ́ ɡá-ādʒʊ́ jâ kpámkpám īkwéásɪ̀ ɔ́ ɡá-àɓʊ́ ézí ŋ́kà má ɔ́ ɓʊ́ɾʊ́ ná āɲɪ́ ɓẹ́látá ḿfū éɡō āɲɪ́/",
+      "phonetic_simple": "MAH-ZEE EH-ZEHN-WAH M GHOH-TAH-RAH OH-NYEHN-LEH-KAH GEE KAH-MAH AH-NYEE GAH-AH-JOO YAH KPAM-KPAM EE-KWEH-AH-SEE OH GAH-AH-BOU EH-ZEE N-KAH MAH OH BOO-ROO NAH AH-NYEE BEH-LAH-TAH M-FOO EH-GOH AH-NYEE",
+      "translation": "Monsieur Ezenwa, je comprends votre scepticisme. Plutôt que de le rejeter en bloc, il se pourrait bien que ce plan relève d'une grande maîtrise, à condition que nous réduisions nos pertes financières."
+    },
+    {
+      "speaker": "Maazị Ezenwa",
+      "text": "M chọrọ ka anyị zụtagoro nka na ụzụ ochie ahụ n'afọ gara aga. Tụmadị ma ọ bụrụ na ụgwọ ya dị mma karịa nke a.",
+      "phonetic_api": "/m tʃɔ́ɾɔ́ ká āɲɪ́ zʊ̀táɡóɾó ŋ́kà ná ʊ́zʊ́ ótʃíé àɦʊ́ nàfɔ̀ ɡáɾá áɡá tʊ́mádɪ̀ má ɔ́ ɓʊ́ɾʊ́ ná ʊ̀ɡʷɔ́ já dɪ́ mmā káɾị́á ŋkè á/",
+      "phonetic_simple": "M CHOH-ROH KAH AH-NYEE ZOO-TAH-GOH-ROH N-KAH NAH OO-ZOO OH-CHEE-EH AH-HOU NAH-FOH GAH-RAH AH-GAH TOOU-MAH-DEE MAH OH BOO-ROO NAH OU-GWOH YAH DEE MMA KAH-REE-AH N-KEH AH",
+      "translation": "Si seulement nous avions acquis cette ancienne technologie l'année dernière ! D'autant plus si son coût était bien plus avantageux que celui-ci."
+    },
+    {
+      "speaker": "Onyeisi (Directeur)",
+      "text": "Emecharala okwu ahụ, Maazị Ezenwa. Ọdịnihu na-achọ ka anyị gbalịrị rụọ ọrụ n'otu mgbe ahụ na-enweghị egwu.",
+      "phonetic_api": "/èmétʃáɾálá ókwú àɦʊ́ māːzɪ̀ ézènʷá ɔ̀dɪ̀nɪ́ɦú nā-ātʃɔ́ ká āɲɪ́ ɡ͡ɓálɪ́ɾɪ́ ɾʊ́ɔ́ ɔ̀|ʊ́ nótù ḿɡ͡ɓé àɦʊ́ nā-ēnwēɣɪ́ éɡʷū/",
+      "phonetic_simple": "EH-MEH-CHAH-RAH-LAH OH-KWOO AH MAH-ZEE EH-ZEHN-WAH OH-DEE-NEE-HOO NAH-AH-CHOH KAH AH-NYEE GBA-LEE-REE ROU-OH OH-ROU NOH-TOO M-GBEH AH-HOU NAH-EH-NWEH-GHEE EH-GWOO",
+      "translation": "Cette affaire est déjà classée (entièrement résolue), Monsieur Ezenwa. L'avenir exige que nous fassions des efforts pour travailler simultanément, sans aucune crainte."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'art oratoire traditionnel des assemblées de notables ('Ndi Chịf'), exprimer un désaccord direct est proscrit. On utilise des formules d'atténuation hypothétiques complexes comme 'Ma ọ bụrụ na...' ou 'Ikweasị' pour introduire un point de vue divergent sans heurter la face de l'interlocuteur.",
+    "Le doute méthodique ou scepticisme ('Onyenleka') est perçu comme une qualité chez le négociateur chevronné, car le proverbe rappelle qu'un choix hâtif sans examen des conditions amène le regret de la lignée.",
+    "L'expression 'Chọrọ ka' matérialise linguistiquement le lien avec le monde spirituel : formuler un souhait irréel est une manière d'invoquer la guidance du 'Chi' (dieu personnel) pour redresser les choix futurs."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex20_1",
+      "type": "multiple_choice",
+      "question": "Quel mot avancé traduit l'expression affirmative de probabilité 'Il se pourrait bien que / Probablement' ?",
+      "options": [
+        "Ikweasị",
+        "Kama",
+        "Onyenleka"
+      ],
+      "correct_answer": "Ikweasị",
+      "explanation": "'Ikweasị' introduit une forte conjecture ou une probabilité stylistique élevée dans le discours soutenu."
+    },
+    {
+      "exercise_id": "ex20_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'D'autant plus que' ou 'À plus forte raison', l'igbo utilise le mot [ ___ ].",
+      "correct_answer": "Tụmadị",
+      "hint": "Le connecteur d'intensification logique à ton initial haut."
+    }
+  ]
+}

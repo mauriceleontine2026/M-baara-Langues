@@ -1,0 +1,327 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Décliner son identité (nom et prénom) et s'enquérir de celle d'autrui",
+    "Exprimer son origine géographique, sa nationalité ou son appartenance",
+    "Indiquer son âge en utilisant les structures numériques de base",
+    "Énoncer sa profession ou son activité principale"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'ɲ' représente une consonne occlusive palatale sonore, identique au 'gn' français dans le mot 'gagner'. Le groupe 'ng' se prononce de manière unie /ŋɡ/ comme dans l'anglais 'finger'. La voyelle fermée 'u' se prononce systématiquement /u/ (le son 'ou' français). L'accentuation repose sur un système tonal où les pronoms personnels possèdent des variations de hauteur (ton haut/bas) qui déterminent le rapport sujet-objet.",
+    "common_pitfalls": "Veillez à ne pas prononcer le 'j' à la française (/ʒ/). En dioula, le 'j' se prononce toujours comme une affriquée palatale sonore /d͡ʒ/ (comme le 'j' en anglais dans 'job' ou le 'dj' en français). Évitez également de séparer le 'n' initial lorsqu'il est nasalisé devant une consonne, prononcez-le d'un seul bloc (ex: 'n tɔgɔ')."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Tɔgɔ",
+      "phonetic_api": "/tɔ.ɡɔ/",
+      "phonetic_simple": "TÕ-GÕ",
+      "translation": "Le nom / Le prénom",
+      "example_sentence": "I tɔgɔ bɛ di ?",
+      "example_phonetic": "/i tɔ.ɡɔ bɛ di/",
+      "example_translation": "Comment t'appelles-tu ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "Jamu",
+      "phonetic_api": "/d͡ʒa.mu/",
+      "phonetic_simple": "DJA-MOU",
+      "translation": "Le nom de famille / Le nom de clan",
+      "example_sentence": "N jamu bɛ Traoré",
+      "example_phonetic": "/n̩ d͡ʒa.mu bɛ tra.o.re/",
+      "example_translation": "Mon nom de famille est Traoré."
+    },
+    {
+      "word_id": "v3",
+      "term": "San",
+      "phonetic_api": "/san/",
+      "phonetic_simple": "SAN",
+      "translation": "L'année / L'âge",
+      "example_sentence": "San joli bɛ i bolo ?",
+      "example_phonetic": "/san d͡ʒo.li bɛ i bo.lo/",
+      "example_translation": "Quel âge as-tu ? (Litt. Combien d'années as-tu en main ?)"
+    },
+    {
+      "word_id": "v4",
+      "term": "Bɔ",
+      "phonetic_api": "/bɔ/",
+      "phonetic_simple": "BÕ",
+      "translation": "Sortir / Venir de (origine)",
+      "example_sentence": "N bɛ bɔ Burkina la",
+      "example_phonetic": "/n̩ bɛ bɔ bur.ki.na la/",
+      "example_translation": "Je viens du Burkina Faso."
+    },
+    {
+      "word_id": "v5",
+      "term": "Baara",
+      "phonetic_api": "/baː.ra/",
+      "phonetic_simple": "BAA-RA",
+      "translation": "Le travail / La profession",
+      "example_sentence": "I bɛ baara juman kɛ ?",
+      "example_phonetic": "/i bɛ baː.ra d͡ʒu.man kɛ/",
+      "example_translation": "Quel travail fais-tu ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "Karamɔgɔ",
+      "phonetic_api": "/ka.ra.mɔ.ɡɔ/",
+      "phonetic_simple": "KA-RA-MÕ-GÕ",
+      "translation": "Enseignant / Maître / Professeur",
+      "example_sentence": "N bɛ karamɔgɔ ye",
+      "example_phonetic": "/n̩ bɛ ka.ra.mɔ.ɡɔ jɛ/",
+      "example_translation": "Je suis enseignant."
+    },
+    {
+      "word_id": "v7",
+      "term": "Kalanden",
+      "phonetic_api": "/ka.lan.den/",
+      "phonetic_simple": "KA-LAN-DEN",
+      "translation": "Élève / Étudiant",
+      "example_sentence": "A bɛ kalanden ye",
+      "example_phonetic": "/a bɛ ka.lan.den jɛ/",
+      "example_translation": "Il/Elle est élève."
+    },
+    {
+      "word_id": "v8",
+      "term": "Sugufeela",
+      "phonetic_api": "/su.ɡu.feː.la/",
+      "phonetic_simple": "SOU-GOU-FEE-LA",
+      "translation": "Commerçant / Vendeur au marché",
+      "example_sentence": "N ba bɛ sugufeela ye",
+      "example_phonetic": "/n̩ ba bɛ su.ɡu.feː.la jɛ/",
+      "example_translation": "Ma mère est commerçante."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "N tɔgɔ bɛ Moussa.",
+      "phonetic_api": "/n̩ tɔ.ɡɔ bɛ mu.sa/",
+      "phonetic_simple": "N TÕ-GÕ BÈ MOU-SA",
+      "translation": "Je m'appelle Moussa. (Litt. Mon nom est Moussa.)",
+      "context": "Réponse standard lors d'une présentation formelle ou informelle."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "I tɔgɔ bɛ di ?",
+      "phonetic_api": "/i tɔ.ɡɔ bɛ di/",
+      "phonetic_simple": "I TÕ-GÕ BÈ DI",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Question usuelle posée à un pair ou un plus jeune."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Aw tɔgɔ bɛ di ?",
+      "phonetic_api": "/aw tɔ.ɡɔ bɛ di/",
+      "phonetic_simple": "AW TÕ-GÕ BÈ DI",
+      "translation": "Comment vous vous appelez ?",
+      "context": "Formule polie adressée à un adulte ou à un groupe."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "N jamu bɛ Coulibaly.",
+      "phonetic_api": "/n̩ d͡ʒa.mu bɛ ku.li.ba.li/",
+      "phonetic_simple": "N DJA-MOU BÈ KOU-LI-BA-LI",
+      "translation": "Mon nom de famille est Coulibaly.",
+      "context": "Précision cruciale dans les relations sociales mandingues."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "I bɛ bɔ fan juman ?",
+      "phonetic_api": "/i bɛ bɔ fan d͡ʒu.man/",
+      "phonetic_simple": "I BÈ BÕ FAN DJOU-MAN",
+      "translation": "D'où viens-tu ? / De quelle région es-tu ?",
+      "context": "Question sur l'origine géographique."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "N bɛ bɔ Bobo-Dioulasso la.",
+      "phonetic_api": "/n̩ bɛ bɔ bo.bo dju.la.so la/",
+      "phonetic_simple": "N BÈ BÕ BO-BO DJOU-LA-SO LA",
+      "translation": "Je viens de Bobo-Dioulasso.",
+      "context": "Déclaration de sa localité ou ville de provenance."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "San mugan bɛ n bolo.",
+      "phonetic_api": "/san mu.ɡan bɛ n̩ bo.lo/",
+      "phonetic_simple": "SAN MOU-GAN BÈ N BO-LO",
+      "translation": "J'ai vingt ans. (Litt. Vingt ans sont dans ma main.)",
+      "context": "Indiquer son âge."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "San joli bɛ i bolo ?",
+      "phonetic_api": "/san d͡ʒo.li bɛ i bo.lo/",
+      "phonetic_simple": "SAN DJO-LI BÈ I BO-LO",
+      "translation": "Quel âge as-tu ?",
+      "context": "Demander l'âge de quelqu'un."
+    },
+    {
+      "phrase_id": "p9",
+      "original": "N bɛ bɔgɔlɔnfɛla ye.",
+      "phonetic_api": "/n̩ bɛ bɔ.ɡɔ.lɔn.fɛ.la jɛ/",
+      "phonetic_simple": "N BÈ BÕ-GÕ-LÕN-FÈ-LA YÈ",
+      "translation": "Je suis maçon / artisan de la terre.",
+      "context": "Présentation de son métier."
+    },
+    {
+      "phrase_id": "p10",
+      "original": "I bɛ baara kɛ Wagadugu la ?",
+      "phonetic_api": "/i bɛ baː.ra kɛ wa.ɡa.du.ɡu la/",
+      "phonetic_simple": "I BÈ BAA-RA KÈ WA-GA-DOU-GOU LA",
+      "translation": "Tu travailles à Ouagadougou ?",
+      "context": "Question de précision sur le lieu d'activité."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'identité nominale avec 'bɛ'",
+      "explanation": "En dioula, pour exprimer le nom ou le prénom, on n'utilise pas un verbe d'état équivalent à 's'appeler'. On utilise la structure possessive combinant le pronom, le substantif 'tɔgɔ' (nom) ou 'jamu' (nom de clan) et le connecteur 'bɛ'.",
+      "rules": [
+        "Le pronom possessif se place devant le mot 'tɔgɔ' (ex: 'n tɔgɔ' = mon nom, 'i tɔgɔ' = ton nom).",
+        "Le connecteur d'affirmation existentielle 'bɛ' introduit directement l'identité."
+      ],
+      "examples": [
+        {
+          "structure": "N (Mon) + tɔgɔ (nom) + bɛ (est) + Aminata",
+          "phonetic_api": "/n̩ tɔ.ɡɔ bɛ a.mi.na.ta/",
+          "meaning": "Je m'appelle Aminata."
+        }
+      ]
+    },
+    {
+      "concept": "L'origine géographique avec 'bɔ ... la'",
+      "explanation": "Pour indiquer la provenance, la langue utilise le verbe de mouvement 'bɔ' (sortir / provenir) associé à la postposition locative 'la' placée en fin de syntagme.",
+      "rules": [
+        "La structure est toujours : Sujet + bɛ (inaccompli) + bɔ + Lieu + la.",
+        "Le 'la' final indique la provenance ou le lieu d'attachement."
+      ],
+      "examples": [
+        {
+          "structure": "N + bɛ + bɔ + Côte d'Ivoire + la",
+          "phonetic_api": "/n̩ bɛ bɔ kot di.vwar la/",
+          "meaning": "Je viens de Côte d'Ivoire."
+        }
+      ]
+    },
+    {
+      "concept": "La structure de l'âge avec '... bɛ i bolo'",
+      "explanation": "L'âge ne se possède pas avec un équivalent du verbe 'avoir' français. On dit littéralement que les années sont dans la main de la personne.",
+      "rules": [
+        "La phrase commence par le mot 'san' (année) suivi du nombre.",
+        "On termine par 'bɛ' (être) + pronom + 'bolo' (dans la main / en possession)."
+      ],
+      "examples": [
+        {
+          "structure": "San + tan (dix) + bɛ + n + bolo",
+          "phonetic_api": "/san tan bɛ n̩ bo.lo/",
+          "meaning": "J'ai dix ans (Dix ans sont dans ma main)."
+        }
+      ]
+    },
+    {
+      "concept": "Déclarer sa profession avec '... ye'",
+      "explanation": "Pour désigner son rôle ou son métier, on place le nom de la profession suivi de la particule d'identification 'ye'.",
+      "rules": [
+        "La structure est : Sujet + bɛ + Profession + ye.",
+        "Le mot 'ye' sert de marqueur d'état ou d'identité professionnelle en fin de phrase."
+      ],
+      "examples": [
+        {
+          "structure": "N + bɛ + karamɔgɔ (enseignant) + ye",
+          "phonetic_api": "/n̩ bɛ ka.ra.mɔ.ɡɔ jɛ/",
+          "meaning": "Je suis enseignant."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Adama",
+      "text": "I ni ce ! I tɔgɔ bɛ di ?",
+      "phonetic_api": "/i ni t͡ʃe i tɔ.ɡɔ bɛ di/",
+      "phonetic_simple": "I NI TCHE ! I TÕ-GÕ BÈ DI ?",
+      "translation": "Bonjour ! Comment t'appelles-tu ?"
+    },
+    {
+      "speaker": "Fatou",
+      "text": "I ni ce. N tɔgɔ bɛ Fatou. N jamu bɛ Ouédraogo. I tɔgɔ ?",
+      "phonetic_api": "/i ni t͡ʃe n̩ tɔ.ɡɔ bɛ fa.tu n̩ d͡ʒa.mu bɛ we.dra.o.ɡo i tɔ.ɡɔ/",
+      "phonetic_simple": "I NI TCHE. N TÕ-GÕ BÈ FA-TOU. N DJA-MOU BÈ WE-DRA-O-GO. I TÕ-GÕ ?",
+      "translation": "Bonjour. Je m'appelle Fatou. Mon nom de famille est Ouédraogo. Et ton nom ?"
+    },
+    {
+      "speaker": "Adama",
+      "text": "N tɔgɔ bɛ Adama Konaté. Fatou, i bɛ bɔ fan juman ?",
+      "phonetic_api": "/n̩ tɔ.ɡɔ bɛ a.da.ma ko.na.te fa.tu i bɛ bɔ fan d͡ʒu.man/",
+      "phonetic_simple": "N TÕ-GÕ BÈ A-DA-MA KO-NA-TÉ. FA-TOU, I BÈ BÕ FAN DJOU-MAN ?",
+      "translation": "Je m'appelle Adama Konaté. Fatou, d'où viens-tu ?"
+    },
+    {
+      "speaker": "Fatou",
+      "text": "N bɛ bɔ Koudougou la. N bɛ baara kɛ sisan Wagadugu la. I bɛ baara juman kɛ ?",
+      "phonetic_api": "/n̩ bɛ bɔ ku.du.ɡu la n̩ bɛ baː.ra kɛ si.san wa.ɡa.du.ɡu la i bɛ baː.ra d͡ʒu.man kɛ/",
+      "phonetic_simple": "N BÈ BÕ KOU-DOU-GOU LA. N BÈ BAA-RA KÈ SI-SAN WA-GA-DOU-GOU LA. I BÈ BAA-RA DJOU-MAN KÈ ?",
+      "translation": "Je viens de Koudougou. Je travaille maintenant à Ouagadougou. Quel travail fais-tu ?"
+    },
+    {
+      "speaker": "Adama",
+      "text": "N bɛ karamɔgɔ ye. San joli bɛ i bolo ?",
+      "phonetic_api": "/n̩ bɛ ka.ra.mɔ.ɡɔ jɛ san d͡ʒo.li bɛ i bo.lo/",
+      "phonetic_simple": "N BÈ KA-RA-MÕ-GÕ YÈ. SAN DJO-LI BÈ I BO-LO ?",
+      "translation": "Je suis enseignant. Quel âge as-tu ?"
+    },
+    {
+      "speaker": "Fatou",
+      "text": "San bori-bi-naani bɛ n bolo. K'an bɛn !",
+      "phonetic_api": "/san bo.ri bi naː.ni bɛ n̩ bo.lo kʼan bɛn/",
+      "phonetic_simple": "SAN BO-RI-BI-NAA-NI BÈ N BO-LO. KAN BEN !",
+      "translation": "J'ai quarante ans. Au revoir !"
+    }
+  ],
+  "cultural_notes": [
+    "Le 'jamu' (nom de famille ou de clan) revêt une dimension sacrée et sociale majeure en Afrique de l'Ouest. Connaître le jamu de son interlocuteur permet d'identifier son groupe d'origine et d'activer le système de 'sinankun ya' (cousinage à plaisanterie), une tradition pacificatrice permettant à des clans différents de se taquiner mutuellement sans aucune offense.",
+    "Demander l'âge d'une personne âgée ne se fait pas de manière abrupte ou directe en dioula. Le respect dû aux aînés implique que l'âge est synonyme de sagesse accumulée, on évitera donc de comptabiliser strictement les années d'un ancien sauf nécessité administrative."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L2_Ex1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'Je m'appelle Alassane' en dioula ?",
+      "options": [
+        "N bɛ Alassane ye",
+        "N tɔgɔ bɛ Alassane",
+        "N bɛ bɔ Alassane la",
+        "I tɔgɔ bɛ Alassane"
+      ],
+      "correct_answer": "N tɔgɔ bɛ Alassane",
+      "explanation": "La structure obligatoire pour donner son nom est 'N tɔgɔ bɛ' suivi du prénom."
+    },
+    {
+      "exercise_id": "A1_M1_L2_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Je viens de Banfora', on emploie la structure : 'N bɛ bɔ Banfora [ ___ ]'.",
+      "correct_answer": "la",
+      "hint": "Il s'agit de la postposition locative obligatoire après le nom du lieu."
+    },
+    {
+      "exercise_id": "A1_M1_L2_Ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie la phrase 'N bɛ kalanden ye' ?",
+      "options": [
+        "Je suis enseignant",
+        "Je suis commerçant",
+        "Je suis étudiant / élève",
+        "Je suis maçon"
+      ],
+      "correct_answer": "Je suis étudiant / élève",
+      "explanation": "'Kalanden' est formé de 'kalan' (étudier/lire) et 'den' (enfant/individu), qualifiant l'apprenant."
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Articuler correctement le passé composé et l'imparfait pour structurer un récit cohérent",
+    "Maîtriser l'usage du plus-que-parfait pour exprimer l'antériorité dans le passé"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La distinction phonétique entre les désinences de l'imparfait et du passé composé est essentielle. À l'imparfait, la consonne bilabiale fricative /v/ doit être prononcée avec soin : 'andavo' /anˈdaːvo/, 'dicevi' /diˈtʃeːvi/. Pour les participes passés réguliers en '-ato', '-uto', '-ito', l'accent tonique repose toujours sur la voyelle thématique : 'andàto', 'vedùto', 'finìto'.",
+    "common_pitfalls": "Attention à la prononciation du plus-que-parfait : les formes de l'auxiliaire 'ero' /ˈɛːro/ ou 'avevo' /aˈveːvo/ ne doivent pas être nasalisées. Évitez de prononcer le double 't' de 'fatto' /ˈfatto/ ou 'scritto' /ˈskritto/ comme un 't' simple français."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Il passato prossimo",
+      "phonetic_api": "/il pasˈsaːto ˈprɔssimo/",
+      "phonetic_simple": "IL PAS-SA-TO PRÒS-SI-MO",
+      "translation": "Le passé composé",
+      "example_sentence": "Ieri ho scritto une lettera importante.",
+      "example_phonetic": "/ˈjɛːri ɔ sˈskritto ˈuːna ˈlɛttera imporˈtante/",
+      "example_translation": "Hier j'ai écrit une lettre importante."
+    },
+    {
+      "word_id": "v2",
+      "term": "L'imperfetto",
+      "phonetic_api": "/limperˈfɛtto/",
+      "phonetic_simple": "LIM-PÈR-FET-TO",
+      "translation": "L'imparfait",
+      "example_sentence": "Da bambino leggevo molto ogni sera.",
+      "example_phonetic": "/da bamˈbiːno ledˈdʒeːvo ˈmolto ˈoɲɲi ˈseːra/",
+      "example_translation": "Enfant, je lisais beaucoup chaque soir."
+    },
+    {
+      "word_id": "v3",
+      "term": "Il trapassato prossimo",
+      "phonetic_api": "/il trapasˈsaːto ˈprɔssimo/",
+      "phonetic_simple": "IL TRA-PAS-SA-TO PRÒS-SI-MO",
+      "translation": "Le plus-que-parfait",
+      "example_sentence": "Non sono venuto perché avevo già mangiato.",
+      "example_phonetic": "/non ˈsoːno veˈnuːto perˈke aˈveːvo dʒa manˈdʒaːto/",
+      "example_translation": "Je ne suis pas venu parce que j'avais déjà mangé."
+    },
+    {
+      "word_id": "v4",
+      "term": "L'avvenimento",
+      "phonetic_api": "/lavvenimeːnto/",
+      "phonetic_simple": "LAV-VÉ-NI-MÈN-TO",
+      "translation": "L'événement",
+      "example_sentence": "Ricordo perfettamente quell'avvenimento storico.",
+      "example_phonetic": "/riˈkɔrdo perfettaˈmente kwellavvenimeːnto ˈstɔːriko/",
+      "example_translation": "Je me souviens parfaitement de cet événement historique."
+    },
+    {
+      "word_id": "v5",
+      "term": "All'improvviso",
+      "phonetic_api": "/allimprovˈviːzo/",
+      "phonetic_simple": "AL-LIM-PROV-VI-ZO",
+      "translation": "Soudain / Tout à coup",
+      "example_sentence": "Mentre camminavo, all'improvviso è iniziato a piovere.",
+      "example_phonetic": "/ˈmentre kammiˈnaːvo allimprovˈviːzo ɛ iˈnittsjaːto a pˈpjɔːvere/",
+      "example_translation": "Pendant que je marchais, soudain il a commencé à pleuvoir."
+    },
+    {
+      "word_id": "v6",
+      "term": "Accadere",
+      "phonetic_api": "/akkaˈdeːre/",
+      "phonetic_simple": "AK-KA-DÉ-RÉ",
+      "translation": "Se passer / Arriver / Se produire",
+      "example_sentence": "Che cosa è accaduto ieri notte?",
+      "example_phonetic": "/ke kˈkɔːza ɛ akkarˈduːto ˈjɛːri ˈnɔtte/",
+      "example_translation": "Que s'est-il passé hier soir ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Mentre studiavo, è squillato il telefono",
+      "phonetic_api": "/ˈmentre studiˈaːvo ɛ sskwilˈlaːto il teˈlɛːfono/",
+      "phonetic_simple": "MÈN-TRÉ STOU-DIA-VO, È SKOUIL-LA-TO IL TÉ-LÈ-FO-NO",
+      "translation": "Pendant que j'étudiais, le téléphone a sonné",
+      "context": "Structure type combinant une action de fond (imparfait) interrompue par une action ponctuelle (passé composé)."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Non sapevo che avessi già cambiato lavoro",
+      "phonetic_api": "/non saˈpeːvo ke aˈvessi dʒa kamˈbjaːto laˈvoːro/",
+      "phonetic_simple": "NON SA-PÉ-VO KÉ A-VÈS-SI DJA KAM-BIA-TO LA-VO-RO",
+      "translation": "Je ne savais pas que tu avais déjà changé de travail",
+      "context": "Indique l'antériorité d'une action révolue combinée avec un verbe de connaissance à l'imparfait."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Quel giorno faceva bel tempo e la città era calma",
+      "phonetic_api": "/kwel ˈdʒorno faˈtʃeːva bɛl ˈtɛmpo e lla tʃitˈta ˈɛːra ˈkalma/",
+      "phonetic_simple": "KOUÈL DJOR-NO FA-TCHÉ-VA BÈL TÈM-PO É LA TCHIT-TA È-RA KAL-MA",
+      "translation": "Ce jour-là, il faisait beau et la ville était calme",
+      "context": "Utilisé pour poser le décor, décrire les conditions climatiques et l'atmosphère passée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Tutto è iniziato qualche anno fa",
+      "phonetic_api": "/ˈtutto ɛ iˈnittsjaːto ˈkwalke ˈanno fa/",
+      "phonetic_simple": "TOUT-TO È I-NI-TSIA-TO KOUAL-KÉ AN-NO FA",
+      "translation": "Tout a commencé il y a quelques années",
+      "context": "Idéal pour introduire un long récit autobiographique ou une anecdote."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Eravamo già partiti quando ci hai chiamato",
+      "phonetic_api": "/eraˈvaːmo dʒa parˈtiːti ˈkwando tʃi ˈai kjaˈmaːto/",
+      "phonetic_simple": "É-RA-VA-MO DJA PAR-TI-TI KOUAN-DO TCHI AÏ KIA-MA-TO",
+      "translation": "Nous étions déjà partis quand tu nous as appelés",
+      "context": "Exprime une action complètement achevée avant un autre point de repère passé."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "A quei tempi andavo sempre al cinema il sabato",
+      "phonetic_api": "/a kkwɛi ˈtempi amˈdaːvo ˈsempre al ˈtʃiːnema il ˈsaːbato/",
+      "phonetic_simple": "A KOUÉÏ TÈM-PI AN-DA-VO SÈM-PRÉ AL TCHI-NÉ-MA IL SA-BA-TO",
+      "translation": "À l'époque, j'allais toujours au cinéma le samedi",
+      "context": "Formule typique pour exprimer une habitude ou une routine dans un passé lointain."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'alternance Passato Prossimo vs Imperfetto",
+      "explanation": "L'une des difficultés majeures du niveau B1 consiste à choisir le bon temps pour structurer le récit. L'imparfait sert à décrire le décor, les états psychologiques ou physiques, et les actions habituelles ou continues. Le passé composé exprime des actions ponctuelles, délimitées dans le temps et qui font avancer l'histoire.",
+      "rules": [
+        "Imperfetto = Action en cours, description, habitude, météo (ex: Avevo sonno, pioveva...).",
+        "Passato prossimo = Action soudaine, unique, coupure (ex: All'improvviso è caduto il quadro)."
+      ],
+      "examples": [
+        {
+          "structure": "Mentre andavo in ufficio (azione continua), ho incontrato Luca (azione puntuale).",
+          "phonetic_api": "/ˈmentre amˈdaːvo in ufˈfiːtʃo ɔ iŋkonˈtraːto ˈluːka/",
+          "meaning": "Pendant que j'allais au bureau, j'ai rencontré Luca."
+        }
+      ]
+    },
+    {
+      "concept": "Le Plus-que-parfait (Trapassato Prossimo)",
+      "explanation": "Il sert à exprimer une action antérieure à une autre action passée. Il se construit avec l'auxiliaire essere ou avere à l'imparfait suivi du participe passé du verbe.",
+      "rules": [
+        "Auxiliaire (Avere / Essere) à l'Imperfetto + Participe passé du verbe.",
+        "Exemple avec Avere : avevo capito / Avevi fatto.",
+        "Exemple avec Essere (accord obligatoire) : ero andato/a / Eravamo usciti/e."
+      ],
+      "examples": [
+        {
+          "structure": "Quando sono arrivato alla stazione, il treno era già partito.",
+          "phonetic_api": "/ˈkwando ˈsoːno arriˈvaːto ˈdalla statˈtsjoːne il ˈtrɛːno ˈɛːra dʒa parˈtiːto/",
+          "meaning": "Quand je suis arrivé à la gare, le train était déjà parti (antériorité)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Giovanni",
+      "text": "Ciao Elena! Ho saputo del tuo viaggio a Roma. Raccontami, com'è andata?",
+      "phonetic_api": "/ˈtʃaːo ˈɛːlena ɔ ssaˈpuːto del ˈtuːo ˈvjaddʒo a rˈroːma rakˈkontami koˈmɛ amˈdaːta/",
+      "phonetic_simple": "TCHAO É-LÉ-NA ! O SA-POU-TO DEL TOU-O VIAD-JO A RO-MA. RAK-KON-TA-MI, KO-MÈ AN-DA-TA ?",
+      "translation": "Salut Elena ! J'ai appris pour ton voyage à Rome. Raconte-moi, comment ça s'est passé ?"
+    },
+    {
+      "speaker": "Elena",
+      "text": "È stata un'avventura! Sabato mattina faceva un tempo splendido, la città era bellissima. Mentre passeggiavo vicino al Colosseo, all'improvviso ho perso il portafoglio.",
+      "phonetic_api": "/ɛ sˈstaːta unavvenˈtuːra ˈsaːbato matˈtiːna faˈtʃeːva un ˈtɛmpo ˈsplɛndido la tʃitˈta ˈɛːra belˈlissima ˈmentre passedˈdʒaːvo viˈtʃiːno al kolosˈsɛːo allimprovˈviːzo ɔ pˈpɛrso il portaˈfɔʎʎo/",
+      "phonetic_simple": "È STA-TA OUN-AV-VEN-TOU-RA ! SA-BA-TO MAT-TI-NA FA-TCHÉ-VA OUN TÈM-PO SPLÈN-DI-CO, LA TCHIT-TA È-RA BEL-LIS-SI-MA. MÈN-TRÉ PAS-SED-JA-VO VI-TCHI-NO AL KO-LOS-SÈ-O, AL-LIM-PROV-VI-ZO O PÈR-SO IL POR-TA-FOL-LIO",
+      "translation": "Ça a été une aventure ! Samedi matin il faisait un temps splendide, la ville était magnifique. Pendant que je me promenais près du Colisée, tout à coup j'ai perdu mon portefeuille."
+    },
+    {
+      "speaker": "Giovanni",
+      "text": "Accidenti! E che cosa hai fatto? Avevi lasciato i tuoi documenti in albergo?",
+      "phonetic_api": "/attʃiˈdɛnti e kke kˈkɔːza ˈai ˈfatto aveˈvi laʃˈʃaːto i ˈtuɔi dokuˈmenti in alˈbɛrɡo/",
+      "phonetic_simple": "AT-TCHI-DÈN-TI ! É KÉ KO-ZA AÏ FAT-TO ? A-VÉ-VI LA-CHIA-TO I TOUÒÏ DO-KOU-MÈN-TI IN AL-BÈR-GO ?",
+      "translation": "Mince alors ! Et qu'est-ce que tu as fait ? Tu avais laissé tes papiers à l'hôtel ?"
+    },
+    {
+      "speaker": "Elena",
+      "text": "Per fortuna sì! Avevo messo il passaporto nella cassaforte della camera prima de uscire. Così sono andata alla polizia ed tutto si è risolto.",
+      "phonetic_api": "/per forˈtuːna si aveˈvi ˈmesso il passaˈpɔrto ˈnella kassaˈfɔrte dˈdella ˈkaːmera ˈpriːma de uʃˈʃiːre koˈzi ˈsoːno amˈdaːta ˈdalla politˈtsiːa ed ˈtutto si ɛ rriˈsɔlto/",
+      "phonetic_simple": "PÈR FOR-TOOU-NA SI ! A-VÉ-VI MES-SO IL PAS-SA-POR-TO NEL-LA KAS-SA-FOR-TÉ DEL-LA KA-MÉ-RA PRI-MA DÉ OU-CHY-RÉ. KO-ZI SO-NO AN-DA-TA AL-LA PO-LI-TSI-A ED TOUT-TO SI È RI-SOL-TO",
+      "translation": "Heureusement oui ! J'avais mis mon passeport dans le coffre-fort de la chambre avant de sortir. Du coup, je suis allée à la police et tout s'est arrangé."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'Italie contemporaine, le passé simple ('il passato remoto') est principalement utilisé dans la langue écrite, la littérature et les contes. À l'oral, les Italiens du Nord et du Centre emploient presque exclusivement le 'passato prossimo' pour toutes les actions passées, tandis que dans certaines régions du Sud (comme la Sicile ou la Campanie), le passé simple reste très ancré dans le langage parlé quotidien.",
+    "La narration orale chez les Italiens s'accompagne d'une riche théâtralité gestuelle et d'expressions exclamatives de surprise ou de compassion comme 'Meno male!' (Tant mieux / Heureusement !), 'Mamma mia!' ou 'Non ci credo!' (Je n'y crois pas !) qui ponctuent le rythme du récit."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la forme correcte : 'Ieri sera non ho mangiato la pizza perché [ ___ ] già cenato a casa.'",
+      "options": [
+        "ho",
+        "avevo",
+        "sono"
+      ],
+      "correct_answer": "avevo",
+      "explanation": "L'action de dîner à la maison est antérieure à la soirée d'hier évoquée au passé composé. Il faut donc employer le plus-que-parfait avec l'auxiliaire 'avevo'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mentre il professore spiegava, all'improvviso [ ___ ] entrato lo studente.",
+      "correct_answer": "è",
+      "hint": "Auxiliaire être requis pour l'action ponctuelle et soudaine au passé composé du verbe 'entrare'."
+    }
+  ]
+}

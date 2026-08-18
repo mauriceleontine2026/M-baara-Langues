@@ -1,0 +1,255 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés",
+  "learning_objectives": [
+    "Exprimer l'aspect perfectif, le plus-que-parfait et l'antériorité immédiate en igbo standard",
+    "Manipuler les structures verbales hautement nuancées avec les suffixes '-tụrụ', '-goro' et '-la'",
+    "Articuler des énoncés fluides combinant plusieurs extensions verbales imbriquées"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Analysez l'imbrication des suffixes dans 'Emecharala' (Avoir déjà fini de faire). Le digramme 'ch' /tʃ/ s'enchaîne avec le 'r' alvéolaire tapoté [ɾ]. Notez le saut tonal subtil sur le suffixe perfectif '-la' [lá], qui doit être prononcé avec une clarté absolue pour ne pas être confondu avec la marque prohibitive.",
+    "common_pitfalls": "La superposition des suffixes modifie le schème tonal global du verbe. Par exemple, le suffixe d'expérience vécue '-tụrụ' abaisse le ton de la syllabe suivante. Entraînez-vous à maintenir la stabilité des tons semi-hauts pour préserver l'élégance stylistique propre au niveau avancé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v19_1",
+      "term": "Akanyị",
+      "phonetic_api": "/ákáɲɪ́/",
+      "phonetic_simple": "AH-KAH-NYEE",
+      "translation": "Déjà / À ce moment précis (marqueur d'antériorité)",
+      "example_sentence": "Mgbe ọ ruterere, anyị akanyị rụchaa ọrụ ahụ.",
+      "example_phonetic": "/ḿɡ͡ɓé ɔ́ ɾútéɾéɾé āɲɪ́ ákáɲɪ́ ɾʊ́tʃáá ɔ̀|ʊ́ àɦʊ́/",
+      "example_translation": "Lorsqu'il est arrivé, nous avions déjà fini ce travail."
+    },
+    {
+      "word_id": "v19_2",
+      "term": "Suffixe '-goro'",
+      "phonetic_api": "/-ɡōɾō/",
+      "phonetic_simple": "GOH-ROH",
+      "translation": "Extension verbale du parfait accompli lointain",
+      "example_sentence": "Ha rigoro nri tupu m banye.",
+      "example_phonetic": "/ɦā ɾíɡóɾó ńɾī túpú m ɓàɲé/",
+      "example_translation": "Ils avaient déjà mangé (depuis un moment) avant que j'entre."
+    },
+    {
+      "word_id": "v19_3",
+      "term": "Suffixe '-tụrụ'",
+      "phonetic_api": "/-tʊ̀ɾʊ̀/",
+      "phonetic_simple": "TOOU-ROOU",
+      "translation": "Extension d'expérience vécue (Avoir déjà fait une fois dans sa vie)",
+      "example_sentence": "M jẹtụrụ obodo Onitsha n'oge gara aga.",
+      "example_phonetic": "/m dʒẹtʊ̀ɾʊ̀ òɓòdò ònītʃá nɔ́ɡè ɡáɾá áɡá/",
+      "example_translation": "Je suis déjà allé à Onitsha une fois dans le passé."
+    },
+    {
+      "word_id": "v19_4",
+      "term": "N'otu mgbe ahụ",
+      "phonetic_api": "/nótù ḿɡ͡ɓé àɦʊ́/",
+      "phonetic_simple": "NOH-TOO M-GBEH AH-HOU",
+      "translation": "Simultanément / Au même instant / Sur-le-champ",
+      "example_sentence": "Ọ na-agụ akwụkwọ, n'otu mgbe ahụ ọ na-ege egwu.",
+      "example_phonetic": "/ɔ́ nā-āɡʊ́ ákwʊ́kwɔ̀ nótù ḿɡ͡ɓé àɦʊ́ ɔ́ nā-ēɡé éɡʷū/",
+      "example_translation": "Il lit un livre et, au même instant, il écoute de la musique."
+    },
+    {
+      "word_id": "v19_5",
+      "term": "Ịgbanwe",
+      "phonetic_api": "/ị̀ɡ͡ɓánwé/",
+      "phonetic_simple": "EE-GBA-NWEH",
+      "translation": "Transformer / Altérer radicalement / S'écarter de",
+      "example_sentence": "Atụmatụ anyị agbanwela kpamkpam.",
+      "example_phonetic": "/àtʊ́mátʊ́ āɲɪ́ àɡ͡ɓánwélá kpámkpám/",
+      "example_translation": "Notre projet s'est radicalement transformé."
+    },
+    {
+      "word_id": "v19_6",
+      "term": "Nka na ụzụ",
+      "phonetic_api": "/ŋ́kà ná ʊ́zʊ́/",
+      "phonetic_simple": "N-KAH NAH OO-ZOO",
+      "translation": "Technicité / Savoir-faire complexe / Méthodologie",
+      "example_sentence": "Ọrụ a na-achọ nka na ụzụ dị elu.",
+      "example_phonetic": "/ɔ̀|ʊ́ á nā-ātʃɔ́ ŋ́kà ná ʊ́zʊ́ dɪ́ élú/",
+      "example_translation": "Ce travail exige une haute technicité."
+    },
+    {
+      "word_id": "v19_7",
+      "term": "Suffixe '-rịrị'",
+      "phonetic_api": "/-ɾɪ́ɾɪ́/",
+      "phonetic_simple": "REE-REE",
+      "translation": "Extension d'obligation incontournable ou d'état permanent",
+      "example_sentence": "Ị ga-erịrị ọrụ a tupu chi jiri.",
+      "example_phonetic": "/ị̀ ɡá-ēɾɪ́ɾɪ́ ɔ̀|ʊ́ á túpú tʃí dʒīɾī/",
+      "example_translation": "Tu dois absolument accomplir ce travail avant la tombée de la nuit."
+    },
+    {
+      "word_id": "v19_8",
+      "term": "Ezi nka",
+      "phonetic_api": "/ézí ŋ́kà/",
+      "phonetic_simple": "EH-ZEE N-KAH",
+      "translation": "Maîtrise totale / Excellence de style / Art raffiné",
+      "example_sentence": "O ji ezi nka kọọrọ anyị akụkọ ahụ.",
+      "example_phonetic": "/ó dʒí ézí ŋ́kà kɔ́ɔ̀ɾɔ́ āɲɪ́ ákʊ́kɔ́ àɦʊ́/",
+      "example_translation": "Il nous a raconté cette histoire avec un art raffiné."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p19_1",
+      "original": "Tupu ọbịbịa ya, m rụcharagoro atụmatụ ahụ niile.",
+      "phonetic_api": "/túpú ɔ̀ɓɪ́ɓị́á já m ɾʊ́tʃáɾáɡóɾó àtʊ́mátʊ́ àɦʊ́ nîːlé/",
+      "phonetic_simple": "TOO-POO OH-BEE-BEE-AH YAH M ROU-CHAH-RAH-GOH-ROH AH-TOO-MAH-TOO AH-HOU NEE-LEH",
+      "translation": "Avant son arrivée, j'avais déjà entièrement parachevé tout le projet.",
+      "context": "Exprimer un plus-que-parfait d'action accomplie avec fierté dans un cadre formel."
+    },
+    {
+      "phrase_id": "p19_2",
+      "original": "Ì nwétụrụ ụdị ahụmahụ a n'ọrụ gị ochie?",
+      "phonetic_api": "/ì nwétʊ̀ɾʊ̀ ʊ̀dɪ́ àɦʊ́máɦʊ́ á nɔ́|ʊ́ ɟɪ́ ótʃíé/",
+      "phonetic_simple": "EE NWEH-TOOU-ROOU OO-DEE AH-HOU-MAH-HOU AH NOH-ROU GEE OH-CHEE-EH",
+      "translation": "As-tu déjà fait l'expérience d'une telle situation dans ton ancien travail ?",
+      "context": "Questionner un candidat sur son expérience passée lors d'un entretien de haut niveau."
+    },
+    {
+      "phrase_id": "p19_3",
+      "original": "Ọ dị mkpa na anyị ga-elebarịrị anya n'okwu a kpamkpam.",
+      "phonetic_api": "/ɔ́ dɪ́ ḿkpá ká āɲɪ́ ɡá-ēléɓáɾɪ́ɾɪ́ āɲá nɔ́kwú á kpámkpám/",
+      "phonetic_simple": "OH DEE M-KPA KAH AH-NYEE GAH-EH-LEH-BAH-REE-REE AH-NYAH NOH-KWOO AH KPAM-KPAM",
+      "translation": "Il est d'une nécessité absolue que nous examinions cette affaire en profondeur.",
+      "context": "Poser un impératif stratégique lors d'un conseil d'administration."
+    },
+    {
+      "phrase_id": "p19_4",
+      "original": "Mgbe nkwupụta ahụ pụtara, ihe niile akanyị ghasaa.",
+      "phonetic_api": "/ḿɡ͡ɓé ŋ́kwúpʊ́tá àɦʊ́ pʊ̀táɾá ìfê nîːlé ákáɲɪ́ ɣàsáá/",
+      "phonetic_simple": "M-GBEH N-KWOO-POO-TAH AH-HOU POO-TAH-RAH EE-FEH NEE-LEH AH-KAH-NYEE GHA-SAAH",
+      "translation": "Au moment où cette déclaration est parue, tout s'était déjà dissous.",
+      "context": "Analyser l'impact immédiat et l'antériorité d'un fait politique ou social."
+    },
+    {
+      "phrase_id": "p19_5",
+      "original": "Mụwa amụcharala usoro nka na ụzụ ọhụrụ ahụ.",
+      "phonetic_api": "/mʊ́wá àmʊ́tʃáɾálá ùsòɾò ŋ́kà ná ʊ́zʊ́ ɔ̀ɦʊ́ɾʊ́ àɦʊ́/",
+      "phonetic_simple": "MOO-WAH AH-MOO-CHAH-RAH-LAH OO-SOH-ROH N-KAH NAH OO-ZOO OH-HOU-ROO AH-HOU",
+      "translation": "Quant à moi, j'ai déjà fini d'assimiler complètement cette nouvelle méthodologie.",
+      "context": "Affirmer son expertise technique supérieure face à ses pairs."
+    },
+    {
+      "phrase_id": "p19_6",
+      "original": "Atụmatụ ahụ na-agbanwerịrị n'otu mgbe anyị na-ekwu okwu.",
+      "phonetic_api": "/àtʊ́mátʊ́ àɦʊ́ nā-āɡ͡ɓánwéɾɪ́ɾɪ́ nótù ḿɡ͡ɓé āɲɪ́ nā-ēkwú ókwú/",
+      "phonetic_simple": "AH-TOO-MAH-TOO AH-HOU NAH-AH-GBA-NWEH-REE-REE NOH-TOO M-GBEH AH-NYEE NAH-EH-KWOO OH-KWOO",
+      "translation": "Le plan se transforme inévitablement au moment même où nous parlons.",
+      "context": "Souligner la fluidité et l'instabilité d'une situation de crise."
+    },
+    {
+      "phrase_id": "p19_7",
+      "original": "O nwere ezi nka na-eme ka okwu ya dị arọ.",
+      "phonetic_api": "/ó nwèɾé ézí ŋ́kà nā-ēmẹ́ ká ókwú já dɪ́ àɾɔ́/",
+      "phonetic_simple": "OH NWEH-REH EH-ZEE N-KAH NAH-EH-MEH KAH OH-KWOO YAH DEE AH-ROH",
+      "translation": "Il possède une maîtrise de la rhétorique qui donne un poids immense à ses propos.",
+      "context": "Louer l'éloquence et le charisme d'un leader ou d'un négociateur."
+    },
+    {
+      "phrase_id": "p19_8",
+      "original": "Anyị agaghị emetụrụ ihe a aka ma ọlị.",
+      "phonetic_api": "/āɲɪ́ àɡáɣɪ́ èmẹtʊ́ɾʊ́ ìfê á áká má ɔ̀lɪ́/",
+      "phonetic_simple": "AH-NYEE AH-GAH-GHEE EH-MEH-TOO-ROO EE-FEH AH AH-KAH MAH OH-LEE",
+      "translation": "Nous n'avons jamais touché à cette pratique et nous ne le ferons point.",
+      "context": "Rejeter catégoriquement une accusation ou une déviation éthique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le Plus-que-parfait aspectuel avec le suffixe composé '-ragoro'",
+      "explanation": "Au niveau avancé, pour exprimer qu'une action était déjà entièrement consommée dans un passé lointain avant qu'une autre n'intervienne, l'igbo fusionne le suffixe de passé accompli '-ra' et le suffixe de parfait '-goro'.",
+      "rules": [
+        "Structure : Radical + ra (harmonisé) + goro (fixe).",
+        "Cette forme verrouille la valeur temporelle de l'antériorité historique par rapport à un repère passé.",
+        "Exemple : Ịgụ (Lire) -> Gụragoro (Avait déjà lu)."
+      ],
+      "examples": [
+        {
+          "structure": "[Radical] + ra + goro",
+          "phonetic_api": "/ó kwúɾáɡóɾó ókwú á/",
+          "meaning": "O kwuragoro okwu a. (Il avait déjà prononcé ces paroles bien avant.)"
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de l'expérience de vie unique avec '-tụrụ'",
+      "explanation": "Le suffixe compositionnel '-tụrụ' (dérivé de '-tụ' marquant une touche légère et du passé '-rụ') sert à indiquer que le sujet a déjà fait l'expérience d'une action au moins une fois dans sa vie (équivalent du 'have ever' anglais).",
+      "rules": [
+        "S'attache directement au radical verbal principal.",
+        "À la forme négative, il se combine avec 'agaghị' pour signifier 'n'avoir jamais fait de sa vie'.",
+        "Exemple : Ịhụ (Voir) -> Hụtụrụ (Avoir déjà vu une fois)."
+      ],
+      "examples": [
+        {
+          "structure": "[Radical] + tụrụ",
+          "phonetic_api": "/m ɦʊ́tʊ̀ɾʊ̀ ézí nka já/",
+          "meaning": "M hụtụrụ ezi nka ya. (J'ai déjà été témoin de sa grande maîtrise.)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Chịf Nwosu",
+      "text": "Maazị Okafor, m hụrụ na usoro nka na ụzụ gị agbanwela karịa nke izu gara aga. Ì nwétụrụ ụdị mgbanwe a n'atụmatụ gị ochie?",
+      "phonetic_api": "/māːzɪ̀ ókáfɔ̀ m ɦʊ̀ɾù ká ùsòɾò ŋ́kà ná ʊ́zʊ́ ɟɪ́ àɡ͡ɓánwélá káɾị́á ŋkè ízū ɡáɾá áɡá ì nwétʊ̀ɾʊ̀ ʊ̀dɪ́ ḿɡ͡ɓánwé á nɔ́àtʊ́mátʊ́ ɟɪ́ ótʃíé/",
+      "phonetic_simple": "MAH-ZEE OH-KAH-FOH M HOO-ROO KAH OO-SOH-ROH N-KAH NAH OO-ZOO GEE AH-GBA-NWEH-LAH KAH-REE-AH N-KEH EE-ZOO GAH-RAH AH-GAH EE NWEH-TOOU-ROOU OO-DEE M-GBA-NWEH AH NOH-AH-TOO-MAH-TOO GEE OH-CHEE-EH",
+      "translation": "Monsieur Okafor, je constate que votre méthodologie technique s'est métamorphosée par rapport à la semaine dernière. Aviez-vous déjà expérimenté un tel bouleversement dans vos anciens plans ?"
+    },
+    {
+      "speaker": "Maazị Okafor",
+      "text": "Chịf, eziokwu bụ na m rụcharagoro usoro nnyocha ahụ tupu m pụta ebe a. Okwu a rịrị arọ, anyị ga-elebarịrị ya anya.",
+      "phonetic_api": "/tʃɪ́f ézíòkwú ɓʊ́ ká m ɾʊ́tʃáɾáɡóɾó ùsòɾò ɲɲɔ́tʃá àɦʊ́ túpú m pʊ̀tá éɓé á ókwú á ɾɪ̀ɾɪ̀ àɾɔ́ āɲɪ́ ɡá-ēléɓá|ɪ́|ɪ́ dʒâ/",
+      "phonetic_simple": "CHEEF EH-ZEE-OH-KWOO BOU KAH M ROU-CHAH-RAH-GOH-ROH OO-SOH-ROH N-NYOH-CHAH AH-HOU TOO-POO M POO-TAH EH-BEH AH OH-KWOO AH REE-REE AH-ROH AH-NYEE GAH-EH-LEH-BAH-REE-REE YAH",
+      "translation": "Chef, la vérité est que j'avais déjà entièrement finalisé cette procédure d'analyse avant de me présenter ici. Cette question possède une importance cruciale, nous devons absolument y porter toute notre attention."
+    },
+    {
+      "speaker": "Chịf Nwosu",
+      "text": "Ọ dị mma. N'otu mgbe ahụ, anyị ga-agbalị ka ihe niile gaziere ezinụlọ anyị na ụlọ ọrụ anyị kpamkpam.",
+      "phonetic_api": "/ɔ́ dɪ̀ mmā nótù ḿɡ͡ɓé àɦʊ́ āɲɪ́ ɡá-āɡ͡ɓálɪ́ ká ìfê nîːlé ɡázìèɾè ézìnʊ́lɔ̀ āɲɪ́ ná ʊ̀lọ́ ɔ̀|ʊ́ āɲɪ́ kpámkpám/",
+      "phonetic_simple": "OH DEE MMA NOH-TOO M-GBEH AH-HOU AH-NYEE GAH-AH-GBA-LEE KAH EE-FEH NEE-LEH GAH-ZEE-EH-REH EH-ZEE-NOU-LOH AH-NYEE NAH OU-LOH OH-ROU AH-NYEE KPAM-KPAM",
+      "translation": "C'est parfait. Simultanément, nous devons veiller à ce que tout prospère de manière absolue pour notre communauté et notre entreprise."
+    },
+    {
+      "speaker": "Maazị Okafor",
+      "text": "Ehaa! Mụwa akanyị mepee obi m maka ọganihu a. Ezi nka gị na-enye m olileanya.",
+      "phonetic_api": "/éɦáː mʊ́wá ákáɲɪ́ mẻpẻẻ óɓí m máká ɔ́ɡánɪ́ɦú á ézí ŋ́kà ɟɪ́ nā-ēɲé m òlīléāɲá/",
+      "phonetic_simple": "EH-HAAH MOO-WAH AH-KAH-NYEE MEH-PEH-EH OH-BEE M MA-KAH OH-GAH-NEE-HOO AH EH-ZEE N-KAH GEE NAH-EH-NYEH M OH-LEE-LEH-AH-NYAH",
+      "translation": "Absolument ! Quant à moi, j'ai d'ores et déjà ouvert mon esprit à cette réussite. Votre maîtrise remarquable me donne une grande confiance."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la rhétorique avancée Igbo, l'usage des suffixes de complexité comme '-goro' ou '-rịrị' démontre non seulement la maîtrise linguistique, mais également le statut de sage ou d'orateur émérite ('Onye Okwu').",
+    "Le concept d'arriver à un accord stratégique ('Ikwu ihe dị arọ') implique le respect absolu de la parole donnée devant les chefs ou les notables, liant l'honneur de la lignée à l'exactitude des faits énoncés.",
+    "La politesse exécutive contemporaine fusionne les titres occidentaux ou traditionnels ('Chịf', 'Maazị') avec des structures idiomatiques complexes pour maintenir une distance respectueuse tout en affirmant une autorité intellectuelle claire."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex19_1",
+      "type": "multiple_choice",
+      "question": "Quelle extension verbale exprime de manière précise une expérience vécue au moins une fois dans sa vie (ex: j'ai déjà visité) ?",
+      "options": [
+        "Suffixe -goro",
+        "Suffixe -tụrụ",
+        "Suffixe -rịrị"
+      ],
+      "correct_answer": "Suffixe -tụrụ",
+      "explanation": "Le suffixe '-tụrụ' indique l'expérience unique ou épisodique ancrée dans le parcours de vie de l'individu."
+    },
+    {
+      "exercise_id": "ex19_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour exprimer qu'une action est une obligation absolue, on attache le suffixe [ ___ ] au radical verbal.",
+      "correct_answer": "-rịrị",
+      "hint": "L'extension à ton haut redoublé marquant l'incontournable."
+    }
+  ]
+}

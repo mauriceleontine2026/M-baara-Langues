@@ -1,0 +1,307 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Identifier et nommer avec précision tous les membres de la famille nucléaire et élargie",
+    "Présenter son entourage et décrire les liens de parenté immédiats",
+    "Maîtriser l'usage des pronoms possessifs de filiation directe"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met l'accent sur l'articulation de la consonne nasale prénasalisée /ⁿb/ au début de mots très fréquents comme 'nba' ou 'nbore'. Le son se produit par une impulsion nasale qui s'ouvre instantanément sur une occlusion bilabiale. Le 'x' de 'maxamɛ' est la fricative vélaire sourde /x/.",
+    "common_pitfalls": "Attention à ne pas scinder le groupe /ⁿb/ en créant une voyelle imaginaire. Ne dites pas 'un-ba' ou 'é-n-ba', mais commencez à fredonner par le nez juste avant de relâcher les lèvres pour le 'b'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v4_1",
+      "term": "Nba",
+      "phonetic_api": "/ⁿba/",
+      "phonetic_simple": "N-BA",
+      "translation": "Mon père",
+      "example_sentence": "Nba findi mixi fanyi ra.",
+      "example_phonetic": "/ⁿba fiⁿdi mixi faɲi ra/",
+      "example_translation": "Mon père est une bonne personne."
+    },
+    {
+      "word_id": "v4_2",
+      "term": "Nga",
+      "phonetic_api": "/ⁿɡa/",
+      "phonetic_simple": "N-GA",
+      "translation": "Ma mère",
+      "example_sentence": "Nga na sabatitofe banxi ma.",
+      "example_phonetic": "/ⁿɡa na sabatitofɛ baⁿxi ma/",
+      "example_translation": "Ma mère est en train de se reposer à la maison."
+    },
+    {
+      "word_id": "v4_3",
+      "term": "Maxamɛ",
+      "phonetic_api": "/maxamɛ/",
+      "phonetic_simple": "MA-KHA-MÈ",
+      "translation": "Frère",
+      "example_sentence": "N maxamɛ kérén nan na n ma.",
+      "example_phonetic": "/n maxamɛ kerɛn naⁿ na n ma/",
+      "example_translation": "J'ai un seul frère."
+    },
+    {
+      "word_id": "v4_4",
+      "term": "Maginɛ",
+      "phonetic_api": "/maɡinɛ/",
+      "phonetic_simple": "MA-GUI-NÈ",
+      "translation": "Sœur",
+      "example_sentence": "I maginɛ findi doti ra.",
+      "example_phonetic": "/i maɡinɛ fiⁿdi doti ra/",
+      "example_translation": "Ta sœur est médecin."
+    },
+    {
+      "word_id": "v4_5",
+      "term": "Di",
+      "phonetic_api": "/di/",
+      "phonetic_simple": "DI",
+      "translation": "Enfant / Fils / Fille",
+      "example_sentence": "N xamɛ di firini na n ma.",
+      "example_phonetic": "/n xamɛ di firini na n ma/",
+      "example_translation": "J'ai deux enfants de sexe masculin (fils)."
+    },
+    {
+      "word_id": "v4_6",
+      "term": "Bore",
+      "phonetic_api": "/borɛ/",
+      "phonetic_simple": "BO-RÈ",
+      "translation": "Ami / Proche / Compagnon",
+      "example_sentence": "N bore nan na ki ra.",
+      "example_phonetic": "/n borɛ naⁿ na ki ra/",
+      "example_translation": "C'est mon ami intime ici."
+    },
+    {
+      "word_id": "v4_7",
+      "term": "Xamɛ",
+      "phonetic_api": "/xamɛ/",
+      "phonetic_simple": "KHA-MÈ",
+      "translation": "Homme / Époux / Masculin",
+      "example_sentence": "N xamɛ na walife ki.",
+      "example_phonetic": "/n xamɛ na walifɛ ki/",
+      "example_translation": "Mon mari est en train de travailler ici."
+    },
+    {
+      "word_id": "v4_8",
+      "term": "Ginɛ",
+      "phonetic_api": "/ɡinɛ/",
+      "phonetic_simple": "GUI-NÈ",
+      "translation": "Femme / Épouse / Féminin",
+      "example_sentence": "A ginɛ findi karamoxo ra.",
+      "example_phonetic": "/a ɡinɛ fiⁿdi karamoxo ra/",
+      "example_translation": "Sa femme est enseignante."
+    },
+    {
+      "word_id": "v4_9",
+      "term": "Benba",
+      "phonetic_api": "/beⁿba/",
+      "phonetic_simple": "BEN-BA",
+      "translation": "Grand-père / Ancêtre",
+      "example_sentence": "N benba fatoxi Boké nan na.",
+      "example_phonetic": "/n beⁿba fatoxi boke naⁿ na/",
+      "example_translation": "Mon grand-père est originaire de Boké."
+    },
+    {
+      "word_id": "v4_10",
+      "term": "Mama",
+      "phonetic_api": "/mama/",
+      "phonetic_simple": "MA-MA",
+      "translation": "Grand-mère",
+      "example_sentence": "N mama na subé gbe ra.",
+      "example_phonetic": "/n mama na sube ɡbɛ ra/",
+      "example_translation": "Ma grand-mère est en très bonne santé."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p4_1",
+      "original": "I nba na naxan na ?",
+      "phonetic_api": "/i ⁿba na naxaⁿ na/",
+      "phonetic_simple": "I N-BA NA NA-KHAN NA",
+      "translation": "Où se trouve ton père ?",
+      "context": "Demander des nouvelles physiques d'un proche lors d'une visite."
+    },
+    {
+      "phrase_id": "p4_2",
+      "original": "I nga tana mou gna ?",
+      "phonetic_api": "/i ⁿɡa tana mu ɲa/",
+      "phonetic_simple": "I N-GA TA-NA MOU NYA",
+      "translation": "Comment se porte ta mère ? (Pas de mal pour elle ?)",
+      "context": "Formule de courtoisie indispensable pour prendre des nouvelles."
+    },
+    {
+      "phrase_id": "p4_3",
+      "original": "N bore nan findi i ra.",
+      "phonetic_api": "/n borɛ naⁿ fiⁿdi i ra/",
+      "phonetic_simple": "N BO-RÈ NAN FIN-DI I RA",
+      "translation": "Tu es mon ami.",
+      "context": "Expression de fraternité ou d'affection amicale."
+    },
+    {
+      "phrase_id": "p4_4",
+      "original": "N maxamɛ sabatixi Conakry nan na.",
+      "phonetic_api": "/n maxamɛ sabatixi Conakry naⁿ na/",
+      "phonetic_simple": "N MA-KHA-MÈ SA-BA-TI-KHI CO-NA-KRY NAN NA",
+      "translation": "Mon frère réside à Conakry.",
+      "context": "Présenter la situation géographique d'un membre de la famille."
+    },
+    {
+      "phrase_id": "p4_5",
+      "original": "Di muxe na i ma ?",
+      "phonetic_api": "/di muxɛ na i ma/",
+      "phonetic_simple": "DI MOU-KHÈ NA I MA",
+      "translation": "Combien d'enfants as-tu ?",
+      "context": "Discussion conviviale sur la descendance."
+    },
+    {
+      "phrase_id": "p4_6",
+      "original": "N maginɛ na i salifé.",
+      "phonetic_api": "/n maɡinɛ na i salifɛ/",
+      "phonetic_simple": "N MA-GUI-NÈ NA I SA-LI-FÉ",
+      "translation": "Ma sœur te salue chaleureusement.",
+      "context": "Transmettre les salutations d'un proche."
+    },
+    {
+      "phrase_id": "p4_7",
+      "original": "A ginɛ xili Fanta.",
+      "phonetic_api": "/a ɡinɛ xili faⁿta/",
+      "phonetic_simple": "A GUI-NÈ KHI-LI FAN-TA",
+      "translation": "Sa femme s'appelle Fanta.",
+      "context": "Identification nominale de l'épouse de quelqu'un."
+    },
+    {
+      "phrase_id": "p4_8",
+      "original": "E fan na tana mou ra banxi ma.",
+      "phonetic_api": "/e faⁿ na tana mu ra baⁿxi ma/",
+      "phonetic_simple": "É FAN NA TA-NA MOU RA BAN-KHI MA",
+      "translation": "Eux aussi vont bien à la maison.",
+      "context": "Rassurer globalement sur l'état du foyer."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression des relations de parenté inaliénables sans déterminant complexe",
+      "explanation": "Pour les membres de la famille très proches (liens d'affiliation inaliénables comme père, mère, frère, sœur), le pronom possessif de la première personne se fusionne ou s'appose directement au nom.",
+      "rules": [
+        "L'attaque nasale 'N' fusionne directement devant 'ba' (père) et 'ga' (mère) pour former une seule unité sémantique prénasalisée.",
+        "Pour 'maxamɛ' (frère) ou 'maginɛ' (sœur), le 'N' reste une particule possessive stable immédiatement juxtaposée devant la racine nominale."
+      ],
+      "examples": [
+        {
+          "structure": "Nba",
+          "phonetic_api": "/ⁿba/",
+          "meaning": "Mon père (litt. N + ba)"
+        },
+        {
+          "structure": "N maxamɛ",
+          "phonetic_api": "/n maxamɛ/",
+          "meaning": "Mon frère"
+        }
+      ]
+    },
+    {
+      "concept": "La distinction de genre pour les descendants : 'xamɛ di' et 'ginɛ di'",
+      "explanation": "Le mot 'di' désigne l'enfant de manière neutre. Pour spécifier le genre d'un fils ou d'une fille, la grammaire soussou accole les déterminants de sexe 'xamɛ' (mâle) ou 'ginɛ' (femelle) juste avant le substantif.",
+      "rules": [
+        "Structure : [Possessif] + [Genre] + di",
+        "Ne pas inverser l'ordre des composants."
+      ],
+      "examples": [
+        {
+          "structure": "N xamɛ di",
+          "phonetic_api": "/n xamɛ di/",
+          "meaning": "Mon fils (litt. Mon mâle enfant)"
+        },
+        {
+          "structure": "N ginɛ di",
+          "phonetic_api": "/n ɡinɛ di/",
+          "meaning": "Ma fille (litt. Ma femelle enfant)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Moussa",
+      "text": "I kéna, Fanta ! I nba na naxan na ?",
+      "phonetic_api": "/i kéna faⁿta i ⁿba na naxaⁿ na/",
+      "phonetic_simple": "I KÉ-NA, FAN-TA ! I N-BA NA NA-KHAN NA",
+      "translation": "Salut Fanta ! Où est ton père ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Nba na sabatitofe banxi ma, Moussa. Tana mou gna ?",
+      "phonetic_api": "/ⁿba na sabatitofɛ baⁿxi ma musa tana mu ɲa/",
+      "phonetic_simple": "N-BA NA SA-BA-TI-TO-FÈ BAN-KHI MA, MOUS-SA. TA-NA MOU NYA",
+      "translation": "Mon père se repose à la maison, Moussa. Tout va bien chez toi ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Tana mou febe. I maxamɛ fan na di ?",
+      "phonetic_api": "/tana mu fɛbɛ i maxamɛ faⁿ na di/",
+      "phonetic_simple": "TA-NA MOU FÈ-BÈ. I MA-KHA-MÈ FAN NA DI ?",
+      "translation": "Aucun mal. Et ton frère, comment va-t-il ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "A na walife Conakry. A ginɛ fan na tana mou ra.",
+      "phonetic_api": "/a na walifɛ Conakry a ɡinɛ faⁿ na tana mu ra/",
+      "phonetic_simple": "A NA WA-LI-FÈ CO-NA-KRY. A GUI-NÈ FAN NA TA-NA MOU RA",
+      "translation": "Il est en train de travailler à Conakry. Sa femme aussi va bien."
+    },
+    {
+      "speaker": "Moussa",
+      "text": "I nouwali, Fanta. Ala m'mali.",
+      "phonetic_api": "/i nuwali faⁿta ala mːali/",
+      "phonetic_simple": "I NOU-WA-LI, FAN-TA. A-LA M-MA-LI",
+      "translation": "Merci pour les nouvelles, Fanta. Que Dieu nous protège."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la structure sociétale soussou en Guinée, la famille élargie joue un rôle central. Saluer les parents et s'informer précisément de l'état de l'épouse ('ginɛ') ou des aïeux ('benba', 'mama') témoigne d'un profond alignement avec les valeurs traditionnelles de respect mutuel et de solidarité communautaire."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex4_1",
+      "type": "multiple_choice",
+      "question": "Quel terme désigne de façon précise 'ma mère' en combinant la possession directe ?",
+      "options": [
+        "Nba",
+        "Nga",
+        "Mama"
+      ],
+      "correct_answer": "Nga",
+      "explanation": "'Nga' est la contraction directe pour 'ma mère', tandis que 'nba' signifie 'mon père'."
+    },
+    {
+      "exercise_id": "ex4_2",
+      "type": "multiple_choice",
+      "question": "Comment traduit-on l'expression 'mon fils' en explicitant le genre ?",
+      "options": [
+        "N ginɛ di",
+        "N maxamɛ",
+        "N xamɛ di"
+      ],
+      "correct_answer": "N xamɛ di",
+      "explanation": "'Xamɛ' (mâle) placé devant 'di' (enfant) spécifie qu'il s'agit d'un fils."
+    },
+    {
+      "exercise_id": "ex4_3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N [ ___ ] xili Fanta. (Sa femme s'appelle Fanta.)",
+      "correct_answer": "ginɛ",
+      "hint": "Ce mot désigne l'épouse ou la femme en soussou."
+    },
+    {
+      "exercise_id": "ex4_4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N [ ___ ] findi mixi fanyi ra. (Mon père est une bonne personne.)",
+      "correct_answer": "ba",
+      "hint": "La racine pour père complétée par la nasale de possession donne N..."
+    }
+  ]
+}

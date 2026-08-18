@@ -1,0 +1,264 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les membres de la famille proche",
+    "Utiliser les déterminants possédants de base au singulier"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'm' en fin de mot comme dans 'mãe' ou 'irmão' crée une forte résonance nasale. Le 'p' et le 't' sont non aspirés, contrairement à l'anglais. Le 'o' final non accentué se réduit pratiquement toujours au son [u].",
+    "common_pitfalls": "Attention à bien prononcer le digramme 'lh' de 'filho' comme un 'll' mouillé [ʎ] (comme dans le mot français 'pillage') et non comme un simple 'l' ou 'li'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Pai",
+      "phonetic_api": "/paj/",
+      "phonetic_simple": "PAY",
+      "translation": "Père",
+      "example_sentence": "O meu pai chama-se António.",
+      "example_phonetic": "/u mew paj ˈʃamu.mɨ ɐ̃ˈtɔnju/",
+      "example_translation": "Mon père s'appelle António."
+    },
+    {
+      "word_id": "v2",
+      "term": "Mãe",
+      "phonetic_api": "/mɐ̃j/",
+      "phonetic_simple": "MAING",
+      "translation": "Mère",
+      "example_sentence": "A minha mãe é professora.",
+      "example_phonetic": "/ɐ ˈmiɲɐ mɐ̃j ɛ pɾu fɨˈsoɾɐ/",
+      "example_translation": "Ma mène est professeure."
+    },
+    {
+      "word_id": "v3",
+      "term": "Filho",
+      "phonetic_api": "/ˈfiʎu/",
+      "phonetic_simple": "FEE-LYOO",
+      "translation": "Fils",
+      "example_sentence": "Ele é o meu filho mais velho.",
+      "example_phonetic": "/ˈelɨ ɛ u mew ˈfiʎu mɐjʃ ˈvɛʎu/",
+      "example_translation": "Il est mon fils aîné."
+    },
+    {
+      "word_id": "v4",
+      "term": "Filha",
+      "phonetic_api": "/ˈfiʎɐ/",
+      "phonetic_simple": "FEE-LYAH",
+      "translation": "Fille",
+      "example_sentence": "Tenho uma filha pequena.",
+      "example_phonetic": "/ˈteɲu ˈumɐ ˈfiʎɐ pɨˈkenɐ/",
+      "example_translation": "J'ai une petite fille."
+    },
+    {
+      "word_id": "v5",
+      "term": "Irmão",
+      "phonetic_api": "/iɾˈmɐ̃w/",
+      "phonetic_simple": "EER-MANG",
+      "translation": "Frère",
+      "example_sentence": "O meu irmão vive em Porto.",
+      "example_phonetic": "/u mew iɾˈmɐ̃w ˈvivu ɐ̃j ˈpoɾtu/",
+      "example_translation": "Mon frère vit à Porto."
+    },
+    {
+      "word_id": "v6",
+      "term": "Irmã",
+      "phonetic_api": "/iɾˈmɐ̃/",
+      "phonetic_simple": "EER-MANG",
+      "translation": "Sœur",
+      "example_sentence": "A minha irmã estuda medicina.",
+      "example_phonetic": "/ɐ ˈmiɲɐ iɾˈmɐ̃ iʃˈtuðɐ mɨðiˈsinɐ/",
+      "example_translation": "Ma sœur étudie la médecine."
+    },
+    {
+      "word_id": "v7",
+      "term": "Marido",
+      "phonetic_api": "/mɐˈɾiðu/",
+      "phonetic_simple": "MAH-REE-DOO",
+      "translation": "Mari / Époux",
+      "example_sentence": "O meu marido está no trabalho.",
+      "example_phonetic": "/u mew mɐˈɾiðu iʃˈta nu tɾɐˈβaʎu/",
+      "example_translation": "Mon mari est au travail."
+    },
+    {
+      "word_id": "v8",
+      "term": "Esposa",
+      "phonetic_api": "/iʃˈpozɐ/",
+      "phonetic_simple": "ECH-PO-ZAH",
+      "translation": "Femme / Épouse",
+      "example_sentence": "A sua esposa é muito simpática.",
+      "example_phonetic": "/ɐ ˈsuɐ iʃˈpozɐ ɛ ˈmũjtu sĩˈpatikɐ/",
+      "example_translation": "Votre épouse est très sympathique."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Como se chama a tua mãe?",
+      "phonetic_api": "/ˈkomu sɨ ˈʃamɐ ɐ ˈtuɐ mɐ̃j/",
+      "phonetic_simple": "KOH-MOO S'H CHAH-MAH AH TOO-AH MAING",
+      "translation": "Comment s'appelle ta mère ?",
+      "context": "Question informelle posée à un ami sur sa famille."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Tens irmãos?",
+      "phonetic_api": "/tɐ̃jʃ iɾˈmɐ̃wʃ/",
+      "phonetic_simple": "TENGCH EER-MANGCH",
+      "translation": "As-tu des frères et sœurs ?",
+      "context": "Question courante pour s'intéresser à la fratrie de quelqu'un."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Esta é a minha família.",
+      "phonetic_api": "/ˈeʃtɐ ɛ ɐ ˈmiɲɐ fɐˈmiljɐ/",
+      "phonetic_simple": "ECH-TAH É AH MEE-NYAH FAH-MEE-LYAH",
+      "translation": "Voici ma famille.",
+      "context": "Utilisé pour présenter son entourage ou montrer une photo."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Não tenho irmãos, sou filho único.",
+      "phonetic_api": "/nɐ̃w ˈteɲu iɾˈmɐ̃wʃ sow ˈfiʎu ˈuniku/",
+      "phonetic_simple": "NANG TAY-NYOO EER-MANGCH SOW FEE-LYOO OO-NEE-KOO",
+      "translation": "Je n'ai pas de frères et sœurs, je suis fils unique.",
+      "context": "Réponse au masculin."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "O meu irmão é mais novo.",
+      "phonetic_api": "/u mew iɾˈmɐ̃w ɛ mɐjʃ ˈnovu/",
+      "phonetic_simple": "OO MEW EER-MANG É MAYCH NO-VOO",
+      "translation": "Mon frère est plus jeune.",
+      "context": "Pour préciser l'ordre de la fratrie."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Quantos filhos tem?",
+      "phonetic_api": "/ˈkwɐ̃tuʃ ˈfiʎuʃ tɐ̃j/",
+      "phonetic_simple": "KWAN-TOOCH FEE-LYOOCH TENG",
+      "translation": "Combien d'enfants avez-vous ? (formel)",
+      "context": "Question polie à un adulte."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Eles têm dois filhos.",
+      "phonetic_api": "/ˈelɨʃ tɐ̃j ˈdojʃ ˈfiʎuʃ/",
+      "phonetic_simple": "AY-LECH TENG DOYCH FEE-LYOOCH",
+      "translation": "Ils ont deux enfants.",
+      "context": "Pour décrire la famille de quelqu'un d'autre."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "A minha família é grande.",
+      "phonetic_api": "/ɐ ˈmiɲɐ fɐˈmiljɐ ɛ ˈɡɾɐ̃dɨ/",
+      "phonetic_simple": "AH MEE-NYAH FAH-MEE-LYAH É GRAN-D'H",
+      "translation": "Ma famille est grande.",
+      "context": "Description simple de son environnement familial."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les déterminants possessifs au singulier",
+      "explanation": "En portugais, les possessifs s'accordent en genre et en nombre avec l'objet ou la personne possédée. On place généralement l'article défini (o, a) devant le possessif en portugais européen.",
+      "rules": [
+        "Mon / Ma : 'O meu' (masculin) et 'A minha' (féminin).",
+        "Ton / Ta : 'O teu' (masculin) et 'A tua' (féminin).",
+        "Son / Sa (ou Votre formel) : 'O seu' (masculin) et 'A sua' (féminin)."
+      ],
+      "examples": [
+        {
+          "structure": "O meu pai",
+          "phonetic_api": "/u mew paj/",
+          "meaning": "Mon père"
+        },
+        {
+          "structure": "A tua irmã",
+          "phonetic_api": "/ɐ ˈtuɐ iɾˈmɐ̃/",
+          "meaning": "Ta sœur"
+        }
+      ]
+    },
+    {
+      "concept": "Le pluriel généralisé des membres de la famille",
+      "explanation": "Quand on regroupe les deux parents ou des membres masculins et féminins, le masculin pluriel l'emporte toujours.",
+      "rules": [
+        "Os pais : désigne spécifiquement 'les parents' (père et mère), et non uniquement les pères.",
+        "Os irmãos : désigne 'les frères et sœurs' ou 'les frères'."
+      ],
+      "examples": [
+        {
+          "structure": "Os meus pais estão aqui.",
+          "phonetic_api": "/uʃ mewʃ pajʃ iʃˈtɐ̃w ɐˈki/",
+          "meaning": "Mes parents sont ici."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Rui",
+      "text": "Olá Maria, tens irmãos?",
+      "phonetic_api": "/oˈla mɐˈɾiɐ tɐ̃jʃ iɾˈmɐ̃wʃ/",
+      "phonetic_simple": "OH-LAH MAH-REE-AH TENGCH EER-MANGCH",
+      "translation": "Salut Maria, tu as des frères et sœurs ?"
+    },
+    {
+      "speaker": "Maria",
+      "text": "Sim, tenho um irmão e uma irmã. E tu?",
+      "phonetic_api": "/sɐ̃j ˈteɲu ũ iɾˈmɐ̃w i ˈumɐ iɾˈmɐ̃ i tu/",
+      "phonetic_simple": "SEENG TAY-NYOO OONG EER-MANG EE OO-MAH EER-MANG EE TOO",
+      "translation": "Oui, j'ai un frère et une sœur. Et toi ?"
+    },
+    {
+      "speaker": "Rui",
+      "text": "Eu sou filho único. Mas tenho muitos primos!",
+      "phonetic_api": "/ew sow ˈfiʎu ˈuniku mɐʃ ˈteɲu ˈmũjtuʃ ˈpɾimuʃ/",
+      "phonetic_simple": "EW SOW FEE-LYOO OO-NEE-KOO MACH TAY-NYOO MOYN-TOOCH PREE-MOOCH",
+      "translation": "Moi je suis fils unique. Mais j'ai beaucoup de cousins !"
+    },
+    {
+      "speaker": "Maria",
+      "text": "Como se chamam os teus pais?",
+      "phonetic_api": "/ˈkomu sɨ ˈʃamɐ̃w uʃ tewʃ pajʃ/",
+      "phonetic_simple": "KOH-MOO S'H CHAH-MANG OO(CH) TEWCH PAYCH",
+      "translation": "Comment s'appellent tes parents ?"
+    },
+    {
+      "speaker": "Rui",
+      "text": "O meu pai é o Carlos e a minha mãe é a Ana.",
+      "phonetic_api": "/u mew paj ɛ u ˈkaɾluʃ i ɐ ˈmiɲɐ mɐ̃j ɛ ɐ ˈanɐ/",
+      "phonetic_simple": "OO MEW PAY É OO KAR-LOOCH EE AH MEE-NYAH MAING É AH AH-NAH",
+      "translation": "Mon père c'est Carlos et ma mère c'est Ana."
+    }
+  ],
+  "cultural_notes": [
+    "Les liens familiaux sont d'une importance capitale dans la culture portugaise. Il est très fréquent que plusieurs générations se réunissent chaque dimanche autour d'un grand repas de famille.",
+    "Au Portugal, l'usage des articles devant les prénoms ou les possessifs pour la famille proche ('o meu pai') est indispensable et marque une forme de proximité affective naturelle."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'Ma mère' de façon correcte en portugais européen ?",
+      "options": [
+        "Minha mãe",
+        "A minha mãe",
+        "O meu mãe"
+      ],
+      "correct_answer": "A minha mãe",
+      "explanation": "Le féminin singulier requiert l'article féminin 'a' suivi de 'minha'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le pluriel du mot 'irmão' est [ ___ ].",
+      "correct_answer": "irmãos",
+      "hint": "Attention, la terminaison est en -ãos"
+    }
+  ]
+}

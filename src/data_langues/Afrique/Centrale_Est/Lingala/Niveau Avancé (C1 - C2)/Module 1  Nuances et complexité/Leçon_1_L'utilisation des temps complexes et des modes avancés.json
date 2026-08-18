@@ -1,0 +1,202 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "L'utilisation des temps complexes et des modes avancés",
+  "learning_objectives": [
+    "Maîtriser le plus-que-parfait et les actions antérieures dans le récit",
+    "Utiliser le subjonctif et l'optatif pour exprimer la nécessité, le souhait ou l'injonction atténuée",
+    "Manipuler les infixes de simultanéité et de continuité temporelle"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "À ce niveau avancé, l'accent est mis sur la prosodie et les glissements tonaux des formes verbales complexes. Analysez le plus-que-parfait 'nasalaki nánu te' /nasalakí nánu té/. Les doubles suffixes ou les structures composées comme 'nazalaki kowela' demandent un maintien rigoureux des tons hauts sur les infixes aspectuels.",
+    "common_pitfalls": "Le piège principal réside dans la confusion entre l'infinitif nominalisé et le gérondif simultané. Veillez à ce que la chute du préfixe /ko/ dans certaines structures fluides de l'Est ou du Sud ne crée pas d'ambiguïté sur le mode du verbe."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v19_1",
+      "term": "Ete",
+      "phonetic_api": "/eté/",
+      "phonetic_simple": "É-TÉ",
+      "translation": "Que / Afin que (conjonction de subordination complexe)",
+      "example_sentence": "Esengeli mpenza ete bosembo bofanda.",
+      "example_phonetic": "/eseⁿɡelí mpeⁿzá eté βoseᵐbó βofáⁿda/",
+      "example_translation": "Il est absolument requis que la justice prévale."
+    },
+    {
+      "word_id": "v19_2",
+      "term": "Naino",
+      "phonetic_api": "/naíno/",
+      "phonetic_simple": "NA-Í-NO",
+      "translation": "Déjà / Encore / Au préalable (variante soutenue de nánu)",
+      "example_sentence": "Ozalaki naino osili mosala te?",
+      "example_phonetic": "/ozalakí naíno osilí mosála té/",
+      "example_translation": "N'avais-tu pas encore terminé le travail ?"
+    },
+    {
+      "word_id": "v19_3",
+      "term": "Komeka",
+      "phonetic_api": "/komɛka/",
+      "phonetic_simple": "KO-MÈ-KA",
+      "translation": "Tenter / Essayer (utilisé comme semi-auxiliaire du mode conatif)",
+      "example_sentence": "Amekaki koloba kasi azongaki nsima.",
+      "example_phonetic": "/amekákí kolóba kasí azoⁿɡakí ⁿsíma/",
+      "example_translation": "Il tenta de parler mais il se rétracta."
+    },
+    {
+      "word_id": "v19_4",
+      "term": "Ntangw'eso",
+      "phonetic_api": "/ⁿtaⁿɡwéso/",
+      "phonetic_simple": "NTAN-GWÉ-SO",
+      "translation": "En ce temps-là / À ce moment précis du passé",
+      "example_sentence": "Ntangw'eso, mboka ezalaki na bitumba.",
+      "example_phonetic": "/ⁿtaⁿɡwéso ᵐbóka ezalakí na βitúᵐba/",
+      "example_translation": "En ce temps-là, le pays était en guerre."
+    },
+    {
+      "word_id": "v19_5",
+      "term": "Kokoba",
+      "phonetic_api": "/kokoba/",
+      "phonetic_simple": "KO-KO-BA",
+      "translation": "Continuer / Poursuivre (auxiliaire d'aspect duratif)",
+      "example_sentence": "Bakobi koyekola makambo ya kala.",
+      "example_phonetic": "/βakobí kojekola makáᵐbo ja kala/",
+      "example_translation": "Ils continuent d'étudier l'histoire ancienne."
+    },
+    {
+      "word_id": "v19_6",
+      "term": "Bosembo",
+      "phonetic_api": "/βoseᵐbó/",
+      "phonetic_simple": "VO-SEM-BÓ",
+      "translation": "Justice / Équité / Intégrité / Droiture",
+      "example_sentence": "Toli oyo etondi na bosembo.",
+      "example_phonetic": "/tolí ójo etoⁿdí na βoseᵐbó/",
+      "example_translation": "Ce conseil est empreint d'équité."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p19_1",
+      "original": "Nazalaki naino nayebi likambo yango te.",
+      "phonetic_api": "/nazalakí naíno najebí likáᵐbo jaⁿɡó té/",
+      "phonetic_simple": "NA-ZA-LA-KÍ NA-Í-NO NA-YE-BÍ LI-KÁM-BO YAN-GO TÉ.",
+      "translation": "Je n'avais pas encore eu connaissance de cette affaire.",
+      "context": "Exprimer une antériorité négative au plus-que-parfait."
+    },
+    {
+      "phrase_id": "p19_2",
+      "original": "Mbele nasalaki yango soki oyebisaki ngai.",
+      "phonetic_api": "/ᵐbɛlɛ nasalakí jaⁿɡó sokí ojebisakí ŋɡái/",
+      "phonetic_simple": "MBE-LE NA-SA-LA-KÍ YAN-GO SO-KÍ O-YE-BI-SA-KÍ NGAYI.",
+      "translation": "Je l'aurais fait si tu m'en avais informé.",
+      "context": "Structure conditionnelle passée hautement sophistiquée."
+    },
+    {
+      "phrase_id": "p19_3",
+      "original": "Tókoba koluka bosembo mpo na mboka.",
+      "phonetic_api": "/tókoba koluka βoseᵐbó ᵐpo na ᵐbóka/",
+      "phonetic_simple": "TÓ-KO-BA KO-LOU-KA VO-SEM-BÓ MPO NA MBÓ-KA.",
+      "translation": "Poursuivons la recherche de la justice pour notre nation.",
+      "context": "Usage de l'optatif-exhortatif à la première personne du pluriel."
+    },
+    {
+      "phrase_id": "p19_4",
+      "original": "Ezalaki bilei bizo lambama ntango nalingaki kokota.",
+      "phonetic_api": "/ezalakí βilɛí βizó laᵐbama ⁿtáⁿɡo nalíŋɡakí kokota/",
+      "phonetic_simple": "É-ZA-LA-KÍ BI-LÈI BI-ZÓ LAM-BA-MA NTÁN-GO NA-LÍN-GA-KÍ KO-KO-TA.",
+      "translation": "Le repas était en train d'être cuisiné au moment où je m'apprêtais à entrer.",
+      "context": "Simultanéité d'une action passive et d'une intention passée."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le plus-que-parfait analytique (Antériorité du passé)",
+      "explanation": "Pour situer une action accomplie avant une autre action passée, le lingala littéraire utilise une structure composée : l'auxiliaire 'kozala' conjugué au passé éloigné ('-aki'), suivi du verbe principal au parfait immédiat ou précédé de l'adverbe aspectuel 'naino'.",
+      "rules": [
+        "Structure positive : [Sujet] + zalaki + Verbe (Parfait résulatif)",
+        "Structure négative : [Sujet] + zalaki + naino + Verbe + te",
+        "Exemple : Nazalaki naino nayei te = Je n'étais pas encore venu."
+      ],
+      "examples": [
+        {
+          "structure": "Ntango bakonzi bakómaki, biso tozalaki naino tosilisi mosala.",
+          "phonetic_api": "/ⁿtáⁿɡo βakoⁿzí βakómakí βisó tozalakí naíno tosilisí mosála/",
+          "meaning": "Quand les directeurs sont arrivés, nous avions déjà terminé le travail."
+        }
+      ]
+    },
+    {
+      "concept": "L'auxiliaire d'aspect duratif 'Kokoba' au subjonctif",
+      "explanation": "Le verbe 'kokoba' (continuer) fonctionne souvent comme un verbe auxiliaire aspectuel. Lorsqu'il est employé au mode subjonctif/optatif (caractérisé par le ton haut sur le préfixe personnel), il communique une injonction, une prière ou un souhait de continuité.",
+      "rules": [
+        "Structure : Pronom (ton haut) + koba + Verbe principal à l'infinitif",
+        "Tókoba (Que nous continuions / Continuons)",
+        "Bákoba (Qu'ils continuent)"
+      ],
+      "examples": [
+        {
+          "structure": "Esengeli ete bákoba kotosa mibeko.",
+          "phonetic_api": "/eseⁿɡelí eté βákoba kotosa miβeko/",
+          "meaning": "Il est nécessaire qu'ils continuent à respecter les règlements."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mwamba (Le sage)",
+      "text": "Ndeko, namoni ete ozo miyoka lokola ozalaki naino olongi etumba oyo te. Likanisi na yo ezali wapi?",
+      "phonetic_api": "/ⁿdéko namoní eté ozó mijóka lokóla ozalakí naíno oloⁿɡí etúᵐba ójo té likanísí na jó ezalí wápí/",
+      "phonetic_simple": "NDÉ-KO, NA-MO-NÍ É-TE O-ZÓ MI-YÓ-KA LO-KÓ-LA O-ZA-LA-KÍ NA-Í-NO O-LON-GÍ É-TUM-BA O-YO TÉ. LI-KÁ-NI-SÍ NA YO É-ZA-LÍ WA-PÍ?",
+      "translation": "Mon frère, je m'aperçois que tu as l'impression de ne pas avoir encore triomphé de cette épreuve. Où se situent tes pensées ?"
+    },
+    {
+      "speaker": "Ilunga (Le disciple)",
+      "text": "Sololo mpenza, tata. Lobi tozalaki naino tokani kokata nzela mosusu kasi makambo nionso ebebi.",
+      "phonetic_api": "/solólo mpeⁿzá táta lobí tozalakí naíno tokaní kokata ⁿzéla mosúsu kasí makáᵐbo ɲɔ́nsɔ eβeβí/",
+      "phonetic_simple": "SO-LÓ-LO MPEN-ZÁ, TÁ-TA. LO-BÍ TO-ZA-LA-KÍ NA-Í-NO TO-KA-NÍ KO-KA-TA NZÉ-LA MO-SÚ-SOU KA-SI MA-KÁ-MBO NYÓN-SO É-VÉ-BÍ.",
+      "translation": "C'est la pure vérité, mon père. Hier, nous avions initialement projeté de bifurquer vers un autre chemin, mais tous nos plans ont échoué."
+    },
+    {
+      "speaker": "Mwamba (Le sage)",
+      "text": "Esengeli mpenza ete ókoba kolanda bosembo. Soki ozalaki olingi naino kotika, mbele olobi boye te.",
+      "phonetic_api": "/eseⁿɡelí mpeⁿzá eté ókoba koláⁿda βoseᵐbó sokí ozalakí olíŋɡí naíno kotika ᵐbɛlɛ oloβí βóje té/",
+      "phonetic_simple": "É-SÈN-GUÉ-LÍ MPEN-ZÁ É-TE Ó-KO-BA KO-LAN-DA VO-SEM-BO. SO-KÍ O-ZA-LA-KÍ O-LÍN-GÍ NA-Í-NO KO-TI-KA, MBE-LE O-LO-BÍ BO-YE TÉ.",
+      "translation": "Il est impératif que tu continues à poursuivre la droiture. Si tu avais eu l'intention d'abandonner, tu ne tiendrais pas ce discours."
+    },
+    {
+      "speaker": "Ilunga (Le disciple)",
+      "text": "Matondo na toli. Ntangw'eso masumu na ngai ezalaki naino elatisi ngai mawa, kasi sikoyo nakoza makasi.",
+      "phonetic_api": "/matóⁿdo na tolí ⁿtaⁿɡwéso masúmu na ŋɡái ezalakí naíno elatisí ŋɡái mawa kasí sikójo nakozá makasí/",
+      "phonetic_simple": "MA-TÓN-DO NA TO-LÍ. NTAN-GWÉ-SO MA-SOU-MOU NA NGAYI É-ZA-LA-KÍ NA-Í-NO É-LA-TI-SÍ NGAYI MA-WA, KA-SI SI-KO-YO NA-KO-ZÁ MA-KA-SÍ.",
+      "translation": "Merci pour le conseil. En ce temps-là, mes erreurs m'avaient plongé dans la détresse (m'avaient revêtu de tristesse), mais désormais je serai fort."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'art oratoire de haut niveau en Afrique centrale, la maîtrise des structures verbales périphrastiques (comme l'usage de 'ntangw'eso' ou des aspects duratifs) démontre la sagesse et le statut social de l'orateur.",
+    "L'utilisation métaphorique du verbe 'kolata' (porter/revêtir) appliqué à des concepts abstraits comme la tristesse ('elatisi ngai mawa') ou la honte est typique du registre soutenu."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex19_1",
+      "type": "multiple_choice",
+      "question": "Quelle structure grammaticale traduit fidèlement l'action antécédente 'Nous n'avions pas encore fini' ?",
+      "options": [
+        "Tozolaki kosilisa te.",
+        "Tozalaki naino tosilisi te.",
+        "Tokoki kosilisa naino te."
+      ],
+      "correct_answer": "Tozalaki naino tosilisi te.",
+      "explanation": "La combinaison de l'auxiliaire au passé éloigné, de l'adverbe 'naino' et du parfait résulatif forme le plus-que-parfait négatif rigoureux."
+    },
+    {
+      "exercise_id": "ex19_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Esengeli mpenza ete biso [ ___ ]koba kosala bosembo.",
+      "correct_answer": "tó",
+      "hint": "Le préfixe personnel de la première personne du pluriel au mode optatif/subjonctif (portant obligatoirement un ton haut)."
+    }
+  ]
+}

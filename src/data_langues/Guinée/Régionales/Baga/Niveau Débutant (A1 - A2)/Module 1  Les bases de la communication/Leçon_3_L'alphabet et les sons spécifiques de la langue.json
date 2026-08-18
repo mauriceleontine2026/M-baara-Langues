@@ -1,0 +1,117 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Identifier l'alphabet officiel de la langue Baga",
+    "Prononcer correctement les consonnes complexes et co-articulées",
+    "Distinguer les oppositions de voyelles ouvertes et fermées"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La langue Baga utilise les lettres standards de l'alphabet latin complétées par des caractères phonétiques africains comme /ɛ/, /ɔ/ et /ə/. Les digrammes /gb/, /kp/ et /ny/ représentent des sons uniques uniques à ne pas séparer.",
+    "common_pitfalls": "Attention à la lettre 'ə'. Elle ne doit jamais être muette comme le 'e' français en fin de mot. Elle garde toujours sa valeur de voyelle centrale bien audible."
+  },
+  "vocabulary": [
+    {
+      "word_id": "b009",
+      "term": "gbɛ̀r",
+      "phonetic_api": "/gɓɛ̀r/",
+      "phonetic_simple": "GBÈR",
+      "translation": "écrire / tracer un signe",
+      "example_sentence": "Gbɛ̀r n wər bɛ́ɛ̀",
+      "example_phonetic": "/gɓɛ̀r ⁿwər ɓɛ́ː/",
+      "example_translation": "Écris mon nom s'il te plaît"
+    },
+    {
+      "word_id": "b010",
+      "term": "kpáː",
+      "phonetic_api": "/kpáː/",
+      "phonetic_simple": "KPAA",
+      "translation": "grand / fort / intense",
+      "example_sentence": "A mu sɔ̀nɔ̀ kpáː di",
+      "example_phonetic": "/a mu sɔ̀nɔ̀ kpáː di/",
+      "example_translation": "C'est un grand homme"
+    },
+    {
+      "word_id": "b011",
+      "term": "nyíɛ̀",
+      "phonetic_api": "/ɲíɛ̀/",
+      "phonetic_simple": "NYII-È",
+      "translation": "oiseau (exemple du son ny)",
+      "example_sentence": "Nyíɛ̀ mu kə̀ yon ka",
+      "example_phonetic": "/ɲíɛ̀ mu kə jon ka/",
+      "example_translation": "L'oiseau est sur l'arbre"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "bp007",
+      "original": "Mə̀ lɔ̀ kə̀ gbɛ̀r n wər ka",
+      "phonetic_api": "/mə̀ lɔ̀ kə gɓɛ̀r ⁿwər ka/",
+      "phonetic_simple": "ME LO KE GBER N WER KA",
+      "translation": "Je veux écrire mon nom.",
+      "context": "S'exercer à l'écriture lors d'une séance d'alphabétisation"
+    },
+    {
+      "phrase_id": "bp008",
+      "original": "Mɛ̀ɛ̀ kə̀ sɔ̀nɔ̀ kpáː fɛ̀ɛ̀ ya !",
+      "phonetic_api": "/mɛ́ː kə sɔ̀nɔ̀ kpáː fɛ̀ː ja/",
+      "phonetic_simple": "MÈÈ KE SO-NO KPAA FÈÈ YA !",
+      "translation": "Parle d'une voix forte ici !",
+      "context": "Demander à son interlocuteur d'élever la voix pour être entendu"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La valeur phonologique des digrammes co-articulés",
+      "explanation": "Les articulations /gb/ et /kp/ se produisent en fermant simultanément le fond de la gorge (le voile du palais) et les lèvres. Au moment du relâchement, le son s'échappe de façon explosive ou légèrement implosive.",
+      "rules": [
+        "Ne jamais insérer de son intercalaire 'e' ou 'i' entre le g et le b.",
+        "Le doublement de la voyelle (ex: áá) indique une quantité de voyelle longue obligatoire."
+      ],
+      "examples": [
+        {
+          "structure": "kpáː (Grand)",
+          "phonetic_api": "/kpáː/",
+          "meaning": "La voyelle 'a' est prolongée sur deux temps rythmiques"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'Enseignant",
+      "text": "Temba, gbɛ̀r i wər kə̀ gbɔk ka. Mɛ̀ɛ̀ kə̀ Baga !",
+      "phonetic_api": "/tɛmɓa gɓɛ̀r i wər kə gɓɔk ka mɛ́ː kə ɓaga/",
+      "phonetic_simple": "TEM-BA, GBER I WER KE GBOK KA. MÈÈ KE BA-GA !",
+      "translation": "Temba, écris ton nom correctement. Parle en Baga !"
+    },
+    {
+      "speaker": "Temba",
+      "text": "Awan, mə̀ na kə̀ gbɛ̀r kpu ya. G-b-ɛ-r, gbɛ̀r !",
+      "phonetic_api": "/awan mə̀ na kə gɓɛ̀r kpu ja gɓɛ̀r/",
+      "phonetic_simple": "A-WAN, ME NA KE GBER KPOO YA. GB-È-R, GBER !",
+      "translation": "Oui, je vais l'écrire entièrement maintenant. G-b-ɛ-r, écrire !"
+    }
+  ],
+  "cultural_notes": [
+    "La langue Baga, longtemps restée de tradition purement orale, dispose aujourd'hui d'une codification écrite standardisée basée sur l'alphabet national guinéen. Maîtriser ces sons permet de sauvegarder ce patrimoine inestimable des rivières du Sud."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L3_ex1",
+      "type": "multiple_choice",
+      "question": "Comment se prononce le digramme 'kp' en Baga ?",
+      "options": [
+        "Comme deux sons séparés k puis p",
+        "Comme un seul son co-articulé par les lèvres et la gorge",
+        "Comme le son f français"
+      ],
+      "correct_answer": "Comme un seul son co-articulé par les lèvres et la gorge",
+      "explanation": "C'est une consonne unique propre aux systèmes phonétiques de l'Afrique de l'Ouest."
+    }
+  ]
+}

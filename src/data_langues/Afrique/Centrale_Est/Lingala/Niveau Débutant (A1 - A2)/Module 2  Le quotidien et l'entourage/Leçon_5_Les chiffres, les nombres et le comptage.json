@@ -1,0 +1,209 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter de 0 à 100 en lingala",
+    "Comprendre la structure logique de formation des dizaines",
+    "Exprimer des quantités simples du quotidien"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le chiffre deux se prononce 'mibale' /miβalé/ avec une consonne bilabiale fricative sonore /β/ très douce. Le chiffre cinq s'articule 'mitano' /mitáno/ en insistant bien sur la clarté du /t/. Pour le mot dix, 'zomi' /zomí/, veillez à bien marquer le ton haut sur le 'i' final.",
+    "common_pitfalls": "Attention à ne pas escamoter la voyelle finale dans 'tuku' /túku/ (la base des dizaines). Veillez également à l'accent tonique et au rythme lors de la liaison avec la conjonction 'mpe' /ᵐpɛ/ (et) pour former les nombres intermédiaires."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v5_1",
+      "term": "Moko",
+      "phonetic_api": "/móko/",
+      "phonetic_simple": "MÓ-KO",
+      "translation": "Un / Une",
+      "example_sentence": "Nazali na mwana moko.",
+      "example_phonetic": "/nazalí na mwana móko/",
+      "example_translation": "J'ai un enfant."
+    },
+    {
+      "word_id": "v5_2",
+      "term": "Mibale",
+      "phonetic_api": "/miβalé/",
+      "phonetic_simple": "MI-VA-LÉ",
+      "translation": "Deux",
+      "example_sentence": "Bana mibale bazali awa.",
+      "example_phonetic": "/bána miβalé bazalí áwa/",
+      "example_translation": "Deux enfants sont ici."
+    },
+    {
+      "word_id": "v5_3",
+      "term": "Misato",
+      "phonetic_api": "/mísáto/",
+      "phonetic_simple": "MÍ-SÁ-TO",
+      "translation": "Trois",
+      "example_sentence": "Ndako misato ezali pembeni.",
+      "example_phonetic": "/ⁿdako mísáto ezalí peᵐbení/",
+      "example_translation": "Trois maisons sont à côté."
+    },
+    {
+      "word_id": "v5_4",
+      "term": "Zomi",
+      "phonetic_api": "/zomí/",
+      "phonetic_simple": "ZO-MÍ",
+      "translation": "Dix",
+      "example_sentence": "Nazali na mbongo zomi.",
+      "example_phonetic": "/nazalí na ᵐboŋɡo zomí/",
+      "example_translation": "J'ai dix unités d'argent."
+    },
+    {
+      "word_id": "v5_5",
+      "term": "Tuku",
+      "phonetic_api": "/túku/",
+      "phonetic_simple": "TOU-KOU",
+      "translation": "Dizaine (base pour 20, 30, etc.)",
+      "example_sentence": "Tuku mibale ezali ntuku mibale.",
+      "example_phonetic": "/túku miβalé ezalí ⁿtúku miβalé/",
+      "example_translation": "Une dizaine par deux fait vingt."
+    },
+    {
+      "word_id": "v5_6",
+      "term": "Nkama",
+      "phonetic_api": "/ⁿkáma/",
+      "phonetic_simple": "NKA-MA",
+      "translation": "Cent",
+      "example_sentence": "Nkama moko ezali nkama moko.",
+      "example_phonetic": "/ⁿkáma móko ezalí ⁿkáma móko/",
+      "example_translation": "Cent un fait cent."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p5_1",
+      "original": "Tanga bankombo oyo.",
+      "phonetic_api": "/táⁿɡa βaⁿkóᵐbo ójo/",
+      "phonetic_simple": "TÁN-GA BAN-KÓM-BO O-YO.",
+      "translation": "Compte ces noms / Compte ces éléments.",
+      "context": "Utilisé pour demander à quelqu'un de compter ou d'énumérer."
+    },
+    {
+      "phrase_id": "p5_2",
+      "original": "Eza boni?",
+      "phonetic_api": "/ezá boní/",
+      "phonetic_simple": "É-ZA BO-NÍ?",
+      "translation": "C'est combien ? / Quel est le total ?",
+      "context": "Pour demander le compte final ou le prix d'un groupe d'objets."
+    },
+    {
+      "phrase_id": "p5_3",
+      "original": "Zomi na mitano.",
+      "phonetic_api": "/zomí na mitáno/",
+      "phonetic_simple": "ZO-MÍ NA MI-TA-NO.",
+      "translation": "Quinze.",
+      "context": "Réponse mathématique ou décompte d'objets."
+    },
+    {
+      "phrase_id": "p5_4",
+      "original": "Tuku mibale na moko.",
+      "phonetic_api": "/túku miβalé na móko/",
+      "phonetic_simple": "TOU-KOU MI-VA-LÉ NA MÓ-KO.",
+      "translation": "Vingt-et-un.",
+      "context": "Exemple de chiffre composé."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction des nombres de 11 à 19",
+      "explanation": "Pour former les nombres de onze à dix-neuf, on utilise la base dix ('zomi') suivie de la conjonction 'na' (et / avec) puis de l'unité correspondante.",
+      "rules": [
+        "Structure : Zomi + na + [unité]",
+        "11 = Zomi na moko",
+        "12 = Zomi na mibale",
+        "15 = Zomi na mitano"
+      ],
+      "examples": [
+        {
+          "structure": "Zomi na minei",
+          "phonetic_api": "/zomí na mineí/",
+          "meaning": "Quatorze (10 + 4)"
+        }
+      ]
+    },
+    {
+      "concept": "La construction des dizaines (20, 30, 40...)",
+      "explanation": "Les dizaines se construisent en utilisant le mot 'tuku' (dizaine) suivi du multiplicateur (le chiffre de l'unité). Pour ajouter une unité à une dizaine, on poursuit avec 'na' + l'unité.",
+      "rules": [
+        "20 = Tuku mibale (Deux dizaines)",
+        "30 = Tuku misato (Trois dizaines)",
+        "40 = Tuku minei (Quatre dizaines)",
+        "Structure composée : Tuku + multiplicateur + na + unité (ex: 25 = Tuku mibale na mitano)"
+      ],
+      "examples": [
+        {
+          "structure": "Tuku mitano",
+          "phonetic_api": "/túku mitáno/",
+          "meaning": "Cinquante"
+        },
+        {
+          "structure": "Tuku na sambo",
+          "phonetic_api": "/túku na sáᵐbo/",
+          "meaning": "Erreur fréquente : n'oubliez pas le multiplicateur. Dites 'Tuku moko na sambo' pour dix-sept si vous décomposez par dizaine, mais l'usage standard reste 'Zomi na sambo'."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Maman",
+      "text": "Mwana na ngai, tanga mandazi oyo ezali awa.",
+      "phonetic_api": "/mwana na ŋɡái táⁿɡa maⁿdazí ójo ezalí áwa/",
+      "phonetic_simple": "MWA-NA NA NGAYI, TÁN-GA MAN-DA-ZI O-YO E-ZA-LÍ Á-WA.",
+      "translation": "Mon enfant, compte les beignets qui sont ici."
+    },
+    {
+      "speaker": "Mwana",
+      "text": "Malamu mama. Moko, mibale, misato, minei, mitano... Eza mitano, mama !",
+      "phonetic_api": "/malámu máma móko miβalé mísáto mineí mitáno ezá mitáno máma/",
+      "phonetic_simple": "MA-LÁ-MOU MÁ-MA. MÓ-KO, MI-VA-LÉ, MÍ-SÁ-TO, MI-NEÍ, MI-TA-NO... É-ZA MI-TA-NO, MÁ-MA !",
+      "translation": "D'accord maman. Un, deux, trois, quatre, pas... Il y en a cinq, maman !"
+    },
+    {
+      "speaker": "Maman",
+      "text": "Malamu mingi ! Bakisa zomi ya sika na kuku.",
+      "phonetic_api": "/malámu míⁿɡi βakisa zomí ya síka na kúku/",
+      "phonetic_simple": "MA-LÁ-MOU MÍN-GI ! BA-KI-SA ZO-MÍ YA SÍ-KA NA KOU-KOU.",
+      "translation": "Très bien ! Ajoute les dix nouveaux dans la cuisine."
+    },
+    {
+      "speaker": "Mwana",
+      "text": "Ekokoma zomi na mitano elongo ?",
+      "phonetic_api": "/ekokóma zomí na mitáno elóⁿɡo/",
+      "phonetic_simple": "É-KO-KÓ-MA ZO-MÍ NA MI-TA-NO É-LON-GO ?",
+      "translation": "Ça va faire quinze en tout ?"
+    }
+  ],
+  "cultural_notes": [
+    "Pour les transactions financières courantes, bien que le lingala possède ses propres termes numériques, le français ou des expressions mixtes sont fréquemment utilisés sur les marchés de Kinshasa (ex: 'cinq cents', 'mille'). Connaître les nombres en lingala reste essentiel pour le respect et l'intégration.",
+    "Le terme 'Tuku' subit parfois une harmonisation nasale à l'oral pour devenir 'Ntuku', les deux formes sont parfaitement comprises."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex5_1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on le nombre 30 en lingala ?",
+      "options": [
+        "Zomi misato",
+        "Tuku mibale",
+        "Tuku misato"
+      ],
+      "correct_answer": "Tuku misato",
+      "explanation": "30 s'écrit littéralement 'trois dizaines', donc 'Tuku' (dizaine) suivi de 'misato' (trois)."
+    },
+    {
+      "exercise_id": "ex5_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Dix-clés se traduit par : Zomi na [ ___ ].",
+      "correct_answer": "mibale",
+      "hint": "Le chiffre deux en lingala."
+    }
+  ]
+}

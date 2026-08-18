@@ -1,0 +1,147 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "L'utilisation des temps complexes et des modes avancés",
+  "learning_objectives": [
+    "Exprimer l'antériorité immédiate et le passé antérieur complexe en Mano",
+    "Manipuler le mode subjonctif et l'optatif pour exprimer des souhaits solennels",
+    "Distinguer les nuances subtiles entre l'aspect accompli duratif et le parfait"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le niveau avancé exige une maîtrise parfaite du glissement tonal. Les constructions temporelles complexes utilisent fréquemment des morphèmes flottants à ton haut-descendant comme /wɔ̂/ ou l'allongement vocalique à inflexion tonale inverse /ɛ́ɛ̀/. La voyelle nasale /ɔ̃˦/ porte une emphase stricte pour marquer l'aspect duratif historique.",
+    "common_pitfalls": "L'erreur classique consiste à lisser les tons composés (haut-bas) sur une seule ligne médiane. Si le ton n'est pas modulé précisément de manière descendante sur la particule d'antériorité, la phrase repasse instantanément au présent simple."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v19_1",
+      "term": "wɔ̂",
+      "phonetic_api": "/wɔ˦˧/",
+      "phonetic_simple": "WÔ",
+      "translation": "Marqueur de l'antériorité révolue (avait déjà fait)",
+      "example_sentence": "Ń wɔ̂ lɔ.",
+      "example_phonetic": "/ń wɔ˦˧ lɔ˧/",
+      "example_translation": "J'étais déjà parti (avant un autre événement)."
+    },
+    {
+      "word_id": "v19_2",
+      "term": "kɛ̀ɛ̄",
+      "phonetic_api": "/kɛ˩ɛ˧/",
+      "phonetic_simple": "KÈÈ-G",
+      "translation": "Pourvu que / Afin que / Que (Subjonctif/Optatif)",
+      "example_sentence": "Kɛ̀ɛ̄ à kɛ kɛ̃ɛ.",
+      "example_phonetic": "/kɛ˩ɛ˧ a˧ kɛ˧ kɛ̃ː˧/",
+      "example_translation": "Pourvu que cela se passe bien."
+    },
+    {
+      "word_id": "v19_3",
+      "term": "tɔ̃́-wɔ̃",
+      "phonetic_api": "/tɔ̃˦wɔ̃˧/",
+      "phonetic_simple": "TONG-WONG",
+      "translation": "Destinée / Fatalité / Règle immuable du temps",
+      "example_sentence": "Tɔ̃́-wɔ̃ ɓe.",
+      "example_phonetic": "/tɔ̃˦wɔ̃˧ ɓe˧/",
+      "example_translation": "C'est dans l'ordre des choses."
+    },
+    {
+      "word_id": "v19_4",
+      "term": "zĩ̀ĩ̀",
+      "phonetic_api": "/zĩ˩ĩ˩/",
+      "phonetic_simple": "ZEENG",
+      "translation": "Depuis / Depuis l'origine des temps",
+      "example_sentence": "zĩ̀ĩ̀ tɛ́ɛ̀ yɛlɛ la",
+      "example_phonetic": "/zĩ˩ĩ˩ tɛ˦ɛ˩ jɛ˧lɛ˧ la˧/",
+      "example_translation": "Depuis les temps anciens"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p19_1",
+      "original": "Ń wɔ̂ mɛ̃ mí la gbi yí à va.",
+      "phonetic_api": "/ń wɔ˦˧ mɛ̃˧ mi˦ la˧ ɡbi˧ ji˦ a˧ va˧/",
+      "phonetic_simple": "N WÔ MENG MEE LA GBEE GUEE A VAH",
+      "translation": "J'avais déjà fini de manger tout le riz quand il est arrivé.",
+      "context": "Relater un fait entièrement accompli antérieur à une autre action passée."
+    },
+    {
+      "phrase_id": "p19_2",
+      "original": "Kɛ̀ɛ̄ í nɛ̃ɛ gbe-gbe la zĩ̀ĩ̀ tina !",
+      "phonetic_api": "/kɛ˩ɛ˧ i˦ nɛ̃ː˧ ɡbe˧ɡbe˧ la˧ zĩ˩ĩ˩ ti˧na˧/",
+      "phonetic_simple": "KÈÈ-G EE NÈÈ GBÉ-GBÉ LA ZEENG TEE-NAH !",
+      "translation": "Que tu puisses demeurer en parfaite paix dès demain ! (Bénédiction)",
+      "context": "Formuler un souhait hautement formel ou une prière pour un proche."
+    },
+    {
+      "phrase_id": "p19_3",
+      "original": "Wɔ̃ mɛ̀ wɔ̂ kɛ tɛ́ɛ̀ pɛ́lɛ̀ mĩ́.",
+      "phonetic_api": "/wɔ̃˧ mɛ˩ wɔ˦˧ kɛ˧ tɛ˦ɛ˩ pɛ˦lɛ˩ mĩ˦/",
+      "phonetic_simple": "WONG MÈ WÔ KÈ TÉÈ PÈ-LÈ MEENG",
+      "translation": "Cette affaire s'était déjà produite autrefois au sein de la maison.",
+      "context": "Analyser un antécédent historique ou familial complexe."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le plus-que-parfait d'antériorité immédiate et le mode optatif",
+      "explanation": "En Mano avancé, le morphème 'wɔ̂' (portant un ton modulé haut-moyen /˦˧/) exprime le plus-que-parfait ou le passé antérieur. Il indique qu'un procès était achevé avant l'amorce d'une seconde action. Par ailleurs, le mode optatif utilise la conjonction de subordination 'kɛ̀ɛ̄' pour projeter un souhait ou une exigence morale intemporelle.",
+      "rules": [
+        "Plus-que-parfait : [Sujet] + wɔ̂ (ton haut-moyen) + [Verbe] + [Complément] + [Yí (quand/alors) + Seconde action].",
+        "Optatif/Subjonctif : Kɛ̀ɛ̄ + [Sujet] + [Verbe au parfait ou à l'inaccompli selon la portée]."
+      ],
+      "examples": [
+        {
+          "structure": "Ń wɔ̂ lɔ yí à va.",
+          "phonetic_api": "/ń wɔ˦˧ lɔ˧ ji˦ a˧ va˧/",
+          "meaning": "J'étais déjà parti quand il est arrivé."
+        },
+        {
+          "structure": "Kɛ̀ɛ̄ í da vɔ.",
+          "phonetic_api": "/kɛ˩ɛ˧ i˦ da˧ vɔ˧/",
+          "meaning": "Pourvu que ta mère se porte bien."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Le Sage",
+      "text": "Mɛgɛ ! Í wɔ̂ lɛ-wɔ̃ mɛ̀ loni yí í lɔ wúlù mĩ́ ?",
+      "phonetic_api": "/mɛ˧gɛ˧ i˦ wɔ˦˧ lɛ˧wɔ̃˧ mɛ˩ lo˧ni˧ ji˦ i˦ lɔ˧ wu˦lu˩ mĩ˦/",
+      "phonetic_simple": "MÈGÈ ! EE WÔ LÈ-WONG MÈ LONEE GUEE EE LOR OU-LOU MEENG ?",
+      "translation": "Bonjour ! Avais-tu déjà entendu ce conseil avant de partir en ville ?"
+    },
+    {
+      "speaker": "L'Héritier",
+      "text": "Ao ń de, ń wɔ̂ à loni gbe-gbe. Kɛ̀ɛ̄ tɔ̃́-wɔ̃ mɛ̀ gɛ ń la mɛ-gbe sēe.",
+      "phonetic_api": "/ao̯˧ ń de˧ ń wɔ˦˧ a˧ lo˧ni˧ ɡbe˧ɡbe˧ kɛ˩ɛ˧ tɔ̃˦wɔ̃˧ mɛ˩ ɡɛ˧ ń la˧ mɛ˧gbe˧ seː˧˧/",
+      "phonetic_simple": "A-O N DÉ, N WÔ A LONEE GBÉ-GBÉ. KÈÈ-G TONG-WONG MÈ GÈ N LA MÈ-GBÉ SÉÉ.",
+      "translation": "Oui mon père, je l'avais parfaitement intégré. Pourvu que les lois du temps m'apportent une grande sagesse."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la rhétorique avancée Mano, l'utilisation de structures temporelles complexes permet de tisser des parallèles subtils entre le passé mythique, les actions des ancêtres et les événements présents. Formuler des voeux sous le mode 'kɛ̀ɛ̄' fait partie intégrante des discours officiels prononcés par les notables lors des alliances ou des arbitrages communautaires en Guinée Forestière."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex19_1",
+      "type": "multiple_choice",
+      "question": "Quelle nuance grammaticale exacte apporte la particule à ton modulé 'wɔ̂' par rapport à la particule 'wɔ' du passé simple ?",
+      "options": [
+        "Elle indique un futur incertain",
+        "Elle marque l'antériorité révolue (plus-que-parfait / passé antérieur)",
+        "Elle exprime une interdiction polie"
+      ],
+      "correct_answer": "Elle marque l'antériorité révolue (plus-que-parfait / passé antérieur)",
+      "explanation": "'wɔ̂' exprime qu'une action était déjà entièrement consommée avant qu'une autre n'intervienne dans le récit."
+    },
+    {
+      "exercise_id": "ex19_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour introduire une formule de bénédiction ou un souhait solennel (Pourvu que / Que...), on emploie : [ ___ ] í nɛ̃ɛ kɛ̃ɛ.",
+      "correct_answer": "kɛ̀ɛ̄",
+      "hint": "C'est la conjonction d'ouverture du mode optatif/subjonctif avancé."
+    }
+  ]
+}

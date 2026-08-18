@@ -1,0 +1,144 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "L'utilisation des temps complexes et des modes avancés",
+  "learning_objectives": [
+    "Maîtriser les nuances sémantiques induites par les extensions verbales complexes (itératif, causatif, réciproque)",
+    "Employer le mode subjonctif-injonctif avancé et le prétérit accompli de second degré",
+    "Différencier l'usage des focalisateurs de sujet, d'objet et de verbe dans un récit littéraire"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La distinction entre voyelles longues géminées et brèves est ici critique (ex: 'gollidande' /ɡolːidande/ vs 'gollindore' /ɡolːindore/). L'articulation de l'implosive palatale 'ƴ' (/ʄ/) combinée à un coup de glotte initial demande une tension maximale du larynx.",
+    "common_pitfalls": "Veiller à ne pas élider le suffixe complexe '-ino-dee' /inodes/ qui marque l'antériorité itérative. Une mauvaise articulation aplatit la richesse aspectuelle du verbe."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v19_1",
+      "term": "naftoraagol",
+      "phonetic_api": "/naɸtoraːɡol/",
+      "phonetic_simple": "NAF-TO-RAA-GOL",
+      "translation": "exploiter au maximum, faire usage de manière instrumentale (extension -or-)",
+      "example_sentence": "Omo naftoroo ngal laawol e cuuɗi makko.",
+      "example_phonetic": "/omo naɸtoroː nɡal laːwol e cuːɗi makːo/",
+      "example_translation": "Il tire pleinement profit de cette méthode pour ses habitations."
+    },
+    {
+      "word_id": "v19_2",
+      "term": "gollidandeen",
+      "phonetic_api": "/ɡolːidandeːn/",
+      "phonetic_simple": "GOL-LI-DAN-DEEN",
+      "translation": "la collaboration bilatérale ou collective (dérivé de gollidugol)",
+      "example_sentence": "Gollidandeen meɗen no addi mbiilu mawndo.",
+      "example_phonetic": "/ɡolːidandeːn meɗen no adːi mbiːlu mawnːdo/",
+      "example_translation": "Notre collaboration a apporté un rendement immense."
+    },
+    {
+      "word_id": "v19_3",
+      "term": "tawti",
+      "phonetic_api": "/tawti/",
+      "phonetic_simple": "TAW-TI",
+      "translation": "trouver de surcroît, s'avérer que (accompli de second degré)",
+      "example_sentence": "Ndee mi hewtii, mi tawti omo lanniino.",
+      "example_phonetic": "/ndeː mi hewtiː mi tawti omo lanːiːno/",
+      "example_translation": "Quand je suis arrivé, il s'est avéré qu'il avait déjà terminé."
+    },
+    {
+      "word_id": "v19_4",
+      "term": "laawaleeji",
+      "phonetic_api": "/laːwaleːd͡ʒi/",
+      "phonetic_simple": "LAA-WA-LEE-JI",
+      "translation": "les principes directeurs, les règles systémiques (pluriel de laawal)",
+      "example_sentence": "Haa_e mbolden e dow laawaleeji laabi.",
+      "example_phonetic": "/haːʔe mbolden e dow laːwaleːd͡ʒi laːbi/",
+      "example_translation": "Il faut que nous parlions selon des principes clairs."
+    },
+    {
+      "word_id": "v19_5",
+      "term": "mawnindorgo",
+      "phonetic_api": "/mawnindoɾɡo/",
+      "phonetic_simple": "MAW-NIN-DOR-GO",
+      "translation": "se glorifier mutuellement par un intermédiaire",
+      "example_sentence": "Ɓe mawnindoroo ko haala muɗen.",
+      "example_phonetic": "/ɓe mawnindoroː ko haːla muɗen/",
+      "example_translation": "C'est par leur propre éloquence qu'ils se glorifient mutuellement."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p19_1",
+      "original": "Ndee mi hewtitinoo ka gollirde, mi tawti ɓe lannidinoo golle ɗen.",
+      "phonetic_api": "/ndeː mi hewtitinoː ka ɡollirde mi tawti ɓe lanːidinoː ɡolːe ɗen/",
+      "phonetic_simple": "NDEE MI HEW-TI-TI-NOO KA GOL-LIR-DE, MI TAW-TI BHE LAN-NI-DI-NOO GOL-LE DHEN",
+      "translation": "Lorsque je fus enfin retourné au bureau, j'ai constaté qu'ils avaient déjà parachevé collectivement tout le travail.",
+      "context": "Narration complexe d'actions antérieures imbriquées dans un cadre formel."
+    },
+    {
+      "phrase_id": "p19_2",
+      "original": "Ko ngal fahu naftortoodaa pour mawninde gollal maa ngal ka fadande.",
+      "phonetic_api": "/ko nɡal ɸahu naɸtortoːdaː pour mawninde ɡolːal maː nɡal ka ɸadande/",
+      "phonetic_simple": "KO NGAL FA-HOU NAF-TOR-TOO-DHAA POUR MAW-NIN-DE GOL-LAL MAA NGAL KA FA-DAN-DE",
+      "translation": "C'est de cet objectif précis que tu devras tirer profit pour pérenniser ton projet à l'avenir.",
+      "context": "Discours d'orientation stratégique employant la focalisation d'objet."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La combinatoire des extensions verbales (-id- et -or-)",
+      "explanation": "En pular avancé, les extensions verbales s'accumulent sur le radical pour densifier le sens. L'extension associative/completive '-id-' (faire ensemble / complètement) peut fusionner avec l'extension modale/instrumentale '-or-' (faire d'une certaine manière / avec un outil).",
+      "rules": [
+        "Le radical reçoit d'abord l'extension de complétude '-id-' puis l'extension instrumentale '-or-'.",
+        "Exemple : 'goll-' (travailler) -> 'gollid-' (travailler ensemble) -> 'gollidor-' (coopérer par un moyen spécifique)."
+      ],
+      "examples": [
+        {
+          "structure": "Radical + -id- + -or- + Suffixe",
+          "phonetic_api": "/ɡolːidortoːen/",
+          "meaning": "Nous coopérons par ce moyen"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mawɗo (Directeur)",
+      "text": "Alpha, no saɗitinoo gollidandeen meɗen ndee naftortooden ngal kandit_al kesal ?",
+      "phonetic_api": "/alɸa no saɗitinoː ɡolːidandeːn meɗen ndeː naɸtortoːden nɡal kandital kesal/",
+      "phonetic_simple": "AL-PHA, NO SA-DHI-TI-NOO GOL-LI-DAN-DEEN ME-DHEN NDEE NAF-TOR-TOO-DEN NGAL KAN-DI-TAL KE-SAL ?",
+      "translation": "Alpha, notre collaboration s'était-elle avérée ardue lorsque nous dussions exploiter ce nouveau protocole algorithmique ?"
+    },
+    {
+      "speaker": "Alpha (Ingénieur)",
+      "text": "Alaa, mi tawti ngal laawol no newitinoo sanne, gila huwwitoraynden cuuɗi meɗen fow e laabi laabi.",
+      "phonetic_api": "/alaː mi tawti nɡal laːwol no newitinoː sanːe ɡila huːwitorajnden cuːɗi meɗen ɸow e laːbi laːbi/",
+      "phonetic_simple": "A-LAA, MI TAW-TI NGAL LAA-WOL NO NE-WI-TI-NOO SAN-NE, GI-LA HUU-WI-TO-RAY-NDEN TCHUU-DHI ME-DHEN FOW E LAA-BI LAA-BI.",
+      "translation": "Non, j'ai réalisé que cette méthode s'était révélée d'une grande fluidité, dès lors que nous eûmes instrumentalisé l'ensemble de nos structures immobilières selon les règles de l'art."
+    }
+  ],
+  "cultural_notes": [
+    "Le registre soutenu du pular utilise de manière quasi systématique les extensions verbales complexes. Un orateur habile au sein des conseils de notables ('pootal mawɓe') évite les périphrases et synthétise sa pensée en un seul verbe lourdement étendu, ce qui constitue la quintessence de l'élégance linguistique ('haala laabi')."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex19_1",
+      "type": "multiple_choice",
+      "question": "Quelle nuance apporte l'extension '-id-' ajoutée à un radical verbal ?",
+      "options": [
+        "L'action de faire seul en secret",
+        "La simultanéité collective ou la complétude absolue de l'action",
+        "L'annulation rétroactive d'un fait passé"
+      ],
+      "correct_answer": "La simultanéité collective ou la complétude absolue de l'action",
+      "explanation": "L'extension '-id-' indique soit la globalité de l'objet ou de l'action (complétude), soit que l'action est menée conjointement par plusieurs acteurs."
+    },
+    {
+      "exercise_id": "ex19_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ndee mi hewtii, mi [ ___ ] omo yahiino. (Quand je suis arrivé, j'ai constaté de surcroît qu'il était déjà parti).",
+      "correct_answer": "tawti",
+      "hint": "Verbe d'état accompli de second degré marquant la constatation d'une situation préexistante."
+    }
+  ]
+}

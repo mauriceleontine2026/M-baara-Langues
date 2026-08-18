@@ -1,0 +1,123 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "L'utilisation des temps complexes et des modes avancés",
+  "learning_objectives": [
+    "Maîtriser le plus-que-parfait et le conditionnel passé en Baga",
+    "Exprimer des actions antérieures révolues ou des regrets discursifs",
+    "Manipuler le mode subjonctif-optatif dans des subordonnées complexes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'art oratoire orné exige un contrôle parfait de la laryngealisation sur les morphèmes aspectuels cumulés comme dans 'bər-yà'. Les voyelles s'allongent subtilement pour marquer l'antériorité historique lointaine.",
+    "common_pitfalls": "Attention à la dérive tonale : surcharger un morphème complexe d'un ton haut non justifié peut transformer un aspect accompli éloigné en une injonction impérative irrévérencieuse."
+  },
+  "vocabulary": [
+    {
+      "word_id": "b301",
+      "term": "bər-yà",
+      "phonetic_api": "/ɓər jà/",
+      "phonetic_simple": "BER-YA",
+      "translation": "avoir été / marqueur auxiliaire du passé composé éloigné ou du plus-que-parfait",
+      "example_sentence": "Mə̀ bər-yà wáalì mɛ̀ɛ̀ kàn",
+      "example_phonetic": "/mə̀ ɓər jà wáːlì mɛ̀ː kàn/",
+      "example_translation": "J'avais entièrement parachevé ce travail"
+    },
+    {
+      "word_id": "b302",
+      "term": "fáá-tɔ́ŋ",
+      "phonetic_api": "/fáː tɔ́ŋ/",
+      "phonetic_simple": "FAA-TON",
+      "translation": "accomplissement absolu / conformité rituelle ou morale parfaite",
+      "example_sentence": "A mu fáá-tɔ́ŋ kúu di",
+      "example_phonetic": "/a mu fáː tɔ́ŋ kúː di/",
+      "example_translation": "C'est un acte d'une conformité morale absolue"
+    },
+    {
+      "word_id": "b303",
+      "term": "mìɛ̀-wɔ̀",
+      "phonetic_api": "/mìɛ̀ wɔ̀/",
+      "phonetic_simple": "MII-È-WO",
+      "translation": "discernement profond / intelligence analytique",
+      "example_sentence": "Mìɛ̀-wɔ̀ mu a sɔ́ɔ̀ŋ lɔ̀ di kpáː",
+      "example_phonetic": "/mìɛ̀ wɔ̀ mu a sɔ́ːŋ lɔ̀ di kpáː/",
+      "example_translation": "Un profond discernement habite son cœur"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "bp301",
+      "original": "Mə̀ bər-yà i kɔ́lɔ́ŋ lɔ́kɔ̀ fɛ́ẃ hálí i mán mɛ̀ɛ̀",
+      "phonetic_api": "/mə̀ ɓər jà i kɔ́lɔ́ŋ lɔ́kɔ̀ fɛ́ẃ hálí i mán mɛ̀ː/",
+      "phonetic_simple": "ME BER-YA I KO-LON LÓ-KO FÉW HA-LII I MAN MÈÈ",
+      "translation": "Je t'avais parfaitement compris bien avant que tu ne daignes t'exprimer.",
+      "context": "Marquer sa prééminence intellectuelle lors d'une palabre formelle"
+    },
+    {
+      "phrase_id": "bp302",
+      "original": "A mán bər-yà fáá na tɔ́ŋ ka kpu kúnù lɔ̀",
+      "phonetic_api": "/a mán ɓər jà fáː na tɔ́ŋ ka kpu kúnù lɔ̀/",
+      "phonetic_simple": "A MAN BER-YA FAA NA TON KA KPOO KOO-NOO LO",
+      "translation": "Cela n'avait pas du tout été conforme à la règle établie hier.",
+      "context": "Invalider officiellement un accord contractuel ou coutumier antérieur"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction de l'antériorité cumulative (Plus-que-parfait)",
+      "explanation": "Pour projeter une action dans un passé antérieur à une autre action déjà révolue, le Baga de niveau supérieur combine l'auxiliaire de base existentielle passée 'bər' au marqueur d'aspect accompli standard 'yà', le tout placé directement avant le verbe d'action principal.",
+      "rules": [
+        "Structure syntaxique : Sujet + bər-yà + Base Verbale + Compléments translatifs."
+      ],
+      "examples": [
+        {
+          "structure": "Mə̀ (Je) + bər-yà (Avais été) + táa (Partir)",
+          "phonetic_api": "/mə̀ ɓər jà táː/",
+          "meaning": "J'étais parti bien avant"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'Ancien (Gbe-mɔ̀ɔ̀)",
+      "text": "Saa, i bər-yà wɔ́ŋ-kpɛ́lɛ́ mɛ̀ɛ̀ mɛ̀ɛ̀ kpu hálí kə̀ sɔ̀nɔ̀ mán bɔ̀ ?",
+      "phonetic_api": "/saː i ɓər jà wɔ́ŋ kpɛ́lɛ́ mɛ̀ː mɛ̀ː kpu hálí kə sɔ̀nɔ̀ mán ɓɔ̀/",
+      "phonetic_simple": "SAA, I BER-YA WON-KPÉ-LÉ MÈÈ MÈÈ KPOO HA-LII KE SO-NO MAN BO ?",
+      "translation": "Saa, avais-tu pleinement analysé cette parole d'éloquence avant que l'assemblée ne se lève ?"
+    },
+    {
+      "speaker": "Saa",
+      "text": "N gbɛ́lɛ́-mɔ̀ɔ̀, mə̀ bər-yà n sɔ́ɔ̀ŋ lɔ̀ f fɛ̀ɛ̀ gɓàŋ. Mìɛ̀-wɔ̀ mu n fɛ̀ɛ̀.",
+      "phonetic_api": "/ⁿgɓɛ́lɛ́ mɔ̀ː mə̀ ɓər jà ⁿsɔ́ːŋ lɔ̀ f fɛ̀ː gɓàŋ mìɛ̀ wɔ̀ mu ⁿfɛ̀ː/",
+      "phonetic_simple": "N GBÉ-LÉ-MOO, ME BER-YA N SOON LO F FÈÈ G-BAN. MII-È-WO MOO N FÈÈ.",
+      "translation": "Mon chef, j'y avais mûrement réfléchi en mon cœur. Un profond discernement m'accompagne."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'art oratoire traditionnel des Bagas, l'usage des temps hautement complexes comme 'bər-yà' distingue les initiés des profanes. Manier cette temporalité permet de remonter avec précision dans la généalogie des litiges fonciers littoraux."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L1_ex1",
+      "type": "multiple_choice",
+      "question": "Quelle fonction remplit l'association morphologique 'bər-yà' ?",
+      "options": [
+        "Indiquer un ordre au futur",
+        "Marquer le plus-que-parfait ou une antériorité passée réculée",
+        "Exprimer une interdiction immédiate"
+      ],
+      "correct_answer": "Marquer le plus-que-parfait ou une antériorité passée réculée",
+      "explanation": "Elle associe l'existence passée à l'accompli pour forger un temps composé reculé."
+    },
+    {
+      "exercise_id": "C1_M1_L1_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mə̀ [ ___ ] wáalì mɛ̀ɛ̀ kàn (J'avais entièrement parachevé ce travail).",
+      "correct_answer": "bər-yà",
+      "hint": "Composé de deux éléments reliés par un trait d'union, totalisant 6 caractères"
+    }
+  ]
+}

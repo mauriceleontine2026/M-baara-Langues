@@ -1,0 +1,116 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Distinguer et prononcer les voyelles ouvertes (ɛ, ɔ) de la langue",
+    "Identifier les articulations complexes (nasales et injectives)",
+    "Lire à haute voix des mots monosyllabiques types"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le landouma emploie les caractères phonétiques de l'alphabet africain de référence. Notez bien la présence du 'ɛ' (è) et du 'ɔ' (o ouvert).",
+    "common_pitfalls": "Ne pas confondre la graphie 'ŋ' avec un 'n' ordinaire. Le point d'articulation de 'ŋ' est exclusivement vélaire."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v3_1",
+      "term": "ɛpɛ",
+      "phonetic_api": "/ɛ.pɛ/",
+      "phonetic_simple": "È-PÈ",
+      "translation": "couteau",
+      "example_sentence": "mbi dɛp ɛpɛ",
+      "example_phonetic": "/mbi dɛp ɛ.pɛ/",
+      "example_translation": "Je prends le couteau."
+    },
+    {
+      "word_id": "v3_2",
+      "term": "ɔrɔn",
+      "phonetic_api": "/ɔ.rɔn/",
+      "phonetic_simple": "O-RON",
+      "translation": "homme / mâle",
+      "example_sentence": "ɔrɔn mɔ tana",
+      "example_phonetic": "/ɔ.rɔn mɔ ta.na/",
+      "example_translation": "L'homme est là-bas."
+    },
+    {
+      "word_id": "v3_3",
+      "term": "ŋon",
+      "phonetic_api": "/ŋon/",
+      "phonetic_simple": "NGON",
+      "translation": "femme / épouse",
+      "example_sentence": "ŋon kɔn",
+      "example_phonetic": "/ŋon kɔn/",
+      "example_translation": "Ma femme."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p3_1",
+      "original": "fɔf mɔ fɔf kisin",
+      "phonetic_api": "/fɔf mɔ fɔf ki.sin/",
+      "phonetic_simple": "FOF MO FOF KI-SIN",
+      "translation": "Parle doucement",
+      "context": "Demander à son interlocuteur de ralentir pour mieux saisir les sons."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'harmonie vocalique élémentaire",
+      "explanation": "Bien que moins rigoureuse que dans d'autres langues nigéro-congolaises, le landouma applique une harmonie de hauteur dans les affixes. Les voyelles du préfixe s'ajustent souvent à l'ouverture de la voyelle radicale.",
+      "rules": [
+        "Si la racine contient 'ɛ' ou 'ɔ', le préfixe tend à s'ouvrir.",
+        "Les radicaux monosyllabiques longs conservent strictement leur timbre."
+      ],
+      "examples": [
+        {
+          "structure": "ɛ + Racine ouverte",
+          "phonetic_api": "/ɛ.pɛ/",
+          "meaning": "Couteau (harmonie ouverte)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'apprenant",
+      "text": "kɛwun mɔ fɔf 'ŋon' ?",
+      "phonetic_api": "/kɛ.wun mɔ fɔf ŋon/",
+      "phonetic_simple": "KÈ-WOUN MO FOF NGON ?",
+      "translation": "Comment prononces-tu 'ŋon' ?"
+    },
+    {
+      "speaker": "Le guide",
+      "text": "fɔf kisin : ŋon. mɔ fap ?",
+      "phonetic_api": "/fɔf ki.sin ŋon mɔ fap/",
+      "phonetic_simple": "FOF KI-SIN : NGON. MO FAP ?",
+      "translation": "Dis-le doucement : ŋon. As-tu compris ?"
+    }
+  ],
+  "cultural_notes": [
+    "La préservation de l'alphabet et de la phonologie landouma est un enjeu crucial à Boké, face à la forte expansion linguistique de la langue soussou, dominante dans les échanges commerciaux côtiers."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex3_1",
+      "type": "multiple_choice",
+      "question": "Quel son représente le symbole 'ɔ' ?",
+      "options": [
+        "Le 'ou' de loup",
+        "Le 'o' ouvert de porte",
+        "Le 'eu' de fleur"
+      ],
+      "correct_answer": "Le 'o' ouvert de porte",
+      "explanation": "Le symbole 'ɔ' correspond précisément à la voyelle moyenne-inférieure professionnelle postérieure arrondie de l'API."
+    },
+    {
+      "exercise_id": "ex3_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "fɔf mɔ fɔf [ ___ ] (Parle doucement)",
+      "correct_answer": "kisin",
+      "hint": "Adverbe signifiant doucement ou lentement."
+    }
+  ]
+}

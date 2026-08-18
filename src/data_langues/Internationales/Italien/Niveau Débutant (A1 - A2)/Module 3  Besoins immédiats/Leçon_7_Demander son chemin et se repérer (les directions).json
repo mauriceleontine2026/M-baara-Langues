@@ -1,0 +1,275 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Savoir demander des indications de direction poliment dans l'espace urbain",
+    "Comprendre les orientations spatiales de base et repérer les principaux lieux publics"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 's' placée entre deux voyelles se prononce de manière sonore /z/ comme dans 'scusi' /ˈskuːzi/ ou 'chiesa' /ˈkjeːza/. Le digramme 'sc' suivi de 'e' ou 'i' se prononce /ʃ/ (le son ch français dans chat), comme dans le mot 'strascesi' ou 'scendere' /ˈʃendere/. Veillez à bien prononcer le son double /tt/ dans 'diritto' /diˈritto/ en bloquant brièvement le flux d'air avant l'explosion.",
+    "common_pitfalls": "Attention au mot 'piazza' /ˈpjattsa/ : le 'z' double se prononce comme un son 'ts' très net et sec, et non comme un 'z' français. Ne confondez pas 'destra' /ˈdɛstra/ (droite) et 'dritta' /ˈdritta/ (tout droit)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "La strada",
+      "phonetic_api": "/la ˈstraːda/",
+      "phonetic_simple": "LA STRA-DA",
+      "translation": "La rue / La route",
+      "example_sentence": "Scusi, qual è la strada per il centro?",
+      "example_phonetic": "/ˈskuːzi kwal ɛ lla ˈstraːda per il ˈtʃɛntro/",
+      "example_translation": "Excusez-moi, quel est le chemin pour le centre ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "La piazza",
+      "phonetic_api": "/la ˈpjattsa/",
+      "phonetic_simple": "LA PIAT-TSA",
+      "translation": "La place (publique)",
+      "example_sentence": "La fontana si trova in piazza.",
+      "example_phonetic": "/la fonˈtaːna si ˈtrɔːva in ˈpjattsa/",
+      "example_translation": "La fontaine se trouve sur la place."
+    },
+    {
+      "word_id": "v3",
+      "term": "La stazione",
+      "phonetic_api": "/la statˈtsjoːne/",
+      "phonetic_simple": "LA STAT-TSIO-NÉ",
+      "translation": "La gare",
+      "example_sentence": "Dov'è la stazione ferroviaria?",
+      "example_phonetic": "/doˈvɛ lla statˈtsjoːne ferroˈvjaːrja/",
+      "example_translation": "Où est la gare ferroviaire ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "La chiesa",
+      "phonetic_api": "/la ˈkjeːza/",
+      "phonetic_simple": "LA KIÉ-ZA",
+      "translation": "L'église",
+      "example_sentence": "La chiesa è molto antica.",
+      "example_phonetic": "/la ˈkjeːza ɛ mˈmolto anˈtiːka/",
+      "example_translation": "L'église est très ancienne."
+    },
+    {
+      "word_id": "v5",
+      "term": "Il semaforo",
+      "phonetic_api": "/il seˈmaːforo/",
+      "phonetic_simple": "IL SÉ-MA-FO-RO",
+      "translation": "Le feu de signalisation",
+      "example_sentence": "Gira a destra al primo semaforo.",
+      "example_phonetic": "/ˈdʒiːra a dˈdɛstra al ˈpriːmo seˈmaːforo/",
+      "example_translation": "Tourne à droite au premier feu."
+    },
+    {
+      "word_id": "v6",
+      "term": "L'incrocio",
+      "phonetic_api": "/liŋˈkroːtʃo/",
+      "phonetic_simple": "LIN-KRO-TCHIO",
+      "translation": "Le croisement / L'intersection",
+      "example_sentence": "Continua dritto fino all'incrocio.",
+      "example_phonetic": "/konˈtiːnwa diˈritto ˈfiːno allliŋˈkroːtʃo/",
+      "example_translation": "Continue tout droit jusqu'au croisement."
+    },
+    {
+      "word_id": "v7",
+      "term": "A destra",
+      "phonetic_api": "/a dˈdɛstra/",
+      "phonetic_simple": "A DÈS-TRA",
+      "translation": "À droite",
+      "example_sentence": "La farmacia è sulla destra.",
+      "example_phonetic": "/la farmaˈtʃiːa ɛ ssulla dˈdɛstra/",
+      "example_translation": "La pharmacie est sur la droite."
+    },
+    {
+      "word_id": "v8",
+      "term": "A sinistra",
+      "phonetic_api": "/a siˈnistra/",
+      "phonetic_simple": "A SI-NIS-TRA",
+      "translation": "À gauche",
+      "example_sentence": "Il museo si trova a sinistra.",
+      "example_phonetic": "/il muˈzɛːo si ˈtrɔːva a siˈnistra/",
+      "example_translation": "Le musée se trouve à gauche."
+    },
+    {
+      "word_id": "v9",
+      "term": "Dritto",
+      "phonetic_api": "/diˈritto/",
+      "phonetic_simple": "DI-RIT-TO",
+      "translation": "Tout droit",
+      "example_sentence": "Vai sempre dritto.",
+      "example_phonetic": "/ˈvai ˈsempre diˈritto/",
+      "example_translation": "Va toujours tout droit."
+    },
+    {
+      "word_id": "v10",
+      "term": "Vicino",
+      "phonetic_api": "/viˈtʃiːno/",
+      "phonetic_simple": "VI-TCHI-NO",
+      "translation": "Près / Proche",
+      "example_sentence": "Il bar è vicino all'hotel.",
+      "example_phonetic": "/il ˈbar ɛ vviˈtʃiːno allloˈtɛl/",
+      "example_translation": "Le bar est près de l'hôtel."
+    },
+    {
+      "word_id": "v11",
+      "term": "Lontano",
+      "phonetic_api": "/lonˈtaːno/",
+      "phonetic_simple": "LON-TA-NO",
+      "translation": "Loin",
+      "example_sentence": "Il centro non è lontano.",
+      "example_phonetic": "/il ˈtʃɛntro non ɛ llonˈtaːno/",
+      "example_translation": "Le centre n'est pas loin."
+    },
+    {
+      "word_id": "v12",
+      "term": "Accanto a",
+      "phonetic_api": "/akˈkanto a/",
+      "phonetic_simple": "AK-KAN-TO A",
+      "translation": "À côté de",
+      "example_sentence": "Il comune è accanto alla chiesa.",
+      "example_phonetic": "/il koˈmuːne ɛ akˈkanto ˈdalla ˈkjeːza/",
+      "example_translation": "La mairie est à côté de l'église."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Dov'è il bagno, per favore?",
+      "phonetic_api": "/doˈvɛ il ˈbaɲɲo per faˈvoːre/",
+      "phonetic_simple": "DO-VÈ IL BA-NIO PER FA-VO-RÉ",
+      "translation": "Où sont les toilettes, s'il vous plaît ?",
+      "context": "Question de secours indispensable dans n'importe quel lieu public ou restaurant."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Per andare al centro?",
+      "phonetic_api": "/per anˈdaːre al ˈtʃɛntro/",
+      "phonetic_simple": "PER AN-DA-RÉ AL TCHÈN-TO",
+      "translation": "Pour aller au centre-ville ?",
+      "context": "Formule elliptique très courante pour demander sa direction rapidement."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "È lontano da qui?",
+      "phonetic_api": "/ɛ llonˈtaːno da kkwatto/",
+      "phonetic_simple": "È LON-TA-NO DA KOUI",
+      "translation": "Est-ce que c'est loin d'ici ?",
+      "context": "Pour évaluer s'il faut s'y rendre à pied ou prendre un transport."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Giri alla prima traversa",
+      "phonetic_api": "/ˈdʒiːri ˈdalla ˈpriːma traˈvɛrsa/",
+      "phonetic_simple": "DJI-RI AL-LA PRI-MA TRA-VÈR-SA",
+      "translation": "Tournez à la première intersection / rue transversale",
+      "context": "Indication de direction formelle donnée par un tiers (vouvoiement)."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Mi sono perso",
+      "phonetic_api": "/mi ˈsoːno ˈpɛrso/",
+      "phonetic_simple": "MI SO-NO PÈR-SO",
+      "translation": "Je me suis perdu",
+      "context": "Formule masculine (devient 'mi sono persa' pour une femme) pour demander de l'aide."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Può mostrarmelo sulla mappa?",
+      "phonetic_api": "/pwɔ mmosˈtrarmelo ˈsulla ˈmappa/",
+      "phonetic_simple": "POUÒ MOS-TRAR-MÉ-LO SOUL-LA MAP-PA",
+      "translation": "Pouvez-vous me le montrer sur la carte ?",
+      "context": "Formel. Utile pour obtenir une indication visuelle sur un écran ou plan papier."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'impératif formel (Lei) pour donner des directions",
+      "explanation": "Pour guider poliment un inconnu, l'italien utilise l'impératif de courtoisie (qui correspond grammaticalement au subjonctif présent de la 3e personne du singulier).",
+      "rules": [
+        "Verbes en -ARE (ex: girare) -> se terminent par -i : Giri! (Tournez !)",
+        "Verbes en -ERE et -IRE (ex: prendere, seguire) -> se terminent par -a : Prenda! (Prenez !), Segua! (Suivez !)"
+      ],
+      "examples": [
+        {
+          "structure": "Giri a destra e prenda la seconda strada.",
+          "phonetic_api": "/ˈdʒiːri a dˈdɛstra e pˈprɛnda la seˈkonda ˈstraːda/",
+          "meaning": "Tournez à droite et prenez la seconde rue (Usage formel)."
+        }
+      ]
+    },
+    {
+      "concept": "Les prépositions articulées de lieu (A, DA, DI)",
+      "explanation": "Les prépositions simples se combinent avec les articles définis pour former une seule unité morphologique devant les noms de lieux.",
+      "rules": [
+        "A + il = al / A + la = alla / A + lo = allo (ex: al semaforo, alla stazione).",
+        "Vicino demande la préposition 'a' (ex: vicino al museo). Lontano demande la préposition 'da' (ex: lontano dalla stazione)."
+      ],
+      "examples": [
+        {
+          "structure": "Il bar è accanto allo stadio e vicino alla banca.",
+          "phonetic_api": "/il ˈbar ɛ akˈkanto ˈdallo ˈstaːdjo e vviˈtʃiːno ˈdalla ˈbaŋka/",
+          "meaning": "Le bar est à côté du stade et près de la banque."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Turista",
+      "text": "Scusi, mi dispiace disturbarla. Sa dov'è il Duomo?",
+      "phonetic_api": "/ˈskuːzi mi disˈpjaːtʃe disturˈbarla sa ddoˈvɛ il ˈdwɔːmo/",
+      "phonetic_simple": "SKOU-ZI MI DIS-PIA-TCHÉ DIS-TOUR-BAR-LA SA DO-VÈ IL DOUO-MO",
+      "translation": "Excusez-moi, je suis désolé de vous déranger. Savez-vous où se trouve la cathédrale ?"
+    },
+    {
+      "speaker": "Passante",
+      "text": "Buongiorno! Sì, non è lontano. Vada sempre dritto fino al semaforo.",
+      "phonetic_api": "/bwɔnˈdʒorno si non ɛ llonˈtaːno ˈvaːda ˈsempre diˈritto ˈfiːno al seˈmaːforo/",
+      "phonetic_simple": "BOUON-DJOR-NO SI NON È LON-TA-NO VA-DA SÈM-PRÉ DI-RIT-TO FI-NO AL SÉ-MA-FO-RO",
+      "translation": "Bonjour ! Oui, ce n'est pas loin. Allez tout droit jusqu'au feu."
+    },
+    {
+      "speaker": "Turista",
+      "text": "Al semaforo devo girare a sinistra o a destra?",
+      "phonetic_api": "/al seˈmaːforo ˈdeːvo dʒiˈraːre a siˈnistra o a dˈdɛstra/",
+      "phonetic_simple": "AL SÉ-MA-FO-RO DE-VO DJI-RA-RÉ A SI-NIS-TRA O A DÈS-TRA",
+      "translation": "Au feu, je dois tourner à gauche ou à droite ?"
+    },
+    {
+      "speaker": "Passante",
+      "text": "Giri a destra, prenda Via Roma e troverà la piazza del Duomo proprio di fronte a Lei.",
+      "phonetic_api": "/ˈdʒiːri a dˈdɛstra ˈprɛnda ˈviːa ˈroːma e ttroveˈra la ˈpjattsa del ˈdwɔːmo ˈprɔːprjo di ˈfronte a llɛi/",
+      "phonetic_simple": "DJI-RI A DÈS-TRA PRÈN-DA VI-A RO-MA É TRO-VÉ-RA LA PIAT-TSA DEL DOUO-MO PRÒ-PRIO DI FRON-TÉ A LÉÏ",
+      "translation": "Tournez à droite, prenez la rue de Rome et vous trouverez la place de la cathédrale juste en face de vous."
+    }
+  ],
+  "cultural_notes": [
+    "En Italie, le cœur historique d'une ville est presque toujours appelé 'il centro' ou 'il centro storico'. Ce sont généralement des zones à trafic limité (ZTL - Zona a Traffico Limitato) où seuls les résidents peuvent circuler en voiture.",
+    "Pour interpeller un passant poliment, utilisez toujours 'Scusi' (troisième personne de courtoisie) et non 'Scusa' (qui s'adresse à un ami). Accompagner votre demande d'un 'Buongiorno' ou 'Buonasera' est une marque de civilité essentielle."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la traduction exacte de 'Tournez à gauche' dans un registre formel ?",
+      "options": [
+        "Gira a sinistra",
+        "Giri a sinistra",
+        "Prendi a sinistra"
+      ],
+      "correct_answer": "Giri a sinistra",
+      "explanation": "L'impératif formel du verbe 'girare' à la troisième personne de politesse (Lei) se termine par un -i, d'où 'Giri'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "La farmacia è vicino [ ___ ] stazione ferroviaria.",
+      "correct_answer": "alla",
+      "hint": "Combinaison de la préposition simple 'a' avec l'article défini féminin 'la'."
+    }
+  ]
+}

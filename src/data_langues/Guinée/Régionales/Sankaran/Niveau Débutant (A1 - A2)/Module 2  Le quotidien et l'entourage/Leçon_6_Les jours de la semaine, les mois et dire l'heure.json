@@ -1,0 +1,244 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer et utiliser les sept jours de la semaine et appréhender la notion de mois",
+    "Demander et indiquer l'heure pour des situations simples du quotidien",
+    "Exprimer la périodicité et situer une action dans la journée"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les jours de la semaine au Sankaran intègrent l'emprunt linguistique via le phonème /l/ et les voyelles doubles longues (ex: 'Ntɛnɛn' /n.tɛ.nɛn/ ou 'Biiki' /biː.ki/). Pour l'heure, le terme 'Lɛɛrɛ' /lɛː.rɛ/ exige de tenir la voyelle ouverte /ɛ/ étirée sur deux temps. Le son final 'n' s'appuie contre les alvéoles dentaires sans nasalisation totale.",
+    "common_pitfalls": "Veillez à ne pas escamoter la nasale initiale syllabique dans 'Ntɛnɛn' /n.tɛ.nɛn/. Le 'N' initial doit résonner brièvement avant d'articuler le reste du mot."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v6_1",
+      "term": "Ntɛnɛn",
+      "phonetic_api": "/n.tɛ.nɛn/",
+      "phonetic_simple": "N-TƐ-NƐNE",
+      "translation": "Lundi",
+      "example_sentence": "N b'a kɛ na Ntɛnɛn.",
+      "example_phonetic": "/ɲ b'a kɛ na n.tɛ.nɛn/",
+      "example_translation": "Je le ferai lundi."
+    },
+    {
+      "word_id": "v6_2",
+      "term": "Biiki",
+      "phonetic_api": "/biː.ki/",
+      "phonetic_simple": "BII-KI",
+      "translation": "Vendredi",
+      "example_sentence": "Mɔgɔ lu be wa salila Biiki.",
+      "example_phonetic": "/mɔ.ɣɔ lu be wa sa.li.la biː.ki/",
+      "example_translation": "Les gens vont prier le vendredi."
+    },
+    {
+      "word_id": "v6_3",
+      "term": "Kari",
+      "phonetic_api": "/ka.ri/",
+      "phonetic_simple": "KA-RI",
+      "translation": "Dimanche",
+      "example_sentence": "Kari mu lofɛ tele di.",
+      "example_phonetic": "/ka.ri mu lo.fɛ te.le di/",
+      "example_translation": "Dimanche est le jour du marché."
+    },
+    {
+      "word_id": "v6_4",
+      "term": "Kalo",
+      "phonetic_api": "/ka.lo/",
+      "phonetic_simple": "KA-LO",
+      "translation": "Lune / Mois",
+      "example_sentence": "Kalo kelen tora.",
+      "example_phonetic": "/ka.lo ke.len to.ra/",
+      "example_translation": "Il reste un mois."
+    },
+    {
+      "word_id": "v6_5",
+      "term": "Lɛɛrɛ",
+      "phonetic_api": "/lɛː.rɛ/",
+      "phonetic_simple": "LƐƐ-RƐ",
+      "translation": "Heure / Montre",
+      "example_sentence": "Lɛɛrɛ jeli le sisan?",
+      "example_phonetic": "/lɛː.rɛ d͡ʒe.li le si.san/",
+      "example_translation": "Quelle heure est-il maintenant ?"
+    },
+    {
+      "word_id": "v6_6",
+      "term": "Sisan",
+      "phonetic_api": "/si.san/",
+      "phonetic_simple": "SI-SANE",
+      "translation": "Maintenant / À présent",
+      "example_sentence": "A fɔ n yɛ sisan.",
+      "example_phonetic": "/a fɔ ɲ jɛ si.san/",
+      "example_translation": "Dis-le moi maintenant."
+    },
+    {
+      "word_id": "v6_7",
+      "term": "Bi",
+      "phonetic_api": "/bi/",
+      "phonetic_simple": "BI",
+      "translation": "Aujourd'hui",
+      "example_sentence": "Bi mu lofɛ tele di.",
+      "example_phonetic": "/bi mu lo.fɛ te.le di/",
+      "example_translation": "Aujourd'hui c'est le jour du marché."
+    },
+    {
+      "word_id": "v6_8",
+      "term": "Sini",
+      "phonetic_api": "/si.ni/",
+      "phonetic_simple": "SI-NI",
+      "translation": "Demain",
+      "example_sentence": "N be wa Faranah sini.",
+      "example_phonetic": "/ɲ be wa fa.ra.na si.ni/",
+      "example_translation": "J'irai à Faranah demain."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p6_1",
+      "original": "Lɛɛrɛ jeli le?",
+      "phonetic_api": "/lɛː.rɛ d͡ʒe.li le/",
+      "phonetic_simple": "LƐƐ-RƐ DJÉ-LI LÉ",
+      "translation": "Quelle heure est-il ?",
+      "context": "Question standard universelle pour s'informer du temps qu'il fait à la montre."
+    },
+    {
+      "phrase_id": "p6_2",
+      "original": "Lɛɛrɛ duuru le sisan.",
+      "phonetic_api": "/lɛː.rɛ duː.ru le si.san/",
+      "phonetic_simple": "LƐƐ-RƐ DOUU-ROU LÉ SI-SANE.",
+      "translation": "Il est cinq heures maintenant.",
+      "context": "Indication horaire standard fixe."
+    },
+    {
+      "phrase_id": "p6_3",
+      "original": "Bi mu tele mun di?",
+      "phonetic_api": "/bi mu te.le mun di/",
+      "phonetic_simple": "BI MOU TÉ-LÉ MOUN DI ?",
+      "translation": "Quel jour sommes-nous aujourd'hui ?",
+      "context": "Demande d'orientation temporelle dans la semaine."
+    },
+    {
+      "phrase_id": "p6_4",
+      "original": "Bi mu Ntɛnɛn di.",
+      "phonetic_api": "/bi mu n.tɛ.nɛn di/",
+      "phonetic_simple": "BI MOU N-TƐ-NƐNE DI.",
+      "translation": "Aujourd'hui nous sommes lundi.",
+      "context": "Réponse situant le jour de la semaine."
+    },
+    {
+      "phrase_id": "p6_5",
+      "original": "N be wa sini sɔɔma la.",
+      "phonetic_api": "/ɲ be wa si.ni sɔː.ma la/",
+      "phonetic_simple": "N BÉ WA SI-NI SƆƆ-MA LA.",
+      "translation": "Je partirai demain matin.",
+      "context": "Planification temporelle précise combinant le jour et le moment."
+    },
+    {
+      "phrase_id": "p6_6",
+      "original": "A kɛra kalo jeli di?",
+      "phonetic_api": "/a kɛ.ra ka.lo d͡ʒe.li di/",
+      "phonetic_simple": "A KƐ-RA KA-LO DJÉ-LI DI ?",
+      "translation": "Cela fait combien de mois ?",
+      "context": "S'enquérir d'une durée mensuelle écoulée."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'heure via la quantification nominale",
+      "explanation": "Pour donner l'heure exacte, le Sankaran place le nom de l'unité de mesure temporelle 'Lɛɛrɛ' (Heure, d'origine arabe) en tête, immédiatement suivi du chiffre quantificateur approprié, complété par la particule de focus 'le'.",
+      "rules": [
+        "Structure : Lɛɛrɛ + Chiffre cardinal + le"
+      ],
+      "examples": [
+        {
+          "structure": "Lɛɛrɛ saba le.",
+          "phonetic_api": "/lɛː.rɛ sa.ba le/",
+          "meaning": "Il est trois heures."
+        },
+        {
+          "structure": "Lɛɛrɛ tan le.",
+          "phonetic_api": "/lɛː.rɛ tan le/",
+          "meaning": "Il est dix heures."
+        }
+      ]
+    },
+    {
+      "concept": "L'utilisation du postpoids temporel 'la' pour les moments de la journée",
+      "explanation": "Pour indiquer qu'une action se déroule à une période ou un moment précis, on ajoute la postposition locative-temporelle 'la' juste après le substantif temporel (sɔɔma, wura, su).",
+      "rules": [
+        "Structure : Moment de la journée + la"
+      ],
+      "examples": [
+        {
+          "structure": "Su la",
+          "phonetic_api": "/su la/",
+          "meaning": "Pendant la nuit / De nuit"
+        },
+        {
+          "structure": "Wura la",
+          "phonetic_api": "/wu.ra la/",
+          "meaning": "Pendant l'après-midi"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Moussa",
+      "text": "Fanta, i ni sɔɔma. Bi mu tele mun di?",
+      "phonetic_api": "/fan.ta i ni sɔː.ma | bi mu te.le mun di/",
+      "phonetic_simple": "FAN-TA, I NI SƆƆ-MA. BI MOU TÉ-LÉ MOUN DI ?",
+      "translation": "Fanta, bonjour. Quel jour sommes-nous aujourd'hui ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Nse, Moussa. Bi mu Biiki di. Lofɛ tele le nin di.",
+      "phonetic_api": "/ɲ.se mus.sa | bi mu biː.ki di | lo.fɛ te.le le nin di/",
+      "phonetic_simple": "NSE, MOUS-SA. BI MOU BII-KI DI. LO-FƐ TÉ-LÉ LÉ NINE DI.",
+      "translation": "Bonjour Moussa. Aujourd'hui nous sommes vendredi. C'est le jour du marché."
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Lɛɛrɛ jeli le sisan? N baara be n kɔnɔ.",
+      "phonetic_api": "/lɛː.rɛ d͡ʒe.li le si.san | ɲ baː.ra be ɲ kɔ.nɔ/",
+      "phonetic_simple": "LƐƐ-RƐ DJÉ-LI LÉ SI-SANE ? N BAA-RA BÉ N KƆ-NƆ.",
+      "translation": "Quelle heure est-il maintenant ? J'ai du travail qui m'attend."
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Lɛɛrɛ tan ni fila le sisan. Wa i baara la.",
+      "phonetic_api": "/lɛː.rɛ tan ni fi.la le si.san | wa i baː.ra la/",
+      "phonetic_simple": "LƐƐ-RƐ TANE NI FI-LA LÉ SI-SANE. WA I BAA-RA LA.",
+      "translation": "Il est douze heures (midi) maintenant. Va à ton travail."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la région de Faranah, le rythme hebdomadaire est très marqué par les jours de marchés hebdomadaires ('lofɛ tele') propres à chaque localité. C'est autour de ces jours que s'organisent les déplacements et les transactions financières.",
+    "L'appellation 'kalo' désigne de façon identique l'astre lunaire et le concept de mois, s'inscrivant dans la tradition du suivi des cycles lunaires pour marquer le temps et les événements agricoles ou culturels importants."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex6_1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'Il est quatre heures' en langue Sankaran ?",
+      "options": [
+        "Lɛɛrɛ naani le",
+        "Naani lɛɛrɛ le",
+        "Kalo naani le"
+      ],
+      "correct_answer": "Lɛɛrɛ naani le",
+      "explanation": "On place le mot 'Lɛɛrɛ' (heure) suivi de 'naani' (quatre) et de la particule 'le'."
+    },
+    {
+      "exercise_id": "ex6_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Bi mu [ ___ ] di. (Aujourd'hui nous sommes vendredi.)",
+      "correct_answer": "Biiki",
+      "hint": "Ce mot commence par un B et possède une voyelle longue 'ii'."
+    }
+  ]
+}

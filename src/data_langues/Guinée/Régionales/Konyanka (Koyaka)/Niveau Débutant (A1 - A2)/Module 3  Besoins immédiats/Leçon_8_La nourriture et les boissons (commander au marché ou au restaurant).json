@@ -1,0 +1,189 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
+  "learning_objectives": [
+    "Nommer les aliments de base et les boissons courantes en konyanka",
+    "Exprimer la faim, la soif et le besoin de consommer quelque chose",
+    "Formuler une demande polie pour commander un repas ou acheter des vivres"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le groupe consonantique /m/ devant une autre consonne comme dans 'malo' s'articule doucement. Le son /d͡ʒ/ (noté 'j') dans 'ji' (eau) est une affriquée palatale voisée. La voyelle nasale /ɔ̃/ dans 'dɔn' doit être bien projetée vers l'arrière.",
+    "common_pitfalls": "Veillez à ne pas prononcer le 'g' de 'tige' de manière trop dure /ɡ/. Il s'agit d'une transition douce. Ne confondez pas non plus 'ji' (eau) et 'cɛ' (homme) au niveau du point d'articulation."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Ji",
+      "phonetic_api": "/d͡ʒi/",
+      "phonetic_simple": "DJI",
+      "translation": "Eau / Boisson",
+      "example_sentence": "Ji di n'ma.",
+      "example_phonetic": "/d͡ʒi di nma/",
+      "example_translation": "Donne-moi de l'eau."
+    },
+    {
+      "word_id": "v2",
+      "term": "Malo",
+      "phonetic_api": "/ma.lo/",
+      "phonetic_simple": "MA-LO",
+      "translation": "Riz",
+      "example_sentence": "N'bɛ malo dun fɛ.",
+      "example_phonetic": "/mbɛ ma.lo dũ fɛ/",
+      "example_translation": "Je veux manger du riz."
+    },
+    {
+      "word_id": "v3",
+      "term": "Sogo",
+      "phonetic_api": "/so.ɡo/",
+      "phonetic_simple": "SO-GO",
+      "translation": "Viande",
+      "example_sentence": "Sogo bɛ so kɔnɔ?",
+      "example_phonetic": "/so.ɡo bɛ so kɔ.nɔ/",
+      "example_translation": "Y a-t-il de la viande à la maison ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "Nɔnɔ",
+      "phonetic_api": "/nɔ.nɔ/",
+      "phonetic_simple": "NƆ-NƆ",
+      "translation": "Lait",
+      "example_sentence": "Nɔnɔ timan le.",
+      "example_phonetic": "/nɔ.nɔ ti.mã le/",
+      "example_translation": "Le lait est doux / bon."
+    },
+    {
+      "word_id": "v5",
+      "term": "Jɛgɛ",
+      "phonetic_api": "/d͡ʒɛ.ɡɛ/",
+      "phonetic_simple": "DJÈ-GÈ",
+      "translation": "Poisson",
+      "example_sentence": "Jɛgɛ gbe le.",
+      "example_phonetic": "/d͡ʒɛ.ɡɛ ɡ͡be le/",
+      "example_translation": "C'est un poisson frais / blanc."
+    },
+    {
+      "word_id": "v6",
+      "term": "Tige",
+      "phonetic_api": "/ti.ɡe/",
+      "phonetic_simple": "TI-GUÉ",
+      "translation": "Arachide",
+      "example_sentence": "Tige na nyan.",
+      "example_phonetic": "/ti.ɡe na ɲã/",
+      "example_translation": "La sauce d'arachide est bonne."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Kɔngɔ bɛ n'na.",
+      "phonetic_api": "/kɔn.ɡɔ bɛ nna/",
+      "phonetic_simple": "KƆN-GƆ BÈ N-NA",
+      "translation": "J'ai faim (litt. la faim est sur moi).",
+      "context": "Expression de base pour signaler qu'on a besoin de manger."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Minbɔ bɛ n'na.",
+      "phonetic_api": "/mĩ.bɔ bɛ nna/",
+      "phonetic_simple": "MIN-BƆ BÈ N-NA",
+      "translation": "J'ai soif (litt. le besoin de boire est sur moi).",
+      "context": "Expression de base pour demander à boire."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "N'bɛ domuni fɛ.",
+      "phonetic_api": "/mbɛ do.mu.ni fɛ/",
+      "phonetic_simple": "N-BÈ DO-MOU-NI FÈ",
+      "translation": "Je veux de la nourriture / manger.",
+      "context": "Commande simple passée auprès d'un hôte ou d'un restaurateur."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "N'bɛ ji min fɛ dɔɔni.",
+      "phonetic_api": "/mbɛ d͡ʒi mĩ fɛ dɔː.ni/",
+      "phonetic_simple": "N-BÈ DJI MIN FÈ DƆƆ-NI",
+      "translation": "Je veux boire un peu d'eau.",
+      "context": "Demande polie pour se désaltérer."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du besoin avec 'bɛ... na'",
+      "explanation": "Pour traduire des sensations physiques immédiates comme la faim ('kɔngɔ') ou la soif ('minbɔ'), le konyanka utilise une structure locative où l'état affecte la personne via la postposition 'na' (sur).",
+      "rules": [
+        "Structure : Sensation + bɛ + Pronom possessif/Sujet + na.",
+        "À la forme négative, 'bɛ' se transforme en 'tɛ'."
+      ],
+      "examples": [
+        {
+          "structure": "Kɔngɔ bɛ i la?",
+          "phonetic_api": "/kɔn.ɡɔ bɛ i la/",
+          "meaning": "As-tu faim ?"
+        },
+        {
+          "structure": "Kɔngɔ tɛ n'na.",
+          "phonetic_api": "/kɔn.ɡɔ tɛ nna/",
+          "meaning": "Je n'ai pas faim."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "Fanta, kɔngɔ bɛ i la?",
+      "phonetic_api": "/fan.ta kɔn.ɡɔ bɛ i la/",
+      "phonetic_simple": "FAN-TA, KƆN-GƆ BÈ I LA",
+      "translation": "Fanta, as-tu faim ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Hali, kɔngɔ bɛ n'na bɛrɛbɛrɛ! Malo bɛ yen?",
+      "phonetic_api": "/ha.li kɔn.ɡɔ bɛ nna bɛ.rɛ.bɛ.rɛ ma.lo bɛ jẽ/",
+      "phonetic_simple": "HA-LI, KƆN-GƆ BÈ N-NA BÈ-RÈ-BÈ-RÈ! MA-LO BÈ YEN ?",
+      "translation": "Oui, j'ai vraiment très faim ! Y a-t-il du riz ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Hali, malo ni sogo bɛ yen. I bɛ ji min fɛ?",
+      "phonetic_api": "/ha.li ma.lo ni so.ɡo bɛ jẽ i bɛ d͡ʒi mĩ fɛ/",
+      "phonetic_simple": "HA-LI, MA-LO NI SO-GO BÈ YEN. I BÈ DJI MIN FÈ ?",
+      "translation": "Oui, il y a du riz et de la viande. Veux-tu boire de l'eau ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Hali, ji di n'ma. I ni bara.",
+      "phonetic_api": "/ha.li d͡ʒi di nma i ni ba.ra/",
+      "phonetic_simple": "HA-LI, DJI DI N-MA. I NI BA-RA",
+      "translation": "Oui, donne-moi de l'eau. Merci pour le travail (le service)."
+    }
+  ],
+  "cultural_notes": [
+    "En Guinée, le partage du repas est un acte social central. Le plat principal (souvent à base de riz, aliment pilier, accompagné de diverses sauces comme la sauce feuille ou la sauce arachide) est généralement partagé dans un grand bol commun. Refuser de l'eau ou un repas proposé est considéré comme impoli ; il est préférable d'y goûter symboliquement."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'Ji' ?",
+      "options": [
+        "Le riz",
+        "L'eau / La boisson",
+        "La viande"
+      ],
+      "correct_answer": "L'eau / La boisson",
+      "explanation": "'Ji' désigne l'élément liquide, l'eau par excellence, essentielle pour étancher la soif."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] bɛ n'na (J'ai faim).",
+      "correct_answer": "Kɔngɔ",
+      "hint": "Le mot commence par une consonne occlusive vélaire 'K'"
+    }
+  ]
+}

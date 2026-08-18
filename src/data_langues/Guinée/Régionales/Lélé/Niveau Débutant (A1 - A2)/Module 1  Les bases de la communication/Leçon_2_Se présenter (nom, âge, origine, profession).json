@@ -1,0 +1,212 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Savoir dire son nom et demander celui de son interlocuteur",
+    "Exprimer son origine et son lieu de résidence",
+    "Donner son âge et indiquer sa profession ou son activité principale"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le lélé utilise la consonne nasale palatale [ɲ], notée ici par la combinaison 'ny'. Elle se prononce comme le 'gn' français dans 'gagner'. Faites attention au son 'i' long (noté 'ii') qui demande une tenue de voyelle prolongée pour ne pas modifier le sens du mot.",
+    "common_pitfalls": "Veillez à ne pas prononcer le 'h' s'il apparaît ou à trop appuyer sur les consonnes de liaison. Le lélé lie de manière fluide le pronom sujet et le verbe d'état."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Tɔ",
+      "phonetic_api": "/tɔ/",
+      "phonetic_simple": "TƆ",
+      "translation": "Nom / Prénom",
+      "example_sentence": "N tɔ mu Amara di.",
+      "example_phonetic": "/ɲ tɔ mu a.ma.ra di/",
+      "example_translation": "Mon nom est Amara."
+    },
+    {
+      "word_id": "v2",
+      "term": "Si",
+      "phonetic_api": "/si/",
+      "phonetic_simple": "SI",
+      "translation": "Année / Âge",
+      "example_sentence": "Si mɔ fɔ bɛ i bolo?",
+      "example_phonetic": "/si mɔ fɔ bɛ i bo.lo/",
+      "example_translation": "Quel âge as-tu ? (Combien d'années as-tu en main ?)"
+    },
+    {
+      "word_id": "v3",
+      "term": "Gbe",
+      "phonetic_api": "/ɡ͡be/",
+      "phonetic_simple": "GBE",
+      "translation": "Pays / Origine / Terre",
+      "example_sentence": "N bɔra Gini gbe ya.",
+      "example_phonetic": "/ɲ bɔ.ra ɡi.ni ɡ͡be ja/",
+      "example_translation": "Je viens de Guinée."
+    },
+    {
+      "word_id": "v4",
+      "term": "Wala",
+      "phonetic_api": "/wa.la/",
+      "phonetic_simple": "WA-LA",
+      "translation": "Travail / Profession",
+      "example_sentence": "I wala mu mɔ di?",
+      "example_phonetic": "/i wa.la mu mɔ di/",
+      "example_translation": "Quel est ton travail ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "Karamɔɔ",
+      "phonetic_api": "/ka.ra.mɔː/",
+      "phonetic_simple": "KA-RA-MƆƆ",
+      "translation": "Enseignant / Maître",
+      "example_sentence": "N mu karamɔɔ di.",
+      "example_phonetic": "/ ɲ mu ka.ra.mɔː di/",
+      "example_translation": "Je suis enseignant."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "I tɔ mu mɔ di?",
+      "phonetic_api": "/i tɔ mu mɔ di/",
+      "phonetic_simple": "I TƆ MOU MƆ DI?",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Question de base pour demander l'identité de quelqu'un."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "N tɔ mu Fanta di.",
+      "phonetic_api": "/ɲ tɔ mu fan.ta di/",
+      "phonetic_simple": "N TƆ MOU FAN-TA DI.",
+      "translation": "Mon nom est Fanta.",
+      "context": "Réponse standard pour donner son prénom."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "I bɔra mi?",
+      "phonetic_api": "/i bɔ.ra mi/",
+      "phonetic_simple": "I BƆ-RA MI?",
+      "translation": "D'où viens-tu ?",
+      "context": "Demander l'origine géographique ou la ville de provenance."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "N bɔra Kisiduu kɔ.",
+      "phonetic_api": "/ɲ bɔ.ra ki.si.duː kɔ/",
+      "phonetic_simple": "N BƆ-RA KI-SI-DOUU KƆ.",
+      "translation": "Je viens de Kissidougou.",
+      "context": "Indiquer sa ville d'origine."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "N si mu muwã di.",
+      "phonetic_api": "/ɲ si mu mu.wã di/",
+      "phonetic_simple": "N SI MOU MOU-WAN DI.",
+      "translation": "J'ai vingt ans.",
+      "context": "Dire son âge de manière simple."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "I wala mu mɔ di?",
+      "phonetic_api": "/i wa.la mu mɔ di/",
+      "phonetic_simple": "I WA-LA MOU MƆ DI?",
+      "translation": "Quel est ton métier ?",
+      "context": "Interroger son interlocuteur sur sa profession."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "N mu karan-deng di.",
+      "phonetic_api": "/ɲ mu ka.ran deŋ di/",
+      "phonetic_simple": "N MOU KA-RAN-DENG DI.",
+      "translation": "Je suis étudiant / élève.",
+      "context": "Indiquer son statut d'apprenant."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "N bɛ sɔɔ ya Conakry.",
+      "phonetic_api": "/ɲ bɛ sɔː ja ko.na.kri/",
+      "phonetic_simple": "N BÈ SƆƆ YA CO-NA-KRY.",
+      "translation": "J'habite ici à Conakry.",
+      "context": "Préciser son lieu de résidence actuel."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'identification avec la structure 'mu ... di'",
+      "explanation": "Pour identifier ou définir un sujet (nom, métier, nationalité) en lélé, on utilise la structure discontinue encadrante 'mu ... di'. Le mot identifié se place obligatoirement entre 'mu' et 'di'.",
+      "rules": [
+        "Le mot 'mu' sert d'introducteur d'identité après le possessif ou le pronom.",
+        "La particule 'di' clôture la proposition nominale d'identité.",
+        "Pour le lieu de provenance, on utilise le verbe 'bɔ' (sortir / venir de) conjugué au passé avec le suffixe '-ra'."
+      ],
+      "examples": [
+        {
+          "structure": "N tɔ mu Sekou di",
+          "phonetic_api": "/ɲ tɔ mu se.ku di/",
+          "meaning": "Mon nom est Sekou"
+        },
+        {
+          "structure": "N bɔra ya",
+          "phonetic_api": "/ɲ bɔ.ra ja/",
+          "meaning": "Je viens d'ici"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "Mɛnɛ kɔ! I tɔ mu mɔ di?",
+      "phonetic_api": "/mɛ.nɛ kɔ i tɔ mu mɔ di/",
+      "phonetic_simple": "MÈ-NÈ KƆ! I TƆ MOU MƆ DI?",
+      "translation": "Bonjour ! Comment t'appelles-tu ?"
+    },
+    {
+      "speaker": "Mariama",
+      "text": "Mɛnɛ kɔ. N tɔ mu Mariama di. I tɔ?",
+      "phonetic_api": "/mɛ.nɛ kɔ ɲ tɔ mu ma.rja.ma di i tɔ/",
+      "phonetic_simple": "MÈ-NÈ KƆ. N TƆ MOU MA-RIA-MA DI. I TƆ?",
+      "translation": "Bonjour. Mon nom est Mariama. Et ton nom ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "N tɔ mu Sékou di. I bɔra mi?",
+      "phonetic_api": "/ɲ tɔ mu se.ku di i bɔ.ra mi/",
+      "phonetic_simple": "N TƆ MOU SÉ-KOU DI. I BƆ-RA MI?",
+      "translation": "Mon nom est Sékou. D'où viens-tu ?"
+    },
+    {
+      "speaker": "Mariama",
+      "text": "N bɔra Guéckédou kɔ. N mu karan-deng di.",
+      "phonetic_api": "/ɲ bɔ.ra ɡwɛ.ke.du kɔ ɲ mu ka.ran deŋ di/",
+      "phonetic_simple": "N BƆ-RA GWÈ-KÉ-DOU KƆ. N MOU KA-RAN-DENG DI.",
+      "translation": "Je viens de Guéckédou. Je suis étudiante."
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Lélé, la présentation dépasse souvent le simple prénom. On s'enquiert rapidement de la grande famille ou de la localité d'origine pour tisser des liens sociaux ou identifier des alliances intercommunautaires. Dire d'où l'on vient structure l'entièreté de la relation de confiance."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quels termes encadrent le nom ou la profession dans une phrase d'identification en lélé ?",
+      "options": [
+        "bɛ ... ya",
+        "mu ... di",
+        "fo ... kɔ"
+      ],
+      "correct_answer": "mu ... di",
+      "explanation": "La structure nominale d'identification utilise 'mu' avant l'élément et 'di' juste après."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Mon nom est Fanta', on formule : N tɔ [ ___ ] Fanta di.",
+      "correct_answer": "mu",
+      "hint": "C'est la première partie de la structure d'identification."
+    }
+  ]
+}

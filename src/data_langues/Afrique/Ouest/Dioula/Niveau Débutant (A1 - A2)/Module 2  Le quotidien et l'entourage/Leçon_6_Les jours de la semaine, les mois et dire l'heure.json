@@ -1,0 +1,302 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer et utiliser les 7 jours de la semaine en dioula",
+    "Comprendre la structure globale des mois de l'année",
+    "Poser des questions sur le temps et exprimer l'heure de base",
+    "Employer les adverbes temporels courants (aujourd'hui, demain, hier)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les noms des jours en dioula intègrent de nombreuses occlusives palatales et vélaires. Le mot 'Ntɛnɛn' (lundi) commence par une consonne nasale pré-articulée /n̩/ qui forme un bloc syllabique à elle seule. 'Bi' (aujourd'hui) exige une réalisation brève de la voyelle fermée /i/. Le terme pour l'heure, 'lɛrɛ', emprunté à l'arabe via le haoussa ou le français, met en jeu la voyelle ouverte antérieure /ɛ/ doublée, se réalisant sous la forme d'un allongement /lɛː.rɛ/.",
+    "common_pitfalls": "Ne pas détacher le 'N' initial de 'Ntɛnɛn' ou 'Nkarisɔ' : il doit être prononcé simultanément avec l'occlusive qui suit. Veillez à bien marquer la différence entre 'sini' (demain) et 'su' (la nuit) pour éviter les contresens temporels."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Ntɛnɛn",
+      "phonetic_api": "/n̩.tɛ.nɛn/",
+      "phonetic_simple": "N-TÈ-NÈN",
+      "translation": "Lundi",
+      "example_sentence": "Baara bɛ daminɛ Ntɛnɛn",
+      "example_phonetic": "/baː.ra bɛ da.mi.nɛ n̩.tɛ.nɛn/",
+      "example_translation": "Le travail commence lundi."
+    },
+    {
+      "word_id": "v2",
+      "term": "Alamisa",
+      "phonetic_api": "/a.la.mi.sa/",
+      "phonetic_simple": "A-LA-MI-SA",
+      "translation": "Jeudi",
+      "example_sentence": "Sugufeela bɛ bɔ Alamisa",
+      "example_phonetic": "/su.ɡu.feː.la bɛ bɔ a.la.mi.sa/",
+      "example_translation": "Les commerçants sortent le jeudi."
+    },
+    {
+      "word_id": "v3",
+      "term": "Juma",
+      "phonetic_api": "/d͡ʒu.ma/",
+      "phonetic_simple": "DJOU-MA",
+      "translation": "Vendredi",
+      "example_sentence": "Juma ka di salila ye",
+      "example_phonetic": "/d͡ʒu.ma ka di sa.li.la jɛ/",
+      "example_translation": "Le vendredi est agréable pour celui qui prie."
+    },
+    {
+      "word_id": "v4",
+      "term": "Kari / Nkarisɔ",
+      "phonetic_api": "/n̩.ka.ri.sɔ/",
+      "phonetic_simple": "N-KA-RI-SÕ",
+      "translation": "Dimanche",
+      "example_sentence": "An bɛ tulon kɛ Nkarisɔ",
+      "example_phonetic": "/an bɛ tu.lon kɛ n̩.ka.ri.sɔ/",
+      "example_translation": "Nous nous amusons le dimanche."
+    },
+    {
+      "word_id": "v5",
+      "term": "Bi",
+      "phonetic_api": "/bi/",
+      "phonetic_simple": "BI",
+      "translation": "Aujourd'hui",
+      "example_sentence": "Bi bɛ niteya la",
+      "example_phonetic": "/bi bɛ ni.te.ja la/",
+      "example_translation": "Aujourd'hui est sous le signe de la joie."
+    },
+    {
+      "word_id": "v6",
+      "term": "Sini",
+      "phonetic_api": "/si.ni/",
+      "phonetic_simple": "SI-NI",
+      "translation": "Demain",
+      "example_sentence": "K'an bɛn sini",
+      "example_phonetic": "/kʼan bɛn si.ni/",
+      "example_translation": "À demain."
+    },
+    {
+      "word_id": "v7",
+      "term": "Kalo",
+      "phonetic_api": "/ka.lo/",
+      "phonetic_simple": "KA-LO",
+      "translation": "Le mois / La lune",
+      "example_sentence": "Kalo kelen bɛ tɛmɛ sisan",
+      "example_phonetic": "/ka.lo ke.len bɛ tɛ.mɛ si.san/",
+      "example_translation": "Un mois vient de s'écouler maintenant."
+    },
+    {
+      "word_id": "v8",
+      "term": "Lɛrɛ",
+      "phonetic_api": "/lɛː.rɛ/",
+      "phonetic_simple": "LÈÈ-RÈ",
+      "translation": "L'heure / Le temps",
+      "example_sentence": "Lɛrɛ joli bɛ ?",
+      "example_phonetic": "/lɛː.rɛ d͡ʒo.li bɛ/",
+      "example_translation": "Quelle heure est-il ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Bi bɛ don juman ye ?",
+      "phonetic_api": "/bi bɛ don d͡ʒu.man jɛ/",
+      "phonetic_simple": "BI BÈ DON DJOU-MAN YÈ ?",
+      "translation": "Quel jour sommes-nous aujourd'hui ?",
+      "context": "S'enquérir du jour courant de la semaine."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Bi bɛ Juma ye.",
+      "phonetic_api": "/bi bɛ d͡ʒu.ma jɛ/",
+      "phonetic_simple": "BI BÈ DJOU-MA YÈ",
+      "translation": "Aujourd'hui, c'est vendredi.",
+      "context": "Répondre pour situer le jour actuel."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Lɛrɛ joli bɛ sisan ?",
+      "phonetic_api": "/lɛː.rɛ d͡ʒo.li bɛ si.san/",
+      "phonetic_simple": "LÈÈ-RÈ DJO-LI BÈ SI-SAN ?",
+      "translation": "Quelle heure est-il maintenant ?",
+      "context": "Demander l'heure exacte à un passant."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Lɛrɛ duuru bɛ.",
+      "phonetic_api": "/lɛː.rɛ duː.ru bɛ/",
+      "phonetic_simple": "LÈÈ-RÈ DOUU-ROU BÈ",
+      "translation": "Il est cinq heures.",
+      "context": "Annoncer une heure pile."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "N bɛ bɔ sini sɔgɔma.",
+      "phonetic_api": "/n̩ bɛ bɔ si.ni sɔ.ɡɔ.ma/",
+      "phonetic_simple": "N BÈ BÕ SI-NI SÕ-GÕ-MA",
+      "translation": "Je pars demain matin.",
+      "context": "Préciser un déplacement futur proche."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Kunon, n fa bɛ baara la.",
+      "phonetic_api": "/ku.non n̩ fa bɛ baː.ra la/",
+      "phonetic_simple": "KOU-NON, N FA BÈ BAA-RA LA",
+      "translation": "Hier, mon père était au travail.",
+      "context": "Évoquer une action passée la veille."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Lɛrɛ tan ni fila bɛ.",
+      "phonetic_api": "/lɛː.rɛ tan ni fi.la bɛ/",
+      "phonetic_simple": "LÈÈ-RÈ TAN NI FI-LA BÈ",
+      "translation": "Il est douze heures / Midi.",
+      "context": "Indiquer le milieu de la journée."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Kalo juman bɛ sisan ?",
+      "phonetic_api": "/ka.lo d͡ʒu.man bɛ si.san/",
+      "phonetic_simple": "KA-LO DJOU-MAN BÈ SI-SAN ?",
+      "translation": "Quel mois sommes-nous maintenant ?",
+      "context": "S'enquérir du mois ou de la période lunaire."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'identification temporelle avec '... bɛ ... ye'",
+      "explanation": "Pour définir un jour ou une date, la langue dioula fait appel à la structure d'identification bipartite composée de la marque affirmative 'bɛ' après le sujet et du morphème 'ye' placé en fin de proposition.",
+      "rules": [
+        "Sujet temporel (ex: Bi) + bɛ + Attribut (ex: Juma) + ye.",
+        "Le mot 'don' (jour) s'intercale fréquemment pour spécifier la nature de la question."
+      ],
+      "examples": [
+        {
+          "structure": "Bi (Aujourd'hui) + bɛ + Juma (Vendredi) + ye",
+          "phonetic_api": "/bi bɛ d͡ʒu.ma jɛ/",
+          "meaning": "Aujourd'hui est vendredi."
+        }
+      ]
+    },
+    {
+      "concept": "Dire l'heure avec 'Lɛrɛ + Nombre + bɛ'",
+      "explanation": "Le calcul du temps s'articule autour du substantif 'lɛrɛ' suivi immédiatement de l'adjectif numéral requis, le tout validé par la marque existentielle 'bɛ'.",
+      "rules": [
+        "Placez le terme 'Lɛrɛ' en tête.",
+        "Ajoutez le chiffre correspondant à l'heure (1 à 24 ou 1 à 12 avec spécification de la période comme sɔgɔma/wula).",
+        "Concluez avec 'bɛ'."
+      ],
+      "examples": [
+        {
+          "structure": "Lɛrɛ + naani (quatre) + bɛ",
+          "phonetic_api": "/lɛː.rɛ naː.ni bɛ/",
+          "meaning": "Il est quatre heures."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression des mois par numérotation",
+      "explanation": "Bien que les mois possèdent des noms calqués sur le calendrier grégorien ou musulman, la méthode la plus courante et accessible consiste à numéroter les mois en utilisant le mot 'kalo' (mois/lune).",
+      "rules": [
+        "La structure classique est : Kalo + Chiffre (1 à 12).",
+        "Kalo kelen désigne janvier, Kalo fila désigne février, etc."
+      ],
+      "examples": [
+        {
+          "structure": "Kalo + kelen (un)",
+          "phonetic_api": "/ka.lo ke.len/",
+          "meaning": "Le premier mois / Janvier."
+        },
+        {
+          "structure": "Kalo + saba (trois)",
+          "phonetic_api": "/ka.lo sa.ba/",
+          "meaning": "Le troisième mois / Mars."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ousmane",
+      "text": "I ni ce, Alassane ! Bi bɛ don juman ye ?",
+      "phonetic_api": "/i ni t͡ʃe a.la.san bi bɛ don d͡ʒu.man jɛ/",
+      "phonetic_simple": "I NI TCHE, A-LA-SANE ! BI BÈ DON DJOU-MAN YÈ ?",
+      "translation": "Bonjour, Alassane ! Quel jour sommes-nous aujourd'hui ?"
+    },
+    {
+      "speaker": "Alassane",
+      "text": "I ni ce, Ousmane. Bi bɛ Alamisa ye. Baara bɛ yan bi ?",
+      "phonetic_api": "/i ni t͡ʃe o.us.ma.ne bi bɛ a.la.mi.sa jɛ baː.ra bɛ jan bi/",
+      "phonetic_simple": "I NI TCHE, OUS-MANE. BI BÈ A-LA-MI-SA YÈ. BAA-RA BÈ YAN BI ?",
+      "translation": "Bonjour, Ousmane. Aujourd'hui c'est jeudi. Y a-t-il du travail ici aujourd'hui ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Ɔwɔ, baara bɛ yan. Sabari, lɛrɛ joli bɛ sisan ?",
+      "phonetic_api": "/ɔ.wɔ baː.ra bɛ jan sa.ba.ri lɛː.rɛ d͡ʒo.li bɛ si.san/",
+      "phonetic_simple": "Õ-WÕ, BAA-RA BÈ YAN. SA-BA-RI, LÈÈ-RÈ DJO-LI BÈ SI-SAN ?",
+      "translation": "Oui, il y a du travail ici. S'il te plaît, quelle heure est-il maintenant ?"
+    },
+    {
+      "speaker": "Alassane",
+      "text": "Lɛrɛ tan ni kelen bɛ sisan. An bɛ domuni kɛ la tɔɔni fana.",
+      "phonetic_api": "/lɛː.rɛ tan ni ke.len bɛ si.san an bɛ do.mu.ni kɛ la tɔː.ni fa.na/",
+      "phonetic_simple": "LÈÈ-RÈ TAN NI KÉ-LEN BÈ SI-SAN. AN BÈ DO-MOU-NI KÈ LA TÕÕ-NI FA-NA.",
+      "translation": "Il est onze heures maintenant. Nous allons bientôt manger aussi."
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "O kaɲi fana. K'an bɛn sini sɔgɔma !",
+      "phonetic_api": "/o ka.ɲi fa.na kʼan bɛn si.ni sɔ.ɡɔ.ma/",
+      "phonetic_simple": "O KA-GNI FA-NA. KAN BEN SI-NI SÕ-GÕ-MA !",
+      "translation": "C'est bien aussi. À demain matin !"
+    },
+    {
+      "speaker": "Alassane",
+      "text": "Amiina, k'an bɛn sini !",
+      "phonetic_api": "/a.miː.na kʼan bɛn si.ni/",
+      "phonetic_simple": "A-MII-NA, KAN BEN SI-NI !",
+      "translation": "Amen, à demain !"
+    }
+  ],
+  "cultural_notes": [
+    "Les noms des sept jours de la semaine en dioula découlent directement d'emprunts lexicaux à la langue arabe (ex: Alamisa vient de 'Al-Hamis', Juma de 'Al-Juma'a'), témoignant des siècles d'échanges commerciaux et culturels transsahariens au sein de l'espace mandingue.",
+    "Pour préciser l'heure et éviter les confusions entre le matin et le soir (le système horaire s'arrêtant souvent à 12 en langue parlée), les locuteurs ajoutent la période de la journée : 'Lɛrɛ naani sɔgɔma' signifie 4 heures du matin, tandis que 'Lɛrɛ naani wula' désigne 16 heures (4 heures de l'après-midi)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L6_Ex1",
+      "type": "multiple_choice",
+      "question": "Quel jour de la semaine correspond au mot 'Juma' en dioula ?",
+      "options": [
+        "Lundi",
+        "Jeudi",
+        "Vendredi",
+        "Dimanche"
+      ],
+      "correct_answer": "Vendredi",
+      "explanation": "'Juma' désigne le vendredi, jour sacré et de grande prière dans la tradition ouest-africaine."
+    },
+    {
+      "exercise_id": "A1_M2_L6_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Il est huit heures', on formule la phrase ainsi : 'Lɛrɛ [ ___ ] bɛ'.",
+      "correct_answer": "segi",
+      "hint": "C'est le chiffre 8 en dioula."
+    },
+    {
+      "exercise_id": "A1_M2_L6_Ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie l'expression 'sini sɔgɔma' ?",
+      "options": [
+        "Hier soir",
+        "Demain matin",
+        "Aujourd'hui à midi",
+        "La semaine prochaine"
+      ],
+      "correct_answer": "Demain matin",
+      "explanation": "'Sini' (demain) associé à 'sɔgɔma' (le matin) permet de dater précisément l'action à venir."
+    }
+  ]
+}

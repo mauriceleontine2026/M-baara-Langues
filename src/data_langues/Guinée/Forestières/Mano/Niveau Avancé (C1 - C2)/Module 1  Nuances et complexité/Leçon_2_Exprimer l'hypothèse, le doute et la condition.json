@@ -1,0 +1,147 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Formuler des structures conditionnelles complexes (Si... alors) en Mano",
+    "Exprimer l'incertitude, la supposition et le doute à l'aide de particules modales",
+    "Nuancer un propos pour traduire l'éventualité ou le regret passé"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La structure de la condition repose principalement sur le morphème initial /kɛ́/ (si), qui porte un ton haut très percutant. L'incertitude ou le doute fait intervenir la particule finale /nã˧/ ou des allongements vocaliques combinés à un abaissement de ton en fin de proposition pour suspendre le sens.",
+    "common_pitfalls": "Attention à ne pas abréger la particule de doute. Une mauvaise gestion du ton haut sur 'kɛ́' peut faire confondre la conjonction de condition avec le verbe 'kɛ' (faire) qui possède un ton moyen stable."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v20_1",
+      "term": "kɛ́",
+      "phonetic_api": "/kɛ˦/",
+      "phonetic_simple": "KÉ",
+      "translation": "Si (conjonction de condition)",
+      "example_sentence": "kɛ́ í lɔ",
+      "example_phonetic": "/kɛ˦ i˦ lɔ˧/",
+      "example_translation": "Si tu pars"
+    },
+    {
+      "word_id": "v20_2",
+      "term": "mĩ́-wɔ̃",
+      "phonetic_api": "/mĩ˦wɔ̃˧/",
+      "phonetic_simple": "MEENG-WONG",
+      "translation": "Doute / Incertitude / Soupçon",
+      "example_sentence": "mĩ́-wɔ̃ ɓe ń la.",
+      "example_phonetic": "/mĩ˦wɔ̃˧ ɓe˧ ń la˧/",
+      "example_translation": "J'ai un doute (Le doute est sur moi)."
+    },
+    {
+      "word_id": "v20_3",
+      "term": "nã",
+      "phonetic_api": "/nã˧/",
+      "phonetic_simple": "NANG",
+      "translation": "Peut-être / Éventuellement (particule de fin de phrase)",
+      "example_sentence": "À le va nã.",
+      "example_phonetic": "/a˧ le˧ va˧ nã˧/",
+      "example_translation": "Il viendra peut-être."
+    },
+    {
+      "word_id": "v20_4",
+      "term": "kɛ̀ɛ́",
+      "phonetic_api": "/kɛ˩ɛ˦/",
+      "phonetic_simple": "KÈ-É",
+      "translation": "Mais / Cependant (nuance restrictive d'hypothèse)",
+      "example_sentence": "kɛ̀ɛ́ ń vɔ̃ɔ.",
+      "example_phonetic": "/kɛ˩ɛ˦ ń vɔ̃ː˧/",
+      "example_translation": "Mais j'ai refusé."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p20_1",
+      "original": "Kɛ́ gã̄ ɓe í la, í ka à sɔ̃̀ gɛ.",
+      "phonetic_api": "/kɛ˦ ɡãː˧ ɓe˧ i˦ la˧ i˦ ka˧ a˧ sɔ̃˩ ɡɛ˧/",
+      "phonetic_simple": "KÉ GANG BÉ EE LA, EE KAH A SONG GÈ",
+      "translation": "Si tu as de l'argent, tu dois payer son prix.",
+      "context": "Établir une condition financière ou contractuelle claire."
+    },
+    {
+      "phrase_id": "p20_2",
+      "original": "Ń de le va tina nã, kɛ̀ɛ́ ń se à dɔ̃.",
+      "phonetic_api": "/ń de˧ le˧ va˧ ti˧na˧ nã˧ kɛ˩ɛ˦ ń se˧ a˧ dɔ̃˧/",
+      "phonetic_simple": "N DÉ LÉ VAH TEE-NAH NANG, KÈ-É N SÉ A DONG",
+      "translation": "Mon père viendra peut-être demain, mais je ne le sais pas de science certaine.",
+      "context": "Exprimer une incertitude familiale ou un doute sur un événement à venir."
+    },
+    {
+      "phrase_id": "p20_3",
+      "original": "Kɛ́ í wɔ̂ ń lɛ-wɔ̃ loni tɛ́ɛ̀, í ɓɔ́ lɔ la ɓɛ.",
+      "phonetic_api": "/kɛ˦ i˦ wɔ˦˧ ń lɛ˧wɔ̃˧ lo˧ni˧ tɛ˦ɛ˩ i˦ ɓɔ˦ lɔ˧ la˧ ɓɛ˧/",
+      "phonetic_simple": "KÉ EE WÔ N LÈ-WONG LONEE TÉÈ, EE BOR LOR LA BÈ",
+      "translation": "Si tu avais écouté mon conseil autrefois, tu ne serais pas venu ici (regret/irréel du passé).",
+      "context": "Formuler une hypothèse sur le passé pour exprimer une leçon morale ou un regret."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La corrélation conditionnelle (Kɛ́... [Protase] / [Apodoze]) et la modalisation du doute",
+      "explanation": "En Mano, la structure de la condition commence toujours par la conjonction 'kɛ́' placée en tête de la première proposition (la condition). La proposition principale (le résultat) suit directement sans qu'une conjonction équivalente à 'alors' ne soit obligatoire. Pour introduire le doute ou la probabilité dans une affirmation, on ajoute la particule finale enclitique 'nã'.",
+      "rules": [
+        "Structure conditionnelle : kɛ́ + [Proposition conditionnelle] + [Proposition principale].",
+        "Structure de probabilité : [Proposition affirmative standard] + nã (peut-être)."
+      ],
+      "examples": [
+        {
+          "structure": "Kɛ́ tina kɛ̃ɛ, wa lɔ.",
+          "phonetic_api": "/kɛ˦ ti˧na˧ kɛ̃ː˧ wa˧ lɔ˧/",
+          "meaning": "S'il fait beau demain, nous partirons."
+        },
+        {
+          "structure": "À ɓe ti kɛ la nã.",
+          "phonetic_api": "/a˧ ɓe˧ ti˧ kɛ˧ la˧ nã˧/",
+          "meaning": "Il est peut-être en train de travailler."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'Acheteur",
+      "text": "Kɛ́ pua mɛ̀ sɔ̃̀ bɔ la, ń le à lo la tina.",
+      "phonetic_api": "/kɛ˦ pua˧ mɛ˩ sɔ̃˩ ɓɔ˧ la˧ ń le˧ a˧ lo˧ la˧ ti˧na˧/",
+      "phonetic_simple": "KÉ POUA MÈ SONG BOR LA, N LÉ A LO LA TEE-NAH.",
+      "translation": "Si le prix de ce vêtement diminue, je le prendrai (je le voudrai) demain."
+    },
+    {
+      "speaker": "Le Marchand",
+      "text": "Mĩ́-wɔ̃ ɓe ń la à la. Kɛ́ gã̄ sēe ɓe í la, í ka à lo la gbɛ-gbɛ.",
+      "phonetic_api": "/mĩ˦wɔ̃˧ ɓe˧ ń la˧ a˧ la˧ kɛ˦ ɡãː˧ seː˧˧ ɓe˧ i˦ la˧ i˦ ka˧ a˧ lo˧ la˧ ɡbɛ˧ɡbɛ˧/",
+      "phonetic_simple": "MEENG-WONG BÉ N LA A LA. KÉ GANG SÉÉ BÉ EE LA, EE KAH A LO LA GBÉ-GBÉ.",
+      "translation": "J'ai un doute là-dessus. Si tu as beaucoup d'argent, tu devrais le prendre immédiatement."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'art oratoire des Mano en Guinée forestière, manier l'hypothèse et le doute permet d'éviter les affirmations trop frontales ou péremptoires qui pourraient heurter l'interlocuteur. Utiliser le 'nã' (peut-être) en fin de phrase est une marque de retenue et de politesse diplomatique lors des négociations foncières ou des arrangements de mariage."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex20_1",
+      "type": "multiple_choice",
+      "question": "Quel mot Mano est utilisé en tout début de phrase pour introduire une condition (Si...) ?",
+      "options": [
+        "nã",
+        "kɛ́",
+        "kɛ̀ɛ́"
+      ],
+      "correct_answer": "kɛ́",
+      "explanation": "'kɛ́' (avec un ton haut) correspond à la conjonction conditionnelle 'si' en français."
+    },
+    {
+      "exercise_id": "ex20_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Il viendra peut-être', on place la particule de doute en fin de proposition : À le va [ ___ ].",
+      "correct_answer": "nã",
+      "hint": "C'est la marque nasale d'éventualité ou de supposition."
+    }
+  ]
+}

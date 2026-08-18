@@ -1,0 +1,189 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les membres de la famille nucléaire et élargie",
+    "Exprimer les liens de parenté avec les adjectifs possessifs",
+    "Présenter son entourage proche lors d'une interaction"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le terme pour désigner le père emploie la consonne injective /ɓ/ combinée au ton haut : 'ɓâ'. Le mot pour la mère, 'bo', utilise une occlusive bilabiale standard avec un ton court. Faites attention au phonème /ɲ/ (noté ñ) qui s'associe souvent aux termes affectifs.",
+    "common_pitfalls": "Veillez à bien faire la différence entre l'injective /ɓ/ dans 'ɓâ' (père) et la bilabiale simple /b/ dans 'bo' (mère). Intervertir les deux ou mal exécuter l'aspiration modifie complètement le sens."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v13",
+      "term": "ɓâ",
+      "phonetic_api": "/ɓâ/",
+      "phonetic_simple": "BHAA",
+      "translation": "père / papa",
+      "example_sentence": "ɓâ mɔ oŋ ɔkarãdɔŋ.",
+      "example_phonetic": "/ɓâ mɔ oŋ ɔkarãdɔŋ/",
+      "example_translation": "Mon père est enseignant."
+    },
+    {
+      "word_id": "v14",
+      "term": "bo",
+      "phonetic_api": "/bo/",
+      "phonetic_simple": "BO",
+      "translation": "mère / maman",
+      "example_sentence": "Bo mɔ oŋ bɛ̀ɛ̀.",
+      "example_phonetic": "/bo mɔ oŋ bɛ̀ː/",
+      "example_translation": "Ma mère va bien."
+    },
+    {
+      "word_id": "v15",
+      "term": "ɔndaki",
+      "phonetic_api": "/ɔndaki/",
+      "phonetic_simple": "ON-DA-KI",
+      "translation": "frère / sœur (germain)",
+      "example_sentence": "Məɟe nɛ̂ ɔndaki mɔ.",
+      "example_phonetic": "/məɟe nɛ̂ ɔndaki mɔ/",
+      "example_translation": "J'ai un frère (ou une sœur)."
+    },
+    {
+      "word_id": "v16",
+      "term": "ɔwá",
+      "phonetic_api": "/ɔwá/",
+      "phonetic_simple": "O-WA",
+      "translation": "enfant / fils / fille",
+      "example_sentence": "ɔwá mɔ oŋ ɔsuku.",
+      "example_phonetic": "/ɔwá mɔ oŋ ɔsuku/",
+      "example_translation": "Mon enfant est élève."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p25",
+      "original": "Anee ɓâ bə̂ oŋ?",
+      "phonetic_api": "/aneː ɓâ ɓə̂ oŋ/",
+      "phonetic_simple": "A-NEE BHAA BHE ONG",
+      "translation": "Comment va ton père ?",
+      "context": "Prise de nouvelles de l'entourage lors de la salutation rituelle."
+    },
+    {
+      "phrase_id": "p26",
+      "original": "ɓâ mɔ oŋ bɛ̀ɛ̀.",
+      "phonetic_api": "/ɓâ mɔ oŋ bɛ̀ː/",
+      "phonetic_simple": "BHAA MO ONG BEE",
+      "translation": "Mon père va bien.",
+      "context": "Réponse polie concernant la santé de son géniteur."
+    },
+    {
+      "phrase_id": "p27",
+      "original": "Anee bo bə̂ oŋ?",
+      "phonetic_api": "/aneː bo ɓə̂ oŋ/",
+      "phonetic_simple": "A-NEE BO BHE ONG",
+      "translation": "Comment va ta mère ?",
+      "context": "Marque de respect pour la figure maternelle de l'interlocuteur."
+    },
+    {
+      "phrase_id": "p28",
+      "original": "Bo mɔ oŋ bɛ̀ɛ̀, nyarancaa.",
+      "phonetic_api": "/bo mɔ oŋ bɛ̀ː ɲarant͡ʃaː/",
+      "phonetic_simple": "BO MO ONG BEE, NYA-RAN-TCHAA",
+      "translation": "Ma mère va bien, merci.",
+      "context": "Formule de politesse classique en réponse."
+    },
+    {
+      "phrase_id": "p29",
+      "original": "ɔndaki mɔ oŋ kəwə́ra.",
+      "phonetic_api": "/ɔndaki mɔ oŋ kəwə́ra/",
+      "phonetic_simple": "ON-DA-KI MO ONG KE-WE-RA",
+      "translation": "Mon frère est au village.",
+      "context": "Expliquer la localisation d'un membre de la fratrie."
+    },
+    {
+      "phrase_id": "p30",
+      "original": "Anee ɛwé ɔwá bə̂?",
+      "phonetic_api": "/aneː ɛwé ɔwá ɓə̂/",
+      "phonetic_simple": "A-NEE E-WE O-WA BHE",
+      "translation": "Comment s'appelle ton enfant ?",
+      "context": "S'intéresser à la descendance d'un proche."
+    },
+    {
+      "phrase_id": "p31",
+      "original": "ɛwé ɔwá mɔ oŋ Samba.",
+      "phonetic_api": "/ɛwé ɔwá mɔ oŋ samba/",
+      "phonetic_simple": "E-WE O-WA MO ONG SAM-BA",
+      "translation": "Mon enfant s'appelle Samba.",
+      "context": "Donner l'identité de son fils ou de sa fille."
+    },
+    {
+      "phrase_id": "p32",
+      "original": "Aŋal mɔ oŋ bɛ̀ɛ̀.",
+      "phonetic_api": "/aŋal mɔ oŋ bɛ̀ː/",
+      "phonetic_simple": "A-NGAL MO ONG BEE",
+      "translation": "Toute ma famille élargie se porte bien.",
+      "context": "Formule globale de conclusion des nouvelles."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la possession des relations humaines",
+      "explanation": "Pour les membres de la famille, l'Oniyan utilise la particule possessive 'mɔ' (mon/ma/mes) ou 'bə̂' (ton/ta/tes). Cette particule se place immédiatement après le nom de parenté et est généralement suivie de la particule de focalisation obligatoire 'oŋ' dans une phrase déclarative.",
+      "rules": [
+        "Le possessif suit directement le nom : [Parent] + [Possessif] + [Focalisateur].",
+        "Les noms de parenté n'utilisent pas systématiquement le préfixe de classe lorsqu'ils sont suivis d'un déterminant possessif direct."
+      ],
+      "examples": [
+        {
+          "structure": "[Nom de parenté] + mɔ oŋ",
+          "phonetic_api": "/ɓâ mɔ oŋ/",
+          "meaning": "Mon [Parent] est / se porte..."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Anee bo bə̂ oŋ?",
+      "phonetic_api": "/aneː bo ɓə̂ oŋ/",
+      "phonetic_simple": "A-NEE BO BHE ONG",
+      "translation": "Comment se porte ta maman ?"
+    },
+    {
+      "speaker": "Mady",
+      "text": "Bo mɔ oŋ bɛ̀ɛ̀. Anee ɓâ bə̂?",
+      "phonetic_api": "/bo mɔ oŋ bɛ̀ː aneː ɓâ ɓə̂/",
+      "phonetic_simple": "BO MO ONG BEE. A-NEE BHAA BHE?",
+      "translation": "Ma maman va bien. Et comment va ton papa ?"
+    },
+    {
+      "speaker": "Samba",
+      "text": "ɓâ mɔ oŋ kəwə́ra bɛ̀ɛ̀. Nyarancaa.",
+      "phonetic_api": "/ɓâ mɔ oŋ kəwə́ra bɛ̀ː ɲarant͡ʃaː/",
+      "phonetic_simple": "BHAA MO ONG KE-WE-RA BEE. NYA-RAN-TCHAA",
+      "translation": "Mon papa est au village et va très bien. Merci."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la société Bassari, la parenté dépasse le cadre biologique. Les frères et sœurs d'une même classe d'âge ou d'initiation rituelle partagent souvent le terme 'ɔndaki'. Le respect des aînés familiaux structure toute l'organisation sociale et politique du siki (village)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex7",
+      "type": "multiple_choice",
+      "question": "Quel mot désigne spécifiquement le 'père' avec la bonne articulation injective ?",
+      "options": [
+        "bo",
+        "ɓâ",
+        "ɔwá"
+      ],
+      "correct_answer": "ɓâ",
+      "explanation": "'ɓâ' utilise l'injective bilabiale et désigne le père, contrairement à 'bo' (la mère) et 'ɔwá' (l'enfant)."
+    },
+    {
+      "exercise_id": "ex8",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Bo [ ___ ] oŋ bɛ̀ɛ̀.",
+      "correct_answer": "mɔ",
+      "hint": "Le pronom possessif de la première personne du singulier."
+    }
+  ]
+}

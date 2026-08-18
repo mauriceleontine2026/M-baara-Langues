@@ -1,0 +1,179 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer (les directions)",
+  "learning_objectives": [
+    "Demander la localisation d'un lieu important (marché, maison, fleuve)",
+    "Comprendre et utiliser les indicateurs spatiaux de base",
+    "S'orienter dans l'espace en utilisant les notions de proximité et d'éloignement"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne occlusive palatale sourde /c/ se prononce comme un 'tch' doux en français (ex: 'ce'). La voyelle longue 'aa' dans 'baara' implique un étirement distinct de la durée d'émission du son par rapport à un 'a' court.",
+    "common_pitfalls": "Veillez à ne pas prononcer le 'c' comme un 'k' ou un 's'. C'est une affriquée [tʃ]. Ne confondez pas 'lɔ' (ici) et 'mɛnni' (là-bas)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v7_1",
+      "term": "kira",
+      "phonetic_api": "/ki.ra/",
+      "phonetic_simple": "KI-RA",
+      "translation": "chemin / route / sentier",
+      "example_sentence": "Kira bɛ ségé mi ?",
+      "example_phonetic": "/ki.ra bɛ se.ɡe mi/",
+      "example_translation": "Où est le chemin du marché ?"
+    },
+    {
+      "word_id": "v7_2",
+      "term": "lɔ",
+      "phonetic_api": "/lɔ/",
+      "phonetic_simple": "LƆ",
+      "translation": "ici / cet endroit",
+      "example_sentence": "Banxi bɛ lɔ.",
+      "example_phonetic": "/ban.xi bɛ lɔ/",
+      "example_translation": "La maison est ici."
+    },
+    {
+      "word_id": "v7_3",
+      "term": "mɛnni",
+      "phonetic_api": "/mɛn.ni/",
+      "phonetic_simple": "MÈN-NI",
+      "translation": "là-bas / au loin",
+      "example_sentence": "Ségé bɛ mɛnni.",
+      "example_phonetic": "/se.ɡe bɛ mɛn.ni/",
+      "example_translation": "Le marché est là-bas."
+    },
+    {
+      "word_id": "v7_4",
+      "term": "baara",
+      "phonetic_api": "/baː.ra/",
+      "phonetic_simple": "BAA-RA",
+      "translation": "droite / côté droit",
+      "example_sentence": "Kɔŋ, fɔkɔ baara.",
+      "example_phonetic": "/kɔŋ fɔ.kɔ baː.ra/",
+      "example_translation": "S'il te plaît, va à droite."
+    },
+    {
+      "word_id": "v7_5",
+      "term": "cɛm",
+      "phonetic_api": "/tʃɛm/",
+      "phonetic_simple": "TCHÈM",
+      "translation": "milieu / centre / intérieur",
+      "example_sentence": "A bɛ kira cɛm.",
+      "example_phonetic": "/a bɛ ki.ra tʃɛm/",
+      "example_translation": "Il est au milieu du chemin."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p7_1",
+      "original": "Ségé bɛ mi ?",
+      "phonetic_api": "/se.ɡe bɛ mi/",
+      "phonetic_simple": "SÉ-GÉ BÈ MI",
+      "translation": "Où est le marché ?",
+      "context": "Demander l'emplacement du marché à un passant."
+    },
+    {
+      "phrase_id": "p7_2",
+      "original": "Kira bɛ mɛnni.",
+      "phonetic_api": "/ki.ra bɛ mɛn.ni/",
+      "phonetic_simple": "KI-RA BÈ MÈN-NI",
+      "translation": "La route est là-bas.",
+      "context": "Indiquer une direction éloignée à quelqu'un qui cherche son chemin."
+    },
+    {
+      "phrase_id": "p7_3",
+      "original": "Banxi bɛ lɔ baara.",
+      "phonetic_api": "/ban.xi bɛ lɔ baː.ra/",
+      "phonetic_simple": "BAN-KHI BÈ LƆ BAA-RA",
+      "translation": "La maison est ici à droite.",
+      "context": "Préciser la localisation immédiate d'un bâtiment."
+    },
+    {
+      "phrase_id": "p7_4",
+      "original": "Kɔŋ, mboi kira cɛm.",
+      "phonetic_api": "/kɔŋ mboi ki.ra tʃɛm/",
+      "phonetic_simple": "KONG MBOÏ KI-RA TCHÈM",
+      "translation": "S'il te plaît, salue sur le chemin.",
+      "context": "Recommandation d'usage lorsqu'on croise des personnes durant le trajet."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La postposition des indicateurs de direction",
+      "explanation": "En langue Mani, les mots de repérage spatial comme 'baara' (droite) ou 'cɛm' (milieu) se placent directement après l'élément ou le marqueur de lieu ('lɔ', 'kira') qu'ils viennent préciser.",
+      "rules": [
+        "Structure : Lieu + Spécification directionnelle.",
+        "Le mot interrogatif 'mi' (où) clôture toujours la structure de la demande locative."
+      ],
+      "examples": [
+        {
+          "structure": "kira cɛm",
+          "phonetic_api": "/ki.ra tʃɛm/",
+          "meaning": "au milieu de la route (chemin milieu)"
+        },
+        {
+          "structure": "lɔ baara",
+          "phonetic_api": "/lɔ baː.ra/",
+          "meaning": "ici à droite (ici droite)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ousmane",
+      "text": "Mboi mami ! Kɔŋ, ségé bɛ mi ?",
+      "phonetic_api": "/mboi ma.mi kɔŋ se.ɡe bɛ mi/",
+      "phonetic_simple": "MBOÏ MA-MI ! KONG, SÉ-GÉ BÈ MI ?",
+      "translation": "Bonjour ami ! S'il te plaît, où est le marché ?"
+    },
+    {
+      "speaker": "Aboubacar",
+      "text": "Mboi ! Ségé na mɛnni. Wun fɔkɔ lɔ kira.",
+      "phonetic_api": "/mboi se.ɡe na mɛn.ni wun fɔ.kɔ lɔ ki.ra/",
+      "phonetic_simple": "MBOÏ ! SÉ-GÉ NA MÈN-NI. WOUN FƆ-KƆ LƆ KI-RA.",
+      "translation": "Bonjour ! Le marché est là-bas. Tu suis ce chemin-ici."
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Banxi yoma bɛ mɛnni baara ?",
+      "phonetic_api": "/ban.xi jo.ma bɛ mɛn.ni baː.ra/",
+      "phonetic_simple": "BAN-KHI YO-MA BÈ MÈN-NI BAA-RA ?",
+      "translation": "La grande maison est là-bas à droite ?"
+    },
+    {
+      "speaker": "Aboubacar",
+      "text": "Oon, banxi bɛ mɛnni. Cece !",
+      "phonetic_api": "/oːn ban.xi bɛ mɛn.ni tʃe.tʃe/",
+      "phonetic_simple": "OON, BAN-KHI BÈ MÈN-NI. TCHÉ-TCHÉ !",
+      "translation": "Oui, la maison est là-bas. Merci !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'espace culturel Mani de Basse-Guinée, donner une direction s'accompagne systématiquement d'une orientation par rapport à des repères géographiques naturels immuables (le fleuve, la mer, ou la position de la forêt de mangrove), complétée par des gestes de la main précis."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex7_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le terme 'mɛnni' en Mani ?",
+      "options": [
+        "Ici",
+        "Là-bas",
+        "Derrière"
+      ],
+      "correct_answer": "Là-bas",
+      "explanation": "'Mɛnni' exprime l'éloignement spatial par opposition à 'lɔ' (ici)."
+    },
+    {
+      "exercise_id": "ex7_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Kira bɛ ségé [ ___ ] ? (Où est le chemin du marché ?)",
+      "correct_answer": "mi",
+      "hint": "La particule interrogative de lieu composée de deux lettres."
+    }
+  ]
+}

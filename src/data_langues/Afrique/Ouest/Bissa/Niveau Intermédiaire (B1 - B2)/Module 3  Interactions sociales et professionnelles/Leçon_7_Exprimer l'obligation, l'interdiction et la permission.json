@@ -1,0 +1,208 @@
+{
+  "lesson_id": "B1_M3_L7",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 7,
+  "title": "Exprimer l'obligation, l'interdiction et la permission",
+  "learning_objectives": [
+    "Formuler des règles, des impératifs professionnels et des obligations en langue bissa",
+    "Exprimer l'interdiction stricte et les tabous sociaux de manière culturellement correcte",
+    "Demander et accorder une permission ou une autorisation dans un cadre formel ou informel"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en relief l'accentuation de la particule d'obligation 'tilayɩ' et de la marque négative prohibitive 'gaa'. L'articulation de l'occlusive palatale sourde /c/ exige une occlusion nette suivie d'un relâchement sans pour autant créer de friction sifflante prolongée. Respectez scrupuleusement la nasalisation sur le morphème de défense.",
+    "common_pitfalls": "L'erreur la plus fréquente réside dans la confusion entre la particule d'interdiction 'gaa' (ton haut, valeur restrictive) et le verbe de mouvement simple 'gaa' (aller) vu précédemment. Le contexte syntaxique immédiat et l'inflexion tonale guident l'interlocuteur."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Tilayɩ",
+      "phonetic_api": "/tilajɪ/",
+      "phonetic_simple": "TI-LAY-I",
+      "translation": "Obligation / nécessité absolue / il faut (emprunt ou mot figé)",
+      "example_sentence": "Tilayɩ m wá gaa tuumda",
+      "example_phonetic": "/tilajɪ m̩ wá ɡaː tuːmda/",
+      "example_translation": "Il faut absolument que j'aille au travail."
+    },
+    {
+      "word_id": "v2",
+      "term": "Gaa",
+      "phonetic_api": "/ɡaː/",
+      "phonetic_simple": "GAA",
+      "translation": "Ne pas / marque de l'interdiction ou de la défense",
+      "example_sentence": "M gaa gẽwɔ gẽ ɔrɔ ki",
+      "example_phonetic": "/m̩ ɡaː ɟẽwɔ ɟẽ ɔʁɔ ki/",
+      "example_translation": "Ne joue pas ici / Il t'est interdit de jouer ici."
+    },
+    {
+      "word_id": "v3",
+      "term": "Zɩ",
+      "phonetic_api": "/zɪ/",
+      "phonetic_simple": "ZI",
+      "translation": "Permettre / accorder / laisser faire",
+      "example_sentence": "Nam zɩ m gaa n dɔ",
+      "example_phonetic": "/nam zɪ m̩ ɡaː n̩ dɔ/",
+      "example_translation": "Permets-moi d'y aller / Laisse-moi passer."
+    },
+    {
+      "word_id": "v4",
+      "term": "Wiri gãã",
+      "phonetic_api": "/wiʁi ɡãː/",
+      "phonetic_simple": "WI-RI GAAN",
+      "translation": "Règlement / loi / coutume communautaire à suivre",
+      "example_sentence": "Gãũ fãa wiri gãã la",
+      "example_phonetic": "/ɡãũ fãː wiʁi ɡãː la/",
+      "example_translation": "C'est la règle du quartier."
+    },
+    {
+      "word_id": "v5",
+      "term": "Kẽenã",
+      "phonetic_api": "/kẽːnã/",
+      "phonetic_simple": "KEEN-NAN",
+      "translation": "Aîné / chef / responsable (autorité)",
+      "example_sentence": "Kẽenã bɔ gi la ki",
+      "example_phonetic": "/kẽːnã bɔ ɟi la ki/",
+      "example_translation": "Le chef est en train de parler."
+    },
+    {
+      "word_id": "v6",
+      "term": "Hoorɩ gãã",
+      "phonetic_api": "/hoːʁɪ ɡãː/",
+      "phonetic_simple": "HOO-RI GAAN",
+      "translation": "Droit / autorisation légitime",
+      "example_sentence": "M pɛɛ hoorɩ gãã bɔ ɔrɔ",
+      "example_phonetic": "/m̩ pɛː hoːʁɪ ɡãː bɔ ɔʁɔ/",
+      "example_translation": "J'ai le droit d'être ici."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Tilayɩ n gaa tuumda lere sɔ́ɔ̀",
+      "phonetic_api": "/tilajɪ n̩ ɡaː tuːmda leʁe sɔ́ːɔ̀/",
+      "phonetic_simple": "TI-LAY-I N GAA TOUM-DA LE-RE SÓO",
+      "translation": "Il faut impérativement aller au travail à cinq heures",
+      "context": "Formule directive employée par un chef d'atelier ou un chef de famille."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "M gaa wáari gẽ ɔrɔ ki !",
+      "phonetic_api": "/m̩ ɡaː wáːʁi ɟẽ ɔʁɔ ki/",
+      "phonetic_simple": "M GAA WÁA-RI GYEN O-RO KI !",
+      "translation": "Ne touche pas à l'argent ici !",
+      "context": "Interdiction stricte et immédiate formulée à l'égard d'une personne non autorisée."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Kuso nam zɩ m kpẽ lɔkɔ n dɔ ?",
+      "phonetic_api": "/kuso nam zɪ m̩ kpẽ lɔkɔ n̩ dɔ/",
+      "phonetic_simple": "KOU-SO NAM ZI M KPEN LO-KO N DO ?",
+      "translation": "S'il vous plaît, puis-je entrer dans la chambre ?",
+      "context": "Demande de permission formelle et hautement polie avant de franchir un seuil."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Gãũ wiri gãã gaa m dɔ ki",
+      "phonetic_api": "/ɡãũ wiʁi ɡãː ɡaː m̩ dɔ ki/",
+      "phonetic_simple": "GAUN WI-RI GAAN GAA M DO KI",
+      "translation": "La règle de la maison ne permet pas cela",
+      "context": "Rappel d'un interdit coutumier ou domestique à un visiteur."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction de l'obligation absolue avec 'Tilayɩ'",
+      "explanation": "Pour énoncer un ordre impersonnel ou une obligation incontournable, le bissa recourt au terme d'origine obligatoire 'tilayɩ' (apparenté au terme 'tilaaye' présent dans plusieurs langues de la sous-région). Il se positionne systématiquement en amorce absolue de la proposition.",
+      "rules": [
+        "Structure : Tilayɩ + Pronom sujet + Groupe Verbal d'action.",
+        "Le verbe qui suit peut adopter une valeur prospective sans nécessiter obligatoirement l'auxiliaire 'wá' si l'obligation est immédiate."
+      ],
+      "examples": [
+        {
+          "structure": "Tilayɩ (Il faut) + n gaa (tu ailles) + tuumda (travail)",
+          "phonetic_api": "/tilajɪ n̩ ɡaː tuːmda/",
+          "meaning": "Il faut que tu ailles au travail."
+        }
+      ]
+    },
+    {
+      "concept": "La morphosyntaxe de la prohibition avec l'auxiliaire prohibitif 'gaa'",
+      "explanation": "L'interdiction, la défense ou le rappel d'un interdit ne s'articulent pas autour d'un simple adverbe négatif de fin de phrase. Le bissa insère un auxiliaire prohibitif spécifique 'gaa' juste avant le radical du verbe d'action.",
+      "rules": [
+        "Structure : Pronom Sujet + gaa + Verbe + Compléments + (Particule de clôture ki).",
+        "L'intonation de 'gaa' est plus appuyée et nettement distincte du verbe aller."
+      ],
+      "examples": [
+        {
+          "structure": "M (Tu) + gaa (prohibition) + di (manger) + gũu (tô) = M gaa di gũu",
+          "phonetic_api": "/m̩ ɡaː di ɡũː/",
+          "meaning": "Ne mange pas le tô / Il t'est interdit de manger le tô."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Adama (Le jeune travailleur)",
+      "text": "Kẽenã Issa, kuso nam zɩ m gaa yaa wiri hẽe ?",
+      "phonetic_api": "/kẽːnã issa kuso nam zɪ m̩ ɡaː jaː wiʁi hẽː/",
+      "phonetic_simple": "KEEN-NAN IS-SA, KOU-SO NAM ZI M GAA YAA WI-RI HEEN ?",
+      "translation": "Doyen Issa, s'il vous plaît, me permettez-vous d'aller au marché aujourd'hui ?"
+    },
+    {
+      "speaker": "Issa (L'aîné de la concession)",
+      "text": "An, m gaa gaa hẽe. Tilayɩ n gẽ gãũ diga tuumda bɔrɩ le.",
+      "phonetic_api": "/an m̩ ɡaː ɡaː hẽː tilajɪ n̩ ɟẽ ɡãũ diɡa tuːmda bɔʁɪ le/",
+      "phonetic_simple": "AN, M GAA GAA HEEN. TI-LAY-I N GYEN GAUN DI-GA TOUM-DA BO-RI LE.",
+      "translation": "Non, tu ne dois pas y aller aujourd'hui. Il faut impérativement que tu finisses le travail du mur de la concession."
+    },
+    {
+      "speaker": "Adama (Le jeune travailleur)",
+      "text": "M gãũ wiri gãã la ki bisi. Lere boi m wá bɔrɩ ?",
+      "phonetic_api": "/m̩ ɡãũ wiʁi ɡãː la ki bisi leʁe bɔi m̩ wá bɔʁɪ/",
+      "phonetic_simple": "M GAUN WI-RI GAAN LA KI BI-SI. LE-RE BOI M WÁ BO-RI ?",
+      "translation": "C'est le règlement strict de la maison. À quelle heure devrai-je avoir fini ?"
+    },
+    {
+      "speaker": "Issa (L'aîné de la concession)",
+      "text": "Tilayɩ n bɔrɩ lere sɩ̀. Wiri sãã m wá gaa yaa wiri n dɔ. Nam zɩ m gã bɔ hoorɩ !",
+      "phonetic_api": "/tilajɪ n̩ bɔʁɪ leʁe sɪ̀ wiʁi sãː m̩ wá ɡaː jaː wiʁi n̩ dɔ nam zɪ m̩ ɡã bɔ hoːʁɪ/",
+      "phonetic_simple": "TI-LAY-I N BO-RI LE-RE SI. WI-RI SAAN M WÁ GAA YAA WI-RI N DO. NAM ZI M GAN BO HOO-RI !",
+      "translation": "Il faut que tu fasses cela avant quatre heures. Plus tard, tu pourras te rendre au marché. Accorde-moi cette satisfaction !"
+    },
+    {
+      "speaker": "Adama (Le jeune travailleur)",
+      "text": "Barka boi, kẽenã. Tuumda bɔrɩ la ki hẽe !",
+      "phonetic_api": "/baʁka bɔi kẽːnã tuːmda bɔʁɪ la ki hẽː/",
+      "phonetic_simple": "BAR-KA BOI, KEEN-NAN. TOUM-DA BO-RI LA KI HEEN !",
+      "translation": "Merci beaucoup, doyen. Le travail sera fini aujourd'hui !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'organisation sociale bissa au Burkina Faso, le respect de l'autorité des anciens (`kẽenã bisi`) est une valeur cardinale. Un jeune ne saurait entreprendre un voyage ou modifier son emploi du temps communautaire sans solliciter formellement la permission (`zɩ`) du chef de famille.",
+    "L'expression des interdictions touche de près aux notions de tabous traditionnels et familiaux. Formuler une défense à l'aide de 'gaa' rappelle l'existence de règles protectrices collectives ancrées dans l'histoire de la concession.",
+    "La politesse transactionnelle exige que toute contrainte ou obligation (`tilayɩ`) soit par la suite compensée par une marque de bienveillance ou une autorisation ultérieure, préservant ainsi la paix sociale interne."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel terme d'obligation place-t-on en tout début d'énoncé en bissa pour exprimer qu'une action est absolument obligatoire (Il faut) ?",
+      "options": [
+        "Tilayɩ",
+        "Gaa",
+        "Wáari"
+      ],
+      "correct_answer": "Tilayɩ",
+      "explanation": "Le mot 'Tilayɩ' est la formule d'amorce indispensable pour traduire l'obligation ou la nécessité stricte."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour interdire formellement à quelqu'un d'agir, on insère la marque prohibitive devant le verbe : M [ ___ ] gẽwɔ gẽ !",
+      "correct_answer": "gaa",
+      "hint": "Le morphème bissa d'interdiction qui s'intercale entre le sujet et le radical verbal."
+    }
+  ]
+}

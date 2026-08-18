@@ -1,0 +1,179 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les membres de la famille nucléaire et élargie en Mani",
+    "Utiliser les pronoms d'appartenance pour décrire son arbre généalogique",
+    "Présenter un proche ou un membre de sa communauté"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne /w/ en Mani est labio-vélaire et glisse doucement avant les voyelles antérieures. La consonne /r/ est légèrement battue ou roulée, similaire au 'r' espagnol à battement unique, sans friction excessive dans la gorge.",
+    "common_pitfalls": "Attention à ne pas grasseyer le 'r' à la française dans le terme 'fara'. Gardez la langue souple contre le palais."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v4_1",
+      "term": "fara",
+      "phonetic_api": "/fa.ra/",
+      "phonetic_simple": "FA-RA",
+      "translation": "père / géniteur",
+      "example_sentence": "N fara bɛ lɔ.",
+      "example_phonetic": "/n̩ fa.ra bɛ lɔ/",
+      "example_translation": "Mon père est ici."
+    },
+    {
+      "word_id": "v4_2",
+      "term": "wulɛ",
+      "phonetic_api": "/wu.lɛ/",
+      "phonetic_simple": "WOU-LÈ",
+      "translation": "mère / génitrice",
+      "example_sentence": "N wulɛ bɛ ni yoma.",
+      "example_phonetic": "/n̩ wu.lɛ bɛ ni jo.ma/",
+      "example_translation": "Ma mère va bien (est en paix)."
+    },
+    {
+      "word_id": "v4_3",
+      "term": "bɔŋ",
+      "phonetic_api": "/bɔŋ/",
+      "phonetic_simple": "BONG",
+      "translation": "enfant / fils / fille",
+      "example_sentence": "A bɔŋ bɛ sɔm.",
+      "example_phonetic": "/a bɔŋ bɛ sɔm/",
+      "example_translation": "Son enfant est petit."
+    },
+    {
+      "word_id": "v4_4",
+      "term": "mora-bɛŋ",
+      "phonetic_api": "/mo.ra bɛŋ/",
+      "phonetic_simple": "MO-RA-BÈNG",
+      "translation": "frère / sœur / parent proche",
+      "example_sentence": "N mora-bɛŋ fɔkɔ bɛ lɔ.",
+      "example_phonetic": "/n̩ mo.ra bɛŋ fɔ.kɔ bɛ lɔ/",
+      "example_translation": "Mon frère/parent vient d'ici."
+    },
+    {
+      "word_id": "v4_5",
+      "term": "lanu",
+      "phonetic_api": "/la.nu/",
+      "phonetic_simple": "LA-NOU",
+      "translation": "époux / épouse / conjoint",
+      "example_sentence": "N lanu bɛ wɔli ségé.",
+      "example_phonetic": "/n̩ la.nu bɛ wɔ.li se.ɡe/",
+      "example_translation": "Mon conjoint travaille au marché."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p4_1",
+      "original": "Wun fara bɛ mi ?",
+      "phonetic_api": "/wun fa.ra bɛ mi/",
+      "phonetic_simple": "WOUN FA-RA BÈ MI",
+      "translation": "Où est ton père ?",
+      "context": "S'enquérir poliment de la localisation ou de la présence du père de quelqu'un."
+    },
+    {
+      "phrase_id": "p4_2",
+      "original": "N wulɛ bɛ banxi lɔ.",
+      "phonetic_api": "/n̩ wu.lɛ bɛ ban.xi lɔ/",
+      "phonetic_simple": "N WOU-LÈ BÈ BAN-KHI LƆ",
+      "translation": "Ma mère est à la maison.",
+      "context": "Indiquer le lieu où se trouve sa mère."
+    },
+    {
+      "phrase_id": "p4_3",
+      "original": "A bɛ ni bɔŋ mɛlɛŋ.",
+      "phonetic_api": "/a bɛ ni bɔŋ mɛ.lɛŋ/",
+      "phonetic_simple": "A BÈ NI BONG MÈ-LÈNG",
+      "translation": "Il/Elle a deux enfants.",
+      "context": "Donner des précisions sur la descendance d'une tierce personne."
+    },
+    {
+      "phrase_id": "p4_4",
+      "original": "N denbaya bɛ yoma lɔ.",
+      "phonetic_api": "/n̩ den.ba.ja bɛ jo.ma lɔ/",
+      "phonetic_simple": "N DEN-BA-YA BÈ YO-MA LƆ",
+      "translation": "Ma famille est dans la paix.",
+      "context": "Rassurer un interlocuteur sur la situation de son foyer."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La juxtaposition possessive inaliénable",
+      "explanation": "Les entités inaliénables comme les membres de la famille ne demandent aucun connecteur de possession complexe en Mani. Le pronom personnel sujet se place directement devant le nom de parenté.",
+      "rules": [
+        "Pronom sujet (n, wun, a) + Nom de parenté direct.",
+        "Le ton reste neutre sur l'ensemble du groupe nominal possessif."
+      ],
+      "examples": [
+        {
+          "structure": "N fara",
+          "phonetic_api": "/n̩ fa.ra/",
+          "meaning": "Mon père"
+        },
+        {
+          "structure": "A bɔŋ",
+          "phonetic_api": "/a bɔŋ/",
+          "meaning": "Son enfant"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ibrahima",
+      "text": "Mboi Fanta ! Wun wulɛ bɛ ni yoma ?",
+      "phonetic_api": "/mboi fan.ta wun wu.lɛ bɛ ni jo.ma/",
+      "phonetic_simple": "MBOÏ FAN-TA ! WOUN WOU-LÈ BÈ NI YO-MA ?",
+      "translation": "Bonjour Fanta ! Est-ce que ta mère va bien ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Mboi Ibrahima ! N wulɛ bɛ ni yoma cece. A bɛ banxi lɔ.",
+      "phonetic_api": "/mboi i.bra.hi.ma n̩ wu.lɛ bɛ ni jo.ma tʃe.tʃe a bɛ ban.xi lɔ/",
+      "phonetic_simple": "MBOÏ I-BRA-HI-MA ! N WOU-LÈ BÈ NI YO-MA TCHÉ-TCHÉ. A BÈ BAN-KHI LƆ.",
+      "translation": "Bonjour Ibrahima ! Ma mère va bien merci. Elle est à la maison."
+    },
+    {
+      "speaker": "Ibrahima",
+      "text": "Wun mora-bɛŋ lɔ, a na ségé ?",
+      "phonetic_api": "/wun mo.ra bɛŋ lɔ a na se.ɡe/",
+      "phonetic_simple": "WOUN MO-RA-BÈNG LƆ, A NA SÉ-GÉ ?",
+      "translation": "Et ton frère/parent, il est au marché ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Inde, a bɛ ni wɔli kpere lɔ.",
+      "phonetic_api": "/in.de a bɛ ni wɔ.li kpe.re lɔ/",
+      "phonetic_simple": "IN-DE, A BÈ NI WƆ-LI KPE-RE LƆ.",
+      "translation": "Non, il travaille là-bas au loin."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture côtière Mani, le terme 'mora-bɛŋ' unit conceptuellement l'humain ('mora') et le rassemblement ou lien ('bɛŋ'). Il témoigne d'une vision de la parenté où la distinction stricte entre collatéraux (cousins) et germains (frères) s'efface au profit de la solidarité communautaire."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex4_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le terme 'bɔŋ' en Mani ?",
+      "options": [
+        "L'oncle",
+        "L'enfant",
+        "La grand-mère"
+      ],
+      "correct_answer": "L'enfant",
+      "explanation": "'Bɔŋ' désigne la descendance directe (fils ou fille) sans distinction initiale de genre."
+    },
+    {
+      "exercise_id": "ex4_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N [ ___ ] bɛ lɔ (Mon père est ici).",
+      "correct_answer": "fara",
+      "hint": "Mot de deux syllabes identiques commençant par 'f'."
+    }
+  ]
+}

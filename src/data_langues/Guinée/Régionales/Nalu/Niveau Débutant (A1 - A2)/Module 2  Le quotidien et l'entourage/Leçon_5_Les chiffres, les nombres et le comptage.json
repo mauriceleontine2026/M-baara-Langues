@@ -1,0 +1,163 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter de 1 à 10 en langue nalu",
+    "Comprendre le système de base 5 pour exprimer les quantités"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne nasale finale '-ŋ' doit être articulée au fond de la gorge. Les groupes de voyelles comme '-ua' dans 'bitua' forment des diphtongues fluides qu'il ne faut pas couper par un coup de glotte.",
+    "common_pitfalls": "Attention à ne pas assimiler le chiffre '4' (binaang) à un mot français. Il faut insister sur le double 'aa' allongé pour être compris."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v5_1",
+      "term": "Deenung",
+      "phonetic_api": "/deː.nuŋ/",
+      "phonetic_simple": "DÉÉ-NOUNG",
+      "translation": "Un (1)",
+      "example_sentence": "Ceeb deenung.",
+      "example_phonetic": "/tʃeːb deː.nuŋ/",
+      "example_translation": "Un poisson."
+    },
+    {
+      "word_id": "v5_2",
+      "term": "Bileng",
+      "phonetic_api": "/bi.leŋ/",
+      "phonetic_simple": "BI-LENG",
+      "translation": "Deux (2)",
+      "example_sentence": "Ceeb bileng.",
+      "example_phonetic": "/tʃeːb bi.leŋ/",
+      "example_translation": "Deux poissons."
+    },
+    {
+      "word_id": "v5_3",
+      "term": "Bitua",
+      "phonetic_api": "/bi.twa/",
+      "phonetic_simple": "BI-TOUA",
+      "translation": "Trois (3)",
+      "example_sentence": "Ceeb bitua.",
+      "example_phonetic": "/tʃeːb bi.twa/",
+      "example_translation": "Trois poissons."
+    },
+    {
+      "word_id": "v5_4",
+      "term": "Binaang",
+      "phonetic_api": "/bi.naːŋ/",
+      "phonetic_simple": "BI-NAANG",
+      "translation": "Quatre (4)",
+      "example_sentence": "Ceeb binaang.",
+      "example_phonetic": "/tʃeːb bi.naːŋ/",
+      "example_translation": "Quatre poissons."
+    },
+    {
+      "word_id": "v5_5",
+      "term": "Beeduŋ",
+      "phonetic_api": "/beː.duŋ/",
+      "phonetic_simple": "BÉÉ-DOUNG",
+      "translation": "Cinq (5)",
+      "example_sentence": "Ceeb beeduŋ.",
+      "example_phonetic": "/tʃeːb beː.duŋ/",
+      "example_translation": "Cinq poissons."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p5_1",
+      "original": "A rila tange we?",
+      "phonetic_api": "/a ri.la taŋ.e we/",
+      "phonetic_simple": "A RI-LA TANG-É WÉ",
+      "translation": "Combien cela coûte-t-shirt / Combien y en a-t-il ?",
+      "context": "Indispensable pour demander une quantité ou un prix sur un marché nalu."
+    },
+    {
+      "phrase_id": "p5_2",
+      "original": "M balang abana tila.",
+      "phonetic_api": "/m ba.laŋ a.ba.na ti.la/",
+      "phonetic_simple": "M BA-LANG A-BA-NA TI-LA",
+      "translation": "J'ai trente ans.",
+      "context": "Permet d'utiliser les dizaines pour exprimer son âge."
+    },
+    {
+      "phrase_id": "p5_3",
+      "original": "Beeduŋ n'gbe deenung.",
+      "phonetic_api": "/beː.duŋ ŋgbe deː.nuŋ/",
+      "phonetic_simple": "BÉÉ-DOUNG NG-BÉ DÉÉ-NOUNG",
+      "translation": "Six (Cinq et un).",
+      "context": "Construction structurelle pour compter au-delà de cinq."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système de numération en base 5",
+      "explanation": "La langue nalu utilise un système de comptage quinaire (base 5). Les chiffres de 1 à 5 possèdent des racines uniques, tandis que les chiffres de 6 à 9 se forment par addition à partir de la base 5 ('beeduŋ').",
+      "rules": [
+        "Les nombres se placent toujours après le nom qu'ils qualifient.",
+        "Pour former 6, on associe la base 5 (beeduŋ) au chiffre 1 (deenung) relié par la particule de coordination."
+      ],
+      "examples": [
+        {
+          "structure": "Beeduŋ n'gbe bileng",
+          "phonetic_api": "/beː.duŋ ŋgbe bi.leŋ/",
+          "meaning": "Sept (5 + 2)"
+        },
+        {
+          "structure": "Tila",
+          "phonetic_api": "/ti.la/",
+          "meaning": "Dix / Trente (selon le contexte des classes nominales de dizaines)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Ina, ceeb a rila tange?",
+      "phonetic_api": "/i.na tʃeːb a ri.la taŋ.e/",
+      "phonetic_simple": "I-NA, TCHÉÉB A RI-LA TANG-É?",
+      "translation": "S'il te plaît, combien coûtent les poissons ?"
+    },
+    {
+      "speaker": "Fatou",
+      "text": "Ceeb binaang gbe mboye ce.",
+      "phonetic_api": "/tʃeːb bi.naːŋ gbe mbo.je tʃe/",
+      "phonetic_simple": "TCHÉÉB BI-NAANG GBÉ MBO-YÉ TCHÉ.",
+      "translation": "Quatre poissons sont de bonne qualité."
+    },
+    {
+      "speaker": "Samba",
+      "text": "M malang beeduŋ n'gbe deenung. Nu koka!",
+      "phonetic_api": "/m ba.laŋ beː.duŋ ŋgbe deː.nuŋ nu ko.ka/",
+      "phonetic_simple": "M BA-LANG BÉÉ-DOUNG NG-BÉ DÉÉ-NOUNG. NOU KO-KA!",
+      "translation": "J'en prends six (5+1). Merci !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les échanges commerciaux sur les marchés du littoral de Boké, le comptage traditionnel nalu est très lié aux doigts de la main (une main complète représentant la base 5). Bien que le calcul monétaire moderne utilise parfois les monnaies guinéennes ou des termes empruntés, l'usage des chiffres natifs est préservé pour les produits de la pêche et de l'agriculture."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex5_1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on le chiffre 'Deux' en nalu ?",
+      "options": [
+        "Deenung",
+        "Bileng",
+        "Bitua"
+      ],
+      "correct_answer": "Bileng",
+      "explanation": "'Bileng' correspond au nombre deux dans la série numérique élémentaire."
+    },
+    {
+      "exercise_id": "ex5_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le chiffre cinq se dit : [ ___ ].",
+      "correct_answer": "beeduŋ",
+      "hint": "C'est la base indispensable pour former le chiffre six"
+    }
+  ]
+}

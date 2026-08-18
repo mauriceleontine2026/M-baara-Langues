@@ -1,0 +1,232 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Connecteurs logiques pour un discours élaboré",
+  "learning_objectives": [
+    "Maîtriser les connecteurs de concession avancés comme 'Raghma' et 'Ma'a anna' pour nuancer une argumentation",
+    "Utiliser les structures d'opposition et de transition rhétorique telles que 'Min jihatin... wa min jihatin ukhrā'",
+    "Employer correctement les marqueurs d'illustration et de conséquence pour fluidifier un exposé académique ou littéraire"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met l'accent sur les liaisons inter-propositionnelles de haut niveau. Le son /ɣ/ (غ) dans 'Raghma' (رَغْمَ) doit être prononcé comme une fricative uvulaire sonore continue. L'articulation du /ʕ/ (ع) dans 'Ma'a anna' (مَعَ أَنَّ) exige une tension pharyngale nette suivie immédiatement de la coupe glottale (Hamza) et du redoublement de la Nūn (Shaddah).",
+    "common_pitfalls": "Attention à ne pas assimiler le /ðˤ/ (ظ) de 'Min ḥaythu' (مِنْ حَيْثُ) ou les structures d'opposition à des sons légers. Veillez également à ne pas omettre la vocalisation de la fatha finale sur 'Raghma' (رَغْمَ), qui fonctionne syntaxiquement comme un adverbe régisseur."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "رَغْمَ",
+      "phonetic_api": "/raɣ.ma/",
+      "phonetic_simple": "RAGH-MA",
+      "translation": "Malgré / En dépit de (suivi d'un nom ou d'un Masdar au génitif)",
+      "example_sentence": "رَغْمَ الصُّعُوبَاتِ، نَجَحَ الْمَشْرُوعُ",
+      "example_phonetic": "/raɣ.masˤ sˤu.ʕuː.baː.ti na.dʒa.ħal maʃ.ruː.ʕu/",
+      "example_translation": "Malgré les difficultés, le projet a réussi"
+    },
+    {
+      "word_id": "v2",
+      "term": "مَعَ أَنَّ",
+      "phonetic_api": "/ma.ʕa ʔan.na/",
+      "phonetic_simple": "MA-A AN-NA",
+      "translation": "Bien que / Bien qu'il soit (introduit une proposition subordonnée de concession)",
+      "example_sentence": "مَعَ أَنَّ الطَّقْسَ بَارِدٌ، خَرَجْتُ",
+      "example_phonetic": "/ma.ʕa ʔan.natˤ tˤaq.sa baː.ri.dun xa.radʒ.tu/",
+      "example_translation": "Bien que le temps soit froid, je suis sorti"
+    },
+    {
+      "word_id": "v3",
+      "term": "عَلَى الْعَكْسِ مِنْ",
+      "phonetic_api": "/ʕa.laːl ʕak.si min/",
+      "phonetic_simple": "A-LAAL AK-SI MIN",
+      "translation": "Contrairement à / À l'opposé de",
+      "example_sentence": "عَلَى الْعَكْسِ مِنْ أَخِيهِ، هُوَ هَادِئٌ",
+      "example_phonetic": "/.../",
+      "example_translation": "Contrairement à son frère, il est calme"
+    },
+    {
+      "word_id": "v4",
+      "term": "بِالْتَّالِي",
+      "phonetic_api": "/bit.taː.liː/",
+      "phonetic_simple": "BIT-TAA-LII",
+      "translation": "Par conséquent / Par suite / De ce fait",
+      "example_sentence": "لَمْ يَحْضُرْ، وَبِالتَّالِي لَمْ يُوقِعْ",
+      "example_phonetic": "/.../",
+      "example_translation": "Il n'est pas venu, par conséquent il n'a pas signé"
+    },
+    {
+      "word_id": "v5",
+      "term": "عِلَاوَةً عَلَى ذَلِكَ",
+      "phonetic_api": "/ʕi.laː.wa.tan ʕa.laː ðaː.li.ka/",
+      "phonetic_simple": "I-LAA-WA-TAN A-LAA THA-LI-KA",
+      "translation": "De plus / En outre / Par ailleurs",
+      "example_sentence": "هُوَ طَبِيبٌ، وَعِلَاوَةً عَلَى ذَلِكَ أَدِيبٌ",
+      "example_phonetic": "/.../",
+      "example_translation": "Il est médecin, et en outre un homme de lettres"
+    },
+    {
+      "word_id": "v6",
+      "term": "مِنْ حَيْثُ",
+      "phonetic_api": "/min ħaj.θu/",
+      "phonetic_simple": "MIN HAY-THOU",
+      "translation": "En termes de / Du point de vue de / Quant à",
+      "example_sentence": "الْقِصَّةُ جَيِّدَةٌ مِنْ حَيْثُ الأُسْلُوبِ",
+      "example_phonetic": "/.../",
+      "example_translation": "L'histoire est bonne du point de vue du style"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "مِنْ جِهَةٍ نُرِيدُ التَّطْوِيرَ، وَمِنْ جِهَةٍ أُخْرَى نَخْشَى الْمَخَاطِرَ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MIN DJI-HA-TIN NOU-RII-DOOUT TAT-WII-RA, WA MIN DJI-HA-TIN OUKH-RAA...",
+      "translation": "D'une part, nous voulons le développement, et d'autre part, nous craignons les risques",
+      "context": "Formuler un raisonnement dialectique ou une balance d'arguments (C1)."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "رَغْمَ بَلاغَةِ النَّصِّ، إِلَّا أَنَّهُ لَمْ يَقْنَعِ الْجُمْهُورَ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "RAGH-MA BA-LAA-GHA-TIL NAS-SI, IL-LAA AN-NA-HOU LAM YAK-NAIL DJOUM-HOOUR",
+      "translation": "Malgré l'éloquence du texte, il n'a pourtant pas convaincu le public",
+      "context": "Structure concessive corrélative raffinée ('Raghma... illā anna...')."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "وَبِنَاءً عَلَى مَا تَقَدَّمَ، يَتَقَرَّرُ تَعْدِيلُ الْقَانُونِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "WA BI-NAA-AN A-LAA MAA TA-KAD-DA-MA, YA-TA-KAR-RA-ROOU TA'-DII-LOUL...",
+      "translation": "Et sur la base de ce qui précède, il est décidé de modifier la loi",
+      "context": "Conclusion formelle utilisée dans les rapports administratifs ou juridiques."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "مَعَ أَنَّ الْأَدِلَّةَ وَاضِحَةٌ، فَإِنَّ الشَّكَّ مَا زَالَ قَائِمًا",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MA-A AN-NAL A-DIL-LA-TA WAA-DI-HA, FA-IN-NACH CHAK-KA MAA ZAA-LA...",
+      "translation": "Bien que les preuves soient claires, le doute subsiste néanmoins",
+      "context": "Énoncer un contraste fort lors d'une argumentation juridique ou scientifique."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "مِنْ هَذَا الْمُنْطَلَقِ، نَبْدَأُ فِي تَحْلِيلِ الأَثَرِ الاقْتِصَادِيِّ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MIN HAA-THAL MOUN-TA-LA-KI, NAB-DA-OU FII TAH-LII-LIL A-THA-RIL...",
+      "translation": "Partant de ce principe (de cette perspective), nous commençons à analyser l'impact économique",
+      "context": "Transition conceptuelle pour orienter le focus du discours."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La concession corrélative : L'usage de 'Raghma ... illā anna' (رَغْمَ ... إِلَّا أَنَّ)",
+      "explanation": "Pour articuler une concession élégante et percutante au niveau avancé, la syntaxe arabe associe souvent le préfixe concessif à une rupture dans la proposition principale.",
+      "rules": [
+        "Raghma (رَغْمَ) est suivi d'un groupe nominal au cas indirect (Génitif/Annexion).",
+        "La proposition principale (l'apodose concessive) est introduite par la locution restrictive 'illā anna' (إِلَّا أَنَّ - sauf que / il n'en reste pas moins que).",
+        "Le nom ou le pronom rattaché à 'anna' (أَنَّ) se met obligatoirement au cas direct (Accusatif)."
+      ],
+      "examples": [
+        {
+          "structure": "رَغْمَ قِصَرِ الْوَقْتِ إِلَّا أَنَّ الْإِنْجَازَ كَبِيرٌ",
+          "phonetic_api": "/raɣ.ma qi.sˤa.ril wak.ti ʔil.laː ʔan.nal ʔin.dʒaː.za ka.biː.run/",
+          "meaning": "Malgré la brièveté du temps, il n'en reste pas moins que la réalisation est grande"
+        },
+        {
+          "structure": "رَغْمَ مَرَضِهِ إِلَّا أَنَّهُ حَضَرَ",
+          "phonetic_api": "/.../",
+          "meaning": "Malgré sa maladie, il s'est pourtant présenté"
+        }
+      ]
+    },
+    {
+      "concept": "La syntaxe des subordonnants de cause et de conséquence : 'Bi-nā'an 'alā' (بِنَاءً عَلَى)",
+      "explanation": "Les transitions logiques de niveau C1 exigent de manipuler des compléments circonstanciels absolus figés (Mansoub).",
+      "rules": [
+        "Bi-nā'an (بِنَاءً) porte le Tanween de la fatha invariable car il agit comme un adverbe de manière de construction.",
+        "Il régit obligatoirement la préposition 'alā (عَلَى) suivie d'un groupe nominal au cas indirect (Génitif).",
+        "Il sert à lier logiquement une prémisse textuelle avec sa conséquence analytique directe."
+      ],
+      "examples": [
+        {
+          "structure": "بِنَاءً عَلَى النَّتَائِجِ",
+          "phonetic_api": "/bi.naː.ʔan ʕa.laːn na.taː.ʔi.dʒi/",
+          "meaning": "Sur la base des résultats (An-Natā'ij prend une kasra)"
+        },
+        {
+          "structure": "بِنَاءً عَلَى رَغْبَتِكَ",
+          "phonetic_api": "/.../",
+          "meaning": "Conformément à votre désir / Sur la base de votre souhait"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "الْأُسْتَاذ فَهْمِي (Prof. Fahmi)",
+      "text": "مَعَ أَنَّ الْأَطْرُوحَةَ الَّتِي قَدَّمْتَهَا غَنِيَّةٌ بِالْمَرَاجِعِ، إِلَّا أَنَّهَا تَفْتَقِرُ إِلَى تَرْتِيبٍ مَنْطِقِيٍّ فِي بَعْضِ الْفُصُولِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MA-A AN-NAL AT-ROOU-HA-TAL LA-TII KAD-DAM-TA-HAA GHAN-NIY-YA...",
+      "translation": "Bien que la thèse que tu as présentée soit riche en références, elle manque pourtant d'un agencement logique dans certains chapitres."
+    },
+    {
+      "speaker": "الْبَاحِث سَمِير (Chercheur Samir)",
+      "text": "شُكْرًا لِمُلَاحَظَتِكَ يَا أُسْتَاذِي. مِنْ جِهَةٍ أَنَا حَاوَلْتُ جَمْعَ كُلِّ الْبَيَانَاتِ، وَمِنْ جِهَةٍ أُخْرَى كَانَ ضَغْطُ الْوَقْتِ عَائِقًا.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "CHOUK-RAN LI-MOU-LAA-HA-THA-TI-KA YA OUS-TAA-THII. MIN DJI-HA-TIN...",
+      "translation": "Merci pour votre remarque, mon professeur. D'une part, j'ai essayé de rassembler toutes les données, et d'autre part, la pression du temps a constitué un obstacle."
+    },
+    {
+      "speaker": "الْأُسْتَاذ فَهْمِي (Prof. Fahmi)",
+      "text": "عِلَاوَةً عَلَى ذَلِكَ، كَانَ يَجِبُ عَلَيْكَ تَحْلِيلُ الظَّوَاهِرِ تَدْرِيجِيًّا لِكَيْ لا يَقَعَ الْقَارِئُ فِي لَبْسٍ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "I-LAA-WA-TAN A-LAA THA-LI-KA, KAA-NA YA-DJI-BOU ALAY-KA TAH-LII-LOU...",
+      "translation": "En outre, il t'aurait fallu analyser les phénomènes progressivement pour que le lecteur ne tombe pas dans l'ambiguïté."
+    },
+    {
+      "speaker": "الْبَاحِث سَمِير (Chercheur Samir)",
+      "text": "صَحِيحٌ. وَبِنَاءً عَلَى تَوْجِيهَاتِكَ الْقَيِّمَةِ، سَوْفَ أُعِيدُ صِيَاغَةَ الْخَاتِمَةِ تَمَامًا مِنْ حَيْثُ الأُسْلُوبِ وَالتَّرْكِيبِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "SA-HIIH. WA BI-NAA-AN A-LAA TAW-DJII-HAA-TI-KAL KAY-YI-MA, SAW-FA...",
+      "translation": "C'est exact. Et sur la base de vos précieuses orientations, je vais reformuler complètement la conclusion en termes de style et de structure."
+    }
+  ],
+  "cultural_notes": [
+    "La structure du débat contradictoire universitaire (Al-Munāzarah) : Dans la tradition intellectuelle arabe classique et moderne, l'art du débat (المُنَاظَرَة - Al-Munāzarah) repose sur l'utilisation rigoureuse de connecteurs d'opposition et d'équilibre. Concéder un fait par 'Ma'a anna' pour mieux réfuter l'argument central est considéré comme le sommet du raffinement de l'esprit critique.",
+    "L'héritage de la prose d'idées : Des penseurs comme Al-Jahiz ou, plus tard, les grands essayistes de la Renaissance arabe (Nahda) ont structuré leurs écrits autour de parallélismes parfaits ('Min jihatin...'). La géométrie du discours écrit reflète directement l'importance accordée à la symétrie et à l'harmonie stylistique."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L3_ex1",
+      "type": "multiple_choice",
+      "question": "Quelle locution traduit le mieux une addition argumentative du niveau avancé comme 'En outre / Par ailleurs' ?",
+      "options": [
+        "عَلَى الْعَكْسِ مِنْ ذَلِكَ ('Alā l-'aksi min dhālika)",
+        "عِلَاوَةً عَلَى ذَلِكَ ('Ilāwatan 'alā dhālika)",
+        "بِنَاءً عَلَى ذَلِكَ (Binā'an 'alā dhālika)"
+      ],
+      "correct_answer": "عِلَاوَةً عَلَى ذَلِكَ ('Ilāwatan 'alā dhālika)",
+      "explanation": "'Ilāwatan 'alā dhālika exprime l'accumulation d'arguments ou l'introduction d'un élément supplémentaire de poids dans la démonstration."
+    },
+    {
+      "exercise_id": "C1_M1_L3_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour exprimer la concession 'Bien que le livre soit long...', on écrit : [ ___ ] أَنَّ الْكِتَابَ طَوِيلٌ",
+      "correct_answer": "مَعَ",
+      "hint": "C'est la préposition de simultanéité qui, associée à 'anna', prend un sens concessif abstrait."
+    },
+    {
+      "exercise_id": "C1_M1_L3_ex3",
+      "type": "multiple_choice",
+      "question": "Comment s'accorde le nom qui fait directement suite au connecteur 'رَغْمَ' (Raghma) ?",
+      "options": [
+        "Il prend la marque du cas direct (Accusatif/Fatha)",
+        "Il prend la marque du cas indirect (Génitif/Kasra)",
+        "Il demeure impérativement au cas sujet (Nominatif/Damma)"
+      ],
+      "correct_answer": "Il prend la marque du cas indirect (Génitif/Kasra)",
+      "explanation": "Raghma fonctionne syntaxiquement comme le premier membre d'une structure d'annexion (Idāfah), imposant le cas indirect (génitif) au substantif qui le complète."
+    }
+  ]
+}

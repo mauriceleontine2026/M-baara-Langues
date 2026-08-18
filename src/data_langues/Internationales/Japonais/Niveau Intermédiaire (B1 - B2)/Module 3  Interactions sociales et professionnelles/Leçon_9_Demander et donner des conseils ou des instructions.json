@@ -1,0 +1,272 @@
+{
+  "lesson_id": "B1_M3_L9",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 9,
+  "title": "Demander et donner des conseils ou des instructions",
+  "learning_objectives": [
+    "Solliciter un avis ou une recommandation face à une situation problématique avec la structure '~ tara ii desu ka'",
+    "Formuler un conseil bienveillant ou une suggestion directive en utilisant la structure '~ hō ga ii desu'",
+    "Donner des consignes et des instructions claires étape par étape à l'aide de la forme en '-te' formative"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en avant la structure conditionnelle '～たら' (tara). Le 't' [t] doit être prononcé de manière sèche et nette, sans aspiration. Le mot 'hō' (option/côté) dans la structure de conseil 'hō ga ii' exige une voyelle longue bien marquée [hoː], sous peine d'être confondu avec un autre mot.",
+    "common_pitfalls": "Attention à ne pas escamoter le petit 'tsu' (っ) dans le verbe 'adobaissu' (conseil) ou lors des modifications de la forme en -te (ex: 'furi-komu' ➔ 'furikonde'). Veillez également à bien lier la structure 'ii desu ka' sans faire de coupure glottale artificielle."
+  },
+  "instructional_lexicon_focus": [
+    {
+      "term": "アドバイス",
+      "romaji": "adobaissu",
+      "translation": "Un conseil / Une recommandation",
+      "description": "Emprunt à l'anglais (Advice) extrêmement courant pour désigner un avis partagé de manière informelle ou professionnelle."
+    },
+    {
+      "term": "そうだん (相談 / 相談します)",
+      "romaji": "sōdan",
+      "translation": "Consultation / Consulter / Demander conseil",
+      "description": "Action de discuter d'un problème avec quelqu'un pour trouver une solution (ex: jōshi ni sōdan suru - consulter son supérieur)."
+    },
+    {
+      "term": "せつめいしょ (説明書)",
+      "romaji": "setsumeisho",
+      "translation": "Mode d'emploi / Notice explicative",
+      "description": "Document technique détaillant les étapes pour faire fonctionner un appareil ou réaliser une procédure administrative."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "おしえる (教える / 教えます)",
+      "phonetic_api": "/o.ɕi.e.ɾɯ/",
+      "phonetic_simple": "O-CHI-É-ROU",
+      "translation": "Enseigner / Expliquer / Indiquer (une direction, une information)",
+      "example_sentence": "駅への行き方を教えてください。",
+      "example_phonetic": "/e.ki e no i.ki.ka.ta o o.ɕi.e.te kɯ.da.sa.i/",
+      "example_translation": "Indiquez-moi le chemin pour aller à la gare s'il vous plaît."
+    },
+    {
+      "word_id": "v2",
+      "term": "しらべる (調べる / 調べます)",
+      "phonetic_api": "/ɕi.ɾa.be.ɾɯ/",
+      "phonetic_simple": "CHI-RA-BÉ-ROU",
+      "translation": "Rechercher / Vérifier / Inspecter / Faire des recherches",
+      "example_sentence": "わからない言葉は辞書で調べたほうがいいです。",
+      "example_phonetic": "/wa.ka.ɾa.na.i ko.to.ba wa d͡ʑi.ɕo de ɕi.ɾa.be.ta hoː ɡa iː de.sɯ̥/",
+      "example_translation": "Il vaut mieux chercher les mots qu'on ne comprend pas dans le dictionnaire."
+    },
+    {
+      "word_id": "v3",
+      "term": "まず",
+      "phonetic_api": "/ma.zɯ/",
+      "phonetic_simple": "MA-ZOU",
+      "translation": "Tout d'abord / En premier lieu",
+      "example_sentence": "まず、ここに名前を書いてください。",
+      "example_phonetic": "/ma.zɯ ko.ko ni na.ma.e o ka.i.te kɯ.da.sa.i/",
+      "example_translation": "Tout d'abord, veuillez inscrire votre nom ici."
+    },
+    {
+      "word_id": "v4",
+      "term": "つぎに (次に)",
+      "phonetic_api": "/t͡sɯ.ɡi ni/",
+      "phonetic_simple": "TSOU-GI NI",
+      "translation": "Ensuite / Puis / Par la suite",
+      "example_sentence": "次に、このボタンを押してください。",
+      "example_phonetic": "/t͡sɯ.ɡi ni ko.no bo.taɴ o o.ɕi.te kɯ.da.sa.i/",
+      "example_translation": "Ensuite, appuyez sur ce bouton s'il vous plaît."
+    },
+    {
+      "word_id": "v5",
+      "term": "おく（置く / 置きます）",
+      "phonetic_api": "/o.kɯ/",
+      "phonetic_simple": "O-KOU",
+      "translation": "Poser / Placer / Mettre",
+      "example_sentence": "荷物はそこに置いてください。",
+      "example_phonetic": "/ni.mo.t͡sɯ wa so.ko ni o.i.te kɯ.da.sa.i/",
+      "example_translation": "Veuillez poser vos bagages là-bas."
+    },
+    {
+      "word_id": "v6",
+      "term": "ボタンをおす (ボタンを押す / 押します)",
+      "phonetic_api": "/bo.taɴ o o.sɯ/",
+      "phonetic_simple": "BO-TAN O O-SOU",
+      "translation": "Appuyer sur un bouton",
+      "example_sentence": "緑のボタンを押すと、切符が出ます。",
+      "example_phonetic": "/mi.do.ɾi no bo.taɴ o o.sɯ to ki̥p.pɯ ɡa de.ma.sɯ̥/",
+      "example_translation": "Si vous appuyez sur le bouton vert, le ticket sortira."
+    },
+    {
+      "word_id": "v7",
+      "term": "こまる (困る / 困ります)",
+      "phonetic_api": "/ko.ma.ɾɯ/",
+      "phonetic_simple": "KO-MA-ROU",
+      "translation": "Être embarrassé / Être en difficulté / Avoir des ennuis",
+      "example_sentence": "パソコンが壊れて困っています。",
+      "example_phonetic": "/pa.so.koɴ ɡa ko.wa.ɾe.te ko.mḁt.te i.ma.sɯ̥/",
+      "example_translation": "Mon ordinateur est en panne, je suis très embêté."
+    },
+    {
+      "word_id": "v8",
+      "term": "れんらく (連絡 / 連絡します)",
+      "phonetic_api": "/ɾeɴ.ɾa.kɯ/",
+      "phonetic_simple": "REN-RA-KOU",
+      "translation": "Contact / Contacter / Informer (quelqu'un)",
+      "example_sentence": "遅れる時は、すぐに連絡してください。",
+      "example_phonetic": "/o.kɯ.ɾe.ɾɯ to.ki wa sɯ.ɡɯ ni ɾe&mu;.ɾa.kɯ ɕi.te kɯ.da.sa.i/",
+      "example_translation": "En cas de retard, veuillez contacter immédiatement le bureau."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "日本語が上手になりたいんですが、どうしたらいいですか。",
+      "phonetic_api": "/ni.hoɴ.ɡo ɡa d͡ʑoː.zɯ ni na.ɾi.ta.iɴ de.sɯ ɡa doː ɕi.ta.ɾi iː de.sɯ.ka/",
+      "phonetic_simple": "NI-HON-GO GA DJOO-ZOU NI NA-RI-TA-IN DESS GA, DOO CHI-TA-RA II DESS-KA ?",
+      "translation": "Je voudrais m'améliorer en japonais, qu'est-ce que je devrais faire ?",
+      "context": "Demander un conseil ouvert à un enseignant ou à un locuteur natif."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "毎日、日本人の友達と話したほうがいいですよ。",
+      "phonetic_api": "/ma.i.ni.t͡ɕi ni.hoɴ.d͡ʑiɴ no to.mo.da.t͡ɕi to ha.na.ɕi.ta hoː ɡa iː de.sɯ jo/",
+      "phonetic_simple": "MA-I-NI-TCHI NI-HON-JIN NO TO-MO-DA-TCHI TO HA-NA-CHI-TA HOO GA II DESS YO.",
+      "translation": "Il vaut mieux parler avec des amis japonais tous les jours (recommandation).",
+      "context": "Donner un avis constructif en réponse à une demande de conseil."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "パスポートをなくした時は、どこに相談したらいいですか。",
+      "phonetic_api": "/pa.sɯ.poː.to o na.kɯ.ɕi.ta to.ki wa do.ko ni soː.daɴ ɕi.ta.ɾi iː de.sɯ.ka/",
+      "phonetic_simple": "PA-SOU-POO-TO O NA-KOU-CHI-TA TO-KI WA, DO-KO NI SOO-DAN CHI-TA-RA II DESS-KA ?",
+      "translation": "Si je perds mon passeport, à qui dois-je m'adresser / demander conseil ?",
+      "context": "S'informer de la procédure d'urgence face à un problème grave."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "すぐに大使館に連絡したほうがいいです。",
+      "phonetic_api": "/sɯ.ɡɯ ni ta.i.ɕi.kaɴ ni ɾeɴ.ɾa.kɯ ɕi.ta hoː ɡa iː de.sɯ̥/",
+      "phonetic_simple": "SU-GOU NI TA-I-CHI-KAN NI REN-RA-KOU CHI-TA HOO GA II DESS.",
+      "translation": "Il vaut mieux contacter l'ambassade immédiatement.",
+      "context": "Donner une instruction de sécurité ou un conseil direct."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "まずこの書類を書いて、それから窓口に出してください。",
+      "phonetic_api": "/ma.zɯ ko.no ɕi.ɾjoː o ka.i.te so.re ka.ɾa ma.do.ɡɯ.t͡ɕi ni da.ɕi.te kɯ.da.sa.i/",
+      "phonetic_simple": "MA-ZOU KO-NO CHI-RYOO O KA-I-TÉ, SO-RÉ KA-RA MA-DO-GOU-TCHI NI DA-CHI-TÉ KOU-DA-SA-I.",
+      "translation": "Tout d'abord, remplissez ce document, et ensuite déposez-le au guichet.",
+      "context": "Donner des instructions d'étape ordonnées dans une administration."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "無理をしないほうがいいですよ。休んでください。",
+      "phonetic_api": "/mɯ.ɾi o ɕi.na.i hoː ɡa iː de.sɯ jo ja.sɯɴ.de kɯ.da.sa.i/",
+      "phonetic_simple": "MOU-RI O CHI-NA-I HOO GA II DESS YO. YA-SUN-DÉ KOU-DA-SA-I.",
+      "translation": "Il vaut mieux ne pas forcer (ne pas faire d'excès). Reposez-vous s'il vous plaît.",
+      "context": "Conseiller avec bienveillance à un collègue fatigué de lever le pied."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "使い方を説明しましょうか。",
+      "phonetic_api": "/t͡sɯ.ka.i.ka.ta o se̥t͡sɯ.meː ɕi.ma.ɕoː ka/",
+      "phonetic_simple": "TSOU-KA-I-KA-TA O SETS-OU-MÉE CHI-MA-CHOO KA ?",
+      "translation": "Voulez-vous que je vous explique le mode d'emploi ?",
+      "context": "Proposer spontanément son aide pour guider quelqu'un."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "体調が悪いなら、早く帰ったほうがいいです。",
+      "phonetic_api": "/ta.i.t͡ɕoː ɡa wa.ɾɯ.i na.ɾa ha.ja.kɯ ka.e̥t.ta hoː ɡa iː de.sɯ̥/",
+      "phonetic_simple": "TA-I-CHOO GA WA-ROU-I NA-RA, HA-YA-KOU KA-ET-TA HOO GA II DESS.",
+      "translation": "Si vous ne vous sentez pas bien, il vaut mieux rentrer tôt.",
+      "context": "Conseil managérial ou amical basé sur une condition ('nara')."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Demander un conseil face à un dilemme : [Verbe forme -tara] いいですか (tara ii desu ka)",
+      "explanation": "Pour solliciter activement l'avis, la recommandation ou la directive d'une personne face à une situation floue ou problématique, on utilise le verbe de l'action envisagée conjugué à la forme passée informelle conditionnelle (en -tara), immédiatement suivie de 'いいですか' (ii desu ka - serait-ce bien ?). Elle se traduit par : 'Que devrais-je faire ?' ou 'Comment devrais-je procéder ?'.",
+      "rules": [
+        "Structure : [Verbe forme -ta + ra] + いいですか。",
+        "S'associe très souvent avec les pronoms interrogatifs どう (dō - comment), どこ (doko - où), いつ (itsu - quand)."
+      ],
+      "examples": [
+        {
+          "structure": "どこで切符を買ったらいいですか (Doko de kippu o kattara ii desu ka)",
+          "phonetic_api": "/do.ko de ki̥p.pɯ o kḁt.ta.ɾi iː de.sɯ.ka/",
+          "meaning": "Où devrais-je acheter mon ticket ? / Où est-il préférable que j'achète le ticket ?"
+        }
+      ]
+    },
+    {
+      "concept": "Donner un conseil ou une suggestion forte : [Verbe forme -ta / -nai] ほうがいいです (hō ga ii desu)",
+      "explanation": "La structure '～ほうがいいです' (hō ga ii desu) permet de formuler une recommandation ou un conseil précis. Grammaticalement, pour un conseil affirmatif, le verbe précédant 'hō' se conjugue obligatoirement à la forme passée informelle (en -ta). Pour un conseil négatif ('il vaut mieux ne pas faire'), le verbe se met à la forme négative présente (en -nai). Elle possède une nuance d'incitation forte.",
+      "rules": [
+        "Conseil affirmatif : [Verbe Forme -ta] + ほうがいいです (Ex: 行ったほうがいいです - Il vaut mieux y aller).",
+        "Conseil négatif : [Verbe Forme -nai] + ほうがいいです (Ex: 行かないほうがいいです - Il vaut mieux ne pas y aller)."
+      ],
+      "examples": [
+        {
+          "structure": "病院へ行ったほうがいいですよ (Byōin e itta hō ga ii desu yo)",
+          "phonetic_api": "/bjoː.iɴ e i̥t.ta hoː ɡa iː de.sɯ jo/",
+          "meaning": "Il vaut mieux que vous alliez à l'hôpital / Vous devriez aller à l'hôpital."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "クワン (Khuan)",
+      "text": "山田さん、市役所に行きたいんですが、どうやって行ったらいいですか。",
+      "phonetic_api": "/ja.ma.da saɴ ɕi.ja.kɯ.ɕo ni i.ki.ta.iɴ de.sɯ ɡa doː jḁt.te i̥t.ta.ɾi iː de.sɯ.ka/",
+      "phonetic_simple": "YA-MA-DA SAN, CHI-YAK-OU-CHO NI I-KI-TA-IN DESS GA, DOO YAT-TÉ IT-TA-RA II DESS-KA ?",
+      "translation": "Yamada, je voudrais aller à la mairie, comment devrais-je m'y rendre ? (Demande de conseil)"
+    },
+    {
+      "speaker": "山田 (Yamada)",
+      "text": "市役所ですか。歩くと遠いですよ。バスで行ったほうがいいです。",
+      "phonetic_api": "/ɕi.ja.kɯ.ɕo de.sɯ.ka a.ɾɯ.kɯ to toː.i de.sɯ jo ba.sɯ de i̥t.ta hoː ɡa iː de.sɯ̥/",
+      "phonetic_simple": "CHI-YAK-OU-CHO DESS KA ? A-ROU-KOU TO TOO-I DESS YO. BA-SOU DÉ IT-TA HOO GA II DESS.",
+      "translation": "La mairie ? Si vous marchez, c'est loin. Il vaut mieux y aller en bus. (Conseil fort)"
+    },
+    {
+      "speaker": "クワン (Khuan)",
+      "text": "そうですか。バス乗り場はどこですか。説明書を見てもよくわかりません。",
+      "phonetic_api": "/soː de.sɯ.ka ba.sɯ no.ɾi.ba wa do.ko de.sɯ.ka se̥t͡sɯ.meː.ɕo o mi.te mo jo.kɯ wa.ka.ɾi.ma.seɴ/",
+      "phonetic_simple": "SOO DESS KA. BA-SOU NO-RI-BA WA DO-KO DESS-KA ? SETS-OU-MÉE-CHO O MI-TÉ MO YO-KOU WA-KA-RI-MA-SEN.",
+      "translation": "D'accord. Où se trouve l'arrêt de bus ? Même en regardant le plan/la notice, je ne comprends pas bien."
+    },
+    {
+      "speaker": "山田 (Yamada)",
+      "text": "まず駅の北口を出てください。次に、目の前にある三番の乗り場からバスに乗るといいですよ。",
+      "phonetic_api": "/ma.zɯ e.ki no ki.ta.ɡɯ.t͡ɕi o de.te kɯ.da.sa.i t͡sɯ.ɡi ni me no ma.e ni a.ɾɯ saɴ.baɴ no no.ɾi.ba ka.ɾa ba.sɯ ni no.ɾɯ to iː de.sɯ jo/",
+      "phonetic_simple": "MA-ZOU É-KI NO KI-TA-GOU-TCHI O DÉ-TÉ KOU-DA-SA-I. TSOU-GI NI, MÉ NO MA-É NI A-ROU SAN-BAN NO NO-RI-BA KA-RA BA-SOU NI NO-ROU TO II DESS YO.",
+      "translation": "Tout d'abord, sortez par la sortie nord de la gare. Ensuite, il vous suffit de prendre le bus à l'arrêt numéro 3 juste devant vous."
+    }
+  ],
+  "cultural_notes": [
+    "Au Japon, l'expression de conseils via 'hō ga ii desu' est parfois jugée un peu trop directive ou autoritaire si elle est adressée à un supérieur hiérarchique, car elle implique que le locuteur sait mieux ce qu'il faut faire. Face à un chef, on préférera des tournures beaucoup plus douces et indirectes comme '～はいかがでしょうか' (~ wa ikaga deshō ka - Que penseriez-vous de... ?).",
+    "La société japonaise accorde une importance capitale aux procédures ordonnées étape par étape. Que ce soit pour remplir un formulaire à la mairie, trier ses déchets de copropriété ou utiliser un distributeur automatique, des pancartes ultra-détaillées avec des mascottes illustrées guident pas à pas l'usager pour éviter toute erreur de comportement (Meiwaku)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la formulation grammaticale correcte pour conseiller à quelqu'un : 'Tu devrais te coucher tôt ce soir (hayaku neru)' ?",
+      "options": [
+        "早く寝るほうがいいです (Hayaku neru hō ga ii desu)",
+        "早く寝たほうがいいです (Hayaku neta hō ga ii desu)",
+        "早く寝なければほうがいいです (Hayaku nenakereba hō ga ii desu)"
+      ],
+      "correct_answer": "早く寝たほうがいいです (Hayaku neta hō ga ii desu)",
+      "explanation": "Pour un conseil affirmatif avec 'hō ga ii desu', le verbe doit impérativement être conjugué à la forme passée informelle en -ta ('neta')."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "財布を忘れた時、だれに お金を借り[ ___ ] いいですか。(Que devrais-je faire ?)",
+      "correct_answer": "たら",
+      "hint": "Entrez la terminaison de la forme conditionnelle requise avec le verbe 'kariru' pour clore la structure de demande de conseil."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "lesson_id": "C1_M2_L4",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 4,
+  "title": "Les proverbes, dictons et expressions imagées de la culture",
+  "learning_objectives": [
+    "Décoder et utiliser les métaphores animalières et végétales des proverbes loma/toma",
+    "Insérer un dicton ancestral de manière fluide pour appuyer un argument"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les formules sapientiales emploient un rythme formulaire poétique où l'accentuation s'attarde sur les voyelles finales allongées (/oː/, /aː/) pour marquer la solennité.",
+    "common_pitfalls": "Ne pas prononcer les proverbes de manière hachée. Ils forment un bloc prosodique dont la musicalité interne est indispensable à sa validation culturelle."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v22_1",
+      "term": "wɔlɔ-wɔlɔ-mɛni",
+      "phonetic_api": "/wɔ.lɔ.wɔ.lɔ.mɛ.ni/",
+      "phonetic_simple": "WO-LO-WO-LO-ME-NI",
+      "translation": "sagesse ancestrale / parole des anciens / tradition",
+      "example_sentence": "Wɔlɔ-wɔlɔ-mɛni lɔ tɔñ ɓaa.",
+      "example_phonetic": "/wɔ.lɔ.wɔ.lɔ.mɛ.ni lɔ tɔ̃ ɓaː/",
+      "example_translation": "La tradition des anciens est la vérité pure."
+    },
+    {
+      "word_id": "v22_2",
+      "term": "kɔvɔ",
+      "phonetic_api": "/kɔ.vɔ/",
+      "phonetic_simple": "KO-VO",
+      "translation": "proverbe / parabole / énigme",
+      "example_sentence": "Kêe za-waza kɔvɛ ve.",
+      "example_phonetic": "/kɛ̂ː za.va.za kɔ.vɛ vɛ/",
+      "example_translation": "Le sage a énoncé une parabole."
+    },
+    {
+      "word_id": "v22_3",
+      "term": "kali-zu-nu",
+      "phonetic_api": "/ka.li.zu.nu/",
+      "phonetic_simple": "KA-LI-ZOU-NOU",
+      "translation": "homme rusé (litt. l'homme au regard de serpent)",
+      "example_sentence": "O ga kali-zu-nu gaza.",
+      "example_phonetic": "/o ɡa ka.li.zu.nu ɡa.za/",
+      "example_translation": "C'est un homme extrêmement rusé."
+    },
+    {
+      "word_id": "v22_4",
+      "term": "wulu-vaza",
+      "phonetic_api": "/wu.lu.va.za/",
+      "phonetic_simple": "WOU-LOU-VA-ZA",
+      "translation": "arbre à bonnes racines / lignée noble",
+      "example_sentence": "Na hêmɛ ga wulu-vaza.",
+      "example_phonetic": "/na hɛ̂ː.mɛ ɡa wu.lu.va.za/",
+      "example_translation": "Ma famille est issue d'une lignée noble."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p22_1",
+      "original": "Tei lo-ga kɔvɛ zu: loi pɛ́ ɓɛpɛ kêe ma taa-zu.",
+      "phonetic_api": "/tɛi lo.ɡa kɔ.vɛ zu loi pɛ́ ɓɛ.pɛ kɛ̂ː ma taː.zu/",
+      "phonetic_simple": "TEÏ LO-GA KO-VE ZOU: LOÏ PE BE-PE KEE MA TAA-ZOU",
+      "translation": "Comme le dit le proverbe : l'enfant ne devance pas son père sur la place publique.",
+      "context": "Dicton formel rappelé pour replacer la hiérarchie de l'âge au centre d'un débat."
+    },
+    {
+      "phrase_id": "p22_2",
+      "original": "Ya ɓalaa-zu pɛ́ kali sañ gbala ma.",
+      "phonetic_api": "/ja ɓa.laː.zu pɛ́ ka.li sã ɡba.la ma/",
+      "phonetic_simple": "YA BA-LAA-ZOU PE KA-LI SAN GBA-LA MA",
+      "translation": "L'eau claire ne coule pas près du trou du serpent (Méfiance face aux apparences).",
+      "context": "Expression métaphorique pour inciter à la prudence face à une proposition trop belle."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'introduction comparative 'tei lo-ga'",
+      "explanation": "Pour insérer un proverbe ou une vérité générale dans le discours sans se l'approprier personnellement, on utilise la tournure figée 'tei lo-ga' (litt. 'comme cela est ancré/dit dans').",
+      "rules": [
+        "La formule se place impérativement en tête de phrase pour annoncer le changement de registre.",
+        "Le proverbe qui suit conserve ses structures archaïques ou ses élisions poétiques d'origine."
+      ],
+      "examples": [
+        {
+          "structure": "tei lo-ga kɔvɛ zu...",
+          "phonetic_api": "/tɛi lo.ɡa kɔ.vɛ zu/",
+          "meaning": "selon ce qui est dit dans la parabole..."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "ZÉzé",
+      "text": "Tokpa lo-zu gwi lɔ ma kɛna-gbe? O lo ga o taa nuwu ɓɛpɛ.",
+      "phonetic_api": "/zɛ.zɛ o lo.zu ɡwi lɔ ma kɛ.na.ɡbɛ o lo ɡa o taː nu.wu ɓɛ.pɛ/",
+      "phonetic_simple": "ZE-ZE O LO-ZOU GWI LO MA KE-NA-GBE ? O LO GA O TAA NOU-WOU BE-PE",
+      "translation": "Qu'est devenue l'ambition passée de Tokpa ? Il prétend diriger tous les citoyens de la ville."
+    },
+    {
+      "speaker": "L'Ancien",
+      "text": "Tei lo-ga kɔvɛ zu: ɓɛ́ i kɔwɔ pɛ́ lɔ, i pɛ́ kɛ gwi-zu. O kɛ̃ o kɔni mɛni.",
+      "phonetic_api": "/tɛi lo.ɡa kɔ.vɛ zu ɓɛ́ i kɔ.wɔ pɛ́ lɔ i pɛ́ kɛ ɡwi.zu o kɛ̃ o kɔ.ni mɛ.ni/",
+      "phonetic_simple": "TEÏ LO-GA KO-VE ZOU: BE I KO-WO PE LO, I PE KE GWI-ZOU. O KEN O KO-NI ME-NI",
+      "translation": "Comme le dit le proverbe : si tes pieds ne sont pas ancrés au sol, ne défie pas l'éléphant. Il doit d'abord apprendre à écouter les conseils."
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Toma, le recours aux proverbes n'est pas un artifice décoratif, mais l'unique moyen légitime de clore un litige juridique ou foncier. Un proverbe bien placé, hérité des ancêtres, possède une force de loi coutumière incontestée."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex22_1",
+      "type": "multiple_choice",
+      "question": "Que désigne précisément le terme 'kɔvɔ' (ou kɔvɛ lorsqu'il est déterminé) ?",
+      "options": [
+        "Un outil agricole",
+        "Un proverbe / une parabole",
+        "Le chef du village"
+      ],
+      "correct_answer": "Un proverbe / une parabole",
+      "explanation": "'kɔvɔ' est le concept abstrait englobant les énigmes morales et les proverbes imagés."
+    },
+    {
+      "exercise_id": "ex22_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] lo-ga kɔvɛ zu (Comme le dit le proverbe).",
+      "correct_answer": "Tei",
+      "hint": "Le morphème comparatif et introductif obligatoire."
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "lesson_id": "B1_M1_L3",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "L'espace de vie et l'environnement urbain",
+  "lesson_number": 3,
+  "title": "Exprimer ses goûts, ses préférences et ses sentiments",
+  "learning_objectives": [
+    "Exprimer une palette variée de sentiments et d'états émotionnels en arabe standard",
+    "Formuler une préférence nuancée ou un rejet poli à l'aide de verbes et de structures intermédiaires",
+    "Justifier ses choix et ses goûts à l'aide de propositions subordonnées de cause"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon utilise des phonèmes liés à l'expression de l'intériorité. Le sound /ħ/ (ح) est fondamental dans 'Huzn' (tristesse) et 'Farah' (joie). Le sound /ʔ/ (Hamza) exige une occlusion glottale nette dans 'Kaba'ah' (dépression/mélancolie) ou 'Tafa'ul' (optimisme). La consonne emphatique /dˤ/ (ض) se retrouve dans 'Ghadab' (colère).",
+    "common_pitfalls": "Attention à ne pas escamoter la Shaddah sur le verbe 'Yufaḍḍilu' (يُفَضِّلُ - préférer). Le /dˤ/ (ض) doit être doublé et prononcé avec une résonance emphatique lourde, sous peine de rendre le mot incompréhensible ou de l'assimiler à un son léger /d/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "سَعَادَةٌ",
+      "phonetic_api": "/sa.ʕaː.da.tun/",
+      "phonetic_simple": "SA-AA-DA-TOUN",
+      "translation": "Le bonheur / La joie",
+      "example_sentence": "أَشْعُرُ بِسَعَادَةٍ كَبِيرَةٍ الْيَوْمَ",
+      "example_phonetic": "/.../",
+      "example_translation": "Je ressens un grand bonheur aujourd'hui"
+    },
+    {
+      "word_id": "v2",
+      "term": "غَضَبٌ",
+      "phonetic_api": "/ɣa.dˤa.bun/",
+      "phonetic_simple": "GHA-DA-BOUN",
+      "translation": "La colère",
+      "example_sentence": "الْغَضَبُ لَا يَحُلُّ الْمُشْكِلَةَ",
+      "example_phonetic": "/al.ɣa.dˤa.bu laː ja.ħul.lul muʃ.ki.la.ta/",
+      "example_translation": "La colère ne résout pas le problème"
+    },
+    {
+      "word_id": "v3",
+      "term": "خَوْفٌ",
+      "phonetic_api": "/xaw.fun/",
+      "phonetic_simple": "KHAW-FOUN",
+      "translation": "La peur / L'appréhension",
+      "example_sentence": "أَشْعُرُ بِالْخَوْفِ مِنَ الْفَشَلِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Je ressens de la peur face à l'échec"
+    },
+    {
+      "word_id": "v4",
+      "term": "اِرْتِيَاحٌ",
+      "phonetic_api": "/ir.ti.jaː.ħun/",
+      "phonetic_simple": "IR-TI-YAA-HOUN",
+      "translation": "Le soulagement / Le confort / Le bien-être",
+      "example_sentence": "هَذَا الْمَكَانُ يُعْطِينِي ارْتِيَاحًا",
+      "example_phonetic": "/.../",
+      "example_translation": "Cet endroit me procure du bien-être"
+    },
+    {
+      "word_id": "v5",
+      "term": "إِعْجَابٌ",
+      "phonetic_api": "/ʔiʕ.dʒaː.bun/",
+      "phonetic_simple": "I'-DJAA-BOUN",
+      "translation": "L'admiration / Le coup de cœur",
+      "example_sentence": "عَبَّرَ عَنْ إِعْجَابِهِ بِالْفَنِّ",
+      "example_phonetic": "/.../",
+      "example_translation": "Il a exprimé son admiration pour l'art"
+    },
+    {
+      "word_id": "v6",
+      "term": "قَلَقٌ",
+      "phonetic_api": "/qa.la.qun/",
+      "phonetic_simple": "KA-LA-KOUN",
+      "translation": "L'anxiété / L'inquiétude",
+      "example_sentence": "عِنْدِي قَلَقٌ بِشَأْنِ الِامْتِحَانِ",
+      "example_phonetic": "/.../",
+      "example_translation": "J'ai de l'inquiétude au sujet de l'examen"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "بِمَاذَا تَشْعُرُ الآنَ؟",
+      "phonetic_api": "/bi.maː.ðaː taʃ.ʕu.ru l.ʔaː.na/",
+      "phonetic_simple": "BI-MAA-THAA TACH-OU-ROUL AAN",
+      "translation": "Que ressens-tu maintenant ? (à un homme)",
+      "context": "Question ouverte pour s'enquérir de l'état émotionnel d'un interlocuteur."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "أَنَا أُفَضِّلُ هَذَا الرَّأْيَ لِأَنَّهُ مَنْطِقِيٌّ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "A-NAA OU-FAD-DI-LOU HAA-THAR RA'-YA LI-AN-NA-HOU MAN-TI-KII",
+      "translation": "Je préfère cet avis parce qu'il est logique",
+      "context": "Exprimer et justifier une préférence intellectuelle ou personnelle."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "أَشْعُرُ بِالْحُزْنِ بِسَبَبِ الأَخْبَارِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "ACH-OU-ROU BIL-HOUZ-NI BI-SA-BA-BIL AKH-BAAR",
+      "translation": "Je me sens triste à cause des nouvelles",
+      "context": "Associer un sentiment de tristesse à une cause extérieure."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "لَا أُطِيقُ الزَّحَامَ فِي الْمَدِينَةِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "LAA OU-TII-KOUZ ZA-HAA-MA FIL MA-DII-NA",
+      "translation": "Je ne supporte pas les embouteillages en ville",
+      "context": "Formuler un rejet fort ou une aversion de niveau intermédiaire."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "هَذَا الأَمْرُ يُفْرِحُنِي جِدًّا",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAA-THAL AM-ROU YOUF-RI-HOU-NII DJID-DAN",
+      "translation": "Cette affaire me réjouit beaucoup",
+      "context": "Exprimer un sentiment de joie provoqué par un événement."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression des sentiments : Le verbe 'Yash'uru bi-' (يَشْعُرُ بِـ)",
+      "explanation": "En arabe, pour exprimer un sentiment ou un état d'esprit, on utilise le verbe 'Sha'ara / Yash'uru' (شَعَرَ / يَشْعُرُ - ressentir), obligatoirement suivi de la préposition 'bi-' (بِـ) liée au nom du sentiment.",
+      "rules": [
+        "Le verbe se conjugue normalement à l'accompli ou à l'inaccompli selon le temps du récit.",
+        "Le nom qui suit la préposition 'bi-' se met impérativement au cas indirect (Génitif/Kasra).",
+        "Si l'on emploie un adjectif après le sentiment, cet adjectif s'accorde en genre et en cas (Génitif)."
+      ],
+      "examples": [
+        {
+          "structure": "أَشْعُرُ بِالْفَرَحِ",
+          "phonetic_api": "/ʔasˤ.ʕu.ru bil.fa.ra.ħi/",
+          "meaning": "Je ressens de la joie / Je me réjouis (Al-Farah prend une kasra)"
+        },
+        {
+          "structure": "تَشْعُرُ بِقَلَقٍ شَدِيدٍ",
+          "phonetic_api": "/taʃ.ʕu.ru bi.qa.la.qin ʃa.diː.din/",
+          "meaning": "Elle ressent une forte anxiété (Accord de l'adjectif au génitif)"
+        }
+      ]
+    },
+    {
+      "concept": "La subordination de cause : 'Li'anna' (لِأَنَّ) et 'Bi-sababi' (بِسَبَبِ)",
+      "explanation": "Pour justifier ses goûts ou ses sentiments au niveau intermédiaire, on emploie des connecteurs de cause distincts selon la nature de ce qui suit.",
+      "rules": [
+        "Li'anna (لِأَنَّ - parce que) est une particule de la famille de 'Inna'. Elle doit obligatoirement être suivie d'un nom ou d'un pronom enclitique au cas direct (Accusatif).",
+        "Bi-sababi (بِسَبَبِ - à cause de) est une locution prépositive. Elle est obligatoirement suivie d'un nom au cas indirect (Génitif)."
+      ],
+      "examples": [
+        {
+          "structure": "أُحِبُّ الْقِرَاءَةَ لِأَنَّهَا مُفِيدَةٌ",
+          "phonetic_api": "/.../",
+          "meaning": "J'aime la lecture parce qu'elle est utile (Pronom -hā rattaché à Li'anna)"
+        },
+        {
+          "structure": "أَنَا غَاضِبٌ بِسَبَبِ التَّأْخِيرِ",
+          "phonetic_api": "/.../",
+          "meaning": "Je suis en colère à cause du retard (Al-Ta'khīr prend une kasra)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "يُوسُف (Youssef)",
+      "text": "أَهْلًا يَا نُورُ. أَرَاكِ مُبْتَسِمَةً الْيَوْمَ ! هَلْ تَشْعُرِينَ بِالرَّاحَةِ فِي عَمَلِكِ الْجَدِيدِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN YA NOUR. A-RAA-KI MOUB-TA-SI-MA L-YAW-M ! HAL TACH-OU-RII-NA BIL-RAA-HA FII A-MA-LI-KI L-DJA-DIID",
+      "translation": "Salut Nour. Je te vois souriante aujourd'hui ! Te sens-tu à l'aise dans ton nouveau travail ?"
+    },
+    {
+      "speaker": "نُور (Nour)",
+      "text": "أَهْلًا يُوسُفُ. نَعَمْ، أَشْعُرُ بِسَعَادَةٍ كَبِيرَةٍ لِأَنَّ بِيئَةَ الْعَمَلِ رَائِعَةٌ وَالْمُوَظَّفِينَ لُطَفَاءُ جَدًّا.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN YOUS-SOUF. NA-AM, ACH-OU-ROU BI-SA-AA-DA-TIN KA-BII-RA LI-AN-NA BII-A-TAL A-MA-LI RAA-I-A...",
+      "translation": "Salut Youssef. Oui, je ressens un grand bonheur parce que l'environnement de travail est magnifique et les employés sont très gentils."
+    },
+    {
+      "speaker": "يُوسُف (Youssef)",
+      "text": "هَذَا مُمْتَازٌ. أَنَا عَلَى الْعَكْسِ، أَشْعُرُ بِالْقَلَقِ وَالْإِجْهَادِ هَذِهِ الأَيَّامَ بِسَبَبِ ضَغْطِ الْمَشَارِيعِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAA-THAA MOUM-TAAZ. A-NAA A-LAL AK-SI, ACH-OU-ROU BIL-KA-LA-KI WAL-IDj-HAA-DI HAA-THI-HIL AY-YAAM...",
+      "translation": "C'est excellent. Moi, au contraire, je ressens de l'anxiété et du stress ces jours-ci à cause de la pression des projets."
+    },
+    {
+      "speaker": "نُور (Nour)",
+      "text": "لَا تَقْلَقْ يَا صَدِيقِي. الْحَيَاةُ فِيهَا صُعُوبَاتٌ، لَكِنْ يَجِبُ أَنْ نُحَافِظَ عَلَى التَّفَاؤُلِ دَائِمًا.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "LAA TAK-LAK YA SA-DII-KII. AL-HA-YAA-TOU FII-HAA SOU-OU-BAAT, LA-KIN YA-DJI-BOU AN NOU-HAA-FI-THA...",
+      "translation": "Ne t'inquiète pas, mon ami. La vie réserve des difficultés, mais nous devons toujours préserver notre optimisme."
+    }
+  ],
+  "cultural_notes": [
+    "La pudeur émotionnelle (Al-Haya') : Dans les interactions sociales arabes traditionnelles, l'expression publique d'une colère noire ou d'une détresse psychologique intime est souvent contenue par pudeur culturelle. On préfère souvent répondre 'Alhamdulillah' (Louange à Dieu) même en période difficile, pour témoigner de sa patience et de sa dignité.",
+    "L'optimisme par la langue : Les expressions arabes courantes intègrent énormément de formules destinées à chasser la tristesse ou l'anxiété de l'interlocuteur, comme 'La taqlaq' (Ne t'inquiète pas) ou 'Khayr Inshā'Allāh' (Que cela soit un bien, si Dieu le veut), agissant comme des supports moraux systématiques."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M1_L3_ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la formulation grammaticalement correcte pour exprimer : 'Je me sens en colère' ?",
+      "options": [
+        "أَشْعُرُ الْغَضَبَ (Ash'uru l-ghadaba)",
+        "أَشْعُرُ بِالْغَضَبِ (Ash'uru bil-ghadabi)",
+        "أَنَا لَا أُطِيقُ الْغَضَبَ (Anā lā uṭīqu l-ghadaba)"
+      ],
+      "correct_answer": "أَشْعُرُ بِالْغَضَبِ (Ash'uru bil-ghadabi)",
+      "explanation": "Le verbe Yash'uru requiert de manière rigoureuse la préposition 'bi-' suivie du nom au génitif."
+    },
+    {
+      "exercise_id": "B1_M1_L3_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour lier un sentiment à un nom de cause, on utilise : أَشْعُرُ بِالْخَوْفِ [ ___ ] الِامْتِحَانِ",
+      "correct_answer": "بِسَبَبِ",
+      "hint": "La locution se traduit par 'à cause de' et régit le génitif."
+    },
+    {
+      "exercise_id": "B1_M1_L3_ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie la structure de rejet intermédiaire 'لَا أُطِيقُ' (Lā uṭīqu) ?",
+      "options": [
+        "Je n'aime pas trop",
+        "Je ne supporte pas / Je ne peux tolérer",
+        "Je préfère de loin"
+      ],
+      "correct_answer": "Je ne supporte pas / Je ne peux tolérer",
+      "explanation": "Lā uṭīqu exprime l'incapacité absolue à tolérer ou endurer une situation dérangeante."
+    }
+  ]
+}

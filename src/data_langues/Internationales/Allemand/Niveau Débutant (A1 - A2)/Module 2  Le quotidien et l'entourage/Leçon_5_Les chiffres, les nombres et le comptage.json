@@ -1,0 +1,240 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter avec précision de 0 jusqu'à 100 et au-delà",
+    "Comprendre la logique d'inversion des dizaines et des unités à partir de 21",
+    "Savoir exprimer et demander un numéro de téléphone ou un prix simple"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre -v- dans le chiffre 'vier' [fiːɐ̯] ou 'fünfzig' se prononce comme un [f]. Le chiffre 'zwei' possède l'affriquée [ts] initiale caractéristique. La diphtongue -eu- dans 'neun' se prononce [ɔɪ̯] (proche de oï). Le suffixe de dizaine -zig se prononce généralement [tsɪç] (avec le Ich-Laut palatal doux) dans la prononciation standard du Nord et du Centre.",
+    "common_pitfalls": "Attention au chiffre 'sechs' [zɛks] où le -chs- se prononce comme un [ks]. Ne confondez pas 'vierzehn' (14, accent sur le vier) et 'vierzig' (40). Veillez à ne pas prononcer le -s- final de 'sechs' quand il devient 'siebzehn' ou 'siebzig' (perte du s et du en)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "null",
+      "phonetic_api": "/nʊl/",
+      "phonetic_simple": "NOUL",
+      "translation": "zéro",
+      "example_sentence": "Meine Nummer beginnt mit Null.",
+      "example_phonetic": "/ˈmaɪ̯nə ˈnʊmɐ bəˈɡɪnt mɪt nʊl/",
+      "example_translation": "Mon numéro commence par zéro."
+    },
+    {
+      "word_id": "v2",
+      "term": "eins",
+      "phonetic_api": "/aɪ̯ns/",
+      "phonetic_simple": "AINS",
+      "translation": "un",
+      "example_sentence": "Eins plus eins ist zwei.",
+      "example_phonetic": "/aɪ̯ns plʊs aɪ̯ns ɪst tstvaɪ̯/",
+      "example_translation": "Un plus un égale deux."
+    },
+    {
+      "word_id": "v3",
+      "term": "vierzehn",
+      "phonetic_api": "/ˈfɪʁtseːn/",
+      "phonetic_simple": "FIIR-TSEEN",
+      "translation": "quatorze",
+      "example_sentence": "Er ist vierzehn Jahre alt.",
+      "example_phonetic": "/eːɐ̯ ɪst ˈfɪʁtseːn ˈjaːʁə alt/",
+      "example_translation": "Il a quatorze ans."
+    },
+    {
+      "word_id": "v4",
+      "term": "zwanzig",
+      "phonetic_api": "/ˈtsvantsɪç/",
+      "phonetic_simple": "TSVAN-TSICH",
+      "translation": "vingt",
+      "example_sentence": "Das Ticket kostet zwanzig Euro.",
+      "example_phonetic": "/das ˈtɪkət ˈkɔstət ˈtsvantsɪç ˈɔɪ̯ʁoː/",
+      "example_translation": "Le billet coûte vingt euros."
+    },
+    {
+      "word_id": "v5",
+      "term": "zählen",
+      "phonetic_api": "/ˈtsɛːlən/",
+      "phonetic_simple": "TSEE-LEN",
+      "translation": "compter",
+      "example_sentence": "Kinder lernen in der Schule zählen.",
+      "example_phonetic": "/ˈkɪndɐ ˈlɛʁnən ɪn deːɐ̯ ˈʃuːlə ˈtsɛːlən/",
+      "example_translation": "Les enfants apprennent à compter à l'école."
+    },
+    {
+      "word_id": "v6",
+      "term": "die Zahl",
+      "phonetic_api": "/diː tsaːl/",
+      "phonetic_simple": "DII TSAL",
+      "translation": "le nombre / le chiffre",
+      "example_sentence": "Sieben ist meine Glückszahl.",
+      "example_phonetic": "/ˈziːbn̩ ɪst ˈmaɪ̯nə ˈɡlʏksˌtsaːl/",
+      "example_translation": "Sept est mon chiffre de la chance."
+    },
+    {
+      "word_id": "v7",
+      "term": "hundert",
+      "phonetic_api": "/ˈhʊndɐt/",
+      "phonetic_simple": "HOUN-DERT",
+      "translation": "cent",
+      "example_sentence": "Ein Kilometer hat hundert Meter.",
+      "example_phonetic": "/aɪ̯n kiloˈmeːtɐ hat ˈhʊndɐt ˈmeːtɐ/",
+      "example_translation": "Un kilomètre contient cent mètres (à but explicatif)."
+    },
+    {
+      "word_id": "v8",
+      "term": "die Telefonnummer",
+      "phonetic_api": "/diː teləˈfoːnˌnʊmɐ/",
+      "phonetic_simple": "DII TE-LE-FOON-NOU-MER",
+      "translation": "le numéro de téléphone",
+      "example_sentence": "Wie ist Ihre Telefonnummer?",
+      "example_phonetic": "/viː ɪst ˈiːʁə teləˈfoːnˌnʊmɐ/",
+      "example_translation": "Quel est votre numéro de téléphone ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Wie viel kostet das?",
+      "phonetic_api": "/viː fiːl ˈkɔstət das/",
+      "phonetic_simple": "VII FIIL KOST-ET DAS",
+      "translation": "Combien ça coûte ?",
+      "context": "Demander le prix d'un article dans un magasin ou marché."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Das macht zusammen achtunddreißig Euro.",
+      "phonetic_api": "/das maxt tsuˈzamən ˈaxtʔʊntˈdʁaɪ̯sɪç ˈɔɪ̯ʁoː/",
+      "phonetic_simple": "DAS MAKT TSOU-ZA-MEN AK-OUND-DRAI-SICH OI-ROO",
+      "translation": "Ça fait trente-huit euros au total.",
+      "context": "Une caissière ou un serveur annonçant une somme globale."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Haben Sie ein bisschen Kleingeld?",
+      "phonetic_api": "/ˈhaːbn̩ ziː aɪ̯n ˈbɪsçən ˈklaɪ̯nɡɛlt/",
+      "phonetic_simple": "HA-BEN ZII AIN BIS-CHEN KLAIN-GELT",
+      "translation": "Avez-vous de la monnaie (petite monnaie) ?",
+      "context": "Payer un petit montant au kiosque."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Können Sie die Nummer bitte wiederholen?",
+      "phonetic_api": "/ˈkœnən ziː diː ˈnʊmɐ ˈbɪtə viːdɐˈhoːlən/",
+      "phonetic_simple": "KOE-NEN ZII DII NOU-MER BI-TE VII-DER-HOO-LEN",
+      "translation": "Pouvez-vous répéter le numéro s'il vous plaît ?",
+      "context": "Prendre des notes lors d'un appel téléphonique professionnel."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La logique d'inversion des nombres à partir de 21",
+      "explanation": "Contrairement au français et à l'anglais, l'allemand place systématiquement l'unité avant la dizaine pour tous les nombres complexes compris entre 21 et 99. Ils sont reliés par la conjonction 'und' (et) et s'écrivent en un seul mot compact.",
+      "rules": [
+        "La structure est invariable : Unité + und + Dizaine. Exemple: 21 = ein-und-zwanzig (le -s de eins disparaît).",
+        "Les dizaines se forment avec le suffixe '-zig' rajouté au chiffre de base (ex: vier-zig = 40).",
+        "Exceptions orthographiques de dizaines : 30 s'écrit exceptionnellement avec un Eszett '-ßig' (dreißig). Pour 60 (sechzig) et 70 (siebzig), la base est tronquée."
+      ],
+      "examples": [
+        {
+          "structure": "fünfundzwanzig (5 + und + 20)",
+          "phonetic_api": "/ˈfʏnfʔʊntˈtsvantsɪç/",
+          "meaning": "vingt-cinq"
+        },
+        {
+          "structure": "siebenundachtzig (7 + und + 80)",
+          "phonetic_api": "/ˈziːbn̩ʔʊntˈaxtsɪç/",
+          "meaning": "quatre-vingt-sept"
+        }
+      ]
+    },
+    {
+      "concept": "Le comportement de 'eins' dans la numérotation et devant les noms",
+      "explanation": "Le chiffre 1 change de forme selon la manière dont il est utilisé dans la phrase ou s'il fait partie d'un mot composé.",
+      "rules": [
+        "Quand on compte de manière brute (1, 2, 3...), on emploie 'eins'.",
+        "Au sein d'un nombre combiné où il occupe la position des unités (ex: 21, 31), il perd son -s final et devient 'ein' : einunddreißig.",
+        "S'il est employé comme un déterminant indéfini devant un nom, il se décline comme l'article 'ein/eine' : 'ein Euro'."
+      ],
+      "examples": [
+        {
+          "structure": "einundvierzig (41)",
+          "phonetic_api": "/ˈaɪ̯nʊntˈfɪʁtsɪç/",
+          "meaning": "quarante et un"
+        },
+        {
+          "structure": "Es kostet einen Euro. (Accusatif)",
+          "phonetic_api": "/ɛs ˈkɔstət ˈaɪ̯nən ˈɔɪ̯ʁoː/",
+          "meaning": "Ça coûte un euro."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kunde",
+      "text": "Entschuldigung, wie viel kostet dieses Buch, bitte?",
+      "phonetic_api": "/ɛntˈʃʊldɪɡʊŋ viː fiːl ˈkɔstət ˈdiːzəs buːx ˈbɪtə/",
+      "phonetic_simple": "ENT-CHOUL-DI-GUNG VII FIIL KOST-ET DII-ZES BOUK BI-TE",
+      "translation": "Excusez-moi, combien coûte ce livre s'il vous plaît ?"
+    },
+    {
+      "speaker": "Verkäuferin",
+      "text": "Das Buch kostet vierundzwanzig Euro und neunundneunzig Cent.",
+      "phonetic_api": "/das buːx ˈkɔstət ˈfɪːʁʊntˈtsvantsɪç ˈɔɪ̯ʁoː ʊnt ˈnɔɪ̯nʊntˈnɔɪ̯ntsɪç sɛnt/",
+      "phonetic_simple": "DAS BOUK KOST-ET FIIR-OUND-TSVAN-TSICH OI-ROO OUNT NOIN-OUND-NOIN-TSICH SENT",
+      "translation": "Le livre coûte vingt-quatre euros et quatre-vingt-dix-neuf centimes."
+    },
+    {
+      "speaker": "Kunde",
+      "text": "Gut, ich nehme es. Kann ich auch meine Telefonnummer für Kundenrabatte hinterlassen?",
+      "phonetic_api": "/ɡuːt ɪç ˈneːmə ɛs kan ɪç aʊ̯x ˈmaɪ̯nə teləˈfoːnˌnʊmɐ fyːɐ̯ ˈkʊndn̩ʁaˌbatə hɪntɐˈlasn̩/",
+      "phonetic_simple": "GOUT ICH NEE-ME ES KAN ICH AOUK MAI-NE TE-LE-FOON-NOU-MER FUUR KOUN-DEN-RA-BA-TE HIN-TER-LAS-NEN",
+      "translation": "Bien, je le prends. Puis-je aussi laisser mon numéro de téléphone pour les remises client ?"
+    },
+    {
+      "speaker": "Verkäuferin",
+      "text": "Ja, gerne. Wie ist Ihre Nummer?",
+      "phonetic_api": "/jaː ˈɡɛʁnə viː ɪst ˈiːʁə ˈnʊmɐ/",
+      "phonetic_simple": "YA GER-NE VII IST II-RE NOU-MER",
+      "translation": "Oui, volontiers. Quel est votre numéro ?"
+    },
+    {
+      "speaker": "Kunde",
+      "text": "Null-eins-sieben-drei, zweiundfünfzig, sechsundachtzig, neun.",
+      "phonetic_api": "/nʊl aɪ̯ns ˈziːbn̩ dʁaɪ̯ ˈtstvaɪ̯ʊntˈfʏnftsɪç zɛksʔʊntˈaxtsɪç nɔɪ̯/",
+      "phonetic_simple": "NOUL AINS ZII-BEN DRAI TSVAI-OUND-FUUNF-TSICH ZEKS-OUND-AK-TSICH NOIN",
+      "translation": "0173 52 86 9."
+    }
+  ],
+  "cultural_notes": [
+    "Pour dicter un numéro de téléphone en allemand, il est d'usage soit de donner chaque chiffre de manière isolée (eins, sept, drei...), soit de les grouper sous forme de blocs de deux chiffres (dizaines inversées) comme le ferait un locuteur natif pour aller plus vite.",
+    "La monnaie officielle étant l'euro, les prix s'énoncent généralement en plaçant le mot 'Euro' au milieu de la phrase pour séparer la somme principale des centimes. Exemple : '2,50 €' se dira fréquemment 'zwei Euro fünfzig'.",
+    "Dans l'écriture manuscrite ou numérique en Allemagne, le séparateur décimal est toujours la virgule (der Komma), tandis que le point sert à séparer les milliers."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment écrit-on en toutes lettres le nombre 73 en allemand ?",
+      "options": [
+        "siebzigunddrei",
+        "dreiundsiebzig",
+        "dreiundsiebzehn"
+      ],
+      "correct_answer": "dreiundsiebzig",
+      "explanation": "L'unité (drei) se place devant, suivie de la conjonction (und) et de la dizaine (siebzig)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le nombre 30 s'écrit d-r-e-i-[ ___ ]-i-g.",
+      "correct_answer": "ß",
+      "hint": "C'est la seule dizaine qui requiert l'usage de l'Eszett au lieu du z."
+    }
+  ]
+}

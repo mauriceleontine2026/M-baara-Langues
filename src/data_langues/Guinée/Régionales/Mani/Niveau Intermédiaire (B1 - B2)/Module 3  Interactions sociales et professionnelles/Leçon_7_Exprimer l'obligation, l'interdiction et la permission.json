@@ -1,0 +1,179 @@
+{
+  "lesson_id": "B1_M3_L7",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 7,
+  "title": "Exprimer l'obligation, l'interdiction et la permission",
+  "learning_objectives": [
+    "Exprimer le devoir et la nécessité d'accomplir une tâche en Mani",
+    "Formuler une interdiction claire au sein de la communauté",
+    "Demander et accorder une permission de façon polie et respectueuse"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne occlusive glottale sourde ou l'aspiration forte /h/ s'articule nettement au début de termes modaux comme 'haani'. Le groupe de voyelles successives et nasalisées comme 'oŋ' dans 'tɔŋ' exige un abaissement complet du voile du palais pour éviter toute déformation phonique.",
+    "common_pitfalls": "Attention à ne pas omettre la négation finale 'inde' qui, lorsqu'elle est combinée avec la particule d'état 'bɛ', inverse complètement la modalité d'action ou de permission."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v16_1",
+      "term": "haani",
+      "phonetic_api": "/haː.ni/",
+      "phonetic_simple": "HAA-NI",
+      "translation": "devoir / falloir / avoir l'obligation de",
+      "example_sentence": "N haani wɔli hɔnkɔ lɔ.",
+      "example_phonetic": "/n̩ haː.ni wɔ.li hɔn.kɔ lɔ/",
+      "example_translation": "Je dois travailler aujourd'hui."
+    },
+    {
+      "word_id": "v16_2",
+      "term": "inde",
+      "phonetic_api": "/in.de/",
+      "phonetic_simple": "IN-DE",
+      "translation": "non / particule d'interdiction ou de négation",
+      "example_sentence": "Béré lɔ inde.",
+      "example_phonetic": "/be.re lɔ in.de/",
+      "example_translation": "Ne joue pas ici (Jouer ici non)."
+    },
+    {
+      "word_id": "v16_3",
+      "term": "mɛlɛ",
+      "phonetic_api": "/mɛ.lɛ/",
+      "phonetic_simple": "MÈ-LÈ",
+      "translation": "pouvoir / être permis / autoriser",
+      "example_sentence": "Wun mɛlɛ fɔkɔ su cɛm.",
+      "example_phonetic": "/wun mɛ.lɛ fɔ.kɔ su tʃɛm/",
+      "example_translation": "Tu peux entrer à l'intérieur de la chambre."
+    },
+    {
+      "word_id": "v16_4",
+      "term": "kperɛ",
+      "phonetic_api": "/kpe.rɛ/",
+      "phonetic_simple": "KPE-RÈ",
+      "translation": "donner / accorder la permission",
+      "example_sentence": "Kperɛ mi kira.",
+      "example_phonetic": "/kpe.rɛ mi ki.ra/",
+      "example_translation": "Donne-moi le chemin (Accorde-moi le passage)."
+    },
+    {
+      "word_id": "v16_5",
+      "term": "tɔgɔ",
+      "phonetic_api": "/tɔ.ɡɔ/",
+      "phonetic_simple": "TO-GO",
+      "translation": "loi / règle / coutume communautaire",
+      "example_sentence": "Tɔgɔ gbun na mɛnni.",
+      "example_phonetic": "/tɔ.ɡɔ ɡbun na mɛn.ni/",
+      "example_translation": "C'est une grande règle là-bas."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p16_1",
+      "original": "N haani tira woŋ woni.",
+      "phonetic_api": "/n̩ haː.ni ti.ra woŋ wo.ni/",
+      "phonetic_simple": "N HAA-NI TI-RA WONG WO-NI",
+      "translation": "Je dois impérativement voyager à la ville demain.",
+      "context": "Exprimer une obligation personnelle majeure ou professionnelle."
+    },
+    {
+      "phrase_id": "p16_2",
+      "original": "Diŋɛ mɛl mɛnni inde !",
+      "phonetic_api": "/di.ŋɛ mɛl mɛn.ni in.de/",
+      "phonetic_simple": "DI-NGÈ MÈL MÈN-NI IN-DE !",
+      "translation": "Il est interdit de manger du riz là-bas !",
+      "context": "Formuler une interdiction spatiale ou rituelle ferme."
+    },
+    {
+      "phrase_id": "p16_3",
+      "original": "N mɛlɛ béré kankaran lɔ ?",
+      "phonetic_api": "/n̩ mɛ.lɛ be.re kan.ka.ran lɔ/",
+      "phonetic_simple": "N MÈ-LÈ BÉ-RÉ KAN-KA-RAN LƆ ?",
+      "translation": "Puis-je jouer dans la cour ?",
+      "context": "Demander poliment l'autorisation d'accéder à un espace."
+    },
+    {
+      "phrase_id": "p16_4",
+      "original": "Oon, wun mɛlɛ ŋon lan.",
+      "phonetic_api": "/oːn wun mɛ.lɛ ŋon lan/",
+      "phonetic_simple": "OON, WOUN MÈ-LÈ NGON LAN",
+      "translation": "Oui, tu as la permission de boire de l'eau.",
+      "context": "Accorder une autorisation immédiate à un invité."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure des auxiliaires modaux et la négation prohibitive",
+      "explanation": "Pour exprimer le devoir ou le pouvoir en Mani, on place les morphèmes modaux 'haani' ou 'mɛlɛ' directement après le sujet et avant le verbe d'action principal. L'interdiction ou la prohibition stricte s'exprime en rejetant la particule négative absolue 'inde' en toute fin de proposition.",
+      "rules": [
+        "Obligation / Permission : Sujet + Auxiliaire modal (haani/mɛlɛ) + Verbe d'action.",
+        "Interdiction absolue : Proposition affirmative + 'inde' en fin de phrase."
+      ],
+      "examples": [
+        {
+          "structure": "Wun haani wɔli",
+          "phonetic_api": "/wun haː.ni wɔ.li/",
+          "meaning": "Tu dois travailler"
+        },
+        {
+          "structure": "Gbɛŋ lɔ inde",
+          "phonetic_api": "/ɡbɛŋ lɔ in.de/",
+          "meaning": "Interdit de courir ici (Courir ici non)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Moussa",
+      "text": "Mboi Fanta ! N mɛlɛ fɔkɔ banxi lɔ su cɛm ?",
+      "phonetic_api": "/mboi fan.ta n̩ mɛ.lɛ fɔ.kɔ ban.xi lɔ su tʃɛm/",
+      "phonetic_simple": "MBOÏ FAN-TA ! N MÈ-LÈ FƆ-KƆ BAN-KHI LƆ SOU TCHÈM ?",
+      "translation": "Bonjour Fanta ! Puis-je entrer à l'intérieur de la maison dans la chambre ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Mboi Moussa ! Oon, wun mɛlɛ fɔkɔ. Kɔŋ, tuli n fara tɔgɔ.",
+      "phonetic_api": "/mboi mou.sa oːn wun mɛ.lɛ fɔ.kɔ kɔŋ tu.li n̩ fa.ra tɔ.ɡɔ/",
+      "phonetic_simple": "MBOÏ MOUS-SA ! OON, WOUN MÈ-LÈ FƆ-KƆ. KONG, TOU-LI N FA-RA TO-GO.",
+      "translation": "Bonjour Moussa ! Oui, tu peux entrer. S'il te plaît, écoute la règle de mon père."
+    },
+    {
+      "speaker": "Moussa",
+      "text": "N haani nɛ wɔli lɔ cɛm ?",
+      "phonetic_api": "/n̩ haː.ni nɛ wɔ.li lɔ tʃɛm/",
+      "phonetic_simple": "N HAA-NI NÈ WƆ-LI LƆ TCHÈM ?",
+      "translation": "Que dois-je faire comme travail à l'intérieur ici ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Wun haani béré ni bɔŋ. Béré gbeŋu ni inde !",
+      "phonetic_api": "/wun haː.ni be.re ni bɔŋ be.re ɡbe.ŋu ni in.de/",
+      "phonetic_simple": "WOUN HAA-NI BÉ-RÉ NI BONG. BÉ-RÉ GBÉ-NGOU NI IN-DE !",
+      "translation": "Tu dois jouer avec l'enfant. Il est formellement interdit de jouer avec de l'argent !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les villages Mani, les règles communautaires ('tɔgɔ') encadrent strictement les comportements dans les concessions familiales. Demander la permission avant de franchir le seuil d'une maison ('banxi') ou d'une chambre privée ('su') est un principe de politesse fondamental. Enfreindre une interdiction dictée par les anciens ('fara') nuit à l'harmonie ('yoma') collective."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex16_1",
+      "type": "multiple_choice",
+      "question": "Quel verbe exprime la permission ou la capacité en langue Mani ?",
+      "options": [
+        "haani",
+        "mɛlɛ",
+        "inde"
+      ],
+      "correct_answer": "mɛlɛ",
+      "explanation": "'Mɛlɛ' est l'auxiliaire modal utilisé pour signifier 'pouvoir' ou 'être autorisé à'."
+    },
+    {
+      "exercise_id": "ex16_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Tira mɛnni [ ___ ] ! (Interdit de voyager là-bas).",
+      "correct_answer": "inde",
+      "hint": "Le mot de négation absolue à placer en toute fin de phrase."
+    }
+  ]
+}

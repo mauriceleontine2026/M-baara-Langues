@@ -1,0 +1,123 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Mener une interaction complexe de négociation et de marchandage au marché",
+    "Utiliser les structures idiomatiques pour exprimer la cherté d'un produit",
+    "Gérer les expressions liées au rendu de monnaie et au paiement"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La double consonne nasale finale ou le groupe consonantique complexe exige un blocage net du flux d'air au niveau de la cavité buccale.",
+    "common_pitfalls": "Attention à bien distinguer l'intonation montante de la question de prix de l'intonation descendante de la complainte sur la cherté."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v15_1",
+      "term": "wɔndɛ",
+      "phonetic_api": "/wɔn.dɛ/",
+      "phonetic_simple": "WON-DÈ",
+      "translation": "combien / quel coût",
+      "example_sentence": "wɔndɛ atɔk mɔ ?",
+      "example_phonetic": "/wɔn.dɛ a.tɔk mɔ/",
+      "example_translation": "Combien coûte ce vêtement ?"
+    },
+    {
+      "word_id": "v15_2",
+      "term": "gala",
+      "phonetic_api": "/ga.la/",
+      "phonetic_simple": "GA-LA",
+      "translation": "argent / monnaie / coût",
+      "example_sentence": "mbi dɛp gala",
+      "example_phonetic": "/mbi dɛp ga.la/",
+      "example_translation": "J'ai de l'argent."
+    },
+    {
+      "word_id": "v15_3",
+      "term": "gbɛn",
+      "phonetic_api": "/g͡bɛn/",
+      "phonetic_simple": "GBÈN",
+      "translation": "être cher / de grande valeur / coûteux",
+      "example_sentence": "atɔk mɔ mɔ gbɛn",
+      "example_phonetic": "/a.tɔk mɔ mɔ g͡bɛn/",
+      "example_translation": "Ce vêtement est cher."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p15_1",
+      "original": "atɔk mɔ mɔ gbɛn tundo, kisin dɛp kisin",
+      "phonetic_api": "/a.tɔk mɔ mɔ g͡bɛn tun.do ki.sin dɛp ki.sin/",
+      "phonetic_simple": "A-TOK MO MO GBÈN TOUN-DO, KI-SIN DÈP KI-SIN",
+      "translation": "Ce vêtement est trop cher, diminue un peu le prix poliment",
+      "context": "Formule clé utilisée au marché de Boké pour lancer une négociation."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'interrogatif de quantité 'wɔndɛ'",
+      "explanation": "L'adverbe interrogatif de prix 'wɔndɛ' se place au tout début de l'énoncé lorsqu'il sert à demander une évaluation monétaire globale, suivi immédiatement du syntagme nominal concerné.",
+      "rules": [
+        "Structure standard : wɔndɛ + Objet + Marqueur déictique mɔ ?",
+        "La réponse donne généralement la valeur numérique suivie ou non du mot 'gala'."
+      ],
+      "examples": [
+        {
+          "structure": "wɔndɛ + mampa",
+          "phonetic_api": "/wɔn.dɛ mam.pa/",
+          "meaning": "Combien coûte le pain ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Le client",
+      "text": "mama kɔn, wɔndɛ atɔk mɔ ?",
+      "phonetic_api": "/ma.ma kɔn wɔn.dɛ a.tɔk mɔ/",
+      "phonetic_simple": "MA-MA KON, WON-DÈ A-TOK MO ?",
+      "translation": "Ma mère, combien coûte ce vêtement ?"
+    },
+    {
+      "speaker": "La marchande",
+      "text": "atɔk mɔ mɔ gbɛn. gala mankana.",
+      "phonetic_api": "/a.tɔk mɔ mɔ g͡bɛn ga.la man.ka.na/",
+      "phonetic_simple": "A-TOK MO MO GBÈN. GA-LA MAN-KA-NA",
+      "translation": "Ce vêtement est de grande valeur. C'est cinq unités d'argent."
+    },
+    {
+      "speaker": "Le client",
+      "text": "ɔn-ɔn, mɔ gbɛn tundo ! dɛp kisin kisin.",
+      "phonetic_api": "/ɔn.ɔn mɔ g͡bɛn tun.do dɛp ki.sin ki.sin/",
+      "phonetic_simple": "ON-ON, MO GBÈN TOUN-DO ! DÈP KI-SIN KI-SIN",
+      "translation": "Non, c'est trop cher ! Diminue un peu s'il te plaît."
+    }
+  ],
+  "cultural_notes": [
+    "Le marchandage commercial est une institution sociale majeure en Guinée maritime. Accepter le premier prix proposé sans discuter est parfois perçu comme un désintérêt pour l'interaction humaine sous-jacente à la transaction."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex15_1",
+      "type": "multiple_choice",
+      "question": "Quel mot signifie 'argent' ou 'valeur monétaire' ?",
+      "options": [
+        "gala",
+        "atɔk",
+        "kiya"
+      ],
+      "correct_answer": "gala",
+      "explanation": "'gala' s'emploie pour toutes les transactions financières courantes."
+    },
+    {
+      "exercise_id": "ex15_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "atɔk mɔ mɔ [ ___ ] tundo (Ce vêtement est trop cher)",
+      "correct_answer": "gbɛn",
+      "hint": "Le prédicat verbal traduisant la cherté d'un produit."
+    }
+  ]
+}

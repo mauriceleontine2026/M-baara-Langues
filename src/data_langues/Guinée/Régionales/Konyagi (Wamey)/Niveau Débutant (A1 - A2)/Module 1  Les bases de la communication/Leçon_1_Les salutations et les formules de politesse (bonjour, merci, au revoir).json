@@ -1,0 +1,207 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Savoir saluer une personne et répondre à une salutation de base",
+    "Prendre des nouvelles de l'entourage et de la famille",
+    "Exprimer le remerciement et prendre congé"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne vibrante alvéolaire voisée /r/ est légèrement roulée ou adoucie selon les locuteurs. Le digramme 'wé' ou 'bé' implique une articulation nette de la semi-voyelle /w/ ou de l'occlusive /b/.",
+    "common_pitfalls": "Ne pas omettre l'allongement de la voyelle finale dans les réponses rituelles, et veiller à bien marquer l'articulation de la finale 'gouè'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Ryambé",
+      "phonetic_api": "/jambɛ/",
+      "phonetic_simple": "RYAM-BÉ",
+      "translation": "Bonjour / Ça va ?",
+      "example_sentence": "Ryambé, Samba !",
+      "example_phonetic": "/jambɛ samba/",
+      "example_translation": "Bonjour, Samba !"
+    },
+    {
+      "word_id": "v2",
+      "term": "gouè",
+      "phonetic_api": "/ɡwɛ/",
+      "phonetic_simple": "GOUÈ",
+      "translation": "en paix / bien",
+      "example_sentence": "Ryambé gouè.",
+      "example_phonetic": "/jambɛ ɡwɛ/",
+      "example_translation": "Bonjour en paix (Tout va bien)."
+    },
+    {
+      "word_id": "v3",
+      "term": "kakaré",
+      "phonetic_api": "/kakaʁɛ/",
+      "phonetic_simple": "KA-KA-RÉ",
+      "translation": "la maison / la famille",
+      "example_sentence": "Kakaré gouè ?",
+      "example_phonetic": "/kakaʁɛ ɡwɛ/",
+      "example_translation": "Comment va la maison ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "tyamou",
+      "phonetic_api": "/tjamu/",
+      "phonetic_simple": "TYA-MOU",
+      "translation": "merci",
+      "example_sentence": "Tyamou gba.",
+      "example_phonetic": "/tjamu ɡba/",
+      "example_translation": "Merci beaucoup."
+    },
+    {
+      "word_id": "v5",
+      "term": "gba",
+      "phonetic_api": "/ɡba/",
+      "phonetic_simple": "GBA",
+      "translation": "beaucoup / grand",
+      "example_sentence": "O tyamou gba.",
+      "example_phonetic": "/o tjamu ɡba/",
+      "example_translation": "Il remercie beaucoup."
+    },
+    {
+      "word_id": "v6",
+      "term": "booné",
+      "phonetic_api": "/boːnɛ/",
+      "phonetic_simple": "BOO-NÉ",
+      "translation": "au revoir / à plus tard",
+      "example_sentence": "Booné, rya gwa.",
+      "example_phonetic": "/boːnɛ ʁja ɡwa/",
+      "example_translation": "Au revoir, je pars."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ryambé !",
+      "phonetic_api": "/jambɛ/",
+      "phonetic_simple": "RYAM-BÉ",
+      "translation": "Bonjour ! / Comment vas-tu ?",
+      "context": "Formule universelle pour entamer une salutation à tout moment de la journée."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Ryambé gouè !",
+      "phonetic_api": "/jambɛ ɡwɛ/",
+      "phonetic_simple": "RYAM-BÉ GOUÈ",
+      "translation": "Je vais bien ! (En paix)",
+      "context": "Réponse obligatoire à la salutation 'Ryambé'."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Kakaré gouè ?",
+      "phonetic_api": "/kakaʁɛ ɡwɛ/",
+      "phonetic_simple": "KA-KA-RÉ GOUÈ ?",
+      "translation": "Est-ce que la maison est en paix ?",
+      "context": "Suivi rituel après le premier contact pour s'enquérir de la famille."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Kakaré gouè ryam.",
+      "phonetic_api": "/kakaʁɛ ɡwɛ ʁjam/",
+      "phonetic_simple": "KA-KA-RÉ GOUÈ RYAM",
+      "translation": "La maison est tout à fait en paix.",
+      "context": "Réponse pour rassurer sur l'état de l'entourage."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Tyamou gba !",
+      "phonetic_api": "/tjamu ɡba/",
+      "phonetic_simple": "TYA-MOU GBA",
+      "translation": "Merci beaucoup !",
+      "context": "Exprimer sa gratitude après une aide ou un échange."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure de la salutation réciproque",
+      "explanation": "En wamey (konyagi), la politesse repose sur un système d'affirmation et de confirmation de l'état de paix ('gouè'). On ne répond pas par un simple 'oui', mais en répétant le mot de salutation associé au marqueur d'harmonie.",
+      "rules": [
+        "Étape 1 : L'interlocuteur A émet le vœu ou la formule ('Ryambé').",
+        "Étape 2 : L'interlocuteur B valide l'état de paix en y apposant 'gouè'."
+      ],
+      "examples": [
+        {
+          "structure": "Ryambé -> Ryambé gouè",
+          "phonetic_api": "/jambɛ ʁjambɛ ɡwɛ/",
+          "meaning": "Ça va ? -> Ça va en paix."
+        }
+      ]
+    },
+    {
+      "concept": "L'intensificateur post-nominal 'gba'",
+      "explanation": "Pour accentuer un état, un sentiment ou un adverbe (comme beaucoup ou grand), le wamey place l'adjectif/intensificateur 'gba' immédiatement après le terme concerné.",
+      "rules": [
+        "Placé toujours après le mot qu'il qualifie ou intensifie."
+      ],
+      "examples": [
+        {
+          "structure": "tyamou gba",
+          "phonetic_api": "/tjamu ɡba/",
+          "meaning": "merci beaucoup (littéralement : grand merci)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mady",
+      "text": "Ryambé !",
+      "phonetic_api": "/jambɛ/",
+      "phonetic_simple": "RYAM-BÉ",
+      "translation": "Bonjour !"
+    },
+    {
+      "speaker": "Awa",
+      "text": "Ryambé gouè ! Kakaré gouè ?",
+      "phonetic_api": "/jambɛ ɡwɛ kakaʁɛ ɡwɛ/",
+      "phonetic_simple": "RYAM-BÉ GOUÈ ! KA-KA-RÉ GOUÈ ?",
+      "translation": "Bonjour en paix ! Comment va la maison ?"
+    },
+    {
+      "speaker": "Mady",
+      "text": "Kakaré gouè ryam. Tyamou gba !",
+      "phonetic_api": "/kakaʁɛ ɡwɛ ʁjam tjamu ɡba/",
+      "phonetic_simple": "KA-KA-RÉ GOUÈ RYAM. TYA-MOU GBA !",
+      "translation": "La maison est en paix. Merci beaucoup !"
+    },
+    {
+      "speaker": "Awa",
+      "text": "Booné !",
+      "phonetic_api": "/boːnɛ/",
+      "phonetic_simple": "BOO-NÉ",
+      "translation": "Au revoir !"
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Konyagi (Wamey) de la région de Youkounkoun, la salutation est un acte social fondamental. Passer devant quelqu'un sans s'arrêter pour échanger ces quelques répliques rituelles sur la paix et la maison est considéré comme une offense.",
+    "Le terme 'gouè' (la paix) est omniprésent et reflète l'importance de l'harmonie communautaire et familiale au sein de la société traditionnelle."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L1_EX1",
+      "type": "multiple_choice",
+      "question": "Quelle est la réponse correcte lorsque quelqu'un vous dit 'Ryambé' ?",
+      "options": [
+        "Tyamou gba",
+        "Ryambé gouè",
+        "Booné"
+      ],
+      "correct_answer": "Ryambé gouè",
+      "explanation": "'Ryambé gouè' confirme que vous répondez à la salutation en affirmant que vous êtes en paix."
+    },
+    {
+      "exercise_id": "A1_M1_L1_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Kakaré [ ___ ] ?",
+      "correct_answer": "gouè",
+      "hint": "Le mot désignant la paix, indispensable pour demander si la famille va bien."
+    }
+  ]
+}

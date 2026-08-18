@@ -1,0 +1,177 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Identifier les consonnes injectives spécifiques au wamey",
+    "Maîtriser la distinction entre voyelles brèves et voyelles longues",
+    "Prononcer correctement les articulations complexes comme les occlusives doubles"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les consonnes injectives ou implosives /ɓ/ et /ɗ/, ainsi que la double articulation occlusive labio-vélaire /ɡb/. Le système de voyelles comprend des allongements phonémiques notés par le doublement de la lettre (aa, ee, oo).",
+    "common_pitfalls": "Évitez de prononcer l'injective /ɗ/ comme un /d/ ordinaire du français. Pour la produire correctement, il faut abaisser le larynx pour aspirer légèrement l'air vers l'intérieur au moment du relâchement de la langue."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "ɗi",
+      "phonetic_api": "/ɗi/",
+      "phonetic_simple": "D'I (injectif)",
+      "translation": "eau",
+      "example_sentence": "Nyi tyekwa ɗi.",
+      "example_phonetic": "/ɲi tjɛkwa ɗi/",
+      "example_translation": "Je cherche de l'eau."
+    },
+    {
+      "word_id": "v2",
+      "term": "ɓal",
+      "phonetic_api": "/ɓal/",
+      "phonetic_simple": "B'AL (injectif)",
+      "translation": "deux",
+      "example_sentence": "O fula gwa saax ɓal.",
+      "example_phonetic": "/o fula ɡwa saːχ ɓal/",
+      "example_translation": "Il a deux maisons."
+    },
+    {
+      "word_id": "v3",
+      "term": "gba",
+      "phonetic_api": "/ɡba/",
+      "phonetic_simple": "GBA",
+      "translation": "grand / beaucoup",
+      "example_sentence": "Saax kene i gba.",
+      "example_phonetic": "/saːχ kɛnɛ i ɡba/",
+      "example_translation": "Cette maison est grande."
+    },
+    {
+      "word_id": "v4",
+      "term": "saax",
+      "phonetic_api": "/saːχ/",
+      "phonetic_simple": "SAAKH",
+      "translation": "maison / village (voyelle longue)",
+      "example_sentence": "Nyi gwa ra saax.",
+      "example_phonetic": "/ɲi ɡwa ʁa saːχ/",
+      "example_translation": "Je vais au village."
+    },
+    {
+      "word_id": "v5",
+      "term": "cax",
+      "phonetic_api": "/t͡ʃaχ/",
+      "phonetic_simple": "TSAKH (voyelle brève)",
+      "translation": "arbre / bois",
+      "example_sentence": "Cax kene i lëkwa.",
+      "example_phonetic": "/t͡ʃaχ kɛnɛ i ləkwa/",
+      "example_translation": "Cet arbre est lourd."
+    },
+    {
+      "word_id": "v6",
+      "term": "ñin",
+      "phonetic_api": "/ɲin/",
+      "phonetic_simple": "NYIN",
+      "translation": "dent / mordre",
+      "example_sentence": "O fula ñin boka.",
+      "example_phonetic": "/o fula ɲin boka/",
+      "example_translation": "Il a de bonnes dents."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Muxu ɗi ko.",
+      "phonetic_api": "/muxu ɗi ko/",
+      "phonetic_simple": "MOU-KHOU D'I KO",
+      "translation": "Donne-moi de l'eau, s'il te plaît.",
+      "context": "Demande de base polie en arrivant dans une concession."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Cax kene i gba mba !",
+      "phonetic_api": "/t͡ʃaχ kɛnɛ i ɡba mba/",
+      "phonetic_simple": "TSAKH KÉ-NÉ I GBA MBA !",
+      "translation": "Cet arbre est vraiment immense !",
+      "context": "Observation de l'environnement local."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Wun a mbe lëkwa ?",
+      "phonetic_api": "/wun a mbɛ ləkwa/",
+      "phonetic_simple": "WOUN A MBÉ LE-KOUA ?",
+      "translation": "Est-ce difficile pour toi ?",
+      "context": "S'informer du ressenti ou de l'état de fatigue de quelqu'un."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La quantité consonantique et voyallique",
+      "explanation": "En wamey (konyagi), la longueur d'une voyelle change radicalement la signification d'un mot. Les voyelles longues sont doublées à l'écrit.",
+      "rules": [
+        "Voyelle simple = son court et rapide (ex: cax, l'arbre).",
+        "Voyelle double = son étiré sur deux temps de prononciation (ex: saax, la maison)."
+      ],
+      "examples": [
+        {
+          "structure": "cax vs saax",
+          "phonetic_api": "/t͡ʃaχ/ vs /saːχ/",
+          "meaning": "arbre (court) vs maison (long)"
+        }
+      ]
+    },
+    {
+      "concept": "Les consonnes d'accompagnement complexes (g-b)",
+      "explanation": "La consonne double /gb/ se prononce de manière simultanée. Ce n'est pas un 'g' suivi d'un 'b', mais un seul bloc sonore articulé au fond de la gorge et au niveau des lèvres en même temps.",
+      "rules": [
+        "S'exécute sans interruption ni voyelle intermédiaire entre le G et le B."
+      ],
+      "examples": [
+        {
+          "structure": "gba",
+          "phonetic_api": "/ɡba/",
+          "meaning": "grand / beaucoup"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Mady, muxu ɗi ko. Nyi a gba gwaawë.",
+      "phonetic_api": "/madi muxu ɗi ko ɲi a ɡba ɡwaːwə/",
+      "phonetic_simple": "MA-DY, MOU-KHOU D'I KO. NYI A GBA GWAA-WE.",
+      "translation": "Mady, donne-moi de l'eau s'il te plaît. J'ai beaucoup travaillé."
+    },
+    {
+      "speaker": "Mady",
+      "text": "Ryambé gouè ! Ɗi kene i boka. Muxu tyamou gba.",
+      "phonetic_api": "/jambɛ ɡwɛ ɗi kɛnɛ i boka muxu tjamu ɡba/",
+      "phonetic_simple": "RYAM-BÉ GOUÈ ! D'I KÉ-NÉ I BO-KA. MOU-KHOU TYA-MOU GBA.",
+      "translation": "Bonjour en paix ! Cette eau est bonne. Prends et grand merci."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture wamey, l'eau ('ɗi') est sacrée et constitue le premier cadeau de bienvenue offert à tout visiteur qui franchit le seuil d'une concession, avant même d'entamer les discussions sérieuses.",
+    "L'orthographe de la langue a été stabilisée par des travaux linguistiques en Guinée et au Sénégal, introduisant des caractères spécifiques de l'alphabet africain de référence comme ɓ, ɗ, et ñ."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L3_EX1",
+      "type": "multiple_choice",
+      "question": "Quel mot comporte une voyelle longue ?",
+      "options": [
+        "cax",
+        "saax",
+        "ñin"
+      ],
+      "correct_answer": "saax",
+      "explanation": "'saax' s'écrit avec un double 'a', ce qui indique une voyelle longue."
+    },
+    {
+      "exercise_id": "A1_M1_L3_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Nyi tyekwa [ ___ ] (eau).",
+      "correct_answer": "ɗi",
+      "hint": "Utilisez le mot wamey pour désigner l'eau, attention à la consonne injective initiale."
+    }
+  ]
+}

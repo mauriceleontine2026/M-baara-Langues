@@ -1,0 +1,279 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Maîtriser le lexique de la négation commerciale, du marchandage et des transactions financières",
+    "Utiliser les expressions idiomatiques courantes pour négocier un prix équitable au marché local",
+    "Comprendre le fonctionnement des modes de paiement modernes est-africains (M-Pesa, Airtel Money)",
+    "Exprimer des notions de budget, d'épargne, de dépenses et de gestion de l'argent"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La négociation exige une prononciation fluide pour paraître convaincant. Le mot 'Biashara' (commerce) s'articule [bi.aˈʃa.ra]. Le mot 'Kupunguza' (diminuer/réduire) demande un 'ng' dur [ku.puˈŋgu.za]. Dans 'Faida' (bénéfice), veillez à dissocier proprement les deux voyelles successives [faˈi.da].",
+    "common_pitfalls": "Attention au mot 'Gharama' (coût/dépense) : le 'Gh' initial représente une fricative vélaire sonore [ɣaˈra.ma] héritée de l'arabe, semblable au 'r' français du fond de la gorge. Ne le prononcez pas comme un 'G' dur."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Biashara",
+      "phonetic_api": "/bi.aˈʃa.ra/",
+      "phonetic_simple": "BEE-AH-SHAH-RAH",
+      "translation": "Commerce / Affaires / Business",
+      "example_sentence": "Biashara ya nguo inaleta faida nzuri.",
+      "example_phonetic": "/bi.aˈʃa.ra ja ˈŋgu.ɔ i.naˈlɛ.ta faˈi.da mˈzu.ri/",
+      "example_translation": "Le commerce de vêtements apporte un bon bénéfice."
+    },
+    {
+      "word_id": "v2",
+      "term": "Kupunguza",
+      "phonetic_api": "/ku.puˈŋgu.za/",
+      "phonetic_simple": "KOO-POO-NGOO-ZAH",
+      "translation": "Diminuer / Réduire / Baisser (un prix)",
+      "example_sentence": "Tafadhali punguza bei kidogo, mimi ni mwanafunzi.",
+      "example_phonetic": "/ta.faˈða.li puˈŋgu.za ˈbɛ.i kiˈdɔ.gɔ ˈmi.mi ni mwa.naˈfu.nzi/",
+      "example_translation": "S'il vous plaît, baissez un peu le prix, je suis étudiant."
+    },
+    {
+      "word_id": "v3",
+      "term": "Gharama",
+      "phonetic_api": "/ɣaˈra.ma/",
+      "phonetic_simple": "GHAH-RAH-MAH",
+      "translation": "Coût / Dépense / Frais",
+      "example_sentence": "Gharama ya maisha imepanda mwezi huu.",
+      "example_phonetic": "/ɣaˈra.ma ja maˈi.ʃa i.mɛˈpa.nda ˈmwɛ.zi ˈhu.u/",
+      "example_translation": "Le coût de la vie a augmenté ce mois-ci."
+    },
+    {
+      "word_id": "v4",
+      "term": "Akiba",
+      "phonetic_api": "/aˈki.ba/",
+      "phonetic_simple": "AH-KEE-BAH",
+      "translation": "Épargne / Réserve / Économies",
+      "example_sentence": "Ni muhimu kuweka akiba ya pesa kila mwezi.",
+      "example_phonetic": "/ni muˈhi.mu kuˈwɛ.ka aˈki.ba ja ˈpɛ.sa ˈki.la mˈwɛ.zi/",
+      "example_translation": "Il est important de mettre de l'argent de côté chaque mois."
+    },
+    {
+      "word_id": "v5",
+      "term": "Faida",
+      "phonetic_api": "/faˈi.da/",
+      "phonetic_simple": "FAH-EE-DAH",
+      "translation": "Bénéfice / Profit / Avantage",
+      "example_sentence": "Duka lake limepata faida kubwa mwaka huu.",
+      "example_phonetic": "/ˈdu.ka ˈla.kɛ li.mɛˈpa.ta faˈi.da ˈku.bwa ˈmwa.ka ˈhu.u/",
+      "example_translation": "Sa boutique a réalisé un gros bénéfice cette année."
+    },
+    {
+      "word_id": "v6",
+      "term": "Hasara",
+      "phonetic_api": "/haˈsa.ra/",
+      "phonetic_simple": "HAH-SAH-RAH",
+      "translation": "Perte / Dommage",
+      "example_sentence": "Tusipopanga bajeti vizuri, tutapata hasara.",
+      "example_phonetic": "/tu.si.pɔˈpa.ŋga baˈdʒɛ.ti viˈzu.ri tu.taˈpa.ta haˈsa.ra/",
+      "example_translation": "Si nous ne planifions pas bien le budget, nous subirons une perte."
+    },
+    {
+      "word_id": "v7",
+      "term": "Kukopesha",
+      "phonetic_api": "/ku.kɔˈpɛ.ʃa/",
+      "phonetic_simple": "KOO-KOH-PEH-SHAH",
+      "translation": "Prêter (de l'argent ou un bien)",
+      "example_sentence": "Benki inakopesha wafanyabiashara wadogo.",
+      "example_phonetic": "/ˈbɛ.ŋki i.na.kɔˈpɛ.ʃa wa.fa.ɲa.bi.aˈʃa.ra waˈdɔ.gɔ/",
+      "example_translation": "La banque prête aux petits commerçants."
+    },
+    {
+      "word_id": "v8",
+      "term": "Kutoa pesa",
+      "phonetic_api": "/kuˈtɔ.a ˈpɛ.sa/",
+      "phonetic_simple": "KOO-TOH-AH PEH-SAH",
+      "translation": "Retirer de l'argent / Dépenser",
+      "example_sentence": "Nitaenda kwa wakala kutoa pesa kwenye simu.",
+      "example_phonetic": "/ni.taˈɛ.nda kwa waˈka.la kuˈtɔ.a ˈpɛ.sa ˈkwɛ.nɲɛ ˈsi.mu/",
+      "example_translation": "Je vais aller chez l'agent pour retirer de l'argent de mon téléphone."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Bei hii ni ghali mno, nifanyie bei ya jioni.",
+      "phonetic_api": "/ˈbɛ.i ˈhi.i ni ˈɣa.li mˈnɔ ni.fa.ɲiˈɛ ˈbɛ.i ja dʒiˈɔ.ni/",
+      "phonetic_simple": "BEH-EE HEE-YEE NEE GHAH-LEE MNOH NEE-FAH-NYEE-EH BEH-EE YAH DJEE-OH-NEE",
+      "translation": "Ce prix est excessivement cher, faites-moi le prix de fin de journée.",
+      "context": "Expression idiomatique pour obtenir un rabais au marché en fin de journée."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Je, naweza kulipa kwa M-Pesa au Airtel Money?",
+      "phonetic_api": "/dʒɛ naˈwɛ.za kuˈli.pa kwa M-Pesa a.u Airtel Money/",
+      "phonetic_simple": "JEH NAH-WEH-ZAH KOO-LEE-PAH KWAH M-PESA AH-OO AIRTEL MONEY",
+      "translation": "Puis-je payer par M-Pesa ou Airtel Money ?",
+      "context": "Demander à régler via le système de paiement mobile omniprésent."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Sina pesa taslimu kwa sasa, nitatuma kwa simu.",
+      "phonetic_api": "/ˈsi.na ˈpɛ.sa taˈsli.mu kwa ˈsa.sa ni.taˈtu.ma kwa ˈsi.mu/",
+      "phonetic_simple": "SEE-NAH PEH-SAH TAH-SLEE-MOO KWAH SAH-SAH NEE-TAH-TOO-MAH KWAH SEE-MOO",
+      "translation": "Je n'ai pas d'argent liquide pour le moment, je vais envoyer par téléphone.",
+      "context": "Proposer une alternative digitale au cash lors d'un achat."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Niambie bei yako ya mwisho kabisa.",
+      "phonetic_api": "/ni.aˈmbi.ɛ ˈbɛ.i ˈja.kɔ ja ˈmwi.ʃɔ kaˈbi.sa/",
+      "phonetic_simple": "NEE-AH-MBEE-EH BEH-EE YAH-KOH YAH MWEE-SHOH KAH-BEE-SAH",
+      "translation": "Dites-moi votre tout dernier prix.",
+      "context": "Étape cruciale du marchandage pour clore la négociation."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Funganya vitu hivi, nimeshakulipa tayari.",
+      "phonetic_api": "/fu.ŋgaˈɲa ˈvi.tu ˈhi.vi ni.mɛ.ʃa.kuˈli.pa ta.jaˈri/",
+      "phonetic_simple": "FOON-GAH-NYAH VEE-TOO HEE-VEE NEE-MEH-SHAH-KOO-LEE-PAH TAH-YAH-REE",
+      "translation": "Emballez ces articles, je vous ai déjà payé.",
+      "context": "Conclure la transaction après confirmation du transfert."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Tunapaswa kupunguza gharama zisizo na lazima.",
+      "phonetic_api": "/tu.naˈpa.swa ku.puˈŋgu.za ɣaˈra.ma zi.siˈzɔ na laˈzi.ma/",
+      "phonetic_simple": "TOO-NAH-PAH-SWAH KOO-POO-NGOO-ZAH GHAH-RAH-MAH ZEE-SEE-ZOH NAH LAH-ZEE-MAH",
+      "translation": "Nous devons réduire les dépenses inutiles.",
+      "context": "Discussion sur la gestion du budget familial ou d'entreprise."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Nilipata hasara kubwa katika mradi ule.",
+      "phonetic_api": "/ni.liˈpa.ta haˈsa.ra ˈku.bwa kaˈti.ka mˈra.di ˈu.lɛ/",
+      "phonetic_simple": "NEE-LEE-PAHT-AH HAH-SAH-RAH KOO-BWAH KAH-TEE-KAH MRAH-DEE OO-LEH",
+      "translation": "J'ai subi une lourde perte dans ce projet.",
+      "context": "Faire le bilan d'un investissement infructueux."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Wafanyabiashara hawa hawataki kukopesha wateja.",
+      "phonetic_api": "/wa.fa.ɲa.bi.aˈʃa.ra ˈha.wa ha.waˈta.ki ku.kɔˈpɛ.ʃa waˈtɛ.dʒa/",
+      "phonetic_simple": "WAH-FAH-NYAH-BEE-AH-SHAH-RAH HAH-WAH HAH-WAH-TAK-EE KOO-KOH-PEH-SHAH WAH-TEH-DJAH",
+      "translation": "Ces commerçants ne veulent pas vendre à crédit aux clients.",
+      "context": "Constater la politique de paiement strict d'un marché."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la condition stricte et de la restriction avec 'Isipokuwa' et l'infixe '-po-'",
+      "explanation": "Pour nuancer les transactions commerciales de niveau intermédiaire, le swahili utilise l'infixe locatif-temporel '-po-' inséré dans une structure de négation pour exprimer 'si... ne... pas' ou 'sauf si'.",
+      "rules": [
+        "Structure : Préfixe Sujet Négatif + -po- + Radical. Exemple : 'Tusipopatana' (Si nous ne tombons pas d'accord).",
+        "Le mot 'Isipokuwa' fonctionne comme une conjonction signifiant 'excepté', 'sauf' ou 'à moins que'."
+      ],
+      "examples": [
+        {
+          "structure": "U-si-po-punguza (Si tu ne baisses pas) + bei = Usipopunguza bei",
+          "phonetic_api": "/u.si.pɔ.puˈŋgu.za ˈbɛ.i/",
+          "meaning": "Si tu ne baisses pas le prix"
+        },
+        {
+          "structure": "Hataondoka (Il ne partira pas) + isipokuwa + alipe (à moins qu'il ne paye)",
+          "phonetic_api": "/ha.ta.ɔˈndo.ka i.si.pɔˈku.wa aˈli.pɛ/",
+          "meaning": "Il ne partira pas à moins qu'il ne paye (Subjonctif en -e)"
+        }
+      ]
+    },
+    {
+      "concept": "L'usage des verbes causatifs en '-esha' / '-isha' appliqués à l'économie",
+      "explanation": "Les extensions verbales causatives modifient le sens du verbe de base pour indiquer qu'on fait faire l'action. C'est essentiel pour différencier les flux d'argent.",
+      "rules": [
+        "Kukopa (Emprunter) -> Kukopesha (Faire emprunter à quelqu'un, donc : Prêter).",
+        "Kulipa (Payer) -> Kulipisha (Faire payer / Facturer / Taxer)."
+      ],
+      "examples": [
+        {
+          "structure": "Kukopa (Emprunter) + -esha (Causatif) = Kukopesha",
+          "phonetic_api": "/ku.kɔˈpɛ.ʃa/",
+          "meaning": "Prêter"
+        },
+        {
+          "structure": "Alimkopesha (Il lui a prêté) + pesa",
+          "phonetic_api": "/a.li.m.kɔˈpɛ.ʃa ˈpɛ.sa/",
+          "meaning": "Il lui a prêté de l'argent"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Chloe (Mteja)",
+      "text": "Shikamoo mama! Kanga hizi ni nzuri sana. Bei gani kanga moja?",
+      "phonetic_api": "/ʃi.kaˈmɔː ˈma.ma ˈka.ŋga ˈhi.zi ni mˈzu.ri ˈsa.na ˈbɛ.i ˈga.ni ˈka.ŋga ˈm-mɔ.dʒa/",
+      "phonetic_simple": "SHEE-KAH-MOO MAH-MAH KAHN-GAH HEE-ZEE NEE MZEE-REE SAH-NAH BEH-EE GAH-NEE KAHN-GAH MMOH-DJAH",
+      "translation": "Mes respects maman ! Ces kanga sont magnifiques. Quel est le prix d'une kanga ?"
+    },
+    {
+      "speaker": "Muuzaji (Mama Ntilie)",
+      "text": "Marahaba mwanangu! Karibu. Kanga moja ni shilingi elfu kumi na mbili tu. Ni nguo ya viwango vya juu.",
+      "phonetic_api": "/ma.raˈha.ba mwaˈna.ŋgu kaˈri.bu ˈka.ŋga ˈm-mɔ.dʒa ni ʃiˈli.ŋgi ˈɛ.lfu ˈku.mi na ˈmbi.li tu ni ˈŋgu.ɔ ja viˈwa.ngɔ vja dʒuː/",
+      "phonetic_simple": "MAH-RAH-HAH-BAH MWAHN-ANGOO KAH-REE-BOO KAHN-GAH MMOH-DJAH NEE SHEE-LEEN-GEE EHL-FOO KOO-MEE NAH MBEE-LEE TOO NEE NGOO-OH YAH VEE-WAHN-GOH VYAH DJOO",
+      "translation": "Merci mon enfant ! Bienvenue. Une kanga fait seulement douze mille shillings. C'est un tissu de qualité supérieure."
+    },
+    {
+      "speaker": "Chloe (Mteja)",
+      "text": "Ai mama, bei hiyo ni ghali mno kwa bajeti yangu! Tafadhali nipunguzie kidogo. Nifanyie elfu nane.",
+      "phonetic_api": "/aˈi ˈma.ma ˈbɛ.i ˈhi.jɔ ni ˈɣa.li mˈnɔ kwa baˈdʒɛ.ti ˈja.ŋgu ta.faˈða.li ni.pu.nguˈzi.ɛ kiˈdɔ.gɔ ni.fa.ɲiˈɛ ˈɛ.lfu ˈna.nɛ/",
+      "phonetic_simple": "AHEE MAH-MAH BEH-EE HEE-YOH NEE GHAH-LEE MNOH KWAH BAH-DJEH-TEE YAHN-GOO TAH-FAH-ZAA-LEE NEE-POO-NGOO-ZEE-EH KEE-DOH-GOH NEE-FAH-NYEE-EH EHL-FOO NAH-NEH",
+      "translation": "Ah maman, ce prix est beaucoup trop cher pour mon budget ! S'il vous plaît, diminuez-moi un peu. Faites-le moi à huit mille."
+    },
+    {
+      "speaker": "Muuzaji (Mama Ntilie)",
+      "text": "Hapana mteja wangu, nkitofanya biashara hivi nitapata hasara. Gharama za ununuzi zimepanda sana. Leta elfu kumi, hiyo ni bei ya jioni kabisa.",
+      "phonetic_api": "/haˈpa.na mˈtɛ.dʒa ˈwa.ŋgu n.ki.tɔˈfa.ɲa bi.aˈʃa.ra ˈhi.vi ni.taˈpa.ta haˈsa.ra ɣaˈra.ma za u.nuˈnu.zi zi.mɛˈpa.nda ˈsa.na ˈlɛ.ta ˈɛ.lfu ˈku.mi ˈhi.jɔ ni ˈbɛ.i ja dʒiˈɔ.ni kaˈbi.sa/",
+      "phonetic_simple": "HAH-PAH-NAH MTEH-DJAH WAHN-GOO N-KEE-TOH-FAH-NYAH BEE-AH-SHAH-RAH HEE-VEE NEE-TAH-PAHT-AH HAH-SAH-RAH GHAH-RAH-MAH ZAH OO-NOO-NOO-ZEE ZEE-MEH-PAHN-DAH SAH-NAH LEH-TAH EHL-FOO KOO-MEE HEE-YOH NEE BEH-EE YAH DJEE-OH-NEE KAH-BEE-SAH",
+      "translation": "Non ma cliente, si je fais du commerce ainsi je vais faire une perte. Les coûts d'achat ont beaucoup augmenté. Donne dix mille, c'est vraiment le prix d'ami de fin de journée."
+    },
+    {
+      "speaker": "Chloe (Mteja)",
+      "text": "Sawa mama, nimekubali. Je, naweza kulipa kwa M-Pesa? Sina pesa taslimu mfukoni.",
+      "phonetic_api": "/ˈsa.wa ˈma.ma ni.mɛ.kuˈba.li dʒɛ naˈwɛ.za kuˈli.pa kwa M-Pesa ˈsi.na ˈpɛ.sa taˈsli.mu m.fuˈkɔ.ni/",
+      "phonetic_simple": "SAH-WAH MAH-MAH NEE-MEH-KOO-BAH-LEE JEH NAH-WEH-ZAH KOO-LEE-PAH KWAH M-PESA SEE-NAH PEH-SAH TAH-SLEE-MOO M-FOO-KOH-NEE",
+      "translation": "D'accord maman, j'accepte. Puis-je payer par M-Pesa ? Je n'ai pas de cash sur moi."
+    },
+    {
+      "speaker": "Muuzaji (Mama Ntilie)",
+      "text": "Ndiyo, namba yangu ya lipa iko hapo ukutani. Ukituma, nionyeshe ujumbe wa uthibitisho kisha uondoke na kanga yako. Asante mwanangu!",
+      "phonetic_api": "/ˈndi.jɔ ˈna.mba ˈja.ŋgu ja ˈli.pa ˈi.kɔ ˈha.pɔ u.ku.taˈni u.kiˈtu.ma ni.ɔˈnyɛ.ʃɛ uˈdʒu.mbe wa u.θi.biˈti.ʃɔ ˈki.ʃa u.ɔˈndo.kɛ na ˈka.ŋga ˈja.kɔ aˈsa.ntɛ mwaˈna.ŋgu/",
+      "phonetic_simple": "NDEE-YOH NAHM-BAH YAHN-GOO YAH LEE-PAH EE-KOH HAH-POH OO-KOO-TAH-NEE OO-KEE-TOO-MAH NEE-OHN-YEH-SHEH OO-DJOO-MBEH WAH OO-THEE-BEE-TEE-SHOH KEE-SHAH OO-OHN-DOH-KEH NAH KAHN-GAH YAHN-GOO AH-SAHN-TEH MWAHN-ANGOO",
+      "translation": "Oui, mon numéro de paiement marchand est là sur le mur. Quand tu auras envoyé, montre-moi le message de confirmation puis tu pourras partir avec ta kanga. Merci mon enfant !"
+    }
+  ],
+  "cultural_notes": [
+    "Le marchandage ('Kupatana bei') est un art social indispensable sur les marchés traditionnels d'Afrique de l'Est (comme le marché de Kariakoo à Dar es Salaam ou Gikomba à Nairobi). Ne pas négocier est souvent perçu comme un désintérêt pour l'interaction ou un signe que l'on a trop d'argent. L'argumentaire doit toujours rester poli, humoristique et respectueux.",
+    "L'expression 'Bei ya jioni' (le prix du soir) fait référence au moment où les vendeurs baissent drastiquement leurs prix pour liquider leurs marchandises avant la fermeture du marché et s'assurer un revenu minimum pour la journée.",
+    "L'Afrique de l'Est est le leader mondial du 'Mobile Money'. Le système 'M-Pesa' (au Kenya/Tanzanie) a quasiment remplacé l'usage de l'argent liquide ('Pesa taslimu') pour les dépenses quotidiennes. Les commerçants possèdent tous un panneau 'Lipa kwa M-Pesa' (Payez par M-Pesa) avec leur code marchand accroché sur leur stand."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle phrase devez-vous prononcer pour demander à un marchand de prêter de l'argent ou de vendre à crédit ?",
+      "options": [
+        "Tafadhali nikopeshe pesa kidogo.",
+        "Nimetunza akiba benki.",
+        "Punguza gharama ya maisha.",
+        "Nitaonyesha ujumbe wa uthibitisho."
+      ],
+      "correct_answer": "Tafadhali nikopeshe pesa kidogo.",
+      "explanation": "Le verbe causatif 'Kukopesha' signifie prêter. Associé au pronom objet 'ni-' (moi), la phrase se traduit par 'S'il vous plaît, prêtez-moi un peu d'argent'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mfanyabiashara: 'Usipo[ ___ ] bei ya mwisho, sitakuuzia nguo hii.' (Remplissez avec le verbe signifiant payer pour dire 'Si tu ne paies pas le prix final...').",
+      "correct_answer": "lipa",
+      "hint": "C'est la racine verbale de deux syllabes utilisée pour le règlement de toute dette ou achat."
+    }
+  ]
+}

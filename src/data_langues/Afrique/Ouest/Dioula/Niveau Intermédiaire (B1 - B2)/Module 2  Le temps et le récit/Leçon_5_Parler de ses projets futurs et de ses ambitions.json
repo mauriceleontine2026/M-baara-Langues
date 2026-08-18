@@ -1,0 +1,299 @@
+{
+  "lesson_id": "B1_M2_L5",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 5,
+  "title": "Parler de ses projets futurs et de ses ambitions",
+  "learning_objectives": [
+    "Maîtriser les structures du futur et de l'intentionnalité pour formuler des projets",
+    "Exprimer l'espoir, l'ambition et les souhaits professionnels ou personnels",
+    "Utiliser des subordonnées de but pour articuler des plans d'avenir complexes",
+    "Décrire les étapes prévues pour la réalisation d'un objectif de vie"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La particule du futur 'bɛna' ou 'n'a' exige une prononciation liée où la voyelle /a/ finale est bien articulée. Le mot 'ambition' ou son équivalent 'lajɛ-ko' / 'ɲɛfɛ-ta-ko' met en jeu la palatale nasale /ɲ/ dans 'ɲɛfɛ' (en avant). Le terme pour l'espoir, 'jigi', se réalise avec l'affriquée palatale sonore /d͡ʒi.ɡi/ avec deux voyelles fermées brèves.",
+    "common_pitfalls": "Attention à ne pas assimiler le 'na' de 'bɛna' (marque du futur) avec la postposition locative 'na' (sur/dans). La hauteur tonale et le bloc verbal soudé permettent de bien faire la différence."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Bɛna / N'a",
+      "phonetic_api": "/bɛ.na/",
+      "phonetic_simple": "BÈ-NA",
+      "translation": "Marqueur du futur (aller + verbe)",
+      "example_sentence": "N bɛna so-lɔ-ko daminɛ san natɔ fɛ",
+      "example_phonetic": "/n̩ bɛ.na so lɔ ko da.mi.nɛ saⁿ na.tɔ fɛ/",
+      "example_translation": "Je vais commencer les travaux de construction de la maison l'année prochaine."
+    },
+    {
+      "word_id": "v2",
+      "term": "Natɔ / Bi-kɔfɛ-ta",
+      "phonetic_api": "/na.tɔ/",
+      "phonetic_simple": "NA-TÕ",
+      "translation": "Futur / À venir / Prochain",
+      "example_sentence": "Kalo natɔ la, n bɛna baara-yɔrɔ yɛlɛma",
+      "example_phonetic": "/ka.lo na.tɔ la n̩ bɛ.na baː.ra jɔ.rɔ jɛ.lɛ.ma/",
+      "example_translation": "Le mois prochain, je vais changer de lieu de travail."
+    },
+    {
+      "word_id": "v3",
+      "term": "Jigi",
+      "phonetic_api": "/d͡ʒi.gi/",
+      "phonetic_simple": "DJI-GUI",
+      "translation": "L'espoir / L'attente / La confiance",
+      "example_sentence": "Jigi sanyen bɛ n na ka dugu yiriwa sisan",
+      "example_phonetic": "/d͡ʒi.gi saⁿ.jeⁿ bɛ n̩ na ka du.gu ji.ri.wa si.saⁿ/",
+      "example_translation": "J'ai le ferme espoir de voir la ville se développer maintenant."
+    },
+    {
+      "word_id": "v4",
+      "term": "Ɲɛfɛ-ta-ko",
+      "phonetic_api": "/ɲɛ.fɛ ta ko/",
+      "phonetic_simple": "GNIÈ-FÈ-TA-KO",
+      "translation": "L'ambition / Le projet d'avenir (litt. l'affaire d'avancer)",
+      "example_sentence": "N ka ɲɛfɛ-ta-ko ka bon baara sira fɛ",
+      "example_phonetic": "/n̩ ka ɲɛ.fɛ ta ko ka boⁿ baː.ra si.ra fɛ/",
+      "example_translation": "Mon ambition est grande sur le plan professionnel."
+    },
+    {
+      "word_id": "v5",
+      "term": "Walasa / Ala ka",
+      "phonetic_api": "/wa.la.sa/",
+      "phonetic_simple": "WA-LA-SA",
+      "translation": "Pour que / Afin que (conjonction de but)",
+      "example_sentence": "N bɛ baara kɛ kosɛbɛ walasa n ka wari sɔrɔ",
+      "example_phonetic": "/n̩ bɛ baː.ra kɛ ko.sɛ.bɛ wa.la.sa n̩ ka wa.ri sɔ.rɔ/",
+      "example_translation": "Je travaille dur pour que je puisse gagner de l'argent."
+    },
+    {
+      "word_id": "v6",
+      "term": "Lajɛ-ko",
+      "phonetic_api": "/la.d͡ʒɛ ko/",
+      "phonetic_simple": "LA-DJÈ-KO",
+      "translation": "L'objectif / Le plan / Ce qu'on vise",
+      "example_sentence": "An ka lajɛ-ko kelen ye lakana sɔrɔ dugu kɔnɔ ye",
+      "example_phonetic": "/an ka la.d͡ʒɛ ko ke.len je la.ka.na sɔ.rɔ du.gu kɔ.nɔ jɛ/",
+      "example_translation": "Notre objectif unique est d'obtenir la sécurité dans la ville."
+    },
+    {
+      "word_id": "v7",
+      "term": "Sega-ka-bɔ",
+      "phonetic_api": "/se.ɡa ka bɔ/",
+      "phonetic_simple": "SÉ-GA-KA-BÕ",
+      "translation": "Réussir / Surmonter / Parvenir à ses fins",
+      "example_sentence": "Ni Ala sɔna, n bɛna sega-ka-bɔ n ka baara la",
+      "example_phonetic": "/ni a.la sɔ.na n̩ bɛ.na se.ɡa ka bɔ n̩ ka baː.ra la/",
+      "example_translation": "Si Dieu le veut, je vais réussir dans mon entreprise."
+    },
+    {
+      "word_id": "v8",
+      "term": "Kalo-di-sɛbɛn",
+      "phonetic_api": "/ka.lo di sɛ.bɛn/",
+      "phonetic_simple": "KA-LO-DI-SÈ-BÈN",
+      "translation": "Le calendrier / Le planning / Le programme",
+      "example_sentence": "N ka kalo-di-sɛbɛn ladanna ɲɛman bi",
+      "example_phonetic": "/n̩ ka ka.lo di sɛ.bɛn la.daⁿ.na ɲɛ.maⁿ bi/",
+      "example_translation": "Mon planning a été correctement établi aujourd'hui."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "San natɔ fɛ, n bɛna fɛn-w-san-yɔrɔ kura kelen daminɛ kuluwa gari gbɛrɛ.",
+      "phonetic_api": "/saⁿ na.tɔ fɛ n̩ bɛ.na fɛⁿ-w-saⁿ-jɔ.rɔ ku.ra ke.len da.mi.nɛ ku.lu.wa ɡa.ri g͡bɛ.rɛ/",
+      "phonetic_simple": "SAN NA-TÕ FÈ, N BÈ-NA FÈN-W-SAN-YÕ-RÕ KOU-RA KÉ-LEN DA-MI-NÈ KOU-LOU-WA GA-RI GBÈ-RÈ",
+      "translation": "L'année prochaine, je vais ouvrir un nouveau magasin juste à côté de l'avenue.",
+      "context": "Annoncer un projet commercial à moyen terme."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "N ka lajɛ-ko jɛrɛ ye ka n ka bangebagaw ka so labɛn kosɛbɛ.",
+      "phonetic_api": "/n̩ ka la.d͡ʒɛ ko d͡ʒɛ.rɛ je ka n̩ ka baⁿ.ge.ba.ga.w ka so la.bɛn ko.sɛ.bɛ/",
+      "phonetic_simple": "N KA LA-DJÈ-KO DJÈ-RÈ YÈ KA N KA BAN-GUÉ-BA-GA-W KA SO LA-BEN KO-SÈ-BÈ",
+      "translation": "Mon véritable objectif est de rénover entièrement la maison de mes parents.",
+      "context": "Exprimer une ambition personnelle ou familiale."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Jigi bɛ n na ko an bɛna sega-ka-bɔ dugukɔnɔ lakana ko sira fɛ.",
+      "phonetic_api": "/d͡ʒi.gi bɛ n̩ na ko an bɛ.na se.ɡa ka bɔ du.gu.kɔ.nɔ la.ka.na ko si.ra fɛ/",
+      "phonetic_simple": "DJI-GUI BÈ N NA KO AN BÈ-NA SÉ-GA-KA-BÕ DOU-GOU-KÕ-NÕ LA-KA-NA KO SI-RA FÈ",
+      "translation": "J'ai l'espoir que nous allons réussir sur le plan de la sécurité du quartier.",
+      "context": "Formuler un souhait collectif positif."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "N bɛna kalan kɛ kosɛbɛ walasa n ka kuranti-labɛnla tɔgɔ-ɲuman kɛ bi-kɔfɛ.",
+      "phonetic_api": "/n̩ bɛ.na ka.lan kɛ ko.sɛ.bɛ wa.la.sa n̩ ka ku.raⁿ.ti la.bɛn.la tɔ.gɔ ɲu.maⁿ kɛ bi kɔ.fɛ/",
+      "phonetic_simple": "N BÈ-NA KA-LAN KÈ KO-SÈ-BÈ WA-LA-SA N KA KOU-RAN-TI-LA-BEN-LA TÕ-GÕ-GNU-MAN KÈ BI-KÕ-FÈ",
+      "translation": "Je vais étudier d'arrache-pied afin de devenir un électricien de renom à l'avenir.",
+      "context": "Exprimer une ambition professionnelle étudiante."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Ni Ala sɔna, kalo natɔ la, an bɛna sɛbɛn-bɛn kura sigi so-haya ko fɛ.",
+      "phonetic_api": "/ni a.la sɔ.na ka.lo na.tɔ la an bɛ.na sɛ.bɛn bɛn ku.ra si.gi so ha.ja ko fɛ/",
+      "phonetic_simple": "NI A-LA SÕ-NA, KA-LO NA-TÕ LA, AN BÈ-NA SÈ-BÈN-BEN KOU-RA SI-GI SO-HA-YA KO FÈ",
+      "translation": "Si Dieu le veut, le mois prochain, nous signerons un nouveau contrat écrit pour la location.",
+      "context": "Planifier une démarche administrative précise."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "N ka kalo-di-sɛbɛn kɔnɔ, n bɛna yala-tɛmɛ dugu wɛrɛw kɔnɔ walasa ka baara kura lɔn.",
+      "phonetic_api": "/n̩ ka ka.lo di sɛ.bɛn kɔ.nɔ n̩ bɛ.na ja.la tɛ.mɛ du.gu wɛ.rɛ.w kɔ.nɔ wa.la.sa ka baː.ra ku.ra lɔⁿ/",
+      "phonetic_simple": "N KA KA-LO-DI-SÈ-BÈN KÕ-NÕ, N BÈ-NA YA-LA-TÈ-MÈ DOU-GOU WÈ-RÈ-W KÕ-NÕ WA-LA-SA KA BAA-RA KOU-RA LÕN",
+      "translation": "Dans mon planning, je vais parcourir d'autres villes afin de découvrir de nouvelles opportunités d'affaires.",
+      "context": "Détailler un programme de prospection d'avenir."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "An tɛna dugu nin kɔni abada, an ɲɛfɛ-ta-ko bɛɛ bɛ yan fana.",
+      "phonetic_api": "/an tɛ.na du.gu niⁿ kɔ.ni a.ba.da an ɲɛ.fɛ ta ko bɛː bɛ jaⁿ fa.na/",
+      "phonetic_simple": "AN TÈ-NA DOU-GOU NIN KÕ-NI A-BA-DA, AN GNIÈ-FÈ-TA-KO BÈÈ BÈ YAN FA-NA",
+      "translation": "Nous n'abandonnerons jamais cette ville, toutes nos ambitions se trouvent ici.",
+      "context": "Affirmer un engagement d'avenir ancré localement."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Ala ka an ka lajɛ-ko bɛɛ diya ni hɛɛrɛ ye !",
+      "phonetic_api": "/a.la ka an ka la.d͡ʒɛ ko bɛː di.ja ni hɛː.rɛ jɛ/",
+      "phonetic_simple": "A-LA KA AN KA LA-DJÈ-KO BÈÈ DI-YA NI HÈÈ-RÈ YÈ !",
+      "translation": "Que Dieu couronne de succès tous nos objectifs dans la paix !",
+      "context": "Formule de bénédiction standard pour clore des projets d'avenir."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le futur d'intention et de certitude avec 'bɛna / tɛna'",
+      "explanation": "Pour exprimer une action future ou une intention ferme à l'échelle intermédiaire, on substitue la marque d'inaccompli présent 'bɛ' par la marque composée 'bɛna' (ou sa forme négative 'tɛna'). En langage rapide, elle se contracte souvent en 'n'a'.",
+      "rules": [
+        "Affirmatif : Sujet + bɛna + Verbe au radical + (Complément).",
+        "Négatif : Sujet + tɛna + Verbe au radical + (Complément)."
+      ],
+      "examples": [
+        {
+          "structure": "N (Je) + bɛna + so lɔ (bâtir une maison)",
+          "phonetic_api": "/n̩ bɛ.na so lɔ/",
+          "meaning": "Je vais bâtir une maison / Je bâtirai une maison."
+        },
+        {
+          "structure": "An + tɛna + dugu kɔni (haïr la ville)",
+          "phonetic_api": "/an tɛ.na du.gu kɔ.ni/",
+          "meaning": "Nous ne détesterons pas la ville."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression du but et de la finalité avec 'walasa'",
+      "explanation": "Pour connecter un projet à sa finalité (afin de / pour que), le dioula emploie la conjonction 'walasa'. Elle introduit une proposition subordonnée où le sujet doit être suivi du subjonctif-impératif 'ka'.",
+      "rules": [
+        "Structure : Proposition principale (au futur) + walasa + Sujet de but + ka + Verbe."
+      ],
+      "examples": [
+        {
+          "structure": "N bɛ kalan kɛ + walasa + n + ka + baara sɔrɔ (trouver un travail)",
+          "phonetic_api": "/n̩ bɛ ka.lan kɛ wa.la.sa n̩ ka baː.ra sɔ.rɔ/",
+          "meaning": "J'étudie pour que je puisse trouver du travail."
+        }
+      ]
+    },
+    {
+      "concept": "Le qualificatif de direction future '-tɔ'",
+      "explanation": "Pour désigner des périodes de temps à venir (le mois prochain, l'année prochaine), la langue utilise le participe de mouvement ou d'imminence '-tɔ' accroché au verbe 'na' (venir).",
+      "rules": [
+        "Kalo (mois) + na (venir) + tɔ (particule d'imminence) = kalo natɔ (le mois qui vient / le mois prochain)."
+      ],
+      "examples": [
+        {
+          "structure": "San (année) + na + tɔ",
+          "phonetic_api": "/saⁿ na.tɔ/",
+          "meaning": "L'année prochaine / L'année à venir."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Aminata",
+      "text": "I ni ce, Alassane. Kalo natɔ la, i ka kalo-di-sɛbɛn bɛ di ? Ɲɛfɛ-ta-ko kura bɛ i bolo ?",
+      "phonetic_api": "/i ni t͡ʃe a.la.saⁿ ka.lo na.tɔ la i ka ka.lo di sɛ.bɛn bɛ di ɲɛ.fɛ ta ko ku.ra bɛ i bo.lo/",
+      "phonetic_simple": "I NI TCHE, A-LA-SANE. KA-LO NA-TÕ LA, I KA KA-LO-DI-SÈ-BÈN BÈ DI ? GNIÈ-FÈ-TA-KO KOU-RA BÈ I BO-LO ?",
+      "translation": "Bonjour, Alassane. Le mois prochain, à quoi ressemble ton planning ? As-tu de nouvelles ambitions/projets ?"
+    },
+    {
+      "speaker": "Alassane",
+      "text": "I ni ce, Aminata. Ɔwɔ, san natɔ fɛ, n ka lajɛ-ko jɛrɛ ye ka n ka baara kura daminɛ fɛn-w-san-yɔrɔ kɔnɔ walasa ka sega-ka-bɔ.",
+      "phonetic_api": "/i ni t͡ʃe a.mi.na.ta ɔ.wɔ saⁿ na.tɔ fɛ n̩ ka la.d͡ʒɛ ko d͡ʒɛ.rɛ je ka n̩ ka baː.ra ku.ra da.mi.nɛ fɛⁿ-w-saⁿ-jɔ.rɔ kɔ.nɔ wa.la.sa ka se.ɡa ka bɔ/",
+      "phonetic_simple": "I NI TCHE, A-MI-NA-TA. Õ-WÕ, SAN NA-TÕ FÈ, N KA LA-DJÈ-KO DJÈ-RÈ YÈ KA N KA BAA-RA KOU-RA DA-MI-NÈ FÈN-W-SAN-YÕ-RÕ KÕ-NÕ WA-LA-SA KA SÉ-GA-KA-BÕ.",
+      "translation": "Bonjour, Aminata. Oui, l'année prochaine, mon véritable objectif est de démarrer ma nouvelle activité dans un magasin afin de réussir financièrement."
+    },
+    {
+      "speaker": "Aminata",
+      "text": "O kaɲi kosɛbɛ ! I bɛna so-haya ko nin labɛn fana ? I tɛna dugu nin kɔni ?",
+      "phonetic_api": "/o ka.ɲi ko.sɛ.bɛ i bɛ.na so ha.ja ko niⁿ la.bɛn fa.na i tɛ.na du.gu niⁿ kɔ.ni/",
+      "phonetic_simple": "O KA-GNI KO-SÈ-BÈ ! I BÈ-NA SO-HA-YA KO NIN LA-BEN FA-NA ? I TÈ-NA DOU-GOU NIN KÕ-NI ?",
+      "translation": "C'est excellent ! Vas-tu également régler cette question de location de maison ? Tu ne vas pas détester ou quitter cette ville ?"
+    },
+    {
+      "speaker": "Alassane",
+      "text": "N tɛna dugu nin kɔni abada. N bɛna baara kɛ kuluwa gari gbɛrɛ walasa ka wari sɔrɔ, o kɔfɛ n bɛna so-lɔ-ko jɛrɛ daminɛ.",
+      "phonetic_api": "/n̩ tɛ.na du.gu niⁿ kɔ.ni a.ba.da n̩ bɛ.na baː.ra kɛ ku.lu.wa ɡa.ri g͡bɛ.rɛ wa.la.sa ka wa.ri sɔ.rɔ o kɔ.fɛ n̩ bɛ.na so lɔ ko d͡ʒɛ.rɛ da.mi.nɛ/",
+      "phonetic_simple": "N TÈ-NA DOU-GOU NIN KÕ-NI A-BA-DA. N BÈ-NA BAA-RA KÈ KOU-LOU-WA GA-RI GBÈ-RÈ WA-LA-SA KA WA-RI SÕ-RÕ, O KÕ-FÈ N BÈ-NA SO-LÕ-KO DJÈ-RÈ DA-MI-NÈ.",
+      "translation": "Je ne quitterai jamais cette ville. Je vais travailler près de l'avenue afin de gagner de l'argent, par la suite je vais lancer la construction de ma propre maison."
+    },
+    {
+      "speaker": "Aminata",
+      "text": "Jigi sanyen bɛ n na i fɛ. Ala ka i ka lajɛ-ko bɛɛ diya ni hɛɛrɛ ye !",
+      "phonetic_api": "/d͡ʒi.gi saⁿ.jeⁿ bɛ n̩ na i fɛ a.la ka i ka la.d͡ʒɛ ko bɛː di.ja ni hɛː.rɛ jɛ/",
+      "phonetic_simple": "DJI-GUI SAN-YEN BÈ N NA I FÈ. A-LA KA I KA LA-DJÈ-KO BÈÈ DI-YA NI HÈÈ-RÈ YÈ !",
+      "translation": "J'ai une totale confiance en toi. Que Dieu couronne de succès tous tes objectifs dans la paix !"
+    },
+    {
+      "speaker": "Alassane",
+      "text": "Amiina, Aminata. K'an bɛn san natɔ fɛ !",
+      "phonetic_api": "/a.miː.na a.mi.na.ta kʼan bɛn saⁿ na.tɔ fɛ/",
+      "phonetic_simple": "A-MII-NA, A-MI-NA-TA. KAN BEN SAN NA-TÕ FÈ !",
+      "translation": "Amen, Aminata. Rendez-vous l'année prochaine !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les échanges quotidiens en Afrique de l'Ouest, toute projection dans le futur ou annonce d'ambition ('ɲɛfɛ-ta-ko') s'accompagne systématiquement de la formule de déférence spirituelle 'Ni Ala sɔna' (Si Dieu le veut). Annoncer un projet avec une certitude absolue sans inclure la volonté divine est perçu culturellement comme un manque d'humilité.",
+    "La réussite professionnelle ('sega-ka-bɔ') et l'acquisition d'un logement en propre ('so-lɔ-ko') forment le cœur des ambitions de la jeunesse urbaine au Burkina Faso. Réussir est perçu non seulement comme un accomplissement individuel, mais comme un moyen de protection et de fierté pour toute la lignée familiale et les parents ('bangebagaw')."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L5_Ex1",
+      "type": "multiple_choice",
+      "question": "Quel marqueur prédicatif est obligatoirement inséré pour formuler une action affirmative au futur (ex: 'Je vais commencer') ?",
+      "options": [
+        "Tun",
+        "Bɛna",
+        "Tɛna",
+        "Kabini"
+      ],
+      "correct_answer": "Bɛna",
+      "explanation": "'Bɛna' est la marque exclusive du futur affirmatif d'intention en dioula, tandis que 'tɛna' en est l'équivalent négatif."
+    },
+    {
+      "exercise_id": "B1_M2_L5_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour introduire une proposition de but signifiant 'afin de / pour que', on utilise la conjonction : '[ ___ ]'.",
+      "correct_answer": "walasa",
+      "hint": "C'est un mot de liaison indispensable au niveau B1 pour lier une action à sa finalité."
+    },
+    {
+      "exercise_id": "B1_M2_L5_Ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie temporellement l'expression structurelle 'kalo natɔ la' ?",
+      "options": [
+        "Le mois passé",
+        "Tous les mois",
+        "Le mois prochain / Le mois qui vient",
+        "Au milieu du mois"
+      ],
+      "correct_answer": "Le mois prochain / Le mois qui vient",
+      "explanation": "Le terme 'kalo' (mois) combiné avec le participe prospectif 'natɔ' (qui vient) permet d'indiquer l'échéance mensuelle future."
+    }
+  ]
+}

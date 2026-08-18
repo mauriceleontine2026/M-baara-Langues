@@ -1,0 +1,282 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Formuler des questions claires pour demander la localisation d'un lieu",
+    "Comprendre et appliquer les directives d'orientation spatiale fondamentales",
+    "Identifier les principaux points de repère urbains et les infrastructures de transport",
+    "Maîtriser l'utilisation du suffixe locatif '-ni' et de l'interrogatif 'wapi'"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La structure locative utilise fréquemment le phonème 'sh' [ʃ] comme dans 'Kulia' et 'Kushoto'. Le mot 'Kushoto' (gauche) se prononce [kuˈʃɔ.tɔ]. Le mot 'Mbele' (devant) utilise une consonne pré-nasalisée complexe 'mb' [ˈmbɛ.lɛ], qui s'articule d'un seul bloc. Le 'h' dans 'Hapa' (ici) doit être expiré avec netteté [ˈha.pa].",
+    "common_pitfalls": "Veillez à ne pas détacher le 'n' initial dans le mot 'Njia' (chemin/route). Ce 'n' est pré-nasalisé, formant une seule entité articulatoire avec le 'j' [ˈndʒi.a]. Évitez également de prononcer le 'o' de 'Kushoto' de manière trop fermée ou nasale."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Njia",
+      "phonetic_api": "/ˈndʒi.a/",
+      "phonetic_simple": "NDJEE-AH",
+      "translation": "Chemin / Route / Rue",
+      "example_sentence": "Njia hii inenda wapi?",
+      "example_phonetic": "/ˈndʒi.a ˈhi.i i.nɛˈnda ˈwa.pi/",
+      "example_translation": "Où va ce chemin ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "Kulia",
+      "phonetic_api": "/kuˈli.a/",
+      "phonetic_simple": "KOO-LEE-AH",
+      "translation": "Droite (direction)",
+      "example_sentence": "Pinda kulia hapa.",
+      "example_phonetic": "/ˈpi.nda kuˈli.a ˈha.pa/",
+      "example_translation": "Tourne à droite ici."
+    },
+    {
+      "word_id": "v3",
+      "term": "Kushoto",
+      "phonetic_api": "/kuˈʃɔ.tɔ/",
+      "phonetic_simple": "KOO-SHOH-TOH",
+      "translation": "Gauche (direction)",
+      "example_sentence": "Nenda kushoto.",
+      "example_phonetic": "/ˈnɛ.nda kuˈʃɔ.tɔ/",
+      "example_translation": "Va à gauche."
+    },
+    {
+      "word_id": "v4",
+      "term": "Mbele",
+      "phonetic_api": "/ˈmbɛ.lɛ/",
+      "phonetic_simple": "MBEH-LEH",
+      "translation": "Devant / En avant / Tout droit",
+      "example_sentence": "Sogea mbele kidogo.",
+      "example_phonetic": "/sɔˈgɛ.a ˈmbɛ.lɛ kiˈdɔ.gɔ/",
+      "example_translation": "Avance un peu devant (un peu plus loin)."
+    },
+    {
+      "word_id": "v5",
+      "term": "Nyuma",
+      "phonetic_api": "/ˈɲu.ma/",
+      "phonetic_simple": "NYOO-MAH",
+      "translation": "Derrière / En arrière",
+      "example_sentence": "Stesheni iko nyuma ya soko.",
+      "example_phonetic": "/stɛˈʃɛ.ni ˈi.kɔ ˈɲu.ma ja ˈsɔ.kɔ/",
+      "example_translation": "La gare est derrière le marché."
+    },
+    {
+      "word_id": "v6",
+      "term": "Soko",
+      "phonetic_api": "/ˈsɔ.kɔ/",
+      "phonetic_simple": "SOH-KOH",
+      "translation": "Marché",
+      "example_sentence": "Ninatenda sokoni kununua matunda.",
+      "example_phonetic": "/ni.naˈtɛ.nda sɔˈkɔ.ni ku.nuˈnu.a maˈtu.nda/",
+      "example_translation": "Je vais au marché pour acheter des fruits."
+    },
+    {
+      "word_id": "v7",
+      "term": "Hoteli",
+      "phonetic_api": "/hɔˈtɛ.li/",
+      "phonetic_simple": "HOH-TEH-LEE",
+      "translation": "Hôtel / Restaurant (local)",
+      "example_sentence": "Hoteli hii ni safi.",
+      "example_phonetic": "/hɔˈtɛ.li ˈhi.i ni ˈsa.fi/",
+      "example_translation": "Cet hôtel est propre."
+    },
+    {
+      "word_id": "v8",
+      "term": "Stesheni",
+      "phonetic_api": "/stɛˈʃɛ.ni/",
+      "phonetic_simple": "STEH-SHEH-NEE",
+      "translation": "Gare / Station",
+      "example_sentence": "Stesheni ya treni iko mbali?",
+      "example_phonetic": "/stɛˈʃɛ.ni ja ˈtrɛ.ni ˈi.kɔ ˈmba.li/",
+      "example_translation": "La gare de train est-elle loin ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Samahani, soko liko wapi?",
+      "phonetic_api": "/sa.maˈha.ni ˈsɔ.kɔ ˈli.kɔ ˈwa.pi/",
+      "phonetic_simple": "SAH-MAH-HAA-NEE SOH-KOH LEE-KOH WAH-PEE",
+      "translation": "Excusez-moi, où se trouve le marché ?",
+      "context": "Interroger un passant de manière respectueuse pour trouver son chemin."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Nenda moja kwa moja mbele.",
+      "phonetic_api": "/ˈnɛ.nda ˈmɔ.dʒa kwa ˈmɔ.dʒa ˈmbɛ.lɛ/",
+      "phonetic_simple": "NEHN-DAH MOH-DJAH KWAH MOH-DJAH MBEH-LEH",
+      "translation": "Va tout droit devant (continue tout droit).",
+      "context": "Directive standard d'orientation."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Je, hoteli iko karibu au mbali?",
+      "phonetic_api": "/dʒɛ hɔˈtɛ.li ˈi.kɔ kaˈri.bu a.u ˈmba.li/",
+      "phonetic_simple": "JEH HOH-TEH-LEE EE-KOH KAH-REE-BOO AH-OO MBAH-LEE",
+      "translation": "Est-ce que l'hôtel est près ou loin ?",
+      "context": "Évaluer la distance d'un lieu cible."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Iko karibu sana, unaweza kutembea.",
+      "phonetic_api": "/ˈi.kɔ kaˈri.bu ˈsa.na u.naˈwɛ.za ku.tɛˈmbɛ.a/",
+      "phonetic_simple": "EE-KOH KAH-REE-BOO SAH-NAH OO-NAH-WEH-ZAH KOO-TEHM-BEH-AH",
+      "translation": "C'est très proche, tu peux marcher.",
+      "context": "Indication rassurante sur la proximité d'une destination."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Pinda kulia kwenye njia kubwa.",
+      "phonetic_api": "/ˈpi.nda kuˈli.a ˈkwɛ.nɲɛ ˈndʒi.a ˈku.bwa/",
+      "phonetic_simple": "PEEN-DAH KOO-LEE-AH KWEH-NYEH NDJEE-AH KOO-BWAH",
+      "translation": "Tourne à droite sur la grande route.",
+      "context": "Indication de changement de direction à un carrefour."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Nimepotea, tafadhali nisaidie.",
+      "phonetic_api": "/ni.mɛ.pɔˈtɛ.a ta.faˈða.li ni.sa.iˈdi.ɛ/",
+      "phonetic_simple": "NEE-MEH-POH-TEH-AH TAH-FAH-ZAA-LEE NEE-SAH-EE-DEE-EH",
+      "translation": "Je suis perdu, s'il vous plaît aidez-moi.",
+      "context": "Situation d'urgence ou de désorientation en ville."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Benki iko upande gani?",
+      "phonetic_api": "/ˈbɛ.ŋki ˈi.kɔ uˈpa.ndɛ ˈga.ni/",
+      "phonetic_simple": "BEHN-KEE EE-KOH OO-PAHN-DEH GAH-NEE",
+      "translation": "De quel côté se trouve la banque ?",
+      "context": "Recherche d'un bâtiment ou d'une infrastructure spécifique."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Iko upande wa kushoto.",
+      "phonetic_api": "/ˈi.kɔ uˈpa.ndɛ wa kuˈʃɔ.tɔ/",
+      "phonetic_simple": "EE-KOH OO-PAHN-DEH WAH KOO-SHOH-TOH",
+      "translation": "Elle se trouve du côté gauche.",
+      "context": "Précision latérale pour repérer un bâtiment."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le suffixe locatif '-ni' et la transformation des noms de lieux",
+      "explanation": "En swahili, pour indiquer qu'on se trouve 'à', 'dans' ou 'vers' un endroit, on ajoute généralement le suffixe '-ni' à la fin du nom commun. Cette modification change la classe nominale du mot d'origine pour l'intégrer aux classes locatives.",
+      "rules": [
+        "Le nom de base perd sa classe d'origine au profit d'un sens spatial.",
+        "Soko (Marché) devient Sokoni (Au marché / Du marché).",
+        "Nyumba (Maison) devient Nyumbani (À la maison / Chez soi).",
+        "Attention : Les noms de pays, de villes et les noms propres de lieux d'origine étrangère ne prennent jamais ce suffixe '-ni' (ex: 'Nairobi', 'Mombasa', 'Ufaransa')."
+      ],
+      "examples": [
+        {
+          "structure": "Soko (Marché) + -ni",
+          "phonetic_api": "/sɔˈkɔ.ni/",
+          "meaning": "Au marché"
+        },
+        {
+          "structure": "Shule (École) + -ni",
+          "phonetic_api": "/ʃuˈlɛ.ni/",
+          "meaning": "À l'école"
+        }
+      ]
+    },
+    {
+      "concept": "Le fonctionnement des verbes de localisation 'iko' / 'ziko'",
+      "explanation": "Pour dire 'se trouver à' ou 'être quelque part', le swahili utilise un outil composé du pronom de classe associé au suffixe locatif '-ko' (qui indique une localisation générale).",
+      "rules": [
+        "Pour un objet ou un lieu singulier de la classe N (ex: hoteli, benki), on utilise 'iko' (elle est là).",
+        "Pour un nom singulier de la classe JI/MA comme 'soko', on utilise 'liko' (il est là).",
+        "L'interrogatif 'wapi' se place systématiquement en fin de proposition."
+      ],
+      "examples": [
+        {
+          "structure": "Benki (Banque) + iko + wapi?",
+          "phonetic_api": "/ˈbɛ.ŋki ˈi.kɔ ˈwa.pi/",
+          "meaning": "Où est la banque ?"
+        },
+        {
+          "structure": "Soko (Marché) + liko + hapa.",
+          "phonetic_api": "/ˈsɔ.kɔ ˈli.kɔ ˈha.pa/",
+          "meaning": "Le marché est ici."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Chloe (Mgeni)",
+      "text": "Samahani bwana, ninatafuta stesheni ya treni. Iko wapi?",
+      "phonetic_api": "/sa.maˈha.ni ˈbwa.na ni.na.taˈfu.ta stɛˈʃɛ.ni ja ˈtrɛ.ni ˈi.kɔ ˈwa.pi/",
+      "phonetic_simple": "SAH-MAH-HAA-NEE BWAH-NAH NEE-NAH-TAH-FOO-TAH STEH-SHEH-NEE YAH TREH-NEE EE-KOH WAH-PEE",
+      "translation": "Excusez-moi monsieur, je cherche la gare de train. Où est-elle ?"
+    },
+    {
+      "speaker": "Bodaboda (Dereva)",
+      "text": "Hujambo mgeni! Stesheni ya treni iko mbali kidogo na hapa.",
+      "phonetic_api": "/huˈdʒa.mbɔ mˈgɛ.ni stɛˈʃɛ.ni ja ˈtrɛ.ni ˈi.kɔ ˈmba.li kiˈdɔ.gɔ na ˈha.pa/",
+      "phonetic_simple": "HOO-DJAHM-BOH MGEH-NEE STEH-SHEH-NEE YAH TREH-NEE EE-KOH MBAH-LEE KEE-DOH-GOH NAH HAH-PAH",
+      "translation": "Bonjour l'étrangère ! La gare de train est un peu loin d'ici."
+    },
+    {
+      "speaker": "Chloe (Mgeni)",
+      "text": "Je, ninaweza kutembea au ninahitaji pikipiki?",
+      "phonetic_api": "/dʒɛ ni.naˈwɛ.za ku.tɛˈmbɛ.a a.u ni.na.hiˈta.dʒi pi.kiˈpi.ki/",
+      "phonetic_simple": "JEH NEE-NAH-WEH-ZAH KOO-TEHM-BEH-AH AH-OO NEE-NAH-HEE-TAH-DJEE PEE-KEE-PEE-KEE",
+      "translation": "Est-ce que je peux marcher ou ai-je besoin d'une moto ?"
+    },
+    {
+      "speaker": "Bodaboda (Dereva)",
+      "text": "Unaweza kutembea. Nenda moja kwa moja mbele, kisha pinda kushoto kwenye soko.",
+      "phonetic_api": "/u.naˈwɛ.za ku.tɛˈmbɛ.a ˈnɛ.nda ˈmɔ.dʒa kwa ˈmɔ.dʒa ˈmbɛ.lɛ ˈki.ʃa ˈpi.nda kuˈʃɔ.tɔ ˈkwɛ.nɲɛ ˈsɔ.kɔ/",
+      "phonetic_simple": "OO-NAH-WEH-ZAH KOO-TEHM-BEH-AH NEHN-DAH MOH-DJAH KWAH MOH-DJAH MBEH-LEH KEE-SHAH PEEN-DAH KOO-SHOH-TOH KWEH-NYEH SOH-KOH",
+      "translation": "Tu peux marcher. Va tout droit devant, ensuite tourne à gauche au niveau du marché."
+    },
+    {
+      "speaker": "Chloe (Mgeni)",
+      "text": "Safi sana. Stesheni iko nyuma ya soko?",
+      "phonetic_api": "/ˈsa.fi ˈsa.na stɛˈʃɛ.ni ˈi.kɔ ˈɲu.ma ja ˈsɔ.kɔ/",
+      "phonetic_simple": "SAH-FEE SAH-NAH STEH-SHEH-NEE EE-KOH NYOO-MAH YAH SOH-KOH",
+      "translation": "Excellent. La gare est derrière le marché ?"
+    },
+    {
+      "speaker": "Bodaboda (Dereva)",
+      "text": "Naam, iko mbele kidogo tu nyuma ya soko upande wa kulia. Karibu!",
+      "phonetic_api": "/naːm ˈi.kɔ ˈmbɛ.lɛ kiˈdɔ.gɔ tu ˈɲu.ma ja ˈsɔ.kɔ uˈpa.ndɛ wa kuˈli.a kaˈri.bu/",
+      "phonetic_simple": "NAAHM EE-KOH MBEH-LEH KEE-DOH-GOH TOO NYOO-MAH YAH SOH-KOH OO-PAHN-DEH WAH KOO-LEE-AH KAH-REE-BOO",
+      "translation": "Oui, elle est juste un tout petit peu plus loin derrière le marché sur le côté droit. Bienvenue !"
+    }
+  ],
+  "cultural_notes": [
+    "En Afrique de l'Est, demander son chemin donne souvent lieu à des interactions très chaleureuses. Un habitant pourra faire quelques pas avec vous pour s'assurer que vous ne vous perdez pas.",
+    "Le terme 'Bodaboda' désigne les motos-taxis indispensables pour se déplacer rapidement dans les villes comme Nairobi, Dar es Salaam ou Kampala. Ils connaissent parfaitement les moindres ruelles.",
+    "L'expression 'Moja kwa moja' (tout droit) est utilisée de façon très généreuse. Si la direction vous semble trop longue, n'hésitez pas à demander confirmation à un autre passant après quelques minutes."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on correctement 'Le marché est à gauche' en swahili standard ?",
+      "options": [
+        "Soko liko upande wa kulia.",
+        "Soko liko upande wa kushoto.",
+        "Benki iko mbele.",
+        "Njia iko nyuma ya nyumba."
+      ],
+      "correct_answer": "Soko liko upande wa kushoto.",
+      "explanation": "'Soko liko' s'accorde avec le marché au singulier, et 'kushoto' signifie rigoureusement gauche."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Samahani bwana, benki iko [ ___ ]? (Complétez avec le mot interrogatif pour 'où')",
+      "correct_answer": "wapi",
+      "hint": "Cet outil interrogatif se place toujours à la fin de la phrase pour demander la localisation."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "lesson_id": "C1_M3_L8",
+  "level": "Niveau Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 8,
+  "title": "Le lexique technique, professionnel et spécialisé",
+  "learning_objectives": [
+    "Maîtriser le lexique technique lié aux institutions communautaires",
+    "Utiliser les termes administratifs traditionnels dans un contexte officiel",
+    "Négocier des accords ou arbitrages complexes en langue soutenue"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les termes techniques s'appuient sur des mots composés complexes. La prononciation exige de respecter scrupuleusement la séparation morphologique interne pour maintenir le sens conceptuel.",
+    "common_pitfalls": "Attention à ne pas assimiler la consonne finale d'un mot composé dans la voyelle initiale du terme suivant."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v26_1",
+      "term": "walikanda",
+      "phonetic_api": "/wa.li.ka.ⁿda/",
+      "phonetic_simple": "WA-LI-KAN-DA",
+      "translation": "organisation du travail / gestion / entreprise collective",
+      "example_sentence": "Walikanda nɔɔ o co kpou.",
+      "example_phonetic": "/wa.li.ka.ⁿda noː o tʃo kpu/",
+      "example_translation": "Notre organisation du travail est excellente."
+    },
+    {
+      "word_id": "v26_2",
+      "term": "koundatana",
+      "phonetic_api": "/kuːⁿda.ta.na/",
+      "phonetic_simple": "KOUN-DA-TA-NA",
+      "translation": "loi communautaire / règlement interne du village / charte locale",
+      "example_sentence": "I nɔ i lɔ koundatana.",
+      "example_phonetic": "/i nɔ i lɔ kuːⁿda.ta.na/",
+      "example_translation": "Nous devons suivre la loi communautaire."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p26_1",
+      "original": "Walikanda nɔɔ o nɔ nyalɛ fiaa fassa wa.",
+      "phonetic_api": "/wa.li.ka.ⁿda noː o nɔ ɲa.lɛ fjaː fa.sa wa/",
+      "phonetic_simple": "WA-LI-KAN-DA NOO O NO NYA-LÈ FIA-A FAS-SA WA",
+      "translation": "Notre gestion collective présente une grande efficacité de ce côté.",
+      "context": "Rapport ou réunion sur les affaires publiques"
+    },
+    {
+      "phrase_id": "p26_2",
+      "original": "Koundatana o dimul mi, lo wa le !",
+      "phonetic_api": "/kuːⁿda.ta.na o di.mul mi lo wa le/",
+      "phonetic_simple": "KOUN-DA-TA-NA O DI-MOUL MEE LO WA LÉ",
+      "translation": "Le règlement du village nous l'ordonne, n'y allez pas !",
+      "context": "Rappel à l'ordre institutionnel coutumier"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La composition nominale technique",
+      "explanation": "Le lexique spécialisé ou technique en kissi procède massivement par juxtaposition et fusion de racines nominales (Exemple: wali [travail] + kandɛ [commencer/organiser] = walikanda [gestion/organisation]).",
+      "rules": [
+        "Le nom principal qui donne l'orientation de sens se place en tête.",
+        "Le terme qualifiant ou spécifiant se fusionne immédiatement à sa suite."
+      ],
+      "examples": [
+        {
+          "structure": "Nom + Nom fusionné",
+          "phonetic_api": "/wa.li.ka.ⁿda/",
+          "meaning": "Gestion / organisation du travail"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Le Délégué",
+      "text": "Simbo, walikanda nɔɔ o co ndoo cɔɔ lɔ loolu ?",
+      "phonetic_api": "/si.ᵐbo wa.li.ka.ⁿda noː o tʃo ⁿdoː tʃɔː lɔ loː.lu/",
+      "phonetic_simple": "SEEM-BO, WA-LI-KAN-DA NOO O TCHO NDOO TCHOO LO LOO-LOU ?",
+      "translation": "Sage, notre organisation va-t-elle suivre un long chemin (se pérenniser) ?"
+    },
+    {
+      "speaker": "Le Sage",
+      "text": "Haa, te i lɔ koundatana kpou, walikanda o co lo bɛndɛ.",
+      "phonetic_api": "/haː te i lɔ kuːⁿda.ta.na k͡pu wa.li.ka.ⁿda o tʃo lo bɛⁿdɛ/",
+      "phonetic_simple": "HAA, TÉ EE LO KOUN-DA-TA-NA KPOU, WA-LI-KAN-DA O TCHO LO BEN-DÈ.",
+      "translation": "Oui, si nous suivons tout le règlement intérieur, l'organisation ira très loin."
+    }
+  ],
+  "cultural_notes": [
+    "Les décisions institutionnelles, la gestion des terres arables et les arbitrages professionnels s'appuient sur un droit coutumier kissi structuré de longue date. Le respect de la parole donnée devant les instances arbitrales scelle la sécurité juridique de la communauté."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex26_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot composé 'koundatana' ?",
+      "options": [
+        "Le repas de la fête",
+        "La loi communautaire / le règlement du village",
+        "La grande route de la ville"
+      ],
+      "correct_answer": "La loi communautaire / le règlement du village",
+      "explanation": "C'est l'association de 'kounda' (quartier/communauté) et de 'tana' (règles/interdits/jours régulateurs)."
+    },
+    {
+      "exercise_id": "ex26_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] nɔɔ o co kpou. (Notre organisation du travail est excellente)",
+      "correct_answer": "Walikanda",
+      "hint": "Mot technique combinant le travail et l'organisation"
+    }
+  ]
+}

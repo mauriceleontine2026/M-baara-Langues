@@ -1,0 +1,155 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter",
+  "learning_objectives": [
+    "Dire son nom, son âge et son origine en konyanka",
+    "Demander l'identité de son interlocuteur de manière courtoise"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'g' dans 'tɔgɔ' est une occlusive vélaire voisée /ɡ/. Veillez à bien articuler les voyelles identiques qui l'entourent avec un ton égal.",
+    "common_pitfalls": "Le pronom de la première personne du singulier fusionne souvent avec le mot suivant : 'N'tɔgɔ' se prononce presque comme un seul bloc compact /ń.tɔ́.ɡɔ/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Tɔgɔ",
+      "phonetic_api": "/tɔ́.ɡɔ́/",
+      "phonetic_simple": "TƆ-GƆ",
+      "translation": "Nom / Prénom",
+      "example_sentence": "N'tɔgɔ le Lamine.",
+      "example_phonetic": "/ń.tɔ́.ɡɔ́ lé lá.mí.ne/",
+      "example_translation": "Mon nom est Lamine."
+    },
+    {
+      "word_id": "v2",
+      "term": "Jamana",
+      "phonetic_api": "/ɟá.má.ná/",
+      "phonetic_simple": "DYA-MA-NA",
+      "translation": "Pays / Origine / Terre",
+      "example_sentence": "Gine jamana.",
+      "example_phonetic": "/ɡí.né ɟá.má.ná/",
+      "example_translation": "Le pays de la Guinée."
+    },
+    {
+      "word_id": "v3",
+      "term": "Bɔ",
+      "phonetic_api": "/bɔ́/",
+      "phonetic_simple": "BƆ",
+      "translation": "Sortir de / Venir de",
+      "example_sentence": "N'bɔra Conakry.",
+      "example_phonetic": "/ń.bɔ́.rá kɔ.ná.kɾí/",
+      "example_translation": "Je viens de Conakry."
+    },
+    {
+      "word_id": "v4",
+      "term": "San",
+      "phonetic_api": "/sán/",
+      "phonetic_simple": "SAN",
+      "translation": "Année / Âge",
+      "example_sentence": "San mugan bɛ n'bolo.",
+      "example_phonetic": "/sán mú.ɡán bɛ́ ń bɔ́.ló/",
+      "example_translation": "J'ai vingt ans (litt. vingt ans sont dans ma main)."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "I tɔgɔ bɛ di?",
+      "phonetic_api": "/í tɔ́.ɡɔ́ bɛ́ dí/",
+      "phonetic_simple": "I TƆ-GƆ BÈ DI?",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Question usuelle posée pour faire la connaissance de quelqu'un."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "I bɔra mi?",
+      "phonetic_api": "/í bɔ́.rá mí/",
+      "phonetic_simple": "I BƆ-RA MI?",
+      "translation": "D'où viens-tu ? / Quelle est ton origine ?",
+      "context": "Interrogation courante sur la provenance ou le village d'origine."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Mun le i ka baara di?",
+      "phonetic_api": "/mún lé í ká báː.rá dí/",
+      "phonetic_simple": "MOUN LÉ I KA BAA-RA DI?",
+      "translation": "Quel est ton travail ? / Que fais-tu ?",
+      "context": "Question informative sur l'activité professionnelle."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la provenance avec le suffixe accompli '-ra'",
+      "explanation": "Pour exprimer qu'une action est achevée (comme le fait de naître ou de venir d'un lieu), le verbe reçoit le suffixe '-ra' ou '-na' selon l'harmonie nasale. 'Bɔ' (sortir) devient ainsi 'bɔra' (être sorti de / venir de).",
+      "rules": [
+        "Verbe de base + ra = Action passée/accomplie pour les verbes intransitifs.",
+        "N'bɔra [Lieu] = Je viens de [Lieu]."
+      ],
+      "examples": [
+        {
+          "structure": "N'bɔra Kankan",
+          "phonetic_api": "/ń.bɔ́.rá kán.kán/",
+          "meaning": "Je viens de Kankan."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Fanta",
+      "text": "I tɔgɔ bɛ di, n'baden?",
+      "phonetic_api": "/í tɔ́.ɡɔ́ bɛ́ dí ń bá.dén/",
+      "phonetic_simple": "I TƆ-GƆ BÈ DI, N'BA-DEN?",
+      "translation": "Comment t'appelles-tu, mon frère ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "N'tɔgɔ le Amara. I tɔgɔ?",
+      "phonetic_api": "/ń.tɔ́.ɡɔ́ lé á.má.rá í tɔ́.ɡɔ́/",
+      "phonetic_simple": "N'TƆ-GƆ LÉ A-MA-RA. I TƆ-GƆ?",
+      "translation": "Mon nom est Amara. Et ton nom ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "N'tɔgɔ Fanta. I bɔra mi?",
+      "phonetic_api": "/ń.tɔ́.ɡɔ́ fán.tá í bɔ́.rá mí/",
+      "phonetic_simple": "N'TƆ-GƆ FAN-TA. I BƆ-RA MI?",
+      "translation": "Mon nom est Fanta. D'où viens-tu ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "N'bɔra Beyla le.",
+      "phonetic_api": "/ń.bɔ́.rá béj.lá lé/",
+      "phonetic_simple": "N'BƆ-RA BEY-LA LÉ.",
+      "translation": "Je viens de Beyla."
+    }
+  ],
+  "cultural_notes": [
+    "L'origine géographique et le nom de famille (le 'jamu') revêtent une importance capitale. Décliner son nom permet immédiatement aux locuteurs d'identifier les alliances ancestrales (le Sanankunya ou cousinage à plaisanterie) et d'installer un climat de fraternité."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie la phrase 'I tɔgɔ bɛ di?'",
+      "options": [
+        "Où habites-tu ?",
+        "Comment t'appelles-tu ?",
+        "Quel âge as-tu ?"
+      ],
+      "correct_answer": "Comment t'appelles-tu ?",
+      "explanation": "'Tɔgɔ' se traduit par le nom, la phrase interroge donc l'identité nominale."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N'bɔra Gine [ ___ ]. (Je viens du pays de la Guinée).",
+      "correct_answer": "jamana",
+      "hint": "Mot signifiant pays ou territoire."
+    }
+  ]
+}

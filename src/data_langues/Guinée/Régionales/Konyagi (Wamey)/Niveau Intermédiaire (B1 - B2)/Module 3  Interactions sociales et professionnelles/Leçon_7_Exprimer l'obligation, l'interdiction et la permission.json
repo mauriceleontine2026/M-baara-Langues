@@ -1,0 +1,180 @@
+{
+  "lesson_id": "B1_M3_L7",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 7,
+  "title": "Exprimer l'obligation, l'interdiction et la permission",
+  "learning_objectives": [
+    "Exprimer un ordre, un devoir ou une contrainte morale en wamey",
+    "Formuler une interdiction stricte ou une interdiction de politesse",
+    "Demander et accorder la permission de réaliser une action"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'accentuation des morphèmes modaux comme 'ila' et 'kpa'. La réalisation correcte du coup de glotte ou de l'occlusion instantanée avant les particules de contrôle.",
+    "common_pitfalls": "Attention à ne pas adoucir le 'kpa' en 'pa'. La double articulation labio-vélaire sourde /kp/ exige que les lèvres et le voile du palais se ferment en même temps."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "ila",
+      "phonetic_api": "/ila/",
+      "phonetic_simple": "I-LA",
+      "translation": "devoir / falloir / être obligatoire",
+      "example_sentence": "Ila nyi gwa ra waawë.",
+      "example_phonetic": "/ila ɲi ɡwa ʁa waːwə/",
+      "example_translation": "Il faut que j'aille travailler."
+    },
+    {
+      "word_id": "v2",
+      "term": "kpa",
+      "phonetic_api": "/kpa/",
+      "phonetic_simple": "KPA",
+      "translation": "interdire / ne pas faire / arrêter",
+      "example_sentence": "Kpa fala cene !",
+      "example_phonetic": "/kpa fala t͡ʃɛnɛ/",
+      "example_translation": "Interdit de faire ça ! / Ne fais pas ça !"
+    },
+    {
+      "word_id": "v3",
+      "term": "ɗaka",
+      "phonetic_api": "/ɗaka/",
+      "phonetic_simple": "D'A-KA",
+      "translation": "pouvoir / accorder la permission",
+      "example_sentence": "Wun ɗaka ra gwa.",
+      "example_phonetic": "/wun ɗaka ʁa ɡwa/",
+      "example_translation": "Tu peux t'en aller."
+    },
+    {
+      "word_id": "v4",
+      "term": "kwaɗ",
+      "phonetic_api": "/kwaɗ/",
+      "phonetic_simple": "KOUAD",
+      "translation": "droit / permission / chemin",
+      "example_sentence": "Muxu kwaɗ ko.",
+      "example_phonetic": "/muxu kwaɗ ko/",
+      "example_translation": "Donne-moi l'autorisation s'il te plaît."
+    },
+    {
+      "word_id": "v5",
+      "term": "fala",
+      "phonetic_api": "/fala/",
+      "phonetic_simple": "FA-LA",
+      "translation": "laisser / abandonner",
+      "example_sentence": "Fala mi nyi gwa.",
+      "example_phonetic": "/fala mi ɲi ɡwa/",
+      "example_translation": "Laisse-moi partir."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ila wun fagba kaɓas kene.",
+      "phonetic_api": "/ila wun faɡba kaɓas kɛnɛ/",
+      "phonetic_simple": "I-LA WOUN FA-GBA KA-BHAS KÉ-NÉ",
+      "translation": "Tu dois payer ce prix.",
+      "context": "Signifier une obligation de transaction financière."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Kpa mëny ɗi cene !",
+      "phonetic_api": "/kpa məɲ ɗi t͡ʃɛnɛ/",
+      "phonetic_simple": "KPA ME-NY D'I TCHÉ-NÉ !",
+      "translation": "Ne bois pas cette eau !",
+      "context": "Formuler une interdiction sanitaire ou coutumière claire."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Nyi ɗaka ra bano ra wëñ ?",
+      "phonetic_api": "/ɲi ɗaka ʁa bano ʁa wəɲ/",
+      "phonetic_simple": "NYI D'A-KA RA BA-NO RA OUENY ?",
+      "translation": "Puis-je entrer dans la cour ?",
+      "context": "Demander poliment l'autorisation d'entrer dans un espace privé."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'obligation impersonnelle avec 'ila'",
+      "explanation": "Pour exprimer le devoir ou l'obligation absolue, le wamey place la particule verbale défective 'ila' au tout début de la phrase. Elle fonctionne comme le marqueur 'il faut' en français et introduit la proposition sujet-verbe.",
+      "rules": [
+        "Ila + Sujet + Verbe principal"
+      ],
+      "examples": [
+        {
+          "structure": "Ila rya gwa saax.",
+          "phonetic_api": "/ila ʁja ɡwa saːχ/",
+          "meaning": "Il faut que nous rentrions au village."
+        }
+      ]
+    },
+    {
+      "concept": "L'interdiction prohibitive directe avec 'kpa'",
+      "explanation": "L'impératif négatif ou l'interdiction se construit de manière très simple en wamey en plaçant la particule prohibitive 'kpa' devant l'action défendue.",
+      "rules": [
+        "Kpa + Verbe principal + (Complément)"
+      ],
+      "examples": [
+        {
+          "structure": "Kpa waawë !",
+          "phonetic_api": "/kpa waːwə/",
+          "meaning": "Ne travaille pas ! / Arrête de travailler !"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Ryambé, ɓaba ! Nyi ɗaka ra gwa ra suwé goka kene ?",
+      "phonetic_api": "/jambɛ ɓaba ɲi ɗaka ʁa ɡwa ʁa suwe ɡɔka kɛnɛ/",
+      "phonetic_simple": "RYAM-BÉ, BHA-BA ! NYI D'A-KA RA GOUA RA SOU-WÉ GOKA KÉ-NÉ ?",
+      "translation": "Bonjour, père ! Puis-je aller en ville cette nuit ?"
+    },
+    {
+      "speaker": "ɓaba (Père)",
+      "text": "Ryambé gouè ! Kpa gwa ra suwé goka. I loda gba, et ila wun ra nyara ra kakaré.",
+      "phonetic_api": "/jambɛ ɡwɛ kpa ɡwa ʁa suwe ɡɔka i loda ɡba ɛ ila wun ʁa ɲaʁa ʁa kakaʁɛ/",
+      "phonetic_simple": "RYAM-BÉ GOUÈ ! KPA GOUA RA SOU-WÉ GO-KA. I LO-DA GBA, É I-LA WOUN RA NYA-RA RA KA-KA-RÉ.",
+      "translation": "Bonjour en paix ! Ne va pas en ville la nuit. C'est loin, et tu dois te reposer/t'amuser à la maison."
+    },
+    {
+      "speaker": "Samba",
+      "text": "I boka. Mbiya gocen nyi ɗaka ra gwa ?",
+      "phonetic_api": "/i boka mbija ɡɔt͡ʃɛn ɲi ɗaka ʁa ɡwa/",
+      "phonetic_simple": "I BO-KA. MBI-YA GO-TCHEN NYI D'A-KA RA GOUA ?",
+      "translation": "D'accord. Pourrai-je y aller demain matin ?"
+    },
+    {
+      "speaker": "ɓaba (Père)",
+      "text": "Gouè, mbiya gocen ila wun gwa wetyal malo. Fala can mi ra boka.",
+      "phonetic_api": "/ɡwɛ mbija ɡɔt͡ʃɛn ila wun ɡwa wɛtjal malo fala t͡ʃan mi ʁa boka/",
+      "phonetic_simple": "GOUÈ, MBI-YA GO-TCHEN I-LA WOUN GOUA OUÉ-TYAL MA-LO. FA-LA TCHAN MI RA BO-KA.",
+      "translation": "Oui, demain matin il faudra que tu ailles acheter du riz. Mon cœur est d'accord (je te donne la permission)."
+    }
+  ],
+  "cultural_notes": [
+    "L'expression de la permission et du respect des règles collectives est fondamentale chez les Wamey. Un jeune homme sollicite traditionnellement l'accord explicite du chef de concession ('ɓaba') avant toute initiative majeure sortant du cadre de la routine.",
+    "L'interdiction n'est pas perçue comme un affront autoritaire, mais plutôt comme une mesure de protection bienveillante au sein de l'organisation des clans familiaux de Youkounkoun."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M3_L7_EX1",
+      "type": "multiple_choice",
+      "question": "Quel terme initial exprime l'obligation équivalente à 'il faut' ?",
+      "options": [
+        "kpa",
+        "ila",
+        "ɗaka"
+      ],
+      "correct_answer": "ila",
+      "explanation": "'Ila' se place en début de phrase pour introduire une obligation."
+    },
+    {
+      "exercise_id": "B1_M3_L7_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] fala cene ! (Ne fais pas cela !)",
+      "correct_answer": "Kpa",
+      "hint": "La particule prohibitive indispensable pour formuler l'interdiction."
+    }
+  ]
+}

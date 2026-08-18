@@ -1,0 +1,300 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Identifier et nommer les vêtements principaux du quotidien",
+    "Maîtriser les trois adjectifs de couleur fondamentaux en dioula",
+    "Décrire la tenue vestimentaire ou la couleur d'un tissu",
+    "Formuler des phrases simples pour acheter un habit au marché"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot 'fani' (le pagne / le tissu / l'habit) utilise des voyelles brèves /fa.ni/. Les couleurs fondamentales font intervenir des structures d'allongement et de nasalisation : 'gwɛ' ou 'gbɛ' (blanc) se réalise selon les zones sous la forme d'une labio-vélaire sourde /g͡bɛ/ ou /wɛ/. 'Fin' (noir) exige une nasalisation nette de la voyelle fermée /fiⁿ/. 'Ble' (rouge) s'articule d'un seul bloc syllabique bref.",
+    "common_pitfalls": "Attention à la prononciation du digramme 'gb' ou 'gw' dans 'gbɛ' (blanc). Ne détachez pas les sons, mais articulez-les simultanément. Veillez également à ne pas prononcer le 'n' final de 'fin' (noir) comme une consonne alvéolaire française, le 'n' sert à nasaliser le 'i'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Fani",
+      "phonetic_api": "/fa.ni/",
+      "phonetic_simple": "FA-NI",
+      "translation": "Le tissu / L'habit / Le pagne",
+      "example_sentence": "Fani nin ka cɛɲi kosɛbɛ",
+      "example_phonetic": "/fa.ni nin ka t͡ʃɛ.ɲi ko.sɛ.bɛ/",
+      "example_translation": "Ce tissu est très beau."
+    },
+    {
+      "word_id": "v2",
+      "term": "Doni",
+      "phonetic_api": "/do.ni/",
+      "phonetic_simple": "DO-NI",
+      "translation": "S'habiller / Porter un habit / Charger",
+      "example_sentence": "A bɛ fani fin don la",
+      "example_phonetic": "/a bɛ fa.ni fiⁿ doⁿ la/",
+      "example_translation": "Il/Elle porte un habit noir."
+    },
+    {
+      "word_id": "v3",
+      "term": "Gwɛ / Gbɛ",
+      "phonetic_api": "/g͡bɛ/",
+      "phonetic_simple": "GBÈ / GWÈ",
+      "translation": "Blanc / Clair",
+      "example_sentence": "N bɛ fɛ ka fani gbɛ san",
+      "example_phonetic": "/n̩ bɛ fɛ ka fa.ni g͡bɛ san/",
+      "example_translation": "Je veux acheter un tissu blanc."
+    },
+    {
+      "word_id": "v4",
+      "term": "Fin",
+      "phonetic_api": "/fiⁿ/",
+      "phonetic_simple": "FIN",
+      "translation": "Noir / Sombre",
+      "example_sentence": "Wulu fin bɛ so kɔnɔ",
+      "example_phonetic": "/wu.lu fiⁿ bɛ so kɔ.nɔ/",
+      "example_translation": "Le chien noir est dans la maison."
+    },
+    {
+      "word_id": "v5",
+      "term": "Ble",
+      "phonetic_api": "/ble/",
+      "phonetic_simple": "BLÉ",
+      "translation": "Rouge / Fauve",
+      "example_sentence": "Mango ble ka di",
+      "example_phonetic": "/man.go ble ka di/",
+      "example_translation": "La mangue rouge est délicieuse."
+    },
+    {
+      "word_id": "v6",
+      "term": "Kulusi",
+      "phonetic_api": "/ku.lu.si/",
+      "phonetic_simple": "KOU-LOU-SI",
+      "translation": "Le pantalon",
+      "example_sentence": "N bɛ kulusi ble fɛ",
+      "example_phonetic": "/n̩ bɛ ku.lu.si ble fɛ/",
+      "example_translation": "Je veux le pantalon rouge."
+    },
+    {
+      "word_id": "v7",
+      "term": "Dloki / Doroki",
+      "phonetic_api": "/dlo.ki/",
+      "phonetic_simple": "DLO-KI",
+      "translation": "La chemise / La robe / Le boubou",
+      "example_sentence": "Dloki gbɛ sɔngɔ ka bon",
+      "example_phonetic": "/dlo.ki g͡bɛ sɔn.gɔ ka boⁿ/",
+      "example_translation": "Le boubou blanc coûte cher."
+    },
+    {
+      "word_id": "v8",
+      "term": "Samara",
+      "phonetic_api": "/sa.ma.ra/",
+      "phonetic_simple": "SA-MA-RA",
+      "translation": "Les chaussures / Les sandales",
+      "example_sentence": "Samara fin bɛ yan",
+      "example_phonetic": "/sa.ma.ra fiⁿ bɛ jaⁿ/",
+      "example_translation": "Les chaussures noires sont ici."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "I bɛ fani juman fɛ ?",
+      "phonetic_api": "/i bɛ fa.ni d͡ʒu.man fɛ/",
+      "phonetic_simple": "I BÈ FA-NI DJOU-MAN FÈ ?",
+      "translation": "Quel habit/tissu veux-tu ?",
+      "context": "Question posée par un vendeur de vêtements au marché."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "N bɛ dloki ble fɛ.",
+      "phonetic_api": "/n̩ bɛ dlo.ki ble fɛ/",
+      "phonetic_simple": "N BÈ DLO-KI BLÉ FÈ",
+      "translation": "Je voudrais la chemise rouge / le boubou rouge.",
+      "context": "Exprimer son choix chromatique et vestimentaire."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Fani nin sɔngɔ bɛ joli ye ?",
+      "phonetic_api": "/fa.ni niⁿ sɔn.gɔ bɛ d͡ʒo.li jɛ/",
+      "phonetic_simple": "FA-NI NIN SÕN-GÕ BÈ DJO-LI YÈ ?",
+      "translation": "Combien coûte ce tissu ?",
+      "context": "Demander le prix d'un vêtement avant négociation."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "A bɛ fani fin don la bi.",
+      "phonetic_api": "/a bɛ fa.ni fiⁿ doⁿ la bi/",
+      "phonetic_simple": "A BÈ FA-NI FIN DON LA BI",
+      "translation": "Il/Elle s'est habillé(e) en noir aujourd'hui.",
+      "context": "Décrire le style ou la tenue de quelqu'un."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Samara nin ka janjan n ma.",
+      "phonetic_api": "/sa.ma.ra niⁿ ka d͡ʒaⁿ.d͡ʒaⁿ n̩ ma/",
+      "phonetic_simple": "SA-MA-RA NIN KA DJAN-DJAN N MA",
+      "translation": "Ces chaussures sont trop grandes pour moi.",
+      "context": "Essayer des chaussures au marché et signaler un problème de taille."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "A ka surun, a bɛ n bɛn fɛ.",
+      "phonetic_api": "/a ka su.ruⁿ a bɛ n̩ bɛⁿ fɛ/",
+      "phonetic_simple": "A KA SOU-ROUN, A BÈ N BEN FÈ",
+      "translation": "C'est ajusté/court, ça me convient parfaitement.",
+      "context": "Valider la coupe d'un vêtement auprès d'un couturier."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Sabari, yiriba fani gbɛ nin fana !",
+      "phonetic_api": "/sa.ba.ri ji.ri.ba fa.ni g͡bɛ niⁿ fa.na/",
+      "phonetic_simple": "SA-BA-RI, YI-RI-BA FA-NI GBÈ NIN FA-NA !",
+      "translation": "S'il te plaît, montre-moi aussi ce grand tissu blanc !",
+      "context": "Demander à voir une autre option chez le marchand."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Wari bɛ yan, n a sanna sisan.",
+      "phonetic_api": "/wa.ri bɛ jaⁿ n̩ a san.na si.san/",
+      "phonetic_simple": "WA-RI BÈ YAN, N A SAN-NA SI-SAN",
+      "translation": "Voici l'argent, je l'achète maintenant.",
+      "context": "Conclure la transaction de vente d'un habit."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La position de l'adjectif qualificatif de couleur",
+      "explanation": "En dioula, l'adjectif de couleur fonctionne exactement comme les quantificateurs numériques : il se positionne systématiquement immédiatement après le substantif qu'il qualifie.",
+      "rules": [
+        "Structure : Nom + Couleur.",
+        "Le nom ne prend pas de marque de liaison interne pour recevoir sa couleur."
+      ],
+      "examples": [
+        {
+          "structure": "Fani (tissu) + fin (noir)",
+          "phonetic_api": "/fa.ni fiⁿ/",
+          "meaning": "Un tissu noir."
+        },
+        {
+          "structure": "Kulusi (pantalon) + gbɛ (blanc)",
+          "phonetic_api": "/ku.lu.si g͡bɛ/",
+          "meaning": "Un pantalon blanc."
+        }
+      ]
+    },
+    {
+      "concept": "Le présent progressif vestimentaire avec 'bɛ ... don la'",
+      "explanation": "Pour exprimer le fait qu'une personne est en train de porter un habit ou s'habille, la langue emploie le verbe d'action 'don' (entrer / enfiler / charger) encadré par la structure progressive 'bɛ ... la'.",
+      "rules": [
+        "Structure : Sujet + bɛ + Vêtement + don + la.",
+        "Signifie littéralement : 'Être dans l'action d'enfiler le vêtement'."
+      ],
+      "examples": [
+        {
+          "structure": "A + bɛ + dloki (chemise) + don + la",
+          "phonetic_api": "/a bɛ dlo.ki doⁿ la/",
+          "meaning": "Il/Elle porte une chemise (est en train de mettre une chemise)."
+        }
+      ]
+    },
+    {
+      "concept": "Exprimer la convenance avec 'bɛ n bɛn'",
+      "explanation": "Pour dire qu'un habit ou des chaussures vont bien à quelqu'un (taille, style, ajustement), on emploie le verbe 'bɛn' (rencontrer / s'accorder) associé au pronom de l'individu.",
+      "rules": [
+        "Structure : Vêtement + bɛ + Pronom + bɛn + (fɛ)."
+      ],
+      "examples": [
+        {
+          "structure": "Samara (chaussures) + bɛ + n (moi) + bɛn",
+          "phonetic_api": "/sa.ma.ra bɛ n̩ bɛⁿ/",
+          "meaning": "Les chaussures me vont bien / me conviennent."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Seydou (L'acheteur)",
+      "text": "I ni ce, fani-feela. Sabari, yiriba kulusi gbɛ nin sɔngɔ bɛ joli ye ?",
+      "phonetic_api": "/i ni t͡ʃe fa.ni feː.la sa.ba.ri ji.ri.ba ku.lu.si g͡bɛ niⁿ sɔn.gɔ bɛ d͡ʒo.li jɛ/",
+      "phonetic_simple": "I NI TCHE, FA-NI-FEE-LA. SA-BA-RI, YI-RI-BA KOU-LOU-SI GBÈ NIN SÕN-GÕ BÈ DJO-LI YÈ ?",
+      "translation": "Bonjour, vendeur de tissus. S'il te plaît, combien coûte ce grand pantalon blanc ?"
+    },
+    {
+      "speaker": "Adama (Le marchand)",
+      "text": "I ni ce, n tericɛ. Kulusi gbɛ sɔngɔ bɛ wari kɛmɛ naani ma. A kaɲi fana !",
+      "phonetic_api": "/i ni t͡ʃe n̩ te.ri.t͡ʃɛ ku.lu.si g͡bɛ sɔn.gɔ bɛ wa.ri kɛ.mɛ naː.ni ma a ka.ɲi fa.na/",
+      "phonetic_simple": "I NI TCHE, N TÉ-RI-TCHÈ. KOU-LOU-SI GBÈ SÕN-GÕ BÈ WA-RI KÈ-MÈ NAA-NI MA. A KA-GNI FA-NA !",
+      "translation": "Bonjour, mon ami. Le pantalon blanc coûte quatre centaines d'unités de monnaie. Il est d'excellente qualité en plus !"
+    },
+    {
+      "speaker": "Seydou",
+      "text": "A sɔngɔ ka bon kosɛbɛ ! Sabari, dɔgɔya tɔɔni. I bɛ kulusi fin fana bolo ?",
+      "phonetic_api": "/a sɔn.gɔ ka boⁿ ko.sɛ.bɛ sa.ba.ri dɔ.gɔ.ja tɔː.ni i bɛ ku.lu.si fiⁿ fa.na bo.lo/",
+      "phonetic_simple": "A SÕN-GÕ KA BON KO-SÈ-BÈ ! SA-BA-RI, DÕ-GÕ-YA TÕÕ-NI. I BÈ KOU-LOU-SI FIN FA-NA BO-LO ?",
+      "translation": "Le prix est vraiment très élevé ! S'il te plaît, diminue un peu. As-tu aussi un pantalon noir ?"
+    },
+    {
+      "speaker": "Adama",
+      "text": "Ɔwɔ, kulusi fin bɛ yan. N a dɔgɔyara, a bɛ bɛn sisan. I bɛ juman fɛ ?",
+      "phonetic_api": "/ɔ.wɔ ku.lu.si fiⁿ bɛ jaⁿ n̩ a dɔ.gɔ.ja.ra a bɛ bɛⁿ si.saⁿ i bɛ d͡ʒu.maⁿ fɛ/",
+      "phonetic_simple": "Õ-WÕ, KOU-LOU-SI FIN BÈ YAN. N A DÕ-GÕ-YA-RA, A BÈ BEN SI-SAN. I BÈ DJOU-MAN FÈ ?",
+      "translation": "Oui, le pantalon noir est là. J'ai baissé le prix, c'est bon maintenant. Lequel veux-tu ?"
+    },
+    {
+      "speaker": "Seydou",
+      "text": "N bɛ kulusi fin nin fɛ. A bɛ n bɛn kosɛbɛ. Wari bɛ yan. I ni ce !",
+      "phonetic_api": "/n̩ bɛ ku.lu.si fiⁿ niⁿ fɛ a bɛ n̩ bɛⁿ ko.sɛ.bɛ wa.ri bɛ jaⁿ i ni t͡ʃe/",
+      "phonetic_simple": "N BÈ KOU-LOU-SI FIN NIN FÈ. A BÈ N BEN KO-SÈ-BÈ. WA-RI BÈ YAN. I NI TCHE !",
+      "translation": "Je veux ce pantalon noir. Il me va parfaitement. Voici l'argent. Merci !"
+    },
+    {
+      "speaker": "Adama",
+      "text": "Aw ni ce, n tericɛ. Ala ka baara dya !",
+      "phonetic_api": "/aw ni t͡ʃe n̩ te.ri.t͡ʃɛ a.la ka baː.ra dja/",
+      "phonetic_simple": "AW NI TCHE, N TÉ-RI-TCHÈ. A-LA KA BAA-RA DYA !",
+      "translation": "Merci à vous, mon ami. Que Dieu bénisse vos affaires !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans la taxonomie linguistique traditionnelle du dioula et des langues mandingues, le système chromatique se concentre historiquement autour de trois couleurs chromatiques majeures appelées les 'couleurs de base' : 'gbɛ' (le blanc, la clarté, la pureté), 'fin' (le noir, le sombre, l'obscurité) et 'ble' (le rouge, le sang, la chaleur, l'éclat). Les autres nuances (vert, bleu, jaune) s'expriment traditionnellement par comparaison avec des éléments de la nature (ex: la feuille d'arbre ou le ciel) ou par des emprunts modernes au français.",
+    "Le choix de porter un habit blanc ('dloki gbɛ') revêt une symbolique forte de respect, de paix et de propreté spirituelle, particulièrement arboré lors des grands rassemblements, des salutations de la prière du vendredi ou des événements communautaires solennels au Burkina Faso."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L9_Ex1",
+      "type": "multiple_choice",
+      "question": "Où se place l'adjectif de couleur par rapport au vêtement qu'il qualifie en dioula ?",
+      "options": [
+        "Toujours avant le vêtement",
+        "Toujours après le vêtement",
+        "Au tout début de la phrase",
+        "Il se place entre le sujet et le verbe"
+      ],
+      "correct_answer": "Toujours après le vêtement",
+      "explanation": "L'adjectif de couleur suit obligatoirement le nom de l'habit en dioula (ex: 'kulusi fin' = pantalon noir)."
+    },
+    {
+      "exercise_id": "A1_M3_L9_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire que quelqu'un est habillé ou porte une robe blanche, on utilise la structure progressive : 'A bɛ dloki gbɛ [ ___ ] la'.",
+      "correct_answer": "don",
+      "hint": "C'est le verbe qui signifie enfiler, charger ou porter un habit."
+    },
+    {
+      "exercise_id": "A1_M3_L9_Ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie la couleur fondamentale 'ble' en dioula ?",
+      "options": [
+        "Bleu",
+        "Vert",
+        "Rouge / Fauve",
+        "Jaune"
+      ],
+      "correct_answer": "Rouge / Fauve",
+      "explanation": "'Ble' désigne traditionnellement la gamme du rouge, de la chaleur et de l'éclat dans la culture mandingue."
+    }
+  ]
+}

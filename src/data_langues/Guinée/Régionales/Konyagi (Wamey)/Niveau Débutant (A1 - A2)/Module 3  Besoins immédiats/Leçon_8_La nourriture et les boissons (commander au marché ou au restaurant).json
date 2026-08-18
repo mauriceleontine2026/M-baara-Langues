@@ -1,0 +1,208 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
+  "learning_objectives": [
+    "Nommer les aliments et boissons de base en wamey",
+    "Exprimer la faim, la soif et le désir de consommer",
+    "Commander un plat simple ou acheter des denrées alimentaires"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne nasale vélaire /ŋ/ (souvent notée 'ng') et la voyelle centrale moyenne /ə/ ('ë'). La semi-voyelle /w/ combinée avec une occlusive requiert une ouverture buccale nette.",
+    "common_pitfalls": "Attention à ne pas assimiler le son /ŋ/ au son français 'g'. C'est le son que l'on retrouve à la fin du mot anglais 'sing'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "wetyë",
+      "phonetic_api": "/wətjə/",
+      "phonetic_simple": "OUE-TYE",
+      "translation": "nourriture / manger",
+      "example_sentence": "Nyi tyekwa wetyë.",
+      "example_phonetic": "/ɲi tjɛkwa wətjə/",
+      "example_translation": "Je cherche de la nourriture."
+    },
+    {
+      "word_id": "v2",
+      "term": "ɗi",
+      "phonetic_api": "/ɗi/",
+      "phonetic_simple": "D'I",
+      "translation": "eau / boisson",
+      "example_sentence": "Muxu ɗi ko.",
+      "example_phonetic": "/muxu ɗi ko/",
+      "example_translation": "Donne-moi de l'eau s'il te plaît."
+    },
+    {
+      "word_id": "v3",
+      "term": "malo",
+      "phonetic_api": "/malo/",
+      "phonetic_simple": "MA-LO",
+      "translation": "riz",
+      "example_sentence": "Malo kene i boka.",
+      "example_phonetic": "/malo kɛnɛ i boka/",
+      "example_translation": "Ce riz est bon."
+    },
+    {
+      "word_id": "v4",
+      "term": "kosyë",
+      "phonetic_api": "/kɔsjə/",
+      "phonetic_simple": "KO-SYE",
+      "translation": "viande",
+      "example_sentence": "Nyi tyekwa kosyë.",
+      "example_phonetic": "/ɲi tjɛkwa kɔsjə/",
+      "example_translation": "Je veux de la viande."
+    },
+    {
+      "word_id": "v5",
+      "term": "kay",
+      "phonetic_api": "/kaj/",
+      "phonetic_simple": "KAY",
+      "translation": "poisson",
+      "example_sentence": "O fula kay ɓal.",
+      "example_phonetic": "/o fula kaj ɓal/",
+      "example_translation": "Il a deux poissons."
+    },
+    {
+      "word_id": "v6",
+      "term": "ngwolo",
+      "phonetic_api": "/ŋwɔlɔ/",
+      "phonetic_simple": "NGOUO-LO",
+      "translation": "faim",
+      "example_sentence": "Ngwolo i fula mi.",
+      "example_phonetic": "/ŋwɔlɔ i fula mi/",
+      "example_translation": "J'ai faim (litt: la faim est sur moi)."
+    },
+    {
+      "word_id": "v7",
+      "term": "mëny",
+      "phonetic_api": "/məɲ/",
+      "phonetic_simple": "ME-NY",
+      "translation": "boire",
+      "example_sentence": "Nyi gwa mëny ɗi.",
+      "example_phonetic": "/ɲi ɡwa məɲ ɗi/",
+      "example_translation": "Je vais boire de l'eau."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ngwolo i fula mi.",
+      "phonetic_api": "/ŋwɔlɔ i fula mi/",
+      "phonetic_simple": "NGOUO-LO I FOU-LA MI",
+      "translation": "J'ai faim.",
+      "context": "Exprimer un besoin physique de manger."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Muxu malo e kosyë ko.",
+      "phonetic_api": "/muxu malo ɛ kɔsjə ko/",
+      "phonetic_simple": "MOU-KHOU MA-LO É KO-SYE KO",
+      "translation": "Donne-moi du riz et de la viande, s'il te plaît.",
+      "context": "Commander un repas au marché ou chez une restauratrice."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Nyi tyekwa mëny ɗi.",
+      "phonetic_api": "/ɲi tjɛkwa məɲ ɗi/",
+      "phonetic_simple": "NYI TYÉ-KOUA ME-NY D'I",
+      "translation": "Je veux boire de l'eau.",
+      "context": "Demander à se désaltérer."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Wetyë kene i boka gba !",
+      "phonetic_api": "/wətjə kɛnɛ i ɡba gba/",
+      "phonetic_simple": "OUE-TYE KÉ-NÉ I GBA GBA !",
+      "translation": "Cette nourriture est excellente !",
+      "context": "Complimenter la cuisinière à la fin du repas."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la sensation physique avec le prédicatif d'état",
+      "explanation": "En wamey, les sensations comme la faim (ngwolo) ne s'expriment pas avec le verbe 'avoir' comme en français, mais en plaçant le besoin comme sujet suivi du connecteur 'i' et du pronom de la personne affectée.",
+      "rules": [
+        "Sensation + i + fula + Pronom d'objet"
+      ],
+      "examples": [
+        {
+          "structure": "Ngwolo i fula mi.",
+          "phonetic_api": "/ŋwɔlɔ i fula mi/",
+          "meaning": "J'ai faim (La faim me possède)."
+        }
+      ]
+    },
+    {
+      "concept": "La coordination de noms avec 'e'",
+      "explanation": "Pour lier deux aliments ou objets au sein d'une même commande, on emploie la conjonction de coordination 'e' (et).",
+      "rules": [
+        "Nom A + e + Nom B"
+      ],
+      "examples": [
+        {
+          "structure": "malo e kay",
+          "phonetic_api": "/malo ɛ kaj/",
+          "meaning": "du riz et du poisson"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Ryambé ! Ngwolo i fula mi, wetyë i fene ?",
+      "phonetic_api": "/jambɛ ŋwɔlɔ i fula mi wətjə i fɛnɛ/",
+      "phonetic_simple": "RYAM-BÉ ! NGOUO-LO I FOU-LA MI, OUE-TYE I FÉ-NÉ ?",
+      "translation": "Bonjour ! J'ai faim, où se trouve la nourriture ?"
+    },
+    {
+      "speaker": "Kadiatou",
+      "text": "Ryambé gouè ! Malo e kosyë i fula ra saax.",
+      "phonetic_api": "/jambɛ ɡwɛ malo ɛ kɔsjə i fula ʁa saːχ/",
+      "phonetic_simple": "RYAM-BÉ GOUÈ ! MA-LO É KO-SYE I FOU-LA RA SAAKH.",
+      "translation": "Bonjour en paix ! Il y a du riz et de la viande à la maison."
+    },
+    {
+      "speaker": "Samba",
+      "text": "I boka ! Muxu malo ko. Nyi gwa mëny ɗi également.",
+      "phonetic_api": "/i boka muxu malo ko ɲi ɡwa məɲ ɗi/",
+      "phonetic_simple": "I BO-KA ! MOU-KHOU MA-LO KO. NYI GOUA ME-NY D'I.",
+      "translation": "C'est bien ! Donne-moi du riz s'il te plaît. Je vais boire de l'eau aussi."
+    },
+    {
+      "speaker": "Kadiatou",
+      "text": "Muxu wetyë ko, tyamou gba !",
+      "phonetic_api": "/muxu wətjə ko tjamu ɡba/",
+      "phonetic_simple": "MOU-KHOU OUE-TYE KO, TYA-MOU GBA !",
+      "translation": "Prends la nourriture, grand merci !"
+    }
+  ],
+  "cultural_notes": [
+    "Le repas chez les Wamey est un moment hautement communautaire. Il est fréquent de manger ensemble autour d'un grand plat unique. Inviter un passant à partager son repas ('Muxu wetyë') est une règle de savoir-vivre absolue.",
+    "Le riz ('malo') constitue la base de l'alimentation, souvent accompagné de sauces à base de feuilles de baobab, de pâte d'arachide ou de gombo cultivé localement dans la préfecture de Koundara."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L8_EX1",
+      "type": "multiple_choice",
+      "question": "Que signifie 'Malo e kosyë' ?",
+      "options": [
+        "Du riz et du poisson",
+        "Du riz et de la viande",
+        "De l'eau et de la viande"
+      ],
+      "correct_answer": "Du riz et de la viande",
+      "explanation": "'Malo' signifie riz et 'kosyë' signifie viande."
+    },
+    {
+      "exercise_id": "A1_M3_L8_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ngwolo i fula [ ___ ] (J'ai faim).",
+      "correct_answer": "mi",
+      "hint": "Le pronom de la première personne du singulier placé en fin de structure d'état."
+    }
+  ]
+}

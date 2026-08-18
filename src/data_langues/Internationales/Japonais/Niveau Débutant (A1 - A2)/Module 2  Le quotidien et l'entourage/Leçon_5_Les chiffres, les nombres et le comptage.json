@@ -1,0 +1,262 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter avec précision de 0 jusqu'à 99 999 en combinant les puissances de dix et de dix-mille",
+    "Maîtriser le système de numération sino-japonais et identifier les variations phonétiques obligatoires",
+    "Utiliser le compteur universel d'objets inanimés ('tsu') et poser des questions de quantité avec 'ikutsu'"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La prononciation des chiffres japonais intègre plusieurs doubles lectures. Le chiffre 4 peut se dire よん (yon) ou し (shi). Le chiffre 7 se dit なな (nana) ou しち (shichi). Le chiffre 9 se dit きゅう (kyū) ou く (ku). Le choix de la variante dépend du mot ou du compteur qui lui succède directement. Pour les dizaines, centaines et milliers, soyez attentifs au phénomène de sonorisation (Rendaku) qui transforme une consonne sourde en consonne sonore sous l'influence du son précédent.",
+    "common_pitfalls": "Attention aux altérations phonétiques majeures (assimilation et gémination) sur les centaines et les milliers. Par exemple, 300 ne se dit pas 'san-hyaku' mais さんびゃく (san-byaku). De même, 600 et 800 subissent un doublement de consonne net : ろっぴゃく (roppyaku) et はっぴゃく (happyaku). Pour les milliers, 3000 se prononce さんぜん (san-zen) et 8000 se prononce はっせん (hassen)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "ゼロ / れい (零)",
+      "phonetic_api": "/ze.ɾo/ /ɾeː/",
+      "phonetic_simple": "ZÉ-RO / RÉE",
+      "translation": "Zéro",
+      "example_sentence": "部屋番号は三〇二号室です。",
+      "example_phonetic": "/he.ja.baɴ.ɡoː wa saɴ.ɾeː.ni.ɡoː.ɕi̥t͡sɯ de.sɯ̥/",
+      "example_translation": "Le numéro de chambre est la 302."
+    },
+    {
+      "word_id": "v2",
+      "term": "ひゃく (百)",
+      "phonetic_api": "/ça.kɯ/",
+      "phonetic_simple": "CHYA-KOU",
+      "translation": "Cent (100)",
+      "example_sentence": "百円のペンを買いました。",
+      "example_phonetic": "/ça.kɯ.eɴ no peɴ o ka.i.ma.ɕi.ta/",
+      "example_translation": "J'ai acheté un stylo à 100 yens."
+    },
+    {
+      "word_id": "v3",
+      "term": "せん (千)",
+      "phonetic_api": "/seɴ/",
+      "phonetic_simple": "SEN",
+      "translation": "Mille (1 000)",
+      "example_sentence": "この本は二千円です。",
+      "example_phonetic": "/ko.no hoɴ wa ni.seɴ.eɴ de.sɯ̥/",
+      "example_translation": "Ce livre coûte 2 000 yens."
+    },
+    {
+      "word_id": "v4",
+      "term": "まん (万)",
+      "phonetic_api": "/maɴ/",
+      "phonetic_simple": "MAN",
+      "translation": "Dix-mille (10 000 - unité de base des grands nombres)",
+      "example_sentence": "一万円札を出します。",
+      "example_phonetic": "/i̥t.t͡ɕi.maɴ.eɴ.sa.t͡sɯ o da.ɕi.ma.sɯ̥/",
+      "example_translation": "Je sors un billet de 10 000 yens."
+    },
+    {
+      "word_id": "v5",
+      "term": "ひとつ (一つ)",
+      "phonetic_api": "/çi.to.t͡sɯ/",
+      "phonetic_simple": "CHI-TOT-SOU",
+      "translation": "Un objet (compteur universel)",
+      "example_sentence": "リンゴを一つください。",
+      "example_phonetic": "/ɾiɴ.ɡo o çi.to.t͡sɯ kɯ.da.sa.i/",
+      "example_translation": "Un pomme s'il vous plaît."
+    },
+    {
+      "word_id": "v6",
+      "term": "ふたつ (二つ)",
+      "phonetic_api": "/ɸɯ.ta.t͡sɯ/",
+      "phonetic_simple": "FOU-TAT-SOU",
+      "translation": "Deux objets (compteur universel)",
+      "example_sentence": "椅子が二つあります。",
+      "example_phonetic": "/i.sɯ ɡa ɸɯ.ta.t͡sɯ a.ɾi.ma.sɯ̥/",
+      "example_translation": "Il y a deux chaises."
+    },
+    {
+      "word_id": "v7",
+      "term": "みっつ (三つ)",
+      "phonetic_api": "/mi̥t.t͡sɯ/",
+      "phonetic_simple": "MIT-SOU",
+      "translation": "Trois objets (compteur universel)",
+      "example_sentence": "卵を三つ買います。",
+      "example_phonetic": "/ta.ma.ɡo o mi̥t.t͡sɯ ka.i.ma.sɯ̥/",
+      "example_translation": "J'achète trois œufs."
+    },
+    {
+      "word_id": "v8",
+      "term": "いくら",
+      "phonetic_api": "/i.kɯ.ɾa/",
+      "phonetic_simple": "I-KOU-RA",
+      "translation": "Combien (pour un prix)",
+      "example_sentence": "このカメラはいくらですか。",
+      "example_phonetic": "/ko.no ka.me.ɾa wa i.kɯ.ɾa de.sɯ.ka/",
+      "example_translation": "Combien coûte cet appareil photo ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "全部でいくらですか。",
+      "phonetic_api": "/zeɴ.bɯ de i.kɯ.ɾa de.sɯ.ka/",
+      "phonetic_simple": "ZEN-BOU DÉ I-KOU-RA DESS-KA",
+      "translation": "Ça fait combien au total ?",
+      "context": "Au moment de régler ses achats à la caisse d'un magasin ou au restaurant."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "これは三千五百円です。",
+      "phonetic_api": "/ko.re wa saɴ.zeɴ.ɡo.ça.kɯ.eɴ de.sɯ̥/",
+      "phonetic_simple": "KO-RÉ WA SAN-ZEN-GO-CHYA-KOU-EN DESS",
+      "translation": "Ceci coûte 3 500 yens.",
+      "context": "Annonce d'un prix par un vendeur (notez la modification de 3000 en san-zen)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "おいくつですか。",
+      "phonetic_api": "/o.i.kɯ.t͡sɯ de.sɯ.ka/",
+      "phonetic_simple": "O-I-KOUT-SOU DESS-KA",
+      "translation": "Quel âge avez-vous ? / Combien d'objets ? (Selon le contexte)",
+      "context": "Formule honorifique employée pour interroger sur l'âge ou poliment sur des quantités d'objets."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "みかんを四つください。",
+      "phonetic_api": "/mi.kaɴ o jo̥t.t͡sɯ kɯ.da.sa.i/",
+      "phonetic_simple": "MI-KAN O YOT-SOU KOU-DA-SA-I",
+      "translation": "Quatre mandarines s'il vous plaît.",
+      "context": "Passer une commande sur un marché ou dans une boutique d'alimentation."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "一万五千円になります。",
+      "phonetic_api": "/i̥t.t͡ɕi.maɴ.ɡo.seɴ.eɴ ni na.ɾi.ma.sɯ̥/",
+      "phonetic_simple": "IT-TCHI-MAN-GO-SEN-EN NI NA-RI-MASS",
+      "translation": "Cela fera un total de 15 000 yens.",
+      "context": "Formule commerciale standard ('~ ni narimasu') utilisée par les commerçants pour énoncer l'addition."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "何個ありますか。",
+      "phonetic_api": "/naɴ.ko a.ɾi.ma.sɯ.ka/",
+      "phonetic_simple": "NAN-KO A-RI-MASS-KA",
+      "translation": "Combien de petits objets y a-t-il ?",
+      "context": "Questionner sur la quantité exacte en utilisant le compteur alternatif 'ko'."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "お会計、お願いします。",
+      "phonetic_api": "/o.ka.i.keː o.ne.ɡa.i.ɕi.ma.sɯ̥/",
+      "phonetic_simple": "O-KA-I-KÉE O-NÉ-GA-I-CHI-MASS",
+      "translation": "L'addition s'il vous plaît.",
+      "context": "Interpeller un serveur en fin de repas pour demander la note."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "これで足りますか。",
+      "phonetic_api": "/ko.re de ta.ɾi.ma.sɯ.ka/",
+      "phonetic_simple": "KO-RÉ DÉ TA-RI-MASS-KA",
+      "translation": "Est-ce que cela suffit ? (En donnant de l'argent)",
+      "context": "S'assurer auprès du vendeur que la somme d'argent liquide tendue est suffisante."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure des grands nombres et le groupement par quatre zéros 万 (man)",
+      "explanation": "Contrairement au système occidental basé sur un changement d'unité tous les trois zéros (milliers, millions), le système numérique japonais bascule toutes les quatre puissances de dix (base 10 000, appelée 万 - man). Ainsi, pour lire un grand nombre, on ne compte pas en 'milliers' mais en paquets de 'dix-mille'.",
+      "rules": [
+        "10 000 se dit 一万 (ichi-man) et non dix-mille.",
+        "50 000 se lit 五万 (go-man).",
+        "100 000 se décompose en dix paquets de dix-mille et se dit 十万 (jū-man)."
+      ],
+      "examples": [
+        {
+          "structure": "25,000 = 二万五千 (ni-man go-sen)",
+          "phonetic_api": "/ni.maɴ ɡo.seɴ/",
+          "meaning": "Vingt-cinq mille (Deux dix-mille et cinq mille)"
+        }
+      ]
+    },
+    {
+      "concept": "Le compteur universel des objets inanimés autochtones : ～つ (tsu)",
+      "explanation": "Lorsque l'on compte des objets concrets au Japon, la simple énumération des chiffres (ichi, ni, san) ne suffit pas. Pour les objets n'appartenant pas à une catégorie spécifique (chaises, clés, parts de gâteau, pommes, idées), on emploie la série de comptage traditionnelle japonaise se terminant par 'tsu'. Cette série s'arrête à 10, le chiffre 10 se disant とう (tō) sans suffixe.",
+      "rules": [
+        "La série de 1 à 4 : 一つ (hitotsu), 二つ (futatsu), 三つ (mittsu), 四つ (yototsu).",
+        "La série de 5 à 8 : 五つ (itsutsu), 六つ (muttsu), 七つ (nanatsu), 八つ (yattsu).",
+        "9 et 10 : 九つ (kokonotsu), 十 (tō).",
+        "Pour poser la question 'combien d'objets', le mot interrogatif est いくつ (ikutsu)."
+      ],
+      "examples": [
+        {
+          "structure": "お土産がいくつありますか (O-miyage ga ikutsu arimasu ka)",
+          "phonetic_api": "/o.mi.ja.ɡe ɡa i.kɯ.t͡sɯ a.ɾi.ma.sɯ.ka/",
+          "meaning": "Combien de souvenirs y a-t-il ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "店員 (Vendeur)",
+      "text": "いらっしゃいませ。このリンゴは一つ百二十円です。",
+      "phonetic_api": "/i.ɾḁs.ɕa.i.ma.se ko.no ɾiɴ.ɡo wa çi.to.t͡sɯ ça.kɯ.ni.d͡ʑɯː.eɴ de.sɯ̥/",
+      "phonetic_simple": "I-RASH-SHA-I-MA-SÉ. KO-NO RI-N-GO WA CHI-TOT-SOU CHYA-KOU-NI-DJUU-EN DESS",
+      "translation": "Bienvenue dans notre magasin. Cette pomme coûte 120 yens l'unité."
+    },
+    {
+      "speaker": "客 (Client)",
+      "text": "じゃあ、そのリンゴを三つください。あと、このお茶はいくらですか。",
+      "phonetic_api": "/d͡ʑaː so.no ɾiɴ.ɡo o mi̥t.t͡sɯ kɯ.da.sa.i a.to ko.no o.t͡ɕa wa i.kɯ.ɾa de.sɯ.ka/",
+      "phonetic_simple": "DJAA, SO-NO RI-N-GO O MIT-SOU KOU-DA-SA-I. A-TO, KO-NO O-TCHA WA I-KOU-RA DESS-KA",
+      "translation": "Bien, donnez-moi trois de ces pommes s'il vous plaît. De plus, combien coûte ce thé ?"
+    },
+    {
+      "speaker": "店員 (Vendeur)",
+      "text": "お茶は一本二百五十円です。全部で六百十円になります。",
+      "phonetic_api": "/o.t͡ɕa wa i̥p.poɴ ni.ça.kɯ.ɡo.d͡ʑɯː.eɴ de.sɯ̥ zeɴ.bɯ de ɾo̥k.kḁk.ɯ.d͡ʑɯː.eɴ ni na.ɾi.ma.sɯ̥/",
+      "phonetic_simple": "O-TCHA WA IP-PON NI-CHYA-KOU-GO-DJUU-EN DESS. ZEN-BOU DÉ ROP-PYAKU-DJUU-EN NI NA-RI-MASS",
+      "translation": "Le thé coûte 250 yens la bouteille. Ça fera un total de 610 yens."
+    },
+    {
+      "speaker": "客 (Client)",
+      "text": "はい、千円札でお願いします。",
+      "phonetic_api": "/ha.i seɴ.eɴ.sa.t͡sɯ de o.ne.ɡa.i.ɕi.ma.sɯ̥/",
+      "phonetic_simple": "HAI, SEN-EN-SAT-SOU DÉ O-NÉ-GA-I-CHI-MASS",
+      "translation": "Entendu, voici un billet de 1 000 yens."
+    },
+    {
+      "speaker": "店員 (Vendeur)",
+      "text": "はい、三九十円のお返しです。ありがとうございました。",
+      "phonetic_api": "/ha.i saɴ.bja.kɯ.kɯ.d͡ʑɯː.eɴ no o.ka.e.ɾi de.sɯ̥ a.ɾi.ɡa.toː ɡo.za.i.ma.ɕi.ta/",
+      "phonetic_simple": "HAI, SAN-BYAKU-KOU-DJUU-EN NO O-KA-É-RI DESS. A-RI-GA-TOO GO-ZA-I-MA-CH-TA",
+      "translation": "Parfait, voici 390 yens de monnaie. Merci beaucoup pour votre achat."
+    }
+  ],
+  "cultural_notes": [
+    "La monnaie japonaise est le Yen, écrit 円 et prononcé 'en' [eɴ] en japonais (le 'y' initial est une déformation occidentale historique). Il n'existe pas de centimes ; l'unité minimale est le yen de valeur unitaire.",
+    "Au Japon, il est d'usage d'éviter le chiffre 4 (し - shi) et le chiffre 9 (く - ku) dans certains contextes (comme les hôpitaux ou les numéros de places) car ils sont homophones avec les mots signifiant respectivement 'la mort' (死 - shi) et 'la souffrance' (苦 - ku). On privilégiera alors les lectures alternatives 'yon' et 'kyū'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment se lit correctement la somme de 32 000 yens en respectant le découpage numérique par tranche de 10 000 (万) ?",
+      "options": [
+        "さんまん二千 (San-man ni-sen)",
+        "三十二千 (San-jū ni-sen)",
+        "三万二白 (San-man ni-hyaku)"
+      ],
+      "correct_answer": "さんまん二千 (San-man ni-sen)",
+      "explanation": "32 000 se découpose en 3 paquets de 10 000 (san-man) et 2 paquets de 1000 (ni-sen)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A: リンゴを[ ___ ]つください。 B: はい、三つですね。",
+      "correct_answer": "みっ",
+      "hint": "Complétez la racine du mot pour obtenir le compteur complet signifiant 'trois objets' (mittsu)."
+    }
+  ]
+}

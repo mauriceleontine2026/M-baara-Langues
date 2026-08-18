@@ -1,0 +1,200 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer et utiliser les sept jours de la semaine en langue bissa",
+    "Comprendre les concepts de repérage temporel de base (hier, aujourd'hui, demain)",
+    "Exprimer l'heure et les moments pivots de la journée"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en avant la consonne spirante labio-vélaire voisée /w/ et les diphtongues ou successions de voyelles comme /ia/ ou /ua/. L'articulation du phonème /h/ en début de mot ('hẽe') doit s'accompagner d'un souffle glottal audible mais doux.",
+    "common_pitfalls": "Attention à ne pas assimiler le mot 'Alizuma' (vendredi) à une prononciation entièrement francisée. Conservez l'accentuation bissa avec une légère insistance sur la syllabe 'zu'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Hẽe",
+      "phonetic_api": "/hẽː/",
+      "phonetic_simple": "HEEN",
+      "translation": "Aujourd'hui",
+      "example_sentence": "Hẽe la Alizuma",
+      "example_phonetic": "/hẽː la alizuma/",
+      "example_translation": "Aujourd'hui c'est vendredi."
+    },
+    {
+      "word_id": "v2",
+      "term": "Esa",
+      "phonetic_api": "/eza/",
+      "phonetic_simple": "E-ZA",
+      "translation": "Demain",
+      "example_sentence": "Esa la Sibri",
+      "example_phonetic": "/eza la sibʁi/",
+      "example_translation": "Demain c'est samedi."
+    },
+    {
+      "word_id": "v3",
+      "term": "Wiri",
+      "phonetic_api": "/wiʁi/",
+      "phonetic_simple": "WI-RI",
+      "translation": "Jour / journée",
+      "example_sentence": "Wiri kakʋ́",
+      "example_phonetic": "/wiʁi kakʊ́/",
+      "example_translation": "Trois jours."
+    },
+    {
+      "word_id": "v4",
+      "term": "Alahari",
+      "phonetic_api": "/alahaʁi/",
+      "phonetic_simple": "A-LA-HA-RI",
+      "translation": "Dimanche",
+      "example_sentence": "M gaa sukuu Alahari wiri",
+      "example_phonetic": "/m̩ ɡaː sukuː alahaʁi wiʁi/",
+      "example_translation": "Je ne vais pas à l'école le dimanche."
+    },
+    {
+      "word_id": "v5",
+      "term": "Alizuma",
+      "phonetic_api": "/alizuma/",
+      "phonetic_simple": "A-LI-ZOU-MA",
+      "translation": "Vendredi",
+      "example_sentence": "Alizuma la yaa wiri",
+      "example_phonetic": "/alizuma la jaː wiʁi/",
+      "example_translation": "Le vendredi est un jour de marché / de prière."
+    },
+    {
+      "word_id": "v6",
+      "term": "Lere",
+      "phonetic_api": "/leʁe/",
+      "phonetic_simple": "LE-RE",
+      "translation": "Heure / montre (emprunt)",
+      "example_sentence": "Lere boi la ?",
+      "example_phonetic": "/leʁe bɔi la/",
+      "example_translation": "Quelle heure est-il ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Hẽe la wiri bɔ ?",
+      "phonetic_api": "/hẽː la wiʁi bɔ/",
+      "phonetic_simple": "HEEN LA WI-RI BO",
+      "translation": "Quel jour sommes-nous aujourd'hui ?",
+      "context": "Question courante pour s'orienter dans la semaine."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Lere sɔ́ɔ̀ la ki",
+      "phonetic_api": "/leʁe sɔ́ːɔ̀ la ki/",
+      "phonetic_simple": "LE-RE SÓO LA KI",
+      "translation": "Il est cinq heures",
+      "context": "Indication simple du temps qu'il fait ou de l'heure."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "M gaa tuumda lere sɩ̀",
+      "phonetic_api": "/m̩ ɡaː tuːmda leʁe sɪ̀/",
+      "phonetic_simple": "M GAA TOUM-DA LE-RE SI",
+      "translation": "Je vais au travail à quatre heures",
+      "context": "Précision horaire sur son emploi du temps."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Kilaa",
+      "phonetic_api": "/kilaː/",
+      "phonetic_simple": "KI-LAA",
+      "translation": "Hier",
+      "context": "Repère pour situer un événement dans le passé immédiat."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la date et l'invariabilité de la copule 'la'",
+      "explanation": "Pour associer un adverbe de temps (comme aujourd'hui ou demain) à un jour spécifique de la semaine, le bissa fait de nouveau appel à la copule invariable d'identité 'la'. L'ordre syntaxique place toujours le repère temporel en premier.",
+      "rules": [
+        "Repère de temps (Hẽe/Esa) + la + Nom du jour.",
+        "Le nom du jour ne requiert aucun article devant lui."
+      ],
+      "examples": [
+        {
+          "structure": "Hẽe (Aujourd'hui) + la (est) + Alahari (Dimanche) = Hẽe la Alahari",
+          "phonetic_api": "/hẽː la alahaʁi/",
+          "meaning": "Aujourd'hui c'est dimanche."
+        }
+      ]
+    },
+    {
+      "concept": "Demander et donner l'heure avec 'Lere'",
+      "explanation": "Pour interroger sur l'heure, le mot 'Lere' (tiré du français 'l'heure') est combiné avec le pronom interrogatif de quantité 'boi' (combien). Pour répondre, on fait suivre le mot 'Lere' du adjectif numéral cardinal.",
+      "rules": [
+        "Question : Lere + boi + la ?",
+        "Réponse : Lere + [Nombre] + la (ki)."
+      ],
+      "examples": [
+        {
+          "structure": "Lere (Heure) + sɩ̀ (quatre) + la ki = Lere sɩ̀ la ki",
+          "phonetic_api": "/leʁe sɪ̀ la ki/",
+          "meaning": "Il est quatre heures."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Issa",
+      "text": "Adama, hẽe la wiri bɔ ?",
+      "phonetic_api": "/adama hẽː la wiʁi bɔ/",
+      "phonetic_simple": "A-DA-MA, HEEN LA WI-RI BO",
+      "translation": "Adama, quel jour sommes-nous aujourd'hui ?"
+    },
+    {
+      "speaker": "Adama",
+      "text": "Hẽe la Alizuma. Lere boi la ki ?",
+      "phonetic_api": "/hẽː la alizuma leʁe bɔi la ki/",
+      "phonetic_simple": "HEEN LA A-LI-ZOU-MA. LE-RE BOI LA KI",
+      "translation": "Aujourd'hui c'est vendredi. Quelle heure est-il ?"
+    },
+    {
+      "speaker": "Issa",
+      "text": "Lere sɔ́ɔ̀ la ki. M gaa tuumda ?",
+      "phonetic_api": "/leʁe sɔ́ːɔ̀ la ki m̩ ɡaː tuːmda/",
+      "phonetic_simple": "LE-RE SÓO LA KI. M GAA TOUM-DA",
+      "translation": "Il est cinq heures. Vas-tu au travail ?"
+    },
+    {
+      "speaker": "Adama",
+      "text": "An, m gaa tuumda Esa, Sibri wiri.",
+      "phonetic_api": "/an m̩ ɡaː tuːmda eza sibʁi wiʁi/",
+      "phonetic_simple": "AN, M GAA TOUM-DA E-ZA, SI-BRI WI-RI",
+      "translation": "Non, j'irai au travail demain, le jour du samedi."
+    }
+  ],
+  "cultural_notes": [
+    "Les noms des jours de la semaine en bissa (Alahari, Atani, Atatã, Alarba, Alamisa, Alizuma, Sibri) témoignent d'une forte influence historique et linguistique de l'arabe, transmise via le commerce et l'islamisation dans l'espace mandé.",
+    "Le vendredi ('Alizuma') revêt une importance sociale et religieuse majeure au Burkina Faso. C'est un moment privilégié pour se saluer longuement à la sortie des mosquées ou sur les places publiques et souhaiter des bénédictions à toute la famille."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'Vendredi' en langue bissa ?",
+      "options": [
+        "Alahari",
+        "Alizuma",
+        "Sibri"
+      ],
+      "correct_answer": "Alizuma",
+      "explanation": "Le mot 'Alizuma' correspond précisément au vendredi, jour de la grande prière."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander l'heure qu'il est, on pose la question : Lere [ ___ ] la ?",
+      "correct_answer": "boi",
+      "hint": "Le mot interrogatif signifiant 'combien'."
+    }
+  ]
+}

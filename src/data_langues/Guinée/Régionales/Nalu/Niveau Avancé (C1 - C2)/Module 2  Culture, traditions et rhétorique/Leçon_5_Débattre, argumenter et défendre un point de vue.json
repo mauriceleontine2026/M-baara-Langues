@@ -1,0 +1,163 @@
+{
+  "lesson_id": "C1_M1_L5",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 5,
+  "title": "Débattre, argumenter et défendre un point de vue",
+  "learning_objectives": [
+    "Soutenir une thèse de manière contradictoire en utilisant des structures d'affirmation forte",
+    "Réfuter l'argumentation d'un interlocuteur avec des formules de politesse rhétorique"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'accentuation d'insistance sur la voyelle finale de la particule affirmative 'gbee' exige une élévation de la hauteur tonale. La consonne occlusive injective alvéolaire /ɗ/ (notée d') doit être prononcée avec une implosion nasale nette pour marquer la conviction.",
+    "common_pitfalls": "Dans un débat animé, veillez à ne pas raccourcir le double 'ee' de 'gbee' ou le double 'aa' de 'baang', car la clarté de votre argumentation en nalu dépend du respect des durées de prononciation."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v23_1",
+      "term": "Gbee",
+      "phonetic_api": "/g͡beː/",
+      "phonetic_simple": "GBÉÉ",
+      "translation": "Affirmer / Soutenir avec certitude",
+      "example_sentence": "M gbee foti mi.",
+      "example_phonetic": "/m g͡beː fo.ti mi/",
+      "example_translation": "J'affirme haut et fort ma parole."
+    },
+    {
+      "word_id": "v23_2",
+      "term": "Bosh-hale",
+      "phonetic_api": "/bɔʃ.ha.lɛ/",
+      "phonetic_simple": "BOSH-HA-LÈ",
+      "translation": "Contredire / Réfuter / Renvoyer l'argument",
+      "example_sentence": "M bosh-hale foti mwo.",
+      "example_phonetic": "/m bɔʃ.ha.lɛ fo.ti mwo/",
+      "example_translation": "Je réfute ton argument (ta parole)."
+    },
+    {
+      "word_id": "v23_3",
+      "term": "Lan-ce",
+      "phonetic_api": "/lan.tʃe/",
+      "phonetic_simple": "LAN-TCHÉ",
+      "translation": "Raisonnement / Logique / Pensée droite",
+      "example_sentence": "Lan-ce mwo a gbe baang.",
+      "example_phonetic": "/lan.tʃe mwo a ŋgbe baːŋ/",
+      "example_translation": "Ton raisonnement est puissant (grand)."
+    },
+    {
+      "word_id": "v23_4",
+      "term": "Foti-foti",
+      "phonetic_api": "/fo.ti.fo.ti/",
+      "phonetic_simple": "FO-TI-FO-TI",
+      "translation": "Débat / Discussion contradictoire / Palabre",
+      "example_sentence": "Foti-foti we a ce.",
+      "example_phonetic": "/fo.ti.fo.ti we a tʃe/",
+      "example_translation": "Ce débat est constructif (bon)."
+    },
+    {
+      "word_id": "v23_5",
+      "term": "Tila-ce",
+      "phonetic_api": "/ti.la.tʃe/",
+      "phonetic_simple": "TI-LA-TCHÉ",
+      "translation": "Preuve / Fait incontestable",
+      "example_sentence": "M malang tila-ce di foti.",
+      "example_phonetic": "/m ba.laŋ ti.la.tʃe di fo.ti/",
+      "example_translation": "J'apporte une preuve dans la discussion."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p23_1",
+      "original": "M gbee lan-ce mi, foti-we m malang tila-ce ce b'at.",
+      "phonetic_api": "/m g͡beː lan.tʃe mi fo.ti.we m ba.laŋ ti.la.tʃe tʃe ɓat/",
+      "phonetic_simple": "M GBÉÉ LAN-TCHÉ MI, FO-TI-WÉ M BA-LANG TI-LA-TCHÉ TCHÉ BAT",
+      "translation": "Je soutiens fermement mon raisonnement, car j'apporte des preuves tout à fait solides.",
+      "context": "Formule d'autorité pour asseoir sa position dans un débat public ou communautaire."
+    },
+    {
+      "phrase_id": "p23_2",
+      "original": "Mun-moti m lan foti mwo, m kanɛ bosh-hale we foti-we a gbe ce.",
+      "phonetic_api": "/mun.mo.ti m lan fo.ti mwo m ka.nɛ bɔʃ.ha.lɛ we fo.ti.we a ŋgbe tʃe/",
+      "phonetic_simple": "MOUN-MO-TI M LAN FO-TI MWO, M KA-NÈ BOSH-HA-LÈ WÉ FO-TI-WÉ A NGBÉ TCHÉ",
+      "translation": "Bien que je comprenne ta parole, je dois réfuter cela parce que ce n'est pas correct.",
+      "context": "Introduction polie mais ferme pour contredire un interlocuteur sans l'offenser."
+    },
+    {
+      "phrase_id": "p23_3",
+      "original": "A rila tila-ce mwo di foti-foti we?",
+      "phonetic_api": "/a ri.la ti.la.tʃe mwo di fo.ti.fo.ti we/",
+      "phonetic_simple": "A RI-LA TI-LA-TCHÉ MWO DI FO-TI-FO-TI WÉ",
+      "translation": "Quelle est ta preuve dans ce débat ?",
+      "context": "Question de niveau avancé pour déstabiliser l'argumentation adverse en exigeant des faits."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'intensificateur modal 'gbee' pour l'affirmation catégorique",
+      "explanation": "En nalu avancé, pour transformer un simple avis en une thèse défendue avec force, on insère le verbe auxiliaire d'affirmation 'gbee' juste après le pronom sujet. Il modifie le verbe principal pour lui donner une valeur de certitude absolue.",
+      "rules": [
+        "Placé directement entre le pronom personnel et le substantif ou verbe de pensée.",
+        "Il exclut l'usage des particules de doute comme 'thila-be'."
+      ],
+      "examples": [
+        {
+          "structure": "M gbee lan",
+          "phonetic_api": "/m g͡beː lan/",
+          "meaning": "Je soutiens avec certitude / Je suis intimement convaincu"
+        },
+        {
+          "structure": "M gbee foti",
+          "phonetic_api": "/m g͡beː fo.ti/",
+          "meaning": "J'affirme catégoriquement"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amara",
+      "text": "Mboye, Sékou ! Foti-foti we di n'boka marce a gbe ce. M gbee lan moti tange a gbe baang foti-we ceeborna a gbe ba.",
+      "phonetic_api": "/mbo.je se.ku fo.ti.fo.ti we di n͡bo.ka mar.ʃe a ŋgbe tʃe m g͡beː lan mo.ti taŋ.e a ŋgbe baːŋ fo.ti.we tʃeː.bor.na a ŋgbe ba/",
+      "phonetic_simple": "MBO-YÉ, SÉ-KOU ! FO-TI-FO-TI WÉ DI N-BO-KA MAR-TCHÉ A NGBÉ TCHÉ. M GBÉÉ LAN MO-TI TANG-É A NGBÉ BAANG FO-TI-WÉ TCHÉÉ-BOR-NA A NGBÉ BA.",
+      "translation": "Bonjour, Sékou ! Ce débat sur le marché est important. J'affirme que si les prix sont élevés, c'est parce que les pêcheurs ne viennent plus."
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Mboye ce, Amara ! Mun-moti m lan foti mwo, m kanɛ bosh-hale we. Tila-ce mi gbe we : cen, ceeborna beeduŋ n'gbe bileng a ba-a di marce.",
+      "phonetic_api": "/mbo.je tʃe a.ma.ra mun.mo.ti m lan fo.ti mwo m ka.nɛ bɔʃ.ha.lɛ we ti.la.tʃe mi gbe we tʃen tʃeː.bor.na beː.duŋ ŋgbe bi.leŋ a ba.a di mar.ʃe/",
+      "phonetic_simple": "MBO-YÉ TCHÉ, A-MA-RA ! MOUN-MO-TI M LAN FO-TI MWO, M KA-NÈ BOSH-HA-LÈ WÉ. TI-LA-TCHÉ MI GBÉ WÉ : TCHEN, TCHÉÉ-BOR-NA BÉÉ-DOUNG NGBÉ BI-LENG A BA-A DI MAR-TCHÉ.",
+      "translation": "Bonjour bien, Amara ! Bien que je comprenne ton point de vue, je dois le réfuter. Ma preuve est celle-ci : hier, sept pêcheurs sont bel et et bien venus au marché."
+    },
+    {
+      "speaker": "Amara",
+      "text": "Ooh, lan-ce mwo a gbe baang. Mu-cale m boku thath foti mi. Nu koka di tila-ce we.",
+      "phonetic_api": "/oː lan.tʃe mwo a ŋgbe baːŋ mu.tʃa.le m bo.ku θaθ fo.ti mi nu ko.ka di ti.la.tʃe we/",
+      "phonetic_simple": "OOH, LAN-TCHÉ MWO A NGBÉ BAANG. MOU-TCHA-LÉ M BO-KOU THATH FO-TI MI. NOU KO-KA DI TI-LA-TCHÉ WÉ.",
+      "translation": "Ooh, ton raisonnement est imparable. Par conséquent, je vais revoir (baisser) mon jugement. Merci pour cette preuve."
+    }
+  ],
+  "cultural_notes": [
+    "Le débat public et l'argumentation contradictoire font partie intégrante des assemblées communautaires nalu. Un bon débatteur n'est pas celui qui crie le plus fort, mais celui qui manie avec finesse les connecteurs logiques de concession et apporte des 'tila-ce' (preuves factuelles). Reconnaître la validité de l'argument adverse, comme le fait Amara, est perçu comme une marque de grande maturité intellectuelle et spirituelle."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex23_1",
+      "type": "multiple_choice",
+      "question": "Quel terme nalu utilise-t-on pour dire 'Je réfute / Je contredis ton argument' ?",
+      "options": [
+        "M gbee lan",
+        "M bosh-hale foti mwo",
+        "M'mela thand"
+      ],
+      "correct_answer": "M bosh-hale foti mwo",
+      "explanation": "'Bosh-hale' combine le refus ('bosh') et le renvoi de la parole pour exprimer la réfutation rhétorique."
+    },
+    {
+      "exercise_id": "ex23_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour parler d'un raisonnement logique ou d'une pensée droite, on emploie l'expression : [ ___ ].",
+      "correct_answer": "lan-ce",
+      "hint": "Littéralement 'penser bien/proprement'"
+    }
+  ]
+}

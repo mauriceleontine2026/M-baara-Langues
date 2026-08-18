@@ -1,0 +1,179 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "L'utilisation des temps complexes et des modes avancés",
+  "learning_objectives": [
+    "Maîtriser la combinaison des marqueurs temporels passés et futurs pour exprimer le futur antérieur et l'antériorité dans le passé",
+    "Utiliser les structures modales avancées exprimant la probabilité forte et le mode subjonctif/souhait complexe",
+    "Nuancer le discours narratif en coordonnant plusieurs temporalités imbriquées"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'accentuation et l'allongement de la particule combinée /wo-ce/ exigent une transition fluide entre la voyelle fermée /o/ et l'affriquée alvéolo-palatale sourde /tʃ/. Les variations de hauteur tonale sur les morphèmes complexes modifient l'aspect aspectuel de l'action.",
+    "common_pitfalls": "Ne prononcez pas les deux particules 'wo' et 'ce' de manière totalement disjointe ; elles forment un bloc morpho-syntaxique unique marquant l'irréel du passé ou le futur dans le passé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v19_1",
+      "term": "wo-ce",
+      "phonetic_api": "/wo tʃe/",
+      "phonetic_simple": "WO-TCHÉ",
+      "translation": "aurait dû / aurait été sur le point de (futur dans le passé / conditionnel passé)",
+      "example_sentence": "N wo-ce wɔli mɛnni cɛm.",
+      "example_phonetic": "/n̩ wo tʃe wɔ.li mɛn.ni tʃɛm/",
+      "example_translation": "J'aurais dû travailler à l'intérieur là-bas."
+    },
+    {
+      "word_id": "v19_2",
+      "term": "haani-wo",
+      "phonetic_api": "/haː.ni wo/",
+      "phonetic_simple": "HAA-NI-WO",
+      "translation": "avait voulu / avait eu l'intention de (plus-que-parfait d'intention)",
+      "example_sentence": "A haani-wo tira woŋ.",
+      "example_phonetic": "/a haː.ni wo ti.ra woŋ/",
+      "example_translation": "Il avait eu l'intention de voyager à la ville."
+    },
+    {
+      "word_id": "v19_3",
+      "term": "hɔnkɔ-fɔkɔ-ce",
+      "phonetic_api": "/hɔn.kɔ fɔ.kɔ tʃe/",
+      "phonetic_simple": "HON-KƆ-FƆ-KƆ-TCHÉ",
+      "translation": "dès l'aube future / au tout premier lever de soleil à venir",
+      "example_sentence": "N ce fɔkɔ hɔnkɔ-fɔkɔ-ce.",
+      "example_phonetic": "/n̩ tʃe fɔ.kɔ hɔn.kɔ fɔ.kɔ tʃe/",
+      "example_translation": "Arriverai dès le premier lever du jour à venir."
+    },
+    {
+      "word_id": "v19_4",
+      "term": "mɛlɛ-wo",
+      "phonetic_api": "/mɛ.lɛ wo/",
+      "phonetic_simple": "MÈ-LÈ-WO",
+      "translation": "aurait pu / avait eu la permission de",
+      "example_sentence": "Wun mɛlɛ-wo ŋon lan.",
+      "example_phonetic": "/wun mɛ.lɛ wo ŋon lan/",
+      "example_translation": "Tu aurais pu boire de l'eau."
+    },
+    {
+      "word_id": "v19_5",
+      "term": "tɔgɔ-gbun",
+      "phonetic_api": "/tɔ.ɡɔ ɡbun/",
+      "phonetic_simple": "TO-GO-GBOUN",
+      "translation": "constitution / loi suprême / décret des ancêtres",
+      "example_sentence": "Tɔgɔ-gbun bɛ ni yoma lɔ.",
+      "example_phonetic": "/tɔ.ɡɔ ɡbun bɛ ni jo.ma lɔ/",
+      "example_translation": "La loi suprême maintient l'ordre ici."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p19_1",
+      "original": "N wo-ce yila guba bɛl-bɛl-ee mɛnni.",
+      "phonetic_api": "/n̩ wo tʃe ji.la ɡu.ba bɛl bɛl eː mɛn.ni/",
+      "phonetic_simple": "N WO-TCHÉ YI-LA GOU-BA BÈL-BÈL-ÉÉ MÈN-NI",
+      "translation": "J'aurais acheté ce vêtement rouge là-bas (si j'avais pu).",
+      "context": "Exprimer un regret ou une action conditionnelle avortée dans le passé."
+    },
+    {
+      "phrase_id": "p19_2",
+      "original": "A haani-wo kperɛ mi tɔgɔ yoma.",
+      "phonetic_api": "/a haː.ni wo kpe.rɛ mi tɔ.ɡɔ jo.ma/",
+      "phonetic_simple": "A HAA-NI-WO KPE-RÈ MI TO-GO YO-MA",
+      "translation": "Il avait eu l'intention de me transmettre de précieux conseils.",
+      "context": "Évoquer une intention passée qui a été interrompue ou modifiée."
+    },
+    {
+      "phrase_id": "p19_3",
+      "original": "Wun mɛlɛ-wo fɔkɔ sègé lɔ hɔnkɔ-fɔkɔ.",
+      "phonetic_api": "/wun mɛ.lɛ wo fɔ.kɔ se.ɡe lɔ hɔn.kɔ fɔ.kɔ/",
+      "phonetic_simple": "WOUN MÈ-LÈ-WO FƆ-KƆ SÉ-GÉ LƆ HON-KƆ-FƆ-KƆ",
+      "translation": "Tu aurais pu venir au marché très tôt ce matin.",
+      "context": "Faire un reproche poli ou analyser une possibilité manquée."
+    },
+    {
+      "phrase_id": "p19_4",
+      "original": "Denbaya ce-wo bɛŋ lɔ, kɔŋ tuli !",
+      "phonetic_api": "/den.ba.ja tʃe wo bɛŋ lɔ kɔŋ tu.li/",
+      "phonetic_simple": "DEN-BA-YA TCHÉ-WO BÈNG LƆ, KONG TOU-LI !",
+      "translation": "La famille aurait dû se rassembler ici, s'il te plaît écoute !",
+      "context": "Insister sur la nécessité morale d'un événement qui ne s'est pas produit."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'imbrication aspecto-temporelle et le mode irréel",
+      "explanation": "Au niveau avancé, la langue Mani combine ses morphèmes de base pour créer des nuances d'irréel et de conditionnel. La juxtaposition de la particule de passé 'wo' et de futur/inaccompli 'ce' fonctionne comme un opérateur de l'irréel du passé ('wo-ce'), tandis que l'inversion 'ce-wo' insiste sur l'obligation manquée.",
+      "rules": [
+        "Irréel du passé / Conditionnel passé = Sujet + wo-ce + Verbe + Compléments.",
+        "Plus-que-parfait d'intention = Sujet + Auxiliaire (haani/mɛlɛ) + wo + Verbe d'action."
+      ],
+      "examples": [
+        {
+          "structure": "N wo-ce ŋon lan",
+          "phonetic_api": "/n̩ wo tʃe ŋon lan/",
+          "meaning": "J'aurais bu de l'eau (mais il n'y en avait pas)"
+        },
+        {
+          "structure": "N mɛlɛ-wo wɔli",
+          "phonetic_api": "/n̩ mɛ.lɛ wo wɔ.li/",
+          "meaning": "J'aurais pu travailler / J'avais eu la capacité de travailler"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mora-gbun (L'Ancien)",
+      "text": "Mboi Ousmane. Wun wo-ce tira woŋ gbun cɛm hɔnkɔ-fɔkɔ, nɛ na ?",
+      "phonetic_api": "/mboi a.li.sa.ni wun wo tʃe ti.ra woŋ ɡbun tʃɛm hɔn.kɔ fɔ.kɔ nɛ na/",
+      "phonetic_simple": "MBOÏ OU-SA-MA-NI. WOUN WO-TCHÉ TI-RA WONG GBOUN TCHÈM HON-KƆ-FƆ-KƆ, NÈ NA ?",
+      "translation": "Bonjour Ousmane. Tu aurais dû voyager au cœur de la grande ville dès l'aube, qu'est-ce qui s'est passé ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Mboi n fara. N haani-wo tira cece, inde gbeŋu sɔm-wo fɔkɔ lɔ.",
+      "phonetic_api": "/mboi n̩ fa.ra n̩ haː.ni wo ti.ra tʃe.tʃe in.de ɡbe.ŋu sɔm wo fɔ.kɔ lɔ/",
+      "phonetic_simple": "MBOÏ N FA-RA. N HAA-NI-WO TI-RA TCHÉ-TCHÉ, IN-DE GBÉ-NGOU SƆM-WO FƆ-KƆ LƆ.",
+      "translation": "Bonjour mon père. J'avais fermement eu l'intention de voyager, mais mes ressources en argent se sont avérées trop courtes."
+    },
+    {
+      "speaker": "Mora-gbun (L'Ancien)",
+      "text": "Wun mɛlɛ-wo fɔkɔ mi banxi lɔ. N wo-ce kperɛ wun gbeŋu mɛlɛŋ.",
+      "phonetic_api": "/wun mɛ.lɛ wo fɔ.kɔ mi ban.xi lɔ n̩ wo tʃe kpe.rɛ wun ɡbe.ŋu mɛ.lɛŋ/",
+      "phonetic_simple": "WOUN MÈ-LÈ-WO FƆ-KƆ MI BAN-KHI LƆ. N WO-TCHÉ KPE-RÈ WOUN GBÉ-NGOU MÈ-LÈNG.",
+      "translation": "Tu aurais pu venir vers ma maison ici. J'en aurais profité pour te donner deux pièces d'argent."
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Cece n fara ! Woni hɔnkɔ-fɔkɔ-ce, n ce fɔkɔ lan tuli wun tɔgɔ-gbun. Gbana !",
+      "phonetic_api": "/tʃe.tʃe n̩ fa.ra wo.ni hɔn.kɔ fɔ.kɔ tʃe n̩ tʃe fɔ.kɔ lan tu.li wun tɔ.ɡɔ ɡbun ɡba.na/",
+      "phonetic_simple": "TCHÉ-TCHÉ N FA-RA ! WO-NI HON-KƆ-FƆ-KƆ-TCHÉ, N TCHÉ FƆ-KƆ LAN TOU-LI WOUN TO-GO-GBOUN. GBA-NA !",
+      "translation": "Merci mon père ! Demain, dès la toute première aube, je viendrai ici même écouter tes décrets sacrés. Au revoir !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'art oratoire de la haute hiérarchie Mani, manipuler les structures comme 'wo-ce' démontre une maîtrise éminente de la rhétorique et du respect des convenances. Un interlocuteur averti n'exprime jamais un échec de manière brute ; il utilise le décalage aspecto-temporel pour signifier que le destin ou les circonstances matérielles (comme le manque de monnaie 'gbeŋu') ont altéré l'intention initiale harmonieuse."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex19_1",
+      "type": "multiple_choice",
+      "question": "Quelle combinaison de morphèmes exprime le conditionnel passé ou l'irréel du passé en Mani ?",
+      "options": [
+        "bɛ-lɔ",
+        "wo-ce",
+        "fɔkɔ-wo"
+      ],
+      "correct_answer": "wo-ce",
+      "explanation": "'Wo-ce' unit le passé ('wo') et le futur/inaccompli ('ce') pour projeter une action non réalisée sous forme d'irréel du passé."
+    },
+    {
+      "exercise_id": "ex19_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A [ ___ ] kperɛ mi tɔgɔ yoma. (Il avait eu l'intention de me conseiller).",
+      "correct_answer": "haani-wo",
+      "hint": "Forme verbale passée composée liant l'intention volontaire au marqueur de passé révolu."
+    }
+  ]
+}

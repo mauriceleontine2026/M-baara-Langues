@@ -1,0 +1,213 @@
+{
+  "lesson_id": "C1_M2_L4",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 4,
+  "title": "Proverbes, dictons et expressions imagées",
+  "learning_objectives": [
+    "Maîtriser l'intégration fluide de structures idiomatiques à quatre caractères (Chengyu) dans un discours formel",
+    "Utiliser des métaphores traditionnelles pour exprimer la résilience, la stratégie ou la dualité des situations",
+    "Comprendre l'origine culturelle et l'implication philosophique des principaux dictons professionnels",
+    "Nuancer une argumentation ou une critique en employant des expressions imagées polies"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La diction des expressions quadrisyllabiques (Chengyu) exige un rythme équilibré et un respect strict des liaisons tonales. L'expression 破釜沉舟 (pòfǔ-chénzhōu - brûler ses vaisseaux) demande un 4ème ton descendant très sec (pò), suivi d'un 3ème ton bas (fǔ), puis de deux tons montants fluides (chén zhōu). Le dicton 居安思危 (jū'ān-sīwēi - anticiper le danger au sein de la sécurité) s'articule entièrement sur des 1ers tons hauts et plats, ce qui requiert de maintenir une hauteur vocale parfaitement stable.",
+    "common_pitfalls": "Faites attention à la prononciation de 孤注一掷 (gūzhù-yīzhì - tout miser sur un coup de dés) : le mot 一 (yī) se trouve placé devant un 4ème ton (zhì). Selon la règle de sandhi, il doit impérativement commuter en un 2ème ton montant (yí). Ne confondez pas le caractère 釜 (fǔ - chaudron de guerre) avec 福 (fú - bonheur)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "居安思危",
+      "phonetic_api": "/tɕy˥ an˥ sʐ̩˥ weɪ̯˥/",
+      "phonetic_simple": "TCHU-AN-SEI-OUAY",
+      "translation": "Vivre dans la paix tout en anticipant le danger / Prévoyant",
+      "example_sentence": "作为企业的领航er人，我们必须居安思危，提前布局未来。",
+      "example_phonetic": "/tswɔ weɪ̯ tɕi jɥ̯ dɤ liŋ xaŋ ʐən wo mən pi ɕy tɕy˥ an˥ sʐ̩˥ weɪ̯˥ tʰi tɕʰi̯ɛn pu tɕɥ̯ Wait ʔweɪ̯ laɪ̯/",
+      "example_translation": "En tant que dirigeants de l'entreprise, nous devons être prévoyants et anticiper les crises en planifiant l'avenir à l'avance."
+    },
+    {
+      "word_id": "v2",
+      "term": "破釜沉舟",
+      "phonetic_api": "/pʰwɔ˥˩ fu˨˩˦ tʂʰən˧˥ tʂoʊ̯˥/",
+      "phonetic_simple": "PHOU-FOU-TCHHEN-DZOW",
+      "translation": "Brûler ses vaisseaux / Livrer une bataille décisive sans esprit de retour",
+      "example_sentence": "这次技术转型，我们只有破釜沉舟，才能突出重围。",
+      "example_phonetic": "/tʂɤ tsʰʐ̩ tɕi ʂu tswan ɕiŋ wo mən tʂʐ̩ joʊ̯ pʰwɔ˥˩ fu˨˩˦ tʂʰən˧˥ tʂoʊ̯˥ tsʰaɪ̯ nəŋ tʰu ttsʰu tʂʰʊŋ weɪ̯/",
+      "example_translation": "Pour cette transition technologique, nous n'avons d'autre choix que de brûler nos vaisseaux pour briser l'encerclement."
+    },
+    {
+      "word_id": "v3",
+      "term": "未雨绸缪",
+      "phonetic_api": "/weɪ̯˥˩ jy˨˩˦ tʂʰoʊ̯˧˥ moʊ̯˧˥/",
+      "phonetic_simple": "OUEI-YU-TCHOW-MOW",
+      "translation": "Réparer la maison avant la pluie / Prendre des dispositions de précaution",
+      "example_sentence": "为了防止核心数据丢失，我们已经未雨绸缪，建立了备份系统。",
+      "example_phonetic": "/weɪ̯ laɪ̯ faŋ tʂʐ̩ xɤ ɕin ʂu tɕu dioʊ̯ ʂʐ̩ wo mən i tɕiŋ weɪ̯˥˩ jy˨˩˦ tʂʰoʊ̯˧˥ moʊ̯˧˥ tɕi̯an li lɤ peɪ̯ fən ɕi tʰʊŋ/",
+      "example_translation": "Afin de prévenir toute perte de données cruciales, nous avons pris les devants en mettant en place un système de sauvegarde."
+    },
+    {
+      "word_id": "v4",
+      "term": "孤注一掷",
+      "phonetic_api": "/ku˥ tʂu˥˩ i˧˥ tʂʐ̩˥˩/",
+      "phonetic_simple": "GOU-DJOU-EE-DJEI",
+      "translation": "Tout miser sur un seul coup / Jouer son va-tout",
+      "example_sentence": "把全部资金投入一个未知的项目，未免太孤注一掷了。",
+      "example_phonetic": "/ba ttsʰɥ̯ɛn pən tsʐ̩ tɕin tʰoʊ̯ ʐu i kɤ weɪ̯ tʐ̩ dɤ ɕi̯aŋ mu wei̯ mi̯ɛn tʰaɪ̯ ku˥ tʂu˥˩ i˧˥ tʂʐ̩˥˩ lɤ/",
+      "example_translation": "Investir l'intégralité de nos capitaux dans un projet inconnu est pour le moins un va-tout un peu trop risqué."
+    },
+    {
+      "word_id": "v5",
+      "term": "顺水推舟",
+      "phonetic_api": "/ʂwən˥˩ ʂwei̯˨˩˦ tʰwei̯˥ tʂoʊ̯˥/",
+      "phonetic_simple": "CHOUEN-CHOUAY-THUEI-DZOW",
+      "translation": "Suivre le courant pour pousser le bateau / Saisir l'opportunité pour faire avancer les choses",
+      "example_sentence": "既然客户提出了新的需求，我们不如顺水推舟，扩大合作规模。",
+      "example_phonetic": "/tɕi ʐan kʰɤ xu tʰi tɕu lɤ ɕin dɤ ɕy tɕi̯oʊ̯ wo mən bu ʐu ʂwən˥˩ ʂwei̯˨˩˦ tʰwei̯˥ tʂoʊ̯˥ kʰwɔ da xɤ dzwɔ kwei̯ mɔ/",
+      "example_translation": "Puisque le client a formulé de nouvelles demandes, autant saisir cette opportunité pour accroître l'envergure de notre coopération."
+    },
+    {
+      "word_id": "v6",
+      "term": "纸上谈兵",
+      "phonetic_api": "/tʂʐ̩˨˩˦ ʂaŋ˥˩ tʰan˧˥ piŋ˥/",
+      "phonetic_simple": "DZEU-CHANG-THAN-BING",
+      "translation": "Discuter stratégie militaire sur le papier / Théorie irréalisable / Manquer de pratique",
+      "example_sentence": "没有实际市场经验的计划，往往只是纸上谈兵。",
+      "example_phonetic": "/meɪ̯ joʊ̯ ʂʐ̩ tɕi ʂʐ̩ tʂʰaŋ tɕiŋ jjan dɤ tɕi xwa waŋ waŋ tʂʐ̩ ʂʐ尊 tʂʐ̩˨˩˦ ʂaŋ˥˩ tʰan˧˥ piŋ˥/",
+      "example_translation": "Un plan conçu sans expérience concrète du terrain se résume bien souvent à de la pure théorie irréalisable."
+    },
+    {
+      "word_id": "v7",
+      "term": "标本兼治",
+      "phonetic_api": "/pjaʊ̯˥ pən˨˩˦ tɕi̯ɛn˥ ttsʰʐ̩˥˩/",
+      "phonetic_simple": "BIAO-BEN-DJIEN-DZEU",
+      "translation": "Traiter à la fois les symptômes et la racine du problème",
+      "example_sentence": "解决公司的管理危机，必须采取标本兼治的综合措施。",
+      "example_phonetic": "/tɕi̯ɛ Wait ʔtɕɥ̯ɛ kʊŋ sʐ̩ dɤ kwan li weɪ̯ dɕi pi ɕy tsʰaɪ̯ tɕɥ̯ pjaʊ̯˥ pən˨˩˦ tɕi̯ɛn˥ ttsʰʐ̩˥˩ dɤ tsʊŋ xɤ tsʰwɔ ʂʐ Wait ʔ/",
+      "example_translation": "Pour résoudre la crise de gouvernance de l'entreprise, il est impératif d'adopter des mesures globales traitant à la fois les symptômes et la racine du problème."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "面对激烈的行业竞争，我们必须居安思危，绝不能固步自封。",
+      "phonetic_api": "/mi̯an liŋ tɕi li dɤ xaŋ jɥ̯ tɕiŋ tʂəŋ wo mən pi ɕy tɕy an sʐ̩ weɪ̯ tɕɥ̯ɛ pu nəŋ ku pu ttsʐ̩ fəŋ/",
+      "phonetic_simple": "MIEN-LING DJIEE-LIE DEU HANG-YÉ DJING-TCHENG, OUO-MEN BEE-XU TCHU-AN-SEI-OUAY, QUÉ BOU NENG GOU-BOU-ZEE-FENG.",
+      "translation": "Face à la concurrence féroce du secteur, nous devons impérativement anticiper les dangers et ne jamais nous replier sur nos acquis.",
+      "context": "Allocution d'un président de conseil d'administration lors d'un séminaire annuel"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "在资金链极其紧张的情况下，孤注一掷可能会让企业陷入绝境。",
+      "phonetic_api": "/dzaɪ̯ tsʐ̩ tɕin li̯an tɕi tɕi Wait ʔtɕiŋ tʂaŋ dɤ tɕiŋ kwaŋ ʂaŋ ku tʂu i tʂʐ̩ kʰɤ nəŋ ʐaŋ tɕi jɥ̯ ɕi̯an ʐu tɕɥ̯ɛ tɕiŋ/",
+      "phonetic_simple": "DZAÏ DZEE-DJIN-LIEN TCHEE-QEE DJING-TCHANG DEU QING-HOUANG CHANG, GOU-DJOU-EE-DJEI KHÉ-NENG JANG TCHEE-YÉ XIEN-RU DJOUÉ-DJING.",
+      "translation": "Alors que notre trésorerie est extrêmement tendue, jouer notre va-tout risquerait de plonger l'entreprise dans une impasse totale.",
+      "context": "Mise en garde rigoureuse d'un directeur financier pendant un comité d'audit"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "针对系统漏洞，我们不能头痛医头，而要采取标本兼治的方案。",
+      "phonetic_api": "/tʂən dwei̯ ɕi tʰwŋ loʊ̯ du wo mən pu nəŋ tʰoʊ̯ tʰʊŋ i tʰoʊ̯ ər jaʊ̯ tsʰaɪ̯ tɕɥ̯ pjaʊ̯ pən tɕi̯ɛn ttsʰʐ̩ dɤ faŋ an/",
+      "phonetic_simple": "ZHENG-DOUEI CHEI-THONG LOU-DOU, OUO-MEN BOU NENG THOU-THONG-EE-THOU, ER YAO TSAI-QUÉ BIAO-BEN-DJIEN-DZEU DEU FANG-AN.",
+      "translation": "Face aux failles du système, nous ne pouvons pas nous contenter de soigner les symptômes au coup par coup ; nous devons adopter une solution radicale globale.",
+      "context": "Rapport d'expertise technique rédigé par un ingénieur en sécurité informatique"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "方案不能只停留在纸上谈兵的阶段，必须要付诸实际行动。",
+      "phonetic_api": "/faŋ an pu nəŋ tʂʐ̩ tʰiŋ ljoʊ̯ dzaɪ̯ tʂʐ̩ ʂaŋ tʰan piŋ dɤ tɕi̯ɛ duan pi ɕy jaʊ̯ fu tʂu ʂʐ̩ tɕi ɕiŋ dʊŋ/",
+      "phonetic_simple": "FANG-AN BOU NENG DZEU THING-LIOU DZAÏ DZEU-CHANG-THAN-BING DEU DJIE-DOUAN, BEE-XU YAO FOU-ZHOU CHEI-DJEE XING-DONG.",
+      "translation": "Les propositions ne peuvent pas en rester au stade de la pure théorie irréalisable ; elles doivent impérativement se traduire par des actions concrètes.",
+      "context": "Arbitrage et relance opérationnelle lors d'une gestion de projet complexe"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'intégration syntaxique des Chengyu comme prédicats ou modificateurs",
+      "explanation": "Les Chengyu ne sont pas de simples expressions décoratives ; ils occupent des fonctions grammaticales précises au sein de la phrase avancée, agissant comme des verbes ou des adjectifs complexes.",
+      "rules": [
+        "Fonction de Prédicat (Verbe principal) : Se placent directement après le sujet ou des auxiliaires de modalité (ex: 我们必须未雨绸缪).",
+        "Fonction de Modificateur nominal (Adjectif) : Sont rattachés au nom qu'ils qualifient par l'intermédiaire de la particule 的 (ex: 纸上谈兵的计划 - Un plan purement théorique).",
+        "L'absence d'articles ou de prépositions internes renforce la densité sémantique caractéristique de la rhétorique littéraire."
+      ],
+      "examples": [
+        {
+          "structure": "我们 (Sujet) + 应该 (Auxiliaire) + 未雨绸缪 (Chengyu faisant fonction de Prédicat)",
+          "phonetic_api": "/wo mən iŋ kaɪ̯ weɪ̯ jy tʂʰoʊ̯ moʊ̯/",
+          "meaning": "我们应该未雨绸缪。 (Nous devrions prendre des dispositions de précaution à l'avance.)"
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de la concession exclusive ou de l'alternative absolue : 只有... 才能... 否则...",
+      "explanation": "Cette structure combine un Chengyu décisif avec une alternative rigoureuse pour démontrer le caractère incontournable d'une stratégie commerciale ou politique.",
+      "rules": [
+        "Structure : 只有 (zhǐyǒu) + [Action extrême / Chengyu], 才能 (cáinéng) + [Résultat positif], 否则 (fǒuzé) + [Désastre prévisible].",
+        "Valorise la prise de décision radicale (comme 破釜沉舟) en la présentant comme le seul chemin vers le succès."
+      ],
+      "examples": [
+        {
+          "structure": "只有 (Seul) + 破釜沉舟 (Brûler ses vaisseaux)，才能 (Permettra de) + 成功 (Réussir)，否则 (Sinon) + 别无选择 (Il n'y a pas d'autre issue)",
+          "phonetic_api": "/tʂʐ̩ joʊ̯ pʰwɔ fu tʂʰən tʂoʊ̯ tsʰaɪ̯ nəŋ tʂʰəŋ kʊŋ foʊ̯ tsɤ pi̯ɛ wu ɕɥ̯an tsɤ/",
+          "meaning": "只有破釜沉舟，才能成功，否则别无选择。 (Seul le fait de brûler nos vaisseaux nous permettra de réussir, sinon il n'y a pas d'autre issue.)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "战略总监 (Directeur de la Stratégie)",
+      "text": "大卫，当前的经济增长红利正在消退，如果我们不未雨绸缪，未来的生计恐怕难以为继。",
+      "phonetic_api": "/da˥˩ weɪ̯˥˩ tʂan ly Wait ʔtsʊŋ tɕi̯an dɤ tɕiŋ tɕi tsəŋ ttsʰaŋ xʊŋ li tʂəŋ dzaɪ̯ ɕi̯aʊ̯ tʰwei̯ ʐu kwɔ wo mən pu weɪ̯˥˩ jy˨˩˦ tʂʰoʊ̯˧˥ moʊ̯˧˥ weɪ̯ laɪ̯ dɤ ʂəŋ tɕi kʰʊŋ pʰa nan i weɪ̯ tɕi/",
+      "phonetic_simple": "DA-OUEI, DZAÏ-TCHHANG DEU DJIN-DJEE DZENG-TCHHANG HONG-LEE ZHENG-DZAÏ XIAO-THUEI, ROU-GOUO OUO-MEN BOU OUEI-YU-TCHOW-MOW, WEI-LAÏ DEU CHENG-DJEE KHONG-PHA NAN-EE-WEI-DJEE.",
+      "translation": "David, les dividendes de la croissance économique actuelle sont en train de s'estomper. Si nous ne prenons pas de dispositions de précaution dès maintenant, notre viabilité future risque de devenir intenable."
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "您的意思是，我们要在盈利的同时居安思危，寻找第二增长曲线？",
+      "phonetic_api": "/nin dɤ i tʐ̩ ʂʐ尊 wo mən jaʊ̯ dzaɪ̯ iŋ li dɤ tʰʊŋ ʂʐ̩ tɕy˥ optical 居安思危 寻找 di ər tsəŋ ttsʰaŋ tɕʰɥ̯ Wait ʔɕi̯an/",
+      "phonetic_simple": "NEEN DEU EE-DZEU CHEI, OUO-MEN YAO DZAÏ YING-LEE DEU THONG-CHEI TCHU-AN-SEI-OUAY, XUN-ZHAO DEE ER DZENG-TCHHANG TCHHIOU-LIEN ?",
+      "translation": "Votre idée est donc que nous devons anticiper les crises au cœur même de la rentabilité, et partir en quête d'un second levier de croissance ?"
+    },
+    {
+      "speaker": "战略总监 (Directeur de la Stratégie)",
+      "text": "对。不过现有的两个改革方案，一个流于纸上谈兵，另一个则有些孤注一掷的味道。",
+      "phonetic_api": "/dwei̯ pu kwo ɕi̯an joʊ̯ dɤ li̯aŋ kɤ kaɪ̯ kɤ faŋ an i kɤ ljoʊ̯ jy tʂʐ̩˨˩˦ ʂaŋ˥˩ tʰan˧˥ piŋ˥ liŋ i kɤ tṣɤ joʊ̯ ɕi̯ɛ ku˥ tʂu˥˩ i˧˥ tʂʐ̩˥˩ dɤ weɪ̯ daʊ̯/",
+      "phonetic_simple": "DOUEI. BOU-GOUO XIEN-YOW DEU LIANG GEU GAÏ-GÉ FANG-AN, EE GEU LIOU-YU DZEU-CHANG-THAN-BING, LING EE GEU TSÉ YOW-CHIEH GOU-DJOU-EE-DJEI DEU OUEI-DAO.",
+      "translation": "C'est exact. Cependant, parmi les deux plans de réforme existants, l'un en reste à de la pure théorie irréalisable, tandis que l'autre s'apparente un peu à un va-tout risqué."
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "既然如此，我们不如结合业务实际，采取标本兼治的策略，稳步推进，而非盲目做出激进的选择。",
+      "phonetic_api": "/tɕi ʐan ʐu tsʰʐ̩ wo mən bu ʐu tɕi xɤ jɥ̯ Wait ʔwu ʂʐ̩ tɕi tsʰaɪ̯ tɕɥ̯ pjaʊ̯˥ pən˨˩˦ tɕi̯ɛn˥ ttsʰʐ̩˥˩ dɤ tsʰɤ ly Wait ʔwən pu tʰwei̯ tɕin ər feɪ̯ maŋ mu dzwɔ tɕu tɕi tɕi dɤ ɕɥ̯an tsɤ/",
+      "phonetic_simple": "DJIEE-JAN JOU-TSÉ, OUO-MEN BOU-ROU DJIEE-HÉ YUE-OU CHEI-DJEE, TSAI-QUÉ BIAO-BEN-DJIEN-DZEU DEU TSHÉ-LU, OUEN-BOU THUEI-TCHIN, ER FEI MANG-MOU DZOUO-TCHOU DJIEE-DJIN DEU CHOUAN-TSÉ.",
+      "translation": "Puisqu'il en est ainsi, nous aurions tout intérêt à nous appuyer sur les réalités opérationnelles pour adopter une stratégie traitant les symptômes et la racine du problème. Progressons pas à pas plutôt que de faire aveuglément des choix radicaux."
+    }
+  ],
+  "cultural_notes": [
+    "Les Chengyu (成语) sont des expressions figées issues de la littérature classique et de l'histoire des Trois Royaumes ou des Annales des Printemps et des Automnes. En milieu professionnel de niveau C1, l'utilisation précise d'un Chengyu surpasse les longues explications : elle valide immédiatement l'autorité culturelle et le raffinement intellectuel du locuteur.",
+    "La métaphore '未雨绸缪' (wèiyǔ-chóumóu) provient du Livre des Odes (诗经 - Shījīng). Elle met en scène un oiseau qui tisse solidement son nid avant que la tempête n'éclate. Ce principe de prévoyance pragmatique régit profondément la gestion des affaires et des relations contractuelles en Chine.",
+    "Le concept de '纸上谈兵' (zhǐshàng-tánbīng) fait référence au général Zhao Kuo (période des Royaumes Combattants), qui excellait à discuter de tactiques militaires sur des cartes mais fut lourdement défait sur le terrain par manque de pratique. C'est le reproche ultime adressé aux plans purement spéculatifs en entreprise."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez le Chengyu approprié pour qualifier un plan d'affaires déconnecté du terrain et uniquement théorique :",
+      "options": [
+        "未雨绸缪的计划 (Wèiyǔ-chóumóu de jìhuà)",
+        "纸上谈兵的计划 (Zhǐshàng-tánbīng de jìhuà)",
+        "标本兼治的计划 (Biāoběn-jiānzhì de jìhuà)"
+      ],
+      "correct_answer": "纸上谈兵的计划 (Zhǐshàng-tánbīng de jìhuà)",
+      "explanation": "L'expression '纸上谈兵' s'applique spécifiquement aux théories dénuées d'ancrage pratique ou d'expérience concrète sur le terrain."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "我们在企业运营中不能只顾眼前的利益，而应该 [ ___ ] 安思危，防范未来的市场风险。",
+      "correct_answer": "居",
+      "hint": "Premier caractère obligatoire pour former le Chengyu signifiant 'anticiper les dangers lorsque l'on vit en sécurité'."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer les jours principaux de la semaine",
+    "Se situer dans le temps (aujourd'hui, demain, hier)",
+    "Demander et donner l'heure de manière simplifiée"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'accentuation temporelle repose sur des voyelles ouvertes glissées /ɔwɔ/. Le mot 'tana' (jour) utilise un ton moyen-haut régulier.",
+    "common_pitfalls": "Attention à ne pas prononcer le 'h' aspiré de 'habia' comme une consonne muette. Il doit être expiré nettement comme en anglais."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v6_1",
+      "term": "tana",
+      "phonetic_api": "/ta.na/",
+      "phonetic_simple": "TA-NA",
+      "translation": "jour / journée",
+      "example_sentence": "Tana bɛndɛ.",
+      "example_phonetic": "/ta.na bɛⁿdɛ/",
+      "example_translation": "Un grand jour."
+    },
+    {
+      "word_id": "v6_2",
+      "term": "haala",
+      "phonetic_api": "/haː.la/",
+      "phonetic_simple": "HAA-LA",
+      "translation": "aujourd'hui",
+      "example_sentence": "Haala i co kpou.",
+      "example_phonetic": "/haː.la i tʃo kpu/",
+      "example_translation": "Aujourd'hui tout va bien."
+    },
+    {
+      "word_id": "v6_3",
+      "term": "cɔwɔ̄",
+      "phonetic_api": "/tʃɔ.wɔ̄/",
+      "phonetic_simple": "TCHO-WO",
+      "translation": "demain",
+      "example_sentence": "Hana cɔwɔ̄.",
+      "example_phonetic": "/ha.na tʃɔ.wɔ̄/",
+      "example_translation": "À demain."
+    },
+    {
+      "word_id": "v6_4",
+      "term": "tele",
+      "phonetic_api": "/te.le/",
+      "phonetic_simple": "TÉ-LÉ",
+      "translation": "heure / moment / temps",
+      "example_sentence": "Tele yɛŋ o co ?",
+      "example_phonetic": "/te.le jɛŋ o tʃo/",
+      "example_translation": "Quelle heure est-il ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p6_1",
+      "original": "Tele yɛŋ o co ?",
+      "phonetic_api": "/te.le jɛŋ o tʃo/",
+      "phonetic_simple": "TÉ-LÉ YENG O TCHO",
+      "translation": "Quelle heure est-il ?",
+      "context": "Demander l'heure au quotidien"
+    },
+    {
+      "phrase_id": "p6_2",
+      "original": "Tele puu o co.",
+      "phonetic_api": "/te.le puː o tʃo/",
+      "phonetic_simple": "TÉ-LÉ POUU O TCHO",
+      "translation": "Il est dix heures.",
+      "context": "Donner l'heure exacte"
+    },
+    {
+      "phrase_id": "p6_3",
+      "original": "Haala o co tana pilɔ.",
+      "phonetic_api": "/haː.la o tʃo ta.na pi.lɔ/",
+      "phonetic_simple": "HAA-LA O TCHO TA-NA PI-LO",
+      "translation": "Aujourd'hui est le premier jour.",
+      "context": "Situer le jour"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'interrogatif de quantité et de temps 'yɛŋ'",
+      "explanation": "Pour poser une question portant sur l'heure, le nombre ou la mesure temporelle, le morphème interrogatif 'yɛŋ' suit directement le substantif concerné.",
+      "rules": [
+        "Le mot interrogatif ne se place jamais en début de phrase.",
+        "Le verbe d'état 'co' clôture la proposition interrogative courte."
+      ],
+      "examples": [
+        {
+          "structure": "Nom temporel + yɛŋ + o co",
+          "phonetic_api": "/te.le jɛŋ o tʃo/",
+          "meaning": "Quelle heure est-il ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Faya",
+      "text": "Maaluon, tele yɛŋ o co ?",
+      "phonetic_api": "/maː.lu.õ te.le jɛŋ o tʃo/",
+      "phonetic_simple": "MAA-LOU-ONN TÉ-LÉ YENG O TCHO",
+      "translation": "S'il te plaît, quelle heure est-il ?"
+    },
+    {
+      "speaker": "Tamba",
+      "text": "Tele hiɔɔlulaŋ o co.",
+      "phonetic_api": "/te.le hjɔː.lu.lã o tʃo/",
+      "phonetic_simple": "TÉ-LÉ HYOO-LOU-LANN O TCHO",
+      "translation": "Il est cinq heures."
+    }
+  ],
+  "cultural_notes": [
+    "Dans le milieu traditionnel rural kissi, l'heure est souvent corrélée aux positions du soleil (matin précoce, zénith, crépuscule) ou au chant du coq, bien que l'expression moderne calque le décompte horaire international."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex6_1",
+      "type": "multiple_choice",
+      "question": "Que signifie 'cɔwɔ̄' ?",
+      "options": [
+        "Aujourd'hui",
+        "Demain",
+        "Hier"
+      ],
+      "correct_answer": "Demain",
+      "explanation": "'cɔwɔ̄' renvoie au jour suivant."
+    },
+    {
+      "exercise_id": "ex6_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Tele [ ___ ] o co. (Il est dix heures)",
+      "correct_answer": "puu",
+      "hint": "Le chiffre 10"
+    }
+  ]
+}

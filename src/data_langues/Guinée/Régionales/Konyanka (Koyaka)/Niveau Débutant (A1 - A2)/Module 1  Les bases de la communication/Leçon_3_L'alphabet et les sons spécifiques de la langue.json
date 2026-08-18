@@ -1,0 +1,149 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Maîtriser le système de notation de la langue konyanka",
+    "Prononcer correctement les consonnes doubles et nasales complexes",
+    "Différencier les tons haut et bas sur les voyelles"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le konyanka utilise des consonnes co-articulées comme 'gb' et 'kp' qui se prononcent en un seul mouvement simultané de la gorge et des lèvres. Les voyelles peuvent être courtes ou longues (doublées graphiquement) et portent une modulation tonale indispensable au sens.",
+    "common_pitfalls": "Éviter de dissocier le 'g' et le 'b' dans 'gb'. Ne dites pas 'g-b', mais bloquez l'air simultanément pour relâcher le son d'un coup sec."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Gbe",
+      "phonetic_api": "/ɡ͡be/",
+      "phonetic_simple": "GBE",
+      "translation": "Clair / Blanc / Pur",
+      "example_sentence": "Ji gbe le.",
+      "example_phonetic": "/d͡ʒi ɡ͡be le/",
+      "example_translation": "C'est de l'eau claire."
+    },
+    {
+      "word_id": "v2",
+      "term": "Kpe",
+      "phonetic_api": "/k͡pe/",
+      "phonetic_simple": "KPE",
+      "translation": "Sec / Tassé",
+      "example_sentence": "Malo kpe.",
+      "example_phonetic": "/ma.lo k͡pe/",
+      "example_translation": "Le riz est sec."
+    },
+    {
+      "word_id": "v3",
+      "term": "Ɲa",
+      "phonetic_api": "/ɲa/",
+      "phonetic_simple": "NYA",
+      "translation": "Œil / Visage",
+      "example_sentence": "A ɲa bɛ kɛnɛma.",
+      "example_phonetic": "/a ɲa bɛ kɛ.nɛ.ma/",
+      "example_translation": "Ses yeux vont bien (sa vue est bonne)."
+    },
+    {
+      "word_id": "v4",
+      "term": "Ŋana",
+      "phonetic_api": "/ŋa.na/",
+      "phonetic_simple": "NGA-NA",
+      "translation": "Héros / Champion (le 'ŋ' se prononce comme le 'ng' du mot 'parking')",
+      "example_sentence": "Cɛ ŋana le.",
+      "example_phonetic": "/t͡ʃɛ ŋa.na le/",
+      "example_translation": "C'est un homme vaillant."
+    },
+    {
+      "word_id": "v5",
+      "term": "Da",
+      "phonetic_api": "/da/",
+      "phonetic_simple": "DA",
+      "translation": "Bouche / Porte",
+      "example_sentence": "Da tugu.",
+      "example_phonetic": "/da tu.ɡu/",
+      "example_translation": "Ferme la porte."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "A fɔ konyanka kan na.",
+      "phonetic_api": "/a fɔ ko.ɲan.ka kan na/",
+      "phonetic_simple": "A FƆ KO-NYAN-KA KAN NA",
+      "translation": "Dis-le en langue konyanka.",
+      "context": "Utilisé en classe ou lors d'un échange pour s'exercer à la prononciation locale."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "N'ma a mɛn bɛrɛbɛrɛ.",
+      "phonetic_api": "/nma a mɛn bɛ.rɛ.bɛ.rɛ/",
+      "phonetic_simple": "N-MA A MÈN BÈ-RÈ-BÈ-RÈ",
+      "translation": "Je n'ai pas bien entendu / compris.",
+      "context": "Pratique lorsque l'interlocuteur parle trop vite ou articule mal un son complexe."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'importance des tons et la longueur des voyelles",
+      "explanation": "En konyanka, le changement de ton (hauteur de la voix) ou le doublement d'une voyelle modifie radicalement le sens d'un mot orthographié de manière similaire.",
+      "rules": [
+        "Les voyelles simples (a, e, ɛ, i, o, ɔ, u) ont une durée courte.",
+        "Le doublement de la voyelle (aa, ee, oo) indique un allongement vocalique indispensable."
+      ],
+      "examples": [
+        {
+          "structure": "Ba (court)",
+          "phonetic_api": "/ba/",
+          "meaning": "Mère / Grand"
+        },
+        {
+          "structure": "Baa (long)",
+          "phonetic_api": "/baː/",
+          "meaning": "Chèvre"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "I bɛ se ka n'demun nin fɔ la?",
+      "phonetic_api": "/i bɛ se ka nde.mun nin fɔ la/",
+      "phonetic_simple": "I BÈ SÉ KA N-DÉ-MOUN NIN FƆ LA",
+      "translation": "Peux-tu m'aider à prononcer ceci ?"
+    },
+    {
+      "speaker": "Mariama",
+      "text": "Hali tana t'ɛ fɔ gbe!",
+      "phonetic_api": "/ha.li ta.na tɛ fɔ ɡe/",
+      "phonetic_simple": "HA-LI TA-NA TÈ FƆ GBÉ",
+      "translation": "Pas de problème, dis-le clairement !"
+    }
+  ],
+  "cultural_notes": [
+    "La tradition orale konyanka accorde une grande importance à l'éloquence et à la justesse de l'articulation. Un bon locuteur sait manier les inflections de voix pour nuancer le respect dû aux anciens."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment se prononce la consonne orthographiée 'ɲ' ?",
+      "options": [
+        "Comme le 'gn' français dans 'gagner'",
+        "Comme un 'g' dur",
+        "Comme un 'p' aspiré"
+      ],
+      "correct_answer": "Comme le 'gn' français dans 'gagner'",
+      "explanation": "Le 'ɲ' est une consonne nasale palatale qui correspond exactement au son 'gn' en français."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ji [ ___ ] le (C'est de l'eau claire).",
+      "correct_answer": "gbe",
+      "hint": "Utilise la consonne double labio-vélaire"
+    }
+  ]
+}

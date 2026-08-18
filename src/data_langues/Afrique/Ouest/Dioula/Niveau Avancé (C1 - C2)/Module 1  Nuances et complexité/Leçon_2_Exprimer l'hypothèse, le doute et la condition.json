@@ -1,0 +1,293 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Formuler des structures conditionnelles imbriquées et complexes",
+    "Exprimer l'incertitude et le doute nuancé en milieu formel",
+    "Masser les particules aspectuelles avancées pour marquer l'éventualité",
+    "Traduire la supposition abstraite selon les règles de l'éloquence mandingue"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le morphème de l'éventuel 'mana' exige une égale distribution du souffle sur les deux syllabes /ma.na/. La particule restrictive de doute 'mɔni' ou 'kɔni' demande un ton bas-moyen stable. Le groupe consonantique de la formule 'siga-tɛ-a-la' s'articule de manière fluide et rapide.",
+    "common_pitfalls": "Veillez à ne pas confondre le 'mana' de la condition future avec le verbe 'mana' (luire/éclairer). Marquez nettement l'allongement vocalique sur 'siga' (doute) pour éviter la confusion avec 'sigi' (s'asseoir)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Mana",
+      "phonetic_api": "/ma.na/",
+      "phonetic_simple": "MA-NA",
+      "translation": "Dès que / Une fois que / Si jamais (marqueur de condition future certaine)",
+      "example_sentence": "Ni an mana hɛɛrɛ-sira sɔrɔ, hami bɛɛ bɛna ban",
+      "example_phonetic": "/ni an ma.na hɛː.rɛ si.ra sɔ.gɔ ha.mi bɛː bɛ.na baⁿ/",
+      "example_translation": "Dès que nous aurons trouvé la voie de la paix, tous les soucis prendront fin."
+    },
+    {
+      "word_id": "v2",
+      "term": "Siga-wolo / Sigatɔ",
+      "phonetic_api": "/si.ga wo.lo/",
+      "phonetic_simple": "SI-GA-WO-LO",
+      "translation": "L'état d'incertitude profonde / Le doute méthodique",
+      "example_sentence": "N bɛ siga-wolo kɔnɔ sisan ka bɔ baara-yɔrɔ ko fɛ",
+      "example_phonetic": "/n̩ bɛ si.ga wo.lo kɔ.nɔ si.san ka bɔ baː.ra jɔ.rɔ ko fɛ/",
+      "example_translation": "Je suis dans une incertitude profonde actuellement concernant l'affaire du bureau."
+    },
+    {
+      "word_id": "v3",
+      "term": "Hali n'a bɛ rɔ",
+      "phonetic_api": "/ha.li nʼa bɛ rɔ/",
+      "phonetic_simple": "HA-LI NA BÈ RÕ",
+      "translation": "Quand bien même / Dans l'hypothèse où / Quoi qu'il en soit",
+      "example_sentence": "Hali n'a bɛ rɔ, an ka kan ka sigi-wari ladan sisan",
+      "example_phonetic": "/ha.li nʼa bɛ rɔ an ka kaⁿ ka si.gi wa.ri la.daⁿ si.san/",
+      "example_translation": "Quand bien même il en serait ainsi, nous devons constituer notre épargne dès maintenant."
+    },
+    {
+      "word_id": "v4",
+      "term": "Nka n kɔni fɛ",
+      "phonetic_api": "/n̩.ka n̩ kɔ.ni fɛ/",
+      "phonetic_simple": "NKA N KÕ-NI FÈ",
+      "translation": "Toutefois en ce qui me concerne / Sous réserve de ma propre opinion",
+      "example_sentence": "Nka n kɔni fɛ, o ko nin tɛ gansan-ko ye",
+      "example_phonetic": "/n̩.ka n̩ kɔ.ni fɛ o ko niⁿ tɛ g͡baⁿ.saⁿ ko d͡ʒɛ/",
+      "example_translation": "Toutefois, en ce qui me concerne, cette affaire n'est pas une futilité."
+    },
+    {
+      "word_id": "v5",
+      "term": "Siga-tɛ-a-la-ko",
+      "phonetic_api": "/si.ga tɛ a la ko/",
+      "phonetic_simple": "SI-GA-TÈ-A-LA-KO",
+      "translation": "Une évidence / Une affaire exempte de tout doute",
+      "example_sentence": "Kalan sɔgɔ-ɲuman ye siga-tɛ-a-la-ko ye kalan-den fɛ",
+      "example_phonetic": "/ka.lan sɔ.gɔ ɲu.maⁿ d͡ʒɛ si.ga tɛ a la ko d͡ʒɛ ka.lan deⁿ fɛ/",
+      "example_translation": "De bonnes études sont une évidence incontestable pour un étudiant."
+    },
+    {
+      "word_id": "v6",
+      "term": "Hakilitigiya-ko",
+      "phonetic_api": "/ha.ki.li.ti.gi.ja ko/",
+      "phonetic_simple": "HA-KI-LI-TI-GUI-YA-KO",
+      "translation": "Une supposition sage / Une hypothèse mûrement réfléchie",
+      "example_sentence": "O jija-kan nin ye hakilitigiya-ko jɛrɛ ye",
+      "example_phonetic": "/o d͡ʒi.d͡ʒa kaⁿ niⁿ d͡ʒɛ ha.ki.li.ti.gi.ja ko d͡ʒɛ.rɛ d͡ʒɛ/",
+      "example_translation": "Cette affirmation solennelle est une hypothèse mûrement réfléchie."
+    },
+    {
+      "word_id": "v7",
+      "term": "Mɔni / Kɔni",
+      "phonetic_api": "/mɔ.ni/",
+      "phonetic_simple": "MÕ-NI",
+      "translation": "Pourvu que / Si seulement (expression du souhait conditionnel)",
+      "example_sentence": "Mɔni sotigi bɛna sira-di an ma bi sɔgɔma",
+      "example_phonetic": "/mɔ.ni so.ti.gi bɛ.na si.ra di an ma bi sɔ.gɔ.ma/",
+      "example_translation": "Pourvu que le propriétaire nous accorde l'autorisation ce matin !"
+    },
+    {
+      "word_id": "v8",
+      "term": "Tɛmɛ-sira-ko",
+      "phonetic_api": "/tɛ.mɛ si.ra ko/",
+      "phonetic_simple": "TÈ-MÈ-SI-RA-KO",
+      "translation": "Une éventualité transitoire / Une possibilité alternative",
+      "example_sentence": "An ka lajɛ-ko bɛ sira-ɲini kɛ ni tɛmɛ-sira-ko ye",
+      "example_phonetic": "/an ka la.d͡ʒɛ ko bɛ si.ra ɲi.ni kɛ ni tɛ.mɛ si.ra ko d͡ʒɛ/",
+      "example_translation": "Notre projet explore une éventualité alternative."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ni i mana siga-wolo kɔnɔna lɔn, i tɛna wari-tɛmɛ-songo sara gansan fɛ.",
+      "phonetic_api": "/ni i ma.na si.ga wo.lo kɔ.nɔ.na lɔⁿ i tɛ.na wa.ri tɛ.mɛ sɔn.gɔ sa.ra g͡baⁿ.saⁿ fɛ/",
+      "phrase_phonetic_simple": "NI I MA-NA SI-GA-WO-LO KÕ-NÕ-NA LÕN, I TÈ-NA WA-RI-TÈ-MÈ-SÕN-GÕ SA-RA GBAN-SAN FÈ",
+      "translation": "Dès que tu auras analysé les causes de ton incertitude profonde, tu ne dépenseras plus d'argent de manière exorbitante.",
+      "context": "Analyser une situation financière confuse sous forme d'hypothèse future."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Nka n kɔni fɛ, hakilitigiya-ko nin bɛna sɔsɔli-ko bɛɛ da-gban ni teliya ye.",
+      "phonetic_api": "/n̩.ka n̩ kɔ.ni fɛ ha.ki.li.ti.gi.ja ko niⁿ bɛ.na sɔ.sɔ.li ko bɛː da g͡baⁿ ni te.li.ja d͡ʒɛ/",
+      "phrase_phonetic_simple": "NKA N KÕ-NI FÈ, HA-KI-LI-TI-GUI-YA-KO NIN BÈ-NA SÕ-SÕ-LI-KO BÈÈ DA-GBAN NI TÉ-LI-YA YÈ",
+      "translation": "Toutefois en ce qui me concerne, cette supposition sage va clore définitivement toute contestation avec rapidité.",
+      "context": "Exprimer sa réserve personnelle et clore un débat d'idées."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Hali n'a bɛ rɔ, ni an tun ka sariyan jɛrɛ lɔn kunon, an tun tɛna juru don an ma.",
+      "phonetic_api": "/ha.li nʼa bɛ rɔ ni an tuⁿ ka sa.ri.jaⁿ d͡ʒɛ.rɛ lɔⁿ ku.noⁿ an tuⁿ tɛ.na d͡ʒu.ru doⁿ an ma/",
+      "phrase_phonetic_simple": "HA-LI NA BÈ RÕ, NI AN TOUN KA SA-RI-YAN DJÈ-RÈ LÕN KOU-NON, AN TOUN TÈ-NA DJOU-ROU DON AN MA",
+      "translation": "Quand bien même il en serait ainsi, si nous avions connu le règlement lui-même hier, nous ne nous serions pas endettés.",
+      "context": "Exprimer un regret rétrospectif lié à une condition du passé non réalisée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Siga-tɛ-a-la-ko ye : ni wari-tigi-jɛrɛ mana sira-di, nafaba bɛna sɔrɔ kalo natɔ la.",
+      "phonetic_api": "/si.ga tɛ a la ko d͡ʒɛ ni wa.ri ti.gi d͡ʒɛ.rɛ ma.na si.ra di na.fa.ba bɛ.na sɔ.gɔ ka.lo na.tɔ la/",
+      "phrase_phonetic_simple": "SI-GA-TÈ-A-LA-KO YÈ : NI WA-RI-TI-GUI-DJÈ-RÈ MA-NA SI-RA-DI, NA-FA-BA BÈ-NA SÕ-RÕ KA-LO NA-TÕ LA",
+      "translation": "C'est une évidence absolue : si jamais le bailleur de fonds principal donne son accord, un bénéfice immense sera obtenu le mois prochain.",
+      "context": "Formuler une projection économique hautement probable."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Mɔni an bɛ se ka tɛmɛ-sira-ko kelen sɔrɔ, walasa an ka dusu-kun-jɛ ka bonya.",
+      "phonetic_api": "/mɔ.ni an bɛ se ka tɛ.mɛ si.ra ko ke.len sɔ.gɔ wa.la.sa an ka du.su kuⁿ d͡ʒɛ ka boⁿ.ja/",
+      "phrase_phonetic_simple": "MÕ-NI AN BÈ SE KA TÈ-MÈ-SI-RA-KO KÉ-LEN SÕ-RÕ, WA-LA-SA AN KA DOU-SOU-KOUN-DJÈ KA BON-YA",
+      "translation": "Pourvu que nous puissions trouver une possibilité alternative, afin que notre paix intérieure se renforce !",
+      "context": "Exprimer un souhait mêlé d'incertitude dans un cadre formel."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Ni i mana fɛn-w-san-yɔrɔ kura nin lɔ, dusu-diyala bɛna don i ka bangebagaw ma siga si tɛ a la.",
+      "phonetic_api": "/ni i ma.na fɛⁿ.w saⁿ jɔ.rɔ ku.ra niⁿ lɔ du.su di.ja.la bɛ.na doⁿ i ka baⁿ.ge.ba.ga.w ma si.ga si tɛ a la/",
+      "phrase_phonetic_simple": "NI I MA-NA FÈN-W-SAN-YÕ-RÕ KOU-RA NIN LÕ, DOU-SOU-DI-YA-LA BÈ-NA DON I KA BAN-GUÉ-BA-GA-W MA SI-GA SI TÈ A LA",
+      "translation": "Dès que tu auras érigé cette nouvelle boutique, un enchantement profond s'emparera de tes parents, aucun doute là-dessus.",
+      "context": "Encourager un collaborateur en décrivant un futur hypothétique certain."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Kalan-den-w bɛ siga-wolo kɔnɔ, jija-kan m'a sɔrɔ fɔ ni an mana kalo-di-sɛbɛn ladan.",
+      "phonetic_api": "/ka.lan deⁿ.w bɛ si.ga wo.lo kɔ.nɔ d͡ʒi.d͡ʒa kaⁿ mʼa sɔ.gɔ fɔ ni an ma.na ka.lo di sɛ.bɛn la.daⁿ/",
+      "phrase_phonetic_simple": "KA-LAN-DEN-W BÈ SI-GA-WO-LO KÕ-NÕ, DJI-DJA-KAN MA SÕ-RÕ FÕ NI AN MA-NA KA-LO-DI-SÈ-BÈN LA-DAN",
+      "translation": "Les étudiants sont dans l'incertitude, aucune affirmation ne se dégagera à moins que nous ne concevions le planning.",
+      "context": "Faire un état des lieux des doutes académiques au sein de l'université."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Ala ka an bɔ siga-wolo kɔnɔ, ka an sira-yira hakilitigiya-ko sɔgɔ-ɲuman na !",
+      "phonetic_api": "/a.la ka an bɔ si.ga wo.lo kɔ.nɔ ka an si.ra ji.ra ha.ki.li.ti.gi.ja ko sɔ.gɔ ɲu.maⁿ na/",
+      "phrase_phonetic_simple": "A-LA KA AN BÕ SI-GA-WO-LO KÕ-NÕ, KA AN SI-RA-YI-RA HA-KI-LI-TI-GUI-YA-KO SÕ-GÕ-GNU-MAN NA !",
+      "translation": "Que Dieu nous extirpe de l'incertitude profonde et nous oriente vers la bonne hypothèse de la sagesse !",
+      "context": "Prière et bénédiction de clôture philosophique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la conditionnalité future et certaine avec 'Ni ... mana'",
+      "explanation": "Au niveau C1, l'hypothèse ne se limite pas à l'usage de 'ni' (si). Pour exprimer une condition future perçue comme une étape obligatoire et certaine (dès que / une fois que / si jamais), on utilise la particule d'éventuel 'mana' immédiatement après le sujet de la subordonnée.",
+      "rules": [
+        "Structure : Ni + Sujet + mana + Verbe (radical), [Sujet + bɛna / tɛna + Verbe au futur dans la principale]."
+      ],
+      "examples": [
+        {
+          "structure": "Ni + an + mana + hɛɛrɛ-sira sɔrɔ",
+          "phonetic_api": "/ni an ma.na hɛː.rɛ si.ra sɔ.gɔ/",
+          "meaning": "Dès que nous aurons trouvé la voie de la paix."
+        }
+      ]
+    },
+    {
+      "concept": "La conceptualisation du doute abstrait : 'Siga-wolo'",
+      "explanation": "Pour exprimer un état d'esprit traversé par l'indécision ou le doute méthodique, le dioula avancé recourt au terme composé 'siga-wolo' (littéralement : la peau ou l'essence du doute). Il s'utilise principalement au sein d'un locatif pour traduire le fait de stagner dans l'incertitude.",
+      "rules": [
+        "Sujet + bɛ + siga-wolo + kɔnɔ = Être plongé dans une incertitude profonde."
+      ],
+      "examples": [
+        {
+          "structure": "N + bɛ + siga-wolo + kɔnɔ",
+          "phonetic_api": "/n̩ bɛ si.ga wo.lo kɔ.nɔ/",
+          "meaning": "Je suis dans le doute le plus total / Je balance dans l'incertitude."
+        }
+      ]
+    },
+    {
+      "concept": "Le souhait conditionnel restrictif 'Mɔni / Kɔni'",
+      "explanation": "Pour formuler une supposition teintée d'espoir ou un souhait dont la réalisation dépend de facteurs externes (pourvu que / si seulement), on place le connecteur d'introduction 'mɔni' ou 'kɔni' en tout début de proposition.",
+      "rules": [
+        "Structure : Mɔni / Kɔni + Sujet + bɛna + Verbe... (généralement suivi d'une proposition finale en walasa ka)."
+      ],
+      "examples": [
+        {
+          "structure": "Mɔni + sotigi + bɛna + sira-di an ma",
+          "phonetic_api": "/mɔ.ni so.ti.gi bɛ.na si.ra di an ma/",
+          "meaning": "Pourvu que le propriétaire nous donne son accord !"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ousmane (L'investisseur)",
+      "text": "I ni ce, n fa Alassane. N bɛ siga-wolo kɔnɔ sisan. Ni wari-tigi-jɛrɛ mana an ka tɛmɛ-sira-ko nin da-gban, an ka lajɛ-ko bɛna ban.",
+      "phonetic_api": "/i ni t͡ʃe n̩ fa a.la.saⁿ n̩ bɛ si.ga wo.lo kɔ.nɔ si.saⁿ ni wa.ri ti.gi d͡ʒɛ.rɛ ma.na an ka tɛ.mɛ si.ra ko niⁿ da g͡baⁿ an ka la.d͡ʒɛ ko bɛ.na baⁿ/",
+      "phrase_phonetic_simple": "I NI TCHE, N FA A-LA-SANE. N BÈ SI-GA-WO-LO KÕ-NÕ SI-SAN. NI WA-RI-TI-GUI-DJÈ-RÈ MA-NA AN KA TÈ-MÈ-SI-RA-KO NIN DA-GBAN, AN KA LA-DJÈ-KO BÈ-NA BAN.",
+      "translation": "Bonjour, maître Alassane. Je suis en proie à une incertitude profonde actuellement. Si jamais le bailleur de fonds principal rejette notre possibilité alternative, notre projet va s'effondrer."
+    },
+    {
+      "speaker": "Alassane (Le sage conseiller)",
+      "text": "I ni ce, Ousmane. Hami tɛ ! I ka kuma ye hakilitigiya-ko ye, nka n kɔni fɛ, o tɛ gansan-ko ye. Ni an mana an ka sigi-wari lakana, nafaba bɛna sɔrɔ.",
+      "phonetic_api": "/i ni t͡ʃe u.sma.ne ha.mi tɛ i ka ku.ma d͡ʒɛ ha.ki.li.ti.gi.ja ko d͡ʒɛ n̩.ka n̩ kɔ.ni fɛ o tɛ g͡baⁿ.saⁿ ko d͡ʒɛ ni an ma.na an ka si.gi wa.ri la.ka.na na.fa.ba bɛ.na sɔ.gɔ/",
+      "phrase_phonetic_simple": "I NI TCHE, OUS-MANE. HA-MI TÈ ! I KA KOU-MA YÈ HA-KI-LI-TI-GUI-YA-KO YÈ, NKA N KÕ-NI FÈ, O TÈ GBAN-SAN-KO YÈ. NI AN MA-NA AN KA SI-GUI-WA-RI LA-KA-NA, NA-FA-BA BÈ-NA SÕ-RÕ.",
+      "translation": "Bonjour, Ousmane. Point de panique ! Ton analyse est une supposition sage, toutefois en ce qui me concerne, ce n'est pas une fatalité. Dès que nous aurons sécurisé notre épargne, un bénéfice majeur émergera."
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Siga-tɛ-a-la-ko ye ! Nka ni an tun ka kalo-di-sɛbɛn ladan kunon, an tun bɛna siga-wolo nin bɛɛ bɔ an cɛ sisan.",
+      "phonetic_api": "/si.ga tɛ a la ko d͡ʒɛ n̩.ka ni an tuⁿ ka ka.lo di sɛ.bɛn la.daⁿ ku.noⁿ an tuⁿ bɛ.na si.ga wo.lo niⁿ bɛː bɔ an t͡ʃɛ si.saⁿ/",
+      "phrase_phonetic_simple": "SI-GA-TÈ-A-LA-KO YÈ ! NKA NI AN TOUN KA KA-LO-DI-SÈ-BÈN LA-DAN KOU-NON, AN TOUN BÈ-NA SI-GA-WO-LO NIN BÈÈ BÕ AN TRÈ SI-SAN.",
+      "translation": "C'est une évidence absolue ! Cependant, si nous avions établi le planning hier, nous aurions dissipé toute cette incertitude profonde entre nous à l'instant."
+    },
+    {
+      "speaker": "Alassane",
+      "text": "Hali n'a bɛ rɔ, mɔni sotigi bɛna sira-di an ma kalo natɔ la walasa ka fen-w-san-yɔrɔ kura labɛn. O bɛna an dusu-kun-jɛ diya.",
+      "phonetic_api": "/ha.li nʼa bɛ rɔ mɔ.ni so.ti.gi bɛ.na si.ra di an ma ka.lo na.tɔ la wa.la.sa ka fɛⁿ.w saⁿ d͡ʒɔ.rɔ ku.ra la.bɛn o bɛ.na an du.su kuⁿ d͡ʒɛ di.ja/",
+      "phrase_phonetic_simple": "HA-LI NA BÈ RÕ, MÕ-NI SOU-TI-GI BÈ-NA SI-RA-DI AN MA KA-LO NA-TÕ LA WA-LA-SA KA FÈN-W-SAN-YÕ-RÕ KOU-RA LA-BEN. O BÈ-NA AN DOU-SOU-KOUN-DJÈ DI-YA.",
+      "translation": "Quoi qu'il en soit, pourvu que le propriétaire nous donne son accord le mois prochain afin d'aménager la nouvelle boutique. Cela favorisera grandement notre paix intérieure."
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "I ka jija-kan nana ni hakili-jigi ye n ma. Sɔsɔli-ko bɛɛ tɛmɛna. N bɛ sɔn i ka hakilitigiya-ko ma.",
+      "phonetic_api": "/i ka d͡ʒi.d͡ʒa kaⁿ na.na ni ha.ki.li d͡ʒi.g͡bi d͡ʒɛ n̩ ma sɔ.sɔ.li ko bɛː tɛ.mɛ.na n̩ bɛ sɔⁿ i ka ha.ki.li.ti.gi.ja ko ma/",
+      "phrase_phonetic_simple": "I KA DJI-DJA-KAN NA-NA NI HA-KI-LI-DJI-GUI YÈ N MA. SÕ-SÕ-LI-KO BÈÈ TÈ-MÈ-NA. N BÈ SÕN I KA HA-KI-LI-TI-GUI-YA-KO MA.",
+      "translation": "Ton affirmation solennelle m'apporte un espoir profond. Tout point de litige est dépassé. Je me rallie à ta supposition sage."
+    },
+    {
+      "speaker": "Alassane",
+      "text": "Ala ka an bɔ hami kɔnɔ, ka an ka tɛmɛ-sira-ko bɛɛ diya ni hɛɛrɛ ye. K'an bɛn !",
+      "phonetic_api": "/a.la ka an bɔ ha.mi kɔ.nɔ ka an ka tɛ.mɛ si.ra ko bɛː di.ja ni hɛː.rɛ d͡ʒɛ kʼan bɛn/",
+      "phrase_phonetic_simple": "A-LA KA AN BÕ HA-MI KÕ-NÕ, KA AN KA TÈ-MÈ-SI-RA-KO BÈÈ DI-YA NI HÈÈ-RÈ YÈ. KAN BEN !",
+      "translation": "Que Dieu nous délivre de l'angoisse et couronne de succès notre possibilité alternative dans la paix. Au revoir !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'exercice de la haute rhétorique mandingue, l'expression du doute n'est jamais synonyme de faiblesse mais témoigne d'une prudence stratégique indispensable ('hakilitigiya'). Se déclarer plongé dans le 'siga-wolo' permet de solliciter la guidance des aînés sans imposer ses propres certitudes.",
+    "Manipuler la structure de l'éventuel avec 'mana' est l'apanage des négociateurs habiles. Cela permet de lier des garanties morales et financières futures à des conditions logiques strictes, garantissant ainsi que la prise de risque collective s'exécute toujours en parfaite conformité avec les règles de la concession ('sariyan')."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L2_Ex1",
+      "type": "multiple_choice",
+      "question": "Quelle particule aspectuelle avancée insère-t-on juste après le sujet dans une proposition conditionnelle pour signifier 'dès que / une fois que' ?",
+      "options": [
+        "Tun",
+        "Mana",
+        "Dɔrɔn",
+        "Abada"
+      ],
+      "correct_answer": "Mana",
+      "explanation": "'Mana' est la marque exclusive du futur conditionnel éventuel au niveau C1, traduisant une étape future hautement probable ou certaine."
+    },
+    {
+      "exercise_id": "C1_M1_L2_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour désigner l'état psychologique complexe d'une incertitude profonde ou d'un doute méthodique, on emploie l'expression composée : 'siga-[ ___ ]'.",
+      "correct_answer": "wolo",
+      "hint": "Mot signifiant littéralement 'la peau' ou 'la chair' du doute, décrivant une immersion totale dans l'indécision."
+    },
+    {
+      "exercise_id": "C1_M1_L2_Ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie sémantiquement l'expression d'introduction 'Mɔni' placée en début de phrase ?",
+      "options": [
+        "Il est strictement interdit de dépenser son argent",
+        "Pourvu que / Si seulement (expression d'un souhait soumis à condition)",
+        "Une immense fatigue causée par la gestion du planning",
+        "Le contrat écrit de location a été définitivement rompu"
+      ],
+      "correct_answer": "Pourvu que / Si seulement (expression d'un souhait soumis à condition)",
+      "explanation": "'Mɔni' (ou sa variante kɔni) sert à introduire une joute verbale ou un vœu dont l'accomplissement dépend d'une éventualité favorable."
+    }
+  ]
+}

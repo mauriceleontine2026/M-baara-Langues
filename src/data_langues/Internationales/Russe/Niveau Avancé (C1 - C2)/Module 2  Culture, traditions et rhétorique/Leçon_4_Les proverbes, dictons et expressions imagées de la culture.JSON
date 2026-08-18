@@ -1,0 +1,228 @@
+{
+  "lesson_id": "C1_M2_L4",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 4,
+  "title": "Proverbes, dictons et expressions imagées",
+  "learning_objectives": [
+    "Comprendre et intégrer des proverbes russes traditionnels liés au travail, à l'effort et à la persévérance",
+    "Utiliser des expressions idiomatiques imagées (phraséologismes) pour enrichir le discours oral et écrit",
+    "Décoder les références historiques et culturelles ancrées dans la sagesse populaire russe",
+    "Savoir employer les métaphores à bon escient pour nuancer un point de vue dans un débat"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Dans l'expression 'Без труда', la préposition s'enchaîne de manière sonore avec le substantif, modifiant le 'з' en un son distinct [bʲɪs trʊˈda]. Le mot 'Пруд' (étang) subit un dévoisement final strict de la consonne 'д' en [t] : [prut].",
+    "common_pitfalls": "Attention au mot 'Шило' [ˈʂɨɫə] : le 'ш' est toujours dur en russe, le 'и' se prononce donc obligatoirement comme un [ɨ] tendu. Ne palatalisez pas le début du mot."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Пословица",
+      "phonetic_api": "/pɐˈsɫovʲɪt͡sə/",
+      "phonetic_simple": "pa-SLO-vi-tsa",
+      "translation": "Proverbe (Structure rythmée porteuse d'une sentence complète)",
+      "example_sentence": "Русские пословицы часто имеют глубокий исторический подтекст.",
+      "example_phonetic": "/ˈruskʲɪjə pɐˈsɫovʲɪt͡sɨ ˈtɕastə ɪˈmʲeɪ̯ʊt ˈɡɫʊbokʲɪj ɪstɐˈrʲitɕɪskʲɪj pɐtˈtɛkst/",
+      "example_translation": "Les proverbes russes ont souvent un sous-entendu historique profond."
+    },
+    {
+      "word_id": "v2",
+      "term": "Поговорка",
+      "phonetic_api": "/pəɡɐˈvorkə/",
+      "phonetic_simple": "pa-ga-VOR-ka",
+      "translation": "Dicton / Expression imagée (Formule figée sans conclusion morale)",
+      "example_sentence": "Эта поговорка отлично описывает нашу текущую ситуацию.",
+      "example_phonetic": "/ˈɛtə pəɡɐˈvorkə ɐˈtlʲitɕnə ɐˈpʲisɨvaɪ̯ɪt ˈnaʂʊ tʲɪˈkuɕːʊjʊ sʲɪtʊˈat͡sɨjʊ/",
+      "example_translation": "Ce dicton décrit parfaitement notre situation actuelle."
+    },
+    {
+      "word_id": "v3",
+      "term": "Труд",
+      "phonetic_api": "/trut/",
+      "phonetic_simple": "trout",
+      "translation": "Travail / Labeur / Effort",
+      "example_sentence": "Любой успех — это результат упорного труда.",
+      "example_phonetic": "/lʲʊˈboj ʊˈspʲɛx ˈɛtə rʲɪzʊlʲˈtat ʊˈpornəvə trʊˈda/",
+      "example_translation": "Tout succès est le résultat d'un travail acharné."
+    },
+    {
+      "word_id": "v4",
+      "term": "Терпение",
+      "phonetic_api": "/tʲɪrˈpʲenʲɪjə/",
+      "phonetic_simple": "tir-PIE-ni-ye",
+      "translation": "Patience / Persévérance / Endurance",
+      "example_sentence": "В нашем деле главное — проявить терпение.",
+      "example_phonetic": "/v ˈnaʂɨm ˈdʲelɪ ˈɡɫavnəjə prɐɪ̯ɪˈvʲitʲ tʲɪrˈpʲenʲɪjə/",
+      "example_translation": "Dans notre domaine, l'essentiel est de faire preuve de patience."
+    },
+    {
+      "word_id": "v5",
+      "term": "Смысл",
+      "phonetic_api": "/smɨsɫ/",
+      "phonetic_simple": "smysl",
+      "translation": "Sens / Signification / Raison d'être",
+      "example_sentence": "Я не вижу логического смысла в этом предложении.",
+      "example_phonetic": "/ja nʲɪ ˈvʲiʐʊ lɐˈɡʲitɕɪskəvə ˈsmɨsɫə v ˈɛtəm prʲɪdɫɐˈʐenʲɪɪ/",
+      "example_translation": "Je ne vois pas de sens logique dans cette proposition."
+    },
+    {
+      "word_id": "v6",
+      "term": "Наследие",
+      "phonetic_api": "/nɐˈslʲedʲɪjə/",
+      "phonetic_simple": "na-SLIE-di-ye",
+      "translation": "Héritage / Patrimoine",
+      "example_sentence": "Фольклор — это важнейшая часть культурного наследия.",
+      "example_phonetic": "/fɐlʲˈkɫor ˈɛtə vɐʐˈnʲeɪ̯ʂəjə tɕasʲtʲ kʊlʲˈturnəvə nɐˈslʲedʲɪɪ/",
+      "example_translation": "Le folklore est une partie essentielle du patrimoine culturel."
+    },
+    {
+      "word_id": "v7",
+      "term": "Мудрость",
+      "phonetic_api": "/ˈmudrəsʲtʲ/",
+      "phonetic_simple": "MOU-drast'",
+      "translation": "Sagesse",
+      "example_sentence": "Народная мудрость помогает находить нестандартные решения.",
+      "example_phonetic": "/nɐˈrodnəjə ˈmudrəsʲtʲ pəmɐˈɡaɪ̯ɪt nəxɐˈdʲitʲ nʲɪstɐnˈdartnɨjə rʲɪˈʂenʲɪjə/",
+      "example_translation": "La sagesse populaire aide à trouver des solutions hors normes."
+    },
+    {
+      "word_id": "v8",
+      "term": "Переносное значение",
+      "phonetic_api": "/pʲɪrʲɪnɐˈsnoɪ̯ɪ znɐˈtɕenʲɪjə/",
+      "phonetic_simple": "pi-ri-na-SNO-ie zna-TCHIE-ni-ye",
+      "translation": "Sens figuré / Métaphorique",
+      "example_sentence": "Этот фразеологизм используется только в переносном значении.",
+      "example_phonetic": "/ˈɛtət frəzʲɪəɫɐˈɡʲizm ɪˈspoɫʲzʊɪ̯ɪt͡sʲə ˈtolʲkə v pʲɪrʲɪnɐˈsnom znɐˈtɕenʲɪɪ/",
+      "example_translation": "Ce phraséologisme s'utilise uniquement au sens figuré."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Без труда не вытащишь и рыбку из пруда",
+      "phonetic_api": "/bʲɪs trʊˈda nʲɪ ˈvɨtəɕːɪʂ ˈi ˈrɨpkʊ ɪz prʊˈda/",
+      "phonetic_simple": "biez trou-DA ni VY-ta-chtchich i RYP-kou iz prou-DA",
+      "translation": "Sans peine, on n'a rien / On n'a rien sans rien (Litt. Sans effort, on ne sortira même pas un poisson de l'étang)",
+      "context": "Le proverbe absolu sur la valeur fondamentale du travail et de la persévérance."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Терпение и труд всё перетрут",
+      "phonetic_api": "/tʲɪrˈpʲenʲɪjə ˈi trut fsʲۆ pʲɪrʲɪˈtrut/",
+      "phonetic_simple": "tir-PIE-ni-ye i trout vssio pi-ri-TROUT",
+      "translation": "La patience et le travail viennent à bout de tout (Litt. La patience et l'effort vont tout broyer/surmonter)",
+      "context": "Utilisé pour encourager une équipe face à un projet long et pénible."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Шила в мешке не утаишь",
+      "phonetic_api": "/ˈʂɨɫə v mʲɪʂˈkʲe nʲɪ ʊtɐˈitɕ/",
+      "phonetic_simple": "CHY-la v mich-KIÉ ni ou-ta-ICH",
+      "translation": "On ne peut pas cacher la vérité indéfiniment (Litt. On ne peut cacher une alène dans un sac)",
+      "context": "Idéal dans un audit ou une discussion d'affaires lorsqu'un secret ou un problème finit par éclater."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Семь раз отмерь, один раз отрежь",
+      "phonetic_api": "/sʲem rəs ɐtˈmʲerʲ ɐˈdʲin rəs ɐˈtrʲeʂ/",
+      "phonetic_simple": "siem ras at-MIER', a-DIN ras at-RIECH",
+      "translation": "Il faut tourner sept fois sa langue dans sa bouche / Réfléchir mûrement avant d'agir (Litt. Mesure sept fois, coupe une seule fois)",
+      "context": "Conseil managérial stratégique appelant à l'extrême prudence avant une prise de décision majeure."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La syntaxe des proverbes : L'omission du sujet et la deuxième personne généralisante",
+      "explanation": "Les proverbes russes adoptent des structures grammaticales spécifiques pour exprimer des vérités universelles sans attribuer l'action à un individu précis.",
+      "rules": [
+        "Emploi massif de la 2e personne du singulier (forme ТЫ) sans pronom exprimé pour désigner l'humain en général (ex: не утаишь = on ne peut cacher, не вытащишь = on ne peut extraire).",
+        "Utilisation de verbes perfectifs au futur pour marquer l'infaillibilité du résultat ou l'impossibilité d'une action."
+      ],
+      "examples": [
+        {
+          "structure": "Семь раз отмерь (Impératif), один раз отрежь (Impératif).",
+          "phonetic_api": "/sʲem rəs ɐtˈmʲerʲ ɐˈdʲin rəs ɐˈtrʲeʂ/",
+          "meaning": "Mesure sept fois (toi/on), coupe une seule fois (toi/on)."
+        }
+      ]
+    },
+    {
+      "concept": "La préposition БЕЗ + Génitif d'absence totale",
+      "explanation": "Dans les expressions de sagesse, la préposition БЕЗ (sans) combinée au Génitif sert de condition logique négative équivalant à une subordonnée conditionnelle ('Si on ne fait pas...').",
+      "rules": [
+        "Le nom qui suit БЕЗ perd son article (en pensée) et se décline strictement au Génitif.",
+        "Le bloc prépositionnel se place souvent en tête de phrase pour thématiser la condition indispensable."
+      ],
+      "examples": [
+        {
+          "structure": "Без чёткого плана (Génitif) нельзя добиться успеха.",
+          "phonetic_api": "/bʲɪs ˈtɕotkəvə ˈpɫanə nʲɪlʲˈzʲa dɐˈbʲit͡sʲə ʊˈspʲɛxə/",
+          "meaning": "Sans un plan clair (Si l'on n'a pas de plan clair), il est impossible d'atteindre le succès."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Леонид",
+      "text": "Мария, наш новый контракт с поставщиками кажется мне сомнительным. Есть ощущение, что они скрывают реальные финансовые проблемы. Но доказать это на бумаге мы пока не можем.",
+      "phonetic_api": "/mɐˈrʲɪjə naʂ ˈnovɨj kɐnˈtrakt s pɐˈstafɕːɪkəmʲɪ ˈkaʐɨt͡sʲə mnʲe sɐmˈnʲitʲɪlʲnɨm jesʲtʲ ɐɕːʊˈɕːenʲɪjə ʂto ɐˈnʲi skrɨˈvaɪ̯ʊt rʲɪˈalʲnɨjə fʲɪnənˈsovɨjə prɐˈblʲɛmɨ no dəkɐˈzatʲ ˈɛtə nə bʊˈmaɡʲɪ mɨ pɐˈka nʲɪ ˈmoʐɨm/",
+      "phonetic_simple": "Ma-RI-ia, nach NO-vyj kan-TRAKT s pas-TAF-chtchi-ka-mi KA-jyt-ssya mnié sam-NI-til'-nym. Iest' a-chtchou-TCHIE-ni-ye, chto a-NI skry-VAI-out ri-AL'-ny-ia fi-nan-SO-vy-ia pra-BLIE-my. No da-ka-ZAT' E-ta na bou-MA-gui my pa-KA ni MO-jym.",
+      "translation": "Maria, notre nouveau contrat avec les fournisseurs me semble douteux. J'ai l'impression qu'ils cachent de réels problèmes financiers. Mais nous ne pouvons pas encore le prouver sur le papier."
+    },
+    {
+      "speaker": "Мария",
+      "text": "Леонид, не переживайте, шила в мешке не утаишь. Скоро начнётся ежегодный аудит, и вся правда выйдет наружу. Главное для нас сейчас — действовать осмотрительно. Как говорится, семь раз отмерь, один раз отрежь.",
+      "phonetic_api": "/lʲɪɐˈnʲit nʲɪ pʲɪrʲɪˈʐɨvajtʲɪ ˈʂɨɫə v mʲɪʂˈkʲe nʲɪ ʊtɐˈitɕ ˈskorə nɐtɕˈnʲot͡sʲə jɪʐɨˈɡodnɨj ɐˈudʲɪt ˈi f sʲa ˈpravdə ˈvɨjdʲɪt nɐˈruʐʊ ˈɡɫavnəjə dlʲɐ nas sʲɪjˈtɕas ˈdʲeɪ̯stvəvətʲ ɐsmɐˈtrʲitʲɪlʲnə kak ɡəvɐˈrʲit͡sʲə sʲem rəs ɐtˈmʲerʲ ɐˈdʲin rəs ɐˈtrʲeʂ/",
+      "phonetic_simple": "Li-a-NIT, ni pi-ri-JY-vaï-ti, CHY-la v mich-KIE ni ou-ta-ICH. SKO-ra natch-NIOT-ssya yi-jy-GOD-nyj a-OU-dit, i f-SIA PRAV-da VYÏ-dit na-ROU-jou. GLAV-na-ye dlia nas sieï-TCHAS — DIEÏ-stva-vat' as-ma-TRI-til'-na. Kak ga-va-RIT-ssya, siem ras at-MIER', a-DIN ras at-RIECH.",
+      "translation": "Leonid, ne vous en faites pas, on ne peut pas cacher une alène dans un sac (la vérité finit toujours par éclater). Bientôt commencera l'audit annuel, et toute la vérité éclatera au grand jour. L'essentiel pour nous en ce moment est d'agir avec prudence. Comme on dit : mesure sept fois, coupe une seule fois."
+    }
+  ],
+  "cultural_notes": [
+    "L'histoire derrière 'Шила в мешке не утаишь' : Une alène (шило) est un outil de cordonnier pointu et métallique. Si on tente de la dissimuler dans un sac en toile ou en cuir, sa pointe perce inévitablement le tissu. Cette image concrète du quotidien paysan s'est transposée au monde moderne pour désigner une fraude ou un secret impossible à masquer.",
+    "La métaphore de l'effort et de la nature : La récurrence du poisson (рыбка) ou de la terre dans les proverbes du travail s'explique par le passé agraire de la Russie. La réussite matérielle dépendait entièrement de l'endurance face à un climat rude, forgé dans l'adage que rien ne s'obtient sans une lutte concrète contre les éléments."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M2_L4_ex1",
+      "type": "multiple_choice",
+      "question": "Quel proverbe devez-vous utiliser pour rappeler à un collaborateur qu'un projet complexe demande du temps et de l'obstination ?",
+      "options": [
+        "Шила в мешке не утаишь",
+        "Терпение и труд всё перетрут",
+        "Семь раз отмерь, один раз отрежь",
+        "В гостях хорошо, а дома лучше"
+      ],
+      "correct_answer": "Терпение и труд всё перетрут",
+      "explanation": "Ce proverbe insiste précisément sur la dualité patience (терпение) et labeur (труд) nécessaires pour surmonter n'importe quelle épreuve."
+    },
+    {
+      "exercise_id": "C1_M2_L4_ex2",
+      "type": "multiple_choice",
+      "question": "Quelle est la particularité syntaxique de la proposition 'не утаишь' dans le proverbe ?",
+      "options": [
+        "C'est un impératif pluriel.",
+        "C'est une structure impersonnelle à la 2e personne du singulier.",
+        "C'est un participe passé passif.",
+        "Elle exige le cas Locatif."
+      ],
+      "correct_answer": "C'est une structure impersonnelle à la 2e personne du singulier.",
+      "explanation": "La 2e personne du singulier du futur perfectif s'utilise fréquemment en russe pour exprimer une impossibilité générale s'appliquant à n'importe quel individu."
+    },
+    {
+      "exercise_id": "C1_M2_L4_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Без [ ___ ] (Труд) не вытащишь и рыбку из пруда. (Complétez le proverbe avec le cas requis après la préposition)",
+      "correct_answer": "труда",
+      "hint": "Déclinez le substantif masculin 'труд' au Génitif singulier exigé par 'без'."
+    },
+    {
+      "exercise_id": "C1_M2_L4_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Перед подписанием соглашения нужно всё проверить, ведь семь раз [ ___ ], один раз отрежь. (Mesure - Impératif)",
+      "correct_answer": "отмерь",
+      "hint": "Forme impérative singulière du verbe отмерить."
+    }
+  ]
+}

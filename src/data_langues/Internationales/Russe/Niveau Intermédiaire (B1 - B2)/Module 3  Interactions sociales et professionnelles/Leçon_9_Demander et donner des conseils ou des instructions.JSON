@@ -1,0 +1,242 @@
+{
+  "lesson_id": "B1_M3_L9",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 9,
+  "title": "Demander et donner des conseils ou des instructions",
+  "learning_objectives": [
+    "Formuler des demandes de conseils de manière polie et nuancée",
+    "Donner des directives, des instructions et des recommandations claires",
+    "Utiliser le mode Impératif (perfectif et imperfectif) de façon appropriée",
+    "Employer le conditionnel avec la particule 'бы' pour adoucir une suggestion"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'В' dans 'Посоветовать' s'articule de façon fluide [pəsɐˈvʲetʊvətʲ]. Le 'ТЬ' final est adouci. Dans la forme impérative 'Посоветуйте', l'enchaînement des sons exige de prononcer clairement le 'й' [pəsɐˈvʲetʊjtʲɪ] comme un 'i' très court.",
+    "common_pitfalls": "Attention à l'accent tonique dans 'Рекомендовать' : il se situe sur la dernière syllabe [rʲɪkəmʲɪndɐˈvatʲ]. Au mode impératif 'Не спешите' (Ne vous pressez pas), l'accent se déplace sur le 'и' [nʲɪ spʲɪˈʂɨtʲɪ]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Совет",
+      "phonetic_api": "/sɐˈvʲet/",
+      "phonetic_simple": "sa-VIET",
+      "translation": "Conseil / Recommandation",
+      "example_sentence": "Спасибо за ваш полезный совет.",
+      "example_phonetic": "/spɐˈsʲibə zɐ vaʂ pɐˈlʲeznɨj sɐˈvʲet/",
+      "example_translation": "Merci pour votre conseil utile."
+    },
+    {
+      "word_id": "v2",
+      "term": "Посоветовать",
+      "phonetic_api": "/pəsɐˈvʲetʊvətʲ/",
+      "phonetic_simple": "pa-sa-VIE-ta-vat'",
+      "translation": "Conseiller / Suggérer (Perfectif)",
+      "example_sentence": "Что вы можете мне посоветовать?",
+      "example_phonetic": "/ʂto vɨ ˈmoʐɨtʲɪ mnʲe pəsɐˈvʲetʊvətʲ/",
+      "example_translation": "Que pouvez-vous me conseiller ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "Инструкция",
+      "phonetic_api": "/ɪnˈstrukt͡sɨjə/",
+      "phonetic_simple": "ine-STROUK-tsiya",
+      "translation": "Instruction / Mode d'emploi / Directive",
+      "example_sentence": "Прочитайте инструкцию перед началом работы.",
+      "example_phonetic": "/prətɕɪˈtajtʲɪ ɪnˈstrukt͡sɨjʊ pʲɪrʲɪt nɐˈtɕaɫəm rɐˈbotɨ/",
+      "example_translation": "Lisez le mode d'emploi avant de commencer le travail."
+    },
+    {
+      "word_id": "v4",
+      "term": "Рекомендация",
+      "phonetic_api": "/rʲɪkəmʲɪnˈdat͡sɨjə/",
+      "phonetic_simple": "ri-ka-mien-DA-tsiya",
+      "translation": "Recommandation / Avis",
+      "example_sentence": "Мы следуем официальным рекомендациям.",
+      "example_phonetic": "/mɨ ˈslʲedʊɪ̯ɪm ɐfʲɪt͡sɨˈalʲnɨm rʲɪkəmʲɪnˈdat͡sɨjəm/",
+      "example_translation": "Nous suivons les recommandations officielles."
+    },
+    {
+      "word_id": "v5",
+      "term": "Попробовать",
+      "phonetic_api": "/pɐˈprobəvətʲ/",
+      "phonetic_simple": "pa-PRO-ba-vat'",
+      "translation": "Essayer / Tenter (Perfectif)",
+      "example_sentence": "Вам стоит попробовать этот метод.",
+      "example_phonetic": "/vam stoɪ̯t pɐˈprobəvətʲ ˈɛtət ˈmʲetət/",
+      "example_translation": "Cela vaut le coup d'essayer cette méthode."
+    },
+    {
+      "word_id": "v6",
+      "term": "Выход",
+      "phonetic_api": "/ˈvɨxət/",
+      "phonetic_simple": "VY-hat",
+      "translation": "Issue / Solution / Sortie",
+      "example_sentence": "Мы обязательно найдём выход из этой ситуации.",
+      "example_phonetic": "/mɨ ɐbʲɪˈzatʲɪlʲnə nɐjˈdʲom ˈvɨxət ɪz ˈɛtəj sʲɪtʊˈat͡sɨɪ/",
+      "example_translation": "Nous trouverons obligatoirement une issue à cette situation."
+    },
+    {
+      "word_id": "v7",
+      "term": "Внимательно",
+      "phonetic_api": "/vnʲɪˈmatʲɪlʲnə/",
+      "phonetic_simple": "vni-MA-til'-na",
+      "translation": "Attentivement / Avec attention",
+      "example_sentence": "Слушайте инструкции внимательно.",
+      "example_phonetic": "/ˈsluʂəjtʲɪ ɪnˈstrukt͡sɨɪ vnʲɪˈmatʲɪlʲnə/",
+      "example_translation": "Écoutez les instructions attentivement."
+    },
+    {
+      "word_id": "v8",
+      "term": "Спешить",
+      "phonetic_api": "/spʲɪˈʂɨtʲ/",
+      "phonetic_simple": "spi-CHIT'",
+      "translation": "Se dépêcher / Se presser (Imperfectif)",
+      "example_sentence": "Не спешите при принятии решений.",
+      "example_phonetic": "/nʲɪ spʲɪˈʂɨtʲɪ prʲɪ prʲɪˈnʲatʲɪɪ rʲɪˈʂenʲɪj/",
+      "example_translation": "Ne vous pressez pas en prenant des décisions."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Как мне лучше поступить?",
+      "phonetic_api": "/kak mnʲe ˈlutɕʂɨ pɐstʊˈpʲitʲ/",
+      "phonetic_simple": "kak mnié LOUT-chye pas-tou-PIT' ?",
+      "translation": "Comment devrais-je agir au mieux ?",
+      "context": "Formule idéale pour solliciter le conseil d'un tiers dans une situation complexe."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Я бы на вашем месте согласился",
+      "phonetic_api": "/ja bɨ nə ˈvaʂɨm ˈmʲesʲtʲɪ sɐɡɫəˈsʲil͡sʲə/",
+      "phonetic_simple": "ya by na VA-chem MIES-ti sa-gla-SIL-ssya",
+      "translation": "À votre place, j'accepterais",
+      "context": "Structure conditionnelle polie pour donner son avis sans l'imposer."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Обратите внимание на этот пункт",
+      "phonetic_api": "/ɐbrɐˈtʲitʲɪ vnʲɪˈmanʲɪjə nə ˈɛtət punkt/",
+      "phonetic_simple": "ab-ra-TI-ti vni-MA-ni-ye na E-tat pounkt",
+      "translation": "Faites attention à ce point / Notez bien ce point",
+      "context": "Utilisé pour guider quelqu'un à travers des instructions de travail."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ни в коем случае не делайте этого",
+      "phonetic_api": "/nʲɪ f ˈkoɪ̯ɪm ˈslʊtɕəɪ̯ɪ nʲɪ ˈdʲeləjtʲɪ ˈɛtəvə/",
+      "phonetic_simple": "ni f KO-iem SLOU-tcha-i ni DIÉ-laï-ti E-ta-va",
+      "translation": "Ne faites cela sous aucun prétexte",
+      "context": "Mise en garde ou instruction négative absolue."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'usage des aspects à l'Impératif (Instructions vs Interdictions)",
+      "explanation": "Le choix de l'aspect verbal modifie totalement le sens et le ton d'un ordre ou d'un conseil à l'impératif.",
+      "rules": [
+        "Impératif Perfectif (СВ) : s'utilise pour donner une instruction précise, une action ponctuelle à réaliser (Посмотрите документ = Regardez le document, Напишите ответ = Écrivez la réponse).",
+        "Impératif Imperfectif (НСВ) : s'utilise pour des invitations polies (Садитесь = Asseyez-vous), des processus ou, de façon majeure, pour exprimer une défense/interdiction avec la négation НЕ (Не делайте этого = Ne faites pas cela, Не спешите = Ne vous pressez pas)."
+      ],
+      "examples": [
+        {
+          "structure": "Возьмите (СВ) этот бланк, но не заполняйте (НСВ) его сейчас.",
+          "phonetic_api": "/vɐzʲˈmʲitʲɪ ˈɛtət bɫank no nʲɪ zəpɐɫˈnʲaɪ̯tʲɪ jɪˈvo sʲɪjˈtɕas/",
+          "meaning": "Prenez ce formulaire, mais ne le remplissez pas maintenant."
+        }
+      ]
+    },
+    {
+      "concept": "Exprimer le conseil adouci : Particule БЫ + Passé",
+      "explanation": "Pour éviter un ton trop impératif ou directif, le russe emploie la structure du conditionnel pour suggérer une action.",
+      "rules": [
+        "Structure : На вашем месте (À votre place) + Pronom/Sujet + Verbe au passé + Particule БЫ.",
+        "Le verbe s'accorde au passé selon le genre de la personne qui parle ou agit."
+      ],
+      "examples": [
+        {
+          "structure": "На вашем месте я бы поговорил с директором.",
+          "phonetic_api": "/на ˈvaʂɨm ˈmʲesʲtʲɪ ja bɨ pəɡəvɐˈrʲil s dʲɪˈrɛktərəm/",
+          "meaning": "À votre place, je parlerais avec le directeur. (Sujet masculin)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Елена",
+      "text": "Дмитрий, у меня возникла сложная ситуация с клиентом. Не знаю, как мне лучше поступить. Посоветуйте что-нибудь.",
+      "phonetic_api": "/ˈdmʲitrʲɪj ʊ mʲɪˈnʲa vɐzˈnʲikɫə ˈsloʐnəjə sʲɪtʊˈat͡sɨjə s klʲɪˈjɛntəm nʲɪ ˈznaɪ̯ʊ kak mnʲe ˈlutɕʂɨ pɐstʊˈpʲitʲ pəsɐˈvʲetʊjtʲɪ ˈʂto nʲɪbʊtʲ/",
+      "phonetic_simple": "DMIT-riy, ou mi-NIA vaz-NIK-la SLOJ-na-ya si-tou-A-tsiya s klʲi-IEN-tam. Ni ZNA-iou, kak mnié LOUT-chye pas-tou-PIT'. Pa-sa-VIET-ouï-ti CHTO-ni-bout'.",
+      "translation": "Dmitry, j'ai une situation difficile avec un client. Je ne sais pas comment agir au mieux. Conseillez-moi quelque chose."
+    },
+    {
+      "speaker": "Дмитрий",
+      "text": "Расскажите подробнее. Но сразу скажу: я бы на вашем месте не спешил отправлять официальный отказ. Сначала позвоните ему.",
+      "phonetic_api": "/rəsˈkaʐɨtʲɪ pɐdˈrobnʲɪɪ no ˈsrazʊ skɐˈʐu ja bɨ nə ˈvaʂɨm ˈmʲesʲtʲɪ nʲɪ spʲɪˈʂɨl ɐtprɐvˈlʲatʲ ɐfʲɪt͡sɨˈalʲnɨj ɐtˈkas snɐˈtɕaɫə pəzvɐˈnʲitʲ jɪˈmu/",
+      "phonetic_simple": "Ras-ka-JI-ti pad-ROB-ni-ye. No SRA-zou ska-JOU: ya by na VA-chem MIES-ti ni spi-CHIL at-prav-LIAT' a-fi-tsi-AL-nyj at-KAZ. Sna-TCHA-la paz-va-NI-ti i-MOU.",
+      "translation": "Racontez-moi en détail. Mais je vous le dis tout de suite : à votre place, je ne me presserais pas d'envoyer un refus officiel. Appelez-le d'abord."
+    },
+    {
+      "speaker": "Елена",
+      "text": "Думаете, телефонный разговор поможет? По инструкции мы должны зафиксировать всё письменно.",
+      "phonetic_api": "/ˈduməɪ̯ɪtʲɪ tʲɪlʲɪˈfonːɨj rəzɡɐˈvor pɐˈmoʐɨt pɐ ɪnˈstrukt͡sɨɪ mɨ dɐɫʐˈnɨ zəfʲɪksʲɪˈrovatʲ fsʲۆ ˈpʲisʲmʲɪnːə/",
+      "phonetic_simple": "DOU-ma-ie-ti, ti-li-FON-nyj raz-ga-VOR pa-MO-jit ? Pa ine-STROUK-tsii my dalj-NY za-fik-ssi-RO-vat' vssio PIS'-min-na.",
+      "translation": "Vous pensez qu'une conversation téléphonique va aider ? Selon les instructions, nous devons tout consigner par écrit."
+    },
+    {
+      "speaker": "Дмитрий",
+      "text": "Да, но устная беседа сгладит углы. Внимательно выслушайте его требования, а потом отправьте резюме встречи на почту. Не совершайте резких шагов.",
+      "phonetic_api": "/da no ˈustnəjə bʲɪˈsʲedə sɡɫadʲɪt ʊˈɡɫɨ vnʲɪˈmatʲɪlʲnə ˈvɨslʊʂəjtʲɪ jɪˈvo trʲebəvənʲɪjə a pɐˈtom ɐtˈprafʲtʲɪ rʲɪzʲʉˈmɛ ˈvstrʲetɕɪ nə ˈpotɕtʊ nʲɪ sɐvʲɪrˈʂaɪ̯tʲɪ rʲɛskʲɪx ʂɐˈɡof/",
+      "phonetic_simple": "Da, no OUST-na-ya bi-SSIÉ-da SGLA-dit ou-GLY. Vni-MA-til'-na VY-slou-chaï-ti i-VO TRIÉ-ba-va-ni-ya, a pa-TOM at-PRAF'-ti ri-ziu-MÉ VSTRÉ-tchi na POTCH-tou. Ni sa-vir-CHAI-ti RIES-kih cha-GOF.",
+      "translation": "Oui, mais un échange oral arrondira les angles. Écoutez attentivement ses exigences, puis envoyez un résumé de la rencontre par mail. Ne faites pas de pas brusques."
+    }
+  ],
+  "cultural_notes": [
+    "L'expression 'Сгладить углы' : Cette formule idiomatique imagée se traduit littéralement par 'raboter / arrondir les angles'. Dans la culture des affaires en Russie, bien que la bureaucratie écrite soit lourde, la négociation interpersonnelle informelle directe est souvent privilégiée pour désamorcer les conflits.",
+    "La sollicitation de conseils (Совет) : Demander conseil à un supérieur ou à un collègue plus expérimenté est un signe de déférence et de professionnalisme valorisé dans le management russe. Cela témoigne d'un esprit d'équipe plutôt que d'un manque d'autonomie."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M3_L9_ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la bonne forme de l'impératif perfectif pour donner une directive claire : '[ ___ ] этот документ до вечера.' (Écrivez / Rédigez)",
+      "options": [
+        "Пишите",
+        "Напишите",
+        "Напишете",
+        "Писать"
+      ],
+      "correct_answer": "Напишите",
+      "explanation": "Pour une action ponctuelle et finale attendue (instruction), on utilise l'impératif du verbe perfectif 'написать', ce qui donne 'Напишите'."
+    },
+    {
+      "exercise_id": "B1_M3_L9_ex2",
+      "type": "multiple_choice",
+      "question": "Quelle forme verbale utilise-t-on avec la négation 'НЕ' pour formuler une interdiction générale ou de routine ?",
+      "options": [
+        "L'impératif Perfectif (СВ)",
+        "L'impératif Imperfectif (НСВ)",
+        "Le futur simple",
+        "Le gérondif passé"
+      ],
+      "correct_answer": "L'impératif Imperfectif (НСВ)",
+      "explanation": "Les impératifs négatifs (interdictions) requièrent presque systématiquement l'aspect imperfectif (ex: Не делайте, Не опаздывайте)."
+    },
+    {
+      "exercise_id": "B1_M3_L9_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "На вашем месте я бы [ ___ ] (поговорить - СВ) с руководителем лично. (J'aurais parlé / je parlerais - locuteur masculin)",
+      "correct_answer": "поговорил",
+      "hint": "Forme passée masculine singulière du verbe perfectif поговорить pour la structure conditionnelle."
+    },
+    {
+      "exercise_id": "B1_M3_L9_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Пожалуйста, [ ___ ] (повторить - СВ) ваш последний вопрос. (Répétez - formule de politesse plurielle)",
+      "correct_answer": "повторите",
+      "hint": "Impératif de politesse (forme вы) du verbe perfectif повторить."
+    }
+  ]
+}

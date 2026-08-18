@@ -1,0 +1,177 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Niveau Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Formuler des structures conditionnelles complexes (Si... alors) en kono",
+    "Exprimer l'incertitude, la probabilité et le doute face à un événement",
+    "Nuancer son discours en utilisant les particules de supposition"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot 'kpɛ́á' (si / dans le cas où) commence par la consonne occlusive labio-vélaire sourde /k͡p/. Sa réalisation doit être parfaitement synchrone. La voyelle finale porte un ton haut suivi d'un glissement doux.",
+    "common_pitfalls": "Attention à ne pas confondre le mot de doute 'fɔ̀lɔ̀-fɔ́lɔ́' avec 'fɔ́lɔ́' (premier/d'abord). Le redoublement tonal bas-haut est obligatoire pour véhiculer l'incertitude."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v2_1",
+      "term": "kpɛ́á",
+      "phonetic_api": "/k͡pɛ́.á/",
+      "phonetic_simple": "KPE-A",
+      "translation": "si / au cas où / à condition que",
+      "example_sentence": "kpɛ́á í nà-ò, àá wá táá",
+      "phonetic_api_example": "/k͡pɛ́.á í nà.ò àː wá táː/",
+      "example_translation": "Si tu es venu, nous irons."
+    },
+    {
+      "word_id": "v2_2",
+      "term": "fɔ̀lɔ̀-fɔ́lɔ́",
+      "phonetic_api": "/fɔ̀.lɔ̀.fɔ́.lɔ́/",
+      "phonetic_simple": "FO-LO-FO-LO",
+      "translation": "peut-être / sans certitude / il se peut",
+      "example_sentence": "fɔ̀lɔ̀-fɔ́lɔ́ á wá nà sínà",
+      "phonetic_api_example": "/fɔ̀.lɔ̀.fɔ́.lɔ́ á wá nà sí.nà/",
+      "example_translation": "Peut-être qu'il viendra demain."
+    },
+    {
+      "word_id": "v2_3",
+      "term": "hàà-yíé",
+      "phonetic_api": "/hàː.jí.é/",
+      "phonetic_simple": "HAA-YIEE",
+      "translation": "le doute / l'hésitation",
+      "example_sentence": "hàà-yíé tɛ́ ń yíé nìí lá",
+      "phonetic_api_example": "/hàː.jí.é tɛ́ ń jí.é nìː lá/",
+      "example_translation": "Je n'ai aucun doute là-dessus."
+    },
+    {
+      "word_id": "v2_4",
+      "term": "fɛ́ɛ́-ò",
+      "phonetic_api": "/fɛ́ː.ò/",
+      "phonetic_simple": "FEE-O",
+      "translation": "pourvu que / si seulement",
+      "example_sentence": "fɛ́ɛ́-ò sámá á dɔ́ɔ́-dɔ̀ɔ̀",
+      "phonetic_api_example": "/fɛ́ː.ò sá.má á dɔ́ː.dɔ̀ː/",
+      "example_translation": "Pourvu que la pluie diminue."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p2_1",
+      "original": "kpɛ́á sámá máá nà, àá wá táá kɔ̀nɔ̀n yí sɔ̀ɔ̀-gɓɛ̀ɛ̀",
+      "phonetic_api": "/k͡pɛ́.á sá.má máː nà àː wá táː kɔ̀nɔ̀n jí sɔ̀ː.ɡ͡ɓɛ̀ː/",
+      "phonetic_simple": "KPE-A SA-MA MAA NA AA WA TAA KONON YI SOO-GBEE",
+      "translation": "S'il ne pleut pas, nous irons au champ tôt ce matin.",
+      "context": "Planifier le travail agricole sous condition météorologique."
+    },
+    {
+      "phrase_id": "p2_2",
+      "original": "ń yíé káá hàà-yíé yíé á wóò nìí lá kpaán",
+      "phonetic_api": "/ń jí.é káː hàː.jí.é jí.é á wóː nìː lá k͡pāːn/",
+      "phonetic_simple": "N YIEE KAA HAA-YIEE YIEE A WOO NII LA KPAAN",
+      "translation": "Je doute énormément de sa parole.",
+      "context": "Exprimer son scepticisme lors d'une discussion importante."
+    },
+    {
+      "phrase_id": "p2_3",
+      "original": "fɔ̀lɔ̀-fɔ́lɔ́ gbɛ́ɛ́ nìí tɛ́ wá lɔ́ gboi á sónɔ̀ lá",
+      "phonetic_api": "/fɔ̀.lɔ̀.fɔ́.lɔ́ ɡ͡ɓɛ́ː nìː tɛ́ wá lɔ́ ɡ͡ɓo.i á só.nɔ̀ lá/",
+      "phonetic_simple": "FO-LO-FO-LO GBEE NII TE WA LO GBOI A SONO LA",
+      "translation": "Peut-être que cet argent ne suffira pas pour son prix.",
+      "context": "Évaluer une probabilité financière lors d'un achat important."
+    },
+    {
+      "phrase_id": "p2_4",
+      "original": "fɛ́ɛ́-ò í ɓáá káá kɛ́nɛ̀, àá wá á mɛ̀ɛ̀ sínà",
+      "phonetic_api": "/fɛ́ː.ò í ɓáː káː kɛ́nɛ̀ àː wá á mɛ̀ː sí.nà/",
+      "phonetic_simple": "FEE-O I BHAA KAA KENE AA WA A MEE SI-NA",
+      "translation": "Pourvu que ton père aille bien, nous le saurons demain.",
+      "context": "Formuler un souhait conditionnel concernant la santé d'un proche."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système conditionnel réel avec 'kpɛ́á'",
+      "explanation": "Pour exprimer une condition réelle ou probable dans le futur, la proposition subordonnée commence par 'kpɛ́á' (si). Le verbe de la condition se met souvent à l'accompli ou à la forme nue, tandis que la proposition principale utilise l'auxiliaire du futur 'wá'.",
+      "rules": [
+        "kpɛ́á + Sujet + Verbe 1 (accompli/nu), Sujet + wá + Verbe 2 (futur)."
+      ],
+      "examples": [
+        {
+          "structure": "kpɛ́á í kɛ́-ò, ń wá í bɔ́",
+          "phonetic_api": "/k͡pɛ́.á í kɛ́.ò ń wá í ɓɔ́/",
+          "meaning": "Si tu le fais, je te paierai."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression du doute intérieur avec 'yíé ... káá hàà-yíé'",
+      "explanation": "À l'instar des sentiments, le doute n'est pas un verbe d'action direct mais un état. Le mot 'hàà-yíé' (doute/balancement) habite l'espace intérieur ('yíé') du locuteur.",
+      "rules": [
+        "Sujet + yíé + káá + hàà-yíé + yíé (L'esprit du sujet est habité par le doute)."
+      ],
+      "examples": [
+        {
+          "structure": "ń yíé káá hàà-yíé yíé",
+          "phonetic_api": "/ń jí.é káː hàː.jí.é jí.é/",
+          "meaning": "Je doute / Je suis indécis."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sia",
+      "text": "Koli, í wá táá kɔ̀nɔ̀n-wòò yíé bòn-wòò-gbɛ́ɛ́ wá ?",
+      "phonetic_api": "/kó.lí í wá táː kɔ̀nɔ̀n.wòː jí.é bòn.wòː.ɡ͡ɓɛ́ː wá/",
+      "phonetic_simple": "KOLI I WA TAA KONON-WOO YIEE BON-WOO-GBEE WA",
+      "translation": "Koli, iras-tu en voyage l'année prochaine ?"
+    },
+    {
+      "speaker": "Koli",
+      "text": "fɔ̀lɔ̀-fɔ́lɔ́ ń wá táá. ń yíé káá hàà-yíé yíé míé, kpɛ́á gbɛ́ɛ́ tɛ́ ń fɛ́.",
+      "phonetic_api": "/fɔ̀.lɔ̀.fɔ́.lɔ́ ń wá táː ń jí.é káː hàː.jí.é jí.é mí.é k͡pɛ́.á ɡ͡ɓɛ́ː tɛ́ ń fɛ́/",
+      "phonetic_simple": "FO-LO-FO-LO N WA TAA. N YIEE KAA HAA-YIEE YIEE MIEE KPE-A GBEE TE N FEE",
+      "translation": "Peut-être que j'irai. Je suis indécis pour le moment, car je n'ai pas d'argent avec moi."
+    },
+    {
+      "speaker": "Sia",
+      "text": "kpɛ́á í kpálá kɛ́-ò gíàn-gìàn, í wá gbɛ́ɛ́ sɔ̀ kpaán.",
+      "phonetic_api": "/k͡pɛ́.á í k͡pā.lá kɛ́.ò ɡí.àn.ɡì.àn í wá ɡ͡ɓɛ́ː sɔ̀ k͡pāːn/",
+      "phonetic_simple": "KPE-A I KPA-LA KE-O GIAN-GIAN I WA GBEE SO KPAAN",
+      "translation": "Si tu travailles sagement, tu obtiendras sûrement de l'argent."
+    },
+    {
+      "speaker": "Koli",
+      "text": "fɛ́ɛ́-ò á kɛ́ nìí gíí-gíí ! ń wá ń lɔ́ à kɛ́á.",
+      "phonetic_api": "/fɛ́ː.ò á kɛ́ nìː ɡíː.ɡíː ń wá ń lɔ́ à kɛ́.á/",
+      "phonetic_simple": "FEE-O A KE NII GII-GII N WA N LO A KEA",
+      "translation": "Pourvu qu'il en soit exactement ainsi ! Je vais m'y mettre de ce pas."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la rhétorique konon à Lola, affirmer un événement futur avec une certitude absolue sans y adjoindre une nuance de réserve ou d'hypothèse ('kpɛ́á') est parfois perçu comme de la présomption vis-à-vis des forces de la nature et de la volonté des ancêtres. Utiliser des adverbes comme 'fɔ̀lɔ̀-fɔ́lɔ́' témoigne d'une prudence verbale valorisée lors des discussions communautaires."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex2_1",
+      "type": "multiple_choice",
+      "question": "Quel mot correspond à la conjonction de condition 'si' en kono ?",
+      "options": [
+        "fɔ̀lɔ̀-fɔ́lɔ́",
+        "kpɛ́á",
+        "hàà-yíé"
+      ],
+      "correct_answer": "kpɛ́á",
+      "explanation": "'kpɛ́á' introduit la condition ou l'hypothèse, tandis que 'fɔ̀lɔ̀-fɔ́lɔ́' exprime la probabilité (peut-être)."
+    },
+    {
+      "exercise_id": "ex2_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "ń yíé káá [ ___ ] yíé míé (Je suis dans le doute à présent)",
+      "correct_answer": "hàà-yíé",
+      "hint": "Le concept nominal pour le doute ou l'indécision"
+    }
+  ]
+}

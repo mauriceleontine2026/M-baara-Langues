@@ -1,0 +1,267 @@
+{
+  "lesson_id": "C1_M3_L7",
+  "level": "Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 7,
+  "title": "Analyser des textes littéraires ou historiques",
+  "learning_objectives": [
+    "Décoder et analyser les structures grammaticales archaïques ou classiques persistantes dans la littérature moderne comme '～といわんばかり' (to iwan bakari)",
+    "Exprimer une opposition formelle ou une restriction stylistique haut de gamme avec le marqueur littéraire '～すら' (sura) et '～にかかわらず' (ni kakawaranu)",
+    "Interpréter les nuances philosophiques et existentielles à travers la structure de conjecture poétique '～ごとき' (gotoki)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La structure grammaticale '～といわんばかり' intègre une forme négative archaïque en 'n' [ɴ]. Veillez à ce que la transition entre la consonne bilabiale et la voyelle basse soit nette : [to i.waɴ ba.ka.ɾi]. Pour le marqueur d'intensité littéraire 'すら', la consonne fricative alvéolaire sourde [s] se prononce sans tension : [sɯ.ɾa].",
+    "common_pitfalls": "Attention à la structure classique '～ごとき' (gotoki). La voyelle 'o' doit être brève et le 'k' articulé sans aspiration excessive [ɡo.to.ki]. Évitez d'allonger indûment la finale des particules grammaticales de style écrit."
+  },
+  "advanced_kanji_and_literary_markers": [
+    {
+      "kanji": "如き (ごとき)",
+      "romaji": "gotoki",
+      "level_jlpt": "N1",
+      "meaning": "Semblable à / Tel que",
+      "description": "Marqueur de comparaison ou de métaphore littéraire hérité du japonais classique (Bungo), équivalant à '～のような'."
+    },
+    {
+      "kanji": "文語 (ぶんご)",
+      "romaji": "bungo",
+      "level_jlpt": "N1",
+      "meaning": "Langue écrite classique / Style littéraire",
+      "description": "Système linguistique écrit utilisé au Japon jusqu'au milieu du XXe siècle, dont de nombreuses tournures subsistent en C1/C2."
+    },
+    {
+      "kanji": "叙述 (じょじゅつ / 叙述します)",
+      "romaji": "jojutsu",
+      "level_jlpt": "N1",
+      "meaning": "Description / Narration / Récit",
+      "description": "Action de raconter ou de décrire des faits de manière objective ou littéraire dans un texte."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "～といわんばかり",
+      "phonetic_api": "/to i.waɴ ba.ka.ɾi/",
+      "phonetic_simple": "TO I-WAN BA-KA-RI",
+      "translation": "Comme pour dire / Tout se passe comme si (Expression d'une attitude non verbale évidente)",
+      "example_sentence": "彼は「関係ない」と言わんばかりに、首を横に振った。",
+      "example_phonetic": "/ka.ɾe wa kaɴ.keː na.i to i.waɴ ba.ka.ɾi ni kɯ.bi o jo.ko ni ɸɯ̥t.ta/",
+      "example_translation": "Il secoua la tête, comme pour dire que cela ne le concernait pas."
+    },
+    {
+      "word_id": "v2",
+      "term": "～すら",
+      "phonetic_api": "/sɯ.ra/",
+      "phonetic_simple": "SOU-RA",
+      "translation": "Même / Jusqu'à (Variante littéraire et plus emphatique de sae)",
+      "example_sentence": "その歴史的事実は、専門家ですら知らなかった。",
+      "example_phonetic": "/so.no ɾe̥k.i.ɕi.te.ki d͡ʑi.d͡ʑi̥t.sɯ wa seɴ.mo&mu;.ka de.sɯ.ɾa ɕi.ɾa.na.kḁt.ta/",
+      "example_translation": "Même les experts ignoraient ce fait historique."
+    },
+    {
+      "word_id": "v3",
+      "term": "～ごとき（～如き）",
+      "phonetic_api": "/ɡo.to.ki/",
+      "phonetic_simple": "GO-TO-KI",
+      "translation": "Comme / Tel que / Semblable à (Comparaison noble ou auto-dénigrement)",
+      "example_sentence": "光陰矢のごとし、月日の経つのは早いものだ。",
+      "example_phonetic": "/koː.iɴ ja no ɡo.to.ɕi t͡sɯ.ki.hi no ta.t͡sɯ no wa ha.ja.i mo.no da/",
+      "example_translation": "Le temps passe comme une flèche, les jours s'envolent à une vitesse folle."
+    },
+    {
+      "word_id": "v4",
+      "term": "～にかかわらず（～に関わらず）",
+      "phonetic_api": "/ni ka.ka.wa.ɾa.nɯ/",
+      "phonetic_simple": "NI KA-KA-WA-RA-NOU",
+      "translation": "Indépendamment de / Sans égard pour (Variante écrite classique utilisant le suffixe nu)",
+      "example_sentence": "身分の高低に関わらず、すべての者が法の下に平等である。",
+      "example_phonetic": "/mi.bɯɴ no koː.teː ni ka.ka.wa.ra.nɯ sɯ.be.te no mo.no ɡa hoː no mo.to ni bjoː.doː de a.ɾɯ/",
+      "example_translation": "Indépendamment de leur rang social, tous les individus sont égaux devant la loi."
+    },
+    {
+      "word_id": "v5",
+      "term": "～たりとも",
+      "phonetic_api": "/ta.ɾi.to.mo/",
+      "phonetic_simple": "TA-RI-TO-MO",
+      "translation": "Même pas / Pas même une seule (S'utilise avec une unité minimale, ex: un instant, une goutte)",
+      "example_sentence": "戦時中、人々は一刻たりとも油断できなかった。",
+      "example_phonetic": "/seɴ.d͡ʑi.t͡ɕɯː çi.to.bi.to wa i̥k.ko̥k.ɯ ta.ɾi.to.mo jɯ.daɴ de.ki.na.kḁt.ta/",
+      "example_translation": "Pendant la guerre, la population ne pouvait pas relâcher sa vigilance, pas même un seul instant."
+    },
+    {
+      "word_id": "v6",
+      "term": "～媒介にして（～をばいかいにして）",
+      "phonetic_api": "/o ba.i.ka.i ni ɕi.te/",
+      "phonetic_simple": "O BAI-KAI NI CHI-TÉ",
+      "translation": "Par l'intermédiaire de / Ayant pour vecteur (Analyse conceptuelle ou historique)",
+      "example_sentence": "文字を媒介にして、思想は時代を超えて伝承される。",
+      "example_phonetic": "/mo.d͡ʑi o ba.i.ka.i ni ɕi.te ɕi.soː wa d͡ʑi.da.i o ko.e.te deɴ.ɕoː sa.re.ɾɯ/",
+      "example_translation": "C'est en ayant l'écriture pour vecteur que la pensée se transmet à travers les époques."
+    },
+    {
+      "word_id": "v7",
+      "term": "～を禁じ得ない（～をきんじえない）",
+      "phonetic_api": "/o kiɴ.d͡ʑi e.na.i/",
+      "phonetic_simple": "O KIN-JI É-NA-I",
+      "translation": "Ne pas pouvoir s'empêcher d'éprouver / Ne pouvoir contenir (une émotion face à un récit)",
+      "example_sentence": "その悲劇的な歴史を読み、涙を禁じ得なかった。",
+      "example_phonetic": "/so.no çi.ɡe̥k.i.te.ki.na ɾe̥k.i.ɕi o jo.mi na.mi.da o ki.ɴ.d͡ʑi e.na.kḁt.ta/",
+      "example_translation": "À la lecture de cette histoire tragique, je n'ai pu m'empêcher de verser des larmes."
+    },
+    {
+      "word_id": "v8",
+      "term": "～に帰結する（～にきけつする）",
+      "phonetic_api": "/ni ki.ke̥t.sɯ sɯ.ɾɯ/",
+      "phonetic_simple": "NI KI-KETS-OU SOU-ROU",
+      "translation": "Aboutir à / Se résumer à / Trouver sa conclusion logique dans",
+      "example_sentence": "あらゆる文明の衰退は、内部の腐敗に帰結する。",
+      "example_phonetic": "/a.ɾa.jɯ.ɾɯ bɯɴ.meː no sɯ.i.ta.i wa na.i.bɯ no ɸɯ.ha.i ni ki.ke̥t.sɯ sɯ.ɾɯ/",
+      "example_translation": "Le déclin de toute civilisation trouve sa conclusion logique dans sa propre corruption interne."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "近代化の波は、伝統的なコミュニティの解体を促す結果に帰結した。",
+      "phonetic_api": "/kiɴ.da.i.ka no na.mi wa deɴ.toː.te.ki.na ko.m jɯ.ni.ti no ka.i.ta.i o ɯ.na.ɡa.sɯ ke̥k.ka ni ki.ke̥t.sɯ ɕi.ta/",
+      "phonetic_simple": "KIN-DAI-KA NO NA-MI WA, DEN-TOO-TÉ-KI-NA KO-MYU-NI-TI NO KAI-TAI O UNA-GA-SU KEK-KA NI KI-KETS-OU CHI-TA.",
+      "translation": "La vague de modernisation a finalement abouti à la dissolution des communautés traditionnelles.",
+      "context": "Extrait d'un essai d'analyse historique ou de sociologie académique."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "夏目漱石の小説には、人間のエゴイズムを辛辣極まる視線で捉えた描写が多い。",
+      "phonetic_api": "/nḁt.sɯ.me soː.se̥k.i no ɕoː.se̥t.sɯ ni wa niɴ.ɡeɴ no e.ɡo.i.zɯ.mɯ o ɕiɴ.ɾḁt.sɯ ki.wa.ma.ɾɯ ɕi.seɴ de to.ra.e.ta bjoː.ɕa ɡa oː.i/",
+      "phonetic_simple": "NAT-SOU-MÉ SOO-SEK-I NO SHOO-SETS-OU NI WA, NIN-GEN NO E-GO-I-ZUMU O SHIN-RATS-OU KI-WA-MA-ROU SHI-SEN DÉ TO-RA-É-TA BYOO-CHA GA OO-I.",
+      "translation": "Les romans de Natsume Sōseki abondent en descriptions saisissant l'égoïsme humain d'un regard d'une extrême sévérité.",
+      "context": "Critique littéraire universitaire portant sur la littérature de l'ère Meiji."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "敗戦の報に接した国民の衝撃は、筆舌に尽くしがたいものであった。",
+      "phonetic_api": "/ha.i.seɴ no hoː ni se̥t.ɕi.ta ko̥k.ɯ.miɴ no ɕoː.ɡe̥k.ɯ wa çi̥t.sɯ.ze̥t.sɯ ni t͡sɯ.kɯ.ɕi.ɡa.ta.i mo.no de ḁt.ta/",
+      "phonetic_simple": "HAI-SEN NO HOO NI SET-SHI-TA KOKU-MIN NO SHOO-GEK-OU WA, HIT-SOU-ZETS-OU NI TSUK-SHI-GA-TA-I MO-NO DÉ AT-TA.",
+      "translation": "Le choc de la population à l'annonce de la défaite fut au-delà de ce que les mots peuvent décrire.",
+      "context": "Récit d'histoire contemporaine décrivant le Japon de l'immédiat après-guerre (1945)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "明治維新という激動の時代にあって、旧体制の武士たちは時代の波に翻弄され続けた。",
+      "phonetic_api": "/meː.d͡ʑi i.ɕiɴ to i.ɯ ɡe̥k.i.doː no d͡ʑi.da.i ni ḁt.te k jɯː.ta.i.seː no bɯ.ɕi.ta.t͡ɕi wa d͡ʑi.da.i no na.mi ni hoɴ.ɾoː sa.re.t͡sɯ.zɯ.ke.ta/",
+      "phonetic_simple": "MÉE-JI I-SHIN TO IU GEK-I-DOO NO JI-DAI NI AT-TÉ, KYUU-TAI-SÉI NO BU-SHI-TA-TCHI WA JI-DAI NO NA-MI NI HON-ROO SA-RÉ-TSU-ZOU-KÉ-TA.",
+      "translation": "En cette époque tumultueuse de la Restauration Meiji, les samouraïs de l'ancien régime n'ont cessé d'être les jouets des vagues du changement.",
+      "context": "Introduction d'un ouvrage historique sur la transition politique du XIXe siècle."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "作者はあえて多くを語らず、沈黙を媒介にして主人公の孤独を浮き彫りにしている。",
+      "phonetic_api": "/sḁk.ɯ.ɕa wa a.e.te oː.kɯ o ka.ta.ɾa.zɯ t͡ɕiɴ.mo̥k.ɯ o ba.i.ka.i ni ɕi.te ɕɯ.d͡ʑiɴ.koː no ko.do̥k.ɯ o ɯ.ki.bo.ɾi ni ɕi.te i.ɾɯ/",
+      "phonetic_simple": "SAK-U-SHA WA A-É-TÉ OO-KOU O KA-TA-RA-ZOU, CHIN-MOK-OU O BAI-KAI NI SHI-TÉ SHU-JIN-KOO NO KO-DOK-OU O OU-KI-BO-RI NI SHI-TÉ I-ROU.",
+      "translation": "L'auteur choisit délibérément de ne pas trop en dire, utilisant le silence comme vecteur pour mettre en relief la solitude du protagoniste.",
+      "context": "Commentaire de texte littéraire axé sur la stylistique de la litote."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "指導者たる者、一瞬たりとも大局的な視点を見失ってはならない。",
+      "phonetic_api": "/ɕi.doː.ɕa ta.ɾɯ mo.no i̥s.ɕuɴ ta.ɾi.to.mo ta.i.kjo̥k.ɯ.te.ki.na ɕi.teɴ mi.ɯ.ɕi.nḁt.te wa na.ɾa.na.i/",
+      "phonetic_simple": "SHI-DOO-SHA TA-ROU MO-NO, IS-SHUN TA-RI-TO-MO TAI-KYOK-OU-TÉ-KI-NA SHI-TEN MI-U-SHI-NAT-TÉ WA NA-RA-NA-I.",
+      "translation": "Quiconque se prétend dirigeant ne doit pas perdre de vue la situation globale, pas même un seul instant.",
+      "context": "Maxime de philosophie politique d'inspiration classique sur l'art de gouverner."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "その美しさは、言葉の枠組みすら超えた神秘性を宿している。",
+      "phonetic_api": "/so.no ɯ.t͡sɯ.kɯ.ɕi.sa wa ko.to.ba no wa.kɯ.ɡɯ.mi sɯ.ɾa ko.e.ta ɕiɴ.pi.seː o ja.do.ɕi.te i.ɾɯ/",
+      "phonetic_simple": "SO-NO U-TSU-KOU-SHI-SA WA, KO-TO-BA NO WA-KOU-GOU-MI SOU-RA KO-É-TA SHIN-PI-SÉE O YA-DO-SHI-TÉ I-ROU.",
+      "translation": "Cette beauté recèle un mysticisme qui transcende jusqu'aux structures mêmes du langage.",
+      "context": "Analyse esthétique d'un poème ou d'une œuvre d'art classique."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "老兵は「悔いはない」と言わんばかりに、静かに微笑んだ。",
+      "phonetic_api": "/ɾoː.heː wa kɯ.i wa na.i to i.waɴ ba.ka.ɾi ni ɕi.zɯ.ka ni ho.ho.eμ.da/",
+      "phonetic_simple": "ROO-HÉE WA « KUI WA NAI » TO I-WAN BA-KA-RI NI, SHI-ZOU-KA NI HO-HO-EN-DA.",
+      "translation": "Le vieux soldat sourit sereinement, tout se passant comme s'il voulait signifier qu'il n'avait aucun regret.",
+      "context": "Extrait narratif d'une nouvelle historique de facture classique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression d'une attitude muette éloquente : ～といわんばかり (to iwan bakari)",
+      "explanation": "Cette structure de haut niveau fusionne la forme négative archaïque (いわん, issu de 言わぬ / 言わんとすること) et la restriction 'bakari'. Elle s'emploie pour décrire une personne dont l'expression faciale, le geste ou le comportement physique transmettent un message si limpide qu'il équivaut à une déclaration verbale explicite.",
+      "rules": [
+        "Structure : [Proposition au style direct ou neutre] + と言わんばかりに + [Verbe d'action / de description]."
+      ],
+      "examples": [
+        {
+          "structure": "出て行けと言わんばかりにドアを指差した (Dete ike to iwan bakari ni doa o yubisashta)",
+          "phonetic_api": "/de.te i.ke to i.waɴ ba.ka.ɾi ni do.a o jɯ.bi.sa.ɕi̥ta/",
+          "meaning": "Il pointa la porte du doigt, tout se passant comme s'il lui intimait l'ordre de sortir."
+        }
+      ]
+    },
+    {
+      "concept": "La comparaison poétique ou noble : ～ごとき / ～如き (gotoki)",
+      "explanation": "Héritée directement de la grammaire classique (Bungo), la structure '～ごとき' équivaut fonctionnellement à '～のような' (comme / semblable à). Elle se maintient dans la prose moderne, la critique littéraire ou les articles éditoriaux pour élever le style ou conférer un ton solennel ou métaphorique au propos.",
+      "rules": [
+        "Structure nominale : [Nom] + の如き + [Nom]",
+        "Structure adverbiale : [Nom] + の如く + [Verbe/Adjectif]"
+      ],
+      "examples": [
+        {
+          "structure": "怒涛の如き拍手が巻き起こった (Dotō no gotoki hakushu ga makiokotta)",
+          "phonetic_api": "/do.toː no ɡo.to.ki hḁk.ɯ.ɕɯ ɡa ma.ki.o.ko̥t.ta/",
+          "meaning": "Des applaudissements semblables à des vagues déchaînées éclatèrent."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "織田教授 (Professeur Oda - Critique littéraire)",
+      "text": "本日のゼミでは、夏目漱石の『こころ』における、明治精神の終焉というテーマを叙述の観点から分析します。",
+      "phonetic_api": "/hoɴ.d͡ʑi̥t.sɯ no ze.mi de wa nḁt.sɯ.me soː.se̥k.i no ko.ko.lo ni o.ke.ɾɯ meː.d͡ʑi seː.ɕiɴ no ɕɯː.eɴ to i.ɯ teː.ma o d͡ʑo.d͡ʑɯ̥t.sɯ no kaɴ.teɴ ka.ɾa bɯɴ.se̥k.i ɕi.ma.sɯ̥/",
+      "phonetic_simple": "HON-JIT-SOU NO ZÉ-MI DÉ WA, NAT-SOU-MÉ SOO-SEK-I NO « KO-KO-LO » NI O-KÉ-RU MÉE-JI SÉE-SHIN NO SHUU-EN TO IU TÉE-MA O JO-JUTS-OU NO KAN-TEN KA-RA BOUN-SETS-I CHI-MASS.",
+      "translation": "Dans notre séminaire d'aujourd'hui, nous allons analyser le thème de la fin de l'esprit de l'époque Meiji dans le roman 'Kokoro' de Natsume Sōseki, sous l'angle de la technique narrative."
+    },
+    {
+      "speaker": "鈴木さん (Sato - Étudiant en Master)",
+      "text": "主人公の「先生」は、明治天皇の崩御を契機に、殉死するかのように自らの命を絶ちますね。あの決断は、時代の波に抗うことすら諦めた、諦念の如き感情に支配されていたように思えます。",
+      "phonetic_api": "/ɕɯ.d͡ʑiɴ.koː no seɴ.seː wa meː.d͡ʑi teɴ.noː no hoː.ɡjo o keː.ki ni d͡ʑɯɴ.ɕi sɯ.ɾɯ ka no joː ni mi.zɯ.ka.ɾa no i.no.t͡ɕi o ta.t͡ɕi.ma.sɯ ne a.no ke̥t.daɴ wa d͡ʑi.da.i no na.mi ni a.ra.ɡa.ɯ ko.to sɯ.ɾa a.ki.ra.me.ta teː.neɴ no ɡo.to.ki kaɴ.d͡ʑoː ni ɕi.ha.i sa.re.te i.ta joː ni o.mo.e.ma.sɯ̥/",
+      "phonetic_simple": "SHU-JIN-KOO NO « SEN-SÉE » WA, MÉE-JI TEN-NOO NO HOO-GYO O KÉE-KI NI, JUN-SHI SU-RU KA NO YOO NI MI-ZU-KA-RA NO I-NO-TCHI O TA-TCHI-MASS NÉ. A-NO KET-DAN WA, JI-DAI NO NA-MI NI ARA-GAU KO-TO SOU-RA A-KI-RA-MÉ-TA, TÉI-NEN NO GO-TO-KI KAN-JOO NI SHI-HAI SA-RÉ-TA YOO NI O-MOO-É-MASS.",
+      "translation": "Le protagoniste, 'Sensei', met fin à ses jours comme pour suivre son souverain dans la mort à la suite du décès de l'Empereur Meiji. Cette décision semble avoir été dictée par un sentiment semblable à de la résignation absolue, où il avait renoncé jusqu'à l'idée même de lutter contre les vagues du temps."
+    },
+    {
+      "speaker": "織田教授 (Professeur Oda - Critique littéraire)",
+      "text": "鋭い指摘だ。遺書の中で彼は、過去の罪の意識ゆえに生きる屍の如く過ごしてきたと告白している。近代という新しい時代は自分を容認しない、と言わんばかりの孤独が読み手に深い感銘を与えますね。",
+      "phonetic_api": "/sɯ.zɯ.ɾoː.i ɕi.te̥k.ɯ da i.ɕo no na.ka de ka.re wa ka.ko no t͡sɯ.mi no i.ɕi̥k.ɯ jɯ.e ni i.ki.ɾɯ ɕi.ka.ba.ne no ɡo.to̥k.ɯ sɯ.ɡo.ɕi.te ki.ta to ko.kɯ.hḁk.ɯ ɕi.te i.ɾɯ kiɴ.da.i to i.ɯ a.ta.ra.ɕi.i d͡ʑi.da.i wa d͡ʑi.bɯɴ o joː.niɴ ɕi.na.i to i.waɴ ba.ka.ɾi no ko.do̥k.ɯ ɡa jo.mi.te ni ɸɯ.ka.i kaɴ.meː o a.ta.e.ma.sɯ ne/",
+      "phonetic_simple": "SOU-ROU-I SHI-TEK-OU DA. I-SHO NO NA-KA DÉ KA-RÉ WA, KA-KO NO TSU-MI NO I-SHIK-OU YUE NI I-KI-RU SHI-KA-BA-NÉ NO GO-TOK-OU SOU-GO-SHI-TÉ KI-TA TO KOKU-HAK-OU SHI-TÉ I-ROU. KIN-DAI TO IU ATA-RA-SHII JI-DAI WA JI-BUN O YOO-NIN CHI-NA-I, TO I-WAN BA-KA-RI NO KO-DOK-OU GA YO-MI-TÉ NI FOU-KAI KAN-MÉE O ATA-É-MASS NÉ.",
+      "translation": "C'est une excellente analyse. Dans son testament, il confesse avoir vécu comme un cadavre ambulant en raison du poids de sa culpabilité passée. Cette solitude, tout se passant comme s'il affirmait que l'ère moderne de l'individualisme ne tolérerait pas son existence, émeut profondément le lecteur."
+    }
+  ],
+  "cultural_notes": [
+    "L'analyse littéraire des œuvres de la fin de l'ère Meiji (comme celles de Natsume Sōseki ou Mori Ōgai) exige la compréhension du conflit spirituel entre les valeurs féodales du sacrifice et l'individualisme occidental moderne. Les structures de style écrit classique permettent de traduire cette tension intellectuelle.",
+    "L'expression de la fatalité ou du temps qui s'écoule par des figures figées classiques comme '矢のごとし' (semblable à une flèche) structure la sensibilité poétique japonaise (Mono no aware - 物の哀れ), un concept fondamental pour appréhender la portée philosophique des grands textes historiques."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle tournure littéraire traduit au mieux l'idée d'un comportement physique qui semble formuler une phrase sans parler : 'Il claqua la porte, [ ___ ] exprimer sa colère.' ?",
+      "options": [
+        "と言わんばかりに (to iwan bakari ni)",
+        "の如きに (no gotoki ni)",
+        "すら伴って (sura tomonatte)"
+      ],
+      "correct_answer": "と言わんばかりに (to iwan bakari ni)",
+      "explanation": "La structure 'to iwan bakari ni' exprime parfaitement l'attitude éloquente qui remplace la parole par l'action évidente."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "歳月は流れる水の[ ___ ]、二度と戻ってはこない。",
+      "correct_answer": "ごとく",
+      "hint": "Entrez la forme adverbiale classique (utilisant le kanji 如 ou les hiraganas) servant à comparer l'écoulement des années à celui de l'eau."
+    }
+  ]
+}

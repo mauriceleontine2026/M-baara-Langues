@@ -1,0 +1,116 @@
+{
+  "lesson_id": "B1_M3_L7",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 7,
+  "title": "Exprimer l'obligation, l'interdiction et la permission",
+  "learning_objectives": [
+    "Formuler un ordre direct ou une injonction d'action obligatoire",
+    "Exprimer une interdiction morale, coutumière ou physique formelle",
+    "Accorder ou solliciter la permission d'accéder à une ressource"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La voyelle centrale moyenne fermée doit garder une tension vocalique stable tout au long de l'émission.",
+    "common_pitfalls": "Ne pas confondre la particule prohibitive générale avec le pronom négatif sujet."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v16_1",
+      "term": "wɔ",
+      "phonetic_api": "/wɔ/",
+      "phonetic_simple": "WO",
+      "translation": "devoir / falloir (obligation structurelle)",
+      "example_sentence": "mbi wɔ kɔn ka dare",
+      "example_phonetic": "/mbi wɔ kɔn ka da.re/",
+      "example_translation": "Je devez aller en ville."
+    },
+    {
+      "word_id": "v16_2",
+      "term": "tana",
+      "phonetic_api": "/ta.na/",
+      "phonetic_simple": "TA-NA",
+      "translation": "ne pas faire / prohibé (interdiction absolue)",
+      "example_sentence": "mɔ tana dɛp mantsɛŋ mɔ",
+      "example_phonetic": "/mɔ ta.na dɛp man.t͡sɛŋ mɔ/",
+      "example_translation": "Ne prends pas cette eau (interdit)."
+    },
+    {
+      "word_id": "v16_3",
+      "term": "fap",
+      "phonetic_api": "/fap/",
+      "phonetic_simple": "FAP",
+      "translation": "pouvoir / être permis / d'accord",
+      "example_sentence": "mɔ fap kɔn",
+      "example_phonetic": "/mɔ fap kɔn/",
+      "example_translation": "Tu peux partir."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p16_1",
+      "original": "mɔ tana wɔl lɔndɔ tɛkɛ",
+      "phonetic_api": "/mɔ ta.na wɔl lɔn.dɔ tɛ.kɛ/",
+      "phonetic_simple": "MO TA-NA WOL LON-DO TÈ-KÈ",
+      "translation": "Tu ne dois pas jouer ici aujourd'hui",
+      "context": "Rappeler un enfant à l'ordre dans un espace sacré ou de travail."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure prohibitive avec 'tana'",
+      "explanation": "L'interdiction formelle s'énonce en insérant le morphème restrictif et prohibitif 'tana' directement entre le pronom personnel sujet et la racine du verbe principal d'action.",
+      "rules": [
+        "Ordre syntaxique obligatoire : Sujet + tana + Verbe d'action.",
+        "Cette tournure bloque catégoriquement la légitimité de réalisation de l'acte."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + tana + Verbe",
+          "phonetic_api": "/mɔ ta.na kɔn/",
+          "meaning": "Ne pars pas."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Le garde",
+      "text": "mɔ tana alɛ ka karka mɔ !",
+      "phonetic_api": "/mɔ ta.na a.lɛ ka kar.ka mɔ/",
+      "phonetic_simple": "MO TA-NA A-LÈ KA KAR-KA MO !",
+      "translation": "Tu ne dois pas entrer dans cette maison !"
+    },
+    {
+      "speaker": "Le visiteur",
+      "text": "baba kɔn, mbi wɔ dɛp atɔk kɔn lɔndɔ.",
+      "phonetic_api": "/ba.ba kɔn mbi wɔ dɛp a.tɔk kɔn lɔn.dɔ/",
+      "phonetic_simple": "BA-BA KON, MBI WO DÈP A-TOK KON LON-DO",
+      "translation": "Mon père, je dois pourtant récupérer mon vêtement ici."
+    }
+  ],
+  "cultural_notes": [
+    "Les interdictions communautaires ('tana' ou totems villageois) gèrent d'anciennes règles coutumières touchant à la préservation des forêts, des sources d'eau et au calendrier rituel traditionnel de la communauté."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex16_1",
+      "type": "multiple_choice",
+      "question": "Quel mot exprime l'autorisation ou la capacité ('pouvoir') ?",
+      "options": [
+        "tana",
+        "fap",
+        "bɔn"
+      ],
+      "correct_answer": "fap",
+      "explanation": "'fap' indique la faisabilité, la capacité physique ou l'accord formel pour une action."
+    },
+    {
+      "exercise_id": "ex16_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "mɔ [ ___ ] dɛp mantsɛŋ (Ne prends pas l'eau)",
+      "correct_answer": "tana",
+      "hint": "Le morphème de l'impératif négatif ou de l'interdiction."
+    }
+  ]
+}

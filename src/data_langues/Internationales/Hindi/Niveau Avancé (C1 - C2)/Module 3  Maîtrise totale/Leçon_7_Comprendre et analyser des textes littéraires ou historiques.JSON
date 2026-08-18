@@ -1,0 +1,167 @@
+{
+  "lesson_id": "C1_M3_L7",
+  "level": "Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 7,
+  "title": "Analyser des textes littéraires ou historiques",
+  "learning_objectives": [
+    "Décoder et analyser la structure stylistique des textes classiques en vieux hindi (Braji, Awadhi) et en hindi moderne",
+    "Identifier les figures de style majeures (अलंकार) comme les métaphores, allitérations et hyperboles littéraires",
+    "Rédiger une critique ou une analyse textuelle fluide en utilisant le lexique de l'exégèse et de la critique littéraire"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'analyse littéraire fait appel à des termes sanskrits complexes contenant des groupes de consonnes denses. Le mot pour la littérature (साहित्य / saːhɪt̪jə/) exige une transition fluide vers le 'य' final. Le terme pour la poésie (काव्य / kaːʋjə/) demande une articulation nette du groupe /ʋj/ sans voyelle intermédiaire.",
+    "common_pitfalls": "Attention à la prononciation du mot 'शृंगार' (esthétique/érotisme littéraire / ʃɾɪŋɡaːr/). La consonne initiale combinée avec la voyelle vocalisée 'ऋ' est souvent mal articulée par les non-natifs. Veillez également à ne pas élider l'aspiration de la consonne dans 'पृष्ठभूमि' (contexte/arrière-plan / pɾɪʃʈʱbʱuːmiː/)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v_lit_1",
+      "term": "साहित्य",
+      "phonetic_api": "/saːhɪt̪jə/",
+      "phonetic_simple": "SAA-HIT-YA",
+      "translation": "Littérature",
+      "example_sentence": "प्रेमचंद का साहित्य भारतीय समाज का दर्पण है।",
+      "example_phonetic": "/pɾeːmtʃənd̪ kaː saːhɪt̪jə bʱaːrət̪iːjə səmaːdʒ kaː d̪əɾpəɳ/",
+      "example_translation": "La littérature de Premchand est le miroir de la société indienne."
+    },
+    {
+      "word_id": "v_lit_2",
+      "term": "अलंकार",
+      "phonetic_api": "/ələŋkaːr/",
+      "phonetic_simple": "ALAN-KAAR",
+      "translation": "Figure de style / Ornementation rhétorique",
+      "example_sentence": "इस कविता में उपमा अलंकार का सुंदर प्रयोग हुआ है।",
+      "example_phonetic": "/ɪs kəʋɪt̪aː mẽː ʊpmaː ələŋkaːr kaː sʊnd̪əɾ pɾəjoːɡ ɦʊaː/",
+      "example_translation": "Une belle utilisation de la métaphore (comparaison) a été faite dans ce poème."
+    },
+    {
+      "word_id": "v_lit_3",
+      "term": "पृष्ठभूमि",
+      "phonetic_api": "/pɾɪʃʈʱbʱuːmiː/",
+      "phonetic_simple": "PRICH-TH-BHOU-MII (rétroflexe aspiré)",
+      "translation": "Contexte historique / Arrière-plan / Contexte général",
+      "example_sentence": "किसी भी कृति को समझने के लिए उसकी ऐतिहासिक पृष्ठभूमि को जानना आवश्यक है।",
+      "example_phonetic": "/kɪsiː bʱiː kɾɪt̪ɪ koː səmədʒʱneː keː lɪjeː ʊskiː ɛːt̪ɪɦaːsɪk pɾɪʃʈʱbʱuːmiː koː dʒaːnnaː aːʋəʃjək ɦɛː/",
+      "example_translation": "Pour comprendre toute œuvre, il est nécessaire de connaître son contexte historique."
+    },
+    {
+      "word_id": "v_lit_4",
+      "term": "मूल्यांकन करना",
+      "phonetic_api": "/muːljaːŋkən kəɾnaː/",
+      "phonetic_simple": "MOUL-YAAN-KAN KAR-NAA",
+      "translation": "Évaluer / Analyser de manière critique / Estimer la valeur de",
+      "example_sentence": "आलोचक ने उपन्यास का निष्पक्ष मूल्यांकन किया।",
+      "example_phonetic": "/aːlotʃək neː ʊpənjaːs kaː nɪʃpəkʃə muːljaːŋkən kɪjaː/",
+      "example_translation": "Le critique a évalué l'opéra/le roman de manière impartiale."
+    },
+    {
+      "word_id": "v_lit_5",
+      "term": "प्रतीकवाद",
+      "phonetic_api": "/pɾət̪iːkʋaːd̪/",
+      "phonetic_simple": "PRA-TIIK-VAAD",
+      "translation": "Symbolisme",
+      "example_sentence": "छायावादी कवियों ने अपनी रचनाओं में प्रतीकवाद का आश्रय लिया।",
+      "example_phonetic": "/tʃʰaːjaːʋaːd̪iː kəʋɪjõː neː əpniː ɾətʃnaːõː mẽː pɾət̪iːkʋaːd̪ kaː aːʃɾəj lɪjaː/",
+      "example_translation": "Les poètes Chhayavadi ont eu recours au symbolisme dans leurs compositions."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "लेखक ने अपनी रचना में तत्कालीन सामाजिक विसंगतियों पर तीखा व्यंग्य किया है।",
+      "phonetic_api": "/leːkʰək neː əpniː ɾətʃnaː mẽː t̪ət̪kaːliːn saːmaːdʒɪk ʋɪsəŋɡət̪ɪjõː pəɾ t̪iːkʰaː ʋjəŋɡjə kɪjaː ɦɛː/",
+      "phonetic_simple": "LÉ-KHAK NÉ AP-NII RAT-CHNAA MEIN TAT-KAA-LIIN SAA-MAA-DJIK VI-SAN-GA-TI-YON PAR TII-KHAA VYAN-GYA KI-YAA HÉ",
+      "translation": "L'auteur a formulé une satire acerbe des anomalies sociales de l'époque dans son œuvre.",
+      "context": "Formule clé pour analyser la portée sociale ou politique d'un texte littéraire ou théâtral."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "इस ऐतिहासिक दस्तावेज़ का सूक्ष्म विश्लेषण करने पर हमें नए साक्ष्य प्राप्त होते हैं।",
+      "phonetic_api": "/ɪs ɛːt̪ɪɦaːsɪk d̪əst̪aːʋeːz kaː suːkʃmə ʋɪʃleːʃəɳ kəɾneː pəɾ ɦəmẽː nəeː saːkʃjə pɾaːpt̪ ɦoːt̪eː ɦɛ̃ː/",
+      "phonetic_simple": "IS AI-TI-HAA-SIK DAS-TAA-VÉZ KAA SOOKCH-MA VICH-LÉ-CHAN KAR-NÉ PAR HA-MÊN NAYÉ SAKCH-YA PRAAPT HO-TÉ HAIN",
+      "translation": "En effectuant une analyse minutieuse de ce document historique, nous obtenons de nouvelles preuves.",
+      "context": "Introduire les conclusions d'une recherche historiographique ou d'une exégèse d'archives."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'utilisation du participe absolu ou de la structure gérondive avancée 'करने पर' (karnē par)",
+      "explanation": "Pour exprimer la condition temporelle immédiate ou la conséquence logique directe dans un style analytique soutenu, on remplace les propositions subordonnées en 'जब' par l'infinitif oblique suivi de la postposition 'पर'.",
+      "rules": [
+        "Structure : [Infinitif Oblique du verbe d'analyse] + पर, + [Déduction / Résultat].",
+        "Équivaut à la tournure française : 'En faisant cela... / Suite à l'examen de...'"
+      ],
+      "examples": [
+        {
+          "structure": "काव्य का अध्ययन करने पर इसका वास्तविक सौंदर्य प्रकट होता है। (Kāvya kā adhyayan karnē par iskā vāstavik saundarya prakaṭ hotā hai.)",
+          "phonetic_api": "/kaːʋjə kaː ədʱjəjən kəɾneː pəɾ ɪskaː ʋaːst̪əʋɪk sɔːnd̪əɾjə pɾəkəʈ ɦoːt̪aː ɦɛː/",
+          "meaning": "En étudiant la poésie, sa véritable beauté se révèle."
+        }
+      ]
+    },
+    {
+      "concept": "La nominalisation des adjectifs par le suffixe '-ता' (-tā) ou '-त्व' (-tva) pour l'abstraction",
+      "explanation": "Le discours C1-C2 exige une maîtrise des concepts abstraits. Le hindi crée ces concepts en ajoutant des suffixes d'origine sanskrite aux radicaux adjectivaux ou nominaux.",
+      "rules": [
+        "Suffixe -ता : सुंदर (beau) -> सुंदरतā (beauté) | जटिल (complexe) -> जटिलता (complexité).",
+        "Suffixe -त्व : कवि (poète) -> कवित्व (génie poétique) | नेता (chef) -> नेतृत्व (leadership)."
+      ],
+      "examples": [
+        {
+          "structure": "इस गद्य की जटिलता इसकी ऐतिहासिक पृष्ठभूमि के कारण है। (Is gadya kī jaṭilatā iskī aitihāsik pṛṣṭhabhūmi kē kāraṇ hai.)",
+          "phonetic_api": "/ɪs ɡədʒjə kiː dʒəʈɪlət̪aː ɪskiː ɛːt̪ɪɦaːsɪk pɾɪʃʈʱbʱuːmiː keː kaːrəɳ ɦɛː/",
+          "meaning": "La complexité de cette prose est due à son contexte historique."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "आलोचक (Critique littéraire)",
+      "text": "अमित जी, कबीर की साखियों का अध्ययन करने पर आपको उनकी भाषा में क्या विशेष दिखता है?",
+      "phonetic_api": "/əmɪt̪ dʒiː kəbiːɾ kiː saːkʰɪjõː kaː ədʱjəjən kəɾneː pəɾ aːpkoː ʊnkiː bʱaːʃaː mẽː kjaː ʋɪʃeːʃ d̪ɪkʰt̪aː ɦɛː/",
+      "phonetic_simple": "A-MIT DJII, KA-BIIR KII SAA-KHI-YON KAA ADH-YA-YAN KAR-NÉ PAR AAP-KO OUN-KII BHAA-CHAA MEIN KYAA VI-CHÉCH DIKH-TAA HÉ",
+      "translation": "Monsieur Amit, en étudiant les distiques de Kabir, que remarquez-vous de particulier dans sa langue ?"
+    },
+    {
+      "speaker": "अमित (Amit)",
+      "text": "महोदय, यदि हम उनकी शब्दावली का मूल्यांकन करें, तो उसमें तत्कालीन समाज की व्यावहारिक भाषा का मिश्रण दिखता है। लेखक ने रूपक अलंकार के द्वारा गूढ़ आध्यात्मिक सत्यों को अत्यंत सरलता से प्रस्तुत किया है।",
+      "phonetic_api": "/txt/",
+      "phonetic_simple": "MA-HO-DAY, YA-DI HAM OUN-KII CHAB-DAA-VA-LII KAA MOUL-YAAN-KAN KA-RÊN, TO OUS-MEIN TAT-KAA-LIIN SA-MAADJ KII VYAV-HAA-RIK BHAA-CHAA KAA MICH-RAN DIKH-TAA HÉ. LÉ-KHAK NÉ ROO-PAK ALAN-KAAR KÉ DVAA-RAA GOODH AADHYAAT-MIK SAT-YON KO AT-YANT SA-RAL-TAA SÉ PRAS-TOUT KI-YAA HÉ",
+      "translation": "Monsieur, si l'on évalue son vocabulaire, on y trouve un mélange de la langue vernaculaire de la société de l'époque. L'auteur, à travers l'usage de la métaphore, a présenté de profondes vérités spirituelles avec une extrême simplicité."
+    },
+    {
+      "speaker": "आलोचक (Critique littéraire)",
+      "text": "बिल्कुल सही। उनकी रचनाओं में जो प्रतीकवाद है, वह उनकी दार्शनिक पृष्ठभूमि को पुष्ट करता है।",
+      "phonetic_api": "/bɪlkʊl səɦiː ʊnkiː ɾətʃnaːõː mẽː dʒoː pɾət̪iːkʋaːd̪ ɦɛː ʋəɦ ʊnkiː d̪aːɾʃənɪk pɾɪʃʈʱbʱuːmiː koː pʊʃʈ kəɾt̪aː ɦɛː/",
+      "phonetic_simple": "BIL-KOUL SAHII. OUN-KII RAT-CHNAA-ON MEIN DJO PRATIIK-VAAD HÉ, YAH OUN-KII DAAR-CHA-NIK PRICH-TH-BHOU-MII KO POUCHT KAR-TAA HÉ",
+      "translation": "Absolument. Le symbolisme présent dans ses œuvres vient étayer son arrière-plan philosophique."
+    }
+  ],
+  "cultural_notes": [
+    "L'analyse littéraire en hindi s'appuie massivement sur l'étude des mouvements textuels historiques comme le 'भक्ति काल' (période de la dévotion, XIVe-XVIIe siècle) dont Kabir, Tulsidas et Surdas sont les piliers. Comprendre leurs œuvres exige de décoder des dialectes spécifiques qui ont fusionné pour former le hindi moderne.",
+    "La théorie littéraire indienne classique repose sur le concept des 'रस' (Ras - essences/émotions esthétiques). Un texte est traditionnellement évalué selon sa capacité à susciter l'une des neuf émotions fondamentales (comme l'héroïsme, la paix ou l'émerveillement) chez le lecteur averti (सहृदय)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel suffixe d'origine sanskrite permet de transformer l'adjectif 'जटिल' (complexe) en nom abstrait 'complexité' ?",
+      "options": [
+        "-त्व (-tva)",
+        "-ता (-tā)",
+        "-वाद (-vād)"
+      ],
+      "correct_answer": "-ता (-tā)",
+      "explanation": "Le suffixe '-ता' s'ajoute aux adjectifs pour former des concepts abstraits féminins (जटिलता - complexité)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "इस कविता का सूक्ष्म विश्लेषण [ ___ ] पर लेखक के वास्तविक विचार स्पष्ट होते हैं। (En faisant une analyse minutieuse de ce poème...)",
+      "correct_answer": "करने",
+      "hint": "La forme oblique de l'infinitif du verbe 'करना' requise devant la postposition 'पर' (karnē)"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Nommer les couleurs principales en Mano",
+    "Identifier les pièces de vêtements courantes",
+    "Associer une couleur à un vêtement pour le décrire"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La description des couleurs en Mano fait intervenir des redoublements de syllabes et des variations de tons. Le mot pour blanc (/pɛ˧pɛ˧/) utilise une voyelle ouverte répétée sur un ton moyen stable. Portez une attention particulière aux nasalisations qui qualifient les étoffes.",
+    "common_pitfalls": "Veillez à bien articuler les formes réduplicatives sans omettre la seconde syllabe, car la répétition est ici constitutive de la racine même de l'adjectif qualificatif."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v9_1",
+      "term": "pua",
+      "phonetic_api": "/pua˧/",
+      "phonetic_simple": "POUA",
+      "translation": "Habit / Vêtement / Tissu",
+      "example_sentence": "ń pua",
+      "example_phonetic": "/ń pua˧/",
+      "example_translation": "Mon vêtement"
+    },
+    {
+      "word_id": "v9_2",
+      "term": "pɛpɛ",
+      "phonetic_api": "/pɛ˧pɛ˧/",
+      "phonetic_simple": "PÈ-PÈ",
+      "translation": "Blanc",
+      "example_sentence": "pua pɛpɛ",
+      "example_phonetic": "/pua˧ pɛ˧pɛ˧/",
+      "example_translation": "Un vêtement blanc"
+    },
+    {
+      "word_id": "v9_3",
+      "term": "tui",
+      "phonetic_api": "/tui˧/",
+      "phonetic_simple": "TOUI",
+      "translation": "Noir / Sombre",
+      "example_sentence": "pua tui",
+      "example_phonetic": "/pua˧ tui˧/",
+      "example_translation": "Un vêtement noir"
+    },
+    {
+      "word_id": "v9_4",
+      "term": "gbɛ̀ɛ",
+      "phonetic_api": "/ɡbɛ̀ː˩/",
+      "phonetic_simple": "GBÈÈ",
+      "translation": "Rouge",
+      "example_sentence": "pua gbɛ̀ɛ",
+      "example_phonetic": "/pua˧ ɡbɛ̀ː˩/",
+      "example_translation": "Un vêtement rouge"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p9_1",
+      "original": "Í pua kɛ̃ɛ ɓe.",
+      "phonetic_api": "/i˦ pua˧ kɛ̃ː˧ ɓe˧/",
+      "phonetic_simple": "EE POUA KÈNG BÉ",
+      "translation": "Ton vêtement est joli.",
+      "context": "Faire un compliment à quelqu'un sur sa tenue."
+    },
+    {
+      "phrase_id": "p9_2",
+      "original": "Ń pua pɛpɛ lo.",
+      "phonetic_api": "/ń pua˧ pɛ˧pɛ˧ lo˧/",
+      "phonetic_simple": "N POUA PÈ-PÈ LO",
+      "translation": "Je veux un vêtement blanc.",
+      "context": "Exprimer un choix ou un désir d'achat chez un marchand."
+    },
+    {
+      "phrase_id": "p9_3",
+      "original": "Pua ɓe mɛ̀ ?",
+      "phonetic_api": "/pua˧ ɓe˧ mɛ˩/",
+      "phonetic_simple": "POUA BÉ MÈ ?",
+      "translation": "Combien coûte ce vêtement ?",
+      "context": "Demander le prix d'un habit au marché."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La place de l'adjectif de couleur",
+      "explanation": "En langue Mano, l'adjectif qualificatif de couleur se place systématiquement après le nom qu'il modifie. Cette règle est identique à celle des adjectifs numéraux cardinaux vus précédemment.",
+      "rules": [
+        "Structure nominale qualifiée : [Nom du vêtement] + [Adjectif de couleur]",
+        "L'adjectif ne s'accorde ni en genre ni en nombre avec le substantif."
+      ],
+      "examples": [
+        {
+          "structure": "pua tui",
+          "phonetic_api": "/pua˧ tui˧/",
+          "meaning": "Habit noir"
+        },
+        {
+          "structure": "pua gbɛ̀ɛ",
+          "phonetic_api": "/pua˧ ɡbɛ̀ː˩/",
+          "meaning": "Habit rouge"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Acheteur",
+      "text": "Mɛgɛ ! Ń pua gbɛ̀ɛ lo. A ɓe mɛ̀ ?",
+      "phonetic_api": "/mɛ˧gɛ˧ ń pua˧ ɡbɛ̀ː˩ lo˧ a˧ ɓe˧ mɛ˩/",
+      "phonetic_simple": "MÈGÈ ! N POUA GBÈÈ LO. A BÉ MÈ ?",
+      "translation": "Bonjour ! Je veux le vêtement rouge. Combien coûte-t-il ?"
+    },
+    {
+      "speaker": "Vendeur",
+      "text": "Mɛgɛ ! A ɓe dɔ́ːlú.",
+      "phonetic_api": "/mɛ˧gɛ˧ a˧ ɓe˧ dɔː˦lu˦/",
+      "phonetic_simple": "MÈGÈ ! A BÉ DOR-LOU.",
+      "translation": "Bonjour ! C'est cinq (unités de monnaie/prix)."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la région de la Guinée Forestière, le choix des vêtements revêt une importance symbolique lors des cérémonies traditionnelles. Les tissus blancs évoquent la pureté, la paix et la bénédiction des ancêtres, et sont abondamment portés lors des réjouissances ou des rituels communautaires importants."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex9_1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'un vêtement blanc' en Mano ?",
+      "options": [
+        "pua tui",
+        "pua pɛpɛ",
+        "pua gbɛ̀ɛ"
+      ],
+      "correct_answer": "pua pɛpɛ",
+      "explanation": "'pɛpɛ' signifie blanc et se place après le nom 'pua' (vêtement)."
+    },
+    {
+      "exercise_id": "ex9_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour complimenter quelqu'un en disant 'Ton vêtement est joli', on complète : Í [ ___ ] kɛ̃ɛ ɓe.",
+      "correct_answer": "pua",
+      "hint": "C'est le mot générique pour désigner un habit ou un tissu."
+    }
+  ]
+}

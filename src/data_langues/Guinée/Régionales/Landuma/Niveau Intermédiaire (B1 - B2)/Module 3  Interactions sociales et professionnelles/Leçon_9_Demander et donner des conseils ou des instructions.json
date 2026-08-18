@@ -1,0 +1,116 @@
+{
+  "lesson_id": "B1_M3_L9",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 9,
+  "title": "Demander et donner des conseils ou des instructions",
+  "learning_objectives": [
+    "Solliciter l'avis éclairé et l'orientation d'un aîné face à un dilemme",
+    "Formuler des directives et consignes précises pour accomplir une tâche technique",
+    "Exprimer la conformité, l'accord ou l'ajustement suite à une instruction reçue"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La fricative glottale sourde /h/ et les diphtongues d'emprunt doivent garder une clarté d'articulation médiane, sans réduction syllabique.",
+    "common_pitfalls": "Ne réduisez pas la double voyelle longue finale lors de l'énoncé direct de l'instruction ou du conseil."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v18_1",
+      "term": "fɔf ka",
+      "phonetic_api": "/fɔf ka/",
+      "phonetic_simple": "FOF KA",
+      "translation": "parler à / conseiller / orienter par la parole",
+      "example_sentence": "baba mɔ fɔf ka mbi",
+      "example_phonetic": "/ba.ba mɔ fɔf ka mbi/",
+      "example_translation": "Le père m'a parlé (m'a conseillé)."
+    },
+    {
+      "word_id": "v18_2",
+      "term": "tɛŋ",
+      "phonetic_api": "/tɛŋ/",
+      "phonetic_simple": "TENG",
+      "translation": "droit / correct / juste / voie idoine",
+      "example_sentence": "kiya mɔ mɔ tɛŋ",
+      "example_phonetic": "/ki.ja mɔ mɔ tɛŋ/",
+      "example_translation": "Ce chemin est droit (correct)."
+    },
+    {
+      "word_id": "v18_3",
+      "term": "karamɔkɔ",
+      "phonetic_api": "/ka.ra.mɔ.kɔ/",
+      "phonetic_simple": "KA-RA-MO-KO",
+      "translation": "guide / conseiller / maître / détenteur du savoir",
+      "example_sentence": "dɛp karamɔkɔ mɔ kisin",
+      "example_phonetic": "/dɛp ka.ra.mɔ.kɔ mɔ ki.sin/",
+      "example_translation": "Prends bien ce guide (écoute ses conseils)."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p18_1",
+      "original": "baba kɔn, fɔf ka mbi kiya mɔ tɛŋ",
+      "phonetic_api": "/ba.ba kɔn fɔf ka mbi ki.ja mɔ tɛŋ/",
+      "phonetic_simple": "BA-BA KON, FOF KA MBI KI-YA MO TENG",
+      "translation": "Mon père, montre-moi (conseille-moi) le droit chemin",
+      "context": "Formule hautement respectueuse pour consulter la sagesse d'un ancien de la communauté."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le dative directionnel d'instruction 'fɔf ka'",
+      "explanation": "Pour orienter une parole directive ou un conseil vers une personne, le verbe de parole 'fɔf' s'associe structurellement au relateur 'ka'. L'ensemble prend le sens fonctionnel d'instruire, de guider ou de conseiller activement.",
+      "rules": [
+        "Structure : Verbe 'fɔf' + Préposition 'ka' + Bénéficiaire de l'instruction.",
+        "Le complément circonstanciel ou l'objet du conseil s'exprime en fin de construction syntaxique."
+      ],
+      "examples": [
+        {
+          "structure": "fɔf ka + Pronom",
+          "phonetic_api": "/fɔf ka mbi/",
+          "meaning": "Parle-moi / Donne-moi des instructions."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Le jeune",
+      "text": "baba kɔn, fɔf ka mbi kiya ka dare.",
+      "phonetic_api": "/ba.ba kɔn fɔf ka mbi ki.ja ka da.re/",
+      "phonetic_simple": "BA-BA KON, FOF KA MBI KI-YA KA DA-RE",
+      "translation": "Mon père, donne-moi des conseils pour la route de la ville."
+    },
+    {
+      "speaker": "L'aîné",
+      "text": "kɔn tɛŋ. mɔ tana wɔl ka kiya. wali kisin kisin.",
+      "phonetic_api": "/kɔn tɛŋ mɔ ta.na wɔl ka ki.ja wa.li ki.sin ki.sin/",
+      "phonetic_simple": "KON TENG. MO TA-NA WOL KA KI-YA. WA-LI KI-SIN KI-SIN",
+      "translation": "Va tout droit. Ne t'amuse pas en chemin. Travaille avec sérieux."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la société landouma, solliciter formellement les conseils, les instructions verbales et les bénédictions des anciens avant d'entreprendre un voyage ou une nouvelle activité professionnelle est une étape indispensable pour s'assurer le succès."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex18_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le qualificatif 'tɛŋ' dans une instruction ?",
+      "options": [
+        "Gauche / sinueux",
+        "Droit / correct",
+        "Lent / dangereux"
+      ],
+      "correct_answer": "Droit / correct",
+      "explanation": "'tɛŋ' qualifie tout comportement aligné sur les règles sociales ou une direction physique directe et sûre."
+    },
+    {
+      "exercise_id": "ex18_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "baba kɔn fɔf [ ___ ] mbi kiya (Mon père m'instruit sur le chemin)",
+      "correct_answer": "ka",
+      "hint": "La préposition de ciblage ou de transfert de parole vers le bénéficiaire."
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Identifier les membres principaux du noyau familial",
+    "Exprimer les liens de parenté immédiats et élargis",
+    "Utiliser les constructions possessives pour présenter son entourage"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne /ɟ/ (notée 'j' ou 'dy') est une occlusive palatale voisée, similaire au début du mot anglais 'juice' mais articulée plus en avant sur le palais. Les voyelles nasales en fin de mot comme dans 'den' /dẽ/ ne doivent pas laisser entendre de consonne 'n' articulée avec la langue.",
+    "common_pitfalls": "Attention à ne pas confondre 'ba' (la mère) avec un ton descendant et 'bá' (le fleuve/la grandeur) avec un ton haut, ou encore 'baa' (la chèvre) dont la voyelle est distinctement allongée."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Ba",
+      "phonetic_api": "/ba/",
+      "phonetic_simple": "BA",
+      "translation": "Mère",
+      "example_sentence": "N'ba bɛ so.",
+      "example_phonetic": "/mba bɛ so/",
+      "example_translation": "Ma mère est à la maison."
+    },
+    {
+      "word_id": "v2",
+      "term": "Fa",
+      "phonetic_api": "/fa/",
+      "phonetic_simple": "FA",
+      "translation": "Père",
+      "example_sentence": "I fa tɔgɔ bɛ di?",
+      "example_phonetic": "/i fa tɔ.ɡɔ bɛ di/",
+      "example_translation": "Comment s'appelle ton père ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "Denkɛ",
+      "phonetic_api": "/den.kɛ/",
+      "phonetic_simple": "DEN-KÈ",
+      "translation": "Fils / Enfant mâle",
+      "example_sentence": "A denkɛ bɛ lakarika la.",
+      "example_phonetic": "/a den.kɛ bɛ la.ka.ri.ka la/",
+      "example_translation": "Son fils est à l'école."
+    },
+    {
+      "word_id": "v4",
+      "term": "Denmuso",
+      "phonetic_api": "/den.mu.so/",
+      "phonetic_simple": "DEN-MOU-SO",
+      "translation": "Fille / Enfant femelle",
+      "example_sentence": "N'denmuso kelen le bɛ n'bolo.",
+      "example_phonetic": "/nden.mu.so ke.len le bɛ mbo.lo/",
+      "example_translation": "J'ai une seule fille."
+    },
+    {
+      "word_id": "v5",
+      "term": "Baden",
+      "phonetic_api": "/ba.den/",
+      "phonetic_simple": "BA-DEN",
+      "translation": "Frère / Sœur (litt. enfant de la mère)",
+      "example_sentence": "Karamɔgɔ nin ye n'baden le di.",
+      "example_phonetic": "/ka.ra.mɔ.ɡɔ nin jɛ nba.den le di/",
+      "example_translation": "Cet enseignant est mon frère."
+    },
+    {
+      "word_id": "v6",
+      "term": "Muso",
+      "phonetic_api": "/mu.so/",
+      "phonetic_simple": "MOU-SO",
+      "translation": "Femme / Épouse",
+      "example_sentence": "N'muso bɛ bara la.",
+      "example_phonetic": "/mmu.so bɛ ba.ra la/",
+      "example_translation": "Mon épouse est au travail."
+    },
+    {
+      "word_id": "v7",
+      "term": "Cɛ",
+      "phonetic_api": "/t͡ʃɛ/",
+      "phonetic_simple": "TCHÈ",
+      "translation": "Homme / Époux",
+      "example_sentence": "A cɛ bɛ kɛnɛma.",
+      "example_phonetic": "/a t͡ʃɛ bɛ kɛ.nɛ.ma/",
+      "example_translation": "Son mari se porte bien."
+    },
+    {
+      "word_id": "v8",
+      "term": "Mɔgɔbaxun",
+      "phonetic_api": "/mɔ.ɡɔ.ba.xun/",
+      "phonetic_simple": "MƆ-GƆ-BA-ROUN",
+      "translation": "Grand-parent / Ancien",
+      "example_sentence": "N'mɔgɔbaxun cɛ bɛ yen.",
+      "example_phonetic": "/mmɔ.ɡɔ.ba.xun t͡ʃɛ bɛ jẽ/",
+      "example_translation": "Mon grand-père est là."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "I somogo lu bɛ di?",
+      "phonetic_api": "/i so.mo.ɡo lu bɛ di/",
+      "phonetic_simple": "I SO-MO-GO LOU BÈ DI",
+      "translation": "Comment vont les gens de ta maison / ta famille ?",
+      "context": "Salutation incontournable pour s'enquérir du bien-être des proches."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "U bɛ kɛnɛma, tana t'u la.",
+      "phonetic_api": "/u bɛ kɛ.nɛ.ma ta.na tu la/",
+      "phonetic_simple": "OU BÈ KÈ-NÈ-MA TA-NA TOU LA",
+      "translation": "Ils vont bien, aucun mal ne les touche.",
+      "context": "Réponse polie standard aux salutations sur la famille."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Den nin ye jɔn den di?",
+      "phonetic_api": "/den nĩ jɛ d͡ʒɔn dẽ di/",
+      "phonetic_simple": "DEN NIN YÈ DJƆN DEN DI",
+      "translation": "De qui cet enfant est-il le fils/la fille ?",
+      "context": "Utilisé pour s'informer de la filiation d'un enfant de l'entourage."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "N'badenmuso le.",
+      "phonetic_api": "/nba.den.mu.so le/",
+      "phonetic_simple": "N-BA-DEN-MOU-SO LÉ",
+      "translation": "C'est ma sœur.",
+      "context": "Présentation directe d'une parente."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La possession inaliénable (relations familiales)",
+      "explanation": "En konyanka, les relations de parenté utilisent la structure possessive directe dite inaliénable. Le pronom ou le nom possesseur est placé directement devant le nom de parenté sans marqueur intermédiaire (contrairement aux objets matériels).",
+      "rules": [
+        "Le pronom de la 1ère personne du singulier 'N' se nasalise ou s'assimile à la consonne suivante (ex: m'ba, n'fa).",
+        "Aucune particule de possession (comme 'ta') n'est intercalée pour la famille proche."
+      ],
+      "examples": [
+        {
+          "structure": "N'fa",
+          "phonetic_api": "/nfa/",
+          "meaning": "Mon père"
+        },
+        {
+          "structure": "I ba",
+          "phonetic_api": "/i ba/",
+          "meaning": "Ta mère"
+        },
+        {
+          "structure": "A denkɛ",
+          "phonetic_api": "/a den.kɛ/",
+          "meaning": "Son fils"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Moussa",
+      "text": "Fanta, i somogo lu bɛ di?",
+      "phonetic_api": "/fan.ta i so.mo.ɡo lu bɛ di/",
+      "phonetic_simple": "FAN-TA, I SO-MO-GO LOU BÈ DI",
+      "translation": "Fanta, comment va ta famille ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "U bɛ kɛnɛma. N'ba bɛ so, n'fa bɛ bara la.",
+      "phonetic_api": "/u bɛ kɛ.nɛ.ma mba bɛ so nfa bɛ ba.ra la/",
+      "phonetic_simple": "OU BÈ KÈ-NÈ-MA. M-BA BÈ SO, N-FA BÈ BA-RA LA",
+      "translation": "Ils vont bien. Ma mère est à la maison, mon père est au travail."
+    },
+    {
+      "speaker": "Moussa",
+      "text": "I baden lu bɛ lakarika la?",
+      "phonetic_api": "/i ba.den lu bɛ la.ka.ri.ka la/",
+      "phonetic_simple": "I BA-DEN LOU BÈ LA-KA-RI-KA LA",
+      "translation": "Est-ce que tes frères et sœurs sont à l'école ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Hali, n'denkɛ ni n'denmuso bɛ lakarika la.",
+      "phonetic_api": "/ha.li nden.kɛ ni nden.mu.so bɛ la.ka.ri.ka la/",
+      "phonetic_simple": "HA-LI, N-DEN-KÈ NI N-DEN-MOU-SO BÈ LA-KA-RI-KA LA",
+      "translation": "Oui, mon fils et ma fille sont à l'école."
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Konyanka, la famille s'entend au sens large. Le terme 'Baden' (enfant de la mère) porte une forte valeur affective et désigne la solidarité, tandis que 'Faden' (enfant du père, mais de mères différentes) évoque traditionnellement la saine émulation ou la rivalité au sein des structures polygames."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'Mon fils' en konyanka ?",
+      "options": [
+        "N'ba",
+        "N'denkɛ",
+        "N'denmuso"
+      ],
+      "correct_answer": "N'denkɛ",
+      "explanation": "'Den' désigne l'enfant et 'kɛ' désigne l'homme/le mâle, formant ainsi le mot fils."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "I [ ___ ] tɔgɔ bɛ di? (Comment s'appelle ta mère ?)",
+      "correct_answer": "ba",
+      "hint": "Le mot court pour la mère."
+    }
+  ]
+}

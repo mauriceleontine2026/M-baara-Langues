@@ -1,0 +1,163 @@
+{
+  "lesson_id": "B1_M1_L2",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 2,
+  "title": "Les loisirs, les passions et les activités sportives",
+  "learning_objectives": [
+    "Exprimer ses passe-temps, jeux traditionnels et activités de divertissement",
+    "Parler des sports pratiqués, du chant et de la danse"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne vibrante /r/ placée en fin de mot (comme dans 'singor') doit être légèrement battue sans être muette. La voyelle double 'ee' s'articule comme un /e/ tendu et long. Les groupes consonantiques pré-nasalisés initiaux ('n'd-') forment un son unique unique.",
+    "common_pitfalls": "Ne confondez pas le 'c' de 'ce' (bien) avec un son /s/. En nalu, le 'c' est toujours une affriquée palatale /tʃ/ ('tch')."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v11_1",
+      "term": "Singor",
+      "phonetic_api": "/si.nɡor/",
+      "phonetic_simple": "SIN-GOR",
+      "translation": "Divertissement / Jeu / Sport",
+      "example_sentence": "Singor we a ce.",
+      "example_phonetic": "/si.nɡor we a tʃe/",
+      "example_translation": "Ce jeu est bon."
+    },
+    {
+      "word_id": "v11_2",
+      "term": "N'dun",
+      "phonetic_api": "/ndu.n/",
+      "phonetic_simple": "N-DOUN",
+      "translation": "Chanter / Chant",
+      "example_sentence": "M malang n'dun.",
+      "example_phonetic": "/m ba.laŋ ndu.n/",
+      "example_translation": "Je veux chanter."
+    },
+    {
+      "word_id": "v11_3",
+      "term": "Sila",
+      "phonetic_api": "/si.la/",
+      "phonetic_simple": "SI-LA",
+      "translation": "Danser / Danse",
+      "example_sentence": "A mboye sila di gbarano.",
+      "example_phonetic": "/a mbo.je si.la di g͡ba.ra.no/",
+      "example_translation": "Il y a de la danse dans la cour."
+    },
+    {
+      "word_id": "v11_4",
+      "term": "Bweten soka",
+      "phonetic_api": "/bʷe.ten so.ka/",
+      "phonetic_simple": "BOUÉ-TEN SO-KA",
+      "translation": "Jouer au football",
+      "example_sentence": "M boku soka n'gbe.",
+      "example_phonetic": "/m bo.ku so.ka ŋgbe/",
+      "example_translation": "Je vais jouer au football aujourd'hui."
+    },
+    {
+      "word_id": "v11_5",
+      "term": "Ceebor",
+      "phonetic_api": "/tʃeː.bor/",
+      "phonetic_simple": "TCHÉÉ-BOR",
+      "translation": "Nager / Nage",
+      "example_sentence": "M malang ceebor di m'mela.",
+      "example_phonetic": "/m ba.laŋ tʃeː.bor di m.me.la/",
+      "example_translation": "J'aime nager dans l'eau."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p11_1",
+      "original": "A rila singor mwo?",
+      "phonetic_api": "/a ri.la si.ngor mwo/",
+      "phonetic_simple": "A RI-LA SIN-GOR MWO",
+      "translation": "Quel est ton loisir / ton divertissement ?",
+      "context": "Question usuelle pour engager la conversation sur les goûts personnels."
+    },
+    {
+      "phrase_id": "p11_2",
+      "original": "M malang n'dun n'gbe sila.",
+      "phonetic_api": "/m ba.laŋ ndu.n ŋgbe si.la/",
+      "phonetic_simple": "M BA-LANG N-DOUN NGBÉ SI-LA",
+      "translation": "J'aime chanter et danser.",
+      "context": "Permet de décrire ses passions artistiques et festives."
+    },
+    {
+      "phrase_id": "p11_3",
+      "original": "Bweten nalu a malang soka.",
+      "phonetic_api": "/bʷe.ten na.lu a ba.laŋ so.ka/",
+      "phonetic_simple": "BOUÉ-TEN NA-LU A BA-LANG SO-KA",
+      "translation": "Les enfants nalu aiment jouer au football.",
+      "context": "Une observation commune au sein des villages de la région côtière."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'association de verbes avec la coordination 'n'gbe'",
+      "explanation": "Pour exprimer la pratique simultanée ou successive de deux loisirs, le nalu utilise le connecteur de coordination 'n'gbe' (et) entre les deux infinitifs, maintenant la structure unifiée sous un seul pronom sujet.",
+      "rules": [
+        "Le pronom sujet et le verbe principal 'malang' (aimer/vouloir) introduisent la proposition.",
+        "Les deux verbes de loisir encadrent le coordonnant 'n'gbe'."
+      ],
+      "examples": [
+        {
+          "structure": "n'dun n'gbe sila",
+          "phonetic_api": "/ndu.n ŋgbe si.la/",
+          "meaning": "chanter et danser"
+        },
+        {
+          "structure": "ceebor n'gbe soka",
+          "phonetic_api": "/tʃeː.bor ŋgbe so.ka/",
+          "meaning": "nager et jouer au football"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ousmane",
+      "text": "Mboye, Fatou ! A rila singor mwo?",
+      "phonetic_api": "/mbo.je fa.tu a ri.la si.nɡor mwo/",
+      "phonetic_simple": "MBO-YÉ, FA-TOU ! A RI-LA SIN-GOR MWO?",
+      "translation": "Bonjour, Fatou ! Quel est ton passe-temps ?"
+    },
+    {
+      "speaker": "Fatou",
+      "text": "Mboye ce ! M malang n'dun. I mwo?",
+      "phonetic_api": "/mbo.je tʃe m ba.laŋ ndu.n i mwo/",
+      "phonetic_simple": "MBO-YÉ TCHÉ ! M BA-LANG N-DOUN. I MWO?",
+      "translation": "Bonjour bien ! J'aime chanter. Et toi ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "M malang ceebor di m'mela n'gbe soka.",
+      "phonetic_api": "/m ba.laŋ tʃeː.bor di m.me.la ŋgbe so.ka/",
+      "phonetic_simple": "M BA-LANG TCHÉÉ-BOR DI M-MÉ-LA NGBÉ SO-KA.",
+      "translation": "J'aime nager dans l'eau (la mer) et jouer au football."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les villages nalu du littoral de la Guinée, les activités de loisir sont profondément communautaires et rythmées par l'environnement maritime. La nage ('ceebor') et les jeux dans l'eau sont naturels pour la jeunesse. Lors des festivités ou des fins de récolte, le chant traditionnel ('n'doun') et la danse au son du tambour rassemblent toutes les générations dans la grande cour du village."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex11_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'Sila' ?",
+      "options": [
+        "Chanter",
+        "Danser",
+        "Nager"
+      ],
+      "correct_answer": "Danser",
+      "explanation": "'Sila' désigne l'action de danser ou la danse en nalu."
+    },
+    {
+      "exercise_id": "ex11_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour parler de divertissement ou de jeu en général, on emploie le terme : [ ___ ].",
+      "correct_answer": "singor",
+      "hint": "Désigne aussi bien un jeu de société, un sport qu'un amusement public"
+    }
+  ]
+}

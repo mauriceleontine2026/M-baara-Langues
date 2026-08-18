@@ -1,0 +1,293 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse en chinois mandarin",
+  "learning_objectives": [
+    "Savoir saluer de manière adéquate selon le moment de la journée, le statut social et le nombre d'interlocuteurs",
+    "Maîtriser les formules clés de remerciement, d'excuses, de réponse de politesse et de prise de congé",
+    "Appliquer correctement la règle essentielle du sandhi tonal du troisième ton à l'oral"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le chinois mandarin standard (Putonghua) utilise le Pinyin comme système de romanisation. La prononciation exacte requiert une attention stricte aux 4 tons fondamentaux et au ton neutre : 1er ton (haut, plat : ā), 2ème ton (montant : á), 3ème ton (descendant-montant : ǎ), 4ème ton (descendant, sec : à). La consonne 'h' du Pinyin représente une fricative vélaire sourde /x/, similaire à la jota espagnole ou au 'ch' allemand dans 'ach', et doit être distinctement articulée depuis le fond de la gorge, sans être muette.",
+    "common_pitfalls": "L'erreur classique des francophones est de traiter le 'h' comme une lettre muette ou de négliger la durée des voyelles selon le ton. Un autre piège majeur réside dans les consonnes alvéolo-palatales : la lettre 'x' se prononce /ɕ/ (proche d'un 'ch' français très sifflé, la langue positionnée contre les dents du bas) et 'q' se prononce /tɕʰ/ (une consonne affriquée aspirée, similaire à 'tch' suivi d'un souffle d'air). Ne confondez pas le 'g' en fin de syllabe (ex: 'shang') avec un son 'g' dur ; il indique uniquement que la voyelle précédente est nasale et résonne dans le nez."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "你好",
+      "phonetic_api": "/ni˧˥ xaʊ̯˨˩˦/",
+      "phonetic_simple": "NEE HAO",
+      "translation": "Bonjour",
+      "example_sentence": "你好，请问您贵姓？",
+      "example_phonetic": "/ni˧˥ xaʊ̯˨˩˦ tɕʰiŋ˨˩˦ wen˥˩ nin˧˥ kwei̯˥˩ ɕiŋ˥˩/",
+      "example_translation": "Bonjour, puis-je vous demander votre nom de famille ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "谢谢",
+      "phonetic_api": "/ɕi̯ɛ˥˩ ɕi̯ɛ/",
+      "phonetic_simple": "CHIEH-CHIEH",
+      "translation": "Merci",
+      "example_sentence": "谢谢大夫，我的病好了。",
+      "example_phonetic": "/ɕi̯ɛ˥˩ ɕi̯ɛ da˥˩ fu wo˨˩˦ dɤ biŋ˥˩ xaʊ̯˨˩˦ lɤ/",
+      "example_translation": "Merci docteur, ma maladie est guérie."
+    },
+    {
+      "word_id": "v3",
+      "term": "再见",
+      "phonetic_api": "/tsaɪ̯˥˩ tɕi̯ɛn˥˩/",
+      "phonetic_simple": "DZAÏ-TCHIEN",
+      "translation": "Au revoir",
+      "example_sentence": "爸爸，再见，我去上学了。",
+      "example_phonetic": "/ba˥˩ ba tsaɪ̯˥˩ tɕi̯ɛn˥˩ wo˨˩˦ tɕy˥˩ ʂaŋ˥˩ ɕy̯ɛ˧˥ lɤ/",
+      "example_translation": "Au revoir papa, je vais à l'école."
+    },
+    {
+      "word_id": "v4",
+      "term": "对不起",
+      "phonetic_api": "/tweɪ̯˥˩ bu tɕi˨˩˦/",
+      "phonetic_simple": "DOUAY-BOU-TCHEE",
+      "translation": "Désolé / Pardon",
+      "example_sentence": "对不起，我把你的杯子打碎了。",
+      "example_phonetic": "/tweɪ̯˥˩ bu tɕi˨˩˦ wo˨˩˦ ba˨˩˦ ni˨˩˦ dɤ beɪ̯˥ tsi da˨˩˦ sweɪ̯˥˩ lɤ/",
+      "example_translation": "Désolé, j'ai cassé ton verre."
+    },
+    {
+      "word_id": "v5",
+      "term": "请",
+      "phonetic_api": "/tɕʰiŋ˨˩˦/",
+      "phonetic_simple": "TCHING",
+      "translation": "S'il vous plaît / Inviter / Prier de",
+      "example_sentence": "快请坐，喝杯热茶吧。",
+      "example_phonetic": "/kʰwaɪ̯˥˩ tɕʰiŋ˨˩˦ dzwɔ˥˩ xɤ˥ beɪ̯ rɤ˥˩ tʂʰa˧˥ ba/",
+      "example_translation": "Je vous en prie, asseyez-vous vite et buvez une tasse de thé chaud."
+    },
+    {
+      "word_id": "v6",
+      "term": "劳驾",
+      "phonetic_api": "/laʊ̯˧˥ tɕi̯a˥˩/",
+      "phonetic_simple": "LAO-TCHIA",
+      "translation": "Excusez-moi / S'il vous plaît (pour interpeller ou passer)",
+      "example_sentence": "劳驾, 请问去火车站怎么走？",
+      "example_phonetic": "/laʊ̯˧˥ tɕi̯a˥˩ tɕʰiŋ˨˩˦ wen˥˩ tɕy˥˩ xwɔ˨˩˦ tʂɤ˥ tʂan˥˩ tsən˨˩˦ mɤ dzwɔʊ̯˨˩˦/",
+      "example_translation": "Excusez-moi, s'il vous plaît, comment va-t-on à la gare ferroviaire ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "您好",
+      "phonetic_api": "/nin˧˥ xaʊ̯˨˩˦/",
+      "phonetic_simple": "NEEN HAO",
+      "translation": "Bonjour (forme respectueuse / vouvoiement)",
+      "context": "Cadre formel, face à un aîné, un client, un professeur ou un supérieur hiérarchique"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "你们好",
+      "phonetic_api": "/ni˨˩˦ mən xaʊ̯˨˩˦/",
+      "phonetic_simple": "NEE-MEN HAO",
+      "translation": "Bonjour à vous todos (pluriel)",
+      "context": "S'adresser collectivement à un groupe de deux personnes ou plus"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "大家好",
+      "phonetic_api": "/da˥˩ tɕi̯a˥ xaʊ̯˨˩˦/",
+      "phonetic_simple": "TA-TCHIA HAO",
+      "translation": "Bonjour tout le monde",
+      "context": "Prendre la parole devant une assemblée, un public ou une classe entière"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "早上好",
+      "phonetic_api": "/tsaʊ̯˨˩˦ ʂaŋ xaʊ̯˨˩˦/",
+      "phonetic_simple": "DZAO-CHANG HAO",
+      "translation": "Bonjour (le matin)",
+      "context": "Formule polie utilisée en début de journée, généralement avant 10 heures"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "下午好",
+      "phonetic_api": "/ɕi̯a˥˩ u˨˩˦ xaʊ̯˨˩˦/",
+      "phonetic_simple": "CHIA-OU HAO",
+      "translation": "Bon après-midi",
+      "context": "Salutation formelle ou standard entre 12h et 18h"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "晚上好",
+      "phonetic_api": "/wan˨˩˦ ʂaŋ xaʊ̯˨˩˦/",
+      "phonetic_simple": "OUAN-CHANG HAO",
+      "translation": "Bonsoir",
+      "context": "Salutation formelle utilisée à la tombée de la nuit ou en soirée"
+    },
+    {
+      "phrase_id": "p7",
+      "original": "不客气",
+      "phonetic_api": "/bu˧˥ kʰɤ˥˩ tɕi/",
+      "phonetic_simple": "BOU-KHEU-TCHEE",
+      "translation": "De rien / Je vous en prie (litt. 'ne soyez pas formel')",
+      "context": "Réponse d'usage la plus courante et polie à un remerciement"
+    },
+    {
+      "phrase_id": "p8",
+      "original": "不用谢",
+      "phonetic_api": "/bu˧˥ jʊŋ˥˩ ɕi̯ɛ˥˩/",
+      "phonetic_simple": "BOU-YONG-CHIEH",
+      "translation": "Pas de quoi / Ce n'est pas la peine de remercier",
+      "context": "Réponse décontractée mais courtoise à un remerciement"
+    },
+    {
+      "phrase_id": "p9",
+      "original": "没关系",
+      "phonetic_api": "/meɪ̯˧˥ kwan˥ ɕi/",
+      "phonetic_simple": "MEI-GOUAN-CHEE",
+      "translation": "Ce n'est pas grave / Ce n'est rien",
+      "context": "Réponse bienveillante standard pour accepter des excuses"
+    },
+    {
+      "phrase_id": "p10",
+      "original": "你怎么样？",
+      "phonetic_api": "/ni˨˩˦ tsən˨˩˦ mɤ jaŋ˥˩/",
+      "phonetic_simple": "NEE DZEN-MEU YANG",
+      "translation": "Comment ça va ? / Quoi de neuve ?",
+      "context": "Cadre purement informel entre amis, proches ou collègues de même rang"
+    },
+    {
+      "phrase_id": "p11",
+      "original": "我很好",
+      "phonetic_api": "/wo˧˥ xən˨˩˦ xaʊ̯˨˩˦/",
+      "phonetic_simple": "OUO HEUN HAO",
+      "translation": "Je vais très bien",
+      "context": "Réponse classique à une question sur la santé ou l'état général"
+    },
+    {
+      "phrase_id": "p12",
+      "original": "明天见",
+      "phonetic_api": "/miŋ˧˥ tʰi̯ɛn˥ tɕi̯ɛn˥˩/",
+      "phonetic_simple": "MING-THIEN TCHIEN",
+      "translation": "À demain",
+      "context": "Formule de congé précise lorsqu'un rendez-vous est prévu le lendemain"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le Sandhi Tonal obligatoire du 3ème ton (3 + 3 ➔ 2 + 3)",
+      "explanation": "En mandarin, l'articulation de deux troisièmes tons complets consécutifs (ton descendant-montant) demande un effort vocal excessif. Pour maintenir la fluidité du discours, la phonologie du mandarin impose une modification automatique à l'oral.",
+      "rules": [
+        "Lorsque deux caractères porteurs du 3ème ton se suivent, le premier caractère glisse vers le 2ème ton (ton montant).",
+        "Le second caractère conserve strictement son 3ème ton d'origine.",
+        "Crucial : Les marques de ton sur l'écriture en Pinyin et les sinogrammes restent inchangées afin de préserver l'identification lexicale brute."
+      ],
+      "examples": [
+        {
+          "structure": "你 (nǐ, 3ème ton) + 好 (hǎo, 3ème ton)",
+          "phonetic_api": "/ni˧˥ xaʊ̯˨˩˦/",
+          "meaning": "S'écrit 'nǐ hǎo' mais se prononce impérativement [ní hǎo] à l'oral."
+        },
+        {
+          "structure": "我 (wǒ, 3ème ton) + 很 (hěn, 3ème ton) + 好 (hǎo, 3ème ton)",
+          "phonetic_api": "/wo˨˩˦ xən˧˥ xaʊ̯˨˩˦/",
+          "meaning": "Ici, seul le terme du milieu subit la modification. On prononce [wǒ hén hǎo]."
+        }
+      ]
+    },
+    {
+      "concept": "Le pronom de politesse 您 (nín) versus 你 (nǐ)",
+      "explanation": "La distinction entre le tutoiement et le vouvoiement existe en chinois mandarin, matérialisée par l'ajout du radical du cœur '心' (xīn) sous le caractère standard '你'.",
+      "rules": [
+        "Utilisez 你 (nǐ) pour vos pairs, vos amis, les enfants ou les personnes d'un rang égal ou inférieur.",
+        "Utilisez 您 (nín) au singulier pour marquer une déférence absolue. Notez que 您 (nín) n'accepte normalement pas la marque du pluriel '们' (men). Pour saluer poliment plusieurs supérieurs, on emploiera des titres ou des structures globales comme '各位' (gèwèi - vous tous)."
+      ],
+      "examples": [
+        {
+          "structure": "老师，您好！ (Lǎoshī, nínhǎo!)",
+          "phonetic_api": "/laʊ̯˨˩˦ ʂʐʐ˥ nin˧˥ xaʊ̯˨˩˦/",
+          "meaning": "Bonjour, professeur ! (Respect strict)"
+        }
+      ]
+    },
+    {
+      "concept": "Construction syntaxique élémentaire avec la particule interactive 呢 (ne)",
+      "explanation": "La particule finale neutre 呢 (ne) permet de construire une question elliptique pour renvoyer la question précédente à son interlocuteur, évitant ainsi la répétition fastidieuse de toute la phrase.",
+      "rules": [
+        "Structure : [Sujet / Pronom] + 呢 ？",
+        "Signifie littéralement 'Et qu'en est-il de... ?' ou 'Et... ?'"
+      ],
+      "examples": [
+        {
+          "structure": "我很好，你呢？ (Wǒ hěn hǎo, nǐ ne?)",
+          "phonetic_api": "/wo˧˥ xən˨˩˦ xaʊ̯˨˩˦ ni nɤ/",
+          "meaning": "Je vais très bien, et toi ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "张明 (Zhang Ming - Employé)",
+      "text": "王经理，您好！早上好。",
+      "phonetic_api": "/waŋ˧˥ tɕiŋ˥ li˨˩˦ nin˧˥ xaʊ̯˨˩˦ tsaʊ̯˨˩˦ ʂaŋ xaʊ̯˨˩˦/",
+      "phonetic_simple": "OUANG TCHING-LEE, NEEN HAO ! DZAO-CHANG HAO.",
+      "translation": "Bonjour Directeur Wang ! Bon matin."
+    },
+    {
+      "speaker": "王经理 (Manager Wang)",
+      "text": "小张，你好。你怎么样？工作忙吗？",
+      "phonetic_api": "/ɕi̯aʊ̯˨˩˦ tʂaŋ˥ ni˧˥ xaʊ̯˨˩˦ ni˨˩˦ tsən˨˩˦ mɤ jaŋ˥˩ kuŋ˥ dzwɔ˥˩ maŋ˧˥ ma/",
+      "phonetic_simple": "CHIAO DZANG, NEE HAO. NEE DZEN-MEU YANG ? GONG-DZOUO MANG MA ?",
+      "translation": "Bonjour jeune Zhang. Comment vas-tu ? Le travail est-il prenant ?"
+    },
+    {
+      "speaker": "张明 (Zhang Ming - Employé)",
+      "text": "我很好，不太多。谢谢您关心。",
+      "phonetic_api": "/wo˧˥ xən˨˩˦ xaʊ̯˨˩˦ bu˥˩ taɪ̯˥˩ dwɔ˥ ɕi̯ɛ˥˩ ɕi̯ɛ nin˧˥ kwan˥ ɕin˥/",
+      "phonetic_simple": "OUO HEUN HAO, BOU TAÏ DOUO. CHIEH-CHIEH NEEN GOUAN-CHIN.",
+      "translation": "Je vais très bien, pas trop (occupé). Merci de votre sollicitude."
+    },
+    {
+      "speaker": "王经理 (Manager Wang)",
+      "text": "不客气。那我去开会了，再见。",
+      "phonetic_api": "/bu˧˥ kʰɤ˥˩ tɕi na˥˩ wo˨˩˦ tɕy˥˩ kʰaɪ̯˥ hweɪ̯˥˩ lɤ tsaɪ̯˥˩ tɕi̯ɛn˥˩/",
+      "phonetic_simple": "BOU-KHEU-TCHEE. NA OUO TCHY KHAÏ-HOUAY LEU, DZAÏ-TCHIEN.",
+      "translation": "Je t'en prie. Bien, je vais en réunion, au revoir."
+    },
+    {
+      "speaker": "张明 (Zhang Ming - Employé)",
+      "text": "经理再见，明天见！",
+      "phonetic_api": "/tɕiŋ˥ li˨˩˦ tsaɪ̯˥˩ tɕi̯ɛn˥˩ miŋ˧˥ tʰi̯ɛn˥ tɕi̯ɛn˥˩/",
+      "phonetic_simple": "TCHING-LEE DZAÏ-TCHIEN, MING-THIEN TCHIEN !",
+      "translation": "Au revoir Directeur, à demain !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture chinoise contemporaine, saluer en utilisant le titre professionnel combiné au nom de famille (ex : 王经理 Wáng jīnglǐ) est une marque indispensable d'intégration et de respect en entreprise. Saluer uniquement par un simple '你好' un supérieur peut paraître trop distant ou familier.",
+    "Le concept de 'Mianzi' (Face sociale) implique de ne jamais mettre mal à l'aise son interlocuteur. Ainsi, lorsqu'on vous demande '你怎么样？' (Comment ça va ?), l'étiquette standard exige de répondre positivement par '我很好' ou '还可以' (Ça va), même si vous rencontrez des difficultés, afin de préserver l'harmonie immédiate de l'échange.",
+    "Les salutations physiques diffèrent de l'Occident. La bise est inexistante et jugée intrusive. Une poignée de main légère, accompagnée d'un léger hochement de tête respectueux, est la norme actuelle en milieu urbain. Pour un respect accru envers un aîné, on saisit l'objet ou la carte de visite à deux mains."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Si vous rencontrez le doyen de votre université ou un client d'affaires majeur le matin, quelle est l'association de termes la plus respectueuse à utiliser ?",
+      "options": [
+        "你好，老师 (Nǐ hǎo, lǎoshī)",
+        "您好，早上好 (Nín hǎo, zǎoshang hǎo)",
+        "大家好，下午好 (Dàjiā hǎo, xiàwǔ hǎo)"
+      ],
+      "correct_answer": "您好，早上好 (Nín hǎo, zǎoshang hǎo)",
+      "explanation": "L'utilisation du pronom de déférence '您' (nín) combiné avec la salutation temporelle spécifique du matin '早上好' démontre un respect total du statut et du temps de votre interlocuteur."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A: 对不起，我来晚了。 B: [ ___ ]，没关系，请进。",
+      "correct_answer": "没关系",
+      "hint": "Formule standard de politesse pour répondre à des excuses et signifier que l'incident n'est pas grave."
+    }
+  ]
+}

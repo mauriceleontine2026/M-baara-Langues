@@ -1,0 +1,154 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire les différentes parties de sa maison et leur fonction en Baga",
+    "Exprimer la localisation de son logement au sein de la ville ou du village",
+    "Comparer les types d'habitats côtiers et urbains"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Au niveau intermédiaire, l'accent est mis sur les variations d'intonation lors de la dérivation des mots. Le terme pour la chambre, 'gbɔ́n-lɔ̀', exige une co-articulation labio-vélaire /gɓ/ sur un ton haut court suivi d'un ton bas sur la postposition intégrée.",
+    "common_pitfalls": "Attention à ne pas assimiler le /gɓ/ de 'gbɔ́n' à un /b/ simple. L'occlusion doit partir simultanément du voile du palais et des lèvres."
+  },
+  "vocabulary": [
+    {
+      "word_id": "b201",
+      "term": "gbɔ́n-lɔ̀",
+      "phonetic_api": "/gɓɔ́n lɔ̀/",
+      "phonetic_simple": "GBON-LO",
+      "translation": "chambre / intérieur de la maison",
+      "example_sentence": "Mə̀ táa n gbɔ́n-lɔ̀ fɛ̀ɛ̀",
+      "example_phonetic": "/mə̀ táː ⁿgɓón lɔ̀ fɛ̀ː/",
+      "example_translation": "Je vais dans ma chambre"
+    },
+    {
+      "word_id": "b202",
+      "term": "lò-su",
+      "phonetic_api": "/lò su/",
+      "phonetic_simple": "LO-SOO",
+      "translation": "ville / centre urbain / grand marché",
+      "example_sentence": "Lò-su mu kpáː di táàn",
+      "example_phonetic": "/lò su mu kpáː di taːn/",
+      "example_translation": "La ville est vraiment très grande"
+    },
+    {
+      "word_id": "b203",
+      "term": "sɔ̀-gbɔ́n",
+      "phonetic_api": "/sɔ̀ gɓɔ́n/",
+      "phonetic_simple": "SO-GBON",
+      "translation": "douche / salle de bain (case d'eau)",
+      "example_sentence": "Sɔ̀-gbɔ́n mu kɔ̀-kɔ́ ka di",
+      "example_phonetic": "/sɔ̀ gɓɔ́n mu kɔ̀ kɔ́ ka di/",
+      "example_translation": "La douche est située à l'arrière"
+    },
+    {
+      "word_id": "b204",
+      "term": "gbɛ̀lɛ̀",
+      "phonetic_api": "/gɓɛ̀lɛ̀/",
+      "phonetic_simple": "GBÈ-LÈ",
+      "translation": "cour / concession familiale",
+      "example_sentence": "Bədɛ̀n bə̀ fén gbɛ̀lɛ̀ lɔ̀",
+      "example_phonetic": "/ɓədɛ̀n ɓə̀ fén gɓɛ̀lɛ̀ lɔ̀/",
+      "example_translation": "Les enfants s'amusent dans la cour"
+    },
+    {
+      "word_id": "b205",
+      "term": "táá-gbɔ́n",
+      "phonetic_api": "/táː gɓɔ́n/",
+      "phonetic_simple": "TAA-GBON",
+      "translation": "cuisine / case à feu",
+      "example_sentence": "N ŋá mu táá-gbɔ́n lɔ̀",
+      "example_phonetic": "/ⁿŋá mu táː gɓɔ́n lɔ̀/",
+      "example_translation": "Ma mère est dans la cuisine"
+    },
+    {
+      "word_id": "b206",
+      "term": "siì-yia",
+      "phonetic_api": "/siː jia/",
+      "phonetic_simple": "SII-YIA",
+      "translation": "quartier / lieu de résidence",
+      "example_sentence": "Ní siì-yia mu ɲí di",
+      "example_phonetic": "/ní siː jia mu ɲí di/",
+      "example_translation": "Mon quartier est agréable"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "bp201",
+      "original": "Ní gbɔ́n mu lò-su siì-yia ka di",
+      "phonetic_api": "/ní gɓɔ́n mu lò su siː jia ka di/",
+      "phonetic_simple": "NII GBON MOO LO-SOO SII-YIA KA DI",
+      "translation": "Ma maison est située dans le quartier de la ville.",
+      "context": "Décrire son lieu d'habitation à un visiteur"
+    },
+    {
+      "phrase_id": "bp202",
+      "original": "I gbɔ́n-lɔ̀ bə̀nə̀ŋ mu ya di ?",
+      "phonetic_api": "/i gɓɔ́n lɔ̀ ɓə̀nə̀ŋ mu di ja/",
+      "phonetic_simple": "I GBON-LO BÈ-NÈNG MOO DI YA ?",
+      "translation": "Combien de chambres y a-t-il dans cette maison ?",
+      "context": "S'informer sur la taille d'une habitation"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'extension sémantique des postpositions résidentielles : -lɔ̀ vs ka",
+      "explanation": "En Baga intermédiaire, pour parler des espaces intérieurs ou clos du logement, on suffixe le nom par l'élément d'intériorité '-lɔ̀' (dans). À l'inverse, pour désigner un quartier ou un espace de surface ouvert, on utilise obligatoirement la postposition 'ka' (sur/à).",
+      "rules": [
+        "Espace délimité ou clos (chambre, cuisine) = Nom + lɔ̀.",
+        "Espace ouvert ou étendu (quartier, route) = Nom + ka."
+      ],
+      "examples": [
+        {
+          "structure": "gbɔ́n (maison) + lɔ̀ (dans)",
+          "phonetic_api": "/gɓɔ́n lɔ̀/",
+          "meaning": "À l'intérieur de la maison"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Temba",
+      "text": "Sékou, i gbɔ́n siì-yia mu mí ka di ya ?",
+      "phonetic_api": "/sɛku i gɓásá siː jia mu mí ka di ja/",
+      "phonetic_simple": "SÉ-KOO, I GBON SII-YIA MOO MII KA DI YA ?",
+      "translation": "Sékou, où se trouve ton quartier résidentiel maintenant ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "N gbɔ́n mu lò-su kíɛ̀ ka di. A bɛ̀ɛ̀ gbɔ́n-lɔ̀ bhààhà kàn táá-gbɔ́n dúu di.",
+      "phonetic_api": "/ⁿgɓón mu lò su kíɛ̀ ka di a ɓɛ̀ː gɓɔ́n lɔ̀ ɓàːhà kàn táː gɓɔ́n dúː di/",
+      "phonetic_simple": "N GBON MOO LO-SOO KII-È KA DI. A BÈÈ GBON-LO BHAA-HA KAN TAA-GBON DOO DI.",
+      "translation": "Ma maison est située sur la route de la ville. Elle comporte trois chambres et une cuisine."
+    }
+  ],
+  "cultural_notes": [
+    "L'architecture traditionnelle Baga se caractérise par de grandes concessions familiales ('gbɛ̀lɛ̀'). Même en milieu urbain ou semi-urbain (comme à Boké ou Kamsar), la cour reste le lieu central de socialisation et de palabre entre voisins."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M1_L1_ex1",
+      "type": "multiple_choice",
+      "question": "Quel terme désigne la cuisine en Baga ?",
+      "options": [
+        "sɔ̀-gbɔ́n",
+        "táá-gbɔ́n",
+        "gbɔ́n-lɔ̀"
+      ],
+      "correct_answer": "táá-gbɔ́n",
+      "explanation": "'táá-gbɔ́n' combine l'idée de feu/cuisson et de case."
+    },
+    {
+      "exercise_id": "B1_M1_L1_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mə̀ táa n gbɔ́n [ ___ ] fɛ̀ɛ̀ (Je vais dans ma chambre).",
+      "correct_answer": "lɔ̀",
+      "hint": "Postposition d'intériorité de deux lettres"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Formuler une question polie pour s'enquérir d'une direction ou d'un lieu public",
+    "Comprendre et appliquer les adverbes de lieu et les indicateurs spatiaux fondamentaux",
+    "Saisir des instructions d'orientation simples (gauche, droite, tout droit, devant, derrière)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon se focalise sur les consonnes de localisation. Le /q/ (ق) de 'Karīb' (proche) et 'Mustaqīm' (tout droit) est une occlusive uvulaire sourde qui demande un blocage de l'air très en arrière du palais. Le sound emphatique /sˤ/ (ص) structure le mot 'Yamīn' (droite) via la coloration grave de sa voyelle voisine, et le /sh/ (ش) apparaît dans 'Shimāl' (gauche) ou 'Shāri'' (rue).",
+    "common_pitfalls": "Attention à ne pas assimiler le /q/ (ق) au /k/ (ك) qui est beaucoup plus en avant dans la bouche. Une confusion entre 'Karīb' (قَرِيب - proche) et une prononciation erronée en /k/ peut masquer le mot. Marquez également l'aspiration et le point d'arrêt dans 'Yasār' (يَسَار - gauche)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "طَرِيقٌ",
+      "phonetic_api": "/tˤa.riː.qun/",
+      "phonetic_simple": "TA-RII-KOUN",
+      "translation": "Un chemin / Une route",
+      "example_sentence": "الطَّرِيقُ طَوِيلٌ",
+      "example_phonetic": "/atˤ.tˤa.riː.qu tˤa.wiː.lun/",
+      "example_translation": "Le chemin est long"
+    },
+    {
+      "word_id": "v2",
+      "term": "شَارِعٌ",
+      "phonetic_api": "/ʃaː.ri.ʕun/",
+      "phonetic_simple": "CHAA-RI-OUN",
+      "translation": "Une rue / Un boulevard",
+      "example_sentence": "أَنَا فِي هَذَا الشَّارِعِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Je suis dans cette rue"
+    },
+    {
+      "word_id": "v3",
+      "term": "مَحَطَّةٌ",
+      "phonetic_api": "/ma.ħatˤ.tˤa.tun/",
+      "phonetic_simple": "MA-HAT-TA-TOUN",
+      "translation": "Une station / Une gare",
+      "example_sentence": "مَحَطَّةُ الْقِطَارِ",
+      "example_phonetic": "/ma.ħatˤ.tˤa.tul qi.tˤaː.ri/",
+      "example_translation": "La gare ferroviaire"
+    },
+    {
+      "word_id": "v4",
+      "term": "فُنْدُقٌ",
+      "phonetic_api": "/fun.du.qun/",
+      "phonetic_simple": "FOUN-DOU-KOUN",
+      "translation": "Un hôtel",
+      "example_sentence": "أَيْنَ الْفُنْدُقُ؟",
+      "example_phonetic": "/ʔaj.nal fun.du.qu/",
+      "example_translation": "Où est l'hôtel ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "يَمِينٌ",
+      "phonetic_api": "/ja.miː.nun/",
+      "phonetic_simple": "YA-MII-NOUN",
+      "translation": "Droite (direction)",
+      "example_sentence": "اتَّجِهْ إِلَى الْيَمِينِ",
+      "example_phonetic": "/it.ta.dʒih ʔi.laː l.ja.miː.ni/",
+      "example_translation": "Tourne à droite"
+    },
+    {
+      "word_id": "v6",
+      "term": "يَسَارٌ",
+      "phonetic_api": "/ja.saː.run/",
+      "phonetic_simple": "YA-SAA-ROUN",
+      "translation": "Gauche (direction - synonyme de Shimāl)",
+      "example_sentence": "الْمَسْجِدُ عَلَى الْيَسَارِ",
+      "example_phonetic": "/.../",
+      "example_translation": "La mosquée est sur la gauche"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "أَيْنَ الْمَحَطَّةُ مِنْ فَضْلِكَ؟",
+      "phonetic_api": "/ʔaj.nal ma.ħatˤ.tˤa.tu min fadˤ.li.ka/",
+      "phonetic_simple": "AY-NAL MA-HAT-TA-TOU MIN FAD-LI-KA",
+      "translation": "Où est la gare, s'il te plaît ? (à un homme)",
+      "context": "Demande d'orientation classique et courante dans l'espace public."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "هَلِ الْمَسْتَشْفَى قَرِيبٌ مِنْ هُنَا؟",
+      "phonetic_api": "/halil mus.taʃ.faː qa.riː.bun min hu.naː/",
+      "phonetic_simple": "HA-LIL MOUS-TACH-FAA KA-RII-BOUN MIN HOU-NAA",
+      "translation": "Est-ce que l'hôpital est proche d'ici ?",
+      "context": "S'enquérir d'une distance de sécurité ou d'un besoin médical immédiat."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "اِذْهَبْ دَائِمًا إِلَى الأَمَامِ",
+      "phonetic_api": "/ið.hab daː.ʔi.man ʔi.laː l.ʔa.maː.mi/",
+      "phonetic_simple": "ITH-HAB DAA-I-MAN I-LAL A-MAA-MI",
+      "translation": "Va toujours tout droit",
+      "context": "Instruction typique donnée par un passant pour indiquer de continuer sur la même voie."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "عَلَى الْيَمِينِ ثُمَّ عَلَى الْيَسَارِ",
+      "phonetic_api": "/ʕa.laː l.ja.miː.ni θum.ma ʕa.laː l.ja.saː.ri/",
+      "phonetic_simple": "A-LAL YA-MII-NI THOUM-MA A-LAL YA-SAA-RI",
+      "translation": "À droite puis à gauche",
+      "context": "Enchaînement d'instructions de direction."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "أَنَا تَائِهٌ، سَاعِدْنِي مِنْ فَضْلِكَ",
+      "phonetic_api": "/ʔa.naː taː.ʔi.hun saː.ʕid.niː min fadˤ.li.ka/",
+      "phonetic_simple": "A-NAA TAA-I-HOUN SAA-ID-NII MIN FAD-LI-KA",
+      "translation": "Je suis perdu, aide-moi s'il te plaît (par un homme)",
+      "context": "Demande de secours immédiate pour un voyageur égaré."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "الْمَوْقِعُ بَعِيدٌ جِدًّا",
+      "phonetic_api": "/al.maw.qi.ʕu ba.ʕiː.dun dʒid.dan/",
+      "phonetic_simple": "AL-MAW-KI-OU BA-II-DOUN DJID-DAN",
+      "translation": "L'emplacement est très loin",
+      "context": "Constat de distance géographique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'interrogatif de lieu : Ayna (أَيْنَ) et l'article de liaison",
+      "explanation": "Pour demander la localisation d'un objet ou d'un lieu, on place la particule 'Ayna' (Où) en tête de phrase nominale.",
+      "rules": [
+        "La structure est directe : 'Ayna' + Le lieu défini par l'article 'Al-'.",
+        "Lors de la prononciation continue, la voyelle finale de 'Ayna' s'enchaîne avec la consonne de l'article défini, élidant le son de l'Alif de liaison (Hamzat al-wasl). On prononce ainsi 'Ayna l-funduqu'."
+      ],
+      "examples": [
+        {
+          "structure": "أَيْنَ السُّوقُ؟",
+          "phonetic_api": "/ʔaj.nas suː.qu/",
+          "meaning": "Où est le marché ? (liaison avec la lettre solaire Sīn)"
+        },
+        {
+          "structure": "أَيْنَ الْمَطْعَمُ؟",
+          "phonetic_api": "/ʔaj.nal matˤ.ʕa.mu/",
+          "meaning": "Où est le restaurant ? (liaison avec la lettre lunaire Mīm)"
+        }
+      ]
+    },
+    {
+      "concept": "Les prépositions et adverbes spatiaux : Zuroof al-Makān",
+      "explanation": "Les repères spatiaux agissent comme des modificateurs de cas. Les noms ou adverbes de lieu qui suivent des prépositions comme 'Amāma' (devant) ou 'Khalfa' (derrière) se placent impérativement au cas indirect.",
+      "rules": [
+        "Amāma (أَمَامَ) : Devant / En face de.",
+        "Khalfa (خَلْفَ) / Warā'a (وَرَاءَ) : Derrière.",
+        "Le nom déterminé qui suit ces indicateurs prend la voyelle courte Kasra de la déclinaison génitive (Idafah)."
+      ],
+      "examples": [
+        {
+          "structure": "أَمَامَ الْفُنْدُقِ",
+          "phonetic_api": "/ʔa.maː.mal fun.du.qi/",
+          "meaning": "Devant l'hôtel (Funduq se termine par une Kasra)"
+        },
+        {
+          "structure": "خَلْفَ الْمَحَطَّةِ",
+          "phonetic_api": "/xal.fal ma.ħatˤ.tˤa.ti/",
+          "meaning": "Derrière la gare"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "سَائِحٌ (Un touriste)",
+      "text": "عَفْوًا يَا سَيِّدِي، أَيْنَ مَحَطَّةُ الْمِتْرُو مِنْ فَضْلِكَ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AF-OUAN YA SAY-YI-DII, AY-NA MA-HAT-TA-TOUL MIT-ROU MIN FAD-LI-KA",
+      "translation": "Excusez-moi monsieur, où est la station de métro s'il vous plaît ?"
+    },
+    {
+      "speaker": "مُوَاطِنٌ (Un citoyen)",
+      "text": "الْمَحَطَّةُ لَيْسَتْ بَعِيدَةً. اِذْهَبْ إِلَى الأَمَامِ فِي هَذَا الشَّارِعِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AL-MA-HAT-TA-TOU LAYS-SAT BA-II-DA. ITH-HAB I-LAL A-MAA-MI FII HAA-THACH-CHAA-RI",
+      "translation": "La station n'est pas loin. Va tout droit dans cette rue."
+    },
+    {
+      "speaker": "سَائِحٌ (Un touriste)",
+      "text": "ثُمَّ أَيْنَ أَتَّجِهُ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "THOUM-MA AY-NA AT-TA-DJI-HOU",
+      "translation": "Puis, où dois-je tourner ?"
+    },
+    {
+      "speaker": "مُوَاطِنٌ (Un citoyen)",
+      "text": "خُذْ أَوَّلَ شَارِعٍ عَلَى الْيَمِينِ، الْمَحَطَّةُ أَمَامَ الْمَصْرِفِ عَدَلًا.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "KHUTH AW-WA-LA CHAA-RI-IN A-LAL YA-MII-NI, AL-MA-HAT-TA-TOU A-MAA-MAL MAS-RI-FI A-DA-LAN",
+      "translation": "Prends la première rue à droite, la station est juste en face de la banque."
+    },
+    {
+      "speaker": "سَائِحٌ (Un touriste)",
+      "text": "شُكْرًا جَزِيلًا لَكَ عَلَى الْمُسَاعَدَةِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "CHOUK-RAN DJA-ZII-LAN LA-KA A-LAL MOU-SAA-A-DA",
+      "translation": "Merci beaucoup à vous pour l'aide."
+    },
+    {
+      "speaker": "مُوَاطِنٌ (Un citoyen)",
+      "text": "عَفْوًا، رِحْلَةً سَعِيدَةً ! مَعَ السَّلَامَةِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AF-OUAN, RIH-LA-TAN SAA-II-DA ! MA-A S-SA-LAA-MA",
+      "translation": "De rien, bon voyage ! Au revoir."
+    }
+  ],
+  "cultural_notes": [
+    "L'aide aux voyageurs : Demander son chemin dans les villes arabes donne presque toujours lieu à un échange chaleureux. Il n'est pas rare qu'un passant, par pure hospitalité, décide de marcher quelques dizaines de mètres avec vous pour s'assurer que vous trouviez la bonne direction.",
+    "L'usage des repères visuels : L'orientation se fait traditionnellement beaucoup plus par rapport à des monuments ou enseignes emblématiques (la grande mosquée, une banque connue, une place publique) plutôt que par les numéros de bâtiments ou de rues."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L7_ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'instruction de mouvement : 'اتَّجِهْ إِلَى الْيَمِينِ' (Ittajih ilā l-yamīn) ?",
+      "options": [
+        "Tourne à gauche",
+        "Tourne à droite",
+        "Va tout droit"
+      ],
+      "correct_answer": "Tourne à droite",
+      "explanation": "Yamīn désigne la droite en arabe standard."
+    },
+    {
+      "exercise_id": "A1_M3_L7_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Où est l'hôtel ?', on formule la phrase nominale : [ ___ ] الْفُنْدُقُ ؟",
+      "correct_answer": "أَيْنَ",
+      "hint": "C'est l'adverbe interrogatif de lieu universel."
+    },
+    {
+      "exercise_id": "A1_M3_L7_ex3",
+      "type": "multiple_choice",
+      "question": "Si la station se trouve 'أَمَامَ الْمَسْجِدِ' (Amāma l-masjidi), où est-elle placée ?",
+      "options": [
+        "Derrière la mosquée",
+        "À côté de la mosquée",
+        "Devant la mosquée"
+      ],
+      "correct_answer": "Devant la mosquée",
+      "explanation": "L'adverbe spatial 'Amāma' se traduit par 'devant' ou 'en face de'."
+    }
+  ]
+}

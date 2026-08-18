@@ -1,0 +1,273 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés",
+  "learning_objectives": [
+    "Maîtriser les temps composés complexes combinant l'auxiliaire 'Kuwa' au passé/futur avec des participes spécifiques",
+    "Exprimer l'aspect continu du passé, le conditionnel passé révolu et le futur antérieur",
+    "Manipuler les infixes relatifs imbriqués dans les structures temporelles complexes (-cho-, -lo-, etc.)",
+    "Nuancer le discours formel en utilisant les formes verbales figées et les participes invariables"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le niveau avancé exige une fluidité parfaite dans l'accentuation des formes verbales composées. Lors de l'enchaînement de l'auxiliaire et du verbe principal (ex: 'Walikuwa wanasoma'), l'accent tonique frappe l'avant-dernière syllabe de CHAQUE mot : wa-li-KU-wa wa-na-SO-ma. Les constructions relatives imbriquées comme 'Alichokuwa amekisema' demandent une articulation précise du 'ch' palatal [tʃ] et du 'k' vélaire [k] sans élision.",
+    "common_pitfalls": "Évitez de fusionner phonétiquement l'auxiliaire 'Kuwa' avec le verbe qui le suit au point de faire disparaître la voyelle finale '-a'. Prenez le temps de détacher subtilement les deux entités verbales pour préserver la clarté syntaxique requise dans un registre soutenu."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Muktadha",
+      "phonetic_api": "/muˈkta.ðha/",
+      "phonetic_simple": "MOO-KTAH-ZHAH",
+      "translation": "Contexte / Conjoncture / Cadre",
+      "example_sentence": "Ni muhimu kuchambua hotuba hii katika muktadha wake wa kihistoria.",
+      "example_phonetic": "/ni muˈhi.mu ku.tʃaˈmbu.a hɔˈtu.ba ˈhi.i kaˈti.ka muˈkta.ðha ˈwa.kɛ wa ki.hiˈstɔ.ri.a/",
+      "example_translation": "Il est crucial d'analyser ce discours dans sa conjoncture historique."
+    },
+    {
+      "word_id": "v2",
+      "term": "Madhumuni",
+      "phonetic_api": "/ma.ðhuˈmu.ni/",
+      "phonetic_simple": "MAH-ZHOO-MOO-NEE",
+      "translation": "Buts / Intentions / Objectifs ultimes / Visées",
+      "example_sentence": "Madhumuni ya mabadiliko haya ya sheria bado hayajabainika.",
+      "example_phonetic": "/ma.ðhuˈmu.ni ja ma.ba.diˈli.kɔ ˈha.ja ja ʃɛˈri.a ˈba.dɔ ha.ja.dʒa.ba.iˈni.ka/",
+      "example_translation": "Les visées profondes de cette réforme législative ne sont pas encore élucidées."
+    },
+    {
+      "word_id": "v3",
+      "term": "Kudhihirisha",
+      "phonetic_api": "/ku.ði.hiˈri.ʃa/",
+      "phonetic_simple": "KOO-ZEE-HEE-REE-SHAH",
+      "translation": "Manifester / Démontrer / Mettre en évidence / Manifester",
+      "example_sentence": "Utafiti wake umedhihirisha ukweli wa nadharia hiyo.",
+      "example_phonetic": "/u.taˈfi.ti ˈwa.kɛ u.mɛ.ði.hiˈri.ʃa uˈkwɛ.li wa na.ðaˈri.a ˈhi.jɔ/",
+      "example_translation": "Ses recherches ont mis en évidence la véracité de cette théorie."
+    },
+    {
+      "word_id": "v4",
+      "term": "Dhana",
+      "phonetic_api": "/ˈða.na/",
+      "phonetic_simple": "ZHAH-NAH",
+      "translation": "Concept / Notion / Théorie abstracte",
+      "example_sentence": "Mwandishi anafafanua dhana ya utambulisho wa kitamaduni.",
+      "example_phonetic": "/mwaˈndi.ʃi a.na.fa.faˈnu.a ˈða.na ja u.ta.mbuˈli.ʃɔ wa ki.ta.maˈdu.ni/",
+      "example_translation": "L'auteur explicite la notion d'identité culturelle."
+    },
+    {
+      "word_id": "v5",
+      "term": "Kukisia",
+      "phonetic_api": "/ku.kiˈsi.a/",
+      "phonetic_simple": "KOO-KEE-SEE-AH",
+      "translation": "Estimer / Conjecturer / Présumer / Évaluer approximativement",
+      "example_sentence": "Wataalamu wanakisia kwamba uchumi utakuwa kwa kasi.",
+      "example_phonetic": "/wa.taˈa.la.mu wa.na.kiˈsi.a ˈkwa.mba uˈtʃu.mi u.taˈku.wa kwa ˈka.si/",
+      "example_translation": "Les experts conjecturent que l'économie croîtra à un rythme soutenu."
+    },
+    {
+      "word_id": "v6",
+      "term": "Mtazamo",
+      "phonetic_api": "/m.taˈza.mɔ/",
+      "phonetic_simple": "M-TAH-ZAH-MOH",
+      "translation": "Perspective / Point de vue / Vision / Posture analytique",
+      "example_sentence": "Tunapaswa kubadili mtazamo wetu kuhusu changamoto hizi.",
+      "example_phonetic": "/tu.naˈpa.swa ku.baˈdi.li m.taˈza.mɔ ˈwɛ.tu kuˈhu.su tʃa.ŋgaˈmɔ.tɔ ˈhi.zi/",
+      "example_translation": "Nous nous devons de modifier notre posture analytique face à ces défis."
+    },
+    {
+      "word_id": "v7",
+      "term": "Kuhakiki",
+      "phonetic_api": "/ku.ha.kiˈki/",
+      "phonetic_simple": "KOO-HAH-KEE-KEE",
+      "translation": "Vérifier / Authentifier / Passer en revue de manière critique",
+      "example_sentence": "Kamati itahakiki nyaraka zote zilizowasilishwa.",
+      "example_phonetic": "/kaˈma.ti i.ta.ha.kiˈki ɲaˈra.ka ˈzɔ.tɛ zi.li.zɔ.wa.siˈli.ʃwa/",
+      "example_translation": "Le comité passera en revue de manière critique l'ensemble des documents soumis."
+    },
+    {
+      "word_id": "v8",
+      "term": "Hitimisho",
+      "phonetic_api": "/hi.tiˈmi.ʃɔ/",
+      "phonetic_simple": "HEE-TEE-MEE-SHOH",
+      "translation": "Conclusion / Déduction finale / Épilogue",
+      "example_sentence": "Hitimisho la mhadhiri liliwaacha wasikilizaji na maswali mengi.",
+      "example_phonetic": "/hi.tiˈmi.ʃɔ la m.haˈðhi.ri li.li.waˈa.tʃa wa.si.ki.liˈza.dʒi na ma.swaˈli ˈɲi.ŋgi/",
+      "example_translation": "La déduction finale du conférencier a laissé l'auditoire avec de nombreuses interrogations."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Walikuwa wakijadili masuala hayo mgeni alipoingia.",
+      "phonetic_api": "/wa.liˈku.wa wa.ki.dʒaˈdi.li maˈswa.la ˈha.jɔ mˈgɛ.ni a.li.pɔ.iˈŋgi.a/",
+      "phonetic_simple": "WAH-LEE-KOO-WAH WAH-KEE-DJAH-DEE-LEE MAH-SWAH-LAH HAH-YAH MGEH-NEE AH-LEE-POH-EEN-GEE-AH",
+      "translation": "Ils étaient en train de débattre de ces questions lorsque l'invité est entré.",
+      "context": "Usage de l'imparfait continu avec l'infixe participial -ki- pour une action de fond."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Ningekuwa nimeshamaliza ripoti ile kama ungalinisaidia.",
+      "phonetic_api": "/ni.ŋgɛˈku.wa ni.mɛ.ʃa.maˈli.za riˈpɔ.ti ˈi.lɛ ˈka.ma u.ŋga.li.ni.sa.iˈdi.a/",
+      "phonetic_simple": "NEEN-GEH-KOO-WAH NEE-MEH-SHAH-MAH-LEE-ZAH REE-POH-TEE EE-LEH KAH-MAH OON-GAH-LEE-NEE-SAH-EE-DEE-AH",
+      "translation": "J'aurais déjà parachevé ce rapport si tu m'avais prêté assistance.",
+      "context": "Construction avancée du conditionnel passé révolu non réalisé."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Kufikia kesho asubuhi, watakuwa wameshawasili marudio yao.",
+      "phonetic_api": "/ku.fi.kiˈa ˈkɛ.ʃɔ a.suˈbu.hi wa.taˈku.wa wa.mɛ.ʃa.wa.siˈli ma.ru.diˈɔ ˈja.ɔ/",
+      "phonetic_simple": "KOO-FEE-KEE-AH KEH-SHOH AH-SOO-BOO-HEE WAH-TAH-KOO-WAH WAH-MEH-SHAH-WAH-SEE-LEE MAH-ROO-DEE-OH YAH-OH",
+      "translation": "D'ici demain matin, ils auront déjà atteint leur destination finale.",
+      "context": "Expression du futur antérieur traduisant une certitude ou un bilan anticipé."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Lile jambo alilokuwa amelifanya lilizua mjadala mzito.",
+      "phonetic_api": "/ˈli.lɛ ˈdʒa.mbɔ a.li.lɔˈku.wa a.mɛ.liˈfa.ɲa li.liˈzu.a mˈdʒa.da.la mˈzu.ri/",
+      "phonetic_simple": "LEE-LEH DJAH-MBOH AH-LEE-LOH-KOO-WAH AH-MEH-LEE-FAH-NYAH LEE-LEE-ZOO-AH M-DJAH-DAH-LAH MZEE-TOH",
+      "translation": "Cet acte qu'il avait accompli a suscité une vive et lourde controverse.",
+      "context": "Proposition relative imbriquée au plus-que-parfait avec accord d'objet."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Ingawa walikuwa wamejitayarisha, hawakutarajia upinzani huo.",
+      "phonetic_api": "/i.ŋgaˈwa wa.liˈku.wa wa.mɛ.dʒi.ta.jaˈri.ʃa ha.wa.ku.ta.raˈdʒi.a u.piˈnza.ni ˈhu.u/",
+      "phonetic_simple": "EEN-GAH-WAH WAH-LEE-KOO-WAH WAH-MEH-DJEE-TAH-YAH-REE-SHAH HAH-WAH-KOO-TAH-RAH-DJEE-AH OO-PEEN-ZAH-NEE HOO-OO",
+      "translation": "Bien qu'ils se fussent préparés, ils ne s'attendaient point à une telle opposition.",
+      "context": "Récit formel maniant la concession et l'antériorité narrative."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Kesi hiyo ingalikuwa imesikilizwa mapema, haki ingalipatikana.",
+      "phonetic_api": "/ˈkɛ.si ˈhi.jɔ i.ŋga.liˈku.wa i.mɛ.si.ki.liˈzwa maˈpɛ.ma ˈha.ki i.ŋga.li.pa.tiˈka.na/",
+      "phonetic_simple": "KEH-SEE HEE-YOH EEN-GAH-LEE-KOO-WAH EE-MEH-SEE-KEE-LEEZ-WAH MAH-PEH-MAH HAH-KEE EEN-GAH-LEE-PAH-TEE-KAH-NAH",
+      "translation": "Si cette cause avait été entendue plus tôt, justice aurait été rendue.",
+      "context": "Registre soutenu de la rhétorique juridique ou journalistique."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Mazingira hayo yalidhihirisha kile walichokuwa wakihofia.",
+      "phonetic_api": "/ma.zi.ŋgiˈra ˈha.jɔ ja.li.ði.hiˈri.ʃa ˈki.lɛ wa.li.tʃɔˈku.wa wa.ki.hɔ.fiˈa/",
+      "phonetic_simple": "MAH-ZEEN-GEE-RAH HAH-YAH YAH-LEE-ZEE-HEE-REE-SHAH KEE-LEH WAH-LEE-CHOH-KOO-WAH WAH-KEE-HOH-FEE-AH",
+      "translation": "Ces circonstances mettaient en exergue ce qu'ils redoutaient précisément.",
+      "context": "Analyse critique liant un constat présent à un état psychologique passé continu."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Uamuzi huo utakuwa umebadilisha mkondo wa historia yetu.",
+      "phonetic_api": "/u.aˈmu.zi ˈhu.u u.taˈku.wa u.mɛ.ba.diˈli.ʃa mˈkɔ.ndɔ wa hi.stiˈri.a ˈjɛ.tu/",
+      "phonetic_simple": "OO-AH-MOO-ZEE HOO-OO OO-TAH-KOO-WAH OO-MEH-BAH-DEE-LEE-SHAH MKOHN-DOH WAH HEE-STOH-REE-AH YEH-TOO",
+      "translation": "Cette sentence aura irrévocablement altéré le cours de notre histoire.",
+      "context": "Formulation projective solennelle quant aux conséquences à long terme."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'imparfait continu et l'antériorité via l'auxiliaire 'Kuwa' combiné",
+      "explanation": "Pour exprimer des nuances temporelles avancées (actions simultanées du passé ou actions interrompues), le swahili standard fait reposer sa structure sur l'auxiliaire 'Kuwa' (être) conjugué, suivi du verbe de sens porteur d'un infixe d'aspect spécifique.",
+      "rules": [
+        "Imparfait continu : Auxiliaire au passé historique (-li-) + Verbe principal à l'infixe de simultanéité '-ki-' ou au présent '-na-'. Exemple : 'Walikuwa wakisoma' (Ils étaient en train de lire).",
+        "Plus-que-parfait d'état installé : Auxiliaire au passé historique (-li-) + Verbe principal au parfait (-me-). Exemple : 'Alikuwa amesimama' (Il était debout / Il s'était levé)."
+      ],
+      "examples": [
+        {
+          "structure": "Wa-li-kuwa (Ils étaient) + wa-ki-chambua (en train d'analyser) = Walikuwa wakichambua",
+          "phonetic_api": "/wa.liˈku.wa wa.ki.tʃaˈmbu.a/",
+          "meaning": "Ils analysaient / Ils étaient en train d'analyser (action longue)"
+        },
+        {
+          "structure": "U-li-kuwa (Tu étais) + u-me-ficha (avoir caché) = Ulikuwa umeficha",
+          "phonetic_api": "/u.liˈku.wa u.mɛˈfi.tʃa/",
+          "meaning": "Tu avais dissimulé"
+        }
+      ]
+    },
+    {
+      "concept": "Le conditionnel passé irréel avec l'infixe avancé '-ngali-'",
+      "explanation": "Tandis que le niveau intermédiaire gère l'hypothèse réalisable avec '-ki-' ou '-nge-', l'expression avancée d'un regret ou d'un fait passé irréel et impossible à modifier recourt à l'infixe '-ngali-' inséré dans les deux propositions.",
+      "rules": [
+        "Proposition de condition : Sujet + -ngali- + Auxiliaire Kuwa + Verbe principal au parfait (-me-).",
+        "Proposition principale : Sujet + -ngali- + Verbe principal (souvent au parfait composé).",
+        "La structure traduit l'équivalent du 'si j'avais su, j'aurais...' du français."
+      ],
+      "examples": [
+        {
+          "structure": "Tu-ngali-kuwa (Si nous avions été) + tu-me-fika = Tungalikuwa tumefika",
+          "phonetic_api": "/tu.ŋga.liˈku.wa tu.mɛˈfi.ka/",
+          "meaning": "Si nous étions arrivés (mais nous ne le sommes pas)"
+        },
+        {
+          "structure": "A-ngali-faulu (Il aurait réussi) + mtihani = Angalifaulu mtihani",
+          "phonetic_api": "/a.ŋga.liˈfa.u.lu m.tiˈha.ni/",
+          "meaning": "Il aurait été reçu à l'épreuve (fait passé révolu)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Profesa Mwanzoni",
+      "text": "Karibu katika duka la fikra, Dkt. Linda. Nilikuwa nikipitia andiko lako jana usiku kabla ya kupokea ripoti ya kamati kuu.",
+      "phonetic_api": "/kaˈri.bu kaˈti.ka ˈdu.ka la ˈfi.kra dkt linda ni.liˈku.wa ni.ki.piˈti.a aˈndi.kɔ ˈla.kɔ ˈdʒa.na uˈsi.ku kaˈbla ya ku.pɔˈkɛ.a riˈpɔ.ti ja kaˈma.ti kuː/",
+      "phonetic_simple": "KAH-REE-BOO KAH-TEE-KA DOO-KAH LAH FEE-KRAH DKT LINDA NEE-LEE-KOO-WAH NEE-KEE-PEE-TEE-AH AH-NDEE-KOH LAH-KOH DJAH-NAH OO-SEE-KOO KAH-BLAH YAH KOO-POH-KEH-AH REE-POH-TEE YAH KAH-MAE-TEE KOO",
+      "translation": "Bienvenue au cercle de réflexion, Dr Linda. J'étais justement en train de passer en revue votre manuscrit hier soir avant de recevoir le rapport du comité central."
+    },
+    {
+      "speaker": "Dkt. Linda",
+      "text": "Asante, Profesa. Ningekuwa nimeshawasilisha marekebisho hayo wiki iliyopita kama ningalikuwa nimepokea takwimu zote za uwanjani kwa wakati.",
+      "phonetic_api": "/aˈsa.ntɛ profesa ni.ŋgɛˈku.wa ni.mɛ.ʃa.wa.siˈli.ʃa ma.rɛ.kɛˈbi.ʃɔ ˈha.jɔ ˈwi.ki i.li.jɔˈpi.ta ˈka.ma ni.ŋga.liˈku.wa ni.mɛ.pɔˈkɛ.a taˈkwi.mu ˈzɔ.tɛ za u.waˈndʒa.ni kwa wa.kaˈti/",
+      "phonetic_simple": "AH-SAHN-TEH PROH-FEH-SAH NEEN-GEH-KOO-WAH NEE-MEH-SHAH-WAH-SEE-LEE-SHAH MAH-REH-KEH-BEE-SHOH HAH-YAH WEE-KEE EE-LEE-YOH-PEE-TAH KAH-MAH NEEN-GAH-LEE-KOO-WAH NEE-MEH-POH-KEH-AH TAH-KWEE-MOO ZOH-TEH ZAH OO-WAHN-DJAH-NEE KWAH WAH-KAH-TEE",
+      "translation": "Merci, Professeur. J'aurais déjà soumis ces amendements la semaine dernière si j'avais été en possession de l'intégralité des données de terrain à temps."
+    },
+    {
+      "speaker": "Profesa Mwanzoni",
+      "text": "Fahamu kuwa makosa hayo yasingalileta athari zozote ikiwa maelekezo ya awali yangalikuwa yamegawanywa kwa usahihi kwa watafiti wote.",
+      "phonetic_api": "/faˈha.mu ˈku.wa maˈkɔ.sa ˈha.jɔ ja.si.ŋga.liˈlɛ.ta aˈθa.ri zɔˈzɔ.tɛ i.kiˈwa ma.ɛ.lɛˈkɛ.zɔ ja aˈwa.li ja.ŋga.liˈku.wa ja.mɛ.ga.waˈɲwa kwa u.saˈhi.hi kwa wa.taˈfi.ti ˈwɔ.tɛ/",
+      "phonetic_simple": "FAH-HAA-MOO KOO-WAH MAH-KOH-SAH HAH-YOH YAH-SEE-NGAH-LEE-LEH-TAH AH-THAH-REE ZOH-ZOH-TEH EE-KEE-WAH MAH-EH-LEH-KEH-ZOH YAH AH-WAH-LEE YAHN-GAH-LEE-KOO-WAH YAH-MEH-GAH-WAH-NYWA KWAH OO-SAH-HEE-HEE KWAH WAH-TAH-FEE-TEE WOH-TEH",
+      "translation": "Sachez que ces bévues n'auraient engendré aucun impact si les directives initiales avaient été distribuées avec exactitude à tous les chercheurs."
+    },
+    {
+      "speaker": "Dkt. Linda",
+      "text": "Ni kweli. Lakini kufikia mwisho wa mwezi huu, timu yangu itakuwa imekamilisha uchambuzi wote. Uamuzi utakaotolewa utadhihirisha mtazamo wetu mpya.",
+      "phonetic_api": "/ni ˈkwɛ.li laˈki.ni ku.fi.kiˈa mˈwi.ʃɔ wa ˈmwɛ.zi ˈhu.u ˈti.mu ˈja.ŋgu i.taˈku.wa i.mɛ.ka.miˈli.ʃa u.tʃaˈmbu.zi ˈwɔ.tɛ u.aˈmu.zi u.ta.ka.ɔ.tɔˈlɛ.wa u.ta.ði.hiˈri.ʃa m.taˈza.mɔ ˈwɛ.tu mˈpja/",
+      "phonetic_simple": "NEE KWEH-LEE LAH-KEE-NEE KOO-FEE-KEE-AH MWEE-SHOH WAH MWEH-ZEE HOO-OO TEE-MOO YAHN-GOO EE-TAH-KOO-WAH EE-MEH-KAH-MEE-LEE-SHAH OO-CHAH-MBOO-ZEE WOH-TEH OO-AH-MOO-ZEE OO-TAH-KAH-OH-TOH-LEH-WAH OO-TAH-ZEE-HEE-REE-SHAH M-TAH-ZAH-MOH WEH-TOO MPYAH",
+      "translation": "C'est exact. Néanmoins, d'ici la fin de ce mois, mon équipe aura parachevé l'entièreté de l'analyse. La sentence qui sera prononcée mettra en évidence notre nouvelle vision."
+    },
+    {
+      "speaker": "Profesa Mwanzoni",
+      "text": "Safi sana. Hitimisho lenu litakuwa limefungua milango ya dhana mpya katika muktadha wa kitaaluma wa kikanda.",
+      "phonetic_api": "/ˈsa.fi ˈsa.na hi.tiˈmi.ʃɔ ˈlɛ.nu u.taˈku.wa u.mɛ.fuˈŋgu.a miˈla.ŋgɔ ya ˈða.na mˈpja kaˈti.ka muˈkta.ðha wa ki.ta.aˈlu.ma wa ki.kaˈnda/",
+      "phonetic_simple": "SAH-FEE SAH-NAH HEE-TEE-MEE-SHOH LEH-NOO OO-TAH-KOO-WAH OO-MEH-FOON-GOO-AH MEE-LAHN-GOH YAH ZHAH-NAH MPYAH KAH-TEE-KAH MOO-KTAH-ZHAH WAH KEE-TAH-AH-LOO-MAH WAH KEE-KAHN-DAH",
+      "translation": "Excellent. Votre déduction finale aura ouvert les vannes à de nouveaux concepts au sein du cadre académique régional."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la haute sphère universitaire et littéraire est-africaine, l'habileté à manier des structures verbales complexes et des temps composés (comme le conditionnel passé révolu) est un marqueur d'autorité intellectuelle et d'érudition nommé 'Kiswahili cha Kina' (swahili profond).",
+    "Les débats académiques au Kenya et en Tanzanie respectent des rituels de politesse linguistique très stricts. On n'interrompt pas un confrère de manière abrupte : on pose d'abord le cadre de l'action passée continue pour contextualiser poliment le point de désaccord.",
+    "L'utilisation de la notion de 'Muktadha' (contexte) est centrale dans la rhétorique swahilie contemporaine. Pour l'élite intellectuelle, aucun fait ou texte ne peut être validé sans une déconstruction minutieuse des éléments socio-historiques et culturels qui l'entourent."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la structure avancée exacte pour traduire : 'Si l'écrivain avait révisé son œuvre, elle aurait été publiée'.",
+      "options": [
+        "Kama mwandishi angesoma andiko lake, lingechapishwa.",
+        "Mwandishi akisoma andiko lake, litachapishwa hivi karibuni.",
+        "Mwandishi angalikuwa amerejea andiko lake, lingalikuwa limechapishwa.",
+        "Mwandishi alikuwa amerejea andiko lake lililochapishwa."
+      ],
+      "correct_answer": "Mwandishi angalikuwa amerejea andiko lake, lingalikuwa limechapishwa.",
+      "explanation": "L'utilisation combinée de l'infixe du passé irréel '-ngali-' sur l'auxiliaire et le verbe principal gère de façon rigoureuse la condition passée non réalisée au niveau C1."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Kufikia mwaka ujao, mtafiti u[ ___ ]kuwa amekamilisha uchambuzi wa dhana hiyo. (Complétez avec l'infixe temporel requis pour marquer le futur antérieur lié à la classe nominale du sujet de troisième personne du singulier).",
+      "correct_answer": "ta",
+      "hint": "C'est l'infixe du futur classique inséré sur l'auxiliaire 'kuwa' pour projeter l'accomplissement total de l'action dans l'avenir."
+    }
+  ]
+}

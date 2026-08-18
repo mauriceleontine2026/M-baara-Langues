@@ -1,0 +1,224 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer (les directions)",
+  "learning_objectives": [
+    "Demander la localisation d'un lieu public ou d'une infrastructure",
+    "Comprendre et utiliser les indicateurs de direction de base (gauche, droite, tout droit)",
+    "Utiliser la postposition locative 'la' pour situer une cible géographique"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'k' est sourde et nette. Le mot 'kinini' (droite) demande une articulation rapide sans élision. Le mot 'marakila' (gauche) possède un son 'r' légèrement battu ou adouci qui ne doit pas être râpé comme le 'r' français.",
+    "common_pitfalls": "Confondre le 'fɛ' de direction (vers/par) avec un son long. C'est une voyelle ouverte brève /fɛ/. Veillez également à l'élision de la voyelle finale dans les structures de mouvement rapides."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v7_1",
+      "term": "Sila",
+      "phonetic_api": "/si.la/",
+      "phonetic_simple": "SI-LA",
+      "translation": "Le chemin / La route / La rue",
+      "example_sentence": "Sila bɛ mi ?",
+      "example_phonetic": "/si.la bɛ mi/",
+      "example_translation": "Où est le chemin ?"
+    },
+    {
+      "word_id": "v7_2",
+      "term": "Kinini",
+      "phonetic_api": "/ki.ni.ni/",
+      "phonetic_simple": "KI-NI-NI",
+      "translation": "La droite / Côté droit",
+      "example_sentence": "Ta i kinini fɛ",
+      "example_phonetic": "/ta i ki.ni.ni fɛ/",
+      "example_translation": "Va vers ta droite."
+    },
+    {
+      "word_id": "v7_3",
+      "term": "Marakila",
+      "phonetic_api": "/ma.ra.ki.la/",
+      "phonetic_simple": "MA-RA-KI-LA",
+      "translation": "La gauche / Côté gauche",
+      "example_sentence": "Numanya bɛ marakila fɛ",
+      "example_phonetic": "/nu.ma.nja bɛ ma.ra.ki.la fɛ/",
+      "example_translation": "Le virage est vers la gauche."
+    },
+    {
+      "word_id": "v7_4",
+      "term": "Ɲɛfɛ",
+      "phonetic_api": "/ɲɛ.fɛ/",
+      "phonetic_simple": "NYƐ-FƐ",
+      "translation": "Devant / Tout droit / En avant",
+      "example_sentence": "Ta ɲɛfɛ dɔrɔn",
+      "example_phonetic": "/ta ɲɛ.fɛ dɔ.rɔn/",
+      "example_translation": "Va tout droit seulement."
+    },
+    {
+      "word_id": "v7_5",
+      "term": "Kɔfɛ",
+      "phonetic_api": "/kɔ.fɛ/",
+      "phonetic_simple": "KƆ-FƐ",
+      "translation": "Derrière / En arrière",
+      "example_sentence": "A bɛ so kɔfɛ",
+      "example_phonetic": "/a bɛ so kɔ.fɛ/",
+      "example_translation": "C'est derrière la maison."
+    },
+    {
+      "word_id": "v7_6",
+      "term": "Lɔgɔfe",
+      "phonetic_api": "/lɔ.ɡɔ.fe/",
+      "phonetic_simple": "LƆ-GƆ-FÉ",
+      "translation": "Le marché (place commerciale)",
+      "example_sentence": "Lɔgɔfe bɛ mi ?",
+      "example_phonetic": "/lɔ.ɡɔ.fe bɛ mi/",
+      "example_translation": "Où se trouve le marché ?"
+    },
+    {
+      "word_id": "v7_7",
+      "term": "Dafɛ",
+      "phonetic_api": "/da.fɛ/",
+      "phonetic_simple": "DA-FƐ",
+      "translation": "À côté de / Près de",
+      "example_sentence": "A bɛ lɔgɔfe dafɛ",
+      "example_phonetic": "/a bɛ lɔ.ɡɔ.fe da.fɛ/",
+      "example_translation": "C'est à côté du marché."
+    },
+    {
+      "word_id": "v7_8",
+      "term": "Yɔrɔ",
+      "phonetic_api": "/jɔ.rɔ/",
+      "phonetic_simple": "YƆ-RƆ",
+      "translation": "L'endroit / Le lieu / La place",
+      "example_sentence": "Nin yɔrɔ tɔgɔ di ?",
+      "example_phonetic": "/nĩ jɔ.rɔ tɔ.ɡɔ di/",
+      "example_translation": "Comment s'appelle cet endroit ?"
+    },
+    {
+      "word_id": "v7_9",
+      "term": "Jan",
+      "phonetic_api": "/d͡ʒã/",
+      "phonetic_simple": "DJAN",
+      "translation": "Loin / Éloigné",
+      "example_sentence": "A mu jan",
+      "example_phonetic": "/a mu d͡ʒã/",
+      "example_translation": "Ce n'est pas loin."
+    },
+    {
+      "word_id": "v7_10",
+      "term": "Surun",
+      "phonetic_api": "/su.rũ/",
+      "phonetic_simple": "SOU-ROUN",
+      "translation": "Près / Proche / Court",
+      "example_sentence": "A bɛ surun yan la",
+      "example_phonetic": "/a bɛ su.rũ d͡ʒan la/",
+      "example_translation": "C'est proche d'ici."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p7_1",
+      "original": "Lɔgɔfe bɛ mi ?",
+      "phonetic_api": "/lɔ.ɡɔ.fe bɛ mi/",
+      "phonetic_simple": "LƆ-GƆ-FÉ BƐ MI ?",
+      "translation": "Où est le marché ?",
+      "context": "Question type indispensable pour s'orienter dans une localité."
+    },
+    {
+      "phrase_id": "p7_2",
+      "original": "Ta ɲɛfɛ dɔrɔn.",
+      "phonetic_api": "/ta ɲɛ.fɛ dɔ.rɔn/",
+      "phonetic_simple": "TA NYƐ-FƐ DƆ-RƆN.",
+      "translation": "Continue tout droit seulement.",
+      "context": "Indication donnée par un passant pour guider un voyageur."
+    },
+    {
+      "phrase_id": "p7_3",
+      "original": "A bɛ kinini fɛ do ?",
+      "phonetic_api": "/a bɛ ki.ni.ni fɛ do/",
+      "phonetic_simple": "A BƐ KI-NI-NI FƐ DO ?",
+      "translation": "Est-ce que c'est du côté droit ?",
+      "context": "Vérification d'orientation auprès d'un guide."
+    },
+    {
+      "phrase_id": "p7_4",
+      "original": "A mu jan yan la.",
+      "phonetic_api": "/a mu d͡ʒã d͡ʒan la/",
+      "phonetic_simple": "A MOU DJAN YAN LA.",
+      "translation": "Ce n'est pas loin d'ici.",
+      "context": "Rassurer quelqu'un sur la distance à parcourir."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les postpositions d'orientation combinées avec 'fɛ'",
+      "explanation": "Pour exprimer le déplacement ou l'orientation vers une direction, le malinké fait suivre le nom de repère (gauche, droite, devant) par la postposition directive 'fɛ' (par / vers / du côté de).",
+      "rules": [
+        "Structure : Nom de direction + 'fɛ'.",
+        "Cette combinaison s'emploie principalement avec les verbes de mouvement comme 'ta' (aller) ou 'bɔ' (sortir)."
+      ],
+      "examples": [
+        {
+          "structure": "Kinini fɛ",
+          "phonetic_api": "/ki.ni.ni fɛ/",
+          "meaning": "Vers la droite / Par la droite"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'Étranger",
+      "text": "I ni tile mɔgɔba. Karamɔgɔ, lɔgɔfe bɛ mi ?",
+      "phonetic_api": "/i ni ti.le mɔ.ɡɔ.ba ka.ra.mɔ.ɡɔ lɔ.ɡɔ.fe bɛ mi/",
+      "phonetic_simple": "I NI TI-LÉ MƆ-GƆ-BA. KA-RA-MƆ-GƆ, LƆ-GƆ-FÉ BƐ MI ?",
+      "translation": "Bonjour monsieur. Maître, où se trouve le marché ?"
+    },
+    {
+      "speaker": "Le Passant",
+      "text": "Nba. Ta ɲɛfɛ dɔrɔn sila nin la. A mu jan yan la.",
+      "phonetic_api": "/n̩.ba ta ɲɛ.fɛ dɔ.rɔn si.la nĩ la a mu d͡ʒã d͡ʒan la/",
+      "phonetic_simple": "N-BA. TA NYƐ-FƐ DƆ-RƆN SI-LA NIN LA. A MOU DJAN YAN LA.",
+      "translation": "Bonjour. Va tout droit seulement sur cette route. Ce n'est pas loin d'ici."
+    },
+    {
+      "speaker": "L'Étranger",
+      "text": "A bɛ marakila fɛ ko ?",
+      "phonetic_api": "/a bɛ ma.ra.ki.la fɛ ko/",
+      "phonetic_simple": "A BƐ MA-RA-KI-LA FƐ KO ?",
+      "translation": "Est-ce que c'est vers la gauche ?"
+    },
+    {
+      "speaker": "Le Passant",
+      "text": "Ayi, a bɛ kinini fɛ, kalanso dafɛ.",
+      "phonetic_api": "/a.ji a bɛ ki.ni.ni fɛ ka.lan.so da.fɛ/",
+      "phonetic_simple": "A-YI, A BƐ KI-NI-NI FƐ, KA-LAN-SO DA-FƐ.",
+      "translation": "Non, c'est vers la droite, à côté de l'école."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'espace traditionnel malinké, l'orientation utilise fréquemment des repères physiques communautaires (le grand arbre 'balanza', la case du chef, l'école ou la mosquée) plutôt que des noms de rues officiels. Demander son chemin est un prétexte social très valorisé pour lier conversation."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L7_ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'orientation 'Ta marakila fɛ' ?",
+      "options": [
+        "Va tout droit",
+        "Va vers la gauche",
+        "Fais demi-tour"
+      ],
+      "correct_answer": "Va vers la gauche",
+      "explanation": "'Marakila' désigne le côté gauche et 'fɛ' la direction."
+    },
+    {
+      "exercise_id": "A1_M3_L7_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Sila bɛ [ ___ ] ? (Où est la route ?)",
+      "correct_answer": "mi",
+      "hint": "C'est l'adverbe interrogatif de lieu universel en malinké."
+    }
+  ]
+}

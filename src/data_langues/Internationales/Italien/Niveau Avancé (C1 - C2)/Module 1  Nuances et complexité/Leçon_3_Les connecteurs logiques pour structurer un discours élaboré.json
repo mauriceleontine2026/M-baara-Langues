@@ -1,0 +1,216 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Connecteurs logiques pour un discours élaboré",
+  "learning_objectives": [
+    "Structurer un texte argumentatif complexe en utilisant des connecteurs logiques de cause, de concession et d'opposition",
+    "Nuancer l'articulation de sa pensée à l'écrit et à l'oral pour atteindre une fluidité de niveau universitaire"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'articulation des connecteurs logiques demande une liaison fluide et une accentuation précise pour guider l'auditeur. Dans 'pertanto' /perˈtanto/, l'accent tonique repose fermement sur la deuxième syllabe. Le connecteur 'benché' /benˈke/ exige de prononcer le '-ché' final comme un /ke/ dur et fermé. Pour 'viceversa' /vitʃeˈvɛrsa/, veillez à bien ouvrir le second 'e' /ɛ/.",
+    "common_pitfalls": "Attention à ne pas nasaliser le groupe 'an' dans 'pertanto' o 'innanzitutto'. Évitez de prononcer le 'g' de 'nonostante' /nonosˈtante/ de manière erronée, le 's' qui le précède est sourd /s/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Pertanto",
+      "phonetic_api": "/perˈtanto/",
+      "phonetic_simple": "PÈR-TAN-TO",
+      "translation": "Par conséquent / C'est pourquoi / Partant",
+      "example_sentence": "I dati sono incompleti, pertanto non possiamo pubblicarli.",
+      "example_phonetic": "/i ˈdaːti ˈsoːno inkomˈpleːti perˈtanto non posˈsjaːmo pubbliˈkarli/",
+      "example_translation": "Les données sont incomplètes, par conséquent nous ne pouvons pas les publier."
+    },
+    {
+      "word_id": "v2",
+      "term": "Benché",
+      "phonetic_api": "/benˈke/",
+      "phonetic_simple": "BÈN-KÉ",
+      "translation": "Bien que / Quoique",
+      "example_sentence": "Benché fosse stanco, ha continuato a scrivere la tesi.",
+      "example_phonetic": "/benˈke ˈfosse ˈstanko a kkontinuˈaːto a sˈskriːvere la ˈteːzi/",
+      "example_translation": "Bien qu'il fût fatigué, il a continué à écrire sa thèse."
+    },
+    {
+      "word_id": "v3",
+      "term": "Inoltre",
+      "phonetic_api": "/iˈnoltre/",
+      "phonetic_simple": "I-NOL-TRÉ",
+      "translation": "De plus / En outre",
+      "example_sentence": "Il progetto è innovativo e, inoltre, rispetta il budget.",
+      "example_phonetic": "/il proˈdʒɛtto ɛ innovaˈtiːvo e iˈnoltre risˈpɛtti il ˈbaddʒet/",
+      "example_translation": "Le projet est innovant et, en outre, il respecte le budget."
+    },
+    {
+      "word_id": "v4",
+      "term": "Tuttavia",
+      "phonetic_api": "/tuttaˈviːa/",
+      "phonetic_simple": "TOUT-TA-VI-A",
+      "translation": "Cependant / Néanmoins / Toutefois",
+      "example_sentence": "Le difficoltà sono molte, tuttavia restiamo ottimisti.",
+      "example_phonetic": "/le diffikolˈta ˈsoːno ˈmolte tuttaˈviːa resˈtjaːmo ottiˈmisti/",
+      "example_translation": "Les difficultés sont nombreuses, cependant nous restons optimistes."
+    },
+    {
+      "word_id": "v5",
+      "term": "In sintesi",
+      "phonetic_api": "/in ˈsintezi/",
+      "phonetic_simple": "IN SIN-TÉ-ZI",
+      "translation": "En résumé / En synthèse",
+      "example_sentence": "In sintesi, la strategia si è rivelata vincente.",
+      "example_phonetic": "/in ˈsintezi la strateˈdʒiːa si ɛ rriveˈlaːta vinˈtʃɛnte/",
+      "example_translation": "En résumé, la stratégie s'est révélée gagnante."
+    },
+    {
+      "word_id": "v6",
+      "term": "Invece",
+      "phonetic_api": "/inˈveːtʃe/",
+      "phonetic_simple": "IN-VÉ-TCHÉ",
+      "translation": "Au contraire / En revanche / Tandis que",
+      "example_sentence": "Marco voleva uscire, Anna invece preferiva restare.",
+      "example_phonetic": "/ˈmarko voˈleːva uʃˈʃiːre ˈanna inˈveːtʃe preferiːva resˈtaːre/",
+      "example_translation": "Marco voulait sortir, Anna en revanche préférait rester."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ciò nonostante, l'esperimento ha prodotto risultati utili",
+      "phonetic_api": "/tʃɔ nnonosˈtante lesperiˈmento a pproˈdɔtto rizulˈtaːti ˈuːtili/",
+      "phonetic_simple": "TCHÒ NON-OS-TAN-TÉ, LÈS-PÉ-RI-MÈN-TO A PRO-DOT-TO RI-ZOU-LA-TI OU-TI-LI",
+      "translation": "Malgré cela, l'expérience a produit des résultats utiles",
+      "context": "Pour introduire une concession forte après avoir exposé des obstacles ou des échecs."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "In primo luogo occorre definire l'ambito della ricerca",
+      "phonetic_api": "/in ˈpriːmo ˈlwɔːɡo okˈkorre defiˈniːre ˈlambito ˈdella riˈtʃɛrka/",
+      "phonetic_simple": "IN PRI-MO LOUÒ-GO OK-KOR-RÉ DÉ-FI-NI-RÉ LAM-BI-TO DÈL-LA RI-TCHÈR-KA",
+      "translation": "En premier lieu, il convient de définir le cadre de la recherche",
+      "context": "Formule d'introduction standard pour débuter une démonstration ou un rapport formel."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "In secondo luogo, va considerata la fattibilità finanziaria",
+      "phonetic_api": "/in seˈgondo ˈlwɔːɡo va kkonsideˈraːta la fattibiliˈta finantsˈjaːra/",
+      "phonetic_simple": "IN SÉ-GON-DO LOUÒ-GO, VA KON-SI-DÉ-RA-TA LA FAT-TI-BI-LI-TA FI-NAN-TSIA-RIA",
+      "translation": "En second lieu, il faut considérer la faisabilité financière",
+      "context": "Pour structurer la suite logique d'un argumentaire ordonné."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Di conseguenza, la delibera è stata annullata",
+      "phonetic_api": "/di konseˈɡwɛntsa la deˈliːbera ɛ sˈstaːta annulˈlaːta/",
+      "phonetic_simple": "DI KON-SÉ-GOUÈN-TSA, LA DÉ-LI-BÉ-RA È STA-TA AN-NOUL-LA-TA",
+      "translation": "Par conséquent, la délibération a été annulée",
+      "context": "Pour lier de manière stricte une cause administrative ou juridique à son effet."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Fermo restando che la decisione spetta al consiglio",
+      "phonetic_api": "/ˈfermo resˈtando ke la deditʃiˈzjoːne ˈspɛtta al konˈsiʎʎo/",
+      "phonetic_simple": "FÈR-MO RÈS-TAN-DO KÉ LA DÉ-TCHI-ZIO-NÉ SPÈT-TA AL KON-SIL-LIO",
+      "translation": "Étant entendu que la décision incombe au conseil",
+      "context": "Locution de niveau C1 servant à poser une réserve majeure ou une condition préalable inamovible."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "In sintesi, i vantaggi superano di gran lunga gli svantaggi",
+      "phonetic_api": "/in ˈsintezi i vanˈtaddʒi ˈsuːperano di ɡran ˈlunɡa ʎi zvvanˈtaddʒi/",
+      "phonetic_simple": "IN SIN-TÉ-ZI, I VAN-TAD-JI SOU-PÉ-RA-NO DI GRAN LOUN-GA LLI ZVAN-TAD-JI",
+      "translation": "En résumé, les avantages l'emportent de loin sur les inconvénients",
+      "context": "Idéal pour conclure de manière percutante un débat économique ou sociétal."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les connecteurs concessifs et le choix du mode verbal",
+      "explanation": "L'une des distinctions les plus subtiles du niveau C1 réside dans l'utilisation des connecteurs de concession. Selon le mot choisi, la subordonnée exige soit le subjonctif, soit l'indicatif.",
+      "rules": [
+        "Benché, Nonostante, Malgrado, Quantunque + Subjonctif (ex: Benché piovesse, siamo usciti = Bien qu'il pleuve, nous sommes sortis).",
+        "Anche se + Indicatif (ex: Anche se pioveva, siamo usciti = Même s'il pleuvait, nous sommes sortis).",
+        "Nonostante + Nom (ex: Nonostante la pioggia = Malgré la pluie)."
+      ],
+      "examples": [
+        {
+          "structure": "Malgrado l'inflazione sia alta (congiuntivo), i consumi reggono; anche se la situazione resta complessa (indicativo).",
+          "phonetic_api": "/malˈɡraːdo linflatˈtsjoːne ˈsiːa ˈalta i konˈsuːmi ˈreɡɡono ˈaŋke se la situazione ˈrɛsta komˈplɛssa/",
+          "meaning": "Malgré le fait que l'inflation soit haute, la consommation tient ; même si la situation reste complexe."
+        }
+      ]
+    },
+    {
+      "concept": "Les connecteurs de coordination consécutive et d'opposition",
+      "explanation": "Pour enrichir la structure logique sans alourdir le texte, l'italien soutenu emploie des adverbes de liaison qui modifient la portée de l'affirmation principale.",
+      "rules": [
+        "Conséquence raffinée : Pertanto (par conséquent), Dunque / Quindi (donc), Onde + Infinitif (afin de / de manière à).",
+        "Opposition ou restriction : Tuttavia / Nondimeno (néanmoins / toutefois), Bensì (mais plutôt - s'utilise uniquement après une négation complète)."
+      ],
+      "examples": [
+        {
+          "structure": "Non chiediamo un rinvio, bensì esigiamo l'annullamento della procedura.",
+          "phonetic_api": "/non kjeˈdjaːmo un rimˈviːo benˈsi eziˈdʒaːmo lannullameːnto ˈdella protʃeˈduːra/",
+          "meaning": "Nous ne demandons pas un report, mais nous exigeons (plutôt) l'annulation de la procédure."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Professor Rossi",
+      "text": "In primo luogo, desidero sottolineare che la Sua analisi metodologica è rigorosa. Tuttavia, riscontro alcune lacune nella raccolta dei dati statistici.",
+      "phonetic_api": "/in ˈpriːmo ˈlwɔːɡo deˈziːdero sottolineˈaːre ke la ˈsuːa aˈnaːlizi metodolˈɔːdʒika ɛ rriɡoˈroːza tuttaˈviːa risˈkontro alˈkuːne laˈkuːne ˈnella rakˈkɔlta dei ˈdaːti staˈtistitʃi/",
+      "phonetic_simple": "IN PRI-MO LOUÒ-GO, DÉ-ZI-DÉ-RO SOT-LO-LI-NÉ-A-RÉ KÉ LA SOU-A A-NA-LI-ZI MÉ-TO-DO-LO-DJI-KA È RI-GO-RO-ZA. TOUT-TA-VI-A, RIS-KON-TRO AL-KOU-NÉ LA-KOU-NÉ NEL-LA RAK-KOL-TA DÉÏ DA-TI STA-TIS-TI-CHI.",
+      "translation": "En premier lieu, je souhaite souligner que votre analyse méthodologique est rigoureuse. Cependant, je constate quelques lacunes dans la collecte des données statistiques."
+    },
+    {
+      "speaker": "Dottoressa Bianchi",
+      "text": "Benché i campioni analizzati siano numericamente limitati, ritengo che siano comunque rappresentativi del fenomeno. Inoltre, abbiamo incrociato le fonti per ridurre i margini d'errore.",
+      "phonetic_api": "/benˈke i kamˈpjoːni analidˈdzaːti ˈsjaːno numeˈriːkamente limiˈtaːti riˈtɛnɡo ke ˈsjaːno koˈmrunke rapprezenˈtaːtiːvi del feˈnɔːmeno iˈnoltre abˈbjaːmo inkrotˈtʃaːto le ˈfonti per riˈdutʃere i ˈmardʒini dɛrˈroːre/",
+      "phonetic_simple": "BÈN-KÉ I KAM-PIO-NI A-NA-LID-DZA-TI SIA-NO NOU-MÉ-RI-KA-MÈN-TO LI-MI-TA-TI, RI-TÈN-GO KÉ SIA-NO KO-MOUN-QUÉ RAP-PRÉ-ZÈN-TA-TI-VI DEL FÉ-NÒ-MÉ-NO. IN-OL-TRÉ, AB-BIA-MO IN-KROT-CHIA-TO LÉ FON-TI PÈR RI-DOU-CHÈ-RÉ I MAR-DJI-NI DÈR-RO-RÉ.",
+      "translation": "Bien que les échantillons analysés soient numériquement limités, j'estime qu'ils sont tout de même représentatifs du phénomène. De plus, nous avons croisé les sources pour réduire les marges d'erreur."
+    },
+    {
+      "speaker": "Professor Rossi",
+      "text": "Ciò nonostante, restano delle discrepanze evidenti. Pertanto, Le suggerisco di integrare la ricerca con un ulteriore capitolo esplicativo, onde evitare contestazioni durante la discussione della tesi.",
+      "phonetic_api": "/tʃɔ nnonosˈtante ˈrɛstano ˈdelle diskreˈpantse eviˈdɛnti perˈtanto le suddʒeˈriːsko di inteˈɡraːre la riˈtʃɛrka kon un ulteˈrjoːre kapiːtolo esplikaˈtiːvo ˈonde eviˈtaːre kontestatˈtsjoːni duˈrante la diskusˈsjoːne ˈdella ˈteːzi/",
+      "phonetic_simple": "TCHÒ NON-OS-TAN-TÉ, RÈS-TA-NO DÈL-LÉ DIS-KRÉ-PAN-TSÉ É-VI-DÈN-TI. PÈR-TAN-TO, LÉ SOUD-DJÉ-RIS-KO DI IN-TÉ-GRA-RÉ LA RI-TCHÈR-KA KON OUN OUL-TÉ-RIO-RÉ KA-PI-TO-LO ES-PLI-KA-TI-VO, ON-DÉ É-VI-TA-RÉ KON-TÈS-TA-TSIO-NI DOU-RAN-TÉ LA DIS-KUS-SIO-NÉ DÈL-LA TÉ-ZI.",
+      "translation": "Malgré cela, il reste des divergences évidentes. Par conséquent, je vous suggère d'intégrer à la recherche un chapitre explicatif supplémentaire, afin d'éviter des contestations pendant la soutenance de la thèse."
+    },
+    {
+      "speaker": "Dottoressa Bianchi",
+      "text": "Fermo restando che i tempi sono ristretti, accetto il Suo consiglio. In sintesi, cercherò di colmare questi vuoti entro la fine della settimana.",
+      "phonetic_api": "/ˈfermo resˈtando ke i ˈtempi ˈsoːno risˈtretti atˈtʃɛtto il ˈsuːo konˈsiʎʎo in ˈsintezi tʃerkeˈrɔ di kolˈmaːre ˈkwesti ˈvwɔːti ˈentro la ˈfiːne ˈdella settiˈmaːna/",
+      "phonetic_simple": "FÈR-MO RÈS-TAN-DO KÉ I TÈM-PI SO-NO RIS-TRÈT-TI, AT-CHÈT-TO IL SOU-O KON-SIL-LIO. IN SIN-TÉ-ZI, TCHÈR-CHÉ-RÒ DI KOL-MA-RÉ KOUÈS-TI VOUO-TI ÈN-TRO LA FI-NÉ DÈL-LA SÈT-TI-MA-NA.",
+      "translation": "Étant entendu que les délais sont courts, j'accepte votre conseil. En résumé, je chercherai à combler ces vides d'ici la fin de la semaine."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la tradition académique et juridique italienne, l'utilisation correcte et variée des connecteurs logiques est un indicateur capital de l'appartenance à une élite intellectuelle. Répéter sans cesse 'ma' ou 'perché' est jugé lourd et inélégant, tandis que varier avec 'bensì', 'nondimeno' ou 'pertanto' démontre une excellente maîtrise de la rhétorique.",
+    "L'art de la soutenance de thèse en Italie (la discussione della tesi) est un événement public très solennel où le candidat fait face à un jury exigeant. L'utilisation d'expressions atténuantes comme fermo restando che permet au candidat de défendre ses choix scientifiques tout en montrant une déférence polie envers les critiques des professeurs."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel connecteur logique complète correctement cette phrase exigeant le subjonctif : '[ ___ ] le tariffe siano aumentate, il numero dei passeggeri è stabile.'",
+      "options": [
+        "Anche se",
+        "Benché",
+        "Tuttavia"
+      ],
+      "correct_answer": "Benché",
+      "explanation": "La phrase contient un verbe au subjonctif présent (siano aumentate). Le connecteur concessif benché régit obligatoirement ce mode, contrairement à anche se qui demande l'indicatif."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Non intendevo criticare il Suo operato, [ ___ ] evidenziare alcune criticità del sistema.",
+      "correct_answer": "bensì",
+      "hint": "Connecteur d'opposition exclusive équivalent à 'mais plutôt', utilisé obligatoirement après une proposition négative."
+    }
+  ]
+}

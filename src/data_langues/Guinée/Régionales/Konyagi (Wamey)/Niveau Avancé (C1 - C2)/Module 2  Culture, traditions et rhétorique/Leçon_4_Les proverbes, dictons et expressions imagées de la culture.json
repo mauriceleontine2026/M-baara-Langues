@@ -1,0 +1,155 @@
+{
+  "lesson_id": "C1_M2_L4",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 4,
+  "title": "Les proverbes, dictons et expressions imagées de la culture",
+  "learning_objectives": [
+    "Comprendre le sens caché et la portée morale des proverbes wamey",
+    "Manipuler les structures linguistiques métaphoriques fondées sur l'environnement et le corps",
+    "Intégrer des dictons traditionnels pour enrichir l'éloquence et la diplomatie d'un discours"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'accentuation prosodique propre au style sapiential. La bonne distinction de la nasale palatale voisée /ɲ/ ('ñ') et de l'occlusive injective alvéolaire /ɗ/.",
+    "common_pitfalls": "Les proverbes utilisent des formes archaïques ou des élisions poétiques. Veillez à respecter les pauses rythmiques (césures) qui donnent toute sa force à la sentence morale."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "parol",
+      "phonetic_api": "/paʁɔl/",
+      "phonetic_simple": "PA-ROL",
+      "translation": "proverbe / parole ancienne / dicton (emprunt)",
+      "example_sentence": "Parol cene i fula ra can mi.",
+      "example_phonetic": "/paʁɔl t͡ʃɛnɛ i fula ʁa t͡ʃan mi/",
+      "example_translation": "Ce proverbe reste gravé dans mon esprit."
+    },
+    {
+      "word_id": "v2",
+      "term": "cax",
+      "phonetic_api": "/t͡ʃaχ/",
+      "phonetic_simple": "TSAKH",
+      "translation": "arbre / brousse / symbole de la lignée",
+      "example_sentence": "Cax gba o fula wunwun.",
+      "example_phonetic": "/t͡ʃaχ ɡba o fula wunwun/",
+      "example_translation": "Le grand arbre a de profondes racines."
+    },
+    {
+      "word_id": "v3",
+      "term": "kwaɗ",
+      "phonetic_api": "/kwaɗ/",
+      "phonetic_simple": "KOUAD",
+      "translation": "chemin / conduite de vie / destin",
+      "example_sentence": "O tyekwa kwaɗ ra ce gba.",
+      "example_phonetic": "/o tjɛkwa kwaɗ ʁa t͡ʃɛ ɡba/",
+      "example_translation": "Il suit la voie des anciens."
+    },
+    {
+      "word_id": "v4",
+      "term": "wunwun",
+      "phonetic_api": "/wunwun/",
+      "phonetic_simple": "WOUN-WOUN",
+      "translation": "racine / fondement d'une vérité",
+      "example_sentence": "Parol kene i mbe wunwun.",
+      "example_phonetic": "/paʁɔl kɛnɛ i mbɛ wunwun/",
+      "example_translation": "Cette parole a des racines profondes."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Cax gba o fula wunwun, kante o fula fanc ra fbyar.",
+      "phonetic_api": "/t͡ʃaχ ɡba o fula wunwun kantɛ o fula fant͡ʃ ʁa fbjaʁ/",
+      "phonetic_simple": "TSAKH GBA O FOU-LA WOUN-WOUN, KAN-TÉ O FOU-LA FANTS RA FBYAR.",
+      "translation": "Le grand arbre a de solides racines, pourtant il ne craint pas les jours de tempête. (Métaphore de la solidité du clan familial).",
+      "context": "Rappeler la force de la lignée lors d'une réunion de famille."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Nda wun a fula gwaawë kwaɗ, kante wun a tyekwa ce gba.",
+      "phonetic_api": "/nda wun a fula ɡwaːwə kwaɗ kantɛ wun a tjɛkwa t͡ʃɛ ɡba/",
+      "phonetic_simple": "NDA WOUN A FOU-LA GWAA-WE KOUAD, KAN-TÉ WOUN A TYÉ-KOUA TCHÉ GBA.",
+      "translation": "Si tu veux connaître le droit chemin, alors écoute la voix du sage.",
+      "context": "Donner un conseil de sagesse à un jeune homme en quête d'orientation."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La métaphore nominale par juxtaposition",
+      "explanation": "En rhétorique wamey, la construction d'une image poétique ou d'un dicton se fait souvent en juxtaposant un nom d'élément naturel (arbre, eau, chemin) et une qualité d'état sans utiliser de comparatif explicite. Cela renforce l'affirmation absolue.",
+      "rules": [
+        "Nom (Élément naturel) + Adjectif / État = Vérité générale métaphorique"
+      ],
+      "examples": [
+        {
+          "structure": "ɗi i fula, can i boka",
+          "phonetic_api": "/ɗi i fula t͡ʃan i boka/",
+          "meaning": "L'eau coule, le cœur s'apaise (Le calme revient toujours après la discorde)."
+        }
+      ]
+    },
+    {
+      "concept": "L'usage gnomique du parfait simple",
+      "explanation": "Pour exprimer des vérités intemporelles dans les proverbes, le wamey utilise fréquemment le parfait simple ou la structure d'état 'i mbe' / 'o fula', conférant au dicton une valeur d'éternité.",
+      "rules": [
+        "Sujet + o fula + Complément au présent gnomique"
+      ],
+      "examples": [
+        {
+          "structure": "Ce gba o fula parol.",
+          "phonetic_api": "/t͡ʃɛ ɡba o fula paʁɔl/",
+          "meaning": "Le vieillard possède la parole (La sagesse appartient aux anciens)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Mady, nyi a can mi ra lëkwa gba ra waawë mi. Nyi tyekwa ra gwa ra suwé gba, kante nyi fula fanc.",
+      "phonetic_api": "/madi ɲi a t͡ʃan mi ʁa ləkwa ɡba ʁa waːwə mi ɲi tjɛkwa ʁa ɡwa ʁa suwe ɡba kantɛ ɲi fula fant͡ʃ/",
+      "phonetic_simple": "MA-DY, NYI A TCHAN MI RA LE-KOUA GBA RA WAA-WÉ MI. NYI TYÉ-KOUA RA GOUA RA SOU-WÉ GBA, KAN-TÉ NYI FOU-LA FANTS.",
+      "translation": "Mady, mon esprit est tourmenté par mon avenir. Je désire partir à la capitale, mais j'ai peur de l'inconnu."
+    },
+    {
+      "speaker": "Mady",
+      "text": "Samba, ce gba o bano-ko-ba ra saax, o fala parol kene : 'Kwaɗ i loda, kante ce mbe saax o gwaawë farye'.",
+      "phonetic_api": "/samba t͡ʃɛ ɡba o banɔkɔɓa ʁa saːχ o fala paʁɔl kɛnɛ kwaɗ i loda kantɛ t͡ʃɛ mbɛ saːχ o ɡwaːwə faʁjɛ/",
+      "phonetic_simple": "SAM-BA, TCHÉ GBA O BA-NO-KO-BHA RA SAAKH, O FA-LA PA-ROL KÉ-NÉ : 'KOUAD I LO-DA, KAN-TÉ TCHÉ MBÉ SAAKH O GWAA-WE FAR-YÉ'.",
+      "translation": "Samba, le sage qui résidait jadis au village disait ce proverbe : 'Le chemin est long, pourtant l'enfant du village sait marcher droit devant'."
+    },
+    {
+      "speaker": "Samba",
+      "text": "Parol cene i mbe wunwun gba ! Ine gba, nyi gwa fala can mi ra boka tyi nyi faryal kwaɗ mi mbiya.",
+      "phonetic_api": "/paʁɔl t͡ʃɛnɛ i mbɛ wunwun ɡba inɛ ɡba ɲi ɡwa fala t͡ʃan mi ʁa boka tji ɲi faʁjal kwaɗ mi mbija/",
+      "phonetic_simple": "PA-ROL TCHÉ-NÉ I MBÉ WOUN-WOUN GBA ! I-NÉ GBA, NYI GOUA FA-LA TCHAN MI RA BO-KA TYI NYI FAR-YAL KOUAD MI MBI-YA.",
+      "translation": "Cette parole a un fondement tellement puissant ! C'est pourquoi j'apaise mon cœur et je débuterai mon chemin demain avec confiance."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture Konyagi (Wamey), les proverbes ('parol') font référence de manière constante à la brousse ('cax'), à la faune locale et aux arbres sacrés de la région de Youkounkoun. Un bon orateur n'exprime jamais une critique de front : il manie l'allégorie végétale pour guider son auditoire.",
+    "L'arbre ('cax') symbolise la structure de la société : les ancêtres en sont les racines profondes ('wunwun'), la génération présente le tronc, et les enfants les feuilles naissantes. Toucher aux traditions équivaut à couper les racines."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M2_L4_EX1",
+      "type": "multiple_choice",
+      "question": "Dans la sagesse wamey, que symbolisent traditionnellement les racines ('wunwun') ?",
+      "options": [
+        "L'argent et la richesse",
+        "Les ancêtres et le fondement des traditions",
+        "La route menant à la capitale"
+      ],
+      "correct_answer": "Les ancêtres et le fondement des traditions",
+      "explanation": "Les racines représentent l'ancrage mémoriel, les ancêtres et la vérité inébranlable du clan familiale."
+    },
+    {
+      "exercise_id": "C1_M2_L4_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] gba o fula wunwun. (Le grand arbre a des racines profondes.)",
+      "correct_answer": "Cax",
+      "hint": "Le substantif wamey qui désigne l'arbre ou la brousse, pilier des métaphores culturelles."
+    }
+  ]
+}

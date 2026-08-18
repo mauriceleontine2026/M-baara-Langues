@@ -1,0 +1,256 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Formuler des questions simples pour localiser un lieu important en ville",
+    "Comprendre des indications de direction basiques (à gauche, à droite, tout droit)",
+    "Utiliser les adverbes de lieu statiques (ici, là-bas, près, loin)",
+    "Exprimer l'emplacement avec le cas Locatif (Prépositionnel) après la préposition В ou НА"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'Ц' dans 'Центр' se prononce [t͡s], un son affriqué toujours dur. La combinaison 'СПР' dans 'Справа' exige une prononciation groupée, rapide et sans voyelle parasite intermédiaire.",
+    "common_pitfalls": "Dans le mot 'Направо' (à droite) ou 'Налево' (à gauche), l'accent tonique est placé au centre. Veillez à bien réduire le 'о' final non accentué en [ə] : 'Направо' se prononce [nɐˈpravə]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Где",
+      "phonetic_api": "/ɡdʲe/",
+      "phonetic_simple": "gdié",
+      "translation": "Où (Lieu où l'on est)",
+      "example_sentence": "Где находится вокзал?",
+      "example_phonetic": "/ɡdʲe nɐˈxodʲɪt͡sʲə vɐɡˈzal/",
+      "example_translation": "Où se trouve la gare ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "Прямо",
+      "phonetic_api": "/ˈprʲamə/",
+      "phonetic_simple": "PRIA-ma",
+      "translation": "Tout droit",
+      "example_sentence": "Идите всегда прямо.",
+      "example_phonetic": "/ɪˈdʲitʲɪ fsʲɪɡˈda ˈprʲamə/",
+      "example_translation": "Allez toujours tout droit."
+    },
+    {
+      "word_id": "v3",
+      "term": "Направо",
+      "phonetic_api": "/nɐˈpravə/",
+      "phonetic_simple": "na-PRA-va",
+      "translation": "À droite / Vers la droite",
+      "example_sentence": "Поверните направо.",
+      "example_phonetic": "/pəvʲɪrˈnʲitʲɪ nɐˈpravə/",
+      "example_translation": "Tournez à droite."
+    },
+    {
+      "word_id": "v4",
+      "term": "Налево",
+      "phonetic_api": "/nɐˈlʲevə/",
+      "phonetic_simple": "na-LIE-va",
+      "translation": "À gauche / Vers la gauche",
+      "example_sentence": "Метро находится налево.",
+      "example_phonetic": "/mʲɪˈtro nɐˈxodʲɪt͡sʲə nɐˈlʲevə/",
+      "example_translation": "Le métro se trouve à gauche."
+    },
+    {
+      "word_id": "v5",
+      "term": "Рядом",
+      "phonetic_api": "/ˈrʲadəm/",
+      "phonetic_simple": "RIA-dam",
+      "translation": "À côté / Tout près",
+      "example_sentence": "Аптека совсем рядом.",
+      "example_phonetic": "/ɐpˈtʲekə sɐfˈsʲem ˈrʲadəm/",
+      "example_translation": "La pharmacie est juste à côté."
+    },
+    {
+      "word_id": "v6",
+      "term": "Далеко",
+      "phonetic_api": "/dəlʲɪˈko/",
+      "phonetic_simple": "da-li-KO",
+      "translation": "Loin",
+      "example_sentence": "Центр города далеко?",
+      "example_phonetic": "/ˈt͡sɛntr ˈɡorədə dəlʲɪˈko/",
+      "example_translation": "Le centre-ville est-il loin ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "Улица",
+      "phonetic_api": "/ˈulʲɪt͡sə/",
+      "phonetic_simple": "OU-li-tsa",
+      "translation": "Rue",
+      "example_sentence": "Как называется эта улица?",
+      "example_phonetic": "/kak nɐzɨˈvajɪt͡sʲə ˈɛtə ˈulʲɪt͡sə/",
+      "example_translation": "Comment s'appelle cette rue ?"
+    },
+    {
+      "word_id": "v8",
+      "term": "Площадь",
+      "phonetic_api": "/ˈploɕːətʲ/",
+      "phonetic_simple": "PLO-chtch'",
+      "translation": "Place",
+      "example_sentence": "Это Красная площадь.",
+      "example_phonetic": "/ˈɛtə ˈkrasnəjə ˈploɕːətʲ/",
+      "example_translation": "C'est la Place Rouge."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Извините, как дойти до центра?",
+      "phonetic_api": "/ɪzvʲɪˈnʲitʲɪ kak dɐjˈtʲi də ˈt͡sɛntrə/",
+      "phonetic_simple": "iz-vi-NI-ti, kak daï-TI da TSIEN-tra ?",
+      "translation": "Excusez-moi, comment aller au centre-ville ? (à pied)",
+      "context": "Interpellation polie d'un passant dans la rue."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Скажите, пожалуйста, где метро?",
+      "phonetic_api": "/skɐˈʐɨtʲɪ pɐˈʐalʊstə ɡdʲe mʲɪˈtro/",
+      "phonetic_simple": "ska-JI-ti, pa-JAL-ous-ta, gdié mi-TRO ?",
+      "translation": "Dites-moi s'il vous plaît, où est le métro ?",
+      "context": "Question essentielle pour un voyageur en zone urbaine."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Я заблудился",
+      "phonetic_api": "/ja zəblʊˈdʲil͡sʲə/",
+      "phonetic_simple": "ya za-blou-DIL-ssya",
+      "translation": "Je me suis perdu (dit par un homme)",
+      "context": "Pour appeler à l'aide ou demander des indications précises."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Я заблудилась",
+      "phonetic_api": "/ja zəblʊˈdʲiləsʲ/",
+      "phonetic_simple": "ya za-blou-DI-lass'",
+      "translation": "Je me suis perdue (dit par une femme)",
+      "context": "Identique au précédent, accordé au féminin."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du lieu statique : Le cas Locatif (Prépositionnel)",
+      "explanation": "Pour indiquer qu'on se trouve à l'intérieur ou sur un lieu, on utilise le cas Locatif précédé de la préposition В (dans/en) ou НА (sur).",
+      "rules": [
+        "La règle générale pour le singulier consiste à remplacer la terminaison d'origine par un '-е'.",
+        "Les noms masculins ajoutent un '-е' (Вокзал -> На вокзале).",
+        "Les noms féminins remplacent '-а' ou '-я' par un '-е' (Аптека -> В аптеке).",
+        "La préposition НА s'emploie traditionnellement avec les espaces ouverts ou les îles (Улица -> На улице, Площадь -> На площади)."
+      ],
+      "examples": [
+        {
+          "structure": "Я сейчас в банке.",
+          "phonetic_api": "/ja sʲɪjˈtɕas f ˈbankʲɪ/",
+          "meaning": "Je suis actuellement dans la banque."
+        },
+        {
+          "structure": "Мы находимся на площади.",
+          "phonetic_api": "/mɨ nɐˈxodʲɪmsʲə nə ˈploɕːədʲɪ/",
+          "meaning": "Nous nous trouvons sur la place."
+        }
+      ]
+    },
+    {
+      "concept": "Distinguer le déplacement de la position statique",
+      "explanation": "En russe, le choix des adverbes de direction dépend de la nature du verbe : mouvement ou immobilité.",
+      "rules": [
+        "Position immobile : Справа (à droite / situé à droite), Слева (à gauche / situé à gauche).",
+        "Mouvement vers une direction : Направо (vers la droite), Налево (vers la gauche)."
+      ],
+      "examples": [
+        {
+          "structure": "Метро находится справа. Идите направо.",
+          "phonetic_api": "/mʲɪˈtro nɐˈxodʲɪt͡sʲə ˈspravə ɪˈdʲitʲɪ nɐˈpravə/",
+          "meaning": "Le métro se trouve à droite (statique). Allez vers la droite (mouvement)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Турист",
+      "text": "Извините, пожалуйста! Вы не знаете, где находится гостиница «Космос»?",
+      "phonetic_api": "/ɪzvʲɪˈnʲitʲɪ pɐˈʐalʊstə vɨ nʲɪ ˈznajɪtʲɪ ɡdʲe nɐˈxodʲɪt͡sʲə ɡɐˈsʲtʲinʲit͡sə ˈkozməs/",
+      "phonetic_simple": "iz-vi-NI-ti, pa-JAL-ous-ta ! Vy ni ZNA-i-ti, gdié na-HO-dit-ssya gas-TI-ni-tsa 'KOZ-mas' ?",
+      "translation": "Excusez-moi s'il vous plaît ! Savez-vous où se trouve l'hôtel Cosmos ?"
+    },
+    {
+      "speaker": "Прохожий",
+      "text": "Да, знаю. Это совсем недалеко. Идите прямо до угла, потом поверните налево.",
+      "phonetic_api": "/da ˈznajʊ ˈɛtə sɐfˈsʲem nʲɪdəlʲɪˈko ɪˈdʲitʲɪ ˈprʲamə də ʊˈɡla pɐˈtom pəvʲɪrˈnʲitʲɪ nɐˈlʲevə/",
+      "phonetic_simple": "Da, ZNA-iou. E-ta saf-SSIEM ni-da-li-KO. I-DI-ti PRIA-ma da ou-GLA, pa-TOM pa-vir-NI-ti na-LIE-va.",
+      "translation": "Oui, je sais. C'est tout près. Allez tout droit jusqu'au coin, puis tournez à gauche."
+    },
+    {
+      "speaker": "Турист",
+      "text": "Там будет автобусная остановка?",
+      "phonetic_api": "/tam ˈbudʲɪt ɐfˈtobʊsnəjə ɐstɐˈnofkə/",
+      "phonetic_simple": "Tam BOU-diet af-TO-bous-na-ya as-ta-NOF-ka ?",
+      "translation": "Il y aura un arrêt de bus là-bas ?"
+    },
+    {
+      "speaker": "Прохожий",
+      "text": "Да, остановка будет справа, а гостиница — прямо перед вами.",
+      "phonetic_api": "/da ɐstɐˈnofkə ˈbudʲɪt ˈspravə a ɡɐˈsʲtʲinʲit͡sə ˈprʲamə pʲɛrʲɪd ˈvamʲɪ/",
+      "phonetic_simple": "Da, as-ta-NOF-ka BOU-diet SPRA-va, a gas-TI-ni-tsa — PRIA-ma PIE-rid VA-mi.",
+      "translation": "Oui, l'arrêt de bus sera sur la droite, et l'hôtel sera juste devant vous."
+    },
+    {
+      "speaker": "Турист",
+      "text": "Большое спасибо! Вы мне очень помогли.",
+      "phonetic_api": "/bɐlʲˈʂojə spaˈsʲibə vɨ mnʲе ˈotɕɪnʲ pɐmɐˈɡlʲi/",
+      "phonetic_simple": "bal-CHA-ya spa-SSI-ba ! Vy mnié O-tchine pa-ma-GLI.",
+      "translation": "Merci beaucoup ! Vous m'avez énormément aidé."
+    }
+  ],
+  "cultural_notes": [
+    "Le métro russe : Les réseaux de métro en Russie, en particulier ceux de Moscou et Saint-Pétersbourg, sont réputés pour être de véritables 'palais souterrains' richement décorés d'œuvres d'art, de marbre et de lustres. S'y repérer est facilité par une signalétique bilingue russe/anglais.",
+    "Interpeller les passants : Les Russes répondent très volontiers aux demandes d'itinéraires des étrangers dans la rue. Même s'ils paraissent distants au premier abord, ils feront le maximum pour vous guider, parfois en ouvrant directement une application de cartographie sur leur smartphone."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L7_ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la forme locative correcte pour dire 'Je suis dans la pharmacie' (Аптека) ?",
+      "options": [
+        "Я в аптека",
+        "Я в аптеку",
+        "Я в аптеке",
+        "Я на аптеке"
+      ],
+      "correct_answer": "Я в аптеке",
+      "explanation": "Le mot féminin 'Аптека' prend la désinence '-е' au cas Locatif après la préposition de lieu 'В'."
+    },
+    {
+      "exercise_id": "A1_M3_L7_ex2",
+      "type": "multiple_choice",
+      "question": "Quel adverbe de direction devez-vous employer avec un verbe de mouvement pour signifier 'Tournez à gauche' ?",
+      "options": [
+        "Слева",
+        "Налево",
+        "Прямо",
+        "Справа"
+      ],
+      "correct_answer": "Налево",
+      "explanation": "'Налево' indique le mouvement vers la gauche, tandis que 'Слева' indique une position statique fixe."
+    },
+    {
+      "exercise_id": "A1_M3_L7_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Скажите, пожалуйста, где находится железнодорожный [ ___ ]? (La gare ferroviaire)",
+      "correct_answer": "вокзал",
+      "hint": "Le nom masculin russe pour désigner une grande gare."
+    },
+    {
+      "exercise_id": "A1_M3_L7_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Идите всегда [ ___ ], не поворачивайте. (Tout droit)",
+      "correct_answer": "прямо",
+      "hint": "L'adverbe pour signifier une trajectoire rectiligne."
+    }
+  ]
+}

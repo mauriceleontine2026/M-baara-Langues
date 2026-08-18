@@ -1,0 +1,134 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer (les directions)",
+  "learning_objectives": [
+    "Poser une question pour localiser un lieu public ou une concession",
+    "Comprendre et utiliser les repères spatiaux de base (gauche, droite, devant)",
+    "Indiquer une direction simple à un voyageur en Baga"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot pour la route, 'kíɛ̀', combine une consonne occlusive sourde et une voyelle complexe ouverte /iɛ̀/. Veillez à accentuer le ton haut initial puis à glisser doucement vers le bas.",
+    "common_pitfalls": "Ne confondez pas 'kíɛ̀' (le chemin) et 'kíɛ̀ɛ̀' (faire). La longueur de la voyelle finale est déterminante pour préserver le sens spatial."
+  },
+  "vocabulary": [
+    {
+      "word_id": "b024",
+      "term": "kíɛ̀",
+      "phonetic_api": "/kíɛ̀/",
+      "phonetic_simple": "KII-È",
+      "translation": "chemin / route / piste",
+      "example_sentence": "Kíɛ̀ mu mí ka di ?",
+      "example_phonetic": "/kíɛ̀ mu mí ka di/",
+      "example_translation": "Où se trouve le chemin ?"
+    },
+    {
+      "word_id": "b025",
+      "term": "lò-su",
+      "phonetic_api": "/lò su/",
+      "phonetic_simple": "LO-SOO",
+      "translation": "marché / centre-ville / place publique",
+      "example_sentence": "Mə̀ táa lò-su ka",
+      "example_phonetic": "/mə̀ táː lò su ka/",
+      "example_translation": "Je vais au marché"
+    },
+    {
+      "word_id": "b026",
+      "term": "kɔ̀-fɛ́ẃ",
+      "phonetic_api": "/kɔ̀ fɛ́ẃ/",
+      "phonetic_simple": "KO-FÉW",
+      "translation": "tout droit / direction directe",
+      "example_sentence": "Táa kɔ̀-fɛ́ẃ gɓàŋ",
+      "example_phonetic": "/táː kɔ̀ fɛ́ẃ gɓàŋ/",
+      "example_translation": "Va tout droit immédiatement"
+    },
+    {
+      "word_id": "b027",
+      "term": "kɔ̀-kɔ́",
+      "phonetic_api": "/kɔ̀ kɔ́/",
+      "phonetic_simple": "KO-KÓ",
+      "translation": "à l'arrière / derrière",
+      "example_sentence": "Gbɔ́n mu kɔ̀-kɔ́ ka",
+      "example_phonetic": "/gɓɔ́n mu kɔ̀ kɔ́ ka/",
+      "example_translation": "La maison est située derrière"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "bp015",
+      "original": "Hába n dɛ̀n, lò-su mu mí ka di ?",
+      "phonetic_api": "/háɓa ⁿdɛ̀n lò su mu mí ka di/",
+      "phonetic_simple": "HA-BA N DÈN, LO-SOO MOO MII KA DI ?",
+      "translation": "S'il te plaît mon ami, où se trouve le marché ?",
+      "context": "Interroger un passant dans un village Baga"
+    },
+    {
+      "phrase_id": "bp016",
+      "original": "Táa kɔ̀-fɛ́ẃ, i na gbɔ́n ka lɔ́kɔ̀ !",
+      "phonetic_api": "/táː kɔ̀ fɛ́ẃ i na gɓɔ́n ka lɔ́kɔ̀/",
+      "phonetic_simple": "TAA KO-FÉW, I NA GBON KA LÓ-KO !",
+      "translation": "Va tout droit, tu verras bientôt la maison !",
+      "context": "Guider un visiteur égaré"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les postpositions directionnelles et de lieu : ka vs fɛ̀ɛ̀",
+      "explanation": "Pour indiquer la destination ou la localisation spatiale en Baga, on place la postposition 'ka' pour les espaces ouverts (routes, marchés, champs) et 'fɛ̀ɛ̀' ou 'lɔ̀' pour exprimer la proximité immédiate ou l'intérieur d'un bâtiment.",
+      "rules": [
+        "Espace ouvert / de surface = Nom + ka.",
+        "Direction vers un point de contact / d'intériorité = Nom + fɛ̀ɛ̀ / lɔ̀."
+      ],
+      "examples": [
+        {
+          "structure": "kíɛ̀ (chemin) + ka (sur/à)",
+          "phonetic_api": "/kíɛ̀ ka/",
+          "meaning": "Sur le chemin / Par la route"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Voyageur",
+      "text": "Ió n dɛ̀n ! Hába, lò-su kíɛ̀ mu mí ka di ya ?",
+      "phonetic_api": "/ió ⁿdɛ̀n háɓa lò su kíɛ̀ mu mí ka di ja/",
+      "phonetic_simple": "IÓ N DÈN ! HA-BA, LO-SOO KII-È MOO MII KA DI YA ?",
+      "translation": "Bonjour mon ami ! S'il te plaît, où se trouve le chemin du marché à présent ?"
+    },
+    {
+      "speaker": "Temba",
+      "text": "Ió ! Táa kɔ̀-fɛ́ẃ gɓàŋ, kə̀nə̀ i na lò-su ka lɔ́kɔ̀ fɛ́ . A mu ya di !",
+      "phonetic_api": "/ió táː kɔ̀ fɛ́ẃ gɓàŋ kənə i na lò su ka lɔ́kɔ̀ fɛ́ a mu ja di/",
+      "phonetic_simple": "IÓ ! TAA KO-FÉW G-BAN, KE-NE I NA LO-SOO KA LÓ-KO FÉ. A MOO YA DI !",
+      "translation": "Bonjour ! Va tout droit immédiatement, puis tu apercevras le marché dans un instant. C'est juste ici !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les villages de la Basse-Guinée côtière, orienter un étranger est une obligation de courtoisie. Il est très fréquent d'accompagner physiquement le visiteur sur quelques mètres pour s'assurer qu'il ne se trompe pas de piste."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L7_ex1",
+      "type": "multiple_choice",
+      "question": "Quel terme signifie 'tout droit' en langue Baga ?",
+      "options": [
+        "kɔ̀-kɔ́",
+        "kɔ̀-fɛ́ẃ",
+        "lò-su"
+      ],
+      "correct_answer": "kɔ̀-fɛ́ẃ",
+      "explanation": "'kɔ̀-fɛ́ẃ' est la locution spatiale exacte pour la ligne droite."
+    },
+    {
+      "exercise_id": "A1_M3_L7_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] mu mí ka di ? (Où se trouve la route ?)",
+      "correct_answer": "Kíɛ̀",
+      "hint": "Mot de 4 lettres avec un accent grave sur la fin"
+    }
+  ]
+}

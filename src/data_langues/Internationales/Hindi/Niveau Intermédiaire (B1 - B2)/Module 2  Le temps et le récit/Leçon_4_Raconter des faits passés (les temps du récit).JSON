@@ -1,0 +1,190 @@
+{
+  "lesson_id": "B1_M2_L4_CORRECTED",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Maîtriser la formation et l'emploi du passé composé (Perfective Aspect) pour les actions accomplies",
+    "Utiliser l'imparfait (Imperfect Past) pour décrire le décor, le contexte ou des habitudes passées",
+    "Comprendre et appliquer correctement la règle de la postposition 'ने' (ne) avec les verbes transitifs au passé"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'accentuation du suffixe du participe passé '-या' (/jaː/) dans 'किया' ou 'खाया' demande un allongement clair de la voyelle finale. Le marqueur de l'imparfait 'था / थे / थी' contient une consonne dentale aspirée sourde 'थ' (/t̪ʰ/) : veillez à expulser un filet d'air en touchant les dents supérieures, sans la prononcer comme le 'th' anglais.",
+    "common_pitfalls": "La confusion majeure au passé réside dans l'omission de la nasalisation de l'auxiliaire au féminin pluriel (थीं / t̪ʰiːm/). De plus, l'introduction de la particule 'ने' (ne) modifie souvent la prononciation du pronom qui la précède (ex: 'मैं' + 'ने' devient 'मैंने' /mɛ̃ːneː/)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v_past_1",
+      "term": "इतिहास",
+      "phonetic_api": "/ɪt̪ɪɦaːs/",
+      "phonetic_simple": "I-TI-HAAS",
+      "translation": "Histoire (générale ou académique)",
+      "example_sentence": "मुझे भारत का इतिहास बहुत पसंद है।",
+      "example_phonetic": "/mʊdʒʱeː bʱaːrət̪ kaː ɪt̪ɪɦaːs bəɦʊt̪ pəsənd̪ ɦɛː/",
+      "example_translation": "J'aime beaucoup l'histoire de l'Inde."
+    },
+    {
+      "word_id": "v_past_2",
+      "term": "कहानी",
+      "phonetic_api": "/kəɦaːniː/",
+      "phonetic_simple": "KA-HAA-NII",
+      "translation": "Histoire / Récit / Conte",
+      "example_sentence": "दादी ने कल एक पुरानी कहानी सुनाई।",
+      "example_phonetic": "/d̪aːd̪iː neː kəl eːk pʊraːniː kəɦaːniː sʊnaːiː/",
+      "example_translation": "Grand-mère a raconté une vieille histoire hier."
+    },
+    {
+      "word_id": "v_past_3",
+      "term": "पहले",
+      "phonetic_api": "/pəɦleː/",
+      "phonetic_simple": "PAH-LÉ",
+      "translation": "Avant / Auparavant / Jadis",
+      "example_sentence": "मैं पहले दिल्ली में रहता था।",
+      "example_phonetic": "/mɛ̃ː pəɦleː d̪ɪlːiː mẽː ɾəɦt̪aː t̪ʰaː/",
+      "example_translation": "Avant, j'habitais à Delhi."
+    },
+    {
+      "word_id": "v_past_4",
+      "term": "अचानक",
+      "phonetic_api": "/ətʃaːnək/",
+      "phonetic_simple": "A-TCHAA-NAK",
+      "translation": "Soudain / Tout à coup",
+      "example_sentence": "अचानक बारिश होने लगी।",
+      "example_phonetic": "/ətʃaːnək baːrɪʃ ɦoːneː ləɡiː/",
+      "example_translation": "Soudain, il s'est mis à pleuvoir."
+    },
+    {
+      "word_id": "v_past_5",
+      "term": "बचपन",
+      "phonetic_api": "/bətʃpən/",
+      "phonetic_simple": "BAT-CHPAN",
+      "translation": "Enfance",
+      "example_sentence": "मेरा बचपन एक छोटे गाँव में बीता।",
+      "example_phonetic": "/meːraː bətʃpən eːk tʃoːʈeː ɡãːʋ mẽː biːt̪aː/",
+      "example_translation": "Mon enfance s'est déroulée dans un petit village."
+    },
+    {
+      "word_id": "v_past_6",
+      "term": "बीता हुआ कल",
+      "phonetic_api": "/biːt̪aː ɦʊaː kəl/",
+      "phonetic_simple": "BII-TAA HOU-AA KAL",
+      "translation": "Hier (littéralement : le jour passé)",
+      "example_sentence": "बीता हुआ कल वापस नहीं आता।",
+      "example_phonetic": "/biːt̪aː ɦʊaː kəl ʋaːpəs nəɦĩː aːt̪aː/",
+      "example_translation": "Hier ne revient jamais."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "कल आपने रात के खाने में क्या खाया?",
+      "phonetic_api": "/kəl aːpneː raːt̪ keː kʰaːneː mẽː kjaː kʰaːjaː/",
+      "phonetic_simple": "KAL AAP-NÉ RAAT KÉ KHAA-NÉ MEIN KYAA KHAA-YAA",
+      "translation": "Qu'avez-vous mangé hier soir au dîner ?",
+      "context": "Interroger quelqu'un sur un fait précis et accompli dans le passé."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "जब मैं छोटा था, मैं रोज़ क्रिकेट खेलता था।",
+      "phonetic_api": "/dʒəb mɛ̃ː tʃoːʈaː t̪ʰaː mɛ̃ː ɾoːz kɾɪkeːʈ kʰeːlt̪aː t̪ʰaː/",
+      "phonetic_simple": "DJAB MEIN TCHO-TAA THAA, MEIN ROZ KRI-KÉT KHÉL-TAA THAA",
+      "translation": "Quand j'étais petit, je jouais au cricket tous les jours (locuteur masculin).",
+      "context": "Évoquer un souvenir d'enfance ou une habitude révolue."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'imparfait de description ou d'habitude (Imperfect Past)",
+      "explanation": "Pour décrire une situation passée ou une action répétitive dans le passé, on prend le participe habituel (-tā / -tē / -tī) et on remplace l'auxiliaire du présent par l'auxiliaire du passé (था / थे / थी / थीं).",
+      "rules": [
+        "Masculin singulier : -ता था (-tā thā) | Masculin pluriel : -ते थे (-tē thē)",
+        "Féminin singulier : -ती थी (-tī thī) | Féminin pluriel : -ती थीं (-tī thīñ)"
+      ],
+      "examples": [
+        {
+          "structure": "वह लिखती थी (Vah likhtī thī)",
+          "phonetic_api": "/ʋəɦ lɪkʰt̪iː t̪ʰiː/",
+          "meaning": "Elle écrivait / Elle avait l'habitude d'écrire."
+        }
+      ]
+    },
+    {
+      "concept": "Le passé composé et l'alignement ergatif avec la postposition 'ने' (ne)",
+      "explanation": "C'est la règle cruciale du niveau B1. Au passé, si le verbe est transitif (il accepte un objet direct comme manger, voir, faire, écrire), le sujet est suivi de la particule 'ने'. Le verbe ne s'accorde plus du tout avec le sujet, mais s'accorde en genre et en nombre avec l'objet direct.",
+      "rules": [
+        "Sujet + ने + Objet + Verbe accordé avec l'objet.",
+        "Si l'objet est suivi d'une postposition (comme को), le verbe se fige au masculin singulier (-ā).",
+        "Les verbes intransitifs (aller, venir, dormir) n'utilisent jamais 'ने' et s'accordent normalement avec le sujet."
+      ],
+      "examples": [
+        {
+          "structure": "मैंने एक सेब खाया (Mainē ek sēb khāyā)",
+          "phonetic_api": "/mɛ̃ːneː eːk seːb kʰaːjaː/",
+          "meaning": "J'ai mangé une pomme. (सेब est masculin, le verbe finit en -ā)."
+        },
+        {
+          "structure": "मैंने रोटी खाई (Mainē roṭī khāī)",
+          "phonetic_api": "/mɛ̃ːneː ɾoːʈiː kʰaːiː/",
+          "meaning": "J'ai mangé une roti. (रोटी est féminin, le verbe finit en -ī)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "आनंद (Anand)",
+      "text": "अमित, तुम कल पार्टी में क्यों नहीं आए? हम सब तुम्हारा इंतज़ार कर रहे थे।",
+      "phonetic_api": "/əmɪt̪ t̪ʊm kəl paːɾʈiː mẽː kjõː nəɦĩː aːeː ɦəm səb t̪ʊmʱaːraː ɪnt̪əzaːr kəɾ ɾəɦeː t̪ʰeː/",
+      "phonetic_simple": "A-MIT, TOUM KAL PAAR-TII MEIN KYON NA-HIN AA-É? HAM SAB TOUM-HAA-RAA IN-TA-ZAAR KAR RAHÉ THÉ",
+      "translation": "Amit, pourquoi n'es-tu pas venu à la fête hier ? Nous t'attendions tous."
+    },
+    {
+      "speaker": "अमित (Amit)",
+      "text": "माफ़ करना आनंद, कल अचानक मेरे घर पर कुछ मेहमान आ गए थे, इसलिए मैं नहीं आ सका।",
+      "phonetic_api": "/maːf kəɾnaː aːnənd̪ kəl ətʃaːnək meːɾeː ɡʱəɾ pəɾ kʊtʃ mɛːɦmaːn aː ɡəeː t̪ʰeː ɪs lɪjeː mɛ̃ː nəɦĩː aː səkaː/",
+      "phonetic_simple": "MAAF KAR-NAA AA-NAND, KAL A-TCHAA-NAK MÉ-RÉ GHAR PAR KOUTCH MEH-MAAN AA GAYÉ THÉ, IS-LIYÉ MEIN NA-HIN AA SAK-AA",
+      "translation": "Désolé Anand, hier des invités sont arrivés soudainement chez moi, c'est pourquoi je n'ai pas pu venir."
+    },
+    {
+      "speaker": "आनंद (Anand)",
+      "text": "अच्छा, कोई बात नहीं। क्या तुमने उनके लिए खाना बनाया?",
+      "phonetic_api": "/ətːʃʰaː koːiː baːt̪ nəɦĩː kjaː t̪ʊmneː ʊnkeː lɪjeː kʰaːnaː bənaːjaː/",
+      "phonetic_simple": "AT-TCHHAA, KO-II BAAT NA-HIN. KYAA TOUM-NÉ OUN-KÉ LIYÉ KHAA-NAA BA-NAA-YAA",
+      "translation": "Ah d'accord, ce n'est pas grave. Est-ce que tu as cuisiné pour eux ?"
+    },
+    {
+      "speaker": "अमित (Amit)",
+      "text": "हाँ, मैंने उनके लिए पारंपरिक खाना बनाया। उन्होंने खाने की बहुत तारीफ़ की।",
+      "phonetic_api": "/ɦãː mɛ̃ːneː ʊnkeː lɪjeː paːɾəmpəɾɪk kʰaːnaː bənaːjaː ʊnʱõːneː kʰaːneː kiː bəɦʊt̪ t̪aːriːf kiː/",
+      "phonetic_simple": "HAAN, MEIN-NÉ OUN-KÉ LIYÉ PAA-RAM-PA-RIK KHAA-NAA BA-NAA-YAA. OUN-HON-NÉ KHAA-NÉ KII BAHOUT TAA-RIIF KII",
+      "translation": "Oui, j'ai préparé un repas traditionnel pour eux. Ils ont beaucoup loué la nourriture."
+    }
+  ],
+  "cultural_notes": [
+    "La transmission orale des récits historiques et mythologiques (comme le Ramayana ou le Mahabharata) à travers les histoires racontées par les grands-parents (दादी-नानी की कहानियाँ) est un pilier fondamental de l'éducation et de l'imaginaire des enfants en Inde.",
+    "L'hospitalité indienne dicte que l'invité est perçu comme une forme du divin ('अतिथि देवो भवः'). L'arrivée impromptue de proches ou d'amis chez soi est un fait très fréquent et toujours traité avec une priorité absolue, quitte à modifier ses plans."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez l'accord correct pour traduire 'Neha a écrit une lettre (पत्र - masculin)' : 'नेहा ने एक पत्र [ ___ ]।'",
+      "options": [
+        "लिखी (likhī)",
+        "लिखा (likhā)",
+        "लिखे (likhē)"
+      ],
+      "correct_answer": "लिखा (likhā)",
+      "explanation": "Puisque le verbe est transitif au passé avec la particule 'ने', il s'accorde avec l'objet 'पत्र' qui est masculin singulier."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "बचपन में हम इस पार्क में खेलते [ ___ ]। (Pendant l'enfance, nous jouions dans ce parc - masculin pluriel)",
+      "correct_answer": "थे",
+      "hint": "L'auxiliaire de l'imparfait au masculin pluriel (thē)"
+    }
+  ]
+}

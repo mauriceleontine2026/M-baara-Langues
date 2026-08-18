@@ -1,0 +1,146 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter",
+  "learning_objectives": [
+    "Dire son nom, son origine et son âge",
+    "Demander l'identité de son interlocuteur"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La nasale 'ɲ' se prononce comme le 'gn' français dans 'gagner'. Elle apparaît fréquemment au début des mots d'action ou des noms.",
+    "common_pitfalls": "Ne séparez pas le son 'ɲ' en 'n' et 'j'. C'est une articulation palatale unique."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v2_1",
+      "term": "laa",
+      "phonetic_api": "/laː/",
+      "phonetic_simple": "LAA",
+      "translation": "nom / s'appeler",
+      "example_sentence": "Na laa Tokpa.",
+      "example_phonetic": "/na laː tok.pa/",
+      "example_translation": "Mon nom est Tokpa."
+    },
+    {
+      "word_id": "v2_2",
+      "term": "bêa",
+      "phonetic_api": "/bɛ̂ː.a/",
+      "phonetic_simple": "BEE-A",
+      "translation": "venir de / origine",
+      "example_sentence": "N'bêa Gbeazû.",
+      "example_phonetic": "/n̩.bɛ̂ː.a ɡbɛ.a.zû/",
+      "example_translation": "Je viens de Macenta (Gbeazû)."
+    },
+    {
+      "word_id": "v2_3",
+      "term": "konen",
+      "phonetic_api": "/ko.nen/",
+      "phonetic_simple": "KO-NEN",
+      "translation": "année / âge",
+      "example_sentence": "Konen gaza.",
+      "example_phonetic": "/ko.nen ɡa.za/",
+      "example_translation": "Beaucoup d'années."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p2_1",
+      "original": "I laa ɓɛ̀?",
+      "phonetic_api": "/i laː ɓɛ̀/",
+      "phonetic_simple": "I LAA BE?",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Question usuelle posée lors d'une première rencontre."
+    },
+    {
+      "phrase_id": "p2_2",
+      "original": "Na laa ma Sia.",
+      "phonetic_api": "/na laː ma si.a/",
+      "phonetic_simple": "NA LAA MA SI-A",
+      "translation": "Je m'appelle Sia.",
+      "context": "Réponse standard pour donner son identité."
+    },
+    {
+      "phrase_id": "p2_3",
+      "original": "I bêa ɓɛ̀?",
+      "phonetic_api": "/i bɛ̂ː.a ɓɛ̀/",
+      "phonetic_simple": "I BEE-A BE?",
+      "translation": "D'où viens-tu ?",
+      "context": "Pour s'enquérir du village ou de la région d'origine de quelqu'un."
+    },
+    {
+      "phrase_id": "p2_4",
+      "original": "N'bêa Gbeazû ni.",
+      "phonetic_api": "/n̩.bɛ̂ː.a ɡbɛ.a.zû ni/",
+      "phonetic_simple": "N-BEE-A GBE-A-ZOU NI",
+      "translation": "Je suis de Macenta.",
+      "context": "Indication de sa provenance géographique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'utilisation de la particule focus 'ni'",
+      "explanation": "La particule 'ni' se place en fin de proposition pour affirmer ou mettre l'accent sur l'état d'origine, le nom ou la profession.",
+      "rules": [
+        "Elle agit de manière similaire au verbe 'être' dans les phrases d'identification nominales.",
+        "Elle reste invariable quel que soit le sujet."
+      ],
+      "examples": [
+        {
+          "structure": "Karamɔgɔ ni.",
+          "phonetic_api": "/ka.ra.mɔ.ɡɔ ni/",
+          "meaning": "C'est un enseignant."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Cécé",
+      "text": "Pele, i laa ɓɛ̀?",
+      "phonetic_api": "/pe.le i laː ɓɛ̀/",
+      "phonetic_simple": "PE-LE, I LAA BE?",
+      "translation": "Salut, comment tu t'appelles ?"
+    },
+    {
+      "speaker": "Flomo",
+      "text": "Na laa ma Flomo. I bêa ɓɛ̀?",
+      "phonetic_api": "/na laː ma flo.mo i bɛ̂ː.a ɓɛ̀/",
+      "phonetic_simple": "NA LAA MA FLO-MO. I BEE-A BE?",
+      "translation": "Je m'appelle Flomo. D'où viens-tu ?"
+    },
+    {
+      "speaker": "Cécé",
+      "text": "N'bêa Nzérékoré ni.",
+      "phonetic_api": "/n̩.bɛ̂ː.a n.ze.re.ko.re ni/",
+      "phonetic_simple": "N-BEE-A NZE-RE-KO-RE NI",
+      "translation": "Je suis de Nzérékoré."
+    }
+  ],
+  "cultural_notes": [
+    "L'origine géographique (le village ancestral) définit l'appartenance sociale chez les Tomas. Préciser d'où l'on vient tisse immédiatement un lien de parenté ou d'alliance culturelle."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex2_1",
+      "type": "multiple_choice",
+      "question": "Que signifie la phrase 'Na laa ma Flomo' ?",
+      "options": [
+        "Je vais chez Flomo",
+        "Mon nom est Flomo",
+        "Flomo est mon fils"
+      ],
+      "correct_answer": "Mon nom est Flomo",
+      "explanation": "'laa' indique le nom ou le fait de s'appeler."
+    },
+    {
+      "exercise_id": "ex2_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "I bêa [ ___ ] ?",
+      "correct_answer": "ɓɛ̀",
+      "hint": "Le mot interrogatif pour exprimer 'où' ou 'quoi' selon le contexte de provenance."
+    }
+  ]
+}

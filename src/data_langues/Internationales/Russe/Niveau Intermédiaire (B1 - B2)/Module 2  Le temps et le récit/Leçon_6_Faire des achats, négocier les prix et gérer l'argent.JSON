@@ -1,0 +1,257 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Interagir avec assurance dans un magasin, un supermarché ou un marché traditionnel",
+    "Négocier poliment un prix ou demander des conditions de réduction",
+    "Exprimer des notions financières courantes (payer par carte/espèces, gérer un budget)",
+    "Maîtriser l'accord complexe des prix avec les déclinaisons du rouble (рубль)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le 'СЧ' dans 'Счёт' se prononce comme un [ɕː] long et doux (chtchiot). Dans le verbe 'Платить', l'accent tonique est sur le 'и' [pɫɐˈtʲitʲ], mais au présent il se déplace : 'я плачу́' (je paye) [pɫɐˈtɕu] — attention à ne pas le confondre avec 'я пла́чу' (je pleure).",
+    "common_pitfalls": "Le mot 'Рубль' se termine par un signe mou [rublʲ]. Veillez à bien adoucir le 'л' final et à ne pas prononcer un 'e' parasite après le groupe de consonnes."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Скидка",
+      "phonetic_api": "/ˈskʲitkə/",
+      "phonetic_simple": "SKIT-ka",
+      "translation": "Réduction / Rabais / Remise",
+      "example_sentence": "Вы можете сделать мне небольшую скидку?",
+      "example_phonetic": "/vɨ ˈmoʐɨtʲɪ ˈsdʲelatʲ mnʲe nʲɪbɐlʲˈʂʊjʊ ˈskʲitkʊ/",
+      "example_translation": "Pouvez-vous me faire une petite réduction ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "Наличные",
+      "phonetic_api": "/nɐˈlʲitɕnɨjə/",
+      "phonetic_simple": "na-LI-tchny-yé",
+      "translation": "Argent liquide / Espèces",
+      "example_sentence": "У меня нет с собой наличных.",
+      "example_phonetic": "/ʊ mʲɪˈnʲa nʲet s sɐˈboj nɐˈlʲitɕnɨx/",
+      "example_translation": "Je n'ai pas d'espèces sur moi."
+    },
+    {
+      "word_id": "v3",
+      "term": "Сдача",
+      "phonetic_api": "/ˈzdatɕə/",
+      "phonetic_simple": "ZDA-tcha",
+      "translation": "La monnaie (rendue sur un paiement)",
+      "example_sentence": "Возьмите, пожалуйста, вашу сдачу.",
+      "example_phonetic": "/vɐzʲˈmʲitʲɪ pɐˈʐalʊstə ˈvaʂʊ ˈzdatɕʊ/",
+      "example_translation": "Prenez votre monnaie, s'il vous plaît."
+    },
+    {
+      "word_id": "v4",
+      "term": "Стоимость",
+      "phonetic_api": "/ˈstoɪ̯məsʲtʲ/",
+      "phonetic_simple": "STO-i-mast'",
+      "translation": "Coût / Valeur / Prix total",
+      "example_sentence": "Какова общая стоимость этих покупок?",
+      "example_phonetic": "/kəkɐˈva ˈopɕːəjə ˈstoɪ̯məsʲtʲ ˈɛtʲɪx pɐˈkupək/",
+      "example_translation": "Quel est le coût total de ces achats ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "Дорогой",
+      "phonetic_api": "/dərɐˈɡoj/",
+      "phonetic_simple": "da-ra-GOÏ",
+      "translation": "Cher / Coûteux",
+      "example_sentence": "Этот бренд слишком дорогой для меня.",
+      "example_phonetic": "/ˈɛtət brɛnt slʲiɕkəm dərɐˈɡoj dlʲɐ mʲɪˈnʲa/",
+      "example_translation": "Cette marque est trop chère pour moi."
+    },
+    {
+      "word_id": "v6",
+      "term": "Дешёвый",
+      "phonetic_api": "/dʲɪˈʂovɨj/",
+      "phonetic_simple": "di-CHO-vyj",
+      "translation": "Bon marché / Pas cher",
+      "example_sentence": "На рынке можно купить дешёвые овощи.",
+      "example_phonetic": "/на ˈrɨnkɪ ˈmoʐnə pʊˈpʲitʲ dʲɪˈʂovɨjə ˈovəɕːɪ/",
+      "example_translation": "On peut acheter des légumes bon marché au marché."
+    },
+    {
+      "word_id": "v7",
+      "term": "Тратить",
+      "phonetic_api": "/ˈtratʲɪtʲ/",
+      "phonetic_simple": "TRA-tit'",
+      "translation": "Dépenser / Gaspiller",
+      "example_sentence": "Я стараюсь не тратить деньги на глупости.",
+      "example_phonetic": "/ja stɐˈraɪ̯ʊsʲ nʲɪ ˈtratʲɪtʲ ˈdʲenʲɡʲɪ nə ˈɡɫupəsʲtʲɪ/",
+      "example_translation": "J'essaye de ne pas dépenser d'argent pour des futilités."
+    },
+    {
+      "word_id": "v8",
+      "term": "Бюджет",
+      "phonetic_api": "/bʲʉˈdʐɛt/",
+      "phonetic_simple": "biu-DJET",
+      "translation": "Budget",
+      "example_sentence": "Мы должны строго контролировать наш бюджет.",
+      "example_phonetic": "/mɨ dɐɫʐˈnɨ ˈstroɡə kəntrɐˈlʲirəvətʲ naʂ bʲʉˈdʐɛt/",
+      "example_translation": "Nous devons contrôler strictement notre budget."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Вы принимаете банковские карты?",
+      "phonetic_api": "/vɨ prʲɪnʲɪˈmaɪ̯ɪtʲɪ ˈbankəfskʲɪjə ˈkartɨ/",
+      "phonetic_simple": "vy pri-ni-MA-i-ti BAN-kaf-ski-ya KAR-ty ?",
+      "translation": "Acceptez-vous les cartes bancaires ?",
+      "context": "Question essentielle dans n'importe quel commerce ou restaurant."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Сколько с меня?",
+      "phonetic_api": "/ˈskolʲkə s mʲɪˈnʲa/",
+      "phonetic_simple": "SKOL-ka s mi-NIA ?",
+      "translation": "Combien je vous dois ? (Litt. Combien de moi ?)",
+      "context": "Formule idiomatique très courante pour demander le total à payer au comptoir."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Я заплачу картой",
+      "phonetic_api": "/ja zəpɫɐˈtɕu ˈkartəj/",
+      "phonetic_simple": "ya za-pla-TCHOU KAR-taï",
+      "translation": "Je vais payer par carte",
+      "context": "Pour indiquer son mode de paiement à la caisse."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Это слишком дорого, уступите в цене",
+      "phonetic_api": "/ˈɛtə slʲiɕkəm ˈdorəɡə ʊstʊˈpʲitʲɪ f t͡sɨˈnʲe/",
+      "phonetic_simple": "E-ta SLICH-kam DO-ra-ga, ous-tou-PI-ti f tsse-NIÉ",
+      "translation": "C'est trop cher, faites-moi un prix (baissez le prix)",
+      "context": "Structure type pour entamer une négociation amicale sur un marché."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le comptage de la monnaie : Déclinaison de РУБЛЬ (Rouble)",
+      "explanation": "L'indication d'un prix en russe obéit aux règles strictes du système de comptage avec les cas grammaticaux.",
+      "rules": [
+        "Après le chiffre 1 (et les nombres finissant par 1 sauf 11) : Nominatif singulier -> Рубль (1 рубль, 21 рубль).",
+        "Après les chiffres 2, 3, 4 (et les nombres finissant par 2, 3, 4 sauf 12, 13, 14) : Génitif singulier -> Рубля (2, 3, 4 рубля, 32 рубля).",
+        "Après les chiffres 5 à 20, les dizaines et les nombres finissant par 0 ou 5-9 : Génitif pluriel -> Рублей (5 рублей, 50 рублей, 100 рублей)."
+      ],
+      "examples": [
+        {
+          "structure": "Это стоит один рубль, четыре рубля или десять рублей?",
+          "phonetic_api": "/ˈɛtə stɐˈit ɐˈdʲin rublʲ tɕɪˈtɨrʲɪ rubˈlʲa ˈilʲɪ ˈdʲesʲɪtʲ rubˈlʲej/",
+          "meaning": "Cela coûte 1 rouble, 4 roubles ou 10 roubles ?"
+        }
+      ]
+    },
+    {
+      "concept": "Payer en quelque chose : La préposition НА + Locatif vs Инструментальный",
+      "explanation": "Pour exprimer le moyen de paiement, les structures idiomatiques russes évitent la traduction littérale de 'en' ou 'par'.",
+      "rules": [
+        "Payer en liquide / espèces : платить наличными (cas Instrumental pluriel sans préposition).",
+        "Payer par carte : платить картой (cas Instrumental singulier sans préposition)."
+      ],
+      "examples": [
+        {
+          "structure": "Вы будете платить наличными или картой?",
+          "phonetic_api": "/vɨ ˈbudʲɪtʲɪ pɫɐˈtʲitʲ nɐˈlʲitɕnɨmʲɪ ˈilʲɪ ˈkartəj/",
+          "meaning": "Allez-vous payer en espèces ou par carte ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Продавец",
+      "text": "Добрый день! Чем я могу вам помочь? Выбираете что-нибудь конкретное?",
+      "phonetic_api": "/ˈdobrɨj dʲenʲ tɕem ja mɐˈɡu vam pɐˈmotɕ mʲɪstɐˈrʲɪvəɪ̯ɪtʲɪ ˈʂto nʲɪbʊtʲ kɐnˈkrʲɛtnəjə/",
+      "phonetic_simple": "DO-bry dien' ! Tchiem ya ma-GOU vam pa-MOTCH' ? Vy-bi-RA-i-ti CHTO-ni-bout' kan-KRIET-na-yé ?",
+      "translation": "Bonjour ! Comment puis-je vous aider ? Vous cherchez quelque chose en particulier ?"
+    },
+    {
+      "speaker": "Покупатель",
+      "text": "Здравствуйте. Мне очень нравится эта кожаная куртка. Какова её стоимость?",
+      "phonetic_api": "/ˈzdrastvʊjtʲɪ mnʲe ˈotɕɪnʲ ˈnravʲɪt͡sʲə ˈɛtə ˈkoʐənəjə ˈkurtkə kəkɐˈva jɪˈjo ˈstoɪ̯məsʲtʲ/",
+      "phonetic_simple": "ZDRAST-vouï-ti. Mnié O-tchine NRA-vits-tsya E-ta KO-ja-na-ya KOURT-ka. Ka-ka-VA i-IO STO-i-mast' ?",
+      "translation": "Bonjour. J'aime beaucoup cette veste en cuir. Quel est son prix ?"
+    },
+    {
+      "speaker": "Продавец",
+      "text": "Она стоит пять тысяч рублей. Это отличное качество, натуральная кожа.",
+      "phonetic_api": "/ɐˈna stɐˈit pʲatʲ ˈtɨsʲɪtɕ rubˈlʲej ˈɛtə ɐˈtlʲitɕnəjə ˈkatɕɪstvə nətʊˈralʲnəjə ˈkoʐə/",
+      "phonetic_simple": "A-na STO-it piat' TY-siatch roub-LIEÏ. E-ta at-LI-tchna-ye KA-tchist-va, na-tou-RAL-na-ya KO-ja.",
+      "translation": "Elle coûte cinq mille roubles. C'est une excellente qualité, du cuir véritable."
+    },
+    {
+      "speaker": "Покупатель",
+      "text": "Ой, это дороговато для меня, выходит за рамки моего бюджета. А у вас есть скидки?",
+      "phonetic_api": "/oj ˈɛtə dərəɡɐˈvatə dlʲɐ mʲɪˈnʲa vɨˈxodʲɪt zɐ ˈramkʲɪ mɐɪ̯ɪˈvo bʲʉˈdʐɛtə a ʊ vas jesʲtʲ ˈskʲitkʲɪ/",
+      "phonetic_simple": "Oï, E-ta da-ra-ga-VA-ta dlia mi-NIA, vy-HO-dit za RAM-ki ma-i-VO biu-DJÉ-ta. A ou vas iest' SKIT-ki ?",
+      "translation": "Oh, c'est un peu cher pour moi, ça sort de mon budget. Est-ce que vous faites des remises ?"
+    },
+    {
+      "speaker": "Продавец",
+      "text": "Если вы будете платить наличными, я могу уступить в цене и сделать скидку десять процентов. Отдам за четыре с половиной тысячи.",
+      "phonetic_api": "/ˈjeslʲɪ vɨ ˈbudʲɪtʲɪ pɫɐˈtʲitʲ nɐˈlʲitɕnɨmʲɪ ja mɐˈɡu ʊstʊˈpʲitʲ f t͡sɨˈnʲe ˈi ˈsdʲelatʲ ˈskʲitkʊ ˈdʲesʲɪtʲ prɐˈt͡sɛntəf ɐdˈdam zɐ tɕɪˈtɨrʲɪ s pəlɐˈvʲinəj ˈtɨsʲɪtɕ/",
+      "phonetic_simple": "IES-li vy BOU-di-ti pla-TIT' na-LI-tchny-mi, ya ma-GOU ous-tou-PIT' f tsse-NIÉ i SDIE-lat' SKIT-kou DIÉ-ssiat' pra-TSEN-taf. At-DAM za tchi-TY-ri s pa-la-VI-naï TY-siatch.",
+      "translation": "Si vous payez en espèces, je peux baisser le prix et vous faire une remise de dix pour cent. Je vous la laisse à quatre mille cinq cents."
+    },
+    {
+      "speaker": "Покупатель",
+      "text": "Отлично, это мне подходит! Вот, возьмите деньги.",
+      "phonetic_api": "/ɐˈtlʲitɕnə ˈɛtə mnʲe pɐtˈxodʲɪt vot vɐzʲˈmʲitʲɪ ˈdʲenʲɡʲɪ/",
+      "phonetic_simple": "at-LI-tchna, E-ta mnié pat-HO-dit ! Vot, vaz'-MI-ti DIEN'-gui.",
+      "translation": "Super, ça me convient ! Tenez, voici l'argent."
+    }
+  ],
+  "cultural_notes": [
+    "Marchés russes (Рынок) vs Magasins : En Russie, les prix sont strictement fixes et non négociables dans les supermarchés, centres commerciaux et boutiques modernes. En revanche, sur les marchés traditionnels de produits frais (продуктовый рынок) ou d'artisanat, la négociation polie est tout à fait acceptée et permet souvent d'obtenir de meilleurs produits ou des rabais.",
+    "Révolution du paiement sans contact : La Russie urbaine (Moscou, Saint-Pétersbourg) fait partie des endroits où les systèmes de paiement numérique, par QR code (SBP) ou par carte bancaire sont les plus avancés au monde. On peut payer absolument tout par carte, y compris un ticket de bus ou un étal de marché."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L6_ex1",
+      "type": "multiple_choice",
+      "question": "Quelle forme du mot 'рубль' est correcte après le chiffre 4 ?",
+      "options": [
+        "рубль",
+        "рубля",
+        "рублей",
+        "рублям"
+      ],
+      "correct_answer": "рубля",
+      "explanation": "Les chiffres 2, 3 et 4 régent obligatoirement le cas Génitif singulier, d'où la forme 'рубля'."
+    },
+    {
+      "exercise_id": "B1_M2_L6_ex2",
+      "type": "multiple_choice",
+      "question": "Traduisez correctement l'expression : 'Je paye par carte numérique.'",
+      "options": [
+        "Я плачу в карту.",
+        "Я плачу картой.",
+        "Я плачу на карту.",
+        "Я плачу с картой."
+      ],
+      "correct_answer": "Я плачу картой.",
+      "explanation": "Pour désigner le moyen de paiement, on utilise le cas Instrumental seul sans préposition ('картой')."
+    },
+    {
+      "exercise_id": "B1_M2_L6_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Этот сувенир стоит ровно сто [ ___ ]. (Roubles)",
+      "correct_answer": "рублей",
+      "hint": "Déclinez le mot 'рубль' au Génitif pluriel requis après le nombre 100."
+    },
+    {
+      "exercise_id": "B1_M2_L6_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Продавец сделал мне большую [ ___ ], потому что товар был последний. (Réduction / Remise)",
+      "correct_answer": "скидку",
+      "hint": "Mettez le nom féminin 'скидка' au cas Accusatif en tant qu'objet direct de l'action."
+    }
+  ]
+}

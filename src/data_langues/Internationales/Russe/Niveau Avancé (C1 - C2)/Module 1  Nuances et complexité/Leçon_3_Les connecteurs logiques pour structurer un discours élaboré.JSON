@@ -1,0 +1,229 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Connecteurs logiques pour un discours élaboré",
+  "learning_objectives": [
+    "Structurer un rapport d'audit ou un essai universitaire de manière fluide et rigoureuse",
+    "Exprimer l'opposition, la concession et la causalité complexe par des connecteurs soutenus",
+    "Maîtriser les locutions prépositionnelles régissant le Génitif et le Datif en style administratif",
+    "Articuler des transitions rhétoriques pour lier des arguments contradictoires"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le connecteur 'Тем не менее' demande une attention particulière sur la non-palatalisation du 'м' final de 'тем' et le rythme ternaire : [tɛm nʲɪ ˈmʲenʲɪɪ]. Dans 'Следовательно', le 'в' s'articule distinctement [ˈslʲedəvətʲɪlʲnə].",
+    "common_pitfalls": "Attention au mot 'Напротив' : l'accent tonique est sur la deuxième syllabe [nɐˈprotʲɪf]. Le 'в' final se dévoise complètement en un son [f] sec."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Следовательно",
+      "phonetic_api": "/ˈslʲedəvətʲɪlʲnə/",
+      "phonetic_simple": "SLIÉ-da-va-til'-na",
+      "translation": "Par conséquent / Donc / Par suite",
+      "example_sentence": "Данные искажены, следовательно, отчёт неточен.",
+      "example_phonetic": "/ˈdannɨjə ɪskɐʐɨˈnɨ ˈslʲedəvətʲɪlʲnə ɐtˈtɕot nʲɪˈtotɕɪn/",
+      "example_translation": "Les données sont faussées, par conséquent, le rapport est inexact."
+    },
+    {
+      "word_id": "v2",
+      "term": "Тем не менее",
+      "phonetic_api": "/tɛm nʲɪ ˈmʲenʲɪɪ/",
+      "phonetic_simple": "tem ni MIÉ-ni-yé",
+      "translation": "Néanmoins / Cependant / Toutefois",
+      "example_sentence": "Риски высоки, тем не менее проект перспективен.",
+      "example_phonetic": "/ˈrʲiskʲɪ vɨsɐˈkʲɪ tɛm nʲɪ ˈmʲenʲɪɪ prɐˈɛkt pʲɪrspʲɪkˈtʲivʲɪn/",
+      "example_translation": "Les risques sont élevés, néanmoins le projet est prometteur."
+    },
+    {
+      "word_id": "v3",
+      "term": "Напротив",
+      "phonetic_api": "/nɐˈprotʲɪf/",
+      "phonetic_simple": "na-PRO-tif",
+      "translation": "Au contraire / À l'inverse",
+      "example_sentence": "Он не отказался, а, напротив, поддержал идею.",
+      "example_phonetic": "/on nʲɪ ɐtkɐˈzal͡sʲə a nɐˈprotʲɪf pəddʲɪrˈʐaɫ ɪˈdʲejʊ/",
+      "example_translation": "Il n'a pas refusé, mais, au contraire, a soutenu l'idée."
+    },
+    {
+      "word_id": "v4",
+      "term": "Благодаря",
+      "phonetic_api": "/bɫəɡədɐˈrʲa/",
+      "phonetic_simple": "bla-ga-da-RIA",
+      "translation": "Grâce à (Suivi du Datif)",
+      "example_sentence": "Благодаря аудиту мы выявили скрытые убытки.",
+      "example_phonetic": "/bɫəɡədɐˈrʲa ɐˈudʲɪtʊ mɨ ˈvɨjəvʲɪlʲɪ ˈskrɨtɨjə ʊˈbɨtkʲɪ/",
+      "example_translation": "Grâce à l'audit, nous avons détecté des pertes dissimulées."
+    },
+    {
+      "word_id": "v5",
+      "term": "Более того",
+      "phonetic_api": "/ˈbolʲɪɪ tɐˈvo/",
+      "phonetic_simple": "BO-li-ye ta-VO",
+      "translation": "De plus / En outre / Qui plus est",
+      "example_sentence": "Рынок падает, более того, растут налоги.",
+      "example_phonetic": "/ˈrɨnək ˈpadaɪ̯ɪt ˈbolʲɪɪ tɐˈvo rɐsˈtut nɐˈɫoɡʲɪ/",
+      "example_translation": "Le marché baisse, de plus, les impôts augmentent."
+    },
+    {
+      "word_id": "v6",
+      "term": "В то время как",
+      "phonetic_api": "/f to ˈvrʲemʲə kak/",
+      "phonetic_simple": "f to VRIE-mia kak",
+      "translation": "Tandis que / Alors que",
+      "example_sentence": "Прибыль растёт, в то время как затраты стабильны.",
+      "example_phonetic": "/ˈprʲibɨlʲ rɐsˈtʲot f to ˈvrʲemʲə kak zɐˈtratɨ stɐˈbʲilʲnɨ/",
+      "example_translation": "Le bénéfice augmente, tandis que les coûts restent stables."
+    },
+    {
+      "word_id": "v7",
+      "term": "Следовательно",
+      "phonetic_api": "/ˈslʲedəvətʲɪlʲnə/",
+      "phonetic_simple": "SLIÉ-da-va-til'-na",
+      "translation": "De ce fait / Conséquemment",
+      "example_sentence": "Сделка отменена, следовательно, бюджет пересмотрен.",
+      "example_phonetic": "/zdecɫkə ɐtmʲɪnʲɪˈna ˈslʲedəvətʲɪlʲnə bʲʉˈdʐɛt pʲɪrʲɪˈsmotrʲɪn/",
+      "example_translation": "La transaction est annulée, de ce fait, le budget est révisé."
+    },
+    {
+      "word_id": "v8",
+      "term": "Несмотря на",
+      "phonetic_api": "/nʲɪsmɐˈtrʲa nə/",
+      "phonetic_simple": "nis-ma-TRIA na",
+      "translation": "Malgré / En dépit de (Suivi de l'Accusatif)",
+      "example_sentence": "Несмотря на кризис, показатели стабильны.",
+      "example_phonetic": "/nʲɪsmɐˈtrʲa nə ˈkrʲizʲɪs pəkəˈzatʲɪlʲɪ stɐˈbʲilʲnɨ/",
+      "example_translation": "Malgré la crise, les indicateurs sont stables."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Исходя из результатов проведённого аудита",
+      "phonetic_api": "/ɪsxɐˈdʲa ɪz rʲɪzʊlʲˈtatəf prəvʲɪˈdʲonːəvə ɐˈudʲɪtə/",
+      "phonetic_simple": "is-ha-DIA iz ri-zoul'-TA-taf pra-vi-DION-na-va a-OU-di-ta",
+      "translation": "À partir des résultats de l'audit effectué",
+      "context": "Formule d'introduction standard pour formuler des conclusions financières."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Резюмируя вышеизложенные аргументы",
+      "phonetic_api": "/rʲɪzʲʉˈmʲirʊjə vɨʂɨɪzˈɫoʐɨnːɨjə ɐrɡʊˈmɛntɨ/",
+      "phonetic_simple": "ri-ziu-MI-rou-ia vy-chi-iz-LO-jyn-ny-ia ar-gou-MIEN-ty",
+      "translation": "En résumant les arguments exposés ci-dessus",
+      "context": "Idéal pour introduire la conclusion d'un essai ou d'une note de synthèse."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Таким образом, можно сделать вывод",
+      "phonetic_api": "/tɐˈkʲim ˈobrəzəm ˈmoʐnə ˈsdʲelatʲ ˈvɨvət/",
+      "phonetic_simple": "ta-KIM O-bra-zam MOJ-na SDIÉ-lat' VY-vat",
+      "translation": "Ainsi, on peut en conclure que",
+      "context": "Structure de transition majeure pour clore un raisonnement logique."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "С одной стороны... С другой стороны...",
+      "phonetic_api": "/s ɐdˈnoj stərɐˈnɨ ... z drʊˈɡoj stərɐˈnɨ/",
+      "phonetic_simple": "s ad-NOÏ sta-ra-NY ... z drou-GOÏ sta-ra-NY",
+      "translation": "D'une part... D'autre part...",
+      "context": "Parfait pour structurer un débat ou une analyse comparative nuancée."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La régence des prépositions avancées : Благодаря vs Несмотря на",
+      "explanation": "Les connecteurs logiques de cause et de concession modifient le cas du groupe nominal qui les suit de façon stricte.",
+      "rules": [
+        "'Благодаря' (grâce à) exige le cas Datif (Благодаря совместным усилиям).",
+        "'Несмотря на' (malgré) exige le cas Accusatif (Несмотря на внешнее давление).",
+        "En style soutenu, l'inversion syntaxique renforce la solennité de la phrase."
+      ],
+      "examples": [
+        {
+          "structure": "Благодаря своевременному вмешательству, аудит завершился вовремя, несмотря на технические препятствия.",
+          "phonetic_api": "/bɫəɡədɐˈrʲa svɐɪ̯ɪˈvrʲemʲɪnːəmʊ vmʲɪˈʂatʲɪlʲstvʊ ɐˈudʲɪt zɐˈvʲɛrʂɨɫsʲə ˈvovrʲɪmʲə nʲɪsmɐˈtrʲa nə tʲɪxˈnʲitɕɪskʲɪjə prʲɪˈpʲat͡stvʲɪjə/",
+          "meaning": "Grâce à une intervention opportune, l'audit s'est achevé à temps, malgré les obstacles techniques."
+        }
+      ]
+    },
+    {
+      "concept": "La structure connective : В то время как",
+      "explanation": "Cette locution conjonctive permet d'opposer deux faits simultanés au sein d'une phrase complexe sans utiliser le connecteur trop simple 'а'.",
+      "rules": [
+        "La virgule se place obligatoirement avant le bloc 'в то время как'.",
+        "Les verbes des deux propositions adoptent le même temps grammatical pour marquer le parallélisme."
+      ],
+      "examples": [
+        {
+          "structure": "Первый филиал зафиксировал рост прибыли, в то время как второй понёс убытки.",
+          "phonetic_api": "/ˈpʲɛrvɨj fʲɪlʲɪˈaɫ zəfʲɪksʲɪˈrovəɫ rost ˈprʲibɨlʲɪ f to ˈvrʲemʲə kak vtɐˈroj pɐˈnʲos ʊˈbɨtkʲɪ/",
+          "meaning": "La première filiale a enregistré une hausse des bénéfices, tandis que la seconde a subi des pertes."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Аудитор",
+      "text": "Георгий Николаевич, исходя из результатов проверки, мы выявили дефицит ликвидности. Следовательно, текущая бизнес-модель требует немедленной корректировки. Более того, внешние инвестиции сокращаются.",
+      "phonetic_api": "/ɡʲɪˈorɡʲɪj nʲɪkɐˈɫaɪ̯ɪvʲɪtɕ ɪsxɐˈdʲa ɪz rʲɪzʊlʲˈtatəf prɐˈvʲɛrkʲɪ mɨ ˈvɨjəvʲɪlʲɪ dʲɪfʲɪˈt͡sit lʲɪkˈvʲidnəsʲtʲɪ ˈslʲedəvətʲɪlʲnə tʲɪˈkuɕːəjə ˈbʲiznɪs mɐˈdʲelʲ trʲebʊɪ̯ɪt nʲɪˈmʲedlʲɪnːəj kɐrʲːɛktʲɪˈrofkʲɪ ˈbolʲɪɪ tɐˈvo ˈvnʲeʂnʲɪjə ɪnvʲɪsˈtʲit͡sɨɪ sɐkrɐˈɕːa|t͡sʲə/",
+      "phonetic_simple": "Gué-or-gui Ni-ka-LA-i-vitch, is-ha-DIA iz ri-zoul'-TA-taf pra-VIER-ki, my VY-ia-vi-li di-fi-TSIT lik-VID-nas-ti. SLIÉ-da-va-til'-na, ti-KOU-chtcha-ia BIZ-nis ma-DIEL' TRÉ-bou-iet ni-MIED-lin-naï kar-riek-ti-ROF-ki. BO-li-ye ta-VO, VNIÉCH-ni-ia in-vis-TI-tsii sa-kra-CHTCHAI-out-ssya.",
+      "translation": "Gueorgui Nikolaïevitch, sur la base des résultats du contrôle, nous avons identifié un déficit de liquidités. Par conséquent, le modèle économique actuel nécessite un ajustement immédiat. En outre, les investissements externes diminuent."
+    },
+    {
+      "speaker": "Директор",
+      "text": "Тем не менее, наши ключевые активы остаются стабильными. С одной стороны, мы теряем краткосрочные контракты. С другой стороны, благодаря реструктуризации долгов, фирма избежала банкротства.",
+      "phonetic_api": "/tɛm nʲɪ ˈmʲenʲɪɪ ˈnaʂɨ klʲʊtɕɪˈvɨjə ɐkˈtʲivɨ ɐstɐˈ|t͡sʲə stɐˈbʲilʲnɨmʲɪ s ɐdˈnoj stərɐˈnɨ mɨ tʲɪˈrʲaɪ̯ɪm krətkɐˈsrotɕnɨjə kɐnˈtraktɨ z drʊˈɡoj stərɐˈnɨ bɫəɡədɐˈrʲa rʲɪstruktʊrʲɪˈzat͡sɨɪ dɐɫˈɡof ˈfʲirmə ɪzbʲɪˈʐaɫə bənˈkrot͡stvə/",
+      "phonetic_simple": "Tem ni MIÉ-ni-yé, NA-chy kliou-tchi-VÝ-ia ak-TI-vy asta-IOUT-ssya sta-BIL'-ny-mi. S ad-NOÏ sta-ra-NY, my ti-RIA-iem krat-ka-SROTCH-ny-ia kan-TRAK-ty. Z drou-GOÏ sta-ra-NY, bla-ga-da-RIA ri-strouk-tou-ri-ZA-tsii dal-GOF, FIR-ma iz-bi- JAL-a ban-KROT-stva.",
+      "translation": "Néanmoins, nos actifs clés restent stables. D'une part, nous perdons des contrats à court terme. D'autre part, grâce à la restructuration des dettes, l'entreprise a évité la faillite."
+    }
+  ],
+  "cultural_notes": [
+    "Le formalisme des rapports russes : Un rapport rédigé en milieu académique ou d'audit en Russie tolère très peu de subjectivité. L'usage de connecteurs comme 'Следовательно' ou 'Таким образом' permet de poser un cadre rigide où les faits s'enchaînent de manière mécanique et incontestable.",
+    "La politesse hiérarchique dans le désaccord : Lorsque le directeur utilise 'Тем не менее' (Néanmoins) face à son auditeur, il n'invalide pas ses propos mais réoriente le curseur vers les points positifs de son bilan, respectant les codes d'une rhétorique d'affaires policée."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L3_ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez le connecteur exact pour marquer une conséquence formelle : 'Расходы превысили доходы, [ ___ ], компания понесла убытки.'",
+      "options": [
+        "благодаря этому",
+        "следовательно",
+        "в то время как",
+        "несмотря на"
+      ],
+      "correct_answer": "следовательно",
+      "explanation": "'Следовательно' est le parfait équivalent de 'par conséquent' dans un discours logique ou analytique soutenu."
+    },
+    {
+      "exercise_id": "C1_M1_L3_ex2",
+      "type": "multiple_choice",
+      "question": "Quelle préposition exige l'emploi systématique du cas Datif pour son complément ?",
+      "options": [
+        "Несмотря на",
+        "Благодаря",
+        "Вследствие",
+        "Ввиду"
+      ],
+      "correct_answer": "Благодаря",
+      "explanation": "La préposition 'Благодаря' régit impérativement le cas Datif (ex: благодаря анализу)."
+    },
+    {
+      "exercise_id": "C1_M1_L3_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Руководитель одобрил проект, [ ___ ] (Néanmoins / Cependant) он потребовал сократить расходы на маркетинг.",
+      "correct_answer": "тем не менее",
+      "hint": "Locution conjonctive de concession invariable composée de trois mots."
+    },
+    {
+      "exercise_id": "C1_M1_L3_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Первый отдел выполнил план, в [ ___ ] время как второй сорвал сроки дедлайна. (Tandis que / Alors que)",
+      "correct_answer": "то",
+      "hint": "Complétez l'élément central de la locution 'в то время как'."
+    }
+  ]
+}

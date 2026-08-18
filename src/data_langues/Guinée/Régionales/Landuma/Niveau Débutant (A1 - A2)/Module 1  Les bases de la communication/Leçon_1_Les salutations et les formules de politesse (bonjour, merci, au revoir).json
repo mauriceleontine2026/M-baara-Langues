@@ -1,0 +1,149 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Savoir saluer selon le moment de la journée (matin, après-midi, soir)",
+    "Exprimer la gratitude et prendre congé poliment",
+    "Maîtriser les formules d'accueil fondamentales"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La voyelle ouverte 'ɔ' se prononce comme le 'o' dans 'port'. Les consonnes doublées marquent une gémination (allongement de la consonne). L'accent tonique principal se place généralement sur la première syllabe du radical.",
+    "common_pitfalls": "Évitez de prononcer le 'e' final à la française comme un 'é' ou un 'e' muet ; en landouma, le 'e' ouvert 'ɛ' ou fermé 'e' doit être nettement articulé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_1",
+      "term": "mbi tana",
+      "phonetic_api": "/mbi ta.na/",
+      "phonetic_simple": "MBI TA-NA",
+      "translation": "bonjour (litt. tu es là-bas / salutation générale)",
+      "example_sentence": "mbi tana, baba",
+      "example_phonetic": "/mbi ta.na ba.ba/",
+      "example_translation": "Bonjour, père."
+    },
+    {
+      "word_id": "v1_2",
+      "term": "kɛrɛ",
+      "phonetic_api": "/kɛ.rɛ/",
+      "phonetic_simple": "KÈ-RÈ",
+      "translation": "merci",
+      "example_sentence": "kɛrɛ, mama kɔn",
+      "example_phonetic": "/kɛ.rɛ ma.ma kɔn/",
+      "example_translation": "Merci, ma mère."
+    },
+    {
+      "word_id": "v1_3",
+      "term": "yoo",
+      "phonetic_api": "/joː/",
+      "phonetic_simple": "YOO",
+      "translation": "réponse à une salutation / d'accord",
+      "example_sentence": "yoo, mbi tana",
+      "example_phonetic": "/joː mbi ta.na/",
+      "example_translation": "Oui (bonjour), bonjour à toi."
+    },
+    {
+      "word_id": "v1_4",
+      "term": "kɔndɔ",
+      "phonetic_api": "/kɔn.dɔ/",
+      "phonetic_simple": "KON-DO",
+      "translation": "au revoir / pars en paix",
+      "example_sentence": "kɔndɔ, wuto kɔn",
+      "example_phonetic": "/kɔn.dɔ wu.to kɔn/",
+      "example_translation": "Au revoir, mon enfant."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_1",
+      "original": "mbi tana kɛwun ?",
+      "phonetic_api": "/mbi ta.na kɛ.wun/",
+      "phonetic_simple": "MBI TA-NA KÈ-WOUN",
+      "translation": "Comment vas-tu ce matin ? (Tu t'es réveillé là-bas ?)",
+      "context": "Salutation matinale formelle ou amicale."
+    },
+    {
+      "phrase_id": "p1_2",
+      "original": "kɛrɛ tundo",
+      "phonetic_api": "/kɛ.rɛ tun.do/",
+      "phonetic_simple": "KÈ-RÈ TOUN-DO",
+      "translation": "Merci beaucoup",
+      "context": "Exprimer une profonde gratitude après un service."
+    },
+    {
+      "phrase_id": "p1_3",
+      "original": "marɛbɛ",
+      "phonetic_api": "/ma.rɛ.bɛ/",
+      "phonetic_simple": "MA-RÈ-BÈ",
+      "translation": "Bienvenue",
+      "context": "Accueillir un étranger ou un invité à la maison."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure de la salutation comme état de présence",
+      "explanation": "En landouma, saluer quelqu'un consiste à acter sa présence physique ou son réveil dans un lieu. On utilise le pronom sujet suivi du locatif de distance 'tana' (là-bas) ou de proximité 'lɔndɔ' (ici).",
+      "rules": [
+        "Le pronom 'mbi' (tu) s'associe au locatif pour former la salutation de base.",
+        "Pour saluer plusieurs personnes, le pronom change pour la forme plurielle 'nu' (vous)."
+      ],
+      "examples": [
+        {
+          "structure": "Pronom + Locatif",
+          "phonetic_api": "/nu ta.na/",
+          "meaning": "Bonjour à vous tous (vous êtes là-bas)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "mbi tana kɛwun, Amadou ?",
+      "phonetic_api": "/mbi ta.na kɛ.wun a.ma.du/",
+      "phonetic_simple": "MBI TA-NA KÈ-WOUN A-MA-DOU",
+      "translation": "Comment vas-tu ce matin, Amadou ?"
+    },
+    {
+      "speaker": "Amadou",
+      "text": "yoo, kɛrɛ tundo, mbi tana kɛwun ?",
+      "phonetic_api": "/joː kɛ.rɛ tun.do mbi ta.na kɛ.wun/",
+      "phonetic_simple": "YOO KÈ-RÈ TOUN-DO MBI TA-NA KÈ-WOUN",
+      "translation": "Bien, merci beaucoup, et toi comment vas-tu ce matin ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "kɛrɛ mɔ lɔndɔ, kɔndɔ",
+      "phonetic_api": "/kɛ.rɛ mɔ lɔn.dɔ kɔn.dɔ/",
+      "phonetic_simple": "KÈ-RÈ MO LON-DO KON-DO",
+      "translation": "La grâce est ici (tout va bien), au revoir."
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Landouma, la salutation est un rituel social incontournable. Ne pas saluer une personne croisée sur son chemin est perçu comme un grave manque de respect ou une marque d'hostilité."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_1",
+      "type": "multiple_choice",
+      "question": "Quelle expression utilise-t-on pour dire 'Merci beaucoup' ?",
+      "options": [
+        "mbi tana",
+        "kɛrɛ tundo",
+        "kɔndɔ"
+      ],
+      "correct_answer": "kɛrɛ tundo",
+      "explanation": "'kɛrɛ' signifie merci et 'tundo' exprime l'intensité ou la grandeur."
+    },
+    {
+      "exercise_id": "ex1_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "mbi [ ___ ] kɛwun ?",
+      "correct_answer": "tana",
+      "hint": "Le locatif indiquant 'là-bas' utilisé dans les salutations du matin."
+    }
+  ]
+}

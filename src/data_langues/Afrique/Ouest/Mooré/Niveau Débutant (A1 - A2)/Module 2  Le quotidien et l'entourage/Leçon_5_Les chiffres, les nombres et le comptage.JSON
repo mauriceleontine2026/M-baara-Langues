@@ -1,0 +1,229 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter avec assurance de 1 à 20 en mooré",
+    "Comprendre la structure de construction des dizaines et des grands nombres",
+    "Exprimer une quantité précise ou demander un prix dans une situation d'échange de base"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La numération en mooré utilise fréquemment le préfixe vocalique 'a' devant le chiffre (ex: a yíibu, a tãabo). Ce préfixe fonctionne comme un liant phonétique à l'oral. Le son 'tãabo' présente une voyelle nasale longue [ãː] qui doit être étirée sans bloquer le passage de l'air par le nez.",
+    "common_pitfalls": "Attention à la prononciation du chiffre un, 'yembr'. Le 'r' final est souvent très discret ou assourdi, mais la consonne nasale initiale 'y' ne doit pas être prononcée comme un 'g' ou un 'n' français."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v5_1",
+      "term": "Yembr",
+      "phonetic_api": "/jembr/",
+      "phonetic_simple": "YEM-BR",
+      "translation": "Un (1)",
+      "example_sentence": "M tara biig a yembr.",
+      "example_phonetic": "/m tara bɪːɣ a jembr/",
+      "example_translation": "J'ai un seul enfant."
+    },
+    {
+      "word_id": "v5_2",
+      "term": "A yíibu",
+      "phonetic_api": "/a jɪːbu/",
+      "phonetic_simple": "A YII-BOU",
+      "translation": "Deux (2)",
+      "example_sentence": "Nand a yíibu.",
+      "example_phonetic": "/nand a jɪːbu/",
+      "example_translation": "Apporte deux (choses)."
+    },
+    {
+      "word_id": "v5_3",
+      "term": "A tãabo",
+      "phonetic_api": "/a tãːbo/",
+      "phonetic_simple": "A TAA-BO",
+      "translation": "Trois (3)",
+      "example_sentence": "Koos a tãabo.",
+      "example_phonetic": "/koːs a tãːbo/",
+      "example_translation": "Vends-en trois."
+    },
+    {
+      "word_id": "v5_4",
+      "term": "A naase",
+      "phonetic_api": "/a naːse/",
+      "phonetic_simple": "A NAA-SÉ",
+      "translation": "Quatre (4)",
+      "example_sentence": "Yuum a naase.",
+      "example_phonetic": "/juːm a naːse/",
+      "example_translation": "Quatre ans."
+    },
+    {
+      "word_id": "v5_5",
+      "term": "A nããnu",
+      "phonetic_api": "/a nãːnu/",
+      "phonetic_simple": "A NAAN-NOU",
+      "translation": "Cinq (5)",
+      "example_sentence": "Biis a nããnu.",
+      "example_phonetic": "/bɪːs a nãːnu/",
+      "example_translation": "Cinq enfants."
+    },
+    {
+      "word_id": "v5_6",
+      "term": "Pɩɩga",
+      "phonetic_api": "/pɪːɣa/",
+      "phonetic_simple": "PII-GA",
+      "translation": "Dix (10)",
+      "example_sentence": "A tara yuum pɩɩga.",
+      "example_phonetic": "/m tara juːm pɪːɣa/",
+      "example_translation": "Il a dix ans."
+    },
+    {
+      "word_id": "v5_7",
+      "term": "Pisi",
+      "phonetic_api": "/pisi/",
+      "phonetic_simple": "PI-SI",
+      "translation": "Vingt (20)",
+      "example_sentence": "Lēb-y pisi.",
+      "example_phonetic": "/leb i pisi/",
+      "example_translation": "Reviens à vingt."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p5_1",
+      "original": "Yaa a wãna ?",
+      "phonetic_api": "/jaː a wãna/",
+      "phonetic_simple": "YAA A WAN-NA",
+      "translation": "C'est combien ? / Combien ça coûte ?",
+      "context": "Question reine pour s'enquérir du prix d'un produit au marché."
+    },
+    {
+      "phrase_id": "p5_2",
+      "original": "Yaa pɩɩga.",
+      "phonetic_api": "/jaː pɪːɣa/",
+      "phonetic_simple": "YAA PII-GA",
+      "translation": "C'est dix (sous/francs).",
+      "context": "Réponse d'un vendeur indiquant un montant."
+    },
+    {
+      "phrase_id": "p5_3",
+      "original": "Nand-y bõn-naasã.",
+      "phonetic_api": "/nand i bõn naːsã/",
+      "phonetic_simple": "NAND-I BON-NAA-SAN",
+      "translation": "Apportez les quatre objets.",
+      "context": "Demande directive liée à un inventaire ou un ordre."
+    },
+    {
+      "phrase_id": "p5_4",
+      "original": "M tara ligd a wãna ?",
+      "phonetic_api": "/m tara liɣd a wãna/",
+      "phonetic_simple": "M TA-RA LIGD A WAN-NA",
+      "translation": "Combien d'argent ai-je ?",
+      "context": "Question rhétorique ou de vérification de ses économies."
+    },
+    {
+      "phrase_id": "p5_5",
+      "original": "Sõng-m t m sõse.",
+      "phonetic_api": "/sõnɡ m t m sõse/",
+      "phonetic_simple": "SONG-M T M SON-SÉ",
+      "translation": "Aide-moi à compter.",
+      "context": "Demande d'assistance pédagogique ou commerciale."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'utilisation obligatoire du préfixe numéral 'a'",
+      "explanation": "Dès qu'un adjectif numéral cardinal compris entre 2 et 9 qualifie un nom ou est utilisé pour compter de manière brute, il reçoit systématiquement la particule ou le préfixe 'a'. Ce préfixe tombe pour le chiffre un ('yembr') et pour la dizaine dix ('pɩɩga').",
+      "rules": [
+        "Nom + 'a' + Chiffre : structure universelle de qualification de la quantité.",
+        "Le nom qualifié reste généralement au singulier ou adopte une forme abrégée collective."
+      ],
+      "examples": [
+        {
+          "structure": "yuum (années) + a yíibu",
+          "phonetic_api": "/juːm a jɪːbu/",
+          "meaning": "Deux ans"
+        },
+        {
+          "structure": "biig (enfant) + a tãabo",
+          "phonetic_api": "/bɪːɣ a tãːbo/",
+          "meaning": "Trois enfants"
+        }
+      ]
+    },
+    {
+      "concept": "La conjonction de coordination 'la' dans les nombres composés",
+      "explanation": "Pour former les nombres de 11 à 19, le mooré pose la dizaine 'pɩɩga' (souvent raccourcie en 'piig'), suivie de la conjonction 'la' (et), puis du chiffre unité.",
+      "rules": [
+        "Structure : piig + la + unité.",
+        "Le préfixe 'a' de l'unité tombe après la conjonction 'la' dans la numérotation courante."
+      ],
+      "examples": [
+        {
+          "structure": "piig + la + yembr",
+          "phonetic_api": "/pɪːɣ la jembr/",
+          "meaning": "Onze (11)"
+        },
+        {
+          "structure": "piig + la + tãabo",
+          "phonetic_api": "/pɪːɣ la tãːbo/",
+          "meaning": "Treize (13)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Raas-koasda (La vendeuse)",
+      "text": "Ne y wíndiga, m baa ! Ad-y m bõndo.",
+      "phonetic_api": "/ne i wĩndiga m baː ad i m bõndo/",
+      "phonetic_simple": "NÉ I WIN-DI-GA M BAA ! AD-I M BON-DO",
+      "translation": "Bonjour, mon père ! Voici mes articles."
+    },
+    {
+      "speaker": "Boukari (L'acheteur)",
+      "text": "Ne y wíndiga. M sã n deeg a yíibu, yaa a wãna ?",
+      "phonetic_api": "/ne i wĩndiga m sã n deːɣ a jɪːbu jaː a wãna/",
+      "phonetic_simple": "NÉ I WIN-DI-GA. M SAN N DÉE-G A YII-BOU, YAA A WAN-NA ?",
+      "translation": "Bonjour. Si j'en prends deux, c'est combien ?"
+    },
+    {
+      "speaker": "Raas-koasda (La vendeuse)",
+      "text": "Yaa pɩɩga la nããnu.",
+      "phonetic_api": "/jaː pɪːɣa la nãːnu/",
+      "phonetic_simple": "YAA PII-GA LA NAAN-NOU",
+      "translation": "C'est quinze (15)."
+    },
+    {
+      "speaker": "Boukari (L'acheteur)",
+      "text": "Barka, ad ligdã.",
+      "phonetic_api": "/barka ad liɣdã/",
+      "phonetic_simple": "BAR-KA, AD LIG-DAN",
+      "translation": "Merci, voici l'argent."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les marchés burkinabè traditionnels, le calcul monétaire se fait souvent sur la base du 'cinq francs CFA', appelé 'dalar'. Ainsi, lorsque quelqu'un vous dit dix ('pɩɩga') en mooré lors d'un achat, il sous-entend généralement 10 fois 5 francs, soit 50 francs CFA.",
+    "Compter les personnes à haute voix avec les doigts devant elles est parfois évité ou encadré par des règles de politesse chez les anciens, car énumérer de façon trop brute des êtres vivants peut être lié à des croyances ou des rituels de protection.",
+    "La négociation commerciale au Burkina est un dialogue social rythmé : annoncer un chiffre n'est jamais définitif, c'est une invitation courtoise à poursuivre l'échange."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex5_1",
+      "type": "multiple_choice",
+      "question": "Quel chiffre correspond au terme mooré 'A tãabo' ?",
+      "options": [
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "3",
+      "explanation": "'A tãabo' désigne le nombre trois, reconnaissable à sa racine nasale."
+    },
+    {
+      "exercise_id": "ex5_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Piig [ ___ ] naase. (Traduction: Quatorze / 14)",
+      "correct_answer": "la",
+      "hint": "La petite conjonction signifiant 'et' servant à assembler les dizaines et les unités."
+    }
+  ]
+}

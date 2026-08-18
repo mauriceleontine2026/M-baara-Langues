@@ -1,0 +1,229 @@
+{
+  "lesson_id": "B1_M2_L4_v2",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Structurer un récit au passé en articulant correctement le prétérit simple et le prétérit continu",
+    "Utiliser les marqueurs temporels de rupture et de simultanéité (when, while, suddenly)",
+    "Maîtriser la prononciation des trois réalisations phonétiques du suffixe régulier '-ed'",
+    "Rapporter des habitudes ou des états passés révolus grâce à la structure 'used to'"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La prononciation du suffixe régulier '-ed' au prétérit dépend entièrement de la consonne finale de la base verbale. Il existe trois réalisations phonétiques distinctes :\n1. /ɪd/ après les sons /t/ ou /d/ : 'started' /ˈstɑːrtɪd/, 'decided' /dɪˈsaɪdɪd/. C'est le seul cas où le suffixe crée une syllabe supplémentaire.\n2. /t/ après les consonnes sourdes (/p/, /k/, /f/, /s/, /ʃ/, /tʃ/) : 'walked' /wɔːkt/, 'watched' /wɒtʃt/.\n3. /d/ après les consonnes voisées et les voyelles : 'lived' /lɪvd/, 'happened' /ˈhæpənd/.",
+    "common_pitfalls": "Prononcer systématiquement le suffixe '-ed' comme une syllabe /ɛd/ artificielle (dire 'walk-ed' au lieu de /wɔːkt/). Omettre de faire sonner la consonne de rupture finale dans un récit rapide. Confondre la prononciation de 'used to' /ˈjuːst tuː/ (où le 's' est sourd) avec le verbe 'to use' au présent /juːz/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Narrative",
+      "phonetic_api": "/ˈnærətɪv/",
+      "phonetic_simple": "NAR-ə-tɪv",
+      "translation": "Récit / Narration",
+      "example_sentence": "She wrote a compelling narrative about her travels in Asia.",
+      "example_phonetic": "/ʃiː roʊt ə kəmˈpɛlɪŋ ˈnærətɪv əˈbaʊt hɜːr ˈtrævəlz ɪn ˈeɪʒə/",
+      "example_translation": "Elle a écrit un récit captivant sur ses voyages en Asie."
+    },
+    {
+      "word_id": "v2",
+      "term": "Suddenly",
+      "phonetic_api": "/ˈsʌdənli/",
+      "phonetic_simple": "SAD-ən-li",
+      "translation": "Soudain / Tout à coup",
+      "example_sentence": "The lights went out suddenly during the storm.",
+      "example_phonetic": "/ðə laɪts wɛnt aʊt ˈsʌdənli ˈdjʊərɪŋ ðə stɔːrm/",
+      "example_translation": "Les lumières se sont éteintes soudainement pendant la tempête."
+    },
+    {
+      "word_id": "v3",
+      "term": "While",
+      "phonetic_api": "/waɪl/",
+      "phonetic_simple": "waɪl",
+      "translation": "Pendant que / Tandis que",
+      "example_sentence": "The phone rang while I was taking a shower.",
+      "example_phonetic": "/ðə foʊn ræŋ waɪl aɪ wɒz ˈteɪkɪŋ ə ˈʃaʊər/",
+      "example_translation": "Le téléphone a sonné pendant que je prenais une douche."
+    },
+    {
+      "word_id": "v4",
+      "term": "Anecdote",
+      "phonetic_api": "/ˈænɪkdoʊt/",
+      "phonetic_simple": "AN-ɪk-doht",
+      "translation": "Anecdote / Histoire courte",
+      "example_sentence": "He shared a funny anecdote during the family dinner.",
+      "example_phonetic": "/hiː ʃɛərd ə ˈfʌni ˈænɪkdoʊt ˈdjʊərɪŋ ðə ˈfæmɪli ˈdɪnər/",
+      "example_translation": "Il a partagé une anecdote amusante pendant le dîner de famille."
+    },
+    {
+      "word_id": "v5",
+      "term": "Event",
+      "phonetic_api": "/ɪˈvɛnt/",
+      "phonetic_simple": "ɪ-VENT",
+      "translation": "Événement / Fait",
+      "example_sentence": "The chronological sequence of events is very important in a story.",
+      "example_phonetic": "/ðə ˌkrɒnəˈlɒdʒɪkəl ˈsiːkwəns ɒv ɪˈvɛnts ɪz ˈvɛri ɪmˈpɔːrtənt ɪn ə ˈstɔːri/",
+      "example_translation": "La séquence chronologique des événements est très importante dans une histoire."
+    },
+    {
+      "word_id": "v6",
+      "term": "Habit",
+      "phonetic_api": "/ˈhæbɪt/",
+      "phonetic_simple": "HAB-ɪt",
+      "translation": "Habitude",
+      "example_sentence": "Breaking an old habit is often difficult.",
+      "example_phonetic": "/ˈbreɪkɪŋ ən oʊld ˈhæbɪt ɪz ˈɒfən ˈdɪfɪkəlt/",
+      "example_translation": "Rompre avec une vieille habitude est souvent difficile."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Guess what happened to me yesterday!",
+      "phonetic_api": "/ɡɛs wɒt ˈhæpənd tuː miː ˈjɛstərdeɪ/",
+      "phonetic_simple": "ges wɒt HAP-ənd too mi YES-tər-deɪ",
+      "translation": "Devine ce qui m'est arrivé hier !",
+      "context": "Formule d'accroche orale extrêmement courante pour lancer le récit d'une anecdote."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "I was walking down the street when suddenly...",
+      "phonetic_api": "/aɪ wɒz ˈwɔːkɪŋ daʊn ðə striːt wɛn ˈsʌdənli/",
+      "phonetic_simple": "aɪ wɒz WOK-iŋ daʊn ðə striit wen SAD-ən-li",
+      "translation": "Je marchais dans la rue quand soudain...",
+      "context": "Structure type combinant une action de fond en cours et un élément perturbateur."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "I used to live in a small village",
+      "phonetic_api": "/aɪ ˈjuːst tuː lɪv ɪn ə smɔːl ˈvɪlɪdʒ/",
+      "phonetic_simple": "aɪ YOUST too lɪv ɪn ə smɔl VIL-ɪdj",
+      "translation": "J'habitais autrefois dans un petit village / J'avais l'habitude de vivre...",
+      "context": "Permet de poser le décor d'une situation passée qui n'est plus vraie aujourd'hui."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "As I was saying before the interruption",
+      "phonetic_api": "/æz aɪ wɒz ˈseɪɪŋ bɪˈfɔːr ði ˌɪntəˈrʌpʃən/",
+      "phonetic_simple": "æz aɪ wɒz SEI-iŋ bɪ-FOR ði ɪn-tə-RAP-ʃən",
+      "translation": "Comme je le disais avant l'interruption",
+      "context": "Utile pour reprendre le fil de sa narration après avoir été coupé."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'articulation narrative entre le Prétérit Simple et le Prétérit Continu (Past Continuous)",
+      "explanation": "Pour construire un récit fluide au passé, le niveau B1 exige de combiner harmonieusement deux aspects temporels. Le **Past Continuous** (was/were + V-ing) sert à décrire le décor, une action de fond ou une situation en cours de déroulement à un moment du passé. Le **Prétérit Simple** intervient pour introduire une action ponctuelle, soudaine ou achevée qui vient couper, interrompre ou faire progresser l'action de fond.",
+      "rules": [
+        "Action longue / Décor -> Past Continuous (Sujet + WAS/WERE + V-ing).",
+        "Action courte / Rupture -> Prétérit Simple (Verbe-ed ou Verbe irrégulier).",
+        "Marqueurs : On utilise souvent 'while' ou 'as' devant le continu et 'when' ou 'suddenly' devant le prétérit simple."
+      ],
+      "examples": [
+        {
+          "structure": "While she was cooking dinner, the power went out.",
+          "phonetic_api": "/waɪl ʃiː wɒz ˈkʊkɪŋ ˈdɪnər ðə ˈpaʊər wɛnt aʊt/",
+          "meaning": "Pendant qu'elle cuisinait le dîner (action longue), l'électricité a coupé (action de rupture)."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de l'habitude révolue avec USED TO",
+      "explanation": "Pour décrire des actions répétées, des coutumes ou des états qui se prolongeaient dans le passé mais qui sont aujourd'hui complètement terminés, l'anglais utilise la structure semi-modale 'USED TO' suivie de la base verbale. Cette structure s'oppose au présent et évite d'utiliser le prétérit simple de manière trop neutre.",
+      "rules": [
+        "Forme affirmative : Sujet + used to + Base Verbale (ex: I used to smoke).",
+        "Forme négative : Sujet + didn't use to + Base Verbale (attention : le 'd' disparaît).",
+        "Forme interrogative : Did + Sujet + use to + Base Verbale?"
+      ],
+      "examples": [
+        {
+          "structure": "Did you use to play the piano when you were a child?",
+          "phonetic_api": "/dɪd juː ˈjuːs tuː pleɪ ðə piˈænoʊ wɛn juː wɜːr ə tʃaɪld/",
+          "meaning": "Est-ce que tu jouais au piano (habitude) quand tu étais enfant ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Tom",
+      "text": "Hey Lucas, I saw you near the old university campus yesterday afternoon. Were you visiting someone?",
+      "phonetic_api": "/heɪ ˈluːkəs aɪ sɔː juː nɪər ði oʊld ˌjuːnɪˈvɜːrsəti ˈkæmpəs ˈjɛstərdeɪ ˌæftərˈnuːn wɜːr juː ˈvɪzɪtɪŋ ˈsʌmwʌn/",
+      "phonetic_simple": "heɪ LOO-kəs aɪ sɔ yoo nɪər ði ohld joo-nɪ-VɜːR-sɪ-ti KAM-pəs YES-tər-deɪ af-tər-NOON wɜːr yoo VIZ-ɪt-iŋ SAM-wʌn",
+      "translation": "Salut Lucas, je t'ai vu près de l'ancien campus universitaire hier après-midi. Tu rendais visite à quelqu'un ?"
+    },
+    {
+      "speaker": "Lucas",
+      "text": "Not at all! Actually, a very strange thing happened to me while I was walking past the old library.",
+      "phonetic_api": "/nɒt æt ɔːl ˈækʃʊəli ə ˈvɛri streɪndʒ θɪŋ ˈhæpənd tuː miː waɪl aɪ wɒz ˈwɔːkɪŋ pæst ði oʊld ˈlaɪbrəri/",
+      "phonetic_simple": "nɒt at ɔl AK-tʃou-ə-li ə VER-i streɪndj θiŋ HAP-ənd too mi waɪl aɪ wɒz WOK-iŋ pæst ði ohld LAÏ-brər-i",
+      "translation": "Pas du tout ! En fait, une chose très étrange m'est arrivée pendant que je passais à pied devant l'ancienne bibliothèque."
+    },
+    {
+      "speaker": "Tom",
+      "text": "Really? Tell me more! I used to study there every day, it's usually very quiet.",
+      "phonetic_api": "/ˈrɪəli tɛl miː mɔːr aɪ ˈjuːst tuː ˈstʌdi ðɛər ˈɛvri deɪ ɪts ˈjuːʒʊəli ˈvɛri kwaɪət/",
+      "phonetic_simple": "RII-li tel mi mɔːr aɪ YOUST too STAD-i ðɛər EV-ri deɪ ɪts YOU-ʒou-ə-li VER-i KWAÏ-ət",
+      "translation": "Vraiment ? Raconte-moi ! J'avais l'habitude d'y étudier tous les jours, c'est généralement très calme."
+    },
+    {
+      "speaker": "Lucas",
+      "text": "I know. Well, as I was looking at the old entrance, a man suddenly ran out of the building. He was shouting in a foreign language and carrying a huge medieval book.",
+      "phonetic_api": "/aɪ noʊ wɛl æz aɪ wɒz ˈlʊkɪŋ æt ði oʊld ˈɛntrəns ə mæn ˈsʌdənli ræn aʊt ɒv ðə ˈbɪldɪŋ hiː wɒz ˈʃaʊtɪŋ ɪn ə ˈfɒrən ˈlæŋɡwɪdʒ ænd ˈkærɪɪŋ ə hjuːdʒ ˌmɛdɪˈiːvəl bʊk/",
+      "phonetic_simple": "aɪ noh wel æz aɪ wɒz LUK-iŋ at ði ohld EN-trəns ə mæn SAD-ən-li ræn aʊt ɒv ðə BIL-dɪŋ hi wɒz ʃAʊT-iŋ ɪn ə FOR-ən LAŊ-gwɪdj and KAR-i-iŋ ə hioudj med-i-IIV-əl bʊk",
+      "translation": "Je sais. Eh bien, alors que je regardais l'ancienne entrée, un homme est soudainement sorti de l'immeuble en courant. Il criait dans une langue étrangère et portait un énorme livre médiéval."
+    },
+    {
+      "speaker": "Tom",
+      "text": "Wow, that's bizarre! Did he drop it or run away?",
+      "phonetic_api": "/waʊ ðæts bɪˈzɑːr dɪd hiː drɒp ɪt ɔːr rʌn əˈweɪ/",
+      "phonetic_simple": "waʊ ðæts bɪ-ZAR dɪd hi drop ɪt ɔːr ran ə-WEI",
+      "translation": "Ouah, c'est bizarre ! Est-ce qu'il l'a fait tomber ou s'est-il enfui ?"
+    },
+    {
+      "speaker": "Lucas",
+      "text": "He didn't stop. He jumped into a dark taxi that was waiting down the street and vanished.",
+      "phonetic_api": "/hiː dɪdnt stɒp hiː dʒʌmpt ˈɪntuː ə dɑːrk ˈtæksi ðæt wɒz ˈweɪtɪŋ daʊn ðə striːt ænd ˈvænɪʃt/",
+      "phonetic_simple": "hi DIDNT stop hi DJAMPT IN-too ə dark TAK-si ðat wɒz WEIT-iŋ daʊn ðə striit and VAN-ɪʃt",
+      "translation": "Il ne s'est pas arrêté. Il a sauté dans un taxi sombre qui attendait plus bas dans la rue et a disparu."
+    }
+  ],
+  "cultural_notes": [
+    "La culture du Storytelling : Les anglophones accordent une place primordiale au récit d'anecdotes personnelles lors des interactions sociales ou professionnelles informelles (comme le 'small talk'). Réussir à rythmer son récit en alternant habilement les temps du passé fait partie intégrante du charisme conversationnel attendu au niveau B1-B2.",
+    "La nuance sémantique de 'Used to' : Dire 'I used to do it' implique obligatoirement une rupture totale avec le présent. Si vous dites cela, votre interlocuteur comprendra automatiquement que vous ne pratiquez plus du tout cette activité. C'est un outil puissant pour marquer les étapes de sa vie."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la combinaison correcte : 'We [ ___ ] television when suddenly the alarm [ ___ ].'",
+      "options": [
+        "watched / was ringing",
+        "were watching / rang",
+        "watched / rang"
+      ],
+      "correct_answer": "were watching / rang",
+      "explanation": "Regarder la télévision est l'action de fond en cours de déroulement (were watching), interrompue brusquement par le déclenchement de l'alarme au prétérit simple (rang)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "When I was younger, I didn't [ ___ ] to like green vegetables, but now I love them.",
+      "correct_answer": "use",
+      "hint": "Forme correcte de la structure de l'habitude passée requise au sein d'une phrase négative après l'auxiliaire 'didn't'."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Parmi ces trois verbes au prétérit, lequel se termine par la prononciation du son /ɪd/ créant une syllabe supplémentaire ?",
+      "options": [
+        "Played",
+        "Stopped",
+        "Decided"
+      ],
+      "correct_answer": "Decided",
+      "explanation": "La base du verbe 'decide' se terminant par le son /d/, le suffixe de passé régulier se prononce obligatoirement /ɪd/ ('de-ci-ded')."
+    }
+  ]
+}

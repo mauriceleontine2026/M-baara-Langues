@@ -1,0 +1,270 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Identifier les 25 lettres de l'alphabet yoruba (Alifabẹ́ẹ̀tì Olókùnṣọ̀rọ̀)",
+    "Maîtriser la prononciation des voyelles ouvertes (ẹ, ọ) et des consonnes spécifiques (gb, ṣ, p)",
+    "Comprendre le fonctionnement phonologique des trois tons fondamentaux"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'alphabet yoruba ne possède pas les lettres c, q, v, x, z. Il ajoute des diacritiques (points souscrit) pour créer les phonèmes [ɛ] (ẹ), [ɔ] (ọ) et [ʃ] (ṣ). La lettre 'p' représente l'occlusive bilabiale-vélaire sourde [k͡p], et le digramme 'gb' représente son équivalent sonore [ɡ͡b].",
+    "common_pitfalls": "Prononcer le 'p' comme un [p] français au lieu de faire une occlusion simultanée des lèvres et du voile du palais [k͡p]. Omettre le point sous les lettres modifie la nature même de la voyelle ou de la consonne."
+  },
+  "vocabulary": [
+    {
+      "word_id": "A1_M1_L3_V1",
+      "term": "Alifabẹ́ẹ̀tì",
+      "phonetic_api": "/alifabɛ́ɛ̀tì/",
+      "phonetic_simple": "A-LI-FA-BÉ-È-TÌ",
+      "translation": "L'alphabet",
+      "example_sentence": "Alifabẹ́ẹ̀tì yorúbà ní lẹ́tà mẹ́rìndínlọ́gbọ̀n.",
+      "example_phonetic": "/alifabɛ́ɛ̀tì joɾúbà ní lɛ́tà mɛ́ɾĩ̀dĩ́lɔ́ɡ͡bɔ̃̀/",
+      "example_translation": "L'alphabet yoruba possède vingt-cinq lettres (historiquement et linguistiquement comptées comme 25 phonèmes principaux)."
+    },
+    {
+      "word_id": "A1_M1_L3_V2",
+      "term": "Fáwẹ̀lì",
+      "phonetic_api": "/fáwɛ̀lì/",
+      "phonetic_simple": "FÁ-WÈ-LÌ",
+      "translation": "Voyelle",
+      "example_sentence": "Fáwẹ̀lì méje ni ó wà.",
+      "example_phonetic": "/fáwɛ̀lì méd͡ʒe nĩ ó wà/",
+      "example_translation": "Il y a sept voyelles orales."
+    },
+    {
+      "word_id": "A1_M1_L3_V3",
+      "term": "Kónsónáǹtì",
+      "phonetic_api": "/kốsốnấ̀tì/",
+      "phonetic_simple": "KÓN-SÓN-ÁN-TÌ",
+      "translation": "Consonne",
+      "example_sentence": "Lẹ́tà 'gb' jẹ́ kónsónáǹtì.",
+      "example_phonetic": "/lɛ́tà ɡ͡bɔ̀ d͡ʒɛ́ kốsốnấ̀tì/",
+      "example_translation": "La lettre 'gb' est une consonne."
+    },
+    {
+      "word_id": "A1_M1_L3_V4",
+      "term": "Ami-orí-ọ̀rọ̀",
+      "phonetic_api": "/amĩoɾíɔ̀ɾɔ̀/",
+      "phonetic_simple": "A-MI-OH-RÍ-AW-RÀW",
+      "translation": "Accent tonique / Signe du ton (Littéralement : marque sur la tête du mot)",
+      "example_sentence": "Ami-orí-ọ̀rọ̀ ṣe pàtàkì púpọ̀.",
+      "example_phonetic": "/amĩoɾíɔ̀ɾɔ̀ ʃe kàtàkì kúpɔ̀/",
+      "example_translation": "Les signes de tons sont très importants."
+    },
+    {
+      "word_id": "A1_M1_L3_V5",
+      "term": "G͡bà",
+      "phonetic_api": "/ɡ͡bà/",
+      "phonetic_simple": "GBÀ (implosif sonore)",
+      "translation": "Prendre / Accepter / Recevoir",
+      "example_sentence": "G͡bà fún mi.",
+      "example_phonetic": "/ɡ͡bà fʊ́ mĩ/",
+      "example_translation": "Accepte cela pour moi."
+    },
+    {
+      "word_id": "A1_M1_L3_V6",
+      "term": "Púpọ̀",
+      "phonetic_api": "/k͡púpɔ̀/",
+      "phonetic_simple": "KPOÚ-PÀW",
+      "translation": "Beaucoup / Nombreux",
+      "example_sentence": "Oṣé púpọ̀.",
+      "example_phonetic": "/oʃé k͡púpɔ̀/",
+      "example_translation": "Merci beaucoup."
+    },
+    {
+      "word_id": "A1_M1_L3_V7",
+      "term": "Ṣọ̀rọ̀",
+      "phonetic_api": "/ʃɔ̀ɾɔ̀/",
+      "phonetic_simple": "SHAW-RAW",
+      "translation": "Parler",
+      "example_sentence": "Mo fẹ́ṣọ̀rọ̀ yorúbà.",
+      "example_phonetic": "/mo fɛ́ʃɔ̀ɾɔ̀ joɾúbà/",
+      "example_translation": "Je veux parler yoruba."
+    },
+    {
+      "word_id": "A1_M1_L3_V8",
+      "term": "Ìró",
+      "phonetic_api": "/ìɾó/",
+      "phonetic_simple": "Ì-RÓ",
+      "translation": "Son / Phonème",
+      "example_sentence": "Fetísí ìró lẹ́tà yìí.",
+      "example_phonetic": "/fètísí ìró lɛ́tà jĩː/",
+      "example_translation": "Écoute le son de cette lettre."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "A1_M1_L3_P1",
+      "original": "Báwo ni a ṣe ń pe lẹ́tà yìí?",
+      "phonetic_api": "/báwo nĩ a ʃe ŋ́ k͡pe lɛ́tà jĩː/",
+      "phonetic_simple": "BÁ-WO NI A SHÉ N KPÉ LÉ-TÀ YÍ?",
+      "translation": "Comment prononce-t-on cette lettre ?",
+      "context": "Question pédagogique pour interroger un tuteur ou un locuteur."
+    },
+    {
+      "phrase_id": "A1_M1_L3_P2",
+      "original": "Mo dúpẹ́, mo gbọ́ yorúbà díẹ̀.",
+      "phonetic_api": "/mo dúpɛ́ mo ɡ͡bɔ́ joɾúbà díɛ̀/",
+      "phonetic_simple": "MO DOU-KPÉ, MO GBÁ YO-ROÚ-BÀ DÍ-È.",
+      "translation": "Merci, je comprends un peu le yoruba.",
+      "context": "Pour indiquer son niveau d'apprentissage initial."
+    },
+    {
+      "phrase_id": "A1_M1_L3_P3",
+      "original": "Ẹ jọ̀wọ́, ẹ tún sọ ọ́.",
+      "phonetic_api": "/ɛ̀ d͡ʒɔ̀wɔ́ ɛ̀ tʊ́ sɔ ɔ́/",
+      "phonetic_simple": "È JÀW-WÓ, È TOÚN SÀW Á.",
+      "translation": "S'il vous plaît, répétez-le.",
+      "context": "Demande de répétition polie face à une mauvaise perception orale."
+    },
+    {
+      "phrase_id": "A1_M1_L3_P4",
+      "original": "Ami wo ni ó wà lórí ọ̀rọ̀ yìí?",
+      "phonetic_api": "/amĩ wo nĩ ó wà lórí ɔ̀ɾɔ̀ jĩː/",
+      "phonetic_simple": "A-MI WO NI Ó WÀ LÓ-RÍ AW-RÀW YÍ?",
+      "translation": "Quel accent (ton) se trouve sur ce mot ?",
+      "context": "Analyse linguistique ou correction de lecture."
+    },
+    {
+      "phrase_id": "A1_M1_L3_P5",
+      "original": "Kò sí ami lórí lẹ́tà 'a'.",
+      "phonetic_api": "/kò sí amĩ lórí lɛ́tà a/",
+      "phonetic_simple": "KÒ SÍ A-MI LÓ-RÍ LÉ-TÀ 'A'.",
+      "translation": "Il n'y a pas d'accent sur la lettre 'a' (indique le ton moyen).",
+      "context": "Explication sur les règles de notation écrite."
+    },
+    {
+      "phrase_id": "A1_M1_L3_P6",
+      "original": "Ṣé o le kọ ọ́ sílẹ̀?",
+      "phonetic_api": "/ʃé o le kɔ ɔ́ sílɛ̀/",
+      "phonetic_simple": "SHÉ O LE KÀW Á SÍ-LÈ?",
+      "translation": "Peux-tu l'écrire par écrit ?",
+      "context": "Pour obtenir l'orthographe exacte d'un terme inconnu."
+    },
+    {
+      "phrase_id": "A1_M1_L3_P7",
+      "original": "Pípè rẹ dára púpọ̀ o.",
+      "phonetic_api": "/k͡pík͡pè ɾɛ dáɾa k͡púpɔ̀ o/",
+      "phonetic_simple": "KPÍ-KPÈ RÈ DÁ-RA KPOÚ-PÀW O.",
+      "translation": "Votre prononciation est excellente.",
+      "context": "Encouragement adressé à un apprenant par un locuteur natif."
+    },
+    {
+      "phrase_id": "A1_M1_L3_P8",
+      "original": "Ìró 'gb' nira fún mi.",
+      "phonetic_api": "/ìɾó ɡ͡bɔ̀ nĩɾa fʊ́ mĩ/",
+      "phonetic_simple": "Ì-RÓ 'GBÀ' NI-RA FOÚN MI.",
+      "translation": "Le son 'gb' est difficile pour moi.",
+      "context": "Expression d'une difficulté articulatoire."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système tritonique : Haut, Moyen, Bas",
+      "explanation": "Le yoruba possède trois tons phonémiques obligatoires. Ils ne servent pas à exprimer une émotion (comme l'intonation en français) mais à définir l'identité lexicale d'un mot. Le ton haut s'écrit avec un accent aigu (´), le ton bas avec un accent grave (`) et le ton moyen ne porte aucun signe graphique.",
+      "rules": [
+        "Ton Haut (Do ré MI) -> Voix montante et tendue.",
+        "Ton Moyen (Do RE mi) -> Voix neutre et stable.",
+        "Ton Bas (DO ré mi) -> Voix descendante et relâchée."
+      ],
+      "examples": [
+        {
+          "structure": "Igbá (Ton Moyen-Haut)",
+          "phonetic_api": "/iɡ͡bá/",
+          "meaning": "Calebasse"
+        },
+        {
+          "structure": "Igba (Ton Moyen-Moyen)",
+          "phonetic_api": "/iɡ͡ba/",
+          "meaning": "Deux cents"
+        },
+        {
+          "structure": "Ìgbà (Ton Bas-Bas)",
+          "phonetic_api": "/ìɡ͡bà/",
+          "meaning": "Temps / Époque / Saison"
+        }
+      ]
+    },
+    {
+      "concept": "La graphie et morphologie des voyelles nasales 'V+n'",
+      "explanation": "Les voyelles nasales sont au nombre de cinq en yoruba écrit. Elles se forment en ajoutant la lettre 'n' juste après l'une des voyelles orales compatibles (an, ẹn, in, ọn, un). Le 'n' final n'est pas articulé comme une consonne nasale alvéolaire [n], il modifie simplement le flux d'air qui passe par la cavité nasale lors de l'émission de la voyelle.",
+      "rules": [
+        "Ne jamais détacher le 'n' lors de la syllabation (ex: 'ràn' forme une seule et unique syllabe nasale).",
+        "La voyelle 'ọ' nasalisée s'écrit historiquement 'ọn' ou s'assimile phonétiquement selon les variantes dialectales."
+      ],
+      "examples": [
+        {
+          "structure": "Inú (i-nú)",
+          "phonetic_api": "/inú/",
+          "meaning": "Intérieur / Ventre (le 'u' est entièrement nasalisé)"
+        },
+        {
+          "structure": "Ìyẹn (ì-jɛn)",
+          "phonetic_api": "/ìjɛ̃/",
+          "meaning": "Cela / Celui-là"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sẹ̀gun (L'étudiant)",
+      "text": "Ẹ jọ̀wọ́, olùkọ́, kí ni ìyàtọ̀ láàárín 'p' àti 'gb'?",
+      "phonetic_api": "/ɛ̀ d͡ʒɔ̀wɔ́ olùkɔ́ kí nĩ ìjàtɔ̀ láːɾĩ́ k͡pɔ̀ àti ɡ͡bɔ̀/",
+      "phonetic_simple": "È JÀW-WÓ, OH-LOÙ-KÁW, KÍ NI Ì-YÀ-TÀW LÁÀ-RÍN 'KP' À-TI 'GB'?",
+      "translation": "S'il vous plaît, professeur, quelle est la différence entre le 'p' et le 'gb' ?"
+    },
+    {
+      "speaker": "Olùkọ́ (Le professeur)",
+      "text": "Ìró 'p' jẹ́ odidi adití [k͡p], ṣùgbọ́n 'gb' ní ohùn nínú [ɡ͡b]. Fetísí mi: púpọ̀, gbà.",
+      "phonetic_api": "/ìɾó k͡pɔ̀ d͡ʒɛ́ odidi adití k͡p ʃùɡ͡bɔ́ ɡ͡bɔ̀ ní ohʊ̀ nĩ́nú k͡púpɔ̀ ɡ͡bà/",
+      "phonetic_simple": "Ì-RÓ 'KP' JÉ OH-DI-DI A-DI-TÍ [KP], SHOÙ-GBÓN 'GB' NÍ OHÒÙN NÍ-NOÚ. FE-TÍ-SÍ MI: KPOÚ-PÀW, GBÀ.",
+      "translation": "Le son 'p' est totalement sourd [kp], tandis que le 'gb' est sonore (contient de la voix) [gb]. Écoute-moi : pupọ, gba."
+    },
+    {
+      "speaker": "Sẹ̀gun (L'étudiant)",
+      "text": "Ah! Mo gbọ́ báyìí. 'Púpọ̀' ní ìró k͡p, 'gbà' ní ɡ͡b. Ṣé mo tọ̀?",
+      "phonetic_api": "/ah mo ɡ͡bɔ́ bájĩː k͡púpɔ̀ ní ìɾó k͡p ɡ͡bà ní ɡ͡b ʃé mo tɔ̀/",
+      "phonetic_simple": "AH! MO GBÁ BÁ-YÍ. 'KPOÚ-PÀW' NÍ Ì-RÓ KP, 'GBÀ' NÍ GB. SHÉ MO TÀW?",
+      "translation": "Ah ! Je comprends maintenant. 'Pupọ' a le son kp, 'gba' a le son gb. Est-ce que j'ai raison ?"
+    },
+    {
+      "speaker": "Olùkọ́ (Le professeur)",
+      "text": "Bẹ́ẹ̀ ni, o tọ́ púpọ̀! Ami-orí-ọ̀rọ̀ rẹ náà ti dára báyìí.",
+      "phonetic_api": "/bɛ́ː nĩ o tɔ́ k͡púpɔ̀ amĩoɾíɔ̀ɾɔ̀ ɾɛ náː ti dáɾa bájĩː/",
+      "phonetic_simple": "BÉÈ NI, O TÀW KPOÚ-PÀW! A-MI-OH-RÍ-AW-RÀW RÈ NÁÀ TI DÁ-RA BÁ-YÍ.",
+      "translation": "Oui, tu as tout à fait raison ! Ta gestion des tons est aussi devenue bonne maintenant."
+    }
+  ],
+  "cultural_notes": [
+    "L'alphabet yoruba moderne a été stabilisé par le célèbre évêque Samuel Ajayi Crowther au milieu du XIXe siècle. C'est lui qui a codifié l'usage des points souscrits pour adapter l'alphabet latin aux réalités phonétiques africaines.",
+    "La musicalité de la langue yoruba, induite par ses tons, est à l'origine du concept des 'tambours parlants' (Gangan / Dùndún). Les batteurs reproduisent fidèlement la courbe mélodique des mots (Tons Haut, Moyen, Bas) pour transmettre de véritables phrases et poèmes à distance sans prononcer un seul mot articulé.",
+    "L'absence d'accents à l'écrit (souvent tolérée dans les SMS ou l'écriture informelle moderne) rend la lecture extrêmement ardue et sujette à de nombreux contresens pour les non-locuteurs."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L3_EX1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'absence totale d'accent graphique sur une voyelle en yoruba ?",
+      "options": [
+        "Le mot doit être chuchoté",
+        "La voyelle porte un ton moyen",
+        "La voyelle est muette",
+        "Le ton est descendant"
+      ],
+      "correct_answer": "La voyelle porte un ton moyen",
+      "explanation": "Par convention orthographique, seul le ton haut (´) et le ton bas (`) sont notés graphiquement. Le ton moyen reste libre de tout accent."
+    },
+    {
+      "exercise_id": "A1_M1_L3_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "La lettre de l'alphabet yoruba qui se prononce [k͡p] (occlusive bilabiale-vélaire sourde) s'écrit graphiquement avec le symbole unique : [ ___ ].",
+      "correct_answer": "p",
+      "hint": "C'est une lettre simple de l'alphabet latin qui change radicalement de valeur par rapport au français."
+    }
+  ]
+}

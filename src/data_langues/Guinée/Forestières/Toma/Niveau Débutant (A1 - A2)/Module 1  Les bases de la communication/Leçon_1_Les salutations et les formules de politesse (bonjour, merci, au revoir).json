@@ -1,0 +1,154 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Savoir saluer selon le moment de la journée",
+    "Exprimer la politesse et le remerciement dans un cadre quotidien"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'ɛ' se prononce comme le 'è' français. Les tons sont cruciaux : un accent circonflexe indique un ton descendant, tandis qu'un accent aigu indique un ton haut.",
+    "common_pitfalls": "Ne pas prononcer le 'e' final comme un 'e' muet français; toutes les voyelles écrites doivent être distinctement audibles."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_1",
+      "term": "Pele",
+      "phonetic_api": "/pe.le/",
+      "phonetic_simple": "PE-LE",
+      "translation": "Bonjour / Salut",
+      "example_sentence": "Pele, i vaza?",
+      "example_phonetic": "/pe.le i va.za/",
+      "example_translation": "Bonjour, tu vas bien ?"
+    },
+    {
+      "word_id": "v1_2",
+      "term": "Mamiô",
+      "phonetic_api": "/ma.mi.ɔ̂/",
+      "phonetic_simple": "MA-MI-O",
+      "translation": "Merci",
+      "example_sentence": "Mamiô, na loi.",
+      "example_phonetic": "/ma.mi.ɔ̂ na loi/",
+      "example_translation": "Merci, mon enfant."
+    },
+    {
+      "word_id": "v1_3",
+      "term": "Baika",
+      "phonetic_api": "/bai.ka/",
+      "phonetic_simple": "BAÏ-KA",
+      "translation": "S'il te plaît / S'il vous plaît",
+      "example_sentence": "Baika, pɛ̀ fɛ.",
+      "example_phonetic": "/bai.ka pɛ̀ fɛ/",
+      "example_translation": "S'il te plaît, donne-moi ça."
+    },
+    {
+      "word_id": "v1_4",
+      "term": "Kua lo",
+      "phonetic_api": "/kua lo/",
+      "phonetic_simple": "KOUA LO",
+      "translation": "Au revoir",
+      "example_sentence": "Kua lo, na li ma.",
+      "example_phonetic": "/kua lo na li ma/",
+      "example_translation": "Au revoir, je m'en vais."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_1",
+      "original": "I liizɛ̀ vaza?",
+      "phonetic_api": "/i liː.zɛ̀ va.za/",
+      "phonetic_simple": "I LII-ZE VA-ZA",
+      "translation": "Tu t'es réveillé en paix ? (Bonjour le matin)",
+      "context": "Salutation standard du matin pour une personne."
+    },
+    {
+      "phrase_id": "p1_2",
+      "original": "Wa liizɛ̀ vaza?",
+      "phonetic_api": "/wa liː.zɛ̀ va.za/",
+      "phonetic_simple": "OUA LII-ZE VA-ZA",
+      "translation": "Vous vous êtes réveillés en paix ? (Bonjour le matin)",
+      "context": "Salutation du matin destinée à un groupe de personnes ou marque de respect."
+    },
+    {
+      "phrase_id": "p1_3",
+      "original": "I gbelee vaza?",
+      "phonetic_api": "/i ɡbe.leː va.za/",
+      "phonetic_simple": "I GBE-LEE VA-ZA",
+      "translation": "Tu as passé une bonne journée ? (Bonsoir l'après-midi/soir)",
+      "context": "Utilisé à partir du milieu de la journée pour prendre des nouvelles."
+    },
+    {
+      "phrase_id": "p1_4",
+      "original": "A vaza ge bii.",
+      "phonetic_api": "/a va.za ɡe biː/",
+      "phonetic_simple": "A VA-ZA GUE BII",
+      "translation": "Que la paix soit sur cette nuit.",
+      "context": "Formule pour souhaiter une bonne nuit au moment du coucher."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les pronoms personnels sujets au singulier",
+      "explanation": "En toma, le pronom sujet précède immédiatement le verbe ou le prédicat de salutation. Ils changent de forme selon le ton de la phrase.",
+      "rules": [
+        "Le pronom 'Na' ou 'N' représente la première personne du singulier (Je).",
+        "Le pronom 'I' représente la deuxième personne du singulier (Tu)."
+      ],
+      "examples": [
+        {
+          "structure": "N'vaza",
+          "phonetic_api": "/n̩.va.za/",
+          "meaning": "Je vais bien"
+        },
+        {
+          "structure": "I vaza",
+          "phonetic_api": "/i va.za/",
+          "meaning": "Tu vas bien"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Tokpa",
+      "text": "Pele, Sia! I liizɛ̀ vaza?",
+      "phonetic_api": "/pe.le si.a i liː.zɛ̀ va.za/",
+      "phonetic_simple": "PE-LE, SI-A! I LII-ZE VA-ZA?",
+      "translation": "Salut Sia ! Tu t'es réveillée en paix ?"
+    },
+    {
+      "speaker": "Sia",
+      "text": "Owo, n'vaza. Mamiô.",
+      "phonetic_api": "/o.wo n̩.va.za ma.mi.ɔ̂/",
+      "phonetic_simple": "O-OUO, N-VA-ZA. MA-MI-O.",
+      "translation": "Oui, je vais bien. Merci."
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Tomas, la salutation est un acte communautaire majeur. Refuser de saluer ou omettre de demander des nouvelles de la santé est perçu comme une grave impolitesse ou un signe d'hostilité."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_1",
+      "type": "multiple_choice",
+      "question": "Quelle formule utilise-on pour saluer spécifiquement un groupe le matin ?",
+      "options": [
+        "Pele",
+        "Wa liizɛ̀ vaza?",
+        "A vaza ge bii"
+      ],
+      "correct_answer": "Wa liizɛ̀ vaza?",
+      "explanation": "'Wa' désigne la deuxième personne du pluriel, requise pour s'adresser à un groupe le matin."
+    },
+    {
+      "exercise_id": "ex1_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pele, i [ ___ ] ?",
+      "correct_answer": "vaza",
+      "hint": "Mot pour dire 'bien' ou 'en paix'."
+    }
+  ]
+}

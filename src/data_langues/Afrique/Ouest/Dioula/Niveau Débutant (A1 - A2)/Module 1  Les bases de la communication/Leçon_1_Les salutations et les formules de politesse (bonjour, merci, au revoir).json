@@ -1,0 +1,367 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Maîtriser les salutations rituelles obligatoires selon les quatre grands moments de la journée",
+    "Employer correctement les marques de déférence, de respect et les salutations plurielles",
+    "Formuler des réponses rituelles de paix et s'enquérir de la santé, du foyer et de l'entourage",
+    "Utiliser les expressions de gratitude, d'excuse et de congé dans un cadre quotidien"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le système vocalique du dioula comprend des voyelles ouvertes fondamentales : la voyelle postérieure ouverte /ɔ/ (proche du 'o' dans le mot français 'port') et la voyelle antérieure ouverte /ɛ/ (proche du 'è' dans 'père'). La consonne occlusive injective /b/ et la semi-voyelle /w/ s'articulent de manière nette. Le 'c' graphique se réalise systématiquement sous la forme d'une affriquée post-alvéolaire sourde /t͡ʃ/ (le son 'tch' de 'tchad'). Le dioula est une langue tonale : les tons (haut et bas) ont une valeur morphosyntaxique et lexicale importante, marqués ici par un allongement ou des accents spécifiques.",
+    "common_pitfalls": "Attention à ne jamais réaliser le 'g' comme un 'j' devant les voyelles antérieures, ni le 'c' comme un 's' ou un 'k'. Le groupe 'aw' se prononce comme une seule diphtongue /aw/ (proche du son 'ow' anglais dans 'now') et ne doit pas être découpé. Ne négligez pas l'allongement des voyelles doubles (ex: 'hɛɛrɛ'), car raccourcir la voyelle détruit le rythme rituel de la salutation."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "I ni ce",
+      "phonetic_api": "/i ni t͡ʃe/",
+      "phonetic_simple": "I NI TCHE",
+      "translation": "Bonjour / Merci (adresse singulière à un égal ou un subordonné)",
+      "example_sentence": "I ni ce, n ba nkarisɔ",
+      "example_phonetic": "/i ni t͡ʃe n̩ ba ɲ.ka.ri.sɔ/",
+      "example_translation": "Bonjour et merci à toi, ma chère mère."
+    },
+    {
+      "word_id": "v2",
+      "term": "Aw ni ce",
+      "phonetic_api": "/aw ni t͡ʃe/",
+      "phonetic_simple": "AW NI TCHE",
+      "translation": "Bonjour / Merci (adresse plurielle ou marque de profond respect envers un aîné)",
+      "example_sentence": "Aw ni ce, n cɛmɔgɔw",
+      "example_phonetic": "/aw ni t͡ʃe n̩ t͡ʃɛ.mɔ.ɡɔ.w/",
+      "example_translation": "Honorables salutations à vous, mes aînés / respectables anciens."
+    },
+    {
+      "word_id": "v3",
+      "term": "Sɔgɔma",
+      "phonetic_api": "/sɔ.ɡɔ.ma/",
+      "phonetic_simple": "SÕ-GÕ-MA",
+      "translation": "La matinée / L'aube",
+      "example_sentence": "Sɔgɔma ka di",
+      "example_phonetic": "/sɔ.ɡɔ.ma ka di/",
+      "example_translation": "La matinée est agréable / douce."
+    },
+    {
+      "word_id": "v4",
+      "term": "Tile",
+      "phonetic_api": "/ti.le/",
+      "phonetic_simple": "TI-LE",
+      "translation": "Le milieu de la journée / Le soleil au zénith",
+      "example_sentence": "Tile bɛ bɔ la",
+      "example_phonetic": "/ti.le bɛ bɔ la/",
+      "example_translation": "Le soleil brille intensément."
+    },
+    {
+      "word_id": "v5",
+      "term": "Wula",
+      "phonetic_api": "/wu.la/",
+      "phonetic_simple": "WOU-LA",
+      "translation": "L'après-midi / Le crépuscule / La fin de journée",
+      "example_sentence": "Wula bɛ sɔbɛ la",
+      "example_phonetic": "/wu.la bɛ sɔ.bɛ la/",
+      "example_translation": "L'après-midi se déroule bien."
+    },
+    {
+      "word_id": "v6",
+      "term": "Su",
+      "phonetic_api": "/su/",
+      "phonetic_simple": "SOU",
+      "translation": "La nuit / L'obscurité",
+      "example_sentence": "Su rera sisan",
+      "example_phonetic": "/su re.ra si.san/",
+      "example_translation": "La nuit est maintenant tombée."
+    },
+    {
+      "word_id": "v7",
+      "term": "Hɛɛrɛ",
+      "phonetic_api": "/hɛː.rɛ/",
+      "phonetic_simple": "HÈÈ-RÈ",
+      "translation": "La paix / La quiétude / Le bien-être absolu",
+      "example_sentence": "Hɛɛrɛ bɛ i ka so ?",
+      "example_phonetic": "/hɛː.rɛ bɛ i ka so/",
+      "example_translation": "La paix règne-t-elle dans ta maison ?"
+    },
+    {
+      "word_id": "v8",
+      "term": "Kɛnɛya",
+      "phonetic_api": "/kɛ.nɛ.ja/",
+      "phonetic_simple": "KÈ-NÈ-YA",
+      "translation": "La santé / La vigueur physique / La clarté",
+      "example_sentence": "Kɛnɛya bɛ dɔgɔya la ?",
+      "example_phonetic": "/kɛ.nɛ.ja bɛ dɔ.ɡɔ.ja la/",
+      "example_translation": "La santé faiblit-elle ? (S'enquérir d'un malade)"
+    },
+    {
+      "word_id": "v9",
+      "term": "Somɔgɔ",
+      "phonetic_api": "/so.mɔ.ɡɔ/",
+      "phonetic_simple": "SO-MÕ-GÕ",
+      "translation": "Membre de la famille (littéralement : les gens de la maison)",
+      "example_sentence": "N somɔgɔw bɛ bɔ dugu la",
+      "example_phonetic": "/n̩ so.mɔ.ɡɔ.w bɛ bɔ du.ɡu la/",
+      "example_translation": "Les membres de ma famille viennent du village."
+    },
+    {
+      "word_id": "v10",
+      "term": "Sabari",
+      "phonetic_api": "/sa.ba.ri/",
+      "phonetic_simple": "SA-BA-RI",
+      "translation": "La patience / Le pardon / L'indulgence",
+      "example_sentence": "Sabari kɛ n ye",
+      "example_phonetic": "/sa.ba.ri kɛ n̩ je/",
+      "example_translation": "Accorde-moi ton pardon / S'il te plaît."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "I ni sɔgɔma !",
+      "phonetic_api": "/i ni sɔ.ɡɔ.ma/",
+      "phonetic_simple": "I NI SÕ-GÕ-MA",
+      "translation": "Bonjour ! (Salutation exclusive du matin, de l'aube jusqu'à 11h)",
+      "context": "Rencontre matinale en marchant ou au réveil."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Aw ni tile !",
+      "phonetic_api": "/aw ni ti.le/",
+      "phonetic_simple": "AW NI TI-LE",
+      "translation": "Bonjour à vous ! (Salutation du milieu de journée, de 11h à 15h)",
+      "context": "S'adresser à un groupe de travailleurs sous le soleil ou à des commerçants."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "I ni wula !",
+      "phonetic_api": "/i ni wu.la/",
+      "phonetic_simple": "I NI WOU-LA",
+      "translation": "Bonsoir ! (Salutation de fin d'après-midi, de 15h au coucher du soleil)",
+      "context": "Formule indispensable pour aborder un voisin assis dans sa cour."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Aw ni su !",
+      "phonetic_api": "/aw ni su/",
+      "phonetic_simple": "AW NI SOU",
+      "translation": "Bonsoir / Bonne nuit à vous ! (Salutation nocturne après le crépuscule)",
+      "context": "Prendre contact ou rendre visite à quelqu'un à la nuit tombée."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Hɛɛrɛ bɛ ?",
+      "phonetic_api": "/hɛː.rɛ bɛ/",
+      "phonetic_simple": "HÈÈ-RÈ BÈ",
+      "translation": "La paix est-elle présente ? (Comment vas-tu ?)",
+      "context": "Ouverture incontournable du rituel conversationnel dioula."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Hɛɛrɛ dɔrɔn !",
+      "phonetic_api": "/hɛː.rɛ dɔ.rɔn/",
+      "phonetic_simple": "HÈÈ-RÈ DÕ-RÕN",
+      "translation": "La paix seulement ! / Tout va pour le mieux !",
+      "context": "Réponse standard positive, obligatoire pour maintenir l'harmonie sociale."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "I somɔgɔw bɛ di ?",
+      "phonetic_api": "/i so.mɔ.ɡɔ.w bɛ di/",
+      "phonetic_simple": "I SO-MÕ-GÕ-W BÈ DI",
+      "translation": "Comment vont les gens de ta maison / ta famille ?",
+      "context": "Deuxième étape systématique des salutations pour montrer l'intérêt envers autrui."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "O bɛ hɛɛrɛ la, tɔnɔ tɛ !",
+      "phonetic_api": "/o bɛ hɛː.rɛ la tɔ.nɔ tɛ/",
+      "phonetic_simple": "O BÈ HÈÈ-RÈ LA, TÕ-NÕ TÈ",
+      "translation": "Ils sont en paix, il n'y a aucun problème !",
+      "context": "Réponse rassurante au sujet de l'état de la famille."
+    },
+    {
+      "phrase_id": "p9",
+      "original": "I ka kɛnɛ ?",
+      "phonetic_api": "/i ka kɛ.nɛ/",
+      "phonetic_simple": "I KA KÈ-NÈ",
+      "translation": "Es-tu bien portant ? / Est-ce que tu as la santé ?",
+      "context": "Demande directe de nouvelles sur la condition physique de l'interlocuteur."
+    },
+    {
+      "phrase_id": "p10",
+      "original": "Tɔnɔ tɛ, Ala tano !",
+      "phonetic_api": "/tɔ.nɔ tɛ a.la ta.no/",
+      "phonetic_simple": "TÕ-NÕ TÈ, A-LA TA-NO",
+      "translation": "Pas de problème, Dieu soit loué !",
+      "context": "Formule de piété et de gratitude pour confirmer sa bonne santé."
+    },
+    {
+      "phrase_id": "p11",
+      "original": "Hami tɛ, n bɛ sabari la.",
+      "phonetic_api": "/ha.mi tɛ n̩ bɛ sa.ba.ri la/",
+      "phonetic_simple": "HA-MI TÈ, N BÈ SA-BA-RI LA",
+      "translation": "Ce n'est rien, je t'en prie / C'est moi qui m'excuse.",
+      "context": "Formule d'apaisement après des excuses ou un remerciement insistant."
+    },
+    {
+      "phrase_id": "p12",
+      "original": "K'an bɛn tɔɔni, Ala ka sogo herɛ dya !",
+      "phonetic_api": "/kʼan bɛn tɔː.ni a.la ka so.ɡo hɛː.rɛ dja/",
+      "phonetic_simple": "KAN BEN TÕÕ-NI, A-LA KA SO-GO HÈÈ-RÈ DYA",
+      "translation": "À bientôt, que Dieu rende notre réveil paisible !",
+      "context": "Prendre congé de manière chaleureuse en y associant des bénédictions."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système de salutation temporelle nominale",
+      "explanation": "Les salutations en dioula ne se basent pas sur des verbes comme 'saluer' mais sur une association nominale et pronominale construite avec la particule de coordination 'ni' (avec).",
+      "rules": [
+        "Le pronom personnel sujet de la deuxième personne du singulier 'I' (tu) s'emploie pour les pairs, les enfants ou dans un cadre informel.",
+        "Le pronom de la deuxième personne du pluriel 'Aw' (vous) remplit une double fonction : s'adresser à un collectif ou marquer le respect, la déférence hiérarchique ou l'âge d'un interlocuteur unique.",
+        "La particule 'ni' relie invariablement le pronom au substantif temporel (sɔgɔma, tile, wula, su), créant une formule figée signifiant littéralement 'Toi/Vous avec la période'."
+      ],
+      "examples": [
+        {
+          "structure": "I (Tu) + ni (avec) + sɔgɔma (matin)",
+          "phonetic_api": "/i ni sɔ.ɡɔ.ma/",
+          "meaning": "Tu es salué avec le matin (Bonjour)."
+        },
+        {
+          "structure": "Aw (Vous) + ni (avec) + wula (après-midi)",
+          "phonetic_api": "/aw ni wu.la/",
+          "meaning": "Vous êtes salués avec l'après-midi (Bonsoir)."
+        }
+      ]
+    },
+    {
+      "concept": "La négation existentielle avec 'tɛ'",
+      "explanation": "Pour exprimer le néant, l'absence de difficulté ou d'anomalie, la particule négative post-nominale 'tɛ' est systématiquement sollicitée en fin de syntagme.",
+      "rules": [
+        "La marque 'tɛ' correspond à l'invalidation d'un état ou d'une présence (n'est pas / il n'y a pas).",
+        "Elle se place obligatoirement après le substantif concerné (ex: 'hami' ou 'tɔnɔ'), inversant totalement l'affirmation sans nécessiter de double négation comme en français."
+      ],
+      "examples": [
+        {
+          "structure": "Hami (souci) + tɛ (n'est pas)",
+          "phonetic_api": "/ha.mi tɛ/",
+          "meaning": "Il n'y a aucun souci / De rien."
+        },
+        {
+          "structure": "Tɔnɔ (perte/problème/profit négatif) + tɛ (n'est pas)",
+          "phonetic_api": "/tɔ.nɔ tɛ/",
+          "meaning": "Pas de mal / Aucun problème."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de la possession qualificative avec 'ka'",
+      "explanation": "Pour lier un pronom ou un nom à un état ou une possession intrinsèque comme la santé ou la maison, la particule de relation 'ka' ou 'bɛ' est requise.",
+      "rules": [
+        "La particule 'ka' sert d'actualisateur pour introduire un adjectif ou un état qualitatif lié au sujet.",
+        "Dans l'interrogation 'I ka kɛnɛ ?', 'ka' valide l'état de clarté/santé ('kɛnɛ') rattaché au pronom 'I'."
+      ],
+      "examples": [
+        {
+          "structure": "I (Tu) + ka (particule d'état) + kɛnɛ (sain/frais)",
+          "phonetic_api": "/i ka kɛ.nɛ/",
+          "meaning": "Es-tu en bonne santé ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Awa (Une jeune femme)",
+      "text": "Aw ni sɔgɔma, n cɛmɔgɔ Sékou. I ka kɛnɛ ?",
+      "phonetic_api": "/aw ni sɔ.ɡɔ.ma n̩ t͡ʃɛ.mɔ.ɡɔ se.ku i ka kɛ.nɛ/",
+      "phonetic_simple": "AW NI SÕ-GÕ-MA, N TCHE-MÕ-GÕ SÉ-KOU. I KA KÈ-NÈ ?",
+      "translation": "Respectueux bonjour, mon aîné Sékou. Es-tu en bonne santé ?"
+    },
+    {
+      "speaker": "Sékou (Un ancien du village)",
+      "text": "I ni sɔgɔma, n ba Awa. Tɔnɔ tɛ, Ala tano ! Hɛɛrɛ bɛ i ka so ?",
+      "phonetic_api": "/i ni sɔ.ɡɔ.ma n̩ ba a.wa tɔ.nɔ tɛ a.la ta.no hɛː.rɛ bɛ i ka so/",
+      "phonetic_simple": "I NI SÕ-GÕ-MA, N BA A-WA. TÕ-NÕ TÈ, A-LA TA-NO ! HÈÈ-RÈ BÈ I KA SO ?",
+      "translation": "Bonjour à toi, ma fille/mère Awa. Tout va très bien, Dieu soit loué ! La paix règne-t-elle dans ta maison ?"
+    },
+    {
+      "speaker": "Awa",
+      "text": "Hɛɛrɛ dɔrɔn, n somɔgɔw bɛ aw ni ce fo. O bɛ hɛɛrɛ la.",
+      "phonetic_api": "/hɛː.rɛ dɔ.rɔn n̩ so.mɔ.ɡɔ.w bɛ aw ni t͡ʃe fo o bɛ hɛː.rɛ la/",
+      "phonetic_simple": "HÈÈ-RÈ DÕ-RÕN, N SO-MÕ-GÕ-W BÈ AW NI TCHE FO. O BÈ HÈÈ-RÈ LA.",
+      "translation": "La paix seulement, ma famille vous transmet ses salutations. Ils sont tous en paix."
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Amiina ! Ala ka denw dya, Ala ka an tile herɛ dya.",
+      "phonetic_api": "/a.miː.na a.la ka denw dja a.la ka an ti.le hɛː.rɛ dja/",
+      "phonetic_simple": "A-MII-NA ! A-LA KA DENW DYA, A-LA KA AN TI-LE HÈÈ-RÈ DYA.",
+      "translation": "Amen ! Que Dieu bénisse les enfants, et qu'Il rende notre journée paisible."
+    },
+    {
+      "speaker": "Awa",
+      "text": "Amiina. Sabari n cɛmɔgɔ, k'an bɛn wula la.",
+      "phonetic_api": "/a.miː.na sa.ba.ri n̩ t͡ʃɛ.mɔ.ɡɔ kʼan bɛn wu.la la/",
+      "phonetic_simple": "A-MII-NA. SA-BA-RI N TCHE-MÕ-GÕ, KAN BEN WOU-LA LA.",
+      "translation": "Amen. S'il te plaît mon aîné, au revoir et à cet après-midi."
+    },
+    {
+      "speaker": "Sékou",
+      "text": "K'an bɛn, Ala ka niteya to an cɛ.",
+      "phonetic_api": "/kʼan bɛn a.la ka ni.te.ja to an t͡ʃɛ/",
+      "phonetic_simple": "KAN BEN, A-LA KA NI-TE-YA TO AN TCHE.",
+      "translation": "Au revoir, que Dieu maintienne la concorde entre nous."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la société burkinabè et plus largement dans la culture mandingue, l'art de saluer transcende la simple politesse. C'est un ciment communautaire et une validation de l'existence de l'autre. Éviter ou écourter une salutation est perçu comme une marque d'hostilité, d'orgueil ou de rupture sociale. Les salutations se déploient en cascade : on commence par le temps présent, puis la santé physique, puis le foyer, le conjoint, les enfants, et enfin le travail.",
+    "L'usage des termes 'n ba' (ma mère) et 'n fa' (mon père) ou 'n cɛmɔgɔ' (mon aîné) ne renvoie pas exclusivement aux liens de sang. Il s'agit de termes honorifiques et affectueux universels appliqués aux interlocuteurs selon leur génération pour marquer le respect de l'âge.",
+    "La réponse 'Amiina' (Amen) est indispensable. Lorsqu'un ancien ou un pair prononce une bénédiction ou souhaite un bon déroulement du temps (comme 'Ala ka tile herɛ dya'), ne pas répondre 'Amiina' brise le flux des vœux positifs et annule symboliquement la bénédiction offerte."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L1_Ex1",
+      "type": "multiple_choice",
+      "question": "Vous rencontrez un groupe d'artisans qui travaillent ensemble sous le soleil à 13h00. Quelle est la formule de salutation rituelle exacte à employer ?",
+      "options": [
+        "I ni sɔgɔma",
+        "Aw ni tile",
+        "I ni wula",
+        "Aw ni su"
+      ],
+      "correct_answer": "Aw ni tile",
+      "explanation": "'Aw' est requis car il s'agit d'un groupe (pluriel), et 'tile' désigne spécifiquement la période chaude du milieu de journée (11h-15h)."
+    },
+    {
+      "exercise_id": "A1_M1_L1_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Lorsqu'on vous demande si des problèmes ou des difficultés subsistent en vous disant 'Hɛɛrɛ bɛ ?', vous devez répondre en affirmant la paix totale par la formule : 'Hɛɛrɛ [ ___ ] !'",
+      "correct_answer": "dɔrɔn",
+      "hint": "Ce mot signifie 'uniquement' ou 'seulement' et focalise l'état sur la positivité."
+    },
+    {
+      "exercise_id": "A1_M1_L1_Ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie littéralement et contextuellement la formule de politesse protectrice 'Hami tɛ' ?",
+      "options": [
+        "La nuit est mauvaise",
+        "Il n'y a pas de souci / De rien",
+        "Donne-moi de l'argent",
+        "Où se trouve ta maison ?"
+      ],
+      "correct_answer": "Il n'y a pas de souci / De rien",
+      "explanation": "'Hami' signifie 'souci/inquiétude' et 'tɛ' est la marque de la négation existentielle. C'est l'équivalent parfait de 'de rien' ou 'pas de problème'."
+    },
+    {
+      "exercise_id": "A1_M1_L1_Ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour clore une discussion respectueuse et valider les bénédictions formulées par un aîné, l'interlocuteur doit obligatoirement répondre : '[ ___ ]'.",
+      "correct_answer": "Amiina",
+      "hint": "Équivalent de 'Amen', indispensable pour sceller les souhaits."
+    }
+  ]
+}

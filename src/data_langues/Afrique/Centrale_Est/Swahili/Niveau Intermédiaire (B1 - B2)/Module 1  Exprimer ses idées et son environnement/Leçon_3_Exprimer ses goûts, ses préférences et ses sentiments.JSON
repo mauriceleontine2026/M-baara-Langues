@@ -1,0 +1,274 @@
+{
+  "lesson_id": "B1_M1_L3",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 3,
+  "title": "Exprimer ses goûts, ses préférences et ses sentiments",
+  "learning_objectives": [
+    "Exprimer une gamme d'émotions et de sentiments complexes en swahili",
+    "Nuancer ses goûts et formuler des préférences claires face à diverses situations",
+    "Utiliser les verbes d'état psychologique et émotionnel au présent parfait (-me-)",
+    "Maîtriser la construction des propositions subordonnées de cause et de condition liées aux sentiments"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La nuance des sentiments repose sur des verbes aux structures phonétiques précises. Le mot 'Kufurahi' (se réjouir / être heureux) exige une expiration nette du 'h' [ku.fuˈra.hi]. Le mot 'Huzuni' (tristesse) commence par un 'H' glottal expiré [huˈzu.ni]. Le mot 'Kukasirika' (être en colère) se prononce de façon rythmée avec l'accent tonique sur l'avant-dernière syllabe : ku-ka-si-RI-ka.",
+    "common_pitfalls": "Attention au mot 'Wasiwasi' (inquiétude / anxiété) : le 'W' initial est purement bilabial [wa.siˈwa.si], ne le prononcez pas comme un 'V'. De même, veillez à ne pas nasaliser les voyelles du mot 'Ghadhabu' (colère noire / fureur) qui comporte un 'Gh' guttural [ɣaˈða.bu]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Furaha",
+      "phonetic_api": "/fuˈra.ha/",
+      "phonetic_simple": "FOO-RAH-HAH",
+      "translation": "Joie / Bonheur",
+      "example_sentence": "Niliona furaha kubwa machoni pake.",
+      "example_phonetic": "/ni.liˈɔ.na fuˈra.ha ˈku.bwa maˈtʃɔ.ni ˈpa.kɛ/",
+      "example_translation": "J'ai vu une grande joie dans ses yeux."
+    },
+    {
+      "word_id": "v2",
+      "term": "Huzuni",
+      "phonetic_api": "/huˈzu.ni/",
+      "phonetic_simple": "HOO-ZOO-NEE",
+      "translation": "Tristesse / Chagrin",
+      "example_sentence": "Habari ile ilituletea huzuni nyingi.",
+      "example_phonetic": "/haˈba.ri ˈi.lɛ i.li.tu.lɛˈtɛ.a huˈzu.ni ˈɲi.ŋgi/",
+      "example_translation": "Cette nouvelle nous a apporté beaucoup de tristesse."
+    },
+    {
+      "word_id": "v3",
+      "term": "Wasiwasi",
+      "phonetic_api": "/wa.siˈwa.si/",
+      "phonetic_simple": "WAH-SEE-WAH-SEE",
+      "translation": "Inquiétude / Anxiété / Doute",
+      "example_sentence": "Sina wasiwasi kuhusu mtihani wangu.",
+      "example_phonetic": "/ˈsi.na wa.siˈwa.si kuˈhu.su m.tiˈha.ni ˈwa.ŋgu/",
+      "example_translation": "Je n'ai aucune inquiétude concernant mon examen."
+    },
+    {
+      "word_id": "v4",
+      "term": "Kukasirika",
+      "phonetic_api": "/ku.ka.siˈri.ka/",
+      "phonetic_simple": "KOO-KAH-SEE-REE-KAH",
+      "translation": "S'énerver / Se mettre en colère",
+      "example_sentence": "Alikasirika kwa sababu nilichelewa.",
+      "example_phonetic": "/a.li.ka.siˈri.ka kwa saˈba.bu ni.li.tʃɛˈlɛ.wa/",
+      "example_translation": "Il s'est mis en colère parce que j'étais en retard."
+    },
+    {
+      "word_id": "v5",
+      "term": "Kupenda",
+      "phonetic_api": "/kuˈpɛ.nda/",
+      "phonetic_simple": "KOO-PEHN-DAH",
+      "translation": "Aimer / Adorer",
+      "example_sentence": "Ninampeenda kama ndugu yangu.",
+      "example_phonetic": "/ni.naˈm-pɛː.nda ˈka.ma ˈndu.gu ˈja.ŋgu/",
+      "example_translation": "Je l'aime comme mon propre frère."
+    },
+    {
+      "word_id": "v6",
+      "term": "Kuchukia",
+      "phonetic_api": "/ku.tʃuˈki.a/",
+      "phonetic_simple": "KOO-CHOO-KEE-AH",
+      "translation": "Haïr / Détester",
+      "example_sentence": "Ninachukia uwongo na usaliti.",
+      "example_phonetic": "/ni.na.tʃuˈki.a uˈwɔ.ngɔ na u.saˈli.ti/",
+      "example_translation": "Je déteste le mensonge et la trahison."
+    },
+    {
+      "word_id": "v7",
+      "term": "Matumaini",
+      "phonetic_api": "/ma.tu.maˈi.ni/",
+      "phonetic_simple": "MAH-TOO-MAH-EE-NEE",
+      "translation": "Espoir / Attentes",
+      "example_sentence": "Tuna matumaini ya kupata maisha bora.",
+      "example_phonetic": "/ˈtu.na ma.tu.maˈi.ni ja kuˈpa.ta maˈi.ʃa ˈbɔ.ra/",
+      "example_translation": "Nous avons l'espoir d'obtenir une vie meilleure."
+    },
+    {
+      "word_id": "v8",
+      "term": "Kustajabu",
+      "phonetic_api": "/ku.staˈdʒa.bu/",
+      "phonetic_simple": "KOO-STAH-DJAH-BOO",
+      "translation": "S'étonner / Être surpris / S'émerveiller",
+      "example_sentence": "Nilistajabu kuona mabadiliko yake.",
+      "example_phonetic": "/ni.li.staˈdʒa.bu kuˈɔ.na ma.ba.diˈli.kɔ ˈja.kɛ/",
+      "example_translation": "J'ai été surpris de voir son changement."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ninajisikia mwenye furaha sana leo.",
+      "phonetic_api": "/ni.na.dʒi.siˈki.a ˈmwa.ɲɛ fuˈra.ha ˈsa.na ˈlɛ.ɔ/",
+      "phonetic_simple": "NEE-NAH-DJEE-SEE-KEE-AH MWEHN-YEH FOO-RAH-HAH SAH-NAH LEH-OH",
+      "translation": "Je me sens très heureux aujourd'hui.",
+      "context": "Exprimer son état émotionnel positif de manière standard."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Mbona una wasiwasi mwingi hivyo?",
+      "phonetic_api": "/ˈmbɔ.na ˈu.na wa.siˈwa.si ˈmwi.ŋgi ˈhi.vjɔ/",
+      "phonetic_simple": "MBOH-NAH OO-NAH WAH-SEE-WAH-SEE MWEEN-GEE HEE-VYOH",
+      "translation": "Pourquoi as-tu autant d'inquiétude ?",
+      "context": "Interroger un proche qui semble anxieux ou stressé."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Nimefarijika sana baada de kuongea na wewe.",
+      "phonetic_api": "/ni.mɛ.fa.riˈdʒi.ka ˈsa.na baˈa.da dɛ ku.ɔˈngɛ.a na ˈwɛ.jɛ/",
+      "phonetic_simple": "NEE-MEH-FAH-REE-JEE-KAH SAH-NAH BAH-AH-DAH DEH KOO-OHN-GEH-AH NAH WEH-YEH",
+      "translation": "Je suis grandement soulagé / réconforté après avoir parlé avec toi.",
+      "context": "Exprimer la gratitude émotionnelle après une conversation de soutien."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Inasikitisha kwamba hawezi kuja.",
+      "phonetic_api": "/i.na.si.kiˈti.ʃa ˈkwa.mba haˈwɛ.zi ˈku.dʒa/",
+      "phonetic_simple": "EE-NAH-SEE-KEE-TEE-SHAH KWAH-MBAH HAH-WEH-ZEE KOO-DJAH",
+      "translation": "C'est triste (regrettable) qu'il ne puisse pas venir.",
+      "context": "Commenter un événement décevant ou malheureux."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Mimi napendelea amani kuliko malumbano.",
+      "phonetic_api": "/ˈmi.mi na.pɛ.ndɛˈlɛ.a aˈma.ni kuˈli.kɔ ma.luˈmba.nɔ/",
+      "phonetic_simple": "MEE-MEE NAH-PEHN-DEH-LEH-AH AH-MAH-NEE KOO-LEE-KOH MAH-LOO-MBAH-NOH",
+      "translation": "Moi, je préfère la paix aux disputes.",
+      "context": "Affirmer ses choix moraux ou ses préférences relationnelles."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Alipatwa na ghadhabu ya ghafla.",
+      "phonetic_api": "/a.liˈpa.twa na ɣaˈða.bu ja ˈɣa.fla/",
+      "phonetic_simple": "AH-LEE-PAHT-WAH NAH GHAH-ZAH-BOO YAH GHAHF-LAH",
+      "translation": "Il a été pris d'une colère soudaine.",
+      "context": "Décrire la réaction violente ou impulsive de quelqu'un."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Sina hamu ya kula chochote kwa sasa.",
+      "phonetic_api": "/ˈsi.na ˈha.mu ja ˈku.la tʃɔˈtʃɔ.tɛ kwa ˈsa.sa/",
+      "phonetic_simple": "SEE-NAH HAH-MOO YAH KOO-LAH CHOH-CHOH-TEH KWAH SAH-SAH",
+      "translation": "Je n'ai aucune envie de manger quoi que ce soit pour le moment.",
+      "context": "Perte d'appétit liée à la fatigue ou à une émotion forte."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Tunashukuru sana kwa wema wako.",
+      "phonetic_api": "/tu.na.ʃuˈku.ru ˈsa.na kwa ˈwɛ.ma ˈwa.kɔ/",
+      "phonetic_simple": "TOO-NAH-SHOO-KOO-ROO SAH-NAH KWAH WEH-MAH WAH-KOH",
+      "translation": "Nous sommes extrêmement reconnaissants pour votre bonté.",
+      "context": "Formuler un sentiment profond de gratitude."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression des sentiments via le présent parfait statif '-me-'",
+      "explanation": "En swahili, beaucoup d'états émotionnels ou psychologiques sont perçus comme le résultat d'un processus accompli. On utilise donc l'infixe '-me-' (plutôt que le présent progressif '-na-') pour indiquer que le sentiment est installé au moment présent.",
+      "rules": [
+        "Kukasirika (se mettre en colère) -> Amekasirika (Il est en colère / Il s'est mis en colère et l'est toujours).",
+        "Kufurahi (se réjouir) -> Nimefurahi (Je suis heureux / Je me suis réjoui et je le suis encore).",
+        "Kushangaa (s'étonner) -> Wameshangaa (Ils sont étonnés)."
+      ],
+      "examples": [
+        {
+          "structure": "Ni- (Je) + me- (Parfait) + furahi = Nimefurahi",
+          "phonetic_api": "/ni.mɛ.fuˈra.hi/",
+          "meaning": "Je suis heureux (état actuel issu d'une joie)"
+        },
+        {
+          "structure": "A- (Il) + me- (Parfait) + kasirika = Amekasirika",
+          "phonetic_api": "/a.mɛ.ka.siˈri.ka/",
+          "meaning": "Il est en colère"
+        }
+      ]
+    },
+    {
+      "concept": "La construction de l'adjectif qualificatif d'état 'Mwenye / Wenye'",
+      "explanation": "Pour attribuer un sentiment ou une caractéristique abstraite à une personne (ex: être joyeux, être triste), le swahili utilise souvent le possessif de propriété 'Mwenye' (singulier) ou 'Wenye' (pluriel) suivi du nom abstrait.",
+      "rules": [
+        "Mwenye + Furaha = Joyeux / Heureux (litt. 'Possesseur de joie').",
+        "Mwenye + Huzuni = Triste (litt. 'Possesseur de tristesse').",
+        "Cette structure s'accorde selon la classe nominale des êtres humains (M/WA)."
+      ],
+      "examples": [
+        {
+          "structure": "Mtoto (Enfant) + mwenye (qui a) + huzuni = Mtoto mwenye huzuni",
+          "phonetic_api": "/mˈtɔ.tɔ ˈmwa.ɲɛ huˈzu.ni/",
+          "meaning": "Un enfant triste"
+        },
+        {
+          "structure": "Watu (Gens) + wenye (qui ont) + wasiwasi = Watu wenye wasiwasi",
+          "phonetic_api": "/ˈwa.tu ˈwɛ.ɲɛ wa.siˈwa.si/",
+          "meaning": "Des gens inquiets"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Zuberi",
+      "text": "Hure, Zawadi! Naona uso wako una tabasamu kubwa leo. Nimefurahi kukuona hivi!",
+      "phonetic_api": "/huˈrɛ zaˈwa.di naˈɔ.na ˈu.sɔ ˈwa.kɔ ˈu.na ta.baˈsa.mu ˈku.bwa ˈlɛ.ɔ ni.mɛ.fuˈra.hi ku.kuˈɔ.na ˈhi.vi/",
+      "phonetic_simple": "HOO-REH ZAH-WAH-DEE NAH-OH-NAH OO-SOH WAH-KOH OO-NAH TAH-BAH-SAH-MOO KOO-BWAH LEH-OH NEE-MEH-FOO-RAH-HEE KOO-KOO-OH-NAH HEE-VEE",
+      "translation": "Hourra, Zawadi ! Je vois que ton visage affiche un grand sourire aujourd'hui. Je suis heureux de te voir ainsi !"
+    },
+    {
+      "speaker": "Zawadi",
+      "text": "Ndiyo Zuberi, nina furaha tele! Hatimaye nimepata barua ya kukubaliwa chuo kikuu. Nilikuwa na wasiwasi mwingi lakini sasa nimefarijika.",
+      "phonetic_api": "/ˈndi.jɔ zuˈbɛ.ri ˈni.na fuˈra.ha ˈtɛ.lɛ ha.tiˈma.jɛ ni.mɛˈpa.ta baˈru.a ja ku.ku.baˈli.wa ˈtʃu.ɔ kiˈkuː ni.liˈku.wa na wa.siˈwa.si ˈmwi.ŋgi laˈki.ni ˈsa.sa ni.mɛ.fa.riˈdʒi.ka/",
+      "phonetic_simple": "NDEE-YOH ZOO-BEH-REE NEE-NAH FOO-RAH-HAH TEH-LEH HAH-TEE-MAH-YEH NEE-MEH-PAH-TAH BAH-ROO-AH YAH KOO-KOO-BAH-LEE-WAH CHOO-OO KEE-KOO NEE-LEE-KOO-WAH NAH WAH-SEE-WAH-SEE MWEEN-GEE LAH-KEE-NEE SAH-SAH NEE-MEH-FAH-REE-JEE-KAH",
+      "translation": "Oui Zuberi, j'ai une joie immense ! J'ai finalement reçu la lettre d'admission pour l'université. J'avais beaucoup d'inquiétudes mais maintenant je suis soulagée."
+    },
+    {
+      "speaker": "Zuberi",
+      "text": "Hongera sana! Hilo ni jambo la kupendeza. Mimi pia nisingependa ukae na huzuni au hofu yoyote.",
+      "phonetic_api": "/hɔ.ngɛˈra ˈsa.na ˈhi.lɔ ni dʒaˈmbɔ la ku.pɛˈndɛ.za ˈmi.mi ˈpi.a ni.si.ŋgɛˈpɛ.nda uˈkaː na huˈzu.ni a.u ˈhɔ.fi jɔˈjɔ.tɛ/",
+      "phonetic_simple": "HOHN-GEH-RAH SAH-NAH HEE-LOH NEE DJAH-MBOH LAH KOO-PEHN-DEH-ZAH MEE-MEE PEE-AH NEE-SEEN-GEH-PEHN-DAH OO-KAA NAH HOO-ZOO-NEE AH-OO HOH-FEE YOH-YOH-TEH",
+      "translation": "Félicitations ! C'est une excellente chose. Moi non plus je n'aurais pas aimé que tu restes avec de la tristesse ou de la peur."
+    },
+    {
+      "speaker": "Zawadi",
+      "text": "Asante. Wazazi wangu wamefurahi pia, walikuwa wamekasirika wiki iliyopita kwa sababu ya kuchelewa kwa matokeo.",
+      "phonetic_api": "/aˈsa.ntɛ waˈza.zi ˈwa.ŋgu wa.mɛ.fuˈra.hi ˈpi.a wa.liˈku.wa wa.mɛ.ka.siˈri.ka ˈwi.ki i.li.jɔˈpi.ta kwa saˈba.bu ja ku.tʃɛˈlɛ.wa kwa ma.tɔˈkɛ.ɔ/",
+      "phonetic_simple": "AH-SAHN-TEH WAH-ZAH-ZEE WAHN-GOO WAH-MEH-FOO-RAH-HEE PEE-AH WAH-LEE-KOO-WAH WAH-MEH-KAH-SEE-REE-KAH WEE-KEE EE-LEE-YOH-PEE-TAH KWAH SAH-BAH-BOO YAH KOO-CHEH-LEH-WAH KWAH MAH-TOH-KEH-OH",
+      "translation": "Merci. Mes parents sont heureux aussi, ils étaient en colère la semaine dernière à cause du retard des résultats."
+    },
+    {
+      "speaker": "Zuberi",
+      "text": "Kila kitu kiko sawa sasa. Tunapaswa kusherehekea mafanikio haya makubwa leo jioni!",
+      "phonetic_api": "/ˈki.la ˈki.tu ˈki.kɔ ˈsa.wa ˈsa.sa tu.naˈpa.swa ku.ʃɛ.rɛ.hɛˈkɛ.a ma.fa.niˈki.ɔ ˈha.ja maˈku.bwa ˈlɛ.ɔ dʒiˈɔ.ni/",
+      "phonetic_simple": "KEE-LAH KEE-TOO KEE-KOH SAH-WAH SAH-SAH TOO-NAH-PAH-SWAH KOO-SHEH-REH-HEH-KEH-AH MAH-FAH-NEE-KEE-OH HAH-YAH MAH-KOO-BWAH LEH-OH DJEE-OH-NEE",
+      "translation": "Tout est parfait maintenant. Nous devons fêter cette grande réussite ce soir !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les interactions sociales swahilies, il est d'usage d'accueillir les bonnes nouvelles avec de grandes exclamations de joie comme 'Hongera!' (Félicitations) ou 'Hure!' (Hourra). Cacher sa joie face à la réussite d'un ami peut être perçu comme un manque de sincérité.",
+    "L'expression des sentiments négatifs (comme la tristesse ou l'anxiété) est souvent adoucie ou partagée au sein de la communauté. On utilise le mot de compassion 'Pole' pour consoler ou accompagner une personne qui traverse une période de 'Huzuni'.",
+    "Le concept de 'Matumaini' (espoir/attentes) est profondément ancré dans la vie quotidienne en Afrique de l'Est. Il se reflète souvent dans les dictons populaires inscrits sur les véhicules ou dans les commerces, rappelant que la patience mène au bonheur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment traduit-on de façon grammaticalement correcte l'expression 'Je suis fâché / En colère' en swahili standard ?",
+      "options": [
+        "Ninasikitika sana.",
+        "Nimekasirika.",
+        "Nina furaha tele.",
+        "Nimeshangaa."
+      ],
+      "correct_answer": "Nimekasirika.",
+      "explanation": "Le verbe 'Kukasirika' requiert l'infixe statif du parfait '-me-' au présent pour indiquer que l'état de colère est actif."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Yeye ni mtu [ ___ ] furaha kila wakati. (Complétez avec le terme signifiant 'qui possède / doué de' pour traduire 'un homme joyeux').",
+      "correct_answer": "mwenye",
+      "hint": "C'est l'outil d'attribution de propriété ou de caractéristique accordé avec la classe humaine au singulier."
+    }
+  ]
+}

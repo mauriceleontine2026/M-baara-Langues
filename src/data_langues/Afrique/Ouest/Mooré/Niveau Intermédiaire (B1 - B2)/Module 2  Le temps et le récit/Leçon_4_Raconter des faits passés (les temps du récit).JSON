@@ -1,0 +1,201 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Distinguer et employer les morphèmes du passé immédiat, récent et lointain en mooré",
+    "Structurer chronologiquement un récit d'événements révolus",
+    "Utiliser les adverbes temporels rétrospectifs pour situer une action dans le passé"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le morphème du passé lointain 'ra' se prononce avec un 'r' légèrement battu [ɾ]. L'adverbe 'zaame' (hier) possède une voyelle longue ouverte 'aa' [aː] très distincte de 'zaabre' (le soir). Le suffixe accompli '-me' ou '-ame' subit une chute de sa voyelle finale à l'oral rapide, rendant la consonne 'm' presque syllabique.",
+    "common_pitfalls": "Attention à ne pas omettre le morphème 'ra' dans le récit au passé lointain. Sans cette particule préverbale, la phrase bascule automatiquement au présent ou à l'accompli immédiat."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v13_1",
+      "term": "Zaame",
+      "phonetic_api": "/zaːme/",
+      "phonetic_simple": "ZAA-MÉ",
+      "translation": "Hier",
+      "example_sentence": "M waame zaame.",
+      "example_phonetic": "/m waːme zaːme/",
+      "example_translation": "Je suis venu hier."
+    },
+    {
+      "word_id": "v13_2",
+      "term": "Dara",
+      "phonetic_api": "/dara/",
+      "phonetic_simple": "DA-RA",
+      "translation": "Avant-hier",
+      "example_sentence": "M sã n tūum dara.",
+      "example_phonetic": "/m sã n tuːm dara/",
+      "example_translation": "Si j'ai travaillé avant-hier."
+    },
+    {
+      "word_id": "v13_3",
+      "term": "Wẽndẽ",
+      "phonetic_api": "/wẽndẽ/",
+      "phonetic_simple": "WIN-DUEN",
+      "translation": "Autrefois / Jadis / Il y a longtemps",
+      "example_sentence": "Wẽndẽ, d ra bēe tẽng-bɩɩgẽ.",
+      "example_phonetic": "/wẽndẽ d ra beː tẽnɡbɪːɣẽ/",
+      "example_translation": "Autrefois, nous étions au village."
+    },
+    {
+      "word_id": "v13_4",
+      "term": "Kẽngme",
+      "phonetic_api": "/kẽnɡme/",
+      "phonetic_simple": "KENG-MÉ",
+      "translation": "Être parti / Est allé (forme accomplie du verbe kẽng)",
+      "example_sentence": "A kẽngme raaga.",
+      "example_phonetic": "/a kẽnɡme raːɣa/",
+      "example_translation": "Il est parti au marché."
+    },
+    {
+      "word_id": "v13_5",
+      "term": "Sɩngre",
+      "phonetic_api": "/sɪnɡre/",
+      "phonetic_simple": "SIN-GRÉ",
+      "translation": "Début / Commencement",
+      "example_sentence": "Sɩngrẽ m ra nōonda bōle.",
+      "example_phonetic": "/sɪnɡrẽ m ra noːnda boːle/",
+      "example_translation": "Au début, j'aimais le football."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p13_1",
+      "original": "Bōe la y ra tūum zaame ?",
+      "phonetic_api": "/boːe la i ra tuːm zaːme/",
+      "phonetic_simple": "BÓOE LA I RA TOOM ZAA-MÉ ?",
+      "translation": "Qu'avez-vous fait comme travail hier ?",
+      "context": "S'informer sur les activités passées récentes d'un interlocuteur."
+    },
+    {
+      "phrase_id": "p13_2",
+      "original": "M ra kẽngme Wagadugu yãmb daarã.",
+      "phonetic_api": "/m ra kẽnɡme waɣaduɣu jãmb daːrã/",
+      "phonetic_simple": "M RA KENG-MÉ WA-GA-DOU-GOU YAMB DAA-RAN",
+      "translation": "Je suis allé à Ouagadougou l'autre jour.",
+      "context": "Raconter un déplacement effectué dans un passé non immédiat."
+    },
+    {
+      "phrase_id": "p13_3",
+      "original": "A ra paama ligd a wãna ?",
+      "phonetic_api": "/a ra paːma liɣd a wãna/",
+      "phonetic_simple": "A RA PAA-MA LIGD A WAN-NA ?",
+      "translation": "Combien d'argent avait-il reçu autrefois ?",
+      "context": "Questionner sur un fait financier ou un héritage passé."
+    },
+    {
+      "phrase_id": "p13_4",
+      "original": "Tūumã sɩngame la a sãame.",
+      "phonetic_api": "/tuːmã sɪnɡame la a sãːme/",
+      "phonetic_simple": "TOOM-AN SIN-GA-MÉ LA A SAA-MÉ",
+      "translation": "Le travail avait commencé puis il s'est gâté (a échoué).",
+      "context": "Expliquer l'évolution et l'arrêt d'un projet."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le morphème préverbal du passé lointain/récit 'ra'",
+      "explanation": "Pour situer une action dans un passé révolu (au-delà de la journée en cours, généralement à partir d'hier et s'étendant jusqu'au passé historique), le mooré insère la particule invariable 'ra' entre le sujet et le verbe.",
+      "rules": [
+        "Structure : [Sujet] + ra + [Verbe à la forme de base].",
+        "Si la phrase se termine par le verbe sans complément, celui-ci reçoit souvent le suffixe d'accompli '-me' ou '-ame'.",
+        "Pour le passé immédiat (actions accomplies aujourd'hui même), on n'utilise pas 'ra', la forme accomplie suffixée suffit."
+      ],
+      "examples": [
+        {
+          "structure": "M + ra + tūum [zaame]",
+          "phonetic_api": "/m ra tuːm zaːme/",
+          "meaning": "J'ai travaillé [hier]"
+        },
+        {
+          "structure": "M + tūumame [dunda]",
+          "phonetic_api": "/m tuːmame dunda/",
+          "meaning": "J'ai travaillé [aujourd'hui - passé immédiat sans 'ra']"
+        }
+      ]
+    },
+    {
+      "concept": "La valeur de l'accompli suffixé '-me' dans le récit",
+      "explanation": "Le suffixe '-me' s'attache à la fin du verbe pour indiquer qu'une action est totalement achevée, validée et sans incidence sur le déroulement actuel de l'histoire.",
+      "rules": [
+        "Le suffixe tombe obligatoirement si le verbe est suivi d'un complément d'objet direct ou d'un complément circonstanciel précis."
+      ],
+      "examples": [
+        {
+          "structure": "A + ra + waame.",
+          "phonetic_api": "/a ra waːme/",
+          "meaning": "Il était venu. (Le verbe est seul en fin d'énoncé)."
+        },
+        {
+          "structure": "A + ra + wa + [zaka].",
+          "phonetic_api": "/a ra wa zaka/",
+          "meaning": "Il était venu à la maison. (Le suffixe '-me' s'efface devant 'zaka')."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Boukari",
+      "text": "Moussa, y ra bēe yâe zaame zaabre ?",
+      "phonetic_api": "/moussa i ra beː jãːe zaːme zaːbre/",
+      "phonetic_simple": "MOUS-SA, I RA BÉE YAAE ZAA-MÉ ZAA-BRÉ ?",
+      "translation": "Moussa, où étais-tu hier soir ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "M ra kẽngme m baa zakã pūasẽ. D ra sōsame.",
+      "phonetic_api": "/m ra kẽnɡme m baː zakã puːasẽ d ra sõsame/",
+      "phonetic_simple": "M RA KENG-MÉ M BAA ZA-KAN POO-A-SUEN. D RA SON-SA-MÉ",
+      "translation": "Je suis allé dans la concession de mon père. Nous avons discuté."
+    },
+    {
+      "speaker": "Boukari",
+      "text": "La yĩnsa rãmba ? B ra bēe laafi ?",
+      "phonetic_api": "/la jĩnsa rãmba b ra beː laːfi/",
+      "phonetic_simple": "LA YIN-SA RAM-BA ? B RA BÉE LAA-FI ?",
+      "translation": "Et les gens de la maison ? Étaient-ils en paix ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "N-ye, b ra tara sũ-noogo woto. Rɩɩmã mē ra noome.",
+      "phonetic_api": "/n je b ra tara sũnoːɣo woto rɪːmã meː ra noːme/",
+      "phonetic_simple": "N-YÉ, B RA TA-RA SOUN-NOO-GO WO-TO. RIIM-AN MÉE RA NOO-MÉ",
+      "translation": "Oui, ils avaient un grand bonheur. Le repas aussi était excellent."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la tradition orale des Mossi, l'évocation du passé est codifiée. Le passé lointain mythologique ou historique fait l'objet de veillées spécifiques menées par les griots détenteurs des paroles anciennes ('Kibaaya').",
+    "L'utilisation rigoureuse des repères temporels (hier, avant-hier, cycle des lunes) permet de dater précisément la naissance des enfants ou la survenue d'événements climatiques majeurs dans les communautés rurales.",
+    "Lorsqu'on relate un événement malheureux survenu dans le passé, la politesse coutumière veut qu'on encadre le récit par des formules de bénédiction pour s'assurer que ce malheur ne se répète pas dans le présent."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex13_1",
+      "type": "multiple_choice",
+      "question": "Quel morphème préverbal devez-vous insérer pour indiquer qu'une action s'est déroulée hier ou autrefois ?",
+      "options": [
+        "na",
+        "ra",
+        "la"
+      ],
+      "correct_answer": "ra",
+      "explanation": "'ra' est le marqueur de temps spécifique dédié au passé non immédiat et aux récits historiques."
+    },
+    {
+      "exercise_id": "ex13_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "M wa[ ___ ] zaame. (Traduction : Je suis venu hier.)",
+      "correct_answer": "ame",
+      "hint": "Le suffixe verbal de l'accompli qui s'associe au verbe lorsqu'il n'y a pas de complément direct le talonnant."
+    }
+  ]
+}

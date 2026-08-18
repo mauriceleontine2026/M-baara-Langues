@@ -1,0 +1,253 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter avec assurance de 0 à 20 et comprendre la structure logique des nombres",
+    "Poser une question sur la quantité en utilisant 'कितना' / 'कितने'",
+    "Utiliser les nombres cardinaux dans des contextes réels (prix, objets, âge)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La numération en hindi fait un usage intensif des consonnes rétroflexes et des battues (flaps). Le chiffre 1.5 (डेढ़ / ɖeːɽʱ/) ou 2.5 (ढाई / ɖʱaːiː/) possède des sons rétroflexes profonds. Pour le chiffre 4 (चार / tʃaːr/), veillez à ne pas prononcer le 'ch' à la française, mais bien comme le 'tch' de 'Tchad' (/tʃ/). Le chiffre 11 (ग्यारह / ɡjaːɾəɦ/) se termine par un 'h' doux sonore.",
+    "common_pitfalls": "Attention à la nasalisation sur le chiffre 5 (पाँच / paːntʃ/). L'air doit sortir par le nez et la bouche en même temps. Ne prononcez pas le 'h' à la fin de 'बारह' (12) ou 'तेरह' (13) de manière trop agressive, il s'agit d'une expiration douce qui modifie légèrement la voyelle précédente."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v_num_0",
+      "term": "शून्य",
+      "phonetic_api": "/ʃuːnjə/",
+      "phonetic_simple": "CHOUN-YA",
+      "translation": "Zéro (0)",
+      "example_sentence": "शून्य से शुरुआत करें।",
+      "example_phonetic": "/ʃuːnjə seː ʃʊɾʊaːt̪ kəɾẽː/",
+      "example_translation": "Commencer à partir de zéro."
+    },
+    {
+      "word_id": "v_num_1",
+      "term": "एक",
+      "phonetic_api": "/eːk/",
+      "phonetic_simple": "ÉK",
+      "translation": "Un (1)",
+      "example_sentence": "मेरे पास एक गाड़ी है।",
+      "example_phonetic": "/meːɾeː paːs eːk ɡaːɽiː ɦɛː/",
+      "example_translation": "J'ai une voiture."
+    },
+    {
+      "word_id": "v_num_2",
+      "term": "दो",
+      "phonetic_api": "/d̪oː/",
+      "phonetic_simple": "DO",
+      "translation": "Deux (2)",
+      "example_sentence": "वहाँ दो लड़के हैं।",
+      "example_phonetic": "/ʋəɦãː d̪oː ləɽkeː ɦɛ̃ː/",
+      "example_translation": "Il y a deux garçons là-bas."
+    },
+    {
+      "word_id": "v_num_3",
+      "term": "तीन",
+      "phonetic_api": "/t̪iːn/",
+      "phonetic_simple": "TIIN",
+      "translation": "Trois (3)",
+      "example_sentence": "तीन दिन बाद मिलते हैं।",
+      "example_phonetic": "/t̪iːn d̪ɪn baːd̪ mɪlt̪eː ɦɛ̃ː/",
+      "example_translation": "On se voit dans trois days."
+    },
+    {
+      "word_id": "v_num_4",
+      "term": "चार",
+      "phonetic_api": "/tʃaːr/",
+      "phonetic_simple": "TCHAAR",
+      "translation": "Quatre (4)",
+      "example_sentence": "इस मेज़ के चार पैर हैं।",
+      "example_phonetic": "/ɪs meːz keː tʃaːr pɛːr ɦɛ̃ː/",
+      "example_translation": "Cette table a quatre pieds."
+    },
+    {
+      "word_id": "v_num_5",
+      "term": "पाँच",
+      "phonetic_api": "/paːntʃ/",
+      "phonetic_simple": "PAANTCH",
+      "translation": "Cinq (5)",
+      "example_sentence": "पाँच उंगलियाँ",
+      "example_phonetic": "/paːntʃ ʊnɡlɪjãː/",
+      "example_translation": "Cinq doigts."
+    },
+    {
+      "word_id": "v_num_6",
+      "term": "छह",
+      "phonetic_api": "/tʃʰəɦ/",
+      "phonetic_simple": "TCHHAH",
+      "translation": "Six (6)",
+      "example_sentence": "छह महीने",
+      "example_phonetic": "/tʃʰəɦ məɦiːneː/",
+      "example_translation": "Six mois."
+    },
+    {
+      "word_id": "v_num_7",
+      "term": "सात",
+      "phonetic_api": "/saːt̪/",
+      "phonetic_simple": "SAAT",
+      "translation": "Sept (7)",
+      "example_sentence": "सात रंग",
+      "example_phonetic": "/saːt̪ ɾəŋɡ/",
+      "example_translation": "Sept couleurs."
+    },
+    {
+      "word_id": "v_num_8",
+      "term": "आठ",
+      "phonetic_api": "/aːʈ/",
+      "phonetic_simple": "AATH (rétroflexe)",
+      "translation": "Huit (8)",
+      "example_sentence": "आठ घंटे",
+      "example_phonetic": "/aːʈ ɡʱəɳʈeː/",
+      "example_translation": "Huit heures (durée)."
+    },
+    {
+      "word_id": "v_num_9",
+      "term": "नौ",
+      "phonetic_api": "/nɔː/",
+      "phonetic_simple": "NO (ouvert)",
+      "translation": "Neuf (9)",
+      "example_sentence": "नौ बज गए।",
+      "example_phonetic": "/nɔː bədʒ ɡəeː/",
+      "example_translation": "Il est neuf heures."
+    },
+    {
+      "word_id": "v_num_10",
+      "term": "दस",
+      "phonetic_api": "/d̪əs/",
+      "phonetic_simple": "DAS",
+      "translation": "Dix (10)",
+      "example_sentence": "दस रुपये",
+      "example_phonetic": "/d̪əs ɾʊpəjeː/",
+      "example_translation": "Dix roupies."
+    },
+    {
+      "word_id": "v_num_11",
+      "term": "ग्यारह",
+      "phonetic_api": "/ɡjaːɾəɦ/",
+      "phonetic_simple": "GYAA-RAH",
+      "translation": "Onze (11)",
+      "example_sentence": "ग्यारह खिलाड़ी",
+      "example_phonetic": "/ɡjaːɾəɦ kʰɪlaːɽiː/",
+      "example_translation": "Onze joueurs."
+    },
+    {
+      "word_id": "v_num_20",
+      "term": "बीस",
+      "phonetic_api": "/biːs/",
+      "phonetic_simple": "BIIS",
+      "translation": "Vingt (20)",
+      "example_sentence": "यह बीस का है।",
+      "example_phonetic": "/jəɦ biːs kaː ɦɛː/",
+      "example_translation": "Ça coûte vingt (roupies)."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "इसका दाम कितना है?",
+      "phonetic_api": "/ɪskaː d̪aːm kɪt̪naː ɦɛː/",
+      "phonetic_simple": "IS-KAA DAAM KIT-NAA HÉ",
+      "translation": "Combien ça coûte ? / Quel est son prix ?",
+      "context": "Indispensable pour faire des achats au marché ou dans un magasin."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "वहाँ कितने लोग हैं?",
+      "phonetic_api": "/ʋəɦãː kɪt̪neː loːɡ ɦɛ̃ː/",
+      "phonetic_simple": "VA-HAN KIT-NÉ LOG HAIN",
+      "translation": "Combien de personnes y a-t-il là-bas ?",
+      "context": "Demander une quantité dénombrable de personnes ou d'objets."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accord de l'interrogatif de quantité 'कितना' (kitna)",
+      "explanation": "Le mot pour dire 'combien' s'accorde en genre et en nombre avec l'objet ou la notion qu'il qualifie.",
+      "rules": [
+        "कितना (kitna) : Masculin singulier. Utilisé pour les choses indénombrables (ex: कितना पानी - combien d'eau).",
+        "कितने (kitne) : Masculin pluriel. Utilisé pour les choses dénombrables au pluriel (ex: कितने लोग - combien de personnes, कितने रुपये - combien de roupies).",
+        "कितनी (kitnii) : Féminin singulier ou pluriel (ex: कितनी गाड़ियाँ - combien de voitures)."
+      ],
+      "examples": [
+        {
+          "structure": "कितने रुपये? (kitne rupaye?)",
+          "phonetic_api": "/kɪt̪neː ɾʊpəjeː/",
+          "meaning": "Combien de roupies ?"
+        },
+        {
+          "structure": "कितनी चीनी? (kitnii chiinii?)",
+          "phonetic_api": "/kɪt̪niː tʃiːniː/",
+          "meaning": "Combien de sucre ?"
+        }
+      ]
+    },
+    {
+      "concept": "L'absence d'article et utilisation directe des cardinaux",
+      "explanation": "En hindi, il n'y a pas d'article indéfini comme 'un, une, des'. Le chiffre 'एक' (ek) fait office de nombre et d'article unifié.",
+      "rules": [
+        "Placer le chiffre directement devant le nom sans particule intermédiaire.",
+        "Le nom reste au singulier après 'एक' et passe au pluriel après les autres chiffres si nécessaire."
+      ],
+      "examples": [
+        {
+          "structure": "दो केला (Do kela / Do kele)",
+          "phonetic_api": "/d̪oː keːleː/",
+          "meaning": "Deux bananes"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "ग्राहक (Client)",
+      "text": "भैया, इन आमों का दाम कितना है?",
+      "phonetic_api": "/bʱɛjjaː ɪn aːmõː kaː d̪aːm kɪt̪naː ɦɛː/",
+      "phonetic_simple": "BHEI-YAA, IN AA-MON KAA DAAM KIT-NAA HÉ",
+      "translation": "Mon frère, quel est le prix de ces mangues ?"
+    },
+    {
+      "speaker": "दुकानदार (Vendeur)",
+      "text": "एक किलो आम के दाम बीस रुपये हैं।",
+      "phonetic_api": "/eːk kɪloː aːm keː d̪aːm biːs ɾʊpəjeː ɦɛ̃ː/",
+      "phonetic_simple": "EEK KI-LO YAAM KÉ DAAM BIIS ROU-PA-YÉ HAIN",
+      "translation": "Le prix pour un kilo de mangues est de vingt roupies."
+    },
+    {
+      "speaker": "ग्राहक (Client)",
+      "text": "ठीक है, मुझे पाँच किलो आम दीजिए।",
+      "phonetic_api": "/tʰiːk ɦɛː mʊdʒʱeː paːntʃ kɪloː aːm ddiːdʒɪjeː/",
+      "phonetic_simple": "THIIK HÉ, MOUD-JHÉ PAANTCH KI-LO YAAM DII-DJI-YÉ",
+      "translation": "D'accord, donnez-moi cinq kilos de mangues s'il vous plaît."
+    }
+  ],
+  "cultural_notes": [
+    "L'Inde utilise un système de numération unique pour les grands nombres au-delà de 100 000. On ne parle pas en centaines de milliers, mais en 'Lakh' (लाख = 100 000) et en 'Crore' (करोड़ = 10 000 000).",
+    "Au marché, interpeller un vendeur par 'भैया' (bhaiya - grand frère) est une habitude culturelle indispensable pour instaurer une relation cordiale et polie avant de négocier."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on le chiffre '5' en hindi ?",
+      "options": [
+        "चार (chaar)",
+        "पाँच (paanch)",
+        "सात (saat)"
+      ],
+      "correct_answer": "पाँच (paanch)",
+      "explanation": "'पाँच' est le chiffre 5, reconnaissable à sa prononciation nasale."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "आपके पास [ ___ ] गाड़ियाँ हैं? (Combien de voitures avez-vous ?)",
+      "correct_answer": "कितनी",
+      "hint": "Accord féminin pluriel du mot 'combien' (kitnii)"
+    }
+  ]
+}

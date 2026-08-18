@@ -1,0 +1,160 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter de 1 à 10 en kissi",
+    "Exprimer des quantités simples d'objets du quotidien",
+    "Comprendre la structure de base des nombres complexes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les chiffres en kissi mettent en avant des groupements de consonnes nasales pré-articulées comme /ŋp/ dans 'ŋpûm'. Le ton sur le chiffre modifie l'accord avec la classe nominale du mot compté.",
+    "common_pitfalls": "Attention à ne pas assimiler le son de 'ŋpûm' à un simple 'p'. La résonance nasale initiale /ŋ/ doit être entendue juste avant l'occlusion des lèvres."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v5_1",
+      "term": "pilɔ",
+      "phonetic_api": "/pi.lɔ/",
+      "phonetic_simple": "PI-LO",
+      "translation": "un / une",
+      "example_sentence": "Wana pilɔ.",
+      "example_phonetic": "/wa.na pi.lɔ/",
+      "example_translation": "Une personne."
+    },
+    {
+      "word_id": "v5_2",
+      "term": "miɔɔŋ",
+      "phonetic_api": "/mjɔːŋ/",
+      "phonetic_simple": "MYOONG",
+      "translation": "deux",
+      "example_sentence": "Gbɛŋgbɛ miɔɔŋ.",
+      "example_phonetic": "/g͡bɛŋ.g͡bɛ mjɔːŋ/",
+      "example_translation": "Deux chaises."
+    },
+    {
+      "word_id": "v5_3",
+      "term": "ngbaaŋ",
+      "phonetic_api": "/ⁿg͡baːŋ/",
+      "phonetic_simple": "NGBAANG",
+      "translation": "trois",
+      "example_sentence": "Cando ngbaaŋ.",
+      "example_phonetic": "/tʃa.ⁿdo ⁿg͡baːŋ/",
+      "example_translation": "Trois cases."
+    },
+    {
+      "word_id": "v5_4",
+      "term": "hiɔɔlulaŋ",
+      "phonetic_api": "/hjɔː.lu.lã/",
+      "phonetic_simple": "HYOO-LOU-LANN",
+      "translation": "cinq",
+      "example_sentence": "Wana hiɔɔlulaŋ.",
+      "example_phonetic": "/wa.na hjɔː.lu.lã/",
+      "example_translation": "Cinq personnes."
+    },
+    {
+      "word_id": "v5_5",
+      "term": "puu",
+      "phonetic_api": "/puː/",
+      "phonetic_simple": "POUU",
+      "translation": "dix",
+      "example_sentence": "Oolɛ puu.",
+      "example_phonetic": "/oː.lɛ puː/",
+      "example_translation": "Dix ans."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p5_1",
+      "original": "Mɛŋ kɔlɔ miɔɔŋ.",
+      "phonetic_api": "/mɛ̃ kɔ.lɔ mjɔːŋ/",
+      "phonetic_simple": "MENG KOLO MYOONG",
+      "translation": "Deux verres d'eau.",
+      "context": "Commander ou demander au marché"
+    },
+    {
+      "phrase_id": "p5_2",
+      "original": "Wana yɛŋ o lo wa ?",
+      "phonetic_api": "/wa.na jɛŋ o lo wa/",
+      "phonetic_simple": "WA-NA YENG O LO WA",
+      "translation": "Combien de personnes sont là ?",
+      "context": "Compter l'entourage"
+    },
+    {
+      "phrase_id": "p5_3",
+      "original": "O co wana ngbaaŋ.",
+      "phonetic_api": "/o tʃo wa.na ⁿg͡baːŋ/",
+      "phonetic_simple": "O TCHO WA-NA NGBAANG",
+      "translation": "Ils sont trois personnes.",
+      "context": "Répondre sur une quantité"
+    },
+    {
+      "phrase_id": "p5_4",
+      "original": "Co mi lɔŋ puu.",
+      "phonetic_api": "/tʃo mi lɔŋ puː/",
+      "phonetic_simple": "TCHO MI LONG POUU",
+      "translation": "Donne-moi dix francs/unités.",
+      "context": "Transaction simple"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La place du numéral dans le groupe nominal",
+      "explanation": "En kissi, les adjectifs numéraux cardinaux se placent systématiquement après le nom qu'ils qualifient.",
+      "rules": [
+        "Le nom reste en premier sans morphologie plurielle obligatoire si le nombre clarifie la quantité.",
+        "L'accord se fait de manière invisible via l'harmonie des tons."
+      ],
+      "examples": [
+        {
+          "structure": "Nom + Chiffre",
+          "phonetic_api": "/wa.na pi.lɔ/",
+          "meaning": "Une personne"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Tamba",
+      "text": "Gbɛŋgbɛ yɛŋ o co wa ?",
+      "phonetic_api": "/g͡bɛŋ.g͡bɛ jɛŋ o tʃo wa/",
+      "phonetic_simple": "GBENG-GBÉ YENG O TCHO WA",
+      "translation": "Combien de chaises sont ici ?"
+    },
+    {
+      "speaker": "Sia",
+      "text": "Gbɛŋgbɛ hiɔɔlulaŋ o co wa.",
+      "phonetic_api": "/g͡bɛŋ.g͡bɛ hjɔː.lu.lã o tʃo wa/",
+      "phonetic_simple": "GBENG-GBÉ HYOO-LOU-LANN O TCHO WA",
+      "translation": "Il y a cinq chaises ici."
+    }
+  ],
+  "cultural_notes": [
+    "Le système de comptage traditionnel kissi repose sur une base quinaire (base 5), liée aux doigts de la main. Les nombres au-delà de 5 se construisent par addition (5+1, 5+2), bien que l'usage moderne intègre les structures décimales courantes."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex5_1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on le chiffre 'deux' en kissi ?",
+      "options": [
+        "Pilɔ",
+        "Miɔɔŋ",
+        "Puu"
+      ],
+      "correct_answer": "Miɔɔŋ",
+      "explanation": "'Miɔɔŋ' est la traduction exacte du chiffre 2."
+    },
+    {
+      "exercise_id": "ex5_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Wana [ ___ ] signifie 'Une personne'.",
+      "correct_answer": "pilɔ",
+      "hint": "Le premier chiffre"
+    }
+  ]
+}

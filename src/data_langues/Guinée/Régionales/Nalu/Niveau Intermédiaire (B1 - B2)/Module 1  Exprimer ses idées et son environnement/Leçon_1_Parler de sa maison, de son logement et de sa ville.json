@@ -1,0 +1,170 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire les pièces et les structures de son habitation",
+    "Présenter et situer son logement au sein de son quartier ou de sa ville"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne liquide fricative /θ/ (notée 'th') requiert de placer délicatement le bout de la langue entre les incisives supérieures et inférieures. La distinction entre la voyelle brève /u/ et la voyelle longue /uː/ ('uu') change radicalement le sens du lexique de l'habitat.",
+    "common_pitfalls": "Attention à ne pas assimiler le mot 'n'boka' (maison/concession) à un mot français en deux syllabes distinctes; la pré-nasalisation du 'n-' doit être fusionnée instantanément au 'b'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v10_1",
+      "term": "N'boka",
+      "phonetic_api": "/n͡bo.ka/",
+      "phonetic_simple": "N-BO-KA",
+      "translation": "Maison / Concession familiale",
+      "example_sentence": "N'boka mi a kanyen we.",
+      "example_phonetic": "/n͡bo.ka mi a ka.ɲeŋ we/",
+      "example_translation": "Ma maison est située ici."
+    },
+    {
+      "word_id": "v10_2",
+      "term": "Cula",
+      "phonetic_api": "/tʃu.la/",
+      "phonetic_simple": "TCHOU-LA",
+      "translation": "Chambre / Pièce",
+      "example_sentence": "Cula mi a ce.",
+      "example_phonetic": "/tʃu.la mi a tʃe/",
+      "example_translation": "Ma chambre est propre / bonne."
+    },
+    {
+      "word_id": "v10_3",
+      "term": "Gbarano",
+      "phonetic_api": "/g͡ba.ra.no/",
+      "phonetic_simple": "GBA-RA-NO",
+      "translation": "Cour / Espace extérieur de vie",
+      "example_sentence": "Bweten a gbe di gbarano.",
+      "example_phonetic": "/bʷe.ten a gbe di g͡ba.ra.no/",
+      "example_translation": "L'enfant est dans la cour."
+    },
+    {
+      "word_id": "v10_4",
+      "term": "Thaŋa",
+      "phonetic_api": "/θa.ŋa/",
+      "phonetic_simple": "THA-NGA",
+      "translation": "Ville / Grand village",
+      "example_sentence": "Thaŋa we a mboye b'at.",
+      "example_phonetic": "/θa.ŋa we a mbo.je ɓat/",
+      "example_translation": "Cette ville est très grande."
+    },
+    {
+      "word_id": "v10_5",
+      "term": "Wutong",
+      "phonetic_api": "/wu.toŋ/",
+      "phonetic_simple": "WOU-TONG",
+      "translation": "Construire / Bâtir",
+      "example_sentence": "Baa mi a wutong n'boka.",
+      "example_phonetic": "/baː mi a wu.toŋ n͡bo.ka/",
+      "example_translation": "Mon père construit une maison."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p10_1",
+      "original": "A rila n'boka mwo a kanyen?",
+      "phonetic_api": "/a ri.la n͡bo.ka mwo a ka.ɲeŋ/",
+      "phonetic_simple": "A RI-LA N-BO-KA MWO A KA-NYEN",
+      "translation": "Où est située ta maison ?",
+      "context": "Question de niveau intermédiaire pour s'informer sur la résidence précise de quelqu'un."
+    },
+    {
+      "phrase_id": "p10_2",
+      "original": "N'boka mi a kanyen di thaŋa Boké.",
+      "phonetic_api": "/n͡bo.ka mi a ka.ɲeŋ di θa.ŋa bo.ke/",
+      "phonetic_simple": "N-BO-KA MI A KA-NYEN DI THA-NGA BO-KÉ",
+      "translation": "Ma maison est située dans la ville de Boké.",
+      "context": "Permet de localiser son lieu de résidence principale."
+    },
+    {
+      "phrase_id": "p10_3",
+      "original": "M malang cula bileng n'gbe gbarano.",
+      "phonetic_api": "/m ba.laŋ tʃu.la bi.leŋ ŋgbe g͡ba.ra.no/",
+      "phonetic_simple": "M BA-LANG TCHOU-LA BI-LENG NGBÉ GBA-RA-NO",
+      "translation": "J'ai deux chambres et une cour.",
+      "context": "Utile pour donner une description sommaire de son logement."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les extensions locatives complexes avec 'di'",
+      "explanation": "Au niveau intermédiaire, la préposition locative 'di' s'associe à des noms spécifiant la nature du lieu (ville, concession, intérieur) pour structurer des compléments de lieu avancés sans nécessiter d'adjectifs casuels.",
+      "rules": [
+        "Le marqueur 'di' précède le substantif géographique ou structurel.",
+        "Le mot qualifiant la ville ou le quartier se place en apposition directe après le nom générique."
+      ],
+      "examples": [
+        {
+          "structure": "di thaŋa",
+          "phonetic_api": "/di θa.ŋa/",
+          "meaning": "en ville / dans la ville"
+        },
+        {
+          "structure": "di cula",
+          "phonetic_api": "/di tʃu.la/",
+          "meaning": "dans la chambre"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine",
+      "text": "Mboye, Sékou ! A rila n'boka mwo a kanyen?",
+      "phonetic_api": "/mbo.je se.ku a ri.la n͡bo.ka mwo a ka.ɲeŋ/",
+      "phonetic_simple": "MBO-YÉ, SÉ-KOU ! A RI-LA N-BO-KA MWO A KA-NYEN?",
+      "translation": "Bonjour, Sékou ! Où se trouve ta maison ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Mboye ce ! N'boka mi a kanyen di thaŋa Boké. A gbe n'boka b'at mu thand.",
+      "phonetic_api": "/mbo.je tʃe n͡bo.ka mi a ka.ɲeŋ di θa.ŋa bo.ke a g͡be n͡bo.ka ɓat mu θand/",
+      "phonetic_simple": "MBO-YÉ TCHÉ ! N-BO-KA MI A KA-NYEN DI THA-NGA BO-KÉ. A GBÉ N-BO-KA BAT MOU THAND.",
+      "translation": "Bonjour bien ! Ma maison est située dans la ville de Boké. C'est une grande concession tout près."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "A malang cula rila di n'boka?",
+      "phonetic_api": "/a ba.laŋ tʃu.la ri.la di n͡bo.ka/",
+      "phonetic_simple": "A BA-LANG TCHOU-LA RI-LA DI N-BO-KA?",
+      "translation": "Combien de chambres as-tu dans la maison ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "M malang cula bitua n'gbe gbarano ce.",
+      "phonetic_api": "/m ba.laŋ tʃu.la bi.twa ŋgbe g͡ba.ra.no tʃe/",
+      "phonetic_simple": "M BA-LANG TCHOU-LA BI-TOUA NGBÉ GBA-RA-NO TCHÉ.",
+      "translation": "J'ai trois chambres et une belle cour."
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Nalu, la 'n'boka' (concession) dépasse la simple notion d'habitation individuelle. C'est un ensemble d'espaces clos ou semi-clos abritant plusieurs générations d'une même lignée. La cour commune ('gbarano') est l'épicentre social où l'on cuisine, reçoit les hôtes, règle les affaires communautaires et où les enfants jouent ensemble sous la supervision collective des aînés."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex10_1",
+      "type": "multiple_choice",
+      "question": "Quel mot désigne la chambre ou une pièce intime en nalu ?",
+      "options": [
+        "Thaŋa",
+        "Cula",
+        "Gbarano"
+      ],
+      "correct_answer": "Cula",
+      "explanation": "'Cula' désigne spécifiquement la pièce à coucher ou l'espace intérieur délimité."
+    },
+    {
+      "exercise_id": "ex10_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour parler d'un grand village ou d'une ville, on utilise le terme : [ ___ ].",
+      "correct_answer": "thaŋa",
+      "hint": "Contient le son fricatif dental initial 'th'"
+    }
+  ]
+}

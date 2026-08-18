@@ -1,0 +1,156 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques",
+  "learning_objectives": [
+    "Identifier l'alphabet officiel utilisé pour la transcription du kono guinéen",
+    "Prononcer de manière distincte les digrammes complexes et réguler les tons"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La langue kono utilise des caractères phonétiques enrichis : /ɛ/ (è ouvert), /ɔ/ (ò ouvert), les consonnes co-articulées /kp/ et /ɡɓ/. L'accentuation écrite représente le profil tonal du mot.",
+    "common_pitfalls": "Faire l'erreur d'assimiler /kp/ à un simple son 'k' ou 'p'. Ces deux points de contact de la bouche se ferment et s'ouvrent en même temps."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v3_1",
+      "term": "kpɛ́",
+      "phonetic_api": "/kpɛ́/",
+      "phonetic_simple": "KPE",
+      "translation": "Blanc / Propre / Clair",
+      "example_sentence": "Kɔ̀ nì bɛ̀ kpɛ́.",
+      "example_phonetic": "/kɔ̀ nì ɓɛ̀ kpɛ́/",
+      "example_translation": "Cette eau est claire."
+    },
+    {
+      "word_id": "v3_2",
+      "term": "gbɛ̀",
+      "phonetic_api": "/ɡɓɛ̀/",
+      "phonetic_simple": "GBE",
+      "translation": "Sec / Stérile / Rien",
+      "example_sentence": "Yìí bɛ̀ gbɛ̀.",
+      "example_phonetic": "/jìː ɓɛ̀ ɡɓɛ̀/",
+      "example_translation": "Le bois est sec."
+    },
+    {
+      "word_id": "v3_3",
+      "term": "ɓí",
+      "phonetic_api": "/ɓí/",
+      "phonetic_simple": "BHI",
+      "translation": "Prendre / Saisir",
+      "example_sentence": "Ɓí nì kɔ̀ó.",
+      "example_phonetic": "/ɓí nì kɔ̀ó/",
+      "example_translation": "Prends cette eau."
+    },
+    {
+      "word_id": "v3_4",
+      "term": "ɲá",
+      "phonetic_api": "/ɲá/",
+      "phonetic_simple": "NYA",
+      "translation": "Œil / Visage",
+      "example_sentence": "Ń ɲá le nì.",
+      "example_phonetic": "/ń ɲá le nì/",
+      "example_translation": "C'est mon œil."
+    },
+    {
+      "word_id": "v3_5",
+      "term": "ŋà",
+      "phonetic_api": "/ŋà/",
+      "phonetic_simple": "NGA",
+      "translation": "Nous / Notre (exclusif)",
+      "example_sentence": "ŋà gàálà le.",
+      "example_phonetic": "/ŋà ɡàːlà le/",
+      "example_translation": "C'est notre village."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p3_1",
+      "original": "Mɛ́ɛ̀-wɔ̀ɔ̀ bɛ̀ kpɛ́ kɔ́ɔ́.",
+      "phonetic_api": "/mɛ́ːwɔ́ː ɓɛ̀ kpɛ́ kɔ́ː/",
+      "phonetic_simple": "MEE-WOO BE KPE KOO.",
+      "translation": "La parole est très claire.",
+      "context": "Utilisé pour affirmer qu'on a bien compris une explication phonétique."
+    },
+    {
+      "phrase_id": "p3_2",
+      "original": "Kpáá nìí ɓí máámá.",
+      "phonetic_api": "/kpáː nìː ɓí mámá/",
+      "phonetic_simple": "KPAA NI-I BHI MA-MA.",
+      "translation": "Prends ce tabouret s'il te plaît.",
+      "context": "Une phrase d'entraînement combinant plusieurs sons spécifiques."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'importance sémantique des tons de la langue Kono",
+      "explanation": "Le kono est une langue à tons. Un changement de hauteur mélodique sur la même voyelle peut modifier totalement la catégorie grammaticale ou le sens d'un mot. Le ton haut est marqué par un accent aigu (´) et le ton bas par un accent grave (`) sur la voyelle.",
+      "rules": [
+        "Le ton haut indique une tension des cordes vocales.",
+        "Le ton bas est prononcé dans le registre inférieur de la voix.",
+        "L'absence d'accent peut noter un ton moyen selon les orthographes normalisées."
+      ],
+      "examples": [
+        {
+          "structure": "gbɛ́ (ton haut)",
+          "phonetic_api": "/ɡɓɛ́/",
+          "meaning": "Chasser"
+        },
+        {
+          "structure": "gbɛ̀ (ton bas)",
+          "phonetic_api": "/ɡɓɛ̀/",
+          "meaning": "Sec"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kàláŋ-mɔ̀",
+      "text": "Ɓí kpɛ́ nì, í à fɔ́ : kpɛ́.",
+      "phonetic_api": "/ɓí kpɛ́ nì í à fɔ́ kpɛ́/",
+      "phonetic_simple": "Bhi kpe ni, i a fo : kpe.",
+      "translation": "Prends la craie blanche, dis : blanc."
+    },
+    {
+      "speaker": "Kàláŋ-dé",
+      "text": "Kpɛ́. Ń à fɔ́ kɛ́nɛ̀ kɔ́ɔ́ ?",
+      "phonetic_api": "/kpɛ́ ń à fɔ́ kɛ́nɛ̀ kɔ́ː/",
+      "phonetic_simple": "Kpe. N a fo ke-ne koo ?",
+      "translation": "Blanc. Est-ce que je l'ai bien prononcé ?"
+    },
+    {
+      "speaker": "Kàláŋ-mɔ̀",
+      "text": "Hɛ́ɛ̀, í à fɔ́ kɛ́nɛ̀. À bɛ̀ kpɛ́ !",
+      "phonetic_api": "/hɛ́ːɛ̀ í à fɔ́ kɛ́nɛ̀ à ɓɛ̀ kpɛ́/",
+      "phonetic_simple": "Hee, i a fo ke-ne. A be kpe !",
+      "translation": "Oui, tu l'as bien prononcé. C'est parfait !"
+    }
+  ],
+  "cultural_notes": [
+    "La transcription de la langue Kono a bénéficié des travaux de l'Institut de Linguistique Appliquée de Guinée. Elle s'appuie sur l'Alphabet National Guinéen pour préserver la richesse phonologique des langues de la Région Forestière face à l'avancée des langues véhiculaires."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex3_1",
+      "type": "multiple_choice",
+      "question": "Quel symbole phonologique représente un son de n nasalisé comme dans le mot 'notre' ?",
+      "options": [
+        "ɲ",
+        "ŋ",
+        "ɓ"
+      ],
+      "correct_answer": "ŋ",
+      "explanation": "Le symbole 'ŋ' correspond à la nasale vélaire standard présente en kono."
+    },
+    {
+      "exercise_id": "ex3_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Yìí bɛ̀ [ ___ ]. (Le bois est sec.)",
+      "correct_answer": "gbɛ̀",
+      "hint": "Mot avec le digramme co-articulé sonore et un ton bas."
+    }
+  ]
+}

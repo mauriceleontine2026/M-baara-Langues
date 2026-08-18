@@ -1,0 +1,269 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Savoir dire son nom et demander celui de quelqu'un",
+    "Exprimer son âge, sa nationalité et sa profession"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'ç' se prononce [s]. Le groupe 'ch' se prononce [ʃ] comme le 'ch' français. La terminaison '-ão' est une voyelle nasale diphtonguée propre au portugais, proche de 'an-on'. Le 'v' se prononce distinctement [v] en portugais européen standard.",
+    "common_pitfalls": "Ne confondez pas le verbe 'ter' (avoir) utilisé pour l'âge avec le verbe 'ser' (être). Attention au 'm' final dans 'chamo-me' ou 'sou', il ne se prononce pas comme un 'm' français mais ferme la voyelle de façon nasale [m̃]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Chamo-me",
+      "phonetic_api": "/ˈʃamu.mɨ/",
+      "phonetic_simple": "CHAH-MOO-M'H",
+      "translation": "Je m'appelle",
+      "example_sentence": "Chamo-me Carlos.",
+      "example_phonetic": "/ˈʃamu.mɨ ˈkaɾluʃ/",
+      "example_translation": "Je m'appelle Carlos."
+    },
+    {
+      "word_id": "v2",
+      "term": "Sou",
+      "phonetic_api": "/sow/",
+      "phonetic_simple": "SOW",
+      "translation": "Je suis",
+      "example_sentence": "Sou francês.",
+      "example_phonetic": "/sow fɾɐ̃ˈseʃ/",
+      "example_translation": "Je suis français."
+    },
+    {
+      "word_id": "v3",
+      "term": "Tenho",
+      "phonetic_api": "/ˈteɲu/",
+      "phonetic_simple": "TAY-NYOO",
+      "translation": "J'ai",
+      "example_sentence": "Tenho trinta anos.",
+      "example_phonetic": "/ˈteɲu ˈtɾĩtɐ ˈɐnuʃ/",
+      "example_translation": "J'ai trente ans."
+    },
+    {
+      "word_id": "v4",
+      "term": "Anos",
+      "phonetic_api": "/ˈɐnuʃ/",
+      "phonetic_simple": "AH-NOOCH",
+      "translation": "Ans",
+      "example_sentence": "Quantos anos tens?",
+      "example_phonetic": "/ˈkwɐ̃tuʃ ˈɐnuʃ tɐ̃jʃ/",
+      "example_translation": "Quel âge as-tu ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "Estudante",
+      "phonetic_api": "/iʃtuˈðɐ̃tɨ/",
+      "phonetic_simple": "ECH-TOO-DAN-T'H",
+      "translation": "Étudiant / Étudiante",
+      "example_sentence": "Sou estudante na universidade.",
+      "example_phonetic": "/sow iʃtuˈðɐ̃tɨ nɐ univɨɾsiˈðaðɨ/",
+      "example_translation": "Je suis étudiant à l'université."
+    },
+    {
+      "word_id": "v6",
+      "term": "Professor",
+      "phonetic_api": "/pɾu fɨˈsoɾ/",
+      "phonetic_simple": "PROO-F'H-SOR",
+      "translation": "Professeur / Enseignant",
+      "example_sentence": "O meu pai é professor.",
+      "example_phonetic": "/u mew paj ɛ pɾu fɨˈsoɾ/",
+      "example_translation": "Mon père est professeur."
+    },
+    {
+      "word_id": "v7",
+      "term": "França",
+      "phonetic_api": "/ˈfɾãsɐ/",
+      "phonetic_simple": "FRAN-SAH",
+      "translation": "France",
+      "example_sentence": "Sou de França.",
+      "example_phonetic": "/sow dɨ ˈfɾãsɐ/",
+      "example_translation": "Je viens de France."
+    },
+    {
+      "word_id": "v8",
+      "term": "Portugal",
+      "phonetic_api": "/puɾtuˈɣaɫ/",
+      "phonetic_simple": "POOR-TOO-GAHL",
+      "translation": "Portugal",
+      "example_sentence": "Vivo em Portugal.",
+      "example_phonetic": "/ˈvivu ɐ̃j puɾtuˈɣaɫ/",
+      "example_translation": "Je vis au Portugal."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Como se chama?",
+      "phonetic_api": "/ˈkomu sɨ ˈʃamɐ/",
+      "phonetic_simple": "KOH-MOO S'H CHAH-MAH",
+      "translation": "Comment vous appelez-vous ? (formel)",
+      "context": "Cadre professionnel ou avec un inconnu."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Como te chamas?",
+      "phonetic_api": "/ˈkomu tɨ ˈʃamɐʃ/",
+      "phonetic_simple": "KOH-MOO T'H CHAH-MACH",
+      "translation": "Comment tu t'appelles ? (informel)",
+      "context": "Cadre amical, informel ou avec des enfants."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "De onde é?",
+      "phonetic_api": "/dɨ ˈõdɨ ɛ/",
+      "phonetic_simple": "D'H ON-D'H É",
+      "translation": "D'où êtes-vous ? (formel)",
+      "context": "Pour demander l'origine ou la nationalité de façon polie."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "De onde és?",
+      "phonetic_api": "/dɨ ˈõdɨ ɛʃ/",
+      "phonetic_simple": "D'H ON-D'H ECH",
+      "translation": "D'où es-tu ? (informel)",
+      "context": "Entre jeunes ou dans un contexte détendu."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Qual é a sua profissão?",
+      "phonetic_api": "/kwaɫ ɛ ɐ ˈsuɐ pɾufiˈsɐ̃w/",
+      "phonetic_simple": "KWAHL É AH SOO-AH PROO-FEE-SANG",
+      "translation": "Quelle est votre profession ?",
+      "context": "Formel, lors d'un entretien ou d'une rencontre officielle."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "O que fazes?",
+      "phonetic_api": "/u kɨ ˈfazɨʃ/",
+      "phonetic_simple": "OO K'H FAH-ZECH",
+      "translation": "Que fais-tu ? / Quel est ton métier ?",
+      "context": "Informel, pour s'intéresser à l'activité de quelqu'un."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Quantos anos tem?",
+      "phonetic_api": "/ˈkwɐ̃tuʃ ˈɐnuʃ tɐ̃j/",
+      "phonetic_simple": "KWAN-TOOCH AH-NOOCH TENG",
+      "translation": "Quel âge avez-vous ?",
+      "context": "Formel (à utiliser avec tact)."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Este é o meu amigo.",
+      "phonetic_api": "/ˈeʃtɨ ɛ u mew ɐˈmiɣu/",
+      "phonetic_simple": "ECH-T'H É OO MEW AH-MEE-GOO",
+      "translation": "Voici mon ami.",
+      "context": "Pour présenter un tiers masculin à quelqu'un."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Exprimer l'âge avec le verbe 'Ter' (Avoir)",
+      "explanation": "Contrairement à l'anglais mais comme en français, on utilise le verbe avoir ('ter') pour indiquer l'âge en portugais.",
+      "rules": [
+        "Forme de la 1ère personne du singulier : Eu tenho [nombre] anos.",
+        "Forme de la 2ème personne (tu) : Tu tens [nombre] anos.",
+        "Forme de la 3ème personne (vous/il/elle) : Você/Ele/Ela tem [nombre] anos."
+      ],
+      "examples": [
+        {
+          "structure": "Eu tenho 25 anos.",
+          "phonetic_api": "/ew ˈteɲu ˈvĩtɨ i ˈsĩku ˈɐnuʃ/",
+          "meaning": "J'ai 25 ans."
+        },
+        {
+          "structure": "Ele tem 40 anos.",
+          "phonetic_api": "/elɨ tɐ̃j kwaˈɾẽtɐ ˈɐnuʃ/",
+          "meaning": "Il a 40 ans."
+        }
+      ]
+    },
+    {
+      "concept": "Le verbe 'Ser' (Être) pour la nationalité et la profession",
+      "explanation": "Le verbe 'ser' exprime des caractéristiques permanentes ou fondamentales de l'identité, comme l'origine ou le métier.",
+      "rules": [
+        "Présent du indicatif (singulier) : Eu sou (je suis), Tu és (tu es), Ele/Ela/Você é (il/elle est / vous êtes).",
+        "On n'utilise généralement pas d'article indéfini devant les professions (ex: sou engenheiro et non sou um engenheiro)."
+      ],
+      "examples": [
+        {
+          "structure": "Sou médico.",
+          "phonetic_api": "/sow ˈmɛðiku/",
+          "meaning": "Je suis médecin."
+        },
+        {
+          "structure": "Ela é portuguesa.",
+          "phonetic_api": "/ˈelɐ ɛ puɾtuˈɣezɐ/",
+          "meaning": "Elle est portugaise."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lucas",
+      "text": "Olá! Como te chamas?",
+      "phonetic_api": "/oˈla ˈkomu tɨ ˈʃamɐʃ/",
+      "phonetic_simple": "OH-LAH KOH-MOO T'H CHAH-MACH",
+      "translation": "Salut ! Comment tu t'appelles ?"
+    },
+    {
+      "speaker": "Sofia",
+      "text": "Olá! Chamo-me Sofia. E tu?",
+      "phonetic_api": "/oˈla ˈʃamu.mɨ suˈfiɐ i tu/",
+      "phonetic_simple": "OH-LAH CHAH-MOO-M'H SOO-FEE-AH EE TOO",
+      "translation": "Salut ! Je m'appelle Sofia. Et tu ?"
+    },
+    {
+      "speaker": "Lucas",
+      "text": "Eu sou o Lucas. De onde és, Sofia?",
+      "phonetic_api": "/ew sow u ˈlukɐʃ dɨ ˈõdɨ ɛʃ suˈfiɐ/",
+      "phonetic_simple": "EW SOW OO LOO-KACH D'H ON-D'H ECH SOO-FEE-AH",
+      "translation": "Moi c'est Lucas. D'où es-tu, Sofia ?"
+    },
+    {
+      "speaker": "Sofia",
+      "text": "Sou de França, sou francesa. Mas vivo em Lisboa. O que fazes?",
+      "phonetic_api": "/sow dɨ ˈfɾãsɐ sow fɾɐ̃ˈsezɐ mɐʃ ˈvivu ɐ̃j liʒˈboɐ u kɨ ˈfazɨʃ/",
+      "phonetic_simple": "SOW D'H FRAN-SAH SOW FRAN-SAY-ZAH MACH VEE-VOO ENG LEEJ-BOH-AH OO K'H FAH-ZECH",
+      "translation": "Je viens de France, je suis française. Mais je vis à Lisbonne. Que fais-tu ?"
+    },
+    {
+      "speaker": "Lucas",
+      "text": "Sou estudante de engenharia. Tenho 22 anos.",
+      "phonetic_api": "/sow iʃtuˈðɐ̃tɨ dɨ ẽʒɐˈɲaɾiɐ ˈteɲu ˈvĩtɨ i ˈdojʃ ˈɐnuʃ/",
+      "phonetic_simple": "SOW ECH-TOO-DAN-T'H D'H ENG-JAN-AH-REE-AH TAY-NYOO VEEN-T'H EE DOYCH AH-NOOCH",
+      "translation": "Je suis étudiant en ingénierie. J'ai 22 ans."
+    }
+  ],
+  "cultural_notes": [
+    "Au Portugal, lors d'une présentation formelle, on utilise le prénom précédé de 'O senhor' (Monsieur) ou 'A senhora' (Madame) si l'on s'adresse directement à la personne sans la tutoyer.",
+    "L'expression 'Muito prazer' (Enchanté) s'accompagne d'une poignée de main ferme."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la phrase correcte pour dire 'J'ai 30 ans' ?",
+      "options": [
+        "Eu sou trinta anos.",
+        "Eu tenho trinta anos.",
+        "Eu chamo-me trinta anos."
+      ],
+      "correct_answer": "Eu tenho trinta anos.",
+      "explanation": "On utilise le verbe 'ter' (avoir) pour exprimer l'âge en portugais."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander poliment l'origine de quelqu'un, on dit : De [ ___ ] és?",
+      "correct_answer": "onde",
+      "hint": "Traduction de 'où'"
+    }
+  ]
+}

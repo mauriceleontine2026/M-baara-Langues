@@ -1,0 +1,215 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Maîtriser le lexique des transactions financières quotidiennes, du budget et des banques",
+    "Savoir négocier poliment un prix, demander une réduction et exprimer un rapport coût-bénéfice"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La précision phonétique est de mise lors des transactions. Le mot 'sconto' /ˈskonto/ commence par un 's' sourd suivi de /k/. Pour 'risparmiare' /risparˈmjaːre/, veillez à ne pas nasaliser la syllabe '-par-'. Dans 'prezzo' /ˈprɛttso/ et 'negozio' /neˈgɔttsjo/, le 'z' double ou simple produit un son 'ts' très sec, long et dental.",
+    "common_pitfalls": "Attention au verbe 'spendere' /ˈspɛndere/ : l'accent tonique est sur la première syllabe (SPÈN-de-re). Ne confondez pas le 'u' de 'bancomat' ou 'contanti' avec des sons français, articulez chaque voyelle de manière pure et ouverte."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Lo sconto",
+      "phonetic_api": "/lo ˈskonto/",
+      "phonetic_simple": "LO SKON-TO",
+      "translation": "La réduction / Le rabais / La remise",
+      "example_sentence": "Se compro due articoli, mi fa uno sconto?",
+      "example_phonetic": "/se ˈkompro dˈdue arˈtiːkoli mi fa ˈuːno ˈskonto/",
+      "example_translation": "Si j'achète deux articles, vous me faites une réduction ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "Il contante",
+      "phonetic_api": "/il konˈtante/",
+      "phonetic_simple": "IL KON-TAN-TÉ",
+      "translation": "L'argent liquide / Les espèces",
+      "example_sentence": "Mi dispiace, accettiamo solo contanti al mercato.",
+      "example_phonetic": "/mi dispjaˈtʃeːre attʃetˈtjaːmo ˈsoːlo konˈtanti al merˈkaːto/",
+      "example_translation": "Je suis désolé, nous acceptons seulement les espèces au marché."
+    },
+    {
+      "word_id": "v3",
+      "term": "Il bancomat",
+      "phonetic_api": "/il ˈbaŋkomat/",
+      "phonetic_simple": "IL BAN-KO-MAT",
+      "translation": "La carte bancaire (débit) / Le distributeur de billets",
+      "example_sentence": "Devo prelevare dei soldi al bancomat.",
+      "example_phonetic": "/ˈdeːvo preleˈvaːre dei ˈsɔldi al ˈbaŋkomat/",
+      "example_translation": "Je devez retirer de l'argent au distributeur."
+    },
+    {
+      "word_id": "v4",
+      "term": "Risparmiare",
+      "phonetic_api": "/risparˈmjaːre/",
+      "phonetic_simple": "RIS-PAR-MIA-RÉ",
+      "translation": "Économiser / Épargner",
+      "example_sentence": "Cerco di risparmiare per comprare una macchina nuova.",
+      "example_phonetic": "/ˈtʃɛrko di risparˈmjaːre per komˈpraːre ˈuːna ˈmakkina ˈnwɔːva/",
+      "example_translation": "J'essaie d'économiser pour acheter une nouvelle voiture."
+    },
+    {
+      "word_id": "v5",
+      "term": "Il bilancio",
+      "phonetic_api": "/il biˈlantʃo/",
+      "phonetic_simple": "IL BI-LAN-TCHIO",
+      "translation": "Le budget / Le bilan",
+      "example_sentence": "Dobbiamo controllare il bilancio familiare questo mese.",
+      "example_phonetic": "/dobˈbjaːmo kontrollaːre il biˈlantʃo familˈjaːre ˈkwesto ˈmeːze/",
+      "example_translation": "Nous devons contrôler le budget familial ce mois-ci."
+    },
+    {
+      "word_id": "v6",
+      "term": "Conveniente",
+      "phonetic_api": "/konveˈnjɛnte/",
+      "phonetic_simple": "KON-VÉ-NIÈN-TÉ",
+      "translation": "Avantageux / Rentable / Intéressant (prix)",
+      "example_sentence": "Questo negozio ha prezzi molto convenienti.",
+      "example_phonetic": "/ˈkwesto neˈgɔttsjo a pˈprɛttsi mˈmolto konveˈnjɛnte/",
+      "example_translation": "Ce magasin a des prix très avantageux."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Si può avere un piccolo sconto sul prezzo totale?",
+      "phonetic_api": "/si pwɔ aˈveːre un ˈpikkolo ˈskonto sul ˈprɛttso toˈtaːle/",
+      "phonetic_simple": "SI POUÒ A-VÉ-RÉ OUN PIK-KO-LO SKON-TO SOUL PRÈT-TSO TO-TA-LÉ",
+      "translation": "Est-il possible d'avoir une petite réduction sur le prix total ?",
+      "context": "Formule polie de négociation de niveau intermédiaire utilisable chez les artisans ou marchands."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "È un ottimo rapporto qualità-prezzo",
+      "phonetic_api": "/ɛ un ˈɔttimo rapˈpɔrto kwaliˈta ˈprɛttso/",
+      "phonetic_simple": "È OUN OT-TI-MO RAP-POR-TO KOUA-LI-TA PRÈT-TSO",
+      "translation": "C'est un excellent rapport qualité-prix",
+      "context": "Pour justifier ou commenter une décision d'achat pertinente."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Preferisco pagare con la carta per tracciare le spese",
+      "phonetic_api": "/preferiːsko paˈgaːre kon la ˈkarta per tratˈtʃaːre le ˈspeːze/",
+      "phonetic_simple": "PRÉ-FÉ-RIS-KO PA-GA-RÉ KON LA KAR-TA PÈR TRAT-TCHIA-RÉ LÉ SPÉ-ZÉ",
+      "translation": "Je préfère payer par carte pour suivre mes dépenses",
+      "context": "Utile pour expliquer une habitude de gestion financière."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Quel prezzo è un po' fuori budget per me",
+      "phonetic_api": "/kwel ˈprɛttso ɛ un pɔ ˈfwɔːri ˈbaddʒet per me/",
+      "phonetic_simple": "KOUÈL PRÈT-TSO È OUN PÒ FOUO-RI BAD-GÈT PÈR MÉ",
+      "translation": "Ce prix est un peu hors budget pour moi",
+      "context": "Formule diplomatique pour refuser un article trop cher sans paraître impoli."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Ho sprecato troppi soldi in cose inutili",
+      "phonetic_api": "/ɔ spreˈkaːto ˈtrɔppi ˈsɔldi in ˈkoːze iˈnuːtili/",
+      "phonetic_simple": "O SPRÉ-KA-TO TROP-PI SOL-DI IN KO-ZÉ I-NOOU-TI-LI",
+      "translation": "J'ai gaspillé trop d'argent dans des choses inutiles",
+      "context": "Pour exprimer un regret lié à la gestion de ses finances personnelles."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Posso pagare a rate questo acquisto?",
+      "phonetic_api": "/ˈpɔsso paˈgaːre a rˈraːte ˈkwesto akˈkwisto/",
+      "phonetic_simple": "POS-SO PA-GA-RÉ A RA-TÉ KOUÈS-TO AK-KOUIS-TO",
+      "translation": "Puis-je payer cet achat en plusieurs fois (à tempérament) ?",
+      "context": "Demande de financement ou de facilité de paiement dans un grand magasin."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les pronoms combinés (Pronomi combinati) dans l'acte d'achat",
+      "explanation": "Au niveau B1-B2, on fusionne les pronoms COI (mi, ti, gli, le, ci, vi) et les pronoms COD (lo, la, li, le, ne) pour fluidifier le discours commercial. Le pronom COI change sa voyelle '-i' en '-e' devant le pronom COD.",
+      "rules": [
+        "Mi + lo = melo / Mi + la = mela / Mi + ne = mene (ex: me lo incarta? = vous me l'emballez ?).",
+        "Gli/Le + lo = glielo (forme unique fusionnée pour le masculin, féminin et de courtoisie Lei)."
+      ],
+      "examples": [
+        {
+          "structure": "Se Le piace questa giacca, gliela posso lasciare a cento euro.",
+          "phonetic_api": "/se le ˈpjaːtʃe ˈkwesta ˈdʒakka ˈʎeːla ˈpɔsso laʃˈʃaːre a tˈtʃɛnto ˈɛuro/",
+          "meaning": "Si cette veste vous plaît, je peux vous la laisser à cent euros (Formel)."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de la condition avec le Conditionnel Présent",
+      "explanation": "Pour négocier poliment ou parler de scénarios budgétaires, on articule une proposition hypothétique ouverte.",
+      "rules": [
+        "S'utilise pour formuler une demande atténuée ou une proposition commerciale.",
+        "Exemples de formes courantes : pagherei (je paierais), farebbe (vous feriez / il ferait), comprerei (j'achèterais)."
+      ],
+      "examples": [
+        {
+          "structure": "Comprerei quel quadro se costasse un po' meno.",
+          "phonetic_api": "/kompreˈrɛi kwel ˈkwaːdro se kosˈtasse un pɔ ˈmeːno/",
+          "meaning": "J'achèterais ce tableau s'il coûtait un peu moins cher."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Venditore",
+      "text": "Buongiorno! Posso mostrarle questo tavolo antico? È un pezzo unico in legno di noce.",
+      "phonetic_api": "/bwɔnˈdʒorno ˈpɔsso mosˈtrarle ˈkwesto ˈtaːvolo anˈtiːko ɛ un ˈpɛttso ˈuːniko in ˈleɲɲo di ˈnoːtʃe/",
+      "phonetic_simple": "BOUON-DJOR-NO ! POS-SO MOS-TRAR-LÉ KOUÈS-TO TA-VO-LO AN-TI-KO ? È OUN PÈT-TSO OU-NI-KO IN LEN-NIO DI NO-TCHÉ",
+      "translation": "Bonjour ! Puis-je vous montrer cette table ancienne ? C'est une pièce unique en bois de noyer."
+    },
+    {
+      "speaker": "Cliente",
+      "text": "È davvero splendido, ma il prezzo esposto è un po' fuori budget per me. Se decidessi di prenderlo subito, mi farebbe uno sconto?",
+      "phonetic_api": "/ɛ davˈveːro ˈsplɛndido ma il ˈprɛttso esˈpɔsto ɛ un pɔ ˈfwɔːri ˈbaddʒet per me se detʃiˈdessi di ˈprendarlo ˈsuːbito mi faˈrebbe ˈuːno ˈskonto/",
+      "phonetic_simple": "È DAV-VÉ-RO SPLÈN-DI-KO, MA IL PRÈT-TSO ES-POS-TO È OUN PÒ FOUO-RI BAD-GÈT PÈR MÉ. SÉ DÉ-TCHI-DÈS-SI DI PRÈN-DÈR-LO SOU-BI-TO, MI FA-RÈB-BÉ OUN SKON-TO ?",
+      "translation": "Elle est vraiment magnifique, mais le prix affiché est un peu hors budget pour moi. Si je décidais de la prendre tout de suite, vous me feriez une réduction ?"
+    },
+    {
+      "speaker": "Venditore",
+      "text": "Guardi, ha un ottimo rapporto qualità-prezzo. Però, se paga in contanti, posso togliere cinquanta euro. Glielo lascio a quattrocento euro.",
+      "phonetic_api": "/ˈɡwardi a un ˈɔttimo rapˈpɔrto kwaliˈta ˈprɛttso peˈrɔ se ˈpaːga in konˈtanti ˈpɔsso ˈtɔʎʎere tʃiŋˈkwanta ˈɛuro ˈʎeːlo ˈlaʃʃo a kkwattrotˈtʃɛnto ˈɛuro/",
+      "phonetic_simple": "GOUAR-DI, A OUN OT-TI-MO RAP-POR-TO KOUA-LI-TA PRÈT-TSO. PÈ-RÒ, SÉ PA-GA IN KON-TAN-TI, POS-SO TOL-LIÉ-RÉ TCHIN-KOUAN-TA ÈOU-RO. LIÉ-LO LA-CHIO A KOUAT-TRO-CHÈN-TO ÈOU-RO.",
+      "translation": "Regardez, elle a un excellent rapport qualité-prix. Cependant, si vous payez en espèces, je peux enlever cinquante euros. Je vous la laisse à quatre cents euros."
+    },
+    {
+      "speaker": "Cliente",
+      "text": "Quattrocento euro è conveniente. Va bene, vado ad un bancomat qui vicino a prelevare e torno subito a prenderlo.",
+      "phonetic_api": "/kwattrotˈtʃɛnto ˈɛuro ɛ konveˈnjɛnte va ˈbɛːne ˈvaːdo ad un ˈbaŋkomat kwi viˈtʃiːno a ppreleˈvaːre e tˈtɔrno ˈsuːbito a pˈprendarlo/",
+      "phonetic_simple": "KOUAT-RO-CHÈN-TO ÈOU-RO È KON-VÉ-NIÈN-TÉ. VA BÈ-NÉ, VA-DO AD OUN BAN-KO-MAT KOUI VI-TCHI-NO A PRÉ-LÉ-VA-RÉ É TOR-NO SOU-BI-TO A PRÈN-DÈR-LO.",
+      "translation": "Quatre cents euros c'est intéressant. D'accord, je vais à un distributeur tout près pour retirer et je reviens tout de suite la prendre."
+    }
+  ],
+  "cultural_notes": [
+    "En Italie, le marchandage ('contrattare') ne se pratique pas dans les supermarchés ni dans les boutiques de mode des grands centres urbains. En revanche, il est tout à fait courant et accepté de négocier poliment sur les marchés locaux (comme les marchés d'antiquités ou aux puces) ou avec les artisans indépendants.",
+    "La législation italienne concernant l'usage du liquide s'est durcie ces dernières années pour lutter contre l'évasion fiscale. Cependant, posséder un peu de 'contante' reste indispensable pour les petits achats quotidiens au comptoir d'un bar (comme un espresso à 1,20 €) ou sur les marchés de fruits et légumes, où le paiement par carte est parfois refusé pour de petites sommes."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment fusionne-t-on correctement les pronoms dans 'Je vous la (la montre) donne' dans un contexte de politesse formelle ?",
+      "options": [
+        "Le la do",
+        "Gliela do",
+        "Mela do"
+      ],
+      "correct_answer": "Gliela do",
+      "explanation": "Le pronom COI de politesse 'Le' combiné au pronom COD 'la' devient obligatoirement 'gliela' en un seul mot."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Questo mese ho speso troppo, devo assolutamente [ ___ ] dei soldi.",
+      "correct_answer": "risparmiare",
+      "hint": "Le verbe à l'infinitif signifiant économiser ou mettre de l'argent de côté."
+    }
+  ]
+}

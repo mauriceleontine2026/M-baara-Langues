@@ -1,0 +1,272 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Maîtriser l'alphabet swahili et identifier les lettres absentes par rapport au français",
+    "Prononcer correctement les digraphes spécifiques (ch, gh, dh, kh, ng', sh, ny, th)",
+    "Distinguer et articuler les consonnes pré-nasalisées complexes sans élision",
+    "Appliquer la règle absolue de la syllabation et de l'accentuation pénultième"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'alphabet swahili utilise l'alphabet latin mais ne possède pas les lettres 'q' et 'x'. La lettre 'c' n'apparaît jamais seule, elle est systématiquement combinée sous la forme du digraphe 'ch' [tʃ]. Contrairement au français, toutes les lettres d'un mot se prononcent. Les voyelles sont pures, stables et jamais nasalisées.",
+    "common_pitfalls": "Le plus grand défi réside dans l'articulation du digraphe 'ng'' [ŋ]. Le signe apostrophe indique que le 'g' n'est pas dur, mais que le son est entièrement nasal, produit dans le fond de la gorge (comme à la fin du mot anglais 'sing'). Ne confondez pas 'ng'' [ŋ] (ex: ng'ombe) avec 'ng' [ŋɡ] (ex: ndege)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Herufi",
+      "phonetic_api": "/hɛˈru.fi/",
+      "phonetic_simple": "HEH-ROO-FEE",
+      "translation": "Lettre (de l'alphabet)",
+      "example_sentence": "Hii ni herufi 'A'.",
+      "example_phonetic": "/ˈhi.i ni hɛˈru.fi a/",
+      "example_translation": "Ceci est la lettre 'A'."
+    },
+    {
+      "word_id": "v2",
+      "term": "Sauti",
+      "phonetic_api": "/saˈu.ti/",
+      "phonetic_simple": "SAH-OO-TEE",
+      "translation": "Son / Voix",
+      "example_sentence": "Tamka sauti hii vizuri.",
+      "example_phonetic": "/ˈta.mka saˈu.ti ˈhi.i viˈzu.ri/",
+      "example_translation": "Prononce bien ce son."
+    },
+    {
+      "word_id": "v3",
+      "term": "Ng'ombe",
+      "phonetic_api": "/ˈŋɔ.mbɛ/",
+      "phonetic_simple": "NG-OHM-BEH",
+      "translation": "Vache / Bœuf",
+      "example_sentence": "Ng'ombe anakula majani.",
+      "example_phonetic": "/ˈŋɔ.mbɛ a.naˈku.la maˈdʒa.ni/",
+      "example_translation": "La vache mange de l'herbe."
+    },
+    {
+      "word_id": "v4",
+      "term": "Ndege",
+      "phonetic_api": "/ˈndɛ.gɛ/",
+      "phonetic_simple": "NDEH-GEH",
+      "translation": "Oiseau / Avion",
+      "example_sentence": "Ndege anaruka angani.",
+      "example_phonetic": "/ˈndɛ.gɛ a.naˈru.ka aˈŋga.ni/",
+      "example_translation": "L'oiseau vole dans le ciel."
+    },
+    {
+      "word_id": "v5",
+      "term": "Chandarua",
+      "phonetic_api": "/tʃa.ndaˈru.a/",
+      "phonetic_simple": "CHAHN-DAH-ROO-AH",
+      "translation": "Moustiquaire",
+      "example_sentence": "Nenunua chandarua kipya.",
+      "example_phonetic": "/ni.mɛˈnu.nu.a tʃa.ndaˈru.a ˈki.pja/",
+      "example_translation": "J'ai acheté une nouvelle moustiquaire."
+    },
+    {
+      "word_id": "v6",
+      "term": "Ghari",
+      "phonetic_api": "/ˈɣa.ri/",
+      "phonetic_simple": "GHAH-REE",
+      "translation": "Erreur / Confusion (variante régionale)",
+      "example_sentence": "Kuna ghari katika maelezo.",
+      "example_phonetic": "/ˈku.na ˈɣa.ri kaˈti.ka ma.ɛˈlɛ.zɔ/",
+      "example_translation": "Il y a une confusion dans les explications."
+    },
+    {
+      "word_id": "v7",
+      "term": "Khatamu",
+      "phonetic_api": "/xaˈta.mu/",
+      "phonetic_simple": "KHAH-TAH-MOO",
+      "translation": "Bague / Sceau (mot d'origine arabe)",
+      "example_sentence": "Khatamu hii ni ya dhahabu.",
+      "example_phonetic": "/xaˈta.mu ˈhi.i ni ja ðaˈha.bu/",
+      "example_translation": "Cette bague est en or."
+    },
+    {
+      "word_id": "v8",
+      "term": "Thamani",
+      "phonetic_api": "/θa.maˈni/",
+      "phonetic_simple": "THAH-MAH-NEE",
+      "translation": "Valeur / Prix",
+      "example_sentence": "Kitu hiki kina thamani kubwa.",
+      "example_phonetic": "/ˈki.tu ˈhi.i ki.na θa.maˈni ˈku.bwa/",
+      "example_translation": "Cet objet a une grande valeur."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Unatamkaje neno hili?",
+      "phonetic_api": "/u.na.ta.mkaˈdʒɛ ˈnɛ.nɔ ˈhi.li/",
+      "phonetic_simple": "OO-NAH-TAHM-KAH-DJEH NEH-NOH HEE-LEE",
+      "translation": "Comment prononces-tu ce mot ?",
+      "context": "S'adresser à un professeur ou un locuteur natif pour corriger son élocution."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Hiyo ni herufi gani?",
+      "phonetic_api": "/ˈhi.jɔ ni hɛˈru.fi ˈga.ni/",
+      "phonetic_simple": "HEE-YOH NEE HEH-ROO-FEE GAH-NEE",
+      "translation": "Quelle est cette lettre ?",
+      "context": "Scénario d'apprentissage de la lecture ou d'épellation d'un nom propre."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Tafadhali tamka polepole.",
+      "phonetic_api": "/ta.faˈða.li ˈta.mka ˈpɔ.lɛ.pɔ.lɛ/",
+      "phonetic_simple": "TAH-FAH-ZAA-LEE TAHM-KAH POH-LEH-POH-LEH",
+      "translation": "S'il vous plaît, prononcez lentement.",
+      "context": "Demande d'aide face à un débit de parole trop rapide."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Sauti hii ni ngumu kwangu.",
+      "phonetic_api": "/saˈu.ti ˈhi.i ni ˈŋu.mu ˈkwa.ŋgu/",
+      "phonetic_simple": "SAH-OO-TEE HEE-LEE NEE NGOO-MOO KWAHN-GOO",
+      "translation": "Ce son est difficile pour moi.",
+      "context": "Exprimer sa frustration pédagogique face aux digraphes arabes ou nasaux."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Speli jina lako, tafadhali.",
+      "phonetic_api": "/ˈspɛ.li ˈdʒi.na ˈla.kɔ ta.faˈða.li/",
+      "phonetic_simple": "SPEH-LEE DJEE-NAH LAH-KOH TAH-FAH-ZAA-LEE",
+      "translation": "Épèle ton nom, s'il vous plaît.",
+      "context": "Formule administrative ou de voyage indispensable aux comptoirs d'accueil."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Neno hili lina herufi ngapi?",
+      "phonetic_api": "/ˈnɛ.nɔ ˈhi.li li.na hɛˈru.fi ˈŋga.pi/",
+      "phonetic_simple": "NEH-NOH HEE-LEE LEE-NAH HEH-ROO-FEE NGAH-PEE",
+      "translation": "Combien de lettres contient ce mot ?",
+      "context": "Exercice de dictée ou d'analyse lexicale."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Sauti ya herufi 'R' inatetemeka.",
+      "phonetic_api": "/saˈu.ti ja hɛˈru.fi r i.na.tɛ.tɛˈmɛ.ka/",
+      "phonetic_simple": "SAH-OO-TEE YAH HEH-ROO-FEE R EE-NAH-TEH-TEH-MEH-KAH",
+      "translation": "Le son de la lettre 'R' est roulé.",
+      "context": "Indication technique sur la prononciation correcte du R swahili."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Nimeelewa sauti zote sasa.",
+      "phonetic_api": "/ni.mɛ.ɛ.lɛˈwa saˈu.ti ˈzɔ.tɛ ˈsa.sa/",
+      "phonetic_simple": "NEE-MEH-EH-LEH-WAH SAH-OO-TEE ZOH-TEH SAH-SAH",
+      "translation": "J'ai compris tous les sons maintenant.",
+      "context": "Validation de la leçon par l'étudiant."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure syllabique ouverte (Syllabe CV)",
+      "explanation": "En swahili standard, la quasi-totalité des syllabes se termine obligatoirement par une voyelle. On appelle cela une structure de syllabe ouverte (Consonne + Voyelle). Il n'existe pas de consonnes muettes ou d'occlusives finales en fin de mot.",
+      "rules": [
+        "Un mot comme 'Kitabu' se découpe rigoureusement en : Ki-ta-bu.",
+        "Même les mots d'emprunt étrangers sont modifiés pour respecter cette règle en y ajoutant une voyelle finale (ex: 'shule' de l'allemand 'Schule', ou 'reproti' de l'anglais 'report')."
+      ],
+      "examples": [
+        {
+          "structure": "Ki-ta-bu (Livre)",
+          "phonetic_api": "/kiˈta.bu/",
+          "meaning": "Livre"
+        },
+        {
+          "structure": "Ka-la-mu (Stylo)",
+          "phonetic_api": "/kaˈla.mu/",
+          "meaning": "Crayon / Stylo"
+        }
+      ]
+    },
+    {
+      "concept": "Le mécanisme de l'accentuation pénultième",
+      "explanation": "Le swahili n'a pas d'accent de hauteur variable ou imprévisible. La règle d'accentuation est unique et mécanique : l'intensité de la voix frappe l'avant-dernière syllabe de chaque mot.",
+      "rules": [
+        "L'accentuation ne change jamais le sens d'un radical, contrairement à d'autres langues bantoues tonales.",
+        "Lorsqu'un mot s'allonge par l'ajout de suffixes (comme le locatif '-ni' ou le pluriel verbal '-ni'), l'accent tonique se déplace automatiquement pour rester sur la nouvelle pénultième."
+      ],
+      "examples": [
+        {
+          "structure": "Ra-FI-ki (Ami)",
+          "phonetic_api": "/raˈfi.ki/",
+          "meaning": "Ami (Accent sur FI)"
+        },
+        {
+          "structure": "Ra-fi-KI-ni (Dans l'amitié / Chez les amis)",
+          "phonetic_api": "/ra.fiˈki.ni/",
+          "meaning": "Parmi les amis (L'accent glisse sur KI)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mwalimu (Professeur)",
+      "text": "Karibu darasani. Leo tunajifunza herufi za Kiswahili. Tamka: Ng'ombe.",
+      "phonetic_api": "/kaˈri.bu da.raˈsa.ni ˈlɛ.ɔ tu.na.dʒiˈfu.nza hɛˈru.fi za ki.swaˈhi.li ˈta.mka ˈŋɔ.mbɛ/",
+      "phonetic_simple": "KAH-REE-BOO DAH-RAH-SAH-NEE LEH-OH TOO-NAH-DJEE-FOON-ZAH HEH-ROO-FEE ZAH KEE-SWAH-LEE TAHM-KAH NG-OHM-BEH",
+      "translation": "Bienvenue en classe. Aujourd'hui nous apprenons les lettres du swahili. Prononce : Ng'ombe."
+    },
+    {
+      "speaker": "Mwanafunzi (Élève)",
+      "text": "N-g'ombe... Mwalimu, sauti hii ya 'ng'' ni ngumu sana!",
+      "phonetic_api": "/n ˈgɔ.mbɛ mwaˈli.mu saˈu.ti ˈhi.i ja ˈŋo ni ˈŋu.mu ˈsa.na/",
+      "phonetic_simple": "N-GOHM-BEH MWAH-LEE-MOO SAH-OO-TEE HEE-YAH YAH NG-EHE NEE NGOO-MOO SAH-NAH",
+      "translation": "N-g'ombe... Professeur, ce son 'ng'' est très difficile !"
+    },
+    {
+      "speaker": "Mwalimu (Professeur)",
+      "text": "Hapana, usiseme 'N-g'. Leta sauti kutoka kooni kabisa: Ng'ombe. Jaribu tena.",
+      "phonetic_api": "/haˈpa.na u.siˈsɛ.mɛ n g ɛ ˈlɛ.ta saˈu.ti kuˈtɔ.ka kɔˈɔ.ni kaˈbi.sa ˈŋɔ.mbɛ dʒaˈri.bu ˈtɛ.na/",
+      "phonetic_simple": "HAH-PAH-NAH OO-SEE-SEH-MEH N-GEH LEH-TAH SAH-OO-TEE KOO-TOH-KAH KOH-OH-NEE KAH-BEE-SAH NG-OHM-BEH DJAH-REE-BOO TEH-NAH",
+      "translation": "Non, ne dis pas 'N-g'. Amène le son depuis le fond de la gorge : Ng'ombe. Réessaie."
+    },
+    {
+      "speaker": "Mwanafunzi (Élève)",
+      "text": "Ng'ombe! Je, nimepatia sasa?",
+      "phonetic_api": "/ˈŋɔ.mbɛ dʒɛ ni.mɛ.paˈti.a ˈsa.sa/",
+      "phonetic_simple": "NG-OHM-BEH JEH NEE-MEH-PAH-TEE-AH SAH-SAH",
+      "translation": "Ng'ombe ! Est-ce que j'ai réussi maintenant ?"
+    },
+    {
+      "speaker": "Mwalimu (Professeur)",
+      "text": "Safi sana! Heko! Sasa unajua tamko la herufi ngumu.",
+      "phonetic_api": "/ˈsa.fi ˈsa.na ˈhɛ.kɔ ˈsa.sa u.naˈdʒu.a ˈta.mkɔ la hɛˈru.fi ˈŋu.mu/",
+      "phonetic_simple": "SAH-FEE SAH-NAH HEH-KOH SAH-SAH OO-NAH-DJOO-AH TAHM-KOH LAH HEH-ROO-FEE NGOO-MOO",
+      "translation": "Excellent ! Bravo ! Maintenant tu connais la prononciation des lettres difficiles."
+    }
+  ],
+  "cultural_notes": [
+    "Les digraphes 'dh', 'gh', 'kh' et 'th' proviennent directement des emprunts lexicaux massifs à la langue arabe, conséquence des siècles de commerce transindien sur la côte Swahilie (Zanzibar, Mombasa).",
+    "La pureté de la prononciation de ces sons d'origine arabe varie selon les régions : elle est extrêmement soignée et respectée sur la côte littorale (Pwani) mais tend à se simplifier à l'intérieur des terres (Tanzanie continentale, Congo).",
+    "L'absence totale de sons nasaux français (comme le 'an', 'in', 'on') fait que les locuteurs swahilis entendent et prononcent chaque voyelle avec une clarté absolue, un point sur lequel les étudiants francophones doivent s'efforcer de travailler."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Où se place systématiquement l'accent tonique d'intensité dans un mot swahili standard ?",
+      "options": [
+        "Sur la toute première syllabe",
+        "Sur la dernière syllabe du mot",
+        "Sur l'avant-dernière syllabe (pénultième)",
+        "Il dépend du ton ou du contexte de la phrase"
+      ],
+      "correct_answer": "Sur l'avant-dernière syllabe (pénultième)",
+      "explanation": "C'est une règle phonétique absolue et immuable en Kiswahili Sanifu : l'accent frappe la pénultième syllabe."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le mot signifiant 'vache' s'écrit rigoureusement avec le digraphe nasalisé suivant : [ ___ ]ombe.",
+      "correct_answer": "ng'",
+      "hint": "Attention à ne pas oublier l'apostrophe qui caractérise ce son guttural unique."
+    }
+  ]
+}

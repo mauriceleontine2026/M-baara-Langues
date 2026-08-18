@@ -1,0 +1,311 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Maîtriser les salutations formelles et informelles selon la hiérarchie sociale",
+    "Adapter son langage en fonction des différents moments de la journée",
+    "Exprimer la gratitude, le regret, l'excuse et les réponses de politesse usuelles",
+    "Prendre congé de manière appropriée selon le degré de familiarité"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La réduction vocalique est la clé de voûte de l'accent russe. La lettre 'О' non accentuée se prononce [ɐ] lorsqu'elle précède immédiatement l'accent tonique, et [ə] ailleurs. La lettre 'Е' non accentuée subit l'Ikanié et se prononce [ɪ]. Le signe mou 'Ь' palatise la consonne précédente, la rendant 'douce'. L'accent tonique est mobile et crucial pour la compréhension.",
+    "common_pitfalls": "Ne prononcez jamais le premier 'В' dans 'Здравствуйте' (/ˈzdrastvʊjtʲɪ/). Évitez de prononcer le 'Т' final de 'Пожалуйста' (/pɐˈʐalʊstə/), il est totalement muet. Ne roulez pas le 'Р' avec la gorge (français), mais faites-le vibrer contre les alvéoles avec le bout de la langue."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Здравствуйте",
+      "phonetic_api": "/ˈzdrastvʊjtʲɪ/",
+      "phonetic_simple": "ZDRAST-vouï-ti",
+      "translation": "Bonjour (Formel / Pluriel)",
+      "example_sentence": "Здравствуйте, профессор Иванов.",
+      "example_phonetic": "/ˈzdrastvʊjtʲɪ prɐˈfʲesər ɪvɐˈnof/",
+      "example_translation": "Bonjour, professeur Ivanov."
+    },
+    {
+      "word_id": "v2",
+      "term": "Привет",
+      "phonetic_api": "/prʲɪˈvʲet/",
+      "phonetic_simple": "pri-VIET",
+      "translation": "Salut (Informel)",
+      "example_sentence": "Привет, Дима! Как дела?",
+      "example_phonetic": "/prʲɪˈvʲet ˈdʲimə kak dʲɪˈla/",
+      "example_translation": "Salut, Dima ! Comment ça va ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "Спасибо",
+      "phonetic_api": "/spaˈsʲibə/",
+      "phonetic_simple": "spa-SSI-ba",
+      "translation": "Merci",
+      "example_sentence": "Большое спасибо за помощь.",
+      "example_phonetic": "/bɐlʲˈʂojə spaˈsʲibə zɐ ˈpoməɕː/",
+      "example_translation": "Merci beaucoup pour l'aide."
+    },
+    {
+      "word_id": "v4",
+      "term": "Пожалуйста",
+      "phonetic_api": "/pɐˈʐalʊstə/",
+      "phonetic_simple": "pa-JAL-ous-ta",
+      "translation": "De rien / S'il vous plaît",
+      "example_sentence": "Повторите, пожалуйста.",
+      "example_phonetic": "/pəftɐˈrʲitʲɪ pɐˈʐalʊstə/",
+      "example_translation": "Répétez, s'il vous plaît."
+    },
+    {
+      "word_id": "v5",
+      "term": "Извините",
+      "phonetic_api": "/ɪzvʲɪˈnʲitʲɪ/",
+      "phonetic_simple": "iz-vi-NI-ti",
+      "translation": "Excusez-moi / Pardon (Formel)",
+      "example_sentence": "Извините, где метро?",
+      "example_phonetic": "/ɪzvʲɪˈnʲitʲɪ ɡdʲe mʲɪˈtro/",
+      "example_translation": "Excusez-moi, où est le métro ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "Прости",
+      "phonetic_api": "/prɐˈsʲtʲi/",
+      "phonetic_simple": "pras-TI",
+      "translation": "Pardon / Désolé (Informel)",
+      "example_sentence": "Прости, я опоздал.",
+      "example_phonetic": "/prɐˈsʲtʲi ja ɐpɐˈzdal/",
+      "example_translation": "Pardon, je suis en retard."
+    },
+    {
+      "word_id": "v7",
+      "term": "Благодарю",
+      "phonetic_api": "/bləɡədɐˈrʲu/",
+      "phonetic_simple": "bla-ga-da-RIOU",
+      "translation": "Je vous remercie (Soutenu)",
+      "example_sentence": "Благодарю вас за внимание.",
+      "example_phonetic": "/bləɡədɐˈrʲu vas zɐ vnʲɪˈmanʲɪjə/",
+      "example_translation": "Je vous remercie pour votre attention."
+    },
+    {
+      "word_id": "v8",
+      "term": "Не за что",
+      "phonetic_api": "/ˈnʲetɕɪvə/ [ˈnʲe zə xtə]",
+      "phonetic_simple": "NIE-za-chta",
+      "translation": "Il n'y a pas de quoi",
+      "example_sentence": "— Спасибо! — Не за что.",
+      "example_phonetic": "/spaˈsʲibə ˈnʲe zə xtə/",
+      "example_translation": "— Merci ! — Il n'y a pas de quoi."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Доброе утро",
+      "phonetic_api": "/ˈdobrəjə ˈutrə/",
+      "phonetic_simple": "DO-brayé OU-tra",
+      "translation": "Bon matin / Bonjour",
+      "context": "Utilisé du lever du soleil jusqu'à environ 11h-12h."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Добрый день",
+      "phonetic_api": "/ˈdobrɨj dʲenʲ/",
+      "phonetic_simple": "DO-bry DIEN",
+      "translation": "Bonjour",
+      "context": "Formule standard passe-partout de midi jusqu'à la fin de l'après-midi."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Добрый вечер",
+      "phonetic_api": "/ˈdobrɨj ˈvʲetɕɪr/",
+      "phonetic_simple": "DO-bry VIÉ-tchir",
+      "translation": "Bonsoir",
+      "context": "Utilisé dès que la nuit commence à tomber jusqu'au coucher."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Как дела?",
+      "phonetic_api": "/kak dʲɪˈla/",
+      "phonetic_simple": "kak di-LA",
+      "translation": "Comment ça va ?",
+      "context": "Formule courante, plutôt informelle ou amicale."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Как ваши дела?",
+      "phonetic_api": "/kak ˈvaʂɨ dʲɪˈla/",
+      "phonetic_simple": "kak VA-chy di-LA",
+      "translation": "Comment allez-vous ?",
+      "context": "Cadre formel, professionnel ou s'adressant à plusieurs personnes."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "До свидания",
+      "phonetic_api": "/də svʲɪˈdanʲjə/",
+      "phonetic_simple": "da svi-DA-ni-ya",
+      "translation": "Au revoir",
+      "context": "Formule standard de prise de congé, polie et universelle."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Пока",
+      "phonetic_api": "/pɐˈka/",
+      "phonetic_simple": "pa-KA",
+      "translation": "Salut / Ciao",
+      "context": "Prise de congé strictement informelle entre amis ou proches."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "До встречи",
+      "phonetic_api": "/də ˈfstrʲetɕɪ/",
+      "phonetic_simple": "da FSTRE-tchi",
+      "translation": "À la prochaine / À bientôt",
+      "context": "Neutre, sous-entend que l'on va revoir la personne prochainement."
+    },
+    {
+      "phrase_id": "p9",
+      "original": "Добро пожаловать",
+      "phonetic_api": "/dɐˈbro pɐˈʐaləvətʲ/",
+      "phonetic_simple": "da-BRO pa-JA-la-vat'",
+      "translation": "Bienvenue",
+      "context": "Pour accueillir quelqu'un chez soi, dans un pays ou un établissement."
+    },
+    {
+      "phrase_id": "p10",
+      "original": "Рад вас видеть",
+      "phonetic_api": "/rat vas ˈvʲidʲɪtʲ/",
+      "phonetic_simple": "rat vas VI-dit'",
+      "translation": "Ravi de vous voir (dit par un homme)",
+      "context": "Formule chaleureuse au cours d'une rencontre formelle ou neutre."
+    },
+    {
+      "phrase_id": "p11",
+      "original": "Рада вас видеть",
+      "phonetic_api": "/ˈradə vas ˈvʲidʲɪtʲ/",
+      "phonetic_simple": "RA-da vas VI-dit'",
+      "translation": "Ravie de vous voir (dit par une femme)",
+      "context": "Identique au précédent, accordé au féminin."
+    },
+    {
+      "phrase_id": "p12",
+      "original": "Всего доброго",
+      "phonetic_api": "/fsʲɪˈvo ˈdobrəvə/",
+      "phonetic_simple": "fssi-VO DO-bra-va",
+      "translation": "Tout de bon / Prenez soin de vous",
+      "context": "Formule de politesse élégante pour clore une conversation."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système de politesse : Вы vs Ты",
+      "explanation": "À l'instar du français, le russe segmente ses interactions selon le degré d'intimité et le statut social via les pronoms personnels.",
+      "rules": [
+        "Вы (Vouvoiement) s'écrit souvent avec une majuscule 'Вы' dans la correspondance officielle pour marquer le respect. Il impose l'usage de salutations spécifiques comme 'Здравствуйте' et des terminaisons verbales en -те.",
+        "Ты (Tutoiement) est réservé aux amis, à la famille, aux enfants ou aux collègues de même rang de longue date. Il correspond à la salutation 'Привет' ou 'Здравствуй'."
+      ],
+      "examples": [
+        {
+          "structure": "Как вы живёте?",
+          "phonetic_api": "/kak vɨ ʐɨˈvʲotʲɪ/",
+          "meaning": "Comment vivez-vous / Comment allez-vous ? (Formel)"
+        },
+        {
+          "structure": "Как ты живёшь?",
+          "phonetic_api": "/kak tɨ ʐɨˈvʲoʂ/",
+          "meaning": "Comment tu vas ? / Comment vis-tu ? (Informel)"
+        }
+      ]
+    },
+    {
+      "concept": "L'accord de l'adjectif dans les salutations temporelles",
+      "explanation": "Les expressions comme 'Добрый день' ou 'Доброе утро' utilisent des adjectifs fléchis qui s'accordent en genre avec le nom qu'ils qualifient.",
+      "rules": [
+        "Утро (Matin) est un nom neutre (terminaison en -о). L'adjectif prend la terminaison neutre -ое : Доброе утро.",
+        "День (Jour) et Вечер (Soir) sont des noms masculins. L'adjectif prend la terminaison masculine -ый : Добрый день, Добрый вечер."
+      ],
+      "examples": [
+        {
+          "structure": "Добрый вечер",
+          "phonetic_api": "/ˈdobrɨj ˈvʲetɕɪr/",
+          "meaning": "Bonsoir (Adjectif masculin + Nom masculin)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Елена Сергеевна",
+      "text": "Добрый день, Николай! Как ваши дела?",
+      "phonetic_api": "/ˈdobrɨj dʲenʲ nʲɪkɐˈlaj kak ˈvaʂɨ dʲɪˈla/",
+      "phonetic_simple": "DO-bry DIEN, ni-ka-LAÏ ! kak VA-chy di-LA ?",
+      "translation": "Bonjour, Nikolai ! Comment allez-vous ?"
+    },
+    {
+      "speaker": "Николай",
+      "text": "Здравствуйте, Елена Сергеевна! Всё отлично, спасибо. А у вас?",
+      "phonetic_api": "/ˈzdrastvʊjtʲɪ jɪˈlʲenə sʲɪrˈɡʲejɪvnə fsʲo ɐˈtlʲitɕnə spaˈsʲibə a ʊ vas/",
+      "phonetic_simple": "ZDRAST-vouï-ti, ye-LE-na ser-GUE-yev-na ! fssio at-LI-tchna, spa-SSI-ba. A ou vas ?",
+      "translation": "Bonjour, Elena Sergeevna ! Tout est parfait, merci. Et vous ?"
+    },
+    {
+      "speaker": "Елена Сергеевна",
+      "text": "Тоже хорошо, спасибо. Извините, я спешу. До свидания!",
+      "phonetic_api": "/ˈtoʐɨ xərɐˈʂo spaˈsʲibə ɪzvʲɪˈnʲitʲɪ ja spʲɪˈʂu də svʲɪˈdanʲjə/",
+      "phonetic_simple": "TO-ji ha-ra-CHO, spa-SSI-ba. iz-vi-NI-ti, ya spi-CHOU. da svi-DA-ni-ya !",
+      "translation": "Bien aussi, merci. Excusez-moi, je suis pressée. Au revoir !"
+    },
+    {
+      "speaker": "Николай",
+      "text": "Всего доброго! До встречи.",
+      "phonetic_api": "/fsʲɪˈvo ˈdobrəvə də ˈfstrʲetɕɪ/",
+      "phonetic_simple": "fssi-VO DO-bra-va ! da FSTRE-tchi.",
+      "translation": "Prenez soin de vous ! À bientôt."
+    }
+  ],
+  "cultural_notes": [
+    "L'usage du prénom patronymique (Имя-Отчество) : En contexte formel (comme avec Elena Sergeevna dans le dialogue), on appelle toujours une personne par son prénom suivi du prénom de son père modifié par un suffixe (-овна/-евна pour les femmes, -ович/-евич pour les hommes). Utiliser uniquement le prénom est considéré comme trop familier.",
+    "La culture du sourire en Russie : Le sourire commercial ou de pure courtoisie automatique n'est pas ancré dans les mœurs traditionnelles. Un Russe sourit lorsqu'il éprouve une sympathie réelle ou une joie sincère. Ne pas recevoir de sourire en entrant dans un magasin n'est aucunement un signe d'impolitesse ou d'hostilité."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L1_ex1",
+      "type": "multiple_choice",
+      "question": "Vous rencontrez votre directeur à 19h00 dans le hall de l'entreprise. Quelle est l'expression la plus adaptée ?",
+      "options": [
+        "Привет",
+        "Доброе утро",
+        "Добрый вечер",
+        "Пока"
+      ],
+      "correct_answer": "Добрый вечер",
+      "explanation": "'Добрый вечер' est la formule formelle et polie requise pour saluer un supérieur en fin de journée."
+    },
+    {
+      "exercise_id": "A1_M1_L1_ex2",
+      "type": "multiple_choice",
+      "question": "Dans quel mot la lettre 'О' subit-elle une réduction complète et se prononce-t-elle comme un [a] affaibli ?",
+      "options": [
+        "Доброе",
+        "Спасибо",
+        "Утро",
+        "Этот"
+      ],
+      "correct_answer": "Спасибо",
+      "explanation": "Dans 'Спасибо', l'accent tonique est sur le 'и'. Le 'о' final n'est pas accentué et subit donc la réduction vocalique en [ə]/[ɐ]."
+    },
+    {
+      "exercise_id": "A1_M1_L1_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Скажите, [ ___ ], где находится вокзал? (Dites-moi, s'il vous plaît, où se trouve la gare ?)",
+      "correct_answer": "пожалуйста",
+      "hint": "Formule incontournable pour exprimer 's'il vous plaît' ou 'je vous en prie'."
+    },
+    {
+      "exercise_id": "A1_M1_L1_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "— Большое спасибо за подарок! — Не за [ ___ ].",
+      "correct_answer": "что",
+      "hint": "Complétez l'expression idiomatique signifiant 'Il n'y a pas de quoi'."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
+  "learning_objectives": [
+    "Nommer les denrées alimentaires de base et l'eau potable",
+    "Exprimer la faim, la soif ou un besoin de consommation immédiat",
+    "Demander le prix d'un produit alimentaire au marché ou lors d'un achat"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le groupe consonantique final ou médian 'nd' doit faire résonner la nasale avant l'occlusive dentale d'un seul bloc continu.",
+    "common_pitfalls": "Ne séparez pas le mot 'mampa' en deux expirations distinctes lors de la diction."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v8_1",
+      "term": "mantsɛŋ",
+      "phonetic_api": "/man.t͡sɛŋ/",
+      "phonetic_simple": "MAN-TSÈNG",
+      "translation": "eau",
+      "example_sentence": "mbi dɛp mantsɛŋ",
+      "example_phonetic": "/mbi dɛp man.t͡sɛŋ/",
+      "example_translation": "Je prends de l'eau."
+    },
+    {
+      "word_id": "v8_2",
+      "term": "mampa",
+      "phonetic_api": "/mam.pa/",
+      "phonetic_simple": "MAM-PA",
+      "translation": "pain / nourriture",
+      "example_sentence": "mampa mɔ lɔndɔ",
+      "example_phonetic": "/mam.pa mɔ lɔn.dɔ/",
+      "example_translation": "Le pain est ici."
+    },
+    {
+      "word_id": "v8_3",
+      "term": "mankɔndɔ",
+      "phonetic_api": "/man.kɔn.dɔ/",
+      "phonetic_simple": "MAN-KON-DO",
+      "translation": "banane plantain",
+      "example_sentence": "mbi kɔn dɛp mankɔndɔ",
+      "example_phonetic": "/mbi kɔn dɛp man.kɔn.dɔ/",
+      "example_translation": "Je vais prendre de la banane plantain."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p8_1",
+      "original": "mbi pa mantsɛŋ",
+      "phonetic_api": "/mbi pa man.t͡sɛŋ/",
+      "phonetic_simple": "MBI PA MAN-TSÈNG",
+      "translation": "Je veux de l'eau (j'ai soif)",
+      "context": "Demande directe de boisson à l'hôte ou au vendeur."
+    },
+    {
+      "phrase_id": "p8_2",
+      "original": "wɔndɛ mampa mɔ ?",
+      "phonetic_api": "/wɔn.dɛ mam.pa mɔ/",
+      "phonetic_simple": "WON-DÈ MAM-PA MO",
+      "translation": "Combien coûte ce pain ?",
+      "context": "Achat direct d'un aliment au marché."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le verbe de désir et besoin 'pa'",
+      "explanation": "Le verbe 'pa' exprime à la fois le fait de chercher, de vouloir ou de désirer ardemment un élément. Il s'applique directement sans préposition devant l'objet du besoin.",
+      "rules": [
+        "Sujet + pa + Objet direct.",
+        "Pour accentuer le besoin vital, l'intonation descendante sur 'pa' est requise."
+      ],
+      "examples": [
+        {
+          "structure": "mbi pa + Objet",
+          "phonetic_api": "/mbi pa mam.pa/",
+          "meaning": "Je veux à manger (du pain)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'étranger",
+      "text": "mama kɔn, mbi pa mantsɛŋ.",
+      "phonetic_api": "/ma.ma kɔn mbi pa man.t͡sɛŋ/",
+      "phonetic_simple": "MA-MA KON MBI PA MAN-TSÈNG",
+      "translation": "Ma mère, je voudrais de l'eau (j'ai soif)."
+    },
+    {
+      "speaker": "La marchande",
+      "text": "yoo, dɛp mantsɛŋ lɔndɔ. mbi pa mampa ?",
+      "phonetic_api": "/joː dɛp man.t͡sɛŋ lɔn.dɔ mbi pa mam.pa/",
+      "phonetic_simple": "YOO DÈP MAN-TSÈNG LON-DO. MBI PA MAM-PA ?",
+      "translation": "D'accord, prends de l'eau ici. Veux-tu aussi du pain ?"
+    }
+  ],
+  "cultural_notes": [
+    "Offrir de l'eau claire ('mantsɛŋ') à toute personne arrivant dans une concession est le premier geste obligatoire de l'hospitalité traditionnelle en basse Guinée."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex8_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'mantsɛŋ' ?",
+      "options": [
+        "Le riz",
+        "L'eau",
+        "La viande"
+      ],
+      "correct_answer": "L'eau",
+      "explanation": "'mantsɛŋ' désigne l'eau potable ou l'élément liquide de base."
+    },
+    {
+      "exercise_id": "ex8_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "mbi [ ___ ] mampa (Je veux du pain)",
+      "correct_answer": "pa",
+      "hint": "Le verbe vouloir ou exprimer un besoin immédiat."
+    }
+  ]
+}

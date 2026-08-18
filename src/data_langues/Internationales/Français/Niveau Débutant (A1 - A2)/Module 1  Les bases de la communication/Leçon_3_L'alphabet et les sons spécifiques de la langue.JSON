@@ -1,0 +1,233 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Épeler correctement n'importe quel mot ou nom propre en français",
+    "Distinguer et prononcer les voyelles nasales caractéristiques du français",
+    "Maîtriser l'impact phonétique des principaux accents graphiques",
+    "Comprendre le mécanisme des consonnes muettes et des liaisons de base"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "1. Le son /y/ (la lettre U) s'oppose radicalement au son /u/ (le groupe de lettres OU). Pour le /y/, la langue est en avant et les lèvres sont très arrondies. 2. Les voyelles nasales : /ɛ̃/ (le son de 'vin', 'pain'), /ɑ̃/ (le son de 'banc', 'vent'), et /ɔ̃/ (le son de 'bon', 'rond'). L'air doit être expiré simultanément par la bouche et le nez. 3. Le 'E muet' ou caduc /ə/ : un son central, détendu, souvent élidé en fin de mot ou dans la parole fluide.",
+    "common_pitfalls": "1. Confondre les lettres G /ʒe/ et J /ʒi/ lors du repérage ou de l'épellation. C'est l'inverse de l'anglais. 2. Prononcer le son /h/ : en français moderne, le 'H' est absolument muet. Il n'y a jamais d'expiration ou de souffle expiratoire. 3. Omettre la différence entre É /e/ (fermé, comme dans 'café') et È /ɛ/ (ouvert, comme dans 'père')."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_l3",
+      "term": "L'alphabet",
+      "phonetic_api": "/lalfabɛ/",
+      "phonetic_simple": "LAL-FA-BE",
+      "translation": "The alphabet",
+      "example_sentence": "L'alphabet français compte vingt-six lettres.",
+      "example_phonetic": "/lalfabɛ fʁɑ̃sɛ kɔ̃t vɛ̃tsi lɛtʁ/",
+      "example_translation": "The French alphabet has twenty-six letters."
+    },
+    {
+      "word_id": "v2_l3",
+      "term": "Épeler",
+      "phonetic_api": "/eple/",
+      "phonetic_simple": "E-PLE",
+      "translation": "To spell",
+      "example_sentence": "Pouvez-vous épeler votre nom de famille ?",
+      "example_phonetic": "/puve vu eple vɔtʁ nɔ̃ də famij/",
+      "example_translation": "Can you spell your last name?"
+    },
+    {
+      "word_id": "v3_l3",
+      "term": "Un accent",
+      "phonetic_api": "/œ̃n_aksɑ̃/",
+      "phonetic_simple": "UN-NAK-SAN",
+      "translation": "An accent",
+      "example_sentence": "L'accent aigu change la prononciation de la lettre E.",
+      "example_phonetic": "/laksɑ̃t_ɛɡy ʃɑ̃ʒ la pʁɔnɔ̃sjasjɔ̃ də la lɛtʁ ə/",
+      "example_translation": "The acute accent changes the pronunciation of the letter E."
+    },
+    {
+      "word_id": "v4_l3",
+      "term": "Une voyelle",
+      "phonetic_api": "/yn vwajɛl/",
+      "phonetic_simple": "UN VOUA-YEL",
+      "translation": "A vowel",
+      "example_sentence": "Le français possède six voyelles graphiques : A, E, I, O, U, Y.",
+      "example_phonetic": "/lə fʁɑ̃sɛ pɔsɛd si vwajɛl ɡʁafik a e i o y iɡʁɛk/",
+      "example_translation": "French has six graphic vowels: A, E, I, O, U, Y."
+    },
+    {
+      "word_id": "v5_l3",
+      "term": "Une consonne",
+      "phonetic_api": "/yn kɔ̃sɔn/",
+      "phonetic_simple": "UN KON-SON",
+      "translation": "A consonant",
+      "example_sentence": "La lettre S est une consonne souvent muette à la fin des mots.",
+      "example_phonetic": "/la lɛtʁ ɛs ɛ tyn kɔ̃sɔn suvɑ̃ mɥɛt a la fɛ̃ de mo/",
+      "example_translation": "The letter S is a consonant that is often silent at the end of words."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_l3",
+      "original": "Ça s'écrit comment ?",
+      "phonetic_api": "/sa sekʁi kɔmɑ̃/",
+      "phonetic_simple": "SA SE-KREE KOM-AN",
+      "translation": "How is that written? / How do you spell it?",
+      "context": "Question indispensable pour demander l'orthographe d'un mot inconnu."
+    },
+    {
+      "phrase_id": "p2_l3",
+      "original": "Avec un accent ou sans accent ?",
+      "phonetic_api": "/avɛk œ̃n_aksɑ̃ u sɑ̃z_aksɑ̃/",
+      "phonetic_simple": "A-VEK UN-NAK-SAN OU SAN-ZAK-SAN",
+      "translation": "With an accent or without an accent?",
+      "context": "Précision demandée fréquemment lors de la saisie d'un nom."
+    },
+    {
+      "phrase_id": "p3_l3",
+      "original": "C'est un H aspiré ou un H muet ?",
+      "phonetic_api": "/sɛt_œ̃n_aʃ aspiʁe u œ̃n_aʃ mɥɛ/",
+      "phonetic_simple": "SET-UN ASH AS-PEE-RE OU UN ASH MUI-E",
+      "translation": "Is it an aspirated H or a silent H?",
+      "context": "Question technique mais courante pour savoir si l'on doit faire la liaison."
+    },
+    {
+      "phrase_id": "p4_l3",
+      "original": "Le nom s'écrit en majuscules.",
+      "phonetic_api": "/lə nɔ̃ sekʁi ɑ̃ majyskyl/",
+      "phonetic_simple": "LEU NON SE-KREE AN MA-JUS-KUL",
+      "translation": "The name is written in capital letters.",
+      "context": "Indication pour remplir un formulaire administratif."
+    },
+    {
+      "phrase_id": "p5_l3",
+      "original": "Pouvez-vous répéter plus lentement ?",
+      "phonetic_api": "/puve vu ʁepete ply lɑ̃tmɑ̃/",
+      "phonetic_simple": "POU-VE VOU RE-PE-TE PLU LAN-TE-MAN",
+      "translation": "Could you repeat more slowly?",
+      "context": "Demande d'aide face à un débit de parole trop rapide."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les Accents Graphiques et leur impact sonore",
+      "explanation": "Les accents en français ne servent pas à marquer l'intensité de la voix (accent tonique), mais modifient le son des voyelles ou distinguent des homonymes.",
+      "rules": [
+        "L'accent aigu (É) : Uniquement sur le E. Il produit un son fermé /e/. Exemple : café, été.",
+        "L'accent grave (È, À, Ù) : Sur le E, il donne un son ouvert /ɛ/ (père). Sur le A et le Ù, il ne change pas le son mais distingue le sens (a = verbe avoir / à = préposition ; ou = choix / où = lieu).",
+        "L'accent circonflexe (Â, Ê, Î, Ô, Û) : Historiquement, il indique souvent la disparition d'une ancienne lettre (généralement un S, comme dans 'hospital' devenu 'hôpital'). Il tend à allonger la voyelle.",
+        "Le tréma (Ï, Ë) : Indique que la voyelle accentuée doit être prononcée séparément de la voyelle précédente. Exemple : naïve (/naiv/ et non /nɛv/)."
+      ],
+      "examples": [
+        {
+          "structure": "Un éléphant (deux accents aigus successifs)",
+          "phonetic_api": "/œ̃n_elefɑ̃/",
+          "meaning": "An elephant"
+        },
+        {
+          "structure": "Mais / Maïs (Impact du tréma)",
+          "phonetic_api": "/mɛ/ / /mais/",
+          "meaning": "But / Corn"
+        }
+      ]
+    },
+    {
+      "concept": "Le phénomène de la Liaison",
+      "explanation": "La liaison consiste à prononcer la consonne finale d'un mot (habituellement muette) lorsqu'elle est suivie par un mot commençant par une voyelle ou un 'H muet'.",
+      "rules": [
+        "Le 'S' ou 'X' de liaison se prononce toujours /z/. Exemple : les amis (/le zami/).",
+        "Le 'T' ou 'D' de liaison se prononce /t/. Exemple : un grand homme (/œ̃ ɡʁɑ̃ tɔm/).",
+        "Le 'N' de liaison conserve son son nasal mais ajoute une consonne /n/. Exemple : un an (/œ̃ nɑ̃/)."
+      ],
+      "examples": [
+        {
+          "structure": "Vous avez (Liaison obligatoire du S en /z/)",
+          "phonetic_api": "/vuz_ave/",
+          "meaning": "You have"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'agent d'accueil",
+      "text": "Bonjour, votre nom s'il vous plaît ?",
+      "phonetic_api": "/bɔ̃ʒuʁ vɔtʁ nɔ̃ sil vu plɛ/",
+      "phonetic_simple": "BON-JOUR. VOTR NON SEEL VOU PLE ?",
+      "translation": "Good morning, your name please?"
+    },
+    {
+      "speaker": "Le voyageur",
+      "text": "Bonjour, je m'appelle François Leclère.",
+      "phonetic_api": "/bɔ̃ʒuʁ ʒə mapɛl fʁɑ̃swa ləklɛʁ/",
+      "phonetic_simple": "BON-JOUR. JE MA-PEL FRAN-SOA LEU-KLER.",
+      "translation": "Good morning, my name is François Leclère."
+    },
+    {
+      "speaker": "L'agent d'accueil",
+      "text": "Excusez-moi, ça s'écrit comment ? Pouvez-vous épeler Leclère ?",
+      "phonetic_api": "/ɛkskyze mwa sa sekʁi kɔmɑ̃ puve vu eple ləklɛʁ/",
+      "phonetic_simple": "EX-KU-ZE MOA, SA SE-KREE KOM-AN ? POU-VE VOU E-PLE LEU-KLER ?",
+      "translation": "Excuse me, how is that written? Can you spell Leclère?"
+    },
+    {
+      "speaker": "Le voyageur",
+      "text": "Oui, bien sûr. L - E - C - L - È - R - E. Avec un accent grave sur le premier E.",
+      "phonetic_api": "/wi bjɛ̃ syʁ ɛl e se ɛl ɛ ɛʁ e avɛk œ̃n_aksɑ̃ ɡʁav syʁ lə pʁəmje e/",
+      "phonetic_simple": "OUI, BIEN SUR. EL - E - SE - EL - E (ouvert) - ER - E. A-VEK UN-NAK-SAN GRAV SUR LEU PREU-MIE E.",
+      "translation": "Yes, of course. L - E - C - L - È - R - E. With a grave accent on the first E."
+    },
+    {
+      "speaker": "L'agent d'accueil",
+      "text": "C'est noté. Et pour le prénom François, il y a une cédille sous le C ?",
+      "phonetic_api": "/sɛ nɔte e puʁ lə pʁenɔ̃ fʁɑ̃swa il ja yn sedij su lə se/",
+      "phonetic_simple": "SE NO-TE. E POUR LEU PRE-NON FRAN-SOA, IL YA UN SE-DIY SOU LEU SE ?",
+      "translation": "Noted. And for the first name François, is there a cedilla under the C?"
+    },
+    {
+      "speaker": "Le voyageur",
+      "text": "Exactement, un C cédille pour faire le son /s/ : F - R - A - N - Ç - O - I - S.",
+      "phonetic_api": "/ɛɡzaktəmɑ̃ œ̃ se sedij puʁ fɛʁ lə sɔ̃ ɛs ɛf ɛʁ a ɛn se-sedij o i ɛs/",
+      "phonetic_simple": "EG-ZAK-TE-MAN, UN SE SE-DIY POUR FER LEU SON S : EF - ER - A - EN - SE-SE-DIY - O - I - ES.",
+      "translation": "Exactly, a C cedilla to make the /s/ sound: F - R - A - N - Ç - O - I - S."
+    }
+  ],
+  "cultural_notes": [
+    "L'origine de la cédille : La cédille (ç) se place uniquement sous la lettre C devant les voyelles A, O, U pour indiquer qu'elle doit se prononcer /s/ au lieu de /k/. Sans elle, 'François' se lirait 'Frankoi'.",
+    "L'épellation par prénoms : Quand les Français épellent un mot difficile au téléphone, ils utilisent souvent des prénoms repères pour éviter les erreurs. Ils diront par exemple : 'L comme Louis, E comme Émilie, C comme Charles...'"
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_l3",
+      "type": "multiple_choice",
+      "question": "Quel accent transforme le son du 'E' en un son fermé net comme dans le mot 'café' ?",
+      "options": [
+        "L'accent grave (È)",
+        "L'accent aigu (É)",
+        "Le tréma (Ë)"
+      ],
+      "correct_answer": "L'accent aigu (É)",
+      "explanation": "L'accent aigu oriente la prononciation du E vers le son fermé /e/."
+    },
+    {
+      "exercise_id": "ex2_l3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour prononcer le nom 'François' correctement avec le son /s/, la lettre C doit porter une [ ___ ].",
+      "correct_answer": "cédille",
+      "hint": "Petit signe graphique qui se place sous la lettre C devant A, O, U."
+    },
+    {
+      "exercise_id": "ex3_l3",
+      "type": "multiple_choice",
+      "question": "Comment se prononce la liaison consonantique finale dans la phrase 'Ils ont un enfant' ?",
+      "options": [
+        "Le S et le T se prononcent comme un S sifflant.",
+        "Le S de 'Ils' se lie en faisant le son /z/ et le T de 'ont' se lie en /t/.",
+        "Les consonnes restent muettes et on fait une pause."
+      ],
+      "correct_answer": "Le S de 'Ils' se lie en faisant le son /z/ et le T de 'ont' se lie en /t/.",
+      "explanation": "La liaison sonorise le S en /z/ et maintient la clarté du T de liaison en /t/ devant une voyelle."
+    }
+  ]
+}

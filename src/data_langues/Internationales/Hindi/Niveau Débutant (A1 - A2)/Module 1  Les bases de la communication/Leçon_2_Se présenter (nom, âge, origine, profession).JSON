@@ -1,0 +1,251 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Savoir décliner son identité et demander le nom de son interlocuteur",
+    "Exprimer son âge, son pays d'origine et sa nationalité",
+    "Présenter sa profession et comprendre les bases du verbe 'être'"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'ह' (h) en hindi est sonore et doit être prononcée clairement. Dans le mot 'हूँ' (hooun - je suis) et 'हैं' (hain - vous êtes / ils sont), la voyelle est fortement nasalisée, ce qui signifie que l'air s'échappe simultanément par la bouche et par le nez. Le 'र' (r) est un 'r' roulé avec le bout de la langue (comme en espagnol ou en italien), jamais un 'r' guttural français.",
+    "common_pitfalls": "Attention à la distinction entre 'है' (hai - il/elle est, son court et non nasal) et 'हैं' (hain - vous êtes / ils sont, avec nasalisation). Ne confondez pas le 'म' (m) et le 'न' (n) lors de la prononciation rapide des pronoms."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "नाम",
+      "phonetic_api": "/naːm/",
+      "phonetic_simple": "NAAM",
+      "translation": "Nom",
+      "example_sentence": "मेरा नाम राहुल है।",
+      "example_phonetic": "/meːraː naːm ɾaːɦʊl ɦɛː/",
+      "example_translation": "Mon nom est Rahul."
+    },
+    {
+      "word_id": "v2",
+      "term": "मेरा / मेरी",
+      "phonetic_api": "/meːraː/ /meːriː/",
+      "phonetic_simple": "MÉ-RAA / MÉ-RII",
+      "translation": "Mon / Ma (s'accorde avec le nom qui suit)",
+      "example_sentence": "यह मेरी किताब है।",
+      "example_phonetic": "/jəɦ meːriː kɪt̪aːb ɦɛː/",
+      "example_translation": "Ceci est mon livre."
+    },
+    {
+      "word_id": "v3",
+      "term": "आपका / आपकी",
+      "phonetic_api": "/aːpkaː/ /aːpkiː/",
+      "phonetic_simple": "AAP-KAA / AAP-KII",
+      "translation": "Votre (formel, s'accorde avec le nom qui suit)",
+      "example_sentence": "आपका नाम क्या है?",
+      "example_phonetic": "/aːpkaː naːm kjaː ɦɛː/",
+      "example_translation": "Quel est votre nom ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "साल",
+      "phonetic_api": "/saːl/",
+      "phonetic_simple": "SAAL",
+      "translation": "An / Année",
+      "example_sentence": "मैं पच्चीस साल का हूँ।",
+      "example_phonetic": "/mɛ̃ː pətːʃiːs saːl kaː ɦũː/",
+      "example_translation": "J'ai 25 ans (locuteur masculin)."
+    },
+    {
+      "word_id": "v5",
+      "term": "देश",
+      "phonetic_api": "/d̪eːʃ/",
+      "phonetic_simple": "DÉCH",
+      "translation": "Pays",
+      "example_sentence": "आपका देश कौन सा है?",
+      "example_phonetic": "/aːpkaː d̪eːʃ kɔːn saː ɦɛː/",
+      "example_translation": "Quel est votre pays ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "फ्रांस",
+      "phonetic_api": "/fɾaːns/",
+      "phonetic_simple": "FRAANS",
+      "translation": "France",
+      "example_sentence": "मैं फ्रांस से हूँ।",
+      "example_phonetic": "/mɛ̃ː fɾaːns seː ɦũː/",
+      "example_translation": "Je viens de France / Je suis de France."
+    },
+    {
+      "word_id": "v7",
+      "term": "छात्र / छात्रा",
+      "phonetic_api": "/tʃʰaːt̪ɾə/ /tʃʰaːt̪ɾaː/",
+      "phonetic_simple": "TCHHAAT-RA / TCHHAAT-RAA",
+      "translation": "Étudiant (m) / Étudiante (f)",
+      "example_sentence": "वह एक छात्रा है।",
+      "example_phonetic": "/ʋəɦ eːk tʃʰaːt̪ɾaː ɦɛː/",
+      "example_translation": "Elle est étudiante."
+    },
+    {
+      "word_id": "v8",
+      "term": "शिक्षक",
+      "phonetic_api": "/ʃɪkʃək/",
+      "phonetic_simple": "CHIK-CHAK",
+      "translation": "Enseignant / Professeur",
+      "example_sentence": "मैं एक शिक्षक हूँ।",
+      "example_phonetic": "/mɛ̃ː eːk ʃɪkʃək ɦũː/",
+      "example_translation": "Je suis professeur."
+    },
+    {
+      "word_id": "v9",
+      "term": "काम",
+      "phonetic_api": "/kaːm/",
+      "phonetic_simple": "KAAM",
+      "translation": "Travail / Profession",
+      "example_sentence": "आप क्या काम करते हैं?",
+      "example_phonetic": "/aːp kjaː kaːm kəɾt̪eː ɦɛ̃ː/",
+      "example_translation": "Quel travail faites-vous ?"
+    },
+    {
+      "word_id": "v10",
+      "term": "रहना",
+      "phonetic_api": "/ɾəɦnaː/",
+      "phonetic_simple": "RAH-NAA",
+      "translation": "Habiter / Vivre",
+      "example_sentence": "मैं पेरिस में रहता हूँ।",
+      "example_phonetic": "/mɛ̃ː peːɾɪs mẽː ɾəɦt̪aː ɦũː/",
+      "example_translation": "J'habite à Paris (locuteur masculin)."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "मेरा नाम जॉन है।",
+      "phonetic_api": "/meːraː naːm dʒɔːn ɦɛː/",
+      "phonetic_simple": "MÉ-RAA NAAM DJON HÉ",
+      "translation": "Mon nom est John.",
+      "context": "Façon standard et universelle de donner son nom."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "मैं भारत से हूँ।",
+      "phonetic_api": "/mɛ̃ː bʱaːɾət̪ seː ɦũː/",
+      "phonetic_simple": "MEIN BHAARAT SÉ HOUN",
+      "translation": "Je viens de l'Inde.",
+      "context": "Pour indiquer son origine géographique. 'से' (se) signifie 'de/depuis'."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "आपकी उम्र क्या है?",
+      "phonetic_api": "/aːpkiː ʊmɾə kjaː ɦɛː/",
+      "phonetic_simple": "AAP-KII OUM-RA KYAA HÉ",
+      "translation": "Quel est votre âge ? (Formel)",
+      "context": "Question polie pour demander l'âge à un adulte."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "मैं एक इंजिनियर हूँ।",
+      "phonetic_api": "/mɛ̃ː eːk ɪndʒiːnɪjəɾ ɦũː/",
+      "phonetic_simple": "MEIN EEK IN-DJI-NIYAR HOUN",
+      "translation": "Je suis ingénieur.",
+      "context": "Déclarer sa profession. Beaucoup de titres professionnels anglais sont utilisés tel quels en hindi."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le verbe 'होना' (Hona - Être) au présent",
+      "explanation": "Le verbe 'être' est indispensable pour se présenter. Contrairement au français, le verbe se place toujours à la toute fin de la phrase (structure Sujet-Objet-Verbe).",
+      "rules": [
+        "मैं (Mein - Je) s'associe avec हूँ (hooun - suis).",
+        "आप (Aap - Vous) s'associe avec हैं (hain - êtes).",
+        "यह / वह (Yah/Wah - Il/Elle/Ceci/Cela) s'associe avec है (hai - est)."
+      ],
+      "examples": [
+        {
+          "structure": "मैं फ्रांसिसी हूँ (Mein fraansisii hooun)",
+          "phonetic_api": "/mɛ̃ː fɾaːnsiːsiː ɦũː/",
+          "meaning": "Je suis français."
+        },
+        {
+          "structure": "वह डॉक्टर है (Wah doctor hai)",
+          "phonetic_api": "/ʋəɦ ɖɔːkt̪əɾ ɦɛː/",
+          "meaning": "Il/Elle est médecin."
+        }
+      ]
+    },
+    {
+      "concept": "L'accord de l'âge selon le genre du locuteur",
+      "explanation": "Pour exprimer l'âge, on utilise la structure : 'Nombre + साल का/की हूँ' (saal kaa/kii hooun). L'élément de liaison change selon le genre de la personne qui parle.",
+      "rules": [
+        "Un homme dit : 'का हूँ' (kaa hooun).",
+        "Une femme dit : 'की हूँ' (kii hooun)."
+      ],
+      "examples": [
+        {
+          "structure": "मैं तीस साल का हूँ (Homme)",
+          "phonetic_api": "/mɛ̃ː t̪iːs saːl kaː ɦũː/",
+          "meaning": "J'ai trente ans."
+        },
+        {
+          "structure": "मैं तीस साल की हूँ (Femme)",
+          "phonetic_api": "/mɛ̃ː t̪iːs saːl kiː ɦũː/",
+          "meaning": "J'ai trente ans."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "अमित (Amit)",
+      "text": "नमस्ते, क्या मैं आपका नाम जान सकता हूँ?",
+      "phonetic_api": "/nəməsteː kjaː mɛ̃ː aːpkaː naːm dʒaːn səkt̪aː ɦuː/",
+      "phonetic_simple": "NA-MAS-TÉ, KYAA MEIN AAP-KAA NAAM DJAAN SAK-TAA HOUN",
+      "translation": "Bonjour, puis-je connaître votre nom ?"
+    },
+    {
+      "speaker": "सोफी (Sophie)",
+      "text": "नमस्ते! मेरा नाम सोफी है। मैं फ्रांस से हूँ।",
+      "phonetic_api": "/nəməsteː meːraː naːm soːfiː ɦɛː mɛ̃ː fɾaːns seː ɦũː/",
+      "phonetic_simple": "NA-MAS-TÉ! MÉ-RAA NAAM SO-FII HÉ. MEIN FRAANS SÉ HOUN",
+      "translation": "Bonjour ! Mon nom est Sophie. Je viens de France."
+    },
+    {
+      "speaker": "अमित (Amit)",
+      "text": "बहुत अच्छा। सोफी जी, आप पेरिस में कहाँ रहती हैं?",
+      "phonetic_api": "/bəɦʊt̪ ətːʃʰaː soːfiː dʒiː aːp peːɾɪs mẽː kəɦãː ɾəɦt̪iː ɦɛ̃ː/",
+      "phonetic_simple": "BAHOUT AT-TCHHAA. SO-FII DJII, AAP PÉ-RIS MEIN KAHAN RAH-TII HAIN",
+      "translation": "Très bien. Chère Sophie, où habitez-vous à Paris ?"
+    },
+    {
+      "speaker": "सोफी (Sophie)",
+      "text": "मैं केंद्र में रहती हूँ, और मैं एक शिक्षिका हूँ।",
+      "phonetic_api": "/mɛ̃ː kendɾə mẽː ɾəɦt̪iː ɦuː ɔːr mɛ̃ː eːk ʃɪkʃɪkaː ɦũː/",
+      "phonetic_simple": "MEIN KÊN-DRA MEIN RAH-TII HOUN, OR MEIN EEK CHIK-CHI-KAA HOUN",
+      "translation": "J'habite dans le centre, et je suis enseignante."
+    }
+  ],
+  "cultural_notes": [
+    "En Inde, demander la profession ou le pays d'origine dès les premières minutes de la conversation est une marque d'intérêt social bienveillante et absolument normale, nullement perçue comme indiscrète.",
+    "Lorsque vous parlez à un étranger ou à une nouvelle connaissance, accoler le suffixe 'जी' (jee) à son prénom (ex: Sophie-ji) montre immédiatement que vous maîtrisez les codes de respect du pays."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Complétez la phrase d'un homme qui dit son nom : 'मेरा नाम डेविड [ ___ ]।'",
+      "options": [
+        "हूँ (hooun)",
+        "है (hai)",
+        "हैं (hain)"
+      ],
+      "correct_answer": "है (hai)",
+      "explanation": "Pour la structure 'Mon nom est...', le sujet grammatical est 'le nom' (troisième personne du singulier), on utilise donc 'है' (hai)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "मैं फ्रांस [ ___ ] हूँ।",
+      "correct_answer": "से",
+      "hint": "La postposition qui signifie 'de' ou 'en provenance de' (se)"
+    }
+  ]
+}

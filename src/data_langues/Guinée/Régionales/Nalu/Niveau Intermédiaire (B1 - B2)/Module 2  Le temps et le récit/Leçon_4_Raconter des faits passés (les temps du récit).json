@@ -1,0 +1,170 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés",
+  "learning_objectives": [
+    "Utiliser le suffixe ou la particule du passé pour relater un événement",
+    "Structurer chronologiquement un récit simple à l'aide d'adverbes temporels"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne occlusive injective bilabiale /ɓ/ (souvent notée b') demande une légère dépression de l'air dans la bouche avant le relâchement des lèvres. Le morphème du passé '-a' crée une extension de la dernière syllabe du verbe.",
+    "common_pitfalls": "Attention à ne pas confondre la particule narrative 'n'gbe' (qui sert aussi de coordonnant ou d'adverbe pour 'aujourd'hui') avec le marqueur spécifique de l'aspect accompli."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v13_1",
+      "term": "Cen",
+      "phonetic_api": "/tʃen/",
+      "phonetic_simple": "TCHEN",
+      "translation": "Hier",
+      "example_sentence": "M boku cen.",
+      "example_phonetic": "/m bo.ku tʃen/",
+      "example_translation": "Je suis venu hier."
+    },
+    {
+      "word_id": "v13_2",
+      "term": "Ba-a",
+      "phonetic_api": "/ba.a/",
+      "phonetic_simple": "BA-A",
+      "translation": "Être venu (passé du verbe Ba)",
+      "example_sentence": "Baa mi a ba-a.",
+      "example_phonetic": "/baː mi a ba.a/",
+      "example_translation": "Mon père est venu."
+    },
+    {
+      "word_id": "v13_3",
+      "term": "Lir-a",
+      "phonetic_api": "/lir.a/",
+      "phonetic_simple": "LIR-A",
+      "translation": "A porté / A mis (vêtement)",
+      "example_sentence": "M lir-a abal mi cen.",
+      "example_phonetic": "/m lir.a a.bal mi tʃen/",
+      "example_translation": "J'ai porté mon vêtement hier."
+    },
+    {
+      "word_id": "v13_4",
+      "term": "Wale-a",
+      "phonetic_api": "/wa.le.a/",
+      "phonetic_simple": "WA-LÉ-A",
+      "translation": "A travaillé / A fait",
+      "example_sentence": "M wale-a di gbarano.",
+      "example_phonetic": "/m wa.le.a di g͡ba.ra.no/",
+      "example_translation": "J'ai travaillé dans la cour."
+    },
+    {
+      "word_id": "v13_5",
+      "term": "Mun",
+      "phonetic_api": "/mun/",
+      "phonetic_simple": "MOUN",
+      "translation": "Avant / Jadis / Passé",
+      "example_sentence": "Mun, m kanyen Boké.",
+      "example_phonetic": "/mun m ka.ɲeŋ bo.ke/",
+      "example_translation": "Avant, j'habitais à Boké."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p13_1",
+      "original": "A rila a wale-a cen?",
+      "phonetic_api": "/a ri.la a wa.le.a tʃen/",
+      "phonetic_simple": "A RI-LA A WA-LÉ-A TCHEN",
+      "translation": "Qu'as-tu fait hier ?",
+      "context": "Question de base pour s'informer du déroulement de la journée précédente d'un proche."
+    },
+    {
+      "phrase_id": "p13_2",
+      "original": "M ba-a mu thand cen.",
+      "phonetic_api": "/m ba.a mu θand tʃen/",
+      "phonetic_simple": "M BA-A MOU THAND TCHEN",
+      "translation": "Je suis venu tout près hier.",
+      "context": "Permet de justifier ou de situer son déplacement récent."
+    },
+    {
+      "phrase_id": "p13_3",
+      "original": "Mun, nalu mi a ce b'at.",
+      "phonetic_api": "/mun na.lu mi a tʃe ɓat/",
+      "phonetic_simple": "MOUN, NA-LU MI A TCHÉ BAT",
+      "translation": "Autrefois, ma famille était très prospère.",
+      "context": "Formule d'introduction courante pour entamer un récit historique familial."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le suffixe du passé accompli '-a'",
+      "explanation": "En nalu, l'accompli (le passé) des verbes d'action s'exprime régulièrement par l'adjonction d'un suffixe vocalique '-a' directement soudé à la fin de la racine verbale.",
+      "rules": [
+        "Si le verbe se termine par une consonne, le '-a' se prononce distinctement comme une syllabe finale.",
+        "Si le verbe se termine déjà par une voyelle, celle-ci s'allonge ou s'ouvre légèrement pour marquer la rupture temporelle."
+      ],
+      "examples": [
+        {
+          "structure": "Wale (Travailler) -> Wale-a (A travaillé)",
+          "phonetic_api": "/wa.le.a/",
+          "meaning": "A travaillé / A fait"
+        },
+        {
+          "structure": "Ba (Venir) -> Ba-a (Est venu)",
+          "phonetic_api": "/ba.a/",
+          "meaning": "Est venu"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amara",
+      "text": "Mboye, Sékou ! A rila a wale-a cen?",
+      "phonetic_api": "/mbo.je se.ku a ri.la a wa.le.a tʃen/",
+      "phonetic_simple": "MBO-YÉ, SÉ-KOU ! A RI-LA A WA-LÉ-A TCHEN?",
+      "translation": "Bonjour, Sékou ! Qu'as-tu fait hier ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Mboye ce ! Cen, m ba-a di thaŋa Boké. M malang-a ceeb.",
+      "phonetic_api": "/mbo.je tʃe tʃen m ba.a di θa.ŋa bo.ke m ba.laŋ.a tʃeːb/",
+      "phonetic_simple": "MBO-YÉ TCHÉ ! TCHEN, M BA-A DI THA-NGA BO-KÉ. M BA-LANG-A TCHÉÉB.",
+      "translation": "Bonjour bien ! Hier, je suis allé en ville à Boké. J'ai acheté (voulu) du poisson."
+    },
+    {
+      "speaker": "Amara",
+      "text": "A ce ! A mboye nalu mwo cen?",
+      "phonetic_api": "/a tʃe a mbo.je na.lu mwo tʃen/",
+      "phonetic_simple": "A TCHÉ ! A MBO-YÉ NA-LU MWO TCHEN?",
+      "translation": "C'est bien ! Comment allait ta famille hier ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Nalu mi a gbe kunu ce, nu koka.",
+      "phonetic_api": "/na.lu mi a ŋgbe ku.nu tʃe nu ko.ka/",
+      "phonetic_simple": "NA-LU MI A NGBÉ KOU-NOU TCHÉ, NOU KO-KA.",
+      "translation": "Ma famille était heureuse, merci."
+    }
+  ],
+  "cultural_notes": [
+    "L'art du récit et de la palabre historique est un pilier de la transmission chez les Nalu. Lorsqu'un ancien commence sa phrase par l'adverbe 'Mun' (Jadis / Autrefois), l'auditoire observe un silence total en signe de profond respect, car le passé est perçu comme la source de la sagesse et de la cohésion du clan."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex13_1",
+      "type": "multiple_choice",
+      "question": "Quel adverbe temporel utilise-t-on pour dire 'Hier' ?",
+      "options": [
+        "Suba",
+        "N'gbe",
+        "Cen"
+      ],
+      "correct_answer": "Cen",
+      "explanation": "'Cen' est le terme nalu équivalent à la journée d'hier, à distinguer de 'suba' (demain) et 'n'gbe' (aujourd'hui)."
+    },
+    {
+      "exercise_id": "ex13_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour marquer le passé sur le verbe wale (travailler), on lui ajoute le suffixe exact : m [ ___ ].",
+      "correct_answer": "wale-a",
+      "hint": "C'est la forme accomplie de l'action de travailler"
+    }
+  ]
+}

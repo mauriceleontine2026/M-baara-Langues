@@ -1,0 +1,274 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Comprendre l'organisation du système d'écriture arabe et le principe de l'abjad",
+    "Différencier et prononcer correctement les consonnes fricatives, pharyngales et emphatiques",
+    "Maîtriser le système de vocalisation courte et longue ainsi que les signes diacritiques fondamentaux"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'arabe s'écrit de droite à gauche et comprend 28 consonnes de base. La distinction phonémique majeure repose sur l'opposition entre consonnes simples (légères) et emphatiques (vélarisées/pharyngalisées). Les emphatiques /sˤ/ (ص), /dˤ/ (ض), /tˤ/ (ط), et /ðˤ/ (ظ) exigent un recul de la racine de la langue vers le voile du palais, ce qui modifie profondément la résonance des voyelles adjacentes.",
+    "common_pitfalls": "La confusion la plus dommageable pour l'intelligibilité consiste à substituer une consonne simple à une consonne emphatique, par exemple prononcer /s/ (س) au lieu de /sˤ/ (ص), ce qui peut altérer le sens d'un mot. Veillez également à ne pas négliger l'allongement des voyelles longues, qui ont une valeur phonologique stricte en arabe."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "حَرْفٌ",
+      "phonetic_api": "/ħar.fun/",
+      "phonetic_simple": "HAR-FOUN",
+      "translation": "Une lettre",
+      "example_sentence": "هَذَا حَرْفُ الضَّادِ",
+      "example_phonetic": "/haː.ðaː ħar.futˤ dˤaː.di/",
+      "example_translation": "C'est la lettre Dhad"
+    },
+    {
+      "word_id": "v2",
+      "term": "صَوْتٌ",
+      "phonetic_api": "/sˤaw.tun/",
+      "phonetic_simple": "SAW-TOUN",
+      "translation": "Un son / Une voix",
+      "example_sentence": "الصَّوْتُ وَاضِحٌ",
+      "example_phonetic": "/asˤ.sˤaw.tu waː.dˤi.ħun/",
+      "example_translation": "Le son est clair"
+    },
+    {
+      "word_id": "v3",
+      "term": "كِتَابَةٌ",
+      "phonetic_api": "/ki.taː.ba.tun/",
+      "phonetic_simple": "KI-TAA-BA-TOUN",
+      "translation": "L'écriture",
+      "example_sentence": "الْكِتَابَةُ الْعَرَبِيَّةُ جَمِيلَةٌ",
+      "example_phonetic": "/al.ki.taː.ba.tu l.ʕa.ra.bij.ja.tu dʒa.miː.la.tun/",
+      "example_translation": "L'écriture arabe est belle"
+    },
+    {
+      "word_id": "v4",
+      "term": "قِرَاءَةٌ",
+      "phonetic_api": "/qi.raː.ʔa.tun/",
+      "phonetic_simple": "KI-RAA-A-TOUN",
+      "translation": "La lecture",
+      "example_sentence": "قِرَاءَةُ الْكُتُبِ مُفِيدَةٌ",
+      "example_phonetic": "/qi.raː.ʔa.tul ku.tu.bi mu.fiː.da.tun/",
+      "example_translation": "La lecture des livres est utile"
+    },
+    {
+      "word_id": "v5",
+      "term": "لُغَةٌ",
+      "phonetic_api": "/lu.ɣa.tun/",
+      "phonetic_simple": "LOU-GHA-TOUN",
+      "translation": "Une langue",
+      "example_sentence": "الْعَرَبِيَّةُ لُغَةٌ عَالَمِيَّةٌ",
+      "example_phonetic": "/al.ʕa.ra.bij.ja.tu lu.ɣa.tun ʕa.la.mij.ja.tun/",
+      "example_translation": "L'arabe est une langue internationale"
+    },
+    {
+      "word_id": "v6",
+      "term": "قَلَمٌ",
+      "phonetic_api": "/qa.la.mun/",
+      "phonetic_simple": "KA-LA-MOUN",
+      "translation": "Un stylo / Un crayon",
+      "example_sentence": "أَيْنَ الْقَلَمُ؟",
+      "example_phonetic": "/ʔaj.nal qa.la.mu/",
+      "example_translation": "Où est le stylo ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "كَيْفَ نَنْطِقُ هَذَا؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "KAY-FA NAN-TI-KOU HAA-THAA",
+      "translation": "Comment prononce-t-on cela ?",
+      "context": "Question fondamentale posée par l'apprenant pour solliciter une correction de prononciation."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "كَيْفَ نَكْتُبُ هَذِهِ الْكَلِمَةَ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "KAY-FA NAK-TOU-BOU HAA-THI-HIL KA-LI-MA",
+      "translation": "Comment écrit-on ce mot ?",
+      "context": "Utile pour comprendre les liaisons ou les formes des lettres au sein d'un mot."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "أَعِدْ مِنْ فَضْلِكَ",
+      "phonetic_api": "/ʔa.ʕid min fadˤ.li.ka/",
+      "phonetic_simple": "A-ID MIN FAD-LI-KA",
+      "translation": "Répète s'il te plaît (à un homme)",
+      "context": "Pour demander à l'interlocuteur de reformuler ou répéter un son complexe."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "أَعِيدِي مِنْ فَضْلِكِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "A-II-DII MIN FAD-LI-KI",
+      "translation": "Répète s'il te plaît (à une femme)",
+      "context": "Pour demander à une interlocutrice de reformuler ou répéter un son."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "الْحَرْفُ صَعْبٌ جِدًّا",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AL-HAR-FOU SAB-OUN DJID-DAN",
+      "translation": "La lettre est très difficile",
+      "context": "Pour exprimer une difficulté d'articulation sur des phonèmes rudes."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "النُّطْقُ صَحِيحٌ",
+      "phonetic_api": "/an.nutˤ.qu sˤa.ħiː.ħun/",
+      "phonetic_simple": "AN-NOUT-KOU SA-HII-HOUN",
+      "translation": "La prononciation est correcte",
+      "context": "Validation donnée par l'enseignant ou un locuteur natif."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "مَا هَذَا الْحَرْفُ؟",
+      "phonetic_api": "/maː haː.ðal ħar.fu/",
+      "phonetic_simple": "MAA HAA-THAL HAR-FOU",
+      "translation": "Quelle est cette lettre ?",
+      "context": "Pour interroger sur un signe graphique ou une lettre isolée."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "أَنَا أَفْهَمُ الآنَ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "A-NAA AF-HA-MOU AL-AAN",
+      "translation": "Je comprends maintenant",
+      "context": "Expression de la clarté après une explication phonétique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système des voyelles en arabe : Harakāt et Madī",
+      "explanation": "L'arabe fonctionne sur le principe de l'abjad : seules les consonnes et les voyelles longues s'écrivent dans le corps du texte. Les voyelles courtes sont des signes diacritiques (Harakāt) placés au-dessus ou en dessous des lettres. Elles se déclinent en trois mouvements principaux opposés à leurs équivalents longs (Madī).",
+      "rules": [
+        "La Fatha (َ) produit le son court /a/, son extension longue est l'Alif (ا) qui produit /aː/.",
+        "La Damma (ُ) produit le son court /u/, son extension longue est le Wāw (و) qui produit /uː/.",
+        "La Kasra (ِ) produit le son court /i/, son extension longue est le Yā' (ي) qui produit /iː/."
+      ],
+      "examples": [
+        {
+          "structure": "بَ / بَا",
+          "phonetic_api": "/ba/ /baː/",
+          "meaning": "Ba (court) / Bā (long)"
+        },
+        {
+          "structure": "بُ / بُو",
+          "phonetic_api": "/bu/ /buː/",
+          "meaning": "Bou (court) / Bū (long)"
+        },
+        {
+          "structure": "بِ / بِي",
+          "phonetic_api": "/bi/ /biː/",
+          "meaning": "Bi (court) / Bī (long)"
+        }
+      ]
+    },
+    {
+      "concept": "Les signes diacritiques d'absence de voyelle et de gémination : Sukūn et Shaddah",
+      "explanation": "Pour lire l'arabe avec exactitude, deux signes supérieurs modifient radicalement le comportement de la consonne qui les porte.",
+      "rules": [
+        "Le Sukūn (ْ) est un petit cercle indiquant l'absence totale de voyelle après la consonne. La consonne est dite 'muette' ou 'en arrêt'.",
+        "La Shaddah (ّ) indique le redoublement (la gémination) de la consonne. Phonétiquement, on insiste sur la consonne en bloquant brièvement l'expiration avant de la relâcher."
+      ],
+      "examples": [
+        {
+          "structure": "مِنْ",
+          "phonetic_api": "/min/",
+          "meaning": "De (le Nūn porte un sukūn, arrêt net sur le son 'n')"
+        },
+        {
+          "structure": "مَعَ السَّلَامَةِ",
+          "phonetic_api": "/ma.ʕas sa.laː.ma.ti/",
+          "meaning": "Au revoir (le Sīn porte une Shaddah, il est fortement appuyé)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "المُعَلِّمُ (Le professeur)",
+      "text": "السَّلَامُ عَلَيْكُمْ. الْيَوْمَ نَدْرُسُ أَلِفْبَاءِ اللُّغَةِ الْعَرَبِيَّةِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AS-SA-LAA-MOU ALAY-KOUM. AL-YAW-MA NAD-ROU-SOU A-LIF-BAA-I LOU-GHA-TIL A-RA-BIY-YA",
+      "translation": "Que la paix soit sur vous. Aujourd'hui nous étudions l'alphabet de la langue arabe."
+    },
+    {
+      "speaker": "جُونْ (John)",
+      "text": "أَهْلًا يَا أُسْتَاذُ. كَيْفَ نَنْطِقُ حَرْفَ الْقَافِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN YA OUS-TAA-THOU. KAY-FA NAN-TI-KOU HAR-FAL KAAF",
+      "translation": "Salut ô professeur. Comment prononce-t-on la lettre Qaf ?"
+    },
+    {
+      "speaker": "المُعَلِّمُ (Le professeur)",
+      "text": "حَرْفُ الْقَافِ يَخْرُجُ مِنْ أَقْصَى اللِّسَانِ. اِسْمَعْ جَيِّدًا: قَ، قُ، قِي.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAR-FOUL KAAF YAKH-ROU-DJOU MIN AK-SAL LI-SAAN. IS-MA DJAY-YI-DAN: KA, KOU, KII",
+      "translation": "La lettre Qaf sort du fond de la langue. Écoute bien : Qa, Qu, Qī."
+    },
+    {
+      "speaker": "جُونْ (John)",
+      "text": "قَ، قُ، قِي. هَلْ نُطْقِي صَحِيحٌ يَا أُسْتَاذُ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "KA, KOU, KII. HAL NOUT-KII SA-HII-HOUN YA OUS-TAA-THOU",
+      "translation": "Qa, Qu, Qī. Est-ce que ma prononciation est correcte, professeur ?"
+    },
+    {
+      "speaker": "المُعَلِّمُ (Le professeur)",
+      "text": "نَعَمْ، مُمْتَازٌ! وَالآنَ، هَذَا حَرْفُ الْخَاءِ: خَ، خُ، خِي.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "NA-AM, MOUM-TAAZ! WAL-AAN, HAA-THAA HAR-FOUL KHAA: KHA, KHOU, KHII",
+      "translation": "Oui, excellent ! Et maintenant, voici la lettre Kha : Kha, Khu, Khī."
+    },
+    {
+      "speaker": "جُونْ (John)",
+      "text": "خَ، خُ، خِي. شُكْرًا جَزِيلًا عَلَى الشَّرْحِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "KHA, KHOU, KHII. CHOUK-RAN DJA-ZII-LAN ALACH-CHARH",
+      "translation": "Kha, Khu, Khī. Merci beaucoup pour l'explication."
+    }
+  ],
+  "cultural_notes": [
+    "La langue du Dhad (لُغَةُ الضَّادِ) : L'arabe est historiquement surnommé ainsi car la consonne 'Dhad' (ض) était considérée par les anciens grammairiens comme totalement unique à cette langue et impossible à reproduire parfaitement par les non-natifs sans un entraînement rigoureux.",
+    "La calligraphie comme art majeur : En raison de la nature cursive et plastique des lettres arabes qui changent de forme selon leur position (initiale, médiane, finale), l'écriture s'est élevée au rang d'art sacré et architectural majeur à travers le monde islamique."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L3_ex1",
+      "type": "multiple_choice",
+      "question": "Quel signe indique qu'une consonne doit être doublée à la prononciation ?",
+      "options": [
+        "السُّكُون (Le Sukūn)",
+        "الشَّدَّة (La Shaddah)",
+        "الْفَتْحَة (La Fatha)"
+      ],
+      "correct_answer": "الشَّدَّة (La Shaddah)",
+      "explanation": "La Shaddah est le symbole en forme de petit 'w' placé sur une lettre pour marquer sa gémination ou son redoublement phonétique."
+    },
+    {
+      "exercise_id": "A1_M1_L3_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "La voyelle courte Kasra se place [ ___ ] la lettre et produit le son /i/.",
+      "correct_answer": "sous",
+      "hint": "Contrairement à la fatha et à la damma, elle est le seul mouvement inférieur."
+    },
+    {
+      "exercise_id": "A1_M1_L3_ex3",
+      "type": "multiple_choice",
+      "question": "Quelles sont les quatre consonnes considérées comme proprement emphatiques en arabe ?",
+      "options": [
+        "ص ، ض ، ط ، ظ",
+        "س ، ش ، ج ، خ",
+        "ا ، و ، ي ، ء"
+      ],
+      "correct_answer": "ص ، ض ، ط ، ظ",
+      "explanation": "Ce sont les lettres Sad, Dhad, Ta, et Dha qui provoquent la vélariisation des voyelles."
+    }
+  ]
+}

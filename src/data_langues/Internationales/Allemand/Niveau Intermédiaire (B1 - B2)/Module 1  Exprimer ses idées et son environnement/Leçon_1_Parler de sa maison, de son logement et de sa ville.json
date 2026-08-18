@@ -1,0 +1,241 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire en détail son espace de vie, les pièces et le mobilier",
+    "Exprimer des critères de recherche de logement et comprendre les termes d'une petite annonce",
+    "Caractériser son environnement urbain ou rural et formuler des comparaisons complexes",
+    "Maîtriser la double régie des prépositions mixtes (Datif pour la position / Accusatif pour le déplacement)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot 'Wohnung' se prononce [ˈvoːnʊŋ] : le -h- est muet et allonge le -o-, tandis que le suffixe -ung se termine par une consonne nasale vélaire [ŋ] (le -g final ne doit pas s'entendre séparément). La diphtongue -äu- dans 'Gebäude' ou 'Häuser' se prononce [ɔɪ̯], exactement comme la combinaison -eu-. La lettre -v- dans 'Viertel' ou 'Vorort' se réalise sous la forme d'un [f] sourd.",
+    "common_pitfalls": "Attention à la distinction entre 'mieten' [ˈmiːtn̩] (louer/prendre en location) et 'vermieten' [fɛɐ̯ˈmiːtn̩] (louer/mettre en location). Le préfixe -ver- ne doit pas être accentué, l'accent tonique de la phrase restant sur la racine du verbe."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "die Wohnung",
+      "phonetic_api": "/diː ˈvoːnʊŋ/",
+      "phonetic_simple": "DII VOO-NOUNG",
+      "translation": "l'appartement / le logement",
+      "example_sentence": "Unsere Wohnung liegt im dritten Stock.",
+      "example_phonetic": "/ˈʊnzəʁə ˈvoːnʊŋ liːkt ɪm ˈdʁɪtn̩ ʃtɔk/",
+      "example_translation": "Notre appartement est situé au troisième étage."
+    },
+    {
+      "word_id": "v2",
+      "term": "das Gebäude",
+      "phonetic_api": "/das ɡəˈbɔɪ̯də/",
+      "phonetic_simple": "DAS GHE-BOI-DE",
+      "translation": "le bâtiment / l'édifice",
+      "example_sentence": "Das historische Gebäude wurde komplett renoviert.",
+      "example_phonetic": "/das hɪsˈtoːʁɪʃə ɡəˈbɔɪ̯də ˈvʊʁdə kɔmˈplɛt ʁenoˈviːɐ̯t/",
+      "example_translation": "Le bâtiment historique a été complètement rénové."
+    },
+    {
+      "word_id": "v3",
+      "term": "die Miete",
+      "phonetic_api": "/diː ˈmiːtə/",
+      "phonetic_simple": "DII MII-TE",
+      "translation": "le loyer",
+      "example_sentence": "Die Kaltmiete beinhaltet keine Nebenkosten.",
+      "example_phonetic": "/diː ˈkaltˌmiːtə bəˈaɪ̯nˌhaltət ˈkaɪ̯nə ˈneːbn̩ˌkɔstn̩/",
+      "example_translation": "Le loyer hors charges ne comprend pas les charges locatives."
+    },
+    {
+      "word_id": "v4",
+      "term": "einziehen",
+      "phonetic_api": "/ˈaɪ̯nˌtsiːən/",
+      "phonetic_simple": "AIN-TSII-EN",
+      "translation": "emménager",
+      "example_sentence": "Wir ziehen nächsten Monat in das neue Haus ein.",
+      "example_phonetic": "/viːɐ̯ ˈtsiːən ˈnɛːçstn̩ ˈmoːnat ɪn das ˈnɔɪ̯ə haʊ̯s aɪ̯n/",
+      "example_translation": "Nous emménagerons dans la nouvelle maison le mois prochain."
+    },
+    {
+      "word_id": "v5",
+      "term": "das Stadtviertel",
+      "phonetic_api": "/das ˈʃtatˌfɪʁtl̩/",
+      "phonetic_simple": "DAS CHTAT-FIIR-TEL",
+      "translation": "le quartier (de la ville)",
+      "example_sentence": "In welchem Stadtviertel suchst du ein Zimmer?",
+      "example_phonetic": "/ɪn ˈvɛlçəm ˈʃtatˌfɪʁtl̩ zuːkst duː aɪ̯n ˈtsɪmɐ/",
+      "example_translation": "Dans quel quartier de la ville cherches-tu une chambre ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "der Vorort",
+      "phonetic_api": "/deːɐ̯ ˈfoːɐ̯ˌʔɔʁt/",
+      "phonetic_simple": "DEER FOOR-ORT",
+      "translation": "la banlieue / la périphérie",
+      "example_sentence": "Es ist ruhiger, in einem Vorort zu leben.",
+      "example_phonetic": "/ɛs ɪst ˈʁuːɪɡɐ ɪn ˈaɪ̯nəm ˈfoːɐ̯ˌʔɔʁt tsuː ˈleːbn̩/",
+      "example_translation": "C'est plus calme de vivre dans une banlieue."
+    },
+    {
+      "word_id": "v7",
+      "term": "möbliert",
+      "phonetic_api": "/møˈbliːɐ̯t/",
+      "phonetic_simple": "MOE-BLIIRT",
+      "translation": "meublé",
+      "example_sentence": "Ich suche ein möbliertes Apartment im Zentrum.",
+      "example_phonetic": "/ɪç ˈzuːxə aɪ̯n møˈbliːɐ̯təs apaʁtˈmaŋ ɪm ˈtsɛntʁʊm/",
+      "example_translation": "Je cherche un appartement meublé dans le centre."
+    },
+    {
+      "word_id": "v8",
+      "term": "die Wohngemeinschaft (WG)",
+      "phonetic_api": "/diː ˈvoːnɡəˌmaɪ̯nʃaft/",
+      "phonetic_simple": "DII VOON-GHE-MAIN-CHAFT",
+      "translation": "la colocation",
+      "example_sentence": "Viele Studenten leben in einer WG.",
+      "example_phonetic": "/ˈfiːlə ʃtuˈdɛntn̩ ˈleːbn̩ ɪn ˈaɪ̯nɐ veːˈɡeː/",
+      "example_translation": "Beaucoup d'étudiants vivent en colocation."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Die Wohnung verfügt über eine voll ausgestattete Einbauküche.",
+      "phonetic_api": "/diː ˈvoːnʊŋ fɛɐ̯ˈfyːkt ˈyːbɐ ˈaɪ̯nə fɔl aʊ̯sɡəˈʃtatətə ˈaɪ̯nbaʊ̯ˌkʏçə/",
+      "phonetic_simple": "DII VOO-NOUNG FER-FUUKT UU-BER AI-NE FOL AOFS-GHE-CHTAT-E-TE AIN-BAOU-KUU-KE",
+      "translation": "L'appartement dispose d'une cuisine intégrée entièrement équipée.",
+      "context": "Petite annonce ou description d'un bien immobilier haut de gamme."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Wie hoch sind die Nebenkosten und die Kaution?",
+      "phonetic_api": "/viː hoːx zɪnt diː ˈneːbn̩ˌkɔstn̩ ʊnt diː kaʊ̯ˈtsi̯oːn/",
+      "phonetic_simple": "VII HOOK ZINT DII NEE-BEN-KOST-EN OUNT DII KAOU-TSIOON",
+      "translation": "À combien s'élèvent les charges et la caution ?",
+      "context": "Question essentielle posée lors de la visite d'un logement."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Ich würde gerne einen Besichtigungstermin vereinbaren.",
+      "phonetic_api": "/ɪç ˈvʏʁdə ˈɡɛʁnə ˈaɪ̯nən bəˈzɪçtɪɡʊŋs_tɛʁˈmiːn fɛɐ̯ˈʔaɪ̯nbaːʁən/",
+      "phonetic_simple": "ICH VUUR-DE GER-NE AI-NEN BE-ZICH-TI-GOUNGS-TER-MIIN FER-AIN-BA-REN",
+      "translation": "Je souhaiterais convenir d'un rendez-vous pour une visite.",
+      "context": "Formule formelle par courriel ou téléphone auprès d'une agence."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Das Stadtzentrum ist mit den öffentlichen Verkehrsmitteln leicht erreichbar.",
+      "phonetic_api": "/das ˈʃtatˈtsɛntʁʊm ɪst mɪt deːn ˈœfntlɪçn̩ fɛɐ̯ˈkeːɐ̯sˌmɪtln̩ laɪ̯çt ɛɐ̯ˈʁaɪ̯çbaːɐ̯/",
+      "phonetic_simple": "DAS CHTAT-TSEN-TROUM IST MIT DEEN OEF-ENT-LICH-EN FER-KEERS-MIT-ELN LAICHT ER-RAICH-BAR",
+      "translation": "Le centre-ville est facilement accessible en transports en commun.",
+      "context": "Argument de valorisation de l'emplacement d'un bien."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Die Lage ist zwar zentral, aber es gibt viel Straßenlärm.",
+      "phonetic_api": "/diː ˈlaːɡə ɪst tsvaːɐ̯ tsɛnˈtʁaːl ˈaːbɐ ɛs ɡɪpt fiːl ˈʃtʁaːsn̩ˌlɛʁm/",
+      "phonetic_simple": "DII LA-GHE IST TSVAR TSEN-TRAL A-BER ES GIPT FIIL CHTRA-SEN-LERM",
+      "translation": "L'emplacement est certes central, mais il y a beaucoup de bruit de rue.",
+      "context": "Nuancer son avis sur un hébergement visité."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La double régie des prépositions mixtes (Wechselpräpositionen)",
+      "explanation": "Au niveau B1, la maîtrise des prépositions mixtes (in, an, auf, neben, hinter, über, unter, vor, zwischen) requiert une distinction rigoureuse entre l'absence et la présence de déplacement, ce qui détermine le cas employé.",
+      "rules": [
+        "La question interrogative 'Wo?' (Où se situe-t-on ?) implique une position fixe, un état ou une action confinée dans un espace : elle exige l'emploi du cas Datif.",
+        "La question interrogative 'Wohin?' (Vers où va-t-on ?) exprime un changement de lieu, une direction ou un franchissement de frontière : elle exige l'emploi du cas Accusatif.",
+        "Les verbes de position se déclinent en paires : liegen/legen, sitzen/setzen, stehen/stellen, hängen (intransitif/transitif). Le premier terme de chaque paire appelle le datif, le second l'accusatif."
+      ],
+      "examples": [
+        {
+          "structure": "Das Bild hängt an der Wand. (Wo? -> Datif)",
+          "phonetic_api": "/das bɪlt hɛŋkt am deːɐ̯ vant/",
+          "meaning": "Le tableau est accroché au mur."
+        },
+        {
+          "structure": "Ich hänge das Bild an die Wand. (Wohin? -> Accusatif)",
+          "phonetic_api": "/ɪç ˈhɛŋə das bɪlt am diː vant/",
+          "meaning": "J'accroche le tableau au mur (action de le placer)."
+        }
+      ]
+    },
+    {
+      "concept": "Les propositions subordonnées concessives (obwohl) et de cause (weil, da)",
+      "explanation": "Pour décrire son environnement à un niveau intermédiaire, il est essentiel d'articuler son discours à l'aide de connecteurs logiques qui rejettent le verbe conjugué à la toute fin de la proposition subordonnée.",
+      "rules": [
+        "La conjonction 'obwohl' (bien que / quoique) introduit une concession. Le verbe conjugué occupe la dernière place.",
+        "La conjonction 'da' (puisque / étant donné que) s'utilise en tête de phrase pour introduire une cause déjà connue de l'interlocuteur, offrant une alternative plus soutenue à 'weil'."
+      ],
+      "examples": [
+        {
+          "structure": "Ich miete die Wohnung, obwohl sie teuer ist.",
+          "phonetic_api": "/ɪç ˈmiːtə diː ˈvoːnʊŋ ɔpˈvoːl ziː ˈtɔɪ̯ɐ ɪst/",
+          "meaning": "Je loue l'appartement bien qu'il soit cher."
+        },
+        {
+          "structure": "Da ich im Zentrum arbeite, wohne ich dort.",
+          "phonetic_api": "/daː ɪç ɪm ˈtsɛntʁʊm ˈaʁbaɪ̯tə ˈvoːnə ɪç dɔʁt/",
+          "meaning": "Puisque je travaille dans le centre, j'y habite."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Marek",
+      "text": "Hallo Sophie! Ich habe gehört, dass du aus deiner WG ausgezogen bist. Hast du schon eine neue Wohnung gefunden?",
+      "phonetic_api": "/haˈloː zoˈfiː ɪç ˈhaːbə ɡəˈhøːɐ̯t das duː aʊ̯s ˈdaɪ̯nɐ veːˈɡeː ˈaʊ̯sɡəˌtsoːɡn̩ bɪst hast duː ʃoːn ˈaɪ̯nə ˈnɔɪ̯ə ˈvoːnʊŋ ɡəˈfʊndn̩/",
+      "phonetic_simple": "HA-LOO ZO-FII ICH HA-BE GHE-HOERT DAS DOU AOFS DAI-NER VEE-GHEE AOFS-GHE-TSOOG-EN BIST HAST DOU CHOON AI-NE NOI-E VOON-NOUNG GHE-FOUN-DEN",
+      "translation": "Salut Sophie ! J'ai appris que tu avais quitté ta colocation. As-tu déjà trouvé un nouvel appartement ?"
+    },
+    {
+      "speaker": "Sophie",
+      "text": "Ja, zum Glück! Ich ziehe diese Woche in ein kleines Apartment im Stadtzentrum ein, direkt neben dem Park.",
+      "phonetic_api": "/jaː tsʊm ɡlʏk ɪç ˈtsiːə ˈdiːzə ˈvɔxə ɪn aɪ̯n ˈklaɪ̯nəs apaʁtˈmaŋ ɪm ˈʃtatˌfɪʁtl̩ tsɛnˈtʁʊm aɪ̯n diˈʁɛkt ˈneːbn̩ deːm paʁk/",
+      "phonetic_simple": "YA TSOUM GLOUK ICH TSII-E DII-ZE VOK-E IN AIN KLAI-NES A-PAR-TE-MENT IM CHTAT-TSEN-TROUM AIN DI-REKT NEE-BEN DEEM PARK",
+      "translation": "Oui, heureusement ! J'emménage cette semaine dans un petit studio en centre-ville, juste à côté du parc."
+    },
+    {
+      "speaker": "Marek",
+      "text": "Das klingt toll! Aber sind die Mieten im Zentrum nicht extrem hoch?",
+      "phonetic_api": "/das klɪŋkt tɔl ˈaːbɐ zɪnt diː ˈmiːtn̩ ɪm ˈtsɛntʁʊm nɪçt ɛksˈtʁeːm hoːx/",
+      "phonetic_simple": "DAS KLINKT TOL A-BER ZINT DII MII-TEN IM TSEN-TROUM NICHT EX-TREEM HOOK",
+      "translation": "Ça a l'air super ! Mais les loyers dans le centre ne sont-ils pas extrêmement élevés ?"
+    },
+    {
+      "speaker": "Sophie",
+      "text": "Doch, obwohl das Apartment klein ist, zahle ich viel. Aber da ich kein Auto habe, spare ich Geld bei den Fahrtkosten.",
+      "phonetic_api": "/dɔx ɔpˈvoːl das apaʁtˈmaŋ klaɪ̯n ɪst ˈtsaːlə ɪç fiːl ˈaːbɐ daː ɪç kaɪ̯n ˈaʊ̯toː ˈhaːbə ˈʃpaːʁə ɪç ɡɛlt baɪ̯ deːn ˈfaːɐ̯tˌkɔstn̩/",
+      "phonetic_simple": "DOK OP-VOOL DAS A-PAR-TE-MENT KLAIN IST TSA-LE ICH FIIL A-BER DA ICH KAIN AOOU-TOO HA-BE CHPA-RE ICH GELT BAI DEEN FART-KOST-EN",
+      "translation": "Si, bien que le studio soit petit, je paye cher. Mais comme je n'amène pas de voiture, j'économise de l'argent sur les frais de transport."
+    }
+  ],
+  "cultural_notes": [
+    "Le marché immobilier dans les grandes métropoles allemandes (Munich, Berlin, Francfort) est extrêmement tendu. Pour obtenir un logement, il faut fournir un dossier solide contenant la 'SCHUFA' (un document officiel certifiant l'absence de dettes) et des justificatifs de salaire constants.",
+    "La colocation ('Wohngemeinschaft' ou 'WG') n'est pas uniquement réservée aux étudiants en Allemagne. De nombreux jeunes professionnels ou personnes plus âgées optent pour ce mode de vie communautaire pour des raisons financières ou sociales.",
+    "Le concept de 'Mieterschutz' (protection des locataires) est très puissant. Les augmentations de loyer sont encadrées par la loi via le 'Mietspiegel' (index local de référence des loyers)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la préposition et le cas corrects pour compléter : 'Ich stelle den Stuhl (mettre en position verticale) [ ___ ] Balkon (der).'",
+      "options": [
+        "auf dem Balkon",
+        "auf den Balkon",
+        "in dem Balkon"
+      ],
+      "correct_answer": "auf den Balkon",
+      "explanation": "Le verbe 'stellen' indique une action de déplacement vers un but (Wohint?). On utilise donc la préposition mixte 'auf' suivie de l'accusatif masculin singulier 'den'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ich unterschreibe den Mietvertrag, [ ___ ] die Nebenkosten sehr hoch sind.",
+      "correct_answer": "obwohl",
+      "hint": "Conjonction de subordination introduisant une concession ('bien que'), rejetant le verbe 'sind' en fin de proposition."
+    }
+  ]
+}

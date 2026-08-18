@@ -1,0 +1,228 @@
+{
+  "lesson_id": "C1_M3_L8",
+  "level": "Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 8,
+  "title": "Lexique technique, professionnel et spécialisé",
+  "learning_objectives": [
+    "Maîtriser le jargon de pointe lié à la transformation numérique, à l'intelligence artificielle et à l'analyse de données",
+    "Utiliser les verbes russes d'emprunt technique configurés avec le suffixe '-ировать'",
+    "Rédiger des cahiers des charges et des notes d'impact technologique au style professionnel standard",
+    "Articuler des contraintes d'infrastructure et de déploiement lors d'arbitrages managériaux"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le néologisme 'Масштабируемость' (scalabilité) exige un enchaînement précis des consonnes initiales dures et de la palatale 'щ' : [məʂtɕɪˈbʲirʊɪ̯əməsʲtʲ]. Le 'ТЬ' final est adouci. Dans 'Внедрение', le 'в' de départ s'articule de manière sonore avant la consonne dentale : [vnʲɪˈdrʲenʲɪjə].",
+    "common_pitfalls": "Attention à la prononciation du terme 'Оптимизировать' : l'accent tonique principal est sur la syllabe '-зи-' [əptʲɪmʲɪˈzʲirəvətʲ]. Les voyelles précédentes 'о' et 'и' subissent une réduction quantitative nette."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Внедрение",
+      "phonetic_api": "/vnʲɪˈdrʲenʲɪjə/",
+      "phonetic_simple": "vni-DRIÉ-ni-ye",
+      "translation": "Implémentation / Déploiement / Intégration (D'une technologie)",
+      "example_sentence": "Внедрение искусственного интеллекта оптимизирует рутинные процессы.",
+      "example_phonetic": "/vnʲɪˈdrʲenʲɪjə ɪˈskustvʲɪnːəvə ɪntʲɪlˈlʲɛktə əptʲɪmʲɪˈzʲirʊɪ̯ɪt rʊˈtʲinnɨjə prɐˈt͡sɛssɨ/",
+      "example_translation": "L'implémentation de l'intelligence artificielle optimise les processus routiniers."
+    },
+    {
+      "word_id": "v2",
+      "term": "Масштабируемость",
+      "phonetic_api": "/məʂtɕɪˈbʲirʊɪ̯əməsʲtʲ/",
+      "phonetic_simple": "mach-tchi-BI-rou-ie-mast'",
+      "translation": "Scalabilité / Evolutivité / Capacité de mise à l'échelle",
+      "example_sentence": "Архитектура этой платформы обладает высокой масштабируемостью.",
+      "example_phonetic": "/ɐrxʲɪtʲɪkˈturə ˈɛtəj pɫatˈformɨ ɐbɫɐˈdaɪ̯ɪt vɨˈsokəj məʂtɕɪˈbʲirʊɪ̯əməsʲtʲjʊ/",
+      "example_translation": "L'architecture de cette plateforme possède une haute scalabilité."
+    },
+    {
+      "word_id": "v3",
+      "term": "Оптимизировать",
+      "phonetic_api": "/əptʲɪmʲɪˈzʲirəvətʲ/",
+      "phonetic_simple": "ap-ti-mi-ZI-ra-vat'",
+      "translation": "Optimiser / Rentabiliser / Rationaliser (Imperfectif / Perfectif)",
+      "example_sentence": "Мы стремимся оптимизировать использование серверных мощностей.",
+      "example_phonetic": "/mɨ strʲɪˈmʲim͡sʲə əptʲɪmʲɪˈzʲirəvətʲ ɪˈspoɫʲzəvənʲɪjə ˈsɛrvʲɪrnɨx ˈmoɕːnəsʲtʲɪj/",
+      "example_translation": "Nous cherchons à optimiser l'utilisation des capacités de calcul des serveurs."
+    },
+    {
+      "word_id": "v4",
+      "term": "Безопасность",
+      "phonetic_api": "/bʲɪzɐˈpasnəsʲtʲ/",
+      "phonetic_simple": "bi-za-PAS-nast'",
+      "translation": "Sécurité / Sûreté / Intégrité",
+      "example_sentence": "Информационная безопасность — наш главный приоритет при разработке.",
+      "example_phonetic": "/ɪnfərmət͡sɨˈonːəjə bʲɪzɐˈpasnəsʲtʲ naʂ ˈɡɫavnɨj prʲɪərʲɪˈtʲet prʲɪ rɐzˈrabotkʲɪ/",
+      "example_translation": "La sécurité de l'information est notre priorité absolue lors du développement."
+    },
+    {
+      "word_id": "v5",
+      "term": "Эффективность",
+      "phonetic_api": "/ɪfːɪkˈtʲivnəsʲtʲ/",
+      "phonetic_simple": "if-fik-TIV-nast'",
+      "translation": "Efficacité / Performance / Productivité",
+      "example_sentence": "Новые алгоритмы существенно повысили эффективность обработки данных.",
+      "example_phonetic": "/ˈnovɨjə ɐɫɡɐˈrʲitmɨ sʊɕːɪstfʲɪnːə pɐˈvɨsʲɪlʲɪ ɪfːɪkˈtʲivnəsʲtʲ ɐbraˈbotkʲɪ ˈdannɨx/",
+      "example_translation": "Les nouveaux algorithmes ont considérablement augmenté l'efficacité du traitement des données."
+    },
+    {
+      "word_id": "v6",
+      "term": "Инфраструктура",
+      "phonetic_api": "/ˌɪnfrəstrʊkˈturə/",
+      "phonetic_simple": "ine-fra-strouk-TOU-ra",
+      "translation": "Infrastructure / Architecture matérielle ou réseau",
+      "example_sentence": "Облачная инфраструктура обеспечивает гибкость управления ресурсами.",
+      "example_phonetic": "/ˈobɫətɕnəjə ˌɪnfrəstrʊkˈturə ɐbʲɪsˈpʲetɕɪvaɪ̯ɪt ˈgʲipkəsʲtʲ ʊprɐˈvlʲenʲɪjə rʲɪˈsursəmʲɪ/",
+      "example_translation": "L'infrastructure cloud garantit la flexibilité de la gestion des ressources."
+    },
+    {
+      "word_id": "v7",
+      "term": "Интегрировать",
+      "phonetic_api": "/ɪntʲɪˈɡrʲirəvətʲ/",
+      "phonetic_simple": "ine-ti-GRI-ra-vat'",
+      "translation": "Intégrer / Fusionner / Assimiler (Imperfectif / Perfectif)",
+      "example_sentence": "Нам удалось успешно интегрировать новые модули в текущую систему.",
+      "example_phonetic": "/nam ʊdɐˈɫosʲ ʊˈspʲeʂnə ɪntʲɪˈɡrʲirəvətʲ ˈnovɨjə ˈmodʊlʲɪ f tʲɪˈkuɕːʊjʊ sʲɪˈstʲemʊ/",
+      "example_translation": "Nous avons réussi à intégrer avec succès les nouveaux modules dans le système actuel."
+    },
+    {
+      "word_id": "v8",
+      "term": "Спецификация",
+      "phonetic_api": "/spʲɪt͡sɨfʲɪˈkat͡sɨjə/",
+      "phonetic_simple": "spi-tsi-fi-KA-tsiya",
+      "translation": "Spécification / Cahier des charges / Descriptif technique",
+      "example_sentence": "Техническая спецификация проекта должна быть утверждена до пятницы.",
+      "example_phonetic": "/tʲɪxˈnʲitɕɪskəjə spʲɪt͡sɨfʲɪˈkat͡sɨjə prɐˈɛktə dɐɫʐˈna bɨtʲ ʊtvʲɪrʐdʲɪˈna də ˈpʲatnʲit͡sɨ/",
+      "example_translation": "La spécification technique du projet doit être approuvée d'ici vendredi."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "С точки зрения технической реализуемости проекта",
+      "phonetic_api": "/s ˈtotɕkʲɪ ˈzrʲenʲɪjə tʲɪxˈnʲitɕɪskəj rʲɪəlʲɪˈzuɪ̯ɪməsʲtʲɪ prɐˈɛktə/",
+      "phonetic_simple": "s TOTCH-ki ZRIÉ-ni-ya tih-Nl-tches-kaï ri-a-li-ZOU-ie-mas-ti pra-EK-ta",
+      "translation": "Du point de vue de la faisabilité technique du projet",
+      "context": "Formule indispensable pour introduire une section d'évaluation d'ingénierie ou d'architecture informatique."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Необходимо минимизировать задержки при обработке запросов",
+      "phonetic_api": "/nʲɪɐbxɐˈdʲimə mʲɪnʲɪmʲɪˈzʲirəvətʲ zɐˈdʲerʐkʲɪ prʲɪ ɐbraˈbotkʲɪ zɐˈprosəf/",
+      "phonetic_simple": "ni-ap-ha-DI-ma mi-ni-mi-ZI-ra-vat' za-DIERJ-ki pri ab-ra-BOT-ki za-PRO-saf",
+      "translation": "Il est nécessaire de minimiser les temps de latence lors du traitement des requêtes",
+      "context": "Phrase type employée par les architectes système lors des phases de diagnostic de performance."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Данное программное обеспечение не отвечает требованиям безопасности",
+      "phonetic_api": "/ˈdannəjə prɐˈɡramnəjə ɐbʲɪsˈpʲetɕenʲɪjə nʲɪ ɐtvʲɪˈtɕaɪ̯ɪt trʲebəvənʲɪjəm bʲɪzɐˈpasnəsʲtʲɪ/",
+      "phonetic_simple": "DAN-na-ye pra-GRAM-na-ye a-bis-PIÉ-tche-ni-ye ni at-vi-TCHAI-et TRIÉ-ba-va-ni-iam bi-za-PAS-nas-ti",
+      "translation": "Ce logiciel ne répond pas aux exigences de sécurité",
+      "context": "Constat officiel rédigé lors d'un audit de conformité informatique."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Внедрение автоматизации повлечёт за собой сокращение издержек",
+      "phonetic_api": "/vnʲɪˈdrʲenʲɪjə ɐftəmətʲɪˈzat͡sɨɪ pəvlʲɪˈtɕot zɐ sɐˈboj sɐkrɐˈɕːenʲɪjə ɪzˈdʲerʐək/",
+      "phonetic_simple": "vni-DRIÉ-ni-ye af-ta-ma-ti-ZA-tsii pav-li-TCHOT za sa-BOÏ sa-kra-CHTCHIE-ni-ye iz-DIER-jak",
+      "translation": "Le déploiement de l'automatisation entraînera une réduction des coûts opérationnels",
+      "context": "Formule clé pour justifier un retour sur investissement (ROI) auprès du top management."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les verbes techniques d'emprunt international en '-ировать' (двувидовые глаголы)",
+      "explanation": "Le vocabulaire technique russe intègre massivement les racines technologiques internationales en y ajoutant le suffixe '-ировать'. La particularité majeure de ces verbes est qu'ils sont souvent 'bi-aspectuels' (двувидовые).",
+      "rules": [
+        "Le même verbe (ex: Интегрировать, Оптимизировать) peut être imperfectif ou perfectif selon le contexte de la phrase.",
+        "Au présent, ils expriment un processus (Imperfectif) ; dans des contextes de futur ou de passé, ils expriment souvent un résultat achevé (Perfectif)."
+      ],
+      "examples": [
+        {
+          "structure": "Завтра мы полностью интегрируем (Futur, valeur СВ) эту базу данных.",
+          "phonetic_api": "/ˈzaftrə mɨ ˈpoɫnəsʲtʲjʊ ɪntʲɪˈɡrʲirʊɪ̯ɪm ˈɛtʊ ˈbazʊ ˈdannɨx/",
+          "meaning": "Demain, nous intégrerons (action ponctuelle achevée) totalement cette base de données."
+        }
+      ]
+    },
+    {
+      "concept": "La régence des verbes d'influence sur les indicateurs (Повысить, Оптимизировать + Accusatif)",
+      "explanation": "Les rapports techniques nécessitent de lier précisément l'action technologique et l'indicateur mesurable impacté.",
+      "rules": [
+        "Les verbes 'повысить' (augmenter), 'снизить' (diminuer) et 'оптимизировать' (optimiser) régissent l'Accusatif direct pour leur objet.",
+        "Le bénéfice ou le moyen est souvent introduit par l'Instrumental (Повысить эффективность алгоритмами = Augmenter l'efficacité au moyen d'algorithmes)."
+      ],
+      "examples": [
+        {
+          "structure": "Новые методы позволяют повысить (Infinitif) отказоустойчивость (Accusatif) системы.",
+          "phonetic_api": "/ˈnovɨjə ˈmʲetədɨ pəzˈvoɫʲaɪ̯ʊt pɐˈvɨsʲɪtʲ ɐtkazəʊˈstoɪ̯tɕɪvəsʲtʲ sʲɪˈstʲemɨ/",
+          "meaning": "Les nouvelles méthodes permettent d'augmenter la résilience (la tolérance aux pannes) du système."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Технический директор",
+      "text": "Анна, с точки зрения технической реализуемости, внедрение этой нейросети требует модернизации всей инфраструктуры. Архитектура текущей платформы не обеспечивает необходимую масштабируемость для обработки таких массивов данных.",
+      "phonetic_api": "/ˈanːə s ˈtotɕkʲɪ ˈzrʲenʲɪjə tʲɪxˈnʲitɕɪskəj rʲɪəlʲɪˈzuɪ̯ɪməsʲtʲɪ vnʲɪˈdrʲenʲɪjə ˈɛtəj nʲeɪ̯rɐˈsʲetʲɪ trʲebʊɪ̯ɪt mɐdʲɪrnʲɪˈzat͡sɨɪ fsʲej ˌɪnfrəstrʊkˈturɨ ɐrxʲɪtʲɪkˈturə tʲɪˈkuɕːɪj pɫatˈformɨ nʲɪ ɐbʲɪsˈpʲetɕɪvaɪ̯ɪt nʲɪɐbxɐˈdʲimʊjʊ məʂtɕɪˈbʲirʊɪ̯əməsʲtʲjʊ dlʲɐ ɐbraˈbotkʲɪ tɐˈkʲɪx mɐsˈsʲivəf ˈdannɨx/",
+      "phonetic_simple": "An-na, s TOTCH-ki zrié-ni-ya tih-Nl-tches-kaï ri-a-li-ZOU-ie-mas-ti, vni-DRIÉ-ni-ye E-taï nieï-ra-SIÉ-ti TRÉ-bou-iet ma-dir-ni-ZA-tsii vsei in-fra-strouk-TOU-ry. Ar-hi-tek-TOU-ra ti-KOU-chtcheï plat-FOR-my ni a-bis-PIÉ-tchi-va-iet ni-ap-ha-Dl-mou-ou mach-tchi-Bl-rou-ie-mast' dlia ab-ra-BOT-ki ta-KIH mas-SI-vaf DAN-nyh.",
+      "translation": "Anna, du point de vue de la faisabilité technique, le déploiement de ce réseau de neurones nécessite une modernisation de toute l'infrastructure. L'architecture de la plateforme actuelle ne garantit pas la scalabilité nécessaire pour le traitement de tels volumes de données."
+    },
+    {
+      "speaker": "Главный архитектор",
+      "text": "Я согласна, но если мы оптимизируем алгоритмы фильтрации, нам удастся минимизировать задержки. Наша цель — полностью интегрировать новый модуль в систему, не нарушая требования информационной безопасности. Спецификация будет готова к вечеру.",
+      "phonetic_api": "/ja sɐˈgɫasnə no ˈjeslʲɪ mɨ əptʲɪmʲɪˈzʲirʊɪ̯ɪm ɐɫɡɐˈrʲitmɨ fʲɪlʲˈtrat͡sɨɪ nam ʊdasˈt͡sʲə mʲɪnʲɪmʲɪˈzʲirəvətʲ zɐˈdʲerʐkʲɪ ˈnaʂə t͡sɛlʲ ˈpoɫnəsʲtʲjʊ ɪntʲɪˈɡrʲirəvətʲ ˈnovɨjй ˈmodʊlʲ f sʲɪˈstʲemʊ nʲɪ nɐrʊˈʂajə trʲebəvənʲɪjə ɪnfərmət͡sɨˈonːəj bʲɪzɐˈpasnəsʲtʲɪ spʲɪt͡sɨfʲɪˈkat͡sɨjə ˈbudʲɪt ɡɐˈtovə k ˈvʲetɕɪrʊ/",
+      "phonetic_simple": "Ya sa-GLAS-na, no IES-li my ap-ti-mi-Zl-rou-iem al-ga-RIT-my fil'-TRA-tsii, nam ou-das-TSIA mi-ni-mi-Zl-ra-vat' za-DIERJ-ki. NA-cha tsel' — POL-nas-t'ou ine-ti-GRI-ra-vat' NO-vyj MO-doul' f si-STIÉ-mou, ni na-rou-CHA-ia TRIÉ-ba-va-ni-ya in-far-ma-tsi-ON-naï bi-za-PAS-nas-ti. Spi-tsi-fi-KA-tsi-ya BOU-dit ga-TO-va k VIÉ-tchi-rou.",
+      "translation": "Je suis d'accord, mais si nous optimisons les algorithmes de filtrage, nous parviendrons à minimiser les temps de latence. Notre objectif est d'intégrer complètement le nouveau module dans le système, sans enfreindre les exigences de sécurité de l'information. Le cahier des charges sera prêt ce soir."
+    }
+  ],
+  "cultural_notes": [
+    "Le vocabulaire IT russe et l'anglicisation : Le domaine de la tech en Russie utilise un double lexique. D'un côté, les termes officiels standardisés (ex: внедрение, масштабируемость) obligatoires dans les contrats et spécifications techniques. De l'autre, un jargon oral très anglicisé (деплоить, скейлить, фиче-реквест) toléré uniquement entre développeurs. Au niveau C1, la maîtrise des termes officiels formels est de rigueur.",
+    "La culture du document technique (ТЗ - Техническое задание) : En Russie, le 'TZ' (Техническое задание) est une pièce juridique cruciale. Tout écart par rapport à la spécification écrite initiale peut bloquer le paiement d'un projet de développement. La précision du vocabulaire employé dans ce document est donc stratégique."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M3_L8_ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la bonne déclinaison de l'indicateur après le verbe 'повысить' : 'Новое решение помогло существенно повысить [ ___ ] инфраструктуры.'",
+      "options": [
+        "эффективность (Accusatif)",
+        "эффективности (Génitif)",
+        "эффективностью (Instrumental)",
+        "эффективности (Datif)"
+      ],
+      "correct_answer": "эффективность (Accusatif)",
+      "explanation": "Le verbe 'повысить' régit directement le cas Accusatif. Le nom féminin 'эффективность' se terminant par un signe mou reste identique à sa forme nominale à l'Accusatif inanimé."
+    },
+    {
+      "exercise_id": "C1_M3_L8_ex2",
+      "type": "multiple_choice",
+      "question": "Quelle caractéristique sémantique définit le verbe technique 'интегрировать' ?",
+      "options": [
+        "Il s'emploie uniquement au passé.",
+        "Il est bi-aspectuel (двувидовой) и s'utilise comme imperfectif ou perfectif selon le contexte.",
+        "Il régit le cas Génitif.",
+        "Il s'utilise exclusivement à l'oral."
+      ],
+      "correct_answer": "Il est bi-aspectuel (двувидовой) и s'utilise comme imperfectif ou perfectif selon le contexte.",
+      "explanation": "Comme de nombreux verbes en '-ировать', 'интегрировать' ne change pas de forme pour basculer du perfectif à l'imperfectif, le sens se déduit du contexte de la phrase."
+    },
+    {
+      "exercise_id": "C1_M3_L8_ex3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "С точки зрения технической [ ___ ] (Реализуемость), этот проект потребует слишком много ресурсов. (Du point de vue de la faisabilité)",
+      "correct_answer": "реализуемости",
+      "hint": "Déclinez le substantif féminin 'реализуемость' au Génitif après la locution prépositionnelle 'с точки зрения'."
+    },
+    {
+      "exercise_id": "C1_M3_L8_ex4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Руководство одобрило масштабное [ ___ ] (Внедрение) новой ERP-системы. (Le déploiement / l'implémentation - Accusatif)",
+      "correct_answer": "внедрение",
+      "hint": "Substantif neutre déverbal, dont la forme à l'Accusatif reste identique au Nominatif."
+    }
+  ]
+}

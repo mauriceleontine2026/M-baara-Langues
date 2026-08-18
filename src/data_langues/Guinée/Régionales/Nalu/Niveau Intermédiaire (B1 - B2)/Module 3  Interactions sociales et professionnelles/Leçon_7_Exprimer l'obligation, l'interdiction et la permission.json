@@ -1,0 +1,163 @@
+{
+  "lesson_id": "B1_M3_L7",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 7,
+  "title": "Exprimer l'obligation, l'interdiction et la permission",
+  "learning_objectives": [
+    "Exprimer le devoir, la nécessité et les contraintes sociales",
+    "Formuler des interdictions strictes et demander l'autorisation de faire quelque chose"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'occlusive glottale /ʔ/ (le coup de glotte) intervient parfois de manière tranchée au cœur des structures négatives. La voyelle fermée /u/ dans 'suba' contraste fortement avec la voyelle ouverte /ɔ/ présente dans les constructions de défense.",
+    "common_pitfalls": "Attention à ne pas escamoter la fricative sourde /θ/ (notée 'th') dans les particules de permission au risque de fausser la portée polie de votre énoncé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v16_1",
+      "term": "Kanɛ",
+      "phonetic_api": "/ka.nɛ/",
+      "phonetic_simple": "KA-NÈ",
+      "translation": "Devoir / Falloir / Être obligatoire",
+      "example_sentence": "M kanɛ wale suba.",
+      "example_phonetic": "/m ka.nɛ wa.le su.ba/",
+      "example_translation": "Je dois travailler demain."
+    },
+    {
+      "word_id": "v16_2",
+      "term": "A gbe lan",
+      "phonetic_api": "/a ŋgbe lan/",
+      "phonetic_simple": "A NGBÉ LAN",
+      "translation": "C'est permis / Autorisé",
+      "example_sentence": "A gbe lan di ba we.",
+      "example_phonetic": "/a ŋgbe lan di ba we/",
+      "example_translation": "Il est permis de venir ici."
+    },
+    {
+      "word_id": "v16_3",
+      "term": "Bosh",
+      "phonetic_api": "/bɔʃ/",
+      "phonetic_simple": "BOSH",
+      "translation": "Interdire / Refuser",
+      "example_sentence": "M bosh wale we.",
+      "example_phonetic": "/m bɔʃ wa.le we/",
+      "example_translation": "J'interdis ce travail."
+    },
+    {
+      "word_id": "v16_4",
+      "term": "Ina thand",
+      "phonetic_api": "/i.na θand/",
+      "phonetic_simple": "I-NA THAND",
+      "translation": "Permettre / Laisser passer",
+      "example_sentence": "Ina thand mi, baa.",
+      "example_phonetic": "/i.na θand mi baː/",
+      "example_translation": "Permets-moi (laisse-moi passer), mon père."
+    },
+    {
+      "word_id": "v16_5",
+      "term": "Ce",
+      "phonetic_api": "/tʃe/",
+      "phonetic_simple": "TCHÉ",
+      "translation": "Droit / Légal / Correct",
+      "example_sentence": "A gbe ce nalu.",
+      "example_phonetic": "/a ŋgbe tʃe na.lu/",
+      "example_translation": "C'est le droit / la coutume de la famille."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p16_1",
+      "original": "M kanɛ ba di n'boka n'gbe.",
+      "phonetic_api": "/m ka.nɛ ba di n͡bo.ka ŋgbe/",
+      "phonetic_simple": "M KA-NÈ BA DI N-BO-KA NGBÉ",
+      "translation": "Je dois impérativement rentrer à la maison aujourd'hui.",
+      "context": "Indique une obligation familiale ou une contrainte horaire forte."
+    },
+    {
+      "phrase_id": "p16_2",
+      "original": "A rila a gbe lan di n'wut we?",
+      "phonetic_api": "/a ri.la a ŋgbe lan di nwut we/",
+      "phonetic_simple": "A RI-LA A NGBÉ LAN DI N-WOUT WÉ",
+      "translation": "Est-il permis de manger ceci ?",
+      "context": "Question polie pour s'assurer du respect des règles alimentaires ou de politesse."
+    },
+    {
+      "phrase_id": "p16_3",
+      "original": "A gbe bosh di soka we !",
+      "phonetic_api": "/a ŋgbe bɔʃ di so.ka we/",
+      "phonetic_simple": "A NGBÉ BOSH DI SO-KA WÉ !",
+      "translation": "Il est strictement interdit de jouer ici !",
+      "context": "Formule d'autorité employée par un adulte à l'adresse de jeunes enfants."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression impersonnelle de l'obligation et de l'interdiction",
+      "explanation": "En nalu, les notions de permission et de contrainte recourent fréquemment à des structures verbales précédées de la particule affirmative ou négative stabilisée par 'a gbe' (c'est / il est).",
+      "rules": [
+        "L'obligation ou la permission formelle introduit le verbe d'action par la préposition 'di'.",
+        "Pour basculer dans l'interdiction, le verbe restrictif 'bosh' (refuser) s'installe directement après le marqueur impersonnel."
+      ],
+      "examples": [
+        {
+          "structure": "A gbe lan di meŋ",
+          "phonetic_api": "/a ŋgbe lan di meŋ/",
+          "meaning": "Il est permis de boire"
+        },
+        {
+          "structure": "A gbe bosh di ba",
+          "phonetic_api": "/a ŋgbe bɔʃ di ba/",
+          "meaning": "Il est interdit de venir"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine",
+      "text": "Ina, baa ! A rila a gbe lan di ba di cula mwo?",
+      "phonetic_api": "/i.na baː a ri.la a ŋgbe lan di ba di tʃu.la mwo/",
+      "phonetic_simple": "I-NA, BAA ! A RI-LA A NGBÉ LAN DI BA DI TCHOU-LA MWO?",
+      "translation": "S'il te plaît, mon père ! Est-il permis d'entrer dans ta chambre ?"
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Mboye, bweten mi ! A gbe bosh n'gbe. M kanɛ wale di gbarano.",
+      "phonetic_api": "/mbo.je bʷe.ten mi a ŋgbe bɔʃ ŋgbe m ka.nɛ wa.le di g͡ba.ra.no/",
+      "phonetic_simple": "MBO-YÉ, BOUÉ-TEN MI ! A NGBÉ BOSH NGBÉ. M KA-NÈ WA-LÉ DI GBA-RA-NO.",
+      "translation": "Bonjour, mon enfant ! C'est interdit maintenant. Je dois accomplir un travail dans la cour."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "A ce ! M boku ba suba, ina thand mi.",
+      "phonetic_api": "/a tʃe m bo.ku ba su.ba i.na θand mi/",
+      "phonetic_simple": "A TCHÉ ! M BO-KOU BA SOU-BA, I-NA THAND MI.",
+      "translation": "C'est d'accord ! Je reviendrai demain, permets-moi de me retirer."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la société traditionnelle nalu, le respect des espaces privés et des prérogatives des aînés est régi par un code strict de préséance. On n'entre jamais dans la demeure ou la chambre ('cula') d'un ancien sans formuler explicitement une demande d'autorisation polie. L'interdiction ('bosh') notifiée par un sage est incontestable et acceptée avec déférence par l'ensemble de la communauté."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex16_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le terme verbal 'Kanɛ' ?",
+      "options": [
+        "Aimer",
+        "Devoir / Falloir",
+        "Nager"
+      ],
+      "correct_answer": "Devoir / Falloir",
+      "explanation": "'Kanɛ' exprime l'obligation impérative ou la nécessité absolue d'accomplir une action."
+    },
+    {
+      "exercise_id": "ex16_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour exprimer qu'une chose est proscrite ou rejetée, on dit : A gbe [ ___ ] di ba.",
+      "correct_answer": "bosh",
+      "hint": "C'est la racine signifiant détester ou refuser"
+    }
+  ]
+}

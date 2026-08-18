@@ -1,0 +1,275 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les membres de la famille nucléaire et élargie en swahili",
+    "Utiliser les adjectifs possessifs corrects pour exprimer les liens de parenté",
+    "Poser des questions sur l'entourage et y répondre",
+    "Comprendre la structure de la classe nominale des êtres humains (M/WA)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les termes de parenté intègrent des combinaisons consonantiques comme 'b' et 'm'. Le mot 'Baba' se prononce avec un b occlusif bilabial sonore [b]. Le mot 'Mama' emploie un m nasal [m]. L'accent tonique respecte rigoureusement la règle de l'avant-dernière syllabe (ex: ba-BA, ma-MA, m-RA-fi-ki).",
+    "common_pitfalls": "Attention au mot 'Mwana' (enfant) : le 'M' initial est semi-vocalique et glisse rapidement vers le 'w'. Ne détachez pas exagérément le 'M' dans ce cas précis, contrairement au 'm' syllabique de 'Mwalimu'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Familia",
+      "phonetic_api": "/faˈmi.li.a/",
+      "phonetic_simple": "FAH-MEE-LEE-AH",
+      "translation": "Famille",
+      "example_sentence": "Familia yangu ni kubwa.",
+      "example_phonetic": "/faˈmi.li.a ˈja.ŋgu ni ˈku.bwa/",
+      "example_translation": "Ma famille est grande."
+    },
+    {
+      "word_id": "v2",
+      "term": "Baba",
+      "phonetic_api": "/ˈba.ba/",
+      "phonetic_simple": "BAH-BAH",
+      "translation": "Père / Papa",
+      "example_sentence": "Baba anafanya kazi.",
+      "example_phonetic": "/ˈba.ba a.naˈfa.ɲa ˈka.zi/",
+      "example_translation": "Papa travaille."
+    },
+    {
+      "word_id": "v3",
+      "term": "Mama",
+      "phonetic_api": "/ˈma.ma/",
+      "phonetic_simple": "MAH-MAH",
+      "translation": "Mère / Maman",
+      "example_sentence": "Mama anapika chakula.",
+      "example_phonetic": "/ˈma.ma a.naˈpi.ka tʃaˈku.la/",
+      "example_translation": "Maman cuisine de la nourriture."
+    },
+    {
+      "word_id": "v4",
+      "term": "Kaka",
+      "phonetic_api": "/ˈka.ka/",
+      "phonetic_simple": "KAH-KAH",
+      "translation": "Frère (souvent frère aîné)",
+      "example_sentence": "Kaka yangu anasoma.",
+      "example_phonetic": "/ˈka.ka ˈja.ŋgu a.naˈsɔ.ma/",
+      "example_translation": "Mon frère étudie."
+    },
+    {
+      "word_id": "v5",
+      "term": "Dada",
+      "phonetic_api": "/ˈda.da/",
+      "phonetic_simple": "DAH-DAH",
+      "translation": "Sœur (souvent sœur aînée)",
+      "example_sentence": "Dada yangu anaitwa Mariam.",
+      "example_phonetic": "/ˈda.da ˈja.ŋgu ni.naˈi.twa ma.riˈa.mu/",
+      "example_translation": "Ma sœur s'appelle Mariam."
+    },
+    {
+      "word_id": "v6",
+      "term": "Mtoto",
+      "phonetic_api": "/mˈtɔ.tɔ/",
+      "phonetic_simple": "M-TOH-TOH",
+      "translation": "Enfant",
+      "example_sentence": "Mtoto analala sasa.",
+      "example_phonetic": "/mˈtɔ.tɔ a.naˈla.la ˈsa.sa/",
+      "example_translation": "L'enfant dort maintenant."
+    },
+    {
+      "word_id": "v7",
+      "term": "Rafiki",
+      "phonetic_api": "/raˈfi.ki/",
+      "phonetic_simple": "RAH-FEE-KEE",
+      "translation": "Ami / Amie",
+      "example_sentence": "Yeye ni rafiki mzuri.",
+      "example_phonetic": "/ˈjɛ.jɛ ni raˈfi.ki ˈmzu.ri/",
+      "example_translation": "Lui/Elle est un bon ami."
+    },
+    {
+      "word_id": "v8",
+      "term": "Wazazi",
+      "phonetic_api": "/waˈza.zi/",
+      "phonetic_simple": "WAH-ZAH-ZEE",
+      "translation": "Parents (père et mère)",
+      "example_sentence": "Wazazi wangu wanakaa hapa.",
+      "example_phonetic": "/waˈza.zi ˈwa.ŋgu wa.naˈka.a ˈha.pa/",
+      "example_translation": "Mes parents habitent ici."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Huyu ni nani?",
+      "phonetic_api": "/ˈhu.ju ni ˈna.ni/",
+      "phonetic_simple": "HOO-YOO NEE NAH-NEE",
+      "translation": "Qui est-ce ?",
+      "context": "En montrant une photo de famille ou en présentant un proche."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Huyu ni mama yangu.",
+      "phonetic_api": "/ˈhu.ju ni ˈma.ma ˈja.ŋgu/",
+      "phonetic_simple": "HOO-YOO NEE MAH-MAH YAHN-GOO",
+      "translation": "C'est ma mère.",
+      "context": "Réponse pour présenter sa maman."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Una watoto wangapi?",
+      "phonetic_api": "/u.na waˈtɔ.tɔ wa.ŋˈga.pi/",
+      "phonetic_simple": "OO-NAH WAH-TOH-TOH WAHN-GAH-PEE",
+      "translation": "Combien d'enfants as-tu ?",
+      "context": "Discussion amicale sur la situation familiale."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Nina watoto wawili.",
+      "phonetic_api": "/ni.na waˈtɔ.tɔ waˈwi.li/",
+      "phonetic_simple": "NEE-NAH WAH-TOH-TOH WAH-WEE-LEE",
+      "translation": "J'ai deux enfants.",
+      "context": "Réponse indiquant le nombre exact d'enfants."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Je, una kaka au dada?",
+      "phonetic_api": "/dʒɛ u.na ˈka.ka a.u ˈda.da/",
+      "phonetic_simple": "JEH OO-NAH KAH-KAH AH-OO DAH-DAH",
+      "translation": "As-tu un frère ou une sœur ?",
+      "context": "S'informer sur la fratrie d'un interlocuteur."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Sina kaka, lakini nina dada mmoja.",
+      "phonetic_api": "/ˈsi.na ˈka.ka laˈki.ni ni.na ˈda.da ˈmmɔ.dʒa/",
+      "phonetic_simple": "SEE-NAH KAH-KAH LAH-KEE-NEE NEE-NAH DAH-DAH MMOH-DJAH",
+      "translation": "Je n'ai pas de frère, mais j'ai une sœur.",
+      "context": "Réponse nuancée combinant négation et affirmation."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Habari za familia?",
+      "phonetic_api": "/haˈba.ri za faˈmi.li.a/",
+      "phonetic_simple": "HAA-BAA-REE ZAH FAH-MEE-LEE-AH",
+      "translation": "Comment va la famille ?",
+      "context": "Formule incontournable et polie pour prendre des nouvelles des proches."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Familia yangu inakusalimia.",
+      "phonetic_api": "/faˈmi.li.a ˈja.ŋgu i.na.ku.sa.liˈmi.a/",
+      "phonetic_simple": "FAH-MEE-LEE-AH YAHN-GOO EE-NAH-KOO-SAH-LEE-MEE-AH",
+      "translation": "Ma famille te salue.",
+      "context": "Transmettre les salutations chaleureuses de son foyer."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accord des adjectifs possessifs avec les êtres humains (Classe M/WA)",
+      "explanation": "Les relations humaines et familiales appartiennent principalement à la classe 1/2 (M/WA). Bien que certains mots comme 'baba' ou 'mama' n'utilisent pas le préfixe habituel 'm-' au singulier, ils exigent les accords de possessifs propres aux êtres humains.",
+      "rules": [
+        "Le préfixe possessif singulier pour la classe des personnes est 'w-' devant les voyelles.",
+        "Mon/Ma se traduit par '-angu' -> 'wangu'.",
+        "Ton/Ta se traduit par '-ako' -> 'wako'.",
+        "Son/Sa se traduit par '-ake' -> 'wake'."
+      ],
+      "examples": [
+        {
+          "structure": "Baba (Père) + w- (Accord) + angu (Mon)",
+          "phonetic_api": "/ˈba.ba ˈwa.ŋgu/",
+          "meaning": "Mon père"
+        },
+        {
+          "structure": "Watoto (Enfants) + w- (Accord pluriel) + etu (Notre)",
+          "phonetic_api": "/waˈtɔ.tɔ ˈwɛ.tu/",
+          "meaning": "Nos enfants"
+        }
+      ]
+    },
+    {
+      "concept": "La négation du verbe avoir ('kuwa na')",
+      "explanation": "Au présent, exprimer la possession 'avoir' se fait via l'outil 'na' associé au préfixe sujet (ex: 'nina' = j'ai). Pour passer à la forme négative 'je n'ai pas', la structure change complètement.",
+      "rules": [
+        "La formule négative pour 'je n'ai pas' est 'Sina'.",
+        "La formule négative pour 'tu n'as pas' est 'Huna'.",
+        "La formule négative pour 'il/elle n'a pas' est 'Hana'."
+      ],
+      "examples": [
+        {
+          "structure": "Si- (Négation) + na (Avoir) = Sina",
+          "phonetic_api": "/ˈsi.na/",
+          "meaning": "Je n'ai pas"
+        },
+        {
+          "structure": "Hu- (Négation) + na (Avoir) = Huna",
+          "phonetic_api": "/ˈhu.na/",
+          "meaning": "Tu n'as pas"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ali",
+      "text": "Juma, huyu ni nani kwenye picha?",
+      "phonetic_api": "/ˈdʒu.ma ˈhu.ju ni ˈna.ni ˈkwɛ.nɲɛ ˈpi.tʃa/",
+      "phonetic_simple": "DJOO-MAH HOO-YOO NEE NAH-NEE KWEH-NYEH PEE-CHAH",
+      "translation": "Juma, qui est-ce sur la photo ?"
+    },
+    {
+      "speaker": "Juma",
+      "text": "Huyu ni baba yangu na huyu ni mama yangu.",
+      "phonetic_api": "/ˈhu.ju ni ˈba.ba ˈwa.ŋgu na ˈhu.ju ni ˈma.ma ˈja.ŋgu/",
+      "phonetic_simple": "HOO-YOO NEE BAH-BAH WAHN-GOO NAH HOO-YOO NEE MAH-MAH YAHN-GOO",
+      "translation": "C'est mon père et c'est ma mère."
+    },
+    {
+      "speaker": "Ali",
+      "text": "Je, una kaka au dada?",
+      "phonetic_api": "/dʒɛ u.na ˈka.ka a.u ˈda.da/",
+      "phonetic_simple": "JEH OO-NAH KAH-KAH AH-OO DAH-DAH",
+      "translation": "As-tu un frère ou une sœur ?"
+    },
+    {
+      "speaker": "Juma",
+      "text": "Nina kaka mmoja lakini sina dada. Na wewe?",
+      "phonetic_api": "/ni.na ˈka.ka ˈmmɔ.dʒa laˈki.ni ˈsi.na ˈda.da na ˈwɛ.jɛ/",
+      "phonetic_simple": "NEE-NAH KAH-KAH MMOH-DJAH LAH-KEE-NEE SEE-NAH DAH-DAH NAH WEH-YEH",
+      "translation": "J'ai un frère mais je n'ai pas de sœur. Et toi ?"
+    },
+    {
+      "speaker": "Ali",
+      "text": "Mimi nina dada wawili. Familia yangu inakaa Arusha.",
+      "phonetic_api": "/ˈmi.mi ni.na ˈda.da waˈwi.li faˈmi.li.a ˈja.ŋgu i.naˈka.a aˈru.ʃa/",
+      "phonetic_simple": "MEE-MEE NEE-NAH DAH-DAH WAH-WEE-LEE FAH-MEE-LEE-AH YAHN-GOO EE-NAH-KAA AH-ROO-SHAH",
+      "translation": "Moi, j'ai deux sœurs. Ma famille habite à Arusha."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les sociétés swahilies, les notions de 'Kaka' (frère) et 'Dada' (sœur) s'étendent fréquemment aux cousins germains. La distinction entre famille nucléaire et famille élargie est très fluide.",
+    "Il est d'usage d'appeler respectueusement toute femme d'un âge mûr 'Mama' et tout homme d'un âge mûr 'Baba', même s'il n'existe aucun lien de parenté biologique direct.",
+    "Prendre longuement des nouvelles de la famille de son interlocuteur ('Habari za nyumbani?', 'Habari za watoto?') est une marque indispensable de politesse et de considération humaine au quotidien."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment traduit-on correctement l'expression 'Mes parents' en swahili standard ?",
+      "options": [
+        "Wazazi langu",
+        "Wazazi wangu",
+        "Familia yangu",
+        "Watoto wangu"
+      ],
+      "correct_answer": "Wazazi wangu",
+      "explanation": "'Wazazi' signifie parents au pluriel, et requiert l'accord possessif pluriel de la classe humaine 'wangu'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mimi [ ___ ] kaka. (Complétez pour dire 'Je n'ai pas de frère')",
+      "correct_answer": "sina",
+      "hint": "C'est la forme négative de la première personne du singulier pour le verbe avoir."
+    }
+  ]
+}

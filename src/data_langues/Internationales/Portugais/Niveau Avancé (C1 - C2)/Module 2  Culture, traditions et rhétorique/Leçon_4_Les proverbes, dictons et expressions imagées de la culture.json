@@ -1,0 +1,252 @@
+{
+  "lesson_id": "C1_M2_L4",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 4,
+  "title": "Proverbes, dictons et expressions imagées",
+  "learning_objectives": [
+    "Décoder le sens métaphorique des proverbes traditionnels portugais",
+    "Intégrer des expressions idiomatiques idiomatiques de niveau C1 dans un discours fluide",
+    "Saisir les nuances culturelles et l'humour pragmatique ancré dans la sagesse populaire"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Dans l'expression 'vão-se os anéis', la liaison entre le verbe et le pronom produit un son fluide [ˈvɐ̃wsu]. Le mot 'grão' exige une forte nasalisation de la diphtongue [gɾsplit̃w]. Le 'ç' de 'esperança' reste sourd [iʃpɨˈɾsplit̃sɐ].",
+    "common_pitfalls": "Attention au mot 'olho' : le 'o' initial est très fermé [ˈuʎu] et ressemble au 'ou' français. Ne prononcez pas le 'h' dans 'haver' car il reste muet."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Ditado",
+      "phonetic_api": "/diˈtaðu/",
+      "phonetic_simple": "DEE-TAH-DOO",
+      "translation": "Dicton / Proverbe",
+      "example_sentence": "A minha avó conhecia sempre um ditado para cada situação.",
+      "example_phonetic": "/ɐ ˈmiɲɐ ɐˈvɔ kuɲɨˈsiɐ ˈsẽpɾɨ ũ diˈtaðu ˈpɐɾɐ ˈksplitðɐ situɐˈsɐ̃w/",
+      "example_translation": "Ma grand-mère connaissait toujours un dicton pour chaque situation."
+    },
+    {
+      "word_id": "v2",
+      "term": "Anel",
+      "phonetic_api": "/splitˈnɛɫ/",
+      "phonetic_simple": "AH-NEL",
+      "translation": "Bague / Anneau",
+      "example_sentence": "Ela perdeu o seu anel de estimação na praia.",
+      "example_phonetic": "/ˈɛlɐ pɨɾˈðew u seu splitˈnɛɫ dɨ iʃtimɐˈsɐ̃w nɐ ˈpɾajɐ/",
+      "example_translation": "Elle a perdu sa bague précieuse à la plage."
+    },
+    {
+      "word_id": "v3",
+      "term": "Grão",
+      "phonetic_api": "/gɾsplit̃w/",
+      "phonetic_simple": "GRANG",
+      "translation": "Grain",
+      "example_sentence": "O pássaro comeu o grão de bico que caiu no chão.",
+      "example_phonetic": "/u ˈpassplitɾu kuˈmew u gɾsplit̃w dɨ ˈβiku kɨ ksplitˈjiw nu ʃsplit̃w/",
+      "example_translation": "L'oiseau a mangé le pois chiche (grain) qui est tombé par terre."
+    },
+    {
+      "word_id": "v4",
+      "term": "Papar",
+      "phonetic_api": "/pɐˈpaɾ/",
+      "phonetic_simple": "PAH-PAR",
+      "translation": "Manger (familier) / Se faire duper (fig.)",
+      "example_sentence": "Ele não é homem de papar grupos.",
+      "example_phonetic": "/ˈelɨ nɐ̃w ɛ ˈɔmɐ̃j dɨ pɐˈpaɾ ˈgɾupuʃ/",
+      "example_translation": "Ce n'est pas un homme à se faire mener en bateau (duper)."
+    },
+    {
+      "word_id": "v5",
+      "term": "Sábio",
+      "phonetic_api": "/ˈsabju/",
+      "phonetic_simple": "SAH-BYOO",
+      "translation": "Sage / Savant",
+      "example_sentence": "O conselho do velho sábio mudou a minha perspetiva.",
+      "example_phonetic": "/u kõˈseʎu du ˈvɛʎu ˈsabju muˈðow ɐ ˈmiɲɐ pɨɾʃpɛˈtsplitivɐ/",
+      "example_translation": "Le conseil du vieux sage a changé ma perspective."
+    },
+    {
+      "word_id": "v6",
+      "term": "Patinho",
+      "phonetic_api": "/pɐˈtiɲu/",
+      "phonetic_simple": "PAH-TEE-NYOO",
+      "translation": "Caneton (fig. : caer que nem um patinho -> se faire avoir)",
+      "example_sentence": "Infelizmente, ele caiu que nem um patinho na armadilha.",
+      "example_phonetic": "/ĩfɨliʒˈmẽtɨ ˈelɨ ksplitˈjiw kɨ nsplit̃j ũ pɐˈtiɲu nɐ splitɾmɐˈðiɫɐ/",
+      "example_translation": "Malheureusement, il s'est fait avoir comme un bleu dans le piège."
+    },
+    {
+      "word_id": "v7",
+      "term": "Metáfora",
+      "phonetic_api": "/mɨˈtafuɾɐ/",
+      "phonetic_simple": "M'H-TAH-FOO-RAH",
+      "translation": "Métaphore",
+      "example_sentence": "A literatura portuguesa é rica em metáforas marítimas.",
+      "example_phonetic": "/ɐ litɨɾsplitˈtuɾɐ puɾtuˈɣezɐ ɛ ˈʁikɐ split̃j mɨˈtafuɾɐʒ mɐˈɾitʲimɐʃ/",
+      "example_translation": "La littérature portugaise est riche en métaphores maritimes."
+    },
+    {
+      "word_id": "v8",
+      "term": "Verbiagem",
+      "phonetic_api": "/vɨɾβiˈaʒsplitj/",
+      "phonetic_simple": "VAIR-BYAH-JENG",
+      "translation": "Verbiage / Paroles en l'air",
+      "example_sentence": "Prefiro ações concretas a essa verbiagem inútil.",
+      "example_phonetic": "/pɾɨˈfiɾu splitˈsõjʃ kõˈkɾɛtɐz split ˈɛsɐ vɨɾβiˈaʒsplitj iˈnutʲiɫ/",
+      "example_translation": "Je préfère des actions concrètes à ce verbiage inutile."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Vão-se os anéis, mas fiquem os dedos.",
+      "phonetic_api": "/ˈvɐ̃wsu uz splitˈnɛjʒ msplitʃ ˈfiksplit̃j uʃ ˈðeðuʃ/",
+      "phonetic_simple": "VANG-SOO OOZ AH-NAYCH MACH FEE-KENG OOCH DAY-DOOCH",
+      "translation": "L'important est de sauver l'essentiel (lit. que les bagues s'en aillent, pourvu que les doigts restent).",
+      "context": "Philosopher après une perte matérielle pour relativiser la situation."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Grão a grão, enche a galinha o papo.",
+      "phonetic_api": "/gɾsplit̃w split gɾsplit̃w ˈẽʃɐ ɐ gsplitˈlĩɲɐ u ˈpsplitpu/",
+      "phonetic_simple": "GRANG AH GRANG EN-CHAH AH GAH-LEEN-YAH OO PAH-POO",
+      "translation": "Petit à petit, l'oiseau fait son nid (lit. grain par grain, la poule remplit son jargon).",
+      "context": "Encourager la patience, l'épargne ou la persévérance à long terme."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Em terra de cegos, quem tem um olho é rei.",
+      "phonetic_api": "/split̃j ˈtɛʁɐ dɨ ˈsɛɣuʃ ksplit̃j tsplit̃j ũ ˈuʎu ɛ ʁaj/",
+      "phonetic_simple": "ENG TAIR-RAH D'H SÈ-GOOCH KENG TENG OONG OH-LYOO É RAY",
+      "translation": "Au royaume des aveugles, les borgnes sont rois.",
+      "context": "Constater qu'une compétence minimale suffit là où personne n'en a."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Quem não tem cão, caça com gato.",
+      "phonetic_api": "/ksplit̃j nɐ̃w tsplit̃j kɐ̃w ˈksplitsɐ kõ ˈgattu/",
+      "phonetic_simple": "KENG NANG TENG KANG KAH-SAH KON GAH-TOO",
+      "translation": "À défaut de grive, on mange des merles (lit. qui n'a pas de chien chasse avec un chat).",
+      "context": "S'adapter avec les moyens du bord face à un manque d'outils."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Não se pode ter sol na eira e chuva no nabal.",
+      "phonetic_api": "/nɐ̃w sɨ ˈpɔðɨ teɾ sɔɫ nɐ ˈajɾsplit i ˈʃuvɐ nu nɐˈβsplitɫ/",
+      "phonetic_simple": "NANG S'H PÓ-D'H TAIR SÓL NAH AY-RAH EE CHOO-VAH NOO NAH-BAL",
+      "translation": "On ne peut pas avoir le beurre et l'argent du beurre (lit. avoir du soleil sur l'aire de battage et de la pluie sur le champ de navets).",
+      "context": "Rappeler qu'il faut faire un choix et qu'on ne peut tout avoir simultanément."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "A cavalo dado não se olha o dente.",
+      "phonetic_api": "/split kɐˈβsplitlu ˈðaðu nɐ̃w sɨ ˈuʎu u ˈdẽtɨ/",
+      "phonetic_simple": "AH KAH-VAH-LOO DAH-DOO NANG S'H OH-LYAH OO DEN-T'H",
+      "translation": "À cheval donné on ne regarde pas la denture.",
+      "context": "Accepter un cadeau ou une aide sans en critiquer les défauts."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "De pequenino se torce o pepino.",
+      "phonetic_api": "/dɨ pɨkɨˈnʲinu sɨ ˈtɔɾsɨ u pɨˈpʲinu/",
+      "phonetic_simple": "D'H P'H-K'H-NEE-NOO S'H TOR-S'H OO P'H-PEE-NOO",
+      "translation": "C'est dès le plus jeune âge que se forge l'éducation (lit. c'est petit qu'on tord le concombre).",
+      "context": "Évoquer l'importance d'inculquer de bonnes habitudes très tôt."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Águas passadas não movem moinhos.",
+      "phonetic_api": "/ˈaɣwsplitʃ pɐˈsaðɐʃ nɐ̃w ˈmɔvsplitj̃ mwiˈɲuʃ/",
+      "phonetic_simple": "AH-GWACH PAH-SAH-DACH NANG MÓ-VENG MWEE-NYOOCH",
+      "translation": "Le passé c'est le passé / L'eau a coulé sous les ponts (lit. les eaux passées ne font pas tourner les moulins).",
+      "context": "Inciter à aller de l'avant sans ressasser les erreurs révolues."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'usage du Présent de Gnomique (ou présent de vérité générale) dans la rhétorique",
+      "explanation": "Les proverbes et dictons utilisent presque exclusivement le présent de l'indicatif à valeur gnomique pour exprimer des faits intemporels ou des règles morales indiscutables.",
+      "rules": [
+        "Le sujet est souvent introduit de manière indéfinie par le pronom relatif 'quem' (ex: Quem canta, seus males espanta).",
+        "L'inversion du sujet et de l'objet est fréquente pour préserver la métrique ou la rime traditionnelle (ex: enche a galinha o papo)."
+      ],
+      "examples": [
+        {
+          "structure": "Quem tudo quer, tudo perde.",
+          "phonetic_api": "/ksplit̃j ˈtuðu kɛɾ ˈtuðu ˈpɛɾðɨ/",
+          "meaning": "Qui veut trop, perd tout (Présent de vérité générale)."
+        }
+      ]
+    },
+    {
+      "concept": "Les structures elliptiques et impératives implicites",
+      "explanation": "La sagesse populaire omet souvent des verbes ou des segments entiers pour rendre la formule plus percutante et mémorable.",
+      "rules": [
+        "Structure : [A + Nom donné], [Négation + se + Verbe] -> Formule d'économie linguistique (ex: A cavalo dado não se olha o dente).",
+        "Utilisation de la coordination d'opposition forte sans verbe de transition (ex: Vão-se os anéis, mas fiquem os dedos)."
+      ],
+      "examples": [
+        {
+          "structure": "Mais vale um pássaro na mão do que dois a voar.",
+          "phonetic_api": "/mɐjʒ ˈvalɨ ũ ˈpasplitɾu nɐ msplit̃w du kɨ dɔjʒ split vuˈaɾ/",
+          "meaning": "Un tiens vaut mieux que deux tu l'auras (lit. Mieux vaut un oiseau dans la main que deux en train de voler)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Afonso",
+      "text": "Olá Leonor. O negócio falhou e perdemos grande parte do investimento na bolsa. Sinto que retrocedemos anos de trabalho.",
+      "phonetic_api": "/oˈla lʲwˈnoɾ u nɨˈɣɔsju fsplitˈlʲow i pɨɾˈðemuʃ ˈgɾsplit̃dɨ ˈpaɾtɨ du ĩvɨʃtiˈmẽtu nɐ ˈβɔɫssplit ˈsĩtu kɨ ʁɨtɾusɨˈðemuʃ ˈsplitnuʒ dɨ tɾsplitβsplitˈʎu/",
+      "phonetic_simple": "OH-LAH LYOH-NOR OO N'H-GÓ-SYOO FAH-LYOW EE PAIR-DAY-MOOCH GRAN-D'H PAR-T'H DOO EEN-V'HCH-TEE-MENTOO NAH BÓL-SAH SEEN-TOO K'H RECH-TROO-S'H-DAY-MOOCH AN-OOCH D'H TRAH-BAH-LYOO",
+      "translation": "Salut Leonor. L'affaire a échoué et nous avons perdu une grande partie de l'investissement en bourse. J'ai l'impression que nous avons régressé de plusieurs années de travail."
+    },
+    {
+      "speaker": "Leonor",
+      "text": "Compreendo, Afonso, mas desanimar não ajuda. Como diz o ditado: vão-se os anéis, mas fiquem os dedos. Salvámos a estrutura central da empresa.",
+      "phonetic_api": "/kõpɾiˈẽdu splitˈfõsu msplitʃ dɨzsplitniˈmaɾ nɐ̃w splitˈʒuðsplit ˈkomu diʒ u diˈtaðu ˈvɐ̃wsu uz splitˈnɛjʒ msplitʃ ˈfiksplit̃j uʃ ˈðeðuʃ sɐɫˈvsplitmuʃ ɐ iʃtɾuˈtuɾɐ sĩˈtɾaɫ dɐ 2ẽˈpɾezɐ/",
+      "phonetic_simple": "KON-PRYEN-DOO AH-FON-SOO MACH DEZ-AH-NEE-MAR NANG AH-JHOO-DAH KOH-MOO DEEJ OO DEE-TAH-DOO VANG-SOO OOZ AH-NAYCH MACH FEE-KENG OOCH DAY-DOOCH SAL-VAH-MOOCH AH ECH-TROO-TOO-RAH SEN-TRAL DAH EM-PRAY-ZAH",
+      "translation": "Je comprends, Afonso, mais se décourager n'aide en rien. Comme dit le dicton : l'essentiel est sauf. Nous avons sauvé la structure centrale de l'entreprise."
+    },
+    {
+      "speaker": "Afonso",
+      "text": "Tens razão. Teremos de recomeçar do zero, poupando cada cêntimo a partir de agora.",
+      "phonetic_api": "/tɐ̃jʒ ʁsplitˈzsplitw t tsplitˈɾemuʃ dɨ ʁɨkumɨˈsaɾ du ˈzɛɾu powˈpsplit̃du ˈksplitðɐ ˈsẽtʲimu split pɐɾˈtiɾ dɨ splitˈgɔɾsplit/",
+      "phonetic_simple": "TENG-CH RAH-ZANG TAY-MOOCH D'H RECH-KOO-M'H-SAR DOO ZÈ-ROO POW-PAN-DOO KAH-DAH SEN-TEE-MOO AH PAR-TEER D'H AH-GÓ-RAH",
+      "translation": "Tu as raison. Nous devrons repartir de zéro, en économisant chaque centime à partir de maintenant."
+    },
+    {
+      "speaker": "Leonor",
+      "text": "Exatamente. Lembra-te de que, grão a grão, enche a galinha o papo. Com paciência e rigor, recuperaremos o capital perdido.",
+      "phonetic_api": "/izsplittsplitˈmẽtɨ ˈlẽβsplitɾsplit.tɨ dɨ kɨ gɾsplit̃w split gɾsplit̃w ˈẽʃɐ ɐ gsplitˈlĩɲɐ u ˈpsplitpu kõ psplitˈsjẽsjɐ i ʁiˈɣoɾ ʁɨkupsplitˈɾsplitmuʃ u ksplitpitˈtaɫ pɨɾˈðiðu/",
+      "phonetic_simple": "EE-ZAT-AH-MEN-T'H LEM-BRAH-T'H D'H K'H GRANG AH GRANG EN-CHAH AH GAH-LEEN-YAH OO PAH-POO KON PAH-SYEN-SYAH EE REE-GOR RECH-KOO-P'H-RAH-MOOCH OO KAH-PEE-TAL PAIR-DEE-DOO",
+      "translation": "Exactement. Souviens-toi que petit à petit, l'oiseau fait son nid. Avec de la patience et de la rigueur, nous récupérerons le capital perdu."
+    }
+  ],
+  "cultural_notes": [
+    "La culture portugaise accorde une place immense à la sagesse proverbiale, souvent issue d'une longue tradition rurale et maritime. Utiliser des dictons pertinents lors d'un discours soutenu témoigne d'une fine connaissance de l'âme nationale (o fado, a resiliência).",
+    "Les proverbes portugais reflètent souvent un stoïcisme pragmatique face à la fatalité ou aux difficultés économiques, incitant toujours à la débrouillardise ('caça com gato') et à l'économie prudente ('grão a grão')."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel proverbe utiliseriez-vous pour conseiller à quelqu'hui d'accepter une aide ou un cadeau sans faire la fine bouche ?",
+      "options": [
+        "Quem não tem cão, caça com gato.",
+        "A cavalo dado não se olha o dente.",
+        "Águas passadas não movem moinhos."
+      ],
+      "correct_answer": "A cavalo dado não se olha o dente.",
+      "explanation": "Ce proverbe signifie précisément qu'on ne doit pas critiquer ou scruter les défauts d'un bien reçu gratuitement."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Complétez le proverbe qui rappelle qu'on ne peut pas avoir tout en même temps : Não se pode ter sol na eira e chuva no [ ___ ].",
+      "correct_answer": "nabal",
+      "hint": "Il s'agit du champ de navets dans la métaphore agricole d'origine."
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Structurer un récit simple au passé en utilisant l'aspect perfectif",
+    "Employer correctement la particule de passé accompli 'bata'",
+    "Utiliser les adverbes de temps du passé pour situer chronologiquement des événements"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne double 'xt' dans 'nuuxta' s'articule comme une transition rapide entre la fricative vélaire sourde /x/ et l'occlusive alvéolaire /t/. L'accentuation de la particule 'bata' /ba.ta/ est plane, les deux voyelles ayant la même durée brève.",
+    "common_pitfalls": "Veillez à ne pas allonger le 'a' final de 'bata' au point d'en faire une voyelle double, ce qui changerait la valeur syntaxique de cet auxiliaire temporel."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v13_1",
+      "term": "Bata",
+      "phonetic_api": "/ba.ta/",
+      "phonetic_simple": "BA-TA",
+      "translation": "Marqueur de l'aspect accompli / Passé récent",
+      "example_sentence": "N bata falan sɔtɔ.",
+      "example_phonetic": "/ŋ ba.ta fa.lan sɔ.tɔ/",
+      "example_translation": "J'ai parlé (j'ai obtenu la parole)."
+    },
+    {
+      "word_id": "v13_2",
+      "term": "Nuu",
+      "phonetic_api": "/nuː/",
+      "phonetic_simple": "NOOU",
+      "translation": "Marqueur d'imparfait ou d'action continue dans le passé",
+      "example_sentence": "N nuu na walife mɛ.",
+      "example_phonetic": "/ŋ nuː na wa.li.fe mɛ/",
+      "example_translation": "J'étais en train de travailler ici."
+    },
+    {
+      "word_id": "v13_3",
+      "term": "Xoro",
+      "phonetic_api": "/xo.ro/",
+      "phonetic_simple": "KHO-RO",
+      "translation": "Hier",
+      "example_sentence": "N bata faa xoro.",
+      "example_phonetic": "/ŋ ba.ta faː xo.ro/",
+      "example_translation": "Je suis venu hier."
+    },
+    {
+      "word_id": "v13_4",
+      "term": "Xoronina",
+      "phonetic_api": "/xo.ro.ni.na/",
+      "phonetic_simple": "KHO-RO-NI-NA",
+      "translation": "Avant-hier",
+      "example_sentence": "A siga xoronina.",
+      "example_phonetic": "/a si.ɡa xo.ro.ni.na/",
+      "example_translation": "Il est parti avant-hier."
+    },
+    {
+      "word_id": "v13_5",
+      "term": "Singe",
+      "phonetic_api": "/sin.ɡe/",
+      "phonetic_simple": "SIN-GUÉ",
+      "translation": "D'abord / Autrefois / Premier",
+      "example_sentence": "Singe, n nuu na Faranah.",
+      "example_phonetic": "/sin.ɡe ŋ nuː na fa.ra.nah/",
+      "example_translation": "Autrefois, j'étais à Faranah."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p13_1",
+      "original": "Mun bata xiri xoro ?",
+      "phonetic_api": "/mun ba.ta xi.ri xo.ro/",
+      "phonetic_simple": "MOUN BA-TA KHI-RI KHO-RO ?",
+      "translation": "Que s'est-il passé hier ?",
+      "context": "Questionner un interlocuteur sur les événements de la veille."
+    },
+    {
+      "phrase_id": "p13_2",
+      "original": "N bata siga taaxui mɛ xoro.",
+      "phonetic_api": "/ŋ ba.ta si.ɡa taː.xui mɛ xo.ro/",
+      "phonetic_simple": "N BA-TA SI-GA TAA-KHOUI MÈ KHO-RO",
+      "translation": "Je suis allé en ville hier.",
+      "context": "Raconter un déplacement récent complété au passé."
+    },
+    {
+      "phrase_id": "p13_3",
+      "original": "N nuu na malo donfe tɛmɛni na.",
+      "phonetic_api": "/ŋ nuː na ma.lo don.fe tɛ.mɛ.ni na/",
+      "phonetic_simple": "N NOOU NA MA-LO DON-FÉ TÈ-MÈ-NI NA",
+      "translation": "J'étais en train de manger du riz à ce moment-là.",
+      "context": "Décrire une action continue interrompue dans le passé."
+    },
+    {
+      "phrase_id": "p13_4",
+      "original": "A bata donseɲari mabuge xoronina.",
+      "phonetic_api": "/a ba.ta don.se.ɲa.ri ma.bu.ɡe xo.ro.ni.na/",
+      "phonetic_simple": "A BA-TA DON-SÉ-NYA-RI MA-BOU-GUÉ KHO-RO-NI-NA",
+      "translation": "Il a vu la cuisinière avant-hier.",
+      "context": "Relater une rencontre passée précise."
+    },
+    {
+      "phrase_id": "p13_5",
+      "original": "Singe, n baabaa nuu na mabilinde fanyin mɛ.",
+      "phonetic_api": "/sin.ɡe ŋ baː.baː nuː na ma.bi.lin.de fan.jin mɛ/",
+      "phonetic_simple": "SIN-GUÉ, N BAA-BAA NOOU NA MA-BI-LIN-DÉ FAN-YIN MÈ",
+      "translation": "Autrefois, mon père habitait dans ce bon quartier.",
+      "context": "Introduire un élément de contexte historique personnel."
+    },
+    {
+      "phrase_id": "p13_6",
+      "original": "Wali bata ba m bɛ xoro.",
+      "phonetic_api": "/wa.li ba.ta ba m bɛ xo.ro/",
+      "phonetic_simple": "WA-LI BA-TA BA M BÈ KHO-RO",
+      "translation": "Mon travail s'est terminé hier.",
+      "context": "Annoncer la complétion ou la fin d'une tâche."
+    },
+    {
+      "phrase_id": "p13_7",
+      "original": "E bata faa tua mɛ subaxɛ na.",
+      "phonetic_api": "/e ba.ta faː tua mɛ su.ba.xɛ na/",
+      "phonetic_simple": "É BA-TA FAA TOUA MÈ SOU-BA-KHÈ NA",
+      "translation": "Ils sont arrivés dans la concession ce matin.",
+      "context": "Informer de l'arrivée récente de visiteurs."
+    },
+    {
+      "phrase_id": "p13_8",
+      "original": "N mu a mabuge xoro.",
+      "phonetic_api": "/ŋ mu a ma.bu.ɡe xo.ro/",
+      "phonetic_simple": "N MOU A MA-BOU-GUÉ KHO-RO",
+      "translation": "Je ne l'ai pas vu hier.",
+      "context": "Formuler une négation au passé accompli."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'aspect accompli avec la particule 'bata'",
+      "explanation": "En Yalunka, le passé composé ou l'action achevée s'exprime au moyen de la particule aspectuelle 'bata'. Elle se place invariablement entre le pronom sujet et la racine verbale.",
+      "rules": [
+        "Structure : Sujet + bata + Verbe + (Complément)",
+        "À la forme négative, 'bata' s'efface au profit de la seule particule de négation 'mu' devant le verbe."
+      ],
+      "examples": [
+        {
+          "structure": "N bata siga.",
+          "phonetic_api": "/ŋ ba.ta si.ɡa/",
+          "meaning": "Je suis parti / J'ai marché."
+        },
+        {
+          "structure": "N mu siga.",
+          "phonetic_api": "/ŋ mu si.ɡa/",
+          "meaning": "Je ne suis pas parti (Négation du passé)."
+        }
+      ]
+    },
+    {
+      "concept": "L'imparfait de description avec 'nuu'",
+      "explanation": "Pour traduire l'imparfait français ou exprimer un état ou une action en cours de déroulement dans le passé, on insère le morphème temporel 'nuu' immédiatement après le sujet.",
+      "rules": [
+        "Structure progressive passée : Sujet + nuu + na + Verbe-fe",
+        "Sert de décor ou d'arrière-plan chronologique dans le récit."
+      ],
+      "examples": [
+        {
+          "structure": "A nuu na walife.",
+          "phonetic_api": "/a nuː na wa.li.fe/",
+          "meaning": "Il était en train de travailler."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sekou",
+      "text": "Amara, i bata siga taaxui mɛ xoro nɛ ?",
+      "phonetic_api": "/a.ma.ra i ba.ta si.ɡa taː.xui mɛ xo.ro nɛ/",
+      "phonetic_simple": "A-MA-RA, I BA-TA SI-GA TAA-KHOUI MÈ KHO-RO NÈ ?",
+      "translation": "Amara, es-tu allé en ville hier ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "Nba, n bata siga taaxui mɛ xoro subaxɛ na. N bɛ n ngaxanfe mabuge.",
+      "phonetic_api": "/ŋba ŋ ba.ta si.ɡa taː.xui mɛ xo.ro su.ba.xɛ na ŋ bɛ ŋ ŋa.xan.fe ma.bu.ɡe/",
+      "phonetic_simple": "NBA, N BA-TA SI-GA TAA-KHOUI MÈ KHO-RO SOU-BA-KHÈ NA. N BÈ N NGA-KHAN-FÉ MA-BOU-GUÉ",
+      "translation": "Oui, j'y suis allé hier matin. Je devais voir mon frère."
+    },
+    {
+      "speaker": "Sekou",
+      "text": "A nuu na min ? A nuu na banxi mɛ ?",
+      "phonetic_api": "/a nuː na min a nuː na ban.xi mɛ/",
+      "phonetic_simple": "A NOOU NA MIN ? A NOOU NA BAN-KHI MÈ ?",
+      "translation": "Où était-il ? Était-il à la maison ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "A mu na banxi mɛ. A nuu na walife marketi fɛ. Won bata falan sɔtɔ da.ɲi.",
+      "phonetic_api": "/a mu na ban.xi mɛ a nuː na wa.li.fe mar.ke.ti fɛ won ba.ta fa.lan sɔ.tɔ da.ɲi/",
+      "phonetic_simple": "A MOU NA BAN-KHI MÈ. A NOOU NA WA-LI-FÉ MAR-KÉ-TI FÈ. WON BA-TA FA-LAN SO-TO DA-NYI",
+      "translation": "Il n'était pas à la maison. Il était en train de travailler près du marché. Nous avons discuté là-bas."
+    }
+  ],
+  "cultural_notes": [
+    "La transmission des récits historiques ou familiaux chez les Jalonké commence fréquemment par le terme 'Singe' (autrefois/au début), posant un cadre respectueux du temps long et de la mémoire collective.",
+    "L'évocation d'actions complétées au passé fait toujours l'objet de précisions contextuelles minutieuses (moment de la journée, présence d'un tiers) pour attester de la véracité des faits rapportés lors des palabres."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex13_1",
+      "type": "multiple_choice",
+      "question": "Quel marqueur aspectuel Yalunka utilisez-vous pour exprimer le passé accompli affirmatif ?",
+      "options": [
+        "Nuu",
+        "Bata",
+        "Birin"
+      ],
+      "correct_answer": "Bata",
+      "explanation": "'Bata' est la particule obligatoire pour marquer l'accomplissement d'une action passée au mode affirmatif."
+    },
+    {
+      "exercise_id": "ex13_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'hier' en Yalunka, on emploie l'adverbe temporel [ ___ ].",
+      "correct_answer": "xoro",
+      "hint": "Ce mot commence par la fricative sourde 'x' et se termine par la voyelle 'o'."
+    }
+  ]
+}

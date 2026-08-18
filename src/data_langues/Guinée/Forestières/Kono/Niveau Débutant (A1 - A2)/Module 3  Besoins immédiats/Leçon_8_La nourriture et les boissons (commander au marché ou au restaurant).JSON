@@ -1,0 +1,123 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons",
+  "learning_objectives": [
+    "Nommer les denrées de base (riz, eau)",
+    "Exprimer le besoin d'acheter ou de consommer de la nourriture"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La nasale /ɲ/ s'emploie fréquemment pour la nourriture. La voyelle longue sur le mot 'riz' doit être parfaitement exécutée.",
+    "common_pitfalls": "Attention à bien distinguer l'aspiration sur la consonne initiale du mot eau."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v8_1",
+      "term": "málɔ́",
+      "phonetic_api": "/málɔ́/",
+      "phonetic_simple": "MA-LO",
+      "translation": "riz",
+      "example_sentence": "ń yé málɔ́ pɔ́.",
+      "example_phonetic": "/ń jé málɔ́ pɔ́/",
+      "example_translation": "Je veux du riz."
+    },
+    {
+      "word_id": "v8_2",
+      "term": "jíí",
+      "phonetic_api": "/ɟíː/",
+      "phonetic_simple": "DJII",
+      "translation": "eau",
+      "example_sentence": "ń yé jíí mì.",
+      "example_phonetic": "/ń jé ɟíː mì/",
+      "example_translation": "Je bois de l'eau."
+    },
+    {
+      "word_id": "v8_3",
+      "term": "mì",
+      "phonetic_api": "/mì/",
+      "phonetic_simple": "MI",
+      "translation": "boire",
+      "example_sentence": "jíí mì",
+      "example_phonetic": "/ɟíː mì/",
+      "example_translation": "boire de l'eau"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p8_1",
+      "original": "Ń yé jíí pɔ́.",
+      "phonetic_api": "/ń jé ɟíː pɔ́/",
+      "phonetic_simple": "N YE DJII PO",
+      "translation": "Je veux de l'eau.",
+      "context": "Formuler une demande de base en arrivant dans une maison."
+    },
+    {
+      "phrase_id": "p8_2",
+      "original": "Ń kɔ́ngɔ́ káá.",
+      "phonetic_api": "/ń kɔ́ŋɡɔ́ káː/",
+      "phonetic_simple": "N KON-GO KAA",
+      "translation": "J'ai faim (La faim est présente).",
+      "context": "Exprimer un besoin vital de nourriture."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le verbe de souhait ou de volonté 'pɔ́'",
+      "explanation": "Le verbe 'pɔ́' (vouloir / désirer) se place après le sujet et commande directement l'objet désiré sans préposition intercalée.",
+      "rules": [
+        "Il porte un ton haut fixe.",
+        "À l'accompli négatif, il subit une modification vocalique."
+      ],
+      "examples": [
+        {
+          "structure": "ń + yé + málɔ́ + pɔ́",
+          "phonetic_api": "/ń jé málɔ́ pɔ́/",
+          "meaning": "Je veux du riz."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Hôte",
+      "text": "I kɔ́ngɔ́ káá ?",
+      "phonetic_api": "/i kɔ́ŋɡɔ́ káː/",
+      "phonetic_simple": "I KON-GO KAA ?",
+      "translation": "As-tu faim ?"
+    },
+    {
+      "speaker": "Invité",
+      "text": "Íí, ń yé málɔ́ pɔ́.",
+      "phonetic_api": "/íː ń jé málɔ́ pɔ́/",
+      "phonetic_simple": "II, N YE MA-LO PO",
+      "translation": "Oui, je veux du riz."
+    }
+  ],
+  "cultural_notes": [
+    "Le riz constitue l'aliment de base incontournable en Guinée forestière. Dire 'j'ai mangé' implique presque obligatoirement d'avoir consommé un plat à base de riz."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex8_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'jíí' ?",
+      "options": [
+        "Riz",
+        "Eau",
+        "Viande"
+      ],
+      "correct_answer": "Eau",
+      "explanation": "'jíí' désigne explicitement l'eau potable ou courante."
+    },
+    {
+      "exercise_id": "ex8_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "ń yé [ ___ ] pɔ́ (Je veux du riz)",
+      "correct_answer": "málɔ́",
+      "hint": "Riz."
+    }
+  ]
+}

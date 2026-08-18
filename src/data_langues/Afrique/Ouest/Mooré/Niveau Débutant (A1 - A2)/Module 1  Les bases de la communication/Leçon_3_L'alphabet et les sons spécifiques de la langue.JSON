@@ -1,0 +1,233 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Identifier et prononcer les 28 lettres de l'alphabet officiel du mooré",
+    "Distinguer les voyelles particulières (ɩ, ʋ) et maîtriser le mécanisme de l'allongement vocalique",
+    "Produire correctement les consonnes spécifiques et les nasalisations en contexte"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'alphabet mooré moderne comporte 21 consonnes et 7 voyelles de base (a, e, i, ɩ, o, u, ʋ). Les caractères 'ɩ' [ɪ] et 'ʋ' [ʊ] sont des voyelles intermédiaires dites 'ouvertes'. Le doublement d'une voyelle (aa, ee, oo) crée une voyelle longue dont la durée d'émission double par rapport à la brève. La nasalisation s'indique par un tilde (~) ou se déduit de la présence des consonnes nasales (m, n, ñ, ng).",
+    "common_pitfalls": "La confusion entre 'i' [i] (fermé comme en français) et 'ɩ' [ɪ] (ouvert, proche du 'i' de l'anglais 'bit') change radicalement le sens d'un mot. De même, veillez à ne pas prononcer le 'g' final ou intervocalique de façon trop dure [g], il glisse souvent vers un son expiré ou frictionné [ɣ]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v3_1",
+      "term": "Gubre",
+      "phonetic_api": "/ɣubre/",
+      "phonetic_simple": "GOU-BRÉ",
+      "translation": "Lettre de l'alphabet / Caractère",
+      "example_sentence": "Gubre la woto.",
+      "example_phonetic": "/ɣubre la woto/",
+      "example_translation": "Voici la lettre."
+    },
+    {
+      "word_id": "v3_2",
+      "term": "Biiga",
+      "phonetic_api": "/bɪːɣa/",
+      "phonetic_simple": "BII-GA",
+      "translation": "Enfant (exemple de voyelle longue 'ii')",
+      "example_sentence": "Biiga yaa laafi.",
+      "example_phonetic": "/bɪːɣa jaː laːfi/",
+      "example_translation": "L'enfant va bien."
+    },
+    {
+      "word_id": "v3_3",
+      "term": "Kɩre",
+      "phonetic_api": "/kɪre/",
+      "phonetic_simple": "KIR-É",
+      "translation": "Couper (exemple de la voyelle ouverte 'ɩ')",
+      "example_sentence": "M kɩre rēogo.",
+      "example_phonetic": "/m kɪre reːɣo/",
+      "example_translation": "Je coupe le bois."
+    },
+    {
+      "word_id": "v3_4",
+      "term": "Bʋge",
+      "phonetic_api": "/bʊɣe/",
+      "phonetic_simple": "BOU-GUÉ",
+      "translation": "Prédire / Deviner (exemple de la voyelle ouverte 'ʋ')",
+      "example_sentence": "A bʋge gãnde.",
+      "example_phonetic": "/a bʊɣe ɡãːnde/",
+      "example_translation": "Il a deviné le rêve."
+    },
+    {
+      "word_id": "v3_5",
+      "term": "Ñwẽga",
+      "phonetic_api": "/ɲwẽɣa/",
+      "phonetic_simple": "NWIIN-GA",
+      "translation": "Corde (exemple de consonne palatale nasale)",
+      "example_sentence": "Ñwẽga yaa woko.",
+      "example_phonetic": "/ɲwẽɣa jaː woko/",
+      "example_translation": "La corde est longue."
+    },
+    {
+      "word_id": "v3_6",
+      "term": "Zãngo",
+      "phonetic_api": "/zãŋɡo/",
+      "phonetic_simple": "ZAN-NGO",
+      "translation": "Totalement / Entièrement (exemple de la nasale vélaire 'ng')",
+      "example_sentence": "M fãan zãngo.",
+      "example_phonetic": "/m fãːn zãŋɡo/",
+      "example_translation": "Moi tout entier."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p3_1",
+      "original": "Guls-y gubre kãngã.",
+      "phonetic_api": "/ɡuls i ɣubre kãŋɡã/",
+      "phonetic_simple": "GOULS-I GOU-BRÉ KAN-NGAN",
+      "translation": "Écrivez cette lettre.",
+      "context": "Ordre ou consigne pédagogique courante en classe de langue."
+    },
+    {
+      "phrase_id": "p3_2",
+      "original": "Pipi gubre yaa 'A'.",
+      "phonetic_api": "/pipi ɣubre jaː a/",
+      "phonetic_simple": "PI-PI GOU-BRÉ YAA A",
+      "translation": "La première lettre est le 'A'.",
+      "context": "Explication de l'ordre alphabétique."
+    },
+    {
+      "phrase_id": "p3_3",
+      "original": "Fills-y gom-biiga.",
+      "phonetic_api": "/fills i ɡombɪːɣa/",
+      "phonetic_simple": "FILLS-I GOM-BII-GA",
+      "translation": "Épelez le mot.",
+      "context": "Instruction pour décomposer la prononciation ou l'orthographe d'un terme."
+    },
+    {
+      "phrase_id": "p3_4",
+      "original": "M pa wõmd bōene.",
+      "phonetic_api": "/m pa wõmd boːene/",
+      "phonetic_simple": "M PA WOMD BÓO-NÉ",
+      "translation": "Je ne comprends pas le son.",
+      "context": "Phrase utile pour l'apprenant face à une difficulté d'écoute."
+    },
+    {
+      "phrase_id": "p3_5",
+      "original": "Tōgs-y laafi.",
+      "phonetic_api": "/toːɡs i laːfi/",
+      "phonetic_simple": "TOGS-I LAA-FI",
+      "translation": "Répétez correctement / Parlez distinctement.",
+      "context": "Consigne d'articulation donnée par un interlocuteur."
+    },
+    {
+      "phrase_id": "p3_6",
+      "original": "Yaa võor bōe ?",
+      "phonetic_api": "/jaː võːr boːe/",
+      "phonetic_simple": "YAA VOOR BÓOE",
+      "translation": "Quel est le sens ? / Que signifie ce son ?",
+      "context": "Question sur la valeur sémantique d'un mot proche phonétiquement d'un autre."
+    },
+    {
+      "phrase_id": "p3_7",
+      "original": "Gom-biis nins pūasẽ.",
+      "phonetic_api": "/ɡombɪːs nins puːasẽ/",
+      "phonetic_simple": "GOM-BIIS NINS POO-A-SUEN",
+      "translation": "À l'intérieur de ces mots.",
+      "context": "Indication pour analyser des structures de syllabes."
+    },
+    {
+      "phrase_id": "p3_8",
+      "original": "Ad-y gulsda.",
+      "phonetic_api": "/ad i ɡulsda/",
+      "phonetic_simple": "AD-I GOULS-DA",
+      "translation": "Regardez l'écriture.",
+      "context": "Appel à l'attention visuelle sur le tableau ou un support écrit."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'harmonie vocalique et l'ouverture des voyelles",
+      "explanation": "Le mooré applique un principe d'harmonie vocalique basé sur le degré d'ouverture de la bouche. Les voyelles s'organisent en deux sous-systèmes : les voyelles tendues/fermées (e, i, o, u) et les voyelles relâchées/ouvertes (ɩ, ʋ).",
+      "rules": [
+        "Dans la racine d'un même mot, une voyelle ouverte comme 'ɩ' appelle généralement des suffixes ou des morphèmes possédant également une coloration ouverte.",
+        "Le changement de timbre d'une voyelle brève à une voyelle longue ne modifie pas sa nature ouverte ou fermée, mais altère le lexique."
+      ],
+      "examples": [
+        {
+          "structure": "i (fermé) vs ɩ (ouvert)",
+          "phonetic_api": "/biːɣa/ (biiga) vs /bɪːɣa/ (bɩɩga)",
+          "meaning": "Enfant (biiga) vs Calebasse cassée (bɩɩga)"
+        }
+      ]
+    },
+    {
+      "concept": "Le redoublement consonantique graphique et phonique",
+      "explanation": "Certaines consonnes du mooré s'écrivent doubles (comme ll ou mm) pour marquer une intensité ou indiquer une modification morphologique liée à la conjugaison ou à la dérivation.",
+      "rules": [
+        "La consonne géminée ralentit le rythme de la syllabe précédente.",
+        "Le 'ng' quant à lui n'est pas une double consonne mais le digramme officiel représentant l'unité nasale [ŋ]."
+      ],
+      "examples": [
+        {
+          "structure": "Digramme unique ng [ŋ]",
+          "phonetic_api": "/zãŋɡo/",
+          "meaning": "Entièrement (Le bloc 'ng' fusionne au fond de la gorge)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Karen-saãmba (Le maître)",
+      "text": "Ne y bēogo, karen-biisi ! Ad-y lēb-y gulsda.",
+      "phonetic_api": "/ne i beːɣo karenbɪːsi ad i leb i ɡulsda/",
+      "phonetic_simple": "NÉ I BÉE-GO KA-REN-BII-SI ! AD-I LEB-I GOULS-DA",
+      "translation": "Bonjour les étudiants ! Regardez à nouveau l'écriture."
+    },
+    {
+      "speaker": "Moussa (L'étudiant)",
+      "text": "Ne y bēogo, m baa. Bōe la gubre kãngã võore ?",
+      "phonetic_api": "/ne i beːɣo m baː boːe la ɣubre kãŋɡã võːre/",
+      "phonetic_simple": "NÉ I BÉE-GO M BAA. BÓOE LA GOU-BRÉ KAN-NGAN VOO-RÉ ?",
+      "translation": "Bonjour, maître. Quel est le sens de cette lettre ?"
+    },
+    {
+      "speaker": "Karen-saãmba (Le maître)",
+      "text": "Yaa 'ɩ'. Fills-y gom-biiga laafi.",
+      "phonetic_api": "/jaː ɩ fills i ɡombɪːɣa laːfi/",
+      "phonetic_simple": "YAA I. FILLS-I GOM-BII-GA LAA-FI",
+      "translation": "C'est la lettre 'ɩ'. Épelez le mot correctement."
+    },
+    {
+      "speaker": "Moussa (L'étudiant)",
+      "text": "M wõmdame, barka woto !",
+      "phonetic_api": "/m wõmdame barka woto/",
+      "phonetic_simple": "M WOM-DA-MÉ, BAR-KA WO-TO !",
+      "translation": "Je comprends maintenant, merci beaucoup !"
+    }
+  ],
+  "cultural_notes": [
+    "L'alphabet national du mooré a été standardisé et fixé par la Commission Nationale des Langues Burkinabè afin d'unifier l'écriture de la langue face aux différents dialectes régionaux (le mooré de Ouagadougou, d'Ouahigouya ou de Koudougou).",
+    "La maîtrise de l'écriture des signes 'ɩ' et 'ʋ' est un symbole fort d'alphabétisation et de fierté culturelle au Burkina Faso, car ces caractères distinguent visuellement les langues nationales de l'alphabet français hérité.",
+    "La transmission orale traditionnelle des Mossi accorde une importance capitale à l'exactitude des sons : un mot mal articulé lors de la récitation d'un arbre généalogique ou d'un proverbe pouvait autrefois être perçu comme un manque de respect envers les ancêtres."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex3_1",
+      "type": "multiple_choice",
+      "question": "Parmi ces trois voyelles du mooré, laquelle est qualifiée de voyelle ouverte et s'écrit de manière spécifique par rapport au français ?",
+      "options": [
+        "o",
+        "ɩ",
+        "e"
+      ],
+      "correct_answer": "ɩ",
+      "explanation": "La lettre 'ɩ' est le symbole officiel utilisé pour noter le son vocalique ouvert [ɪ], inexistant dans l'alphabet latin classique du français."
+    },
+    {
+      "exercise_id": "ex3_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Quand une voyelle est écrite deux fois comme dans 'biiga', sa prononciation doit être [ ___ ].",
+      "correct_answer": "allongée",
+      "hint": "Qualificatif lié à la durée d'émission du son par rapport à une voyelle simple."
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Récits et narration",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Articuler avec précision l'usage du Pretérito Perfeito Simples et du Pretérito Imperfeito",
+    "Structurer chronologiquement un récit ou une anecdote dans le passé",
+    "Utiliser les connecteurs temporels pour marquer les ruptures narratives et les habitudes passées"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La terminaison '-ava' de l'imparfait des verbes du 1er groupe (ex: brincava) se prononce avec un 'a' initial ouvert et un 'a' final très bref et réduit [ˈβsplitvsplit]. La lettre 's' dans 'passado' ou 'costumava' glisse en [z] uniquement si elle est unique entre deux voyelles, mais reste sourde [s] dans 'passado' car elle est doublée.",
+    "common_pitfalls": "Attention à la prononciation des formes irrégulières du Pretérito Perfeito comme 'fiz' [fiʃ] ou 'tive' [ˈtivɨ]. Ne confondez pas le 'e' fermé de 'lembrança' [lẽˈβsplit̃splitsu] avec un son ouvert."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Infância",
+      "phonetic_api": "/ĩˈfɐ̃sjɐ/",
+      "phonetic_simple": "EEN-FAN-SYAH",
+      "translation": "Enfance",
+      "example_sentence": "Tive uma infância muito feliz no campo.",
+      "example_phonetic": "/ˈtivɨ ˈumɐ ĩˈfɐ̃sjɐ ˈmũjtu fɨˈliʃ nu ˈkɐ̃pu/",
+      "example_translation": "J'ai eu une enfance très heureuse à la campagne."
+    },
+    {
+      "word_id": "v2",
+      "term": "Lembrança",
+      "phonetic_api": "/lẽˈβsplit...splitsu/",
+      "phonetic_simple": "LEN-BRAN-SAH",
+      "translation": "Souvenir",
+      "example_sentence": "Guardo esta lembrança com beaucoup de affection.",
+      "example_phonetic": "/ˈɡwaɾðu ˈeʃtɐ lẽˈβsplit...splitsu kõ ˈmũjtu kɐˈɾiɲu/",
+      "example_translation": "Je garde ce souvenir avec beaucoup d'affection."
+    },
+    {
+      "word_id": "v3",
+      "term": "Costumar",
+      "phonetic_api": "/kuʃtuˈmaɾ/",
+      "phonetic_simple": "KOOCH-TOO-MAR",
+      "translation": "Avoir l'habitude de (au passé : costumava)",
+      "example_sentence": "Antigamente, eu costumava ler antes de dormir.",
+      "example_phonetic": "/split...tiɣɐˈmẽtɨ ew kuʃtuˈmavu lɨɾ ˈsplit...tɨʃ dɨ duɾˈmiɾ/",
+      "example_translation": "Autrefois, j'avais l'habitude de lire avant de dormir."
+    },
+    {
+      "word_id": "v4",
+      "term": "Brincar",
+      "phonetic_api": "/bɾĩˈkaɾ/",
+      "phonetic_simple": "BREEN-KAR",
+      "translation": "Jouer (amusement d'enfant)",
+      "example_sentence": "Nós brincávamos na rua até tarde.",
+      "example_phonetic": "/nɔʃ bɾĩˈkavumuʃ nɐ ˈʁuɐ split...tɛ ˈtaɾdɨ/",
+      "example_translation": "Nous jouions dans la rue jusqu'à tard."
+    },
+    {
+      "word_id": "v5",
+      "term": "Acontecer",
+      "phonetic_api": "/split...kõtɨˈseɾ/",
+      "phonetic_simple": "AH-KON-T'H-SER",
+      "translation": "Se passer / Arriver",
+      "example_sentence": "Isso aconteceu há muitos anos.",
+      "example_phonetic": "/ˈisu split...kõtɨˈsew a ˈmũjtuʃ ˈsplit...nuʃ/",
+      "example_translation": "Cela s'est passé il y a de nombreuses années."
+    },
+    {
+      "word_id": "v6",
+      "term": "Passado",
+      "phonetic_api": "/pɐˈsaðu/",
+      "phonetic_simple": "PAH-SAH-DOO",
+      "translation": "Passé / Dernier",
+      "example_sentence": "No ano passado viajei para os Açores.",
+      "example_phonetic": "/nu ˈsplit...nu pɐˈsaðu vjɐˈʒaj ˈpɐɾɐ uz ɐˈsoɾɨʃ/",
+      "example_translation": "L'année dernière, j'ai voyagé aux Açores."
+    },
+    {
+      "word_id": "v7",
+      "term": "Esquecer-se",
+      "phonetic_api": "/iʃkɨˈseɾ.sɨ/",
+      "phonetic_simple": "EECH-K'H-SER-S'H",
+      "translation": "Oublier (verbe pronominal)",
+      "example_sentence": "Nunca me esqueci daquele dia importante.",
+      "example_phonetic": "/ˈnũkɐ mɨ iʃkɨˈsi dɐˈkelɨ ˈdiɐ ĩpuɾˈtsplit̃tɨ/",
+      "example_translation": "Je n'ai jamais oublié ce jour important."
+    },
+    {
+      "word_id": "v8",
+      "term": "Antigamente",
+      "phonetic_api": "/split...tiɣɐˈmẽtɨ/",
+      "phonetic_simple": "AN-TEE-GAH-MEN-T'H",
+      "translation": "Autrefois / Auparavant",
+      "example_sentence": "Antigamente a vida era mais simples.",
+      "example_phonetic": "/split...tiɣɐˈmẽtɨ ɐ ˈviðɐ ˈɛɾɐ mɐjʃ ˈsĩplɨʃ/",
+      "example_translation": "Autrefois, la via était plus simple."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Quando eu era criança, vivia numa pequena aldeia.",
+      "phonetic_api": "/ˈkwɐ̃du ew ˈɛɾɐ kɾiˈsplit...su viˈviɐ ˈnumɐ pɨˈkenɐ split...ðɐjɐ/",
+      "phonetic_simple": "KWAN-DOO EW È-RAH KREE-AN-SAH VEE-VEE-AH NOO-MAH P'H-KAY-NAH AL-DAY-AH",
+      "translation": "Quand j'étais enfant, je vivais dans un petit village.",
+      "context": "Formule d'introduction classique pour raconter des souvenirs d'enfance."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "De repente, o telefone tocou e tudo mudou.",
+      "phonetic_api": "/dɨ ʁɨˈpẽtɨ u tɨlɨˈfɔnɨ tuˈkow i ˈtuðu muˈðow/",
+      "phonetic_simple": "D'H R'H-PEN-T'H OO T'H-L'H-FÓ-N'H TOO-KOW EE TOO-DOO MOO-KOW",
+      "translation": "Soudain, le téléphone a sonné et tout a changé.",
+      "context": "Marquer une rupture narrative ponctuelle dans un récit au passé."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Costumávamos passar as férias de verão em casa dos meus avós.",
+      "phonetic_api": "/kuʃtuˈvavu-muʃ pɐˈsaɾ split...ʃ ˈfɛɾjɐʃ dɨ vɨˈɾsplit...w split...j ˈkazɐ dɨʒ mewz ɐˈvɔʃ/",
+      "phonetic_simple": "KOOCH-TOO-VAH-VOO-MOOCH PAH-SAR ACH FAIR-YACH D'H V'H-RANG ENG KAH-ZAH DECH MEWZ AH-VÓCH",
+      "translation": "Nous avions l'habitude de passer les vacances d'été chez mes grands-parents.",
+      "context": "Décrire une habitude, un décor ou une routine du passé."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Naquela altura, não tínhamos internet nem telemóveis.",
+      "phonetic_api": "/nɐˈkɛlɐ split...tuɾɐ nɐ̃w ˈtʲĩɐmuʃ ĩtɨɾˈnɛt nsplit...j tɨlɨˈmɔvɐjʃ/",
+      "phonetic_simple": "NAH-KÈ-LAH AL-TOO-RAH NANG TEEN-YAH-MOOCH EEN-TAIR-NET NENG T'H-L'H-MÓ-VAYCH",
+      "translation": "À cette époque-là, nous n'avions ni internet ni téléphones portables.",
+      "context": "Faire une comparaison descriptive ou temporelle avec le présent."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Ontem de manhã, apanhei um susto terrível.",
+      "phonetic_api": "/ˈõtɐ̃j dɨ mɐˈɲã split...pɐˈɲaj ũ ˈʃuʃtu tɨˈʁivɛɫ/",
+      "phonetic_simple": "ON-TENG D'H MAH-NYANG AH-PAH-NYAY OONG SOOCH-TOO TAIR-REE-VEL",
+      "translation": "Hier matin, j'ai eu une frayeur terrible.",
+      "context": "Introduire une anecdote ou un fait divers précis."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Lembro-me perfeitamente do meu primeiro dia de escola.",
+      "phonetic_api": "/ˈlẽβsplit...ɾu.mɨ pɨɾfɐjtɐˈmẽtɨ du mew pɾiˈmɐjɾu ˈdiɐ dɨ iʃˈkɔlɐ/",
+      "phonetic_simple": "LEN-BROO-M'H PAIR-FAY-TAH-MEN-T'H DOO MEW PREE-MAY-ROO DEE-AH D'H ECH-KÓ-LAH",
+      "translation": "Je me souviens parfaitement de mon premier jour d'école.",
+      "context": "Évoquer un souvenir marquant et défini."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Enquanto eu estudava, o meu irmão ouvia música.",
+      "phonetic_api": "/split...kkwɐ̃tu ew iʃtuˈðavɐ u mew iɾˈmɐ̃w owˈviɐ ˈmuzikɐ/",
+      "phonetic_simple": "EN-KWAN-TOO EW ECH-TOO-DAH-VAH OO MEW EER-MANG OW-VEE-AH MOO-ZEE-KAH",
+      "translation": "Pendant que j'étudiais, mon frère écoutait de la musique.",
+      "context": "Exprimer deux actions simultanées en cours de déroulement dans le passé."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Foi uma experiência inesquecível para todos.",
+      "phonetic_api": "/foj ˈumɐ iʃpɨɾiˈẽsjɐ iniʃkɨˈsivɛɫ ˈpɐɾɐ ˈtoðuʃ/",
+      "phonetic_simple": "FOY OO-MAH ECH-P'H-RYEN-SYAH EEN-ECH-K'H-SEE-VEL PAH-RAH TO-DOOCH",
+      "translation": "Ce fut une expérience inoubliable pour tous.",
+      "context": "Conclure le récit d'un événement marquant du passé."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'articulation narrative : Pretérito Perfeito Simples vs Imperfeito",
+      "explanation": "La distinction entre ces deux temps est le pilier des temps du récit en portugais. Elle correspond à la structure d'arrière-plan et de premier plan du récit.",
+      "rules": [
+        "Pretérito Perfeito Simples (Action achevée) : exprime un fait ponctuel, unique, complètement terminé à un moment précis, ou une suite d'actions chronologiques (ex: Ontem comprei um livro e li dois capítulos).",
+        "Pretérito Imperfeito (Décor / Habitude) : sert à décrire une situation en cours dans le passé sans limites de temps, poser le décor (météo, âge, états d'âme), ou exprimer des actions répétitives et habituelles (ex: O sol brilhava e eu tinha dez anos)."
+      ],
+      "examples": [
+        {
+          "structure": "Eu caminhava na rua quando vi o acidente.",
+          "phonetic_api": "/ew kɐmiˈɲavɐ nɐ ˈʁuɐ ˈkwɐ̃du vi u splitsiˈðẽtɨ/",
+          "meaning": "Je marchais (Imparfait : action longue en cours) dans la rue quand j'ai vu (Passé simple : action ponctuelle qui interrompt) l'accident."
+        }
+      ]
+    },
+    {
+      "concept": "Les connecteurs temporels pour structurer le récit",
+      "explanation": "Pour articuler les faits passés, l'utilisation de connecteurs permet de guider l'interlocuteur à travers la chronologie de l'histoire.",
+      "rules": [
+        "Marquer la simultanéité : Enquanto (Pendant que) + Imperfeito.",
+        "Marquer la rupture ou l'immédiateté : De repente (Soudain), subitamente (Subitement) + Perfeito.",
+        "Situer dans une époque révolue : Antigamente (Autrefois), naquela altura (À cette époque-là)."
+      ],
+      "examples": [
+        {
+          "structure": "Enquanto jantávamos, faltou a luz de repente.",
+          "phonetic_api": "/split...kkwɐ̃tu ʒsplit̃ˈtavumuʃ faɫˈtow ɐ luʃ dɨ ʁɨˈpẽtɨ/",
+          "meaning": "Pendant que nous dînions (simultanéité), l'électricité a coupé soudainement (rupture)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Gonçalo",
+      "text": "Olá Beatriz! Ontem encontrei umas fotografias antigas da nossa infância. Lembras-te de quando vínhamos para aqui brincar?",
+      "phonetic_api": "/oˈla βsplit...ˈtɾiʃ ˈõtɐ̃j ẽkõˈtɾaj ˈumɐʃ futuɣɾɐˈfiɐz split...tiɣɐʒ dɐ ˈnɔsɐ ĩˈfɐ̃sjɐ ˈlẽβsplit...ɾɐʃ.tɨ dɨ ˈkwɐ̃du ˈvĩɲɐmuʃ ˈpɐɾɐ ɐˈki bɾĩˈkaɾ/",
+      "phonetic_simple": "OH-LAH BE-AH-TREECH ON-TENG EN-KON-TRAY OO-MACH FOO-TOO-GRAH-FEE-ACH AN-TEE-GACH DAH NÓ-SAH EEN-FAN-SYAH LEM-BRACH-T'H D'H KWAN-DOO VEEN-YAH-MOOCH PAH-RAH AH-KEE BREEN-KAR",
+      "translation": "Salut Beatriz ! Hier j'ai trouvé des photos anciennes de notre enfance. Tu te souviens de quand nous venions jouer ici ?"
+    },
+    {
+      "speaker": "Beatriz",
+      "text": "Olá Gonçalo! Claro que sim. Naquela altura, nós costumávamos passar horas a correr pelo jardim. O tempo parecia voar.",
+      "phonetic_api": "/oˈla ɡõˈsalu ˈklɐɾu kɨ sɐ̃j nɐˈkɛlɐ split...tuɾɐ nɔʃ kuʃtuˈvavu-muʃ pɐˈsaɾ ˈɔɾɐz split... ˈkuʁeɾ ˈpelu ʒɐɾˈðĩ u ˈtẽpu psplit...split...ˈsiɐ vuˈaɾ/",
+      "phonetic_simple": "OH-LAH GON-SAH-LOO KLAH-ROO K'H SEENG NAH-KÈ-LAH AL-TOO-RAH NOCH KOOCH-TOO-VAH-VOO-MOOCH PAH-SAR Ó-RACH AH COOR-RER PAY-LOO JAR-DEENG OO TEN-POO PAH-R'H-SEE-AH VOO-AR",
+      "translation": "Salut Gonçalo ! Bien sûr que oui. À cette époque-là, nous avions l'habitude de passer des heures à courir dans le jardin. Le temps semblait voler."
+    },
+    {
+      "speaker": "Gonçalo",
+      "text": "É verdade. E lembras-te do dia em que o teu cão fugiu e subiu àquela árvore?",
+      "phonetic_api": "/ɛ vɨɾˈðaðɨ i ˈlẽβsplit...ɾɐʃ.tɨ du ˈdiɐ ɐ̃j kɨ u tew kɐ̃w fuˈʒiw i suˈβiw ɐˈkɛlɐ ˈaɾvuɾɨ/",
+      "phonetic_simple": "É VAIR-DAH-D'H EE LEM-BRACH-T'H DOO DEE-AH ENG K'H OO TEW KANG FOO-JEEW EE SOO-BEEW AH-KÈ-LAH AR-VOO-R'H",
+      "translation": "C'est vrai. Et tu te souviens du jour où ton chien s'est enfui et a grimpé sur cet arbre ?"
+    },
+    {
+      "speaker": "Beatriz",
+      "text": "Ai, que susto! Eu comecei a chorar, mas felizmente o vizinho apareceu e ajudou-nos. Que grande dia foi esse!",
+      "phonetic_api": "/aj kɨ ˈʃuʃtu ew kumɨˈsaj split... ʃuˈɾaɾ mɐʃ fɨliʒˈmẽtɨ u viˈziɲu split...psplit...split...ˈsew i split...ʒuˈðow-nuʃ kɨ ˈɡɾsplit...dɨ ˈdiɐ foj ˈesɨ/",
+      "phonetic_simple": "AY K'H SOOCH-TOO EW KOO-M'H-SAY AH CHOO-RAR MACH F'H-LEEJ-MEN-T'H OO VEE-ZEE-NYOO AH-PAH-R'H-SEEW EE AH-JOO-DOW-NOOCH K'H GRAN-D'H DEE-AH FOY AY-S'H",
+      "translation": "Ah, quelle frayeur ! J'ai commencé à pleurer (faits précis), mais heureusement le voisin est apparu et nous a aidés. Quel grand jour ce fut !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture portugaise, l'art de raconter des histoires passées est souvent teinté de nostalgie heureuse. Les récits d'enfance partagés en famille mettent en valeur les jeux de rue traditionnels (comme le cache-cache appelé 'escondidas').",
+    "Les connecteurs comme 'naquela altura' ou 'no meu tempo' sont omniprésents dans la bouche des locaux lorsqu'ils comparent l'évolution rapide de la société moderne portugaise avec les décennies passées."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Complétez correctement le récit : 'Enquanto eu ______ (ler) o jornal, o comboio ______ (parar) de repente.'",
+      "options": [
+        "li / parava",
+        "lia / parou",
+        "li / parou"
+      ],
+      "correct_answer": "lia / parou",
+      "explanation": "L'action continue d'arrière-plan requiert l'imparfait (lia) tandis que l'action soudaine de rupture exige le passé simple (parou)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour marquer une rupture soudaine dans votre narration, on écrit : [ ___ ] de repente, a luz acabou.",
+      "correct_answer": "De",
+      "hint": "Préposition formant la locution adverbiale signifiant 'soudain'"
+    }
+  ]
+}

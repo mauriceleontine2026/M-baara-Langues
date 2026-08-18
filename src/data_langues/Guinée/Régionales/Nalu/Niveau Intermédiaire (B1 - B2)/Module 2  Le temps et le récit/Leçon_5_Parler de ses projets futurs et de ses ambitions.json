@@ -1,0 +1,163 @@
+{
+  "lesson_id": "B1_M2_L5",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 5,
+  "title": "Parler de ses projets futurs et de ses ambitions",
+  "learning_objectives": [
+    "Exprimer une action future ou un projet à venir",
+    "Formuler ses ambitions professionnelles et personnelles"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'auxiliaire du futur 'boku' se prononce avec un /o/ bien fermé et un /u/ bref. La voyelle double 'ee' dans 'singbeene' doit être étirée sans être diphtonguée en français.",
+    "common_pitfalls": "Attention à ne pas confondre le verbe de provenance 'boku' (venir de) et son homophone utilisé comme marqueur grammatical du futur proche (aller + infinitif)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v14_1",
+      "term": "Boku",
+      "phonetic_api": "/bo.ku/",
+      "phonetic_simple": "BO-KOU",
+      "translation": "Aller (marqueur du futur)",
+      "example_sentence": "M boku wale suba.",
+      "example_phonetic": "/m bo.ku wa.le su.ba/",
+      "example_translation": "Je vais travailler demain."
+    },
+    {
+      "word_id": "v14_2",
+      "term": "Singbeene",
+      "phonetic_api": "/siŋ.beː.ne/",
+      "phonetic_simple": "SING-BÉÉ-NÉ",
+      "translation": "Avenir / Temps futurs",
+      "example_sentence": "Singbeene a boku ce.",
+      "example_phonetic": "/siŋ.beː.ne a bo.ku tʃe/",
+      "example_translation": "L'avenir sera bon."
+    },
+    {
+      "word_id": "v14_3",
+      "term": "Kanu",
+      "phonetic_api": "/ka.nu/",
+      "phonetic_simple": "KA-NOU",
+      "translation": "Espérer / Souhaiter",
+      "example_sentence": "M kanu m boku ba.",
+      "example_phonetic": "/m ka.nu m bo.ku ba/",
+      "example_translation": "J'espère que je viendrai."
+    },
+    {
+      "word_id": "v14_4",
+      "term": "Thanda",
+      "phonetic_api": "/θa?.da/",
+      "phonetic_simple": "THAN-DA",
+      "translation": "Grandir / Devenir grand",
+      "example_sentence": "Bweten mi a boku thanda.",
+      "example_phonetic": "/bʷe.ten mi a bo.ku θa?.da/",
+      "example_translation": "Mon enfant va grandir."
+    },
+    {
+      "word_id": "v14_5",
+      "term": "Soti",
+      "phonetic_api": "/so.ti/",
+      "phonetic_simple": "SO-TI",
+      "translation": "Réussir / Prospérer",
+      "example_sentence": "M malang soti di wale.",
+      "example_phonetic": "/m ba.laŋ so.ti di wa.le/",
+      "example_translation": "Je veux réussir dans le travail."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p14_1",
+      "original": "A rila a boku wale singbeene?",
+      "phonetic_api": "/a ri.la a bo.ku wa.le siŋ.beː.ne/",
+      "phonetic_simple": "A RI-LA A BO-KOU WA-LÉ SING-BÉÉ-NÉ",
+      "translation": "Que vas-tu faire à l'avenir ?",
+      "context": "Question pour interroger un jeune ou un interlocuteur sur ses ambitions."
+    },
+    {
+      "phrase_id": "p14_2",
+      "original": "M boku wutong n'boka suba.",
+      "phonetic_api": "/m bo.ku wu.toŋ n͡bo.ka su.ba/",
+      "phonetic_simple": "M BO-KOU WOU-TONG N-BO-KA SOU-BA",
+      "translation": "Je vais construire une maison demain / bientôt.",
+      "context": "Permet d'énoncer un projet matériel concret."
+    },
+    {
+      "phrase_id": "p14_3",
+      "original": "M kanu nalu mi a boku soti.",
+      "phonetic_api": "/m ka.nu na.lu mi a bo.ku so.ti/",
+      "phonetic_simple": "M KA-NOU NA-LU MI A BO-KOU SO-TI",
+      "translation": "J'espère que ma famille va prospérer.",
+      "context": "Formule de vœu pour l'avenir des siens."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction du futur avec l'auxiliaire 'boku'",
+      "explanation": "Pour exprimer le futur ou une intention d'action à venir en nalu, on utilise l'auxiliaire 'boku' placé directement entre le pronom sujet et le verbe principal à l'infinitif.",
+      "rules": [
+        "Le pronom sujet initie la structure.",
+        "L'auxiliaire 'boku' reste invariable, quel que soit le verbe d'action qui suit."
+      ],
+      "examples": [
+        {
+          "structure": "M boku ba",
+          "phonetic_api": "/m bo.ku ba/",
+          "meaning": "Je vais venir / Je viendrai"
+        },
+        {
+          "structure": "M boku meŋ",
+          "phonetic_api": "/m bo.ku meŋ/",
+          "meaning": "Je vais boire"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine",
+      "text": "Mboye, Sékou ! A rila a boku wale suba?",
+      "phonetic_api": "/mbo.je se.ku a ri.la a bo.ku wa.le su.ba/",
+      "phonetic_simple": "MBO-YÉ, SÉ-KOU ! A RI-LA A BO-KOU WA-LÉ SOU-BA?",
+      "translation": "Bonjour, Sékou ! Qu'est-ce que tu vas faire demain ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Mboye ce ! Suba, m boku ceebor di m'mela n'gbe soka.",
+      "phonetic_api": "/mbo.je tʃe su.ba m bo.ku tʃeː.bor di m.me.la ŋgbe so.ka/",
+      "phonetic_simple": "MBO-YÉ TCHÉ ! SOU-BA, M BO-KOU TCHÉÉ-BOR DI M-MÉ-LA NGBÉ SO-KA.",
+      "translation": "Bonjour bien ! Demain, je vais nager dans la mer et jouer au football."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "A ce ! M kanu a boku soti di singor mwo.",
+      "phonetic_api": "/a tʃe m ka.nu a bo.ku so.ti di siŋ.ɡor mwo/",
+      "phonetic_simple": "A TCHÉ ! M KA-NOU A BO-KOU SO-TI DI SIN-GOR MWO.",
+      "translation": "C'est bien ! J'espère que tu vas réussir dans ton sport."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la mentalité nalu, formuler ses projets d'avenir s'accompagne presque toujours d'une marque de modestie et d'espoir exprimée par le terme 'kanu' (espérer). On évite de s'approprier le futur de manière trop arrogante, préférant inclure le bien-être de la communauté entière dans ses souhaits de réussite ('soti')."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex14_1",
+      "type": "multiple_choice",
+      "question": "Quel mot sert d'auxiliaire pour projeter une action dans le futur ?",
+      "options": [
+        "Cen",
+        "Boku",
+        "Mun"
+      ],
+      "correct_answer": "Boku",
+      "explanation": "'Boku' est utilisé grammaticalement devant le verbe pour marquer le futur."
+    },
+    {
+      "exercise_id": "ex14_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'J'espère', on emploie l'expression : M [ ___ ].",
+      "correct_answer": "kanu",
+      "hint": "Exprime le souhait ou l'espérance profonde"
+    }
+  ]
+}

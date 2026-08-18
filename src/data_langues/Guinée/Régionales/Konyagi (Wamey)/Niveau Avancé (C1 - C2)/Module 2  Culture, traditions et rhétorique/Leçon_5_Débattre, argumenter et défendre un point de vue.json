@@ -1,0 +1,155 @@
+{
+  "lesson_id": "C1_M2_L5",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 5,
+  "title": "Débattre, argumenter et défendre un point de vue",
+  "learning_objectives": [
+    "Formuler des arguments contradictoires de manière fluide lors d'un débat formel",
+    "Utiliser les structures verbales de persuasion et de réfutation d'opinion",
+    "Maîtriser les formules d'introduction et de concession rhétorique en public"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'intonation assertive descendante pour marquer la certitude. L'articulation forte du phonème occlusif labio-vélaire voisé /ɡb/ combiné à une voyelle fermée.",
+    "common_pitfalls": "En situation de débat, évitez d'élever le ton de la voix. La rhétorique wamey valorise la maîtrise de soi, exprimée par un débit ralenti et des pauses marquées après chaque connecteur logique."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "lëkwa ra mi",
+      "phonetic_api": "/ləkwa ʁa mi/",
+      "phonetic_simple": "LE-KOUA RA MI",
+      "translation": "mon opinion / selon ma conviction (litt: c'est lourd pour moi)",
+      "example_sentence": "Lëkwa ra mi, cax kene i mbe wunwun rya.",
+      "example_phonetic": "/ləkwa ʁa mi t͡ʃaχ kɛnɛ i mbɛ wunwun ʁja/",
+      "example_translation": "Selon ma conviction, cet arbre constitue notre racine commune."
+    },
+    {
+      "word_id": "v2",
+      "term": "fany",
+      "phonetic_api": "/faɲ/",
+      "phonetic_simple": "FANY",
+      "translation": "nier / contredire / réfuter un argument",
+      "example_sentence": "Nyi fany parol cene.",
+      "example_phonetic": "/ɲi faɲ paʁɔl t͡ʃɛnɛ/",
+      "example_translation": "Je réfute formellement cette affirmation."
+    },
+    {
+      "word_id": "v3",
+      "term": "gwaawë-ra",
+      "phonetic_api": "/ɡwaːwəʁa/",
+      "phonetic_simple": "GWAA-WE-RA",
+      "translation": "convaincre / faire admettre une vérité",
+      "example_sentence": "O gwaawë-ra ce gba ra parol o.",
+      "example_phonetic": "/o ɡwaːwəʁa t͡ʃɛ ɡba ʁa paʁɔl o/",
+      "example_translation": "Il a convaincu le sage par son argumentation."
+    },
+    {
+      "word_id": "v4",
+      "term": "kwaɗ cene",
+      "phonetic_api": "/kwaɗ t͡ʃɛnɛ/",
+      "phonetic_simple": "KOUAD TCHÉ-NÉ",
+      "translation": "cet argument / cette ligne de raisonnement",
+      "example_sentence": "Kwaɗ cene i fula gba ra boka.",
+      "example_phonetic": "/kwaɗ t͡ʃɛnɛ i fula ɡba ʁa boka/",
+      "example_translation": "Cette ligne de raisonnement est parfaitement valide."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Lëkwa ra mi, ila rya fala can rya ra boka tyi rya faryal.",
+      "phonetic_api": "/ləkwa ʁa mi ila ʁja fala t͡ʃan ʁja ʁa boka tji ʁja faʁjal/",
+      "phonetic_simple": "LE-KOUA RA MI, I-LA RYA FA-LA TCHAN RYA RA BO-KA TYI RYA FAR-YAL.",
+      "translation": "Selon ma conviction profonde, il faut impérativement que nos esprits s'accordent avant d'entreprendre quoi que ce soit.",
+      "context": "Ouvrir une prise de parole lors d'une assemblée communautaire."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Nyi fany kwaɗ cene, betyaraba parol wun i fula wunwun gba.",
+      "phonetic_api": "/ɲi faɲ kwaɗ t͡ʃɛnɛ bɛtjaʁaɓa paʁɔl wun i fula wunwun ɡba/",
+      "phonetic_simple": "NYI FANY KOUAD TCHÉ-NÉ, BÉ-TYA-RA-BHA PA-ROL WOUN I FOU-LA WOUN-WOUN GBA.",
+      "translation": "Je rejette cet argument, parce que votre parole manque cruellement de fondement solide.",
+      "context": "Réfuter poliment mais fermement la position de son contradicteur."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'introduction de l'opinion personnelle par 'Lëkwa ra...'",
+      "explanation": "Pour introduire un point de vue de manière formelle et solennelle, on emploie l'expression 'lëkwa ra' suivie du pronom de la personne. Cela donne du poids (au sens propre comme figuré) à l'argumentation qui va suivre.",
+      "rules": [
+        "Lëkwa ra + Pronom personnel + , + [Argument principal]"
+      ],
+      "examples": [
+        {
+          "structure": "Lëkwa ra o, suwé i boka.",
+          "phonetic_api": "/ləkwa ʁa o suwe i boka/",
+          "meaning": "Selon son point de vue à lui, la ville offre de meilleures opportunités."
+        }
+      ]
+    },
+    {
+      "concept": "La concession argumentative par antéposition",
+      "explanation": "Pour fragiliser un argument adverse sans heurter l'interlocuteur, l'orateur avancé reprend d'abord la thèse adverse sous forme de supposition ('nda wun a can...') avant d'introduire sa propre conclusion par le connecteur d'opposition 'kante'.",
+      "rules": [
+        "Nda + [Thèse adverse] + , + kante + [Votre contre-argument]"
+      ],
+      "examples": [
+        {
+          "structure": "Nda wun a can suwé, kante saax mi i farye.",
+          "phonetic_api": "/nda wun a t͡ʃan suwe kantɛ saːχ mi i faʁjɛ/",
+          "meaning": "Si vous ne jurez que par la ville, sachez que mon village demeure bien supérieur."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Lëkwa ra mi, ila rya gwa ra suwé gba betyaraba wogbë i fula ra cene farye. Saax cene i fula waawë gba.",
+      "phonetic_api": "/ləkwa ʁa mi ila ʁja ɡwa ʁa suwe ɡba bɛtjaʁaɓa wɔɡbə i fula ʁa t͡ʃɛnɛ faʁjɛ saːχ t͡ʃɛnɛ i fula waːwə ɡba/",
+      "phonetic_simple": "LE-KOUA RA MI, I-LA RYA GOUA RA SOU-WÉ GBA BÉ-TYA-RA-BHA OUE-GBE I FOU-LA RA TCHÉ-NÉ FAR-YÉ. SAAKH TCHÉ-NÉ FOU-LA WAA-WÉ GBA.",
+      "translation": "Selon ma conviction, nous devrions migrer vers la capitale car l'argent s'y trouve en plus grande abondance à l'avenir. Ce village-ci manque cruellement d'emplois."
+    },
+    {
+      "speaker": "Mady",
+      "text": "Nyi fany kwaɗ cene, Samba ! Nda wun a can wogbë cene, kante suwé gba o fula mbiya gba ra ñon wun. Saax rya i mbe wunwun rya absolute.",
+      "phonetic_api": "/ɲi faɲ kwaɗ t͡ʃɛnɛ samba nda wun a t͡ʃan wɔɡbə t͡ʃɛnɛ kantɛ suwe ɡba o fula mbija ɡba ʁa ɲɔn wun saːχ ʁja i mbɛ wunwun ʁja/",
+      "phonetic_simple": "NYI FANY KOUAD TCHÉ-NÉ, SAM-BA ! NDA WOUN A TCHAN OUE-GBE TCHÉ-NÉ, KAN-TÉ SOU-WÉ GBA O FOU-LA MBI-YA GBA RA NYON WOUN. SAAKH RYA I MBÉ WOUN-WOUN RYA ABSOLUTE.",
+      "translation": "Je m'inscris en faux contre ce raisonnement, Samba ! Si tu ne penses qu'à cet appât du gain, n'oublie pas que la capitale engendre aussi de grandes maladies pour ton corps. Notre village constitue notre ancrage absolu."
+    },
+    {
+      "speaker": "Samba",
+      "text": "Wun a gwaawë-ra mi ra parol cene. Ine gba, nyi gwa kpa gwa ra suwé. Rya fala saax rya ko !",
+      "phonetic_api": "/wun a ɡwaːwəʁa mi ʁa paʁɔl t͡ʃɛnɛ inɛ ɡba ɲi ɡwa kpa ɡwa ʁa suwe ʁja fala saːχ ʁja kɔ/",
+      "phonetic_simple": "WOUN A GWAA-WÉ-RA MI RA PA-ROL TCHÉ-NÉ. I-NÉ GBA, NYI GOUA KPA GOUA RA SOU-WÉ. RYA FA-LA SAAKH RYA KO !",
+      "translation": "Tu as fini par me convaincre par la justesse de ta parole. Ainsi donc, je renonce à partir à la capitale. Bâtissons plutôt notre propre village ensemble !"
+    }
+  ],
+  "cultural_notes": [
+    "L'art de l'argumentation publique en pays wamey s'exerce au sein du conseil des notables. Un argument valide ('kwaɗ') doit toujours s'appuyer sur la préservation du bien-être collectif et le respect de la terre ancestrale.",
+    "Contredire un interlocuteur s'effectue sans agressivité. On utilise le verbe 'fany' (nier / réfuter) dirigé exclusivement vers l'argument ('kwaɗ') ou la phrase prononcée, et jamais vers la personne elle-même afin de préserver la paix du groupe."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M2_L5_EX1",
+      "type": "multiple_choice",
+      "question": "Quelle expression wamey avancée devez-vous utiliser pour introduire poliment votre propre point de vue ?",
+      "options": [
+        "Kpa fala cene",
+        "Lëkwa ra mi",
+        "Ine gba"
+      ],
+      "correct_answer": "Lëkwa ra mi",
+      "explanation": "'Lëkwa ra mi' signifie littéralement 'C'est pesant/important pour moi', formule consacrée pour dire 'Selon mon opinion'."
+    },
+    {
+      "exercise_id": "C1_M2_L5_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Nyi [ ___ ] kwaɗ cene betyaraba parol wun fula wunwun. (Je réfute cet argument parce que votre parole manque de fondement.)",
+      "correct_answer": "fany",
+      "hint": "Le verbe de négation rhétorique servant à rejeter ou contredire une thèse adverse."
+    }
+  ]
+}

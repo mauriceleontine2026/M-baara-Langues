@@ -1,0 +1,116 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Utiliser les particules temporelles et les repères du passé",
+    "Raconter une action complètement achevée dans une narration",
+    "Différencier l'accompli de l'inaccompli dans un récit simple"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne liquide /l/ doit être bien articulée avec l'apex de la langue contre les dents du haut, sans altération vocalique subséquente.",
+    "common_pitfalls": "Veillez à ne pas omettre le marqueur de perfectif qui isole l'action passée du moment présent."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v13_1",
+      "term": "tsinn",
+      "phonetic_api": "/t͡sinː/",
+      "phonetic_simple": "TSINN",
+      "translation": "hier / temps révolu",
+      "example_sentence": "mbi alɛ tsinn",
+      "example_phonetic": "/mbi a.lɛ t͡sinː/",
+      "example_translation": "Je suis venu hier."
+    },
+    {
+      "word_id": "v13_2",
+      "term": "dɛp",
+      "phonetic_api": "/dɛp/",
+      "phonetic_simple": "DÈP",
+      "translation": "prendre / avoir accompli (en contexte de passé)",
+      "example_sentence": "mbi dɛp mampa tsinn",
+      "example_phonetic": "/mbi dɛp mam.pa t͡sinː/",
+      "example_translation": "J'ai pris du pain hier."
+    },
+    {
+      "word_id": "v13_3",
+      "term": "kɔn ka",
+      "phonetic_api": "/kɔn ka/",
+      "phonetic_simple": "KON KA",
+      "translation": "être allé vers / parti à",
+      "example_sentence": "baba kɔn ka Boké",
+      "example_phonetic": "/ba.ba kɔn ka bo.ke/",
+      "example_translation": "Père est allé à Boké."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p13_1",
+      "original": "mbi wɔl bɔl tsinn ka dare",
+      "phonetic_api": "/mbi wɔl bɔl t͡sinː ka da.re/",
+      "phonetic_simple": "MBI WOL BOL TSINN KA DA-RE",
+      "translation": "J'ai joué au football hier en ville",
+      "context": "Raconter le déroulement de sa journée de la veille à ses proches."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accompli marqué par la déictique temporelle",
+      "explanation": "Le système verbal du landouma s'appuie fortement sur l'aspect plutôt que sur le temps pur. Pour ancrer fermement une action dans le passé accompli, on combine le radical verbal nu avec un adverbe temporel de passé comme 'tsinn' (hier).",
+      "rules": [
+        "Le verbe ne subit pas de conjugaison suffixale complexe pour le passé simple.",
+        "C'est la présence d'adverbes comme 'tsinn' ou le contexte situationnel qui définit l'aspect accompli."
+      ],
+      "examples": [
+        {
+          "structure": "Verbe + tsinn",
+          "phonetic_api": "/mbi a.lɛ t͡sinː/",
+          "meaning": "Je suis venu hier (action achevée)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Fatou",
+      "text": "mɔ kɔn ka Boké tsinn ?",
+      "phonetic_api": "/mɔ kɔn ka bo.ke t͡sinː/",
+      "phonetic_simple": "MO KON KA BO-KÉ TSINN ?",
+      "translation": "Es-tu allé à Boké hier ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "yoo, mbi kɔn ka Boké tsinn. mbi dɛp atɔk.",
+      "phonetic_api": "/joː mbi kɔn ka bo.ke t͡sinː mbi dɛp a.tɔk/",
+      "phonetic_simple": "YOO MBI KON KA BO-KÉ TSINN. MBI DÈP A-TOK",
+      "translation": "Oui, je suis allé à Boké hier. J'ai acheté (pris) un vêtement."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'art de la palabre et de l'histoire orale landouma, l'ancrage temporel du récit s'effectue par des formules traditionnelles qui détachent le cadre narratif du temps présent."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex13_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le marqueur de temps 'tsinn' ?",
+      "options": [
+        "Aujourd'hui",
+        "Demain",
+        "Hier"
+      ],
+      "correct_answer": "Hier",
+      "explanation": "'tsinn' permet d'indiquer de manière claire l'antériorité immédiate d'une action."
+    },
+    {
+      "exercise_id": "ex13_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "mbi alɛ [ ___ ] (Je suis venu hier)",
+      "correct_answer": "tsinn",
+      "hint": "L'adverbe temporel désignant le jour précédent."
+    }
+  ]
+}

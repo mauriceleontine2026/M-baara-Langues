@@ -1,0 +1,116 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Identifier les trois catégories chromatiques primaires de la langue",
+    "Nommer les pièces de vêtement courantes",
+    "Décrire la tenue d'un interlocuteur"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne double 'll' implique une tension musculaire accrue de la langue contre les alvéoles supérieures.",
+    "common_pitfalls": "Ne pas prononcer 'wulɔ' comme s'il y avait un accent sur le o. La voyelle reste neutre."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v9_1",
+      "term": "atɔk",
+      "phonetic_api": "/a.tɔk/",
+      "phonetic_simple": "A-TOK",
+      "translation": "vêtement / habit",
+      "example_sentence": "atɔk kɔn",
+      "example_phonetic": "/a.tɔk kɔn/",
+      "example_translation": "Mon vêtement."
+    },
+    {
+      "word_id": "v9_2",
+      "term": "tsii",
+      "phonetic_api": "/t͡siː/",
+      "phonetic_simple": "TSII",
+      "translation": "noir / sombre",
+      "example_sentence": "atɔk tsii",
+      "example_phonetic": "/a.tɔk t͡siː/",
+      "example_translation": "Un habit noir."
+    },
+    {
+      "word_id": "v9_3",
+      "term": "wulɔ",
+      "phonetic_api": "/wu.lɔ/",
+      "phonetic_simple": "WOU-LO",
+      "translation": "rouge / clair",
+      "example_sentence": "atɔk wulɔ",
+      "example_phonetic": "/a.tɔk wu.lɔ/",
+      "example_translation": "Un habit rouge."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p9_1",
+      "original": "mbi dɛp atɔk wulɔ mɔ",
+      "phonetic_api": "/mbi dɛp a.tɔk wu.lɔ mɔ/",
+      "phonetic_simple": "MBI DÈP A-TOK WOU-LO MO",
+      "translation": "Je prends ce vêtement rouge",
+      "context": "Choix d'une tenue ou d'un tissu chez le tailleur."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accord de l'adjectif qualificatif de couleur",
+      "explanation": "Les qualificatifs de couleur en landouma fonctionnent souvent comme des radicaux verbaux statiques ou des adjectifs purs posés après le substantif. Ils décrivent l'état coloré immédiat de l'objet.",
+      "rules": [
+        "L'adjectif se positionne directement après le nom d'habit.",
+        "Les couleurs de base (noir, rouge, blanc) sont structurellement des termes stables sans dérivation complexe."
+      ],
+      "examples": [
+        {
+          "structure": "Nom + Adjectif",
+          "phonetic_api": "/a.tɔk t͡siː/",
+          "meaning": "Habit noir"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Le tailleur",
+      "text": "mbi pa atɔk wulɔ dɛ ?",
+      "phonetic_api": "/mbi pa a.tɔk wu.lɔ dɛ/",
+      "phonetic_simple": "MBI PA A-TOK WOU-LO DÈ",
+      "translation": "Veux-tu le vêtement rouge ?"
+    },
+    {
+      "speaker": "Le client",
+      "text": "ɔn-ɔn, mbi dɛp atɔk tsii mɔ.",
+      "phonetic_api": "/ɔn.ɔn mbi dɛp a.tɔk t͡siː mɔ/",
+      "phonetic_simple": "ON-ON MBI DÈP A-TOK TSII MO",
+      "translation": "Non, je prends ce vêtement noir."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la taxonomie traditionnelle des couleurs landouma, le terme 'wulɔ' (rouge) englobe également de nombreuses nuances de brun, d'orangé et de teintes chaudes de la terre latéritique de Guinée."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex9_1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'adjectif 'tsii' ?",
+      "options": [
+        "Blanc",
+        "Noir",
+        "Vert"
+      ],
+      "correct_answer": "Noir",
+      "explanation": "'tsii' qualifie tout objet d'apparence sombre ou noire."
+    },
+    {
+      "exercise_id": "ex9_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] kɔn mɔ lɔndɔ (Mon vêtement est ici)",
+      "correct_answer": "atɔk",
+      "hint": "Le substantif désignant un habit ou une pièce textile."
+    }
+  ]
+}

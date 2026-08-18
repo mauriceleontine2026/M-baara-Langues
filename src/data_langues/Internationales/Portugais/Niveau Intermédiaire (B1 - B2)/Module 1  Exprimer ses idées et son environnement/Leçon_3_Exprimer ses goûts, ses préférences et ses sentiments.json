@@ -1,0 +1,257 @@
+{
+  "lesson_id": "B1_M1_L3",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 3,
+  "title": "Exprimer ses goûts, ses préférences et ses sentiments",
+  "learning_objectives": [
+    "Exprimer des goûts nuancés, des préférences claires et des opinions personnelles",
+    "Formuler et partager des sentiments ou des états émotionnels complexes",
+    "Maîtriser les structures du subjonctif présent après des expressions d'émotion"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'x' dans 'paixão' se prononce [ʃ] comme le 'ch' français. La diphtongue 'ão' dans 'emoção' ou 'opinião' exige une forte nasalisation. Le 's' final de 'gostos' s'assourdit en [ʃ] en fin de mot avant une pause.",
+    "common_pitfalls": "Attention au mot 'preferência' où l'accent tonique se situe sur la syllabe 'rên'. Ne confondez pas le 'e' fermé de 'sentimento' [sẽtiˈmẽtu] avec un son ouvert français."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Preferência",
+      "phonetic_api": "/pɾɨfɨˈɾẽsjɐ/",
+      "phonetic_simple": "PR'H-F'H-REN-SYAH",
+      "translation": "Préférence",
+      "example_sentence": " Tenho preferência por comida mediterrânica.",
+      "example_phonetic": "/ˈteɲu pɾɨfɨˈɾẽsjɐ puɾ kuˈmiðɐ mɨðitɨˈʁsplit ikɐ/",
+      "example_translation": "J'ai une préférence pour la cuisine méditerranéenne."
+    },
+    {
+      "word_id": "v2",
+      "term": "Alegria",
+      "phonetic_api": "/ɐlɨˈɣɾiɐ/",
+      "phonetic_simple": "AH-L'H-GREE-AH",
+      "translation": "Joie / Allégresse",
+      "example_sentence": "A música traz-me muita alegria.",
+      "example_phonetic": "/ɐ ˈmuzikɐ ˈtɾajʒ.mɨ ˈmũjtu ɐlɨˈɣɾiɐ/",
+      "example_translation": "La musique m'apporte beaucoup de joie."
+    },
+    {
+      "word_id": "v3",
+      "term": "Tristeza",
+      "phonetic_api": "/tɾiʃˈtezɐ/",
+      "phonetic_simple": "TREECH-TAY-ZAH",
+      "translation": "Tristesse",
+      "example_sentence": "Ela sentiu uma grande tristeza ontem.",
+      "example_phonetic": "/ˈelɐ sẽˈtʲiw ˈumɐ ˈɡɾsplit dɨ tɾiʃˈtezɐ ˈõtɐ̃j/",
+      "example_translation": "Elle a ressenti une grande tristesse hier."
+    },
+    {
+      "word_id": "v4",
+      "term": "Preocupado",
+      "phonetic_api": "/pɾjukuˈpaðu/",
+      "phonetic_simple": "PRYOO-KOO-PAH-DOO",
+      "translation": "Inquiet / Préoccupé",
+      "example_sentence": "Estou preocupado com os exames.",
+      "example_phonetic": "/iʃˈtow pɾjukuˈpaðu kõ uʃ iˈzɐmɨʃ/",
+      "example_translation": "Je suis inquiet pour les examens."
+    },
+    {
+      "word_id": "v5",
+      "term": "Entusiasmo",
+      "phonetic_api": "/ẽtuziˈaʒmu/",
+      "phonetic_simple": "EN-TOO-ZEE-AJ-MOO",
+      "translation": "Enthousiasme",
+      "example_sentence": "Ele trabalha com muito entusiasmo.",
+      "example_phonetic": "/ˈelɨ tɾɐˈβaʎɐ kõ ˈmũjtu ẽtuziˈaʒmu/",
+      "example_translation": "Il travaille avec beaucoup d'enthousiasme."
+    },
+    {
+      "word_id": "v6",
+      "term": "Chateado",
+      "phonetic_api": "/ʃɐtiˈaðu/",
+      "phonetic_simple": "CHAH-TYAH-DOO",
+      "translation": "Contrarié / Ennuyé / Fâché",
+      "example_sentence": "O meu amigo está chateado comigo.",
+      "example_phonetic": "/u mew ɐˈmiɣu iʃˈta ʃɐtiˈaðu kuˈmiɣu/",
+      "example_translation": "Mon ami est contrarié contre moi."
+    },
+    {
+      "word_id": "v7",
+      "term": "Suportar",
+      "phonetic_api": "/supuɾˈtaɾ/",
+      "phonetic_simple": "SOO-POOR-TAR",
+      "translation": "Supporter / Tolérer",
+      "example_sentence": "Não suporto o barulho do trânsito.",
+      "example_phonetic": "/nɐ̃w suˈpɔɾtu u bɐˈʁuʎu du ˈtɾɐ̃zitu/",
+      "example_translation": "Je ne supporte pas le bruit de la circulation."
+    },
+    {
+      "word_id": "v8",
+      "term": "Admirar",
+      "phonetic_api": "/ɐðmiˈɾaɾ/",
+      "phonetic_simple": "AD-MEE-RAR",
+      "translation": "Admirer",
+      "example_sentence": "Admiro a tua coragem.",
+      "example_phonetic": "/ɐðˈmiɾu ɐ ˈtuɐ kuˈɾaʒɐ̃j/",
+      "example_translation": "J'admire ton courage."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Prefiro ficar em casa a ir para a discoteca.",
+      "phonetic_api": "/pɾɨˈfiɾu fiˈkaɾ ɐ̃j ˈkazɐ ɐ iɾ ˈpɐɾɐ ɐ diʃkuˈtɛkɐ/",
+      "phonetic_simple": "PR'H-FEE-ROO FEE-KAR ENG KAH-ZAH AH EER PAH-RAH AH DEECH-KOO-TÈ-KAH",
+      "translation": "Je préfère rester à la maison plutôt qu'aller en boîte de nuit.",
+      "context": "Exprimer une préférence claire entre deux choix alternatifs."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Fico contente que consigas vir connosco.",
+      "phonetic_api": "/ˈfiku kũˈtẽtɨ kɨ kũˈsiɣɐʃ viɾ kuˈnoʃku/",
+      "phonetic_simple": "FEE-KOO KON-TEN-T'H K'H KOON-SEE-GACH VEER KOO-NOCH-KOO",
+      "translation": "Je suis ravi que tu puisses venir avec nous.",
+      "context": "Exprimer un sentiment de joie lié à l'action d'un tiers (Subjonctif)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Para ser sincero, isso não me agrada muito.",
+      "phonetic_api": "/ˈpɐɾɐ seɾ sĩˈsɛɾu ˈisu nɐ̃w mɨ ɐˈɣɾaðɐ ˈmũjtu/",
+      "phonetic_simple": "PAH-RAH SER SEEN-SÈ-ROO EE-SOO NANG M'H AH-GRAH-DAH MOYN-TOO",
+      "translation": "Pour être honnête, cela ne me plaît pas beaucoup.",
+      "context": "Formuler une opinion ou un désaccord de manière polie mais franche."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Tenho pena que não possas participar no projeto.",
+      "phonetic_api": "/ˈteɲu ˈpẽnɐ kɨ nɐ̃w ˈpɔsɐʃ pɐɾtisiˈpaɾ nu pɾuˈʒɛtu/",
+      "phonetic_simple": "TAY-NYOO PAY-NAH K'H NANG PÓ-SACH PAR-TEE-SEE-PAR NOO PROO-JÈ-TOO",
+      "translation": "Je regrette que tu ne puisses pas participer au projet.",
+      "context": "Exprimer un regret ou de la déception (Subjonctif)."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Detesto quando as pessoas chegam atrasadas.",
+      "phonetic_api": "/dɨˈtɛʃtu ˈkwɐ̃du ɐʃ pɨˈsoɐʃ ˈʃeɣɐ̃w ɐtɾɐˈzaðɐʃ/",
+      "phonetic_simple": "D'H-TÈCH-TOO KWAN-DOO ACH P'H-SOH-ACH CHAY-GANG AH-TRAH-ZAH-DACH",
+      "translation": "Je déteste quand les gens arrivent en retard.",
+      "context": "Exprimer un fort mécontentement face à une habitude."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Estou muito entusiasmado com a viagem.",
+      "phonetic_api": "/iʃˈtow ˈmũjtu ẽtuziˈaʒmu kõ ɐ ˈvjaʒɐ̃j/",
+      "phonetic_simple": "ECH-TOW MOYN-TOO EN-TOO-ZEE-AJ-MOO KON AH VYAH-JENG",
+      "translation": "Je suis très enthousiaste concernant le voyage.",
+      "context": "Partager une excitation positive face à un événement à venir."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Acho que vale a pena tentar outra vez.",
+      "phonetic_api": "/ˈafu kɨ ˈvalɨ ɐ ˈpẽnɐ tẽˈtaɾ ˈowtɾɐ vejʃ/",
+      "phonetic_simple": "AH-CHOO K'H VAH-L'H AH PAY-NAH TEN-TAR OW-TRAH VAYCH",
+      "translation": "Je pense que cela vaut la peine d'essayer à nouveau.",
+      "context": "Donner un conseil teinté d'optimisme."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Fiquei surpreendido com a tua reação.",
+      "phonetic_api": "/fiˈkɐj suɾpɾjẽˈðiðu kõ ɐ ˈtuɐ ʁsplitˈsɐ̃w/",
+      "phonetic_simple": "FEE-KAY SOOR-PRYEN-DEE-DOO KON AH TOO-AH REE-AH-SANG",
+      "translation": "J'ai été surpris par ta réaction.",
+      "context": "Exprimer l'étonnement ou la surprise."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction syntaxique du verbe 'Preferir'",
+      "explanation": "Au niveau B1, il faut éviter l'interférence avec le français 'préférer... plutôt que'. En portugais, le verbe 'preferir' se construit avec la préposition 'a' pour lier les deux éléments comparés.",
+      "rules": [
+        "Structure : Preferir [Choix 1] + a + [Choix 2].",
+        "On n'utilise jamais 'do que' ou 'mais' avec preferir (ex: 'prefiro o chá ao café' et non 'prefiro mais o chá do que o café')."
+      ],
+      "examples": [
+        {
+          "structure": "Eu prefiro o cinema ao teatro.",
+          "phonetic_api": "/ew pɾɨˈfiɾu u siˈnemɐ aw tiˈatɾu/",
+          "meaning": "Je préfère le cinéma au théâtre."
+        }
+      ]
+    },
+    {
+      "concept": "Le subjonctif présent après les verbes de sentiment",
+      "explanation": "Dès lors que l'on exprime une émotion, un regret, une joie ou une crainte par rapport à l'action d'une autre personne, la proposition subordonnée introduite par 'que' requiert obligatoirement le subjonctif présent (Presente do Conjuntivo).",
+      "rules": [
+        "Structure : [Expression d'émotion] + que + [Sujet différent] + [Verbe au subjonctif].",
+        "Expressions courantes : Estar contente que..., Ter pena que..., Lamento que..., Ficar feliz que..."
+      ],
+      "examples": [
+        {
+          "structure": "Tenho pena que ele não venha à festa.",
+          "phonetic_api": "/ˈteɲu ˈpẽnɐ kɨ ˈelɨ nɐ̃w ˈvẽɲɐ a ˈfeʃtɐ/",
+          "meaning": "Je regrette qu'il ne vienne pas à la fête. (Verbe vir -> venha)"
+        },
+        {
+          "structure": "Fico feliz que tu estejas bem.",
+          "phonetic_api": "/ˈfiku fɨˈliʃ kɨ tu iʃˈtɛʒɐʃ βsplitj/",
+          "meaning": "Je suis heureux que tu ailles bien. (Verbe estar -> estejas)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Afonso",
+      "text": "Olá Leonor! Notei que andas um pouco preocupada ultimamente. Passa-se alguma coisa?",
+      "phonetic_api": "/oˈla ljuˈnoɾ nuˈtɐj kɨ ˈsplitdɐʃ ũ ˈpoku pɾjukuˈpaðɐ uɫtʲimɐˈmẽtɨ ˈpasɐ.sɨ ɐɫˈɡumɐ ˈkojzɐ/",
+      "phonetic_simple": "OH-LAH LIOO-NOR NOO-TAY K'H AN-DACH OONG POH-KOO PRYOO-KOO-PAH-DAH OOL-TEE-MAH-MEN-T'H PAH-SAH-S'H AL-GOO-MAH KOY-ZAH",
+      "translation": "Salut Leonor ! J'ai remarqué que tu es un peu inquiète ces derniers temps. Il se passe quelque chose ?"
+    },
+    {
+      "speaker": "Leonor",
+      "text": "Olá Afonso. É verdade, tenho pena que as coisas no trabalho estejam tão instáveis. Estou um bocado chateada com a situação.",
+      "phonetic_api": "/oˈla ɐˈfõsu ɛ vɨɾˈðaðɨ ˈteɲu ˈpẽnɐ kɨ ɐʃ ˈkojzɐʃ nu tɾɐˈβaʎu iʃˈtɛʒɐ̃w tɐ̃w ĩʃˈtavɐjʃ iʃˈtow ũ buˈkaðu ʃɐtiˈaðu kõ ɐ situɐˈsɐ̃w/",
+      "phonetic_simple": "OH-LAH AH-FON-SOO É VAIR-DAH-D'H TAY-NYOO PAY-NAH K'H ACH KOY-ZACH NOO TRAH-BAH-LYOO ECH-TEY-JANG TAN EENCH-TAH-VAYCH ECH-TOW OONG BOO-KAH-DOO CHAH-TYAH-DOO KON AH SEE-TOO-AH-SANG",
+      "translation": "Salut Afonso. C'est vrai, je regrette que les choses au travail soient si instables. Je suis un peu contrariée par la situation."
+    },
+    {
+      "speaker": "Afonso",
+      "text": "Compreendo perfeitamente. Mas olha, fico muito contente que tenhas partilhado isso comigo. Se precisares de ajuda, avisa.",
+      "phonetic_api": "/kõpɾiˈẽdu pɨɾfɐjtɐˈmẽtɨ mɐʃ ˈɔʎɐ ˈfiku ˈmũjtu kũˈtẽtɨ kɨ ˈtẽɲɐʃ pɐɾtiˈʎaðu ˈisu kuˈmɣu sɨ pɾɨsiˈzaɾɨʃ dɨ ɐˈʒuðɐ ɐˈvizɐ/",
+      "phonetic_simple": "KON-PRYEN-DOO PAIR-FAY-TAH-MEN-T'H MACH Ó-LYAH FEE-KOO MOYN-TOO KON-TEN-T'H K'H TAY-NYACH PAR-TEE-LYAH-DOO EE-SOO KOO-MEE-GOO S'H PR'H-SEE-ZAH-R'HCH D'H AH-JOO-DAH AH-VEE-ZAH",
+      "translation": "Je comprends parfaitement. Mais regarde, je suis vraiment ravi que tu aies partagé cela avec moi. Si tu as besoin d'aide, préviens-moi."
+    },
+    {
+      "speaker": "Leonor",
+      "text": "Obrigada, Afonso. Prefiro falar abertamente a guardar tudo para mim. Faz-me sentir melhor.",
+      "phonetic_api": "/uβɾiˈɣaðɐ ɐˈfõsu pɾɨˈfiɾu fɐˈlaɾ ɐβɛɾtɐˈmẽtɨ ɐ ɡwɐɾˈðaɾ ˈtuðu ˈpɐɾɐ mʲĩ faʒ.mɨ sẽˈtiɾ mɨˈʎɔɾ/",
+      "phonetic_simple": "OH-BREE-GAH-DAH AH-FON-SOO PR'H-FEE-ROO FAH-LAR AH-BAIR-TAH-MEN-T'H AH GWAR-DAR TOO-DOO PAH-RAH MEENG FAJM-OO SEN-TEER MAY-LYOR",
+      "translation": "Merci, Afonso. Je préfère parler ouvertement plutôt que de tout garder pour moi. Cela me fait du bien."
+    }
+  ],
+  "cultural_notes": [
+    "L'expression des sentiments en portugais est intimement liée au concept culturel de la 'Saudade', ce sentiment unique de nostalgie mélancolique, de manque et d'espoir mêlés envers une personne ou un lieu absent.",
+    "Dans les relations interpersonnelles au Portugal, on apprécie la pudeur émotionnelle au premier abord, mais une fois la confiance établie, le partage des états d'âme et la solidarité amicale deviennent extrêmement profonds."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la formulation correcte pour exprimer une préférence stricte entre la plage et la montagne :",
+      "options": [
+        "Prefiro a praia do que a montanha.",
+        "Prefiro a praia à montanha.",
+        "Prefiro mais a praia do que a montanha."
+      ],
+      "correct_answer": "Prefiro a praia à montanha.",
+      "explanation": "Le verbe 'preferir' se construit avec la préposition 'a'. Devant le nom féminin 'a montanha', la contraction donne 'à'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Complétez avec la forme correcte du subjonctif du verbe ter : Lamento que tu [ ___ ] tantos problemas.",
+      "correct_answer": "tenhas",
+      "hint": "Subjonctif présent de la 2ème personne du singulier (tu) du verbe ter."
+    }
+  ]
+}

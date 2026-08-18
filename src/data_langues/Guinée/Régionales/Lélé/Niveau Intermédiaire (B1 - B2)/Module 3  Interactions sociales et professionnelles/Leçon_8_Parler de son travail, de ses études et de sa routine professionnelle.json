@@ -1,0 +1,212 @@
+{
+  "lesson_id": "B1_M3_L8",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 8,
+  "title": "Parler de son travail, de ses études et de sa routine professionnelle",
+  "learning_objectives": [
+    "Décrire précisément ses tâches quotidiennes et sa routine de travail",
+    "Parler de son parcours d'études, de sa formation ou de son apprentissage",
+    "Exprimer l'organisation du temps de travail (début, fin, pause)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot pour le travail, 'Wala' [wa.la], s'associe souvent au verbe d'action 'Kɛ' [kɛ] pour signifier 'travailler'. Le terme pour les études ou l'apprentissage, 'Karan' [ka.rã], porte une légère nasalisation finale. Veillez à la clarté du groupe de consonnes dans 'Karan-deng' [ka.rã deŋ] (élève/étudiant).",
+    "common_pitfalls": "Attention à bien distinguer 'Karan' (étudier) de 'Karamɔɔ' (enseignant). Ne confondez pas non plus la structure 'Wala-kɛ' (travailler) avec la simple particule d'obligation nominale étudiée précédemment."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Wala-kɛ",
+      "phonetic_api": "/wa.la kɛ/",
+      "phonetic_simple": "WA-LA-KÈ",
+      "translation": "Travailler / Pratiquer une activité professionnelle",
+      "example_sentence": "N bɛ wala-kɛ ya bi.",
+      "example_phonetic": "/ɲ bɛ wa.la kɛ ja bi/",
+      "example_translation": "Je travaille ici aujourd'hui."
+    },
+    {
+      "word_id": "v2",
+      "term": "Karan",
+      "phonetic_api": "/ka.rã/",
+      "phonetic_simple": "KA-RAN",
+      "translation": "Étudier / Apprendre / Lire",
+      "example_sentence": "N bɛ lélé gbe karan kɔ.",
+      "example_phonetic": "/ɲ bɛ le.le ɡ͡be ka.rã kɔ/",
+      "example_translation": "J'étudie la langue lélé."
+    },
+    {
+      "word_id": "v3",
+      "term": "Foloki",
+      "phonetic_api": "/fo.lo.ki/",
+      "phonetic_simple": "FO-LO-KI",
+      "translation": "Commencer / Début du temps / Première heure",
+      "example_sentence": "Wala foloki mu lɔɔluŋ loki di.",
+      "example_phonetic": "/wa.la fo.lo.ki mu lɔː.luŋ lo.ki di/",
+      "example_translation": "Le travail commence à cinq heures."
+    },
+    {
+      "word_id": "v4",
+      "term": "Tila-kɛ",
+      "phonetic_api": "/ti.la kɛ/",
+      "phonetic_simple": "TI-LA-KÈ",
+      "translation": "Terminer / Finir une tâche",
+      "example_sentence": "N na n wala tila-kɛ kunu.",
+      "example_phonetic": "/ɲ na ɲ wa.la ti.la kɛ ku.nu/",
+      "example_translation": "Je vais terminer mon travail demain."
+    },
+    {
+      "word_id": "v5",
+      "term": "Mɛnɛ-loki",
+      "phonetic_api": "/mɛ.nɛ lo.ki/",
+      "phonetic_simple": "MÈ-NÈ-LO-KI",
+      "translation": "Heure de pause / Repos (litt. Temps de salutation/respiration)",
+      "example_sentence": "Mɛnɛ-loki bɛ sɔɔ ya.",
+      "example_phonetic": "/mɛ.nɛ lo.ki bɛ sɔː ja/",
+      "example_translation": "C'est l'heure de la pause ici."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "I bɛ wala-kɛ mi bi?",
+      "phonetic_api": "/i bɛ wa.la kɛ mi bi/",
+      "phonetic_simple": "I BÈ WA-LA-KÈ MI BI?",
+      "translation": "Où travailles-tu actuellement ?",
+      "context": "S'informer sur le lieu d'activité professionnelle d'une connaissance."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "N bɛ wala-kɛ sooba kɔni mara ya.",
+      "phonetic_api": "/ɲ bɛ wa.la kɛ soː.ba kɔ.ni ma.ra ja/",
+      "phonetic_simple": "N BÈ WA-LA-KÈ SOO-BA KƆ-NI MA-RA YA.",
+      "translation": "Je travaille au marché dans la grande ville.",
+      "context": "Décrire son secteur ou son lieu de travail régulier."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "I bɛ mɔ fɔ karan kɔ?",
+      "phonetic_api": "/i bɛ mɔ fɔ ka.rã kɔ/",
+      "phonetic_simple": "I BÈ MƆ FƆ KA-RAN KƆ?",
+      "translation": "Qu'est-ce que tu étudies ?",
+      "context": "Interroger un jeune ou un étudiant sur sa filière."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "N bɛ wari wala karan kɔni ya.",
+      "phonetic_api": "/ɲ bɛ wa.ri wa.la ka.rã kɔ.ni ja/",
+      "phonetic_simple": "N BÈ WA-RI WA-LA KA-RAN KƆ-NI YA.",
+      "translation": "J'étudie la gestion financière ici.",
+      "context": "Préciser sa spécialité d'apprentissage ou d'études."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Loki mɔ fɔ i bɛ foloki?",
+      "phonetic_api": "/lo.ki mɔ fɔ i bɛ fo.lo.ki/",
+      "phonetic_simple": "LO-KI MƆ FƆ I BÈ FO-LO-KI?",
+      "translation": "À quelle heure commences-tu ta journée ?",
+      "context": "Se renseigner sur les horaires de routine d'un collègue."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "N bɛ foloki lɔɔluŋ loki kɔni.",
+      "phonetic_api": "/ɲ bɛ fo.lo.ki lɔː.luŋ lo.ki kɔ.ni/",
+      "phonetic_simple": "N BÈ FO-LO-KI LƆƆ-LOUNG LO-KI KƆ-NI.",
+      "translation": "Je commence exactement à cinq heures.",
+      "context": "Donner son heure d'embauche matinale."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Mɛnɛ-loki mu pu fɛlɛ loki di.",
+      "phonetic_api": "/mɛ.nɛ lo.ki mu pu fɛ.lɛ lo.ki di/",
+      "phonetic_simple": "MÈ-NÈ-LO-KI MOU POU FÈ-LÈ LO-KI DI.",
+      "translation": "La pause a lieu à douze heures (dix plus deux).",
+      "context": "Indiquer l'heure du déjeuner ou du repos de mi-journée."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Bi, n na n wala tila-kɛ kɔ.",
+      "phonetic_api": "/bi ɲ na ɲ wa.la ti.la kɛ kɔ/",
+      "phonetic_simple": "BI, N NA N WA-LA TI-LA-KÈ KƆ.",
+      "translation": "Aujourd'hui, je vais finir mon travail à l'heure.",
+      "context": "Exprimer la clôture planifiée de sa routine du jour."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure verbale de la routine et des phases d'action",
+      "explanation": "Pour exprimer une routine professionnelle ou d'études en lélé, on utilise le présent continu ou d'état matérialisé par l'auxiliaire 'bɛ' suivi du verbe composé ('wala-kɛ', 'tila-kɛ'). Les différentes phases d'une tâche (commencer, interrompre, finir) s'insèrent comme des verbes pivots régissant le complément de temps.",
+      "rules": [
+        "Structure de la routine actuelle : Pronom + bɛ + Verbe composé + Complément de lieu.",
+        "Le verbe 'foloki' (commencer) et 'tila-kɛ' (finir) encadrent temporellement le substantif du travail.",
+        "Le vocabulaire des matières étudiées se place directement en position d'objet devant le verbe 'karan'."
+      ],
+      "examples": [
+        {
+          "structure": "N bɛ karan-kɛ",
+          "phonetic_api": "/ɲ bɛ ka.rã kɛ/",
+          "meaning": "Je suis en train d'étudier / Je fais mes études"
+        },
+        {
+          "structure": "A na tila-kɛ",
+          "phonetic_api": "/a na ti.la kɛ/",
+          "meaning": "Il va terminer l'action"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amara",
+      "text": "Mɛnɛ kɔ, Sékou. I bɛ mɔ fɔ wala-kɛ bi sooba kɔni?",
+      "phonetic_api": "/mɛ.nɛ kɔ se.ku i bɛ mɔ fɔ wa.la kɛ bi soː.ba kɔ.ni/",
+      "phonetic_simple": "MÈ-NÈ KƆ, SÉ-KOU. I BÈ MƆ FƆ WA-LA-KÈ BI SOO-BA KƆ-NI?",
+      "translation": "Bonjour Sékou. Quel travail fais-tu actuellement en ville ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Mɛnɛ kɔ. N mu karamɔɔ di, n bɛ lélé gbe karan-kɛ kɔ. I tɔ?",
+      "phonetic_api": "/mɛ.nɛ kɔ ɲ mu ka.ra.mɔː di ɲ bɛ le.le ɡ͡be ka.rã kɛ kɔ i tɔ/",
+      "phonetic_simple": "MÈ-NÈ KƆ. N MOU KA-RA-MƆƆ DI, N BÈ LÉ-LÉ GBE KA-RAN-KÈ KƆ. I TƆ?",
+      "translation": "Bonjour. Je suis enseignant, je dispense des cours de langue lélé. Et toi ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "N mu karan-deng di wari wala kɔni. Loki mɔ fɔ i bɛ tila-kɛ?",
+      "phonetic_api": "/ɲ mu ka.ran deŋ di wa.ri wa.la kɔ.ni lo.ki mɔ fɔ i bɛ ti.la kɛ/",
+      "phonetic_simple": "N MOU KA-RAN-DENG DI WA-RI WA-LA KƆ-NI. LO-KI MƆ FƆ I BÈ TI-LA-KÈ?",
+      "translation": "Je suis étudiant en gestion financière. À quelle heure finis-tu tes cours/ton travail ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "N bɛ tila-kɛ lɔɔluŋ loki kɔni suu kɔ. Fisa di kɔ!",
+      "phonetic_api": "/ɲ bɛ ti.la kɛ lɔː.luŋ lo.ki kɔ.ni suː kɔ fi.sa di kɔ/",
+      "phonetic_simple": "N BÈ TI-LA-KÈ LƆƆ-LOUNG LO-KI KƆ-NI SOUU KƆ. FI-SA DI KƆ!",
+      "translation": "Je termine ma journée à dix-sept heures (cinq heures du soir). C'est parfait ainsi !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans le monde professionnel en Guinée, les salutations occupent une place sacrée. Qu'on commence sa routine au bureau, à l'école ou dans les plantations de la région de Kissidougou, s'enquérir de la fatigue de ses collègues ou de la nuit passée est un préambule obligatoire avant toute tâche. La notion de 'Mɛnɛ-loki' (pause) est aussi un grand moment d'échange fraternel où l'on partage souvent le thé ou le repas."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel terme lélé associe la racine du travail à celle de l'action pour signifier 'travailler' ?",
+      "options": [
+        "Karan-kɛ",
+        "Wala-kɛ",
+        "Tila-kɛ"
+      ],
+      "correct_answer": "Wala-kɛ",
+      "explanation": "'Wala-kɛ' signifie travailler. 'Karan-kɛ' fait référence au fait d'étudier et 'Tila-kɛ' à celui de terminer."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour désigner l'enseignant ou le maître d'école, on emploie le terme : [ ___ ].",
+      "correct_answer": "Karamɔɔ",
+      "hint": "Ce mot commence par un K et désigne la personne qui détient et transmet le savoir."
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter de 1 à 10 en langue Konyagi (wamey)",
+    "Comprendre le fonctionnement de la base quinaire (système à base 5)",
+    "Exprimer une quantité simple d'objets ou de personnes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'injective bilabiale voisée /ɓ/ dans les chiffres 2 (ɓal) et 3 (ɓayi). Les sons affriqués comme le /t͡ʃ/ écrit 'c' ou 'ty' selon la graphie, et la liquide /l/ en position finale.",
+    "common_pitfalls": "Veillez à bien articuler l'injective /ɓ/ pour différencielen 'ɓal' (deux) d'un son 'bal' ordinaire. Ne doublez pas la consonne finale 'l' de manière excessive."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "wentyor",
+      "phonetic_api": "/wɛntjɔʁ/",
+      "phonetic_simple": "OUEN-TYOR",
+      "translation": "un / une",
+      "example_sentence": "Saax wentyor.",
+      "example_phonetic": "/saːχ wɛntjɔʁ/",
+      "example_translation": "Une maison."
+    },
+    {
+      "word_id": "v2",
+      "term": "ɓal",
+      "phonetic_api": "/ɓal/",
+      "phonetic_simple": "BHAL",
+      "translation": "deux",
+      "example_sentence": "Wul ɓal.",
+      "example_phonetic": "/wul ɓal/",
+      "example_translation": "Deux enfants."
+    },
+    {
+      "word_id": "v3",
+      "term": "ɓayi",
+      "phonetic_api": "/ɓaji/",
+      "phonetic_simple": "BHA-YI",
+      "translation": "trois",
+      "example_sentence": "Cax ɓayi.",
+      "example_phonetic": "/t͡ʃaχ ɓaji/",
+      "example_translation": "Trois arbres."
+    },
+    {
+      "word_id": "v4",
+      "term": "raxã",
+      "phonetic_api": "/ʁaχã/",
+      "phonetic_simple": "RA-KHAN",
+      "translation": "quatre",
+      "example_sentence": "Ce raxã.",
+      "example_phonetic": "/t͡ʃɛ ʁaχã/",
+      "example_translation": "Quatre hommes."
+    },
+    {
+      "word_id": "v5",
+      "term": "bityor",
+      "phonetic_api": "/bitjɔʁ/",
+      "phonetic_simple": "BI-TYOR",
+      "translation": "cinq",
+      "example_sentence": "Mbo bityor.",
+      "example_phonetic": "/mbɔ bitjɔʁ/",
+      "example_translation": "Cinq amis."
+    },
+    {
+      "word_id": "v6",
+      "term": "bityor i wentyor",
+      "phonetic_api": "/bitjɔʁ i wɛntjɔʁ/",
+      "phonetic_simple": "BI-TYOR I OUEN-TYOR",
+      "translation": "six (cinq et un)",
+      "example_sentence": "Ɗi bityor i wentyor.",
+      "example_phonetic": "/ɗi bitjɔʁ i wɛntjɔʁ/",
+      "example_translation": "Six (bouteilles d')eau."
+    },
+    {
+      "word_id": "v7",
+      "term": "paxwã",
+      "phonetic_api": "/paχwã/",
+      "phonetic_simple": "PA-KOUAN",
+      "translation": "dix",
+      "example_sentence": "Wogbë paxwã.",
+      "example_phonetic": "/wɔɡbə paχwã/",
+      "example_translation": "Dix (pièces d')argent."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Wun a mbe wul fene ?",
+      "phonetic_api": "/wun a mbɛ wul fɛnɛ/",
+      "phonetic_simple": "WOUN A MBÉ WOUL FÉ-NÉ ?",
+      "translation": "Combien d'enfants as-tu ?",
+      "context": "Demander une quantité (ici, le nombre d'enfants)."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Nyi fula wul ɓayi.",
+      "phonetic_api": "/ɲi fula wul ɓaji/",
+      "phonetic_simple": "NYI FOU-LA WOUL BHA-YI",
+      "translation": "J'ai trois enfants.",
+      "context": "Répondre en précisant un nombre précis."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Muxu cax bityor ko.",
+      "phonetic_api": "/muxu t͡ʃaχ bitjɔʁ ko/",
+      "phonetic_simple": "MOU-KHOU TSAKH BI-TYOR KO",
+      "translation": "Donne-moi cinq morceaux de bois s'il te plaît.",
+      "context": "Demander un nombre précis d'objets au quotidien."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système de numération quinaire (base 5)",
+      "explanation": "La langue Konyagi (wamey) utilise un système basé sur le chiffre 5 (bityor). Pour construire les chiffres de 6 à 9, on ajoute les unités de 1 à 4 au chiffre 5 par le biais de la conjonction 'i' (et).",
+      "rules": [
+        "6 = bityor i wentyor (cinq et un)",
+        "7 = bityor i ɓal (cinq et deux)",
+        "8 = bityor i ɓayi (cinq et trois)",
+        "9 = bityor i raxã (cinq et quatre)"
+      ],
+      "examples": [
+        {
+          "structure": "bityor i ɓal",
+          "phonetic_api": "/bitjɔʁ i ɓal/",
+          "meaning": "sept (7)"
+        }
+      ]
+    },
+    {
+      "concept": "La place du numéral dans le groupe nominal",
+      "explanation": "En wamey, contrairement au français, les adjectifs numéraux cardinaux se placent toujours APRÈS le nom qu'ils quantifient.",
+      "rules": [
+        "Structure : Nom + Chiffre"
+      ],
+      "examples": [
+        {
+          "structure": "wul raxã",
+          "phonetic_api": "/wul ʁaχã/",
+          "meaning": "quatre enfants (littéralement : enfants quatre)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Mady, wun a mbe saax fene ra Youkounkoun ?",
+      "phonetic_api": "/madi wun a mbɛ saːχ fɛnɛ ʁa jukuŋkun/",
+      "phonetic_simple": "MA-DY, WOUN A MBÉ SAAKH FÉ-NÉ RA JOU-KOUN-KOUN ?",
+      "translation": "Mady, combien de maisons as-tu à Youkounkoun ?"
+    },
+    {
+      "speaker": "Mady",
+      "text": "Nyi fula saax ɓal. Cene e cene.",
+      "phonetic_api": "/ɲi fula saːχ ɓal t͡ʃɛnɛ ɛ t͡ʃɛnɛ/",
+      "phonetic_simple": "NYI FOU-LA SAAKH BHAL. TCHÉ-NÉ É TCHÉ-NÉ.",
+      "translation": "J'ai deux maisons. Celle-ci et celle-là."
+    },
+    {
+      "speaker": "Samba",
+      "text": "I boka ! Et ɓaba mi o fula cax fene ra cax ?",
+      "phonetic_api": "/i boka e ɓaba mi o fula t͡ʃaχ fɛnɛ ʁa t͡ʃaχ/",
+      "phonetic_simple": "I BO-KA ! É BHA-BA MI O FOU-LA TSAKH FÉ-NÉ RA TSAKH ?",
+      "translation": "C'est bien ! Et mon père, combien d'arbres a-t-il dans la forêt ?"
+    },
+    {
+      "speaker": "Mady",
+      "text": "O fula cax paxwã. I gba mba !",
+      "phonetic_api": "/o fula t͡ʃaχ paχwã i ɡba mba/",
+      "phonetic_simple": "O FOU-LA TSAKH PA-KOUAN. I GBA MBA !",
+      "translation": "Il a dix arbres. C'est vraiment beaucoup !"
+    }
+  ],
+  "cultural_notes": [
+    "Le fait de compter sur les doigts de la main explique la racine anthropologique du système quinaire wamey : 'bityor' (cinq) renvoie historiquement à la main complète.",
+    "Dans la tradition Konyagi, il est parfois considéré comme impoli de dénombrer de façon directe et insistante les personnes vivantes (surtout les nouveau-nés) ou le bétail d'une famille par peur d'attirer le mauvais sort. On préfère utiliser des approximations ou des périphrases."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L5_EX1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on le chiffre 'huit' (8) en wamey ?",
+      "options": [
+        "bityor i ɓal",
+        "bityor i ɓayi",
+        "paxwã"
+      ],
+      "correct_answer": "bityor i ɓayi",
+      "explanation": "8 se construit en faisant 5 (bityor) + 3 (ɓayi), soit 'bityor i ɓayi'."
+    },
+    {
+      "exercise_id": "A1_M2_L5_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Saax [ ___ ] (une maison).",
+      "correct_answer": "wentyor",
+      "hint": "Le chiffre un en wamey, à placer après le nom 'saax'."
+    }
+  ]
+}

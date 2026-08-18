@@ -1,0 +1,213 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Dire son nom et demander le nom de quelqu'un",
+    "Exprimer son origine géographique ou son village",
+    "Parler brièvement de sa profession ou occupation"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'occlusive injective alvéolaire voisée /ɗ/ (écrite ɗ) et la voyelle centrale moyenne /ə/ (souvent notée ë ou ë). La semi-voyelle palatale /j/ doit être articulée distinctement.",
+    "common_pitfalls": "Ne pas confondre le pronom sujet de la première personne 'nyi' avec le pronom de la deuxième personne 'wun'. Veillez à bien prononcer le son injectif /ɗ/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "wëcwë",
+      "phonetic_api": "/wət͡ʃwə/",
+      "phonetic_simple": "WE-TCHWE",
+      "translation": "s'appeler / nom",
+      "example_sentence": "Nyi wëcwë Samba.",
+      "example_phonetic": "/ɲi wət͡ʃwə samba/",
+      "example_translation": "Je m'appelle Samba."
+    },
+    {
+      "word_id": "v2",
+      "term": "wun",
+      "phonetic_api": "/wun/",
+      "phonetic_simple": "WOUN",
+      "translation": "tu / toi",
+      "example_sentence": "Wun wëcwë fene ?",
+      "example_phonetic": "/wun wət͡ʃwə fɛnɛ/",
+      "example_translation": "Comment t'appelles-tu ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "bano",
+      "phonetic_api": "/bano/",
+      "phonetic_simple": "BA-NO",
+      "translation": "venir de / origine",
+      "example_sentence": "Nyi bano Youkounkoun.",
+      "example_phonetic": "/ɲi bano jukuŋkun/",
+      "example_translation": "Je viens de Youkounkoun."
+    },
+    {
+      "word_id": "v4",
+      "term": "koniagi",
+      "phonetic_api": "/kɔnjaɡi/",
+      "phonetic_simple": "KO-NIA-GI",
+      "translation": "Konyagi (ethnie/langue)",
+      "example_sentence": "Nyi i koniagi.",
+      "example_phonetic": "/ɲi i kɔnjaɡi/",
+      "example_translation": "Je suis Konyagi."
+    },
+    {
+      "word_id": "v5",
+      "term": "waawë",
+      "phonetic_api": "/waːwə/",
+      "phonetic_simple": "WAA-WE",
+      "translation": "travailler / travail",
+      "example_sentence": "Nyi waawë ra marse.",
+      "example_phonetic": "/ɲi waːwə ʁa maʁse/",
+      "example_translation": "Je travaille au marché."
+    },
+    {
+      "word_id": "v6",
+      "term": "lekol",
+      "phonetic_api": "/lɛkɔl/",
+      "phonetic_simple": "LÉ-KOL",
+      "translation": "école / élève",
+      "example_sentence": "O gwa ra lekol.",
+      "example_phonetic": "/o ɡwa ʁa lɛkɔl/",
+      "example_translation": "Il va à l'école."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Wun wëcwë fene ?",
+      "phonetic_api": "/wun wət͡ʃwə fɛnɛ/",
+      "phonetic_simple": "WOUN WE-TCHWE FÉ-NÉ ?",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Formule courante pour demander l'identité de quelqu'un."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Nyi wëcwë Mady.",
+      "phonetic_api": "/ɲi wət͡ʃwə madi/",
+      "phonetic_simple": "NYI WE-TCHWE MA-DY",
+      "translation": "Je m'appelle Mady.",
+      "context": "Donner son propre nom."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Wun bano fene ?",
+      "phonetic_api": "/wun bano fɛnɛ/",
+      "phonetic_simple": "WOUN BA-NO FÉ-NÉ ?",
+      "translation": "D'où viens-tu ?",
+      "context": "S'enquérir du village ou de la région d'origine."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Nyi bano Koundara.",
+      "phonetic_api": "/ɲi bano kuŋdaʁa/",
+      "phonetic_simple": "NYI BA-NO KOUN-DA-RA",
+      "translation": "Je viens de Koundara.",
+      "context": "Répondre sur sa provenance géographique."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Nyi i ce mbe waawë.",
+      "phonetic_api": "/ɲi i t͡ʃɛ mbɛ waːwə/",
+      "phonetic_simple": "NYI I TCHÉ MBÉ WAA-WE",
+      "translation": "Je suis un travailleur (cultivateur/artisan).",
+      "context": "Parler de son activité."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les pronoms personnels sujets fondamentaux",
+      "explanation": "En wamey, les pronoms personnels se placent directement avant le verbe d'action pour marquer le sujet.",
+      "rules": [
+        "Première personne du singulier (Je) : nyi",
+        "Deuxième personne du singulier (Tu) : wun",
+        "Troisième personne du singulier (Il/Elle) : o"
+      ],
+      "examples": [
+        {
+          "structure": "nyi bano",
+          "phonetic_api": "/ɲi bano/",
+          "meaning": "je viens"
+        },
+        {
+          "structure": "wun bano",
+          "phonetic_api": "/wun bano/",
+          "meaning": "tu viens"
+        }
+      ]
+    },
+    {
+      "concept": "L'utilisation de 'fene' dans les questions d'identité",
+      "explanation": "Le morphème interrogatif 'fene' sert à la fois à traduire 'où' et 'comment' selon le verbe auquel il est associé.",
+      "rules": [
+        "Associé à 'wëcwë' (s'appeler), il signifie littéralement 'vers où/comment est ton nom'."
+      ],
+      "examples": [
+        {
+          "structure": "Wun wëcwë fene ?",
+          "phonetic_api": "/wun wət͡ʃwə fɛnɛ/",
+          "meaning": "Comment t'appelles-tu ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Ryambé ! Wun wëcwë fene ?",
+      "phonetic_api": "/jambɛ wun wət͡ʃwə fɛnɛ/",
+      "phonetic_simple": "RYAM-BÉ ! WOUN WE-TCHWE FÉ-NÉ ?",
+      "translation": "Bonjour ! Comment t'appelles-tu ?"
+    },
+    {
+      "speaker": "Awa",
+      "text": "Ryambé gouè ! Nyi wëcwë Awa. Et wun ?",
+      "phonetic_api": "/jambɛ ɡwɛ ɲi wət͡ʃwə awa e wun/",
+      "phonetic_simple": "RYAM-BÉ GOUÈ ! NYI WE-TCHWE A-WA. É WOUN ?",
+      "translation": "Bonjour en paix ! Je m'appelle Awa. Et toi ?"
+    },
+    {
+      "speaker": "Samba",
+      "text": "Nyi wëcwë Samba. Wun bano fene ?",
+      "phonetic_api": "/ɲi wət͡ʃwə samba wun bano fɛnɛ/",
+      "phonetic_simple": "NYI WE-TCHWE SAM-BA. WOUN BA-NO FÉ-NÉ ?",
+      "translation": "Je m'appelle Samba. D'où viens-tu ?"
+    },
+    {
+      "speaker": "Awa",
+      "text": "Nyi bano Youkounkoun. Nyi waawë ra lekol.",
+      "phonetic_api": "/ɲi bano jukuŋkun ɲi waːwə ʁa lɛkɔl/",
+      "phonetic_simple": "NYI BA-NO JOU-KOUN-KOUN. NYI WAA-WE RA LÉ-KOL.",
+      "translation": "Je viens de Youkounkoun. Je travaille à l'école."
+    }
+  ],
+  "cultural_notes": [
+    "Lors d'une rencontre en milieu rural Konyagi, l'origine géographique (le village de naissance ou de la famille élargie) est une information cruciale pour tisser des liens sociaux et identifier les parentés de plaisanterie.",
+    "La profession traditionnelle est souvent liée à l'agriculture de subsistance, mais l'enseignement et le commerce local prennent de l'importance dans les centres comme Koundara."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L2_EX1",
+      "type": "multiple_choice",
+      "question": "Que signifie 'Nyi bano Koundara' ?",
+      "options": [
+        "Je m'appelle Koundara",
+        "Je vais à Koundara",
+        "Je viens de Koundara"
+      ],
+      "correct_answer": "Je viens de Koundara",
+      "explanation": "Le verbe 'bano' indique la provenance ou l'origine géographique."
+    },
+    {
+      "exercise_id": "A1_M1_L2_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Nyi [ ___ ] Awa.",
+      "correct_answer": "wëcwë",
+      "hint": "Le verbe signifiant 's'appeler' pour compléter la présentation."
+    }
+  ]
+}

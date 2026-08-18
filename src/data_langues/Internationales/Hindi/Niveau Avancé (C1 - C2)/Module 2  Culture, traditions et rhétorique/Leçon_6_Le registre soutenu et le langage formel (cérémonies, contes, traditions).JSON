@@ -1,0 +1,167 @@
+{
+  "lesson_id": "C1_M2_L6",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 6,
+  "title": "Registre soutenu et langage formel",
+  "learning_objectives": [
+    "Maîtriser le vocabulaire d'origine sanskrite hautement formel (Tatsam) pour la correspondance officielle",
+    "Employer des structures honorifiques complexes et des tournures passives de politesse",
+    "Adapter son style rédactionnel aux exigences administratives, protocolaires et diplomatiques"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le registre soutenu utilise de nombreux mots comprenant la voyelle vocalisée 'ऋ' (/ɾɪ/) comme dans 'कृतज्ञता' (gratitude) ou 'कृपा' (bienveillance). Le groupe consonantique complexe 'ज्ञ' se prononce traditionnellement /ɡjə/ dans le Nord de l'Inde. Articulez distinctement le 'श' chuinté (/ʃ/) et la rétroflexe 'ष' (/ʃ/) dans 'शुभकामनाएँ'.",
+    "common_pitfalls": "Évitez de simplifier les liaisons consonantiques des mots formels. Par exemple, le mot 'धन्यवाद' se termine par une dentale pure /d̪/ et ne doit pas être prononcé avec un 'd' alvéolaire anglais. La nasalisation de la particule honorifique 'जी' au pluriel dans les salutations officielles doit être impeccable."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v_form_1",
+      "term": "कृतज्ञता",
+      "phonetic_api": "/kɾɪt̪əɡjət̪aː/",
+      "phonetic_simple": "KRI-TAG-YA-TAA",
+      "translation": "Gratitude / Reconnaissance profonde",
+      "example_sentence": "I मैं आपके प्रति अपनी कृतज्ञता प्रकट करता हूँ।",
+      "example_phonetic": "/mɛ̃ː aːpkeː pɾət̪ɪ əpniː kɾɪt̪əɡjət̪aː pɾəkəʈ kəɾt̪aː ɦuː/",
+      "example_translation": "Je vous exprime ma profonde gratitude (locuteur masculin)."
+    },
+    {
+      "word_id": "v_form_2",
+      "term": "महोदय / महोदया",
+      "phonetic_api": "/məɦoːd̪əj/ /`məɦoːd̪əjaː/",
+      "phonetic_simple": "MA-HO-DAY / MA-HO-DA-YAA",
+      "translation": "Monsieur / Madame (Formule d'appel officielle)",
+      "example_sentence": "आदरणीय महोदय, मेरा यह निवेदन है...",
+      "example_phonetic": "/aːd̪əɾəɳiːjə məɦoːd̪əj meːraː jəɦ nɪʋeːd̪ən ɦɛː/",
+      "example_translation": "Honorable Monsieur, ma requête est la suivante..."
+    },
+    {
+      "word_id": "v_form_3",
+      "term": "शुभकामनाएँ",
+      "phonetic_api": "/ʃʊbʱkaːmnaːẽː/",
+      "phonetic_simple": "CHOUBH-KAAM-NAA-ÊN",
+      "translation": "Meilleurs vœux / Souhaits de réussite",
+      "example_sentence": "आपके नए व्यवसाय के लिए मेरी हार्दिक शुभकामनाएँ।",
+      "example_phonetic": "/aːpkeː nəeː ʋjəʋsaːj keː lɪjeː meːriː ɦaːɾd̪ɪk ʃʊbʱkaːmnaːẽː/",
+      "example_translation": "Je vous adresse mes vœux les plus sincères pour votre nouvelle entreprise."
+    },
+    {
+      "word_id": "v_form_4",
+      "term": "अवलोकन करना",
+      "phonetic_api": "/əʋloːkən kəɾnaː/",
+      "phonetic_simple": "AV-LO-KAN KAR-NAA",
+      "translation": "Examiner / Passer en revue / Prendre connaissance de",
+      "example_sentence": "कृपया इस दस्तावेज़ का अवलोकन करें।",
+      "example_phonetic": "/kɾɪpəjaː ɪs d̪əst̪aːʋeːz kaː əʋloːkən kəɾẽː/",
+      "example_translation": "Veuillez s'il vous plaît prendre connaissance de ce document."
+    },
+    {
+      "word_id": "v_form_5",
+      "term": "भवदीय / भवदीया",
+      "phonetic_api": "/bʱəʋəd̪iːjə/ /bʱəʋəd̪iːjaː/",
+      "phonetic_simple": "BHAV-DII-YA / BHAV-DII-YAA",
+      "translation": "Je vous prie d'agréer, Monsieur/Madame, l'expression de mes salutations distinguées (Litt: Vôtre)",
+      "example_sentence": "पत्र के अंत में 'भवदीय' लिखना अनिवार्य है।",
+      "example_phonetic": "/pət̪ɾə keː ənt̪ mẽː bʱəʋəd̪iːjə lɪkʰnaː ənɪʋaːɾjə ɦɛː/",
+      "example_translation": "Il est obligatoire d'écrire 'Veuillez agréer mes salutations distinguées' à la fin de la lettre."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "सविनय निवेदन है कि आपके द्वारा प्रेषित प्रस्ताव पर विचार किया जा रहा है।",
+      "phonetic_api": "/səʋɪnəj nɪʋeːd̪ən ɦɛː kɪ aːpkeː d̪ʋaːraː pɾeːʃɪt̪ pɾəst̪aːʋ pəɾ ʋɪtʃaːr kɪjaː dʒaː ɾəɦaː ɦɛː/",
+      "phonetic_simple": "SA-VI-NAY NI-VÉ-DAN HÉ KI AAP-KÉ DVAA-RAA PRÉ-CHIT PRAS-TAAV PAR VI-CHAAR KI-YAA DJAA RAH-AA HÉ",
+      "translation": "J'ai l'honneur de vous informer que le projet transmis par vos soins est actuellement à l'étude (Formule administrative).",
+      "context": "Accuser réception d'une proposition officielle dans une lettre administrative."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "मैं आपके अमूल्य सहयोग के लिए आपका हृदय से आभार व्यक्त करता हूँ।",
+      "phonetic_api": "/mɛ̃ː aːpkeː əmuːljə səɦjoːɡ keː lɪjeː aːpkaː ɦɾɪd̪əj seː aːbʱaːr ʋjəkt̪ kəɾt̪aː ɦuː/",
+      "phonetic_simple": "MEIN AAP-KÉ A-MOOL-YA SAH-YOG KÉ LI-YÉ AAP-KAA HRI-DAY SÉ AA-BHAAR VYAKT KAR-TAA HOUN",
+      "translation": "Je tiens à vous exprimer ma gratitude la plus sincère pour votre précieuse collaboration (locuteur masculin).",
+      "context": "Formule de remerciement formelle destinée à un partenaire institutionnel de haut rang."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction passive de politesse avec 'के द्वारा' (kē dvārā)",
+      "explanation": "Dans le langage formel et officiel, on évite d'utiliser la voix active directe qui peut paraître trop abrupte. On privilégie la voix passive ou l'agent d'action introduit par 'के द्वारा' (par les soins de / par).",
+      "rules": [
+        "Structure : [Agent] + के द्वारा + [Objet] + [Participe passé du verbe d'action] + जाना (conjugué).",
+        "Cette tournure impersonnelle confère au texte un caractère neutre, légal et hautement professionnel."
+      ],
+      "examples": [
+        {
+          "structure": "यह निर्णय समिति के द्वारा लिया गया। (Yah nirṇay samiti kē dvārā liyā gayā.)",
+          "phonetic_api": "/jəɦ nɪɾɳəj səmɪt̪ɪ keː d̪ʋaːraː lɪjaː ɡəjaː/",
+          "meaning": "Cette décision a été prise par le comité."
+        }
+      ]
+    },
+    {
+      "concept": "L'impératif de très haute déférence avec la terminaison '-इगा' (-iyēgā) ou '-एं' (-ēñ)",
+      "explanation": "Pour formuler des requêtes administratives ou inviter une autorité à agir sans donner d'ordre direct, le hindi recourt aux formes verbales du subjonctif pluriel ou du futur de courtoisie absolue.",
+      "rules": [
+        "Structure : कृपया + [Action au subjonctif ou futur honorifique].",
+        "Remplace les formes d'impératif classiques pour s'aligner sur les exigences du protocole écrit."
+      ],
+      "examples": [
+        {
+          "structure": "कृपया इस विषय पर अपनी स्वीकृति प्रदान करें। (Kripayā is viṣay par apnī svīkriti pradān karēñ.)",
+          "phonetic_api": "/kɾɪpəjaː ɪs ʋɪʃəj pəɾ əpniː sʋiːkɾɪt̪ɪ pɾəd̪aːn kəɾẽː/",
+          "meaning": "Veuillez avoir l'obligeance d'accorder votre approbation sur ce point."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "सचिव (Secrétaire administratif)",
+      "text": "आदरणीय महोदय, मुख्य निदेशक के द्वारा आपकी फाइल का अवलोकन किया जा चुका है।",
+      "phonetic_api": "/aːd̪əɾəɳiːjə  məɦoːd̪əj mʊkʰjə nɪd̪eːʃək keː d̪ʋaːraː aːpkiː faːɪl kaː əʋloːkən kɪjaː dʒaː tʃʊkaː ɦɛː/",
+      "phonetic_simple": "AA-DA-RA-NII-YA MA-HO-DAY, MUKH-YA NI-DÉ-CHAK KÉ DVAA-RAA AAP-KII FILE KAA AV-LO-KAN KI-YAA DJAA CHOU-KAA HÉ",
+      "translation": "Honorable Monsieur, le directeur général a d'ores et déjà examiné votre dossier."
+    },
+    {
+      "speaker": "अमित (Amit)",
+      "text": "धन्यवाद महोदय। क्या उनके द्वारा इस प्रस्ताव पर कोई लिखित निर्देश जारी किए गए हैं?",
+      "phonetic_api": "/d̪ʱənjəʋaːd̪ məɦoːd̪əj kjaː ʊnkeː d̪ʋaːraː ɪs pɾəst̪aːʋ pəɾ koːiː lɪkʰɪt̪ nɪɾd̪eːʃ dʒaːriː kɪeː ɡəeː ɦɛ̃ː/",
+      "phonetic_simple": "DHAN-YA-VAAD MA-HO-DAY. KYAA OUN-KÉ DVAA-RAA IS PRAS-TAAV PAR KO-II LI-KHIT NIR-DÉCH DJAA-RII KI-YÉ GAYÉ HAIN",
+      "translation": "Merci Monsieur. Des directives écrites ont-elles été émises par ses soins concernant cette proposition ?"
+    },
+    {
+      "speaker": "सचिव (Secrétaire administratif)",
+      "text": "जी हाँ, उनके द्वारा सकारात्मक प्रतिक्रिया दी गई है। आप अपनी अग्रिम योजना प्रस्तुत कर सकते हैं। मेरी हार्दिक शुभकामनाएँ।",
+      "phonetic_api": "/dʒiː ɦãː ʊnkeː d̪ʋaːraː səkaːraːt̪mək pɾət̪ɪkɾɪjaː d̪iː ɡəiː ɦɛː aːp əpniː əɡɾɪm joːdʒnaː pɾəst̪ʊt̪ kəɾ səkt̪eː ɦɛ̃ː meːriː ɦaːɾd̪ɪk ʃʊbʱkaːmnaːẽː/",
+      "phonetic_simple": "DJII HAAN, OUN-KÉ DVAA-RAA SA-KAA-RAAT-MAK PRA-TI-KRI-YAA DII GAYII HÉ. AAP AP-NII AG-RIM YODJ-NAA PRAS-TOUT KAR SAK-TÉ HAIN. MÉ-RII HAAR-DIK CHOUBH-KAAM-NAA-ÊN",
+      "translation": "Oui, tout à fait, une réponse positive a été formulée par ses soins. Vous pouvez soumettre votre plan d'action détaillé. Je vous présente mes meilleurs vœux de réussite."
+    }
+  ],
+  "cultural_notes": [
+    "La correspondance officielle et l'écriture administrative en Inde restent profondément imprégnées d'un protocole rigide hérité de la haute bureaucratie. L'utilisation constante d'adjectifs honorifiques ('आदरणीय', 'माननीय') est incontournable pour s'adresser à un supérieur ou à un représentant de l'État.",
+    "Le choix du vocabulaire Tatsam (mots sanskrits inchangés) établit immédiatement le prestige intellectuel et le sérieux de l'expéditeur. Une lettre officielle rédigée sans ces structures formelles serait perçue comme un manque de respect envers l'institution visée."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la formule d'appel épistolaire officielle la plus appropriée pour s'adresser formellement à une directrice ?",
+      "options": [
+        "नमस्ते बहन जी (Namastē bahan jī)",
+        "आदरणीय महोदया (Ādarṇīya mahōdayā)",
+        "प्रिय दोस्त (Priya dōst)"
+      ],
+      "correct_answer": "आदरणीय महोदया (Ādarṇīya mahōdayā)",
+      "explanation": "'आदरणीय महोदया' signifie 'Honorable Madame' et constitue le sommet de la courtoisie protocolaire pour s'adresser à une femme dans un cadre formel."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "यह सूचना सरकार [ ___ ] जारी की गई है। (Cette information a été publiée par le gouvernement - voix passive administrative).",
+      "correct_answer": "के द्वारा",
+      "hint": "La locution prépositionnelle requise pour introduire l'agent à la voix passive formelle (kē dvārā)"
+    }
+  ]
+}

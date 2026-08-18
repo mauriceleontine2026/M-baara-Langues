@@ -1,0 +1,163 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer les jours de la semaine et repérer les divisions temporelles majeures",
+    "Exprimer l'heure et les moments cardinaux de la journée"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne liquide /r/ en nalu est souvent légèrement battue, proche du 'r' espagnol. Les voyelles suivies d'une nasale en fin de syllabe subissent une légère nasalisation automatique, mais l'articulation de la consonne finale doit rester perceptible.",
+    "common_pitfalls": "Attention à ne pas calquer l'intonation descendante du français sur les expressions temporelles. Les mots désignant les moments de la journée possèdent une hauteur mélodique propre qui porte la clarté de la phrase."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v6_1",
+      "term": "Suba",
+      "phonetic_api": "/su.ba/",
+      "phonetic_simple": "SOU-BA",
+      "translation": "Demain / Matin",
+      "example_sentence": "Mu suba, baa.",
+      "example_phonetic": "/mu su.ba baː/",
+      "example_translation": "À demain, mon père."
+    },
+    {
+      "word_id": "v6_2",
+      "term": "Gbele",
+      "phonetic_api": "/g͡be.le/",
+      "phonetic_simple": "GBÉ-LÉ",
+      "translation": "Jour / Soleil",
+      "example_sentence": "Gbele a ror ce.",
+      "example_phonetic": "/g͡be.le a ror tʃe/",
+      "example_translation": "Le jour brille bien."
+    },
+    {
+      "word_id": "v6_3",
+      "term": "Wolo",
+      "phonetic_api": "/wo.lo/",
+      "phonetic_simple": "WO-LO",
+      "translation": "Heure / Temps",
+      "example_sentence": "Wolo a rila?",
+      "example_phonetic": "/wo.lo a ri.la/",
+      "example_translation": "Quelle heure est-il ?"
+    },
+    {
+      "word_id": "v6_4",
+      "term": "Teng",
+      "phonetic_api": "/teŋ/",
+      "phonetic_simple": "TENG",
+      "translation": "Mois / Lune",
+      "example_sentence": "Teng deenung.",
+      "example_phonetic": "/teŋ deː.nuŋ/",
+      "example_translation": "Un mois."
+    },
+    {
+      "word_id": "v6_5",
+      "term": "N'gbe",
+      "phonetic_api": "/ŋgbe/",
+      "phonetic_simple": "NGBÉ",
+      "translation": "Aujourd'hui",
+      "example_sentence": "N'gbe a mboye.",
+      "example_phonetic": "/ŋgbe a mbo.je/",
+      "example_translation": "Aujourd'hui tout va bien."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p6_1",
+      "original": "Wolo a rila n'gbe?",
+      "phonetic_api": "/wo.lo a ri.la ŋgbe/",
+      "phonetic_simple": "WO-LO A RI-LA NGBÉ",
+      "translation": "Quelle heure est-il aujourd'hui / maintenant ?",
+      "context": "Formule courante pour s'enquérir du temps qu'il fait ou de l'heure exacte."
+    },
+    {
+      "phrase_id": "p6_2",
+      "original": "Wolo beeduŋ n'gbe bileng.",
+      "phonetic_api": "/wo.lo beː.duŋ ŋgbe bi.leŋ/",
+      "phonetic_simple": "WO-LO BÉÉ-DOUNG NGBÉ BI-LENG",
+      "translation": "Il est sept heures (5 + 2).",
+      "context": "Utilisé pour donner l'heure en associant le terme de temps aux chiffres nalu."
+    },
+    {
+      "phrase_id": "p6_3",
+      "original": "Mu gbele be.",
+      "phonetic_api": "/mu g͡be.le be/",
+      "phonetic_simple": "MOU GBÉ-LÉ BÉ",
+      "translation": "Tout au long de la journée.",
+      "context": "Expression idiomatique servant à décrire une action continue ou habituelle."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du temps par juxtaposition nominale",
+      "explanation": "En nalu, pour indiquer l'heure ou un moment précis du calendrier, on juxtapose le nom de l'unité temporelle ('wolo' pour l'heure, 'teng' pour le mois) suivi immédiatement du numéral correspondant, sans préposition intermédiaire.",
+      "rules": [
+        "Le substantif temporel initie la proposition.",
+        "Le nombre ou l'adjectif démonstratif se place en position post-nominale immédiate."
+      ],
+      "examples": [
+        {
+          "structure": "Wolo bitua",
+          "phonetic_api": "/wo.lo bi.twa/",
+          "meaning": "Trois heures"
+        },
+        {
+          "structure": "Teng bileng",
+          "phonetic_api": "/teŋ bi.leŋ/",
+          "meaning": "Deux mois"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ousmane",
+      "text": "Mboye, Amara ! Wolo a rila n'gbe?",
+      "phonetic_api": "/mbo.je a.ma.ra wo.lo a ri.la ŋgbe/",
+      "phonetic_simple": "MBO-YÉ, A-MA-RA ! WO-LO A RI-LA NGBÉ?",
+      "translation": "Bonjour, Amara ! Quelle heure est-il maintenant ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "Mboye ce ! Wolo beeduŋ gbe.",
+      "phonetic_api": "/mbo.je tʃe wo.lo beː.duŋ gbe/",
+      "phonetic_simple": "MBO-YÉ TCHÉ ! WO-LO BÉÉ-DOUNG GBÉ.",
+      "translation": "Bonjour bien ! Il est cinq heures."
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Nu koka. Mu suba !",
+      "phonetic_api": "/nu ko.ka mu su.ba/",
+      "phonetic_simple": "NOU KO-KA. MOU SOU-BA !",
+      "translation": "Merci. À demain !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans le milieu traditionnel nalu, le découpage du temps reste fortement calqué sur la course du soleil et les activités de subsistance (les heures de la marée pour la pêche, l'angélus ou les prières). Pour la désignation formelle des jours de la semaine et des mois de l'année civile, la communauté utilise aujourd'hui un bilinguisme fluide intégrant les termes soussou ou malinké adaptés à la phonologie locale."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex6_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'Suba' ?",
+      "options": [
+        "Le soir",
+        "Demain / Le matin",
+        "La nuit"
+      ],
+      "correct_answer": "Demain / Le matin",
+      "explanation": "'Suba' englobe les notions de matinée et de journée à venir, d'où son usage dans 'mu suba' (à demain)."
+    },
+    {
+      "exercise_id": "ex6_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander l'heure, on dit : [ ___ ] a rila?",
+      "correct_answer": "Wolo",
+      "hint": "C'est le terme nalu pour désigner l'heure ou le moment précis"
+    }
+  ]
+}

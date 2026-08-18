@@ -1,0 +1,116 @@
+{
+  "lesson_id": "B1_M1_L3",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 3,
+  "title": "Exprimer ses goûts, ses préférences et ses sentiments",
+  "learning_objectives": [
+    "Formuler une appréciation positive ou négative face à une situation",
+    "Exprimer des sentiments intérieurs profonds comme la joie ou le contentement",
+    "Établir une comparaison de préférence entre deux options ou objets"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La nasale vélaire finissant un mot /ŋ/ doit être prolongée sans amorcer un détachement de la langue avant la fin de l'expiration du souffle.",
+    "common_pitfalls": "Attention à ne pas confondre la négation d'état avec la négation de l'action verbale immédiate lors de l'expression du rejet."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v12_1",
+      "term": "kisin",
+      "phonetic_api": "/ki.sin/",
+      "phonetic_simple": "KI-SIN",
+      "translation": "plaisir / être bon / agréable",
+      "example_sentence": "mampa mɔ kisin",
+      "example_phonetic": "/mam.pa mɔ ki.sin/",
+      "example_translation": "Le pain est bon (agréable)."
+    },
+    {
+      "word_id": "v12_2",
+      "term": "tana",
+      "phonetic_api": "/ta.na/",
+      "phonetic_simple": "TA-NA",
+      "translation": "ne pas vouloir / détester / rejeter",
+      "example_sentence": "mbi tana mantsa",
+      "example_phonetic": "/mbi ta.na man.t͡sa/",
+      "example_translation": "Je n'aime pas la danse."
+    },
+    {
+      "word_id": "v12_3",
+      "term": "bɛn",
+      "phonetic_api": "/bɛn/",
+      "phonetic_simple": "BÈN",
+      "translation": "cœur / siège des sentiments",
+      "example_sentence": "bɛn kɔn mɔ lɔndɔ",
+      "example_phonetic": "/bɛn kɔn mɔ lɔn.dɔ/",
+      "example_translation": "Mon cœur est ici (je suis heureux)."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p12_1",
+      "original": "bɛn kɔn mɔ kisin tundo",
+      "phonetic_api": "/bɛn kɔn mɔ ki.sin tun.do/",
+      "phonetic_simple": "BÈN KON MO KI-SIN TOUN-DO",
+      "translation": "Mon cœur est très content (Je suis ravi)",
+      "context": "Exprimer un sentiment de profonde gratitude ou de joie intense après une bonne nouvelle."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression métaphorique des sentiments par le mot 'bɛn'",
+      "explanation": "En landouma, le cœur ('bɛn') sert de support linguistique pour exprimer la quasi-totalité des sentiments de joie, d'affection ou de tristesse. Être heureux se traduit littéralement par avoir un 'cœur doux' ou 'agréable'.",
+      "rules": [
+        "Structure de la joie : [bɛn + Possessif] + mɔ + kisin.",
+        "La négation de ce sentiment s'applique directement sur le qualificatif d'état final."
+      ],
+      "examples": [
+        {
+          "structure": "bɛn + kɔn + mɔ + kisin",
+          "phonetic_api": "/bɛn kɔn mɔ ki.sin/",
+          "meaning": "Je suis heureux (mon cœur est doux)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "mampa mɔ mɔ kisin ?",
+      "phonetic_api": "/mam.pa mɔ mɔ ki.sin/",
+      "phonetic_simple": "MAM-PA MO MO KI-SIN ?",
+      "translation": "Ton pain est-il bon ?"
+    },
+    {
+      "speaker": "Amadou",
+      "text": "yoo, mampa mɔ kisin. bɛn kɔn mɔ kisin tundo.",
+      "phonetic_api": "/joː mam.pa mɔ ki.sin bɛn kɔn mɔ ki.sin tun.do/",
+      "phonetic_simple": "YOO MAM-PA MO KI-SIN. BÈN KON MO KI-SIN TOUN-DO",
+      "translation": "Oui, le pain est très bon. Mon cœur est ravi (je me régale)."
+    }
+  ],
+  "cultural_notes": [
+    "Les expressions liées aux états intérieurs en pays landouma recourent massivement à des parties anatomiques (le cœur, le ventre) pour matérialiser les émotions de façon poétique et concrète."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex12_1",
+      "type": "multiple_choice",
+      "question": "Quel mot désigne le 'cœur' comme siège des émotions ?",
+      "options": [
+        "baba",
+        "bɛn",
+        "dare"
+      ],
+      "correct_answer": "bɛn",
+      "explanation": "'bɛn' structure l'ensemble des expressions sentimentales et affectives en landouma."
+    },
+    {
+      "exercise_id": "ex12_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "bɛn kɔn mɔ [ ___ ] (Mon cœur est content)",
+      "correct_answer": "kisin",
+      "hint": "Le terme qualitatif signifiant doux, agréable ou bon."
+    }
+  ]
+}

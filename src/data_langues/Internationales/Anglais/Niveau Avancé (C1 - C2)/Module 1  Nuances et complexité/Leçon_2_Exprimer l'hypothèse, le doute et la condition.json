@@ -1,0 +1,215 @@
+{
+  "lesson_id": "C1_M1_L2_v2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Maîtriser les conditionnels mixtes (Mixed Conditionals) pour articuler des faits passés avec des conséquences présentes (et inversement)",
+    "Exprimer l'hypothèse raffinée en utilisant l'inversion syntaxique sans la conjonction 'if'",
+    "Formuler des nuances d'incertitude, de doute ou de restriction via des locutions conjonctives avancées (provided that, as long as, unless, but for)",
+    "Utiliser les structures modales passées pour exprimer des regrets ou des conjectures rétrospectives"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression de l'hypothèse avancée repose sur l'alternance d'auxiliaires modaux contractés. La prononciation de 'should' inversé en début de phrase (/ʃʊd aɪ/) demande une liaison fluide sans coup de glotte. Le groupe 'would have' se réduit presque systématiquement à /wʊdəv/ ou /wʊd/, tandis que la négation correspondante 'wouldn't have' se réalise /ˈwʊdəntəv/, exigeant une articulation nette de la consonne nasale avant la réduction schwa.",
+    "common_pitfalls": "Marquer une pause artificielle entre l'auxiliaire inversé et le sujet (ex: prononcer 'Had... I known' de manière disjointe). Trop accentuer la préposition 'for' dans la locution 'but for' /bʌt fɔːr/, alors qu'elle doit rester clitique et réduite en /fər/ dans le flux de la phrase."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Conjecture",
+      "phonetic_api": "/kənˈdʒɛktʃər/",
+      "phonetic_simple": "kən-DJEK-tʃər",
+      "translation": "Conjecture / Hypothèse / Supposition",
+      "example_sentence": "The economic forecast is based on pure conjecture rather than concrete empirical findings.",
+      "example_phonetic": "/ði ˌiːkəˈnɒmɪk ˈfɔːrkæst ɪz beɪst ɒn pjʊər kənˈdʒɛktʃər ˈræðər ðæn ˈkɒŋkriːt ɛmˈpɪrɪkəl ˈfaɪndɪŋz/",
+      "example_translation": "Les prévisions économiques reposent sur de pures conjectures plutôt que sur des résultats empiriques concrets."
+    },
+    {
+      "word_id": "v2",
+      "term": "To jeopardize",
+      "phonetic_api": "/ˈdʒɛpərdaɪz/",
+      "phonetic_simple": "DJE-pər-daɪz",
+      "translation": "Compromettre / Mettre en péril / Mettre en danger",
+      "example_sentence": "Had we signed that contract, it would jeopardize our long-term financial stability.",
+      "example_phonetic": "/hæd wiː saɪnd ðæt ˈkɒntrækt ɪt wʊd ˈdʒɛpərdaɪz ˈaʊər lɒŋ tɜːrm faɪˈnænʃəl stəˈbɪlɪti/",
+      "example_translation": "Si nous avions signé ce contrat, cela compromettrait notre stabilité financière à long terme."
+    },
+    {
+      "word_id": "v3",
+      "term": "Plausible",
+      "phonetic_api": "/ˈplɔːzəbəl/",
+      "phonetic_simple": "PLO-zə-bəl",
+      "translation": "Plausible / Crédible / Recevable",
+      "example_sentence": "They failed to provide a plausible explanation for the sudden architectural structural failure.",
+      "example_phonetic": "/ðeɪ feɪld tuː prəˈvaɪd ə ˈplɔːzəbəl ˌɛkspləˈneɪʃən fɔːr ðə ˈsʌdən ˌɑːrkɪˈtɛktʃərəl ˈstrʌktʃərəl ˈfeɪljər/",
+      "example_translation": "Ils n'ont pas réussi à fournir une explication plausible à la défaillance structurelle architecturale soudaine."
+    },
+    {
+      "word_id": "v4",
+      "term": "Proviso",
+      "phonetic_api": "/prəˈvaɪzoʊ/",
+      "phonetic_simple": "prə-VAÏ-zoh",
+      "translation": "Clause restrictive / Condition / Réserve",
+      "example_sentence": "The funds will be released only with the proviso that an audit is conducted monthly.",
+      "example_phonetic": "/ðə fʌndz wɪl biː rɪˈliːst ˈoʊnli wɪð ðə prəˈvaɪzoʊ ðæt ən ˈɔːdɪt ɪz kənˈdʌktɪd ˈmʌnθli/",
+      "example_translation": "Les fonds ne seront débloqués qu'à la condition qu'un audit soit réalisé mensuellement."
+    },
+    {
+      "word_id": "v5",
+      "term": "Misgiving",
+      "phonetic_api": "/ˌmɪsˈɡɪvɪŋ/",
+      "phonetic_simple": "mɪs-GIV-iŋ",
+      "translation": "Doute / Crainte / Appréhension / Pressentiment",
+      "example_sentence": "Despite my profound misgivings about the strategy, I reluctantly authorized the project.",
+      "example_phonetic": "/dɪsˈpaɪt maɪ prəˈfaʊnd mɪsˈɡɪvɪŋz əˈbaʊt ðə ˈstrætədʒi aɪ rɪˈlʌktəntli ˈɔːθəraɪzd ðə ˈprɒdʒɛkt/",
+      "example_translation": "Malgré mes profonds doutes sur la stratégie, j'ai autorisé le projet à contrecœur."
+    },
+    {
+      "word_id": "v6",
+      "term": "Unfeasible",
+      "phonetic_api": "/ʌnˈfiːzəbəl/",
+      "phonetic_simple": "an-FII-zə-bəl",
+      "translation": "Irréalisable / Infaisable / Inapplicable",
+      "example_sentence": "The proposed technical structural adjustments are financially unfeasible for the university.",
+      "example_phonetic": "/ðə prəˈpoʊzd ˈtɛknɪkəl ˈstrʌktʃərəl əˈdʒʌstmənts ɑːr faɪˈnænʃəli ʌnˈfiːzəbəl fɔːr ðə ˌjuːnɪˈvɜːrsəti/",
+      "example_translation": "Les ajustements structurels techniques proposés sont financièrement irréalisables pour l'université."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Had I known about the fiscal structural complications, I would have acted differently",
+      "phonetic_api": "/hæd aɪ noʊn əˈbaʊt ðə ˈfɪskəl ˈstrʌktʃərəl ˌkɒmplɪˈkeɪʃənz aɪ wʊd hæv ˈæktɪd ˈdɪfrəntli/",
+      "phonetic_simple": "hæd aɪ nohn ə-BAʊT ðə FIS-kəl STRAK-tʃər-əl kom-plɪ-KEI-ʃənz aɪ wʊd hæv AK-tɪd DIF-rənt-li",
+      "translation": "Si j'avais été au courant des complications structurelles fiscales, j'aurais agi différemment",
+      "context": "Structure d'inversion au conditionnel passé (équivalent de Third Conditional) pour exprimer un regret sans utiliser 'if'."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "But for your timely intervention, the academic project would have collapsed",
+      "phonetic_api": "/bʌt fɔːr jɔːr ˈtaɪmli ˌɪntərˈvɛnʃən ðɪ ˌækəˈdɛmɪk ˈprɒdʒɛkt wʊd hæv kəˈlæpst/",
+      "phonetic_simple": "bʌt fər yor TAÏM-li ɪn-tər-VEN-ʃən ði ak-ə-DEM-ɪk PROD-jekt wʊd hæv kə-LAPST",
+      "translation": "Sans votre intervention opportune, le projet académique se serait effondré",
+      "context": "Utilisation de 'but for' (qui signifie 'sans l'existence de') pour poser une condition cruciale passée."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Provided that all safety parameters are met, the simulation may proceed",
+      "phonetic_api": "/prəˈvaɪdɪd ðæt ɔːl ˈseɪfti pəˈræmɪtərz ɑːr mɛt ðə ˌsɪmjʊˈleɪʃən meɪ prəˈsiːd/",
+      "phonetic_simple": "prə-VAÏD-ɪd ðæt ɔl SEIFT-i pə-RAM-ɪ-tərz ar met ðə sɪm-jʊ-LEI-ʃən meɪ prə-SIID",
+      "translation": "Pourvu que tous les paramètres de sécurité soient respectés, la simulation peut continuer",
+      "context": "Formulation hautement formelle de la condition restrictive à l'aide de 'provided that'."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Should you require further analytical documentation, do not hesitate to contact us",
+      "phonetic_api": "/ʃʊd juː rɪˈkwaɪər ˈfɜːrðər ˌænəˈlɪtɪkəl ˌdɒkjʊmɛnˈteɪʃən duː nɒt ˈhɛzɪteɪt tuː ˈkɒntækt ʌs/",
+      "phonetic_simple": "ʃʊd yoo rɪ-KWAÏər FUR-ðər an-ə-LIT-ɪ-kəl dok-jʊ-men-TEI-ʃən doo nɒt HEZ-ɪ-teɪt too KON-takt as",
+      "translation": "Si vous deviez avoir besoin de documents d'analyse complémentaires, n'hésitez pas à nous contacter",
+      "context": "Inversion littéraire et courtoise avec 'should' en tête de phrase pour remplacer un 'if' d'hypothèse future."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les Conditionnels Mixtes (Mixed Conditionals)",
+      "explanation": "Au niveau C1, la structure des conditionnels dépasse les modèles figés (Type 1, 2, 3). On utilise les conditionnels mixtes lorsque le repère temporel de la condition diffère de celui de la conséquence. \n- **Mixte 1 (Condition passée -> Conséquence présente)** : On évalue l'impact présent d'un fait manqué du passé. Structure : IF + Past Perfect, WOULD + Base Verbale.\n- **Mixte 2 (Condition présente/intemporelle -> Conséquence passée)** : Un état général ou permanent a modifié le cours d'un événement passé précis. Structure : IF + Prétérit Simple, WOULD HAVE + Participe Passé.",
+      "rules": [
+        "Passé vers Présent : If I had won the lottery (past), I would buy a house now (present).",
+        "Présent/Permanent vers Passé : If I were fluent in English (permanent state), I would have accepted the job offer last year (past)."
+      ],
+      "examples": [
+        {
+          "structure": "If the research team had audited the database yesterday, we would not face this structural failure today.",
+          "phonetic_api": "/ɪf ðə rɪˈsɜːrtʃ tiːm hæd ˈɔːdɪtɪŋ ðə ˈdeɪtəbeɪs ˈjɛstərdeɪ wiː wʊd nɒt feɪs ðɪs ˈstrʌktʃərəl ˈfeɪljər təˈdeɪ/",
+          "meaning": "Si l'équipe de recherche avait audité la base de données hier, nous ne serions pas confrontés à cette défaillance structurelle aujourd'hui."
+        }
+      ]
+    },
+    {
+      "concept": "L'inversion de l'hypothèse sans IF (Inverted Conditionals)",
+      "explanation": "Pour élever le registre d'un texte ou d'une argumentation rhétorique, on peut supprimer la conjonction 'if' et inverser le sujet avec l'auxiliaire de la proposition conditionnelle. Cette structure n'est possible qu'avec trois auxiliaires spécifiques : **SHOULD** (au futur/présent), **WERE** (à l'irréel du présent) et **HAD** (au passé accompli).",
+      "rules": [
+        "Registre futur -> Should + Sujet + Base Verbale (ex: Should he arrive -> If he should arrive).",
+        "Registre présent -> Were + Sujet + ... (ex: Were I rich -> If I were rich).",
+        "Registre passé -> Had + Sujet + Participe passé (ex: Had we known -> If we had known).",
+        "Forme négative : On place 'not' après le sujet sans contracter (ex: Had we not checked...)."
+      ],
+      "examples": [
+        {
+          "structure": "Had the board not approved the structural funding, the research would be unfeasible.",
+          "phonetic_api": "/hæd ðə bɔːrd nɒt əˈpruːvd ðə ˈstrʌktʃərəl ˈfʌndɪŋ ðə rɪˈsɜːrtʃ wʊd biː ʌnˈfiːzəbəl/",
+          "meaning": "Si le conseil d'administration n'avait pas approuvé le financement structurel, la recherche serait irréalisable."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Elena",
+      "text": "Professor Malick, I still harbor deep misgivings regarding our architectural expansion plan. Were we to deploy the new system infrastructure now, we might jeopardize the entire project stability.",
+      "phonetic_api": "/prəˈfɛsər ˈmælɪk aɪ stɪl ˈhɑːrbər diːp mɪsˈɡɪvɪŋz rɪˈɡɑːrdɪŋ ˈaʊər ˌɑːrkɪˈtɛktʃərəl ɪksˈpænʃən plæn wɜːr wiː tuː dɪˈplɔɪ ðə njuː ˈsɪstəm ˌɪnfrəˈstrʌktʃər naʊ wiː maɪt ˈdʒɛpərdaɪz ðɪ ɪnˈtaɪər ˈprɒdʒɛkt stəˈbɪlɪti/",
+      "phonetic_simple": "prə-FES-ər MA-lɪk aɪ stɪl HAR-bər diip mɪs-GIV-iŋz rɪ-GARD-iŋ aʊər ar-kɪ-TEK-tʃər-əl ɪks-PAN-ʃən plæn wɜːr wi too dɪ-PLOÏ ðə nioo SIS-təm IN-frə-strak-tʃər naʊ wi maɪt DJEP-ər-daɪz ði ɪn-TAÏər PROD-jekt stə-BIL-ɪ-ti",
+      "translation": "Professeur Malick, je nourris encore de profonds doutes concernant notre plan d'expansion architecturale. Si nous devions déployer la nouvelle infrastructure système maintenant, nous pourrions compromettre la stabilité de l'ensemble du projet."
+    },
+    {
+      "speaker": "Professor Malick",
+      "text": "Your conjecture is valid, Elena. However, but for the international research grant we received, this venture would have been completely unfeasible from the start. We must move forward, provided that the security protocols are fully active.",
+      "phonetic_api": "/jɔːr kənˈdʒɛktʃər ɪz ˈvælɪd ɛˈleɪnə haʊˈɛvər bʌt fɔːr ði ˌɪntərˈnæʃənəl rɪˈsɜːrtʃ ɡrænt wiː rɪˈsiːvd ðɪs ˈvɛntʃər wʊd hæv biːn kəmˈpliːtɪd ʌnˈfiːzəbəl frɒm ðə stɑːrt wiː mʌst muːv ˈfɔːrwərd prəˈvaɪdɪd ðæt ðə sɪˈkjʊərɪti ˈproʊtəkɒlz ɑːr ˈfʊli ˈæktɪv/",
+      "phonetic_simple": "yor kən-DJEK-tʃər ɪz VAL-ɪd e-LEI-nə haʊ-EV-ər bʌt fər ði ɪn-tər-NA-ʃən-əl rɪ-SURTʃ grant wi rɪ-SIIVD ðɪs VEN-tʃər wʊd hæv biin kəm-PLIÌT-li an-FII-zə-bəl from ðə start wi mast moov FOR-wərd prə-VAÏD-ɪd ðæt ðə sɪ-KIʊər-ɪ-ti PROH-tə-kolz ar FUL-li AK-tɪv",
+      "translation": "Votre conjecture est valable, Elena. Cependant, sans la bourse de recherche internationale que nous avons reçue, cette entreprise aurait été totalement irréalisable dès le départ. Nous devons aller de l'avant, pourvu que les protocoles de sécurité soient pleinement actifs."
+    },
+    {
+      "speaker": "Elena",
+      "text": "I understand the financial imperative. Yet, had the developers monitored the database variance analysis earlier, we would not be in such an ambiguous situation today. Our current anxiety is a direct consequence of past oversight.",
+      "phonetic_api": "/aɪ ˌʌndərˈstænd ðə faɪˈnænʃəl ɪmˈpɛrətɪv jɛt hæd ðə dɪˈvɛləpərz ˈmɒnɪtərd ðə ˈdeɪtəbeɪs ˈvɛərɪəns əˈnæləsɪs ˈɜːrlɪər wiː wʊd nɒt biː ɪn sʌtʃ ən æmˈbɪɡjʊəs ˌsɪtʃʊˈeɪʃən təˈdeɪ ˈaʊər ˈkʌrənt æŋˈzaɪəti ɪz ə daɪˈrɛkt ˈkɒnsɪkwəns ɒv pæst ˈoʊvərsaɪt/",
+      "phonetic_simple": "aɪ ʌn-dər-STAND ðə faɪ-NAN-ʃəl ɪm-PER-ə-tɪv yet hæd ðə dɪ-VEL-ə-pərz MON-ɪ-tərd ðə DEI-tə-beɪs VÊR-i-əns ə-NAL-ə-sɪs UR-li-ər wi wʊd nɒt bi ɪn sʌtʃ ən am-BIG-jʊ-əs sɪtʃ-ʊ-EI-ʃən tə-DEI aʊər KAr-ənt aŊK-zaɪ-ə-ti ɪz ə daɪ-REKT KON-sɪ-kwəns ɒv past OH-vər-saɪt",
+      "translation": "Je comprends l'impératif financier. Pourtant, si les développeurs avaient surveillé l'analyse de variance de la base de données plus tôt, nous ne serions pas dans une situation aussi ambiguë aujourd'hui. Notre anxiété actuelle est une conséquence directe d'une omission passée."
+    },
+    {
+      "speaker": "Professor Malick",
+      "text": "That is a classic mixed conditional reality, indeed. Should any further structural anomalies manifest themselves tonight, I will personal take responsibility and halt the servers with the proviso that we preserve the raw integrity logs.",
+      "phonetic_api": "/ðæt ɪz ə ˈklæsɪk mɪkst kənˈdɪʃənəl rɪˈælɪti ɪnˈdiːd ʃʊd ˈɛni ˈfɜːrðər ˈstrʌktʃərəl əˈnɒməlɪz ˈmænɪfɛst ðɛmˈsɛlvz təˈnaɪt aɪ wɪl ˈpɜːrsənəli teɪk rɪˌspɒnsəˈbɪlɪti ænd hɔːlt ðə ˈsɜːrvərz wɪð ðə prəˈvaɪzoʊ ðæt wiː prɪˈzɜːrv ðə rɔː ɪnˈtɛɡrɪti lɒɡz/",
+      "phonetic_simple": "ðat ɪz ə KLAS-ɪk mɪkst kən-DISH-ən-əl rɪ-AL-ɪ-ti ɪn-DIID ʃʊd EN-i FUR-ðər STRAK-tʃər-əl ə-NOM-ə-liz MAN-ɪ-fest ðem-SELVZ tə-NAÏT aɪ wɪl PUR-sən-əl-i teɪk rɪ-spons-ə-BIL-ɪ-ti and hɔlt ðə SUR-vərz wɪð ðə prə-VAÏ-zoh ðæt wi prɪ-ZURV ðə rɔ ɪn-TEG-rɪ-ti lɒgz",
+      "translation": "C'est en effet une réalité classique de conditionnel mixte. Si d'autres anomalies structurelles devaient se manifester ce soir, je prendrai personnellement mes responsabilités et j'arrêterai les serveurs, sous réserve que nous préservions les journaux d'intégrité bruts."
+    }
+  ],
+  "cultural_notes": [
+    "La rhétorique de la mitigation du risque : Dans la culture universitaire et de la haute technologie anglophone, exprimer une opposition ou un doute ('misgivings') doit s'accompagner d'hypothèses rigoureusement articulées. Utiliser des inversions formelles ('Had I...', 'Were we to...') montre que le locuteur a intellectualisé le risque de manière logique et dépassionnée, une qualité très valorisée dans la prise de décision managériale.",
+    "La portée juridique du 'Proviso' : Le terme 'proviso' est fortement ancré dans la tradition contractuelle de la Common Law. À l'oral de niveau C1, l'employer démontre une maîtrise de la réserve formelle, indiquant que l'accord donné n'est pas inconditionnel mais soumis à une clause d'annulation ou de validation impérative."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Identifiez la phrase qui exprime correctement une inversion conditionnelle passée (sans 'if') :",
+      "options": [
+        "Had the infrastructure not been updated, the software would have crashed.",
+        "Had the infrastructure wouldn't be updated, the software crashed.",
+        "If had the infrastructure been updated, the software would crash."
+      ],
+      "correct_answer": "Had the infrastructure not been updated, the software would have crashed.",
+      "explanation": "L'inversion de l'hypothèse passée se structure avec l'auxiliaire 'Had' en tête, suivi du sujet et du participe passé. La négation 'not' se place après le sujet."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "If I [ ___ ] more meticulous in my past financial audits, I would not be facing these complex tax complications today.",
+      "correct_answer": "had been",
+      "hint": "Formulez le verbe BE au temps requis par un conditionnel mixte reliant un fait manqué du passé à sa conséquence présente."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie la locution conjonctive 'provided that' dans un argumentaire ?",
+      "options": [
+        "Bien que (concession).",
+        "À condition que / Pourvu que (restriction impérative).",
+        "Étant donné que (causalité)."
+      ],
+      "correct_answer": "À condition que / Pourvu que (restriction impérative).",
+      "explanation": "'Provided that' introduit une condition stricte et indispensable pour que l'action principale puisse se réaliser."
+    }
+  ]
+}

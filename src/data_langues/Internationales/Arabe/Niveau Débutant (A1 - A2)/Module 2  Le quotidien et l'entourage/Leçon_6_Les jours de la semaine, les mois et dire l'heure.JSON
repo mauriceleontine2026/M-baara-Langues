@@ -1,0 +1,270 @@
+{
+  "lesson_id": "A1_M2_L6_ENRICHED",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer et orthographier les sept jours de la semaine et s'orienter dans le temps",
+    "Maîtriser les deux systèmes de mois coexistant dans le monde arabe (Grégorien et Hégirien)",
+    "Demander et exprimer l'heure exacte en utilisant les nombres ordinaux féminins et les fractions de temps"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon s'appuie sur la prononciation rigoureuse du /θ/ (ث) dans 'Al-Thulathā'' (mardi) et 'Al-Ithnayn' (lundi). La consonne emphatique /sˤ/ (ص) apparaît dans 'Al-Sabāḥ' (le matin) et exige une articulation lourde avec recul de la langue. Le 'Ayn /ʕ/ (ع) structure les termes essentiels du temps comme 'Al-Arbi'ā'' (mercredi), 'Al-Jumu'ah' (vendredi), 'Sā'ah' (heure) et 'Al-Ashirah' (dixième heure).",
+    "common_pitfalls": "Attention à l'assimilation de l'article défini 'Al-' devant les 'lettres solaires' (T, Th, D, Dh, R, Z, S, Sh, Sˤ, Dˤ, Tˤ, Dˤ, L, N). Par exemple, on ne prononce pas 'Al-Sabt' mais 'As-Sabt' /as.sabt/, le /l/ disparaissant totalement au profit d'un redoublement de la consonne initiale."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "يَوْمٌ",
+      "phonetic_api": "/jaw.mun/",
+      "phonetic_simple": "YAW-MOUN",
+      "translation": "Un jour / Une journée",
+      "example_sentence": "الْيَوْمُ جَمِيلٌ",
+      "example_phonetic": "/al.jaw.mu dʒa.miː.lun/",
+      "example_translation": "Aujourd'hui il fait beau"
+    },
+    {
+      "word_id": "v2",
+      "term": "سَاعَةٌ",
+      "phonetic_api": "/saː.ʕa.tun/",
+      "phonetic_simple": "SAA-A-TOUN",
+      "translation": "Une heure / Une montre",
+      "example_sentence": "كَمِ السَّاعَةُ الآنَ؟",
+      "example_phonetic": "/ka.mis saː.ʕa.tu l.ʔaː.na/",
+      "example_translation": "Quelle heure est-il maintenant ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "شَهْرٌ",
+      "phonetic_api": "/ʃah.run/",
+      "phonetic_simple": "CHAH-ROUN",
+      "translation": "Un mois",
+      "example_sentence": "هَذَا الشَّهْرُ مُهِمٌّ",
+      "example_phonetic": "/haː.ðasˤ ʃah.ru mu.him.mun/",
+      "example_translation": "Ce mois-ci est important"
+    },
+    {
+      "word_id": "v4",
+      "term": "دَقِيقَةٌ",
+      "phonetic_api": "/da.qiː.qa.tun/",
+      "phonetic_simple": "DA-KII-KA-TOUN",
+      "translation": "Une minute",
+      "example_sentence": "اِنْتَظِرْ دَقِيقَةً",
+      "example_phonetic": "/in.ta.ðˤir da.qiː.qa.tan/",
+      "example_translation": "Attends une minute"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "مَا هُوَ الْيَوْمُ؟",
+      "phonetic_api": "/maː hu.wa l.jaw.mu/",
+      "phonetic_simple": "MAA HOU-WA L-YAW-MOU",
+      "translation": "Quel jour sommes-nous ?",
+      "context": "Question usuelle pour demander le jour de la semaine."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "السَّاعَةُ الثَّالِثَةُ تَمَامًا",
+      "phonetic_api": "/as.saː.ʕa.tu θ.θaː.li.θa.tu ta.maː.man/",
+      "phonetic_simple": "AS-SAA-A-TOU TH-THAA-LI-THA-TOU TA-MAA-MAN",
+      "translation": "Il est exactement trois heures",
+      "context": "Donner l'heure pile (tamāman)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "السَّاعَةُ الْخَامِسَةُ وَالنِّصْفُ",
+      "phonetic_api": "/as.saː.ʕa.tu l.xaː.mi.sa.tu wan.nisˤ.fu/",
+      "phonetic_simple": "AS-SAA-A-TOUL KHAA-MI-SA-TOU WAL-NIS-FOU",
+      "translation": "Il est cinq heures et demie",
+      "context": "Indication de la demi-heure avec la coordination 'wa' (et)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "السَّاعَةُ الْوَاحِدَةُ إِلَّا الرُّبْعَ",
+      "phonetic_api": "/as.saː.ʕa.tu l.waː.ħi.da.tu ʔil.lar rub.ʕa/",
+      "phonetic_simple": "AS-SAA-A-TOUL WAA-HI-DA-TOU IL-LAR ROUB-A",
+      "translation": "Il est une heure moins le quart",
+      "context": "Usage de la particule d'exclusion 'illā' (moins) pour le quart d'heure."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les Jours de la Semaine (أَيَّامُ الأُسْبُوعِ)",
+      "explanation": "Les jours de la semaine en arabe sont tous construits avec l'article défini 'Al-' (qui s'assimile devant les lettres solaires). Ils tirent presque tous leur nom des chiffres cardinaux, à l'exception du vendredi et du samedi.",
+      "rules": [
+        "Dimanche : L'Unique / Premier jour",
+        "Lundi au Jeudi : Suivent l'ordre numérique de 2 à 5",
+        "Vendredi : Jour du rassemblement communautaire",
+        "Samedi : Jour du repos / Sabbat"
+      ],
+      "examples": [
+        {
+          "structure": "الأَحَد (Al-Aḥad)",
+          "phonetic_api": "/al.ʔa.ħad/",
+          "meaning": "Dimanche (lié au chiffre 1)"
+        },
+        {
+          "structure": "الإِثْنَيْن (Al-Ithnayn)",
+          "phonetic_api": "/al.ʔiθ.najn/",
+          "meaning": "Lundi (lié au chiffre 2)"
+        },
+        {
+          "structure": "الثُّلَاثَاء (Ath-Thulathā')",
+          "phonetic_api": "/aθ.θu.la.θaːʔ/",
+          "meaning": "Mardi (lié au chiffre 3 - Lettre Solaire)"
+        },
+        {
+          "structure": "الأَرْبِعَاء (Al-Arbi'ā')",
+          "phonetic_api": "/al.ʔar.bi.ʕaːʔ/",
+          "meaning": "Mercredi (lié au chiffre 4)"
+        },
+        {
+          "structure": "الْخَمِيس (Al-Khamīs)",
+          "phonetic_api": "/al.xa.miːs/",
+          "meaning": "Jeudi (lié au chiffre 5)"
+        },
+        {
+          "structure": "الْجُمُعَة (Al-Jumu'ah)",
+          "phonetic_api": "/al.dʒu.mu.ʕah/",
+          "meaning": "Vendredi (Jour du rassemblement)"
+        },
+        {
+          "structure": "السَّبْت (As-Sabt)",
+          "phonetic_api": "/as.sabt/",
+          "meaning": "Samedi (Le Sabbat - Lettre Solaire)"
+        }
+      ]
+    },
+    {
+      "concept": "Les Mois Grégoriens (الأَشْهُرُ الْمِيلَادِيَّةُ)",
+      "explanation": "Le monde arabe utilise majoritairement le système grégorien pour la vie civile. Deux nomenclatures coexistent : la translittération phonétique standard (utilisée au Maghreb et en Égypte) et les noms d'origine araméenne/assyrienne (utilisés au Proche-Orient / Levant). Nous étudions ici la nomenclature standard universelle.",
+      "rules": [
+        "Les mois s'emploient généralement précédés du mot 'Shahr' (شَهْرُ) qui signifie 'Mois de'."
+      ],
+      "examples": [
+        {
+          "structure": "يَنَايِر (Yanāyir) / فَبْرَايِر (Fabrāyir)",
+          "phonetic_api": "/ja.naː.jir/ /fab.raː.jir/",
+          "meaning": "Janvier / Février"
+        },
+        {
+          "structure": "مَارِس (Māris) / أَبْرِيل (Abrīl)",
+          "phonetic_api": "/maː.ris/ /ʔab.riːl/",
+          "meaning": "Mars / Avril"
+        },
+        {
+          "structure": "مَايُو (Māyū) / يُونْيُو (Yūnyū)",
+          "phonetic_api": "/maː.juː/ /juːn.juː/",
+          "meaning": "Mai / Juin"
+        },
+        {
+          "structure": "يُولْيُو (Yūlyū) / أَغُسْطُس (Aghusṭus)",
+          "phonetic_api": "/juːl.juː/ /ʔa.ɣus.tˤus/",
+          "meaning": "Juillet / Août"
+        },
+        {
+          "structure": "سِبْتَمْبَر (Sibtambar) / أُكْتُوبَر (Oktūbar)",
+          "phonetic_api": "/sib.tam.bar/ /ʔuk.tuː.bar/",
+          "meaning": "Septembre / Octobre"
+        },
+        {
+          "structure": "نُوفَمْبَر (Nūfambar) / دِيسَمْبَر (Dīsambar)",
+          "phonetic_api": "/nuː.fam.bar/ /diː.sam.bar/",
+          "meaning": "Novembre / Décembre"
+        }
+      ]
+    },
+    {
+      "concept": "Les Mois Hégiriens / Islamiques (الأَشْهُرُ الْهِجْرِيَّةُ)",
+      "explanation": "Ce calendrier lunaire est indispensable pour déterminer les dates des fêtes religieuses traditionnelles.",
+      "rules": [
+        "Il comporte également 12 mois basés sur les cycles de la lune."
+      ],
+      "examples": [
+        {
+          "structure": "مُحَرَّم (Muḥarram) / صَفَر (Ṣafar)",
+          "phonetic_api": "/mu.ħar.ram/ /sˤa.far/",
+          "meaning": "1er et 2ème mois de l'hégire"
+        },
+        {
+          "structure": "رَبِيعُ الأَوَّل (Rabī' al-Awwal)",
+          "phonetic_api": "/ra.biː.ʕul ʔaw.wal/",
+          "meaning": "3ème mois (Naissance du Prophète)"
+        },
+        {
+          "structure": "رَمَضَان (Ramaḍān)",
+          "phonetic_api": "/ra.ma.dˤaːn/",
+          "meaning": "9ème mois (Mois du Jeûne)"
+        },
+        {
+          "structure": "شَوَّال (Shawwāl)",
+          "phonetic_api": "/ʃaw.waːl/",
+          "meaning": "10ème mois (Débute par l'Aïd al-Fitr)"
+        },
+        {
+          "structure": "ذُو الْحِجَّة (Dhū l-Ḥijjah)",
+          "phonetic_api": "/ðul ħidʒ.dʒah/",
+          "meaning": "12ème mois (Mois du Pèlerinage et de l'Aïd al-Adha)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "أَمِين (Amine)",
+      "text": "فِي أَيِّ يَوْمٍ نَحْنُ الْيَوْمَ يَا سَامِي؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "FII AY-YI YAW-MIN NAH-NOUL YAW-MA YA SAA-MII",
+      "translation": "En quel jour sommes-nous aujourd'hui, Sami ?"
+    },
+    {
+      "speaker": "سَامِي (Sami)",
+      "text": "الْيَوْمُ هُوَ يَوْمُ الأَرْبِعَاءِ، الرَّابِعُ مِنْ شَهْرِ مَايُو.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AL-YAW-MOU HOU-WA YAW-MOUL AR-BI-AA-I, AR-RAA-BI-OU MIN CHAH-RI MAA-YOU",
+      "translation": "Aujourd'hui c'est mercredi, le quatre du mois de mai."
+    },
+    {
+      "speaker": "أَمِين (Amine)",
+      "text": "مُمْتَازٌ، وَكَمِ السَّاعَةُ الآنَ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MOUM-TAAZ, WA KAMIS-SAA-A-TOUL AAN",
+      "translation": "Excellent, et quelle heure est-il maintenant ?"
+    },
+    {
+      "speaker": "سَامِي (Sami)",
+      "text": "السَّاعَةُ الآنَ الثَّانِيَةُ عَشْرَةَ وَالنِّصْفُ ظُهْرًا.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AS-SAA-A-TOUL AAN ATH-THAA-NI-YA-TA ACH-RA-TA WAL-NIS-FOU DHOH-RAN",
+      "translation": "Il est maintenant douze heures et demie de l'après-midi (midi et demi)."
+    }
+  ],
+  "cultural_notes": [
+    "Le week-end dans le monde arabe : Le vendredi étant le jour de la grande prière collective (Al-Jumu'ah), il constitue le pivot du week-end. Dans la majorité des pays arabes, les jours de repos hebdomadaires officiels sont le vendredi et le samedi, et non le samedi et le dimanche.",
+    "La double datation : Sur les documents officiels, lettres de ministères ou journaux télévisés dans les pays du Golfe et d'Afrique du Nord, il est systématique de voir apposer deux dates côte à côte : la date hégirienne (ex: 1447 AH) et la date grégorienne (ex: 2026 MC)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L6_E_ex1",
+      "type": "multiple_choice",
+      "question": "Quel jour de la semaine signifie littéralement 'Le cinquième' ?",
+      "options": [
+        "الْخَمِيس (Al-Khamīs)",
+        "الإِثْنَيْن (Al-Ithnayn)",
+        "الْجُمُعَة (Al-Jumu'ah)"
+      ],
+      "correct_answer": "الْخَمِيس (Al-Khamīs)",
+      "explanation": "Al-Khamīs dérive directement de la racine du chiffre 5 (Khamsah)."
+    },
+    {
+      "exercise_id": "A1_M2_L6_E_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le mois de Janvier en arabe standard moderne se dit : [ ___ ]",
+      "correct_answer": "يَنَايِر",
+      "hint": "C'est une translittération proche du mot international."
+    }
+  ]
+}

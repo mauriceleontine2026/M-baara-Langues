@@ -1,0 +1,163 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Identifier l'alphabet et le système phonologique nalu",
+    "Prononcer correctement les consonnes co-articulées et les voyelles longues"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le système phonétique nalu se distingue par l'utilisation de consonnes labio-vélaires complexes comme /gb/ et /kp/, ainsi que par la présence d'une occlusive glottale (coup de glotte) notée /ʔ/. Les voyelles peuvent être brèves (a, e, i, o, u) ou longues (aa, ee, ii, oo, uu).",
+    "common_pitfalls": "La confusion entre une voyelle brève et une voyelle longue peut changer radicalement le sens d'un mot. Veillez également à ne pas séparer les deux lettres du 'gb' en disant 'g-b', mais à presser les lèvres tout en reculant la langue."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v3_1",
+      "term": "Gbala",
+      "phonetic_api": "/g͡ba.la/",
+      "phonetic_simple": "GBA-LA",
+      "translation": "Écorce / Peau",
+      "example_sentence": "Gbala n'wut ce.",
+      "example_phonetic": "/g͡ba.la nwut tʃe/",
+      "example_translation": "L'écorce de l'arbre est bonne."
+    },
+    {
+      "word_id": "v3_2",
+      "term": "Kpatale",
+      "phonetic_api": "/k͡pa.ta.le/",
+      "phonetic_simple": "KPA-TA-LÉ",
+      "translation": "Table / Support",
+      "example_sentence": "Ina, ror kpatale.",
+      "example_phonetic": "/i.na ror k͡pa.ta.le/",
+      "example_translation": "S'il te plaît, nettoie la table."
+    },
+    {
+      "word_id": "v3_3",
+      "term": "Ŋal",
+      "phonetic_api": "/ŋal/",
+      "phonetic_simple": "NGAL",
+      "translation": "Femme / Épouse",
+      "example_sentence": "Ŋal mi a mboye.",
+      "example_phonetic": "/ŋal mi a mbo.je/",
+      "example_translation": "Mon épouse va bien."
+    },
+    {
+      "word_id": "v3_4",
+      "term": "Ceeb",
+      "phonetic_api": "/tʃeːb/",
+      "phonetic_simple": "TCHÉÉB",
+      "translation": "Poisson",
+      "example_sentence": "M malang ceeb.",
+      "example_phonetic": "/m ba.laŋ tʃeːb/",
+      "example_translation": "J'ai du poisson."
+    },
+    {
+      "word_id": "v3_5",
+      "term": "M'ba",
+      "phonetic_api": "/m.ba/",
+      "phonetic_simple": "M-BA",
+      "translation": "Grand-père",
+      "example_sentence": "M'ba mi a kanyen Boké.",
+      "example_phonetic": "/m.ba mi a ka.ɲeŋ bo.ke/",
+      "example_translation": "Mon grand-père habite à Boké."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p3_1",
+      "original": "A rila foti we?",
+      "phonetic_api": "/a ri.la fo.ti we/",
+      "phonetic_simple": "A RI-LA FO-TI WÉ",
+      "translation": "Comment dit-on cela ?",
+      "context": "Utile pour demander la prononciation correcte d'un terme inconnu."
+    },
+    {
+      "phrase_id": "p3_2",
+      "original": "Foti ce, ina.",
+      "phonetic_api": "/fo.ti tʃe i.na/",
+      "phonetic_simple": "FO-TI TCHÉ I-NA",
+      "translation": "Prononce bien, s'il te plaît.",
+      "context": "Demande pédagogique adressée à un interlocuteur pour mieux capter les sons."
+    },
+    {
+      "phrase_id": "p3_3",
+      "original": "M n'gbe balang b'at.",
+      "phonetic_api": "/m ŋgbe ba.laŋ ɓat/",
+      "phonetic_simple": "M NG-BÉ BA-LANG BAT",
+      "translation": "J'ai fini de parler.",
+      "context": "Indique la fin d'une intervention orale ou d'une lecture de mots."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'allongement vocalique comme marqueur lexical",
+      "explanation": "Le nalu utilise l'allongement de la voyelle pour créer des paires minimales (deux mots distincts qui ne diffèrent que par un seul phonème). Le doublement orthographique d'une lettre implique une durée de prononciation accrue.",
+      "rules": [
+        "Les voyelles simples sont brèves et sèches.",
+        "Les voyelles doublées nécessitent de soutenir l'expiration de la voix de manière continue."
+      ],
+      "examples": [
+        {
+          "structure": "Baa (Père)",
+          "phonetic_api": "/baː/",
+          "meaning": "Père (voyelle soutenue)"
+        },
+        {
+          "structure": "Ba (Venir)",
+          "phonetic_api": "/ba/",
+          "meaning": "Venir (voyelle brève)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine",
+      "text": "Ina, a rila foti we: gbala?",
+      "phonetic_api": "/i.na a ri.la fo.ti we g͡ba.la/",
+      "phonetic_simple": "I-NA, A RI-LA FO-TI WÉ : GBA-LA ?",
+      "translation": "S'il te plaît, comment prononce-t-on cela : gbala ?"
+    },
+    {
+      "speaker": "Aissata",
+      "text": "Foti ce gbe /g͡ba.la/. A foti 'gb' gbe o mboye.",
+      "phonetic_api": "/fo.ti tʃe gbe g͡ba.la a fo.ti g͡b gbe o mbo.je/",
+      "phonetic_simple": "FO-TI TCHÉ GBÉ GBA-LA. A FO-TI 'GB' GBÉ O MBO-YÉ.",
+      "translation": "La bonne prononciation est /gbala/. Prononcer le 'gb' est important."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "M n'gbe karang ce. Nu koka !",
+      "phonetic_api": "/m ŋgbe ka.raŋ tʃe nu ko.ka/",
+      "phonetic_simple": "M NG-BÉ KA-RANG TCHÉ. NOU KO-KA !",
+      "translation": "J'ai bien compris la leçon. Merci !"
+    }
+  ],
+  "cultural_notes": [
+    "La transmission de la langue nalu s'est faite historiquement de manière orale. L'adoption d'un alphabet écrit standardisé utilise des symboles de l'Alphabet Africain de Référence (comme Ŋ et Ɛ) pour aider à préserver l'intégrité sonore de ce patrimoine guinéen face aux langues dominantes."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex3_1",
+      "type": "multiple_choice",
+      "question": "Quel son représente le symbole 'Ŋ' ?",
+      "options": [
+        "Le son 'ch' comme dans chat",
+        "Le son 'ng' comme dans parking",
+        "Le son 'gn' comme dans gagner"
+      ],
+      "correct_answer": "Le son 'ng' comme dans parking",
+      "explanation": "Le caractère 'Ŋ' correspond à la nasale vélaire présente dans beaucoup de langues d'Afrique de l'Ouest."
+    },
+    {
+      "exercise_id": "ex3_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le mot pour dire table se prononce avec un son co-articulé initial : [ ___ ]atale.",
+      "correct_answer": "kpatale",
+      "hint": "Commence par le groupe consonantique K-P fusionné"
+    }
+  ]
+}

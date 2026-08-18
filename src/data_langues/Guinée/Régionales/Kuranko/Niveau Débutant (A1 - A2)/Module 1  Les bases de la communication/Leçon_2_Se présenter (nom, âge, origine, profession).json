@@ -1,0 +1,222 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter",
+  "learning_objectives": [
+    "Dire son nom, son prénom et demander l'identité de quelqu'un",
+    "Exprimer son âge et son origine géographique",
+    "Indiquer sa profession ou son activité principale"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre 'b' peut parfois s'adoucir en fin de syllabe. La lettre 'g' se prononce toujours dure comme dans 'gare'. Faites attention au digramme 'ny' qui se prononce comme le 'gn' français dans 'gagner'.",
+    "common_pitfalls": "Le marqueur d'origine ou d'identité 'ka' ne doit pas être confondu avec le possessif. La voyelle y est brève et nette."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_l2",
+      "term": "Tɔgɔ",
+      "phonetic_api": "/tɔ.gɔ/",
+      "phonetic_simple": "TƆ-GƆ",
+      "translation": "Nom / Prénom",
+      "example_sentence": "N tɔgɔ Amara",
+      "example_phonetic": "/ɲ͡tɔ.gɔ a.ma.ra/",
+      "example_translation": "Mon nom est Amara"
+    },
+    {
+      "word_id": "v2_l2",
+      "term": "Si",
+      "phonetic_api": "/si/",
+      "phonetic_simple": "SI",
+      "translation": "Âge / Année de vie",
+      "example_sentence": "San si",
+      "example_phonetic": "/san si/",
+      "example_translation": "Années d'âge"
+    },
+    {
+      "word_id": "v3_l2",
+      "term": "Bɔ",
+      "phonetic_api": "/bɔ/",
+      "phonetic_simple": "BƆ",
+      "translation": "Sortir / Venir de",
+      "example_sentence": "N bɔra Kankan",
+      "example_phonetic": "/ɱ͡bɔ.ra kan.kan/",
+      "example_translation": "Je viens de Kankan"
+    },
+    {
+      "word_id": "v4_l2",
+      "term": "Karamɔgɔ",
+      "phonetic_api": "/ka.ra.mɔ.gɔ/",
+      "phonetic_simple": "KA-RA-MƆ-GƆ",
+      "translation": "Enseignant / Maître",
+      "example_sentence": "N bɛ karamɔgɔ ri",
+      "example_phonetic": "/ɱ͡bɛ ka.ra.mɔ.gɔ ri/",
+      "example_translation": "Je suis enseignant"
+    },
+    {
+      "word_id": "v5_l2",
+      "term": "Kalanfari",
+      "phonetic_api": "/ka.lan.fa.ri/",
+      "phonetic_simple": "KA-LAN-FA-RI",
+      "translation": "Élève / Étudiant",
+      "example_sentence": "A bɛ kalanfari ri",
+      "example_phonetic": "/a bɛ ka.lan.fa.ri ri/",
+      "example_translation": "Il/Elle est élève"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_l2",
+      "original": "I tɔgɔ di ?",
+      "phonetic_api": "/i tɔ.gɔ di/",
+      "phonetic_simple": "I TƆ-GƆ DI ?",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Situation informelle pour demander le prénom d'un pair."
+    },
+    {
+      "phrase_id": "p2_l2",
+      "original": "Alu tɔgɔ di ?",
+      "phonetic_api": "/a.lu tɔ.gɔ di/",
+      "phonetic_simple": "A-LU TƆ-GƆ DI ?",
+      "translation": "Comment vous vous appelez ?",
+      "context": "S'adresser à plusieurs personnes à la fois."
+    },
+    {
+      "phrase_id": "p3_l2",
+      "original": "I bɔra mi ?",
+      "phonetic_api": "/i bɔ.ra mi/",
+      "phonetic_simple": "I BƆ-RA MI ?",
+      "translation": "D'où viens-tu ?",
+      "context": "S'enquérir du village, de la ville ou du pays d'origine."
+    },
+    {
+      "phrase_id": "p4_l2",
+      "original": "N bɔra Ginede ra",
+      "phonetic_api": "/ɱ͡bɔ.ra gi.ne.de ra/",
+      "phonetic_simple": "N BƆ-RA GI-NE-DE RA",
+      "translation": "Je viens de Guinée",
+      "context": "Indiquer sa nationalité ou son origine nationale."
+    },
+    {
+      "phrase_id": "p5_l2",
+      "original": "I san jili ?",
+      "phonetic_api": "/i san d͡ʒi.li/",
+      "phonetic_simple": "I SAN DJI-LI ?",
+      "translation": "Quel âge as-tu ? (Combien d'années ?)",
+      "context": "Demander l'âge d'un enfant ou d'un camarade."
+    },
+    {
+      "phrase_id": "p6_l2",
+      "original": "N san bi fila",
+      "phonetic_api": "/ɲ͡san bi fi.la/",
+      "phonetic_simple": "N SAN BI FI-LA",
+      "translation": "J'ai vingt ans",
+      "context": "Exprimer son âge (bi fila signifiant vingt)."
+    },
+    {
+      "phrase_id": "p7_l2",
+      "original": "I bɛ mun bara kɛ ?",
+      "phonetic_api": "/i bɛ mun ba.ra kɛ/",
+      "phonetic_simple": "I BƐ MOUN BA-RA KƐ ?",
+      "translation": "Quel travail fais-tu ?",
+      "context": "Interroger quelqu'un sur sa profession."
+    },
+    {
+      "phrase_id": "p8_l2",
+      "original": "N bɛ seneden ri",
+      "phonetic_api": "/ɱ͡bɛ se.ne.den ri/",
+      "phonetic_simple": "N BƐ SE-NE-DEN RI",
+      "translation": "Je suis agriculteur / cultivateur",
+      "context": "Indiquer son métier (très courant en milieu rural kuranko)."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'identité et de l'état avec la particule 'ri'",
+      "explanation": "Pour indiquer sa profession ou sa fonction sociale stable en kuranko, on utilise la structure : [Sujet] + bɛ + [Nom de métier] + ri.",
+      "rules": [
+        "La particule finale 'ri' postpose l'élément nominal de fonction.",
+        "Le verbe 'bɛ' sert d'auxiliaire de situation ou d'état actuel."
+      ],
+      "examples": [
+        {
+          "structure": "N bɛ karamɔgɔ ri",
+          "phonetic_api": "/ɱ͡bɛ ka.ra.mɔ.gɔ ri/",
+          "meaning": "Je suis enseignant (litt. : Je suis en enseignant)"
+        }
+      ]
+    },
+    {
+      "concept": "Le passé de provenance avec 'bɔra'",
+      "explanation": "Le verbe 'bɔ' (sortir) prend le suffixe du passé accompli '-ra' pour exprimer l'origine géographique ou la provenance d'un individu.",
+      "rules": [
+        "Sujet + bɔra + Lieu",
+        "On peut ajouter la postposition 'ra' ou 'la' après le nom du lieu si nécessaire."
+      ],
+      "examples": [
+        {
+          "structure": "A bɔra Farah",
+          "phonetic_api": "/a bɔ.ra fa.ra/",
+          "meaning": "Il/Elle vient de Faranah"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "I ni tile ! I tɔgɔ di ?",
+      "phonetic_api": "/i ni ti.le i tɔ.gɔ di/",
+      "phonetic_simple": "I NI TI-LE ! I TƆ-GƆ DI ?",
+      "translation": "Bon après-midi ! Comment t'appelles-tu ?"
+    },
+    {
+      "speaker": "Mariama",
+      "text": "N tɔgɔ Mariama. I tɔgɔ ?",
+      "phonetic_api": "/ɲ͡tɔ.gɔ ma.ria.ma i tɔ.gɔ/",
+      "phonetic_simple": "N TƆ-GƆ MA-RIA-MA. I TƆ-GƆ ?",
+      "translation": "Mon nom est Mariama. Et ton nom ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "N tɔgɔ Sékou. I bɔra mi ?",
+      "phonetic_api": "/ɲ͡tɔ.gɔ se.ku i bɔ.ra mi/",
+      "phonetic_simple": "N TƆ-GƆ SE-KOU. I BƆ-RA MI ?",
+      "translation": "Mon nom est Sékou. D'où viens-tu ?"
+    },
+    {
+      "speaker": "Mariama",
+      "text": "N bɔra Conakry ra. N bɛ kalanfari ri.",
+      "phonetic_api": "/ɱ͡bɔ.ra co.na.kry ra ɱ͡bɛ ka.lan.fa.ri ri/",
+      "phonetic_simple": "N BƆ-RA CO-NA-KRY RA. N BƐ KA-LAN-FA-RI RI.",
+      "translation": "Je viens de Conakry. Je suis étudiante."
+    }
+  ],
+  "cultural_notes": [
+    "Lorsqu'un Kuranko se présente, le nom de famille (le clan ou le 'yamu' comme Mara, Oularé, Mansaré, Keita) donne instantanément des indications sur l'histoire sociale, les alliances ancestrales (le sanankunya ou cousinage à plaisanterie) et la région d'origine de la personne.",
+    "Demander l'âge d'une personne âgée de manière directe est considéré comme maladroit. On préfère estimer le respect dû par les étapes accomplies de la vie (mariage, enfants, sagesse)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie la phrase 'N bɔra Ginede ra' ?",
+      "options": [
+        "Je vais en Guinée",
+        "Je viens de Guinée",
+        "J'aime la Guinée"
+      ],
+      "correct_answer": "Je viens de Guinée",
+      "explanation": "'bɔra' indique la provenance accomplie, donc l'origine géographique."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander le nom de quelqu'un, on dit : I [ ___ ] di ?",
+      "correct_answer": "tɔgɔ",
+      "hint": "Le mot signifiant nom ou prénom"
+    }
+  ]
+}

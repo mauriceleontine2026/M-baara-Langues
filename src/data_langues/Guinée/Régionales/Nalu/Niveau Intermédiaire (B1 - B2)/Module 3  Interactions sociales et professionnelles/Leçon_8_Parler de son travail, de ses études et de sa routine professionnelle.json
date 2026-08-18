@@ -1,0 +1,170 @@
+{
+  "lesson_id": "B1_M3_L8",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 8,
+  "title": "Parler de son travail, de ses études et de sa routine professionnelle",
+  "learning_objectives": [
+    "Décrire son activité professionnelle et son secteur d'emploi",
+    "Expliquer sa routine quotidienne d'étude ou de travail"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne nasale alvéolaire '-n' et la nasale vélaire '-ŋ' (notée 'ng') s'articulent de manière très distincte en fin de mot. La combinaison consonantique complexe 'gb' doit être prononcée de façon co-articulée, sans insérer de voyelle parasite.",
+    "common_pitfalls": "Attention à ne pas escamoter le 'r' final dans 'karang' ou le double 'ee' allongé dans 'karandéena'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v17_1",
+      "term": "Wale",
+      "phonetic_api": "/wa.le/",
+      "phonetic_simple": "WA-LÉ",
+      "translation": "Travailler / Métier / Action",
+      "example_sentence": "M boku wale n'gbe.",
+      "example_phonetic": "/m bo.ku wa.le ŋgbe/",
+      "example_translation": "Je vais travailler aujourd'hui."
+    },
+    {
+      "word_id": "v17_2",
+      "term": "Karang",
+      "phonetic_api": "/ka.raŋ/",
+      "phonetic_simple": "KA-RANG",
+      "translation": "Étudier / Lire / Apprendre",
+      "example_sentence": "M malang karang nalu.",
+      "example_phonetic": "/m ba.laŋ ka.raŋ na.lu/",
+      "example_translation": "J'aime apprendre la langue nalu."
+    },
+    {
+      "word_id": "v17_3",
+      "term": "Karandéena",
+      "phonetic_api": "/ka.ra?.deː.na/",
+      "phonetic_simple": "KA-RAN-DÉÉ-NA",
+      "translation": "Étudiant / Élève / Apprenti",
+      "example_sentence": "Bweten mi gbe karandéena.",
+      "example_phonetic": "/bʷe.ten mi gbe ka.ra?.deː.na/",
+      "example_translation": "Mon enfant est étudiant."
+    },
+    {
+      "word_id": "v17_4",
+      "term": "Ceeborna",
+      "phonetic_api": "/tʃeː.bor.na/",
+      "phonetic_simple": "TCHÉÉ-BOR-NA",
+      "translation": "Pêcheur / Personne de la mer",
+      "example_sentence": "Baa mi gbe ceeborna.",
+      "example_phonetic": "/baː mi gbe tʃeː.bor.na/",
+      "example_translation": "Mon père est pêcheur."
+    },
+    {
+      "word_id": "v17_5",
+      "term": "Suba be",
+      "phonetic_api": "/su.ba be/",
+      "phonetic_simple": "SOU-BA BÉ",
+      "translation": "Chaque matin / Routine du matin",
+      "example_sentence": "Suba be, m boku wale.",
+      "example_phonetic": "/su.ba be m bo.ku wa.le/",
+      "example_translation": "Chaque matin, je vais travailler."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p17_1",
+      "original": "A rila wale mwo di thaŋa?",
+      "phonetic_api": "/a ri.la wa.le mwo di θa.ŋa/",
+      "phonetic_simple": "A RI-LA WA-LÉ MWO DI THA-NGA",
+      "translation": "Quel est ton travail à la ville ?",
+      "context": "Question usuelle entre adultes pour s'informer du domaine professionnel."
+    },
+    {
+      "phrase_id": "p17_2",
+      "original": "Suba be, m kanɛ karang di cula.",
+      "phonetic_api": "/su.ba be m ka.nɛ ka.raŋ di tʃu.la/",
+      "phonetic_simple": "SOU-BA BÉ, M KA-NÈ KA-RANG DI TCHOU-LA",
+      "translation": "Chaque matin, je dois étudier dans ma chambre.",
+      "context": "Permet de décrire sa routine studieuse quotidienne."
+    },
+    {
+      "phrase_id": "p17_3",
+      "original": "Wale mi a gbe ce b'at, nu koka.",
+      "phonetic_api": "/wa.le mi a ŋgbe tʃe ɓat nu ko.ka/",
+      "phonetic_simple": "WA-LÉ MI A NGBÉ TCHÉ BAT, NOU KO-KA",
+      "translation": "Mon travail est très bon, merci.",
+      "context": "Expression de satisfaction et de politesse quant à sa situation économique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le suffixe d'agentivité '-na'",
+      "explanation": "En nalu, les noms de professions, de métiers ou de statuts d'activité se forment de manière très régulière en ajoutant le suffixe '-na' à la racine d'un verbe d'action.",
+      "rules": [
+        "Identifiez le verbe d'origine (ex: karang pour étudier, ceebor pour nager/pêcher).",
+        "Ajoutez le suffixe '-na' pour désigner la personne qui pratique cette activité de manière habituelle ou professionnelle."
+      ],
+      "examples": [
+        {
+          "structure": "Ceebor (Nager) -> Ceeborna (Pêcheur)",
+          "phonetic_api": "/tʃeː.bor.na/",
+          "meaning": "Pêcheur"
+        },
+        {
+          "structure": "Karang (Étudier) -> Karandéena (Étudiant / Apprenant)",
+          "phonetic_api": "/ka.ra?.deː.na/",
+          "meaning": "Étudiant / Élève"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "Mboye, Amara ! A rila wale mwo n'gbe?",
+      "phonetic_api": "/mbo.je a.ma.ra a ri.la wa.le mwo ŋgbe/",
+      "phonetic_simple": "MBO-YÉ, A-MA-RA ! A RI-LA WA-LÉ MWO NGBÉ?",
+      "translation": "Bonjour, Amara ! Quel est ton métier aujourd'hui ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "Mboye ce ! M gbe ceeborna. Suba be, m boku di m'mela di malang ceeb.",
+      "phonetic_api": "/mbo.je tʃe m ŋgbe tʃeː.bor.na su.ba be m bo.ku di m.me.la di ba.laŋ tʃeːb/",
+      "phonetic_simple": "MBO-YÉ TCHÉ ! M NGBÉ TCHÉÉ-BOR-NA. SOU-BA BÉ, M BO-KOU DI M-MÉ-LA DI BA-LANG TCHÉÉB.",
+      "translation": "Bonjour bien ! Je suis pêcheur. Chaque matin, je vais sur l'eau (la mer) pour chercher du poisson."
+    },
+    {
+      "speaker": "Sékou",
+      "text": "A ce b'at ! Bweten mwo, a gbe wale-na?",
+      "phonetic_api": "/a tʃe ɓat bʷe.ten mwo a ŋgbe wa.le.na/",
+      "phonetic_simple": "A TCHÉ BAT ! BOUÉ-TEN MWO, A NGBÉ WA-LÉ-NA?",
+      "translation": "C'est excellent ! Et ton enfant, travaille-t-il ?"
+    },
+    {
+      "speaker": "Amara",
+      "text": "A gbe wale-na, a gbe karandéena di thaŋa Boké.",
+      "phonetic_api": "/a ŋgbe wa.le.na a ŋgbe ka.ra?.deː.na di θa.ŋa bo.ke/",
+      "phonetic_simple": "A NGBÉ WA-LÉ-NA, A NGBÉ KA-RAN-DÉÉ-NA DI THA-NGA BO-KÉ.",
+      "translation": "Il ne travaille pas encore, il est étudiant dans la ville de Boké."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'économie des communautés Nalu de Guinée maritime, la pêche ('ceebor') constitue le cœur de la routine professionnelle et de la subsistance pour une grande majorité d'hommes. Parallèlement, l'éducation des enfants ('karang') est perçue comme un investissement d'avenir crucial pour le développement familial au sein des centres urbains environnants."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex17_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le terme 'Ceeborna' ?",
+      "options": [
+        "Un enseignant",
+        "Un pêcheur",
+        "Un cultivateur"
+      ],
+      "correct_answer": "Un pêcheur",
+      "explanation": "Formé à partir de la racine 'ceebor' (nager/pêcher) et du suffixe d'agent '-na', il désigne le pêcheur."
+    },
+    {
+      "exercise_id": "ex17_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Chaque matin', on emploie l'adverbe de routine : [ ___ ] be.",
+      "correct_answer": "suba",
+      "hint": "C'est la même racine que pour dire 'demain'"
+    }
+  ]
+}

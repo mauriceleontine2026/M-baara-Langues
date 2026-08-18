@@ -1,0 +1,212 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements",
+  "learning_objectives": [
+    "Nommer les couleurs fondamentales en langue lélé",
+    "Identifier les pièces de vêtements et textiles courants du quotidien",
+    "Décrire un vêtement par sa couleur pour faire un choix ou un achat"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne co-articulée 'gb' [ɡ͡b] réapparaît dans la couleur blanche 'gbɛ'. Assurez-vous de bien la prononcer d'un seul mouvement. Le terme pour désigner le vêtement 'Doni' possède un 'o' fermé court, à bien distinguer de 'dɔn' (manger/nourriture) qui utilise un 'ɔ' ouvert.",
+    "common_pitfalls": "Veillez à ne pas confondre le terme 'Doni' (vêtement) avec l'adverbe quantitatif 'dɔɔni' (un peu/doucement). La longueur des voyelles et l'ouverture du 'o' sont ici cruciales pour la clarté."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Doni",
+      "phonetic_api": "/do.ni/",
+      "phonetic_simple": "DO-NI",
+      "translation": "Habit / Vêtement / Tissu",
+      "example_sentence": "Doni mu fisa di.",
+      "example_phonetic": "/do.ni mu fi.sa di/",
+      "example_translation": "Le vêtement est beau."
+    },
+    {
+      "word_id": "v2",
+      "term": "Gbɛ",
+      "phonetic_api": "/ɡ͡bɛ/",
+      "phonetic_simple": "GBÈ",
+      "translation": "Blanc",
+      "example_sentence": "N bɛ doni gbɛ dɔn mĩ.",
+      "example_phonetic": "/ɲ bɛ do.ni ɡ͡bɛ dɔn mĩ/",
+      "example_translation": "Je veux porter un habit blanc."
+    },
+    {
+      "word_id": "v3",
+      "term": "Fin",
+      "phonetic_api": "/fĩ/",
+      "phonetic_simple": "FÎN",
+      "translation": "Noir",
+      "example_sentence": "Doni fin bɛ ya kɔ.",
+      "example_phonetic": "/do.ni fĩ bɛ ja kɔ/",
+      "example_translation": "Le vêtement noir est ici."
+    },
+    {
+      "word_id": "v4",
+      "term": "Wule",
+      "phonetic_api": "/wu.le/",
+      "phonetic_simple": "WOU-LÉ",
+      "translation": "Rouge",
+      "example_sentence": "I bolo doni wule bɛ?",
+      "example_phonetic": "/i bo.lo do.ni wu.le bɛ/",
+      "example_translation": "As-tu un habit rouge ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "Sã",
+      "phonetic_api": "/sã/",
+      "phonetic_simple": "SÂN",
+      "translation": "Acheter",
+      "example_sentence": "N bɛ doni sã mĩ mara kɔ.",
+      "example_phonetic": "/ɲ bɛ do.ni sã mĩ ma.ra kɔ/",
+      "example_translation": "Je veux acheter un vêtement au marché."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "I bɛ doni mɔ fɔ sã mĩ?",
+      "phonetic_api": "/i bɛ do.ni mɔ fɔ sã mĩ/",
+      "phonetic_simple": "I BÈ DO-NI MƆ FƆ SÂN MÎN?",
+      "translation": "Quel vêtement veux-tu acheter ?",
+      "context": "Interroger quelqu'un sur son choix lors d'un achat de textile."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "N bɛ doni gbɛ sã mĩ.",
+      "phonetic_api": "/ɲ bɛ do.ni ɡ͡bɛ sã mĩ/",
+      "phonetic_simple": "N BÈ DO-NI GBÈ SÂN MÎN.",
+      "translation": "Je veux acheter un vêtement blanc.",
+      "context": "Exprimer sa préférence pour la couleur blanche au marché."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Doni mu mɔ fɔ di?",
+      "phonetic_api": "/do.ni mu mɔ fɔ di/",
+      "phonetic_simple": "DO-NI MOU MƆ FƆ DI?",
+      "translation": "Combien coûte cet habit ?",
+      "context": "Demander le prix d'une pièce de vêtement à un marchand."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Doni fin mu fisa di.",
+      "phonetic_api": "/do.ni fĩ mu fi.sa di/",
+      "phonetic_simple": "DO-NI FÎN MOU FI-SA DI.",
+      "translation": "Le vêtement noir est magnifique.",
+      "context": "Valider la qualité esthétique d'un tissu de couleur noire."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "A bɛ doni wule dɔn mĩ.",
+      "phonetic_api": "/a bɛ do.ni wu.le dɔn mĩ/",
+      "phonetic_simple": "A BÈ DO-NI WOU-LÉ DƆN MÎN.",
+      "translation": "Il veut porter un habit rouge.",
+      "context": "Indiquer le choix vestimentaire d'une tierce personne."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Doni fisa bɛ i na kɔ.",
+      "phonetic_api": "/do.ni fi.sa bɛ i na kɔ/",
+      "phonetic_simple": "DO-NI FI-SA BÈ I NA KƆ.",
+      "translation": "Tu as un très beau vêtement sur toi.",
+      "context": "Faire un compliment poli à un interlocuteur sur sa tenue."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "A di n ma doni di kɔ.",
+      "phonetic_api": "/a di ɲ ma do.ni di kɔ/",
+      "phonetic_simple": "A DI N MA DO-NI DI KƆ.",
+      "translation": "Donne-moi ce vêtement, s'il te plaît.",
+      "context": "Demander à examiner ou recevoir un habit spécifique."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Mara mu doni gbe di.",
+      "phonetic_api": "/ma.ra mu do.ni ɡ͡be di/",
+      "phonetic_simple": "MA-RA MOU DO-NI GBE DI.",
+      "translation": "Le marché est le lieu des vêtements.",
+      "context": "Faire une remarque générale sur l'abondance de textile."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La position de l'adjectif qualificatif de couleur",
+      "explanation": "En lélé, l'adjectif qualificatif (notamment les couleurs fondamentales comme 'gbɛ', 'fin', 'wule') se place obligatoirement après le substantif qu'il qualifie. Le syntagme nominal garde une structure rigide.",
+      "rules": [
+        "Structure nominale : [Nom du vêtement] + [Couleur].",
+        "Aucune marque d'accord de genre ou de nombre n'est appliquée sur la couleur.",
+        "Le verbe 'dɔn mĩ' (littéralement : absorber/mettre en action) sert d'expression courante pour 'porter' ou 's'habiller'."
+      ],
+      "examples": [
+        {
+          "structure": "Doni fin",
+          "phonetic_api": "/do.ni fĩ/",
+          "meaning": "Un habit noir"
+        },
+        {
+          "structure": "Doni wule fɛlɛ",
+          "phonetic_api": "/do.ni wu.le fɛ.lɛ/",
+          "meaning": "Deux habits rouges"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Fanta",
+      "text": "Mɛnɛ kɔ, nba. N bɛ doni sã mĩ bi ya mara kɔ.",
+      "phonetic_api": "/mɛ.nɛ kɔ ɲba ɲ bɛ do.ni sã mĩ bi ja ma.ra kɔ/",
+      "phonetic_simple": "MÈ-NÈ KƆ, NBA. N BÈ DO-NI SÂN MÎN BI YA MA-RA KƆ.",
+      "translation": "Bonjour, ma mère. Je veux acheter un vêtement aujourd'hui ici au marché."
+    },
+    {
+      "speaker": "Vendeuse",
+      "text": "Mɛnɛ kɔ, ndeng. Doni fin bɛ ya, doni gbɛ bɛ ya. I bɛ mɔ fɔ sã mĩ?",
+      "phonetic_api": "/mɛ.nɛ kɔ ɲdeŋ do.ni fĩ bɛ ja do.ni ɡ͡bɛ bɛ ja i bɛ mɔ fɔ sã mĩ/",
+      "phonetic_simple": "MÈ-NÈ KƆ, N-DENG. DO-NI FÎN BÈ YA, DO-NI GBÈ BÈ YA. I BÈ MƆ FƆ SÂN MÎN?",
+      "translation": "Bonjour, mon enfant. Il y a un vêtement noir ici, il y a un vêtement blanc. Lequel veux-tu acheter ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "N bɛ doni gbɛ kɔni sã mĩ. Doni gbɛ mu fisa di.",
+      "phonetic_api": "/ɲ bɛ do.ni ɡ͡bɛ kɔ.ni sã mĩ do.ni ɡ͡bɛ mu fi.sa di/",
+      "phonetic_simple": "N BÈ DO-NI GBÈ KƆ-NI SÂN MÎN. DO-NI GBÈ MOU FI-SA DI.",
+      "translation": "Je veux acheter le vêtement blanc. Le vêtement blanc est vraiment magnifique."
+    },
+    {
+      "speaker": "Vendeuse",
+      "text": "I nɔwɔ kɔ. A bɛ i bolo ya kɔ.",
+      "phonetic_api": "/i nɔ.wɔ kɔ a bɛ i bo.lo ja kɔ/",
+      "phonetic_simple": "I NƆ-WƆ KƆ. A BÈ I BO-LO YA KƆ.",
+      "translation": "Merci à toi. Le voici dans tes mains."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la préfecture de Kissidougou et chez les communautés Lélé, la couleur des habits revêt des significations sociales importantes. Les vêtements blancs ('doni gbɛ') sont traditionnellement hautement valorisés et portés lors des cérémonies, des mariages ou des grands rassemblements communautaires du vendredi et du dimanche comme symbole de pureté et de respect."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la traduction exacte du terme lélé 'Gbɛ' ?",
+      "options": [
+        "Noir",
+        "Rouge",
+        "Blanc"
+      ],
+      "correct_answer": "Blanc",
+      "explanation": "'Gbɛ' correspond à la couleur blanche. Le noir se dit 'Fin' et le rouge se dit 'Wule'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour traduire 'un habit rouge', on écrit de la manière suivante : Doni [ ___ ].",
+      "correct_answer": "wule",
+      "hint": "C'est l'adjectif lélé pour la couleur rouge qui se positionne après le nom."
+    }
+  ]
+}

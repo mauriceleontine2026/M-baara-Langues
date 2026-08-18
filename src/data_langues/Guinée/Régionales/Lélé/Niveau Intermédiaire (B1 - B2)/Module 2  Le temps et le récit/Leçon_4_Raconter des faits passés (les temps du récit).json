@@ -1,0 +1,212 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Utiliser le suffixe temporel de passé '-ra' pour les verbes intransitifs",
+    "Employer l'auxiliaire de passé accompli pour structurer une narration simple",
+    "Raconter une suite d'événements chronologiques de la journée ou de la veille"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La marque du passé en lélé se matérialise souvent par le suffixe '-ra' attaché au radical verbal. La consonne liquide vibrante [r] doit être articulée de manière brève et battue, sans l'élision typique du français standard. Le mot pour hier, 'Sinu', comporte une voyelle finale brève et s'articule de manière claire [si.nu].",
+    "common_pitfalls": "Veillez à ne pas confondre le suffixe de passé '-ra' avec la particule de but ou d'orientation 'kɔ'. Le suffixe fait corps avec le verbe, modifiant ainsi sa dernière syllabe de manière dynamique."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Sinu",
+      "phonetic_api": "/si.nu/",
+      "phonetic_simple": "SI-NOU",
+      "translation": "Hier",
+      "example_sentence": "Sinu, n tagara mara kɔ.",
+      "example_phonetic": "/si.nu ɲ ta.ɡa.ra ma.ra kɔ/",
+      "example_translation": "Hier, je suis allé au marché."
+    },
+    {
+      "word_id": "v2",
+      "term": "Taga",
+      "phonetic_api": "/ta.ɡa/",
+      "phonetic_simple": "TA-GA",
+      "translation": "Aller / Partir",
+      "example_sentence": "A tagara sooba kɔ.",
+      "example_phonetic": "/a ta.ɡa.ra soː.ba kɔ/",
+      "example_translation": "Il est parti en ville."
+    },
+    {
+      "word_id": "v3",
+      "term": "Di",
+      "phonetic_api": "/di/",
+      "phonetic_simple": "DI",
+      "translation": "Venir / Arriver",
+      "example_sentence": "Nfa dira ya sinu suu.",
+      "example_phonetic": "/ɲfa di.ra ja si.nu suː/",
+      "example_translation": "Mon père est venu ici hier soir."
+    },
+    {
+      "word_id": "v4",
+      "term": "Kunu-mɛnɛ",
+      "phonetic_api": "/ku.nu mɛ.nɛ/",
+      "phonetic_simple": "KOU-NOU-MÈ-NÈ",
+      "translation": "Avant-hier (litt. le lendemain d'hier inversé)",
+      "example_sentence": "Nba kunu-mɛnɛ dira.",
+      "example_phonetic": "/(ɲ)ba ku.nu mɛ.nɛ di.ra/",
+      "example_translation": "Ma mère est arrivée avant-hier."
+    },
+    {
+      "word_id": "v5",
+      "term": "Wala-kɛ",
+      "phonetic_api": "/wa.la kɛ/",
+      "phonetic_simple": "WA-LA-KÈ",
+      "translation": "Faire un travail / Accomplir une action",
+      "example_sentence": "N bɛ wala-kɛ sinu.",
+      "example_phonetic": "/ɲ bɛ wa.la kɛ si.nu/",
+      "example_translation": "J'ai fait du travail hier."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "I wala-kɛ mu di sinu?",
+      "phonetic_api": "/i wa.la kɛ mu di si.nu/",
+      "phonetic_simple": "I WA-LA-KÈ MOU DI SI-NOU?",
+      "translation": "Qu'as-tu fait hier ?",
+      "context": "Interroger un ami sur ses activités passées."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Sinu, n tagara wala kɔni Kisiduu.",
+      "phonetic_api": "/si.nu ɲ ta.ɡa.ra wa.la kɔ.ni ki.si.duː/",
+      "phonetic_simple": "SI-NOU, N TA-GA-RA WA-LA KƆ-NI KI-SI-DOUU.",
+      "translation": "Hier, je suis allé travailler à Kissidougou.",
+      "context": "Raconter le début de sa journée de la veille."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Nkɛɛndɛ dira ya suu kɔ.",
+      "phonetic_api": "/ɲkɛːn.de di.ra ja suː kɔ/",
+      "phonetic_simple": "N-KÈÈN-DÉ DI-RA YA SOUU KƆ.",
+      "translation": "Mon frère est arrivé ici pendant la nuit.",
+      "context": "Préciser le moment d'un événement nocturne passé."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "A bɛ mālɔ dɔn mĩ sinu bi.",
+      "phonetic_api": "/a bɛ maː.lɔ dɔn mĩ si.nu bi/",
+      "phonetic_simple": "A BÈ MAA-LƆ DƆN MÎN SI-NOU BI.",
+      "translation": "Il a déjà mangé son riz hier à cette heure.",
+      "context": "Confirmer l'accomplissement d'une action de subsistance."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "I tagara mi sinu loki saawa?",
+      "phonetic_api": "/i ta.ɡa.ra mi si.nu lo.ki saː.wa/",
+      "phonetic_simple": "I TA-GA-RA MI SI-NOU LO-KI SAA-WA?",
+      "translation": "Où es-tu allé hier à trois heures ?",
+      "context": "Demander des comptes ou des repères temporels précis sur un déplacement."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "N bung da tagara laka sinu.",
+      "phonetic_api": "/ɲ buŋ da ta.ɡa.ra la.ka si.nu/",
+      "phonetic_simple": "N BOUNG DA TA-GA-RA LA-KA SI-NOU.",
+      "translation": "La porte de ma chambre est restée ouverte hier.",
+      "context": "Signaler un oubli ou un fait ménager passé."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Kunu-mɛnɛ talo mu kari di ya.",
+      "phonetic_api": "/ku.nu mɛ.nɛ ta.lo mu ka.ri di ja/",
+      "phonetic_simple": "KOU-NOU-MÈ-NÈ TA-LO MOU KA-RI DI YA.",
+      "translation": "Avant-hier, c'était le jour du dimanche ici.",
+      "context": "Situer chronologiquement les jours passés dans une discussion."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Kpɛlɛ tagara fisa di.",
+      "phonetic_api": "/k͡pɛ.lɛ ta.ɡa.ra fi.sa di/",
+      "phonetic_simple": "KPÈ-LÈ TA-GA-RA FI-SA DI.",
+      "translation": "Tout s'est parfaitement bien passé.",
+      "context": "Conclure positivement le récit d'un événement terminé."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La conjugaison du passé accompli pour les verbes de mouvement",
+      "explanation": "En lélé, pour exprimer qu'une action de mouvement (aller, venir, sortir) s'est accomplie dans le passé, on adjoint le suffixe '-ra' directement à la fin de la racine verbale. La structure pronominale ne change pas par rapport au présent.",
+      "rules": [
+        "Structure : Pronom + [Verbe de mouvement + ra] + Destination.",
+        "Les adverbes temporels de passé comme 'Sinu' (hier) se placent généralement en tout début ou en toute fin de proposition pour fixer le cadre du récit.",
+        "Pour les verbes s'achevant par une voyelle nasale, des modifications phonétiques légères peuvent apparaître lors de l'adjonction du suffixe."
+      ],
+      "examples": [
+        {
+          "structure": "N tagara",
+          "phonetic_api": "/ɲ ta.ɡa.ra/",
+          "meaning": "Je suis allé"
+        },
+        {
+          "structure": "I dira",
+          "phonetic_api": "/i di.ra/",
+          "meaning": "Tu es venu"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amara",
+      "text": "Mɛnɛ kɔ, Sékou. I bɛ wala-kɛ mu di sinu?",
+      "phonetic_api": "/mɛ.nɛ kɔ se.ku i wa.la kɛ mu di si.nu/",
+      "phonetic_simple": "MÈ-NÈ KƆ, SÉ-KOU. I WA-LA-KÈ MOU DI SI-NOU?",
+      "translation": "Bonjour, Sékou. Qu'as-tu fait comme travail hier ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Mɛnɛ kɔ. Sinu, n tagara mara kɔni dɔɔni dɔɔni. N bung kɛɛndɛ dira ya kɔ.",
+      "phonetic_api": "/mɛ.nɛ kɔ si.nu ɲ ta.ɡa.ra ma.ra kɔ.ni dɔː.ni dɔː.ni ɲ buŋ kɛːn.de di.ra ja kɔ/",
+      "phonetic_simple": "MÈ-NÈ KƆ. SI-NOU, N TA-GA-RA MA-RA KƆ-NI DƆƆ-NI DƆƆ-NI. N BOUNG KÈÈN-DÉ DI-RA YA KƆ.",
+      "translation": "Bonjour. Hier, je suis allé faire un tour au marché. Et le frère de ma maisonnée est arrivé ici."
+    },
+    {
+      "speaker": "Amara",
+      "text": "A bɛ di mi loki? I mɔn bɛ mālɔ dɔn mĩ di kɔ?",
+      "phonetic_api": "/a bɛ di mi lo.ki i mɔn bɛ maː.lɔ dɔn mĩ di kɔ/",
+      "phonetic_simple": "A BÈ DI MI LO-KI? I MƆN BÈ MAA-LƆ DƆN MÎN DI KƆ?",
+      "translation": "À quelle heure est-il venu ? Avez-vous mangé du riz ensemble ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "A dira lɔɔluŋ loki kɔni suu. Un-un, n mālɔ dɔn mĩ, kpɛlɛ tagara fisa di.",
+      "phonetic_api": "/a di.ra lɔː.luŋ lo.ki kɔ.ni suː un un ɲ maː.lɔ dɔn mĩ k͡pɛ.lɛ ta.ɡa.ra fi.sa di/",
+      "phonetic_simple": "A DI-RA LƆƆ-LOUNG LO-KI KƆ-NI SOUU. OUN-OUN, N MAA-LƆ DƆN MÎN, KPÈ-LÈ TA-GA-RA FI-SA DI.",
+      "translation": "Il est arrivé à cinq heures pendant la nuit. Oui, nous avons mangé du riz, et tout s'est extrêmement bien passé."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la tradition orale Lélé de Guinée, la narration des faits passés obéit à un protocole de vérité. Lorsqu'on revient d'un voyage ou d'une simple sortie en ville à Kissidougou, les anciens de la concession se réunissent dans la cour pour écouter le ' récit du chemin ' ('kira gbe'). Exposer chronologiquement ses faits et gestes valide l'honnêteté et la transparence du voyageur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel suffixe s'attache directement au verbe de mouvement pour indiquer une action accomplie au passé ?",
+      "options": [
+        "-kɔ",
+        "-di",
+        "-ra"
+      ],
+      "correct_answer": "-ra",
+      "explanation": "Le suffixe '-ra' marque l'accompli passé des verbes intransitifs comme 'taga' (tagara) ou 'di' (dira)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Hier', on utilise le mot temporel exact : [ ___ ] .",
+      "correct_answer": "Sinu",
+      "hint": "Ce mot commence par un S et marque le jour précédant aujourd'hui."
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter avec précision de 1 à 20 en langue Yalunka",
+    "Comprendre le fonctionnement du système décimal et de la base cinq",
+    "Exprimer une quantité simple et dénombrer des objets du quotidien"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne double ou le groupe de consonnes comme 'nd' dans 'tongo nun naaninde' doit être articulé de façon fluide, sans détacher la nasale de la occlusive. Les sons 'xi' se prononcent /xi/ avec une forte friction de la gorge.",
+    "common_pitfalls": "Attention à la prononciation du chiffre cinq 'sulu' : ne pas transformer le 'u' en 'ou' excessivement fermé ou en 'u' français, c'est un /u/ cardinal bien net."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v5_1",
+      "term": "Keden",
+      "phonetic_api": "/ke.den/",
+      "phonetic_simple": "KÉ-DEN",
+      "translation": "Un (1)",
+      "example_sentence": "Banxi keden.",
+      "example_phonetic": "/ban.xi ke.den/",
+      "example_translation": "Une maison."
+    },
+    {
+      "word_id": "v5_2",
+      "term": "Fidin",
+      "phonetic_api": "/fi.din/",
+      "phonetic_simple": "FI-DIN",
+      "translation": "Deux (2)",
+      "example_sentence": "Muxe fidin.",
+      "example_phonetic": "/mu.xe fi.din/",
+      "example_translation": "Deux personnes."
+    },
+    {
+      "word_id": "v5_3",
+      "term": "Saxan",
+      "phonetic_api": "/sa.xan/",
+      "phonetic_simple": "SA-KHAN",
+      "translation": "Trois (3)",
+      "example_sentence": "Kitabu saxan.",
+      "example_phonetic": "/ki.ta.bu sa.xan/",
+      "example_translation": "Trois livres."
+    },
+    {
+      "word_id": "v5_4",
+      "term": "Naani",
+      "phonetic_api": "/naː.ni/",
+      "phonetic_simple": "NAA-NI",
+      "translation": "Quatre (4)",
+      "example_sentence": "Soli naani.",
+      "example_phonetic": "/so.li naː.ni/",
+      "example_translation": "Quatre chaises."
+    },
+    {
+      "word_id": "v5_5",
+      "term": "Sulu",
+      "phonetic_api": "/su.lu/",
+      "phonetic_simple": "SOU-LOU",
+      "translation": "Cinq (5)",
+      "example_sentence": "Bɛɛbɛ sulu.",
+      "example_phonetic": "/bɛː.bɛ su.lu/",
+      "example_translation": "Cinq chèvres."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p5_1",
+      "original": "Muxe mɛni na ?",
+      "phonetic_api": "/mu.xe mɛ.ni na/",
+      "phonetic_simple": "MOU-KHÉ MÈ-NI NA ?",
+      "translation": "Combien de personnes y a-t-il ?",
+      "context": "Demander le nombre exact d'individus présents dans un lieu."
+    },
+    {
+      "phrase_id": "p5_2",
+      "original": "Muxe tongo na mɛ.",
+      "phonetic_api": "/mu.xe ton.ɡo na mɛ/",
+      "phonetic_simple": "MOU-KHÉ TON-GO NA MÈ",
+      "translation": "Il y a dix personnes ici.",
+      "context": "Répondre à un décompte de groupe."
+    },
+    {
+      "phrase_id": "p5_3",
+      "original": "A xaran keden keden.",
+      "phonetic_api": "/a xa.ran ke.den ke.den/",
+      "phonetic_simple": "A KHA-RAN KÉ-DEN KÉ-DEN",
+      "translation": "Compte-les un par un.",
+      "context": "Donner une consigne de comptage minutieux."
+    },
+    {
+      "phrase_id": "p5_4",
+      "original": "Yalunka muxe fidin nan na.",
+      "phonetic_api": "/ja.lun.ka mu.xe fi.din nan na/",
+      "phonetic_simple": "YA-LOUN-KA MOU-KHÉ FI-DIN NAN NA",
+      "translation": "Ce sont deux personnes Yalunka.",
+      "context": "Préciser une quantité de personnes lors d'une description."
+    },
+    {
+      "phrase_id": "p5_5",
+      "original": "Xɛmɛ naaninde na a ra.",
+      "phonetic_api": "/xɛ.mɛ naː.nin.de na a ra/",
+      "phonetic_simple": "KHÈ-MÈ NAA-NIN-DÉ NAN A RA",
+      "translation": "C'est le quatrième homme.",
+      "context": "Indiquer un rang ou une position ordinale."
+    },
+    {
+      "phrase_id": "p5_6",
+      "original": "A mɛni ?",
+      "phonetic_api": "/a mɛ.ni/",
+      "phonetic_simple": "A MÈ-NI ?",
+      "translation": "Combien ? / Quel prix ?",
+      "context": "Question globale pour demander une quantité ou un coût."
+    },
+    {
+      "phrase_id": "p5_7",
+      "original": "Sulu nun keden, na a ra seni.",
+      "phonetic_api": "/su.lu nun ke.den na a ra se.ni/",
+      "phonetic_simple": "SOU-LOU NOUN KÉ-DEN, NA A RA SÉ-NI",
+      "translation": "Cinq et un, cela fait six.",
+      "context": "Faire une démonstration d'addition de base."
+    },
+    {
+      "phrase_id": "p5_8",
+      "original": "N bɛ ni fidin.",
+      "phonetic_api": "/ŋ bɛ ni fi.din/",
+      "phonetic_simple": "N BÈ NI FI-DIN",
+      "translation": "J'en ai deux.",
+      "context": "Affirmer la possession d'une quantité spécifique d'objets."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La structure des nombres composés (De 6 à 9)",
+      "explanation": "Le Yalunka suit un système quinaire (base 5). Les chiffres de 6 à 9 sont formés à partir de la racine de cinq ('sulu' devenant 'se-') combinée avec les chiffres de 1 à 4.",
+      "rules": [
+        "6 = Seni (Cinq + Un modifié)",
+        "7 = Solofere (Cinq + Deux modifié)",
+        "8 = Solomasaxan (Cinq + Trois modifié)",
+        "9 = Solomaanani (Cinq + Quatre modifié)",
+        "10 = Tongo"
+      ],
+      "examples": [
+        {
+          "structure": "Solofere",
+          "phonetic_api": "/so.lo.fe.re/",
+          "meaning": "Sept (7)"
+        },
+        {
+          "structure": "Solomasaxan",
+          "phonetic_api": "/so.lo.ma.sa.xan/",
+          "meaning": "Huit (8)"
+        }
+      ]
+    },
+    {
+      "concept": "La place du numéral par rapport au substantif",
+      "explanation": "En Yalunka, contrairement au français, l'adjectif numéral cardinal se place toujours après le nom qu'il qualifie.",
+      "rules": [
+        "Substantif + Chiffre",
+        "Le nom reste généralement invariable dans sa forme de base lorsque le nombre spécifie la quantité."
+      ],
+      "examples": [
+        {
+          "structure": "Banxi saxan",
+          "phonetic_api": "/ban.xi sa.xan/",
+          "meaning": "Trois maisons (littéralement : Maison trois)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ibrahima",
+      "text": "Sabari, i bɛ kitabu mɛni ?",
+      "phonetic_api": "/sa.ba.ri i bɛ ki.ta.bu mɛ.ni/",
+      "phonetic_simple": "SA-BA-RI, I BÈ KI-TA-BOU MÈ-NI ?",
+      "translation": "S'il te plaît, combien de livres as-tu ?"
+    },
+    {
+      "speaker": "Kadiatou",
+      "text": "N bɛ kitabu naani. I tan ?",
+      "phonetic_api": "/ŋ bɛ ki.ta.bu naː.ni i tan/",
+      "phonetic_simple": "N BÈ KI-TA-BOU NAA-NI. I TAN ?",
+      "translation": "J'ai quatre livres. Et toi ?"
+    },
+    {
+      "speaker": "Ibrahima",
+      "text": "N bɛ kitabu seni nan na. A muxe xaranfe.",
+      "phonetic_api": "/ŋ bɛ ki.ta.bu se.ni nan na a mu.xe xa.ran.fe/",
+      "phonetic_simple": "N BÈ KI-TA-BOU SÉ-NI NAN NA. A MOU-KHÉ KHA-RAN-FÉ",
+      "translation": "J'en ai six. Les gens sont en train de les lire."
+    },
+    {
+      "speaker": "Kadiatou",
+      "text": "Na fanyin nan a ra. Wonu.",
+      "phonetic_api": "/na fan.jin nan a ra wo.nu/",
+      "phonetic_simple": "NA FAN-YIN NAN A RA. WO-NOU",
+      "translation": "C'est une bonne chose. Merci."
+    }
+  ],
+  "cultural_notes": [
+    "Le comptage traditionnel mandé utilise beaucoup les doigts de la main comme repères visuels d'où la rupture structurelle nette après le chiffre cinq ('sulu'). Le nombre dix ('tongo') désigne symboliquement l'assemblage complet des mains.",
+    "Lors des transactions ou des discussions sur l'âge, l'utilisation des chiffres s'accompagne souvent de gestes de la main pour appuyer la clarté de la négociation."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex5_1",
+      "type": "multiple_choice",
+      "question": "Comment traduit-on le nombre 'Dix (10)' en langue Yalunka ?",
+      "options": [
+        "Sulu",
+        "Tongo",
+        "Keden"
+      ],
+      "correct_answer": "Tongo",
+      "explanation": "'Tongo' correspond à la dizaine de base. 'Sulu' signifie cinq et 'Keden' signifie un."
+    },
+    {
+      "exercise_id": "ex5_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire trois personnes, on place le chiffre après le mot muxe : muxe [ ___ ].",
+      "correct_answer": "saxan",
+      "hint": "Le mot commence par une consonne fricative sourde et se termine par la nasale 'n'."
+    }
+  ]
+}

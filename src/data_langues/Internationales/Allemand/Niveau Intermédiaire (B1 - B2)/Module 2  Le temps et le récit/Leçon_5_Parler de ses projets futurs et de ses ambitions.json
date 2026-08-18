@@ -1,0 +1,233 @@
+{
+  "lesson_id": "B1_M2_L5",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 5,
+  "title": "Parler de ses projets futurs et de ses ambitions",
+  "learning_objectives": [
+    "Exprimer des projets d'avenir, des intentions et des projets professionnels ou personnels",
+    "Utiliser correctement le temps du futur simple (Futur I) avec l'auxiliaire werden",
+    "Formuler des conditions réelles et des projets hypothétiques avec des subordonnées en wenn",
+    "Nuancer le degré de certitude face à l'avenir grâce à des adverbes spécifiques (wahrscheinlich, hoffentlich)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'auxiliaire du futur 'werden' se prononce [ˈveːɐ̯dn̩] : le -e- initial est long et fermé, et le -r- médian se vocalise doucement sans rouler. Le digramme -ch- dans la conjonction 'hoffentlich' ou l'adverbe 'vielleicht' correspond au son palatal doux [ç] (Ich-Laut). Le groupe -st- dans 'die Zukunft' se trouve à la fin du mot et conserve sa prononciation standard tendue [st].",
+    "common_pitfalls": "Attention à la prononciation du mot 'Zukunft' [ˈtsuːkʊnft] : l'accent tonique repose obligatoirement sur la première syllabe (TSOU-kunft). Ne prononcez pas le -en final de 'werden' de manière détachée ou appuyée, il doit s'assimiler de façon fluide."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "die Zukunft",
+      "phonetic_api": "/diː ˈtsuːkʊnft/",
+      "phonetic_simple": "DII TSOU-KUNFT",
+      "translation": "l'avenir / le futur",
+      "example_sentence": "Niemand weiß, was in der Zukunft passiert.",
+      "example_phonetic": "/ˈniːmant vaɪ̯st vas ɪn deːɐ̯ ˈtsuːkʊnft paˈsiːt/",
+      "example_translation": "Nernne sait ce qui se passera à l'avenir."
+    },
+    {
+      "word_id": "v2",
+      "term": "das Ziel",
+      "phonetic_api": "/das tsiːl/",
+      "phonetic_simple": "DAS TSIIL",
+      "translation": "l'objectif / le but / la cible",
+      "example_sentence": "Mein großes Ziel ist es, fließend Deutsch zu sprechen.",
+      "example_phonetic": "/maɪ̯n ˈɡʁoːsəs tsiːl ɪst ɛs ˈfliːsn̩t dɔɪ̯tʃ tsuː ˈʃpʁɛçn̩/",
+      "example_translation": "Mon grand objectif est de parler l'allemand couramment."
+    },
+    {
+      "word_id": "v3",
+      "term": "planen",
+      "phonetic_api": "/ˈplaːnən/",
+      "phonetic_simple": "PLA-NEN",
+      "translation": "planifier / projeter / prévoir",
+      "example_sentence": "Wir planen eine lange Reise nach Asien.",
+      "example_phonetic": "/viːɐ̯ ˈplaːnən ˈaɪ̯nə ˈlaŋə ˈʁaɪ̯zə naːx ˈaːzi̯ən/",
+      "example_translation": "Nous planifions un long voyage en Asie."
+    },
+    {
+      "word_id": "v4",
+      "term": "erreichen",
+      "phonetic_api": "/ɛɐ̯ˈʁaɪ̯çn̩/",
+      "phonetic_simple": "ER-RAICH-EN",
+      "translation": "atteindre / parvenir à (un but)",
+      "example_sentence": "Mit viel Geduld wirst du deine Ambitionen erreichen.",
+      "example_phonetic": "/mɪt fiːl ɡəˈdʊlt vɪʁst duː ˈdaɪ̯nə ambiˈtsi̯oːnən ɛɐ̯ˈʁaɪ̯çn̩/",
+      "example_translation": "Avec beaucoup de patience, tu atteindras tes ambitions."
+    },
+    {
+      "word_id": "v5",
+      "term": "vorhaben",
+      "phonetic_api": "/ˈfoːɐ̯ˌhaːbn̩/",
+      "phonetic_simple": "FOOR-HA-BEN",
+      "translation": "avoir l'intention de / projeter de",
+      "example_sentence": "Ich habe vor, nächstes Jahr ein Studium zu beginnen.",
+      "example_phonetic": "/ɪç ˈhaːbə foːɐ̯ ˈnɛːçstəs jaːɐ̯ aɪ̯n ˈʃtuːdi̯ʊm tsuː bəˈɡɪnən/",
+      "example_translation": "J'ai l'intention de commencer des études l'année prochaine."
+    },
+    {
+      "word_id": "v6",
+      "term": "hoffentlich",
+      "phonetic_api": "/ˈhɔfn̩tlɪç/",
+      "phonetic_simple": "HOF-ENT-LICH",
+      "translation": "espérons que / pourvu que",
+      "example_sentence": "Hoffentlich bekommen wir bald eine Antwort.",
+      "example_phonetic": "/ˈhɔfn̩tlɪç bəˈkɔmən viːɐ̯ balt ˈaɪ̯nə ˈantvɔʁt/",
+      "example_translation": "Espérons que nous recevrons bientôt une réponse."
+    },
+    {
+      "word_id": "v7",
+      "term": "wahrscheinlich",
+      "phonetic_api": "/vaːɐ̯ˈʃaɪ̯nlɪç/",
+      "phonetic_simple": "VAR-CHAIN-LICH",
+      "translation": "probablement / vraisemblablement",
+      "example_sentence": "Er wird wahrscheinlich die Stelle wechseln.",
+      "example_phonetic": "/eːɐ̯ vɪʁt vaːɐ̯ˈʃaɪ̯nlɪç diː ˈʃtɛlə ˈvɛksln̩/",
+      "example_translation": "Il va probablement changer de poste."
+    },
+    {
+      "word_id": "v8",
+      "term": "die Karriere",
+      "phonetic_api": "/diː kaˈʁi̯eːʁə/",
+      "phonetic_simple": "DII KA-RIE-RE",
+      "translation": "la carrière professionnelle",
+      "example_sentence": "Sie macht eine erfolgreiche Karriere in der IT-Branche.",
+      "example_phonetic": "/ziː maxt ˈaɪ̯nə ɛʁˈfɔlkˌʁaɪ̯çə kaˈʁi̯eːʁə ɪn deːɐ̯ aɪ̯-tiː-ˈbʁãːʃə/",
+      "example_translation": "Elle fait une brillante carrière dans le secteur de l'informatique."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "In ein paar Jahren werde ich hoffentlich mein eigenes Unternehmen gründen.",
+      "phonetic_api": "/ɪn aɪ̯n paːɐ̯ ˈjaːʁən ˈvɛːɐ̯də ɪç ˈhɔfn̩tlɪç maɪ̯n ˈaɪ̯ɡənəs ʊntɐˈneːmən ˈɡʁʏndn̩/",
+      "phonetic_simple": "IN AIN PAR YAA-REN VEER-DE ICH HOF-ENT-LICH MAIN AI-GHEN-ES OUN-TER-NEE-MEN GRUUN-DEN",
+      "translation": "Dans quelques années, j'envisage d'ouvrir (créer) avec un peu de chance ma propre entreprise.",
+      "context": "Formuler une ambition entrepreneuriale claire au futur."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Wenn ich die Zusage erhalte, ziehe ich sofort nach Frankfurt um.",
+      "phonetic_api": "/vɛn ɪç diː ˈtsuːzaːɡə ɛɐ̯ˈhaltə ˈtsiːə ɪç zoˈfɔʁt naːx ˈfʁaŋkfʊʁt ˈʊm/",
+      "phonetic_simple": "VEN ICH DII TSOU-ZA-GHE ER-HAL-TE TSII-E ICH ZO-FORT NAK FRANK-FOURT OUM",
+      "translation": "Si je reçois la réponse positive (l'accord), je déménage immédiatement à Francfort.",
+      "context": "Exprimer un projet futur conditionné par un événement présent."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Welche beruflichen Pläne haben Sie für die nächsten fünf Jahre?",
+      "phonetic_api": "/ˈvɛlçə bəˈʁuːflɪçn̩ ˈplɛːnə ˈhaːbn̩ ziː fyːɐ̯ diː ˈnɛːçstn̩ fʏnf ˈjaːʁə/",
+      "phonetic_simple": "VEL-KE BE-ROOUF-LICH-EN PLEE-NE HA-BEN ZII FUUR DII NEEKS-TEN FUUNF YAA-RE",
+      "translation": "Quels projets professionnels avez-vous pour les cinq prochaines années ?",
+      "context": "Question très courante et formelle posée lors d'un entretien d'embauche."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ich werde mich auf jeden Fall weiterbilden, um neue Kompetenzen zu erwerben.",
+      "phonetic_api": "/ɪç vɪʁt mɪç aʊ̯f ˈjeːdn̩ fal ˈvaɪ̯tɐˌbɪldn̩ ʊm ˈnɔɪ̯ə kɔmpəˈtɛntsn̩ tsuː ɛɐ̯ˈvɛʁbn̩/",
+      "phonetic_simple": "ICH VIRT MICH AOUF YEE-DEN FAL VAIT-ER-BIL-DEN OUM NOI-E KOM-PE-TENT-SEN TSOU ER-VER-BEN",
+      "translation": "Je vais en tout cas continuer à me former afin d'acquérir de nouvelles compétences.",
+      "context": "Montrer sa détermination à évoluer dans sa carrière."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction et l'emploi du temps du futur (Futur I)",
+      "explanation": "En allemand de niveau B1, le futur s'exprime de deux manières distinctes selon le contexte. La structure formelle fait appel à un verbe auxiliaire spécifique combiné à un infinitif.",
+      "rules": [
+        "Pour des prévisions, des promesses solennelles ou des résolutions où l'on insiste sur l'avenir, on emploie le Futur I.",
+        "La structure syntaxique exige : Auxiliaire 'werden' conjugué en deuxième position + [Compléments] + [Verbe principal à l'infinitif invariable placé tout à la fin de la phrase].",
+        "Rappel oral essentiel : Si le contexte temporel futur est déjà clairement indiqué par un adverbe (ex: morgen, nächstes Jahr), les Allemands préfèrent utiliser le présent standard plutôt que le Futur I ('Morgen fliege ich' au lieu de 'Morgen werde ich fliegen')."
+      ],
+      "examples": [
+        {
+          "structure": "Ich werde morgen das Projekt abschließen. (Futur I)",
+          "phonetic_api": "/ɪç ˈveːɐ̯də ˈmɔʁɡn̩ das pʁoˈjɛkt ˈapˌʃliːsn̩/",
+          "meaning": "Je vais terminer (terminerai) le projet demain."
+        },
+        {
+          "structure": "Nächstes Jahr mache ich ein Praktikum. (Présent à valeur de futur)",
+          "phonetic_api": "/ˈnɛːçstəs jaːɐ̯ ˈmaxn̩ ɪç aɪ̯n ˈpʁaktikʊm/",
+          "meaning": "L'année prochaine, je ferai un stage."
+        }
+      ]
+    },
+    {
+      "concept": "Les propositions subordonnées conditionnelles réelles introduites par 'wenn'",
+      "explanation": "Pour formuler des plans d'avenir liés à une condition préalable, on utilise la conjonction 'wenn' (si) qui structure la phrase de manière rigoureuse.",
+      "rules": [
+        "La conjonction 'wenn' introduit la proposition subordonnée de condition. Le verbe conjugué de cette partie est rejeté tout à la fin.",
+        "Si la phrase commence par la subordonnée en 'wenn', la proposition principale commence immédiatement par son propre verbe conjugué (inversion sujet-verbe) juste après la virgule. Règle de la virgule : Verbe, Verbe."
+      ],
+      "examples": [
+        {
+          "structure": "Wenn ich Zeit habe, werde ich dich anrufen.",
+          "phonetic_api": "/vɛn ɪç tsaɪ̯t ˈhaːbə ˈveːɐ̯də ɪç dɪç ˈanˌʁuːfn̩/",
+          "meaning": "Si j'ai le temps, je t'appellerai."
+        },
+        {
+          "structure": "Ich werde die Stelle annehmen, wenn das Gehalt stimmt.",
+          "phonetic_api": "/ɪç ˈveːɐ̯də diː ˈʃtɛlə ˈanˌneːmən vɛn das ɡəˈhalt ʃtɪmt/",
+          "meaning": "J'accepterai le poste si le salaire convient."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Marie",
+      "text": "Sag mal, David, hast du dir schon Gedanken über deine Zukunft nach dem Studium gemacht? Was wirst du tun?",
+      "phonetic_api": "/zaːk maːl ˈdaːvɪt hast duː diːɐ̯ ʃoːn ɡəˈdaŋkən ˈyːbɐ ˈdaɪ̯nə ˈtsuːkʊnft naːx deːm ˈʃtuːdi̯ʊm ɡəˈmaxt vas vɪʁst duː tuːn/",
+      "phonetic_simple": "ZAK MAL DA-VID HAST DOU DIIR CHOON GHE-DANK-EN UU-BER DAI-NE TSOU-KUNFT NAK DEEM CHTOU-DIOUM GHE-MAKT VAS VIRT DOU TOUN",
+      "translation": "Dis-moi, David, as-tu déjà réfléchi à ton avenir après les études ? Qu'est-ce que tu vas faire ?"
+    },
+    {
+      "speaker": "David",
+      "text": "Ja, ich habe feste Pläne. Zuerst werde ich ein Praktikum im Ausland machen, wahrscheinlich in Berlin, um meine Sprachkenntnisse zu verbessern.",
+      "phonetic_api": "/jaː ɪç ˈhaːbə ˈfɛstə ˈplɛːnə tsuˈeːɐ̯st ˈveːɐ̯də ɪç aɪ̯n ˈpʁaktikʊm ɪm ˈaʊ̯slant ˈmaxn̩ vaːɐ̯ˈʃaɪ̯nlɪç ɪn bɛʁˈliːn ʊm ˈmaɪ̯nə ˈʃpʁaːxˌkɛntnɪssə tsuː fɛɐ̯ˈbɛsɐn/",
+      "phonetic_simple": "YA ICH HA-BE FES-TE PLEE-NE TSOU-EERST VEER-DE ICH AIN PRAK-TI-KOUM IM AOFS-LANT MAK-EN VAR-CHAIN-LICH IN BER-LIIN OUM MAI-NE CHPRAK-KENT-NIS-E TSOU FER-BES-ERN",
+      "translation": "Oui, j'ai des projets bien arrêtés. Tout d'abord, je vais faire un stage à l'étranger, probablement à Berlin, afin d'améliorer mes compétences linguistiques."
+    },
+    {
+      "speaker": "Marie",
+      "text": "Das klingt nach einem fantastischen Plan. Und was passiert, wenn du nach dem Praktikum kein Jobangebot bekommst?",
+      "phonetic_api": "/das klɪŋkt naːx ˈaɪ̯nəm fanˈtastɪʃn̩ plaːn ʊnt vas paˈsiːt vɛn duː naːx deːm ˈpʁaktikʊm kaɪ̯n ˈdʒɔpʔanɡəˌboːt bəˈkɔmst/",
+      "phonetic_simple": "DAS KLINKT NAK AI-NEM FAN-TAS-TICH-EN PLAN OUNT VAS PA-SIIRT VEN DOU NAK DEEM PRAK-TI-KOUM KAIN DJOP-AN-GHE-BOOT BE-KOMST",
+      "translation": "Cela ressemble à un excellent plan. Et qu'est-ce qui se passe si tu ne reçois pas d'offre d'emploi après ton stage ?"
+    },
+    {
+      "speaker": "David",
+      "text": "Wenn das passiert, werde ich mich in ganz Europa bewerben. Hoffentlich klappt es direkt, aber ich werde auf jeden Fall flexibel bleiben.",
+      "phonetic_api": "/vɛn das paˈsiːt ˈveːɐ̯də ɪç mɪç ɪn ɡants ɔɪ̯ˈʁoːpa bəˈvɛʁbn̩ ˈhɔfn̩tlɪç klapt ɛs diˈʁɛkt ˈaːbɐ ɪç ˈveːɐ̯də aʊ̯f ˈjeːdn̩ fal flɛˈksiːbl̩ ˈblaɪ̯bn̩/",
+      "phonetic_simple": "VEN DAS PA-SIIRT VEER-DE ICH MICH IN GANTS OI-ROO-PA BE-VER-BEN HOF-ENT-LICH KLAPT ES DI-REKT A-BER VEER-DE ICH AOUF YEE-DEN FAL FLEX-II-BEL BLAI-BEN",
+      "translation": "Si cela arrive, je postulerai dans toute l'Europe. Espérons que ça marchera directement, mais je vais de toute façon rester flexible."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture professionnelle allemande, la planification à long terme ('Zukunftsplanung') est hautement valorisée. Lors d'un entretien, montrer qu'on a défini des objectifs d'évolution clairs et réalistes ('realistische Ziele') est perçu comme un signe fort de sérieux et de maturité.",
+    "La formation continue ('Weiterbildung') tout au long de la vie active est une institution en Allemagne. Les entreprises encouragent et financent très régulièrement des séminaires ou des cours du soir pour permettre à leurs employés d'acquérir de nouvelles compétences.",
+    "Pour encourager quelqu'un qui se lance dans un grand projet ou passe un examen décisif, l'expression culturelle indispensable est 'Ich drücke dir die Daumen!' (Je croise les pouces pour toi !), accompagnée du geste consistant à replier ses pouces dans ses mains."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la structure correcte au Futur I pour exprimer la phrase suivante : 'Plus tard, il deviendra un médecin célèbre.' ?",
+      "options": [
+        "Später er wird ein berühmter Arzt werden.",
+        "Später wird er ein berühmter Arzt werden.",
+        "Später wird er ein berühmter Arzt sein."
+      ],
+      "correct_answer": "Später wird er ein berühmter Arzt werden.",
+      "explanation": "La structure exige le verbe auxiliaire 'werden' conjugué en deuxième position (wird) et le verbe d'action à l'infinitif en fin de phrase. Devenir se traduisant par 'werden', on retrouve 'werden' en fin de proposition."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Wenn ich genug Geld [ ___ ], werde ich ein Jahr lang um die Welt reisen.",
+      "correct_answer": "habe",
+      "hint": "Entrez le verbe haben conjugué au présent de la première personne du singulier, exigé à la fin de cette subordonnée conditionnelle en wenn."
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "lesson_id": "C1_M1_L2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 2,
+  "title": "Exprimer l'hypothèse, le doute et la condition",
+  "learning_objectives": [
+    "Structurer des propositions hypothétiques complexes à l'aide de conjonctions de condition",
+    "Nuancer le degré de certitude en exprimant le doute et l'éventualité",
+    "Manipuler les structures corrélatives pour articuler une condition et sa conséquence potentielle"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La particule conditionnelle 'xa' nécessite une articulation précise de la fricative vélaire sourde /x/, produite sans occlusion dans l'arrière-bouche. Le timbre de la voyelle longue dans 'fale' doit rester stable et distinctement distinct des voyelles nasales environnantes.",
+    "common_pitfalls": "Veillez à ne pas adoucir le /x/ de 'xa' en un /h/ aspiré simple. Maintenez la friction caractéristique de la consonne."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v20_1",
+      "term": "xa",
+      "phonetic_api": "/xa/",
+      "phonetic_simple": "KHA",
+      "translation": "si / au cas où / à condition que (particule conditionnelle)",
+      "example_sentence": "Xa wun fɔkɔ, n ce tunkɛ.",
+      "example_phonetic": "/xa wun fɔ.kɔ n̩ tʃe tun.kɛ/",
+      "example_translation": "Si tu viens, je serai dans la joie."
+    },
+    {
+      "word_id": "v20_2",
+      "term": "fale",
+      "phonetic_api": "/fa.le/",
+      "phonetic_simple": "FA-LÉ",
+      "translation": "peut-être / il se peut / probabilité / incertitude",
+      "example_sentence": "Fale a ce tira woni.",
+      "example_phonetic": "/fa.le a tʃe ti.ra wo.ni/",
+      "example_translation": "Peut-être va-t-il voyager demain."
+    },
+    {
+      "word_id": "v20_3",
+      "term": "tɔgɔ-mɛlɛ",
+      "phonetic_api": "/tɔ.ɡɔ mɛ.lɛ/",
+      "phonetic_simple": "TO-GO-MÈ-LÈ",
+      "translation": "à moins que / sauf si la règle permet",
+      "example_sentence": "N ce gbana, tɔgɔ-mɛlɛ wun lɔ fɔkɔ.",
+      "example_phonetic": "/n̩ tʃe ɡba.na tɔ.ɡɔ mɛ.lɛ wun lɔ fɔ.kɔ/",
+      "example_translation": "Je vais partir, à moins que tu n'arrives."
+    },
+    {
+      "word_id": "v20_4",
+      "term": "kunu-wo",
+      "phonetic_api": "/ku.nu wo/",
+      "phonetic_simple": "KOU-NOU-WO",
+      "translation": "le doute / l'état d'incertitude / l'inquiétude spéculative",
+      "example_sentence": "Kunu-wo bɛ n cɛm hɔnkɔ lɔ.",
+      "example_phonetic": "/ku.nu wo bɛ n̩ tʃem hɔn.kɔ lɔ/",
+      "example_translation": "Le doute habite en moi aujourd'hui."
+    },
+    {
+      "word_id": "v20_5",
+      "term": "yoma-ra",
+      "phonetic_api": "/jo.ma ra/",
+      "phonetic_simple": "YO-MA-RA",
+      "translation": "certitude / assurance / vérité établie",
+      "example_sentence": "Yoma-ra na, a ce wɔli.",
+      "example_phonetic": "/jo.ma ra na a tʃe wɔ.li/",
+      "example_translation": "C'est une certitude, il va travailler."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p20_1",
+      "original": "Xa gbeŋu bɛ wun fɛ, yila guba kɔŋ.",
+      "phonetic_api": "/xa ɡbe.ŋu bɛ wun fɛ ji.la ɡu.ba kɔŋ/",
+      "phonetic_simple": "KHA GBÉ-NGOU BÈ WOUN FÈ, YI-LA GOU-BA KONG",
+      "translation": "Si tu as de l'argent sur toi, achète le vêtement s'il te plaît.",
+      "context": "Formuler une condition pratique lors d'une sortie au marché."
+    },
+    {
+      "phrase_id": "p20_2",
+      "original": "Fale n fara ce fɔkɔ-wo woni.",
+      "phonetic_api": "/fa.le n̩ fa.ra tʃe fɔ.kɔ wo wo.ni/",
+      "phonetic_simple": "FA-LÉ N FA-RA TCHÉ FƆ-KƆ-WO WO-NI",
+      "translation": "Il se peut que mon père arrive demain.",
+      "context": "Exprimer une éventualité temporelle avec un degré d'incertitude."
+    },
+    {
+      "phrase_id": "p20_3",
+      "original": "Xa wun tuli-wo tɔgɔ, kunu-wo ce gbana.",
+      "phonetic_api": "/xa wun tu.li wo tɔ.ɡɔ ku.nu wo tʃe ɡba.na/",
+      "phonetic_simple": "KHA WOUN TOU-LI-WO TO-GO, KOU-NOU-WO TCHÉ GBA-NA",
+      "translation": "Si tu avais écouté les conseils, le doute se serait dissipé.",
+      "context": "Analyser une situation passée sous un angle hypothétique."
+    },
+    {
+      "phrase_id": "p20_4",
+      "original": "Tɔgɔ-mɛlɛ lan ce fɔkɔ, n ce tira.",
+      "phonetic_api": "/tɔ.ɡɔ mɛ.lɛ lan tʃe fɔ.kɔ n̩ tʃe ti.ra/",
+      "phonetic_simple": "TO-GO-MÈ-LÈ LAN TCHÉ FƆ-KƆ, N TCHÉ TI-RA",
+      "translation": "Sauf si la pluie (l'eau) arrive, je vais voyager.",
+      "context": "Poser une restriction majeure à la réalisation d'un projet."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La subordination conditionnelle corrélative avec 'xa'",
+      "explanation": "L'expression de la condition repose sur l'introduction de la particule 'xa' au tout début de la proposition subordonnée. La proposition principale, qui exprime la conséquence, emploie généralement le marqueur d'inaccompli/futur 'ce' ou la particule d'irréel 'wo-ce' selon le degré de réalisation de l'hypothèse.",
+      "rules": [
+        "Hypothèse réalisable : xa + Sujet + Verbe (présent), Sujet + ce + Verbe (conséquence future).",
+        "Hypothèse irréalisable du passé : xa + Sujet + Verbe + wo, Sujet + wo-ce + Verbe."
+      ],
+      "examples": [
+        {
+          "structure": "Xa n ŋon lan, n ce tunkɛ",
+          "phonetic_api": "/xa n̩ ŋon lan n̩ tʃe tun.kɛ/",
+          "meaning": "Si je bois de l'eau, je serai content"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Marie",
+      "text": "Mboi Fanta. Xa sègé bɛ ni yoma woni, wun ce yila nin ?",
+      "phonetic_api": "/mboi fan.ta xa se.ɡe bɛ ni jo.ma wo.ni wun tʃe ji.la nin/",
+      "phonetic_simple": "MBOÏ FAN-TA. KHA SÉ-GÉ BÈ NI YO-MA WO-NI, WOUN TCHÉ YI-LA NIN ?",
+      "translation": "Bonjour Fanta. Si le marché est praticable (en paix) demain, vas-tu acheter du poisson ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Mboi Marie. Fale n ce yila nin gbun, xa gbeŋu yoma ce fɔkɔ mi fɛ.",
+      "phonetic_api": "/mboi ma.ri fa.le n̩ tʃe ji.la nin ɡbun xa ɡbe.ŋu jo.ma tʃe fɔ.kɔ mi fɛ/",
+      "phonetic_simple": "MBOÏ MA-RI. FA-LÉ N TCHÉ YI-LA NIN GBOUN, KHA GBÉ-NGOU YO-MA TCHÉ FƆ-KƆ MI FÈ.",
+      "translation": "Bonjour Marie. Il se peut que j'achète un grand poisson, à condition qu'une bonne somme d'argent me parvienne."
+    },
+    {
+      "speaker": "Marie",
+      "text": "Wun bɛ ni kunu-wo gbun ? Yoma-ra na, sègé ce bɛŋ hɔnkɔ-fɔkɔ.",
+      "phonetic_api": "/wun bɛ ni ku.nu wo ɡbun jo.ma ra na se.ɡe tʃe bɛŋ hɔn.kɔ fɔ.kɔ/",
+      "phonetic_simple": "WOUN BÈ NI KOU-NOU-WO GBOUN ? YO-MA-RA NA, SÉ-GÉ TCHÉ BÈNG HON-KƆ-FƆ-KƆ.",
+      "translation": "As-tu un grand doute ? C'est une certitude, le marché va se rassembler tôt demain matin."
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Yoma a ra ! Tɔgɔ-mɛlɛ lan ce fɔkɔ cece, n ce fɔkɔ lɔ baara sègé. Gbana !",
+      "phonetic_api": "/jo.ma a ra tɔ.ɡɔ mɛ.lɛ lan tʃe fɔ.kɔ tʃe.tʃe n̩ tʃe fɔ.kɔ lɔ baː.ra se.ɡe ɡba.na/",
+      "phonetic_simple": "YO-MA A RA ! TO-GO-MÈ-LÈ LAN TCHÉ FƆ-KƆ TCHÉ-TCHÉ, N TCHÉ FƆ-KƆ LƆ BAA-RA SÉ-GÉ. GBA-NA !",
+      "translation": "C'est bien ! À moins que la pluie ne tombe abondamment, je viendrai ici à droite au marché. Au revoir !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans la pensée traditionnelle des locuteurs Mani, l'avenir est fondamentalement soumis aux aléas climatiques et de la nature littorale. Planifier un événement sans utiliser d'atténuateur comme 'fale' (peut-être) ou de clause conditionnelle 'xa' est perçu comme une forme de présomption. L'incertitude linguistique reflète le respect humain face aux forces invisibles."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex20_1",
+      "type": "multiple_choice",
+      "question": "Quel adverbe modal utilise-t-on en Mani pour traduire 'peut-être' ou exprimer une éventualité ?",
+      "options": [
+        "xa",
+        "fale",
+        "yoma-ra"
+      ],
+      "correct_answer": "fale",
+      "explanation": "'Fale' introduit l'éventualité, le doute ou l'incertitude dans la proposition."
+    },
+    {
+      "exercise_id": "ex20_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] wun fɔkɔ, n ce tunkɛ. (Si tu viens, je serai heureux).",
+      "correct_answer": "xa",
+      "hint": "La particule conditionnelle monosyllabique qui commence par la lettre 'x'."
+    }
+  ]
+}

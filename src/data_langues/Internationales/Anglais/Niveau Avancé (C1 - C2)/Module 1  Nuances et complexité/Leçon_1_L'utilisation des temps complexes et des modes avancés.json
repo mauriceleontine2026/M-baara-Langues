@@ -1,0 +1,224 @@
+{
+  "lesson_id": "C1_M1_L1_v2",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés",
+  "learning_objectives": [
+    "Maîtriser les structures d'antériorité et de bilan dans le passé avec le Future Perfect et le Past Perfect Continuous",
+    "Utiliser le subjonctif présent anglais pour exprimer des requêtes formelles, des ordres ou des nécessités impératives",
+    "Inverser l'ordre sujet-verbe après un adverbe négatif ou restrictif pour rehausser le style littéraire ou rhétorique",
+    "Nuancer l'aspect et la voix à travers les formes infinitives et gérondives passives accomplies"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Au niveau C1-C2, l'attention se porte sur la gestion des formes contractées complexes en discours rapide (connected speech). La structure du Future Perfect 'would have been' se réduit fréquemment à /wʊdəvbiːn/ ou /wʊdbɪn/, où les voyelles fonctionnelles s'effacent au profit de schwas /ə/. Les formes du subjonctif exigent de ne pas marquer la désinence de troisième personne, évitant ainsi le son /z/ ou /s/ attendu sur un présent classique (ex: 'that he stay' /ðæt hiː steɪ/).",
+    "common_pitfalls": "Sur-articuler les auxiliaires insérés ('have', 'had', 'been') dans les temps complexes, ce qui rompt le rythme accentuel de la phrase. Omettre l'intonation descendante dramatique requise après une inversion stylistique en début de proposition."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Imperative",
+      "phonetic_api": "/ɪmˈpɛrətɪv/",
+      "phonetic_simple": "ɪm-PER-ə-tɪv",
+      "translation": "Impératif / Crucial / Obligation absolue",
+      "example_sentence": "It is imperative that the CEO be informed of these fiscal structural flaws immediately.",
+      "example_phonetic": "/ɪt ɪz ɪmˈpɛrətɪv ðæt ðə ˌsiːiːˈoʊ biː ɪnˈfɔːrmd ɒv ðiːz ˈfɪskəl ˈstrʌktʃərəl flɔːz ɪˈmiːdiətli/",
+      "example_translation": "Il est impératif que le PDG soit immédiatement informé de ces failles structurelles fiscales."
+    },
+    {
+      "word_id": "v2",
+      "term": "Scarcely",
+      "phonetic_api": "/ˈskɛərsli/",
+      "phonetic_simple": "SKERS-li",
+      "translation": "À peine / Presque pas",
+      "example_sentence": "Scarcely had the legislative assembly adjourned when the political crisis erupted.",
+      "example_phonetic": "/ˈskɛərsli hæd ðə ˈlɛdʒɪslətɪv əˈsɛmbli əˈdʒɜːrnd wɛn ðə pəˈlɪtɪkəl ˈkraɪsɪs ɪˈrʌptɪd/",
+      "example_translation": "À peine l'assemblée législative s'était-elle ajournée que la crise politique a éclaté."
+    },
+    {
+      "word_id": "v3",
+      "term": "To stipulate",
+      "phonetic_api": "/tuː ˈstɪpjʊleɪt/",
+      "phonetic_simple": "too STIP-jʊ-leɪt",
+      "translation": "Stipuler / Enjoindre / Prévoir (contractuellement)",
+      "example_sentence": "The international treaty stipulates that all corporate signatories abide by environmental norms.",
+      "example_phonetic": "/ðə ˌɪntərˈnæʃənəl ˈtriːti ˈstɪpjʊleɪts ðæt ɔːl ˈkɔːrpərət ˈsɪɡnətɔːriz əˈbaɪd baɪ ɪnˌvaɪrənˈmɛntəl nɔːrmz/",
+      "example_translation": "Le traité international stipule que tous les signataires d'entreprises respectent les normes environnementales."
+    },
+    {
+      "word_id": "v4",
+      "term": "Retrospectively",
+      "phonetic_api": "/ˌrɛtrəˈspɛktɪvli/",
+      "phonetic_simple": "ret-rə-SPEK-tɪv-li",
+      "translation": "Rétrospectivement / A posteriori",
+      "example_sentence": "Retrospectively, the aggressive financial auditing appears to have been entirely justified.",
+      "example_phonetic": "/ˌrɛtrəˈspɛktɪvli ðə əˈɡrɛsɪv faɪˈnænʃəl ˈɔːdɪtɪŋ əˈpɪərz tuː hæv biːn ɪnˈtaɪərli ˈdʒʌstɪfaɪd/",
+      "example_translation": "Rétrospectivement, l'audit financier agressif semble avoir été entièrement justifié."
+    },
+    {
+      "word_id": "v5",
+      "term": "Prerequisite",
+      "phonetic_api": "/ˌpriːˈrɛkwɪzɪt/",
+      "phonetic_simple": "prii-REK-wɪ-zɪt",
+      "translation": "Condition préalable / Prérequis",
+      "example_sentence": "A comprehensive understanding of macroeconomics is a prerequisite for this advanced seminar.",
+      "example_phonetic": "/ə ˌkɒmprɪˈhɛnsɪv ˌʌndərˈstændɪŋ ɒv ˌmækroʊiːkəˈnɒmɪks ɪz ə ˌpriːˈrɛkwɪzɪt fɔːr ðɪs ædˈvænst ˈsɛmɪnɑːr/",
+      "example_translation": "Une compréhension globale de la macroéconomie est un prérequis pour ce séminaire avancé."
+    },
+    {
+      "word_id": "v6",
+      "term": "To encompass",
+      "phonetic_api": "/tuː ɪnˈkʌmpəs/",
+      "phonetic_simple": "too ɪn-KAM-pəs",
+      "translation": "Englober / Cerner / Comprendre",
+      "example_sentence": "The academic research encompasses sociological, political, and historical variables.",
+      "example_phonetic": "/ði ˌækəˈdɛmɪk rɪˈsɜːrtʃ ɪnˈkʌmpəsɪz ˌsoʊʃiəˈlɒdʒɪkəl pəˈlɪtɪkəl ænd hɪˈstɒrɪkəl ˈvɛərɪəbəlz/",
+      "example_translation": "La recherche académique englobe des variables sociologiques, politiques et historiques."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "By the end of this fiscal year, the board will have finalized the restructuring",
+      "phonetic_api": "/baɪ ði ɛnd ɒv ðɪs ˈfɪskəl jɪər ðə bɔːrd wɪl hæv ˈfaɪnəlaɪzd ðə ˌriːˈstrʌktʃərɪŋ/",
+      "phonetic_simple": "baɪ ði end ɒv ðɪs FIS-kəl jɪər ðə bord wɪl hæv FAÏ-nə-laɪzd ðə rii-STRAK-tʃər-iŋ",
+      "translation": "D'ici la fin de cet exercice budgétaire, le conseil d'administration aura finalisé la restructuration",
+      "context": "Usage formel du Future Perfect pour exprimer l'accomplissement d'un objectif à un point précis de l'avenir."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Under no circumstances should you authorize this administrative transaction",
+      "phonetic_api": "/ˈʌndər noʊ ˈkɜːrkəmstænsɪz ʃʊd juː ˈɔːθəraɪz ðɪs ədˈmɪnɪstrətɪv trænˈzækʃən/",
+      "phonetic_simple": "AN-dər noh KUR-kəm-stan-sɪz ʃʊd yoo OH-thə-raɪz ðɪs əd-min-ɪ-strə-tɪv tran-ZAK-ʃən",
+      "translation": "Sous aucun prétexte vous ne devez autoriser cette transaction administrative",
+      "context": "Inversion syntaxique avancée après une locution négative, indiquant un impératif de sécurité absolu."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "She insisted that he submit the research paper without further delay",
+      "phonetic_api": "/ʃiː ɪnˈsɪstɪd ðæt hiː sʌbˈmɪt ðə rɪˈsɜːrtʃ ˈpeɪpər wɪˈðaʊt ˈfɜːrðər dɪˈleɪ/",
+      "phonetic_simple": "ʃi ɪn-SIS-tɪd ðæt hi sab-MIT ðə rɪ-SURTʃ PEI-pər wɪ-ÐAʊT FUR-ðər dɪ-LEI",
+      "translation": "Elle a exigé qu'il soumette le document de recherche sans plus attendre",
+      "context": "Exemple de subjonctif présent requis après un verbe d'exigence (notez l'absence de 's' à submit)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Having been vetted by executive experts, the policy was rapidly implemented",
+      "phonetic_api": "/ˈhævɪŋ biːn ˈvɛtɪd baɪ ɪɡˈzɛkjʊtɪv ˈɛkspɜːrts ðə ˈpɒlɪsi wɒz ˈræpɪdli ˈɪmplɪmɛntɪd/",
+      "phonetic_simple": "HAV-iŋ biin VET-ɪd baɪ ɪg-ZEK-jʊ-tɪv EK-spurts ðə POL-ɪ-si wɒz RAP-ɪd-li IM-plɪ-ment-ɪd",
+      "translation": "Ayant été examinée de près par des experts de la direction, la politique fut rapidement mise en œuvre",
+      "context": "Structure de participe passé passif accompli (Perfect Passive Participle) pour lier causalité et antériorité."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le subjonctif présent anglais (The Mandative Subjunctive)",
+      "explanation": "Contrairement au français, le subjonctif présent anglais ne possède pas de terminaisons spécifiques. Il utilise systématiquement la forme de la **base verbale** (l'infinitif sans 'to') pour toutes les personnes, y compris la troisième personne du singulier. On l'emploie après des verbes ou des adjectifs impersonnels exprimant l'ordre, l'exigence, la suggestion ou la nécessité impérative (demand, insist, propose, mandatory, crucial, vital, imperative).",
+      "rules": [
+        "Structure : Verbe/Adjectif déclencheur + THAT + Sujet + Base Verbale.",
+        "Le verbe BE reste 'be' à toutes les personnes (ex: that he be present).",
+        "Forme négative : On place simplement 'not' devant la base verbale, sans l'auxiliaire 'do' (ex: that she not sign)."
+      ],
+      "examples": [
+        {
+          "structure": "The board requested that he resign from his political functions.",
+          "phonetic_api": "/ðə bɔːrd rɪˈkwɛstɪd ðæt hiː rɪˈzaɪn frɒm hɪz pəˈlɪtɪkəl ˈfʌŋkʃənz/",
+          "meaning": "Le conseil a demandé qu'il démissionne de ses fonctions politiques."
+        },
+        {
+          "structure": "It is essential that they not make any assumptions yet.",
+          "phonetic_api": "/ɪt ɪz ɪˈsɛnʃəl ðæt ðeɪ nɒt meɪk ˈɛni əˈsʌmpʃənz jɛt/",
+          "meaning": "Il est essentiel qu'ils ne fassent aucune supposition pour l'instant."
+        }
+      ]
+    },
+    {
+      "concept": "L'inversion stylistique après adverbes négatifs ou restrictifs",
+      "explanation": "Pour conférer un style soutenu, emphatique ou littéraire à une phrase, le niveau avancé utilise l'inversion du sujet et de l'auxiliaire lorsqu'un adverbe à sens négatif, restrictif ou exclusif (seldom, rarely, never, scarcely, hardly, little, under no circumstances, no sooner) est placé en tête de proposition.",
+      "rules": [
+        "Structure : Adverbe négatif + Auxiliaire (do/have/be/modal) + Sujet + Verbe principal.",
+        "Si la phrase originale n'a pas d'auxiliaire au présent ou passé simple, on introduit 'do / does / did'."
+      ],
+      "examples": [
+        {
+          "structure": "Rarely do we encounter such conceptual brilliance in academic papers.",
+          "phonetic_api": "/ˈrɛərli duː wiː ɪnˈkaʊntər sʌtʃ kənˈsɛptʃʊəl ˈbrɪljəns ɪn ˌækəˈdɛmɪk ˈpeɪpərz/",
+          "meaning": "Rarement rencontrons-nous une telle brillance conceptuelle dans des articles académiques."
+        },
+        {
+          "structure": "No sooner had he left the financial office than the market crashed.",
+          "phonetic_api": "/noʊ ˈsuːnər hæd hiː lɛft ðə faɪˈnænʃəl ˈɒfɪs ðæn ðə ˈmɑːrkɪt kræʃt/",
+          "meaning": "À peine avait-il quitté le bureau financier que le marché s'est effondré."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Professor Vance",
+      "text": "Dr. Sterling, I have reviewed the empirical data. Scarcely had we initialized the algorithm when we detected an anomalous recurrence pattern. It is imperative that the research team halt the current simulations.",
+      "phonetic_api": "/drə ˈstɜːrlɪŋ aɪ hæv rɪˈvjuːd ði ɛmˈpɪrɪkəl ˈdeɪtə ˈskɛərsli hæd wiː ɪˈnɪʃəlaɪzd ði ˈælɡərɪðəm wɛn wiː dɪˈtɛktɪd ən əˈnɒmələs rɪˈkʌrəns ˈpætərn ɪt ɪz ɪmˈpɛrətɪv ðæt ðə rɪˈsɜːrtʃ tiːm hɔːlt ðə ˈkʌrənt ˌsɪmjʊˈleɪʃənz/",
+      "phonetic_simple": "dok-tər STER-liŋ aɪ hæv rɪ-VIOUD ði em-PIR-ɪ-kəl DEI-tə SKERS-li hæd wi ɪ-NISH-ə-laɪzd ði AL-gər-ɪ-ðəm wen wi dɪ-TEKT-ɪd ən ə-NOM-ə-ləs rɪ-KAr-əns PAT-ərn ɪt ɪz ɪm-PER-ə-tɪv ðæt ðə rɪ-SURTʃ tiim hɔlt ðə KAr-ənt sɪm-jʊ-LEI-ʃənz",
+      "translation": "Docteur Sterling, j'ai examiné les données empiriques. À peine avions-nous initialisé l'algorithme que nous avons détecté un schéma d'anomalie récurrent. Il est impératif que l'équipe de recherche interrompe les simulations actuelles."
+    },
+    {
+      "speaker": "Dr. Sterling",
+      "text": "I understand your apprehension, Professor. However, by the time the board convenes next month, our system will have completed the predictive cycle. Under no circumstances can we jeopardize that deadline.",
+      "phonetic_api": "/aɪ ˌʌndərˈstænd jɔːr ˌæprɪˈhɛnʃən prəˈfɛsər haʊˈɛvər baɪ ðə taɪm ðə bɔːrd kənˈviːnz nɛkst mʌnθ ˈaʊər ˈsɪstəm wɪl hæv kəmˈpliːtɪd ðə prɪˈdɪktɪv ˈsaɪkəl ˈʌndər noʊ ˈkɜːrkəmstænsɪz kæn wiː ˈdʒɛpərdaɪz ðæt ˈdɛdlaɪn/",
+      "phonetic_simple": "aɪ ʌn-dər-STAND yor ap-rɪ-HEN-ʃən prə-FES-ər haʊ-EV-ər baɪ ðə taɪm ðə bord kən-VIINZ nekst manθ aʊər SIS-təm wɪl hæv kəm-PLIIT-ɪd ðə prɪ-DIK-tɪv SAÏ-kəl AN-dər noh KUR-kəm-stan-sɪz kæn wi DJEP-ər-daɪz ðat DED-laɪn",
+      "translation": "Je comprends votre appréhension, Professeur. Cependant, d'ici à ce que le conseil se réunisse le mois prochain, notre système aura achevé le cycle prédictif. Sous aucun prétexte nous ne pouvons compromettre cette date butoir."
+    },
+    {
+      "speaker": "Professor Vance",
+      "text": "The senior coordinator explicitly suggested that we not ignore algorithmic variance. Had we been auditing the structural integrity of the project database earlier, this crisis would have been entirely averted.",
+      "phonetic_api": "/ðə ˈsiːnjər koʊˈɔːrdɪneɪtər ɪksˈplɪsɪtli səˈdʒɛstɪd ðæt wiː nɒt ɪɡˈnɔːr ˌælɡəˈrɪðmɪk ˈvɛərɪəns hæd wiː biːn ˈɔːdɪtɪŋ ðə ˈstrʌktʃərəl ɪnˈtɛɡrɪti ɒv ðə ˈprɒdʒɛkt ˈdeɪtəbeɪs ˈɜːrlɪər ðɪs ˈkraɪsɪs wʊd hæv biːn ɪnˈtaɪərli əˈvɜːrtɪd/",
+      "phonetic_simple": "ðə SIIN-jər koh-OR-dɪ-neɪ-tər ɪks-PLIS-ɪt-li sə-DJEST-ɪd ðæt wi nɒt ɪg-NOR al-gə-RIÐ-mɪk VÊR-i-əns hæd wi biin OH-dɪt-iŋ ðə STRAK-tʃər-əl ɪn-TEG-rɪ-ti ɒv ðə PROD-jekt DEI-tə-beɪs UR-li-ər ðɪs KRAÏ-sɪs wʊd hæv biin ɪn-TAÏər-li ə-VURT-ɪd",
+      "translation": "Le coordinateur principal a explicitement suggéré que nous n'ignorions pas la variance algorithmique. Si nous avions audité l'intégrité structurelle de la base de données du projet plus tôt, cette crise aurait été entièrement évitée."
+    },
+    {
+      "speaker": "Dr. Sterling",
+      "text": "True. But let us proceed with caution. I propose that the system architecture be analyzed immediately by an external cybersecurity consultant.",
+      "phonetic_api": "/truː bʌt lɛt ʌs prəˈsiːd wɪð ˈkɔːʃən aɪ prəˈpoʊz ðæt ðə ˈsɪstəm ˈɑːrkɪtɛktʃər biː ˈænəlaɪzd ɪˈmiːdiətli baɪ ən ɪksˈtɜːrnəl ˌsaɪbərsɪˈkjʊərɪti kənˈsʌltənt/",
+      "phonetic_simple": "troo bʌt let ʌs prə-SIID wɪð KOH-ʃən aɪ prə-POHZ ðæt ðə SIS-təm AR-kɪ-tek-tʃər bi AN-ə-laɪzd ɪ-MII-di-ət-li baɪ ən ɪks-TUr-nəl saɪ-bər-sɪ-KIʊər-ɪ-ti kən-SAL-tənt",
+      "translation": "C'est vrai. Mais avançons avec prudence. Je propose que l'architecture du système soit immédiatement analysée par un consultant externe en cybersécurité."
+    }
+  ],
+  "cultural_notes": [
+    "Le raffinement de la diplomatie managériale : Dans les contextes académiques ou de haute direction du monde anglophone, la confrontation directe est proscrite. L'utilisation du subjonctif mandatif ou des inversions stylistiques permet d'élever le débat, d'imposer des contraintes strictes ou de formuler des avertissements critiques sans basculer dans une tonalité agressive ou personnelle.",
+    "L'usage de l'inversion dans la rhétorique publique : Les structures inversées en début de phrase se retrouvent massivement dans les éditoriaux de la presse économique anglophone de référence (The Economist, Financial Times) ainsi que dans les discours officiels des dirigeants, servant d'ancrages mnémoniques et stylistiques forts."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Identifiez la phrase qui respecte les règles strictes du subjonctif présent mandatif :",
+      "options": [
+        "The legal department insists that the contractor signs the clause.",
+        "The legal department insists that the contractor sign the clause.",
+        "The legal department insists that the contractor must sign the clause."
+      ],
+      "correct_answer": "The legal department insists that the contractor sign the clause.",
+      "explanation": "Après le verbe d'exigence 'insist', la subordonnée requiert le subjonctif présent, caractérisé par l'usage exclusif de la base verbale 'sign', sans désinence 's' à la troisième personne du singulier."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Seldom [ ___ ] political analysts witness such public ideological unanimity.",
+      "correct_answer": "do",
+      "hint": "Introduisez l'auxiliaire requis au présent simple pour valider l'inversion stylistique initiée par l'adverbe restrictif 'seldom'."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Quelle nuance temporelle apporte l'usage du Future Perfect dans une phrase ?",
+      "options": [
+        "Une action en cours de déroulement à un moment précis du futur.",
+        "Un bilan prévisionnel projetant l'achèvement d'un fait avant un jalon temporel de l'avenir.",
+        "Une action future incertaine soumise à une condition passée."
+      ],
+      "correct_answer": "Un bilan prévisionnel projetant l'achèvement d'un fait avant un jalon temporel de l'avenir.",
+      "explanation": "Le Future Perfect (will have + participe passé) exprime l'antériorité d'une action par rapport à un repère temporel situé dans l'avenir (ex: 'By 2027, I will have finished')."
+    }
+  ]
+}

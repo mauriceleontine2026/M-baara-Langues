@@ -1,0 +1,200 @@
+{
+  "lesson_id": "C1_M2_L4",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 4,
+  "title": "Proverbes, dictons et expressions imagées",
+  "learning_objectives": [
+    "Intégrer les proverbes et dictons traditionnels de la culture hispanique dans un discours fluide",
+    "Décoder et manipuler des expressions métaphoriques complexes et des idiotismes animaliers ou colorés",
+    "Comprendre la charge culturelle et contextuelle des expressions imagées pour adapter son registre"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression 'a pedir de boca' exige un enchaînement fluide sans coupure glottale (/a peˈðir ðe ˈβoka/). Le mot 'refrán' porte l'accent sur la dernière syllabe avec un 'r' initial bien frappé (/reˈfɾan/). Dans 'gato escaldado', veillez à l'articulation douce du 'g' initial (/ˈgato eskalˈdaðo/).",
+    "common_pitfalls": "Attention au mot 'idiosincrasia' : veillez à ne pas intervertir les syllabes et articulez bien le 's' sourd (/iðjosiŋˈkɾasja/). Ne nasalisez pas le groupe 'an' de 'refrán' à la française."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Refranero",
+      "phonetic_api": "/refɾaˈneɾo/",
+      "phonetic_simple": "RÉ-FRA-NÉ-RO",
+      "translation": "Recueil de proverbes / Ensemble des dictons populaires",
+      "example_sentence": "El refranero español es uno de los más ricos du mundo.",
+      "example_phonetic": "/el refɾaˈneɾo espaˈɲol ˈes ˈuno ðel los ˈmas ˈrikos ðel ˈmundo/",
+      "example_translation": "Le recueil de proverbes espagnols est l'un des plus riches au monde."
+    },
+    {
+      "word_id": "v2",
+      "term": "Idiosincrasia",
+      "phonetic_api": "/iðjosiŋˈkɾasja/",
+      "phonetic_simple": "EE-DYO-SEEN-KRAS-YA",
+      "translation": "Idiosyncrasie / Tempérament culturel propre",
+      "example_sentence": "Comprender los dictons ayuda a entender la idiosincrasia de un pueblo.",
+      "example_phonetic": "/kompɾeŋˈdeɾ los ðicˈtoŋs aˈʝuða a eŋteŋˈdeɾ la iðjosiŋˈkɾasja ðe un ˈpweβlo/",
+      "example_translation": "Comprendre les dictons aide à comprendre le tempérament culturel propre d'un peuple."
+    },
+    {
+      "word_id": "v3",
+      "term": "A pedir de boca",
+      "phonetic_api": "/a peˈðir ðe ˈβoka/",
+      "phonetic_simple": "A PÉ-DEER DE BO-KA",
+      "translation": "À souhait / Comme sur des roulettes (locution idiomatique)",
+      "example_sentence": "Todo salió a pedir de boca durante la presentación del proyecto.",
+      "example_phonetic": "/ˈtoðo saˈljo a peˈðir ðe ˈβoka ðurante la pɾeseŋtaˈθjoŋ ðel pɾoˈʝexto/",
+      "example_translation": "Tout s'est déroulé à souhait pendant la présentation du projet."
+    },
+    {
+      "word_id": "v4",
+      "term": "Echar leña al fuego",
+      "phonetic_api": "/eˈtʃaɾ ˈleɲa al ˈfweɣo/",
+      "phonetic_simple": "É-TCHAR LÉ-NYA AL FWÉ-GO",
+      "translation": "Jeter de l'huile sur le feu",
+      "example_sentence": "No conviene hacer comentarios imprudentes para no echar leña al fuego.",
+      "example_phonetic": "/ˈno komˈbjene aˈθeɾ komeŋˈtaɾjos jmpɾuˈðeŋtes ˈpaɾa ˈno eˈtʃaɾ ˈleɲa al ˈfweɣo/",
+      "example_translation": "Il ne convient pas de faire des commentaires imprudents pour ne pas jeter de l'huile sur le feu."
+    },
+    {
+      "word_id": "v5",
+      "term": "Metáfora",
+      "phonetic_api": "/meˈtafoɾa/",
+      "phonetic_simple": "MÉ-TA-FO-RA",
+      "translation": "Métaphore",
+      "example_sentence": "El autor utiliza una metáfora brillante para describir la crisis.",
+      "example_phonetic": "/el awˈtoɾ utiˈliθa ˈuna meˈtafoɾa βɾiˈʝaŋte ˈpaɾa ðeskɾiˈβiɾ la ˈkɾisis/",
+      "example_translation": "L'auteur utilise une métaphore brillante pour décrire la crisis."
+    },
+    {
+      "word_id": "v6",
+      "term": "Llover sobre mojado",
+      "phonetic_api": "/ʝoˈβeɾ ˈsoβɾe moˈxaðo/",
+      "phonetic_simple": "YO-BER SOB-RÉ MO-KHA-DO",
+      "translation": "Un malheur ne vient jamais seul / Ajouter de la redondance à un problème",
+      "example_sentence": "La nueva restricción económica es llover sobre mojado para el sector.",
+      "example_phonetic": "/la ˈnweβa ɾestɾicˈθjoŋ ekoˈnomika ˈes ʝoˈβeɾ ˈsoβɾe moˈxaðo ˈpaɾa el secˈtoɾ/",
+      "example_translation": "La nouvelle restriction économique revient à remuer le couteau dans la plaie pour le secteur."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "A buen entendedor, pocas palabras bastan",
+      "phonetic_api": "/a ˈβwen eŋteŋdeˈðoɾ ˈpokas paˈlaβɾas ˈβastaŋ/",
+      "phonetic_simple": "A BWEN EN-TEN-DÉ-DOR, PO-KAS PA-LA-BRAS BAS-TAN",
+      "translation": "À bon entendeur, salut / Un mot aux sages suffit",
+      "context": "Proverbe classique utilisé pour faire comprendre une allusion évidente sans s'étendre."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Gato escaldado, del agua fría huye",
+      "phonetic_api": "/ˈgato eskalˈdaðo ðel ˈaɣwa ˈfɾia ˈuʝe/",
+      "phonetic_simple": "GA-TO ES-KAL-DA-DO, DEL A-GWA FREE-A OO-YÉ",
+      "translation": "Chat échaudé craint l'eau froide",
+      "context": "S'emploie pour justifier la méfiance de quelqu'un qui a déjà vécu une mauvaise expérience."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "No dejes para mañana lo que puedas hacer hoy",
+      "phonetic_api": "/ˈno ˈðexes ˈpaɾa maˈɲana lo ke ˈpweðas aˈθeɾ ˈoj/",
+      "phonetic_simple": "NO DÉ-KHÉS PA-RA MA-NYA-NA LO KÉ PWÉ-DAS A-THER OY",
+      "translation": "Ne remets pas à demain ce que tu peux faire aujourd'hui",
+      "context": "Sentence populaire incitant à l'action immédiate et contre la procrastination."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Eso es harina de otro costal, nos estamos desviando de la agenda",
+      "phonetic_api": "/ˈeso ˈes aˈɾina ðe ˈotɾo kosˈtal nos esˈtamos ðezˈβjaŋdo ðe la aˈxenda/",
+      "phonetic_simple": "É-SO ES A-REE-NA DE O-TRO KOS-TAL, NOS ES-TA-MOS DES-BYAN-DO DE LA A-KHEN-DA",
+      "translation": "C'est une autre paire de manches / C'est une tout autre histoire, nous dévions de l'ordre du jour",
+      "context": "Idéal dans un débat formel pour recadrer la discussion sur le sujet principal."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La syntaxe du subjonctif dans les structures proverbiales et impératives",
+      "explanation": "Les proverbes et dictons figés recourent fréquemment à des structures syntaxiques archaïques ou complexes, notamment l'usage du subjonctif présent à valeur de futur ou d'ordre intemporel.",
+      "rules": [
+        "Subjonctif dans la relative indéterminée : Utilisé pour exprimer une action future ou intemporelle indéfinie (ex: donde fueres, haz lo que vieres = là où tu iras, fais ce que tu verras).",
+        "Impératif négatif proverbial : Emploie systématiquement le subjonctif (ex: No por mucho madrugar amanece más temprano)."
+      ],
+      "examples": [
+        {
+          "structure": "Por más que te esfuerces, el refrán dice: 'Quien mucho abarca, poco aprieta'.",
+          "phonetic_api": "/poɾ ˈmas ke te esˈfweɾθes el refˈɾan ˈðiθe kjeŋ ˈmutʃo aˈβaɾka ˈpoko aˈpɾjeta/",
+          "meaning": "Tu as beau faire des efforts, le dicton dit : 'Qui trop embrasse, mal étreint'."
+        }
+      ]
+    },
+    {
+      "concept": "Le détachement thématique et les métaphores verbales complexes",
+      "explanation": "Pour donner du relief au discours argumentatif, l'espagnol place souvent l'expression imagée en tête de phrase (détachement thématique) suivie d'une reprise pronominale.",
+      "rules": [
+        "Mise en relief : On extrait une expression ou un concept métaphorique pour captiver l'attention (ex: El oro de sus palabras, eso es lo que me convenció).",
+        "Verbes métaphoriques figés : Des verbes comme 'dar gato por liebre' (tromper sur la marchandise) s'utilisent avec des pronoms indirects intégrés."
+      ],
+      "examples": [
+        {
+          "structure": "En esa negociación intentaron darnos gato por liebre, pero supimos reaccionar a tiempo.",
+          "phonetic_api": "/en ˈesta nexoθjaˈθjoŋ jŋteŋˈtaɾan ˈdaɾnos ˈgato poɾ ˈljeβɾe peˈɾo suˈpimos geaxθjoˈnaɾ a ˈtjempo/",
+          "meaning": "Dans cette négociation, ils ont essayé de nous arnaquer (nous vendre des vessies pour des lanternes), mais nous avons su réagir à temps."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Don Lorenzo",
+      "text": "Doña Mercedes, la auditoría interna ha revelado irregularités graves. Parece que en la filial nos han estado dando gato por liebre con los balances.",
+      "phonetic_api": "/ˈdoɲa meɾˈθeðes la awðitoˈɾia jŋˈteɾna ˈa reβeˈlaðo jɾeɣulaɾiˈðaðes ˈgɾaβes || paˈɾeθe ke en la fiˈljal nos ˈan esˈtaðo ˈðando ˈgato poɾ ˈljeβre kon los βaˈlaŋθes/",
+      "phonetic_simple": "DO-NYA MER-THÉ-DÉS, LA AW-DEE-TO-REE-A EEN-TER-NA A RÉ-BÉ-LA-DO EER-RÉ-GOO-LA-REE-DA-DÉS GRA-BÉS. PA-RÉ-THÉ KÉ EN LA FEE-LYAL NOS AN ES-TA-DO DAN-DO GA-TO POR LYÉ-BRÉ KON LOS BA-LAN-THÉS.",
+      "translation": "Madame Mercedes, l'audit interne a révélé de graves irrégularités. Il semble que dans la filiale, ils nous aient trompés sur la marchandise avec les bilans."
+    },
+    {
+      "speaker": "Doña Mercedes",
+      "text": "Lamentablemente, como bien dice el refrán: 'Gato escaldado, del agua fría huye'. Yo ya sospechaba de esos números el año pasado.",
+      "phonetic_api": "/lameŋtaβleˈmeŋte ˈkomo βjeŋ ˈðiθe el refˈɾan ˈgato eskalˈdaðo ðel ˈaɣwa ˈfɾia ˈuʝe || ˈʝo ˈʝa sospeˈtʃaβa ðe ˈesos ˈnumeɾos el ˈaɲo paˈsaðo/",
+      "phonetic_simple": "LA-MEN-TA-BLÉ-MEN-TÉ, KO-MO BYEN DEE-THÉ EL REF-RAN : GA-TO ES-KAL-DA-DO, DEL A-GWA FREE-A OO-YÉ. YO YA SOS-PÉ-TCHA-BA DE É-SOS NOO-MÉ-ROS EL A-NYO PA-SA-DO.",
+      "translation": "Malheureusement, comme le dit si bien le dicton : 'Chat échaudé craint l'eau froide'. Je me méfiais déjà de ces chiffres l'année dernière."
+    },
+    {
+      "speaker": "Don Lorenzo",
+      "text": "Cierto. Pero ahora no vale de nada lamentarse ni llover sobre mojado; lo imperativo es tomar medidas drásticas sin dilación.",
+      "phonetic_api": "/ˈθjeɾto || peˈɾo aˈoɾa ˈno ˈβale ðe ˈnaða lameŋˈtaɾse ni ʝoˈβeɾ ˈsoβɾe moˈxaðo || lo jɱpeɾaˈtiβo ˈes toˈmaɾ meˈðiðas ˈðɾasstikas sin ðilaˈθjoŋ/",
+      "phonetic_simple": "THYER-TO. PÉ-RO A-ORA NO VA-LÉ DE NA-DA LA-MEN-TAR-SÉ NEE YO-BER SOB-RÉ MO-KHA-DO; LO EEM-PÉ-RA-TEE-BO ES TO-MAR ME-DEE-DAS DRAS-TEE-KAS SEEN DEE-LA-THYON.",
+      "translation": "C'est vrai. Mais il ne sert à rien de se lamenter maintenant ni de remuer le couteau dans la plaie ; l'impératif est de prendre des mesures drastiques sans tarder."
+    },
+    {
+      "speaker": "Doña Mercedes",
+      "text": "Exacto, don Lorenzo. A buen entendedor, pocas palabras bastan. Mañana mismo convocaré un gabinete de crisis extraordinario.",
+      "phonetic_api": "/exˈax_to ˈðon loˈɾeŋθo || a ˈβwen eŋteŋdeˈðoɾ ˈpokas paˈlaβɾas ˈβastaŋ || maˈɲana ˈmizmo komβokaˈɾe un gaβiˈnete ðe ˈkɾisis exstɾaoɾðiˈnaɾjo/",
+      "phonetic_simple": "EK-SAK-TO, DON LO-REN-THO. A BWEN EN-TEN-DÉ-DOR, PO-KAS PA-LA-BRAS BAS-TAN. MA-NYA-NA MEES-MO KOM-BO-KA-RÉ OUN GA-BEE-NÉ-TÉ DE KREE-SEES EKS-TRA-OR-DEE-NA-RYO.",
+      "translation": "Exact, monsieur Lorenzo. À bon entendeur, salut. Demain matin, je convoquerai un comité de crise extraordinaire."
+    }
+  ],
+  "cultural_notes": [
+    "Le patrimoine parémiologique (les proverbes) espagnol trouve en grande partie son origine dans l'œuvre magistrale de Miguel de Cervantes, 'Don Quichotte' (Don Quijote de la Mancha), où le personnage de Sancho Panza ponctue incessamment ses répliques de dictons populaires, reflétant la sagesse rurale de l'époque.",
+    "L'expression populaire 'dar gato por liebre' vient du Moyen Âge où, dans les auberges espagnoles à la réputation douteuse, on servait parfois de la viande de chat à la place de la viande de lièvre aux voyageurs pressés."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M2_L4_EX1",
+      "type": "multiple_choice",
+      "question": "Quel proverbe espagnol correspond parfaitement au sens français de 'Qui trop embrasse, mal étreint' ?",
+      "options": [
+        "A buen entendedor, pocas palabras bastan.",
+        "Quien mucho abarca, poco aprieta.",
+        "Gato escaldado, del agua fría huye."
+      ],
+      "correct_answer": "Quien mucho abarca, poco aprieta.",
+      "explanation": "Ce proverbe signifie littéralement 'qui embrasse trop d'espace ou d'activités, serre mal', reflétant parfaitement la formulation française."
+    },
+    {
+      "exercise_id": "C1_M2_L4_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "No insistas con ese asunto del año pasado, eso ya es harina de otro [ ___ ].",
+      "correct_answer": "costal",
+      "hint": "Le mot désigne un grand sac. L'expression complète signifie 'c'est une autre paire de manches' ou 'une tout autre histoire'."
+    }
+  ]
+}

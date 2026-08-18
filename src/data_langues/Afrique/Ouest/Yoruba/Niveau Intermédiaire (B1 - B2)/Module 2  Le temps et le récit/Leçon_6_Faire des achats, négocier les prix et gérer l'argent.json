@@ -1,0 +1,271 @@
+{
+  "lesson_id": "B1_M2_L6",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Maîtriser le lexique de la transaction commerciale et de la monnaie (owó, dínwó, nira)",
+    "Conduire une négociation de prix complexe au marché (dínwó, yọ lẹ́nu)",
+    "Exprimer des notions de gestion budgétaire, d'épargne et de dépenses quotidiennes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon utilise des verbes de transaction courts à tons bas suivis de compléments (ex: 'dínwó' [dĩ́wó]). Prêtez une attention particulière à la prononciation du mot 'Owó' (argent) qui possède un ton moyen suivi d'un ton haut [owó], à ne pas confondre avec 'Òwò' (le commerce, deux tons bas).",
+    "common_pitfalls": "Attention à la contraction du groupe verbal 'dín owó kù' qui se réduit souvent à 'dínwó' à l'oral. Le ton haut de 'owó' prend le dessus après l'élision de la voyelle initiale."
+  },
+  "vocabulary": [
+    {
+      "word_id": "B1_M2_L6_V1",
+      "term": "Owó",
+      "phonetic_api": "/owó/",
+      "phonetic_simple": "OH-WÓ",
+      "translation": "Argent / Monnaie / Devise",
+      "example_sentence": "Mo fẹ́ ṣe pàṣípààrọ̀ owó lónìí.",
+      "example_phonetic": "/mo fɛ́ ʃe kàʃíkàːɾɔ̀ owó lónĩ́/",
+      "example_translation": "Je veux faire un change d'argent aujourd'hui."
+    },
+    {
+      "word_id": "B1_M2_L6_V2",
+      "term": "Dínwó",
+      "phonetic_api": "/dĩ́wó/",
+      "phonetic_simple": "DÍN-WÓ",
+      "translation": "Baisser le prix / Faire un rabais (Contraction de dín owó kù)",
+      "example_sentence": "Ẹ jọ̀wọ́, dínwó fún mi díẹ̀.",
+      "example_phonetic": "/ɛ̀ d͡ʒɔ̀wɔ́ dĩ́wó fʊ́ mĩ díɛ̀/",
+      "example_translation": "S'il vous plaît, baissez un peu le prix pour moi."
+    },
+    {
+      "word_id": "B1_M2_L6_V3",
+      "term": "Wọ́n",
+      "phonetic_api": "/wɔ́/",
+      "phonetic_simple": "WÁN",
+      "translation": "Être cher / Coûteux / Hors de prix",
+      "example_sentence": "Iṣu wọ́n púpọ̀ lọ́jà lónìí.",
+      "example_phonetic": "/iʃu wɔ́ k͡púpɔ̀ lɔ́d͡ʒà lónĩ́/",
+      "example_translation": "L'igname est très chère au marché aujourd'hui."
+    },
+    {
+      "word_id": "B1_M2_L6_V4",
+      "term": "Pọ́ndà / Nírà",
+      "phonetic_api": "/níɾà/",
+      "phonetic_simple": "NÍ-RÀ",
+      "translation": "Naira (Monnaie officielle du Nigeria)",
+      "example_sentence": "Ebi onjẹ yìí jẹ́ ọgọ́rùn-ún nírà.",
+      "example_phonetic": "/ebi ōnd͡ʒɛ jĩː d͡ʒɛ́ ɔɡɔ́ɾʊ̃ː níɾà/",
+      "example_translation": "Le prix de ce repas est de cent nairas."
+    },
+    {
+      "word_id": "B1_M2_L6_V5",
+      "term": "Ṣòwò",
+      "phonetic_api": "/ʃòwò/",
+      "phonetic_simple": "SHÒ-WÒ",
+      "translation": "Faire du commerce / Marchander / Négocier une affaire",
+      "example_sentence": "Mọ̀mọ́ mi máa ń ṣòwò aṣọ.",
+      "example_phonetic": "/mɔ̃mɔ̃ mĩ máː ŋ́ ʃòwò aʃɔ́/",
+      "example_translation": "Ma maman fait le commerce de vêtements."
+    },
+    {
+      "word_id": "B1_M2_L6_V6",
+      "term": "San",
+      "phonetic_api": "/sã/",
+      "phonetic_simple": "SAN",
+      "translation": "Payer / Régler une somme due",
+      "example_sentence": "Mo fẹ́ san owó fún iṣẹ́ rẹ.",
+      "example_phonetic": "/mo fɛ́ sã owó fʊ́ iʃɛ́ ɾɛ/",
+      "example_translation": "Je veux payer pour ton travail."
+    },
+    {
+      "word_id": "B1_M2_L6_V7",
+      "term": "Pawóṣẹ́ / Pa-owó-mọ́",
+      "phonetic_api": "/k͡paowómɔ́/",
+      "phonetic_simple": "KPA-OH-WÓ-MÁW",
+      "translation": "Épargner / Économiser de l'argent",
+      "example_sentence": "O dàra láti pa owó mọ́ fún ọ̀la.",
+      "example_phonetic": "/o dáɾa láti k͡pa owó mɔ́ fʊ́ ɔ̀la/",
+      "example_translation": "Il est bon d'épargner de l'argent pour l'avenir."
+    },
+    {
+      "word_id": "B1_M2_L6_V8",
+      "term": "Èrè",
+      "phonetic_api": "/èɾè/",
+      "phonetic_simple": "È-RÈ",
+      "translation": "Le bénéfice / Le profit / Le gain commercial",
+      "example_sentence": "Oníṣòwò yẹn rí èrè púpọ̀ lọ́sẹ̀ yìí.",
+      "example_phonetic": "/oníʃòwò d͡ʒɛ̃ ɾí èɾè k͡púpɔ̀ lɔ́ʃɛ́ jĩː/",
+      "example_translation": "Ce commerçant a fait beaucoup de bénéfices cette semaine."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "B1_M2_L6_P1",
+      "original": "Owó mélòó ni ẹrù yìí, ẹ jọ̀wọ́?",
+      "phonetic_api": "/owó mélòː nĩ ɛɾù jĩː ɛ̀ d͡ʒɔ̀wɔ́/",
+      "phonetic_simple": "OH-WÓ MÉ-LÒÒ NI È-ROÙ YÍ, È JÀW-WÓ?",
+      "translation": "Combien coûte cette marchandise, s'il vous plaît ?",
+      "context": "Formule ouverte standard pour demander le prix d'un article au marché."
+    },
+    {
+      "phrase_id": "B1_M2_L6_P2",
+      "original": "Ó wọ́n púpọ̀! Dínwó kù fún mi, nò ní owó tó bẹ́ẹ̀.",
+      "phonetic_api": "/ó wɔ́ k͡púpɔ̀ dĩ́wó kù fʊ́ mĩ nò ní owó tó bɛ́ː/",
+      "phonetic_simple": "Ó WÁN KPOÚ-PÀW! DÍN-WÓ KÒÙ FOÚN MÍ, NÒ NÍ OH-WÓ TÓ BÉÈ.",
+      "translation": "C'est beaucoup trop cher ! Faites-moi un rabais, je n'ai pas autant d'argent.",
+      "context": "Réaction typique et polie pour entamer une négociation de prix."
+    },
+    {
+      "phrase_id": "B1_M2_L6_P3",
+      "original": "Owó tí mo ní kò tó láti ra bàtà yìí.",
+      "phonetic_api": "/owó tí mo ní kò tó láti ɾa bàtà jĩː/",
+      "phonetic_simple": "OH-WÓ TÍ MO NÍ KÒ TÓ LÁ-TI RA BÀ-TÀ YÍ.",
+      "translation": "L'argent que j'ai ne suffit pas pour acheter ces chaussures.",
+      "context": "Constater une contrainte budgétaire face à un vendeur."
+    },
+    {
+      "phrase_id": "B1_M2_L6_P4",
+      "original": "Mélòó ni o fẹ́ san lapapọ́ fún aṣọ náà?",
+      "phonetic_api": "/mélòː nĩ o fɛ́ sã lak͡pak͡pɔ́ fʊ́ aʃɔ́ náː/",
+      "phonetic_simple": "MÉ-LÒÒ NI O FÉ SAN LA-PA-KPÁW FOÚN A-SHÓ NÁÀ?",
+      "translation": "Combien veux-tu payer au total pour ce vêtement ?",
+      "context": "Contre-proposition ou relance du commerçant demandant le prix du client."
+    },
+    {
+      "phrase_id": "B1_M2_L6_P5",
+      "original": "Mo máa ń pa owó mọ́ sínú ilé-ìfowópamọ́ ní gbogbo oṣù.",
+      "phonetic_api": "/mo máː ŋ́ k͡pa owó mɔ́ sĩ́nú iléìfowók͡pamɔ́ ní ɡ͡boɡ͡bo oʃù/",
+      "phonetic_simple": "MO MÁÀ N KPA OH-WÓ MÁW SÍ-NOÚ I-LÉ-Ì-FO-WÓ-KPA-MÁW NÍ GBOGBO OH-SHOÙ.",
+      "translation": "J'épargne habituellement de l'argent à la banque chaque mois.",
+      "context": "Description d'une habitude financière saine."
+    },
+    {
+      "phrase_id": "B1_M2_L6_P6",
+      "original": "Ṣé o le ṣe pàṣípààrọ̀ owó nírà mọ́ dọ́là fún mi?",
+      "phonetic_api": "/ʃé o le ʃe kàʃíkàːɾɔ̀ owó níɾà mɔ́ dɔ́là fʊ́ mĩ/",
+      "phonetic_simple": "SHÉ O LE SHÉ KPA-SHÍ-KPA-À-RÀW OH-WÓ NÍ-RÀ MÁW DÓ-LÀ FOÚN MÍ?",
+      "translation": "Peux-tu faire un change de nairas en dollars pour moi ?",
+      "context": "Demande de service de change de devises."
+    },
+    {
+      "phrase_id": "B1_M2_L6_P7",
+      "original": "Iṣẹ́ oníṣòwò rẹ̀ ń mú èrè gidi jáde lẹ́nu ọjọ́ mẹ́ta yìí.",
+      "phonetic_api": "/iʃɛ́ oníʃòwò ɾɛ̀ ŋ́ mú èɾè ɡidi d͡ʒáde lɛ́nu ɔd͡ʒɔ́ mɛ́ta jĩː/",
+      "phonetic_simple": "I-SHÉ O-NÍ-SHÒ-WÒ RÈ N MOÚ È-RÈ GI-DI JÁ-DE LÉ-NU AW-JÁ MÉ-TA YÍ.",
+      "translation": "Son activité commerciale génère de vrais bénéfices ces derniers jours.",
+      "context": "Bilan positif de la rentabilité d'une entreprise."
+    },
+    {
+      "phrase_id": "B1_M2_L6_P8",
+      "original": "Gba owó rẹ, ẹ ṣé púpọ̀ fún títà.",
+      "phonetic_api": "/ɡ͡ba owó ɾɛ ɛ̀ ʃé k͡púpɔ̀ fʊ́ títà/",
+      "phonetic_simple": "GBA OH-WÓ RÈ, È SHÉ KPOÚ-PÀW FOÚN TÍ-TÀ.",
+      "translation": "Prenez votre argent, merci beaucoup pour la vente.",
+      "context": "Clôture d'une transaction après accord mutuel."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'utilisation de verbes d'état de coût : 'Wọ́n' et 'Pọ̀'",
+      "explanation": "En yoruba, pour dire qu'un objet 'est cher' ou que la quantité 'est grande', on n'utilise pas de verbe être suivi d'un adjectif. On emploie des verbes d'état ('wọ́n' : être cher, 'pọ̀' : être abondant/nombreux). Ces verbes s'accordent directement avec le sujet sans intermédiaire.",
+      "rules": [
+        "Structure : [Nom de l'objet] + wọ́n (pour la cherté).",
+        "Pour accentuer, on ajoute l'adverbe d'intensité 'púpọ̀' (beaucoup) juste après le verbe d'état."
+      ],
+      "examples": [
+        {
+          "structure": "Bàtà yìí + wọ́n",
+          "phonetic_api": "/bàtà jĩː wɔ́/",
+          "meaning": "Ces chaussures sont chères."
+        },
+        {
+          "structure": "Owó rẹ̀ + pọ̀ + púpọ̀",
+          "phonetic_api": "/owó ɾɛ̀ k͡pɔ̀ k͡púpɔ̀/",
+          "meaning": "Son prix (son argent) est excessivement élevé."
+        }
+      ]
+    },
+    {
+      "concept": "La structure de négociation impérative adoucie fún... ní",
+      "explanation": "Pour demander un rabais de manière ferme mais culturellement acceptable, on emploie le verbe d'action 'dín' (diminuer) ou 'fún' (donner) combiné à la préposition attributive 'ní'. L'insertion de l'expression de politesse 'Ẹ jọ̀wọ́' (S'il vous plaît) est indispensable pour éviter un ton impoli.",
+      "rules": [
+        "Structure : Ẹ jọ̀wọ́ + dín + owó + kù + fún mi (S'il vous plaît, diminuez l'argent pour moi).",
+        "À l'oral, la formule se contracte couramment en : Ẹ dínwó fún mi."
+      ],
+      "examples": [
+        {
+          "structure": "Ẹ jọ̀wọ́, dínwó fún mi",
+          "phonetic_api": "/ɛ̀ d͡ʒɔ̀wɔ_ dĩ́wó fʊ́ mĩ/",
+          "meaning": "S'il vous plaît, baissez le prix pour moi."
+        },
+        {
+          "structure": "San + márùn-ún + fún mi",
+          "phonetic_api": "/sã máɾʊ̀ fʊ́ mĩ/",
+          "meaning": "Payez-moi cinq (dit le vendeur pour clore le débat)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Alákàrà (La vendeuse de beignets)",
+      "text": "Ẹ ǹlẹ́ o, ọ̀gá. Ẹ wá ra àkàrà tútù. Owó rẹ̀ kò pọ̀ rárá.",
+      "phonetic_api": "/ɛ̀ ŋ̀lɛ́ o ɔ̀ɡá ɛ̀ wá ɾa àkàɾà tútù owó ɾɛ̀ kò k͡pɔ̀ ɾáɾá/",
+      "phonetic_simple": "È N-LÉ O, AW-GÁ. È WÁ RA À-KÀ-RÀ TÚ-TÙ. OH-WÓ RÈ KÒ KPÁW RÁ-RÁ.",
+      "translation": "Bienvenue, monsieur. Venez acheter des beignets de haricots tout chauds. Le prix n'est pas élevé du tout."
+    },
+    {
+      "speaker": "Tòbi (Le client)",
+      "text": "Ẹ kààsán, màá. Owó mélòó ni fún mẹ́fà yìí? Mo rí i pé ó wọ́n díẹ̀.",
+      "phonetic_api": "/ɛ̀ kàːsã́ màá owó mélòː nĩ fʊ́ mɛ́fà jĩː mo ɾí i k͡pé ó wɔ́ díɛ̀/",
+      "phonetic_simple": "È KÀÀ-SÁN, MÀÁ. OH-WÓ MÉ-LÒÒ NI FOÚN MÉ-FÀ YÍ? MO RÍ I KPÉ Ó WÁN DÍ-È.",
+      "translation": "Bon après-midi, madame. Combien coûtent ces six pièces ? Je trouve que c'est un peu cher."
+    },
+    {
+      "speaker": "Alákàrà (La vendeuse de beignets)",
+      "text": "Ah, kò wọ́n o! Ẹgbẹ̀rún nírà ni. Gbogbo nǹkan lọ́jà ni ó gbówó lórí báyìí.",
+      "phonetic_api": "/ah kò wɔ́ o ɛɡ͡bɛ̀ɾʊ́ níɾà nĩ ɡ͡boɡ͡bo ŋ̀kã lɔ́d͡ʒà nĩ ó ɡ͡bówó lórí bájĩː/",
+      "phonetic_simple": "AH, KÒ WÁN O! È-GBÈ-RÚN NÍ-RÀ NI. GBOGBO N-KAN LÁW-JÀ NI Ó GBÓ-WÓ LÓ-RÍ BÁ-YÍ.",
+      "translation": "Ah, ce n'est pas cher ! C'est mille nairas. Tout a augmenté de prix au marché actuellement."
+    },
+    {
+      "speaker": "Tòbi (Le client)",
+      "text": "Ẹ jọ̀wọ́, dínwó fún mi sí ọ̀rọ̀ọ̀rún nírà. Mo máa ń pawóṣẹ́ ni, nò ní owó púpọ̀.",
+      "phonetic_api": "/ɛ̀ d͡ʒɔ̀wɔ́ dĩ́wó fʊ́ mĩ sí ɔ̀ɾɔ̀ːɾʊ́ níɾà mo máː ŋ́ k͡paowómɔ́ nĩ nò ní owó k͡púpɔ̀/",
+      "phonetic_simple": "È JÀW-WÓ, DÍN-WÓ FOÚN MÍ SÍ ÀW-RÁW-ÀW-RÚN NÍ-RÀ. MO MÁÀ N KPA-OH-WÓ-MÁW NI, NÒ NÍ OH-WÓ KPOÚ-PÀW.",
+      "translation": "S'il vous plaît, baissez le prix à huit cents nairas pour moi. J'économise mon argent, je n'en ai pas beaucoup."
+    },
+    {
+      "speaker": "Alákàrà (La vendeuse de beignets)",
+      "text": "O dára, san ọgọ́rùn-ún mẹ́san nírà. Gba àkàrà rẹ, èrè mi kò pọ̀ mọ́ o!",
+      "phonetic_api": "/o dáɾa sã ɔɡɔ́ɾʊ̃ː mɛ́san níɾà ɡ͡ba àkàɾà ɾɛ èɾè mĩ kò k͡pɔ̀ mɔ́ o/",
+      "phonetic_simple": "OH DÁ-RA, SAN AW-GÁW-ROÙN-OÚN MÉ-SAN NÍ-RÀ. GBA À-KÀ-RÀ RÈ, È-RÈ MI KÒ KPÁW MÁ O!",
+      "translation": "D'accord, payez neuf cents nairas. Prenez vos beignets, mon bénéfice est réduit à néant !"
+    }
+  ],
+  "cultural_notes": [
+    "Le marchandage (Dídínwó/Ṣòwò) est un art social et une institution culturelle incontournable sur les marchés yorubas. Accepter le premier prix donné par un vendeur est presque perçu comme un manque d'intérêt ou de respect pour l'échange humain. La négociation doit toujours se faire avec le sourire et de l'humour.",
+    "L'expression 'Owó lórí' (littéralement : de l'argent sur la tête) est l'équivalent moderne de l'inflation ou de la hausse subite des coûts des denrées de base, un sujet de conversation quotidien crucial dans les centres urbains nigérians.",
+    "La solidarité financière au sein du clan passe souvent par l' 'Èṣúsú' (tontine traditionnelle). Les membres d'un groupe cotisent une somme fixe régulièrement, et la totalité de la cagnotte est reversée à un membre différent à chaque tour pour lui permettre d'investir ou de gérer ses dépenses majeures."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L6_EX1",
+      "type": "multiple_choice",
+      "question": "Quelle phrase prononcez-vous pour demander poliment une baisse de prix au marché ?",
+      "options": [
+        "Owó mi pọ̀ púpọ̀ lónìí",
+        "Ẹ jọ̀wọ́, dínwó fún mi díẹ̀",
+        "Aṣọ yìí wọ́n ju ti àná lọ",
+        "Mo fẹ́ san gbogbo owó náà"
+      ],
+      "correct_answer": "Ẹ jọ̀wọ́, dínwó fún mi díẹ̀",
+      "explanation": "La formule idiomatique combine la marque de respect 'Ẹ jọ̀wọ́', le verbe contracté de réduction 'dínwó' et l'attribution de bénéficiaire 'fún mi'."
+    },
+    {
+      "exercise_id": "B1_M2_L6_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour exprimer le fait qu'une marchandise est excessivement coûteuse, on emploie le verbe d'état : Ẹrù yìí [ ___ ] púpọ̀.",
+      "correct_answer": "wọ́n",
+      "hint": "C'est un verbe monosyllabique à ton haut signifiant 'coûter cher'."
+    }
+  ]
+}

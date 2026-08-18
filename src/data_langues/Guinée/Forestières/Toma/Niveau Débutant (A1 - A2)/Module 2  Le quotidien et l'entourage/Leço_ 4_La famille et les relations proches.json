@@ -1,0 +1,128 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Identifier les membres de la famille nucléaire et élargie en toma",
+    "Utiliser les adjectifs possessifs de base pour parler de son entourage"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La langue toma possède des consonnes labio-vélaires complexes comme /gb/ ou /kp/ émises simultanément, ainsi que des voyelles nasales importantes pour distinguer le genre ou la possession.",
+    "common_pitfalls": "Veillez à ne pas séparer le son /gb/ en 'g' suivi de 'b'. La prononciation doit se faire en un seul mouvement articulatoire fermé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v4_1",
+      "term": "kêe",
+      "phonetic_api": "/kɛ̂ː/",
+      "phonetic_simple": "KEE",
+      "translation": "père",
+      "example_sentence": "Na kêe ɓaa.",
+      "example_phonetic": "/na kɛ̂ː ɓaː/",
+      "example_translation": "C'est mon père."
+    },
+    {
+      "word_id": "v4_2",
+      "term": "dee",
+      "phonetic_api": "/deː/",
+      "phonetic_simple": "DEE",
+      "translation": "mère",
+      "example_sentence": "Na dee vaza.",
+      "example_phonetic": "/na deː va.za/",
+      "example_translation": "Ma mère est bonne."
+    },
+    {
+      "word_id": "v4_3",
+      "term": "loi",
+      "phonetic_api": "/loi/",
+      "phonetic_simple": "LOÏ",
+      "translation": "enfant / fils / fille",
+      "example_sentence": "Na loi ɓaa ni.",
+      "example_phonetic": "/na loi ɓaː ni/",
+      "example_translation": "C'est mon enfant."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p4_1",
+      "original": "I ɓila hêmɛ gaza?",
+      "phonetic_api": "/i ɓi.la hɛ̂ː.mɛ ɡa.za/",
+      "phonetic_simple": "I BILA HEE-ME GA-ZA",
+      "translation": "Comment va ta famille ?",
+      "context": "Salutation courante et informelle pour prendre des nouvelles du foyer."
+    },
+    {
+      "phrase_id": "p4_2",
+      "original": "Ta vaza pépe.",
+      "phonetic_api": "/ta va.za pɛ́.pɛ/",
+      "phonetic_simple": "TA VA-ZA PE-PE",
+      "translation": "Ils vont tous bien.",
+      "context": "Réponse standard pour confirmer la bonne santé de ses proches."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les adjectifs possessifs singuliers",
+      "explanation": "En toma, la possession s'exprime en plaçant le pronom possessif directement devant le nom représentant le membre de la famille.",
+      "rules": [
+        "Utilisez 'na' pour exprimer 'mon/ma'.",
+        "Utilisez 'i' pour exprimer 'ton/ta'."
+      ],
+      "examples": [
+        {
+          "structure": "na dee",
+          "phonetic_api": "/na deː/",
+          "meaning": "ma mère"
+        },
+        {
+          "structure": "i kêe",
+          "phonetic_api": "/i kɛ̂ː/",
+          "meaning": "ton père"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Momo",
+      "text": "I dee vaza?",
+      "phonetic_api": "/i deː va.za/",
+      "phonetic_simple": "I DEE VA-ZA",
+      "translation": "Ta mère va bien ?"
+    },
+    {
+      "speaker": "Sia",
+      "text": "Owo, na dee vaza.",
+      "phonetic_api": "/o.wo na deː va.za/",
+      "phonetic_simple": "O-WO NA DEE VA-ZA",
+      "translation": "Oui, ma mère va bien."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la communauté Toma, la notion de famille est large et englobe les oncles et tantes au même titre que les parents biologiques, renforçant la solidarité communautaire."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex4_1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'père' en langue toma ?",
+      "options": [
+        "dee",
+        "kêe",
+        "loi"
+      ],
+      "correct_answer": "kêe",
+      "explanation": "'kêe' signifie le père tandis que 'dee' désigne la mère."
+    },
+    {
+      "exercise_id": "ex4_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] dee vaza.",
+      "correct_answer": "na",
+      "hint": "Complétez avec le possessif pour dire 'Ma' mère va bien."
+    }
+  ]
+}

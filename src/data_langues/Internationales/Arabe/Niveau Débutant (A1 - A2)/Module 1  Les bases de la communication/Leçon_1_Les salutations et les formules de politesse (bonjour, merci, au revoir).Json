@@ -1,0 +1,313 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Maîtriser les salutations rituelles arabes selon le contexte social et temporel",
+    "Employer correctement les formules de politesse et de gratitude en distinguant les genres",
+    "Savoir initier et clore un échange de courtoisie élémentaire en arabe standard moderne"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'arabe classique repose sur des points d'articulation profonds. Le phonème /ħ/ (ح) est une fricative pharyngale sourde qui demande une contraction des muscles de la gorge (comme un souffle expiré forcé). Le phonème /x/ (خ) est une fricative uvulaire sourde, proche de la 'jota' espagnole ou du 'ch' allemand. Les consonnes emphatiques comme /dˤ/ (ض) transforment le timbre des voyelles adjacentes en les rendant plus graves et vélariisées.",
+    "common_pitfalls": "Attention à ne pas assimiler le /ħ/ (ح) au /h/ (ه) qui est une simple aspiration laryngale (comme le 'h' anglais). Veillez également à bien marquer la gémination (doublement de consonne indiqué par la Shaddah ّ), sous peine de modifier le sens des mots ou de casser le rythme de la phrase."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "مَرْحَبًا",
+      "phonetic_api": "/mar.ħa.ban/",
+      "phonetic_simple": "MAR-HA-BAN",
+      "translation": "Bonjour / Bienvenue",
+      "example_sentence": "مَرْحَبًا بِكَ يَا صَدِيقِي",
+      "example_phonetic": "/mar.ħa.ban bi.ka jaː sˤa.diː.qiː/",
+      "example_translation": "Bienvenue à toi mon ami"
+    },
+    {
+      "word_id": "v2",
+      "term": "شُكْرًا",
+      "phonetic_api": "/ʃuk.ran/",
+      "phonetic_simple": "CHOUK-RAN",
+      "translation": "Merci",
+      "example_sentence": "شُكْرًا جَزِيلًا عَلَى الْمُسَاعَدَةِ",
+      "example_phonetic": "/ʃuk.ran dʒa.ziː.lan ʕa.laː l.mu.saː.ʕa.da.ti/",
+      "example_translation": "Merci beaucoup pour l'aide"
+    },
+    {
+      "word_id": "v3",
+      "term": "عَفْوًا",
+      "phonetic_api": "/ʕaf.wan/",
+      "phonetic_simple": "AF-OUAN",
+      "translation": "De rien / Je vous en prie / Pardon",
+      "example_sentence": "عَفْوًا، لَمْ أَسْمَعْكَ جَيِّدًا",
+      "example_phonetic": "/ʕaf.wan lam ʔas.maʕ.ka dʒaj.ji.dan/",
+      "example_translation": "Pardon, je ne vous ai pas bien entendu"
+    },
+    {
+      "word_id": "v4",
+      "term": "تَفَضَّلْ",
+      "phonetic_api": "/ta.fadˤ.dˤal/",
+      "phonetic_simple": "TA-FAD-DAL",
+      "translation": "S'il te plaît / Je t'en prie (pour donner, inviter à entrer ou parler - à un homme)",
+      "example_sentence": "تَفَضَّلْ بِالدُّخُولِ يَا سَيِّدِي",
+      "example_phonetic": "/ta.fadˤ.dˤal bid.du.xuː.li jaː saj.ji.diː/",
+      "example_translation": "Je vous en prie, entrez monsieur"
+    },
+    {
+      "word_id": "v5",
+      "term": "أَهْلًا",
+      "phonetic_api": "/ah.lan/",
+      "phonetic_simple": "AH-LAN",
+      "translation": "Salut / Bienvenue",
+      "example_sentence": "أَهْلًا وَسَهْلًا بِالضُّيُوفِ",
+      "example_phonetic": "/ah.lan wa sah.lan bidˤ.dˤu.juː.fi/",
+      "example_translation": "Bienvenue chaleureuse aux invités"
+    },
+    {
+      "word_id": "v6",
+      "term": "إِلَى اللِّقَاءِ",
+      "phonetic_api": "/ʔi.laː l.li.qaː.ʔi/",
+      "phonetic_simple": "I-LAL-LI-KAA-I",
+      "translation": "Au revoir",
+      "example_sentence": "إِلَى اللِّقَاءِ فِي الأُسْبُوعِ الْمُقْبِلِ",
+      "example_phonetic": "/ʔi.laː l.li.qaː.ʔi fil ʔus.buː.ʕil muq.bi.li/",
+      "example_translation": "Au revoir à la semaine prochaine"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+      "phonetic_api": "/as.sa.laː.mu ʕa.laj.kum wa raħ.ma.tu l.laː.hi wa ba.ra.kaː.tu.hu/",
+      "phonetic_simple": "AS-SA-LAA-MOU ALAY-KOUM WA RAH-MA-TOUL-LAA-HI WA BA-RA-KAA-TOU-HOU",
+      "translation": "Que la paix soit sur vous, ainsi que la miséricorde d'Allah et Ses bénédictions",
+      "context": "La salutation la plus formelle, complète et respectueuse de la langue arabe, utilisable en tout temps et en tout lieu."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ",
+      "phonetic_api": "/wa ʕa.laj.ku.mu s.sa.laː.mu wa raħ.ma.tu l.laː.h/",
+      "phonetic_simple": "OUA ALAY-KOU-MOU S-SA-LAA-MOU WA RAH-MA-TOUL-LAA-H",
+      "translation": "Et sur vous soit la paix ainsi que la miséricorde d'Allah",
+      "context": "Réponse élégante et élargie à une salutation initiale."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "صَبَاحُ الْخَيْرِ",
+      "phonetic_api": "/sˤa.baː.ħu l.xaj.ri/",
+      "phonetic_simple": "SA-BAA-HOUL KHAY-RI",
+      "translation": "Bonjour (Matin de bien)",
+      "context": "Formule exclusive du matin pour ouvrir une conversation."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "صَبَاحُ النُّورِ وَالسُّرُورِ",
+      "phonetic_api": "/sˤa.baː.ħu n.nuː.ri was.su.ruː.ri/",
+      "phonetic_simple": "SA-BAA-HOUN NOU-RI OUAS-SOU-ROU-RI",
+      "translation": "Bonjour (Matin de lumière et de joie)",
+      "context": "Réponse très polie et poétique à 'Sabah al-khayr'."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "مَسَاءُ الْخَيْرِ",
+      "phonetic_api": "/ma.saː.ʔu l.xaj.ri/",
+      "phonetic_simple": "MA-SAA-OUL KHAY-RI",
+      "translation": "Bonsoir (Soir de bien)",
+      "context": "Formule utilisée dès le début de l'après-midi et durant toute la soirée."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "مَسَاءُ النُّورِ",
+      "phonetic_api": "/ma.saː.ʔu n.nuː.ri/",
+      "phonetic_simple": "MA-SAA-OUN NOU-RI",
+      "translation": "Bonsoir (Soir de lumière)",
+      "context": "Réponse rituelle obligatoire à 'Masa' al-khayr'."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "مِنْ فَضْلِكَ",
+      "phonetic_api": "/min fadˤ.li.ka/",
+      "phonetic_simple": "MIN FAD-LI-KA",
+      "translation": "S'il te plaît (à un homme)",
+      "context": "Inséré avant ou après une requête polie."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "مِنْ فَضْلِكِ",
+      "phonetic_api": "/min fadˤ.li.ki/",
+      "phonetic_simple": "MIN FAD-LI-KI",
+      "translation": "S'il te plaît (à une femme)",
+      "context": "Inséré avant ou après une requête polie adressée à un sujet féminin."
+    },
+    {
+      "phrase_id": "p9",
+      "original": "تَشَرَّفْنَا بِكُمُ",
+      "phonetic_api": "/ta.ʃar.raf.naː bi.kum/",
+      "phonetic_simple": "TA-CHAR-RAF-NAA BI-KOUM",
+      "translation": "Nous sommes honorés de faire votre connaissance",
+      "context": "Utilisé lors des présentations formelles ou professionnelles."
+    },
+    {
+      "phrase_id": "p10",
+      "original": "فِي أَمَانِ اللهِ",
+      "phonetic_api": "/fiː ʔa.maː.ni l.laː.hi/",
+      "phonetic_simple": "FII A-MAA-NI L-LAA-HI",
+      "translation": "Sous la protection d'Allah (Au revoir)",
+      "context": "Formule pieuse et courante pour quitter quelqu'un."
+    },
+    {
+      "phrase_id": "p11",
+      "original": "مَعَ السَّلَامَةِ",
+      "phonetic_api": "/ma.ʕa s.sa.laː.ma.ti/",
+      "phonetic_simple": "MA-A S-SA-LAA-MA-TI",
+      "translation": "Au revoir (Avec la sécurité)",
+      "context": "Formule universelle pour prendre congé."
+    },
+    {
+      "phrase_id": "p12",
+      "original": "كَيْفَ حَالُكَ؟",
+      "phonetic_api": "/kaj.fa ħaː.lu.ka/",
+      "phonetic_simple": "KAY-FA HAA-LOU-KA",
+      "translation": "Comment vas-tu ? (à un homme)",
+      "context": "Formule de transition essentielle après les salutations initiales."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du cas direct et de l'adverbe : Le Tanween Al-Fath",
+      "explanation": "En arabe standard moderne, de nombreuses expressions adverbiales de politesse ou de salutation se terminent par le Tanween de la Fatha (ً). Ce doublement de la voyelle produit le son final /-an/. Structurellement, ce Tanween nécessite l'adjonction d'un Alif graphique (ا) non prononcé qui sert de support de notation.",
+      "rules": [
+        "Le Tanween Al-Fath engendre une prononciation nasalisée finale en /-an/.",
+        "Il s'applique sur des radicaux nominaux pour les transformer en adverbes de manière ou en formules exclamatives figées.",
+        "Si le mot se termine par un Ta Marboutah (ة), l'Alif de support n'est pas ajouté."
+      ],
+      "examples": [
+        {
+          "structure": "شُكْرًا",
+          "phonetic_api": "/ʃuk.ran/",
+          "meaning": "Merci (dérivé de la racine ش-ك-ر liée à la gratitude)"
+        },
+        {
+          "structure": "عَفْوًا",
+          "phonetic_api": "/ʕaf.wan/",
+          "meaning": "Pardon / De rien (dérivé de la racine ع-ف-و liée au pardon)"
+        },
+        {
+          "structure": "أَهْلًا",
+          "phonetic_api": "/ah.lan/",
+          "meaning": "Bienvenue (Littéralement : Vous êtes ici comme dans votre famille 'Ahl')"
+        }
+      ]
+    },
+    {
+      "concept": "La déclinaison des pronoms suffixes possessifs et allocutifs au singulier",
+      "explanation": "Les expressions de politesse s'ajustent impérativement au genre du destinataire via la flexion des pronoms suffixes rattachés aux prépositions ou aux noms. Pour la deuxième personne du singulier, l'arabe distingue nettement le masculin du féminin par une simple modification de la voyelle finale.",
+      "rules": [
+        "Le suffixe masculin singulier (Toi / Ton) est matérialisé par la fatha : َ-كَ /-ka/.",
+        "Le Suffixe féminin singulier (Toi / Ton) est matérialisé par la kasra : ِ-كِ /-ki/.",
+        "Cette règle s'applique de la même manière pour les formules de salutation complexes et les questions portant sur l'état de santé."
+      ],
+      "examples": [
+        {
+          "structure": "مِنْ فَضْلِكَ",
+          "phonetic_api": "/min fadˤ.li.ka/",
+          "meaning": "S'il te plaît (à un homme)"
+        },
+        {
+          "structure": "مِنْ فَضْلِكِ",
+          "phonetic_api": "/min fadˤ.li.ki/",
+          "meaning": "S'il te plaît (à une femme)"
+        },
+        {
+          "structure": "كَيْفَ حَالُكِ؟",
+          "phonetic_api": "/kaj.fa ħaː.lu.ki/",
+          "meaning": "Comment vas-tu ? (à une femme)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "طَارِق (Tariq)",
+      "text": "السَّلَامُ عَلَيْكُمْ وَصَبَاحُ الْخَيْرِ يَا سَيِّدَةُ فَاطِمَة.",
+      "phonetic_api": "/as.sa.laː.mu ʕa.laj.kum wa sˤa.baː.ħu l.xaj.ri jaː saj.ji.da.tu faː.tˤi.ma/",
+      "phonetic_simple": "AS-SA-LAA-MOU ALAY-KOUM WA SA-BAA-HOUL KHAY-RI YA SAY-YI-DA-TOU FAA-TI-MA",
+      "translation": "Que la paix soit sur vous et bonjour, madame Fatima."
+    },
+    {
+      "speaker": "فَاطِمَة (Fatima)",
+      "text": "وَعَلَيْكُمُ السَّلَامُ وَصَبَاحُ النُّورِ وَالسُّرُورِ يَا سَيِّدُ طَارِق.",
+      "phonetic_api": "/wa ʕa.laj.ku.mu s.sa.laː.mu wa sˤa.baː.ħu n.nuː.ri was.su.ruː.ri jaː saj.ji.du tˤaː.riq/",
+      "phonetic_simple": "OUA ALAY-KOU-MOU S-SA-LAA-MOU WA SA-BAA-HOUN NOU-RI OUAS-SOU-ROU-RI YA SAY-YI-DOU TAA-RIK",
+      "translation": "Et sur vous soit la paix, bonjour (matin de lumière et de joie), monsieur Tariq."
+    },
+    {
+      "speaker": "طَارِق (Tariq)",
+      "text": "كَيْفَ حَالُكِ الْيَوْمَ؟",
+      "phonetic_api": "/kaj.fa ħaː.lu.ki l.jaw.ma/",
+      "phonetic_simple": "KAY-FA HAA-LOU-KI L-YAW-MA",
+      "translation": "Comment vas-tu aujourd'hui ?"
+    },
+    {
+      "speaker": "فَاطِمَة (Fatima)",
+      "text": "بِخَيْرٍ، وَالْحَمْدُ للهِ. وَكَيْفَ حَالُكَ أَنْتَ؟",
+      "phonetic_api": "/bi.xaj.rin wal.ħam.du lil.laː.hi wa kaj.fa ħaː.lu.ka ʔan.ta/",
+      "phonetic_simple": "BI-KHAY-RIN WAL-HAM-DOU LIL-LAA-HI WA KAY-FA HAA-LOU-KA AN-TA",
+      "translation": "Bien, louange à Allah. Et toi, comment vas-tu ?"
+    },
+    {
+      "speaker": "طَارِق (Tariq)",
+      "text": "أَنَا بِخَيْرٍ أَيْضًا، شُكْرًا جَزِيلًا. تَفَضَّلِي هَذَا الْكِتَابَ مِنْ فَضْلِكِ.",
+      "phonetic_api": "/ʔa.naː bi.xaj.rin ʔaj.dˤan ʃuk.ran dʒa.ziː.lan ta.fadˤ.dˤa.liː haː.ðal ki.taː.ba min fadˤ.li.ki/",
+      "phonetic_simple": "A-NA BI-KHAY-RIN AY-DAN CHOUK-RAN DJA-ZII-LAN TA-FAD-DA-LII HAA-THAL KI-TAA-BA MIN FAD-LI-KI",
+      "translation": "Je vais bien aussi, merci beaucoup. S'il te plaît, prends ce livre."
+    },
+    {
+      "speaker": "فَاطِمَة (Fatima)",
+      "text": "تَشَرَّفْنَا! عَفْوًا، وَإِلَى اللِّقَاءِ فِي أَمَانِ اللهِ.",
+      "phonetic_api": "/ta.ʃar.raf.naː ʕaf.wan wa ʔi.laː l.li.qaː.ʔi fiː ʔa.maː.ni l.laː.h/",
+      "phonetic_simple": "TA-CHAR-RAF-NAA AF-OUAN WA I-LAL-LI-KAA-I FII A-MAA-NI L-LAA-H",
+      "translation": "Je suis honorée ! De rien, au revoir et sous la protection d'Allah."
+    }
+  ],
+  "cultural_notes": [
+    "La ritualisation des salutations : Dans les cultures arabophones, écourter ou omettre les formules de salutations est perçu comme une marque d'impolitesse ou de froideur. Il est d'usage de poser plusieurs questions indirectes sur la santé et le bien-être avant d'aborder le sujet principal d'une discussion.",
+    "La métaphore de la lumière et du bien : Répondre à un souhait par une formulation amplifiée ou esthétiquement supérieure est une règle d'or issue des traditions linguistiques arabes. Ainsi, au mot 'bien' (الخَيْر - Al-Khayr), on préfère rétorquer par le mot 'lumière' (النُّور - An-Noor) ou 'joie' (السُّرُور - As-Suroor) pour témoigner d'une bienveillance réciproque accrue.",
+    "Le registre religieux partagé : Les expressions incluant le nom de Dieu ('Allah'), telles que 'Al-hamdu lillah' (Louange à Dieu) ou 'Fi amanillah' (Sous la protection de Dieu), possèdent une valeur purement culturelle et idiomatique. Elles sont employées de manière séculière par l'ensemble des locuteurs arabophones, indépendamment de leurs confessions."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L1_ex1",
+      "type": "multiple_choice",
+      "question": "Vous vous adressez à une directrice d'école le matin. Quelle est la formule d'appel la plus adaptée et grammaticalement correcte ?",
+      "options": [
+        "مَسَاءُ النُّورِ يَا سَيِّدَةُ (Masa' an-noor ya sayyidah)",
+        "صَبَاحُ الْخَيْرِ يَا سَيِّدَةُ (Sabah al-khayr ya sayyidah)",
+        "مِنْ فَضْلِكَ يَا سَيِّدَةُ (Min fadlika ya sayyidah)"
+      ],
+      "correct_answer": "صَبَاحُ الْخَيْرِ يَا سَيِّدَةُ (Sabah al-khayr ya sayyidah)",
+      "explanation": "'Sabah al-khayr' est la formule d'appel matinale appropriée, tandis que 'ya sayyidah' (Madame) maintient le cadre formel requis."
+    },
+    {
+      "exercise_id": "A1_M1_L1_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander poliment un document à un homme, vous dites : [ ___ ] مِنْ فَضْلِكَ",
+      "correct_answer": "تَفَضَّلْ",
+      "hint": "Le mot signifie 'Prends' ou 'Je t'en prie' au masculin singulier."
+    },
+    {
+      "exercise_id": "A1_M1_L1_ex3",
+      "type": "multiple_choice",
+      "question": "Quelle est la traduction exacte et l'analyse de l'expression 'كَيْفَ حَالُكِ؟' ?",
+      "options": [
+        "Comment vas-tu ? (adressé à un homme)",
+        "Comment vas-tu ? (adressé à une femme)",
+        "Au revoir (adressé à une femme)"
+      ],
+      "correct_answer": "Comment vas-tu ? (adressé à une femme)",
+      "explanation": "La présence du pronom suffixe avec la voyelle kasra (-ki) indique clairement que le destinataire de la question est de genre féminin."
+    }
+  ]
+}

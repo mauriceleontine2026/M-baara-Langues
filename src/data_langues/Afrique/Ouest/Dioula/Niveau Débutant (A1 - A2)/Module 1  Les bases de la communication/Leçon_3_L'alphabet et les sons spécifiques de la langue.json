@@ -1,0 +1,299 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Identifier et prononcer les 28 lettres de l'alphabet dioula officiel",
+    "Maîtriser la prononciation et la graphie des voyelles ouvertes et nasales",
+    "Articuler correctement les consonnes spécifiques comme les digrammes et la palatale",
+    "Comprendre l'impact des tons et du redoublement des voyelles sur le sens des mots"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'alphabet dioula repose sur les caractères latins mais intègre des lettres phonétiques internationales indispensables : /ɔ/ (o ouvert), /ɛ/ (e ouvert), et /ɲ/ (gn). Les voyelles peuvent être brèves, longues (graphie doublée) ou nasales (suivies graphiquement d'un 'n'). Le dioula utilise un système à deux tons fondamentaux (haut et bas) qui permet de distinguer des homographes parfaits.",
+    "common_pitfalls": "La confusion entre voyelles fermées et ouvertes change radicalement le sens (ex: 'bo' = excrément, alors que 'bɔ' = sortir). Ne prononcez jamais le 'n' final d'une voyelle nasale comme une consonne nasale alvéolaire /n/ française : le 'n' sert uniquement d'indicateur de nasalisation pour la voyelle qui le précède."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Siginiden",
+      "phonetic_api": "/si.ɡi.ni.den/",
+      "phonetic_simple": "SI-GI-NI-DEN",
+      "translation": "Lettre de l'alphabet (litt. enfant du siège/de la base)",
+      "example_sentence": "Dioula siginidenw bɛ bɛn mugan ni segin ma",
+      "example_phonetic": "/dju.la si.ɡi.ni.den.w bɛ bɛn mu.ɡan ni se.ɡin ma/",
+      "example_translation": "Les lettres de l'alphabet dioula sont au nombre de 28."
+    },
+    {
+      "word_id": "v2",
+      "term": "Ɲinan",
+      "phonetic_api": "/ɲi.nan/",
+      "phonetic_simple": "GNI-NAN",
+      "translation": "Cette année (illustration du son /ɲ/)",
+      "example_sentence": "Ɲinan ka bɔ niteya la",
+      "example_phonetic": "/ɲi.nan ka bɔ ni.te.ja la/",
+      "example_translation": "Cette année s'annonce sous le signe de la joie."
+    },
+    {
+      "word_id": "v3",
+      "term": "Ɔwɔ",
+      "phonetic_api": "/ɔ.wɔ/",
+      "phonetic_simple": "Õ-WÕ",
+      "translation": "Oui (illustration des voyelles ouvertes /ɔ/)",
+      "example_sentence": "Ɔwɔ, n bɛ baara kɛ la",
+      "example_phonetic": "/ɔ.wɔ n̩ bɛ baː.ra kɛ la/",
+      "example_translation": "Oui, je vais travailler."
+    },
+    {
+      "word_id": "v4",
+      "term": "Aayi",
+      "phonetic_api": "/aː.ji/",
+      "phonetic_simple": "AA-YI",
+      "translation": "Non (illustration de l'allongement de la voyelle 'a')",
+      "example_sentence": "Aayi, hami tɛ",
+      "example_phonetic": "/aː.ji ha.mi tɛ/",
+      "example_translation": "Non, il n'y a pas de problème."
+    },
+    {
+      "word_id": "v5",
+      "term": "Ɛntɛrɛnɛti",
+      "phonetic_api": "/ɛn.tɛ.rɛ.nɛ.ti/",
+      "phonetic_simple": "ÈN-TÈ-RÈ-NÈ-TI",
+      "translation": "Internet (illustration des voyelles ouvertes /ɛ/)",
+      "example_sentence": "Ɛntɛrɛnɛti bɛ baara dya",
+      "example_phonetic": "/ɛn.tɛ.rɛ.nɛ.ti bɛ baː.ra dja/",
+      "example_translation": "Internet facilite le travail."
+    },
+    {
+      "word_id": "v6",
+      "term": "Kuma",
+      "phonetic_api": "/ku.ma/",
+      "phonetic_simple": "KOU-MA",
+      "translation": "Parler / La parole",
+      "example_sentence": "I bɛ dioula kuma kɛ ?",
+      "example_phonetic": "/i bɛ dju.la ku.ma kɛ/",
+      "example_translation": "Est-ce que tu parles le dioula ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "Den",
+      "phonetic_api": "/den/",
+      "phonetic_simple": "DEN",
+      "translation": "Enfant / Fruit (voyelle fermée /e/)",
+      "example_sentence": "Den nin ka cɛɲi",
+      "example_phonetic": "/den nin ka t͡ʃɛ.ɲi/",
+      "example_translation": "Cet enfant est très beau."
+    },
+    {
+      "word_id": "v8",
+      "term": "Daa",
+      "phonetic_api": "/daː/",
+      "phonetic_simple": "DAA",
+      "translation": "La bouche / La porte (différent de 'da' = poser)",
+      "example_sentence": "Daa tugu sabari",
+      "example_phonetic": "/daː tu.ɡu sa.ba.ri/",
+      "example_translation": "Ferme la porte s'il te plaît."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "A fɔ fana !",
+      "phonetic_api": "/a fɔ fa.na/",
+      "phonetic_simple": "A FÕ FA-NA",
+      "translation": "Répète encore ! / Dis-le aussi !",
+      "context": "Demande pédagogique pour pratiquer la prononciation d'un mot."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "N tɛ famu la.",
+      "phonetic_api": "/n̩ tɛ fa.mu la/",
+      "phonetic_simple": "N TÈ FA-MOU LA",
+      "translation": "Je ne comprends pas.",
+      "context": "Alerter poliment l'interlocuteur sur une barrière de compréhension linguistique."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "A fɔ tɔɔni tɔɔni.",
+      "phonetic_api": "/a fɔ tɔː.ni tɔː.ni/",
+      "phonetic_simple": "A FÕ TÕÕ-NI TÕÕ-NI",
+      "translation": "Dis-le très doucement / lentement.",
+      "context": "Demander de ralentir le débit de parole pour mieux assimiler les sons."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "O bɛ sɛbɛn di ?",
+      "phonetic_api": "/o bɛ sɛ.bɛn di/",
+      "phonetic_simple": "O BÈ SÈ-BÈN DI",
+      "translation": "Comment cela s'écrit-il ?",
+      "context": "S'enquérir de l'orthographe exacte d'un terme dioula."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "N bɛ kalan kɛ la.",
+      "phonetic_api": "/n̩ bɛ ka.lan kɛ la/",
+      "phonetic_simple": "N BÈ KA-LAN KÈ LA",
+      "translation": "Je suis en train d'étudier / de lire.",
+      "context": "Expliquer son occupation actuelle centrée sur l'apprentissage."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "A bɛ fɔ di dioula la ?",
+      "phonetic_api": "/a bɛ fɔ di dju.la la/",
+      "phonetic_simple": "A BÈ FÕ DI DJOU-LA LA",
+      "translation": "Comment dit-on cela en dioula ?",
+      "context": "Demander une traduction directe d'un concept français."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Kuma ka di !",
+      "phonetic_api": "/ku.ma ka di/",
+      "phonetic_simple": "KOU-MA KA DI",
+      "translation": "La prononciation est bonne ! / La parole est douce !",
+      "context": "Féliciter un étudiant pour sa bonne articulation."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "I se bɛ fɔ la !",
+      "phonetic_api": "/i se bɛ fɔ la/",
+      "phonetic_simple": "I SÉ BÈ FÕ LA",
+      "translation": "Tu es capable de le prononcer !",
+      "context": "Formule d'encouragement de la part de l'enseignant."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système graphique des voyelles ouvertes et fermées",
+      "explanation": "Le dioula utilise sept voyelles de base. Le traitement des ouvertures se fait via des caractères spécifiques normalisés qui évitent l'usage des accents français pour modifier le timbre de la voyelle.",
+      "rules": [
+        "Les lettres 'a', 'i', 'u' se prononcent comme en français (/a/, /i/, /u/).",
+        "La lettre 'e' se prononce fermée comme un 'é' français (/e/). La lettre 'ɛ' se prononce ouverte comme un 'è' français (/ɛ/).",
+        "La lettre 'o' se prononce fermée comme dans 'moto' (/o/). La lettre 'ɔ' se prononce ouverte comme dans 'tort' (/ɔ/)."
+      ],
+      "examples": [
+        {
+          "structure": "Se (pouvoir / pied) vs Sɛ (tamiser)",
+          "phonetic_api": "/se/ vs /sɛ/",
+          "meaning": "La différence de lettre graphique change complètement le radical nominal."
+        },
+        {
+          "structure": "So (maison) vs Sɔ (sacrifier / accepter)",
+          "phonetic_api": "/so/ vs /sɔ/",
+          "meaning": "L'ouverture de la voyelle postérieure modifie le lexique."
+        }
+      ]
+    },
+    {
+      "concept": "L'allongement vocalique et la nasalisation",
+      "explanation": "La durée d'émission d'une voyelle et son passage par les fosses nasales ont une pertinence phonologique majeure en dioula.",
+      "rules": [
+        "Une voyelle doublée graphiquement indique un allongement de la durée de prononciation (ex: 'ba' = rivière, 'baa' = travail).",
+        "Une voyelle suivie de la lettre 'n' en fin de syllabe est nasalisée : l'air passe simultanément par la bouche et le nez. Le 'n' ne s'articule pas en tant que consonne autonome."
+      ],
+      "examples": [
+        {
+          "structure": "Ba (mère/rivière) vs Baa (travail / chèvre)",
+          "phonetic_api": "/ba/ vs /baː/",
+          "meaning": "Allongement distinctif de la durée."
+        },
+        {
+          "structure": "San (année)",
+          "phonetic_api": "/san/",
+          "meaning": "Le 'an' se réalise comme une voyelle nasale unique."
+        }
+      ]
+    },
+    {
+      "concept": "Les consonnes spécifiques : 'c', 'j' et 'ɲ'",
+      "explanation": "Certaines consonnes du dioula ne partagent pas leur réalisation phonétique avec leurs homographes graphiques du français.",
+      "rules": [
+        "La lettre 'c' correspond toujours au son affriqué 'tch' (/t͡ʃ/).",
+        "La lettre 'j' correspond toujours au son affriqué 'dj' (/d͡ʒ/).",
+        "La lettre 'ɲ' transcrit fidèlement l'occlusive palatale nasale, équivalente au 'gn' français."
+      ],
+      "examples": [
+        {
+          "structure": "Cɛ (homme)",
+          "phonetic_api": "/t͡ʃɛ/",
+          "meaning": "Se prononce 'tchè'."
+        },
+        {
+          "structure": "Jiri (arbre)",
+          "phonetic_api": "/d͡ʒi.ri/",
+          "meaning": "Se prononce 'djiri'."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Karamɔgɔ (Le professeur)",
+      "text": "I ni ce, kalanden. Aw bɛ siginidenw kalan la bi ?",
+      "phonetic_api": "/i ni t͡ʃe ka.lan.den aw bɛ si.gi.ni.den.w ka.lan la bi/",
+      "phonetic_simple": "I NI TCHE KA-LAN-DEN. AW BÈ SI-GI-NI-DEN-W KA-LAN LA BI ?",
+      "translation": "Bonjour, étudiant. Allez-vous étudier les lettres de l'alphabet aujourd'hui ?"
+    },
+    {
+      "speaker": "Kalanden (L'étudiant)",
+      "text": "Ɔwɔ, karamɔgɔ. Sabari, n bɛ bɔgɔ la ni 'c' ni 'j' son ye. A fɔ fana !",
+      "phonetic_api": "/ɔ.wɔ ka.ra.mɔ.ɡɔ sa.ba.ri n̩ bɛ bɔ.ɡɔ la ni t͡ʃe ni d͡ʒe son jɛ a fɔ fa.na/",
+      "phonetic_simple": "Õ-WÕ KA-RA-MÕ-GÕ. SA-BA-RI, N BÈ BÕ-GÕ LA NI 'TCH' NI 'DJ' SON YÈ. A FÕ FA-NA !",
+      "translation": "Oui, professeur. S'il vous plaît, je confonds le son du 'c' et du 'j'. Répétez-le encore !"
+    },
+    {
+      "speaker": "Karamɔgɔ",
+      "text": "Hami tɛ. 'Cɛ' bɛ fɔ ni 'tch' ye, 'Jiri' bɛ fɔ ni 'dj' ye. O bɛ sɛbɛn di, i a famu ?",
+      "phonetic_api": "/ha.mi tɛ t͡ʃɛ bɛ fɔ ni t͡ʃ fa.na d͡ʒi.ri bɛ fɔ ni d͡ʒe jɛ o bɛ sɛ.bɛn di i a fa.mu/",
+      "phonetic_simple": "HA-MI TÈ. 'TCHÈ' BÈ FÕ NI 'TCH' YÈ, 'DJI-RI' BÈ FÕ NI 'DJ' YÈ. O BÈ SÈ-BÈN DI, I A FA-MOU ?",
+      "translation": "Pas de souci. 'Cɛ' se prononce avec 'tch', 'Jiri' se prononce avec 'dj'. Comment cela s'écrit, tu as compris ?"
+    },
+    {
+      "speaker": "Kalanden",
+      "text": "Ɔwɔ, n a famu sisan. Dioula kuma ka di n ye fana. I ni ce !",
+      "phonetic_api": "/ɔ.wɔ n̩ a fa.mu si.san dju.la ku.ma ka di n̩ jɛ fa.na i ni t͡ʃe/",
+      "phonetic_simple": "Õ-WÕ, N A FA-MOU SI-SAN. DJOU-LA KOU-MA KA DI N YÈ FA-NA. I NI TCHE !",
+      "translation": "Oui, je comprends maintenant. Parler dioula est agréable pour moi aussi. Merci !"
+    }
+  ],
+  "cultural_notes": [
+    "L'alphabétisation en langue nationale dioula au Burkina Faso a fait l'objet d'une standardisation rigoureuse via la Sous-commission nationale du dioula. L'alphabet officiel utilise des règles orthographiques précises pour permettre une transcription harmonisée, essentielle pour l'enseignement bilingue et la publication de documents de santé ou d'agriculture.",
+    "La maîtrise de la phonétique dioula est un facteur d'intégration sociale majeur : prononcer correctement les voyelles ouvertes montre un effort d'immersion réel et suscite instantanément la bienveillance et la fierté des locuteurs natifs."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L3_Ex1",
+      "type": "multiple_choice",
+      "question": "Comment se prononce systématiquement la lettre 'c' dans la graphie officielle du dioula ?",
+      "options": [
+        "Comme un 's' doux",
+        "Comme un 'k' dur",
+        "Comme le groupe 'tch' dans tchad",
+        "Il reste muet"
+      ],
+      "correct_answer": "Comme le groupe 'tch' dans tchad",
+      "explanation": "En dioula, le 'c' graphique représente l'affriquée post-alvéolaire sourde /t͡ʃ/, soit le son 'tch'."
+    },
+    {
+      "exercise_id": "A1_M1_L3_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "La lettre spéciale '[ ___ ]' correspond au son 'o' ouvert que l'on retrouve dans le mot français 'port'.",
+      "correct_answer": "ɔ",
+      "hint": "C'est un caractère phonétique en forme de 'o' brisé ou inversé."
+    },
+    {
+      "exercise_id": "A1_M1_L3_Ex3",
+      "type": "multiple_choice",
+      "question": "Quelle est la fonction de la lettre 'n' lorsqu'elle se trouve directement après une voyelle en fin de syllabe (ex: 'san') ?",
+      "options": [
+        "Elle se prononce distinctement comme la consonne 'n'",
+        "Elle indique que la voyelle précédente est nasalisée",
+        "Elle allonge la durée de la voyelle",
+        "Elle indique un ton haut obligatoire"
+      ],
+      "correct_answer": "Elle indique que la voyelle précédente est nasalisée",
+      "explanation": "Le 'n' post-vocalique sert de marqueur graphique de nasalisation et ne s'articule pas individuellement."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Dire son nom et demander celui de son interlocuteur en Baga",
+    "Exprimer son origine géographique et sa localité",
+    "Déclarer son activité ou sa profession de base"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La nasale '-ŋ' en fin de mot doit résonner dans le nez sans que la langue ne touche le palais. Le pronom possessif de première personne 'n' se lie directement au mot suivant.",
+    "common_pitfalls": "Ne prononcez pas 'wə' comme le français 'ou'. C'est une voyelle centrale moyenne, proche du son 'e' dans le mot français 'le'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "b005",
+      "term": "wər",
+      "phonetic_api": "/wər/",
+      "phonetic_simple": "WER",
+      "translation": "nom / s'appeler",
+      "example_sentence": "N wər Temba",
+      "example_phonetic": "/ⁿwər tɛmɓa/",
+      "example_translation": "Mon nom est Temba"
+    },
+    {
+      "word_id": "b006",
+      "term": "bɔ̀ŋ",
+      "phonetic_api": "/ɓɔ̀ŋ/",
+      "phonetic_simple": "BON",
+      "translation": "venir de / origine",
+      "example_sentence": "Mə̀ bɔ̀ŋ Boke",
+      "example_phonetic": "/mə̀ ɓɔ̀ŋ ɓoke/",
+      "example_translation": "Je viens de Boké"
+    },
+    {
+      "word_id": "b007",
+      "term": "kə̀ kálàŋ",
+      "phonetic_api": "/kə kálàŋ/",
+      "phonetic_simple": "KE KA-LANG",
+      "translation": "étudier / élève / enseignement",
+      "example_sentence": "Mə̀ mu kə̀ kálàŋ di",
+      "example_phonetic": "/mə̀ mu kə kálàŋ di/",
+      "example_translation": "Je suis étudiant"
+    },
+    {
+      "word_id": "b008",
+      "term": "wàn",
+      "phonetic_api": "/wàn/",
+      "phonetic_simple": "WAN",
+      "translation": "qui / quel (interrogatif)",
+      "example_sentence": "I wər wàn ?",
+      "example_phonetic": "/i wər wàn/",
+      "example_translation": "Quel est ton nom ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "bp004",
+      "original": "I wər wàn kpu ?",
+      "phonetic_api": "/i wər wàn kpu/",
+      "phonetic_simple": "I WER WAN KPOO ?",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Demander l'identité de quelqu'un de manière amicale"
+    },
+    {
+      "phrase_id": "bp005",
+      "original": "Mə̀ bɔ̀ŋ kə̀ siì Baga ka",
+      "phonetic_api": "/mə̀ ɓɔ̀ŋ kə siː ɓaga ka/",
+      "phonetic_simple": "ME BON KE SII BA-GA KA",
+      "translation": "Je suis originaire du pays Baga.",
+      "context": "Préciser ses origines culturelles ou géographiques"
+    },
+    {
+      "phrase_id": "bp006",
+      "original": "N wər mu Sékou di",
+      "phonetic_api": "/ⁿwər mu sɛku di/",
+      "phonetic_simple": "N WER MOO SÉ-KOO DI",
+      "translation": "Mon nom est bel et bien Sékou.",
+      "context": "Affirmer son identité au sein d'une phrase d'état"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système de focalisation identitaire : mu ... di",
+      "explanation": "En Baga, pour affirmer une identité, un métier ou une situation d'état permanente, on encadre l'élément central ou on le fait suivre par le morphème discontinu 'mu ... di' qui valide l'assertion.",
+      "rules": [
+        "Structure nominale d'identité : Sujet + Nom/Profession + mu ... di.",
+        "Pour les verbes de provenance comme 'bɔ̀ŋ', cette focalisation n'est pas obligatoire."
+      ],
+      "examples": [
+        {
+          "structure": "N wər (Mon nom) + mu + Temba + di",
+          "phonetic_api": "/ⁿwər mu tɛmɓa di/",
+          "meaning": "Mon nom est précisément Temba"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Inconnu",
+      "text": "Ió n dɛ̀n ! I wər wàn ?",
+      "phonetic_api": "/ió ⁿdɛ̀n i wər wàn/",
+      "phonetic_simple": "IÓ N DÈN ! I WER WAN ?",
+      "translation": "Bonjour mon ami ! Quel est ton nom ?"
+    },
+    {
+      "speaker": "Temba",
+      "text": "Ió ! N wər mu Temba di. I sɔ̀nɔ̀, i bɔ̀ŋ mí ?",
+      "phonetic_api": "/ió ⁿwər mu tɛmɓa di i sɔ̀nɔ̀ i ɓɔ̀ŋ mí/",
+      "phonetic_simple": "IÓ ! N WER MOO TEM-BA DI. I SO-NO, I BON MII ?",
+      "translation": "Bonjour ! Mon nom est Temba. Et toi, d'où viens-tu ?"
+    },
+    {
+      "speaker": "Inconnu",
+      "text": "Mə̀ bɔ̀ŋ Conakry ka. Mə̀ mu kə̀ kálàŋ di ya.",
+      "phonetic_api": "/mə̀ ɓɔ̀ŋ Conakry ka mə̀ mu kə kálàŋ di ja/",
+      "phonetic_simple": "ME BON CO-NA-KRY KA. ME MOO KE KA-LANG DI YA.",
+      "translation": "Je viens de Conakry. Je suis étudiant actuellement."
+    }
+  ],
+  "cultural_notes": [
+    "Énoncer son nom de famille revêt une grande importance en milieu Baga. Il permet souvent d'identifier instantanément le clan d'appartenance et le village historique le long des côtes de la Basse-Guinée."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L2_ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie le verbe 'bɔ̀ŋ' ?",
+      "options": [
+        "Manger",
+        "Venir de / Origine",
+        "S'appeler"
+      ],
+      "correct_answer": "Venir de / Origine",
+      "explanation": "'bɔ̀ŋ' indique la provenance géographique ou familiale."
+    },
+    {
+      "exercise_id": "A1_M1_L2_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N [ ___ ] mu Temba di (Mon nom est Temba).",
+      "correct_answer": "wər",
+      "hint": "Le substantif pour 'nom'"
+    }
+  ]
+}

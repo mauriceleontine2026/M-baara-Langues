@@ -1,0 +1,297 @@
+{
+  "lesson_id": "B1_M3_L8",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 8,
+  "title": "Parler de son travail, de ses études et de sa routine professionnelle",
+  "learning_objectives": [
+    "Décrire ses tâches quotidiennes et sa routine sur son lieu de travail ou d'études",
+    "Utiliser le lexique technique lié aux outils, réunions et responsabilités professionnelles",
+    "Exprimer l'organisation temporelle d'une journée de travail ordinaire"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met l'accent sur la prononciation du phonème palatal nasal /ɲ/ dans 'ɲɛndɛ' et la fricative vélaire sourde /x/ dans 'xaran'. Les voyelles nasales en fin de syllabe (comme dans 'maadi') doivent être nettes sans diphtongaison.",
+    "common_pitfalls": "Attention à ne pas prononcer le groupe 'nt' de 'ɲɛndɛ' à la française. Séparez bien le timbre de la voyelle nasale avant de marquer l'occlusion alvéolaire."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v17_1",
+      "term": "Wali",
+      "phonetic_api": "/wali/",
+      "phonetic_simple": "WA-LI",
+      "translation": "Travail / Poste / Fonction / Tâche",
+      "example_sentence": "N na sigafe n ma wali yire ma.",
+      "example_phonetic": "/n na siɡafɛ n ma wali yirɛ ma/",
+      "example_translation": "Je me rends sur mon lieu de travail."
+    },
+    {
+      "word_id": "v17_2",
+      "term": "Xaran",
+      "phonetic_api": "/xaraⁿ/",
+      "phonetic_simple": "KHA-RAN",
+      "translation": "Étudier / Lire / Apprendre",
+      "example_sentence": "Xaranmudié na masɛbɛ xaranfe.",
+      "example_phonetic": "/xaraⁿmudiɛ na masɛbɛ xaraⁿfɛ/",
+      "example_translation": "Les étudiants sont en train d'étudier l'alphabet."
+    },
+    {
+      "word_id": "v17_3",
+      "term": "Ɲɛndɛ",
+      "phonetic_api": "/ɲɛⁿdɛ/",
+      "phonetic_simple": "NYÈN-DÈ",
+      "translation": "Organiser / Arranger / Planifier",
+      "example_sentence": "A wasaxi won bɛ won ma wali ɲɛndɛ.",
+      "example_phonetic": "/a wasaxi woⁿ bɛ woⁿ ma wali ɲɛⁿdɛ/",
+      "example_translation": "Il nous faut planifier notre travail."
+    },
+    {
+      "word_id": "v17_4",
+      "term": "Malanyi",
+      "phonetic_api": "/malaɲi/",
+      "phonetic_simple": "MA-LAN-YI",
+      "translation": "Réunion / Rassemblement / Assemblée professionnelle",
+      "example_sentence": "Malanyi na ki to ma ma ségé.",
+      "example_phonetic": "/malaɲi na ki to ma ma seɡe/",
+      "example_translation": "Il y a une réunion ce matin."
+    },
+    {
+      "word_id": "v17_5",
+      "term": "Baté",
+      "phonetic_api": "/baté/",
+      "phonetic_simple": "BA-TÉ",
+      "translation": "Bureau / Table de travail / Tableau",
+      "example_sentence": "N ma masɛbɛé na baté ma.",
+      "example_phonetic": "/n ma masɛbɛe na baté ma/",
+      "example_translation": "Mes documents sont sur le bureau."
+    },
+    {
+      "word_id": "v17_6",
+      "term": "Loxi birin",
+      "phonetic_api": "/loxi biriⁿ/",
+      "phonetic_simple": "LO-KHI BI-RIN",
+      "translation": "Chaque jour / Quotidiennement",
+      "example_sentence": "N sigama xaran yire ma loxi birin.",
+      "example_phonetic": "/n siɡama xaraⁿ yirɛ ma loxi biriⁿ/",
+      "example_translation": "Je vais à l'école chaque jour."
+    },
+    {
+      "word_id": "v17_7",
+      "term": "Karamoxo",
+      "phonetic_api": "/karamoxo/",
+      "phonetic_simple": "KA-RA-MO-KHO",
+      "translation": "Directeur / Patron / Enseignant / Maître",
+      "example_sentence": "Won ma karamoxo fama ki.",
+      "example_phonetic": "/woⁿ ma karamoxo fama ki/",
+      "example_translation": "Notre directeur arrive maintenant."
+    },
+    {
+      "word_id": "v17_8",
+      "term": "Gbe",
+      "phonetic_api": "/ɡbɛ/",
+      "phonetic_simple": "GBÈ",
+      "translation": "Beaucoup / Intense (charge de travail)",
+      "example_sentence": "Wali gbe na n ma to.",
+      "example_phonetic": "/ɡbɛ na n ma to/",
+      "example_translation": "J'ai beaucoup de travail aujourd'hui."
+    },
+    {
+      "word_id": "v17_9",
+      "term": "Gbeengbe",
+      "phonetic_api": "/ɡbeːnɡbɛ/",
+      "phonetic_simple": "GBÉÉN-GBÈ",
+      "translation": "Important / Principal",
+      "example_sentence": "Fe gbeengbe nan na ra.",
+      "example_phonetic": "/fɛ ɡbeːnɡbɛ naⁿ na ra/",
+      "example_translation": "C'est une affaire importante."
+    },
+    {
+      "word_id": "v17_10",
+      "term": "Gba",
+      "phonetic_api": "/ɡba/",
+      "phonetic_simple": "GBA",
+      "translation": "Clôturer / Terminer / Finir (une journée)",
+      "example_sentence": "Won fama wali gbafe léri suli ma.",
+      "example_phonetic": "/woⁿ fama wali ɡbafɛ leri suli ma/",
+      "example_translation": "Nous allons finir le travail à cinq heures."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p17_1",
+      "original": "Munse findi i ma wali ra loxi birin ?",
+      "phonetic_api": "/muⁿsɛ fiⁿdi i ma wali ra loxi biriⁿ/",
+      "phonetic_simple": "MOUN-SÈ FIN-DI I MA WA-LI RA LO-KHI BI-RIN ?",
+      "translation": "Quel est ton travail au quotidien ?",
+      "context": "Interroger un professionnel sur sa routine et ses missions."
+    },
+    {
+      "phrase_id": "p17_2",
+      "original": "N na n ma wali ɲɛndɛfe ségé birin ma.",
+      "phonetic_api": "/n na n ma wali ɲɛndɛfɛ seɡe biriⁿ ma/",
+      "phonetic_simple": "N NA N MA WA-LI NYÈN-DÈ-FÈ SÉ-GUÉ BI-RIN MA",
+      "translation": "J'organise mon travail chaque matin.",
+      "context": "Décrire le début de sa routine professionnelle."
+    },
+    {
+      "phrase_id": "p17_3",
+      "original": "Malanyi gbeengbe na ki to ma ma ségé ma.",
+      "phonetic_api": "/malaɲi ɡbeːnɡbɛ na ki to ma ma seɡe ma/",
+      "phonetic_simple": "MA-LAN-YI GBÉÉN-GBÈ NA KI TO MA MA SÉ-GUÉ MA",
+      "translation": "Il y a une réunion importante ce matin.",
+      "context": "Annoncer un événement marquant de la journée de travail."
+    },
+    {
+      "phrase_id": "p17_4",
+      "original": "Wali gbe na n ma baté ma ki.",
+      "phonetic_api": "/wali ɡbɛ na n ma baté ma ki/",
+      "phonetic_simple": "WA-LI GBÈ NA N MA BA-TÉ MA KI",
+      "translation": "J'ai beaucoup de travail sur mon bureau actuellement.",
+      "context": "Exprimer une forte charge de travail à un collègue."
+    },
+    {
+      "phrase_id": "p17_5",
+      "original": "Xaranmudié birin fama xaran yire ma léri fu ma.",
+      "phonetic_api": "/xaraⁿmudiɛ biriⁿ fama xaraⁿ yirɛ ma leri fu ma/",
+      "phonetic_simple": "KHA-RAN-MOU-DIE BI-RIN FA-MA KHA-RAN YI-RÈ MA LÉ-RI FOU MA",
+      "translation": "Tous les étudiants arriveront à l'école à dix heures.",
+      "context": "Évoquer les horaires d'un centre de formation."
+    },
+    {
+      "phrase_id": "p17_6",
+      "original": "Won ma karamoxo wama masɛbɛé matonfe.",
+      "phonetic_api": "/woⁿ ma karamoxo wama masɛbɛe matoⁿfɛ/",
+      "phonetic_simple": "WON MA KA-RA-MO-KHO WA-MA MA-SÈ-BÈÈ MA-TON-FÈ",
+      "translation": "Notre directeur veut réviser les documents.",
+      "context": "Indiquer une directive de la hiérarchie."
+    },
+    {
+      "phrase_id": "p17_7",
+      "original": "A wasaxi won bɛ won na wali gbafe léri suli ma.",
+      "phonetic_api": "/a wasaxi woⁿ bɛ woⁿ na wali ɡbafɛ leri suli ma/",
+      "phonetic_simple": "A WA-SA-KHI WON BÈ WON NA WA-LI GBA-FÈ LÉ-RI SOU-LI MA",
+      "translation": "Il nous faut clôturer le travail à dix-sept heures (cinq heures).",
+      "context": "Annoncer l'heure de fin de la routine de bureau."
+    },
+    {
+      "phrase_id": "p17_8",
+      "original": "N na sewafe n ma wali ra fe birin ra.",
+      "phonetic_api": "/n na sewafɛ n ma wali ra fɛ biriⁿ ra/",
+      "phonetic_simple": "N NA SÉ-WA-FÈ N MA WA-LI RA FÈ BI-RIN RA",
+      "translation": "Je suis heureux dans mon travail pour toutes ces raisons.",
+      "context": "Exprimer sa satisfaction professionnelle."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la récurrence temporelle avec 'loxi birin'",
+      "explanation": "Pour exprimer la routine, l'habitude ou une action qui se répète quotidiennement, on place le syntagme temporel invariable 'loxi birin' (chaque jour / tous les jours) en fin ou en amorce de proposition.",
+      "rules": [
+        "Le bloc 'loxi birin' qualifie l'ensemble de la phrase habituelle.",
+        "Le verbe principal reste au temps de l'habitude ou du présent."
+      ],
+      "examples": [
+        {
+          "structure": "N + sigama + wali + ma + loxi birin",
+          "phonetic_api": "/n siɡama wali ma loxi biriⁿ/",
+          "meaning": "Je vais au travail chaque jour."
+        }
+      ]
+    },
+    {
+      "concept": "La quantification de la charge avec 'gbe na... ma'",
+      "explanation": "Pour exprimer qu'on a 'beaucoup' de tâches à accomplir, la grammaire intermédiaire utilise le quantificateur d'intensité 'gbe' (beaucoup / grand) combiné à la structure de possession physique 'na... ma' (être sur moi).",
+      "rules": [
+        "Structure : Wali (Travail) + gbe + na + [Pronom possessif] + ma.",
+        "Cette tournure implique que la charge de travail pèse physiquement sur le sujet."
+      ],
+      "examples": [
+        {
+          "structure": "Wali + gbe + na + n + ma",
+          "phonetic_api": "/wali ɡbɛ na n ma/",
+          "meaning": "J'ai beaucoup de travail (litt. Du grand travail est sur moi)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Moussa",
+      "text": "Marie, i kéna ! Munse findi i ma wali ra ki to ma ?",
+      "phonetic_api": "/mari i kéna muⁿsɛ fiⁿdi i ma wali ra ki to ma/",
+      "phonetic_simple": "MA-RI, I KÉ-NA ! MOUN-SÈ FIN-DI I MA WA-LI RA KI TO MA ?",
+      "translation": "Marie, salut ! Quelle est ta routine de travail aujourd'hui ?"
+    },
+    {
+      "speaker": "Marie",
+      "text": "I kéna Moussa. Loxi birin, n na n ma wali ɲɛndɛfe ségé ma baté ma. Wali gbe na n ma to.",
+      "phonetic_api": "/i kéna musa loxi biriⁿ n na n ma wali ɲɛndɛfɛ seɡe ma baté ma wali ɡbɛ na n ma to/",
+      "phonetic_simple": "I KÉ-NA MOUS-SA. LO-KHI BI-RIN, N NA N MA WA-LI NYÈN-DÈ-FÈ SÉ-GUÉ MA BA-TÉ MA. WA-LI GBÈ NA N MA TO.",
+      "translation": "Salut Moussa. Chaque jour, j'organise mon travail le matin au bureau. J'ai beaucoup de travail aujourd'hui."
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Malanyi gbeengbe na i xon to ma ?",
+      "phonetic_api": "/malaɲi ɡbeːnɡbɛ na i xoⁿ to ma/",
+      "phonetic_simple": "MA-LAN-YI GBÉÉN-GBÈ NA I KHON TO MA ?",
+      "translation": "As-tu une réunion importante aujourd'hui ?"
+    },
+    {
+      "speaker": "Marie",
+      "text": "Iyo. Won ma karamoxo wama masɛbɛé birin matonfe léri fu ma. Won fama wali gbafe babilong.",
+      "phonetic_api": "/iyo woⁿ ma karamoxo wama masɛbɛe biriⁿ matoⁿfɛ leri fu ma woⁿ fama wali ɡbafɛ babiloⁿ/",
+      "phonetic_simple": "I-YO. WON MA KA-RA-MO-KHO WA-MA MA-SÈ-BÈÈ BI-RIN MA-TON-FÈ LÉ-RI FOU MA. WON FA-MA WA-LI GBA-FÈ BA-BI-LONG.",
+      "translation": "Oui. Notre directeur veut réviser tous les documents à dix heures. Nous allons clôturer le travail plus tard."
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Nba, n fama i malife na fe ra. Wali fanyi ra, Marie !",
+      "phonetic_api": "/ⁿba n fama i malifɛ na fɛ ra wali faɲi ra mari/",
+      "phonetic_simple": "N-BA, N FA-MA I MA-LI-FÈ NA FÈ RA. WA-LI FAN-YI RA, MA-RI !",
+      "translation": "D'accord, je viendrai t'aider pour cela. Bon travail, Marie !"
+    }
+  ],
+  "cultural_notes": [
+    "En Guinée, le milieu professionnel et académique accorde une place centrale aux salutations rituelles du matin avant toute entame de réunion ('malanyi'). Même face à une lourde charge de travail ('wali gbe'), s'enquérir de la routine et de l'organisation de ses collègues est un impératif de solidarité. Le 'karamoxo' (directeur ou tuteur) supervise les tâches dans un esprit de concertation collective."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex17_1",
+      "type": "multiple_choice",
+      "question": "Quelle expression utilisez-vous pour traduire de façon routinière 'chaque jour' ?",
+      "options": [
+        "Xoro ségé",
+        "Loxi birin",
+        "Babilong ma"
+      ],
+      "correct_answer": "Loxi birin",
+      "explanation": "'Loxi birin' signifie littéralement 'jour tout', soit chaque jour / quotidiennement."
+    },
+    {
+      "exercise_id": "ex17_2",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'Malanyi' dans le cadre professionnel ?",
+      "options": [
+        "Un outil",
+        "Un document écrit",
+        "Une réunion / un rassemblement"
+      ],
+      "correct_answer": "Une réunion / un rassemblement",
+      "explanation": "'Malanyi' dérive du verbe se rassembler et désigne une réunion de travail."
+    },
+    {
+      "exercise_id": "ex17_3",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Wali gbe na n ma [ ___ ] ma ki. (J'ai du travail sur mon bureau...)",
+      "correct_answer": "baté",
+      "hint": "Ce mot désigne la table de bureau ou le support de travail."
+    },
+    {
+      "exercise_id": "ex17_4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A wasaxi won bɛ won ma wali [ ___ ]. (Il nous faut organiser notre travail.)",
+      "correct_answer": "ɲɛndɛ",
+      "hint": "Ce verbe signifie planifier, arranger ou organiser."
+    }
+  ]
+}

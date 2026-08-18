@@ -1,0 +1,126 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter de 1 à 10 de manière fluide",
+    "Comprendre la structure quinaire (base 5) du système numérique",
+    "Énumérer des objets du quotidien"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'p' en position finale de mot (comme dans taspand) doit être relâchée proprement sans explosion excessive.",
+    "common_pitfalls": "Ne pas omettre l'élément de liaison syllabique quand on passe de la base 5 aux unités suivantes."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v5_1",
+      "term": "taspand",
+      "phonetic_api": "/tas.pand/",
+      "phonetic_simple": "TAS-PAND",
+      "translation": "un",
+      "example_sentence": "wuto taspand",
+      "example_phonetic": "/wu.to tas.pand/",
+      "example_translation": "Un enfant."
+    },
+    {
+      "word_id": "v5_2",
+      "term": "mɛrən",
+      "phonetic_api": "/mɛ.rən/",
+      "phonetic_simple": "MÈ-REN",
+      "translation": "deux",
+      "example_sentence": "wuto mɛrən",
+      "example_phonetic": "/wu.to mɛ.rən/",
+      "example_translation": "Deux enfants."
+    },
+    {
+      "word_id": "v5_3",
+      "term": "tsaat",
+      "phonetic_api": "/t͡saːt/",
+      "phonetic_simple": "TSAAT",
+      "translation": "trois",
+      "example_sentence": "ɛpɛ tsaat",
+      "example_phonetic": "/ɛ.pɛ t͡saːt/",
+      "example_translation": "Trois couteaux."
+    },
+    {
+      "word_id": "v5_4",
+      "term": "mankana",
+      "phonetic_api": "/man.ka.na/",
+      "phonetic_simple": "MAN-KA-NA",
+      "translation": "cinq",
+      "example_sentence": "ɛpɛ mankana",
+      "example_phonetic": "/ɛ.pɛ man.ka.na/",
+      "example_translation": "Cinq couteaux."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p5_1",
+      "original": "wuto mɛrən mɔ lɔndɔ",
+      "phonetic_api": "/wu.to mɛ.rən mɔ lɔn.dɔ/",
+      "phonetic_simple": "WOU-TO MÈ-REN MO LON-DO",
+      "translation": "Deux enfants sont ici",
+      "context": "Dénombrer la présence de personnes."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La syntaxe de la quantification",
+      "explanation": "En landouma, les adjectifs numéraux se placent toujours immédiatement après le substantif qu'ils qualifient. Ils ne prennent pas de marqueur de pluriel supplémentaire car le nombre est explicitement porté par le chiffre.",
+      "rules": [
+        "Ordre strict : Nom + Chiffre.",
+        "Aucun changement morphologique du nom devant le chiffre de 1 à 5."
+      ],
+      "examples": [
+        {
+          "structure": "Nom + mɛrən",
+          "phonetic_api": "/baba mɛ.rən/",
+          "meaning": "Deux pères"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'acheteur",
+      "text": "mbi dɛp ɛpɛ mɛrən.",
+      "phonetic_api": "/mbi dɛp ɛ.pɛ mɛ.rən/",
+      "phonetic_simple": "MBI DÈP È-PÈ MÈ-REN",
+      "translation": "Je prends deux couteaux."
+    },
+    {
+      "speaker": "Le vendeur",
+      "text": "yoo, ɛpɛ mɛrən mɔ lɔndɔ.",
+      "phonetic_api": "/joː ɛ.pɛ mɛ.rən mɔ lɔn.dɔ/",
+      "phonetic_simple": "YOO È-PÈ MÈ-REN MO LON-DO",
+      "translation": "D'accord, les deux couteaux sont ici."
+    }
+  ],
+  "cultural_notes": [
+    "Le système de comptage landouma traditionnel repose historiquement sur l'usage des cinq doigts de la main (base quinaire), se combinant ensuite pour former les nombres supérieurs à Impression."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex5_1",
+      "type": "multiple_choice",
+      "question": "Quel chiffre correspond au mot 'mankana' ?",
+      "options": [
+        "Deux",
+        "Trois",
+        "Cinq"
+      ],
+      "correct_answer": "Cinq",
+      "explanation": "'mankana' désigne la quantité fermée de cinq."
+    },
+    {
+      "exercise_id": "ex5_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "wuto [ ___ ] (Un enfant)",
+      "correct_answer": "taspand",
+      "hint": "Le chiffre un en landouma."
+    }
+  ]
+}

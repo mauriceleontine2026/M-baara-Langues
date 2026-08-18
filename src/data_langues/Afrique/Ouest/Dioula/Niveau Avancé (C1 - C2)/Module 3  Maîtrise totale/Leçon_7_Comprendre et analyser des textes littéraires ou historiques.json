@@ -1,0 +1,293 @@
+{
+  "lesson_id": "C1_M3_L7",
+  "level": "Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 7,
+  "title": "Analyser des textes littéraires ou historiques",
+  "learning_objectives": [
+    "Décoder la structure narrative et stylistique des récits historiques (tariku)",
+    "Analyser les figures de style et les métaphores dans la poésie et les chants épiques",
+    "Identifier les archaïsmes et les structures grammaticales anciennes du registre littéraire",
+    "Formuler une critique textuelle et une exégèse fluide en bambara soutenu"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le terme désignant le récit historique 'tariku' exige une articulation nette de la consonne occlusive sourde /k/ en position finale. L'expression de la transmission orale 'bangebaga-kuma' demande une transition fluide et sans coupure glottale sur la nasale /ŋ.ɡ/. Le concept de vérité textuelle 'ji saniya-ba' doit conserver une intonation stable sur l'adjectif.",
+    "common_pitfalls": "Attention à ne pas assimiler le mot 'tariku' (histoire/chronique) au mot courant 'ko-kɔrɔ'. Évitez de raccourcir la voyelle longue du radical 'lajɛ' /la.d͡ʒɛ/ lors des lectures critiques rapides."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Tariku",
+      "phonetic_api": "/ta.ri.ku/",
+      "phonetic_simple": "TA-RI-KOU",
+      "translation": "La chronique historique / Le texte patrimonial / Le récit des origines",
+      "example_sentence": "An bɛna tariku kuluwa-jɛrɛ yɛlɛma kalo nin kɔnɔ walasa ka bɛn sɔrɔ",
+      "example_phonetic": "/an bɛ.na ta.ri.ku ku.lu.wa d͡ʒɛ.rɛ jɛ.lɛ.ma ka.lo niⁿ kɔ.nɔ wa.la.sa ka bɛⁿ sɔ.gɔ/",
+      "example_translation": "Nous allons réexaminer l'axe central de la chronique historique ce mois-ci afin de trouver un accord."
+    },
+    {
+      "word_id": "v2",
+      "term": "Bangebaga-kuma",
+      "phonetic_api": "/baⁿ.ɡe.ba.ɡa ku.ma/",
+      "phonetic_simple": "BAN-GUÉ-BA-GA-KOU-MA",
+      "translation": "La parole des anciens / Le récit ancestral / Le témoignage des géniteurs",
+      "example_sentence": "Tariku kura nin b'a yira ko bangebaga-kuma ka bon kosɛbɛ an fɛ",
+      "example_phonetic": "/ta.ri.ku ku.ra niⁿ bʼa ji.ra ko baⁿ.ɡe.ba.ɡa ku.ma ka boⁿ ko.sɛ.bɛ an fɛ/",
+      "example_translation": "Ce nouveau texte historique montre que le récit ancestral a une importance capitale pour nous."
+    },
+    {
+      "word_id": "v3",
+      "term": "Siga-wolo-ko",
+      "phonetic_api": "/si.ga wo.lo ko/",
+      "phonetic_simple": "SI-GA-WO-LO-KO",
+      "translation": "L'énigme textuelle / Le passage ambigu / Le point d'incertitude littéraire",
+      "example_sentence": "Kalan-den-w bɛ sira-yira ɲini bɛn-ko fɛ sira-wolo-ko nin-w ko fɛ",
+      "example_phonetic": "/ka.lan deⁿ.w bɛ si.ra ji.ra ɲi.ni bɛn ko fɛ si.ga wo.lo ko niⁿ.w ko fɛ/",
+      "example_translation": "Les étudiants cherchent une orientation vers un compromis au sujet de ces passages ambigus."
+    },
+    {
+      "word_id": "v4",
+      "term": "Ji saniya-ba-kuma",
+      "phonetic_api": "/d͡ʒi sa.ni.ja ba ku.ma/",
+      "phonetic_simple": "DJI SA-NI-YA-BA-KOU-MA",
+      "translation": "Le style limpide / L'allégorie pure / La clarté stylistique irréprochable",
+      "example_sentence": "An ka lajɛ-ko kuluwa-jɛrɛ ye ka se sɔrɔ ni ji saniya-ba-kuma ye",
+      "example_phonetic": "/an ka la.d͡ʒɛ ko ku.lu.wa d͡ʒɛ.rɛ d͡ʒɛ ka se sɔ.gɔ ni d͡ʒi sa.ni.ja ba ku.ma d͡ʒɛ/",
+      "example_translation": "L'axe central de notre étude est de réussir grâce à ce style limpide."
+    },
+    {
+      "word_id": "v5",
+      "term": "Wari-tigi-jɛrɛ-tariku",
+      "phonetic_api": "/wa.ri ti.gi d͡ʒɛ.rɛ ta.ri.ku/",
+      "phonetic_simple": "WA-RI-TI-GUI-DJÈ-RÈ-TA-RI-KOU",
+      "translation": "L'histoire des grands mécènes / La chronique des dynasties fortunées",
+      "example_sentence": "Wari-tigi-jɛrɛ-tariku nin bɛ an bɔ hami ni siga-wolo kɔnɔ sisan",
+      "example_phonetic": "/wa.ri ti.gi d͡ʒɛ.rɛ ta.ri.ku niⁿ bɛ an bɔ ha.mi ni si.ga wo.lo kɔ.nɔ si.san/",
+      "example_translation": "Cette chronique des dynasties fortunées nous sort de l'inquiétude et du doute maintenant."
+    },
+    {
+      "word_id": "v6",
+      "term": "Fɛn-w-san-yɔrɔ-kuma",
+      "phonetic_api": "/fɛn.w saⁿ d͡ʒɔ.rɔ ku.ma/",
+      "phonetic_simple": "FÈN-W-SAN-YÕ-RÕ-KOU-MA",
+      "translation": "La métaphore marchande / Le lexique allégorique du troc et du commerce",
+      "example_sentence": "An tɛna fɛn-w-san-yɔrɔ-kuma nin bila gansan kalo-di-sɛbɛn kɔnɔ",
+      "example_phonetic": "/an tɛ.na fɛn.w saⁿ d͡ʒɔ.rɔ ku.ma niⁿ bi.la g͡baⁿ.saⁿ ka.lo di sɛ.bɛn kɔ.nɔ/",
+      "example_translation": "Nous ne laisserons pas de côté cette métaphore marchande dans le calendrier d'analyse."
+    },
+    {
+      "word_id": "v7",
+      "term": "Wari-tɛmɛ-songo-kuma",
+      "phonetic_api": "/wa.ri tɛ.mɛ sɔn.gɔ ku.ma/",
+      "phonetic_simple": "WA-RI-TÈ-MÈ-SÕN-GÕ-KOU-MA",
+      "translation": "L'hyperbole de l'excès / La figure de style de la démesure financière",
+      "example_sentence": "Sotigi ka lajɛ-ko b'a yira ko wari-tɛmɛ-songo-kuma ye gasi ye",
+      "example_phonetic": "/so.ti.gi ka la.d͡ʒɛ ko bʼa ji.ra ko wa.ri tɛ.mɛ sɔn.gɔ ku.ma d͡ʒɛ ga.si d͡ʒɛ/",
+      "example_translation": "L'analyse du maître des lieux montre que l'hyperbole de l'excès constitue une erreur."
+    },
+    {
+      "word_id": "v8",
+      "term": "Siga-tɛ-a-la-tariku",
+      "phonetic_api": "/si.ga tɛ a la ta.ri.ku/",
+      "phonetic_simple": "SI-GA-TÈ-A-LA-TA-RI-KOU",
+      "translation": "La vérité historique incontestable / La chronique avérée / Le document authentique",
+      "example_sentence": "Kuma laban na, siga-tɛ-a-la-tariku bɛ sega-ka-bɔ jɛrɛ lɔ an fɛ",
+      "example_phonetic": "/ku.ma la.baⁿ na si.ga tɛ a la ta.ri.ku bɛ se.ɡa ka bɔ d͡ʒɛ.rɛ lɔ an fɛ/",
+      "example_translation": "En conclusion, la vérité historique incontestable établit notre pleine réussite."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "A kumasɔgɔdiyan na, an ka kan ka tariku kura nin ladi walasa ka bangebaga-kuma jɛrɛ famu kosɛbɛ.",
+      "phonetic_api": "/a ku.ma.sɔ.gɔ.di.jaⁿ na an ka kaⁿ ka ta.ri.ku ku.ra niⁿ la.di wa.la.sa ka baⁿ.ɡe.ba.ɡa ku.ma d͡ʒɛ.rɛ fa.mu ko.sɛ.bɛ/",
+      "phrase_phonetic_simple": "A KOU-MA-SÕ-GÕ-DI-YAN NA, AN KA KAN KA TA-RI-KOU KOU-RA NIN LA-DI WA-LA-SA KA BAN-GUÉ-BA-GA-KOU-MA DJÈ-RÈ FA-MOU KO-SÈ-BÈ",
+      "translation": "Pour entrer au cœur du sujet, nous devons examiner cette nouvelle chronique historique afin de comprendre pleinement le récit ancestral lui-même.",
+      "context": "Introduire une leçon de critique textuelle lors d'un séminaire universitaire."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Ka bɔ wari-tɛmɛ-songo-kuma fɛ kunon, an ka lajɛ-ko yɛlɛmana ni ji saniya-ba-kuma ye walasa ka hami bɛɛ bɔ.",
+      "phonetic_api": "/ka bɔ wa.ri tɛ.mɛ sɔn.gɔ ku.ma fɛ ku.noⁿ an ka la.d͡ʒɛ ko jɛ.lɛ.ma.na ni d͡ʒi sa.ni.ja ba ku.ma d͡ʒɛ wa.la.sa ka ha.mi bɛː bɔ/",
+      "phrase_phonetic_simple": "KA BÕ WA-RI-TÈ-MÈ-SÕN-GÕ-KOU-MA FÈ KOU-NON, AN KA LA-DJÈ-KO YÈ-LÈ-MA-NA NI DJI SA-NI-YA-BA-KOU-MA YÈ WA-LA-SA KA HA-MI BÈÈ BÕ",
+      "translation": "En raison de l'hyperbole de l'excès lue hier, notre ordre du jour a été modifié vers un style limpide afin d'éliminer toutes les angoisses.",
+      "context": "Expliquer la rectification d'une interprétation littéraire erronée."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Nka n kɔni fɛ, wari-tigi-jɛrɛ-tariku nin ye nafaba ye, o kɔfɛɲuman an bɛna siga-tɛ-a-la-tariku jɛrɛ sɔrɔ.",
+      "phonetic_api": "/n̩.ka n̩ kɔ.ni fɛ wa.ri ti.gi d͡ʒɛ.rɛ ta.ri.ku niⁿ d͡ʒɛ na.fa.ba d͡ʒɛ o kɔ.fɛ.ɲu.maⁿ an bɛ.na si.ga tɛ a la ta.ri.ku d͡ʒɛ.rɛ sɔ.gɔ/",
+      "phrase_phonetic_simple": "NKA N KÕ-NI FÈ, WA-RI-TI-GUI-DJÈ-RÈ-TA-RI-KOU NIN YÈ NA-FA-BA YÈ, O KÕ-FÈ-GNI-MAN AN BÈ-NA SI-GA-TÈ-A-LA-TA-RI-KOU DJÈ-RÈ SÕ-RÕ",
+      "translation": "Toutefois en ce qui me concerne, cette chronique des dynasties fortunées est d'un intérêt capital ; par voie de conséquence, nous obtiendrons la vérité historique incontestable elle-même.",
+      "context": "Défendre l'authenticité d'un manuscrit ancien devant un comité d'experts."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Hali n'a bɛ rɔ, ni an mana kalo-di-sɛbɛn baton, an tɛna fɛn-w-san-yɔrɔ-kuma nin kɛ ni siga-wolo-ko ye.",
+      "phonetic_api": "/ha.li nʼa bɛ rɔ ni an ma.na ka.lo di sɛ.bɛn ba.toⁿ an tɛ.na fɛn.w saⁿ d͡ʒɔ.rɔ ku.ma niⁿ kɛ ni si.ga wo.lo ko d͡ʒɛ/",
+      "phrase_phonetic_simple": "HA-LI NA BÈ RÕ, NI AN MA-NA KA-LO-DI-SÈ-BÈN BA-TON, AN TÈ-NA FÈN-W-SAN-YÕ-RÕ-KOU-MA NIN KÈ NI SI-GA-WO-LO-KO YÈ",
+      "translation": "Quand bien même il en serait ainsi, dès lors que nous suivrons notre calendrier officiel, nous ne transformerons pas cette métaphore marchande en énigme textuelle.",
+      "context": "Donner des repères méthodologiques pour l'exégèse d'une épopée."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "O jɛrɛ kama, tariku kuluwa-jɛrɛ ka kan ka lakana walasa ka sega-ka-bɔ jɛrɛ sɔrɔ kalo natɔ la.",
+      "phonetic_api": "/o d͡ʒɛ.rɛ ka.ma ta.ri.ku ku.lu.wa d͡ʒɛ.rɛ ka kaⁿ ka la.ka.na wa.la.sa ka se.ɡa ka bɔ d͡ʒɛ.rɛ sɔ.gɔ ka.lo na.tɔ la/",
+      "phrase_phonetic_simple": "O DJÈ-RÈ KA-MA, TA-RI-KOU KOU-LOU-WA-DJÈ-RÈ KA KAN KA LA-KA-NA WA-LA-SA KA SÉ-GA-KA-BÕ DJÈ-RÈ SÕ-RÕ KA-LO NA-TÕ LA",
+      "translation": "C'est précisément pour cette raison que la charte fondamentale du texte patrimonial doit être préservée afin d'obtenir un dénouement victorieux le mois prochain.",
+      "context": "Valider le plan d'analyse d'un document d'archive."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Ni i mana i ka jija-kan fɔ kalan-den-w ma, siga-wolo-ko bɛɛ bɛna ban siga si tɛ a la.",
+      "phonetic_api": "/ni i ma.na i ka d͡ʒi.d͡ʒa kaⁿ fɔ ka.lan deⁿ.w ma si.ga wo.lo ko bɛː bɛ.na baⁿ si.ga si tɛ a la/",
+      "phrase_phonetic_simple": "NI I MA-NA I KA DJI-DJA-KAN FÕ KA-LAN-DEN-W MA, SI-GA-WO-LO-KO BÈÈ BÈ-NA BAN SI-GA SI TÈ A LA",
+      "translation": "Dès que tu auras exposé ta plaidoirie aux étudiants, toutes les énigmes textuelles prendront fin, aucun doute là-dessus.",
+      "context": "Guider un enseignant dans la résolution des ambiguïtés d'un poème archaïque."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "O tɛmɛnen kɔfɛ, ni sotigi mana bɛn-ko kura sara, an bɛna sira-yira sɔgɔ-ɲuman sɔrɔ baara-yɔrɔ la.",
+      "phonetic_api": "/o tɛ.mɛ.neⁿ kɔ.fɛ ni so.ti.gi ma.na bɛn ko ku.ra sa.ra an bɛ.na si.ra ji.ra sɔ.gɔ ɲu.maⁿ sɔ.gɔ baː.ra jɔ.rɔ la/",
+      "phrase_phonetic_simple": "O TÈ-MÈ-NEN KÕ-FÈ, NI SOU-TI-GI MA-NA BEN-KO KOU-RA SA-RA, AN BÈ-NA SI-RA-YI-RA SÕ-GÕ-GNU-MAN SÕ-RÕ BAA-RA-YÕ-RÕ LA",
+      "translation": "En outre, dès lors que le maître des lieux aura validé ce nouveau compromis, nous obtiendrons une excellente orientation au bureau d'étude.",
+      "context": "Lier l'accord des gardiens du patrimoine à la qualité de la recherche historique."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Kuma laban na, Ala ka an dusu-kun-jɛ bonya ni tariku nin ye walasa ka lajɛ-ko bɛɛ ka diya !",
+      "phonetic_api": "/ku.ma la.baⁿ na a.la ka an du.su kuⁿ d͡ʒɛ boⁿ.ja ni ta.ri.ku niⁿ d͡ʒɛ wa.la.sa ka la.d͡ʒɛ ko bɛː ka di.ja/",
+      "phrase_phonetic_simple": "KOU-MA LA-BAN NA, A-LA KA AN DOU-SOU-KOUN-DJÈ BON-YA NI TA-RI-KOU NIN YÈ WA-LA-SA KA LA-DJÈ-KO BÈÈ KA DI-YA !",
+      "translation": "En conclusion, que Dieu fortifie notre satisfaction morale grâce à ce texte patrimonial afin que l'ensemble de notre étude soit couronné de succès !",
+      "context": "Formuler une bénédiction solennelle lors de la clôture d'un colloque d'histoire."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'emprunt historiographique nominalisé : 'Tariku'",
+      "explanation": "Pour désigner un texte d'archive, une chronique royale ou un récit fondateur officiel, le registre de la haute critique littéraire adopte le terme 'tariku' (dérivé de la racine historique arabo-berbère). Au niveau C1, il remplace le mot vulgaire 'maana' (histoire/conte) pour affirmer le statut documentaire et scientifique de l'écrit.",
+      "rules": [
+        "Se comporte comme un substantif invariable régissant les adjectifs de qualification de l'authenticité."
+      ],
+      "examples": [
+        {
+          "structure": "Tariku + kuluwa-jɛrɛ",
+          "phonetic_api": "/ta.ri.ku ku.lu.wa d͡ʒɛ.rɛ/",
+          "meaning": "L'axe central / La charte fondamentale du récit historique."
+        }
+      ]
+    },
+    {
+      "concept": "Le composé exégétique de filiation : 'Bangebaga-kuma'",
+      "explanation": "Pour analyser les citations de personnages historiques ou les transmissions orales sacrées reçues des ancêtres sans altération, la critique littéraire utilise le mot composé complexe 'bangebaga-kuma' (le discours des géniteurs). Ce terme confère une autorité irrévocable au texte étudié.",
+      "rules": [
+        "Se place en position de complément ou de sujet pour désigner la source sacrée d'un témoignage."
+      ],
+      "examples": [
+        {
+          "structure": "Famu + ni + bangebaga-kuma + ye",
+          "phonetic_api": "/baⁿ.ɡe.ba.ɡa ku.ma d͡ʒɛ/",
+          "meaning": "Analyser et assimiler par le prisme du témoignage ancestral authentique."
+        }
+      ]
+    },
+    {
+      "concept": "La formulation de la complétive d'évidence herméneutique : '... b'a yira ko ... ye gasi ye'",
+      "explanation": "Dans l'argumentation d'une critique textuelle, pour démontrer qu'un contresens ou une figure de style mal interprétée détruit la cohérence d'un manuscrit, on utilise le schéma syntaxique de la dénonciation de l'erreur : l'introducteur de démonstration suivi du verdict d'aberration ('ye gasi ye').",
+      "rules": [
+        "Le sujet de 'b'a yira ko' est l'élément textuel analysé, la subordonnée pose l'erreur de interprétation."
+      ],
+      "examples": [
+        {
+          "structure": "Lajɛ-ko + b'a yira ko + [Expression] + ye gasi ye",
+          "phonetic_api": "/bʼa ji.ra ko ... d͡ʒɛ ga.si d͡ʒɛ/",
+          "meaning": "L'analyse démontre rigoureusement que cette figure stylistique constitue un contresens."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ousmane (Le jeune chercheur en histoire)",
+      "text": "I ni ce, n fa Alassane. A kumasɔgɔdiyan na, n bɛ sira-yira sɔgɔ-ɲuman ɲini i fɛ tariku kura nin ko fɛ. Kalan-den-w bɛ siga-wolo-ko caman sɔrɔ bangebaga-kuma kɔnɔ.",
+      "phonetic_api": "/i ni t͡ʃe n̩ fa a.la.saⁿ a ku.ma.sɔ.gɔ.di.jaⁿ na n̩ bɛ si.ra ji.ra sɔ.gɔ ɲu.maⁿ ɲi.ni i fɛ ta.ri.ku ku.ra niⁿ ko fɛ ka.lan deⁿ.w bɛ si.ga wo.lo ko t͡ʃa.maⁿ sɔ.gɔ baⁿ.ɡe.ba.ɡa ku.ma kɔ.nɔ/",
+      "phrase_phonetic_simple": "I NI TCHE, N FA A-LA-SANE. A KOU-MA-SÕ-GÕ-DI-YAN NA, N BÈ SI-RA-YI-RA SÕ-GÕ-GNU-MAN GNI-NI I FÈ TA-RI-KOU KOU-RA NIN KO FÈ. KA-LAN-DEN-W BÈ SI-GA-WO-LO-KO TCHA-MAN SÕ-RÕ BAN-GUÉ-BA-GA-KOU-MA KÕ-NÕ.",
+      "translation": "Bonjour, maître Alassane. Pour entrer au cœur du sujet, je sollicite une excellente orientation de ta part concernant ce nouveau texte patrimonial. Les étudiants butent sur de nombreuses énigmes textuelles au sein du récit ancestral."
+    },
+    {
+      "speaker": "Alassane (Le professeur d'exégèse littéraire)",
+      "text": "I ni ce, Ousmane. Hami tɛ ! An bɛna tariku kuluwa-jɛrɛ labɛn ni ji saniya-ba-kuma ye. Ni an mana bɛn-ko jija sisan, siga-wolo-ko bɛɛ bɛna ban, siga si tɛ a la.",
+      "phonetic_api": "/i ni t͡ʃe u.sma.ne ha.mi tɛ an bɛ.na ta.ri.ku ku.lu.wa d͡ʒɛ.rɛ la.bɛn ni d͡ʒi sa.ni.ja ba ku.ma d͡ʒɛ ni an ma.na bɛn ko d͡ʒi.d͡ʒa si.san si.ga wo.lo ko bɛː bɛ.na baⁿ si.ga si tɛ a la/",
+      "phrase_phonetic_simple": "I NI TCHE, OUS-MANE. HA-MI TÈ ! AN BÈ-NA TA-RI-KOU KOU-LOU-WA-DJÈ-RÈ LA-BEN NI DJI SA-NI-YA-BA-KOU-MA YÈ. NI AN MA-NA BEN-KO DJI-DJA SI-SAN, SI-GA-WO-LO-KO BÈÈ BÈ-NA BAN, SI-GA SI TÈ A LA.",
+      "translation": "Bonjour, Ousmane. Point d'inquiétude ! Nous allons rétablir l'axe central de la chronique grâce à un style limpide. Dès que nous consoliderons notre méthode de conciliation aujourd'hui, toutes les ambiguïtés s'évanouiront, aucun doute là-dessus."
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Nka n fa, ka bɔ wari-tɛmɛ-songo-kuma ko fɛ kunon, sotigi bɛ siga-wolo kɔnɔ sisan. A m'a sɔn ka wari-tigi-jɛrɛ-tariku nin bila kalo-di-sɛbɛn kɔnɔ.",
+      "phonetic_api": "/n̩.ka n̩ fa ka bɔ wa.ri tɛ.mɛ sɔn.gɔ ku.ma ko fɛ ku.noⁿ so.ti.gi bɛ si.ga wo.lo kɔ.nɔ si.san a mʼa sɔⁿ ka wa.ri ti.gi d͡ʒɛ.rɛ ta.ri.ku niⁿ bi.la ka.lo di sɛ.bɛn kɔ.nɔ/",
+      "phrase_phonetic_simple": "NKA N FA, KA BÕ WA-RI-TÈ-MÈ-SÕN-GÕ-KOU-MA KO FÈ KOU-NON, SOU-TI-GI BÈ SI-GA-WO-LO KÕ-NÕ SI-SAN. A MA O SÕN KA WA-RI-TI-GUI-DJÈ-RÈ-TA-RI-KOU NIN BI-LA KA-LO-DI-SÈ-BÈN KÕ-NÕ.",
+      "translation": "Mais mon maître, en raison de l'hyperbole de l'excès lue hier, le gardien des lieux est plongé dans une incertitude profonde actuellement. Il a refusé d'inscrire cette chronique des dynasties fortunées dans le calendrier officiel d'analyse."
+    },
+    {
+      "speaker": "Alassane",
+      "text": "Hali n'a bɛ rɔ, ni i mana jija-kan sɔgɔ-ɲuman fɔ a ma, a bɛna a lɔn ko lajɛ-ko nin ye nafaba ye. O jɛrɛ kama, an ka kan ka fɛn-w-san-yɔrɔ-kuma nin lani sisan.",
+      "phonetic_api": "/ha.li nʼa bɛ rɔ ni i ma.na d͡ʒi.d͡ʒa kaⁿ sɔ.gɔ ɲu.maⁿ fɔ a ma a bɛ.na a lɔⁿ ko la.d͡ʒɛ ko niⁿ d͡ʒɛ na.fa.ba d͡ʒɛ o d͡ʒɛ.rɛ ka.ma an ka kaⁿ ka fɛn.w saⁿ d͡ʒɔ.rɔ ku.ma niⁿ la.ni si.san/",
+      "phrase_phonetic_simple": "HA-LI NA BÈ RÕ, NI I MA-NA DJI-DJA-KAN SÕ-GÕ-GNU-MAN FÕ A MA, A BÈ-NA A LÕN KO LA-DJÈ-KO NIN YÈ NA-FA-BA YÈ. O DJÈ-RÈ KA-MA, AN KA KAN KA FÈN-W-SAN-YÕ-RÕ-KOU-MA NIN LA-NI SI-SAN.",
+      "translation": "Quand bien même il en serait ainsi, dès que tu lui présenteras une excellente plaidoirie, il comprendra que cette étude revêt un intérêt capital. C'est précisément pour cette raison que nous devons stabiliser cette métaphore marchande dès à présent."
+    },
+    {
+      "speaker": "Ousmane",
+      "text": "Siga-tɛ-a-la-tariku ye ! Ni an mana jija, an bɛna sega-ka-bɔ jɛrɛ sɔrɔ kalo natɔ la. Siga-wolo-ko bɛɛ da-gbanna sisan, dusu-kun-jɛ donnan an ma.",
+      "phonetic_api": "/si.ga tɛ a la ta.ri.ku d͡ʒɛ ni an ma.na d͡ʒi.d͡ʒa an bɛ.na se.ɡa ka bɔ d͡ʒɛ.rɛ sɔ.gɔ ka.lo na.tɔ la si.ga wo.lo ko bɛː da g͡baⁿ.na si.san du.su kuⁿ d͡ʒɛ doⁿ.naⁿ an ma/",
+      "phrase_phonetic_simple": "SI-GA-TÈ-A-LA-TA-RI-KOU YÈ ! NI AN MA-NA DJI-DJA, AN BÈ-NA S SÉ-GA-KA-BÕ DJÈ-RÈ SÕ-RÕ KA-LO NA-TÕ LA. SI-GA-WO-LO-KO BÈÈ DA-GBAN-NA SI-SAN, DOU-SOU-KOUN-DJÈ DON-NAN AN MA.",
+      "translation": "C'est une vérité historique incontestable ! Dès lors que nous redoublerons d'effort, nous obtiendrons la réussite elle-même le mois prochain. Toutes les énigmes textuelles sont résolues à présent, la paix intérieure a pénétré en nous."
+    },
+    {
+      "speaker": "Alassane",
+      "text": "Kuma laban na, Ala ka an dusu-kun-jɛ bonya ka an bɔ hami kɔnɔ, walasa an ka tariku nin ka diya kalo o kalo la. K'an bɛn !",
+      "phonetic_api": "/ku.ma la.baⁿ na a.la ka an du.su kuⁿ d͡ʒɛ boⁿ.ja ka an bɔ ha.mi kɔ.nɔ wa.la.sa an ka ta.ri.ku niⁿ ka di.ja ka.lo o ka.lo la kʼan bɛn/",
+      "phrase_phonetic_simple": "KOU-MA LA-BAN NA, A-LA KA AN DOU-SOU-KOUN-DJÈ BON-YA KA AN BÕ HA-MI KÕ-NÕ, WA-LA-SA AN KA TA-RI-KOU NIN KA DI-YA KA-LO O KA-LO LA. KAN BEN !",
+      "translation": "En conclusion, que Dieu fortifie notre satisfaction morale et nous préserve de l'angoisse afin que notre texte historique soit apprécié mois après mois. Au revoir !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'univers intellectuel mandingue, l'analyse des textes littéraires et des récits historiques ('tariku') relève d'une haute tradition herméneutique confiée aux maîtres de la parole ('jeliw') ou aux lettrés ('karamogow'). Les textes ne se lisent pas de façon factuelle : chaque fragment, comme le récit ancestral ('bangebaga-kuma'), renferme des strates de sens cachées qu'il convient de décoder à l'aide d'un style limpide et pur ('ji saniya-ba-kuma').",
+    "La présence de figures stylistiques complexes, telles que l'hyperbole de l'excès ('wari-tɛmɛ-songo-kuma') ou la métaphore marchande ('fɛn-w-san-yɔrɔ-kuma'), sert à masquer des leçons politiques profondes ou des généalogies dynastiques. Parvenir à dissiper l'énigme textuelle ('siga-wolo-ko') permet d'accéder à la vérité historique incontestable ('siga-tɛ-a-la-tariku') et d'asseoir la légitimité éthique de la communauté."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M3_L7_Ex1",
+      "type": "multiple_choice",
+      "question": "Quel concept de haute rhétorique désigne formellement une chronique historique ou un texte patrimonial ancien ?",
+      "options": [
+        "Tariku",
+        "Kalo-di-sɛbɛn",
+        "Wari-tɛmɛ-songo-kuma",
+        "Sigi-wari"
+      ],
+      "correct_answer": "Tariku",
+      "explanation": "'Tariku' est le terme de niveau C1-C2 pour désigner les chroniques et récits historiques officiels, par opposition aux contes ordinaires."
+    },
+    {
+      "exercise_id": "C1_M3_L7_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour définir l'ambiguïté poétique, le flou herméneutique ou une énigme textuelle complexe, on emploie l'expression : 'siga-wolo-[ ___ ]'.",
+      "correct_answer": "ko",
+      "hint": "Substantif générique désignant une affaire, une thématique ou une problématique précise."
+    },
+    {
+      "exercise_id": "C1_M3_L7_Ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie littéralement la métaphore stylistique 'ji saniya-ba-kuma' ?",
+      "options": [
+        "Une lourde amende administrative opaque",
+        "Le style limpide / Une clarté littéraire et allégorique pure (litt. la parole de l'eau très pure)",
+        "Un poème très ennuyeux écrit par les étudiants",
+        "Une contestation publique survenue hier au marché"
+      ],
+      "correct_answer": "Le style limpide / Une clarté littéraire et allégorique pure (litt. la parole de l'eau très pure)",
+      "explanation": "Cette expression transfère la pureté de l'eau ('ji saniya-ba') au domaine discursif pour louer un style littéraire d'une transparence et d'une beauté parfaites."
+    }
+  ]
+}

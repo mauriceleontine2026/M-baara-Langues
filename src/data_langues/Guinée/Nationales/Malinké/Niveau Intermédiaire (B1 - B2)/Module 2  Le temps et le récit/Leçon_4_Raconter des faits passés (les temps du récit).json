@@ -1,0 +1,236 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Employer correctement le suffixe d'accompli intransitif '-ra' / '-na'",
+    "Utiliser l'indice de passé 'tun' / 'tereen' pour les états ou l'imparfait",
+    "Structurer chronologiquement un récit d'événements passés"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le suffixe accompli '-ra' possède un 'r' légèrement tapé avec la pointe de la langue contre le palais, à ne surtout pas grassayer. Devant une racine nasale, ce suffixe s'assimile phonétiquement en '-na' (/na/).",
+    "common_pitfalls": "Veillez à ne pas confondre la marque d'inaccompli 'bɛ' avec la marque de passé progressif 'tun bɛ'. Prononcez distinctement le phonème 'tun' (/tũ/) sans détacher la voyelle nasale."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v4_1",
+      "term": "Kunu",
+      "phonetic_api": "/ku.nu/",
+      "phonetic_simple": "KOU-NOU",
+      "translation": "Hier",
+      "example_sentence": "Kunu n bɔra lɔgɔfe la",
+      "example_phonetic": "/ku.nu n̩ bɔ.ra lɔ.ɡɔ.fe la/",
+      "example_translation": "Hier, je suis allé au marché."
+    },
+    {
+      "word_id": "v4_2",
+      "term": "Sini",
+      "phonetic_api": "/si.ni/",
+      "phonetic_simple": "SI-NI",
+      "translation": "Demain",
+      "example_sentence": "Sini n bɛ ta so la",
+      "example_phonetic": "/si.ni n̩ bɛ ta so la/",
+      "example_translation": "Demain, j'irai à la maison."
+    },
+    {
+      "word_id": "v4_3",
+      "term": "Tun",
+      "phonetic_api": "/tũ/",
+      "phonetic_simple": "TOUN",
+      "translation": "Était / Jadis / Marqueur d'antériorité ou d'imparfait",
+      "example_sentence": "N tun bɛ yan kunu",
+      "example_phonetic": "/n̩ tũ bɛ d͡ʒan ku.nu/",
+      "example_translation": "J'étais ici hier."
+    },
+    {
+      "word_id": "v4_4",
+      "term": "Kofi",
+      "phonetic_api": "/ko.fi/",
+      "phonetic_simple": "KO-FI",
+      "translation": "Après / Ensuite / Plus tard",
+      "example_sentence": "O kofi an bɔra so kɔnɔla",
+      "example_phonetic": "/o ko.fi an bɔ.ra so kɔ.nɔ.la/",
+      "example_translation": "Après cela, nous sommes sortis de la maison."
+    },
+    {
+      "word_id": "v4_5",
+      "term": "Sisan",
+      "phonetic_api": "/si.sã/",
+      "phonetic_simple": "SI-SAN",
+      "translation": "Maintenant / Présentement",
+      "example_sentence": "Sisan n bɛ baara la",
+      "example_phonetic": "/si.sã n̩ bɛ baː.ra la/",
+      "example_translation": "Maintenant, je suis au travail."
+    },
+    {
+      "word_id": "v4_6",
+      "term": "Bɔra",
+      "phonetic_api": "/bɔ.ra/",
+      "phonetic_simple": "BƆ-RA",
+      "translation": "Est sorti / Est venu de (accompli de bɔ)",
+      "example_sentence": "A bɔra so kunu",
+      "example_phonetic": "/a bɔ.ra so ku.nu/",
+      "example_translation": "Il est sorti de la ville hier."
+    },
+    {
+      "word_id": "v4_7",
+      "term": "Tara",
+      "phonetic_api": "/ta.ra/",
+      "phonetic_simple": "TA-RA",
+      "translation": "Est allé / Est parti (accompli de ta)",
+      "example_sentence": "N fa tara Kankan",
+      "example_phonetic": "/n̩ fa ta.ra kan.kan/",
+      "example_translation": "Mon père est parti à Kankan."
+    },
+    {
+      "word_id": "v4_8",
+      "term": "Nana",
+      "phonetic_api": "/na.na/",
+      "phonetic_simple": "NA-NA",
+      "translation": "Est venu / Est arrivé (accompli nasalisé de na)",
+      "example_sentence": "Karamɔgɔ nana yan",
+      "example_phonetic": "/ka.ra.mɔ.ɡɔ na.na d͡ʒan/",
+      "example_translation": "L'enseignant est venu ici."
+    },
+    {
+      "word_id": "v4_9",
+      "term": "Sankolo",
+      "phonetic_api": "/sã.ko.lo/",
+      "phonetic_simple": "SAN-KO-LO",
+      "translation": "L'année dernière",
+      "example_sentence": "Sankolo n tun bɛ Mali la",
+      "example_phonetic": "/sã.ko.lo n̩ tũ bɛ ma.li la/",
+      "example_translation": "L'année dernière, j'étais au Mali."
+    },
+    {
+      "word_id": "v4_10",
+      "term": "Kɛra",
+      "phonetic_api": "/kɛ.ra/",
+      "phonetic_simple": "KƐ-RA",
+      "translation": "S'est produit / Est devenu / S'est fait",
+      "example_sentence": "O kɛra kunu wula la",
+      "example_phonetic": "/o kɛ.ra ku.nu wu.la la/",
+      "example_translation": "Cela s'est produit hier après-midi."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p4_1",
+      "original": "I tara mi la kunu ?",
+      "phonetic_api": "/i ta.ra mi la ku.nu/",
+      "phonetic_simple": "I TA-RA MI LA KOU-NOU ?",
+      "translation": "Où es-tu allé hier ?",
+      "context": "Question classique pour s'informer du déroulement de la journée précédente."
+    },
+    {
+      "phrase_id": "p4_2",
+      "original": "N tun bɛ baara la l leri nani la.",
+      "phonetic_api": "/n̩ tũ bɛ baː.ra la le.ri na.ni la/",
+      "phonetic_simple": "N TOUN BƐ BAA-RA LA LÉ-RI NA-NI LA.",
+      "translation": "J'étais en train de travailler à quatre heures.",
+      "context": "Préciser une action continue ou un état en cours dans le passé."
+    },
+    {
+      "phrase_id": "p4_3",
+      "original": "Mun kɛra so kunu su la ?",
+      "phonetic_api": "/mun kɛ.ra so ku.nu su la/",
+      "phonetic_simple": "MOUN KƐ-RA SO KOU-NOU SOU LA ?",
+      "translation": "Que s'est-il passé à la maison hier soir ?",
+      "context": "Demander le récit d'événements récents."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accompli des verbes intransitifs avec '-ra' / '-na'",
+      "explanation": "En malinké, pour exprimer une action complètement terminée au passé avec un verbe qui n'a pas de complément d'objet direct (intransitif), on ajoute le suffixe '-ra' directement à la racine du verbe.",
+      "rules": [
+        "Si la racine du verbe se termine par une voyelle orale standard : utilisez '-ra' (ex: ta -> tara).",
+        "Si la racine se termine par une voyelle nasale ou une consonne nasale implicite : le suffixe s'assimile et devient '-na' (ex: na -> nana)."
+      ],
+      "examples": [
+        {
+          "structure": "N tara seli la",
+          "phonetic_api": "/n̩ ta.ra se.li la/",
+          "meaning": "Je suis allé à la prière."
+        },
+        {
+          "structure": "A nana yan",
+          "phonetic_api": "/a na.na d͡ʒan/",
+          "meaning": "Il/Elle est venu(e) ici."
+        }
+      ]
+    },
+    {
+      "concept": "L'imparfait et l'antériorité avec 'tun'",
+      "explanation": "Pour exprimer un état passé ou une action continue qui était en train de se dérouler à un moment précis du récit (imparfait français), on insère la particule 'tun' immédiatement avant la marque verbale ou le locatif.",
+      "rules": [
+        "Structure de l'état passé : Sujet + 'tun' + 'bɛ' + Lieu/Situation.",
+        "Structure de l'action continue passée : Sujet + 'tun' + 'bɛ' + Action + 'la'."
+      ],
+      "examples": [
+        {
+          "structure": "N tun bɛ kalanso la",
+          "phonetic_api": "/n̩ tũ bɛ ka.lan.so la/",
+          "meaning": "J'étais à l'école / J'étudiais."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine",
+      "text": "Moussa, i tara mi la kunu sɔgɔma la ? N mu i mɛn la.",
+      "phonetic_api": "/mu.sa i ta.ra mi la ku.nu sɔ.ɡɔ.ma la n̩ mu i mɛn la/",
+      "phonetic_simple": "MOUS-SA, I TA-RA MI LA KOU-NOU SƆ-GƆ-MA LA ? N MOU I MƐN LA.",
+      "translation": "Moussa, où es-tu allé hier matin ? Je ne t'ai pas entendu."
+    },
+    {
+      "speaker": "Moussa",
+      "text": "N tara Conakry soba kɔnɔ kunu. N tun bɛ n mɔgɔba bɔ la.",
+      "phonetic_api": "/n̩ ta.ra ko.na.kri so.ba kɔ.nɔ ku.nu n̩ tũ bɛ n̩ ma.ɡɔ.ba bɔ la/",
+      "phonetic_simple": "N TA-RA CO-NA-KRY SO-BA KƆ-NƆ KOU-NOU. N TOUN BƐ N MƆ-GƆ-BA BƆ LA.",
+      "translation": "Je suis allé dans la grande ville de Conakry hier. J'étais en train de rendre visite à mon grand-parent."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "O, a bɛnna ! I nana so la leri jeli la ?",
+      "phonetic_api": "/o a bɛn.na i na.na so la le.ri d͡ʒe.li la/",
+      "phonetic_simple": "O, A BƐN-NA ! I NA-NA SO LA LÉ-RI DJÉ-LI LA ?",
+      "translation": "Oh, c'est super ! À quelle heure es-tu revenu à la maison ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "N nana so la leri seegin la su la. Tana mu tun na.",
+      "phonetic_api": "/n̩ na.na so la le.ri seː.ɡĩ la su la ta.na mu tũ na/",
+      "phonetic_simple": "N NA-NA SO LA LÉ-RI SÉE-GUIN LA SOU LA. TA-NA MOU TOUN NA.",
+      "translation": "Je suis revenu à la maison à huit heures du soir. Il n'y avait aucun problème."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'art de la parole mandingue, le récit historique ou personnel est traditionnellement rythmé par des connecteurs clairs. Les griots ('jeli lu') utilisent des structures verbales au passé très précises pour retracer les généalogies et les épopées de l'ancien empire sans aucune ambiguïté temporelle."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L4_ex1",
+      "type": "multiple_choice",
+      "question": "Quelle phrase traduit correctement 'Je suis parti hier' ?",
+      "options": [
+        "N bɛ ta kunu",
+        "N tara kunu",
+        "N tun bɛ ta kunu"
+      ],
+      "correct_answer": "N tara kunu",
+      "explanation": "'Tara' est la forme accomplie passée du verbe intransitif 'ta' (aller)."
+    },
+    {
+      "exercise_id": "B1_M2_L4_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Karamɔgɔ [ ___ ] yan kunu (L'enseignant est venu ici hier).",
+      "correct_answer": "nana",
+      "hint": "C'est la forme accomplie du verbe 'na' (venir)."
+    }
+  ]
+}

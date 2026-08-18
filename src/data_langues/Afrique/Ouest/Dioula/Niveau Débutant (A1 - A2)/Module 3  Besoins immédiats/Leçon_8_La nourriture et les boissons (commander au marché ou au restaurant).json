@@ -1,0 +1,295 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché/restaurant)",
+  "learning_objectives": [
+    "Identifier et nommer les aliments de base, les plats courants et les boissons principales",
+    "Formuler une commande ou exprimer un besoin lié à la faim et à la soif",
+    "Négocier et demander le prix des denrées alimentaires",
+    "Utiliser les expressions de politesse et d'appréciation lors d'un repas"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot 'dumuni' (la nourriture / manger) s'articule clairement avec deux voyelles fermées postérieures /u/. Le terme pour l'eau, 'ji', requiert l'articulation de la consonne affriquée palatale sonore /d͡ʒ/ suivie de la voyelle fermée /i/. Le mot 'malo' (le riz) utilise des voyelles fermées. Pour exprimer le goût ou le piment, 'barani' ou 'moko', veillez à respecter le timbre des voyelles ouvertes si le dialecte local l'exige.",
+    "common_pitfalls": "Attention à ne pas prononcer le 'j' de 'ji' (eau) comme le 'j' français de 'jour'. Il se prononce toujours 'dji'. Ne confondez pas non plus le verbe 'min' (boire) avec une nasalisation excessive qui le rapprocherait d'autres radicaux grammaticaux."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Dumuni",
+      "phonetic_api": "/du.mu.ni/",
+      "phonetic_simple": "DOU-MOU-NI",
+      "translation": "La nourriture / Le repas / Manger",
+      "example_sentence": "N bɛ fɛ ka dumuni kɛ",
+      "example_phonetic": "/n̩ bɛ fɛ ka du.mu.ni kɛ/",
+      "example_translation": "Je veux manger / prendre un repas."
+    },
+    {
+      "word_id": "v2",
+      "term": "Ji",
+      "phonetic_api": "/d͡ʒi/",
+      "phonetic_simple": "DJI",
+      "translation": "L'eau / Le liquide",
+      "example_sentence": "Ji min ka kaɲi",
+      "example_phonetic": "/d͡ʒi min ka ka.ɲi/",
+      "example_translation": "Boire de l'eau est une bonne chose."
+    },
+    {
+      "word_id": "v3",
+      "term": "Malo",
+      "phonetic_api": "/ma.lo/",
+      "phonetic_simple": "MA-LO",
+      "translation": "Le riz",
+      "example_sentence": "N bɛ malo kɛnɛma dun la",
+      "example_phonetic": "/n̩ bɛ ma.lo kɛ.nɛ.ma dun la/",
+      "example_translation": "Je mange du riz frais."
+    },
+    {
+      "word_id": "v4",
+      "term": "Tiga",
+      "phonetic_api": "/ti.ɡa/",
+      "phonetic_simple": "TI-GA",
+      "translation": "L'arachide",
+      "example_sentence": "Tigadɛgɛ na ka di",
+      "example_phonetic": "/ti.ɡa.dɛ.ɡɛ na ka di/",
+      "example_translation": "La sauce d'arachide (mafé) est délicieuse."
+    },
+    {
+      "word_id": "v5",
+      "term": "Sogo",
+      "phonetic_api": "/so.ɡo/",
+      "phonetic_simple": "SO-GO",
+      "translation": "La viande",
+      "example_sentence": "N bɛ fɛ ka sogo san sugu la",
+      "example_phonetic": "/n̩ bɛ fɛ ka so.ɡo san su.ɡu la/",
+      "example_translation": "Je veux acheter de la viande au marché."
+    },
+    {
+      "word_id": "v6",
+      "term": "Jɛgɛ",
+      "phonetic_api": "/d͡ʒɛ.ɡɛ/",
+      "phonetic_simple": "DJÈ-GÈ",
+      "translation": "Le poisson",
+      "example_sentence": "Jɛgɛ gban bɛ yan",
+      "example_phonetic": "/d͡ʒɛ.ɡɛ ɡban bɛ jan/",
+      "example_translation": "Il y a du poisson grillé ici."
+    },
+    {
+      "word_id": "v7",
+      "term": "Nɔnɔ",
+      "phonetic_api": "/nɔ.nɔ/",
+      "phonetic_simple": "NÕ-NÕ",
+      "translation": "Le lait",
+      "example_sentence": "I bɛ nɔnɔ fɛ ni sukaro ye ?",
+      "example_phonetic": "/i bɛ nɔ.nɔ fɛ ni su.ka.ro jɛ/",
+      "example_translation": "Tu veux du lait avec du sucre ?"
+    },
+    {
+      "word_id": "v8",
+      "term": "Foronto",
+      "phonetic_api": "/fo.ron.to/",
+      "phonetic_simple": "FO-RON-TO",
+      "translation": "Le piment",
+      "example_sentence": "Foronto tɛ na nin kɔnɔ",
+      "example_phonetic": "/fo.ron.to tɛ na nin kɔ.nɔ/",
+      "example_translation": "Il n'y a pas de piment dans cette sauce."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Kɔngɔ bɛ n na.",
+      "phonetic_api": "/kɔn.ɡɔ bɛ n̩ na/",
+      "phonetic_simple": "KÕN-GÕ BÈ N NA",
+      "translation": "J'ai faim. (Litt. La faim est sur moi.)",
+      "context": "Exprimer un besoin fondamental de nourriture."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Minɔgɔ bɛ n na.",
+      "phonetic_api": "/mi.nɔ.ɡɔ bɛ n̩ na/",
+      "phonetic_simple": "MI-NÕ-GÕ BÈ N NA",
+      "translation": "J'ai soif. (Litt. La soif de boire est sur moi.)",
+      "context": "Exprimer le besoin de boire un liquide."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "N bɛ fɛ ka malo ni jɛgɛ dun.",
+      "phonetic_api": "/n̩ bɛ fɛ ka ma.lo ni d͡ʒɛ.ɡɛ dun/",
+      "phonetic_simple": "N BÈ FÈ KA MA-LO NI DJÈ-GÈ DOUN",
+      "translation": "Je voudrais manger du riz au poisson.",
+      "context": "Passer une commande précise dans un maquis ou au restaurant."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ji sumanin bɛ yan ?",
+      "phonetic_api": "/d͡ʒi su.ma.nin bɛ jan/",
+      "phonetic_simple": "DJI SOU-MA-NIN BÈ YAN ?",
+      "translation": "Y a-t-il de l'eau fraîche ici ?",
+      "context": "Demander une boisson désaltérante fraîche."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Nin sɔngɔ bɛ joli ye ?",
+      "phonetic_api": "/nin sɔn.ɡɔ bɛ d͡ʒo.li jɛ/",
+      "phonetic_simple": "NIN SÕN-GÕ BÈ DJO-LI YÈ ?",
+      "translation": "Quel est le prix de ceci ? / Ça coûte combien ?",
+      "context": "S'enquérir du coût d'un ingrédient au marché."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "A sɔngɔ ka bon, sabari dɔgɔya tɔɔni !",
+      "phonetic_api": "/a sɔn.ɡɔ ka bon sa.ba.ri dɔ.ɡɔ.ja tɔː.ni/",
+      "phonetic_simple": "A SÕN-GÕ KA BON, SA-BA-RI DÕ-GÕ-YA TÕÕ-NI !",
+      "translation": "Le prix est élevé, s'il te plaît diminue un peu !",
+      "context": "Formule typique et polie de négociation marchande."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Dumuni ka di ! I ni ce !",
+      "phonetic_api": "/du.mu.ni ka di i ni t͡ʃe/",
+      "phonetic_simple": "DOU-MOU-NI KA DI ! I NI TCHE !",
+      "translation": "Le repas est délicieux ! Merci à toi !",
+      "context": "Complimenter la cuisinière ou le restaurateur après le repas."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "An ka dumuni kɛ !",
+      "phonetic_api": "/an ka du.mu.ni kɛ/",
+      "phonetic_simple": "AN KA DOU-MOU-NI KÈ !",
+      "translation": "Mangeons ensemble ! / Bon appétit !",
+      "context": "Invitation polie partagée avec quiconque s'approche pendant que l'on mange."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression des états physiques avec 'bɛ ... na'",
+      "explanation": "La faim, la soif ou la fatigue ne se possèdent pas avec un équivalent du verbe français 'avoir'. En dioula, ces états agissent comme des forces extérieures positionnées sur la personne à l'aide de la postposition locative 'na'.",
+      "rules": [
+        "Structure : État (Sujet grammatical) + bɛ + Pronom + na.",
+        "Kɔngɔ = la faim ; Minɔgɔ = la soif."
+      ],
+      "examples": [
+        {
+          "structure": "Kɔngɔ (faim) + bɛ (est) + n (moi) + na (sur)",
+          "phonetic_api": "/kɔn.ɡɔ bɛ n̩ na/",
+          "meaning": "J'ai faim (La faim est sur moi)."
+        }
+      ]
+    },
+    {
+      "concept": "Exprimer le souhait ou le désir avec 'bɛ fɛ ka ...'",
+      "explanation": "Pour commander un plat, demander un ingrédient ou exprimer une volonté d'action, on utilise le syntagme verbal figé 'bɛ fɛ' (vouloir/aimer) suivi de la conjonction 'ka' et du verbe d'action.",
+      "rules": [
+        "Structure : Sujet + bɛ + fɛ + ka + Verbe à l'infinitif/base.",
+        "Le verbe 'dun' signifie manger un aliment solide, 'min' signifie boire un liquide."
+      ],
+      "examples": [
+        {
+          "structure": "N + bɛ + fɛ + ka + ji (eau) + min (boire)",
+          "phonetic_api": "/n̩ bɛ fɛ ka d͡ʒi min/",
+          "meaning": "Je veux boire de l'eau."
+        }
+      ]
+    },
+    {
+      "concept": "La construction de l'évaluation du prix avec 'bɛ joli ye'",
+      "explanation": "Pour demander le prix final ou la valeur d'une marchandise comestible, la structure s'appuie sur le mot 'sɔngɔ' (prix) combiné au marqueur d'identification bipartite 'bɛ ... ye'.",
+      "rules": [
+        "Structure : Nom de l'aliment + sɔngɔ + bɛ + joli (combien) + ye ?"
+      ],
+      "examples": [
+        {
+          "structure": "Sogo (viande) + sɔngɔ + bɛ + joli + ye ?",
+          "phonetic_api": "/so.ɡo sɔn.ɡɔ bɛ d͡ʒo.li jɛ/",
+          "meaning": "Combien coûte la viande ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Moussa (Le client)",
+      "text": "I ni wula, sugufeela. Kɔngɔ bɛ n na fana. Dumuni bɛ yan bi ?",
+      "phonetic_api": "/i ni wu.la su.ɡu.feː.la kɔn.ɡɔ bɛ n̩ na fa.na du.mu.ni bɛ jan bi/",
+      "phonetic_simple": "I NI WOU-LA, SOU-GOU-FEE-LA. KÕN-GÕ BÈ N NA FA-NA. DOU-MOU-NI BÈ YAN BI ?",
+      "translation": "Bonsoir, commerçante. J'ai vraiment faim aussi. Y a-t-il à manger ici aujourd'hui ?"
+    },
+    {
+      "speaker": "Awa (La restauratrice)",
+      "text": "I ni wula, n den. Malo ni tigadɛgɛ na bɛ yan, sogo fana bɛ kɔnɔ.",
+      "phonetic_api": "/i ni wu.la n̩ den ma.lo ni ti.ɡa.dɛ.ɡɛ na bɛ jan so.ɡo fa.na bɛ kɔ.nɔ/",
+      "phonetic_simple": "I NI WOU-LA, N DEN. MA-LO NI TI-GA-DÈ-GÈ NA BÈ YAN, SO-GO FA-NA BÈ KÕ-NÕ.",
+      "translation": "Bonsoir, mon enfant. Il y a du riz avec de la sauce d'arachide ici, il y a aussi de la viande à l'intérieur."
+    },
+    {
+      "speaker": "Moussa",
+      "text": "O kaɲi kosɛbɛ ! Nin sɔngɔ bɛ joli ye ?",
+      "phonetic_api": "/o ka.ɲi ko.sɛ.bɛ nin sɔn.ɡɔ bɛ d͡ʒo.li jɛ/",
+      "phonetic_simple": "O KA-GNI KO-SÈ-BÈ ! NIN SÕN-GÕ BÈ DJO-LI YÈ ?",
+      "translation": "C'est excellent ! Quel est le prix de cela ?"
+    },
+    {
+      "speaker": "Awa",
+      "text": "A bɛ bɛn wari kɛmɛ saba ma (1500 CFA métaphoriques ou unités de compte).",
+      "phonetic_api": "/a bɛ bɛn wa.ri kɛ.mɛ sa.ba ma/",
+      "phonetic_simple": "A BÈ BEN WA-RI KÈ-MÈ SA-BA MA.",
+      "translation": "Le total s'élève à trois centaines d'unités."
+    },
+    {
+      "speaker": "Moussa",
+      "text": "A sɔngɔ ka bon tɔɔni, sabari dɔgɔya ! N bɛ fɛ ka ji sumanin fana min sisan.",
+      "phonetic_api": "/a sɔn.ɡɔ ka bon tɔː.ni sa.ba.ri dɔ.ɡɔ.ja n̩ bɛ fɛ ka d͡ʒi su.ma.nin fa.na min si.san/",
+      "phonetic_simple": "A SÕN-GÕ KA BON TÕÕ-NI, SA-BA-RI DÕ-GÕ-YA ! N BÈ FÈ KA DJI SOU-MA-NIN FA-NA MIN SI-SAN.",
+      "translation": "Le prix est un peu élevé, s'il te plaît diminue ! Je voudrais aussi boire de l'eau fraîche maintenant."
+    },
+    {
+      "speaker": "Awa",
+      "text": "Ɔwɔ, n a dɔgɔyara. Ji bɛ yan. An ka dumuni kɛ !",
+      "phonetic_api": "/ɔ.wɔ n̩ a dɔ.ɡɔ.ja.ra d͡ʒi bɛ jan an ka du.mu.ni kɛ/",
+      "phonetic_simple": "Õ-WÕ, N A DÕ-GÕ-YA-RA. DJI BÈ YAN. AN KA DOU-MOU-NI KÈ !",
+      "translation": "D'accord, j'ai diminué le prix. L'eau est là. Bon appétit / Mangeons ensemble !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les restaurants populaires (communément appelés 'maquis' ou kiosques) au Burkina Faso, la nourriture est un moment de partage communautaire intense. La formule 'An ka dumuni kɛ !' (Mangeons ensemble) est prononcée par politesse par toute personne qui commence son repas dès qu'un tiers s'approche. La réponse polie habituelle de celui qui refuse est 'Barika' (Merci / Que Dieu te bénisse) ou 'I ni ce, n banna' (Merci, j'ai terminé / je suis rassasié).",
+    "La sauce d'arachide ou 'tigadɛgɛ na' (sauce mafé) et le riz ('malo') constituent des plats piliers de l'Afrique de l'Ouest mandingue. Les discussions marchandes et la négociation amicale des prix font partie intégrante du commerce et lient l'acheteur et le vendeur par un dialogue social chaleureux."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M3_L8_Ex1",
+      "type": "multiple_choice",
+      "question": "Comment exprime-t-on correctement la sensation physique de la faim en dioula ?",
+      "options": [
+        "N bɛ fɛ ka dumuni",
+        "Kɔngɔ bɛ n na",
+        "Minɔgɔ bɛ n na",
+        "Malo sɔngɔ ka bon"
+      ],
+      "correct_answer": "Kɔngɔ bɛ n na",
+      "explanation": "'Kɔngɔ' (la faim) + 'bɛ n na' (est sur moi) est la formulation idiomatique obligatoire pour dire que l'on a faim."
+    },
+    {
+      "exercise_id": "A1_M3_L8_Ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander le prix d'un aliment au marché, on dit : 'Nin sɔngɔ bɛ [ ___ ] ye ?'.",
+      "correct_answer": "joli",
+      "hint": "C'est l'adverbe et quantificateur interrogatif signifiant 'combien'."
+    },
+    {
+      "exercise_id": "A1_M3_L8_Ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie l'invitation rituelle à table 'An ka dumuni kɛ !' ?",
+      "options": [
+        "Donne-moi de l'eau fraîche",
+        "Mangeons ensemble ! / Partageons le repas !",
+        "Je ne veux pas de piment",
+        "Le repas est trop cher"
+      ],
+      "correct_answer": "Mangeons ensemble ! / Partageons le repas !",
+      "explanation": "C'est une formule d'hospitalité incontournable invitant chaleureusement l'autre à partager l'assiette ou le bol commun."
+    }
+  ]
+}

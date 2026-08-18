@@ -1,0 +1,266 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Savoir saluer de manière formelle et informelle selon le moment de la journée",
+    "Exprimer la politesse, le remerciement, l'excuse et prendre congé de manière adéquate"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'italien est une langue syllabique où chaque voyelle se prononce nettement. Le 'c' suivi de 'i' ou 'e' produit le son tch /tʃ/ (ex: ciao). Suivi de 'a', 'o', 'u' ou d'une consonne comme 'h', il produit le son k /k/ (ex: chiaro). Le 'g' suit la même règle : doux dj /dʒ/ devant 'e/i' (ex: giorno) et dur g /ɡ/ devant 'a/o/u/h'. L'accent tonique (accento tonico) tombe généralement sur l'avant-dernière syllabe (parole piane), mais il est crucial d'accentuer correctement pour ne pas altérer le sens.",
+    "common_pitfalls": "Le 'u' se prononce impérativement 'ou' /u/ et jamais 'u' /y/. Le 'r' italien est toujours roulé avec la pointe de la langue contre le palais antérieur /r/. Ne prononcez jamais le 'h' au début d'un mot (comme dans ho, hai, ha), il sert uniquement de marqueur graphique ou phonétique pour durcir une consonne."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Ciao",
+      "phonetic_api": "/ˈtʃaːo/",
+      "phonetic_simple": "TCHAO",
+      "translation": "Salut / Au revoir",
+      "example_sentence": "Ciao, ci vediamo domani!",
+      "example_phonetic": "/ˈtʃaːo tʃi veˈdjaːmo doˈmaːni/",
+      "example_translation": "Salut, on se voit demain !"
+    },
+    {
+      "word_id": "v2",
+      "term": "Buongiorno",
+      "phonetic_api": "/bwɔnˈdʒorno/",
+      "phonetic_simple": "BOUON-DJOR-NO",
+      "translation": "Bonjour",
+      "example_sentence": "Buongiorno, come sta il professore?",
+      "example_phonetic": "/bwɔnˈdʒorno ˈkoːme sta il profesˈsoːre/",
+      "example_translation": "Bonjour, comment va le professeur ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "Buonasera",
+      "phonetic_api": "/bwɔnaˈseːra/",
+      "phonetic_simple": "BOUON-A-SE-RA",
+      "translation": "Bonsoir",
+      "example_sentence": "Buonasera, desidera un tavolo?",
+      "example_phonetic": "/bwɔnaˈseːra deˈziːdera un ˈtaːvolo/",
+      "example_translation": "Bonsoir, vous désirez une table ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "Grazie",
+      "phonetic_api": "/ˈɡrattsje/",
+      "phonetic_simple": "GRAT-TSIE",
+      "translation": "Merci",
+      "example_sentence": "Grazie mille per l'aiuto.",
+      "example_phonetic": "/ˈɡrattsje ˈmille per laˈjuːto/",
+      "example_translation": "Merci mille fois pour l'aide."
+    },
+    {
+      "word_id": "v5",
+      "term": "Prego",
+      "phonetic_api": "/ˈprɛːɡo/",
+      "phonetic_simple": "PRÈ-GO",
+      "translation": "De rien / Je vous en prie",
+      "example_sentence": "Prego, si sieda pure.",
+      "example_phonetic": "/ˈprɛːɡo si ˈsjeːda ˈpuːre/",
+      "example_translation": "Je vous en prie, asseyez-vous donc."
+    },
+    {
+      "word_id": "v6",
+      "term": "Per favore",
+      "phonetic_api": "/per faˈvoːre/",
+      "phonetic_simple": "PER FA-VO-RE",
+      "translation": "S'il vous plaît",
+      "example_sentence": "Un bicchiere d'acqua, per favore.",
+      "example_phonetic": "/un bikˈkjeːre ˈdakkwa per faˈvoːre/",
+      "example_translation": "Un verre d'eau, s'il vous plaît."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Arrivederci",
+      "phonetic_api": "/arriveˈdertʃi/",
+      "phonetic_simple": "AR-RI-VE-DER-TCHI",
+      "translation": "Au revoir",
+      "context": "Cadre formel standard pour prendre congé d'une ou plusieurs personnes."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Come sta?",
+      "phonetic_api": "/ˈkoːme sta/",
+      "phonetic_simple": "KO-ME STA",
+      "translation": "Comment allez-vous ?",
+      "context": "Formule de politesse formelle s'adressant à une seule personne (vouvoiement)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Come stai?",
+      "phonetic_api": "/ˈkoːme stai/",
+      "phonetic_simple": "KO-ME STAÏ",
+      "translation": "Comment tu vas ?",
+      "context": "Formule informelle utilisée avec la famille, les amis ou les collègues."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Sto bene, grazie.",
+      "phonetic_api": "/stɔ ˈbɛːne ˈɡrattsje/",
+      "phonetic_simple": "STO BÈ-NE GRAT-TSIE",
+      "translation": "Je vais bien, merci.",
+      "context": "Réponse standard et positive à une salutation sur l'état général."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Piacere di conoscerla",
+      "phonetic_api": "/pjaˈtʃeːre di koˈnoʃʃerla/",
+      "phonetic_simple": "PIA-TCHE-RE DI KO-NOCH-CHER-LA",
+      "translation": "Enchanté de vous rencontrer",
+      "context": "Formule formelle employée lors d'une première présentation d'affaires ou officielle."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Ci vediamo presto",
+      "phonetic_api": "/tʃi veˈdjaːmo ˈprɛsto/",
+      "phonetic_simple": "TCHI VE-DIA-MO PRÈS-TO",
+      "translation": "À bientôt",
+      "context": "Registre amical ou semi-formel quand on prévoit de se revoir rapidement."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Scusi, non ho capito",
+      "phonetic_api": "/ˈskuːzi non ɔ kaˈpiːto/",
+      "phonetic_simple": "SKOU-ZI NON O KA-PI-TO",
+      "translation": "Excusez-moi, je n'ai pas compris",
+      "context": "Formule très utile pour un apprenant dans un contexte de politesse soutenue."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Buona giornata",
+      "phonetic_api": "/ˈbwɔna dʒorˈnaːta/",
+      "phonetic_simple": "BOUON-A DJOR-NA-TA",
+      "translation": "Bonne journée",
+      "context": "Formule de souhait prononcée exclusivement au moment de quitter quelqu'un."
+    },
+    {
+      "phrase_id": "p9",
+      "original": "Benvenuto",
+      "phonetic_api": "/beɱveˈnuːto/",
+      "phonetic_simple": "BÈN-VE-NOU-TO",
+      "translation": "Bienvenue",
+      "context": "Salutation d'accueil (s'accorde en genre et en nombre : benvenuta, benvenuti, benvenute)."
+    },
+    {
+      "phrase_id": "p10",
+      "original": "Non c'è di che",
+      "phonetic_api": "/non tʃɛ ddi ke/",
+      "phonetic_simple": "NON TCHÈ DI KÉ",
+      "translation": "Il n'y a pas de quoi",
+      "context": "Alternative idiomatique à 'prego' après un remerciement soutenu."
+    },
+    {
+      "phrase_id": "p11",
+      "original": "Scusa il disturbo",
+      "phonetic_api": "/ˈskuːza il disˈturbo/",
+      "phonetic_simple": "SKOU-ZA IL DIS-TOUR-BO",
+      "translation": "Excuse-moi du dérangement",
+      "context": "Formule informelle employée pour aborder un proche occupé."
+    },
+    {
+      "phrase_id": "p12",
+      "original": "Mi dispiace molto",
+      "phonetic_api": "/mi disˈpjaːtʃe ˈmolto/",
+      "phonetic_simple": "MI DIS-PIA-TCHE MOL-TO",
+      "translation": "Je suis sincèrement désolé",
+      "context": "Pour exprimer une profonde excuse ou de la sympathie face à une mauvaise nouvelle."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La distinction fondamentale entre Tu et Lei",
+      "explanation": "Le système de politesse italien repose sur le choix du pronom. Pour le vouvoiement singulier, l'italien utilise le pronom de la 3ème personne du singulier féminin 'Lei' (écrit avec une majuscule de courtoisie). Le verbe s'accorde alors à la 3ème personne du singulier.",
+      "rules": [
+        "Le 'Tu' s'applique aux relations horizontales, amicales, familiales ou envers les enfants.",
+        "Le 'Lei' s'impose dans l'administration, les commerces, avec les inconnus et la hiérarchie professionnelle.",
+        "L'accord des adjectifs de nationalité ou d'état reste calqué sur le sexe réel de l'interlocuteur, même si le pronom grammatical 'Lei' est féminin."
+      ],
+      "examples": [
+        {
+          "structure": "Lei è molto gentile, Signore.",
+          "phonetic_api": "/lɛi ɛ ˈmolto dʒenˈtiːle siɲˈɲoːre/",
+          "meaning": "Vous êtes très gentil, Monsieur. (Utilisation de la 3e personne du verbe essere)."
+        }
+      ]
+    },
+    {
+      "concept": "Salutations dynamiques vs Salutations statiques",
+      "explanation": "Certaines expressions changent de forme selon qu'on arrive ou qu'on s'en va. 'Buongiorno' et 'Buonasera' s'utilisent dans les deux cas. En revanche, 'Buona giornata' et 'Buona serata' marquent impérativement la séparation.",
+      "rules": [
+        "Utilisez 'Buongiorno' en arrivant à 10h00 du matin.",
+        "Utilisez 'Buona giornata' en quittant la boulangerie à la même heure.",
+        "La transition entre le matin (buongiorno) et le soir (buonasera) s'effectue généralement après le repas de la mi-journée (vers 14h-15h)."
+      ],
+      "examples": [
+        {
+          "structure": "Arrivederci e buona serata!",
+          "phonetic_api": "/arriveˈdertʃi e ˈbwɔna seˈraːta/",
+          "meaning": "Au revoir et bonne soirée ! (Souhait formulé au départ)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Dottor Martini",
+      "text": "Buonasera, Signora Gatti. Come sta?",
+      "phonetic_api": "/bwɔnaˈseːra siɲˈɲoːra ˈɡatti ˈkoːme sta/",
+      "phonetic_simple": "BOUON-A-SE-RA SI-NIO-RA GAT-TI KO-ME STA",
+      "translation": "Bonsoir, Madame Gatti. Comment allez-vous ?"
+    },
+    {
+      "speaker": "Signora Gatti",
+      "text": "Buonasera, Dottore. Sto molto bene, grazie. E Lei e la Sua famiglia?",
+      "phonetic_api": "/bwɔnaˈseːra dotˈtoːre stɔ ˈmolto ˈbɛːne ˈɡrattsje e lɛi e la ˈsuːa faˈmiʎʎa/",
+      "phonetic_simple": "BOUON-A-SE-RA DOT-TO-RE STO MOL-TO BÈ-NE GRAT-TSIE E LEÏ E LA SOU-A FA-MIL-LIA",
+      "translation": "Bonsoir, Docteur. Je vais très bien, merci. Et vous-même ainsi que votre famille ?"
+    },
+    {
+      "speaker": "Dottor Martini",
+      "text": "Tutti bene, la ringrazio. Desidera entrare?",
+      "phonetic_api": "/ˈtutti ˈbɛːne la riŋˈɡrattsjo deˈziːdera enˈtraːre/",
+      "phonetic_simple": "TOUT-TI BÈ-NE LA RIN-GRAT-TSIO DE-ZI-DE-RA EN-TRA-RE",
+      "translation": "Tout le monde va bien, je vous remercie. Désirez-vous entrer ?"
+    },
+    {
+      "speaker": "Signora Gatti",
+      "text": "Sì, grazie per favore. È molto gentile.",
+      "phonetic_api": "/si ˈɡrattsje per faˈvoːre ɛ ˈmolto dʒenˈtiːle/",
+      "phonetic_simple": "SI GRAT-TSIE PER FA-VO-RE È MOL-TO DJEN-TI-LE",
+      "translation": "Oui, merci s'il vous plaît. Vous êtes très aimable."
+    }
+  ],
+  "cultural_notes": [
+    "En Italie, 'Ciao' vient historiquement du mot vénitien 'schiavo' qui signendiait 'votre serviteur'. Malgré cette origine humble, son usage actuel est strictement informel et amical.",
+    "Le titre de 'Dottore' ou 'Dottoressa' est systématiquement attribué à toute personne titulaire d'un diplôme universitaire en Italie, et pas seulement aux médecins. C'est une marque de respect incontournable dans les présentations.",
+    "Le contact visuel direct accompagné d'une poignée de main ferme est la norme lors des salutations formelles en Italie. Le non-respect de ce code peut être perçu comme un manque de transparence."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Vous quittez un magasin de chaussures à 16h00. Quelle formule de départ utilisez-vous ?",
+      "options": [
+        "Buongiorno",
+        "Buona giornata",
+        "Buona serata"
+      ],
+      "correct_answer": "Buona serata",
+      "explanation": "À partir de la fin d'après-midi, on bascule sur le registre de la soirée ('sera'). S'agissant d'un départ, la forme dynamique 'Buona serata' est requise."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Scusi, signore, come [ ___ ] ? Io sto bene.",
+      "correct_answer": "sta",
+      "hint": "Forme verbale du verbe stare pour le vouvoiement (Lei)."
+    }
+  ]
+}

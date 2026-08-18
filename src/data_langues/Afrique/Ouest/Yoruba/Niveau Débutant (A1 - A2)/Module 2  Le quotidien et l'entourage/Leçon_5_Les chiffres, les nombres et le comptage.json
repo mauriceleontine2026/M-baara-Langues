@@ -1,0 +1,284 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter les nombres cardinaux de base de 1 à 10 en yoruba (Ọ̀kàn cardinaux)",
+    "Comprendre la variante morphologique des adjectifs numéraux de comptage d'objets (Ení, Èjì...)",
+    "Utiliser les structures interrogatives de quantification avec le morphème 'mélòó'"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Les chiffres yoruba font intervenir des alternances de tons complexes à mémoriser. Par exemple, le chiffre trois 'Ẹ́ta' possède un ton haut suivi d'un ton moyen. Le chiffre huit 'Ẹ̀jọ' possède un ton bas suivi d'un ton moyen. Veillez à la clarté du son 'o' ouvert [ɔ] dans 'mẹ́san' [mɛ́sã].",
+    "common_pitfalls": "Attention à ne pas confondre le système de comptage abstrait (Ení, Èjì, Ẹ̀ta...) avec le système utilisé pour qualifier directement un nom (Oṣù mẹ́ta = trois mois). L'omission des accents modifie complètement le rythme de calcul parlé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "A1_M2_L5_V1",
+      "term": "Ení",
+      "phonetic_api": "/ɛnĩ́/",
+      "phonetic_simple": "É-NÍ",
+      "translation": "Un (dans l'énumération abstraite)",
+      "example_sentence": "Ení ni mo kọ́kọ́ kà.",
+      "example_phonetic": "/ɛnĩ́ nĩ mo kɔ́kɔ́ kà/",
+      "example_translation": "C'est 'un' que j'ai lu en premier."
+    },
+    {
+      "word_id": "A1_M2_L5_V2",
+      "term": "Èjì",
+      "phonetic_api": "/ɛ̀d͡ʒì/",
+      "phonetic_simple": "È-JÌ",
+      "translation": "Deux (abstrait)",
+      "example_sentence": "Èjì ni lẹ́tà yẹn.",
+      "example_phonetic": "/ɛ̀d͡ʒì nĩ lɛ́tà jɛ̃/",
+      "example_translation": "Ce signe correspond à deux."
+    },
+    {
+      "word_id": "A1_M2_L5_V3",
+      "term": "Ẹ̀ta",
+      "phonetic_api": "/ɛ̀ta/",
+      "phonetic_simple": "È-TA",
+      "translation": "Trois (abstrait)",
+      "example_sentence": "Ẹ̀ta ni iye rẹ̀.",
+      "example_phonetic": "/ɛ̀ta nĩ ijé ɾɛ̀/",
+      "example_translation": "Son nombre est trois."
+    },
+    {
+      "word_id": "A1_M2_L5_V4",
+      "term": "Ẹ̀rin",
+      "phonetic_api": "/ɛ̀ɾĩ/",
+      "phonetic_simple": "È-RIN",
+      "translation": "Quatre (abstrait)",
+      "example_sentence": "Ẹ̀rin ni mo fẹ́.",
+      "example_phonetic": "/ɛ̀ɾĩ nĩ mo fɛ́/",
+      "example_translation": "C'est le chiffre quatre que je veux."
+    },
+    {
+      "word_id": "A1_M2_L5_V5",
+      "term": "Àrún",
+      "phonetic_api": "/àɾʊ́/",
+      "phonetic_simple": "À-ROÚN",
+      "translation": "Cinq (abstrait)",
+      "example_sentence": "Àrún ni ọmọ rẹ̀.",
+      "example_phonetic": "/àɾʊ́ nĩ ɔmɔ ɾɛ̀/",
+      "example_translation": "Ses enfants sont au nombre de cinq."
+    },
+    {
+      "word_id": "A1_M2_L5_V6",
+      "term": "Ẹ̀fà",
+      "phonetic_api": "/ɛ̀fà/",
+      "phonetic_simple": "È-FÀ",
+      "translation": "Six (abstrait)",
+      "example_sentence": "Ẹ̀fà ni iye iṣu.",
+      "example_phonetic": "/ɛ̀fà nĩ ijé iʃu/",
+      "example_translation": "Le nombre d'ignames est de six."
+    },
+    {
+      "word_id": "A1_M2_L5_V7",
+      "term": "Eje",
+      "phonetic_api": "/ed͡ʒe/",
+      "phonetic_simple": "É-JÉ",
+      "translation": "Sept (abstrait)",
+      "example_sentence": "Eje ni ọjọ́ ọ̀ṣẹ̀.",
+      "example_phonetic": "/ed͡ʒe nĩ ɔd͡ʒɔ́ ɔ̀ʃɛ́/",
+      "example_translation": "Sept est le nombre de jours de la semaine."
+    },
+    {
+      "word_id": "A1_M2_L5_V8",
+      "term": "Ẹ̀jọ",
+      "phonetic_api": "/ɛ̀d͡ʒɔ/",
+      "phonetic_simple": "È-JAW",
+      "translation": "Huit (abstrait)",
+      "example_sentence": "Ẹ̀jọ ni mo rà.",
+      "example_phonetic": "/ɛ̀d͡ʒɔ nĩ mo ɾà/",
+      "example_translation": "J'en ai acheté huit."
+    },
+    {
+      "word_id": "A1_M2_L5_V9",
+      "term": "Ẹ̀sán",
+      "phonetic_api": "/ɛ̀sã́/",
+      "phonetic_simple": "È-SÁN",
+      "translation": "Neuf (abstrait)",
+      "example_sentence": "Ẹ̀sán ni iye owó.",
+      "example_phonetic": "/ɛ̀sã́ nĩ ijé owó/",
+      "example_translation": "Le montant est de neuf."
+    },
+    {
+      "word_id": "A1_M2_L5_V10",
+      "term": "Ẹ̀wá",
+      "phonetic_api": "/ɛ̀wá/",
+      "phonetic_simple": "È-WÁ",
+      "translation": "Dix (abstrait)",
+      "example_sentence": "Ẹ̀wá ni gbogbo rẹ̀.",
+      "example_phonetic": "/ɛ̀wá nĩ ɡ͡boɡ͡bo ɾɛ̀/",
+      "example_translation": "Le tout fait dix."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "A1_M2_L5_P1",
+      "original": "Kà wọ́n láti ẹni títí dé ẹ̀wá.",
+      "phonetic_api": "/kà wɔ́ láti ɛnĩ́ títí dé ɛ̀wá/",
+      "phonetic_simple": "KÀ WÁN LÁ-TI É-NÍ TÍ-TÍ DÉ È-WÁ.",
+      "translation": "Compte-les de un jusqu'à dix.",
+      "context": "Instruction ou exercice de comptage standard."
+    },
+    {
+      "phrase_id": "A1_M2_L5_P2",
+      "original": "Ìwé mélòó ni o ní?",
+      "phonetic_api": "/ìwé mélòː nĩ o ní/",
+      "phonetic_simple": "Ì-WÉ MÉ-LÒÒ NI O NÍ?",
+      "translation": "Combien de livres as-tu ?",
+      "context": "Interrogation sur la quantité d'objets possédés."
+    },
+    {
+      "phrase_id": "A1_M2_L5_P3",
+      "original": "Ìwé mẹ́ta ni mo ní.",
+      "phonetic_api": "/ìwé mɛ́ta nĩ mo ní/",
+      "phonetic_simple": "Ì-WÉ MÉ-TA NI MO NÍ.",
+      "translation": "J'ai trois livres.",
+      "context": "Réponse chiffrée appliquant le préfixe d'adjectif numéral."
+    },
+    {
+      "phrase_id": "A1_M2_L5_P4",
+      "original": "Mélòó ni iye rẹ̀?",
+      "phonetic_api": "/mélòː nĩ ijé ɾɛ̀/",
+      "phonetic_simple": "MÉ-LÒÒ NI I-YÉ RÈ?",
+      "translation": "Quel est son prix / sa quantité ?",
+      "context": "Formule générique au marché ou lors d'une transaction."
+    },
+    {
+      "phrase_id": "A1_M2_L5_P5",
+      "original": "Iṣu mẹ́rin ni mo rà.",
+      "phonetic_api": "/iʃu mɛ́ɾĩ nĩ mo ɾà/",
+      "phonetic_simple": "I-SHU MÉ-RIN NI MO RÀ.",
+      "translation": "J'ai acheté quatre ignames.",
+      "context": "Déclaration d'achat d'un bien alimentaire."
+    },
+    {
+      "phrase_id": "A1_M2_L5_P6",
+      "original": "Kò to nǹkan, ẹyọ kan ni.",
+      "phonetic_api": "/kò to ŋ̀kã ɛjɔ kã nĩ/",
+      "phonetic_simple": "KÒ TO N-KAN, È-YAW KAN NI.",
+      "translation": "Ce n'est rien, c'est juste une seule pièce.",
+      "context": "Minimiser une quantité ou une valeur."
+    },
+    {
+      "phrase_id": "A1_M2_L5_P7",
+      "original": "Ẹran mẹ́fà ni ó wà nínú ọpọ́n.",
+      "phonetic_api": "/ɛɾã mɛ́fà nĩ ó wà nĩ́nú ɔk͡pɔ́/",
+      "phonetic_simple": "È-RAN MÉ-FÀ NI Ó WÀ NÍ-NOÚ AW-KPOÚN.",
+      "translation": "Il y a quatre morceaux de viande dans le plat.",
+      "context": "Description d'un plat ou inventaire culinaire."
+    },
+    {
+      "phrase_id": "A1_M2_L5_P8",
+      "original": "Kọ nọ́mbà rẹ sílẹ̀ fún mi.",
+      "phonetic_api": "/kɔ nɔ́m͡bà ɾɛ sílɛ̀ fʊ́ mĩ/",
+      "phonetic_simple": "KÀW NÓM-BÀ RÈ SÍ-LÈ FOÚN MI.",
+      "translation": "Écris ton numéro de téléphone pour moi.",
+      "context": "Échange de coordonnées."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La mutation morphologique des nombres : Énumération vs Qualification",
+      "explanation": "Le yoruba utilise deux séries distinctes pour les chiffres. La série abstraite (Ení, Èjì, Ẹ̀ta...) sert uniquement à réciter l'alphabet numérique ou à faire des mathématiques pures. Dès qu'un nombre qualifie un nom d'objet ou d'être vivant, le chiffre se place obligatoirement APRÈS le nom et adopte un préfixe vocalique spécifique à ton haut (mọ́kàn, méjì, mẹ́ta, mẹ́rin, mẹ́run/márùn-ún, mẹ́fà, méje, mẹ́jọ, mẹ́san, mẹ́wàá).",
+      "rules": [
+        "Comptage abstrait : Ení, Èjì, Ẹ̀ta, Ẹ̀rin...",
+        "Comptage d'objets réels : [Nom] + márùn-ún (5), mẹ́wàá (10), etc."
+      ],
+      "examples": [
+        {
+          "structure": "Ọmọ + méjì",
+          "phonetic_api": "/ɔmɔ méd͡ʒe/",
+          "meaning": "Deux enfants (Èjì devient méjì après le nom)."
+        },
+        {
+          "structure": "Ìwé + mẹ́wàá",
+          "phonetic_api": "/ìwé mɛ́wàá/",
+          "meaning": "Dix livres (Ẹ̀wá devient mẹ́wàá après le nom)."
+        }
+      ]
+    },
+    {
+      "concept": "La construction interrogative de quantité avec 'mélòó'",
+      "explanation": "Pour demander 'combien', le yoruba utilise le déterminant interrogatif invariable 'mélòó'. Ce mot se place systématiquement après le nom de l'entité que l'on souhaite quantifier, suivi de la particule de focalisation 'ni'.",
+      "rules": [
+        "Structure : [Nom de l'objet] + mélòó + ni + [Sujet] + [Verbe].",
+        "La voix monte nettement sur la syllabe finale 'lóó'."
+      ],
+      "examples": [
+        {
+          "structure": "Ọkọ̀ mélòó ni o rí?",
+          "phonetic_api": "/ɔkɔ̀ mélòː nĩ o ɾí/",
+          "meaning": "Combien de voitures as-tu vues ?"
+        },
+        {
+          "structure": "Owó mélòó ni ó kù?",
+          "phonetic_api": "/owó mélòː nĩ ó kù/",
+          "meaning": "Combien d'argent reste-t-il ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ìyá Ọlọ́jà (La marchande)",
+      "text": "Ẹ kààsán, ọ̀gá. Iṣu mélòó ni o fẹ́ rà?",
+      "phonetic_api": "/ɛ̀ kàːsã́ ɔ̀ɡá iʃu mélòː nĩ o fɛ́ ɾà/",
+      "phonetic_simple": "È KÀÀ-SÁN, AW-GÁ. I-SHU MÉ-LÒÒ NI O FÉ RÀ?",
+      "translation": "Bon après-midi, monsieur. Combien d'ignames voulez-vous acheter ?"
+    },
+    {
+      "speaker": "Adé (L'acheteur)",
+      "text": "Ẹ kààsán, màá. Mo fẹ́ iṣu márùn-ún pẹ̀lú ẹyin mẹ́wàá.",
+      "phonetic_api": "/ɛ̀ kàːsã́ màá mo fɛ́ iṣu máɾʊ̀ fɛ́ k͡pɛ̀lú ɛjĩ mɛ́wàá/",
+      "phonetic_simple": "È KÀÀ-SÁN, MÀÁ. MO FÉ I-SHU MÁ-ROÙN-OÚN KPÈ-LÚ È-YIN MÉ-WÀÁ.",
+      "translation": "Bon après-midi, madame. Je veux cinq ignames et dix œufs."
+    },
+    {
+      "speaker": "Ìyá Ọlọ́jà (La marchande)",
+      "text": "O dára. Ǹjẹ́ o fẹ́ ọmọ-orógbó méje yìí náà?",
+      "phonetic_api": "/o dáɾa ŋ̀d͡ʒɛ́ o fɛ́ ɔmɔoɾóɡ͡bó méd͡ʒe jĩː náː/",
+      "phonetic_simple": "OH DÁ-RA. NJÉ O FÉ AW-MAW-OH-RÓ-GBÓ MÉ-JÉ YÍ NÁÀ?",
+      "translation": "C'est bien. Est-ce que tu veux aussi ces sept petites noix de kola ?"
+    },
+    {
+      "speaker": "Adé (L'acheteur)",
+      "text": "Rárá, ẹ ṣé. Iṣu márùn-ún àti ẹyin mẹ́wàá ti tó fún mi.",
+      "phonetic_api": "/ɾáɾá ɛ̀ ʃé iʃu máɾʊ̀ fɛ́ àti ɛjĩ mɛ́wàá ti tó fʊ́ mĩ/",
+      "phonetic_simple": "RÁ-RÁ, È SHÉ. I-SHU MÁ-ROÙN-OÚN À-TI È-YIN MÉ-WÀÁ TI TÓ FOÚN MI.",
+      "translation": "Non, merci. Cinq ignames et dix œufs me suffisent amplement."
+    }
+  ],
+  "cultural_notes": [
+    "Le système de numération yoruba traditionnel est réputé parmi les anthropologues pour sa base vigésimale (base 20) hautement mathématique et soustractive. Pour dire 15, on dit littéralement 'cinq de moins que vingt' (Èròòrùn-ún dín lógún). Bien que complexe, ce système structure encore l'esprit des commerçants sur les marchés locaux.",
+    "Le chiffre sept 'Eje' et le chiffre trois 'Ẹ̀ta' revêtent des dimensions sacrées et mystiques majeures dans la cosmogonie et les rituels traditionnels d'Afrique de l'Ouest.",
+    "Au marché, compter l'argent à haute voix ou recompter plusieurs fois devant le vendeur n'est pas perçu comme de la méfiance, mais comme une marque saine de clarté commerciale mutuelle."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L5_EX1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on de manière grammaticalement correcte 'deux enfants' ?",
+      "options": [
+        "Ọmọ èjì",
+        "Èjì ọmọ",
+        "Ọmọ méjì",
+        "Méjì ọmọ"
+      ],
+      "correct_answer": "Ọmọ méjì",
+      "explanation": "Lorsqu'il qualifie un nom, le chiffre se place après celui-ci et la racine 'Èjì' mute pour devenir l'adjectif 'méjì'."
+    },
+    {
+      "exercise_id": "A1_M2_L5_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander le nombre de bananes plantains achetées, on formule : Ọ̀gẹ̀dẹ̀ [ ___ ] ni o rà ?",
+      "correct_answer": "mélòó",
+      "hint": "C'est le mot interrogatif correspondant à 'combien' pour quantifier des objets dénombrables."
+    }
+  ]
+}

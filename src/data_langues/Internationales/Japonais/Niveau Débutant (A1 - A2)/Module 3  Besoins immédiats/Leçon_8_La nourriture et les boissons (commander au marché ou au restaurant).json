@@ -1,0 +1,264 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché/restaurant)",
+  "learning_objectives": [
+    "Exprimer une commande ou une requête polie avec la structure '～をください' (o kudasai)",
+    "Utiliser les expressions rituelles indispensables avant et après le repas",
+    "Associer la particule d'objet direct 'o' (を) aux verbes de consommation (manger, boire)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La particule d'objet direct s'écrit avec le hiragana を. Bien qu'historiquement prononcée 'wo', sa prononciation moderne en japonais standard est strictement identique à la voyelle お [o]. L'expression 'itadakimasu' introduit la consonne affriquée alvéolaire sourde /t͡sɯ/ dans sa structure rythmique. Veillez à la prononciation brève du 'u' final dévoisé : [i.ta.da.ki.ma.sɯ̥] ('itadakimass').",
+    "common_pitfalls": "Dans l'expression 'gochisōsama', veillez à bien marquer l'allongement de la voyelle 'o' [soː]. Ne prononcez pas le 'r' de 'kudasai' de manière gutturale à la française, mais utilisez la consonne battue alvéolaire [ɾ]."
+  },
+  "restaurant_expressions_focus": [
+    {
+      "expression": "いらっしゃいませ",
+      "romaji": "irasshaimase",
+      "api": "/i.ɾḁs.ɕa.i.ma.se/",
+      "translation": "Bienvenue !",
+      "context": "Formule d'accueil scandée par le personnel à l'entrée de tout commerce ou restaurant."
+    },
+    {
+      "expression": "いただきます",
+      "romaji": "itadakimasu",
+      "api": "/i.ta.da.ki.ma.sɯ̥/",
+      "translation": "Bon appétit / Je reçois humblement",
+      "context": "Prononcé par le client ou l'hôte avant de commencer à manger, les mains jointes."
+    },
+    {
+      "expression": "ごちそうさまでした",
+      "romaji": "gochisōsamadeshita",
+      "api": "/ɡo.t͡ɕi.soː.sa.ma de.ɕi.ta/",
+      "translation": "Merci pour ce délicieux repas",
+      "context": "Formule de gratitude prononcée en fin de repas à l'attention du cuisinier ou du serveur."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "みず (水)",
+      "phonetic_api": "/mi.zɯ/",
+      "phonetic_simple": "MI-ZOU",
+      "translation": "Eau",
+      "example_sentence": "お水をもらえますか。",
+      "example_phonetic": "/o.mi.zɯ o mo.ɾa.e.ma.sɯ.ka/",
+      "example_translation": "Puis-je avoir de l'eau ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "ごはん (ご飯)",
+      "phonetic_api": "/ɡo.haɴ/",
+      "phonetic_simple": "GO-HAN",
+      "translation": "Riz cuit / Repas",
+      "example_sentence": "朝ご飯を食べます。",
+      "example_phonetic": "/a.sa.ɡo.haɴ o ta.be.ma.sɯ̥/",
+      "example_translation": "Je mange le petit-déjeuner."
+    },
+    {
+      "word_id": "v3",
+      "term": "おちゃ (お茶)",
+      "phonetic_api": "/o.t͡ɕa/",
+      "phonetic_simple": "O-TCHA",
+      "translation": "Thé (généralement thé vert)",
+      "example_sentence": "温かいお茶をどうぞ。",
+      "example_phonetic": "/a.ta.ta.ka.i o.t͡ɕa o doː.zo/",
+      "example_translation": "Voici du thé chaud, je vous en prie."
+    },
+    {
+      "word_id": "v4",
+      "term": "さかな (魚)",
+      "phonetic_api": "/sa.ka.na/",
+      "phonetic_simple": "SA-KA-NA",
+      "translation": "Poisson",
+      "example_sentence": "市場で魚を買います。",
+      "example_phonetic": "/i.t͡ɕi.ba de sa.ka.na o ka.i.ma.sɯ̥/",
+      "example_translation": "J'achète du poisson au marché."
+    },
+    {
+      "word_id": "v5",
+      "term": "にく (肉)",
+      "phonetic_api": "/ni.kɯ/",
+      "phonetic_simple": "NI-KOU",
+      "translation": "Viande",
+      "example_sentence": "牛肉が好きです。",
+      "example_phonetic": "/ɡjɯː.ni.kɯ ɡa sɯ.ki de.sɯ̥/",
+      "example_translation": "J'aime la viande de bœuf."
+    },
+    {
+      "word_id": "v6",
+      "term": "メニュー",
+      "phonetic_api": "/me.njɯː/",
+      "phonetic_simple": "MÉ-NYUU",
+      "translation": "Menu / Carte",
+      "example_sentence": "メニューをください。",
+      "example_phonetic": "/me.njɯː o kɯ.da.sa.i/",
+      "example_translation": "La carte s'il vous plaît."
+    },
+    {
+      "word_id": "v7",
+      "term": "たべる (食べる / 食べます)",
+      "phonetic_api": "/ta.be.ma.sɯ̥/",
+      "phonetic_simple": "TA-BÉ-MASS",
+      "translation": "Manger (Forme en -masu)",
+      "example_sentence": "寿司を食べます。",
+      "example_phonetic": "/sɯ.ɕi o ta.be.ma.sɯ̥/",
+      "example_translation": "Je mange des sushis."
+    },
+    {
+      "word_id": "v8",
+      "term": "のむ (飲む / 飲みます)",
+      "phonetic_api": "/no.mi.ma.sɯ̥/",
+      "phonetic_simple": "NO-MI-MASS",
+      "translation": "Boire (Forme en -masu)",
+      "example_sentence": "コーヒーを飲みます。",
+      "example_phonetic": "/koː.çiː o no.mi.ma.sɯ̥/",
+      "example_translation": "Je bois du café."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "メニューをください。",
+      "phonetic_api": "/me.njɯː o kɯ.da.sa.i/",
+      "phonetic_simple": "MÉ-NYUU O KOU-DA-SA-I",
+      "translation": "Le menu, s'il vous plaît.",
+      "context": "Formule pour demander la carte en s'asseyant à une table."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "これをお願いします。",
+      "phonetic_api": "/ko.re o o.ne.ɡa.i.ɕi.ma.sɯ̥/",
+      "phonetic_simple": "KO-RÉ O O-NÉ-GA-I-CHI-MASS",
+      "translation": "Ceci, s'il vous plaît (en montrant du doigt).",
+      "context": "Passer commande de manière polie en pointant un plat sur la carte."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "お水、二つください。",
+      "phonetic_api": "/o.mi.zɯ ɸɯ.ta.t͡sɯ kɯ.da.sa.i/",
+      "phonetic_simple": "O-MI-ZOU FOU-TAT-SOU KOU-DA-SA-I",
+      "translation": "Deux verres d'eau, s'il vous plaît.",
+      "context": "Commander une quantité spécifique d'un élément (notez l'usage du compteur universel futatsu)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "お勘定をお願いします。",
+      "phonetic_api": "/o.kaɴ.d͡ʑoː o o.ne.ɡa.i.ɕi.ma.sɯ̥/",
+      "phonetic_simple": "O-KAN-DJOO O O-NÉ-GA-I-CHI-MASS",
+      "translation": "L'addition s'il vous plaît.",
+      "context": "Demander la note à la fin du repas (variante élégante de o-kaikei)."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "何にしますか。",
+      "phonetic_api": "/na.ni ni ɕi.ma.sɯ.ka/",
+      "phonetic_simple": "NA-NI NI CHI-MASS-KA",
+      "translation": "Qu'allez-vous choisir ? / Que désirez-vous ?",
+      "context": "Question posée par le serveur pour prendre la commande."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "美味しそうですね。",
+      "phonetic_api": "/o.i.ɕi.soː de.sɯ.ne/",
+      "phonetic_simple": "O-I-CHI-SOO DESS-NÉ",
+      "translation": "Ça a l'air délicieux !",
+      "context": "S'exclamer positivement à la vue du plat apporté sur la table."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "辛いですか。",
+      "phonetic_api": "/ka.ra.i de.sɯ.ka/",
+      "phonetic_simple": "KA-RA-I DESS-KA",
+      "translation": "Est-ce que c'est épicé ?",
+      "context": "S'informer sur la composition ou la force d'un plat."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "クレジットカードは大丈夫ですか。",
+      "phonetic_api": "/kɯ.ɾe.d͡ʑi̥t.to.kaː.do wa da.i.d͡ʑoː.bɯ de.sɯ.ka/",
+      "phonetic_simple": "KOU-RÉ-DJIT-TO-KAA-DO WA DA-I-DJOO-BOU DESS-KA",
+      "translation": "Est-ce que vous acceptez les cartes de crédit ?",
+      "context": "S'assurer du moyen de paiement au moment de régler l'addition."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La particule d'objet direct を (o)",
+      "explanation": "La particule を (écrite 'wo' en hiragana mais prononcée 'o') indique le COD (Complément d'Objet Direct) de la phrase. Elle se place immédiatement après le nom qui subit l'action du verbe transitif. L'ordre syntaxique fondamental est donc [Objet] を [Verbe].",
+      "rules": [
+        "Placée uniquement après un substantif objet direct.",
+        "Le verbe de consommation se place impérativement en fin de proposition."
+      ],
+      "examples": [
+        {
+          "structure": "お茶を飲みます (O-cha o nomimasu)",
+          "phonetic_api": "/o.t͡ɕa o no.mi.ma.sɯ̥/",
+          "meaning": "Je bois du thé."
+        }
+      ]
+    },
+    {
+      "concept": "La formulation d'une requête commerciale : [Nom] を ください (o kudasai)",
+      "explanation": "Pour commander un plat, un objet, ou demander un document, la structure la plus simple et efficace consiste à associer le nom de l'élément recherché à 'を ください' (o kudasai). Cette expression signifie littéralement 'Donnez-moi s'il vous plaît'."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "店員 (Serveur)",
+      "text": "いらっしゃいませ！何にしますか。",
+      "phonetic_api": "/i.ɾḁs.ɕa.i.ma.se na.ni ni ɕi.ma.sɯ.ka/",
+      "phonetic_simple": "I-RASH-SHA-I-MA-SÉ ! NA-NI NI CHI-MASS-KA ?",
+      "translation": "Bienvenue ! Qu'allez-vous choisir ?"
+    },
+    {
+      "speaker": "客 (Client)",
+      "text": "ええと、ラーメンを一つと、お茶をください。",
+      "phonetic_api": "/eː.to ɾaː.meɴ o çi.to.t͡sɯ to o.t͡ɕa o kɯ.da.sa.i/",
+      "phonetic_simple": "ÉETO, RAA-MEN O CHI-TOT-SOU TO, O-TCHA O KOU-DA-SA-I.",
+      "translation": "Alors... Un ramen s'il vous plaît, et du thé."
+    },
+    {
+      "speaker": "店員 (Serveur)",
+      "text": "はい、かしこまりました。少々お待ちください。",
+      "phonetic_api": "/ha.i ka.ɕi.ko.ma.ɾi.ma.ɕi.ta ɕoː.ɕoː o.ma.t͡ɕi kɯ.da.sa.i/",
+      "phonetic_simple": "HAI, KA-CHI-KO-MA-RI-MA-CH-TA. CHOO-CHOO O-MAT-THI KOU-DA-SA-I.",
+      "translation": "Très bien, c'est noté. Veuillez patienter un instant."
+    },
+    {
+      "speaker": "客 (Client)",
+      "text": "(Le plat arrive) いただきます。…とても美味しいです！",
+      "phonetic_api": "/i.ta.da.ki.ma.sɯ̥ to.te.mo o.i.ɕiː de.sɯ̥/",
+      "phonetic_simple": "IT-TA-DA-KI-MASS. ... TO-TÉ-MO O-I-CHII DESS !",
+      "translation": "Bon appétit. ... C'est vraiment délicieux !"
+    }
+  ],
+  "cultural_notes": [
+    "Le préfixe honorifique お (o) s'appose devant de nombreux termes liés à la table ('o-mizu', 'o-cha', 'o-kashi') pour embellir la langue (Bikago). Cet usage exprime un respect sous-jacent envers les éléments naturels procurés.",
+    "Au Japon, il n'y a absolument aucun pourboire. Donner de l'argent supplémentaire dans un restaurant est perçu comme une bizarrerie ou une insulte. Le paiement s'effectue presque toujours à la caisse située près de la sortie, et non à table."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la structure syntaxique exacte pour passer commande d'un café ?",
+      "options": [
+        "コーヒーをください (Kōhī o kudasai)",
+        "コーヒーはあります (Kōhī wa arimasu)",
+        "くださいコーヒーを (Kudasai kōhī o)"
+      ],
+      "correct_answer": "コーヒーをください (Kōhī o kudasai)",
+      "explanation": "L'objet ('kōhī') précède la particule d'objet direct 'o', suivie de l'impératif de politesse 'kudasai'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "En fin de repas, pour remercier le personnel, on s'exclame : ごちそうさまで[ ___ ]。",
+      "correct_answer": "した",
+      "hint": "Forme passée polie marquant la fin de l'action de manger."
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "L'utilisation des temps complexes et des modes avancés",
+  "learning_objectives": [
+    "Maîtriser le conditionnel passé et le subjonctif avec la marque 'ka' en contexte complexe",
+    "Exprimer une antériorité reculée (plus-que-parfait) avec le double marqueur 'tun... -ra'",
+    "Nuancer le discours en utilisant l'aspect itératif et fréquentatif avancé"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La particule complexe 'tereen' ou 'tun' (/tũ/) demande une nasalisation complète. Dans la structure verbale 'bɛ kɛ la', la syllabe finale 'la' s'articule de manière très brève, presque clitique.",
+    "common_pitfalls": "Ne pas confondre l'aspect habituel présent 'bɛ... kɛ' avec l'aspect accompli itératif passé 'tun bɛ... kɛ'. Veillez à marquer l'accent sur la voyelle double de 'tereen'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_1",
+      "term": "Tereen",
+      "phonetic_api": "/te.reːn/",
+      "phonetic_simple": "TÉ-RÉEN",
+      "translation": "Était jadis / Marqueur d'antériorité reculée ou de conditionnel",
+      "example_sentence": "A tereen bɛ n bɔ la",
+      "example_phonetic": "/a te.reːn bɛ n̩ bɔ la/",
+      "example_translation": "Il aurait dû / était sur le point de me rendre visite."
+    },
+    {
+      "word_id": "v1_2",
+      "term": "Tun",
+      "phonetic_api": "/tũ/",
+      "phonetic_simple": "TOUN",
+      "translation": "Déjà / Jadis (particule de recul temporel)",
+      "example_sentence": "N tun tara ko",
+      "example_phonetic": "/n̩ tũ ta.ra ko/",
+      "example_translation": "J'étais déjà parti (plus-que-parfait)."
+    },
+    {
+      "word_id": "v1_3",
+      "term": "Nka",
+      "phonetic_api": "/n̩.ka/",
+      "phonetic_simple": "N-KA",
+      "translation": "Mais / Cependant",
+      "example_sentence": "N tun bɛ se la nka n mu a kɛ",
+      "example_phonetic": "/n̩ tũ bɛ se la n̩.ka n̩ mu a kɛ/",
+      "example_translation": "J'en étais capable, mais je ne l'ai pas fait."
+    },
+    {
+      "word_id": "v1_4",
+      "term": "Hali do",
+      "phonetic_api": "/ha.li do/",
+      "phonetic_simple": "HA-LI DO",
+      "translation": "Même un jour / Même si",
+      "example_sentence": "Hali do a mu nana",
+      "example_phonetic": "/ha.li do a mu na.na/",
+      "example_translation": "Même à ce jour, il n'est pas venu."
+    },
+    {
+      "word_id": "v1_5",
+      "term": "Kɔni",
+      "phonetic_api": "/kɔ.ni/",
+      "phonetic_simple": "KƆ-NI",
+      "translation": "Certes / Cependant / En tout cas",
+      "example_sentence": "N ka baara kɔni ka gbanan",
+      "example_phonetic": "/n̩ ka baː.ra kɔ.ni ka ɡ͡ba.nã/",
+      "example_translation": "Mon travail est certes difficile."
+    },
+    {
+      "word_id": "v1_6",
+      "term": "Yalisa",
+      "phonetic_api": "/ja.li.sa/",
+      "phonetic_simple": "YA-LI-SA",
+      "translation": "Afin que / Pour que (subjonctif de but)",
+      "example_sentence": "N nana yan yalisa i ka n ladon",
+      "example_phonetic": "/n̩ na.na d͡ʒan ja.li.sa i ka n̩ la.dõ/",
+      "example_translation": "Je suis venu ici afin que tu me conseilles."
+    },
+    {
+      "word_id": "v1_7",
+      "term": "Tumado",
+      "phonetic_api": "/tu.ma.do/",
+      "phonetic_simple": "TOU-MA-DO",
+      "translation": "Parfois / Quelquefois",
+      "example_sentence": "Tumado a bɛ kasi la",
+      "example_phonetic": "/tu.ma.do a bɛ ka.si la/",
+      "example_translation": "Parfois, il pleure."
+    },
+    {
+      "word_id": "v1_8",
+      "term": "Sila fɛ",
+      "phonetic_api": "/si.la fɛ/",
+      "phonetic_simple": "SI-LA FƐ",
+      "translation": "Par le moyen de / À travers",
+      "example_sentence": "O sila fɛ an bɛ se la",
+      "example_phonetic": "/o si.la fɛ an bɛ se la/",
+      "example_translation": "Par ce moyen, nous réussirons."
+    },
+    {
+      "word_id": "v1_9",
+      "term": "Kabila",
+      "phonetic_api": "/ka.bi.la/",
+      "phonetic_simple": "KA-BI-LA",
+      "translation": "Depuis que / Dès lors",
+      "example_sentence": "Kabila n tara, a mu n mɛn",
+      "example_phonetic": "/ka.bi.la n̩ ta.ra a mu n̩ mɛn/",
+      "example_translation": "Depuis que je suis parti, il ne m'a pas entendu."
+    },
+    {
+      "word_id": "v1_10",
+      "term": "Wati do",
+      "phonetic_api": "/wa.ti do/",
+      "phonetic_simple": "OUA-TI DO",
+      "translation": "Toujours / Tout le temps",
+      "example_sentence": "A bɛ baara la wati do",
+      "example_phonetic": "/a bɛ baː.ra la wa.ti do/",
+      "example_translation": "Il est tout le temps au travail."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_1",
+      "original": "N tun tara ko yalisa n ka n mɔgɔba lu bɔ.",
+      "phonetic_api": "/n̩ tũ ta.ra ko ja.li.sa n̩ ka n̩ mɔ.ɡɔ.ba lu bɔ/",
+      "phonetic_simple": "N TOUN TA-RA KO YA-LI-SA N KA N MƆ-GƆ-BA LOU BƆ.",
+      "translation": "J'étais déjà parti afin de rendre visite à mes grands-parents.",
+      "context": "Justifier une action passée complexe et antérieure à un repère narratif."
+    },
+    {
+      "phrase_id": "p1_2",
+      "original": "A tereen bɛ n dila fɛ nka wari mu tun n bolo.",
+      "phonetic_api": "/a te.reːn bɛ n̩ di.la fɛ n̩.ka wa.ri mu tũ n̩ bo.lo/",
+      "phonetic_simple": "A TÉ-RÉEN BƐ N DI-LA FƐ N-KA OUA-RI MOU TOUN N BOLO.",
+      "translation": "Il aurait voulu me payer, mais il n'avait plus d'argent sur lui.",
+      "context": "Formuler une structure irréelle du passé ou un regret économique."
+    },
+    {
+      "phrase_id": "p1_3",
+      "original": "Kabila n nana yan, a bɛ n ladon la wati do.",
+      "phonetic_api": "/ka.bi.la n̩ na.na d͡ʒan a bɛ n̩ la.dõ la wa.ti do/",
+      "phonetic_simple": "KA-BI-LA N NA-NA YAN, A BƐ N LA-DON LA OUA-TI DO.",
+      "translation": "Depuis que je suis arrivé ici, il me conseille tout le temps.",
+      "context": "Exprimer une continuité aspectuelle temporelle depuis un point fixe."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction du plus-que-parfait avec 'tun... -ra'",
+      "explanation": "Pour marquer l'antériorité absolue d'une action par rapport à une autre action passée dans le récit, le malinké combine la marque de recul temporel 'tun' placée après le sujet et le suffixe d'accompli intransitif '-ra' ou transitif en fin de racine.",
+      "rules": [
+        "Structure : Sujet + 'tun' + Racine du verbe + '-ra' (ou marque transitive)."
+      ],
+      "examples": [
+        {
+          "structure": "N tun bɔra ko",
+          "phonetic_api": "/n̩ tũ bɔ.ra ko/",
+          "meaning": "J'étais déjà sorti."
+        }
+      ]
+    },
+    {
+      "concept": "Le mode subjonctif final avec 'yalisa... ka'",
+      "explanation": "Pour exprimer le but vers lequel tend une action complexe ('afin que' / 'dans l'intention de'), on introduit la proposition subordonnée par la conjonction 'yalisa' et on utilise la particule injonctive-subjonctive 'ka' devant le verbe de l'action visée.",
+      "rules": [
+        "Structure : Proposition principale + 'yalisa' + Sujet + 'ka' + Verbe."
+      ],
+      "examples": [
+        {
+          "structure": "Yalisa an ka se",
+          "phonetic_api": "/ja.li.sa an ka se/",
+          "meaning": "Afin que nous puissions réussir."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine",
+      "text": "Moussa, kunu wula la n tun tara i ka so la. I tereen bɛ mi ?",
+      "phonetic_api": "/mu.sa ku.nu wu.la la n̩ tũ ta.ra i ka so la i te.reːn bɛ mi/",
+      "phonetic_simple": "MOUS-SA, KOU-NOU OU-LA LA N TOUN TA-RA I KA SO LA. I TÉ-RÉEN BƐ MI ?",
+      "translation": "Moussa, hier après-midi j'étais déjà allé chez toi. Où étais-tu passé ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Nba Lamine. N tun bɔra so kɔnɔla yalisa n ka n ka baarakɛyɔrɔ dila.",
+      "phonetic_api": "/n̩.ba la.min n̩ tũ bɔ.ra so kɔ.nɔ.la ja.li.sa n̩ ka n̩ ka baː.ra.kɛ.jɔ.rɔ di.la/",
+      "phonetic_simple": "N-BA LA-MINE. N TOUN BƆ-RA SO KƆ-NƆ-LA YA-LI-SA N KA N KA BAA-RA-KƐ-YƆ-RƆ DI-LA.",
+      "translation": "Bonjour Lamine. J'étais déjà sorti de la maison afin d'organiser mon lieu de travail."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "O ! N tun bɛ i mirila fɛ yan, nka i ka fani kɔni mu tun bɛ so dafɛ.",
+      "phonetic_api": "/o n̩ tũ bɛ i mi.ri.la fɛ d͡ʒan n̩.ka i ka fa.ni kɔ.ni mu tũ bɛ so da.fɛ/",
+      "phonetic_simple": "O ! N TOUN BƐ I MI-RI-LA FƐ YAN, N-KA I KA FA-NI KƆ-NI MOU TOUN BƐ SO DA-FƐ.",
+      "translation": "Oh ! J'avais l'intention de te voir ici, mais ton tissu n'était pourtant plus près de la porte."
+    },
+    {
+      "speaker": "Moussa",
+      "text": "Kabila n tara, tumado n bɛ n ka sariya dila la. Hali do an bɛ se la, Ala k'a kɛ !",
+      "phonetic_api": "/ka.bi.la n̩ ta.ra tu.ma.do n̩ bɛ n̩ ka sa.ri.ja di.la la ha.li do an bɛ se la a.la k'a kɛ/",
+      "phonetic_simple": "KA-BI-LA N TA-RA, TOU-MA-DO N BƐ N KA SA-RI-YA DI-LA LA. HA-LI DO AN BƐ SÉ LA, A-LA K'A KƐ !",
+      "translation": "Depuis que je suis parti, j'organise parfois mes règles de gestion. Même à l'avenir nous réussirons, espérons-le !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'éloquence supérieure oratoire du Mandingue, l'usage fluide des temps reculés ('tun... -ra') et des modalisateurs comme 'tereen' permet au locuteur de démontrer sa maîtrise de la lignée historique du récit. C'est le style caractéristique des palabres solennelles sous l'arbre à palabres."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L1_ex1",
+      "type": "multiple_choice",
+      "question": "Quelle structure grammaticale exprime le plus-que-parfait d'action ?",
+      "options": [
+        "bɛ... la",
+        "tun... -ra",
+        "kana... kɛ"
+      ],
+      "correct_answer": "tun... -ra",
+      "explanation": "L'association de la particule d'antériorité 'tun' et du suffixe d'accompli '-ra' recule l'action dans le passé absolu."
+    },
+    {
+      "exercise_id": "C1_M1_L1_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N nana yan [ ___ ] i ka n ka fɔ mɛn (Je suis venu afin que tu écoutes mes paroles).",
+      "correct_answer": "yalisa",
+      "hint": "C'est la conjonction finale supérieure équivalente à 'pour que/afin que'."
+    }
+  ]
+}

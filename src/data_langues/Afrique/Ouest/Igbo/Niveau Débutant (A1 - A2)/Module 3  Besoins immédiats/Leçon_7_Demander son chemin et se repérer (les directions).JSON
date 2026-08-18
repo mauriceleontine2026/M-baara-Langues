@@ -1,0 +1,260 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Formuler des questions d'orientation spatiale et de localisation",
+    "Comprendre et appliquer les directives directionnelles fondamentales",
+    "Identifier les principaux points de repère urbains et ruraux"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Examinez le mot 'Ahia' (Marché) ou 'Ebe' (Lieu). Le phonème /ɣ/ écrit 'gh' dans 'Gbaghara' exige une articulation continue sans occlusion, similaire au 'r' français. Ne détachez pas la nasale syllabique initiale dans 'Nkwụsị'.",
+    "common_pitfalls": "Faites attention au mot 'Akụkụ' (Côté/Bord). Il utilise les voyelles lourdes 'ụ' et nécessite une prononciation ouverte. Ne confondez pas le ton haut-bas de 'Ákwà' (vêtement) avec la topologie directionnelle."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v7_1",
+      "term": "Ebe",
+      "phonetic_api": "/éɓé/",
+      "phonetic_simple": "EH-BEH",
+      "translation": "Lieu / Endroit / Où",
+      "example_sentence": "Kedu ebe ị na-aga?",
+      "example_phonetic": "/kèdú éɓé ị̀ nā-āɡá/",
+      "example_translation": "Où vas-tu ?"
+    },
+    {
+      "word_id": "v7_2",
+      "term": "Ụzọ",
+      "phonetic_api": "/ʊ̀zɔ́/",
+      "phonetic_simple": "OU-ZOH",
+      "translation": "Chemin / Route / Voie",
+      "example_sentence": "Gosi m ụzọ ahia biko.",
+      "example_phonetic": "/ɡòsɪ́ m ʊ̀zɔ́ áɦịá bíkó/",
+      "example_translation": "Montre-moi le chemin du marché s'il te plaît."
+    },
+    {
+      "word_id": "v7_3",
+      "term": "Ahia",
+      "phonetic_api": "/áɦịá/",
+      "phonetic_simple": "AH-HYAH",
+      "translation": "Marché",
+      "example_sentence": "Ahia nọ nso na be anyị.",
+      "example_phonetic": "/áɦịá nɔ́ ńsō ná bé āɲɪ́/",
+      "example_translation": "Le marché est proche de notre maison."
+    },
+    {
+      "word_id": "v7_4",
+      "term": "Nkwụsị",
+      "phonetic_api": "/ŋ́kwʊ̀sɪ́/",
+      "phonetic_simple": "N-KWOU-SEE",
+      "translation": "Arrêt / Station",
+      "example_sentence": "Nkwụsị bọs dị n'ihu.",
+      "example_phonetic": "/ŋ́kwʊ̀sɪ́ ɓɔ́sị̀ dɪ́ nɪ́ɦú/",
+      "example_translation": "L'arrêt de bus est devant."
+    },
+    {
+      "word_id": "v7_5",
+      "term": "Aka nri",
+      "phonetic_api": "/áká ńɾī/",
+      "phonetic_simple": "AH-KAH N-REE",
+      "translation": "Main droite / À droite",
+      "example_sentence": "Gbagharịa n'aka nri gị.",
+      "example_phonetic": "/ɡ͡ɓàɣàɾɪ́á náshá ńɾī ɟɪ́/",
+      "example_translation": "Tourne sur ta droite."
+    },
+    {
+      "word_id": "v7_6",
+      "term": "Aka ekpe",
+      "phonetic_api": "/áká ékpè/",
+      "phonetic_simple": "AH-KAH EKH-PEH",
+      "translation": "Main gauche / À gauche",
+      "example_sentence": "Ụlọ ọgwụ nọ n'aka ekpe.",
+      "example_phonetic": "/ʊ̀lɔ́ ɔ̀ɡʷʊ́ nɔ́ náká ékpè/",
+      "example_translation": "L'hôpital est à gauche."
+    },
+    {
+      "word_id": "v7_7",
+      "term": "Ihu",
+      "phonetic_api": "/íɦú/",
+      "phonetic_simple": "EE-HOO",
+      "translation": "Visage / Devant / En face",
+      "example_sentence": "Gaba n'ihu d直線.",
+      "example_phonetic": "/ɡábá nɪ́ɦú tʃáː/",
+      "example_translation": "Va tout droit."
+    },
+    {
+      "word_id": "v7_8",
+      "term": "Azụ",
+      "phonetic_api": "/āzʊ́/",
+      "phonetic_simple": "AH-ZOU",
+      "translation": "Dos / Derrière",
+      "example_sentence": "Ụlọ akwụkwọ nọ n'azụ gị.",
+      "example_phonetic": "/ʊ̀lọ́ ákwʊ́kwɔ̀ nɔ́ nāzʊ́ ɟɪ́/",
+      "example_translation": "L'école est derrière toi."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p7_1",
+      "original": "Biko, gbaghara m, kedu ebe ụlọ ọgwụ dị?",
+      "phonetic_api": "/bíkó ɡ͡ɓàɣàɾá m kèdú éɓé ʊ̀lɔ́ ɔ̀ɡʷʊ́ dɪ́/",
+      "phonetic_simple": "BEE-KOH GBA-GHA-RAH M KEH-DOU EH-BEH OU-LOH OH-GWOU DEE",
+      "translation": "S'il vous plaît, excusez-moi, où se trouve l'hôpital ?",
+      "context": "Formule d'approche polie dans la rue pour demander une direction."
+    },
+    {
+      "phrase_id": "p7_2",
+      "original": "Ụzọ a ọ na-aga n'ahia?",
+      "phonetic_api": "/ʊ̀zɔ́ á ɔ́ nā-āɡá náɦịá/",
+      "phonetic_simple": "OU-ZOH AH OH NAH-AH-GAH NAH-HYAH",
+      "translation": "Cette route mène-t-elle au marché ?",
+      "context": "Vérifier la destination d'un chemin."
+    },
+    {
+      "phrase_id": "p7_3",
+      "original": "Gaba n'ihu, pịarịa n'aka nri.",
+      "phonetic_api": "/ɡábá nɪ́ɦú p̄ɪ̀àɾɪ́á náká ńɾī/",
+      "phonetic_simple": "GAH-BAH NEE-HOO PEE-AH-REE-AH NAH-KAH N-REE",
+      "translation": "Va devant, puis tourne à droite.",
+      "context": "Donner une indication simple en deux étapes."
+    },
+    {
+      "phrase_id": "p7_4",
+      "original": "Ọ nọ nso mọọbụ ọ dị anya?",
+      "phonetic_api": "/ɔ́ nɔ́ ńsō mɔ́ɔ̀ɓʊ́ ɔ́ dɪ́ áɲá/",
+      "phonetic_simple": "OH NOH N-SOH MOH-OH-BOO OH DEE AH-NYAH",
+      "translation": "Est-ce proche ou est-ce loin ?",
+      "context": "S'enquérir de la distance de marche."
+    },
+    {
+      "phrase_id": "p7_5",
+      "original": "Ọ dị nso, ị nwere ike ije ije.",
+      "phonetic_api": "/ɔ́ dɪ́ ńsō ị̀ nwèɾé īké īdʒé īdʒé/",
+      "phonetic_simple": "OH DEE N-SOH EE NWEH-REH EE-KEH EE-JEH EE-JEH",
+      "translation": "C'est proche, tu peux y aller à pied.",
+      "context": "Rassurer sur l'accessibilité piétonne."
+    },
+    {
+      "phrase_id": "p7_6",
+      "original": "M furu ụzọ, biko nyere m aka.",
+      "phonetic_api": "/m fùɾù ʊ̀zɔ́ bíkó ɲèɾé m áká/",
+      "phonetic_simple": "M FOO-ROO OU-ZOH BEE-KOH NYEH-REH M AH-KAH",
+      "translation": "Je me suis perdu, s'il te plaît aide-moi.",
+      "context": "Demande d'assistance en cas de désorientation."
+    },
+    {
+      "phrase_id": "p7_7",
+      "original": "Kedu ebe nkwụsị bọs kacha nso dị?",
+      "phonetic_api": "/kèdú éɓé ŋ́kwʊ̀sɪ́ ɓɔ́sị̀ kátʃá ńsō dɪ́/",
+      "phonetic_simple": "KEH-DOU EH-BEH N-KWOU-SEE BOH-SEE KAH-CHA N-SOH DEE",
+      "translation": "Où se trouve l'arrêt de bus le plus proche ?",
+      "context": "Chercher un transport public urbain."
+    },
+    {
+      "phrase_id": "p7_8",
+      "original": "Nọrọ ebe a, m na-abịa.",
+      "phonetic_api": "/nɔ̀ɾɔ́ éɓé á m nāːɓị́á/",
+      "phonetic_simple": "NOH-ROH EH-BEH AH M NAH-AH-BEE-AH",
+      "translation": "Reste ici, j'arrive.",
+      "context": "Demander à quelqu'un d'attendre à un point précis."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La locution prépositionnelle spatiale 'Na' combinée aux parties du corps",
+      "explanation": "Pour exprimer la position spatiale (devant, derrière, à côté), l'igbo utilise la préposition universelle 'na' (souvent élidée en n') combinée avec des substantifs désignant originellement des parties de l'anatomie humaine comme 'Ihu' (visage/devant) ou 'Azụ' (dos/derrière).",
+      "rules": [
+        "Na + Ihu = N'ihu (En face / Devant).",
+        "Na + Azụ = N'azụ (Derrière / Au dos).",
+        "L'élision se produit devant les noms commençant par une voyelle."
+      ],
+      "examples": [
+        {
+          "structure": "Na + [Substantif anatomique spatial]",
+          "phonetic_api": "/nɪ́ɦú ʊ̀lɔ́/",
+          "meaning": "N'ihu ụlọ (Devant la maison / En face de la maison)"
+        }
+      ]
+    },
+    {
+      "concept": "La construction de la question de localisation avec 'Kedu ebe... dị'",
+      "explanation": "Pour demander l'emplacement d'un lieu fixe, la structure Igbo requiert l'association du marqueur 'Kedu ebe' (Quel endroit), du sujet nominal, et du verbe de situation ou d'état 'dị' (être localisé) en fin de proposition.",
+      "rules": [
+        "La phrase commence obligatoirement par 'Kedu ebe'.",
+        "Le verbe 'dị' termine la proposition interrogative principale."
+      ],
+      "examples": [
+        {
+          "structure": "Kedu ebe + [Lieu] + dị ?",
+          "phonetic_api": "/kèdú éɓé áɦịá dɪ́/",
+          "meaning": "Kedu ebe ahia dị? (Où est le marché ?)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Chidi (Voyageur)",
+      "text": "Biko Maazị, gbaghara m. Kedu ebe ụlọ akwụkwọ kacha nso dị?",
+      "phonetic_api": "/bíkó māːzɪ̀ ɡ͡ɓàɣàɾá m kèdú éɓé ʊ̀lọ́ ákwʊ́kwɔ̀ kátʃá ńsō dɪ́/",
+      "phonetic_simple": "BEE-KOH MAAH-ZEE GBA-GHA-RAH M KEH-DOU EH-BEH OU-LOH AH-KWOU-KWOH KAH-CHA N-SOH DEE",
+      "translation": "S'il vous plaît Monsieur, excusez-moi. Où se trouve l'école la plus proche ?"
+    },
+    {
+      "speaker": "Maazị Nwachukwu (Habitant)",
+      "text": "Ụlọ akwụkwọ? Ọ dị nso. Gaba n'ihu ụzọ a, ị ga-ahụ nnukwu osisi nkwụ.",
+      "phonetic_api": "/ʊ̀lọ́ ákwʊ́kwɔ̀ ɔ́ dɪ́ ńsō ɡábá nɪ́ɦú ʊ̀zɔ́ á ị̀ ɡáàɦʊ́ nnūkwū ōsīsī ŋ́kwʊ́/",
+      "phonetic_simple": "OU-LOH AH-KWOU-KWOH OH DEE N-SOH GAH-BAH NEE-HOO OU-ZOH AH EE GAH-AH-HOU N-NOO-KWOO OH-SEE-SEE N-KWOU",
+      "translation": "L'école ? C'est proche. Va tout droit sur cette route, tu verras un grand palmier."
+    },
+    {
+      "speaker": "Chidi (Voyageur)",
+      "text": "Ehee, m hụọ osisi nkwụ ahụ, kedu ebe m ga-agba?",
+      "phonetic_api": "/éɦéː m ɦʊ́ɔ́ ōsīsī ŋ́kwʊ́ àɦʊ́ kèdú éɓé m ɡáàɡ͡ɓá/",
+      "phonetic_simple": "EH-HEH-EH M HOU-OH OH-SEE-SEE N-KWOU AH-HOU KEH-DOU EH-BEH M GAH-AH-GBA",
+      "translation": "D'accord, quand je verrai ce palmier, de quel côté dois-je tourner ?"
+    },
+    {
+      "speaker": "Maazị Nwachukwu (Habitant)",
+      "text": "Pịarịa n'aka ekpe gị n'akụkụ osisi ahụ. Ụlọ akwụkwọ nọ n'ihu gị.",
+      "phonetic_api": "/p̄ɪ̀àɾɪ́á náká ékpè ɟɪ́ nàkʊ́kʊ́ ōsīsī àɦʊ́ ʊ̀lọ́ ákwʊ́kwɔ̀ nɔ́ nɪ́ɦú ɟɪ́/",
+      "phonetic_simple": "PEE-AH-REE-AH NAH-KAH EKH-PEH GEE NAH-KOU-KOU OH-SEE-SEE AH-HOU OU-LOH AH-KWOU-KWOH NOH NEE-HOO GEE",
+      "translation": "Tourne sur ta gauche à côté de cet arbre. L'école sera juste en face de toi."
+    },
+    {
+      "speaker": "Chidi (Voyageur)",
+      "text": "Imela ọfụma, Maazị. Daalụ maka enyemaka gị.",
+      "phonetic_api": "/ímélá ɔ̀fʊ́mā māːzɪ̀ dāːlʊ́ máká éɲémáká ɟɪ́/",
+      "phonetic_simple": "EE-MEH-LAH OH-FOU-MAH MAAH-ZEE DAAH-LOU MA-KAH EH-NYEH-MA-KAH GEE",
+      "translation": "Merci beaucoup, Monsieur. Merci pour votre aide."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les zones rurales ou les marchés traditionnels du pays Igbo, les indications routières reposent rarement sur des noms de rues ou des numéros, mais s'appuient sur des repères naturels et vivants majeurs comme 'Osisi nkwụ' (palmier), 'Ama' (place du village) ou de grands arbres sacrés (Ubakiri).",
+    "L'idéophone 'Cháá' ou 'Gbam' combiné avec 'n'ihu' accentue l'idée d'une trajectoire parfaitement rectiligne sans aucune déviation."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex7_1",
+      "type": "multiple_choice",
+      "question": "Quelle expression signifie précisément 'À droite' en igbo standard ?",
+      "options": [
+        "Aka ekpe",
+        "Aka nri",
+        "N'azụ"
+      ],
+      "correct_answer": "Aka nri",
+      "explanation": "'Aka nri' désigne la main droite ou la direction droite, tandis que 'Aka ekpe' signifie la gauche."
+    },
+    {
+      "exercise_id": "ex7_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Kedu ebe ahia [ ___ ]?",
+      "correct_answer": "dị",
+      "hint": "Le verbe de situation d'état nécessaire pour clore une question sur la localisation."
+    }
+  ]
+}

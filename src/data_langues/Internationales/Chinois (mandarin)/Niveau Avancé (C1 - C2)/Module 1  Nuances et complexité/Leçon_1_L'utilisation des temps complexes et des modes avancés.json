@@ -1,0 +1,214 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés en chinois mandarin",
+  "learning_objectives": [
+    "Exprimer des actions successives immédiates ou des causalités temporelles strictes avec 随着 (suízhe) et 一旦 (yīdàn)",
+    "Maîtriser la simultanéité évolutive d'événements à l'aide de la structure 并在 (bìngzài) ou 同时 (tóngshí)",
+    "Utiliser les structures idiomatiques formelles du passé accompli ou des antériorités absolues comme 固然 (gùrán)",
+    "Nuancer le positionnement temporel des faits dans un discours soutenu ou un rapport écrit"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Ce niveau avancé exige une fluidité parfaite et le respect absolu des registres de langue. Le mot 随着 (suízhe - au fur et à mesure de / avec) demande une sifflante alvéolaire sourde /s/ au 2ème ton montant, enchaînée sans coupure avec un 3ème ton bas fléchi (zhe) qui requiert une rétroflexion précise de la langue. Le terme 一旦 (yīdàn - une fois que / sitôt que) applique la règle de sandhi du chiffre 一 (yī) : devant un 4ème ton (dàn), il commute impérativement en un 2ème ton montant (yí).",
+    "common_pitfalls": "Faites attention au mot 同时 (tóngshí - en même temps) : les deux caractères sont au 2ème ton montant. Veillez à ne pas relâcher le second ton sous l'effet de la vitesse. Pour 固然 (gùrán - certes / sans doute), le premier ton doit être un 4ème ton tombant extrêmement sec et franc, suivi d'un 2ème ton montant fluide."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "随着",
+      "phonetic_api": "/sweɪ̯˧˥ tʂʐ̩˨˩˦/",
+      "phonetic_simple": "SOUAY-TCHEU",
+      "translation": "Au fur et à mesure de / À la suite de / Avec (l'évolution de)",
+      "example_sentence": "随着经济的发展，人们的生活水平显著提高。",
+      "example_phonetic": "/sweɪ̯˧˥ tʂʐ̩˨˩˦ tɕiŋ˥˩ tɕi˥˩ dɤ fa˧˥ tʂan˨˩˦ ʐən˧˥ mən dɤ ʂəŋ˥ xwɔ˧˥ ʂwei̯˨˩˦ pʰiŋ˧˥ ɕi̯an Wait ʔtʂu˥˩ tʰi˧˥ kaʊ̯˥/",
+      "example_translation": "Au fur et à mesure du développement économique, le niveau de vie de la population s'est nettement amélioré."
+    },
+    {
+      "word_id": "v2",
+      "term": "一旦",
+      "phonetic_api": "/i˧˥ tan˥˩/",
+      "phonetic_simple": "EE-DAN",
+      "translation": "Une fois que / Sitôt que / Si jamais (action future ou hypothétique décisive)",
+      "example_sentence": "这个问题一旦解决，后续工作就会顺利得多。",
+      "example_phonetic": "/tʂɤ kɤ wen Wait ʔtʰi i˧˥ tan˥˩ tɕi̯ɛ Wait ʔtɕɥ̯ɛ˧˥ xoʊ̯˥˩ ɕɥ̯˥ kʊŋ˥ dzwɔ tɕi̯oʊ̯˥˩ xwei̯˥˩ ʂwən˥˩ li˥˩ dɤ dwɔ˥/",
+      "example_translation": "Une fois ce problème résolu, le travail à suivre sera beaucoup plus fluide."
+    },
+    {
+      "word_id": "v3",
+      "term": "同时",
+      "phonetic_api": "/tʰʊŋ˧˥ ʂʐ̩˧˥/",
+      "phonetic_simple": "THONG-CHEI",
+      "translation": "En même temps / Simultanément / De surcroît",
+      "example_sentence": "他在进行学术研究的同时，还担任学校的教职。",
+      "example_phonetic": "/tʰa˥ dzaɪ̯ tɕin˥˩ ɕiŋ˧˥ ɕy̯ɛ˧˥ ʂu˥˩ jjan˧˥ tɕi̯u˥˩ dɤ tʰʊŋ˧˥ ʂʐ̩˧˥ xaɪ̯˧˥ tan˥ ʐən˥ ɕy̯ɛ˧˥ ɕi̯aʊ̯ dɤ tɕi̯aʊ̯˥ tʂʐ̩ Wait ʔ/",
+      "example_translation": "Tout en menant ses recherches académiques, il occupe simultanément un poste d'enseignant à l'université."
+    },
+    {
+      "word_id": "v4",
+      "term": "固然",
+      "phonetic_api": "/ku˥˩ ʐan˧˥/",
+      "phonetic_simple": "GOU-RAN",
+      "translation": "Certes / Sans doute / Il est vrai que (concession solennelle)",
+      "example_sentence": "个人的努力固然重要, 但团队合作也必不可少。",
+      "example_phonetic": "/kɤ ʐən dɤ nu˨˩˦ li˥˩ ku˥˩ ʐan˧˥ tʂʊŋ jaʊ̯ dan tʰwanz 隊 xɤ dzwɔ jɛ pi˥˩ pu kʰɤ Wait ʔʂaʊ̯˨˩˦/",
+      "example_translation": "L'effort personnel est certes important, mais le travail d'équipe est lui aussi indispensable."
+    },
+    {
+      "word_id": "v5",
+      "term": "并在",
+      "phonetic_api": "/piŋ˥˩ dzaɪ̯˥˩/",
+      "phonetic_simple": "BING-DZAÏ",
+      "translation": "Et par la même occasion / Tout en étant dans / Et se situer",
+      "example_sentence": "他出席了会议，并在发言中提出了新的方案。",
+      "example_phonetic": "/tʰa˥ tɕʰu˧˥ ɕi Wait ʔlɤ xwei̯˥˩ i˥ piŋ˥˩ dzaɪ̯˥˩ fa˥ jjan˥ tʂʊŋ tʰi˧˥ tɕʰu˥ ɕin dɤ faŋ˥ an˥/",
+      "example_translation": "Il a assisté à la réunion et a, dans son allocution, proposé un nouveau plan."
+    },
+    {
+      "term": "与此同时",
+      "word_id": "v6",
+      "phonetic_api": "/ɥ̯ Wait ʔtsʰʐ̩ Wait ʔtʰʊŋ˧˥ ʂʐ̩˧˥/",
+      "phonetic_simple": "YU-TSÉ-THONG-CHEI",
+      "translation": "Parallèlement à cela / Conjointement / Dans le même temps",
+      "example_sentence": "市场竞争在加剧，与此同时，技术更新也在加快。",
+      "example_phonetic": "/ʂʐ̩ tʂʰaŋ tɕiŋ dzeŋ dzaɪ̯ tɕi̯a˥ tɕɥ̯ Wait ʔɥ̯ Wait ʔtsʰʐ̩ Wait ʔtʰʊŋ˧˥ ʂʐ̩˧˥ tɕi Wait ʔʂu kəŋ Wait ʔxin doʊ̯ jɛ tɕi̯a˥ kʰwaɪ̯˥˩/",
+      "example_translation": "La concurrence sur le marché s'intensifie ; parallèlement à cela, les mises à niveau techniques s'accélèrent elles aussi."
+    },
+    {
+      "word_id": "v7",
+      "term": "进而",
+      "phonetic_api": "/tɕin˥˩ ər˧˥/",
+      "phonetic_simple": "TCHIN-ER",
+      "translation": "Et ensuite / Pour ensuite passer à / Par voie de conséquence",
+      "example_sentence": "我们要先调查市场需求，进而制定销售策略。",
+      "example_phonetic": "/wo˨˩˦ mən jaʊ̯ ɕi̯ɛn diaʊ̯ tʂa ʂʐ̩ tʂʰaŋ ɕy̯ tɕi̯oʊ̯ tɕin˥˩ ər˧˥ tʂʐ̩ tiŋ ɕi̯aʊ̯ ʂoʊ̯ tsʰɤ/",
+      "example_translation": "Nous devons d'abord analyser la demande du marché, pour ensuite élaborer notre stratégie commerciale."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "随着全球化进程的加快，跨文化交流显得尤为重要。",
+      "phonetic_api": "/sweɪ̯˧˥ tʂʐ̩˨˩˦ tɕʰɥ̯ɛn˧˥ tɕi̯aʊ̯˥ xwa tɕin˥˩ tʂʰəŋ dɤ tɕi̯a kʰwaɪ̯ kʰwa˥ wen xwa tɕi̯aʊ̯ ljoʊ̯ ɕi̯an dɤ joʊ̯˧˥ weɪ̯˧˥ tʂʊŋ jaʊ̯/",
+      "phonetic_simple": "SOUAY-TCHEU TCHIOUÉN-CHIOU-HOUA JIN-TCHHENG DEU TCHIA-KHOUAÏ, KHOUA-OUEN-HOUA DJIAO-LIOU CHIEN-DEU YOW-WEI TCHONG-YAO.",
+      "translation": "Au fur et à mesure de l'accélération du processus de mondialisation, la communication transculturelle s'avère particulièrement cruciale.",
+      "context": "Introduction d'un exposé académique ou d'une analyse macroéconomique soutenu"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "合同一旦签署，双方就必须严格履行相关的法律义务。",
+      "phonetic_api": "/xɤ tʰʊŋ i˧˥ tan˥˩ tɕi̯ɛn ʂu ʂwaŋ fã tɕi̯oʊ̯ pi ɕy jjan kɤ ly Wait ʔɕiŋ ɕi̯aŋ kwan dɤ fa˨˩˦ ly Wait ʔi˥˩ wu˥˩/",
+      "phonetic_simple": "HOU-THONG EE-DAN TCHIEN-CHOU, CHOUANG-FANG TCHIOU BEE-XU YAN-GEU LU-CHING CHIANG-GOUAN DEU FA-LU EE-OU",
+      "translation": "Une fois le contrat signé, les deux parties se doivent de respecter strictement les obligations légales afférentes.",
+      "context": "Rappel de clauses juridiques lors d'une négociation d'affaires au niveau C1"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "这项新技术在提高生产效率的同时，也降低了运营成本。",
+      "phonetic_api": "/tʂa Wait ʔɕi̯aŋ ɕin tɕi Wait ʔʂu dzaɪ̯ tʰi kaʊ̯ ʂəŋ tsʰan ɕi̯aʊ̯ ly Wait ʔdɤ tʰʊŋ˧˥ ʂʐ̩˧˥ jɛ tɕi̯aŋ Wait ʔdi Wait ʔlɤ jɥ̯ Wait ʔiŋ tʂʰən pən/",
+      "phonetic_simple": "TCHIA XIANG CHIN TCHEE-XU DZAÏ THI-GAO CHENG-TSAN CHIAO-LU DEU THONG-CHEI, YE JIAN-DEE LEU YUEN-YING TCHHEN-BEN.",
+      "translation": "Tout en augmentant la productivité, cette nouvelle technologie réduit simultanément les coûts d'exploitation.",
+      "context": "Bilan technique ou soutenance de projet devant un comité de direction"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "他提出的观点固然有理，但在实际操作中却面临诸多困难。",
+      "phonetic_api": "/tʰa tʰi tɕu dɤ kwan ti̯ɛn ku˥˩ ʐan˧˥ joʊ̯ li Wait ʔdan dzaɪ̯ ʂʐ̩ tɕi tsʰwaʊ̯ dzwɔ tʂʊŋ tɕɥ̯ɛ Wait ʔmi̯an liŋ tʂoʊ̯ fã kʰun nan/",
+      "phonetic_simple": "THA THI-TCHOU DEU GOUAN-DIEN GOU-RAN YOW-LEE, DAN DZAÏ CHEI-DJEE TSAO-DZOUO TCHONG QUÉ MIEN-LING TCHOU-DOUO KHOUN-NAN.",
+      "translation": "Le point de vue qu'il formule est certes fondé, mais il se heurte pourtant à de nombreux obstacles dans la pratique.",
+      "context": "Formuler une objection nuancée lors d'un débat contradictoire élaboré"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la concomitance évolutive avec 随着 (suízhe)",
+      "explanation": "La préposition 随着 introduit une situation ou une variable dont les transformations entraînent des changements automatiques et graduels dans la proposition principale. Elle structure le récit autour d'une causalité évolutive formelle.",
+      "rules": [
+        "Structure : 随着 (suízhe) + [Nom complexe / Proposition nominalisée], [Sujet] + [Verbe d'évolution].",
+        "Le bloc qui suit 随着 doit obligatoirement impliquer une idée de mouvement, de changement ou de progression (ex: 时代 - l'époque, 科技 - la technologie, 进程 - le processus).",
+        "Cette tournure est l'apanage des analyses écrites et des discours officiels du niveau avancé."
+      ],
+      "examples": [
+        {
+          "structure": "随着 (Avec) + 读者需求的变化 (L'évolution des besoins des lecteurs)，我们调整了出版计划 (Nous avons réajusté le plan de publication)",
+          "phonetic_api": "/sweɪ̯˧˥ tʂʐ̩˨˩˦ tu tʂɤ ɕy̯ tɕi̯oʊ̯ dɤ pi̯an xwa wo˨˩˦ mən tʰi̯aʊ̯ tʂəŋ lɤ tɕʰu pan tɕi xwa/",
+          "meaning": "随着读者需求的变化，我们调整了出版计划。 (Suite à l'évolution des besoins des lecteurs, nous avons réajusté notre programme de publication.)"
+        }
+      ]
+    },
+    {
+      "concept": "Le conditionnel temporel irréversible avec 一旦 (yīdàn)",
+      "explanation": "L'adverbe 一旦 projette le récit dans un futur ou une hypothèse où la réalisation d'une action déclenche immédiatement et de façon irréversible une suite de conséquences majeures.",
+      "rules": [
+        "Structure : [Sujet] + 一旦 (yīdàn) + [Condition accomplie], [Conséquence incontournable] + 就 / 便 (jiù / biàn).",
+        "Une fois posé, 一旦 implique que l'action est complète, définitive et sert de point de rupture chronologique dans le raisonnement.",
+        "Il traduit le glissement du simple 'quand' vers le mode littéraire 'sitôt que' ou 'du jour où'."
+      ],
+      "examples": [
+        {
+          "structure": "信誉 (La réputation) + 一旦 (Une fois) + 失去 (Perdue)，就 (Alors) + 很难挽回 (Très difficile à rattraper)",
+          "phonetic_api": "/ɕin jy Wait ʔi˧˥ tan˥˩ ʂʐ̩ tɕy Wait ʔtɕi̯oʊ̯ xən nan wan xwei̯/",
+          "meaning": "信誉一旦失去，就很难挽回。 (Du jour où la réputation est perdue, il devient extrêmement difficile de la restaurer.)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "首席执行官 (Directeur Général)",
+      "text": "大卫，随着新一轮人工智能技术的爆发，你对我们公司未来的业务转型有什么见解？",
+      "phonetic_api": "/da˥˩ weɪ̯˥˩ sweɪ̯˧˥ tʂʐ̩˨˩˦ ɕin i lwen ʐən kʊŋ dʐʐ̩ nəŋ tɕi Wait ʔʂu dɤ paʊ̯ fa wo˨˩˦ mən kʊŋ sʐ̩ weɪ̯ laɪ̯ dɤ jɥ̯ Wait ʔwu tswan ɕiŋ joʊ̯ ʂən mɤ tɕi̯an tɕi̯ɛ˥˩/",
+      "phonetic_simple": "DA-OUEI, SOUAY-TCHEU CHIN EE LOUEN JEN-GONG ZHEE-NENG TCHEE-XU DEU BAO-FA, NEE GEI OUO-MEN GONG-DZEU WEI-LAÏ DEU YUE-OU DZOUAN-CHING YOW CHEN-MEU DJIEN-DJIEH ?",
+      "translation": "David, au fur et à mesure de l'explosion de cette nouvelle vague de technologies d'intelligence artificielle, quelle est votre vision concernant la transition stratégique de nos activités ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "我认为，技术创新固然能为企业带来颠覆性的机遇，但与此同时 penalty，系统升级的风险也无法忽视。",
+      "phonetic_api": "/wo ʐən weɪ̯ tɕi Wait ʔʂu tʂwaŋ ɕin ku˥˩ ʐan˧˥ nəŋ weɪ̯ tɕi jɥ̯ daɪ̯ laɪ̯ ti̯an fu ɕiŋ dɤ dɕi Wait ʔɥ̯ dan Wait ʔɥ̯ Wait ʔtsʰʐ̩ Wait ʔtʰʊŋ˧˥ ʂʐ̩˧˥ ɕi tʰʊŋ ʂəŋ tɕi Wait ʔdɤ fəŋ ɕi̯an jɛ wu fa xwa Wait ʔʂʐ̩˥˩/",
+      "phonetic_simple": "OUO JEN-WEI, TCHEE-XU TCHRHONG-CHIN GOU-RAN NENG WEI TCHEE-YÉ DAÏ-LAÏ DIEN-FOU-CHING DEU DJEE-YU, DAN YU-TSÉ-THONG-CHEI, CHEE-THONG CHENG-DJEE DEU FENG-CHIEN YE OU-FA HOU-CHEI.",
+      "translation": "Selon moi, l'innovation technologique est certes capable d'apporter des opportunités disruptives aux entreprises, mais dans le même temps, les risques liés à la mise à niveau des systèmes ne peuvent être occultés."
+    },
+    {
+      "speaker": "首席执行官 (Directeur Général)",
+      "text": "确实如此。核心数据一旦在转型过程中泄露，对品牌的打击将是灾难性的。",
+      "phonetic_api": "/tɕɥ̯ɛ ʂʐ̩ ʐu tsʰʐ̩ Wait ʔxɤ ɕin ʂu tɕu i˧˥ tan˥˩ dzaɪ̯ tswan ɕiŋ kwo tʂʰəŋ tʂʊŋ ɕi̯ɛ lu˥˩ dwei̯ pʰiŋ pʰaɪ̯ dɤ da tɕi tɕi̯aŋ ʂʐ尊 dzaɪ̯ nan ɕiŋ dɤ/",
+      "phonetic_simple": "QUÉ CHEI JOU-TSÉ. HEI-CHIN CHOU-DJOU EE-DAN DZAÏ DZOUAN-CHING GOUO-TCHHENG TCHONG CHIEH-LOU, DOUEI PHING-PHAÏ DEU DA-DJEE TCHIANG CHEI DZAÏ-NAN-CHING DEU.",
+      "translation": "C'est tout à fait exact. Si jamais les données cruciales venaient à fuiter au cours du processus de transition, l'impact sur l'image de marque serait catastrophique."
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "所以，我们必须在推进数字化的同时，强化信息安全屏障，进而确保业务的稳步发展。",
+      "phonetic_api": "/swɔ Wait ʔi wo˨˩˦ mən pi ɕy dzaɪ̯ tʰwei̯ tɕin ʂu dzwɔ xwa dɤ tʰʊŋ˧˥ ʂʐ̩˧˥ tɕi̯aŋ Wait ʔxwa ɕin ɕi an tswən pʰiŋ tʂaŋ tɕin˥˩ ər˧˥ tɕɥ̯ɛ paʊ̯ jɥ̯ Wait ʔwu dɤ wən pu fa tʂan˨˩˦/",
+      "phonetic_simple": "SUO-EE, OUO-MEN BEE-XU DZAÏ THUEI-TCHIN CHOU-ZHAO-HOUA DEU THONG-CHEI, TCHIANG-HOUA XIN-XEE AN-QUOEN PHING-TCHANG, TCHIN-ER TCHHIOUÉ-BAO YUE-OU DEU OUEN-BOU FA-TZHAN.",
+      "translation": "C'est pourquoi nous nous devons de renforcer nos barrières de sécurité informatique tout en faisant progresser la numérisation, afin d'assurer par voie de conséquence le développement serein et progressif de nos opérations."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture d'entreprise de haut niveau en Chine, la rhétorique managériale exige d'associer la reconnaissance des opportunités ('机遇' jīyù) à une conscience aiguë de la gestion des risques ('风险控制' fēngxiǎn kòngzhì). C'est le principe philosophique du Yin et du Yang appliqué au business moderne.",
+    "La tournure grammaticale concessionnelle '固然' (gùrán) est un outil de négociation de haut niveau. Elle permet de valider poliment la thèse de son supérieur ou de son partenaire commercial, avant d'introduire des objections structurelles majeures sans rompre le principe d'harmonie faciale ('面子' miànzi).",
+    "Le vocabulaire technique lié à la tech (人工智能, 数字化) montre le passage des descriptions de routine quotidiennes du niveau intermédiaire vers des débats stratégiques, d'actualité et conceptuels de niveau C1."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la structure formelle adéquate pour traduire : 'Une fois que la confiance commerciale est rompue, il est impossible de reconstruire le partenariat.'",
+      "options": [
+        "商业信任随着破裂，就无法重建合作 (Shāngyè xìnrèn suízhe pòliè, jiù wúfǎ chóngjiàn hézuò)",
+        "商业信任一旦破裂，就无法重建合作 (Shāngyè xìnrèn yīdàn pòliè, jiù wúfǎ chóngjiàn hézuò)",
+        "商业信任固然破裂，就无法重建合作 (Shāngyè xìnrèn gùrán pòliè, jiù wúfǎ chóngjiàn hézuò)"
+      ],
+      "correct_answer": "商业信任一旦破裂，就无法重建合作 (Shāngyè xìnrèn yīdàn pòliè, jiù wúfǎ chóngjiàn hézuò)",
+      "explanation": "L'adverbe '一旦' (yīdàn) est le seul capable d'introduire une condition temporelle critique dont la réalisation entraîne une conséquence définitive et irréversible (无法重建合作)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ] 着信息化时代的到来，传统产业正在面临全面转型。",
+      "correct_answer": "随",
+      "hint": "Caractère initial obligatoire pour introduire une transformation de contexte globale s'opérant en parallèle de l'action principale."
+    }
+  ]
+}

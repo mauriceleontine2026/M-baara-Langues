@@ -1,0 +1,426 @@
+{
+  "lesson_id": "A1_M1_L3_ENRICHED",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet complet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Maîtriser le nom et la prononciation des 26 lettres de l'alphabet portugais",
+    "Identifier et reproduire les digrammes et les sons nasaux spécifiques"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'alphabet portugais comprend officiellement 26 lettres. Les lettres K, W, et Y sont incluses pour les mots étrangers. Le portugais utilise des accents graphiques (´, `, ^) et des signes comme la cédille (ç) et le tilde (~) pour modifier la prononciation et la nasalité.",
+    "common_pitfalls": "Attention à la lettre 'H' qui ne possède aucun son lorsqu'elle est placée en début de mot. Ne prononcez pas le 'R' de manière trop douce : au début d'un mot, il est fortement expiré [ʁ] depuis la gorge."
+  },
+  "alphabet_complet": [
+    {
+      "lettre": "A",
+      "nom": "á",
+      "api": "/a/",
+      "simple": "AH"
+    },
+    {
+      "lettre": "B",
+      "nom": "bê",
+      "api": "/be/",
+      "simple": "BÉ"
+    },
+    {
+      "lettre": "C",
+      "nom": "cê",
+      "api": "/se/",
+      "simple": "SÉ"
+    },
+    {
+      "lettre": "D",
+      "nom": "dê",
+      "api": "/de/",
+      "simple": "DÉ"
+    },
+    {
+      "lettre": "E",
+      "nom": "é",
+      "api": "/ɛ/",
+      "simple": "È"
+    },
+    {
+      "lettre": "F",
+      "nom": "éfe",
+      "api": "/ˈɛfɨ/",
+      "simple": "È-F'H"
+    },
+    {
+      "lettre": "G",
+      "nom": "gê / guê",
+      "api": "/ʒe/",
+      "simple": "JÉ"
+    },
+    {
+      "lettre": "H",
+      "nom": "agá",
+      "api": "/ɐˈɡa/",
+      "simple": "AH-GAH"
+    },
+    {
+      "lettre": "I",
+      "nom": "i",
+      "api": "/i/",
+      "simple": "EE"
+    },
+    {
+      "lettre": "J",
+      "nom": "jota",
+      "api": "/ˈʒɔtɐ/",
+      "simple": "JÓ-TAH"
+    },
+    {
+      "lettre": "K",
+      "nom": "capa",
+      "api": "/ˈkapɐ/",
+      "simple": "KAH-PAH"
+    },
+    {
+      "lettre": "L",
+      "nom": "éle",
+      "api": "/ˈɛlɨ/",
+      "simple": "È-L'H"
+    },
+    {
+      "lettre": "M",
+      "nom": "éme",
+      "api": "/ˈɛmɨ/",
+      "simple": "È-M'H"
+    },
+    {
+      "lettre": "N",
+      "nom": "éne",
+      "api": "/ˈɛnɨ/",
+      "simple": "È-N'H"
+    },
+    {
+      "lettre": "O",
+      "nom": "ó",
+      "api": "/ɔ/",
+      "simple": "Ó"
+    },
+    {
+      "lettre": "P",
+      "nom": "pê",
+      "api": "/pe/",
+      "simple": "PÉ"
+    },
+    {
+      "lettre": "Q",
+      "nom": "quê",
+      "api": "/ke/",
+      "simple": "KÉ"
+    },
+    {
+      "lettre": "R",
+      "nom": "ére",
+      "api": "/ˈɛɾɨ/",
+      "simple": "È-R'H"
+    },
+    {
+      "lettre": "S",
+      "nom": "ésse",
+      "api": "/ˈɛsɨ/",
+      "simple": "È-S'H"
+    },
+    {
+      "lettre": "T",
+      "nom": "tê",
+      "api": "/te/",
+      "simple": "TÉ"
+    },
+    {
+      "lettre": "U",
+      "nom": "u",
+      "api": "/u/",
+      "simple": "OO"
+    },
+    {
+      "lettre": "V",
+      "nom": "vê",
+      "api": "/ve/",
+      "simple": "VÉ"
+    },
+    {
+      "lettre": "W",
+      "nom": "dâblio",
+      "api": "/ˈdɐβlju/",
+      "simple": "DAH-BLEW-OO"
+    },
+    {
+      "lettre": "X",
+      "nom": "xis",
+      "api": "/ʃiʃ/",
+      "simple": "CHEECH"
+    },
+    {
+      "lettre": "Y",
+      "nom": "ipsilon",
+      "api": "/ˈipsilɔn/",
+      "simple": "EEP-SEE-LON"
+    },
+    {
+      "lettre": "Z",
+      "nom": "zê",
+      "api": "/ze/",
+      "simple": "ZÉ"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Letra",
+      "phonetic_api": "/ˈletɾɐ/",
+      "phonetic_simple": "LAY-TRAH",
+      "translation": "Lettre",
+      "example_sentence": "A palavra tem cinco letras.",
+      "example_phonetic": "/ɐ pɐˈlavɾɐ tɐ̃j ˈsĩku ˈletɾɐʃ/",
+      "example_translation": "Le mot a cinq lettres."
+    },
+    {
+      "word_id": "v2",
+      "term": "Alfabeto",
+      "phonetic_api": "/ɐɫfɐˈβetu/",
+      "phonetic_simple": "AL-FAH-BAY-TOO",
+      "translation": "Alphabet",
+      "example_sentence": "O alfabeto português tem 26 letras.",
+      "example_phonetic": "/u ɐɫfɐˈβetu puɾtuˈɣeʃ tɐ̃j ˈvĩtɨ i sejʃ ˈletɾɐʃ/",
+      "example_translation": "L'alphabet portugais a 26 lettres."
+    },
+    {
+      "word_id": "v3",
+      "term": "Sotaque",
+      "phonetic_api": "/suˈtakɨ/",
+      "phonetic_simple": "SOO-TAH-K'H",
+      "translation": "Accent (prononciation)",
+      "example_sentence": "Ele tem um sotaque forte.",
+      "example_phonetic": "/ˈelɨ tɐ̃j ũ suˈtakɨ ˈfɔɾtɨ/",
+      "example_translation": "Il a un fort accent."
+    },
+    {
+      "word_id": "v4",
+      "term": "Palavra",
+      "phonetic_api": "/pɐˈlavɾɐ/",
+      "phonetic_simple": "PAH-LAH-VRAH",
+      "translation": "Mot",
+      "example_sentence": "Como se escreve esta palavra?",
+      "example_phonetic": "/ˈkomu sɨ iʃˈkɾɛvɨ ˈeʃtɐ pɐˈlavɾɐ/",
+      "example_translation": "Comment s'écrit ce mot ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "Coração",
+      "phonetic_api": "/kuɾɐˈsɐ̃w/",
+      "phonetic_simple": "KOO-RAH-SANG",
+      "translation": "Cœur",
+      "example_sentence": "O coração bate rápido.",
+      "example_phonetic": "/u kuɾɐˈsɐ̃w ˈbatɨ ˈɾapiðu/",
+      "example_translation": "Le cœur bat vite."
+    },
+    {
+      "word_id": "v6",
+      "term": "Filho",
+      "phonetic_api": "/ˈfiʎu/",
+      "phonetic_simple": "FEE-LYOO",
+      "translation": "Fils",
+      "example_sentence": "O meu filho estuda muito.",
+      "example_phonetic": "/u mew ˈfiʎu iʃˈtuðɐ ˈmũjtu/",
+      "example_translation": "Mon fils étudie beaucoup."
+    },
+    {
+      "word_id": "v7",
+      "term": "Chave",
+      "phonetic_api": "/ˈʃavɨ/",
+      "phonetic_simple": "CHAH-V'H",
+      "translation": "Clé",
+      "example_sentence": "Onde está a chave?",
+      "example_phonetic": "/ˈõdɨ ɨʃˈta ɐ ˈʃavɨ/",
+      "example_translation": "Où est la clé ?"
+    },
+    {
+      "word_id": "v8",
+      "term": "Manhã",
+      "phonetic_api": "/mɐˈɲã/",
+      "phonetic_simple": "MAH-NYANG",
+      "translation": "Matin",
+      "example_sentence": "Gosto da manhã.",
+      "example_phonetic": "/ˈɡoʃtu dɐ mɐˈɲã/",
+      "example_translation": "J'aime le matin."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Pode soletrar, por favor?",
+      "phonetic_api": "/ˈpɔðɨ suliˈtɾaɾ puɾ fɐˈvoɾ/",
+      "phonetic_simple": "PÓ-D'H SOO-LAY-TRAR POOR FAH-VOR",
+      "translation": "Pouvez-vous épeler, s'il vous plaît ?",
+      "context": "Utile lorsque l'on ne comprend pas l'écriture d'un nom propre ou d'un mot."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Como se pronuncia isto?",
+      "phonetic_api": "/ˈkomu sɨ pɾunũˈsiɐ ˈiʃtu/",
+      "phonetic_simple": "KOH-MOO S'H PROO-NOON-SEE-AH EECH-TOO",
+      "translation": "Comment prononce-t-on ceci ?",
+      "context": "Pour demander de l'aide sur la prononciation d'un texte écrit."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Escreve-se com o til.",
+      "phonetic_api": "/iʃˈkɾɛvɨ.sɨ kõ u tiɫ/",
+      "phonetic_simple": "ECH-KRAY-V'H-S'H KON OO TEEL",
+      "translation": "Ça s'écrit avec le tilde.",
+      "context": "Indication orthographique pour les voyelles nasales comme ã ou õ."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Tem cedilha?",
+      "phonetic_api": "/tɐ̃j sɨˈðiʎɐ/",
+      "phonetic_simple": "TENG S'H-DEE-LYAH",
+      "translation": "Y a-t-il une cédille ?",
+      "context": "Question sur la présence de la lettre 'ç'."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "O 'h' é mudo.",
+      "phonetic_api": "/u ˈaɡu ɛ ˈmudu/",
+      "phonetic_simple": "OO AH-GOO É MOO-TOO",
+      "translation": "Le 'h' est muet.",
+      "context": "Explication pédagogique sur l'orthographe (ex: hotel)."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Mais devagar, por favor.",
+      "phonetic_api": "/mɐjʃ dɨvɐˈɣaɾ puɾ fɐˈvoɾ/",
+      "phonetic_simple": "MAYCH D'H-VAH-GAR POOR FAH-VOR",
+      "translation": "Plus lentement, s'il vous plaît.",
+      "context": "Pour demander à son interlocuteur de ralentir son débit."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Não percebi.",
+      "phonetic_api": "/nɐ̃w pɨɾsɨˈβi/",
+      "phonetic_simple": "NANG PAIR-S'H-BEE",
+      "translation": "Je n'ai pas compris.",
+      "context": "Rupture de compréhension lors d'un échange verbal."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Muito obrigado pelo esclarecimento.",
+      "phonetic_api": "/ˈmũjtu obɾiˈɣaðu ˈpelu iʃklɐɾɨsiˈmẽtu/",
+      "phonetic_simple": "MOYN-TOO OH-BREE-GAH-DOO PAY-LOO EECH-KLAH-R'H-SEE-MEN-TOO",
+      "translation": "Merci beaucoup pour l'explication.",
+      "context": "Remerciement formel après une aide linguistique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les digrammes spécifiques : LH, NH et CH",
+      "explanation": "Le portugais utilise trois combinaisons de consonnes clés qui modifient profondément la prononciation par rapport au français.",
+      "rules": [
+        "'CH' se prononce comme le 'ch' français dans 'chemin' [ʃ].",
+        "'LH' correspond au son palatal liquide [ʎ], similaire au groupe 'lli' dans 'allier'.",
+        "'NH' correspond au son palatal nasal [ɲ], identique au 'gn' français dans 'gagner'."
+      ],
+      "examples": [
+        {
+          "structure": "Chá (Thé)",
+          "phonetic_api": "/ʃa/",
+          "meaning": "Thé"
+        },
+        {
+          "structure": "Olho (Œil)",
+          "phonetic_api": "/ˈoʎu/",
+          "meaning": "Œil"
+        },
+        {
+          "structure": "Vinho (Vin)",
+          "phonetic_api": "/ˈviɲu/",
+          "meaning": "Vin"
+        }
+      ]
+    },
+    {
+      "concept": "Les accents graphiques et la nasalité",
+      "explanation": "Les accents en portugais servent à indiquer la syllabe tonique (accentuée) et modifient parfois l'ouverture de la voyelle ou marquent la nasalisation.",
+      "rules": [
+        "L'accent aigu (´) indique une voyelle ouverte et tonique (ex: café, água).",
+        "L'accent circonflexe (^) indique une voyelle fermée et tonique (ex: três, você).",
+        "Le tilde (~) indique uniquement que la voyelle est nasale (ex: pão, mãe)."
+      ],
+      "examples": [
+        {
+          "structure": "Maçã",
+          "phonetic_api": "/mɐˈsɐ̃/",
+          "meaning": "Pomme"
+        },
+        {
+          "structure": "Avó vs Avô",
+          "phonetic_api": "/ɐˈvɔ/ vs /ɐˈvo/",
+          "meaning": "Grand-mère (ouvert) vs Grand-père (fermé)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Professor",
+      "text": "Como se escreve o teu nome, Rita?",
+      "phonetic_api": "/ˈkomu sɨ iʃˈkɾɛvɨ u tew ˈnɔmɨ ˈɾitɐ/",
+      "phonetic_simple": "KOH-MOO S'H ECH-KRAY-V'H OO TEW NÓ-M'H REE-TAH",
+      "translation": "Comment s'écrit ton nom, Rita ?"
+    },
+    {
+      "speaker": "Rita",
+      "text": "Escreve-se R-I-T-A. É fácil!",
+      "phonetic_api": "/iʃˈkɾɛvɨ.sɨ ɛɾɨ i tɛ ɐ ɛ ˈfasiɫ/",
+      "phonetic_simple": "ECH-KRAY-V'H-S'H AIR-H EE TAY AH É FAH-SEEL",
+      "translation": "Ça s'écrit R-I-T-A. C'est facile !"
+    },
+    {
+      "speaker": "Professor",
+      "text": "E o apelido Magalhães? Pode soletrar?",
+      "phonetic_api": "/i u ɐpɨˈliðu mɐɣɐˈʎɐ̃jʃ ˈpɔðɨ suliˈtɾaɾ/",
+      "phonetic_simple": "EE OO AH-P'H-LEE-DOO MAH-GAH-LYAINGCH PÓ-D'H SOO-LAY-TRAR",
+      "translation": "Et le nom de famille Magalhães ? Tu peux épeler ?"
+    },
+    {
+      "speaker": "Rita",
+      "text": "Sim. M-A-G-A-L-H-A-E-S, com um til no primeiro A de 'ães'.",
+      "phonetic_api": "/sɐ̃j ẽ ɐ ʒɛ ɐ ɛɫ ˈaɡu ɐ ɨ ɛʃ kõ ũ tiɫ nu pɾiˈmɐjɾu ɐ dɨ ɐ̃jʃ/",
+      "phonetic_simple": "SEENG M-A-G-A-L-H-A-E-S KON OONG TEEL NOO PREE-MAY-ROO AH D'H AINGCH",
+      "translation": "Oui. M-A-G-A-L-H-A-E-S, avec un tilde sur le premier A de 'ães'."
+    }
+  ],
+  "cultural_notes": [
+    "Le terme 'apelido' au Portugal désigne le nom de famille (nom de famille principal), alors qu'au Brésil 'apelido' signifie un surnom. Ne confondez pas avec le français 'appellation'.",
+    "L'accord orthographique de 1990 a unifié l'écriture du portugais à travers le monde, en intégrant officiellement les lettres K, W et Y dans l'alphabet pour les mots d'origine étrangère."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment se prononce le digramme 'nh' en portugais ?",
+      "options": [
+        "Comme le 'gn' français dans 'gagner'",
+        "Comme le 'ch' français dans 'chat'",
+        "Il est totalement muet"
+      ],
+      "correct_answer": "Comme le 'gn' français dans 'gagner'",
+      "explanation": "Le digramme 'nh' représente la nasale palatale [ɲ], identique au 'gn' français."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le signe graphique placé sur le 'a' dans le mot 'pão' s'appelle un [ ___ ].",
+      "correct_answer": "til",
+      "hint": "Tilde en portugais"
+    }
+  ]
+}

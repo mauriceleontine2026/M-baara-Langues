@@ -1,0 +1,288 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches en chinois mandarin",
+  "learning_objectives": [
+    "Nommer les principaux membres de la famille nucléaire et élargie",
+    "Exprimer la possession et le lien de parenté à l'aide de la particule 的 (de)",
+    "Utiliser le verbe d'existence et de possession 有 (yǒu) et sa négation spécifique 没有 (méiyǒu)",
+    "Maîtriser le classificateur universel 个 (gè) et le classificateur familial 口 (kǒu)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en avant le redoublement des caractères pour les termes de parenté (爸爸, 妈妈, 哥哥, 弟弟, 姐姐, 妹妹). Dans ces structures redoublées, la première syllabe porte le ton d'origine (1er, 3ème ou 4ème ton) tandis que la seconde syllabe passe systématiquement au ton neutre. Le ton neutre doit être prononcé de manière courte, douce, plus basse en hauteur et sans aucune force expiratoire. Le son 'g' de 哥哥 (gēge) est une consonne occlusive vélaire sourde non aspirée /k/, proche d'un 'k' ou d'un 'g' français très sec, sans aucune vibration des cordes vocales.",
+    "common_pitfalls": "Le piège principal réside dans la prononciation du mot 有 (yǒu). Étant au 3ème ton, il doit descendre très bas dans la gorge. Lorsqu'il est suivi d'un mot commençant par un autre 3ème ton (comme 几 jǐ), veillez à appliquer la règle du sandhi tonal (yǒu jǐ devient [yóu jǐ]). Faites également attention à la consonne 'zh' de 照片 (zhàopiàn) : c'est une rétroflexe non aspirée /tʂ/, à ne pas confondre avec le 'ch' français ou le 'ch' aspiré chinois."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "家",
+      "phonetic_api": "/tɕi̯a˥/",
+      "phonetic_simple": "TCHIA",
+      "translation": "Famille / Maison / Foyer",
+      "example_sentence": "我爱我的家。",
+      "example_phonetic": "/wo˨˩˦ aɪ̯˥˩ wo˨˩˦ dɤ tɕi̯a˥/",
+      "example_translation": "J'aime ma famille."
+    },
+    {
+      "word_id": "v2",
+      "term": "有",
+      "phonetic_api": "/joʊ̯˨˩˦/",
+      "phonetic_simple": "YOW",
+      "translation": "Avoir / Posséder / Exister",
+      "example_sentence": "我有两个哥哥。",
+      "example_phonetic": "/wo˧˥ joʊ̯˧˥ li̯aŋ˨˩˦ kɤ kɤ˥/",
+      "example_translation": "J'ai deux grands frères."
+    },
+    {
+      "word_id": "v3",
+      "term": "没有",
+      "phonetic_api": "/meɪ̯˧˥ joʊ̯˨˩˦/",
+      "phonetic_simple": "MEI-YOW",
+      "translation": "Ne pas avoir / N'avoir pas",
+      "example_sentence": " Certification 我没有姐姐。",
+      "example_phonetic": "/wo˨˩˦ meɪ̯˧˥ joʊ̯˨˩˦ dɕi̯ɛ˨˩˦ dɕi/",
+      "example_translation": "Je n'ai pas de grande sœur."
+    },
+    {
+      "word_id": "v4",
+      "term": "和",
+      "phonetic_api": "/xɤ˧˥/",
+      "phonetic_simple": "HEU",
+      "translation": "Et / Avec (uniquement pour lier des noms ou pronoms)",
+      "example_sentence": "爸爸和妈妈都在家。",
+      "example_phonetic": "/ba˥˩ ba xɤ˧˥ ma˥ ma doʊ̯˥ dzaɪ̯˥˩ tɕi̯a˥/",
+      "example_translation": "Papa et maman sont tous les deux à la maison."
+    },
+    {
+      "word_id": "v5",
+      "term": "孩子",
+      "phonetic_api": "/xaɪ̯˧˥ tsz̩/",
+      "phonetic_simple": "HAÏ-DZEU",
+      "translation": "Enfant",
+      "example_sentence": "他们有几个孩子？",
+      "example_phonetic": "/tʰa˥ mən joʊ̯˧˥ tɕi˨˩˦ sweɪ̯ xaɪ̯˧˥ tsz̩/",
+      "example_translation": "Combien d'enfants ont-ils ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "照片",
+      "phonetic_api": "/tʂaʊ̯˥˩ pʰi̯ɛn˥˩/",
+      "phonetic_simple": "DZAO-PHIEN",
+      "translation": "Photo / Photographie",
+      "example_sentence": "请看我家的照片。",
+      "example_phonetic": "/tɕʰiŋ˨˩˦ kʰan˥˩ wo˨˩˦ tɕi̯a˥ dɤ tʂaʊ̯˥˩ pʰi̯ɛn˥˩/",
+      "example_translation": "S'il vous plaît, regardez la photo de ma famille."
+    },
+    {
+      "word_id": "v7",
+      "term": "两",
+      "phonetic_api": "/li̯aŋ˨˩˦/",
+      "phonetic_simple": "LIANG",
+      "translation": "Deux (utilisé exclusivement devant un classificateur)",
+      "example_sentence": "我有两个妹妹。",
+      "example_phonetic": "/wo˧˥ joʊ̯˧˥ li̯aŋ˨˩˦ kɤ meɪ̯˥˩ meɪ/",
+      "example_translation": "J'ai deux petites sœurs."
+    },
+    {
+      "word_id": "v8",
+      "term": "爱",
+      "phonetic_api": "/aɪ̯˥˩/",
+      "phonetic_simple": "AÏ",
+      "translation": "Aimer / Amour",
+      "example_sentence": "我爱我爸爸妈妈。",
+      "example_phonetic": "/wo˨˩˦ aɪ̯˥˩ wo˨˩˦ ba˥˩ ba ma˥ ma/",
+      "example_translation": "J'aime mon papa et ma maman."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "你家有几口人？",
+      "phonetic_api": "/ni˨˩˦ tɕi̯a˥ joʊ̯˧˥ tɕi˨˩˦ kʰoʊ̯˨˩˦ ʐən˧˥/",
+      "phonetic_simple": "NEE TCHIA YOW TCHEE KHOW JEN",
+      "translation": "Combien de personnes y a-t-il dans ta famille ? (litt. 'combien de bouches')",
+      "context": "Question traditionnelle et polie pour s'informer sur la composition de la famille de quelqu'un"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "我家有四口人。",
+      "phonetic_api": "/wo˨˩˦ tɕi̯a˥ joʊ̯˨˩˦ sʐ̩˥˩ kʰoʊ̯˨˩˦ ʐən˧˥/",
+      "phonetic_simple": "OUO TCHIA YOW SEU KHOW JEN",
+      "translation": "Il y a quatre personnes dans ma famille.",
+      "context": "Réponse standard énumérant les membres du foyer"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "这是我妈妈。",
+      "phonetic_api": "/tʂʐ̩˥˩ ʂʐʐ˥˩ wo˨˩˦ ma˥ ma/",
+      "phonetic_simple": "TCHEU CHEI OUO MA-MA",
+      "translation": "C'est ma maman.",
+      "context": "Présenter un membre de sa famille à un tiers"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "你有没有兄弟姐妹？",
+      "phonetic_api": "/ni˨˩˦ joʊ̯˨˩˦ meɪ̯˧˥ joʊ̯˨˩˦ ɕjʊŋ˥ ti dɕi̯ɛ˨˩˦ meɪ̯˥˩/",
+      "phonetic_simple": "NEE YOW MEI-YOW CHIONG-TEE TCHIEH-MEI",
+      "translation": "As-tu des frères et sœurs ?",
+      "context": "Question globale pour savoir si quelqu'un a des frères, sœurs, aînés ou cadets"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "我没有兄弟姐妹，我是独生子。",
+      "phonetic_api": "/wo˨˩˦ meɪ̯˧˥ joʊ̯˨˩˦ ɕjʊŋ˥ ti dɕi̯ɛ˨˩˦ meɪ̯˥˩ wo˨˩˦ ʂʐʐ˥˩ tu˧˥ ʂəŋ˥ tsʐ̩/",
+      "phonetic_simple": "OUO MEI-YOW CHIONG-TEE TCHIEH-MEI, OUO CHEI DOU-CHENG-DZEU",
+      "translation": "Je n'ai ni frères ni sœurs, je suis fils unique.",
+      "context": "Réponse précise pour un homme n'ayant pas de fratrie (独生女 dúshēngnǚ pour une fille)"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "我有一个弟弟和一个妹妹。",
+      "phonetic_api": "/wo˨˩˦ joʊ̯˨˩˦ i˧˥ kɤ ti˥˩ ti xɤ˧˥ i˧˥ kɤ meɪ̯˥˩ meɪ/",
+      "phonetic_simple": "OUO YOW EE GEU TEE-TEE HEU EE GEU MEI-MEI",
+      "translation": "J'ai un petit frère et une petite sœur.",
+      "context": "Énumération standard de sa fratrie cadette"
+    },
+    {
+      "phrase_id": "p7",
+      "original": "你女儿今年多大了？",
+      "phonetic_api": "/ni˨˩˦ ny˨˩˦ ɤr˧˥ tɕin˥ ni̯ɛn˧˥ dwɔ˥ da˥˩ lɤ/",
+      "phonetic_simple": "NEE GNU-ER TCHIN-NIEN DOUO DA LEU",
+      "translation": "Quel âge a ta fille cette année ?",
+      "context": "Prendre des nouvelles des enfants d'un ami ou d'un collègue"
+    },
+    {
+      "phrase_id": "p8",
+      "original": "我儿子是大学生。",
+      "phonetic_api": "/wo˨˩˦ ɤr˥˩ tsʐ̩ ʂʐʐ˥˩ da˥˩ ɕy̯ɛ˧˥ ʂəŋ˥/",
+      "phonetic_simple": "OUO ER-DZEU CHEI DA-CHOUÉ-CHENG",
+      "translation": "Mon fils est étudiant à l'université.",
+      "context": "Donner des détails sur le statut d'un de ses enfants"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le verbe de possession 有 (yǒu) et sa négation unique 没有 (méiyǒu)",
+      "explanation": "En chinois mandarin, le verbe 有 (yǒu) sert à exprimer la possession (avoir) et l'existence (il y a). Contrairement à tous les autres verbes chinois qui se nient avec l'adverbe 不 (bù), le verbe 有 possède sa propre règle de négation absolue.",
+      "rules": [
+        "Il est strictement interdit de dire '不 animate 有' (bù yǒu).",
+        "Pour nier la possession, on place obligatoirement l'adverbe 没 (méi) devant 有 (yǒu).",
+        "À l'oral ou à l'écrit, le verbe 有 peut être sous-entendu dans la négation, on peut donc utiliser simplement '没' (méi)."
+      ],
+      "examples": [
+        {
+          "structure": "我有哥哥 (Wǒ yǒu gēge)",
+          "phonetic_api": "/wo˨˩˦ joʊ̯˨˩˦ kɤ kɤ˥/",
+          "meaning": "J'ai un grand frère."
+        },
+        {
+          "structure": "我没有哥哥 (Wǒ méiyǒu gēge)",
+          "phonetic_api": "/wo˨˩˦ meɪ̯˧˥ joʊ̯˨˩˦ kɤ kɤ˥/",
+          "meaning": "Je n'ai pas de grand frère."
+        }
+      ]
+    },
+    {
+      "concept": "L'omission de la particule de possession 的 (de) dans le cadre familial",
+      "explanation": "La particule structural 的 (de) se place normalement entre le possesseur et l'objet possédé (ex: 我 的 书 wǒ de shū = mon livre). Cependant, elle s'efface souvent dans des cas bien précis.",
+      "rules": [
+        "Lorsque le lien entre le pronom personnel et le nom est d'une proximité absolue ou inaliénable (famille proche, pays, institution d'appartenance), on omet généralement le 的 (de).",
+        "Dire '我妈妈' (wǒ māma) est beaucoup plus naturel et chaleureux que '我的妈妈' (wǒ de māma)."
+      ],
+      "examples": [
+        {
+          "structure": "我 (Moi) + 爸爸 (Papa) ➔ 我爸爸",
+          "phonetic_api": "/wo˨˩˦ ba˥˩ ba/",
+          "meaning": "Mon papa (courant / fluide)."
+        }
+      ]
+    },
+    {
+      "concept": "Différence entre 二 (èr) et 两 (liǎng) et l'usage des classificateurs",
+      "explanation": "En chinois, on ne peut pas lier directement un chiffre et un nom. Il faut obligatoirement insérer un mot de mesure appelé classificateur ou spécificatif. De plus, le chiffre 2 change de forme selon le contexte.",
+      "rules": [
+        "Utilisez 二 (èr) pour compter de façon abstraite, donner un numéro de téléphone, ou dans les dizaines (20 = 二十).",
+        "Utilisez impérativement 两 (liǎng) dès qu'il s'agit de quantifier un objet ou une personne suivi d'un classificateur.",
+        "Le classificateur 口 (kǒu, la bouche) s'emploie exclusivement pour dénombrer le nombre total de personnes au sein du foyer familial. Pour les individus isolés en dehors de la famille, on emploie le classificateur universel 个 (gè)."
+      ],
+      "examples": [
+        {
+          "structure": "两个孩子 (liǎng gè háizi)",
+          "phonetic_api": "/li̯aŋ˨˩˦ kɤ xaɪ̯˧˥ tsz̩/",
+          "meaning": "Deux enfants (et non 'èr gè háizi')."
+        },
+        {
+          "structure": "三口人 (sān kǒu rén)",
+          "phonetic_api": "/san˥ kʰoʊ̯˨˩˦ ʐən˧˥/",
+          "meaning": "Trois personnes (au sein d'une famille)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "王华 (Wang Hua)",
+      "text": "大卫，这是你家的照片吗？",
+      "phonetic_api": "/da˥˩ weɪ̯˥˩ tʂʐ̩˥˩ ʂʐʐ˥˩ ni˨˩˦ tɕi̯a˥ dɤ tʂaʊ̯˥˩ pʰi̯ɛn˥˩ ma/",
+      "phonetic_simple": "DA-OUEI, TCHEU CHEI NEE TCHIA DEU DZAO-PHIEN MA ?",
+      "translation": "David, c'est la photo de ta famille ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "是的。你看，这是我爸爸和我妈妈。",
+      "phonetic_api": "/ʂʐʐ˥˩ dɤ ni˨˩˦ kʰan˥˩ tʂʐ̩˥˩ ʂʐʐ˥˩ wo˨˩˦ ba˥˩ ba xɤ˧˥ wo˨˩˦ ma˥ ma/",
+      "phonetic_simple": "CHEI DEU. NEE KHAN, TCHEU CHEI OUO BA-BA HEU OUO MA-MA.",
+      "translation": "Oui. Regarde, c'est mon papa et ma maman."
+    },
+    {
+      "speaker": "王华 (Wang Hua)",
+      "text": "你家有几口人？你有没有兄妹？",
+      "phonetic_api": "/ni˨˩˦ tɕi̯a˥ joʊ̯˧̯ tɕi˨˩˦ kʰoʊ̯˨˩˦ ʐən˧˥ ni˨˩˦ joʊ̯˨˩˦ meɪ̯˧˥ joʊ̯˨˩˦ ɕjʊŋ mmeɪ̯/",
+      "phonetic_simple": "NEE TCHIA YOW TCHEE KHOW JEN ? NEE YOW MEI-YOW CHIONG-MEI ?",
+      "translation": "Combien de personnes y a-t-il dans ta famille ? As-tu des frères et sœurs ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "我家有五口人。我有一个姐姐和两个弟弟。你呢？",
+      "phonetic_api": "/wo˨˩˦ tɕi̯a˥ joʊ̯˨˩˦ wu˨˩˦ kʰoʊ̯˨˩˦ ʐən˧˥ wo˨˩˦ joʊ̯˨˩˦ i˧˥ kɤ dɕi̯ɛ˨˩˦ dɕi xɤ˧˥ li̯aŋ˨˩˦ kɤ ti˥˩ ti ni nɤ/",
+      "phonetic_simple": "OUO TCHIA YOW OU KHOW JEN. OUO YOW EE GEU TCHIEH-TCHIEH HEU LIANG GEU TEE-TEE. NEE NEU ?",
+      "translation": "Ma famille compte cinq personnes. J'ai une grande sœur et de deux petits frères. Et toi ?"
+    },
+    {
+      "speaker": "王华 (Wang Hua)",
+      "text": "我家口人少，有三口人：爸爸、妈妈和我。我是独生女。",
+      "phonetic_api": "/wo˨˩˦ tɕi̯a˥ kʰoʊ̯˨˩˦ ʐən˧˥ ʂaʊ̯˨˩˦ joʊ̯˨˩˦ san˥ kʰoʊ̯˨˩˦ ʐən˧˥ ba˥˩ ba ma˥ ma xɤ˧˥ wo˨˩˦ wo˨˩˦ ʂʐʐ˥˩ tu˧˥ ʂəŋ˥ ny˨˩˦/",
+      "phonetic_simple": "OUO TCHIA KHOW JEN CHAO, YOW SAN KHOW JEN : BA-BA, MA-MA HEU OUO. OUO CHEI DOU-CHENG-GNU.",
+      "translation": "Ma famille est petite (litt. 'le nombre de bouches est peu'), il y a trois personnes : mon papa, ma maman et moi. Je suis fille unique."
+    }
+  ],
+  "cultural_notes": [
+    "La structure familiale est au cœur de la société chinoise, très influencée par les valeurs confucéennes de piété filiale. L'importance accordée à l'âge au sein de la fratrie explique pourquoi il n'existe pas de mot simple pour 'frère' ou 'sœur'. Le mandarin exige de préciser s'il s'agit d'un aîné (哥哥 gēge, 姐姐 jiějie) ou d'un cadet (弟弟 dìdi, 妹妹 mèimei).",
+    "Pendant plusieurs décennies (de 1979 à 2015), la Chine a appliqué la politique de l'enfant unique. C'est pourquoi une très grande partie des générations nées durant cette période n'ont pas de fratrie. Les termes '独生子' (dúshēngzǐ - fils unique) et '独生女' (dúshēngnǚ - fille unique) sont donc extrêmement fréquents dans les conversations courantes.",
+    "L'utilisation de '口' (kǒu) comme classificateur de la famille provient de l'ancienne Chine agricole, où le nombre de membres d'un foyer correspondait directement au nombre de 'bouches à nourrir'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la phrase grammaticalement correcte pour dire : 'Je n'ai pas de petit frère.'",
+      "options": [
+        "我不拥有一个弟弟 (Wǒ bù yōngyǒu yī gè dìdi)",
+        "我不有弟弟 (Wǒ bù yǒu dìdi)",
+        "我没有弟弟 (Wǒ méiyǒu dìdi)"
+      ],
+      "correct_answer": "我没有弟弟 (Wǒ méiyǒu dìdi)",
+      "explanation": "En mandarin, la négation du verbe '有' (yǒu) se fait de manière exclusive avec l'adverbe '没' (méi). La structure '不+有' est une faute de grammaire majeure."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "A: 你家有几口人？ B: 我家有 [ ___ ] (2) 口人：我妈妈和我。",
+      "correct_answer": "两",
+      "hint": "Pour exprimer la quantité 'deux' devant un classificateur comme '口' ou '个', on emploie une forme spécifique."
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "lesson_id": "B1_M1_L3",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 3,
+  "title": "Exprimer ses goûts, ses préférences et ses sentiments",
+  "learning_objectives": [
+    "Exprimer des préférences claires entre plusieurs choix en utilisant 'ज़्यादा पसंद होना'",
+    "Nuancer l'expression de ses sentiments (joie, tristesse, colère, peur, surprise)",
+    "Maîtriser la construction d'opinion avec 'लगना' (lagna) pour exprimer un ressenti personnel"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot pour le sentiment (भावना / bʱaːʋnaː/) comporte une consonne aspirée sonore labiale 'भ' (/bʱ/) très nette. Pour exprimer le bonheur (ख़ुशी / xʊʃiː/), veillez à prononcer le 'ख़' (/x/) comme une fricative vélaire sourde (le 'ch' du mot allemand 'Bach') grâce au point sous la lettre, et non comme un simple /k/. Le mot 'ज़्यादा' (plus / zjaːd̪aː/) possède un 'ज़' (/z/) vibrant et une dentale pure 'द'.",
+    "common_pitfalls": "Attention au verbe 'लगना' (/ləɡnaː/) : le 'ग' (/ɡ/) est un 'g' dur comme dans 'garçon', ne le confondez pas avec un son /ʒ/. Évitez aussi de prononcer le 'श' de 'परेशान' (inquiet) comme un /s/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v_emo_1",
+      "term": "भावना",
+      "phonetic_api": "/bʱaːʋnaː/",
+      "phonetic_simple": "BHAAV-NAA",
+      "translation": "Sentiment / Émotion",
+      "example_sentence": "अपनी भावनाओं को व्यक्त करना ज़रूरी है।",
+      "example_phonetic": "/əpniː bʱaːʋnaːõː koː ʋjəkt̪ kəɾnaː zəɾuːriː ɦɛː/",
+      "example_translation": "Il est important d'exprimer ses sentiments."
+    },
+    {
+      "word_id": "v_emo_2",
+      "term": "ख़ुशी",
+      "phonetic_api": "/xʊʃiː/",
+      "phonetic_simple": "KHOU-CHII",
+      "translation": "Joie / Bonheur",
+      "example_sentence": "यह ख़बर सुनकर मुझे बहुत ख़ुशी हुई।",
+      "example_phonetic": "/jəɦ xəbəɾ sʊnkəɾ mʊdʒʱeː bəɦʊt̪ xʊʃiː ɦʊiː/",
+      "example_translation": "J'ai ressenti beaucoup de joie en apprenant cette nouvelle."
+    },
+    {
+      "word_id": "v_emo_3",
+      "term": "दुःख",
+      "phonetic_api": "/d̪ʊkʰ/",
+      "phonetic_simple": "DOUKH",
+      "translation": "Tristesse / Souffrance / Peine",
+      "example_sentence": "उसकी बीमारी की बात सुनकर बड़ा दुःख हुआ।",
+      "example_phonetic": "/ʊskiː biːmaːriː kiː baːt̪ sʊnkəɾ bəɽaː d̪ʊkʰ ɦʊaː/",
+      "example_translation": "J'ai éprouvé une grande tristesse en apprenant sa maladie."
+    },
+    {
+      "word_id": "v_emo_4",
+      "term": "गुस्सा",
+      "phonetic_api": "/ɡʊsːaː/",
+      "phonetic_simple": "GOUS-SAA",
+      "translation": "Colère",
+      "example_sentence": "मुझे झूठ बोलने वालों पर गुस्सा आता है।",
+      "example_phonetic": "/mʊdʒʱeː dʒʱuːʈʰ boːlneː ʋaːlõː pəɾ ɡʊsːaː aːt̪aː ɦɛː/",
+      "example_translation": "La colère me vient contre ceux qui mentent."
+    },
+    {
+      "word_id": "v_emo_5",
+      "term": "डर",
+      "phonetic_api": "/ɖəɾ/",
+      "phonetic_simple": "DAR (rétroflexe)",
+      "translation": "Peur",
+      "example_sentence": "क्या तुम्हें अंधेरे से डर लगता है?",
+      "example_phonetic": "/kjaː t̪ʊmʱẽː əndʱeːɾeː seː ɖəɾ ləɡt̪aː ɦɛː/",
+      "example_translation": "As-tu peur de l'obscurité ?"
+    },
+    {
+      "word_id": "v_emo_6",
+      "term": "परेशान",
+      "phonetic_api": "/pəɾeːʃaːn/",
+      "phonetic_simple": "PA-RÉ-CHAAN",
+      "translation": "Inquiet / Surchargé / Trace de souci",
+      "example_sentence": "तुम आज इतने परेशान क्यों हो?",
+      "example_phonetic": "/t̪ʊm aːdʒ ɪt̪neː pəɾeːʃaːn kjõː ɦoː/",
+      "example_translation": "Pourquoi es-tu si inquiet aujourd'hui ?"
+    },
+    {
+      "word_id": "v_emo_7",
+      "term": "अजीब",
+      "phonetic_api": "/ədʒiːb/",
+      "phonetic_simple": "A-DJIIB",
+      "translation": "Bizarre / Étrange",
+      "example_sentence": "यह बहुत अजीब कहानी है।",
+      "example_phonetic": "/jəɦ bəɦʊt̪ ədʒiːb kəɦaːniː ɦɛː/",
+      "example_translation": "C'est une histoire très étrange."
+    },
+    {
+      "word_id": "v_emo_8",
+      "term": "ज़्यादा पसंद होना",
+      "phonetic_api": "/zjaːd̪aː pəsənd̪ ɦoːnaː/",
+      "phonetic_simple": "ZYAA-DAA PA-SAND HO-NAA",
+      "translation": "Préférer (Aimer plus)",
+      "example_sentence": "मुझे चाय से ज़्यादा कॉफ़ी पसंद है।",
+      "example_phonetic": "/mʊdʒʱeː tʃaːj seː zjaːd̪aː kɔːfiː pəsənd̪ ɦɛː/",
+      "example_translation": "Je préfère le café au thé."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "मुझे लगता है कि यह विचार बिल्कुल सही है।",
+      "phonetic_api": "/mʊdʒʱeː ləɡt̪aː ɦɛː kɪ jəɦ ʋɪtʃaːr bɪlkʊl səɦiː ɦɛː/",
+      "phonetic_simple": "MOUD-JHÉ LAG-TAA HÉ KI YAH VI-TCHAAR BIL-KOUL SA-HII HÉ",
+      "translation": "Il me semble / Je pense que cette idée est tout à fait correcte.",
+      "context": "Exprimer poliment son opinion ou son point de vue dans un débat."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "क्या आपको यहाँ आकर अच्छा लगा?",
+      "phonetic_api": "/kjaː aːpkoː jəɦãː aːkəɾ ətːʃʰaː ləɡaː/",
+      "phonetic_simple": "KYAA AAP-KO YA-HAN AA-KAR AT-TCHHAA LA-GAA",
+      "translation": "Est-ce que vous vous plaisez ici ? (Litt: Est-ce que venir ici vous a paru bien ?)",
+      "context": "Demander le ressenti d'un invité ou d'un voyageur."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La comparaison de préférence avec 'X से ज़्यादा Y पसंद होना'",
+      "explanation": "Pour exprimer une préférence (préférer Y à X), le hindi utilise la structure comparative où l'élément rejeté ou de référence reçoit la postposition 'से' (sē - par rapport à / que), suivi de l'adverbe 'ज़्यादा' (plus) devant l'objet préféré.",
+      "rules": [
+        "Structure : [Sujet + को] + [Objet X + से] + [ज़्यादा] + [Objet Y] + पसंद है।",
+        "L'élément après 'से' est le point de comparaison inférieur."
+      ],
+      "examples": [
+        {
+          "structure": "मुझे शहर से ज़्यादा गाँव पसंद है। (Moudjhé śahar sē zyādā gāuñ pasand hai)",
+          "phonetic_api": "/mʊdʒʱeː ʃəɦəɾ seː zjaːd̪aː ɡãːʋ pəsənd̪ ɦɛː/",
+          "meaning": "Je préfère le village à la ville."
+        }
+      ]
+    },
+    {
+      "concept": "Le verbe impersonnel 'लगना' (lagna) pour l'opinion et le ressenti",
+      "explanation": "Le verbe 'लगना' (sembler / paraître / toucher) est capital au niveau intermédiaire. Utilisé de manière impersonnelle avec un sujet au cas datif (+ को), il traduit ce qu'on pense ou ressent de manière subjective.",
+      "rules": [
+        "Sujet + को (ko) + अच्छा/बुरा/डर (ressenti) + लगता है (lagta hai).",
+        "Sujet + को + लगता है कि... = Le sujet a l'impression que / pense que..."
+      ],
+      "examples": [
+        {
+          "structure": "मुझे ठंड लग रही है। (Moudjhé ṭhanḍ lag rahī hai)",
+          "phonetic_api": "/mʊdʒʱeː tʰəɳɖ ləɡ ɾəɦiː ɦɛː/",
+          "meaning": "Je ressens le froid / J'ai froid."
+        },
+        {
+          "structure": "उसे यह गाना अच्छा लगता है। (Usē yah gānā acchā lagtā hai)",
+          "phonetic_api": "/ʊseː jəɦ kaːnaː ətːʃʰaː ləɡt̪aː ɦɛː/",
+          "meaning": "Il/Elle aime bien cette chanson (Elle lui paraît bonne)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "संगीता (Sangeeta)",
+      "text": "अमित, तुम इतने उदास क्यों बैठे हो? क्या कोई परेशानी है?",
+      "phonetic_api": "/əmɪt̪ t̪ʊm ɪt̪neː ʊd̪aːs kjõː bɛːʈʰeː ɦoː kjaː koːiː pəɾeːʃaːniː ɦɛː/",
+      "phonetic_simple": "A-MIT, TOUM IT-NÉ OU-DAAS KYON BEI-THÉ HO? KYAA KO-II PA-RÉ-CHAA-NII HÉ",
+      "translation": "Amit, pourquoi es-tu assis là si triste ? Y a-t-il un problème ?"
+    },
+    {
+      "speaker": "अमित (Amit)",
+      "text": "मुझे अपने घर की याद आ रही है। मुझे बड़े शहरों से ज़्यादा अपने छोटे गाँव का जीवन पसंद है।",
+      "phonetic_api": "/mʊdʒʱeː əpneː ɡʱəɾ kiː jaːd̪ aː ɾəɦiː ɦɛː mʊdʒʱeː bəɽeː ʃəɦəɾõː seː zjaːd̪aː əpneː tʃoːʈeː ɡãːʋ kaː dʒiːʋən pəsənd̪ ɦɛː/",
+      "phonetic_simple": "MOUD-JHÉ AP-NÉ GHAR KII YAAD AA RAH-II HÉ. MOUD-JHÉ BA-RÉ CHÉ-HA-RON SÉ ZYAA-DAA AP-NÉ TCHO-TÉ GAU-N KAA DJII-VAN PA-SAND HÉ",
+      "translation": "Ma maison me manque. Je préfère la vie de mon petit village aux grandes villes."
+    },
+    {
+      "speaker": "संगीता (Sangeeta)",
+      "text": "मुझे तुम्हारी बात समझ आती है। शुरुआत में सबको थोड़ा अजीब लगता है, पर धीरे-धीरे सब ठीक हो जाएगा।",
+      "phonetic_api": "/mʊdʒʱeː t̪ʊmʱaːriː baːt̪ səmədʒʱ aːt̪iː ɦɛː ʃʊɾʊaːt̪ mẽː səbkoː tʰoːɽaː ədʒiːb ləɡt̪aː ɦɛː pəɾ dʱiːɾeː dʱiːɾeː səb tʰiːk ɦoː dʒaːeːɡaː/",
+      "phonetic_simple": "MOUD-JHÉ TOUM-HAA-RII BAAT SA-MADJH AA-TII HÉ. CHOU-ROU-AAT MEIN SAB-KO THO-RHAA A-DJIIB LAG-TAA HÉ, PAR DHII-RÉ DHII-RÉ SAB THIIK HO DJAA-É-GAA",
+      "translation": "Je comprends ce que tu dis. Au début, tout le monde trouve ça un peu bizarre, mais petit à petit tout ira bien."
+    },
+    {
+      "speaker": "अमित (Amit)",
+      "text": "हाँ, मुझे भी यही लगता है। तुम्हारी बातों से मुझे बहुत ख़ुशी हुई। धन्यवाद।",
+      "phonetic_api": "/ɦãː mʊdʒʱeː bʱiː jəɦiː ləɡt̪aː ɦɛː t̪ʊmʱaːriː baːt̪õː seː mʊdʒʱeː bəɦʊt̪ xʊʃiː ɦʊiː d̪ʱənjəʋaːd̪/",
+      "phonetic_simple": "HAAN, MOUD-JHÉ BHII YA-HII LAG-TAA HÉ. TOUM-HAA-RII BAA-TON SÉ MOUD-JHÉ BAHOUT KHOU-CHII HOU-II. DHAN-YA-VAAD",
+      "translation": "Oui, c'est aussi ce qu'il me semble. Tes paroles m'ont fait beaucoup de bien (m'ont donné de la joie). Merci."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture indienne, l'expression publique des sentiments est souvent très vive et collective. Partager ses peines (दुःख) ou ses joies (ख़ुशी) avec ses voisins et ses collègues fait partie du tissu de solidarité sociale standard.",
+    "L'expression 'मन होना' (man honā - avoir le cœur à / avoir envie de) est une autre alternative idiomatique très fréquente pour exprimer une inclinaison sentimentale immédiate envers une activité."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la bonne structure pour dire 'Je préfère le thé au café' :",
+      "options": [
+        "मुझे कॉफ़ी से ज़्यादा चाय पसंद है (Moudjhé coffee sē zyādā chāi pasand hai)",
+        "मुझे चाय से ज़्यादा कॉफ़ी पसंद है (Moudjhé chāi sē zyādā coffee pasand hai)",
+        "मुझे चाय कॉफ़ी ज़्यादा पसंद है (Moudjhé chāi coffee zyādā pasand hai)"
+      ],
+      "correct_answer": "मुझे कॉफ़ी से ज़्यादा चाय पसंद है (Moudjhé coffee sē zyādā chāi pasand hai)",
+      "explanation": "L'objet rejeté ou comparé ('le café') doit être suivi de la postposition 'से' (sē)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "मुझे भूतों की फिल्मों से [ ___ ] लगता है। (J'ai peur des films de fantômes.)",
+      "correct_answer": "डर",
+      "hint": "Le nom qui désigne la peur en hindi (ḍar)"
+    }
+  ]
+}

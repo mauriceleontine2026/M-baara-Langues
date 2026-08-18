@@ -1,0 +1,200 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
+  "learning_objectives": [
+    "Nommer les aliments et les boissons de base",
+    "Passer une commande simple dans un restaurant ou au marché",
+    "Exprimer la faim, la soif et donner son appréciation sur un plat"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le verbe manger, 'kolia' /kolía/, se prononce avec un 'i' bien marqué suivi d'un 'a' distinct. Pour le mot eau, 'mai' /mái/, veillez à bien séparer les deux voyelles sans en faire une diphtongue française comme 'mai' (le mois). Le plat national 'fufu' /fufú/ porte un ton haut sur la deuxième syllabe.",
+    "common_pitfalls": "Ne prononcez pas le 'g' de 'malamu' ou des prénasalisées de manière trop dure. Dans 'nyama' /ɲáma/ (viande), le son /ɲ/ est identique au 'gn' français dans 'gagner'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v8_1",
+      "term": "Kolia",
+      "phonetic_api": "/kolía/",
+      "phonetic_simple": "KO-LÍ-A",
+      "translation": "Manger / La nourriture",
+      "example_sentence": "Nalingi kolia fufu.",
+      "example_phonetic": "/nalíŋɡí kolía fufú/",
+      "example_translation": "Je veux manger du fufu."
+    },
+    {
+      "word_id": "v8_2",
+      "term": "Komela",
+      "phonetic_api": "/komɛla/",
+      "phonetic_simple": "KO-MÈ-LA",
+      "translation": "Boire / Fumer",
+      "example_sentence": "Nazo mela mai.",
+      "example_phonetic": "/nazó mɛla mái/",
+      "example_translation": "Je bois de l'eau."
+    },
+    {
+      "word_id": "v8_3",
+      "term": "Mai",
+      "phonetic_api": "/mái/",
+      "phonetic_simple": "MÁ-I",
+      "translation": "Eau / Jus",
+      "example_sentence": "Pesa ngai mai ya sika.",
+      "example_phonetic": "/pesa ŋɡái mái ya síka/",
+      "example_translation": "Donne-moi de l'eau fraîche."
+    },
+    {
+      "word_id": "v8_4",
+      "term": "Nyama",
+      "phonetic_api": "/ɲáma/",
+      "phonetic_simple": "NYA-MA",
+      "translation": "Viande",
+      "example_sentence": "Nyama ya ntaba ezali elengi.",
+      "example_phonetic": "/ɲáma ya ⁿtaba ezalí elɛnɡí/",
+      "example_translation": "La viande de chèvre est délicieuse."
+    },
+    {
+      "word_id": "v8_5",
+      "term": "Mbisi",
+      "phonetic_api": "/ᵐbísí/",
+      "phonetic_simple": "MBÍ-SÍ",
+      "translation": "Poisson",
+      "example_sentence": "Bakalinga mbisi oyo.",
+      "example_phonetic": "/βakaliⁿɡa ᵐbísí ójo/",
+      "example_translation": "Ils ont frit ce poisson."
+    },
+    {
+      "word_id": "v8_6",
+      "term": "Elengi",
+      "phonetic_api": "/elɛnɡí/",
+      "phonetic_simple": "É-LÈN-GÍ",
+      "translation": "Délicieux / Bon / Saveur",
+      "example_sentence": "Biloko oyo eza elengi mingi.",
+      "example_phonetic": "/βilóko ójo ezá elɛnɡí míⁿɡi/",
+      "example_translation": "Cette nourriture est très délicieuse."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p8_1",
+      "original": "Nzala ezo kanga ngai.",
+      "phonetic_api": "/ⁿzala ezó káŋɡa ŋɡái/",
+      "phonetic_simple": "NZÁ-LA É-ZÓ KÁN-GA NGAYI.",
+      "translation": "J'ai faim (littéralement : la faim me lamine/m'attrape).",
+      "context": "Pour exprimer un besoin urgent de manger."
+    },
+    {
+      "phrase_id": "p8_2",
+      "original": "Mposa ya mai ezo kanga ngai.",
+      "phonetic_api": "/mposa ya mái ezó káŋɡa ŋɡái/",
+      "phonetic_simple": "MPO-SA YA MÁ-I É-ZÓ KÁN-GA NGAYI.",
+      "translation": "J'ai soif (littéralement : l'envie d'eau m'attrape).",
+      "context": "Pour exprimer la soif."
+    },
+    {
+      "phrase_id": "p8_3",
+      "original": "Pesa ngai biloko ya kolia.",
+      "phonetic_api": "/pesa ŋɡái βilóko ya kolía/",
+      "phonetic_simple": "PE-SA NGAYI BI-LÓ-KO YA KO-LÍ-A.",
+      "translation": "Donne-moi quelque chose à manger.",
+      "context": "Pour commander ou demander un plat."
+    },
+    {
+      "phrase_id": "p8_4",
+      "original": "Eza boni?",
+      "phonetic_api": "/ezá boní/",
+      "phonetic_simple": "É-ZA BO-NÍ?",
+      "translation": "C'est combien ? / Quel est le prix ?",
+      "context": "Indispensable pour négocier ou demander l'addition."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'aspect progressif avec 'ezo' / 'nazo'",
+      "explanation": "Pour exprimer une action en train de se dérouler (comme l'anglais -ing), le lingala utilise l'infixe de temps '-zo-' inséré entre le pronom sujet et le radical verbal, ou contracté après le pronom.",
+      "rules": [
+        "Nazo + radical = Je suis en train de...",
+        "Ezo + radical = C'est en train de... (souvent utilisé pour des sensations comme la faim 'nzala ezo kanga...')"
+      ],
+      "examples": [
+        {
+          "structure": "Nazo mela mai ya tongo.",
+          "phonetic_api": "/nazó mɛla mái ya tóⁿɡo/",
+          "meaning": "Je suis en train de boire l'eau du matin."
+        }
+      ]
+    },
+    {
+      "concept": "Le pluriel des aliments (Classe Bi-)",
+      "explanation": "Beaucoup d'aliments et d'objets divers appartiennent à la classe grammaticale dont le singulier commence par 'E-' et le pluriel par 'Bi-'.",
+      "rules": [
+        "Eloko (une chose / un aliment) devient Biloko (des choses / de la nourriture)",
+        "Elengi (la saveur) reste souvent invariable mais qualifie le groupe."
+      ],
+      "examples": [
+        {
+          "structure": "Pesa ngai biloko oyo.",
+          "phonetic_api": "/pesa ŋɡái βilóko ójo/",
+          "meaning": "Donne-moi ces aliments."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mopaya (Le client)",
+      "text": "Mbote mama! Biloko nini ya kolia ezali lelo?",
+      "phonetic_api": "/ᵐbóte máma βilóko niní ya kolía ezalí lelo/",
+      "phonetic_simple": "MBÓ-TE MÁ-MA! BI-LÓ-KO NI-NÍ YA KO-LÍ-A E-ZA-LÍ LE-LO?",
+      "translation": "Bonjour maman ! Qu'est-ce qu'il y a à manger aujourd'hui ?"
+    },
+    {
+      "speaker": "Mama Kuku (La cuisinière)",
+      "text": "Mbote ndeko! Ezali na fufu, nyama ya ntaba, mpe mbisi ya kokalinga. Olingi nini?",
+      "phonetic_api": "/ᵐbóte ⁿdéko ezalí na fufú ɲáma ya ⁿtaba ᵐpɛ ᵐbísí ya kokaliⁿɡa olíŋɡí niní/",
+      "phonetic_simple": "MBÓ-TE NDÉ-KO! E-ZA-LÍ NA FOU-FOU, NYA-MA YA NTA-BA, MPÉ MBÍ-SÍ YA KO-KA-LIN-GA. O-LÍN-GÍ NI-NÍ?",
+      "translation": "Bonjour mon frère ! Il y a du fufu, de la viande de chèvre, et du poisson frit. Que veux-tu ?"
+    },
+    {
+      "speaker": "Mopaya (Le client)",
+      "text": "Pesa ngai mbisi ya kokalinga na fufu. Mpe nazo senga mai ya komela.",
+      "phonetic_api": "/pesa ŋɡái ᵐbísí ya kokaliⁿɡa na fufú ᵐpɛ nazó sɛⁿɡa mái ya komɛla/",
+      "phonetic_simple": "PE-SA NGAYI MBÍ-SÍ YA KO-KA-LIN-GA NA FOU-FOU. MPÉ NA-ZÓ SEN-GA MÁ-I YA KO-MÈ-LA.",
+      "translation": "Donne-moi du poisson frit avec du fufu. Et je demande aussi de l'eau à boire."
+    },
+    {
+      "speaker": "Mama Kuku (La cuisinière)",
+      "text": "Malamu, yango oyo. Melá mpe liá malamu !",
+      "phonetic_api": "/malámu jaⁿɡó ójo melá ᵐpɛ líá malámu/",
+      "phonetic_simple": "MA-LÁ-MOU, YAN-GO O-YO. ME-LÁ MPÉ LÍ-Á MA-LÁ-MOU !",
+      "translation": "D'accord, voici. Bois et mange bien !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les 'Malewa' (petits restaurants populaires de rue au Congo), les clients appellent affectueusement la gérante ou la cuisinière 'Mama Kuku' (Maman Cuisine) ou 'Mama mapasa'.",
+    "Le fufu (boule de farine de manioc et de maïs) et la chikwangue sont les accompagnements traditionnels de base de presque tous les plats en sauce ou grillades."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex8_1",
+      "type": "multiple_choice",
+      "question": "Que signifie la phrase 'Nzala ezo kanga ngai' ?",
+      "options": [
+        "J'ai soif.",
+        "Je veux dormir.",
+        "J'ai faim."
+      ],
+      "correct_answer": "J'ai faim.",
+      "explanation": "'Nzala' désigne la faim, et la structure exprime la sensation physique immédiate d'avoir faim."
+    },
+    {
+      "exercise_id": "ex8_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Nazo mela [ ___ ] ya sika.",
+      "correct_answer": "mai",
+      "hint": "Le liquide indispensable pour étancher la soif."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes et modes avancés",
+  "learning_objectives": [
+    "Maîtriser le subjonctif passé (Presumptive/Contingent Perfect) pour exprimer des suppositions sur des faits accomplis",
+    "Utiliser le conditionnel passé (Irrealis/Past Counterfactual) pour formuler des regrets ou des actions manquées",
+    "Nuancer le discours écrit et oral grâce aux aspects combinés et aux verbes composés avancés"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La distinction entre le subjonctif et le conditionnel repose sur une nasalisation rigoureuse. La structure du subjonctif passé utilise 'हो' (/ɦoː/) ou 'हों' (/ɦõː/), exigeant une résonance nasale profonde. Le conditionnel passé recourt à la particule 'होता' (/ɦoːt̪aː/) dont le 'त' dentale doit être parfaitement net, sans aucune aspiration.",
+    "common_pitfalls": "Ne confondez pas le conditionnel contrefactuel 'होता' (/ɦoːt̪aː/) avec le verbe au passé simple 'हुआ' (/ɦʊaː/). Un manque de précision sur la voyelle centrale détruit la valeur hypothétique de la structure avancée."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v_adv_time_1",
+      "term": "संभावना",
+      "phonetic_api": "/səmbʱaːʋnaː/",
+      "phonetic_simple": "SAM-BHAAV-NAA",
+      "translation": "Probabilité / Éventualité / Perspective",
+      "example_sentence": "इस बात की पूरी संभावना है कि वह आया हो।",
+      "example_phonetic": "/ɪs baːt̪ kiː puːriː səmbʱaːʋnaː ɦɛː kɪ ʋəɦ aːjaː ɦoː/",
+      "example_translation": "Il est fort probable qu'il soit venu (Subjonctif passé)."
+    },
+    {
+      "word_id": "v_adv_time_2",
+      "term": "पछतावा",
+      "phonetic_api": "/pətʃt̪aːʋaː/",
+      "phonetic_simple": "PATTH-TAA-VAA",
+      "translation": "Regret / Remords",
+      "example_sentence": "समय बीतने के बाद पछतावा करने से कोई लाभ नहीं होता।",
+      "example_phonetic": "/səməj biːt̪neː keː baːd̪ pətʃt̪aːʋaː kəɾneː seː koːiː laːbʱ nəɦĩː ɦoːt̪aː/",
+      "example_translation": "Il ne sert à rien d'avoir des regrets une fois le temps passé."
+    },
+    {
+      "word_id": "v_adv_time_3",
+      "term": "शर्त",
+      "phonetic_api": "/ʃəɾt̪/",
+      "phonetic_simple": "CHART",
+      "translation": "Condition / Clause / Pari",
+      "example_sentence": "यदि तुम मेरी शर्त मानते, तो नुकसान न होता।",
+      "example_phonetic": "/jəd̪ɪ t̪ʊm meːriː ʃəɾt̪ maːnt̪eː t̪oː nʊksaːn nə ɦoːt̪aː/",
+      "example_translation": "Si tu avais accepté ma condition, il n'y aurait pas eu de perte."
+    },
+    {
+      "word_id": "v_adv_time_4",
+      "term": "शायद ही",
+      "phonetic_api": "/ʃaːjəd̪ ɦiː/",
+      "phonetic_simple": "CHAA-YAD HII",
+      "translation": "Presque pas / Très peu probablement / Uniquement par grand hasard",
+      "example_sentence": "उसने शायद ही कभी पत्र लिखा हो।",
+      "example_phonetic": "/ʊsneː ʃaːjəd̪ ɦiː kəbʱiː pət̪ɾə lɪkʰaː ɦoː/",
+      "example_translation": "Il est fort peu probable qu'il ait jamais écrit une lettre."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "यदि आपने मुझे पहले सूचित किया होता, तो मैं स्टेशन आ जाता।",
+      "phonetic_api": "/jəd̪ɪ aːpneː mʊdʒʱeː pəɦleː suːtʃɪt̪ kɪjaː ɦoːt̪aː t̪oː mɛ̃ː sʈeːʃən aː dʒaːt̪aː/",
+      "phonetic_simple": "YA-DI AAP-NÉ MOUD-JHÉ PAH-LÉ SOO-TCHIT KI-YAA HO-TAA, TO MEIN STÉ-CHAN AA DJAA-TAA",
+      "translation": "Si vous m'aviez prévenu plus tôt, je serais venu à la gare (Conditionnel passé contrefactuel).",
+      "context": "Exprimer un fait manqué dans le passé provoquant un regret léger ou une explication formelle."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "ऐसा लगता है कि उसने आपकी बात न सुनी हो।",
+      "phonetic_api": "/ɛːsaː ləɡt̪aː ɦɛː kɪ ʊsneː aːpkiː baːt̪ nə sʊniː ɦoː/",
+      "phonetic_simple": "AI-SAA LAG-TAA HÉ KI OUS-NÉ AAP-KII BAAT NA SOO-NII HO",
+      "translation": "Il semble qu'il ne vous ait pas écouté / qu'il ait ignoré vos propos.",
+      "context": "Formuler une hypothèse subjective sur le comportement passé de quelqu'un."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le subjonctif passé (Contingent Perfect)",
+      "explanation": "Ce temps exprime le doute, l'incertitude ou la possibilité concernant une action déjà accomplie. Il se construit avec le participe passé du verbe d'action, suivi du verbe 'होना' conjugué au subjonctif présent.",
+      "rules": [
+        "Structure : [Participe passé du verbe (accordé)] + हो (ho) / हों (hoñ).",
+        "Si le verbe est transitif, la règle de la postposition 'ने' s'applique au sujet, et le participe passé s'accorde avec l'objet direct."
+      ],
+      "examples": [
+        {
+          "structure": "शायद उसने खाना खाया हो। (Shāyad usnē khānā khāyā ho)",
+          "phonetic_api": "/ʃaːjəd̪ ʊsneː kʰaːnaː kʰaːjaː ɦoː/",
+          "meaning": "Il a peut-être mangé. / Il se peut qu'il ait mangé."
+        }
+      ]
+    },
+    {
+      "concept": "Le conditionnel passé contrefactuel (Past Counterfactual)",
+      "explanation": "Utilisé pour exprimer des situations irréelles du passé (ce qui se serait passé si une condition avait été remplie). La structure requiert l'emploi du participe habituel du verbe suivi de 'होता' pour la proposition principale et la subordonnée.",
+      "rules": [
+        "Structure : यदि (Si) + Sujet + Participe habituel (-tā/-tē/-tī) + होता (hōtā), तो (alors) + Sujet + Participe habituel + होता।",
+        "Pour les verbes transitifs construits avec 'ने', le participe habituel de l'action devient invariable au masculin singulier (-ा) mais 'होता' s'accorde en genre et en nombre avec l'objet direct."
+      ],
+      "examples": [
+        {
+          "structure": "अगर मैं पढ़ता, तो पास हो जाता। (Agar meiñ paṛhtā, to pās ho jātā)",
+          "phonetic_api": "/əɡəɾ mɛ̃ː pəɽʱt̪aː t̪oː paːs ɦoː dʒaːt̪aː/",
+          "meaning": "Si j'avais étudié, j'aurais réussi (locuteur masculin)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "राकेश (Rakesh)",
+      "text": "अमित, तुमने कल का सेमिनार छोड़ दिया। यदि तुम आए होते, तो तुम्हें बहुत कुछ सीखने को मिलता।",
+      "phonetic_api": "/əmɪt̪ t̪ʊmneː kəl kaː semɪnaːr tʃʰoːɽ d̪ɪjaː jəd̪ɪ t̪ʊm aːeː ɦoːt̪eː t̪oː t̪ʊmʱẽː bəɦʊt̪ kʊtʃ siːkʰneː koː mɪlt̪aː/",
+      "phonetic_simple": "A-MIT, TOUM-NÉ KAL KAA SEMINAR TCHHO-RH DIYA. YA-DI TOUM AA-É HO-TÉ, TO TOUM-HÊN BAHOUT KOUTCH SIIKH-NÉ KO MIL-TAA",
+      "translation": "Amit, tu as manqué le séminaire d'hier. Si tu étais venu, tu aurais appris énormément de choses."
+    },
+    {
+      "speaker": "अमित (Amit)",
+      "text": "मुझे मालूम है राकेश। यदि मेरे पास समय होता, तो मैं अवश्य आता। पर शायद मुख्य अतिथि ने मेरी अनुपस्थिति पर ध्यान न दिया हो।",
+      "phonetic_api": "/mʊdʒʱeː maːluːm ɦɛː ɾaːkeːʃ jəd̪ɪ meːɾeː paːs səməj ɦoːt̪aː t̪oː mɛ̃ː əʋəʃjə aːt̪aː pəɾ ʃaːjəd̪ mʊkʰjə ət̪ɪt̪ʱɪ neː meːriː ənʊpəst̪ʰɪt̪ɪ pəɾ dʱjaːn nə d̪ɪjaː ɦoː/",
+      "phonetic_simple": "MOUD-JHÉ MAA-LOOM HÉ RAKESH. YA-DI MÉ-RÉ PAAS SA-MAY HO-TAA, TO MEIN A-VASH-YA AA-TAA. PAR CHAA-YAD MUKH-YA A-TI-THI NÉ MÉ-RII A-NOU-PAS-THI-TI PAR DHYAAN NA DI-YAA HO",
+      "translation": "Je le sais, Rakesh. Si j'avais eu le temps, je serais certainement venu. Mais il se peut que l'invité d'honneur n'ait pas remarqué mon absence."
+    },
+    {
+      "speaker": "राकेश (Rakesh)",
+      "text": "उन्होंने पूछा तो नहीं था, पर यदि तुमने उनका भाषण सुना होता, तो तुम्हारा दृष्टिकोण बदल जाता।",
+      "phonetic_api": "/ʊnʱõːneː puːtʃʰaː t̪oː nəɦĩː t̪ʰaː pəɾ jəd̪ɪ t̪ʊmneː ʊnkaː bʱaːʃəɳ sʊnaː ɦoːt̪aː t̪oː t̪ʊmʱaːraː dɾɪʃʈɪkoːɳ bəd̪əl dʒaːt̪aː/",
+      "phonetic_simple": "OUN-HON-NÉ POOTCH-HAA TO NA-HIN THAA, PAR YA-DI TOUM-NÉ OUN-KAA BHAA-CHAN SOO-NAA HO-TAA, TO TOUM-HAA-RAA DRICH-TI-KON BADAL DJAA-TAA",
+      "translation": "Il n'a pas posé la question, mais si tu avais écouté son discours, ton point de vue aurait changé."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la rhétorique et les discussions intellectuelles en Inde, l'utilisation de structures hypothétiques complexes et polies permet de ne pas heurter son interlocuteur de front. Nuancer son opinion par le subjonctif passé est une marque de haute éducation et de courtoisie (सभ्यता).",
+    "Les notions de destin (क़िस्मत / कर्म) s'immiscent souvent dans l'usage du conditionnel passé : lorsqu'un projet échoue malgré les efforts, les locuteurs basculent fréquemment du regret contrefactuel vers une acceptation philosophique des faits."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la traduction exacte de : 'Si elle avait travaillé, elle aurait réussi' ?",
+      "options": [
+        "अगर वह काम करती तो पास हो जाती (Agar vah kām kartī to pās ho jātī)",
+        "اگر वह काम की होती तो पास हो जाती (Agar vah kām kī hotī to pās ho jātī)",
+        "शायद उसने काम किया हो (Shāyad usnē kām kiyā ho)"
+      ],
+      "correct_answer": "اگر वह काम करती तो पास हो जाती (Agar vah kām kartī to pās ho jātī)",
+      "explanation": "Le conditionnel passé utilise le participe habituel au féminin singulier (करती / जाती) dans les deux propositions pour marquer le contrefactuel."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "शायद उसने पत्र लिखा [ ___ ]। (Il se peut qu'il ait écrit une lettre - subjonctif passé).",
+      "correct_answer": "हो",
+      "hint": "L'auxiliaire requis au subjonctif pour la troisième personne du singulier (ho)"
+    }
+  ]
+}

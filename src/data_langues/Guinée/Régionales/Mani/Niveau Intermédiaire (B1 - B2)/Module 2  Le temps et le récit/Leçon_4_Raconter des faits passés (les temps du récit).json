@@ -1,0 +1,179 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Utiliser le morphème du passé accompli pour structurer une narration",
+    "Employer les adverbes de temps liés au passé (hier, autrefois)",
+    "Raconter une suite d'événements simples s'étant déroulés au village ou en ville"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne occlusive palatale sonore /ɟ/, parfois transcrite 'y' ou 'j' selon les conventions, doit être articulée avec un contact ferme de la langue sur le palais moyen. Le mot 'cece' utilise une affriquée /tʃ/ qui ne doit pas être affaiblie en /s/.",
+    "common_pitfalls": "Ne confondez pas la particule d'état présent 'bɛ' avec la particule du passé révolu 'wo'. Veillez à bien prononcer les fins de syllabes nasales sans détacher le 'ŋ'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v13_1",
+      "term": "wo",
+      "phonetic_api": "/wo/",
+      "phonetic_simple": "WO",
+      "translation": "marqueur du passé / avoir été / autrefois",
+      "example_sentence": "N wo sègé lɔ.",
+      "example_phonetic": "/n̩ wo se.ɡe lɔ/",
+      "example_translation": "J'étais au marché (j'ai été au marché)."
+    },
+    {
+      "word_id": "v13_2",
+      "term": "fɔkɔ-wo",
+      "phonetic_api": "/fɔ.kɔ wo/",
+      "phonetic_simple": "FƆ-KƆ-WO",
+      "translation": "est venu (passé de venir)",
+      "example_sentence": "Mora bulu fɔkɔ-wo lɔ.",
+      "example_phonetic": "/mo.ra bu.lu fɔ.kɔ wo lɔ/",
+      "example_translation": "Une personne est venue ici."
+    },
+    {
+      "word_id": "v13_3",
+      "term": "gbana-wo",
+      "phonetic_api": "/ɡba.na wo/",
+      "phonetic_simple": "GBA-NA-WO",
+      "translation": "est parti / a quitté",
+      "example_sentence": "N fara gbana-wo woŋ.",
+      "example_phonetic": "/n̩ fa.ra ɡba.na wo woŋ/",
+      "example_translation": "Mon père est parti à la ville."
+    },
+    {
+      "word_id": "v13_4",
+      "term": "hɔnkɔ-fɔkɔ",
+      "phonetic_api": "/hɔn.kɔ fɔ.kɔ/",
+      "phonetic_simple": "HON-KƆ-FƆ-KƆ",
+      "translation": "hier (le jour venu et passé)",
+      "example_sentence": "N béré wo hɔnkɔ-fɔkɔ.",
+      "example_phonetic": "/n̩ be.re wo hɔn.kɔ fɔ.kɔ/",
+      "example_translation": "J'ai joué hier."
+    },
+    {
+      "word_id": "v13_5",
+      "term": "wɔli-wo",
+      "phonetic_api": "/wɔ.li wo/",
+      "phonetic_simple": "WƆ-LI-WO",
+      "translation": "a travaillé / a fait",
+      "example_sentence": "A wɔli-wo cece.",
+      "example_phonetic": "/a wɔ.li wo tʃe.tʃe/",
+      "example_translation": "Il a beaucoup travaillé."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p13_1",
+      "original": "Wun wo mi hɔnkɔ-fɔkɔ ?",
+      "phonetic_api": "/wun wo mi hɔn.kɔ fɔ.kɔ/",
+      "phonetic_simple": "WOUN WO MI HON-KƆ-FƆ-KƆ ?",
+      "translation": "Où étais-tu hier ?",
+      "context": "Demander à un proche sa localisation de la veille."
+    },
+    {
+      "phrase_id": "p13_2",
+      "original": "N wo banxi lɔ si cɛm.",
+      "phonetic_api": "/n̩ wo ban.xi lɔ si tʃɛm/",
+      "phonetic_simple": "N WO BAN-KHI LƆ SI TCHÈM",
+      "translation": "J'étais à la maison pendant la nuit.",
+      "context": "Expliquer son emploi du temps passé."
+    },
+    {
+      "phrase_id": "p13_3",
+      "original": "A diŋɛ-wo mɛl ni nin.",
+      "phonetic_api": "/a di.ŋɛ wo mɛl ni nin/",
+      "phonetic_simple": "A DI-NGÈ WO MÈL NI NIN",
+      "translation": "Il a mangé du riz avec du poisson.",
+      "context": "Rapporter l'action passée de consommation d'un tiers."
+    },
+    {
+      "phrase_id": "p13_4",
+      "original": "Denbaya bɛŋ-wo kankaran lɔ.",
+      "phonetic_api": "/den.ba.ja bɛŋ wo kan.ka.ran lɔ/",
+      "phonetic_simple": "DEN-BA-YA BÈNG WO KAN-KA-RAN LƆ",
+      "translation": "La famille s'est rassemblée dans la cour.",
+      "context": "Décrire un événement familial qui s'est achevé."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système de l'accompli narratif avec 'wo'",
+      "explanation": "En langue Mani, le récit au passé s'appuie sur l'introduction du morphème de post-position verbale ou de prédication passée 'wo'. Pour un verbe d'action, 'wo' se place juste après le radical verbal pour indiquer que l'action est totalement achevée.",
+      "rules": [
+        "Pour un état passé : Sujet + wo + Lieu/Adjectif.",
+        "Pour une action passée : Sujet + Radical Verbal + wo + Compléments."
+      ],
+      "examples": [
+        {
+          "structure": "N wo lɔ",
+          "phonetic_api": "/n̩ wo lɔ/",
+          "meaning": "J'étais ici"
+        },
+        {
+          "structure": "N ŋon-wo lan",
+          "phonetic_api": "/n̩ ŋon wo lan/",
+          "meaning": "J'ai bu de l'eau"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "Mboi Fanta ! Wun wo mi hɔnkɔ-fɔkɔ ?",
+      "phonetic_api": "/mboi fan.ta wun wo mi hɔn.kɔ fɔ.kɔ/",
+      "phonetic_simple": "MBOÏ FAN-TA ! WOUN WO MI HON-KƆ-FƆ-KƆ ?",
+      "translation": "Bonjour Fanta ! Où étais-tu hier ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Mboi Sékou ! N wo sègé lɔ. N wɔli-wo mɛnni cɛm.",
+      "phonetic_api": "/mboi se.kou n̩ wo se.ɡe lɔ n̩ wɔ.li wo mɛn.ni tʃɛm/",
+      "phonetic_simple": "MBOÏ SÉ-KOU ! N WO SÉ-GÉ LƆ. N WƆ-LI WO MÈN-NI TCHÈM.",
+      "translation": "Bonjour Sékou ! J'étais au marché. J'ai travaillé là-bas à l'intérieur."
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Wun bɔŋ fɔkɔ-wo fan sègé ?",
+      "phonetic_api": "/wun bɔŋ fɔ.kɔ wo fan se.ɡe/",
+      "phonetic_simple": "WOUN BONG FƆ-KƆ WO FAN SÉ-GÉ ?",
+      "translation": "Ton enfant est venu aussi au marché ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Inde, a béré-wo kankaran lɔ ni n wulɛ.",
+      "phonetic_api": "/in.de a be.re wo kan.ka.ran lɔ ni n̩ wu.lɛ/",
+      "phonetic_simple": "IN-DE, A BÉ-RÉ WO KAN-KA-RAN LƆ NI N WOU-LÈ.",
+      "translation": "Non, il a joué dans la cour avec ma mère."
+    }
+  ],
+  "cultural_notes": [
+    "Raconter le passé chez les Mani s'accompagne d'une grande précision temporelle liée aux moments du jour (au lever du soleil, au zénith). La transmission des événements de la veille permet de maintenir la cohésion informative du village et d'informer le chef de famille des interactions ayant eu lieu hors de la concession."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex13_1",
+      "type": "multiple_choice",
+      "question": "Quelle particule marque le temps passé en Mani ?",
+      "options": [
+        "bɛ",
+        "wo",
+        "lɔ"
+      ],
+      "correct_answer": "wo",
+      "explanation": "'Wo' est le marqueur grammatical exclusif de l'accompli ou de l'état passé."
+    },
+    {
+      "exercise_id": "ex13_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N wo sègé lɔ [ ___ ]. (J'étais au marché hier).",
+      "correct_answer": "hɔnkɔ-fɔkɔ",
+      "hint": "Expression composée signifiant littéralement le jour venu."
+    }
+  ]
+}

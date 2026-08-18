@@ -1,0 +1,273 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Maîtriser la morphologie et les règles de modification phonétique de la forme informelle passée en '-ta'",
+    "Raconter une suite chronologique d'actions passées ou énumérer des faits non exhaustifs avec '~ tari, ~ tari suru'",
+    "Évoquer une expérience vécue dans le passé en utilisant la structure '～たことがあります' (ta koto ga arimasu)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La forme passée neutre se termine par le son た (ta) ou だ (da). La consonne occlusive alvéolaire sourde /t/ ou voisée /d/ demande une prononciation nette sans aspiration. Le suffixe 'tari' introduit un 'r' qui est une consonne battue alvéolaire [ɾ]. Veillez à la brièveté des mores : 'tari' ne comporte aucun allongement vocalique.",
+    "common_pitfalls": "Attention au phénomène de doublement de consonne (gémination) induit par le petit つ (っ) lors de la modification phonétique des verbes du groupe 1 (ex: 'kaimasu' devient 'katta' et non 'kaita'). À l'inverse, veillez à ne pas insérer de pause glottale là où il n'y en a pas (ex: 'yomimasu' devient 'yonda')."
+  },
+  "past_form_rules_focus": [
+    {
+      "group": "Groupe 1 (Verbes en -u)",
+      "endings": "Verbes finissant par い (i), ち (chi), り (ri) ➔ った (tta) | き (ki) ➔ いた (ita) | ぎ (gi) ➔ いだ (ida) | み (mi), び (bi), に (ni) ➔ んだ (nda) | し (shi) ➔ した (shita)",
+      "exception": "Exception majeure : 行きます (ikimasu - aller) devient 行った (itta)."
+    },
+    {
+      "group": "Groupe 2 (Verbes en -eru / -iru)",
+      "endings": "La modification est régulière : on remplace la terminaison ます (masu) ou る (ru) par た (ta). (ex: 食べます ➔ 食べた, 見ます ➔ 見た)."
+    },
+    {
+      "group": "Groupe 3 (Verbes irréguliers)",
+      "endings": "Les deux verbes irréguliers doivent être mémorisés : します (shimasu - faire) ➔ した (shita) | 来ます (kimasu - venir) ➔ 来た (kita / attention au changement de lecture du kanji, prononcé 'ki')."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "けいけん (経験 / 経験します)",
+      "phonetic_api": "/keː.keɴ/",
+      "phonetic_simple": "KÉE-KEN",
+      "translation": "Expérience / Vivre une expérience",
+      "example_sentence": "日本で素晴らしい経験をしました。",
+      "example_phonetic": "/ni.hoɴ de sɯ.ba.ra.ɕiː keː.keɴ o ɕi.ma.ɕi.ta/",
+      "example_translation": "J'ai vécu une expérience merveilleuse au Japon."
+    },
+    {
+      "word_id": "v2",
+      "term": "むかし (昔)",
+      "phonetic_api": "/mɯ.ka.ɕi/",
+      "phonetic_simple": "MOU-KA-CHI",
+      "translation": "Autrefois / Le passé / Il y a longtemps",
+      "example_sentence": "昔、ここに古いお寺がありました。",
+      "example_phonetic": "/mɯ.ka.ɕi ko.ko ni ɸɯ.ɾɯ.i o.te.ɾa ɡa a.ɾi.ma.ɕi.ta/",
+      "example_translation": "Autrefois, il y avait un vieux temple ici."
+    },
+    {
+      "word_id": "v3",
+      "term": "さいきん (最近)",
+      "phonetic_api": "/sa.i.kiɴ/",
+      "phonetic_simple": "SA-I-KIN",
+      "translation": "Récemment / Ces derniers temps",
+      "example_sentence": "最近、歌舞伎を見ました。",
+      "example_phonetic": "/sa.i.kiɴ ka.bɯ.ki o mi.ma.ɕi.ta/",
+      "example_translation": "Récemment, j'ai regardé un spectacle de kabuki."
+    },
+    {
+      "word_id": "v4",
+      "term": "のぼる (登る / 登ります)",
+      "phonetic_api": "/no.bo.ɾɯ/",
+      "phonetic_simple": "NO-BO-ROU",
+      "translation": "Grimper / Gravir / Escalader (un mont, un arbre)",
+      "example_sentence": "富士山に登ったことがありますか。",
+      "example_phonetic": "/ɸɯ.d͡ʑi.saɴ ni no.bo̥t.ta ko.to ɡa a.ɾi.ma.sɯ.ka/",
+      "example_translation": "As-tu déjà gravi le mont Fuji ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "とまる (泊まる / 泊まります)",
+      "phonetic_api": "/to.ma.ɾɯ/",
+      "phonetic_simple": "TO-MA-ROU",
+      "translation": "Loger / Passer la nuit / Séjourner (à l'hôtel, chez quelqu'un)",
+      "example_sentence": "旅館に泊まりました。",
+      "example_phonetic": "/ɾjo.kaɴ ni to.ma.ɾi.ma.ɕi.ta/",
+      "example_translation": "J'ai séjourné dans une auberge traditionnelle (ryokan)."
+    },
+    {
+      "word_id": "v6",
+      "term": "おなじ (同じ)",
+      "phonetic_api": "/o.na.d͡ʑi/",
+      "phonetic_simple": "O-NA-DJI",
+      "translation": "Identique / Même (Adjectif particulier)",
+      "example_sentence": "彼と同じ映画を見ました。",
+      "example_phonetic": "/ka.re to o.na.d͡ʑi eː.ɡa o mi.ma.ɕi.ta/",
+      "example_translation": "J'ai regardé le même film que lui."
+    },
+    {
+      "word_id": "v7",
+      "term": "はじめて (初めて)",
+      "phonetic_api": "/ha.d͡ʑi.me.te/",
+      "phonetic_simple": "HA-DJI-MÉ-TÉ",
+      "translation": "Pour la première fois",
+      "example_sentence": "初めて日本酒を飲みました。",
+      "example_phonetic": "/ha.d͡ʑi.me.te ni.hoɴ.ɕɯ o no.mi.ma.ɕi.ta/",
+      "example_translation": "J'ai bu du saké japonais pour la première fois."
+    },
+    {
+      "word_id": "v8",
+      "term": "いろいろ (色々)",
+      "phonetic_api": "/i.ɾo.i.ɾo/",
+      "phonetic_simple": "I-RO-I-RO",
+      "translation": "Divers / Varié / Toutes sortes de (Adjectif -na)",
+      "example_sentence": "京都で色々なところへ行きました。",
+      "example_phonetic": "/kjoː.to de i.ɾo.i.ɾo.na to.ko.ɾo e i.ki.ma.ɕi.ta/",
+      "example_translation": "Je suis allé dans divers endroits à Kyoto."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "日本料理を食べたことがありますか。",
+      "phonetic_api": "/ni.hoɴ.ɾjoː.ɾi o ta.be.ta ko.to ɡa a.ɾi.ma.sɯ.ka/",
+      "phonetic_simple": "NI-HON-RYOO-RI O TA-BÉ-TA KO-TO GA A-RI-MASS-KA",
+      "translation": "As-tu déjà mangé de la cuisine japonaise ?",
+      "context": "Interroger son interlocuteur sur ses expériences vécues par le passé."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "いいえ、一度もありません。",
+      "phonetic_api": "/iː.e i.t͡ɕi.do mo a.ɾi.ma.seɴ/",
+      "phonetic_simple": "II-É, I-TCHI-DO MO A-RI-MA-SEN",
+      "translation": "Non, pas une seule fois (jamais).",
+      "context": "Réponse négative catégorique pour signifier l'absence totale d'une expérience."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "週末は買い物をしたり、映画を見たりしました。",
+      "phonetic_api": "/ɕɯː.ma.t͡sɯ wa ka.i.mo.no o ɕi.ta.ɾi eː.ɡa o mi.ta.ɾi ɕi.ma.ɕi.ta/",
+      "phonetic_simple": "CHUU-MAT-SOU WA KA-I-MO-NO O CHI-TA-RI ÉE-GA O MI-TA-RI CHI-MA-CH-TA",
+      "translation": "Ce week-end, j'ai fait des achats, j'ai regardé un film, etc.",
+      "context": "Énumérer plusieurs activités passées de façon non exhaustive."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "北海道へ行った時、雪がたくさん降っていました。",
+      "phonetic_api": "/ho̥k.ka.i.doː e i̥t.ta to.ki jɯ.ki ɡa ta.kɯ.saɴ ɸɯ̥t.te i.ma.ɕi.ta/",
+      "phonetic_simple": "HOK-KA-I-DOO E IT-TA TO-KI, YOU-KI GA TA-KOU-SAN FOUT-TÉ I-MA-CH-TA",
+      "translation": "Quand je suis allé à Hokkaido, il tombait beaucoup de neige.",
+      "context": "Placer le décor d'un récit au moment précis d'un voyage passé ('~ ta toki')."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "昨日は遅くまで起きていました。",
+      "phonetic_api": "/ki.noː wa o.so.kɯ ma.de o.ki.te i.ma.sɯ̥/",
+      "phonetic_simple": "KI-NOO WA O-SO-KOU MA-DÉ O-KI-TÉ I-MA-CH-TA",
+      "translation": "Hier, je suis resté éveillé jusqu'à tard.",
+      "context": "Raconter une action continue ou un état prolongé dans la journée précédente."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "お祭りを楽しんだり、花火を見たりしました。",
+      "phonetic_api": "/o.ma.t͡sɯ.ɾi o ta.no.ɕiɴ.da.ɾi ha.na.bi o mi.ta.ɾi ɕi.ma.ɕi.ta/",
+      "phonetic_simple": "O-MAT-SOU-RI O TA-NON-DA-RI, HA-NA-BI O MI-TA-RI CHI-MA-CH-TA",
+      "translation": "Nous avons profité du festival, regardé les feux d'artifice, entre autres.",
+      "context": "Faire le bilan d'événements festifs vécus."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "子供の頃、よくこの公園で遊びました。",
+      "phonetic_api": "/ko.do.mo no ko.ɾo jo.kɯ ko.no koː.eɴ de a.so.bi.ma.ɕi.ta/",
+      "phonetic_simple": "KO-DO-MO NO KO-RO, YO-KOU KO-NO KOO-EN DÉ A-SO-BI-MA-CH-TA",
+      "translation": "Quand j'étais enfant, je jouais souvent dans ce parc.",
+      "context": "Évoquer une habitude ou une action répétitive liée à l'enfance ('~ no koro')."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "素晴らしい思い出になりました。",
+      "phonetic_api": "/sɯ.ba.ra.ɕiː o.mo.i.de ni na.ɾi.ma.ɕi.ta/",
+      "phonetic_simple": "SOU-BA-RA-CHII O-MO-I-DÉ NI NA-RI-MA-CH-TA",
+      "translation": "C'est devenu un souvenir fantastique.",
+      "context": "Conclure positivement un récit ou le bilan d'un événement passé."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'expérience vécue : [Verbe forme -ta] ことがあります (ta koto ga arimasu)",
+      "explanation": "Pour exprimer le fait d'avoir déjà réalisé une action au moins une fois au cours de sa vie (l'expérience historique), le japonais utilise la forme passée informelle du verbe (forme en -ta) combinée avec 'ことがあります' (koto ga arimasu). À la forme négative, 'arimasu' devient 'arimasen' pour signifier que l'on n'a jamais fait cette action.",
+      "rules": [
+        "Structure : [Verbe Forme -ta] + こと が あります / ありません。",
+        "Ne s'utilise pas pour des actions ordinaires récentes (ex: 'j'ai mangé ce matin'), mais pour des faits marquants à l'échelle d'une vie."
+      ],
+      "examples": [
+        {
+          "structure": "私は京都へ行ったことがあります (Watashi wa Kyōto e itta koto ga arimasu)",
+          "phonetic_api": "/wa.ta.ɕi wa kjoː.to e i̥t.ta ko.to ɡa a.ɾi.ma.sɯ̥/",
+          "meaning": "Je suis déjà allé à Kyoto (au moins une fois dans ma vie)."
+        }
+      ]
+    },
+    {
+      "concept": "L'énumération d'actions non exhaustive : ～たり、～たり します (~ tari, ~ tari shimasu)",
+      "explanation": "Contrairement à la particule 'to' réservée aux noms, ou à la forme en '-te' qui impose une suite chronologique stricte, la structure '～たり、～たり します' permet de lister des exemples d'actions représentatives effectuées lors d'une période sans pour autant toutes les citer. Le temps de la phrase (présent ou passé) est porté uniquement par le verbe します (shimasu/shimashita) final.",
+      "rules": [
+        "Structure : [Verbe 1 Forme -ta + ri] + [Verbe 2 Forme -ta + ri] + します / しました。"
+      ],
+      "examples": [
+        {
+          "structure": "休みの日、本を読んだり、音楽を聴いたりしました (Yasumi no hi, hon o yonda ri, ongaku o kita ri shimashita)",
+          "phonetic_api": "/ja.sɯ.mi no çi hoɴ o joɴ.da.ɾi oɴ.ɡa.kɯ o kiː.ta.ɾi ɕi.ma.ɕi.ta/",
+          "meaning": "Pendant mon jour de repos, j'est notamment lu des livres et écouté de la musique (parmi d'autres choses)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "エミリー (Emily)",
+      "text": "ヤンさん, 素晴らしい休暇でしたね。京都で何をしましたか。",
+      "phonetic_api": "/jaɴ saɴ sɯ.ba.ra.ɕiː kjɯː.ka de.sɯ.ne kjoː.to de na.ni o ɕi.ma.ɕi.ta ka/",
+      "phonetic_simple": "YAN SAN, SOU-BA-RA-CHII KYUU-KA DESS NÉ. KYOO-TO DÉ NA-NI O CHI-MA-CH-TA KA ?",
+      "translation": "Yan, c'étaient de superbes vacances. Qu'as-tu fait à Kyoto ?"
+    },
+    {
+      "speaker": "ヤン (Yan)",
+      "text": "色々なお寺を見たり、お土産を買ったりしました。とても楽しかったです。",
+      "phonetic_api": "/i.ɾo.i.ɾo.na o.te.ɾa o mi.ta.ɾi o.mi.ja.ɡe o kḁt.ta.ɾi ɕi.ma.ɕi.ta to.te.mo ta.no.ɕi.kḁt.ta de.sɯ̥/",
+      "phonetic_simple": "I-RO-I-RO-NA O-TÉ-RA O MI-TA-RI, O-MI-YA-GÉ O KAT-TA-RI CHI-MA-CH-TA. TO-TÉ-MO TA-NO-CHIK-KAT-TA DESS.",
+      "translation": "J'ai notamment visité divers temples et acheté des souvenirs. C'était vraiment très agréable."
+    },
+    {
+      "speaker": "エミリー (Emily)",
+      "text": "いいですね！和菓子を食べたり、着物を着たりしましたか。",
+      "phonetic_api": "/iː de.sɯ.ne wa.ɡa.ɕi o ta.be.ta.ɾi ki.mo.no o ki.ta.ɾi ɕi.ma.ɕi.ta ka/",
+      "phonetic_simple": "II DESS NÉ ! WA-GA-CHI O TA-BÉ-TA-RI, KI-MO-NO O KI-TA-RI CHI-MA-CH-TA KA ?",
+      "translation": "Génial ! Est-ce que tu as aussi mangé des pâtisseries traditionnelles ou porté un kimono ?"
+    },
+    {
+      "speaker": "ヤン (Yan)",
+      "text": "はい、着物は初めて着ました。エミリーさんは京都へ行ったことがありますか。",
+      "phonetic_api": "/ha.i ki.mo.no wa ha.d͡ʑi.me.te ki.ma.ɕi.ta e.mi.ɾiː saɴ wa kjoː.to e i̥t.ta ko.to ɡa a.ɾi.ma.sɯ.ka/",
+      "phonetic_simple": "HAI, KI-MO-NO WA HA-DJI-MÉ-TÉ KI-MA-CH-TA. É-MI-RII SAN WA KYOO-TO E IT-TA KO-TO GA A-RI-MASS-KA ?",
+      "translation": "Oui, c'était la première fois que je portais un kimono. Et toi Emily, es-tu déjà allée à Kyoto ?"
+    },
+    {
+      "speaker": "エミリー (Emily)",
+      "text": "ええ、三年前に行ったことがあります。また行きたいですね。",
+      "phonetic_api": "/eː saɴ.neɴ ma.e ni i̥t.ta ko.to ɡa a.ɾi.ma.sɯ̥ ma.ta i.ki.ta.i de.sɯ.ne/",
+      "phonetic_simple": "ÉE, SAN-NEN MA-É NI IT-TA KO-TO GA A-RI-MASS. MA-TA I-KI-TA-I DESS NÉ.",
+      "translation": "Oui, j'y suis allée il y a trois ans. J'aimerais beaucoup y retourner."
+    }
+  ],
+  "cultural_notes": [
+    "La ville de Kyoto (京都), ancienne capitale impériale du Japon pendant plus d'un millénaire, regorge de milliers de temples bouddhistes, de sanctuaires shintoïstes et de jardins zen classés au patrimoine mondial de l'UNESCO. C'est le cœur historique du tourisme traditionnel, où l'on croise fréquemment des visiteurs revêtant un Kimono de location pour la journée.",
+    "Le suffixe 頃 (koro / goro) s'associe aux périodes de la vie ('kodomo no koro' - à l'époque de l'enfance) pour exprimer un repère temporel flou et nostalgique, très propre aux récits littéraires et personnels."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la conjugaison exacte à la forme passée informelle (-ta) du verbe 'ikimasu' (行きます - aller) ?",
+      "options": [
+        "行いた (Ikita)",
+        "行いた (Iita)",
+        "行った (Itta)"
+      ],
+      "correct_answer": "行った (Itta)",
+      "explanation": "Bien que finissant par 'ki', le verbe 'ikimasu' est la seule exception absolue de sa sous-catégorie et se transforme obligatoirement en 'itta' avec un petit tsu."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "私は日本の歌を歌っ[ ___ ]、ダンスをしたりしました。",
+      "correct_answer": "たり",
+      "hint": "Complétez la structure d'énumération d'actions non exhaustive associée au premier verbe (utatta)."
+    }
+  ]
+}

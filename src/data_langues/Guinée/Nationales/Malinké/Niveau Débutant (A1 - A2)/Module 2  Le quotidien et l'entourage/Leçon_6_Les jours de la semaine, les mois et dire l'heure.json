@@ -1,0 +1,209 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Citer les sept jours de la semaine en malinké",
+    "Se situer élémentairement dans le temps (aujourd'hui, demain, hier)",
+    "Demander et donner l'heure basique"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 't' se prononce de façon nette. Le mot 'bi' (aujourd'hui) possède une voyelle brève, à ne pas étirer. Le mot 'sinasini' (après-demain) demande une diction régulière sans accentuer les syllabes finales.",
+    "common_pitfalls": "Confondre 'Ntɛnɛn' (Lundi) avec un mot se terminant par un 'n' fort à la française. C'est une fermeture nasale douce."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v6_1",
+      "term": "Ntɛnɛn",
+      "phonetic_api": "/n̩.tɛ.nɛn/",
+      "phonetic_simple": "N-TƐ-NƐN",
+      "translation": "Lundi",
+      "example_sentence": "Ntɛnɛn do, n bɛ baara la",
+      "example_phonetic": "/n̩.tɛ.nɛn do n̩ bɛ baː.ra la/",
+      "example_translation": "Lundi, je serai au travail."
+    },
+    {
+      "word_id": "v6_2",
+      "term": "Tarata",
+      "phonetic_api": "/ta.ra.ta/",
+      "phonetic_simple": "TA-RA-TA",
+      "translation": "Mardi",
+      "example_sentence": "Tarata bɛ sɔgɔma",
+      "example_phonetic": "/ta.ra.ta bɛ sɔ.ɡɔ.ma/",
+      "example_translation": "C'est mardi matin."
+    },
+    {
+      "word_id": "v6_3",
+      "term": "Araba",
+      "phonetic_api": "/a.ra.ba/",
+      "phonetic_simple": "A-RA-BA",
+      "translation": "Mercredi",
+      "example_sentence": "Araba do, sugu bɛ dya",
+      "example_phonetic": "/a.ra.ba do su.ɡu bɛ d͡ʒa/",
+      "example_translation": "Le mercredi, le marché est animé."
+    },
+    {
+      "word_id": "v6_4",
+      "term": "Alamisa",
+      "phonetic_api": "/a.la.mi.sa/",
+      "phonetic_simple": "A-LA-MI-SA",
+      "translation": "Jeudi",
+      "example_sentence": "Alamisa bɛ yan",
+      "example_phonetic": "/a.la.mi.sa bɛ jan/",
+      "example_translation": "Jeudi est arrivé."
+    },
+    {
+      "word_id": "v6_5",
+      "term": "Juma",
+      "phonetic_api": "/d͡ʒu.ma/",
+      "phonetic_simple": "DJOU-MA",
+      "translation": "Vendredi",
+      "example_sentence": "Juma do, an bɛ seli la",
+      "example_phonetic": "/d͡ʒu.ma do an bɛ se.li la/",
+      "example_translation": "Vendredi, nous prions."
+    },
+    {
+      "word_id": "v6_6",
+      "term": "Sibiri",
+      "phonetic_api": "/si.bi.ri/",
+      "phonetic_simple": "SI-BI-RI",
+      "translation": "Samedi",
+      "example_sentence": "Sibiri do, n bɛ lafya la",
+      "example_phonetic": "/si.bi.ri do n̩ bɛ la.fja la/",
+      "example_translation": "Samedi, je me repose."
+    },
+    {
+      "word_id": "v6_7",
+      "term": "Kari",
+      "phonetic_api": "/ka.ri/",
+      "phonetic_simple": "KA-RI",
+      "translation": "Dimanche",
+      "example_sentence": "Kari do, baara mu na",
+      "example_phonetic": "/ka.ri do baː.ra mu na/",
+      "example_translation": "Dimanche, il n'y a pas de travail."
+    },
+    {
+      "word_id": "v6_8",
+      "term": "Bi",
+      "phonetic_api": "/bi/",
+      "phonetic_simple": "BI",
+      "translation": "Aujourd'hui",
+      "example_sentence": "Bi na juma ra",
+      "example_phonetic": "/bi na d͡ʒu.ma ra/",
+      "example_translation": "Aujourd'hui c'est vendredi."
+    },
+    {
+      "word_id": "v6_9",
+      "term": "Sini",
+      "phonetic_api": "/si.ni/",
+      "phonetic_simple": "SI-NI",
+      "translation": "Demain",
+      "example_sentence": "Sini n bɛ bɔ i bɔ",
+      "example_phonetic": "/si.ni n̩ bɛ bɔ i bɔ/",
+      "example_translation": "Demain, je te rendrai visite."
+    },
+    {
+      "word_id": "v6_10",
+      "term": "Leri",
+      "phonetic_api": "/le.ri/",
+      "phonetic_simple": "LÉ-RI",
+      "translation": "L'heure / La montre (emprunt)",
+      "example_sentence": "Leri jeli bɛ ?",
+      "example_phonetic": "/le.ri d͡ʒe.li bɛ/",
+      "example_translation": "Quelle heure est-il ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p6_1",
+      "original": "Leri jeli bɛ ?",
+      "phonetic_api": "/le.ri d͡ʒe.li bɛ/",
+      "phonetic_simple": "LÉ-RI DJÉ-LI BƐ ?",
+      "translation": "Quelle heure est-il ?",
+      "context": "Demande de repère temporel immédiat au quotidien."
+    },
+    {
+      "phrase_id": "p6_2",
+      "original": "Leri loolu bɛ.",
+      "phonetic_api": "/le.ri loː.lu bɛ/",
+      "phonetic_simple": "LÉ-RI LOO-LOU BƐ.",
+      "translation": "Il est cinq heures.",
+      "context": "Réponse simple pour donner l'heure exacte."
+    },
+    {
+      "phrase_id": "p6_3",
+      "original": "Bi na dankala do ra ?",
+      "phonetic_api": "/bi na dan.ka.la do ra/",
+      "phonetic_simple": "BI NA DAN-KA-LA DO RA ?",
+      "translation": "Quel jour sommes-aujourd'hui ?",
+      "context": "S'informer sur le jour de la semaine."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'utilisation de la particule 'do' pour situer le jour",
+      "explanation": "Pour préciser qu'une action se passe un jour particulier ou pour nommer le contexte temporel journalier, on fait suivre le nom du jour de la particule de spécification 'do'.",
+      "rules": [
+        "Structure : Nom du jour + 'do'.",
+        "Exemple : 'Juma do' signifie 'Le jour de vendredi' ou 'un vendredi'."
+      ],
+      "examples": [
+        {
+          "structure": "Sibiri do",
+          "phonetic_api": "/si.bi.ri do/",
+          "meaning": "Samedi / Le samedi"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Fanta",
+      "text": "Lamine, leri jeli bɛ bi ?",
+      "phonetic_api": "/la.min le.ri d͡ʒe.li bɛ bi/",
+      "phonetic_simple": "LA-MINE, LÉ-RI DJÉ-LI BƐ BI ?",
+      "translation": "Lamine, quelle heure est-il aujourd'hui ?"
+    },
+    {
+      "speaker": "Lamine",
+      "text": "Leri nani bɛ. Bi na araba ra, i mu baara la ?",
+      "phonetic_api": "/le.ri na.ni bɛ bi na a.ra.ba ra i mu baː.ra la/",
+      "phonetic_simple": "LÉ-RI NA-NI BƐ. BI NA A-RA-BA RA, I MOU BAA-RA LA ?",
+      "translation": "Il est quatre heures. Aujourd'hui c'est mercredi, tu n'es pas au travail ?"
+    },
+    {
+      "speaker": "Fanta",
+      "text": "Ayi, n bɛ lafya la bi. Sini do n bɛ baara la.",
+      "phonetic_api": "/a.ji n̩ bɛ la.fja la bi si.ni do n̩ bɛ baː.ra la/",
+      "phonetic_simple": "A-YI, N BƐ LA-FYA LA BI. SI-NI DO N BƐ BAA-RA LA.",
+      "translation": "Non, je me repose aujourd'hui. Demain, je serai au travail."
+    }
+  ],
+  "cultural_notes": [
+    "Les noms des jours de la semaine en malinké sont profondément influencés par les structures linguistiques et historiques arabes suite aux contacts séculaires transsahariens, tout en étant parfaitement adaptés au système vocalique et tonal mandingue."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L6_ex1",
+      "type": "multiple_choice",
+      "question": "Que signifie 'Juma' en malinké ?",
+      "options": [
+        "Mardi",
+        "Vendredi",
+        "Dimanche"
+      ],
+      "correct_answer": "Vendredi",
+      "explanation": "'Juma' désigne le vendredi, jour traditionnel de repos et de rassemblement."
+    },
+    {
+      "exercise_id": "A1_M2_L6_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Leri [ ___ ] bɛ (Il est deux heures).",
+      "correct_answer": "fila",
+      "hint": "Utilisez le chiffre deux."
+    }
+  ]
+}

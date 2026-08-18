@@ -1,0 +1,218 @@
+{
+  "lesson_id": "B1_M3_L8",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 8,
+  "title": "Parler de son travail, de ses études et de sa routine professionnelle",
+  "learning_objectives": [
+    "Nommer les principaux métiers, secteurs d'activité et statuts académiques en Sankaran",
+    "Décrire les actions répétitives et structurer le déroulement de sa journée de travail",
+    "Exprimer l'effort, la complétion de tâches et les interactions avec les collègues"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le lexique professionnel met en avant le terme pivot 'Baara' /baː.ra/ qui exige de tenir la première voyelle /a/ longue sur deux temps. Le mot pour le métier 'Baarakɛla' /baː.ra.kɛ.la/ se termine par un /a/ bref. La routine s'appuie sur le mot 'Tumando' /tu.man.dɔ/ dont le 'ɔ' final est très ouvert.",
+    "common_pitfalls": "Marquez distinctement la coupure glottale ou la transition fluide dans 'Sɛbɛlikɛla' (secrétaire/écrivain). N'inversez pas l'ordre des voyelles dans 'Kalan' /ka.lan/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v17_1",
+      "term": "Baarakɛla",
+      "phonetic_api": "/baː.ra.kɛ.la/",
+      "phonetic_simple": "BAA-RA-KƐ-LA",
+      "translation": "Travailleur / Ouvrier / Employé",
+      "example_sentence": "Baarakɛla lu tilara sisan.",
+      "example_phonetic": "/baː.ra.kɛ.la lu ti.la.ra si.san/",
+      "example_translation": "Les travailleurs ont fini à présent."
+    },
+    {
+      "word_id": "v17_2",
+      "term": "Senekɛla",
+      "phonetic_api": "/se.ne.kɛ.la/",
+      "phonetic_simple": "SÉ-NÉ-KƐ-LA",
+      "translation": "Agriculteur / Paysan / Cultivateur",
+      "example_sentence": "N faa mu senekɛla di.",
+      "example_phonetic": "/ɲ faː mu se.ne.kɛ.la di/",
+      "example_translation": "Mon père est agriculteur."
+    },
+    {
+      "word_id": "v17_3",
+      "term": "Kalanden",
+      "phonetic_api": "/ka.lan.den/",
+      "phonetic_simple": "KA-LANE-DÈNE",
+      "translation": "Élève / Étudiant / Apprenti (litt: enfant de l'étude)",
+      "example_sentence": "Kalanden lu be kalan na.",
+      "example_phonetic": "/ka.lan.den lu be ka.lan na/",
+      "example_translation": "Les étudiants sont en classe."
+    },
+    {
+      "word_id": "v17_4",
+      "term": "Karamɔgɔ",
+      "phonetic_api": "/ka.ra.mɔ.ɣɔ/",
+      "phonetic_simple": "KA-RA-MƆ-GƆ",
+      "translation": "Enseignant / Maître / Professeur",
+      "example_sentence": "Karamɔgɔ nana bi sɔɔma.",
+      "example_phonetic": "/ka.ra.mɔ.ɣɔ na.na bi sɔː.ma/",
+      "example_translation": "Le professeur est venu ce matin."
+    },
+    {
+      "word_id": "v17_5",
+      "term": "Sɔɔma",
+      "phonetic_api": "/sɔː.ma/",
+      "phonetic_simple": "SƆƆ-MA",
+      "translation": "Le matin / Matinal",
+      "example_sentence": "N be wuli na sɔɔma la.",
+      "example_phonetic": "/ɲ be wu.li na sɔː.ma la/",
+      "example_translation": "Je me lèverai le matin."
+    },
+    {
+      "word_id": "v17_6",
+      "term": "Tumando",
+      "phonetic_api": "/tu.man.dɔ/",
+      "phonetic_simple": "TOU-MANE-DƆ",
+      "translation": "Parfois / Habituellement / Souvent",
+      "example_sentence": "Tumando n be wa sene la.",
+      "example_phonetic": "/tu.man.dɔ ɲ be wa se.ne la/",
+      "example_translation": "Habituellement, je vais au champ."
+    },
+    {
+      "word_id": "v17_7",
+      "term": "Tila",
+      "phonetic_api": "/ti.la/",
+      "phonetic_simple": "TI-LA",
+      "translation": "Terminer / Achever une tâche",
+      "example_sentence": "N ye n baara tila.",
+      "example_phonetic": "/ɲ je ɲ baː.ra ti.la/",
+      "example_translation": "J'ai achevé mon travail."
+    },
+    {
+      "word_id": "v17_8",
+      "term": "Gbɛlɛya",
+      "phonetic_api": "/ɡ͡bɛ.lɛ.ja/",
+      "phonetic_simple": "GBƐ-LƐ-YA",
+      "translation": "Difficulté / Effort / Rendre dur",
+      "example_sentence": "Baara nin gbɛlɛyara dɔːni.",
+      "example_phonetic": "/baː.ra nin ɡ͡bɛ.lɛ.ja.ra dɔːni/",
+      "example_translation": "Ce travail s'est un peu corsé (est difficile)."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p17_1",
+      "original": "I be baara mun kɛ la sisan?",
+      "phonetic_api": "/i be baː.ra mun kɛ la si.san/",
+      "phonetic_simple": "I BÉ BAA-RA MOUN KƐ LA SI-SANE ?",
+      "translation": "Quel travail fais-tu actuellement ?",
+      "context": "Question intermédiaire standard pour s'informer de la profession de quelqu'un."
+    },
+    {
+      "phrase_id": "p17_2",
+      "original": "Sɔɔma bɛɛ, n be wuli lɛɛrɛ wooro la ka wa kalan na.",
+      "phonetic_api": "/sɔː.ma bɛː ɲ be wu.li lɛː.rɛ woː.ro la ka wa ka.lan na/",
+      "phonetic_simple": "SƆƆ-MA BƐƐ, N BÉ WOU-LI LƐƐ-RƐ WOO-RO LA KA WA KA-LANE NA.",
+      "translation": "Chaque matin, je me lève à six heures pour aller étudier.",
+      "context": "Description détaillée de sa routine matinale académique."
+    },
+    {
+      "phrase_id": "p17_3",
+      "original": "N mu senekɛla le di, n be baara kɛ na sene la bi wura la.",
+      "phonetic_api": "/ɲ mu se.ne.kɛ.la le di ɲ be baː.ra kɛ na se.ne la bi wu.ra la/",
+      "phonetic_simple": "N MOU SÉ-NÉ-KƐ-LA LÉ DI, N BÉ BAA-RA KƐ NA SÉ-NÉ LA BI WOU-RA LA.",
+      "translation": "Je suis agriculteur, je travaillerai au champ cet après-midi.",
+      "context": "Affirmation de son statut professionnel combinée à un projet de routine."
+    },
+    {
+      "phrase_id": "p17_4",
+      "original": "An ye baara ba kɛ bi, an tilara.",
+      "phonetic_api": "/an je baː.ra ba kɛ bi an ti.la.ra/",
+      "phonetic_simple": "ANE YÉ BAA-RA BA KƐ BI, ANE TI-LA-RA.",
+      "translation": "Nous avons fait un grand travail aujourd'hui, nous avons terminé.",
+      "context": "Faire le bilan de la journée de labeur en équipe."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La dérivation des noms d'agents professionnels avec le suffixe '-kɛla'",
+      "explanation": "Pour désigner la personne qui exerce un métier ou une activité spécifique, le Sankaran attache le suffixe composé '-kɛla' (celui qui fait) à la racine nominale de l'activité (baara = travail -> baarakɛla = travailleur; sene = culture -> senekɛla = cultivateur).",
+      "rules": [
+        "Structure : [Nom de l'activité] + kɛla"
+      ],
+      "examples": [
+        {
+          "structure": "Sɛbɛlikɛla",
+          "phonetic_api": "/sɛ.bɛ.li.kɛ.la/",
+          "meaning": "L'écrivain / Le secrétaire (celui qui fait l'écriture)"
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de la périodicité routinière avec 'bɛɛ' (chaque / tout)",
+      "explanation": "Pour indiquer la récurrence quotidienne ou la routine professionnelle, l'adjectif indéfini quantificateur 'bɛɛ' se place immédiatement après le substantif temporel (sɔɔma = matin -> sɔɔma bɛɛ = chaque matin; tele = jour -> tele bɛɛ = chaque jour).",
+      "rules": [
+        "Structure : [Substantif temporel] + bɛɛ"
+      ],
+      "examples": [
+        {
+          "structure": "Tele bɛɛ",
+          "phonetic_api": "/te.le bɛː/",
+          "meaning": "Tous les jours / Chaque jour"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lamine",
+      "text": "Sekou, i ni wura. I be baara mun kɛ la yan Faranah?",
+      "phonetic_api": "/se.ku i ni wu.ra | i be baː.ra mun kɛ la jan fa.ra.na/",
+      "phonetic_simple": "SÉ-KOU, I NI MOU-RA. I BÉ BAA-RA MOUN KƐ LA YANE FA-RA-NA ?",
+      "translation": "Sekou, bonsoir. Quel travail fais-tu ici à Faranah ?"
+    },
+    {
+      "speaker": "Sekou",
+      "text": "Nba, Lamine. N mu karamɔgɔ le di. N be kalanden lu kalan na tele bɛɛ.",
+      "phonetic_api": "/ɲ.ba la.min | ɲ mu ka.ra.mɔ.ɣɔ le di | ɲ be ka.lan.den lu ka.lan na te.le bɛː/",
+      "phonetic_simple": "NBA, LA-MINE. N MOU KA-RA-MƆ-GƆ LÉ DI. N BÉ KA-LANE-DÈNE LOU KA-LANE NA TÉ-LÉ BƐƐ.",
+      "translation": "Eh bien, Lamine. Je suis enseignant. J'enseigne aux étudiants tous les jours."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "O ka fisa ! I routine be wa di sɔɔma la fɔlɔ?",
+      "phonetic_api": "/o ka fi.sa | i ru.ti.ne be wa di sɔː.ma la fɔ.lɔ/",
+      "phonetic_simple": "O KA FI-SA ! I ROU-TI-NE BÉ WA DI SƆƆ-MA LA FƆ-LƆ ?",
+      "translation": "C'est une excellente chose ! Comment se déroule ta routine le matin d'abord ?"
+    },
+    {
+      "speaker": "Sekou",
+      "text": "Sɔɔma bɛɛ, n be wuli lɛɛrɛ wooro la. N be wa kalanmango so kɔnɔ, n be tila lɛɛrɛ duuru la wura fɛ.",
+      "phonetic_api": "/sɔː.ma bɛː ɲ be wu.li lɛː.rɛ woː.ro la | ɲ be wa ka.lan.man.ɣo so kɔ.nɔ ɲ be ti.la lɛː.rɛ duː.ru la wu.ra fɛ/",
+      "phonetic_simple": "SƆƆ-MA BƐƐ, N BÉ WOU-LI LƐƐ-RƐ WOO-RO LA. N BÉ WA KA-LANE-MANE-GO SO KƆ-NƆ, N BÉ TI-LA LƐƐ-RƐ DOUU-ROU LA WOU-RA FƐ.",
+      "translation": "Chaque matin, je me lève à six heures. Je me rends à l'école, et je termine à dix-sept heures (cinq heures) de l'après-midi."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la région du Sankaran, les métiers de la terre ('senekɛla') sont profondément valorisés et respectés, car ils assurent la souveraineté alimentaire de la communauté. Même les fonctionnaires ou enseignants vivant en ville possèdent souvent un lopin de terre qu'ils cultivent durant la saison des pluies.",
+    "Le respect pour le 'karamɔgɔ' (le maître ou l'enseignant) dépasse largement le cadre strict de la classe. Il est perçu comme un guide moral pour toute la jeunesse du quartier, et les salutations qui lui sont adressées dans la rue manifestent cette profonde déférence sociale."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex17_1",
+      "type": "multiple_choice",
+      "question": "Comment désigne-t-on de manière précise un 'agriculteur' en langue Sankaran ?",
+      "options": [
+        "Baarakɛla",
+        "Senekɛla",
+        "Karamɔgɔ"
+      ],
+      "correct_answer": "Senekɛla",
+      "explanation": "'Sene' désigne l'agriculture/le champ, et le suffixe de dérivation '-kɛla' forme le nom de l'agent qui le cultive."
+    },
+    {
+      "exercise_id": "ex17_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Chaque jour', on accole l'adjectif de périodicité : Tele [ ___ ].",
+      "correct_answer": "bɛɛ",
+      "hint": "Mot court de trois lettres avec un e ouvert double et accentué."
+    }
+  ]
+}

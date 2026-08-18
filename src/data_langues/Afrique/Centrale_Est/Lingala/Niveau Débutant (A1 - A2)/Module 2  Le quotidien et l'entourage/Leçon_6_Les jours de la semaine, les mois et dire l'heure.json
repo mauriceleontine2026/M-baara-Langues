@@ -1,0 +1,206 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer les sept jours de la semaine et les mois de l'année",
+    "Demander et indiquer l'heure pour des rendez-vous simples",
+    "Utiliser les marqueurs temporels de base du quotidien (matin, midi, soir)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot pour dire l'heure ou le temps est 'ntango' /ⁿtáⁿɡo/, qui présente deux consonnes prénasalisées. Le premier jour de la semaine, 'mokolo ya yambo' /mokolo ja jámbo/, demande une bonne articulation de la semi-voyelle /j/. Pour les jours chiffrés comme le mardi, 'mokolo ya mibale' /mokolo ja miβalé/, veillez à conserver la douceur du /β/.",
+    "common_pitfalls": "Attention à ne pas confondre 'ntango' /ⁿtáⁿɡo/ (le temps / l'heure) et 'ndenge' /ⁿdéⁿɡe/ (la manière). Lors de l'annonce des heures, veillez à bien lier le chiffre qui suit la structure 'ntango ya...'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v6_1",
+      "term": "Mokolo",
+      "phonetic_api": "/mokolo/",
+      "phonetic_simple": "MO-KO-LO",
+      "translation": "Jour / Journée",
+      "example_sentence": "Mokolo ya yambo ezali lendi.",
+      "example_phonetic": "/mokolo ja jámbo ezalí leⁿdí/",
+      "example_translation": "Le premier jour est lundi."
+    },
+    {
+      "word_id": "v6_2",
+      "term": "Ntango",
+      "phonetic_api": "/ⁿtáⁿɡo/",
+      "phonetic_simple": "NTÁN-GO",
+      "translation": "Temps / Heure / Moment",
+      "example_sentence": "Ntango ekoki.",
+      "example_phonetic": "/ⁿtáⁿɡo ekokí/",
+      "example_translation": "L'heure est arrivée."
+    },
+    {
+      "word_id": "v6_3",
+      "term": "Sanza",
+      "phonetic_api": "/sáⁿza/",
+      "phonetic_simple": "SAN-ZA",
+      "translation": "Mois / Lune",
+      "example_sentence": "Sanza ya yambo ezali sánzá ya yambo.",
+      "example_phonetic": "/sáⁿza ja jámbo ezalí sáⁿzá ja jámbo/",
+      "example_translation": "Le premier mois de l'année."
+    },
+    {
+      "word_id": "v6_4",
+      "term": "Tongo",
+      "phonetic_api": "/tóⁿɡo/",
+      "phonetic_simple": "TÓN-GO",
+      "translation": "Matin / Matinée",
+      "example_sentence": "Na tongo, nalamukaka na ngonga ya motoba.",
+      "example_phonetic": "/na tóⁿɡo nalamukaka na ⁿɡóⁿɡa ja motóβa/",
+      "example_translation": "Le matin, je me réveille à six heures."
+    },
+    {
+      "word_id": "v6_5",
+      "term": "Pokwa",
+      "phonetic_api": "/pókwa/",
+      "phonetic_simple": "PÓ-KWA",
+      "translation": "Soir / Après-midi tardif",
+      "example_sentence": "Tokomonana na pokwa.",
+      "example_phonetic": "/tokomonana na pókwa/",
+      "example_translation": "Nous nous verrons ce soir."
+    },
+    {
+      "word_id": "v6_6",
+      "term": "Ngonga",
+      "phonetic_api": "/ⁿɡóⁿɡa/",
+      "phonetic_simple": "NGÓN-GA",
+      "translation": "Heure (horloge) / Cloche",
+      "example_sentence": "Ngonga ezali boni?",
+      "example_phonetic": "/ⁿɡóⁿɡa ezalí boní/",
+      "example_translation": "Quelle heure est-il ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p6_1",
+      "original": "Lelo ezali mokolo nini?",
+      "phonetic_api": "/lelo ezalí mokolo niní/",
+      "phonetic_simple": "LE-LO É-ZA-LÍ MO-KO-LO NI-NÍ?",
+      "translation": "Quel jour sommes-nous aujourd'hui ?",
+      "context": "Pour s'orienter dans la semaine."
+    },
+    {
+      "phrase_id": "p6_2",
+      "original": "Lelo ezali mokolo ya misato.",
+      "phonetic_api": "/lelo ezalí mokolo ja mísáto/",
+      "phonetic_simple": "LE-LO É-ZA-LÍ MO-KO-LO YA MÍ-SÁ-TO.",
+      "translation": "Aujourd'hui nous sommes mercredi.",
+      "context": "Réponse indiquant le jour de la semaine."
+    },
+    {
+      "phrase_id": "p6_3",
+      "original": "Ngonga ebeti boni?",
+      "phonetic_api": "/ⁿɡóⁿɡa eβetí boní/",
+      "phonetic_simple": "NGÓN-GA É-VÉ-TÍ BO-NÍ?",
+      "translation": "Quelle heure a sonné ? / Quelle heure est-il ?",
+      "context": "Formulation très authentique pour demander l'heure."
+    },
+    {
+      "phrase_id": "p6_4",
+      "original": "Ezali ngonga ya zomi na mibale.",
+      "phonetic_api": "/ezalí ⁿɡóⁿɡa ja zomí na miβalé/",
+      "phonetic_simple": "É-ZA-LÍ NGÓN-GA YA ZO-MÍ NA MI-VA-LÉ.",
+      "translation": "Il est douze heures / midi."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction ordinale des jours de la semaine",
+      "explanation": "En lingala classique, les jours de la semaine ne portent pas de noms propres d'origine latine, mais sont construits numériquement à partir de la structure 'Mokolo ya...' (Jour de...) suivie du chiffre de classement, en commençant par le lundi comme premier jour.",
+      "rules": [
+        "Lundi = Mokolo ya yambo (Jour de le premier)",
+        "Mardi = Mokolo ya mibale (Jour de deux)",
+        "Mercredi = Mokolo ya misato (Jour de trois)",
+        "Jeudi = Mokolo ya minei (Jour de quatre)",
+        "Vendredi = Mokolo ya mitano (Jour de cinq)",
+        "Samedi = Mokolo ya poto (ou Mokolo ya sabala)",
+        "Dimanche = Mokolo ya lomingo (ou Mokolo ya eyenga)"
+      ],
+      "examples": [
+        {
+          "structure": "Mokolo ya minei tokokenda na zando.",
+          "phonetic_api": "/mokolo ja mineí tokokeⁿda na záⁿdo/",
+          "meaning": "Jeudi, nous irons au marché."
+        }
+      ]
+    },
+    {
+      "concept": "Dire l'heure avec 'Ngonga ya...'",
+      "explanation": "Pour donner l'heure, on utilise le mot 'Ngonga' (l'heure/la cloche) suivi de la préposition 'ya' et du chiffre correspondant à l'heure affichée.",
+      "rules": [
+        "Structure : Ezali + ngonga + ya + [chiffre]",
+        "1 heure = Ngonga ya moko",
+        "4 heures = Ngonga ya minei",
+        "Pour préciser le moment de la journée, on ajoute 'ya tongo' (du matin) ou 'ya pokwa' (du soir)."
+      ],
+      "examples": [
+        {
+          "structure": "Ngonga ya mwambe ya tongo.",
+          "phonetic_api": "/ⁿɡóⁿɡa ja mwáᵐbe ja tóⁿɡo/",
+          "meaning": "Huit heures du matin."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Paul",
+      "text": "Mbote Sandra! Lelo ezali mokolo nini? Nabosani.",
+      "phonetic_api": "/ᵐbóte sáⁿdra lelo ezalí mokolo niní naβosaní/",
+      "phonetic_simple": "MBÓ-TE SAN-DRA! LE-LO É-ZA-LÍ MO-KO-LO NI-NÍ? NA-VO-SA-NÍ.",
+      "translation": "Bonjour Sandra ! Quel jour sommes-nous aujourd'hui ? J'ai oublié."
+    },
+    {
+      "speaker": "Sandra",
+      "text": "Mbote Paul! Lelo ezali mokolo ya mitano, mpe elobi bino bokoya pokwa oyo?",
+      "phonetic_api": "/ᵐbóte pául lelo ezalí mokolo ja mitáno ᵐpɛ eloβí βino bokojá pókwa ójo/",
+      "phonetic_simple": "MBÓ-TE PAUL! LE-LO É-ZA-LÍ MO-KO-LO YA MI-TA-NO, MPÉ É-LO-BÍ BI-NO BO-KO-YÁ PÓ-KWA O-YO?",
+      "translation": "Bonjour Paul ! Aujourd'hui nous sommes vendredi, et n'avez-vous pas dit que vous viendriez ce soir ?"
+    },
+    {
+      "speaker": "Paul",
+      "text": "Ah ée! Ngonga ebeti boni sikoyo?",
+      "phonetic_api": "/ah ée ⁿɡóⁿɡa eβetí boní sikójo/",
+      "phonetic_simple": "AH ÉE! NGÓN-GA É-VÉ-TÍ BO-NÍ SI-KO-YO?",
+      "translation": "Ah oui ! Quelle heure est-il maintenant ?"
+    },
+    {
+      "speaker": "Sandra",
+      "text": "Ezali ngonga ya minei ya pokwa. Tokutanaka na ngonga ya motoba?",
+      "phonetic_api": "/ezalí ⁿɡóⁿɡa ja mineí ja pókwa tokutanaka na ⁿɡóⁿɡa ja motóβa/",
+      "phonetic_simple": "É-ZA-LÍ NGÓN-GA YA MI-NEÍ YA PÓ-KWA. TO-KOU-TA-NA-KA NA NGÓN-GA YA MO-TÓ-VA?",
+      "translation": "Il est seize heures (quatre heures de l'après-midi). On se retrouve à six heures (18h) ?"
+    }
+  ],
+  "cultural_notes": [
+    "Dans les conversations courantes à Kinshasa et Brazzaville, les noms français des jours (lendi, mardi, bwandedi...) et des mois (zanvié, fevrié...) sont extrêmement employés de manière informelle, bien que la structure chiffrée lingala reste la norme académique.",
+    "L'expression 'Ngonga ebeti boni' fait historiquement référence aux cloches des églises ou des écoles coloniales qui rythmaient la journée des communautés."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex6_1",
+      "type": "multiple_choice",
+      "question": "Quel jour de la semaine correspond à 'Mokolo ya misato' ?",
+      "options": [
+        "Lundi",
+        "Mardi",
+        "Mercredi"
+      ],
+      "correct_answer": "Mercredi",
+      "explanation": "'Misato' signifie trois, et le décompte de la semaine commence le lundi (1), mardi (2), mercredi (3)."
+    },
+    {
+      "exercise_id": "ex6_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Il est deux heures du matin se dit : Ezali ngonga ya mibale ya [ ___ ].",
+      "correct_answer": "tongo",
+      "hint": "Le mot pour désigner le matin."
+    }
+  ]
+}

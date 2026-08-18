@@ -1,0 +1,133 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Les connecteurs logiques pour structurer un discours élaboré",
+  "learning_objectives": [
+    "Articuler un discours argumentatif en utilisant des connecteurs de cause, d'opposition et de conséquence",
+    "Éviter la répétition par l'usage d'adverbes de liaison soutenus"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le connecteur d'opposition 'kɛ́ɛ' requiert une voyelle longue ouverte /ɛː/ assortie d'un ton haut-descendant net pour marquer la rupture logique.",
+    "common_pitfalls": "Ne pas confondre 'kɛ́ɛ' (mais/cependant) avec le verbe 'kɛ' (faire) dont la voyelle est brève et le ton moyen."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v21_1",
+      "term": "kɛ́ɛ",
+      "phonetic_api": "/kɛ́ː/",
+      "phonetic_simple": "KEE",
+      "translation": "mais / cependant / toutefois",
+      "example_sentence": "Na mɛnina kɛ́ɛ na pɛ́ lo ga.",
+      "example_phonetic": "/na mɛ.ni.na kɛ́ː na pɛ́ lo ɡa/",
+      "example_translation": "J'ai entendu, cependant je n'approuve pas."
+    },
+    {
+      "word_id": "v21_2",
+      "term": "mɛni-ma-vɛlɛ",
+      "phonetic_api": "/mɛ.ni.ma.vɛ.lɛ/",
+      "phonetic_simple": "ME-NI-MA-VE-LE",
+      "translation": "c'est pourquoi / par conséquent (conséquence)",
+      "example_sentence": "O tii kɛna, mɛni-ma-vɛlɛ o gbeleyi lɔ sañ.",
+      "example_phonetic": "/o tiː kɛ.na mɛ.ni.ma.vɛ.lɛ o ɡbɛ.lɛ.ji lɔ sã/",
+      "example_translation": "Il a travaillé, c'est pourquoi il a gagné de l'argent."
+    },
+    {
+      "word_id": "v21_3",
+      "term": "ba-ni-zu",
+      "phonetic_api": "/ba.ni.zu/",
+      "phonetic_simple": "BA-NI-ZOU",
+      "translation": "en outre / de plus / par ailleurs",
+      "example_sentence": "Ba-ni-zu, na va i ɓɛpɛ wogaza.",
+      "example_phonetic": "/ba.ni.zu na va i ɓɛ.pɛ wo.ɡa.za/",
+      "example_translation": "En outre, je viendrai te voir demain."
+    },
+    {
+      "word_id": "v21_4",
+      "term": "mɛni-zu",
+      "phonetic_api": "/mɛ.ni.zu/",
+      "phonetic_simple": "ME-NI-ZOU",
+      "translation": "parce que / à cause de (cause)",
+      "example_sentence": "Na li-na mɛni-zu pouun na lo ga.",
+      "example_phonetic": "/na li.na mɛ.ni.zu puːn na lo ɡa/",
+      "example_translation": "Je suis parti parce que j'avais faim."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p21_1",
+      "original": "Mɛni-ma-vɛlɛ na kɛ̃ na tɔñ mɛni ga za-waza.",
+      "phonetic_api": "/mɛ.ni.ma.vɛ.lɛ na kɛ̃ na tɔ̃ mɛ.ni ɡa za.va.za/",
+      "phonetic_simple": "ME-NI-MA-VE-LE NA KEN NA TON ME-NI GA ZA-VA-ZA",
+      "translation": "C'est pourquoi je me dois d'écouter la vérité avec sagesse.",
+      "context": "Formule de conclusion d'une harangue ou d'un plaidoyer devant le conseil."
+    },
+    {
+      "phrase_id": "p21_2",
+      "original": "Tii ɓɛ vaza, ba-ni-zu o na lii-wɛlɛ ve.",
+      "phonetic_api": "/tiː ɓɛ va.za ba.ni.zu o na liː.wɛ.lɛ vɛ/",
+      "phonetic_simple": "TII BE VA-ZA, BA-NI-ZOU O NA LII-WE-LE VE",
+      "translation": "Ce labeur est noble, de plus il m'apporte une immense joie.",
+      "context": "Valorisation structurée d'un projet communautaire."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La subordination causale inversée avec 'mɛni-zu'",
+      "explanation": "Pour exprimer la cause, la proposition introduite par 'mɛni-zu' se place généralement après la proposition principale, liant logiquement l'effet à sa source.",
+      "rules": [
+        "L'élément 'mɛni' sert de pivot abstrait (le fait/la chose) combiné à la postposition 'zu' (dans).",
+        "La structure se traduit littéralement par 'dans le fait que / à cause de'."
+      ],
+      "examples": [
+        {
+          "structure": "na va-na mɛni-zu i na toli",
+          "phonetic_api": "/na va.na mɛ.ni.zu i na to.li/",
+          "meaning": "je suis venu parce que tu m'as appelé"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "ZÉzé",
+      "text": "Tokpa o pɛ́ va tii ma, mizɛ mɛni zu?",
+      "phonetic_api": "/zɛ.zɛ o pɛ́ va tiː ma mi.zɛ mɛ.ni zu/",
+      "phonetic_simple": "ZE-ZE O PE VA TII MA, MI-ZE ME-NI ZOU ?",
+      "translation": "Tokpa n'est pas venu au travail, pour quelle raison (à cause de quoi) ?"
+    },
+    {
+      "speaker": "Peewee",
+      "text": "O vaza-pɛ́, mɛni-ma-vɛlɛ o kɛ̃ o kaza kɛ pɛlɛ zu. Ba-ni-zu o ya ɓɔ.",
+      "phonetic_api": "/o va.za.pɛ́ mɛ.ni.ma.vɛ.lɛ o kɛ̃ o ka.za kɛ pɛ.lɛ zu ba.ni.zu o ja ɓɔ/",
+      "phonetic_simple": "O VA-ZA-PE, ME-NI-MA-VE-LE O KEN O KA-ZA KE PE-LE ZOU. BA-NI-ZOU O YA BO",
+      "translation": "Il est malade, c'est pourquoi il doit se reposer à la maison. En outre, il doit boire beaucoup d'eau."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'art oratoire traditionnel Toma, l'agencement logique des arguments via des connecteurs imagés montre le respect de la vérité historique et de la lignée des ancêtres lors des arbitrages."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex21_1",
+      "type": "multiple_choice",
+      "question": "Quel connecteur logique sert à introduire une conséquence ('c'est pourquoi') ?",
+      "options": [
+        "kɛ́ɛ",
+        "mɛni-ma-vɛlɛ",
+        "mɛni-zu"
+      ],
+      "correct_answer": "mɛni-ma-vɛlɛ",
+      "explanation": "'mɛni-ma-vɛlɛ' lie explicitement une cause à sa conséquence logique."
+    },
+    {
+      "exercise_id": "ex21_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Na li-na [ ___ ] pouun na lo ga (Je suis parti parce que j'avais faim).",
+      "correct_answer": "mɛni-zu",
+      "hint": "Le connecteur marquant la cause sous-jacente."
+    }
+  ]
+}

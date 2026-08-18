@@ -1,0 +1,252 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer les quatre jours du calendrier traditionnel igbo et les jours modernes",
+    "Se repérer dans le temps en nommant les mois et les divisions de la journée",
+    "Demander et exprimer l'heure exacte en igbo standard"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Analysez le mot 'Ọkwá' ou 'Òkè'. Le digramme 'gh' dans 'Áfọ̀ọ̀ghà' se prononce comme une fricative vélaire sonore /ɣ/ (un 'r' grasseyé très doux). La lettre 'ọ' nécessite une ouverture buccale prononcée, à ne pas confondre avec le 'o' fermé de 'Orie'.",
+    "common_pitfalls": "Les noms des jours traditionnels (Eke, Orie, Afọ, Nkwo) portent des tons très précis (généralement Haut-Haut ou Haut-Bas). Une mauvaise accentuation peut transformer le nom du jour en un mot totalement différent, par exemple 'Éké' (python) ou 'Èkè' (créateur)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v6_1",
+      "term": "Eke",
+      "phonetic_api": "/éké/",
+      "phonetic_simple": "EH-KEH",
+      "translation": "Premier jour du marché traditionnel Igbo",
+      "example_sentence": "A ga m aga ahia n'ụbọchị Eke.",
+      "example_phonetic": "/ā ɡá m āɡá áɦịá nʊ́ɓɔ́tʃɪ̀ éké/",
+      "example_translation": "Je vais aller au marché le jour d'Eke."
+    },
+    {
+      "word_id": "v6_2",
+      "term": "Orie",
+      "phonetic_api": "/òɾíé/",
+      "phonetic_simple": "OH-REE-EH",
+      "translation": "Deuxième jour du marché traditionnel Igbo",
+      "example_sentence": "Nna m ga-alọta n'ubọchị Orie.",
+      "example_phonetic": "/nnā m ɡáàlɔ́tá nʊ́ɓɔ́tʃɪ̀ òɾíé/",
+      "example_translation": "Mon père reviendra le jour d'Orie."
+    },
+    {
+      "word_id": "v6_3",
+      "term": "Afọ",
+      "phonetic_api": "/áfɔ̀/",
+      "phonetic_simple": "AH-FOH",
+      "translation": "Troisième jour du marché traditionnel Igbo",
+      "example_sentence": "Anyị nwere nnukwu oriri n'Afọ.",
+      "example_phonetic": "/āɲɪ́ nwèɾé nnūkwū òɾīɾī náfɔ̀/",
+      "example_translation": "Nous avons une grande fête le jour d'Afọ."
+    },
+    {
+      "word_id": "v6_4",
+      "term": "Nkwo",
+      "phonetic_api": "/ŋ́kwō/",
+      "phonetic_simple": "N-KWOH",
+      "translation": "Quatrième jour du marché traditionnel Igbo",
+      "example_sentence": "Ahia Nkwo na-aka mma.",
+      "example_phonetic": "/áɦịá ŋ́kwō nā-āká mmā/",
+      "example_translation": "Le marché de Nkwo est très animé."
+    },
+    {
+      "word_id": "v6_5",
+      "term": "Oge / Elekere",
+      "phonetic_api": "/élékéɾé/",
+      "phonetic_simple": "EH-LEH-KEH-REH",
+      "translation": "Heure / Horloge / Montre",
+      "example_sentence": "Elekere m emebiela.",
+      "example_phonetic": "/élékéɾé m éméɓíélá/",
+      "example_translation": "Ma montre est cassée."
+    },
+    {
+      "word_id": "v6_6",
+      "term": "Ọnwa",
+      "phonetic_api": "/ɔ́nwā/",
+      "phonetic_simple": "OHN-WAH",
+      "translation": "Mois / Lune",
+      "example_sentence": "Ọnwa mbụ nke afọ bụ January.",
+      "example_phonetic": "/ɔ́nwā ḿɓʊ́ ŋkè áfɔ̀ ɓʊ́ dʒánwáɾị̀/",
+      "example_translation": "Le premier mois de l'année est janvier."
+    },
+    {
+      "word_id": "v6_7",
+      "term": "Taa",
+      "phonetic_api": "/tāː/",
+      "phonetic_simple": "TAAH",
+      "translation": "Aujourd'hui",
+      "example_sentence": "Taa bụ ụbọchị kacha mma.",
+      "example_phonetic": "/tāː ɓʊ́ ʊ́ɓɔ́tʃɪ̀ ká-tʃá mmā/",
+      "example_translation": "Aujourd'hui est le meilleur jour."
+    },
+    {
+      "word_id": "v6_8",
+      "term": "Echi",
+      "phonetic_api": "/étʃí/",
+      "phonetic_simple": "EH-CHEE",
+      "translation": "Demain / Hier (selon le contexte du verbe)",
+      "example_sentence": "A ga m abịa echi.",
+      "example_phonetic": "/ā ɡá m āɓị́á étʃí/",
+      "example_translation": "Je viendrai demain."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p6_1",
+      "original": "Kedu oge elekere kụrụ?",
+      "phonetic_api": "/kèdú óɡè élékéɾé kʊ̀ɾʊ́/",
+      "phonetic_simple": "KEH-DOU OH-GEH EH-LEH-KEH-REH KOU-ROU",
+      "translation": "Quelle heure est-il ? (litt: Quel temps l'horloge a-t-elle frappé ?)",
+      "context": "Question standard pour demander l'heure."
+    },
+    {
+      "phrase_id": "p6_2",
+      "original": "Elekere kụrụ ise.",
+      "phonetic_api": "/élékéɾé kʊ̀ɾʊ́ īsé/",
+      "phonetic_simple": "EH-LEH-KEH-REH KOU-ROU EE-SEH",
+      "translation": "Il est cinq heures.",
+      "context": "Donner une heure pile."
+    },
+    {
+      "phrase_id": "p6_3",
+      "original": "Elekere kụrụ gbakwuru nkeji iri na ise.",
+      "phonetic_api": "/élékéɾé kʊ̀ɾʊ́ ɡ͡ɓàkwʊ́ɾʊ́ ŋ́kédʒí īɾí ná īsé/",
+      "phonetic_simple": "EH-LEH-KEH-REH KOU-ROU GBA-KWOU-ROO N-KEH-JEE EE-REE NAH EE-SEH",
+      "translation": "Il est cinq heures et quinze minutes.",
+      "context": "Exprimer l'heure avec les minutes."
+    },
+    {
+      "phrase_id": "p6_4",
+      "original": "Kedu ụbọchị taa bụ?",
+      "phonetic_api": "/kèdú ʊ́ɓɔ́tʃɪ̀ tāː ɓʊ́/",
+      "phonetic_simple": "KEH-DOU OU-BOH-CHEE TAAH BOU",
+      "translation": "Quel jour sommes-nous aujourd'hui ?",
+      "context": "S'enquérir de la date ou du jour de la semaine."
+    },
+    {
+      "phrase_id": "p6_5",
+      "original": "Taa bụ ụbọchị Sunday.",
+      "phonetic_api": "/tāː ɓʊ́ ʊ́ɓɔ́tʃɪ̀ sʊ́ndè/",
+      "phonetic_simple": "TAAH BOU OU-BOH-CHEE SOUN-DEH",
+      "translation": "Aujourd'hui c'est dimanche.",
+      "context": "Réponse en utilisant le calendrier moderne."
+    },
+    {
+      "phrase_id": "p6_6",
+      "original": "Ọ nọ na klas site n'ụtụtụ ruo ehihie.",
+      "phonetic_api": "/ɔ́ nɔ́ ná klàs sìté nʊ́tʊ́tʊ́ ɾūó èfífíé/",
+      "phonetic_simple": "OH NOH NAH KLAS SEE-TEH NOOU-TOOU-TOOU ROO-OH EH-HEE-HEE",
+      "translation": "Il est en classe du matin jusqu'à l'après-midi.",
+      "context": "Indiquer une durée temporelle."
+    },
+    {
+      "phrase_id": "p6_7",
+      "original": "Oge na-aga ọsọ.",
+      "phonetic_api": "/óɡè nā-āɡá ɔ̀sọ́/",
+      "phonetic_simple": "OH-GEH NAH-AH-GAH OH-SOH",
+      "translation": "Le temps passe vite.",
+      "context": "Constat philosophique ou pratique."
+    },
+    {
+      "phrase_id": "p6_8",
+      "original": "Anyị ga-ahụ n'ọnwa na-abịa.",
+      "phonetic_api": "/āɲɪ́ ɡáàɦʊ́ nɔ́nwā nāːɓị́á/",
+      "phonetic_simple": "AH-NYEE GAH-AH-HOU NOHN-WAH NAH-AH-BEE-AH",
+      "translation": "Nous nous verrons le mois prochain.",
+      "context": "Prendre congé à long terme."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'heure avec le verbe 'Kụ' (Frapper)",
+      "explanation": "Pour dire l'heure en igbo, on n'utilise pas le verbe être ('bụ'). On emploie le verbe impersonnel activement imagé 'kụ' au passé ('kụrụ') pour symboliser le son des cloches ou le mécanisme d'une horloge.",
+      "rules": [
+        "La structure est invariablement : Elekere + kụrụ + [Chiffre].",
+        "Pour ajouter les minutes, on utilise la formule 'gbakwuru' (ajouté à) suivi du mot 'nkeji' (minutes) et du nombre correspondant."
+      ],
+      "examples": [
+        {
+          "structure": "Elekere + kụrụ + [Nombre]",
+          "phonetic_api": "/élékéɾé kʊ̀ɾʊ́ ātɔ́/",
+          "meaning": "Elekere kụrụ atọ. (Il est trois heures.)"
+        }
+      ]
+    },
+    {
+      "concept": "La polysémie temporelle du mot 'Echi'",
+      "explanation": "Le mot 'Echi' possède une particularité remarquable en igbo : il désigne à la fois le futur immédiat ('demain') et le passé immédiat ('hier'). C'est le tiroir verbal ou la particule de temps qui lève l'ambiguïté.",
+      "rules": [
+        "Associé à la marque du futur 'ga-a/e', 'Echi' signifie demain.",
+        "Associé à un verbe au passé suffixé en '-ra/-ri/-ru', 'Echi' signifie hier."
+      ],
+      "examples": [
+        {
+          "structure": "[Verbe Futur] + Echi vs [Verbe Passé] + Echi",
+          "phonetic_api": "/ó méré já étʃí/",
+          "meaning": "O mere ya echi. (Il l'a fait hier.)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ngozi",
+      "text": "Obi, biko kedu oge elekere kụrụ? M nwere nzukọ.",
+      "phonetic_api": "/óbī bíkó kèdú óɡè élékéɾé kʊ̀ɾʊ́ m nwèɾé nzʊ̀kɔ́/",
+      "phonetic_simple": "OH-BEE BEE-KOH KEH-DOU OH-GEH EH-LEH-KEH-REH KOU-ROU M NWEH-REH N-ZOU-KOH",
+      "translation": "Obi, s'il te plaît quelle heure est-il ? J'ai une réunion."
+    },
+    {
+      "speaker": "Obi",
+      "text": "Elekere kụrụ anọ gbakwuru nkeji iri atọ n'ehihie.",
+      "phonetic_api": "/élékéɾé kʊ̀ɾʊ́ ānɔ́ ɡ͡ɓàkwʊ́ɾʊ́ ŋ́kédʒí īɾí ātɔ́ nɛ̀fífíé/",
+      "phonetic_simple": "EH-LEH-KEH-REH KOU-ROU AH-NOH GBA-KWOU-ROO N-KEH-JEE EE-REE AH-TOH NEH-HEE-HEE",
+      "translation": "Il est seize heures trente de l'après-midi (4h30)."
+    },
+    {
+      "speaker": "Ngozi",
+      "text": "Ewo! Oge agasiala. Kedu ụbọchị nzukọ anyị ga-abụ?",
+      "phonetic_api": "/éwó óɡè áɡàsíálá kèdú ʊ́ɓɔ́tʃɪ̀ nzʊ̀kɔ́ āɲɪ́ ɡá-àɓʊ́/",
+      "phonetic_simple": "EH-WOH OH-GEH AH-GAH-SEE-AH-LAH KEH-DOU OU-BOH-CHEE N-ZOU-KOH AH-NYEE GAH-AH-BOU",
+      "translation": "Oh là là ! Le temps est déjà passé. Quel jour aura lieu notre prochaine réunion ?"
+    },
+    {
+      "speaker": "Obi",
+      "text": "Ọ ga-abụ n'ụbọchị Nkwo, n'ọnwa na-abịa.",
+      "phonetic_api": "/ɔ́ ɡá-àɓʊ́ nʊ́ɓɔ́tʃɪ̀ ŋ́kwō nɔ́nwā nāːɓị́á/",
+      "phonetic_simple": "OH GAH-AH-BOU NOOU-BOH-CHEE N-KWOH NOHN-WAH NAH-AH-BEE-AH",
+      "translation": "Ce sera le jour traditionnel de Nkwo, le mois prochain."
+    }
+  ],
+  "cultural_notes": [
+    "Le calendrier traditionnel Igbo est cyclique et compte quatre jours ('Izu tư') reposant entièrement sur la rotation des marchés communautaires autonomes (Eke, Orie, Afọ, Nkwo). Sept cycles de 4 jours forment un mois igbo de 28 jours.",
+    "Pour la vie moderne, les Igbos ont simplement translittéré les jours occidentaux : 'Ụbọchị Monday', 'Ụbọchị Tuesday', etc. Cependant, le marché traditionnel reste le point d'ancrage des événements culturels majeurs (mariages, funérailles)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex6_1",
+      "type": "multiple_choice",
+      "question": "Quel jour marque le premier jour de la semaine traditionnelle du marché Igbo ?",
+      "options": [
+        "Orie",
+        "Eke",
+        "Nkwo"
+      ],
+      "correct_answer": "Eke",
+      "explanation": "Eke est le jour initial et sacré ouvrant le cycle des quatre marchés igbos."
+    },
+    {
+      "exercise_id": "ex6_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Elekere [ ___ ] anọ pile.",
+      "correct_answer": "kụrụ",
+      "hint": "Le verbe au passé qui signifie 'frapper/sonner' pour donner l'heure."
+    }
+  ]
+}

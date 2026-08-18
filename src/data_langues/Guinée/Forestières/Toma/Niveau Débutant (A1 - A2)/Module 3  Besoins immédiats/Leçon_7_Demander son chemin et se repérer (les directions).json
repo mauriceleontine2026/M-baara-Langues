@@ -1,0 +1,123 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Formuler des questions pour s'orienter dans un village ou une ville",
+    "Comprendre les indications spatiales fondamentales (droite, gauche, devant)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne liquide 'l' s'articule doucement sur les alvéoles antérieures, parfois proche d'un léger 'r' battu selon les dialectes.",
+    "common_pitfalls": "Ne forcez pas l'accentuation de la dernière syllabe; gardez l'équilibre musical de la phrase."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v7_1",
+      "term": "pére",
+      "phonetic_api": "/pe.re/",
+      "phonetic_simple": "PE-RE",
+      "translation": "maison / bâtiment",
+      "example_sentence": "Pére na vele vaza.",
+      "example_phonetic": "/pe.re na ve.re va.za/",
+      "example_translation": "Cette maison est belle."
+    },
+    {
+      "word_id": "v7_2",
+      "term": "gala",
+      "phonetic_api": "/ɡa.la/",
+      "phonetic_simple": "GA-LA",
+      "translation": "chemin / route",
+      "example_sentence": "Gala ɓaa ni.",
+      "example_phonetic": "/ɡa.la ɓaː ni/",
+      "example_translation": "C'est une grande route."
+    },
+    {
+      "word_id": "v7_3",
+      "term": "kpee",
+      "phonetic_api": "/kpeː/",
+      "phonetic_simple": "KPEE",
+      "translation": "droite (direction)",
+      "example_sentence": "Li kpee gala ma.",
+      "example_phonetic": "/li kpeː ɡa.la ma/",
+      "example_translation": "Va vers le chemin de droite."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p7_1",
+      "original": "Mali-pére e ɓɛ̀?",
+      "phonetic_api": "/ma.li.pe.re e ɓɛ̀/",
+      "phonetic_simple": "MA-LI-PE-RE E BE?",
+      "translation": "Où se trouve le marché ?",
+      "context": "Question essentielle posée par un voyageur arrivant dans une localité."
+    },
+    {
+      "phrase_id": "p7_2",
+      "original": "Li ɓoo ma.",
+      "phonetic_api": "/li ɓoː ma/",
+      "phonetic_simple": "LI BOO MA",
+      "translation": "Va tout droit.",
+      "context": "Instruction claire donnée pour indiquer la direction continue."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'interrogatif de lieu 'e ɓɛ̀'",
+      "explanation": "Pour demander où se trouve un élément, on place le nom de l'objet ou du lieu en tête de phrase, suivi de la formule interrogative clitique 'e ɓɛ̀'.",
+      "rules": [
+        "Le sujet ne change pas de place.",
+        "La structure demeure invariable pour le singulier et le pluriel."
+      ],
+      "examples": [
+        {
+          "structure": "Gala e ɓɛ̀?",
+          "phonetic_api": "/ɡa.la e ɓɛ̀/",
+          "meaning": "Où est la route ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Voyageur",
+      "text": "Baika, gbeazû gala e ɓɛ̀?",
+      "phonetic_api": "/bai.ka ɡbɛ.a.zû ɡa.la e ɓɛ̀/",
+      "phonetic_simple": "BAÏ-KA, GBE-A-ZOU GA-LA E BE?",
+      "translation": "S'il vous plaît, où est la route de Macenta ?"
+    },
+    {
+      "speaker": "Habitant",
+      "text": "Li ɓoo ma, i li kpee gala ma.",
+      "phonetic_api": "/li ɓoː ma i li kpeː ɡa.la ma/",
+      "phonetic_simple": "LI BOO MA, I LI KPEE GA-LA MA",
+      "translation": "Va tout droit, puis prends le chemin de droite."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'espace traditionnel toma, s'orienter implique souvent l'usage de repères naturels comme des arbres sacrés, des rivières ou des collines environnantes plutôt que des noms de rues."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex7_1",
+      "type": "multiple_choice",
+      "question": "Que signifie la direction 'Li ɓoo ma' ?",
+      "options": [
+        "Tourne à gauche",
+        "Va tout droit",
+        "Fais demi-tour"
+      ],
+      "correct_answer": "Va tout droit",
+      "explanation": "'ɓoo ma' exprime la continuité en ligne droite."
+    },
+    {
+      "exercise_id": "ex7_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pére [ ___ ] (Où est la maison ?)",
+      "correct_answer": "e ɓɛ̀",
+      "hint": "Utilisez le morphème interrogatif de localisation."
+    }
+  ]
+}

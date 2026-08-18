@@ -1,0 +1,133 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire les différentes pièces d'une habitation en toma",
+    "Situer son logement au sein de l'espace urbain ou du village"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne implosive /ɗ/ (parfois notée d barré) demande un mouvement d'aspiration glottale inverse. L'allongement vocalique interne (ex: 'éé') détermine le type de bâtiment.",
+    "common_pitfalls": "Ne pas substituer le /ɗ/ par un /d/ standard européen, sous peine de changer radicalement la signification sémantique de l'espace décrit."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v10_1",
+      "term": "pɛlɛ vɛlɛ",
+      "phonetic_api": "/pɛ.lɛ vɛ.lɛ/",
+      "phonetic_simple": "PE-LE VE-LE",
+      "translation": "maison / bâtiment d'habitation",
+      "example_sentence": "Na pɛlɛ vɛlɛ vaza.",
+      "example_phonetic": "/na pɛ.lɛ vɛ.lɛ va.za/",
+      "example_translation": "Ma maison est belle."
+    },
+    {
+      "word_id": "v10_2",
+      "term": "kpɔɔñ",
+      "phonetic_api": "/kpɔː̃/",
+      "phonetic_simple": "KPOON",
+      "translation": "chambre / espace privé",
+      "example_sentence": "Na li na kpɔɔñ zu.",
+      "example_phonetic": "/na li na kpɔː̃ zu/",
+      "example_translation": "Je vais dans ma chambre."
+    },
+    {
+      "word_id": "v10_3",
+      "term": "taa",
+      "phonetic_api": "/taː/",
+      "phonetic_simple": "TAA",
+      "translation": "ville / grand village",
+      "example_sentence": "Giriwaza taa gaza ɓaa.",
+      "example_phonetic": "/ɡi.ri.wa.za taː ɡa.za ɓaː/",
+      "example_translation": "Macenta est une grande ville."
+    },
+    {
+      "word_id": "v10_4",
+      "term": "kwi-vɛlɛ",
+      "phonetic_api": "/kwi.vɛ.lɛ/",
+      "phonetic_simple": "KWI-VE-LE",
+      "translation": "bâtiment en dur / moderne",
+      "example_sentence": "Ta kwi-vɛlɛ lɔɔza.",
+      "example_phonetic": "/ta kwi.vɛ.lɛ lɔː.za/",
+      "example_translation": "Ils construisent un bâtiment moderne."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p10_1",
+      "original": "I pɛlɛ vɛlɛ lɔ taa zu?",
+      "phonetic_api": "/i pɛ.lɛ vɛ.lɛ lɔ taː zu/",
+      "phonetic_simple": "I PE-LE VE-LE LO TAA ZOU",
+      "translation": "Ta maison se trouve-t-elle en ville ?",
+      "context": "Question de niveau intermédiaire pour situer l'habitat d'un ami."
+    },
+    {
+      "phrase_id": "p10_2",
+      "original": "Na pɛlɛ vɛlɛ ɓila taa gbala.",
+      "phonetic_api": "/na pɛ.lɛ vɛ.lɛ ɓi.la taː ɡba.la/",
+      "phonetic_simple": "NA PE-LE VE-LE BILA TAA GBA-LA",
+      "translation": "Ma maison est proche de la ville.",
+      "context": "Réponse topographique courante."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la localisation complexe",
+      "explanation": "Pour décrire des positions complexes (dans, à côté, loin), le toma superpose les postpositions 'zu' ou 'gbala' en fin de groupe nominal.",
+      "rules": [
+        "Le complément d'objet spatial précède toujours la postposition locative.",
+        "Les modificateurs d'intensité s'ajoutent après la postposition."
+      ],
+      "examples": [
+        {
+          "structure": "taa zu gaza",
+          "phonetic_api": "/taː zu ɡa.za/",
+          "meaning": "au plein cœur de la ville"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "ZÉzé",
+      "text": "I vɛlɛ vaza gaza! Kpɔɔñ lɔsa na ma?",
+      "phonetic_api": "/i vɛ.lɛ va.za ɡa.za kpɔː̃ lɔ.sa na ma/",
+      "phonetic_simple": "I VE-LE VA-ZA GA-ZA! KPOON LO-SA NA MA",
+      "translation": "Ta maison est très belle ! Combien de chambres y a-t-il ?"
+    },
+    {
+      "speaker": "Massa",
+      "text": "Kpɔɔñ saawa lɔ na vɛlɛ zu.",
+      "phonetic_api": "/kpɔː̃ saː.wa lɔ na vɛ.lɛ zu/",
+      "phonetic_simple": "KPOON SAA-WA LO NA VE-LE ZOU",
+      "translation": "Il y a trois chambres dans ma maison."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'architecture traditionnelle Toma, les maisons circulaires en banco côtoient de plus en plus les structures rectangulaires (kwi-vɛlɛ). Le centre du village (taa-zu) conserve une valeur sacrée et sociale majeure."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex10_1",
+      "type": "multiple_choice",
+      "question": "Que signifie la structure 'taa zu' ?",
+      "options": [
+        "Près du fleuve",
+        "Dans la ville / au village",
+        "Derrière la maison"
+      ],
+      "correct_answer": "Dans la ville / au village",
+      "explanation": "'taa' signifie la ville ou le grand centre habité, 'zu' exprime l'intérieur."
+    },
+    {
+      "exercise_id": "ex10_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Na li na [ ___ ] zu (Je vais dans ma chambre).",
+      "correct_answer": "kpɔɔñ",
+      "hint": "Le terme pour désigner l'espace de la chambre à coucher."
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Savoir saluer selon le moment de la journée",
+    "Exprimer la politesse et le remerciement"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "En portugais européen, le 's' en fin de mot se prononce [ʃ] (comme le 'ch' français). Le 'o' final non accentué se prononce souvent [u]. Le 'ã' représente une voyelle nasale proche du 'an' français mais plus fermée.",
+    "common_pitfalls": "Évitez de prononcer le 'r' initial ou double comme un 'r' français ; il est fortement rhotacisé ou expiré [ʁ] comme un 'h' aspiré anglais ou un 'r' de la gorge. Ne prononcez pas le 'd' devant 'i' comme un 'dj' sauf en variante brésilienne."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Olá",
+      "phonetic_api": "/oˈla/",
+      "phonetic_simple": "OH-LAH",
+      "translation": "Bonjour / Salut",
+      "example_sentence": "Olá, como estás?",
+      "example_phonetic": "/oˈla ˈkomu ɨʃˈtaʃ/",
+      "example_translation": "Salut, comment vas-tu ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "Bom dia",
+      "phonetic_api": "/bõ ˈdiɐ/",
+      "phonetic_simple": "BON DEE-AH",
+      "translation": "Bonjour (le matin)",
+      "example_sentence": "Bom dia, senhor Silva.",
+      "example_phonetic": "/bõ ˈdiɐ sɨˈɲoɾ ˈsiɫvɐ/",
+      "example_translation": "Bonjour, monsieur Silva."
+    },
+    {
+      "word_id": "v3",
+      "term": "Boa tarde",
+      "phonetic_api": "/ˈboɐ ˈtaɾdɨ/",
+      "phonetic_simple": "BOH-AH TAR-D'H",
+      "translation": "Bonjour (l'après-midi)",
+      "example_sentence": "Boa tarde a tous.",
+      "example_phonetic": "/ˈboɐ ˈtaɾdɨ ɐ ˈtoðuʃ/",
+      "example_translation": "Bonjour (bon après-midi) à tous."
+    },
+    {
+      "word_id": "v4",
+      "term": "Boa noite",
+      "phonetic_api": "/ˈboɐ ˈnojtɨ/",
+      "phonetic_simple": "BOH-AH NOY-T'H",
+      "translation": "Bonsoir / Bonne nuit",
+      "example_sentence": "Boa noite, até amanhã.",
+      "example_phonetic": "/ˈboɐ ˈnojtɨ ɐˈtɛ ɐmɐˈɲã/",
+      "example_translation": "Bonsoir, à demain."
+    },
+    {
+      "word_id": "v5",
+      "term": "Obrigado",
+      "phonetic_api": "/obɾiˈɡaðu/",
+      "phonetic_simple": "OH-BREE-GAH-DOO",
+      "translation": "Merci (dit par un homme)",
+      "example_sentence": "Obrigado pelo café.",
+      "example_phonetic": "/obɾiˈɡaðu ˈpelu kɐˈfɛ/",
+      "example_translation": "Merci pour le café."
+    },
+    {
+      "word_id": "v6",
+      "term": "Obrigada",
+      "phonetic_api": "/obɾiˈɡaðɐ/",
+      "phonetic_simple": "OH-BREE-GAH-DAH",
+      "translation": "Merci (dit par une femme)",
+      "example_sentence": "Obrigada pela ajuda.",
+      "example_phonetic": "/obɾiˈɡaðɐ ˈpelɐ ɐˈʒuðɐ/",
+      "example_translation": "Merci pour l'aide."
+    },
+    {
+      "word_id": "v7",
+      "term": "Por favor",
+      "phonetic_api": "/puɾ fɐˈvoɾ/",
+      "phonetic_simple": "POOR FAH-VOR",
+      "translation": "S'il vous plaît / S'il te plaît",
+      "example_sentence": "Um menu, por favor.",
+      "example_phonetic": "/ũ mɨˈnu puɾ fɐˈvoɾ/",
+      "example_translation": "Un menu, s'il vous plaît."
+    },
+    {
+      "word_id": "v8",
+      "term": "Adeus",
+      "phonetic_api": "/ɐˈðewʃ/",
+      "phonetic_simple": "AH-DEWCH",
+      "translation": "Au revoir",
+      "example_sentence": "Adeus e boa viagem.",
+      "example_phonetic": "/ɐˈðewʃ i ˈboɐ ˈvjaʒɐ̃j/",
+      "example_translation": "Au revoir et bon voyage."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Como está?",
+      "phonetic_api": "/ˈkomu ɨʃˈta/",
+      "phonetic_simple": "KOH-MOO ECH-TAH",
+      "translation": "Comment allez-vous ? (formel)",
+      "context": "Cadre formel, adulte ou inconnu."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Como estás?",
+      "phonetic_api": "/ˈkomu ɨʃˈtaʃ/",
+      "phonetic_simple": "KOH-MOO ECH-TACH",
+      "translation": "Comment vas-tu ? (informel)",
+      "context": "Cadre informel, amis, famille."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Tudo bem?",
+      "phonetic_api": "/ˈtuðu bɐ̃j/",
+      "phonetic_simple": "TOO-DOO BENG",
+      "translation": "Tout va bien ? / Ça va ?",
+      "context": "Très fréquent au quotidien, informel."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "De nada.",
+      "phonetic_api": "/dɨ ˈnaðɐ/",
+      "phonetic_simple": "D'H NAH-DAH",
+      "translation": "De rien.",
+      "context": "Réponse standard à un remerciement."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Desculpe.",
+      "phonetic_api": "/dɨʃˈkuɫpɨ/",
+      "phonetic_simple": "DECH-KOOL-P'H",
+      "translation": "Excusez-moi / Pardon (formel)",
+      "context": "Pour attirer l'attention ou s'excuser poliment."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Com licença.",
+      "phonetic_api": "/kõ liˈsẽsɐ/",
+      "phonetic_simple": "KON LEE-SEN-SAH",
+      "translation": "Avec votre permission / Pardon",
+      "context": "Pour passer dans une foule ou entrer dans une pièce."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Muito prazer.",
+      "phonetic_api": "/ˈmũjtu pɾɐˈzeɾ/",
+      "phonetic_simple": "MOYN-TOO PRAH-ZER",
+      "translation": "Enchanté(e).",
+      "context": "Lorsqu'on rencontre quelqu'un pour la première fois."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Até amanhã.",
+      "phonetic_api": "/ɐˈtɛ ɐmɐˈɲã/",
+      "phonetic_simple": "AH-TÈ AH-MAH-NYANG",
+      "translation": "À demain.",
+      "context": "En quittant un collègue ou un proche le soir."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accord de genre pour le remerciement",
+      "explanation": "En portugais, le mot pour dire 'merci' s'accorde avec le genre de la personne qui parle, et non avec la personne à qui l'on s'adresse.",
+      "rules": [
+        "Un homme doit toujours dire 'Obrigado'.",
+        "Une femme doit toujours dire 'Obrigada'."
+      ],
+      "examples": [
+        {
+          "structure": "Homme parlant : Obrigado, senhor.",
+          "phonetic_api": "/obɾiˈɡaðu sɨˈɲoɾ/",
+          "meaning": "Merci, monsieur."
+        },
+        {
+          "structure": "Femme parlant : Obrigada, senhora.",
+          "phonetic_api": "/obɾiˈɡaðɐ sɨˈɲoɾɐ/",
+          "meaning": "Merci, madame."
+        }
+      ]
+    },
+    {
+      "concept": "Le tutoiement et le vouvoiement (Introduction)",
+      "explanation": "La distinction entre le registre formel et informel se marque par la conjugaison du verbe à la 2ème personne (informel) ou à la 3ème personne (formel).",
+      "rules": [
+        "Tu es / Tu vas : utilisation de la terminaison en -s (ex: estás).",
+        "Vous êtes / Vous allez : utilisation de la forme de 3ème personne sans pronom explicite ou avec le nom (ex: está)."
+      ],
+      "examples": [
+        {
+          "structure": "Informel : Como estás?",
+          "phonetic_api": "/ˈkomu ɨʃˈtaʃ/",
+          "meaning": "Comment vas-tu ?"
+        },
+        {
+          "structure": "Formel : Como está?",
+          "phonetic_api": "/ˈkomu ɨʃˈta/",
+          "meaning": "Comment allez-vous ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ana",
+      "text": "Bom dia, como está?",
+      "phonetic_api": "/bõ ˈdiɐ ˈkomu ɨʃˈta/",
+      "phonetic_simple": "BON DEE-AH KOH-MOO ECH-TAH",
+      "translation": "Bonjour, comment allez-vous ?"
+    },
+    {
+      "speaker": "Pedro",
+      "text": "Bom dia! Tudo bem, obrigado. E a Ana?",
+      "phonetic_api": "/bõ ˈdiɐ ˈtuðu bɐ̃j obɾiˈɡaðu i ɐ ˈɐnɐ/",
+      "phonetic_simple": "BON DEE-AH TOO-DOO BENG OH-BREE-GAH-DOO EE AH AH-NAH",
+      "translation": "Bonjour ! Tout va bien, merci. Et vous Ana ?"
+    },
+    {
+      "speaker": "Ana",
+      "text": "Tudo bem também, obrigada. Até amanhã!",
+      "phonetic_api": "/ˈtuðu bɐ̃j tɐ̃mˈbãj obɾiˈɡaðɐ ɐˈtɛ ɐmɐˈɲã/",
+      "phonetic_simple": "TOO-DOO BENG TAM-BENG OH-BREE-GAH-DAH AH-TÈ AH-MAH-NYANG",
+      "translation": "Tout va bien aussi, merci. À demain !"
+    },
+    {
+      "speaker": "Pedro",
+      "text": "Até amanhã, adeus.",
+      "phonetic_api": "/ɐˈtɛ ɐmɐˈɲã ɐˈðewʃ/",
+      "phonetic_simple": "AH-TÈ AH-MAH-NYANG AH-DEWCH",
+      "translation": "À demain, au revoir."
+    }
+  ],
+  "cultural_notes": [
+    "Au Portugal, la transition entre 'Bom dia' et 'Boa tarde' se fait généralement après le déjeuner, autour de 13h. 'Boa noite' est utilisé dès qu'il fait nuit ou après 20h.",
+    "Les salutations physiques sont courantes : deux bises (de droite à gauche) entre femmes ou entre un homme et une femme s'ils se connaissent, et une poignée de main entre hommes."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Une femme veut dire merci, elle utilise :",
+      "options": [
+        "Obrigado",
+        "Obrigada",
+        "De nada"
+      ],
+      "correct_answer": "Obrigada",
+      "explanation": "Le mot s'accorde avec le genre du locuteur. Une femme dit toujours 'Obrigada'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour saluer poliment quelqu'un à 10 heures du matin, on dit : [ ___ ]",
+      "correct_answer": "Bom dia",
+      "hint": "Bonjour le matin"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les membres principaux de la famille nucléaire et élargie en malinké",
+    "Maîtriser les pronoms possessifs pour exprimer les relations de parenté (possession inaliénable)",
+    "Savoir s'enquérir de la santé des membres de la famille lors des salutations"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne 'b' devant la voyelle nasale peut être légèrement occlusive. La prononciation du 'g' dans 'mɔgɔ' se rapproche d'un son doux, presque expiré selon les régions. Le 's' se prononce toujours dur, jamais comme un 'z'.",
+    "common_pitfalls": "Confondre 'den' (enfant) avec 'deen' (prononciation allongée inexistante ici) ou confondre 'fa' (père) et 'faa' (tuer). Maintenez les voyelles brèves courtes."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v4_1",
+      "term": "Ba",
+      "phonetic_api": "/ba/",
+      "phonetic_simple": "BA",
+      "translation": "Mère / Maman",
+      "example_sentence": "N ba bɛ so",
+      "example_phonetic": "/n̩ ba bɛ so/",
+      "example_translation": "Ma mère est à la maison."
+    },
+    {
+      "word_id": "v4_2",
+      "term": "Fa",
+      "phonetic_api": "/fa/",
+      "phonetic_simple": "FA",
+      "translation": "Père / Papa",
+      "example_sentence": "I fa bɛ mi ?",
+      "example_phonetic": "/i fa bɛ mi/",
+      "example_translation": "Où est ton père ?"
+    },
+    {
+      "word_id": "v4_3",
+      "term": "Den",
+      "phonetic_api": "/dẽ/",
+      "phonetic_simple": "DEN",
+      "translation": "Enfant / Fils ou fille",
+      "example_sentence": "A den bɛ kalanso la",
+      "example_phonetic": "/a dẽ bɛ ka.lan.so la/",
+      "example_translation": "Son enfant est à l'école."
+    },
+    {
+      "word_id": "v4_4",
+      "term": "Denmuso",
+      "phonetic_api": "/dẽ.mu.so/",
+      "phonetic_simple": "DEN-MOU-SO",
+      "translation": "Fille (enfant de sexe féminin)",
+      "example_sentence": "N denmuso tɔgɔ Aminata",
+      "example_phonetic": "/n̩ dẽ.mu.so tɔ.ɡɔ a.mi.na.ta/",
+      "example_translation": "Ma fille s'appelle Aminata."
+    },
+    {
+      "word_id": "v4_5",
+      "term": "Denkɛ",
+      "phonetic_api": "/dẽ.kɛ/",
+      "phonetic_simple": "DEN-KƐ",
+      "translation": "Fils (enfant de sexe masculin)",
+      "example_sentence": "A denkɛ bɛ baara la",
+      "example_phonetic": "/a dẽ.kɛ bɛ baː.ra la/",
+      "example_translation": "Son fils est au travail."
+    },
+    {
+      "word_id": "v4_6",
+      "term": "Baden",
+      "phonetic_api": "/ba.dẽ/",
+      "phonetic_simple": "BA-DEN",
+      "translation": "Frère / Sœur (litt. Enfant de la même mère)",
+      "example_sentence": "N baden bɛ yan",
+      "example_phonetic": "/n̩ ba.dẽ bɛ jan/",
+      "example_translation": "Mon frère/ma sœur est ici."
+    },
+    {
+      "word_id": "v4_7",
+      "term": "Muso",
+      "phonetic_api": "/mu.so/",
+      "phonetic_simple": "MOU-SO",
+      "translation": "Femme / Épouse",
+      "example_sentence": "N muso bɛ sugufɛ",
+      "example_phonetic": "/n̩ mu.so bɛ su.ɡu.fɛ/",
+      "example_translation": "Ma femme est au marché."
+    },
+    {
+      "word_id": "v4_8",
+      "term": "Cɛ",
+      "phonetic_api": "/t͡ʃɛ/",
+      "phonetic_simple": "TCHƐ",
+      "translation": "Mari / Époux / Homme",
+      "example_sentence": "I cɛ bɛ kɛnɛma ?",
+      "example_phonetic": "/i t͡ʃɛ bɛ kɛ.nɛ.ma/",
+      "example_translation": "Ton mari va-t-il bien ?"
+    },
+    {
+      "word_id": "v4_9",
+      "term": "Mɔgɔba",
+      "phonetic_api": "/mɔ.ɡɔ.ba/",
+      "phonetic_simple": "MƆ-GƆ-BA",
+      "translation": "Grand-parent / Personne âgée / Respectable",
+      "example_sentence": "N mɔgɔba bɛ n bɔ",
+      "example_phonetic": "/n̩ mɔ.ɡɔ.ba bɛ n̩ bɔ/",
+      "example_translation": "Mon grand-parent me rend visite."
+    },
+    {
+      "word_id": "v4_10",
+      "term": "Somɔgɔ lu",
+      "phonetic_api": "/so.mɔ.ɡɔ lu/",
+      "phonetic_simple": "SO-MƆ-GƆ LOU",
+      "translation": "La famille / Les gens de la maison",
+      "example_sentence": "I somɔgɔ lu bɛ di ?",
+      "example_phonetic": "/i so.mɔ.ɡɔ lu bɛ di/",
+      "example_translation": "Comment va ta famille ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p4_1",
+      "original": "I somɔgɔ lu bɛ kɛnɛma ?",
+      "phonetic_api": "/i so.mɔ.ɡɔ lu bɛ kɛ.nɛ.ma/",
+      "phonetic_simple": "I SO-MƆ-GƆ LOU BƐ KƐ-NƐ-MA ?",
+      "translation": "Est-ce que ta famille est en bonne santé ?",
+      "context": "Formule essentielle après les salutations initiales."
+    },
+    {
+      "phrase_id": "p4_2",
+      "original": "A lu bɛ kɛnɛma, tana t'a lu la.",
+      "phonetic_api": "/a lu bɛ kɛ.nɛ.ma ta.na t‿a lu la/",
+      "phonetic_simple": "A LOU BƐ KƐ-NƐ-MA, TA-NA T'A LOU LA.",
+      "translation": "Ils vont bien, pas de problème chez eux.",
+      "context": "Réponse polie concernant l'entourage."
+    },
+    {
+      "phrase_id": "p4_3",
+      "original": "Den jeli bɛ i la ?",
+      "phonetic_api": "/dẽ d͡ʒe.li bɛ i la/",
+      "phonetic_simple": "DEN DJÉ-LI BƐ I LA ?",
+      "translation": "Combien d'enfants as-tu ?",
+      "context": "Posé lors de discussions amicales sur la vie de famille."
+    },
+    {
+      "phrase_id": "p4_4",
+      "original": "Den fila bɛ n na.",
+      "phonetic_api": "/dẽ fi.la bɛ n̩ na/",
+      "phonetic_simple": "DEN FI-LA BƐ N NA.",
+      "translation": "J'ai deux enfants.",
+      "context": "Donner la composition de sa famille proche."
+    },
+    {
+      "phrase_id": "p4_5",
+      "original": "I baden lu bɛ mi ?",
+      "phonetic_api": "/i ba.dẽ lu bɛ mi/",
+      "phonetic_simple": "I BA-DEN LOU BƐ MI ?",
+      "translation": "Où sont tes frères et sœurs ?",
+      "context": "Prendre des nouvelles de la fratrie."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La marque du pluriel nominal avec 'lu'",
+      "explanation": "En malinké, le pluriel des êtres animés et des groupes de mots se forme en ajoutant la particule nominale 'lu' (ou 'nu' selon les régions) à la toute fin du bloc nominal.",
+      "rules": [
+        "Le singulier n'a pas de marque : 'den' (un enfant).",
+        "Le pluriel ajoute 'lu' : 'den lu' (les enfants).",
+        "Si un adjectif ou un pronom suit, 'lu' se place en fin de groupe."
+      ],
+      "examples": [
+        {
+          "structure": "N baden lu",
+          "phonetic_api": "/n̩ ba.dẽ lu/",
+          "meaning": "Mes frères et sœurs"
+        },
+        {
+          "structure": "A lu",
+          "phonetic_api": "/a lu/",
+          "meaning": "Eux / Ils / Elles"
+        }
+      ]
+    },
+    {
+      "concept": "L'expression du genre pour la descendance",
+      "explanation": "Le terme 'den' (enfant) est neutre. Pour spécifier le sexe d'un enfant, on lui accole directement le suffixe 'muso' (femme) ou 'cɛ' (homme).",
+      "rules": [
+        "Den + muso = denmuso (fille)",
+        "Den + cɛ = denkɛ (fils)"
+      ],
+      "examples": [
+        {
+          "structure": "I denmuso",
+          "phonetic_api": "/i dẽ.mu.so/",
+          "meaning": "Ta fille"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Moussa",
+      "text": "I ni tile, Sékou. I fa bɛ so ?",
+      "phonetic_api": "/i ni ti.le se.ku i fa bɛ so/",
+      "phonetic_simple": "I NI TI-LÉ, SÉ-KOU. I FA BƐ SO ?",
+      "translation": "Bonjour Sékou. Ton père est-il à la maison ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Nba, Moussa. Ayi, n fa bɛ baara la. N ba dɔrɔn bɛ so.",
+      "phonetic_api": "/n̩.ba mu.sa a.ji n̩ fa bɛ baː.ra la n̩ ba dɔ.rɔn bɛ so/",
+      "phonetic_simple": "N-BA, MOUS-SA. A-YI, N FA BƐ BAA-RA LA. N BA DƆ-RƆN BƐ SO.",
+      "translation": "Bonjour Moussa. Non, mon père est au travail. Seule ma mère est à la maison."
+    },
+    {
+      "speaker": "Moussa",
+      "text": "I somɔgɔ lu bɛ kɛnɛma ?",
+      "phonetic_api": "/i so.mɔ.ɡɔ lu bɛ kɛ.nɛ.ma/",
+      "phonetic_simple": "I SO-MƆ-GƆ LOU BƐ KƐ-NƐ-MA ?",
+      "translation": "Est-ce que ta famille va bien ?"
+    },
+    {
+      "speaker": "Sékou",
+      "text": "Hɛra dɔrɔn. N baden lu bɛ kalanso la. Tana t'an na.",
+      "phonetic_api": "/hɛ.ra dɔ.rɔn n̩ ba.dẽ lu bɛ ka.lan.so la ta.na t‿an na/",
+      "phonetic_simple": "HƐ-RA DƆ-RƆN. N BA-DEN LOU BƐ KA-LAN-SO LA. TA-NA T'AN NA.",
+      "translation": "Rien que la paix. Mes frères et sœurs sont à l'école. Tout va bien pour nous."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture mandingue, le concept de 'Baden' (enfant de la mère) symbolise l'amour inconditionnel, l'unité et la solidarité absolue au sein de la famille. À l'inverse, 'Faden' (enfant du père, issus de lits différents dans un contexte traditionnel polygame) peut parfois porter une notion culturelle de saine rivalité ou d'émulation personnelle."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L4_ex1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'Mes enfants' en malinké ?",
+      "options": [
+        "N den",
+        "N den lu",
+        "I den lu"
+      ],
+      "correct_answer": "N den lu",
+      "explanation": "'N' indique la première personne (mon/ma) et 'lu' marque le pluriel."
+    },
+    {
+      "exercise_id": "A1_M2_L4_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "N [ ___ ] tɔgɔ Ali (Mon fils s'appelle Ali).",
+      "correct_answer": "denkɛ",
+      "hint": "C'est l'association de 'enfant' et 'homme'."
+    }
+  ]
+}

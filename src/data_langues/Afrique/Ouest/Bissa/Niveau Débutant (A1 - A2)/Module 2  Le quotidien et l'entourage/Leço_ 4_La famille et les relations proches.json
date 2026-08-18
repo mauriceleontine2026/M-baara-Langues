@@ -1,0 +1,201 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les principaux membres de la famille nucléaire et élargie en bissa",
+    "Exprimer les liens de parenté en utilisant les structures possessives de base",
+    "Poser des questions simples sur l'état ou la taille de la famille d'un interlocuteur"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met l'accent sur les occlusives bilabiales et labio-dentales, ainsi que sur l'élision vocalique fréquente en bissa lorsque le possessif singulier rencontre un nom commençant par une voyelle. Notez la différence de traitement phonétique entre les consonnes simples et géminées si elles apparaissent dans les suffixes de filiation.",
+    "common_pitfalls": "Veillez à ne pas prononcer le mot 'dao' (homme/mari) comme le mot 'dao' en chinois avec un ton glissé artificiel. En bissa, l'accent est plat et ancré sur le 'd' initial."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Asaa",
+      "phonetic_api": "/asaː/",
+      "phonetic_simple": "A-SAA",
+      "translation": "Père / papa",
+      "example_sentence": "M saa la karamɔgɔ",
+      "example_phonetic": "/m̩ saː la kaʁamɔɡɔ/",
+      "example_translation": "Mon père est enseignant."
+    },
+    {
+      "word_id": "v2",
+      "term": "Anjãa",
+      "phonetic_api": "/anʒãː/",
+      "phonetic_simple": "AN-JAN",
+      "translation": "Mère / maman",
+      "example_sentence": "M jãa bɔ ɔrɔ",
+      "example_phonetic": "/m̩ ʒãː bɔ ɔʁɔ/",
+      "example_translation": "Ma mère est ici."
+    },
+    {
+      "word_id": "v3",
+      "term": "Bisi",
+      "phonetic_api": "/bisi/",
+      "phonetic_simple": "BI-SI",
+      "translation": "Enfant / fils / fille",
+      "example_sentence": "A bisi la sukuuka",
+      "example_phonetic": "/a bisi la sukuːka/",
+      "example_translation": "Son enfant est élève."
+    },
+    {
+      "word_id": "v4",
+      "term": "Dao",
+      "phonetic_api": "/daɔ/",
+      "phonetic_simple": "DAO",
+      "translation": "Homme / mari / époux",
+      "example_sentence": "M dao tuumda la zɔnda",
+      "example_phonetic": "/m̩ daɔ tuːmda la zɔnda/",
+      "example_translation": "Mon mari est cultivateur."
+    },
+    {
+      "word_id": "v5",
+      "term": "Luro",
+      "phonetic_api": "/luʁɔ/",
+      "phonetic_simple": "LOU-RO",
+      "translation": "Femme / épouse",
+      "example_sentence": "A luro mbe la",
+      "example_phonetic": "/a luʁɔ mbe la/",
+      "example_translation": "Son épouse est gentille."
+    },
+    {
+      "word_id": "v6",
+      "term": "Wiri",
+      "phonetic_api": "/wiʁi/",
+      "phonetic_simple": "WI-RI",
+      "translation": "Frère / sœur (germain)",
+      "example_sentence": "M wiri pɛɛ bur pi fɩ",
+      "example_phonetic": "/m̩ wiʁi pɛː buʁ pi fɪ/",
+      "example_translation": "Mon frère a dix ans."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "M bisi mbe la ?",
+      "phonetic_api": "/m̩ bisi mbe la/",
+      "phonetic_simple": "M BI-SI MBE LA",
+      "translation": "Comment vont les enfants ?",
+      "context": "Formule incontournable d'intégration et de politesse après les salutations initiales."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "A bisi mbe dɛ n dɔ",
+      "phonetic_api": "/a bisi mbe dɛ n dɔ/",
+      "phonetic_simple": "A BI-SI MBE DEH N DO",
+      "translation": "Les enfants vont très bien",
+      "context": "Réponse standard rassurante sur la santé de sa progéniture."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "M bisi boi la ?",
+      "phonetic_api": "/m̩ bisi bɔi la/",
+      "phonetic_simple": "M BI-SI BOI LA",
+      "translation": "Combien d'enfants as-tu ?",
+      "context": "Question posée lors de discussions amicales approfondies sur l'entourage."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "M pɛɛ bisi ʊta",
+      "phonetic_api": "/m̩ pɛː bisi ʊta/",
+      "phonetic_simple": "M PEE BI-SI OU-TA",
+      "translation": "J'ai trois enfants",
+      "context": "Réponse indiquant la composition de sa famille nucléaire."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la possession nominale directe (Inaliénable)",
+      "explanation": "En bissa, les termes désignant les relations familiales (parenté) font partie de la possession inaliénable. On accole directement le pronom personnel sujet devant le substantif, sans aucune particule intermédiaire.",
+      "rules": [
+        "Pronom sujet + Nom de parenté = Relation possessive.",
+        "Le pronom de la première personne du singulier 'M' s'assimile souvent phonétiquement à la consonne initiale du mot parent.",
+        "Il n'y a pas d'article défini ou indéfini intercalé."
+      ],
+      "examples": [
+        {
+          "structure": "M (Je/Mon) + saa (père) = M saa",
+          "phonetic_api": "/m̩ saː/",
+          "meaning": "Mon père"
+        }
+      ]
+    },
+    {
+      "concept": "Le pluriel des noms de personnes et de parenté",
+      "explanation": "Pour marquer le pluriel des individus au sein du cercle familial, le bissa utilise généralement une modification morphologique de la voyelle finale ou l'adjonction d'un suffixe collectif selon la racine dialectale.",
+      "rules": [
+        "La racine nominale change de timbre ou s'allonge pour englober la collectivité.",
+        "Dans le cadre des formules de politesse, le pluriel peut désigner respectueusement un seul ancien."
+      ],
+      "examples": [
+        {
+          "structure": "Bisi (Enfant) -> Bisi (pris collectivement avec intonation adaptée)",
+          "phonetic_api": "/bisi/",
+          "meaning": "Les enfants"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Moussa",
+      "text": "Domireh ki, Adama ! M bisi mbe la ?",
+      "phonetic_api": "/dɔmiʁɛ ki adama m̩ bisi mbe la/",
+      "phonetic_simple": "DO-MI-REH KI A-DA-MA ! M BI-SI MBE LA",
+      "translation": "Bonjour Adama ! Comment vont les enfants ?"
+    },
+    {
+      "speaker": "Adama",
+      "text": "Domireh ki ! A bisi mbe dɛ n dɔ. M saa mbe la ?",
+      "phonetic_api": "/dɔmiʁɛ ki a bisi mbe dɛ n dɔ m̩ saː mbe la/",
+      "phonetic_simple": "DO-MI-REH KI ! A BI-SI MBE DEH N DO. M SAA MBE LA",
+      "translation": "Bonjour ! Les enfants vont très bien. Comment va ton père ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "M saa bɔ ɔrɔ, a mbe la. A tuumda la zɔnda.",
+      "phonetic_api": "/m̩ saː bɔ ɔʁɔ a mbe la a tuːmda la zɔnda/",
+      "phonetic_simple": "M SAA BO O-RO, A MBE LA. A TOUM-DA LA ZON-DA",
+      "translation": "Mon père est ici, il va bien. Son travail est cultivateur."
+    },
+    {
+      "speaker": "Adama",
+      "text": "Barka boi, Wɔɔ zɩ k'a nɩ arzana ʊ.",
+      "phonetic_api": "/baʁka bɔi wɔː zi ka ni aʁzana u/",
+      "phonetic_simple": "BAR-KA BOI, WÔÔ ZI KA NI AR-ZA-NA OU",
+      "translation": "Grand merci, que Dieu nous accorde le paradis."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la société bissa, l'interpellation des membres de la famille répond à des codes de respect très stricts. On appelle rarement ses parents ou ses aînés par leur prénom d'état civil ; on utilise systématiquement les titres honorifiques ou relationnels comme 'Asaa' ou 'Anjãa'.",
+    "S'enquérir de la santé des enfants ('bisi') lors de chaque rencontre est une obligation morale sociale qui démontre que l'on accorde de la valeur à la postérité et à la survie de la lignée de son interlocuteur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'mon père' en langue bissa de manière directe ?",
+      "options": [
+        "M jãa",
+        "M saa",
+        "M luro"
+      ],
+      "correct_answer": "M saa",
+      "explanation": "Le radical 'saa' désigne le père, combiné au pronom 'M' cela forme 'M saa'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander des nouvelles des enfants, on formule : M [ ___ ] mbe la ?",
+      "correct_answer": "bisi",
+      "hint": "Le mot bissa désignant la progéniture ou les enfants de la maison."
+    }
+  ]
+}

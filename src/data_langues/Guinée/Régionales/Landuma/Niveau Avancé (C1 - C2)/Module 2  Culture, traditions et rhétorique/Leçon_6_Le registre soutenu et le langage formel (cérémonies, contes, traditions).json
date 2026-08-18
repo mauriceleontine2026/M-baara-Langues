@@ -1,0 +1,116 @@
+{
+  "lesson_id": "C1_M2_L6",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 6,
+  "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
+  "learning_objectives": [
+    "Maîtriser les formules d'ouverture et de clôture rituelles des contes traditionnels",
+    "Employer le lexique honorifique requis lors des cérémonies coutumières",
+    "Adopter les structures syntaxiques archaïques spécifiques à la transmission mémorielle"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "En registre soutenu, les voyelles longues initiales doivent être étirées avec un contour tonal stable (haut ou descendant) pour souligner la solennité de l'énoncé.",
+    "common_pitfalls": "Évitez toute élision ou contraction familière des préfixes de classe nominale, qui briserait la dignité du discours formel."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v24_1",
+      "term": "tannkiya",
+      "phonetic_api": "/tanː.ki.ja/",
+      "phonetic_simple": "TANN-KI-YA",
+      "translation": "la voie sacrée des ancêtres / la tradition immuable",
+      "example_sentence": "nu wɔ dɛp tannkiya lɔndɔ",
+      "example_phonetic": "/nu wɔ dɛp tanː.ki.ja lɔn.dɔ/",
+      "example_translation": "Nous devons suivre la voie sacrée des ancêtres ici."
+    },
+    {
+      "word_id": "v24_2",
+      "term": "wunfɔfɛ",
+      "phonetic_api": "/wun.fɔ.fɛ/",
+      "phonetic_simple": "WOUN-FO-FÈ",
+      "translation": "proclamer solennellement / conter (récit mythique ou historique)",
+      "example_sentence": "karamɔkɔ kɔn wunfɔfɛ tsinn ka dare",
+      "example_phonetic": "/ka.ra.mɔ.kɔ kɔn wun.fɔ.fɛ t͡sinː ka da.re/",
+      "example_translation": "Le maître est allé proclamer solennellement le récit hier en ville."
+    },
+    {
+      "word_id": "v24_3",
+      "term": "mabɛn",
+      "phonetic_api": "/ma.bɛn/",
+      "phonetic_simple": "MA-BÈN",
+      "translation": "l'assemblée des sages / le conseil rituel",
+      "example_sentence": "mabɛn mɔ mɔ lɔndɔ ka karka",
+      "example_phonetic": "/ma.bɛn mɔ mɔ lɔn.dɔ ka kar.ka/",
+      "example_translation": "Le conseil des sages est réuni ici dans la concession."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p24_1",
+      "original": "hamaŋ mabɛn mɔ wunfɔfɛ, tsɛkɛma tannkiya mɔ mɔ sɔn kɛma",
+      "phonetic_api": "/ha.maŋ ma.bɛn mɔ wun.fɔ.fɛ t͡sɛ.kɛ.ma tanː.ki.ja mɔ mɔ sɔn kɛ.ma/",
+      "phonetic_simple": "HA-MANG MA-BÈN MO WOUN-FO-FÈ, TSÈ-KÈ-MA TANN-KI-YA MO MO SON KÈ-MA",
+      "translation": "Puisque l'assemblée des sages l'a proclamé solennellement, c'est pourquoi la tradition s'établit ainsi de manière immuable",
+      "context": "Formule rituelle de clôture utilisée pour sceller une décision juridique ou un arbitrage coutumier."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le passif coutumier par le morphème d'ancrage 'sɔn'",
+      "explanation": "Dans les récits de contes ou les proclamations rituelles, pour exprimer qu'un état ou qu'une coutume est établie par les forces ancestrales de manière permanente, le landouma utilise le marqueur 'sɔn' après le sujet, conférant une valeur intemporelle et passive à l'action.",
+      "rules": [
+        "Structure : Sujet + Marqueur mɔ + Marqueur d'état immuable 'sɔn' + kɛma (ainsi).",
+        "Cette tournure est exclusive au langage soutenu et ne s'emploie pas dans les conversations du quotidien."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + mɔ + sɔn",
+          "phonetic_api": "/tann.ki.ja mɔ mɔ sɔn/",
+          "meaning": "La tradition est établie pour l'éternité."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "L'Ancien du Conseil",
+      "text": "mabɛn kɔn, nu wɔ fɔftɛŋ tɛkɛ ka dare ?",
+      "phonetic_api": "/ma.bɛn kɔn nu wɔ fɔf.tɛŋ tɛ.kɛ ka da.re/",
+      "phonetic_simple": "MA-BÈN KON, NU WO FOF-TENG TÈ-KÈ KA DA-RE ?",
+      "translation": "Mon conseil des sages, devons-nous énoncer notre arbitrage aujourd'hui en ville ?"
+    },
+    {
+      "speaker": "Le Chef des Sages",
+      "text": "yoo. hamaŋ tannkiya mɔ mɔ bɔn tsanntɛŋ, tsɛkɛma nu kɔn wunfɔfɛ kɛma.",
+      "phonetic_api": "/joː ha.maŋ tanː.ki.ja mɔ mɔ bɔn t͡sanː.tɛŋ t͡sɛ.kɛ.ma nu kɔn wun.fɔ.fɛ kɛ.ma/",
+      "phonetic_simple": "YOO. HA-MANG TANN-KI-YA MO MO BON TSANN-TENG, TSÈ-KÈ-MA NU KON WOUN-FO-FÈ KÈ-MA",
+      "translation": "Oui. Puisque la voie sacrée des anciens détient la vérité absolue, c'est pourquoi nous allons la proclamer solennellement ainsi."
+    }
+  ],
+  "cultural_notes": [
+    "En basse Guinée, la transmission des contes et des généalogies s'effectue selon un protocole strict. L'orateur doit obtenir l'assentiment visuel ou verbal des membres du 'mabɛn' (conseil) avant de déployer sa parole, matérialisant le respect de la hiérarchie sociale."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex24_1",
+      "type": "multiple_choice",
+      "question": "Quel terme honorifique désigne l'assemblée ou le conseil rituel des sages ?",
+      "options": [
+        "karka",
+        "mabɛn",
+        "tannkiya"
+      ],
+      "correct_answer": "mabɛn",
+      "explanation": "'mabɛn' fait référence à l'instance sacrée détenant l'autorité morale et juridique de la communauté."
+    },
+    {
+      "exercise_id": "ex24_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "karamɔkɔ mɔ [ ___ ] tannkiya ka nu (Le maître proclame solennellement la tradition pour nous)",
+      "correct_answer": "wunfɔfɛ",
+      "hint": "Le verbe de transmission formelle utilisé pour les contes, les mythes ou les lois coutumières."
+    }
+  ]
+}

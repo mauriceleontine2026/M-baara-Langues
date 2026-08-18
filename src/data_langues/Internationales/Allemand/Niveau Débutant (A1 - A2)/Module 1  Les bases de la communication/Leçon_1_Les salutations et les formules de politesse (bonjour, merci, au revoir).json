@@ -1,0 +1,313 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Savoir saluer de manière formelle et informelle selon le moment de la journée",
+    "Exprimer la politesse, la gratitude, s'excuser et prendre congé de manière appropriée",
+    "Distinguer et appliquer les dynamiques du tutoiement et du vouvoiement"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'accent tonique allemand repose généralement sur la première syllabe du radical (ex: GÚ-ten). Le -e final non accentué se prononce comme un e muet ou caduc très court [ə]. Le graphisme -ch- après une voyelle antérieure (i, e, ä, ö, ü) subit un chuintement palatal doux [ç] (Ich-Laut), tandis qu'après une voyelle postérieure (a, o, u), il devient une fricative vélaire sourde [x] (Ach-Laut). Le -r en fin de mot se vocalise en une voyelle ouverte atténuée [ɐ].",
+    "common_pitfalls": "Le -h- placé après une voyelle (comme dans 'sehen' ou 'Ihnen') ne se prononce jamais ; il indique uniquement que la voyelle précédente est longue. Attention à la consonne finale -g dans 'Tag' ou 'Entschuldigung' : elle subit un assourdissement phonétique et se prononce respectivement [k] ou [k/ŋ] selon la rapidité de l'élocution."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Hallo",
+      "phonetic_api": "/haˈloː/",
+      "phonetic_simple": "HA-LOO",
+      "translation": "Salut / Bonjour (universel et informel)",
+      "example_sentence": "Hallo, wie geht es dir?",
+      "example_phonetic": "/haˈloː viː ɡeːt ɛs diːɐ̯/",
+      "example_translation": "Salut, comment ça va ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "Guten Morgen",
+      "phonetic_api": "/ˌɡuːtn̩ ˈmɔʁɡn̩/",
+      "phonetic_simple": "GOU-TEN MOR-GUEN",
+      "translation": "Bonjour (utilisé exclusivement le matin, jusqu'à 11h environ)",
+      "example_sentence": "Guten Morgen, Herr Professor!",
+      "example_phonetic": "/ˌɡuːtn̩ ˈmɔʁɡn̩ hɛʁ pʁoˈfɛsɔʁ/",
+      "example_translation": "Bonjour, Monsieur le Professeur !"
+    },
+    {
+      "word_id": "v3",
+      "term": "Guten Tag",
+      "phonetic_api": "/ˌɡuːtn̩ ˈtaːk/",
+      "phonetic_simple": "GOU-TEN TAK",
+      "translation": "Bonjour (salutation standard pour le reste de la journée)",
+      "example_sentence": "Guten Tag, wie kann ich Ihnen helfen?",
+      "example_phonetic": "/ˌɡuːtn̩ ˈtaːk viː kan ɪç ˈiːnən ˈhɛlfn̩/",
+      "example_translation": "Bonjour, comment puis-je vous aider ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "Guten Abend",
+      "phonetic_api": "/ˌɡuːtn̩ ˈaːbn̩/",
+      "phonetic_simple": "GOU-TEN A-BENT",
+      "translation": "Bonsoir (utilisé à partir de 18h ou à la tombée de la nuit)",
+      "example_sentence": "Guten Abend allerseits, willkommen!",
+      "example_phonetic": "/ˌɡuːtn̩ ˈaːbn̩ ˈalɐzaɪ̯ts vɪlˈkɔmən/",
+      "example_translation": "Bonsoir à tous, bienvenus !"
+    },
+    {
+      "word_id": "v5",
+      "term": "Bitte",
+      "phonetic_api": "/ˈbɪtə/",
+      "phonetic_simple": "BI-TE",
+      "translation": "S'il vous plaît / De rien / Je vous en prie",
+      "example_sentence": "Ein Mineralwasser, bitte.",
+      "example_phonetic": "/aɪ̯n mɪnəˈʁaːlˌvasɐ ˈbɪtə/",
+      "example_translation": "Une eau minérale, s'il vous plaît."
+    },
+    {
+      "word_id": "v6",
+      "term": "Danke",
+      "phonetic_api": "/ˈdaŋkə/",
+      "phonetic_simple": "DAN-KE",
+      "translation": "Merci",
+      "example_sentence": "Danke für das schöne Geschenk.",
+      "example_phonetic": "/ˈdaŋkə fyːɐ̯ das ˈʃøːnə ɡəˈʃɛŋk/",
+      "example_translation": "Merci pour ce beau cadeau."
+    },
+    {
+      "word_id": "v7",
+      "term": "Vielen Dank",
+      "phonetic_api": "/ˈfiːlən daŋk/",
+      "phonetic_simple": "VII-LEN DANK",
+      "translation": "Merci beaucoup",
+      "example_sentence": "Vielen Dank für Ihre Unterstützung.",
+      "example_phonetic": "/ˈfiːlən daŋk fyːɐ̯ ˈiːʁə ʊntɐˈʃtʏtsʊŋ/",
+      "example_translation": "Merci beaucoup pour votre soutien."
+    },
+    {
+      "word_id": "v8",
+      "term": "Tschüss",
+      "phonetic_api": "/tʃyːs/",
+      "phonetic_simple": "TCHUUSS",
+      "translation": "Salut / Au revoir (familier et très courant)",
+      "example_sentence": "Tschüss, bis bald!",
+      "example_phonetic": "/tʃyːs bɪs balt/",
+      "example_translation": "Salut, à bientôt !"
+    },
+    {
+      "word_id": "v9",
+      "term": "Auf Wiedersehen",
+      "phonetic_api": "/aʊ̯f ˈviːdɐˌzeːən/",
+      "phonetic_simple": "AOUF VII-DER-ZEE-EN",
+      "translation": "Au revoir (formel et administratif)",
+      "example_sentence": "Auf Wiedersehen, Frau Doktor.",
+      "example_phonetic": "/aʊ̯f ˈviːdɐˌzeːən fʁaʊ̯ ˈdɔktoːɐ̯/",
+      "example_translation": "Au revoir, Madame la Doctoresse."
+    },
+    {
+      "word_id": "v10",
+      "term": "Gute Nacht",
+      "phonetic_api": "/ˈɡuːtə naxt/",
+      "phonetic_simple": "GOU-TE NAKT",
+      "translation": "Bonne nuit (uniquement au moment d'aller dormir)",
+      "example_sentence": "Schlaf gut, gute Nacht!",
+      "example_phonetic": "/ʃlaːf ɡuːt ˈɡuːtə naxt/",
+      "example_translation": "Dors bien, bonne nuit !"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Wie geht es Ihnen?",
+      "phonetic_api": "/viː ɡeːt ɛs ˈiːnən/",
+      "phonetic_simple": "VII GHEET ES II-NEN",
+      "translation": "Comment allez-vous ?",
+      "context": "Registre formel, obligatoire avec les inconnus, les aînés ou la hiérarchie."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Wie geht es dir?",
+      "phonetic_api": "/viː ɡeːt ɛs diːɐ̯/",
+      "phonetic_simple": "VII GHEET ES DIIR",
+      "translation": "Comment vas-tu ?",
+      "context": "Registre informel, utilisé avec les amis, collègues proches et enfants."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Mir geht es sehr gut, danke.",
+      "phonetic_api": "/miːɐ̯ ɡeːt ɛs zeːɐ̯ ɡuːt ˈdaŋkə/",
+      "phonetic_simple": "MIIR GHEET ES ZEER GOUT DAN-KE",
+      "translation": "Je vais très bien, merci.",
+      "context": "Réponse polie et positive à une question sur la santé."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Es freut mich, Sie kennenzulernen.",
+      "phonetic_api": "/ɛs fʁɔɪ̯t mɪç ziː ˈkɛnəntsuːˌlɛʁnən/",
+      "phonetic_simple": "ES FROIT MICH ZII KEN-NEN-TSOU-LER-NEN",
+      "translation": "Enchanté(e) de vous rencontrer.",
+      "context": "Utilisé lors d'une première introduction dans un contexte officiel ou professionnel."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Entschuldigung, darf ich kurz stören?",
+      "phonetic_api": "/ɛntˈʃʊldɪɡʊŋ darf ɪç kʊʁts ˈʃtøːʁən/",
+      "phonetic_simple": "ENT-CHOUL-DI-GUNG DARF ICH KOURTS CHOE-REN",
+      "translation": "Excusez-moi, puis-je vous déranger un instant ?",
+      "context": "Pour aborder poliment quelqu'un dans la rue ou au bureau."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Herzlichen Dank für alles.",
+      "phonetic_api": "/ˈhɛʁtslɪçn̩ daŋk fyːɐ̯ ˈaləs/",
+      "phonetic_simple": "HERTS-LICH-EN DANK FUUR AL-ES",
+      "translation": "Merci du fond du cœur pour tout.",
+      "context": "Formule exprimant une profonde gratitude."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Es tut mir leid.",
+      "phonetic_api": "/ɛs tuːt miːɐ̯ laɪ̯t/",
+      "phonetic_simple": "ES TOUT MIIR LAIT",
+      "translation": "Je suis désolé(e).",
+      "context": "Utilisé pour formuler de vraies excuses à la suite d'une erreur."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Schönen Tag noch!",
+      "phonetic_api": "/ˈʃøːnən taːk nɔx/",
+      "phonetic_simple": "CHOE-NEN TAK NOK",
+      "translation": "Bonne fin de journée !",
+      "context": "Formule de congé courante employée par les commerçants ou les collègues."
+    },
+    {
+      "phrase_id": "p9",
+      "original": "Gleichfalls! / Ebenfalls!",
+      "phonetic_api": "/ˈɡlaɪ̯çfals / ˈeːbn̩fals/",
+      "phonetic_simple": "GLAICH-FALS / EE-BEN-FALS",
+      "translation": "De même ! / Pareillement !",
+      "context": "Réponse rapide pour retourner un souhait (bonne journée, bon appétit, etc.)."
+    },
+    {
+      "phrase_id": "p10",
+      "original": "Bis später!",
+      "phonetic_api": "/bɪs ˈʃpɛːtɐ/",
+      "phonetic_simple": "BIS CHPEE-TER",
+      "translation": "À plus tard !",
+      "context": "Prendre congé lorsque l'on sait que l'on va revoir la personne le jour même."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système du vouvoiement (Sie) et du tutoiement (du)",
+      "explanation": "La distinction des registres est fondamentale en allemand. Elle détermine non seulement le pronom sujet employé, mais modifie également la structure de la phrase et les pronoms objets (datif/accusatif) associés aux salutations.",
+      "rules": [
+        "Le vouvoiement s'exprime par le pronom 'Sie'. Ce pronom s'écrit impérativement avec une majuscule (majuscule de politesse) pour se distinguer du 'sie' (elle ou ils/elles). Le verbe s'accorde alors à la 3e personne du pluriel.",
+        "Le tutoiement utilise le pronom 'du' (2e personne du singulier).",
+        "Dans l'expression 'Comment ça va ?', le verbe impersonnel 'gehen' s'accompagne d'un pronom au cas datif : 'Ihnen' (à Vous) ou 'dir' (à toi). La formule complète est 'Wie geht es Ihnen/dir?' mais elle se contracte souvent en 'Wie geht's?' à l'oral informel."
+      ],
+      "examples": [
+        {
+          "structure": "Wie geht es Ihnen? (Formel)",
+          "phonetic_api": "/viː ɡeːt ɛs ˈiːnən/",
+          "meaning": "Comment allez-vous ? (litt. 'Comment cela va-t-il à Vous ?')"
+        },
+        {
+          "structure": "Wie geht es dir? (Informel)",
+          "phonetic_api": "/viː ɡeːt ɛs diːɐ̯/",
+          "meaning": "Comment vas-tu ? (litt. 'Comment cela va-t-il à toi ?')"
+        },
+        {
+          "structure": "Wie geht's? (Contracté)",
+          "phonetic_api": "/viː ɡeːts/",
+          "meaning": "Ça va ? / Comment ça va ?"
+        }
+      ]
+    },
+    {
+      "concept": "Le cas Accusatif appliqué aux salutations temporelles",
+      "explanation": "Les expressions comme 'Guten Morgen', 'Guten Tag' et 'Guten Abend' ne sont pas de simples juxtapositions. Elles proviennent d'une phrase complète élidée : 'Ich wünsche Ihnen einen guten Tag' (Je vous souhaite un bon jour). Le moment de la journée occupe ainsi la fonction de COD (Complément d'Objet Direct), ce qui requiert l'usage du cas Accusatif.",
+      "rules": [
+        "Les substantifs 'Morgen', 'Tag' et 'Abend' sont tous du genre masculin (der Morgen, der Tag, der Abend).",
+        "À l'accusatif masculin singulier, la déclinaison de l'adjectif épithète fort (ou après l'article indéfini) prend systématiquement la terminaison '-en'. D'où la forme 'Guten'.",
+        "En revanche, 'Nacht' est féminin (die Nacht). À l'accusatif féminin singulier, l'adjectif prend la terminaison '-e'. D'où la formule 'Gute Nacht'."
+      ],
+      "examples": [
+        {
+          "structure": "Guten Abend (Masculin, Accusatif)",
+          "phonetic_api": "/ˌɡuːtn̩ ˈaːbn̩/",
+          "meaning": "Bonsoir"
+        },
+        {
+          "structure": "Gute Nacht (Féminin, Accusatif)",
+          "phonetic_api": "/ˈɡuːtə naxt/",
+          "meaning": "Bonne nuit"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Herr Müller",
+      "text": "Guten Morgen, Frau König! Wie geht es Ihnen heute?",
+      "phonetic_api": "/ˌɡuːtn̩ ˈmɔʁɡn̩ fʁaʊ̯ ˈkøːnɪç viː ɡeːt ɛs ˈiːnən ˈhɔɪ̯tə/",
+      "phonetic_simple": "GOU-TEN MOR-GUEN FRAOU KOE-NICH VII GHEET ES II-NEN HOI-TE",
+      "translation": "Bonjour, Madame König ! Comment allez-vous aujourd'hui ?"
+    },
+    {
+      "speaker": "Frau König",
+      "text": "Guten Morgen, Herr Müller. Mir geht es sehr gut, danke. Und Ihnen?",
+      "phonetic_api": "/ˌɡuːtn̩ ˈmɔʁɡn̩ hɛʁ ˈmʏlɐ miːɐ̯ ɡeːt ɛs zeːɐ̯ ɡuːt ˈdaŋkə ʊnt ˈiːnən/",
+      "phonetic_simple": "GOU-TEN MOR-GUEN HER MUUL-LER MIIR GHEET ES ZEER GOUT DAN-KE OUNT II-NEN",
+      "translation": "Bonjour, Monsieur Müller. Je vais très bien, merci. Et vous-même ?"
+    },
+    {
+      "speaker": "Herr Müller",
+      "text": "Auch gut, danke der Nachfrage. Haben Sie ein schönes Wochenende gehabt?",
+      "phonetic_api": "/aʊ̯x ɡuːt ˈdaŋkə deːɐ̯ ˈnaːxˌfʁaːɡə ˈhaːbn̩ ziː aɪ̯n ˈʃøːnə ˈvɔxn̩ˌɛndə ɡəˈhaːpt/",
+      "phonetic_simple": "AOUK GOUT DAN-KE DEER NAK-FRA-GHE HA-BEN ZII AIN CHOE-NE VOK-EN-EN-DE GHE-HAPT",
+      "translation": "Bien aussi, merci de demander. Vous avez passé un bon week-end ?"
+    },
+    {
+      "speaker": "Frau König",
+      "text": "Ja, wunderbar! Vielen Dank. Es tut mir leid, aber ich muss jetzt zum Meeting. Auf Wiedersehen!",
+      "phonetic_api": "/jaː ˈvʊndɐbaːɐ̯ ˈfiːlən daŋk ɛs tuːt miːɐ̯ laɪ̯t ˈaːbɐ ɪç mʊs jɛtst tsʊm ˈmiːtɪŋ aʊ̯f ˈviːdɐˌzeːən/",
+      "phonetic_simple": "YA VOUN-DER-BAR VII-LEN DANK ES TOUT MIIR LAIT A-BER ICH MOUS YETST TSOUM MII-TING AOUF VII-DER-ZEE-EN",
+      "translation": "Oui, merveilleux ! Merci beaucoup. Je suis désolée, mais je dois filer en réunion maintenant. Au revoir !"
+    },
+    {
+      "speaker": "Herr Müller",
+      "text": "Kein Problem, auf Wiedersehen und einen schönen Tag noch!",
+      "phonetic_api": "/kaɪ̯n pʁoˈbleːm aʊ̯f ˈviːdɐˌzeːən ʊnt ˈaɪ̯nən ˈʃøːnən taːk nɔx/",
+      "phonetic_simple": "KAIN PRO-BLEEM AOUF VII-DER-ZEE-EN OUNT AI-NEN CHOE-NEN TAK NOK",
+      "translation": "Pas de problème, au revoir et bonne fin de journée !"
+    }
+  ],
+  "cultural_notes": [
+    "La culture allemande attache une grande importance à la distance physique et au formalisme lors des premiers contacts. Une poignée de main ferme accompagant un contact visuel direct est la norme. Le passage du vouvoiement (Sie) au tutoiement (du) s'appelle 'das Duzen' et doit toujours être proposé par la personne la plus âgée ou la plus élevée dans la hiérarchie professionnelle.",
+    "Variations régionales majeures : En Bavière et en Autriche, ne soyez pas surpris d'entendre couramment 'Grüß Gott' (Salutations divines) ou 'Servus' (à votre service / salut). Au Nord (Hambourg, Brême), le mot 'Moin' ou 'Moin Moin' est un marqueur identitaire fort utilisé du matin au soir, tant de manière formelle qu'informelle. En Suisse alémanique, la norme de politesse exige 'Grüezi'.",
+    "Punctualité et formules : Être à l'heure ('pünktlich') fait partie intégrante de la politesse. Arriver en retard à un rendez-vous sans prévenir est considéré comme un manque de respect majeur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Vous croisez votre directeur de département dans le couloir à 19h30. Quelle formule est la plus adaptée ?",
+      "options": [
+        "Guten Morgen, Herr Direktor!",
+        "Guten Abend, Herr Direktor!",
+        "Tschüss, Herr Direktor!"
+      ],
+      "correct_answer": "Guten Abend, Herr Direktor!",
+      "explanation": "Guten Abend est la formule de politesse formelle requise pour la fin de journée et la soirée. 'Tschüss' est trop familier pour un directeur, et 'Guten Morgen' s'utilise exclusivement le matin."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ich wünsche Ihnen einen [ ___ ] Tag, Frau Schmidt!",
+      "correct_answer": "schönen",
+      "hint": "Adjectif qualificatif 'schön' décliné à l'accusatif masculin singulier (der Tag) pour s'accorder avec le COD de l'action."
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Connecteurs logiques pour un discours élaboré",
+  "learning_objectives": [
+    "Articuler des concessions complexes et des oppositions rhétoriques à l'aide des structures '～ものの' (mono no) et '～反面' (hanmen)",
+    "Exprimer des relations de cause à effet formelles ou des justifications analytiques avec '～ゆえに' (yue ni) et '～契機に' (keiki ni)",
+    "Structurer une argumentation logique en escalier avec l'opérateur restrictif cumulatif '～のみならず' (nomi narazu)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La structure connective '～ゆえに' exige une transition fluide entre la voyelle fermée 'u' [ɯ] et la voyelle moyenne 'e' [e], formant la séquence semi-vocalique [jɯ.e.ni]. Pour 'のみならず' (nomi narazu), veillez à ce que la consonne fricative alvéolaire voisée [z] finale soit prononcée de manière concise et sans tension, en évitant d'allonger la voyelle terminale.",
+    "common_pitfalls": "Attention au connecteur '～反面' (hanmen) [haɴ.meɴ] : le premier 'n' est une nasale uvulaire [区分的・音節的] qui doit être nettement articulée avant de fermer les lèvres pour le 'm' bilabial. Ne confondez pas le connecteur '～ゆえに' (yue ni) avec la particule familière 'yo ni'."
+  },
+  "advanced_kanji_and_literary_markers": [
+    {
+      "kanji": "故に (ゆえに)",
+      "romaji": "yue ni",
+      "level_jlpt": "N1",
+      "meaning": "Par conséquent / C'est pourquoi",
+      "description": "Particule conjonctive archaïque et littéraire établissant une causalité logique ou philosophique stricte."
+    },
+    {
+      "kanji": "契機 (けいき)",
+      "romaji": "keiki",
+      "level_jlpt": "N1",
+      "meaning": "L'élément déclencheur / L'occasion",
+      "description": "Utilisé sous la forme '～を契機に' (wo keiki ni) pour indiquer qu'un événement a servi de point de départ à une transformation majeure."
+    },
+    {
+      "kanji": "反面 (はんめん)",
+      "romaji": "hanmen",
+      "level_jlpt": "N2",
+      "meaning": "D'un autre côté / En contrepartie",
+      "description": "Connecteur introduisant les aspects contradictoires ou opposés d'une même réalité."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "～ものの",
+      "phonetic_api": "/mo.no no/",
+      "phonetic_simple": "MO-NO NO",
+      "translation": "Bien que / Quoique / Tout en sachant que (Concession formelle avec réserve)",
+      "example_sentence": "売上は増加しているものの、利益率は改善されていない。",
+      "example_phonetic": "/ɯ.ɾi.a.ɡe wa zoː.ka ɕi.te i.ɾɯ mo.no no ɾi.e̥k.i.ɾi̥t.sɯ wa ka.i.zeɴ sa.re.te i.na.i/",
+      "example_translation": "Bien que le chiffre d'affaires soit en hausse, la marge bénéficiaire n'a pas été améliorée."
+    },
+    {
+      "word_id": "v2",
+      "term": "～ゆえに（故に）",
+      "phonetic_api": "/jɯ.e ni/",
+      "phonetic_simple": "YOU-É NI",
+      "translation": "En raison de / C'est pourquoi / À cause de (Causalité logique formelle)",
+      "example_sentence": "専門知識の不足ゆえに、重大な誤断を招いてしまった。",
+      "example_phonetic": "/seɴ.moɴ t͡ɕi.ɕi̥k.ɯ no ɸɯ.so̥k.ɯ jɯ.e ni d͡ʑɯː.da.i na ɡo.daɴ o ma.no.ki.te ɕi.mḁt.ta/",
+      "example_translation": "C'est en raison d'un manque de connaissances spécialisées que nous avons malheureusement commis une grave erreur de jugement."
+    },
+    {
+      "word_id": "v3",
+      "term": "～のみならず",
+      "phonetic_api": "/no.mi na.ɾa.zɯ/",
+      "phonetic_simple": "NO-MI NA-RA-ZOU",
+      "translation": "Non seulement... mais aussi (Style écrit soutenu équivalant à dake de naku)",
+      "example_sentence": "彼は社内のみならず、業界全体で高く評価されている。",
+      "example_phonetic": "/ka.ɾe wa ɕa.na.i no.mi na.ɾa.zɯ ɡjoː.ka.i zeɴ.ta.i de ta.ka.kɯ hjoː.ka sa.re.te i.ɾɯ/",
+      "example_translation": "Il est hautement estimé non seulement au sein de l'entreprise, mais aussi dans l'ensemble du secteur industriel."
+    },
+    {
+      "word_id": "v4",
+      "term": "～反面（～はんめん）",
+      "phonetic_api": "/haɴ.meɴ/",
+      "phonetic_simple": "HAN-MEN",
+      "translation": "En revanche / D'un autre côté (Dualité ou ambivalence d'une situation)",
+      "example_sentence": "この投資計画はリターンが大きい反面、リスクも極めて高い。",
+      "example_phonetic": "/ko.no toː.ɕi keː.ka.kɯ wa ɾi.taːɴ ɡa oː.ki.i haɴ.meɴ ɾi.sɯ.kɯ mo ki.wa.me.te ta.ka.i/",
+      "example_translation": "Ce plan d'investissement offre un rendement élevé, mais en contrepartie, le risque est lui aussi extrêmement lourd."
+    },
+    {
+      "word_id": "v5",
+      "term": "～を契機に（～をけいきに）",
+      "phonetic_api": "/o keː.ki ni/",
+      "phonetic_simple": "O KÉE-KI NI",
+      "translation": "À la suite de / Profitant de l'occasion de (Indique un tournant historique ou majeur)",
+      "example_sentence": "リーマンショックを契機に、リスク管理体制が見直された。",
+      "example_phonetic": "/ɾiː.maɴ.ɕo̥k.kɯ o keː.ki ni ɾi.sɯ.kɯ kaɴ.ɾi ta.i.sa.i ɡa mi.na.o.sa.re.ta/",
+      "example_translation": "À la suite de la crise des subprimes, le système de gestion des risques a fait l'objet d'une refonte complète."
+    },
+    {
+      "word_id": "v6",
+      "term": "～がゆえに（～が故に）",
+      "phonetic_api": "/ɡa jɯ.e ni/",
+      "phonetic_simple": "GA YOU-É NI",
+      "translation": "Du fait même que / Précisément parce que",
+      "example_sentence": "若さゆえに過ちを犯すこともある。",
+      "example_phonetic": "/wa.ka.sa jɯ.e ni a.ja.ma.t͡ɕi o o.ka.sɯ ko.to mo a.ɾɯ/",
+      "example_translation": "C'est précisément parce qu'on est jeune qu'il arrive que l'on commette des erreurs."
+    },
+    {
+      "word_id": "v7",
+      "term": "それどころか",
+      "phonetic_api": "/so.le do.ko.ɾa/",
+      "phonetic_simple": "SO-RÉ DO-KO-RA",
+      "translation": "Bien au contraire / Loin de là (Réfutation d'une assertion pour surenchérir)",
+      "example_sentence": "事態は改善していない。それどころか悪化している。",
+      "example_phonetic": "/d͡ʑi.ta.i wa ka.i.zeɴ ɕi.te i.na.i so.le do.ko.ɾa ḁk.ka ɕi.te i.ɾɯ/",
+      "example_translation": "La situation ne s'est pas améliorée. Bien au contraire, elle s'est détériorée."
+    },
+    {
+      "word_id": "v8",
+      "term": "～ひいては",
+      "phonetic_api": "/çiː.te wa/",
+      "phonetic_simple": "CHII-TÉ WA",
+      "translation": "Et par voie de conséquence / Et par extension (Élargissement d'un impact)",
+      "example_sentence": "個人の成長が、ひいては会社全体の発展につながる。",
+      "example_phonetic": "/ko.d͡ʑiɴ no seː.t͡ɕoː ɡa çiː.te wa ka.i.ɕa zeɴ.ta.i no hḁt.teɴ ni t͡sɯ.na.ɡa.ɾɯ/",
+      "example_translation": "La croissance de l'individu conduit, par voie de conséquence, au développement de l'entreprise tout entière."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "円安は輸出企業に有利である反面、輸入コストを押し上げる原因となる。",
+      "phonetic_api": "/eɴ.ja.sɯ wa jɯ.ɕɯ̥t.sɯ ki.ɡjoː ni jɯː.ɾi de a.ɾɯ haɴ.meɴ jɯ.njuː ko.sɯ.to o o.ɕi.a.ɡe.ɾɯ ɡeɴ.iɴ to na.ɾɯ/",
+      "phonetic_simple": "EN-YASU WA YU-SHUT-SU KI-GYOO NI YUU-RI DÉ ARU HAN-MEN, YU-NYUU KOS-TO O O-SHI-A-GÉ-RU GEN-IN TO NA-RU.",
+      "translation": "Si la dépréciation du yen est avantageuse pour les entreprises exportatrices, elle constitue en contrepartie un facteur de hausse des coûts d'importation.",
+      "context": "Analyse macroéconomique présentée lors d'une note de conjoncture financière."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "新制度の導入を契機として、組織の合理化を徹底する方針です。",
+      "phonetic_api": "/ɕiɴ.seː.do no doː.njuː o keː.ki to ɕi.te so.ɕi̥k.ɯ no ɡoː.ɾi.ka o te̥t.teː sɯ.ɾɯ hoː.ɕiɴ de.sɯ̥/",
+      "phonetic_simple": "SHIN-SÉE-DO NO DOO-NYUU O KÉE-KI TO SHI-TÉ, SO-SHI-KOU NO GOO-RI-KA O TET-TÉE SU-RU HOO-CHIN DESS.",
+      "translation": "Profitant de l'introduction de ce nouveau système comme élément déclencheur, nous avons pour stratégie de rationaliser l'organisation en profondeur.",
+      "context": "Discours de la direction générale exposant un plan de restructuration interne."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "法改正が行われたものの、実効性については疑問が残る。",
+      "phonetic_api": "/hoː ka.i.seː ɡa o.ko.na.wa.re.ta mo.no no d͡ʑi̥k.koː.seː ni t͡sɯ.i.te wa ɡi.moɴ ɡa no.ko.ɾɯ/",
+      "phonetic_simple": "HOO KAI-SÉE GA O-KO-NA-WA-RÉ-TA MO-NO NO, JIK-KOO-SÉE NI TSUI-TÉ WA GI-MON GA NO-KO-RU.",
+      "translation": "Bien que la réforme législative ait été votée, des doutes subsistent quant à son efficacité réelle.",
+      "context": "Commentaire critique publié dans une revue de doctrine juridique ou un éditorial."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "この不祥事は経営陣のみならず、全社員の責任に帰すべき問題である。",
+      "phonetic_api": "/ko.no ɸɯ.ɕoː.d͡ʑi wa keː.eː.d͡ʑiɴ no.mi na.ɾa.zɯ zeɴ ɕa.iɴ no se̥k.i.niɴ ni ki sɯ.be.ki moɴ.da.i de a.ɾɯ/",
+      "phonetic_simple": "KO-NO FU-SHOO-JI WA KÉE-ÉE-JIN NO-MI NA-RA-ZOU, ZEN SHA-IN NO SE-KI-NIN NI KI SOU-BÉ-KI MON-DA-I DÉ ARU.",
+      "translation": "Ce scandale est un problème dont la responsabilité doit être imputée non seulement à l'équipe dirigeante, mais également à l'ensemble du personnel.",
+      "context": "Rapport d'un comité d'éthique d'entreprise évaluant un manquement à la conformité."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "悪天候ゆえに、視界が極めて不良となっております。",
+      "phonetic_api": "/ḁk.teɴ.koː jɯ.e ni ɕi.ka.i ɡa ki.wa.me.te ɸɯ.ɾjoː to nḁt.te o.ɾi.ma.sɯ̥/",
+      "phonetic_simple": "AK-TEN-KOO YOU-É NI, SHI-KAI GA KI-WA-MÉ-TÉ FU-RYOO TO NAT-TÉ O-RI-MASS.",
+      "translation": "En raison des conditions météorologiques défavorables, la visibilité se trouve extrêmement réduite.",
+      "context": "Annonce officielle et formelle dans les transports ou un communiqué de sécurité."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "業績不振、ひいては倒産の危機に直面しかねない。",
+      "phonetic_api": "/ɡjoː.se̥k.i ɸɯ.ɕiɴ çiː.te wa toː.saɴ no ki.ki ni t͡ɕo̥k.meɴ ɕi.ka.ne.na.i/",
+      "phonetic_simple": "GYOO-SE-KOU FU-SHIN, CHII-TÉ WA TOO-SAN NO KI-KI NI CHOK-MEN SHI-KA-NÉ-NA-I.",
+      "translation": "Nous risquons de faire face à une dégradation de nos résultats et, par voie de conséquence, à une menace de faillite.",
+      "context": "Mise en garde budgétaire sévère émise lors d'un audit de restructuration."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "情報漏洩は企業の信用低下、のみならず法的制裁を招く。",
+      "phonetic_api": "/d͡ʑoː.hoː ɾoː.eː wa ki.ɡjoː no ɕiɴ.joː teː.ka no.mi na.ɾa.zɯ hoː.te.ki seː.sa.i o ma.no.kɯ/",
+      "phonetic_simple": "JOO-HOO ROO-ÉI WA KI-GYOO NO SHIN-YOO TÉE-KA NO-MI NA-RA-ZOU, HOO-TÉ-KI SÉE-SAI O MA-NO-KOU.",
+      "translation": "Une fuite d'informations provoque non seulement la perte de confiance envers l'entreprise, mais elle entraîne aussi des sanctions juridiques.",
+      "context": "Directive interne de conformité sur la protection des données stratégiques."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "事前の合意があったものの、最終交渉で破談に至った。",
+      "phonetic_api": "/d͡ʑi.zeɴ no ɡoː.i ɡa ḁt.ta mo.no no sa.i.ɕɯː koː.ɕoː de ha.daɴ ni i.tḁt.ta/",
+      "phonetic_simple": "JI-ZEN NO GOO-I GA AT-TA MO-NO NO, SAI-SHUU KOO-SHOO DÉ HA-DAN NI I-TAT-TA.",
+      "translation": "Bien qu'un accord préalable eût été trouvé, les négociations finales ont malheureusement abouti à une rupture des discussions.",
+      "context": "Note de synthèse juridique constatant l'échec d'une fusion-acquisition."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La causalité absolue ou philosophique : ～ゆえに（故に）",
+      "explanation": "Le connecteur '～ゆえに' (yue ni) s'utilise dans le style écrit formel ou académique pour exprimer un lien de causalité incontestable. Moins personnel que 'kara' et plus noble que 'node' ou 'tame', il lie un fait ou un état abstrait à sa conséquence inéluctable. Il s'attache directement à la forme neutre des verbes, aux adjectifs et aux noms (souvent sous la forme 'Nom + (の)ゆえに').",
+      "rules": [
+        "Structure : [Verbe / Adj-i forme neutre] + ゆえに",
+        "Structure : [Adjectif-na / Nom] + (である) + ゆえに"
+      ],
+      "examples": [
+        {
+          "structure": "言葉の壁があるゆえに、誤解が生じることもある (Kotoba no kabe ga aru yue ni, gokai ga shōjiru koto mo aru)",
+          "phonetic_api": "/ko.to.ba no ka.be ɡa a.ɾɯ jɯ.e ni ɡo.ka.i ɡa ɕoː.d͡ʑi.ɾɯ ko.to mo a.ɾɯ/",
+          "meaning": "C'est en raison de la barrière de la langue que des malentendus surgissent parfois."
+        }
+      ]
+    },
+    {
+      "concept": "L'antithèse conceptuelle : ～反面（～はんめん）",
+      "explanation": "Le connecteur '～反面' s'emploie pour mettre en balance deux aspects opposés, contradictoires ou complémentaires d'un même phénomène, d'une décision ou d'un sujet d'étude. Il permet de structurer le discours de façon équilibrée en évitant un parti-pris simpliste.",
+      "rules": [
+        "Structure : [Verbe / Adj-i forme neutre] + 反面",
+        "Structure : [Adj-na] + な / である + 反面",
+        "Structure : [Nom] + である + 反面"
+      ],
+      "examples": [
+        {
+          "structure": "デジタル化は便利な反面、セキュリティのリスクが伴う (Dejitalu-ka wa benrina hanmen, sekyuriti no risuku ga tomonau)",
+          "phonetic_api": "/de.d͡ʑi.ta.ɾɯ.ka wa beɴ.ɾi.na haμ.meμ se.k jɯ.ɾi.ti no ɾi.sɯ.kɯ ɡa to.mo.na.ɯ/",
+          "meaning": "Si la numérisation s'avère pratique, elle s'accompagne en contrepartie de risques de sécurité."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "高橋執行役員 (Directeur exécutif Takahashi)",
+      "text": "鈴木部長、欧州市場への進出計画だが、現地の経済情勢は不安定なものの、撤退すべきではないという意見もあるが。",
+      "phonetic_api": "/sɯ.zɯ.ki bɯ.t͡choː oː.ɕɯː ɕi.d͡ʑoː e no ɕiɴ.ɕɯ̥t.sɯ keː.ka.kɯ da.ɡa ɡeɴ.t͡ɕi no keː.za.i d͡ʑoː.seː wa ɸɯ.aɴ.teː.na mo.no no te̥t.ta.i sɯ.be.ki de.wa na.i to i.ɯ i.keɴ mo a.ɾɯ ɡa/",
+      "phonetic_simple": "SU-ZOU-KI BOU-CHOO, OO-SHUU SHI-JOO E NO SHIN-SHUT-SU KÉE-KAK-OU DA GA, GEN-CHI NO KÉE-ZAI JOO-SÉE WA FU-AN-TÉE-NA MO-NO NO, TET-TAI SOU-BÉ-KI DÉ-WA NA-I TO IU I-KEN MO ARU GA.",
+      "translation": "Directeur Suzuki, concernant le projet d'implantation sur le marché européen : bien que la conjoncture économique locale soit instable, certains soutiennent que nous ne devrions pas battre en retraite."
+    },
+    {
+      "speaker": "鈴木部長 (Directeur Suzuki)",
+      "text": "はい。欧州市場は競争が激しい反面、ブランド価値を高める上では重要な拠点になり得ます。",
+      "phonetic_api": "/ha.i oː.ɕɯː ɕi.d͡ʑoː wa kjoː.soː ɡa ha.ɡa.ɕi.i haμ.meμ bɯ.ɾaɴ.do ka.t͡ɕi o ta.ka.me.ɾɯ ɯ.e de wa d͡ʑɯː.joː.na kjo.teɴ ni na.ɾi.e.ma.sɯ̥/",
+      "phonetic_simple": "HAI. OO-SHUU SHI-JOO WA KYOO-SOO GA HA-GI-SHII HAN-MEN, BU-RAN-DO KA-TCHI O TA-KA-MÉ-RU U-É DÉ WA JUU-YOO-NA KYO-TEN NI NA-RI-É-MASS.",
+      "translation": "En effet. Si le marché européen se caractérise par une concurrence féroce, il peut en contrepartie constituer un ancrage stratégique majeur pour rehausser la valeur de notre marque."
+    },
+    {
+      "speaker": "高橋執行役員 (Directeur exécutif Takahashi)",
+      "text": "今回の法規制強化を契機に、他社が参入を躊躇している今こそ好機、ということか。",
+      "phonetic_api": "/koμ.ka.i no hoː.ki.seː kjoː.ka o keː.ki ni ta.ɕa ɡa saμ.njuː o t͡ɕɯː.t͡ɕo ɕi.te i.ɾɯ i.ma ko.so koː.ki to i.ɯ ko.to ka/",
+      "phonetic_simple": "KON-KAI NO HOO-KI-SÉI KYOO-KA O KÉE-KI NI, TA-SHA GA SAN-NYUU O CHUU-CHO SHI-TÉ IRU I-MA KO-SO KOO-KI, TO IU KO-TO KA ?",
+      "translation": "Est-ce à dire que, profitant du durcissement des réglementations comme élément déclencheur, le fait que les autres entreprises hésitent à s'implanter représente précisément notre chance ?"
+    },
+    {
+      "speaker": "鈴木部長 (Directeur Suzuki)",
+      "text": "左様でございます。準備不足ゆえの失敗は許されません。それゆえ、調査のみならず法務体制の強化も徹底して進める所存です。",
+      "phonetic_api": "/sa.joː de ɡo.za.i.ma.sɯ̥ d͡ʑɯɴ.bi ɸɯ.so̥k.ɯ jɯ.e no ɕi̥p.pa.i wa jɯ.ɾɯ.sa.re.ma.seɴ so.le jɯ.e t͡ɕoː.sa no.mi na.ɾa.zɯ hoː.mɯ ta.i.seː no kjoː.ka mo te̥t.teː ɕi.te sɯ.sɯ.me.ɾɯ ɕo.zoɴ de.sɯ̥/",
+      "phonetic_simple": "SA-YOO DÉ GO-ZA-I-MASS. JUN-BI FU-SOK-OU YUE NO SHIP-PAI WA YU-RU-SA-RÉ-MA-SEN. SO-RÉ YUE, CHOO-SA NO-MI NA-RA-ZOU HOO-MOU TAI-SÉI NO KYOO-KA MO TET-TÉE SHI-TÉ SU-SU-MÉ-RU SHO-ZON DESS.",
+      "translation": "C'est tout à fait cela. Un échec en raison d'une préparation insuffisante serait impardonnable. C'est pourquoi nous avons la ferme intention de mener à bien non seulement les études de marché, mais également un renforcement drastique de notre dispositif juridique."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'exercice de la rhétorique et du débat de haut niveau au Japon (C1/C2), l'usage de connecteurs logiques nuancés s'avère capital. Plutôt que de rejeter une proposition de manière catégorique, un cadre supérieur emploiera volontairement '～ものの' (bien que) pour accréditer l'avis de son interlocuteur avant d'introduire des réserves factuelles, préservant ainsi l'harmonie indispensable à la délibération.",
+    "La construction argumentative s'appuyant sur des jalons temporels historiques, formalisée ici par '～を契機に' (à la suite de / comme déclencheur), reflète la propension de la pensée managériale japonaise à ancrer le changement organisationnel dans une dynamique événementielle objective plutôt que dans une impulsion individuelle abrupte."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel connecteur logique de concession s'insère correctement dans cette phrase de rapport : 'A1: 景気は緩やかに回復している[ ___ ]、雇用の安定には至っていない。' (L'économie se redresse lentement, mais le plein emploi n'est pas stabilisé)",
+      "options": [
+        "ものの (mono no)",
+        "ゆえに (yue ni)",
+        "のみならず (nomi narazu)"
+      ],
+      "correct_answer": "ものの (mono no)",
+      "explanation": "Le connecteur 'ものの' permet d'introduire une concession stricte constatée (bien que l'économie se redresse, l'emploi ne suit pas encore)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "今回の規制緩和を[ ___ ]に、多くのベンチャー企業が市場に参入した。",
+      "correct_answer": "契機",
+      "hint": "Entrez le terme conceptuel signifiant 'élément déclencheur / occasion historique' complétant la structure post-nominale 'wo ... ni'."
+    }
+  ]
+}

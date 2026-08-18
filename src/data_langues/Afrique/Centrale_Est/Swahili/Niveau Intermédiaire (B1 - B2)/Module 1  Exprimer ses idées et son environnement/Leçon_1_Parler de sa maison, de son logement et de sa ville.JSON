@@ -1,0 +1,274 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire son espace de vie en détaillant l'architecture, les pièces et le mobilier",
+    "Exprimer l'environnement urbain, les infrastructures et les commodités d'une ville",
+    "Maîtriser les accords locatifs avancés du swahili (classes nominales PA, KU, MU)",
+    "Comparer deux lieux de résidence en utilisant des structures comparatives complexes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le niveau intermédiaire exige une attention rigoureuse aux infixes et préfixes de lieu. Les sons complexes des classes locatives comme 'po' [pɔ], 'ko' [kɔ], et 'mo' [mɔ] doivent être prononcés distinctement en fin de verbe. Le mot 'Ghorofa' (étage) se prononce [ɣɔˈrɔ.fa] avec un 'gh' guttural hérité de l'arabe, tandis que 'Mazingira' (environnement) requiert un bloc consonantique 'ng' dur [ma.ziˈngi.ra].",
+    "common_pitfalls": "Le piège majeur est de confondre la prononciation et le sens des préfixes locatifs au sein d'un même paragraphe. 'Nyumbani pangu' (chez moi, lieu précis) exige un 'p' bilabial sourd, alors que 'Nyumbani kwangu' (chez moi, zone générale) exige un 'kw' semi-vocalique. Ne nasalisez jamais le 'an' de 'Mazingira'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Ghorofa",
+      "phonetic_api": "/ɣɔˈrɔ.fa/",
+      "phonetic_simple": "GHOH-ROH-FAH",
+      "translation": "Étage / Immeuble à étages",
+      "example_sentence": "Ninakaa katika ghorofa ya tatu.",
+      "example_phonetic": "/ni.naˈka.a kaˈti.ka ɣɔˈrɔ.fa ja ˈta.tu/",
+      "example_translation": "J'habite au troisième étage."
+    },
+    {
+      "word_id": "v2",
+      "term": "Chumba cha kulala",
+      "phonetic_api": "/ˈtʃu.mba tʃa kuˈla.la/",
+      "phonetic_simple": "CHOO-MBAH CHAH KOO-LAH-LAH",
+      "translation": "Chambre à coucher",
+      "example_sentence": "Chumba cha kulala kina dirisha kubwa.",
+      "example_phonetic": "/ˈtʃu.mba tʃa kuˈla.la ki.na diˈri.ʃa ˈku.bwa/",
+      "example_translation": "La chambre à coucher a une grande fenêtre."
+    },
+    {
+      "word_id": "v3",
+      "term": "Sebule",
+      "phonetic_api": "/sɛˈbu.lɛ/",
+      "phonetic_simple": "SEH-BOO-LEH",
+      "translation": "Salon / Salle de séjour",
+      "example_sentence": "Wageni wamekaa sebuleni.",
+      "example_phonetic": "/waˈgɛ.ni wa.mɛˈka.a sɛ.buˈlɛ.ni/",
+      "example_translation": "Les invités sont assis au salon."
+    },
+    {
+      "word_id": "v4",
+      "term": "Mazingira",
+      "phonetic_api": "/ma.ziˈŋgi.ra/",
+      "phonetic_simple": "MAH-ZEEN-GEE-RAH",
+      "translation": "Environnement / Alentours / Cadre de vie",
+      "example_sentence": "Mazingira ya mji huu ni safi sana.",
+      "example_phonetic": "/ma.ziˈŋgi.ra ja mˈdʒi ˈhu.u ni ˈsa.fi ˈsa.na/",
+      "example_translation": "L'environnement de cette ville est très propre."
+    },
+    {
+      "word_id": "v5",
+      "term": "Miundombinu",
+      "phonetic_api": "/mi.u.ndɔˈmbi.nu/",
+      "phonetic_simple": "MEE-OO-NDOH-MBEE-NOO",
+      "translation": "Infrastructures (routes, réseaux, ponts)",
+      "example_sentence": "Serikali inaboresha miundombinu ya usafiri.",
+      "example_phonetic": "/sɛ.riˈka.li i.na.bɔˈrɛ.ʃa mi.u.ndɔˈmbi.nu ja u.saˈfi.ri/",
+      "example_translation": "Le gouvernement améliore les infrastructures de transport."
+    },
+    {
+      "word_id": "v6",
+      "term": "Kodi",
+      "phonetic_api": "/ˈkɔ.di/",
+      "phonetic_simple": "KOH-DEE",
+      "translation": "Loyer / Taxe",
+      "example_sentence": "Kodi ya nyumba hii ni ghali sana.",
+      "example_phonetic": "/ˈkɔ.di ja ˈɲu.mba ˈhi.i ni ˈɣa.li ˈsa.na/",
+      "example_translation": "Le loyer de cette maison est très cher."
+    },
+    {
+      "word_id": "v7",
+      "term": "Vitongoji",
+      "phonetic_api": "/vi.tɔˈŋgɔ.dʒi/",
+      "phonetic_simple": "VEE-TOHN-GOH-DJEE",
+      "translation": "Banlieues / Quartiers périphériques",
+      "example_sentence": "Ninapenda kuishi katika vitongoji vya mji.",
+      "example_phonetic": "/ni.naˈpɛ.nda kuˈi.ʃi kaˈti.ka vi.tɔˈŋgɔ.dʒi vja mˈdʒi/",
+      "example_translation": "J'aime vivre dans la banlieue de la ville."
+    },
+    {
+      "word_id": "v8",
+      "term": "Usalama",
+      "phonetic_api": "/u.saˈla.ma/",
+      "phonetic_simple": "OO-SAH-LAH-MAH",
+      "translation": "Sécurité",
+      "example_sentence": "Kuna usalama mkubwa mtaani kwetu.",
+      "example_phonetic": "/ˈku.na u.saˈla.ma mˈku.bwa mtaːˈni ˈkwɛ.tu/",
+      "example_translation": "Il y a une grande sécurité dans notre quartier."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Nyumba yako ina vyumba vingapi vya kulala?",
+      "phonetic_api": "/ˈɲu.mba ˈja.kɔ ˈi.na ˈvju.mba viˈŋga.pi vja kuˈla.la/",
+      "phonetic_simple": "NYOO-MAH YAH-KOH EE-NAH VYOO-MBAH VEEN-GAH-PEE VYAH KOO-LAH-LAH",
+      "translation": "Ta maison compte combien de chambres à coucher ?",
+      "context": "Entretien ou discussion sur les détails d'un logement."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Mji huu una changamoto nyingi za usafiri.",
+      "phonetic_api": "/mˈdʒi ˈhu.u ˈu.na tʃa.ŋgaˈmɔ.tɔ ˈɲi.ŋgi za u.saˈfi.ri/",
+      "phonetic_simple": "MDJEE HOO-OO OO-NAH CHAHN-GAH-MOH-TOH NYEHN-GEE ZAH OO-SAH-FEE-REE",
+      "translation": "Cette ville connaît de nombreux défis de transport.",
+      "context": "Analyse critique de la vie urbaine moderne."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Nyumbani kwangu ndipo ninapopenda kupumzika.",
+      "phonetic_api": "/ɲuˈmba.ni ˈkwa.ŋgu ˈndi.pɔ ni.na.pɔˈpɛ.nda ku.puˈmzi.ka/",
+      "phonetic_simple": "NYOOM-BAH-NEE KWAHN-GOO NDEE-POH NEE-NAH-POH-PEHN-DAH KOO-POOM-ZEE-KAH",
+      "translation": "C'est précisément chez moi que j'aime me reposer.",
+      "context": "Structure avancée pour cibler un lieu précis d'affection ou d'habitude."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Mazingira ya vijijini ni tulivu kuliko ya mijini.",
+      "phonetic_api": "/ma.ziˈŋgi.ra ja vi.dʒiˈdʒi.ni ni tuˈli.vu kuˈli.kɔ ja mi.dʒiˈni/",
+      "phonetic_simple": "MAH-ZEEN-GEE-RAH YAH VEE-DJEE-DJEE-NEE NEE TOO-LEE-VOO KOO-LEE-KOH YAH MEE-DJEE-NEE",
+      "translation": "L'environnement des villages est plus calme que celui des villes.",
+      "context": "Formuler une comparaison spatiale et environnementale."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Mtaa wetu una duka la dawa na soko dogo.",
+      "phonetic_api": "/mtaː ˈwɛ.tu ˈu.na ˈdu.ka la ˈda.wa na ˈsɔ.kɔ ˈdɔ.gɔ/",
+      "phonetic_simple": "MTAAH WEH-TOO OO-NAH DOO-KAH LAH DAH-WAH NAH SOH-KOH DOH-GOH",
+      "translation": "Notre quartier dispose d'une pharmacie et d'un petit marché.",
+      "context": "Énumérer les services de proximité autour de son domicile."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Ninatafuta nyumba ya kupanga yenye kodi nafuu.",
+      "phonetic_api": "/ni.na.taˈfu.ta ˈɲu.mba ja kuˈpa.ŋga ˈjɛ.ɲɛ ˈkɔ.di naˈfuː/",
+      "phonetic_simple": "NEE-NAH-TAH-FOO-TAH NYOO-MAH YAH KOO-PAHN-GAH YEHN-YEH KOH-DEE NAH-FOO",
+      "translation": "Je cherche une maison à louer avec un loyer abordable.",
+      "context": "Recherche immobilière ou discussion avec un agent de logement."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Mji wa Dar es Salaam una joto kuliko Nairobi.",
+      "phonetic_api": "/mˈdʒi wa Dar es Salaam ˈu.na ˈdʒɔ.tɔ kuˈli.kɔ Nairobi/",
+      "phonetic_simple": "MDJEE WAH Dar es Salaam OO-NAH DJOH-TOH KOO-LEE-KOH Nairobi",
+      "translation": "La ville de Dar es Salaam est plus chaude que Nairobi.",
+      "context": "Comparaison du climat entre deux métropoles d'Afrique de l'Est."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Ukiingia ndani ya nyumba, utaona jikoni upande wa kulia.",
+      "phonetic_api": "/u.ki.iˈŋgi.a ˈnda.ni ja ˈɲu.mba u.taˈɔ.na dʒiˈkɔ.ni uˈpa.ndɛ wa kuˈli.a/",
+      "phonetic_simple": "OO-KEE-EHN-GEE-AH NDAH-NEE YAH NYOO-MAH OO-TAH-OH-NAH DJEE-KOH-NEE OO-PAHN-DEH WAH KOO-LEE-AH",
+      "translation": "Si tu entres à l'intérieur de la maison, tu verras la cuisine sur le côté droit.",
+      "context": "Description spatiale intérieure guidée."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les classes locatives avancées (Classes 16, 17, 18 : PA, KU, MU)",
+      "explanation": "En swahili intermédiaire, l'expression du lieu se précise grâce à trois classes nominales locatives abstraites. Lorsqu'un nom reçoit le suffixe '-ni' (ex: nyumbani), les adjectifs, possessifs et verbes s'accordent selon le type d'espace désigné.",
+      "rules": [
+        "La Classe 16 (PA-) indique un lieu précis, fixe et déterminé. Son accord possessif est 'pangu/pako/pake'. Exemple : 'nyumbani pangu' = à l'endroit précis de ma maison.",
+        "La Classe 17 (KU-) indique une direction générale, un éloignement ou une zone floue. Son accord possessif est 'kwangu/kwako/kwake'. Exemple : 'nyumbani kwangu' = dans les environs de ma maison / chez moi.",
+        "La Classe 18 (MU-) indique l'intérieur d'un espace fermé ou le confinement. Son accord possessif est 'mwangu/mwako/mwake'. Exemple : 'nyumbani mwangu' = à l'intérieur même de ma maison."
+      ],
+      "examples": [
+        {
+          "structure": "Nyumbani (Lieu) + p- (Précis) + etu = Nyumbani petu",
+          "phonetic_api": "/ɲuˈmba.ni ˈpɛ.tu/",
+          "meaning": "À notre adresse précise"
+        },
+        {
+          "structure": "Nyumbani (Lieu) + mw- (Intérieur) + enu = Nyumbani mwenu",
+          "phonetic_api": "/ɲuˈmba.ni ˈmwɛ.nu/",
+          "meaning": "À l'intérieur de votre maison"
+        }
+      ]
+    },
+    {
+      "concept": "La comparaison de supériorité avec l'outil 'Kuliko'",
+      "explanation": "Pour bâtir une structure comparative complexe ('plus... que') entre deux environnements ou entités, le swahili utilise le morphème conjonctif 'kuliko' (littéralement 'là où il y a (par rapport à)').",
+      "rules": [
+        "On énonce le premier sujet, puis la qualité ou l'état physique.",
+        "On insère directement l'outil 'kuliko'.",
+        "On énonce le second sujet servant de point de comparaison. Il n'est pas nécessaire d'ajouter un adverbe équivalent à 'plus'."
+      ],
+      "examples": [
+        {
+          "structure": "Nairobi + ina baridi (a du froid) + kuliko + Mombasa",
+          "phonetic_api": "/Nairobi ˈi.na baˈri.di kuˈli.kɔ Mombasa/",
+          "meaning": "Nairobi est plus froide que Mombasa"
+        },
+        {
+          "structure": "Kodi (Loyer) + ni kubwa (est grand) + kuliko + jana (hier)",
+          "phonetic_api": "/ˈkɔ.di ni ˈku.bwa kuˈli.kɔ ˈdʒa.na/",
+          "meaning": "Le loyer est plus élevé qu'avant"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mwangi (Habitant de Nairobi)",
+      "text": "Karibu Nairobi, Baraka! Je, umewahi kufika katika mji wetu hapo awali?",
+      "phonetic_api": "/kaˈri.bu Nairobi baˈra.ka dʒɛ u.mɛˈwa.hi kuˈfi.ka kaˈti.ka mˈdʒi ˈwɛ.tu ˈha.pɔ aˈwa.li/",
+      "phonetic_simple": "KAH-REE-BOO Nairobi BAH-RAH-KAH JEH OO-MEH-WAH-HEE KOO-FEE-KAH KAH-TEE-KAH MDJEE WEH-TOO HAH-POH AH-WAH-LEE",
+      "translation": "Bienvenue à Nairobi, Baraka ! Est-ce que tu es déjà venu dans notre ville auparavant ?"
+    },
+    {
+      "speaker": "Baraka (Mgeni kutoka kijijini)",
+      "text": "Asante Mwangi. Sijawahi! Mazingira ya mji huu ni makubwa na miundombinu ni ya kisasa sana kuliko kule kijijini kwetu.",
+      "phonetic_api": "/aˈsa.ntɛ Mwangi si.dʒaˈwa.hi ma.ziˈŋgi.ra ja mˈdʒi ˈhu.u ni maˈku.bwa na mi.u.ndɔˈmbi.nu ni ja kiˈsa.sa ˈsa.na kuˈli.kɔ ˈku.lɛ vi.dʒiˈdʒi.ni ˈkwɛ.tu/",
+      "phonetic_simple": "AH-SAHN-TEH Mwangi SEE-DJAH-WAH-HEE MAH-ZEEN-GEE-RAH YAH MDJEE HOO-OO NEE MAH-KOO-BWAH NAH MEE-OO-NDOH-MBEE-NOO NEE YAH KEE-SAH-SAH SAH-NAH KOO-LEE-KOH KOO-LEH VEE-DJEE-DJEE-NEE KWEH-TOO",
+      "translation": "Merci Mwangi. Jamais ! L'environnement de cette ville est immense et les infrastructures sont très modernes par rapport à notre village là-bas."
+    },
+    {
+      "speaker": "Mwangi (Habitant de Nairobi)",
+      "text": "Ni kweli, lakini maisha ya mijini yana changamoto. Mimi ninapanga ghorofa, na kodi ya nyumba ni ghali mno.",
+      "phonetic_api": "/ni ˈkwɛ.li laˈki.ni maˈi.ʃa ja mi.dʒiˈni ˈja.na tʃa.ŋgaˈmɔ.tɔ ˈmi.mi ni.naˈpa.ŋga ɣɔˈrɔ.fa na ˈkɔ.di ja ˈɲu.mba ni ˈɣa.li mˈnɔ/",
+      "phonetic_simple": "NEE KWEH-LEE LAH-KEE-NEE MAH-EE-SHAH YAH MEE-DJEE-NEE YAH-NAH CHAHN-GAH-MOH-TOH MEE-MEE NEE-NAH-PAHN-GAH GHOH-ROH-FAH NAH KOH-DEE YAH NYOO-MAH NEE GHAH-LEE MNOH",
+      "translation": "C'est vrai, mais la vie citadine comporte des défis. Moi, je loue un appartement dans un immeuble, et le loyer de la maison est excessivement cher."
+    },
+    {
+      "speaker": "Baraka (Mgeni kutoka kijijini)",
+      "text": "Je, nyumbani mwako mna nafasi ya kutosha? Kuna vyumba vingapi?",
+      "phonetic_api": "/dʒɛ ɲuˈmba.ni ˈmwa.kɔ mˈna naˈfa.si ja kuˈtɔ.ʃa ˈku.na ˈvju.mba viˈŋga.pi/",
+      "phonetic_simple": "JEH NYOOM-BAH-NEE MWAH-KOH MNAH NAH-FAH-SEE YAH KOO-TOH-SHAH KOO-NAH VYOO-MBAH VEEN-GAH-PEE",
+      "translation": "Dis-moi, à l'intérieur de ta maison, y a-t-il assez de place ? Il y a combien de pièces ?"
+    },
+    {
+      "speaker": "Mwangi (Habitant de Nairobi)",
+      "text": "Kuna sebule kubwa na vyumba viwili vya kulala. Pia, kuna usalama mzuri sana mtaani petu.",
+      "phonetic_api": "/ˈku.na sɛˈbu.lɛ ˈku.bwa na ˈvju.mba viˈwi.li vja kuˈla.la ˈpi.a ˈku.na u.saˈla.ma mˈzu.ri ˈsa.na mtaːˈni ˈpɛ.tu/",
+      "phonetic_simple": "KOO-NAH SEH-BOO-LEH KOO-BWAH NAH VYOO-MBAH VEE-WEE-LEE VYAH KOO-LAH-LAH PEE-AH KOO-NAH OO-SAH-LAH-MAH MZEE-REE SAH-NAH MTAAH-NEE PEH-TOO",
+      "translation": "Il y a un grand salon et deux chambres à coucher. De plus, il y a une très bonne sécurité dans notre quartier précis."
+    }
+  ],
+  "cultural_notes": [
+    "Les dynamiques urbaines en Afrique de l'Est opposent fortement le pôle côtier historique (ex: Mombasa, Zanzibar), caractérisé par des architectures de pierre de style swahili-arabe, aux capitales intérieures modernes (Nairobi, Dodoma), nées du développement ferroviaire colonial.",
+    "L'accès au logement dans les mégapoles donne lieu au phénomène des 'Estates' ou cités fermées, où la classe moyenne recherche la sécurité ('Usalama') et des services fiables en eau et en électricité, souvent instables dans la périphérie.",
+    "Dans la culture swahilie, même au sein des grands ensembles urbains, le concept de 'Mtaa' (quartier/rue) reste un vecteur d'identité collective fort. Les voisins se connaissent et se mobilisent ensemble en cas de difficultés communautaires."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Si vous souhaitez dire : 'À l'intérieur de notre logement, il fait calme', quelle structure d'accord locatif devez-vous employer ?",
+      "options": [
+        "Nyumbani petu pana utulivu.",
+        "Nyumbani kwetu kuna utulivu.",
+        "Nyumbani mwetu mna utulivu.",
+        "Nyumba yetu ina utulivu."
+      ],
+      "correct_answer": "Nyumbani mwetu mna utulivu.",
+      "explanation": "La classe 18 (MU-) exprime spécifiquement l'intérieur d'un lieu clos. Les morphèmes d'accord 'mwetu' (notre intérieur) et 'mna' (il y a dedans) sont donc obligatoires."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mji wa Nairobi ni mkubwa [ ___ ] mji wa Arusha. (Remplissez avec l'outil de comparaison de supériorité pour dire 'plus grand que').",
+      "correct_answer": "kuliko",
+      "hint": "Cet outil grammatical invariable relie les deux termes de la comparaison directe de grandeur ou de qualité."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "lesson_id": "B1_M1_L2",
+  "level": "Niveau Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 2,
+  "title": "Les loisirs, les passions et les activités sportives",
+  "learning_objectives": [
+    "Parler de ses passe-temps favoris en kissi",
+    "Nommer des jeux et activités culturelles traditionnelles",
+    "Raconter et décrire une action de divertissement ou de sport"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le verbe 'baŋa' (danser/jouer) utilise des voyelles ouvertes et un ton moyen stable. L'occlusive palatale sourde /tʃ/ dans 'tchie' (chanson) exige une articulation nette.",
+    "common_pitfalls": "Ne séparez pas les sons dans les digrammes complexes comme 'gb' dans 'gbalala' (courir). La prononciation doit se faire en une seule impulsion pulmonaire."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v11_1",
+      "term": "baŋa",
+      "phonetic_api": "/ba.ŋa/",
+      "phonetic_simple": "BA-NGA",
+      "translation": "jouer / danser / s'amuser",
+      "example_sentence": "Puaa nio o co baŋa loolu.",
+      "example_phonetic": "/pwaː njo o tʃo ba.ŋa loː.lu/",
+      "example_translation": "Mon frère veut s'amuser."
+    },
+    {
+      "word_id": "v11_2",
+      "term": "tchie",
+      "phonetic_api": "/tʃje/",
+      "phonetic_simple": "TCHI-É",
+      "translation": "chanson / musique",
+      "example_sentence": "I co tchie kɔ̄l loolu.",
+      "example_phonetic": "/i tʃo tʃje kɔ̄l loː.lu/",
+      "example_translation": "Je veux chanter une chanson."
+    },
+    {
+      "word_id": "v11_3",
+      "term": "gbalala",
+      "phonetic_api": "/g͡ba.la.la/",
+      "phonetic_simple": "GBA-LA-LA",
+      "translation": "courir / course de vitesse",
+      "example_sentence": "O co gbalala ning.",
+      "example_phonetic": "/o tʃo g͡ba.la.la niŋ/",
+      "example_translation": "Il est en train de courir."
+    },
+    {
+      "word_id": "v11_4",
+      "term": "bol",
+      "phonetic_api": "/bol/",
+      "phonetic_simple": "BOL",
+      "translation": "ballon / football",
+      "example_sentence": "I co bol baŋa.",
+      "example_phonetic": "/i tʃo bol ba.ŋa/",
+      "example_translation": "Je joue au football."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p11_1",
+      "original": "Wali yɛŋ o co baŋa loolu ?",
+      "phonetic_api": "/wa.li jɛŋ o tʃo ba.ŋa loː.lu/",
+      "phonetic_simple": "WA-LI YENG O TCHO BA-NGA LOO-LOU",
+      "translation": "À quel jeu veux-tu jouer ?",
+      "context": "Proposer une activité de loisir"
+    },
+    {
+      "phrase_id": "p11_2",
+      "original": "I co bol baŋa loolu haala.",
+      "phonetic_api": "/i tʃo bol ba.ŋa loː.lu haː.la/",
+      "phonetic_simple": "I TCHO BOL BA-NGA LOO-LOU HAA-LA",
+      "translation": "Je veux jouer au football aujourd'hui.",
+      "context": "Parler de sa passion de la journée"
+    },
+    {
+      "phrase_id": "p11_3",
+      "original": "Tchie noo o nɔ nyalɛ fiaa.",
+      "phonetic_api": "/tʃje noː o nɔ ɲa.lɛ fjaː/",
+      "phonetic_simple": "TCHI-É NOO O NO NYA-LÈ FIA-A",
+      "translation": "Ta chanson est très belle.",
+      "context": "Faire un compliment musical"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'association de deux verbes (auxiliaire d'aspect + verbe d'action)",
+      "explanation": "Pour exprimer une action en cours de réalisation ou un passe-temps habituel, le verbe d'état 'co' sert d'auxiliaire de temps présent progressif et précède directement le verbe d'action.",
+      "rules": [
+        "Le complément d'objet s'intercale souvent entre l'auxiliaire et le verbe d'action principale.",
+        "La structure ne nécessite pas de conjonction de coordination intermédiaire."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + co + Objet + Verbe",
+          "phonetic_api": "/i tʃo bol ba.ŋa/",
+          "meaning": "Je joue au ballon (Je suis en train de jouer au ballon)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Tamba",
+      "text": "Saa, wali yɛŋ o co baŋa loolu ?",
+      "phonetic_api": "/saː wa.li jɛŋ o tʃo ba.ŋa loː.lu/",
+      "phonetic_simple": "SAA, WA-LI YENG O TCHO BA-NGA LOO-LOU",
+      "translation": "Saa, à quoi veux-tu jouer ?"
+    },
+    {
+      "speaker": "Saa",
+      "text": "I co bol baŋa loolu cɔwɔ̄.",
+      "phonetic_api": "/i tʃo bol ba.ŋa loː.lu tʃɔ.wɔ̄/",
+      "phonetic_simple": "I TCHO BOL BA-NGA LOO-LOU TCHO-WO",
+      "translation": "Je veux jouer au football demain."
+    },
+    {
+      "speaker": "Tamba",
+      "text": "Kpou o co kpou, i co lo ndɔ.",
+      "phonetic_api": "/k͡pu o tʃo k͡pu i tʃo lo ⁿdɔ/",
+      "phonetic_simple": "KPOU O TCHO KPOU, I TCHO LO NDO",
+      "translation": "C'est parfait, je viens aussi."
+    }
+  ],
+  "cultural_notes": [
+    "Dans les villages kissi, la musique, le chant et la danse ('baŋa') ne sont pas de simples distractions passives. Ils rythment de manière indissociable toutes les grandes étapes sociales collectives : travaux champêtres communautaires, initiations et célébrations rituelles au son du tambour."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex11_1",
+      "type": "multiple_choice",
+      "question": "Que signifie l'expression 'bol baŋa' ?",
+      "options": [
+        "Chanter une chanson",
+        "Jouer au football / ballon",
+        "Courir dans la rue"
+      ],
+      "correct_answer": "Jouer au football / ballon",
+      "explanation": "'Bol' désigne le ballon et 'baŋa' l'action de jouer."
+    },
+    {
+      "exercise_id": "ex11_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "I co [ ___ ] kɔ̄l loolu. (Je veux chanter une chanson)",
+      "correct_answer": "tchie",
+      "hint": "Le substantif pour désigner une œuvre musicale"
+    }
+  ]
+}

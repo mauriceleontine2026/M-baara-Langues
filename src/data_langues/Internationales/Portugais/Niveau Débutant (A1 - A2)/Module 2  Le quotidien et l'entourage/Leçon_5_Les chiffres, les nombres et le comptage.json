@@ -1,0 +1,257 @@
+{
+  "lesson_id": "A1_M2_L5",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter de 0 à 100 en portugais",
+    "Comprendre l'accord en genre des chiffres un et deux"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le chiffre 'três' possède un 'e' fermé marqué par l'accent circonflexe. Les terminaisons en '-te' comme dans 'vinte' ou 'trinta' se prononcent de manière très brève [tɨ] en portugais européen, presque muette. Le 'z' de 'dez' se prononce [ʃ] en fin de mot.",
+    "common_pitfalls": "Attention à la prononciation de 'seis' [sejʃ] et 'sete' [ˈsɛtɨ] qui ne doivent pas être confondus. Ne prononcez pas le 'o' de 'quatro' comme un 'o' ouvert français, mais plutôt comme un [u] très léger en fin de mot."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Zero",
+      "phonetic_api": "/ˈzɛɾu/",
+      "phonetic_simple": "ZÈ-ROO",
+      "translation": "Zéro",
+      "example_sentence": "O número começa com zero.",
+      "example_phonetic": "/u ˈnumɨɾu kuˈmɛsɐ kõ ˈzɛɾu/",
+      "example_translation": "Le numéro commence par zéro."
+    },
+    {
+      "word_id": "v2",
+      "term": "Um / Uma",
+      "phonetic_api": "/ũ/ / ˈumɐ/",
+      "phonetic_simple": "OONG / OO-MAH",
+      "translation": "Un / Une",
+      "example_sentence": "Tenho um irmão e uma irmã.",
+      "example_phonetic": "/ˈteɲu ũ iɾˈmɐ̃w i ˈumɐ iɾˈmɐ̃/",
+      "example_translation": "J'ai un frère et une sœur."
+    },
+    {
+      "word_id": "v3",
+      "term": "Dois / Duas",
+      "phonetic_api": "/dojʃ/ / ˈduɐʃ/",
+      "phonetic_simple": "DOYCH / DOO-ACH",
+      "translation": "Deux",
+      "example_sentence": "Ele tem dois carros.",
+      "example_phonetic": "/ˈelɨ tɐ̃j dojʃ ˈkaʁuʃ/",
+      "example_translation": "Il a deux voitures."
+    },
+    {
+      "word_id": "v4",
+      "term": "Três",
+      "phonetic_api": "/tɾeʃ/",
+      "phonetic_simple": "TRAYCH",
+      "translation": "Trois",
+      "example_sentence": "A mesa tem três cadeiras.",
+      "example_phonetic": "/ɐ ˈmezɐ tɐ̃j tɾeʃ kɐˈðɐjɾɐʃ/",
+      "example_translation": "La table a trois chaises."
+    },
+    {
+      "word_id": "v5",
+      "term": "Quatro",
+      "phonetic_api": "/ˈkwatɾu/",
+      "phonetic_simple": "KWA-TROO",
+      "translation": "Quatre",
+      "example_sentence": "São quatro horas.",
+      "example_phonetic": "/sɐ̃w ˈkwatɾu ˈɔɾɐʃ/",
+      "example_translation": "Il est quatre heures."
+    },
+    {
+      "word_id": "v6",
+      "term": "Cinco",
+      "phonetic_api": "/ˈsĩku/",
+      "phonetic_simple": "SEEN-KOO",
+      "translation": "Cinq",
+      "example_sentence": "O bilhete custa cinco euros.",
+      "example_phonetic": "/u biˈʎetɨ ˈkuʃtɐ ˈsĩku ˈewɾuʃ/",
+      "example_translation": "Le billet coûte cinq euros."
+    },
+    {
+      "word_id": "v7",
+      "term": "Dez",
+      "phonetic_api": "/dɛʃ/",
+      "phonetic_simple": "DÈCH",
+      "translation": "Dix",
+      "example_sentence": "O menino tem dez anos.",
+      "example_phonetic": "/u mɨˈninu tɐ̃j dɛʃ ˈɐnuʃ/",
+      "example_translation": "Le garçon a dix ans."
+    },
+    {
+      "word_id": "v8",
+      "term": "Cem",
+      "phonetic_api": "/sɐ̃j/",
+      "phonetic_simple": "SENG",
+      "translation": "Cent",
+      "example_sentence": "A página número cem.",
+      "example_phonetic": "/ɐ ˈpaʒinɐ ˈnumɨɾu sɐ̃j/",
+      "example_translation": "La page numéro cent."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Qual é o teu número de telefone?",
+      "phonetic_api": "/kwaɫ ɛ u tew ˈnumɨɾu dɨ tɨlɨˈfɔnɨ/",
+      "phonetic_simple": "KWAHL É OO TEW NOO-M'H-ROO D'H T'H-L'H-FÓ-N'H",
+      "translation": "Quel est ton numéro de téléphone ?",
+      "context": "Demander les coordonnées à un ami ou un collègue."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Quanto custa isto?",
+      "phonetic_api": "/ˈkwɐ̃tu ˈkuʃtɐ ˈiʃtu/",
+      "phonetic_simple": "KWAN-TOO KOOCH-TAH EECH-TOO",
+      "translation": "Combien coûte ceci ?",
+      "context": "Utile pour demander un prix dans un magasin."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "São vinte e cinco euros, por favor.",
+      "phonetic_api": "/sɐ̃w ˈvĩtɨ i ˈsĩku ˈewɾuʃ puɾ fɐˈvoɾ/",
+      "phonetic_simple": "SANG VEEN-T'H EE SEEN-KOO EW-ROOCH POOR FAH-VOR",
+      "translation": "Ça fait vingt-cinq euros, s'il vous plaît.",
+      "context": "Phrase typique prononcée par un commerçant au moment de payer."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Tenho o número dois.",
+      "phonetic_api": "/ˈteɲu u ˈnumɨɾu dojʃ/",
+      "phonetic_simple": "TAY-NYOO OO NOO-M'H-ROO DOYCH",
+      "translation": "J'ai le numéro deux.",
+      "context": "Dans une file d'attente ou un jeu."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Pode repetir os números?",
+      "phonetic_api": "/ˈpɔðɨ ʁɨpɨˈtiɾ uʃ ˈnumɨɾuʃ/",
+      "phonetic_simple": "PÓ-D'H R'H-P'H-TEER OO(CH) NOO-M'H-ROOCH",
+      "translation": "Pouvez-vous répéter les chiffres ?",
+      "context": "Lorsque la dictée d'un numéro a été trop rapide."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Eu moro no número trinta.",
+      "phonetic_api": "/ew ˈmɔɾu nu ˈnumɨɾu ˈtɾĩtɐ/",
+      "phonetic_simple": "EW MÓ-ROO NOO NOO-M'H-ROO TREEN-TAH",
+      "translation": "J'habite au numéro trente.",
+      "context": "Indiquer son adresse postale."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "A minha mãe tem cinquenta anos.",
+      "phonetic_api": "/ɐ ˈmiɲɐ mɐ̃j tɐ̃j sĩˈkwẽtɐ ˈɐnuʃ/",
+      "phonetic_simple": "AH MEE-NYAH MAING TENG SEEN-KWEN-TAH AH-NOOCH",
+      "translation": "Ma mère a cinquante ans.",
+      "context": "Donner l'âge d'un membre de la famille."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Um, dois, três, quatro, cinco.",
+      "phonetic_api": "/ũ dojʃ tɾeʃ ˈkwatɾu ˈsĩku/",
+      "phonetic_simple": "OONG DOYCH TRAYCH KWA-TROO SEEN-KOO",
+      "translation": "Un, deux, trois, quatre, cinq.",
+      "context": "Comptage simple et rapide."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accord en genre des chiffres 1 et 2",
+      "explanation": "Contrairement au français où seul le chiffre 'un' s'accorde (un, une), en portugais les chiffres un (1) et deux (2) s'accordent obligatoirement en genre avec le nom qu'ils quantifient.",
+      "rules": [
+        "Chiffre 1 : 'Um' devant un nom masculin, 'Uma' devant un nom féminin.",
+        "Chiffre 2 : 'Dois' devant un nom masculin, 'Duas' devant un nom féminin."
+      ],
+      "examples": [
+        {
+          "structure": "Dois livros / Duas casas",
+          "phonetic_api": "/dojʃ ˈlivɾuʃ/ / ˈduɐʃ ˈkazɐʃ/",
+          "meaning": "Deux livres / Deux maisons"
+        },
+        {
+          "structure": "Um ano / Uma semana",
+          "phonetic_api": "/ũ ˈɐnu/ / ˈumɐ sɨˈmɐnɐ/",
+          "meaning": "Un an / Une semaine"
+        }
+      ]
+    },
+    {
+      "concept": "La conjonction 'e' dans les dizaines",
+      "explanation": "Pour lier les dizaines et les unités au-dessus de vingt, on utilise systématiquement la conjonction 'e' (et), ce qui diffère de la structure française avec un trait d'union.",
+      "rules": [
+        "Vinte e um (21)",
+        "Trinta e dois (32)",
+        "Quarenta e cinco (45)"
+      ],
+      "examples": [
+        {
+          "structure": "Vinte e dois amigos",
+          "phonetic_api": "/ˈvĩtɨ i ˈdojʃ ɐˈmiɣuʃ/",
+          "meaning": "Vingt-deux amis"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Pedro",
+      "text": "Qual é o teu número de telefone, Ana?",
+      "phonetic_api": "/kwaɫ ɛ u tew ˈnumɨɾu dɨ tɨlɨˈfɔnɨ ˈanɐ/",
+      "phonetic_simple": "KWAHL É OO TEW NOO-M'H-ROO D'H T'H-L'H-FÓ-N'H AH-NAH",
+      "translation": "Quel est ton numéro de téléphone, Ana ?"
+    },
+    {
+      "speaker": "Ana",
+      "text": "É o nove um dois, três quatro cinco, seis sete oito.",
+      "phonetic_api": "/ɛ u ˈnɔvɨ ũ dojʃ tɾeʃ ˈkwatɾu ˈsĩku sejʃ ˈsɛtɨ ˈojtu/",
+      "phonetic_simple": "É OO NÓ-V'H OONG DOYCH TRAYCH KWA-TROO SEEN-KOO SEYCH SÈ-T'H OY-TOO",
+      "translation": "C'est le 912, 345, 678."
+    },
+    {
+      "speaker": "Pedro",
+      "text": "Nove um dois... podes repetir os últimos três números?",
+      "phonetic_api": "/ˈnɔvɨ ũ dojʃ ˈpɔðɨʃ ʁɨpɨˈtiɾ uʃ ˈuɫtimuʃ tɾeʃ ˈnumɨɾuʃ/",
+      "phonetic_simple": "NÓ-V'H OONG DOYCH PÓ-D'HCH R'H-P'H-TEER OO(CH) OOL-TEE-MOOCH TRAYCH NOO-M'H-ROOCH",
+      "translation": "912... tu peux répéter les trois derniers chiffres ?"
+    },
+    {
+      "speaker": "Ana",
+      "text": "Sim, seis, sete, oito. Tens um papel?",
+      "phonetic_api": "/sɐ̃j sejʃ ˈsɛtɨ ˈojtu tɐ̃jʃ ũ pɐˈpɛɫ/",
+      "phonetic_simple": "SEENG SEYCH SÈ-T'H OY-TOO TENGCH OONG PAH-PEL",
+      "translation": "Oui, six, sept, huit. Tu as un papier ?"
+    }
+  ],
+  "cultural_notes": [
+    "Au Portugal, les numéros de téléphone portable commencent pratiquement tous par le chiffre 9 (principalement 91, 92, 93 ou 96) et comptent 9 chiffres au total.",
+    "Lorsqu'on épelle ou dicte des nombres au marché, l'utilisation de 'duas' pour les objets féminins (comme les pommes : 'duas maçãs') est une erreur fréquente chez les débutants qu'il faut absolument surveiller."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment traduit-on correctement l'expression 'Deux filles' ?",
+      "options": [
+        "Dois filhas",
+        "Duas filhas",
+        "Dois filha"
+      ],
+      "correct_answer": "Duas filhas",
+      "explanation": "Le mot 'filha' est féminin pluriel, le chiffre deux doit donc s'accorder au féminin et devenir 'duas'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour écrire le nombre 35 en toutes lettres, on écrit : trinta [ ___ ] cinco.",
+      "correct_answer": "e",
+      "hint": "La conjonction 'et' en portugais"
+    }
+  ]
+}

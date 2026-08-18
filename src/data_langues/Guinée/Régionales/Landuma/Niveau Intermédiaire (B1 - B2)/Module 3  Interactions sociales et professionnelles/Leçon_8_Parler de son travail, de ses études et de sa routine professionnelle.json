@@ -1,0 +1,116 @@
+{
+  "lesson_id": "B1_M3_L8",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 8,
+  "title": "Parler de son travail, de ses études et de sa routine",
+  "learning_objectives": [
+    "Décrire les activités répétitives et les tâches de sa journée professionnelle",
+    "Parler de son parcours d'apprentissage, de formation ou de scolarisation",
+    "Énumérer les gestes liés aux métiers traditionnels de l'agriculture ou du commerce"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'articulation du phonème vibratoire simple /r/ doit être exempte de toute friction uvulaire postérieure, la langue battant brièvement les alvéoles.",
+    "common_pitfalls": "Attention à ne pas télescoper la voyelle préfixale du métier avec la fin du pronom sujet lors de l'énoncé de la routine."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v17_1",
+      "term": "kar",
+      "phonetic_api": "/kar/",
+      "phonetic_simple": "KAR",
+      "translation": "étudier / lire / apprendre",
+      "example_sentence": "wuto mɔ kar ka karka",
+      "example_phonetic": "/wu.to mɔ kar ka kar.ka/",
+      "example_translation": "L'enfant étudie à la maison."
+    },
+    {
+      "word_id": "v17_2",
+      "term": "wali",
+      "phonetic_api": "/wa.li/",
+      "phonetic_simple": "WA-LI",
+      "translation": "travail / emploi / action productive",
+      "example_sentence": "mbi pa wali kɔn",
+      "example_phonetic": "/mbi pa wa.li kɔn/",
+      "example_translation": "J'aime mon travail."
+    },
+    {
+      "word_id": "v17_3",
+      "term": "kafu",
+      "phonetic_api": "/ka.fu/",
+      "phonetic_simple": "KA-FOU",
+      "translation": "cultiver / champ / terre agricole",
+      "example_sentence": "baba kɔn mɔ ka kafu",
+      "example_phonetic": "/ba.ba kɔn mɔ ka ka.fu/",
+      "example_translation": "Mon père est au champ."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p17_1",
+      "original": "mbi kɔn ka wali kisin kisin tɛkɛ",
+      "phonetic_api": "/mbi kɔn ka wa.li ki.sin ki.sin tɛ.kɛ/",
+      "phonetic_simple": "MBI KON KA WA-LI KI-SIN KI-SIN TÈ-KÈ",
+      "translation": "Je vais travailler tranquillement aujourd'hui",
+      "context": "Informer sa famille de son départ pour ses corvées ou son activité quotidienne."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la routine par la construction locative 'ka'",
+      "explanation": "Pour décrire une routine ou une occupation régulière sans marqueurs d'aspect progressif spécifiques, le landouma recourt à l'énoncé indicatif neutre où le relateur 'ka' lie le sujet à l'action ou au lieu de production habituel.",
+      "rules": [
+        "Le substantif du métier ou de la tâche suit directement le marqueur d'ancrage locatif 'ka'.",
+        "La structure reste invariable pour exprimer une vérité générale liée à l'emploi du temps."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + ka + Activité",
+          "phonetic_api": "/mbi ka ka.fu/",
+          "meaning": "Je suis aux travaux des champs (je cultive régulièrement)."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "dɛ mɔ kɔn ka wali tɛkɛ ?",
+      "phonetic_api": "/dɛ mɔ kɔn ka wa.li tɛ.kɛ/",
+      "phonetic_simple": "DÈ MO KON KA WA-LI TÈ-KÈ ?",
+      "translation": "Où vas-tu travailler aujourd'hui ?"
+    },
+    {
+      "speaker": "Amadou",
+      "text": "mbi kɔn ka kafu. baba kɔn mɔ lɔndɔ ka wali tsinn.",
+      "phonetic_api": "/mbi kɔn ka ka.fu ba.ba kɔn mɔ lɔn.dɔ ka wa.li t͡sinː/",
+      "phonetic_simple": "MBI KON KA KA-FOU. BA-BA KON MO LON-DO KA WA-LI TSINN",
+      "translation": "Je vais au champ. Mon père y a déjà travaillé hier."
+    }
+  ],
+  "cultural_notes": [
+    "Le cycle du travail en pays landouma est fortement structuré autour de la riziculture de mangrove et de la récolte des noix de palme, nécessitant des efforts communautaires coordonnés selon les saisons."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex17_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le mot 'kafu' ?",
+      "options": [
+        "Le champ / cultiver",
+        "L'école / lire",
+        "La boutique / vendre"
+      ],
+      "correct_answer": "Le champ / cultiver",
+      "explanation": "'kafu' renvoie aux espaces de production agricole essentiels à la subsistance villageoise."
+    },
+    {
+      "exercise_id": "ex17_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "mbi kɔn ka [ ___ ] tɛkɛ (Je vais au travail aujourd'hui)",
+      "correct_answer": "wali",
+      "hint": "Le substantif désignant l'action de travailler ou la tâche productive."
+    }
+  ]
+}

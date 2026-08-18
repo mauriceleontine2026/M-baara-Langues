@@ -1,0 +1,355 @@
+{
+  "lesson_id": "A1_M2_L6_ENRICHED",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer, orthographier et prononcer les sept jours de la semaine",
+    "Maîtriser l'ordre chronologique et la phonétique des douze mois de l'année",
+    "Demander et indiquer l'heure courante en utilisant le système sur 12 heures et sur 24 heures",
+    "Utiliser les prépositions de temps correctes (en, au, à) pour situer un événement dans le temps"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "1. Le suffixe /di/ commun aux jours de la semaine (lundi, mardi...) se prononce de manière brève, tendue et nette. 2. Le son /œʁ/ dans 'heure' (/œʁ/) exige que les lèvres soient bien arrondies vers l'avant. 3. Les voyelles nasales omniprésentes dans les mois : /ɑ̃/ pour 'janvier' (/ʒɑ̃vje/), 'septembre' (/sɛptɑ̃bʁ/), 'novembre' (/nɔvɑ̃bʁ/), 'décembre' (/desɑ̃bʁ/) ; la nasale /ɛ̃/ pour 'juin' (/ʒɥɛ̃/) et le début de 'intermédiaire'. L'air doit glisser librement par les fosses nasales.",
+    "common_pitfalls": "1. Prononcer le 's' final de 'mars' : contrairement à la majorité des consonnes finales muettes en français, le 's' de 'mars' s'articule obligatoirement (/maʁs/). 2. Confondre 'demi' et 'demie' : à l'oral, la prononciation est identique (/dəmi/), mais l'accord change à l'écrit après le mot heure (ex: une heure et demie). 3. Prononcer le 't' final de 'juillet' ou 'août' : le 't' de juillet est muet (/ʒɥijɛ/), tandis que pour 'août', le 't' peut s'entendre (/ut/) ou être muet (/u/) selon les régions françaises."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_l6",
+      "term": "lundi",
+      "phonetic_api": "/lœ̃di/",
+      "phonetic_simple": "LUN-DEE",
+      "translation": "Monday",
+      "example_sentence": "Le lundi, je commence le travail à huit heures.",
+      "example_phonetic": "/lə lœ̃di ʒə kɔmɑ̃s lə tʁavaj a ɥit_œʁ/",
+      "example_translation": "On Mondays, I start work at eight o'clock."
+    },
+    {
+      "word_id": "v2_l6",
+      "term": "mardi",
+      "phonetic_api": "/maʁdi/",
+      "phonetic_simple": "MAR-DEE",
+      "translation": "Tuesday",
+      "example_sentence": "Nous avons une réunion importante ce mardi.",
+      "example_phonetic": "/nuz_avɔ̃ yn ʁeynjɔ̃ ɛ̃pɔʁtɑ̃t sə maʁdi/",
+      "example_translation": "We have an important meeting this Tuesday."
+    },
+    {
+      "word_id": "v3_l6",
+      "term": "mercredi",
+      "phonetic_api": "/mɛʁkʁədi/",
+      "phonetic_simple": "MERR-KREU-DEE",
+      "translation": "Wednesday",
+      "example_sentence": "Les enfants n'ont pas d'école le mercredi après-midi.",
+      "example_phonetic": "/le z_ɑ̃fɑ̃ nɔ̃ paz_dəkɔl lə mɛʁkʁədi apʁɛmidi/",
+      "example_translation": "Children don't have school on Wednesday afternoons."
+    },
+    {
+      "word_id": "v4_l6",
+      "term": "jeudi",
+      "phonetic_api": "/ʒødi/",
+      "phonetic_simple": "JEU-DEE",
+      "translation": "Thursday",
+      "example_sentence": "Je fais les courses le jeudi soir.",
+      "example_phonetic": "/ʒə fɛ le kuʁs lə ʒødi swaʁ/",
+      "example_translation": "I do the grocery shopping on Thursday evenings."
+    },
+    {
+      "word_id": "v5_l6",
+      "term": "vendredi",
+      "phonetic_api": "/vɑ̃dʁədi/",
+      "phonetic_simple": "VAN-DREU-DEE",
+      "translation": "Friday",
+      "example_sentence": "Le vendredi sonne le début du week-end.",
+      "example_phonetic": "/lə vɑ̃dʁədi sɔn lə deby dy wikɛnd/",
+      "example_translation": "Friday marks the beginning of the weekend."
+    },
+    {
+      "word_id": "v6_l6",
+      "term": "samedi",
+      "phonetic_api": "/samdi/",
+      "phonetic_simple": "SAM-DEE",
+      "translation": "Saturday",
+      "example_sentence": "Le samedi, je dîne au restaurant avec mes amis.",
+      "example_phonetic": "/lə samdi ʒə din o ʁɛstɔʁɑ̃ avɛk me zami/",
+      "example_translation": "On Saturdays, I have dinner at a restaurant with my friends."
+    },
+    {
+      "word_id": "v7_l6",
+      "term": "dimanche",
+      "phonetic_api": "/dimɑ̃ʃ/",
+      "phonetic_simple": "DEE-MANSH",
+      "translation": "Sunday",
+      "example_sentence": "Le dimanche est un jour de repos en famille.",
+      "example_phonetic": "/lə dimɑ̃ʃ ɛt_œ̃ ʒuʁ də ʁəpo ɑ̃ famij/",
+      "example_translation": "Sunday is a day of rest with the family."
+    },
+    {
+      "word_id": "v8_l6",
+      "term": "janvier",
+      "phonetic_api": "/ʒɑ̃vje/",
+      "phonetic_simple": "JAN-VIE",
+      "translation": "January",
+      "example_sentence": "L'année commence toujours en janvier.",
+      "example_phonetic": "/lane kɔmɑ̃s tuʒuʁ ɑ̃ ʒɑ̃vje/",
+      "example_translation": "The year always begins in January."
+    },
+    {
+      "word_id": "v9_l6",
+      "term": "février",
+      "phonetic_api": "/fevʁije/",
+      "phonetic_simple": "FE-VREE-E",
+      "translation": "February",
+      "example_sentence": "Février est le mois le plus court de l'année.",
+      "example_phonetic": "/fevʁije ɛ lə mwa lə ply kuʁ də lane/",
+      "example_translation": "February is the shortest month of the year."
+    },
+    {
+      "word_id": "v10_l6",
+      "term": "mars",
+      "phonetic_api": "/maʁs/",
+      "phonetic_simple": "MARS",
+      "translation": "March",
+      "example_sentence": "Le printemps commence au mois de mars.",
+      "example_phonetic": "/lə pʁɛ̃tɑ̃ kɔmɑ̃s o mwa də maʁs/",
+      "example_translation": "Spring begins in the month of March."
+    },
+    {
+      "word_id": "v11_l6",
+      "term": "avril",
+      "phonetic_api": "/avʁil/",
+      "phonetic_simple": "A-VREEL",
+      "translation": "April",
+      "example_sentence": "Ne te découvre pas d'un fil en avril.",
+      "example_phonetic": "/nə tə dekuvʁə pa dœ̃ fil ɑ̃n_avʁil/",
+      "example_translation": "Don't cast off a clout till April is out."
+    },
+    {
+      "word_id": "v12_l6",
+      "term": "mai",
+      "phonetic_api": "/mɛ/",
+      "phonetic_simple": "ME",
+      "translation": "May",
+      "example_sentence": "En mai, fais ce qu'il te plaît.",
+      "example_phonetic": "/ɑ̃ mɛ fɛ sə kil tə plɛ/",
+      "example_translation": "In May, do as you please."
+    },
+    {
+      "word_id": "v13_l6",
+      "term": "juin",
+      "phonetic_api": "/ʒɥɛ̃/",
+      "phonetic_simple": "JUI-N",
+      "translation": "June",
+      "example_sentence": "L'été commence à la fin du mois de juin.",
+      "example_phonetic": "/lete kɔmɑ̃s a la fɛ̃ dy mwa də ʒɥɛ̃/",
+      "example_translation": "Summer begins at the end of the month of June."
+    },
+    {
+      "word_id": "v14_l6",
+      "term": "juillet",
+      "phonetic_api": "/ʒɥijɛ/",
+      "phonetic_simple": "JUI-YE",
+      "translation": "July",
+      "example_sentence": "La fête nationale française est en juillet.",
+      "example_phonetic": "/la fɛt nasjɔnal fʁɑ̃sɛz ɛt_ɑ̃ ʒɥijɛ/",
+      "example_translation": "The French national holiday is in July."
+    },
+    {
+      "word_id": "v15_l6",
+      "term": "août",
+      "phonetic_api": "/ut/",
+      "phonetic_simple": "OUT",
+      "translation": "August",
+      "example_sentence": "Beaucoup de Français partent en vacances en août.",
+      "example_phonetic": "/boku də fʁɑ̃sɛ paʁt ɑ̃ vakɑ̃s ɑ̃n_ut/",
+      "example_translation": "Many French people go on vacation in August."
+    },
+    {
+      "word_id": "v16_l6",
+      "term": "septembre",
+      "phonetic_api": "/sɛptɑ̃bʁ/",
+      "phonetic_simple": "SEP-TAMBR",
+      "translation": "September",
+      "example_sentence": "La rentrée des classes a lieu en septembre.",
+      "example_phonetic": "/la ʁɑ̃tʁe de klas a ljø ɑ̃ sɛptɑ̃bʁ/",
+      "example_translation": "The return to school takes place in September."
+    },
+    {
+      "word_id": "v17_l6",
+      "term": "octobre",
+      "phonetic_api": "/ɔktɔbʁ/",
+      "phonetic_simple": "OK-TOBR",
+      "translation": "October",
+      "example_sentence": "Les feuilles des arbres tombent en octobre.",
+      "example_phonetic": "/le fœj de z_aʁbʁə tɔ̃b ɑ̃n_ɔktɔbʁ/",
+      "example_translation": "The leaves of the trees fall in October."
+    },
+    {
+      "word_id": "v18_l6",
+      "term": "novembre",
+      "phonetic_api": "/nɔvɑ̃bʁ/",
+      "phonetic_simple": "NO-VAMBR",
+      "translation": "November",
+      "example_sentence": "Le temps est souvent gris et pluvieux en novembre.",
+      "example_phonetic": "/lə tɑ̃ ɛ suvɑ̃ ɡʁi e plyvjø ɑ̃ nɔvɑ̃bʁ/",
+      "example_translation": "The weather is often gray and rainy in November."
+    },
+    {
+      "word_id": "v19_l6",
+      "term": "décembre",
+      "phonetic_api": "/desɑ̃bʁ/",
+      "phonetic_simple": "DE-SAMBR",
+      "translation": "December",
+      "example_sentence": "Noël est célébré le vingt-cinq décembre.",
+      "example_phonetic": "/nɔɛl ɛ selebʁe lə vɛ̃tsɛ̃k desɑ̃bʁ/",
+      "example_translation": "Christmas is celebrated on December twenty-fifth."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_l6",
+      "original": "Quelle heure est-il ?",
+      "phonetic_api": "/kɛl_œʁ ɛt_il/",
+      "phonetic_simple": "KEL EUR ET-IL",
+      "translation": "What time is it?",
+      "context": "La formule standard et universelle pour demander l'heure."
+    },
+    {
+      "phrase_id": "p2_l6",
+      "original": "Il est huit heures et quart.",
+      "phonetic_api": "/il ɛ ɥit_œʁ e kaʁ/",
+      "phonetic_simple": "IL E UI-TEUR E KAR",
+      "translation": "It is quarter past eight.",
+      "context": "Indiquer l'heure courante (système de 12 heures)."
+    },
+    {
+      "phrase_id": "p3_l6",
+      "original": "Le rendez-vous est à quatorze heures trente.",
+      "phonetic_api": "/lə ʁɑ̃devu ɛt_a katɔʁz_œʁ tʁɑ̃t/",
+      "phonetic_simple": "LEU RAN-DE-VOU ET-A KA-TORZ_EUR TRANT",
+      "translation": "The appointment is at 2:30 PM.",
+      "context": "Utilisation courante du format 24 heures (contexte professionnel/officiel)."
+    },
+    {
+      "phrase_id": "p4_l6",
+      "original": "Quel jour sommes-nous aujourd'hui ?",
+      "phonetic_api": "/kɛl ʒuʁ sɔm nu oʒuʁdɥi/",
+      "phonetic_simple": "KEL JOUR SOM NOU O-JOUR-DUI",
+      "translation": "What day is it today?",
+      "context": "Demander le jour de la semaine actuel."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du temps avec 'et quart', 'et demie' et 'moins le quart'",
+      "explanation": "Pour exprimer les fractions d'heure dans le système de 12 heures, le français emploie des structures idiomatiques spécifiques.",
+      "rules": [
+        "Pour les 15 minutes, on ajoute 'et quart' après l'heure. Exemple : 9h15 -> neuf heures et quart.",
+        "Pour les 30 minutes, on ajoute 'et demie' (au féminin pour s'accorder avec 'heure'). Exemple : 4h30 -> quatre heures et demie.",
+        "Pour les 45 minutes, on passe à l'heure suivante et on ajoute 'moins le quart'. Exemple : 10h45 -> onze heures moins le quart."
+      ],
+      "examples": [
+        {
+          "structure": "Il est deux heures et demie. (2h30)",
+          "phonetic_api": "/il ɛ dø z_œʁ e dəmiz/",
+          "meaning": "It is half past two."
+        },
+        {
+          "structure": "Il est sept heures moins le quart. (6h45)",
+          "phonetic_api": "/il ɛ sɛt_œʁ mwa lə kaʁ/",
+          "meaning": "It is quarter to seven."
+        }
+      ]
+    },
+    {
+      "concept": "Les prépositions de temps : À, En, Au devant les repères chronologiques",
+      "explanation": "Les repères temporels nécessitent l'emploi de prépositions distinctes selon qu'il s'agit d'une heure, d'un mois ou d'une saison.",
+      "rules": [
+        "On utilise la préposition 'À' devant une heure précise ou un moment fixe. Exemple : À midi, à huit heures.",
+        "On utilise la préposition 'En' devant l'ensemble des douze mois de l'année. Exemple : En janvier, en juin.",
+        "Pour la date complète chiffrée, on utilise simplement l'article défini 'Le' sans aucune préposition. Exemple : Le 14 juillet."
+      ],
+      "examples": [
+        {
+          "structure": "Mon anniversaire est en novembre.",
+          "phonetic_api": "/mɔ̃n_anivɛʁsɛʁ ɛt_ɑ̃ nɔvɑ̃bʁ/",
+          "meaning": "My birthday is in November."
+        },
+        {
+          "structure": "La réunion commence à dix heures.",
+          "phonetic_api": "/la ʁeynjɔ̃ kɔmɑ̃s a di zœʁ/",
+          "meaning": "The meeting starts at ten o'clock."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mélanie",
+      "text": "Excusez-moi Antoine, vous avez l'heure s'il vous plaît ? Notre train part bientôt.",
+      "phonetic_api": "/ɛkskyze mwa ɑ̃twan vuz_ave lœʁ sil vu plɛ nɔtʁə tʁɛ̃ paʁ bjɛ̃to/",
+      "phonetic_simple": "EX-KU-ZE MOA AN-TOAN, VOU-ZAVE L'EUR SEEL VOU PLE ? NOTR TRIN PAR BIEN-TO.",
+      "translation": "Excuse me Antoine, do you have the time please? Our train leaves soon."
+    },
+    {
+      "speaker": "Antoine",
+      "text": "Oui, bien sûr. Il est exactement onze heures moins le quart.",
+      "phonetic_api": "/wi bjɛ̃ syʁ il ɛt_ɛɡzaktəmɑ̃ ɔ̃z_œʁ mwa lə kaʁ/",
+      "phonetic_simple": "OUI, BIEN SUR. IL ET-EG-ZAK-TE-MAN ON-ZEUR MOAN LEU KAR.",
+      "translation": "Yes, of course. It is exactly quarter to eleven."
+    },
+    {
+      "speaker": "Mélanie",
+      "text": "Ah déjà ! Notre voyage pour Paris a lieu quel jour exactement ?",
+      "phonetic_api": "/a deʒa nɔtʁə vwajaj puʁ paʁi a ljø kɛl ʒuʁ ɛɡzaktəmɑ̃/",
+      "phonetic_simple": "A DE-JA ! NOTR VOUA-YAJ POUR PA-REE A LIEU KEL JOUR EG-ZAK-TE-MAN ?",
+      "translation": "Ah, already! Our trip to Paris takes place on what day exactly?"
+    },
+    {
+      "speaker": "Antoine",
+      "text": "Nous partons ce jeudi, le vingt-huit août.",
+      "phonetic_api": "/nu paʁtɔ̃ sə ʒødi lə vɛ̃t_ɥi t_ut/",
+      "phonetic_simple": "NOU PAR-TON SEU JEU-DEE, LEU VINT-UI OUT.",
+      "translation": "We are leaving this Thursday, August twenty-eighth."
+    }
+  ],
+  "cultural_notes": [
+    "La graphie des repères temporels : En français, les noms des sept jours de la semaine et des douze mois s'écrivent obligatoirement avec une lettre minuscule initiale, sauf s'ils ouvrent une phrase ou désignent un événement historique précis (ex: le 14 Juillet).",
+    "L'heure officielle vs informelle : La France utilise le format 24 heures pour toute sa planification officielle, les billets de transports, le cinéma et le travail (ex: Le train part à 15h45 / 'quinze heures quarante-cinq'). À l'oral amical, on privilégie l'expression sur 12 heures ('quatre heures moins le quart de l'après-midi')."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_l6",
+      "type": "multiple_choice",
+      "question": "Quel jour se situe immédiatement entre le vendredi et le dimanche ?",
+      "options": [
+        "jeudi",
+        "samedi",
+        "lundi"
+      ],
+      "correct_answer": "samedi",
+      "explanation": "L'ordre strict de la semaine française est : lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche."
+    },
+    {
+      "exercise_id": "ex2_l6",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le premier mois de l'année civile s'appelle [ ___ ].",
+      "correct_answer": "janvier",
+      "hint": "Il comporte 31 jours et commence juste après la fête du Nouvel An."
+    },
+    {
+      "exercise_id": "ex3_l6",
+      "type": "multiple_choice",
+      "question": "Quelle est la prononciation phonétique correcte du mot 'mars' ?",
+      "options": [
+        "/maʁ/",
+        "/maʁs/",
+        "/mas/"
+      ],
+      "correct_answer": "/maʁs/",
+      "explanation": "Le 's' final du mois de mars déroge à la règle des consonnes finales muettes et doit obligatoirement être prononcé."
+    }
+  ]
+}

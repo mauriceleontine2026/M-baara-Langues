@@ -1,0 +1,157 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché ou au restaurant)",
+  "learning_objectives": [
+    "Identifier les aliments de base et les boissons courantes en kissi",
+    "Exprimer le besoin de manger ou de boire",
+    "Formuler une demande polie pour acheter ou commander de la nourriture"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La nasale finale dans le mot 'mɛŋ' (eau) s'articule par une résonance douce /mɛ̃/. Le digramme 'ny' dans 'nyɔɔ' (nourriture) se prononce comme une consonne nasale palatale /ɲ/.",
+    "common_pitfalls": "Ne prononcez pas le 'ng' de 'kɔlɔng' de manière détachée. C'est un son nasal vélaire /ŋ/ unique à la toute fin de l'émission sonore."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v8_1",
+      "term": "nyɔɔ",
+      "phonetic_api": "/ɲɔː/",
+      "phonetic_simple": "NYOO",
+      "translation": "nourriture / manger",
+      "example_sentence": "Nyɔɔ o co kpou.",
+      "example_phonetic": "/ɲɔː o tʃo kpu/",
+      "example_translation": "La nourriture est bonne."
+    },
+    {
+      "word_id": "v8_2",
+      "term": "mɛŋ",
+      "phonetic_api": "/mɛ̃/",
+      "phonetic_simple": "MENG",
+      "translation": "eau / boisson",
+      "example_sentence": "I mɛl mɛŋ.",
+      "example_phonetic": "/i mɛl mɛ̃/",
+      "example_translation": "Je bois de l'eau."
+    },
+    {
+      "word_id": "v8_3",
+      "term": "biyɛ",
+      "phonetic_api": "/bi.jɛ/",
+      "phonetic_simple": "BI-YÈ",
+      "translation": "riz",
+      "example_sentence": "Co mi biyɛ ni.",
+      "example_phonetic": "/tʃo mi bi.jɛ ni/",
+      "example_translation": "Donne-moi du riz."
+    },
+    {
+      "word_id": "v8_4",
+      "term": "kɔlɔng",
+      "phonetic_api": "/kɔ.lɔŋ/",
+      "phonetic_simple": "KO-LONG",
+      "translation": "gourde / récipient / verre",
+      "example_sentence": "Kɔlɔng mɛŋ.",
+      "example_phonetic": "/kɔ.lɔŋ mɛ̃/",
+      "example_translation": "Un récipient d'eau."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p8_1",
+      "original": "I co nyɔɔ loolu.",
+      "phonetic_api": "/i tʃo ɲɔː loː.lu/",
+      "phonetic_simple": "I TCHO NYOO LOO-LOU",
+      "translation": "Je veux manger.",
+      "context": "Exprimer la faim"
+    },
+    {
+      "phrase_id": "p8_2",
+      "original": "Co mi biyɛ, maaluon.",
+      "phonetic_api": "/tʃo mi bi.jɛ maː.lu.õ/",
+      "phonetic_simple": "TCHO MI BI-YÈ MAA-LOU-ONN",
+      "translation": "Donne-moi du riz, s'il te plaît.",
+      "context": "Commander à manger"
+    },
+    {
+      "phrase_id": "p8_3",
+      "original": "Kpalaa o nɔ mi.",
+      "phonetic_api": "/k͡pa.laː o nɔ mi/",
+      "phonetic_simple": "KPALAA O NO MI",
+      "translation": "J'ai soif (Littéralement : La sécheresse me possède).",
+      "context": "Exprimer le besoin de boire"
+    },
+    {
+      "phrase_id": "p8_4",
+      "original": "Nyɔɔ kpou o co fiaa.",
+      "phonetic_api": "/ɲɔː k͡pu o tʃo fjaː/",
+      "phonetic_simple": "NYOO KPOU O TCHO FIA-A",
+      "translation": "Il y a beaucoup de nourriture.",
+      "context": "Au marché"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du désir ou du besoin avec 'co ... loolu'",
+      "explanation": "Pour formuler une intention volontaire ou un besoin immédiat d'action (comme manger ou boire), on utilise le verbe auxiliaire 'co' suivi de l'action principale, verrouillé par l'indicateur d'intention 'loolu'.",
+      "rules": [
+        "Le sujet se place en tout début d'énoncé.",
+        "L'action recherchée s'intercale directement avant la particule finale de projet ou d'envie."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + co + Action + loolu",
+          "phonetic_api": "/i tʃo ɲɔː loː.lu/",
+          "meaning": "Je souhaite manger."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Tamba",
+      "text": "Sia, i co nyɔɔ loolu.",
+      "phonetic_api": "/sja i tʃo ɲɔː loː.lu/",
+      "phonetic_simple": "SIA, I TCHO NYOO LOO-LOU",
+      "translation": "Sia, je veux manger."
+    },
+    {
+      "speaker": "Sia",
+      "text": "Biyɛ o co wa. Lɔ ni.",
+      "phonetic_api": "/bi.jɛ o tʃo wa lɔ ni/",
+      "phonetic_simple": "BI-YÈ O TCHO WA. LO NI",
+      "translation": "Le riz est là. Prends-en."
+    },
+    {
+      "speaker": "Tamba",
+      "text": "Bale fiaa, Sia.",
+      "phonetic_api": "/ba.le fjaː sja/",
+      "phonetic_simple": "BA-LÉ FIA-A, SIA",
+      "translation": "Merci beaucoup, Sia."
+    }
+  ],
+  "cultural_notes": [
+    "Le riz ('biyɛ') constitue la base absolue de l'alimentation en Guinée forestière et chez le peuple Kissi. Dire que l'on veut manger implique presque systématiquement la consommation de riz accompagné d'une sauce locale."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex8_1",
+      "type": "multiple_choice",
+      "question": "Que signifie le terme 'biyɛ' ?",
+      "options": [
+        "Le riz",
+        "L'eau",
+        "La viande"
+      ],
+      "correct_answer": "Le riz",
+      "explanation": "'Biyɛ' désigne le riz décortiqué ou cuit dans l'alimentation courante."
+    },
+    {
+      "exercise_id": "ex8_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "I mɛl [ ___ ]. (Je bois de l'eau)",
+      "correct_answer": "mɛŋ",
+      "hint": "Le mot liquide essentiel pour la vie"
+    }
+  ]
+}

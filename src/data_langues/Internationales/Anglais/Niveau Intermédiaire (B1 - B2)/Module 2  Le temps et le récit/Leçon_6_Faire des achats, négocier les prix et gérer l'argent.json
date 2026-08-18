@@ -1,0 +1,221 @@
+{
+  "lesson_id": "B1_M2_L6_v2",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 6,
+  "title": "Faire des achats, négocier les prix et gérer l'argent",
+  "learning_objectives": [
+    "Interagir avec assurance dans un contexte commercial ou bancaire",
+    "Utiliser le vocabulaire intermédiaire lié aux transactions, soldes et modes de paiement",
+    "Formuler des demandes de remboursement, d'échange ou négocier poliment un tarif",
+    "Maîtriser les structures idiomatiques et verbes à particule associés à la gestion de l'argent"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le lexique financier comporte plusieurs subtilités de prononciation. Le mot 'receipt' /rɪˈsiːt/ (ticket de caisse) contient un 'p' totalement muet ; il s'étire sur une voyelle longue tendue /iː/. Dans 'purchase' /ˈpɜːrtʃəs/, l'accent tonique est placé sur la première syllabe, ce qui réduit la seconde en un schwa /əs/ très discret. Pour le mot 'debt' /dɛt/ (dette), le 'b' ne se prononce jamais.",
+    "common_pitfalls": "Prononcer le 'p' dans 'receipt' ou le 'b' dans 'debt'. Mal accentuer 'purchase' en essayant de prononcer la fin du mot comme le verbe 'chase' (erreur fréquente). Prononcer la voyelle de 'cash' /kæʃ/ de manière trop fermée, proche du son 'é' français."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Receipt",
+      "phonetic_api": "/rɪˈsiːt/",
+      "phonetic_simple": "rɪ-SIIT",
+      "translation": "Ticket de caisse / Reçu",
+      "example_sentence": "Always keep your receipt in case you need to return the item.",
+      "example_phonetic": "/ˈɔːlweɪz kiːp jɔːr rɪˈsiːt ɪn keɪs juː niːd tuː rɪˈtɜːrn ði ˈaɪtəm/",
+      "example_translation": "Gardez toujours votre ticket de caisse au cas où vous auriez besoin de retourner l'article."
+    },
+    {
+      "word_id": "v2",
+      "term": "Refund",
+      "phonetic_api": "/ˈriːfʌnd/",
+      "phonetic_simple": "RII-fand",
+      "translation": "Remboursement",
+      "example_sentence": "The store refused to give me a refund because the product was on sale.",
+      "example_phonetic": "/ðə stɔːr rɪˈfjuːzd tuː ɡɪv miː ə ˈriːfʌnd bɪˈkɒz ðə ˈprɒdʌkt wɒz ɒn seɪl/",
+      "example_translation": "Le magasin a refusé de me rembourser car le produit était en solde."
+    },
+    {
+      "word_id": "v3",
+      "term": "Discount",
+      "phonetic_api": "/ˈdaɪskaʊnt/",
+      "phonetic_simple": "DAÏS-kaʊnt",
+      "translation": "Remise / Réduction / Rabais",
+      "example_sentence": "Students are entitled to a ten percent discount on books.",
+      "example_phonetic": "/ˈstjuːdənts ɑːr ɪnˈtaɪtəld tuː ə tɛn pəˈsɛnt ˈdaɪskaʊnt ɒn bʊks/",
+      "example_translation": "Les étudiants ont droit à une réduction de dix pour cent sur les livres."
+    },
+    {
+      "word_id": "v4",
+      "term": "Affordable",
+      "phonetic_api": "/əˈfɔːrdəbəl/",
+      "phonetic_simple": "ə-FOR-də-bəl",
+      "translation": "Abordable / Raisonnable (financièrement)",
+      "example_sentence": "They are looking for an affordable apartment near the city center.",
+      "example_phonetic": "/ðeɪ ɑːr ˈlʊkɪŋ fɔːr ən əˈfɔːrdəbəl əˈpɑːrtmənt nɪər ðə ˈsɪti ˈsɛntər/",
+      "example_translation": "Ils cherchent un appartement abordable près du centre-ville."
+    },
+    {
+      "word_id": "v5",
+      "term": "To rip off",
+      "phonetic_api": "/tuː rɪp ɒf/",
+      "phonetic_simple": "too rɪp ɒf",
+      "translation": "Arnaquer / Faire payer trop cher (familier)",
+      "example_sentence": "Tourists are often ripped off by unlicensed taxi drivers.",
+      "example_phonetic": "/ˈtʊərɪsts ɑːr ˈɒfən rɪpt ɒf baɪ ʌnˈlaɪsənst ˈtæksi ˈdraɪvərz/",
+      "example_translation": "Les touristes se font souvent arnaquer par des chauffeurs de taxi sans licence."
+    },
+    {
+      "word_id": "v6",
+      "term": "Currency",
+      "phonetic_api": "/ˈkʌrənsi/",
+      "phonetic_simple": "KA-rən-si",
+      "translation": "Devise / Monnaie (d'un pays)",
+      "example_sentence": "What is the official currency of Japan?",
+      "example_phonetic": "/wɒt ɪz ði əˈfɪʃəl ˈkʌrənsi ɒv dʒəˈpæn/",
+      "example_translation": "Quelle est la devise officielle du Japon ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Is this price negotiable?",
+      "phonetic_api": "/ɪz ðɪs praɪs nɪˈɡoʊʃəbəl/",
+      "phonetic_simple": "ɪz ðɪs praɪs nɪ-GOH-ʃə-bəl",
+      "translation": "Ce prix est-il négociable ?",
+      "context": "Utile sur les marchés, les brocantes ou lors d'achats importants de particulier à particulier."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "I am looking for a bargain",
+      "phonetic_api": "/aɪ æm ˈlʊkɪŋ fɔːr ə ˈbɑːrɡɪn/",
+      "phonetic_simple": "aɪ am LUK-iŋ fɔːr ə BAR-gɪn",
+      "translation": "Je cherche une bonne affaire",
+      "context": "Expression idiomatique pour signifier qu'on souhaite acheter au meilleur rapport qualité-prix."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Can I pay by installments?",
+      "phonetic_api": "/kæn aɪ peɪ baɪ ɪnˈstɔːlmənts/",
+      "phonetic_simple": "kæn aɪ peɪ baɪ ɪn-STOL-mənts",
+      "translation": "Puis-je payer en plusieurs fois / mensualités ?",
+      "context": "Demande de facilité de paiement lors d'un achat onéreux."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "It is a bit out of my budget",
+      "phonetic_api": "/ɪt ɪz ə bɪt aʊt ɒv maɪ ˈbʌdʒɪt/",
+      "phonetic_simple": "ɪt ɪz ə bɪt aʊt ɒv maɪ BAD-jɪt",
+      "translation": "C'est un peu au-dessus de mon budget",
+      "context": "Façon polie de refuser une offre commerciale trop coûteuse sans paraître impoli."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les verbes à particule (Phrasal Verbs) liés à l'argent",
+      "explanation": "La gestion financière utilise de nombreux verbes à particule incontournables au niveau intermédiaire. Leur sens change selon la particule prépositionnelle qui accompagne la base verbale.",
+      "rules": [
+        "Pay back -> Rembourser une dette (ex: I will pay you back tomorrow).",
+        "Save up -> Économiser de l'argent dans un but précis (ex: save up for a trip).",
+        "Rip off -> Faire payer un prix exorbitant (souvent passif : get ripped off)."
+      ],
+      "examples": [
+        {
+          "structure": "She is saving up for a new laptop.",
+          "phonetic_api": "/ʃiː ɪz ˈseɪvɪŋ ʌp fɔːr ə njuː ˈlæptɒp/",
+          "meaning": "Elle économise pour s'acheter un nouvel ordinateur portable."
+        }
+      ]
+    },
+    {
+      "concept": "L'usage des structures de concession pour négocier (Although, Even if)",
+      "explanation": "Pour argumenter lors d'une négociation de prix, on utilise des subordonnées de concession. Elles permettent de reconnaître un fait (la qualité, la beauté de l'objet) tout en opposant un argument financier restrictif.",
+      "rules": [
+        "Although / Even though + Proposition complète (ex: Although it's nice, it's too expensive).",
+        "Despite / In spite of + Groupe nominal ou V-ing (ex: Despite the high price, I bought it)."
+      ],
+      "examples": [
+        {
+          "structure": "Even though I like this coat, I can't afford it.",
+          "phonetic_api": "/ˈiːvən ðoʊ aɪ laɪk ðɪs koʊt aɪ kænt əˈfɔːrd ɪt/",
+          "meaning": "Même si j'aime ce manteau, je n'ai pas les moyens de me l'offrir."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Customer",
+      "text": "Excuse me, I bought this jacket last Tuesday, but when I got home, I noticed a small tear on the sleeve.",
+      "phonetic_api": "/ɪkˈskjuːz miː aɪ bɔːt ðɪs ˈdʒækɪt læst ˈtjuːzdeɪ bʌt wɛn aɪ ɡɒt hoʊm aɪ ˈnoʊtɪst ə smɔːl tɛər ɒn ðə sliːv/",
+      "phonetic_simple": "ik-SKYOUZ mi aɪ bɔt ðɪs DJAK-ɪt læst TIOUZ-deɪ bʌt wen aɪ gɒt hohm aɪ NOH-tɪst ə smɔl tɛər ɒn ðə sliiv",
+      "translation": "Excusez-moi, j'ai acheté cette veste mardi dernier, mais quand je suis rentré chez moi, j'ai remarqué une petite déchirure sur la manche."
+    },
+    {
+      "speaker": "Shop Assistant",
+      "text": "Oh, I am very sorry about that. Do you have your receipt with you?",
+      "phonetic_api": "/oʊ aɪ æm ˈvɛri ˈsɒri əˈbaʊt ðæt duː juː hæv jɔːr rɪˈsiːt wɪð juː/",
+      "phonetic_simple": "oʊ aɪ am VER-i SOR-i ə-BAʊT ðat doo yoo hæv yor rɪ-SIIT wɪð yoo",
+      "translation": "Oh, je suis vraiment désolée pour cela. Avez-vous votre ticket de caisse avec vous ?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, here it is. I would prefer a full refund if that is possible.",
+      "phonetic_api": "/jɛs hɪər ɪz ɪt aɪ wʊd prɪˈfɜːr ə fʊl ˈriːfʌnd ɪf ðæt ɪz ˈprɒsəbəl/",
+      "phonetic_simple": "jes hɪər ɪz ɪt aɪ wʊd prɪ-Fɜːr ə fʊl RII-fand ɪf ðat ɪz POS-ə-bəl",
+      "translation": "Oui, le voici. Je préférerais un remboursement complet si c'est possible."
+    },
+    {
+      "speaker": "Shop Assistant",
+      "text": "Unfortunately, our company policy only allows exchanges or store credit for items purchased during the sales. However, since the item is defective, I can offer you a fifteen percent discount on another purchase today.",
+      "phonetic_api": "/ʌnˈfɔːrtʃʊnətli ˈaʊər ˈkʌmpəni ˈpɒlɪsi ˈoʊnli əˈlaʊz ɪksˈtʃeɪndʒɪz ɔːr stɔːr ˈkrɛdɪt fɔːr ˈaɪtəmz ˈpɜːrtʃəst ˈdjʊərɪŋ ðə seɪlz haʊˈɛvər sɪns ði ˈaɪtəm ɪz dɪˈfɛktɪv aɪ kæn ˈɒfər juː ə ˌfɪfˈtiːn pəˈsɛnt ˈdaɪskaʊnt ɒn əˈnʌðər ˈpɜːrtʃəs təˈdeɪ/",
+      "phonetic_simple": "ʌn-FOR-tʃʊ-nət-li aʊər KAM-pə-ni POL-ɪ-si OHN-li ə-LAʊZ ɪks-TCHEINDJ-ɪz ɔːr stor KRED-ɪt fɔːr AÏ-təmz PUR-tʃəst DIʊər-iŋ ðə seɪlz haʊ-EV-ər sɪns ði AÏ-təm ɪz dɪ-FEK-tɪv aɪ kæn OF-ər yoo ə fɪf-TIIN pə-SENT DAÏS-kaʊnt ɒn ə-NA-ðər PUR-tʃəs tə-deɪ",
+      "translation": "Malheureusement, la politique de notre entreprise ne permet que les échanges ou les avoirs pour les articles achetés pendant les soldes. Cependant, comme l'article est défectueux, je peux vous proposer une remise de quinze pour cent sur un autre achat aujourd'hui."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Well, that sounds like a fair compromise. I will look around for a replacement.",
+      "phonetic_api": "/wɛl ðæt saʊndz laɪk ə fɛər ˈkɒmprəmaɪz aɪ wɪl lʊk əˈraʊnd fɔːr ə rɪˈpleɪsmənt/",
+      "phonetic_simple": "wel ðat saʊndz laɪk ə fɛər KOM-prə-maïz aɪ wɪl lʊk ə-RAʊND fɔːr ə rɪ-PLEIS-mənt",
+      "translation": "Eh bien, cela me semble être un compromis équitable. Je vais jeter un coup d'œil pour trouver un produit de remplacement."
+    }
+  ],
+  "cultural_notes": [
+    "L'art de la négociation (Haggling) : Dans la culture anglophone, négocier les prix ('haggling') est strictement interdit et mal vu dans les magasins traditionnels, les grands magasins ou les supermarchés où les prix sont fixes. En revanche, c'est une pratique courante et attendue dans les marchés aux puces ('flea markets'), lors de l'achat d'une voiture d'occasion ou d'un bien immobilier.",
+    "Store Credit vs Refund : Les politiques de retour au Royaume-Uni et aux États-Unis sont souvent très flexibles, mais attention à la nuance : un 'refund' vous restitue votre argent sur votre compte ou en espèces, tandis qu'un 'store credit' ou 'gift card' vous force à dépenser cette somme dans la même enseigne."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel mot contient une lettre muette et désigne la preuve d'un achat ?",
+      "options": [
+        "Discount",
+        "Purchase",
+        "Receipt"
+      ],
+      "correct_answer": "Receipt",
+      "explanation": "Le mot 'Receipt' contient un 'p' totalement muet à l'oral (/rɪˈsiːt/) et signifie 'ticket de caisse'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "I am trying to [ ___ ] up for a trip to New York next winter.",
+      "correct_answer": "save",
+      "hint": "Verbe à particule signifiant 'économiser de l'argent' lorsqu'il est suivi de 'up'."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie la phrase : 'This watch is a complete rip-off' ?",
+      "options": [
+        "Cette montre est une excellente affaire.",
+        "Cette montre est une véritable arnaque (trop chère pour ce que c'est).",
+        "Cette montre est en promotion."
+      ],
+      "correct_answer": "Cette montre est une véritable arnaque (trop chère pour ce que c'est).",
+      "explanation": "Le terme familier 'rip-off' qualifie un produit dont le prix est outrageusement exagéré par rapport à sa valeur réelle."
+    }
+  ]
+}

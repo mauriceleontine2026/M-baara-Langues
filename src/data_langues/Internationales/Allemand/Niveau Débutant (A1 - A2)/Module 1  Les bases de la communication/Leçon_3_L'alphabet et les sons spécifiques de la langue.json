@@ -1,0 +1,264 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Maîtriser la prononciation des lettres de l'alphabet allemand",
+    "Identifier et prononcer correctement les Umlauts (ä, ö, ü) et l'Eszett (ß)",
+    "Comprendre et appliquer les règles des principales diphtongues et digrammes",
+    "Savoir épeler son nom et son prénom"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'allemand possède 26 lettres standard, 3 voyelles à Umlaut (ä, ö, ü) et une consonne spéciale (ß). La prononciation implique une articulation plus tendue qu'en français. L'occlusion glottale (Knacklaut), un coup de glotte sec non écrit, précède obligatoirement chaque mot ou syllabe commençant par une voyelle accentuée.",
+    "common_pitfalls": "Attention à la lettre -v- qui se prononce [f] dans la majorité des mots d'origine germanique, et à la lettre -z- qui se prononce impérativement [ts]. Ne confondez pas le graphisme -ie- qui correspond à un [iː] long avec le graphisme -ei- qui est une diphtongue prononcée [aɪ̯]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "das Alphabet",
+      "phonetic_api": "/das alfaˈbeːt/",
+      "phonetic_simple": "DAS AL-FA-BEET",
+      "translation": "l'alphabet",
+      "example_sentence": "Das deutsche Alphabet hat sechsundzwanzig Buchstaben.",
+      "example_phonetic": "/das ˈdɔɪ̯tʃə alfaˈbeːt hat ˈzɛksʊntˌtsvantsɪç ˈbuːxˌʃtaːbn̩/",
+      "example_translation": "L'alphabet allemand compte vingt-six lettres."
+    },
+    {
+      "word_id": "v2",
+      "term": "buchstabieren",
+      "phonetic_api": "/buːxʃtaˈbiːʁən/",
+      "phonetic_simple": "BOUK-CHTA-BII-REN",
+      "translation": "épeler",
+      "example_sentence": "Können Sie das bitte buchstabieren?",
+      "example_phonetic": "/ˈkœnən ziː das ˈbɪtə buːxʃtaˈbiːʁən/",
+      "example_translation": "Pouvez-vous épeler cela s'il vous plaît ?"
+    },
+    {
+      "word_id": "v3",
+      "term": "der Buchstabe",
+      "phonetic_api": "/deːɐ̯ ˈbuːxˌʃtaːbə/",
+      "phonetic_simple": "DEER BOUK-CHTA-BE",
+      "translation": "la lettre",
+      "example_sentence": "Welcher Buchstabe ist das?",
+      "example_phonetic": "/ˈvɛlçɐ ˈbuːxˌʃtaːbə ɪst das/",
+      "example_translation": "Quelle lettre est-ce ?"
+    },
+    {
+      "word_id": "v4",
+      "term": "der Umlaut",
+      "phonetic_api": "/deːɐ̯ ˈʊmˌlaʊ̯t/",
+      "phonetic_simple": "DEER OUM-LAOUT",
+      "translation": "l'inflexion / la métaphonie (ä, ö, ü)",
+      "example_sentence": "Ein Umlaut verändert den Ton.",
+      "example_phonetic": "/aɪ̯n ˈʊmˌlaʊ̯t fɛɐ̯ˈʔɛndɐt deːn toːn/",
+      "example_translation": "Un umlaut modifie le son."
+    },
+    {
+      "word_id": "v5",
+      "term": "das Eszett",
+      "phonetic_api": "/das ɛsˈtsɛt/",
+      "phonetic_simple": "DAS ES-TSET",
+      "translation": "la lettre double s (ß)",
+      "example_sentence": "Das Wort 'groß' schreibt man mit Eszett.",
+      "example_phonetic": "/das vɔʁt ɡʁoːs ʃʁaɪ̯pt man mɪt ɛsˈtsɛt/",
+      "example_translation": "Le mot 'groß' s'écrit avec un Eszett."
+    },
+    {
+      "word_id": "v6",
+      "term": "der Name",
+      "phonetic_api": "/deːɐ̯ ˈnaːmə/",
+      "phonetic_simple": "DEER NA-ME",
+      "translation": "le nom",
+      "example_sentence": "Wie schreibt man Ihren Namen?",
+      "example_phonetic": "/viː ʃʁaɪ̯pt man ˈiːnən ˈnaːmən/",
+      "example_translation": "Comment écrit-on votre nom ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "der Vorname",
+      "phonetic_api": "/deːɐ̯ ˈfoːɐ̯ˌnaːmə/",
+      "phonetic_simple": "DEER FOOR-NA-ME",
+      "translation": "le prénom",
+      "example_sentence": "Mein Vorname ist Thomas.",
+      "example_phonetic": "/maɪ̯n ˈfoːɐ̯ˌnaːmə ɪst ˈtoːmas/",
+      "example_translation": "Mon prénom est Thomas."
+    },
+    {
+      "word_id": "v8",
+      "term": "sprechen",
+      "phonetic_api": "/ˈʃpʁɛçn̩/",
+      "phonetic_simple": "CHPRE-KEN",
+      "translation": "parler / prononcer",
+      "example_sentence": "Bitte sprechen Sie langsam.",
+      "example_phonetic": "/ˈbɪtə ˈʃpʁɛçn̩ ziː ˈlaŋzaːm/",
+      "example_translation": "S'il vous plaît, parlez lentement."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Wie sprichst du das aus?",
+      "phonetic_api": "/viː ʃpʁɪçst duː das ˈaʊ̯s/",
+      "phonetic_simple": "VII CHPRICHST DOU DAS AOFS",
+      "translation": "Comment prononces-tu cela ?",
+      "context": "Interroger un ami sur la prononciation d'un mot difficile."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Mein Name schreibt man mit einem 'Z'.",
+      "phonetic_api": "/maɪ̯n ˈnaːmə ʃʁaɪ̯pt man mɪt ˈaɪ̯nəm tsɛt/",
+      "phonetic_simple": "MAIN NA-ME CHRAIPT MAN MIT AI-NEM TSET",
+      "translation": "Mon nom s'écrit avec un 'Z'.",
+      "context": "Clarifier l'orthographe de son nom de famille."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Ist das ein 'i' oder ein 'e'?",
+      "phonetic_api": "/ɪst das aɪ̯n iː ˈoːdɐ aɪ̯n eː/",
+      "phonetic_simple": "IST DAS AIN II OO-DER AIN EE",
+      "translation": "Est-ce un 'i' ou un 'e' ?",
+      "context": "Demander des précisions lors d'une dictée ou d'une prise de note."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Können Sie Ihren Vornamen buchstabieren?",
+      "phonetic_api": "/ˈkœnən ziː ˈiːnən ˈfoːɐ̯ˌnaːmən buːxʃtaˈbiːʁən/",
+      "phonetic_simple": "KOE-NEN ZII II-NEN FOOR-NA-MEN BOUK-CHTA-BII-REN",
+      "translation": "Pouvez-vous épeler votre prénom ?",
+      "context": "Situation administrative à l'hôtel ou au téléphone."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Das Wort hat zwei Umlante.",
+      "phonetic_api": "/das vɔʁt hat tstvaɪ̯ ˈʊmˌlaʊ̯tə/",
+      "phonetic_simple": "DAS VORT HAT TSVAI OUM-LAOU-TE",
+      "translation": "Le mot contient deux trémas.",
+      "context": "Correction orthographique ou explication linguistique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La prononciation des lettres de l'alphabet et des Umlauts",
+      "explanation": "L'alphabet allemand comporte des similitudes graphiques avec le français mais se distingue nettement par sa réalisation orale, notamment pour les voyelles modifiées nommées Umlauts.",
+      "rules": [
+        "Les lettres clés de l'alphabet se nomment : A [aː], B [beː], C [tseː], E [eː], G [ɡeː], H [haː], J [jɔt], K [kaː], V [faʊ̯], W [veː], Z [tsɛt].",
+        "Le Ä / ä (A-Umlaut) se prononce comme un 'è' très ouvert [ɛ] ou [ɛː].",
+        "Le Ö / ö (O-Umlaut) se prononce comme le 'eu' français dans 'fleur' [œ] ou 'jeu' [ø].",
+        "Le Ü / ü (U-Umlaut) se prononce exactement comme le 'u' français [y].",
+        "La consonne ß (Eszett ou scharfes S) équivaut à un double s sourd. Elle n'existe qu'après une voyelle longue ou une diphtongue (ex: 'Straße', 'weiß')."
+      ],
+      "examples": [
+        {
+          "structure": "Käse (ä long)",
+          "phonetic_api": "/ˈkɛːzə/",
+          "meaning": "Fromage"
+        },
+        {
+          "structure": "Öffnen (ö court)",
+          "phonetic_api": "/ˈœfnən/",
+          "meaning": "Ouvrir"
+        },
+        {
+          "structure": "Fuß (ß après voyelle longue)",
+          "phonetic_api": "/fuːs/",
+          "meaning": "Pied"
+        }
+      ]
+    },
+    {
+      "concept": "Règles d'association des lettres (Diphtongues et Combinatoires)",
+      "explanation": "En allemand, la combinaison de certaines lettres génère un son unique et constant. La lecture est extrêmement phonétique dès lors que ces règles fixes sont assimilées.",
+      "rules": [
+        "Les groupes -ei- et -ai- forment la diphtongue [aɪ̯] (comme dans 'paille').",
+        "Les groupes -eu- et -äu- forment la diphtongue [ɔɪ̯] (proche de 'oï', comme dans 'feuille' en allemand 'neu').",
+        "Le digramme -ch- se prononce [ç] (palatal) après e, i, ä, ö, ü et [x] (vélaire/rugueux) après a, o, u.",
+        "Les groupes -st- et -sp- situés en tout début de mot ou de radical se prononcent respectivement [ʃt] ('cht') et [ʃp] ('chp')."
+      ],
+      "examples": [
+        {
+          "structure": "Deutschland (eu = [ɔɪ̯])",
+          "phonetic_api": "/ˈdɔɪ̯tʃlant/",
+          "meaning": "Allemagne"
+        },
+        {
+          "structure": "Sprechen (sp- initial = [ʃp])",
+          "phonetic_api": "/ˈʃpʁɛçn̩/",
+          "meaning": "Parler"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Rezeptionist",
+      "text": "Guten Tag. Wie ist Ihr Name, bitte?",
+      "phonetic_api": "/ˌɡuːtn̩ ˈtaːk viː ɪst iːɐ̯ ˈnaːmə ˈbɪtə/",
+      "phonetic_simple": "GOU-TEN TAK VII IST IIR NA-ME BI-TE",
+      "translation": "Bonjour. Quel est votre nom, s'il vous plaît ?"
+    },
+    {
+      "speaker": "Gast",
+      "text": "Guten Tag. Ich heiße Jörg Zadrozny.",
+      "phonetic_api": "/ˌɡuːtn̩ ˈtaːk ɪç ˈhaɪ̯sə jœʁk tsaˈdʁɔtsnɪ/",
+      "phonetic_simple": "GOU-TEN TAK ICH HAI-SE YOERG TSA-DROTS-NI",
+      "translation": "Bonjour. Je m'appelle Jörg Zadrozny."
+    },
+    {
+      "speaker": "Rezeptionist",
+      "text": "Entschuldigung, wie schreibt man Ihren Nachnamen? Können Sie das bitte buchstabieren?",
+      "phonetic_api": "/ɛntˈʃʊldɪɡʊŋ viː ʃʁaɪ̯pt man ˈiːnən ˈnaːxˌnaːmən ˈkœnən ziː das ˈbɪtə buːxʃtaˈbiːʁən/",
+      "phonetic_simple": "ENT-CHOUL-DI-GUNG VII CHRAIPT MAN II-NEN NAK-NA-MEN KOE-NEN ZII DAS BI-TE BOUK-CHTA-BII-REN",
+      "translation": "Excusez-moi, comment écrit-on votre nom de famille ? Pouvez-vous l'épeler s'il vous plaît ?"
+    },
+    {
+      "speaker": "Gast",
+      "text": "Ja, natürlich. Z-A-D-R-O-Z-N-Y.",
+      "phonetic_api": "/jaː naˈtyːɐ̯lɪç tsɛt aː deː ɛʁ oː tsɛt ɛn ˈʏpsɪlɔn/",
+      "phonetic_simple": "YA NA-TUUR-LICH TSET A DEE ER OO TSET EN UP-SI-LON",
+      "translation": "Oui, bien sûr. Z-A-D-R-O-Z-N-Y."
+    },
+    {
+      "speaker": "Rezeptionist",
+      "text": "Und Ihr Vorname Jörg? Mit O-Umlaut?",
+      "phonetic_api": "/ʊnt iːɐ̯ ˈfoːɐ̯ˌnaːmə jœʁk mɪt oː ˈʊmˌlaʊ̯t/",
+      "phonetic_simple": "OUNT IIR FOOR-NA-ME YOERG MIT OO OUM-LAOUT",
+      "translation": "Et votre prénom Jörg ? Avec un O-Umlaut ?"
+    },
+    {
+      "speaker": "Gast",
+      "text": "Richtig, J-Ö-R-G.",
+      "phonetic_api": "/ˈʁɪçtɪç jɔt øː ɛʁ ɡeː/",
+      "phonetic_simple": "RICH-TICH YOT OE ER GEE",
+      "translation": "C'est exact, J-Ö-R-G."
+    }
+  ],
+  "cultural_notes": [
+    "Lorsque l'on épelle un document officiel ou au téléphone en Allemagne, on utilise très fréquemment l'alphabet phonétique officiel allemand (DIN 5009). Au lieu de dire simplement les lettres, on utilise des prénoms ou des mots standards : 'A wie Anton', 'B wie Berta', 'Z wie Zacharias'. C'est une compétence indispensable pour éviter toute erreur de transmission.",
+    "Si votre clavier ne possède pas de touches pour les Umlauts (ä, ö, ü) ou pour l'Eszett (ß), il existe une règle de substitution officielle et parfaitement tolérée : 'ä' devient 'ae', 'ö' devient 'oe', 'ü' devient 'ue', et 'ß' devient 'ss'. Exemple : 'München' s'écrira 'Muenchen'.",
+    "La prononciation exacte des noms propres revêt une grande importance dans le monde professionnel allemand. Prendre le temps de faire épeler ou de demander confirmation démontre un grand sérieux."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment se prononce la combinaison de lettres 'st' dans le mot allemand 'Straße' ?",
+      "options": [
+        "Comme un 'st' français traditionnel dans 'stade'",
+        "Comme un son 'cht' [ʃt]",
+        "La lettre 't' est totalement muette"
+      ],
+      "correct_answer": "Comme un son 'cht' [ʃt]",
+      "explanation": "En début de mot ou de syllabe radicale, le groupe 'st' subit une modification phonétique et se prononce systématiquement [ʃt]."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "La diphtongue dans le mot 'neun' se prononce comme le son [ ___ ].",
+      "correct_answer": "ɔɪ̯",
+      "hint": "Entrez le symbole API correspondant à l'association des lettres -eu- ou -äu-, similaire au son 'oï'."
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire son habitation et énumérer les pièces principales en Mano",
+    "Situer son logement dans un espace urbain ou villageois",
+    "Exprimer l'appartenance et la localisation résidentielle complexe"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le terme pour 'maison' ou 'case' se transcrit par /pɛ́lɛ̀/, à ne pas confondre avec le mot /pɛ́lɛ̀/ (chemin) qui possède une structure tonale et une ouverture vocalique très proche selon les variantes dialectales. Le ton descendant haut-bas marqué sur la première syllabe est crucial.",
+    "common_pitfalls": "Veillez à articuler nettement la voyelle ouverte /ɛ/ dans /pɛ́lɛ̀/. Si vous fermez trop la voyelle vers le son /e/, le mot perd son sens résidentiel."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v10_1",
+      "term": "pɛ́lɛ̀",
+      "phonetic_api": "/pɛ˦lɛ˩/",
+      "phonetic_simple": "PÈ-LÈ",
+      "translation": "Maison / Logement / Case",
+      "example_sentence": "ń pɛ́lɛ̀",
+      "example_phonetic": "/ń pɛ˦lɛ˩/",
+      "example_translation": "Ma maison"
+    },
+    {
+      "word_id": "v10_2",
+      "term": "mĩ́",
+      "phonetic_api": "/mĩ˦/",
+      "phonetic_simple": "MEENG",
+      "translation": "Intérieur / Dans / Chambre",
+      "example_sentence": "pɛ́lɛ̀ mĩ́",
+      "example_phonetic": "/pɛ˦lɛ˩ mĩ˦/",
+      "example_translation": "Dans la maison / À l'intérieur de la maison"
+    },
+    {
+      "word_id": "v10_3",
+      "term": "wúlù",
+      "phonetic_api": "/wu˦lu˩/",
+      "phonetic_simple": "OU-LOU",
+      "translation": "Ville / Grand village / Cour",
+      "example_sentence": "wúlù sēe",
+      "example_phonetic": "/wu˦lu˩ seː˧˧/",
+      "example_translation": "Une grande ville"
+    },
+    {
+      "word_id": "v10_4",
+      "term": "da-pɛlɛ",
+      "phonetic_api": "/da˧pɛ˧lɛ˧/",
+      "phonetic_simple": "DA-PÈLÈ",
+      "translation": "Porte / Entrée",
+      "example_sentence": "da-pɛlɛ za.",
+      "example_phonetic": "/da˧pɛ˧lɛ˧ za˧/",
+      "example_translation": "Ferme la porte."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p10_1",
+      "original": "Í pɛ́lɛ̀ ɓe mī ?",
+      "phonetic_api": "/i˦ pɛ˦lɛ˩ ɓe˧ miː˧/",
+      "phonetic_simple": "EE PÈ-LÈ BÉ MEE ?",
+      "translation": "Où est ta maison ?",
+      "context": "Demander l'adresse ou la localisation du logement de quelqu'un."
+    },
+    {
+      "phrase_id": "p10_2",
+      "original": "Ń pɛ́lɛ̀ ɓe wúlù mĩ́.",
+      "phonetic_api": "/ń pɛ˦lɛ˩ ɓe˧ wu˦lu˩ mĩ˦/",
+      "phonetic_simple": "N PÈ-LÈ BÉ OU-LOU MEENG",
+      "translation": "Ma maison est dans la ville.",
+      "context": "Indiquer son lieu d'habitation urbain."
+    },
+    {
+      "phrase_id": "p10_3",
+      "original": "Ń ɓe lɔ ń pɛ́lɛ̀ la.",
+      "phonetic_api": "/ń ɓe˧ lɔ˧ ń pɛ˦lɛ˩ la˧/",
+      "phonetic_simple": "N BÉ LOR N PÈ-LÈ LA",
+      "translation": "Je vais chez moi (à ma maison).",
+      "context": "Annoncer son retour à la maison."
+    },
+    {
+      "phrase_id": "p10_4",
+      "original": "Í pɛ́lɛ̀ kɛ̃ɛ ɓe sēe.",
+      "phonetic_api": "/i˦ pɛ˦lɛ˩ kɛ̃ː˧ ɓe˧ seː˧˧/",
+      "phonetic_simple": "EE PÈ-LÈ KÈNG BÉ SÉÉ",
+      "translation": "Ta maison est très belle.",
+      "context": "Complimenter un hôte sur son logement."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la localisation interne avec 'mĩ́'",
+      "explanation": "Pour exprimer qu'une personne ou un objet se trouve à l'intérieur d'un espace clos (comme une pièce, une maison ou une ville), le Mano utilise la postposition spatiale 'mĩ́' placée immédiatement après le nom de l'espace.",
+      "rules": [
+        "Structure : [Lieu/Conteneur] + mĩ́ (dans / à l'intérieur de).",
+        "Cette particule porte un ton haut distinctif qui marque l'inclusion spatiale."
+      ],
+      "examples": [
+        {
+          "structure": "pɛ́lɛ̀ mĩ́",
+          "phonetic_api": "/pɛ˦lɛ˩ mĩ˦/",
+          "meaning": "Dans la maison"
+        },
+        {
+          "structure": "wúlù mĩ́",
+          "phonetic_api": "/wu˦lu˩ mĩ˦/",
+          "meaning": "Dans la ville"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Koli",
+      "text": "Mɛgɛ ! Í pɛ́lɛ̀ ɓe mī ?",
+      "phonetic_api": "/mɛ˧gɛ˧ i˦ pɛ˦lɛ˩ ɓe˧ miː˧/",
+      "phonetic_simple": "MÈGÈ ! EE PÈ-LÈ BÉ MEE ?",
+      "translation": "Bonjour ! Où se trouve ta maison ?"
+    },
+    {
+      "speaker": "Zayɔ",
+      "text": "Mɛgɛ ! Ń pɛ́lɛ̀ ɓe wúlù mĩ́, kɛ́lɛ̀ lĩĩ.",
+      "phonetic_api": "/mɛ˧gɛ˧ ń pɛ˦lɛ˩ ɓe˧ wu˦lu˩ mĩ˦ kɛ˦lɛ˩ lĩː˧/",
+      "phonetic_simple": "MÈGÈ ! N PÈ-LÈ BÉ OU-LOU MEENG, KÈ-LÈ LEENG.",
+      "translation": "Bonjour ! Ma maison est en ville, tout près du marché."
+    },
+    {
+      "speaker": "Koli",
+      "text": "Wɔ̃ kɛ̃ɛ ɓe. Wa lɔ baika.",
+      "phonetic_api": "/wɔ̃˧ kɛ̃ː˧ ɓe˧ wa˧ lɔ˧ bai̯˧ka˧/",
+      "phonetic_simple": "WONG KÈNG BÉ. WA LOR BAÏ-KAH.",
+      "translation": "C'est une bonne chose. Allons-y s'il te plaît."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'architecture traditionnelle de la Guinée Forestière, la concession familiale regroupe souvent plusieurs constructions (cases rondes ou rectangulaires) autour d'une cour centrale ('wúlù'). La maison n'est pas seulement un espace privé, mais le point d'ancrage du lignage où l'on accueille chaleureusement les visiteurs de passage avec de l'eau fraîche dès leur entrée."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex10_1",
+      "type": "multiple_choice",
+      "question": "Quel mot Mano désigne précisément l'intérieur d'un lieu ou d'une maison ?",
+      "options": [
+        "da-pɛlɛ",
+        "mĩ́",
+        "wúlù"
+      ],
+      "correct_answer": "mĩ́",
+      "explanation": "'mĩ́' est la postposition de directivité interne qui signifie 'dans' ou 'à l'intérieur de'."
+    },
+    {
+      "exercise_id": "ex10_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'Ma maison', on écrit : ń [ ___ ].",
+      "correct_answer": "pɛ́lɛ̀",
+      "exact_pattern": "pɛ́lɛ̀",
+      "hint": "C'est le substantif Mano pour maison ou case."
+    }
+  ]
+}

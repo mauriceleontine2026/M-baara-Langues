@@ -1,0 +1,391 @@
+{
+  "lesson_id": "A1_M2_L6_V2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Exprimer l'heure exacte et les minutes en utilisant les suffixes 'ji' et 'fun/pun'",
+    "Nommer, écrire et utiliser les sept jours de la semaine et les douze mois de l'année",
+    "Poser des questions temporelles simples avec 'nan-ji' et 'itsu'"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression de l'heure repose sur le suffixe 時 (ji) [d͡ʑi], une affriquée alvéolo-palatale sonore proche d'un 'dj' doux. Le suffixe des minutes 分 se lit 'fun' [ɸɯɴ] ou 'pun' [pɯɴ]. Le son [ɸ] est une fricative bilabiale sourde produite en soufflant doucement entre les lèvres rapprochées, sans contact dento-labial. Les mois se construisent avec 月 (gatsu) [ɡḁt͡sɯ] où le [ɯ] final est souvent dévoisé (chuchoté).",
+    "common_pitfalls": "Attention aux irrégularités majeures : 4 heures se dit 四時 (yo-ji) [jo.d͡ʑi], 7 heures 七時 (shichi-ji) [ɕi.t͡ɕi.d͡ʑi], et 9 heures 九時 (ku-ji) [kɯ.d͡ʑi]. Pour les mois, Avril est 四月 (shigatsu), Juillet 七月 (shichigatsu) et Septembre 九月 (kugatsu). Les minutes impaires (1, 3, 6, 8, 10) entraînent un doublement de consonne obligatoire avec 'pun' (ex: 1 min = ippun, 6 min = roppun, 8 min = happun)."
+  },
+  "calendar_charts": {
+    "days_of_the_week": [
+      {
+        "kanji": "月曜日",
+        "hiragana": "げつようび",
+        "romaji": "getsuyōbi",
+        "api": "/ɡe̥t͡sɯ.joː.bi/",
+        "translation": "Lundi (Jour de la Lune)"
+      },
+      {
+        "kanji": "火曜日",
+        "hiragana": "かようび",
+        "romaji": "kayōbi",
+        "api": "/ka.joː.bi/",
+        "translation": "Mardi (Jour du Feu)"
+      },
+      {
+        "kanji": "水曜日",
+        "hiragana": "すいようび",
+        "romaji": "suiyōbi",
+        "api": "/sɯ.i.joː.bi/",
+        "translation": "Mercredi (Jour de l'Eau)"
+      },
+      {
+        "kanji": "木曜日",
+        "hiragana": "もくようび",
+        "romaji": "mokuyōbi",
+        "api": "/mo.kɯ.joː.bi/",
+        "translation": "Jeudi (Jour du Bois)"
+      },
+      {
+        "kanji": "金曜日",
+        "hiragana": "きんようび",
+        "romaji": "kinyōbi",
+        "api": "/kiɴ.joː.bi/",
+        "translation": "Vendredi (Jour du Métal/Or)"
+      },
+      {
+        "kanji": "土曜日",
+        "hiragana": "どようび",
+        "romaji": "doyōbi",
+        "api": "/do.joː.bi/",
+        "translation": "Samedi (Jour de la Terre)"
+      },
+      {
+        "kanji": "日曜日",
+        "hiragana": "にちようび",
+        "romaji": "nichiyōbi",
+        "api": "/ni.t͡ɕi.joː.bi/",
+        "translation": "Dimanche (Jour du Soleil)"
+      }
+    ],
+    "months_of_the_year": [
+      {
+        "kanji": "一月",
+        "hiragana": "いちがつ",
+        "romaji": "ichigatsu",
+        "api": "/i.t͡ɕi.ɡḁt.sɯ/",
+        "translation": "Janvier"
+      },
+      {
+        "kanji": "二月",
+        "hiragana": "にがつ",
+        "romaji": "nigatsu",
+        "api": "/ni.ɡḁt.sɯ/",
+        "translation": "Février"
+      },
+      {
+        "kanji": "三月",
+        "hiragana": "さんがつ",
+        "romaji": "sangatsu",
+        "api": "/saɴ.ɡḁt.sɯ/",
+        "translation": "Mars"
+      },
+      {
+        "kanji": "四月",
+        "hiragana": "しがつ",
+        "romaji": "shigatsu",
+        "api": "/ɕi.ɡḁt.sɯ/",
+        "translation": "Avril (Irrégulier : 'shi' et non 'yon')"
+      },
+      {
+        "kanji": "五月",
+        "hiragana": "ごがつ",
+        "romaji": "gogatsu",
+        "api": "/ɡo.ɡḁt.sɯ/",
+        "translation": "Mai"
+      },
+      {
+        "kanji": "六月",
+        "hiragana": "ろくがつ",
+        "romaji": "rokugatsu",
+        "api": "/ɾo.kɯ.ɡḁt.sɯ/",
+        "translation": "Juin"
+      },
+      {
+        "kanji": "七月",
+        "hiragana": "しちがつ",
+        "romaji": "shichigatsu",
+        "api": "/ɕi.t͡ɕi.ɡḁt.sɯ/",
+        "translation": "Juillet (Irrégulier : 'shichi' et non 'nana')"
+      },
+      {
+        "kanji": "八月",
+        "hiragana": "hachigatsu",
+        "romaji": "はちがつ",
+        "api": "/ha.t͡ɕi.ɡḁt.sɯ/",
+        "translation": "Août"
+      },
+      {
+        "kanji": "九月",
+        "hiragana": "くがつ",
+        "romaji": "kugatsu",
+        "api": "/kɯ.ɡḁt.sɯ/",
+        "translation": "Septembre (Irrégulier : 'ku' et non 'kyū')"
+      },
+      {
+        "kanji": "十月",
+        "hiragana": "じゅうがつ",
+        "romaji": "jūgatsu",
+        "api": "/d͡ʑɯː.ɡḁt.sɯ/",
+        "translation": "Octobre"
+      },
+      {
+        "kanji": "十一月",
+        "hiragana": "じゅういちがつ",
+        "romaji": "jūichigatsu",
+        "api": "/d͡ʑɯː.i.t͡ɕi.ɡḁt.sɯ/",
+        "translation": "Novembre"
+      },
+      {
+        "kanji": "十二月",
+        "hiragana": "じゅうにがつ",
+        "romaji": "jūnigatsu",
+        "api": "/d͡ʑɯː.ni.ɡḁt.sɯ/",
+        "translation": "Décembre"
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "～じ (～時)",
+      "phonetic_api": "/d͡ʑi/",
+      "phonetic_simple": "DJI",
+      "translation": "Suffixe pour les heures",
+      "example_sentence": "今、何時ですか。",
+      "example_phonetic": "/i.ma naɴ.d͡ʑi de.sɯ.ka/",
+      "example_translation": "Quelle heure est-il maintenant ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "～ふん / ぷん (～分)",
+      "phonetic_api": "/ɸɯɴ/ /pɯɴ/",
+      "phonetic_simple": "FOUN / POUN",
+      "translation": "Suffixe pour les minutes",
+      "example_sentence": "五時十分です。",
+      "example_phonetic": "/ɡo.d͡ʑi d͡ʑɯ̥p.pɯɴ de.sɯ̥/",
+      "example_translation": "Il est 5h10."
+    },
+    {
+      "word_id": "v3",
+      "term": "きょう (今日)",
+      "phonetic_api": "/kjoː/",
+      "phonetic_simple": "KYOO",
+      "translation": "Aujourd'hui",
+      "example_sentence": "今日は火曜日です。",
+      "example_phonetic": "/kjoː wa ka.joː.bi de.sɯ̥/",
+      "example_translation": "Aujourd'hui, c'est mardi."
+    },
+    {
+      "word_id": "v4",
+      "term": "いま (今)",
+      "phonetic_api": "/i.ma/",
+      "phonetic_simple": "I-MA",
+      "translation": "Maintenant / Actuellement",
+      "example_sentence": "今は三月です。",
+      "example_phonetic": "/i.ma wa saɴ.ɡḁt.sɯ de.sɯ̥/",
+      "example_translation": "Maintenant, nous sommes en mars."
+    },
+    {
+      "word_id": "v5",
+      "term": "はん (半)",
+      "phonetic_api": "/ha~/",
+      "phonetic_simple": "HAN",
+      "translation": "Et demi (temporel)",
+      "example_sentence": "八時半に学校へ行きます。",
+      "example_phonetic": "/ha.t͡ɕi.d͡ʑi.haɴ ni ɡḁk.koː e i.ki.ma.sɯ̥/",
+      "example_translation": "Je vais à l'école à 8h30."
+    },
+    {
+      "word_id": "v6",
+      "term": "いつ",
+      "phonetic_api": "/i.t͡sɯ/",
+      "phonetic_simple": "I-TSOU",
+      "translation": "Quand",
+      "example_sentence": "テストはいつですか。",
+      "example_phonetic": "/te.sɯ̥.to wa i.t͡sɯ de.sɯ.ka/",
+      "example_translation": "Quand a lieu l'examen ?"
+    },
+    {
+      "word_id": "v7",
+      "term": "しゅうまつ (週末)",
+      "phonetic_api": "/ɕɯː.ma.t͡sɯ/",
+      "phonetic_simple": "CHUU-MAT-SOU",
+      "translation": "Le week-end",
+      "example_sentence": "週末は土曜日と日曜日です。",
+      "example_phonetic": "/ɕɯː.ma.t͡sɯ wa do.joː.bi to ni.t͡ɕi.joː.bi de.sɯ̥/",
+      "example_translation": "Le week-end, c'est le samedi et le dimanche."
+    },
+    {
+      "word_id": "v8",
+      "term": "たんじょうび (誕生日)",
+      "phonetic_api": "/taɴ.d͡ʑoː.bi/",
+      "phonetic_simple": "TAN-DJOO-BI",
+      "translation": "Anniversaire",
+      "example_sentence": "誕生日。おめでとう。",
+      "example_phonetic": "/taɴ.d͡ʑoː.bi o.me.de.toː/",
+      "example_translation": "Joyeux anniversaire."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "今、何時何分ですか。",
+      "phonetic_api": "/i.ma naɴ.d͡ʑi naɴ.pɯɴ de.sɯ.ka/",
+      "phonetic_simple": "I-MA NAN-DJI NAN-POUN DESS-KA",
+      "translation": "Actuellement, quelle heure et quelles minutes est-il ?",
+      "context": "Demande de précision temporelle absolue."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "今日は何曜日ですか。",
+      "phonetic_api": "/kjoː wa na&mu;.joː.bi de.sɯ.ka/",
+      "phonetic_simple": "KYOO WA NAN-YOO-BI DESS-KA",
+      "translation": "Quel jour de la semaine sommes-nous aujourd'hui ?",
+      "context": "S'informer sur le jour calendaire courant."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "会議は何時からですか。",
+      "phonetic_api": "/ka.i.ɡi wa na&mu;.d͡ʑi ka.ɾa de.sɯ.ka/",
+      "phonetic_simple": "KA-I-GI WA NAN-DJI KA-RA DESS-KA",
+      "translation": "À partir de quelle heure est la réunion ?",
+      "context": "Demander le début d'un événement avec la particule から (kara)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "銀行は五時までです。",
+      "phonetic_api": "/ɡi&mu;.koː wa ɡo.d͡ʑi ma.de de.sɯ̥/",
+      "phonetic_simple": "GIN-KOO WA GO-DJI MA-DÉ DESS",
+      "translation": "La banque est ouverte jusqu'à 5 heures.",
+      "context": "Indiquer la limite de fin avec la particule まで (made)."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "お誕生日はいつですか。",
+      "phonetic_api": "/o.ta&mu;.d͡ʑoː.bi wa i.t͡sɯ de.sɯ.ka/",
+      "phonetic_simple": "O-TAN-DJOO-BI WA I-TSOU DESS-KA",
+      "translation": "Quand est votre anniversaire ?",
+      "context": "Question polie introduite par le pronom interrogatif 'itsu'."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "四月は休みですか。",
+      "phonetic_api": "/ɕi.ɡḁt.sɯ wa ja.sɯ.mi de.sɯ.ka/",
+      "phonetic_simple": "CHI-GAT-SOU WA YA-SOU-MI DESS-KA",
+      "translation": "Est-ce que le mois d'avril est une période de vacances ?",
+      "context": "Vérifier le calendrier des congés."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "金曜日の夜に会いましょう。",
+      "phonetic_api": "/ki&mu;.joː.bi no jo.ɾɯ ni a.i.ma.ɕoː/",
+      "phonetic_simple": "KIN-YOO-BI NO YO-ROU NI A-I-MA-CHOO",
+      "translation": "Retrouvons-nous vendredi soir.",
+      "context": "Proposer ou fixer un rendez-vous amical."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "十二月はとても寒いです。",
+      "phonetic_api": "/d͡ʑɯː.ni.ɡḁt.sɯ wa to.te.mo sa.mɯ.i de.sɯ̥/",
+      "phonetic_simple": "DJUU-NI-GAT-SOU WA TO-TÉ-MO SA-MOU-I DESS",
+      "translation": "Le mois de décembre est très froid.",
+      "context": "Constat météo ou conversation générale sur les saisons."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La syntaxe des repères temporels précis : la particule に (ni)",
+      "explanation": "La particule に s'associe impérativement aux expressions temporelles contenant un élément chiffré ou une unité fixe (heures, mois, années) pour indiquer le moment exact de l'action. Elle n'est pas utilisée pour les termes temporels relatifs (ex : aujourd'hui, demain).",
+      "rules": [
+        "Structure : [Temps structurel chiffré] に [Verbe].",
+        "Obligatoire après l'heure (ex: 九時に - à 9h) ou un mois (ex: 一月に - en janvier)."
+      ],
+      "examples": [
+        {
+          "structure": "四月に日本へ行きます (Shigatsu ni Nihon e ikimasu)",
+          "phonetic_api": "/ɕi.ɡḁt.sɯ ni ni.hoɴ e i.ki.ma.sɯ̥/",
+          "meaning": "Je vais au Japon en avril."
+        }
+      ]
+    },
+    {
+      "concept": "Les limites de la durée : から (kara) et まで (made)",
+      "explanation": "Les particules から (depuis / à partir de) et まで (jusqu'à) balisent le temps ou l'espace. Elles se placent directement après le nom ou l'heure qu'elles qualifient et remplacent ou s'associent au copule です.",
+      "rules": [
+        "から marque le point de départ temporel.",
+        "まで marque le point d'arrivée ou la clôture."
+      ],
+      "examples": [
+        {
+          "structure": "九時から五時まで (Kuji kara goji made)",
+          "phonetic_api": "/kɯ.d͡ʑi ka.ɾa ɡo.d͡ʑi ma.de/",
+          "meaning": "De 9 heures jusqu'à 5 heures."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "マリー (Marie)",
+      "text": "健一さん、日本語のテストはいつですか。",
+      "phonetic_api": "/keɴ.i.t͡ɕi saμ ni.hoμ.ɡo no te.sɯ̥.to wa i.t͡sɯ de.sɯ.ka/",
+      "phonetic_simple": "KEN-I-TCHI SAN, NI-HON-GO NO TE-SOU-TO WA I-TSOU DESS-KA ?",
+      "translation": "Ken'ichi, quand a lieu l'examen de japonais ?"
+    },
+    {
+      "speaker": "健一 (Ken'ichi)",
+      "text": "テストは七月曜日…あ、違います。七月の月曜日ですよ。",
+      "phonetic_api": "/te.sɯ̥.to wa ɕi.t͡ɕi.ɡḁt.sɯ.joː.bi a t͡ɕi.ɡa.i.ma.sɯ̥ ɕi.t͡ɕi.ɡḁt.sɯ no ɡe̥t͡sɯ.joː.bi de.sɯ jo/",
+      "phonetic_simple": "TE-SOU-TO WA SHICHI-GATSU-YOO-BI... A, TCHI-GA-I-MASS. SHICHI-GATSU NO GETS-YOO-BI DESS YO.",
+      "translation": "L'examen a lieu le lundi de juill... Ah non, je me trompe. C'est le lundi du mois de juillet."
+    },
+    {
+      "speaker": "マリー (Marie)",
+      "text": "そうですか。何時からですか。",
+      "phonetic_api": "/soː de.sɯ.ka naμ.d͡ʑi ka.ɾa de.sɯ.ka/",
+      "phonetic_simple": "SOO DESS-KA. NAN-DJI KA-RA DESS-KA ?",
+      "translation": "Ah d'accord. À partir de quelle heure ?"
+    },
+    {
+      "speaker": "健一 (Ken'ichi)",
+      "text": "午後一時半から三時までです。",
+      "phonetic_api": "/ɡo.ɡo i.t͡ɕi.d͡ʑi.haμ ka.ɾa saμ.d͡ʑi ma.de de.sɯ̥/",
+      "phonetic_simple": "GO-GO I-TCHI-DJI-HAN KA-RA SAN-DJI MA-DÉ DESS.",
+      "translation": "De 13h30 (l'après-midi) jusqu'à 3 heures."
+    }
+  ],
+  "cultural_notes": [
+    "Les noms des jours de la semaine font référence aux éléments naturels ésotériques (Gogyō) : Lune (月), Feu (火), Eau (水), Bois (木), Métal (金), Terre (土) et Soleil (日). Ils s'alignent avec les planètes visibles du système solaire.",
+    "Pour spécifier le moment de la journée à l'oral, les termes 午前 (gozen - AM) et 午後 (gogo - PM) se placent impérativement avant le chiffre de l'heure (ex: 午後二時 = 14h00)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel jour de la semaine correspond au kanji du Feu (火曜日) ?",
+      "options": [
+        "Lundi",
+        "Mardi",
+        "Mercredi"
+      ],
+      "correct_answer": "Mardi",
+      "explanation": "火曜日 (kayōbi) combine le kanji du feu (火) et le suffixe du jour de la semaine (曜日), désignant le mardi."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Le mois de septembre se dit [ ___ ]月です。(Attention à l'irrégularité)",
+      "correct_answer": "く",
+      "hint": "Il s'agit de la prononciation courte du chiffre 9 ('ku' et non 'kyū')."
+    }
+  ]
+}

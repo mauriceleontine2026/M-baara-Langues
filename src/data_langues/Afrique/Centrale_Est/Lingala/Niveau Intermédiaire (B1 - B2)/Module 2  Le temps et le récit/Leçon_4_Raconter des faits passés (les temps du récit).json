@@ -1,0 +1,202 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Distinguer et utiliser le passé immédiat et le passé éloigné",
+    "Raconter une suite d'événements ou une histoire simple au passé",
+    "Employer les connecteurs temporels du passé (lelo, lobi, kala)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La marque du passé éloigné utilise le suffixe '-aki'. Analysez la prononciation du verbe 'kokenda' (partir) à ce temps : 'natambolaki' /nataᵐbolakí/. Notez le ton haut obligatoire sur la dernière syllabe du suffixe '-kí'. Le mot pour désigner le passé ou le temps jadis est 'kala' /kala/ avec deux tons bas doux.",
+    "common_pitfalls": "Ne confondez pas le ton du passé immédiat (ex: 'alobi' /aloβí/ - il a dit aujourd'hui) avec le ton du présent de l'habitude (ex: 'alobaka' /aloβaka/). Une erreur de ton décale l'action dans le temps."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v13_1",
+      "term": "Lobi",
+      "phonetic_api": "/lobí/",
+      "phonetic_simple": "LO-BÍ",
+      "translation": "Hier (ou demain selon le contexte du verbe)",
+      "example_sentence": "Lobi nayeaki awa.",
+      "example_phonetic": "/lobí najeakí áwa/",
+      "example_translation": "Hier, je suis venu ici."
+    },
+    {
+      "word_id": "v13_2",
+      "term": "Kala",
+      "phonetic_api": "/kala/",
+      "phonetic_simple": "KA-LA",
+      "translation": "Autrefois / Jadis / Il y a longtemps",
+      "example_sentence": "Kala, batata bafandaki na mboka oyo.",
+      "example_phonetic": "/kala βatáta βafáⁿdakí na ᵐbóka ójo/",
+      "example_translation": "Autrefois, les ancêtres vivaient dans ce village."
+    },
+    {
+      "word_id": "v13_3",
+      "term": "Sika",
+      "phonetic_api": "/síka/",
+      "phonetic_simple": "SÍ-KA",
+      "translation": "Récemment / Tout juste (ou neuf/nouveau)",
+      "example_sentence": "Nauti sika kokóma.",
+      "example_phonetic": "/naútí síka kokóma/",
+      "example_translation": "Je viens tout juste d'arriver."
+    },
+    {
+      "word_id": "v13_4",
+      "term": "Kouta",
+      "phonetic_api": "/kouta/",
+      "phonetic_simple": "KOU-TA",
+      "translation": "Provenir de / Venir de (auxiliaire du passé récent)",
+      "example_sentence": "Bautaki kosala mosala.",
+      "example_phonetic": "/βautakí kosala mosála/",
+      "example_translation": "Ils venaient de faire le travail."
+    },
+    {
+      "word_id": "v13_5",
+      "term": "Kokóma",
+      "phonetic_api": "/kokóma/",
+      "phonetic_simple": "KO-KÓ-MA",
+      "translation": "Arriver / Devenir",
+      "example_sentence": "Bakonzi bakómaki na ngonga ya motoba.",
+      "example_phonetic": "/βakoⁿzí βakómakí na ⁿɡóⁿɡa ja motóβa/",
+      "example_translation": "Les chefs sont arrivés à six heures."
+    },
+    {
+      "word_id": "v13_6",
+      "term": "Bosano",
+      "phonetic_api": "/βosanó/",
+      "phonetic_simple": "VO-SA-NÓ",
+      "translation": "Oubli (du verbe kobosana : oublier)",
+      "example_sentence": "Nabosanaki nkombo na yo.",
+      "example_phonetic": "/naβosanakí ⁿkóᵐbo na jó/",
+      "example_translation": "J'avais oublié ton nom."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p13_1",
+      "original": "Osalaki nini lobi?",
+      "phonetic_api": "/osalakí niní lobí/",
+      "phonetic_simple": "O-SA-LA-KÍ NI-NÍ LO-BÍ?",
+      "translation": "Qu'as-tu fait hier ?",
+      "context": "Question classique pour entamer un récit sur les activités passées."
+    },
+    {
+      "phrase_id": "p13_2",
+      "original": "Nalingaki koya kasi napekisamaki.",
+      "phonetic_api": "/nalíŋɡakí kojá kasí napekisamakí/",
+      "phonetic_simple": "NA-LÍN-GA-KÍ KO-YÁ KA-SI NA-PÉ-KI-SA-MA-KÍ.",
+      "translation": "Je voulais venir mais j'ai été empêché.",
+      "context": "Pour s'excuser d'une absence passée."
+    },
+    {
+      "phrase_id": "p13_3",
+      "original": "Likambo yango esalemaki kala.",
+      "phonetic_api": "/likáᵐbo jaⁿɡó esalemakí kala/",
+      "phonetic_simple": "LI-KÁM-BO YAN-GO É-SA-LE-MA-KÍ KA-LA.",
+      "translation": "Cette histoire s'est passée il y a longtemps.",
+      "context": "Pour situer un événement dans un passé lointain."
+    },
+    {
+      "phrase_id": "p13_4",
+      "original": "Nauti kolia sikoyo.",
+      "phonetic_api": "/naútí kolía sikójo/",
+      "phonetic_simple": "NA-Ú-TÍ KO-LÍ-A SI-KO-YO.",
+      "translation": "Je viens juste de manger à l'instant.",
+      "context": "Refuser poliment de la nourriture en arrivant chez quelqu'un."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le passé éloigné (Parfait historique) avec le suffixe '-aki'",
+      "explanation": "Pour les actions accomplies hier, la semaine dernière ou dans un passé lointain, on ajoute le suffixe '-aki' directement au radical verbal. Toutes les personnes portent un ton haut sur le '-kí' final.",
+      "rules": [
+        "Structure : Pronom + Radical + aki",
+        "Kosala (travailler) -> Nasalaki (J'ai travaillé / Je travaillais)",
+        "Koya (venir) -> Nayeaki (Je suis venu)"
+      ],
+      "examples": [
+        {
+          "structure": "Biso tofandaki na Kinsasa na mobu eleki.",
+          "phonetic_api": "/βisó tofáⁿdakí na kinsásá na moβu elɛkí/",
+          "meaning": "Nous avons habité à Kinshasa l'année dernière."
+        }
+      ]
+    },
+    {
+      "concept": "Le passé récent ou immédiat avec le verbe 'Kouta'",
+      "explanation": "Pour exprimer une action qui vient de se produire le jour même ou à l'instant (passé immédiat), le lingala utilise le verbe 'kouta' (provenir de) comme un auxiliaire, suivi directement de l'infinitif du verbe d'action.",
+      "rules": [
+        "Structure : Prénom/Pronom + kouta (conjugué au présent ou passé) + Verbe à l'infinitif",
+        "Nauti + koloba = Je viens de dire",
+        "Auti + kokenda = Il/Elle vient de partir"
+      ],
+      "examples": [
+        {
+          "structure": "Bauti kosukola ndako.",
+          "phonetic_api": "/βaútí kosukola ⁿdako/",
+          "meaning": "Ils viennent de nettoyer la maison."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Chico",
+      "text": "Mbote Papy! Lobi natámbolaki na kartye na bino mpo na koluka yo, kasi ozalaki te. Okendaki wapi?",
+      "phonetic_api": "/ᵐbóte papí lobí natáᵐbolakí na kartjé na βinó ᵐpo na koluka jó kasí ozalakí té okɛⁿdakí wápí/",
+      "phonetic_simple": "MBÓ-TE PA-PY! LO-BÍ NA-TÁM-BO-LA-KÍ NA KAR-TYÉ NA BI-NO MPO NA KO-LOU-KA YO, KA-SI O-ZA-LA-KÍ TÉ. O-KÈN-DA-KÍ WA-PÍ?",
+      "translation": "Bonjour Papy ! Hier, je me suis promené dans ton quartier pour te chercher, mais tu n'y étais pas. Où étais-tu parti ?"
+    },
+    {
+      "speaker": "Papy",
+      "text": "Mbote Chico! Ah ée, lobi na tongo napekisamaki na mosala. Nautaki kokenda kokutana na molakisi ya mwana na ngai.",
+      "phonetic_api": "/ᵐbóte ʃíko ah ée lobí na tóⁿɡo napekisamakí na mosála naútakí kokɛⁿda kokutana na molákisí ja mwana na ŋɡái/",
+      "phonetic_simple": "MBÓ-TE CHI-CO! AH ÉE, LO-BÍ NA TÓN-GO NA-PÉ-KI-SA-MA-KÍ NA MO-SÁ-LA. NA-Ú-TA-KÍ KO-KÈN-DA KO-KOU-TA-NA NA MO-LÁ-KI-SÍ YA MWA-NA NA NGAYI.",
+      "translation": "Bonjour Chico ! Ah oui, hier matin j'ai été retenu par des obligations. Je venais de partir rencontrer le professeur de mon enfant."
+    },
+    {
+      "speaker": "Chico",
+      "text": "Malamu! Mpe nsima ya kokutana na ye, ozongaki na ndako mbala moko?",
+      "phonetic_api": "/malámu ᵐpɛ ⁿsíma ja kokutana na jé ozoⁿɡakí na ⁿdako mbala móko/",
+      "phonetic_simple": "MA-LÁ-MOU! MPÉ NSÍ-MA YA KO-KOU-TA-NA NA YE, O-ZON-GA-KÍ NA NDA-KO MBA-LA MÓ-KO?",
+      "translation": "D'accord ! Et après l'avoir rencontré, es-tu rentré à la maison immédiatement ?"
+    },
+    {
+      "speaker": "Papy",
+      "text": "Te, na pokwa nalandaki lisano ya ndembo na zando, mpe nsima na yango nakómaki awa na ngonga ya zomi.",
+      "phonetic_api": "/té na pókwa nalaⁿdakí lisáno ya ⁿdéᵐbo na záⁿdo ᵐpɛ ⁿsíma na jaⁿɡó nakómakí áwa na ⁿɡóⁿɡa ya zomí/",
+      "phonetic_simple": "TÉ, NA PÓ-KWA NA-LAN-DA-KÍ LI-SÁ-NO YA NDÉM-BO NA ZÁN-DO, MPÉ NSÍ-MA NA YAN-GO NA-KÓ-MA-KÍ Á-WA NA NGÓN-GA YA ZO-MÍ.",
+      "translation": "Non, le soir j'ai suivi un match de foot près du marché, et après cela je suis arrivé ici à vingt heures."
+    }
+  ],
+  "cultural_notes": [
+    "Le mot 'Lobi' possède la particularité d'être un marqueur temporel bidirectionnel : il signifie 'hier' s'il est employé avec un verbe au passé, et 'demain' s'il accompagne un verbe au futur. Le contexte syntaxique guide l'interlocuteur.",
+    "La transmission orale des récits historiques ou familiaux commence traditionnellement par la formule impersonnelle 'Kala kala...' (Il y a fort longtemps...), équivalent du 'Il était une fois'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex13_1",
+      "type": "multiple_choice",
+      "question": "Quelle est la traduction correcte de 'J'ai travaillé hier' ?",
+      "options": [
+        "Nazo kosala lobi.",
+        "Nasalaki lobi.",
+        "Nasalaka lobi."
+      ],
+      "correct_answer": "Nasalaki lobi.",
+      "explanation": "Le suffixe '-aki' exprime le passé éloigné/accompli de la veille, tandis que 'lobi' prend ici le sens d'hier."
+    },
+    {
+      "exercise_id": "ex13_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ye [ ___ ] kokenda sikoyo na zando mpo na kosomba biloko.",
+      "correct_answer": "auti",
+      "hint": "Forme conjuguée du verbe auxiliaire utilisé pour exprimer le passé immédiat (il vient de)."
+    }
+  ]
+}

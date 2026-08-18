@@ -1,0 +1,227 @@
+{
+  "lesson_id": "A1_M1_L3",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 3,
+  "title": "L'alphabet et les sons spécifiques de la langue",
+  "learning_objectives": [
+    "Maîtriser le système phonologique et orthographique standard de la langue Yalunka",
+    "Prononcer correctement les consonnes complexes et nasales particulières",
+    "Identifier la longueur vocalique et son impact sur la signification des mots"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'alphabet Yalunka repose sur les caractères latins adaptés aux langues mandées de Guinée. Les phonèmes clés incluent la consonne fricative vélaire sourd /x/ (notée 'x'), la nasale palatale /ɲ/ (notée 'ɲ'), la nasale vélaire /ŋ/ (notée 'ŋ'), ainsi que les consonnes co-articulées labio-vélaires /gb/ et /kp/.",
+    "common_pitfalls": "Éviter d'articuler le 'gb' ou le 'kp' comme deux consonnes successives. Ils doivent être émis simultanément d'un seul mouvement buccal."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v3_1",
+      "term": "Xaran",
+      "phonetic_api": "/xa.ran/",
+      "phonetic_simple": "KHA-RAN",
+      "translation": "Lire / Étudier / Compter",
+      "example_sentence": "N a xaranfe.",
+      "example_phonetic": "/ŋ a xa.ran.fe/",
+      "example_translation": "Je suis en train de lire."
+    },
+    {
+      "word_id": "v3_2",
+      "term": "Ɲari",
+      "phonetic_api": "/ɲa.ri/",
+      "phonetic_simple": "NYA-RI",
+      "translation": "Dessiner / Peindre / Écrire",
+      "example_sentence": "Kitabu ɲari.",
+      "example_phonetic": "/ki.ta.bu ɲa.ri/",
+      "example_translation": "Écris sur le cahier."
+    },
+    {
+      "word_id": "v3_3",
+      "term": "Gbe",
+      "phonetic_api": "/ɡbe/",
+      "phonetic_simple": "GBÉ",
+      "translation": "Beaucoup / Propriété",
+      "example_sentence": "Banxi gbe nan a ra.",
+      "example_phonetic": "/ban.xi ɡbe nan a ra/",
+      "example_translation": "C'est une grande propriété / Il y a beaucoup de maisons."
+    },
+    {
+      "word_id": "v3_4",
+      "term": "Kpetɛ",
+      "phonetic_api": "/kpe.tɛ/",
+      "phonetic_simple": "KPÉ-TÈ",
+      "translation": "Sauter / Claquer",
+      "example_sentence": "Dengme bata kpetɛ.",
+      "example_phonetic": "/deŋ.me ba.ta kpe.tɛ/",
+      "example_translation": "L'enfant a sauté."
+    },
+    {
+      "word_id": "v3_5",
+      "term": "Ɛlɛɛbu",
+      "phonetic_api": "/ɛ.lɛː.bu/",
+      "phonetic_simple": "È-LÈÈ-BOU",
+      "translation": "Éponge",
+      "example_sentence": "Ɛlɛɛbu xun.",
+      "example_phonetic": "/ɛ.lɛː.bu xun/",
+      "example_translation": "Prends l'éponge."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p3_1",
+      "original": "A falen m bɛ.",
+      "phonetic_api": "/a fa.len m bɛ/",
+      "phonetic_simple": "A FA-LEN M BÈ",
+      "translation": "Dis-le-moi. / Répète-le.",
+      "context": "Demander à l'interlocuteur de prononcer un mot."
+    },
+    {
+      "phrase_id": "p3_2",
+      "original": "N mu a famu.",
+      "phonetic_api": "/ŋ mu a fa.mu/",
+      "phonetic_simple": "N MOU A FA-MOU",
+      "translation": "Je ne comprends pas.",
+      "context": "Indiquer une incompréhension linguistique ou auditive."
+    },
+    {
+      "phrase_id": "p3_3",
+      "original": "A falan dɔnxɔn dɔnxɔn.",
+      "phonetic_api": "/a fa.lan dɔ.nxɔn dɔ.nxɔn/",
+      "phonetic_simple": "A FA-LAN DON-KHON DON-KHON",
+      "translation": "Parle lentement.",
+      "context": "Demander de ralentir le débit de parole pour mieux assimiler les sons."
+    },
+    {
+      "phrase_id": "p3_4",
+      "original": "A ɲari banxi mɛ.",
+      "phonetic_api": "/a ɲa.ri ban.xi mɛ/",
+      "phonetic_simple": "A NYA-RI BAN-KHI MÈ",
+      "translation": "Écris-le sur le mur / le tableau.",
+      "context": "Demander une transcription écrite d'un mot difficile."
+    },
+    {
+      "phrase_id": "p3_5",
+      "original": "Na tɔn i falan nɛ ?",
+      "phonetic_api": "/na tɔn i fa.lan nɛ/",
+      "phonetic_simple": "NA TON I FA-LAN NÈ ?",
+      "translation": "Est-ce ainsi que l'on prononce ?",
+      "context": "Vérifier sa propre prononciation auprès d'un locuteur natif."
+    },
+    {
+      "phrase_id": "p3_6",
+      "original": "I tɔn falen.",
+      "phonetic_api": "/i tɔn fa.len/",
+      "phonetic_simple": "I TON FA-LEN",
+      "translation": "C'est bien prononcé.",
+      "context": "Validation ou encouragement venant du formateur."
+    },
+    {
+      "phrase_id": "p3_7",
+      "original": "Xɛmɛ xili na.",
+      "phonetic_api": "/xɛ.mɛ xi.li na/",
+      "phonetic_simple": "KHÈ-MÈ KHI-LI NA",
+      "translation": "C'est le nom d'un homme.",
+      "context": "Expliquer l'usage phonétique d'un mot."
+    },
+    {
+      "phrase_id": "p3_8",
+      "original": "A sɔnxɔ !",
+      "phonetic_api": "/a sɔ.nxɔ/",
+      "phonetic_simple": "A SON-KHO !",
+      "translation": "Crie ! / Hausse la voix !",
+      "context": "Demander d'articuler plus fort en classe."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La longueur vocalique distinctive",
+      "explanation": "Le redoublement des voyelles graphiques (aa, ee, ɛɛ, ii, oo, ɔɔ, uu) modifie radicalement le sens d'un terme. Une voyelle simple est brève, une voyelle double doit durer le double de temps.",
+      "rules": [
+        "Voyelle simple : sens A (ex: 'ba' = fin/cessation).",
+        "Voyelle double : sens B (ex: 'baa' = mer/fleuve ou père)."
+      ],
+      "examples": [
+        {
+          "structure": "Ba",
+          "phonetic_api": "/ba/",
+          "meaning": "Terminer / Enlever"
+        },
+        {
+          "structure": "Baa",
+          "phonetic_api": "/baː/",
+          "meaning": "Fleuve / Mer"
+        }
+      ]
+    },
+    {
+      "concept": "Le comportement syntaxique de la particule négative 'mu'",
+      "explanation": "Pour nier une capacité de compréhension ou une action verbale au présent/passé immédiat, la particule 'mu' s'intercale directement entre le sujet et le verbe ou son objet.",
+      "rules": [
+        "Sujet + mu + Verbe/Objet.",
+        "Devant la consonne bilabiale 'm', la nasale du pronom 'N' peut s'assimiler ou s'effacer."
+      ],
+      "examples": [
+        {
+          "structure": "N mu a famu.",
+          "phonetic_api": "/ŋ mu a fa.mu/",
+          "meaning": "Je ne le comprends pas."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Moussa",
+      "text": "Sabari, a falen m bɛ : mun a ra 'Xaran' ?",
+      "phonetic_api": "/sa.ba.ri a fa.len m bɛ mun a ra xa.ran/",
+      "phonetic_simple": "SA-BA-RI, A FA-LEN M BÈ : MOUN A RA KHA-RAN ?",
+      "translation": "S'il vous plaît, dites-moi : que signifie 'Xaran' ?"
+    },
+    {
+      "speaker": "Karamɔxɔ",
+      "text": "'Xaran' naxan e kitabu xaranfe. I tɔn falen ?",
+      "phonetic_api": "/xa.ran na.xan e ki.ta.bu xa.ran.fe i tɔn fa.len/",
+      "phonetic_simple": "KHA-RAN NA-XAN É KI-TA-BOU KHA-RAN-FÉ. I TON FA-LEN ?",
+      "translation": "'Xaran' signifie étudier un livre. Arrives-tu à le prononcer ?"
+    },
+    {
+      "speaker": "Moussa",
+      "text": "N mu a falen fanyin. A falan dɔnxɔn dɔnxɔ.",
+      "phonetic_api": "/ŋ mu a fa.len fan.jin a fa.lan dɔ.nxɔn dɔ.nxɔ/",
+      "phonetic_simple": "N MOU A FA-LEN FAN-YIN. A FA-LAN DON-KHON DON-KHO",
+      "translation": "Je ne le prononce pas bien. Dis-le lentement."
+    },
+    {
+      "speaker": "Karamɔxɔ",
+      "text": "X-a-r-a-n. Nu wali, i bata a famu na nɛ.",
+      "phonetic_api": "/xa.ran nu wa.li i ba.ta a fa.mu na nɛ/",
+      "phonetic_simple": "KH-A-R-A-N. NOU WA-LI, I BA-TA A FA-MOU NA NÈ",
+      "translation": "X-a-r-a-n. Bravo, tu l'as maintenant compris."
+    }
+  ],
+  "cultural_notes": [
+    "L'écriture officielle du Yalunka en Guinée utilise les règles harmonisées de l'Institut National des Langues (alphabets nationaux guinéens). Les symboles comme 'ɛ' (è) et 'ɔ' (o ouvert) y sont systématiques pour éviter les approximations de l'alphabet français standard.",
+    "La transmission orale historique du peuple Jalonké confère une importance sacrée à la musicalité et à la justesse de l'articulation des mots."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex3_1",
+      "type": "multiple_choice",
+      "question": "Quel phonème correspond à la lettre 'x' dans l'orthographe Yalunka ?",
+      "options": [
+        "Un son 'ks' comme dans taxi",
+        "Un son fricatif vélaire sourd /x/ (guttural)",
+        "Un son 'z' doux"
+      ],
+      "correct_answer": "Un son fricatif vélaire sourd /x/ (guttural)",
+      "explanation": "La lettre 'x' est l'équivalent de la jota ou de la rhotique forte, un souffle venant de l'arrière de la gorge."
+    },
+    {
+      "exercise_id": "ex3_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander de parler plus lentement, on utilise l'expression : A falan [ ___ ] dɔnxɔn.",
+      "correct_answer": "dɔnxɔn",
+      "hint": "C'est la répétition du mot signifiant doucement ou lentement."
+    }
+  ]
+}

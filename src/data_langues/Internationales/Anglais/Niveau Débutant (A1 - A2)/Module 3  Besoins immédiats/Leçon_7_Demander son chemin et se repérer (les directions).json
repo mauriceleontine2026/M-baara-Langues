@@ -1,0 +1,229 @@
+{
+  "lesson_id": "A1_M3_L7_v2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Formuler des questions polies pour demander une direction géographique",
+    "Comprendre et suivre des instructions d'orientation spatiale (tourner, continuer tout droit)",
+    "Identifier les principaux repères urbains et infrastructures publiques",
+    "Maîtriser les prépositions de lieu fondamentales (next to, opposite, between)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression de l'orientation fait intervenir des groupes consonantiques denses. Dans 'straight ahead' /streɪt əˈhɛd/, la suite de consonnes /str/ doit être projetée sans insertion de voyelle parasite. Le mot 'turn' /tɜːrn/ utilise la voyelle centrale longue neutre /ɜː/, tandis que 'opposite' /ˈɒpəzɪt/ met l'accent tonique sur la toute première syllabe avec une voyelle courte très nette. Le 'th' de 'through' /θruː/ est sourd et glisse immédiatement vers un 'r' rétroflexe.",
+    "common_pitfalls": "Prononcer le groupe 'gh' dans 'straight' (alors qu'il est totalement muet). Transformer le son /ɜː/ de 'turn' en un son 'u' francophone (dire 'turne' au lieu de /tɜːrn/). Omettre l'accent tonique initial sur les mots comme /ˈsteɪʃən/ ou /ˈhɒspɪtəl/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Street",
+      "phonetic_api": "/striːt/",
+      "phonetic_simple": "striit",
+      "translation": "Rue",
+      "example_sentence": "Go down this street for two blocks.",
+      "example_phonetic": "/ɡoʊ daʊn ðɪs striːt fɔːr tuː blɒks/",
+      "example_translation": "Descendez cette rue sur deux pâtés de maisons."
+    },
+    {
+      "word_id": "v2",
+      "term": "Station",
+      "phonetic_api": "/ˈsteɪʃən/",
+      "phonetic_simple": "STEI-ʃən",
+      "translation": "Gare / Station",
+      "example_sentence": "The underground station is just around the corner.",
+      "example_phonetic": "/ðiː ˈʌndərɡraʊnd ˈsteɪʃən ɪz dʒʌst əˈraʊnd ðə ˈkɔːrnər/",
+      "example_translation": "La station de métro est juste au coin de la rue."
+    },
+    {
+      "word_id": "v3",
+      "term": "Corner",
+      "phonetic_api": "/ˈkɔːrnər/",
+      "phonetic_simple": "KOR-nər",
+      "translation": "Coin / Angle (d'une rue)",
+      "example_sentence": "The pharmacy is at the corner of the street.",
+      "example_phonetic": "/ðə ˈfɑːrməsi ɪz æt ðə ˈkɔːrnər ɒv ðə striːt/",
+      "example_translation": "La pharmacie est à l'angle de la rue."
+    },
+    {
+      "word_id": "v4",
+      "term": "Traffic lights",
+      "phonetic_api": "/ˈtræfɪk laɪts/",
+      "phonetic_simple": "TRAF-ɪk laɪts",
+      "translation": "Feux de signalisation",
+      "example_sentence": "Turn left at the traffic lights.",
+      "example_phonetic": "/tɜːrn lɛft æt ðə ˈtræfɪk laɪts/",
+      "example_translation": "Tournez à gauche aux feux de signalisation."
+    },
+    {
+      "word_id": "v5",
+      "term": "Bridge",
+      "phonetic_api": "/brɪdʒ/",
+      "phonetic_simple": "bridj",
+      "translation": "Pont",
+      "example_sentence": "Walk across the old stone bridge.",
+      "example_phonetic": "/wɔːk əˈkrɒs ðiː oʊld stoʊn brɪdʒ/",
+      "example_translation": "Traversez à pied le vieux pont en pierre."
+    },
+    {
+      "word_id": "v6",
+      "term": "Map",
+      "phonetic_api": "/mæp/",
+      "phonetic_simple": "mæp",
+      "translation": "Carte / Plan",
+      "example_sentence": "Can you show me the museum on the map?",
+      "example_phonetic": "/kæn juː ʃoʊ miː ðə mjuːˈziːəm ɒn ðə mæp/",
+      "example_translation": "Pouvez-vous me montrer le musée sur le plan ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Excuse me, where is the nearest bank?",
+      "phonetic_api": "/ɪkˈskjuːz miː wɛər ɪz ðə ˈnɪərɪst bæŋk/",
+      "phonetic_simple": "ik-SKYOUZ mi wɛər ɪz ðə NIƏ-rɪst bæŋk",
+      "translation": "Excusez-moi, où se trouve la banque la plus proche ?",
+      "context": "Formule d'approche polie incontournable pour solliciter l'aide d'un passant dans la rue."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "How do I get to the train station?",
+      "phonetic_api": "/haʊ duː aɪ ɡɛt tuː ðə treɪn ˈsteɪʃən/",
+      "phonetic_simple": "haʊ doo aɪ get too ðə treɪn STEI-ʃən",
+      "translation": "Comment puis-je me rendre à la gare ?",
+      "context": "Structure interrogative standard pour demander un itinéraire précis."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Go straight ahead and then turn right",
+      "phonetic_api": "/ɡoʊ streɪt əˈhɛd ænd ðɛn tɜːrn raɪt/",
+      "phonetic_simple": "ɡoh streɪt ə-HED and ðen tɜːrn raɪt",
+      "translation": "Allez tout droit puis tournez à droite",
+      "context": "Instruction de base donnée pour guider quelqu'un."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "It is next to the supermarket",
+      "phonetic_api": "/ɪt ɪz nɛkst tuː ðə ˈjuːpəˌmɑːrkɪt/",
+      "phonetic_simple": "ɪt ɪz nekst too ðə SIOU-pər-mar-kɪt",
+      "translation": "C'est à côté du supermarché",
+      "context": "Indication de localisation par rapport à un point de repère connu."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "You cannot miss it",
+      "phonetic_api": "/juː ˈkænɒt mɪs ɪt/",
+      "phonetic_simple": "yoo KAN-ɒt mɪs ɪt",
+      "translation": "Vous ne pouvez pas le rater",
+      "context": "Expression rassurante en fin d'explication pour signifier que le lieu est très visible."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'impératif pour donner des directions",
+      "explanation": "Pour guider quelqu'un et lui dicter un chemin, on emploie le mode impératif. En anglais standard, l'impératif est extrêmement simple : il correspond à la base verbale du verbe (l'infinitif sans 'to'), sans aucun pronom sujet. Pour la forme négative, on ajoute simplement 'Don't' devant la base verbale.",
+      "rules": [
+        "Forme affirmative : Base Verbale directe (ex: Turn left).",
+        "Forme négative : Don't + Base Verbale (ex: Don't cross here)."
+      ],
+      "examples": [
+        {
+          "structure": "Take the second turning on the left.",
+          "phonetic_api": "/teɪk ðə ˈsɛkənd ˈtɜːrnɪŋ ɒn ðə lɛft/",
+          "meaning": "Prenez la deuxième intersection à gauche."
+        }
+      ]
+    },
+    {
+      "concept": "L'usage des prépositions de positionnement spatial",
+      "explanation": "Pour situer précisément un bâtiment par rapport à un autre, certaines prépositions nécessitent l'emploi de 'to' tandis que d'autres s'utilisent seules. 'Next to' (à côté de) requiert toujours sa particule, alors que 'opposite' (en face de) ou 'between' (entre) s'associent directement au nom.",
+      "rules": [
+        "Next + TO + Nom (ex: next to the hotel).",
+        "Opposite + Nom directement (ex: opposite the park).",
+        "Between + Nom 1 + AND + Nom 2 (ex: between the bank and the shop)."
+      ],
+      "examples": [
+        {
+          "structure": "The cinema is opposite the library.",
+          "phonetic_api": "/ðə ˈsɪnəmə ɪz ˈɒpəzɪt ðə ˈlaɪbrəri/",
+          "meaning": "Le cinéma est en face de la bibliothèque."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lost Tourist",
+      "text": "Excuse me, I am sorry to bother you, but I am completely lost. Is the British Museum near here?",
+      "phonetic_api": "/ɪkˈskjuːz miː aɪ æm ˈsɒri tuː ˈbɒðər juː bʌt aɪ æm kəmˈpliːtli lɒst ɪz ðə ˈbrɪtɪʃ mjuːˈziːəm nɪər hɪər/",
+      "phonetic_simple": "ik-SKYOUZ mi aɪ am SOR-i too BA-ðər yoo bʌt aɪ am kəm-PLIIT-li lost ɪz ðə BRIT-ɪʃ miou-ZII-əm nɪər hɪər",
+      "translation": "Excusez-moi, je suis désolé de vous déranger, mais je suis complètement perdu. Le British Museum est-il près d'ici ?"
+    },
+    {
+      "speaker": "Local Resident",
+      "text": "Don't worry, it is quite close. Walk down this street until you reach the traffic lights.",
+      "phonetic_api": "/doʊnt ˈwʌri ɪt ɪz kwaɪt kloʊs wɔːk daʊn ðɪs striːt ʌnˈtɪl juː riːtʃ ðə ˈtræfɪk laɪts/",
+      "phonetic_simple": "dohnt WA-ri ɪt ɪz kwaɪt kloʊs wok daʊn ðɪs striit ʌn-TIL yoo riitʃ ðə TRAF-ɪk laɪts",
+      "translation": "Ne vous inquiétez pas, c'est assez proche. Descendez cette rue à pied jusqu'aux feux de signalisation."
+    },
+    {
+      "speaker": "Lost Tourist",
+      "text": "Okay, got it. What do I do at the traffic lights?",
+      "phonetic_api": "/ˌoʊˈkeɪ ɡɒt ɪt wɒt duː aɪ duː æt ðə ˈtræfɪk laɪts/",
+      "phonetic_simple": "oh-KEI gɒt ɪt wɒt doo aɪ doo æt ðə TRAF-ɪk laɪts",
+      "translation": "D'accord, j'ai compris. Que fais-je aux feux de signalisation ?"
+    },
+    {
+      "speaker": "Local Resident",
+      "text": "Turn left onto Great Russell Street. Go straight for about two hundred meters. The museum is on your right, opposite the souvenir shop.",
+      "phonetic_api": "/tɜːrn lɛft ˈɒntuː ɡreɪt ˈrʌsəl striːt ɡoʊ streɪt fɔːr əˈbaʊt tuː ˈhʌndrəd ˈmiːtərz ðə mjuːˈziːəm ɪz ɒn jɔːr raɪt ˈɒpəzɪt ðə ˌsuːvəˈnɪər ʃɒp/",
+      "phonetic_simple": "tɜːrn left ON-too greɪt RAS-əl striit ɡoh streɪt fɔːr ə-BAʊT too HAN-drəd MII-tərz ðə miou-ZII-əm ɪz ɒn yor raɪt OP-ə-zɪt ðə SOO-və-nɪər ʃop",
+      "translation": "Tournez à gauche sur Great Russell Street. Continuez tout droit pendant environ deux cents mètres. Le musée sera sur votre droite, en face de la boutique de souvenirs."
+    },
+    {
+      "speaker": "Lost Tourist",
+      "text": "Thank you so much for your clear directions! Have a nice day.",
+      "phonetic_api": "/ˈθæŋk juː soʊ mʌtʃ fɔːr jɔːr klɪər dɪˈrɛkʃənz hæv ə naɪs deɪ/",
+      "phonetic_simple": "THÆNK yoo soʊ mʌtʃ fɔːr jor klɪər dɪ-REK-ʃənz hæv ə naɪs deɪ",
+      "translation": "Merci infiniment pour vos indications claires ! Bonne journée."
+    }
+  ],
+  "cultural_notes": [
+    "La politesse d'approche : Interpeller un inconnu dans la rue exige d'introduire sa demande par 'Excuse me'. Aborder quelqu'un directement avec 'Where is...' sans cette formule d'introduction est considéré comme extrêmement rude et impoli.",
+    "L'usage des 'Blocks' : Aux États-Unis et dans les villes au plan quadrillé, les indications se donnent très souvent en 'blocks' (pâtés de maisons) plutôt qu'en mètres (ex: 'Go down three blocks'). Au Royaume-Uni, on se réfère plus souvent aux intersections ('take the next turning') ou à des repères visuels comme les pubs."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la préposition correcte : 'The hotel is [ ___ ] the post office and the bank.'",
+      "options": [
+        "opposite",
+        "between",
+        "next to"
+      ],
+      "correct_answer": "between",
+      "explanation": "Puisqu'il y a deux éléments distincts reliés par la conjonction 'and' (the post office AND the bank), la seule préposition logique est 'between' (entre)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Don't turn left here, go [ ___ ] ahead.",
+      "correct_answer": "straight",
+      "hint": "Mot signifiant 'tout droit' en anglais lorsqu'il est associé à 'ahead'."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "Quelle est la traduction exacte de la consigne impérative 'Take the second turning on the right' ?",
+      "options": [
+        "Tournez deux fois à droite.",
+        "Prenez la deuxième rue à droite.",
+        "Continuez tout droit pendant deux minutes."
+      ],
+      "correct_answer": "Prenez la deuxième rue à droite.",
+      "explanation": "'Second turning' désigne le deuxième croisement ou changement de direction disponible, et 'on the right' spécifie le côté droit."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "lesson_id": "C1_M2_L6",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 6,
+  "title": "Le registre soutenu et le langage formel (cérémonies, contes, traditions)",
+  "learning_objectives": [
+    "Utiliser les formules rituelles d'ouverture et de fermeture des récits traditionnels",
+    "Maîtriser le lexique honorifique et honorer la hiérarchie sociale lors des discours officiels",
+    "Employer les structures grammaticales solennelles du registre soutenu wamey"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La modulation cérémonielle de la voyelle centrale moyenne longue /əː/ (notée 'ëë') et l'allongement expressif des voyelles finales en situation de déclamation publique.",
+    "common_pitfalls": "Lors des cérémonies, la prononciation du /ɓ/ et du /ɗ/ injectifs doit être particulièrement appuyée pour marquer la solennité et le respect dus aux fonctions sacrées."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "fëgba",
+      "phonetic_api": "/fəɡba/",
+      "phonetic_simple": "FE-GBA",
+      "translation": "honorer / rendre un hommage sacré / vénérer",
+      "example_sentence": "Rya fëgba ce gba ɓal rya.",
+      "example_phonetic": "/ʁja fəɡba t͡ʃɛ ɡba ɓal ʁja/",
+      "example_translation": "Nous rendons un hommage sacré aux anciens de notre lignée."
+    },
+    {
+      "word_id": "v2",
+      "term": "kwaɗgora",
+      "phonetic_api": "/kwaɗɡɔʁa/",
+      "phonetic_simple": "KOUAD-GO-RA",
+      "translation": "bénédiction ancestrale / parole de paix sacrée",
+      "example_sentence": "Kwaɗgora i fula ra rya.",
+      "example_phonetic": "/kwaɗɡɔʁa i fula ʁa ʁja/",
+      "example_translation": "La bénédiction ancestrale repose sur nous."
+    },
+    {
+      "word_id": "v3",
+      "term": "kont",
+      "phonetic_api": "/kɔnt/",
+      "phonetic_simple": "KONT",
+      "translation": "récit mythique / conte sacré / tradition orale (emprunt)",
+      "example_sentence": "Ce gba o fala kont cene.",
+      "example_phonetic": "/t͡ʃɛ ɡba o fala kɔnt t͡ʃɛnɛ/",
+      "example_translation": "Le sage déclame ce récit mythique."
+    },
+    {
+      "word_id": "v4",
+      "term": "wunwunëë",
+      "phonetic_api": "/wunwunəː/",
+      "phonetic_simple": "WOUN-WOUN-EE",
+      "translation": "depuis les origines des temps / fondement immuable",
+      "example_sentence": "Parol kene i mbe wunwunëë.",
+      "example_phonetic": "/paʁɔl kɛnɛ i mbɛ wunwunəː/",
+      "example_translation": "Cette parole est ancrée depuis l'origine des temps."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Mboonëë kwaɗgora i ɓanga ra saax cene wunwunëë !",
+      "phonetic_api": "/mbɔːnəː kwaɗɡɔʁa i ɓaŋɡa ʁa saːχ t͡ʃɛnɛ wunwunəː/",
+      "phonetic_simple": "MBOO-NEE KOUAD-GO-RA I BHAN-GA RA SAAKH TCHÉ-NÉ WOUN-WOUN-EE !",
+      "translation": "Puisse la bénédiction ancestrale résider à jamais au sein de ce domaine depuis l'origine des temps !",
+      "context": "Prononcer une incantation ou un souhait de bénédiction lors d'une cérémonie de mariage ou d'initiation."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Lëkwa ra mi, ila rya fëgba wunwun rya tyi rya faryal parol.",
+      "phonetic_api": "/ləkwa ʁa mi ila ʁja fəɡba wunwun ʁja tji ʁja faʁjal paʁɔl/",
+      "phonetic_simple": "LE-KOUA RA MI, I-LA RYA FE-GBA WOUN-WOUN RYA TYI RYA FAR-YAL PA-ROL.",
+      "translation": "Selon ma profonde conviction, il convient d'honorer nos fondements ancestraux avant que nous n'ouvrions la parole.",
+      "context": "Formule protocolaire obligatoire en introduction d'un grand discours d'alliance."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'intensification sacrée par l'allongement de l'optatif : '-ëë'",
+      "explanation": "Dans le registre soutenu et cérémoniel, la finale des morphèmes temporels ou lexicaux comme 'wunwun' (racine) ou 'mboonë' (optatif) subit un allongement vocalique obligatoire pour conférer une dimension spirituelle, intemporelle ou sacrée à l'énoncé.",
+      "rules": [
+        "Base lexicale + [Allongement vocalique final] = Registre solennel / Valeur sacrée"
+      ],
+      "examples": [
+        {
+          "structure": "wunwunëë",
+          "phonetic_api": "/wunwunəː/",
+          "meaning": "depuis les racines éternelles du temps"
+        }
+      ]
+    },
+    {
+      "concept": "La structure honorifique d'allégeance aux aînés",
+      "explanation": "Pour s'adresser respectueusement à une assemblée ou aux autorités coutumières, l'orateur utilise la construction verbale transitive directe avec le verbe de vénération 'fëgba' placé immédiatement devant le titre de noblesse 'ce gba' (le sage/l'ancien).",
+      "rules": [
+        "Sujet + fëgba + ce gba + [Complément de lignée]"
+      ],
+      "examples": [
+        {
+          "structure": "Nyi fëgba ce gba cene.",
+          "phonetic_api": "/ɲi fəɡba t͡ʃɛ ɡba t͡ʃɛnɛ/",
+          "meaning": "Je salue et vénère humblement ce digne doyen d'âge."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Le Chef des Sages (Ce Gba)",
+      "text": "Rya bano-ko ra saax cene betyaraba rya tyekwa ra fala kont rya wunwunëë. Mboonëë can rya i boka !",
+      "phonetic_api": "/ʁja banɔkɔ ʁa saːχ t͡ʃɛnɛ bɛtjaʁaɓa ʁja tjɛkwa ʁa fala kɔnt ʁja wunwunəː mbɔːnəː t͡ʃan ʁja i boka/",
+      "phonetic_simple": "RYA BA-NO-KO RA SAAKH TCHÉ-NÉ BÉ-TYA-RA-BHA RYA TYÉ-KOUA RA FA-LA KONT RYA WOUN-WOUN-EE. MBOO-NEE TCHAN RYA I BO-KA !",
+      "translation": "Nous sommes venus en ce domaine sacré parce que nous voulons déclamer notre récit mythique originel. Puissent nos esprits être en paix !"
+    },
+    {
+      "speaker": "L'Orateur de l'Assemblée (Ce mbe Parol)",
+      "text": "Lëkwa ra mi, rya fëgba kwaɗgora wun, ce gba ! Nda wun a faryal kont, kante rya tyekwa ra fëgba parol wun.",
+      "phonetic_api": "/ləkwa ʁa mi ʁja fəɡba kwaɗɡɔʁa wun t͡ʃɛ ɡba nda wun a faʁjal kɔnt kantɛ ʁja tjɛkwa ʁa fəɡba paʁɔl wun/",
+      "phonetic_simple": "LE-KOUA RA MI, RYA FE-GBA KOUAD-GO-RA WOUN, TCHÉ GBA ! NDA WOUN A FAR-YAL KONT, KAN-TÉ RYA TYÉ-KOUA RA FE-GBA PA-ROL WOUN.",
+      "translation": "Selon notre humble conviction, nous accueillons avec révérence votre bénédiction sacrée, ô digne doyen ! Si vous commencez le récit, alors nous nous engageons à vénérer chacune de vos paroles."
+    },
+    {
+      "speaker": "Le Chef des Sages (Ce Gba)",
+      "text": "I boka gba. Kont rya i mbe wunwunëë, ine gba rya faryal fbyar kene !",
+      "phonetic_api": "/i boka ɡba kɔnt ʁja i mbɛ wunwunəː inɛ ɡba ʁja faʁjal fbjaʁ kɛnɛ/",
+      "phonetic_simple": "I BO-KA GBA. KONT RYA I MBÉ WOUN-WOUN-EE, I-NÉ GBA RYA FAR-YAL FBYAR KÉ-NÉ !",
+      "translation": "Tout est accompli. Notre conte est ancré dans l'éternité des temps, c'est pourquoi nous débutons la célébration en ce jour !"
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Wamey (Konyagi), la déclamation des contes ('kont') et l'art oratoire formel obéissent à un protocole immuable. Les récits mythologiques et historiques liés aux ancêtres ne peuvent être contés que la nuit tombée, en présence des sages du village qui en valident la stricte conformité traditionnelle.",
+    "La bénédiction ancestrale ('kwaɗgora') est considérée comme un fluide spirituel protecteur indispensable. Refuser ou ignorer les formules protocolaires d'allégeance au début d'un rassemblement coutumier disqualifie immédiatement la validité du discours de l'orateur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M2_L6_EX1",
+      "type": "multiple_choice",
+      "question": "Quel verbe du registre soutenu exprime l'action d'honorer ou de rendre un hommage sacré lors d'une cérémonie ?",
+      "options": [
+        "fala",
+        "fëgba",
+        "wetyal"
+      ],
+      "correct_answer": "fëgba",
+      "explanation": "'Fëgba' est le verbe du registre soutenu wamey qui sert à vénérer, honorer ou rendre hommage."
+    },
+    {
+      "exercise_id": "C1_M2_L6_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mboonëë [ ___ ] i ɓanga ra saax cene. (Puisse la bénédiction ancestrale résider dans cette concession.)",
+      "correct_answer": "kwaɗgora",
+      "hint": "Le substantif désignant la bénédiction sacrée ou la parole de paix des anciens."
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Structurer un récit simple d'événements révolus en wamey",
+    "Utiliser le suffixe ou la particule du parfait et du prétérit",
+    "Intégrer les connecteurs temporels du passé dans une narration"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne occlusive injective alvéolaire voisée /ɗ/ en position initiale et le phonème occlusif labio-vélaire sourd /kp/ ou voisé /ɡb/. Les alternances de voyelles ouvertes.",
+    "common_pitfalls": "Attention à ne pas confondre la particule d'accompli 'ko' placée en fin de verbe avec l'impératif poli 'ko'. C'est le ton et le contexte narratif qui déterminent le passé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "gwa-ko",
+      "phonetic_api": "/ɡwako/",
+      "phonetic_simple": "GOUA-KO",
+      "translation": "être allé / est parti (passé)",
+      "example_sentence": "Nyi gwa-ko ra Koundara.",
+      "example_phonetic": "/ɲi ɡwako ʁa kuŋdaʁa/",
+      "example_translation": "Je suis allé à Koundara."
+    },
+    {
+      "word_id": "v2",
+      "term": "bano-ko",
+      "phonetic_api": "/banɔkɔ/",
+      "phonetic_simple": "BA-NO-KO",
+      "translation": "être venu / est arrivé (passé)",
+      "example_sentence": "O bano-ko ra saax.",
+      "example_phonetic": "/o banɔkɔ ʁa saːχ/",
+      "example_translation": "Il est venu au village."
+    },
+    {
+      "word_id": "v3",
+      "term": "wetyal-ko",
+      "phonetic_api": "/wɛtjalkɔ/",
+      "phonetic_simple": "OUÉ-TYAL-KO",
+      "translation": "avoir acheté (passé)",
+      "example_sentence": "Mama wetyal-ko malo.",
+      "example_phonetic": "/mama wɛtjalkɔ malo/",
+      "example_translation": "Maman a acheté du riz."
+    },
+    {
+      "word_id": "v4",
+      "term": "fbyar cene",
+      "phonetic_api": "/fbjaʁ t͡ʃɛnɛ/",
+      "phonetic_simple": "FBYAR TCHÉ-NÉ",
+      "translation": "ce jour-là / autrefois",
+      "example_sentence": "Fbyar cene nyi boka.",
+      "example_phonetic": "/fbjaʁ t͡ʃɛnɛ ɲi boka/",
+      "example_translation": "Ce jour-là, j'allais bien."
+    },
+    {
+      "word_id": "v5",
+      "term": "gocen cene",
+      "phonetic_api": "/ɡɔt͡ʃɛn t͡ʃɛnɛ/",
+      "phonetic_simple": "GO-TCHEN TCHÉ-NÉ",
+      "translation": "ce matin-là",
+      "example_sentence": "Rya waawë gocen cene.",
+      "example_phonetic": "/ʁja waːwə ɡɔt͡ʃɛn t͡ʃɛnɛ/",
+      "example_translation": "Nous avons travaillé ce matin-là."
+    },
+    {
+      "word_id": "v6",
+      "term": "tyukwa-ko",
+      "phonetic_api": "/tjukwako/",
+      "phonetic_simple": "TYOU-KOUA-KO",
+      "translation": "s'est terminé / c'est fini",
+      "example_sentence": "Gwaawë ko tyukwa-ko.",
+      "example_phonetic": "/ɡwaːwə kɔ tjukwako/",
+      "example_translation": "Le travail est terminé."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Nyi gwa-ko ra marse fbyar cene.",
+      "phonetic_api": "/ɲi ɡwako ʁa maʁse fbjaʁ t͡ʃɛnɛ/",
+      "phonetic_simple": "NYI GOUA-KO RA MAR-SÉ FBYAR TCHÉ-NÉ",
+      "translation": "Je suis allé au marché ce jour-là.",
+      "context": "Entamer le récit de sa journée passée."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Wun a bano-ko ra saax mbiya gba ?",
+      "phonetic_api": "/wun a banɔkɔ ʁa saːχ mbija ɡba/",
+      "phonetic_simple": "WOUN A BA-NO-KO RA SAAKH MBI-YA GBA ?",
+      "translation": "N'es-tu pas venu au village hier ?",
+      "context": "Vérifier la présence passée d'un ami."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "ɓaba mi fala-ko saax kene.",
+      "phonetic_api": "/ɓaba mi falakɔ saːχ kɛnɛ/",
+      "phonetic_simple": "BHABA MI FA-LA-KO SAAKH KÉ-NÉ",
+      "translation": "Mon père a construit cette maison.",
+      "context": "Raconter une action historique ou mémorielle de la famille."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le suffixe de l'accompli (parfait) '-ko'",
+      "explanation": "Pour marquer qu'une action est totalement achevée, révolue et ancrée dans le passé, le wamey ajoute le morphème suffixé '-ko' directement au radical du verbe d'action.",
+      "rules": [
+        "Radical verbal + -ko = Passé accompli",
+        "Le pronom personnel sujet reste inchangé avant le verbe."
+      ],
+      "examples": [
+        {
+          "structure": "nyi wetyal-ko",
+          "phonetic_api": "/ɲi wɛtjalkɔ/",
+          "meaning": "j'ai acheté"
+        },
+        {
+          "structure": "o mëny-ko",
+          "phonetic_api": "/o məɲkɔ/",
+          "meaning": "il a bu"
+        }
+      ]
+    },
+    {
+      "concept": "L'ancrage temporel par la post-position démonstrative 'cene'",
+      "explanation": "Pour situer un moment précis du passé (le matin, le soir, le jour), on utilise le nom du moment suivi de la particule démonstrative de distance 'cene' (ce... là).",
+      "rules": [
+        "Nom temporel + cene = Temps défini dans le passé."
+      ],
+      "examples": [
+        {
+          "structure": "goka cene",
+          "phonetic_api": "/ɡɔka t͡ʃɛnɛ/",
+          "meaning": "cette nuit-là"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Mady, wun a gwa-ko ra Youkounkoun fbyar cene ?",
+      "phonetic_api": "/madi wun a ɡwako ʁa jukuŋkun fbjaʁ t͡ʃɛnɛ/",
+      "phonetic_simple": "MA-DY, WOUN A GOUA-KO RA JOU-KOUN-KOUN FBYAR TCHÉ-NÉ ?",
+      "translation": "Mady, es-tu allé à Youkounkoun ce jour-là ?"
+    },
+    {
+      "speaker": "Mady",
+      "text": "Gouè, nyi gwa-ko gocen cene. Nyi wetyal-ko kofon wëxyë ra marse.",
+      "phonetic_api": "/ɡwɛ ɲi ɡwako ɡɔt͡ʃɛn t͡ʃɛnɛ ɲi wɛtjalkɔ kɔfɔn wəχjə ʁa maʁse/",
+      "phonetic_simple": "GOUÈ, NYI GOUA-KO GO-TCHEN TCHÉ-NÉ. NYI OUÉ-TYAL-KO KO-FON WE-KHYE RA MAR-SÉ.",
+      "translation": "Oui, j'y suis allé ce matin-là. J'ai acheté un vêtement blanc au marché."
+    },
+    {
+      "speaker": "Samba",
+      "text": "Ah, i boka ! Reerom mi o bano-ko ra saax également ?",
+      "phonetic_api": "/ah i boka ʁeːʁɔm mi o banɔkɔ ʁa saːχ ɛɡalmɑ̃/",
+      "phonetic_simple": "AH, I BO-KA ! RÉÉ-ROM MI O BA-NO-KO RA SAAKH É-GAL-MAN ?",
+      "translation": "Ah, c'est super ! Mon frère est-il venu au village lui aussi ?"
+    },
+    {
+      "speaker": "Mady",
+      "text": "Gba, o fula bano gba. O waawë-ko ra suwé goka cene.",
+      "phonetic_api": "/ɡba o fula bano ɡba o waːwəkɔ ʁa suwe ɡɔka t͡ʃɛnɛ/",
+      "phonetic_simple": "GBA, O FOU-LA BA-NO GBA. O WAA-WÉ-KO RA SOU-WÉ GOKA TCHÉ-NÉ.",
+      "translation": "Non, il n'est pas venu. Il a travaillé en ville cette nuit-là."
+    }
+  ],
+  "cultural_notes": [
+    "L'art du récit et de la transmission orale historique est fondamental chez les Wamey. Se remémorer les faits passés, les migrations familiales ou les grands travaux collectifs d'autrefois structure l'identité intergénérationnelle lors des veillées au coin du feu.",
+    "La construction temporelle du passé fait souvent référence à de grands événements climatiques locaux (saison des pluies marquante, sécheresse) pour dater les faits plus anciens."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L4_EX1",
+      "type": "multiple_choice",
+      "question": "Quel suffixe est rattaché au verbe pour exprimer une action achevée au passé ?",
+      "options": [
+        "-ra",
+        "-ko",
+        "-ba"
+      ],
+      "correct_answer": "-ko",
+      "explanation": "Le suffixe '-ko' s'attache directement au radical verbal pour indiquer l'accompli/le passé."
+    },
+    {
+      "exercise_id": "B1_M2_L4_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Nyi wetyal-[ ___ ] malo gocen cene. (J'ai acheté du riz ce matin-là.)",
+      "correct_answer": "ko",
+      "hint": "Le suffixe verbal requis pour traduire le passé composé français."
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "lesson_id": "B1_M1_L3",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 3,
+  "title": "Exprimer ses goûts, ses préférences et ses sentiments",
+  "learning_objectives": [
+    "Exprimer et nuancer ses goûts artistiques, culinaires ou culturels",
+    "Formuler des préférences claires en utilisant des structures comparatives et superlatives",
+    "Décrire des états émotionnels et des sentiments profonds de manière nuancée",
+    "Maîtriser les verbes de sentiment régissant le cas Datif ou suivis de prépositions fixes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot 'Gefühl' se prononce [ɡəˈfyːl] : le préfixe ge- possède un e caduc très court, tandis que le Ü-Umlaut est long et tendu, le -h- médian étant totalement muet. Le digramme -ch- dans 'ich freue mich' ou 'traurig' correspond au son palatal doux [ç] (Ich-Laut). La diphtongue -eu- dans 'die Freude' ou 'enttäuscht' se réalise par le son unique [ɔɪ̯].",
+    "common_pitfalls": "Attention à la prononciation du suffixe -ig à la fin de l'adjectif 'traurig' : en allemand standard, il s'adoucit en [ɪç] et ne doit jamais se prononcer comme un 'g' dur ou un 'k'. Veillez à ne pas nasaliser le groupe -en dans 'begeistert' [bəˈɡaɪ̯stɐt]."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "das Gefühl",
+      "phonetic_api": "/das ɡəˈfyːl/",
+      "phonetic_simple": "DAS GHE-FUUL",
+      "translation": "le sentiment / l'émotion",
+      "example_sentence": "Es ist schwer, dieses Gefühl zu beschreiben.",
+      "example_phonetic": "/ɛs ɪst ʃveːɐ̯ ˈdiːzəs ɡəˈfyːl tsuː bəˈʃʁaɪ̯bn̩/",
+      "example_translation": "Il est difficile de décrire ce sentiment."
+    },
+    {
+      "word_id": "v2",
+      "term": "begeistert von",
+      "phonetic_api": "/bəˈɡaɪ̯stɐt fɔn/",
+      "phonetic_simple": "BE-GAIS-TERT FON",
+      "translation": "enthousiaste / passionné par (suivi du datif)",
+      "example_sentence": "Ich bin von deinem neuen Projekt begeistert.",
+      "example_phonetic": "/ɪç bɪn fɔn ˈdaɪ̯nəm ˈnɔɪ̯ən pʁoˈjɛkt bəˈɡaɪ̯stɐt/",
+      "example_translation": "Je suis enthousiasmé par ton nouveau projet."
+    },
+    {
+      "word_id": "v3",
+      "term": "enttäuscht",
+      "phonetic_api": "/ɛntˈtɔɪ̯ʃt/",
+      "phonetic_simple": "ENT-TOICHT",
+      "translation": "déçu",
+      "example_sentence": "Er war sehr enttäuscht über das Ergebnis.",
+      "example_phonetic": "/eːɐ̯ vaːɐ̯ zeːɐ̯ ɛntˈtɔɪ̯ʃt ˈyːbɐ das ɛɐ̯ˈɡeːpnɪs/",
+      "example_translation": "Il était très déçu du résultat."
+    },
+    {
+      "word_id": "v4",
+      "term": "stolz auf",
+      "phonetic_api": "/ʃtɔlts aʊ̯f/",
+      "phonetic_simple": "CHTOLTS AOUF",
+      "translation": "fier de (suivi de l'accusatif)",
+      "example_sentence": "Die Eltern sind sehr stolz auf ihre Tochter.",
+      "example_phonetic": "/diː ˈɛltɐn zɪnt zeːɐ̯ ʃtɔlts aʊ̯f ˈiːʁə ˈtɔxtɐ/",
+      "example_translation": "Les parents sont très fiers de leur fille."
+    },
+    {
+      "word_id": "v5",
+      "term": "die Freude",
+      "phonetic_api": "/diː ˈfʁɔɪ̯də/",
+      "phonetic_simple": "DII FROI-DE",
+      "translation": "la joie / le plaisir",
+      "example_sentence": "Musik bringt mir große Freude.",
+      "example_phonetic": "/muˈziːk bʁɪŋt miːɐ̯ ˈɡʁoːsə ˈfʁɔɪ̯də/",
+      "example_translation": "La musique m'apporte un grand plaisir."
+    },
+    {
+      "word_id": "v6",
+      "term": "hassen",
+      "phonetic_api": "/ˈhasn̩/",
+      "phonetic_simple": "HAS-NEN",
+      "translation": "haïr / détester",
+      "example_sentence": "Ich hasse es, im Stau zu stehen.",
+      "example_phonetic": "/ɪç ˈhasə ɛs ɪm ʃtaʊ̯ tsuː ˈʃteːən/",
+      "example_translation": "Je déteste rester coincé dans les embouteillages."
+    },
+    {
+      "word_id": "v7",
+      "term": "traurig",
+      "phonetic_api": "/ˈtʁaʊ̯ʁɪç/",
+      "phonetic_simple": "TRAOU-RICH",
+      "translation": "triste",
+      "example_sentence": "Der traurige Film hat mich zum Weinen gebracht.",
+      "example_phonetic": "/deːɐ̯ ˈtʁaʊ̯ʁɪɡə fɪlm hat mɪç tsʊm ˈvaɪ̯nən ɡəˈbʁaxt/",
+      "example_translation": "Le film triste m'a fait pleurer."
+    },
+    {
+      "word_id": "v8",
+      "term": "bevorzugen",
+      "phonetic_api": "/bəˈfoːɐ̯ˌtsuːɡn̩/",
+      "phonetic_simple": "BE-FOOR-TSOU-GHEN",
+      "translation": "préférer / privilégier",
+      "example_sentence": "Ich bevorzuge Kaffee statt Tee.",
+      "example_phonetic": "/ɪç bəˈfoːɐ̯ˌtsuːɡə ˈkafeː ʃtat teː/",
+      "example_translation": "Je préfère le café au thé."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ich freue mich sehr auf unseren gemeinsamen Urlaub.",
+      "phonetic_api": "/ɪç ˈfʁɔɪ̯ə mɪç zeːɐ̯ aʊ̯f ˈʊnzəʁnən ɡəˈmaɪ̯nzaːmən ˈuːɐ̯laʊ̯p/",
+      "phonetic_simple": "ICH FROI-E MICH ZEER AOUF OUN-ZERN-EN GHE-MAIN-ZA-MEN OOUR-LAOUP",
+      "translation": "Se réjouir d'avance (perspective future) de nos vacances ensemble.",
+      "context": "Exprimer une attente joyeuse pour un événement futur."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Es liegt mir viel daran, diese Prüfung erfolgreich zu bestehen.",
+      "phonetic_api": "/ɛs liːkt miːɐ̯ fiːl daˈʁan ˈdiːzə ˈpʁyːfʊŋ ɛʁˈfɔlkˌʁaɪ̯ç tsuː bəˈʃteːən/",
+      "phonetic_simple": "ES LIIKT MIIR FIIL DA-RAN DII-ZE PRUU-FOUNG ER-FOLK-RAICH TSOU BE-CHTEE-EN",
+      "translation": "Cela me tient beaucoup à cœur de réussir cet examen.",
+      "context": "Formuler une ambition personnelle forte."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Klassische Literatur gefällt mir weitaus besser als moderne Romane.",
+      "phonetic_api": "/ˈklasɪʃə lɪtəʁaˈtuːɐ̯ ɡəˈfɛlt miːɐ̯ ˈvaɪ̯tˈaʊ̯s ˈbɛsɐ als moˈdɛʁnə ʁoˈmaːnə/",
+      "phonetic_simple": "KLAS-I-CHE LI-TE-RA-TOOUR GHE-FELT MIIR VAIT-AOUS BES-SER ALS MO-DER-NE RO-MA-NE",
+      "translation": "La littérature classique me plaît de loin beaucoup mieux que les romans modernes.",
+      "context": "Exprimer une préférence culturelle nuancée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ich habe das Gefühl, dass wir uns missverstanden haben.",
+      "phonetic_api": "/ɪç ˈhaːbə das ɡəˈfyːl das viːɐ̯ ʊns ˈmɪsfɛɐ̯ˌʃtandn̩ ˈhaːbn̩/",
+      "phonetic_simple": "ICH HA-BE DAS GHE-FUUL DAS VIIR OUNS MIS-FER-CHTAN-DEN HA-BEN",
+      "translation": "J'ai l'impression (le sentiment) que nous nous sommes mal compris.",
+      "context": "Clarifier une situation relationnelle ou un quiproquo."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La différence cruciale entre 'sich freuen auf' et 'sich freuen über'",
+      "explanation": "Le verbe pronominal réfléchi 'sich freuen' régit la préposition mixte ou fixe 'auf' ou 'über' suivie du cas Accusatif. Le choix de la préposition modifie totalement le rapport temporel à l'action.",
+      "rules": [
+        "On emploie 'sich freuen auf' (+ Accusatif) lorsque l'on se réjouit à l'idée d'un événement futur qui n'a pas encore eu lieu (attente joyeuse).",
+        "On emploie 'sich freuen über' (+ Accusatif) lorsque l'on exprime sa joie concernant un événement présent ou passé (un cadeau reçu, une nouvelle apprise)."
+      ],
+      "examples": [
+        {
+          "structure": "Ich freue mich auf die Party am Samstag. (Futur)",
+          "phonetic_api": "/ɪç ˈfʁɔɪ̯ə mɪç aʊ̯f diː ˈpaːʁti am ˈzamstaːk/",
+          "meaning": "Je me réjouis d'avance de la fête de samedi."
+        },
+        {
+          "structure": "Ich freue mich über dein schönes Geschenk. (Présent/Passé)",
+          "phonetic_api": "/ɪç ˈfʁɔɪ̯ə mɪç ˈyːbɐ daɪ̯n ˈʃøːnə ɡəˈʃɛŋk/",
+          "meaning": "Je me réjouis de ton beau cadeau."
+        }
+      ]
+    },
+    {
+      "concept": "Les verbes de goût régissant structurellement le cas Datif",
+      "explanation": "En allemand, des verbes essentiels comme 'gefallen' (plaire) ou 'schmecken' (avoir bon goût) inversent la logique syntaxique du français : ce qui plaît devient le sujet, et la personne qui ressent le goût se met au cas Datif.",
+      "rules": [
+        "La structure est : [La chose/L'objet = Sujet au Nominatif] + [Verbe conjugué] + [La personne = Objet au Datif].",
+        "Les pronoms personnels réguliers au datif sont : ich -> mir ; du -> dir ; er/es -> ihm ; sie -> ihr ; wir -> uns ; ihr -> euch ; sie/Sie -> ihnen/Ihnen."
+      ],
+      "examples": [
+        {
+          "structure": "Dieses Buch gefällt mir sehr. (mir = Datif)",
+          "phonetic_api": "/ˈdiːzəs buːx ɡəˈfɛlt miːɐ̯ zeːɐ̯/",
+          "meaning": "Ce livre me plaît beaucoup (litt. 'Ce livre plaît à moi')."
+        },
+        {
+          "structure": "Schmeckt dir die Suppe? (dir = Datif)",
+          "phonetic_api": "/ʃmɛkt diːɐ̯ diː ˈzʊpə/",
+          "meaning": "Est-ce que la soupe te plaît / est bonne ? (litt. 'La soupe goûte-t-elle à toi ?')"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Nils",
+      "text": "Sag mal, Julia, wie hat dir eigentlich das Konzert gestern gefallen? Ich war absolut begeistert von der Band!",
+      "phonetic_api": "/zaːk maːl ˈjuːli̯a viː hat diːɐ̯ ˈaɪ̯ɡn̩tlɪç das kɔnˈtsɛʁt ˈɡɛstəʁn ɡəˈfɛlln̩ ɪç vaːɐ̯ absoˈluːt bəˈɡaɪ̯stɐt fɔn deːɐ̯ bɛnt/",
+      "phonetic_simple": "ZAK MAL YOU-LIA VII HAT DIIR AI-GHENT-LICH DAS KON-TSERT GHE-STERN GHE-FAL-EN ICH VAR AB-SO-LUUT BE-GAIS-TERT FON DEER BEND",
+      "translation": "Dis-moi, Julia, comment as-tu trouvé le concert d'hier en fait ? J'ai été absolument enthousiasmé par le groupe !"
+    },
+    {
+      "speaker": "Julia",
+      "text": "Ehrlich gesagt war ich ein bisschen enttäuscht. Die Musik gefällt mir normalerweise gut, aber der Sänger wirkte so traurig und unmotiviert.",
+      "phonetic_api": "/ˈeːɐ̯lɪç ɡəˈzaːkt vaːɐ̯ ɪç aɪ̯n ˈbɪsçən ɛntˈtɔɪ̯ʃt diː muˈziːk ɡəˈfɛlt miːɐ̯ nɔʁˈmaːlɐˌvaɪ̯zə ɡuːt ˈaːbɐ deːɐ̯ ˈzɛŋɐ ˈvɪʁktə zoː ˈtʁaʊ̯ʁɪç ʊnt ˈʊnmoːtiˌviːɐ̯t/",
+      "phonetic_simple": "EER-LICH GHE-SAKT VAR ICH AIN BIS-CHEN ENT-TOICHT DII MUU-ZIIK GHE-FELT MIIR NOR-MA-LER-VAI-ZE GOUT A-BER DEER ZEN-ER VIRK-TE SOO TRAOU-RICH OUNT OUN-MO-TI-VIIRT",
+      "translation": "À vrai dire, j'ai été un peu déçue. D'habitude leur musique me plaît bien, mais le chanteur avait l'air tellement triste et démotivé."
+    },
+    {
+      "speaker": "Nils",
+      "text": "Echt? Das fand ich gar nicht. Aber schade, dass es dir nicht geschmeckt hat. Weißt du was? Ich freue mich trotzdem schon auf das nächste Festival im Sommer!",
+      "phonetic_api": "/ɛçt das fant ɪç ɡaːɐ̯ nɪçt ˈaːbɐ ˈʃaːdə das ɛs diːɐ̯ nɪçt ɡəˈʃmɛkt hat vaɪ̯st duː vas ɪç ˈfʁɔɪ̯ə mɪç ˈtʁɔtsdəm ʃoːn aʊ̯f das ˈnɛːçstə ˈfɛstɪvəl ɪm ˈzɔmɐ/",
+      "phonetic_simple": "ECHT DAS FANT ICH GAR NICHT A-BER CHA-DE DAS ES DIIR NICHT GHE-CHMEKT HAT VAIST DOU VAS ICH FROI-E MICH TROTS-DEM CHOON AOUF DAS NEEKS-TE FES-TI-VAL IM ZOM-ER",
+      "translation": "Vraiment ? Je n'ai pas trouvé du tout. Mais dommage que ça ne t'ait pas emballée. Tu sais quoi ? Je me réjouis quand même d'avance pour le prochain festival cet été !"
+    },
+    {
+      "speaker": "Julia",
+      "text": "Ja, auf das Sommerfestival freue ich mich auch. Da spielen viele Bands, die ich stark bevorzuge.",
+      "phonetic_api": "/jaː aʊ̯f das ˈzɔmɐˈfɛstɪvəl ˈfʁɔɪ̯ə mɪç aʊ̯x daː ˈʃpiːlən ˈfiːlə bɛnts diː ɪç ʃtaʁk bəˈfoːɐ̯ˌtsuːɡə/",
+      "phonetic_simple": "YA AOUF DAS ZOM-ER-FES-TI-VAL FROI-E MICH AOUK DA CHPII-LEN FII-LE BENDS DII ICH CHTARK BE-FOOR-TSOU-GHE",
+      "translation": "Oui, pour le festival d'été, je me réjouis d'avance aussi. De nombreux groupes que je préfère largement s'y produiront."
+    }
+  ],
+  "cultural_notes": [
+    "Les Allemands expriment généralement leurs sentiments et leurs critiques de manière très directe ('Direktheit'). Dire ouvertement qu'un plat n'est pas bon ou qu'un concert est décevant est perçu comme de la sincérité constructive plutôt que comme de l'impolitesse.",
+    "La notion de 'Vorfreude' (la joie de l'attente / la joie anticipée) est un concept culturel majeur en Allemagne. Il existe d'ailleurs un proverbe très populaire : 'Vorfreude ist die schönste Freude' (La joie de l'attente est la plus belle des joies).",
+    "Pour féliciter quelqu'un chaleureusement d'un succès dont il est fier, la formule culturelle standard est 'Herzlichen Glückwunsch!' ou de façon plus moderne 'Ich freue mich riesig für dich!' (Je me réjouis énormément pour toi)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Vous venez d'ouvrir une lettre contenant une excellente nouvelle immédiate. Quelle structure utilisez-vous pour exprimer votre joie ?",
+      "options": [
+        "Ich freue mich auf die Nachricht.",
+        "Ich freue mich über die Nachricht.",
+        "Ich interessiere mich für die Nachricht."
+      ],
+      "correct_answer": "Ich freue mich über die Nachricht.",
+      "explanation": "La nouvelle étant déjà reçue et présente, l'expression de la joie immédiate ou passée exige structurellement la préposition 'über'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Deine neue Idee gefällt [ ___ ] (à elle) überhaupt nicht.",
+      "correct_answer": "ihr",
+      "hint": "Entrez le pronom personnel de la troisième personne du singulier féminin ('sie') décliné au cas datif, requis par le verbe gefallen."
+    }
+  ]
+}

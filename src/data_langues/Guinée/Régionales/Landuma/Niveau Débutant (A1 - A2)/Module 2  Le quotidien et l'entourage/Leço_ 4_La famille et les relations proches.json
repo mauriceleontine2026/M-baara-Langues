@@ -1,0 +1,115 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Identifier les membres de la famille nucléaire et élargie",
+    "Utiliser les adjectifs possessifs de base pour décrire ses relations"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "En landouma, l'accentuation tonale porte une charge distinctive majeure. Les voyelles longues doivent être bien étirées pour ne pas confondre les termes de parenté.",
+    "common_pitfalls": "Veillez à bien marquer la différence entre les occlusives sonores et sourdes en fin de mot, souvent assourdies par les francophones."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v4_1",
+      "term": "baba",
+      "phonetic_api": "/ba.ba/",
+      "phonetic_simple": "BA-BA",
+      "translation": "père",
+      "example_sentence": "baba kɔn",
+      "example_phonetic": "/ba.ba kɔn/",
+      "example_translation": "mon père"
+    },
+    {
+      "word_id": "v4_2",
+      "term": "mama",
+      "phonetic_api": "/ma.ma/",
+      "phonetic_simple": "MA-MA",
+      "translation": "mère",
+      "example_sentence": "mama kɔn",
+      "example_phonetic": "/ma.ma kɔn/",
+      "example_translation": "ma mère"
+    },
+    {
+      "word_id": "v4_3",
+      "term": "wuto",
+      "phonetic_api": "/wu.to/",
+      "phonetic_simple": "WOU-TO",
+      "translation": "enfant",
+      "example_sentence": "wuto kɔn",
+      "example_phonetic": "/wu.to kɔn/",
+      "example_translation": "mon enfant"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p4_1",
+      "original": "baba kɔn mɔ lɔndɔ",
+      "phonetic_api": "/ba.ba kɔn mɔ lɔn.dɔ/",
+      "phonetic_simple": "BA-BA KON MO LON-DO",
+      "translation": "Mon père est ici",
+      "context": "Présentation de son entourage à la maison"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les possessifs de base",
+      "explanation": "Les déterminants possessifs suivent généralement le nom auquel ils se rapportent et s'accordent selon la classe nominale du terme de parenté.",
+      "rules": [
+        "Le possessif de la première personne singulier est souvent marqué par kɔn après le nom.",
+        "L'ordre des mots place invariablement le possesseur ou le pronom possessif après le substantif possédé."
+      ],
+      "examples": [
+        {
+          "structure": "Nom + kɔn",
+          "phonetic_api": "/wuto kɔn/",
+          "meaning": "Mon enfant"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Sékou",
+      "text": "baba mɔ lɔndɔ ?",
+      "phonetic_api": "/ba.ba mɔ lɔn.dɔ/",
+      "phonetic_simple": "BA-BA MO LON-DO",
+      "translation": "Ton père est-il ici ?"
+    },
+    {
+      "speaker": "Amadou",
+      "text": "ɔn-ɔn, baba kɔn mɔ tana",
+      "phonetic_api": "/ɔn.ɔn ba.ba kɔn mɔ ta.na/",
+      "phonetic_simple": "ON-ON BA-BA KON MO TA-NA",
+      "translation": "Non, mon père est là-bas."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la communauté Landouma, la notion de famille dépasse largement le cadre nucléaire. Un oncle paternel est souvent appelé et considéré comme un père."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex4_1",
+      "type": "multiple_choice",
+      "question": "Que signifie 'mama kɔn' ?",
+      "options": [
+        "Mon père",
+        "Ma mère",
+        "Mon frère"
+      ],
+      "correct_answer": "Ma mère",
+      "explanation": "'mama' désigne la mère et 'kɔn' indique la possession de la première personne."
+    },
+    {
+      "exercise_id": "ex4_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "baba [ ___ ] mɔ lɔndɔ (Mon père est ici)",
+      "correct_answer": "kɔn",
+      "hint": "Particule possessive de la première personne"
+    }
+  ]
+}

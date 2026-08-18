@@ -1,0 +1,246 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Maîtriser l'usage de l'accompli (Al-Māḍī) pour narrer des actions passées uniques et terminées",
+    "Utiliser la structure composée 'Kāna + Inaccompli' pour exprimer l'imparfait de description ou d'habitude",
+    "Articuler un récit chronologique fluide en utilisant des connecteurs temporels intermédiaires"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon est centrée sur la vocalisation des suffixes de l'accompli. Le son /t/ (ت) final des conjugaisons comme 'Irtadayt' ou 'Katabtu' doit être articulé de manière nette, sans aspiration excessive. Le sound /ðˤ/ (ظ) apparaît dans 'Muntadham' (régulier) et le /dˤ/ (ض) structure le mot 'Al-Māḍī' (le passé).",
+    "common_pitfalls": "La confusion fréquente réside dans la prononciation de la marque de la première personne du singulier à l'accompli '-tu' (تُ) avec la deuxième personne du masculin '-ta' (تَ) ou du féminin '-ti' (تِ). Une mauvaise distinction change totalement le sujet du récit. Marquez bien la voyelle longue dans Kāna (كَانَ) sans la raccourcir."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "الْمَاضِي",
+      "phonetic_api": "/al.maː.dˤiː/",
+      "phonetic_simple": "AL-MAA-DII",
+      "translation": "Le passé (temps grammatical ou historique)",
+      "example_sentence": "فِي الشَّهْرِ الْمَاضِي سَافَرْتُ",
+      "example_phonetic": "/fiːʃ ʃah.ril maː.dˤiː saː.far.tu/",
+      "example_translation": "Le mois passé, j'ai voyagé"
+    },
+    {
+      "word_id": "v2",
+      "term": "قِصَّةٌ",
+      "phonetic_api": "/qisˤ.sˤa.tun/",
+      "phonetic_simple": "KIS-SA-TOUN",
+      "translation": "Une histoire / Un récit / Un conte",
+      "example_sentence": "قَرَأْتُ قِصَّةً قَدِيمَةً",
+      "example_phonetic": "/qa.raʔ.tu qisˤ.sˤa.tan qa.diː.ma.tan/",
+      "example_translation": "J'ai lu une vieille histoire"
+    },
+    {
+      "word_id": "v3",
+      "term": "حَدَثٌ",
+      "phonetic_api": "/ħa.da.θun/",
+      "phonetic_simple": "HA-DA-THOUN",
+      "translation": "Un événement / Un fait",
+      "example_sentence": "هَذَا حَدَثٌ هَامٌّ جِدًّا",
+      "example_phonetic": "/.../",
+      "example_translation": "C'est un événement très important"
+    },
+    {
+      "word_id": "v4",
+      "term": "فَجْأَةً",
+      "phonetic_api": "/fadʒ.ʔa.tan/",
+      "phonetic_simple": "FADJ-A-TAN",
+      "translation": "Soudainement / Tout à coup",
+      "example_sentence": "فَجْأَةً بَدَأَ الْمَطَرُ",
+      "example_phonetic": "/fadʒ.ʔa.tan ba.da.ʔal ma.tˤa.ru/",
+      "example_translation": "Soudainement, la pluie a commencé"
+    },
+    {
+      "word_id": "v5",
+      "term": "حِينَمَا",
+      "phonetic_api": "/ħiː.na.maː/",
+      "phonetic_simple": "HII-NA-MAA",
+      "translation": "Lorsque / Quand (conjonction de temps)",
+      "example_sentence": "حِينَمَا وَصَلْتُ اتَّصَلْتُ بِكَ",
+      "example_phonetic": "/.../",
+      "example_translation": "Lorsque je suis arrivé, je t'ai appelé"
+    },
+    {
+      "word_id": "v6",
+      "term": "مُنْذُ",
+      "phonetic_api": "/mun.ðu/",
+      "phonetic_simple": "MOUN-THOU",
+      "translation": "Depuis / Il y a (durée passée)",
+      "example_sentence": "أَسْكُنُ هُنَا مُنْذُ سَنَتَيْنِ",
+      "example_phonetic": "/.../",
+      "example_translation": "J'habite ici depuis deux ans"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "مَاذَا فَعَلْتَ فِي عُطْلَةِ نِهَايَةِ الأُسْبُوعِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MAA-THAA FA-AL-TA FII OUT-LA-TI NI-HAA-YA-TIL OUS-BOUU",
+      "translation": "Qu'as-tu fait durant le week-end ? (à un homme)",
+      "context": "Question de base pour inciter l'interlocuteur à produire un récit au passé."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "عِنْدَمَا كُنْتُ صَغِيرًا كُنْتُ أَلْعَبُ كَثِيرًا",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "IN-DA-MAA KOUN-TOU SA-GHII-RAN KOUN-TOU AL-A-BOU KA-THII-RAN",
+      "translation": "Quand j'étais petit, je jouais beaucoup",
+      "context": "Structure type pour évoquer des souvenirs ou des habitudes d'enfance (imparfait)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "سَافَرْتُ إِلَى مِصْرَ فِي الصَّيْفِ الْمَاضِي",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "SAA-FAR-TOU I-LAA MIS-RA FIL SAY-FIL MAA-DII",
+      "translation": "J'ai voyagé en Égypte l'été dernier",
+      "context": "Enoncer une action passée unique, datée et totalement achevée."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "بَعْدَ ذَلِكَ خَرَجْنَا مَعَ الأَصْدِقَاءِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "BA'-DA THA-LI-KA KHA-RADJ-NAA MA-AL AS-DI-KAA-I",
+      "translation": "Après cela, nous sommes sortis avec les amies",
+      "context": "Connecteur logique servant à marquer la transition chronologique dans la narration."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "كَانَ الطَّقْسُ بَارِدًا جِدًّا أَمْسِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "KAA-NAL TAK-SOU BAA-RI-DAN DJID-DAN AM-SI",
+      "translation": "Le temps était très froid hier",
+      "context": "Poser le décor ou faire une description atmosphérique passée."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'accompli (Al-Māḍī) pour les actions ponctuelles",
+      "explanation": "L'arabe utilise le système des aspects plutôt que des temps stricts. L'accompli (Al-Māḍī) indique qu'une action est vue comme totalement réalisée et achevée au moment où l'on parle. Il se construit par suffixation sur la racine verbale.",
+      "rules": [
+        "Pour dire 'J'ai fait' / 'Je fis' : on ajoute le suffixe '-tu' (تُ) à la racine modifiée (ex: Kataba -> Katabtu).",
+        "Pour dire 'Tu as fait' (masc.) : suffixe '-ta' (تَ).",
+        "Pour dire 'Il a fait' : c'est la forme de base nue de la racine sans suffixe (ex: Kataba)."
+      ],
+      "examples": [
+        {
+          "structure": "قَرَأْتُ الْكِتَابَ أَمْسِ",
+          "phonetic_api": "/qa.raʔ.tul ki.taː.ba ʔam.si/",
+          "meaning": "J'ai lu le livre hier (Action achevée)"
+        },
+        {
+          "structure": "وَصَلَ الْمُدِيرُ مُتَأَخِّرًا",
+          "phonetic_api": "/wa.sˤa.lal mu.diː.ru mu.ta.ʔax.xi.ran/",
+          "meaning": "Le directeur est arrivé en retard"
+        }
+      ]
+    },
+    {
+      "concept": "L'imparfait de description ou d'habitude : 'Kāna + Inaccompli'",
+      "explanation": "Pour traduire l'imparfait français servant à décrire un décor passé ou une action habituelle/répétitive dans le passé, l'arabe utilise une structure verbale composée très précise.",
+      "rules": [
+        "On conjugue d'abord le verbe auxiliaire d'existence Kāna (كَانَ - être) à l'accompli selon le sujet.",
+        "On fait immédiatement suivre ce verbe par le verbe d'action principal conjugué à l'inaccompli (présent indicatif).",
+        "L'ensemble exprime l'action en cours de déroulement ou répétée dans le passé ('Je faisais')."
+      ],
+      "examples": [
+        {
+          "structure": "كُنْتُ أَسْكُنُ فِي بَارِيسَ",
+          "phonetic_api": "/kun.tu ʔas.ku.nu fiː baː.riː.sa/",
+          "meaning": "J'habitais à Paris (Kuntu [j'étais] + Askunu [j'habite])"
+        },
+        {
+          "structure": "كَانَ يَمْشِي كُلَّ صَبَاحٍ",
+          "phonetic_api": "/kaː.na jam.ʃiː kul.la sˤa.baː.ħin/",
+          "meaning": "Il marchait chaque matin (Kāna [il était] + Yamshī [il marche])"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "لَيْلَى (Layla)",
+      "text": "أَهْلًا مُصْطَفَى. كَيْفَ كَانَتْ رِحْلَتُكَ إِلَى الْمَغْرِبِ فِي الشَّهْرِ الْمَاضِي؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN MOUS-TA-FAA. KAY-FA KAA-NAT RIH-LA-TOU-KA I-LAL MAGH-RIBI FIS CHAH-RIL MAA-DII",
+      "translation": "Salut Mustafa. Comment s'est passé ton voyage au Maroc le mois dernier ?"
+    },
+    {
+      "speaker": "مُصْطَفَى (Mustafa)",
+      "text": "أَهْلًا لَيْلَى. كَانَتْ رِحْلَةً رَائِعَةً جِدًّا ! عِنْدَمَا كُنْتُ فِي مَرَّاكُشَ، كُنْتُ أَزُورُ الأَسْوَاقَ الْقَدِيمَةَ كُلَّ يَوْمٍ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN LAY-LA. KAA-NAT RIH-LA-TAN RAA-I-A DJID-DAN ! IN-DA-MAA KOUN-TOU FII MAR-RAA-KOUCH, KOUN-TOU A-ZOO-ROUL AS-WAA-KAL KA-DII-MA KUL-LA YAWM",
+      "translation": "Salut Layla. C'était un voyage magnifique ! Quand j'étais à Marrakech, je visitais les souks anciens tous les jours."
+    },
+    {
+      "speaker": "لَيْلَى (Layla)",
+      "text": "مَاشَاءَ اللهُ. وَهَلْ زُرْتَ مَدِينَةً أُخْرَى أَيْضًا؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MAA-CHAA-AL-LAH. WA HAL ZOUR-TA MA-DII-NA-TAN OUKH-RAA AY-DAN",
+      "translation": "Merveilleux. Et as-tu visité une autre ville aussi ?"
+    },
+    {
+      "speaker": "مُصْطَفَى (Mustafa)",
+      "text": "نَعَمْ، فِي الأُسْبُوعِ الثَّانِي، سَافَرْتُ إِلَى الدَّارِ الْبَيْضَاءِ. وَهُنَاكَ شَاهَدْتُ مَسْجِدَ الْحَسَنِ الثَّانِي الْكَبِيرَ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "NA-AM, FIL OUS-BOUU ATH-THAA-NII, SAA-FAR-TOU I-LAD DAA-RIL BAY-DAA. WA HOU-NAA-KA CHAA-HAD-TOU MAS-DJI-DAL HA-SA-NITH THAA-NIL KA-BIIR",
+      "translation": "Oui, la deuxième semaine, j'ai voyagé à Casablanca. Et là-bas, j'ai regardé la grande mosquée Hassan II."
+    },
+    {
+      "speaker": "لَيْلَى (Layla)",
+      "text": "فَجْأَةً، هَلْ وَاجَهْتَ أَيَّ مُشْكِلَةٍ فِي الطَّرِيقِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "FADJ-A-TAN, HAL WAA-DJAH-TA AY-YA MOUCH-KI-LA FIT TA-RIIK",
+      "translation": "Au fait (soudainement parlant), as-tu rencontré un problème sur la route ?"
+    },
+    {
+      "speaker": "مُصْطَفَى (Mustafa)",
+      "text": "لَا، كَانَ النَّاسُ لُطَفَاءَ جَدًّا وَسَاعَدُونِي حِينَمَا كُنْتُ أَبْحَثُ عَنِ الْفُنْدُقِ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "LAA, KAA-NAN NAA-SOU LOU-TA-FAA-A DJID-DAN WA SAA-A-DOO-NII HII-NA-MAA KOUN-TOU AB-HA-THOU A-NIL FOUN-DOUK",
+      "translation": "Non, les gens étaient très gentils et m'ont aidé lorsque je cherchais l'hôtel."
+    }
+  ],
+  "cultural_notes": [
+    "Le voyage et le récit dans la culture arabe : La littérature de voyage (أَدَبُ الرِّحْلَةِ - Adab ar-riḥlah) est un genre majeur et historique de la culture arabo-islamique. Le plus célèbre représentant en est Ibn Battuta (ابن بطوطة) au XIVe siècle, qui a parcouru le monde connu et consigné ses récits. Raconter ses déplacements reste un art conversationnel très valorisé.",
+    "L'expression de la gratitude rétrospective : Dans la narration de faits passés heureux, il est d'usage constant d'insérer des formules de louanges ou de remerciements spirituels, ancrant ainsi l'histoire vécue dans une dimension de gratitude culturelle globale."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L4_ex1",
+      "type": "multiple_choice",
+      "question": "Comment traduisez-vous précisément la phrase à l'imparfait : 'Nous écrivions des lettres chaque mois' ?",
+      "options": [
+        "كَتَبْنَا رَسَائِلَ كُلَّ شَهْرٍ (Katabnā rasā'ila kulla shahrin)",
+        "كُنَّا نَكْتُبُ رَسَائِلَ كُلَّ شَهْرٍ (Kunnā naktubu rasā'ila kulla shahrin)",
+        "يَكْتُبُونَ رَسَائِلَ فِي الشَّهْرِ (Yaktubūna rasā'ila fish shahri)"
+      ],
+      "correct_answer": "كُنَّا نَكْتُبُ رَسَائِلَ كُلَّ شَهْرٍ (Kunnā naktubu rasā'ila kulla shahrin)",
+      "explanation": "La structure de l'habitude passée requiert l'auxiliaire Kāna décliné à la 1ère personne du pluriel (Kunnā) suivi de l'inaccompli (Naktubu)."
+    },
+    {
+      "exercise_id": "B1_M2_L4_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'J'ai écrit', on attache le suffixe de la première personne à la racine : كَتَبْـ[ ___ ]",
+      "correct_answer": "تُ",
+      "hint": "C'est la marque finale portant une Damma propre au sujet 'Je' à l'accompli."
+    },
+    {
+      "exercise_id": "B1_M2_L4_ex3",
+      "type": "multiple_choice",
+      "question": "Que signifie le connecteur narratif 'فَجْأَةً' (Faj'atan) au milieu d'un récit ?",
+      "options": [
+        "Ensuite",
+        "Soudainement / Tout à coup",
+        "Heureusement"
+      ],
+      "correct_answer": "Soudainement / Tout à coup",
+      "explanation": "Faj'atan sert à introduire un élément perturbateur ou une action soudaine venant rompre le cours linéaire d'une description passée."
+    }
+  ]
+}

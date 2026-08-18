@@ -1,0 +1,170 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "Temps complexes, aspect et modes avancés (le subjonctif et l'antériorité)",
+  "learning_objectives": [
+    "Maîtriser le système aspectuel bédik en opposant l'inaccompli processif et l'accompli lointain",
+    "Exprimer l'antériorité immédiate d'une action par rapport à une situation passée",
+    "Formuler des souhaits, des bénédictions rituelles ou des requêtes indirectes via le mode subjonctif-injonctif"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La particule d'antériorité accomplie lointaine 'makh-ə̀k' associe la fricative vélaire sourde /χ/ et le suffixe bas descendant /ək/. Le morphème du subjonctif rituel 'nē-khá' comporte une voyelle longue tendue /eː/ suivie d'une occlusive injective palatale ou d'une vélaire aspirée selon le flux.",
+    "common_pitfalls": "Attention à ne pas télescoper la frontière syllabique dans 'makh-ə̀k'. Prononcer un 'mak' sec français brise la marque de l'antériorité mémorielle et modifie l'aspect de votre récit."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Makh-ə̀k",
+      "phonetic_api": "/maχ.ək/",
+      "phonetic_simple": "MAKH-ƐK",
+      "translation": "Avoir déjà fait / Avait accompli dans un passé lointain ou antérieur",
+      "example_sentence": "Mē makh-ə̀k sakhó ga-tí",
+      "example_phonetic": "/meː maχ.ək sa.χo ɡa.ti/",
+      "example_translation": "J'avais déjà travaillé là-bas (il y a longtemps)."
+    },
+    {
+      "word_id": "v2",
+      "term": "Nē-khá",
+      "phonetic_api": "/neː.χa/",
+      "phonetic_simple": "NEE-RHÁ",
+      "translation": "Que (Particule introduisant le subjonctif ou le souhait rituel)",
+      "example_sentence": "Nē-khá amiat bē dyé",
+      "example_phonetic": "/neː.χa a.mja beː dʒe/",
+      "example_translation": "Que la paix soit ici (bénédiction)."
+    },
+    {
+      "word_id": "v3",
+      "term": "Sakhó-nē",
+      "phonetic_api": "/sa.χo.neː/",
+      "phonetic_simple": "SA-RHO-NEE",
+      "translation": "Être en train de travailler (aspect inaccompli/duratif)",
+      "example_sentence": "Mady bē sakhó-nē dakat",
+      "example_phonetic": "/ma.di beː sa.χo.neː da.kat/",
+      "example_translation": "Mady est en train de travailler aujourd'hui."
+    },
+    {
+      "word_id": "v4",
+      "term": "Gaw-nē-khá",
+      "phonetic_api": "/ɡaw.neː.χa/",
+      "phonetic_simple": "GAW-NEE-RHÁ",
+      "translation": "Afin qu'il conseille / Pour qu'il oriente (subjonctif final)",
+      "example_sentence": "Mē ēny nē-khá baba gaw-at mē",
+      "example_phonetic": "/meː eːɲ neː.χa ba.ba ɡaw.at meː/",
+      "example_translation": "Je veux que mon père me conseille."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Mē makh-ə̀k ƴen kōō kō nanyə.",
+      "phonetic_api": "/meː maχ.ək ƴɛn koː ko na.ɲə/",
+      "phonetic_simple": "MEE MAKH-ƐK YHAN KOO KO NA-NYŒ",
+      "translation": "J'avais déjà vu et constaté cette chose hier.",
+      "context": "Préciser l'antériorité de son observation lors d'une palabre chez le chef du village."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Nē-khá gaas amiat dyé eyi-gwa !",
+      "phonetic_api": "/neː.χa ɡaːs a.mja dʒe ɛ.ji.ɡwa/",
+      "phonetic_simple": "NEE-RHÁ GAAS A-MIA DJE Ɛ-YI-GWA !",
+      "translation": "Que le soleil de paix illumine cette concession !",
+      "context": "Formule de bénédiction de haut niveau prononcée par un aîné à ses hôtes."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Madyé mē bē sakhó-nē gā ga-tí.",
+      "phonetic_api": "/ma.dʒe meː beː sa.χo.neː ɡaː ɡa.ti/",
+      "phonetic_simple": "MA-DYE MEE BEE SA-RHO-NEE GAA GA-TI",
+      "translation": "Ma classe d'âge est actuellement en plein labeur là-bas.",
+      "context": "Rapporter l'aspect processif et simultané d'une action communautaire en cours."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Mē ēny-ə̀k nē-khá ina fas-ə́ wárí.",
+      "phonetic_api": "/meː eːɲ.ək neː.χa i.na fas.ə wa.ʁi/",
+      "phonetic_simple": "MEE EENY-ƐK NEE-RHÁ I-NA FAS-É WÁ-RÍ",
+      "translation": "J'ai exigé que tu paies cet argent.",
+      "context": "Formuler une injonction forte au subjonctif suite à un litige commercial commercial."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'articulation de l'antériorité mémorielle avec 'makh-ə̀k'",
+      "explanation": "Pour exprimer le plus-que-parfait ou une action totalement révolue et antérieure à une autre situation du passé, le ménik emploie le morphème complexe 'makh-ə̀k'. Cet outil grammatical marque une distance temporelle ou psychologique forte par rapport au présent de l'énonciation.",
+      "rules": [
+        "Le morphème préverbal 'makh-ə̀k' se place immédiatement après le sujet et modifie la racine verbale nue.",
+        "Pour introduire un souhait ou une complétive au subjonctif, on utilise la particule conjonctive 'nē-khá' devant le sujet de la proposition subordonnée."
+      ],
+      "examples": [
+        {
+          "structure": "Sujet + makh-ə̀k + Racine Verbale",
+          "phonetic_api": "/meː maχ.ək fas/",
+          "meaning": "J'avais déjà acheté / J'achetai jadis."
+        },
+        {
+          "structure": "Nē-khá + Sujet + Verbe au subjonctif",
+          "phonetic_api": "/neː.χa a.mja beː/",
+          "meaning": "Que la paix soit."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Baba Mady",
+      "text": "Sada, ina sakhó-ə̀k gā ga-tí nanyə ?",
+      "phonetic_api": "/sa.da i.na sa.χo.ək ɡaː ɡa.ti na.ɲə/",
+      "phonetic_simple": "SA-DA, I-NA SA-RHO-ƐK GAA GA-TI NA-NYŒ ?",
+      "translation": "Sada, as-tu travaillé là-bas hier ?"
+    },
+    {
+      "speaker": "Sada",
+      "text": "Baba mē, mē makh-ə̀k sakhó nanyə. Dakat madyé mē bē sakhó-nē kō-bity.",
+      "phonetic_api": "/ba.ba meː meː ma.χo.ək sa.χo na.ɲə da.kat ma.dʒe meː beː sa.χo.neː ko.bi.cɨ/",
+      "phonetic_simple": "BA-BA MEE, MEE MAKH-ƐK SA-RHO NA-NYŒ. DA-KAT MA-DYE MEE BEE SA-RHO-NEE KO-BI-TY.",
+      "translation": "Mon père, j'avais déjà fini de travailler hier. Aujourd'hui ma classe d'âge est en train de travailler ensemble."
+    },
+    {
+      "speaker": "Baba Mady",
+      "text": "Nē-khá sakhó bē amiat ! Mē ēny nē-khá madyé a-syē dakat.",
+      "phonetic_api": "/neː.χa sa.χo beː a.mja meː eːɲ neː.χa ma.dʒe a.sje da.kat/",
+      "phonetic_simple": "NEE-RHÁ SA-RHO BEE A-MIA ! MEE EENY NEE-RHÁ MA-DYE A-SYE DA-KAT.",
+      "translation": "Que le travail soit bon ! Je veux que la classe d'âge se réjouisse aujourd'hui."
+    },
+    {
+      "speaker": "Sada",
+      "text": "Gasi mē, baba mē. Nē-khá amiat bē eyi !",
+      "phonetic_api": "/ɡa.si meː ba.ba meː neː.χa a.mja beː ɛ.ji/",
+      "phonetic_simple": "GA-SI MEE, BA-BA MEE. NEE-RHÁ A-MIA BEE Ɛ-YI !",
+      "translation": "Merci beaucoup, mon père. Que la paix demeure sur le foyer !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'exercice rituel de la parole chez les Bédiks, l'usage du subjonctif et des souhaits indirects ('nē-khá') caractérise l'éloquence des aînés lors des libations et des sacrifices de bière de mil sur les autels sacrés d'Iwol. Manier ces structures complexes démontre une maturité sociale avancée. Exprimer l'antériorité par 'makh-ə̀k' permet également de convoquer la mémoire des ancêtres et de situer les lignées claniques dans le temps mythique fondateur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mē [ ___ ] ƴen baba mē nanyə. (J'avais déjà vu mon père la veille/hier.)",
+      "correct_answer": "makh-ə̀k",
+      "hint": "Le marqueur préverbal d'antériorité et de passé lointain ou achevé en amont."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "multiple_choice",
+      "question": "Quelle est la fonction grammaticale de la particule 'Nē-khá' en début d'énoncé ?",
+      "options": [
+        "Indiquer le futur proche",
+        "Introduire le subjonctif, un souhait ou une bénédiction",
+        "Marquer la négation absolue",
+        "Désigner un outil agricole"
+      ],
+      "correct_answer": "Introduire le subjonctif, un souhait ou une bénédiction",
+      "explanation": "Nē-khá est le pivot syntaxique des propositions optatives et subjonctives en ménik."
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les membres de la famille nucléaire et élargie",
+    "Utiliser correctement les adjectifs possessifs (mon, ma, mes) selon le genre et le nombre",
+    "Présenter son statut relationnel de base (marié, célibataire, pacsé)",
+    "Décrire brièvement les liens de parenté ou d'amitié"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "1. Le phonème /œʁ/ dans 'sœur' (/sœʁ/) et 'frère' (/fʁɛʁ/) : pour 'sœur', la bouche est ouverte, les lèvres arrondies et la langue projetée vers l'avant. 2. La voyelle nasale /ɛ̃/ dans 'cousin' (/kuzɛ̃/) s'oppose à la voyelle orale + consonne nasale /in/ du féminin 'cousine' (/kuzin/). 3. Le groupe de voyelles /famiʝ/ dans 'famille' : les lettres 'ill' produisent un son de semi-voyelle fluide yod /ʝ/, le 'l' ne se prononce pas comme dans 'girafe'.",
+    "common_pitfalls": "1. Prononcer le 's' final des adjectifs possessifs au pluriel devant une consonne (ex: 'mes parents' se prononce /me paʁɑ̃/ et non /mɛs paʁɑ̃/). Le 's' ne s'entend que s'il y a liaison en /z/ devant une voyelle (ex: 'mes enfants' -> /mez_ɑ̃fɑ̃/). 2. Confondre 'fils' (/fis/) où le 'l' est muet mais le 's' est articulé, avec 'fille' (/fij/)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_l4",
+      "term": "La famille",
+      "phonetic_api": "/la famij/",
+      "phonetic_simple": "LA FA-MIY",
+      "translation": "The family",
+      "example_sentence": "J'aime passer du temps avec ma famille.",
+      "example_phonetic": "/ʒɛm pase dy tɑ̃ avɛk ma famij/",
+      "example_translation": "I love spending time with my family."
+    },
+    {
+      "word_id": "v2_l4",
+      "term": "Les parents",
+      "phonetic_api": "/le paʁɑ̃/",
+      "phonetic_simple": "LE PA-RAN",
+      "translation": "The parents",
+      "example_sentence": "Mes parents habitent à la campagne.",
+      "example_phonetic": "/me paʁɑ̃t_abite a la kɑ̃paɲ/",
+      "example_translation": "My parents live in the countryside."
+    },
+    {
+      "word_id": "v3_l4",
+      "term": "Le père / La mère",
+      "phonetic_api": "/lə pɛʁ/ / /la mɛʁ/",
+      "phonetic_simple": "LE PER / LA MER",
+      "translation": "The father / The mother",
+      "example_sentence": "Mon père est ingénieur et ma mère est médecin.",
+      "example_phonetic": "/mɔ̃ pɛʁ ɛt_ɛ̃ʒenjœʁ e ma mɛʁ ɛ mɛtsɛ̃/",
+      "example_translation": "My father is an engineer and my mother is a doctor."
+    },
+    {
+      "word_id": "v4_l4",
+      "term": "Le frère / La sœur",
+      "phonetic_api": "/lə fʁɛʁ/ / /la sœʁ/",
+      "phonetic_simple": "LE FRER / LA SEUR",
+      "translation": "The brother / The sister",
+      "example_sentence": "J'ai un frère aîné et une sœur cadette.",
+      "example_phonetic": "/ʒe œ̃ fʁɛʁ ɛne e yn sœʁ kadɛt/",
+      "example_translation": "I have an older brother and a younger sister."
+    },
+    {
+      "word_id": "v5_l4",
+      "term": "Le fils / La fille",
+      "phonetic_api": "/lə fis/ / /la fij/",
+      "phonetic_simple": "LE FEESS / LA FIY",
+      "translation": "The son / The daughter",
+      "example_sentence": "Leur fils a cinq ans et leur fille est un bébé.",
+      "example_phonetic": "/lœʁ fis a sɛ̃k_ɑ̃ e lœʁ fij ɛt_œ̃ bebe/",
+      "example_translation": "Their son is five years old and their daughter is a baby."
+    },
+    {
+      "word_id": "v6_l4",
+      "term": "Le compagnon / La compagne",
+      "phonetic_api": "/lə kɔ̃paɲɔ̃/ / /la kɔ̃paɲ/",
+      "phonetic_simple": "LE KOM-PA-NYON / LA KOM-PANY",
+      "translation": "The partner / companion",
+      "example_sentence": "Je vous présente Julie, ma compagne.",
+      "example_phonetic": "/ʒə vu pʁezɑ̃t ʒyli ma kɔ̃paɲ/",
+      "example_translation": "I present to you Julie, my partner."
+    },
+    {
+      "word_id": "v7_l4",
+      "term": "Un ami / Une amie",
+      "phonetic_api": "/œ̃n_ami/ / /yn_ami/",
+      "phonetic_simple": "UN NA-MEE / UN NA-MEE",
+      "translation": "A friend (m / f)",
+      "example_sentence": "C'est un ami d'enfance.",
+      "example_phonetic": "/sɛt_œ̃n_ami dɑ̃fɑ̃s/",
+      "example_translation": "He is a childhood friend."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_l4",
+      "original": "Tu as des frères et sœurs ?",
+      "phonetic_api": "/ty a de fʁɛʁ e sœʁ/",
+      "phonetic_simple": "TU A DE FRER E SEUR",
+      "translation": "Do you have any brothers and sisters?",
+      "context": "Question usuelle pour s'intéresser à la famille d'un ami."
+    },
+    {
+      "phrase_id": "p2_l4",
+      "original": "Je suis enfant unique.",
+      "phonetic_api": "/ʒə sɥiz_ɑ̃fɑ̃ ynik/",
+      "phonetic_simple": "JE SUI-ZAN-FAN U-NEEK",
+      "translation": "I am an only child.",
+      "context": "Indiquer que l'on n'a ni frère ni sœur."
+    },
+    {
+      "phrase_id": "p3_l4",
+      "original": "Vous êtes marié ou célibataire ?",
+      "phonetic_api": "/vuz_ɛt maʁje u selibatɛʁ/",
+      "phonetic_simple": "VOU-ZET MA-RIE OU SE-LI-BA-TER",
+      "translation": "Are you married or single?",
+      "context": "Cadre administratif ou lors d'une conversation formelle."
+    },
+    {
+      "phrase_id": "p4_l4",
+      "original": "Voici mon mari et mes enfants.",
+      "phonetic_api": "/vwasi mɔ̃ maʁi e mez_ɑ̃fɑ̃/",
+      "phonetic_simple": "VOUA-SEE MON MA-REE E ME-ZAN-FAN",
+      "translation": "This is my husband and my children.",
+      "context": "Présenter son noyau familial à des tiers."
+    },
+    {
+      "phrase_id": "p5_l4",
+      "original": "Comment s'appellent tes grands-parents ?",
+      "phonetic_api": "/kɔmɑ̃ sapɛl te ɡʁɑ̃paʁɑ̃/",
+      "phonetic_simple": "KOM-AN SA-PEL TE GRAN-PA-RAN",
+      "translation": "What are your grandparents' names?",
+      "context": "Question portant sur la famille élargie."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les Adjectifs Possessifs au singulier (Première personne)",
+      "explanation": "En français, l'adjectif possessif s'accorde en genre et en nombre avec l'objet ou la personne possédée, et non avec le possesseur.",
+      "rules": [
+        "On utilise 'Mon' devant un nom masculin singulier. Exemple : mon père.",
+        "On utilise 'Ma' devant un nom féminin singulier. Exemple : ma mère.",
+        "RÈGLE CRUCIALE : On utilise obligatoirement 'Mon' (au lieu de 'Ma') devant un nom féminin singulier qui commence par une voyelle ou un H muet pour éviter le choc de deux voyelles. Exemple : mon amie (/mɔ̃n_ami/)."
+      ],
+      "examples": [
+        {
+          "structure": "Ma sœur (Féminin) / Mon frère (Masculin)",
+          "phonetic_api": "/ma sœʁ/ / /mɔ̃ fʁɛʁ/",
+          "meaning": "My sister / My brother"
+        },
+        {
+          "structure": "Mon amie Alice (Féminin commençant par une voyelle)",
+          "phonetic_api": "/mɔ̃n_ami alis/",
+          "meaning": "My friend Alice"
+        }
+      ]
+    },
+    {
+      "concept": "Le pluriel des adjectifs possessifs",
+      "explanation": "Lorsque l'on possède plusieurs entités, le genre s'efface au profit d'une forme unique plurielle.",
+      "rules": [
+        "Le pluriel de 'mon' et 'ma' est 'mes'. Il s'applique de la même manière au masculin et au féminin. Exemple : mes frères, mes sœurs, mes parents."
+      ],
+      "examples": [
+        {
+          "structure": "Mes cousins / Mes cousines",
+          "phonetic_api": "/me kuzɛ̃/ / /me kuzin/",
+          "meaning": "My cousins (m) / My cousins (f)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Thomas",
+      "text": "Dis-moi Sarah, c'est une photo de ta famille sur ton téléphone ?",
+      "phonetic_api": "/di mwa saʁa sɛ tyn fɔto də ta famij syʁ tɔ̃ telefɔn/",
+      "phonetic_simple": "DEE-MOA SA-RA, SE TUN FO-TO DEU TA FA-MIY SUR TON TE-LE-FON ?",
+      "translation": "Tell me Sarah, is that a picture of your family on your phone?"
+    },
+    {
+      "speaker": "Sarah",
+      "text": "Oui, tout à fait ! Regarde, au centre ce sont mes parents. Mon père s'appelle Jean et ma mère s'appelle Hélène.",
+      "phonetic_api": "/wi tut_a fɛ ʁəɡaʁd o sɑ̃tʁə sə sɔ̃ me paʁɑ̃ mɔ̃ pɛʁ sapɛl ʒɑ̃ e ma mɛʁ sapɛl elɛn/",
+      "phonetic_simple": "OUI, TOU-TA FE ! REU-GARD, O SAN-TREU SEU SON ME PA-RAN. MON PER SA-PEL JAN E LA MER SA-PEL E-LEN.",
+      "translation": "Yes, absolutely! Look, in the center are my parents. My father's name is Jean and my mother's name is Hélène."
+    },
+    {
+      "speaker": "Thomas",
+      "text": "Ils ont l'air très sympathiques. Et à côté, c'est ton frère ?",
+      "phonetic_api": "/ilz_ɔ̃ lɛʁ tʁɛ sɛ̃patik e a kote sɛ tɔ̃ fʁɛʁ/",
+      "phonetic_simple": "IL-ZON LER TRE SIN-PA-TEEK. E A KO-TE, SE TON FRER ?",
+      "translation": "They look very nice. And next to them, is that your brother?"
+    },
+    {
+      "speaker": "Sarah",
+      "text": "Non, c'est mon cousin Nicolas. Je n'ai pas de frère, je suis enfant unique. Mais j'ai une grande famille avec beaucoup de cousins !",
+      "phonetic_api": "/nɔ̃ sɛ mɔ̃ kuzɛ̃ nikɔla ʒə ne pa də fʁɛʁ ʒə sɥiz_ɑ̃fɑ̃ ynik mɛ ʒe yn ɡʁɑ̃d famij avɛk boku də kuzɛ̃/",
+      "phonetic_simple": "NON, SE MON KOU-ZIN NI-KO-LA. JE NE PA DEU FRER, JE SUI-ZAN-FAN U-NEEK. ME JE UNE GRANDE FA-MIY A-VEK BO-KOU DEU KOU-ZIN !",
+      "translation": "No, that's my cousin Nicolas. I don't have a brother, I am an only child. But I have a large family with many cousins!"
+    },
+    {
+      "speaker": "Thomas",
+      "text": "Ah d'accord ! Et Nicolas est marié ?",
+      "phonetic_api": "/a dəkɔʁ e nikɔla ɛ maʁje/",
+      "phonetic_simple": "A DA-KOR ! E NI-KO-LA E MA-RIE ?",
+      "translation": "Ah, I see! And is Nicolas married?"
+    },
+    {
+      "speaker": "Sarah",
+      "text": "Non, il est célibataire pour le moment.",
+      "phonetic_api": "/nɔ̃ il ɛ selibatɛʁ puʁ lə mɔmɑ̃/",
+      "phonetic_simple": "NON, IL E SE-LI-BA-TER POUR LEU MO-MAN.",
+      "translation": "No, he is single at the moment."
+    }
+  ],
+  "cultural_notes": [
+    "Le PACS : En France, outre le mariage traditionnel, il existe le PACS (Pacte Civil de Solidarité). C'est un contrat d'union civile très populaire entre deux personnes majeures pour organiser leur vie commune sans passer par le mariage.",
+    "L'évolution du terme 'Famille' : Les structures familiales sont très diverses en France. On parle couramment de 'famille recomposée' (parents divorcés ayant refait leur vie avec des enfants d'un premier lit) ou de 'famille monoparentale'."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_l4",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "J'adore discuter avec [ ___ ] amie Marie.",
+      "correct_answer": "mon",
+      "hint": "Bien que 'amie' soit féminin, le mot commence par une voyelle."
+    },
+    {
+      "exercise_id": "ex2_l4",
+      "type": "multiple_choice",
+      "question": "Comment appelle-t-on une personne qui n'a ni frère ni sœur ?",
+      "options": [
+        "Un fils unique",
+        "Un enfant unique",
+        "Un parent unique"
+      ],
+      "correct_answer": "Un enfant unique",
+      "explanation": "'Un enfant unique' est l'expression consacrée neutre pour désigner l'absence de fratrie."
+    },
+    {
+      "exercise_id": "ex3_l4",
+      "type": "multiple_choice",
+      "question": "Quelle est la prononciation exacte du mot 'fils' (son) en français ?",
+      "options": [
+        "/fil/",
+        "/fils/",
+        "/fis/"
+      ],
+      "correct_answer": "/fis/",
+      "explanation": "Dans le mot 'fils', le L est historique et muet, tandis que le S final est obligatoire à l'oral."
+    }
+  ]
+}

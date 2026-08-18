@@ -1,0 +1,178 @@
+{
+  "lesson_id": "C1_M1_L1",
+  "level": "Niveau Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 1,
+  "title": "L'utilisation des temps complexes et des modes avancés",
+  "learning_objectives": [
+    "Exprimer l'antériorité et le plus-que-parfait (action révolue dans le passé)",
+    "Maîtriser le conditionnel passé et les souhaits non réalisés",
+    "Utiliser les particules d'aspect pour exprimer des nuances de simultanéité"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La particule complexe 'kpɛ̀-nì' exige une co-articulation parfaite de l'occlusive labio-vélaire sourde /k͡p/ sur un ton bas, immédiatement suivie d'une transition rapide vers la nasale alvéolaire. La particule de rappel 'yɛ́' porte un ton haut modulé.",
+    "common_pitfalls": "Attention à ne pas abréger la double voyelle de l'auxiliaire de passé lointain 'míé-ò'. Sa réduction en voyelle simple détruit la valeur aspectuelle de l'antériorité."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_1",
+      "term": "míé-ò",
+      "phonetic_api": "/mí.é.ò/",
+      "phonetic_simple": "MIEE-O",
+      "translation": "marqueur de l'antériorité lointaine / plus-que-parfait",
+      "example_sentence": "ń táá-ò míé-ò lòlà pɔ́",
+      "phonetic_api_example": "/ń táː.ò mí.é.ò lò.là pɔ́/",
+      "example_translation": "J'étais déjà allé à Lola auparavant."
+    },
+    {
+      "word_id": "v1_2",
+      "term": "kpɛ̀-nì",
+      "phonetic_api": "/k͡pɛ̀.nì/",
+      "phonetic_simple": "KPE-NI",
+      "translation": "à peine / sitôt que / au moment exact où",
+      "example_sentence": "ń kpɛ̀-nì nàá, á táá-ò",
+      "phonetic_api_example": "/ń k͡pɛ̀.nì nà.á á táː.ò/",
+      "example_translation": "À peine étais-je arrivé qu'il est parti."
+    },
+    {
+      "word_id": "v1_3",
+      "term": "kíán-wòò-tɛ́ɛ́",
+      "phonetic_api": "/kí.án.wòː.tɛ́ː/",
+      "phonetic_simple": "KIAN-WOO-TEE",
+      "translation": "le regret / le souhait irréalisable",
+      "example_sentence": "kíán-wòò-tɛ́ɛ́ káá ń yíé míé",
+      "phonetic_api_example": "/kí.án.wòː.tɛ́ː káː ń jí.é mí.é/",
+      "example_translation": "J'ai des regrets à présent."
+    },
+    {
+      "word_id": "v1_4",
+      "term": "yɛ́-ò",
+      "phonetic_api": "/jɛ́.ò/",
+      "phonetic_simple": "YE-O",
+      "translation": "particule de validation d'un état antérieur révolu",
+      "example_sentence": "á yɛ́-ò kpálá kɛ́á ɓɔ́",
+      "phonetic_api_example": "/á jɛ́.ò k͡pā.lá kɛ́.á ɓɔ́/",
+      "example_translation": "Il travaillait ici autrefois (ce n'est plus le cas)."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_1",
+      "original": "ń táá-ò míé-ò kɔ̀nɔ̀n yí pɔ́ í nà lɔ́ɔ̀ gí",
+      "phonetic_api": "/ń táː.ò mí.é.ò kɔ̀nɔ̀n jí pɔ́ í nà lɔ́ː ɡí/",
+      "phonetic_simple": "N TAA-O MIEE-O KONON YI PO I NA LOO GI",
+      "translation": "J'étais déjà allé au champ avant que tu n'arrives ici.",
+      "context": "Préciser la chronologie de deux actions passées au cours d'un récit complexe."
+    },
+    {
+      "phrase_id": "p1_2",
+      "original": "á kpɛ̀-nì mání dɔ́-ò pɔ́, àá lɔ́-ò à dɔ́ɔ́á",
+      "phonetic_api": "/á k͡pɛ̀.nì má.ní dɔ́.ò pɔ́ àː lɔ́.ò à dɔ́ː.á/",
+      "phonetic_simple": "A KPE-NI MANI DO-O PO AA LO-O A DOOA",
+      "translation": "À peine le riz fut-il servi que nous commençâmes à manger.",
+      "context": "Raconter avec vivacité une scène de vie commune ou une fête."
+    },
+    {
+      "phrase_id": "p1_3",
+      "original": "ń fɔ́ á kɛ́-ò míé-ò kpaán, kɔ̀nùn ń máá kpɛ̀lɛ̀ sɔ̀",
+      "phonetic_api": "/ń fɔ́ á kɛ́.ò mí.é.ò k͡pāːn kɔ̀nùn ń máː k͡pɛ̀lɛ̀ sɔ̀/",
+      "phonetic_simple": "N FO A KE-O MIEE-O KPAAN KONON N MAA KPELE SO",
+      "translation": "J'aurais bien voulu le faire autrefois, mais je n'en ai pas eu l'opportunité.",
+      "context": "Exprimer un regret ou justifier une ambition passée non accomplie."
+    },
+    {
+      "phrase_id": "p1_4",
+      "original": "wáá yɛ́-ò kálá kɛ́á lú gíán gboi nìí yíé wá ?",
+      "phonetic_api": "/wáː jɛ́.ò ká.á kɛ́.á lú ɡí.án ɡ͡ɓo.i nìː jí.é wá/",
+      "phonetic_simple": "WAA YE-O KA-LA KEA LOO GIAN GBOI NII YIEE WA",
+      "translation": "Étudiiez-vous ensemble dans cette grande concession jadis ?",
+      "context": "Interroger des aînés sur leurs souvenirs et relations de jeunesse."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction du plus-que-parfait par cumul aspectuel",
+      "explanation": "Pour renvoyer une action dans un passé antérieur à une autre action évoquée, la langue kono combine le suffixe de l'accompli immédiat '-ò' avec la particule de décalage temporel lointain 'míé-ò'.",
+      "rules": [
+        "Sujet + Verbe + ò + míé-ò + Compléments.",
+        "Cette structure verrouille le procès verbal comme totalement intemporel et coupé du présent."
+      ],
+      "examples": [
+        {
+          "structure": "ń kɛ́-ò míé-ò",
+          "phonetic_api": "/ń kɛ́.ò mí.é.ò/",
+          "meaning": "J'avais fait (et c'était fini depuis longtemps)."
+        }
+      ]
+    },
+    {
+      "concept": "Le mode irréel du passé (le conditionnel passé)",
+      "explanation": "L'expression d'un regret ou d'un fait qui aurait pu se produire mais n'a pas eu lieu utilise le verbe d'obligation 'fɔ́' associé au marqueur de rupture 'míé-ò', suivi de la conjonction restrictive 'kɔ̀nùn' (mais).",
+      "rules": [
+        "Sujet + fɔ́ + Verbe + ò + míé-ò, kɔ̀nùn + Proposition négative."
+      ],
+      "examples": [
+        {
+          "structure": "ń fɔ́ táá-ò míé-ò, kɔ̀nùn...",
+          "phonetic_api": "/ń fɔ́ táː.ò mí.é.ò kɔ̀nùn/",
+          "meaning": "Je serais bien parti, mais..."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Koli",
+      "text": "Sia, í yɛ́-ò kálá-mɔ̀ɔ̀ le kɛ́á lòlà pɔ́ í nà ɓɔ́ gí ?",
+      "phonetic_api": "/sí.á í jɛ́.ò ká.lá.mɔ̀ː le kɛ́.á lò.là pɔ́ í nà ɓɔ́ ɡí/",
+      "phonetic_simple": "SIA I YE-O KA-LA-MOO LE KEA LOLA PO I NA BO GI",
+      "translation": "Sia, avais-tu étudié à Lola avant de t'installer ici ?"
+    },
+    {
+      "speaker": "Sia",
+      "text": "òò, ń táá-ò míé-ò kálá-yíé gíán pɔ́. ń kpɛ̀-nì à kɛ́-wòò ɓɔ́-ò pɔ́, ń nà-ò ɓɔ́.",
+      "phonetic_api": "/òː ń táː.ò mí.é.ò ká.á.jí.é ɡí.án pɔ́ ń k͡pɛ̀.nì à kɛ́.wòː ɓɔ́.ò pɔ́ ń nà.ò ɓɔ́/",
+      "phonetic_simple": "OO N TAA-O MIEE-O KA-LA-YIEE GIAN PO N KPE-NI A KE-WOO BO-O PO N NA-O BO",
+      "translation": "Oui, j'étais déjà allée dans cette école auparavant. À peine mes études furent-elles terminées que je suis venue ici."
+    },
+    {
+      "speaker": "Koli",
+      "text": "ń kɔ̀n, ń fɔ́ kálá-ò míé-ò kpaán, kɔ̀nùn kpálá mɛ̀-ò ń lɔ́.",
+      "phonetic_api": "/ń kɔ̀n ń fɔ́ ká.á.ò mí.é.ò k͡pāːn kɔ̀nùn k͡pā.lá mɛ̀.ò ń lɔ́/",
+      "phonetic_simple": "N KON N FO KA-LA-O MIEE-O KPAAN KONON KPA-LA ME-O N LO",
+      "translation": "Moi, j'aurais tellement voulu étudier aussi, mais le travail de la terre m'a retenu."
+    },
+    {
+      "speaker": "Sia",
+      "text": "í máá kíán-wòò-tɛ́ɛ́ kɛ́ í yíé, í kpálá nìí káá kɛ́nɛ̀ kpaán yɛ́ !",
+      "phonetic_api": "/í máː kí.án.wòː.tɛ́ː kɛ́ í jí.é í k͡pā.lá nìː káː kɛ́nɛ̀ k͡pāːn jɛ́/",
+      "phonetic_simple": "I MAA KIAN-WOO-TEE KE I YIEE I KPA-LA NII KAA KENE KPAAN YE",
+      "translation": "N'aie aucun regret en toi, ton travail actuel est vraiment très estimable !"
+    }
+  ],
+  "cultural_notes": [
+    "La maîtrise de ces structures temporelles imbriquées marque, chez les Konon, le passage à un niveau d'éloquence supérieur. Dans les réunions villageoises ou les récits généalogiques à Lola, articuler correctement l'antériorité permet de clarifier la préséance des droits fonciers ou coutumiers, démontrant que tel clan s'était installé ('míé-ò') bien avant l'arrivée des vagues migratoires suivantes."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_1",
+      "type": "multiple_choice",
+      "question": "Quelle association de morphèmes permet d'exprimer le plus-que-parfait (antériorité révolue) ?",
+      "options": [
+        "L'auxiliaire bɛ́ suivi de -á",
+        "Le suffixe -ò combiné à la particule míé-ò",
+        "La particule prohibitive máá"
+      ],
+      "correct_answer": "Le suffixe -ò combiné à la particule míé-ò",
+      "explanation": "C'est l'accumulation de l'accompli '-ò' et de la rupture temporelle lointaine 'míé-ò' qui génère la valeur du plus-que-parfait."
+    },
+    {
+      "exercise_id": "ex1_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "ń [ ___ ] nàá, á táá-ò (À peine étais-je arrivé qu'il est parti)",
+      "correct_answer": "kpɛ̀-nì",
+      "hint": "Le connecteur de simultanéité immédiate ou d'action soudaine"
+    }
+  ]
+}

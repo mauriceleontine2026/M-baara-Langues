@@ -1,0 +1,199 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Structurer un récit au passé en articulant correctement les différents plans de la narration",
+    "Maîtriser l'alternance entre le Passé Composé, le Passé Simple et l'Imparfait de l'indicatif",
+    "Utiliser les marqueurs temporels appropriés pour situer une action dans le passé"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'accent tonique revêt une importance capitale pour différencier les temps du passé. Dans 'hablé' (/aˈβle/) ou 'comió' (/koˈmjo/), l'accent écrit indique une intensité marquée sur la dernière syllabe. Dans l'imparfait 'hablaba' (/aˈβlaβa/), l'accent se situe naturellement sur l'avant-dernière syllabe.",
+    "common_pitfalls": "Attention à ne pas déplacer l'accent tonique sur le passé simple : prononcer 'hablo' (présent : je parle) au lieu de 'habló' (passé simple : il parla) modifie radicalement le sens du récit. Veillez à ce que le 'b' de l'imparfait des verbes du premier groupe (-aba) soit doux et bilabial."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Anécdota",
+      "phonetic_api": "/aˈneɣðota/",
+      "phonetic_simple": "A-NÉG-DO-TA",
+      "translation": "Anecdote",
+      "example_sentence": "Ayer nos contó una anécdota muy divertida de su infancia.",
+      "example_phonetic": "/aˈʝeɾ nos konˈto ˈuna aˈneɣðota ˈmwi ðiβeɾˈtiða ðe su jɱˈfanθja/",
+      "example_translation": "Hier, il nous a raconté une anecdote très amusante de son enfance."
+    },
+    {
+      "word_id": "v2",
+      "term": "Recuerdo",
+      "phonetic_api": "/reˈkweɾðo/",
+      "phonetic_simple": "RÉ-KWYER-DO",
+      "translation": "Souvenir",
+      "example_sentence": "Tengo un excelente recuerdo de mis vacaciones en Galicia.",
+      "example_phonetic": "/ˈteŋɡo un exθeˈleŋte ɾeˈkweɾðo ðe mis βakaˈθjones en ɡaˈliθja/",
+      "example_translation": "J'ai un excellent souvenir de mes vacances en Galice."
+    },
+    {
+      "word_id": "v3",
+      "term": "Ocurrir",
+      "phonetic_api": "/okuˈriɾ/",
+      "phonetic_simple": "O-KOU-REER",
+      "translation": "Se passer / Arriver / Se produire",
+      "example_sentence": "El accidente ocurrió en el cruce de la avenida.",
+      "example_phonetic": "/el akθiˈðeŋte okuˈrjo en el ˈkɾuθe ðe la aβeˈniða/",
+      "example_translation": "L'accident s'est produit au croisement de l'avenue."
+    },
+    {
+      "word_id": "v4",
+      "term": "Mientras",
+      "phonetic_api": "/ˈmjeŋtɾas/",
+      "phonetic_simple": "MYEN-TRAS",
+      "translation": "Pendant que / Tandis que",
+      "example_sentence": "Mientras cenábamos, se cortó la luz en todo el edificio.",
+      "example_phonetic": "/ˈmjeŋtɾas θeˈnaβamos se konˈto la ˈluθ en ˈtoðo el eðiˈfiθjo/",
+      "example_translation": "Pendant que nous dînions, l'électricité a été coupée dans tout l'immeuble."
+    },
+    {
+      "word_id": "v5",
+      "term": "Repentinamente",
+      "phonetic_api": "/repeŋtinaˈmeŋte/",
+      "phonetic_simple": "RÉ-PEN-TEE-NA-MEN-TÉ",
+      "translation": "Soudainement / Brusquement",
+      "example_sentence": "Repentinamente, el cielo se oscureció y empezó a granizar.",
+      "example_phonetic": "/repeŋtinaˈmeŋte el ˈθjelo se oskuɾeˈθjo i empeˈθo a ɣɾaniˈθaɾ/",
+      "example_translation": "Soudainement, le ciel s'est obscurci et il a commencé à grêler."
+    },
+    {
+      "word_id": "v6",
+      "term": "Pasado",
+      "phonetic_api": "/paˈsaðo/",
+      "phonetic_simple": "PA-SA-DO",
+      "translation": "Passé / Dernier (adjectif)",
+      "example_sentence": "El año pasado visitamos México por primera vez.",
+      "example_phonetic": "/el ˈaɲo paˈsaðo βisiˈtamos ˈmexiko poɾ pɾiˈmeɾa βeθ/",
+      "example_translation": "L'année dernière, nous avons visité le Mexique pour la première fois."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "No te vas a creer lo que me pasó ayer",
+      "phonetic_api": "/ˈno te ˈβas a kɾeˈeɾ lo ke me paˈso aˈʝeɾ/",
+      "phonetic_simple": "NO TÉ BAS A KRÉ-ER LO KÉ ME PA-SO A-YER",
+      "translation": "Tu ne vas pas croire ce qui m'est arrivé hier",
+      "context": "Formule d'accroche idéale pour initier le récit d'une anecdote surprenante."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Resulta que estábamos paseando por el parque...",
+      "phonetic_api": "/reˈsulta ke esˈtaβamos paseˈando poɾ el ˈpaɾke/",
+      "phonetic_simple": "RÉ-SOUL-TA KÉ ES-TA-BA-MOS PA-SÉ-AN-DO POR EL PAR-KÉ...",
+      "translation": "Il se trouve que nous étions en train de nous promener dans le parc...",
+      "context": "Sert à introduire le contexte et le décor d'une histoire à l'imparfait."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Al final, todo se solucionó felizmente",
+      "phonetic_api": "/al fiˈnal ˈtoðo se soluθjoˈno feliθˈmeŋte/",
+      "phonetic_simple": "AL FEE-NAL TO-DO SÉ SO-LOO-THYO-NO FÉ-LEETH-MEN-TÉ",
+      "translation": "Finalement, tout s'est arrangé heureusement",
+      "context": "Structure de conclusion pour clore un récit après un élément perturbateur."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Hacía un tiempo magnífico cuando salimos de viaje",
+      "phonetic_api": "/aˈθia un ˈtjempo maɣˈnifiko ˈkwaŋdo saˈlimoz ðe ˈβjaxe/",
+      "phonetic_simple": "A-THEE-A OUN TYEM-PO MAG-NEE-FEE-KO KWAN-DO SA-LEE-MOS DE BYA-KHÉ",
+      "translation": "Il faisait un temps magnifique lorsque nous sommes partis en voyage",
+      "context": "Combine la description météo du passé à l'imparfait et l'action ponctuelle au passé simple."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'alternance entre l'Imparfait et le Passé Simple (Pretérito Indefinido)",
+      "explanation": "C'est le pilier de la narration en espagnol. L'imparfait sert à planter le décor, décrire une situation, des habitudes ou une action en cours. Le passé simple interrompt cette ligne temporelle pour introduire un fait ponctuel, achevé et soudain.",
+      "rules": [
+        "Imparfait (Pretérito Imperfecto) : actions de fond, descriptions, météo, état psychologique (ex: Yo caminaba por la calle...).",
+        "Passé Simple (Pretérito Indefinido) : action soudaine qui fait avancer l'histoire, délimitée dans le temps (ex: ...cuando de repente empezó a llover)."
+      ],
+      "examples": [
+        {
+          "structure": "Cuando era estudiante, vivía en Madrid y un día conocí a un músico famoso.",
+          "phonetic_api": "/ˈkwaŋdo ˈeɾa estuˈðjaŋte βiˈβia en maˈðɾið i un ˈdia konoˈθi a un ˈmusiko faˈmoso/",
+          "meaning": "Quand j'étais étudiant, je vivais à Madrid et un jour j'ai rencontré un musicien célèbre."
+        }
+      ]
+    },
+    {
+      "concept": "Le Passé Composé (Pretérito Perfecto) vs le Passé Simple",
+      "explanation": "Le choix entre ces deux temps dépend du lien que l'unité de temps entretient avec le moment présent de l'interlocuteur.",
+      "rules": [
+        "Pretérito Perfecto : pour des actions accomplies dans une période de temps non terminée, souvent accompagné de 'este mes', 'hoy', 'esta semana' (ex: Este año he viajado a Perú).",
+        "Pretérito Indefinido : pour des actions coupées du présent, avec des marqueurs comme 'ayer', 'en 1998', 'el año pasado' (ex: Ayer viajé a Sevilla)."
+      ],
+      "examples": [
+        {
+          "structure": "Esta mañana me he levantado tarde, pero ayer madrugué mucho.",
+          "phonetic_api": "/ˈesta maˈɲana me ˈe leβanˈtaðo ˈtaɾðe peˈɾo aˈʝeɾ maðɾuˈɣe ˈmutʃo/",
+          "meaning": "Ce matin je me suis levé tard, mais hier je me suis réveillé très tôt."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Lucas",
+      "text": "¿Qué te pasó el otro día en el aeropuerto? Me enteré de que tuviste problemas.",
+      "phonetic_api": "/ˈke te paˈso el ˈotɾo ˈdia en el aeɾoˈpweɾto || me enteˈɾe ðe ke tuˈβiste pɾoˈβlemas/",
+      "phonetic_simple": "KÉ TÉ PA-SO EL O-TRO DEE-A EN EL A-É-RO-PWER-TO ? ME EN-TÉ-RÉ DE KÉ TOU-VEES-TÉ PRO-BLÉ-MAS.",
+      "translation": "Qu'est-ce qui t'est arrivé l'autre jour à l'aéroport ? J'ai appris que tu avais eu des problèmes."
+    },
+    {
+      "speaker": "Mónica",
+      "text": "¡Uf, fue una pesadilla! Resulta que mientras hacía la cola para facturar, me di cuenta de que no tenía mi pasaporte.",
+      "phonetic_api": "/ˈuf ˈfwe ˈuna pesaˈðiʝa || reˈsulta ke ˈmjeŋtɾas aˈθia la ˈkola ˈpaɾa faktuˈɾaɾ me ˈði ˈkwenta ðe ke ˈno teˈnia mi pasaˈpoɾte/",
+      "phonetic_simple": "OUF, FWÉ OU-NA PÉ-SA-DEE-YA ! RÉ-SOUL-TA KÉ MYEN-TRAS A-THEE-A LA KO-LA PA-RA FAK-TOU-RAR, ME DEE KWEN-TA DE KÉ NO TÉ-NEE-A MI PA-SA-POR-TÉ.",
+      "translation": "Ouf, c'était un cauchemar ! Il se trouve que pendant que je faisais la queue pour enregistrer mes bagages, je me suis rendu compte que je n'avais pas mon pasaporte."
+    },
+    {
+      "speaker": "Lucas",
+      "text": "¿En serio? ¿Y qué hiciste entonces? ¿Perdiste el vuelo?",
+      "phonetic_api": "/en ˈseɾjo || i ˈke iˈθiste enˈtoŋθes || peɾˈðiste el ˈbwelo/",
+      "phonetic_simple": "EN SÉR-YO ? EE KÉ EE-CHEES-TÉ EN-THON-THÉS ? PER-DEES-TÉ EL BWÉ-LO ?",
+      "translation": "Sans blague ? Et qu'est-ce que tu as fait alors ? Tu as raté le vol ?"
+    },
+    {
+      "speaker": "Mónica",
+      "text": "Por suerte no. Llamé a mi hermano, que afortunadamente estaba en casa, cogió un taxi y me lo trajo volando. ¡Llegó justo a tiempo!",
+      "phonetic_api": "/poɾ ˈsweɾte ˈno || ʝaˈme a mi eɾˈmano ke afoɾtunaˈðameŋte esˈtaβa eŋ ˈkasa koˈxjo un ˈtaksi i me lo ˈtɾaxo βoˈlando || ʝeˈɣo ˈxusto a ˈtjempo/",
+      "phonetic_simple": "POR SWER-TÉ NO. YA-MÉ A MI ER-MA-NO, KÉ A-FOR-TOU-NA-DA-MEN-TÉ ES-TA-BA EN KA-SA, KO-KHJO OUN TAK-SEE EE ME LO TRA-KHO BO-LAN-DO. YE-GO KHOOS-TO A TYEM-PO !",
+      "translation": "Heureusement non. J'ai appelé mon frère, qui par chance était à la maison, il a pris un taxi et me l'a apporté à toute vitesse. Il est arrivé pile à temps !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans la péninsule ibérique, l'utilisation du passé simple (pretérito indefinido) est prédominante pour toutes les actions achevées de la veille, tandis que le passé composé est strict pour la journée en cours. En revanche, dans la grande majorité des pays d'Amérique latine, le passé composé est beaucoup moins utilisé à l'oral, et le passé simple s'emploie même pour des actions qui viennent d'avoir lieu (ex: '¿Qué dijiste?' au lieu de '¿Qué has dicho?')."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "B1_M2_L4_EX1",
+      "type": "multiple_choice",
+      "question": "Quelle option complète correctement la phrase suivante : 'Ayer, mientras yo [...] la cena, mi hijo rompió un plato.' ?",
+      "options": [
+        "preparé",
+        "preparaba",
+        "he preparado"
+      ],
+      "correct_answer": "preparaba",
+      "explanation": "On emploie l'imparfait ('preparaba') car il s'agit d'une action durable en cours de déroulement en arrière-plan, qui est soudainement interrompue par l'action ponctuelle au passé simple ('rompió')."
+    },
+    {
+      "exercise_id": "B1_M2_L4_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Este año, nosotros [ ___ ] viajado a Argentina dos veces.",
+      "correct_answer": "hemos",
+      "hint": "Forme conjuguée de l'auxiliaire 'haber' à la première personne du pluriel pour former le passé composé requis par le marqueur temporel incluant le présent 'Este año'."
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Maîtriser les salutations rituelles en fonction des quatre moments cardinaux de la journée",
+    "Utiliser correctement le registre de déférence honorifique (le pronom morphologique Ẹ)",
+    "Exprimer la gratitude, la bienvenue, et répondre aux marques de politesse courantes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le yoruba possède une structure syllabique ouverte (V ou CV). Il utilise trois tons fondamentaux : le ton haut (accent aigu, ex: á), le ton moyen (non marqué, ex: a) et le ton bas (accent grave, ex: à). Les voyelles graphiques 'ẹ' [ɛ] et 'ọ' [ɔ] sont ouvertes. Le digramme 'gb' [ɡ͡b] est une consonne occlusive labio-vélaire sonore produite par une libération simultanée des lèvres et du voile du palais.",
+    "common_pitfalls": "La confusion entre le ton haut et le ton bas peut inverser radicalement le sens d'un mot (ex: 'ọkọ' mari vs 'ọkọ̀' véhicule). Évitez absolument de prononcer le 'ẹ' ou le 'ọ' fermés à la française [e/o] ou de diphtonguer les voyelles longues."
+  },
+  "vocabulary": [
+    {
+      "word_id": "A1_M1_L1_V1",
+      "term": "Ẹ ǹlẹ́ o",
+      "phonetic_api": "/ɛ̀ ŋ̀lɛ́ o/",
+      "phonetic_simple": "È N-LÉ O",
+      "translation": "Bonjour / Salut (général, respectueux et chaleureux)",
+      "example_sentence": "Ẹ ǹlẹ́ o, mọ̀mọ́ mi.",
+      "example_phonetic": "/ɛ̀ ŋ̀lɛ́ o mɔ̀mɔ́ mĩ/",
+      "example_translation": "Bonjour à vous, ma mère."
+    },
+    {
+      "word_id": "A1_M1_L1_V2",
+      "term": "Ẹ kààárọ̀",
+      "phonetic_api": "/ɛ̀ kàːáɾɔ̀/",
+      "phonetic_simple": "È KÀÀ-Á-RÀW",
+      "translation": "Bonjour (salutation exclusive du matin, de l'aube à midi)",
+      "example_sentence": "Ẹ kààárọ̀, bàbá mọ́gàjí.",
+      "example_phonetic": "/ɛ̀ kàːáɾɔ̀ bàbá mɔ́ɡàd͡ʒí/",
+      "example_translation": "Bonjour, père chef de famille."
+    },
+    {
+      "word_id": "A1_M1_L1_V3",
+      "term": "Ẹ kààsán",
+      "phonetic_api": "/ɛ̀ kàːsã́/",
+      "phonetic_simple": "È KÀÀ-SÁN",
+      "translation": "Bon après-midi (salutation de midi à environ 16h00)",
+      "example_sentence": "Ẹ kààsán, ọ̀gá mi.",
+      "example_phonetic": "/ɛ̀ kàːsã́ ɔ̀ɡá mĩ/",
+      "example_translation": "Bon après-midi, mon patron."
+    },
+    {
+      "word_id": "A1_M1_L1_V4",
+      "term": "Ẹ kùúbọ̀wọ̀",
+      "phonetic_api": "/ɛ̀ kùːbɔ̀wɔ̀/",
+      "phonetic_simple": "È KÒÒ-BÀW-WÀW",
+      "translation": "Bonne fin d'après-midi (salutation crépusculaire de 16h00 à la tombée de la nuit)",
+      "example_sentence": "Ẹ kùúbọ̀wọ̀ fún yín o.",
+      "example_phonetic": "/ɛ̀ kùːbɔ̀wɔ̀ fʊ́ d͡ʒĩ o/",
+      "example_translation": "Bonne fin d'après-midi à vous."
+    },
+    {
+      "word_id": "A1_M1_L1_V5",
+      "term": "Ẹ kààlẹ́",
+      "phonetic_api": "/ɛ̀ kàːlɛ́/",
+      "phonetic_simple": "È KÀÀ-LÉ",
+      "translation": "Bonsoir (salutation nocturne, de la nuit tombée au coucher)",
+      "example_sentence": "Ẹ kààlẹ́, gbogbo ará ilé yìí.",
+      "example_phonetic": "/ɛ̀ kàːlɛ́ ɡ͡boɡ͡bo aɾá ilé jĩː/",
+      "example_translation": "Bonsoir à tous les membres de cette maison."
+    },
+    {
+      "word_id": "A1_M1_L1_V6",
+      "term": "Ẹ ṣé púpọ̀",
+      "phonetic_api": "/ɛ̀ ʃé kúpɔ̀/",
+      "phonetic_simple": "È SHÉ KPOÚ-PÀW",
+      "translation": "Merci beaucoup (expression honorifique de gratitude)",
+      "example_sentence": "Ẹ ṣé púpọ̀ fún oore náà.",
+      "example_phonetic": "/ɛ̀ ʃé kúpɔ̀ fʊ́ oːɾe náː/",
+      "example_translation": "Merci beaucoup pour ce bienfait."
+    },
+    {
+      "word_id": "A1_M1_L1_V7",
+      "term": "Ẹ jọ̀wọ́",
+      "phonetic_api": "/ɛ̀ d͡ʒɔ̀wɔ́/",
+      "phonetic_simple": "È JÀW-WÓ",
+      "translation": "S'il vous plaît / Je vous en prie (formulation déférente d'une requête)",
+      "example_sentence": "Ẹ jọ̀wọ́, ẹ dákẹ́ jẹ́ẹ́.",
+      "example_phonetic": "/ɛ̀ d͡ʒɔ̀wɔ́ ɛ̀ dákɛ́ d͡ʒɛ́ː/",
+      "example_translation": "S'il vous plaît, veuillez faire silence."
+    },
+    {
+      "word_id": "A1_M1_L1_V8",
+      "term": "O dàbọ̀",
+      "phonetic_api": "/o dàbɔ̀/",
+      "phonetic_simple": "OH DÀ-BÀW",
+      "translation": "Au revoir (littéralement : jusqu'à ce que nous revenions)",
+      "example_sentence": "O dàbọ̀, rí i lẹ́yìn-ọ̀la o.",
+      "example_phonetic": "/o dàbɔ̀ ɾíː lɛ́jĩ dɔ̀la o/",
+      "example_translation": "Au revoir, à plus tard / à demain."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "A1_M1_L1_P1",
+      "original": "Báwo ni nǹkan?",
+      "phonetic_api": "/báwo nĩ ŋ̀kã/",
+      "phonetic_simple": "BÁ-WO NI N-KAN",
+      "translation": "Comment vont les choses ? / Comment ça va ?",
+      "context": "Registre informel, utilisé couramment entre pairs ou envers des plus jeunes."
+    },
+    {
+      "phrase_id": "A1_M1_L1_P2",
+      "original": "Ṣé àláfíà ni ẹ wà?",
+      "phonetic_api": "/ʃé àláfíà nĩ ɛ̀ wà/",
+      "phonetic_simple": "SHÉ À-LÁ-FÍ-À NI È WÀ",
+      "translation": "Êtes-vous en bonne santé / en paix ?",
+      "context": "Registre formel ou hautement poli pour s'enquérir de l'état général d'un aîné."
+    },
+    {
+      "phrase_id": "A1_M1_L1_P3",
+      "original": "A dúpẹ́ lọ́wọ́ Ọlọ́run, àláfíà ni.",
+      "phonetic_api": "/a dúpɛ́ lɔ́wɔ́ ɔlɔ́ɾʊ̃ àláfíà nĩ/",
+      "phonetic_simple": "A DOU-KPÉ LÀW-WÓ AW-LÓ-ROUN, À-LÁ-FÍ-À NI",
+      "translation": "Nous remercions Dieu, tout va bien / nous sommes en paix.",
+      "context": "Réponse traditionnelle, dévote et standardisée à toute salutation sur la santé."
+    },
+    {
+      "phrase_id": "A1_M1_L1_P4",
+      "original": "Ẹ kú àbọ̀ o, ẹ n lẹ́ nínú afẹ́fẹ́.",
+      "phonetic_api": "/ɛ̀ kú àbɔ̀ o ɛ̀ ŋ̀lɛ́ nĩ́nú afɛ́fɛ́/",
+      "phonetic_simple": "È KOÚ À-BÀW O, È N-LÉ NÍ-NOÚ À-FÉ-FÉ",
+      "translation": "Soyez le bienvenu, j'espère que le voyage s'est bien passé.",
+      "context": "Salutation exclusive adressée à quelqu'un qui revient d'un déplacement."
+    },
+    {
+      "phrase_id": "A1_M1_L1_P5",
+      "original": "Ẹ kú iṣẹ́ o, mọ́ tún rí iṣẹ́ yín ṣe.",
+      "phonetic_api": "/ɛ̀ kú iʃɛ́ o mɔ́ tʊ́ ɾíː iʃɛ́ d͡ʒĩ ʃe/",
+      "phonetic_simple": "È KOÚ I-SHÉ O, MÓ TOÚN RÍ I-SHÉ YÍN SHÉ",
+      "translation": "Bon travail à vous, j'admire l'effort que vous fournissez.",
+      "context": "Salutation rituelle pour honorer et encourager une personne en pleine activité laborieuse."
+    },
+    {
+      "phrase_id": "A1_M1_L1_P6",
+      "original": "Kò tọ́pẹ́ rárá, iṣẹ́ wa ni.",
+      "phonetic_api": "/kò tɔ́pɛ́ ɾáɾá iʃɛ́ wa nĩ/",
+      "phonetic_simple": "KÒ TÀW-KPÉ RÁ-RÁ, I-SHÉ WA NI",
+      "translation": "Ce n'est pas digne de remerciements, c'est notre devoir.",
+      "context": "Formule d'humilité extrême pour décliner les remerciements d'autrui."
+    },
+    {
+      "phrase_id": "A1_M1_L1_P7",
+      "original": "Ẹ gba mọ́ra, jọ̀wọ́ má bínú o.",
+      "phonetic_api": "/ɛ̀ ɡ͡ba mɔ́ɾa d͡ʒɔ̀wɔ́ má bínú o/",
+      "phonetic_simple": "È GBA MAW-RA, JÀW-WÓ MÁ BÍ-NOÚ O",
+      "translation": "Acceptez mes condoléances / sympathies, s'il vous plaît ne m'en veuillez pas.",
+      "context": "Utilisé pour compatir face à un malheur, un deuil ou une maladresse involontaire."
+    },
+    {
+      "phrase_id": "A1_M1_L1_P8",
+      "original": "O d'àárọ̀, kí Ọlọ́run sọ wa o.",
+      "phonetic_api": "/o dàːɾɔ̀ kí ɔlɔ́ɾʊ̃ sɔ wa o/",
+      "phonetic_simple": "OH DÀÀ-RÀW, KÍ AW-LÓ-ROUN SÀW WA O",
+      "translation": "Bonne nuit, que Dieu nous garde jusqu'au matin.",
+      "context": "Formule de séparation nocturne empreinte d'une bénédiction protectrice."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le pronom personnel honorifique et le pluriel sociolinguistique 'Ẹ'",
+      "explanation": "La langue yoruba intègre la hiérarchie sociale et l'âge directement dans sa morphosyntaxe. Le pronom personnel de la deuxième personne du pluriel 'Ẹ' [ɛ̀] fonctionne systématiquement comme un marqueur obligatoire de respect (vouvoiement honorifique) lorsqu'on s'adresse à un aîné, un parent, un ancêtre, un supérieur ou un inconnu. Son omission face à ces personnes constitue un affront linguistique majeur (connu sous le nom de 'a-ì-gbọ́n-ràn').",
+      "rules": [
+        "Placer obligatoirement le morphème proclitique 'Ẹ' au début de toutes les salutations temporelles en contexte formel (ex: Ẹ + kààárọ̀).",
+        "Supprimer ce morphème ou utiliser la forme nue uniquement lorsque l'allocutaire est un enfant, un animal, un ami intime ou un pair d'âge égal ou inférieur (ex: Kààárọ̀)."
+      ],
+      "examples": [
+        {
+          "structure": "Ẹ kú iṣẹ́ (Respectueux / Pluriel)",
+          "phonetic_api": "/ɛ̀ kú iʃɛ́/",
+          "meaning": "Que vous soyez salué dans votre travail (s'adresse à un aîné ou à plusieurs personnes)."
+        },
+        {
+          "structure": "Kú iṣẹ́ (Informel / Singulier)",
+          "phonetic_api": "/kú iʃɛ́/",
+          "meaning": "Salutations pour ton travail (s'adresse à un ami intime ou un subordonné)."
+        }
+      ]
+    },
+    {
+      "concept": "La morphologie dérivationnelle de la matrice salutationnelle 'Ẹ kú...'",
+      "explanation": "Le yoruba n'utilise pas de simples termes figés pour saluer, mais applique un mécanisme grammatical productif. La structure est composée du préfixe honorifique 'Ẹ', suivi du verbe défectif de salutation 'kú' (qui signifie sémantiquement 'survivre à' ou 'honorer l'état de'), combiné avec un syntagme nominal décrivant précisément une situation météo, temporelle, physique ou émotionnelle.",
+      "rules": [
+        "Structure immuable : [Ẹ] + [kú] + [Nom/Verbe nominalisé].",
+        "Le ton bas sur 'Ẹ' et le ton haut sur 'kú' créent une modulation mélodique ascendante caractéristique."
+      ],
+      "examples": [
+        {
+          "structure": "Ẹ kú + ebi (la faim)",
+          "phonetic_api": "/ɛ̀ kú ebi/",
+          "meaning": "Salutations à vous qui endurez la faim (utilisé pendant le jeûne)."
+        },
+        {
+          "structure": "Ẹ kú + jòókòó (le fait de s'asseoir)",
+          "phonetic_api": "/ɛ̀ kú d͡ʒòókòó/",
+          "meaning": "Salutations à vous qui êtes assis / au repos."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Adéwálé (Un jeune étudiant)",
+      "text": "Ẹ kààárọ̀ o, bàbá. Ṣé àláfíà ni ẹ jí?",
+      "phonetic_api": "/ɛ̀ kàːáɾɔ̀ o bàbá ʃé àláfíà nĩ ɛ̀ d͡ʒí/",
+      "phonetic_simple": "È KÀÀ-Á-RÀW O, BÀ-BÁ. SHÉ À-LÁ-FÍ-À NI È JÍ?",
+      "translation": "Bonjour, père. Vous êtes-vous réveillé en paix et en bonne santé ?"
+    },
+    {
+      "speaker": "Bàbá Tóbi (L'ancien du village)",
+      "text": "Kààárọ̀, Adéwálé. Àláfíà ni, a dúpẹ́ púpọ̀. Ṣé gbogbo ará ilé wà dáadáa?",
+      "phonetic_api": "/kàːáɾọ̀ àdéwálé àláfíà nĩ a dúpɛ́ kúpɔ̀ ʃé ɡ͡boɡ͡bo aɾá ilé wà dáːdáː/",
+      "phonetic_simple": "KÀÀ-Á-RÀW, À-DÉ-WÁ-LÉ. À-LÁ-FÍ-À NI, A DOU-KPÉ KPOÚ-PÀW. SHÉ GBOGBO À-RÁ I-LÉ WÀ DÁÁ-DÁÁ?",
+      "translation": "Bonjour, Adewale. Tout va bien en paix, nous remercions infiniment. Est-ce que toute la maisonnée se porte bien ?"
+    },
+    {
+      "speaker": "Adéwálé (Un jeune étudiant)",
+      "text": "Wọ́n wà dáadáa, bàbá. Ẹ ṣé. Ẹ kú iṣẹ́ àgbẹ̀ o.",
+      "phonetic_api": "/wɔ́ wà dáːdáː bàbá ɛ̀ ʃé ɛ̀ kú iʃɛ́ àɡ͡bɛ̀ o/",
+      "phonetic_simple": "WÁN WÀ DÁÁ-DÁÁ, BÀ-BÁ. È SHÉ. È KOÚ I-SHÉ À-GBÈ O.",
+      "translation": "Ils vont très bien, père. Merci. Bon courage à vous pour votre travail agricole."
+    },
+    {
+      "speaker": "Bàbá Tóbi (L'ancien du village)",
+      "text": "Oó tọ́, ọmọ mi. Ẹ ṣé o. Kí Ọlọ́run bùsí i fún ọ.",
+      "phonetic_api": "/oó tɔ́ ɔmɔ mĩ ɛ̀ ʃé o kí ɔlɔ́ɾʊ̃ bùsí i fʊ́ ɔ/",
+      "phonetic_simple": "OH-Ó TÀW, AW-MAW MI. È SHÉ O. KÍ AW-LÓ-ROUN BOÙ-SÍ I FOÚN AW.",
+      "translation": "De rien, mon enfant. Merci à toi. Que Dieu te comble de bénédictions."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la civilisation Yoruba, le système de salutations (Inú Rere) constitue le fondement anthropologique de la moralité (Ìwà). Un individu qui omet de saluer ses aînés est qualifié de 'Ọmọ lálàásàn' (enfant sans éducation) ou d'arrogant, ce qui ternit la réputation de sa lignée.",
+    "L'expression corporelle est indissociable de la parole : la prostration totale face contre terre (Ìbàlẹ̀) pour les hommes, et le fléchissement complet des deux genoux au sol (Kunle) pour les femmes, sont obligatoires pour saluer une autorité traditionnelle (un Oba) ou un parent âgé.",
+    "La flexibilité de la structure 'Ẹ kú' permet d'inventer des salutations immédiates : 'Ẹ kú òjò' (salutation pour la pluie qui tombe), 'Ẹ kú ooru' (salutation pour la chaleur étouffante), ou même 'Ẹ kú ìjòkòó' (salutation pour le fait de rester assis)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M1_L1_EX1",
+      "type": "multiple_choice",
+      "question": "Vous croisez votre professeur d'université à 14h30 au marché. Quelle est la formule linguistique et sociologiquement correcte à utiliser ?",
+      "options": [
+        "Kààsán, ọ̀gá mi",
+        "Ẹ kààsán, ọ̀gá mi",
+        "Ẹ kààárọ̀, bàbá",
+        "Báwo ni nǹkan"
+      ],
+      "correct_answer": "Ẹ kààsán, ọ̀gá mi",
+      "explanation": "Le créneau horaire de 14h30 exige l'emploi du terme 'kààsán' (après-midi), et le statut hiérarchique du professeur impose l'utilisation du pronom de respect 'Ẹ'."
+    },
+    {
+      "exercise_id": "A1_M1_L1_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour souhaiter une bonne nuit de manière respectueuse et pieuse, on dit : O d'àárọ̀, kí [ ___ ] sọ wa o.",
+      "correct_answer": "Ọlọ́run",
+      "hint": "Il s'agit du nom yoruba désignant le Dieu suprême ou le Créateur des cieux."
+    }
+  ]
+}

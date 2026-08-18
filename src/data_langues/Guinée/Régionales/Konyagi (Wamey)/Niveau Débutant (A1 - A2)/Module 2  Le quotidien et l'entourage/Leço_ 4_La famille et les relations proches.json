@@ -1,0 +1,214 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les membres de la famille nucléaire et élargie en wamey",
+    "Présenter ses proches et exprimer les liens de parenté de base",
+    "Utiliser les pronoms et suffixes possessifs adaptés aux noms de parenté"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne occlusive injective bilabiale voisée /ɓ/ (notée ɓ) et la nasale palatale /ɲ/ (notée ñ). L'accentuation met en relief la première voyelle du radical.",
+    "common_pitfalls": "Attention à bien distinguer l'injective /ɓ/ dans 'ɓaba' d'un /b/ français ordinaire. La lèvre inférieure et supérieure doivent se détacher avec une légère succion vers l'intérieur."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "ɓaba",
+      "phonetic_api": "/ɓaba/",
+      "phonetic_simple": "BHA-BA",
+      "translation": "père / papa",
+      "example_sentence": "ɓaba i saax.",
+      "example_phonetic": "/ɓaba i saːχ/",
+      "example_translation": "Mon père est à la maison."
+    },
+    {
+      "word_id": "v2",
+      "term": "mama",
+      "phonetic_api": "/mama/",
+      "phonetic_simple": "MA-MA",
+      "translation": "mère / maman",
+      "example_sentence": "Mama i bano marse.",
+      "example_phonetic": "/mama i bano maʁse/",
+      "example_translation": "Maman vient du marché."
+    },
+    {
+      "word_id": "v3",
+      "term": "wul",
+      "phonetic_api": "/wul/",
+      "phonetic_simple": "WOUL",
+      "translation": "enfant / fils / fille",
+      "example_sentence": "O fula wul ɓal.",
+      "example_phonetic": "/o fula wul ɓal/",
+      "example_translation": "Elle a deux enfants."
+    },
+    {
+      "word_id": "v4",
+      "term": "reerom",
+      "phonetic_api": "/ʁeːʁɔm/",
+      "phonetic_simple": "RÉÉ-ROM",
+      "translation": "mon frère / mon parent",
+      "example_sentence": "Reerom wëcwë Samba.",
+      "example_phonetic": "/ʁeːʁɔm wət͡ʃwə samba/",
+      "example_translation": "Mon frère s'appelle Samba."
+    },
+    {
+      "word_id": "v5",
+      "term": "mbo",
+      "phonetic_api": "/mbɔ/",
+      "phonetic_simple": "MBO",
+      "translation": "ami / camarade",
+      "example_sentence": "O i mbo mi.",
+      "example_phonetic": "/o i mbɔ mi/",
+      "example_translation": "Il est mon ami."
+    },
+    {
+      "word_id": "v6",
+      "term": "ce",
+      "phonetic_api": "/t͡ʃɛ/",
+      "phonetic_simple": "TCHÉ",
+      "translation": "homme / mari",
+      "example_sentence": "Ce kene i boka.",
+      "example_phonetic": "/t͡ʃɛ kɛnɛ i boka/",
+      "example_translation": "Cet homme est bon."
+    },
+    {
+      "word_id": "v7",
+      "term": "arkwë",
+      "phonetic_api": "/aʁkwə/",
+      "phonetic_simple": "AR-KOUÉ",
+      "translation": "femme / épouse",
+      "example_sentence": "Arkwë mi i bano.",
+      "example_phonetic": "/aʁkwə mi i bano/",
+      "example_translation": "Mon épouse arrive."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Wun a mbe wul ?",
+      "phonetic_api": "/wun a mbɛ wul/",
+      "phonetic_simple": "WOUN A MBÉ WOUL ?",
+      "translation": "As-tu des enfants ?",
+      "context": "S'enquérir de la descendance d'un interlocuteur lors d'une discussion."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Nyi fula wul ɓal.",
+      "phonetic_api": "/ɲi fula wul ɓal/",
+      "phonetic_simple": "NYI FOU-LA WOUL BHAL",
+      "translation": "J'ai deux enfants.",
+      "context": "Donner des précisions sur sa famille."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Cene i ɓaba mi.",
+      "phonetic_api": "/t͡ʃɛnɛ i ɓaba mi/",
+      "phonetic_simple": "TCHÉ-NÉ I BHA-BA MI",
+      "translation": "Cet homme est mon père.",
+      "context": "Présenter son père à un tiers."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Mbo mi i bano ra saax.",
+      "phonetic_api": "/mbɔ mi i bano ʁa saːχ/",
+      "phonetic_simple": "MBO MI I BA-NO RA SAAKH",
+      "translation": "Mon ami vient à la maison.",
+      "context": "Annoncer la visite d'un proche."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la possession inaliénable et post-nominale",
+      "explanation": "En wamey (konyagi), pour exprimer la possession avec les termes de parenté et les relations proches, on place le pronom possessif ou le pronom personnel de forme réduite immédiatement APRÈS le nom.",
+      "rules": [
+        "Nom de parenté + Pronom possesseur (ex: mi = moi / mon).",
+        "Pas de déterminant possessif placé devant le nom comme en français."
+      ],
+      "examples": [
+        {
+          "structure": "ɓaba mi",
+          "phonetic_api": "/ɓaba mi/",
+          "meaning": "mon père (littéralement : père moi)"
+        },
+        {
+          "structure": "mbo mi",
+          "phonetic_api": "/mbɔ mi/",
+          "meaning": "mon ami"
+        }
+      ]
+    },
+    {
+      "concept": "Le démonstratif de proximité 'kene / cene'",
+      "explanation": "Les démonstratifs s'accordent avec la classe nominale du mot qu'ils qualifient. Pour les êtres humains de genre masculin ou générique, on emploie souvent la forme adaptée ou le démonstratif post-posé.",
+      "rules": [
+        "Se place juste après le nom ou fusionne dans la proposition pour désigner la personne présente."
+      ],
+      "examples": [
+        {
+          "structure": "ce cene",
+          "phonetic_api": "/t͡ʃɛ t͡ʃɛnɛ/",
+          "meaning": "cet homme-ci"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Ryambé, Mady ! Ce cene i fene ?",
+      "phonetic_api": "/jambɛ madi t͡ʃɛ t͡ʃɛnɛ i fɛnɛ/",
+      "phonetic_simple": "RYAM-BÉ, MA-DY ! TCHÉ TCHÉ-NÉ I FÉ-NÉ ?",
+      "translation": "Bonjour, Mady ! Qui est cet homme là-bas ?"
+    },
+    {
+      "speaker": "Mady",
+      "text": "Ryambé gouè ! Ce cene i ɓaba mi. O bano ra Koundara.",
+      "phonetic_api": "/jambɛ ɡwɛ t͡ʃɛ t͡ʃɛnɛ i ɓaba mi o bano ʁa kuŋdaʁa/",
+      "phonetic_simple": "RYAM-BÉ GOUÈ ! TCHÉ TCHÉ-NÉ I BHA-BA MI. O BA-NO RA KOUN-DA-RA.",
+      "translation": "Bonjour en paix ! Cet homme est mon père. Il vient de Koundara."
+    },
+    {
+      "speaker": "Samba",
+      "text": "Ah, i boka ! O fula wul fene ra saax ?",
+      "phonetic_api": "/ah i boka o fula wul fɛnɛ ʁa saːχ/",
+      "phonetic_simple": "AH, I BO-KA ! O FOU-LA WOUL FÉ-NÉ RA SAAKH ?",
+      "translation": "Ah, c'est bien ! Combien d'enfants a-t-il à la maison ?"
+    },
+    {
+      "speaker": "Mady",
+      "text": "O fula wul ɓal : nyi e reerom Samba.",
+      "phonetic_api": "/o fula wul ɓal ɲi ɛ ʁeːʁɔm samba/",
+      "phonetic_simple": "O FOU-LA WOUL BHAL : NYI É RÉÉ-ROM SAM-BA.",
+      "translation": "Il a deux enfants : moi et mon frère Samba."
+    }
+  ],
+  "cultural_notes": [
+    "Chez les Konyagi, le concept de famille dépasse largement le cadre nucléaire occidental. Les cousins parallèles ou certains membres du même clan d'âge sont fréquemment appelés par les termes équivalents à 'frère' ('reerom') ou 'père' ('ɓaba').",
+    "Le respect des aînés et des parents est au cœur de la structure sociale wamey, et il est très courant de demander longuement des nouvelles de la santé des parents lors de chaque rencontre."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L4_EX1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'mon père' en langue Konyagi (wamey) ?",
+      "options": [
+        "mi ɓaba",
+        "ɓaba mi",
+        "ɓaba cene"
+      ],
+      "correct_answer": "ɓaba mi",
+      "explanation": "En wamey, le pronom possessif se place après le nom de parenté : 'ɓaba mi'."
+    },
+    {
+      "exercise_id": "A1_M2_L4_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "O fula wul [ ___ ] (deux).",
+      "correct_answer": "ɓal",
+      "hint": "Le chiffre deux en wamey, caractérisé par une consonne injective bilabiale initiale."
+    }
+  ]
+}

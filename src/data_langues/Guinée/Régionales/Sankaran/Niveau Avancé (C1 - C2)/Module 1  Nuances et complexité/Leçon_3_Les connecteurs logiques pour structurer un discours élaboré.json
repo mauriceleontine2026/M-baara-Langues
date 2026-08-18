@@ -1,0 +1,212 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Les connecteurs logiques pour structurer un discours élaboré",
+  "learning_objectives": [
+    "Articuler des arguments complexes en utilisant des connecteurs de cause, de conséquence et d'opposition",
+    "Structurer une argumentation fluide et hiérarchisée lors d'une prise de parole formelle",
+    "Nuancer l'expression de la concession et de l'alternative dans un débat d'idées"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La rhétorique avancée emploie des connecteurs aux articulations denses. Le connecteur d'opposition 'Nka' /ŋ.ka/ exige une nasale vélaire sourde initiale très tendue. Le terme de cause 'Katuguni' /ka.tu.ɣu.ni/ fait intervenir la fricative vélaire voisée /ɣ/. La locution de conséquence 'O ma jɛn' /o ma d͡ʒɛn/ ou 'O dyaala' demande une affriquée palatale pure.",
+    "common_pitfalls": "Veillez à ne pas détacher le 'N' initial de 'Nka' en créant une syllabe artificielle. Le flux d'air doit bloquer le fond du palais dès l'amorce du mot. Prononcez distinctement le /ɣ/ de 'Katuguni' sans le transformer en 'g' dur."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v21_1",
+      "term": "Nka",
+      "phonetic_api": "/ŋ.ka/",
+      "phonetic_simple": "NG-KA",
+      "translation": "Mais / Cependant / Toutefois",
+      "example_sentence": "N b'a fɛ ka wa, nka wari te n bolo.",
+      "example_phonetic": "/ɲ b'a fɛ ka wa ŋ.ka wa.ri te ɲ bo.lo/",
+      "example_translation": "Je veux y aller, mais je n'ai pas d'argent."
+    },
+    {
+      "word_id": "v21_2",
+      "term": "Katuguni / Katugun",
+      "phonetic_api": "/ka.tu.ɣu.ni/",
+      "phonetic_simple": "KA-TOU-GOU-NI",
+      "translation": "Parce que / Car / En raison de (introduction d'une cause majeure)",
+      "example_sentence": "N ma wa, katuguni n tun be baara la.",
+      "example_phonetic": "/m ma wa ka.tu.ɣu.ni ɲ tun be baː.ra la/",
+      "example_translation": "Je n'ai pas bougé, parce que j'étais en plein travail."
+    },
+    {
+      "word_id": "v21_3",
+      "term": "O le yɛ / O le ma",
+      "phonetic_api": "/o le jɛ/",
+      "phonetic_simple": "O LÉ YƐ",
+      "translation": "C'est pourquoi / Par conséquent / De ce fait",
+      "example_sentence": "San nana, o le yɛ n tora so kɔnɔ.",
+      "example_phonetic": "/san na.na o le jɛ ɲ to.ra so kɔ.nɔ/",
+      "example_translation": "La pluie est tombée, c'est pourquoi je suis resté à la maison."
+    },
+    {
+      "word_id": "v21_4",
+      "term": "Hali ni",
+      "phonetic_api": "/ha.li ni/",
+      "phonetic_simple": "HA-LI NI",
+      "translation": "Même si / Bien que / Quoique (concession)",
+      "example_sentence": "Hali ni a songo ka gbelen, n be a san na.",
+      "example_phonetic": "/ha.li ni a son.ɣo ka ɡ͡be.len ɲ be a san na/",
+      "example_translation": "Même si son prix est élevé, je l'achèterai."
+    },
+    {
+      "word_id": "v21_5",
+      "term": "Fɔlɔfɔlɔ la",
+      "phonetic_api": "/fɔ.lɔ.fɔ.lɔ la/",
+      "phonetic_simple": "FƆ-LƆ-FƆ-LƆ LA",
+      "translation": "En premier lieu / Tout d'abord / Premièrement",
+      "example_sentence": "Fɔlɔfɔlɔ la, an kani Ala tondɔ.",
+      "example_phonetic": "/fɔ.lɔ.fɔ.lɔ la an ka.ni a.la ton.dɔ/",
+      "example_translation": "Tout d'abord, nous devons remercier Dieu."
+    },
+    {
+      "word_id": "v21_6",
+      "term": "O kɔ fɛ tukan",
+      "phonetic_api": "/o kɔ fɛ tu.kan/",
+      "phonetic_simple": "O KƆ FƐ TOU-KANE",
+      "translation": "De plus / Par ailleurs / En outre",
+      "example_sentence": "O kɔ fɛ tukan, a ye n ladili fana.",
+      "example_phonetic": "/o kɔ fɛ tu.kan a je ɲ la.di.li fa.na/",
+      "example_translation": "Par ailleurs, il m'a également conseillé."
+    },
+    {
+      "word_id": "v21_7",
+      "term": "Labanyala / Laban la",
+      "phonetic_api": "/la.ba.nja la/",
+      "phonetic_simple": "LA-BA-NYA LA",
+      "translation": "Enfin / En conclusion / Au bout du compte",
+      "example_sentence": "Labanyala, ko nin tilara kɛndɛya la.",
+      "example_phonetic": "/la.ba.nja la ko nin ti.la.ra kɛn.dɛ.ja la/",
+      "example_translation": "En conclusion, cette affaire s'est terminée dans la paix."
+    },
+    {
+      "word_id": "v21_8",
+      "term": "Wala / Wala ni",
+      "phonetic_api": "/wa.la/",
+      "phonetic_simple": "WA-LA",
+      "translation": "Ou bien / Sinon / Alternative alternative",
+      "example_sentence": "I be wa na bi, wala sini bang?",
+      "example_phonetic": "/i be na na bi wa.la si.ni baŋ/",
+      "example_translation": "Viendras-tu aujourd'hui ou bien demain ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p21_1",
+      "original": "Fɔlɔfɔlɔ la, n kani baara yɔrɔ lɔn, o kɔ fɛ tukan n be n latigɛ na sisan.",
+      "phonetic_api": "/fɔ.lɔ.fɔ.lɔ la ɲ ka.ni baː.ra jɔ.rɔ lɔn o kɔ fɛ tu.kan ɲ be ɲ la.ti.ɣɛ na si.san/",
+      "phonetic_simple": "FƆ-LƆ-FƆ-LƆ LA, N KA-NI BAA-RA YƆ-RƆ LƆNE, O KƆ FƐ TOU-KANE N BÉ N LA-TI-GƐ NA SI-SANE.",
+      "translation": "Tout d'abord, je dois connaître l'emplacement du travail, de plus je prendrai ma décision finale à présent.",
+      "context": "Structuration d'un plan d'action hiérarchisé lors d'un entretien formel."
+    },
+    {
+      "phrase_id": "p21_2",
+      "original": "A ma lanya sɔrɔ n kan la, katuguni n tun ma wa kunu, o le yɛ a dimina bi.",
+      "phonetic_api": "/a ma lan.ja sɔ.rɔ ɲ kan la ka.tu.ɣu.ni ɲ tun ma wa ku.nu o le jɛ a di.mi.na bi/",
+      "phonetic_simple": "A MA LANE-YA SƆ-RƆ N KANE LA, KA-TOU-GOU-NI N TOUNE MA WA KOU-NOU, O LÉ YƐ A DI-MI-NA BI.",
+      "translation": "Il n'a pas eu confiance en ma parole parce que je n'étais pas venu hier, c'est pourquoi il est en colère aujourd'hui.",
+      "context": "Explication logique mêlant une cause passée et une conséquence présente."
+    },
+    {
+      "phrase_id": "p21_3",
+      "original": "Hali ni ko nin gbɛlɛyara kosɛbɛ, an te an na habako lu sɔsɔ na labanyala.",
+      "phonetic_api": "/ha.li ni ko nin ɡ͡bɛ.lɛ.ja.ra ko.sɛ.bɛ an te an na ha.ba.ko lu sɔ.sɔ na la.ba.nja la/",
+      "phonetic_simple": "HA-LI NI KO NINE GBƐ-LƐ-YA-RA KO-SƐ-BƐ, ANE TÉ ANE NA HA-BA-KO LOU SƆ-SƆ NA LA-BA-NYA LA.",
+      "translation": "Bien que cette affaire soit extrêmement difficile, nous n'abandonnerons pas nos projets au bout du compte.",
+      "context": "Discours de motivation solennel réaffirmant des ambitions malgré les obstacles."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La coordination logique consécutive par focalisation du pronom neutre 'O le yɛ'",
+      "explanation": "Pour lier une cause à sa conséquence ('C'est pourquoi...'), la langue Sankaran utilise le pronom démonstratif neutre 'O' (cela), renforcé par la particule de focalisation obligatoire 'le' et orienté vers la destination par la postposition 'yɛ' (pour/à).",
+      "rules": [
+        "Structure : [Proposition Cause], + o le yɛ + [Proposition Conséquence]"
+      ],
+      "examples": [
+        {
+          "structure": "Wari be n bolo, o le yɛ n be finin san na.",
+          "phonetic_api": "/wa.ri be ɲ bo.lo o le jɛ ɲ be fi.nin san na/",
+          "meaning": "J'ai de l'argent, c'est pourquoi j'achèterai un vêtement."
+        }
+      ]
+    },
+    {
+      "concept": "L'organisation discursive par juxtaposition adverbiale temporelle",
+      "explanation": "Dans un discours soutenu, la transition logique ne se fait pas par des conjonctions pures de subordination, mais par des adverbes de temps spatialisés comme 'Fɔlɔfɔlɔ la' (à la toute première place) et 'O kɔ fɛ tukan' (sur le dos de cela encore).",
+      "rules": [
+        "Première étape : Fɔlɔfɔlɔ la + Argument 1",
+        "Deuxième étape : O kɔ fɛ tukan + Argument 2",
+        "Clôture : Labanyala + Argument Final"
+      ],
+      "examples": [
+        {
+          "structure": "Fɔlɔfɔlɔ la n be wa na yan, labanyala n be lafia na.",
+          "phonetic_api": "/fɔ.lɔ.fɔ.lɔ la ɲ be na na jan la.ba.nja la ɲ be la.fi.a na/",
+          "meaning": "Tout d'abord je viendrai ici, enfin je me reposerai."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Karamɔgɔ",
+      "text": "Lamine, n kani i mɛn na bi. Fɔlɔfɔlɔ la, i ma i routine baara tila kunu, o kɔ fɛ tukan i sikɛra an na silo ma.",
+      "phonetic_api": "/la.min ɲ ka.ni i mɛn na bi | fɔ.lɔ.fɔ.lɔ la i ma i ru.ti.ne baː.ra ti.la ku.nu o kɔ fɛ tu.kan i si.kɛ.ra an na si.lo ma/",
+      "phonetic_simple": "LA-MINE, N KA-NI I MƐNE NA BI. FƆ-LƆ-FƆ-LƆ LA, I MA I ROU-TI-NE BAA-RA TI-LA KOU-NOU, O KƆ FƐ TOU-KANE I SI-KƐ-RA ANE NA SI-LO MA.",
+      "translation": "Lamine, je dois t'entendre aujourd'hui. En premier lieu, tu n'as pas terminé ton travail de routine hier, de plus tu as émis des doutes sur notre règlement."
+    },
+    {
+      "speaker": "Lamine",
+      "text": "N faa karamɔgɔ, n kɔnɔ dimina kunu jaati, katuguni n tun ye n wari bɛɛ tɔgɔ fɛ feere lofɛ la gbansan.",
+      "phonetic_api": "/ɲ faː ka.ra.mɔ.ɣɔ ɲ kɔː.nɔ di.mi.na ku.nu d͡ʒaː.ti ka.tu.ɣu.ni ɲ tun je ɲ wa.ri bɛː tɔ.ɣɔ fɛ feː.re lo.fɛ la ɡ͡ba.san/",
+      "phonetic_simple": "N FAA KA-RA-MƆ-GƆ, N KƆƆ-NƆ DI-MI-NA KOU-NOU DJAA-TI, KA-TOU-GOU-NI N TOUNE YÉ N WA-RI BƐƐ TƆ-GƆ FƐ FEE-RÉ LO-FƐ LA GBANE-SANE.",
+      "translation": "Mon maître, j'étais véritablement en colère hier, car j'avais perdu (écoulé en vain) tout mon argent au fond du marché."
+    },
+    {
+      "speaker": "Karamɔgɔ",
+      "text": "O mu tɔgɛ di, nka o te i diyɛ na ka dugu silo sɔsɔ. Wala i b'a fɛ ka labanyala an ka i gbelen na bang?",
+      "phonetic_api": "/o mu tɔ.ɣɛ di ŋ.ka o te i di.jɛ na ka du.ɣu si.lo sɔ.sɔ | wa.la i b'a fɛ ka la.ba.nja la an ka i ɡ͡be.len na baŋ/",
+      "phonetic_simple": "O MOU TƆ-GƐ DI, NG-KA O TÉ I DI-YƐ NA KA DOU-GOU SI-LO SƆ-SƆ. WA-LA I BA FƐ KA LA-BA-NYA LA ANE KA I GBÉ-LÈNE NA BANGE ?",
+      "translation": "C'est une vérité, cependant cela ne t'autorise pas à enfreindre les règles de la communauté. Ou bien veux-tu qu'au bout du compte nous t'interdisions l'accès ?"
+    },
+    {
+      "speaker": "Lamine",
+      "text": "N ma n kɔrɔ ! Hali ni n sɛbɛ kɔni dimina, n te n latigɛ sɔsɔ na tukan. N be ladilikan mɛn na sisan.",
+      "phonetic_api": "/ɲ ma ɲ kɔ.rɔ | ha.li ni ɲ sɛ.bɛ kɔ.ni di.mi.na ɲ te ɲ la.ti.ɣɛ sɔ.sɔ na tu.kan | ɲ be la.di.li.kan mɛn na si.san/",
+      "phonetic_simple": "N MA N KƆ-RƆ ! HA-LI NI N SƐ-BƐ KƆ-NI DI-MI-NA, N TÉ N LA-TI-GƐ SƆ-SƆ NA TOU-KANE. N BÉ LA-DI-LI-KANE MƐNE NA SI-SANE.",
+      "translation": "Ah non mon aîné ! Bien que ma force interne ait été blessée (colère), je ne m'opposerai plus jamais à votre décision. J'écoute et j'applique votre conseil dès à présent."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'art oratoire traditionnel du Sankaran, la maîtrise des connecteurs logiques de hiérarchisation ('fɔlɔfɔlɔ la', 'labanyala') est l'apanage des sages et des médiateurs. Un discours décousu sans étapes claires décrédibilise l'orateur lors des conseils de notables.",
+    "La concession ('hali ni...') est utilisée de façon stratégique dans la rhétorique locale pour apaiser les tensions. Commencer sa réplique en validant une partie de l'argument adverse avant d'introduire sa propre contrainte par 'nka' (mais) permet de maintenir le respect mutuel indispensable à la vie communautaire."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex21_1",
+      "type": "multiple_choice",
+      "question": "Quel connecteur logique complexe utilisez-vous pour introduire une clause de causalité majeure ?",
+      "options": [
+        "O le yɛ",
+        "Katuguni",
+        "Labanyala"
+      ],
+      "correct_answer": "Katuguni",
+      "explanation": "'Katuguni' signifie 'parce que' ou 'car' et sert à expliciter formellement la cause d'un fait en langue Sankaran."
+    },
+    {
+      "exercise_id": "ex21_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour marquer la conclusion définitive de son argumentation, on commence par : [ ___ ] an bɛɛ sɔnna ko nin ma. (En conclusion, nous avons tous accepté cette affaire.)",
+      "correct_answer": "Labanyala",
+      "hint": "Expression adverbiale dérivée du verbe finir/aboutir, écrite avec un L majuscule."
+    }
+  ]
+}

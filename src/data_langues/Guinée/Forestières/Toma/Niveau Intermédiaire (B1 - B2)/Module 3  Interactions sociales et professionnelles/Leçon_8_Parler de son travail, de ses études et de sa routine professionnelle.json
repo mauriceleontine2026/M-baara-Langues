@@ -1,0 +1,133 @@
+{
+  "lesson_id": "B1_M3_L8",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 8,
+  "title": "Parler de son travail, de ses études et de sa routine professionnelle",
+  "learning_objectives": [
+    "Décrire son métier ou son domaine d'activité en toma",
+    "Évoquer les actions répétitives de la vie professionnelle et quotidienne"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot désignant le travail 'tiya' ou 'tii' utilise une voyelle haute /i/ bien tendue, suivie d'une semi-voyelle fluide.",
+    "common_pitfalls": "Veillez à lier le nom de l'activité professionnelle avec le morphème 'nu' pour former correctement les noms de métiers."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v17_1",
+      "term": "tii",
+      "phonetic_api": "/tiː/",
+      "phonetic_simple": "TII",
+      "translation": "travail / labeur / champ",
+      "example_sentence": "Na tii kɛ ɓɛñ.",
+      "example_phonetic": "/na tiː kɛ ɓɛ̃/",
+      "example_translation": "Je travaille ici."
+    },
+    {
+      "word_id": "v17_2",
+      "term": "tii-kɛ-nu",
+      "phonetic_api": "/tiː.kɛ.nu/",
+      "phonetic_simple": "TII-KE-NOU",
+      "translation": "travailleur / cultivateur / ouvrier",
+      "example_sentence": "Tii-kɛ-nu lɔ vaza.",
+      "example_phonetic": "/tiː.kɛ.nu lɔ va.za/",
+      "example_translation": "L'ouvrier est vaillant."
+    },
+    {
+      "word_id": "v17_3",
+      "term": "kala-vɛlɛ",
+      "phonetic_api": "/ka.la.vɛ.lɛ/",
+      "phonetic_simple": "KA-LA-VE-LE",
+      "translation": "école / lieu d'étude",
+      "example_sentence": "Loi ta li kala-vɛlɛ ma.",
+      "example_phonetic": "/loi ta li ka.la.vɛ.lɛ ma/",
+      "example_translation": "Les enfants vont à l'école."
+    },
+    {
+      "word_id": "v17_4",
+      "term": "mɛni-za",
+      "phonetic_api": "/mɛ.ni.za/",
+      "phonetic_simple": "ME-NI-ZA",
+      "translation": "métier / profession / savoir-faire",
+      "example_sentence": "I mɛni-za lɔsa na ma?",
+      "example_phonetic": "/i mɛ.ni.za lɔ.sa na ma/",
+      "example_translation": "Quel est ton métier ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p17_1",
+      "original": "Mizɛ tii lɔ i kɛ ma?",
+      "phonetic_api": "/mi.zɛ tiː lɔ i kɛ ma/",
+      "phonetic_simple": "MI-ZE TII LO I KE MA",
+      "translation": "Quel travail fais-tu ?",
+      "context": "Question polie posée au niveau intermédiaire pour s'informer de la profession de son interlocuteur."
+    },
+    {
+      "phrase_id": "p17_2",
+      "original": "Na li tii ma folo-gila pépe.",
+      "phonetic_api": "/na li tiː ma fo.lo.ɡi.la pɛ́.pɛ/",
+      "phonetic_simple": "NA LI TII MA FO-LO-GI-LA PE-PE",
+      "translation": "Je vais au travail chaque lundi.",
+      "context": "Description d'une habitude ou routine hebdomadaire."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction nominale des métiers",
+      "explanation": "En toma, les noms de professions se forment de manière très logique en combinant le nom de l'activité, le verbe 'kɛ' (faire) et le suffixe humain 'nu' (personne).",
+      "rules": [
+        "Structure nominale : [Activité] + kɛ (faire) + nu (agent humain).",
+        "Le mot résultant est invariable au singulier et suit les règles classiques de possession."
+      ],
+      "examples": [
+        {
+          "structure": "tii-kɛ-nu",
+          "phonetic_api": "/tiː.kɛ.nu/",
+          "meaning": "celui qui fait le travail (travailleur/cultivateur)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Massa",
+      "text": "Zézé, i loi li kala-vɛlɛ ma?",
+      "phonetic_api": "/zɛ.zɛ i loi li ka.la.vɛ.lɛ ma/",
+      "phonetic_simple": "ZE-ZE I LOÏ LI KA-LA-VE-LE MA",
+      "translation": "Zézé, ton enfant va-t-il à l'école ?"
+    },
+    {
+      "speaker": "Zézé",
+      "text": "Owo, o li kala-vɛlɛ ma, o lo ga kala mɛni.",
+      "phonetic_api": "/o.wo o li ka.la.vɛ.lɛ ma o lo ɡa ka.la mɛ.ni/",
+      "phonetic_simple": "O-WO O LI KA-LA-VE-LE MA, O LO GA KA-LA ME-NI",
+      "translation": "Oui, il va à l'école, il aime étudier (comprendre l'écriture)."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'organisation traditionnelle en région toma, le travail de la terre (la riziculture) est une activité centrale qui implique une forte entraide collective, souvent rythmée par des chants de labeur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex17_1",
+      "type": "multiple_choice",
+      "question": "Que signifie littéralement 'kala-vɛlɛ' ?",
+      "options": [
+        "La maison du riz",
+        "La maison de l'écriture / école",
+        "Le grand marché"
+      ],
+      "correct_answer": "La maison de l'écriture / école",
+      "explanation": "'kala' fait référence à l'apprentissage/écriture et 'vɛlɛ' à la maison."
+    },
+    {
+      "exercise_id": "ex17_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Na [ ___ ] kɛ ɓɛñ (Je travaille ici).",
+      "correct_answer": "tii",
+      "hint": "Le substantif désignant le travail ou le champ."
+    }
+  ]
+}

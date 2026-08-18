@@ -1,0 +1,240 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit)",
+  "learning_objectives": [
+    "Distinguer l'utilisation du Parfait (Perfekt) et du Prétérit (Präteritum) à l'oral et à l'crit",
+    "Maîtriser la conjugaison des verbes forts, faibles et mixtes les plus fréquents au passé",
+    "Utiliser correctement les auxiliaires haben et sein selon la nature du verbe",
+    "Structurer un récit chronologique à l'aide d'adverbes de temps (zuerst, danach, schließlich)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le suffixe de participe passé ge- se prononce avec un [ɡ] dur et un e muet très court [ɡə]. Le -d ou -t final des radicaux au prétérit subit un assourdissement phonétique systématique s'il n'est pas suivi d'une voyelle (ex: 'er sagte' [ˈzaːktə]). Le digramme -ch- dans la forme forte 'ich sprach' se prononce comme le Ach-Laut vélaire rugueux [xa].",
+    "common_pitfalls": "Attention à ne pas accentuer le préfixe ge- des participes passés. L'accent tonique principal repose toujours sur la syllabe radicale du verbe (ex: ge-STÓR-ben). Pour les verbes à particule séparable, l'inflexion glottale ou l'accent se place sur la particule elle-même (ex: ÁN-ge-kom-men)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "passieren",
+      "phonetic_api": "/paˈsiːʁən/",
+      "phonetic_simple": "PA-SII-REN",
+      "translation": "se passer / arriver (événement)",
+      "example_sentence": "Gestern ist etwas Spannendes passiert.",
+      "example_phonetic": "/ˈɡɛstəʁn ɪst ˈɛtvas ˈʃpanəndəs paˈsiːt/",
+      "example_translation": "Hier, il s'est passé quelque chose de captivant."
+    },
+    {
+      "word_id": "v2",
+      "term": "erzählen",
+      "phonetic_api": "/ɛɐ̯ˈtsɛːlən/",
+      "phonetic_simple": "ER-TSEE-LEN",
+      "translation": "raconter / narrer",
+      "example_sentence": "Opa hat uns eine alte Geschichte erzählt.",
+      "example_phonetic": "/ˈoːpa hat ʊns ˈaɪ̯nə ˈaltə ɡəˈʃɪçtə ɛɐ̯ˈtsɛːlt/",
+      "example_translation": "Papy nous a raconté une vieille histoire."
+    },
+    {
+      "word_id": "v3",
+      "term": "erleben",
+      "phonetic_api": "/ɛ|ˈleːbən/",
+      "phonetic_simple": "ER-LEE-BEN",
+      "translation": "vivre / faire l'expérience de",
+      "example_sentence": "Wir haben auf der Reise viel erlebt.",
+      "example_phonetic": "/viːɐ̯ ˈhaːbn̩ aʊ̯f deːɐ̯ ˈʁaɪ̯zə fiːl ɛɐ̯ˈleːpt/",
+      "example_translation": "Nous avons vécu beaucoup de choses pendant le voyage."
+    },
+    {
+      "word_id": "v4",
+      "term": "die Vergangenheit",
+      "phonetic_api": "/diː fɛɐ̯ˈɡaŋənhaɪ̯t/",
+      "phonetic_simple": "DII FER-GANG-EN-HAIT",
+      "translation": "le passé",
+      "example_sentence": "In der Vergangenheit war alles anders.",
+      "example_phonetic": "/ɪn deːɐ̯ fɛɐ̯ˈɡaŋənhaɪ̯t vaːɐ̯ ˈaləs ˈandɐs/",
+      "example_translation": "Dans le passé, tout était différent."
+    },
+    {
+      "word_id": "v5",
+      "term": "zuerst",
+      "phonetic_api": "/tsuˈeːɐ̯st/",
+      "phonetic_simple": "TSOU-EERST",
+      "translation": "d'abord / en premier lieu",
+      "example_sentence": "Zuerst trank ich einen starken Kaffee.",
+      "example_phonetic": "/tsuˈeːɐ̯st tʁaŋk ɪç ˈaɪ̯nən ˈʃtaʁkən ˈkafeː/",
+      "example_translation": "D'abord, j'ai bu un café fort."
+    },
+    {
+      "word_id": "v6",
+      "term": "danach",
+      "phonetic_api": "/daˈnaːx/",
+      "phonetic_simple": "DA-NAK",
+      "translation": "ensuite / après cela",
+      "example_sentence": "Danach sind wir ins Kino gegangen.",
+      "example_phonetic": "/daˈnaːx zɪnt viːɐ̯ ɪns ˈkiːnoː ɡəˈɡaŋən/",
+      "example_translation": "Ensuite, nous sommes allés au cinéma."
+    },
+    {
+      "word_id": "v7",
+      "term": "schließlich",
+      "phonetic_api": "/ˈʃliːslɪç/",
+      "phonetic_simple": "CHLIIS-LICH",
+      "translation": "finalement / en fin de compte",
+      "example_sentence": "Schließlich kamen wir um Mitternacht an.",
+      "example_phonetic": "/ˈʃliːslɪç ˈkaːmən viːɐ̯ ʊm ˈmɪtɐˌnaxt an/",
+      "example_translation": "Finalement, nous sommes arrivés à minuit."
+    },
+    {
+      "word_id": "v8",
+      "term": "stattfinden",
+      "phonetic_api": "/ˈʃtatˌfɪndn̩/",
+      "phonetic_simple": "CHTAT-FIN-DEN",
+      "translation": "avoir lieu / se dérouler",
+      "example_sentence": "Das Konzert fand im Freien statt.",
+      "example_phonetic": "/das kɔnˈtsɛʁt fant ɪm ˈfʁaɪ̯ən ʃtat/",
+      "example_translation": "Le concert a eu lieu en plein air."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Als ich gestern nach Hause kam, brannte noch Licht.",
+      "phonetic_api": "/als ɪç ˈɡɛstəʁn naːx ˈhaʊ̯zə kaːm ˈbʁantə nɔx lɪçt/",
+      "phonetic_simple": "ALS ICH GES-TERN NAK HAOU-ZE KAM BRAN-TE NOK LICHT",
+      "translation": "Quand je suis rentré à la maison hier, il y avait encore de la lumière.",
+      "context": "Introduire une action passée simultanée avec la conjonction 'als'."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Ich habe mir den Fuß gebrochen, als ich Ski gefahren bin.",
+      "phonetic_api": "/ɪç ˈhaːbə miːɐ̯ deːn fuːs ɡəˈbʁɔxn̩ als ɪç ʃiː ɡəˈfaːʁən bɪn/",
+      "phonetic_simple": "ICH HA-BE MIIR DEEN FOUS GHE-BROK-EN ALS ICH CHI GHE-FA-REN BIN",
+      "translation": "Je me suis cassé le pied pendant que je faisais du ski.",
+      "context": "Raconter un accident de vacances au passé composé (Perfekt)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Früher wohnte meine Familie in einem kleinen Dorf im Norden.",
+      "phonetic_api": "/ˈfʁyːɐ̯ ˈvoːntə ˈmaɪ̯nə faˈmiːli̯ə ɪn ˈaɪ̯nəm ˈklaɪ̯nəm dɔʁf ɪm ˈnɔʁdn̩/",
+      "phonetic_simple": "FRUU-ER VOON-TE MAI-NE FA-MII-LIE IN AI-NEM KLAI-NEM DORF IM NOR-DEN",
+      "translation": "Autrefois, ma famille habitait dans un petit village du nord.",
+      "context": "Décrire une situation habituelle ou un décor passé au prétérit."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Was hast du am Wochenende Schönes gemacht?",
+      "phonetic_api": "/vas hast duː am ˈvɔxn̩ˌɛndə ˈʃøːnəs ɡəˈmaxt/",
+      "phonetic_simple": "VAS HAST DOU AM VOK-EN-EN-DE CHOE-NES GHE-MAKT",
+      "translation": "Qu'est-ce que tu as fait de beau ce week-end ?",
+      "context": "Question de politesse informelle très courante le lundi matin."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'articulation entre le Perfekt (oral) et le Präteritum (écrit)",
+      "explanation": "En allemand intermédiaire, il est essentiel de comprendre la répartition stylistique des deux temps du passé pour s'exprimer de manière naturelle.",
+      "rules": [
+        "Le Perfekt (passé composé) est le temps de la communication orale et des écrits informels (courriels, SMS). Il est formé de l'auxiliaire 'haben' ou 'sein' au présent et du participe passé placé en fin de phrase.",
+        "Le Präteritum (prétérit) est le temps du récit écrit, de la littérature, de la presse et des contes. Il se forme en modifiant le radical de la base verbale.",
+        "Exception orale majeure : Les verbes auxiliaires (haben/sein) et les verbes de modalité (können, müssen, wollen...) s'emploient presque exclusivement au Präteritum à l'oral pour des raisons de fluidité syntaxique ('ich war', 'ich hatte' au lieu de 'ich bin gewesen')."
+      ],
+      "examples": [
+        {
+          "structure": "Ich bin gestern nach Berlin gefahren. (Oral - Perfekt)",
+          "phonetic_api": "/ɪç bɪn ˈɡɛstəʁn naːx bɛʁˈliːn ɡəˈfaːʁən/",
+          "meaning": "Je suis allé à Berlin hier."
+        },
+        {
+          "structure": "Der Zug kam pünktlich in Berlin an. (Écrit - Präteritum)",
+          "phonetic_api": "/deːɐ̯ tsuːk kaːm ˈpʏnktlɪç ɪn bɛʁˈliːn an/",
+          "meaning": "Le train arriva à l'heure à Berlin."
+        }
+      ]
+    },
+    {
+      "concept": "Le choix rigoureux de l'auxiliaire de passé (haben versus sein)",
+      "explanation": "Le choix de l'auxiliaire au Perfekt obéit à des règles sémantiques précises liées à la nature de l'action exprimée par le verbe.",
+      "rules": [
+        "On utilise l'auxiliaire 'sein' pour les verbes intransitifs qui expriment un déplacement d'un point A à un point B (ex: gehen, fahren, kommen), un changement d'état (ex: aufwachen, sterben), ainsi que pour les verbes 'sein', 'werden' et 'bleiben'.",
+        "On utilise l'auxiliaire 'haben' pour tous les verbes transitifs acceptant un COD, les verbes pronominaux réfléchis (ex: sich waschen) et la majorité des verbes exprimant un état statique ou une action continue sans déplacement."
+      ],
+      "examples": [
+        {
+          "structure": "Wir sind den ganzen Tag zu Hause geblieben. (sein)",
+          "phonetic_api": "/viːɐ̯ zɪnt deːn ˈɡantsn̩ taːk tsuː ˈhaʊ̯zə ɡəˈbliːbn̩/",
+          "meaning": "Nous sommes restés à la maison toute la journée."
+        },
+        {
+          "structure": "Ich habe meine Schlüssel stundenlang gesucht. (haben)",
+          "phonetic_api": "/ɪç ˈhaːbə ˈmaɪ̯nə ˈʃlʏsl̩ ˈʃtʊndn̩ˈlaŋ ɡəˈzuːxt/",
+          "meaning": "J'ai cherché mes clés pendant des heures."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Ben",
+      "text": "Mensch Lukas, du glaubst ja gar nicht, was mir am Wochenende passiert ist! Ich hatte ein echtes Abenteuer.",
+      "phonetic_api": "/mɛnʃ ˈluːkas duː ɡlaʊ̯pst jaː ɡaːɐ̯ nɪçt vas miːɐ̯ am ˈvɔxn̩ˌɛndə paˈsiːt ɪst ɪç ˈhatə aɪ̯n ˈɛçtəs ˈaːbənˌtaʊ̯ɐ/",
+      "phonetic_simple": "MENCH LOU-KAS DOU GLAOUBST YA GAR NICHT VAS MIIR AM VOK-EN-EN-DE PA-SIIRT IST ICH HAT-E AIN ECH-TES A-BEN-TAOU-ER",
+      "translation": "Ça alors Lukas, tu ne vas pas croire ce qui m'est arrivé ce week-end ! J'ai vécu une vraie aventure."
+    },
+    {
+      "speaker": "Lukas",
+      "text": "Echt? Erzähl mal! Was hast du denn gemacht? Wo bist du gewesen?",
+      "phonetic_api": "/ɛçt ɛɐ̯ˈtsɛːl maːl vas hast duː dɛn ɡəˈmaxt voː bɪst duː ɡəˈveːzn̩/",
+      "phonetic_simple": "ECHT ER-TSEEL MAL VAS HAST DOU DEN GHE-MAKT VOO BIST DOU GHE-VEE-ZEN",
+      "translation": "Vraiment ? Raconte ! Qu'as-tu fait alors ? Où étais-tu ?"
+    },
+    {
+      "speaker": "Ben",
+      "text": "Zuerst wollte ich nur eine ruhige Fahrradtour im Wald machen. Doch plötzlich zog ein schweres Gewitter auf und ich verlor komplett die Orientierung.",
+      "phonetic_api": "/tsuˈeːɐ̯st ˈvɔltə ɪç nuːɐ̯ ˈaɪ̯nə ˈʁuːɪɡə ˈfaːʁaːtˌtuːɐ̯ ɪm valt ˈmaxn̩ dɔx ˈplœtslɪç tsoːk aɪ̯n ˈʃveːʁəs ɡəˈvɪtɐ aʊ̯f ʊnt ɪç fɛɐ̯ˈloːɐ̯ kɔmˈplɛt diː oʁiɛnˈtiːʁʊŋ/",
+      "phonetic_simple": "TSOU-EERST VOL-TE ICH NOOUR AI-NE ROU-I-GHE FA-RAT-TOOUR IM VALT MAK-EN DOK PLOETS-LICH TSOOK AIN CHVEE-RES GHE-VIT-ER AOOUF OUNT ICH FER-LOOR KOM-PLET DII O-RIEN-TII-ROUNG",
+      "translation": "Au départ, je voulais juste faire une petite balade tranquille à vélo dans la forêt. Mais soudain, un violent orage a éclaté et j'ai complètement perdu l'orientation."
+    },
+    {
+      "speaker": "Lukas",
+      "text": "Oh nein! Und was hast du danach getan? Hast du Hilfe gerufen?",
+      "phonetic_api": "/oː naɪ̯n ʊnt vas hast duː daˈnaːx ɡəˈtaːn hast duː ˈhɪlfe ɡəˈʁuːfn̩/",
+      "phonetic_simple": "OO NAIN OUNT VAS HAST DOU DA-NAK GHE-TAN HAST DOU HIL-FE GHE-ROOU-FEN",
+      "translation": "Oh non ! Et qu'as-tu fait ensuite ? Tu as appelé à l'aide ?"
+    },
+    {
+      "speaker": "Ben",
+      "text": "Mein Handy hatte keinen Empfang mehr! Glücklicherweise fand ich schließlich eine kleine Schutzhütte, in der ich gewartet habe, bis der Regen aufhörte.",
+      "phonetic_api": "/maɪ̯n ˈhɛndi ˈhatə ˈkaɪ̯nən ɛmˈpfaŋ meːɐ̯ ˈɡlʏklɪçɐˌvaɪ̯zə fant ɪç ˈʃliːslɪç ˈaɪ̯nə ˈklaɪ̯nə ˈʃʊtsˌhʏtə ɪn deːɐ̯ ɪç ɡəˈvaʁtət ˈhaːbə bɪs deːɐ̯ ˈʁeːɡn̩ ˈaʊ̯fˌhøːɐ̯tə/",
+      "phonetic_simple": "MAIN HEN-DI HAT-E KAI-NEN EM-PFANG MEER GLOUK-LICH-ER-VAI-ZE FANT ICH CHLIIS-LICH AI-NE KLAI-NE CHOUTS-HUT-E IN DEER ICH GHE-VAR-TET HA-BE BIS DEER REE-GHEN AOOUF-HOERT-E",
+      "translation": "Mon portable n'avait plus de réseau ! Heureusement, j'ai fini par trouver un petit refuge en bois dans lequel j'ai attendu que la pluie s'arrête."
+    }
+  ],
+  "cultural_notes": [
+    "Lorsqu'un Allemand fait un récit oral, la transition constante entre le Perfekt pour les actions ponctuelles et le Präteritum pour les verbes d'état ('war', 'hatte') ou modaux ('musste', 'wollte') structure naturellement le rythme du discours. L'utilisation exclusive du Perfekt pour ces verbes d'état alourdit inutilement la conversation.",
+    "La conjonction de temps 'als' s'utilise de manière exclusive pour des faits uniques et bien délimités situés dans le passé. Si l'action passée s'est répétée plusieurs fois de façon habituelle (ex: à chaque fois que j'allais là-bas), on doit impérativement employer la conjonction 'wenn'.",
+    "Dans l'univers culturel allemand, raconter ses mésaventures ou incidents techniques en pleine nature de manière lucide et détaillée démontre une attitude pragmatique face à l'imprévu."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la structure correcte au Perfekt pour exprimer l'action orale : 'Hier matin, je me suis réveillé très tôt.'",
+      "options": [
+        "Gestern Morgen habe ich sehr früh aufgewacht.",
+        "Gestern Morgen bin ich sehr früh aufgewacht.",
+        "Gestern Morgen aufwachte ich sehr früh."
+      ],
+      "correct_answer": "Gestern Morgen bin ich sehr früh aufgewacht.",
+      "explanation": "Le verbe 'aufwachen' (se réveiller) exprime un changement d'état intransitif (du sommeil à l'éveil). Il exige donc l'auxiliaire 'sein' (bin) au Perfekt oral."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Als ich ein Kind war, [ ___ ] ich ein großes rotes Fahrrad. (Avoir au prétérit à la première personne)",
+      "correct_answer": "hatte",
+      "hint": "Entrez la forme du verbe haben au prétérit singulier, recommandée à l'oral pour exprimer la possession passée."
+    }
+  ]
+}

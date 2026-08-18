@@ -1,0 +1,342 @@
+{
+  "lesson_id": "A1_M1_L2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 2,
+  "title": "Se présenter (nom, âge, origine, profession)",
+  "learning_objectives": [
+    "Savoir décliner son identité (nom et prénom)",
+    "Exprimer son origine géographique, sa nationalité et son lieu de résidence",
+    "Dire son âge en utilisant la structure verbale appropriée et les nombres de base",
+    "Indiquer sa profession ou son occupation principale"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le swahili utilise des préfixes sujet monosyllabiques essentiels pour l'identité. Le préfixe de la première personne 'Ni-' se prononce [ni] de manière brève. Le phonème 'za' se prononce [za] avec un 'z' bien sonore. Portez une attention particulière au son 'ng'' [ŋ] (comme dans l'anglais 'singing') qui apparaît dans le mot 'tangu' (depuis) ou dans certaines nationalités : il s'articule entièrement dans le fond de la gorge sans prononcer de 'g' dur.",
+    "common_pitfalls": "Ne confondez pas le 'm-' initial de la classe des êtres humains (ex: 'Mfaransa') avec une voyelle. Ce 'm' est une syllabe à part entière, dite 'm vocalique' [m̩]. Il faut fermer les lèvres et faire vibrer les cordes vocales avant d'enchaîner avec la consonne suivante, sans insérer de son 'e' ou 'u' devant."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Jina",
+      "phonetic_api": "/ˈdʒi.na/",
+      "phonetic_simple": "DJEE-NAH",
+      "translation": "Nom / Prénom",
+      "example_sentence": "Jina langu ni Ali.",
+      "example_phonetic": "/ˈdʒi.na ˈla.ŋgu ni ˈa.li/",
+      "example_translation": "Mon nom est Ali."
+    },
+    {
+      "word_id": "v2",
+      "term": "Nchi",
+      "phonetic_api": "/ˈntʃi/",
+      "phonetic_simple": "NCHEE",
+      "translation": "Pays",
+      "example_sentence": "Ninatoka nchi ya Ufaransa.",
+      "example_phonetic": "/ni.naˈtɔ.ka ˈntʃi ja u.faˈra.nsa/",
+      "example_translation": "Je viens du pays de France."
+    },
+    {
+      "word_id": "v3",
+      "term": "Miaka",
+      "phonetic_api": "/miˈa.ka/",
+      "phonetic_simple": "MEE-AH-KAH",
+      "translation": "Années / Ans (pour l'âge)",
+      "example_sentence": "Nina miaka ishirini.",
+      "example_phonetic": "/ni.na miˈa.ka i.ʃiˈri.ni/",
+      "example_translation": "J'au vingt ans (litt. 'Je suis avec vingt ans')."
+    },
+    {
+      "word_id": "v4",
+      "term": "Kazi",
+      "phonetic_api": "/ˈka.zi/",
+      "phonetic_simple": "KAH-ZEE",
+      "translation": "Travail / Profession / Métier",
+      "example_sentence": "Kazi yako ni nini?",
+      "example_phonetic": "/ˈka.zi ˈja.kɔ ni ˈni.ni/",
+      "example_translation": "Quel est ton travail ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "Mwanafunzi",
+      "phonetic_api": "/mwa.naˈfu.nzi/",
+      "phonetic_simple": "MWAH-NAH-FOON-ZEE",
+      "translation": "Étudiant / Élève",
+      "example_sentence": "Mimi ni mwanafunzi.",
+      "example_phonetic": "/ˈmi.mi ni mwa.naˈfu.nzi/",
+      "example_translation": "Moi, je suis étudiant."
+    },
+    {
+      "word_id": "v6",
+      "term": "Mwalimu",
+      "phonetic_api": "/mwaˈli.mu/",
+      "phonetic_simple": "MWAH-LEE-MOO",
+      "translation": "Enseignant / Professeur",
+      "example_sentence": "Yeye ni mwalimu wa Kiswahili.",
+      "example_phonetic": "/ˈjɛ.jɛ ni mwaˈli.mu wa ki.swaˈhi.li/",
+      "example_translation": "Lui/Elle est professeur de swahili."
+    },
+    {
+      "word_id": "v7",
+      "term": "Daktari",
+      "phonetic_api": "/daˈkta.ri/",
+      "phonetic_simple": "DAHK-TAH-REE",
+      "translation": "Médecin / Docteur",
+      "example_sentence": "Ninasoma kuwa daktari.",
+      "example_phonetic": "/ni.naˈsɔ.ma ˈku.wa daˈkta.ri/",
+      "example_translation": "J'étudie pour être médecin."
+    },
+    {
+      "word_id": "v8",
+      "term": "Mhandisi",
+      "phonetic_api": "/m.haˈndi.si/",
+      "phonetic_simple": "M-HAHN-DEE-SEE",
+      "translation": "Ingénieur",
+      "example_sentence": "Baba yangu ni mhandisi.",
+      "example_phonetic": "/ˈba.ba ˈja.ŋgu ni m.haˈndi.si/",
+      "example_translation": "Mon père est ingénieur."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Unaitwa nani?",
+      "phonetic_api": "/u.naˈi.twa ˈna.ni/",
+      "phonetic_simple": "OO-NAH-EE-TWAH NAH-NEE",
+      "translation": "Comment t'appelles-tu ?",
+      "context": "Question standard pour demander le nom de quelqu'un de façon directe."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Ninaitwa David.",
+      "phonetic_api": "/ni.naˈi.twa David/",
+      "phonetic_simple": "NEE-NAH-EE-TWAH David",
+      "translation": "Je m'appelle David.",
+      "context": "Réponse standard pour donner son prénom ou son nom complet."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Unatoka wapi?",
+      "phonetic_api": "/u.naˈtɔ.ka ˈwa.pi/",
+      "phonetic_simple": "OO-NAH-TOH-KAH WAH-PEE",
+      "translation": "D'où viens-tu ? / Quelle est ton origine ?",
+      "context": "Interrogation sur le pays d'origine, la ville natale ou la nationalité."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ninatoka Ufaransa.",
+      "phonetic_api": "/ni.naˈtɔ.ka u.faˈra.nsa/",
+      "phonetic_simple": "NEE-NAH-TOH-KAH OO-FAH-RAHN-SAH",
+      "translation": "Je viens de France.",
+      "context": "Réponse indiquant le pays d'origine de l'interlocuteur."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Mimi ni Mfaransa.",
+      "phonetic_api": "/ˈmi.mi ni m.faˈra.nsa/",
+      "phonetic_simple": "MEE-MEE NEE M-FAH-RAHN-SAH",
+      "translation": "Je suis Français / Française.",
+      "context": "Déclaration explicite de sa nationalité (s'applique aux hommes et aux femmes)."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Unakaa wapi sasa?",
+      "phonetic_api": "/u.naˈka.a ˈwa.pi ˈsa.sa/",
+      "phonetic_simple": "OO-NAH-KAA WAH-PEE SAH-SAH",
+      "translation": "Où habites-tu actuellement ?",
+      "context": "Question portant sur le lieu de résidence actuel (ville ou quartier)."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Ninakaa Nairobi, Kenya.",
+      "phonetic_api": "/ni.naˈka.a na.iˈrɔ.bi ˈkɛ.ɲa/",
+      "phonetic_simple": "NEE-NAH-KAA NAH-EE-ROH-BEE KEH-NYAH",
+      "translation": "J'habite à Nairobi, au Kenya.",
+      "context": "Réponse spécifiant la ville et le pays de résidence courante."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Una miaka mingapi?",
+      "phonetic_api": "/u.na miˈa.ka mi.ŋˈga.pi/",
+      "phonetic_simple": "OO-NAH MEE-AH-KAH MEEN-GAH-PEE",
+      "translation": "Quel âge as-tu ? (litt. 'Tu as combien d'années ?')",
+      "context": "Question sur l'âge de l'interlocuteur."
+    },
+    {
+      "phrase_id": "p9",
+      "original": "Nina miaka umri wa miaka ishirini na mitano.",
+      "phonetic_api": "/ni.na miˈa.ka ˈu.mri wa miˈa.ka i.ʃiˈri.ni na miˈta.nɔ/",
+      "phonetic_simple": "NEE-NAH MEE-AH-KAH OOM-REE WAH MEE-AH-KAH EE-SHEE-REE-NEE NAH MEE-TAH-NOH",
+      "translation": "J'ai l'âge de 25 ans.",
+      "context": "Formule très complète pour donner son âge exact."
+    },
+    {
+      "phrase_id": "p10",
+      "original": "Ninasoma lugha ya Kiswahili.",
+      "phonetic_api": "/ni.naˈsɔ.ma ˈlu.ɣa ja ki.swaˈhi.li/",
+      "phonetic_simple": "NEE-NAH-SOH-MAH LOO-GHAH YAH KEE-SWAH-LEE",
+      "translation": "J'étudie la langue swahilie.",
+      "context": "Complément d'information fréquemment utilisé par les apprenants étrangers."
+    },
+    {
+      "phrase_id": "p11",
+      "original": "Nimefurahi kukutana nawe.",
+      "phonetic_api": "/ni.mɛ.fuˈra.hi ku.kuˈta.na ˈna.wɛ/",
+      "phonetic_simple": "NEE-MEH-FOO-RAH-HEE KOO-KOO-TAH-NAH NAH-WEH",
+      "translation": "Enchanté de te rencontrer.",
+      "context": "Formule de politesse indispensable en clôture d'une présentation."
+    },
+    {
+      "phrase_id": "p12",
+      "original": "Nafurahi pia.",
+      "phonetic_api": "/na.fuˈra.hi ˈpi.a/",
+      "phonetic_simple": "NAH-FOO-RAH-HEE PEE-AH",
+      "translation": "Tout le plaisir est pour moi / Tout de même pour moi.",
+      "context": "Réponse polie à la formule 'Enchanté de te rencontrer'."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le système de conjugaison du présent indicatif : Affixe Sujet + Temps + Radical",
+      "explanation": "Les verbes en swahili intègrent toutes les informations grammaticales au sein d'une seule chaîne de morphèmes. Pour construire une proposition simple au présent, on assemble obligatoirement : un préfixe sujet, l'infinitif de temps du présent '-na-', et le radical du verbe.",
+      "rules": [
+        "Le préfixe sujet pour la 1ère personne du singulier (Mimi - Je) est 'Ni-'.",
+        "Le préfixe sujet pour la 2ème personne du singulier (Wewe - Tu) est 'U-'.",
+        "L'infinitif temporel du présent progressif ou habituel est '-na-'.",
+        "Exemple complet : Ni (Je) + na (Présent) + toka (Venir de) = Ninatoka (Je viens de)."
+      ],
+      "examples": [
+        {
+          "structure": "Ni- (Je) + na- (Présent) + kaa (Habiter)",
+          "phonetic_api": "/ni.naˈka.a/",
+          "meaning": "J'habite / Je réside"
+        },
+        {
+          "structure": "U- (Tu) + na- (Présent) + itwa (Être appelé)",
+          "phonetic_api": "/u.naˈi.twa/",
+          "meaning": "Tu t'appelles"
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de la possession avec les adjectifs possessifs (Classe Jina)",
+      "explanation": "Le mot 'Jina' (nom) appartient à la classe nominale JI/MA (Classe 5). Tous les déterminants ou adjectifs qui se rapportent à un mot de cette classe doivent obligatoirement prendre le préfixe d'accord 'l-'.",
+      "rules": [
+        "La racine pour 'mon / ma' est '-angu'.",
+        "Avec l'accord de la classe 5 ('l-'), 'mon nom' se traduit par 'jina langu'.",
+        "La racine pour 'ton / ta' est '-ako'. Avec l'accord, cela donne 'jina lako'."
+      ],
+      "examples": [
+        {
+          "structure": "Jina + l- (Accord classe 5) + angu (Mon)",
+          "phonetic_api": "/ˈdʒi.na ˈla.ŋgu/",
+          "meaning": "Mon nom"
+        },
+        {
+          "structure": "Jina + l- (Accord classe 5) + ako (Ton)",
+          "phonetic_api": "/ˈdʒi.na ˈla.kɔ/",
+          "meaning": "Ton nom"
+        }
+      ]
+    },
+    {
+      "concept": "La construction des noms de nationalité (La classe M-/WA-)",
+      "explanation": "En swahili, les êtres humains appartiennent à la première classe nominale (M- au singulier, WA- au pluriel). Pour désigner la nationalité ou l'origine humaine d'un individu, on substitue le préfixe du pays (souvent 'U-') par le préfixe de la personne ('M-').",
+      "rules": [
+        "Ufaransa = Le pays de la France.",
+        "Mfaransa = Une personne française (Singulier).",
+        "Wafaransa = Des personnes françaises (Pluriel)."
+      ],
+      "examples": [
+        {
+          "structure": "M- (Personne) + faransa (France)",
+          "phonetic_api": "/m.faˈra.nsa/",
+          "meaning": "Un Français / Une Française"
+        },
+        {
+          "structure": "M- (Personne) + kenia (Kenya)",
+          "phonetic_api": "/mˈkɛ.ɲa/",
+          "meaning": "Un Kenyan / Une Kenyane"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Baraka (Hôte local)",
+      "text": "Habari ya mchana! Unaitwa nani?",
+      "phonetic_api": "/haˈba.ri ja mˈtʃa.na u.naˈi.twa ˈna.ni/",
+      "phonetic_simple": "HAA-BAA-REE YAH MCHAH-NAH OO-NAH-EE-TWAH NAH-NEE",
+      "translation": "Bon après-midi ! Comment t'appelles-tu ?"
+    },
+    {
+      "speaker": "Chloe (Touriste)",
+      "text": "Nzuri sana! Jina langu ni Chloe. Na wewe?",
+      "phonetic_api": "/ˈnzu.ri ˈsa.na ˈdʒi.na ˈla.ŋgu ni Chloe na ˈwɛ.jɛ/",
+      "phonetic_simple": "NZEE-REE SAH-NAH DJEE-NAH LAHN-GOO NEE Chloe NAH WEH-YEH",
+      "translation": "Très bien ! Mon nom est Chloe. Et toi ?"
+    },
+    {
+      "speaker": "Baraka (Hôte local)",
+      "text": "Mimi ninaitwa Baraka. Unatoka wapi, Chloe?",
+      "phonetic_api": "/ˈmi.mi ni.naˈi.twa baˈra.ka u.naˈtɔ.ka ˈwa.pi Chloe/",
+      "phonetic_simple": "MEE-MEE NEE-NAH-EE-TWAH BAH-RAH-KAH OO-NAH-TOH-KAH WAH-PEE Chloe",
+      "translation": "Moi, je m'appelle Baraka. D'où viens-tu, Chloe ?"
+    },
+    {
+      "speaker": "Chloe (Touriste)",
+      "text": "Ninatoka Ufaransa, mimi ni Mfaransa. Lakini sasa ninakaa Nairobi.",
+      "phonetic_api": "/ni.naˈtɔ.ka u.faˈra.nsa ˈmi.mi ni m.faˈra.nsa laˈki.ni ˈsa.sa ni.naˈka.a na.iˈrɔ.bi/",
+      "phonetic_simple": "NEE-NAH-TOH-KAH OO-FAH-RAHN-SAH MEE-MEE NEE M-FAH-RAHN-SAH LAH-KEE-NEE SAH-SAH NEE-NAH-KAA NAH-EE-ROH-BEE",
+      "translation": "Je viens de France, je soyis Française. Mais actuellement j'habite à Nairobi."
+    },
+    {
+      "speaker": "Baraka (Hôte local)",
+      "text": "Oho! Una miaka mingapi? Na unafanya kazi gani?",
+      "phonetic_api": "/ɔˈhɔ u.na miˈa.ka mi.ŋˈga.pi na u.naˈfa.ɲa ˈka.zi ˈga.ni/",
+      "phonetic_simple": "OH-HOH OO-NAH MEE-AH-KAH MEEN-GAH-PEE NAH OO-NAH-FAH-NYAH KAH-ZEE GAH-NEE",
+      "translation": "Oh ! Quel âge as-tu ? Et quel travail fais-tu ?"
+    },
+    {
+      "speaker": "Chloe (Touriste)",
+      "text": "Nina miaka ishirini na miwili. Mimi ni mwanafunzi. Wewe ni daktari?",
+      "phonetic_api": "/ni.na miˈa.ka i.ʃiˈri.ni na miˈwi.li ˈmi.mi ni mwa.naˈfu.nzi ˈwɛ.jɛ ni daˈkta.ri/",
+      "phonetic_simple": "NEE-NAH MEE-AH-KAH EE-SHEE-REE-NEE NAH MEE-WEE-LEE MEE-MEE NEE MWAH-NAH-FOON-ZEE WEH-YEH NEE DAHK-TAH-REE",
+      "translation": "J'ai 22 ans. Je suis étudiante. Tu es médecin ?"
+    },
+    {
+      "speaker": "Baraka (Hôte local)",
+      "text": "Hapana, mimi ni mwalimu wa shule. Nimefurahi kukutana nawe.",
+      "phonetic_api": "/haˈpa.na ˈmi.mi ni mwaˈli.mu wa ˈʃu.lɛ ni.mɛ.fuˈra.hi ku.kuˈta.na ˈna.wɛ/",
+      "phonetic_simple": "HAH-PAH-NAH MEE-MEE NEE MWAH-LEE-MOO WAH SHOO-LEH NEE-MEH-FOO-RAH-HEE KOO-KOO-TAH-NAH NAH-WEH",
+      "translation": "Non, je suis professeur d'école. Enchanté de te rencontrer."
+    }
+  ],
+  "cultural_notes": [
+    "Dire sa profession ou son statut d'étudiant est capital en Afrique de l'Est car cela permet de situer socialement les interlocuteurs et d'adapter subtilement les registres de politesse.",
+    "La question de l'âge ('Una miaka mingapi?') est perçue de manière très naturelle et décomplexée dans les relations sociales swahilies, sans l'ombrage ou la gêne qu'elle peut parfois susciter dans les cultures occidentales.",
+    "L'usage du pronom d'insistance 'Mimi' (Moi/Je) devant le verbe est une structure hautement idiomatique pour affirmer sa nationalité ou sa fierté culturelle lors des présentations officielles."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Traduisez correctement la phrase suivante en swahili : 'Mon nom est David et je suis ingénieur.'",
+      "options": [
+        "Jina langu ni David na mimi ni mhandisi.",
+        "Jina lako ni David na mimi ni mwalimu.",
+        "Mimi ninaitwa David na unatoka mhandisi.",
+        "Jina langu ni David na yeye ni daktari."
+      ],
+      "correct_answer": "Jina langu ni David na mimi ni mhandisi.",
+      "explanation": "'Jina langu' correspond à 'Mon nom', et 'mhandisi' est la traduction exacte du terme technique 'ingénieur'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mimi [ ___ ] kutoka nchi ya Ufaransa. (Indiquez la forme verbale complète au présent pour 'je viens')",
+      "correct_answer": "ninatoka",
+      "hint": "Il faut assembler le préfixe sujet 'ni-', l'indicateur de présent '-na-' et la racine 'toka'."
+    }
+  ]
+}

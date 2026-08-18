@@ -1,0 +1,208 @@
+{
+  "lesson_id": "A1_M2_L4",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 4,
+  "title": "La famille et les relations proches",
+  "learning_objectives": [
+    "Nommer les membres de sa famille immédiate",
+    "Présenter son entourage et décrire les liens de parenté de base",
+    "Utiliser les adjectifs possessifs simples pour parler de ses proches"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Notez la prononciation du mot 'mwasi' (femme/épouse) qui contient une semi-voyelle /w/ rapide combinée à la voyelle fermée /a/ : /mwási/. Le terme 'mwana' (enfant) suit la même logique. Portez également attention au son /β/ (souvent écrit 'b' entre deux voyelles) qui se prononce de façon très douce, presque comme un /v/ en français sans que les dents ne touchent la lèvre inférieure.",
+    "common_pitfalls": "Attention à la distinction de ton sur le mot 'Ndeko'. Prononcé avec un ton moyen-haut /ⁿdeko/, il signifie 'frère/sœur/parent'. Veillez à bien articuler la prénasalisation /ⁿd/ initiale en un seul bloc fluide."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v4_1",
+      "term": "Tata",
+      "phonetic_api": "/táta/",
+      "phonetic_simple": "TÁ-TA",
+      "translation": "Père / Papa",
+      "example_sentence": "Tata na ngai azali malamu.",
+      "example_phonetic": "/táta na ŋɡái azalí malámu/",
+      "example_translation": "Mon père va bien."
+    },
+    {
+      "word_id": "v4_2",
+      "term": "Mama",
+      "phonetic_api": "/máma/",
+      "phonetic_simple": "MÁ-MA",
+      "translation": "Mère / Maman",
+      "example_sentence": "Mama na ngai azali na kuku.",
+      "example_phonetic": "/máma na ŋɡái azalí na kúku/",
+      "example_translation": "Ma maman est dans la cuisine."
+    },
+    {
+      "word_id": "v4_3",
+      "term": "Mwana",
+      "phonetic_api": "/mwana/",
+      "phonetic_simple": "MWA-NA",
+      "translation": "Enfant",
+      "example_sentence": "Mwana na bango azali moyekoli.",
+      "example_phonetic": "/mwana na báŋɡo azalí mojekolí/",
+      "example_translation": "Leur enfant est étudiant."
+    },
+    {
+      "word_id": "v4_4",
+      "term": "Ndeko",
+      "phonetic_api": "/ⁿdéko/",
+      "phonetic_simple": "NDÉ-KO",
+      "translation": "Frère / Sœur / Membre de la famille",
+      "example_sentence": "Oyo azali ndeko na ngai.",
+      "example_phonetic": "/ójo azalí ⁿdéko na ŋɡái/",
+      "example_translation": "Voici mon frère / ma sœur / mon parent."
+    },
+    {
+      "word_id": "v4_5",
+      "term": "Mobali",
+      "phonetic_api": "/moβalí/",
+      "phonetic_simple": "MO-VA-LÍ",
+      "translation": "Mari / Époux (ou Homme)",
+      "example_sentence": "Mobali na ye azali molakisi.",
+      "example_phonetic": "/moβalí na jé azalí molákisí/",
+      "example_translation": "Son mari est enseignant."
+    },
+    {
+      "word_id": "v4_6",
+      "term": "Mwasi",
+      "phonetic_api": "/mwásí/",
+      "phonetic_simple": "MWA-SÍ",
+      "translation": "Femme / Épouse",
+      "example_sentence": "Mwasi na ngai nkombo na ye Marie.",
+      "example_phonetic": "/mwásí na ŋɡái ⁿkóᵐbo na jé marí/",
+      "example_translation": "Mon épouse s'appelle Marie."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p4_1",
+      "original": "Ozali na bana boni?",
+      "phonetic_api": "/ozalí na bána boní/",
+      "phonetic_simple": "O-ZA-LÍ NA BÁ-NA BO-NÍ?",
+      "translation": "Combien d'enfants as-tu ?",
+      "context": "Utilisé pour s'enquérir de la structure familiale de quelqu'un."
+    },
+    {
+      "phrase_id": "p4_2",
+      "original": "Nazali na bana te.",
+      "phonetic_api": "/nazalí na bána té/",
+      "phonetic_simple": "NA-ZA-LÍ NA BÁ-NA TÉ.",
+      "translation": "Je n'ai pas d'enfants.",
+      "context": "Réponse courante pour indiquer l'absence d'enfants."
+    },
+    {
+      "phrase_id": "p4_3",
+      "original": "Ndeko na yo mobali azali wapi?",
+      "phonetic_api": "/ⁿdéko na jó moβalí azalí wápí/",
+      "phonetic_simple": "NDÉ-KO NA YO MO-VA-LÍ A-ZA-LÍ WA-PÍ?",
+      "translation": "Où est ton frère ?",
+      "context": "Pour demander des nouvelles d'un frère spécifique."
+    },
+    {
+      "phrase_id": "p4_4",
+      "original": "Bana na ngai bazali na kelasi.",
+      "phonetic_api": "/bána na ŋɡái bazalí na kelásí/",
+      "phonetic_simple": "BÁ-NA NA NGAYI BA-ZA-LÍ NA KÉ-LÁ-SÍ.",
+      "translation": "Mes enfants sont à l'école.",
+      "context": "Pour expliquer l'occupation ou l'emplacement de ses enfants."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La possession simple avec la préposition 'na'",
+      "explanation": "En lingala, la possession ne s'exprime pas par des adjectifs possessifs autonomes (comme mon, ton, son). On utilise la structure : Nom possédant + préposition 'na' + pronom personnel.",
+      "rules": [
+        "... na ngai (mon / ma / mes)",
+        "... na yo (ton / ta / tes)",
+        "... na ye (son / sa / ses)",
+        "Pour le pluriel des objets ou personnes possédés, on change le préfixe du nom (ex: mwana -> bana), mais la structure possessive reste identique."
+      ],
+      "examples": [
+        {
+          "structure": "Mwana na ngai (Mon enfant) vs Bana na ngai (Mes enfants)",
+          "phonetic_api": "/mwana na ŋɡái/ / /bána na ŋɡái/",
+          "meaning": "Seul le nom initial passe au pluriel."
+        },
+        {
+          "structure": "Ndeko na ye",
+          "phonetic_api": "/ⁿdéko na jé/",
+          "meaning": "Son frère / Sa sœur."
+        }
+      ]
+    },
+    {
+      "concept": "Le pluriel des êtres humains (Classe unifiée Mu-Ba)",
+      "explanation": "Les mots désignant des personnes commencent très souvent par le préfixe 'mu-' ou 'mw-' au singulier, et passent au préfixe 'ba-' au pluriel.",
+      "rules": [
+        "Mwana (un enfant) devient Bana (des enfants)",
+        "Mwasi (une femme) devient Basi (des femmes)",
+        "Mobali (un homme) devient Babali (des hommes)"
+      ],
+      "examples": [
+        {
+          "structure": "Basi bazali awa.",
+          "phonetic_api": "/básí bazalí áwa/",
+          "meaning": "Les femmes sont ici."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kabila",
+      "text": "Mbote Patrick! Oyo azali mwasi na yo?",
+      "phonetic_api": "/ᵐbóte patrík ójo azalí mwásí na jó/",
+      "phonetic_simple": "MBÓ-TE PA-TRÍK! O-YO A-ZA-LÍ MWA-SÍ NA YO?",
+      "translation": "Bonjour Patrick ! Est-ce que c'est ton épouse ?"
+    },
+    {
+      "speaker": "Patrick",
+      "text": "Ée Kabila, oyo mwasi na ngai, nkombo na ye Alice. Alice, oyo Kabila, ndeko na ngai.",
+      "phonetic_api": "/ée kaβíla ójo mwásí na ŋɡái ⁿkóᵐbo na jé alís alís ójo kaβíla ⁿdéko na ŋɡái/",
+      "phonetic_simple": "ÉE KA-VÍ-LA, O-YO MWA-SÍ NA NGAYI, NKÓM-BO NA YE A-LICE. A-LICE, O-YO KA-VÍ-LA, NDÉ-KO NA NGAYI.",
+      "translation": "Oui Kabila, c'est mon épouse, elle s'appelle Alice. Alice, voici Kabila, mon frère (mon ami proche)."
+    },
+    {
+      "speaker": "Alice",
+      "text": "Mbote Kabila! Bozali na bana na Patrick?",
+      "phonetic_api": "/ᵐbóte kaβíla bozalí na bána na patrík/",
+      "phonetic_simple": "MBÓ-TE KA-VÍ-LA! BO-ZA-LÍ NA BÁ-NA NA PA-TRÍK?",
+      "translation": "Bonjour Kabila ! Vous avez des enfants avec Patrick ?"
+    },
+    {
+      "speaker": "Kabila",
+      "text": "Te, ngai nazali na bana mibale, kasi Patrick azali na mwana moko te naino.",
+      "phonetic_api": "/té ŋɡái nazalí na bána miβalé kasí patrík azalí na mwana móko té naíno/",
+      "phonetic_simple": "TÉ, NGAYI NA-ZA-LÍ NA BÁ-NA MI-VA-LÉ, KA-SI PA-TRÍK A-ZA-LÍ NA MWA-NA MÓ-KO TÉ NAI-NO.",
+      "translation": "Non, moi j'ai deux enfants, mais Patrick n'a pas encore d'enfant."
+    }
+  ],
+  "cultural_notes": [
+    "Le terme 'Ndeko' dépasse largement la définition biologique du frère ou de la sœur. Il est employé de manière chaleureuse pour désigner un cousin, un membre de la communauté élargie ou un ami très proche en signe de fraternité.",
+    "Il est tout à fait poli et respectueux d'appeler une femme d'un certain âge 'Mama' ou un homme d'un certain âge 'Tata', même sans aucun lien de parenté."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex4_1",
+      "type": "multiple_choice",
+      "question": "Comment dit-on 'Mon père' en lingala ?",
+      "options": [
+        "Mama na ngai",
+        "Tata na yo",
+        "Tata na ngai"
+      ],
+      "correct_answer": "Tata na ngai",
+      "explanation": "'Tata' signifie père et 'na ngai' traduit la possession à la première personne (mon)."
+    },
+    {
+      "exercise_id": "ex4_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mwana na ngai (Mon enfant) -> [ ___ ] na ngai (Mes enfants).",
+      "correct_answer": "Bana",
+      "hint": "Forme plurielle du mot enfant."
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Les connecteurs logiques pour structurer un discours élaboré",
+  "learning_objectives": [
+    "Articuler des transitions oratoires fluides avec les connecteurs de cause et conséquence",
+    "Utiliser les particules d'opposition restrictive avancées ('kɔni', 'hali')",
+    "Structurer une argumentation formelle selon la rhétorique traditionnelle des grands orateurs"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le connecteur de conséquence 'o fɛ' s'articule de manière très liée. La conjonction d'opposition 'katuguni' ou 'katugun' (/ka.tu.ɡu.ni/) réclame un débit égal sans élision de la voyelle médiane.",
+    "common_pitfalls": "Prononcer 'katuguni' trop rapidement en avalant le 'gu'. Maintenez la clarté de chaque syllabe pour préserver la structure solennelle du connecteur."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v3_1",
+      "term": "Katuguni",
+      "phonetic_api": "/ka.tu.ɡu.ni/",
+      "phonetic_simple": "KA-TOU-GOU-NI",
+      "translation": "Parce que / Car / En raison de",
+      "example_sentence": "N nana yan katuguni n bɛ i fɛ",
+      "example_phonetic": "/n̩ na.na d͡ʒan ka.tu.ɡu.ni n̩ bɛ i fɛ/",
+      "example_translation": "Je suis venu ici parce que j'ai besoin de toi."
+    },
+    {
+      "word_id": "v3_2",
+      "term": "O fɛ",
+      "phonetic_api": "/o fɛ/",
+      "phonetic_simple": "O FƐ",
+      "translation": "Par conséquent / De ce fait / C'est pourquoi",
+      "example_sentence": "I ka baara ka ɲi o fɛ n bɛ i dila la",
+      "example_phonetic": "/i ka baː.ra ka ɲi o fɛ n̩ bɛ i di.la la/",
+      "example_translation": "Ton travail est bon, par conséquent je vais te payer."
+    },
+    {
+      "word_id": "v3_3",
+      "term": "Bari",
+      "phonetic_api": "/ba.ri/",
+      "phonetic_simple": "BA-RI",
+      "translation": "Puisque / Étant donné que",
+      "example_sentence": "Bari i nana, an ka ta",
+      "example_phonetic": "/ba.ri i na.na an ka ta/",
+      "example_translation": "Puisque tu es arrivé, partons."
+    },
+    {
+      "word_id": "v3_4",
+      "term": "Hali kpe",
+      "phonetic_api": "/ha.li k͡pe/",
+      "phonetic_simple": "HA-LI KPÉ",
+      "translation": "Bien que / Quoique / Absolument",
+      "example_sentence": "Hali kpe a ka dɔgɔ, a ka ɲi",
+      "example_phonetic": "/ha.li k͡pe a ka dɔ.ɡɔ a ka ɲi/",
+      "example_translation": "Bien que ce soit petit, c'est de bonne qualité."
+    },
+    {
+      "word_id": "v3_5",
+      "term": "Fasafasa",
+      "phonetic_api": "/fa.sa.fa.sa/",
+      "phonetic_simple": "FA-SA-FA-SA",
+      "translation": "Précisément / En détail / Clarté totale",
+      "example_sentence": "A fala n ye fasafasa",
+      "example_phonetic": "/a fa.la n̩ de fa.sa.fa.sa/",
+      "example_translation": "Explique-le-moi en détail."
+    },
+    {
+      "word_id": "v3_6",
+      "term": "Sabu",
+      "phonetic_api": "/sa.bu/",
+      "phonetic_simple": "SA-BOU",
+      "translation": "Car / La raison en est (emprunt sémantique)",
+      "example_sentence": "N mu ta la sabu kɔngɔ bɛ n na",
+      "example_phonetic": "/n̩ mu ta la sa.bu kɔŋ.ɡɔ bɛ n̩ na/",
+      "example_translation": "Je ne pars pas, car j'ai faim."
+    },
+    {
+      "word_id": "v3_7",
+      "term": "O kɔfɛ",
+      "phonetic_api": "/o kɔ.fɛ/",
+      "phonetic_simple": "O KƆ-FƐ",
+      "translation": "De plus / En outre / Après cela",
+      "example_sentence": "O kɔfɛ fo an ka miri",
+      "example_phonetic": "/o kɔ.fɛ fo an ka mi.ri/",
+      "example_translation": "En outre, il faut que nous réfléchissions."
+    },
+    {
+      "word_id": "v3_8",
+      "term": "Kun",
+      "phonetic_api": "/kũ/",
+      "phonetic_simple": "KOUN",
+      "translation": "Le motif / Le fondement / La cause initiale",
+      "example_sentence": "Kuma nin kun ka bon",
+      "example_phonetic": "/ku.ma nĩ kũ ka bõ/",
+      "example_translation": "Le fondement de cette parole est d'importance."
+    },
+    {
+      "word_id": "v3_9",
+      "term": "Hali sisan",
+      "phonetic_api": "/ha.li si.sã/",
+      "phonetic_simple": "HA-LI SI-SAN",
+      "translation": "Pourtant / Malgré tout / Jusqu'à présent",
+      "example_sentence": "Hali sisan a mu a faham",
+      "example_phonetic": "/ha.li si.sã a mu a fa.ham/",
+      "example_translation": "Pourtant, jusqu'à présent il ne l'a pas compris."
+    },
+    {
+      "word_id": "v3_10",
+      "term": "Labanyala",
+      "phonetic_api": "/la.ban.ja.la/",
+      "phonetic_simple": "LA-BAN-YA-LA",
+      "translation": "En conclusion / Finalement",
+      "example_sentence": "Labanyala, baara ka ɲi",
+      "example_phonetic": "/la.ban.ja.la baː.ra ka ɲi/",
+      "example_translation": "En conclusion, le travail est satisfaisant."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p3_1",
+      "original": "N nana yan katuguni i ka ladonya lu na wajibila ra n ye.",
+      "phonetic_api": "/n̩ na.na d͡ʒan ka.tu.ɡu.ni i ka la.dõ.ja lu na wa.d͡ʒi.bi.la ra n̩ de/",
+      "phrase_simple": "N NA-NA YAN KA-TOU-GOU-NI I KA LA-DON-YA LOU NA OUA-DJI-BI-LA RA N YE.",
+      "translation": "Je suis venu ici parce que tes conseils sont un devoir absolu pour moi.",
+      "context": "Introduire formellement une plaidoirie ou une visite de haute politesse."
+    },
+    {
+      "phrase_id": "p3_2",
+      "original": "A mu n mɛn la kunu, o fɛ n dusu bɔra kpe.",
+      "phonetic_api": "/a mu n̩ mɛn la ku.nu o fɛ n̩ du.su bɔ.ra k͡pe/",
+      "phrase_simple": "A MOU N MƐN LA KOU-NOU, O FƐ N DOU-SOU BƆ-RA KPÉ.",
+      "translation": "Il ne m'a pas écouté hier, par conséquent je me suis mis en vive colère.",
+      "context": "Relier logiquement une cause comportementale et sa conséquence émotionnelle."
+    },
+    {
+      "phrase_id": "p3_3",
+      "original": "Labanyala, fo an ka sariya lu mɛn yalisa an ka so ka ɲɛ.",
+      "phonetic_api": "/la.ban.ja.la fo an ka sa.ri.ja lu mɛn ja.li.sa an ka so ka ɲɛ/",
+      "phrase_simple": "LA-BAN-YA-LA, FO AN KA SA-RI-YA LOU MƐN YA-LI-SA AN KA SO KA NYƐ.",
+      "translation": "En conclusion, il faut respecter les lois afin que notre cité prospère.",
+      "context": "Clôturer magistralement une allocution publique ou un arbitrage clanique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La coordination causale complexe avec 'katuguni'",
+      "explanation": "Pour lier deux propositions complexes en articulant de manière formelle et littéraire le rapport de cause à effet, le malinké insère le connecteur étendu 'katuguni' (parce que / car) en tête de la proposition subordonnée causale.",
+      "rules": [
+        "Structure : [Proposition Conséquence] + 'katuguni' + [Proposition Cause]."
+      ],
+      "examples": [
+        {
+          "structure": "N bɛ i mɛn la katuguni i na karamɔgɔ ra",
+          "phonetic_api": "/n̩ bɛ i mɛn la ka.tu.ɡu.ni i na ka.ra.mɔ.ɡɔ ra/",
+          "meaning": "Je t'écoute car tu es l'enseignant."
+        }
+      ]
+    },
+    {
+      "concept": "La déduction logique avec 'o fɛ'",
+      "explanation": "Pour introduire la conséquence logique ou la décision finale découlant d'un argument préalablement exposé, on emploie le connecteur de transition 'o fɛ' (par ce fait / par conséquent / c'est pourquoi) au début de la seconde proposition.",
+      "rules": [
+        "Structure : [Argument initial] + . + 'O fɛ' + [Proposition déductive]."
+      ],
+      "examples": [
+        {
+          "structure": "I ka so ka bon. O fɛ n bɛ sigi fɛ yan",
+          "phonetic_api": "/i ka so ka bõ o fɛ n̩ bɛ si.ɡi fɛ d͡ʒan/",
+          "meaning": "Ta maison est grande. Par conséquent, je souhaite m'installer ici."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Le Chef de Village",
+      "text": "Alu ni tile. Bari alu nana yan bi, fo n ka alu ladon fasafasa.",
+      "phonetic_api": "/a.lu ni ti.le ba.ri a.lu na.na d͡ʒan bi fo n̩ ka a.lu la.dõ fa.sa.fa.sa/",
+      "phrase_simple": "A-LOU NI TI-LÉ. BA-RI A-LOU NA-NA YAN BI, FO N KA A-LOU LA-DON FA-SA-FA-SA.",
+      "translation": "Bonjour à vous tous. Puisque vous êtes venus ici aujourd'hui, il est de mon devoir de vous conseiller en détail."
+    },
+    {
+      "speaker": "Le Porte-parole",
+      "text": "Nse mɔgɔba. An nana katuguni nasi ra bɛ an na sariya natɔ nin kun la.",
+      "phonetic_api": "/n̩.se mɔ.ɡɔ.ba an na.na ka.tu.ɡu.ni na.si ra bɛ an na sa.ri.ja na.tɔ nĩ kũ la/",
+      "phrase_simple": "N-SÉ MƆ-GƆ-BA. AN NA-NA KA-TOU-GOU-NI NA-SI RA BƐ AN NA SA-RI-YA NA-TƆ NIN KOUN LA.",
+      "translation": "Merci, sage ancien. Nous sommes venus parce que le doute nous habite concernant le fondement de cette loi future."
+    },
+    {
+      "speaker": "Le Chef de Village",
+      "text": "Kuma nin kun kɔni ka bon. O kɔfɛ, hali ni alu dusu bɔra sisan, sariya nin bɛ an ye la.",
+      "phonetic_api": "/ku.ma nĩ kũ kɔ.ni ka bõ o kɔ.fɛ ha.li ni a.lu du.su bɔ.ra si.sã sa.ri.ja nĩ bɛ an de la/",
+      "phrase_simple": "KOU-MA NIN KOUN KƆ-NI KA BON. O KƆ-FƐ, HA-LI NI A-LOU DOU-SOU BƆ-RA SI-SAN, SA-RI-YA NIN BƐ AN YE LA."
+    },
+    {
+      "speaker": "Le Porte-parole",
+      "text": "O fɛ an bɛ i ka fɔ lu mɛn la. Labanyala, Ala k'an dɛmɛ ka bɛn !",
+      "phonetic_api": "/o fɛ an bɛ i ka fɔ lu mɛn la la.ban.ja.la a.la k'an dɛ.mɛ ka bɛn/",
+      "phrase_simple": "O FƐ AN BƐ I KA FƆ LOU MƐN LA. LA-BAN-YA-LA, A-LA K'AN DƐ-MƐ KA BƐN !",
+      "translation": "Par conséquent, nous écoutons tes déclarations. En conclusion, que Dieu nous aide à trouver l'entente !"
+    }
+  ],
+  "cultural_notes": [
+    "La rhétorique et l'art de la palabre ('baroba') au sommet de la hiérarchie mandingue interdisent les affirmations décousues. Un discours digne de ce nom doit obligatoirement s'articuler à l'aide de connecteurs logiques de haut registre comme 'katuguni' ou 'labanyala', témoignant de l'esprit de géométrie et de finesse de l'orateur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L3_ex1",
+      "type": "multiple_choice",
+      "question": "Quel connecteur logique formel signifie 'Par conséquent' ou 'De ce fait' ?",
+      "options": [
+        "Katuguni",
+        "O fɛ",
+        "Bari"
+      ],
+      "correct_answer": "O fɛ",
+      "explanation": "'O fɛ' marque explicitement l'aboutissement ou la déduction logique tirée d'un fait précédent."
+    },
+    {
+      "exercise_id": "C1_M1_L3_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "[ ___ ], fo an ka bɛn dila (En conclusion, il faut instaurer l'entente).",
+      "correct_answer": "Labanyala",
+      "hint": "Connecteur noble de fin de discours signifiant textuellement la conclusion."
+    }
+  ]
+}

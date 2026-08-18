@@ -1,0 +1,228 @@
+{
+  "lesson_id": "C1_M2_L6",
+  "level": "Avancé (C1-C2)",
+  "module_number": 2,
+  "module_title": "Culture, traditions et rhétorique",
+  "lesson_number": 6,
+  "title": "Registre soutenu et langage formel",
+  "learning_objectives": [
+    "Maîtriser les codes du registre soutenu à l'écrit comme à l'oral dans un contexte officiel",
+    "Substituer des verbes courants par des constructions nominales complexes (Nomen-Verb-Verbindungen)",
+    "Exprimer des nuances de politesse protocolaire et administrative de niveau C1-C2",
+    "Employer à bon escient le subjonctif II pour formuler des requêtes d'une élégance absolue"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le terme 'die Angelegenheit' se prononce [diː ˈanɡəˌleːɡn̩haɪ̯t] : veillez à bien détacher le préfixe 'an-' par un coup de glotte subtil avant le 'g'. Le mot 'erlauben' [ɛɐ̯ˈlaʊ̯bn̩] présente une diphtongue ouverte, et le suffixe de 'die Kenntnis' [diː ˈkɛntnɪs] doit être bref et net.",
+    "common_pitfalls": "Attention à l'accentuation du verbe 'beabsichtigen' [bəˈʔapˌzɪçtɪɡn̩] : l'accent principal se situe sur la syllabe -ab-. Ne prononcez pas le -g- final comme un -g dur, mais réalisez-le sous sa forme palatale douce [ç] ou [k] selon la norme choisie."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "die Angelegenheit",
+      "phonetic_api": "/diː ˈanɡəˌleːɡn̩haɪ̯t/",
+      "phonetic_simple": "DII AN-GHE-LEEG-NEN-HAIT",
+      "translation": "l'affaire / le dossier / la question (formel)",
+      "example_sentence": "Wir müssen diese Angelegenheit unverzüglich prüfen.",
+      "example_phonetic": "/viːɐ̯ ˈmʏsn̩ ˈdiːzə ˈanɡəˌleːɡn̩haɪ̯t ˈʊnfɛɐ̯ˈtsyːklɪç ˈpʁyːfən/",
+      "example_translation": "Nous devons examiner ce dossier sans délai."
+    },
+    {
+      "word_id": "v2",
+      "term": "beabsichtigen",
+      "phonetic_api": "/bəˈʔapˌzɪçtɪɡn̩/",
+      "phonetic_simple": "BE-AP-ZICH-TI-GHEN",
+      "translation": "envisager / avoir l'intention de / projeter",
+      "example_sentence": "Die Geschäftsführung beabsichtigt, neue Märkte zu erschließen.",
+      "example_phonetic": "/diː ɡəˈʃɛftsfyːʁʊŋ bəˈʔapˌzɪçtɪçt ˈnɔɪ̯ə ˈmɛʁktə tsuː ɛɐ̯ˈʃliːsn̩/",
+      "example_translation": "La direction envisage d'ouvrir de nouveaux marchés."
+    },
+    {
+      "word_id": "v3",
+      "term": "unverzüglich",
+      "phonetic_api": "/ˈʊnfɛɐ̯ˈtsyːklɪç/",
+      "phonetic_simple": "OUN-FER-TSUUG-LICH",
+      "translation": "immédiat / sans délai / toutes affaires cessantes",
+      "example_sentence": "Eine unverzügliche Rückmeldung ist erforderlich.",
+      "example_phonetic": "/ˈaɪ̯nə ˈʊnfɛɐ̯ˈtsyːklɪçə ˈʁʏkˌmɛldʊŋ ɪst ɛɐ̯ˈfɔʁdɐlɪç/",
+      "example_translation": "Un retour immédiat est nécessaire."
+    },
+    {
+      "word_id": "v4",
+      "term": "gestatten",
+      "phonetic_api": "/ɡəˈʃtatn̩/",
+      "phonetic_simple": "GHE-CHTAT-EN",
+      "translation": "permettre / autoriser (très soutenu)",
+      "example_sentence": "Gestatten Sie mir einen kurzen Hinweis zu diesem Punkt.",
+      "example_phonetic": "/ɡəˈʃtatn̩ ziː miːɐ̯ ˈaɪ̯nən ˈkʊʁtsn̩ ˈhɪnˌvaɪ̯s tsuː ˈdiːzəm pʊŋkt/",
+      "example_translation": "Permettez-moi une brève remarque sur ce point."
+    },
+    {
+      "word_id": "v5",
+      "term": "in Kenntnis setzen",
+      "phonetic_api": "/ɪn ˈkɛntnɪs ˈzɛtsn̩/",
+      "phonetic_simple": "IN KENT-NIS ZETS-EN",
+      "translation": "informer / aviser / porter à la connaissance de",
+      "example_sentence": "Wir werden Sie über das Ergebnis in Kenntnis setzen.",
+      "example_phonetic": "/viːɐ̯ ˈveːɐ̯dn̩ ziː ˈyːbɐ das ɛɐ̯ˈɡeːpnɪs ɪn ˈkɛntnɪs ˈzɛtsn̩/",
+      "example_translation": "Nous vous informerons du résultat."
+    },
+    {
+      "word_id": "v6",
+      "term": "Kenntnis nehmen von",
+      "phonetic_api": "/ˈkɛntnɪs ˈneːmən fɔn/",
+      "phonetic_simple": "KENT-NIS NEE-MEN FON",
+      "translation": "prendre acte de / prendre connaissance de",
+      "example_sentence": "Ich habe von Ihrem Schreiben Kenntnis genommen.",
+      "example_phonetic": "/ɪç ˈhaːbə fɔn ˈiːʁəm ˈʃʁaɪ̯bn̩ ˈkɛntnɪs ɡəˈnɔmən/",
+      "example_translation": "J'ai pris connaissance de votre courrier."
+    },
+    {
+      "word_id": "v7",
+      "term": "bedürfen",
+      "phonetic_api": "/bəˈdʏʁfn̩/",
+      "phonetic_simple": "BE-DOURF-NEN",
+      "translation": "nécessiter / requérir (suivi du génitif)",
+      "example_sentence": "Diese Entscheidung bedarf der Zustimmung des Vorstands.",
+      "example_phonetic": "/ˈdiːzə ɛntˈʃaɪ̯dʊŋ bəˈdaʁf deːɐ̯ ˈtsuːʃtɪmʊŋ deːs ˈfoːɐ̯ˌʃtandəs/",
+      "example_translation": "Cette décision nécessite l'approbation du directoire."
+    },
+    {
+      "word_id": "v8",
+      "term": "veranlassen",
+      "phonetic_api": "/fɛɐ̯ˈanˌlasn̩/",
+      "phonetic_simple": "FER-AN-LAS-EN",
+      "translation": "faire le nécessaire pour / ordonner / faire faire",
+      "example_sentence": "Ich werde die Überweisung umgehend veranlassen.",
+      "example_phonetic": "/ɪç ˈveːɐ̯də diː ˈyːbɐˌvaɪ̯zʊŋ ˈʊmˌɡeːənt fɛɐ̯ˈanˌlasn̩/",
+      "example_translation": "Je vais faire le nécessaire immédiatement pour le virement."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Dürfte ich Sie höflichst darum bitten, mir die Unterlagen zukommen zu lassen?",
+      "phonetic_api": "/ˈdʏʁftə ɪç ziː ˈhøːflɪçst daˈʁʊm ˈbɪttn̩ miːɐ̯ diː ˈʊntɐˌlaːɡn̩ ˈtsuːˌkɔmən tsuː ˈlasn̩/",
+      "phonetic_simple": "DOURF-TE ICH ZII HOEF-LICHST DA-ROUM BIT-EN MIIR DII OUN-TER-LA-GHEN TSOU-KOM-EN TSOU LAS-EN",
+      "translation": "Puis-je me permettre de vous demander gentiment de bien vouloir me faire parvenir les documents ?",
+      "context": "Formule protocolaire écrite pour solliciter l'envoi de pièces officielles."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Wir haben von Ihrer Stellungnahme Kenntnis genommen und werden Schritte veranlassen.",
+      "phonetic_api": "/viːɐ̯ ˈhaːbn̩ fɔn ˈiːʁɐ ˈʃtɛlʊŋˌnaːmə ˈkɛntnɪs ɡəˈnɔmən ʊnt ˈveː̯ɐdn̩ ˈʃʁɪtə fɛɐ̯ˈanˌlasn̩/",
+      "phonetic_simple": "VIIR HA-BEN FON II-RE CHTEL-UNG-NA-ME KENT-NIS GHE-NOM-EN OUNT VEER-DEN CHRIT-E FER-AN-LAS-EN",
+      "translation": "Nous avons pris connaissance de votre avis officiel et allons engager les démarches nécessaires.",
+      "context": "Réponse administrative formelle accusant réception d'une requête."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Diese sensible Angelegenheit bedarf einer äußerst differenzierten Betrachtung.",
+      "phonetic_api": "/ˈdiːzə ˈzɛnziːblə ˈanɡəˌleːɡn̩haɪ̯t bəˈdaʁf ˈaɪ̯nɐ ˈaʊ̯sɐst dɪfəʁɛnˈtsiːɐ̯tn̩ bəˈtʁaxtʊŋ/",
+      "phonetic_simple": "DII-ZE ZEN-SII-BLE AN-GHE-LEEG-NEN-HAIT BE-DARF AI-NER AOOU-SERST DI-FE-REN-TSIIRT-EN BE-TRACHT-OUNG",
+      "translation": "Ce dossier délicat requiert une analyse extrêmement nuancée.",
+      "context": "Note de synthèse managériale ou diplomatique."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Es wird höflichst darum gebeten, von weiteren Rückfragen Abstand zu nehmen.",
+      "phonetic_api": "/ɛs vɪʁt ˈhøːflɪçst daˈʁʊm ɡəˈbeːtn̩ fɔn ˈvaɪ̯təʁn̩ ˈʁʏkˌfʁaːɡn̩ ˈapˌʃtant tsuː ˈneːmən/",
+      "phonetic_simple": "ES VIRT HOEF-LICHST DA-ROUM GHE-BEE-TEN FON VAI-TE-REN REUK-FRA-GHEN AP-CHTANT TSOU NEE-MEN",
+      "translation": "Il est instamment demandé de bien vouloir s'abstenir de toute autre demande de précision.",
+      "context": "Formulation impersonnelle et ferme à la voix passive dans un communiqué officiel."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le verbe 'bedürfen' et le gouvernement du cas Génitif",
+      "explanation": "Au niveau C1-C2, l'usage de verbes nobles régissant le cas Génitif est un marqueur fort du registre soutenu.",
+      "rules": [
+        "Le verbe 'bedürfen' (avoir besoin de / nécessiter) est un verbe fort qui demande un complément d'objet au Génitif.",
+        "Attention aux articles : l'article masculin/neutre devient 'des' (+ s au nom) et le féminin/pluriel devient 'der'."
+      ],
+      "examples": [
+        {
+          "structure": "Das Vorhaben bedarf der (Génitif féminin) Unterstützung.",
+          "phonetic_api": "/das ˈfoːɐ̯ˌhaːbn̩ bəˈdaʁf deːɐ̯ ˈʊntɐˈʃtʏtsʊŋ/",
+          "meaning": "Le projet nécessite du soutien."
+        },
+        {
+          "structure": "Dies bedarf eines (Génitif neutre) Beweises.",
+          "phonetic_api": "/diːs bəˈdaʁf ˈaɪ̯nəs bəˈvaɪ̯zəs/",
+          "meaning": "Cela requiert une preuve."
+        }
+      ]
+    },
+    {
+      "concept": "Les locutions nominales-verbales (Nomen-Verb-Verbindungen)",
+      "explanation": "Pour élever le niveau d'un texte, la langue formelle remplace les verbes simples par des expressions combinant un nom et un verbe support spécifique.",
+      "rules": [
+        "'jemanden informieren' devient 'jemanden in Kenntnis setzen'.",
+        "'etwas bemerken / lesen' devient 'Kenntnis nehmen von + Datif'.",
+        "'sich distanzieren / unterlassen' devient 'Abstand nehmen von + Datif'."
+      ],
+      "examples": [
+        {
+          "structure": "Wir haben vom Protokoll Kenntnis genommen.",
+          "phonetic_api": "/viːɐ̯ ˈhaːbn̩ fɔm pʁotoˈkɔl ˈkɛntnɪs ɡəˈnɔmən/",
+          "meaning": "Nous avons pris connaissance du procès-verbal."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Direktor",
+      "text": "Sehr geehrte Frau Dr. Kaufmann, ich beabsichtige, Sie über die neuesten Entwicklungen in dieser Angelegenheit unverzüglich in Kenntnis zu setzen.",
+      "phonetic_api": "/zeːɐ̯ ˈɡəˈeːɐ̯tə fʁaʊ̯ dɔktɔʁ ˈkaʊ̯fman ɪç bəˈʔapˌzɪçtɪɡə ziː ˈyːbɐ diː ˈnɔɪ̯əstn̩ ɛntˈvɪklʊŋən ɪn ˈdiːzɐ ˈanɡəˌleːɡn̩haɪ̯t ˈʊnfɛɐ̯ˈtsyːklɪç ɪn ˈkɛntnɪs tsuː ˈzɛtsn̩/",
+      "phonetic_simple": "ZEER GHE-EER-TE FRAOU DOK-TOR KAOUF-MAN ICH BE-AP-ZICH-TI-GHE ZII UU-BER DII NOI-ES-TEN ENT-VIK-LUNG-EN IN DII-ZER AN-GHE-LEEG-NEN-HAIT OUN-FER-TSUUG-LICH IN KENT-NIS TSOU ZETS-EN",
+      "translation": "Chère Madame la Docteure Kaufmann, j'envisage de porter sans délai à votre connaissance les derniers développements dans cette affaire."
+    },
+    {
+      "speaker": "Dr. Kaufmann",
+      "text": "Ich danke Ihnen für die Information. Ich habe von den Berichten bereits Kenntnis genommen. Die Situation bedarf freilich einer genauen Abwägung.",
+      "phonetic_api": "/ɪç ˈdaŋkə ˈiːhnen fyːɐ̯ diː ɪnfɔʁmaˈtsi̯oːn ɪç ˈhaːbə fɔn deːn bəˈʁɪçtn̩ bəˈʁaɪ̯ts ˈkɛntnɪs ɡəˈnɔmən diː zituatˈsi̯oːn bəˈdaʁf ˈfʁaɪ̯lɪç ˈaɪ̯nɐ ɡəˈnaʊ̯ən ˈapˌvɛːɡʊŋ/",
+      "phonetic_simple": "ICH DANG-KE II-NEN FUUR DII IN-FOR-MA-TSYOO-N ICH HA-BE FON DEEN BE-RICH-TEN BE-RAITS KENT-NIS GHE-NOM-EN DII ZI-TUA-TSYOO-N BE-DARF FRAI-LICH AI-NER GHE-NAOU-EN AP-VEE-GUNG",
+      "translation": "Je vous remercie pour l'information. J'ai déjà pris connaissance des rapports. La situation nécessite assurément un arbitrage minutieux."
+    },
+    {
+      "speaker": "Direktor",
+      "text": "Dürfte ich Sie höflichst darum bitten, die notwendigen rechtlichen Schritte zu veranlassen? Wir sollten von übereilten Maßnahmen Abstand nehmen.",
+      "phonetic_api": "/ˈdʏʁftə ɪç ziː ˈhøːflɪçst daˈʁʊm ˈbɪttn̩ diː ˈnoːtvɛndɪɡn̩ ˈʁɛçtlɪçn̩ ˈʃʁɪtə tsuː fɛɐ̯ˈanˌlasn̩ viːɐ̯ ˈzɔltn̩ fɔn ˈyːbɐˈaɪ̯ltn̩ ˈmaːsˌnaːmən ˈapˌʃtant tsuː ˈneːmən/",
+      "phonetic_simple": "DOURF-TE ICH ZII HOEF-LICHST DA-ROUM BIT-EN DII NOOT-VEND-IGH-EN RECHT-LICH-EN CHRIT-E TSOU FER-AN-LAS-EN VIIR ZOL-TEN FON UU-BER-AI-LTEN MAS-NA-MEN AP-CHTANT TSOU NEE-MEN",
+      "translation": "Puis-je vous demander très courtoisement de faire engager les démarches juridiques nécessaires ? Nous devrions nous abstenir de toute mesure précipitée."
+    },
+    {
+      "speaker": "Dr. Kaufmann",
+      "text": "Selbstverständlich. Gestatten Sie mir noch den Hinweis, dass ich den Vorstand umgehend informieren werde.",
+      "phonetic_api": "/zɛlpstfɛɐ̯ˈʃtɛntlɪç ɡəˈʃtatn̩ ziː miːɐ̯ nɔx deːn ˈhɪnˌvaɪ̯s das ɪç deːn ˈfoːɐ̯ˌʃtant ˈʊmˌɡeːənt ɪnfɔʁˈmiːʁn̩ ˈveːɐ̯də/",
+      "phonetic_simple": "ZELBST-FER-CHTEENT-LICH GHE-CHTAT-EN ZII MIIR NOK DEEN HIN-VAIS DAS ICH DEEN FOOR-CHANT OUM-GHEENT IN-FOR-MIIR-EN VEER-DE",
+      "translation": "Cela va de soi. Permettez-moi encore de signaler que j'aviserai le directoire sur-le-champ."
+    }
+  ],
+  "cultural_notes": [
+    "La correspondance formelle allemande administrative (Behördensprache ou Kanzleistil) se distingue par une politesse distante, impersonnelle et extrêmement précise. L'usage de formules nominales permet d'ancrer le propos dans un cadre purement institutionnel, excluant l'affect.",
+    "Formuler une demande avec le Konjunktiv II le plus poli ('Dürfte ich Sie höflichst bitten...') est de mise lors de requêtes adressées à des hautes instances ou au corps professoral universitaire en Allemagne. C'est le garant du respect strict de la hiérarchie.",
+    "L'expression 'Abstand nehmen' (s'abstenir / renoncer) montre la préférence de la culture professionnelle allemande pour la retenue et la réflexion stratégique face à l'urgence. Agir sous le coup de l'impulsion est perçu comme une faute majeure de leadership."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la formulation la plus élégante et formelle pour dire : 'Je vous informe du projet.' ?",
+      "options": [
+        "Ich sage Ihnen das Projekt.",
+        "Ich setze Sie über das Projekt in Kenntnis.",
+        "Ich nehme vom Projekt Kenntnis."
+      ],
+      "correct_answer": "Ich setze Sie über das Projekt in Kenntnis.",
+      "explanation": "La construction nominale-verbale 'jemanden in Kenntnis setzen über + Accusatif' est la formule exacte et soutenue pour signifier que l'on informe officiellement une personne."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Diese Angelegenheit bedarf der [ ___ ] (Aufmerksamkeit / Aufmerksamkeit und Zeit) des Ministers. (Génitif singulier)",
+      "correct_answer": "Aufmerksamkeit",
+      "hint": "Entrez le nom féminin singulier signifiant l'attention (avec sa majuscule) régi au Génitif par le verbe bedürfen."
+    }
+  ]
+}

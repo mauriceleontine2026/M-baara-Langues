@@ -1,0 +1,195 @@
+{
+  "lesson_id": "B1_M1_L1",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 1,
+  "module_title": "Exprimer ses idées et son environnement",
+  "lesson_number": 1,
+  "title": "Parler de sa maison, de son logement et de sa ville",
+  "learning_objectives": [
+    "Décrire l'architecture et les pièces d'une concession traditionnelle ou d'une maison urbaine",
+    "Utiliser les expressions de localisation relative et de comparaison pour décrire son quartier",
+    "Exprimer l'appartenance et les caractéristiques de son lieu de vie de manière fluide"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot 'yiri' (maison/concession) emploie un 'i' fermé. La postposition 'pūasẽ' (dans/à l'intérieur) contient une voyelle longue nasalisée combinée avec une fin douce. Le 't' final dans 'bãat' ou 'zak' à l'oral urbain est une occlusive sourde et brève.",
+    "common_pitfalls": "Veillez à ne pas confondre 'zaka' (la concession/cour familiale) et 'zãre' (loin). Une mauvaise longueur de voyelle ou une nasalisation incorrecte altère le sens spatial."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v10_1",
+      "term": "Zaka",
+      "phonetic_api": "/zaka/",
+      "phonetic_simple": "ZA-KA",
+      "translation": "Concession / Cour familiale / Logement",
+      "example_sentence": "M zaka yaa kãsenga.",
+      "example_phonetic": "/m zaka jaː kãsẽŋɡa/",
+      "example_translation": "Ma concession est grande."
+    },
+    {
+      "word_id": "v10_2",
+      "term": "Roogo",
+      "phonetic_api": "/roːɣo/",
+      "phonetic_simple": "ROO-GO",
+      "translation": "Case / Chambre / Pièce",
+      "example_sentence": "M bēe m roogẽ.",
+      "example_phonetic": "/m beː m roːɡẽ/",
+      "example_translation": "Je suis dans ma chambre."
+    },
+    {
+      "word_id": "v10_3",
+      "term": "Tẽnga",
+      "phonetic_api": "/tẽŋɡa/",
+      "phonetic_simple": "TEN-GA",
+      "translation": "Ville / Village / Pays",
+      "example_sentence": "Wagadugu yaa tẽng kãsenga.",
+      "example_phonetic": "/waɣaduɣu jaː tẽŋ kãsẽŋɡa/",
+      "example_translation": "Ouagadougou est une grande ville."
+    },
+    {
+      "word_id": "v10_4",
+      "term": "Yiri",
+      "phonetic_api": "/jiri/",
+      "phonetic_simple": "YI-RI",
+      "translation": "Maison / Bâtiment (habitation unique)",
+      "example_sentence": "Ad-y m zoa yiri.",
+      "example_phonetic": "/ad i m zoa jiri/",
+      "example_translation": "Voici la maison de mon ami."
+    },
+    {
+      "word_id": "v10_5",
+      "term": "Saka",
+      "phonetic_api": "/saka/",
+      "phonetic_simple": "SA-KA",
+      "translation": "Quartier / Secteur",
+      "example_sentence": "M vɩɩ m sakã pūasẽ.",
+      "example_phonetic": "/m vɪː m sakã puːasẽ/",
+      "example_translation": "J'habite dans le quartier."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p10_1",
+      "original": "Y zaka bēe tẽng-bõonẽ ?",
+      "phonetic_api": "/i zaka beː tẽŋ bõːnẽ/",
+      "phonetic_simple": "I ZA-KA BÉE TEN-G BÓO-NUE",
+      "translation": "Dans quelle ville se trouve ta maison ?",
+      "context": "S'informer sur le lieu de résidence principal de son interlocuteur."
+    },
+    {
+      "phrase_id": "p10_2",
+      "original": "M zaka bēe Wagadugu, saka piig la a yiibu.",
+      "phonetic_api": "/m zaka beː waɣaduɣu saka pɪːɣ la a jɪːbu/",
+      "phonetic_simple": "M ZA-KA BÉE WA-GA-DOU-GOU, SA-KA PII-G LA A YII-BOU",
+      "translation": "Ma concession est à Ouagadougou, au secteur 12.",
+      "context": "Donner son adresse urbaine précise."
+    },
+    {
+      "phrase_id": "p10_3",
+      "original": "Roogã pūasẽ tara laafi.",
+      "phonetic_api": "/roːɣã puːasẽ tara laːfi/",
+      "phonetic_simple": "ROO-GAN POO-A-SUEN TA-RA LAA-FI",
+      "translation": "À l'intérieur de la maison, il fait bon / il y a la paix.",
+      "context": "Exprimer le confort matériel ou spirituel de son logement."
+    },
+    {
+      "phrase_id": "p10_4",
+      "original": "Tẽngã yaa noogo, yĩnsã bēe pẽe.",
+      "phonetic_api": "/tẽŋã jaː noːɣo jĩnsa beː pẽː/",
+      "phonetic_simple": "TEN-GAN YAA NOO-GO, YIN-SA BÉE PÉE",
+      "translation": "La ville est agréable, les habitations sont proches.",
+      "context": "Décrire son environnement urbain global."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le locatif suffixé '-ẽ' et la postposition 'pūasẽ'",
+      "explanation": "Pour exprimer le lieu où l'on se trouve ('dans', 'à'), le mooré utilise soit un suffixe nasalisé '-ẽ' directement lié au nom, soit la postposition autonome 'pūasẽ' (à l'intérieur de) placée après le substantif.",
+      "rules": [
+        "Le mot 'roogo' (chambre) devient 'roogẽ' (dans la chambre).",
+        "La postposition 'pūasẽ' requiert que le nom qui la précède prenne une forme définie ou nasalisée."
+      ],
+      "examples": [
+        {
+          "structure": "Nom + ẽ",
+          "phonetic_api": "/roːɡẽ/",
+          "meaning": "Dans la chambre"
+        },
+        {
+          "structure": "Nom + pūasẽ",
+          "phonetic_api": "/sakã puːasẽ/",
+          "meaning": "À l'intérieur du quartier"
+        }
+      ]
+    },
+    {
+      "concept": "La qualification qualificative verbale 'noogo' / 'kãsenga'",
+      "explanation": "Les adjectifs qualificatifs complexes en mooré fonctionnent souvent de manière stative ou possèdent des formes spécifiques selon qu'ils décrivent un état permanent ou passager.",
+      "rules": [
+        "Structure : [Sujet] + yaa + [Adjectif de taille ou d'état]."
+      ],
+      "examples": [
+        {
+          "structure": "tẽnga + yaa + kãsenga",
+          "phonetic_api": "/tẽŋã jaː kãsẽŋɡa/",
+          "meaning": "La ville est grande"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Adama",
+      "text": "Boukari, y zaka bēe tẽng-bõonẽ ?",
+      "phonetic_api": "/boukari i zaka beː tẽŋ bõːnẽ/",
+      "phonetic_simple": "BOU-KA-RI, I ZA-KA BÉE TEN-G BÓO-NUE ?",
+      "translation": "Boukari, dans quelle ville se trouve ta maison ?"
+    },
+    {
+      "speaker": "Boukari",
+      "text": "M zaka bēe Wagadugu, saka piig la a yiibu. A yaa kãsenga.",
+      "phonetic_api": "/m zaka beː waɣaduɣu saka pɪːɣ la a jɪːbu a jaː kãsẽŋɡa/",
+      "phonetic_simple": "M ZA-KA BÉE WA-GA-DOU-GOU, SA-KA PII-G LA A YII-BOU. A YAA KAN-SEN-GA",
+      "translation": "Ma concession est à Ouagadougou, au secteur 12. Elle est grande."
+    },
+    {
+      "speaker": "Adama",
+      "text": "Y tara roogo a wãna pūasẽ ?",
+      "phonetic_api": "/i tara roːɣo a wãna puːasẽ/",
+      "phonetic_simple": "I TA-RA ROO-GO A WAN-NA POO-A-SUEN ?",
+      "translation": "Combien de chambres as-tu à l'intérieur ?"
+    },
+    {
+      "speaker": "Boukari",
+      "text": "M tara roog a naase. M zaka yaa laafi.",
+      "phonetic_api": "/m tara roːɣ a naːse m zaka jaː laːfi/",
+      "phonetic_simple": "M TA-RA ROOG A NAA-SÉ. M ZA-KA YAA LAA-FI",
+      "translation": "J'ai quatre chambres. Ma concession est paisible."
+    }
+  ],
+  "cultural_notes": [
+    "La 'zaka' traditionnelle mossi est un ensemble de cases circulaires ou rectangulaires reliées par un mur d'enceinte, formant une cour intérieure centrale où bat la vie quotidienne, la cuisine et les palabres familiales.",
+    "À Ouagadougou et Bobo-Dioulasso, le terme 'saka' s'est adapté à la structure administrative moderne des 'secteurs' issus des différents lotissements urbains.",
+    "Dire que sa maison est 'laafi' (en paix) est un compliment ultime qui montre la bonne entente entre tous les membres de la famille élargie vivant sous le même toit."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex10_1",
+      "type": "multiple_choice",
+      "question": "Quel mot désigne spécifiquement la cour familiale ou la concession en mooré ?",
+      "options": [
+        "Tẽnga",
+        "Zaka",
+        "Saka"
+      ],
+      "correct_answer": "Zaka",
+      "explanation": "'Zaka' qualifie le foyer, la cour ou la grande concession familiale traditionnelle."
+    },
+    {
+      "exercise_id": "ex10_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "M bēe m roog[ ___ ]. (Traduction : Je suis dans ma chambre.)",
+      "correct_answer": "ẽ",
+      "hint": "Le suffixe de lieu nasalisé qui s'attache directement à la fin du nom de la pièce."
+    }
+  ]
+}

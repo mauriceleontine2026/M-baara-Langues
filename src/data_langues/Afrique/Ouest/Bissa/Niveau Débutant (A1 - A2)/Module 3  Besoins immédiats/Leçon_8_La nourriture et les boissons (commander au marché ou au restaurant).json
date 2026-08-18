@@ -1,0 +1,215 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché/restaurant)",
+  "learning_objectives": [
+    "Nommer les principaux aliments de base et boissons en langue bissa",
+    "Formuler une demande polie pour commander à manger ou acheter des vivres",
+    "Exprimer la faim, la soif et donner son appréciation sur un repas"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon met en relief l'articulation de la voyelle nasale /ã/ et de la voyelle postérieure relâchée /ɔ/. L'allongement de la double voyelle dans 'gũu' (le tô) et la consonne occlusive injective ou glottalisée nécessitent une émission d'air bien contrôlée depuis le larynx sans forcer sur la gorge.",
+    "common_pitfalls": "Attention à ne pas confondre le mot 'ti' (eau) avec le morphème grammatical de direction 'ti' vu dans la leçon précédente. Le nom 'ti' possède une hauteur tonale propre stable (ton moyen/haut)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Ti",
+      "phonetic_api": "/ti/",
+      "phonetic_simple": "TI",
+      "translation": "Eau / boisson aqueuse",
+      "example_sentence": "N nam bɔ ti",
+      "example_phonetic": "/n̩ nam bɔ ti/",
+      "example_translation": "Donne-moi de l'eau."
+    },
+    {
+      "word_id": "v2",
+      "term": "Gũu",
+      "phonetic_api": "/ɡũː/",
+      "phonetic_simple": "GOUUN",
+      "translation": "Tô (plat traditionnel à base de mil ou de maïs)",
+      "example_sentence": "M bɔ gũu di la",
+      "example_phonetic": "/m̩ bɔ ɡũː di la/",
+      "example_translation": "Je mange du tô."
+    },
+    {
+      "word_id": "v3",
+      "term": "Anzãa",
+      "phonetic_api": "/anʒãː/",
+      "phonetic_simple": "AN-JAN",
+      "translation": "Viande",
+      "example_sentence": "Anzãa ya mbe la",
+      "example_phonetic": "/anʒãː ja mbe la/",
+      "example_translation": "La viande est bonne."
+    },
+    {
+      "word_id": "v4",
+      "term": "Mɔnɔ",
+      "phonetic_api": "/mɔnɔ/",
+      "phonetic_simple": "MO-NO",
+      "translation": "Bouillie",
+      "example_sentence": "Moro mɔnɔ bɔ ɔrɔ",
+      "example_phonetic": "/mɔʁɔ mɔnɔ bɔ ɔʁɔ/",
+      "example_translation": "La bouillie chaude est ici."
+    },
+    {
+      "word_id": "v5",
+      "term": "Gõ",
+      "phonetic_api": "/ɡõ/",
+      "phonetic_simple": "GON",
+      "translation": "Acheter / faire des emplettes",
+      "example_sentence": "M gaa gũu gõ",
+      "example_phonetic": "/m̩ ɡaː ɡũː ɡõ/",
+      "example_translation": "Je vais acheter du tô."
+    },
+    {
+      "word_id": "v6",
+      "term": "Di",
+      "phonetic_api": "/di/",
+      "phonetic_simple": "DI",
+      "translation": "Manger / consommer",
+      "example_sentence": "A bɔ di la",
+      "example_phonetic": "/a bɔ di la/",
+      "example_translation": "Il/Elle mange."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Kuso hinsi, n nam bɔ gũu",
+      "phonetic_api": "/kuso hinsi n̩ nam bɔ ɡũː/",
+      "phonetic_simple": "KOU-SO HIN-SI, N NAM BO GOUUN",
+      "translation": "S'il vous plaît, donnez-moi du tô",
+      "context": "Formule standard pour commander à manger au marché ou dans un restaurant local."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Kõnɔ bɔ m dɔ",
+      "phonetic_api": "/kõnɔ bɔ m̩ dɔ/",
+      "phonetic_simple": "KO-NO BO M DO",
+      "translation": "J'ai faim (litt. : La faim est sur moi)",
+      "context": "Expression usuelle pour manifester son besoin de nourriture."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "N dɔ kur ti sãa",
+      "phonetic_api": "/n̩ dɔ kuʁ ti sãː/",
+      "phonetic_simple": "N DO KOUR TI SAA",
+      "translation": "J'ai soif (litt. : Mon cou réclame de l'eau)",
+      "context": "Pour signaler son besoin impératif de se désaltérer."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "A mbe la bisi",
+      "phonetic_api": "/a mbe la bisi/",
+      "phonetic_simple": "A MBE LA BI-SI",
+      "translation": "C'est très bon / délicieux",
+      "context": "Formule de compliment adressée à la cuisinière ou au vendeur après le repas."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Boi la ?",
+      "phonetic_api": "/bɔi la/",
+      "phonetic_simple": "BOI LA",
+      "translation": "C'est combien ? / Quel est le prix ?",
+      "context": "Question indispensable pour entamer l'achat ou régler son repas."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression corporelle et métaphorique des besoins (Faim/Soif)",
+      "explanation": "En bissa, la faim et la soif ne s'expriment pas avec le verbe avoir. On utilise des structures locatives ou physiologiques : la faim est posée 'sur le sujet' (`bɔ m dɔ`), tandis que la soif implique le cou (`kur`) qui désire l'eau.",
+      "rules": [
+        "Structure faim : Kõnɔ (Faim) + bɔ (est) + pronom objet + dɔ (sur).",
+        "Structure soif : Pronom possessif + kur (cou) + formule d'appel d'eau."
+      ],
+      "examples": [
+        {
+          "structure": "Kõnɔ bɔ m dɔ",
+          "phonetic_api": "/kõnɔ bɔ m̩ dɔ/",
+          "meaning": "La faim est sur moi (J'ai faim)."
+        }
+      ]
+    },
+    {
+      "concept": "L'impératif de demande polie avec 'Nam bɔ'",
+      "explanation": "Pour demander un objet, de la nourriture ou un service, le bissa utilise l'association verbale productive 'Nam bɔ' (donner/accorder) placée juste devant le pronom personnel bénéficiaire.",
+      "rules": [
+        "La formule s'accompagne idéalement de 'Kuso hinsi' (s'il vous plaît) en tête d'énoncé.",
+        "Le bien demandé est placé immédiatement en fin de proposition."
+      ],
+      "examples": [
+        {
+          "structure": "Nam bɔ + m (moi) + ti (eau) = Nam bɔ m ti",
+          "phonetic_api": "/nam bɔ m̩ ti/",
+          "meaning": "Donne-moi de l'eau."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mariam (La cliente)",
+      "text": "Sundareh ki ! Kuso hinsi, kõnɔ bɔ m dɔ.",
+      "phonetic_api": "/sʊndaʁɛ ki kuso hinsi kõnɔ bɔ m̩ dɔ/",
+      "phonetic_simple": "SOUN-DA-REH KI ! KOU-SO HIN-SI, KO-NO BO M DO",
+      "translation": "Bonjour ! S'il vous plaît, j'ai faim."
+    },
+    {
+      "speaker": "Alimata (La vendeuse)",
+      "text": "Sundareh ki ! Gũu bɔ ɔrɔ, anzãa bɔ la.",
+      "phonetic_api": "/sʊndaʁɛ ki ɡũː bɔ ɔʁɔ anzãː bɔ la/",
+      "phonetic_simple": "SOUN-DA-REH KI ! GOUUN BO O-RO, AN-JAN BO LA",
+      "translation": "Bonjour ! Le tô est ici, il y a aussi de la viande."
+    },
+    {
+      "speaker": "Mariam (La cliente)",
+      "text": "Nam bɔ m gũu n gaa anzãa. Boi la ?",
+      "phonetic_api": "/nam bɔ m̩ ɡũː n̩ ɡaː anzãː bɔi la/",
+      "phonetic_simple": "NAM BO M GOUUN N GAA AN-JAN. BOI LA",
+      "translation": "Donnez-moi du tô avec de la viande. C'est combien ?"
+    },
+    {
+      "speaker": "Alimata (La vendeuse)",
+      "text": "A la doro sɔ́ɔ̀. Nam bɔ m ti sɩ̀ ?",
+      "phonetic_api": "/a la dɔʁɔ sɔ́ːɔ̀ nam bɔ m̩ ti sɪ̀/",
+      "phonetic_simple": "A LA DO-RO SÓO. NAM BO M TI SI",
+      "translation": "C'est cinq doro (25 francs / prix symbolique). Dois-je te donner de l'eau ?"
+    },
+    {
+      "speaker": "Mariam (La cliente)",
+      "text": "An, barka boi. Gũu mbe la bisi !",
+      "phonetic_api": "/an baʁka bɔi ɡũː mbe la bisi/",
+      "phonetic_simple": "AN, BAR-KA BOI. GOUUN MBE LA BI-SI",
+      "translation": "Non, merci beaucoup. Le tô est vraiment délicieux !"
+    }
+  ],
+  "cultural_notes": [
+    "Le 'gũu' (communément appelé tô en français d'Afrique de l'Ouest) est la base alimentaire fondamentale du peuple Bissa au Burkina Faso. Il est traditionnellement accompagné d'une sauce gluante (à base de gombo ou de feuilles de baobab) ou d'une sauce oseille.",
+    "Partager l'eau (`ti`) est le tout premier geste de bienvenue accompli lorsqu'un visiteur ou un étranger arrive dans une concession bissa. Même avant de demander le motif de la visite, on offre une calebasse ou un verre d'eau fraîche pour symboliser la paix et étancher la soif du voyageur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle expression bissa utilise-t-on pour déclarer que l'on a faim ?",
+      "options": [
+        "N dɔ kur ti sãa",
+        "Kõnɔ bɔ m dɔ",
+        "A mbe la bisi"
+      ],
+      "correct_answer": "Kõnɔ bɔ m dɔ",
+      "explanation": "La formule 'Kõnɔ bɔ m dɔ' se traduit littéralement par 'la faim est posée sur moi'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour demander poliment à boire, on formule la phrase ainsi : Nam bɔ m [ ___ ].",
+      "correct_answer": "ti",
+      "hint": "Le terme bissa incontournable désignant l'eau."
+    }
+  ]
+}

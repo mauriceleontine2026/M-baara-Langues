@@ -1,0 +1,301 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Distinguer et utiliser les salutations formelles et informelles en fonction du statut de l'interlocuteur",
+    "Choisir la salutation appropriée selon le moment exact de la journée et de la soirée",
+    "Exprimer la gratitude, formuler des excuses de base et employer les rituels de politesse quotidiens",
+    "Maîtriser la prise de congé selon l'imminence des retrouvailles"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "1. La voyelle nasale /ɔ̃/ (bonjour, bonsoir) : l'air s'échappe simultanément par la bouche et par les fosses nasales, sans fermeture de la bouche. Les lèvres sont très arrondies. 2. La voyelle fermée antérieure arrondie /y/ (salut, s'il vous plaît) : positionnez la langue comme pour un /i/ français ('oui') mais avancez et arrondissez les lèvres au maximum comme pour siffler. 3. Le groupe de consonnes /s'il vous plaît/ implique un enchaînement fluide /sil vu plɛ/ où le /l/ doit rester net.",
+    "common_pitfalls": "1. Prononcer le 't' final de 'salut' ou le 's' final de 'bonsoir' : en français moderne, ces consonnes finales sont strictement muettes. 2. Angliciser le phonème /ʁ/ (le 'r' de bonjour, merci, au revoir) : il ne faut pas rétracter la langue, mais produire une friction douce au fond de la gorge (R uvulaire). 3. Omettre la liaison obligatoire dans 'Je vous en prie' /ʒə vuz_ɑ̃ pʁi/, le 's' se sonorise en /z/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_l1",
+      "term": "Bonjour",
+      "phonetic_api": "/bɔ̃ʒuʁ/",
+      "phonetic_simple": "BON-JOUR",
+      "translation": "Bonjour / Bon après-midi (Hello / Good morning)",
+      "example_sentence": "Bonjour Monsieur le Directeur, comment allez-vous ce matin ?",
+      "example_phonetic": "/bɔ̃ʒuʁ məsjø lə diʁɛktœʁ kɔmɑ̃t_ale vu sə matɛ̃/",
+      "example_translation": "Good morning Mr. Director, how are you doing this morning?"
+    },
+    {
+      "word_id": "v2_l1",
+      "term": "Bonsoir",
+      "phonetic_api": "/bɔ̃swaʁ/",
+      "phonetic_simple": "BON-SOUAR",
+      "translation": "Bonsoir (Good evening)",
+      "example_sentence": "Bonsoir chers collègues, bienvenue à la conférence.",
+      "example_phonetic": "/bɔ̃swaʁ ʃɛʁ kɔlɛɡ bjɛ̃vny a la kɔ̃feʁɑ̃s/",
+      "example_translation": "Good evening dear colleagues, welcome to the conference."
+    },
+    {
+      "word_id": "v3_l1",
+      "term": "Salut",
+      "phonetic_api": "/saly/",
+      "phonetic_simple": "SA-LU",
+      "translation": "Salut (Hi / Bye - amical)",
+      "example_sentence": "Salut Lucas ! Tu viens avec nous ce soir ?",
+      "example_phonetic": "/saly lyka ty vjɛ̃ avɛk nu sə swaʁ/",
+      "example_translation": "Hi Lucas! Are you coming with us tonight?"
+    },
+    {
+      "word_id": "v4_l1",
+      "term": "Merci",
+      "phonetic_api": "/mɛʁsi/",
+      "phonetic_simple": "MERR-SEE",
+      "translation": "Merci (Thank you)",
+      "example_sentence": "Merci infiniment pour votre aide précieuse.",
+      "example_phonetic": "/mɛʁsi ɛ̃finitmɑ̃ puʁ vɔtʁ_ɛd pʁesjøz/",
+      "example_translation": "Thank you very much for your invaluable help."
+    },
+    {
+      "word_id": "v5_l1",
+      "term": "S'il vous plaît",
+      "phonetic_api": "/sil vu plɛ/",
+      "phonetic_simple": "SEEL VOU PLE",
+      "translation": "S'il vous plaît (Please - formel)",
+      "example_sentence": "Apportez-moi l'addition, s'il vous plaît.",
+      "example_phonetic": "/apɔʁte mwa ladisjɔ̃ sil vu plɛ/",
+      "example_translation": "Bring me the bill, please."
+    },
+    {
+      "word_id": "v6_l1",
+      "term": "S'il te plaît",
+      "phonetic_api": "/sil tə plɛ/",
+      "phonetic_simple": "SEEL TEU PLE",
+      "translation": "S'il te plaît (Please - informel)",
+      "example_sentence": "Passe-moi le sel, s'il te plaît.",
+      "example_phonetic": "/pas mwa lə sɛl sil tə plɛ/",
+      "example_translation": "Pass me the salt, please."
+    },
+    {
+      "word_id": "v7_l1",
+      "term": "Pardon",
+      "phonetic_api": "/paʁdɔ̃/",
+      "phonetic_simple": "PAR-DON",
+      "translation": "Pardon / Excusez-moi (Excuse me / Sorry)",
+      "example_sentence": "Pardon, je ne vous avais pas vu passer.",
+      "example_phonetic": "/paʁdɔ̃ ʒə nə vuz_avɛ pa vy pase/",
+      "example_translation": "Sorry, I hadn't seen you passing by."
+    },
+    {
+      "word_id": "v8_l1",
+      "term": "Désolé",
+      "phonetic_api": "/dezɔle/",
+      "phonetic_simple": "DE-ZO-LE",
+      "translation": "Désolé (Sorry)",
+      "example_sentence": "Je suis vraiment désolé pour ce contretemps.",
+      "example_phonetic": "/ʒə sɥi vʁɛmɑ̃ dezɔle puʁ sə kɔ̃tʁətɑ̃/",
+      "example_translation": "I am truly sorry for this mishap."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_l1",
+      "original": "Comment allez-vous ?",
+      "phonetic_api": "/kɔmɑ̃t_ale vu/",
+      "phonetic_simple": "KOM-AN-TALE VOU",
+      "translation": "How are you? (Formal/Plural)",
+      "context": "S'adresse à un supérieur, un inconnu, ou un groupe de personnes."
+    },
+    {
+      "phrase_id": "p2_l1",
+      "original": "Comment ça va ?",
+      "phonetic_api": "/kɔmɑ̃ sa va/",
+      "phonetic_simple": "KOM-AN SA VA",
+      "translation": "How are things? / How is it going?",
+      "context": "Registre courant et amical. Très fréquent avec les proches."
+    },
+    {
+      "phrase_id": "p3_l1",
+      "original": "Je vais très bien, merci.",
+      "phonetic_api": "/ʒə vɛ tʁɛ bjɛ̃ mɛʁsi/",
+      "phonetic_simple": "JE VE TRE BIEN MERR-SEE",
+      "translation": "I am doing very well, thank you.",
+      "context": "Réponse polie et positive à une salutation sur la santé."
+    },
+    {
+      "phrase_id": "p4_l1",
+      "original": "Tout va bien, et toi ?",
+      "phonetic_api": "/tu va bjɛ̃ e twa/",
+      "phonetic_simple": "TOU VA BIEN E TOUA",
+      "translation": "Everything is fine, and you?",
+      "context": "Relance informelle après avoir confirmé que tout va bien."
+    },
+    {
+      "word_id": "p5_l1",
+      "original": "Au revoir",
+      "phonetic_api": "/o ʁəvwaʁ/",
+      "phonetic_simple": "O REUV-OUAR",
+      "translation": "Goodbye",
+      "context": "Formule universelle pour prendre congé, utilisable partout."
+    },
+    {
+      "phrase_id": "p6_l1",
+      "original": "À bientôt",
+      "phonetic_api": "/a bjɛ̃to/",
+      "phonetic_simple": "A BIEN-TO",
+      "translation": "See you soon",
+      "context": "Utilisé lorsque l'on doit revoir la personne dans un futur proche non défini."
+    },
+    {
+      "phrase_id": "p7_l1",
+      "original": "À tout à l'heure",
+      "phonetic_api": "/a tut_a lœʁ/",
+      "phonetic_simple": "A TOU-TA L'EUR",
+      "translation": "See you in a little bit / See you later today",
+      "context": "Utilisé si l'on retrouve la personne au cours de la même journée (quelques heures plus tard)."
+    },
+    {
+      "phrase_id": "p8_l1",
+      "original": "Je vous en prie",
+      "phonetic_api": "/ʒə vuz_ɑ̃ pʁi/",
+      "phonetic_simple": "JE VOUZ AN PREE",
+      "translation": "You are welcome (Formal)",
+      "context": "La réponse la plus élégante et respectueuse à un remerciement."
+    },
+    {
+      "phrase_id": "p9_l1",
+      "original": "De rien",
+      "phonetic_api": "/də ʁjɛ̃/",
+      "phonetic_simple": "DEU RIEN",
+      "translation": "It's nothing / You're welcome",
+      "context": "Réponse familière et quotidienne à un 'merci'."
+    },
+    {
+      "phrase_id": "p10_l1",
+      "original": "Enchanté(e)",
+      "phonetic_api": "/ɑ̃ʃɑ̃te/",
+      "phonetic_simple": "AN-SHAN-TE",
+      "translation": "Pleased to meet you",
+      "context": "Formule obligatoire lors d'une première présentation (on ajoute un 'e' à l'écrit si on est une femme)."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La distinction cruciale entre Tu (Tutoiement) et Vous (Vouvoiement)",
+      "explanation": "Le français utilise deux pronoms distincts pour s'adresser à une personne selon la nature de la relation sociale.",
+      "rules": [
+        "Le 'Tu' s'utilise pour s'adresser à un ami, un membre de la famille, un enfant, ou un collègue proche. Il implique de l'intimité ou de la proximité sociale.",
+        "Le 'Vous' s'utilise pour s'adresser à un inconnu, un supérieur hiérarchique, une personne âgée, ou dans les commerces. C'est une marque indispensable de respect et de distance de sécurité sociale.",
+        "Le 'Vous' est aussi obligatoirement le pronom pluriel lorsque l'on s'adresse à deux personnes ou plus, quel que soit le degré d'intimité."
+      ],
+      "examples": [
+        {
+          "structure": "Tu vas bien ? (Informel)",
+          "phonetic_api": "/ty va bjɛ̃/",
+          "meaning": "Are you doing well? (To a peer/friend)"
+        },
+        {
+          "structure": "Vous allez bien ? (Formel / Pluriel)",
+          "phonetic_api": "/vuz_ale bjɛ̃/",
+          "meaning": "Are you doing well? (To a client or several people)"
+        }
+      ]
+    },
+    {
+      "concept": "L'adaptation temporelle des salutations : Bonjour vs Bonsoir",
+      "explanation": "La transition entre les salutations diurnes et nocturnes n'est pas dictée par une heure fixe absolue, mais suit des codes culturels précis.",
+      "rules": [
+        "On utilise 'Bonjour' dès le réveil et durant toute la journée.",
+        "On bascule vers 'Bonsoir' à la fin de l'après-midi, généralement dès la tombée de la nuit ou autour de 17h00 - 18h00.",
+        "Dire 'Bonjour' à 20h00 est perçu comme une erreur ou une distraction culturelle."
+      ],
+      "examples": [
+        {
+          "structure": "Bonjour, il est 10 heures du matin.",
+          "phonetic_api": "/bɔ̃ʒuʁ il ɛ di zœʁ dy matɛ̃/",
+          "meaning": "Good morning, it is 10 AM."
+        },
+        {
+          "structure": "Bonsoir, il est 20 heures.",
+          "phonetic_api": "/bɔ̃swaʁ il ɛ vɛ̃ tœʁ/",
+          "meaning": "Good evening, it is 8 PM."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mme Martin (Cliente)",
+      "text": "Bonjour Monsieur. S'il vous plaît, est-ce que le magasin est ouvert ?",
+      "phonetic_api": "/bɔ̃ʒuʁ məsjø sil vu plɛ ɛs kə lə maɡazɛ̃ ɛ tuvɛʁ/",
+      "phonetic_simple": "BON-JOUR MEU-SIEU. SEEL VOU PLE, ES KEU LEU MA-GA-ZIN E TOU-VER ?",
+      "translation": "Good morning sir. Please, is the shop open?"
+    },
+    {
+      "speaker": "M. Richard (Vendeur)",
+      "text": "Bonjour Madame. Oui, tout à fait. Entrez, je vous en prie !",
+      "phonetic_api": "/bɔ̃ʒuʁ madam wi tut_a fɛ ɑ̃tʁe ʒə vuz_ɑ̃ pʁi/",
+      "phonetic_simple": "BON-JOUR MA-DAM. OUI, TOU-TA FE. AN-TRE, JE VOUZ AN PREE !",
+      "translation": "Good morning ma'am. Yes, absolutely. Come in, please!"
+    },
+    {
+      "speaker": "Mme Martin (Cliente)",
+      "text": "Merci beaucoup pour votre amabilité. Comment allez-vous ?",
+      "phonetic_api": "/mɛʁsi boku puʁ vɔtʁ_amabilite kɔmɑ̃t_ale vu/",
+      "phonetic_simple": "MERR-SEE BO-KOU POUR VOTR AMA-BILI-TE. KOM-AN-TALE VOU ?",
+      "translation": "Thank you very much for your kindness. How are you?"
+    },
+    {
+      "speaker": "M. Richard (Vendeur)",
+      "text": "Je vais très bien, merci madame. Je vous laisse regarder. Bonne journée !",
+      "phonetic_api": "/ʒə vɛ tʁɛ bjɛ̃ mɛʁsi madam ʒə vu lɛs ʁəɡaʁde bɔn ʒuʁne/",
+      "phonetic_simple": "JE VE TRE BIEN MERR-SEE MA-DAM. JE VOU LES REU-GAR-DE. BON JOUR-NE !",
+      "translation": "I am doing very well, thank you ma'am. I'll let you browse. Have a nice day!"
+    },
+    {
+      "speaker": "Mme Martin (Cliente)",
+      "text": "Merci, au revoir et à bientôt !",
+      "phonetic_api": "/mɛʁsi o ʁəvwaʁ e a bjɛ̃to/",
+      "phonetic_simple": "MERR-SEE, O REUV-OUAR E A BIEN-TO !",
+      "translation": "Thank you, goodbye and see you soon!"
+    }
+  ],
+  "cultural_notes": [
+    "L'obligation du 'Bonjour' : En France, il est considéré comme extrêmement impoli d'aborder un commerçant, un chauffeur de bus ou un passant pour demander une information sans débuter explicitement par 'Bonjour'. C'est la clé sociale universelle.",
+    "La culture du contact physique : Entre amis ou jeunes, on pratique 'la bise' (on effleure les joues en faisant le bruit du baiser, le nombre varie entre 2 et 4 selon les régions). Dans un contexte formel ou entre hommes qui ne sont pas proches, la poignée de main ferme reste la norme stricte.",
+    "Le genre des mots d'accueil : 'Enchanté' s'accorde au féminin 'Enchantée' à l'écrit, bien que la prononciation reste rigoureusement identique."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_l1",
+      "type": "multiple_choice",
+      "question": "Vous rencontrez votre nouveau directeur de banque à 19h00. Quelle phrase est correcte ?",
+      "options": [
+        "Salut ! Ça va ?",
+        "Bonsoir Monsieur, comment allez-vous ?",
+        "Bonjour, s'il te plaît."
+      ],
+      "correct_answer": "Bonsoir Monsieur, comment allez-vous ?",
+      "explanation": "La situation exige le vouvoiement ('vous'), l'appellation respectueuse ('Monsieur') et la salutation du soir ('Bonsoir') car il est 19h00."
+    },
+    {
+      "exercise_id": "ex2_l1",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Merci beaucoup pour l'invitation ! — Je vous en [ ___ ], c'est un plaisir.",
+      "correct_answer": "prie",
+      "hint": "Verbe prier à la première personne du singulier, utilisé pour répondre formellement à un remerciement."
+    },
+    {
+      "exercise_id": "ex3_l1",
+      "type": "multiple_choice",
+      "question": "Quelle expression utilisez-vous pour dire au revoir à quelqu'un que vous allez retrouver dans deux heures ?",
+      "options": [
+        "À tout à l'heure",
+        "Enchanté",
+        "Bonsoir"
+      ],
+      "correct_answer": "À tout à l'heure",
+      "explanation": "'À tout à l'heure' signifie que les retrouvailles ont lieu plus tard au cours de la même journée."
+    }
+  ]
+}

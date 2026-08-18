@@ -1,0 +1,237 @@
+{
+  "lesson_id": "A1_M3_L8",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 8,
+  "title": "La nourriture et les boissons (commander au marché/restaurant)",
+  "learning_objectives": [
+    "Connaître le lexique de base de la nourriture, des épices et des boissons",
+    "Savoir passer une commande polie dans un restaurant ou un stand de rue",
+    "Exprimer ses préférences alimentaires (végétarien, épicé) et demander l'addition"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le mot pour la nourriture (खाना / kʰaːnaː/) possède un 'ख' (/kʰ/) fortement aspiré qu'il ne faut pas confondre avec le 'क' (/k/). Le mot pour l'eau (पानी / paːniː/) et le thé (चाय / tʃaːj/) demandent des consonnes nettes. La consonne rétroflexe battue aspirée 'ढ़' (/ɽʱ/) apparaît dans 'बूढ़ा' ou des termes dérivés, mais faites surtout attention au 'ठ' (/ʈʰ/) aspiré rétroflexe dans 'मीठा' (sucré / miːʈʰaː/).",
+    "common_pitfalls": "Le mot 'पानी' (eau) se prononce avec un 'न' (/n/) alvéolaire ou dentale normale en hindi standard. Évitez de prononcer le 'च' de 'चाय' (thé) à la française (comme 'chat'), il doit être claqué comme dans 'tchao' (/tʃ/). Extrême vigilance sur le mot 'तीखा' (épicé) : le 'थ' ou 'त' initial doit être maîtrisé."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v_food_1",
+      "term": "खाना",
+      "phonetic_api": "/kʰaːnaː/",
+      "phonetic_simple": "KHA-NAA",
+      "translation": "Nourriture / Manger",
+      "example_sentence": "खाना बहुत स्वादिष्ट है।",
+      "example_phonetic": "/kʰaːnaː bəɦʊt̪ sʋaːɖɪʃʈ ɦɛː/",
+      "example_translation": "La nourriture est très délicieuse."
+    },
+    {
+      "word_id": "v_food_2",
+      "term": "पानी",
+      "phonetic_api": "/paːniː/",
+      "phonetic_simple": "PAA-NII",
+      "translation": "Eau",
+      "example_sentence": "कृपया ठंडा पानी दीजिए।",
+      "example_phonetic": "/kɾɪpəjaː t̪ʰəɳɖaː paːniː ddiːdʒɪjeː/",
+      "example_translation": "S'il vous plaît, donnez-moi de l'eau fraîche."
+    },
+    {
+      "word_id": "v_food_3",
+      "term": "चाय",
+      "phonetic_api": "/tʃaːj/",
+      "phonetic_simple": "TCHAA-Y",
+      "translation": "Thé (généralement au lait et épices)",
+      "example_sentence": "मुझे एक कप चाय चाहिए।",
+      "example_phonetic": "/mʊdʒʱeː eːk kəp tʃaːj tʃaːhɪjeː/",
+      "example_translation": "Je veux une tasse de thé."
+    },
+    {
+      "word_id": "v_food_4",
+      "term": "सब्ज़ी",
+      "phonetic_api": "/səbziː/",
+      "phonetic_simple": "SAB-ZII",
+      "translation": "Légume / Plat de légumes en sauce",
+      "example_sentence": "आज आलू की सब्ज़ी बनी है।",
+      "example_phonetic": "/aːdʒ aːluː kiː sabziː bəniː ɦɛː/",
+      "example_translation": "Aujourd'hui, on a fait un plat de pommes de terre."
+    },
+    {
+      "word_id": "v_food_5",
+      "term": "चावल",
+      "phonetic_api": "/tʃaːʋəl/",
+      "phonetic_simple": "TCHAA-VAL",
+      "translation": "Riz (cuit)",
+      "example_sentence": "क्या आप चावल खाएंगे?",
+      "example_phonetic": "/kjaː aːp tʃaːʋəl kʰaːeːŋɡeː/",
+      "example_translation": "Allez-vous manger du riz ?"
+    },
+    {
+      "word_id": "v_food_6",
+      "term": "रोटी",
+      "phonetic_api": "/roːʈiː/",
+      "phonetic_simple": "RO-TII (rétroflexe)",
+      "translation": "Pain plat indien traditionnel",
+      "example_sentence": "गर्म रोटी लाओ।",
+      "example_phonetic": "/ɡəɾm roːʈiː laːoː/",
+      "example_translation": "Apporte de la roti chaude."
+    },
+    {
+      "word_id": "v_food_7",
+      "term": "शाकाहारी",
+      "phonetic_api": "/ʃaːkaːɦaːriː/",
+      "phonetic_simple": "CHAA-KAA-HAA-RII",
+      "translation": "Végétarien",
+      "example_sentence": "मैं शाकाहारी हूँ।",
+      "example_phonetic": "/mɛ̃ː ʃaːkaːɦaːriː ɦũː/",
+      "example_translation": "Je suis végétarien."
+    },
+    {
+      "word_id": "v_food_8",
+      "term": "तीखा",
+      "phonetic_api": "/t̪iːkʰaː/",
+      "phonetic_simple": "TII-KHAA",
+      "translation": "Épicé / Piquant",
+      "example_sentence": "खाना ज्यादा तीखा मत बनाना।",
+      "example_phonetic": "/kʰaːnaː dʒjaːd̪aː t̪iːkʰaː mət̪ bənaːnaː/",
+      "example_translation": "Ne faites pas la nourriture trop épicée."
+    },
+    {
+      "word_id": "v_food_9",
+      "term": "मीठा",
+      "phonetic_api": "/miːʈʰaː/",
+      "phonetic_simple": "MII-THAA (rétroflexe)",
+      "translation": "Sucré / Dessert",
+      "example_sentence": "मुझे मीठा पसंद है।",
+      "example_phonetic": "/mʊdʒʱeː miːʈʰaː pəsənd̪ ɦɛː/",
+      "example_translation": "J'aime le sucré."
+    },
+    {
+      "word_id": "v_food_10",
+      "term": "बिल",
+      "phonetic_api": "/bɪl/",
+      "phonetic_simple": "BIL",
+      "translation": "Addition / Facture",
+      "example_sentence": "भैया, बिल ले आइए।",
+      "example_phonetic": "/bʱɛjjaː bɪl leː aːɪjeː/",
+      "example_translation": "Mon frère, apportez l'addition s'il vous plaît."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "मुझे एक प्लेट दाल-चावल चाहिए।",
+      "phonetic_api": "/mʊdʒʱeː eːk pleːʈ d̪aːl tʃaːʋəl tʃaːhɪjeː/",
+      "phonetic_simple": "MOUD-JHÉ EEK PLÉT DAAL TCHAA-VAL TCHAA-HI-YÉ",
+      "translation": "Je voudrais une assiette de lentilles et de riz.",
+      "context": "Commander le plat de base le plus populaire d'Inde du Nord."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "क्या इसमें मिर्च है?",
+      "phonetic_api": "/kjaː ɪsmẽː mɪɾtʃ ɦɛː/",
+      "phonetic_simple": "KYAA IS-MEIN MIRTCH HÉ",
+      "translation": "Est-ce qu'il y a du piment là-dedans ?",
+      "context": "Se renseigner sur le niveau de piment avant de manger."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "कम मिर्च लगाइए, प्लीज।",
+      "phonetic_api": "/kəm mɪɾtʃ ləɡaːɪjeː pliːz/",
+      "phonetic_simple": "KAM MIRTCH LA-GAA-I-YÉ PLEEZ",
+      "translation": "Mettez moins de piment, s'il vous plaît.",
+      "context": "Donner une consigne de cuisson au serveur ou au cuisinier."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du besoin avec 'चाहिए' (chāhiye)",
+      "explanation": "Pour exprimer le désir ou le besoin d'obtenir un objet (je veux / j'ai besoin de), le hindi utilise le mot invariable 'चाहिए' (chāhiye) placé en fin de phrase. Le sujet de la phrase doit obligatoirement recevoir la postposition 'को' (ko), qui transforme 'मैं' (je) en 'मुझे' (moudjhé).",
+      "rules": [
+        "Structure : [Demandeur + को] + [Objet désiré] + चाहिए।",
+        "Ne pas conjuguer चाहिए selon l'objet au singulier."
+      ],
+      "examples": [
+        {
+          "structure": "मुझे चाय चाहिए (Moudjhé chāi chāhiye)",
+          "phonetic_api": "/mʊdʒʱeː tʃaːj tʃaːhɪjeː/",
+          "meaning": "Je veux du thé / Il me faut du thé."
+        },
+        {
+          "structure": "आपको क्या चाहिए? (Aapko kyā chāhiye?)",
+          "phonetic_api": "/aːpkoː kjaː tʃaːhɪjeː/",
+          "meaning": "Que désirez-vous ?"
+        }
+      ]
+    },
+    {
+      "concept": "L'usage du verbe 'दीजिए' (dījiye) pour commander poliment",
+      "explanation": "Au restaurant ou au marché, au lieu d'utiliser une structure lourde, on utilise très fréquemment l'impératif honorifique irrégulier du verbe donner : 'दीजिए' (dījiye).",
+      "rules": [
+        "Structure : [Objet] + दीजिए (dījiye).",
+        "Équivaut à l'expression française 'Donnez-moi... s'il vous plaît'."
+      ],
+      "examples": [
+        {
+          "structure": "दो रोटी दीजिए (Do roṭī dījiye)",
+          "phonetic_api": "/d̪oː roːʈiː ddiːdʒɪjeː/",
+          "meaning": "Donnez-moi deux rotis, s'il vous plaît."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "वेटरु (Serveur)",
+      "text": "नमस्ते जी, आप खाने में क्या लेंगे?",
+      "phonetic_api": "/nəməsteː dʒiː aːp kʰaːneː mẽː kjaː leːŋɡeː/",
+      "phonetic_simple": "NA-MAS-TÉ DJII, AAP KHAA-NÉ MEIN KYAA LEN-GÉ",
+      "translation": "Bonjour, que prendrez-vous pour manger ?"
+    },
+    {
+      "speaker": "ग्राहक (Client)",
+      "text": "क्या आपके पास शाकाहारी थली है?",
+      "phonetic_api": "/kjaː aːpkeː paːs ʃaːkaːɦaːriː tʰaːliː ɦɛː/",
+      "phonetic_simple": "KYAA AAP-KÉ PAAS CHAA-KAA-HAA-RII THAA-LII HÉ",
+      "translation": "Avez-vous un Thali (plateau traditionnel) végétarien ?"
+    },
+    {
+      "speaker": "वेटरु (Serveur)",
+      "text": "हाँ जी, हमारे पास स्पेशल थली है।",
+      "phonetic_api": "/ɦãː dʒiː ɦəmaːɾeː paːs speːʃəl tʰaːliː ɦɛː/",
+      "phonetic_simple": "HAAN DJII, HA-MAA-RÉ PAAS SPÉ-CHAL THAA-LII HÉ",
+      "translation": "Oui, nous avons un Thali spécial."
+    },
+    {
+      "speaker": "ग्राहक (Client)",
+      "text": "ठीक है, एक थली और एक बोतल पानी दीजिए। मिर्च कम रखना।",
+      "phonetic_api": "/tʰiːk ɦɛː eːk tʰaːliː ɔːr eːk boːt̪əl paːniː ddiːdʒɪjeː mɪɾtʃ kəm ɾəkʰnaː/",
+      "phonetic_simple": "THIIK HÉ, EEK THAA-LII OR EEK BO-TAL PAA-NII DII-DJI-YÉ. MIRTCH KAM RAKH-NAA",
+      "translation": "D'accord, donnez-moi un Thali et une bouteille d'eau. Mettez peu de piment."
+    }
+  ],
+  "cultural_notes": [
+    "Un 'Thali' (थली) est un repas indien complet servi sur un grand plateau rond en métal, composé de petites coupelles contenant différents curry (dhal, légumes), du riz, des rotis et un dessert. C'est la façon la plus économique et traditionnelle de déjeuner.",
+    "Une grande partie de la population en Inde est strictement végétarienne pour des motifs religieux. Les restaurants affichent une signalétique claire : un carré vert avec un point vert signifie 'Pure Veg' (100% végétarien), tandis qu'un carré marron indique la présence de viande ou d'œuf."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle phrase utiliser pour demander poliment l'addition au restaurant ?",
+      "options": [
+        "चाय लाओ (chāi lāo)",
+        "बिल ले आइए (bil lē āiye)",
+        "पानी चाहिए (pānī chāhiye)"
+      ],
+      "correct_answer": "बिल ले आइए (bil lē āiye)",
+      "explanation": "'बिल ले आइए' signifie 'Apportez l'addition/la facture s'il vous plaît' de manière respectueuse."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "मुझे तीखा खाना [ ___ ] पसंद है। (Je n'aime pas la nourriture épicée.)",
+      "correct_answer": "नहीं",
+      "hint": "La particule de négation de base (nahīñ)"
+    }
+  ]
+}

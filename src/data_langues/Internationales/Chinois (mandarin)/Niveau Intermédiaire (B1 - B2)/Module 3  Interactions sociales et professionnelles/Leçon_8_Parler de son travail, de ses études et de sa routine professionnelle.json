@@ -1,0 +1,227 @@
+{
+  "lesson_id": "B1_M3_L8",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 8,
+  "title": "Parler de son travail, de ses études et de sa routine en chinois mandarin",
+  "learning_objectives": [
+    "Décrire son parcours professionnel, son domaine d'études et ses responsabilités quotidiennes",
+    "Maîtriser les structures temporelles de simultanéité avec 一边...一边... (yībiān... yībiān...)",
+    "Exprimer l'habitude, la régularité et la fréquence des tâches de la routine avec 总是 (zǒngshì) et 平时 (píngshí)",
+    "Utiliser les verbes de transition d'activité pour structurer une journée type de travail ou d'études"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon se concentre sur le rythme de la description de la routine. Le mot 总是 (zǒngshì - toujours) combine un 3ème ton bas descendant-montant (zǒng) avec une consonne rétroflexe au 4ème ton descendant (shì). Le terme 实习 (shíxí - faire un stage) exige d'enchaîner deux 2èmes tons montants fluides : la première consonne est une rétroflexe sourde /ʂ/, tandis que la seconde est une palatale douce /ɕ/.",
+    "common_pitfalls": "Faites attention à la prononciation du mot 负责 (fùzé - être responsable de) : le premier caractère est un 4ème ton descendant net (fù), alors que le second est un 2ème ton montant (zé). Ne confondez pas 毕业 (bìyè - obtenir son diplôme, 4ème puis 4ème ton) avec 商业 (shāngyè - commerce, 1er puis 4ème ton)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "负责",
+      "phonetic_api": "/fu˥˩ tsɤ˧˥/",
+      "phonetic_simple": "FOU-DZEI",
+      "translation": "Être responsable de / Prendre la charge de / Responsable",
+      "example_sentence": "在公司里，我主要负责市场营销。",
+      "example_phonetic": "/dzaɪ̯˥˩ kʊŋ˥ sʐ̩˥ li wo tʂu˨˩˦ jaʊ̯˧˥ fu˥˩ tsɤ˧˥ ʂʐ̩˥˩ tʂʰaŋ Wait ʔiŋ˧˥ ɕi̯aʊ̯˧˥/",
+      "example_translation": "Dans l'entreprise, je suis principalement responsable du marketing."
+    },
+    {
+      "word_id": "v2",
+      "term": "总是",
+      "phonetic_api": "/tsʊŋ˨˩˦ ʂʐ̩˥˩/",
+      "phonetic_simple": "DZONG-CHEI",
+      "translation": "Toujours / Systématiquement",
+      "example_sentence": "他工作很认真，总是第一个到办公室。",
+      "example_phonetic": "/tʰa˥ kʊŋ˥ dzwɔ˥˩ xən˨˩˦ ʐən˥˩ tʂən 组织 tsʊŋ˨˩˦ ʂʐ̩˥˩ di˥˩ i˥ kɤ daʊ̯˥˩ paŋ˥ kʊŋ˥ ʂʐ̩˥˩/",
+      "example_translation": "Il travaille très sérieusement, il est toujours le premier arrivé au bureau."
+    },
+    {
+      "word_id": "v3",
+      "term": "平时",
+      "phonetic_api": "/pʰiŋ˧˥ ʂʐ̩˧˥/",
+      "phonetic_simple": "PHING-CHEI",
+      "translation": "En temps normal / D'ordinaire / En semaine",
+      "example_sentence": "我平时八点起床，然后坐地铁去上学。",
+      "example_phonetic": "/wo pʰiŋ˧˥ ʂʐ̩˧˥ pa˥ ti̯ɛn˨˩˦ tɕʰi Wait ʔtʂʰwaŋ˧˥ ʐan˧˥ xoʊ̯˨˩˦ dzwɔ˥˩ di˥˩ tʰi̯ɛ˧˥ tɕy˥˩ ʂaŋ˥˩ ɕy̯ɛ˧˥/",
+      "example_translation": "D'ordinaire, je me lève à huit heures, puis je prends le métro pour aller en cours."
+    },
+    {
+      "word_id": "v4",
+      "term": "专业",
+      "phonetic_api": "/tʂwən˥ i̯ɛ˥˩/",
+      "phonetic_simple": "TCHOUAN-YÉ",
+      "translation": "Spécialité (d'études) / Discipline / Professionnel",
+      "example_sentence": "你在大学学的是什么专业？",
+      "example_phonetic": "/ni dzaɪ̯˥˩ da˥˩ ɕy̯ɛ˧˥ ɕy̯ɛ˧˥ dɤ ʂʐ尊 ʂən˧˥ mɤ tʂwən˥ i̯ɛ˥˩/",
+      "example_translation": "Quelle est ta spécialité d'études à l'université ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "实习",
+      "phonetic_api": "/ʂʐ̩˧˥ ɕi˧˥/",
+      "phonetic_simple": "CHEI-CHEE",
+      "translation": "Faire un stage / Stage / Stagiaire",
+      "example_sentence": "毕业以前, 我必须完成三个月的实习。",
+      "example_phonetic": "/bi Am ɥ̯ɛ˥˩ i Wait ʔi˨˩˦ wo pi˥˩ ɕy˥ wan˧˥ tʂʰəŋ˧˥ san˥ kɤ ɥ̯ɛ˥˩ dɤ ʂʐ̩˧˥ ɕi˧˥/",
+      "example_translation": "Avant d'obtenir mon diplôme, je dois effectuer un stage de trois mois."
+    },
+    {
+      "word_id": "v6",
+      "term": "加班",
+      "phonetic_api": "/tɕi̯a˥ pan˥/",
+      "phonetic_simple": "TCHIA-BAN",
+      "translation": "Faire des heures supplémentaires / Travailler tard",
+      "example_sentence": "这周项目很紧，每天都要加班。",
+      "example_phonetic": "/tʂɤ˥˩ tʂoʊ̯˥ ɕi̯aŋ Wait ʔmu˥˩ xən˨˩˦ tɕin Wait ʔmeɪ̯˧˥ tʰi̯ɛn doʊ̯˥ jaʊ̯˥˩ tɕi̯a˥ pan˥/",
+      "example_translation": "Le projet est très serré cette semaine, il faut faire des heures supplémentaires tous les jours."
+    },
+    {
+      "word_id": "v7",
+      "term": "日常",
+      "phonetic_api": "/ʐʐ̩˥˩ tʂʰaŋ˧˥/",
+      "phonetic_simple": "JEI-TCHHANG",
+      "translation": "Quotidien / De tous les jours / Routine",
+      "example_sentence": "用汉语进行日常交流没问题。",
+      "example_phonetic": "/jʊŋ˥˩ xan˥˩ jy˨˩˦ tɕin˥˩ ɕiŋ˧˥ ʐʐ̩˥˩ tʂʰaŋ˧˥ tɕi̯aʊ̯˥ ljoʊ̯˧˥ meɪ̯˧˥ wen Wait ʔtʰi˧˥/",
+      "example_translation": "Utiliser le chinois pour la communication quotidienne ne pose aucun problème."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "我目前在一 les 家外企实习，负责翻译日常邮件。",
+      "phonetic_api": "/wo mu˥˩ tɕʰi̯ɛn˧˥ dzaɪ̯˥˩ i˥ dɕi̯a˥ waɪ̯˥˩ tɕʰi Wait ʔʂʐ̩˧˥ ɕi˧˥ fu˥˩ tsɤ˧˥ fan˥ i˥˩ ʐʐ̩˥˩ tʂʰaŋ˧˥ joʊ̯ Wait ʔtɕi̯an Wait ʔ/",
+      "phonetic_simple": "OUO MOU-TCHIEN DZAÏ EE DJIA OUAÏ-TCHHEE CHEI-CHEE, FOU-DZEI FAN-EE JEI-TCHHANG YOW-TCHIEN",
+      "translation": "Actuellement, je fais un stage dans une entreprise étrangère et je m'occupe de la traduction des e-mails quotidiens.",
+      "context": "Présenter son poste de travail et ses missions lors d'un échange professionnel"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "他总是喜欢一边吃工作餐，一边看行业新闻。",
+      "phonetic_api": "/tʰa˥ tsʊŋ˨˩˦ ʂʐ̩˥˩ ɕi˧˥ xwan i˥ bi̯ɛn˥ tʂʰʐ̩˥ kʊŋ˥ dzwɔ˥˩ tsan˥ i˥ bi̯ɛn˥ kʰan˥˩ xaŋ˧˥ jɥ̯ɛ˧˥ ɕin˥ wən˧˥/",
+      "phonetic_simple": "THA DZONG-CHEI TCHEE-HOUAN EE-BIEN TCHEI GONG-DZOUO-TSAN, EE-BIEN KHAN HANG-YÉ CHIN-OUEN",
+      "translation": "Il aime toujours manger son repas de travail tout en consultant les actualités du secteur.",
+      "context": "Décrire les habitudes de vie professionnelles d'un collègue"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "我的日常工作包括开会和写报告。",
+      "phonetic_api": "/wo˨˩˦ dɤ ʐʐ̩˥˩ tʂʰaŋ˧˥ kʊŋ˥ dzwɔ˥˩ paʊ̯˥ kʰwɔ˥˩ kʰaɪ̯˥ xwei̯˥˩ xɤ˧˥ ɕi Wait ʔpaʊ̯˥ kaʊ̯˥˩/",
+      "phonetic_simple": "OUO DEU JEI-TCHHANG GONG-DZOUO BAO-KHOUO KHAI-HOUAY HEU CHIEH BAO-GAO",
+      "translation": "Mon travail quotidien comprend la participation à des réunions et la rédaction de rapports.",
+      "context": "Énumérer les composantes principales de son cahier des charges"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "你平时周末一般怎么安排时间？",
+      "phonetic_api": "/ni pʰiŋ˧˥ ʂʐ̩˧˥ tʂoʊ̯˥ mwɔ˥˩ i˥ pan˥ tsən˨˩˦ mɤ an˥ pʰaɪ̯˥ ʂʐ̩˧˥ tɕʰi̯ɛn˥/",
+      "phonetic_simple": "NEE PHING-CHEI DZOUO-MWO EE-BAN DZEN-MEU AN-PHAÏ CHEI-THIEN ?",
+      "translation": "D'habitude, comment organises-tu ton temps pendant le week-end ?",
+      "context": "Questionner un ami sur ses rituels et sa gestion du temps libre"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la simultanéité avec 一边...一边... (yībiān... yībiān...)",
+      "explanation": "Cette structure grammaticale intermédiaire permet d'indiquer que deux actions distinctes sont réalisées de manière parfaitement simultanée par le même sujet.",
+      "rules": [
+        "Structure : [Sujet] + 一边 (yībiān) + [Action A] + 一边 (yībiān) + [Action B].",
+        "Les deux actions doivent être des verbes d'action duratifs. À l'oral fluide, le chiffre '一' (yī) est souvent omis, ce qui donne la structure contractée '边...边...'.",
+        "Cette structure ne peut pas lier deux états adjectivaux."
+      ],
+      "examples": [
+        {
+          "structure": "我 (Je) + 一边 + 听音乐 (Écouter de la musique) + 一边 + 做作业 (Faire les devoirs)",
+          "phonetic_api": "/wo i˥ bi̯ɛn˥ tʰiŋ˥ iŋ˥ ɥ̯ɛ˥˩ i˥ bi̯ɛn˥ dzwɔ˥˩ dzwɔ Wait ʔjɤ˥˩/",
+          "meaning": "我一边听音乐，一边做作业。 (J'écoute de la musique tout en faisant mes devoirs.)"
+        }
+      ]
+    },
+    {
+      "concept": "L'organisation de la routine avec 平时 (píngshí) versus 一般 (yībān)",
+      "explanation": "Pour décrire des habitudes, l'usage combiné de ces deux marqueurs permet de poser le cadre général de la routine.",
+      "rules": [
+        "平时 (píngshí) est un nom de temps qui signifie 'd'ordinaire/en temps normal', en opposition aux moments exceptionnels (vacances, crises). Il se place avant ou juste après le sujet.",
+        "一般 (yībān) est un adverbe de fréquence qui signifie 'généralement/en règle générale'. Il se place juste avant le bloc verbal."
+      ],
+      "examples": [
+        {
+          "structure": "我平时 (Moi d'ordinaire) + 一般 (Généralement) + 七点半 (À 7h30) + 起床 (Se lever)",
+          "phonetic_api": "/wo pʰiŋ˧˥ ʂʐ̩˧˥ i˥ pan˥ tɕʰi˧˥ ti̯ɛn˨˩˦ ban˥˩ tɕʰi Wait ʔtʂʰwaŋ˧˥/",
+          "meaning": "我平时一般七点半起床。 (D'ordinaire, je me lève généralement à sept heures et demie.)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "张明 (Zhang Ming)",
+      "text": "大卫，你在那家国际贸易公司实习快三个月了吧？日常工作忙不忙？",
+      "phonetic_api": "/da˥˩ weɪ̯˥˩ ni dzaɪ̯˥˩ na˥˩ dɕi̯a˥ kwo˧˥ tɕi˥˩ maʊ̯˥˩ i˥˩ kʊŋ˥ sʐ̩˥ ʂʐ̩˧˥ ɕi˧˥ kʰwaɪ̯˥˩ san˥ kɤ ɥ̯ɛ˥˩ lɤ ba ʐʐ̩˥˩ tʂʰaŋ˧˥ kʊŋ˥ dzwɔ˥˩ maŋ˧˥ bu maŋ˧˥/",
+      "phonetic_simple": "DA-OUEI, NEE DZAÏ NA DJIA GOUO-TCHEE MAO-EE GONG-DZEU CHEI-CHEE KHOUAÏ SAN GEU YUE LEU BA ? JEI-TCHHANG GONG-DZOUO MANG-BOU-MANG ?",
+      "translation": "David, cela fait bientôt trois mois que tu es en stage dans cette entreprise de commerce international, n'est-ce pas ? Ton travail quotidien est-il chargé ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "平时挺忙的。我主要负责整理国外的客户资料，有时也帮经理翻译文件。",
+      "phonetic_api": "/pʰiŋ˧˥ ʂʐ̩˧˥ tʰiŋ˨˩˦ maŋ˧˥ dɤ wo tʂu˨˩˦ jaʊ̯˧˥ fu˥˩ tsɤ˧˥ tʂəŋ Wait ʔli˨˩˦ kwo外 客户 dzwɔ Wait ʔli̯aŋ˨˩˦ joʊ̯˧˥ ʂʐ̩˧˥ jɛ˨˩˦ paŋ˥ tɕiŋ˥ li Wait ʔfan˥ i˥˩ wen˧˥ tɕi̯an Wait ʔ/",
+      "phonetic_simple": "PHING-CHEI THING MANG DEU. OUO TCHOU-YAO FOU-DZEI TCHENG-LEE GOUO-OUAÏ DEU KHÉ-HOU DZEE-LIAO, YOW-CHEI YE BANG DJING-LEE FAN-EE OUEN-TCHIEN.",
+      "translation": "D'ordinaire, c'est assez intense. Je suis principalement chargé de classer les dossiers des clients étrangers, et parfois j'aide aussi le directeur à traduire des documents."
+    },
+    {
+      "speaker": "张明 (Zhang Ming)",
+      "text": "听起来能学到很多东西。那你每天的作息时间是怎么安排的？",
+      "phonetic_api": "/tʰiŋ˥ tɕʰi Wait ʔlaɪ̯˧˥ nəŋ˧˥ ɕy̯ɛ˧˥ daʊ̯˥˩ xən˨˩˦ dwɔ˥ tʊŋ˥ ɕi na ni meɪ̯˧˥ tʰi̯ɛn dɤ dzwɔ˥˩ ɕi Wait ʔʂʐ̩˧˥ tɕʰi̯ɛn˥ ʂʐ尊 tsən˨˩˦ mɤ an˥ pʰaɪ̯˥ dɤ/",
+      "phonetic_simple": "THING TCHEE-LAÏ NENG CHIOUÉ DAO HEUN DOUO GONG-DZEU. NA NEE MEI-THIEN DEU DZOUO-CHEE CHEI-THIEN CHEI DZEN-MEU AN-PHAÏ DEU ?",
+      "translation": "On dirait que tu as l'opportunité d'apprendre beaucoup de choses. Du coup, comment s'organisent tes horaires de journée type ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "我总是早上七点起床，吃过早饭就坐地铁去上班。九点准时到公司，下午五点半下班。",
+      "phonetic_api": "/wo tsʊŋ˨˩˦ ʂʐ̩˥˩ dzaʊ̯ Wait ʔʂaŋ qī ti̯ɛn˨˩˦ tɕʰi Wait ʔtʂʰwaŋ˧˥ tʂʰʐ̩˥ ɡwɔ dzaʊ̯ Wait ʔtsan tɕi̯oʊ̯˥˩ dzwɔ˥˩ di˥˩ tʰi̯ɛ˧˥ tɕy˥˩ ʂaŋ˥ pan˥ tɕi̯u˨˩˦ ti̯ɛn tʂwən˧˥ ʂʐ̩˧˥ daʊ̯˥˩ kʊŋ˥ sʐ̩˥ ɕi̯a˥˩ wu˨˩˦ ti̯ɛn ban˥˩ ɕi̯a˥ pan˥/",
+      "phonetic_simple": "OUO DZONG-CHEI ZAO-CHANG TCHEE TIEN TCHHI-TCHHANG, TCHEI GOUO ZAO-TSAN TCHIOU DZOUO DEE-THIÉ TCHY CHANG-BAN. TCHIOU TIEN TCHOUEN-CHEI DAO GONG-DZEU, CHIA-OU OU TIEN BAN CHIA-BAN.",
+      "translation": "Je me lève systématiquement à sept heures du matin, et après avoir pris mon petit-déjeuner, je prends le métro pour aller travailler. J'arrive à l'entreprise à neuf heures pile, et je finis ma journée à dix-sept heures trente."
+    },
+    {
+      "speaker": "张明 (Zhang Ming)",
+      "text": "那挺准时的，一般不用加班吧？",
+      "phonetic_api": "/na tʰiŋ˨˩˦ tʂwən˧˥ ʂʐ̩˧˥ dɤ i˥ pan˥ pu Wait ʔjʊŋ˥˩ tɕi̯a˥ pan˥ ba/",
+      "phonetic_simple": "NA THING TCHOUEN-CHEI DEU, EE-BAN BOU-YONG TCHIA-BAN BA ?",
+      "translation": "C'est plutôt régulier, tu n'as généralement pas besoin de faire des heures supplémentaires ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "大部分时间不用。不过偶尔特别忙的时候，我也得留下来加班一两个小时。",
+      "phonetic_api": "/da˥˩ pu˥˩ fən ʂʐ̩˧˥ tɕʰi̯ɛn pu Wait ʔjʊŋ˥˩ pu Wait ʔtsʰwɔ˥˩ gǒu ěr Wait ʔtʰi Wait ʔbi̯ɛ˧˥ maŋ˧˥ dɤ ʂʐ̩˧˥ xoʊ̯ wo jɛ˨˩˦ teɪ̯˨˩˦ ljoʊ̯˧˥ ɕi̯a  laɪ̯ tɕi̯a˥ pan˥ i˥ ɤr˥˩ kɤ ɕi̯aʊ̯˧˥ ʂʐ̩˧˥/",
+      "phonetic_simple": "DA-BOU-FHEN CHEI-THIEN BOU-YONG. BOU-TSOUO OUO-ER THIE-BIÉ MANG DEU CHEI-HOU, OUO YE DEI LIOU CHIA-LAÏ TCHIA-BAN EE ER GEU CHIAO-CHEI.",
+      "translation": "La plupart du temps non. Cependant, il arrive parfois que lorsque nous sommes particulièrement débordés, je doive rester pour faire une ou deux heures supplémentaires."
+    }
+  ],
+  "cultural_notes": [
+    "Dans le monde du travail en Chine, les rythmes peuvent être intenses, illustrés par le phénomène tristement célèbre du '996' (9h-21h, 6 jours sur 7) dans les grandes entreprises technologiques. Toutefois, pour les stagiaires internationaux ou dans le secteur administratif classique, les horaires standard restent proches du '955' (9h-17h30, 5 jours sur 7), comme décrit par David.",
+    "Le terme '专业' (zhuānyè) revêt une importance capitale lors des entretiens d'embauche ou des présentations en Chine. Les recruteurs évaluent de très près l'adéquation exacte entre la spécialité universitaire d'un candidat et les missions opérationnelles qui lui sont confiées.",
+    "La pause déjeuner dans les entreprises chinoises s'accompagne d'une tradition solidement ancrée : la sieste de midi (午休 wǔxiū). Entre 12h et 13h30, il est tout à fait normal de voir les employés éteindre les lumières des bureaux pour dormir sur leur fauteuil ou sur un petit matelas pliable."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la phrase qui exprime correctement deux actions simultanées au travail : 'Il rédige le rapport tout en passant un appel client.'",
+      "options": [
+        "他一边写报告，一边给客户打电话 (Tā yībiān xiě bàogào, yībiān gěi kèhù dǎ diànhuà)",
+        "他总是写报告和给客户打电话 (Tā zǒngshì xiě bàogào hé gěi kèhù dǎ diànhuà)",
+        "他写报告不如给客户打电话 (Tā xiě bàogào bùrú gěi kèhù dǎ diànhuà)"
+      ],
+      "correct_answer": "他一边写报告，一边给客户打电话 (Tā yībiān xiě bàogào, yībiān gěi kèhù dǎ diànhuà)",
+      "explanation": "La structure '一边...一边...' est indispensable pour indiquer que deux actions verbales se déroulent au même moment. La conjonction '和' ne peut pas relier deux propositions verbales de cette manière."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "关于这个新项目，目前主要由我来 [ ___ ] 责跟进。",
+      "correct_answer": "负",
+      "hint": "Caractère manquant pour former le verbe signifiant 'être responsable de' ou 'assumer la charge de'."
+    }
+  ]
+}

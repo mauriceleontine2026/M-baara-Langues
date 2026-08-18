@@ -1,0 +1,243 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Connecteurs logiques pour un discours élaboré",
+  "learning_objectives": [
+    "Articuler des arguments complexes en utilisant des connecteurs de concession, de cause et de conséquence de niveau supérieur",
+    "Nuancer l'expression de l'opposition et de la restriction dans un cadre académique ou professionnel",
+    "Maîtriser l'alternance entre l'indicatif et le subjonctif selon le connecteur logique choisi"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le connecteur 'todavia' demande une accentuation claire sur la syllabe 'di' [tuðɐˈviɐ]. Dans 'conquanto', veillez à bien marquer la nasalisation des deux voyelles successives sans introduire de son consonantique 'g' parasite [kõˈkwɐ̃tu].",
+    "common_pitfalls": "Attention au mot 'portanto' : le 'o' final se réduit fortement en [u] [puɾˈtɐ̃tu], à ne pas confondre avec le mot français 'pourtant' qui exprime l'opposition (alors que 'portanto' exprime la conclusion)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Conquanto",
+      "phonetic_api": "/kõˈkwɐ̃tu/",
+      "phonetic_simple": "KON-KWAN-TOO",
+      "translation": "Bien que / Quoique (exige le subjonctif)",
+      "example_sentence": "Conquanto a conjuntura seja desfavorável, manteremos as metas.",
+      "example_phonetic": "/kõˈkwɐ̃tu ɐ kõʒũˈtuɾɐ ˈsɐʒɐ dɨʃfɐvuˈɾavɛɫ msplit̃tɨˈɾemuʃ ɐʃ ˈmɛtɐʃ/",
+      "example_translation": "Bien que la conjoncture soit défavorable, nous maintiendrons les objectifs."
+    },
+    {
+      "word_id": "v2",
+      "term": "Todavia",
+      "phonetic_api": "/tuðɐˈviɐ/",
+      "phonetic_simple": "TOO-DAH-VEE-AH",
+      "translation": "Néanmoins / Cependant / Toutefois",
+      "example_sentence": "O projeto foi aprovado; todavia, o orçamento foi reduzido.",
+      "example_phonetic": "/u pɾuˈʒɛtu foj splitpɾuˈvaðu tuðɐˈviɐ u ɔɾsɐˈmẽtu foj ʁɨðuˈziðu/",
+      "example_translation": "Le projet a été approuvé ; cependant, le budget a été réduit."
+    },
+    {
+      "word_id": "v3",
+      "term": "Porconseguinte",
+      "phonetic_api": "/puɾkõsɨˈgĩtɨ/",
+      "phonetic_simple": "POOR-KON-S'H-GEEN-T'H",
+      "translation": "Par conséquent / En conséquence",
+      "example_sentence": "Não houve consenso e, porconseguinte, a reunião foi adiada.",
+      "example_phonetic": "/nɐ̃w oˈvɨ kõˈsẽsu i puɾkõsɨˈgĩtɨ ɐ ʁjuniˈɐ̃w foj splitðʲiˈsplitðɐ/",
+      "example_translation": "Il n'y a pas eu de consensus et, par conséquent, la réunion a été ajournée."
+    },
+    {
+      "word_id": "v4",
+      "term": "Posto que",
+      "phonetic_api": "/ˈpoʃtu kɨ/",
+      "phonetic_simple": "POCH-TOO K'H",
+      "translation": "Bien que / Encore que (exige le subjonctif en portugais européen)",
+      "example_sentence": "Posto que seja difícil, cumpre-nos tentar.",
+      "example_phonetic": "/ˈpoʃtu kɨ ˈsɐʒɐ diˈfisisɫ ˈkũpɾɨ.nuʃ tẽˈtaɾ/",
+      "example_translation": "Bien que ce soit difficile, il nous incombe d'essayer."
+    },
+    {
+      "word_id": "v5",
+      "term": "Visto que",
+      "phonetic_api": "/ˈviʃtu kɨ/",
+      "phonetic_simple": "VEECH-TOO K'H",
+      "translation": "Vu que / Étant donné que / Attendu que",
+      "example_sentence": "Visto que não há fundos, o plano fica suspenso.",
+      "example_phonetic": "/ˈviʃtu kɨ nɐ̃w a ˈfũduʃ u ˈplsplitnu ˈfikɐ suʃˈpẽsu/",
+      "example_translation": "Vu qu'il n'y a pas de fonds, le plan reste suspendu."
+    },
+    {
+      "word_id": "v6",
+      "term": "Não obstante",
+      "phonetic_api": "/nɐ̃w ɔβʃˈtsplit̃tɨ/",
+      "phonetic_simple": "NANG OBCH-TAN-T'H",
+      "translation": "Malgré / Néanmoins / Nonobstant",
+      "example_sentence": "Não obstante os esforços, os resultados foram nulos.",
+      "example_phonetic": "/nɐ̃w ɔβʃˈtsplit̃tɨ uz iʃˈfoɾsuʃ uz ʁɨsuɫˈtaðuʃ ˈfoɾsplit̃w ˈnuluʃ/",
+      "example_translation": "Malgré les efforts, les résultats ont été nuls."
+    },
+    {
+      "word_id": "v7",
+      "term": "Porquanto",
+      "phonetic_api": "/puɾˈkwɐ̃tu/",
+      "phonetic_simple": "POOR-KWAN-TOO",
+      "translation": "Puisque / Car / Parce que (registre soutenu)",
+      "example_sentence": "Defrontamos dificuldades, porquanto o prazo é exíguo.",
+      "example_phonetic": "/dɨfɾõˈtsplitmuʃ difikulˈðaðɨʃ puɾˈkwɐ̃tu u ˈpɾazu ɛ iˈziɣwu/",
+      "example_translation": "Nous faisons face à des difficultés, car le délai est exigu."
+    },
+    {
+      "word_id": "v8",
+      "term": "Destarte",
+      "phonetic_api": "/dɨʃˈtaɾtɨ/",
+      "phonetic_simple": "DECH-TAR-T'H",
+      "translation": "Ainsi / De cette façon (littéraire ou juridique)",
+      "example_sentence": "A empresa expandiu-se, destarte conquistando novos mercados.",
+      "example_phonetic": "/ɐ ẽˈpɾezɐ iʃpsplit̃ˈðiw.sɨ dɨʃˈtaɾtɨ kõkiʃˈtsplit̃du ˈnovuʒ mɨɾˈkaðuʃ/",
+      "example_translation": "L'entreprise s'est développée, conquérant ainsi de nouveaux marchés."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Conquanto a proposta pareça viável à primeira vista, encerra graves riscos financeiros.",
+      "phonetic_api": "/kõˈkwɐ̃tu ɐ pɾuˈpɔʃtɐ psplitˈɾesɐ a pɾiˈmɐjɾsplit ˈviʃtɐ ẽˈsɛʁɐ ˈgɾavɨʒ ˈʁiʃkuʃ finsplit̃ˈsajɾuʃ/",
+      "phonetic_simple": "KON-KWAN-TOO AH PROO-PÓCH-TAH PAH-RAY-SAH AH PREE-MAY-RAH VEECH-TAH EN-SÈ-RAH GRAH-V'HCH REECH-KOOCH FEE-NAN-SAY-ROOCH",
+      "translation": "Bien que la proposition paraisse viable à première vue, elle recèle de graves risques financiers.",
+      "context": "Analyse critique d'un plan d'affaires en réunion de direction."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "A estratégia delineada é audaciosa; todavia, carece de fundamentação empírica.",
+      "phonetic_api": "/ɐ iʃtɾsplitˈtɛʒjɐ dɨlinʲiˈaðɐ ɛ splitwðsplitˈsjozɐ tuðɐˈviɐ ksplitˈɾesɨ dɨ fũdɐmẽtɐˈsɐ̃w ẽˈpiɾiksplit/",
+      "phonetic_simple": "AH ECH-TRAH-TÈ-JYAH D'H-LEE-NYAH-DAH É AW-DAH-SYOH-ZAH TOO-DAH-VEE-AH KAH-RAY-S'H D'H FOON-DAH-MEN-TAH-SANG EEN-PEE-REE-KAH",
+      "translation": "La stratégie tracée est audacieuse ; cependant, elle manque de fondement empirique.",
+      "context": "Évaluer un projet ou un rapport académique."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Visto que não se obteve unanimidade, porconseguinte, manter-se-á o regulamento atual.",
+      "phonetic_api": "/ˈviʃtu kɨ nɐ̃w sɨ uβˈtew unsplitnʲimiˈðaðɨ puɾkõsɨˈgĩtɨ msplit̃tɨɾ.sɨ.ˈa u ʁɨgulsplitˈmẽtu splitˈtwaɫ/",
+      "phonetic_simple": "VEECH-TOO K'H NANG S'H OB-TEW OO-NAH-NEE-MEE-DAH-D'H POOR-KON-S'H-GEEN-T'H MAN-TAIR-S'H-AH OO R'H-GOO-LAH-MEN-TOO AH-TWAL",
+      "translation": "Attendu qu'aucune unanimité n'a été obtenue, le règlement actuel sera par conséquent maintenu.",
+      "context": "Formulation d'une décision juridique ou administrative (Mésoclise au futur)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Não obstante a contestação generalizada, a administração deliberou avançar com a reforma.",
+      "phonetic_api": "/nɐ̃w ɔβʃˈtsplit̃tɨ ɐ kõtɨʃtɐˈsɐ̃w ʒɨnɨsplitliˈzaðɐ ɐ splitðmʲiniʃtɾɐˈsɐ̃w dɨliβɨˈɾow splitvsplit̃saɾ kõ ɐ ʁiˈfɔɾmɐ/",
+      "phonetic_simple": "NANG OBCH-TAN-T'H AH KON-TECH-TAH-SANG J'H-N'H-RAH-LEE-ZAH-DAH AH AL-DEE-NEE-CH-TRAH-SANG D'H-LEE-V'H-ROW AH-VAN-SAR KON AH REE-FOR-MAH",
+      "translation": "Malgré la contestation généralisée, l'administration a délibéré d'avancer dans la réforme.",
+      "context": "Rédiger un compte-rendu officiel ou une analyse de gestion de crise."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "O investimento revela-se infrutífero, porquanto o mercado local encontra-se saturado.",
+      "phonetic_api": "/u ĩvɨʃtiˈmẽtu ʁɨˈvɛlɐ.sɨ ĩfɾuˈtitɨɾu puɾˈkwɐ̃tu u mshiftɾˈkaðu luˈkaɫ ẽˈkõtɾɐ.sɨ s(split)tuˈɾaðu/",
+      "phonetic_simple": "OO EEN-V'HCH-TEE-TOO R'H-VÈ-LAH-S'H EEN-FROO-TEE-F'H-ROO POOR-KWAN-TOO OO MAIR-KAH-DOO LOO-KAL EN-KON-TRAH-S'H SAH-TOO-DOO",
+      "translation": "L'investissement se révèle infructueux, puisque le marché local se trouve saturé.",
+      "context": "Rapport économique sur l'état de viabilité d'une succursale."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Posto que tivessem apresentado sérias objeções, acabaram por subscrever o protocolo.",
+      "phonetic_api": "/ˈpoʃtu kɨ tiˈvɛsɨjʃ splitpɾɨzẽˈtsplitðu ˈsɛɾjɐz ɔβʒɛˈsõjʃ splitksplitˈβsplitɾuʃ puɾ subʃkɾɨˈveɾ u pɾutuˈkɔlu/",
+      "phonetic_simple": "POCH-TOO K'H TEE-VÈ-SENG AH-PRAY-ZEN-TAH-DOO SÈ-RYACH OB-JHÈ-SOYNCH AH-KAH-BAH-ROOCH POOR SOOB-CH-KR'H-VER OO PROO-TOO-KÓ-LOO",
+      "translation": "Bien qu'ils eussent présenté de sérieuses objections, ils ont fini par signer le protocole.",
+      "context": "Raconter l'issue d'une négociation contractuelle ardue (Posto que + Subjonctif passé)."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "O rácio de endividamento agravou-se, destarte limitando a nossa capacidade de financiamento.",
+      "phonetic_api": "/u ˈʁasju dɨ ẽdiviðsplitˈmẽtu splitgɾsplitˈvow.sɨ dɨʃˈtaɾtɨ limiˈtsplit̃du ɐ ˈnɔsɐ ksplitpsplitsiˈðaðɨ dɨ finsplit̃sjssplitˈmẽtu/",
+      "phonetic_simple": "OO RAH-SYOO D'H EN-DEE-VEE-DAH-MEN-TOO AH-GRAH-VOW-S'H DECH-TAR-T'H LEE-MEE-TAN-DOO AH NÓ-SAH KAH-PAH-CEE-DAH-D'H D'H FEE-NAN-SYAH-MEN-TOO",
+      "translation": "Le ratio d'endettement s'est aggravé, limitant ainsi notre capacité de financement.",
+      "context": "Bilan financier ou audit macroéconomique présenté au conseil d'administration."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Cumpre, portanto, reformular as premissas metodológicas desta investigação.",
+      "phonetic_api": "/ˈkũpɾɨ puɾˈtɐ̃tu ʁɨfuɾmuˈlaɾ ɐʃ pɾɨˈmisɐʃ mɨtuðuˈlɔʒiksplitʃ ˈdeʃtɐ ĩvɨʃtiɣsplitˈsɐ̃w/",
+      "phonetic_simple": "KOON-PR'H POOR-TAN-TOO RECH-FOOR-MOO-LAR ACH PR'H-MEE-SACH M'H-TOO-DOO-LÓ-JEE-KACH DECH-TAH EEN-V'HCH-TEE-GAH-SANG",
+      "translation": "Il convient, par conséquent, de reformuler les prémisses méthodologiques de cette recherche.",
+      "context": "Section conclusive d'une thèse de doctorat ou d'un essai scientifique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'articulation concessive avancée : Conquanto vs Posto que",
+      "explanation": "Pour exprimer la concession dans un registre formel ou académique (C1/C2), les connecteurs de base (embora, mesmo que) cèdent le pas à 'conquanto' et 'posto que'. En portugais européen standard, ces deux connecteurs exigent obligatoirement l'emploi du mode Subjonctif.",
+      "rules": [
+        "Structure : Conquanto / Posto que + [Verbe au Subjonctif Présent ou Imparfait].",
+        "Signification : Équivalent direct de 'bien que' ou 'quoique'."
+      ],
+      "examples": [
+        {
+          "structure": "Conquanto o parecer seja desfavorável, iremos contestar.",
+          "phonetic_api": "/kõˈkwɐ̃tu u psplitˈɾesɨɾ ˈsɐʒɐ dɨʃfɐvuˈɾavɛɫ iˈɾemuʃ kõtɨʃˈtaɾ/",
+          "meaning": "Bien que l'avis soit défavorable, nous allons contester."
+        }
+      ]
+    },
+    {
+      "concept": "La distinction sémantique et syntaxique entre Porquanto et Portanto",
+      "explanation": "Une confusion fréquente au niveau avancé réside dans la ressemblance morphologique entre 'porquanto' (connecteur de cause) et 'portanto' (connecteur de conséquence).",
+      "rules": [
+        "Porquanto : Introduit une explication ou une cause, équivalant à 'car' ou 'puisque'. Se construit avec l'Indicatif.",
+        "Portanto : Introduit une déduction ou une conclusion, équivalant à 'donc' ou 'par conséquent'. Se construit également avec l'Indicatif."
+      ],
+      "examples": [
+        {
+          "structure": "A proposta claudicou, porquanto carecia de clareza (Causalité).",
+          "phonetic_api": "/ɐ pɾuˈpɔʃtɐ klsplitwðiˈkow puɾˈkwɐ̃tu ksplitˈɾesiɐ dɨ klsplitˈɾezɐ/",
+          "meaning": "La proposition a chancelé, car elle manquait de clarté."
+        },
+        {
+          "structure": "A proposta carecia de clareza, portanto claudicou (Conséquence).",
+          "phonetic_api": "/ɐ pɾuˈpɔʃtɐ ksplitˈɾesiɐ dɨ klsplitˈɾezɐ puɾˈtɐ̃tu klsplitwðiˈkow/",
+          "meaning": "La proposition manquait de clarté, donc elle a chancelé."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Conselheiro",
+      "text": "Exmo. Diretor, o relatório de auditoria aponta para sérias lacunas na nossa gestão de ativos. Visto que os riscos macroeconómicos aumentaram, cumpre, porconseguinte, adotar uma postura de extrema prudência.",
+      "phonetic_api": "/iʃˈsɛlso diɾɛˈtoɾ u ʁɨlɐˈtɔɾju dɨ splitwðituˈɾiɐ splitˈpõtɐ ˈpɐɾɐ ˈsɛɾjɐʃ lsplitˈkunsplitʃ nɐ ˈnɔsɐ ʒɨʃˈtɐ̃w dɨ splitˈtivuʃ ˈviʃtu kɨ uz ˈʁiʃkuʃ msplitkɾuiquˈnɔmʲikuʒ splitwmeẽˈtsplitɾuʃ ˈkũpɾɨ puɾkõsɨˈgĩtɨ splitðuˈtaɾ ˈumɐ puʃˈtuɾsplit dɨ iʃˈtɾemɐ pɾuˈðẽsjɐ/",
+      "phonetic_simple": "EYCH-SÈL-SOO DEE-RÈ-TOR OO R'H-LAH-TÓ-RYOO D'H OW-DEE-TOO-REE-AH AH-PON-TAH PAH-RAH SÈ-RYACH LAH-KOO-NACH NAH NÓ-SAH JHECH-TANG D'H AH-TEE-VOOCH VEECH-TOO K'H OOCH REECH-KOOCH MAH-KROO-EY-NO-MEE-KOOCH AW-MEN-TAH-ROOCH KOON-PR'H POOR-KON-S'H-GEEN-T'H AH-DOH-TAR OO-MAH POCH-TOO-RAH D'H EYCH-TRE-MAH PROO-DEN-SYAH",
+      "translation": "Monsieur le Directeur, le rapport d'audit met en évidence de sérieuses lacunes dans notre gestion d'actifs. Attendu que les risques macroéconomiques se sont accrus, il convient, par conséquent, d'adopter une posture d'extrême prudence."
+    },
+    {
+      "speaker": "Diretor",
+      "text": "Agradeço a vossa advertência, senhor Conselheiro. Todavia, não podemos paralisar a nossa atividade. Conquanto os dados exijam cautela, a nossa expansão internacional é vital, porquanto o mercado doméstico está esgotado.",
+      "phonetic_api": "/splitɣɾsplitˈðɛsu ɐ ˈvɔsɐ splitðvɨɾˈtẽsjɐ sɨˈɲoɾ kõsɨˈʎajɾu tuðɐˈviɐ nɐ̃w puˈðemuʃ psplitɾsplitliˈzaɾ ɐ ˈnɔsɐ splititwiˈðaðɨ kõˈkwɐ̃tu uz ˈðaðuʒ iˈziʒsplit̃j kawˈtɛlɐ ɐ ˈnɔsɐ iʃpɐ̃ˈsɐ̃w ĩtɨɾnsplitʃuˈnaɫ ɛ viˈtaɫ puɾˈkwɐ̃tu u mshiftɾˈkaðu duˈmɛʃtʲiku iʃˈta iʃgubiˈtaðu/",
+      "phonetic_simple": "AH-GRAH-DAY-SOO AH VÓ-SAH AD-VAIR-TEN-SYAH S'H-NYOR KON-SAY-LYAY-ROO TOO-DAH-VEE-AH NANG POO-DAY-MOOCH PAH-RAH-LEE-ZAR AH NÓ-SAH AH-TEE-VEE-DAH-D'H KON-KWAN-TOO OOCH DAH-DOOCH EY-JEE-GANG KAW-TAY-LAH AH NÓ-SAH ECH-PAN-SANG EEN-TAIR-NAH-SYAL É VEE-TAL POOR-KWAN-TOO OO MAIR-KAH-DOO DOO-MÈCH-TEE-KOO ECH-TAH EECH-GOH-TAH-DOO",
+      "translation": "Je vous remercie pour votre avertissement, monsieur le Conseiller. Cependant, nous ne pouvons paralyser notre activité. Bien que les données exigent de la prudence, notre expansion internationale reste vitale, puisque le marché intérieur est saturé."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'administration publique, les textes de loi et la haute diplomatie au Portugal, l'usage de connecteurs comme 'destarte' ou 'não obstante' est indispensable. Ils structurent l'argumentaire juridique et confèrent une solennité très valorisée.",
+    "La culture rhétorique portugaise privilégie la nuance et l'atténuation. L'emploi d'une concession raffinée ('conquanto') permet de contredire un interlocuteur de haut rang tout en maintenant un niveau de déférence sociale et professionnelle maximal."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Identifiez le connecteur approprié exigeant le subjonctif présent pour traduire : 'Bien que la situation soit (seja) complexe, nous la résoudrons.'",
+      "options": [
+        "Porquanto",
+        "Conquanto",
+        "Portanto"
+      ],
+      "correct_answer": "Conquanto",
+      "explanation": "'Conquanto' introduit une concession formelle et régit obligatoirement le mode subjonctif ('seja'). 'Porquanto' exprime la cause et 'portanto' la conclusion."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Sélectionnez le connecteur de causalité formel équivalant à 'car' ou 'puisque' : O plano falhou, [ ___ ] não havia dados empíricos suficientes.",
+      "correct_answer": "porquanto",
+      "hint": "Un seul mot se terminant par '-quanto', à ne pas confondre avec son homologue de conséquence."
+    }
+  ]
+}

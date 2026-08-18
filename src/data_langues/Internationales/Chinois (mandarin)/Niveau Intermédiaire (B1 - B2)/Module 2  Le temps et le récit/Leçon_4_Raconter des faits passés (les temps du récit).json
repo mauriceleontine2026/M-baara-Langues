@@ -1,0 +1,233 @@
+{
+  "lesson_id": "B1_M2_L4",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 4,
+  "title": "Raconter des faits passés (les temps du récit) en chinois mandarin",
+  "learning_objectives": [
+    "Maîtriser la particule d'aspect 过 (guò) pour exprimer une expérience vécue dans le passé",
+    "Utiliser la structure emphatique 是...的 (shì... de) pour focaliser sur les détails d'un événement passé (quand, où, comment)",
+    "Différencier l'usage de la particule d'accomplissement 了 (le) et de la particule d'expérience 过 (guò)",
+    "Articuler un récit chronologique fluide en utilisant des connecteurs temporels intermédiaires"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon repose sur des particules grammaticales cruciales dont la prononciation doit être brève et légère. La particule 过 (guò) se prononce au ton neutre lorsqu'elle sert de suffixe d'aspect, perdant son 4ème ton d'origine. La structure 是...的 (shì... de) associe un 4ème ton descendant sur 是 à un ton neutre très court sur 的. Le mot 以前 (yǐqián - avant) demande un 3ème ton bas descendant (yǐ) suivi d'un 2ème ton montant (qián) avec une finale nasale antérieure bien articulée.",
+    "common_pitfalls": "La principale difficulté phonétique consiste à ne pas accentuer les particules d'aspect (了 et 过). Si vous appuyez trop sur ces sons, la phrase perd sa musicalité naturelle et son équilibre syntaxique. Entraînez-vous à les lier rapidement au verbe qui les précède."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "曾经",
+      "phonetic_api": "/tsʰəŋ˧˥ tɕiŋ˥/",
+      "phonetic_simple": "TSHENG-TCHIN",
+      "translation": "Autrefois / Déjà (par le passé)",
+      "example_sentence": "我曾经去过一次北京。",
+      "example_phonetic": "/wo˨˩˦ tsʰəŋ˧˥ tɕiŋ˥ tɕy˥˩ ɡwɔ i˥ tsʰʐ̩˥˩ beɪ̯˨˩˦ tɕiŋ˥/",
+      "example_translation": "Je suis déjà allé une fois à Pékin par le passé."
+    },
+    {
+      "word_id": "v2",
+      "term": "以前",
+      "phonetic_api": "/i˨˩˦ tɕʰi̯ɛn˧˥/",
+      "phonetic_simple": "EE-TCHIEN",
+      "translation": "Avant / Auparavant / Jadis",
+      "example_sentence": "他以前是一家银行的经理。",
+      "example_phonetic": "/tʰa˥ i˨˩˦ tɕʰi̯ɛn˧˥ ʂʐ̩˥˩ i˥ dɕi̯a˥ iŋ˧˥ xaŋ˧˥ dɤ tɕiŋ˥ li Wait ʔi˨˩˦/",
+      "example_translation": "Il était directeur d'une banque auparavant."
+    },
+    {
+      "word_id": "v3",
+      "term": "后来",
+      "phonetic_api": "/xaʊ̯˥˩ laɪ̯˧˥/",
+      "phonetic_simple": "HAO-LAÏ",
+      "translation": "Par la suite / Plus tard (dans un récit au passé)",
+      "example_sentence": "我们失去了联系，后来才见面的。",
+      "example_phonetic": "/wo˨˩˦ mən ɕi Wait ʔi˥˩ tɕy˥˩ lɤ li̯ɛn˧˥ ɕi˥˩ xaʊ̯˥˩ laɪ̯˧˥ tsʰaɪ̯˧˥ tɕi̯ɛn˥˩ mi̯an dɤ/",
+      "example_translation": "Nous nous étions perdus de vue, ce n'est que plus tard que nous nous sommes revus."
+    },
+    {
+      "word_id": "v4",
+      "term": "过去",
+      "phonetic_api": "/kwaʊ̯˥˩ tɕy˥˩/",
+      "phonetic_simple": "GOUA-TCHOU",
+      "translation": "Le passé / Dans le temps",
+      "example_sentence": "过去的生活跟现在大不相同。",
+      "example_phonetic": "/kwaʊ̯˥˩ tɕy˥˩ dɤ ʂəŋ˥ xwɔ˧˥ kən˥ ɕi̯ɛn˥˩ dzaɪ̯˥˩ da˥˩ bu i˥ tʂʰʊŋ/",
+      "example_translation": "La vie dans le passé était grandement différente de celle d'aujourd'hui."
+    },
+    {
+      "word_id": "v5",
+      "term": "经历",
+      "phonetic_api": "/tɕiŋ˥ li˥˩/",
+      "phonetic_simple": "DJING-LEE",
+      "translation": "Expérience (vécue) / Traverser / Subir",
+      "example_sentence": "这次经历让我学到了很多东西。",
+      "example_phonetic": "/tʂɤ˥˩ tsʰʐ̩˥˩ tɕiŋ˥ li˥˩ ʐaŋ˥˩ wo˨˩˦ ɕɥ̯ɛ˧˥ daʊ̯˥˩ lɤ xən˨˩˦ dwɔ˥ tʊŋ˥ ɕi/",
+      "example_translation": "Cette expérience m'a permis d'apprendre beaucoup de choses."
+    },
+    {
+      "word_id": "v6",
+      "term": "突然",
+      "phonetic_api": "/tʰu˧˥ ʐan˧˥/",
+      "phonetic_simple": "THOU-RAN",
+      "translation": "Soudainement / Tout à coup",
+      "example_sentence": "天空突然下起了大雨。",
+      "example_phonetic": "/tʰi̯ɛn˥ kʊŋ˥ tʰu˧˥ ʐan˧˥ ɕi̯a˥˩ tɕi Wait ʔi˨˩˦ lɤ da˥˩ jy˨˩˦/",
+      "example_translation": "Le ciel s'est soudainement mis à pleuvoir à verse."
+    },
+    {
+      "word_id": "v7",
+      "term": "当时",
+      "phonetic_api": "/taŋ˥ ʂʐ̩˧˥/",
+      "phonetic_simple": "TANG-CHEI",
+      "translation": "À ce moment-là / À l'époque",
+      "example_sentence": "我当时并不知道 inter 这个消息。",
+      "example_phonetic": "/wo˨˩˦ taŋ˥ ʂʐ̩˧˥ biŋ˥˩ bu tʂʐ̩˥ daʊ̯ tʂɤ˥˩ kɤ ɕiao˥ ɕi/",
+      "example_translation": "À ce moment-là, je n'étais absolument pas au courant de cette nouvelle."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "你吃过中餐吗？我以前吃过一次。",
+      "phonetic_api": "/ni˨˩˦ tʂʰʐ̩˥ ɡwɔ tʂʊŋ˥ tsan˥ ma wo˨˩˦ i˨˩˦ tɕʰi̯ɛn˧˥ tʂʰʐ̩˥ ɡwɔ i˥ tsʰʐ̩˥˩/",
+      "phonetic_simple": "NEE TCHEI GOUO TCHONG-TSAN MA ? OUO EE-TCHIEN TCHEI GOUO EE TSÉ",
+      "translation": "As-tu déjà mangé de la cuisine chinoise ? J'en ai mangé une fois auparavant.",
+      "context": "Interroger quelqu'un sur ses expériences passées"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "我是去年九月搬到上海来的。",
+      "phonetic_api": "/wo˨˩˦ ʂʐ尊˥˩ tɕɥ̯ Wait ʔi˥˩ ni̯ɛn˧˥ tɕi̯u˨˩˦ ɥ̯ɛ˥˩ ban˥ daʊ̯˥˩ ʂaŋ˨˩˦ xaɪ̯˨˩˦ laɪ̯ dɤ/",
+      "phonetic_simple": "OUO CHEI TCHIOUÉ-NIEN TCHIOU YOUÉ BAN DAO CHANG-HAÏ LAÏ DEU",
+      "translation": "C'est l'année dernière, en septembre, que je me suis installé à Shanghai.",
+      "context": "Préciser les circonstances exactes d'un événement passé connu"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "这件事发生在一个星期前。",
+      "phonetic_api": "/tʂɤ˥˩ kɤ 铺 ʂʐ̩˥˩ fa˥ ʂəŋ˥ dzaɪ̯˥˩ i˥ kɤ ɕiŋ˥ tɕʰi˥ tɕʰi̯ɛn˧˥/",
+      "phonetic_simple": "TCHEU GEU CHEI FA-CHENG DZAÏ EE GEU CHING-TCHEE TCHIEN",
+      "translation": "Cette affaire s'est produite il y a une semaine.",
+      "context": "Situer une action dans le temps au cours d'un récit"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "一开始他不同意，后来被我说服了。",
+      "phonetic_api": "/i˥ kʰaɪ̯˥ ʂʐ̩˨˩˦ tʰa˥ bu tʰʊŋ˧˥ i˥˩ xaʊ̯˥˩ laɪ̯˧˥ beɪ̯˥˩ wo ʂwɔ˥ fʊ lɤ/",
+      "phonetic_simple": "EE-KHAÏ-CHEI THA BOU THONG-EE, HAO-LAÏ BEI OUO CHOUO-FOU LEU",
+      "translation": "Au début il n'était pas d'accord, par la suite j'ai réussi à le convaincre.",
+      "context": "Développer les étapes successives d'une anecdote"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La particule d'aspect de l'expérience vécue : 过 (guò)",
+      "explanation": "La particule 过 se place immédiatement après le verbe pour indiquer qu'une action a été effectuée au moins une fois dans le passé, constituant une expérience. L'action est totalement terminée et n'a plus de lien direct avec le présent.",
+      "rules": [
+        "Structure affirmative : [Sujet] + [Verbe] + 过 (guò) + [Objet].",
+        "Structure négative : [Sujet] + 没有 (méiyǒu) + [Verbe] + 过 (guò). (Ne jamais utiliser 不 avec 过).",
+        "Différence avec 了 : 了 marque l'accomplissement d'une action ponctuelle, tandis que 过 insiste sur l'idée d'expérience ('avoir déjà fait dans sa vie')."
+      ],
+      "examples": [
+        {
+          "structure": "我 (Je) + 看 (Voir) + 过 (Déjà) + 这部电影 (Ce film)",
+          "phonetic_api": "/wo˨˩˦ kʰan˥˩ ɡwɔ tʂɤ˥˩ bu˥˩ ti̯ɛn˥˩ iŋ˨˩˦/",
+          "meaning": "我看过这部电影。 (J'ai déjà vu ce film [je connais l'histoire])."
+        },
+        {
+          "structure": "我 (Je) + 没有 (Ne pas avoir) + 学 (Apprendre) + 过 (Déjà) + 日语 (Le japonais)",
+          "phonetic_api": "/wo˨˩˦ meɪ̯˧˥ joʊ̯˨˩˦ ɕɥ̯ɛ˧˥ ɡwɔ ʐʐ̩˥˩ jy˨˩˦/",
+          "meaning": "我没有学过日语。 (Je n'ai jamais appris le japonais de ma vie.)"
+        }
+      ]
+    },
+    {
+      "concept": "La structure de focalisation sur le passé : 是...的 (shì... de)",
+      "explanation": "Lorsque l'on parle d'un événement qui s'est définitivement produit dans le passé (connu du locuteur et de l'auditeur), on utilise la structure 是...的 pour mettre en valeur un détail précis : le moment, le lieu, la manière ou l'auteur de l'action.",
+      "rules": [
+        "Structure : [Sujet] + 是 (shì) + [Élément mis en relief : Temps/Lieu/Manière] + [Verbe] + 的 (de).",
+        "À l'oral affirmatif, le 是 (shì) est fréquemment omis, mais le 的 (de) final reste absolument obligatoire.",
+        "Forme négative : On place 不是 (búshì) devant l'élément focalisé."
+      ],
+      "examples": [
+        {
+          "structure": "我们 (Nous) + 是 (C'est) + 在北京 (à Pékin) + 认识 (Faire connaissance) + 的",
+          "phonetic_api": "/wo˨˩˦ mən ʂʐ尊˥˩ dzaɪ̯˥˩ beɪ̯˨˩˦ tɕiŋ˥ ʐən chime dɤ/",
+          "meaning": "我们是在北京认识的。 (C'est à Pékin que nous avons fait connaissance [Focalisation sur le lieu])."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "李华 (Li Hua)",
+      "text": "大卫，我听说你以前在西安住过，是真的吗？",
+      "phonetic_api": "/da˥˩ weɪ̯˥˩ wo tʰiŋ˥ ʂwɔ ni i˨˩˦ tɕʰi̯ɛn˧˥ dzaɪ̯˥˩ ɕi˥ an˥ tʂu˥˩ ɡwɔ ʂʐ尊˥˩ tʂən˥ dɤ ma/",
+      "phonetic_simple": "DA-OUEI, OUO THING-CHOUOU NEE EE-TCHIEN DZAÏ CHEE-AN TCHOU GOUO, CHEI TCHEN DEU MA ?",
+      "translation": "David, j'ai entendu dire que tu avais habité à Xi'an auparavant, c'est vrai ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "对，我曾经在那里留学过半年。那是一段非常难忘的经历。",
+      "phonetic_api": "/twei̯˥˩ wo tsʰəŋ˧˥ tɕiŋ˥ dzaɪ̯˥˩ na Wait ʔi˨˩˦ li ljoʊ̯˧˥ ɕɥ̯ɛ˧˥ ɡwɔ ban˥˩ ni̯ɛn˧˥ na ʂʐ尊˥˩ i˥ twan˥˩ feɪ̯˥ tʂʰaŋ˧˥ nan˧˥ waŋ˥˩ dɤ tɕiŋ˥ li˥˩/",
+      "phonetic_simple": "DOUEI, OUO TSHENG-TCHIN DZAÏ NA-LEE LIOU-CHIOUÉ GOUO BAN NIEN. NA CHEI EE DOUAN FEU-TCHHANG NAN-OUANG DEU DJING-LEE.",
+      "translation": "Oui, j'y ai fait des études pendant six mois. C'était une expérience vraiment inoubliable."
+    },
+    {
+      "speaker": "李华 (Li Hua)",
+      "text": "你是哪一年去的？是一个人去的吗？",
+      "phonetic_api": "/ni ʂʐ尊˥˩ na˨˩˦ i˥ ni̯ɛn˧˥ tɕy˥˩ dɤ ʂʐ尊˥˩ i˥ kɤ ʐən˧˥ tɕy˥˩ dɤ ma/",
+      "phonetic_simple": "NEE CHEI NA EE NIEN TCHY DEU ? CHEI EE GEU JEN TCHY DEU MA ?",
+      "translation": "En quelle année y es-tu allé ? Tu y es allé tout seul ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "我是二零二四年去的。我跟两个法国同学一起去的，我们当时坐的是高铁。",
+      "phonetic_api": "/wo ʂʐ尊˥˩ ɤr˥˩ liŋ˧˥ ɤr˥˩ sʐ̩˥˩ ni̯ɛn˧˥ tɕy˥˩ dɤ wo kən˥ li̯aŋ˨˩˦ kɤ fa˨˩˦ kwo˧˥ tʰʊŋ˧˥ ɕy̯ɛ˧˥ i˥ tɕʰi˨˩˦ tɕy˥˩ dɤ wo˨˩˦ mən taŋ˥ ʂʐ̩˧˥ dzwɔ˥˩ dɤ ʂʐ尊˥˩ kaʊ̯˥ tʰi̯ɛn˥ dɤ/",
+      "phonetic_simple": "OUO CHEI ER LING ER SEU NIEN TCHY DEU. OUO GEN LIANG GEU FA-GOUO THONG-CHIOUÉ EE-TCHEE TCHY DEU, OUO-MEN TANG-CHEI DZOUO DEU CHEI GAO-THIEN.",
+      "translation": "Y j'y suis allé en 2024. J'y suis allé avec deux camarades français, et à l'époque, c'est le TGV (train à grande vitesse) que nous avons pris."
+    },
+    {
+      "speaker": "李华 (Li Hua)",
+      "text": "后来你又回过西安吗？",
+      "phonetic_api": "/xaʊ̯˥˩ laɪ̯˧˥ ni i̯oʊ̯˥˩ xwei̯˧˥ ɡwɔ ɕi˥ an˥ ma/",
+      "phonetic_simple": "HAO-LAÏ NEE YOUO HOUAY GOUO CHEE-AN MA ?",
+      "translation": "Est-ce que tu es retourné à Xi'an par la suite ?"
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "没有，后来工作太忙了，就一直没机会再去。不过我很想念那里的羊肉泡馍。",
+      "phonetic_api": "/meɪ̯˧˥ joʊ̯˨˩˦ xaʊ̯˥˩ laɪ̯˧˥ kʊŋ˥ dzwɔ˥˩ tʰaɪ̯˥˩ maŋ˧˥ lɤ tɕi̯oʊ̯˥˩ i˥ tʂʐ̩˧˥ meɪ̯˧˥ dɕi Wait ʔi˥˩ xwei̯ tsaɪ̯˥˩ tɕy˥˩ bu tswu˥˩ wo xən ɕi̯an˥˩ ni̯an˥˩ na Wait ʔi˨˩˦ li dɤ jaŋ˧˥ ʐoʊ̯˥˩ pʰaʊ̯˥ mɔ˧˥/",
+      "phonetic_simple": "MEI-YOW, HAO-LAÏ GONG-DZOUO THAÏ MANG LEU, TCHIOU EE-TCHEI MEI JEE-HOUAY TSAÏ TCHY. BOU-TSOUO OUO HEUN CHIEN-NIEN NA-LEE DEU YANG-ROU PHAO-MO.",
+      "translation": "Non, par la suite j'ai été trop débordé par le travail, je n'ai donc plus eu l'occasion d'y retourner. Mais la soupe de mouton aux morceaux de pain de là-bas me manque beaucoup."
+    }
+  ],
+  "cultural_notes": [
+    "Xi'an (西安), ancienne Chang'an, est l'une des capitales historiques les plus prestigieuses de Chine. C'est le point de départ de l'ancienne Route de la Soie et le site de la célèbre armée de terre cuite. La ville possède une culture culinaire unique influencée par la communauté Hui (musulmane chinoise), dont le plat emblématique est le Yangrou Paomo (羊肉泡馍), évoqué par David.",
+    "La particule 曾经 (céngjīng) s'associe presque systématiquement à 过 (guò) à l'échelle intermédiaire. Cet adverbe renforce l'aspect temporel historique et s'emploie principalement pour introduire des anecdotes lointaines ou marquantes de la vie.",
+    "L'usage de 是...的 est le test ultime pour évaluer le passage du niveau débutant au niveau intermédiaire. Les francophones oublient fréquemment d'utiliser cette tournure lorsqu'ils racontent comment s'est passé leur voyage, revenant par erreur à un usage abusif de 了."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Identifiez la phrase correcte traduisant l'affirmation focalisée : 'C'est en avion que nous sommes arrivés hier.'",
+      "options": [
+        "我们昨天是坐飞机来的 (Wǒmen zuótiān shì zuò fēijī lái de)",
+        "我们昨天坐飞机来了 (Wǒmen zuótiān zuò fēijī lái le)",
+        "我们是昨天坐飞机来 (Wǒmen shì zuótiān zuò fēijī lái)"
+      ],
+      "correct_answer": "开我们昨天是坐飞机来的 (Wǒmen zuótiān shì zuò fēijī lái de)",
+      "explanation": "L'événement étant ancré dans le passé (昨天), l'utilisation de la structure 是...的 est requise pour cibler le moyen de transport (坐飞机). Le verbe directionnel '来' se place devant la particule finale '的'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "你以前没学 [ ___ ] 中文，怎么说得这么好？",
+      "correct_answer": "过",
+      "hint": "Particule d'aspect expérienciel indispensable pour indiquer qu'on n'a jamais effectué une action par le passé."
+    }
+  ]
+}

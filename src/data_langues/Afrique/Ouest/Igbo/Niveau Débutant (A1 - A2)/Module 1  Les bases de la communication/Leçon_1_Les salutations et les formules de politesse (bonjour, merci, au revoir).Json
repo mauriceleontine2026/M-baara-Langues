@@ -1,0 +1,276 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Maîtriser les salutations rituelles selon la temporalité de la journée en igbo standard",
+    "Employer correctement les formules de déférence, de gratitude et de compassion",
+    "Différencier l'usage des pronoms de politesse et les structures honorifiques de base"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'igbo dispose d'une harmonie vocalique stricte divisée en deux groupes : les voyelles tendues/légères (A, E, O, U) et les voyelles lâches/lourdes (Ị, Ọ, Ụ, I). Le point souscrit (dot) modifie radicalement le timbre de la voyelle. Les tons (Haut, Bas, Descendant) sont distinctifs : par exemple, 'ákwá' (ton haut-haut) signifie pleurs, 'àkwà' (bas-bas) signifie lit, et 'ákwà' (haut-bas) signifie vêtement.",
+    "common_pitfalls": "Le plus grand piège réside dans l'articulation des digrammes co-articulés : 'gb' [ɓ] et 'kp' [p̄]. Ce ne sont pas des successions de deux lettres, mais des consonnes injectives ou éjectives produites en fermant simultanément les lèvres et la glotte. Évitez de détacher le 'n' initial dans 'Ndewo' ; il s'agit d'une consonne syllabique nasale qui porte son propre ton."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1_1",
+      "term": "Ndewo",
+      "phonetic_api": "/ndèwó/",
+      "phonetic_simple": "N-DEH-WOH",
+      "translation": "Bonjour / Salutations (général)",
+      "example_sentence": "Ndewo nu, ndị m mụrụ.",
+      "example_phonetic": "/ndèwó nʊ́ ndɪ̀ m mʊ̀ɾʊ́/",
+      "example_translation": "Bonjour à vous, mon peuple (salutation collective respectueuse)."
+    },
+    {
+      "word_id": "v1_2",
+      "term": "Ụtụtụ ọma",
+      "phonetic_api": "/ʊ̀tʊ́tʊ́ ɔ̀mā/",
+      "phonetic_simple": "OU-TOU-TOU OH-MA",
+      "translation": "Bonne matinée / Bonjour",
+      "example_sentence": "Ụtụtụ ọma, nne m ọma.",
+      "example_phonetic": "/ʊ̀tʊ́tʊ́ ɔ̀mā nnē m ɔ̀mā/",
+      "example_translation": "Bonjour, ma bonne mère."
+    },
+    {
+      "word_id": "v1_3",
+      "term": "Ehihie ọma",
+      "phonetic_api": "/èfífíé ɔ̀mā/",
+      "phonetic_simple": "EH-HEE-HEE OH-MA",
+      "translation": "Bon après-midi",
+      "example_sentence": "Ehihie ọma, onye nkuzi m.",
+      "example_phonetic": "/èfífíé ɔ̀mā òɲé ŋ́kūzí m/",
+      "example_translation": "Bon après-midi, mon enseignant."
+    },
+    {
+      "word_id": "v1_4",
+      "term": "Anyasị ọma",
+      "phonetic_api": "/àɲasɪ̀ ɔ̀mā/",
+      "phonetic_simple": "AH-NYAH-SEE OH-MA",
+      "translation": "Bonsoir / Bonne soirée",
+      "example_sentence": "Anyasị ọma, nna m ochie.",
+      "example_phonetic": "/àɲasɪ̀ ɔ̀mā nnā m ótʃíé/",
+      "example_translation": "Bonsoir, mon grand-père."
+    },
+    {
+      "word_id": "v1_5",
+      "term": "Imela",
+      "phonetic_api": "/ímélá/",
+      "phonetic_simple": "EE-MEH-LAH",
+      "translation": "Merci / Tu as bien agi",
+      "example_sentence": "Imela maka enyemaka gị.",
+      "example_phonetic": "/ímélá máká éɲémáká ɟɪ́/",
+      "example_translation": "Merci pour ton aide."
+    },
+    {
+      "word_id": "v1_6",
+      "term": "Biko",
+      "phonetic_api": "/bíkó/",
+      "phonetic_simple": "BEE-KOH",
+      "translation": "S'il vous plaît / S'il te plaît",
+      "example_sentence": "Biko, gbaghara m.",
+      "example_phonetic": "/bíkó ɡ͡bàɣàɾá m/",
+      "example_translation": "S'il te plaît, pardonne-moi."
+    },
+    {
+      "word_id": "v1_7",
+      "term": "Dalụ",
+      "phonetic_api": "/dāːlʊ́/",
+      "phonetic_simple": "DAAH-LOU",
+      "translation": "Merci / Bravo (expression de gratitude)",
+      "example_sentence": "Dalụ maka ọrụ siri ike.",
+      "example_phonetic": "/dāːlʊ́ máká ɔ̀ɾʊ́ sīɾí īké/",
+      "example_translation": "Merci pour le travail difficile."
+    },
+    {
+      "word_id": "v1_8",
+      "term": "Nnọọ",
+      "phonetic_api": "/nnɔ́ɔ́/",
+      "phonetic_simple": "N-NOH-OH",
+      "translation": "Bienvenue",
+      "example_sentence": "Nnọọ na be anyị.",
+      "example_phonetic": "/nnɔ́ɔ́ ná bé āɲɪ́/",
+      "example_translation": "Bienvenue dans notre maison."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1_1",
+      "original": "Kedu ka ị mere?",
+      "phonetic_api": "/kèdú ká ị̀ méré/",
+      "phonetic_simple": "KEH-DOU KAH EE MEH-REH",
+      "translation": "Comment vas-tu ?",
+      "context": "Salutation standard interpersonnelle, s'utilise au quotidien."
+    },
+    {
+      "phrase_id": "p1_2",
+      "original": "A dị m mma, imela.",
+      "phonetic_api": "/ā dɪ̀ m mmā ímélá/",
+      "phonetic_simple": "AH DEE M MMA EE-MEH-LAH",
+      "translation": "Je vais bien, merci.",
+      "context": "Réponse la plus commune et polie à une question sur la santé."
+    },
+    {
+      "phrase_id": "p1_3",
+      "original": "Kedu ka ihe si gaba?",
+      "phonetic_api": "/kèdú ká ìfê sī ɡábá/",
+      "phonetic_simple": "KEH-DOU KAH EE-FEH SEE GAH-BAH",
+      "translation": "Comment évoluent les choses ?",
+      "context": "Salutation informelle pour s'enquérir de la situation générale de la vie ou des affaires."
+    },
+    {
+      "phrase_id": "p1_4",
+      "original": "Ihe niile na-aga nke ọma.",
+      "phonetic_api": "/ìfê nîːlé nāːɡá ŋkè ɔ̀mā/",
+      "phonetic_simple": "EE-FEH NEE-LEH NAH-AH-GAH N-KEH OH-MA",
+      "translation": "Tout se passe très bien.",
+      "context": "Réponse positive et dynamique."
+    },
+    {
+      "phrase_id": "p1_5",
+      "original": "Ka ọ dịva.",
+      "phonetic_api": "/ká ɔ̀ dɪ̀vâ/",
+      "phonetic_simple": "KAH OH DEE-VAH",
+      "translation": "Au revoir et que cela reste ainsi.",
+      "context": "Formule de congé courante lorsqu'on se sépare pour un court instant."
+    },
+    {
+      "phrase_id": "p1_6",
+      "original": "Ka chi bọọ.",
+      "phonetic_api": "/ká tʃí bɔ́ɔ́/",
+      "phonetic_simple": "KAH CHEE BOH-OH",
+      "translation": "Que le jour se lève (Bonne nuit).",
+      "context": "Formule rituelle pour souhaiter une bonne nuit avant le coucher."
+    },
+    {
+      "phrase_id": "p1_7",
+      "original": "Ndo, nwayo.",
+      "phonetic_api": "/ndó nwájō/",
+      "phonetic_simple": "N-DOH NWAH-YOH",
+      "translation": "Désolé, doucement / Du courage.",
+      "context": "Formule de réconfort immédiat lorsque quelqu'un trébuche, éternue ou subit un contretemps."
+    },
+    {
+      "phrase_id": "p1_8",
+      "original": "Gaba nke ọma.",
+      "phonetic_api": "/ɡábá ŋkè ɔ̀mā/",
+      "phonetic_simple": "GAH-BAH N-KEH OH-MA",
+      "translation": "Marche bien / Bon voyage.",
+      "context": "Adresse honorifique et bienveillante faite à celui qui prend la route."
+    },
+    {
+      "phrase_id": "p1_9",
+      "original": "Ezinụlọ gị kwanụ?",
+      "phonetic_api": "/ézìnʊ́lɔ̀ ɟɪ́ kwánʊ̄/",
+      "phonetic_simple": "EH-ZEE-NOU-LOH GEE KWAH-NOU",
+      "translation": "Et ta famille, comment va-t-elle ?",
+      "context": "Marque de politesse indispensable pour montrer de l'intérêt envers l'entourage de l'interlocuteur."
+    },
+    {
+      "phrase_id": "p1_10",
+      "original": "Ha dị mma, dalụ.",
+      "phonetic_api": "/ɦā dɪ̀ mmā dāːlʊ́/",
+      "phonetic_simple": "HAH DEE MMA DAAH-LOU",
+      "translation": "Ils vont bien, merci.",
+      "context": "Réponse collective concernant la santé des proches."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le marqueur interrogatif global 'Kedu'",
+      "explanation": "En igbo, 'Kedu' est un mot interrogatif porteur qui synthétise l'idée de 'Comment' ou 'Quelle est l'identité/état de'. Il s'associe presque systématiquement à la conjonction 'ka' (que) pour introduire une proposition subordonnée nominale ou verbale.",
+      "rules": [
+        "'Kedu ka' exige que le sujet grammatical se place immédiatement après le morphème 'ka'.",
+        "Si le sujet est un pronom personnel singulier comme 'ị' (tu), il subit souvent une modification de ton selon le verbe qui suit."
+      ],
+      "examples": [
+        {
+          "structure": "Kedu + ka + [Sujet] + [Verbe]",
+          "phonetic_api": "/kèdú ká ūnù mèmè/",
+          "meaning": "Kedu ka unu mere? (Comment allez-vous ? - Pluriel)"
+        }
+      ]
+    },
+    {
+      "concept": "La suffixation honorifique et pluralisante '-nụ'",
+      "explanation": "Le suffixe clitique '-nụ' s'attache aux formes verbales ou aux salutations nominales stables pour marquer le pluriel de politesse ou exprimer un profond respect envers un aîné ou un groupe.",
+      "rules": [
+        "S'ajoute à la fin de 'Ndewo' pour donner 'Ndewo nụ'.",
+        "Donne une coloration d'inclusivité et de déférence culturelle non négociable en milieu traditionnel."
+      ],
+      "examples": [
+        {
+          "structure": "Salutation + nụ",
+          "phonetic_api": "/ndèwó nʊ́/",
+          "meaning": "Ndewo nụ! (Je vous salue tous / Je vous salue, respectueux aîné)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Chinedu (Jeune homme)",
+      "text": "Ụtụtụ ọma, Maazị Okeke. Kedu ka ị mere taa?",
+      "phonetic_api": "/ʊ̀tʊ́tʊ́ ɔ̀mā māːzɪ̀ ókèké kèdú ká ị̀ méré tāː/",
+      "phonetic_simple": "OU-TOU-TOU OH-MA MAAH-ZEE OH-KEH-KEH KEH-DOU KAH EE MEH-REH TAAH",
+      "translation": "Bonjour, Monsieur Okeke. Comment allez-vous aujourd'hui ?"
+    },
+    {
+      "speaker": "Maazị Okeke (Ancien)",
+      "text": "Ndewo, Chinedu ọma. A dị m mma, ahụ dịkwa m ツール. Gịwanụ?",
+      "phonetic_api": "/ndèwó tʃínédú ɔ̀mā ā dɪ̀ m mmā áɦʊ́ dɪ̀kwá m tʃáː ɟǐwānʊ̄/",
+      "phonetic_simple": "N-DEH-WOH CHEE-NEH-DOU OH-MA AH DEE M MMA AH-HOU DEE-KWAH M CHAAH GEE-WAH-NOU",
+      "translation": "Bonjour, bon Chinedu. Je vais bien, mon corps est vigoureux. Et toi-même ?"
+    },
+    {
+      "speaker": "Chinedu (Jeune homme)",
+      "text": "Ihe niile na-aga nke ọma, Maazị. Ezinụlọ gị kwanụ?",
+      "phonetic_api": "/ìfê nîːlé nāːɡá ŋkè ɔ̀mā māːzɪ̀ ézinʊ́lɔ̀ ɟɪ́ kwánʊ̄/",
+      "phonetic_simple": "EE-FEH NEE-LEH NAH-AH-GAH N-KEH OH-MA MAAH-ZEE EH-ZEE-NOU-LOH GEE KWAH-NOU",
+      "translation": "Tout se passe à merveille, Monsieur. Comment se porte votre famille ?"
+    },
+    {
+      "speaker": "Maazị Okeke (Ancien)",
+      "text": "Ha dị mma, ha na-ekele. Dalụ, nwa m. Gaba nke ọma.",
+      "phonetic_api": "/ɦā dɪ̀ mmā ɦā néːkèlé dāːlʊ́ nwá m ɡábá ŋkè ɔ̀mā/",
+      "phonetic_simple": "HAH DEE MMA HAH NAH-EH-KEH-LEH DAAH-LOU NWAH M GAH-BAH N-KEH OH-MA",
+      "translation": "Ils vont bien, ils te saluent. Merci, mon enfant. Marche bien."
+    },
+    {
+      "speaker": "Chinedu (Jeune homme)",
+      "text": "Ka ọ dịva, Maazị. Chi bọọ.",
+      "phonetic_api": "/ká ɔ̀ dɪ̀vâ māːzɪ̀ tʃí bɔ́ɔ́/",
+      "phonetic_simple": "KAH OH DEE-VAH MAAH-ZEE CHEE BOH-OH",
+      "translation": "Au revoir, Monsieur. Que le jour se lève."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'espace socio-culturel Igbo, ignorer une salutation ou saluer de manière hâtive sans s'enquérir de la santé physique et de la famille est assimilé à une rupture caractérisée du pacte social ('Mmadụ bọ nwanne mmadụ' - l'homme est le frère de l'homme).",
+    "Le terme 'Maazị' est l'équivalent honorifique rigoureux de 'Monsieur'. On l'attribue aux hommes ayant acquis un statut de respectabilité au sein de la communauté.",
+    "L'usage de l'idéophone 'Cháá' dans 'Ahụ dị m cháá' exprime un état de pureté, de clarté et de santé éclatante sans aucune faille."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1_1",
+      "type": "multiple_choice",
+      "question": "Quel suffixe devez-vous ajouter à 'Ndewo' pour saluer respectueusement un groupe d'anciens ?",
+      "options": [
+        "Ndewo gị",
+        "Ndewo nụ",
+        "Ndewo mma"
+      ],
+      "correct_answer": "Ndewo nụ",
+      "explanation": "Le suffixe '-nụ' marque l'inclusivité, le pluriel ou la déférence formelle en igbo."
+    },
+    {
+      "exercise_id": "ex1_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Kedu ka ihe [ ___ ] gaba na be gị?",
+      "correct_answer": "si",
+      "hint": "Le verbe ou la particule de modalité indiquant la manière dont une action s'est déroulée."
+    }
+  ]
+}

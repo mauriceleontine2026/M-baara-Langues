@@ -1,0 +1,133 @@
+{
+  "lesson_id": "B1_M2_L5",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 5,
+  "title": "Parler de ses projets futurs et de ses ambitions",
+  "learning_objectives": [
+    "Exprimer une intention, un souhait ou une action future en toma",
+    "Employer les auxiliaires ou les particules de l'inaccompli prédictif"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'expression du futur s'accompagne d'une tension articulatoire sur la particule pré-verbale /wa/ ou /va/, impliquant une ouverture nette de la voyelle /a/.",
+    "common_pitfalls": "Veillez à ne pas confondre le 'va' de mouvement (venir) avec le marqueur grammatical 'va' servant de particule de futur."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v14_1",
+      "term": "wogaza-wɛñ",
+      "phonetic_api": "/wo.ɡa.za.wɛ̃/",
+      "phonetic_simple": "WO-GA-ZA-WEN",
+      "translation": "le futur / l'avenir",
+      "example_sentence": "Wogaza-wɛñ vaza ɓaa.",
+      "example_phonetic": "/wo.ɡa.za.wɛ̃ va.za ɓaː/",
+      "example_translation": "L'avenir est prometteur."
+    },
+    {
+      "word_id": "v14_2",
+      "term": "va li",
+      "phonetic_api": "/va li/",
+      "phonetic_simple": "VA LI",
+      "translation": "va partir / ira",
+      "example_sentence": "Na va li taa zu.",
+      "example_phonetic": "/na va li taː zu/",
+      "example_translation": "J'irai en ville."
+    },
+    {
+      "word_id": "v14_3",
+      "term": "kize-gwi",
+      "phonetic_api": "/ki.zɛ.ɡwi/",
+      "phonetic_simple": "KI-ZE-GWI",
+      "translation": "l'année prochaine",
+      "example_sentence": "Kize-gwi na va pɛlɛ lɔ.",
+      "example_phonetic": "/ki.zɛ.ɡwi na va pɛ.lɛ lɔ/",
+      "example_translation": "L'année prochaine, je construirai une maison."
+    },
+    {
+      "word_id": "v14_4",
+      "term": "lo-zu",
+      "phonetic_api": "/lo.zu/",
+      "phonetic_simple": "LO-ZOU",
+      "translation": "espoir / ambition / plan",
+      "example_sentence": "Na lo-zu lɔ i ma.",
+      "example_phonetic": "/na lo.zu lɔ i ma/",
+      "example_translation": "Mon ambition repose sur toi."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p14_1",
+      "original": "Mizɛ ɓɛ i va kɛ wogaza?",
+      "phonetic_api": "/mi.zɛ ɓɛ i va kɛ wo.ɡa.za/",
+      "phonetic_simple": "MI-ZE BE I VA KE WO-GA-ZA",
+      "translation": "Que feras-tu demain ?",
+      "context": "Question directe portant sur le planning futur ou l'intention immédiate."
+    },
+    {
+      "phrase_id": "p14_2",
+      "original": "Na va mɔlɔ lapatɛ sañ wogaza.",
+      "phonetic_api": "/na va mɔ.lɔ la.pa.tɛ sã wo.ɡa.za/",
+      "phonetic_simple": "NA VA MO-LO LA-PA-TE SAN WO-GA-ZA",
+      "translation": "J'achèterai une grande quantité de riz demain.",
+      "context": "Planification d'achat affirmée."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le marqueur prospectif / futur 'va'",
+      "explanation": "Le futur ne se traduit pas par une conjugaison interne du verbe, mais par l'insertion de l'auxiliaire 'va' entre le pronom sujet et le radical verbal invariable.",
+      "rules": [
+        "Structure standard : Sujet + va + Verbe d'action.",
+        "Pour la négation du futur, 'va' est remplacé par une forme négative combinée spécifique."
+      ],
+      "examples": [
+        {
+          "structure": "na va mɛ (je vais manger)",
+          "phonetic_api": "/na va mɛ/",
+          "meaning": "je mangerai"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Massa",
+      "text": "I va li Giriwaza ma kize-gwi?",
+      "phonetic_api": "/i va li ɡi.ri.wa.za ma ki.zɛ.ɡwi/",
+      "phonetic_simple": "I VA LI GI-RI-WA-ZA MA KI-ZE-GWI",
+      "translation": "Iras-tu à Macenta l'année prochaine ?"
+    },
+    {
+      "speaker": "Peewee",
+      "text": "Owo, na va li, na va na hêmɛ ɓɛpɛ.",
+      "phonetic_api": "/o.wo na va li na va na hɛ̂ː.mɛ ɓɛ.pɛ/",
+      "phonetic_simple": "O-WO NA VA LI NA VA NA HEE-ME BE-PE",
+      "translation": "Oui, j'irai et je verrai ma famille."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'esprit linguistique toma, projeter l'avenir s'accompagne systématiquement d'un profond respect pour l'inconnu, sous-entendant souvent que le succès des projets dépend de l'harmonie avec les anciens et le divin."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex14_1",
+      "type": "multiple_choice",
+      "question": "Quel mot s'intercale pour indiquer une action au futur ?",
+      "options": [
+        "na",
+        "va",
+        "zu"
+      ],
+      "correct_answer": "va",
+      "explanation": "'va' sert d'auxiliaire pré-verbal pour projeter l'action dans l'avenir."
+    },
+    {
+      "exercise_id": "ex14_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Na va mɔlɔ [ ___ ] wogaza (Je mangerai du riz demain).",
+      "correct_answer": "mɛ",
+      "hint": "Le verbe manger à sa forme radicale invariable."
+    }
+  ]
+}

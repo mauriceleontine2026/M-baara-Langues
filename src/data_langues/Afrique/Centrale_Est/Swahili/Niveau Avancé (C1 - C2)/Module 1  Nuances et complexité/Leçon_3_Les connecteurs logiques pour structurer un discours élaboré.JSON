@@ -1,0 +1,260 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Connecteurs logiques pour un discours élaboré",
+  "learning_objectives": [
+    "Articuler une argumentation complexe en utilisant des connecteurs logiques de concession et d'opposition du registre soutenu",
+    "Structurer des rapports ou des plaidoiries formalisés à l'aide de marqueurs de cause, de conséquence et de restriction avancés",
+    "Maîtriser l'intégration syntaxique des locutions conjonctives d'origine arabe gouvernant l'indicatif ou le subjonctif",
+    "Nuancer l'expression de la transition et de la conclusion dans un débat d'idées ou une tribune officielle"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'usage des connecteurs de haut niveau exige une élocution fluide pour lier les propositions. Le terme 'Hata hivyo' (néanmoins) demande une expiration nette du 'H' initial et une accentuation sur l'avant-dernière syllabe de chaque mot [ˈha.ta ˈhi.vjɔ]. Dans 'Ili mradi' (du moment que), veillez à détacher subtilement les deux composants syntaxiques. La consonne fricative pharyngale ou vélaire dans 'Madhalani' doit être articulée avec légèreté [ma.ðaˈla.ni].",
+    "common_pitfalls": "Ne confondez pas la prononciation du connecteur de concession 'Ingawa' [iˈŋga.wa] avec d'autres structures. Le groupe consonantique '-ng-' doit être prononcé comme une occlusive nasale vélaire sonore, sans détacher le 'n' du 'g'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Hata hivyo",
+      "phonetic_api": "/ˈha.ta ˈhi.vjɔ/",
+      "phonetic_simple": "HAH-TAH HEE-VYOH",
+      "translation": "Néanmoins / Toutefois / Cependant",
+      "example_sentence": "Utafiti una mapungufu; hata hivyo, matokeo yake ni ya kimapinduzi.",
+      "example_phonetic": "/u.taˈfi.ti ˈu.na ma.puˈngu.fu ˈha.ta ˈhi.vjɔ ma.tɔˈkɛ.ɔ ˈja.kɛ ni ja ki.ma.piˈndu.zi/",
+      "example_translation": "La recherche comporte des lacunes ; néanmoins, ses conclusions s'avèrent révolutionnaires."
+    },
+    {
+      "word_id": "v2",
+      "term": "Ingawa",
+      "phonetic_api": "/iˈŋga.wa/",
+      "phonetic_simple": "EEN-GAH-WAH",
+      "translation": "Bien que / Quoique / Quand bien même",
+      "example_sentence": "Ingawa bajeti ni ndogo, tutatekeleza mradi huu kikamilifu.",
+      "example_phonetic": "/iˈŋga.wa ˈba.dʒɛ.ti ni ˈndɔ.gɔ tu.ta.tɛ.kɛˈlɛ.za mˈra.di ˈhu.u ki.ka.miˈli.fu/",
+      "example_translation": "Bien que l'enveloppe budgétaire soit restreinte, nous exécuterons ce projet dans son intégralité."
+    },
+    {
+      "word_id": "v3",
+      "term": "Madhalani",
+      "phonetic_api": "/ma.ðaˈla.ni/",
+      "phonetic_simple": "MAH-ZHAH-LAH-NEE",
+      "translation": "Par exemple / À titre d'illustration / Notamment",
+      "example_sentence": "Tunaweza kuchukua, madhalani, mfano wa sekta ya nishati.",
+      "example_phonetic": "/tu.naˈwɛ.zi kuˈtʃu.ku.a ma.ðaˈla.ni mˈfa.nɔ wa ˈsɛ.kta ja niˈʃa.ti/",
+      "example_translation": "Nous pouvons retenir, à titre d'illustration, l'exemple du secteur énergétique."
+    },
+    {
+      "word_id": "v4",
+      "term": "Ili mradi",
+      "phonetic_api": "/ˈi.li mˈra.di/",
+      "phonetic_simple": "EE-LEE MRAH-DEE",
+      "translation": "Pourvu que / Du moment que / À la condition expresse que",
+      "example_sentence": "Tutakaribisha wawekezaji, ili mradi waheshimu sheria za nchi.",
+      "example_phonetic": "/tu.ta.ka.riˈbi.ʃa wa.wɛ.kɛˈza.dʒi ˈi.li mˈra.di wa.hɛˈʃi.mu ʃɛˈri.a za n-tʃi/",
+      "example_translation": "Nous accueillerons les investisseurs, à la condition expresse qu'ils observent les lois de la République."
+    },
+    {
+      "word_id": "v5",
+      "term": "Kwa ajili hiyo",
+      "phonetic_api": "/kwa aˈdʒi.li ˈhi.jɔ/",
+      "phonetic_simple": "KWAH AH-DJEE-LEE HEE-YOH",
+      "translation": "C'est la raison pour laquelle / Dès lors / Par conséquent",
+      "example_sentence": "Mazungumzo yamekwama, na kwa ajili hiyo tunatafuta msuluhishi.",
+      "example_phonetic": "/ma.zu.ŋguˈmzɔ ja.mɛˈkwa.ma na kwa aˈdʒi.li ˈhi.jɔ tu.na.taˈfu.ta m.su.luˈhi.ʃi/",
+      "example_translation": "Les négociations ont achoppé, et c'est la raison pour laquelle nous requérons un médiateur."
+    },
+    {
+      "word_id": "v6",
+      "term": "Isitoshe",
+      "phonetic_api": "/i.siˈtɔ.ʃɛ/",
+      "phonetic_simple": "EE-SEE-TOH-SHEH",
+      "translation": "De surcroît / En outre / Qui plus est",
+      "example_sentence": "Uamuzi huu una haraka; isitoshe, hauna mbadala wa kisheria.",
+      "example_phonetic": "/u.aˈmu.zi ˈhu.u ˈu.na haˈra.ka i.siˈtɔ.ʃɛ haˈu.na mbaˈda.la wa ki.ʃɛˈri.a/",
+      "example_translation": "Cette résolution revêt un caractère d'urgence ; de surcroît, elle ne présente aucune alternative juridique."
+    },
+    {
+      "word_id": "v7",
+      "term": "Kinyume chake",
+      "phonetic_api": "/kiˈɲu.mɛ ˈtʃa.kɛ/",
+      "phonetic_simple": "KEE-NYOO-MEH CHAH-KEH",
+      "translation": "À l'inverse / Au contraire / A contrario",
+      "example_sentence": "Hukuharibu uchumi; kinyume chake, uliimarisha mifumo yetu.",
+      "example_phonetic": "/hu.ku.haˈri.bu uˈtʃu.mi kiˈɲu.mɛ ˈtʃa.kɛ u.li.i.maˈri.ʃa miˈfu.mɔ ˈjɛ.tu/",
+      "example_translation": "Vous n'avez point déstabilisé l'économie ; au contraire, vous avez consolidé nos structures."
+    },
+    {
+      "word_id": "v8",
+      "term": "Kwa ufupi",
+      "phonetic_api": "/kwa uˈfu.pi/",
+      "phonetic_simple": "KWAH OO-FOO-PEE",
+      "translation": "En somme / En résumé / En substance",
+      "example_sentence": "Kwa ufupi, mkataba huu unalinda maslahi ya pande zote.",
+      "example_phonetic": "/kwa uˈfu.pi m.kaˈta.ba ˈhu.u u.naˈli.nda maˈsla.hi ya ˈpa.ndɛ ˈzɔ.tɛ/",
+      "example_translation": "En substance, ce traité sanctuarise les intérêts légitimes de l'ensemble des parties."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Ingawa ripoti hii inaonyesha ukuaji, hata hivyo tunapaswa kuwa waangalifu.",
+      "phonetic_api": "/iˈŋga.wa riˈpɔ.ti ˈhi.i i.na.ɔˈɲɛ.ʃa u.kuˈa.dʒi ˈha.ta ˈhi.vjɔ tu.naˈpa.swa ˈku.wa wa.a.ŋgaˈli.fu/",
+      "phonetic_simple": "EEN-GAH-WAH REE-POH-TEE HEE-YEE EE-NAH-OHN-YEH-SHAH OO-KOO-AH-DJEE HAH-TAH HEE-VYOH TOO-NAH-PAH-SWAH KOO-WAH WAH-AHNG-GAH-LEE-FOO",
+      "translation": "Bien que ce compte-rendu mette en évidence une croissance, il nous incombe néanmoins de faire preuve de prudence.",
+      "context": "Analyse conjoncturelle lors d'un conseil d'administration ou d'un comité d'experts."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Isitoshe, makinikia yaliyokusanywa yanadhihirisha makosa yaliyofanyika.",
+      "phonetic_api": "/i.siˈtɔ.ʃɛ ma.ki.niˈki.a ja.li.jɔ.kuˈsa.ɲwa ja.na.ði.hiˈri.ʃa maˈkɔ.sa ja.li.jɔ.faˈɲi.ka/",
+      "phonetic_simple": "EE-SEE-TOH-SHEH MAH-KEE-NEE-KEE-AH YAH-LEE-YOH-KOO-SAH-NYWA YAH-NAH-ZEE-HEE-REE-SHAH MAH-KOH-SAH YAH-LEE-YOH-FAH-NYEE-KAH",
+      "translation": "En outre, les données brutes collectées corroborent indubitablement les manquements commis.",
+      "context": "Plaidoyer ou réquisitoire technique fondé sur des pièces à conviction."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Kinyume chake, hatua zilizochukuliwa zimeleta tija kubwa kitaifa.",
+      "phonetic_api": "/kiˈɲu.mɛ ˈtʃa.kɛ haˈtu.a zi.li.zɔ.tʃu.kuˈli.wa zi.mɛˈlɛ.ta ˈti.dʒa ˈku.bwa ki.taˈi.fa/",
+      "phonetic_simple": "KEE-NYOO-MEH CHAH-KEH HAH-TOO-AH ZEE-LEE-ZOH-CHOO-KOO-LEE-WA ZEE-MEH-LEH-TA TEE-DJA KOO-BWA KEE-TAH-EE-FA",
+      "translation": "A contrario, les dispositions arrêtées ont généré une efficience majeure à l'échelle nationale.",
+      "context": "Réfutation d'un argument adverse lors d'une tribune politique."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Meneja alisisitiza kuahirisha vikao, na kwa ajili hiyo mradi ukachelewa.",
+      "phonetic_api": "/ˈmɛ.nɛ.dʒa a.li.si.siˈti.za ku.a.hiˈri.ʃa viˈka.ɔ na kwa aˈdʒi.li ˈhi.jɔ mˈra.di u.ka.tʃɛˈlɛ.wa/",
+      "phonetic_simple": "MEH-NEH-DJAH AH-LEE-SEE-SEE-TEE-ZAH KOO-AH-HEE-REE-SHAH VEE-KAH-OH NAH KWAH AH-DJEE-LEE HEE-YOH MRAH-DEE OO-KAH-CHEH-LEH-WA",
+      "translation": "Le gestionnaire a exigé l'ajournement des sessions, dès lors la mise en œuvre du projet s'est vu différée.",
+      "context": "Explication causale dans un rapport d'audit administratif."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Tunaweza kuleta mabadiliko ya kimuundo, madhalani kwa kuimarisha taasisi.",
+      "phonetic_api": "/tu.naˈwɛ.zi kuˈlɛ.ta ma.ba.diˈli.kɔ ja ki.muˈndɔ ma.ðaˈla.ni kwa ku.i.maˈri.ʃa ta.aˈsi.si/",
+      "phonetic_simple": "TOO-NAH-WEH-ZEE KOO-LEH-TA MAH-BAH-DEE-LEE-KOH YAH KEE-MOON-DOH MAH-ZHAH-LAH-NEE KWAH KOO-EE-MAH-REE-SHAH TAH-AH-SEE-SEE",
+      "translation": "Nous sommes en mesure d'impulser des réformes structurelles, notamment en consolidant nos institutions.",
+      "context": "Formulation de recommendations dans un essai de politique publique."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Mkataba huu utadumu, ili mradi kila upande utekeleze wajibu wake.",
+      "phonetic_api": "/m.kaˈta.ba ˈhu.u u.taˈdu.mu ˈi.li mˈra.di ˈki.la uˈpa.ndɛ u.tɛ.kɛˈlɛ.zɛ waˈdʒi.bu ˈwa.kɛ/",
+      "phonetic_simple": "MKAH-TAH-BAH HOO-OO OO-TAH-DOO-MOO EE-LEE MRAH-DEE KEE-LAH OO-PAHN-DEH OO-TEH-KEH-LEH-ZEH WAH-DJEE-BOO WAH-KEH",
+      "translation": "Cet accord demeurera pérenne, pourvu que chaque partie s'acquitte de ses obligations.",
+      "context": "Stipulation contractuelle solennelle entre deux entités économiques."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Kwa ufupi, hatuwezi kufikia azimio bila ushirikiano wa kikanda.",
+      "phonetic_api": "/kwa uˈfu.pi ha.tuˈwɛ.zi ku.fi.kiˈa a.ziˈmi.ɔ ˈbi.la u.ʃi.ri.kiˈa.nɔ wa ki.kaˈnda/",
+      "phonetic_simple": "KWAH OO-FOO-PEE HAH-TOO-WEH-ZEE KOO-FEE-KEE-AH AH-ZEE-MEE-OH BEE-LAH OO-SHEE-REE-KEE-AH-NOH WAH KEE-KAHN-DAH",
+      "translation": "En somme, nous ne saurions parvenir à une résolution définitive sans une coopération régionale.",
+      "context": "Conclusion synthétique d'une allocution de clôture lors d'un sommet."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Hali ya kifedha ni ngumu; licha ya hayo, tutasonga mbele na uwekezaji wetu.",
+      "phonetic_api": "/ˈha.li ya kiˈfɛ.ðha ni ˈngu.mu ˈli.tʃa ya ˈha.jɔ tu.taˈsɔ.ŋga mˈbɛ.lɛ na u.wɛ.kɛˈza.dʒi ˈwɛ.tu/",
+      "phonetic_simple": "HAH-LEE YAH KEE-FHEH-ZHAH NEE NGOO-MOO LEE-CHAH YAH HAH-YOH TOO-TAH-SOHN-GA MBEH-LEH NAH OO-WEH-KEH-ZAH-DJEE WEH-TOO",
+      "translation": "La conjoncture financière s'avère austère ; en dépit de cela, nous maintiendrons nos investissements.",
+      "context": "Déclaration de résilience managériale face à la crise."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La coordination complexe et l'emphase concessive via 'Ingawa' et 'Hata hivyo'",
+      "explanation": "Pour opposer deux propositions logiques avec la rigueur stylistique du niveau avancé, le swahili associe la conjonction de concession 'Ingawa' en tête de phrase à l'adverbe d'opposition coordonné 'Hata hivyo' dans la seconde proposition.",
+      "rules": [
+        "'Ingawa' introduit une proposition subordonnée concessive à l'indicatif sans altérer les infixes de temps classiques.",
+        "La proposition principale commence obligatoirement par 'Hata hivyo' pour acter le contre-argument de manière appuyée."
+      ],
+      "examples": [
+        {
+          "structure": "Ingawa (Bien que) + mfumo unalegea + hata hivyo (néanmoins) + unafanya kazi",
+          "phonetic_api": "/iˈŋga.wa mˈfu.mɔ u.na.lɛˈgɛ.a ˈha.ta ˈhi.vjɔ u.naˈfa.ɲa ˈka.zi/",
+          "meaning": "Quoique la structure montre des signes de faiblesse, elle demeure néanmoins opérationnelle."
+        }
+      ]
+    },
+    {
+      "concept": "Le gouvernement temporel de la locution restrictive conditionnelle 'Ili mradi'",
+      "explanation": "La locution 'Ili mradi' (parfois réduite à 'mradi') formule une restriction impérative stricte. Contrairement aux formes basiques, elle exige une syntaxe spécifique selon que l'action est envisagée ou avérée.",
+      "rules": [
+        "Pour une action future soumise à condition, elle réclame le mode subjonctif ou l'usage de l'infixe de potentiel '-ki-'.",
+        "Dans un contexte de constat juridique intemporel, elle se lie directement à l'indicatif."
+      ],
+      "examples": [
+        {
+          "structure": "Ili mradi (Pourvu que) + u-maliz-e (tu finisses - subjonctif) = Ili mradi umalize",
+          "phonetic_api": "/ˈi.li mˈra.di u.ma.liˈzɛ/",
+          "meaning": "À la condition expresse que vous parachonniez votre tâche"
+        },
+        {
+          "structure": "Ili mradi (Du moment que) + wa-na-fuata (ils suivent - indicatif) = Ili mradi wanafuata",
+          "phonetic_api": "/ˈi.li mˈra.di wa.naˈfu.a.ta/",
+          "meaning": "Du moment qu'ils se conforment strictement aux règles"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mchambuzi wa Sera",
+      "text": "Mheshimiwa, ingawa mageuzi ya kodi yameleta upinzani mkubwa katika jamii, hata hivyo yamesaidia kudhibiti mfumuko wa bei.",
+      "phonetic_api": "/m.hɛ.ʃiˈmi.wa iˈŋga.wa ma.gɛˈu.zi ya ˈkɔ.di ja.mɛˈlɛ.ta u.piˈnza.ni ˈm.ku.bwa kaˈti.ka dʒaˈmi.i ˈha.ta ˈhi.vjɔ ja.mɛ.sa.iˈdi.a kuˈðhi.bi.ti m.fuˈmu.kɔ wa ˈbɛ.i/",
+      "phonetic_simple": "MHEH-SHEE-MEE-WA EEN-GAH-WAH MAH-GEH-OO-ZEE YAH KOH-DEE YAH-MEH-LEH-TA OO-PEEN-ZAH-NEE MKOO-BWA KAH-TEE-KAH DJAH-MEE-EE HAH-TAH HEE-VYOH YAH-MEH-SAH-EE-DEE-AH KOO-ZHEE-BEE-TEE MFOO-MOO-KOH WAH BEH-EE",
+      "translation": "Monsieur le Ministre, bien que la réforme fiscale ait suscité une vive opposition au sein de l'opinion publique, elle a néanmoins concouru à juguler l'inflation."
+    },
+    {
+      "speaker": "Mkurugenzi wa Idara",
+      "text": "Nafahamu hoja yako. Isitoshe, makinikia tuliyoyahakiki wiki hii yanaonyesha kuongezeka kwa mapato. Kinyume chake na maoni ya wakosoaji wetu, sera hii inafanya kazi.",
+      "phonetic_api": "/na.faˈha.mu ˈhɔ.dʒa ˈja.kɔ i.siˈtɔ.ʃɛ ma.ki.niˈki.a tu.li.jɔ.ja.ha.kiˈki ˈwi.ki ˈhi.i ja.na.ɔˈɲɛ.ʃa ku.ɔˈngɛ.zɛ.ka kwa maˈpa.tɔ kiˈɲu.mɛ ˈtʃa.kɛ na maˈɔ.ni ya wa.kɔˈsɔ.a.dʒi ˈwɛ.tu ˈsɛ.ra ˈhi.i i.naˈfa.ɲa ˈka.zi/",
+      "phonetic_simple": "NAH-FAH-HAA-MOO HOH-DJAH YAH-KOH EE-SEE-TOH-SHEH MAH-KEE-NEE-KEE-AH TOO-LEE-YOH-YAH-HAH-KEE-KEE WEE-KEE HEE-YEE YAH-NAH-OHN-YEH-SHAH KOO-OHN-GEH-ZEH-KAH KWAH MAH-PAH-TOH KEE-NYOO-MEH CHAH-KEH NAH MAH-OH-NEE YAH WAH-KOH-SOH-AH-DJEE WEH-TOO SEH-RAH HEE-YEE EE-NAH-FAH-NYAH KAH-ZEE",
+      "translation": "Je souscris à votre argument. De surcroît, les données analytiques que nous avons passées en revue cette semaine mettent en évidence un accroissement des recettes. A contrario des assertions de nos détracteurs, cette doctrine s'avère probante."
+    },
+    {
+      "speaker": "Mchambuzi wa Sera",
+      "text": "Ni kweli. Na kwa ajili hiyo, yatupasa kuendelea mbele na awamu ya pili, ili mradi tuwahakikishe wananchi kwamba maslahi yao yanalindwa.",
+      "phonetic_api": "/ni ˈkwɛ.li na kwa aˈdʒi.li ˈhi.jɔ ja.tuˈpa.sa ku.ɛndɛˈlɛː mˈbɛ.lɛ na aˈwa.mu ya ˈmbi.li ˈi.li mˈra.di tu.wa.ha.ki.kiˈʃi.ɛ wa.naˈn-tʃi ˈkwa.mba maˈsla.hi ˈja.ɔ ja.na.liˈndwa/",
+      "phonetic_simple": "NEE KWEH-LEE NAH KWAH AH-DJEE-LEE HEE-YOH YAH-TOO-PAH-SAH KOO-EHN-DEH-LEE-AH MBEH-LEH NAH AH-WAH-MOO YAH MBEE-LEE EE-LEE MRAH-DEE TOO-WAH-HAH-KEE-KEE-SHEE-EH WAH-NAHN-CHEE KWAH-MBAH MAH-SLAH-HEE YAH-OH YAH-NAH-LEEN-DWA",
+      "translation": "C'est exact. Dès lors, il nous incombe de donner l'impulsion à la seconde phase, pourvu que nous garantissions aux citoyens que leurs intérêts supérieurs sont sanctuarisés."
+    },
+    {
+      "speaker": "Mkurugenzi wa Idara",
+      "text": "Sawa kabisa. Kwa ufupi, tutatoa mwongozo mpya kesho asubuhi ili kufafanua madhumuni yetu ya muda mrefu.",
+      "phonetic_api": "/ˈsa.wa kaˈbi.sa kwa uˈfu.pi tu.taˈtɔ.a mwa.ŋgɔˈzɔ mˈpja ˈkɛ.ʃɔ a.suˈbu.hi ˈi.li ku.fa.faˈnu.a ma.ðhuˈmu.ni ˈwɛ.tu wa ˈmu.da mˈrɛ.fu/",
+      "phonetic_simple": "SAH-WA KAH-BEE-SAH KWAH OO-FOO-PEE TOO-TAH-TOH-AH MWAHN-GOH-ZOH MPYAH KEH-SHOH AH-SOO-BOO-HEE EE-LEE KOO-FAH-FAH-NOO-AH MAH-ZHOO-MOO-NEE WEH-TOO WAH MOO-DAH MREH-FOO",
+      "translation": "Parfaitement. En somme, nous publierons de nouvelles lignes directrices dès demain matin afin d'expliciter nos visées à long terme."
+    }
+  ],
+  "cultural_notes": [
+    "La structuration logique du discours à l'aide de connecteurs d'origine arabe ('Madhalani', 'Isitoshe') est l'apanage des cercles intellectuels, journalistiques et parlementaires est-africains. Ce style, appelé 'Kiswahili cha Kitaaluma' (swahili académique), permet de détacher l'argumentation de l'affect pour s'inscrire dans une rationalité juridique et administrative éprouvée.",
+    "Dans les débats publics en Tanzanie et au Kenya, l'usage de 'Kinyume chake' (au contraire) introduit une contradiction courtoise mais implacable. Il est d'usage de valider d'abord la position de l'interlocuteur avant d'asséner le contre-argument, respectant ainsi les codes de déférence de la civilité swahilie ('Ustaarabu').",
+    "Les connecteurs de concession comme 'Licha ya' ou 'Ingawa' sont abondamment manipulés dans les manifestes syndicaux ou les déclarations économiques pour mettre en exergue la résilience des populations ou des structures face aux chocs extérieurs, reflétant une posture philosophique valorisant la persévérance ('Ustahimilivu')."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez le connecteur logique et la structure exacte pour traduire : 'De surcroît, le comité passera en revue les documents'.",
+      "options": [
+        "Kwa ufupi, kamati ilipitia nyaraka zote.",
+        "Isitoshe, kamati itahakiki nyaraka hizo.",
+        "Ingawa kamati inahakiki nyaraka, haitoshi.",
+        "Kinyume chake, kamati haitapitia nyaraka yoyote."
+      ],
+      "correct_answer": "Isitoshe, kamati itahakiki nyaraka hizo.",
+      "explanation": "Le connecteur 'Isitoshe' introduit idéalement une adjonction ou une emphase de niveau C1, s'associant parfaitement avec le verbe d'élite 'kuhakiki' (passer en revue de manière critique)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Mwanadiplomasia: 'Mkataba utasainiwa kesho, ili mradi kila upande uafikian[ ___ ] kuhusu mipaka.' (Complétez avec la finale verbale requise au mode subjonctif pour le verbe d'origine bantoue 'kuafikiana').",
+      "correct_answer": "e",
+      "hint": "Il s'agit de la voyelle finale caractéristique qui marque l'injonction adoucie ou la condition subjonctive après la locution restrictive."
+    }
+  ]
+}

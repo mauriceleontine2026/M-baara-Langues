@@ -1,0 +1,213 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer les jours de la semaine et les repères temporels de base en wamey",
+    "Comprendre la division des moments de la journée",
+    "Savoir demander et dire l'heure ou le moment d'un rendez-vous"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La consonne affriquée alvéolaire sourde /t͡ʃ/ (notée 'c') et le son glottal fricatif sourd /χ/ (noté 'x'). L'allongement vocalique sur le 'ee' doit être soutenu.",
+    "common_pitfalls": "Attention à ne pas escamoter la lettre 'x' finale dans les mots temporels. Elle se prononce comme la jota espagnole ou le 'ch' allemand dans 'ach'."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "fbyar",
+      "phonetic_api": "/fbjaʁ/",
+      "phonetic_simple": "FBYAR",
+      "translation": "jour / journée",
+      "example_sentence": "Fbyar kene i boka.",
+      "example_phonetic": "/fbjaʁ kɛnɛ i boka/",
+      "example_translation": "Cette journée est bonne."
+    },
+    {
+      "word_id": "v2",
+      "term": "tene",
+      "phonetic_api": "/tɛnɛ/",
+      "phonetic_simple": "TÉ-NÉ",
+      "translation": "Lundi (emprunt)",
+      "example_sentence": "Nyi gwa ra marse tene.",
+      "example_phonetic": "/ɲi ɡwa ʁa maʁse tɛnɛ/",
+      "example_translation": "Je vais au marché lundi."
+    },
+    {
+      "word_id": "v3",
+      "term": "lahadi",
+      "phonetic_api": "/lahadi/",
+      "phonetic_simple": "LA-HA-DI",
+      "translation": "Dimanche",
+      "example_sentence": "Lahadi i fbyar ra kakaré.",
+      "example_phonetic": "/lahadi i fbjaʁ ʁa kakaʁɛ/",
+      "example_translation": "Dimanche est le jour de la maison (repos)."
+    },
+    {
+      "word_id": "v4",
+      "term": "mbiya",
+      "phonetic_api": "/mbija/",
+      "phonetic_simple": "MBI-YA",
+      "translation": "demain",
+      "example_sentence": "Rya gwa mbiya.",
+      "example_phonetic": "/ʁja ɡwa mbija/",
+      "example_translation": "Nous partirons demain."
+    },
+    {
+      "word_id": "v5",
+      "term": "gocen",
+      "phonetic_api": "/ɡɔt͡ʃɛn/",
+      "phonetic_simple": "GO-TCHEN",
+      "translation": "matin",
+      "example_sentence": "Nyi waawë gocen.",
+      "example_phonetic": "/ɲi waːwə ɡɔt͡ʃɛn/",
+      "example_translation": "Je travaille le matin."
+    },
+    {
+      "word_id": "v6",
+      "term": "goka",
+      "phonetic_api": "/ɡɔka/",
+      "phonetic_simple": "GO-KA",
+      "translation": "nuit / soir",
+      "example_sentence": "O bano goka.",
+      "example_phonetic": "/o bano ɡɔka/",
+      "example_translation": "Il arrive la nuit."
+    },
+    {
+      "word_id": "v7",
+      "term": "leër",
+      "phonetic_api": "/lɛːʁ/",
+      "phonetic_simple": "LÉÉR",
+      "translation": "heure (de l'emprunt 'l'heure')",
+      "example_sentence": "Leër fene i tyukwa ?",
+      "example_phonetic": "/lɛːʁ fɛnɛ i tjukwa/",
+      "example_translation": "Quelle heure est-il ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Leër fene i tyukwa ?",
+      "phonetic_api": "/lɛːʁ fɛnɛ i tjukwa/",
+      "phonetic_simple": "LÉÉR FÉ-NÉ I TYOU-KOUA ?",
+      "translation": "Quelle heure est-il ? / Quel moment est-il ?",
+      "context": "Demander l'heure ou la position du soleil à quelqu'un."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "I leër bityor.",
+      "phonetic_api": "/i lɛːʁ bitjɔʁ/",
+      "phonetic_simple": "I LÉÉR BI-TYOR",
+      "translation": "Il est cinq heures.",
+      "context": "Donner l'heure précise."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Nyi gwa ra saax gocen.",
+      "phonetic_api": "/ɲi ɡwa ʁa saːχ ɡɔt͡ʃɛn/",
+      "phonetic_simple": "NYI GOUA RA SAAKH GO-TCHEN",
+      "translation": "Je vais au village le matin.",
+      "context": "Indiquer le moment d'un déplacement."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Mbiya i fbyar ra boka.",
+      "phonetic_api": "/mbija i fbjaʁ ʁa boka/",
+      "phonetic_simple": "MBI-YA I FBYAR RA BO-KA",
+      "translation": "Demain sera un bon jour.",
+      "context": "Formule d'espoir ou de planification."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression du temps avec l'emprunt 'leër'",
+      "explanation": "Pour donner l'heure exacte, le wamey utilise le mot 'leër' (dérivé du français ou du wolof) suivi directement du chiffre cardinal.",
+      "rules": [
+        "Structure : 'I leër' + Chiffre wamey."
+      ],
+      "examples": [
+        {
+          "structure": "I leër ɓal",
+          "phonetic_api": "/i lɛːʁ ɓal/",
+          "meaning": "Il est deux heures"
+        },
+        {
+          "structure": "I leër bityor",
+          "phonetic_api": "/i lɛːʁ bitjɔʁ/",
+          "meaning": "Il est cinq heures"
+        }
+      ]
+    },
+    {
+      "concept": "Les adverbes de temps en fin de proposition",
+      "explanation": "Les compléments et adverbes qui indiquent le moment de la journée (gocen, goka) ou le jour précis (mbiya) se placent généralement à la fin de la phrase après le verbe et ses compléments d'objet ou de lieu.",
+      "rules": [
+        "Sujet + Verbe + (Lieu) + Moment du temps"
+      ],
+      "examples": [
+        {
+          "structure": "Nyi gwa marse gocen.",
+          "phonetic_api": "/ɲi ɡwa maʁse ɡɔt͡ʃɛn/",
+          "meaning": "Je vais au marché le matin."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Samba",
+      "text": "Mady, leër fene i tyukwa ra wun ?",
+      "phonetic_api": "/madi lɛːʁ fɛnɛ i tjukwa ʁa wun/",
+      "phonetic_simple": "MA-DY, LÉÉR FÉ-NÉ I TYOU-KOUA RA WOUN ?",
+      "translation": "Mady, quelle heure est-il chez toi / pour toi ?"
+    },
+    {
+      "speaker": "Mady",
+      "text": "I leër raxã. Wun gwa ra cax mbiya ?",
+      "phonetic_api": "/i lɛːʁ ʁaχã wun ɡwa ʁa t͡ʃaχ mbija/",
+      "phonetic_simple": "I LÉÉR RA-KHAN. WOUN GOUA RA TSAKH MBI-YA ?",
+      "translation": "Il est quatre heures. Vas-tu aux champs demain ?"
+    },
+    {
+      "speaker": "Samba",
+      "text": "Gba, nyi gwa ra Koundara tene gocen.",
+      "phonetic_api": "/ɡba ɲi ɡwa ʁa kuŋdaʁa tɛnɛ ɡɔt͡ʃɛn/",
+      "phonetic_simple": "GBA, NYI GOUA RA KOUN-DA-RA TÉ-NÉ GO-TCHEN.",
+      "translation": "Non, je vais à Koundara lundi matin."
+    },
+    {
+      "speaker": "Mady",
+      "text": "I boka, fbyar ra boka ra wun !",
+      "phonetic_api": "/i boka fbjaʁ ʁa boka ʁa wun/",
+      "phonetic_simple": "I BO-KA, FBYAR RA BO-KA RA WOUN !",
+      "translation": "C'est bien, bonne journée à toi !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans la vie quotidienne traditionnelle des villages wamey, le repérage du temps reste très lié aux cycles du soleil et aux impératifs agricoles : le chant du coq pour le premier matin, la position verticale du soleil pour le milieu de la journée, et le retour des troupeaux pour le soir.",
+    "Les noms des jours de la semaine (comme tene, talata, alaba) sont souvent des termes partagés avec les langues voisines (comme le malinké ou le pular) ou empruntés pour faciliter les échanges lors des marchés hebdomadaires."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "A1_M2_L6_EX1",
+      "type": "multiple_choice",
+      "question": "Que signifie 'gocen' en langue Konyagi ?",
+      "options": [
+        "Le matin",
+        "Le soir",
+        "Demain"
+      ],
+      "correct_answer": "Le matin",
+      "explanation": "'Gocen' désigne spécifiquement la première partie de la journée, le matin."
+    },
+    {
+      "exercise_id": "A1_M2_L6_EX2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "I leër [ ___ ] (Il est deux heures).",
+      "correct_answer": "ɓal",
+      "hint": "Complétez avec le chiffre wamey correspondant au nombre 2."
+    }
+  ]
+}

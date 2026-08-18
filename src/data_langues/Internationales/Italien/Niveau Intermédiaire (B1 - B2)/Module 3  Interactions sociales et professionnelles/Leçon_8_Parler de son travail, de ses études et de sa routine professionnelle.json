@@ -1,0 +1,215 @@
+{
+  "lesson_id": "B1_M3_L8",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 3,
+  "module_title": "Interactions sociales et professionnelles",
+  "lesson_number": 8,
+  "title": "Parler de son travail, de ses études et de sa routine",
+  "learning_objectives": [
+    "Décrire son parcours professionnel, son domaine d'études et ses tâches quotidiennes",
+    "Présenter sa routine de travail ou académique en utilisant des connecteurs temporels précis"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La fluidité verbale est essentielle pour parler de son quotidien. Dans 'laurea' /ˈlau̯rea/, les voyelles initiales forment une diphtongue prononcée dans un seul élan. Pour le verbe 'occuparsi' /okkuˈparsi/, veillez à bien marquer l'intensité du double 'cc'. L'accent tonique de 'quotidiano' /kwotiˈdjaːno/ repose sur la syllabe '-dia-'.",
+    "common_pitfalls": "Attention au mot 'azienda' /adˈdzjɛnda/ : le 'z' initial se prononce comme un son 'dz' doux et sonore, et non comme un 's' ou un 'ts'. Évitez de nasaliser la syllabe '-en-' dans 'dipendente' /dipenˈdɛnte/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "L'azienda",
+      "phonetic_api": "/ladˈdzjɛnda/",
+      "phonetic_simple": "LA-DZIÈN-DA",
+      "translation": "L'entreprise / La société",
+      "example_sentence": "Lavoro in un'azienda informatica internazionale.",
+      "example_phonetic": "/laˈvoːro in unadˈdzjɛnda inforˈmaːtika internatˈtsjoːnale/",
+      "example_translation": "Je travaille dans une entreprise informatique internationale."
+    },
+    {
+      "word_id": "v2",
+      "term": "La laurea",
+      "phonetic_api": "/la ˈlau̯rea/",
+      "phonetic_simple": "LA LAOU-RÉ-A",
+      "translation": "Le diplôme universitaire / La licence / Le master",
+      "example_sentence": "Ho conseguito la laurea in economia l'anno scorso.",
+      "example_phonetic": "/ɔ kkonseˈgwiːto la ˈlau̯rea in ekonoˈmiːa ˈlanno ˈskɔrso/",
+      "example_translation": "J'ai obtenu mon diplôme universitaire en économie l'année dernière."
+    },
+    {
+      "word_id": "v3",
+      "term": "Il dipendente",
+      "phonetic_api": "/il dipenˈdɛnte/",
+      "phonetic_simple": "IL DI-PÈN-DÈN-TÉ",
+      "translation": "L'employé / Le salarié",
+      "example_sentence": "L'azienda ha più di cinquanta dipendenti.",
+      "example_phonetic": "/ladˈdzjɛnda a pju ddi tʃiŋˈkwanta dipenˈdɛnti/",
+      "example_translation": "L'entreprise a plus de cinquante salariés."
+    },
+    {
+      "word_id": "v4",
+      "term": "La routine",
+      "phonetic_api": "/la ruˈtiːn/",
+      "phonetic_simple": "LA ROU-TINE",
+      "translation": "La routine / Le quotidien",
+      "example_sentence": "La mia routine quotidiana inizia alle sette del mattino.",
+      "example_phonetic": "/la miːa ruˈtiːn kwotiˈdjaːna iˈnittsja ˈalle ˈsɛtte del matˈtiːno/",
+      "example_translation": "Ma routine quotidienne commence à sept heures du matin."
+    },
+    {
+      "word_id": "v5",
+      "term": "Occuparsi di",
+      "phonetic_api": "/okkuˈparsi di/",
+      "phonetic_simple": "OK-KOU-PAR-SI DI",
+      "translation": "S'occuper de / Être responsable de",
+      "example_sentence": "Nel mio lavoro mi occupo della gestione dei clienti.",
+      "example_phonetic": "/nel miːo laˈvoːro mi ˈɔkkupo ˈdalla dʒesˈtjoːne dei kliˈɛnti/",
+      "example_translation": "Dans mon travail, je m'occupe de la gestion des clients."
+    },
+    {
+      "word_id": "v6",
+      "term": "Aggiornarsi",
+      "phonetic_api": "/addʒorˈnarsi/",
+      "phonetic_simple": "AD-DJOR-NAR-SI",
+      "translation": "Se tenir au courant / Se former / Se mettre à jour",
+      "example_sentence": "È importante aggiornarsi continuamente nel mio settore.",
+      "example_phonetic": "/ɛ ffondamenˈtaːle addʒorˈnarsi kontinwaˈmente nel miːo setˈtoːre/",
+      "example_translation": "Il est important de se former continuellement dans mon secteur."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Lavoro come libero professionista da tre anni",
+      "phonetic_api": "/laˈvoːro ˈkoːme ˈliːbero profesjoˈnista da ttre ˈanni/",
+      "phonetic_simple": "LA-VO-RO KO-MÉ LI-BÉ-RO PRO-FÈS-SION-IS-TA DA TRÉ AN-NI",
+      "translation": "Je travaille comme travailleur indépendant depuis trois ans",
+      "context": "Pour définir son statut professionnel de freelance ou d'indépendant."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Gestisco un team di quattro persone",
+      "phonetic_api": "/dʒesˈtiːsko un ˈtiːm di ˈkwattro perˈsoːne/",
+      "phonetic_simple": "DJÈS-TIS-KO OUN TIM DI KOUAT-TRO PÈR-SO-NÉ",
+      "translation": "Je dirige une équipe de quatre personnes",
+      "context": "Utile pour valoriser ses responsabilités managériales lors d'un entretien."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Di solito faccio una pausa pranzo verso l'una",
+      "phonetic_api": "/di ˈsɔːlito ˈfattʃo ˈuːna ˈpau̯za ˈprandzo ˈvɛrso ˈluːna/",
+      "phonetic_simple": "DI SÒ-LI-TO FAT-CHIA OU-NA PAOU-ZA PRAND-ZO VÈR-SO LOU-NA",
+      "translation": "D'habitude, je fais une pause déjeuner vers treize heures",
+      "context": "Pour décrire le déroulement d'une journée de travail type."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ho intenzione di iscrivermi a un corso di specializzazione",
+      "phonetic_api": "/ɔ intentsˈjoːne di isˈkriːvermi a un ˈkorso di spetʃaliddzatˈtsjoːne/",
+      "phonetic_simple": "O IN-TÈN-TSIO-NÉ DI IS-KRI-VÈR-MI A OUN KOR-SO DI SPÉ-TCHIA-LID-DZA-TSIO-NÉ",
+      "translation": "J'ai l'intention de m'inscrire à un cours de spécialisation",
+      "context": "Pour parler de ses projets académiques ou de formation continue."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Lavoro da remoto due volte alla settimana",
+      "phonetic_api": "/laˈvoːro da reˈmɔːto dˈdue ˈvɔlte ˈdalla settiˈmaːna/",
+      "phonetic_simple": "LA-VO-RO DA RÉ-MÒ-TO DOU-É VOL-TÉ AL-LA SÈT-TI-MA-NA",
+      "translation": "Je travaille à distance (télétravail) deux fois par semaine",
+      "context": "Pour préciser l'organisation moderne de son temps de travail."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Mi occupo principalmente dello sviluppo del software",
+      "phonetic_api": "/mi ˈɔkkupo printʃipalˈmente ˈdello zviˈluppo del ˈsɔftwer/",
+      "phonetic_simple": "MI OK-KOU-PO PRIN-TCHI-PAL-MÈN-TÉ DEL-LO ZVI-LOUP-PO DEL SOFT-OUÈR",
+      "translation": "Je m'occupe principalement du développement du logiciel",
+      "context": "Idéal pour clarifier son cœur de métier et sa mission principale."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la durée et de la continuité avec 'Da' et 'Per'",
+      "explanation": "Pour structurer un historique professionnel ou étudiant, le choix de la préposition temporelle répond à des règles strictes selon que l'action est toujours en cours ou terminée.",
+      "rules": [
+        "Da + Présent : Indique une action qui a commencé dans le passé et qui continue dans le présent (équivaut à 'depuis'). Exemple : Lavoro qui da cinque anni (Je travaille ici depuis cinq ans).",
+        "Per + Passé composé : Indique une durée complètement achevée dans le passé (équivaut à 'pendant'). Exemple : Ho studiato a Milano per tre anni (J'ai étudié à Milan pendant trois ans)."
+      ],
+      "examples": [
+        {
+          "structure": "Ho fatto uno stage per sei mesi, e ora lavoro in questa azienda da un anno.",
+          "phonetic_api": "/ɔ fˈfatto ˈuːno ˈstaddʒo per ˈsɛi ˈmeːzi e ˈoːra laˈvoːro in ˈkwesta adˈdzjɛnda da un ˈanno/",
+          "meaning": "J'ai fait un stage pendant six mois (fini), et maintenant je travaille dans cette entreprise depuis un an (en cours)."
+        }
+      ]
+    },
+    {
+      "concept": "Les verbes pronominaux réguliers pour décrire la routine",
+      "explanation": "Les actions de la routine quotidienne font un usage intensif des verbes réfléchis et pronominaux. Au niveau intermédiaire, on veille à placer correctement le pronom réfléchi avec les verbes modaux.",
+      "rules": [
+        "Structure standard : Pronom + Verbe (ex: Mi sveglio alle sette = Je me réveille à sept heures).",
+        "Avec un verbe modal (dovere, potere, volere) : Le pronom se place soit devant le modal, soit attaché à la fin de l'infinitif. Exemples : Mi devo svegliare / Devo svegliarmi."
+      ],
+      "examples": [
+        {
+          "structure": "La mattina devo prepararmi velocemente per non arrivare in ritardo.",
+          "phonetic_api": "/la matˈtiːna ˈdeːvo prepaˈrarmi velotʃeˈmente per non arriˈvaːre in riˈtardo/",
+          "meaning": "Le matin, je dois me préparer rapidement pour ne pas arriver en retard."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Paolo",
+      "text": "Ciao Giulia! Sapevo che hai cambiato lavoro di recente. Di cosa ti occupi esattamente adesso?",
+      "phonetic_api": "/ˈtʃaːo ˈdʒuːlja saˈpeːvo ke ˈai kamˈbjaːro laˈvoːro di reˈtʃɛnte di kˈkɔːza ti ˈɔkkupi ezattaˈmente aˈdɛsso/",
+      "phonetic_simple": "TCHAO DJOU-LIA ! SA-PÉ-VO KÉ AÏ KAM-BIA-TO LA-VO-RO DI RÉ-TCHÈN-TÉ. DI KO-ZA TI OK-KOU-PI É-ZAT-TA-MÈN-TÉ A-DÈS-SO ?",
+      "translation": "Salut Giulia ! Je savais que tu as changé de travail récemment. De quoi t'occupes-tu exactement maintenant ?"
+    },
+    {
+      "speaker": "Giulia",
+      "text": "Ciao Paolo! Sì, dopo la laurea in ingegneria ho lavorato per due anni in una piccola startup. Da tre mesi, invece, sono dipendente in una grande azienda.",
+      "phonetic_api": "/ˈtʃaːo ˈpaːolo si ˈdɔːpo la ˈlau̯rea in indzenjeˈriːa ɔ llavoˈraːto per dˈdue ˈanni in ˈuːna ˈpikkola ˈstartup da ttre ˈmeːzi inˈveːtʃe ˈsoːno dipenˈdɛnte in ˈuːna ˈɡrande adˈdzjɛnda/",
+      "phonetic_simple": "TCHAO PAO-LO ! SI, DO-PO LA LAOU-RÉ-A IN IN-DJÉ-GNIÉ-RI-A O LA-VO-RA-TO PÈR DOU-É AN-NI IN OU-NA PIK-KO-LA START-UP. DA TRÉ MÉ-ZI, IN-VÉ-TCHÉ, SO-NO DI-PÈN-DÈN-TÉ IN OU-NA GRAN-DÉ AD-ZIÈN-DA.",
+      "translation": "Salut Paolo ! Oui, après mon diplôme en ingénierie, j'ai travaillé pendant deux ans dans une petite startup. Depuis trois mois, en revanche, je suis salariée dans une grande entreprise."
+    },
+    {
+      "speaker": "Paolo",
+      "text": "Complimenti! E com'è la tua routine quotidiana? Fai orari pesanti?",
+      "phonetic_api": "/kompliˈmenti e kkoˈmɛ lla ˈtuːa ruˈtiːn kwotiˈdjaːna ˈfai oˈraːri peˈsanti/",
+      "phonetic_simple": "KOM-PLI-MÈN-TI ! É KO-MÈ LA TOOU-A ROU-TINE KOUO-TI-DIA-NA ? FAÏ O-RA-RI PÉ-SAN-TI ?",
+      "translation": "Félicitations ! Et comment est ta routine quotidienne ? Tu fais de gros horaires ?"
+    },
+    {
+      "speaker": "Giulia",
+      "text": "In realtà è abbastanza flessibile. Mi occupo principalmente dello sviluppo di nuovi progetti. Di solito inizio alle nove, faccio un'ora di pausa pranzo e stacco verso le sei. Inoltre, lavoro da remoto due volte alla settimana.",
+      "phonetic_api": "/in reallˈta ɛ abbasˈtantsa flesˈsiːbile mi ˈɔkkupo printʃipalˈmente ˈdello zviˈluppo di ˈnwɔːvi proˈdʒɛtti di ˈsɔːlito iˈnittsja ˈalle ˈnɔːve ˈfattʃo ˈuːnoːra di ˈpau̯za ˈprandzo e sˈstakko ˈvɛrso le ˈsɛi inˈoltre laˈvoːro da reˈmɔːto dˈdue ˈvɔlte ˈdalla settiˈmaːna/",
+      "phonetic_simple": "IN RÉ-AL-TA È AB-BAS-TAN-TSA FLÈS-SI-BI-LÉ. MI OK-KOU-PO PRIN-TCHI-PAL-MÈN-TÉ DEL-LO ZVI-LOUP-PO DI NOUO-VI PRO-DJÈT-TI. DI SÒ-LI-TO I-NI-TSIO AL-LÉ NÒ-VÉ, FAT-CHIO OUN-Ò-RA DI PAOU-ZA PRAND-ZO É STAK-KO VÈR-SO LÉ SÉI. IN-OL-TRÉ, LA-VO-RO DA RE-MÒ-TO DOU-É VOL-TÉ AL-LA SÈT-TI-MA-NA.",
+      "translation": "En réalité, c'est assez flexible. Je m'occupe principalement du développement de nouveaux projets. D'habitude, je commence à neuf heures, je fais une heure de pause déjeuner et je finis vers dix-huit heures. De plus, je télétravaille deux fois par semaine."
+    }
+  ],
+  "cultural_notes": [
+    "En Italie, le système universitaire décerne la 'laurea triennale' (bac+3) suivie de la 'laurea magistrale' (bac+5). Le jour de la remise des diplômes est une immense fête traditionnelle : le diplômé ('il laureato') porte une couronne de laurier ('corona di alloro') sur la tête et ses amis entonnent des chants humoristiques dans les rues.",
+    "La culture du travail en Italie accorde une place importante aux moments de pause informels, comme la pause café ('la pausa caffè') au bar en milieu de matinée. C'est un vecteur essentiel de socialisation et de réseautage professionnel entre collègues."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choisissez la préposition correcte : 'Abito e lavoro a Roma [ ___ ] dieci anni e mi piace molto.'",
+      "options": [
+        "per",
+        "da",
+        "durante"
+      ],
+      "correct_answer": "da",
+      "hint": "L'action d'habiter et de travailler à Rome a débuté dans le passé et se poursuit dans le présent."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Dopo molti sforzi, ho finalmente conseguito la [ ___ ] in medicina.",
+      "correct_answer": "laurea",
+      "hint": "Le terme exact qui désigne le titre ou le diplôme universitaire obtenu en fin d'études en Italie."
+    }
+  ]
+}

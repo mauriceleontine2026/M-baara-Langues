@@ -1,0 +1,294 @@
+{
+  "lesson_id": "C1_M1_L3_New",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Connecteurs logiques pour un discours élaboré",
+  "learning_objectives": [
+    "Articuler des transitions fluides et formelles entre plusieurs arguments complexes",
+    "Exprimer la cause profonde et la conséquence indirecte avec précision",
+    "Utiliser les marqueurs d'addition, d'opposition et de conclusion du registre soutenu",
+    "Structurer une plaidoirie ou un discours officiel selon la rhétorique mandingue"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Le connecteur de conséquence 'o kɔfɛɲuman' exige une articulation liée et distincte de la nasale palatale finale /ɲu.maⁿ/. La locution de cause 'ka bɔ... ma' demande une transition douce sans coupure glottale. L'expression d'opposition 'hali n'a bɛ rɔ' doit être prononcée avec un débit fluide en marquant bien la voyelle ouverte /a/ de 'hali'.",
+    "common_pitfalls": "Attention à ne pas escamoter la particule 'ka' dans la structure causale sous peine de transformer une cause en simple mouvement. Veillez également à ne pas confondre 'o fɛ' (par conséquent) avec 'o fɛ' (auprès de cela) en maintenant un ton moyen stable."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "O kɔfɛɲuman",
+      "phonetic_api": "/o kɔ.fɛ.ɲu.maⁿ/",
+      "phonetic_simple": "O KÕ-FÈ-GNI-MAN",
+      "translation": "Par la suite / En conséquence de quoi / Par voie de conséquence",
+      "example_sentence": "An ka kan ka baara kɛ ni teliya ye, o kɔfɛɲuman an bɛna sega-ka-bɔ",
+      "example_phonetic": "/an ka kaⁿ ka baː.ra kɛ ni te.li.ja jɛ o kɔ.fɛ.ɲu.maⁿ an bɛ.na se.ɡa ka bɔ/",
+      "example_translation": "Nous devons travailler avec célérité, par voie de conséquence nous réussirons."
+    },
+    {
+      "word_id": "v2",
+      "term": "Ka bɔ ... ko fɛ / ma",
+      "phonetic_api": "/ka bɔ ... ko fɛ/",
+      "phonetic_simple": "KA BÕ ... KO FÈ",
+      "translation": "En raison de / À cause de / Découlant de (cause conceptuelle)",
+      "example_sentence": "Ka bɔ juru don ko fɛ, an ka lajɛ-ko gbalila sisan",
+      "example_phonetic": "/ka bɔ d͡ʒu.ru doⁿ ko fɛ an ka la.d͡ʒɛ ko g͡ba.li.la si.san/",
+      "example_translation": "En raison de cette affaire de dette, notre projet s'est retrouvé bloqué actuellement."
+    },
+    {
+      "word_id": "v3",
+      "term": "Katuguni / Katugu",
+      "phonetic_api": "/ka.tu.gu.ni/",
+      "phonetic_simple": "KA-TOU-GOU-NI",
+      "translation": "Car / Attendu que / Étant donné que (introduction d'un argument capital)",
+      "example_sentence": "An bɛ sigi-wari ladan, katuguni wari-tɛmɛ-songo ka bon kosɛbɛ",
+      "example_phonetic": "/an ka kaⁿ ka si.gi wa.ri la.daⁿ ka.tu.gu.ni wa.ri tɛ.mɛ sɔn.gɔ ka boⁿ ko.sɛ.bɛ/",
+      "example_translation": "Nous constituons une épargne, car le prix réclamé est extrêmement exorbitant."
+    },
+    {
+      "word_id": "v4",
+      "term": "O tɛmɛnen kɔfɛ",
+      "phonetic_api": "/o tɛ.mɛ.neⁿ kɔ.fɛ/",
+      "phonetic_simple": "O TÈ-MÈ-NEN KÕ-FÈ",
+      "translation": "En outre / De surcroît / Cela étant dépassé",
+      "example_sentence": "O tɛmɛnen kɔfɛ, wari-tigi-jɛrɛ nana ni hami wɛrɛ ye bi",
+      "example_phonetic": "/o tɛ.mɛ.neⁿ kɔ.fɛ wa.ri ti.gi d͡ʒɛ.rɛ na.na ni hami wɛ.rɛ d͡ʒɛ bi/",
+      "example_translation": "En outre, le bailleur de fonds principal est arrivé avec d'autres motifs d'inquiétude aujourd'hui."
+    },
+    {
+      "word_id": "v5",
+      "term": "Walasa / Walasa ka",
+      "phonetic_api": "/wa.la.sa ka/",
+      "phonetic_simple": "WA-LA-SA KA",
+      "translation": "Afin de / Dans le but de (connecteur de finalité soutenue)",
+      "example_sentence": "An ka kan ka kalo-di-sɛbɛn ladan, walasa ka hami bɛɛ ban",
+      "example_phonetic": "/an ka kaⁿ ka ka.lo di sɛ.bɛn la.daⁿ wa.la.sa ka ha.mi bɛː baⁿ/",
+      "example_translation": "Nous devons concevoir le planning afin d'éliminer tous les soucis."
+    },
+    {
+      "word_id": "v6",
+      "term": "O jɛrɛ kama",
+      "phonetic_api": "/o d͡ʒɛ.rɛ ka.ma/",
+      "phonetic_simple": "O DJÈ-RÈ KA-MA",
+      "translation": "C'est précisément pour cette raison / C'est pourquoi",
+      "example_sentence": "O jɛrɛ kama, n bɛ sira-ɲini kɛ i fɛ hakilitigiya-sira fɛ",
+      "example_phonetic": "/o d͡ʒɛ.rɛ ka.ma n̩ bɛ si.ra ɲi.ni kɛ i fɛ ha.ki.li.ti.gi.ja si.ra fɛ/",
+      "example_translation": "C'est précisément pour cette raison que je sollicite ton orientation vers la voie de la sagesse."
+    },
+    {
+      "word_id": "v7",
+      "term": "A kumasɔgɔdiyan na",
+      "phonetic_api": "/a ku.ma.sɔ.gɔ.di.jaⁿ na/",
+      "phonetic_simple": "A KOU-MA-SÕ-GÕ-DI-YAN NA",
+      "translation": "En guise d'introduction / Pour entrer au cœur du sujet / En fait",
+      "example_sentence": "A kumasɔgɔdiyan na, fɛn-w-san-yɔrɔ kura nin bɛna caya",
+      "example_phonetic": "/a ku.ma.sɔ.gɔ.di.jaⁿ na fɛⁿ.w saⁿ d͡ʒɔ.rɔ ku.ra niⁿ bɛ.na t͡ʃa.ja/",
+      "example_translation": "Pour entrer au cœur du sujet, cette nouvelle boutique va grandement prospérer."
+    },
+    {
+      "word_id": "v8",
+      "term": "Kuma laban na",
+      "phonetic_api": "/ku.ma la.baⁿ na/",
+      "phonetic_simple": "KOU-MA LA-BAN NA",
+      "translation": "En conclusion / En définitive / Pour clore le discours",
+      "example_sentence": "Kuma laban na, siga-tɛ-a-la-ko ye hɛɛrɛ bɛna don an ka so",
+      "example_phonetic": "/ku.ma la.baⁿ na si.ga tɛ a la ko d͡ʒɛ hɛː.rɛ bɛ.na doⁿ an ka so/",
+      "example_translation": "En conclusion, c'est une certitude absolue, la paix va entrer dans notre demeure."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "A kumasɔgɔdiyan na, ni an mana sariyan jɛrɛ baton, sɔsɔli-ko bɛɛ bɛna ban siga si tɛ a la.",
+      "phonetic_api": "/a ku.ma.sɔ.gɔ.di.jaⁿ na ni an ma.na sa.ri.jaⁿ d͡ʒɛ.rɛ ba.toⁿ sɔ.sɔ.li ko bɛː bɛ.na baⁿ si.ga si tɛ a la/",
+      "phrase_phonetic_simple": "A KOU-MA-SÕ-GÕ-DI-YAN NA, NI AN MA-NA SA-RI-YAN DJÈ-RÈ BA-TON, SÕ-SÕ-LI-KO BÈÈ BÈ-NA BAN SI-GA SI TÈ A LA",
+      "translation": "Pour entrer au cœur du sujet, dès que nous respecterons le règlement lui-même, tous les points de litige prendront fin, aucun doute là-dessus.",
+      "context": "Introduire un exposé argumentatif de haut niveau avec assurance."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Ka bɔ baara-sɛgɛ ko fɛ, an ka kaⁿ ka tɛmɛ-sira-ko wɛrɛ labɛn walasa ka an fari lafiya sisan.",
+      "phonetic_api": "/ka bɔ baː.ra sɛ.gɛ ko fɛ an ka kaⁿ ka tɛ.mɛ si.ra ko wɛ.rɛ la.bɛn wa.la.sa ka an fa.ri la.fi.ja si.san/",
+      "phrase_phonetic_simple": "KA BÕ BAA-RA-SÈ-GUÈ KO FÈ, AN KA KAN KA TÈ-MÈ-SI-RA-KO WÈ-RÈ LA-BEN WA-LA-SA KA AN FA-RI LA-FI-YA SI-SAN",
+      "translation": "En raison de l'épuisement professionnel, nous devons organiser une possibilité alternative afin de reposer nos corps dès à présent.",
+      "context": "Exprimer la cause d'une fatigue et proposer une solution managériale soutenue."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "An dusu m'a sɔn ka juru don an ma, katuguni o ye gansan-ko jɛrɛ ye hakilitigiya-sira fɛ.",
+      "phonetic_api": "/an du.su mʼa sɔⁿ ka d͡ʒu.ru doⁿ an ma ka.tu.gu.ni d͡ʒɛ g͡baⁿ.saⁿ ko d͡ʒɛ.rɛ d͡ʒɛ ha.ki.li.ti.gi.ja si.ra fɛ/",
+      "phrase_phonetic_simple": "AN DOU-SOU MA O SÕN KA DJOU-ROU DON AN MA, KA-TOU-GOU-NI O YÈ GBAN-SAN-KO DJÈ-RÈ YÈ HA-KI-LI-TI-GUI-YA-SI-RA FÈ",
+      "translation": "Notre esprit a refusé de s'endetter, car cela constitue une futilité totale selon la voie de la sagesse.",
+      "context": "Justifier un choix financier par un connecteur de cause explicatif formel."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Ni an tun ka kalo-di-sɛbɛn ladan kunon, an tun bɛna teliya-baara kɛ, o kɔfɛɲuman siga-wolo tun bɛna ban.",
+      "phonetic_api": "/ni an tuⁿ ka ka.lo di sɛ.bɛn la.daⁿ ku.noⁿ an tuⁿ bɛ.na te.li.ja baː.ra kɛ o kɔ.fɛ.ɲu.maⁿ si.ga wo.lo tuⁿ bɛ.na baⁿ/",
+      "phrase_phonetic_simple": "NI AN TOUN KA KA-LO-DI-SÈ-BÈN LA-DAN KOU-NON, AN TOUN BÈ-NA TÉ-LI-YA-BAA-RA KÈ, O KÕ-FÈ-GNI-MAN SI-GA-WO-LO TOUN BÈ-NA BAN",
+      "translation": "Si nous avions conçu le planning hier, nous auraient accompli le travail urgent ; par voie de conséquence, l'incertitude profonde aurait pris fin.",
+      "context": "Articuler une conséquence hypothétique complexe passée."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Sotigi m'a sɔn ka so-haya dɔgɔya, o tɛmɛnen kɔfɛ, wari-tigi-jɛrɛ fana tɛ yan bi.",
+      "phonetic_api": "/so.ti.gi mʼa sɔⁿ ka so ha.ja dɔ.gɔ.ja o tɛ.mɛ.neⁿ kɔ.fɛ wa.ri ti.gi d͡ʒɛ.rɛ fa.na tɛ d͡ʒaⁿ bi/",
+      "phrase_phonetic_simple": "SOU-TI-GI MA O SÕN KA SO-HA-YA DÕ-GÕ-YA, O TÈ-MÈ-NEN KÕ-FÈ, WA-RI-TI-GUI-DJÈ-RÈ FA-NA TÈ YAN BI",
+      "translation": "Le propriétaire a refusé de baisser le loyer ; de surcroît, le bailleur de fonds principal n'est pas présent aujourd'hui.",
+      "context": "Accumuler des arguments restrictifs lors d'une négociation immobilière ou commerciale."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Kalan-den-w ma sega-ka-bɔ sɔrɔ kunon, o jɛrɛ kama nka n kɔni fɛ an ka kan ka kalan-so jija-kan yɛlɛma.",
+      "phonetic_api": "/ka.lan deⁿ.w ma se.ɡa ka bɔ sɔ.gɔ ku.noⁿ o d͡ʒɛ.rɛ ka.ma n̩.ka n̩ kɔ.ni fɛ an ka kaⁿ ka ka.lan so d͡ʒi.d͡ʒa kaⁿ jɛ.lɛ.ma/",
+      "phrase_phonetic_simple": "KA-LAN-DEN-W MA SÉ-GA-KA-BÕ SÕ-RÕ KOU-NON, O DJÈ-RÈ KA-MA NKA N KÕ-NI FÈ AN KA KAN KA KA-LAN-SO DJI-DJA-KAN YÈ-LÈ-MA",
+      "translation": "Les étudiants n'ont pas réussi hier, c'est précisément pour cette raison que, pour ma part, nous devons modifier la ligne directrice de l'université.",
+      "context": "Lier une cause factuelle à une prise de position personnelle forte."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Hali n'a bɛ rɔ, ni i mana sigi-wari lakana sisan, i tɛna wari-tɛmɛ-songo sara gansan fɛ.",
+      "phonetic_api": "/ha.li nʼa bɛ rɔ ni i ma.na si.gi wa.ri la.ka.na si.saⁿ i tɛ.na wa.ri tɛ.mɛ sɔn.gɔ sa.ra g͡baⁿ.saⁿ fɛ/",
+      "phrase_phonetic_simple": "HA-LI NA BÈ RÕ, NI I MA-NA SI-GUI-WA-RI LA-KA-NA SI-SAN, I TÈ-NA WA-RI-TÈ-MÈ-SÕN-GÕ SA-RA GBAN-SAN FÈ",
+      "translation": "Quand bien même il en serait ainsi, dès que tu auras sécurisé ton épargne maintenant, tu ne paieras plus de prix exorbitant inutilement.",
+      "context": "Introduire une concession forte suivie d'un avenir certain."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Kuma laban na, Ala ka an sira-yira nafaba jɛrɛ na walasa an ka lajɛ-ko bɛɛ ka diya !",
+      "phonetic_api": "/ku.ma la.baⁿ na a.la ka an si.ra ji.ra na.fa.ba d͡ʒɛ.rɛ na wa.la.sa an ka la.d͡ʒɛ ko bɛː ka di.ja/",
+      "phrase_phonetic_simple": "KOU-MA LA-BAN NA, A-LA KA AN SI-RA-YI-RA NA-FA-BA DJÈ-RÈ NA WA-LA-SA AN KA LA-DJÈ-KO BÈÈ KA DI-YA !",
+      "translation": "En définitive, que Dieu nous oriente vers le véritable intérêt majeur afin que tous nos projets soient couronnés de succès !",
+      "context": "Clôturer magistralement une plaidoirie par des souhaits formels."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de la conséquence logique par subordination : 'O kɔfɛɲuman'",
+      "explanation": "Pour lier deux propositions complexes où la seconde découle logiquement et directement des faits énoncés dans la première, le registre soutenu rejette le simple 'o kɔfɛ' (après cela) au profit de 'o kɔfɛɲuman' (par voie de conséquence / suite à cela de fort belle manière).",
+      "rules": [
+        "Se place obligatoirement entre la proposition de cause et la proposition de conséquence.",
+        "Sert de cheville ouvrière dans le balancement des arguments officiels."
+      ],
+      "examples": [
+        {
+          "structure": "Proposition A + , o kɔfɛɲuman + Proposition B",
+          "phonetic_api": "/o kɔ.fɛ.ɲu.maⁿ/",
+          "meaning": "Par voie de conséquence / De ce fait."
+        }
+      ]
+    },
+    {
+      "concept": "La construction de la cause nominale abstraite : 'Ka bɔ ... ko fɛ'",
+      "explanation": "Au niveau C1, l'expression de la cause ne repose pas uniquement sur 'katuguni' (car). Pour thématiser une cause extérieure comme point de départ d'une situation (en raison de / suite à), on utilise le schéma 'ka bɔ [Substantif] ko fɛ'.",
+      "rules": [
+        "Structure : Ka bɔ + Nom du problème/concept + ko fɛ, [Proposition principale]."
+      ],
+      "examples": [
+        {
+          "structure": "Ka bɔ + baara-sɛgɛ (épuisement) + ko fɛ",
+          "phonetic_api": "/ka bɔ baː.ra sɛ.gɛ ko fɛ/",
+          "meaning": "En raison de l'épuisement professionnel / Découlant du surmenage."
+        }
+      ]
+    },
+    {
+      "concept": "L'accumulation d'arguments par l'adverbe de gradation 'O tɛmɛnen kɔfɛ'",
+      "explanation": "Pour structurer un discours élaboré ou un réquisitoire, l'insertion de 'O tɛmɛnen kɔfɛ' (littéralement : une fois cela dépassé / en plus de cela) permet d'ajouter un argument plus fort ou une contrainte supplémentaire à une démonstration en cours.",
+      "rules": [
+        "Introduit généralement une phrase indépendante venant renforcer une précédente restriction."
+      ],
+      "examples": [
+        {
+          "structure": "O tɛmɛnen kɔfɛ + wari-tigi-jɛrɛ m'a sɔn (en outre, le financier a refusé)",
+          "phonetic_api": "/o tɛ.mɛ.neⁿ kɔ.fɛ/",
+          "meaning": "De surcroît / En outre / Par ailleurs."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Seydou (L'orateur de la concession)",
+      "text": "I ni ce, n fa Alassane. A kumasɔgɔdiyan na, an ka fɛn-w-san-yɔrɔ kura nin ko jɛrɛ bɛ siga-wolo kɔnɔ sisan ka bɔ wari-tɛmɛ-songo ko fɛ.",
+      "phonetic_api": "/i ni t͡ʃe n̩ fa a.la.saⁿ a ku.ma.sɔ.gɔ.di.jaⁿ na an ka fɛⁿ.w saⁿ d͡ʒɔ.rɔ ku.ra niⁿ ko d͡ʒɛ.rɛ bɛ si.ga wo.lo kɔ.nɔ si.saⁿ ka bɔ wa.ri tɛ.mɛ sɔn.gɔ ko fɛ/",
+      "phrase_phonetic_simple": "I NI TCHE, N FA A-LA-SANE. A KOU-MA-SÕ-GÕ-DI-YAN NA, AN KA FÈN-W-SAN-YÕ-RÕ KOU-RA NIN KO DJÈ-RÈ BÈ SI-GA-WO-LO KÕ-NÕ SI-SAN KA BÕ WA-RI-TÈ-MÈ-SÕN-GÕ KO FÈ.",
+      "translation": "Bonjour, maître Alassane. Pour entrer au cœur du sujet, le sort même de notre nouvelle boutique se trouve plongé dans une incertitude profonde actuellement en raison de ce coût exorbitant."
+    },
+    {
+      "speaker": "Alassane (Le doyen de l'assemblée)",
+      "text": "I ni ce, Seydou. Hami tɛ ! An ka kan ka hakilitigiya-sira baton, katuguni juru don ko ye gansan-ko ye. O jɛrɛ kama n bɛ i ladili ka sigi-wari lakana sisan.",
+      "phonetic_api": "/i ni t͡ʃe se.du ha.mi tɛ an ka kaⁿ ka ha.ki.li.ti.gi.ja si.ra ba.toⁿ ka.tu.gu.ni d͡ʒu.ru doⁿ ko d͡ʒɛ g͡baⁿ.saⁿ ko d͡ʒɛ o d͡ʒɛ.rɛ ka.ma n̩ bɛ i la.di.li ka si.gi wa.ri la.ka.na si.san/",
+      "phrase_phonetic_simple": "I NI TCHE, SEY-DOU. HA-MI TÈ ! AN KA KAN KA HA-KI-LI-TI-GUI-YA-SI-RA BA-TON, KA-TOU-GOU-NI DJOU-ROU DON KO YÈ GBAN-SAN-KO YÈ. O DJÈ-RÈ KA-MA N BÈ I LA-DI-LI KA SI-GUI-WA-RI LA-KA-NA SI-SAN.",
+      "translation": "Bonjour, Seydou. Point d'inquiétude ! Nous devons suivre la voie de la sagesse, car contracter des dettes est une futilité sans valeur. C'est précisément pour cette raison que je t'exhorte à sécuriser ton épargne dès maintenant."
+    },
+    {
+      "speaker": "Seydou",
+      "text": "Nka n fa, sotigi m'a sɔn ka sɛbɛn-bɛn labɛn kunon. O tɛmɛnen kɔfɛ, wari-tigi-jɛrɛ fana m'a sɔn ka sira-di an ma walasa ka baara daminɛ.",
+      "phonetic_api": "/n̩.ka n̩ fa so.ti.gi mʼa sɔⁿ ka sɛ.bɛn bɛn la.bɛn ku.noⁿ o tɛ.mɛ.neⁿ kɔ.fɛ wa.ri ti.gi d͡ʒɛ.rɛ fa.na mʼa sɔⁿ ka si.ra di an ma wa.la.sa ka baː.ra da.mi.nɛ/",
+      "phrase_phonetic_simple": "NKA N FA, SOU-TI-GI MA O SÕN KA SÈ-BÈN-BEN LA-BEN KOU-NON. O TÈ-MÈ-NEN KÕ-FÈ, WA-RI-TI-GUI-DJÈ-RÈ FA-NA MA O SÕN KA SI-RA-DI AN MA WA-LA-SA KA BAA-RA DA-MI-NÈ.",
+      "translation": "Mais mon maître, le propriétaire a refusé d'ajuster le contrat écrit hier. De surcroît, le bailleur de fonds principal a lui aussi refusé de nous accorder l'autorisation afin de lancer le travail."
+    },
+    {
+      "speaker": "Alassane",
+      "text": "Hali n'a bɛ rɔ, nka n kɔni fɛ, ni an mana an ka kalo-di-sɛbɛn labɛn ɲɛman, o kɔfɛɲuman an ka lajɛ-ko bɛna kɛ nafaba jɛrɛ ye bi-kɔfɛ.",
+      "phonetic_api": "/ha.li nʼa bɛ rɔ n̩.ka n̩ kɔ.ni fɛ ni an ma.na an ka ka.lo di sɛ.bɛn la.bɛn ɲɛ.maⁿ o kɔ.fɛ.ɲu.maⁿ an ka la.d͡ʒɛ ko bɛ.na kɛ na.fa.ba d͡ʒɛ.rɛ d͡ʒɛ bi kɔ.fɛ/",
+      "phrase_phonetic_simple": "HA-LI NA BÈ RÕ, NKA N KÕ-NI FÈ, NI AN MA-NA AN KA KA-LO-DI-SÈ-BÈN LA-BEN GNU-MAN, O KÕ-FÈ-GNI-MAN AN KA LA-DJÈ-KO BÈ-NA KÈ NA-FA-BA DJÈ-RÈ YÈ BI-KÕ-FÈ.",
+      "translation": "Quand bien même il en serait ainsi, toutefois en ce qui me concerne, dès que nous aurons dressé correctement notre planning, par voie de conséquence, notre projet deviendra une utilité majeure à l'avenir."
+    },
+    {
+      "speaker": "Seydou",
+      "text": "I ka jija-kan ye siga-tɛ-a-la-ko ye. Sɔsɔli-ko bɛɛ da-gbanna sisan. An bɛna teliya-baara kɛ ni hakilitigiya ye.",
+      "phonetic_api": "/i ka d͡ʒi.d͡ʒa kaⁿ d͡ʒɛ si.ga tɛ a la ko d͡ʒɛ sɔ.gɔ.li ko bɛː da g͡baⁿ.na si.san an bɛ.na te.li.ja baː.ra kɛ ni ha.ki.li.ti.gi.ja jɛ/",
+      "phrase_phonetic_simple": "I KA DJI-DJA-KAN YÈ SI-GA-TÈ-A-LA-KO YÈ. SÕ-SÕ-LI-KO BÈÈ DA-GBAN-NA SI-SAN. AN BÈ-NA TÉ-LI-YA-BAA-RA KÈ NI HA-KI-LI-TI-GUI-YA YÈ.",
+      "translation": "Ton affirmation solennelle est une évidence absolue. Toute contestation est désormais close. Nous allons accomplir la tâche urgente avec sagesse."
+    },
+    {
+      "speaker": "Alassane",
+      "text": "Kuma laban na, Ala ka an dusu-kun-jɛ diya, walasa sega-ba ka bɔ an fari la kalo o kalo. K'an bɛn !",
+      "phonetic_api": "/ku.ma la.baⁿ na a.la ka an du.su kuⁿ d͡ʒɛ di.ja wa.la.sa sɛ.gɛ ba ka bɔ an fa.ri la ka.lo o ka.lo kʼan bɛn/",
+      "phrase_phonetic_simple": "A-LA KA AN DOU-SOU-KOUN-DJÈ DI-YA, WA-LA-SA SÈ-GUÈ-BA KA BÕ AN FA-RI LA KA-LO O KA-LO. KAN BEN !",
+      "translation": "En conclusion, que Dieu illumine notre paix intérieure afin que la grande fatigue quitte nos corps mois après mois. Au revoir !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'art oratoire mandingue de haut rang ('kuma-kɔnɔ-ya'), l'enchaînement logique des arguments ne souffre aucune approximation. Commencer par 'A kumasɔgɔdiyan na' pose le cadre oratoire et impose le respect de l'auditoire. Un discours sans connecteurs structurés est perçu comme décousu et indigne d'un décideur ('mɔgɔ-jɛrɛ').",
+    "L'utilisation de 'katuguni' pour amener une justification ou de 'o tɛmɛnen kɔfɛ' pour superposer des arguments montre la maîtrise des dynamiques de palabre. En affaires comme en diplomatie familiale, articuler la cause ('ka bɔ... ko fɛ') et sa conséquence directe permet de déminer les conflits et de clore poliment toute velléité de contestation ('da-gban')."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M1_L3_Ex1_New",
+      "type": "multiple_choice",
+      "question": "Quel connecteur logique formel emploie-t-on en milieu de phrase pour exprimer la conséquence et se traduire par 'par voie de conséquence' ?",
+      "options": [
+        "A kumasɔgɔdiyan na",
+        "O kɔfɛɲuman",
+        "Ka bɔ baara ko fɛ",
+        "Katuguni"
+      ],
+      "correct_answer": "O kɔfɛɲuman",
+      "explanation": "'O kɔfɛɲuman' est le marqueur de conséquence le plus élégant du niveau C1 pour lier logiquement et formellement deux propositions."
+    },
+    {
+      "exercise_id": "C1_M1_L3_Ex2_New",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour introduire solennellement un exposé ou entrer au cœur de son sujet, on place en tête de phrase la locution : '[ ___ ]'.",
+      "correct_answer": "A kumasɔgɔdiyan na",
+      "hint": "Expression de rhétorique supérieure signifiant littéralement 'dans l'agrément de piquer la parole'."
+    },
+    {
+      "exercise_id": "C1_M1_L3_Ex3_New",
+      "type": "multiple_choice",
+      "question": "Que signifie sémantiquement la tournure argumentative complexe 'O tɛmɛnen kɔfɛ' ?",
+      "options": [
+        "En définitive / Pour conclure définitivement",
+        "En outre / De surcroît / Par ailleurs (gradation)",
+        "À cause d'un prix exorbitant et secret",
+        "Avant le lever du soleil à l'université"
+      ],
+      "correct_answer": "En outre / De surcroît / Par ailleurs (gradation)",
+      "explanation": "Composé à partir du verbe passer ('tɛmɛ'), 'O tɛmɛnen kɔfɛ' sert à empiler un nouvel argument de poids dans la démonstration oratoire."
+    }
+  ]
+}

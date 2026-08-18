@@ -1,0 +1,246 @@
+{
+  "lesson_id": "A1_M2_L6",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 6,
+  "title": "Les jours de la semaine, les mois et dire l'heure",
+  "learning_objectives": [
+    "Nommer et utiliser les sept jours de la semaine et les douze mois de l'année",
+    "Utiliser correctement les prépositions de temps (am, im, um)",
+    "Exprimer et demander l'heure de manière officielle (24h) et familière (12h)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La lettre -v- dans le mot 'Mittwoch' ou 'Viertel' peut surprendre : dans 'Viertel', elle se prononce [f] (comme un f), alors que le -w- de 'Mittwoch' se prononce [v]. Le digramme -ch- dans 'Uhr' est totalement muet, servant uniquement à allonger la voyelle précédente [uː]. La combinaison -st- dans 'Donnerstag' ou 'Samstag' se prononce de manière standard [st] car elle se trouve au milieu ou à la fin d'une syllabe, contrairement aux règles du début de mot.",
+    "common_pitfalls": "Attention au mot 'Uhr' : ne prononcez pas le -r de façon trop raclée à la française, il se vocalise doucement en [ɐ]. Dans l'expression familière de l'heure, veillez à bien prononcer le son [ts] de 'zwischen' ou 'vor' si vous l'utilisez, et ne confondez pas 'nach' (après) avec 'vor' (avant)."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "der Montag",
+      "phonetic_api": "/deːɐ̯ ˈmoːntaːk/",
+      "phonetic_simple": "DEER MOON-TAK",
+      "translation": "lundi",
+      "example_sentence": "Am Montag arbeite ich nicht.",
+      "example_phonetic": "/am ˈmoːntaːk ˈaʁbaɪ̯tə ɪç nɪçt/",
+      "example_translation": "Le lundi, je ne travaille pas."
+    },
+    {
+      "word_id": "v2",
+      "term": "der Mittwoch",
+      "phonetic_api": "/deːɐ̯ ˈmɪtvɔx/",
+      "phonetic_simple": "DEER MIT-VOK",
+      "translation": "mercredi (litt. le milieu de la semaine)",
+      "example_sentence": "Mittwoch ist ein langer Tag.",
+      "example_phonetic": "/ˈmɪtvɔx ɪst aɪ̯n ˈlaŋɐ taːk/",
+      "example_translation": "Mercredi est une longue journée."
+    },
+    {
+      "word_id": "v3",
+      "term": "das Wochenende",
+      "phonetic_api": "/das ˈvɔxn̩ˌɛndə/",
+      "phonetic_simple": "DAS VOK-EN-EN-DE",
+      "translation": "le week-end",
+      "example_sentence": "Schönes Wochenende!",
+      "example_phonetic": "/ˈʃøːnə ˈvɔxn̩ˌɛndə/",
+      "example_translation": "Bon week-end !"
+    },
+    {
+      "word_id": "v4",
+      "term": "der Januar",
+      "phonetic_api": "/deːɐ̯ ˈjanu̯aːɐ̯/",
+      "phonetic_simple": "DEER YA-NOU-AR",
+      "translation": "janvier",
+      "example_sentence": "Der Januar ist sehr kalt.",
+      "example_phonetic": "/deːɐ̯ ˈjanu̯aːɐ̯ ɪst zeːɐ̯ kalt/",
+      "example_translation": "Le mois de janvier est très froid."
+    },
+    {
+      "word_id": "v5",
+      "term": "die Uhrzeit",
+      "phonetic_api": "/diː ˈuːɐ̯ˌtsaɪ̯t/",
+      "phonetic_simple": "DII OOUR-TSAIT",
+      "translation": "l'heure (le moment précis de la journée)",
+      "example_sentence": "Wie spät ist es?",
+      "example_phonetic": "/viː ʃpɛːt ɪst ɛs/",
+      "example_translation": "Quelle heure est-il ?"
+    },
+    {
+      "word_id": "v6",
+      "term": "halb",
+      "phonetic_api": "/halp/",
+      "phonetic_simple": "HALP",
+      "translation": "demi / la demie (utilisé pour l'heure)",
+      "example_sentence": "Es ist halb fünf.",
+      "example_phonetic": "/ɛs ɪst halp fʏnf/",
+      "example_translation": "Il est quatre heures et demie (litt. la moitié de cinq)."
+    },
+    {
+      "word_id": "v7",
+      "term": "das Viertel",
+      "phonetic_api": "/das ˈfɪʁtl̩/",
+      "phonetic_simple": "DAS FIIR-TEL",
+      "translation": "le quart / quart d'heure",
+      "example_sentence": "Es ist Viertel nach acht.",
+      "example_phonetic": "/ɛs ɪst ˈfɪʁtl̩ naːx axt/",
+      "example_translation": "Il est huit heures et quart."
+    },
+    {
+      "word_id": "v8",
+      "term": "der Monat",
+      "phonetic_api": "/deːɐ̯ ˈmoːnat/",
+      "phonetic_simple": "DEER MOO-NAT",
+      "translation": "le mois",
+      "example_sentence": "Ein Jahr hat zwölf Monate.",
+      "example_phonetic": "/aɪ̯n jaːɐ̯ hat tsvœlf ˈmoːnatə/",
+      "example_translation": "Une année compte douze mois."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Wie viel Uhr ist es?",
+      "phonetic_api": "/viː fiːl uːɐ̯ ɪst ɛs/",
+      "phonetic_simple": "VII FIIL OOUR IST ES",
+      "translation": "Quelle heure est-il ? (alternative très courante)",
+      "context": "Demander poliment l'heure à quelqu'un dans la rue."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Um wie viel Uhr beginnt der Deutschkurs?",
+      "phonetic_api": "/ʊm viː fiːl uːɐ̯ bəˈɡɪnt deːɐ̯ ˈdɔɪ̯tʃkʊʁs/",
+      "phonetic_simple": "OUM VII FIIL OOUR BE-GINT DEER DOITCH-KOURS",
+      "translation": "À quelle heure commence le cours d'allemand ?",
+      "context": "S'informer sur un horaire précis."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Es ist genau vierzehn Uhr dreißig.",
+      "phonetic_api": "/ɛs ɪst ɡəˈnaʊ̯ ˈfɪʁtseːn uːɐ̯ ˈdʁaɪ̯sɪç/",
+      "phonetic_simple": "ES IST GHE-NAOU FIIR-TSEEN OOUR DRAI-SICH",
+      "translation": "Il est exactement quatorze heures trente.",
+      "context": "Annonce de l'heure officielle (train, radio, bureau)."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Mein Geburtstag ist im August.",
+      "phonetic_api": "/maɪ̯n ɡəˈbuːɐ̯tsˌtaːk ɪst ɪm aʊ̯ˈɡʊst/",
+      "phonetic_simple": "MAIN GHE-BOURTS-TAK IST IM AOOU-GOUST",
+      "translation": "Mon anniversaire est en août.",
+      "context": "Indiquer un repère temporel mensuel."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Wir treffen uns am Samstagabend.",
+      "phonetic_api": "/viːɐ̯ ˈtʁɛfn̩ ʊns am ˈzamstaːkˈaːbn̩/",
+      "phonetic_simple": "VIIR TREF-EN OUNS AM ZAMS-TAK-A-BENT",
+      "translation": "Nous nous rencontrons samedi soir.",
+      "context": "Planifier une sortie ou un rendez-vous amical."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Les prépositions temporelles et le genre des unités de temps",
+      "explanation": "En allemand, les jours de la semaine et les mois sont tous du genre masculin (der). L'usage des prépositions de temps obéit à des règles strictes selon l'unité ciblée (jour, mois, heure).",
+      "rules": [
+        "Pour les jours de la semaine, les moments de la journée (am Morgen, am Abend) et les dates précises, on utilise la préposition contractée 'am' (an + dem + Datif). Exception : la nuit se dit 'in der Nacht'.",
+        "Pour les mois de l'année et les saisons, on utilise la préposition contractée 'im' (in + dem + Datif).",
+        "Pour indiquer une heure précise et fixe, on utilise systématiquement la préposition 'um'."
+      ],
+      "examples": [
+        {
+          "structure": "am Dienstag (jour)",
+          "phonetic_api": "/am ˈdiːnstaːk/",
+          "meaning": "le mardi / mardi"
+        },
+        {
+          "structure": "im Mai (mois)",
+          "phonetic_api": "/ɪm maɪ̯/",
+          "meaning": "en mai"
+        },
+        {
+          "structure": "um acht Uhr (heure)",
+          "phonetic_api": "/ʊm axt uːɐ̯/",
+          "meaning": "à huit heures"
+        }
+      ]
+    },
+    {
+      "concept": "L'expression de l'heure officielle versus familière",
+      "explanation": "L'allemand possède deux manières d'exprimer l'heure : le système formel et le système informel oral, qui comporte un piège majeur avec le mot 'halb'.",
+      "rules": [
+        "L'heure officielle utilise le format 24 heures. La structure est simple : Nombre d'heures + Uhr + Nombre de minutes. Exemple : 15:20 = fünfzehn Uhr zwanzig.",
+        "L'heure informelle utilise le format 12 heures et s'articule autour des repères 'vor' (avant/moins) et 'nach' (après/et).",
+        "Le mot 'halb' (demi) anticipe TOUJOURS l'heure suivante. Ainsi, 'halb sechs' ne signifie pas 6h30, mais la moitié vers 6 heures, c'est-à-dire 5h30."
+      ],
+      "examples": [
+        {
+          "structure": "Es ist Viertel vor drei (informel)",
+          "phonetic_api": "/ɛs ɪst ˈfɪʁtl̩ foːɐ̯ dʁaɪ̯/",
+          "meaning": "Il est trois heures moins le quart (2h45)"
+        },
+        {
+          "structure": "Es ist halb zwei (informel)",
+          "phonetic_api": "/ɛs ɪst halp tstvaɪ̯/",
+          "meaning": "Il est une heure et demie (1h30)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Anna",
+      "text": "Entschuldigung, Michael, wie spät ist es jetzt? Meine Uhr ist stehen geblieben.",
+      "phonetic_api": "/ɛntˈʃʊldɪɡʊŋ ˈmɪçaːeːl viː ʃpɛːt ɪst ɛs jɛtst maɪ̯nə uːɐ̯ ɪst ˈʃteːən ɡəˈbliːbn̩/",
+      "phonetic_simple": "ENT-CHOUL-DI-GUNG MI-KAE-EL VII CHPEET IST ES YETST MAI-NE OOUR IST CHTEE-EN GHE-BLII-BEN",
+      "translation": "Excuse-moi, Michael, quelle heure est-il maintenant ? Mon horloge s'est arrêtée."
+    },
+    {
+      "speaker": "Michael",
+      "text": "Es ist jetzt genau halb acht. Wir haben noch Zeit.",
+      "phonetic_api": "/ɛs ɪst jɛtst ɡəˈnaʊ̯ halp axt viːɐ̯ ˈhaːbn̩ nɔx tsaɪ̯/",
+      "phonetic_simple": "ES IST YETST GHE-NAOU HALP AKT VIIR HA-BEN NOK TSAIT",
+      "translation": "Il est exactement sept heures et demie. Nous avons encore du temps."
+    },
+    {
+      "speaker": "Anna",
+      "text": "Wann war noch mal das Meeting? Am Donnerstag um acht Uhr, richtig?",
+      "phonetic_api": "/van vaːɐ̯ nɔx maːl das ˈmiːtɪŋ am ˈdɔnɐstaːk ʊm axt uːɐ̯ ˈʁɪçtɪç/",
+      "phonetic_simple": "VAN VAR NOK MAL DAS MII-TING AM DON-ERS-TAK OUM AKT OOUR RICH-TICH",
+      "translation": "C'était quand déjà, la réunion ? Jeudi à huit heures, c'est bien ça ?"
+    },
+    {
+      "speaker": "Michael",
+      "text": "Nein, das Meeting wurde verschoben. Es ist jetzt am Freitag im Juni, um neun Uhr fünfzehn.",
+      "phonetic_api": "/naɪ̯n das ˈmiːtɪŋ ˈvʊʁdə fɛɐ̯ˈʃoːbn̩ ɛs ɪst jɛtst am ˈfʁaɪ̯taːk ɪm ˈjuːni ʊm nɔɪ̯n uːɐ̯ ˈfɪʁtseːn/",
+      "phonetic_simple": "NAIN DAS MII-TING VOUR-DE FER-CHOO-BEN ES IST YETST AM FRAI-TAK IM YOU-NI OUM NOIN OOUR FIIR-TSEEN",
+      "translation": "Non, la réunion a été déplacée. C'est maintenant vendredi, en juin, à neuf heures quinze."
+    }
+  ],
+  "cultural_notes": [
+    "Les Allemands séparent traditionnellement les jours ouvrables du week-end de manière très stricte. Le repos dominical (Sonntagsruhe) est protégé par la loi : presque tous les magasins, supermarchés et administrations sont obligatoirement fermés le dimanche.",
+    "La ponctualité allemande ('Pünktlichkeit') s'applique de manière rigoureuse aux horaires indiqués. Si un rendez-vous est fixé à 'halb neun' (8h30), arriver à 8h35 est perçu comme une impolitesse. Il est d'usage d'arriver avec 5 minutes d'avance.",
+    "Dans l'administration ou pour les transports (Deutsche Bahn), seul le format officiel de 24 heures fait foi à l'écrit et lors des annonces en gare, afin d'éviter toute ambiguïté entre le matin et l'après-midi."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Si un ami allemand vous dit : 'Wir treffen uns um halb vier', à quelle heure devez-vous venir ?",
+      "options": [
+        "À 4h30",
+        "À 3h30",
+        "À 16h15"
+      ],
+      "correct_answer": "À 3h30",
+      "explanation": "La formule familière 'halb' indique la moitié de l'heure suivante. 'Halb vier' correspond donc à la moitié vers 4h, soit 3h30."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ich fahre [ ___ ] Juli nach Berlin. (Indiquez la préposition temporelle correcte)",
+      "correct_answer": "im",
+      "hint": "Contraction de la préposition 'in' et de l'article masculin au datif, requise devant les mois."
+    }
+  ]
+}

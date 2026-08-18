@@ -1,0 +1,230 @@
+{
+  "lesson_id": "C1_M3_L7",
+  "level": "Avancé (C1-C2)",
+  "module_number": 3,
+  "module_title": "Maîtrise totale",
+  "lesson_number": 7,
+  "title": "Analyser des textes littéraires ou historiques",
+  "learning_objectives": [
+    "Décoder la syntaxe archaïque et l'appareil métaphorique de la prose littéraire et historiographique classique",
+    "Isoler les marqueurs temporels d'antériorité et les structures narratives spécifiques aux récits d'historiens (Al-Hawādith)",
+    "Rédiger un commentaire herméneutique structuré en employant les outils de l'exégèse et de l'intertextualité"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "L'exégèse et l'analyse historique réclament une diction d'une clarté absolue. Le son pharyngal sourd /ħ/ (ح) est omniprésent à travers 'Hikāyah' (حِكَايَةٌ - récit) ou 'Mulaḥ' (subtilités). La consonne emphatique sourde /tˤ/ (ط) structure 'Makhtūt' (مَخْطُوطٌ - manuscrit). Le rythme syllabique doit respecter scrupuleusement l'allongement de la voyelle longue dans 'Tārīkh' (تَارِيخٌ).",
+    "common_pitfalls": "Attention à ne pas escamoter l'occlusive glottale (Hamza) au milieu de 'Mu'arrikh' (مُؤَرِّخٌ - historien). Veillez également à ne pas confondre le /h/ (هـ) doux de 'Shāhid' (شَاهِدٌ - témoin) avec sa contrepartie pharyngale /ħ/, une confusion qui altérerait le niveau de langue attendu en C1."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "مَخْطُوطٌ",
+      "phonetic_api": "/max.tˤuː.tˤun/",
+      "phonetic_simple": "MAKH-TOOU-TOUN",
+      "translation": "Un manuscrit / Un document ancien écrit à la main",
+      "example_sentence": "تَحْتَفِظُ الْمَكْتَبَةُ بِهَذَا الْمَخْطُوطِ النَّادِرِ",
+      "example_phonetic": "/.../",
+      "example_translation": "La bibliothèque conserve ce manuscrit rare"
+    },
+    {
+      "word_id": "v2",
+      "term": "مُؤَرِّخٌ",
+      "phonetic_api": "/mu.ʔar.rix/",
+      "phonetic_simple": "MOU-AR-RIKH",
+      "translation": "Un historien / Un chroniqueur / Un annaliste",
+      "example_sentence": "ذَكَرَ الْمُؤَرِّخُ ابْنُ خَلْدُونٍ هَذِهِ الْوَاقِعَةَ",
+      "example_phonetic": "/.../",
+      "example_translation": "L'historien Ibn Khaldoun a mentionné cet événement"
+    },
+    {
+      "word_id": "v3",
+      "term": "تَأْوِيلٌ",
+      "phonetic_api": "/taʔ.wiː.lun/",
+      "phonetic_simple": "TA'-WII-LOUN",
+      "translation": "Une herméneutique / Une interprétation profonde / Une exégèse",
+      "example_sentence": "يَحْتَمِلُ هَذَا النَّصُّ التَّأْوِيلَ",
+      "example_phonetic": "/.../",
+      "example_translation": "Ce texte se prête à l'interprétation"
+    },
+    {
+      "word_id": "v4",
+      "term": "حِقْبَةٌ",
+      "phonetic_api": "/ħiq.ba.tun/",
+      "phonetic_simple": "HIK-BA-TOUN",
+      "translation": "Une époque / Une ère / Une période historique (Pluriel : Hiqab)",
+      "example_sentence": "شَهِدَتْ تِلْكَ الْحِقْبَةُ ازْدِهَارًا ثَقَافِيًّا",
+      "example_phonetic": "/.../",
+      "example_translation": "Cette époque a été le témoin d'un épanouissement culturel"
+    },
+    {
+      "word_id": "v5",
+      "term": "سَرْدِيَّةٌ",
+      "phonetic_api": "/sar.dij.ja.tun/",
+      "phonetic_simple": "SAR-DIY-YA-TOUN",
+      "translation": "Une narration / Une structure narrative / Une diégèse",
+      "example_sentence": "تَمْتَازُ السَّرْدِيَّةُ التَّارِيخِيَّةُ بِالْوَاقِعِيَّةِ",
+      "example_phonetic": "/.../",
+      "example_translation": "La narration historique se distingue par son réalisme"
+    },
+    {
+      "word_id": "v6",
+      "term": "شَاهِدٌ",
+      "phonetic_api": "/ʃaː.hi.dun/",
+      "phonetic_simple": "CHAA-HI-DOUN",
+      "translation": "Un témoin / Une preuve textuelle / Une attestation (Pluriel : Shawāhid)",
+      "example_sentence": "هَذَا الْبَيْتُ الشِّعْرِيُّ شَاهِدٌ عَلَى لُغَةِ الْعَصْرِ",
+      "example_phonetic": "/.../",
+      "example_translation": "Ce vers de poésie est une attestation de la langue de l'époque"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "يَتَبَيَّنُ لِلْبَاحِثِ مِنْ خِلَالِ اسْتِقْرَاءِ الْمَخْطُوطِ أَنَّ الْحَادِثَةَ مُوَثَّقَةٌ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "YA-TA-BAY-YA-NOU LIL-BAA-HI-THI MIN KHI-LAA-LIL IS-TIK-RAAA-I...",
+      "translation": "Il apparaît clairement au chercheur, à travers l'examen exhaustif du manuscrit, que l'événement est documenté",
+      "context": "Formule d'analyse critique avancée courante dans les thèses de doctorat ou les essais d'historiographie."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "تَنْطَوِي هَذِهِ السَّرْدِيَّةُ عَلَى دَلَالَاتٍ سِيَاسِيَّةٍ بَاطِنِيَّةٍ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "TAN-TA-WII HAA-THI-HIL SAR-DIY-YA-TOU A-LAA DA-LAA-LAA-TIN...",
+      "translation": "Cette narration recèle des significations politiques sous-jacentes (ésotériques)",
+      "context": "Isoler les messages implicites ou allégoriques d'un texte littéraire ancien."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "أَجْمَعَ الْمُؤَرِّخُونَ عَلَى أَنَّ تِلْكَ الْحِقْبَةَ كَانَتْ نُقْطَةَ تَحَوُّلٍ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "ADj-MA-AL MOU-AR-RI-KHOOU-NA A-LAA AN-NA TIL-KAL HIK-BA...",
+      "translation": "Les historiens ont unanimement convenu que cette époque constituait un tournant",
+      "context": "Établir un consensus historiographique lors d'un exposé ou d'une dissertation."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "يَقُودُنَا تَأْوِيلُ النَّصِّ إِلَى اسْتِنْتَاجِ أَبْعَادِ الْفِكْرِ السَّائِدِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "YA-KOOU-DOU-NAA TA'-WII-LOUL NAS-SI I-LAS-TIN-TAA-DJI...",
+      "translation": "L'exégèse du texte nous amène à déduire les dimensions de la pensée dominante",
+      "context": "Formuler une conclusion d'ordre herméneutique sur la production littéraire."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "مَا زَالَ هَذَا الأَثَرُ الأَدَبِيُّ يُشَكِّلُ شَاهِدًا حَيًّا عَلَى الْبَلاغَةِ",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "MAA ZAA-LA HAA-THAL A-THA-ROUL A-DA-BIY-YOU YOU-CHAK-KI-LOU...",
+      "translation": "Cette œuvre littéraire constitue encore aujourd'hui un témoignage vivant de l'éloquence",
+      "context": "Valoriser la portée intemporelle d'un texte classique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "Le pluriel externe masculin au cas sujet sémantique : La déclinaison des historiens 'Al-Mu'arrikhūna'",
+      "explanation": "Les textes d'analyse historique manipulent fréquemment des groupes de savants ou de chroniqueurs. Au niveau C1, la maîtrise rigoureuse du pluriel sain masculin (Jam' al-Mudhakkar al-Sālim) s'impose.",
+      "rules": [
+        "Au cas sujet (Nominatif/Sujet d'un verbe), il se termine par la désinence 'ūna' (ـُونَ) : ex: 'Ajma'a al-mu'arrikhūna' (أَجْمَعَ الْمُؤَرِّخُونَ).",
+        "Au cas direct (Accusatif) et indirect (Génitif/Après préposition), il se transforme impérativement en 'īna' (ـِينَ) : ex: 'Mina al-mu'arrikhīna' (مِنَ الْمُؤَرِّخِينَ)."
+      ],
+      "examples": [
+        {
+          "structure": "قَالَ الْمُؤَرِّخُونَ",
+          "phonetic_api": "/qaː.lal mu.ʔar.ri.xuː.na/",
+          "meaning": "Les historiens ont dit (Sujet au nominatif en ūna)"
+        },
+        {
+          "structure": "قَرَأْتُ لِلْمُؤَرِّخِينَ",
+          "phonetic_api": "/qa.raʔ.tu lil.mu.ʔar.ri.xiː.na/",
+          "meaning": "J'ai lu les écrits des historiens (Génitif introduit par la préposition li)"
+        }
+      ]
+    },
+    {
+      "concept": "L'aspect d'inclusions verbales abstraites : 'Tanṭawī 'alā' (تَنْطَوِي عَلَى)",
+      "explanation": "Pour décrire la composition interne ou sémantique d'un écrit littéraire complexe, la grammaire utilise des verbes réfléchis de la Forme VII introduisant des compléments prépositionnels régis.",
+      "rules": [
+        "Le verbe 'Inṭawā / Yanṭawī' (اِنْطَوَى / يَنْطَوِي) s'accorde avec le sujet de l'œuvre (ex: as-Sardiyyah = féminin).",
+        "Il exige l'usage exclusif de la préposition ''alā' (عَلَى), qui place le substantif ou la notion descriptive au cas indirect (Génitif)."
+      ],
+      "examples": [
+        {
+          "structure": "تَنْطَوِي الرِّوَايَةُ عَلَى فَلْسَفَةٍ",
+          "phonetic_api": "/tan.tˤa.wir ri.waː.ja.tu ʕa.laː fal.sa.fa.tin/",
+          "meaning": "Le roman recèle (renferme) une philosophie (Falsafatin prend le génitif)"
+        },
+        {
+          "structure": "يَنْطَوِي النَّصُّ عَلَى رُمُوزٍ",
+          "phonetic_api": "/.../",
+          "meaning": "Le texte renferme des symboles"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "الْأُسْتَاذُ عِصَام (Prof. Issam)",
+      "text": "أَهْلًا أُسْتَاذَة دُنْيَا. كَيْفَ تَرَيْنَ سَرْدِيَّةَ هَذَا الْمَخْطُوطِ التَّارِيخِيِّ الَّتِي تَعُودُ إِلَى الْحِقْبَةِ الْعَبَّاسِيَّةِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN OUS-TAA-THA DOUN-YAA. KAY-FA TA-RAY-NA SAR-DIY-YA-TA...",
+      "translation": "Bonjour professeure Donia. Comment analysez-vous la structure narrative de ce manuscrit historique qui remonte à l'époque abbasside ?"
+    },
+    {
+      "speaker": "الْأُسْتَاذَةُ دُنْيَا (Prof. Donia)",
+      "text": "أَهْلًا أُسْتَاذُ عِصَامُ. إِنَّ تَأْوِيلَ النَّصِّ يَقُودُنَا إِلَى أَنَّ الْمُؤَرِّخَ لَمْ يَكُنْ مُحَايِدًا، بَلْ كَانَ كَلَامُهُ يَنْطَوِي عَلَى رَمْزِيَّةٍ سِيَاسِيَّةٍ.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "AH-LAN OUS-TAA-THOU I-SAAM. IN-NA TA'-WII-LAL NAS-SI YA-KOOU-DOU-NAA...",
+      "translation": "Bonjour professeur Issam. L'exégèse du texte nous révèle que le chroniqueur n'était pas neutre, mais que son discours recélait au contraire un symbolisme politique."
+    },
+    {
+      "speaker": "الْأُسْتَاذُ عِصَام (Prof. Issam)",
+      "text": "هَذَا صَحِيحٌ. وَمَا هِيَ الشَّوَاهِدُ اللُّغَوِيَّةُ الَّتِي اعْتَمَدْتِ عَلَيْهَا لِإِثْبَاتِ هَذِهِ الْفَرْضِيَّةِ؟",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "HAA-THAA SA-HIIH. WA MAA HI-YAL CHA-WAA-HI-DOUL LOU-GHA-WIY-YA...",
+      "translation": "C'est exact. Et quelles sont les attestations linguistiques sur lesquelles vous vous êtes appuyée pour démontrer cette hypothèse ?"
+    },
+    {
+      "speaker": "الْأُسْتَاذَةُ دُنْيَا (Prof. Donia)",
+      "text": "لَقَدْ وَجَدْتُ عِبَارَاتٍ كَثِيرَةً تَعْتَمِدُ عَلَى الِاسْتِعَارَةِ الْمَجَازِيَّةِ، وَعِلَاوَةً عَلَى ذَلِكَ، فَإِنَّ بَعْضَ الْفُصُولِ تُفَنِّدُ الرِّوَايَةَ الرَّسْمِيَّةَ السَّائِدَةَ تَمَامًا.",
+      "phonetic_api": "/.../",
+      "phonetic_simple": "LA-KAD WA-DJAD-TOU I-BAA-RAA-TIN KA-THII-RA TA'-TA-MI-DOU...",
+      "translation": "J'ai relevé de nombreuses expressions fondées sur la métaphore allégorique et, de surcroît, certains chapitres démontent complètement la version officielle dominante."
+    }
+  ],
+  "cultural_notes": [
+    "L'historiographie islamique classique (Al-Tarikh) : Les chroniqueurs arabes anciens, tels qu'Al-Tabari ou Ibn al-Athir, ne se contentaient pas de rapporter des faits. Ils organisaient le récit par année (Annales) ou par généalogie, en insistant sur la chaîne de transmission des informations (Isnad). Analyser un texte historique implique de comprendre cette quête de légitimité textuelle.",
+    "L'art de l'intertextualité (Al-Tanas) : Dans la littérature arabe, un texte contemporain ou médiéval est perçu comme un tissu de citations et d'allusions aux œuvres antérieures (notamment la poésie préislamique et les textes sacrés). Le critique littéraire de niveau avancé doit savoir repérer ces 'Shawāhid' (attestations) cachées pour saisir l'épaisseur de l'œuvre."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "C1_M3_L7_ex1",
+      "type": "multiple_choice",
+      "question": "Comment s'orthographie le mot 'Les historiens' lorsqu'il occupe la place de sujet actif d'une action ?",
+      "options": [
+        "الْمُؤَرِّخِينَ (Al-Mu'arrikhīna)",
+        "الْمُؤَرِّخُونَ (Al-Mu'arrikhūna)",
+        "الْمُؤَرِّخَاتِ (Al-Mu'arrikhāti)"
+      ],
+      "correct_answer": "الْمُؤَرِّخُونَ (Al-Mu'arrikhūna)",
+      "explanation": "En tant que sujet grammatical au nominatif, le pluriel sain masculin prend la désinence en 'ūna'."
+    },
+    {
+      "exercise_id": "C1_M3_L7_ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour dire 'La poésie renferme des leçons...', on associe la préposition exacte : يَنْطَوِي الشِّعْرُ [ ___ ] عِبَرٍ كَبِيرَةٍ",
+      "correct_answer": "عَلَى",
+      "hint": "C'est la préposition de régie obligatoire pour le verbe de la Forme VII Inṭawā."
+    },
+    {
+      "exercise_id": "C1_M3_L7_ex3",
+      "type": "multiple_choice",
+      "question": "Que représente un 'شَاهِد' (Shāhid) au cours de l'explication critique d'un texte ?",
+      "options": [
+        "Un dictionnaire de synonymes anciens",
+        "Un extrait textuel ou un vers poétique servant de preuve d'usage",
+        "L'auteur anonyme du manuscrit"
+      ],
+      "correct_answer": "Un extrait textuel ou un vers poétique servant de preuve d'usage",
+      "explanation": "Le Shāhid (attestation/témoin) est le pilier de la méthode critique arabe, servant à légitimer une règle de grammaire, un sens lexical ou un fait d'histoire par l'exemple."
+    }
+  ]
+}

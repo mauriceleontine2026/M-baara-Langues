@@ -1,0 +1,132 @@
+{
+  "lesson_id": "A1_M3_L7",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 7,
+  "title": "Demander son chemin et se repérer",
+  "learning_objectives": [
+    "Demander la localisation d'un lieu important (marché, maison)",
+    "Comprendre et utiliser les directions de base (droite, gauche, devant)",
+    "S'orienter simplement dans un village ou une ville"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La pré-nasalisation de la consonne /ⁿd/ dans 'ndoo' (chemin) exige une tension articulatoire sans voyelle intermédiaire parasite.",
+    "common_pitfalls": "Ne séparez pas le 'n' et le 'd' lors de l'articulation de 'ndoo'. C'est une consonne unique occlusive sonore précédée d'un léger bourdonnement nasal."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v7_1",
+      "term": "ndoo",
+      "phonetic_api": "/ⁿdoː/",
+      "phonetic_simple": "NDOO",
+      "translation": "chemin / route / voie",
+      "example_sentence": "Ndoo o co cɔɔ.",
+      "example_phonetic": "/ⁿdoː o tʃo tʃɔː/",
+      "example_translation": "Le chemin est long."
+    },
+    {
+      "word_id": "v7_2",
+      "term": "ciao",
+      "phonetic_api": "/tʃja.o/",
+      "phonetic_simple": "TCHIA-O",
+      "translation": "marché",
+      "example_sentence": "Ciao o co wa.",
+      "example_phonetic": "/tʃja.o o tʃo wa/",
+      "example_translation": "Le marché est ici."
+    },
+    {
+      "word_id": "v7_3",
+      "term": "fassa",
+      "phonetic_api": "/fa.sa/",
+      "phonetic_simple": "FAS-SA",
+      "translation": "côté / direction",
+      "example_sentence": "Fassa yɛŋ ?",
+      "example_phonetic": "/fa.sa jɛŋ/",
+      "example_translation": "Quel côté / Quelle direction ?"
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p7_1",
+      "original": "Ciao o co vɛ ?",
+      "phonetic_api": "/tʃja.o o tʃo vɛ/",
+      "phonetic_simple": "TCHIA-O O TCHO VÈ",
+      "translation": "Où se trouve le marché ?",
+      "context": "Se déplacer et demander une direction"
+    },
+    {
+      "phrase_id": "p7_2",
+      "original": "Ndoo ciao o co wa ?",
+      "phonetic_api": "/ⁿdoː tʃja.o o tʃo wa/",
+      "phonetic_simple": "NDOO TCHIA-O O TCHO WA",
+      "translation": "Le chemin du marché est-il ici ?",
+      "context": "Vérifier son itinéraire"
+    },
+    {
+      "phrase_id": "p7_3",
+      "original": "Lɔ fassa pilɔ.",
+      "phonetic_api": "/lɔ fa.sa pi.lɔ/",
+      "phonetic_simple": "LO FAS-SA PI-LO",
+      "translation": "Prends un côté. / Tourne par là.",
+      "context": "Donner une instruction de direction"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'interrogatif de lieu 'vɛ' (où)",
+      "explanation": "L'expression de la localisation recherchée s'effectue en adjoignant la particule postposée 'vɛ' après le bloc composé du verbe d'existence.",
+      "rules": [
+        "Le lieu recherché s'énonce en premier.",
+        "La structure classique est : [Lieu] + o co + vɛ."
+      ],
+      "examples": [
+        {
+          "structure": "Nom de lieu + o co + vɛ",
+          "phonetic_api": "/tʃja.o o tʃo vɛ/",
+          "meaning": "Où est le marché ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Saa",
+      "text": "Maaluon, ciao o co vɛ ?",
+      "phonetic_api": "/maː.lu.õ tʃja.o o tʃo vɛ/",
+      "phonetic_simple": "MAA-LOU-ONN TCHIA-O O TCHO VÈ",
+      "translation": "S'il te plaît, où est le marché ?"
+    },
+    {
+      "speaker": "Faya",
+      "text": "Ciao o co fassa wa.",
+      "phonetic_api": "/tʃja.o o tʃo fa.sa wa/",
+      "phonetic_simple": "TCHIA-O O TCHO FAS-SA WA",
+      "translation": "Le marché est de ce côté."
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'espace géographique kissi, les indications s'appuient souvent sur des repères physiques majeurs et partagés : grands arbres (fromagers), cours d'eau ou structures collectives plutôt que sur des noms de rues."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex7_1",
+      "type": "multiple_choice",
+      "question": "Que signifie la question 'Ciao o co vɛ ?'",
+      "options": [
+        "Où est le marché ?",
+        "Qui est là ?",
+        "Où est la maison ?"
+      ],
+      "correct_answer": "Où est le marché ?",
+      "explanation": "'Ciao' désigne le marché et 'vɛ' exprime le lieu interrogé."
+    },
+    {
+      "exercise_id": "ex7_2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Ndoo o co [ ___ ]. (Le chemin est long)",
+      "correct_answer": "cɔɔ",
+      "hint": "Adjectif pour long/longue"
+    }
+  ]
+}

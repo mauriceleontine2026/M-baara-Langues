@@ -1,0 +1,234 @@
+{
+  "lesson_id": "A1_M1_L1",
+  "level": "Débutant (A1-A2)",
+  "module_number": 1,
+  "module_title": "Les bases de la communication",
+  "lesson_number": 1,
+  "title": "Les salutations et les formules de politesse",
+  "learning_objectives": [
+    "Maîtriser les salutations adaptées aux quatre grands moments de la journée en bissa",
+    "Employer correctement les formules de politesse de base, de gratitude et de bienvenue",
+    "Répondre de manière culturellement appropriée aux salutations d'un interlocuteur"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La langue bissa emploie un système à neuf voyelles avec une distinction stricte entre voyelles tendues et relâchées, ainsi qu'une nasalisation marquée (notée par un tilde /~/\n ou par un relâchement spécifique). Les consonnes occlusives et la fricative glottale /h/ en fin de syllabe requièrent une légère expiration contrôlée, sans friction excessive au niveau de la gorge. L'accent tonique principal repose généralement sur la première syllabe du radical nominal.",
+    "common_pitfalls": "L'erreur la plus fréquente consiste à omettre la particule d'actualisation 'ki' ou à prononcer le 'h' final des radicaux (comme dans 'domireh') comme un phonème /ʃ/ ou /χ/ de type maghrébin ou espagnol. Veillez à maintenir une simple expiration douce."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Domire",
+      "phonetic_api": "/dɔmiʁɛ/",
+      "phonetic_simple": "DO-MI-REH",
+      "translation": "Le matin / la matinée",
+      "example_sentence": "Domire mbe n dɔ",
+      "example_phonetic": "/dɔmiʁɛ mbe n dɔ/",
+      "example_translation": "Le matin est agréable."
+    },
+    {
+      "word_id": "v2",
+      "term": "Sundare",
+      "phonetic_api": "/sʊndaʁɛ/",
+      "phonetic_simple": "SOUN-DA-REH",
+      "translation": "Le milieu de la journée / l'après-midi",
+      "example_sentence": "Sundare ya gaa",
+      "example_phonetic": "/sʊndaʁɛ ja ɡaː/",
+      "example_translation": "L'après-midi est chaud."
+    },
+    {
+      "word_id": "v3",
+      "term": "Yirbaa",
+      "phonetic_api": "/jiʁbaː/",
+      "phonetic_simple": "YIR-BAA",
+      "translation": "Le soir / la nuit",
+      "example_sentence": "Yirbaa burki",
+      "example_phonetic": "/jiʁbaː buʁki/",
+      "example_translation": "La nuit est tombée."
+    },
+    {
+      "word_id": "v4",
+      "term": "Barka",
+      "phonetic_api": "/baʁka/",
+      "phonetic_simple": "BAR-KA",
+      "translation": "Bénédiction / remerciement",
+      "example_sentence": "Barka boi",
+      "example_phonetic": "/baʁka bɔi/",
+      "example_translation": "Grand merci."
+    },
+    {
+      "word_id": "v5",
+      "term": "Moro",
+      "phonetic_api": "/mɔʁɔ/",
+      "phonetic_simple": "MO-RO",
+      "translation": "Accueil / l'arrivée d'un visiteur",
+      "example_sentence": "Moro ki",
+      "example_phonetic": "/mɔʁɔ ki/",
+      "example_translation": "Bienvenue."
+    },
+    {
+      "word_id": "v6",
+      "term": "Kuso",
+      "phonetic_api": "/kuso/",
+      "phonetic_simple": "KOU-SO",
+      "translation": "Pitié / grâce (utilisé pour demander)",
+      "example_sentence": "Kuso hinsi",
+      "example_phonetic": "/kuso hinsi/",
+      "example_translation": "S'il te plaît / s'il vous plaît."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "Domireh ki",
+      "phonetic_api": "/dɔmiʁɛ ki/",
+      "phonetic_simple": "DO-MI-REH KI",
+      "translation": "Bonjour",
+      "context": "Salutation exclusive de la matinée (du lever du soleil jusqu'à environ 11h30)."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "Sundareh ki",
+      "phonetic_api": "/sʊndaʁɛ ki/",
+      "phonetic_simple": "SOUN-DA-REH KI",
+      "translation": "Bon après-midi / Bonjour",
+      "context": "Salutation employée pendant les heures les plus chaudes de la journée (de midi à 15h30)."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "Yirbaa ki",
+      "phonetic_api": "/jiʁbaː ki/",
+      "phonetic_simple": "YIR-BAA KI",
+      "translation": "Bonsoir",
+      "context": "Salutation standard dès la fin de l'après-midi et durant toute la nuit."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "An barka boi",
+      "phonetic_api": "/an baʁka bɔi/",
+      "phonetic_simple": "AN BAR-KA BOI",
+      "translation": "Il n'y a pas de quoi / Je vous en prie",
+      "context": "Réponse polie et respectueuse après avoir reçu un remerciement."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "Kuso hinsi, n nam bɔ ti",
+      "phonetic_api": "/kuso hinsi n nam bɔ ti/",
+      "phonetic_simple": "KOU-SO HIN-SI N NAM BO TI",
+      "translation": "S'il vous plaît, donnez-moi de l'eau",
+      "context": "Demande de base hautement polie en arrivant dans une concession ou une maisonnée."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "Moro ki, m bisi bɔ ?",
+      "phonetic_api": "/mɔʁɔ ki m bisi bɔ/",
+      "phonetic_simple": "MO-RO KI M BI-SI BO",
+      "translation": "Bienvenue, comment va la fatigue ?",
+      "context": "Formule rituelle complète pour accueillir un voyageur ou un travailleur de retour."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "Bisi borii",
+      "phonetic_api": "/bisi bɔʁiː/",
+      "phonetic_simple": "BI-SI BO-RII",
+      "translation": "La fatigue est partie (réponse)",
+      "context": "Réponse obligatoire à la formule de salutation sur la fatigue."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "Wɔɔ zɩ k'a nɩ arzana ʊ",
+      "phonetic_api": "/wɔː zi ka ni aʁzana u/",
+      "phonetic_simple": "WÔÔ ZI KA NI AR-ZA-NA OU",
+      "translation": "Que Dieu nous accorde la paix du paradis",
+      "context": "Bénédiction de haut respect mutuel utilisée par les anciens ou lors des séparations."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La particule d'actualisation énonciative 'ki'",
+      "explanation": "En bissa, les salutations ne sont pas de simples juxtapositions de noms temporels. L'insertion de la particule morphosyntaxique 'ki' valide l'état et transforme le substantif de temps en un énoncé performatif de salutation active.",
+      "rules": [
+        "La particule 'ki' se place immédiatement après le nom du moment de la journée.",
+        "Elle demeure parfaitement invariable, que l'on s'adresse à un individu unique ou à une collectivité.",
+        "Omettre 'ki' réduit la phrase à un simple mot isolé, ce qui brise la valeur pragmatique de la salutation."
+      ],
+      "examples": [
+        {
+          "structure": "Yirbaa (Soir) + ki (Particule) = Yirbaa ki",
+          "phonetic_api": "/jiʁbaː ki/",
+          "meaning": "Je vous souhaite un bon soir (Bonsoir)."
+        }
+      ]
+    },
+    {
+      "concept": "La réduplication verbale et adjectivale de politesse",
+      "explanation": "Pour intensifier la gratitude ou insister sur la disparition d'un état négatif (comme la fatigue), la langue bissa utilise l'allongement vocalique final ou la réduplication de la racine.",
+      "rules": [
+        "L'allongement de la voyelle finale dans les réponses indique l'accomplissement total de l'action.",
+        "Le mot 'boi' sert d'intensificateur adverbial placé en fin de proposition."
+      ],
+      "examples": [
+        {
+          "structure": "Bisi (Fatigue) -> Bisi borii",
+          "phonetic_api": "/bisi bɔʁiː/",
+          "meaning": "La fatigue est totalement dissipée."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Adama (L'arrivant)",
+      "text": "Domireh ki ! Kuso hinsi, m bisi bɔ ?",
+      "phonetic_api": "/dɔmiʁɛ ki kuso hinsi m bisi bɔ/",
+      "phonetic_simple": "DO-MI-REH KI ! KOU-SO HIN-SI M BI-SI BO",
+      "translation": "Bonjour ! S'il vous plaît, comment va la fatigue ?"
+    },
+    {
+      "speaker": "Mariam (L'hôte)",
+      "text": "Domireh ki ! Moro ki, bisi borii.",
+      "phonetic_api": "/dɔmiʁɛ ki mɔʁɔ ki bisi bɔʁiː/",
+      "phonetic_simple": "DO-MI-REH KI ! MO-RO KI BI-SI BO-RII",
+      "translation": "Bonjour ! Bienvenue, la fatigue est bien partie."
+    },
+    {
+      "speaker": "Adama (L'arrivant)",
+      "text": "Barka boi n gyi le.",
+      "phonetic_api": "/baʁka bɔi n dʒi le/",
+      "phonetic_simple": "BAR-KA BOI N DJYI LE",
+      "translation": "Grand merci pour cet accueil chaleureux."
+    },
+    {
+      "speaker": "Mariam (L'hôte)",
+      "text": "An barka boi. Wɔɔ zɩ k'a nɩ arzana ʊ.",
+      "phonetic_api": "/an baʁka bɔi wɔː zi ka ni aʁzana u/",
+      "phonetic_simple": "AN BAR-KA BOI. WÔÔ ZI KA NI AR-ZA-NA OU",
+      "translation": "Je vous en prie. Que Dieu nous accorde le paradis."
+    }
+  ],
+  "cultural_notes": [
+    "Au sein de la communauté Bissa au Burkina Faso (principalement dans les régions du Centre-Est comme Garango, Tenkodogo et Zabré), saluer est un impératif éthique majeur. Refuser ou omettre une salutation est interprété comme une rupture volontaire des relations sociales ou une marque d'hostilité ouverte.",
+    "La formulation rituelle intègre obligatoirement l'échange sur la fatigue ('bisi'). Cet usage démontre une empathie active envers le labeur physique et les efforts consentis par l'interlocuteur au cours de sa journée.",
+    "Les formules d'inspiration spirituelle comme 'Wɔɔ zɩ k'a nɩ arzana ʊ' témoignent de la fusion historique des traditions spirituelles locales et des apports monothéistes, ancrant chaque interaction quotidienne dans une quête de paix collective."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la particule morphosyntaxique indispensable pour valider activement une formule de salutation temporelle en bissa ?",
+      "options": [
+        "boi",
+        "ki",
+        "hinsi"
+      ],
+      "correct_answer": "ki",
+      "explanation": "La particule 'ki' valide l'énoncé et transforme le nom de moment de journée en acte de salutation obligatoire."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "En réponse à l'accueil 'Moro ki', le voyageur exprime sa gratitude en déclarant : [ ___ ] boi.",
+      "correct_answer": "Barka",
+      "hint": "Terme bissa signifiant bénédiction ou remerciement."
+    }
+  ]
+}

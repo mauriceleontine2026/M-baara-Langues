@@ -1,0 +1,201 @@
+{
+  "lesson_id": "C1_M1_L3",
+  "level": "Avancé (C1-C2)",
+  "module_number": 1,
+  "module_title": "Nuances et complexité",
+  "lesson_number": 3,
+  "title": "Connecteurs logiques pour un discours élaboré",
+  "learning_objectives": [
+    "Articuler un raisonnement complexe en utilisant des connecteurs de cause, de conséquence et d'opposition en bissa",
+    "Structurer une transition fluide entre deux arguments opposés dans un discours formel",
+    "Employer des locutions de but et de conclusion pour finaliser une démonstration oratoire"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon repose sur la prononciation précise des connecteurs logiques de transition comme 'hẽe-wiri-gãã' ou 'kõ-dɔ'. La maîtrise de l'accentuation tonale sur 'bɔ́-ti-la' (parce que) et le respect des pauses respiratoires inter-propositionnelles sont indispensables pour donner au discours son caractère solennel et fluide.",
+    "common_pitfalls": "Attention à ne pas télescoper la particule causale 'bɔ́-ti-la' avec le locatif interrogatif simple. La voix doit marquer un léger point d'arrêt juste après l'énoncé du connecteur pour structurer la hiérarchie des arguments."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Bɔ́-ti-la",
+      "phonetic_api": "/bɔ́tila/",
+      "phonetic_simple": "BÓ-TI-LA",
+      "translation": "Parce que / étant donné que / car (cause)",
+      "example_sentence": "M gaa le bɔ́-ti-la tuumda bɔrɩ le",
+      "example_phonetic": "/m̩ ɡaː le bɔ́tila tuːmda bɔʁɪ le/",
+      "example_translation": "Je suis parti parce que le travail était terminé."
+    },
+    {
+      "word_id": "v2",
+      "term": "Kõ-dɔ",
+      "phonetic_api": "/kõdɔ/",
+      "phonetic_simple": "KON-DO",
+      "translation": "C'est pourquoi / par conséquent (conséquence)",
+      "example_sentence": "Kõ-dɔ m wá gãũ gõ la ki hẽe",
+      "example_phonetic": "/kõdɔ m̩ wá ɡãũ ɡõ la ki hẽː/",
+      "example_translation": "C'est pourquoi je vais acheter la maison aujourd'hui."
+    },
+    {
+      "word_id": "v3",
+      "term": "Hẽe-wiri-gãã",
+      "phonetic_api": "/hẽːwiʁiɡãː/",
+      "phonetic_simple": "HEEN-WI-RI-GAAN",
+      "translation": "Cependant / néanmoins / toutefois (opposition)",
+      "example_sentence": "Hẽe-wiri-gãã m gã gaa bɔ-da mõ-zi",
+      "example_phonetic": "/hẽːwiʁiɡãː m̩ ɡã ɡaː bɔda mõzi/",
+      "example_translation": "Cependant, mon esprit n'avait pas l'habitude de douter."
+    },
+    {
+      "word_id": "v4",
+      "term": "Tirã-n-dɔ",
+      "phonetic_api": "/tiʁãndɔ/",
+      "phonetic_simple": "TI-RAN-N-DO",
+      "translation": "En outre / de plus / par ailleurs (addition)",
+      "example_sentence": "Tirã-n-dɔ a la zɔnda sãa",
+      "example_phonetic": "/tiʁãndɔ a la zɔnda sãː/",
+      "example_translation": "En outre, c'est un expert cultivateur."
+    },
+    {
+      "word_id": "v5",
+      "term": "Bɔrɩ-zɩ",
+      "phonetic_api": "/bɔʁɪzɪ/",
+      "phonetic_simple": "BO-RI-ZI",
+      "translation": "Enfin / en conclusion / pour terminer",
+      "example_sentence": "Bɔrɩ-zɩ, wiri gãã la ki bisi",
+      "example_phonetic": "/bɔʁɪzɪ wiʁi ɡãː la ki bisi/",
+      "example_translation": "Enfin, c'est la règle coutumière absolue."
+    },
+    {
+      "word_id": "v6",
+      "term": "Gã-n-dɔ-ti",
+      "phonetic_api": "/ɡãndɔti/",
+      "phonetic_simple": "GAN-N-DO-TI",
+      "translation": "Dans le but de / afin que / pour que (but)",
+      "example_sentence": "M bɔ tuumda gẽ la ki gã-n-dɔ-ti m wá wáari mõ",
+      "example_phonetic": "/m̩ bɔ tuːmda ɟẽ la ki ɡãndɔti m̩ wá wáari mõ/",
+      "example_translation": "Je travaille dans le but de trouver de l'argent."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "M bɔ tuumda gẽ la ki, kõ-dɔ m wá wáari mõ n gaa bɔrɩ le",
+      "phonetic_api": "/m̩ bɔ tuːmda ɟẽ la ki kõdɔ m̩ wá wáari mõ n̩ ɡaː bɔʁɪ le/",
+      "phonetic_simple": "M BO TOUM-DA GYEN LA KI, KON-DO M WÁ WÁA-RI MON N GAA BO-RI LE",
+      "translation": "Je travaille activement, c'est pourquoi j'aurai acquis une autonomie financière",
+      "context": "Expression d'une relation logique de conséquence au sein d'une argumentation professionnelle."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "A la tuumda kpeenã, hẽe-wiri-gãã m gã gaa wá bɔ-da mõ-zi gẽ",
+      "phonetic_api": "/a la tuːmda kpeːnã hẽːwiʁiɡãː m̩ ɡã ɡaː wá bɔda mõzi ɟẽ/",
+      "phonetic_simple": "A LA TOUM-DA KPEE-NAN, HEEN-WI-RI-GAAN M GAN GAA WÁ BO-DA MON-ZI GYEN",
+      "translation": "C'est une tâche immense, cependant mon esprit n'aura aucune habitude de douter",
+      "context": "Nuancer une difficulté technique par une affirmation de confiance et de rigueur discursive."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "M gaa le bɔ́-ti-la kẽenã sãa gi la ki tilayɩ m bɔrɩ le ki",
+      "phonetic_api": "/m̩ ɡaː le bɔ́tila kẽːnã sãː ɟi la ki tilajɪ m̩ bɔʁɪ le ki/",
+      "phonetic_simple": "M GAA LE BÓ-TI-LA KEEN-NAN SAA GYI LA KI TI-LAY-I M BO-RI LE KI",
+      "translation": "Je suis parti parce que le chef de famille avait déclaré qu'il fallait clore la tâche",
+      "context": "Justification causale basée sur le respect absolu des instructions hiérarchiques ou coutumières."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Bɔrɩ-zɩ, kuso-gã n nam zɩ m gã, zi wá mbe la ki dɛ n dɔ",
+      "phonetic_api": "/bɔʁɪzɪ kusɔɡã n̩ nam zɪ m̩ ɡã zi wá mbe la ki dɛ n dɔ/",
+      "phonetic_simple": "BO-RI-ZI, KOU-SO-GAN N NAM ZI M GAN, ZI WÁ MBE LA KI DEH N DO",
+      "translation": "Enfin, à condition que tu écoutes ma pensée, notre environnement sera prospère",
+      "context": "Péroraison ou conclusion logique d'une médiation ou d'un plaidoyer oratoire."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'organisation paratactique et les connecteurs logiques de transition",
+      "explanation": "Au niveau C1, l'enchaînement des propositions ne repose plus sur la simple juxtaposition temporelle ('n gaa'). Le bissa déploie des connecteurs de transition lexicalisés comme 'hẽe-wiri-gãã' (Cependant) ou 'kõ-dɔ' (C'est pourquoi) qui se placent en tête de la proposition subordonnée ou coordonnée pour orienter la thèse du locuteur.",
+      "rules": [
+        "Le connecteur de cause ou d'opposition s'insère directement après la pause marquée par la virgule.",
+        "La structure syntaxique de la proposition qui suit reste inchangée, respectant l'ordre Sujet-Auxiliaire-Verbe-Objet."
+      ],
+      "examples": [
+        {
+          "structure": "M bɔ tuumda (Je veux travailler) + kõ-dɔ (c'est pourquoi) + m gaa le (je suis parti)",
+          "phonetic_api": "/m̩ bɔ tuːmda kõdɔ m̩ ɡaː le/",
+          "meaning": "Je veux travailler, c'est pourquoi je suis parti."
+        }
+      ]
+    },
+    {
+      "concept": "La formulation de la proposition finale de but avec 'Gã-n-dɔ-ti'",
+      "explanation": "Exprimer l'intention stratégique ou le but ultime d'une action requiert la locution conjonctive complexe 'Gã-n-dɔ-ti' (littéralement : dans la direction de la pensée que). Elle régit une proposition dont le verbe est obligatoirement projeté dans l'avenir à l'aide de l'auxiliaire 'wá'.",
+      "rules": [
+        "Proposition principale + gã-n-dɔ-ti + Sujet de la subordonnée + wá + Verbe.",
+        "Cette structure marque la finalité réfléchie d'un projet ou d'une décision majeure."
+      ],
+      "examples": [
+        {
+          "structure": "M gaa sukuu (Je vais à l'école) + gã-n-dɔ-ti (afin que) + m wá gã kpeenã mõ (je trouve la grande sagesse)",
+          "phonetic_api": "/m̩ ɡaː sukuː ɡãndɔti m̩ wá ɡã kpeːnã mõ/",
+          "meaning": "Je vais à l'école afin d'acquérir une grande sagesse."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Issa (L'orateur de la cour)",
+      "text": "Adama, n gaa tuumda bɔrɩ le bɔ́-ti-la wáari gãũ diga la kpeenã, kõ-dɔ n dɔ kur ti sãa ?",
+      "phonetic_api": "/adama n̩ ɡaː tuːmda bɔʁɪ le bɔ́tila wáːʁi ɡãũ diɡa la kpeːnã kõdɔ n̩ dɔ kuʁ ti sãː/",
+      "phonetic_simple": "A-DA-MA, N GAA TOUM-DA BO-RI LE BÓ-TI-LA WÁA-RI GAUN DI-GA LA KPEE-NAN, KON-DO N DO KOUR TI SAA ?",
+      "translation": "Adama, as-tu achevé le travail parce que les murs de la banque sont immenses, et est-ce pour cette raison que tu as soif ?"
+    },
+    {
+      "speaker": "Adama (Le maître d'œuvre)",
+      "text": "An, m gẽ diga pee n dɔ le gã-n-dɔ-ti m kpẽenã sãa wá hoorɩ. Hẽe-wiri-gãã, tuumda gaa la ki m dɔ bisi.",
+      "phonetic_api": "/an m̩ ɟẽ diɡa peː n̩ dɔ le ɡãndɔti m̩ kpẽːnã sãː wá hoːʁɪ hẽːwiʁiɡãː tuːmda ɡaː la ki m̩ dɔ bisi/",
+      "phonetic_simple": "AN, M GYEN DI-GA PEE N DO LE GAN-N-DO-TI M KPEEN-NAN SAA WÁ HOO-RI. HEEN-WI-RI-GAAN, TOUM-DA GAA LA KI M DO BI-SI.",
+      "translation": "Oui, j'ai appliqué la peinture blanche sur les murs afin que mon patron se réjouisse. Cependant, le labeur a été extrêmement éprouvant pour moi."
+    },
+    {
+      "speaker": "Issa (L'orateur de la cour)",
+      "text": "Tirã-n-dɔ kẽenã bisi gi le ki tilayɩ n gaa wiri bõga n dɔ. Bɔ́ n gaa wiri bõga gẽ, n gã wá hoorɩ la ki.",
+      "phonetic_api": "/tiʁãndɔ kẽːnã bisi ɟi le ki tilajɪ n̩ ɡaː wiʁi bõɡa n̩ dɔ bɔ́ n̩ ɡaː wiʁi bõɡa ɟẽ n̩ ɡã wá hoːʁɪ la ki/",
+      "phonetic_simple": "TI-RAN-N-DO KEEN-NAN BI-SI GYI LE KI TI-LAY-I N GAA WI-RI BON-GA N DO. BÓ N GAA WI-RI BON-GA GYEN, N GAN WÁ HOO-RI LA KI.",
+      "translation": "En outre, les anciens ont déclaré qu'il fallait que tu te reposes. Si tu t'accordes ce moment de détente, ton esprit sera pleinement apaisé."
+    },
+    {
+      "speaker": "Adama (Le maître d'œuvre)",
+      "text": "Bɔrɩ-zɩ, m wá n gã gɔ la ki bisi. Barka boi n connecteurs logiques le, m gã bɔ hoorɩ la ki !",
+      "phonetic_api": "/bɔʁɪzɪ m̩ wá n̩ ɡã ɡɔ la ki bisi baʁka bɔi le m̩ ɡã bɔ hoːʁɪ la ki/",
+      "phonetic_simple": "BO-RI-ZI, M WÁ N GAN GO LA KI BI-SI. BAR-KA BOI N LE, M GAN BO HOO-RI LA KI !",
+      "translation": "Enfin, je vais suivre fidèlement ton avis. Grand merci pour cette structuration de la pensée, mon cœur s'en réjouit !"
+    }
+  ],
+  "cultural_notes": [
+    "Dans l'art oratoire bissa (la palabre et les discours de médiation), l'usage de connecteurs d'opposition raffinés comme 'hẽe-wiri-gãã' témoigne de la haute éducation d'un individu. Savoir introduire une contradiction sans heurter l'auditeur est la marque des grands diplomates de la région de Garango.",
+    "La formulation de la causalité avec 'bɔ́-ti-la' permet d'inscrire son action personnelle dans un cadre de responsabilités collectives et d'obéissance aux structures familiales traditionnelles ou professionnelles du Burkina Faso.",
+    "Conclure un échange officiel par le connecteur de but ou de fin 'bɔrɩ-zɩ' (en conclusion) permet de sceller un accord ou une alliance communautaire sous le sceau de la clarté et de l'apaisement mutuel."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quel connecteur logique avancé utilise-t-on en bissa pour introduire une relation de conséquence directe (C'est pourquoi / par conséquent) ?",
+      "options": [
+        "Bɔ́-ti-la",
+        "Kõ-dɔ",
+        "Hẽe-wiri-gãã"
+      ],
+      "correct_answer": "Kõ-dɔ",
+      "explanation": "'Kõ-dɔ' marque la conséquence logique d'un fait énoncé, tandis que 'Bɔ́-ti-la' introduit la cause et 'Hẽe-wiri-gãã' l'opposition."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "Pour exprimer le but ou la finalité d'une décision stratégique, on déploie la locution conjonctive : M gaa tuumda [ ___ ] m wá wáari mõ.",
+      "correct_answer": "gã-n-dɔ-ti",
+      "hint": "La locution avancée bissa se traduisant littéralement par 'dans la direction de la pensée que'."
+    }
+  ]
+}

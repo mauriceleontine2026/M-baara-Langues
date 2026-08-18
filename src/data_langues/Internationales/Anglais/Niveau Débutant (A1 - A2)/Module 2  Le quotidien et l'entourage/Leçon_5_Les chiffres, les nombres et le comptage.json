@@ -1,0 +1,225 @@
+{
+  "lesson_id": "A1_M2_L5_v2",
+  "level": "Débutant (A1-A2)",
+  "module_number": 2,
+  "module_title": "Le quotidien et l'entourage",
+  "lesson_number": 5,
+  "title": "Les chiffres, les nombres et le comptage",
+  "learning_objectives": [
+    "Compter couramment de 0 à 1000 et maîtriser les grands nombres",
+    "Différencier l'accentuation phonétique entre les suffixes '-teen' et '-ty'",
+    "Utiliser les nombres cardinaux pour indiquer des quantités, des prix et des numéros de téléphone",
+    "Comprendre l'articulation syntaxique du mot 'and' dans les nombres complexes"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La clé de voûte de la numération anglaise repose sur la distinction nette entre la voyelle nasale ou longue des suffixes. Le suffixe des dizaines '-ty' comme dans 'forty' /ˈfɔːrti/ se termine par une voyelle courte et sèche, avec un accent tonique fort sur la première syllabe. À l'inverse, le suffixe des nombres de 13 à 19 '-teen' comme dans 'fourteen' /ˌfɔːrˈtiːn/ possède une voyelle longue tendue /iː/ et un accent tonique secondaire ou principal sur le suffixe lui-même. Le chiffre 'three' /ˈθriː/ exige une friction interdentale sourde parfaite sans aucune vocalisation du 'h'.",
+    "common_pitfalls": "Confondre 'thirty' /ˈθɜːrti/ (30) et 'thirteen' /ˌθɜːrˈtiːn/ (13) à l'oral en déplaçant l'accent tonique. Mal prononcer 'hundred' /ˈhʌndrəd/ en oubliant d'aspirer le 'h' initial ou en inversant le son final en 'dred'. Prononcer le chiffre 'zero' comme en français au lieu de /ˈzɪəroʊ/."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "Number",
+      "phonetic_api": "/ˈnʌmbər/",
+      "phonetic_simple": "NAM-bər",
+      "translation": "Nombre / Numéro",
+      "example_sentence": "What is your lucky number?",
+      "example_phonetic": "/wɒt ɪz jɔːr ˈlʌki ˈnʌmbər/",
+      "example_translation": "Quel est ton numéro de la chance ?"
+    },
+    {
+      "word_id": "v2",
+      "term": "Zero",
+      "phonetic_api": "/ˈzɪəroʊ/",
+      "phonetic_simple": "ZIƏ-roh",
+      "translation": "Zéro",
+      "example_sentence": "The temperature dropped to zero degrees.",
+      "example_phonetic": "/ðə ˈtɛmprətʃər drɒpt tuː ˈzɪəroʊ dɪˈɡriːz/",
+      "example_translation": "La température est descendue à zéro degré."
+    },
+    {
+      "word_id": "v3",
+      "term": "Eleven",
+      "phonetic_api": "/ɪˈlɛvən/",
+      "phonetic_simple": "ɪ-LEV-ən",
+      "translation": "Onze",
+      "example_sentence": "The football team has eleven players.",
+      "example_phonetic": "/ðə ˈfʊtbɔːl tiːm hæz ɪˈlɛvən ˈpleɪərz/",
+      "example_translation": "L'équipe de football compte onze joueurs."
+    },
+    {
+      "word_id": "v4",
+      "term": "Twelve",
+      "phonetic_api": "/twɛlv/",
+      "phonetic_simple": "twelv",
+      "translation": "Douze",
+      "example_sentence": "There are twelve months in a year.",
+      "example_phonetic": "/ðɛər ɑːr twɛlv mʌnθs ɪn ə jɪər/",
+      "example_translation": "Il y a douze mois dans une année."
+    },
+    {
+      "word_id": "v5",
+      "term": "Hundred",
+      "phonetic_api": "/ˈhʌndrəd/",
+      "phonetic_simple": "HAN-drəd",
+      "translation": "Cent / Centaine",
+      "example_sentence": "This book has exactly one hundred pages.",
+      "example_phonetic": "/ðɪs bʊk hæz ɪɡˈzæktli wʌn ˈhʌndrəd ˈpeɪdʒɪz/",
+      "example_translation": "Ce livre a exactement cent pages."
+    },
+    {
+      "word_id": "v6",
+      "term": "Thousand",
+      "phonetic_api": "/ˈθaʊzənd/",
+      "phonetic_simple": "THAOU-zənd",
+      "translation": "Mille / Millier",
+      "example_sentence": "A thousand people attended the outdoor concert.",
+      "example_phonetic": "/ə ˈθaʊzənd ˈpiːpəl əˈtɛndɪd ðə ˈaʊtdɔːr ˈkɒnsət/",
+      "example_translation": "Mille personnes ont assisté au concert en plein air."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "How much does it cost?",
+      "phonetic_api": "/haʊ mʌtʃ dʌz ɪt kɒst/",
+      "phonetic_simple": "haʊ mʌtʃ daz ɪt kost",
+      "translation": "Combien cela coûte-t-il ?",
+      "context": "Question fondamentale pour demander le prix d'un article ou d'un service."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "My phone number is zero-seven-double seven",
+      "phonetic_api": "/maɪ foʊn ˈnʌmbər ɪz ˈzɪəroʊ ˈsɛvən ˈdʌbəl ˈsɛvən/",
+      "phonetic_simple": "maɪ fohn NAM-bər ɪz ZIƏ-roh SEV-ən DAB-əl SEV-ən",
+      "translation": "Mon numéro de téléphone est le 07 77...",
+      "context": "Exemple de dictée d'un numéro de téléphone utilisant la règle du 'double'."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "That will be forty-five pounds, please",
+      "phonetic_api": "/ðæt wɪl biː ˈfɔːrtifaɪv paʊndz pliːz/",
+      "phonetic_simple": "ðat wɪl bi FOR-ti-faɪv paʊndz pliiz",
+      "translation": "Cela fera quarante-cinq livres, s'il vous plaît",
+      "context": "Formule commerciale courante énoncée par un vendeur lors du paiement."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "Can you count from one to twenty?",
+      "phonetic_api": "/kæn juː kaʊnt frɒm wʌn tuː ˈtwɛnti/",
+      "phonetic_simple": "kæn yoo kaʊnt from wʌn too TWEN-ti",
+      "translation": "Pouvez-vous compter de un à vingt ?",
+      "context": "Demande d'évaluation ou exercice linguistique basique."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "La construction des nombres complexes et l'usage de 'AND'",
+      "explanation": "En anglais britannique standard, lorsqu'on formule un nombre supérieur à cent, on insère impérativement la conjonction de coordination 'and' entre la centaine et la dizaine (ou l'unité s'il n'y a pas de dizaine). Cette règle est facultative en anglais américain mais reste une norme grammaticale forte à l'écrit.",
+      "rules": [
+        "Structure : X Hundred + AND + Dizaine-Unité.",
+        "On utilise un trait d'union pour lier les dizaines et les unités de 21 à 99 (ex: twenty-three)."
+      ],
+      "examples": [
+        {
+          "structure": "125 -> One hundred and twenty-five.",
+          "phonetic_api": "/wʌn ˈhʌndrəd ænd ˈtwɛntifaɪv/",
+          "meaning": "Cent-vingt-cinq."
+        },
+        {
+          "structure": "308 -> Three hundred and eight.",
+          "phonetic_api": "/θriː ˈhʌndrəd ænd eɪt/",
+          "meaning": "Trois-cent-huit."
+        }
+      ]
+    },
+    {
+      "concept": "La lecture spécifique des numéros de téléphone et du chiffre 0",
+      "explanation": "En anglais, on ne lit jamais un numéro de téléphone par dizaines ou par centaines comme en français (ex: '06 12...'). On énonce chaque chiffre individuellement, un par un. De plus, dans ce contexte précis, le chiffre 0 ne se dit généralement pas 'zero', mais se prononce comme la lettre 'O' /oʊ/.",
+      "rules": [
+        "Énonciation chiffre par chiffre séparé.",
+        "Le 0 se prononce 'O' /oʊ/ dans les numéros, et parfois 'nil' ou 'love' dans le sport."
+      ],
+      "examples": [
+        {
+          "structure": "Numéro '504' -> Five, oh, four.",
+          "phonetic_api": "/faɪv oʊ fɔːr/",
+          "meaning": "Cinq, zéro, quatre."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Shop Assistant",
+      "text": "Hello. Can I help you find something?",
+      "phonetic_api": "/həˈloʊ kæn aɪ hɛlp juː faɪnd ˈsʌmθɪŋ/",
+      "phonetic_simple": "hə-LOH kæn aɪ help yoo faɪnd SAM-θiŋ",
+      "translation": "Bonjour. Puis-je vous aider à trouver quelque chose ?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, please. How much does this leather jacket cost?",
+      "phonetic_api": "/jɛs pliːz haʊ mʌtʃ dʌz ɪt kɒst ðɪs ˈlɛðər ˈdʒækɪt/",
+      "phonetic_simple": "jεs pliiz haʊ mʌtʃ daz ɪt kost ðɪs LE-ðər DJAK-ɪt",
+      "translation": "Oui, s'il vous plaît. Combien coûte cette veste en cuir ?"
+    },
+    {
+      "speaker": "Shop Assistant",
+      "text": "Let me check the price tag. It is one hundred and fifteen pounds.",
+      "phonetic_api": "/lɛt miː tʃɛk ðə praɪs tæɡ ɪt ɪz wʌn ˈhʌndrəd ænd ˌfɪfˈtiːn paʊndz/",
+      "phonetic_simple": "let mi tʃek ðə praɪs tæg ɪt ɪz wʌn HAN-drəd and fɪf-TIIN paʊndz",
+      "translation": "Laissez-moi vérifier l'étiquette. Elle coûte cent quinze livres."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Oh, that is reasonable. Do you have size fourteen?",
+      "phonetic_api": "/oʊ ðæt ɪz ˈriːzənəbəl duː juː hæv saɪz ˌfɔːrˈtiːn/",
+      "phonetic_simple": "oʊ ðat ɪz RII-zən-ə-bəl doo yoo hæv saɪz fɔːr-TIIN",
+      "translation": "Oh, c'est raisonnable. Avez-vous la taille 14 ?"
+    },
+    {
+      "speaker": "Shop Assistant",
+      "text": "Yes, we have exactly forty jackets left in that size. Here is one.",
+      "phonetic_api": "/jɛs wiː hæv ɪɡˈzæktli ˈfɔːrti ˈdʒækɪts lɛft ɪn ðæt saɪz hɪər ɪz wʌn/",
+      "phonetic_simple": "jεs wi hæv ɪg-ZAKT-li FOR-ti DJAK-ɪts left ɪn ðat saɪz hɪər ɪz wʌn",
+      "translation": "Oui, il nous reste exactement quarante vestes dans cette taille. En voici une."
+    }
+  ],
+  "cultural_notes": [
+    "Les séparateurs de milliers : Attention à l'écriture comptable. Contrairement au français qui utilise un espace ou un point pour séparer les milliers et une virgule pour les décimales, l'anglais fait exactement l'inverse. On utilise une virgule pour les milliers (ex: 1,000 = mille) et un point pour la virgule décimale (ex: 2.5 = deux virgule cinq).",
+    "L'usage de 'Dozen' et 'Score' : Bien que moins fréquent aujourd'hui, les anglophones comptent encore beaucoup d'éléments du quotidien (comme les œufs ou les pâtisseries) par douzaines ('a dozen' = 12) ou demi-douzaines ('half a dozen' = 6)."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Comment écrivez-vous le nombre 150 en toutes lettres selon la norme britannique ?",
+      "options": [
+        "One hundred fifty",
+        "One hundred and fifty",
+        "One hundred and fifteen"
+      ],
+      "correct_answer": "One hundred and fifty",
+      "explanation": "La structure exige d'insérer 'and' entre la centaine (one hundred) et la dizaine (fifty)."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "The number 43 is written with a hyphen: forty-[ ___ ].",
+      "correct_answer": "three",
+      "hint": "Chiffre correspondant à l'unité trois en anglais."
+    },
+    {
+      "exercise_id": "ex3",
+      "type": "multiple_choice",
+      "question": "À l'oral, comment énonce-t-on le numéro de chambre '409' dans un hôtel ?",
+      "options": [
+        "Four hundred and nine",
+        "Four, oh, nine",
+        "Forty-nine"
+      ],
+      "correct_answer": "Four, oh, nine",
+      "explanation": "Pour les codes, numéros de téléphone ou de chambre, on énumère les chiffres un par un en remplaçant le zéro par le son 'oh'."
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "lesson_id": "A1_M3_L9",
+  "level": "Débutant (A1-A2)",
+  "module_number": 3,
+  "module_title": "Besoins immédiats",
+  "lesson_number": 9,
+  "title": "Les couleurs et les vêtements en chinois mandarin",
+  "learning_objectives": [
+    "Nommer les couleurs principales et les vêtements de tous les jours",
+    "Exprimer des préférences esthétiques de couleur et de style",
+    "Maîtriser l'usage de la particule 的 (de) pour l'adjectivisation des couleurs",
+    "Utiliser les classificateurs de vêtements appropriés : 件 (jiàn) et 条 (tiáo)"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "Cette leçon se concentre sur les voyelles arrondies antérieures et les consonnes palatales. Le mot 衣服 (yīfu - vêtement) combine un premier ton haut avec un ton neutre court et léger. Le mot 裤子 (kùzi - pantalon) exige un quatrième ton sec et descendant sur la première syllabe. La couleur verte 绿色 (lǜsè) introduit la voyelle 'ü' (/y/), identique au 'u' français, qui doit être prononcée distinctement avec les lèvres arrondies, suivie de 色 (sè) au quatrième ton.",
+    "common_pitfalls": "L'erreur fréquente est d'omettre la rétroflexion ou de mal prononcer le 'zh' de 黑色 (hēisè) ou 衬衫 (chènshān). Le 'sh' de 衬衫 est une consonne rétroflexe sourde /ʂ/ (langue enroulée vers le haut), alors que le 's' de 蓝色 (lánsè) est une sifflante alvéolaire pure /s/. Veillez également à respecter le troisième ton très bas de 红 (hóng - 2ème ton) combiné à d'autres structures."
+  },
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "衣服",
+      "phonetic_api": "/i˥ fu/",
+      "phonetic_simple": "EE-FOU",
+      "translation": "Vêtement / Habit",
+      "example_sentence": "这件衣服很漂亮。",
+      "example_phonetic": "/tʂɤ˥˩ tɕi̯an˥˩ i˥ fu xən˨˩˦ pʰi̯aʊ̯ i̯aŋ/",
+      "example_translation": "Ce vêtement est très beau."
+    },
+    {
+      "word_id": "v2",
+      "term": "衬衫",
+      "phonetic_api": "/tʂʰən˥˩ ʂan˥/",
+      "phonetic_simple": "TCHEN-CHAN",
+      "translation": "Chemise / Chemisier",
+      "example_sentence": "我买了一件白衬衫。",
+      "example_phonetic": "/wo˨˩˦ maɪ̯˨˩˦ lɤ i˥ tɕi̯an˥˩ baɪ̯˧˥ tʂʰən˥˩ ʂan˥/",
+      "example_translation": "J'ai acheté une chemise blanche."
+    },
+    {
+      "word_id": "v3",
+      "term": "裤子",
+      "phonetic_api": "/kʰu˥˩ tsʐ̩/",
+      "phonetic_simple": "KHOU-DZEU",
+      "translation": "Pantalon",
+      "example_sentence": "那条黑裤子太长了。",
+      "example_phonetic": "/na˥˩ tʰi̯aʊ̯˧˥ xeɪ̯˥ kʰu˥˩ tsʐ̩ tʰaɪ̯˥˩ tʂʰaŋ˧˥ lɤ/",
+      "example_translation": "Ce pantalon noir est trop grand."
+    },
+    {
+      "word_id": "v4",
+      "term": "颜色",
+      "phonetic_api": "/jan˧˥ sɤ˥˩/",
+      "phonetic_simple": "YIEN-SEU",
+      "translation": "Couleur",
+      "example_sentence": "你喜欢什么颜色？",
+      "example_phonetic": "/ni˨˩˦ ɕi˧˥ xwan ʂən˧˥ mɤ jan˧˥ sɤ˥˩/",
+      "example_translation": "Quelle couleur aimes-tu ?"
+    },
+    {
+      "word_id": "v5",
+      "term": "红色",
+      "phonetic_api": "/xʊŋ˧˥ sɤ˥˩/",
+      "phonetic_simple": "KHONG-SEU",
+      "translation": "Couleur rouge / Rouge",
+      "example_sentence": "她穿红色的裙子。",
+      "example_phonetic": "/tʰa˥ tʂʰwan˥ xʊŋ˧˥ sɤ˥˩ dɤ tɕʰɥ̯ən˧˥ tsʐ̩/",
+      "example_translation": "Elle porte une jupe rouge."
+    },
+    {
+      "word_id": "v6",
+      "term": "件",
+      "phonetic_api": "/tɕi̯an˥˩/",
+      "phonetic_simple": "TCHIEN",
+      "translation": "Classificateur pour les vêtements du haut (veste, chemise)",
+      "example_sentence": "我要这件大衣。",
+      "example_phonetic": "/wo˨˩˦ jaʊ̯˥˩ tʂɤ˥˩ tɕi̯an˥˩ da˥˩ i˥/",
+      "example_translation": "Je veux ce manteau."
+    },
+    {
+      "word_id": "v7",
+      "term": "条",
+      "phonetic_api": "/tʰi̯aʊ̯˧˥/",
+      "phonetic_simple": "THIAO",
+      "translation": "Classificateur pour les vêtements du bas (pantalon, jupe) ou objets longs",
+      "example_sentence": "两条裤子。",
+      "example_phonetic": "/li̯aŋ˨˩˦ tʰi̯aʊ̯˧˥ kʰu˥˩ tsʐ̩/",
+      "example_translation": "Deux pantalons."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "这件红衬衫多少钱？",
+      "phonetic_api": "/tʂɤ˥˩ tɕi̯an˥˩ xʊŋ˧˥ tʂʰən˥˩ ʂan˥ dwɔ˥ ʂaʊ̯ tɕʰi̯ɛn˧˥/",
+      "phonetic_simple": "TCHEU TCHIEN KHONG TCHEN-CHAN DOUO-CHAO THIEN ?",
+      "translation": "Combien coûte cette chemise rouge ?",
+      "context": "Demander le prix d'un article spécifique dans un magasin de vêtements"
+    },
+    {
+      "phrase_id": "p2",
+      "original": "我想试一下那条蓝裤子。",
+      "phonetic_api": "/wo˨˩˦ ɕi̯aŋ˨˩˦ ʂʐ̩˥˩ i˥ ɕi̯a˥˩ na˥˩ tʰi̯aʊ̯˧˥ lan˧˥ kʰu˥˩ tsʐ̩/",
+      "phonetic_simple": "OUO CHIANG CHEI EE-CHIA NA THIAO LAN KHOU-DZEU",
+      "translation": "J'aimerais essayer ce pantalon bleu.",
+      "context": "S'adresser au vendeur pour demander un essayage"
+    },
+    {
+      "phrase_id": "p3",
+      "original": "有没有大号的？这件太小了。",
+      "phonetic_api": "/joʊ̯˨˩˦ meɪ̯˧˥ joʊ̯˨˩˦ da˥˩ xaʊ̯ dɤ tʂɤ˥˩ tɕi̯an˥˩ tʰaɪ̯˥˩ ɕi̯aʊ̯˨˩˦ lɤ/",
+      "phonetic_simple": "YOW MEI-YOW DA HAO DEU ? TCHEU TCHIEN THAÏ CHIAO LEU",
+      "translation": "Y a-t-il une taille supérieure ? Celle-ci est trop petite.",
+      "context": "Demander une autre taille de vêtement"
+    },
+    {
+      "phrase_id": "p4",
+      "original": "我不喜欢黑色的，我喜欢白色的。",
+      "phonetic_api": "/wo˨˩˦ bu˥˩ ɕi˧˥ xwan xeɪ̯˥ sɤ˥˩ dɤ wo˨˩˦ ɕi˧˥ xwan baɪ̯˧˥ sɤ˥˩ dɤ/",
+      "phonetic_simple": "OUO BOU TCHEE-HOUAN HEI-SEU DEU, OUO TCHEE-HOUAN BAÏ-SEU DEU",
+      "translation": "Je n'aime pas le noir, je préfère le blanc.",
+      "context": "Exprimer ses choix de couleurs lors d'un achat"
+    },
+    {
+      "phrase_id": "p5",
+      "original": "你穿几号的鞋？",
+      "phonetic_api": "/ni˨˩˦ tʂʰwan˥ tɕi˨˩˦ xaʊ̯ dɤ ɕi̯ɛ˧˥/",
+      "phonetic_simple": "NEE TCHWAN TCHEE HAO DEU THIÉ ?",
+      "translation": "Quelle est ta pointure de chaussures ?",
+      "context": "S'informer sur la pointure de quelqu'un avant un achat"
+    },
+    {
+      "phrase_id": "p6",
+      "original": "这双鞋子很舒服。",
+      "phonetic_api": "/tʂɤ˥˩ ʂwaŋ˥ ɕi̯ɛ˧˥ tsʐ̩ xən˨˩˦ ʂu˥˩ fu/",
+      "phonetic_simple": "TCHEU CHOUANG THIÉ-DZEU HEUN CHOU-FOU",
+      "translation": "Cette paire de chaussures est très confortable.",
+      "context": "Donner son avis après avoir essayé des chaussures"
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'usage des classificateurs de vêtements : 件 (jiàn) versus 条 (tiáo)",
+      "explanation": "En chinois mandarin, le choix du classificateur pour les pièces de garde-robe dépend de la forme globale du vêtement ou de sa position sur le corps.",
+      "rules": [
+        "件 (jiàn) s'utilise exclusivement pour les vêtements portés sur la partie supérieure du corps (chemises, t-shirts, pulls, manteaux, vestes).",
+        "条 (tiáo) s'applique aux objets ou vêtements longs, fins et souples, portés principalement sur la partie inférieure du corps (pantalons, shorts, jupes, robes, jeans, cravates)."
+      ],
+      "examples": [
+        {
+          "structure": "一 (1) + 件 (haut) + 衬衫 (chemise) = 一件衬衫",
+          "phonetic_api": "/i˥ tɕi̯an˥˩ tʂʰən˥˩ ʂan˥/",
+          "meaning": "Une chemise."
+        },
+        {
+          "structure": "三 (3) + 条 (bas) + 裤子 (pantalon) = 三条裤子",
+          "phonetic_api": "/san˥ tʰi̯aʊ̯˧˥ kʰu˥˩ tsʐ̩/",
+          "meaning": "Trois pantalons."
+        }
+      ]
+    },
+    {
+      "concept": "La structure adjectivale des couleurs avec 的 (de)",
+      "explanation": "Pour qualifier un objet avec une couleur en mandarin, le nom de la couleur doit généralement être relié au nom qu'il qualifie par la particule structurale 的 (de).",
+      "rules": [
+        "Structure standard : [Nom de la couleur] + 色 (sè) + 的 (de) + [Nom de l'objet].",
+        "Lorsque la couleur est exprimée de manière isolée ou que l'objet est sous-entendu, le nom de l'objet disparaît mais la structure [Couleur + 的] est conservée."
+      ],
+      "examples": [
+        {
+          "structure": "蓝色的 (Bleue) + 衣服 (Vêtement) = 蓝色的衣服",
+          "phonetic_api": "/lan˧˥ sɤ˥˩ dɤ i˥ fu/",
+          "meaning": "Un vêtement bleu."
+        },
+        {
+          "structure": "我要绿色的 (Wǒ yào lǜsè de)",
+          "phonetic_api": "/wo˨˩˦ jaʊ̯˥˩ ly˥˩ sɤ˥˩ dɤ/",
+          "meaning": "Je veux le vert / Je veux celui qui est vert."
+        }
+      ]
+    },
+    {
+      "concept": "L'expression du choix alternatif avec 还是 (háishi)",
+      "explanation": "Pour poser une question offrant une alternative explicite entre deux choix au sein d'une phrase interrogative, on emploie la conjonction 还是 (háishi).",
+      "rules": [
+        "Structure : [Option A] + 还是 (háishi) + [Option B] ？",
+        "Cette structure s'utilise uniquement dans les phrases de type interrogatif, contrairement à 或者 (huòzhě) réservé aux affirmations."
+      ],
+      "examples": [
+        {
+          "structure": "你买衬衫还是裤子？ (Nǐ mǎi chènshān háishi kùzi?)",
+          "phonetic_api": "/ni˨˩˦ maɪ̯˨˩˦ tʂʰən˥˩ ʂan˥ xaɪ̯˧˥ ʂʐʐ kʰu˥˩ tsʐ̩/",
+          "meaning": "Achètes-tu une chemise ou un pantalon ?"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "售货员 (Vendeur)",
+      "text": "欢迎光临！您想看看衣服吗？这里有新来的衬衫。",
+      "phonetic_api": "/xwan˥˩ iŋ˧˥ kwaŋ˥ liŋ˧˥ nin˧˥ ɕi̯aŋ˨˩˦ kʰan˥˩ kʰan i˥ fu ma tʂʐ̩ Wait ʔi˨˩˦ joʊ̯˨˩˦ ɕin˥ laɪ̯ dɤ tʂʰən˥˩ ʂan˥/",
+      "phonetic_simple": "HOUAN-ING GOUANG-LING ! NEEN CHIANG KHAN-KHAN EE-FOU MA ? TCHEU-LEE YOW CHIN LAÏ DEU TCHEN-CHAN.",
+      "translation": "Bienvenue ! Souhaitez-vous regarder des vêtements ? Voici des chemises qui viennent d'arriver."
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "你好。我想买一件衬衫和一条裤子。",
+      "phonetic_api": "/ni˨˩˦ xaʊ̯˨˩˦ wo˨˩˦ ɕi̯aŋ˨˩˦ maɪ̯˨˩˦ i˥ tɕi̯an˥˩ tʂʰən˥˩ ʂan˥ xɤ˧˥ i˥ tʰi̯aʊ̯˧˥ kʰu˥˩ tsʐ̩/",
+      "phonetic_simple": "NEE HAO. OUO CHIANG MAÏ EE TCHIEN TCHEN-CHAN HEU EE THIAO KHOU-DZEU.",
+      "translation": "Bonjour. J'aimerais acheter une chemise et un pantalon."
+    },
+    {
+      "speaker": "售货员 (Vendeur)",
+      "text": "您喜欢什么颜色的？这件白色的很流行，那件蓝色的也不错。",
+      "phonetic_api": "/nin˧˥ ɕi˧˥ xwan ʂən˧˥ mɤ jan˧˥ sɤ dɤ tʂɤ˥˩ tɕi̯an˥˩ baɪ̯˧˥ sɤ dɤ xən˨˩˦ li̯oʊ̯˧˥ ɕiŋ˧˥ na˥˩ tɕi̯an˥˩ lan˧˥ sɤ dɤ jɛ˨˩˦ bu˧˥ tsʰwɔ˥˩/",
+      "phonetic_simple": "NEEN TCHEE-HOUAN CHEN-MEU YIEN-SEU DEU ? TCHEU TCHIEN BAÏ-SEU DEU HEUN LIOU-CHING, NA TCHIEN LAN-SEU DEU YE BOU-TSOUO.",
+      "translation": "De quelle couleur les aimez-vous ? Cette blanche est très populaire, et cette bleue est pas mal non plus."
+    },
+    {
+      "speaker": "大卫 (David)",
+      "text": "我要这件白衬衫。那这条裤子有黑色的吗？",
+      "phonetic_api": "/wo˨˩˦ jaʊ̯˥˩ tʂɤ˥˩ tɕi̯an˥˩ baɪ̯˧˥ tʂʰən˥˩ ʂan˥ na˥˩ tʂʐ̩˥˩ tʰi̯aʊ̯˧˥ kʰu˥˩ tsʐ̩ joʊ̯˨˩˦ xeɪ̯˥ sɤ dɤ ma/",
+      "phonetic_simple": "OUO YAO TCHEU TCHIEN BAÏ TCHEN-CHAN. NA THIAO KHOU-DZEU YOW HEI-SEU DEU MA ?",
+      "translation": "Je vais prendre cette chemise blanche. Et ce pantalon, est-ce qu'il existe en noir ?"
+    },
+    {
+      "speaker": "售货员 (Vendeur)",
+      "text": "有的。您穿几号的？可以在那里试一下。",
+      "phonetic_api": "/joʊ̯˨˩˦ dɤ nin˧˥ tʂʰwan˥ tɕi˨˩˦ xaʊ̯ dɤ kʰɤ˨˩˦ i˨˩˦ dzaɪ̯˥˩ na˥˩ li ʂʐ̩˥˩ i˥ ɕi̯a˥˩/",
+      "phonetic_simple": "YOW DEU. NEEN TCHWAN TCHEE HAO DEU ? KHÉ-EE DZAÏ NA-LEE CHEI EE-CHIA.",
+      "translation": "Oui. Quelle taille faites-vous ? Vous pouvez l'essayer là-bas."
+    }
+  ],
+  "cultural_notes": [
+    "Dans la culture chinoise traditionnelle, les couleurs possèdent une symbolique forte. Le rouge (红色 hóngsè) est la couleur de la chance, du bonheur et de la prospérité ; elle est omniprésente lors des mariages et du Nouvel An chinois. Le blanc (白色 báisè) est traditionnellement associé au deuil et aux funérailles, bien que l'influence occidentale ait popularisé la robe de mariée blanche en milieu urbain.",
+    "Le jaune (黄色 huángsè) était autrefois la couleur impériale exclusive, symbole de pouvoir. Aujourd'hui, dans le langage familier moderne, l'adjectif '黄' (jaune) peut faire référence à du contenu pornographique ou osé (ex : 黄色电影 huángsè diànyǐng - film pour adultes).",
+    "Faire du shopping dans les marchés de vêtements en Chine permet de négocier les prix ('砍价' kǎnjià). Utiliser des expressions de taille comme 大号 (dàhào - L/XL) ou 小号 (xiǎohào - S/XS) facilite grandement l'échange."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la formulation grammaticale exacte pour demander le prix de deux pantalons bleus ?",
+      "options": [
+        "这两件蓝裤子多少钱？ (Zhè liǎng jiàn lán kùzi duōshao qián?)",
+        "这两条蓝色裤子多少钱？ (Zhè liǎng tiáo lánsè kùzi duōshao qián?)",
+        "这两条蓝色的裤子是几块？ (Zhè liǎng tiáo lánsè de kùzi shì jǐ kuài?)"
+      ],
+      "correct_answer": "这两条蓝色裤子多少钱？ (Zhè liǎng tiáo lánsè kùzi duōshao qián?)",
+      "explanation": "Le pantalon requiert impérativement le classificateur des objets longs '条' (tiáo), associé à la quantité '两' (liǎng) et à la structure de prix standard '多少钱'."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "你穿红色的[ ___ ]还是黑色的西装？",
+      "correct_answer": "衬衫",
+      "hint": "Un vêtement pour le haut du corps qui s'accorde bien avec un costume professionnel."
+    }
+  ]
+}

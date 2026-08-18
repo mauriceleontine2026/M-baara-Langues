@@ -1,0 +1,265 @@
+{
+  "lesson_id": "B1_M2_L5",
+  "level": "Intermédiaire (B1-B2)",
+  "module_number": 2,
+  "module_title": "Le temps et le récit",
+  "lesson_number": 5,
+  "title": "Parler de ses projets futurs et de ses ambitions",
+  "learning_objectives": [
+    "Exprimer une intention ferme ou un projet planifié en utilisant la structure '～つもりです' (tsumori desu)",
+    "Décrire un calendrier ou un programme officiel à l'aide de la structure '～予定です' (yotei desu)",
+    "Maîtriser la formation et l'usage de la forme volitive informelle (forme en -ō) pour exprimer un souhait spontané ou une proposition"
+  ],
+  "phonetic_focus": {
+    "key_sounds": "La forme volitive des verbes introduit des voyelles longues en 'ō' [oː]. Par exemple, 'ikō' (allons) ou 'tabeyō' (mangeons) exigent une prolongation nette de la dernière more. Le mot 'tsumori' (intention) se prononce avec un 'r' qui est une consonne battue alvéolaire [ɾ], sans aucune vibration pharyngale.",
+    "common_pitfalls": "Attention à ne pas escamoter le doublement du 'm' dans 'tsumori' (qui est simple : つもり) mais veillez en revanche à bien marquer la consonne double dans 'shuppatsu' (départ) [ɕɯ̥p.pa.t͡sɯ]. Ne confondez pas non plus la lecture du kanji de 'yotei' (予定) avec celle de 'youtei'."
+  },
+  "future_structures_focus": [
+    {
+      "structure": "～つもりです (tsumori desu)",
+      "grammatical_link": "Verbe (Forme dictionnaire / Forme négative en -nai) + つもりです",
+      "nuance": "Exprime une intention personnelle, une décision mûrement réfléchie par le locuteur. Équivaut à 'avoir l'intention de'."
+    },
+    {
+      "structure": "～予定です (yotei desu)",
+      "grammatical_link": "Verbe (Forme dictionnaire) / Nom + の + 予定です",
+      "nuance": "Exprime un plan officiel, un arrangement ou un programme préétabli (indépendant de la simple volonté du locuteur). Équivaut à 'il est prévu que'."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_id": "v1",
+      "term": "しょうらい (将来)",
+      "phonetic_api": "/ɕoː.ɾa.i/",
+      "phonetic_simple": "CHOO-RA-I",
+      "translation": "Avenir / Futur (proche ou personnel)",
+      "example_sentence": "将来、自分の会社を作りたいです。",
+      "example_phonetic": "/ɕoː.ɾa.i d͡ʑi.bɯɴ no ka.i.ɕa o t͡sɯ.kɯ.ɾi.ta.i de.sɯ̥/",
+      "example_translation": "À l'avenir, je veux créer ma propre entreprise."
+    },
+    {
+      "word_id": "v2",
+      "term": "ゆめ (夢)",
+      "phonetic_api": "/jɯ.me/",
+      "phonetic_simple": "YOU-MÉ",
+      "translation": "Rêve / Ambition",
+      "example_sentence": "私の夢は日本語の先生になることです。",
+      "example_phonetic": "/wa.ta.ɕi no jɯ.me wa ni.hoɴ.ɡo no seɴ.seː ni na.ɾɯ ko.to de.sɯ̥/",
+      "example_translation": "Mon rêve est de devenir professeur de japonais."
+    },
+    {
+      "word_id": "v3",
+      "term": "けいかく (計画 / 計画します)",
+      "phonetic_api": "/keː.ka.kɯ/",
+      "phonetic_simple": "KÉE-KA-KOU",
+      "translation": "Projet / Plan / Planifier",
+      "example_sentence": "来年の旅行を計画しています。",
+      "example_phonetic": "/ra.i.neɴ no ɾjo.koː o keː.ka.kɯ ɕi.te i.ma.sɯ̥/",
+      "example_translation": "Je planifie le voyage de l'année prochaine."
+    },
+    {
+      "word_id": "v4",
+      "term": "留学 (りゅうがく / 留学します)",
+      "phonetic_api": "/ɾjɯː.ɡa.kɯ/",
+      "phonetic_simple": "RYUU-GA-KOU",
+      "translation": "Études à l'étranger / Étudier à l'étranger",
+      "example_sentence": "日本に留学するつもりです。",
+      "example_phonetic": "/ni.hoɴ ni ɾjɯː.ɡa.kɯ sɯ.ɾɯ t͡sɯ.mo.ɾi de.sɯ̥/",
+      "example_translation": "I'ai l'intention de faire des études au Japon."
+    },
+    {
+      "word_id": "v5",
+      "term": "しゅっぱつ (出発 / 出発します)",
+      "phonetic_api": "/ɕɯ̥p.pa.t͡sɯ/",
+      "phonetic_simple": "CHOUP-PA-TSOU",
+      "translation": "Départ / Partir",
+      "example_sentence": "飛行機は午前九時に出発する予定です。",
+      "example_phonetic": "/çi.koː.ki wa ɡo.zeɴ kɯ.d͡ʑi ni ɕɯ̥p.pa.t͡sɯ sɯ.ɾɯ jo.teː de.sɯ̥/",
+      "example_translation": "L'avion doit partir à 9 heures du matin (horaire prévu)."
+    },
+    {
+      "word_id": "v6",
+      "term": "インターンシップ",
+      "phonetic_api": "/iɴ.taːɴ.ɕi̥p.pɯ/",
+      "phonetic_simple": "IN-TAAN-SHIP-POU",
+      "translation": "Stage en entreprise (Internship)",
+      "example_sentence": "夏休みにインターンシップをします。",
+      "example_phonetic": "/na.t͡sɯ.ja.sɯ.mi ni iɴ.taːɴ.ɕi̥p.pɯ o ɕi.ma.sɯ̥/",
+      "example_translation": "Je vais faire un stage pendant les vacances d'été."
+    },
+    {
+      "word_id": "v7",
+      "term": "やめる (辞める / 辞めます)",
+      "phonetic_api": "/ja.me.ɾɯ/",
+      "phonetic_simple": "YA-MÉ-ROU",
+      "translation": "Démissionner / Arrêter / Quitter (un travail, une activité)",
+      "example_sentence": "今月末で仕事を辞めるつもりです。",
+      "example_phonetic": "/ko&mu;.ɡe̥t.sɯ.ma.t͡sɯ de ɕi.ɡo.to o ja.me.ɾɯ t͡sɯ.mo.ɾi de.sɯ̥/",
+      "example_translation": "J'ai l'intention de quitter mon travail à la fin du mois."
+    },
+    {
+      "word_id": "v8",
+      "term": "つづける (続ける / 続けます)",
+      "phonetic_api": "/t͡sɯ.zɯ.ke.ɾɯ/",
+      "phonetic_simple": "TSOU-ZOU-KÉ-ROU",
+      "translation": "Continuer / Poursuivre",
+      "example_sentence": "これからも日本語の勉強を続けます。",
+      "example_phonetic": "/ko.re ka.ɾa mo ni.hoɴ.ɡo no beɴ.kjoː o t͡sɯ.zɯ.ke.ma.sɯ̥/",
+      "example_translation": "Je vais continuer à étudier le japonais à l'avenir aussi."
+    }
+  ],
+  "common_phrases": [
+    {
+      "phrase_id": "p1",
+      "original": "将来、何になるつもりですか。",
+      "phonetic_api": "/ɕoː.ɾa.i na.ni ni na.ɾɯ t͡sɯ.mo.ɾi de.sɯ.ka/",
+      "phonetic_simple": "CHOO-RA-I NA-NI NI NA-ROU TSOU-MO-RI DESS-KA",
+      "translation": "Qu'as-tu l'intention de devenir plus tard ?",
+      "context": "Interroger un étudiant sur ses ambitions ou ses projets professionnels."
+    },
+    {
+      "phrase_id": "p2",
+      "original": "来年、日本へ行くつもりです。",
+      "phonetic_api": "/ra.i.neɴ ni.hoɴ e i.kɯ t͡sɯ.mo.ɾi de.sɯ̥/",
+      "phonetic_simple": "RA-I-NEN, NI-HON E I-KOU TSOU-MO-RI DESS",
+      "translation": "J'ai l'intention d'aller au Japon l'année prochaine.",
+      "context": "Exprimer un projet personnel fort et déjà décidé."
+    },
+    {
+      "phrase_id": "p3",
+      "original": "会議は三時から始まる予定です。",
+      "phonetic_api": "/ka.i.ɡi wa saɴ.d͡ʑi ka.ɾa ha.d͡ʑi.ma.ɾɯ jo.teː de.sɯ̥/",
+      "phonetic_simple": "KA-I-GI WA SAN-DJI KA-RA HA-JI-MA-ROU YO-TÉE DESS",
+      "translation": "La réunion doit normalement commencer à 3 heures.",
+      "context": "Rapporter un planning de travail ou un horaire officiel fixé par l'organisation."
+    },
+    {
+      "phrase_id": "p4",
+      "original": "ちょっと休憩しよう。",
+      "phonetic_api": "/t͡ɕo̥t.to kjɯː.keː ɕi.joː/",
+      "phonetic_simple": "TCHOT-TO KYUU-KÉE CHI-YOO",
+      "translation": "Faisons une petite pause. (familier)",
+      "context": "Proposer spontanément une action à un ami ou un collègue proche en utilisant la forme volitive."
+    },
+    {
+      "phrase_id": "p5",
+      "original": "今夜は何を食べようか。",
+      "phonetic_api": "/koɴ.ja wa na.ni o ta.be.joː ka/",
+      "phonetic_simple": "KON-YA WA NA-NI O TA-BÉ-YOO KA",
+      "translation": "Qu'est-ce qu'on va bien pouvoir manger ce soir ? (familier)",
+      "context": "Se poser une question à soi-même ou à ses proches au moment de planifier le dîner."
+    },
+    {
+      "phrase_id": "p6",
+      "original": "大学を卒業した後はどうしますか。",
+      "phonetic_api": "/da.i.ɡa.kɯ o so.t͡sɯ.ɡjoː ɕi.ta a.to wa doː ɕi.ma.sɯ.ka/",
+      "phonetic_simple": "DA-I-GAK-OU O SOT-SOU-GYOO CHI-TA A-TO WA DOO CHI-MASS-KA",
+      "translation": "Que ferez-vous après avoir obtenu votre diplôme universitaire ?",
+      "context": "Formuler une question polie sur l'avenir post-études."
+    },
+    {
+      "phrase_id": "p7",
+      "original": "無理な計画は立てないほうがいいです。",
+      "phonetic_api": "/mɯ.ɾi.na keː.ka.kɯ wa ta.te.na.i hoː ɡa iː de.sɯ̥/",
+      "phonetic_simple": "MOU-RI-NA KÉE-KA-KOU WA TA-TÉ-NA-I HOO GA II DESS",
+      "translation": "Il vaut mieux ne pas faire de plans irréalisables.",
+      "context": "Donner un conseil de prudence face à un calendrier trop chargé."
+    },
+    {
+      "phrase_id": "p8",
+      "original": "夢が叶うように頑張ります。",
+      "phonetic_api": "/jɯ.me ɡa ka.na.ɯ joː ni ɡaɴ.ba.ɾi.ma.sɯ̥/",
+      "phonetic_simple": "YOU-MÉ GA KA-NA-OU YOO NI GAN-BA-RI-MASS",
+      "translation": "Je ferai de mon mieux pour que mon rêve se réalise.",
+      "context": "Exprimer sa détermination à atteindre ses objectifs."
+    }
+  ],
+  "grammar_points": [
+    {
+      "concept": "L'expression de l'intention personnelle : [Verbe forme neutre] つもりです (tsumori desu)",
+      "explanation": "La structure 'tsumori desu' se combine directement avec la forme dictionnaire (pour un projet affirmatif) ou la forme en '-nai' (pour l'intention de ne pas faire quelque chose). Elle indique que le locuteur a pris la décision de réaliser cette action. On ne l'utilise pas pour parler des actions de tiers sans précaution oratoire.",
+      "rules": [
+        "Affirmatif : [Forme dictionnaire] + つもりです (Ex : 買うつもりです - J'ai l'intention d'acheter).",
+        "Négatif : [Forme en -nai] + つもりです (Ex : 行かないつもりです - J'ai l'intention de ne pas y aller)."
+      ],
+      "examples": [
+        {
+          "structure": "私は来年、国へ帰るつもりです (Watashi wa rainen, kuni e kaeru tsumori desu)",
+          "phonetic_api": "/wa.ta.ɕi wa ra.i.ne&mu; kɯ.ni e ka.e.ɾɯ t͡sɯ.mo.ɾi de.sɯ̥/",
+          "meaning": "J'ai l'intention de retourner dans mon pays l'année prochaine."
+        }
+      ]
+    },
+    {
+      "concept": "La forme volitive informelle (意向形 - ikōkei)",
+      "explanation": "La forme volitive est l'équivalent informel de la structure polie '～ましょう' (~mashō). Elle permet d'inviter quelqu'un à faire une action ('Allons-y !') ou d'exprimer une résolution personnelle spontanée.",
+      "rules": [
+        "Groupe 1 : On transforme la voyelle finale de la base en 'o' et on ajoute 'u'. (Ex : 行く iku ➔ 行こう ikō | 話す hanasu ➔ 話そう hanasō).",
+        "Groupe 2 : On remplace 'ru' par 'yō'. (Ex : 食べる taberu ➔ 食べよう tabeyō | 見る miru ➔ 見よう miyō).",
+        "Groupe 3 : Les irréguliers : する suru ➔ しよう shiyō | 来る kuru ➔ 来よう koyō."
+      ],
+      "examples": [
+        {
+          "structure": "一緒にお酒を飲もう (Issho ni o-sake o nomō)",
+          "phonetic_api": "/i̥s.ɕo ni o.sa.ke o no.moː/",
+          "meaning": "Bucons du saké ensemble ! (style amical)"
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "リン (Lin)",
+      "text": "タクヤさん、大学を卒業した後はどうするの？",
+      "phonetic_api": "/ta.kɯ.ja saμ da.i.ɡa.kɯ o so.t͡sɯ.ɡjoː ɕi.ta a.to wa doː sɯ.ɾɯ no/",
+      "phonetic_simple": "TA-KU-YA SAN, DA-I-GAK-OU O SOT-SOU-GYOO CHI-TA A-TO WA DOO SOU-ROU NO ?",
+      "translation": "Takuya, qu'est-ce que tu vas faire après avoir fini l'université ? (familier)"
+    },
+    {
+      "speaker": "タクヤ (Takuya)",
+      "text": "日本のIT企業で働くつもりだよ。だから、夏休みにインターンシップをする予定なんだ。",
+      "phonetic_api": "/ni.hoɴ no a.i.tiː ki.ɡjoː de ha.ta.ɾa.kɯ t͡sɯ.mo.ɾi da jo da.ka.ɾa na.t͡sɯ.ja.sɯ.mi ni iμ.taːɴ.ɕi̥p.pɯ o sɯ.ɾɯ jo.teː naɴ da/",
+      "phonetic_simple": "NI-HON NO A-I-TII KI-GYOO DÉ HA-TA-RA-KOU TSOU-MO-RI DA YO. DA-KA-RA NA-TSOU-YA-SOU-MI NI IN-TAAN-SHIP-POU O SOU-ROU YO-TÉE NAN DA.",
+      "translation": "I'ai l'intention de travailler dans une entreprise d'informatique japonaise. C'est pour ça qu'il est prévu que je fasse un stage cet été."
+    },
+    {
+      "speaker": "リン (Lin)",
+      "text": "すごいね！じゃあ、今日の夜は私の家で合格のお祝いをしようよ。",
+      "phonetic_api": "/sɯ.ɡo.i ne d͡ʑaː kjoː no jo.ɾɯ wa wa.ta.ɕi no i.e de ɡoː.ka.kɯ no o.i.wa.i o ɕi.joː jo/",
+      "phonetic_simple": "SOU-GO-I NÉ ! JAA, KYOO NO YO-ROU WA WA-TA-CHI NO I-É DÉ GOO-KAK-OU NO O-I-WA-I O CHI-YOO YO.",
+      "translation": "C'est super ! Bon, et si on fêtait ton admission chez moi ce soir ? (proposition volitive)"
+    },
+    {
+      "speaker": "タクヤ (Takuya)",
+      "text": "いいね、そうしよう！美味しいワインを買って行くよ。",
+      "phonetic_api": "/iː ne soː ɕi.joː o.i.ɕiː wa.iμ o kḁt.te i.kɯ jo/",
+      "phonetic_simple": "II NÉ, SOO CHI-YOO ! O-I-CHII WA-IN O KAT-TÉ I-KOU YO.",
+      "translation": "Bonne idée, faisons comme ça ! J'achèterai et j'apporterai une bonne bouteille de vin."
+    }
+  ],
+  "cultural_notes": [
+    "La recherche d'emploi pour les étudiants universitaires japonais, appelée 'Shūkatsu' (就活), commence très tôt, souvent dès la troisième année de licence. C'est un parcours extrêmement codifié où les étudiants portent tous le même costume noir standard ('recruitment suit') et enchaînent les salons professionnels et les vagues d'entretiens.",
+    "La formulation 'yotei desu' est très prisée dans le monde des affaires au Japon, car elle permet d'annoncer un événement de manière neutre et objective sans faire reposer la responsabilité du planning sur les désirs personnels du locuteur."
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ex1",
+      "type": "multiple_choice",
+      "question": "Quelle est la forme volitive informelle exacte du verbe 'taberu' (食べる - manger) ?",
+      "options": [
+        "食べよう (Tabeyō)",
+        "食べろう (Taberō)",
+        "食べましょう (Tabemashō)"
+      ],
+      "correct_answer": "食べよう (Tabeyō)",
+      "explanation": "Les verbes du groupe 2 forment leur volitif en remplaçant la terminaison 'ru' par 'yō'. 'Tabemashō' est la forme volitive mais dans le registre poli (-masu), pas informel."
+    },
+    {
+      "exercise_id": "ex2",
+      "type": "fill_in_the_blanks",
+      "sentence_with_blank": "来月、新しい車を[ ___ ]つもりです。(J'ai l'intention d'acheter une nouvelle voiture le mois prochain)",
+      "correct_answer": "買う",
+      "hint": "Entrez le verbe 'acheter' (kaimasu) à sa forme dictionnaire requise devant la structure 'tsumori'."
+    }
+  ]
+}
