@@ -18,7 +18,7 @@ const LEVEL_META = {
   "Avancé": { id: "niveau-avance", label: "Avancé", range: "C1 - C2" },
 };
 
-const files = import.meta.glob("../data/Guerzé/**/*.json", { eager: true });
+const files = import.meta.glob("../data_langues/Guinée/Forestières/Guerzé/**/*.{json,JSON}", { eager: true, query: "?raw", import: "default" });
 const rawLessons = Object.entries(files)
   .map(([filePath, module]) => {
     const content = module?.default ?? module;
