@@ -599,7 +599,26 @@ const buildCurriculum = (lessons) => {
     entries.forEach((entry) => {
       if (!entry || typeof entry !== "object") return;
 
-      const moduleData = Array.isArray(entry.modules) ? entry.modules[0] : entry.modules;
+      let moduleData = Array.isArray(entry.modules) ? entry.modules[0] : entry.modules;
+      if (!moduleData && (Array.isArray(entry.vocabulary) || Array.isArray(entry.exercises))) {
+        moduleData = {
+          id_module: entry.module_number,
+          titre_module: entry.module_title,
+          chapitres: [
+            {
+              vocabulaire_cles: (entry.vocabulary || []).map((item) => ({
+                terme: item.term,
+                traduction_ou_definition: item.translation,
+                phonetic: item.phonetic_api || item.phonetic_simple || "",
+                example_target: item.example_sentence || "",
+                example_fr: item.example_translation || "",
+              })),
+              exemples: entry.common_phrases || [],
+              exercices: entry.exercises || [],
+            },
+          ],
+        };
+      }
       if (!moduleData || typeof moduleData !== "object") return;
 
       const { moduleNumber, levelTitle } = getModuleInfoFromPath(filePath);
@@ -637,7 +656,7 @@ const buildCurriculum = (lessons) => {
         lessonOrder,
         title: lessonTitle,
         title_fr: lessonTitle,
-        introduction: String(entry.introduction || "").trim(),
+        introduction: String(entry.introduction || entry.learning_objectives?.join(" ") || "").trim(),
         chapitres: chapters,
         content: {
           vocabulary: Array.isArray(chapters)
