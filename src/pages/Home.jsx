@@ -134,7 +134,7 @@ export default function Home() {
       <div>
         <h2 className="font-heading text-xl font-bold text-foreground mb-4">Familles de langues</h2>
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
-          {(Array.isArray(languages) ? languages.slice(0, 6) : []).map(lang => (
+          {(Array.isArray(languages) ? languages : []).map(lang => (
             <Link key={lang.id} to={`/apprendre/${lang.code}`}
               className="bg-card border border-border rounded-xl p-4 hover:border-primary/40 transition">
               <div className="flex items-center gap-3">
