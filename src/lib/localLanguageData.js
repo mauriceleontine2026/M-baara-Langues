@@ -657,6 +657,12 @@ const buildCurriculum = (lessons) => {
         title: lessonTitle,
         title_fr: lessonTitle,
         introduction: String(entry.introduction || entry.learning_objectives?.join(" ") || "").trim(),
+        learning_objectives: Array.isArray(entry.learning_objectives) ? entry.learning_objectives : [],
+        phonetic_focus: entry.phonetic_focus || null,
+        common_phrases: Array.isArray(entry.common_phrases) ? entry.common_phrases : [],
+        grammar_points: Array.isArray(entry.grammar_points) ? entry.grammar_points : [],
+        dialogue: Array.isArray(entry.dialogue) ? entry.dialogue : [],
+        cultural_notes: Array.isArray(entry.cultural_notes) ? entry.cultural_notes : [],
         chapitres: chapters,
         content: {
           vocabulary: Array.isArray(chapters)
@@ -715,6 +721,12 @@ const buildCurriculum = (lessons) => {
                 examples: lessonEntry.content.examples,
               },
               introduction: lessonEntry.introduction,
+              learning_objectives: lessonEntry.learning_objectives,
+              phonetic_focus: lessonEntry.phonetic_focus,
+              common_phrases: lessonEntry.common_phrases,
+              grammar_points: lessonEntry.grammar_points,
+              dialogue: lessonEntry.dialogue,
+              cultural_notes: lessonEntry.cultural_notes,
               module: {
                 theme: moduleEntry.label,
                 niveau: levelEntry.meta.label,
@@ -793,6 +805,12 @@ const getLessonMetadataForLanguage = (code) => {
         title: lesson.title,
         title_fr: lesson.title_fr,
         level: level.label,
+        learning_objectives: lesson.learning_objectives,
+        phonetic_focus: lesson.phonetic_focus,
+        common_phrases: lesson.common_phrases,
+        grammar_points: lesson.grammar_points,
+        dialogue: lesson.dialogue,
+        cultural_notes: lesson.cultural_notes,
         module: {
           theme: module.label,
           niveau: level.label,

@@ -28,6 +28,9 @@ describe('languageService local language data', () => {
 
     expect(lessons.length).toBeGreaterThan(0);
     expect(vocabulary.length).toBeGreaterThan(0);
+    expect(lessons[0].title_fr).toBeTruthy();
+    expect(Array.isArray(lessons[0].learning_objectives)).toBe(true);
+    expect(Array.isArray(lessons[0].common_phrases)).toBe(true);
 
     const languages = await getLanguages();
     const lessonCounts = await Promise.all(

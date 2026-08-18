@@ -269,7 +269,7 @@ export default function Lesson() {
     return value || null;
   };
 
-  const lessonTitle = lessonMeta?.module?.theme || lessonMeta?.title_fr || lessonMeta?.title || `Leçon ${parseInt(lessonNum || "0", 10)}`;
+  const lessonTitle = lessonMeta?.title_fr || lessonMeta?.title || lessonMeta?.module?.theme || `Leçon ${parseInt(lessonNum || "0", 10)}`;
   const lessonDescription = lessonMeta?.module?.description || lessonMeta?.description || lessonMeta?.content || `${items.length} mots à apprendre`;
   const lessonNiveau = normalizeLessonLevel(lessonMeta?.module?.niveau || lessonMeta?.level || null);
   const lessonBlocked = lessonLocked && !loading;
@@ -356,6 +356,47 @@ export default function Lesson() {
       </div>
 
       <div className="flex-1 max-w-xl mx-auto w-full px-4 py-6">
+        {(lessonMeta?.learning_objectives?.length > 0 || lessonMeta?.phonetic_focus || lessonMeta?.common_phrases?.length > 0 || lessonMeta?.grammar_points?.length > 0 || lessonMeta?.cultural_notes?.length > 0) && (
+          <div className="mb-6 space-y-3">
+            {lessonMeta.learning_objectives?.length > 0 && (
+              <section className="rounded-2xl border border-border bg-card p-4">
+                <h2 className="font-semibold text-foreground">Objectifs</h2>
+                <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-muted-foreground">
+                  {lessonMeta.learning_objectives.map((objective) => <li key={objective}>{objective}</li>)}
+                </ul>
+              </section>
+            )}
+            {lessonMeta.phonetic_focus && (
+              <section className="rounded-2xl border border-border bg-card p-4">
+                <h2 className="font-semibold text-foreground">Focus phonétique</h2>
+                <p className="mt-2 text-sm text-muted-foreground">{lessonMeta.phonetic_focus.key_sounds}</p>
+                {lessonMeta.phonetic_focus.common_pitfalls && <p className="mt-2 text-sm text-muted-foreground"><strong className="text-foreground">À surveiller : </strong>{lessonMeta.phonetic_focus.common_pitfalls}</p>}
+              </section>
+            )}
+            {lessonMeta.common_phrases?.length > 0 && (
+              <section className="rounded-2xl border border-border bg-card p-4">
+                <h2 className="font-semibold text-foreground">Phrases utiles</h2>
+                <div className="mt-2 space-y-2">
+                  {lessonMeta.common_phrases.map((phrase) => <p key={phrase.phrase_id || phrase.original} className="text-sm text-muted-foreground"><span className="font-medium text-foreground">{phrase.original}</span> : {phrase.translation}</p>)}
+                </div>
+              </section>
+            )}
+            {lessonMeta.grammar_points?.length > 0 && (
+              <section className="rounded-2xl border border-border bg-card p-4">
+                <h2 className="font-semibold text-foreground">Points de grammaire</h2>
+                <div className="mt-2 space-y-3">
+                  {lessonMeta.grammar_points.map((point) => <div key={point.concept}><h3 className="text-sm font-medium text-foreground">{point.concept}</h3><p className="mt-1 text-sm text-muted-foreground">{point.explanation}</p></div>)}
+                </div>
+              </section>
+            )}
+            {lessonMeta.cultural_notes?.length > 0 && (
+              <section className="rounded-2xl border border-border bg-card p-4">
+                <h2 className="font-semibold text-foreground">Notes culturelles</h2>
+                <div className="mt-2 space-y-2">{lessonMeta.cultural_notes.map((note) => <p key={note} className="text-sm text-muted-foreground">{note}</p>)}</div>
+              </section>
+            )}
+          </div>
+        )}
         {progressError && (
           <div className="mb-4 rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
             {progressError}
