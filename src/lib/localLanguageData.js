@@ -607,9 +607,11 @@ const buildCurriculum = (lessons) => {
           chapitres: [
             {
               vocabulaire_cles: (entry.vocabulary || []).map((item) => ({
+                word_id: item.word_id,
                 terme: item.term,
                 traduction_ou_definition: item.translation,
                 phonetic: item.phonetic_api || item.phonetic_simple || "",
+                phonetic_simple: item.phonetic_simple || "",
                 example_target: item.example_sentence || "",
                 example_fr: item.example_translation || "",
               })),
@@ -663,15 +665,18 @@ const buildCurriculum = (lessons) => {
         grammar_points: Array.isArray(entry.grammar_points) ? entry.grammar_points : [],
         dialogue: Array.isArray(entry.dialogue) ? entry.dialogue : [],
         cultural_notes: Array.isArray(entry.cultural_notes) ? entry.cultural_notes : [],
+        exercises: Array.isArray(entry.exercises) ? entry.exercises : [],
         chapitres: chapters,
         content: {
           vocabulary: Array.isArray(chapters)
             ? chapters.flatMap((chapter) =>
                 Array.isArray(chapter.vocabulaire_cles)
                   ? chapter.vocabulaire_cles.map((v) => ({
+                      word_id: v.word_id,
                       word: v.terme,
                       translation_fr: v.traduction_ou_definition,
                       phonetic: v.phonetic || "",
+                      phonetic_simple: v.phonetic_simple || "",
                       example_target: v.example_target || "",
                       example_fr: v.example_fr || "",
                     }))
@@ -727,6 +732,7 @@ const buildCurriculum = (lessons) => {
               grammar_points: lessonEntry.grammar_points,
               dialogue: lessonEntry.dialogue,
               cultural_notes: lessonEntry.cultural_notes,
+              exercises: lessonEntry.exercises,
               module: {
                 theme: moduleEntry.label,
                 niveau: levelEntry.meta.label,
@@ -811,6 +817,7 @@ const getLessonMetadataForLanguage = (code) => {
         grammar_points: lesson.grammar_points,
         dialogue: lesson.dialogue,
         cultural_notes: lesson.cultural_notes,
+          exercises: lesson.exercises,
         module: {
           theme: module.label,
           niveau: level.label,
