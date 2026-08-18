@@ -1,5 +1,4 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
-import { getLanguages, getLanguageByCode, getVocabularyForLanguage, getVocabularyForLesson, getLessonsForLanguage, getAllVocabulary, getAllLessons } from './languageService';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';import { getLocalLanguages } from '@/lib/localLanguageData';import { getLanguages, getLanguageByCode, getVocabularyForLanguage, getVocabularyForLesson, getLessonsForLanguage, getAllVocabulary, getAllLessons } from './languageService';
 
 const mockRequest = vi.fn();
 
@@ -7,7 +6,7 @@ vi.mock('./backendClient', () => ({
   request: (...args) => mockRequest(...args),
 }));
 
-describe('languageService backend integration', () => {
+describe('languageService local language data', () => {
   beforeEach(() => {
     mockRequest.mockReset();
   });
@@ -16,24 +15,35 @@ describe('languageService backend integration', () => {
     vi.clearAllMocks();
   });
 
-  it('fetches languages from the backend and preserves local languages', async () => {
-    mockRequest.mockResolvedValue([{ code: 'fr', name: 'Français' }]);
-
+  it('returns all local languages without a backend request', async () => {
     const result = await getLanguages();
 
-    expect(mockRequest).toHaveBeenCalledWith('GET', '/api/languages');
-    expect(result).toEqual(expect.arrayContaining([{ code: 'fr', name: 'Français' }]));
-    expect(result.length).toBeGreaterThan(1);
+    expect(mockRequest).not.toHaveBeenCalled();
+    expect(result).toHaveLength(39);
   });
 
-  it('falls back to local languages when backend fetch fails', async () => {
-    mockRequest.mockRejectedValue(new Error('Network failure'));
+  it('loads lessons and vocabulary from the local language data', async () => {
+    const lessons = await getLessonsForLanguage('malinke');
+    const vocabulary = await getVocabularyForLanguage('malinke');
 
-    const result = await getLanguages();
+    expect(lessons.length).toBeGreaterThan(0);
+    expect(vocabulary.length).toBeGreaterThan(0);
 
-    expect(mockRequest).toHaveBeenCalledWith('GET', '/api/languages');
-    expect(Array.isArray(result)).toBe(true);
-    expect(result.length).toBeGreaterThan(0);
+    const languages = await getLanguages();
+    const lessonCounts = await Promise.all(
+      languages.map(async (language) => (await getLessonsForLanguage(language.code)).length)
+    );
+    expect(lessonCounts).toHaveLength(39);
+    expect(lessonCounts.every((count) => count > 0)).toBe(true);
+  });
+
+  it('includes Guinean languages from the local data folders', () => {
+    const languages = getLocalLanguages();
+
+    expect(languages.some((lang) => lang.code === 'malinke')).toBe(true);
+    expect(languages.some((lang) => lang.code === 'pular')).toBe(true);
+    expect(languages.some((lang) => lang.code === 'guerze')).toBe(true);
+    expect(languages.length).toBeGreaterThan(18);
   });
 
   it('fetches vocabulary by lesson from the backend', async () => {
