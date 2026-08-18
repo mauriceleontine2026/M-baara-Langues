@@ -1,4 +1,4 @@
-import lessonCurriculum from "@/data/lessonCurriculum";
+import lessonCurriculum from "@/data_langues/lessonCurriculum";
 import { getCurriculumForLanguage as getLocalCurriculum, isLocalLanguage } from "@/lib/localLanguageData";
 
 const normalizeText = (value) => String(value || "").trim().toLowerCase();
