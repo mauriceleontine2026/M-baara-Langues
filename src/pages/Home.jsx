@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useAuth } from "@/lib/AuthContext";
 import { getLanguages } from "@/api/languageService";
 import { getProgress } from "@/api/progressService";
-import { BookOpen, GraduationCap, Mic, Trophy, ArrowRight, Flame, Star, Sparkles } from "lucide-react";
+import { BookOpen, GraduationCap, Mic, Trophy, ArrowRight, Flame, Star, Sparkles, Search } from "lucide-react";
 import LanguageFlag from "@/components/ui/LanguageFlag";
 
 // public logo at /logo.png
@@ -14,6 +14,7 @@ export default function Home() {
   const { user } = useAuth();
   const [languages, setLanguages] = useState(/** @type {any[]} */ ([]));
   const [progresses, setProgresses] = useState(/** @type {any[]} */ ([]));
+  const [languageQuery, setLanguageQuery] = useState("");
 
   useEffect(() => {
     getLanguages().then((data) => setLanguages(Array.isArray(data) ? data : [])).catch(() => setLanguages([]));
@@ -45,6 +46,11 @@ export default function Home() {
   const activeLangs = safeProgresses.length;
   const currentProgress = safeProgresses[0];
   const currentLanguage = safeLanguages.find((language) => language.code === currentProgress?.language_code);
+  const filteredLanguages = safeLanguages.filter((language) => {
+    const query = languageQuery.trim().toLowerCase();
+    if (!query) return true;
+    return `${language.name_fr} ${language.name} ${language.region}`.toLowerCase().includes(query);
+  });
 
   const actions = [
     { to: "/apprendre", label: "Commencer une leçon", icon: BookOpen, color: "text-orange-500" },
@@ -85,7 +91,6 @@ export default function Home() {
           className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-semibold px-5 py-3 rounded-xl hover:opacity-90 transition shadow-lg shadow-primary/20">
           {currentLanguage ? "Continuer mon apprentissage" : "Choisir une langue"} <ArrowRight size={18} />
         </Link>
-        <Link to="/apprendre" className="inline-flex items-center gap-2 rounded-xl border border-border bg-card/70 px-5 py-3 font-semibold text-foreground transition hover:border-primary/50 hover:bg-primary/5">Explorer les 39 langues</Link>
         </div>
       </motion.div>
 
@@ -148,9 +153,9 @@ export default function Home() {
 
       {/* Language families */}
       <div>
-        <h2 className="font-heading text-xl font-bold text-foreground mb-4">Familles de langues</h2>
+        <div className="mb-4 flex flex-col justify-between gap-3 sm:flex-row sm:items-end"><div><h2 className="font-heading text-xl font-bold text-foreground">Trouver ta langue</h2><p className="mt-1 text-sm text-muted-foreground">{filteredLanguages.length} langue{filteredLanguages.length > 1 ? "s" : ""} disponible{filteredLanguages.length > 1 ? "s" : ""}</p></div><label className="flex items-center gap-2 rounded-xl border border-border bg-card px-3 py-2 text-sm text-muted-foreground focus-within:border-primary/50"><Search size={16} className="shrink-0 text-primary" /><input value={languageQuery} onChange={(event) => setLanguageQuery(event.target.value)} placeholder="Rechercher une langue" className="w-full bg-transparent text-foreground outline-none placeholder:text-muted-foreground sm:w-52" /></label></div>
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
-          {(Array.isArray(languages) ? languages : []).map((lang) => (
+          {filteredLanguages.map((lang) => (
             <Link key={lang.id} to={`/apprendre/${lang.code}`}
               className="group rounded-xl border border-border bg-card p-4 transition hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-md">
               <div className="flex items-center gap-3">
@@ -163,6 +168,7 @@ export default function Home() {
             </Link>
           ))}
         </div>
+        {filteredLanguages.length === 0 && <div className="rounded-2xl border border-dashed border-border p-8 text-center text-sm text-muted-foreground">Aucune langue ne correspond à « {languageQuery} ».</div>}
       </div>
     </div>
   );
