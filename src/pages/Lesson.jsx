@@ -387,22 +387,19 @@ export default function Lesson() {
         {activeSection && (lessonMeta?.learning_objectives?.length > 0 || lessonMeta?.phonetic_focus || lessonMeta?.common_phrases?.length > 0 || lessonMeta?.grammar_points?.length > 0 || lessonMeta?.cultural_notes?.length > 0) && (
           <div className="mb-8 grid gap-4 lg:grid-cols-2">
             {activeSection === "objectifs" && lessonMeta.learning_objectives?.length > 0 && (
-              <section id="objectifs" className="scroll-mt-24 rounded-2xl border border-border bg-card p-5 shadow-sm">
+              <section id="objectifs" className="scroll-mt-24 rounded-[1.75rem] border border-border bg-card p-5 shadow-[0_18px_50px_-35px_rgba(0,0,0,0.7)] shadow-sm">
                 <h2 className="flex items-center gap-2 font-semibold text-foreground"><Target size={18} className="text-primary" />Objectifs</h2>
-                <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-muted-foreground">
-                  {lessonMeta.learning_objectives.map((objective) => <li key={objective}>{objective}</li>)}
-                </ul>
+                <div className="mt-4 grid gap-3 sm:grid-cols-2">{lessonMeta.learning_objectives.map((objective, index) => <article key={objective} className="rounded-2xl border border-border/70 bg-background/70 p-4"><span className="text-xs font-bold text-primary">0{index + 1}</span><p className="mt-2 text-sm leading-6 text-foreground">{objective}</p></article>)}</div>
               </section>
             )}
             {activeSection === "phonétique" && lessonMeta.phonetic_focus && (
-              <section className="rounded-2xl border border-border bg-card p-5 shadow-sm">
+              <section id="phonétique" className="scroll-mt-24 rounded-[1.75rem] border border-border bg-card p-5 shadow-[0_18px_50px_-35px_rgba(0,0,0,0.7)] shadow-sm">
                 <h2 className="font-semibold text-foreground">Focus phonétique</h2>
-                <p className="mt-2 text-sm text-muted-foreground">{lessonMeta.phonetic_focus.key_sounds}</p>
-                {lessonMeta.phonetic_focus.common_pitfalls && <p className="mt-2 text-sm text-muted-foreground"><strong className="text-foreground">À surveiller : </strong>{lessonMeta.phonetic_focus.common_pitfalls}</p>}
+                <div className="mt-4 grid gap-3 sm:grid-cols-2"><article className="rounded-2xl border border-primary/20 bg-primary/5 p-4"><p className="text-xs font-bold uppercase tracking-wider text-primary">À retenir</p><p className="mt-2 text-sm leading-6 text-foreground">{lessonMeta.phonetic_focus.key_sounds}</p></article>{lessonMeta.phonetic_focus.common_pitfalls && <article className="rounded-2xl border border-border/70 bg-background/70 p-4"><p className="text-xs font-bold uppercase tracking-wider text-muted-foreground">À surveiller</p><p className="mt-2 text-sm leading-6 text-muted-foreground">{lessonMeta.phonetic_focus.common_pitfalls}</p></article>}</div>
               </section>
             )}
             {activeSection === "phrases" && lessonMeta.common_phrases?.length > 0 && (
-              <section id="phrases" className="scroll-mt-24 rounded-2xl border border-border bg-card p-5 shadow-sm">
+              <section id="phrases" className="scroll-mt-24 rounded-[1.75rem] border border-border bg-card p-5 shadow-[0_18px_50px_-35px_rgba(0,0,0,0.7)] shadow-sm">
                 <h2 className="font-semibold text-foreground">Phrases utiles</h2>
                 <div className="mt-2 space-y-2">
                   {lessonMeta.common_phrases.map((phrase) => <div key={phrase.phrase_id || phrase.original} className="rounded-xl bg-secondary/60 p-3 text-sm"><p className="font-medium text-foreground">{phrase.original}</p>{phrase.phonetic_simple && <p className="mt-1 font-mono text-xs text-primary">{phrase.phonetic_simple}</p>}<p className="mt-1 text-muted-foreground">{phrase.translation}</p>{phrase.context && <p className="mt-1 text-xs text-muted-foreground/80">{phrase.context}</p>}</div>)}
@@ -410,17 +407,17 @@ export default function Lesson() {
               </section>
             )}
             {activeSection === "grammaire" && lessonMeta.grammar_points?.length > 0 && (
-              <section id="grammaire" className="scroll-mt-24 rounded-2xl border border-border bg-card p-5 shadow-sm">
+              <section id="grammaire" className="scroll-mt-24 rounded-[1.75rem] border border-border bg-card p-5 shadow-[0_18px_50px_-35px_rgba(0,0,0,0.7)] shadow-sm">
                 <h2 className="font-semibold text-foreground">Points de grammaire</h2>
                 <div className="mt-2 space-y-3">
-                  {lessonMeta.grammar_points.map((point) => <div key={point.concept}><h3 className="text-sm font-medium text-foreground">{point.concept}</h3><p className="mt-1 text-sm text-muted-foreground">{point.explanation}</p>{point.rules?.length > 0 && <ul className="mt-2 list-disc space-y-1 pl-5 text-xs text-muted-foreground">{point.rules.map((rule) => <li key={rule}>{rule}</li>)}</ul>}{point.examples?.length > 0 && <div className="mt-2 space-y-1">{point.examples.map((example) => <p key={example.structure} className="rounded-lg bg-secondary/60 p-2 text-xs text-muted-foreground"><strong className="text-foreground">{example.structure}</strong> : {example.meaning}</p>)}</div>}</div>)}
+                  {lessonMeta.grammar_points.map((point) => <article key={point.concept} className="rounded-2xl border border-border/70 bg-background/70 p-4"><h3 className="text-base font-semibold text-foreground">{point.concept}</h3><p className="mt-2 text-sm leading-6 text-muted-foreground">{point.explanation}</p>{point.rules?.length > 0 && <div className="mt-4 grid gap-2">{point.rules.map((rule, index) => <p key={rule} className="rounded-xl bg-secondary/60 p-3 text-xs leading-5 text-muted-foreground"><strong className="mr-1 text-primary">Règle {index + 1}.</strong>{rule}</p>)}</div>}{point.examples?.length > 0 && <div className="mt-3 grid gap-2 sm:grid-cols-2">{point.examples.map((example) => <p key={example.structure} className="rounded-xl border border-primary/15 bg-primary/5 p-3 text-xs text-muted-foreground"><strong className="block text-foreground">{example.structure}</strong><span className="mt-1 block">{example.meaning}</span></p>)}</div>}</article>)}
                 </div>
               </section>
             )}
             {activeSection === "culture" && lessonMeta.cultural_notes?.length > 0 && (
-              <section id="culture" className="scroll-mt-24 rounded-2xl border border-border bg-card p-5 shadow-sm">
+              <section id="culture" className="scroll-mt-24 rounded-[1.75rem] border border-border bg-card p-5 shadow-[0_18px_50px_-35px_rgba(0,0,0,0.7)] shadow-sm">
                 <h2 className="font-semibold text-foreground">Notes culturelles</h2>
-                <div className="mt-2 space-y-2">{lessonMeta.cultural_notes.map((note) => <p key={note} className="text-sm text-muted-foreground">{note}</p>)}</div>
+                <div className="mt-4 grid gap-3">{lessonMeta.cultural_notes.map((note, index) => <article key={note} className="rounded-2xl border border-border/70 bg-background/70 p-4"><span className="text-xs font-bold uppercase tracking-wider text-primary">Repère {index + 1}</span><p className="mt-2 text-sm leading-6 text-muted-foreground">{note}</p></article>)}</div>
               </section>
             )}
           </div>
