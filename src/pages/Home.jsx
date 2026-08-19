@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 import { useAuth } from "@/lib/AuthContext";
 import { getLanguages } from "@/api/languageService";
 import { getProgress } from "@/api/progressService";
@@ -42,6 +43,8 @@ export default function Home() {
   const totalXP = safeProgresses.reduce((s, p) => s + (p.xp || 0), 0);
   const maxStreak = safeProgresses.reduce((s, p) => Math.max(s, p.streak || 0), 0);
   const activeLangs = safeProgresses.length;
+  const currentProgress = safeProgresses[0];
+  const currentLanguage = safeLanguages.find((language) => language.code === currentProgress?.language_code);
 
   const actions = [
     { to: "/apprendre", label: "Commencer une leçon", icon: BookOpen, color: "text-orange-500" },
@@ -52,7 +55,8 @@ export default function Home() {
   return (
     <div className="p-6 lg:p-10 max-w-5xl mx-auto">
       {/* Welcome card */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary/20 via-card to-card border border-border p-8 mb-6">
+      <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="relative mb-6 overflow-hidden rounded-[2rem] border border-border bg-gradient-to-br from-primary/20 via-card to-card p-8 shadow-[0_25px_80px_-45px_rgba(249,115,22,.6)]">
+        <div className="absolute -right-16 -top-20 h-56 w-56 rounded-full bg-primary/15 blur-3xl" />
         
         <div className="flex items-center gap-3 mb-4">
           <img src="/logo.png" alt="M'baara" className="w-20 h-20 rounded-full object-cover shadow-md ring-2 ring-primary/30" />
@@ -76,23 +80,35 @@ export default function Home() {
             <BookOpen size={14} className="text-green-500" /> {activeLangs} langues
           </div>
         </div>
-        <Link to="/apprendre"
+        <div className="flex flex-wrap gap-3">
+        <Link to={currentLanguage ? `/apprendre/${currentLanguage.code}` : "/apprendre"}
           className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-semibold px-5 py-3 rounded-xl hover:opacity-90 transition shadow-lg shadow-primary/20">
-          Choisir une langue <ArrowRight size={18} />
+          {currentLanguage ? "Continuer mon apprentissage" : "Choisir une langue"} <ArrowRight size={18} />
         </Link>
-      </div>
+        <Link to="/apprendre" className="inline-flex items-center gap-2 rounded-xl border border-border bg-card/70 px-5 py-3 font-semibold text-foreground transition hover:border-primary/50 hover:bg-primary/5">Explorer les 39 langues</Link>
+        </div>
+      </motion.div>
+
+      {currentLanguage && (
+        <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .12 }} className="mb-6 flex items-center gap-4 rounded-2xl border border-primary/20 bg-primary/5 p-4">
+          <LanguageFlag language={currentLanguage} size="md" />
+          <div className="min-w-0 flex-1"><p className="text-xs font-bold uppercase tracking-[0.18em] text-primary">Reprendre là où tu t’es arrêté</p><p className="mt-1 truncate font-semibold text-foreground">{currentLanguage.name_fr}</p></div>
+          <Link to={`/apprendre/${currentLanguage.code}`} className="rounded-xl bg-primary px-4 py-2 text-sm font-bold text-primary-foreground transition hover:brightness-105">Reprendre</Link>
+        </motion.div>
+      )}
 
       {/* Action grid */}
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
-        {actions.map(({ to, label, icon: Icon, color }) => (
-          <Link key={to} to={to}
-            className="group bg-card border border-border rounded-2xl p-5 hover:border-primary/40 hover:shadow-lg transition-all">
+        {actions.map(({ to, label, icon: Icon, color }, index) => (
+          <motion.div key={to} initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: index * .06 }}>
+          <Link to={to}
+            className="group block h-full rounded-2xl border border-border bg-card p-5 transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg">
             <div className={`mb-3 ${color}`}><Icon size={28} /></div>
             <div className="font-semibold text-foreground text-sm">{label}</div>
             <div className="flex items-center gap-1 text-xs text-muted-foreground mt-1 group-hover:text-primary transition">
               Ouvrir <ArrowRight size={12} />
             </div>
-          </Link>
+          </Link></motion.div>
         ))}
       </div>
 
@@ -134,9 +150,9 @@ export default function Home() {
       <div>
         <h2 className="font-heading text-xl font-bold text-foreground mb-4">Familles de langues</h2>
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
-          {(Array.isArray(languages) ? languages : []).map(lang => (
+          {(Array.isArray(languages) ? languages : []).map((lang) => (
             <Link key={lang.id} to={`/apprendre/${lang.code}`}
-              className="bg-card border border-border rounded-xl p-4 hover:border-primary/40 transition">
+              className="group rounded-xl border border-border bg-card p-4 transition hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-md">
               <div className="flex items-center gap-3">
                 <LanguageFlag language={lang} size="md" />
                 <div className="min-w-0">
