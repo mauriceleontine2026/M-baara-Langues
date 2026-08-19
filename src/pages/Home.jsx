@@ -86,40 +86,14 @@ export default function Home() {
             <BookOpen size={14} className="text-green-500" /> {activeLangs} langues
           </div>
         </div>
-        <div className="flex flex-wrap gap-3">
-        <Link to={currentLanguage ? `/apprendre/${currentLanguage.code}` : "/apprendre"}
-          className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-semibold px-5 py-3 rounded-xl hover:opacity-90 transition shadow-lg shadow-primary/20">
-          {currentLanguage ? "Continuer mon apprentissage" : "Choisir une langue"} <ArrowRight size={18} />
-        </Link>
+        {currentLanguage && <Link to={`/apprendre/${currentLanguage.code}`} className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-semibold px-5 py-3 rounded-xl hover:opacity-90 transition shadow-lg shadow-primary/20">Continuer mon apprentissage <ArrowRight size={18} /></Link>}
+        <div className="relative mt-6 rounded-2xl border border-border/70 bg-background/70 p-4 backdrop-blur-sm">
+          <div className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-primary"><Search size={16} /> Trouver ta langue</div>
+          <label className="flex items-center gap-3 rounded-xl border-2 border-border bg-card px-4 py-3 text-sm text-muted-foreground transition focus-within:border-primary focus-within:ring-4 focus-within:ring-primary/10"><Search size={19} className="shrink-0 text-primary" /><input autoFocus value={languageQuery} onChange={(event) => setLanguageQuery(event.target.value)} placeholder="Rechercher une langue ou une région" className="w-full bg-transparent text-foreground outline-none placeholder:text-muted-foreground" /></label>
+          {!languageQuery.trim() && <div className="mt-3 flex flex-wrap gap-2">{["Français", "Malinké", "Lingala", "Afrique"].map((suggestion) => <button key={suggestion} type="button" onClick={() => setLanguageQuery(suggestion)} className="rounded-full border border-border bg-card px-3 py-1.5 text-xs font-semibold text-muted-foreground transition hover:border-primary/50 hover:bg-primary/10 hover:text-primary">{suggestion}</button>)}</div>}
+          {languageQuery.trim() && <div className="mt-3 grid grid-cols-2 gap-2 lg:grid-cols-3">{filteredLanguages.map((lang) => <Link key={lang.id} to={`/apprendre/${lang.code}`} className="group rounded-xl border border-border bg-card p-3 transition hover:-translate-y-0.5 hover:border-primary/50 hover:bg-primary/5"><div className="flex items-center gap-2"><LanguageFlag language={lang} size="sm" /><div className="min-w-0 flex-1"><div className="truncate text-xs font-semibold text-foreground">{lang.name_fr}</div><div className="truncate text-[10px] text-muted-foreground">{lang.region}</div></div><ArrowRight size={14} className="text-muted-foreground group-hover:text-primary" /></div></Link>)}{filteredLanguages.length === 0 && <p className="col-span-full py-3 text-center text-xs text-muted-foreground">Aucune langue trouvée.</p>}</div>}
         </div>
       </motion.div>
-
-      <section className="mb-6 rounded-3xl border border-border bg-card p-5 shadow-[0_20px_60px_-40px_rgba(249,115,22,.55)] lg:p-6">
-        <div className="mb-5 flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
-          <div>
-            <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-primary"><Sparkles size={14} />Ton prochain terrain de jeu</p>
-            <h2 className="mt-2 font-heading text-2xl font-bold text-foreground lg:text-3xl">Quelle langue veux-tu explorer ?</h2>
-            <p className="mt-1 text-sm text-muted-foreground">Écris un nom, une région ou une langue originale.</p>
-          </div>
-          <label className="flex w-full items-center gap-3 rounded-2xl border-2 border-border bg-background px-4 py-3.5 text-sm text-muted-foreground transition focus-within:border-primary focus-within:ring-4 focus-within:ring-primary/10 sm:max-w-sm">
-            <Search size={20} className="shrink-0 text-primary" />
-            <input autoFocus value={languageQuery} onChange={(event) => setLanguageQuery(event.target.value)} placeholder="Rechercher une langue" className="w-full bg-transparent text-foreground outline-none placeholder:text-muted-foreground" />
-          </label>
-        </div>
-        {!languageQuery.trim() && <div className="mb-5 flex flex-wrap items-center gap-2"><span className="text-xs font-semibold text-muted-foreground">Suggestions :</span>{["Français", "Malinké", "Lingala", "Afrique"].map((suggestion) => <button key={suggestion} type="button" onClick={() => setLanguageQuery(suggestion)} className="rounded-full border border-border bg-background px-3 py-1.5 text-xs font-semibold text-muted-foreground transition hover:border-primary/50 hover:bg-primary/10 hover:text-primary">{suggestion}</button>)}</div>}
-        {languageQuery.trim() ? (
-          <div className="mt-3 grid grid-cols-2 gap-3 lg:grid-cols-3">
-            {filteredLanguages.map((lang) => (
-              <Link key={lang.id} to={`/apprendre/${lang.code}`} className="group rounded-2xl border border-border bg-background p-4 transition hover:-translate-y-1 hover:border-primary/50 hover:bg-primary/5 hover:shadow-lg">
-                <div className="flex items-center gap-3"><div className="rounded-xl bg-primary/10 p-2 transition group-hover:bg-primary/20"><LanguageFlag language={lang} size="md" /></div><div className="min-w-0"><div className="truncate text-sm font-semibold text-foreground">{lang.name_fr}</div><div className="truncate text-xs text-muted-foreground">{lang.region}</div></div><ArrowRight size={16} className="ml-auto text-muted-foreground transition group-hover:translate-x-1 group-hover:text-primary" /></div>
-              </Link>
-            ))}
-            {filteredLanguages.length === 0 && <div className="col-span-full rounded-2xl border border-dashed border-border p-8 text-center text-sm text-muted-foreground">Aucune langue ne correspond à « {languageQuery} ».</div>}
-          </div>
-        ) : (
-          <div className="mt-3 rounded-2xl border border-dashed border-border bg-background/50 p-6 text-center text-sm text-muted-foreground">Commence à écrire pour afficher les langues correspondantes.</div>
-        )}
-      </section>
 
       {currentLanguage && (
         <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .12 }} className="mb-6 flex items-center gap-4 rounded-2xl border border-primary/20 bg-primary/5 p-4">
@@ -153,31 +127,16 @@ export default function Home() {
             <span className="absolute -bottom-0.5 -right-0.5 w-4 h-4 rounded-full bg-green-500 border-2 border-card" />
           </div>
           <div className="flex-1">
-            <div className="flex items-center gap-2 mb-1">
-              <GraduationCap size={18} className="text-purple-400" />
-              <h2 className="font-heading text-xl font-bold text-foreground">Kôrô — Tuteur IA</h2>
-            </div>
+            <div className="flex items-center gap-2 mb-1"><GraduationCap size={18} className="text-purple-400" /><h2 className="font-heading text-xl font-bold text-foreground">Kôrô — Tuteur IA</h2></div>
             <p className="text-sm text-muted-foreground">Converse vocalement, pose tes questions, apprends à ton rythme avec ton assistant intelligent</p>
           </div>
           <ArrowRight size={24} className="text-muted-foreground group-hover:text-purple-400 group-hover:translate-x-1 transition shrink-0" />
         </div>
       </Link>
 
-      {/* Studio card */}
-      <Link to="/studio"
-        className="block relative overflow-hidden rounded-2xl bg-gradient-to-r from-purple-600/20 via-card to-primary/15 border border-border p-6 mb-6 hover:border-primary/40 transition group">
-        <div className="flex items-center justify-between">
-          <div>
-            <div className="flex items-center gap-2 mb-1">
-              <Sparkles size={18} className="text-purple-400" />
-              <h2 className="font-heading text-xl font-bold text-foreground">Studio IA &amp; Data Science</h2>
-            </div>
-            <p className="text-sm text-muted-foreground">Tuteur vocal · accent · scan OCR · ligues en direct</p>
-          </div>
-          <ArrowRight size={24} className="text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition" />
-        </div>
+      <Link to="/studio" className="block relative overflow-hidden rounded-2xl bg-gradient-to-r from-purple-600/20 via-card to-primary/15 border border-border p-6 mb-6 hover:border-primary/40 transition group">
+        <div className="flex items-center justify-between"><div><div className="flex items-center gap-2 mb-1"><Sparkles size={18} className="text-purple-400" /><h2 className="font-heading text-xl font-bold text-foreground">Studio IA &amp; Data Science</h2></div><p className="text-sm text-muted-foreground">Tuteur vocal · accent · scan OCR · ligues en direct</p></div><ArrowRight size={24} className="text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition" /></div>
       </Link>
-
     </div>
   );
 }
