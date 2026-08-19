@@ -95,22 +95,23 @@ export default function Home() {
       </motion.div>
 
       <section className="mb-6 rounded-3xl border border-border bg-card p-5 shadow-[0_20px_60px_-40px_rgba(249,115,22,.55)] lg:p-6">
-        <div className="mb-4 flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
+        <div className="mb-5 flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.2em] text-primary">Ton prochain terrain de jeu</p>
-            <h2 className="mt-1 font-heading text-2xl font-bold text-foreground">Trouver ta langue</h2>
-            <p className="mt-1 text-sm text-muted-foreground">Recherche une langue par son nom ou sa région.</p>
+            <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-primary"><Sparkles size={14} />Ton prochain terrain de jeu</p>
+            <h2 className="mt-2 font-heading text-2xl font-bold text-foreground lg:text-3xl">Quelle langue veux-tu explorer ?</h2>
+            <p className="mt-1 text-sm text-muted-foreground">Écris un nom, une région ou une langue originale.</p>
           </div>
-          <label className="flex items-center gap-2 rounded-xl border border-border bg-background px-3 py-3 text-sm text-muted-foreground transition focus-within:border-primary/60 focus-within:ring-2 focus-within:ring-primary/15">
-            <Search size={17} className="shrink-0 text-primary" />
-            <input value={languageQuery} onChange={(event) => setLanguageQuery(event.target.value)} placeholder="Rechercher une langue" className="w-full bg-transparent text-foreground outline-none placeholder:text-muted-foreground sm:w-60" />
+          <label className="flex w-full items-center gap-3 rounded-2xl border-2 border-border bg-background px-4 py-3.5 text-sm text-muted-foreground transition focus-within:border-primary focus-within:ring-4 focus-within:ring-primary/10 sm:max-w-sm">
+            <Search size={20} className="shrink-0 text-primary" />
+            <input autoFocus value={languageQuery} onChange={(event) => setLanguageQuery(event.target.value)} placeholder="Rechercher une langue" className="w-full bg-transparent text-foreground outline-none placeholder:text-muted-foreground" />
           </label>
         </div>
+        {!languageQuery.trim() && <div className="mb-5 flex flex-wrap items-center gap-2"><span className="text-xs font-semibold text-muted-foreground">Suggestions :</span>{["Français", "Malinké", "Lingala", "Afrique"].map((suggestion) => <button key={suggestion} type="button" onClick={() => setLanguageQuery(suggestion)} className="rounded-full border border-border bg-background px-3 py-1.5 text-xs font-semibold text-muted-foreground transition hover:border-primary/50 hover:bg-primary/10 hover:text-primary">{suggestion}</button>)}</div>}
         {languageQuery.trim() ? (
           <div className="mt-3 grid grid-cols-2 gap-3 lg:grid-cols-3">
             {filteredLanguages.map((lang) => (
-              <Link key={lang.id} to={`/apprendre/${lang.code}`} className="group rounded-xl border border-border bg-background p-4 transition hover:-translate-y-0.5 hover:border-primary/40 hover:bg-primary/5 hover:shadow-md">
-                <div className="flex items-center gap-3"><LanguageFlag language={lang} size="md" /><div className="min-w-0"><div className="truncate text-sm font-semibold text-foreground">{lang.name_fr}</div><div className="truncate text-xs text-muted-foreground">{lang.region}</div></div></div>
+              <Link key={lang.id} to={`/apprendre/${lang.code}`} className="group rounded-2xl border border-border bg-background p-4 transition hover:-translate-y-1 hover:border-primary/50 hover:bg-primary/5 hover:shadow-lg">
+                <div className="flex items-center gap-3"><div className="rounded-xl bg-primary/10 p-2 transition group-hover:bg-primary/20"><LanguageFlag language={lang} size="md" /></div><div className="min-w-0"><div className="truncate text-sm font-semibold text-foreground">{lang.name_fr}</div><div className="truncate text-xs text-muted-foreground">{lang.region}</div></div><ArrowRight size={16} className="ml-auto text-muted-foreground transition group-hover:translate-x-1 group-hover:text-primary" /></div>
               </Link>
             ))}
             {filteredLanguages.length === 0 && <div className="col-span-full rounded-2xl border border-dashed border-border p-8 text-center text-sm text-muted-foreground">Aucune langue ne correspond à « {languageQuery} ».</div>}
