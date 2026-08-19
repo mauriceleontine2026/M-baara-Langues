@@ -25,7 +25,7 @@ function extractKeywords(text) {
 }
 
 export default function Exercise() {
-  const { langCode, moduleId } = useParams();
+  const { langCode, moduleId, lessonNum } = useParams();
   const navigate = useNavigate();
   const [currentIdx, setCurrentIdx] = useState(0);
   const [responses, setResponses] = useState({});
@@ -36,16 +36,24 @@ export default function Exercise() {
   const [moduleLocked, setModuleLocked] = useState(false);
   const [lockMessage, setLockMessage] = useState("");
 
-  const module = useMemo(() => {
+  const examContext = useMemo(() => {
     const curriculum = getCurriculumForLanguageExport(langCode);
     for (const level of curriculum.levels) {
-      const found = level.modules.find((item) => item.id === moduleId);
-      if (found) return found;
+      for (const item of level.modules) {
+        if (moduleId && item.id === moduleId) return { module: item, lesson: null };
+        const lesson = item.lessons.find((entry) => Number(entry.lesson_number) === Number(lessonNum));
+        if (lesson) return { module: item, lesson };
+      }
     }
-    return null;
-  }, [moduleId, langCode]);
+    return { module: null, lesson: null };
+  }, [moduleId, lessonNum, langCode]);
+  const module = examContext.module;
+  const lesson = examContext.lesson;
+  const exerciseKey = module?.id || moduleId || `lesson-${lessonNum}`;
 
-  const exercises = Array.isArray(module?.exerciseSeries) ? module.exerciseSeries : [];
+  const exercises = lesson
+    ? (Array.isArray(lesson.exercises) ? lesson.exercises : lesson.content?.exercises || [])
+    : (Array.isArray(module?.exerciseSeries) ? module.exerciseSeries : []);
 
   const currentExercise = exercises[currentIdx] || null;
   const progress = exercises.length > 0 ? ((currentIdx + 1) / exercises.length) * 100 : 0;
@@ -114,7 +122,7 @@ export default function Exercise() {
         moduleId,
         updatedAt: new Date().toISOString(),
       };
-      window.localStorage.setItem(`mbaara-exercise-${langCode}-${moduleId}`, JSON.stringify(payload));
+      window.localStorage.setItem(`mbaara-exercise-${langCode}-${exerciseKey}`, JSON.stringify({ ...payload, lessonNum }));
     } catch (e) {
       // ignore localStorage errors
     }
@@ -134,14 +142,14 @@ export default function Exercise() {
   }, [user, langCode, module]);
 
   useEffect(() => {
-    if (!module || !moduleId) return;
+    if (!module || !exerciseKey) return;
     const exerciseRecords = getExerciseRecords();
-    const moduleInfo = getModuleById(moduleId, langCode);
+    const moduleInfo = getModuleById(module.id, langCode);
     const beginnerStatus = getBeginnerCompletionStatus(completedLessons, exerciseRecords, 70, langCode);
     const accessible = moduleInfo ? isModuleAccessible(moduleId, completedLessons, exerciseRecords, langCode) : true;
     setModuleLocked(moduleInfo ? !accessible : false);
     setLockMessage(moduleInfo ? getLockMessageForModule(moduleInfo.levelIndex, moduleInfo.moduleIndex, moduleInfo.level, beginnerStatus.complete) : "");
-  }, [module, moduleId, completedLessons, langCode]);
+  }, [module, exerciseKey, completedLessons, langCode]);
 
   if (!module) {
     return (
@@ -170,7 +178,7 @@ export default function Exercise() {
     return (
       <div className="min-h-screen flex items-center justify-center px-6 text-center">
         <div className="max-w-md space-y-3">
-          <p className="text-muted-foreground">Aucune série d’exercices disponible pour ce module.</p>
+          <p className="text-muted-foreground">Aucun exercice disponible pour cette leçon.</p>
           <button onClick={() => navigate(-1)} className="text-primary text-sm font-medium">← Retour</button>
         </div>
       </div>
@@ -204,8 +212,8 @@ export default function Exercise() {
             <div className="h-full rounded-full bg-primary transition-all" style={{ width: `${progress}%` }} />
           </div>
           <div className="mt-4">
-            <h1 className="text-xl font-bold font-heading">{module.label}</h1>
-            <p className="text-sm text-muted-foreground mt-1">Langue : {langCode || "sélectionnée"}</p>
+            <h1 className="text-xl font-bold font-heading">{lesson?.title || module.label}</h1>
+            <p className="text-sm text-muted-foreground mt-1">Examen de la leçon · {langCode || "sélectionnée"}</p>
           </div>
         </div>
 

@@ -97,6 +97,7 @@ const AuthenticatedApp = () => {
           <Route path="/support" element={<Support />} />
         </Route>
         <Route path="/lecon/:langCode/:lessonNum" element={<Lesson />} />
+        <Route path="/examen/:langCode/:lessonNum" element={<Exercise />} />
         <Route path="/exercice/:langCode/:moduleId" element={<Exercise />} />
       </Route>
 
