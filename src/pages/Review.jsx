@@ -4,6 +4,7 @@ import { Calendar, Layers, RotateCcw, Plus, CheckCircle2, WifiOff } from "lucide
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 import { getOfflineLanguages, getAllOfflineVocab } from "@/lib/offlineStorage";
 import LanguageFlag from "@/components/ui/LanguageFlag";
+import { getReviewState, recordReviewAnswer } from "@/lib/adaptiveLearning";
 
 /** @type {any[]} */
 const initialList = [];
@@ -16,6 +17,8 @@ export default function Review() {
   const [filter, setFilter] = useState("all");
   const [showAdd, setShowAdd] = useState(false);
   const [newWord, setNewWord] = useState(initialNewWord);
+  const [reviewItem, setReviewItem] = useState(null);
+  const [showAnswer, setShowAnswer] = useState(false);
   const online = useOnlineStatus();
 
   useEffect(() => {
@@ -37,6 +40,18 @@ export default function Review() {
   /** @type {any[]} */
   const filtered = filter === "all" ? items : items.filter(i => i.language_code === filter);
   const toReview = Math.floor(filtered.length * 0.3);
+  const reviewQueue = filtered.slice().sort((a, b) => {
+    const aState = getReviewState(a.language_code, a.id);
+    const bState = getReviewState(b.language_code, b.id);
+    return Number(aState.nextReviewAt || 0) - Number(bState.nextReviewAt || 0);
+  });
+
+  const finishReview = (remembered) => {
+    if (!reviewItem) return;
+    recordReviewAnswer(reviewItem.language_code, reviewItem.id, remembered);
+    setReviewItem(null);
+    setShowAnswer(false);
+  };
 
   const handleAdd = /** @type {(e: import("react").FormEvent<HTMLFormElement>) => Promise<void>} */ (async (e) => {
     e.preventDefault();
@@ -101,7 +116,7 @@ export default function Review() {
         </div>
       ) : (
         <div className="space-y-2">
-          {filtered.slice(0, 10).map(item => {
+          {reviewQueue.slice(0, 10).map(item => {
             const lang = languages.find(l => l.code === item.language_code);
             return (
               <div key={item.id} className="bg-card border border-border rounded-xl p-4 flex items-center gap-4">
@@ -110,12 +125,25 @@ export default function Review() {
                   <div className="font-semibold text-foreground">{item.word}</div>
                   <div className="text-xs text-muted-foreground">{item.translation_fr}</div>
                 </div>
-                <button className="text-xs bg-primary/10 text-primary px-3 py-1.5 rounded-full font-medium hover:bg-primary/20 transition">
+                <button onClick={() => { setReviewItem(item); setShowAnswer(false); }} className="text-xs bg-primary/10 text-primary px-3 py-1.5 rounded-full font-medium hover:bg-primary/20 transition">
                   Réviser
                 </button>
               </div>
             );
           })}
+        </div>
+      )}
+
+      {reviewItem && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 px-4 backdrop-blur-sm">
+          <div className="w-full max-w-md rounded-3xl border border-border bg-card p-6 text-center shadow-2xl">
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-primary">Révision active</p>
+            <h2 className="mt-4 text-3xl font-heading font-bold text-foreground">{reviewItem.word}</h2>
+            <p className="mt-2 text-sm text-muted-foreground">Rappelle la traduction avant de la révéler.</p>
+            {showAnswer ? <p className="mt-6 rounded-2xl bg-primary/10 p-4 text-lg font-semibold text-foreground">{reviewItem.translation_fr}</p> : <button type="button" onClick={() => setShowAnswer(true)} className="mt-6 rounded-xl bg-primary px-5 py-3 font-semibold text-primary-foreground">Révéler la réponse</button>}
+            {showAnswer && <div className="mt-5 grid grid-cols-2 gap-3"><button type="button" onClick={() => finishReview(false)} className="rounded-xl border border-red-400/40 bg-red-500/10 px-4 py-3 text-sm font-semibold text-red-600">À revoir</button><button type="button" onClick={() => finishReview(true)} className="rounded-xl bg-emerald-500 px-4 py-3 text-sm font-semibold text-white">Je connais ✓</button></div>}
+            <button type="button" onClick={() => { setReviewItem(null); setShowAnswer(false); }} className="mt-4 text-sm text-muted-foreground hover:text-foreground">Fermer</button>
+          </div>
         </div>
       )}
 

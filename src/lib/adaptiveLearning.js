@@ -63,3 +63,17 @@ export const getAdaptiveSummary = (exercises, languageCode, exerciseKey) => {
   });
   return { due, mastered, total: exercises.length };
 };
+
+export const getReviewState = (languageCode, itemId) => readState(languageCode, `word_${itemId}`);
+
+export const recordReviewAnswer = (languageCode, itemId, remembered) => {
+  const state = readState(languageCode, `word_${itemId}`);
+  const attempts = Number(state.attempts || 0) + 1;
+  const correct = Number(state.correct || 0) + (remembered ? 1 : 0);
+  const streak = remembered ? Number(state.streak || 0) + 1 : 0;
+  const days = remembered ? Math.min(30, Math.max(1, 2 ** Math.min(streak, 4))) : 0;
+  const nextReviewAt = Date.now() + days * 24 * 60 * 60 * 1000;
+  const nextState = { attempts, correct, streak, lastPassed: remembered, lastSeenAt: Date.now(), nextReviewAt };
+  writeState(languageCode, `word_${itemId}`, nextState);
+  return nextState;
+};
