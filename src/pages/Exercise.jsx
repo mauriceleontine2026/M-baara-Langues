@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { CheckCircle2, ArrowLeft, RotateCcw } from "lucide-react";
+import { CheckCircle2, ArrowLeft, RotateCcw, Trophy, Sparkles, Flame, CircleHelp } from "lucide-react";
 import { useAuth } from "@/lib/AuthContext";
 import { getProgress } from "@/api/progressService";
 import {
@@ -194,49 +194,46 @@ export default function Exercise() {
   }, [isCompleted, score, exercises.length, langCode, moduleId]);
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <div className="max-w-2xl mx-auto px-4 py-6">
+    <div className="min-h-screen bg-[#141211] text-neutral-100" style={{ backgroundImage: "radial-gradient(circle at 12% 0%, rgba(249,115,22,.16), transparent 34%), radial-gradient(circle at 88% 15%, rgba(234,88,12,.1), transparent 28%)" }}>
+      <div className="mx-auto max-w-3xl px-4 py-6 lg:py-10">
         <div className="mb-6 flex items-center justify-between gap-3">
-          <button onClick={() => navigate(-1)} className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground">
+          <button onClick={() => navigate(-1)} className="inline-flex items-center gap-2 rounded-xl border border-neutral-700/40 bg-[#211d1c] px-3 py-2 text-sm text-neutral-300 transition hover:border-orange-500/50 hover:text-white">
             <ArrowLeft size={16} /> Retour
           </button>
-          <Link to={`/apprendre/${langCode}`} className="text-sm text-primary font-medium">Voir la langue</Link>
+          <Link to={`/apprendre/${langCode}`} className="rounded-xl px-3 py-2 text-sm font-medium text-orange-400 transition hover:bg-orange-500/10">Voir la langue</Link>
         </div>
 
-        <div className="rounded-3xl border border-border bg-card p-5 mb-6">
-          <div className="mb-3 flex items-center justify-between text-xs uppercase tracking-[0.2em] text-primary font-semibold">
-            <span>Pratique interactive</span>
-            <span>{currentIdx + 1}/{exercises.length}</span>
+        <div className="mb-6 overflow-hidden rounded-3xl border border-neutral-700/40 bg-[#211d1c] p-5 shadow-[0_24px_70px_-40px_rgba(0,0,0,.9)] lg:p-7">
+          <div className="mb-4 flex items-start justify-between gap-4">
+            <div><div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-orange-400"><Sparkles size={15} />Examen de la leçon</div><h1 className="mt-2 font-heading text-2xl font-bold text-white lg:text-3xl">{lesson?.title || module.label}</h1><p className="mt-1 text-sm text-neutral-400">Réponds à chaque question et construis ton score.</p></div>
+            <div className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-orange-500/15 text-orange-400"><Trophy size={23} /></div>
           </div>
-          <div className="h-2 rounded-full bg-secondary overflow-hidden">
-            <div className="h-full rounded-full bg-primary transition-all" style={{ width: `${progress}%` }} />
-          </div>
-          <div className="mt-4">
-            <h1 className="text-xl font-bold font-heading">{lesson?.title || module.label}</h1>
-            <p className="text-sm text-muted-foreground mt-1">Examen de la leçon · {langCode || "sélectionnée"}</p>
+          <div className="mb-2 flex items-center justify-between text-xs font-semibold text-neutral-400"><span>Progression</span><span className="text-white">{currentIdx + 1} / {exercises.length}</span></div>
+          <div className="h-3 overflow-hidden rounded-full bg-neutral-800"><div className="h-full rounded-full bg-orange-500 transition-all duration-500" style={{ width: `${progress}%` }} />
           </div>
         </div>
 
-        <div className="rounded-3xl border border-border bg-card p-5 shadow-sm">
+        <div className="rounded-3xl border border-neutral-700/40 bg-[#211d1c] p-5 shadow-[0_24px_70px_-40px_rgba(0,0,0,.9)] lg:p-7">
           <div className="mb-4">
-            <div className="text-[10px] font-semibold uppercase tracking-[0.2em] text-primary">{currentExercise.type}</div>
-            <h2 className="text-lg font-bold mt-1">{currentExercise.question || currentExercise.sentence_with_blank || currentExercise.title}</h2>
+            <div className="flex items-center justify-between gap-3"><div className="text-[10px] font-semibold uppercase tracking-[0.2em] text-orange-400">Question {currentIdx + 1} · {currentExercise.type}</div><CircleHelp size={18} className="text-neutral-500" /></div>
+            <h2 className="mt-3 text-xl font-bold leading-8 text-white lg:text-2xl">{currentExercise.question || currentExercise.sentence_with_blank || currentExercise.title}</h2>
           </div>
-          <p className="text-sm text-muted-foreground mb-4">{currentExercise.goal}</p>
+          <p className="mb-5 text-sm leading-6 text-neutral-400">{currentExercise.goal}</p>
 
           {isChoiceExercise ? (
-            <div className="grid gap-3">{currentOptions.map((option) => <button key={option} type="button" onClick={() => setResponses((prev) => ({ ...prev, [currentIdx]: option }))} className={`rounded-2xl border-2 px-4 py-3 text-left text-sm font-medium transition ${currentAnswer === option ? "border-primary bg-primary/10 text-foreground" : "border-border bg-background hover:border-primary/40"}`}>{option}</button>)}</div>
+            <div className="grid gap-3">{currentOptions.map((option, index) => <button key={option} type="button" onClick={() => setResponses((prev) => ({ ...prev, [currentIdx]: option }))} className={`flex items-center gap-3 rounded-2xl border-2 px-4 py-4 text-left text-sm font-medium transition ${currentAnswer === option ? "border-orange-500 bg-orange-500/15 text-white shadow-lg shadow-orange-950/20" : "border-neutral-700/40 bg-neutral-900/60 text-neutral-300 hover:border-orange-500/50 hover:text-white"}`}><span className="grid h-7 w-7 shrink-0 place-items-center rounded-lg bg-neutral-800 text-xs font-bold text-orange-400">{String.fromCharCode(65 + index)}</span>{option}</button>)}</div>
           ) : (
             <>
               <label className="block text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground mb-2">{currentExercise.type === "fill_in_the_blanks" || currentExercise.type === "texte_a_trous" ? "Complète la réponse" : "Rédige ta réponse courte"}</label>
-              <textarea value={currentAnswer} onChange={(event) => setResponses((prev) => ({ ...prev, [currentIdx]: event.target.value }))} className="w-full min-h-[140px] rounded-2xl border border-border bg-background px-3 py-3 text-sm outline-none focus:ring-2 focus:ring-primary/40" placeholder={currentExercise.sentence_with_blank || "Écris ta réponse ici…"} />
+              <textarea value={currentAnswer} onChange={(event) => setResponses((prev) => ({ ...prev, [currentIdx]: event.target.value }))} className="w-full min-h-[140px] rounded-2xl border border-neutral-700/40 bg-neutral-900/70 px-4 py-4 text-sm text-white outline-none placeholder:text-neutral-600 focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30" placeholder={currentExercise.sentence_with_blank || "Écris ta réponse ici…"} />
             </>
           )}
 
-          <div className="mt-4 flex flex-wrap gap-2">
+          <div className="mt-5 flex flex-wrap gap-3">
             <button
               onClick={validateResponse}
-              className="rounded-full bg-primary text-primary-foreground px-4 py-2 text-sm font-semibold"
+              disabled={!currentAnswer.trim()}
+              className="rounded-xl bg-orange-500 px-5 py-3 text-sm font-bold text-white shadow-lg shadow-orange-950/30 transition hover:bg-orange-400 disabled:cursor-not-allowed disabled:opacity-40"
             >
               Vérifier
             </button>
@@ -245,30 +242,30 @@ export default function Exercise() {
               disabled={!currentVerified || currentIdx >= exercises.length - 1}
               className="rounded-full border border-border px-4 py-2 text-sm font-semibold disabled:opacity-40"
             >
-              Leçon suivante
+              {currentIdx >= exercises.length - 1 ? "Voir le résultat" : "Continuer →"}
             </button>
           </div>
 
           {currentVerified && (
-            <div className="mt-4 rounded-2xl bg-secondary/50 px-3 py-3 text-sm">
-              <div className="flex items-center gap-2 text-foreground font-medium">
-                <CheckCircle2 size={16} className="text-green-500" />
+            <div className={`mt-5 rounded-2xl border px-4 py-4 text-sm ${currentResult?.passed ? "border-emerald-500/30 bg-emerald-500/10" : "border-orange-500/30 bg-orange-500/10"}`}>
+              <div className="flex items-center gap-2 font-semibold text-white">
+                {currentResult?.passed ? <CheckCircle2 size={18} className="text-emerald-400" /> : <Flame size={18} className="text-orange-400" />}
                 {currentResult?.passed
                   ? "Bonne structure de réponse. Tu peux passer à l’exercice suivant."
                   : "Essaie d’ajouter plus de détail pour mieux répondre à la consigne."}
               </div>
-              {currentExercise.explanation && <p className="mt-2 text-xs text-muted-foreground">Correction : {currentExercise.explanation}</p>}
+              {currentExercise.explanation && <p className="mt-2 text-xs leading-5 text-neutral-300">Correction : {currentExercise.explanation}</p>}
             </div>
           )}
         </div>
 
-        <div className="mt-6 rounded-3xl border border-border bg-card p-5">
+        <div className="mt-6 rounded-3xl border border-neutral-700/40 bg-[#211d1c] p-5">
           <div className="flex items-center justify-between gap-2">
             <div>
               <div className="text-[10px] uppercase tracking-[0.2em] text-primary font-semibold">Progression</div>
-              <div className="text-sm font-semibold text-foreground">{score}/{exercises.length} exercices validés</div>
+              <div className="text-sm font-semibold text-white">{score}/{exercises.length} exercices validés</div>
             </div>
-            <button onClick={restart} className="inline-flex items-center gap-2 rounded-full border border-border px-3 py-1.5 text-xs font-semibold">
+            <button onClick={restart} className="inline-flex items-center gap-2 rounded-xl border border-neutral-700/40 px-3 py-2 text-xs font-semibold text-neutral-300 transition hover:border-orange-500/50 hover:text-white">
               <RotateCcw size={14} /> Recommencer
             </button>
           </div>
