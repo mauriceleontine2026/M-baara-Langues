@@ -372,10 +372,20 @@ export default function Lesson() {
             {[{ icon: BookOpen, value: items.length, label: "mots" }, { icon: Target, value: lessonMeta?.learning_objectives?.length || 0, label: "objectifs" }, { icon: MessageCircle, value: lessonMeta?.common_phrases?.length || 0, label: "phrases" }, { icon: Sparkles, value: lessonMeta?.grammar_points?.length || 0, label: "points clés" }].map(({ icon: Icon, value, label }) => <div key={label} className="flex items-center gap-2"><Icon size={17} style={{ color: language.color }} /><div><div className="font-semibold text-foreground">{value}</div><div className="text-xs text-muted-foreground">{label}</div></div></div>)}
           </div>
         </section>
+        <nav aria-label="Sections de la leçon" className="mb-8 rounded-[1.75rem] border border-border/70 bg-card/75 p-3 shadow-sm backdrop-blur-sm">
+          <div className="mb-3 px-2 text-xs font-bold uppercase tracking-[0.2em] text-muted-foreground">Choisir une partie</div>
+          <div className="flex gap-2 overflow-x-auto pb-1">
+            {[{ id: "objectifs", label: "Objectifs", icon: Target }, { id: "vocabulaire", label: "Vocabulaire", icon: BookOpen }, { id: "phrases", label: "Phrases", icon: MessageCircle }, { id: "grammaire", label: "Grammaire", icon: Sparkles }, { id: "dialogue", label: "Dialogue", icon: MessageCircle }, { id: "culture", label: "Culture", icon: Sparkles }, { id: "exercices", label: "Exercices", icon: Target }].map(({ id, label, icon: Icon }) => (
+              <a key={id} href={`#${id}`} className="flex shrink-0 items-center gap-2 rounded-xl border border-border bg-background/70 px-3 py-2 text-sm font-semibold text-muted-foreground transition hover:border-primary/50 hover:bg-primary/10 hover:text-foreground">
+                <Icon size={15} className="text-primary" />{label}
+              </a>
+            ))}
+          </div>
+        </nav>
         {(lessonMeta?.learning_objectives?.length > 0 || lessonMeta?.phonetic_focus || lessonMeta?.common_phrases?.length > 0 || lessonMeta?.grammar_points?.length > 0 || lessonMeta?.cultural_notes?.length > 0) && (
           <div className="mb-8 grid gap-4 lg:grid-cols-2">
             {lessonMeta.learning_objectives?.length > 0 && (
-              <section className="rounded-2xl border border-border bg-card p-5 shadow-sm">
+              <section id="objectifs" className="scroll-mt-24 rounded-2xl border border-border bg-card p-5 shadow-sm">
                 <h2 className="flex items-center gap-2 font-semibold text-foreground"><Target size={18} className="text-primary" />Objectifs</h2>
                 <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-muted-foreground">
                   {lessonMeta.learning_objectives.map((objective) => <li key={objective}>{objective}</li>)}
@@ -390,7 +400,7 @@ export default function Lesson() {
               </section>
             )}
             {lessonMeta.common_phrases?.length > 0 && (
-              <section className="rounded-2xl border border-border bg-card p-5 shadow-sm">
+              <section id="phrases" className="scroll-mt-24 rounded-2xl border border-border bg-card p-5 shadow-sm">
                 <h2 className="font-semibold text-foreground">Phrases utiles</h2>
                 <div className="mt-2 space-y-2">
                   {lessonMeta.common_phrases.map((phrase) => <div key={phrase.phrase_id || phrase.original} className="rounded-xl bg-secondary/60 p-3 text-sm"><p className="font-medium text-foreground">{phrase.original}</p>{phrase.phonetic_simple && <p className="mt-1 font-mono text-xs text-primary">{phrase.phonetic_simple}</p>}<p className="mt-1 text-muted-foreground">{phrase.translation}</p>{phrase.context && <p className="mt-1 text-xs text-muted-foreground/80">{phrase.context}</p>}</div>)}
@@ -398,7 +408,7 @@ export default function Lesson() {
               </section>
             )}
             {lessonMeta.grammar_points?.length > 0 && (
-              <section className="rounded-2xl border border-border bg-card p-5 shadow-sm">
+              <section id="grammaire" className="scroll-mt-24 rounded-2xl border border-border bg-card p-5 shadow-sm">
                 <h2 className="font-semibold text-foreground">Points de grammaire</h2>
                 <div className="mt-2 space-y-3">
                   {lessonMeta.grammar_points.map((point) => <div key={point.concept}><h3 className="text-sm font-medium text-foreground">{point.concept}</h3><p className="mt-1 text-sm text-muted-foreground">{point.explanation}</p>{point.rules?.length > 0 && <ul className="mt-2 list-disc space-y-1 pl-5 text-xs text-muted-foreground">{point.rules.map((rule) => <li key={rule}>{rule}</li>)}</ul>}{point.examples?.length > 0 && <div className="mt-2 space-y-1">{point.examples.map((example) => <p key={example.structure} className="rounded-lg bg-secondary/60 p-2 text-xs text-muted-foreground"><strong className="text-foreground">{example.structure}</strong> : {example.meaning}</p>)}</div>}</div>)}
@@ -406,7 +416,7 @@ export default function Lesson() {
               </section>
             )}
             {lessonMeta.cultural_notes?.length > 0 && (
-              <section className="rounded-2xl border border-border bg-card p-5 shadow-sm">
+              <section id="culture" className="scroll-mt-24 rounded-2xl border border-border bg-card p-5 shadow-sm">
                 <h2 className="font-semibold text-foreground">Notes culturelles</h2>
                 <div className="mt-2 space-y-2">{lessonMeta.cultural_notes.map((note) => <p key={note} className="text-sm text-muted-foreground">{note}</p>)}</div>
               </section>
@@ -418,6 +428,7 @@ export default function Lesson() {
             {progressError}
           </div>
         )}
+        <section id="vocabulaire" className="scroll-mt-24">
         <AnimatePresence mode="wait">
           {phase === "learn" && currentItem && (
             <motion.div key={`learn-${cardIdx}`} initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -40 }} className="flex flex-col items-center gap-6">
@@ -515,18 +526,19 @@ export default function Lesson() {
             </motion.div>
           )}
         </AnimatePresence>
+        </section>
         <section className="mt-10 rounded-[2rem] border border-border/70 bg-card/80 p-5 shadow-sm lg:p-7">
           <div className="mb-6 flex items-end justify-between gap-4 border-b border-border/70 pb-4">
             <div><p className="text-xs font-bold uppercase tracking-[0.2em] text-primary">Référence complète</p><h2 className="mt-1 font-heading text-2xl font-bold text-foreground">Tout le contenu de la leçon</h2></div>
             <span className="text-xs text-muted-foreground">{items.length} entrées · {lessonMeta?.exercises?.length || 0} exercices</span>
           </div>
           <div className="space-y-8">
-            <section>
+            <section id="vocabulaire-complet" className="scroll-mt-24">
               <h3 className="mb-3 flex items-center gap-2 font-semibold text-foreground"><BookOpen size={18} className="text-primary" />Lexique complet</h3>
               <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{items.map((item, index) => <article key={item.word_id || `${item.word}-${index}`} className="rounded-2xl border border-border/70 bg-background/70 p-4"><div className="flex items-start justify-between gap-2"><h4 className="font-heading text-lg font-bold text-foreground">{item.word}</h4><span className="text-[10px] text-muted-foreground">#{index + 1}</span></div>{item.phonetic && <p className="mt-1 font-mono text-xs text-primary">{item.phonetic}</p>}{item.phonetic_simple && <p className="text-xs text-muted-foreground">{item.phonetic_simple}</p>}<p className="mt-2 text-sm text-muted-foreground">{item.translation_fr}</p>{item.example_target && <div className="mt-3 border-t border-border/70 pt-2 text-xs"><p className="italic text-foreground">{item.example_target}</p><p className="mt-1 text-muted-foreground">{item.example_fr}</p></div>}</article>)}</div>
             </section>
-            {lessonMeta?.dialogue?.length > 0 && <section><h3 className="mb-3 flex items-center gap-2 font-semibold text-foreground"><MessageCircle size={18} className="text-primary" />Dialogue</h3><div className="space-y-3">{lessonMeta.dialogue.map((line, index) => <div key={`${line.speaker}-${index}`} className={`max-w-3xl rounded-2xl p-4 ${index % 2 === 0 ? "bg-primary/10" : "ml-auto bg-secondary/70"}`}><p className="text-xs font-bold uppercase tracking-wider text-primary">{line.speaker}</p><p className="mt-1 font-medium text-foreground">{line.text}</p>{line.phonetic_simple && <p className="mt-1 font-mono text-xs text-muted-foreground">{line.phonetic_simple}</p>}<p className="mt-2 text-sm text-muted-foreground">{line.translation}</p></div>)}</div></section>}
-            {lessonMeta?.exercises?.length > 0 && <section><h3 className="mb-3 flex items-center gap-2 font-semibold text-foreground"><Target size={18} className="text-primary" />Exercices de la leçon</h3><div className="grid gap-3 lg:grid-cols-2">{lessonMeta.exercises.map((exercise, index) => <article key={exercise.exercise_id || index} className="rounded-2xl border border-border/70 bg-background/70 p-4"><p className="text-xs font-bold uppercase tracking-wider text-primary">Exercice {index + 1} · {exercise.type}</p><p className="mt-2 font-medium text-foreground">{exercise.question || exercise.sentence_with_blank}</p>{exercise.options?.length > 0 && <ul className="mt-2 space-y-1 text-sm text-muted-foreground">{exercise.options.map((option) => <li key={option} className="rounded-lg bg-secondary/60 px-3 py-2">{option}</li>)}</ul>}{exercise.hint && <p className="mt-2 text-xs text-muted-foreground">Indice : {exercise.hint}</p>}<p className="mt-3 border-t border-border/70 pt-2 text-sm text-primary">Réponse : {exercise.correct_answer}</p>{exercise.explanation && <p className="mt-1 text-xs text-muted-foreground">{exercise.explanation}</p>}</article>)}</div></section>}
+            {lessonMeta?.dialogue?.length > 0 && <section id="dialogue" className="scroll-mt-24"><h3 className="mb-3 flex items-center gap-2 font-semibold text-foreground"><MessageCircle size={18} className="text-primary" />Dialogue</h3><div className="space-y-3">{lessonMeta.dialogue.map((line, index) => <div key={`${line.speaker}-${index}`} className={`max-w-3xl rounded-2xl p-4 ${index % 2 === 0 ? "bg-primary/10" : "ml-auto bg-secondary/70"}`}><p className="text-xs font-bold uppercase tracking-wider text-primary">{line.speaker}</p><p className="mt-1 font-medium text-foreground">{line.text}</p>{line.phonetic_simple && <p className="mt-1 font-mono text-xs text-muted-foreground">{line.phonetic_simple}</p>}<p className="mt-2 text-sm text-muted-foreground">{line.translation}</p></div>)}</div></section>}
+            {lessonMeta?.exercises?.length > 0 && <section id="exercices" className="scroll-mt-24"><h3 className="mb-3 flex items-center gap-2 font-semibold text-foreground"><Target size={18} className="text-primary" />Exercices de la leçon</h3><div className="grid gap-3 lg:grid-cols-2">{lessonMeta.exercises.map((exercise, index) => <article key={exercise.exercise_id || index} className="rounded-2xl border border-border/70 bg-background/70 p-4"><p className="text-xs font-bold uppercase tracking-wider text-primary">Exercice {index + 1} · {exercise.type}</p><p className="mt-2 font-medium text-foreground">{exercise.question || exercise.sentence_with_blank}</p>{exercise.options?.length > 0 && <ul className="mt-2 space-y-1 text-sm text-muted-foreground">{exercise.options.map((option) => <li key={option} className="rounded-lg bg-secondary/60 px-3 py-2">{option}</li>)}</ul>}{exercise.hint && <p className="mt-2 text-xs text-muted-foreground">Indice : {exercise.hint}</p>}<p className="mt-3 border-t border-border/70 pt-2 text-sm text-primary">Réponse : {exercise.correct_answer}</p>{exercise.explanation && <p className="mt-1 text-xs text-muted-foreground">{exercise.explanation}</p>}</article>)}</div></section>}
           </div>
         </section>
       </main>
