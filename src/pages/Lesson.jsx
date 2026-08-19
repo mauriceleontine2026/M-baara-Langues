@@ -170,6 +170,15 @@ export default function Lesson() {
     }
   };
 
+  const playAudio = (item) => {
+    if (item?.audio_url) {
+      const audio = new Audio(item.audio_url);
+      audio.play().catch(() => speak(item.word));
+      return;
+    }
+    speak(item?.word || "");
+  };
+
   const nextCard = () => {
     if (cardIdx < items.length - 1) {
       setCardIdx(c => c + 1);
@@ -429,43 +438,17 @@ export default function Lesson() {
         )}
         {activeSection === "vocabulaire" && <section id="vocabulaire" className="scroll-mt-24">
         <AnimatePresence mode="wait">
-          {phase === "learn" && currentItem && (
-            <motion.div key={`learn-${cardIdx}`} initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -18 }} className="mx-auto flex w-full max-w-2xl flex-col items-center gap-5">
-              <div className="flex w-full items-center justify-between px-1">
-                <div><p className="text-xs font-bold uppercase tracking-[0.2em] text-primary">Étape {cardIdx + 1}</p><p className="mt-1 text-sm text-muted-foreground">Mémorise le mot, puis révèle sa traduction</p></div>
-                <div className="rounded-full border border-border bg-card px-3 py-1.5 text-xs font-semibold text-muted-foreground">{cardIdx + 1} / {items.length}</div>
+          {phase === "learn" && (
+            <motion.div key="learn-grid" initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} className="w-full">
+              <div className="mb-5 flex items-end justify-between gap-3"><div><p className="text-xs font-bold uppercase tracking-[0.2em] text-orange-400">Apprentissage / Vocabulaire</p><h2 className="mt-1 font-heading text-2xl font-bold text-white">Découvre les mots de la leçon</h2></div><span className="rounded-full border border-neutral-700/40 bg-neutral-800 px-3 py-1.5 text-xs font-semibold text-neutral-300">{items.length} cartes</span></div>
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                {items.map((item, index) => <motion.article key={item.word_id || `${item.word}-${index}`} initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: Math.min(index * 0.025, 0.35) }} className="flex min-h-[270px] flex-col rounded-2xl border border-neutral-700/40 bg-[#211d1c] p-4 shadow-[0_16px_40px_-28px_rgba(0,0,0,0.9)] transition hover:-translate-y-1 hover:border-orange-500/50">
+                  <div className="flex items-center justify-between"><span className="grid h-10 w-10 place-items-center rounded-xl bg-orange-500/10 text-orange-400"><LanguageFlag language={language} size="sm" /></span><span className="text-xs text-neutral-500">{String(index + 1).padStart(2, "0")}</span></div>
+                  <div className="flex flex-1 flex-col justify-center py-5"><h3 className="text-xl font-bold text-white">{item.translation_fr || item.word}</h3><p className="mt-2 text-lg font-medium text-neutral-400">{item.word}</p>{item.phonetic && <p className="mt-2 font-mono text-xs text-orange-300">/{item.phonetic}/</p>}{item.example_target && <p className="mt-3 line-clamp-2 text-xs italic text-neutral-500">“{item.example_target}”</p>}</div>
+                  <div className="flex gap-2"><button type="button" onClick={() => playAudio(item)} className="flex-1 rounded-xl bg-orange-500 px-3 py-2.5 text-sm font-bold text-white transition hover:bg-orange-400"><Volume2 size={15} className="mr-1.5 inline" />Écouter</button><button type="button" aria-label={`Écouter ${item.word}`} onClick={() => playAudio(item)} className="grid h-10 w-10 place-items-center rounded-xl bg-neutral-800 text-neutral-200 transition hover:bg-neutral-700"><Volume2 size={16} /></button></div>
+                </motion.article>)}
               </div>
-              <div className="h-2 w-full overflow-hidden rounded-full bg-secondary"><motion.div className="h-full rounded-full" style={{ background: language.color }} animate={{ width: `${((cardIdx + 1) / items.length) * 100}%` }} /></div>
-              <div className="w-full max-w-lg cursor-pointer" onClick={() => setFlipped(!flipped)} style={{ perspective: "1200px" }}>
-                <motion.div animate={{ rotateY: flipped ? 180 : 0 }} transition={{ duration: 0.4 }}
-                  style={{ transformStyle: "preserve-3d", position: "relative", height: "min(360px, 52vh)" }}>
-                  <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 overflow-hidden rounded-[2rem] p-8 shadow-[0_25px_70px_-30px_rgba(0,0,0,0.7)]"
-                    style={{ backfaceVisibility: "hidden", background: `linear-gradient(135deg, ${language.color}22, ${language.color}44)`, border: `2px solid ${language.color}33` }}>
-                    <div className="absolute -right-12 -top-12 h-40 w-40 rounded-full opacity-30 blur-2xl" style={{ background: language.color }} />
-                    <div className="relative rounded-2xl bg-background/70 p-3 shadow-sm"><LanguageFlag language={language} size="lg" /></div>
-                    <p className="relative text-xs font-bold uppercase tracking-[0.25em] text-primary">Mot du jour</p>
-                    <h2 className="relative text-4xl font-heading font-bold text-center text-foreground lg:text-5xl">{currentItem.word}</h2>
-                    {currentItem.phonetic && <p className="relative rounded-full bg-background/60 px-3 py-1 text-sm text-muted-foreground font-mono">/{currentItem.phonetic}/</p>}
-                    <button aria-label="Écouter la prononciation" onClick={e => { e.stopPropagation(); speak(currentItem.word); }} className="relative grid h-11 w-11 place-items-center rounded-full bg-card text-primary shadow-sm transition hover:scale-105 hover:bg-primary hover:text-primary-foreground">
-                      <Volume2 size={20} />
-                    </button>
-                    <p className="relative text-xs font-medium text-muted-foreground">Appuie sur la carte pour révéler</p>
-                  </div>
-                  <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 overflow-hidden rounded-[2rem] bg-card p-8 text-center shadow-[0_25px_70px_-30px_rgba(0,0,0,0.7)]"
-                    style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)", border: `2px solid ${language.color}33` }}>
-                    <p className="text-xs font-bold uppercase tracking-[0.25em] text-primary">Traduction</p>
-                    <h2 className="text-3xl font-heading font-bold text-foreground break-words whitespace-normal text-center lg:text-4xl">{currentItem.translation_fr}</h2>
-                    {currentItem.example_target && (
-                      <div className="mt-2 w-full rounded-2xl bg-secondary/70 p-4 text-center">
-                        <p className="text-sm text-foreground italic">"{currentItem.example_target}"</p>
-                        <p className="text-xs text-muted-foreground mt-1">{currentItem.example_fr}</p>
-                      </div>
-                    )}
-                    <p className="text-xs text-muted-foreground">Appuie pour revoir le mot</p>
-                  </div>
-                </motion.div>
-              </div>
-              <div className="grid w-full max-w-lg grid-cols-2 gap-3"><button type="button" onClick={() => setFlipped(!flipped)} className="rounded-2xl border border-border bg-card py-3.5 text-sm font-bold text-foreground transition hover:border-primary/50">{flipped ? "Revoir le mot" : "Voir la traduction"}</button><button type="button" onClick={nextCard} className="rounded-2xl py-3.5 text-sm font-bold text-white shadow-lg transition hover:brightness-105 active:scale-[0.98]" style={{ background: language.color }}>{cardIdx < items.length - 1 ? "Je connais →" : "Commencer le quiz →"}</button></div>
+              <div className="mt-6 flex justify-center"><button type="button" onClick={() => { setCardIdx(items.length - 1); setPhase("quiz"); setQuizIdx(0); }} className="rounded-xl bg-orange-500 px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-orange-950/30 transition hover:bg-orange-400">Commencer l’examen →</button></div>
             </motion.div>
           )}
 
