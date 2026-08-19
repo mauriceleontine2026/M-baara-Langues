@@ -99,21 +99,25 @@ export default function Home() {
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-primary">Ton prochain terrain de jeu</p>
             <h2 className="mt-1 font-heading text-2xl font-bold text-foreground">Trouver ta langue</h2>
-            <p className="mt-1 text-sm text-muted-foreground">{filteredLanguages.length} langue{filteredLanguages.length > 1 ? "s" : ""} disponible{filteredLanguages.length > 1 ? "s" : ""}</p>
+            <p className="mt-1 text-sm text-muted-foreground">Recherche une langue par son nom ou sa région.</p>
           </div>
           <label className="flex items-center gap-2 rounded-xl border border-border bg-background px-3 py-3 text-sm text-muted-foreground transition focus-within:border-primary/60 focus-within:ring-2 focus-within:ring-primary/15">
             <Search size={17} className="shrink-0 text-primary" />
             <input value={languageQuery} onChange={(event) => setLanguageQuery(event.target.value)} placeholder="Rechercher une langue" className="w-full bg-transparent text-foreground outline-none placeholder:text-muted-foreground sm:w-60" />
           </label>
         </div>
-        <div className="grid grid-cols-2 gap-3 lg:grid-cols-3">
-          {filteredLanguages.map((lang) => (
-            <Link key={lang.id} to={`/apprendre/${lang.code}`} className="group rounded-xl border border-border bg-background p-4 transition hover:-translate-y-0.5 hover:border-primary/40 hover:bg-primary/5 hover:shadow-md">
-              <div className="flex items-center gap-3"><LanguageFlag language={lang} size="md" /><div className="min-w-0"><div className="truncate text-sm font-semibold text-foreground">{lang.name_fr}</div><div className="truncate text-xs text-muted-foreground">{lang.region}</div></div></div>
-            </Link>
-          ))}
-        </div>
-        {filteredLanguages.length === 0 && <div className="mt-3 rounded-2xl border border-dashed border-border p-8 text-center text-sm text-muted-foreground">Aucune langue ne correspond à « {languageQuery} ».</div>}
+        {languageQuery.trim() ? (
+          <div className="mt-3 grid grid-cols-2 gap-3 lg:grid-cols-3">
+            {filteredLanguages.map((lang) => (
+              <Link key={lang.id} to={`/apprendre/${lang.code}`} className="group rounded-xl border border-border bg-background p-4 transition hover:-translate-y-0.5 hover:border-primary/40 hover:bg-primary/5 hover:shadow-md">
+                <div className="flex items-center gap-3"><LanguageFlag language={lang} size="md" /><div className="min-w-0"><div className="truncate text-sm font-semibold text-foreground">{lang.name_fr}</div><div className="truncate text-xs text-muted-foreground">{lang.region}</div></div></div>
+              </Link>
+            ))}
+            {filteredLanguages.length === 0 && <div className="col-span-full rounded-2xl border border-dashed border-border p-8 text-center text-sm text-muted-foreground">Aucune langue ne correspond à « {languageQuery} ».</div>}
+          </div>
+        ) : (
+          <div className="mt-3 rounded-2xl border border-dashed border-border bg-background/50 p-6 text-center text-sm text-muted-foreground">Commence à écrire pour afficher les langues correspondantes.</div>
+        )}
       </section>
 
       {currentLanguage && (
