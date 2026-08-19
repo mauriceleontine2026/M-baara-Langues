@@ -17,7 +17,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "https://mbaara-backend.vercel.app/api/$1"
+      "dest": "/api/index.py"
     },
     {
       "handle": "filesystem"

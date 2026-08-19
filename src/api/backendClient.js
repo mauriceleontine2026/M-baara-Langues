@@ -1,10 +1,4 @@
 const getApiBaseUrl = () => {
-  // Use the Vercel same-origin API in production so mobile browsers keep the
-  // httpOnly auth cookie as a first-party cookie.
-  if (import.meta.env.PROD && typeof window !== "undefined") {
-    return window.location.origin;
-  }
-
   if (import.meta.env.VITE_API_BASE_URL) {
     return import.meta.env.VITE_API_BASE_URL.replace(/\/$/, "");
   }
