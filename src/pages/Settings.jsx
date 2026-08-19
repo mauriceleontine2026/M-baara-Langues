@@ -49,6 +49,7 @@ export default function Settings() {
   const [notificationsEnabled, setNotificationsEnabled] = useState(true);
   const [securityAlertsEnabled, setSecurityAlertsEnabled] = useState(true);
   const [privateModeEnabled, setPrivateModeEnabled] = useState(false);
+  const [activePanel, setActivePanel] = useState("notifications");
   const [saved, setSaved] = useState(false);
   const [savedAt, setSavedAt] = useState(null);
 
@@ -96,13 +97,19 @@ export default function Settings() {
 
         <div className="grid gap-3 md:grid-cols-3">
           {settingsItems.map(({ title, description, icon: Icon }) => (
-            <div key={title} className="rounded-2xl border border-border bg-secondary/40 p-4">
+            <button
+              key={title}
+              type="button"
+              onClick={() => title === "Compte" ? navigate("/profil") : setActivePanel(title === "Sécurité" ? "security" : "notifications")}
+              className={`group rounded-2xl border bg-secondary/40 p-4 text-left transition hover:-translate-y-0.5 hover:border-primary/50 hover:bg-primary/5 ${activePanel === (title === "Sécurité" ? "security" : title === "Notifications" ? "notifications" : "") ? "border-primary/50 ring-2 ring-primary/15" : "border-border"}`}
+            >
               <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-background text-primary">
                 <Icon size={18} />
               </div>
               <div className="text-sm font-semibold text-foreground">{title}</div>
               <p className="mt-1 text-sm text-muted-foreground">{description}</p>
-            </div>
+              <div className="mt-3 text-xs font-semibold text-primary">{title === "Compte" ? "Ouvrir mon profil →" : "Gérer maintenant →"}</div>
+            </button>
           ))}
         </div>
       </div>
@@ -122,8 +129,13 @@ export default function Settings() {
           </button>
         </div>
 
+        <div className="mb-3 flex flex-wrap gap-2">
+          <button type="button" onClick={() => setActivePanel("notifications")} className={`rounded-xl px-3 py-2 text-sm font-semibold transition ${activePanel === "notifications" ? "bg-primary text-primary-foreground" : "border border-border text-muted-foreground hover:bg-secondary"}`}>Notifications</button>
+          <button type="button" onClick={() => setActivePanel("security")} className={`rounded-xl px-3 py-2 text-sm font-semibold transition ${activePanel === "security" ? "bg-primary text-primary-foreground" : "border border-border text-muted-foreground hover:bg-secondary"}`}>Sécurité & confidentialité</button>
+        </div>
+
         <div className="grid gap-3 md:grid-cols-2">
-          <label className="flex items-center justify-between rounded-2xl border border-border bg-secondary/40 p-4">
+          {activePanel === "notifications" && <label className="flex items-center justify-between rounded-2xl border border-border bg-secondary/40 p-4">
             <div>
               <div className="font-medium text-foreground">Notifications d’apprentissage</div>
               <div className="text-sm text-muted-foreground">Rappels et alertes du programme.</div>
@@ -133,9 +145,9 @@ export default function Settings() {
               checked={notificationsEnabled}
               onChange={(event) => setNotificationsEnabled(event.target.checked)}
             />
-          </label>
+          </label>}
 
-          <label className="flex items-center justify-between rounded-2xl border border-border bg-secondary/40 p-4">
+          {activePanel === "security" && <label className="flex items-center justify-between rounded-2xl border border-border bg-secondary/40 p-4">
             <div>
               <div className="font-medium text-foreground">Alertes de sécurité</div>
               <div className="text-sm text-muted-foreground">Recevoir les notifications de sécurité.</div>
@@ -145,9 +157,9 @@ export default function Settings() {
               checked={securityAlertsEnabled}
               onChange={(event) => setSecurityAlertsEnabled(event.target.checked)}
             />
-          </label>
+          </label>}
 
-          <label className="flex items-center justify-between rounded-2xl border border-border bg-secondary/40 p-4 md:col-span-2">
+          {activePanel === "security" && <label className="flex items-center justify-between rounded-2xl border border-border bg-secondary/40 p-4 md:col-span-2">
             <div>
               <div className="font-medium text-foreground">Mode privé</div>
               <div className="text-sm text-muted-foreground">Masquer certaines informations de profil dans les sections publiques.</div>
@@ -157,7 +169,7 @@ export default function Settings() {
               checked={privateModeEnabled}
               onChange={(event) => setPrivateModeEnabled(event.target.checked)}
             />
-          </label>
+          </label>}
         </div>
 
         <div className="mt-4 flex flex-wrap gap-3">
