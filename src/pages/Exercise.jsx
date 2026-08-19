@@ -195,7 +195,7 @@ export default function Exercise() {
   }, [isCompleted, score, exercises.length, langCode, moduleId]);
 
   return (
-    <div className="min-h-screen bg-[#141211] text-neutral-100" style={{ backgroundImage: "radial-gradient(circle at 12% 0%, rgba(249,115,22,.16), transparent 34%), radial-gradient(circle at 88% 15%, rgba(234,88,12,.1), transparent 28%)" }}>
+    <div className="lesson-exam min-h-screen bg-[#141211] text-neutral-100" style={{ backgroundImage: "radial-gradient(circle at 12% 0%, rgba(249,115,22,.16), transparent 34%), radial-gradient(circle at 88% 15%, rgba(234,88,12,.1), transparent 28%)" }}>
       <div className="mx-auto max-w-3xl px-4 py-6 lg:py-10">
         <div className="mb-6 flex items-center justify-between gap-3">
           <button onClick={() => navigate(-1)} className="inline-flex items-center gap-2 rounded-xl border border-neutral-700/40 bg-[#211d1c] px-3 py-2 text-sm text-neutral-300 transition hover:border-orange-500/50 hover:text-white">

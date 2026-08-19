@@ -107,3 +107,32 @@ html:not(.dark) [class*="text-neutral-500"] {
 html:not(.dark) [class*="border-neutral-700"] {
   border-color: hsl(var(--border)) !important;
 }
+
+html:not(.dark) .lesson-exam {
+  background-color: hsl(var(--background)) !important;
+  background-image: none !important;
+  color: hsl(var(--foreground)) !important;
+}
+
+html:not(.dark) .lesson-exam [class*="bg-[#211d1c]"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-900"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-800"] {
+  background-color: hsl(var(--card)) !important;
+}
+
+html:not(.dark) .lesson-exam [class*="text-white"],
+html:not(.dark) .lesson-exam [class*="text-neutral-100"],
+html:not(.dark) .lesson-exam [class*="text-neutral-200"],
+html:not(.dark) .lesson-exam [class*="text-neutral-300"] {
+  color: hsl(var(--card-foreground)) !important;
+}
+
+html:not(.dark) .lesson-exam [class*="text-neutral-400"],
+html:not(.dark) .lesson-exam [class*="text-neutral-500"],
+html:not(.dark) .lesson-exam [class*="text-neutral-600"] {
+  color: hsl(var(--muted-foreground)) !important;
+}
+
+html:not(.dark) .lesson-exam [class*="border-neutral-700"] {
+  border-color: hsl(var(--border)) !important;
+}
