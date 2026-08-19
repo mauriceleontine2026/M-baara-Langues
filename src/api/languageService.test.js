@@ -38,6 +38,8 @@ describe('languageService local language data', () => {
     );
     expect(lessonCounts).toHaveLength(39);
     expect(lessonCounts.every((count) => count > 0)).toBe(true);
+    expect((await getLessonsForLanguage('igbo')).some((lesson) => lesson.lesson_number === 1)).toBe(true);
+    expect((await getLessonsForLanguage('moore')).some((lesson) => lesson.lesson_number === 1)).toBe(true);
   });
 
   it('includes Guinean languages from the local data folders', () => {

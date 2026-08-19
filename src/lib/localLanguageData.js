@@ -499,7 +499,7 @@ const getLanguageMetaFromFolder = (folderName) => {
   };
 };
 
-const files = import.meta.glob("../data_langues/**/*.{json,JSON}", {
+const files = import.meta.glob("../data_langues/**/*.{json,JSON,Json}", {
   eager: true,
   query: "?raw",
   import: "default",
