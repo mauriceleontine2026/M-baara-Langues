@@ -1,4 +1,5 @@
 import { Link, NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
+import { AnimatePresence, motion } from "framer-motion";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -51,13 +52,13 @@ export default function AppLayout() {
   };
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <header className="fixed inset-x-0 top-0 z-40 border-b border-border/70 bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/75">
+    <div className="min-h-screen bg-background text-foreground transition-colors duration-300">
+      <header className="fixed inset-x-0 top-0 z-40 border-b border-border/70 bg-background/85 shadow-[0_8px_30px_-24px_rgba(249,115,22,.65)] backdrop-blur-xl supports-[backdrop-filter]:bg-background/70">
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
-          <div className="flex items-center gap-3">
+          <div className="group flex items-center gap-3">
             <img src="/logo.png" alt="M'baara" className="h-9 w-9 rounded-full object-cover ring-2 ring-primary/30" />
             <div>
-              <div className="font-heading text-base font-bold leading-none text-foreground">M'BAARA</div>
+              <div className="font-heading text-base font-bold leading-none text-foreground transition-colors group-hover:text-primary">M'BAARA</div>
               <div className="text-[11px] font-semibold text-primary">Langues</div>
             </div>
           </div>
@@ -148,7 +149,11 @@ export default function AppLayout() {
       </header>
 
       <main className="mx-auto max-w-7xl pb-24 pt-20">
-        <Outlet />
+        <AnimatePresence mode="wait">
+          <motion.div key={location.pathname} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -8 }} transition={{ duration: 0.22, ease: "easeOut" }}>
+            <Outlet />
+          </motion.div>
+        </AnimatePresence>
       </main>
 
       <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-border/70 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/85">
@@ -161,7 +166,7 @@ export default function AppLayout() {
                 const active = navActive || isActive(to);
                 return `flex min-w-0 flex-col items-center justify-center gap-0.5 rounded-lg px-0.5 py-1 text-[9px] font-medium transition sm:text-[11px] ${
                   active
-                    ? "bg-primary/15 text-primary"
+                    ? "relative bg-primary/15 text-primary shadow-sm"
                     : "text-muted-foreground hover:bg-secondary hover:text-foreground"
                 }`;
               }}
