@@ -85,3 +85,25 @@
     font-family: 'Playfair Display', Georgia, 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', serif;
   }
 }
+
+/* Keep the lesson cards readable when the light theme is selected. */
+html:not(.dark) [class*="bg-[#211d1c]"],
+html:not(.dark) [class*="bg-neutral-900"],
+html:not(.dark) [class*="bg-neutral-800"] {
+  background-color: hsl(var(--card)) !important;
+}
+
+html:not(.dark) [class*="text-white"],
+html:not(.dark) [class*="text-neutral-200"],
+html:not(.dark) [class*="text-neutral-300"] {
+  color: hsl(var(--card-foreground)) !important;
+}
+
+html:not(.dark) [class*="text-neutral-400"],
+html:not(.dark) [class*="text-neutral-500"] {
+  color: hsl(var(--muted-foreground)) !important;
+}
+
+html:not(.dark) [class*="border-neutral-700"] {
+  border-color: hsl(var(--border)) !important;
+}
