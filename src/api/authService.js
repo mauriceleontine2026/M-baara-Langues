@@ -1,6 +1,13 @@
 import { request, notifyAuthChanged } from "./backendClient";
 import supabase, { signInWithGoogle } from "./supabaseClient";
 
+const getAuthApiBaseUrl = () => {
+  if (import.meta.env.PROD && typeof window !== "undefined") {
+    return window.location.origin;
+  }
+  return import.meta.env.VITE_API_BASE_URL || (typeof window !== "undefined" ? window.location.origin : "");
+};
+
 const clearUrlHash = () => {
   if (typeof window === "undefined") return;
   const { pathname, search } = window.location;
@@ -86,7 +93,7 @@ export async function login(email, password) {
  * `/api/auth/login/form` and returns the authenticated user if successful.
  */
 export async function loginWithForm(email, password) {
-  const url = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/login/form`;
+  const url = `${getAuthApiBaseUrl()}/api/auth/login/form`;
   const formData = new FormData();
   formData.append("email", email);
   formData.append("password", password);
@@ -174,7 +181,7 @@ function getCsrfTokenFromCookie() {
  * This bypasses XHR CORS restrictions and relies on browser cookie handling.
  */
 export async function loginWithGoogleForm(accessToken) {
-  const url = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/supabase/form`;
+  const url = `${getAuthApiBaseUrl()}/api/auth/supabase/form`;
   const formData = new FormData();
   formData.append("access_token", accessToken);
 

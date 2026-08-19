@@ -1,4 +1,8 @@
 const getApiBaseUrl = () => {
+  if (import.meta.env.PROD && typeof window !== "undefined") {
+    return window.location.origin;
+  }
+
   if (import.meta.env.VITE_API_BASE_URL) {
     return import.meta.env.VITE_API_BASE_URL.replace(/\/$/, "");
   }
