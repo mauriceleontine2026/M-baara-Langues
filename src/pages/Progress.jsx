@@ -38,9 +38,12 @@ export default function Progress() {
   const safeProgresses = Array.isArray(progresses) ? progresses : [];
   /** @type {any[]} */
   const safeLanguages = Array.isArray(languages) ? languages : [];
+  const normalizeCode = (value) => String(value || "").trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
+  const progressByLanguage = new Map(safeProgresses.map((progress) => [normalizeCode(progress.language_code), progress]));
+  const languageRows = safeLanguages.map((language) => ({ language, progress: progressByLanguage.get(normalizeCode(language.code)) || null }));
   const totalXP = safeProgresses.reduce((s, p) => s + (p.xp || 0), 0);
   const maxStreak = safeProgresses.reduce((s, p) => Math.max(s, p.streak || 0), 0);
-  const activeLangs = safeProgresses.length;
+  const activeLangs = languageRows.filter(({ progress }) => progress).length;
   const totalLessons = safeProgresses.reduce((s, p) => s + (p.completed_lessons?.length || 0), 0);
 
   const rank = totalLessons < 10 ? "Débutant" : totalLessons < 30 ? "Apprenti" : totalLessons < 60 ? "Intermédiaire" : "Avancé";
@@ -97,7 +100,7 @@ export default function Progress() {
         <h2 className="font-heading text-xl font-bold text-foreground">Progression par langue</h2>
       </div>
 
-      {safeProgresses.length === 0 ? (
+      {languageRows.length === 0 ? (
         <div className="bg-card border border-border rounded-2xl p-12 text-center">
           <BookOpen size={40} className="mx-auto mb-3 text-muted-foreground/40" />
           <p className="font-semibold text-foreground mb-1">Aucune progression encore</p>
@@ -108,12 +111,10 @@ export default function Progress() {
         </div>
       ) : (
         <div className="space-y-3">
-          {safeProgresses.map(p => {
-            const lang = safeLanguages.find(l => l.code === p.language_code);
-            if (!lang) return null;
-            const completed = p.completed_lessons?.length || 0;
+          {languageRows.map(({ language: lang, progress: p }) => {
+            const completed = p?.completed_lessons?.length || 0;
             return (
-              <div key={p.id} className="bg-card border border-border rounded-2xl p-4 flex items-center gap-4">
+              <Link to={`/apprendre/${lang.code}`} key={lang.code} className="group bg-card border border-border rounded-2xl p-4 flex items-center gap-4 transition hover:-translate-y-0.5 hover:border-primary/50 hover:shadow-md">
                 <LanguageFlag language={lang} size="md" />
                 <div className="flex-1">
                   <div className="font-semibold text-foreground text-sm">{lang.name_fr}</div>
@@ -122,10 +123,11 @@ export default function Progress() {
                   </div>
                 </div>
                 <div className="text-right">
-                  <div className="text-sm font-bold text-foreground">{p.xp || 0} XP</div>
+                  <div className="text-sm font-bold text-foreground">{p?.xp || 0} XP</div>
                   <div className="text-xs text-muted-foreground">{completed} leçons</div>
+                  {!p && <div className="text-[10px] font-semibold text-primary opacity-0 transition group-hover:opacity-100">Commencer →</div>}
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>
