@@ -342,7 +342,7 @@ export default function Lesson() {
   const progress = phase === "learn" ? (cardIdx / items.length) : (quizIdx / items.length);
 
   return (
-    <div className="min-h-screen bg-background flex flex-col" style={{ backgroundImage: `radial-gradient(circle at 15% 0%, ${language.color}18, transparent 32%), radial-gradient(circle at 90% 18%, ${language.color}12, transparent 28%)` }}>
+    <div className="lesson-page min-h-screen bg-background flex flex-col" style={{ backgroundImage: `radial-gradient(circle at 15% 0%, ${language.color}18, transparent 32%), radial-gradient(circle at 90% 18%, ${language.color}12, transparent 28%)` }}>
       <div className="sticky top-0 z-20 border-b border-border/70 bg-background/85 px-4 py-3 backdrop-blur-xl">
         <div className="max-w-5xl mx-auto flex items-center gap-3">
           {!online && <span className="flex items-center gap-1 text-xs text-yellow-500 font-medium shrink-0"><WifiOff size={14} /> Hors-ligne</span>}

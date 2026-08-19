@@ -86,25 +86,39 @@
   }
 }
 
-/* Keep the lesson cards readable when the light theme is selected. */
-html:not(.dark) [class*="bg-[#211d1c]"],
-html:not(.dark) [class*="bg-neutral-900"],
-html:not(.dark) [class*="bg-neutral-800"] {
+/* Keep only the hard-coded dark lesson surfaces readable in the light theme. */
+html:not(.dark) .lesson-page [class*="bg-[#211d1c]"],
+html:not(.dark) .lesson-page [class*="bg-neutral-900"],
+html:not(.dark) .lesson-page [class*="bg-neutral-800"],
+html:not(.dark) .lesson-exam [class*="bg-[#211d1c]"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-900"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-800"] {
   background-color: hsl(var(--card)) !important;
 }
 
-html:not(.dark) [class*="text-white"],
-html:not(.dark) [class*="text-neutral-200"],
-html:not(.dark) [class*="text-neutral-300"] {
+html:not(.dark) .lesson-page [class*="bg-[#211d1c]"] [class*="text-white"],
+html:not(.dark) .lesson-page [class*="bg-[#211d1c]"] [class*="text-neutral-200"],
+html:not(.dark) .lesson-page [class*="bg-[#211d1c]"] [class*="text-neutral-300"],
+html:not(.dark) .lesson-page [class*="bg-neutral-900"] [class*="text-white"],
+html:not(.dark) .lesson-page [class*="bg-neutral-900"] [class*="text-neutral-200"],
+html:not(.dark) .lesson-page [class*="bg-neutral-900"] [class*="text-neutral-300"],
+html:not(.dark) .lesson-page [class*="bg-neutral-800"] [class*="text-white"],
+html:not(.dark) .lesson-page [class*="bg-neutral-800"] [class*="text-neutral-200"],
+html:not(.dark) .lesson-page [class*="bg-neutral-800"] [class*="text-neutral-300"] {
   color: hsl(var(--card-foreground)) !important;
 }
 
-html:not(.dark) [class*="text-neutral-400"],
-html:not(.dark) [class*="text-neutral-500"] {
+html:not(.dark) .lesson-page [class*="bg-[#211d1c]"] [class*="text-neutral-400"],
+html:not(.dark) .lesson-page [class*="bg-[#211d1c]"] [class*="text-neutral-500"],
+html:not(.dark) .lesson-page [class*="bg-neutral-900"] [class*="text-neutral-400"],
+html:not(.dark) .lesson-page [class*="bg-neutral-900"] [class*="text-neutral-500"],
+html:not(.dark) .lesson-page [class*="bg-neutral-800"] [class*="text-neutral-400"],
+html:not(.dark) .lesson-page [class*="bg-neutral-800"] [class*="text-neutral-500"] {
   color: hsl(var(--muted-foreground)) !important;
 }
 
-html:not(.dark) [class*="border-neutral-700"] {
+html:not(.dark) .lesson-page [class*="border-neutral-700"],
+html:not(.dark) .lesson-exam [class*="border-neutral-700"] {
   border-color: hsl(var(--border)) !important;
 }
 
@@ -120,16 +134,30 @@ html:not(.dark) .lesson-exam [class*="bg-neutral-800"] {
   background-color: hsl(var(--card)) !important;
 }
 
-html:not(.dark) .lesson-exam [class*="text-white"],
-html:not(.dark) .lesson-exam [class*="text-neutral-100"],
-html:not(.dark) .lesson-exam [class*="text-neutral-200"],
-html:not(.dark) .lesson-exam [class*="text-neutral-300"] {
+html:not(.dark) .lesson-exam [class*="bg-[#211d1c]"] [class*="text-white"],
+html:not(.dark) .lesson-exam [class*="bg-[#211d1c]"] [class*="text-neutral-100"],
+html:not(.dark) .lesson-exam [class*="bg-[#211d1c]"] [class*="text-neutral-200"],
+html:not(.dark) .lesson-exam [class*="bg-[#211d1c]"] [class*="text-neutral-300"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-900"] [class*="text-white"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-900"] [class*="text-neutral-100"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-900"] [class*="text-neutral-200"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-900"] [class*="text-neutral-300"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-800"] [class*="text-white"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-800"] [class*="text-neutral-100"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-800"] [class*="text-neutral-200"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-800"] [class*="text-neutral-300"] {
   color: hsl(var(--card-foreground)) !important;
 }
 
-html:not(.dark) .lesson-exam [class*="text-neutral-400"],
-html:not(.dark) .lesson-exam [class*="text-neutral-500"],
-html:not(.dark) .lesson-exam [class*="text-neutral-600"] {
+html:not(.dark) .lesson-exam [class*="bg-[#211d1c]"] [class*="text-neutral-400"],
+html:not(.dark) .lesson-exam [class*="bg-[#211d1c]"] [class*="text-neutral-500"],
+html:not(.dark) .lesson-exam [class*="bg-[#211d1c]"] [class*="text-neutral-600"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-900"] [class*="text-neutral-400"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-900"] [class*="text-neutral-500"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-900"] [class*="text-neutral-600"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-800"] [class*="text-neutral-400"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-800"] [class*="text-neutral-500"],
+html:not(.dark) .lesson-exam [class*="bg-neutral-800"] [class*="text-neutral-600"] {
   color: hsl(var(--muted-foreground)) !important;
 }
 
