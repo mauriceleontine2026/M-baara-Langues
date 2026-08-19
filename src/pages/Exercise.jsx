@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { CheckCircle2, ArrowLeft, RotateCcw, Trophy, Sparkles, Flame, CircleHelp } from "lucide-react";
+import { CheckCircle2, ArrowLeft, RotateCcw, Trophy, Sparkles, Flame, CircleHelp, Zap, Medal, ArrowRight } from "lucide-react";
 import { useAuth } from "@/lib/AuthContext";
 import { getProgress } from "@/api/progressService";
 import {
@@ -92,6 +92,7 @@ export default function Exercise() {
 
   const score = Object.values(results).filter((result) => result?.passed).length;
   const average = exercises.length > 0 ? Math.round((score / exercises.length) * 100) : 0;
+  const remaining = exercises.length - (currentIdx + 1);
 
   const getExerciseRecords = () => {
     if (typeof window === "undefined") return {};
@@ -205,12 +206,13 @@ export default function Exercise() {
 
         <div className="mb-6 overflow-hidden rounded-3xl border border-neutral-700/40 bg-[#211d1c] p-5 shadow-[0_24px_70px_-40px_rgba(0,0,0,.9)] lg:p-7">
           <div className="mb-4 flex items-start justify-between gap-4">
-            <div><div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-orange-400"><Sparkles size={15} />Examen de la leçon</div><h1 className="mt-2 font-heading text-2xl font-bold text-white lg:text-3xl">{lesson?.title || module.label}</h1><p className="mt-1 text-sm text-neutral-400">Réponds à chaque question et construis ton score.</p></div>
-            <div className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-orange-500/15 text-orange-400"><Trophy size={23} /></div>
+            <div><div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-orange-400"><Sparkles size={15} />Défi de la leçon</div><h1 className="mt-2 font-heading text-2xl font-bold text-white lg:text-3xl">{lesson?.title || module.label}</h1><p className="mt-1 text-sm text-neutral-400">Chaque bonne réponse te rapproche de la maîtrise.</p></div>
+            <div className="relative grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-orange-500/15 text-orange-400 shadow-[0_0_35px_rgba(249,115,22,.2)]"><Trophy size={25} /><span className="absolute -right-1 -top-1 grid h-5 w-5 place-items-center rounded-full bg-orange-500 text-[10px] font-black text-white">{score}</span></div>
           </div>
-          <div className="mb-2 flex items-center justify-between text-xs font-semibold text-neutral-400"><span>Progression</span><span className="text-white">{currentIdx + 1} / {exercises.length}</span></div>
-          <div className="h-3 overflow-hidden rounded-full bg-neutral-800"><div className="h-full rounded-full bg-orange-500 transition-all duration-500" style={{ width: `${progress}%` }} />
+          <div className="mb-2 flex items-center justify-between text-xs font-semibold text-neutral-400"><span>Progression du défi</span><span className="text-white">{currentIdx + 1} / {exercises.length}</span></div>
+          <div className="h-3 overflow-hidden rounded-full bg-neutral-800"><div className="h-full rounded-full bg-gradient-to-r from-orange-600 via-orange-400 to-amber-300 transition-all duration-500" style={{ width: `${progress}%` }} />
           </div>
+          <div className="mt-3 flex items-center gap-2 text-xs text-neutral-500"><Zap size={14} className="text-amber-400" />{remaining > 0 ? `Encore ${remaining} question${remaining > 1 ? "s" : ""} pour terminer` : "Dernière question, donne tout !"}</div>
         </div>
 
         <div className="rounded-3xl border border-neutral-700/40 bg-[#211d1c] p-5 shadow-[0_24px_70px_-40px_rgba(0,0,0,.9)] lg:p-7">
@@ -235,7 +237,7 @@ export default function Exercise() {
               disabled={!currentAnswer.trim()}
               className="rounded-xl bg-orange-500 px-5 py-3 text-sm font-bold text-white shadow-lg shadow-orange-950/30 transition hover:bg-orange-400 disabled:cursor-not-allowed disabled:opacity-40"
             >
-              Vérifier
+              {currentIdx >= exercises.length - 1 ? "Valider mon résultat" : "Vérifier ma réponse"} <ArrowRight size={15} className="ml-1 inline" />
             </button>
             <button
               onClick={nextExercise}
@@ -271,9 +273,10 @@ export default function Exercise() {
           </div>
 
           {isCompleted && (
-            <div className="mt-4 rounded-2xl bg-primary/10 p-3 text-sm text-foreground">
-              <div className="font-semibold mb-1">Série terminée.</div>
-              <div>Tu as obtenu une moyenne de {average}% sur cette série. Ce résultat est maintenant enregistré pour déverrouiller la suite du parcours.</div>
+            <div className="mt-5 overflow-hidden rounded-2xl border border-orange-500/30 bg-gradient-to-br from-orange-500/15 to-amber-500/5 p-5 text-white">
+              <div className="flex items-center gap-3"><div className="grid h-12 w-12 place-items-center rounded-2xl bg-orange-500/20 text-orange-300"><Medal size={25} /></div><div><div className="font-heading text-lg font-bold">Défi terminé !</div><div className="text-sm text-neutral-300">Ton résultat est enregistré.</div></div></div>
+              <div className="mt-4 grid grid-cols-2 gap-3"><div className="rounded-xl bg-neutral-900/50 p-3"><div className="text-2xl font-black text-orange-300">{average}%</div><div className="text-xs text-neutral-400">Score final</div></div><div className="rounded-xl bg-neutral-900/50 p-3"><div className="text-2xl font-black text-emerald-300">{score}/{exercises.length}</div><div className="text-xs text-neutral-400">Réponses justes</div></div></div>
+              <div className="mt-4 text-sm text-neutral-300">{average >= 80 ? "Excellent travail, la leçon est bien maîtrisée." : "Bonne base. Recommence pour battre ton meilleur score."}</div>
             </div>
           )}
         </div>
