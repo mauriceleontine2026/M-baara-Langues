@@ -3,6 +3,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import { CheckCircle2, ArrowLeft, RotateCcw, Trophy, Sparkles, Flame, CircleHelp, Zap, Medal, ArrowRight } from "lucide-react";
 import { useAuth } from "@/lib/AuthContext";
 import { getProgress } from "@/api/progressService";
+import { getAdaptiveSummary, orderAdaptiveExercises, recordAdaptiveAnswer } from "@/lib/adaptiveLearning";
 import {
   getModuleById,
   getBeginnerCompletionStatus,
@@ -51,9 +52,14 @@ export default function Exercise() {
   const lesson = examContext.lesson;
   const exerciseKey = module?.id || moduleId || `lesson-${lessonNum}`;
 
-  const exercises = lesson
+  const rawExercises = lesson
     ? (Array.isArray(lesson.exercises) ? lesson.exercises : lesson.content?.exercises || [])
     : (Array.isArray(module?.exerciseSeries) ? module.exerciseSeries : []);
+  const exercises = useMemo(
+    () => orderAdaptiveExercises(rawExercises, langCode, exerciseKey),
+    [rawExercises, langCode, exerciseKey]
+  );
+  const adaptiveSummary = getAdaptiveSummary(exercises, langCode, exerciseKey);
 
   const currentExercise = exercises[currentIdx] || null;
   const progress = exercises.length > 0 ? ((currentIdx + 1) / exercises.length) * 100 : 0;
@@ -69,12 +75,14 @@ export default function Exercise() {
     const expected = String(currentExercise.correct_answer || "").trim();
     if (expected && (isChoiceExercise || currentExercise.type === "fill_in_the_blanks" || currentExercise.type === "texte_a_trous")) {
       const passed = response.localeCompare(expected, undefined, { sensitivity: "base" }) === 0;
+      recordAdaptiveAnswer(langCode, exerciseKey, currentExercise, passed, currentIdx);
       setResults((prev) => ({ ...prev, [currentIdx]: { passed, response } }));
       return;
     }
     const keywords = extractKeywords(`${currentExercise.title} ${currentExercise.goal}`);
     const scoreHits = keywords.filter((word) => response.toLowerCase().includes(word)).length;
     const passed = response.length >= 20 && scoreHits >= 2;
+    recordAdaptiveAnswer(langCode, exerciseKey, currentExercise, passed, currentIdx);
     setResults((prev) => ({ ...prev, [currentIdx]: { passed, response } }));
   };
 
@@ -206,13 +214,14 @@ export default function Exercise() {
 
         <div className="mb-6 overflow-hidden rounded-3xl border border-neutral-700/40 bg-[#211d1c] p-5 shadow-[0_24px_70px_-40px_rgba(0,0,0,.9)] lg:p-7">
           <div className="mb-4 flex items-start justify-between gap-4">
-            <div><div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-orange-400"><Sparkles size={15} />Défi de la leçon</div><h1 className="mt-2 font-heading text-2xl font-bold text-white lg:text-3xl">{lesson?.title || module.label}</h1><p className="mt-1 text-sm text-neutral-400">Chaque bonne réponse te rapproche de la maîtrise.</p></div>
+            <div><div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-orange-400"><Sparkles size={15} />Défi adaptatif</div><h1 className="mt-2 font-heading text-2xl font-bold text-white lg:text-3xl">{lesson?.title || module.label}</h1><p className="mt-1 text-sm text-neutral-400">Les exercices difficiles reviennent en priorité pour t’aider à progresser.</p></div>
             <div className="relative grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-orange-500/15 text-orange-400 shadow-[0_0_35px_rgba(249,115,22,.2)]"><Trophy size={25} /><span className="absolute -right-1 -top-1 grid h-5 w-5 place-items-center rounded-full bg-orange-500 text-[10px] font-black text-white">{score}</span></div>
           </div>
           <div className="mb-2 flex items-center justify-between text-xs font-semibold text-neutral-400"><span>Progression du défi</span><span className="text-white">{currentIdx + 1} / {exercises.length}</span></div>
           <div className="h-3 overflow-hidden rounded-full bg-neutral-800"><div className="h-full rounded-full bg-gradient-to-r from-orange-600 via-orange-400 to-amber-300 transition-all duration-500" style={{ width: `${progress}%` }} />
           </div>
           <div className="mt-3 flex items-center gap-2 text-xs text-neutral-500"><Zap size={14} className="text-amber-400" />{remaining > 0 ? `Encore ${remaining} question${remaining > 1 ? "s" : ""} pour terminer` : "Dernière question, donne tout !"}</div>
+          <div className="mt-3 flex flex-wrap gap-2 text-xs"><span className="rounded-full bg-orange-500/10 px-2.5 py-1 text-orange-300">{adaptiveSummary.due} à revoir</span><span className="rounded-full bg-emerald-500/10 px-2.5 py-1 text-emerald-300">{adaptiveSummary.mastered} maîtrisés</span></div>
         </div>
 
         <div className="rounded-3xl border border-neutral-700/40 bg-[#211d1c] p-5 shadow-[0_24px_70px_-40px_rgba(0,0,0,.9)] lg:p-7">
