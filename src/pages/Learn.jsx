@@ -272,41 +272,6 @@ export default function Learn() {
                               </Link>
                             ))}
                           </div>
-                          {Array.isArray(module.exerciseSeries) && module.exerciseSeries.length > 0 && (
-                            <div className="mt-3 rounded-[18px] border border-border/80 bg-card/75 p-3">
-                              <div className="flex items-center justify-between gap-3 mb-2">
-                                <div className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Série d’exercices</div>
-                                <Link
-                                  to={practiceDisabled ? "#" : `/exercice/${langCode}/${module.id}`}
-                                  onClick={(event) => {
-                                    if (practiceDisabled) {
-                                      event.preventDefault();
-                                    }
-                                  }}
-                                  className={`rounded-full px-3 py-1.5 text-xs font-semibold ${
-                                    practiceDisabled
-                                      ? "bg-muted text-muted-foreground/60 cursor-not-allowed"
-                                      : "bg-primary text-primary-foreground"
-                                  }`}
-                                >
-                                  Pratiquer
-                                </Link>
-                              </div>
-                              <div className="space-y-2">
-                                {module.exerciseSeries.map((exercise) => (
-                                  <div key={exercise.title} className="rounded-[14px] bg-background/70 px-3 py-2">
-                                    <div className="text-sm font-semibold text-foreground">{exercise.title}</div>
-                                    <div className="text-sm text-muted-foreground">{exercise.type} · {exercise.goal}</div>
-                                  </div>
-                                ))}
-                              </div>
-                              <div className="mt-2 text-sm text-muted-foreground">
-                                {state.exerciseCompleted
-                                  ? `Moyenne des exercices : ${state.exerciseScore}%`
-                                  : "Exercices non encore validés."}
-                              </div>
-                            </div>
-                          )}
                           {!state.available && (
                             <div className="mt-2 rounded-[16px] border border-amber-300/40 bg-amber-500/10 px-3 py-2 text-sm text-amber-700 dark:text-amber-300">
                               {getLockMessageForModule(levelIndex, moduleIndex, level, beginnerStatus.complete)}

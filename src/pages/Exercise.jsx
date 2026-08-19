@@ -52,10 +52,18 @@ export default function Exercise() {
   const currentAnswer = responses[currentIdx] || "";
   const currentResult = results[currentIdx];
   const currentVerified = Boolean(currentResult);
+  const currentOptions = Array.isArray(currentExercise?.options) ? currentExercise.options : [];
+  const isChoiceExercise = currentOptions.length > 0;
 
   const validateResponse = () => {
     if (!currentExercise) return;
     const response = String(currentAnswer || "").trim();
+    const expected = String(currentExercise.correct_answer || "").trim();
+    if (expected && (isChoiceExercise || currentExercise.type === "fill_in_the_blanks" || currentExercise.type === "texte_a_trous")) {
+      const passed = response.localeCompare(expected, undefined, { sensitivity: "base" }) === 0;
+      setResults((prev) => ({ ...prev, [currentIdx]: { passed, response } }));
+      return;
+    }
     const keywords = extractKeywords(`${currentExercise.title} ${currentExercise.goal}`);
     const scoreHits = keywords.filter((word) => response.toLowerCase().includes(word)).length;
     const passed = response.length >= 20 && scoreHits >= 2;
@@ -204,19 +212,18 @@ export default function Exercise() {
         <div className="rounded-3xl border border-border bg-card p-5 shadow-sm">
           <div className="mb-4">
             <div className="text-[10px] font-semibold uppercase tracking-[0.2em] text-primary">{currentExercise.type}</div>
-            <h2 className="text-lg font-bold mt-1">{currentExercise.title}</h2>
+            <h2 className="text-lg font-bold mt-1">{currentExercise.question || currentExercise.sentence_with_blank || currentExercise.title}</h2>
           </div>
           <p className="text-sm text-muted-foreground mb-4">{currentExercise.goal}</p>
 
-          <label className="block text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground mb-2">
-            Rédige ta réponse courte
-          </label>
-          <textarea
-            value={currentAnswer}
-            onChange={(event) => setResponses((prev) => ({ ...prev, [currentIdx]: event.target.value }))}
-            className="w-full min-h-[140px] rounded-2xl border border-border bg-background px-3 py-3 text-sm outline-none focus:ring-2 focus:ring-primary/40"
-            placeholder="Exemple : Je peux demander une direction, comparer deux objets et m'identifier en quelques phrases."
-          />
+          {isChoiceExercise ? (
+            <div className="grid gap-3">{currentOptions.map((option) => <button key={option} type="button" onClick={() => setResponses((prev) => ({ ...prev, [currentIdx]: option }))} className={`rounded-2xl border-2 px-4 py-3 text-left text-sm font-medium transition ${currentAnswer === option ? "border-primary bg-primary/10 text-foreground" : "border-border bg-background hover:border-primary/40"}`}>{option}</button>)}</div>
+          ) : (
+            <>
+              <label className="block text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground mb-2">{currentExercise.type === "fill_in_the_blanks" || currentExercise.type === "texte_a_trous" ? "Complète la réponse" : "Rédige ta réponse courte"}</label>
+              <textarea value={currentAnswer} onChange={(event) => setResponses((prev) => ({ ...prev, [currentIdx]: event.target.value }))} className="w-full min-h-[140px] rounded-2xl border border-border bg-background px-3 py-3 text-sm outline-none focus:ring-2 focus:ring-primary/40" placeholder={currentExercise.sentence_with_blank || "Écris ta réponse ici…"} />
+            </>
+          )}
 
           <div className="mt-4 flex flex-wrap gap-2">
             <button
@@ -242,6 +249,7 @@ export default function Exercise() {
                   ? "Bonne structure de réponse. Tu peux passer à l’exercice suivant."
                   : "Essaie d’ajouter plus de détail pour mieux répondre à la consigne."}
               </div>
+              {currentExercise.explanation && <p className="mt-2 text-xs text-muted-foreground">Correction : {currentExercise.explanation}</p>}
             </div>
           )}
         </div>

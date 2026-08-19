@@ -631,6 +631,9 @@ const buildCurriculum = (lessons) => {
       const lessonOrder = parseLessonOrder(filePath, entry.titre_cours || entry.titre_cour || entry.title || "Leçon 1");
       const lessonTitle = String(entry.titre_cours || entry.titre_cour || entry.title || `Leçon ${lessonOrder}`).trim();
       const chapters = Array.isArray(moduleData.chapitres) ? moduleData.chapitres : [];
+      const lessonExercises = Array.isArray(entry.exercises)
+        ? entry.exercises
+        : chapters.flatMap((chapter) => (Array.isArray(chapter.exercices) ? chapter.exercices : []));
 
       if (!levelMap.has(levelKey)) {
         levelMap.set(levelKey, {
@@ -665,7 +668,7 @@ const buildCurriculum = (lessons) => {
         grammar_points: Array.isArray(entry.grammar_points) ? entry.grammar_points : [],
         dialogue: Array.isArray(entry.dialogue) ? entry.dialogue : [],
         cultural_notes: Array.isArray(entry.cultural_notes) ? entry.cultural_notes : [],
-        exercises: Array.isArray(entry.exercises) ? entry.exercises : [],
+        exercises: lessonExercises,
         chapitres: chapters,
         content: {
           vocabulary: Array.isArray(chapters)
@@ -683,9 +686,7 @@ const buildCurriculum = (lessons) => {
                   : []
               )
             : [],
-          exercises: Array.isArray(chapters)
-            ? chapters.flatMap((chapter) => (Array.isArray(chapter.exercices) ? chapter.exercices : []))
-            : [],
+          exercises: lessonExercises,
           examples: Array.isArray(chapters)
             ? chapters.flatMap((chapter) => (Array.isArray(chapter.exemples) ? chapter.exemples : []))
             : [],
@@ -734,6 +735,7 @@ const buildCurriculum = (lessons) => {
               cultural_notes: lessonEntry.cultural_notes,
               exercises: lessonEntry.exercises,
               module: {
+                id: moduleEntry.id,
                 theme: moduleEntry.label,
                 niveau: levelEntry.meta.label,
                 description: lessonEntry.introduction,
@@ -759,22 +761,16 @@ const buildCurriculum = (lessons) => {
   levels.forEach((level) => {
     level.modules.forEach((module) => {
       const exerciseSeries = module.lessons.flatMap((lesson) =>
-        Array.isArray(lesson.chapitreData)
-          ? lesson.chapitreData.flatMap((chapter) =>
-              Array.isArray(chapter.exercices)
-                ? chapter.exercices.map((exercise, index) => ({
-                    title: String(exercise.question || `Exercice ${index + 1}`).trim(),
-                    type: String(exercise.type || "texte").trim(),
-                    goal:
-                      exercise.type === "QCM"
-                        ? "Choisis la bonne réponse."
-                        : exercise.type === "texte_a_trous"
-                        ? "Complète la phrase."
-                        : "Réponds à la consigne.",
-                  }))
-                : []
-            )
-          : []
+        (Array.isArray(lesson.exercises) ? lesson.exercises : []).map((exercise, index) => ({
+          ...exercise,
+          title: String(exercise.question || exercise.sentence_with_blank || `Exercice ${index + 1}`).trim(),
+          type: String(exercise.type || "texte").trim(),
+          goal: exercise.type === "multiple_choice" || exercise.type === "QCM"
+            ? "Choisis la bonne réponse."
+            : exercise.type === "fill_in_the_blanks" || exercise.type === "texte_a_trous"
+            ? "Complète la phrase."
+            : "Réponds à la consigne.",
+        }))
       );
       module.exerciseSeries = exerciseSeries;
     });
