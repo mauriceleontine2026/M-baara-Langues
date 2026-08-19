@@ -160,6 +160,14 @@ export default function Exercise() {
     setLockMessage(moduleInfo ? getLockMessageForModule(moduleInfo.levelIndex, moduleInfo.moduleIndex, moduleInfo.level, beginnerStatus.complete) : "");
   }, [module, exerciseKey, completedLessons, langCode]);
 
+  const isCompleted = currentIdx === exercises.length - 1 && currentVerified;
+
+  useEffect(() => {
+    if (isCompleted && score === exercises.length) {
+      persistExerciseResult();
+    }
+  }, [isCompleted, score, exercises.length, langCode, moduleId]);
+
   if (!module) {
     return (
       <div className="min-h-screen flex items-center justify-center px-6 text-center">
@@ -193,14 +201,6 @@ export default function Exercise() {
       </div>
     );
   }
-
-  const isCompleted = currentIdx === exercises.length - 1 && currentVerified;
-
-  useEffect(() => {
-    if (isCompleted && score === exercises.length) {
-      persistExerciseResult();
-    }
-  }, [isCompleted, score, exercises.length, langCode, moduleId]);
 
   return (
     <div className="lesson-exam min-h-screen bg-[#141211] text-neutral-100" style={{ backgroundImage: "radial-gradient(circle at 12% 0%, rgba(249,115,22,.16), transparent 34%), radial-gradient(circle at 88% 15%, rgba(234,88,12,.1), transparent 28%)" }}>

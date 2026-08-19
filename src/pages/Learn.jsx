@@ -5,7 +5,7 @@ import { Link, useParams } from "react-router-dom";
 import { useAuth } from "@/lib/AuthContext";
 import { getLanguages, getVocabularyForLanguage, getLessonsForLanguage } from "@/api/languageService";
 import { getProgress } from "@/api/progressService";
-import { ArrowLeft, ArrowRight, Lock, CheckCircle, BookOpen, Download, Trash2, WifiOff, Loader2 } from "lucide-react";
+import { ArrowLeft, ArrowRight, Download, Trash2, WifiOff, Loader2 } from "lucide-react";
 import LanguageFlag from "@/components/ui/LanguageFlag";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 import { downloadLanguageOffline, isLanguageDownloaded, removeLanguageOffline, getOfflineVocab, getOfflineLanguages } from "@/lib/offlineStorage";
