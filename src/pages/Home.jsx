@@ -61,7 +61,7 @@ export default function Home() {
   return (
     <div className="p-6 lg:p-10 max-w-5xl mx-auto">
       {/* Welcome card */}
-      <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="relative mb-6 overflow-hidden rounded-[2rem] border border-border bg-gradient-to-br from-primary/20 via-card to-card p-8 shadow-[0_25px_80px_-45px_rgba(249,115,22,.6)]">
+      <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="relative mb-6 overflow-hidden rounded-[2rem] border border-border bg-gradient-to-br from-primary/20 via-card to-card p-8 shadow-[0_18px_55px_-48px_rgba(249,115,22,.3)]">
         <div className="absolute -right-16 -top-20 h-56 w-56 rounded-full bg-primary/15 blur-3xl" />
         
         <div className="flex items-center gap-3 mb-4">
