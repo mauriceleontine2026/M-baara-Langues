@@ -66,15 +66,24 @@ export const AuthProvider = ({ children }) => {
         window.dispatchEvent(new Event('mbaara-progress-updated'));
       }
     } catch (error) {
-      setUser(null);
-      setIsAuthenticated(false);
-      persistUser(null);
+      const status = error?.status ?? (error instanceof Error ? null : null);
+      const isAuthenticationFailure = status === 401 || status === 403;
+      const cachedUser = getStoredUser();
+      if (isAuthenticationFailure || !cachedUser) {
+        setUser(null);
+        setIsAuthenticated(false);
+        persistUser(null);
+      } else {
+        // Keep the cached profile during a transient network/proxy failure;
+        // the server remains authoritative and the next check can reconcile it.
+        setUser(cachedUser);
+        setIsAuthenticated(true);
+      }
       if (typeof window !== 'undefined') {
         window.dispatchEvent(new Event('mbaara-user-updated'));
         window.dispatchEvent(new Event('mbaara-progress-updated'));
       }
-      const status = error?.status ?? (error instanceof Error ? null : null);
-      if (status === 401 || status === 403) {
+      if (isAuthenticationFailure) {
         setAuthError({ type: 'auth_required', message: 'Authentication required' });
       } else {
         setAuthError({ type: 'unknown', message: error?.message || 'Failed to verify authentication' });

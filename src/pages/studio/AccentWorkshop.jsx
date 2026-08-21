@@ -171,7 +171,7 @@ export default function AccentWorkshop() {
 
       // LLM feedback
       const langObj = languages.find((l) => l.code === lang);
-      const prompt = `Tu es Kôrô, coach d'accent de M'baara. L'apprenant a prononcé le mot "${selectedWord.word}" en ${langObj?.name_fr || lang}. Phonétique de référence: ${selectedWord.phonetic || selectedWord.phonetic_simple || "non disponible"}. Traduction: ${selectedWord.translation_fr}. Score de similarité: ${Math.round(similarity)}%. Donne un feedback constructif et concis (2-3 phrases) en français sur la prononciation, avec des conseils pratiques pour s'améliorer.`;
+      const prompt = `Tu es Kôrô, coach d'accent de Mǎa-kwɛ́lî. L'apprenant a prononcé le mot "${selectedWord.word}" en ${langObj?.name_fr || lang}. Phonétique de référence: ${selectedWord.phonetic || selectedWord.phonetic_simple || "non disponible"}. Traduction: ${selectedWord.translation_fr}. Score de similarité: ${Math.round(similarity)}%. Donne un feedback constructif et concis (2-3 phrases) en français sur la prononciation, avec des conseils pratiques pour s'améliorer.`;
       const llmFeedback = await invokeAI(prompt);
       setFeedback(typeof llmFeedback === "string" ? llmFeedback : JSON.stringify(llmFeedback ?? ""));
     } catch (err) {

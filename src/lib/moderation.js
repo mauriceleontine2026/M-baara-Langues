@@ -1,4 +1,4 @@
-// Content moderation for M'baara
+// Content moderation for Mǎa-kwɛ́lî
 // First-pass filter for inappropriate content in contributions and chat
 
 const INAPPROPRIATE_WORDS = [
@@ -24,7 +24,7 @@ export function moderateContent(text) {
 
 export function getModerationMessage(reason) {
   if (reason === "inappropriate") {
-    return "⚠️ Ce message contient du contenu inapproprié. M'baara est une plateforme d'apprentissage respectueuse. Merci de reformuler ton message.";
+    return "⚠️ Ce message contient du contenu inapproprié. Mǎa-kwɛ́lî est une plateforme d'apprentissage respectueuse. Merci de reformuler ton message.";
   }
   return "⚠️ Message bloqué par la modération automatique.";
 }

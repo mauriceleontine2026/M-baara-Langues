@@ -7,3 +7,11 @@ export async function invokeAI(prompt, responseJsonSchema = null, temperature = 
     temperature,
   });
 }
+
+export async function translateText(text, sourceLanguage, targetLanguage) {
+  return await request("POST", "/api/ai/translate", {
+    text,
+    source_language: sourceLanguage,
+    target_language: targetLanguage,
+  });
+}

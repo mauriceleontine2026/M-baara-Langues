@@ -5,7 +5,7 @@ import { Link, useParams } from "react-router-dom";
 import { useAuth } from "@/lib/AuthContext";
 import { getLanguages, getVocabularyForLanguage, getLessonsForLanguage } from "@/api/languageService";
 import { getProgress } from "@/api/progressService";
-import { ArrowLeft, ArrowRight, Download, Trash2, WifiOff, Loader2 } from "lucide-react";
+import { ArrowLeft, ArrowRight, Download, Trash2, WifiOff, Loader2, Search, X } from "lucide-react";
 import LanguageFlag from "@/components/ui/LanguageFlag";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 import { downloadLanguageOffline, isLanguageDownloaded, removeLanguageOffline, getOfflineVocab, getOfflineLanguages } from "@/lib/offlineStorage";
@@ -30,6 +30,7 @@ export default function Learn() {
   const [items, setItems] = itemsState;
   const [lessons, setLessons] = useState([]);
   const [filter, setFilter] = useState("all");
+  const [languageQuery, setLanguageQuery] = useState("");
   const online = useOnlineStatus();
   const [downloaded, setDownloaded] = useState(false);
   const [downloading, setDownloading] = useState(false);
@@ -294,12 +295,34 @@ export default function Learn() {
   // Grid view
   const available = online ? safeLanguages : safeLanguages.filter(l => isLanguageDownloaded(l?.code));
   const filtered = filter === "all" ? available : available.filter(l => ((l?.region || "") + "").includes(filter));
-  const safeFiltered = Array.isArray(filtered) ? filtered : [];
+  const normalizedQuery = languageQuery.trim().toLowerCase();
+  const safeFiltered = (Array.isArray(filtered) ? filtered : []).filter((language) => {
+    if (!normalizedQuery) return true;
+    return `${language?.name_fr || ""} ${language?.name || ""} ${language?.region || ""}`
+      .toLowerCase()
+      .includes(normalizedQuery);
+  });
 
   return (
     <div className="p-6 lg:p-10 max-w-5xl mx-auto">
       <h1 className="font-heading text-3xl font-bold text-foreground mb-1">Apprendre</h1>
       <p className="text-muted-foreground mb-6">{safeLanguages.length} langues disponibles</p>
+
+      <label className="group mb-5 flex items-center gap-3 rounded-2xl border-2 border-border bg-card px-4 py-3.5 text-sm text-muted-foreground transition focus-within:border-primary focus-within:shadow-[0_0_0_4px_rgba(249,115,22,.12)]">
+        <Search size={20} className="shrink-0 text-primary transition group-focus-within:scale-110" />
+        <input
+          value={languageQuery}
+          onChange={(event) => setLanguageQuery(event.target.value)}
+          placeholder="Rechercher une langue, une région..."
+          aria-label="Rechercher une langue"
+          className="w-full bg-transparent text-foreground outline-none placeholder:text-muted-foreground"
+        />
+        {languageQuery && (
+          <button type="button" aria-label="Effacer la recherche" onClick={() => setLanguageQuery("")} className="rounded-lg p-1 text-muted-foreground transition hover:bg-secondary hover:text-foreground">
+            <X size={16} />
+          </button>
+        )}
+      </label>
 
       {/* Filter tabs */}
       <div className="flex gap-2 overflow-x-auto pb-2 mb-6">
@@ -354,6 +377,9 @@ export default function Learn() {
           );
         })}
       </div>
+      {safeFiltered.length === 0 && (
+        <p className="py-10 text-center text-sm text-muted-foreground">Aucune langue ne correspond à votre recherche.</p>
+      )}
     </div>
   );
 }

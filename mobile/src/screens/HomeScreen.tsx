@@ -29,7 +29,7 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={styles.container}>
         <View style={styles.hero}>
-          <Text style={styles.eyebrow}>M'BAARA</Text>
+          <Text style={styles.eyebrow}>MǍA-KWƐ́LÎ</Text>
           <Text style={styles.title}>Bienvenue dans la version mobile</Text>
           <Text style={styles.subtitle}>Le frontend est maintenant branché sur une API autonome FastAPI.</Text>
         </View>

@@ -1,6 +1,10 @@
 #env
 .env
 .env.*
+.vercel.env
+client_secret_*.json
+backend/.vercel/
+backend/.env*
 
 # Logs
 /logs

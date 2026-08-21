@@ -62,9 +62,9 @@ export default function Sidebar() {
     <aside className="w-64 bg-sidebar border-r border-border flex flex-col h-screen sticky top-0 shrink-0">
       {/* Logo */}
       <div className="px-5 py-5 flex items-center gap-3 border-b border-border">
-      <img src="/logo.png" alt="M'baara" className="w-11 h-11 rounded-full object-cover shadow-md ring-2 ring-primary/30" />
+      <img src="/logo.png" alt="Mǎa-kwɛ́lî Langues" className="w-11 h-11 rounded-full object-cover shadow-md ring-2 ring-primary/30" />
         <div>
-          <div className="font-heading font-bold text-lg leading-none text-foreground">M'BAARA</div>
+          <div className="font-heading font-bold text-lg leading-none text-foreground">Mǎa-kwɛ́lî</div>
           <div className="text-xs text-primary font-semibold mt-0.5">Langues</div>
         </div>
       </div>

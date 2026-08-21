@@ -84,7 +84,7 @@ export default function Admin() {
   return (
     <div className="p-6 lg:p-10 max-w-3xl mx-auto">
       <h1 className="font-heading text-3xl font-bold text-foreground mb-1">Administration</h1>
-      <p className="text-muted-foreground mb-6">Gérer le contenu et les utilisateurs de M'baara</p>
+      <p className="text-muted-foreground mb-6">Gérer le contenu et les utilisateurs de Mǎa-kwɛ́lî</p>
 
       {/* Stats */}
       <div className="grid grid-cols-3 sm:grid-cols-6 gap-3 mb-6">

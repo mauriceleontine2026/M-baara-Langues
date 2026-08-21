@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useAuth } from "@/lib/AuthContext";
 import { getLanguages } from "@/api/languageService";
 import { getProgress } from "@/api/progressService";
-import { BookOpen, GraduationCap, Mic, Trophy, ArrowRight, Flame, Star, Sparkles, Search, X, Compass } from "lucide-react";
+import { BookOpen, GraduationCap, Mic, Trophy, ArrowRight, Flame, Star, Sparkles, Search } from "lucide-react";
 import LanguageFlag from "@/components/ui/LanguageFlag";
 
 // public logo at /logo.png
@@ -14,7 +14,6 @@ export default function Home() {
   const { user } = useAuth();
   const [languages, setLanguages] = useState(/** @type {any[]} */ ([]));
   const [progresses, setProgresses] = useState(/** @type {any[]} */ ([]));
-  const [languageQuery, setLanguageQuery] = useState("");
 
   useEffect(() => {
     getLanguages().then((data) => setLanguages(Array.isArray(data) ? data : [])).catch(() => setLanguages([]));
@@ -46,14 +45,8 @@ export default function Home() {
   const activeLangs = safeProgresses.length;
   const currentProgress = safeProgresses[0];
   const currentLanguage = safeLanguages.find((language) => language.code === currentProgress?.language_code);
-  const filteredLanguages = safeLanguages.filter((language) => {
-    const query = languageQuery.trim().toLowerCase();
-    if (!query) return true;
-    return `${language.name_fr} ${language.name} ${language.region}`.toLowerCase().includes(query);
-  });
-
   const actions = [
-    { to: "/apprendre", label: "Commencer une leçon", icon: BookOpen, color: "text-orange-500" },
+    { to: "/apprendre", label: "Rechercher une langue", icon: Search, color: "text-orange-500" },
     { to: "/contribuer", label: "Contribuer", icon: Mic, color: "text-pink-500" },
     { to: "/revision", label: "Révision SRS", icon: Trophy, color: "text-yellow-500" },
   ];
@@ -65,14 +58,14 @@ export default function Home() {
         <div className="absolute -right-16 -top-20 h-56 w-56 rounded-full bg-primary/15 blur-3xl" />
         
         <div className="flex items-center gap-3 mb-4">
-          <img src="/logo.png" alt="M'baara" className="w-20 h-20 rounded-full object-cover shadow-md ring-2 ring-primary/30" />
+          <img src="/logo.png" alt="Mǎa-kwɛ́lî Langues" className="w-20 h-20 rounded-full object-cover shadow-md ring-2 ring-primary/30" />
           <div>
-            <div className="font-heading font-bold text-lg text-foreground leading-none">M'BAARA</div>
+            <div className="font-heading font-bold text-lg text-foreground leading-none">Mǎa-kwɛ́lî</div>
             <span className="text-xs text-primary font-semibold">Langues</span>
           </div>
         </div>
         <h1 className="font-heading text-3xl lg:text-4xl font-bold text-foreground mb-2">
-          Bienvenue sur M'baara Langues !{user?.full_name ? ` ${user.full_name}` : ""}
+          Bienvenue sur Mǎa-kwɛ́lî Langues !{user?.full_name ? ` ${user.full_name}` : ""}
         </h1>
         <p className="text-muted-foreground mb-5">Commencez votre voyage linguistique africain et international</p>
         <div className="flex flex-wrap gap-3 mb-5">
@@ -87,18 +80,12 @@ export default function Home() {
           </div>
         </div>
         {currentLanguage && <Link to={`/apprendre/${currentLanguage.code}`} className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-semibold px-5 py-3 rounded-xl hover:opacity-90 transition shadow-lg shadow-primary/20">Continuer mon apprentissage <ArrowRight size={18} /></Link>}
-        <motion.div layout className="relative mt-6 overflow-hidden rounded-2xl border border-border/70 bg-background/70 p-4 backdrop-blur-sm transition-shadow duration-300 focus-within:shadow-[0_0_0_4px_rgba(249,115,22,.12),0_18px_50px_-30px_rgba(249,115,22,.55)]">
-          <div className="mb-3 flex items-center justify-between gap-3"><div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-primary"><Compass size={16} /> Trouver ta langue</div><span className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">39 langues</span></div>
-          <label className="group flex items-center gap-3 rounded-xl border-2 border-border bg-card px-4 py-3.5 text-sm text-muted-foreground transition focus-within:border-primary"><Search size={20} className="shrink-0 text-primary transition group-focus-within:scale-110" /><input autoFocus value={languageQuery} onChange={(event) => setLanguageQuery(event.target.value)} placeholder="Quelle langue veux-tu apprendre ?" className="w-full bg-transparent text-foreground outline-none placeholder:text-muted-foreground" />{languageQuery && <button type="button" aria-label="Effacer la recherche" onClick={() => setLanguageQuery("")} className="rounded-lg p-1 text-muted-foreground transition hover:bg-secondary hover:text-foreground"><X size={16} /></button>}</label>
-          {!languageQuery.trim() && <motion.div initial={{ opacity: 0, y: 4 }} animate={{ opacity: 1, y: 0 }} className="mt-3 flex flex-wrap gap-2">{["Français", "Malinké", "Lingala", "Afrique"].map((suggestion) => <button key={suggestion} type="button" onClick={() => setLanguageQuery(suggestion)} className="rounded-full border border-border bg-card px-3 py-1.5 text-xs font-semibold text-muted-foreground transition hover:-translate-y-0.5 hover:border-primary/50 hover:bg-primary/10 hover:text-primary">{suggestion}</button>)}</motion.div>}
-          {languageQuery.trim() && <motion.div layout className="mt-3 grid grid-cols-2 gap-2 lg:grid-cols-3">{filteredLanguages.map((lang, index) => <motion.div key={lang.id} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: Math.min(index * .04, .25) }}><Link to={`/apprendre/${lang.code}`} className="group flex items-center gap-2 rounded-xl border border-border bg-card p-3 transition hover:-translate-y-0.5 hover:border-primary/50 hover:bg-primary/5"><LanguageFlag language={lang} size="sm" /><div className="min-w-0 flex-1"><div className="truncate text-xs font-semibold text-foreground">{lang.name_fr}</div><div className="truncate text-[10px] text-muted-foreground">{lang.region}</div></div><ArrowRight size={14} className="text-muted-foreground transition group-hover:translate-x-1 group-hover:text-primary" /></Link></motion.div>)}{filteredLanguages.length === 0 && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="col-span-full py-3 text-center text-xs text-muted-foreground">Aucune langue trouvée. Essaie une région ou un autre nom.</motion.p>}</motion.div>}
-        </motion.div>
       </motion.div>
 
       {currentLanguage && (
         <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .12 }} className="mb-6 flex items-center gap-4 rounded-2xl border border-primary/20 bg-primary/5 p-4">
           <LanguageFlag language={currentLanguage} size="md" />
-          <div className="min-w-0 flex-1"><p className="text-xs font-bold uppercase tracking-[0.18em] text-primary">Reprendre là où tu t’es arrêté</p><p className="mt-1 truncate font-semibold text-foreground">{currentLanguage.name_fr}</p></div>
+          <div className="min-w-0 flex-1"><p className="text-xs font-bold uppercase tracking-[0.18em] text-primary">Reprendre là où vous vous êtes arrêté</p><p className="mt-1 truncate font-semibold text-foreground">{currentLanguage.name_fr}</p></div>
           <Link to={`/apprendre/${currentLanguage.code}`} className="rounded-xl bg-primary px-4 py-2 text-sm font-bold text-primary-foreground transition hover:brightness-105">Reprendre</Link>
         </motion.div>
       )}

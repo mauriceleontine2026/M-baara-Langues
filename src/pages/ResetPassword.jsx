@@ -39,8 +39,8 @@ export default function ResetPassword() {
     <div className="min-h-screen bg-background flex flex-col items-center justify-center px-4">
       <div className="w-full max-w-sm">
         <div className="flex flex-col items-center mb-8">
-          <img src="/logo.png" alt="M'baara" className="w-24 h-24 rounded-full shadow-lg mb-3 object-cover ring-2 ring-primary/30" />
-          <h1 className="font-heading text-2xl font-bold text-foreground">M'baara Langues</h1>
+          <img src="/logo.png" alt="Mǎa-kwɛ́lî Langues" className="w-24 h-24 rounded-full shadow-lg mb-3 object-cover ring-2 ring-primary/30" />
+          <h1 className="font-heading text-2xl font-bold text-foreground">Mǎa-kwɛ́lî Langues</h1>
         </div>
         <div className="bg-card border border-border rounded-2xl shadow-xl p-6">
           <h2 className="font-heading text-xl font-bold text-foreground mb-5 text-center">Nouveau mot de passe</h2>

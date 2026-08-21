@@ -236,7 +236,7 @@ export default function Exercise() {
           ) : (
             <>
               <label className="block text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground mb-2">{currentExercise.type === "fill_in_the_blanks" || currentExercise.type === "texte_a_trous" ? "Complète la réponse" : "Rédige ta réponse courte"}</label>
-              <textarea value={currentAnswer} onChange={(event) => setResponses((prev) => ({ ...prev, [currentIdx]: event.target.value }))} className="w-full min-h-[140px] rounded-2xl border border-neutral-700/40 bg-neutral-900/70 px-4 py-4 text-sm text-white outline-none placeholder:text-neutral-600 focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30" placeholder={currentExercise.sentence_with_blank || "Écris ta réponse ici…"} />
+              <textarea value={currentAnswer} onChange={(event) => setResponses((prev) => ({ ...prev, [currentIdx]: event.target.value }))} className="w-full min-h-[140px] rounded-2xl border border-neutral-700/40 bg-neutral-900/70 px-4 py-4 text-sm text-white outline-none placeholder:text-neutral-600 focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30" placeholder={currentExercise.sentence_with_blank || "Écrivez votre réponse ici…"} />
             </>
           )}
 
@@ -262,8 +262,8 @@ export default function Exercise() {
               <div className="flex items-center gap-2 font-semibold text-white">
                 {currentResult?.passed ? <CheckCircle2 size={18} className="text-emerald-400" /> : <Flame size={18} className="text-orange-400" />}
                 {currentResult?.passed
-                  ? "Bonne structure de réponse. Tu peux passer à l’exercice suivant."
-                  : "Essaie d’ajouter plus de détail pour mieux répondre à la consigne."}
+                  ? "Bonne structure de réponse. Vous pouvez passer à l’exercice suivant."
+                  : "Essayez d’ajouter plus de détails pour mieux répondre à la consigne."}
               </div>
               {currentExercise.explanation && <p className="mt-2 text-xs leading-5 text-neutral-300">Correction : {currentExercise.explanation}</p>}
             </div>
@@ -285,7 +285,7 @@ export default function Exercise() {
             <div className="mt-5 overflow-hidden rounded-2xl border border-orange-500/30 bg-gradient-to-br from-orange-500/15 to-amber-500/5 p-5 text-white">
               <div className="flex items-center gap-3"><div className="grid h-12 w-12 place-items-center rounded-2xl bg-orange-500/20 text-orange-300"><Medal size={25} /></div><div><div className="font-heading text-lg font-bold">Défi terminé !</div><div className="text-sm text-neutral-300">Ton résultat est enregistré.</div></div></div>
               <div className="mt-4 grid grid-cols-2 gap-3"><div className="rounded-xl bg-neutral-900/50 p-3"><div className="text-2xl font-black text-orange-300">{average}%</div><div className="text-xs text-neutral-400">Score final</div></div><div className="rounded-xl bg-neutral-900/50 p-3"><div className="text-2xl font-black text-emerald-300">{score}/{exercises.length}</div><div className="text-xs text-neutral-400">Réponses justes</div></div></div>
-              <div className="mt-4 text-sm text-neutral-300">{average >= 80 ? "Excellent travail, la leçon est bien maîtrisée." : "Bonne base. Recommence pour battre ton meilleur score."}</div>
+              <div className="mt-4 text-sm text-neutral-300">{average >= 80 ? "Excellent travail, la leçon est bien maîtrisée." : "Bonne base. Recommencez pour battre votre meilleur score."}</div>
             </div>
           )}
         </div>

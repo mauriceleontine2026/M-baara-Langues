@@ -5,9 +5,9 @@ import { getLanguages } from "@/api/languageService";
 import { getProgress } from "@/api/progressService";
 import { logout as logoutService, updateMe } from "@/api/authService";
 import { listContributions } from "@/api/contributionService";
-import { uploadFile } from "@/api/uploadService";
+import { uploadProfilePhoto } from "@/api/uploadService";
 import { useTheme } from "@/contexts/ThemeContext";
-import { Mail, Shield, Flame, Star, BookOpen, Globe, LogOut, Clock, CheckCircle, XCircle, Hourglass, Award, Settings, Camera, Loader2 } from "lucide-react";
+import { Mail, Shield, Flame, Star, BookOpen, Globe, LogOut, Clock, CheckCircle, XCircle, Hourglass, Award, Settings, Camera, Loader2, Save, Lock } from "lucide-react";
 import LanguageFlag from "@/components/ui/LanguageFlag";
 // public logo at /logo.png
 
@@ -17,9 +17,20 @@ export default function Profile() {
   const [contributions, setContributions] = useState(/** @type {any[]} */ ([]));
   const { theme, toggleTheme } = useTheme();
   const [uploading, setUploading] = useState(false);
+  const [profileName, setProfileName] = useState("");
+  const [currentPassword, setCurrentPassword] = useState("");
+  const [newPassword, setNewPassword] = useState("");
+  const [confirmNewPassword, setConfirmNewPassword] = useState("");
+  const [profileSaving, setProfileSaving] = useState(false);
+  const [profileMessage, setProfileMessage] = useState("");
+  const [profileError, setProfileError] = useState("");
   const fileInputRef = useRef(/** @type {HTMLInputElement | null} */ (null));
 
   const { user, updateUser } = useAuth();
+
+  useEffect(() => {
+    setProfileName(user?.full_name || "");
+  }, [user?.full_name]);
 
   useEffect(() => {
     getLanguages()
@@ -74,13 +85,10 @@ export default function Profile() {
     if (!file) return;
     setUploading(true);
     try {
-      const apiBase = (import.meta.env.VITE_API_BASE_URL || window.location.origin).replace(/\/$/, "");
-      const uploadData = await uploadFile(file);
-      const file_url = uploadData?.file_url || uploadData?.url;
-      if (!file_url) throw new Error("Aucun URL de fichier renvoyé.");
-      const absolute_url = file_url.startsWith("/") ? `${apiBase}${file_url}` : file_url;
-      await updateMe({ photo_url: absolute_url });
-      updateUser({ photo_url: absolute_url });
+      const uploadData = await uploadProfilePhoto(file);
+      const file_url = uploadData?.photo_url;
+      if (!file_url) throw new Error("Aucune URL de photo renvoyée.");
+      updateUser(uploadData.user || { photo_url: file_url });
     } catch (err) {
       const errorValue = /** @type {unknown} */ (err);
       const message = errorValue instanceof Error ? errorValue.message : String(errorValue);
@@ -93,6 +101,53 @@ export default function Profile() {
   const handleLogout = async () => {
     await logoutService();
     window.location.href = "/login";
+  };
+
+  const handleProfileSave = async (event) => {
+    event.preventDefault();
+    setProfileError("");
+    setProfileMessage("");
+    const nameChanged = profileName.trim() !== (user.full_name || "");
+    const changingPassword = Boolean(currentPassword || newPassword || confirmNewPassword);
+
+    if (!nameChanged && !changingPassword) {
+      setProfileMessage("Aucune modification à enregistrer.");
+      return;
+    }
+    if (changingPassword) {
+      if (!currentPassword || !newPassword || !confirmNewPassword) {
+        setProfileError("Remplissez les trois champs du changement de mot de passe.");
+        return;
+      }
+      if (newPassword !== confirmNewPassword) {
+        setProfileError("Les nouveaux mots de passe ne correspondent pas.");
+        return;
+      }
+      if (newPassword.length < 12 || !/[a-z]/.test(newPassword) || !/[A-Z]/.test(newPassword) || !/\d/.test(newPassword) || !/[^A-Za-z0-9]/.test(newPassword)) {
+        setProfileError("Le nouveau mot de passe doit contenir 12 caractères, une majuscule, une minuscule, un chiffre et un caractère spécial.");
+        return;
+      }
+    }
+
+    setProfileSaving(true);
+    try {
+      const payload = {};
+      if (nameChanged) payload.full_name = profileName.trim();
+      if (changingPassword) {
+        payload.current_password = currentPassword;
+        payload.new_password = newPassword;
+      }
+      const updated = await updateMe(payload);
+      updateUser(updated);
+      setCurrentPassword("");
+      setNewPassword("");
+      setConfirmNewPassword("");
+      setProfileMessage("Profil et sécurité mis à jour.");
+    } catch (error) {
+      setProfileError(error instanceof Error ? error.message : "Impossible de mettre à jour le profil.");
+    } finally {
+      setProfileSaving(false);
+    }
   };
 
   if (!user) return <div className="flex items-center justify-center py-20"><div className="w-8 h-8 border-4 border-primary/30 border-t-primary rounded-full animate-spin" /></div>;
@@ -132,7 +187,7 @@ export default function Profile() {
               </span>
             </div>
           </div>
-          <img src="/logo.png" alt="M'baara" className="w-14 h-14 rounded-full object-cover shadow-md ring-2 ring-primary/20 hidden sm:block" />
+          <img src="/logo.png" alt="Mǎa-kwɛ́lî Langues" className="w-14 h-14 rounded-full object-cover shadow-md ring-2 ring-primary/20 hidden sm:block" />
         </div>
       </div>
 
@@ -177,7 +232,7 @@ export default function Profile() {
         </div>
         {contributions.length === 0 ? (
           <div className="bg-card border border-border rounded-2xl p-6 text-center">
-            <p className="text-sm text-muted-foreground mb-3">Tu n'as pas encore contribué.</p>
+            <p className="text-sm text-muted-foreground mb-3">Vous n'avez pas encore contribué.</p>
             <Link to="/contribuer" className="text-primary text-sm font-medium hover:underline">Contribuer maintenant →</Link>
           </div>
         ) : (
@@ -207,6 +262,31 @@ export default function Profile() {
           <Settings size={18} className="text-muted-foreground" />
           <h2 className="font-heading text-lg font-bold text-foreground">Paramètres</h2>
         </div>
+        <form onSubmit={handleProfileSave} className="mb-4 rounded-2xl border border-border bg-secondary/30 p-4">
+          <div className="mb-4 flex items-center gap-2">
+            <Lock size={17} className="text-primary" />
+            <div>
+              <h3 className="text-sm font-bold text-foreground">Informations du compte</h3>
+              <p className="text-xs text-muted-foreground">Modifiez votre nom et votre mot de passe.</p>
+            </div>
+          </div>
+          <label className="mb-3 block text-sm font-medium text-foreground">
+            Nom utilisateur
+            <input value={profileName} onChange={(event) => setProfileName(event.target.value)} maxLength={120} className="mt-1.5 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20" />
+          </label>
+          <div className="grid gap-3 md:grid-cols-3">
+            <label className="text-sm font-medium text-foreground">Mot de passe actuel<input type="password" autoComplete="current-password" value={currentPassword} onChange={(event) => setCurrentPassword(event.target.value)} className="mt-1.5 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20" /></label>
+            <label className="text-sm font-medium text-foreground">Nouveau mot de passe<input type="password" autoComplete="new-password" value={newPassword} onChange={(event) => setNewPassword(event.target.value)} className="mt-1.5 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20" /></label>
+            <label className="text-sm font-medium text-foreground">Confirmer le nouveau<input type="password" autoComplete="new-password" value={confirmNewPassword} onChange={(event) => setConfirmNewPassword(event.target.value)} className="mt-1.5 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20" /></label>
+          </div>
+          <p className="mt-2 text-xs text-muted-foreground">Le nouveau mot de passe doit contenir au moins 12 caractères, une majuscule, une minuscule, un chiffre et un caractère spécial.</p>
+          {profileError ? <p role="alert" className="mt-3 text-sm text-destructive">{profileError}</p> : null}
+          {profileMessage ? <p role="status" className="mt-3 text-sm text-emerald-600">{profileMessage}</p> : null}
+          <button type="submit" disabled={profileSaving} className="mt-4 inline-flex items-center gap-2 rounded-xl bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground transition hover:opacity-90 disabled:opacity-60">
+            {profileSaving ? <Loader2 size={16} className="animate-spin" /> : <Save size={16} />}
+            {profileSaving ? "Enregistrement..." : "Enregistrer les modifications"}
+          </button>
+        </form>
         <button onClick={toggleTheme}
           className="w-full flex items-center justify-between py-3 px-4 rounded-xl bg-secondary/50 hover:bg-secondary transition mb-2">
           <span className="text-sm font-medium text-foreground">Thème {theme === "dark" ? "sombre" : "clair"}</span>

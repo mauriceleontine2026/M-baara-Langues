@@ -45,7 +45,7 @@ export default function AdminAIGenerator({ languages }) {
     setLessonData(null);
     try {
       const langObj = languages.find(l => l.code === lang);
-      const fullPrompt = `Tu es un générateur de contenu pédagogique pour M'baara, une application d'apprentissage de langues africaines et internationales.
+      const fullPrompt = `Tu es un générateur de contenu pédagogique pour Mǎa-kwɛ́lî Langues, une application d'apprentissage de langues africaines et internationales.
 
 Génère du contenu pour la langue: ${langObj?.name_fr} (${langObj?.name}), code: ${lang}.
 

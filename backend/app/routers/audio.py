@@ -5,6 +5,7 @@ import tempfile
 import os
 import uuid
 from pathlib import Path
+import httpx
 
 
 def validate_audio_upload_bytes(filename: str, contents: bytes) -> str:
@@ -112,7 +113,19 @@ async def transcribe_audio(
         status_code = 413 if "too large" in detail.lower() else 400
         raise HTTPException(status_code=status_code, detail=detail)
     if not _whisper_available:
-        raise HTTPException(status_code=501, detail="faster-whisper not installed on server. Install faster-whisper and models to enable local STT.")
+        openai_key = os.getenv("OPENAI_API_KEY")
+        if not openai_key:
+            raise HTTPException(status_code=501, detail="No speech-to-text provider is configured")
+        async with httpx.AsyncClient(timeout=60.0) as client:
+            response = await client.post(
+                "https://api.openai.com/v1/audio/transcriptions",
+                headers={"Authorization": f"Bearer {openai_key}"},
+                files={"file": (file.filename or f"audio{suffix}", contents, file.content_type or "application/octet-stream")},
+                data={"model": os.getenv("OPENAI_TRANSCRIPTION_MODEL", "whisper-1")},
+            )
+        if response.status_code >= 300:
+            raise HTTPException(status_code=502, detail="Speech-to-text provider request failed")
+        return {"text": response.json().get("text", ""), "language": None, "confidence": None}
 
     model = get_whisper_model()
     if model is None:
@@ -144,7 +157,27 @@ async def synthesize_audio(
     if not payload.text.strip():
         raise HTTPException(status_code=400, detail="No text provided")
 
-    # Try to use gTTS if available to create an mp3 that can be served
+    elevenlabs_key = os.getenv("ELEVENLABS_API_KEY")
+    if elevenlabs_key:
+        voice_id = os.getenv("ELEVENLABS_VOICE_ID", "21m00Tcm4TlvDq8ikWAM")
+        try:
+            async with httpx.AsyncClient(timeout=60.0) as client:
+                response = await client.post(
+                    f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}",
+                    headers={"xi-api-key": elevenlabs_key, "Accept": "audio/mpeg", "Content-Type": "application/json"},
+                    json={"text": payload.text, "model_id": os.getenv("ELEVENLABS_MODEL", "eleven_multilingual_v2")},
+                )
+            if response.status_code < 300:
+                out_dir = Path(__file__).resolve().parents[1] / "static" / "audio"
+                out_dir.mkdir(parents=True, exist_ok=True)
+                _purge_stale_audio_files(out_dir)
+                fname = f"tts_{uuid.uuid4().hex}.mp3"
+                (out_dir / fname).write_bytes(response.content)
+                return {"audio_url": f"/static/audio/{fname}", "text": payload.text, "language_code": payload.language_code or "fr", "duration_seconds": None, "provider": "elevenlabs"}
+        except httpx.HTTPError:
+            pass
+
+    # Fallback to gTTS for low-cost speech synthesis.
     try:
         from gtts import gTTS
         out_dir = Path(__file__).resolve().parents[1] / "static" / "audio"
@@ -189,5 +222,5 @@ async def upload_audio(
         return {"file_url": str(base_url)}
     except HTTPException:
         raise
-    except Exception as exc:
-        raise HTTPException(status_code=500, detail=f"Upload failed: {exc}")
+    except Exception:
+        raise HTTPException(status_code=500, detail="Upload failed. Please retry later.")

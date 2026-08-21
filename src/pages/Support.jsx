@@ -33,7 +33,7 @@ export default function Support() {
   const activeItem = supportItems[activeIndex];
 
   const handleMailTo = () => {
-    window.location.href = "mailto:support@m-baara.app?subject=Demande%20d'assistance%20M'Baara";
+    window.location.href = "mailto:support@m-baara.app?subject=Demande%20d'assistance%20M%C7%8Ea-kw%C9%9Bl%C3%AE";
   };
 
   return (

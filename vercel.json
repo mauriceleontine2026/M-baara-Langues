@@ -10,12 +10,24 @@
       }
     }
   ],
+  "headers": [
+    {
+      "source": "/api/:path*",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store" }
+      ]
+    }
+  ],
   "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "https://maa-kweli-langues-api.vercel.app/api/$1"
+    },
     {
       "handle": "filesystem"
     },
     {
-      "src": "/(.*)",
+      "src": "/((?!api/).*)",
       "dest": "/index.html"
     }
   ]

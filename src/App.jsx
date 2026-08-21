@@ -53,7 +53,7 @@ const AuthenticatedApp = () => {
         <div className="flex flex-col items-center gap-3">
           <img
             src="/logo.png"
-            alt="M'baara"
+            alt="Mǎa-kwɛ́lî Langues"
             className="w-16 h-16 rounded-full shadow-lg object-cover"
           />
           <div className="w-8 h-8 border-4 border-primary/30 border-t-primary rounded-full animate-spin"></div>

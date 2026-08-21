@@ -92,6 +92,8 @@ export default function LanguageFlag({ language, className = "", size = "md" }) 
       dyula: "ci",
       bambara: "ml",
       soninke: "ml",
+      moore: "bf",
+      mooré: "bf",
       hausa: "ng",
       yoruba: "ng",
       fulfulde: "ne",

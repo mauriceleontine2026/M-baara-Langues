@@ -7,11 +7,7 @@ const getApiBaseUrl = () => {
     return window.location.origin;
   }
 
-  if (typeof window !== "undefined") {
-    return window.location.origin;
-  }
-
-  return "";
+  return typeof window !== "undefined" ? window.location.origin : "";
 };
 
 // The access token itself now lives only in an httpOnly cookie the backend
@@ -41,7 +37,13 @@ const buildApiUrl = (path) => {
   }
 
   const normalizedPath = path.startsWith("/") ? path : `/${path}`;
-  return new URL(normalizedPath, `${API_BASE_URL}/`);
+  try {
+    return new URL(normalizedPath, `${API_BASE_URL}/`);
+  } catch {
+    const fallback = typeof window !== "undefined" ? window.location.origin : "";
+    if (!fallback) throw new Error("URL de l’API invalide.");
+    return new URL(normalizedPath, `${fallback}/`);
+  }
 };
 
 const formatErrorMessage = (data, fallback) => {
@@ -71,6 +73,18 @@ const formatErrorMessage = (data, fallback) => {
   }
 
   return fallback;
+};
+
+const getResponseErrorMessage = (response, data, url) => {
+  const contentType = response.headers.get("content-type") || "";
+  if (contentType.includes("text/html")) {
+    return `Le serveur API a renvoyé une page HTML au lieu d'une réponse JSON (HTTP ${response.status}). Vérifiez le déploiement de l'API : ${url}`;
+  }
+
+  const message = formatErrorMessage(data, "");
+  if (message) return message;
+
+  return `La requête API a échoué (HTTP ${response.status} ${response.statusText || "sans détail"}) : ${url}`;
 };
 
 const MUTATING_METHODS = new Set(["POST", "PUT", "PATCH", "DELETE"]);
@@ -133,10 +147,11 @@ const request = async (method, path, body, queryParams) => {
   }
 
   if (!response.ok) {
-    const error = new Error(formatErrorMessage(data, response.statusText || "Request failed"));
+    const error = new Error(getResponseErrorMessage(response, data, url.toString()));
     Object.assign(error, {
       status: response.status,
       data,
+      url: url.toString(),
     });
     throw error;
   }

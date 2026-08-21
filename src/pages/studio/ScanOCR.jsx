@@ -40,7 +40,7 @@ export default function ScanOCR() {
     try {
       // Upload the image
       const res = await invokeAI(
-        "Tu es un assistant OCR de M'baara. Analyse cette image. Extrais tout le texte visible. Identifie la langue du texte. Traduis le texte en français. Si le texte contient plusieurs mots, sépare-les. Retourne le résultat en JSON.",
+        "Tu es un assistant OCR de Mǎa-kwɛ́lî. Analyse cette image. Extrais tout le texte visible. Identifie la langue du texte. Traduis le texte en français. Si le texte contient plusieurs mots, sépare-les. Retourne le résultat en JSON.",
         {
           type: "object",
           properties: {

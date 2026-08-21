@@ -1,7 +1,7 @@
-// App UI translations for M'baara
+// App UI translations for Mǎa-kwɛ́lî
 export const translations = {
   fr: {
-    app_name: "M'baara Langues",
+    app_name: "Mǎa-kwɛ́lî Langues",
     tagline: "Apprends les langues d'Afrique et du monde",
     choose_language: "Choisir une langue",
     my_languages: "Mes langues",
@@ -37,7 +37,7 @@ export const translations = {
     active: "Actif",
     add_data: "Ajouter des données",
     manage_content: "Gérer le contenu",
-    welcome: "Bienvenue sur M'baara !",
+    welcome: "Bienvenue sur Mǎa-kwɛ́lî !",
     select_app_language: "Langue de l'application",
     phonetic: "Phonétique",
     example: "Exemple",
@@ -55,7 +55,7 @@ export const translations = {
     languages_count: "langues disponibles",
   },
   en: {
-    app_name: "M'baara Languages",
+    app_name: "Mǎa-kwɛ́lî Languages",
     tagline: "Learn African and world languages",
     choose_language: "Choose a language",
     my_languages: "My languages",
@@ -91,7 +91,7 @@ export const translations = {
     active: "Active",
     add_data: "Add data",
     manage_content: "Manage content",
-    welcome: "Welcome to M'baara!",
+    welcome: "Welcome to Mǎa-kwɛ́lî!",
     select_app_language: "App language",
     phonetic: "Phonetic",
     example: "Example",
@@ -109,7 +109,7 @@ export const translations = {
     languages_count: "languages available",
   },
   es: {
-    app_name: "M'baara Lenguas",
+    app_name: "Mǎa-kwɛ́lî Lenguas",
     tagline: "Aprende lenguas africanas y del mundo",
     choose_language: "Elegir un idioma",
     my_languages: "Mis idiomas",
@@ -145,7 +145,7 @@ export const translations = {
     active: "Activo",
     add_data: "Agregar datos",
     manage_content: "Gestionar contenido",
-    welcome: "¡Bienvenido a M'baara!",
+    welcome: "¡Bienvenido a Mǎa-kwɛ́lî!",
     select_app_language: "Idioma de la app",
     phonetic: "Fonética",
     example: "Ejemplo",

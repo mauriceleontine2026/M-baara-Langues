@@ -8,7 +8,7 @@ from typing import Optional
 
 from fastapi import Depends, HTTPException, Request, Response, status
 from fastapi.security import OAuth2PasswordBearer
-from jose import JWTError, jwt
+import jwt
 from passlib.context import CryptContext
 from sqlalchemy.orm import Session
 
@@ -24,10 +24,9 @@ if not JWT_SECRET or len(JWT_SECRET) < 32:
 ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256").upper()
 ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "15"))
 REFRESH_TOKEN_EXPIRE_DAYS = int(os.getenv("REFRESH_TOKEN_EXPIRE_DAYS", "7"))
-# Use sha256_crypt to avoid optional native `bcrypt` binary issues during
-# local development. `sha256_crypt` is supported by passlib without extra
-# native dependencies and provides sufficient strength here.
-pwd_context = CryptContext(schemes=["sha256_crypt"], deprecated="auto")
+# Argon2id is used for all newly stored passwords. The legacy scheme remains
+# readable temporarily so existing accounts can migrate on password change.
+pwd_context = CryptContext(schemes=["argon2", "sha256_crypt"], deprecated=["sha256_crypt"])
 
 # Kept so FastAPI's interactive docs still offer a bearer-token "Authorize"
 # button; actual token extraction below checks the cookie first (see
@@ -67,8 +66,8 @@ ACCESS_TOKEN_COOKIE_SAMESITE = os.getenv("ACCESS_TOKEN_COOKIE_SAMESITE", "none")
 CSRF_COOKIE_SAMESITE = os.getenv("CSRF_COOKIE_SAMESITE", "none")
 
 
-def set_auth_cookies(response: Response, token: str) -> None:
-    max_age = ACCESS_TOKEN_EXPIRE_MINUTES * 60
+def set_auth_cookies(response: Response, token: str, remember: bool = False) -> None:
+    max_age = (REFRESH_TOKEN_EXPIRE_DAYS * 24 * 60 * 60) if remember else (ACCESS_TOKEN_EXPIRE_MINUTES * 60)
     secure = ACCESS_TOKEN_COOKIE_SECURE
     if _is_development_env():
         secure = False
@@ -114,6 +113,10 @@ def get_password_hash(password: str) -> str:
     return pwd_context.hash(password)
 
 
+def password_needs_rehash(hashed_password: str) -> bool:
+    return pwd_context.needs_update(hashed_password)
+
+
 def create_access_token(data: dict, expires_delta: Optional[timedelta] = None) -> str:
     to_encode = data.copy()
     expire = datetime.now(timezone.utc) + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))
@@ -124,7 +127,7 @@ def create_access_token(data: dict, expires_delta: Optional[timedelta] = None) -
 def decode_access_token(token: str) -> dict:
     try:
         return jwt.decode(token, JWT_SECRET, algorithms=[ALGORITHM])
-    except JWTError as exc:
+    except jwt.InvalidTokenError as exc:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid authentication credentials",
@@ -171,11 +174,18 @@ def get_current_user(request: Request, header_token: str | None = Depends(oauth2
     if not getattr(user, "email_verified", False):
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Email not verified")
 
-    if is_admin_email(user.email):
-        setattr(user, "role", "admin")
-    elif getattr(user, "role", None) is None:
+    if getattr(user, "role", None) is None:
         setattr(user, "role", "user")
     return user
+
+
+def get_current_user_optional(request: Request, header_token: str | None = Depends(oauth2_scheme)) -> User | None:
+    try:
+        return get_current_user(request, header_token)
+    except HTTPException as exc:
+        if exc.status_code in {401, 403}:
+            return None
+        raise
 
 
 def require_admin(current_user: User = Depends(get_current_user)) -> User:

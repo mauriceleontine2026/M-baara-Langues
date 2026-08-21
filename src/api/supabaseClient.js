@@ -23,8 +23,15 @@ export async function signInWithGoogle() {
   return { token: data?.session?.access_token || null, data };
 }
 
-export async function signUp(email, password) {
-  const { data, error } = await supabase.auth.signUp({ email, password });
+export async function signUp(email, password, fullName) {
+  const { data, error } = await supabase.auth.signUp({
+    email,
+    password,
+    options: {
+      data: fullName ? { full_name: fullName } : undefined,
+      emailRedirectTo: `${window.location.origin}/login`,
+    },
+  });
   if (error) throw error;
   return data;
 }

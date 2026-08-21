@@ -14,6 +14,7 @@ import { ArrowRight, Chrome, Lock, Mail, Sparkles, UserRound } from "lucide-reac
  *   switchButtonLabel?: string;
  *   children?: any;
  *   hideForm?: boolean;
+ *   forgotPasswordHref?: string;
  * }} props
  */
 export default function AuthSplitPanel(props) {
@@ -29,9 +30,10 @@ export default function AuthSplitPanel(props) {
     switchButtonLabel = "Créer un compte",
     children = null,
     hideForm = false,
+    forgotPasswordHref = "/forgot-password",
   } = props;
   const [mode, setMode] = useState(initialMode);
-  const [form, setForm] = useState({ name: "", email: "", password: "", confirmPassword: "" });
+  const [form, setForm] = useState({ name: "", email: "", password: "", confirmPassword: "", remember: false });
   const [showPassword, setShowPassword] = useState(false);
 
   const isSignUp = mode === "signup";
@@ -40,14 +42,14 @@ export default function AuthSplitPanel(props) {
   const subtitle = useMemo(
     () =>
       isSignUp
-        ? "Rejoignez M'baara Langues et débloquez un apprentissage plus vivant."
+        ? "Rejoignez Mǎa-kwɛ́lî Langues et débloquez un apprentissage plus vivant."
         : "Accédez à vos leçons, progrès et contenus préférés en un instant.",
     [isSignUp]
   );
 
   const buttonLabel = useMemo(() => (isSignUp ? "Créer mon compte" : submitLabel), [isSignUp, submitLabel]);
 
-  const accentTitle = useMemo(() => (isSignUp ? "Bienvenue chez M'baara" : "Apprends autrement"), [isSignUp]);
+  const accentTitle = useMemo(() => (isSignUp ? "Bienvenue chez Mǎa-kwɛ́lî" : "Apprends autrement"), [isSignUp]);
   const accentBody = useMemo(
     () =>
       isSignUp
@@ -65,6 +67,7 @@ export default function AuthSplitPanel(props) {
       email: String(formData.get("email") || form.email || "").trim(),
       password: String(formData.get("password") || form.password || ""),
       confirmPassword: String(formData.get("confirmPassword") || form.confirmPassword || ""),
+      remember: formData.get("remember") === "on",
     };
     onSubmit?.({ ...submittedValues, mode });
   };
@@ -80,12 +83,12 @@ export default function AuthSplitPanel(props) {
               <div className="mb-6 flex items-center gap-3">
                 <img
                   src="/logo.png"
-                  alt="Logo M'baara"
+                  alt="Logo Mǎa-kwɛ́lî Langues"
                   className="h-14 w-14 rounded-full border border-white/20 object-cover shadow-lg"
                 />
                 <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-sm font-medium backdrop-blur-sm">
                   <Sparkles className="h-4 w-4" />
-                  M'baara Langues
+                  Mǎa-kwɛ́lî Langues
                 </div>
               </div>
               <h2 className="font-heading text-3xl font-semibold leading-tight sm:text-4xl">{accentTitle}</h2>
@@ -113,7 +116,7 @@ export default function AuthSplitPanel(props) {
               </div>
 
               {onGoogle ? (
-                <div className="mb-6 flex items-center gap-3">
+                <div className="mb-6 flex items-center">
                   <button
                     type="button"
                     onClick={onGoogle}
@@ -121,9 +124,6 @@ export default function AuthSplitPanel(props) {
                   >
                     <Chrome className="h-4 w-4 text-primary" />
                     Continuer avec Google
-                  </button>
-                  <button type="button" className="rounded-xl border border-border bg-background p-3 text-muted-foreground transition-all duration-300 hover:-translate-y-0.5 hover:scale-[1.02] hover:bg-secondary">
-                    <Sparkles className="h-4 w-4" />
                   </button>
                 </div>
               ) : null}
@@ -190,6 +190,7 @@ export default function AuthSplitPanel(props) {
                         autoComplete={isSignUp ? "new-password" : "current-password"}
                         required
                         minLength={12}
+                          aria-describedby={isSignUp ? "password-requirements" : undefined}
                       />
                       <button
                         type="button"
@@ -219,12 +220,29 @@ export default function AuthSplitPanel(props) {
                     </label>
                   ) : null}
 
-                  {error ? <p className="text-sm text-destructive">{error}</p> : null}
-                  {message ? <p className="text-sm text-emerald-600">{message}</p> : null}
+                  {isSignUp ? (
+                    <p id="password-requirements" className="text-xs leading-5 text-muted-foreground">
+                      12 caractères minimum, avec une majuscule, une minuscule, un chiffre et un caractère spécial.
+                    </p>
+                  ) : (
+                    <div className="flex items-center justify-between gap-3">
+                      <label className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <input name="remember" type="checkbox" className="h-4 w-4 rounded border-border text-primary focus:ring-primary" />
+                        Se souvenir de moi
+                      </label>
+                      <a href={forgotPasswordHref} className="text-sm font-semibold text-primary transition-colors hover:text-primary/80">
+                        Mot de passe oublié ?
+                      </a>
+                    </div>
+                  )}
+
+                  {error ? <p role="alert" className="text-sm text-destructive">{error}</p> : null}
+                  {message ? <p role="status" className="text-sm text-emerald-600">{message}</p> : null}
 
                                   <button
                     type="submit"
                     disabled={loading}
+                    aria-busy={loading}
                     className="flex w-full items-center justify-center gap-2 rounded-2xl bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground transition-all duration-300 hover:-translate-y-0.5 hover:opacity-95 disabled:opacity-70"
                   >
                     {loading ? (isSignUp ? "Création..." : "Connexion...") : buttonLabel}

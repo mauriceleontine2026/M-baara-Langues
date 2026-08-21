@@ -78,6 +78,7 @@ export default function Login() {
   const handleSubmit = async (/** @type {any} */ values) => {
     const email = typeof values?.email === "string" ? values.email.trim() : "";
     const password = typeof values?.password === "string" ? values.password : "";
+    const remember = values?.remember === true;
     const mode = values?.mode;
     if (mode === "signup") {
       window.location.href = "/register";
@@ -106,7 +107,7 @@ export default function Login() {
     setLoading(true);
     try {
       setSubmittedEmail(email);
-      await login(email, password);
+      await login(email, password, remember);
       window.location.href = "/";
     } catch (err) {
       const rawMessage = err instanceof Error ? err.message : "Identifiants incorrects";
@@ -140,7 +141,7 @@ export default function Login() {
     >
       {showResendLink ? (
         <div className="mt-6 rounded-2xl border border-border bg-background p-4 text-left text-sm text-foreground">
-          <p>Tu n'as pas reçu l'e-mail de vérification ?</p>
+          <p>Vous n'avez pas reçu l'e-mail de vérification ?</p>
           <button
             type="button"
             onClick={handleResendVerification}

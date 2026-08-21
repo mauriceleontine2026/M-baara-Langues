@@ -37,6 +37,8 @@ if os.getenv("VERCEL") == "1":
 if os.getenv("DATABASE_URL"):
     DATABASE_URL = os.getenv("DATABASE_URL")
 else:
+    if os.getenv("VERCEL") == "1" or os.getenv("ENVIRONMENT", "").lower() in {"production", "prod"}:
+        raise RuntimeError("DATABASE_URL must be configured in production.")
     write_dir = ROOT_DIR if os.access(ROOT_DIR, os.W_OK) else Path("/tmp")
     DEFAULT_DB_PATH = write_dir / "mbaara.db"
     DATABASE_URL = f"sqlite:///{DEFAULT_DB_PATH}"
@@ -49,6 +51,8 @@ try:
         with engine.connect() as conn:  # type: ignore[attr-defined]
             conn.execute(text("SELECT 1"))
 except Exception as exc:  # noqa: BLE001
+    if os.getenv("VERCEL") == "1" or os.getenv("ENVIRONMENT", "").lower() in {"production", "prod"}:
+        raise RuntimeError("Configured production database is unavailable.") from exc
     fallback_path = Path("/tmp") / "mbaara.db"
     fallback_url = f"sqlite:///{fallback_path}"
     logger.warning(

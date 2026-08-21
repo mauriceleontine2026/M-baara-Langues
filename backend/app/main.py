@@ -2,6 +2,7 @@ from fastapi import Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from .database import Base, engine
+from .config import get_allowed_origins, get_backend_proxy_target
 from .routers import health, auth, lessons, progress, audio, ai, languages, vocabulary, contributions, users, leaderboard
 from fastapi.staticfiles import StaticFiles
 from pathlib import Path
@@ -19,14 +20,7 @@ from .services.security import require_admin
 
 app = FastAPI(title="M'baara API", version="0.1.0")
 
-raw_allowed_origins = os.getenv(
-    "ALLOWED_ORIGINS",
-    "https://mbaara-web.vercel.app,https://m-baara-langues.web.app,http://localhost:5173,http://127.0.0.1:5173,http://localhost:4173,http://127.0.0.1:4173,http://localhost:5174,http://127.0.0.1:5174"
-)
-allowed_origins = [origin.strip() for origin in raw_allowed_origins.split(",") if origin.strip()]
-for required_origin in ["https://m-baara-langues.web.app"]:
-    if required_origin not in allowed_origins:
-        allowed_origins.append(required_origin)
+allowed_origins = get_allowed_origins()
 
 if any(origin.strip() in {"*", "null"} for origin in allowed_origins):
     raise RuntimeError(

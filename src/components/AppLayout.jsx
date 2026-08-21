@@ -56,9 +56,9 @@ export default function AppLayout() {
       <header className="fixed inset-x-0 top-0 z-40 border-b border-border/70 bg-background/85 shadow-[0_8px_30px_-24px_rgba(249,115,22,.65)] backdrop-blur-xl supports-[backdrop-filter]:bg-background/70">
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
           <div className="group flex items-center gap-3">
-            <img src="/logo.png" alt="M'baara" className="h-9 w-9 rounded-full object-cover ring-2 ring-primary/30" />
+            <img src="/logo.png" alt="Mǎa-kwɛ́lî Langues" className="h-9 w-9 rounded-full object-cover ring-2 ring-primary/30" />
             <div>
-              <div className="font-heading text-base font-bold leading-none text-foreground transition-colors group-hover:text-primary">M'BAARA</div>
+              <div className="font-heading text-base font-bold leading-none text-foreground transition-colors group-hover:text-primary">Mǎa-kwɛ́lî</div>
               <div className="text-[11px] font-semibold text-primary">Langues</div>
             </div>
           </div>

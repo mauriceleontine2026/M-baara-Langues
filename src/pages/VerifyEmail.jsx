@@ -18,7 +18,7 @@ export default function VerifyEmail() {
     verifyEmail(token)
       .then(() => {
         setState("success");
-        setMessage("Adresse e-mail vérifiée. Tu peux maintenant te connecter.");
+        setMessage("Adresse e-mail vérifiée. Vous pouvez maintenant vous connecter.");
       })
       .catch((error) => {
         setState("error");

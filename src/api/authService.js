@@ -1,6 +1,10 @@
 import { request, notifyAuthChanged } from "./backendClient";
 import supabase, { signInWithGoogle } from "./supabaseClient";
 
+const getAuthApiBaseUrl = () => {
+  return import.meta.env.VITE_API_BASE_URL || (typeof window !== "undefined" ? window.location.origin : "");
+};
+
 const clearUrlHash = () => {
   if (typeof window === "undefined") return;
   const { pathname, search } = window.location;
@@ -64,9 +68,9 @@ export async function completeGoogleLogin() {
   }
 }
 
-export async function login(email, password) {
+export async function login(email, password, remember = false) {
   try {
-    const data = await request("POST", "/api/auth/login", { email, password });
+    const data = await request("POST", "/api/auth/login", { email, password, remember });
     notifyAuthChanged();
     return data?.user || null;
   } catch (err) {
@@ -75,7 +79,7 @@ export async function login(email, password) {
     // If network error or CORS issue, retry with form-based fallback
     if (message.includes("Failed to fetch") || status === 0 || !status) {
       console.warn("Login XHR failed, attempting form-based login fallback...");
-      return loginWithForm(email, password);
+      return loginWithForm(email, password, remember);
     }
     throw err;
   }
@@ -85,11 +89,12 @@ export async function login(email, password) {
  * Form-based login fallback: submits email/password using FormData to
  * `/api/auth/login/form` and returns the authenticated user if successful.
  */
-export async function loginWithForm(email, password) {
-  const url = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/login/form`;
+export async function loginWithForm(email, password, remember = false) {
+  const url = `${getAuthApiBaseUrl()}/api/auth/login/form`;
   const formData = new FormData();
   formData.append("email", email);
   formData.append("password", password);
+  formData.append("remember", String(remember));
 
   // Include CSRF token from cookie when available (double-submit cookie pattern)
   try {
@@ -174,7 +179,7 @@ function getCsrfTokenFromCookie() {
  * This bypasses XHR CORS restrictions and relies on browser cookie handling.
  */
 export async function loginWithGoogleForm(accessToken) {
-  const url = `${import.meta.env.VITE_API_BASE_URL || window.location.origin}/api/auth/supabase/form`;
+  const url = `${getAuthApiBaseUrl()}/api/auth/supabase/form`;
   const formData = new FormData();
   formData.append("access_token", accessToken);
 
