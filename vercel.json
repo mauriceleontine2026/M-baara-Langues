@@ -21,7 +21,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "https://maa-kwelilangues-qt54s2sr4-maa-kweli-langues.vercel.app/api/$1"
+      "dest": "https://mbaara-backend.vercel.app/api/$1"
     },
     {
       "handle": "filesystem"

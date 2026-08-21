@@ -2,6 +2,9 @@ import os
 
 DEFAULT_ALLOWED_ORIGINS = [
     "https://maa-kweli-langues.vercel.app",
+    "https://maa-kwelilangues-o6nchawdz-maa-kweli-langues.vercel.app",
+    "https://maa-kwelilangues-qt54s2sr4-maa-kweli-langues.vercel.app",
+    "https://maa-kwelilangues-git-main-m-baara-langues.vercel.app",
     "https://mbaara-web.vercel.app",
     "https://mbaara-web-m-baara-langues.vercel.app",
     "https://m-baara-langues.web.app",
@@ -33,10 +36,14 @@ def get_allowed_origins() -> list[str]:
         if origin not in origins:
             origins.append(origin)
 
-    # Keep this explicit production origin even if the env is incomplete.
-    required = "https://m-baara-langues.web.app"
-    if required not in origins:
-        origins.append(required)
+    # Keep the hosted frontend origins explicit even if the env is incomplete.
+    required_origins = (
+        "https://maa-kweli-langues.vercel.app",
+        "https://m-baara-langues.web.app",
+    )
+    for required in required_origins:
+        if required not in origins:
+            origins.append(required)
 
     return origins
 
