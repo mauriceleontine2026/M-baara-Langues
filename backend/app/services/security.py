@@ -12,6 +12,11 @@ import jwt
 from passlib.context import CryptContext
 from sqlalchemy.orm import Session
 
+try:
+    import redis
+except ImportError:
+    redis = None
+
 from ..database import SessionLocal
 from ..models.user import User
 
@@ -203,13 +208,34 @@ class RateLimiter:
     backend is scaled horizontally.
     """
 
-    def __init__(self, max_attempts: int, window_seconds: int):
+    def __init__(self, max_attempts: int, window_seconds: int, name: str = "default"):
         self.max_attempts = max_attempts
         self.window_seconds = window_seconds
+        self.name = name
         self._buckets: dict[str, deque[float]] = defaultdict(deque)
+        self._redis = None
+        redis_url = os.getenv("REDIS_URL")
+        if redis is not None and redis_url:
+            self._redis = redis.Redis.from_url(redis_url, decode_responses=True)
 
     def __call__(self, request: Request) -> None:
         client_ip = request.client.host if request.client else "unknown"
+        if self._redis is not None:
+            key = f"mbaara:rate:{self.name}:{client_ip}"
+            try:
+                attempts = self._redis.incr(key)
+                if attempts == 1:
+                    self._redis.expire(key, self.window_seconds)
+                if attempts > self.max_attempts:
+                    raise HTTPException(
+                        status_code=status.HTTP_429_TOO_MANY_REQUESTS,
+                        detail="Too many requests. Please retry later.",
+                    )
+                return
+            except HTTPException:
+                raise
+            except Exception:
+                logger.warning("Redis rate limiter unavailable; using local fallback", exc_info=True)
         now = time.monotonic()
         bucket = self._buckets[client_ip]
         while bucket and now - bucket[0] > self.window_seconds:

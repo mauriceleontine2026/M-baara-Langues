@@ -5,11 +5,11 @@ import httpx
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field, field_validator
 
-from ..services.security import RateLimiter, get_current_user_optional
+from ..services.security import RateLimiter, get_current_user
 
 router = APIRouter()
 
-_ai_rate_limiter = RateLimiter(max_attempts=10, window_seconds=60)
+_ai_rate_limiter = RateLimiter(name="ai", max_attempts=10, window_seconds=60)
 
 
 def _sanitize_text(value: str | None, *, max_length: int, allow_newlines: bool = True) -> str | None:
@@ -169,7 +169,7 @@ async def call_openai(prompt: str, temperature: float = 0.7, response_json_schem
         )
 
     if response.status_code >= 300:
-        raise HTTPException(status_code=502, detail=f"OpenAI request failed: {response.text}")
+        raise HTTPException(status_code=502, detail="OpenAI provider request failed")
 
     payload = response.json()
     return payload["choices"][0]["message"]["content"].strip()
@@ -178,7 +178,7 @@ async def call_openai(prompt: str, temperature: float = 0.7, response_json_schem
 @router.post("/chat")
 async def chat(
     payload: LLMRequest,
-    current_user=Depends(get_current_user_optional),
+    current_user=Depends(get_current_user),
     _rate_limit=Depends(_ai_rate_limiter),
 ):
     prompt = payload.prompt
@@ -247,7 +247,7 @@ async def chat(
 @router.post("/translate")
 async def translate(
     payload: TranslationRequest,
-    current_user=Depends(get_current_user_optional),
+    current_user=Depends(get_current_user),
     _rate_limit=Depends(_ai_rate_limiter),
 ):
     """Translate rare/local languages through a separately hosted NLLB model."""

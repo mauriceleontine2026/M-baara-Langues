@@ -17,7 +17,7 @@ import httpx
 from ..database import get_db
 from ..models.user import User
 from ..services import security
-from ..services.security import get_current_user, is_admin_email
+from ..services.security import RateLimiter, get_current_user, is_admin_email
 
 SUPABASE_URL = os.getenv("VITE_SUPABASE_URL", os.getenv("SUPABASE_URL"))
 SUPABASE_SERVICE_KEY = os.getenv("SUPABASE_SERVICE_KEY")
@@ -37,8 +37,8 @@ RATE_LIMIT_WINDOW_SECONDS = 60
 RATE_LIMIT_MAX_ATTEMPTS = 5
 LOGIN_FAILURE_WINDOW_SECONDS = 15 * 60
 LOGIN_FAILURE_MAX_ATTEMPTS = 5
-_rate_limit_buckets: dict[str, deque[float]] = defaultdict(deque)
 _login_failure_buckets: dict[str, deque[float]] = defaultdict(deque)
+_auth_rate_limiter = RateLimiter(name="auth", max_attempts=RATE_LIMIT_MAX_ATTEMPTS, window_seconds=RATE_LIMIT_WINDOW_SECONDS)
 
 
 def _normalize_email(email: str) -> str:
@@ -46,17 +46,14 @@ def _normalize_email(email: str) -> str:
 
 
 def _check_rate_limit(request: Request) -> None:
-    client_ip = request.client.host if request.client else "unknown"
-    now = time.monotonic()
-    bucket = _rate_limit_buckets[client_ip]
-    while bucket and now - bucket[0] > RATE_LIMIT_WINDOW_SECONDS:
-        bucket.popleft()
-    if len(bucket) >= RATE_LIMIT_MAX_ATTEMPTS:
-        raise HTTPException(
-            status_code=status.HTTP_429_TOO_MANY_REQUESTS,
-            detail="Too many requests. Please retry later.",
-        )
-    bucket.append(now)
+    _auth_rate_limiter(request)
+
+
+def _auth_response(request: Request, user: User, token: str) -> dict:
+    result = {"user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
+    if request.headers.get("x-client-platform", "").strip().lower() == "mobile":
+        result.update({"access_token": token, "token_type": "bearer"})
+    return result
 
 
 def _record_login_failure(email: str) -> None:
@@ -390,7 +387,7 @@ class SupabaseAuthRequest(BaseModel):
 
 
 @router.post("/supabase")
-def supabase_auth(payload: SupabaseAuthRequest, response: Response, db: Session = Depends(get_db)):
+def supabase_auth(request: Request, payload: SupabaseAuthRequest, response: Response, db: Session = Depends(get_db)):
     token_payload = _verify_supabase_access_token(payload.access_token)
     email = token_payload.get("email")
     if not email:
@@ -440,21 +437,11 @@ def supabase_auth(payload: SupabaseAuthRequest, response: Response, db: Session 
 
     token = security.create_access_token({"sub": str(user.id), "email": user.email})
     security.set_auth_cookies(response, token)
-    return {
-        "access_token": token,
-        "token_type": "bearer",
-        "user": {
-            "id": user.id,
-            "email": user.email,
-            "full_name": user.full_name,
-            "photo_url": user.photo_url,
-            "role": user.role,
-        },
-    }
+    return _auth_response(request, user, token)
 
 
 @router.post("/supabase/form")
-def supabase_auth_form(access_token: str = Form(...), response: Response = None, db: Session = Depends(get_db)):
+def supabase_auth_form(request: Request, access_token: str = Form(...), response: Response = None, db: Session = Depends(get_db)):
     """
     Form-based Supabase auth endpoint: accepts application/x-www-form-urlencoded
     with access_token field. Useful as a fallback when XHR CORS fails.
@@ -505,17 +492,7 @@ def supabase_auth_form(access_token: str = Form(...), response: Response = None,
 
     token = security.create_access_token({"sub": str(user.id), "email": user.email})
     security.set_auth_cookies(response, token)
-    return {
-        "access_token": token,
-        "token_type": "bearer",
-        "user": {
-            "id": user.id,
-            "email": user.email,
-            "full_name": user.full_name,
-            "photo_url": user.photo_url,
-            "role": user.role,
-        },
-    }
+    return _auth_response(request, user, token)
 
 
 @router.post("/verify-email-request")
@@ -714,7 +691,7 @@ def login(request: Request, response: Response, payload: LoginRequest, db: Sessi
     expires_delta = timedelta(days=security.REFRESH_TOKEN_EXPIRE_DAYS) if payload.remember else None
     token = security.create_access_token({"sub": str(user.id), "email": user.email}, expires_delta=expires_delta)
     security.set_auth_cookies(response, token, remember=payload.remember)
-    return {"access_token": token, "token_type": "bearer", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
+    return _auth_response(request, user, token)
 
 
 @router.post("/login/form")
@@ -759,7 +736,7 @@ def login_form(
     expires_delta = timedelta(days=security.REFRESH_TOKEN_EXPIRE_DAYS) if remember else None
     token = security.create_access_token({"sub": str(user.id), "email": user.email}, expires_delta=expires_delta)
     security.set_auth_cookies(response, token, remember=remember)
-    return {"access_token": token, "token_type": "bearer", "user": {"id": user.id, "email": user.email, "full_name": user.full_name, "photo_url": user.photo_url, "role": user.role}}
+    return _auth_response(request, user, token)
 
 
 @router.post("/logout")

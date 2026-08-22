@@ -7,6 +7,7 @@ const API_BASE_URL = process.env.EXPO_PUBLIC_API_BASE_URL || 'http://localhost:8
 export const api = axios.create({
   baseURL: API_BASE_URL,
   timeout: 15000,
+  headers: { 'X-Client-Platform': 'mobile' },
 });
 
 // Attach auth token to requests if present

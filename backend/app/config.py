@@ -28,26 +28,12 @@ def _clean_origin(value: str | None) -> str | None:
 
 def get_allowed_origins() -> list[str]:
     raw = os.getenv("ALLOWED_ORIGINS")
-    origins = []
     if raw:
-        origins.extend(
+        return list(dict.fromkeys(
             cleaned for cleaned in (_clean_origin(item) for item in raw.split(",")) if cleaned
-        )
+        ))
 
-    for origin in DEFAULT_ALLOWED_ORIGINS:
-        if origin not in origins:
-            origins.append(origin)
-
-    # Keep the hosted frontend origins explicit even if the env is incomplete.
-    required_origins = (
-        "https://maa-kweli-langues.vercel.app",
-        "https://m-baara-langues.web.app",
-    )
-    for required in required_origins:
-        if required not in origins:
-            origins.append(required)
-
-    return origins
+    return DEFAULT_ALLOWED_ORIGINS.copy()
 
 
 def get_backend_proxy_target() -> str:

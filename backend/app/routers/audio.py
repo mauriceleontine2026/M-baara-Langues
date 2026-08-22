@@ -55,9 +55,23 @@ MAX_UPLOAD_BYTES = 10 * 1024 * 1024  # 10 MB
 ALLOWED_AUDIO_EXTENSIONS = {".mp3", ".wav", ".m4a", ".ogg", ".webm", ".aac", ".flac"}
 STALE_FILE_MAX_AGE_SECONDS = 24 * 60 * 60  # 24h
 
-_transcribe_rate_limiter = RateLimiter(max_attempts=5, window_seconds=60)
-_synthesize_rate_limiter = RateLimiter(max_attempts=10, window_seconds=60)
-_upload_rate_limiter = RateLimiter(max_attempts=10, window_seconds=60)
+_transcribe_rate_limiter = RateLimiter(name="audio-transcribe", max_attempts=5, window_seconds=60)
+_synthesize_rate_limiter = RateLimiter(name="audio-synthesize", max_attempts=10, window_seconds=60)
+_upload_rate_limiter = RateLimiter(name="audio-upload", max_attempts=10, window_seconds=60)
+
+
+async def _read_upload_with_limit(file: UploadFile, max_bytes: int) -> bytes:
+    chunks = []
+    total = 0
+    while True:
+        chunk = await file.read(min(1024 * 1024, max_bytes - total + 1))
+        if not chunk:
+            break
+        chunks.append(chunk)
+        total += len(chunk)
+        if total > max_bytes:
+            raise ValueError("Audio file too large")
+    return b"".join(chunks)
 
 
 def _purge_stale_audio_files(directory: Path) -> None:
@@ -106,7 +120,7 @@ async def transcribe_audio(
     if not file.filename:
         raise HTTPException(status_code=400, detail="No file provided")
     try:
-        contents = await file.read()
+        contents = await _read_upload_with_limit(file, MAX_UPLOAD_BYTES)
         suffix = validate_audio_upload_bytes(file.filename, contents)
     except ValueError as exc:
         detail = str(exc)
@@ -205,7 +219,7 @@ async def upload_audio(
         raise HTTPException(status_code=400, detail="No file provided")
 
     try:
-        contents = await file.read()
+        contents = await _read_upload_with_limit(file, MAX_UPLOAD_BYTES)
         suffix = validate_audio_upload_bytes(file.filename, contents)
     except ValueError as exc:
         detail = str(exc)

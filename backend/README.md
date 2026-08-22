@@ -12,6 +12,7 @@ Fichier d'environnement
 - Exemple `DATABASE_URL=postgresql+psycopg://mbaara:mbaara@127.0.0.1:5432/mbaara_dev`
 - Configurez `JWT_SECRET` et `JWT_ALGORITHM` pour signer les tokens JWT. La valeur par défaut est `HS256`.
 - Si vous utilisez `RS256`, `ES256`, `PS256` ou similaire, fournissez aussi `JWT_PRIVATE_KEY` et `JWT_PUBLIC_KEY` en format PEM.
+- En production multi-instance, configurez `REDIS_URL` afin de partager les limiteurs de débit entre instances.
 
 Installer et lancer l'API
 
