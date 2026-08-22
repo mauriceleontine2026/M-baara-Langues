@@ -1,10 +1,24 @@
-#env
+# Environment files: never commit secrets.
 .env
 .env.*
+!.env.example
+!.env.local.example
+!.env.production.example
+!.env.vercel.example
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.local.example
+!**/.env.production.example
+!**/.env.vercel.example
 .vercel.env
 client_secret_*.json
 backend/.vercel/
-backend/.env*
+backend/.env
+backend/.env.*
+!backend/.env.example
+!backend/.env.local.example
+!backend/.env.production.example
 
 # Logs
 /logs
@@ -25,13 +39,11 @@ dist-ssr
 __pycache__/
 *.pyc
 mbaara.db
- globline.txt
- temp_vercel_assets/
- tmp-rollup-json-test.js
- tmp-validate-json.cjs
- tmp-validate-json.js
+globline.txt
+temp_vercel_assets/
+tmp-rollup-json-test.js
+tmp-validate-json.cjs
+tmp-validate-json.js
 
-.env
 .vite
 .vercel
-.env*
