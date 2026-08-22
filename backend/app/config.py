@@ -28,12 +28,14 @@ def _clean_origin(value: str | None) -> str | None:
 
 def get_allowed_origins() -> list[str]:
     raw = os.getenv("ALLOWED_ORIGINS")
+    origins = []
     if raw:
-        return list(dict.fromkeys(
-            cleaned for cleaned in (_clean_origin(item) for item in raw.split(",")) if cleaned
-        ))
+        origins.extend(cleaned for cleaned in (_clean_origin(item) for item in raw.split(",")) if cleaned)
 
-    return DEFAULT_ALLOWED_ORIGINS.copy()
+    for origin in DEFAULT_ALLOWED_ORIGINS:
+        if origin not in origins:
+            origins.append(origin)
+    return origins
 
 
 def get_backend_proxy_target() -> str:
