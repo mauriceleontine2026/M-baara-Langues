@@ -1,4 +1,4 @@
-# M'Baara Project
+# Mǎa-kwɛ́lî Langues Project
 
 Use this repository to run and edit the app locally and connect it to the custom backend.
 

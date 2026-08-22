@@ -1,4 +1,4 @@
-# M'Baara Version History
+#Mǎa-kwɛ́lî Langues Version History
 
 ## v2.0.0 - 2026-08-12
 - ✅ Added all 38 languages from data folder
