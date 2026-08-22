@@ -122,6 +122,15 @@ html:not(.dark) .lesson-exam [class*="border-neutral-700"] {
   border-color: hsl(var(--border)) !important;
 }
 
+/* iOS zooms focused controls below 16px; keep the viewport stable on phones. */
+@media (max-width: 639px) {
+  input,
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+}
+
 html:not(.dark) .lesson-exam {
   background-color: hsl(var(--background)) !important;
   background-image: none !important;

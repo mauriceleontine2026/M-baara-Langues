@@ -1,5 +1,8 @@
 node_modules
+dist
 .git
+backend
+backend/**
 render.yaml
 replit.*
 .venv
@@ -11,6 +14,8 @@ render-cli.zip
 android
 ios
 *.log
+*.db
+tmp_*
 api/__pycache__/
 api/[...slug].py
 src/Dictionnaires des langues de l'application M'Baara

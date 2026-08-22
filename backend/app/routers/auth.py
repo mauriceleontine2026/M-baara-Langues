@@ -11,6 +11,7 @@ from email.message import EmailMessage
 
 from fastapi import APIRouter, HTTPException, Depends, Request, Response, status, Form, UploadFile, File
 from pydantic import BaseModel, EmailStr, Field, field_validator
+from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 import httpx
 from ..database import get_db
@@ -314,6 +315,32 @@ def _send_verification_email(user: User) -> None:
         raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Impossible d'envoyer l'e-mail de vérification.") from exc
 
 
+def _send_password_reset_email(user: User, token: str) -> None:
+    smtp_host = os.getenv("SMTP_HOST")
+    smtp_user = os.getenv("SMTP_USER")
+    smtp_password = os.getenv("SMTP_PASSWORD")
+    if not smtp_host or not smtp_user or not smtp_password:
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Le service d'envoi d'e-mails n'est pas configuré.")
+
+    message = EmailMessage()
+    message["Subject"] = "Réinitialise ton mot de passe - M'baara Langues"
+    message["From"] = os.getenv("SMTP_FROM", smtp_user)
+    message["To"] = user.email
+    message.set_content(
+        "Tu as demandé à réinitialiser ton mot de passe M'baara Langues.\n\n"
+        "Utilise ce lien dans les 15 minutes :\n"
+        f"{FRONTEND_URL}/reset-password?token={token}\n\n"
+        "Si tu n'es pas à l'origine de cette demande, ignore ce message."
+    )
+    try:
+        with smtplib.SMTP(smtp_host, int(os.getenv("SMTP_PORT", "587")), timeout=15) as smtp:
+            smtp.starttls()
+            smtp.login(smtp_user, smtp_password)
+            smtp.send_message(message)
+    except Exception as exc:
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Impossible d'envoyer l'e-mail de réinitialisation.") from exc
+
+
 def _smtp_is_configured() -> bool:
     return bool(os.getenv("SMTP_HOST") and os.getenv("SMTP_USER") and os.getenv("SMTP_PASSWORD"))
 
@@ -384,8 +411,14 @@ def supabase_auth(payload: SupabaseAuthRequest, response: Response, db: Session 
             email_verified=supabase_email_verified,
         )
         db.add(user)
-        db.commit()
-        db.refresh(user)
+        try:
+            db.commit()
+            db.refresh(user)
+        except IntegrityError:
+            db.rollback()
+            user = db.query(User).filter(User.email == email).first()
+            if not user:
+                raise
     else:
         updated = False
         if is_admin_email(email) and user.role != "admin":
@@ -663,7 +696,12 @@ def login(request: Request, response: Response, payload: LoginRequest, db: Sessi
         _record_login_failure(normalized_email)
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
     if not getattr(user, "email_verified", False):
-        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Email not verified")
+        if _smtp_is_configured():
+            _send_verification_email(user)
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Email not verified. A confirmation link has been sent to your inbox.",
+        )
 
     _clear_login_failures(normalized_email)
 
@@ -703,7 +741,12 @@ def login_form(
         _record_login_failure(normalized_email)
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
     if not getattr(user, "email_verified", False):
-        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Email not verified")
+        if _smtp_is_configured():
+            _send_verification_email(user)
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Email not verified. A confirmation link has been sent to your inbox.",
+        )
 
     _clear_login_failures(normalized_email)
 
@@ -823,9 +866,7 @@ def reset_password_request(request: Request, payload: ResetPasswordRequest, db: 
         token = secrets.token_urlsafe(32)
         token_hash = hashlib.sha256(token.encode("utf-8")).hexdigest()
         reset_tokens[token_hash] = (user.id, time.time() + (15 * 60))
-        # TODO: deliver `token` to the user out-of-band (email). No email
-        # provider is wired up yet, so nothing is sent today — this endpoint
-        # currently only issues a token without a delivery channel.
+        _send_password_reset_email(user, token)
     return {"status": "ok"}
 
 

@@ -14,6 +14,7 @@ import {
   GraduationCap,
   Home,
   LayoutDashboard,
+  LogIn,
   LogOut,
   Mic,
   Moon,
@@ -54,8 +55,8 @@ export default function AppLayout() {
   return (
     <div className="min-h-screen bg-background text-foreground transition-colors duration-300">
       <header className="fixed inset-x-0 top-0 z-40 border-b border-border/70 bg-background/85 shadow-[0_8px_30px_-24px_rgba(249,115,22,.65)] backdrop-blur-xl supports-[backdrop-filter]:bg-background/70">
-        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
-          <div className="group flex items-center gap-3">
+        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-2 px-3 sm:px-4">
+          <div className="group flex min-w-0 items-center gap-3">
             <img src="/logo.png" alt="Mǎa-kwɛ́lî Langues" className="h-9 w-9 rounded-full object-cover ring-2 ring-primary/30" />
             <div>
               <div className="font-heading text-base font-bold leading-none text-foreground transition-colors group-hover:text-primary">Mǎa-kwɛ́lî</div>
@@ -64,7 +65,7 @@ export default function AppLayout() {
           </div>
 
           <DropdownMenu>
-            <DropdownMenuTrigger className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-3 py-2 text-sm font-medium text-foreground shadow-sm transition hover:bg-secondary">
+            <DropdownMenuTrigger className="inline-flex max-w-[48vw] shrink-0 items-center gap-1.5 rounded-full border border-border bg-secondary/60 px-2 py-1.5 text-sm font-medium text-foreground shadow-sm transition hover:bg-secondary sm:gap-2 sm:px-3 sm:py-2">
               <div className="flex h-8 w-8 items-center justify-center overflow-hidden rounded-full bg-primary/15 text-primary ring-1 ring-border/80">
                 {user?.photo_url ? (
                   <img
@@ -72,6 +73,9 @@ export default function AppLayout() {
                     alt={user?.full_name || user?.email || "Profil"}
                     className="h-full w-full object-cover"
                     referrerPolicy="no-referrer"
+                    onError={(event) => {
+                      event.currentTarget.style.display = "none";
+                    }}
                   />
                 ) : (
                   <UserRound size={16} />
@@ -136,13 +140,22 @@ export default function AppLayout() {
                 {theme === "dark" ? "Mode clair" : "Mode sombre"}
               </DropdownMenuItem>
               <DropdownMenuSeparator />
-              <DropdownMenuItem onSelect={(event) => {
-                event.preventDefault();
-                handleLogout();
-              }} className="flex items-center gap-2 text-destructive focus:text-destructive">
-                <LogOut size={16} />
-                Déconnexion
-              </DropdownMenuItem>
+              {user ? (
+                <DropdownMenuItem onSelect={(event) => {
+                  event.preventDefault();
+                  handleLogout();
+                }} className="flex items-center gap-2 text-destructive focus:text-destructive">
+                  <LogOut size={16} />
+                  Déconnexion
+                </DropdownMenuItem>
+              ) : (
+                <DropdownMenuItem asChild>
+                  <Link to="/login" className="flex items-center gap-2 text-primary">
+                    <LogIn size={16} />
+                    Connexion
+                  </Link>
+                </DropdownMenuItem>
+              )}
             </DropdownMenuContent>
           </DropdownMenu>
         </div>

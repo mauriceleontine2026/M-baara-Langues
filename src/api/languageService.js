@@ -1,5 +1,6 @@
 import { request } from "./backendClient";
 import {
+  initializeLocalLanguageData,
   isLocalLanguage,
   getLocalLanguages,
   getLocalLanguage,
@@ -24,7 +25,6 @@ const mergeUniqueLanguages = (languages) => {
 };
 
 export async function getLanguages() {
-  // Always return local languages only.
   return getLocalLanguages();
 }
 
@@ -51,6 +51,7 @@ export async function getVocabularyForLanguage(languageCode) {
   }
 
   if (isLocalLanguage(languageCode)) {
+    await initializeLocalLanguageData();
     return getLocalVocabularyForLanguage(languageCode);
   }
 
@@ -77,6 +78,7 @@ export async function getVocabularyForLesson(languageCode, lessonNumber) {
   }
 
   if (isLocalLanguage(languageCode)) {
+    await initializeLocalLanguageData();
     return getLocalVocabularyForLesson(languageCode, lessonNumber);
   }
 
@@ -95,6 +97,7 @@ export async function getLessonsForLanguage(languageCode) {
   }
 
   if (isLocalLanguage(languageCode)) {
+    await initializeLocalLanguageData();
     return getLocalLessons(languageCode);
   }
 

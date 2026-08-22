@@ -499,29 +499,17 @@ const getLanguageMetaFromFolder = (folderName) => {
   };
 };
 
-const files = import.meta.glob("../data_langues/**/*.{json,JSON,Json}", {
-  eager: true,
+const dataFiles = import.meta.glob("../data_langues/**/*.{json,JSON,Json}", {
   query: "?raw",
   import: "default",
 });
-const rawFiles = Object.entries(files)
-  .map(([filePath, content]) => {
-    if (typeof content !== "string") {
-      return null;
-    }
-
-    try {
-      return { filePath, content: JSON.parse(content) };
-    } catch (error) {
-      console.error(`Unable to parse local data file: ${filePath}`, error);
-      return null;
-    }
-  })
-  .filter((item) => item && item.content && typeof item.content === "object");
 
 const localLanguageData = new Map();
+const curriculumByLanguage = new Map();
+let localLanguageDataInitialized = false;
+let localLanguageDataInitializationPromise = null;
 
-rawFiles.forEach(({ filePath, content }) => {
+const registerLanguageEntryFromPath = (filePath) => {
   const folderName = getLanguageFolderFromPath(filePath);
   if (!folderName) return;
 
@@ -534,10 +522,65 @@ rawFiles.forEach(({ filePath, content }) => {
       lessons: [],
     });
   }
+};
 
-  const languageEntry = localLanguageData.get(languageCode);
-  languageEntry.lessons.push({ filePath, content });
-});
+Object.keys(dataFiles).forEach(registerLanguageEntryFromPath);
+
+const rebuildCurriculumCache = () => {
+  curriculumByLanguage.clear();
+  localLanguageData.forEach((languageEntry, languageCode) => {
+    const curriculum = buildCurriculum(languageEntry.lessons);
+    curriculumByLanguage.set(languageCode, { levels: curriculum });
+  });
+};
+
+const initializeLocalLanguageData = async () => {
+  if (localLanguageDataInitialized) {
+    return true;
+  }
+
+  if (localLanguageDataInitializationPromise) {
+    return await localLanguageDataInitializationPromise;
+  }
+
+  localLanguageDataInitializationPromise = (async () => {
+    const parsedFiles = await Promise.all(
+      Object.entries(dataFiles).map(async ([filePath, importer]) => {
+        try {
+          const content = await importer();
+          if (typeof content !== "string") {
+            return null;
+          }
+
+          return { filePath, content: JSON.parse(content) };
+        } catch (error) {
+          console.error(`Unable to parse local data file: ${filePath}`, error);
+          return null;
+        }
+      })
+    );
+
+    parsedFiles.filter((item) => item && item.content && typeof item.content === "object").forEach(({ filePath, content }) => {
+      registerLanguageEntryFromPath(filePath);
+
+      const folderName = getLanguageFolderFromPath(filePath);
+      if (!folderName) return;
+
+      const languageCode = normalizeLanguageCode(folderName);
+      if (!languageCode) return;
+
+      const languageEntry = localLanguageData.get(languageCode);
+      if (!languageEntry) return;
+      languageEntry.lessons.push({ filePath, content });
+    });
+
+    rebuildCurriculumCache();
+    localLanguageDataInitialized = true;
+    return true;
+  })();
+
+  return await localLanguageDataInitializationPromise;
+};
 
 const parseLevelMeta = (value) => {
   const raw = String(value || "").trim();
@@ -779,13 +822,6 @@ const buildCurriculum = (lessons) => {
   return levels;
 };
 
-const curriculumByLanguage = new Map();
-
-localLanguageData.forEach((languageEntry, languageCode) => {
-  const curriculum = buildCurriculum(languageEntry.lessons);
-  curriculumByLanguage.set(languageCode, { levels: curriculum });
-});
-
 const getLocalLanguageMeta = (code) => {
   const normalized = normalizeLanguageCode(code);
   return localLanguageData.get(normalized)?.meta ?? null;
@@ -795,6 +831,14 @@ const getLocalLanguages = () => [...localLanguageData.values()].map((entry) => e
 
 const getCurriculumForLanguage = (code) => {
   const normalized = normalizeLanguageCode(code);
+  const languageEntry = localLanguageData.get(normalized);
+  if (languageEntry && Array.isArray(languageEntry.lessons) && languageEntry.lessons.length > 0) {
+    if (!curriculumByLanguage.has(normalized)) {
+      const curriculum = buildCurriculum(languageEntry.lessons);
+      curriculumByLanguage.set(normalized, { levels: curriculum });
+    }
+    return curriculumByLanguage.get(normalized) || { levels: [] };
+  }
   return curriculumByLanguage.get(normalized) || { levels: [] };
 };
 
@@ -858,6 +902,7 @@ const getVocabularyForLanguage = (code) => {
 const isLocalLanguage = (code) => Boolean(getLocalLanguageMeta(code));
 
 export {
+  initializeLocalLanguageData,
   isLocalLanguage,
   getLocalLanguages,
   getLocalLanguageMeta as getLocalLanguage,

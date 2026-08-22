@@ -52,19 +52,18 @@ export default function Home() {
   ];
 
   return (
-    <div className="p-6 lg:p-10 max-w-5xl mx-auto">
+    <div className="mx-auto w-full max-w-5xl min-w-0 p-4 sm:p-6 lg:p-10">
       {/* Welcome card */}
-      <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="relative mb-6 overflow-hidden rounded-[2rem] border border-border bg-gradient-to-br from-primary/20 via-card to-card p-8 shadow-[0_18px_55px_-48px_rgba(249,115,22,.3)]">
-        <div className="absolute -right-16 -top-20 h-56 w-56 rounded-full bg-primary/15 blur-3xl" />
+      <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="relative mb-6 w-full min-w-0 overflow-hidden rounded-[2rem] border border-border bg-gradient-to-br from-primary/20 via-card to-card p-5 shadow-[0_18px_55px_-48px_rgba(249,115,22,.3)] sm:p-8">
         
-        <div className="flex items-center gap-3 mb-4">
+        <div className="flex min-w-0 items-center gap-3 mb-4">
           <img src="/logo.png" alt="Mǎa-kwɛ́lî Langues" className="w-20 h-20 rounded-full object-cover shadow-md ring-2 ring-primary/30" />
-          <div>
+          <div className="min-w-0">
             <div className="font-heading font-bold text-lg text-foreground leading-none">Mǎa-kwɛ́lî</div>
             <span className="text-xs text-primary font-semibold">Langues</span>
           </div>
         </div>
-        <h1 className="font-heading text-3xl lg:text-4xl font-bold text-foreground mb-2">
+        <h1 className="break-words font-heading text-3xl lg:text-4xl font-bold text-foreground mb-2">
           Bienvenue sur Mǎa-kwɛ́lî Langues !{user?.full_name ? ` ${user.full_name}` : ""}
         </h1>
         <p className="text-muted-foreground mb-5">Commencez votre voyage linguistique africain et international</p>
@@ -113,7 +112,7 @@ export default function Home() {
             <img src="/logo.png" alt="Kôrô" className="w-16 h-16 rounded-full object-cover shadow-lg ring-2 ring-purple-400/30" />
             <span className="absolute -bottom-0.5 -right-0.5 w-4 h-4 rounded-full bg-green-500 border-2 border-card" />
           </div>
-          <div className="flex-1">
+          <div className="min-w-0 flex-1">
             <div className="flex items-center gap-2 mb-1"><GraduationCap size={18} className="text-purple-400" /><h2 className="font-heading text-xl font-bold text-foreground">Kôrô — Tuteur IA</h2></div>
             <p className="text-sm text-muted-foreground">Converse vocalement, pose tes questions, apprends à ton rythme avec ton assistant intelligent</p>
           </div>
@@ -122,7 +121,7 @@ export default function Home() {
       </Link>
 
       <Link to="/studio" className="block relative overflow-hidden rounded-2xl bg-gradient-to-r from-purple-600/20 via-card to-primary/15 border border-border p-6 mb-6 hover:border-primary/40 transition group">
-        <div className="flex items-center justify-between"><div><div className="flex items-center gap-2 mb-1"><Sparkles size={18} className="text-purple-400" /><h2 className="font-heading text-xl font-bold text-foreground">Studio IA &amp; Data Science</h2></div><p className="text-sm text-muted-foreground">Tuteur vocal · accent · scan OCR · ligues en direct</p></div><ArrowRight size={24} className="text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition" /></div>
+        <div className="flex min-w-0 items-center justify-between gap-4"><div className="min-w-0"><div className="flex min-w-0 items-center gap-2 mb-1"><Sparkles size={18} className="shrink-0 text-purple-400" /><h2 className="min-w-0 break-words font-heading text-xl font-bold text-foreground">Studio IA &amp; Data Science</h2></div><p className="text-sm text-muted-foreground">Tuteur vocal · accent · scan OCR · ligues en direct</p></div><ArrowRight size={24} className="shrink-0 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition" /></div>
       </Link>
     </div>
   );

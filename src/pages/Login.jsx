@@ -116,7 +116,7 @@ export default function Login() {
       const isInvalidCredentials = err?.status === 401 || normalized.toLowerCase().includes("invalid credentials") || normalized.toLowerCase().includes("identifiants incorrects") || normalized.toLowerCase().includes("identifiants invalides");
 
       if (isNotVerified) {
-        setError("Votre adresse e-mail doit être vérifiée avant de vous connecter.");
+        setError("Votre adresse e-mail doit être vérifiée avant de vous connecter. Un lien de confirmation vient d'être envoyé dans votre boîte mail.");
         setShowResendLink(true);
       } else if (isInvalidCredentials) {
         setError("Adresse e-mail ou mot de passe incorrect.");

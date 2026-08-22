@@ -162,7 +162,15 @@ export default function Profile() {
           <div className="relative shrink-0">
             <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-purple-500 flex items-center justify-center text-3xl font-bold text-white shadow-lg overflow-hidden">
               {user.photo_url ? (
-                <img src={user.photo_url} alt={user.full_name || "Profil"} className="w-full h-full object-cover" />
+                <img
+                  src={user.photo_url}
+                  alt={user.full_name || "Profil"}
+                  className="w-full h-full object-cover"
+                  referrerPolicy="no-referrer"
+                  onError={(event) => {
+                    event.currentTarget.style.display = "none";
+                  }}
+                />
               ) : (
                 initial
               )}

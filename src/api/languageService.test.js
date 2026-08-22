@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';import { getLocalLanguages } from '@/lib/localLanguageData';import { getLanguages, getLanguageByCode, getVocabularyForLanguage, getVocabularyForLesson, getLessonsForLanguage, getAllVocabulary, getAllLessons } from './languageService';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';import { getLocalLanguages, initializeLocalLanguageData } from '@/lib/localLanguageData';import { getLanguages, getLanguageByCode, getVocabularyForLanguage, getVocabularyForLesson, getLessonsForLanguage, getAllVocabulary, getAllLessons } from './languageService';
 
 const mockRequest = vi.fn();
 
@@ -42,13 +42,20 @@ describe('languageService local language data', () => {
     expect((await getLessonsForLanguage('moore')).some((lesson) => lesson.lesson_number === 1)).toBe(true);
   });
 
-  it('includes Guinean languages from the local data folders', () => {
+  it('includes Guinean languages from the local data folders', async () => {
+    await initializeLocalLanguageData();
     const languages = getLocalLanguages();
 
     expect(languages.some((lang) => lang.code === 'malinke')).toBe(true);
     expect(languages.some((lang) => lang.code === 'pular')).toBe(true);
     expect(languages.some((lang) => lang.code === 'guerze')).toBe(true);
     expect(languages.length).toBeGreaterThan(18);
+  });
+
+  it('initializes the local language dataset lazily', async () => {
+    const initialized = await initializeLocalLanguageData();
+    expect(initialized).toBeTruthy();
+    expect(getLocalLanguages().length).toBeGreaterThan(0);
   });
 
   it('fetches vocabulary by lesson from the backend', async () => {

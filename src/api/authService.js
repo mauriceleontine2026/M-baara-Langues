@@ -1,8 +1,39 @@
-import { request, notifyAuthChanged } from "./backendClient";
+import { request, notifyAuthChanged, setInMemoryAccessToken } from "./backendClient";
 import supabase, { signInWithGoogle } from "./supabaseClient";
 
+const PROD_BACKEND_FALLBACK = "https://mbaara-backend.vercel.app";
+
 const getAuthApiBaseUrl = () => {
-  return import.meta.env.VITE_API_BASE_URL || (typeof window !== "undefined" ? window.location.origin : "");
+  const configuredBaseUrl = import.meta.env.VITE_API_BASE_URL;
+  const normalizedConfigured = configuredBaseUrl && String(configuredBaseUrl).trim();
+
+  if (typeof window !== "undefined") {
+    const currentOrigin = window.location.origin;
+    const currentHost = new URL(currentOrigin).host;
+
+    if (normalizedConfigured) {
+      try {
+        const parsed = new URL(normalizedConfigured);
+        const parsedHost = parsed.host;
+        const staleHosts = new Set([
+          "maa-kweli-langues.vercel.app",
+          "mbaara-backend-m6hbjeb7i-m-baara-langues.vercel.app",
+        ]);
+
+        if (parsedHost === currentHost || staleHosts.has(parsedHost)) {
+          return currentOrigin;
+        }
+
+        return normalizedConfigured.replace(/\/$/, "");
+      } catch {
+        return currentOrigin;
+      }
+    }
+
+    return currentOrigin;
+  }
+
+  return normalizedConfigured ? normalizedConfigured.replace(/\/$/, "") : PROD_BACKEND_FALLBACK;
 };
 
 const clearUrlHash = () => {
@@ -26,24 +57,38 @@ const getSupabaseAccessTokenFromUrl = async () => {
   access_token = hashParams.get("access_token");
   error_description = hashParams.get("error_description") || hashParams.get("error");
 
+  // Supabase normally exchanges the PKCE `code` automatically while the
+  // client initializes. Read that session first so the code is not exchanged
+  // a second time by this callback handler.
+  if (!access_token) {
+    const { data, error } = await supabase.auth.getSession();
+    if (error) {
+      throw new Error(error.message || "Impossible de lire la session Google.");
+    }
+    access_token = data?.session?.access_token;
+  }
+
   if (!access_token) {
     const searchParams = parseParams(window.location.search || "");
     access_token = searchParams.get("access_token");
     error_description = error_description || searchParams.get("error_description") || searchParams.get("error");
   }
 
+  if (!access_token) {
+    const code = new URLSearchParams(window.location.search).get("code");
+    if (code) {
+      const { data, error } = await supabase.auth.exchangeCodeForSession(code);
+      if (error) {
+        throw new Error(error.message || error_description || "Impossible de terminer la connexion Google.");
+      }
+      access_token = data?.session?.access_token;
+    }
+  }
+
   if (!access_token && (window.location.hash || window.location.search)) {
     const { data, error } = await supabase.auth.getSessionFromUrl();
     if (error) {
       throw new Error(error.message || error_description || "Impossible de lire la session Supabase après redirection Google.");
-    }
-    access_token = data?.session?.access_token;
-  }
-
-  if (!access_token) {
-    const { data, error } = await supabase.auth.getSession();
-    if (error) {
-      throw new Error(error.message || "Impossible de lire la session Supabase.");
     }
     access_token = data?.session?.access_token;
   }
@@ -59,12 +104,29 @@ export async function completeGoogleLogin() {
     }
 
     const data = await request("POST", "/api/auth/supabase", { access_token });
+    const user = await syncSupabaseProfilePhoto(data?.user);
     notifyAuthChanged();
     clearUrlHash();
-    return data?.user || null;
+    return user;
   } catch (err) {
     clearUrlHash();
     throw err;
+  }
+}
+
+async function syncSupabaseProfilePhoto(user) {
+  if (!user?.id) return user || null;
+
+  const { data: sessionData } = await supabase.auth.getSession();
+  const metadata = sessionData?.session?.user?.user_metadata || {};
+  const photoUrl = metadata.avatar_url || metadata.picture || null;
+  if (!photoUrl || user.photo_url) return user;
+
+  try {
+    return await request("PUT", "/api/auth/me", { photo_url: photoUrl });
+  } catch {
+    // Authentication remains valid even when an avatar provider blocks the update.
+    return { ...user, photo_url: photoUrl };
   }
 }
 
@@ -269,6 +331,16 @@ export async function getCurrentUser() {
   return await request("GET", "/api/auth/me");
 }
 
+export async function restoreBackendSession() {
+  const { data, error } = await supabase.auth.getSession();
+  if (error || !data?.session?.access_token) return null;
+  const response = await request("POST", "/api/auth/supabase", {
+    access_token: data.session.access_token,
+  });
+  notifyAuthChanged();
+  return response?.user || null;
+}
+
 export async function updateMe(payload) {
   return await request("PUT", "/api/auth/me", payload);
 }
@@ -276,6 +348,7 @@ export async function updateMe(payload) {
 export async function logout() {
   try {
     await request("POST", "/api/auth/logout");
+    setInMemoryAccessToken(null);
     notifyAuthChanged();
     return;
   } catch (err) {
@@ -284,11 +357,13 @@ export async function logout() {
     if (message.includes("Failed to fetch")) {
       console.warn("XHR CORS failed for logout, attempting form-based logout fallback...");
       await logoutWithForm();
+      setInMemoryAccessToken(null);
       return;
     }
     if (status === 403 || message.includes("CSRF token missing or invalid")) {
       console.warn("Logout CSRF failed, retrying with form-based logout fallback...");
       await logoutWithForm();
+      setInMemoryAccessToken(null);
       return;
     }
     throw err;

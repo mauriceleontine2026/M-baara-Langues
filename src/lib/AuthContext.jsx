@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
-import { getCurrentUser, logout as logoutService } from '@/api/authService';
+import { getCurrentUser, logout as logoutService, restoreBackendSession } from '@/api/authService';
 
 const AuthContext = createContext(null);
 
@@ -57,7 +57,14 @@ export const AuthProvider = ({ children }) => {
     setAuthError(null);
 
     try {
-      const currentUser = await getCurrentUser();
+      let currentUser;
+      try {
+        currentUser = await getCurrentUser();
+      } catch (error) {
+        if (error?.status !== 401 && error?.status !== 403) throw error;
+        currentUser = await restoreBackendSession();
+        if (!currentUser) throw error;
+      }
       setUser(currentUser);
       setIsAuthenticated(Boolean(currentUser));
       persistUser(currentUser);

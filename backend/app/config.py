@@ -2,12 +2,14 @@ import os
 
 DEFAULT_ALLOWED_ORIGINS = [
     "https://maa-kweli-langues.vercel.app",
+    "https://maa-kwelilangues-8ipabazry-maa-kweli-langues.vercel.app",
     "https://maa-kwelilangues-o6nchawdz-maa-kweli-langues.vercel.app",
     "https://maa-kwelilangues-qt54s2sr4-maa-kweli-langues.vercel.app",
     "https://maa-kwelilangues-git-main-m-baara-langues.vercel.app",
     "https://mbaara-web.vercel.app",
     "https://mbaara-web-m-baara-langues.vercel.app",
     "https://m-baara-langues.web.app",
+    "https://mbaara-backend-m6hbjeb7i-m-baara-langues.vercel.app",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
     "http://localhost:4173",
@@ -59,4 +61,4 @@ def get_backend_proxy_target() -> str:
         cleaned = _clean_origin(candidate)
         if cleaned:
             return cleaned.rstrip("/")
-    return "https://mbaara-backend.vercel.app"
+    return "https://mbaara-backend-m6hbjeb7i-m-baara-langues.vercel.app"
